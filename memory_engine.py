@@ -63,10 +63,15 @@ class MemoryEngine:
             self.metadata = []
             return
 
-        embeddings = self.model.encode([chunk.text for chunk in chunks])
-        dimension = embeddings.shape[1]
-        index = faiss.IndexFlatL2(dimension)
-        index.add(embeddings)
+        index = None
+        batch_size = max(1, self.config.embedding_batch_size)
+        for start in range(0, len(chunks), batch_size):
+            batch = chunks[start : start + batch_size]
+            embeddings = self.model.encode([chunk.text for chunk in batch])
+            if index is None:
+                dimension = embeddings.shape[1]
+                index = faiss.IndexFlatL2(dimension)
+            index.add(embeddings)
         self.index = index
         self.metadata = chunks
         self._rotation_offset = 0
@@ -91,6 +96,7 @@ class MemoryEngine:
         run_metadata = {
             "created_at": datetime.now(timezone.utc).isoformat(),
             "embedding_model": self.config.embedding_model,
+            "embedding_batch_size": self.config.embedding_batch_size,
             "rerank_enabled": self.config.rerank_enabled,
             "rerank_model": self.config.rerank_model,
             "rerank_pool_size": self.config.rerank_pool_size,
