@@ -34,6 +34,7 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
 
         self.config = AppConfig.load()
         self.memory_engine = MemoryEngine(self.config)
+        self.memory_engine.load_index()
         self.file_handler = FileHandler(self.config, self.memory_engine)
         self.assistant = Assistant(self.config, self.memory_engine)
         self.editor_engine = EditorEngine(TestRunner(self.config))
@@ -45,6 +46,8 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
 
         self._build_ui()
         self._register_drag_and_drop()
+        if self.memory_engine.index is not None:
+            self.status_var.set("Loaded existing index.")
 
     def _build_ui(self) -> None:
         top_frame = tk.Frame(self)
@@ -233,12 +236,18 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         self.response_text.insert(tk.END, response)
 
         self.memory_text.delete("1.0", tk.END)
-        for chunk in memory_chunks:
-            rank = f"Rank {chunk.rank}" if chunk.rank is not None else "Rank ?"
-            score = f"{chunk.score:.4f}" if chunk.score is not None else "n/a"
+        if memory_chunks:
+            for chunk in memory_chunks:
+                rank = f"Rank {chunk.rank}" if chunk.rank is not None else "Rank ?"
+                score = f"{chunk.score:.4f}" if chunk.score is not None else "n/a"
+                self.memory_text.insert(
+                    tk.END,
+                    f"{rank} | Score: {score}\n{chunk.source_path}\n{chunk.text}\n\n",
+                )
+        else:
             self.memory_text.insert(
                 tk.END,
-                f"{rank} | Score: {score}\n{chunk.source_path}\n{chunk.text}\n\n",
+                "No memory chunks found. Run Reindex and try again.",
             )
 
         self.token_var.set(
