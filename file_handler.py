@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable, Dict, Iterable
@@ -26,6 +27,11 @@ class ParsedFile:
 class IngestStats:
     processed: int
     skipped: int
+    candidate_files: int
+    parse_seconds: float
+    embedding_seconds: float
+    faiss_seconds: float
+    chunk_count: int
 
 
 class FileHandler:
@@ -50,10 +56,15 @@ class FileHandler:
         kb_files, kb_stats = self._scan_workspace(
             knowledge_base, persist=False, progress_cb=progress_cb
         )
-        self.memory_engine.build_index(kb_files)
+        index_stats = self.memory_engine.build_index(kb_files)
         return IngestStats(
             processed=stats.processed + kb_stats.processed,
             skipped=stats.skipped + kb_stats.skipped,
+            candidate_files=stats.candidate_files + kb_stats.candidate_files,
+            parse_seconds=stats.parse_seconds + kb_stats.parse_seconds,
+            embedding_seconds=index_stats.embedding_seconds,
+            faiss_seconds=index_stats.faiss_seconds,
+            chunk_count=index_stats.chunk_count,
         )
 
     def ingest_paths(
@@ -64,6 +75,8 @@ class FileHandler:
         collected: Dict[str, str] = {}
         processed = 0
         skipped = 0
+        candidate_files = 0
+        parse_seconds = 0.0
         for raw_path in paths:
             path = Path(raw_path)
             if path.is_dir():
@@ -73,17 +86,30 @@ class FileHandler:
                 collected.update(files)
                 processed += stats.processed
                 skipped += stats.skipped
+                candidate_files += stats.candidate_files
+                parse_seconds += stats.parse_seconds
             elif path.is_file():
+                candidate_files += 1
                 if self._should_skip(path):
                     skipped += 1
                     continue
+                start_parse = time.perf_counter()
                 extracted = self._parse_file(path)
+                parse_seconds += time.perf_counter() - start_parse
                 if extracted:
                     self._persist_to_knowledge_base(extracted)
                     collected[extracted.path] = extracted.content
                     processed += 1
-        self.memory_engine.build_index(collected)
-        return IngestStats(processed=processed, skipped=skipped)
+        index_stats = self.memory_engine.build_index(collected)
+        return IngestStats(
+            processed=processed,
+            skipped=skipped,
+            candidate_files=candidate_files,
+            parse_seconds=parse_seconds,
+            embedding_seconds=index_stats.embedding_seconds,
+            faiss_seconds=index_stats.faiss_seconds,
+            chunk_count=index_stats.chunk_count,
+        )
 
     def knowledge_base_path(self) -> str:
         return self.config.knowledge_base_path().as_posix()
@@ -101,13 +127,16 @@ class FileHandler:
         total = len(candidates)
         processed = 0
         skipped = 0
+        parse_seconds = 0.0
         for idx, file_path in enumerate(candidates, start=1):
             if self._should_skip(file_path):
                 skipped += 1
                 if progress_cb:
                     progress_cb(idx, total, f"Skipped {file_path.name}")
                 continue
+            start_parse = time.perf_counter()
             extracted = self._parse_file(file_path)
+            parse_seconds += time.perf_counter() - start_parse
             if extracted:
                 if persist:
                     self._persist_to_knowledge_base(extracted)
@@ -116,7 +145,15 @@ class FileHandler:
                 processed += 1
             if progress_cb:
                 progress_cb(idx, total, f"Indexed {file_path.name}")
-        return parsed, IngestStats(processed=processed, skipped=skipped)
+        return parsed, IngestStats(
+            processed=processed,
+            skipped=skipped,
+            candidate_files=total,
+            parse_seconds=parse_seconds,
+            embedding_seconds=0.0,
+            faiss_seconds=0.0,
+            chunk_count=0,
+        )
 
     def _iter_candidate_files(
         self, path: Path, exclude_dirs: set[Path] | None = None

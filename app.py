@@ -374,13 +374,23 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
                 elif event == "done":
                     stats, prefix = payload
                     self._set_progress(0, 1)
+                    timing = (
+                        f"Candidates {stats.candidate_files} | "
+                        f"Parse {stats.parse_seconds:.2f}s | "
+                        f"Embed {stats.embedding_seconds:.2f}s | "
+                        f"FAISS {stats.faiss_seconds:.2f}s"
+                    )
                     if prefix:
                         self.status_var.set(
-                            f"{prefix} (indexed {stats.processed}, skipped {stats.skipped})"
+                            f"{prefix} (indexed {stats.processed}, "
+                            f"skipped {stats.skipped}, "
+                            f"chunks {stats.chunk_count}). {timing}"
                         )
                     else:
                         self.status_var.set(
-                            f"Indexing complete. Indexed {stats.processed}, skipped {stats.skipped}."
+                            f"Indexing complete. Indexed {stats.processed}, "
+                            f"skipped {stats.skipped}, "
+                            f"chunks {stats.chunk_count}. {timing}"
                         )
                     self._indexing = False
                 elif event == "error":

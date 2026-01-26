@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
+import time
 
 import faiss
 from sentence_transformers import CrossEncoder, SentenceTransformer
@@ -25,6 +26,13 @@ class TokenStats:
     input_tokens: int
     output_tokens: int
     estimated_cost: float
+
+
+@dataclass(frozen=True)
+class IndexStats:
+    embedding_seconds: float
+    faiss_seconds: float
+    chunk_count: int
 
 
 class MemoryEngine:
@@ -50,40 +58,59 @@ class MemoryEngine:
             if start < 0:
                 start = 0
 
-    def build_index(self, files: dict[str, str]) -> None:
+    def build_index(self, files: dict[str, str]) -> IndexStats:
         self.metadata = []
         if not files:
             self.index = None
-            return
+            return IndexStats(embedding_seconds=0.0, faiss_seconds=0.0, chunk_count=0)
 
         index = None
         batch_size = max(1, self.config.embedding_batch_size)
         batch: list[MemoryChunk] = []
+        embedding_seconds = 0.0
+        faiss_seconds = 0.0
         for path, content in files.items():
             for chunk in self._chunk_text(content):
                 batch.append(MemoryChunk(text=chunk, source_path=path))
                 if len(batch) < batch_size:
                     continue
+                start_embed = time.perf_counter()
                 embeddings = self.model.encode([item.text for item in batch])
+                embedding_seconds += time.perf_counter() - start_embed
                 if index is None:
                     dimension = embeddings.shape[1]
                     index = faiss.IndexFlatL2(dimension)
+                start_add = time.perf_counter()
                 index.add(embeddings)
+                faiss_seconds += time.perf_counter() - start_add
                 self.metadata.extend(batch)
                 batch = []
         if batch:
+            start_embed = time.perf_counter()
             embeddings = self.model.encode([item.text for item in batch])
+            embedding_seconds += time.perf_counter() - start_embed
             if index is None:
                 dimension = embeddings.shape[1]
                 index = faiss.IndexFlatL2(dimension)
+            start_add = time.perf_counter()
             index.add(embeddings)
+            faiss_seconds += time.perf_counter() - start_add
             self.metadata.extend(batch)
         self.index = index
         self._rotation_offset = 0
 
         if self.index is None:
-            return
+            return IndexStats(
+                embedding_seconds=embedding_seconds,
+                faiss_seconds=faiss_seconds,
+                chunk_count=len(self.metadata),
+            )
         self._persist_index(files)
+        return IndexStats(
+            embedding_seconds=embedding_seconds,
+            faiss_seconds=faiss_seconds,
+            chunk_count=len(self.metadata),
+        )
 
     def _persist_index(self, files: dict[str, str]) -> None:
         index_dir = self.config.index_path()
