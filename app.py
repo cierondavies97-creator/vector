@@ -3,6 +3,8 @@
 import difflib
 import importlib
 import importlib.util
+import queue
+import threading
 from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
@@ -38,6 +40,8 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         self.last_query = ""
         self.last_response = ""
         self.pending_edit: dict[str, str] | None = None
+        self._indexing = False
+        self._event_queue: queue.Queue[tuple[str, tuple]] = queue.Queue()
 
         self._build_ui()
         self._register_drag_and_drop()
@@ -168,12 +172,9 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         paths = self._parse_drop_data(event.data)
         if not paths:
             return
-        self.status_var.set("Indexing dropped items...")
-        self._set_progress(0, 1)
-        stats = self.file_handler.ingest_paths(paths, progress_cb=self._on_progress)
-        self._set_progress(0, 1)
-        self.status_var.set(
-            f"Indexed {stats.processed} items, skipped {stats.skipped}."
+        self._start_indexing(
+            "Indexing dropped items...",
+            lambda: self.file_handler.ingest_paths(paths, progress_cb=self._queue_progress),
         )
 
     def _parse_drop_data(self, data: str) -> list[str]:
@@ -205,14 +206,11 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         if not self.config.workspace_path:
             messagebox.showwarning("Missing directory", "Select a directory first.")
             return
-        self.status_var.set("Reindexing...")
-        self._set_progress(0, 1)
-        stats = self.file_handler.reindex_workspace(
-            self.config.workspace_path, progress_cb=self._on_progress
-        )
-        self._set_progress(0, 1)
-        self.status_var.set(
-            f"Reindex complete. Indexed {stats.processed}, skipped {stats.skipped}."
+        self._start_indexing(
+            "Reindexing...",
+            lambda: self.file_handler.reindex_workspace(
+                self.config.workspace_path, progress_cb=self._queue_progress
+            ),
         )
 
     def _cycle_memory(self) -> None:
@@ -255,19 +253,21 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         path = self.file_handler.save_note(note)
         self.notes_entry.delete("1.0", tk.END)
         if self.config.workspace_path:
-            stats = self.file_handler.reindex_workspace(
-                self.config.workspace_path, progress_cb=self._on_progress
-            )
-            self.status_var.set(
-                f"Saved note and reindexed: {path} (indexed {stats.processed}, skipped {stats.skipped})"
+            self._start_indexing(
+                "Reindexing after note save...",
+                lambda: self.file_handler.reindex_workspace(
+                    self.config.workspace_path, progress_cb=self._queue_progress
+                ),
+                done_message_prefix=f"Saved note and reindexed: {path}",
             )
         else:
-            stats = self.file_handler.ingest_paths(
-                [self.file_handler.knowledge_base_path()],
-                progress_cb=self._on_progress,
-            )
-            self.status_var.set(
-                f"Saved note and indexed notes: {path} (indexed {stats.processed}, skipped {stats.skipped})"
+            self._start_indexing(
+                "Indexing notes...",
+                lambda: self.file_handler.ingest_paths(
+                    [self.file_handler.knowledge_base_path()],
+                    progress_cb=self._queue_progress,
+                ),
+                done_message_prefix=f"Saved note and indexed notes: {path}",
             )
 
     def _save_chat(self) -> None:
@@ -333,14 +333,65 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         }
         self.status_var.set("Diff preview ready.")
 
-    def _on_progress(self, current: int, total: int, message: str) -> None:
-        self._set_progress(current, total)
-        self.status_var.set(message)
-        self.update_idletasks()
+    def _queue_progress(self, current: int, total: int, message: str) -> None:
+        self._event_queue.put(("progress", (current, total, message)))
 
     def _set_progress(self, current: int, total: int) -> None:
         self.progress["maximum"] = max(total, 1)
         self.progress["value"] = current
+
+    def _start_indexing(
+        self,
+        status_message: str,
+        task: callable,
+        done_message_prefix: str | None = None,
+    ) -> None:
+        if self._indexing:
+            messagebox.showinfo("Indexing", "Indexing is already running.")
+            return
+        self._indexing = True
+        self.status_var.set(status_message)
+        self._set_progress(0, 1)
+
+        def worker() -> None:
+            try:
+                stats = task()
+                self._event_queue.put(("done", (stats, done_message_prefix)))
+            except Exception as exc:  # pragma: no cover - UI error handling
+                self._event_queue.put(("error", (str(exc),)))
+
+        threading.Thread(target=worker, daemon=True).start()
+        self.after(100, self._poll_events)
+
+    def _poll_events(self) -> None:
+        try:
+            while True:
+                event, payload = self._event_queue.get_nowait()
+                if event == "progress":
+                    current, total, message = payload
+                    self._set_progress(current, total)
+                    self.status_var.set(message)
+                elif event == "done":
+                    stats, prefix = payload
+                    self._set_progress(0, 1)
+                    if prefix:
+                        self.status_var.set(
+                            f"{prefix} (indexed {stats.processed}, skipped {stats.skipped})"
+                        )
+                    else:
+                        self.status_var.set(
+                            f"Indexing complete. Indexed {stats.processed}, skipped {stats.skipped}."
+                        )
+                    self._indexing = False
+                elif event == "error":
+                    (message,) = payload
+                    self._set_progress(0, 1)
+                    self.status_var.set(f"Indexing failed: {message}")
+                    self._indexing = False
+        except queue.Empty:
+            pass
+        if self._indexing:
+            self.after(100, self._poll_events)
 
 
 if __name__ == "__main__":
