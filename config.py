@@ -15,6 +15,8 @@ class AppConfig:
     rerank_pool_size: int = 20
     max_file_mb: int = 50
     embedding_batch_size: int = 64
+    max_scan_depth: int | None = 25
+    skip_symlinks: bool = True
     knowledge_base_dir: str = "knowledge_base"
     index_dir: str = "vector_index"
     workspace_path: str | None = None
@@ -38,6 +40,8 @@ class AppConfig:
             rerank_pool_size=self.rerank_pool_size,
             max_file_mb=self.max_file_mb,
             embedding_batch_size=self.embedding_batch_size,
+            max_scan_depth=self.max_scan_depth,
+            skip_symlinks=self.skip_symlinks,
             knowledge_base_dir=self.knowledge_base_dir,
             index_dir=self.index_dir,
             workspace_path=workspace_path,
