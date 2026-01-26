@@ -35,6 +35,11 @@ class EditorEngine:
 
         updated_content = transform(original_content)
 
+        return self.edit_file_with_content(path, updated_content)
+
+    def edit_file_with_content(self, path: str, updated_content: str) -> EditResult:
+        file_path = Path(path)
+        original_content = file_path.read_text(encoding="utf-8")
         backup_path = file_path.with_suffix(file_path.suffix + ".bak")
         backup_path.write_text(original_content, encoding="utf-8")
         file_path.write_text(updated_content, encoding="utf-8")

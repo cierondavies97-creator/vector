@@ -1,6 +1,9 @@
 """Tkinter GUI entrypoint for the Vector AI Trading Assistant."""
 
+import difflib
 import importlib
+import importlib.util
+from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
@@ -34,6 +37,7 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         self.editor_engine = EditorEngine(TestRunner(self.config))
         self.last_query = ""
         self.last_response = ""
+        self.pending_edit: dict[str, str] | None = None
 
         self._build_ui()
         self._register_drag_and_drop()
@@ -118,6 +122,15 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         edit_button = tk.Button(main_frame, text="Apply Safe Edit", command=self._apply_edit)
         edit_button.grid(row=7, column=1, sticky="n", padx=4)
 
+        preview_button = tk.Button(main_frame, text="Preview Diff", command=self._preview_edit)
+        preview_button.grid(row=8, column=1, sticky="n", padx=4)
+
+        diff_label = tk.Label(main_frame, text="Diff Preview")
+        diff_label.grid(row=9, column=0, sticky="w")
+
+        self.diff_text = tk.Text(main_frame, height=10)
+        self.diff_text.grid(row=10, column=0, columnspan=2, sticky="nsew", padx=4, pady=4)
+
         self.token_var = tk.StringVar(value="Tokens in: 0 | Tokens out: 0 | Cost: $0.0000")
         token_label = tk.Label(self, textvariable=self.token_var, anchor="w")
         token_label.pack(fill=tk.X, padx=8, pady=2)
@@ -130,6 +143,7 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         main_frame.columnconfigure(1, weight=1)
         main_frame.rowconfigure(3, weight=1)
         main_frame.rowconfigure(8, weight=0)
+        main_frame.rowconfigure(10, weight=1)
 
     def _choose_directory(self) -> None:
         directory = filedialog.askdirectory()
@@ -247,12 +261,55 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         if not file_path or not instruction:
             messagebox.showwarning("Missing input", "Provide a file path and instruction.")
             return
+        if not self.pending_edit:
+            messagebox.showwarning("No preview", "Preview the diff before applying.")
+            return
+        if (
+            self.pending_edit.get("path") != file_path
+            or self.pending_edit.get("instruction") != instruction
+        ):
+            messagebox.showwarning("Stale preview", "Preview is outdated. Regenerate it.")
+            return
         self.status_var.set("Running safe edit...")
-        result = self.editor_engine.edit_file(
-            file_path,
-            lambda content: self.assistant.propose_edit(content, instruction),
+        result = self.editor_engine.edit_file_with_content(
+            file_path, self.pending_edit["updated"]
         )
         self.status_var.set(result.message)
+        if result.success:
+            self.pending_edit = None
+            self.diff_text.delete("1.0", tk.END)
+
+    def _preview_edit(self) -> None:
+        file_path = self.edit_path_entry.get().strip()
+        instruction = self.edit_instruction_entry.get("1.0", tk.END).strip()
+        if not file_path or not instruction:
+            messagebox.showwarning("Missing input", "Provide a file path and instruction.")
+            return
+        try:
+            original_content = Path(file_path).read_text(encoding="utf-8")
+        except OSError as exc:
+            messagebox.showerror("Read failed", f"Failed to read file: {exc}")
+            return
+        self.status_var.set("Generating diff preview...")
+        updated_content = self.assistant.propose_edit(original_content, instruction)
+        diff = difflib.unified_diff(
+            original_content.splitlines(),
+            updated_content.splitlines(),
+            fromfile=file_path,
+            tofile=f"{file_path} (edited)",
+            lineterm="",
+        )
+        diff_text = "\n".join(diff).strip()
+        if not diff_text:
+            diff_text = "No changes proposed."
+        self.diff_text.delete("1.0", tk.END)
+        self.diff_text.insert(tk.END, diff_text)
+        self.pending_edit = {
+            "path": file_path,
+            "instruction": instruction,
+            "updated": updated_content,
+        }
+        self.status_var.set("Diff preview ready.")
 
 
 if __name__ == "__main__":

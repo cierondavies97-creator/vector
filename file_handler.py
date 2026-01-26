@@ -25,8 +25,8 @@ class FileHandler:
         self.config.knowledge_base_path().mkdir(parents=True, exist_ok=True)
 
     def reindex_workspace(self, workspace_path: str) -> None:
-        files = self._scan_workspace(Path(workspace_path))
-        files.update(self._scan_workspace(self.config.knowledge_base_path()))
+        files = self._scan_workspace(Path(workspace_path), persist=True)
+        files.update(self._scan_workspace(self.config.knowledge_base_path(), persist=False))
         self.memory_engine.build_index(files)
 
     def ingest_paths(self, paths: list[str]) -> None:
@@ -34,23 +34,26 @@ class FileHandler:
         for raw_path in paths:
             path = Path(raw_path)
             if path.is_dir():
-                collected.update(self._scan_workspace(path))
+                collected.update(self._scan_workspace(path, persist=True))
             elif path.is_file():
                 extracted = self._parse_file(path)
                 if extracted:
+                    self._persist_to_knowledge_base(extracted)
                     collected[extracted.path] = extracted.content
         self.memory_engine.build_index(collected)
 
     def knowledge_base_path(self) -> str:
         return self.config.knowledge_base_path().as_posix()
 
-    def _scan_workspace(self, path: Path) -> Dict[str, str]:
+    def _scan_workspace(self, path: Path, persist: bool) -> Dict[str, str]:
         parsed: Dict[str, str] = {}
         for file_path in path.rglob("*"):
             if file_path.is_dir():
                 continue
             extracted = self._parse_file(file_path)
             if extracted:
+                if persist:
+                    self._persist_to_knowledge_base(extracted)
                 parsed[extracted.path] = extracted.content
         return parsed
 
@@ -78,6 +81,18 @@ class FileHandler:
             if stripped.startswith("#"):
                 comment_lines.append(stripped.lstrip("# "))
         return "\n".join(comment_lines)
+
+    def _persist_to_knowledge_base(self, parsed: ParsedFile) -> None:
+        knowledge_base = self.config.knowledge_base_path() / "ingested"
+        knowledge_base.mkdir(parents=True, exist_ok=True)
+        safe_name = (
+            parsed.path.replace(":", "")
+            .replace("\\", "__")
+            .replace("/", "__")
+            .strip("_")
+        )
+        target_path = knowledge_base / f"{safe_name}.txt"
+        target_path.write_text(parsed.content, encoding="utf-8")
 
     def save_note(self, note: str) -> str:
         knowledge_base = self.config.knowledge_base_path()
