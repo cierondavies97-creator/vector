@@ -24,21 +24,20 @@ class EditorEngine:
     def edit_file(self, path: str, transform: Callable[[str], str]) -> EditResult:
         file_path = Path(path)
         original_content = file_path.read_text(encoding="utf-8")
+        before = self.test_runner.run()
+        if before.returncode != 0:
+            return EditResult(
+                success=False,
+                message="Pre-edit tests failed; rollback applied.",
+                original_path=path,
+                backup_path=None,
+            )
+
         updated_content = transform(original_content)
 
         backup_path = file_path.with_suffix(file_path.suffix + ".bak")
         backup_path.write_text(original_content, encoding="utf-8")
         file_path.write_text(updated_content, encoding="utf-8")
-
-        before = self.test_runner.run()
-        if before.returncode != 0:
-            file_path.write_text(original_content, encoding="utf-8")
-            return EditResult(
-                success=False,
-                message="Pre-edit tests failed; rollback applied.",
-                original_path=path,
-                backup_path=backup_path.as_posix(),
-            )
 
         after = self.test_runner.run()
         if after.returncode != 0:

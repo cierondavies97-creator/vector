@@ -1,18 +1,24 @@
 """Tkinter GUI entrypoint for the Vector AI Trading Assistant."""
 
+import importlib
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-try:
-    from tkinterdnd2 import DND_FILES, TkinterDnD
-except ImportError:  # pragma: no cover - optional dependency
-    TkinterDnD = None
+_tkdnd_spec = importlib.util.find_spec("tkinterdnd2")
+if _tkdnd_spec is not None:
+    _tkdnd_module = importlib.import_module("tkinterdnd2")
+    DND_FILES = _tkdnd_module.DND_FILES
+    TkinterDnD = _tkdnd_module.TkinterDnD
+else:  # pragma: no cover - optional dependency
     DND_FILES = None
+    TkinterDnD = None
 
 from assistant import Assistant
 from config import AppConfig
+from editor_engine import EditorEngine
 from file_handler import FileHandler
 from memory_engine import MemoryEngine
+from test_runner import TestRunner
 
 
 class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
@@ -25,6 +31,9 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         self.memory_engine = MemoryEngine(self.config)
         self.file_handler = FileHandler(self.config, self.memory_engine)
         self.assistant = Assistant(self.config, self.memory_engine)
+        self.editor_engine = EditorEngine(TestRunner(self.config))
+        self.last_query = ""
+        self.last_response = ""
 
         self._build_ui()
         self._register_drag_and_drop()
@@ -57,6 +66,9 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
 
         clear_button = tk.Button(top_frame, text="Clear Output", command=self._clear_output)
         clear_button.pack(side=tk.LEFT, padx=4)
+
+        save_chat_button = tk.Button(top_frame, text="Save Chat", command=self._save_chat)
+        save_chat_button.pack(side=tk.LEFT, padx=4)
 
         main_frame = tk.Frame(self)
         main_frame.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
@@ -93,6 +105,23 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         )
         save_note_button.grid(row=5, column=1, sticky="n", padx=4)
 
+        edit_label = tk.Label(main_frame, text="Safe Edit (file path + instruction)")
+        edit_label.grid(row=6, column=0, sticky="w")
+
+        self.edit_path_entry = tk.Entry(main_frame)
+        self.edit_path_entry.grid(row=7, column=0, sticky="nsew", padx=4, pady=4)
+        self.edit_path_entry.insert(0, "path/to/file.py")
+
+        self.edit_instruction_entry = tk.Text(main_frame, height=3)
+        self.edit_instruction_entry.grid(row=8, column=0, sticky="nsew", padx=4, pady=4)
+
+        edit_button = tk.Button(main_frame, text="Apply Safe Edit", command=self._apply_edit)
+        edit_button.grid(row=7, column=1, sticky="n", padx=4)
+
+        self.token_var = tk.StringVar(value="Tokens in: 0 | Tokens out: 0 | Cost: $0.0000")
+        token_label = tk.Label(self, textvariable=self.token_var, anchor="w")
+        token_label.pack(fill=tk.X, padx=8, pady=2)
+
         self.status_var = tk.StringVar(value="Ready")
         status_label = tk.Label(self, textvariable=self.status_var, anchor="w")
         status_label.pack(fill=tk.X, padx=8, pady=4)
@@ -100,6 +129,7 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         main_frame.columnconfigure(0, weight=3)
         main_frame.columnconfigure(1, weight=1)
         main_frame.rowconfigure(3, weight=1)
+        main_frame.rowconfigure(8, weight=0)
 
     def _choose_directory(self) -> None:
         directory = filedialog.askdirectory()
@@ -172,16 +202,24 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
             return
         use_memory = self.use_memory_var.get()
         response, memory_chunks, stats = self.assistant.answer(query, use_memory)
+        self.last_query = query
+        self.last_response = response
         self.response_text.delete("1.0", tk.END)
         self.response_text.insert(tk.END, response)
 
         self.memory_text.delete("1.0", tk.END)
         for chunk in memory_chunks:
-            self.memory_text.insert(tk.END, f"{chunk.source_path}\n{chunk.text}\n\n")
+            rank = f"Rank {chunk.rank}" if chunk.rank is not None else "Rank ?"
+            score = f"{chunk.score:.4f}" if chunk.score is not None else "n/a"
+            self.memory_text.insert(
+                tk.END,
+                f"{rank} | Score: {score}\n{chunk.source_path}\n{chunk.text}\n\n",
+            )
 
-        self.status_var.set(
+        self.token_var.set(
             f"Tokens in: {stats.input_tokens} | Tokens out: {stats.output_tokens} | Cost: ${stats.estimated_cost:.4f}"
         )
+        self.status_var.set("Response generated.")
 
     def _save_note(self) -> None:
         note = self.notes_entry.get("1.0", tk.END).strip()
@@ -189,7 +227,32 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
             return
         path = self.file_handler.save_note(note)
         self.notes_entry.delete("1.0", tk.END)
-        self.status_var.set(f"Saved note to {path}")
+        if self.config.workspace_path:
+            self.file_handler.reindex_workspace(self.config.workspace_path)
+            self.status_var.set(f"Saved note and reindexed: {path}")
+        else:
+            self.file_handler.ingest_paths([self.file_handler.knowledge_base_path()])
+            self.status_var.set(f"Saved note and indexed notes: {path}")
+
+    def _save_chat(self) -> None:
+        if not self.last_query or not self.last_response:
+            messagebox.showwarning("No chat", "Ask a question first to save the chat.")
+            return
+        path = self.file_handler.save_chat(self.last_query, self.last_response)
+        self.status_var.set(f"Saved chat to {path}")
+
+    def _apply_edit(self) -> None:
+        file_path = self.edit_path_entry.get().strip()
+        instruction = self.edit_instruction_entry.get("1.0", tk.END).strip()
+        if not file_path or not instruction:
+            messagebox.showwarning("Missing input", "Provide a file path and instruction.")
+            return
+        self.status_var.set("Running safe edit...")
+        result = self.editor_engine.edit_file(
+            file_path,
+            lambda content: self.assistant.propose_edit(content, instruction),
+        )
+        self.status_var.set(result.message)
 
 
 if __name__ == "__main__":

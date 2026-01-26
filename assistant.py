@@ -54,3 +54,18 @@ class Assistant:
         text = response.choices[0].message.content or ""
         stats = self.memory_engine.token_stats(user_prompt, text)
         return text, memory_chunks, stats
+
+    def propose_edit(self, content: str, instruction: str) -> str:
+        system_prompt = (
+            "You are a careful code editor. Apply the user's instruction to the provided file "
+            "content. Return the full updated file content only, with no extra commentary."
+        )
+        user_prompt = f"Instruction:\n{instruction}\n\nFile content:\n{content}"
+        response = self.client.chat.completions.create(
+            model=self.config.model_name,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        )
+        return response.choices[0].message.content or ""

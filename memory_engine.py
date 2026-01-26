@@ -16,6 +16,8 @@ from config import AppConfig
 class MemoryChunk:
     text: str
     source_path: str
+    score: float | None = None
+    rank: int | None = None
 
 
 @dataclass(frozen=True)
@@ -66,9 +68,9 @@ class MemoryEngine:
         self.metadata = chunks
         self._rotation_offset = 0
 
-        self._persist_index()
+        self._persist_index(files)
 
-    def _persist_index(self) -> None:
+    def _persist_index(self, files: dict[str, str]) -> None:
         index_dir = self.config.index_path()
         index_dir.mkdir(parents=True, exist_ok=True)
         if self.index is None:
@@ -77,6 +79,23 @@ class MemoryEngine:
         metadata_path = index_dir / "metadata.txt"
         lines = [f"{chunk.source_path}\t{chunk.text}\n" for chunk in self.metadata]
         metadata_path.write_text("".join(lines), encoding="utf-8")
+        self._persist_run_metadata(index_dir, files)
+
+    def _persist_run_metadata(self, index_dir: Path, files: dict[str, str]) -> None:
+        from datetime import datetime, timezone
+        import json
+
+        run_metadata = {
+            "created_at": datetime.now(timezone.utc).isoformat(),
+            "embedding_model": self.config.embedding_model,
+            "chunk_size": self.config.chunk_size,
+            "chunk_overlap": self.config.chunk_overlap,
+            "file_count": len(files),
+            "chunk_count": len(self.metadata),
+            "source_files": sorted(files.keys()),
+        }
+        metadata_path = index_dir / "index_metadata.json"
+        metadata_path.write_text(json.dumps(run_metadata, indent=2), encoding="utf-8")
 
     def load_index(self) -> None:
         index_dir = self.config.index_path()
@@ -99,10 +118,19 @@ class MemoryEngine:
         embedding = self.model.encode([text])
         distances, indices = self.index.search(embedding, top_k)
         results = []
-        for idx in indices[0]:
+        for rank, idx in enumerate(indices[0], start=1):
             if idx < 0 or idx >= len(self.metadata):
                 continue
-            results.append(self.metadata[idx])
+            chunk = self.metadata[idx]
+            score = float(distances[0][rank - 1])
+            results.append(
+                MemoryChunk(
+                    text=chunk.text,
+                    source_path=chunk.source_path,
+                    score=score,
+                    rank=rank,
+                )
+            )
         if not results:
             return []
         rotation = self._rotation_offset % len(results)

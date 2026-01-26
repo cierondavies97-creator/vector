@@ -10,3 +10,4 @@ pyyaml
 tk
 matplotlib
 pytest
+tkinterdnd2

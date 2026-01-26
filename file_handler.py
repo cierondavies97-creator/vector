@@ -26,20 +26,49 @@ class FileHandler:
 
     def reindex_workspace(self, workspace_path: str) -> None:
         files = self._scan_workspace(Path(workspace_path))
+        files.update(self._scan_workspace(self.config.knowledge_base_path()))
         self.memory_engine.build_index(files)
+
+    def ingest_paths(self, paths: list[str]) -> None:
+        collected: Dict[str, str] = {}
+        for raw_path in paths:
+            path = Path(raw_path)
+            if path.is_dir():
+                collected.update(self._scan_workspace(path))
+            elif path.is_file():
+                extracted = self._parse_file(path)
+                if extracted:
+                    collected[extracted.path] = extracted.content
+        self.memory_engine.build_index(collected)
+
+    def knowledge_base_path(self) -> str:
+        return self.config.knowledge_base_path().as_posix()
 
     def _scan_workspace(self, path: Path) -> Dict[str, str]:
         parsed: Dict[str, str] = {}
         for file_path in path.rglob("*"):
             if file_path.is_dir():
                 continue
-            if file_path.suffix.lower() in {".txt", ".md"}:
-                parsed[file_path.as_posix()] = file_path.read_text(encoding="utf-8")
-            elif file_path.suffix.lower() == ".pdf":
-                parsed[file_path.as_posix()] = extract_text(file_path)
-            elif file_path.suffix.lower() == ".py":
-                parsed[file_path.as_posix()] = self._extract_python_comments(file_path)
+            extracted = self._parse_file(file_path)
+            if extracted:
+                parsed[extracted.path] = extracted.content
         return parsed
+
+    def _parse_file(self, file_path: Path) -> ParsedFile | None:
+        suffix = file_path.suffix.lower()
+        if suffix in {".txt", ".md"}:
+            return ParsedFile(
+                path=file_path.as_posix(),
+                content=file_path.read_text(encoding="utf-8"),
+            )
+        if suffix == ".pdf":
+            return ParsedFile(path=file_path.as_posix(), content=extract_text(file_path))
+        if suffix == ".py":
+            return ParsedFile(
+                path=file_path.as_posix(),
+                content=self._extract_python_comments(file_path),
+            )
+        return None
 
     def _extract_python_comments(self, path: Path) -> str:
         lines = path.read_text(encoding="utf-8").splitlines()
@@ -58,3 +87,16 @@ class FileHandler:
         note_path = knowledge_base / f"note_{note_id:03d}.txt"
         note_path.write_text(note, encoding="utf-8")
         return note_path.as_posix()
+
+    def save_chat(self, query: str, response: str) -> str:
+        from datetime import datetime
+
+        chat_dir = self.config.knowledge_base_path() / "chats"
+        chat_dir.mkdir(parents=True, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        chat_path = chat_dir / f"chat_{timestamp}.md"
+        chat_path.write_text(
+            f"# Chat {timestamp}\n\n## Query\n{query}\n\n## Response\n{response}\n",
+            encoding="utf-8",
+        )
+        return chat_path.as_posix()
