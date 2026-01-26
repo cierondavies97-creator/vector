@@ -3,13 +3,19 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
+try:
+    from tkinterdnd2 import DND_FILES, TkinterDnD
+except ImportError:  # pragma: no cover - optional dependency
+    TkinterDnD = None
+    DND_FILES = None
+
 from assistant import Assistant
 from config import AppConfig
 from file_handler import FileHandler
 from memory_engine import MemoryEngine
 
 
-class VectorApp(tk.Tk):
+class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
     def __init__(self) -> None:
         super().__init__()
         self.title("Vector AI Trading Assistant")
@@ -21,12 +27,15 @@ class VectorApp(tk.Tk):
         self.assistant = Assistant(self.config, self.memory_engine)
 
         self._build_ui()
+        self._register_drag_and_drop()
 
     def _build_ui(self) -> None:
         top_frame = tk.Frame(self)
         top_frame.pack(fill=tk.X, padx=8, pady=8)
 
-        self.directory_label = tk.Label(top_frame, text="No directory selected")
+        self.directory_label = tk.Label(
+            top_frame, text="No directory selected (or drag & drop files/folders)"
+        )
         self.directory_label.pack(side=tk.LEFT, padx=4)
 
         choose_button = tk.Button(
@@ -98,6 +107,48 @@ class VectorApp(tk.Tk):
             self.config = self.config.with_workspace(directory)
             self.directory_label.config(text=directory)
             self.status_var.set(f"Selected directory: {directory}")
+
+    def _register_drag_and_drop(self) -> None:
+        if TkinterDnD is None or DND_FILES is None:
+            self.status_var.set("Drag-and-drop unavailable (install tkinterdnd2).")
+            return
+        self.drop_target_register(DND_FILES)
+        self.dnd_bind("<<Drop>>", self._on_drop)
+
+    def _on_drop(self, event: tk.Event) -> None:
+        if not event.data:
+            return
+        paths = self._parse_drop_data(event.data)
+        if not paths:
+            return
+        self.status_var.set("Indexing dropped items...")
+        self.file_handler.ingest_paths(paths)
+        self.status_var.set(f"Indexed {len(paths)} dropped items.")
+
+    def _parse_drop_data(self, data: str) -> list[str]:
+        if data.startswith("{") and data.endswith("}"):
+            data = data[1:-1]
+        parts = []
+        buffer = ""
+        in_brace = False
+        for char in data:
+            if char == "{":
+                in_brace = True
+                buffer = ""
+            elif char == "}":
+                in_brace = False
+                if buffer:
+                    parts.append(buffer)
+                    buffer = ""
+            elif char == " " and not in_brace:
+                if buffer:
+                    parts.append(buffer)
+                    buffer = ""
+            else:
+                buffer += char
+        if buffer:
+            parts.append(buffer)
+        return parts
 
     def _reindex(self) -> None:
         if not self.config.workspace_path:
