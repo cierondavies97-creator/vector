@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Iterable
 
 import faiss
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import CrossEncoder, SentenceTransformer
 
 from config import AppConfig
 
@@ -31,6 +31,9 @@ class MemoryEngine:
     def __init__(self, config: AppConfig) -> None:
         self.config = config
         self.model = SentenceTransformer(config.embedding_model)
+        self.reranker = (
+            CrossEncoder(config.rerank_model) if config.rerank_enabled else None
+        )
         self.index = None
         self.metadata: list[MemoryChunk] = []
         self._rotation_offset = 0
@@ -88,6 +91,9 @@ class MemoryEngine:
         run_metadata = {
             "created_at": datetime.now(timezone.utc).isoformat(),
             "embedding_model": self.config.embedding_model,
+            "rerank_enabled": self.config.rerank_enabled,
+            "rerank_model": self.config.rerank_model,
+            "rerank_pool_size": self.config.rerank_pool_size,
             "chunk_size": self.config.chunk_size,
             "chunk_overlap": self.config.chunk_overlap,
             "file_count": len(files),
@@ -115,22 +121,47 @@ class MemoryEngine:
     def query(self, text: str, top_k: int) -> list[MemoryChunk]:
         if self.index is None:
             return []
+        pool_size = max(top_k, self.config.rerank_pool_size)
         embedding = self.model.encode([text])
-        distances, indices = self.index.search(embedding, top_k)
-        results = []
-        for rank, idx in enumerate(indices[0], start=1):
+        distances, indices = self.index.search(embedding, pool_size)
+        candidates = []
+        for idx in indices[0]:
             if idx < 0 or idx >= len(self.metadata):
                 continue
-            chunk = self.metadata[idx]
-            score = float(distances[0][rank - 1])
-            results.append(
+            candidates.append(self.metadata[idx])
+        if not candidates:
+            return []
+
+        if self.reranker:
+            pairs = [(text, chunk.text) for chunk in candidates]
+            rerank_scores = self.reranker.predict(pairs)
+            scored = list(zip(candidates, rerank_scores))
+            scored.sort(key=lambda item: item[1], reverse=True)
+            results = [
                 MemoryChunk(
                     text=chunk.text,
                     source_path=chunk.source_path,
-                    score=score,
+                    score=float(score),
                     rank=rank,
                 )
-            )
+                for rank, (chunk, score) in enumerate(scored[:top_k], start=1)
+            ]
+        else:
+            results = []
+            for rank, idx in enumerate(indices[0][:top_k], start=1):
+                if idx < 0 or idx >= len(self.metadata):
+                    continue
+                chunk = self.metadata[idx]
+                score = float(distances[0][rank - 1])
+                results.append(
+                    MemoryChunk(
+                        text=chunk.text,
+                        source_path=chunk.source_path,
+                        score=score,
+                        rank=rank,
+                    )
+                )
+
         if not results:
             return []
         rotation = self._rotation_offset % len(results)
