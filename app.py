@@ -5,7 +5,7 @@ import importlib
 import importlib.util
 from pathlib import Path
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, ttk
 
 _tkdnd_spec = importlib.util.find_spec("tkinterdnd2")
 if _tkdnd_spec is not None:
@@ -73,6 +73,9 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
 
         save_chat_button = tk.Button(top_frame, text="Save Chat", command=self._save_chat)
         save_chat_button.pack(side=tk.LEFT, padx=4)
+
+        self.progress = ttk.Progressbar(top_frame, length=200, mode="determinate")
+        self.progress.pack(side=tk.LEFT, padx=8)
 
         main_frame = tk.Frame(self)
         main_frame.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
@@ -166,8 +169,12 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         if not paths:
             return
         self.status_var.set("Indexing dropped items...")
-        self.file_handler.ingest_paths(paths)
-        self.status_var.set(f"Indexed {len(paths)} dropped items.")
+        self._set_progress(0, 1)
+        stats = self.file_handler.ingest_paths(paths, progress_cb=self._on_progress)
+        self._set_progress(0, 1)
+        self.status_var.set(
+            f"Indexed {stats.processed} items, skipped {stats.skipped}."
+        )
 
     def _parse_drop_data(self, data: str) -> list[str]:
         if data.startswith("{") and data.endswith("}"):
@@ -199,8 +206,14 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
             messagebox.showwarning("Missing directory", "Select a directory first.")
             return
         self.status_var.set("Reindexing...")
-        self.file_handler.reindex_workspace(self.config.workspace_path)
-        self.status_var.set("Reindex complete")
+        self._set_progress(0, 1)
+        stats = self.file_handler.reindex_workspace(
+            self.config.workspace_path, progress_cb=self._on_progress
+        )
+        self._set_progress(0, 1)
+        self.status_var.set(
+            f"Reindex complete. Indexed {stats.processed}, skipped {stats.skipped}."
+        )
 
     def _cycle_memory(self) -> None:
         self.memory_engine.rotate_memory()
@@ -242,11 +255,20 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
         path = self.file_handler.save_note(note)
         self.notes_entry.delete("1.0", tk.END)
         if self.config.workspace_path:
-            self.file_handler.reindex_workspace(self.config.workspace_path)
-            self.status_var.set(f"Saved note and reindexed: {path}")
+            stats = self.file_handler.reindex_workspace(
+                self.config.workspace_path, progress_cb=self._on_progress
+            )
+            self.status_var.set(
+                f"Saved note and reindexed: {path} (indexed {stats.processed}, skipped {stats.skipped})"
+            )
         else:
-            self.file_handler.ingest_paths([self.file_handler.knowledge_base_path()])
-            self.status_var.set(f"Saved note and indexed notes: {path}")
+            stats = self.file_handler.ingest_paths(
+                [self.file_handler.knowledge_base_path()],
+                progress_cb=self._on_progress,
+            )
+            self.status_var.set(
+                f"Saved note and indexed notes: {path} (indexed {stats.processed}, skipped {stats.skipped})"
+            )
 
     def _save_chat(self) -> None:
         if not self.last_query or not self.last_response:
@@ -310,6 +332,15 @@ class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
             "updated": updated_content,
         }
         self.status_var.set("Diff preview ready.")
+
+    def _on_progress(self, current: int, total: int, message: str) -> None:
+        self._set_progress(current, total)
+        self.status_var.set(message)
+        self.update_idletasks()
+
+    def _set_progress(self, current: int, total: int) -> None:
+        self.progress["maximum"] = max(total, 1)
+        self.progress["value"] = current
 
 
 if __name__ == "__main__":

@@ -13,6 +13,7 @@ class AppConfig:
     rerank_enabled: bool = True
     rerank_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
     rerank_pool_size: int = 20
+    max_file_mb: int = 50
     knowledge_base_dir: str = "knowledge_base"
     index_dir: str = "vector_index"
     workspace_path: str | None = None
@@ -34,6 +35,7 @@ class AppConfig:
             rerank_enabled=self.rerank_enabled,
             rerank_model=self.rerank_model,
             rerank_pool_size=self.rerank_pool_size,
+            max_file_mb=self.max_file_mb,
             knowledge_base_dir=self.knowledge_base_dir,
             index_dir=self.index_dir,
             workspace_path=workspace_path,
