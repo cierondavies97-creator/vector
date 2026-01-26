@@ -39,6 +39,14 @@ Supported formats:
 
 .pdf → Parsed using pdfminer.six
 
+.json → Parsed as structured text
+
+.docx → Parsed using python-docx
+
+.xlsx → Parsed using openpyxl
+
+.pptx → Parsed using python-pptx
+
 .py → Extracts only comments for semantic memory
 
 Save all to knowledge_base/
@@ -190,14 +198,11 @@ GitHub Repo	Structured with README, license, versioned releases
 openai
 sentence-transformers
 faiss-cpu
-PyPDF2
 pdfminer.six
 python-docx
 openpyxl
 python-pptx
-pyyaml
 tk
-matplotlib
 pytest
 
 🧠 8. Smart Query Examples
