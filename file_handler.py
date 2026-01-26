@@ -39,14 +39,18 @@ class FileHandler:
         workspace_path: str,
         progress_cb: Callable[[int, int, str], None] | None = None,
     ) -> IngestStats:
-        files, stats = self._scan_workspace(
-            Path(workspace_path), persist=True, progress_cb=progress_cb
+        knowledge_base = self.config.knowledge_base_path()
+        _, stats = self._scan_workspace(
+            Path(workspace_path),
+            persist=True,
+            collect=False,
+            exclude_dirs={knowledge_base},
+            progress_cb=progress_cb,
         )
         kb_files, kb_stats = self._scan_workspace(
-            self.config.knowledge_base_path(), persist=False, progress_cb=progress_cb
+            knowledge_base, persist=False, progress_cb=progress_cb
         )
-        files.update(kb_files)
-        self.memory_engine.build_index(files)
+        self.memory_engine.build_index(kb_files)
         return IngestStats(
             processed=stats.processed + kb_stats.processed,
             skipped=stats.skipped + kb_stats.skipped,
@@ -88,10 +92,12 @@ class FileHandler:
         self,
         path: Path,
         persist: bool,
+        collect: bool = True,
+        exclude_dirs: set[Path] | None = None,
         progress_cb: Callable[[int, int, str], None] | None = None,
     ) -> tuple[Dict[str, str], IngestStats]:
         parsed: Dict[str, str] = {}
-        candidates = list(self._iter_candidate_files(path))
+        candidates = list(self._iter_candidate_files(path, exclude_dirs=exclude_dirs))
         total = len(candidates)
         processed = 0
         skipped = 0
@@ -105,15 +111,24 @@ class FileHandler:
             if extracted:
                 if persist:
                     self._persist_to_knowledge_base(extracted)
-                parsed[extracted.path] = extracted.content
+                if collect:
+                    parsed[extracted.path] = extracted.content
                 processed += 1
             if progress_cb:
                 progress_cb(idx, total, f"Indexed {file_path.name}")
         return parsed, IngestStats(processed=processed, skipped=skipped)
 
-    def _iter_candidate_files(self, path: Path) -> Iterable[Path]:
+    def _iter_candidate_files(
+        self, path: Path, exclude_dirs: set[Path] | None = None
+    ) -> Iterable[Path]:
+        exclude_dirs = {excluded.resolve() for excluded in (exclude_dirs or set())}
         for file_path in path.rglob("*"):
             if file_path.is_dir():
+                continue
+            resolved = file_path.resolve()
+            if exclude_dirs and any(
+                excluded in resolved.parents for excluded in exclude_dirs
+            ):
                 continue
             if file_path.suffix.lower() in {
                 ".txt",
