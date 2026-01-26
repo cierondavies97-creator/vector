@@ -1,0 +1,8 @@
+faiss-cpu
+openpyxl
+openai
+pdfminer.six
+python-docx
+python-pptx
+sentence-transformers
+tkinterdnd2
