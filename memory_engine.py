@@ -38,44 +38,51 @@ class MemoryEngine:
         self.metadata: list[MemoryChunk] = []
         self._rotation_offset = 0
 
-    def _chunk_text(self, text: str) -> list[str]:
+    def _chunk_text(self, text: str) -> Iterable[str]:
         tokens = text.split()
-        chunks = []
         start = 0
         while start < len(tokens):
             end = min(start + self.config.chunk_size, len(tokens))
             chunk = " ".join(tokens[start:end])
-            chunks.append(chunk)
+            if chunk.strip():
+                yield chunk
             start = end - self.config.chunk_overlap
             if start < 0:
                 start = 0
-        return chunks
 
     def build_index(self, files: dict[str, str]) -> None:
-        chunks: list[MemoryChunk] = []
-        for path, content in files.items():
-            for chunk in self._chunk_text(content):
-                if chunk.strip():
-                    chunks.append(MemoryChunk(text=chunk, source_path=path))
-
-        if not chunks:
+        self.metadata = []
+        if not files:
             self.index = None
-            self.metadata = []
             return
 
         index = None
         batch_size = max(1, self.config.embedding_batch_size)
-        for start in range(0, len(chunks), batch_size):
-            batch = chunks[start : start + batch_size]
-            embeddings = self.model.encode([chunk.text for chunk in batch])
+        batch: list[MemoryChunk] = []
+        for path, content in files.items():
+            for chunk in self._chunk_text(content):
+                batch.append(MemoryChunk(text=chunk, source_path=path))
+                if len(batch) < batch_size:
+                    continue
+                embeddings = self.model.encode([item.text for item in batch])
+                if index is None:
+                    dimension = embeddings.shape[1]
+                    index = faiss.IndexFlatL2(dimension)
+                index.add(embeddings)
+                self.metadata.extend(batch)
+                batch = []
+        if batch:
+            embeddings = self.model.encode([item.text for item in batch])
             if index is None:
                 dimension = embeddings.shape[1]
                 index = faiss.IndexFlatL2(dimension)
             index.add(embeddings)
+            self.metadata.extend(batch)
         self.index = index
-        self.metadata = chunks
         self._rotation_offset = 0
 
+        if self.index is None:
+            return
         self._persist_index(files)
 
     def _persist_index(self, files: dict[str, str]) -> None:
