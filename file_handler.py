@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -123,12 +124,13 @@ class FileHandler:
         progress_cb: Callable[[int, int, str], None] | None = None,
     ) -> tuple[Dict[str, str], IngestStats]:
         parsed: Dict[str, str] = {}
-        candidates = list(self._iter_candidate_files(path, exclude_dirs=exclude_dirs))
-        total = len(candidates)
+        total = self._count_candidate_files(path, exclude_dirs=exclude_dirs)
         processed = 0
         skipped = 0
         parse_seconds = 0.0
-        for idx, file_path in enumerate(candidates, start=1):
+        for idx, file_path in enumerate(
+            self._iter_candidate_files(path, exclude_dirs=exclude_dirs), start=1
+        ):
             if self._should_skip(file_path):
                 skipped += 1
                 if progress_cb:
@@ -155,29 +157,67 @@ class FileHandler:
             chunk_count=0,
         )
 
+    def _count_candidate_files(
+        self, path: Path, exclude_dirs: set[Path] | None = None
+    ) -> int:
+        return sum(
+            1 for _ in self._iter_candidate_files(path, exclude_dirs=exclude_dirs)
+        )
+
     def _iter_candidate_files(
         self, path: Path, exclude_dirs: set[Path] | None = None
     ) -> Iterable[Path]:
         exclude_dirs = {excluded.resolve() for excluded in (exclude_dirs or set())}
-        for file_path in path.rglob("*"):
-            if file_path.is_dir():
-                continue
-            resolved = file_path.resolve()
-            if exclude_dirs and any(
-                excluded in resolved.parents for excluded in exclude_dirs
-            ):
-                continue
-            if file_path.suffix.lower() in {
-                ".txt",
-                ".md",
-                ".pdf",
-                ".py",
-                ".json",
-                ".docx",
-                ".xlsx",
-                ".pptx",
-            }:
-                yield file_path
+        root = path.resolve()
+        root_depth = len(root.parts)
+        allowed_suffixes = {
+            ".txt",
+            ".md",
+            ".pdf",
+            ".py",
+            ".json",
+            ".docx",
+            ".xlsx",
+            ".pptx",
+        }
+        max_depth = self.config.max_scan_depth
+        for dirpath, dirnames, filenames in os.walk(root, followlinks=False):
+            current_dir = Path(dirpath)
+            current_depth = len(current_dir.parts) - root_depth
+            if max_depth is not None and current_depth >= max_depth:
+                dirnames[:] = []
+            else:
+                dirnames[:] = [
+                    name
+                    for name in dirnames
+                    if self._should_descend(current_dir / name, exclude_dirs)
+                ]
+            for filename in filenames:
+                file_path = current_dir / filename
+                if self.config.skip_symlinks and file_path.is_symlink():
+                    continue
+                if self._is_excluded_path(file_path, exclude_dirs):
+                    continue
+                if file_path.suffix.lower() in allowed_suffixes:
+                    yield file_path
+
+    def _should_descend(self, path: Path, exclude_dirs: set[Path]) -> bool:
+        if self.config.skip_symlinks and path.is_symlink():
+            return False
+        if self._is_excluded_path(path, exclude_dirs):
+            return False
+        return True
+
+    def _is_excluded_path(self, path: Path, exclude_dirs: set[Path]) -> bool:
+        if not exclude_dirs:
+            return False
+        try:
+            resolved = path.resolve()
+        except OSError:
+            return True
+        return resolved in exclude_dirs or any(
+            excluded in resolved.parents for excluded in exclude_dirs
+        )
 
     def _should_skip(self, path: Path) -> bool:
         max_bytes = self.config.max_file_mb * 1024 * 1024

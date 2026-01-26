@@ -47,6 +47,8 @@ class MemoryEngine:
         self._rotation_offset = 0
 
     def _chunk_text(self, text: str) -> Iterable[str]:
+        if self.config.chunk_overlap >= self.config.chunk_size:
+            raise ValueError("chunk_overlap must be less than chunk_size")
         tokens = text.split()
         start = 0
         while start < len(tokens):
@@ -119,8 +121,9 @@ class MemoryEngine:
             return
         faiss.write_index(self.index, str(index_dir / "faiss.index"))
         metadata_path = index_dir / "metadata.txt"
-        lines = [f"{chunk.source_path}\t{chunk.text}\n" for chunk in self.metadata]
-        metadata_path.write_text("".join(lines), encoding="utf-8")
+        with metadata_path.open("w", encoding="utf-8") as metadata_file:
+            for chunk in self.metadata:
+                metadata_file.write(f"{chunk.source_path}\t{chunk.text}\n")
         self._persist_run_metadata(index_dir, files)
 
     def _persist_run_metadata(self, index_dir: Path, files: dict[str, str]) -> None:
@@ -161,7 +164,10 @@ class MemoryEngine:
     def query(self, text: str, top_k: int) -> list[MemoryChunk]:
         if self.index is None:
             return []
-        pool_size = max(top_k, self.config.rerank_pool_size)
+        if self.reranker:
+            pool_size = max(top_k * 2, self.config.rerank_pool_size)
+        else:
+            pool_size = top_k
         embedding = self.model.encode([text])
         distances, indices = self.index.search(embedding, pool_size)
         candidates = []
