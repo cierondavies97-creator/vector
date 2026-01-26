@@ -1,0 +1,12 @@
+openai
+sentence-transformers
+faiss-cpu
+PyPDF2
+pdfminer.six
+python-docx
+openpyxl
+python-pptx
+pyyaml
+tk
+matplotlib
+pytest
