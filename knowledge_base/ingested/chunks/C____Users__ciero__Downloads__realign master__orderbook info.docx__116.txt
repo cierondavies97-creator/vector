@@ -1,0 +1,13 @@
+N∗ = c(1) + c(2)Rt + c(3)Xt
+t	t	t	t
+2
+V ∗((P , R , X )) = eµZ + Z
+(4)
+(5)
+(6)
+(7)  2
+(8)	2
+(9)
+t	t	t	t
+2  · Pt · (ct	+ ct  Rt + ct  Xt + ct  Rt + ct  Xt + ct  RtXt)
+where c(k), 1 ≤ k ≤ 9, are constants (independent of Pt, Rt, Xt).

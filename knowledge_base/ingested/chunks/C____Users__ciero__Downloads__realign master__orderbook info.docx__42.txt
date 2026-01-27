@@ -1,0 +1,2 @@
+The new OrderBook ob3 has re-introduced a Buy LO at the price level of 100 (now with 80 shares), as depicted in Figure 1.5.
+Now let’s submit a Sell LO that says we’d like to sell 60 shares as long as the transacted price is greater than or equal to 104. Our Sell LO should get added to the Sell LOs side of the OB.

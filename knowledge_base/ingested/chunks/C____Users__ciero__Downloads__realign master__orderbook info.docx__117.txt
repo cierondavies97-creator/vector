@@ -1,0 +1,1 @@
+As an exercise, we recommend implementing the above (LPT) model by customizing OptimalOrderExecution to compare the obtained Optimal Value Function and Optimal Pol-icy against the closed-form solution (you can find the exact expressions for the c(k) coeﬀi-

@@ -1,0 +1,4 @@
+V ∗(T, ST , WT , IT ) = −e−γ·(WT +IT ·ST )
+Next, we make an educated guess for the functional form of V ∗(t, St, Wt, It):
+V ∗(t, St, Wt, It) = −e−γ·(Wt+θ(t,St,It))	(1.11)
+to reduce the problem to a Partial Differential Equation (PDE) in terms of θ(t, St, It).

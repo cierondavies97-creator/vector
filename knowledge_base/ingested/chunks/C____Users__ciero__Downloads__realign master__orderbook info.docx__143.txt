@@ -1,0 +1,2 @@
+t	t
+Since infinitesimal Poisson random variables dX(b) (shares hit in time interval from t to t + dt) and dX(a) (shares lifted in time interval from t to t + dt) are Bernoulli random variables (shares hit/lifted within time interval of duration dt will be 0 or 1), N (b) and N (a)

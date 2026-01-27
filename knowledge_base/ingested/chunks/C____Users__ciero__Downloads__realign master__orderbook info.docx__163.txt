@@ -1,0 +1,8 @@
+⇒ Q(b) = θ(t, St, It + 1) − θ(t, St, It)	(1.14)
+Likewise for Q(a), we get:
+Q(a) = θ(t, St, It) − θ(t, St, It − 1)	(1.15)
+Using Equations (1.14) and (1.15), bring Q(b) and Q(a) in the PDE for θ:
+∂θ	σ2
+∂2θ
+t
+∂θ  2

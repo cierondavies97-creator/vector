@@ -1,0 +1,3 @@
+Purely Temporary Price Impact, i.e., the price Pt snaps back after the Temporary Price Impact (no Permanent effect of Market Orders on future prices).
+The specific model is:
+Pt+1 = Pt · eZt Xt+1 = ρ · Xt + ηt

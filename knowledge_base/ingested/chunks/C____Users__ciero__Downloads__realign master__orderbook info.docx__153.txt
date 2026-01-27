@@ -1,0 +1,5 @@
+t	t
++ (1 − λ(b) · dt − λ(a) · dt) · V ∗(t, St, Wt, It)
+t	t
+− V ∗(t, St, Wt, It)} = 0
+Next, we want to convert the HJB Equation to a Partial Differential Equation (PDE). We can simplify the above HJB equation with a few observations:

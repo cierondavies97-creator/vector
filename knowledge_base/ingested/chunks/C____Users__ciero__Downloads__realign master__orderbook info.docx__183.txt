@@ -1,0 +1,6 @@
+suming a fairly standard functional form for f (b) and f (a):
+f (b)(δ) = f (a)(δ) = c · e−k·δ
+This reduces Equations (1.16) and (1.17) to:
+δ(b)∗ = S − Q(b) + 1 · log (1 + γ )	(1.19)
+t	t	t	γ	k
+δ(a)∗ = Q(a) − S

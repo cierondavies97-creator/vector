@@ -1,0 +1,1 @@
+There is typically a fairly complex interplay between liquidity providers (including market-makers) and liquidity takers. Modeling OB dynamics is about modeling this complex in-terplay, predicting arrivals of MOs and LOs, in response to market events and in response

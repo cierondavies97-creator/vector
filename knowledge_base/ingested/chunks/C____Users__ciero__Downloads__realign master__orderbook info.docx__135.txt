@@ -1,0 +1,4 @@
+t = 0, 1, . . . , T − 1 as follows:
+Wt+1 = Wt + P (a) · (X(a) − X(a)) − P (b) · (X(b) − X(b))	(1.10)
+t	t+1	t	t	t+1	t
+Note that since the inventory I0 at time 0 is equal to 0, the inventory It at time t is given by the equation:

@@ -1,0 +1,2 @@
+Solving the Avellaneda-Stoikov Formulation
+The following solution is as presented in the Avellaneda-Stoikov paper. We can express the Avellaneda-Stoikov continuous-time formulation as a Hamilton-Jacobi-Bellman (HJB) formulation (note: for reference, the general HJB formulation is covered in Appendix ??). We denote the Optimal Value function as V ∗(t, St, Wt, It). Note that unlike Section ?? in Chapter ?? where we denoted the Optimal Value Function as a time-indexed sequence

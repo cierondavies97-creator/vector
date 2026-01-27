@@ -1,0 +1,3 @@
+def states_sampler_func() -> NonTerminal[PriceAndShares]: price: float = self.initial_price_distribution.sample() rem: int = self.shares
+for i in range(t):
+sell: int = Choose(range(rem + 1)).sample() price = self.price_dynamics[i](PriceAndShares(

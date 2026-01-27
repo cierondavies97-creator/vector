@@ -1,0 +1,3 @@
+Key Takeaways from this Chapter
+Foundations of Order Book, Limit Orders, Market Orders, Price Impact of large Mar-ket Orders, and complexity of Order Book Dynamics.
+Casting Order Book trading problems such as Optimal Order Execution and Op-timal Market-Making as Markov Decision Processes, developing intuition by de-riving closed-form solutions for highly simplified assumptions (eg: Bertsimas-Lo, Avellaneda-Stoikov formulations), developing a deeper understanding by imple-menting a backward-induction ADP algorithm, and then moving on to develop RL algorithms (and associated market simulator) to solve this problem in a real-world setting to overcome the Curse of Dimensionality and Curse of Modeling.

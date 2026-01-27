@@ -1,0 +1,7 @@
+The goal is to find the Optimal Policy π∗ = (π∗, π∗, . . . , π∗	) (defined as π∗((Pt, Rt)) =
+N∗ that maximizes:
+T −1
+0	1	T −1	t
+E[	γt · U (Nt · Qt)]
+t=0
+where γ is the discount factor to account for the fact that future utility of sales proceeds can be modeled to be less valuable than today’s.

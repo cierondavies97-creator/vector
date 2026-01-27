@@ -1,0 +1,3 @@
+num_shares: int = 100 num_time_steps: int = 5 alpha: float = 0.03 beta: float = 0.05
+init_price_mean: float = 100.0 init_price_stdev: float = 10.0
+price_diff = [lambda p_s: beta * p_s.shares for _ in range(num_time_steps)] dynamics = [lambda p_s: Gaussian(

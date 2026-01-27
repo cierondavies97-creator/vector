@@ -1,0 +1,15 @@
+θ(1)(t, St) = St	(1.26)
+Next, we collect terms involving I2:
+∂θ(2)	σ2
++	·
+∂t	2
+∂2θ(2)
+∂S2
+− γ · σ2
+∂θ(1)
+· (	)2
+∂St
+= 0 with boundary condition θ
+(2)
+(T, ST ) = 0
+Noting that θ(1)(t, St) = St, we solve this PDE as:

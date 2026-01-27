@@ -1,0 +1,17 @@
+With this, we can expand dV ∗(t, St, Wt, It) and rewrite HJB as:
+max {
+δ(b),δ(a)
+∂V ∗
+∂t
+· dt + E[σ ·
+∂V ∗
+∂St
+σ2
+· dzt + 2
+∂2V ∗
+· ∂S2
+· (dzt)2]
+t	t
++ λ(b) · dt · V ∗(t, St, Wt − St + δ(b), It + 1)
+t	t
++ λ(a) · dt · V ∗(t, St, Wt + St + δ(a), It − 1)

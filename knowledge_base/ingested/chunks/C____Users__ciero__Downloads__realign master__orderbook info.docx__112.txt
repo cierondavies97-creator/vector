@@ -1,0 +1,5 @@
+same backward-recursive approach as before) yields:
+N∗ =  Rt  + h(t, β, θ, ρ) · X
+t	T − t	t
+V ∗((Pt, Rt, Xt)) = Rt · Pt − (quadratic in (Rt, Xt) + constant)
+Essentially, the serial-correlation predictability (ρ ̸= 0) alters the uniform-split strategy. In the same paper, Bertsimas and Lo presented a more realistic model called Linear-

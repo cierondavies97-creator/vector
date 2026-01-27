@@ -1,0 +1,5 @@
+t	t	t	t
+Equations (1.16) and (1.17).
+Finally, we solve the implicit equations for δ(b)∗ and δ(a)∗ (in general, numerically).
+t	t
+This completes the (numerical) solution to the Avellaneda-Stoikov continuous-time for-mulation for the Optimal Market-Making problem. Having been through all the heavy equations above, let’s now spend some time on building intuition.

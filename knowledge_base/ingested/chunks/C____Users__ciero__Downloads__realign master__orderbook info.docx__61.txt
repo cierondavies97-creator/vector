@@ -1,0 +1,2 @@
+price_dynamics refers to the time-sequenced functions ft that represent the price dy-namics: Pt+1 ∼ ft(Pt, Nt). ft outputs a probability distribution of prices for Pt+1.
+utility_func refers to the Utility of Sales Proceeds function, incorporating any risk-aversion.

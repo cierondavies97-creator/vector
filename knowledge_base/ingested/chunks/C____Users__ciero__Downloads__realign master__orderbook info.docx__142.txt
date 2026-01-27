@@ -1,0 +1,12 @@
+dX(b) ∼ Poisson(λ(b) · dt)
+t	t
+dX(a) ∼ Poisson(λ(a) · dt)
+t	t
+λ(b) = f (b)(δ(b))
+t	t
+λ(a) = f (a)(δ(a))
+t	t
+for decreasing functions f (b)(·) and f (a)(·).
+dWt = P (a) · dX(a) − P (b) · dX(b)
+t	t	t	t
+It = X(b) − X(a) (note: I0 = 0)

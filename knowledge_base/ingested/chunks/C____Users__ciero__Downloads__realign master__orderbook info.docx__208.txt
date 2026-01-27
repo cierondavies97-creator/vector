@@ -1,0 +1,4 @@
+Bibliography
+Almgren, Robert, and Neil Chriss. 2000. “Optimal Execution of Portfolio Transactions.”
+Journal of Risk, 5–39.
+Avellaneda, Marco, and Sasha Stoikov. 2008. “High-Frequency Trading in a Limit Or-der Book.” Quantitative Finance 8 (3): 217–24. http://www.informaworld.com/10.1080/

@@ -1,234 +1,356 @@
-"""Vector memory engine using sentence-transformers and FAISS."""
-
 from __future__ import annotations
 
+from datetime import datetime
+import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
-import time
+from typing import List, Dict, Any
 
 import faiss
-from sentence_transformers import CrossEncoder, SentenceTransformer
+from sentence_transformers import SentenceTransformer
 
 from config import AppConfig
 
 
-@dataclass(frozen=True)
+# =========================================================
+# Data structures
+# =========================================================
+
+@dataclass
 class MemoryChunk:
+    id: str
     text: str
+    score: float
     source_path: str
-    score: float | None = None
     rank: int | None = None
 
 
-@dataclass(frozen=True)
+@dataclass
+class RetrievedItem:
+    namespace: str               # "file" | "memory_core"
+    chunk_id: str
+    text: str                    # <-- REQUIRED
+    score: float
+    source_path: str
+    metadata: Dict[str, Any]
+    rank: int
+
+
+@dataclass
 class TokenStats:
     input_tokens: int
     output_tokens: int
     estimated_cost: float
 
 
-@dataclass(frozen=True)
+@dataclass
 class IndexStats:
     embedding_seconds: float
     faiss_seconds: float
     chunk_count: int
 
 
+# =========================================================
+# Memory Engine
+# =========================================================
+
 class MemoryEngine:
     def __init__(self, config: AppConfig) -> None:
         self.config = config
-        self.model = SentenceTransformer(config.embedding_model)
-        self.reranker = (
-            CrossEncoder(config.rerank_model) if config.rerank_enabled else None
+
+        self.model = SentenceTransformer(
+            config.embedding_model,
+            device=config.embedding_device,
         )
-        self.index = None
-        self.metadata: list[MemoryChunk] = []
-        self._rotation_offset = 0
 
-    def _chunk_text(self, text: str) -> Iterable[str]:
-        if self.config.chunk_overlap >= self.config.chunk_size:
-            raise ValueError("chunk_overlap must be less than chunk_size")
-        tokens = text.split()
-        start = 0
-        while start < len(tokens):
-            end = min(start + self.config.chunk_size, len(tokens))
-            chunk = " ".join(tokens[start:end])
-            if chunk.strip():
-                yield chunk
-            start = end - self.config.chunk_overlap
-            if start < 0:
-                start = 0
+        kb = self.config.knowledge_base_path()
 
-    def build_index(self, files: dict[str, str]) -> IndexStats:
-        self.metadata = []
-        if not files:
-            self.index = None
-            return IndexStats(embedding_seconds=0.0, faiss_seconds=0.0, chunk_count=0)
+        # ---------- FILE MEMORY ----------
+        self.file_index: faiss.Index | None = None
+        self.file_ids: list[str] = []
 
-        index = None
-        batch_size = max(1, self.config.embedding_batch_size)
-        batch: list[MemoryChunk] = []
-        embedding_seconds = 0.0
-        faiss_seconds = 0.0
-        for path, content in files.items():
-            for chunk in self._chunk_text(content):
-                batch.append(MemoryChunk(text=chunk, source_path=path))
-                if len(batch) < batch_size:
-                    continue
-                start_embed = time.perf_counter()
-                embeddings = self.model.encode([item.text for item in batch])
-                embedding_seconds += time.perf_counter() - start_embed
-                if index is None:
-                    dimension = embeddings.shape[1]
-                    index = faiss.IndexFlatL2(dimension)
-                start_add = time.perf_counter()
-                index.add(embeddings)
-                faiss_seconds += time.perf_counter() - start_add
-                self.metadata.extend(batch)
-                batch = []
-        if batch:
-            start_embed = time.perf_counter()
-            embeddings = self.model.encode([item.text for item in batch])
-            embedding_seconds += time.perf_counter() - start_embed
-            if index is None:
-                dimension = embeddings.shape[1]
-                index = faiss.IndexFlatL2(dimension)
-            start_add = time.perf_counter()
-            index.add(embeddings)
-            faiss_seconds += time.perf_counter() - start_add
-            self.metadata.extend(batch)
-        self.index = index
-        self._rotation_offset = 0
+        self.file_dir = kb / "faiss"
+        self.file_dir.mkdir(parents=True, exist_ok=True)
 
-        if self.index is None:
-            return IndexStats(
-                embedding_seconds=embedding_seconds,
-                faiss_seconds=faiss_seconds,
-                chunk_count=len(self.metadata),
-            )
-        self._persist_index(files)
+        self.file_index_path = self.file_dir / "index.faiss"
+        self.file_meta_path = self.file_dir / "meta.json"
+
+        # ---------- MEMORY CORE ----------
+        self.core_index: faiss.Index | None = None
+        self.core_ids: list[str] = []
+
+        self.core_dir = kb / "memory_core"
+        self.core_dir.mkdir(parents=True, exist_ok=True)
+
+        self.core_index_path = self.core_dir / "index.faiss"
+        self.core_meta_path = self.core_dir / "meta.json"
+        self.core_notes_path = self.core_dir / "notes.json"
+
+        # ---------- INGESTED CHUNKS ----------
+        self.chunk_dir = kb / "ingested" / "chunks"
+
+        self._load_file_index()
+        self._load_core_index()
+
+    # =====================================================
+    # FILE INDEXING
+    # =====================================================
+
+    def build_index(
+        self,
+        documents: dict[str, str],
+        *,
+        progress_cb=None,
+    ) -> IndexStats:
+        if not documents:
+            return IndexStats(0.0, 0.0, 0)
+
+        texts = list(documents.values())
+        ids = list(documents.keys())
+
+        import time
+        t0 = time.perf_counter()
+
+        embeddings = self.model.encode(
+            texts,
+            batch_size=self.config.embedding_batch_size,
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
+
+        embedding_seconds = time.perf_counter() - t0
+
+        dim = embeddings.shape[1]
+        index = faiss.IndexFlatIP(dim)
+        index.add(embeddings)
+
+        self.file_index = index
+        self.file_ids = ids
+        self._persist_file_index()
+
         return IndexStats(
             embedding_seconds=embedding_seconds,
-            faiss_seconds=faiss_seconds,
-            chunk_count=len(self.metadata),
+            faiss_seconds=0.0,
+            chunk_count=len(ids),
         )
 
-    def _persist_index(self, files: dict[str, str]) -> None:
-        index_dir = self.config.index_path()
-        index_dir.mkdir(parents=True, exist_ok=True)
-        if self.index is None:
-            return
-        faiss.write_index(self.index, str(index_dir / "faiss.index"))
-        metadata_path = index_dir / "metadata.txt"
-        with metadata_path.open("w", encoding="utf-8") as metadata_file:
-            for chunk in self.metadata:
-                metadata_file.write(f"{chunk.source_path}\t{chunk.text}\n")
-        self._persist_run_metadata(index_dir, files)
+    # =====================================================
+    # FILE SEARCH
+    # =====================================================
 
-    def _persist_run_metadata(self, index_dir: Path, files: dict[str, str]) -> None:
-        from datetime import datetime, timezone
-        import json
-
-        run_metadata = {
-            "created_at": datetime.now(timezone.utc).isoformat(),
-            "embedding_model": self.config.embedding_model,
-            "embedding_batch_size": self.config.embedding_batch_size,
-            "rerank_enabled": self.config.rerank_enabled,
-            "rerank_model": self.config.rerank_model,
-            "rerank_pool_size": self.config.rerank_pool_size,
-            "chunk_size": self.config.chunk_size,
-            "chunk_overlap": self.config.chunk_overlap,
-            "file_count": len(files),
-            "chunk_count": len(self.metadata),
-            "source_files": sorted(files.keys()),
-        }
-        metadata_path = index_dir / "index_metadata.json"
-        metadata_path.write_text(json.dumps(run_metadata, indent=2), encoding="utf-8")
-
-    def load_index(self) -> None:
-        index_dir = self.config.index_path()
-        index_path = index_dir / "faiss.index"
-        metadata_path = index_dir / "metadata.txt"
-        if not index_path.exists() or not metadata_path.exists():
-            return
-        self.index = faiss.read_index(str(index_path))
-        metadata_lines = metadata_path.read_text(encoding="utf-8").splitlines()
-        self.metadata = []
-        for line in metadata_lines:
-            if not line.strip():
-                continue
-            source_path, text = line.split("\t", 1)
-            self.metadata.append(MemoryChunk(text=text, source_path=source_path))
-
-    def query(self, text: str, top_k: int) -> list[MemoryChunk]:
-        if self.index is None:
-            return []
-        if self.reranker:
-            pool_size = max(top_k * 2, self.config.rerank_pool_size)
-        else:
-            pool_size = top_k
-        embedding = self.model.encode([text])
-        distances, indices = self.index.search(embedding, pool_size)
-        candidates = []
-        for idx in indices[0]:
-            if idx < 0 or idx >= len(self.metadata):
-                continue
-            candidates.append(self.metadata[idx])
-        if not candidates:
+    def search_files(self, query: str, top_k: int) -> List[MemoryChunk]:
+        if self.file_index is None:
             return []
 
-        if self.reranker:
-            pairs = [(text, chunk.text) for chunk in candidates]
-            rerank_scores = self.reranker.predict(pairs)
-            scored = list(zip(candidates, rerank_scores))
-            scored.sort(key=lambda item: item[1], reverse=True)
-            results = [
+        q = self.model.encode(query, normalize_embeddings=True).reshape(1, -1)
+        scores, indices = self.file_index.search(q, top_k)
+
+        results: list[MemoryChunk] = []
+
+        for rank, (score, idx) in enumerate(zip(scores[0], indices[0]), start=1):
+            if idx < 0:
+                continue
+
+            cid = self.file_ids[idx]
+            safe = cid.replace(":", "__").replace("/", "__").replace("\\", "__")
+            chunk_file = self.chunk_dir / f"{safe}.txt"
+
+            text = (
+                chunk_file.read_text(encoding="utf-8", errors="ignore")
+                if chunk_file.exists()
+                else ""
+            )
+
+            source_path = cid.split(":", 1)[0]
+
+            results.append(
                 MemoryChunk(
-                    text=chunk.text,
-                    source_path=chunk.source_path,
+                    id=cid,
+                    text=text,
                     score=float(score),
+                    source_path=source_path,
                     rank=rank,
                 )
-                for rank, (chunk, score) in enumerate(scored[:top_k], start=1)
-            ]
-        else:
-            results = []
-            for rank, idx in enumerate(indices[0][:top_k], start=1):
-                if idx < 0 or idx >= len(self.metadata):
-                    continue
-                chunk = self.metadata[idx]
-                score = float(distances[0][rank - 1])
-                results.append(
-                    MemoryChunk(
-                        text=chunk.text,
-                        source_path=chunk.source_path,
-                        score=score,
-                        rank=rank,
-                    )
+            )
+
+        return results
+
+    def debug_search_files(self, query: str, top_k: int) -> List[RetrievedItem]:
+        raw = self.search_files(query, top_k)
+
+        out: list[RetrievedItem] = []
+        for c in raw:
+            safe = c.id.replace(":", "__").replace("/", "__").replace("\\", "__")
+            meta_path = self.chunk_dir / f"{safe}.meta.json"
+
+            metadata: Dict[str, Any] = {}
+            if meta_path.exists():
+                try:
+                    metadata = json.loads(meta_path.read_text())
+                except Exception:
+                    metadata = {}
+
+            # -------- ensure tags --------
+            tags = list(metadata.get("tags", []))
+            if "namespace:file" not in tags:
+                tags.append("namespace:file")
+            metadata["tags"] = tags
+
+
+            out.append(
+                RetrievedItem(
+                    namespace="file",
+                    chunk_id=c.id,
+                    text=c.text,
+                    score=c.score,
+                    source_path=c.source_path,
+                    metadata=metadata,
+                    rank=c.rank or 0,
                 )
+            )
 
-        if not results:
+        return out
+
+
+    # =====================================================
+    # MEMORY CORE
+    # =====================================================
+
+    def load_memory_core_notes(self) -> list[dict]:
+        if not self.core_notes_path.exists():
             return []
-        rotation = self._rotation_offset % len(results)
-        return results[rotation:] + results[:rotation]
+        return json.loads(self.core_notes_path.read_text())
 
-    def rotate_memory(self) -> None:
-        self._rotation_offset += 1
+    def add_memory_core_notes(
+        self,
+        notes: List[str],
+        *,
+        source: str = "chat",
+    ) -> None:
+        if not notes:
+            return
 
-    def estimate_tokens(self, text: str) -> int:
-        return max(1, len(text.split()))
+        existing = self.load_memory_core_notes()
 
-    def token_stats(self, input_text: str, output_text: str) -> TokenStats:
-        input_tokens = self.estimate_tokens(input_text)
-        output_tokens = self.estimate_tokens(output_text)
-        cost = (
-            input_tokens * self.config.token_cost_input
-            + output_tokens * self.config.token_cost_output
+        for text in notes:
+            existing.append(
+                {
+                    "id": datetime.utcnow().isoformat(),
+                    "source": source,
+                    "text": text,
+                }
+            )
+
+        self.core_notes_path.write_text(
+            json.dumps(existing, indent=2),
+            encoding="utf-8",
         )
-        return TokenStats(
-            input_tokens=input_tokens, output_tokens=output_tokens, estimated_cost=cost
+
+        self._reindex_memory_core()
+
+    def _reindex_memory_core(self) -> None:
+        notes = self.load_memory_core_notes()
+        if not notes:
+            return
+
+        texts = [n["text"] for n in notes]
+        ids = [n["id"] for n in notes]
+
+        embeddings = self.model.encode(
+            texts,
+            batch_size=self.config.embedding_batch_size,
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+            show_progress_bar=False,
         )
 
-    def iter_chunks(self) -> Iterable[MemoryChunk]:
-        return list(self.metadata)
+        dim = embeddings.shape[1]
+        index = faiss.IndexFlatIP(dim)
+        index.add(embeddings)
+
+        self.core_index = index
+        self.core_ids = ids
+        self._persist_core_index()
+
+    def debug_search_memory_core(
+        self,
+        query: str,
+        top_k: int = 10,
+    ) -> List[RetrievedItem]:
+        if self.core_index is None:
+            return []
+
+        q = self.model.encode(query, normalize_embeddings=True).reshape(1, -1)
+        scores, indices = self.core_index.search(q, top_k)
+        notes = self.load_memory_core_notes()
+
+        out: list[RetrievedItem] = []
+        for rank, (score, idx) in enumerate(zip(scores[0], indices[0]), start=1):
+            if idx < 0:
+                continue
+            note = notes[idx]
+
+            metadata = {
+                "source": note.get("source"),
+                "created_at": note["id"],
+                "importance": 1.0,
+                "tags": [
+                    "namespace:memory_core",
+                    f"source:{note.get('source', 'unknown')}",
+                ],
+            }
+
+
+            out.append(
+                RetrievedItem(
+                    namespace="memory_core",
+                    chunk_id=note["id"],
+                    text=note["text"],
+                    score=float(score),
+                    source_path="memory_core",
+                    metadata=metadata,
+                    rank=rank,
+                )
+            )
+
+        return out
+
+
+    def retrieve_all(
+        self,
+        *,
+        query: str,
+        top_k_files: int = 30,
+        top_k_core: int = 15,
+    ) -> List[RetrievedItem]:
+        items: list[RetrievedItem] = []
+        items.extend(self.debug_search_files(query, top_k_files))
+        items.extend(self.debug_search_memory_core(query, top_k_core))
+        return items
+
+    # =====================================================
+    # Persistence
+    # =====================================================
+
+    def _persist_file_index(self) -> None:
+        if self.file_index is None:
+            return
+        faiss.write_index(self.file_index, str(self.file_index_path))
+        self.file_meta_path.write_text(json.dumps(self.file_ids, indent=2))
+
+    def _load_file_index(self):
+        if self.file_index_path.exists() and self.file_meta_path.exists():
+            self.file_index = faiss.read_index(str(self.file_index_path))
+            self.file_ids = json.loads(self.file_meta_path.read_text())
+
+    def _persist_core_index(self) -> None:
+        if self.core_index is None:
+            return
+        faiss.write_index(self.core_index, str(self.core_index_path))
+        self.core_meta_path.write_text(json.dumps(self.core_ids, indent=2))
+
+    def _load_core_index(self):
+        if self.core_index_path.exists() and self.core_meta_path.exists():
+            self.core_index = faiss.read_index(str(self.core_index_path))
+            self.core_ids = json.loads(self.core_meta_path.read_text())

@@ -1,0 +1,6 @@
+( 2β + α · (T − t − 1)
+) for all t = 0, 1, . . . , T − 1
+t	2	T − t
+Rolling forward in time, we see that N∗ = N , i.e., splitting the N shares uniformly across
+t	T
+the T time steps. Hence, the Optimal Policy is a constant deterministic function (i.e., inde-

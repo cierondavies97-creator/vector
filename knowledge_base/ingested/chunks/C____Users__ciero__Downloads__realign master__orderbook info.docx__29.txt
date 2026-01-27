@@ -1,0 +1,3 @@
+eligible_bids: PriceSizePairs = self.descending_bids \ if index is None else self.descending_bids[:index]
+ineligible_bids: PriceSizePairs = [] if index is None else \ self.descending_bids[index:]
+d_s, rem_bids = OrderBook.eat_book(eligible_bids, shares) new_bids: PriceSizePairs = list(rem_bids) + list(ineligible_bids) rem_shares: int = shares - d_s.shares

@@ -1,0 +1,9 @@
+t	t	t	t
+up/down (as a function of inventory It). Note from Equation (1.33) that the Optimal
+Bid-Ask Spread P (a)∗ − P (b)∗ is independent of inventory I .
+t
+A useful view is:
+t
+P (b)∗
+t
+< Q(b) < Q(m) < Q(a) < P (a)∗

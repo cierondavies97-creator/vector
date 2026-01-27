@@ -1,0 +1,16 @@
+θ(2)(t, St) = −γ · σ2 · (T − t)	(1.27)
+Finally, we collect the terms devoid of It
+∂θ(0)
+∂t
+c
++
+k + γ
+· (2 − 2k
+γ
+· log (1 +
+γ ) + k · θ k
+(2)
+) = 0 with boundary θ
+(0)
+(T ) = 0
+Noting that θ(2)(t, St) = −γσ2 · (T − t), we solve as:

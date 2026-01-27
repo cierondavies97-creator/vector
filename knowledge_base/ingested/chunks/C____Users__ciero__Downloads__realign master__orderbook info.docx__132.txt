@@ -1,0 +1,6 @@
+t	t
+We refer to δ(a) = P (a) − St as the market-maker’s Ask Spread (relative to OB Mid).
+t	t
+We refer to δ(b) + δ(a) = P (a) − P (b) as the market-maker’s Bid-Ask Spread.
+t	t	t	t
+Random variable X(b) ∈ Z≥0 refers to the total number of market-maker’s Bid Shares

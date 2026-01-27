@@ -1,0 +1,9 @@
+and (1.15)). To solve the PDE, we need to make a couple of approximations.
+(b)∗	(a)∗
+First we make a linear approximation for e−k·δ	and e−k·δ	in PDE (1.21) as follows:
+∂θ	σ2
+∂2θ
+∂θ  2	c
+(b)∗
+(a)∗
+∂t + 2 · ( ∂S2 − γ · ( ∂S ) ) + k + γ · (1 − k · δt	+ 1 − k · δt	) = 0	(1.22)

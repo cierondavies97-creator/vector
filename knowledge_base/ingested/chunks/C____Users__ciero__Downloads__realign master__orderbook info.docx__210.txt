@@ -1,0 +1,2 @@
+Gueant, Olivier. 2016. The Financial Mathematics of Market Liquidity: From Optimal Execution to Market Making. Chapman; Hall/CRC Financial Mathematics Series.
+Nevmyvaka, Yuriy, Yi Feng, and Michael J. Kearns. 2006. “Reinforcement Learning for Optimized Trade Execution.” In ICML, edited by William W. Cohen and Andrew W. Moore, 148:673–80. ACM International Conference Proceeding Series. ACM. http:

@@ -1,71 +1,399 @@
-"""Assistant orchestration layer for query answering."""
-
 from __future__ import annotations
-
-from dataclasses import dataclass
-from typing import List
+from typing import List, Dict, Any
+from pathlib import Path
+from collections import defaultdict
 
 from openai import OpenAI
 
 from config import AppConfig
-from memory_engine import MemoryChunk, MemoryEngine, TokenStats
-
-
-@dataclass(frozen=True)
-class AssistantResponse:
-    text: str
-    memory: List[MemoryChunk]
-    stats: TokenStats
+from memory_engine import MemoryEngine, MemoryChunk, TokenStats, RetrievedItem
+from reranker import Reranker
+from chat_store import ChatStore
+from concepts import CONCEPTS
+from cycle_state import CycleState
 
 
 class Assistant:
-    def __init__(self, config: AppConfig, memory_engine: MemoryEngine) -> None:
+    def __init__(self, config: AppConfig, memory_engine: MemoryEngine):
         self.config = config
         self.memory_engine = memory_engine
+
         self.client = OpenAI()
+        self.model = config.chat_model
 
-    def answer(self, query: str, use_memory: bool) -> tuple[str, List[MemoryChunk], TokenStats]:
-        memory_chunks = (
-            self.memory_engine.query(query, self.config.top_k) if use_memory else []
-        )
-        memory_text = "\n\n".join(
-            [f"Source: {chunk.source_path}\n{chunk.text}" for chunk in memory_chunks]
-        )
+        kb = Path(config.knowledge_base_path())
+        self.chat_store = ChatStore(kb / "chat" / "history.json")
 
-        system_prompt = (
-            "You are Vector, an AI trading assistant that answers questions about the user's "
-            "codebase and documents. Use the provided memory context when available, and be clear "
-            "about uncertainty."
-        )
+        self.enable_reranker = True
+        self.reranker = Reranker()
 
-        user_prompt = query
-        if memory_text:
-            user_prompt = (
-                "Context:\n" + memory_text + "\n\nQuestion:\n" + query
+        # ==================================================
+        # Context (cycle-free intelligence layer)
+        # ==================================================
+
+        self.context_pins: Dict[str, Dict[str, RetrievedItem]] = {
+            "file": {},
+            "memory_core": {},
+        }
+        self.context_pinned_files: List[str] = []
+        self.context_pinned_file_chunks: Dict[str, List[RetrievedItem]] = {}
+
+        # ==================================================
+        # Workspace authority (cycle-gated)
+        # ==================================================
+
+        self.active_cycle: CycleState | None = None
+
+    # ==================================================
+    # Backward-compatible UI proxies
+    # ==================================================
+
+    @property
+    def pinned_files(self) -> List[str]:
+        return list(self.context_pinned_files)
+
+    @property
+    def session_pins(self) -> Dict[str, Dict[str, RetrievedItem]]:
+        return self.context_pins
+
+    # ==================================================
+    # Cycle API (authority only)
+    # ==================================================
+
+    def start_cycle(self, name: str) -> None:
+        if not self.config.workspace_path:
+            raise RuntimeError("Workspace must be set before starting a cycle")
+
+        if self.active_cycle and self.active_cycle.status == "active":
+            raise RuntimeError("A cycle is already active")
+
+        cycle = CycleState(name=name)
+        cycle.start()
+        cycle.lock_workspace_root(self.config.workspace_path)
+
+        self.active_cycle = cycle
+
+    def discard_cycle(self) -> None:
+        if not self.active_cycle:
+            return
+        self.active_cycle.discard()
+        self.active_cycle = None
+
+    def commit_cycle(self) -> None:
+        if not self.active_cycle:
+            raise RuntimeError("No active cycle")
+        self.active_cycle.commit()
+        self.active_cycle = None
+
+    # ==================================================
+    # Guard (workspace mutation only)
+    # ==================================================
+
+    def _require_cycle(self) -> CycleState:
+        if not self.active_cycle or self.active_cycle.status != "active":
+            raise RuntimeError("No active cycle")
+        return self.active_cycle
+
+    # =====================================================
+    # Pin API (ALWAYS AVAILABLE — cycle-free)
+    # =====================================================
+
+    def pin_item(self, item: RetrievedItem) -> None:
+        self.context_pins[item.namespace][item.chunk_id] = item
+
+    def unpin_item(self, item: RetrievedItem) -> None:
+        self.context_pins[item.namespace].pop(item.chunk_id, None)
+
+    def pin_file(self, path: str) -> None:
+        if path in self.context_pinned_files:
+            return
+
+        chunks = self.memory_engine.debug_search_files(path, top_k=1000)
+        if not chunks:
+            return
+
+        self.context_pinned_files.append(path)
+        self.context_pinned_file_chunks[path] = chunks
+
+    def unpin_file(self, path: str) -> None:
+        if path in self.context_pinned_files:
+            self.context_pinned_files.remove(path)
+        self.context_pinned_file_chunks.pop(path, None)
+
+    def move_pinned_file(self, path: str, direction: int) -> None:
+        if path not in self.context_pinned_files:
+            return
+
+        idx = self.context_pinned_files.index(path)
+        new_idx = idx + direction
+
+        if 0 <= new_idx < len(self.context_pinned_files):
+            self.context_pinned_files[idx], self.context_pinned_files[new_idx] = (
+                self.context_pinned_files[new_idx],
+                self.context_pinned_files[idx],
             )
 
-        response = self.client.chat.completions.create(
-            model=self.config.model_name,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-        )
-        text = response.choices[0].message.content or ""
-        stats = self.memory_engine.token_stats(user_prompt, text)
-        return text, memory_chunks, stats
+    # =====================================================
+    # Pinned context assembly
+    # =====================================================
 
-    def propose_edit(self, content: str, instruction: str) -> str:
-        system_prompt = (
-            "You are a careful code editor. Apply the user's instruction to the provided file "
-            "content. Return the full updated file content only, with no extra commentary."
+    def _all_pinned_items(self) -> List[RetrievedItem]:
+        items: list[RetrievedItem] = []
+
+        for path in self.context_pinned_files:
+            items.extend(self.context_pinned_file_chunks.get(path, []))
+
+        items.extend(self.context_pins["file"].values())
+        items.extend(self.context_pins["memory_core"].values())
+
+        return items
+
+    # =====================================================
+    # Query rewrite / inference
+    # =====================================================
+
+    def _rewrite_query_for_search(self, query: str) -> str:
+        try:
+            r = self.client.responses.create(
+                model=self.model,
+                input=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "Rewrite the user query to optimize vector search. "
+                            "Focus on intent, concepts, and technical meaning."
+                        ),
+                    },
+                    {"role": "user", "content": query},
+                ],
+                temperature=0.0,
+            )
+            return r.output_text.strip() or query
+        except Exception:
+            return query
+
+    def _infer_query_concepts(self, query: str) -> List[str]:
+        q = query.lower()
+        inferred: list[str] = []
+
+        for name, rule in CONCEPTS.items():
+            keywords = rule.get("keywords", [])
+            if any(k in q for k in keywords):
+                inferred.append(f"concept:{name}")
+
+        return inferred
+
+    def _build_concept_heatmap(
+        self, items: List[RetrievedItem]
+    ) -> Dict[str, float]:
+        heatmap = defaultdict(float)
+
+        for item in items:
+            tags = item.metadata.get("tags", [])
+            weight = 1.0 / max(item.rank or 1, 1)
+
+            for t in tags:
+                if t.startswith("concept:"):
+                    heatmap[t] += weight
+
+        if not heatmap:
+            return {}
+
+        max_val = max(heatmap.values())
+        return {
+            k: round(v / max_val, 3)
+            for k, v in sorted(
+                heatmap.items(),
+                key=lambda x: x[1],
+                reverse=True,
+            )
+        }
+
+    # =====================================================
+    # Answer (cycle-free intelligence)
+    # =====================================================
+
+    def answer(
+        self,
+        query: str,
+        *,
+        use_memory: bool = True,
+        use_memory_core: bool = True,
+    ) -> tuple[str, List[MemoryChunk], TokenStats, Dict[str, Any]]:
+
+        # -------------------------------------------------
+        # Query rewrite + concept inference (Tier 3)
+        # -------------------------------------------------
+
+        search_query = self._rewrite_query_for_search(query)
+        query_concepts = self._infer_query_concepts(search_query)
+
+        # -------------------------------------------------
+        # Retrieval (Tier 1 / Tier 2)
+        # -------------------------------------------------
+
+        retrieved: list[RetrievedItem] = []
+
+        if use_memory:
+            retrieved.extend(
+                self.memory_engine.debug_search_files(
+                    search_query,
+                    top_k=30,
+                )
+            )
+
+        if use_memory_core:
+            retrieved.extend(
+                self.memory_engine.debug_search_memory_core(
+                    query,
+                    top_k=15,
+                )
+            )
+
+        # -------------------------------------------------
+        # Reranking (Tier 3 weighting)
+        # -------------------------------------------------
+
+        if self.enable_reranker and retrieved:
+            retrieved = self.reranker.rerank(
+                retrieved,
+                query_concepts=query_concepts,
+            )
+
+        # -------------------------------------------------
+        # Split by namespace
+        # -------------------------------------------------
+
+        file_items = [i for i in retrieved if i.namespace == "file"]
+        core_items = [i for i in retrieved if i.namespace == "memory_core"]
+
+        # -------------------------------------------------
+        # Pinned context (cycle-free)
+        # -------------------------------------------------
+
+        pinned_items = self._all_pinned_items()
+
+        # -------------------------------------------------
+        # Concept heatmap (debug)
+        # -------------------------------------------------
+
+        concept_heatmap = self._build_concept_heatmap(retrieved)
+
+        # -------------------------------------------------
+        # Prompt assembly
+        # -------------------------------------------------
+
+        messages = [{"role": "system", "content": "You are an expert assistant."}]
+        messages.extend(self.chat_store.load())
+
+        if pinned_items:
+            ctx = "\n\n".join(f"[PINNED]\n{i.text}" for i in pinned_items)
+            messages.append(
+                {
+                    "role": "system",
+                    "content": f"Pinned context (always apply):\n{ctx}",
+                }
+            )
+
+        messages.append({"role": "user", "content": query})
+
+        # -------------------------------------------------
+        # LLM call
+        # -------------------------------------------------
+
+        resp = self.client.responses.create(
+            model=self.model,
+            input=messages,
+            temperature=0.2,
         )
-        user_prompt = f"Instruction:\n{instruction}\n\nFile content:\n{content}"
-        response = self.client.chat.completions.create(
-            model=self.config.model_name,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-        )
-        return response.choices[0].message.content or ""
+
+        output = resp.output_text.strip()
+
+        self.chat_store.append_user(query)
+        self.chat_store.append_assistant(output)
+
+        # -------------------------------------------------
+        # Debug assembly (FULL FIDELITY)
+        # -------------------------------------------------
+
+        def debug_item(item: RetrievedItem) -> Dict[str, Any]:
+            return {
+                "namespace": item.namespace,
+                "source_path": item.source_path,
+                "chunk_id": item.chunk_id,
+                "score": item.score,
+                "rank": item.rank,
+                "rerank_delta": item.metadata.get("rerank_delta"),
+                "tags": item.metadata.get("tags", []),
+                "pinned": item.chunk_id
+                in self.context_pins.get(item.namespace, {}),
+                "text": item.text,
+            }
+
+        debug = {
+            "query": query,
+            "rewritten_query": search_query,
+            "query_concepts": query_concepts,
+            # Full retrieval visibility
+            "file_memory": [debug_item(i) for i in file_items],
+            "memory_core": [debug_item(i) for i in core_items],
+            # Pin state
+            "pinned_files": list(self.pinned_files),
+            "pinned_chunks": {
+                "file": list(self.context_pins["file"].keys()),
+                "memory_core": list(self.context_pins["memory_core"].keys()),
+            },
+            # Semantic diagnostics
+            "concept_heatmap": concept_heatmap,
+        }
+
+        stats = TokenStats(0, 0, 0.0)
+        return output, [], stats, debug
+
+        # =====================================================
+        # Memory Core
+        # =====================================================
+
+    def summarize_chat_to_memory(self) -> str:
+        history = self.chat_store.load()
+        if not history:
+            return ""
+
+        messages = [
+            {
+                "role": "system",
+                "content": (
+                    "Summarize the conversation into stable long-term memory. "
+                    "Extract goals, requirements, preferences, constraints, "
+                    "and decisions. Be concise and factual."
+                ),
+            }
+        ] + history
+
+        try:
+            resp = self.client.responses.create(
+                model=self.model,
+                input=messages,
+                temperature=0.1,
+            )
+            summary = resp.output_text.strip()
+        except Exception:
+            return ""
+
+        if summary:
+            self.memory_engine.add_memory_core_notes(
+                [summary],
+                source="chat",
+            )
+
+        return summary
+
+    # =====================================================
+    # Chat control
+    # =====================================================
+
+    def clear_chat(self):
+        self.chat_store.clear()
+        self.context_pins = {"file": {}, "memory_core": {}}
+        self.context_pinned_files.clear()
+        self.context_pinned_file_chunks.clear()

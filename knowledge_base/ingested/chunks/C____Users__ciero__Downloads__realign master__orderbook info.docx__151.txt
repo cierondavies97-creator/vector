@@ -1,0 +1,5 @@
+t	t
+dt is λ(b) · dt and probability of being lifted in interval from t to t + dt is λ(a) · dt,
+t	t
+upon which the trading account value Wt changes appropriately and the inventory
+It increments/decrements by 1.

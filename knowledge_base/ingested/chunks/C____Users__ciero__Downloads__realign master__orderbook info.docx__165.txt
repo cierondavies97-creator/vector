@@ -1,0 +1,24 @@
+γ
+To maximize g(δ(b)), differentiate g with respect to δ(b) and set to 0:
+t
+−γ·(δ(b)∗−S +Q(b))
+(b)
+(b)∗
+∂f (b)
+t
+(b)∗
+∂f (b)
+(b)∗
+e	t	t	t	· (γ · f
+(δt
+) −
+∂δ(b)
+(δt
+)) +
+∂δ(b)
+(δt
+) = 0
+∗	∗	1
+f (b)(δ(b)∗)
+⇒ δ(b)
+= St − P (b)

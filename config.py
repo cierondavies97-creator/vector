@@ -1,60 +1,59 @@
-"""Configuration for the Vector AI Trading Assistant."""
-
 from __future__ import annotations
 
-from dataclasses import dataclass
+import os
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 
 @dataclass(frozen=True)
 class AppConfig:
-    model_name: str = "gpt-4o-mini"
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
-    rerank_enabled: bool = True
-    rerank_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-    rerank_pool_size: int = 20
-    max_file_mb: int = 50
-    embedding_batch_size: int = 64
-    max_scan_depth: int | None = 25
-    skip_symlinks: bool = True
-    knowledge_base_dir: str = "knowledge_base"
-    index_dir: str = "vector_index"
+    # -------------------------
+    # Paths
+    # -------------------------
     workspace_path: str | None = None
-    top_k: int = 5
-    chunk_size: int = 500
-    chunk_overlap: int = 50
-    test_command: str = "pytest"
-    token_cost_input: float = 0.01 / 1000
-    token_cost_output: float = 0.03 / 1000
+    knowledge_base_dir: str = "knowledge_base"
 
-    @staticmethod
-    def load() -> "AppConfig":
-        return AppConfig()
+    # -------------------------
+    # OpenAI / Chat
+    # -------------------------
+    chat_model: str = "gpt-5.2"
+    openai_api_key: str | None = None
 
-    def with_workspace(self, workspace_path: str) -> "AppConfig":
-        return AppConfig(
-            model_name=self.model_name,
-            embedding_model=self.embedding_model,
-            rerank_enabled=self.rerank_enabled,
-            rerank_model=self.rerank_model,
-            rerank_pool_size=self.rerank_pool_size,
-            max_file_mb=self.max_file_mb,
-            embedding_batch_size=self.embedding_batch_size,
-            max_scan_depth=self.max_scan_depth,
-            skip_symlinks=self.skip_symlinks,
-            knowledge_base_dir=self.knowledge_base_dir,
-            index_dir=self.index_dir,
-            workspace_path=workspace_path,
-            top_k=self.top_k,
-            chunk_size=self.chunk_size,
-            chunk_overlap=self.chunk_overlap,
-            test_command=self.test_command,
-            token_cost_input=self.token_cost_input,
-            token_cost_output=self.token_cost_output,
+    # -------------------------
+    # Embeddings (LOCAL MiniLM)
+    # -------------------------
+    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embedding_device: str = "cpu"          # "cpu" or "cuda"
+    embedding_batch_size: int = 32
+
+    # -------------------------
+    # Memory / FAISS
+    # -------------------------
+    memory_top_k: int = 10                 # ← FIXES YOUR ERROR
+    memory_min_score: float = 0.0          # optional, future-safe
+
+    # -------------------------
+    # Chunking
+    # -------------------------
+    chunk_size: int = 3000
+    chunk_overlap: int = 100
+
+    # -------------------------
+    # Limits
+    # -------------------------
+    max_file_mb: int = 10
+
+    # -------------------------
+    # Factory / helpers
+    # -------------------------
+    @classmethod
+    def load(cls) -> "AppConfig":
+        return cls(
+            openai_api_key=os.getenv("OPENAI_API_KEY"),
         )
+
+    def with_workspace(self, path: str) -> "AppConfig":
+        return replace(self, workspace_path=path)
 
     def knowledge_base_path(self) -> Path:
         return Path(self.knowledge_base_dir)
-
-    def index_path(self) -> Path:
-        return Path(self.index_dir)

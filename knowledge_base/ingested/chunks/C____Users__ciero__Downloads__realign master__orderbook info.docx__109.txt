@@ -1,0 +1,5 @@
+print(f”Weight2 = {wt2:.3f}”) print()
+This prints the following:
+Time 0
+Optimal Sales = 20.000, Opt Val = 9780.000 Weight1 = 1.000
+We need to point out here that the general case of optimal order execution involving modeling of the entire Order Book’s dynamics will have to deal with a large state space. This means the ADP algorithm will suffer from the curse of dimensionality, which means we will need to employ RL algorithms.

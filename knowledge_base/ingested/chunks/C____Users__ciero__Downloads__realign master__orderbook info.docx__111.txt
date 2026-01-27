@@ -1,0 +1,3 @@
+Pt+1 = Pt − (β · Nt + θ · Xt) + ϵt Xt+1 = ρ · Xt + ηt
+Qt = Pt − (β · Nt + θ · Xt)
+where ϵt and ηt are each independent and identically distributed random variables with mean zero for all t = 0, 1, . . . , T − 1, ϵt and ηt are also independent of each other for all t = 0, 1, . . . , T − 1. Xt can be thought of as a market factor affecting Pt linearly. Applying the finite-horizon Bellman Optimality Equation on the Optimal Value Function (and the

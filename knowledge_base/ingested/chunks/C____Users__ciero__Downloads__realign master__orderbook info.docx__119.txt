@@ -1,0 +1,3 @@
+where Y is the total (uncertain) sales proceeds ∑T −1 Nt · Qt and λ controls the degree of
+risk-aversion. The incorporation of risk-aversion affects the time-trajectory of N∗. Clearly,
+if λ = 0, we get the usual uniform-split strategy: N∗ = N . The other extreme assumption

@@ -1,0 +1,3 @@
+t	t
+V ∗((Pt, Rt)) = Rt · (Pt − β · Rt) for all t = 0, 1, . . . , T − 1
+So the solution for the case α ≥ 2β is to sell all N shares at any one of the time steps t = 0, 1, . . . , T − 1 (and none in the other time steps), and the Optimal Expected Total Sale Proceeds is N · (P0 − β · N )

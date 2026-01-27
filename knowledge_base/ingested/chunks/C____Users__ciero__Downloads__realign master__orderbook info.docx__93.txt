@@ -1,0 +1,7 @@
+For the case α < 2β, differentiating the term inside the max in Equation (1.9) with respect to NT −2, and setting it to 0 gives:
+(α − 2β) · (2N∗
+− RT −2
+) = 0 ⇒ N∗
+= RT −2
+2
+Substituting this solution for N∗

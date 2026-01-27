@@ -1,0 +1,6 @@
+NT−2
+= max{NT −2 · (PT −2 − β · NT −2) + E[(RT −2 − NT −2)(PT −1 − β · (RT −2 − NT −2))]}
+NT−2
+= max{NT −2 · (PT −2 − β · NT −2) +(RT −2 − NT −2) · (PT −2 − α · NT −2 − β · (RT −2 − NT −2))}
+NT−2
+This simplifies to:

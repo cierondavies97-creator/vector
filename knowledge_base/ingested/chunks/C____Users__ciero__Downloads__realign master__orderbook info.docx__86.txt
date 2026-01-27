@@ -1,0 +1,5 @@
+Denote the Value Function for policy π at time t (for all t = 0, 1, . . . T − 1) as:
+T −1
+V π((Pt, Rt)) = Eπ[	Ni · (Pi − β · Ni)|(Pt, Rt)]
+i=t
+Denote the Optimal Value Function at time t (for all t = 0, 1, . . . , T − 1) as:

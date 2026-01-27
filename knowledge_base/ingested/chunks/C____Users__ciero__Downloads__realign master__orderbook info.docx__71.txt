@@ -1,0 +1,5 @@
+p_r: NonTerminal[PriceAndShares], sell: int
+) -> SampledDistribution[Tuple[State[PriceAndShares],
+float]]:
+def sr_sampler_func( p_r=p_r, sell=sell
+) -> Tuple[State[PriceAndShares], float]: p_s: PriceAndShares = PriceAndShares(

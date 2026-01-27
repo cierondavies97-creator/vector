@@ -1,0 +1,12 @@
+γ · σ2 · (T − t)
+2	(1.30)
+Using equations (1.19) and (1.20), we get:
+δ(b)∗ =
+(2It + 1) · γ · σ2 · (T − t)	1	γ
++  · log (1 + )	(1.31)
+γ	k
+δ(a)∗ =
+(1 − 2It) · γ · σ2 · (T − t)	1	γ
++  · log (1 + )	(1.32)
+2	γ	k
+Optimal Bid-Ask Spread δ(b)∗ + δ(a)∗ = γ · σ2 · (T − t) + 2 · log (1 + γ )	(1.33)

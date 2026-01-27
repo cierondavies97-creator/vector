@@ -1,0 +1,4 @@
+V ∗((Pt, Rt)) = max V π((Pt, Rt))
+t	π	t
+The Optimal Value Function satisfies the finite-horizon Bellman Optimality Equation for all t = 0, 1, . . . , T − 2, as follows:
+V ∗((Pt, Rt)) = max{Nt · (Pt − β · Nt) + E[V ∗ ((Pt+1, Rt+1))]}

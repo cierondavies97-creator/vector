@@ -1,0 +1,6 @@
+[ 0.9999948 -0.02199718]
+Time 1
+Now let’s compare these results against the closed-form solution.
+for t in range(num_time_steps): print(f”Time {t:d}”) print()
+left: int = num_time_steps - t
+opt_sale_anal: float = num_shares / num_time_steps wt1: float = 1

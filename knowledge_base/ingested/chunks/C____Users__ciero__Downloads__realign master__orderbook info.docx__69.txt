@@ -1,0 +1,2 @@
+def get_mdp(self, t: int) -> MarkovDecisionProcess[PriceAndShares, int]: utility_f: Callable[[float], float] = self.utility_func
+price_diff: Sequence[Callable[[PriceAndShares], float]] = \ self.avg_exec_price_diff

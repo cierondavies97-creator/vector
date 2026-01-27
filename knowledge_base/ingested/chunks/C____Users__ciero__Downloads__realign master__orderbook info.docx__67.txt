@@ -1,0 +1,1 @@
+to the step method represents the state (Pt, Rt) at time t, and the variable p_s: PriceAndShares represents the pair of (Pt, Nt), which serves as input to avg_exec_price_diff and price_dynamics (attributes of OptimalOrderExecution). Secondly, note that the actions method returns an Iterator on a single int at time t = T −1 because of the constraint

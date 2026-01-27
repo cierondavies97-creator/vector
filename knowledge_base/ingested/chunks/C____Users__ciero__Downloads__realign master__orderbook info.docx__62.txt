@@ -1,0 +1,2 @@
+discount_factor refers to the discount factor γ.
+func_approx refers to the ValueFunctionApprox type to be used to approximate the Value Function for each time step (since we are doing backward induction).

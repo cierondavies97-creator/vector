@@ -1,0 +1,4 @@
+t	T
+is to minimize V ar[Y ] which yields: N∗ = N (sell everything immediately because the
+only thing we want to avoid is uncertainty of sales proceeds). In their paper, Almgren
+and Chriss go on to derive the Eﬀicient Frontier for this problem (analogous to the Eﬀi-cient Frontier Portfolio Theory we outline in Appendix ??). They also derive solutions for specific utility functions.

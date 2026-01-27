@@ -1,0 +1,1 @@
+also want to represent the dependency of the Optimal Value Function on each of St, Wt, It as explicit separate dependencies. Appendix ?? provides the derivation of the general HJB formulation (Equation (??) in Appendix ??) - this general HJB Equation specializes here to the following:

@@ -1,0 +1,21 @@
+= St − Q(b) +
+γ
+· log (1 − γ ·
+t
+∂f (b) (δ(b)∗)
+)	(1.16)
+∂δ(b)	t
+To maximize h(δ(a)), differentiate h with respect to δ(a) and set to 0:
+t
+−γ·(δ(a)∗+S −Q(a))
+(a)
+(a)∗
+∂f (a)
+t
+(a)∗
+∂f (a)
+(a)∗
+e	t	t	t	· (γ · f
+(δt
+) −
+∂δ(a)

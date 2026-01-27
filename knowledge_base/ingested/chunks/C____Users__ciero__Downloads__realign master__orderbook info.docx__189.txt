@@ -1,0 +1,11 @@
+t	t
+∂θ	σ2
+∂2θ
+∂θ 2	c	2k	γ
+∂t + 2 ·( ∂S2 − γ · ( ∂S ) ) + k + γ · (2 −
+· log (1 + )
+γ	k
+(1.23)
+t	t
+− k · (2θ(t, St, It) − θ(t, St, It + 1) − θ(t, St, It − 1))) = 0
+To solve PDE (1.23), we consider the following asymptotic expansion of θ in It:

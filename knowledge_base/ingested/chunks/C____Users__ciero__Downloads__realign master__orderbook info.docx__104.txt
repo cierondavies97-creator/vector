@@ -1,0 +1,4 @@
+state: PriceAndShares = PriceAndShares( price=init_price_mean, shares=num_shares
+)
+The code to evaluate the obtained Optimal Value Function and Optimal Policy on the above state is as follows:
+for t, (vf, pol) in enumerate(it_vf): print(f”Time {t:d}”)

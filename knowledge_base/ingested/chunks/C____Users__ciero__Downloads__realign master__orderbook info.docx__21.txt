@@ -1,0 +1,5 @@
+def bid_ask_spread(self) -> float:
+return self.ask_price() - self.bid_price()
+def market_depth(self) -> float:
+return self.ascending_asks[-1].dollars - \ self.descending_bids[-1].dollars
+Next we want to write methods for LOs and MOs to interact with the OrderBook. Notice that each of Equation (1.1) (new Sell LO potentially removing some of the beginning of the Buy LOs on the OB), Equation (1.3) (new Buy LO potentially removing some of the beginning of the Sell LOs on the OB), Equation (1.5) (Sell MO removing some of the beginning of the Buy LOs on the OB) and Equation (1.7) (Buy MO removing some of the beginning of the Sell LOs on the OB) all perform a common core function - they “eat into” the most significant LOs (on the opposite side) on the OB. So we first write a @staticmethod eat_book for this common function.

@@ -1,0 +1,4 @@
+t	t	t	t	t	t
+θ(t, St, It + 1). This gives us a PDE just in terms of θ. Solving that PDE for θ would give
+us not only V ∗(t, S , W , I ) but also δ(b)∗ and δ(a)∗ (using Equations (1.19), (1.20), (1.14)
+t	t	t	t	t

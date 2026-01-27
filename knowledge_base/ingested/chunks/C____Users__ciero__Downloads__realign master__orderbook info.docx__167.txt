@@ -1,0 +1,18 @@
+(δt
+)) +
+∂δ(a)
+(δt
+) = 0
+∗	∗	1
+f (a)(δ(a)∗)
+⇒ δ(a)
+= P (a)
+− St = Q(a) − St +
+γ
+· log (1 − γ ·
+t
+∂f (a) (δ(a)∗)
+)	(1.17)
+∂δ(a)	t
+Equations (1.16) and (1.17) are implicit equations for δ(b)∗ and δ(a)∗ respectively.
+t	t

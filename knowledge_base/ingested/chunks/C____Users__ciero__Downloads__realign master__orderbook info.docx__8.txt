@@ -1,0 +1,9 @@
+P (a) − P (b) is refered to as The Best Bid-Ask Spread (lightened to Spread).
+0
+(a)
+n−1
+0
+(b)
+m−1
+is refered to as The Market Depth (lightened to Depth).
+Although an actual real-world trading order book has many other details, we believe this simplified coverage is adequate for the purposes of core understanding of order book trad-ing and to navigate the problems of optimal order execution and optimal market-making. Apart from Limit Orders, traders can express their interest to buy/sell with another type of order - a Market Order (abbreviated as MO). A Market Order (MO) states one’s intent to buy/sell N shares at the best possible price(s) available on the OB at the time of MO sub-mission. So, an LO is keen on price and not so keen on time (willing to wait to get the price one wants) while an MO is keen on time (desire to trade right away) and not so keen on

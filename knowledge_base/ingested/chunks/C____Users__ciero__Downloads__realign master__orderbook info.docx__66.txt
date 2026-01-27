@@ -1,0 +1,2 @@
+The two key things we need to perform the backward induction are:
+A method get_mdp that given a time step t, produces the MarkovDecisionProcess ob-ject representing the transitions from time t to time t+1. The class OptimalExecutionMDP within get_mdp implements the abstract methods step and actions of the abstract class MarkovDecisionProcess. The code should be fairly self-explanatory - just a cou-ple of things to point out here. Firstly, the input p_r: NonTerminal[PriceAndShares]

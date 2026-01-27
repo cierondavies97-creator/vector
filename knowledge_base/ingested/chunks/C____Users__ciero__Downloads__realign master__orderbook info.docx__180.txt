@@ -1,0 +1,5 @@
+t	t	t	t	t
+up/down (relative to OB mid price St) as a function of the inventory It’s magnitude and
+sign, and perceive P (b)∗, P (a)∗ in terms of their spreads to the pseudo mid price Q(m):
+t	t
+∗	Q(b) + Q(a)	1

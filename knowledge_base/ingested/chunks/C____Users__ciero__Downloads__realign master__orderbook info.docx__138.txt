@@ -1,0 +1,5 @@
+Observe State (St, Wt, It) ∈ St.
+Perform Action (P (b), N (b), P (a), N (a)) ∈ At.
+t	t	t	t
+Random number of bid shares hit at time step t (this is equal to X(b) − X(b)).
+Random number of ask shares lifted at time step t (this is equal to X(a) − X(a)),

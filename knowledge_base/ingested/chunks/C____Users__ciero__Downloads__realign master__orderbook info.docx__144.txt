@@ -1,0 +1,7 @@
+t	t
+(number of shares in the submitted LOs for the infinitesimal time interval from t to t + dt)
+can be assumed to be 1.
+This simplifies the Action at time t to be just the pair:
+(δ(b), δ(a))
+t	t
+OB Mid Price Dynamics is assumed to be scaled brownian motion:

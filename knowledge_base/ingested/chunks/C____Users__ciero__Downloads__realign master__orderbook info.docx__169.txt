@@ -1,0 +1,6 @@
++ 	t	 · (1 − e−γ·(δt
+γ
++St+θ(t,St,It−1)−θ(t,St,It))) = 0
+with boundary condition: θ(T, ST , IT ) = IT · ST
+How do we go about solving this? Here are the steps:
+First we solve PDE (1.18) for θ in terms of δ(b)∗ and δ(a)∗. In general, this would be a

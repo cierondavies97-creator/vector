@@ -1,0 +1,6 @@
+t	t
+Combining the Equations (1.19), (1.20), (1.14) and (1.15) gives us:
+δ(b)∗ + δ(a)∗ = 2 · log (1 + γ ) + 2θ(t, S , I ) − θ(t, S , I + 1) − θ(t, S , I − 1)
+t	t	γ
+k	t	t	t	t	t	t
+With this expression for δ(b)∗ + δ(a)∗, PDE (1.22) takes the form:

@@ -1,0 +1,2 @@
+2
+We note that the Optimal Value Function V ∗ can depend on St only through the current Value of the Inventory (i.e., through It ·St), i.e., it cannot depend on St in any other way. This means V ∗(t, S , W , 0) = −e−γ(Wt+θ(0)(t,St)) is independent of S . This means θ(0)(t, S ) is

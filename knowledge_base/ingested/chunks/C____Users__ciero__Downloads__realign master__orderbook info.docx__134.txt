@@ -1,0 +1,2 @@
+Shares that have been transacted against (by MOs or by Buy LOs) up to time t (X(a) is often refered to as the cumulative “lifts” up to time t, as in “the market-maker’s sell offer has been lifted”).
+With this notation in place, we can write the trading account balance equation for all

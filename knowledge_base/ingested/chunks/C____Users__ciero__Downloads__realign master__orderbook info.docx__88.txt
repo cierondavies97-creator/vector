@@ -1,0 +1,10 @@
+t	Nt
+t+1
+and
+∗
+T −1
+((PT −1, RT −1)) = NT −1 · (PT −1 − β · NT −1) = RT −1 · (PT −1 − β · RT −1)
+From the above, we can infer:
+∗
+T −2
+((PT −2, RT −2)) = max{NT −2 · (PT −2 − β · NT −2) + E[RT −1 · (PT −1 − β · RT −1)]}

@@ -1,0 +1,3 @@
+mdp_f0_mu_triples: Sequence[Tuple[ MarkovDecisionProcess[PriceAndShares, int], ValueFunctionApprox[PriceAndShares], SampledDistribution[NonTerminal[PriceAndShares]]
+]] = [(
+self.get_mdp(i), self.func_approx, self.get_states_distribution(i)

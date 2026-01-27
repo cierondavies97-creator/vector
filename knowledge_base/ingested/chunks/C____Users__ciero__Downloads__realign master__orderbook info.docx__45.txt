@@ -1,0 +1,1 @@
+This has served as a good test of our code (transactions working as we’d like) and we encourage you to write more code of this sort to interact with the OrderBook, and to produce graphs of evolution of the OrderBook as this will help develop stronger intu-ition and internalize the concepts we’ve learnt above. All of the above code is in the file rl/chapter9/order_book.py.

@@ -1,0 +1,5 @@
+@dataclass(frozen=True) class DollarsAndShares:
+dollars: float shares: int
+PriceSizePairs = Sequence[DollarsAndShares]
+@dataclass(frozen=True) class OrderBook:
+descending_bids: PriceSizePairs ascending_asks: PriceSizePairs

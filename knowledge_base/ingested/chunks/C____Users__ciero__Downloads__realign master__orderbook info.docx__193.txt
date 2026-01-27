@@ -1,0 +1,33 @@
+2
+Substituting this approximation Equation (1.24) for θ(t, St, It) in PDE (1.23), we get:
+∂θ(0)
+∂t
++ It ·
+∂θ(1)
+∂t
+I2
++	·
+2
+∂θ(2)
+∂t
+σ2
++ 2 · (It ·
+∂2θ(1)
+∂S2
+I  2
++	·
+2
+∂2θ(2)
+∂S2 )
+γσ2
+−
+2
+· (It ·
+∂θ(1)
+∂St
+I  2
++	·
+2
+∂θ(2)
+∂St
+)2 +

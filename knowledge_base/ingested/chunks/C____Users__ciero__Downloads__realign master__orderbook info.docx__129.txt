@@ -1,0 +1,2 @@
+Denote Wt ∈ R as the market-maker’s trading account value at time t.
+Denote It ∈ Z as the market-maker’s inventory of shares at time t (assume I0 = 0). Note that the inventory can be positive or negative (negative means the market-maker is short a certain number of shares).

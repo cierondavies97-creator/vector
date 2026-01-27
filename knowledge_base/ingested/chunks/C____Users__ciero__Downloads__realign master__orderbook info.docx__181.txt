@@ -1,0 +1,19 @@
+t
+f (b)(δ(b)∗)
+Q(b) − P (m)
+=   t	t  +
+· log (1 − γ ·
+t	∗ )
+t	t	2	γ
+∂f (b) (δ(b) )
+∂δ(b)	t
+∗	Q(b) + Q(a)	1
+f (a)(δ(a)∗)
+P (a)
+− Q(m) =   t	t  +
+· log (1 − γ ·
+t	∗ )
+t	t	2	γ
+∂f (a) (δ(a) )
+∂δ(a)	t
+Analytical Approximation to the Solution to Avellaneda-Stoikov Formulation

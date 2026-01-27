@@ -1,0 +1,2 @@
+d_s5, ob5 = ob4.buy_market_order(150)
+The new OrderBook ob5 has 150 less shares on the Sell LOs side of the OB, wiping out all the shares at the price level of 104 and almost wiping out all the shares at the price level of 105, as depicted in Figure 1.7.

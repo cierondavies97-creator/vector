@@ -1,0 +1,4 @@
+Q(m) = St − It · γ · σ2 · (T − t)
+Q(a) − Q(b) = γ · σ2 · (T − t)
+t	t
+These results for the simple case of no-market-making-after-time-t serve as approxima-tions for our problem of optimal market-making. Think of Q(m) as a pseudo mid price for

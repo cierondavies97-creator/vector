@@ -1,0 +1,6 @@
+sell * (p_r.state.price - price_diff[t](p_s))
+)
+return (NonTerminal(next_state), reward)
+return SampledDistribution( sampler=sr_sampler_func, expectation_samples=100
+)
+def actions(self, p_s: NonTerminal[PriceAndShares]) -> \ Iterator[int]:

@@ -1,0 +1,11 @@
++	· (
+∂t	2
+2 − γ · ( ∂S ) ) + k + γ · (e
+t	+ e
+t	) = 0
+∂St	t
+(1.21)
+with boundary condition θ(T, ST , IT ) = IT · ST
+Note that this PDE (1.21) involves δ(b)∗ and δ(a)∗. However, Equations (1.19), (1.20),
+t	t
+(1.14) and (1.15) enable expressing δ(b)∗ and δ(a)∗ in terms of θ(t, S , I − 1), θ(t, S , I ) and

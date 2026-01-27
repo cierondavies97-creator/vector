@@ -1,0 +1,4 @@
+Precisely, a new Sell LO (P, N ) potentially transacts with (and hence, removes) the best Buy LOs on the OB.
+i−1
+Removal: [(P (b), min(N (b), max(0, N −	N (b)))) | (i : P (b) ≥ P )]	(1.1)
+After this removal, it potentially adds the following LO to the asks side of the OB:

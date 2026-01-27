@@ -1,0 +1,6 @@
+price=p_r.state.price, shares=sell
+)
+next_price: float = dynamics[t](p_s).sample() next_rem: int = p_r.state.shares - sell next_state: PriceAndShares = PriceAndShares(
+price=next_price, shares=next_rem
+)
+reward: float = utility_f(

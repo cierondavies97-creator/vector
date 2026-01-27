@@ -1,0 +1,14 @@
+t	t	t	t	t
+Using Equations (1.14) and (1.15), we get:
+Q(b) = θ
+(1)
+(t, St) + (2It + 1) · θ
+(2)
+(t, St) = St − (2It + 1) ·
+γ · σ2 · (T − t)
+2	(1.29)
+Q(a) = θ
+(1)
+(t, St) + (2It − 1) · θ
+(2)
+(t, St) = St − (2It − 1) ·

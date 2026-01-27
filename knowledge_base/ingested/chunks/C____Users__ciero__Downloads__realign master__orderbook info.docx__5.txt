@@ -1,0 +1,4 @@
+i	i	i	j
+Sell LOs (Asks): [(P (a), N (a)) | 0 ≤ i < n], P (a) < P (a) for i < j
+i	i	i	j
+Note that the Buy LOs are arranged in descending order and the Sell LOs are arranged in ascending order to signify the fact that the beginning of each list consists of the most important (best-price) LOs.

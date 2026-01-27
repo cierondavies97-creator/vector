@@ -1,0 +1,14 @@
+γ
++  · log (1 + )	(1.20)
+t	t	t	γ	k
+which means P (b)∗ and P (a)∗ are equidistant from Q(m). Substituting these simplified
+(b)∗
+t	t	t
+(a)∗
+δt	, δt
+in Equation (1.18) reduces the PDE to:
+∂θ	σ2
+∂2θ
+∂θ  2
+c	−k·δ(b)∗
+−k·δ(a)∗

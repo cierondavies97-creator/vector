@@ -1,0 +1,4 @@
+dSt = σ · dzt
+for some σ ∈ R+.
+The Utility function is assumed to be: U (x) = −e−γx where γ > 0 is the risk-aversion pa-
+rameter (this Utility function is essentially the CARA Utility function devoid of associated constants).

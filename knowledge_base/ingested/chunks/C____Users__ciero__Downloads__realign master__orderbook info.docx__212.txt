@@ -1,0 +1,1 @@
+Vyetrenko, Svitlana, and Shaojie Xu. 2019. “Risk-Sensitive Compact Decision Trees for Au-tonomous Execution in Presence of Simulated Market Response.” CoRR abs/1906.02312. http://dblp.uni-trier.de/db/journals/corr/corr1906.html#abs-1906-02312.

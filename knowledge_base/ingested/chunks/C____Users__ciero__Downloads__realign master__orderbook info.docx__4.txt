@@ -1,0 +1,2 @@
+presented for trading in the form of this aggregated view. Thus, the OB data structure can be represented as two sorted lists of (Price, Size) pairs:
+Buy LOs (Bids): [(P (b), N (b)) | 0 ≤ i < m], P (b) > P (b) for i < j

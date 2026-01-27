@@ -1,0 +1,4 @@
+dynamics: Sequence[Callable[[PriceAndShares], Distribution[float]]] = \ self.price_dynamics
+steps: int = self.time_steps
+class OptimalExecutionMDP(MarkovDecisionProcess[PriceAndShares, int]): def step(
+self,

@@ -1,0 +1,4 @@
+mu=init_price_mean, sigma=init_price_stdev
+)
+ooe: OptimalOrderExecution = OptimalOrderExecution( shares=num_shares,
+time_steps=num_time_steps, avg_exec_price_diff=price_diff, price_dynamics=dynamics, utility_func=lambda x: x, discount_factor=1, func_approx=fa,

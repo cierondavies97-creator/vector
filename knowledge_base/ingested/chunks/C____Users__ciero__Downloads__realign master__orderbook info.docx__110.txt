@@ -1,0 +1,2 @@
+Paper by Bertsimas and Lo on Optimal Order Execution
+A paper by Bertsimas and Lo on Optimal Order Execution (Bertsimas and Lo 1998) con-sidered a special case of the simple Linear Impact model we sketched above. Specifically, they assumed no risk-aversion (Utility function is identity function) and assumed that the Permanent Price Impact parameter α is equal to the Temporary Price Impact Parameter β. In the same paper, Bertsimas and Lo then extended this Linear Impact Model to include dependence on a serially-correlated variable Xt as follows:

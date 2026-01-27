@@ -1,0 +1,2 @@
+//dblp.uni-trier.de/db/conf/icml/icml2006.html#NevmyvakaFK06.
+Spooner, Thomas, John Fearnley, Rahul Savani, and Andreas Koukorinis. 2018. “Market Making via Reinforcement Learning.” CoRR abs/1804.04216. http://dblp.uni-trier. de/db/journals/corr/corr1804.html#abs-1804-04216.

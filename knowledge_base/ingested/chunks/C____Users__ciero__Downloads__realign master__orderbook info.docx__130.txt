@@ -1,0 +1,3 @@
+Denote St ∈ R+ as the OB Mid Price at time t (assume a stochastic process for St).
+Denote P (b) ∈ R+ as the market-maker’s Bid Price at time t.
+Denote N (b) ∈ Z+ as the market-maker’s Bid Shares at time t.

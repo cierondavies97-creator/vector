@@ -1,0 +1,4 @@
+14697680701381228.
+Bertsimas, Dimitris, and Andrew W. Lo. 1998. “Optimal Control of Execution Costs.”
+Journal of Financial Markets 1 (1): 1–50.
+Ganesh, Sumitra, Nelson Vadori, Mengda Xu, Hua Zheng, Prashant P. Reddy, and Manuela Veloso. 2019. “Reinforcement Learning for Market Making in a Multi-Agent Dealer Market.” CoRR abs/1911.05892. http://dblp.uni-trier.de/db/journals/corr/corr1911. html#abs-1911-05892.

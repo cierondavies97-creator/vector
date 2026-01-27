@@ -1,0 +1,3 @@
+Paper by Nevmyvaka, Feng, Kearns in 2006 (Nevmyvaka, Feng, and Kearns 2006)
+Paper by Vyetrenko and Xu in 2019 (Vyetrenko and Xu 2019)
+Designing real-world simulators for Order Book Dynamics and using Reinforcement Learning for Optimal Order Execution is an exciting area for future research as well as engineering design. We hope this section has provided suﬀicient foundations for you to dig into this topic further.

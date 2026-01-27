@@ -1,0 +1,4 @@
+Pt+1 = ft(Pt, Nt, ϵt) for all t = 0, 1, . . . , T − 1
+where ft is an arbitrary function incorporating:
+The Permanent Price Impact of selling Nt shares.
+The Price-Impact-independent market-movement of the Best Bid Price from time t

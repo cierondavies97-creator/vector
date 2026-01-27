@@ -1,0 +1,3 @@
+d_s4, ob4 = ob3.sell_limit_order(104, 60)
+The new OrderBook ob4 has introduced a Sell LO at a price of 104 with 60 shares, as depicted in Figure 1.6.
+Now let’s submit a Buy MO that says we’d like to buy 150 shares at the “best price.” Our Buy MO should transact with 150 shares at “best prices” on the Sell LOs side of the OB.

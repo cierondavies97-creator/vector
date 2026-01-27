@@ -1,0 +1,5 @@
+t	t	γ	k
+Q(b) + Q(a)	P (b)∗ + P (a)∗
+Optimal Pseudo-Mid Q(m) =  t	t  =  t	t	 = St − It · γ · σ2 · (T − t) (1.34)
+t	2	2
+Now let’s get back to developing intuition. Think of Q(m) as inventory-risk-adjusted mid-price (adjustment to St). If the market-maker is long inventory (It > 0), Q(m) < St indi-cating inclination to sell rather than buy, and if market-maker is short inventory, Q(m) > St

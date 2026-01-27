@@ -1,0 +1,4 @@
+After this removal, it potentially adds the following to the bids side of the OB:
+(P, max(0, N −	N (a)))	(1.4)
+i:P (a)≤P
+When a Market Order (MO) is submitted, things are simpler. A Sell Market Order of N

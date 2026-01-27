@@ -1,0 +1,5 @@
+sell.
+Armed with this intuition, we come back to optimal market-making, observing from Equations (1.16) and (1.17):
+P (b)∗ < Q(b) < Q(m) < Q(a) < P (a)∗
+t	t	t	t	t
+Visualize this ascending sequence of prices [P (b)∗, Q(b), Q(m), Q(a), P (a)∗] as jointly sliding

@@ -1,0 +1,6 @@
+independent of S . So, we can write it as simply θ(0)(t), meaning ∂θ(0) and ∂2θ(0) are equal
+t	∂St
+∂S2
+to 0. Therefore, we can write the approximate expansion for θ(t, St, It) as:
+2
+θ(t, St, It) = θ(0)(t) + It · θ(1)(t, St) +  t  · θ(2)(t, St)	(1.24)

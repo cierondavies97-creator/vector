@@ -1,0 +1,5 @@
+(P, max(0, N −	N (b)))	(1.2)
+i:P (b)≥P
+Likewise, a new Buy MO (P, N ) potentially transacts with (and hence, removes) the best Sell LOs on the OB
+i−1
+Removal: [(P (a), min(N (a), max(0, N −	N (a)))) | (i : P (a) ≤ P )]	(1.3)

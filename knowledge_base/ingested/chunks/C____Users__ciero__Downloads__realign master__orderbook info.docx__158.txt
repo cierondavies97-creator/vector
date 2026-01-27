@@ -1,0 +1,10 @@
+Substituting this guessed functional form into the above PDE for V ∗(t, St, Wt, It) gives:
+∂θ	σ2
+∂2θ
+∂θ  2
+∂t + 2 · ( ∂S2 − γ · ( ∂S ) )
+t
+f (b)(δ(b))
+t
+(b)
++ max{ 	t	 · (1 − e−γ·(δt −St+θ(t,St,It+1)−θ(t,St,It)))}

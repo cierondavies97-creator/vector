@@ -1,0 +1,4 @@
+0	0
+above in terms of Temporary and Permanent Price Impact naturally apply in the opposite
+direction for a Buy MO.
+We refer to all of the above-described OB movements, including both temporary and permanent Price Impacts broadly as Order Book Dynamics. There is considerable literature on modeling Order Book Dynamics and some of these models can get fairly complex in order to capture various real-world nuances. Much of this literature is beyond the scope of this book. In this chapter, we will cover a few simple models for how a sell MO will move the OB’s Best Bid Price (rather than a model for how it will move the entire OB). The model for how a buy MO will move the OB’s Best Ask Price is naturally identical.

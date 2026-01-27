@@ -1,0 +1,14 @@
+θ(0)
+(t) =
+c
+k + γ
+· ((2 − 2k
+γ
+· log (1 +
+γ )) · (T − t) −
+k
+kγσ2
+2
+· (T − t)2)	(1.28)
+This completes the PDE solution for θ(t, St, It) and hence, for V ∗(t, St, Wt, It). Lastly, we
+derive formulas for Q(b), Q(a), Q(m), δ(b)∗, δ(a)∗.

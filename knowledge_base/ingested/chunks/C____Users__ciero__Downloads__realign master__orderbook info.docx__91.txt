@@ -1,0 +1,7 @@
+in the right-hand-side of Equation (1.9)
+gives:
+∗
+T −2
+((PT −2, RT −2)) = RT −2 · (PT −2 − β · RT −2)
+Continuing backwards in time in this manner (for the case α ≥ 2β) gives:
+N∗ = 0 or N∗ = Rt for all t = 0, 1, . . . , T − 1

@@ -1,0 +1,3 @@
+) for x in range(105, 115, 1)]
+ob0: OrderBook = OrderBook(descending_bids=bids, ascending_asks=asks)
+The above code creates an OrderBook in the price range [91, 114] with a bid-ask spread of 5. Figure 1.2 depicts this OrderBook visually.

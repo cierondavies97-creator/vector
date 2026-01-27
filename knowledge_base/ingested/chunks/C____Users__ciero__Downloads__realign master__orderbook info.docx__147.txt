@@ -1,0 +1,1 @@
+V ∗(·), here we make t an explicit functional argument of V ∗ and each of St, Wt, It also as separate functional arguments of V ∗ (instead of the typical approach of making the state, as a tuple, a single functional argument). This is because in the continuous-time setting, we are interested in the time-differential of the Optimal Value Function and we

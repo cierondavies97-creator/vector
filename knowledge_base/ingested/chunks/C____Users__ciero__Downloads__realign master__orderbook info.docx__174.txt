@@ -1,0 +1,9 @@
+V (t, St, Wt − Qt  , It + 1) = −e
+t	t	t	t	2
+But from Equation (1.12), we know that:
+V ∗(t, St, Wt, It) = V ∗(t, St, Wt − Q(b), It + 1)
+Therefore,
+γ·I2·σ2·(T−t)
+(b)
+γ·(I +1)2·σ2·(T−t)
+−e−γ·(Wt+It·St−	t  2	) = −e−γ·(Wt−Qt +(It+1)·St−	t	2	)

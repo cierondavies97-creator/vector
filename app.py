@@ -1,418 +1,507 @@
-"""Tkinter GUI entrypoint for the Vector AI Trading Assistant."""
-
-import difflib
-import importlib
-import importlib.util
 import queue
 import threading
 from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
-_tkdnd_spec = importlib.util.find_spec("tkinterdnd2")
-if _tkdnd_spec is not None:
-    _tkdnd_module = importlib.import_module("tkinterdnd2")
-    DND_FILES = _tkdnd_module.DND_FILES
-    TkinterDnD = _tkdnd_module.TkinterDnD
-else:  # pragma: no cover - optional dependency
-    DND_FILES = None
-    TkinterDnD = None
-
 from assistant import Assistant
 from config import AppConfig
-from editor_engine import EditorEngine
-from file_handler import FileHandler
-from memory_engine import MemoryEngine
-from test_runner import TestRunner
+from indexing_pipeline import IndexingPipeline, ProgressSink, ProgressEvent
+from memory_engine import MemoryEngine, RetrievedItem
 
 
-class VectorApp(tk.Tk if TkinterDnD is None else TkinterDnD.Tk):
-    def __init__(self) -> None:
+# ============================================================
+# Index Status Popup
+# ============================================================
+
+class IndexStatusWindow(tk.Toplevel):
+    def __init__(self, parent):
+        super().__init__(parent)
+        self.title("Indexing Progress")
+        self.geometry("520x300")
+        self.transient(parent)
+        self.grab_set()
+
+        self.stage = tk.StringVar(value="Idle")
+        self.file = tk.StringVar(value="")
+
+        tk.Label(self, textvariable=self.stage).pack(anchor="w", padx=10, pady=5)
+
+        self.progress = ttk.Progressbar(self, length=460)
+        self.progress.pack(padx=10, pady=5)
+
+        tk.Label(self, textvariable=self.file).pack(anchor="w", padx=10)
+
+        self.log = tk.Text(self, height=8)
+        self.log.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+
+    def update(self, event: ProgressEvent):
+        if not self.winfo_exists():
+            return
+
+        self.stage.set(event.stage.value)
+        if event.total:
+            self.progress["maximum"] = event.total
+            self.progress["value"] = event.current
+        if event.file:
+            self.file.set(event.file)
+        if event.debug:
+            self.log.insert(tk.END, event.message + "\n")
+            self.log.see(tk.END)
+
+
+# ============================================================
+# Main App
+# ============================================================
+
+class VectorApp(tk.Tk):
+    def __init__(self):
         super().__init__()
-        self.title("Vector AI Trading Assistant")
-        self.geometry("1200x800")
+
+        self.title("Vector Assistant")
+        self.geometry("1450x900")
 
         self.config = AppConfig.load()
         self.memory_engine = MemoryEngine(self.config)
-        self.memory_engine.load_index()
-        self.file_handler = FileHandler(self.config, self.memory_engine)
         self.assistant = Assistant(self.config, self.memory_engine)
-        self.editor_engine = EditorEngine(TestRunner(self.config))
-        self.last_query = ""
-        self.last_response = ""
-        self.pending_edit: dict[str, str] | None = None
-        self._indexing = False
-        self._event_queue: queue.Queue[tuple[str, tuple]] = queue.Queue()
+
+        self.queue: queue.Queue[ProgressEvent] = queue.Queue()
+        self.pipeline: IndexingPipeline | None = None
+
+        self.use_memory = tk.BooleanVar(value=True)
+        self.use_memory_core = tk.BooleanVar(value=True)
+
+        self.last_debug: dict = {}
+
+        self._pin_tag_map: dict[str, RetrievedItem] = {}
+        self._ctx_item: RetrievedItem | None = None
 
         self._build_ui()
-        self._register_drag_and_drop()
-        if self.memory_engine.index is not None:
-            self.status_var.set("Loaded existing index.")
+        self._load_chat_history()
+        self._update_cycle_status()
 
-    def _build_ui(self) -> None:
-        top_frame = tk.Frame(self)
-        top_frame.pack(fill=tk.X, padx=8, pady=8)
+    # ========================================================
+    # UI
+    # ========================================================
 
-        self.directory_label = tk.Label(
-            top_frame, text="No directory selected (or drag & drop files/folders)"
+    def _build_ui(self):
+        # ---------- Menu ----------
+        menubar = tk.Menu(self)
+        self.configure(menu=menubar)
+
+        chat_menu = tk.Menu(menubar, tearoff=0)
+        menubar.add_cascade(label="Chat", menu=chat_menu)
+        chat_menu.add_command(label="Clear Chat", command=self._clear_chat)
+        chat_menu.add_command(
+            label="Summarize Chat → Memory Core",
+            command=self._summarize_chat_to_memory,
         )
-        self.directory_label.pack(side=tk.LEFT, padx=4)
 
-        choose_button = tk.Button(
-            top_frame, text="Choose Directory", command=self._choose_directory
-        )
-        choose_button.pack(side=tk.LEFT, padx=4)
+        # ---------- Top bar ----------
+        top = tk.Frame(self)
+        top.pack(fill=tk.X, padx=8, pady=4)
 
-        self.use_memory_var = tk.BooleanVar(value=True)
-        memory_checkbox = tk.Checkbutton(
-            top_frame, text="Use Memory", variable=self.use_memory_var
-        )
-        memory_checkbox.pack(side=tk.LEFT, padx=4)
+        tk.Button(top, text="Choose Directory", command=self._choose_dir).pack(side=tk.LEFT)
+        tk.Button(top, text="Reindex", command=self._reindex).pack(side=tk.LEFT, padx=4)
+        tk.Button(top, text="Cancel Indexing", command=self._cancel).pack(side=tk.LEFT, padx=4)
 
-        reindex_button = tk.Button(top_frame, text="Reindex", command=self._reindex)
-        reindex_button.pack(side=tk.LEFT, padx=4)
+        tk.Button(top, text="📌 Pin File…", command=self._pin_file_browser).pack(side=tk.LEFT, padx=10)
 
-        cycle_button = tk.Button(top_frame, text="Cycle Memory", command=self._cycle_memory)
-        cycle_button.pack(side=tk.LEFT, padx=4)
+        tk.Checkbutton(top, text="Use Knowledge Base", variable=self.use_memory).pack(side=tk.LEFT, padx=12)
+        tk.Checkbutton(top, text="Use Memory Core", variable=self.use_memory_core).pack(side=tk.LEFT, padx=6)
 
-        clear_button = tk.Button(top_frame, text="Clear Output", command=self._clear_output)
-        clear_button.pack(side=tk.LEFT, padx=4)
+        # ---------- Cycle status bar ----------
+        cycle_bar = tk.Frame(self)
+        cycle_bar.pack(fill=tk.X, padx=8, pady=(0, 6))
 
-        save_chat_button = tk.Button(top_frame, text="Save Chat", command=self._save_chat)
-        save_chat_button.pack(side=tk.LEFT, padx=4)
+        self.cycle_status = tk.StringVar(value="🟡 No active cycle")
+        tk.Label(cycle_bar, textvariable=self.cycle_status, anchor="w").pack(fill=tk.X)
 
-        self.progress = ttk.Progressbar(top_frame, length=200, mode="determinate")
-        self.progress.pack(side=tk.LEFT, padx=8)
+        # ---------- Main ----------
+        main = tk.Frame(self)
+        main.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
 
-        main_frame = tk.Frame(self)
-        main_frame.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
+        # ---------- Left column ----------
+        tk.Label(main, text="Query").grid(row=0, column=0, sticky="w")
+        self.query = tk.Text(main, height=4)
+        self.query.grid(row=1, column=0, sticky="nsew")
 
-        query_label = tk.Label(main_frame, text="Query")
-        query_label.grid(row=0, column=0, sticky="w")
+        tk.Button(main, text="Ask", command=self._ask).grid(row=1, column=1, padx=6)
 
-        self.query_entry = tk.Text(main_frame, height=4)
-        self.query_entry.grid(row=1, column=0, sticky="nsew", padx=4, pady=4)
+        tk.Label(main, text="Response").grid(row=2, column=0, sticky="w")
+        self.response = tk.Text(main)
+        self.response.grid(row=3, column=0, sticky="nsew")
 
-        ask_button = tk.Button(main_frame, text="Ask", command=self._ask)
-        ask_button.grid(row=1, column=1, sticky="n", padx=4)
+        # ---------- Right column ----------
+        right = tk.Frame(main)
+        right.grid(row=0, column=2, rowspan=6, sticky="nsew", padx=(8, 0))
 
-        response_label = tk.Label(main_frame, text="Response")
-        response_label.grid(row=2, column=0, sticky="w")
+        tk.Label(right, text="📌 Pinned Files (Context)").pack(anchor="w")
+        self.pinned_list = tk.Listbox(right, height=8)
+        self.pinned_list.pack(fill=tk.X)
 
-        self.response_text = tk.Text(main_frame)
-        self.response_text.grid(row=3, column=0, sticky="nsew", padx=4, pady=4)
+        btns = tk.Frame(right)
+        btns.pack(fill=tk.X, pady=4)
 
-        memory_label = tk.Label(main_frame, text="Memory Viewer")
-        memory_label.grid(row=2, column=1, sticky="w")
+        tk.Button(btns, text="↑", width=3, command=lambda: self._move_pin(-1)).pack(side=tk.LEFT)
+        tk.Button(btns, text="↓", width=3, command=lambda: self._move_pin(1)).pack(side=tk.LEFT, padx=2)
+        tk.Button(btns, text="Unpin", command=self._unpin_selected).pack(side=tk.LEFT, padx=6)
 
-        self.memory_text = tk.Text(main_frame, width=40)
-        self.memory_text.grid(row=3, column=1, sticky="nsew", padx=4, pady=4)
+        tk.Label(right, text="Injected Context (Debug)").pack(anchor="w", pady=(8, 0))
+        self.memory = tk.Text(right, width=55)
+        self.memory.pack(fill=tk.BOTH, expand=True)
+        self.memory.tag_configure("pin", foreground="blue", underline=True)
+        self.memory.bind("<Button-1>", self._on_left_click)
+        self.memory.bind("<Button-3>", self._on_right_click)
 
-        notes_label = tk.Label(main_frame, text="Notes to Memory")
-        notes_label.grid(row=4, column=0, sticky="w")
+        tk.Label(right, text="Concept Heatmap").pack(anchor="w", pady=(6, 0))
+        self.heatmap_box = tk.Text(right, height=6)
+        self.heatmap_box.pack(fill=tk.X)
 
-        self.notes_entry = tk.Text(main_frame, height=4)
-        self.notes_entry.grid(row=5, column=0, sticky="nsew", padx=4, pady=4)
+        main.columnconfigure(0, weight=3)
+        main.columnconfigure(2, weight=2)
+        main.rowconfigure(3, weight=1)
 
-        save_note_button = tk.Button(
-            main_frame, text="Save Note", command=self._save_note
-        )
-        save_note_button.grid(row=5, column=1, sticky="n", padx=4)
+        self.context_menu = tk.Menu(self, tearoff=0)
+        self.context_menu.add_command(label="📌 Pin / Unpin Item", command=self._ctx_toggle_pin)
+        self.context_menu.add_command(label="📌 Pin Entire File", command=self._ctx_pin_file)
 
-        edit_label = tk.Label(main_frame, text="Safe Edit (file path + instruction)")
-        edit_label.grid(row=6, column=0, sticky="w")
+    # ========================================================
+    # Cycle status
+    # ========================================================
 
-        self.edit_path_entry = tk.Entry(main_frame)
-        self.edit_path_entry.grid(row=7, column=0, sticky="nsew", padx=4, pady=4)
-        self.edit_path_entry.insert(0, "path/to/file.py")
-
-        self.edit_instruction_entry = tk.Text(main_frame, height=3)
-        self.edit_instruction_entry.grid(row=8, column=0, sticky="nsew", padx=4, pady=4)
-
-        edit_button = tk.Button(main_frame, text="Apply Safe Edit", command=self._apply_edit)
-        edit_button.grid(row=7, column=1, sticky="n", padx=4)
-
-        preview_button = tk.Button(main_frame, text="Preview Diff", command=self._preview_edit)
-        preview_button.grid(row=8, column=1, sticky="n", padx=4)
-
-        diff_label = tk.Label(main_frame, text="Diff Preview")
-        diff_label.grid(row=9, column=0, sticky="w")
-
-        self.diff_text = tk.Text(main_frame, height=10)
-        self.diff_text.grid(row=10, column=0, columnspan=2, sticky="nsew", padx=4, pady=4)
-
-        self.token_var = tk.StringVar(value="Tokens in: 0 | Tokens out: 0 | Cost: $0.0000")
-        token_label = tk.Label(self, textvariable=self.token_var, anchor="w")
-        token_label.pack(fill=tk.X, padx=8, pady=2)
-
-        self.status_var = tk.StringVar(value="Ready")
-        status_label = tk.Label(self, textvariable=self.status_var, anchor="w")
-        status_label.pack(fill=tk.X, padx=8, pady=4)
-
-        main_frame.columnconfigure(0, weight=3)
-        main_frame.columnconfigure(1, weight=1)
-        main_frame.rowconfigure(3, weight=1)
-        main_frame.rowconfigure(8, weight=0)
-        main_frame.rowconfigure(10, weight=1)
-
-    def _choose_directory(self) -> None:
-        directory = filedialog.askdirectory()
-        if directory:
-            self.config = self.config.with_workspace(directory)
-            self.directory_label.config(text=directory)
-            self.status_var.set(f"Selected directory: {directory}")
-
-    def _register_drag_and_drop(self) -> None:
-        if TkinterDnD is None or DND_FILES is None:
-            self.status_var.set("Drag-and-drop unavailable (install tkinterdnd2).")
+    def _update_cycle_status(self):
+        cycle = self.assistant.active_cycle
+        if not cycle:
+            self.cycle_status.set("🟡 No active cycle (context-only mode)")
             return
-        self.drop_target_register(DND_FILES)
-        self.dnd_bind("<<Drop>>", self._on_drop)
 
-    def _on_drop(self, event: tk.Event) -> None:
-        if not event.data:
-            return
-        paths = self._parse_drop_data(event.data)
-        if not paths:
-            return
-        self._start_indexing(
-            "Indexing dropped items...",
-            lambda: self.file_handler.ingest_paths(paths, progress_cb=self._queue_progress),
+        staged = len(cycle.staged_edits)
+        self.cycle_status.set(
+            f"🟢 Cycle: {cycle.name} | Status: {cycle.status} | Staged: {staged}"
         )
 
-    def _parse_drop_data(self, data: str) -> list[str]:
-        if data.startswith("{") and data.endswith("}"):
-            data = data[1:-1]
-        parts = []
-        buffer = ""
-        in_brace = False
-        for char in data:
-            if char == "{":
-                in_brace = True
-                buffer = ""
-            elif char == "}":
-                in_brace = False
-                if buffer:
-                    parts.append(buffer)
-                    buffer = ""
-            elif char == " " and not in_brace:
-                if buffer:
-                    parts.append(buffer)
-                    buffer = ""
-            else:
-                buffer += char
-        if buffer:
-            parts.append(buffer)
-        return parts
+    # ========================================================
+    # Pin panel helpers (cycle-free)
+    # ========================================================
 
-    def _reindex(self) -> None:
+    def _refresh_pinned_panel(self):
+        self.pinned_list.delete(0, tk.END)
+        for p in self.assistant.pinned_files:
+            self.pinned_list.insert(tk.END, p)
+        self._update_cycle_status()
+
+    def _move_pin(self, direction: int):
+        sel = self.pinned_list.curselection()
+        if not sel:
+            return
+        path = self.pinned_list.get(sel[0])
+        self.assistant.move_pinned_file(path, direction)
+        self._refresh_pinned_panel()
+        self._render_debug()
+
+    def _unpin_selected(self):
+        sel = self.pinned_list.curselection()
+        if not sel:
+            return
+        path = self.pinned_list.get(sel[0])
+        self.assistant.unpin_file(path)
+        self._refresh_pinned_panel()
+        self._render_debug()
+
+    # ========================================================
+    # Pin interactions
+    # ========================================================
+
+    def _pin_file_browser(self):
+        path = filedialog.askopenfilename()
+        if path:
+            self.assistant.pin_file(path)
+            self._refresh_pinned_panel()
+            self._render_debug()
+
+    def _on_left_click(self, event):
+        index = self.memory.index(f"@{event.x},{event.y}")
+        for tag in self.memory.tag_names(index):
+            if tag.startswith("pin:"):
+                item = self._pin_tag_map.get(tag)
+                if item:
+                    self._toggle_pin(item)
+                    self._render_debug()
+                return
+
+    def _on_right_click(self, event):
+        self._ctx_item = None
+        index = self.memory.index(f"@{event.x},{event.y}")
+        for tag in self.memory.tag_names(index):
+            if tag.startswith("pin:"):
+                self._ctx_item = self._pin_tag_map.get(tag)
+                break
+        if self._ctx_item:
+            self.context_menu.tk_popup(event.x_root, event.y_root)
+
+    def _toggle_pin(self, item: dict):
+        namespace = item["namespace"]
+        chunk_id = item["chunk_id"]
+
+        if chunk_id in self.assistant.session_pins.get(namespace, {}):
+            self.assistant.unpin_item_by_id(namespace, chunk_id)
+        else:
+            self.assistant.pin_item_by_id(namespace, chunk_id)
+
+
+    def _ctx_toggle_pin(self):
+        if self._ctx_item:
+            self._toggle_pin(self._ctx_item)
+            self._render_debug()
+
+    def _ctx_pin_file(self):
+        if self._ctx_item and self._ctx_item.namespace == "file":
+            self.assistant.pin_file(self._ctx_item.source_path)
+            self._refresh_pinned_panel()
+            self._render_debug()
+
+    # ========================================================
+    # Indexing / Chat / Debug
+    # ========================================================
+
+    def _choose_dir(self):
+        d = filedialog.askdirectory()
+        if not d:
+            return
+
+        self.config = self.config.with_workspace(d)
+        messagebox.showinfo("Workspace set", d)
+        self._update_cycle_status()
+
+    def _reindex(self):
         if not self.config.workspace_path:
-            messagebox.showwarning("Missing directory", "Select a directory first.")
+            messagebox.showwarning("Missing directory", "Choose a directory first")
             return
-        self._start_indexing(
-            "Reindexing...",
-            lambda: self.file_handler.reindex_workspace(
-                self.config.workspace_path, progress_cb=self._queue_progress
-            ),
+
+        popup = IndexStatusWindow(self)
+        self.pipeline = IndexingPipeline(
+            self.memory_engine,
+            self.config.knowledge_base_path(),
+            chunk_size=self.config.chunk_size,
+            overlap=self.config.chunk_overlap,
         )
 
-    def _cycle_memory(self) -> None:
-        self.memory_engine.rotate_memory()
-        self.status_var.set("Rotated memory context")
+        sink = ProgressSink(lambda e: self.queue.put(e))
+        threading.Thread(
+            target=lambda: self.pipeline.run(Path(self.config.workspace_path), sink),
+            daemon=True,
+        ).start()
+        self.after(100, lambda: self._poll(popup))
 
-    def _clear_output(self) -> None:
-        self.response_text.delete("1.0", tk.END)
-        self.memory_text.delete("1.0", tk.END)
+    def _cancel(self):
+        if self.pipeline:
+            self.pipeline.cancel()
 
-    def _ask(self) -> None:
-        query = self.query_entry.get("1.0", tk.END).strip()
-        if not query:
+    def _poll(self, popup):
+        if not popup.winfo_exists():
             return
-        use_memory = self.use_memory_var.get()
-        response, memory_chunks, stats = self.assistant.answer(query, use_memory)
-        self.last_query = query
-        self.last_response = response
-        self.response_text.delete("1.0", tk.END)
-        self.response_text.insert(tk.END, response)
-
-        self.memory_text.delete("1.0", tk.END)
-        if memory_chunks:
-            for chunk in memory_chunks:
-                rank = f"Rank {chunk.rank}" if chunk.rank is not None else "Rank ?"
-                score = f"{chunk.score:.4f}" if chunk.score is not None else "n/a"
-                self.memory_text.insert(
-                    tk.END,
-                    f"{rank} | Score: {score}\n{chunk.source_path}\n{chunk.text}\n\n",
-                )
-        else:
-            self.memory_text.insert(
-                tk.END,
-                "No memory chunks found. Run Reindex and try again.",
-            )
-
-        self.token_var.set(
-            f"Tokens in: {stats.input_tokens} | Tokens out: {stats.output_tokens} | Cost: ${stats.estimated_cost:.4f}"
-        )
-        self.status_var.set("Response generated.")
-
-    def _save_note(self) -> None:
-        note = self.notes_entry.get("1.0", tk.END).strip()
-        if not note:
-            return
-        path = self.file_handler.save_note(note)
-        self.notes_entry.delete("1.0", tk.END)
-        if self.config.workspace_path:
-            self._start_indexing(
-                "Reindexing after note save...",
-                lambda: self.file_handler.reindex_workspace(
-                    self.config.workspace_path, progress_cb=self._queue_progress
-                ),
-                done_message_prefix=f"Saved note and reindexed: {path}",
-            )
-        else:
-            self._start_indexing(
-                "Indexing notes...",
-                lambda: self.file_handler.ingest_paths(
-                    [self.file_handler.knowledge_base_path()],
-                    progress_cb=self._queue_progress,
-                ),
-                done_message_prefix=f"Saved note and indexed notes: {path}",
-            )
-
-    def _save_chat(self) -> None:
-        if not self.last_query or not self.last_response:
-            messagebox.showwarning("No chat", "Ask a question first to save the chat.")
-            return
-        path = self.file_handler.save_chat(self.last_query, self.last_response)
-        self.status_var.set(f"Saved chat to {path}")
-
-    def _apply_edit(self) -> None:
-        file_path = self.edit_path_entry.get().strip()
-        instruction = self.edit_instruction_entry.get("1.0", tk.END).strip()
-        if not file_path or not instruction:
-            messagebox.showwarning("Missing input", "Provide a file path and instruction.")
-            return
-        if not self.pending_edit:
-            messagebox.showwarning("No preview", "Preview the diff before applying.")
-            return
-        if (
-            self.pending_edit.get("path") != file_path
-            or self.pending_edit.get("instruction") != instruction
-        ):
-            messagebox.showwarning("Stale preview", "Preview is outdated. Regenerate it.")
-            return
-        self.status_var.set("Running safe edit...")
-        result = self.editor_engine.edit_file_with_content(
-            file_path, self.pending_edit["updated"]
-        )
-        self.status_var.set(result.message)
-        if result.success:
-            self.pending_edit = None
-            self.diff_text.delete("1.0", tk.END)
-
-    def _preview_edit(self) -> None:
-        file_path = self.edit_path_entry.get().strip()
-        instruction = self.edit_instruction_entry.get("1.0", tk.END).strip()
-        if not file_path or not instruction:
-            messagebox.showwarning("Missing input", "Provide a file path and instruction.")
-            return
-        try:
-            original_content = Path(file_path).read_text(encoding="utf-8")
-        except OSError as exc:
-            messagebox.showerror("Read failed", f"Failed to read file: {exc}")
-            return
-        self.status_var.set("Generating diff preview...")
-        updated_content = self.assistant.propose_edit(original_content, instruction)
-        diff = difflib.unified_diff(
-            original_content.splitlines(),
-            updated_content.splitlines(),
-            fromfile=file_path,
-            tofile=f"{file_path} (edited)",
-            lineterm="",
-        )
-        diff_text = "\n".join(diff).strip()
-        if not diff_text:
-            diff_text = "No changes proposed."
-        self.diff_text.delete("1.0", tk.END)
-        self.diff_text.insert(tk.END, diff_text)
-        self.pending_edit = {
-            "path": file_path,
-            "instruction": instruction,
-            "updated": updated_content,
-        }
-        self.status_var.set("Diff preview ready.")
-
-    def _queue_progress(self, current: int, total: int, message: str) -> None:
-        self._event_queue.put(("progress", (current, total, message)))
-
-    def _set_progress(self, current: int, total: int) -> None:
-        self.progress["maximum"] = max(total, 1)
-        self.progress["value"] = current
-
-    def _start_indexing(
-        self,
-        status_message: str,
-        task: callable,
-        done_message_prefix: str | None = None,
-    ) -> None:
-        if self._indexing:
-            messagebox.showinfo("Indexing", "Indexing is already running.")
-            return
-        self._indexing = True
-        self.status_var.set(status_message)
-        self._set_progress(0, 1)
-
-        def worker() -> None:
-            try:
-                stats = task()
-                self._event_queue.put(("done", (stats, done_message_prefix)))
-            except Exception as exc:  # pragma: no cover - UI error handling
-                self._event_queue.put(("error", (str(exc),)))
-
-        threading.Thread(target=worker, daemon=True).start()
-        self.after(100, self._poll_events)
-
-    def _poll_events(self) -> None:
         try:
             while True:
-                event, payload = self._event_queue.get_nowait()
-                if event == "progress":
-                    current, total, message = payload
-                    self._set_progress(current, total)
-                    self.status_var.set(message)
-                elif event == "done":
-                    stats, prefix = payload
-                    self._set_progress(0, 1)
-                    timing = (
-                        f"Candidates {stats.candidate_files} | "
-                        f"Parse {stats.parse_seconds:.2f}s | "
-                        f"Embed {stats.embedding_seconds:.2f}s | "
-                        f"FAISS {stats.faiss_seconds:.2f}s"
-                    )
-                    if prefix:
-                        self.status_var.set(
-                            f"{prefix} (indexed {stats.processed}, "
-                            f"skipped {stats.skipped}, "
-                            f"chunks {stats.chunk_count}). {timing}"
-                        )
-                    else:
-                        self.status_var.set(
-                            f"Indexing complete. Indexed {stats.processed}, "
-                            f"skipped {stats.skipped}, "
-                            f"chunks {stats.chunk_count}. {timing}"
-                        )
-                    self._indexing = False
-                elif event == "error":
-                    (message,) = payload
-                    self._set_progress(0, 1)
-                    self.status_var.set(f"Indexing failed: {message}")
-                    self._indexing = False
+                popup.update(self.queue.get_nowait())
         except queue.Empty:
             pass
-        if self._indexing:
-            self.after(100, self._poll_events)
+        self.after(100, lambda: self._poll(popup))
+
+    def _ask(self):
+        q = self.query.get("1.0", tk.END).strip()
+        if not q:
+            return
+
+        response, _, _, debug = self.assistant.answer(
+            q,
+            use_memory=self.use_memory.get(),
+            use_memory_core=self.use_memory_core.get(),
+        )
+
+        self.last_debug = debug or {}
+
+        self.response.insert(tk.END, f"\n🧑 You:\n{q}\n")
+        self.response.insert(tk.END, f"\n🤖 Assistant:\n{response}\n")
+        self.response.see(tk.END)
+        self.query.delete("1.0", tk.END)
+
+        self._refresh_pinned_panel()
+        self._render_debug()
+        self._render_concept_heatmap()
+
+    # ========================================================
+    # Rendering
+    # ========================================================
+
+    def _render_debug(self):
+        self.memory.delete("1.0", tk.END)
+        self._pin_tag_map.clear()
+
+        debug = self.last_debug or {}
+
+        # ===============================
+        # Header
+        # ===============================
+        self.memory.insert(
+            tk.END,
+            "Query Rewrite\n"
+            f"  Original : {debug.get('query')}\n"
+            f"  Rewritten: {debug.get('rewritten_query')}\n\n"
+        )
+
+        def insert_item(item: dict):
+            namespace = item["namespace"]
+            chunk_id = item["chunk_id"]
+
+            pinned = chunk_id in self.assistant.session_pins.get(namespace, {})
+            marker = "[PIN]" if pinned else "[ ]"
+
+            tag = f"pin:{namespace}:{chunk_id}"
+            self._pin_tag_map[tag] = item
+
+            # -------------------------------
+            # Clickable header line ONLY
+            # -------------------------------
+            start = self.memory.index(tk.END)
+            self.memory.insert(
+                tk.END,
+                f"{marker} {item.get('source_path', '')} "
+                f"(score={item.get('score', 0):.3f}, rank={item.get('rank')})\n"
+            )
+            end = self.memory.index(tk.END)
+
+            # Apply pin tag ONLY to header line
+            self.memory.tag_add(tag, start, end)
+            self.memory.tag_add("pin", start, end)
+
+            # -------------------------------
+            # Rerank diagnostics
+            # -------------------------------
+            if item.get("rerank_delta") is not None:
+                delta = item["rerank_delta"]
+                self.memory.insert(
+                    tk.END,
+                    f"  Rerank delta: {delta:+.3f}\n"
+                )
+
+            # -------------------------------
+            # Tag grouping (plain text)
+            # -------------------------------
+            tags = item.get("tags", [])
+            groups = {
+                "concept": [],
+                "keyword": [],
+                "path": [],
+                "meta": [],
+            }
+
+            for t in tags:
+                if ":" in t:
+                    prefix, value = t.split(":", 1)
+                    if prefix in groups:
+                        groups[prefix].append(value)
+                    else:
+                        groups["meta"].append(t)
+                else:
+                    groups["meta"].append(t)
+
+            if groups["concept"]:
+                self.memory.insert(tk.END, "  Concepts:\n")
+                for c in groups["concept"]:
+                    self.memory.insert(tk.END, f"    - {c}\n")
+
+            if groups["keyword"]:
+                self.memory.insert(tk.END, "  Keywords:\n")
+                for k in groups["keyword"]:
+                    self.memory.insert(tk.END, f"    - {k}\n")
+
+            # -------------------------------
+            # Paths (ordered, reconstructed)
+            # -------------------------------
+            if groups["path"]:
+                self.memory.insert(tk.END, "  Paths:\n")
+
+                path_parts = groups["path"]
+
+                for i, part in enumerate(path_parts):
+                    is_last = i == len(path_parts) - 1
+                    suffix = "" if is_last else "/"
+                    self.memory.insert(
+                        tk.END,
+                        f"    - {part}{suffix}\n"
+                    )
+
+
+            if groups["meta"]:
+                self.memory.insert(tk.END, "  Metadata:\n")
+                for m in groups["meta"]:
+                    self.memory.insert(tk.END, f"    - {m}\n")
+
+            # -------------------------------
+            # Content
+            # -------------------------------
+            self.memory.insert(tk.END, "\n")
+            self.memory.insert(tk.END, f"{item['text']}\n\n")
+
+        # ===============================
+        # MEMORY CORE
+        # ===============================
+        memory_core = debug.get("memory_core", [])
+        if memory_core:
+            self.memory.insert(tk.END, "MEMORY CORE\n\n")
+            for item in memory_core:
+                insert_item(item)
+
+        # ===============================
+        # KNOWLEDGE BASE
+        # ===============================
+        file_memory = debug.get("file_memory", [])
+        if file_memory:
+            self.memory.insert(tk.END, "KNOWLEDGE BASE\n\n")
+            for item in file_memory:
+                insert_item(item)
+
+
+
+
+
+    def _render_concept_heatmap(self):
+        self.heatmap_box.delete("1.0", tk.END)
+        heatmap = self.last_debug.get("concept_heatmap") or {}
+        if not heatmap:
+            self.heatmap_box.insert(tk.END, "No semantic concepts triggered.\n")
+            return
+        for c, s in heatmap.items():
+            self.heatmap_box.insert(
+                tk.END,
+                f"{c.replace('concept:', ''):<25} {'█' * int(s * 10)} {s:.2f}\n"
+            )
+
+    # ========================================================
+    # Chat control
+    # ========================================================
+
+    def _load_chat_history(self):
+        for m in self.assistant.chat_store.load():
+            role = "🧑 You" if m["role"] == "user" else "🤖 Assistant"
+            self.response.insert(tk.END, f"\n{role}:\n{m['content']}\n")
+
+    def _clear_chat(self):
+        if messagebox.askyesno("Clear chat", "Clear all chat history?"):
+            self.assistant.clear_chat()
+            self.response.delete("1.0", tk.END)
+            self.memory.delete("1.0", tk.END)
+            self.heatmap_box.delete("1.0", tk.END)
+            self._refresh_pinned_panel()
+
+    def _summarize_chat_to_memory(self):
+        summary = self.assistant.summarize_chat_to_memory()
+        messagebox.showinfo(
+            "Memory Core",
+            summary if summary else "Nothing to summarize.",
+        )
 
 
 if __name__ == "__main__":
-    app = VectorApp()
-    app.mainloop()
+    VectorApp().mainloop()

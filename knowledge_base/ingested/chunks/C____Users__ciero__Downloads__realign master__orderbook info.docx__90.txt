@@ -1,0 +1,11 @@
+V ∗	((PT −2, RT −2)) = max{RT −2 ·PT −2 −β ·R2	+(α−2β)(N 2	−NT −2 ·RT −2)}  (1.9)
+T −2
+NT−2
+T −2
+T −2
+For the case α ≥ 2β, noting that NT −2 ≤ RT −2, we have the trivial solution:
+∗
+T −2
+= 0 or N∗
+= RT −2
+Substituting either of these two values for N∗

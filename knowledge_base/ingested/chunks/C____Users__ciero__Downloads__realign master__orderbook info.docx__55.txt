@@ -1,0 +1,2 @@
+Lastly, we denote the Utility (of Sales Proceeds) function as U (·).
+As mentioned previously, solving for the optimal number of shares to be sold at each time step can be modeled as a discrete-time finite-horizon Markov Decision Process, which we describe below in terms of the order of MDP activity at each time step t = 0, 1, . . . , T −1 (the MDP horizon is time T meaning all states at time T are terminal states). We follow the notational style of finite-horizon MDPs that should now be familiar from previous chapters.

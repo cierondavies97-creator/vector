@@ -1,0 +1,7 @@
+price=price, shares=rem
+)).sample() rem -= sell
+return NonTerminal(PriceAndShares( price=price,
+shares=rem
+))
+return SampledDistribution(states_sampler_func)
+Finally, we produce the Optimal Value Function and Optimal Policy for each time step with the following method backward_induction_vf_and_pi:

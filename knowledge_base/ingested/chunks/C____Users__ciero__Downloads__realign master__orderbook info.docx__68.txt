@@ -1,0 +1,2 @@
+NT −1 = RT −1.
+A method get_states_distribution that returns the probability distribution of states (Pt, Rt) at time t (of type SampledDistribution[NonTerminal[PriceAndShares]]). The code here is similar to the get_states_distribiution method of AssetAllocDiscrete in Chapter ?? (essentially, walking forward from time 0 to time t by sampling from the state-transition probability distribution and also sampling from uniform choices over all actions at each time step).

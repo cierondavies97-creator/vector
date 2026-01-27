@@ -1,0 +1,10 @@
+Likewise, a Buy Market Order of N shares will remove the best Sell LOs on the OB
+i−1
+i	i
+The purchase bill for this MO is:
+n−1
+j
+j=0
+i−1
+∑ P (a) · (min(N (a), max(0, N − ∑ N (a))))	(1.8)
+If N is large, the purchase bill for this MO can be significantly higher than the best possible purchase bill (= N · P (a)), which happens only if N ≤ N (a). All that we wrote

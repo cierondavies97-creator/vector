@@ -1,0 +1,3 @@
+eat_book takes as input a ps_pairs: PriceSizePairs (representing one side of the OB)
+and the number of shares: int to buy/sell. Notice eat_book’s return type: Tuple[DollarsAndShares,
+PriceSizePairs]. The returned DollarsAndShares represents the pair of dollars transacted and the number of shares transacted (with number of shares transacted being less than or equal to the input shares). The returned PriceSizePairs represents the remainder of ps_pairs after the transacted number of shares have eaten into the input ps_pairs.

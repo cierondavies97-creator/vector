@@ -1,0 +1,2 @@
+Simple Linear Price Impact Model with no Risk-Aversion
+Now we consider a special case of the above-described MDP - a simple linear Price Impact model with no risk-aversion. Furthermore, for analytical tractability, we assume N, Nt, Pt are all unconstrained continuous-valued (i.e., taking values ∈ R).

@@ -1,0 +1,3 @@
+avg_exec_price_diff: Sequence[Callable[[PriceAndShares], float]] price_dynamics: Sequence[Callable[[PriceAndShares], Distribution[float]]] utility_func: Callable[[float], float]
+discount_factor: float
+func_approx: ValueFunctionApprox[PriceAndShares] initial_price_distribution: Distribution[float]

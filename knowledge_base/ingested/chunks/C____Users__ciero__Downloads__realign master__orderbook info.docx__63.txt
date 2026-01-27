@@ -1,0 +1,1 @@
+initial_price_distribution refers to the probability distribution of prices P0 at time 0, which is used to generate the samples of states at each of the time steps (needed in the approximate backward induction algorithm).

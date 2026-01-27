@@ -1,0 +1,4 @@
+dollars += this_price * min(rem_shares, this_shares) if rem_shares < this_shares:
+return (
+DollarsAndShares(dollars=dollars, shares=shares), [DollarsAndShares(
+dollars=this_price, shares=this_shares - rem_shares

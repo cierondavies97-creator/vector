@@ -1,0 +1,3 @@
+wt2: float = -(2 * beta + alpha * (left - 1)) / (2 * left) val_anal: float = wt1 * state.price * state.shares + \
+wt2 * state.shares * state.shares
+print(f”Optimal Sales = {opt_sale_anal:.3f}, Opt Val = {val_anal:.3f}”) print(f”Weight1 = {wt1:.3f}”)

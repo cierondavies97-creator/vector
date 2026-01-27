@@ -1,0 +1,4 @@
+The PDE (1.18) we derived above for θ and the associated implicit Equations (1.16) and
+(1.17) for δ(b)∗, δ(a)∗ are messy. So we make some assumptions, simplify, and derive an-
+t	t
+alytical approximations(as presented in the Avellaneda-Stoikov paper). We start by as-

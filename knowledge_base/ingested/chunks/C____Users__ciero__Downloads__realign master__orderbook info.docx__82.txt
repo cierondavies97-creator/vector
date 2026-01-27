@@ -1,0 +1,3 @@
+We assume simple linear price dynamics as follows:
+Pt+1 = ft(Pt, Nt, ϵ) = Pt − α · Nt + ϵt
+where α ∈ R and ϵt for all t = 0, 1, . . . , T − 1 are independent and identically distributed (i.i.d.) with E[ϵt|Nt, Pt] = 0. Therefore, the Permanent Price Impact (as an Expectation) is α · Nt.

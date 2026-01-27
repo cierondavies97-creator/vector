@@ -1,0 +1,5 @@
+Optimal Expected Total Sales Proceeds is equal to:
+N 2
+2β − α
+N · P0 −  2  · (α +	T	)
+Implementation Shortfall is the technical term used to refer to the reduction in Total Sales Proceeds relative to the maximum possible sales proceeds (= N · P0). So, in this simple

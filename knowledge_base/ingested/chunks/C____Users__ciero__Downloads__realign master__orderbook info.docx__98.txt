@@ -1,0 +1,4 @@
+linear model, the Implementation Shortfall from Price Impact is N2 · (α + 2β−α ). Note that
+2	T
+the Implementation Shortfall is non-zero even if one had infinite time available (T → ∞)
+for the case of α > 0. If Price Impact were purely temporary (α = 0, i.e., Price fully snapped back), then the Implementation Shortfall is zero if one had infinite time available.

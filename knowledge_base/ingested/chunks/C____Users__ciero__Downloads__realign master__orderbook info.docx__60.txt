@@ -1,0 +1,3 @@
+shares refers to the total number of shares N to be sold over T time steps.
+time_steps refers to the number of time steps T .
+avg_exec_price_diff refers to the time-sequenced functions gt that return the reduc-tion in the average price obtained by the Market Order at time t due to eating into the Buy LOs. gt takes as input the type PriceAndShares that represents a pair of price: float and shares: int (in this case, the price is Pt and the shares is the MO size Nt at time t). As explained earlier, the sales proceeds at time t is: Nt · (Pt − gt(Pt, Nt)).

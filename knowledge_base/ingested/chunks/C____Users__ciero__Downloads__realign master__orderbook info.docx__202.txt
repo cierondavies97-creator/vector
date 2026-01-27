@@ -1,0 +1,6 @@
+indicating inclination to buy rather than sell. Think of the interval [P (b)∗
+, P (a)∗
+t
+] as being
+around the pseudo mid-price Q(m) (rather than thinking of it as being around the OB
+mid-price S ). The interval [P (b)∗, P (a)∗] moves up/down in tandem with Q(m) moving

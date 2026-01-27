@@ -1,0 +1,13 @@
+Terms devoid of It (i.e., I0)
+Terms involving It (i.e., I1)
+Terms involving I2
+We start by collecting terms involving It:
+∂θ(1)	σ2
++	·
+∂t	2
+∂2θ(1)
+∂S2
+= 0 with boundary condition θ
+(1)
+(T, ST ) = ST
+The solution to this PDE is:

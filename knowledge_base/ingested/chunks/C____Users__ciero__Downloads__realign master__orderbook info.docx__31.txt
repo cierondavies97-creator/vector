@@ -1,0 +1,7 @@
+dollars=price, shares=rem_shares
+))
+elif new_asks[index1].dollars != price: new_asks.insert(index1, DollarsAndShares(
+dollars=price, shares=rem_shares
+))
+else:
+new_asks[index1] = DollarsAndShares( dollars=price, shares=new_asks[index1].shares + rem_shares

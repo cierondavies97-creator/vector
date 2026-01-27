@@ -1,0 +1,6 @@
+def bid_price(self) -> float:
+return self.descending_bids[0].dollars
+def ask_price(self) -> float:
+return self.ascending_asks[0].dollars
+def mid_price(self) -> float:
+return (self.bid_price() + self.ask_price()) / 2

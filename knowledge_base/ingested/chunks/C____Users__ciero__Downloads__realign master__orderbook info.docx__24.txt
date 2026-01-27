@@ -1,0 +1,5 @@
+@staticmethod def eat_book(
+ps_pairs: PriceSizePairs, shares: int
+) -> Tuple[DollarsAndShares, PriceSizePairs]: rem_shares: int = shares
+dollars: float = 0.
+for i, d_s in enumerate(ps_pairs): this_price: float = d_s.dollars this_shares: int = d_s.shares

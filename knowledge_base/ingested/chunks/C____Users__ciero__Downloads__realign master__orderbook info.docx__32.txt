@@ -1,0 +1,8 @@
+)
+return d_s, OrderBook( ascending_asks=new_asks, descending_bids=new_bids
+)
+else:
+return d_s, replace( self,
+descending_bids=new_bids
+)
+Next, we write the easier method sell_market_order which takes as input the number of shares to be sold (as a market order). sell_market_order transacts with the appropri-ate number of shares on the Buy LOs side of the OB (removing those many shares from

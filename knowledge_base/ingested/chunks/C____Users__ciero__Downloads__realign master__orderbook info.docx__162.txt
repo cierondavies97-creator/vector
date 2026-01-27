@@ -1,0 +1,4 @@
+For convenience, we abbreviate Q(b)(t, St, It) as Q(b) and Q(a)(t, St, It) as Q(a). Next, we
+t	t
+express V ∗(t, St, Wt − Q(b), It + 1) = V ∗(t, St, Wt, It) in terms of θ:
+−e−γ·(Wt−Q(b)+θ(t,St,It+1)) = −e−γ·(Wt+θ(t,St,It))

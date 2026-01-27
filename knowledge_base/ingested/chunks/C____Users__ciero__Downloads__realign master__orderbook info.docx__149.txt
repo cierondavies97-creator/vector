@@ -1,0 +1,6 @@
+max E[dV ∗(t, St, Wt, It)] = 0 for t < T
+δ(b),δ(a)
+t	t
+V ∗(T, ST , WT , IT ) = −e−γ·(WT +IT ·ST )
+An infinitesimal change dV ∗ to V ∗(t, St, Wt, It) is comprised of 3 components:
+Due to pure movement in time (dependence of V ∗ on t).

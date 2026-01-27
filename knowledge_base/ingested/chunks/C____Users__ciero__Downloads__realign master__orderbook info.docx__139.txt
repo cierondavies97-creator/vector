@@ -1,0 +1,9 @@
+Update of Wt to Wt+1.
+Update of It to It+1.
+Stochastic evolution of St to St+1.
+Receive Reward Rt+1, where
+t+1	t
+Rt+1
+:=	0	for 1 ≤ t + 1 ≤ T − 1
+U (WT + IT · ST )	for t + 1 = T
+The goal is to find an Optimal Policy π∗ = (π∗, π∗, . . . , π∗	), where

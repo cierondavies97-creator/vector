@@ -1,0 +1,3 @@
+Due to randomness in OB Mid-Price (dependence of V ∗ on St).
+Due to randomness in hitting/lifting the market-maker’s Bid/Ask (dependence of
+V ∗ on λ(b) and λ(a)). Note that the probability of being hit in interval from t to t +

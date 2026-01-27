@@ -1,0 +1,4 @@
+from dataclasses import replace
+def sell_limit_order(self, price: float, shares: int) -> \ Tuple[DollarsAndShares, OrderBook]:
+index: Optional[int] = next((i for i, d_s
+in enumerate(self.descending_bids) if d_s.dollars < price), None)

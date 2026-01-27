@@ -1,0 +1,3 @@
+It = X(b) − X(a)
+t	t
+The market-maker’s goal is to maximize (for an appropriately shaped concave utility function U (·)) the sum of the trading account value at time T and the value of the inventory of shares held at time T , i.e., we maximize:

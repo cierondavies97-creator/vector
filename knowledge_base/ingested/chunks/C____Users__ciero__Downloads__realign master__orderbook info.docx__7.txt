@@ -1,0 +1,3 @@
+Likewise, we refer to P (a) as The Ask Price (lightened to Best Ask) to signify that it is the lowest offer to sell and hence, the best price for a buyer to transact with.
+P (a)+P (b)
+0  2 0	is refered to as the The Mid Price (lightened to Mid).

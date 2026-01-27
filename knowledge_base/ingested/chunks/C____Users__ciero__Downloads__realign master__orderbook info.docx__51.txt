@@ -1,0 +1,9 @@
+t−1
+Rt = N −	Ni for all t = 0, 1, . . . , T
+i=0
+Note that:
+R0 = N
+Rt+1 = Rt − Nt for all t = 0, 1, . . . , T − 1
+Also note that we need to sell everything by time t = T and so:
+NT −1 = RT −1 ⇒ RT = 0
+The model of Best Bid Price Dynamics from one time step to the next is given by:

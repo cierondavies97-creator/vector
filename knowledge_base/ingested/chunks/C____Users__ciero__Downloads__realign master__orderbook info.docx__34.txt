@@ -1,0 +1,7 @@
+def sell_market_order( self,
+shares: int
+) -> Tuple[DollarsAndShares, OrderBook]: d_s, rem_bids = OrderBook.eat_book(
+self.descending_bids, shares
+)
+return (d_s, replace(self, descending_bids=rem_bids))
+We won’t list the methods buy_limit_order and buy_market_order here as they are com-

@@ -1,0 +1,5 @@
+Order of Events at time step t for all t = 0, 1, . . . , T − 1:
+Observe State st := (Pt, Rt) ∈ St
+Perform Action at := Nt ∈ At
+Receive Reward rt+1 := U (Nt · Qt) = U (Nt · (Pt − gt(Pt, Nt)))
+Experience Price Dynamics Pt+1 = ft(Pt, Nt, ϵt) and set Rt+1 = Rt − Nt so as to obtain the next state st+1 = (Pt+1, Rt+1) ∈ St+1.

@@ -1,0 +1,7 @@
+This implies:
+Likewise, we can derive:
+Q(b) = St − (2It + 1) ·
+Q(a) = St − (2It − 1) ·
+γ · σ2 · (T − t) 2
+γ · σ2 · (T − t) 2
+The formulas for the Indifference Mid Price and the Indifference Bid-Ask Price Spread are as follows:

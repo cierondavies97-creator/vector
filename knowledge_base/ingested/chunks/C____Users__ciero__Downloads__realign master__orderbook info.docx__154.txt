@@ -1,0 +1,15 @@
+E[dzt] = 0.
+E[(dzt)2] = dt.
+Organize the terms involving λ(b) and λ(a) better with some algebra.
+t	t
+Divide throughout by dt.
+max {
+δ(b),δ(a)
+∂V ∗
+∂t
++ σ  ·
+2
+∂2V ∗
+∂S2
+t	t
++ λ(b) · (V ∗(t, St, Wt − St + δ(b), It + 1) − V ∗(t, St, Wt, It))

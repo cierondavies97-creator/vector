@@ -1,0 +1,4 @@
+to time t + 1.
+Noise ϵt, a source of randomness in Best Bid Price movements.
+The sales proceeds from the sale at time step t, for all t = 0, 1, . . . , T − 1, is defined as:
+Nt · Qt = Nt · (Pt − gt(Pt, Nt))

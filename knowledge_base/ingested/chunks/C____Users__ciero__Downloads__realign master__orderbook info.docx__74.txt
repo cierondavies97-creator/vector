@@ -1,0 +1,4 @@
+if t == steps - 1:
+return iter([p_s.state.shares]) else:
+return iter(range(p_s.state.shares + 1)) return OptimalExecutionMDP()
+def get_states_distribution(self, t: int) -> \ SampledDistribution[NonTerminal[PriceAndShares]]:

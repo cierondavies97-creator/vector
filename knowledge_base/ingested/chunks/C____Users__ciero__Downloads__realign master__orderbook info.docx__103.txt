@@ -1,0 +1,5 @@
+initial_price_distribution=init_price_distrib
+)
+it_vf: Iterator[Tuple[ValueFunctionApprox[PriceAndShares],
+DeterministicPolicy[PriceAndShares, int]]] = \ ooe.backward_induction_vf_and_pi()
+Next we evaluate this Optimal Value Function and Optimal Policy on a particular state for all time steps, and compare that against the closed-form solution. The state we use for evaluation is as follows:

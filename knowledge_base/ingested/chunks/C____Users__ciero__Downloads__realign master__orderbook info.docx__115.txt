@@ -1,0 +1,2 @@
+Qt = Pt · (1 − β · Nt − θ · Xt)
+where Zt are independent and identically distributed random variables with mean µZ and variance σ2 , ηt are independent and identically distributed random variables with mean zero for all t = 0, 1, . . . , T − 1, Zt and ηt are independent of each other for all t = 0, 1, . . . , T − 1. Xt can be thought of as a market factor affecting Pt multiplicatively. With the same derivation methodology as before, we get the solution:

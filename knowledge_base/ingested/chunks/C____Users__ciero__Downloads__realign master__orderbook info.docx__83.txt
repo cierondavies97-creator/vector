@@ -1,0 +1,3 @@
+As for the Temporary Price Impact, we know that gt needs to be a non-decreasing func-tion of Nt. We assume a simple linear form for gt as follows:
+gt(Pt, Nt) = β · Nt for all t = 0, 1, . . . , T − 1
+for some constant β ∈ R≥0. So, Qt = Pt − βNt. As mentioned above, we assume no risk-aversion, i.e., the Utility function U (·) is assumed to be the identity function. Also, we assume that the MDP discount factor γ = 1.

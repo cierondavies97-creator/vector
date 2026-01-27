@@ -1,0 +1,4 @@
+print()
+opt_sale: int = pol.action_for(state) val: float = vf(NonTerminal(state))
+print(f”Optimal Sales = {opt_sale:d}, Opt Val = {val:.3f}”) print()
+print(”Optimal Weights below:”) print(vf.weights.weights) print()

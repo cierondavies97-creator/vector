@@ -1,0 +1,12 @@
+t	t
++ λ(a) · (V ∗(t, St, Wt + St + δ(a), It − 1) − V ∗(t, St, Wt, It))} = 0
+t	t
+Next, note that λ(b)
+= f (b)(δ(b)) and λ(a)
+= f (a)(δ(a)), and apply the max only on the
+relevant terms:
+∂V ∗	σ2
++	·
+∂t	2
+t	t	t	t
+∂2V ∗

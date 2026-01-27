@@ -1,0 +1,3 @@
+Denote P (a) ∈ R+ as the market-maker’s Ask Price at time t.
+Denote N (a) ∈ Z+ as the market-maker’s Ask Shares at time t.
+We refer to δ(b) = St − P (b) as the market-maker’s Bid Spread (relative to OB Mid).

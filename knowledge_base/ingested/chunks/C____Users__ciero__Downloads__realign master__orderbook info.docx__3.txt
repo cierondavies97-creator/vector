@@ -1,0 +1,2 @@
+Note that multiple traders might submit LOs with the same price. The order book ag-gregates the number of shares at each unique price, and the OB data structure is typically
+Figure 1.1: Trading	Order	Book	(Image	Credit:	https://nms.kcl.ac.uk/rll/ enrique-miranda/index.html)

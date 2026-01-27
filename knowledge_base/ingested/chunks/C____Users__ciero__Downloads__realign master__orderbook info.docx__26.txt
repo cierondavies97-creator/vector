@@ -1,0 +1,8 @@
+)] + list(ps_pairs[i+1:])
+)
+else:
+rem_shares -= this_shares
+return (
+DollarsAndShares(dollars=dollars, shares=shares - rem_shares), []
+)
+Now we are ready to write the method sell_limit_order which takes Sell LO Price and

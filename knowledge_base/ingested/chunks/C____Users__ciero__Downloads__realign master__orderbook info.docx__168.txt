@@ -1,0 +1,15 @@
+Now let us write the PDE in terms of the Optimal Bid and Ask Spreads:
+∂θ	σ2
+∂2θ
+∂θ  2
+∂t + 2 · ( ∂S2 − γ · ( ∂S ) )
+t
+f (b)(δ(b)∗)
+t
+(b)∗
++ 	t	 · (1 − e−γ·(δt
+γ
+−St+θ(t,St,It+1)−θ(t,St,It)))
+(1.18)
+f (a)(δ(a)∗)
+(a)∗

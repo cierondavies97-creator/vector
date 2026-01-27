@@ -1,0 +1,11 @@
+(b)
+t
+γ
+f (a)(δ(a))
+(a)
++ max{ 	t	 · (1 − e−γ·(δt  +St+θ(t,St,It−1)−θ(t,St,It)))} = 0
+(a)	γ
+t
+The boundary condition is:
+θ(T, ST , IT ) = IT · ST
+It turns out that θ(t, St, It + 1) − θ(t, St, It) and θ(t, St, It) − θ(t, St, It − 1) are equal to financially meaningful quantities known as Indifference Bid and Ask Prices.

@@ -1,0 +1,18 @@
+c
+k + γ
+· (2 − 2k
+γ
+· log (1 +
+γ ) + k · θ(2)) = 0
+k
+(1.25)
+with boundary condition:
+θ(0)
+(T ) + IT · θ
+(1)
+2
+(T, ST ) +  T
+2
+· θ(2)
+(T, ST ) = IT · ST
+Now we separately collect terms involving specific powers of It, each yielding a separate PDE:

@@ -1,0 +1,9 @@
+V ∗(t, St, Wt, It) = E[−e−γ·(Wt+It·ST )]
+The process dSt = σ · dzt implies that ST ∼ N(St, σ2 · (T − t)), and hence:
+γ·I2·σ2·(T−t)
+V ∗(t, S , W , I ) = −e−γ·(Wt+It·St−	t  2	)
+t	t	t
+Hence,
+∗
+(b)
+−γ·(W −Q(b)+(I +1)·S − γ·(It+1)2·σ2·(T−t) )

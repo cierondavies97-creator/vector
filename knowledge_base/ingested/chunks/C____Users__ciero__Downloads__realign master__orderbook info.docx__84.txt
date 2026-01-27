@@ -1,0 +1,1 @@
+Note that all of these assumptions are far too simplistic and hence, an unrealistic model of the real-world, but starting with this simple model helps build good intuition and en-ables us to develop more realistic models by incrementally adding complexity/nuances from this simple base model.

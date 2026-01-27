@@ -1,0 +1,2 @@
+that have been transacted against (by MOs or by Sell LOs) up to time t (X(b) is often refered to as the cumulative “hits” up to time t, as in “the market-maker’s buy offer has been hit”).
+Random variable X(a) ∈ Z≥0 refers to the total number of market-maker’s Ask

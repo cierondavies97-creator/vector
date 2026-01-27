@@ -1,0 +1,5 @@
+from rl.approximate_dynamic_programming import ValueFunctionApprox @dataclass(frozen=True)
+class PriceAndShares: price: float shares: int
+@dataclass(frozen=True) class OptimalOrderExecution:
+shares: int
+time_steps: int

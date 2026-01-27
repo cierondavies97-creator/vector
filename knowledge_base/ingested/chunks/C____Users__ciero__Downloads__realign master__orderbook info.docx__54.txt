@@ -1,0 +1,1 @@
+where gt is a function modeling the Temporary Price Impact (i.e., the Nt MO “eating into” the Buy LOs on the OB). Qt should be interpreted as the average Buy LO price transacted against by the Nt MO at time t.

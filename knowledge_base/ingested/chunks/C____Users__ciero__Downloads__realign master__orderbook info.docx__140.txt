@@ -1,0 +1,10 @@
+0	1	T −1
+π∗((St, Wt, It)) = (P (b), N (b), P (a), N (a))
+t
+that maximizes:
+T
+t	t	t	t
+E[	Rt] = E[RT ] = E[U (WT + IT · ST )]
+t=1
+Avellaneda-Stoikov Continuous-Time Formulation
+A landmark paper by Avellaneda and Stoikov (Avellaneda and Stoikov 2008) formulated this optimal market-making problem in it’s continuous-time version. Their formulation is conducive to analytical tractability and they came up with a simple, clean and intuitive solution. In this subsection, we go over their formulation and in the next subsection, we show the derivation of their solution. We adapt our discrete-time notation above to their continuous-time setting.

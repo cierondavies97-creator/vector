@@ -1,0 +1,5 @@
+if rem_shares > 0:
+new_asks: List[DollarsAndShares] = list(self.ascending_asks) index1: Optional[int] = next((i for i, d_s
+in enumerate(new_asks)
+if d_s.dollars >= price), None)
+if index1 is None: new_asks.append(DollarsAndShares(

@@ -1,0 +1,2 @@
+E[U (WT + IT · ST )]
+As we alluded to earlier, this problem can be cast as a discrete-time finite-horizon Markov Decision Process (with discount factor γ = 1). Following the usual notation for discrete-time finite-horizon MDPs, the order of activity for the MDP at each time step t = 0, 1, . . . , T − 1 is as follows:

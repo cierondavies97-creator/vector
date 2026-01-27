@@ -1,0 +1,12 @@
+t
+with the spreads as follows:
+t	t	t	t
+Outer Spreads P (a)∗ − Q(a) = Q(b) − P (b)∗ = 1 · log (1 + γ )
+t	t	t	t	γ	k
+(a)
+(m)
+(m)
+(b)
+γ · σ2 · (T − t)
+Inner Spreads Qt	− Qt	= Qt	− Qt	=	2
+This completes the analytical approximation to the solution of the Avellaneda-Stoikov continuous-time formulation of the Optimal Market-Making problem.

@@ -1,0 +1,24 @@
+t
+(b)
+(b)
++	· (
+2 − γ · (
+) ) + max g(δt  ) + max h(δt  ) = 0
+∂t	2
+∂St
+(b)
+∂St
+f (b)(δ(b))
+(b)
+t
+(b)
+(a)
+t
+(b)
+where g(δ	) = 	t	 · (1 − e−γ·(δt  −St+Qt  ))
+γ
+(a)
+f (a)(δ(a))
+(a)
+(a)
+and h(δ	) = 	t	 · (1 − e−γ·(δt  +St−Qt  ))

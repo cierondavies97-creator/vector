@@ -1,0 +1,6 @@
+mu=p_s.price - alpha * p_s.shares, sigma=0.
+) for _ in range(num_time_steps)] ffs = [
+lambda p_s: p_s.state.price * p_s.state.shares,
+lambda p_s: float(p_s.state.shares * p_s.state.shares)
+]
+fa: FunctionApprox = LinearFunctionApprox.create(feature_functions=ffs) init_price_distrib: Gaussian = Gaussian(

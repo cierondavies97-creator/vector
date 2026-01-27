@@ -1,0 +1,2 @@
+Let’s submit a Sell LO that says we’d like to sell 40 shares as long as the transacted price is greater than or equal to 107. Our Sell LO should simply get added to the Sell LOs side of the OB.
+d_s1, ob1 = ob0.sell_limit_order(107, 40)

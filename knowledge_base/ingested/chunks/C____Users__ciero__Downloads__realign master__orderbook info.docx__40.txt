@@ -1,0 +1,3 @@
+d_s2, ob2 = ob1.sell_market_order(120)
+The new OrderBook ob2 has 120 less shares on the Buy LOs side of the OB, as depicted in Figure 1.4.
+Now let’s submit a Buy LO that says we’d like to buy 80 shares as long as the transacted price is less than or equal to 100. Our Buy LO should get added to the Buy LOs side of the OB.

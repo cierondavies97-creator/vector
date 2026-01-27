@@ -1,0 +1,3 @@
+Now we are ready to get started with the problem of Optimal Execution of a large-sized Market Order.
+Optimal Execution of a Market Order
+Imagine the following problem: You are a trader in a stock and your boss has instructed that you exit from trading in this stock because this stock doesn’t meet your company’s

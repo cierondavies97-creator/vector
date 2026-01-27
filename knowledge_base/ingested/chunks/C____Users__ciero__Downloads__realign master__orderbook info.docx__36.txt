@@ -1,0 +1,5 @@
+bids: PriceSizePairs = [DollarsAndShares( dollars=x,
+shares=poisson(100. - (100 - x) * 10)
+) for x in range(100, 90, -1)]
+asks: PriceSizePairs = [DollarsAndShares( dollars=x,
+shares=poisson(100. - (x - 105) * 10)

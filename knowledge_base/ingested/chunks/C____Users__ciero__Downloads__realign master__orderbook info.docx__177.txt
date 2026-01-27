@@ -1,0 +1,1 @@
+the market-maker, an adjustment to the OB mid price St that takes into account the magni-tude and sign of It. If the market-maker is long inventory (It > 0), then Q(m) < St, which makes intuitive sense since the market-maker is interested in reducing her risk of inven-

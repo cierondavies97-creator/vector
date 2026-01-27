@@ -1,0 +1,11 @@
+t	t
+numerical PDE solution.
+Using Equations (1.14) and (1.15), and using the above-obtained θ in terms of δ(b)∗
+(a)∗
+(b)
+(a)
+(b)∗
+t
+(a)∗
+and δt	, we get Qt	and Qt	in terms of δt	and δt	.
+Then we substitute the above-obtained Q(b) and Q(a) (in terms of δ(b)∗ and δ(a)∗) in

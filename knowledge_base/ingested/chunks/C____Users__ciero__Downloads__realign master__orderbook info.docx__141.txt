@@ -1,0 +1,4 @@
+[(X(b)|0 ≤ t < T ] and [X(a)|0 ≤ t < T ] are assumed to be continuous-time Poisson
+t	t
+processes with the hit rate per unit of time and the lift rate per unit of time denoted as λ(b) and
+λ(a) respectively. Hence, we can write the following:
