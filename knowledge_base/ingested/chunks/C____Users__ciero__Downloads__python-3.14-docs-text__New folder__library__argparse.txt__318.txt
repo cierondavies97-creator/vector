@@ -1,0 +1,4 @@
+example:
+      >>> parser = argparse.ArgumentParser(prog='PROG')
+      >>> group = parser.add_argument_group('Group title', 'Group description')
+      >>> exclusive_group = group.add_mutually_exclusive_group(required=True)

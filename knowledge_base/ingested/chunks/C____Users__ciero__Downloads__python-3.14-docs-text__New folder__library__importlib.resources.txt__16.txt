@@ -1,0 +1,5 @@
+==============
+A set of simplified, backwards-compatible helpers is available. These
+allow common operations in a single function call.
+For all the following functions:
+* *anchor* is an "Anchor", as in "files()". Unlike in "files", it may

@@ -1,0 +1,5 @@
+for *action*.
+   Return value is an event which may be used for later cancellation
+   of the event (see "cancel()").
+   Changed in version 3.3: *argument* parameter is optional.
+   Changed in version 3.3: *kwargs* parameter was added.

@@ -1,0 +1,4 @@
+* *server_hostname* sets or overrides the hostname that the target
+     server's certificate will be matched against.  Should only be
+     passed if *ssl* is not "None".  By default the value of the
+     *host* argument is used.  If *host* is empty, there is no default

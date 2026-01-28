@@ -1,0 +1,3 @@
+a text page containing the message "Hello world!" and a list of the
+   key/value pairs provided in the *environ* parameter.  It's useful
+   for verifying that a WSGI server (such as "wsgiref.simple_server")

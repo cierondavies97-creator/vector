@@ -1,0 +1,4 @@
+specified with the *protocol* parameter.  See the "pickle"
+   documentation for a discussion of the pickle protocols.
+   If the *writeback* parameter is "True", the object will hold a
+   cache of all entries accessed and write them back to the *dict* at

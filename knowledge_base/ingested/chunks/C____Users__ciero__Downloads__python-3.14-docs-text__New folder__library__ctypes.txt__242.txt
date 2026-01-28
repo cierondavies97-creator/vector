@@ -1,0 +1,3 @@
+"ctypes.get_last_error()" and "ctypes.set_last_error()" are used to
+request and change the ctypes private copy of the windows error code.
+The *winmode* parameter is used on Windows to specify how the library

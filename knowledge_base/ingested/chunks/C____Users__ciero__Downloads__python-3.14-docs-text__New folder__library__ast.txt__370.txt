@@ -1,0 +1,3 @@
+If "NodeTransformer" introduces new nodes (that weren't part of
+   original tree) without giving them location information (such as
+   "lineno"), "fix_missing_locations()" should be called with the new

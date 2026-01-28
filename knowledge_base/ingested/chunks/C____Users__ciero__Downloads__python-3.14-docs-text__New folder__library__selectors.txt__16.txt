@@ -1,0 +1,4 @@
+*events* is a bitwise mask of events to monitor. *data* is an
+      opaque object.
+      This returns a new "SelectorKey" instance, or raises a
+      "ValueError" in case of invalid event mask or file descriptor,

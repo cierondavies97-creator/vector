@@ -1,0 +1,6 @@
+option to display its help, or its name passed to "py help".
+   $> py help
+   $> py help install
+   $> py install /?
+All commands support some common options, which will be shown by "py
+help". These options must be specified after any subcommand.

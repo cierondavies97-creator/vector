@@ -1,0 +1,5 @@
+object*.
+   Changed in version 3.12: Added the *filter* parameter.
+   Changed in version 3.14: The *filter* parameter now defaults to
+   "'data'".
+TarFile.extract(member, path='', set_attrs=True, *, numeric_owner=False, filter=None)

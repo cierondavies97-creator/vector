@@ -1,0 +1,4 @@
+popular values and can return a reference to a cached item.
+Many functions that extract objects from other objects also transfer
+ownership with the reference, for instance "PyObject_GetAttrString()".
+The picture is less clear, here, however, since a few common routines

@@ -1,0 +1,4 @@
+detailed, else the summary is very brief (in fact, empty if all
+   tests passed).
+   Optional argument *optionflags* (default value "0") takes the
+   bitwise OR of option flags. See section Option Flags.

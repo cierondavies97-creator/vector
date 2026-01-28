@@ -1,0 +1,6 @@
+Return "True" if the object is a bound method written in Python.
+inspect.ispackage(object)
+   Return "True" if the object is a *package*.
+   Added in version 3.14.
+inspect.isfunction(object)
+   Return "True" if the object is a Python function, which includes

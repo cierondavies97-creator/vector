@@ -1,0 +1,4 @@
+**Source code:** Lib/asyncio/coroutines.py
+======================================================================
+*Coroutines* declared with the async/await syntax is the preferred way
+of writing asyncio applications.  For example, the following snippet

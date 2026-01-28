@@ -1,0 +1,4 @@
++----------------------------------+--------------------+
+      | "KEY_BACKSPACE"                  | "Control"-"h"      |
+      +----------------------------------+--------------------+
+      All other keystrokes are treated as a command to insert the

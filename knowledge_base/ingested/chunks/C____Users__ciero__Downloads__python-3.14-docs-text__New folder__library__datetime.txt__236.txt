@@ -1,0 +1,6 @@
+datetime.__str__()
+   For a "datetime" instance "d", "str(d)" is equivalent to
+   "d.isoformat(' ')".
+datetime.ctime()
+   Return a string representing the date and time:
+      >>> from datetime import datetime

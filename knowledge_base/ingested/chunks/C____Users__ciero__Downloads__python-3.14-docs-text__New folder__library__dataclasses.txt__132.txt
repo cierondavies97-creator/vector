@@ -1,0 +1,5 @@
+if obj is None:
+               return self._default
+           return getattr(obj, self._name, self._default)
+       def __set__(self, obj, value):
+           setattr(obj, self._name, int(value))

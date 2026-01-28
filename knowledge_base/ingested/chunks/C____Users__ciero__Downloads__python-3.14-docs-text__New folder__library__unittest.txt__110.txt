@@ -1,0 +1,4 @@
+Any exception, other than "AssertionError" or "SkipTest", raised
+      by this method will be considered an additional error rather
+      than a test failure (thus increasing the total number of
+      reported errors). This method will only be called if the

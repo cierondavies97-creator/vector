@@ -1,0 +1,6 @@
+Element creation:
+      def reorder_attributes(root):
+          for el in root.iter():
+              attrib = el.attrib
+              if len(attrib) > 1:
+                  # adjust attribute order, e.g. by sorting

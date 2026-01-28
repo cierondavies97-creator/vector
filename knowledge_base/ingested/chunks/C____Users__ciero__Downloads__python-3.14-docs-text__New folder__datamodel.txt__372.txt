@@ -1,0 +1,4 @@
+with Value comparisons: equality compares according to object
+   identity, and order comparisons raise "TypeError". Each default
+   method may generate these results directly, but may also return
+   "NotImplemented".

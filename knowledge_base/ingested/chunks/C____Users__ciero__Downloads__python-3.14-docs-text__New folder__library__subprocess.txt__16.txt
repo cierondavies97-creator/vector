@@ -1,0 +1,4 @@
+of the default behavior of inheriting the current process'
+   environment. It is passed directly to "Popen". This mapping can be
+   str to str on any platform or bytes to bytes on POSIX platforms
+   much like "os.environ" or "os.environb".

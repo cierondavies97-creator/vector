@@ -1,0 +1,4 @@
+Raises an auditing event "time.sleep" with argument "secs".
+   Changed in version 3.5: The function now sleeps at least *secs*
+   even if the sleep is interrupted by a signal, except if the signal
+   handler raises an exception (see **PEP 475** for the rationale).

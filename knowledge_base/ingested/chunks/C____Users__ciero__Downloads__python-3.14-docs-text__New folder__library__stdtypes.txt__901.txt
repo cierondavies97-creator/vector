@@ -1,0 +1,4 @@
+global execution environment.  Code objects are returned by the built-
+in "compile()" function and can be extracted from function objects
+through their "__code__" attribute. See also the "code" module.
+Accessing "__code__" raises an auditing event "object.__getattr__"

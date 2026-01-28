@@ -1,0 +1,5 @@
+------------------------------------
+Here's an example of a callback option that takes no arguments, and
+simply records that the option was seen:
+   def record_foo_seen(option, opt_str, value, parser):
+       parser.values.saw_foo = True

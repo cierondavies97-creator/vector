@@ -1,0 +1,5 @@
+6.10. Comparisons
+=================
+Unlike C, all comparison operations in Python have the same priority,
+which is lower than that of any arithmetic, shifting or bitwise
+operation.  Also unlike C, expressions like "a < b < c" have the

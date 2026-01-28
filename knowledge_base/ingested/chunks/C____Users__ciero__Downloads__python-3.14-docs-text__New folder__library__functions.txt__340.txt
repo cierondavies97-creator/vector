@@ -1,0 +1,7 @@
+...
+   >>> X = type('X', (), dict(a=1))
+   See also:
+   * Documentation on attributes and methods on classes.
+   * Type Objects
+   Keyword arguments provided to the three argument form are passed to
+   the appropriate metaclass machinery (usually "__init_subclass__()")

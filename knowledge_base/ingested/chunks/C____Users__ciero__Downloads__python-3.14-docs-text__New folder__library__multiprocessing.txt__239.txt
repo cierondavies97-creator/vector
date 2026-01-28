@@ -1,0 +1,5 @@
+"threading.RLock.acquire()".
+   release()
+      Release a lock, decrementing the recursion level.  If after the
+      decrement the recursion level is zero, reset the lock to
+      unlocked (not owned by any process or thread) and if any other

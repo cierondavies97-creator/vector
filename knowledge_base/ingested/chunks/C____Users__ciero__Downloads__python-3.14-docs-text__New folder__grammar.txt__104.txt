@@ -1,0 +1,6 @@
+| pattern
+   star_pattern[pattern_ty] (memo):
+       | '*' target=pattern_capture_target {
+           _PyAST_MatchStar(target->v.Name.id, EXTRA) }
+       | '*' wildcard_pattern {
+           _PyAST_MatchStar(NULL, EXTRA) }

@@ -1,0 +1,8 @@
+item.magic()
+       ...
+   def hash_b(item: Any) -> int:
+       # Passes type checking
+       item.magic()
+       ...
+   # Passes type checking, since ints and strs are subclasses of object
+   hash_a(42)

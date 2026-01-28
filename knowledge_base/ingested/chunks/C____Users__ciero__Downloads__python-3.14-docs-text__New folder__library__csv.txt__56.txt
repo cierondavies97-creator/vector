@@ -1,0 +1,6 @@
+prevent its escaping.
+   Instructs "reader" objects to perform no special processing of
+   quote characters.
+csv.QUOTE_NOTNULL
+   Instructs "writer" objects to quote all fields which are not
+   "None".  This is similar to "QUOTE_ALL", except that if a field

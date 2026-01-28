@@ -1,0 +1,3 @@
+|             |                                  | Saturday (en_US);        |         |
+|             |                                  | Sonntag, Montag, ...,    |         |
+|             |                                  | Samstag (de_DE)          |         |

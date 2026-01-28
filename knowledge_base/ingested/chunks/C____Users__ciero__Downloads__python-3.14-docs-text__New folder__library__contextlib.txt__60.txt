@@ -1,0 +1,9 @@
+...
+      Starting
+      The bit in the middle
+      Finishing
+   This change is just syntactic sugar for any construct of the
+   following form:
+      def f():
+          with cm():
+              # Do stuff

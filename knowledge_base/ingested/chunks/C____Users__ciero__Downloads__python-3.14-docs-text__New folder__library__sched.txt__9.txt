@@ -1,0 +1,5 @@
+Scheduler Objects
+=================
+"scheduler" instances have the following methods and attributes:
+scheduler.enterabs(time, priority, action, argument=(), kwargs={})
+   Schedule a new event. The *time* argument should be a numeric type

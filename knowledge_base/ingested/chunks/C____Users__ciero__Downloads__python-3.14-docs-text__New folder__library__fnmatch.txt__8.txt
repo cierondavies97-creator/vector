@@ -1,0 +1,4 @@
+fnmatch.fnmatch(name, pat)
+   Test whether the filename string *name* matches the pattern string
+   *pat*, returning "True" or "False".  Both parameters are case-
+   normalized using "os.path.normcase()". "fnmatchcase()" can be used

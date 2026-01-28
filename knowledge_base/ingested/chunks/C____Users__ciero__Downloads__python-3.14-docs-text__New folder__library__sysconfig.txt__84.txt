@@ -1,0 +1,7 @@
+sysconfig.get_makefile_filename()
+   Return the path of "Makefile".
+Command-line usage
+==================
+You can use "sysconfig" as a script with Python's *-m* option:
+   $ python -m sysconfig
+   Platform: "macosx-10.4-i386"

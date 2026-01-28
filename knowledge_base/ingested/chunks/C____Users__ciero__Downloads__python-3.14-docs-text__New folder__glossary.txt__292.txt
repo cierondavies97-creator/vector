@@ -1,0 +1,2 @@
+helpful in understanding and using the language.  The listing can
+   be found by typing ""import this"" at the interactive prompt.

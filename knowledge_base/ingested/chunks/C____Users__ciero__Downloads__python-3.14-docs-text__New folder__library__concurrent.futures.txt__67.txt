@@ -1,0 +1,4 @@
+any attempt to submit more jobs to the pool.
+   *max_tasks_per_child* is an optional argument that specifies the
+   maximum number of tasks a single process can execute before it will
+   exit and be replaced with a fresh worker process. By default

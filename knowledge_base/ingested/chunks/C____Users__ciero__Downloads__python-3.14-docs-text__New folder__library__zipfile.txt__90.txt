@@ -1,0 +1,3 @@
+read or write, text or binary through supported modes: 'r', 'w',
+   'rb', 'wb'. Positional and keyword arguments are passed through to
+   "io.TextIOWrapper" when opened as text and ignored otherwise. "pwd"

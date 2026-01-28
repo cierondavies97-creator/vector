@@ -1,0 +1,4 @@
+range of values supported by the platform C "gmtime()" function,
+   and "OSError" on "gmtime()" failure. It's common for this to be
+   restricted to years in 1970 through 2038.
+   To get an aware "datetime" object, call "fromtimestamp()":

@@ -1,0 +1,5 @@
+17
+Policy objects can also be combined using the addition operator,
+producing a policy object whose settings are a combination of the non-
+default values of the summed objects:
+   >>> compat_SMTP = policy.compat32.clone(linesep='\r\n')

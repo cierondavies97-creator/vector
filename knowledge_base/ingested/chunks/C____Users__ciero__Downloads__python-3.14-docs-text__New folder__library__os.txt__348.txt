@@ -1,0 +1,4 @@
+the storage allocated to the file is not made available until the
+   original file is no longer in use.
+   This function is semantically identical to "unlink()".
+   Raises an auditing event "os.remove" with arguments "path",

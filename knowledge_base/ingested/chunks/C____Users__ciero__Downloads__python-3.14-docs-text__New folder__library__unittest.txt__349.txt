@@ -1,0 +1,5 @@
+success, and records subtest failures as normal failures.
+      Added in version 3.4.
+   addDuration(test, elapsed)
+      Called when the test case finishes.  *elapsed* is the time
+      represented in seconds, and it includes the execution of cleanup

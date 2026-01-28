@@ -1,0 +1,4 @@
+'subjectAltName': (('DNS', '*.eff.org'), ('DNS', 'eff.org')),
+       'version': 3}
+   If the "binary_form" parameter is "True", and a certificate was
+   provided, this method returns the DER-encoded form of the entire

@@ -1,0 +1,3 @@
+in selection order so that all sub-slices will also be valid random
+   samples.  This allows raffle winners (the sample) to be partitioned
+   into grand prize and second place winners (the subslices).

@@ -1,0 +1,3 @@
+*punctuation_chars* argument provides a way to make the behaviour
+   even closer to how real shells parse.  This can take a number of
+   values: the default value, "False", preserves the behaviour seen

@@ -1,0 +1,7 @@
+Changed in version 3.5: Added the two-tuple form for the *address*
+   constructor parameter.
+   version
+   max_prefixlen
+      Refer to the corresponding attribute documentation in
+      "IPv4Address".
+   is_multicast

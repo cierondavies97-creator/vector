@@ -1,0 +1,4 @@
+"StopIteration" instance is raised, and the value returned by the
+   function is used as the "value" parameter to the constructor of the
+   exception.
+   If a generator code directly or indirectly raises "StopIteration",

@@ -1,0 +1,5 @@
+separating the query arguments. It defaults to "&".
+   Use the "urllib.parse.urlencode()" function (with the "doseq"
+   parameter set to "True") to convert such dictionaries into query
+   strings.
+   Changed in version 3.2: Add *encoding* and *errors* parameters.

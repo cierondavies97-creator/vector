@@ -1,0 +1,5 @@
+annotation=Constant(value='annotation')),
+                          arg(arg='b'),
+                          arg(arg='c')],
+                      vararg=arg(arg='d'),
+                      kwonlyargs=[

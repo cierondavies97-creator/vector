@@ -1,0 +1,5 @@
+return obj.name
+           return repr(obj)
+   aRepr = MyRepr()
+   print(aRepr.repr(sys.stdin))         # prints '<stdin>'
+   <stdin>

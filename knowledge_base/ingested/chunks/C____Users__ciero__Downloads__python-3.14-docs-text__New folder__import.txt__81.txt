@@ -1,0 +1,4 @@
+* If loading fails, the loader must remove any modules it has inserted
+  into "sys.modules", but it must remove **only** the failing
+  module(s), and only if the loader itself has loaded the module(s)
+  explicitly.

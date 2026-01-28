@@ -1,0 +1,5 @@
+*kw* may have the following options:
+      border=padding
+         padding is a list of up to four integers, specifying the
+         left, top, right, and bottom borders, respectively.
+      height=height

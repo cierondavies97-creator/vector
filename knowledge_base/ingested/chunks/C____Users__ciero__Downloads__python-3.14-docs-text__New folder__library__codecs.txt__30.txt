@@ -1,0 +1,4 @@
+function. It defaults to -1 which means that the default buffer
+   size will be used.
+   Changed in version 3.11: The "'U'" mode has been removed.
+   Deprecated since version 3.14: "codecs.open()" has been superseded

@@ -1,0 +1,4 @@
+stream, and write back the modified script.
+tokenize.untokenize(iterable)
+   Converts tokens back into Python source code.  The *iterable* must
+   return sequences with at least two elements, the token type and the

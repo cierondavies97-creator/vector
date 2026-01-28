@@ -1,0 +1,5 @@
+versions of Python, so it does not matter which version is installed.
+To check that the launcher is available, execute the following command
+in Command Prompt:
+   py
+You should find that the latest version of Python you have installed

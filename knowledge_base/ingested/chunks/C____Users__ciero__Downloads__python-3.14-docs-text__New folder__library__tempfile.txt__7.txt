@@ -1,0 +1,4 @@
+temporary file created using this function having or not having a
+   visible name in the file system.
+   The resulting object can be used as a *context manager* (see
+   Examples).  On completion of the context or destruction of the file

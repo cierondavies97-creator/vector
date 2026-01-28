@@ -1,0 +1,7 @@
+included, as keywords.
+Path.iterdir()
+   Enumerate the children of the current directory.
+Path.is_dir()
+   Return "True" if the current context references a directory.
+Path.is_file()
+   Return "True" if the current context references a file.

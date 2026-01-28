@@ -1,0 +1,3 @@
+disposition can be changed flexibly, from ignoring all warnings to
+turning them into exceptions.  The disposition of warnings can vary
+based on the warning category, the text of the warning message, and

@@ -1,0 +1,7 @@
+box.unlock()
+               # Remove original message
+               inbox.lock()
+               inbox.discard(key)
+               inbox.flush()
+               inbox.unlock()
+               break               # Found destination, so stop looking.

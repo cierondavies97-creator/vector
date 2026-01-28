@@ -1,0 +1,5 @@
+work.  Keybindings are selected in the Configure IDLE dialog.
+Automatic indentation
+---------------------
+After a block-opening statement, the next line is indented by 4 spaces
+(in the Python Shell window by one tab).  After certain keywords

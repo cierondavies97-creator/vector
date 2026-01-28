@@ -1,0 +1,5 @@
+"pointer", "size", "offset".
+   from_address(address)
+      This method returns a ctypes type instance using the memory
+      specified by *address* which must be an integer.
+      This method, and others that indirectly call this method, raises

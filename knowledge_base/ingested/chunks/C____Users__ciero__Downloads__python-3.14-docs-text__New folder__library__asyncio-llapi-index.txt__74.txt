@@ -1,0 +1,2 @@
+| "transport.is_closing()"                           | Return "True" if the transport is closing or is    |
+|                                                    | closed.                                            |

@@ -1,0 +1,3 @@
+int PyArg_ParseTupleAndKeywords(PyObject *arg, PyObject *kwdict,
+                                   const char *format, char * const *kwlist, ...);
+The *arg* and *format* parameters are identical to those of the

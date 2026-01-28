@@ -1,0 +1,4 @@
+"x.__int__()".  If the argument defines "__index__()", it returns
+   "x.__index__()". For floating-point numbers, this truncates towards
+   zero.
+   If the argument is not a number or if *base* is given, then it must

@@ -1,0 +1,4 @@
+and append them to the end of the array.  If less than *n* items
+      are available, "EOFError" is raised, but the items that were
+      available are still inserted into the array.
+   fromlist(list)

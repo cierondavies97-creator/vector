@@ -1,0 +1,5 @@
+dictview.mapping
+   Return a "types.MappingProxyType" that wraps the original
+   dictionary to which the view refers.
+   Added in version 3.10.
+Keys views are set-like since their entries are unique and *hashable*.

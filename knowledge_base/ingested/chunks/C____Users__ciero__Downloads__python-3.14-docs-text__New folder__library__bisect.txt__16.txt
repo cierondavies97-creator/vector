@@ -1,0 +1,4 @@
+existing entries of *x*.
+   This function first runs "bisect_right()" to locate an insertion
+   point. Next, it runs the "insert()" method on *a* to insert *x* at
+   the appropriate position to maintain sort order.

@@ -1,0 +1,6 @@
+1750** for more information on sources of entropy.
+   Changed in version 3.5: Writable *bytes-like object* is now
+   accepted.
+Certificate handling
+--------------------
+ssl.cert_time_to_seconds(cert_time)

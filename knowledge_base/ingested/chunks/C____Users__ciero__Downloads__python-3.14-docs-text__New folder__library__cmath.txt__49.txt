@@ -1,0 +1,5 @@
+-3.141592653589793
+Note:
+  The modulus (absolute value) of a complex number *z* can be computed
+  using the built-in "abs()" function.  There is no separate "cmath"
+  module function for this operation.

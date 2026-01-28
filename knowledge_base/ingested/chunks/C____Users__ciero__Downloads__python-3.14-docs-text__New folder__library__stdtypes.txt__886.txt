@@ -1,0 +1,3 @@
+The only special operation on a module is attribute access: "m.name",
+where *m* is a module and *name* accesses a name defined in *m*'s
+symbol table. Module attributes can be assigned to.  (Note that the

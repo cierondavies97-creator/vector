@@ -1,0 +1,4 @@
+requirement that "hash(x) == hash(y)" whenever "x == y" (see the
+"__hash__()" method documentation for more details).  For ease of
+implementation and efficiency across a variety of numeric types
+(including "int", "float", "decimal.Decimal" and "fractions.Fraction")

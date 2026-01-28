@@ -1,0 +1,5 @@
+*callable* passed to "Connection.set_authorizer()", to indicate
+   whether:
+   * Access is allowed ("SQLITE_OK"),
+   * The SQL statement should be aborted with an error ("SQLITE_DENY")
+   * The column should be treated as a "NULL" value ("SQLITE_IGNORE")

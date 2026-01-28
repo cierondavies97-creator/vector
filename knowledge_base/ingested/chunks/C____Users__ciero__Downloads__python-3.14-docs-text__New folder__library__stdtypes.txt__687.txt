@@ -1,0 +1,5 @@
+True
+      Changed in version 3.3: One-dimensional memoryviews can now be
+      sliced. One-dimensional memoryviews with formats 'B', 'b' or 'c'
+      are now *hashable*.
+      Changed in version 3.4: memoryview is now registered

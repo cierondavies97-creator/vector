@@ -1,0 +1,4 @@
+message in a readable format.
+      Changed in version 3.4: the method was changed to use
+      "utf8=True", thus producing an **RFC 6531**-like message
+      representation, instead of being a direct alias for

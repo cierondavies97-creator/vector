@@ -1,0 +1,4 @@
+Multithreading note:  When two threads call this function
+   simultaneously, it is possible that they will receive the same
+   return value.  This can be avoided in three ways. 1) Have each
+   thread use a different instance of the random number generator. 2)

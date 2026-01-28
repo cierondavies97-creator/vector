@@ -1,0 +1,5 @@
+parameter specifications
+   * "typing.TypeVarTuple.evaluate_default()", the default value of
+     type variable tuples
+   *owner* is the object that owns the evaluate function, such as the
+   type alias or type variable object.

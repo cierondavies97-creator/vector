@@ -1,0 +1,4 @@
+method.  At least one of *fileobj* and *filename* must be given a
+   non-trivial value.
+   The new class instance is based on *fileobj*, which can be a
+   regular file, an "io.BytesIO" object, or any other object which

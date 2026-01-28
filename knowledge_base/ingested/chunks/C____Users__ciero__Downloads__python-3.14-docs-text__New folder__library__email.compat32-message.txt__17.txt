@@ -1,0 +1,4 @@
+always format the message the way you want.  For example, by
+      default it does not do the mangling of lines that begin with
+      "From" that is required by the Unix mbox format.  For more
+      flexibility, instantiate a "Generator" instance and use its

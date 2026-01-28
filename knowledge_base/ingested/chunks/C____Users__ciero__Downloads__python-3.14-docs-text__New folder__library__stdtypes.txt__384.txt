@@ -1,0 +1,5 @@
+"None", any whitespace string is a separator.  Except for splitting
+   from the right, "rsplit()" behaves like "split()" which is
+   described in detail below.
+str.rstrip(chars=None, /)
+   Return a copy of the string with trailing characters removed.  The

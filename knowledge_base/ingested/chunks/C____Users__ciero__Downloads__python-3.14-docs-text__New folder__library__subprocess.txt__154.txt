@@ -1,0 +1,4 @@
+call to the "poll()", "wait()", or "communicate()" methods if they
+   detect that the process has terminated.
+   A "None" value indicates that the process hadn't yet terminated at
+   the time of the last method call.

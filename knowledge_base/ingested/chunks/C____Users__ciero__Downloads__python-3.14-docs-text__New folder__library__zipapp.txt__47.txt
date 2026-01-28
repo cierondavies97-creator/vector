@@ -1,0 +1,3 @@
+as executable code must be present in the filesystem for the OS loader
+to load it). In this case, you can exclude that dependency from the
+zipfile, and either require your users to have it installed, or ship

@@ -1,0 +1,4 @@
+instances.  "pickle" can save and restore class instances
+  transparently, however the class definition must be importable and
+  live in the same module as when the object was stored.
+* The "marshal" serialization format is not guaranteed to be portable

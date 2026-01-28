@@ -1,0 +1,7 @@
+a file in smaller chunks may cause an inefficient read-modify-
+      rewrite.
+   st_rdev
+      Type of device if an inode device.
+   st_flags
+      User defined flags for file.
+   On other Unix systems (such as FreeBSD), the following attributes

@@ -1,0 +1,3 @@
++c                              # remove zero and negative counts
+Several mathematical operations are provided for combining "Counter"
+objects to produce multisets (counters that have counts greater than

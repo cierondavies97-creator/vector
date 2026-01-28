@@ -1,0 +1,4 @@
+added, and if it is a directory its contents will be ignored.
+      For example, if our test files are all either in "test"
+      directories or start with the string "test_", we can use a
+      *filterfunc* to exclude them:

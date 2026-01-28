@@ -1,0 +1,6 @@
+Filter on traces of memory blocks.
+   See the "fnmatch.fnmatch()" function for the syntax of
+   *filename_pattern*. The "'.pyc'" file extension is replaced with
+   "'.py'".
+   Examples:
+   * "Filter(True, subprocess.__file__)" only includes traces of the

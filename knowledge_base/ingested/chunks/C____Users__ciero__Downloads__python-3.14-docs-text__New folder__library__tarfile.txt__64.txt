@@ -1,0 +1,5 @@
+TarFile Objects
+===============
+The "TarFile" object provides an interface to a tar archive. A tar
+archive is a sequence of blocks. An archive member (a stored file) is
+made up of a header block followed by data blocks. It is possible to

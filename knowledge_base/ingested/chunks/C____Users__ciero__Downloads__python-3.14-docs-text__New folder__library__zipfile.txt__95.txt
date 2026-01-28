@@ -1,0 +1,6 @@
+Path.exists()
+   Return "True" if the current context references a file or directory
+   in the zip file.
+Path.suffix
+   The last dot-separated portion of the final component, if any. This
+   is commonly called the file extension.

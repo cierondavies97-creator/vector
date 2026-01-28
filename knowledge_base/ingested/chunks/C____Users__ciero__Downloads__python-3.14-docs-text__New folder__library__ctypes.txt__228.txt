@@ -1,0 +1,4 @@
+found using Windows debugging and tracing tools.
+   Changed in version 3.12: The *name* parameter can now be a *path-
+   like object*.
+See also: Microsoft DUMPBIN tool -- A tool to find DLL dependents.

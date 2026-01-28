@@ -1,0 +1,5 @@
+Added in version 3.4.
+5.4.4. __path__ attributes on modules
+-------------------------------------
+The "__path__" attribute should be a (possibly empty) *sequence* of
+strings enumerating the locations where the package's submodules will

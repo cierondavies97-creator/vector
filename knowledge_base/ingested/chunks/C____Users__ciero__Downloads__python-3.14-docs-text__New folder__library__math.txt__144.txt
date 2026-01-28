@@ -1,0 +1,8 @@
+sums are computed with extended precision.
+   Added in version 3.12.
+Angular conversion
+==================
+math.degrees(x)
+   Convert angle *x* from radians to degrees.
+math.radians(x)
+   Convert angle *x* from degrees to radians.

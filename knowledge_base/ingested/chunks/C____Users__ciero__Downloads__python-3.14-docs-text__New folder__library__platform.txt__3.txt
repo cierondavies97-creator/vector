@@ -1,0 +1,3 @@
+Values that cannot be determined are returned as given by the
+   parameter presets. If bits is given as "''", the "sizeof(pointer)"
+   (or "sizeof(long)" on Python version < 1.5.2) is used as indicator

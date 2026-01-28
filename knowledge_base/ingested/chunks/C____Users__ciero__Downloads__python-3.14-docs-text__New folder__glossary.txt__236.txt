@@ -1,0 +1,4 @@
+is a specific type of race condition involving unsynchronized
+   access to shared memory.  The *LBYL* coding style is particularly
+   susceptible to race conditions in multi-threaded code.  Using
+   *locks* and other *synchronization primitives* helps prevent race

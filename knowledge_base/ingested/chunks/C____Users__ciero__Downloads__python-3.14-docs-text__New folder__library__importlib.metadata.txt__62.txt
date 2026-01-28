@@ -1,0 +1,5 @@
+Implementing Custom Providers
+=============================
+"importlib.metadata" address two API surfaces, one for *consumers* and
+another for *providers*. Most users are consumers, consuming metadata
+provided by the packages. There are other use-cases, however, where

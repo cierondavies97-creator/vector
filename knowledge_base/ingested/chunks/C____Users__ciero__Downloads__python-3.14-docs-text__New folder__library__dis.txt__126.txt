@@ -1,0 +1,4 @@
+LOAD_FROM_DICT_OR_GLOBALS(i)
+   Pops a mapping off the stack and looks up the value for
+   "co_names[namei]". If the name is not found there, looks it up in
+   the globals and then the builtins, similar to "LOAD_GLOBAL". This

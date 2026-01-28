@@ -1,0 +1,6 @@
+body=[
+              Delete(
+                  targets=[
+                      Name(id='x', ctx=Del()),
+                      Name(id='y', ctx=Del()),
+                      Name(id='z', ctx=Del())])])

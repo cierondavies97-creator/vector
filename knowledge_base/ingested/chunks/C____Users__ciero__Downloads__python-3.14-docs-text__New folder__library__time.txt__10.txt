@@ -1,0 +1,4 @@
+100 times a second.
+* On the other hand, the precision of "time()" and "sleep()" is better
+  than their Unix equivalents: times are expressed as floating-point
+  numbers, "time()" returns the most accurate time available (using

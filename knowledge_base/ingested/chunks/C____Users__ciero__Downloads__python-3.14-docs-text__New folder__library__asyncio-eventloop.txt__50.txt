@@ -1,0 +1,4 @@
+Third-party event loops can use their own subclass of "Task" for
+   interoperability. In this case, the result type is a subclass of
+   "Task".
+   The full function signature is largely the same as that of the

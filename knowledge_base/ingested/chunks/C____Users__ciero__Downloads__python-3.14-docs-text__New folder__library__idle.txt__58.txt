@@ -1,0 +1,4 @@
+"Control" key on Windows and Unix and the "Command" key on macOS.
+(And all such discussions assume that the keys have not been re-bound
+to something else.)
+* Arrow keys move the cursor one character or line.

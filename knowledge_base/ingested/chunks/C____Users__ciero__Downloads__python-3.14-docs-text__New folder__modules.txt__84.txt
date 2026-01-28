@@ -1,0 +1,4 @@
+If it fails to find it, an "ImportError" exception is raised.
+Contrarily, when using syntax like "import item.subitem.subsubitem",
+each item except for the last must be a package; the last item can be
+a module or a package but can't be a class or function or variable

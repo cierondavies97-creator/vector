@@ -1,0 +1,4 @@
+used for my MIDI sequencer :-).
+Various structures for implementing schedulers have been extensively
+studied, and heaps are good for this, as they are reasonably speedy,
+the speed is almost constant, and the worst case is not much different

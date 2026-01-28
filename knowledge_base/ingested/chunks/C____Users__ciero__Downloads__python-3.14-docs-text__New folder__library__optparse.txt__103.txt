@@ -1,0 +1,5 @@
+possible help message:
+* the script defines its own usage message:
+     usage = "usage: %prog [options] arg1 arg2"
+  "optparse" expands "%prog" in the usage string to the name of the
+  current program, i.e. "os.path.basename(sys.argv[0])".  The expanded

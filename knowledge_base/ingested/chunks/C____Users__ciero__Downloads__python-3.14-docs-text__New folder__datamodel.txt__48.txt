@@ -1,0 +1,3 @@
+points. All the code points in the range "U+0000 - U+10FFFF" can be
+   represented in a string.  Python doesn't have a char type; instead,
+   every code point in the string is represented as a string object

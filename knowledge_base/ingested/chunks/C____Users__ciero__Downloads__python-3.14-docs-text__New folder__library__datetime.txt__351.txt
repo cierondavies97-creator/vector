@@ -1,0 +1,7 @@
+return self.dstname
+           else:
+               return self.stdname
+       def utcoffset(self, dt):
+           return self.stdoffset + self.dst(dt)
+       def dst(self, dt):
+           if dt is None or dt.tzinfo is None:

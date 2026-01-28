@@ -1,0 +1,5 @@
+slice=Tuple(
+                          elts=[
+                              Starred(
+                                  value=Name(id='Ts', ctx=Load()),
+                                  ctx=Load())],

@@ -1,0 +1,8 @@
+>>> parser.print_help()
+   usage:  [-h] [--foo YYY] XXX
+   positional arguments:
+    XXX
+   options:
+    -h, --help  show this help message and exit
+    --foo YYY
+Note that "metavar" only changes the *displayed* name - the name of

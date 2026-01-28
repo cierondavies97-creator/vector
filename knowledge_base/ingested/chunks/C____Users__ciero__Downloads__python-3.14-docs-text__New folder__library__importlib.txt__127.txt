@@ -1,0 +1,5 @@
+"Loader.exec_module()"
+class importlib.machinery.FrozenImporter
+   An *importer* for frozen modules. This class implements the
+   "importlib.abc.MetaPathFinder" and "importlib.abc.InspectLoader"
+   ABCs.

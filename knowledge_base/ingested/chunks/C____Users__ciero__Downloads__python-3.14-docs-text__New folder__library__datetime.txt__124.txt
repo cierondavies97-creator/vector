@@ -1,0 +1,6 @@
+>>> d.replace(year=2005)
+   datetime.date(2005, 3, 11)
+"datetime" Objects
+==================
+A "datetime" object is a single object containing all the information
+from a "date" object and a "time" object.

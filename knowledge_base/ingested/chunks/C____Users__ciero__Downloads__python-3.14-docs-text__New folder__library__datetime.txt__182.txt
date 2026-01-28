@@ -1,0 +1,4 @@
+done even if the input is aware.
+3. Subtraction of a "datetime" from a "datetime" is defined only if
+   both operands are naive, or if both are aware. If one is aware and
+   the other is naive, "TypeError" is raised.

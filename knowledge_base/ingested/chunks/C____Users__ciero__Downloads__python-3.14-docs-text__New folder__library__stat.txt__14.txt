@@ -1,0 +1,6 @@
+stat.filemode(mode)
+   Convert a file's mode to a string of the form '-rwxrwxrwx'.
+   Added in version 3.3.
+   Changed in version 3.4: The function supports "S_IFDOOR",
+   "S_IFPORT" and "S_IFWHT".
+All the variables below are simply symbolic indexes into the 10-tuple

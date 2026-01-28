@@ -1,0 +1,6 @@
+signal handler.
+   save(self)
+      Save the signal handlers to a dictionary mapping signal numbers
+      to the current signal handler.
+   restore(self)
+      Set the signal numbers from the "save()" dictionary to the saved

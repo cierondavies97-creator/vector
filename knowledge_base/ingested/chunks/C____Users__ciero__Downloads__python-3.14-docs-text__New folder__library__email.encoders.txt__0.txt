@@ -1,0 +1,5 @@
+"email.encoders": Encoders
+**************************
+**Source code:** Lib/email/encoders.py
+======================================================================
+This module is part of the legacy ("Compat32") email API.  In the new

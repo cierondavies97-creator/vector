@@ -1,0 +1,7 @@
+Class attributes:
+time.min
+   The earliest representable "time", "time(0, 0, 0, 0)".
+time.max
+   The latest representable "time", "time(23, 59, 59, 999999)".
+time.resolution
+   The smallest possible difference between non-equal "time" objects,

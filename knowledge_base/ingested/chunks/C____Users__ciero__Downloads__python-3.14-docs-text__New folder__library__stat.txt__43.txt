@@ -1,0 +1,5 @@
+are well-known constants, but are not an exhaustive list.
+stat.IO_REPARSE_TAG_SYMLINK
+stat.IO_REPARSE_TAG_MOUNT_POINT
+stat.IO_REPARSE_TAG_APPEXECLINK
+   Added in version 3.8.

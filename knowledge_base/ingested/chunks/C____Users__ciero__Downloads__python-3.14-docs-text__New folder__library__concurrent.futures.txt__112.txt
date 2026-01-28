@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+concurrent.futures.as_completed(fs, timeout=None)
+   Returns an iterator over the "Future" instances (possibly created

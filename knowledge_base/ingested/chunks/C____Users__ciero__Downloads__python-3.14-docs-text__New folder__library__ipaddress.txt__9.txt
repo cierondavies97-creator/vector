@@ -1,0 +1,4 @@
+ipaddress.ip_interface(address)
+   Return an "IPv4Interface" or "IPv6Interface" object depending on
+   the IP address passed as argument.  *address* is a string or
+   integer representing the IP address.  Either IPv4 or IPv6 addresses

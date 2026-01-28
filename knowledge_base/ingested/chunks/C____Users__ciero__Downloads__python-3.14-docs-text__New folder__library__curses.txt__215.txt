@@ -1,0 +1,3 @@
+| curses.KEY_LEFT           | Left-arrow                                   |
++---------------------------+----------------------------------------------+
+| curses.KEY_RIGHT          | Right-arrow                                  |

@@ -1,0 +1,7 @@
+os.CLD_TRAPPED
+os.CLD_STOPPED
+os.CLD_CONTINUED
+   These are the possible values for "si_code" in the result returned
+   by "waitid()".
+   Availability: Unix, not WASI, not Android, not iOS.
+   Added in version 3.3.

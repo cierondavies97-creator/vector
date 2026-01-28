@@ -1,0 +1,4 @@
+implement this interface.
+   abstractmethod files()
+      Returns a "importlib.resources.abc.Traversable" object for the
+      loaded package.

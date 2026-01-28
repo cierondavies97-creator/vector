@@ -1,0 +1,5 @@
+of some kind, and a ctypes pointer type.  It returns an instance of
+the second argument, which references the same memory block as the
+first argument:
+   >>> a = (c_byte * 4)()
+   >>> cast(a, POINTER(c_int))

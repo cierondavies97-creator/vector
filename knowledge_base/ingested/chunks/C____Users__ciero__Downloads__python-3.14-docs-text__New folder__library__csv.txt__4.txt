@@ -1,0 +1,3 @@
+The "csv" module implements classes to read and write tabular data in
+CSV format.  It allows programmers to say, "write this data in the
+format preferred by Excel," or "read data from this file which was

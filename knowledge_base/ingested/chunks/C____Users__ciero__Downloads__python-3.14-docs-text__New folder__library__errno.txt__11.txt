@@ -1,0 +1,9 @@
+Too many links
+errno.EPIPE
+   Broken pipe. This error is mapped to the exception
+   "BrokenPipeError".
+errno.EDOM
+   Math argument out of domain of func
+errno.ERANGE
+   Math result not representable
+errno.EDEADLK

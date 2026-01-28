@@ -1,0 +1,4 @@
+similarly to how signals are handled. There is no interface to
+   determine when the code has been executed. The caller is
+   responsible for making sure that the file still exists whenever the
+   remote process tries to read it and that it hasn't been

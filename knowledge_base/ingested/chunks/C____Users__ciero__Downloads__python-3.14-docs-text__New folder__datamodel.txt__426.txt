@@ -1,0 +1,5 @@
+present:
+object.__objclass__
+   The attribute "__objclass__" is interpreted by the "inspect" module
+   as specifying the class where this object was defined (setting this
+   appropriately can assist in runtime introspection of dynamic class

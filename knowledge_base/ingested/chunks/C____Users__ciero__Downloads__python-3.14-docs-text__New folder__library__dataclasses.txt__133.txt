@@ -1,0 +1,6 @@
+@dataclass
+   class InventoryItem:
+       quantity_on_hand: IntConversionDescriptor = IntConversionDescriptor(default=100)
+   i = InventoryItem()
+   print(i.quantity_on_hand)   # 100
+   i.quantity_on_hand = 2.5    # calls __set__ with 2.5

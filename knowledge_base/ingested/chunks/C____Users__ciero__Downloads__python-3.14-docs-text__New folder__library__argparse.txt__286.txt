@@ -1,0 +1,5 @@
+>>> parser_foo.add_argument('y', type=float)
+      >>> parser_foo.set_defaults(func=foo)
+      >>>
+      >>> # create the parser for the "bar" command
+      >>> parser_bar = subparsers.add_parser('bar')

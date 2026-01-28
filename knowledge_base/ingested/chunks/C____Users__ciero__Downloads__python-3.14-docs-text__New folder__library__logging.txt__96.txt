@@ -1,0 +1,5 @@
+for more useful subclasses. However, the "__init__()" method in
+subclasses needs to call "Handler.__init__()".
+class logging.Handler
+   __init__(level=NOTSET)
+      Initializes the "Handler" instance by setting its level, setting

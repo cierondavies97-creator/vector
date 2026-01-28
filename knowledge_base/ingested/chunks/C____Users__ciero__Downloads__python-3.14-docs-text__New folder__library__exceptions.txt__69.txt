@@ -1,0 +1,6 @@
+precisely went wrong.
+exception StopIteration
+   Raised by built-in function "next()" and an *iterator*'s
+   "__next__()" method to signal that there are no further items
+   produced by the iterator.
+   value

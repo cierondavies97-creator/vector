@@ -1,0 +1,5 @@
+memory access errors, depending on platform.
+      This method has no effect on Windows, where the only way to
+      delete a shared memory block is to close all handles.
+   buf
+      A memoryview of contents of the shared memory block.

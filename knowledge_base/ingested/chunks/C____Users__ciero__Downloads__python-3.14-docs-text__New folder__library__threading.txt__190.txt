@@ -1,0 +1,3 @@
+This class provides a simple synchronization primitive for use by a
+fixed number of threads that need to wait for each other.  Each of the
+threads tries to pass the barrier by calling the "wait()" method and

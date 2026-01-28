@@ -1,0 +1,3 @@
+provided on Windows systems. One particular module deserves some
+attention: "sys", which is built into every Python interpreter.  The
+variables "sys.ps1" and "sys.ps2" define the strings used as primary

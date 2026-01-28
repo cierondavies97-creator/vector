@@ -1,0 +1,5 @@
+context manager.
+   Changed in version 3.3: Added support for "bzip2" and "lzma"
+   compression.
+   Changed in version 3.4: ZIP64 extensions are enabled by default.
+   Changed in version 3.5: Added support for writing to unseekable

@@ -1,0 +1,4 @@
+manager's own "__exit__()" method.
+      If passed an object that is not a context manager, this method
+      assumes it is a callback with the same signature as a context
+      manager's "__exit__()" method and adds it directly to the

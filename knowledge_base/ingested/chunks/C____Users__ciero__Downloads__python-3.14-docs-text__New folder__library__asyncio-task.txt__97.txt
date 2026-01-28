@@ -1,0 +1,3 @@
+*delay* can either be "None", or a float/int number of seconds to
+   wait. If *delay* is "None", no time limit will be applied; this can
+   be useful if the delay is unknown when the context manager is

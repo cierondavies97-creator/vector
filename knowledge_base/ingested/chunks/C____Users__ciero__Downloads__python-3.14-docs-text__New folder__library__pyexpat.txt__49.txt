@@ -1,0 +1,5 @@
+the attribute value.  (Older versions of this module also used this
+   format.)  By default, this attribute is false; it may be changed at
+   any time.
+xmlparser.specified_attributes
+   If set to a non-zero integer, the parser will report only those

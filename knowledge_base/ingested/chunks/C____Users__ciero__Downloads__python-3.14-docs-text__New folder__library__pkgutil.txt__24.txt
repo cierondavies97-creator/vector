@@ -1,0 +1,5 @@
+specified resource.
+   For packages located in the filesystem, which have already been
+   imported, this is the rough equivalent of:
+      d = os.path.dirname(sys.modules[package].__file__)
+      data = open(os.path.join(d, resource), 'rb').read()

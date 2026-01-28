@@ -1,0 +1,7 @@
+"MatchStar" node, otherwise matches a fixed length sequence.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case [1, 2]:
+      ...         ...
+      ... """), indent=4))
+      Module(

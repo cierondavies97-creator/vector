@@ -1,0 +1,6 @@
+...         print("Strength in numbers, eh?", end=" ")
+      ...     print(arg)
+      ...
+      >>> from typing import Union
+      >>> @fun.register
+      ... def _(arg: Union[list, set], verbose=False):

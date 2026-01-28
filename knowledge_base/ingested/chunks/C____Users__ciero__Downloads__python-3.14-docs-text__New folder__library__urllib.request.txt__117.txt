@@ -1,0 +1,4 @@
+such methods return "None", the algorithm is repeated for methods
+   named "unknown_open()".
+   Note that the implementation of these methods may involve calls of
+   the parent "OpenerDirector" instance's "open()" and "error()"

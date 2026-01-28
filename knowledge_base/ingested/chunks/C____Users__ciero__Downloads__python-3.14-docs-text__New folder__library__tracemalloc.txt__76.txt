@@ -1,0 +1,5 @@
+absolute value of "StatisticDiff.size_diff",
+      "StatisticDiff.size", absolute value of
+      "StatisticDiff.count_diff", "Statistic.count" and then by
+      "StatisticDiff.traceback".
+   dump(filename)

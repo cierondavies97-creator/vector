@@ -1,0 +1,4 @@
+...         print("Let me just say,", end=" ")
+      ...     print(arg)
+   To add overloaded implementations to the function, use the
+   "register()" attribute of the generic function, which can be used

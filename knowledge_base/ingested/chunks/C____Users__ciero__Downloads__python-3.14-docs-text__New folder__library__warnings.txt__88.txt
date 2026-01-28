@@ -1,0 +1,5 @@
+code living outside of "example" package.
+   *source*, if supplied, is the destroyed object which emitted a
+   "ResourceWarning".
+   Changed in version 3.6: Added *source* parameter.
+   Changed in version 3.12: Added *skip_file_prefixes*.

@@ -1,0 +1,6 @@
+>>> b'Py' in b'Python'
+        True
+   Changed in version 3.3: Also accept an integer in the range 0 to
+   255 as the subsequence.
+bytes.index(sub[, start[, end]])
+bytearray.index(sub[, start[, end]])

@@ -1,0 +1,4 @@
+class xmlrpc.server.SimpleXMLRPCRequestHandler
+   Create a new request handler instance.  This request handler
+   supports "POST" requests and modifies logging so that the
+   *logRequests* parameter to the "SimpleXMLRPCServer" constructor

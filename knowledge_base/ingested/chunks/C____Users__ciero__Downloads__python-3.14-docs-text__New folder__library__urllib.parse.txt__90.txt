@@ -1,0 +1,5 @@
+to be very cautious about making API behavior changes.
+Parsing ASCII Encoded Bytes
+===========================
+The URL parsing functions were originally designed to operate on
+character strings only. In practice, it is useful to be able to

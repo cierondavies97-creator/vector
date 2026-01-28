@@ -1,0 +1,4 @@
+timer.
+class timeit.Timer(stmt='pass', setup='pass', timer=<timer function>, globals=None)
+   Class for timing execution speed of small code snippets.
+   The constructor takes a statement to be timed, an additional

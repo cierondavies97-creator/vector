@@ -1,0 +1,4 @@
+kind of file, a symlink, or if it doesn't exist anymore.
+      The result is cached on the "os.DirEntry" object. Call
+      "os.path.isjunction()" to fetch up-to-date information.
+      Added in version 3.12.

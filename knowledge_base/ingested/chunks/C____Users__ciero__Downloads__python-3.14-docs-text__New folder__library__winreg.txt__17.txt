@@ -1,0 +1,5 @@
+winreg.DeleteKeyEx(key, sub_key, access=KEY_WOW64_64KEY, reserved=0)
+   Deletes the specified key.
+   *key* is an already open key, or one of the predefined HKEY_*
+   constants.
+   *sub_key* is a string that must be a subkey of the key identified

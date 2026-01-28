@@ -1,0 +1,4 @@
+not provide functionality to cover certain aspects of logging. For
+  example, you cannot configure "Filter" objects, which provide for
+  filtering of messages beyond simple integer levels, using
+  "fileConfig()". If you need to have instances of "Filter" in your

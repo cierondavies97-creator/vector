@@ -1,0 +1,6 @@
+'-0b100101'
+      >>> n.bit_length()
+      6
+   More precisely, if "x" is nonzero, then "x.bit_length()" is the
+   unique positive integer "k" such that "2**(k-1) <= abs(x) < 2**k".
+   Equivalently, when "abs(x)" is small enough to have a correctly

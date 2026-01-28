@@ -1,0 +1,4 @@
+deleted, the call will raise "TypeError".
+   Weak references support tests for equality, but not ordering.  If
+   the referents are still alive, two references have the same
+   equality relationship as their referents (regardless of the

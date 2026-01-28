@@ -1,0 +1,5 @@
+... '''.splitlines(keepends=True)
+Next we instantiate a Differ object:
+>>> d = Differ()
+Note that when instantiating a "Differ" object we may pass functions
+to filter out line and character "junk."  See the "Differ()"

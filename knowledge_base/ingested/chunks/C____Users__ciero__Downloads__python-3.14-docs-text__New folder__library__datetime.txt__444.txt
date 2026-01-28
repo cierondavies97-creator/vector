@@ -1,0 +1,5 @@
+raise "UnicodeError" or return an empty string instead.
+Notes:
+1. Because the format depends on the current locale, care should be
+   taken when making assumptions about the output value. Field
+   orderings will vary (for example, "month/day/year" versus

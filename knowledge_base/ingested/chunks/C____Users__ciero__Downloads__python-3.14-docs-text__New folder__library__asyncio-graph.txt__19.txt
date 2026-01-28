@@ -1,0 +1,3 @@
+Record that *future* is no longer awaited on by *waiter*.
+   Both *future* and *waiter* must be instances of "Future" or "Task"
+   or their subclasses, otherwise the call would have no effect.

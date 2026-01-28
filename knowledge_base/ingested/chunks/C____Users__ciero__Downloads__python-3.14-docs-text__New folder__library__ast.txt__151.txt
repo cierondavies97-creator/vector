@@ -1,0 +1,6 @@
+each. Unpacking is represented by putting a "Tuple" or "List"
+   within "targets".
+   type_comment
+      "type_comment" is an optional string with the type annotation as
+      a comment.
+      >>> print(ast.dump(ast.parse('a = b = 1'), indent=4)) # Multiple assignment

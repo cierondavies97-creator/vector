@@ -1,0 +1,3 @@
+Similar to "posix_spawn()" except that the system searches for the
+   *executable* file in the list of directories specified by the
+   "PATH" environment variable (in the same way as for "execvp(3)").

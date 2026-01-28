@@ -1,0 +1,7 @@
+...     def utcoffset(self, dt):
+   ...         return timedelta(hours=1)
+   ...     def dst(self, dt):
+   ...         return timedelta(0)
+   ...     def tzname(self,dt):
+   ...         return "+01:00"
+   ...     def  __repr__(self):

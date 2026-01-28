@@ -1,0 +1,4 @@
+single empty dictionary is provided so that a new chain always has
+   at least one mapping.
+   The underlying mappings are stored in a list.  That list is public
+   and can be accessed or updated using the *maps* attribute.  There

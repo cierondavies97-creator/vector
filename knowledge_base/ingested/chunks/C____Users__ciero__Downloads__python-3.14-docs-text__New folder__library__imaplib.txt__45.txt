@@ -1,0 +1,4 @@
+described in IMAP4 Objects.
+   The *duration* argument sets a maximum duration (in seconds) to
+   keep idling, after which any ongoing iteration will stop. It can be
+   an "int" or "float", or "None" for no time limit. Callers wishing

@@ -1,0 +1,5 @@
+type should be passed to Annotated.
+   By default, "get_type_hints()" strips the metadata from
+   annotations. Pass "include_extras=True" to have the metadata
+   preserved:
+         >>> from typing import Annotated, get_type_hints

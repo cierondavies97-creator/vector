@@ -1,0 +1,7 @@
+...     with open(fp.name, mode='rb') as f:
+   ...         f.read()
+   b'Hello world!'
+   >>>
+   # file is now removed
+   # create a temporary directory using the context manager
+   >>> with tempfile.TemporaryDirectory() as tmpdirname:

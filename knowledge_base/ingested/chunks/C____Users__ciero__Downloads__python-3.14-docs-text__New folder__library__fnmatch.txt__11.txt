@@ -1,0 +1,4 @@
+*pat*, returning "True" or "False"; the comparison is case-
+   sensitive and does not apply "os.path.normcase()".
+fnmatch.filter(names, pat)
+   Construct a list from those elements of the *iterable* of filename

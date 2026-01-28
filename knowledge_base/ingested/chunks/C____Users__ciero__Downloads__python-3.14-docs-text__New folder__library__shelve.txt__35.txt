@@ -1,0 +1,2 @@
+Module "pickle"
+     Object serialization used by "shelve".

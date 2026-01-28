@@ -1,0 +1,5 @@
+xml.parsers.expat.errors.XML_ERROR_NOT_STARTED
+   The parser was tried to be stopped or suspended before it started.
+   Added in version 3.14.
+-[ Footnotes ]-
+[1] The encoding string included in XML output should conform to the

@@ -1,0 +1,5 @@
+Returns "True" if *x* is canonical; otherwise returns "False".
+   is_finite(x, /)
+      Returns "True" if *x* is finite; otherwise returns "False".
+   is_infinite(x, /)
+      Returns "True" if *x* is infinite; otherwise returns "False".

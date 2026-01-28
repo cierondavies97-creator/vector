@@ -1,0 +1,4 @@
+length. If the length of the parameter is less than specified, it is
+  padded with zeros, thus, for example, "b'salt'" and "b'salt\x00'" is
+  the same value. (This is not the case for *key*.)
+These sizes are available as module constants described below.

@@ -1,0 +1,6 @@
+class os.stat_result
+   Object whose attributes correspond roughly to the members of the
+   "stat" structure. It is used for the result of "os.stat()",
+   "os.fstat()" and "os.lstat()".
+   Attributes:
+   st_mode

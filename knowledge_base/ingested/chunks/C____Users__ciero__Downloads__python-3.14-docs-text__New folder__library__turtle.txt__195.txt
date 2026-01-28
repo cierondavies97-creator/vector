@@ -1,0 +1,4 @@
+*picname* is a filename, set the corresponding image as background.
+   If *picname* is ""nopic"", delete background image, if present.  If
+   *picname* is "None", return the filename of the current
+   backgroundimage.

@@ -1,0 +1,7 @@
+* Compound shapes
+  * Methods of TurtleScreen/Screen and corresponding functions
+    * Window control
+    * Animation control
+    * Using screen events
+    * Input methods
+    * Settings and special methods

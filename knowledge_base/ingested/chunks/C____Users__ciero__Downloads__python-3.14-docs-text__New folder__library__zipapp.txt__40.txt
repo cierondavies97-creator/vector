@@ -1,0 +1,3 @@
+Using the "zipapp" module, it is possible to create self-contained
+Python programs, which can be distributed to end users who only need
+to have a suitable version of Python installed on their system.  The

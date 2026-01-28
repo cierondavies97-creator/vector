@@ -1,0 +1,3 @@
+| "KQ_EV_ONESHOT"             | Removes event after first occurrence          |
+   +-----------------------------+-----------------------------------------------+
+   | "KQ_EV_CLEAR"               | Reset the state after an event is retrieved   |

@@ -1,0 +1,4 @@
+can suggest and automatically complete a word being typed.  By
+default, Readline is set up to be used by "rlcompleter" to complete
+Python identifiers for the interactive interpreter.  If the "readline"
+module is to be used with a custom completer, a different set of word

@@ -1,0 +1,4 @@
+"float.fromhex()".
+Note that the exponent is written in decimal rather than hexadecimal,
+and that it gives the power of 2 by which to multiply the coefficient.
+For example, the hexadecimal string "0x3.a7p10" represents the

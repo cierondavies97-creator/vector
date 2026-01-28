@@ -1,0 +1,5 @@
+operations:
+   shift_expr: a_expr | shift_expr ("<<" | ">>") a_expr
+These operators accept integers as arguments.  They shift the first
+argument to the left or right by the number of bits given by the
+second argument.

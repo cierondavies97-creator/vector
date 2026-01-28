@@ -1,0 +1,5 @@
+"False".
+inspect.ismemberdescriptor(object)
+   Return "True" if the object is a member descriptor.
+   **CPython implementation detail:** Member descriptors are
+   attributes defined in extension modules via "PyMemberDef"

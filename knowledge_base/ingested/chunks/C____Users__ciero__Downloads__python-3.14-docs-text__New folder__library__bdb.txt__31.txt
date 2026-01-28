@@ -1,0 +1,5 @@
+is set (which can be set from "user_return()").  Return a
+      reference to the "trace_dispatch()" method for further tracing
+      in that scope.
+   dispatch_exception(frame, arg)
+      If the debugger should stop at this exception, invokes the

@@ -1,0 +1,6 @@
+See also:
+  The "json" module: a standard library module allowing JSON
+  serialization and deserialization.
+Data stream format
+==================
+The data format used by "pickle" is Python-specific.  This has the

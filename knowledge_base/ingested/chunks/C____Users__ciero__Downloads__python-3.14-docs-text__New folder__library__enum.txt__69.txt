@@ -1,0 +1,7 @@
+*StrEnum* member is not part of the enumeration.
+   >>> from enum import StrEnum, auto
+   >>> class Color(StrEnum):
+   ...     RED = 'r'
+   ...     GREEN = 'g'
+   ...     BLUE = 'b'
+   ...     UNKNOWN = auto()

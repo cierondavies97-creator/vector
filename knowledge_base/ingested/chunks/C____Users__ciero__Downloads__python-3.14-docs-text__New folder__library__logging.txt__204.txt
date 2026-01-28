@@ -1,0 +1,3 @@
+| threadName       | "%(threadName)s"          | Thread name (if available).                     |
++------------------+---------------------------+-------------------------------------------------+
+| taskName         | "%(taskName)s"            | "asyncio.Task" name (if available).             |

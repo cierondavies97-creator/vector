@@ -1,0 +1,4 @@
+pdf(x)
+      Using a probability density function (pdf), compute the relative
+      likelihood that a random variable *X* will be near the given
+      value *x*.  Mathematically, it is the limit of the ratio "P(x <=

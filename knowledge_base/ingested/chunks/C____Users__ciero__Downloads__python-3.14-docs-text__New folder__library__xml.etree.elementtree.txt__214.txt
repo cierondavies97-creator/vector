@@ -1,0 +1,4 @@
+Expat >=2.6.0. The implementation of "flush()" temporarily
+      disables reparse deferral with Expat (if currently enabled) and
+      triggers a reparse. Disabling reparse deferral has security
+      consequences; please see

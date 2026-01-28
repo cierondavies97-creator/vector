@@ -1,0 +1,5 @@
+unset by the "ThreadingMock.DEFAULT_TIMEOUT" attribute, which
+   defaults to blocking ("None").
+   You can configure the global default timeout by setting
+   "ThreadingMock.DEFAULT_TIMEOUT".
+   wait_until_called(*, timeout=UNSET)

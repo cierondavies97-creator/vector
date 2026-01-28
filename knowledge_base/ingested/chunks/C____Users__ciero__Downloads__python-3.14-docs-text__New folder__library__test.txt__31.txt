@@ -1,0 +1,4 @@
+test** at the top-level directory where Python was built. On Windows,
+executing **rt.bat** from your "PCbuild" directory will run all
+regression tests.
+Added in version 3.14: Output is colorized by default and can be

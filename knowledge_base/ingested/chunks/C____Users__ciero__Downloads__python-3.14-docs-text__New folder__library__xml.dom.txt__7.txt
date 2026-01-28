@@ -1,0 +1,4 @@
+object class which provides access to "Document" creation methods, but
+no way to access an XML reader/parser/Document builder in an
+implementation-independent way. There is also no well-defined way to
+access these methods without an existing "Document" object.  In

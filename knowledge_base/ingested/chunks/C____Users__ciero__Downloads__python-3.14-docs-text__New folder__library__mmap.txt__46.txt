@@ -1,0 +1,4 @@
+anonymous map (ie against the pagefile) will silently create a
+      new map with the original data copied over up to the length of
+      the new size.
+      Changed in version 3.11: Correctly fails if attempting to resize

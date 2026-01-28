@@ -1,0 +1,4 @@
+the warning filter, which is a sequence of matching rules and actions.
+Rules can be added to the filter by calling "filterwarnings()" and
+reset to its default state by calling "resetwarnings()".
+The printing of warning messages is done by calling "showwarning()",

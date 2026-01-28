@@ -1,0 +1,8 @@
+prot_p()
+      Set up secure data connection.
+   prot_c()
+      Set up clear text data connection.
+Module variables
+----------------
+exception ftplib.error_reply
+   Exception raised when an unexpected reply is received from the

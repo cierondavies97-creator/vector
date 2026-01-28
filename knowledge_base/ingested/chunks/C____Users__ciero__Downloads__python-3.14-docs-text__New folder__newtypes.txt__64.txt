@@ -1,0 +1,4 @@
+the same thing as the generic example above, but does not use the
+generic support added in Python 2.2.  It explains how the handler
+functions are called, so that if you do need to extend their
+functionality, you'll understand what needs to be done.

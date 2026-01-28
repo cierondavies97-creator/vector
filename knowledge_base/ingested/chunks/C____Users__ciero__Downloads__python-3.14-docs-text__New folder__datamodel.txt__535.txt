@@ -1,0 +1,4 @@
+"sys.maxsize" some features (such as "len()") may raise
+   "OverflowError".  To prevent raising "OverflowError" by truth value
+   testing, an object must define a "__bool__()" method.
+object.__length_hint__(self)

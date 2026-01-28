@@ -1,0 +1,5 @@
+For variable-keyword arguments ("**kwargs") the default is an
+      empty dict.
+         >>> def foo(a, b='ham', *args): pass
+         >>> ba = inspect.signature(foo).bind('spam')
+         >>> ba.apply_defaults()

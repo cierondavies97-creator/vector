@@ -1,0 +1,4 @@
+where *str* should be a parameterized string obtained from the
+   terminfo database.  E.g. "tparm(tigetstr("cup"), 5, 3)" could
+   result in "b'\033[6;4H'", the exact result depending on terminal
+   type.

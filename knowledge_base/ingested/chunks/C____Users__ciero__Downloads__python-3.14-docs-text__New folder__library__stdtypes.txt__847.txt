@@ -1,0 +1,4 @@
+"y.group(0)" and "y[0]" will both be of type "bytes". In type
+  annotations, we would represent this variety of re.Match objects
+  with "re.Match[bytes]".
+"GenericAlias" objects are instances of the class

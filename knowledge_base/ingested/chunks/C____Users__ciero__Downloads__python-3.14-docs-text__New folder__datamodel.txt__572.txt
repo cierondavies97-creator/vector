@@ -1,0 +1,4 @@
+instance, if *x* is an instance of a class with an "__iadd__()"
+   method, "x += y" is equivalent to "x = x.__iadd__(y)" . If
+   "__iadd__()" does not exist, or if "x.__iadd__(y)" returns
+   "NotImplemented", "x.__add__(y)" and "y.__radd__(x)" are

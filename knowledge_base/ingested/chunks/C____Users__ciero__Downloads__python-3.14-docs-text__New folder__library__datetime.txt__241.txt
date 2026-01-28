@@ -1,0 +1,6 @@
+Behavior and "datetime.isoformat()".
+Examples of Usage: "datetime"
+-----------------------------
+Examples of working with "datetime" objects:
+   >>> from datetime import datetime, date, time, timezone
+   >>> # Using datetime.combine()

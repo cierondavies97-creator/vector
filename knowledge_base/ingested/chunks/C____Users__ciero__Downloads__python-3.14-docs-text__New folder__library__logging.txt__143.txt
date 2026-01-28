@@ -1,0 +1,4 @@
+method if you want specific behaviour, e.g. to show the count of
+      records, a title or a separator line.
+   formatFooter(records)
+      Return a footer for a list of *records*. The base implementation

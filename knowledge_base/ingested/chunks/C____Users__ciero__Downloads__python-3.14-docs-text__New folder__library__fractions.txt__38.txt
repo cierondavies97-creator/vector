@@ -1,0 +1,6 @@
+>>> old_price, new_price = 499, 672
+         >>> "{:.2%} price increase".format(Fraction(new_price, old_price) - 1)
+         '34.67% price increase'
+See also:
+  Module "numbers"
+     The abstract base classes making up the numeric tower.

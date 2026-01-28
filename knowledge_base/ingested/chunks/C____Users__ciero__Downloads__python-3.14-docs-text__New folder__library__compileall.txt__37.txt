@@ -1,0 +1,5 @@
+default value is updated to "None".
+   Changed in version 3.8: Setting *workers* to 0 now chooses the
+   optimal number of cores.
+   Changed in version 3.9: Added *stripdir*, *prependdir*,
+   *limit_sl_dest* and *hardlink_dupes* arguments. Default value of

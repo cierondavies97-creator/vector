@@ -1,0 +1,4 @@
+'Programming Language :: Python :: 3.4',
+                    'Topic :: Software Development :: Build Tools'],
+    'description': 'A sample Python project\n'
+                   '=======================\n'

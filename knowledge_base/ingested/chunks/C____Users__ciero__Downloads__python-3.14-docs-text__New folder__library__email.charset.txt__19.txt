@@ -1,0 +1,5 @@
+otherwise it is *input_charset*.
+   header_encode(string)
+      Header-encode the string *string*.
+      The type of encoding (base64 or quoted-printable) will be based
+      on the *header_encoding* attribute.

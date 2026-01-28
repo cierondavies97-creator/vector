@@ -1,0 +1,4 @@
+be an integer, "None" or a *bytes-like object* representing a
+   buffer. In the later case it is up to the caller to ensure that the
+   bytestring contains the proper bits (see the optional built-in
+   module "struct" for a way to encode C structures as bytestrings).

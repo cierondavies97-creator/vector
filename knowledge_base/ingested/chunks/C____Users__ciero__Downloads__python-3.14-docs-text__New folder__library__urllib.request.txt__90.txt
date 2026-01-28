@@ -1,0 +1,6 @@
+calculated.
+Request.unverifiable
+   boolean, indicates whether the request is unverifiable as defined
+   by **RFC 2965**.
+Request.method
+   The HTTP request method to use.  By default its value is "None",

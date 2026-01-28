@@ -1,0 +1,4 @@
+command to run.  Also, on POSIX, make the archive executable.  The
+   default is to write no "#!" line, and not make the file executable.
+-m <mainfn>, --main=<mainfn>
+   Write a "__main__.py" file to the archive that executes *mainfn*.

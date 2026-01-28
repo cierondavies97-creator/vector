@@ -1,0 +1,4 @@
+This function prints out a given traceback and exception to
+   "sys.stderr".
+   When an exception other than "SystemExit" is raised and uncaught,
+   the interpreter calls "sys.excepthook" with three arguments, the

@@ -1,0 +1,4 @@
+window.scrollok(flag)
+   Control what happens when the cursor of a window is moved off the
+   edge of the window or scrolling region, either as a result of a
+   newline action on the bottom line, or typing the last character of

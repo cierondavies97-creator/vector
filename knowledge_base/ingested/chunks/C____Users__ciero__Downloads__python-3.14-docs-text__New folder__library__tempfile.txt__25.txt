@@ -1,0 +1,4 @@
+"PermissionError". This cannot happen when *delete_on_close* is
+   true because delete access is requested by the open, which fails
+   immediately if the requested access is not granted.
+   On POSIX (only), a process that is terminated abruptly with SIGKILL

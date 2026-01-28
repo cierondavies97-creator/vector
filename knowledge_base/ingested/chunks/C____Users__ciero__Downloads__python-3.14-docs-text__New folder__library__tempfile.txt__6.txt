@@ -1,0 +1,3 @@
+Under Unix, the directory entry for the file is either not created
+   at all or is removed immediately after the file is created.  Other
+   platforms do not support this; your code should not rely on a

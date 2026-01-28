@@ -1,0 +1,7 @@
+Added in version 3.12.
+Examples and Recipes
+====================
+ABCs allow us to ask classes or instances if they provide particular
+functionality, for example:
+   size = None
+   if isinstance(myvar, collections.abc.Sized):

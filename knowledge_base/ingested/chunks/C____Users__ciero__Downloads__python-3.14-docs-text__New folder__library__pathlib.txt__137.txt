@@ -1,0 +1,5 @@
+symbolic link. Use "Path.stat()" to distinguish between these
+   cases.
+Path.is_junction()
+   Return "True" if the path points to a junction, and "False" for any
+   other type of file. Currently only Windows supports junctions.

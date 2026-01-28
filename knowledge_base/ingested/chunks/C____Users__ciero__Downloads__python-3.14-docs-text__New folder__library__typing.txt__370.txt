@@ -1,0 +1,4 @@
+"False" or "True" as the value of the "total" argument. "True" is
+   the default, and makes all items defined in the class body
+   required.
+   Individual keys of a "total=False" "TypedDict" can be marked as

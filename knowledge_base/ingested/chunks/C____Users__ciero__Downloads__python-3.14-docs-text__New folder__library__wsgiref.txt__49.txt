@@ -1,0 +1,4 @@
+connections for *app*.  The return value is an instance of the
+   supplied *server_class*, and will process requests using the
+   specified *handler_class*.  *app* must be a WSGI application
+   object, as defined by **PEP 3333**.

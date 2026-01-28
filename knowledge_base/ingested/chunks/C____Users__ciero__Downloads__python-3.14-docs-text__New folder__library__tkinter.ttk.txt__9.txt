@@ -1,0 +1,5 @@
+As discussed above, there are differences in how the styling is coded.
+Tk code:
+   l1 = tkinter.Label(text="Test", fg="black", bg="white")
+   l2 = tkinter.Label(text="Test", fg="black", bg="white")
+Ttk code:

@@ -1,0 +1,5 @@
+("***.exe" files).  When you have done this, you can distribute your
+application without requiring your users to install Python.
+4.10. Compiling Python on Windows
+=================================
+If you want to compile CPython yourself, first thing you should do is

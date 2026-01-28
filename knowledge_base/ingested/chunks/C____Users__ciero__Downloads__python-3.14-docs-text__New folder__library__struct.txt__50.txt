@@ -1,0 +1,5 @@
+Changed in version 3.3: Added support for the "'n'" and "'N'" formats.
+Changed in version 3.6: Added support for the "'e'" format.
+Changed in version 3.14: Added support for the "'F'" and "'D'"
+formats.
+Notes:

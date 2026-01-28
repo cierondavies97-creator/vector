@@ -1,0 +1,4 @@
+in y" returns "True" if "y.__contains__(x)" returns a true value, and
+"False" otherwise.
+For user-defined classes which do not define "__contains__()" but do
+define "__iter__()", "x in y" is "True" if some value "z", for which

@@ -1,0 +1,5 @@
+"ip_address".
+   Availability: not WASI.
+socket.getnameinfo(sockaddr, flags)
+   Translate a socket address *sockaddr* into a 2-tuple "(host,
+   port)". Depending on the settings of *flags*, the result can

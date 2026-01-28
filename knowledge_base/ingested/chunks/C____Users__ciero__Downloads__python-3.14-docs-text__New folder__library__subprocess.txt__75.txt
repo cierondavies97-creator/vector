@@ -1,0 +1,3 @@
+"shell=True" on Windows is when the command you wish to execute is
+   built into the shell (e.g. **dir** or **copy**).  You do not need
+   "shell=True" to run a batch file or console-based executable.

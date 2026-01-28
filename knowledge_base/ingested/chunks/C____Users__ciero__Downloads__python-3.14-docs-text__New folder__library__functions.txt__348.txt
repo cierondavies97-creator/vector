@@ -1,0 +1,3 @@
+"zip()" is lazy: The elements won't be processed until the iterable
+   is iterated on, e.g. by a "for" loop or by wrapping in a "list".
+   One thing to consider is that the iterables passed to "zip()" could

@@ -1,0 +1,5 @@
+"True")
+   * allow_abbrev - Allows long options to be abbreviated if the
+     abbreviation is unambiguous (default: "True")
+   * exit_on_error - Determines whether or not "ArgumentParser" exits
+     with error info when an error occurs. (default: "True")

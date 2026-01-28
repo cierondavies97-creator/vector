@@ -1,0 +1,6 @@
+stacked on top of each other, and only the visible portions of each
+window will be displayed.  Panels can be added, moved up or down in
+the stack, and removed.
+Functions
+=========
+The module "curses.panel" defines the following functions:

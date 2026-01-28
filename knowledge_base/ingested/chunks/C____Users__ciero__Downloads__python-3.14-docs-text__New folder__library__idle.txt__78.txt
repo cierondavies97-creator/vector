@@ -1,0 +1,4 @@
+signature indicates that the preceding or following arguments are
+passed by position or name (keyword) only.  Details are subject to
+change.
+In Shell, the accessible functions depends on what modules have been

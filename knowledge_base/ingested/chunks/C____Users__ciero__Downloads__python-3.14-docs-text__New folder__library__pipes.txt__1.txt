@@ -1,0 +1,4 @@
+removed in Python 3.13 after being deprecated in Python 3.11.  The
+removal was decided in **PEP 594**.
+Applications should use the "subprocess" module instead.
+The last version of Python that provided the "pipes" module was Python

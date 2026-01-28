@@ -1,0 +1,5 @@
+from "find_spec()" instead of returning "None". The latter indicates
+that the meta path search should continue, while raising an exception
+terminates it immediately.
+5.7. Package Relative Imports
+=============================

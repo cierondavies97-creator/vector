@@ -1,0 +1,8 @@
+expression:
+   * "re.A" (ASCII-only matching)
+   * "re.I" (ignore case)
+   * "re.L" (locale dependent)
+   * "re.M" (multi-line)
+   * "re.S" (dot matches all)
+   * "re.U" (Unicode matching)
+   * "re.X" (verbose)

@@ -1,0 +1,4 @@
+current context.
+   **Important:** Context Variables should be created at the top
+   module level and never in closures.  "Context" objects hold strong
+   references to context variables which prevents context variables

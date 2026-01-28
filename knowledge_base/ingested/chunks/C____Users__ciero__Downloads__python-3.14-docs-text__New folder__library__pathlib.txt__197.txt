@@ -1,0 +1,4 @@
+as needed; they are created with the default permissions without
+   taking *mode* into account (mimicking the POSIX "mkdir -p"
+   command).
+   If *parents* is false (the default), a missing parent raises

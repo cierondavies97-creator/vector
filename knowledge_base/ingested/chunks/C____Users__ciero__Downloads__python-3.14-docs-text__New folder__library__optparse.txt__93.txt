@@ -1,0 +1,6 @@
+counts.
+A clearer way to specify default values is the "set_defaults()" method
+of OptionParser, which you can call at any time before calling
+"parse_args()":
+   parser.set_defaults(verbose=True)
+   parser.add_option(...)

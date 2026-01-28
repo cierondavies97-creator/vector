@@ -1,0 +1,7 @@
+digits.
+   max(x, y, /)
+      Compares two values numerically and returns the maximum.
+   max_mag(x, y, /)
+      Compares the values numerically with their sign ignored.
+   min(x, y, /)
+      Compares two values numerically and returns the minimum.

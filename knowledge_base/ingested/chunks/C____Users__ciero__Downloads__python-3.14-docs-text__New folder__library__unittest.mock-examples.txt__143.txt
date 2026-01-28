@@ -1,0 +1,7 @@
+...         assert mymodule.Spam is mock_spam
+   ...
+   >>> original = mymodule.Foo
+   >>> MyTest('test_foo').run()
+   >>> assert mymodule.Foo is original
+Mocking a dictionary with MagicMock
+-----------------------------------

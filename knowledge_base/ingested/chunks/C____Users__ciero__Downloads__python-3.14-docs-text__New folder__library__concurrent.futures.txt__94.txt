@@ -1,0 +1,4 @@
+will be logged and ignored.  If the callable raises a
+      "BaseException" subclass, the behavior is undefined.
+      If the future has already completed or been cancelled, *fn* will
+      be called immediately.

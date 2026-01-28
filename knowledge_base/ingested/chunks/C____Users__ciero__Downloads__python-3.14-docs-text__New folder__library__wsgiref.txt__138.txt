@@ -1,0 +1,6 @@
+return [b"Hello World"]
+   with make_server("", 8000, hello_world_app) as httpd:
+       print("Serving on port 8000...")
+       # Serve until process is killed
+       httpd.serve_forever()
+Example of a WSGI application serving the current directory, accept

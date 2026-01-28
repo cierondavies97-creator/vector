@@ -1,0 +1,4 @@
+several calls to the *garbage collector*. This can trigger the
+   execution of code in user-defined destructors or weakref callbacks.
+   Code executed during the shutdown phase can encounter various
+   exceptions as the resources it relies on may not function anymore

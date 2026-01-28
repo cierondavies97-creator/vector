@@ -1,0 +1,4 @@
+optional, they default to the current cursor location. Whenever
+  *attr* is optional, it defaults to "A_NORMAL".
+The module "curses" defines the following functions:
+curses.assume_default_colors(fg, bg, /)

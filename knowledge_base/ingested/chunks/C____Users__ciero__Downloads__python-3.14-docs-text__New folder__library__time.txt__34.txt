@@ -1,0 +1,6 @@
+otherwise
+   * *resolution*: The resolution of the clock in seconds ("float")
+   Added in version 3.3.
+time.gmtime([secs])
+   Convert a time expressed in seconds since the epoch to a
+   "struct_time" in UTC in which the dst flag is always zero.  If

@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| Drag-dropping files onto a script doesn't work     | This is a known limitation of the operating        |

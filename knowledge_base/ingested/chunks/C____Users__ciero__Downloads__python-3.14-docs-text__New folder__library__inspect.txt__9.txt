@@ -1,0 +1,3 @@
++-------------------+---------------------+-----------------------------+
+|                   | __type_params__     | A tuple containing the type |
+|                   |                     | parameters of a generic     |

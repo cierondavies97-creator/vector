@@ -1,0 +1,7 @@
+# https://en.wikipedia.org/wiki/Moving_average
+       it = iter(iterable)
+       d = deque(itertools.islice(it, n-1))
+       d.appendleft(0)
+       s = sum(d)
+       for elem in it:
+           s += elem - d.popleft()

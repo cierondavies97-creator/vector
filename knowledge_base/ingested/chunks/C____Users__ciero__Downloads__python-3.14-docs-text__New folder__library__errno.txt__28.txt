@@ -1,0 +1,8 @@
+Connection refused. This error is mapped to the exception
+   "ConnectionRefusedError".
+errno.EHOSTDOWN
+   Host is down
+errno.EHOSTUNREACH
+   No route to host
+errno.EHWPOISON
+   Memory page has hardware error.

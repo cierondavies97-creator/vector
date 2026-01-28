@@ -1,0 +1,4 @@
+This method should return "True", "False" or "NotImplemented".
+      If it returns "True", the *subclass* is considered a subclass of
+      this ABC. If it returns "False", the *subclass* is not
+      considered a subclass of this ABC, even if it would normally be

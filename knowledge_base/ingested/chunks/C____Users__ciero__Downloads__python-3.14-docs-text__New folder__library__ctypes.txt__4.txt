@@ -1,0 +1,5 @@
+"c_long". So, you should not be confused if "c_long" is printed if you
+would expect "c_int" --- they are actually the same type.
+Loading dynamic link libraries
+------------------------------
+"ctypes" exports the *cdll*, and on Windows *windll* and *oledll*

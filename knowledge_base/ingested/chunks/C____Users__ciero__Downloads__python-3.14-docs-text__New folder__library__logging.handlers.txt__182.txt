@@ -1,0 +1,4 @@
+Note:
+        The base implementation formats the message with arguments,
+        sets the "message" and "msg" attributes to the formatted
+        message and sets the "args" and "exc_text" attributes to

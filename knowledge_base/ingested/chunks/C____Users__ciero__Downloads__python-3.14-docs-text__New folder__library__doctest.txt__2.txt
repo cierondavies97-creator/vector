@@ -1,0 +1,4 @@
+all interactive examples still work as documented.
+* To perform regression testing by verifying that interactive examples
+  from a test file or a test object work as expected.
+* To write tutorial documentation for a package, liberally illustrated

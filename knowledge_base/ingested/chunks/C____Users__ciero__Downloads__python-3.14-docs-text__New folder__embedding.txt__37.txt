@@ -1,0 +1,7 @@
+(let's call the finished executable **call**), and use it to execute a
+Python script, such as:
+   def multiply(a,b):
+       print("Will compute", a, "times", b)
+       c = 0
+       for i in range(0, a):
+           c = c + b

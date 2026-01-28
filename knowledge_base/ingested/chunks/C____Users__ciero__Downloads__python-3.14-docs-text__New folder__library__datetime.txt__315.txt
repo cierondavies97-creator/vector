@@ -1,0 +1,7 @@
+these two:
+      def dst(self, dt):
+          # a fixed-offset class:  doesn't account for DST
+          return timedelta(0)
+   or:
+      def dst(self, dt):
+          # Code to set dston and dstoff to the time zone's DST

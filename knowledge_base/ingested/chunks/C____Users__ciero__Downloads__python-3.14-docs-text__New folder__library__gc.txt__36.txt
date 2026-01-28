@@ -1,0 +1,3 @@
+that GC collections in child processes won't touch the "gc_refs"
+   counter of long-lived objects originating in the parent process. To
+   accomplish both, call "gc.disable()" early in the parent process,

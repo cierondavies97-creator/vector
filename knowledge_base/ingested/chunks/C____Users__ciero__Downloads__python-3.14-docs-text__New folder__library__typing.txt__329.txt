@@ -1,0 +1,6 @@
+class Employee(NamedTuple):
+          name: str
+          id: int = 3
+      employee = Employee('Guido')
+      assert employee.id == 3
+   Fields with a default value must come after any fields without a

@@ -1,0 +1,4 @@
+*dirpath* (excluding "'.'" and "'..'"), and *filenames* is a list
+   of strings for the names of the non-directory files in *dirpath*.
+   To get a full path (which begins with *self*) to a file or
+   directory in *dirpath*, do "dirpath / name". Whether or not the

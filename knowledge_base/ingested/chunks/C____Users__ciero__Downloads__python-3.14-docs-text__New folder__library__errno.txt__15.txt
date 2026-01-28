@@ -1,0 +1,14 @@
+errno.EL2HLT
+   Level 2 halted
+errno.EBADE
+   Invalid exchange
+errno.EBADR
+   Invalid request descriptor
+errno.EXFULL
+   Exchange full
+errno.ENOANO
+   No anode
+errno.EBADRQC
+   Invalid request code
+errno.EBADSLT
+   Invalid slot

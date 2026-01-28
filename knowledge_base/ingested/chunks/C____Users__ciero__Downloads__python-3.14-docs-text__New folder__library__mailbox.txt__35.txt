@@ -1,0 +1,5 @@
+"Mailbox" instance that created them or of the underlying
+        mailbox.  More specific documentation is provided by each
+        subclass.
+   __contains__(key)
+      Return "True" if *key* corresponds to a message, "False"

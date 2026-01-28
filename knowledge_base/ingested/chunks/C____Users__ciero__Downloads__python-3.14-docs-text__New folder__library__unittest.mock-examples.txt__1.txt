@@ -1,0 +1,5 @@
+* Recording method calls on objects
+You might want to replace a method on an object to check that it is
+called with the correct arguments by another part of the system:
+>>> real = SomeClass()
+>>> real.method = MagicMock(name='method')

@@ -1,0 +1,3 @@
+warnings.warn(message, DeprecationWarning, stacklevel=2)
+   This makes the warning refer to "deprecated_api"'s caller, rather
+   than to the source of "deprecated_api" itself (since the latter

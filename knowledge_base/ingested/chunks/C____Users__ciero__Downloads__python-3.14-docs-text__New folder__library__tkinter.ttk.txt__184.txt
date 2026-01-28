@@ -1,0 +1,6 @@
+*option* is returned. Otherwise, sets the options to the
+      corresponding values.
+      The valid options/values are:
+      *text*: text
+         The text to display in the column heading.
+      *image*: imageName

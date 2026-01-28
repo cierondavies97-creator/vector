@@ -1,0 +1,4 @@
+in **RFC 7230**, Section 3.3.1 will be used to send files and other
+   iterables.
+   For an HTTP POST request method, *data* should be a buffer in the
+   standard *application/x-www-form-urlencoded* format.  The

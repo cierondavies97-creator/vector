@@ -1,0 +1,5 @@
+_PyAST_Lambda((a) ? a : CHECK(arguments_ty, _PyPegen_empty_arguments(p)), b, EXTRA) }
+   lambda_params[arguments_ty]:
+       | invalid_lambda_parameters
+       | lambda_parameters
+   # lambda_parameters etc. duplicates parameters but without annotations

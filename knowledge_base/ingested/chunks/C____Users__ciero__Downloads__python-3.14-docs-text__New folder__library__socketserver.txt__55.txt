@@ -1,0 +1,4 @@
+"RequestHandlerClass" and calling its "handle()" method.
+   get_request()
+      Must accept a request from the socket, and return a 2-tuple
+      containing the *new* socket object to be used to communicate

@@ -1,0 +1,4 @@
+return statistics.stdev(self._data)
+   The mechanics of "cached_property()" are somewhat different from
+   "property()".  A regular property blocks attribute writes unless a
+   setter is defined. In contrast, a *cached_property* allows writes.

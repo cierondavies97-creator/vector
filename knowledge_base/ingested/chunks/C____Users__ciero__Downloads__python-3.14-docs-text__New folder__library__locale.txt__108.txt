@@ -1,0 +1,4 @@
+If, when coding a module for general use, you need a locale
+independent version of an operation that is affected by the locale
+(such as certain formats used with "time.strftime()"), you will have
+to find a way to do it without using the standard library routine.

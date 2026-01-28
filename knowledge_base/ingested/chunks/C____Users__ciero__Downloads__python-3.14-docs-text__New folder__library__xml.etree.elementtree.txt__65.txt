@@ -1,0 +1,3 @@
+| ".."                    | Selects the parent element.  Returns "None" if the     |
+|                         | path attempts to reach the ancestors of the start      |
+|                         | element (the element "find" was called on).            |

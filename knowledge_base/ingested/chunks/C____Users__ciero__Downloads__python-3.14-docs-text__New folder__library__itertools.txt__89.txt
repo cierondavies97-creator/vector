@@ -1,0 +1,5 @@
+pass
+itertools.islice(iterable, stop)
+itertools.islice(iterable, start, stop[, step])
+   Make an iterator that returns selected elements from the iterable.
+   Works like sequence slicing but does not support negative values

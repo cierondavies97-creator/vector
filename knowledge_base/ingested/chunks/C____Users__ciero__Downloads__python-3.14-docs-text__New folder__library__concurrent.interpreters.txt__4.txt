@@ -1,0 +1,8 @@
+Isolating Extension Modules
+     How to update an extension module to support multiple
+     interpreters.
+  **PEP 554**
+  **PEP 734**
+  **PEP 684**
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

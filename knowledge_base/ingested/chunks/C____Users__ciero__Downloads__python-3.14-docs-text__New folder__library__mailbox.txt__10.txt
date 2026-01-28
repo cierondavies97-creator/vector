@@ -1,0 +1,5 @@
+skipped, though using a key from an iterator may result in a
+   "KeyError" exception if the corresponding message is subsequently
+   removed.
+   Warning:
+     Be very cautious when modifying mailboxes that might be

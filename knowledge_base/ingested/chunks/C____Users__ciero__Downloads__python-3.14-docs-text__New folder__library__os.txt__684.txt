@@ -1,0 +1,6 @@
+"-signal" if a signal kills the process.
+   Availability: Unix, Windows.
+os.P_DETACH
+os.P_OVERLAY
+   Possible values for the *mode* parameter to the "spawn*" family of
+   functions.  These are less portable than those listed above.

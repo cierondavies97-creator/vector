@@ -1,0 +1,3 @@
+appear in the registry, the class specified by *default_class* is
+   used as the specialized class.  When *use_default_map* is "True"
+   (the default), the standard mapping of header names to classes is

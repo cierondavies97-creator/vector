@@ -1,0 +1,4 @@
+provide access to most aspects of the Python run-time system.  The
+Python API is incorporated in a C source file by including the header
+""Python.h"".
+The compilation of an extension module depends on its intended use as

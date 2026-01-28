@@ -1,0 +1,5 @@
+references an out-of-band buffer view.  Such buffers have been
+   given in order to the *buffer_callback* of a Pickler object.
+   Changed in version 3.8: The *buffers* argument was added.
+   load()
+      Read the pickled representation of an object from the open file

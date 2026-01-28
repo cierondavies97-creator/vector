@@ -1,0 +1,4 @@
+and zero values for both inputs and outputs.
+  * The multiset methods are designed only for use cases with positive
+    values. The inputs may be negative or zero, but only outputs with
+    positive values are created.  There are no type restrictions, but

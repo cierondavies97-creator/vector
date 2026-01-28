@@ -1,0 +1,4 @@
+Added in version 3.5.
+   Changed in version 3.6: Added support for the *context manager*
+   protocol and the "close()" method.  If a "scandir()" iterator is
+   neither exhausted nor explicitly closed a "ResourceWarning" will be

@@ -1,0 +1,5 @@
+instead of "CryptGenRandom()" which is deprecated.
+os.GRND_NONBLOCK
+   By  default, when reading from "/dev/random", "getrandom()" blocks
+   if no random bytes are available, and when reading from
+   "/dev/urandom", it blocks if the entropy pool has not yet been

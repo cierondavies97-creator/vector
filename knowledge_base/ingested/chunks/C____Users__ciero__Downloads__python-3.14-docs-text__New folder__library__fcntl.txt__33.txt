@@ -1,0 +1,4 @@
+(file objects providing a "fileno()" method are accepted as well).
+   See the Unix manual *flock(2)* for details.  (On some systems, this
+   function is emulated using "fcntl()".)
+   If the "flock()" call fails, an "OSError" exception is raised.

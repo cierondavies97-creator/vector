@@ -1,0 +1,4 @@
+practically all objects can be compared for equality, tested for truth
+value, and converted to a string (with the "repr()" function or the
+slightly different "str()" function).  The latter function is
+implicitly used when an object is written by the "print()" function.

@@ -1,0 +1,4 @@
+defined according to the standard. All other fields are optional.
+   Vendors may include additional fields.
+   Note that fields like "NAME", "VERSION", and "VARIANT" are strings
+   suitable for presentation to users. Programs should use fields like

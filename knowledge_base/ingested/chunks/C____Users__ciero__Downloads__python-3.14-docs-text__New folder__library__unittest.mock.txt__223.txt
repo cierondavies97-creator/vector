@@ -1,0 +1,7 @@
+an attribute in a class) that does not exist will fail with
+"AttributeError":
+   >>> @patch('sys.non_existing_attribute', 42)
+   ... def test():
+   ...     assert sys.non_existing_attribute == 42
+   ...
+   >>> test()

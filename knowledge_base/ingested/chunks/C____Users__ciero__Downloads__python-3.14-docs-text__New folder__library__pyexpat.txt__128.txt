@@ -1,0 +1,5 @@
+The document contained no document element at all.
+xml.parsers.expat.errors.XML_ERROR_TEXT_DECL
+   There was an error parsing a text declaration in an external
+   entity.
+xml.parsers.expat.errors.XML_ERROR_PUBLICID

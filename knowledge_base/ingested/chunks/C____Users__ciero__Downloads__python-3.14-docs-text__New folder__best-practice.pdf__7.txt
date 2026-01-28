@@ -1,0 +1,7 @@
+Refactoring
+Development Methodologies
+Coding Style
+▶ readability counts (often more than brevity or speed)
+▶ give things intention revealing names
+▶ For example: numbers instead of n
+▶ For example: numbers instead of list_of_float_numbers

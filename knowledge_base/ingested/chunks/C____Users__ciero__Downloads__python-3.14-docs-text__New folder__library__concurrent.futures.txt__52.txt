@@ -1,0 +1,3 @@
+from each other, which means each has its own runtime state and
+   that they can't share any mutable objects or other data.  Each
+   interpreter has its own *Global Interpreter Lock*, which means code

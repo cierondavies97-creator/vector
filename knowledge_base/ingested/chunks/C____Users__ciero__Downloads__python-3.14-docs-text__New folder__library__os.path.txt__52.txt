@@ -1,0 +1,5 @@
+Changed in version 3.6: Accepts a *path-like object* for *path* and
+   *paths*.
+os.path.normcase(path, /)
+   Normalize the case of a pathname.  On Windows, convert all
+   characters in the pathname to lowercase, and also convert forward

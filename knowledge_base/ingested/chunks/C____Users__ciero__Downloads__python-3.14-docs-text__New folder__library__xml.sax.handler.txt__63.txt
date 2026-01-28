@@ -1,0 +1,5 @@
+ErrorHandler.fatalError(exception)
+   Called when the parser encounters an error it cannot recover from;
+   parsing is expected to terminate when this method returns.
+ErrorHandler.warning(exception)
+   Called when the parser presents minor warning information to the

@@ -1,0 +1,4 @@
+modules, the CGI environment and I/O streams are specified
+   explicitly. The *multithread* and *multiprocess* values are used to
+   set the "wsgi.multithread" and "wsgi.multiprocess" flags for any
+   applications run by the handler instance.

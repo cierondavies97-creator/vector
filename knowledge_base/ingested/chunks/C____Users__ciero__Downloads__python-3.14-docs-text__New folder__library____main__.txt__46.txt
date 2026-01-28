@@ -1,0 +1,4 @@
+imports "namely". In turn, "namely" imports "__main__" (which is
+really "start"). That's an import cycle! Fortunately, since the
+partially populated "__main__" module is present in "sys.modules",
+Python passes that to "namely". See Special considerations for

@@ -1,0 +1,5 @@
+lost, re-establishes the connection. To unpickle the record at
+      the receiving end into a "LogRecord", use the "makeLogRecord()"
+      function.
+   handleError()
+      Handles an error which has occurred during "emit()". The most

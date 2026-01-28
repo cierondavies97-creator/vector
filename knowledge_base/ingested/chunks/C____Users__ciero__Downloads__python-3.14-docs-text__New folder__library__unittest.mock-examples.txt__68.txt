@@ -1,0 +1,6 @@
+managers.
+Where you use "patch()" to create a mock for you, you can get a
+reference to the mock using the "as" form of the with statement:
+>>> class ProductionClass:
+...     def method(self):
+...         pass

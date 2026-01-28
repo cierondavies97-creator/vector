@@ -1,0 +1,3 @@
+Each header is placed on a line with its value, separated by a
+   colon and a space. Each line is terminated by a carriage return and
+   line feed, and the bytestring is terminated with a blank line.

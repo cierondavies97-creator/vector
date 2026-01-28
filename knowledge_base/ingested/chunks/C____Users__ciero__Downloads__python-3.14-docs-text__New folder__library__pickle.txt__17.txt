@@ -1,0 +1,4 @@
+usage of Python's introspection facilities; complex cases can be
+  tackled by implementing specific object APIs);
+* Unlike pickle, deserializing untrusted JSON does not in itself
+  create an arbitrary code execution vulnerability.

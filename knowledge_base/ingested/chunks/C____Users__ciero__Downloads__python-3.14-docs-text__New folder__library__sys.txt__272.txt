@@ -1,0 +1,4 @@
+Name of the platform-specific library directory. It is used to
+   build the path of standard library and the paths of installed
+   extension modules.
+   It is equal to ""lib"" on most platforms. On Fedora and SuSE, it is

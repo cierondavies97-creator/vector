@@ -1,0 +1,4 @@
+msg.add_header('Content-Disposition', 'attachment', filename='bud.gif')
+      This will add a header that looks like
+         Content-Disposition: attachment; filename="bud.gif"
+      An example with non-ASCII characters:

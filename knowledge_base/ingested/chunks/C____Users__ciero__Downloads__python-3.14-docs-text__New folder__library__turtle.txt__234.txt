@@ -1,0 +1,4 @@
+If mode is not given, current mode is returned.
+   Mode "standard" is compatible with old "turtle".  Mode "logo" is
+   compatible with most Logo turtle graphics.  Mode "world" uses user-
+   defined "world coordinates". **Attention**: in this mode angles

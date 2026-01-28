@@ -1,0 +1,4 @@
+sent to the remote host.
+   Changed in version 3.2: *context* parameter added.
+   Changed in version 3.4: The class now supports hostname check with
+   "ssl.SSLContext.check_hostname" and *Server Name Indication* (see

@@ -1,0 +1,4 @@
+In fact, you can also take an existing structure and add new "Message"
+objects, move them around, etc.  This makes a very convenient
+interface for slicing-and-dicing MIME messages.
+You can create a new object structure by creating "Message" instances,

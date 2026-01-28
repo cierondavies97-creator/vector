@@ -1,0 +1,5 @@
+To wrap an "SSLSocket" in another "SSLSocket", use
+   "SSLContext.wrap_bio()".
+   Changed in version 3.5: Always allow a server_hostname to be
+   passed, even if OpenSSL does not have SNI.
+   Changed in version 3.6: *session* argument was added.

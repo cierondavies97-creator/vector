@@ -1,0 +1,3 @@
+|             | that contains the first Thursday of the year.    |         |
+   |             | Weeks start on Monday.                           |         |
+   +-------------+--------------------------------------------------+---------+

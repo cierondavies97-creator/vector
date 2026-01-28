@@ -1,0 +1,6 @@
+inbox = mailbox.Maildir('~/Maildir', factory=None)
+   for key in inbox.iterkeys():
+       try:
+           message = inbox[key]
+       except email.errors.MessageParseError:
+           continue                # The message is malformed. Just leave it.

@@ -1,0 +1,3 @@
+a file path.  However, some functions now alternatively accept an
+  open file descriptor for their *path* argument. The function will
+  then operate on the file referred to by the descriptor. For POSIX

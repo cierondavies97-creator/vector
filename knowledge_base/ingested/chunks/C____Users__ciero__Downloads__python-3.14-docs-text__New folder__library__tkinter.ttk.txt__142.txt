@@ -1,0 +1,3 @@
+|==================|==========================================================|
+| columns          | A list of column identifiers, specifying the number of   |
+|                  | columns and their names.                                 |

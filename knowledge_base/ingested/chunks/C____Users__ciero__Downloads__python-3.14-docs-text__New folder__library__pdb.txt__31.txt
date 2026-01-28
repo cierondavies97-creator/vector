@@ -1,0 +1,5 @@
+pdb.get_default_backend()
+   Returns the default backend for pdb.
+   Added in version 3.14.
+The "run*" functions and "set_trace()" are aliases for instantiating
+the "Pdb" class and calling the method of the same name.  If you want

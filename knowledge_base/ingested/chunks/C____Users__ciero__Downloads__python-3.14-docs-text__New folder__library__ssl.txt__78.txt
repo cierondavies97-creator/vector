@@ -1,0 +1,4 @@
+ssl.VERIFY_CRL_CHECK_LEAF
+   Possible value for "SSLContext.verify_flags". In this mode, only
+   the peer cert is checked but none of the intermediate CA
+   certificates. The mode requires a valid CRL that is signed by the

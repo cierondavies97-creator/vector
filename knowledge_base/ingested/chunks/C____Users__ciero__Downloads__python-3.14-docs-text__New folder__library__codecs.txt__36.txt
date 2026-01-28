@@ -1,0 +1,4 @@
+This function requires that the codec accept text "str" objects to
+   encode. Therefore it does not support bytes-to-bytes encoders such
+   as "base64_codec".
+codecs.iterdecode(iterator, encoding, errors='strict', **kwargs)

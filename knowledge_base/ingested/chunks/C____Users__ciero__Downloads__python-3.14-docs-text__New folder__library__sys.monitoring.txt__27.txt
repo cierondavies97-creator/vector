@@ -1,0 +1,6 @@
+* "RAISE"
+* "EXCEPTION_HANDLED"
+The STOP_ITERATION event
+------------------------
+**PEP 380** specifies that a "StopIteration" exception is raised when
+returning a value from a generator or coroutine. However, this is a

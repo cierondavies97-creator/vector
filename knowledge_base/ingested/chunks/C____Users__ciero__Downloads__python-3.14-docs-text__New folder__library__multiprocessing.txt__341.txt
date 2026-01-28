@@ -1,0 +1,9 @@
+>>> print(l)
+   [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+   >>> print(repr(l))
+   <ListProxy object, typeid 'list' at 0x...>
+   >>> l[4]
+   16
+   >>> l[2:5]
+   [4, 9, 16]
+Notice that applying "str()" to a proxy will return the representation

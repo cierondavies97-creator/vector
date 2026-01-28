@@ -1,0 +1,4 @@
+>>> displaymatch(valid.match("akt"))    # Invalid.
+   >>> displaymatch(valid.match("727ak"))  # Valid.
+   "<Match: '727ak', groups=()>"
+That last hand, ""727ak"", contained a pair, or two of the same valued

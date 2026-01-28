@@ -1,0 +1,4 @@
+attribute will be set to "False". In this case, the next call to
+      "decompress()" may provide *data* as "b''" to obtain more of the
+      output.
+      If all of the input data was decompressed and returned (either

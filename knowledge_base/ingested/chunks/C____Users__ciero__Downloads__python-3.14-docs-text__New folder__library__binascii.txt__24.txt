@@ -1,0 +1,4 @@
+*hexstr*.  This function is the inverse of "b2a_hex()". *hexstr*
+   must contain an even number of hexadecimal digits (which can be
+   upper or lower case), otherwise an "Error" exception is raised.
+   Similar functionality (accepting only text string arguments, but

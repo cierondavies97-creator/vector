@@ -1,0 +1,5 @@
+function that may raise an exception.
+The macros "Py_INCREF()" and "Py_DECREF()" do not check for "NULL"
+pointers --- however, their variants "Py_XINCREF()" and "Py_XDECREF()"
+do.
+The macros for checking for a particular object type

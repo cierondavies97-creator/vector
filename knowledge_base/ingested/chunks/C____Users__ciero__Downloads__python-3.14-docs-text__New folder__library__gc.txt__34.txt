@@ -1,0 +1,5 @@
+gc.freeze()
+   Freeze all the objects tracked by the garbage collector; move them
+   to a permanent generation and ignore them in all the future
+   collections.
+   If a process will "fork()" without "exec()", avoiding unnecessary

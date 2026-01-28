@@ -1,0 +1,3 @@
+indicate that the slots are present and should be checked by the
+interpreter.  (The flag bit does not indicate that the slot values are
+non-"NULL". The flag may be set to indicate the presence of a slot,

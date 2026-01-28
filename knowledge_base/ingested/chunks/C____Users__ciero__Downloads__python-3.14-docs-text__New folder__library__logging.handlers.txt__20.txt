@@ -1,0 +1,3 @@
+if its device or inode have changed.) If the file has changed, the old
+file stream is closed, and the file opened to get a new stream.
+This handler is not appropriate for use under Windows, because under

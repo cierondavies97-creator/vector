@@ -1,0 +1,3 @@
+cycle to prevent the reference count of an object from going to
+   zero.  In this case, the cycle will be later detected and deleted
+   by the *cyclic garbage collector*.  A common cause of reference

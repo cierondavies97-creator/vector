@@ -1,0 +1,6 @@
+context manager or a coroutine function.
+   push_async_callback(callback, /, *args, **kwds)
+      Similar to "ExitStack.callback()" but expects a coroutine
+      function.
+   async aclose()
+      Similar to "ExitStack.close()" but properly handles awaitables.

@@ -1,0 +1,5 @@
+Populating the parser
+---------------------
+There are several ways to populate the parser with options.  The
+preferred way is by using "OptionParser.add_option()", as shown in
+section Tutorial.  "add_option()" can be called in one of two ways:

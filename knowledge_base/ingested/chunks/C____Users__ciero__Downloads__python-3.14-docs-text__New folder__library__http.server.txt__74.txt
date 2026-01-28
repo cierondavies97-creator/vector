@@ -1,0 +1,5 @@
+hierarchic structure to local directory structure is exactly as in
+   "SimpleHTTPRequestHandler".
+   Note:
+     CGI scripts run by the "CGIHTTPRequestHandler" class cannot
+     execute redirects (HTTP code 302), because code 200 (script

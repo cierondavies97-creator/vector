@@ -1,0 +1,6 @@
+"call_args_list". This looks remarkably similar to the repr of the
+"call_args_list":
+>>> expected = [call(1, 2, 3), call(4, 5, 6), call()]
+>>> mock.call_args_list == expected
+True
+Coping with mutable arguments

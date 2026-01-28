@@ -1,0 +1,3 @@
+The details of visibility depend on the operating system; some systems
+use one global namespace for the Python interpreter and all extension
+modules (Windows, for example), whereas others require an explicit

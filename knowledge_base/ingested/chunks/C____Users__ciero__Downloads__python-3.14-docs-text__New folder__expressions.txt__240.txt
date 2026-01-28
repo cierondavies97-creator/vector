@@ -1,0 +1,4 @@
+lexicographically using the numeric values of their elements.
+* Strings (instances of "str") compare lexicographically using the
+  numerical Unicode code points (the result of the built-in function
+  "ord()") of their characters. [3]

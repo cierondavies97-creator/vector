@@ -1,0 +1,4 @@
+Tcl interpreter. A global lock ensures only one call occurs at a
+  time.
+* While "tkinter" allows you to create more than one instance of a
+  "Tk" object (with its own interpreter), all interpreters that are

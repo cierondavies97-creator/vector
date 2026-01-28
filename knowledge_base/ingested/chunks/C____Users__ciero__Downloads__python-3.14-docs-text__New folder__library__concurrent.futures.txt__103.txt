@@ -1,0 +1,3 @@
+given to *fs* are removed and will be returned only once. Returns a
+   named 2-tuple of sets.  The first set, named "done", contains the
+   futures that completed (finished or cancelled futures) before the

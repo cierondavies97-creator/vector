@@ -1,0 +1,4 @@
+type.  If *order* is true and *eq* is false, a "ValueError" is
+     raised.
+     If the class already defines any of "__lt__()", "__le__()",
+     "__gt__()", or "__ge__()", then "TypeError" is raised.

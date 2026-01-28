@@ -1,0 +1,4 @@
+Note that the parameters have been re-ordered from how they appear in
+the list of fields: parameters derived from regular fields are
+followed by parameters derived from keyword-only fields.
+The relative ordering of keyword-only parameters is maintained in the

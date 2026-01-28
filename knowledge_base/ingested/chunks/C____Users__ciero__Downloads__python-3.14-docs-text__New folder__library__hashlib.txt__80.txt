@@ -1,0 +1,6 @@
+cookies sent to users and later verify them to make sure they weren't
+tampered with:
+   >>> from hashlib import blake2b
+   >>> from hmac import compare_digest
+   >>>
+   >>> SECRET_KEY = b'pseudorandomly generated server secret key'

@@ -1,0 +1,5 @@
+identity of two objects; the "id()" function returns an integer
+representing its identity.
+**CPython implementation detail:** For CPython, "id(x)" is the memory
+address where "x" is stored.
+An object's type determines the operations that the object supports

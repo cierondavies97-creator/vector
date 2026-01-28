@@ -1,0 +1,4 @@
+authority is still unhandled, then on Windows a UNC path is
+   returned, and on other platforms a "URLError" is raised.
+   This example shows the function being used on Windows:
+      >>> from urllib.request import url2pathname

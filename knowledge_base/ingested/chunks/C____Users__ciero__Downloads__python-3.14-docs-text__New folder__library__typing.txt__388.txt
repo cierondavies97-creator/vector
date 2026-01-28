@@ -1,0 +1,4 @@
+Support for "ReadOnly" is reflected in the following attributes:
+   __readonly_keys__
+      A "frozenset" containing the names of all read-only keys. Keys
+      are read-only if they carry the "ReadOnly" qualifier.

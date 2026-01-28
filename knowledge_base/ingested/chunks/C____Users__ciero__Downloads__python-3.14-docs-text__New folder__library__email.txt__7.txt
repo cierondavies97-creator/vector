@@ -1,0 +1,4 @@
+"EmailMessage" objects.  The generator takes an "EmailMessage" and
+turns it back into a serialized byte stream.  (The parser and
+generator also handle streams of text characters, but this usage is
+discouraged as it is too easy to end up with messages that are not

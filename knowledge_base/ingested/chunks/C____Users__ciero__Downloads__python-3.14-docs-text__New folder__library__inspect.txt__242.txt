@@ -1,0 +1,3 @@
+of the frame records these functions return, can cause your program
+  to create reference cycles.  Once a reference cycle has been
+  created, the lifespan of all objects which can be accessed from the

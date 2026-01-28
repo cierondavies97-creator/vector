@@ -1,0 +1,5 @@
+but it cannot be compiled alone (it needs to be inside a function
+     node).In particular, "ast.parse()" won't do any scoping checks,
+     which the compilation step does.
+   Warning:
+     It is possible to crash the Python interpreter with a

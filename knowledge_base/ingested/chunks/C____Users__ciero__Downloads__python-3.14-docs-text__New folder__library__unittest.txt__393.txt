@@ -1,0 +1,4 @@
+will not have "setUpClass" or "tearDownClass" run. If the exception is
+a "SkipTest" exception then the class will be reported as having been
+skipped instead of as an error.
+setUpModule and tearDownModule

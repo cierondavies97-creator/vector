@@ -1,0 +1,4 @@
+contain a fully qualified domain name or numeric address
+   representation in *host*.  Similarly, *port* can contain a string
+   port name or a numeric port number.
+   For IPv6 addresses, "%scope_id" is appended to the host part if

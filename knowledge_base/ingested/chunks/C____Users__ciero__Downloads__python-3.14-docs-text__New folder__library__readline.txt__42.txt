@@ -1,0 +1,5 @@
+scope). These functions access the
+   "rl_completer_word_break_characters" variable in the underlying
+   library.
+readline.set_completion_display_matches_hook([function])
+   Set or remove the completion display function.  If *function* is

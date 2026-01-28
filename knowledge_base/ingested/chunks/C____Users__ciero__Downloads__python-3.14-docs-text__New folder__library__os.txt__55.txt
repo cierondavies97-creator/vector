@@ -1,0 +1,4 @@
+Note:
+     On macOS, "getgroups()" behavior differs somewhat from other Unix
+     platforms. If the Python interpreter was built with a deployment
+     target of "10.5" or earlier, "getgroups()" returns the list of

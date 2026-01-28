@@ -1,0 +1,6 @@
+See also:
+     * Python support for the Linux perf profiler
+     * https://perf.wiki.kernel.org
+sys.deactivate_stack_trampoline()
+   Deactivate the current stack profiler trampoline backend.
+   If no stack profiler is activated, this function has no effect.

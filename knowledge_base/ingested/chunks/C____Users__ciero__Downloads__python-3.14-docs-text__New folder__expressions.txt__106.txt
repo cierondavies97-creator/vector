@@ -1,0 +1,4 @@
+Calling one of the asynchronous generator's methods returns an
+*awaitable* object, and the execution starts when this object is
+awaited on. At that time, the execution proceeds to the first yield
+expression, where it is suspended again, returning the value of

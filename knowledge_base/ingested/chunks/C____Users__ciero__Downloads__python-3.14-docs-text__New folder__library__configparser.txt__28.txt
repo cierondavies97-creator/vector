@@ -1,0 +1,5 @@
+provided via the "fallback" keyword-only argument:
+   >>> config.get('forge.example', 'monster',
+   ...            fallback='No such things as monsters')
+   'No such things as monsters'
+The same "fallback" argument can be used with the "getint()",

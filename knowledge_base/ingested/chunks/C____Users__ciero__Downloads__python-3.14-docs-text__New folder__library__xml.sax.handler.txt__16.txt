@@ -1,0 +1,4 @@
+xml.sax.handler.feature_external_pes
+      value: ""http://xml.org/sax/features/external-parameter-entities""
+      true: Include all external parameter entities, including the external DTD
+      subset.

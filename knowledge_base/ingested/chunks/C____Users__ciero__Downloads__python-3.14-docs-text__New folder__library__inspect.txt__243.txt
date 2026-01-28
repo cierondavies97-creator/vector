@@ -1,0 +1,3 @@
+objects which form the cycle can become much longer even if Python's
+  optional cycle detector is enabled.  If such cycles must be created,
+  it is important to ensure they are explicitly broken to avoid the

@@ -1,0 +1,8 @@
+"tuple" of separators.
+   at_eof()
+      Return "True" if the buffer is empty and "feed_eof()" was
+      called.
+StreamWriter
+============
+class asyncio.StreamWriter
+   Represents a writer object that provides APIs to write data to the

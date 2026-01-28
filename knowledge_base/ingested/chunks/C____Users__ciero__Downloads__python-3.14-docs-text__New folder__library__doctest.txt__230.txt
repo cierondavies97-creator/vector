@@ -1,0 +1,4 @@
+The optional keyword argument *verbose* controls the
+   "DocTestRunner"'s verbosity.  If *verbose* is "True", then
+   information is printed about each example, as it is run.  If
+   *verbose* is "False", then only failures are printed.  If *verbose*

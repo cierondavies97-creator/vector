@@ -1,0 +1,3 @@
+further without the need to call "register()" on every class you
+      want to consider a subclass of the ABC.  (This class method is
+      called from the "__subclasscheck__()" method of the ABC.)

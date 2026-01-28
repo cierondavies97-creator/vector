@@ -1,0 +1,6 @@
+"StreamReader" instances.
+asyncio.subprocess.STDOUT
+   Special value that can be used as the *stderr* argument and
+   indicates that standard error should be redirected into standard
+   output.
+asyncio.subprocess.DEVNULL

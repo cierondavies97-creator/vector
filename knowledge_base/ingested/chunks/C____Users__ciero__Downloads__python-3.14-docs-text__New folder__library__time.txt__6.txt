@@ -1,0 +1,4 @@
+the POSIX and ISO C standards: values 69--99 are mapped to 1969--
+  1999, and values 0--68 are mapped to 2000--2068.
+* UTC is Coordinated Universal Time and superseded Greenwich Mean Time
+  or GMT as the basis of international timekeeping. The acronym UTC is

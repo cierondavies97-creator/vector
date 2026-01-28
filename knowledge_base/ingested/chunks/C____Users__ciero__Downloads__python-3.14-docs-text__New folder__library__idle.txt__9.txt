@@ -1,0 +1,6 @@
+a tree structure.  In the shell, open a module first.
+Path Browser
+   Show sys.path directories, modules, functions, classes and methods
+   in a tree structure.
+Save
+   Save the current window to the associated file, if there is one.

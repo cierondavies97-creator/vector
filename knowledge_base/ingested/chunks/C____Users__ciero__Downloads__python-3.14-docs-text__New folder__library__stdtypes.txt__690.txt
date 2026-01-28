@@ -1,0 +1,5 @@
+interpreted using "struct" syntax.
+         For the subset of "struct" format strings currently supported
+         by "tolist()", "v" and "w" are equal if "v.tolist() ==
+         w.tolist()":
+            >>> import array

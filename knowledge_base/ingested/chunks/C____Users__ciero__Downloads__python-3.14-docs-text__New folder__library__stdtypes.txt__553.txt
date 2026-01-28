@@ -1,0 +1,6 @@
+255 as the subsequence.
+bytes.rindex(sub[, start[, end]])
+bytearray.rindex(sub[, start[, end]])
+   Like "rfind()" but raises "ValueError" when the subsequence *sub*
+   is not found.
+   The subsequence to search for may be any *bytes-like object* or an

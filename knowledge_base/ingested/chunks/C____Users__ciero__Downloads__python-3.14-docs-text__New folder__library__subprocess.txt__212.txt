@@ -1,0 +1,5 @@
+Notes:
+* Calling the program through the shell is usually not required.
+* The "call()" return value is encoded differently to that of
+  "os.system()".
+* The "os.system()" function ignores SIGINT and SIGQUIT signals while

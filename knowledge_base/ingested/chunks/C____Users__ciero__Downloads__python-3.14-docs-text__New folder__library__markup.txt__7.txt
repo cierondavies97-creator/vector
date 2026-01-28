@@ -1,0 +1,9 @@
+* Exceptions
+  * Conformance
+    * Type Mapping
+    * Accessor Methods
+* "xml.dom.minidom" --- Minimal DOM implementation
+  * DOM Objects
+  * DOM Example
+  * minidom and the DOM standard
+* "xml.dom.pulldom" --- Support for building partial DOM trees

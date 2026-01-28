@@ -1,0 +1,6 @@
+pending on the connection.
+SSLSocket.context
+   The "SSLContext" object this SSL socket is tied to.
+   Added in version 3.2.
+SSLSocket.server_side
+   A boolean which is "True" for server-side sockets and "False" for

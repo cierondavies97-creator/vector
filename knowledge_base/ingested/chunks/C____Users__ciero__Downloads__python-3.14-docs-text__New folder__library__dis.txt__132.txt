@@ -1,0 +1,7 @@
+Added in version 3.14.
+BUILD_TUPLE(count)
+   Creates a tuple consuming *count* items from the stack, and pushes
+   the resulting tuple onto the stack:
+      if count == 0:
+          value = ()
+      else:

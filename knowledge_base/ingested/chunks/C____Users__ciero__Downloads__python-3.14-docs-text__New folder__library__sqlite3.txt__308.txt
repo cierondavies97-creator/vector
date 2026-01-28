@@ -1,0 +1,5 @@
+("Objective-C", 1984),
+   ]
+   con.executemany("INSERT INTO lang(name, first_appeared) VALUES(?, ?)", data)
+   # Print the table contents
+   for row in con.execute("SELECT name, first_appeared FROM lang"):

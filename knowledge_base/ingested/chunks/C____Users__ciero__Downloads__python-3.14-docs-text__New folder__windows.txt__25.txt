@@ -1,0 +1,4 @@
+"pymanagerw". A "python3" command is also included that mimics the
+"python" command. It is intended to catch accidental uses of the
+typical POSIX command on Windows, but is not meant to be widely used
+or recommended.

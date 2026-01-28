@@ -1,0 +1,5 @@
+to a reference to it is not a reliable way to keep a copy of the
+   attributes. To keep a copy of the attributes, use the "copy()"
+   method of the *attrs* object.
+ContentHandler.endElement(name)
+   Signals the end of an element in non-namespace mode.

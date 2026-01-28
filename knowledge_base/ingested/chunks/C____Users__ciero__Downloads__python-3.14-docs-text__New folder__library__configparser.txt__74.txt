@@ -1,0 +1,6 @@
+...                   'section3': {'foo': 'x',
+     ...                                'bar': 'y',
+     ...                                'baz': 'z'}
+     ... })
+     >>> parser.sections()
+     ['section1', 'section2', 'section3']

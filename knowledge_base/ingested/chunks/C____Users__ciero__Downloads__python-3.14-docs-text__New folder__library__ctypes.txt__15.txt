@@ -1,0 +1,4 @@
+>>>
+Note that win32 system dlls like "kernel32" and "user32" often export
+ANSI as well as UNICODE versions of a function. The UNICODE version is
+exported with a "W" appended to the name, while the ANSI version is

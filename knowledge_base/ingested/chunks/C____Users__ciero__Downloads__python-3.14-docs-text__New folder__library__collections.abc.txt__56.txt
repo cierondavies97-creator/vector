@@ -1,0 +1,5 @@
+"Callable" in type annotations.
+class collections.abc.Iterable
+   ABC for classes that provide the "__iter__()" method.
+   Checking "isinstance(obj, Iterable)" detects classes that are
+   registered as "Iterable" or that have an "__iter__()" method, but

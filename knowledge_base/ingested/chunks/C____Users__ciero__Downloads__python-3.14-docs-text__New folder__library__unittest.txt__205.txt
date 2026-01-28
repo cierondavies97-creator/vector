@@ -1,0 +1,5 @@
+Added in version 3.1: Added under the name
+      "assertRegexpMatches".
+      Changed in version 3.2: The method "assertRegexpMatches()" has
+      been renamed to "assertRegex()".
+      Added in version 3.2: "assertNotRegex()".

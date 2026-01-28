@@ -1,0 +1,4 @@
+The following example demonstrates a practical use of the
+"SharedMemory" class with NumPy arrays, accessing the same
+"numpy.ndarray" from two distinct Python shells:
+   >>> # In the first Python interactive shell

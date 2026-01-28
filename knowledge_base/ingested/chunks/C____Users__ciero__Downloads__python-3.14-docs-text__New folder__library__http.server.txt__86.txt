@@ -1,0 +1,5 @@
+Added in version 3.7.
+-p, --protocol <version>
+   Specifies the HTTP version to which the server is conformant. By
+   default, the server is conformant to HTTP/1.0. For example, the
+   following command runs an HTTP/1.1 conformant server:

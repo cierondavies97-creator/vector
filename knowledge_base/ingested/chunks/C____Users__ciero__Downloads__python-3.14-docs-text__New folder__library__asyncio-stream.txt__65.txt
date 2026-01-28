@@ -1,0 +1,4 @@
+example uses a low-level protocol and the "loop.create_connection()"
+  method.
+  The watch a file descriptor for read events example uses the low-
+  level "loop.add_reader()" method to watch a file descriptor.

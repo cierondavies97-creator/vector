@@ -1,0 +1,4 @@
+generating the byte sequence, but as a signature that helps in
+guessing the encoding. On encoding the utf-8-sig codec will write
+"0xef", "0xbb", "0xbf" as the first three bytes to the file. On
+decoding "utf-8-sig" will skip those three bytes if they appear as the

@@ -1,0 +1,4 @@
+Create a TLS coder/decoder instance and insert it between the
+   *transport* and the *protocol*. The coder/decoder implements both
+   *transport*-facing protocol and *protocol*-facing transport.
+   Return the created two-interface instance. After *await*, the

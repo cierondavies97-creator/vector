@@ -1,0 +1,3 @@
+internal database can be identified. When *strict* is "True" (the
+   default), only the IANA types are supported; when *strict* is
+   "False", some additional non-standard but commonly used MIME types

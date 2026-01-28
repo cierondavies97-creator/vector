@@ -1,0 +1,4 @@
+Note how "__import__()" returns the toplevel module here because
+   this is the object that is bound to a name by the "import"
+   statement.
+   On the other hand, the statement "from spam.ham import eggs,

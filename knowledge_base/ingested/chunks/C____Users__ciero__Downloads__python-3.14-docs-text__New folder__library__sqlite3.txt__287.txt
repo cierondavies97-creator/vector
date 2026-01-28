@@ -1,0 +1,7 @@
+self.x, self.y = x, y
+   def adapt_point(point):
+       return f"{point.x};{point.y}"
+   sqlite3.register_adapter(Point, adapt_point)
+   con = sqlite3.connect(":memory:")
+   cur = con.cursor()
+   cur.execute("SELECT ?", (Point(1.0, 2.5),))

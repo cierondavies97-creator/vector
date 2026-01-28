@@ -1,0 +1,8 @@
+>>> json.loads('"\\"foo\\bar"')
+   '"foo\x08ar'
+   >>> from io import StringIO
+   >>> io = StringIO('["streaming API"]')
+   >>> json.load(io)
+   ['streaming API']
+Customizing JSON object decoding:
+   >>> import json

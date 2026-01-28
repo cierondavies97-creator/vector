@@ -1,0 +1,5 @@
+standard output closes early.  This results in an exception like
+"BrokenPipeError: [Errno 32] Broken pipe".  To handle this case, wrap
+your entry point to catch this exception as follows:
+   import os
+   import sys

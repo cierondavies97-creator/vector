@@ -1,0 +1,4 @@
+"tries", "failures" and "skips" attributes. The "run()" and
+   "summarize()" methods return a "TestResults" instance.
+   "DocTestRunner" defines the following methods:
+   report_start(out, test, example)

@@ -1,0 +1,5 @@
+"HAS_SNI").
+   Changed in version 3.5: The error raised for lack of STARTTLS
+   support is now the "SMTPNotSupportedError" subclass instead of the
+   base "SMTPException".
+SMTP.sendmail(from_addr, to_addrs, msg, mail_options=(), rcpt_options=())

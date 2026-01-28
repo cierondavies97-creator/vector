@@ -1,0 +1,3 @@
+sequences in Python's usage of the backslash in string literals now
+generate a "SyntaxWarning" and in the future this will become a
+"SyntaxError". This behaviour will happen even if it is a valid escape

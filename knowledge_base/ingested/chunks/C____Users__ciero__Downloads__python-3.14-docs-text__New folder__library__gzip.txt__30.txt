@@ -1,0 +1,4 @@
+Deprecated since version 3.9: Opening "GzipFile" for writing
+   without specifying the *mode* argument is deprecated.
+   Changed in version 3.12: Remove the "filename" attribute, use the
+   "name" attribute instead.

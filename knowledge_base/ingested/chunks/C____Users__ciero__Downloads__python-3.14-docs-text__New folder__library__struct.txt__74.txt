@@ -1,0 +1,5 @@
+>>> pack(">h", 99999)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   struct.error: 'h' format requires -32768 <= number <= 32767
+Demonstrate the difference between "'s'" and "'c'" format characters:

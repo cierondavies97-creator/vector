@@ -1,0 +1,6 @@
+they were, in fact, returning "asyncio.Future" objects.  Starting with
+Python 3.7 both methods are coroutines.
+Working with pipes
+------------------
+async loop.connect_read_pipe(protocol_factory, pipe)
+   Register the read end of *pipe* in the event loop.

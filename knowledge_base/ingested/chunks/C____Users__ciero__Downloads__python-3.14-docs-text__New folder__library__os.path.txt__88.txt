@@ -1,0 +1,6 @@
+('.cshrc', '')
+      >>> splitext('/foo/....jpg')
+      ('/foo/....jpg', '')
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.supports_unicode_filenames
+   "True" if arbitrary Unicode strings can be used as file names

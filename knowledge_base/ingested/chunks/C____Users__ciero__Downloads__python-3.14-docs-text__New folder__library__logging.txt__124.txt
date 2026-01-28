@@ -1,0 +1,4 @@
+format(record)
+      The record's attribute dictionary is used as the operand to a
+      string formatting operation. Returns the resulting string.
+      Before formatting the dictionary, a couple of preparatory steps

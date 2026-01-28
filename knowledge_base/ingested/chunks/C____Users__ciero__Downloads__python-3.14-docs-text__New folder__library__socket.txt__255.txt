@@ -1,0 +1,4 @@
+(see **PEP 475** for the rationale).
+   Changed in version 3.7: For multicast IPv6 address, first item of
+   *address* does not contain "%scope_id" part anymore. In order to
+   get full IPv6 address use "getnameinfo()".

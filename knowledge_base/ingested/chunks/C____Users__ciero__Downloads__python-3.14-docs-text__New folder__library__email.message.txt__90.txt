@@ -1,0 +1,4 @@
+of the message.
+      *preferencelist* must be a sequence of strings from the set
+      "related", "html", and "plain", and indicates the order of
+      preference for the content type of the part returned.

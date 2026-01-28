@@ -1,0 +1,4 @@
+sys.monitoring.get_events(tool_id: int, /) -> int
+   Returns the "int" representing all the active events.
+sys.monitoring.set_events(tool_id: int, event_set: int, /) -> None
+   Activates all events which are set in *event_set*. Raises a

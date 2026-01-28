@@ -1,0 +1,4 @@
+the context precision is only three.
+   The purpose of the *context* argument is determining what to do if
+   *value* is a malformed string.  If the context traps
+   "InvalidOperation", an exception is raised; otherwise, the

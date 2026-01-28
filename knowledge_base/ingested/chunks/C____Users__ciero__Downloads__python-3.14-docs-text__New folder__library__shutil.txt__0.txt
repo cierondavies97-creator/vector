@@ -1,0 +1,5 @@
+"shutil" --- High-level file operations
+***************************************
+**Source code:** Lib/shutil.py
+======================================================================
+The "shutil" module offers a number of high-level operations on files

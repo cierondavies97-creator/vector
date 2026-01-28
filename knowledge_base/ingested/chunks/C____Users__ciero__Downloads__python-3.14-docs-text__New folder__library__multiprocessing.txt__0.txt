@@ -1,0 +1,4 @@
+"multiprocessing" --- Process-based parallelism
+***********************************************
+**Source code:** Lib/multiprocessing/
+======================================================================

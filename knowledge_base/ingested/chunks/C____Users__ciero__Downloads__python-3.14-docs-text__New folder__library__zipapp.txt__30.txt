@@ -1,0 +1,5 @@
+>>> import zipapp
+   >>> zipapp.create_archive('myapp', 'myapp.pyz')
+To make the application directly executable on POSIX, specify an
+interpreter to use.
+   $ python -m zipapp myapp -p "/usr/bin/env python"

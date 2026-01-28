@@ -1,0 +1,5 @@
+s = socket.socket(socket.AF_CAN, socket.SOCK_RAW, socket.CAN_RAW)
+   s.bind(('vcan0',))
+   while True:
+       cf, addr = s.recvfrom(can_frame_size)
+       print('Received: can_id=%x, can_dlc=%x, data=%s' % dissect_can_frame(cf))

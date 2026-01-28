@@ -1,0 +1,5 @@
+computed using "a = 1 + isqrt(n - 1)".
+   Added in version 3.8.
+math.lcm(*integers)
+   Return the least common multiple of the specified integer
+   arguments. If all arguments are nonzero, then the returned value is

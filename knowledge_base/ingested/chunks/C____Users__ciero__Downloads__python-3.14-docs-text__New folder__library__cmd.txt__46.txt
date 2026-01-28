@@ -1,0 +1,5 @@
+def do_reset(self, arg):
+           'Clear the screen and return turtle to center:  RESET'
+           reset()
+       def do_bye(self, arg):
+           'Stop recording, close the turtle window, and exit:  BYE'

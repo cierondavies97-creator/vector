@@ -1,0 +1,5 @@
+"difference()" method.
+      Added in version 3.1.
+   assertDictEqual(first, second, msg=None)
+      Test that two dictionaries are equal.  If not, an error message
+      is constructed that shows the differences in the dictionaries.

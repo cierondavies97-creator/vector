@@ -1,0 +1,7 @@
+Added in version 3.3.
+   seekable()
+      Return whether the file supports seeking.
+      Added in version 3.3.
+   writable()
+      Return whether the file was opened for writing.
+      Added in version 3.3.

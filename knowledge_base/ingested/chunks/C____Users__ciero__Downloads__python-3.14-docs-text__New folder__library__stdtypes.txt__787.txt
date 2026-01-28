@@ -1,0 +1,6 @@
+len(d)
+      Return the number of items in the dictionary *d*.
+   d[key]
+      Return the item of *d* with key *key*.  Raises a "KeyError" if
+      *key* is not in the map.
+      If a subclass of dict defines a method "__missing__()" and *key*

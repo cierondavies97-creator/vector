@@ -1,0 +1,4 @@
+rooted at *msg* to the output file specified when the
+      "Generator" instance was created.
+      If the "policy" option "cte_type" is "8bit", generate the
+      message as if the option were set to "7bit". (This is required

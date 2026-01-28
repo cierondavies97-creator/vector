@@ -1,0 +1,4 @@
+"SimpleNamespace" may be useful as a replacement for "class NS:
+   pass". However, for a structured record type use "namedtuple()"
+   instead.
+   "SimpleNamespace" objects are supported by "copy.replace()".

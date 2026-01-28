@@ -1,0 +1,4 @@
+*repl*.  If the pattern isn't found, *string* is returned
+   unchanged.  *repl* can be a string or a function; if it is a
+   string, any backslash escapes in it are processed.  That is, "\n"
+   is converted to a single newline character, "\r" is converted to a

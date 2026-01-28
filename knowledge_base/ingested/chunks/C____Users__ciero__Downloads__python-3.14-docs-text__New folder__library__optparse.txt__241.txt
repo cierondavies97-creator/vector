@@ -1,0 +1,4 @@
+invoking that option from the command-line.  In that case, "optparse"
+removes that option completely, so it doesn't show up in help text or
+anywhere else. Carrying on with our existing OptionParser:
+   parser.add_option("--dry-run", ..., help="new dry-run option")

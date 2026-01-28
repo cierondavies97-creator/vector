@@ -1,0 +1,4 @@
+dictionary before the module code is executed. (Note that this is a
+   minimal set of variables - other variables may be set implicitly as
+   an interpreter implementation detail.)
+   "__name__" is set to *run_name* if this optional argument is not

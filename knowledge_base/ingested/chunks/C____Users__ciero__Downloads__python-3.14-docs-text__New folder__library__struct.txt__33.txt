@@ -1,0 +1,3 @@
+of "'<'", "'>'", "'!'" or "'='".  When using native size, the size of
+the packed value is platform-dependent.
++----------+----------------------------+----------------------+------------------+--------------+

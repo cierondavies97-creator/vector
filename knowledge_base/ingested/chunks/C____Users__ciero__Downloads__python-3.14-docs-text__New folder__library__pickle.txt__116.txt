@@ -1,0 +1,4 @@
+method takes no argument and shall return either a string or
+   preferably a tuple (the returned object is often referred to as the
+   "reduce value").
+   If a string is returned, the string should be interpreted as the

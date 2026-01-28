@@ -1,0 +1,3 @@
+which changes a path's meaning when supplied to various operating
+   system APIs and command-line utilities. Specifically, the absence
+   of a trailing separator may allow the path to be resolved as either

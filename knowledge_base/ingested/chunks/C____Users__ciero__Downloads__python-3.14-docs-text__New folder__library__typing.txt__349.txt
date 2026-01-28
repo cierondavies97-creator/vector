@@ -1,0 +1,8 @@
+generic Protocols can be written as follows:
+      T = TypeVar("T")
+      class GenProto(Protocol[T]):
+          def meth(self) -> T:
+              ...
+   Added in version 3.8.
+@typing.runtime_checkable
+   Mark a protocol class as a runtime protocol.

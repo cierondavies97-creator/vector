@@ -1,0 +1,9 @@
+>>> row = cur.fetchone()
+   >>> row
+   Row(a=1, b=2)
+   >>> row[0]  # Indexed access.
+   1
+   >>> row.b   # Attribute access.
+   2
+   >>> con.close()
+With some adjustments, the above recipe can be adapted to use a

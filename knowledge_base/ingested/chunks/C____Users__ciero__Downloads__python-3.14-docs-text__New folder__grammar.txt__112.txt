@@ -1,0 +1,4 @@
+CHECK(asdl_pattern_seq*, _PyPegen_get_patterns(p, keywords)),
+               EXTRA) }
+       | cls=name_or_attr '(' patterns=positional_patterns ',' keywords=keyword_patterns ','? ')' {
+           _PyAST_MatchClass(

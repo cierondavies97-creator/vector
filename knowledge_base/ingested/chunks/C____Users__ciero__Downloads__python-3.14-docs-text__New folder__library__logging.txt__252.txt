@@ -1,0 +1,3 @@
+threads are started. In versions of Python prior to 2.7.1 and
+     3.2, if this function is called from multiple threads, it is
+     possible (in rare circumstances) that a handler will be added to

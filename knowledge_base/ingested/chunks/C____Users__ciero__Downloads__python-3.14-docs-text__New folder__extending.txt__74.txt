@@ -1,0 +1,5 @@
+if (PyImport_AppendInittab("spam", PyInit_spam) == -1) {
+           fprintf(stderr, "Error: could not extend in-built modules table\n");
+           exit(1);
+       }
+       /* Pass argv[0] to the Python interpreter */

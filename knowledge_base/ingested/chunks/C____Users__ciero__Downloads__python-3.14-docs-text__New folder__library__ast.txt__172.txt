@@ -1,0 +1,5 @@
+name of the alias, "type_params" is a list of type parameters, and
+   "value" is the value of the type alias.
+      >>> print(ast.dump(ast.parse('type Alias = int'), indent=4))
+      Module(
+          body=[

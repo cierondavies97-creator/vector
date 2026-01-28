@@ -1,0 +1,4 @@
+for the specified module. If no path is available,
+         "ImportError" is raised.
+         If source code is available, then the method should return
+         the path to the source file, regardless of whether a bytecode

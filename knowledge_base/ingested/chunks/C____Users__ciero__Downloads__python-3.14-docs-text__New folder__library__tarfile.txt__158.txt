@@ -1,0 +1,4 @@
+paths, or ones that link outside the destination.
+     This raises "AbsoluteLinkError" or "LinkOutsideDestinationError".
+     Note that such files are refused even on platforms that do not
+     support symbolic links.

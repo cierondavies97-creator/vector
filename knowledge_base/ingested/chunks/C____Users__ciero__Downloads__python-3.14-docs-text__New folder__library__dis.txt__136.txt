@@ -1,0 +1,10 @@
+LIST_EXTEND(i)
+   Implements:
+      seq = STACK.pop()
+      list.extend(STACK[-i], seq)
+   Used to build lists.
+   Added in version 3.9.
+SET_UPDATE(i)
+   Implements:
+      seq = STACK.pop()
+      set.update(STACK[-i], seq)

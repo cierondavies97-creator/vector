@@ -1,0 +1,4 @@
+* *ifname* - String specifying the device name.
+  * *proto* - The Ethernet protocol number. May be "ETH_P_ALL" to
+    capture all protocols, one of the ETHERTYPE_* constants or any
+    other Ethernet protocol number.

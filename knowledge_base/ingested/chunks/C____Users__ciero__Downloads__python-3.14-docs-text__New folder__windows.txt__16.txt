@@ -1,0 +1,5 @@
+Each Python runtime you install will have its own directory for
+scripts. These also need to be added to "PATH" if you want to use
+them.
+The Python install manager will be automatically updated to new
+releases. This does not affect any installs of Python runtimes.

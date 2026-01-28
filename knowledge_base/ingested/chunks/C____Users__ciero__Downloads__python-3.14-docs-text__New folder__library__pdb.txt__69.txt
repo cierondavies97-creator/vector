@@ -1,0 +1,5 @@
+remains in the list of breakpoints and can be (re-)enabled.
+enable bpnumber [bpnumber ...]
+   Enable the breakpoints specified.
+ignore bpnumber [count]
+   Set the ignore count for the given breakpoint number.  If *count*

@@ -1,0 +1,8 @@
+▶ because developers don’t talk to each other
+▶ Version number in source code, website, readme, package
+filename
+▶ If you detect duplication: refactor!
+Nicola Chiapolini, 8 July 2024
+26 / 34
+Introduction
+Style & Documentation

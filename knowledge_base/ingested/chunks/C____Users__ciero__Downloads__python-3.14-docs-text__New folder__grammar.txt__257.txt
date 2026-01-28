@@ -1,0 +1,4 @@
+RAISE_SYNTAX_ERROR_INVALID_TARGET(STAR_TARGETS, a) }
+   invalid_for_if_clause:
+       | 'async'? 'for' (bitwise_or (',' bitwise_or)* [',']) !'in' {
+           RAISE_SYNTAX_ERROR("'in' expected after for-loop variables") }

@@ -1,0 +1,4 @@
+HTTPConnection.getresponse()
+   Should be called after a request is sent to get the response from
+   the server. Returns an "HTTPResponse" instance.
+   Changed in version 3.5: If a "ConnectionError" or subclass is

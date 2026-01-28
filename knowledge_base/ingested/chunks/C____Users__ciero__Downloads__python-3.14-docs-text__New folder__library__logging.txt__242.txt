@@ -1,0 +1,3 @@
+"WARNING", "INFO" or "DEBUG" then you get the corresponding string.
+   If you have associated levels with names using "addLevelName()"
+   then the name you have associated with *level* is returned. If a

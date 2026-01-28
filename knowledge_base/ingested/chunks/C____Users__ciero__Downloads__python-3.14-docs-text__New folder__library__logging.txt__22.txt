@@ -1,0 +1,4 @@
+If this evaluates to false, logging messages are not passed to
+      the handlers of ancestor loggers.
+      Spelling it out with an example: If the propagate attribute of
+      the logger named "A.B.C" evaluates to true, any event logged to

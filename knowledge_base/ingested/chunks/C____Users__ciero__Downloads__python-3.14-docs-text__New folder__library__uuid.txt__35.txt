@@ -1,0 +1,4 @@
+we choose a random 48-bit number with the multicast bit (least
+   significant bit of the first octet) set to 1 as recommended in
+   **RFC 4122**.  "Hardware address" means the MAC address of a
+   network interface.  On a machine with multiple network interfaces,

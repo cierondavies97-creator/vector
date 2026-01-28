@@ -1,0 +1,6 @@
+subclasses.
+   socket_type
+      The type of socket used by the server; "socket.SOCK_STREAM" and
+      "socket.SOCK_DGRAM" are two common values.
+   timeout
+      Timeout duration, measured in seconds, or "None" if no timeout

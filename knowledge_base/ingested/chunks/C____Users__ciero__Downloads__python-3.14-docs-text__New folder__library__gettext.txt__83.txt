@@ -1,0 +1,5 @@
+specific files just use "_('...')" without having to explicitly
+install it in each file.
+In the simple case then, you need only add the following bit of code
+to the main driver file of your application:
+   import gettext

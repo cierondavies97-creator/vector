@@ -1,0 +1,4 @@
+methods on the handler objects are called based on structural and
+syntactic events from the input data.
+For these objects, only the interfaces are relevant; they are normally
+not instantiated by the application itself.  Since Python does not

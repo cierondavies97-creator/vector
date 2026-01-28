@@ -1,0 +1,4 @@
+of editor window.  They currently have the same top menu but a
+different default title and context menu.
+On macOS, there is one application menu.  It dynamically changes
+according to the window currently selected.  It has an IDLE menu, and

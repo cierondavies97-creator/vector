@@ -1,0 +1,5 @@
+Added in version 3.11.
+class enum.Flag
+   "Flag" is the same as "Enum", but its members support the bitwise
+   operators "&" (*AND*), "|" (*OR*), "^" (*XOR*), and "~" (*INVERT*);
+   the results of those operations are (aliases of) members of the

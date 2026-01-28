@@ -1,0 +1,6 @@
+provides a simple interface to pickle and unpickle objects on DBM-
+  style database files.
+Module Interface
+================
+To serialize an object hierarchy, you simply call the "dumps()"
+function. Similarly, to de-serialize a data stream, you call the

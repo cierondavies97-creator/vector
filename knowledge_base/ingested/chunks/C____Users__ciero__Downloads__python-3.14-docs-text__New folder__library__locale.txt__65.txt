@@ -1,0 +1,5 @@
+a locale-specific era-based way.
+   locale.ALT_DIGITS
+      Get a string consisting of up to 100 semicolon-separated symbols
+      used to represent the values 0 to 99 in a locale-specific way.
+      In most locales this is an empty string.

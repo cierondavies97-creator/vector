@@ -1,0 +1,4 @@
+acquire(block=True, timeout=None)
+      Acquire a lock, blocking or non-blocking.
+      When invoked with the *block* argument set to "True", block
+      until the lock is in an unlocked state (not owned by any process

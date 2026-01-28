@@ -1,0 +1,5 @@
+stored.
+         * **blocksize** (*int*) -- The read block size. Defaults to
+           "8192".
+         * **callback** (*callable*) -- A single parameter callable
+           that is called for each block of data sent, with its single

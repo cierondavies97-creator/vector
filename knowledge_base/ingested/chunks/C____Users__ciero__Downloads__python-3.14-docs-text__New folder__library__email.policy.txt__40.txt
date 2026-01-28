@@ -1,0 +1,5 @@
+using the email library to create policy instances with custom
+   settings:
+   clone(**kw)
+      Return a new "Policy" instance whose attributes have the same
+      values as the current instance, except where those attributes

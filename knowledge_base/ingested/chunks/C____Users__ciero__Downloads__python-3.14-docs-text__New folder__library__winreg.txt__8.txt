@@ -1,0 +1,5 @@
+the function.
+   If the key already exists, this function opens the existing key.
+   The return value is the handle of the opened key. If the function
+   fails, an "OSError" exception is raised.
+   Raises an auditing event "winreg.CreateKey" with arguments "key",

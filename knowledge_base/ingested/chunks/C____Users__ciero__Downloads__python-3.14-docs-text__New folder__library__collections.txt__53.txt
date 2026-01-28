@@ -1,0 +1,7 @@
+>>> c.total()
+      15
+      Added in version 3.10.
+   The usual dictionary methods are available for "Counter" objects
+   except for two which work differently for counters.
+   fromkeys(iterable)
+      This class method is not implemented for "Counter" objects.

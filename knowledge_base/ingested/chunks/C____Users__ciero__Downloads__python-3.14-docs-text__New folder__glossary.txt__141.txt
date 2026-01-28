@@ -1,0 +1,5 @@
+mode, see Interactive Mode.
+interpreted
+   Python is an interpreted language, as opposed to a compiled one,
+   though the distinction can be blurry because of the presence of the
+   bytecode compiler.  This means that source files can be run

@@ -1,0 +1,5 @@
+quantity_on_hand=10)".
+     If the class already defines "__repr__()", this parameter is
+     ignored.
+   * *eq*: If true (the default), an "__eq__()" method will be
+     generated.  This method compares the class as if it were a tuple

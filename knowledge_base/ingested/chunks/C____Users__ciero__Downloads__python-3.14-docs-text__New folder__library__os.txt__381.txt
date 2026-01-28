@@ -1,0 +1,4 @@
+the result.
+   "os.DirEntry" instances are not intended to be stored in long-lived
+   data structures; if you know the file metadata has changed or if a
+   long time has elapsed since calling "scandir()", call

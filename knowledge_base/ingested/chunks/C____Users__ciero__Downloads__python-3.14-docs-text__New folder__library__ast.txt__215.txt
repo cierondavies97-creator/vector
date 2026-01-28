@@ -1,0 +1,5 @@
+optional_vars=Name(id='d', ctx=Store()))],
+                  body=[
+                      Expr(
+                          value=Call(
+                              func=Name(id='something', ctx=Load()),

@@ -1,0 +1,5 @@
+authentication, but your mileage might vary.
+   Changed in version 3.9: The optional *timeout* parameter was added.
+A nice selection of exceptions is defined as well:
+exception smtplib.SMTPException
+   Subclass of "OSError" that is the base exception class for all the

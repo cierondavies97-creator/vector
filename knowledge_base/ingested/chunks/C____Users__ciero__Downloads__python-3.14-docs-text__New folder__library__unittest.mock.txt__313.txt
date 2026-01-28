@@ -1,0 +1,6 @@
+['a', 'b', 'c']
+>>> list(mock)
+['a', 'b', 'c']
+If the return value *is* an iterator, then iterating over it once will
+consume it and subsequent iterations will result in an empty list:
+>>> mock.__iter__.return_value = iter(['a', 'b', 'c'])

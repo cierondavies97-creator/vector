@@ -1,0 +1,6 @@
+outside the document element).
+LexicalHandler.startDTD(name, public_id, system_id)
+   Reports the start of the DTD declarations if the document has an
+   associated DTD.
+LexicalHandler.endDTD()
+   Reports the end of DTD declaration.

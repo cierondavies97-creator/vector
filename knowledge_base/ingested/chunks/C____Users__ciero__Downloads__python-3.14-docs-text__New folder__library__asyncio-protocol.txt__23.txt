@@ -1,0 +1,5 @@
+if sock is not None:
+          print(sock.getsockopt(...))
+   Categories of information that can be queried on some transports:
+   * socket:
+     * "'peername'": the remote address to which the socket is

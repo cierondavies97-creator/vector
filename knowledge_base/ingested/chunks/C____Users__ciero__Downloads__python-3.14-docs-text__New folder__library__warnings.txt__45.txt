@@ -1,0 +1,5 @@
+after printing a message to "sys.stderr").
+Individual warnings filters are specified as a sequence of fields
+separated by colons:
+   action:message:category:module:line
+The meaning of each of these fields is as described in The Warnings

@@ -1,0 +1,5 @@
+Name Indication* extension (as defined in **RFC 6066**).
+   Added in version 3.2.
+ssl.HAS_NPN
+   Whether the OpenSSL library has built-in support for the *Next
+   Protocol Negotiation* as described in the Application Layer

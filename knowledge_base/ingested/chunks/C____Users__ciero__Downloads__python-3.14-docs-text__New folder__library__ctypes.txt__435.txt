@@ -1,0 +1,5 @@
+size
+      For non-bitfields, equivalent to "byte_size".
+      For bitfields, this contains a backwards-compatible bit-packed
+      value that combines "bit_size" and "bit_offset". Prefer using
+      the explicit attributes instead.

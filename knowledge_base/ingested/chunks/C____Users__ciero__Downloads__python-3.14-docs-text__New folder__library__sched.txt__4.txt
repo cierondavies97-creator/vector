@@ -1,0 +1,7 @@
+optional.
+   Changed in version 3.3: "scheduler" class can be safely used in
+   multi-threaded environments.
+Example:
+   >>> import sched, time
+   >>> s = sched.scheduler(time.time, time.sleep)
+   >>> def print_time(a='default'):

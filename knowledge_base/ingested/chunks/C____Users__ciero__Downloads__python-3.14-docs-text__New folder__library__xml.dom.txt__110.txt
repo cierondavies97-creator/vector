@@ -1,0 +1,5 @@
+of "Node", but cannot have child nodes.
+Comment.data
+   The content of the comment as a string.  The attribute contains all
+   characters between the leading "<!-""-" and trailing "-""->", but
+   does not include them.

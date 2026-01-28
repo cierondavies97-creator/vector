@@ -1,0 +1,4 @@
+server is passive, send an "EPSV" or "PASV" command, connect to
+      it, and start the transfer command.  Either way, return the
+      socket for the connection.
+      If optional *rest* is given, a "REST" command is sent to the

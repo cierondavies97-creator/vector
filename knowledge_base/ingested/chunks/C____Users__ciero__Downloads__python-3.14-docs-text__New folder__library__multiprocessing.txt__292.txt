@@ -1,0 +1,4 @@
+Manager processes will be shutdown as soon as they are garbage
+collected or their parent process exits.  The manager classes are
+defined in the "multiprocessing.managers" module:
+class multiprocessing.managers.BaseManager(address=None, authkey=None, serializer='pickle', ctx=None, *, shutdown_timeout=1.0)

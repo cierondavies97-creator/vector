@@ -1,0 +1,5 @@
+"64-bitness" of the current interpreter, it is more reliable to
+     query the "sys.maxsize" attribute:
+        is_64bits = sys.maxsize > 2**32
+platform.machine()
+   Returns the machine type, e.g. "'AMD64'". An empty string is

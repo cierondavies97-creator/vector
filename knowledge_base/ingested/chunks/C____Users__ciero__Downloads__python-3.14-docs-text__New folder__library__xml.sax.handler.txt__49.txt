@@ -1,0 +1,3 @@
+older interface, the simpler signature was chosen to replace it.
+     To convert old code to the new interface, use *content* instead
+     of slicing content with the old *offset* and *length* parameters.

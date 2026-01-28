@@ -1,0 +1,3 @@
+| a='lambda' [lambda_params] b=':' &FSTRING_MIDDLE  {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "f-string: lambda expressions are not allowed without parentheses") }
+      | a='lambda' [lambda_params] b=':' &TSTRING_MIDDLE  {

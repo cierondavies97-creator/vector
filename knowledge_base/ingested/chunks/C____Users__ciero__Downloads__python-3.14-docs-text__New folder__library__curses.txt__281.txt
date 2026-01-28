@@ -1,0 +1,5 @@
+no graphic available, curses falls back on a crude printable ASCII
+approximation.
+Note:
+  These are available only after "initscr()" has  been called.
++--------------------------+--------------------------------------------+

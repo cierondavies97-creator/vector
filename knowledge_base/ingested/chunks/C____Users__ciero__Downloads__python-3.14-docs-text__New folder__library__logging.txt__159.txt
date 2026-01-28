@@ -1,0 +1,4 @@
+time something is logged, and can be created manually via
+"makeLogRecord()" (for example, from a pickled event received over the
+wire).
+class logging.LogRecord(name, level, pathname, lineno, msg, args, exc_info, func=None, sinfo=None)

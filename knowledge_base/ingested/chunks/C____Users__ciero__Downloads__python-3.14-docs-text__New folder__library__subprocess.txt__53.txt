@@ -1,0 +1,6 @@
+"shell=True".
+These options, along with all of the other options, are described in
+more detail in the "Popen" constructor documentation.
+Popen Constructor
+-----------------
+The underlying process creation and management in this module is

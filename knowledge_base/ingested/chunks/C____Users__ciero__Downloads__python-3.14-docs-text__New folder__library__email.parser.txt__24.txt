@@ -1,0 +1,4 @@
+strings, and header-only parsers, "BytesHeaderParser" and
+"HeaderParser", which can be used if you're only interested in the
+headers of the message.  "BytesHeaderParser" and "HeaderParser" can be
+much faster in these situations, since they do not attempt to parse

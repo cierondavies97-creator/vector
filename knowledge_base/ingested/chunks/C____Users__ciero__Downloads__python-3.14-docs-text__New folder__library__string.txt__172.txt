@@ -1,0 +1,3 @@
+* *braceidpattern* -- This is like *idpattern* but describes the
+  pattern for braced placeholders.  Defaults to "None" which means to
+  fall back to *idpattern* (i.e. the same pattern is used both inside

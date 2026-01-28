@@ -1,0 +1,4 @@
+as soon as the function is entered.
+pdb.set_trace(*, header=None, commands=None)
+   Enter the debugger at the calling stack frame.  This is useful to
+   hard-code a breakpoint at a given point in a program, even if the

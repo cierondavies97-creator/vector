@@ -1,0 +1,5 @@
+of the passed in arguments.
+      There is no default implementation
+   header_fetch_parse(name, value)
+      The email package calls this method with the *name* and *value*
+      currently stored in the "Message" when that header is requested

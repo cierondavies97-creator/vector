@@ -1,0 +1,5 @@
+yield element
+                  next_i += step
+   If the input is an iterator, then fully consuming the *islice*
+   advances the input iterator by "max(start, stop)" steps regardless
+   of the *step* value.

@@ -1,0 +1,5 @@
+module-level functions.
+logging.getLogger(name=None)
+   Return a logger with the specified name or, if name is "None",
+   return the root logger of the hierarchy. If specified, the name is
+   typically a dot-separated hierarchical name like *'a'*, *'a.b'* or

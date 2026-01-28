@@ -1,0 +1,4 @@
+(if any are defined), and another to set attributes (if setting
+attributes is allowed).  Removing an attribute is a special case, for
+which the new value passed to the handler is "NULL".
+Python supports two pairs of attribute handlers; a type that supports

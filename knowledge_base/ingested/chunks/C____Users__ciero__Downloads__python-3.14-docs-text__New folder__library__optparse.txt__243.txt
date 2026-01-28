@@ -1,0 +1,5 @@
+Cleanup
+-------
+OptionParser instances have several cyclic references.  This should
+not be a problem for Python's garbage collector, but you may wish to
+break the cyclic references explicitly by calling "destroy()" on your

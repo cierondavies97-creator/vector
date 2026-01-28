@@ -1,0 +1,5 @@
+It defines the following items:
+grp.getgrgid(id)
+   Return the group database entry for the given numeric group ID.
+   "KeyError" is raised if the entry asked for cannot be found.
+   Changed in version 3.10: "TypeError" is raised for non-integer

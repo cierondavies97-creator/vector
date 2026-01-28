@@ -1,0 +1,6 @@
+message/delivery-status
+                 text/plain
+                 text/plain
+             message/rfc822
+                 text/plain
+      Here the "message" parts are not "multiparts", but they do

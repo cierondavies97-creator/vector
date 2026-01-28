@@ -1,0 +1,4 @@
+"PyArg_ParseTuple()" function.  The *kwdict* parameter is the
+dictionary of keywords received as the third parameter from the Python
+runtime.  The *kwlist* parameter is a "NULL"-terminated list of
+strings which identify the parameters; the names are matched with the

@@ -1,0 +1,3 @@
+internally set in non-blocking mode.  Also, the blocking and timeout
+  modes are shared between file descriptors and socket objects that
+  refer to the same network endpoint. This implementation detail can

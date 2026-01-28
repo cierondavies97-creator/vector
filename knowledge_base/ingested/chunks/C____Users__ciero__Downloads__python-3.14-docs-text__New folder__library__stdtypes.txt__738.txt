@@ -1,0 +1,5 @@
+the memory as an N-dimensional array.
+         Changed in version 3.3: An empty tuple instead of "None" when
+         ndim = 0.
+      strides
+         A tuple of integers the length of "ndim" giving the size in

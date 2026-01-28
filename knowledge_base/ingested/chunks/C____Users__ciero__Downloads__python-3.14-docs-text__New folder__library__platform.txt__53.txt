@@ -1,0 +1,4 @@
+equivalent to calling "platform.platform()" with the *aliased*
+   argument set to "True".
+You can also pass one or more positional arguments ("terse",
+"nonaliased") to explicitly control the output format. These behave

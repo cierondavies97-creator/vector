@@ -1,0 +1,6 @@
+or unchanged (*changed*"=False").
+window.touchwin()
+   Pretend the whole window has been changed, for purposes of drawing
+   optimizations.
+window.untouchwin()
+   Mark all lines in  the  window  as unchanged since the last call to

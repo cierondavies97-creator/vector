@@ -1,0 +1,4 @@
+format_spec=JoinedStr(
+                          values=[
+                              Constant(value='ordinal')]))]))
+class ast.Interpolation(value, str, conversion, format_spec=None)

@@ -1,0 +1,6 @@
+Describes the XML-RPC protocol extension for introspection.
+  XML-RPC Specification
+     The official specification.
+ServerProxy Objects
+===================
+A "ServerProxy" instance has a method corresponding to each remote

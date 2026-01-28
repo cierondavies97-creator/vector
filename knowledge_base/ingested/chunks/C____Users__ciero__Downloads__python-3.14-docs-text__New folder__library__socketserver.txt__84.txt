@@ -1,0 +1,3 @@
+received so far from the client. TCP is stream based: data arrives in
+the order it was sent, but there is no correlation between client
+"send()" or "sendall()" calls and the number of "recv()" calls on the

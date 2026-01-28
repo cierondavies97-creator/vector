@@ -1,0 +1,3 @@
+should be presented, including such details as field width, alignment,
+padding, decimal precision and so on.  Each value type can define its
+own "formatting mini-language" or interpretation of the *format_spec*.

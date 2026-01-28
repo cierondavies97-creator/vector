@@ -1,0 +1,5 @@
+* "chunk" --- Read IFF chunked data
+* "crypt" --- Function to check Unix passwords
+* "distutils" --- Building and installing Python modules
+* "imghdr" --- Determine the type of an image
+* "imp" --- Access the import internals

@@ -1,0 +1,3 @@
+of the warning message must match, case-insensitively.  In "-W" and
+  "PYTHONWARNINGS", *message* is a literal string that the start of
+  the warning message must contain (case-insensitively), ignoring any

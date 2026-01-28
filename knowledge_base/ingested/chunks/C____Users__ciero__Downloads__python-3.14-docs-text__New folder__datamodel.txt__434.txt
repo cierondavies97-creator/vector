@@ -1,0 +1,5 @@
+"A.__dict__['x'].__get__(None, A)".
+Super Binding
+   A dotted lookup such as "super(A, a).x" searches
+   "a.__class__.__mro__" for a base class "B" following "A" and then
+   returns "B.__dict__['x'].__get__(a, A)".  If not a descriptor, "x"

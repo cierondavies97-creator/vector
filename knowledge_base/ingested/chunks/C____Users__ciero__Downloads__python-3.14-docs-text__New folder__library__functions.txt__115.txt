@@ -1,0 +1,6 @@
+now be passed as keywords.
+   Changed in version 3.13: The semantics of the default *locals*
+   namespace have been adjusted as described for the "locals()"
+   builtin.
+filter(function, iterable, /)
+   Construct an iterator from those elements of *iterable* for which

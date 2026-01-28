@@ -1,0 +1,4 @@
+-------------------------------
+As mentioned above, when doing concurrent programming it is usually
+best to avoid using shared state as far as possible.  This is
+particularly true when using multiple processes.

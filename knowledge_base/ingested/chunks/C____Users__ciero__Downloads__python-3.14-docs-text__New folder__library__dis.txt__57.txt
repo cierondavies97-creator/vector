@@ -1,0 +1,4 @@
+error for opcodes that use their arg. It is also no longer an error
+   to pass an integer "oparg" when the "opcode" does not use it; the
+   "oparg" in this case is ignored.
+Python Bytecode Instructions

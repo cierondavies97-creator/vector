@@ -1,0 +1,4 @@
+not catching the exception), "close()" returns "None".  If the
+   generator yields a value, a "RuntimeError" is raised.  If the
+   generator raises any other exception, it is propagated to the
+   caller.  If the generator has already exited due to an exception or

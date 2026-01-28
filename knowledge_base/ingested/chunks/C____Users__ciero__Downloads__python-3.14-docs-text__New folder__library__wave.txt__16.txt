@@ -1,0 +1,3 @@
+be updated to reflect the number of frames actually written.  For
+   unseekable streams, the *nframes* value must be accurate when the
+   first frame data is written.  An accurate *nframes* value can be

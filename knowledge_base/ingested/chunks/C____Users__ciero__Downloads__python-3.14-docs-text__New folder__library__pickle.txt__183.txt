@@ -1,0 +1,5 @@
+with memoryview(obj) as m:
+               # Get a handle over the original buffer object
+               obj = m.obj
+               if type(obj) is cls:
+                   # Original buffer object is a ZeroCopyByteArray, return it

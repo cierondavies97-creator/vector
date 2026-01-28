@@ -1,0 +1,3 @@
+constructor. The connection objects established by this method will
+   be used in the "IMAP4.read()", "IMAP4.readline()", "IMAP4.send()",
+   and "IMAP4.shutdown()" methods. You may override this method.

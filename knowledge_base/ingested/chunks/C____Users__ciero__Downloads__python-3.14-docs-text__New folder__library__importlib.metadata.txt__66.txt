@@ -1,0 +1,4 @@
+interface expected of finders by Python's import system.
+"importlib.metadata" extends this protocol by looking for an optional
+"find_distributions" callable on the finders from "sys.meta_path" and
+presents this extended interface as the "DistributionFinder" abstract

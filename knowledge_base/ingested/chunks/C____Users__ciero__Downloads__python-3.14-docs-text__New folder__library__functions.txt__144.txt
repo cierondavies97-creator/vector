@@ -1,0 +1,4 @@
+help page is printed on the console.  If the argument is any other
+   kind of object, a help page on the object is generated.
+   Note that if a slash(/) appears in the parameter list of a function
+   when invoking "help()", it means that the parameters prior to the

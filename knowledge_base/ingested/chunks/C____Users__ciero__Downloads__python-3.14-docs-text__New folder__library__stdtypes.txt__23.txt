@@ -1,0 +1,5 @@
+in", are supported by types that are *iterable* or implement the
+"__contains__()" method.
+Numeric Types --- "int", "float", "complex"
+===========================================
+There are three distinct numeric types: *integers*, *floating-point

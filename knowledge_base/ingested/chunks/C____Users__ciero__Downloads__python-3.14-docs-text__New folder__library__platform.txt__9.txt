@@ -1,0 +1,4 @@
+The output is intended to be *human readable* rather than machine
+   parseable. It may look different on different platforms and this is
+   intended.
+   If *aliased* is true, the function will use aliases for various

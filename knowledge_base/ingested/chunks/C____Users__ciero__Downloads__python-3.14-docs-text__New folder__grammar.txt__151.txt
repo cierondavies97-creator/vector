@@ -1,0 +1,7 @@
+group[expr_ty]:
+       | '(' a=(yield_expr | named_expression) ')' { a }
+       | invalid_group
+   # Lambda functions
+   # ----------------
+   lambdef[expr_ty]:
+       | 'lambda' a=[lambda_params] ':' b=expression {

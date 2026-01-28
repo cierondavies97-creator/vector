@@ -1,0 +1,5 @@
+tup: tuple[*Ts]
+      # Effectively does:
+      tup: tuple[Unpack[Ts]]
+   In fact, "Unpack" can be used interchangeably with "*" in the
+   context of "typing.TypeVarTuple" and "builtins.tuple" types. You

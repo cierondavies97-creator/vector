@@ -1,0 +1,6 @@
+information on POP3 server variations and RFC noncompliance that
+     may be useful if you need to write an application based on the
+     POP protocol.
+POP3 Objects
+============
+All POP3 commands are represented by methods of the same name, in

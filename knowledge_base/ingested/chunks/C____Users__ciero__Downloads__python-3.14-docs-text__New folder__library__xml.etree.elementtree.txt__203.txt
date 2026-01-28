@@ -1,0 +1,6 @@
+*text*. If "insert_pis" is true, this will also add it to the
+      tree.
+      Added in version 3.8.
+   In addition, a custom "TreeBuilder" object can provide the
+   following methods:
+   doctype(name, pubid, system)

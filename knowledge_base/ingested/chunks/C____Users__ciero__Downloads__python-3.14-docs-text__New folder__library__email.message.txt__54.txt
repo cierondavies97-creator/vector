@@ -1,0 +1,3 @@
+Replace a header.  Replace the first header found in the message
+      that matches *_name*, retaining header order and field name case
+      of the original header.  If no matching header is found, raise a

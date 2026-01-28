@@ -1,0 +1,5 @@
+Create a decompressor object, which can be used to decompress data
+   incrementally.
+   For a more convenient way of decompressing an entire compressed
+   stream at once, see "decompress()".
+   The *format* argument specifies the container format that should be

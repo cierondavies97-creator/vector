@@ -1,0 +1,2 @@
+| "BufferedIOBase"          | "IOBase"           | "detach", "read",        | Inherited "IOBase" methods, "readinto", and        |
+|                           |                    | "read1", and "write"     | "readinto1"                                        |

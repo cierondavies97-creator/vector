@@ -1,0 +1,5 @@
+asynchronous iterable
+   An object, that can be used in an "async for" statement. Must
+   return an *asynchronous iterator* from its "__aiter__()" method.
+   Introduced by **PEP 492**.
+asynchronous iterator

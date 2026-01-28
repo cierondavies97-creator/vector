@@ -1,0 +1,4 @@
+called, an iterable or an exception (class or instance) to be
+      raised.
+      If you pass in a function it will be called with same arguments
+      as the mock and unless the function returns the "DEFAULT"

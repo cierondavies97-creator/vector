@@ -1,0 +1,4 @@
+last executed yield expression.  When a generator function is
+   resumed with a "__next__()" method, the current yield expression
+   always evaluates to "None".  The execution then continues to the
+   next yield expression, where the generator is suspended again, and

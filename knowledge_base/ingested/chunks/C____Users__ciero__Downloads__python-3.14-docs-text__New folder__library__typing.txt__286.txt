@@ -1,0 +1,5 @@
+...
+          callback(*args)
+   In contrast to non-unpacked annotations of "*args" - e.g. "*args:
+   int", which would specify that *all* arguments are "int" - "*args:
+   *Ts" enables reference to the types of the *individual* arguments

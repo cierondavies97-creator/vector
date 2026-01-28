@@ -1,0 +1,11 @@
+"""Beginning of
+      docstring
+   or:
+      [1,
+       2,
+       3
+Command-Line Usage
+==================
+Added in version 3.3.
+The "tokenize" module can be executed as a script from the command
+line. It is as simple as:

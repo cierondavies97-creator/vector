@@ -1,0 +1,4 @@
+the name after the "as"; very useful if "patch()" is creating a
+   mock object for you.
+   "patch()" takes arbitrary keyword arguments. These will be passed
+   to "AsyncMock" if the patched object is asynchronous, to

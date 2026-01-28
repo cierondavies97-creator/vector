@@ -1,0 +1,4 @@
+statements).  When the *asynchronous generator iterator*
+   effectively resumes with another awaitable returned by
+   "__anext__()", it picks up where it left off.  See **PEP 492** and
+   **PEP 525**.

@@ -1,0 +1,4 @@
+document, you are just out of luck.
+Some applications are simply impossible in an event driven model with
+no access to a tree.  Of course you could build some sort of tree
+yourself in SAX events, but the DOM allows you to avoid writing that

@@ -1,0 +1,4 @@
+memory, no matter the size of the range it represents (as it only
+stores the "start", "stop" and "step" values, calculating individual
+items and subranges as needed).
+Range objects implement the "collections.abc.Sequence" ABC, and

@@ -1,0 +1,3 @@
+help="""Print the composed message to FILE instead of
+                           sending the message to the SMTP server.""")
+       parser.add_argument('-s', '--sender', required=True,

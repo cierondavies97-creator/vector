@@ -1,0 +1,6 @@
+Added in version 3.5.
+One-shot (de)compression
+========================
+bz2.compress(data, compresslevel=9)
+   Compress *data*, a *bytes-like object*.
+   *compresslevel*, if given, must be an integer between "1" and "9".

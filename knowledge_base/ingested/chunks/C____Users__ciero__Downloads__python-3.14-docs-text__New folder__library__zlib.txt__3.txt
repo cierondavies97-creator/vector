@@ -1,0 +1,5 @@
+information.
+For reading and writing ".gz" files see the "gzip" module.
+The available exception and functions in this module are:
+exception zlib.error
+   Exception raised on compression and decompression errors.

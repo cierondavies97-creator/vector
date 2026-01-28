@@ -1,0 +1,3 @@
+====================================================================
+When implementing coroutine schedulers and for other advanced uses of
+generators, it is useful to determine whether a generator is currently

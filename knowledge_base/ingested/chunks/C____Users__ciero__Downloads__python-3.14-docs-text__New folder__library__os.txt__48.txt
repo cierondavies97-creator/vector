@@ -1,0 +1,3 @@
+exists, or *default* if it doesn't. *key* must be bytes. Note that
+   since "getenvb()" uses "os.environb", the mapping of "getenvb()" is
+   similarly also captured on import, and the function may not reflect

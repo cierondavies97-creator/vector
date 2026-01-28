@@ -1,0 +1,7 @@
+b'Strict-Transport-Security: max-age=63072000; includeSubDomains',
+    b'Connection: close',
+    b'',
+    b'']
+See the discussion of Security considerations below.
+Server-side operation
+---------------------

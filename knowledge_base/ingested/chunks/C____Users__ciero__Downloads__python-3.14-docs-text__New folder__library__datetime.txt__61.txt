@@ -1,0 +1,3 @@
+"timedelta" object by another "timedelta" object are now supported, as
+are remainder operations and the "divmod()" function. True division
+and multiplication of a "timedelta" object by a "float" object are now

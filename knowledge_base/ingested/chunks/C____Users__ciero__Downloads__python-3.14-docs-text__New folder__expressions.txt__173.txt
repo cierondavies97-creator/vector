@@ -1,0 +1,4 @@
+"f(x1, x2, *y, x3, x4)", if *y* evaluates to a sequence *y1*, ...,
+*yM*, this is equivalent to a call with M+4 positional arguments *x1*,
+*x2*, *y1*, ..., *yM*, *x3*, *x4*.
+A consequence of this is that although the "*expression" syntax may

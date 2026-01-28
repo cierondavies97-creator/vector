@@ -1,0 +1,6 @@
+| invalid_for_target
+   # With statement
+   # --------------
+   with_stmt[stmt_ty]:
+       | invalid_with_stmt_indent
+       | 'with' '(' a[asdl_withitem_seq*]=','.with_item+ ','? ')' ':' tc=[TYPE_COMMENT] b=block {

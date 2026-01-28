@@ -1,0 +1,4 @@
+for performance and latency reasons.
+      When in non-blocking mode, a "BlockingIOError" is raised if the
+      data needed to be written to the raw stream but it couldn't
+      accept all the data without blocking.

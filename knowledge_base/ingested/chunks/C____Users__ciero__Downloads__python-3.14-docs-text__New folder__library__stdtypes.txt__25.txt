@@ -1,0 +1,4 @@
+the precision and internal representation of floating-point numbers
+for the machine on which your program is running is available in
+"sys.float_info".  Complex numbers have a real and imaginary part,
+which are each a floating-point number.  To extract these parts from a

@@ -1,0 +1,5 @@
+class collections.abc.Awaitable
+   ABC for *awaitable* objects, which can be used in "await"
+   expressions.  Custom implementations must provide the "__await__()"
+   method.
+   *Coroutine* objects and instances of the "Coroutine" ABC are all

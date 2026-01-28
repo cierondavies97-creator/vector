@@ -1,0 +1,4 @@
+writeable respectively.  If the *buffer_size* is omitted it
+   defaults to "DEFAULT_BUFFER_SIZE".
+   "BufferedRWPair" implements all of "BufferedIOBase"'s methods
+   except for "detach()", which raises "UnsupportedOperation".

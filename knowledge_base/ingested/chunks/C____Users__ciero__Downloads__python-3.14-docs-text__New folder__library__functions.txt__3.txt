@@ -1,0 +1,2 @@
+| "ascii()"  **B** "bin()"  | **F** "filter()"        | "map()" "max()"         | **S** "set()" "setattr()" |
+| "bool()" "breakpoint()"   | "float()" "format()"    | "memoryview()" "min()"  | "slice()" "sorted()"      |

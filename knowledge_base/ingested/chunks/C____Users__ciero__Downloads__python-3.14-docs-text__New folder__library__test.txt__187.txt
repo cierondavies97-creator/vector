@@ -1,0 +1,4 @@
+dictionary interface for querying/modifying the underlying
+   "os.environ". After exit from the context manager all changes to
+   environment variables done through this instance will be rolled
+   back.

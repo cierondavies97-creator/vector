@@ -1,0 +1,2 @@
+| method.__module__                                  | The name of the module the method was defined in,  |
+|                                                    | or "None" if unavailable.                          |

@@ -1,0 +1,7 @@
+s.add('b')
+      if __name__ == '__main__':
+          with Manager() as manager:
+              d = manager.dict()
+              l = manager.list(range(10))
+              s = manager.set()
+              p = Process(target=f, args=(d, l, s))

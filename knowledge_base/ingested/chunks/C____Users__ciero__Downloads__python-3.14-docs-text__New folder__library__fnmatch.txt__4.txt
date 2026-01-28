@@ -1,0 +1,4 @@
++--------------+--------------------------------------+
+For a literal match, wrap the meta-characters in brackets. For
+example, "'[?]'" matches the character "'?'".
+Note that the filename separator ("'/'" on Unix) is *not* special to

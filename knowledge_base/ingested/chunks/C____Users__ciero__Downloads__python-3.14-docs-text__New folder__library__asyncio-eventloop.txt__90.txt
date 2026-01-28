@@ -1,0 +1,4 @@
+"getaddrinfo()".
+   * *family*, *proto*, *flags* are the optional address family,
+     protocol and flags to be passed through to "getaddrinfo()" for
+     *host* resolution. If given, these should all be integers from

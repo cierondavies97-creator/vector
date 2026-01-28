@@ -1,0 +1,5 @@
+* "http.cookies" has utilities for implementing state management with
+  cookies
+* "http.cookiejar" provides persistence of cookies
+The "http" module also defines the following enums that help you work
+with http related code:

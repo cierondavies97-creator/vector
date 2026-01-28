@@ -1,0 +1,4 @@
+carried out to greater precision.  Since their magnitude is zero, both
+positive and negative zeros are treated as equal and their sign is
+informational.
+In addition to the two signed zeros which are distinct yet equal,

@@ -1,0 +1,4 @@
+print(row)
+   print("I just deleted", con.execute("DELETE FROM lang").rowcount, "rows")
+   # close() is not a shortcut method and it's not called automatically;
+   # the connection object should be closed manually

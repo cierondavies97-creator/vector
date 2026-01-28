@@ -1,0 +1,5 @@
+Note:
+     Read the Security Considerations section before using
+     "shell=True".
+   *bufsize* will be supplied as the corresponding argument to the
+   "open()" function when creating the stdin/stdout/stderr pipe file

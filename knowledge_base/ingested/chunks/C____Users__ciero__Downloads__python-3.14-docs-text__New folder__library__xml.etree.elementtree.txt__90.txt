@@ -1,0 +1,4 @@
+creating comment objects for them. An "ElementTree" will only
+   contain comment nodes if they have been inserted into to the tree
+   using one of the "Element" methods.
+xml.etree.ElementTree.dump(elem)

@@ -1,0 +1,5 @@
+"xml.sax" --- Support for SAX2 parsers
+**************************************
+**Source code:** Lib/xml/sax/__init__.py
+======================================================================
+The "xml.sax" package provides a number of modules which implement the

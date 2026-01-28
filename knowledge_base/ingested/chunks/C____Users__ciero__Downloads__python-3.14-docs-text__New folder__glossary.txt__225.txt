@@ -1,0 +1,3 @@
+are marked provisional, backwards incompatible changes (up to and
+   including removal of the interface) may occur if deemed necessary
+   by core developers.  Such changes will not be made gratuitously --

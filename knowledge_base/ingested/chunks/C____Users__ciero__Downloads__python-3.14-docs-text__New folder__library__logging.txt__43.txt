@@ -1,0 +1,5 @@
+"__name__" rather than a literal string.
+      Added in version 3.2.
+   getChildren()
+      Returns a set of loggers which are immediate children of this
+      logger. So for example "logging.getLogger().getChildren()" might

@@ -1,0 +1,5 @@
+ABC for sized iterable container classes.
+   Added in version 3.6.
+class collections.abc.Iterator
+   ABC for classes that provide the "__iter__()" and "__next__()"
+   methods.  See also the definition of *iterator*.

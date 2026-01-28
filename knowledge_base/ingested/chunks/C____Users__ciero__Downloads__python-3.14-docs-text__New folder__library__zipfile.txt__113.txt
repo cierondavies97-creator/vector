@@ -1,0 +1,4 @@
+test/bogus/__init__.pyc      # Subpackage directory
+         test/bogus/myfile.pyc        # Submodule test.bogus.myfile
+      Changed in version 3.4: Added the *filterfunc* parameter.
+      Changed in version 3.6.2: The *pathname* parameter accepts a

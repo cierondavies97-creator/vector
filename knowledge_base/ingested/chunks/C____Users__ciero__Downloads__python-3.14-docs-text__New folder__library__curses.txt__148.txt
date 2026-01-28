@@ -1,0 +1,4 @@
+causes the window to be refreshed; you no longer have to call
+   "refresh()" yourself. However, it may degrade performance
+   considerably, due to repeated calls to wrefresh.  This option is
+   disabled by default.

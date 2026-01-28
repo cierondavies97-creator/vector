@@ -1,0 +1,7 @@
+optional.
+   reprfunc tp_repr;
+   reprfunc tp_str;
+The "tp_repr" handler should return a string object containing a
+representation of the instance for which it is called.  Here is a
+simple example:
+   static PyObject *

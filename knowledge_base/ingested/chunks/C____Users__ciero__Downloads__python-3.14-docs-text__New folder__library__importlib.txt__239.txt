@@ -1,0 +1,7 @@
+>>> #lazy_typing is a real module object,
+   >>> #but it is not loaded in memory yet.
+   >>> lazy_typing.TYPE_CHECKING
+   False
+Setting up an importer
+----------------------
+For deep customizations of import, you typically want to implement an

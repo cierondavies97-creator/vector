@@ -1,0 +1,6 @@
+(5, 5, 8)
+turtle.shearfactor(shear=None)
+   Parameters:
+      **shear** -- number (optional)
+   Set or return the current shearfactor. Shear the turtleshape
+   according to the given shearfactor shear, which is the tangent of

@@ -1,0 +1,7 @@
+Added in version 3.3.
+   name
+      The name of the module that this loader will handle.
+   path
+      The path to the source file.
+   is_package(fullname)
+      Return "True" if "path" appears to be for a package.

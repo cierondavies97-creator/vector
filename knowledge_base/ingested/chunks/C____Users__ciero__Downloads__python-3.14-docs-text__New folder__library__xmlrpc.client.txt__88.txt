@@ -1,0 +1,5 @@
+self._connection = host, connection
+           return connection
+   transport = ProxiedTransport()
+   transport.set_proxy('proxy-server', 8080)
+   server = xmlrpc.client.ServerProxy('http://betty.userland.com', transport=transport)

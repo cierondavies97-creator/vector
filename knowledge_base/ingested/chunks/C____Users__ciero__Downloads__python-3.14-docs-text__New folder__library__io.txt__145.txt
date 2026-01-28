@@ -1,0 +1,4 @@
+"TextIOBase".
+   *encoding* gives the name of the encoding that the stream will be
+   decoded or encoded with.  In UTF-8 Mode, this defaults to UTF-8.
+   Otherwise, it defaults to "locale.getencoding()".

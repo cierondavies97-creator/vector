@@ -1,0 +1,3 @@
+with respect to language operators.  For instance, if a class defines
+a method named "__getitem__()", and "x" is an instance of this class,
+then "x[i]" is roughly equivalent to "type(x).__getitem__(x, i)".

@@ -1,0 +1,8 @@
+>>> ftp.quit()
+   '221 Goodbye.'
+Reference
+=========
+FTP objects
+-----------
+class ftplib.FTP(host='', user='', passwd='', acct='', timeout=None, source_address=None, *, encoding='utf-8')
+   Return a new instance of the "FTP" class.

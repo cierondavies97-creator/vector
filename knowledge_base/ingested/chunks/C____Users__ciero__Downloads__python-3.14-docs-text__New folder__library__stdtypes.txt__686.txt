@@ -1,0 +1,7 @@
+as "hash(m) == hash(m.tobytes())":
+         >>> v = memoryview(b'abcefg')
+         >>> hash(v) == hash(b'abcefg')
+         True
+         >>> hash(v[2:4]) == hash(b'ce')
+         True
+         >>> hash(v[::-2]) == hash(b'abcefg'[::-2])

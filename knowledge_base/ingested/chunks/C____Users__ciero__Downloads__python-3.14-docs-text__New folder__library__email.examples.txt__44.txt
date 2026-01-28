@@ -1,0 +1,5 @@
+cid=asparagus_cid)
+   # Make a local copy of what we are going to send.
+   with open('outgoing.msg', 'wb') as f:
+       f.write(bytes(msg))
+   # Send the message via local SMTP server.

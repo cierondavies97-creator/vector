@@ -1,0 +1,3 @@
+On the first, uncached call, no system call is required in most
+      cases. Specifically, for non-symlinks, neither Windows or Unix
+      require a system call, except on certain Unix file systems, such

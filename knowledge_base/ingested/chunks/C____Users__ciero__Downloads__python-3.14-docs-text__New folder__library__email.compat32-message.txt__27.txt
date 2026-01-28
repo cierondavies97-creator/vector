@@ -1,0 +1,6 @@
+__bytes__()
+      Equivalent to "as_bytes()".  Allows "bytes(msg)" to produce a
+      bytes object containing the formatted message.
+      Added in version 3.4.
+   is_multipart()
+      Return "True" if the message's payload is a list of

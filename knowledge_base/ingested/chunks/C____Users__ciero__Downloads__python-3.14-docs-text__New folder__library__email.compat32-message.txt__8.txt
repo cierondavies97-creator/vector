@@ -1,0 +1,3 @@
+handling for non-ASCII input, but it doesn't always produce the
+correct results.  Headers are stored and returned in case-preserving
+form, but field names are matched case-insensitively.  There may also

@@ -1,0 +1,6 @@
+...
+>>> original = SomeClass.attribute
+>>> MyTest('test_something').test_something()
+>>> assert SomeClass.attribute == original
+If you want to patch with a Mock, you can use "patch()" with only one
+argument (or "patch.object()" with two arguments). The mock will be

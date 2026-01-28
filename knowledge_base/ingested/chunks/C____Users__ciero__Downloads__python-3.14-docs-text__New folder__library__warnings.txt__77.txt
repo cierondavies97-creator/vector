@@ -1,0 +1,3 @@
+environment. This enables default handling for all warnings, including
+those that are ignored by default. To change what action is taken for
+encountered warnings you can change what argument is passed to "-W"

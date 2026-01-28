@@ -1,0 +1,7 @@
+* "tokenize" --- Tokenizer for Python source
+  * Tokenizing Input
+  * Command-Line Usage
+  * Examples
+* "tabnanny" --- Detection of ambiguous indentation
+* "pyclbr" --- Python module browser support
+  * Function Objects

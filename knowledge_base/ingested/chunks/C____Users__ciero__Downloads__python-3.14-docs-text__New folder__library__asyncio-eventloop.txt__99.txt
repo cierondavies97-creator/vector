@@ -1,0 +1,3 @@
+Changed in version 3.11: The *reuse_address* parameter, disabled
+   since Python 3.8.1, 3.7.6 and 3.6.10, has been entirely removed.
+async loop.create_unix_connection(protocol_factory, path=None, *, ssl=None, sock=None, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None)

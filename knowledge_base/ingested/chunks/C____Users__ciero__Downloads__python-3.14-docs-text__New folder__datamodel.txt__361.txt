@@ -1,0 +1,4 @@
+method, to produce a "formatted" string representation of an
+   object. The *format_spec* argument is a string that contains a
+   description of the formatting options desired. The interpretation
+   of the *format_spec* argument is up to the type implementing

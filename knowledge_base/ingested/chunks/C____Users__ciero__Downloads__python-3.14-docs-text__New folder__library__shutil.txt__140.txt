@@ -1,0 +1,9 @@
+$ tree tmp
+   tmp
+   └── root
+       └── structure
+           ├── content
+               └── please_add.txt
+           └── do_not_add.txt
+In the final archive, "please_add.txt" should be included, but
+"do_not_add.txt" should not.  Therefore we use the following:

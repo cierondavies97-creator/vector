@@ -1,0 +1,4 @@
+is attached ("False").
+      * **size** (*int*) -- The requested number of bytes when
+        creating a new shared memory block. Because some platforms
+        choose to allocate chunks of memory based upon that platform's

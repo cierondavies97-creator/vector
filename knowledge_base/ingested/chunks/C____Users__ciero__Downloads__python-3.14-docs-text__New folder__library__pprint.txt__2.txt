@@ -1,0 +1,4 @@
+This may be the case if objects such as files, sockets or classes are
+included, as well as many other objects which are not representable as
+Python literals.
+The formatted representation keeps objects on a single line if it can,

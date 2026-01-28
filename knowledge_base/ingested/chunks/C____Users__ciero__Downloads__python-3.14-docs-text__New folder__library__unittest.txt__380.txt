@@ -1,0 +1,4 @@
+"__init__.py".)
+Because the pattern is passed into "load_tests" the package is free to
+continue (and potentially modify) test discovery. A 'do nothing'
+"load_tests" function for a test package would look like:

@@ -1,0 +1,5 @@
+}
+If no "tp_repr" handler is specified, the interpreter will supply a
+representation that uses the type's "tp_name" and a uniquely
+identifying value for the object.
+The "tp_str" handler is to "str()" what the "tp_repr" handler

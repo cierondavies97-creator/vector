@@ -1,0 +1,8 @@
+Added in version 3.11.
+   stack
+      A "StackSummary" representing the traceback.
+   exc_type
+      The class of the original traceback.
+      Deprecated since version 3.13.
+   exc_type_str
+      String display of the class of the original exception.

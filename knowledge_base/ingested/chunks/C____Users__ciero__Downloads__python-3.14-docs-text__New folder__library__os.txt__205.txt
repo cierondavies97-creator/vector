@@ -1,0 +1,5 @@
+length 0 (which can be used to check for errors without reading
+   data). Never returns negative.
+   Note:
+     This function is intended for low-level I/O and must be applied
+     to a file descriptor as returned by "os.open()" or "os.pipe()".

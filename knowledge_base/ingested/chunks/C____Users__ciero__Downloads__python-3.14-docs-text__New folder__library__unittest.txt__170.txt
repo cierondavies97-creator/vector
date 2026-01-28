@@ -1,0 +1,6 @@
+warning caught:
+         with self.assertWarns(SomeWarning) as cm:
+             do_something()
+         self.assertIn('myfile.py', cm.filename)
+         self.assertEqual(320, cm.lineno)
+      This method works regardless of the warning filters in place

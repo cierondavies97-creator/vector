@@ -1,0 +1,6 @@
+and external cancellations and correct preservation of cancellation
+counts.
+Terminating a Task Group
+------------------------
+While terminating a task group is not natively supported by the
+standard library, termination can be achieved by adding an exception-

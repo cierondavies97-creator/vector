@@ -1,0 +1,7 @@
+>>> mock.__setitem__.call_args_list
+[call('b', 'fish'), call('d', 'eggs')]
+>>> my_dict
+{'a': 1, 'b': 'fish', 'c': 3, 'd': 'eggs'}
+Mock subclasses and their attributes
+------------------------------------
+There are various reasons why you might want to subclass "Mock". One

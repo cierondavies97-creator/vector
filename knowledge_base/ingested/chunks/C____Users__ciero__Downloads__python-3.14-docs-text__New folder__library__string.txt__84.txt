@@ -1,0 +1,4 @@
+Changed in version 3.6: Added the "'_'" option (see also **PEP 515**).
+Changed in version 3.14: Support the *grouping* option for the
+fractional part.
+Finally, the *type* determines how the data should be presented.

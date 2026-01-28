@@ -1,0 +1,3 @@
+"PYTHONINTMAXSTRDIGITS" or "-X int_max_str_digits". If both the env
+  var and the "-X" option are set, the "-X" option takes precedence. A
+  value of *-1* indicates that both were unset, thus a value of

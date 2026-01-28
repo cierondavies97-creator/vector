@@ -1,0 +1,8 @@
+* MimeTypes objects
+  * Command-line usage
+  * Command-line example
+* "base64" --- Base16, Base32, Base64, Base85 Data Encodings
+  * RFC 4648 Encodings
+  * Base85 Encodings
+  * Legacy Interface
+  * Security Considerations

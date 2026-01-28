@@ -1,0 +1,11 @@
+True
+      >>> mock(3, 4)
+      >>> mock.call_args
+      call(3, 4)
+      >>> mock.call_args == ((3, 4),)
+      True
+      >>> mock.call_args.args
+      (3, 4)
+      >>> mock.call_args.kwargs
+      {}
+      >>> mock(3, 4, 5, key='fish', next='w00t!')

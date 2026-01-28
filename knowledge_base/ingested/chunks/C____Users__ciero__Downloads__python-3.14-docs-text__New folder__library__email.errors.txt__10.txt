@@ -1,0 +1,6 @@
+not.
+All defect classes are subclassed from "email.errors.MessageDefect".
+exception email.errors.NoBoundaryInMultipartDefect
+   A message claimed to be a multipart, but had no *boundary*
+   parameter.
+exception email.errors.StartBoundaryNotFoundDefect

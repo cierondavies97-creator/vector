@@ -1,0 +1,6 @@
+pass an integral event code, you might use the following code:
+   PyObject *arglist;
+   ...
+   arglist = Py_BuildValue("(l)", eventcode);
+   result = PyObject_CallObject(my_callback, arglist);
+   Py_DECREF(arglist);

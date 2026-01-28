@@ -1,0 +1,3 @@
+class typing.TypeVar(name, *constraints, bound=None, covariant=False, contravariant=False, infer_variance=False, default=typing.NoDefault)
+   Type variable.
+   The preferred way to construct a type variable is via the dedicated

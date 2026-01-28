@@ -1,0 +1,3 @@
+When the argument is bytes-like object, it represents a binary
+   structure, for example, created by "struct.pack()". A string value
+   is encoded to binary using the UTF-8 encoding. The binary data is

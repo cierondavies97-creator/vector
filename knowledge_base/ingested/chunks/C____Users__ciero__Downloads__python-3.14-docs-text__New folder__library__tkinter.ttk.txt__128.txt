@@ -1,0 +1,5 @@
+calls "Progressbar.step()" every *interval* milliseconds. If
+      omitted, *interval* defaults to 50 milliseconds.
+   step(amount=None)
+      Increments the progress bar's value by *amount*.
+      *amount* defaults to 1.0 if omitted.

@@ -1,0 +1,4 @@
+==============
+To begin the search, Python needs the *fully qualified* name of the
+module (or package, but for the purposes of this discussion, the
+difference is immaterial) being imported.  This name may come from

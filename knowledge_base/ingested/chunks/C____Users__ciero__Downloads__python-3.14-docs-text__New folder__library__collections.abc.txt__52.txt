@@ -1,0 +1,3 @@
+[2] Checking "isinstance(obj, Iterable)" detects classes that are
+    registered as "Iterable" or that have an "__iter__()" method, but
+    it does not detect classes that iterate with the "__getitem__()"

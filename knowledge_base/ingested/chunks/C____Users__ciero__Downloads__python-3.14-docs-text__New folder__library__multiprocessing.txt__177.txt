@@ -1,0 +1,4 @@
+"multiprocessing" module.
+   If *method* is "None" then the default context is returned. Note
+   that if the global start method has not been set, this will set it
+   to the system default See Global start method for more details.

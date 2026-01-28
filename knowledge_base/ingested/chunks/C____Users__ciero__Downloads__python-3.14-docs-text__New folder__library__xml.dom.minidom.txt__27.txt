@@ -1,0 +1,3 @@
+string in the specified encoding. With no *encoding* argument, the
+   result is a Unicode string, and the XML declaration in the
+   resulting string does not specify an encoding. Encoding this string

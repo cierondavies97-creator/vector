@@ -1,0 +1,5 @@
+Obvious Minimal Language, https://toml.io). This module does not
+support writing TOML.
+See also:
+  The Tomli-W package is a TOML writer that can be used in conjunction
+  with this module, providing a write API familiar to users of the

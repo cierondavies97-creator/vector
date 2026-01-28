@@ -1,0 +1,4 @@
+tables improve compression ratio of strategies <= "dfast", and
+      improve compression speed of strategies > "dfast".
+      A value of zero causes the value to be selected automatically.
+   chain_log

@@ -1,0 +1,4 @@
+the module is part of a package (i.e., its name contains a dot), the
+  name is *not* mangled, e.g., the "__foo" in "import __foo.bar" is
+  not mangled.
+* The name of an imported member, e.g., "__f" in "from spam import

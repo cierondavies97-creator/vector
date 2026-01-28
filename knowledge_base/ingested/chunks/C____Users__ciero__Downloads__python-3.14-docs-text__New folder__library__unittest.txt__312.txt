@@ -1,0 +1,5 @@
+this argument.
+      *start_dir* can be a dotted module name as well as a directory.
+      Added in version 3.2.
+      Changed in version 3.4: Modules that raise "SkipTest" on import
+      are recorded as skips, not errors.*start_dir* can be a

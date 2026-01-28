@@ -1,0 +1,6 @@
+literal.
+   **CPython implementation detail:** The token string includes the
+   prefix and the opening quote(s), but none of the contents of the
+   literal.
+   Added in version 3.14.
+token.TSTRING_MIDDLE

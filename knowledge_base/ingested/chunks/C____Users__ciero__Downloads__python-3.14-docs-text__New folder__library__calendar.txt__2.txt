@@ -1,0 +1,4 @@
+"setfirstweekday()" to set the first day of the week to Sunday (6) or
+to any other weekday.  Parameters that specify dates are given as
+integers. For related functionality, see also the "datetime" and
+"time" modules.

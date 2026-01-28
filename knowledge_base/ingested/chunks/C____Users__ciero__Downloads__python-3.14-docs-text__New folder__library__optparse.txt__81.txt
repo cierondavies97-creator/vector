@@ -1,0 +1,4 @@
+no long option strings, "optparse" looks at the first short option
+string: the default destination for "-f" is "f".
+"optparse" also includes the built-in "complex" type.  Adding types is
+covered in section Extending optparse.

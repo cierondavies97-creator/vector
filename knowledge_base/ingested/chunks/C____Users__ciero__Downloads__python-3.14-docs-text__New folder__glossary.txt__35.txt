@@ -1,0 +1,5 @@
+reference. The "Py_NewRef()" function can be used to create a new
+   *strong reference*.
+bytes-like object
+   An object that supports the Buffer Protocol and can export a
+   C-*contiguous* buffer. This includes all "bytes", "bytearray", and

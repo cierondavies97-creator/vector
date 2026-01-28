@@ -1,0 +1,5 @@
+the process. There is also the possibility for excessive CPU
+   consumption denial of service on some inputs. Calling it on
+   untrusted data is thus not recommended.
+   Warning:
+     It is possible to crash the Python interpreter due to stack depth

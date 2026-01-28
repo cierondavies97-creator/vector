@@ -1,0 +1,6 @@
+datetime.MINYEAR
+   The smallest year number allowed in a "date" or "datetime" object.
+   "MINYEAR" is 1.
+datetime.MAXYEAR
+   The largest year number allowed in a "date" or "datetime" object.
+   "MAXYEAR" is 9999.

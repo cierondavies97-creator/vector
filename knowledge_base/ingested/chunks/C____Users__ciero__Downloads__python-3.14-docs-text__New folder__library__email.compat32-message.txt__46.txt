@@ -1,0 +1,4 @@
+the "charset" parameter will be removed from the *Content-Type*
+      header (the message will not be otherwise modified).  Anything
+      else will generate a "TypeError".
+      If there is no existing *MIME-Version* header one will be added.

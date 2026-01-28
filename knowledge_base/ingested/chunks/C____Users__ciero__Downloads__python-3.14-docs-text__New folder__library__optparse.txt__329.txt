@@ -1,0 +1,3 @@
+integer for the latter).  Using "ensure_value()" means that scripts
+  using your action don't have to worry about setting a default value
+  for the option destinations in question; they can just leave the

@@ -1,0 +1,4 @@
+"array" --- Efficient arrays of numeric values
+**********************************************
+======================================================================
+This module defines an object type which can compactly represent an

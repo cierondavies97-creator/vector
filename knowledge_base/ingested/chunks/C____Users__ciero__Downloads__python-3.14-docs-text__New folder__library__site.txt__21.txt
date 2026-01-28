@@ -1,0 +1,4 @@
+"pythonw.exe" on Windows (which is used by default to start IDLE),
+attempted output from "sitecustomize" is ignored.  Any other exception
+causes a silent and perhaps mysterious failure of the process.
+"usercustomize"

@@ -1,0 +1,8 @@
+>>> class Worker(Process):
+   ...     def __init__(self, q):
+   ...         self.q = q
+   ...         super().__init__()
+   ...     def run(self):
+   ...         self.q.put('local hello')
+   ...
+   >>> queue = Queue()

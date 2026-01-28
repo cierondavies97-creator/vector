@@ -1,0 +1,6 @@
+later (in the "TYPE_CHECKER" class attribute of your Option subclass):
+   def check_complex(option, opt, value):
+       try:
+           return complex(value)
+       except ValueError:
+           raise OptionValueError(

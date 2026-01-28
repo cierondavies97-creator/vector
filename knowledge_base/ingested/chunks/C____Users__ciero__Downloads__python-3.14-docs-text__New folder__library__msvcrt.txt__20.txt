@@ -1,0 +1,6 @@
+build of Python.
+msvcrt.OUT_TO_STDERR
+   Error sink is a standard error. Only available in debug build of
+   Python.
+msvcrt.OUT_TO_MSGBOX
+   Error sink is a message box. Only available in debug build of

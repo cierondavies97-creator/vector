@@ -1,0 +1,4 @@
+the application to be a set of subroutines, and write some glue code
+that gives Python access to those routines, just like you would write
+a normal Python extension.  For example:
+   static int numargs=0;

@@ -1,0 +1,5 @@
+class, function or method defined in that module, as defined in
+   **PEP 3155**.  For top-level functions and classes, the qualified
+   name is the same as the object's name:
+      >>> class C:
+      ...     class D:

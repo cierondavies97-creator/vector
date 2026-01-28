@@ -1,0 +1,5 @@
+*optimize* is.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.7: The *invalidation_mode* parameter was
+   added.
+   Changed in version 3.7.2: The *invalidation_mode* parameter's

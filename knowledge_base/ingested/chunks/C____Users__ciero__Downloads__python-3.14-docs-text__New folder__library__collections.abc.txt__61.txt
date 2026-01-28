@@ -1,0 +1,5 @@
+class collections.abc.Sequence
+class collections.abc.MutableSequence
+class collections.abc.ByteString
+   ABCs for read-only and mutable *sequences*.
+   Implementation note: Some of the mixin methods, such as

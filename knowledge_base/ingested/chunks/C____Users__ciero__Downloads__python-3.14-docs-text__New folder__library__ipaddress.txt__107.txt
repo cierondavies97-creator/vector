@@ -1,0 +1,5 @@
+Added in version 3.7.
+   compare_networks(other)
+      Compare this network to *other*.  In this comparison only the
+      network addresses are considered; host bits aren't.  Returns
+      either "-1", "0" or "1".

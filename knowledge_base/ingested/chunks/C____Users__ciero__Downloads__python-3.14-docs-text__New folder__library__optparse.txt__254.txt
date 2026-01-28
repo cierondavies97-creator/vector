@@ -1,0 +1,4 @@
+There are two steps to defining a callback option:
+* define the option itself using the ""callback"" action
+* write the callback; this is a function (or method) that takes at
+  least four arguments, as described below

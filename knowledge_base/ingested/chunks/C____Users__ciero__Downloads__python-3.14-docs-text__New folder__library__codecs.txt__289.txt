@@ -1,0 +1,4 @@
+similar to codecs, but are not available as named codecs through
+"codecs.encode()" or "codecs.decode()". They are used internally (for
+example, by "pickle") and behave similarly to the "string_escape"
+codec that was removed in Python 3.

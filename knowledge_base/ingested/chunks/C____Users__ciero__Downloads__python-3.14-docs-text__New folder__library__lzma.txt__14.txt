@@ -1,0 +1,4 @@
+file object, the wrapped file will not be closed when the
+   "LZMAFile" is closed.
+   The *mode* argument can be either ""r"" for reading (default),
+   ""w"" for overwriting, ""x"" for exclusive creation, or ""a"" for

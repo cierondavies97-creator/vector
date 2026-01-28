@@ -1,0 +1,4 @@
+translation is found, return *singular* if *n* is 1; return
+   *plural* otherwise.
+   The Plural formula is taken from the catalog header. It is a C or
+   Python expression that has a free variable *n*; the expression

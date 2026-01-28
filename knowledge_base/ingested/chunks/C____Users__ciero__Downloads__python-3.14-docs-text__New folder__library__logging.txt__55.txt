@@ -1,0 +1,3 @@
+event. This can be used in logging helpers so that the function
+      name, filename and line number recorded are not the information
+      for the helper function/method, but rather its caller. The name

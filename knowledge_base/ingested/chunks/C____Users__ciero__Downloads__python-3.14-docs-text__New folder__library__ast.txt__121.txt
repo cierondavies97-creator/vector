@@ -1,0 +1,5 @@
+value=Name(id='snake', ctx=Load()),
+              attr='colour',
+              ctx=Load()))
+class ast.NamedExpr(target, value)
+   A named expression. This AST node is produced by the assignment

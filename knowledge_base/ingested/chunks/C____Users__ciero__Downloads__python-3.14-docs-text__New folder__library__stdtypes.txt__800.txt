@@ -1,0 +1,5 @@
+versions, "popitem()" would return an arbitrary key/value pair.
+   reversed(d)
+      Return a reverse iterator over the keys of the dictionary. This
+      is a shortcut for "reversed(d.keys())".
+      Added in version 3.8.

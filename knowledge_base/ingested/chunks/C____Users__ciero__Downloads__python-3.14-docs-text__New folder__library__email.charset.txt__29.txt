@@ -1,0 +1,5 @@
+the "codecs" module's documentation for more information.
+   The global character set registry is kept in the module global
+   dictionary "CHARSETS".
+email.charset.add_alias(alias, canonical)
+   Add a character set alias.  *alias* is the alias name, e.g.

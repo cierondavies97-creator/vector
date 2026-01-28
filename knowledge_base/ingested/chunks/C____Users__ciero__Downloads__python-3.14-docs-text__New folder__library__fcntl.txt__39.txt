@@ -1,0 +1,4 @@
+with "io.IOBase.seek()", specifically:
+   * "0" -- relative to the start of the file ("os.SEEK_SET")
+   * "1" -- relative to the current buffer position ("os.SEEK_CUR")
+   * "2" -- relative to the end of the file ("os.SEEK_END")

@@ -1,0 +1,4 @@
+starting with "** Invalid host:". The valid value is "127.0.0.1
+(idlelib.rpc.LOCALHOST)". One can diagnose with "tcpconnect -irv
+127.0.0.1 6543" in one terminal window and "tcplisten <same args>" in
+another.

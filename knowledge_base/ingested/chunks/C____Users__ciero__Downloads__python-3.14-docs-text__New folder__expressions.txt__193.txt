@@ -1,0 +1,4 @@
+6.6. Unary arithmetic and bitwise operations
+============================================
+All unary arithmetic and bitwise operations have the same priority:
+   u_expr: power | "-" u_expr | "+" u_expr | "~" u_expr

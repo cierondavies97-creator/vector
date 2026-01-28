@@ -1,0 +1,3 @@
+for a given program, not for benchmarking purposes (for that, there
+  is "timeit" for reasonably accurate results).  This particularly
+  applies to benchmarking Python code against C code: the profilers

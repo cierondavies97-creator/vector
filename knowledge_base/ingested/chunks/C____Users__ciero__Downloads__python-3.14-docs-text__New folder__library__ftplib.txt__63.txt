@@ -1,0 +1,5 @@
+renders the "FTP" instance useless for subsequent calls (see
+      below).
+   close()
+      Close the connection unilaterally.  This should not be applied
+      to an already closed connection such as after a successful call

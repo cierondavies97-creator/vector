@@ -1,0 +1,3 @@
+may still have data available for reading without "select()" being
+  aware of it.  Therefore, you should first call "SSLSocket.recv()" to
+  drain any potentially available data, and then only block on a

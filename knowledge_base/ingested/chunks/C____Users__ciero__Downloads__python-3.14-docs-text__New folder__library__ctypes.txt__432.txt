@@ -1,0 +1,6 @@
+1
+   All attributes are read-only.
+   "CField" objects are created via "_fields_"; do not instantiate the
+   class directly.
+   Added in version 3.14: Previously, descriptors only had "offset"
+   and "size" attributes and a readable string representation; the

@@ -1,0 +1,8 @@
+usage: PROG [--bar BAR] foo
+      group1:
+        group1 description
+        foo    foo help
+      group2:
+        group2 description
+        --bar BAR  bar help
+   The optional, keyword-only parameters argument_default and

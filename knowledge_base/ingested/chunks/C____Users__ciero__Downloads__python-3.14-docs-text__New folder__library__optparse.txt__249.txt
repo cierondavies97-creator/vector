@@ -1,0 +1,5 @@
+For example, if several "mode" options all set the same
+   destination, any one of them can set the default, and the last one
+   wins:
+      parser.add_option("--advanced", action="store_const",
+                        dest="mode", const="advanced",

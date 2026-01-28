@@ -1,0 +1,4 @@
+arguments. Note that all of the bytearray methods in this section do
+*not* operate in place, and instead produce new objects.
+bytes.center(width, fillbyte=b' ', /)
+bytearray.center(width, fillbyte=b' ', /)

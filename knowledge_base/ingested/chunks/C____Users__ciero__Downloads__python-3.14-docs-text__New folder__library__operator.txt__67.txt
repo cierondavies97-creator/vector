@@ -1,0 +1,4 @@
+computation and assignment are performed in two separate steps.  The
+in-place functions listed below only do the first step, calling the
+in-place method.  The second step, assignment, is not handled.
+For immutable targets such as strings, numbers, and tuples, the

@@ -1,0 +1,4 @@
+but it is recommended to "close()" them explicitly, or to use a
+   "with" statement around them.
+   Changed in version 3.6: "OSError" is now raised if an error occurs
+   when the underlying "close()" call is made.

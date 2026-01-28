@@ -1,0 +1,3 @@
+circumstances, leave the running program in an inconsistent
+     state. It is generally best to allow "KeyboardInterrupt" to end
+     the program as quickly as possible or avoid raising it entirely.

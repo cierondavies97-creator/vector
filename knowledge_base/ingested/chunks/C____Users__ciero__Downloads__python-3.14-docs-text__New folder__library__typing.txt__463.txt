@@ -1,0 +1,4 @@
+override a method or attribute in a superclass.
+   Type checkers should emit an error if a method decorated with
+   "@override" does not, in fact, override anything. This helps
+   prevent bugs that may occur when a base class is changed without an

@@ -1,0 +1,4 @@
+*number* is an infinity or "ValueError" if it is a (quiet or
+      signaling) NaN.
+      If *ndigits* is an "int", the context's rounding mode is
+      respected and a "Decimal" representing *number* rounded to the

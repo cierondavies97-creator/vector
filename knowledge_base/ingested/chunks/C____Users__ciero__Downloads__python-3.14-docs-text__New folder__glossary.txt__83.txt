@@ -1,0 +1,4 @@
+docstring
+   A string literal which appears as the first expression in a class,
+   function or module.  While ignored when the suite is executed, it
+   is recognized by the compiler and put into the "__doc__" attribute

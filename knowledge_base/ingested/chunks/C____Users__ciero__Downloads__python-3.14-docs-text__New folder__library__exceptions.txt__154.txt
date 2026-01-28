@@ -1,0 +1,7 @@
+│    └── ZeroDivisionError
+         ├── AssertionError
+         ├── AttributeError
+         ├── BufferError
+         ├── EOFError
+         ├── ExceptionGroup [BaseExceptionGroup]
+         ├── ImportError

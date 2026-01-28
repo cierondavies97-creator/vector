@@ -1,0 +1,5 @@
+not a dataclass itself), then add a further check for "not
+   isinstance(obj, type)":
+      def is_dataclass_instance(obj):
+          return is_dataclass(obj) and not isinstance(obj, type)
+dataclasses.MISSING

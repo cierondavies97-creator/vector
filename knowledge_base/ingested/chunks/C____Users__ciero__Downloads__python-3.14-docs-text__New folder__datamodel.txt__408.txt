@@ -1,0 +1,5 @@
+object.__dir__(self)
+   Called when "dir()" is called on the object. An iterable must be
+   returned. "dir()" converts the returned iterable to a list and
+   sorts it.
+3.3.2.1. Customizing module attribute access

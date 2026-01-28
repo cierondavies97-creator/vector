@@ -1,0 +1,3 @@
+Changed in version 3.14: Test discovery supports *namespace package*
+as start directory again. To avoid scanning directories unrelated to
+Python, tests are not searched in subdirectories that do not contain

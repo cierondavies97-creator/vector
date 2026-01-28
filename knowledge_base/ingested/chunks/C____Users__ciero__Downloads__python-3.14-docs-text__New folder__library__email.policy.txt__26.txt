@@ -1,0 +1,4 @@
+on the concrete class.  A value specified in the constructor will
+   override the default value for the corresponding attribute.
+   This class defines the following properties, and thus values for
+   the following may be passed in the constructor of any policy class:

@@ -1,0 +1,3 @@
+argument to """" so that the output will be uniformly newline free.
+   The unified diff format normally has a header for filenames and
+   modification times.  Any or all of these may be specified using

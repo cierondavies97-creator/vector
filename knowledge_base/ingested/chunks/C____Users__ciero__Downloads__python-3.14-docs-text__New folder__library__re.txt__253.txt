@@ -1,0 +1,4 @@
+than "scanf()" format strings.  The table below offers some more-or-
+less equivalent mappings between "scanf()" format tokens and regular
+expressions.
++----------------------------------+-----------------------------------------------+

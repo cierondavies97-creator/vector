@@ -1,0 +1,4 @@
+which defaults to "'<input>'".  Returns "None" if *source* is *not*
+   valid Python code, but is a prefix of valid Python code.
+   If there is a problem with *source*, an exception will be raised.
+   "SyntaxError" is raised if there is invalid Python syntax, and

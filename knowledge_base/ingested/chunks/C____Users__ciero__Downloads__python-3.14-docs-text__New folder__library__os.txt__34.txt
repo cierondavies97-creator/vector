@@ -1,0 +1,5 @@
+Changed in version 3.9: Updated to support **PEP 584**'s merge
+   ("|") and update ("|=") operators.
+os.environb
+   Bytes version of "environ": a *mapping* object where both keys and
+   values are "bytes" objects representing the process environment.

@@ -1,0 +1,3 @@
++------------------+---------------------------+-------------------------------------------------+
+| msg              | You shouldn't need to     | The format string passed in the original        |
+|                  | format this yourself.     | logging call. Merged with "args" to produce     |

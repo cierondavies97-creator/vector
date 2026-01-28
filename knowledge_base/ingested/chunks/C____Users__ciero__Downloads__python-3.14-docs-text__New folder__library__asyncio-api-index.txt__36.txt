@@ -1,0 +1,2 @@
+| "StreamWriter"                                     | High-level async/await object to send network      |
+|                                                    | data.                                              |

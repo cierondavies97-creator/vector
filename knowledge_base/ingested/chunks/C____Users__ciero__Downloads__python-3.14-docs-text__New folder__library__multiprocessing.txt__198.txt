@@ -1,0 +1,4 @@
+recv_bytes([maxlength])
+      Return a complete message of byte data sent from the other end
+      of the connection as a string.  Blocks until there is something
+      to receive. Raises "EOFError" if there is nothing left to

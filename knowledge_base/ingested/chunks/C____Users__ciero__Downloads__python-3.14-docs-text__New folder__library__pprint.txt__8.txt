@@ -1,0 +1,4 @@
+per line in the output. If a structure cannot be formatted
+        within the width constraint, a best effort will be made.
+      * **depth** (*int** | **None*) -- The number of nesting levels
+        which may be printed. If the data structure being printed is

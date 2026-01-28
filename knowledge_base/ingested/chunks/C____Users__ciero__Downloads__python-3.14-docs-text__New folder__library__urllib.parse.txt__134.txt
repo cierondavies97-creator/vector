@@ -1,0 +1,5 @@
+when a query element is a "str").
+   To reverse this encoding process, "parse_qs()" and "parse_qsl()"
+   are provided in this module to parse query strings into Python data
+   structures.
+   Refer to urllib examples to find out how the

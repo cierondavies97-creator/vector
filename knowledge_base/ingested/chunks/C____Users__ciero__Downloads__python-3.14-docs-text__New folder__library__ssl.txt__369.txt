@@ -1,0 +1,5 @@
+"SSLContext.wrap_socket()" method to create a server-side SSL socket
+for the connection:
+   while True:
+       newsocket, fromaddr = bindsocket.accept()
+       connstream = context.wrap_socket(newsocket, server_side=True)

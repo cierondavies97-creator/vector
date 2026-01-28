@@ -1,0 +1,3 @@
+based on "wsgiref.handlers" (that don't override the error handling
+   methods to do something else) will simply output a message that an
+   error has occurred, and dump the traceback to "sys.stderr" or some

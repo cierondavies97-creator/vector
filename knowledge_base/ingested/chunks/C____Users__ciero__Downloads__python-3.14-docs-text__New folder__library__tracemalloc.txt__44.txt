@@ -1,0 +1,6 @@
+print(f"{first_size=}, {first_peak=}")
+   print(f"{second_size=}, {second_peak=}")
+Output:
+   first_size=664, first_peak=3592984
+   second_size=804, second_peak=29704
+Using "reset_peak()" ensured we could accurately record the peak

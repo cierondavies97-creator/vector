@@ -1,0 +1,5 @@
+'The complex number (3-5j) is formed from the real part 3.0 and the imaginary part -5.0.'
+   >>> class Point:
+   ...     def __init__(self, x, y):
+   ...         self.x, self.y = x, y
+   ...     def __str__(self):

@@ -1,0 +1,4 @@
+equivalent to "Parser().parsestr(s)".  *_class* and *policy* are
+   interpreted as with the "Parser" class constructor.
+   Changed in version 3.3: Removed the *strict* argument.  Added the
+   *policy* keyword.

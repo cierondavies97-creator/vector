@@ -1,0 +1,5 @@
+raise a "ValueError" when presented with an authentication scheme
+   other than Digest or Basic.
+   Changed in version 3.3: Raise "ValueError" on unsupported
+   Authentication Scheme.
+class urllib.request.ProxyDigestAuthHandler(password_mgr=None)

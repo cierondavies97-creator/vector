@@ -1,0 +1,6 @@
+>>> w = Worker(queue)
+   >>> w.start()
+   >>> class QueueManager(BaseManager): pass
+   ...
+   >>> QueueManager.register('get_queue', callable=lambda: queue)
+   >>> m = QueueManager(address=('', 50000), authkey=b'abracadabra')

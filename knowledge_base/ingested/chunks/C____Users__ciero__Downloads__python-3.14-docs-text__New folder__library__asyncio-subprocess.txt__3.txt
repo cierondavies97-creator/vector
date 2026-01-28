@@ -1,0 +1,8 @@
+print(f'[stdout]\n{stdout.decode()}')
+       if stderr:
+           print(f'[stderr]\n{stderr.decode()}')
+   asyncio.run(run('ls /zzz'))
+will print:
+   ['ls /zzz' exited with 1]
+   [stderr]
+   ls: /zzz: No such file or directory

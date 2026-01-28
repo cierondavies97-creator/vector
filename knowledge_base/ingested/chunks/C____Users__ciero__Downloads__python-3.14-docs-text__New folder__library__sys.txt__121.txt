@@ -1,0 +1,2 @@
+| float_info.mant_dig               | "DBL_MANT_DIG"                    | Float precision: the number of    |
+   |                                   |                                   | base-"radix" digits in the        |

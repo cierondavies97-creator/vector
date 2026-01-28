@@ -1,0 +1,4 @@
+"multipart/signed" and all subparts.
+class email.generator.BytesGenerator(outfp, mangle_from_=None, maxheaderlen=None, *, policy=None)
+   Return a "BytesGenerator" object that will write any message
+   provided to the "flatten()" method, or any surrogateescape encoded

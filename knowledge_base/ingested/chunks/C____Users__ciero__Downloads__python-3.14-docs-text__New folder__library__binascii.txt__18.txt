@@ -1,0 +1,5 @@
+crc = binascii.crc32(b"hello")
+      crc = binascii.crc32(b" world", crc)
+      print('crc32 = {:#010x}'.format(crc))
+   Changed in version 3.0: The result is always unsigned.
+binascii.b2a_hex(data[, sep[, bytes_per_sep=1]])

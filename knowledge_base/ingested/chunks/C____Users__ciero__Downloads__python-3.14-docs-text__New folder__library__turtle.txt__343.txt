@@ -1,0 +1,4 @@
+"Screen" and "Turtle" objects.
+* Two input methods have been added: "Screen.textinput" and
+  "Screen.numinput". These pop up input dialogs and return strings and
+  numbers respectively.

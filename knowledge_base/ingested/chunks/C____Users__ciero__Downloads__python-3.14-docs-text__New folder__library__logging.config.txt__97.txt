@@ -1,0 +1,5 @@
+the configuration machinery, but set as attribute values as-is.
+Handler configuration order
+---------------------------
+Handlers are configured in alphabetical order of their keys, and a
+configured handler replaces the configuration dictionary in (a working

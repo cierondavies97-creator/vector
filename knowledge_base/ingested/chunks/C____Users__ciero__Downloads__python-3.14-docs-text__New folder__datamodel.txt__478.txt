@@ -1,0 +1,5 @@
+subtype of *all* of these candidate metaclasses. If none of the
+candidate metaclasses meets that criterion, then the class definition
+will fail with "TypeError".
+3.3.3.4. Preparing the class namespace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

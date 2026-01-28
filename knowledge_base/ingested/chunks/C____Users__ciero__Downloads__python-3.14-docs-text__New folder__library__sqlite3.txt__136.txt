@@ -1,0 +1,5 @@
+"DatabaseError" exception.
+      Changed in version 3.13: Passing *progress_handler* as a keyword
+      argument is deprecated. The parameter will become positional-
+      only in Python 3.15.
+   set_trace_callback(trace_callback)

@@ -1,0 +1,6 @@
+the signal handler does not raise an exception (see **PEP 475** for
+   the rationale).
+Examples
+========
+Here is a minimal example program. It uses the "alarm()" function to
+limit the time spent waiting to open a file; this is useful if the

@@ -1,0 +1,6 @@
+The "format_spec" is an optional, arbitrary string used as the
+      format specification to present the value:
+      >>> t'{1 + 2:.2f}'.interpolations[0].format_spec
+      '.2f'
+      Note:
+        Unlike f-strings, where format specifications are applied

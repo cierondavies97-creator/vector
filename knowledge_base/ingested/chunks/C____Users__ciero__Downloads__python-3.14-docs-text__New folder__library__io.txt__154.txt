@@ -1,0 +1,4 @@
+values, any "'\n'" characters written are translated to the given
+     string.
+   If *line_buffering* is "True", "flush()" is implied when a call to
+   write contains a newline character or a carriage return.

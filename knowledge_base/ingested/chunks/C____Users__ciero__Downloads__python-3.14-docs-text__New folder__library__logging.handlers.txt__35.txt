@@ -1,0 +1,5 @@
+delegates to this callable.  The parameters passed to the
+      callable are those passed to "rotate()".
+      Added in version 3.3.
+   rotation_filename(default_name)
+      Modify the filename of a log file when rotating.

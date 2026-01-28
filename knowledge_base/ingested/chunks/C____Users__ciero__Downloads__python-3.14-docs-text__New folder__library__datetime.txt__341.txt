@@ -1,0 +1,8 @@
+def first_sunday_on_or_after(dt):
+       days_to_go = 6 - dt.weekday()
+       if days_to_go:
+           dt += timedelta(days_to_go)
+       return dt
+   # US DST Rules
+   #
+   # This is a simplified (i.e., wrong for a few cases) set of rules for US

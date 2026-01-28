@@ -1,0 +1,4 @@
+letters, digits, and underscores but do not start with a digit or
+   underscore and cannot be a "keyword" such as *class*, *for*,
+   *return*, *global*, *pass*, or *raise*.
+   If *rename* is true, invalid fieldnames are automatically replaced

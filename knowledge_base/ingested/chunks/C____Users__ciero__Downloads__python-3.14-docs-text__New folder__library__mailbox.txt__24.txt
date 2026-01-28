@@ -1,0 +1,6 @@
+specified when the "Mailbox" instance was initialized.
+      Note:
+        The behavior of "__iter__()" is unlike that of dictionaries,
+        which iterate over keys.
+   values()
+      The same as "itervalues()", except that a "list" is returned

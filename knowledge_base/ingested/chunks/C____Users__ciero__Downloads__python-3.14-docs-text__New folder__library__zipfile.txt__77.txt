@@ -1,0 +1,3 @@
+time. The archive must be opened with mode "'w'", "'x'" or "'a'".
+   If given, *compress_type* overrides the value given for the
+   *compression* parameter to the constructor for the new entry, or in

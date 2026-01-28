@@ -1,0 +1,4 @@
+"sys" --- System-specific parameters and functions
+**************************************************
+======================================================================
+This module provides access to some variables used or maintained by

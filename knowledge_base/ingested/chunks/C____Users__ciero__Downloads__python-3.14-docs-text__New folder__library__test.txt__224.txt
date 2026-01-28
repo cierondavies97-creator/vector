@@ -1,0 +1,3 @@
+Test for syntax warning in *statement* by attempting to compile
+   *statement*. Test also that the "SyntaxWarning" is emitted only
+   once, and that it will be converted to a "SyntaxError" when turned

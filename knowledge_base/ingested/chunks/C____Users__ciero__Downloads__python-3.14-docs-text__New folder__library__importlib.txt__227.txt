@@ -1,0 +1,6 @@
+finder = importlib.machinery.FileFinder(path, (lazy_loader, suffixes))
+Examples
+========
+Importing programmatically
+--------------------------
+To programmatically import a module, use "importlib.import_module()".

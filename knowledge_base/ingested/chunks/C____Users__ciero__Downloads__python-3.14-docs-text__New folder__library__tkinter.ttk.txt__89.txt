@@ -1,0 +1,3 @@
+| padding   | Specifies the amount of extra space to add around the outside of |
+|           | the notebook. The padding is a list up to four length            |
+|           | specifications left top right bottom. If fewer than four         |

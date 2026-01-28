@@ -1,0 +1,4 @@
+The type of the time value sequence returned by "gmtime()",
+   "localtime()", and "strptime()".  It is an object with a *named
+   tuple* interface: values can be accessed by index and by attribute
+   name.  The following values are present:

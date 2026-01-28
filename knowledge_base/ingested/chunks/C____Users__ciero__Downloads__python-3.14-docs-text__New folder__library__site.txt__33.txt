@@ -1,0 +1,5 @@
+modules, etc. for the user installation scheme. See also
+   "PYTHONUSERBASE".
+site.main()
+   Adds all the standard site-specific directories to the module
+   search path.  This function is called automatically when this

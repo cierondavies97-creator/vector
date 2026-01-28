@@ -1,0 +1,4 @@
+command (but not "he" or "hel", nor "H" or "Help" or "HELP").
+Arguments to commands must be separated by whitespace (spaces or
+tabs).  Optional arguments are enclosed in square brackets ("[]") in
+the command syntax; the square brackets must not be typed.

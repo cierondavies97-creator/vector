@@ -1,0 +1,5 @@
+via a binary installer.
+sysconfig.parse_config_h(fp[, vars])
+   Parse a "config.h"-style file.
+   *fp* is a file-like object pointing to the "config.h"-like file.
+   A dictionary containing name/value pairs is returned.  If an

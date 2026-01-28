@@ -1,0 +1,4 @@
+Print information on collectable objects found.
+gc.DEBUG_UNCOLLECTABLE
+   Print information of uncollectable objects found (objects which are
+   not reachable but cannot be freed by the collector).  These objects

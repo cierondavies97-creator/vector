@@ -1,0 +1,5 @@
+(if one is active) or into the system site packages (if there is no
+active virtual environment). The installation location can be
+controlled through two additional command line options:
+--root <dir>
+   Installs "pip" relative to the given root directory rather than the

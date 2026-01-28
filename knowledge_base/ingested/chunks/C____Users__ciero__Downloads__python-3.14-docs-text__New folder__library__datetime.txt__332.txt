@@ -1,0 +1,6 @@
+dt += delta   # convert to standard local time
+              dtdst = dt.dst()
+              # raise ValueError if dtdst is None
+          if dtdst:
+              return dt + dtdst
+          else:

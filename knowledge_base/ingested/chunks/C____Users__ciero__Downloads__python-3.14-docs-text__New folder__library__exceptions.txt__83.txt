@@ -1,0 +1,4 @@
+spaces. This is a subclass of "IndentationError".
+exception SystemError
+   Raised when the interpreter finds an internal error, but the
+   situation does not look so serious to cause it to abandon all hope.

@@ -1,0 +1,4 @@
+The Python standard library provides two different implementations of
+the same profiling interface:
+1. "cProfile" is recommended for most users; it's a C extension with
+   reasonable overhead that makes it suitable for profiling long-

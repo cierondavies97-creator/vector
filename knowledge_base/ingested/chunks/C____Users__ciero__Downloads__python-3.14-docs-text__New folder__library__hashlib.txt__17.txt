@@ -1,0 +1,5 @@
+>>> h.hexdigest()
+'031edd7d41651593c5fe5c006fa5752b37fddff7bc4e843aa6af0c950f4b9406'
+hashlib.md5([data, ]*, usedforsecurity=True)
+hashlib.sha1([data, ]*, usedforsecurity=True)
+hashlib.sha224([data, ]*, usedforsecurity=True)

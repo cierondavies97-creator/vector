@@ -1,0 +1,4 @@
+as referencing uninitialized data --- core dumps, wrong results,
+mysterious crashes.
+Common causes of memory leaks are unusual paths through the code.  For
+instance, a function may allocate a block of memory, do some

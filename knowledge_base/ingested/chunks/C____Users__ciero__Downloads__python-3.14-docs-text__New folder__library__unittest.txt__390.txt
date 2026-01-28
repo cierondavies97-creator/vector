@@ -1,0 +1,6 @@
+doesn't matter, but if you are a framework author it may be relevant.
+setUpClass and tearDownClass
+----------------------------
+These must be implemented as class methods:
+   import unittest
+   class Test(unittest.TestCase):

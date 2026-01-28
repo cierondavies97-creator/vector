@@ -1,0 +1,4 @@
+XML), include the following (and except where noted, they are
+   unmarshalled as the same Python type):
+   +------------------------+---------------------------------------------------------+
+   | XML-RPC type           | Python type                                             |

@@ -1,0 +1,5 @@
+# KeyboardInterrupt could occur just before the function returns
+       def __exit__(self, exc_type, exc_val, exc_tb):
+           ...
+           self.lock.release()
+For many programs, especially those that merely want to exit on

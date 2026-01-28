@@ -1,0 +1,2 @@
+t = interp.call_in_thread(run)
+   t.join()

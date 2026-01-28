@@ -1,0 +1,3 @@
+already been cached, importing "foo.bar.baz" will first perform a top
+level import, calling "mpf.find_spec("foo", None, None)" on each meta
+path finder ("mpf"). After "foo" has been imported, "foo.bar" will be

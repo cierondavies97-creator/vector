@@ -1,0 +1,4 @@
+>>> assert handle == sentinel.file_handle, "incorrect file handle returned"
+The module name can be 'dotted', in the form "package.module" if
+needed:
+   >>> @patch('package.module.ClassName.attribute', sentinel.attribute)

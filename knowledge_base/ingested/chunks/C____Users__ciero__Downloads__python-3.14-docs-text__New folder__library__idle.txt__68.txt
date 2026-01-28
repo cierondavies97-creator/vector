@@ -1,0 +1,4 @@
+or class or function attributes, type '.'. For filenames in the root
+directory, type "os.sep" or "os.altsep" immediately after an opening
+quote.  (On Windows, one can specify a drive first.)  Move into
+subdirectories by typing a directory name and a separator.

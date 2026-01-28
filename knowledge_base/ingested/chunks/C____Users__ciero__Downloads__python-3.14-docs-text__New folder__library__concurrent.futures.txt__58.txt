@@ -1,0 +1,6 @@
+is then it directly preserves the corresponding "ExecutionFailed"
+instance instead.
+ProcessPoolExecutor
+===================
+The "ProcessPoolExecutor" class is an "Executor" subclass that uses a
+pool of processes to execute calls asynchronously.

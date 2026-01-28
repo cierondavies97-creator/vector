@@ -1,0 +1,5 @@
+using an integer as the registry handle, a handle object is used to
+ensure that the handles are closed correctly, even if the programmer
+neglects to explicitly close them.
+Availability: Windows.
+Changed in version 3.3: Several functions in this module used to raise

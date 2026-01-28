@@ -1,0 +1,5 @@
+>>> conn.close()
+Here is an example session that uses the "HEAD" method.  Note that the
+"HEAD" method never returns any data.
+   >>> import http.client
+   >>> conn = http.client.HTTPSConnection("www.python.org")

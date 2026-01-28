@@ -1,0 +1,5 @@
+parser. The corresponding "lineno" and "offset" should not be used
+   as they may have no special meaning.
+   Added in version 3.14.1.
+xmlparser.SetAllocTrackerMaximumAmplification(max_factor, /)
+   Sets the maximum amplification factor between direct input and

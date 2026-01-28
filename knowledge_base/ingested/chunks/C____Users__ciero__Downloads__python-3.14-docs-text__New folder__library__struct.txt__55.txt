@@ -1,0 +1,4 @@
+floating-point format used by the platform.
+5. The "'P'" format character is only available for the native byte
+   ordering (selected as the default or with the "'@'" byte order
+   character). The byte order character "'='" chooses to use little-

@@ -1,0 +1,4 @@
+raise an exception, the function now retries the system call
+     instead of raising an "InterruptedError" exception (see **PEP
+     475** for the rationale).
+   * The "'namereplace'" error handler was added.

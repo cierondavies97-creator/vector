@@ -1,0 +1,7 @@
+is checked.
+      This attribute has no effect if the traceback limit is "1".  See
+      the "get_traceback_limit()" function and
+      "Snapshot.traceback_limit" attribute.
+Frame
+-----
+class tracemalloc.Frame

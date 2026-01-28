@@ -1,0 +1,5 @@
+This method will raise "NotImplementedError" if "HAS_ALPN" is
+   "False".
+   Added in version 3.5.
+SSLContext.set_npn_protocols(npn_protocols)
+   Specify which protocols the socket should advertise during the

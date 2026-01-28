@@ -1,0 +1,5 @@
+will update the dictionary returned by "get_config_vars()".
+   If *expand* is set to "False", the path will not be expanded using
+   the variables.
+   If *name* is not found, raise a "KeyError".
+sysconfig.get_paths([scheme[, vars[, expand]]])

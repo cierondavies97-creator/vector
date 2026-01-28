@@ -1,0 +1,5 @@
+the C function, so the return value of the Python function is
+   system-dependent.
+   On Unix, the return value is the exit status of the process encoded
+   in the format specified for "wait()".
+   On Windows, the return value is that returned by the system shell

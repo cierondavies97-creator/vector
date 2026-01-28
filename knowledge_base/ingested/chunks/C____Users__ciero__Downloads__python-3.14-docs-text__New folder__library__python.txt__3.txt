@@ -1,0 +1,7 @@
+* Callback function arguments
+* "sysconfig" --- Provide access to Python's configuration information
+  * Configuration variables
+  * Installation paths
+  * User scheme
+    * "posix_user"
+    * "nt_user"

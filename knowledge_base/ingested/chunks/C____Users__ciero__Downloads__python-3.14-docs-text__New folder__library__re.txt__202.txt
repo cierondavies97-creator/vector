@@ -1,0 +1,4 @@
+>>> pattern.match("dog", 1)   # Match as "o" is the 2nd character of "dog".
+      <re.Match object; span=(1, 2), match='o'>
+   If you want to locate a match anywhere in *string*, use "search()"
+   instead (see also search() vs. match()).

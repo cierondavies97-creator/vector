@@ -1,0 +1,4 @@
+{'x': typing.Annotated[int, 'metadata'], 'return': <class 'NoneType'>}
+   At runtime, the metadata associated with an "Annotated" type can be
+   retrieved via the "__metadata__" attribute:
+         >>> from typing import Annotated

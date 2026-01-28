@@ -1,0 +1,3 @@
+objects of this type are created.  Python has some built-in support
+for variable length structures (think: strings, tuples) which is where
+the "tp_itemsize" field comes in.  This will be dealt with later.

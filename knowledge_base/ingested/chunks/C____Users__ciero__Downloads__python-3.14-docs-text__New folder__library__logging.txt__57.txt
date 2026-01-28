@@ -1,0 +1,4 @@
+"LogRecord" created for the logging event with user-defined
+      attributes. These custom attributes can then be used as you
+      like. For example, they could be incorporated into logged
+      messages. For example:

@@ -1,0 +1,6 @@
+elif string1 < string2:
+                 return 1
+             else:
+                 return -1
+         con = sqlite3.connect(":memory:")
+         con.create_collation("reverse", collate_reverse)

@@ -1,0 +1,3 @@
++------------------------+--------------------------------------------------------+
+| values                 | Sequence of string or float values.  If specified, the |
+|                        | increment/decrement buttons will cycle through the     |

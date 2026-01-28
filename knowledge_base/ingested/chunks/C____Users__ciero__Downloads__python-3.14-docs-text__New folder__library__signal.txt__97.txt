@@ -1,0 +1,6 @@
+def main():
+       try:
+           # simulate large output (your code replaces this loop)
+           for x in range(10000):
+               print("y")
+           # flush output here to force SIGPIPE to be triggered

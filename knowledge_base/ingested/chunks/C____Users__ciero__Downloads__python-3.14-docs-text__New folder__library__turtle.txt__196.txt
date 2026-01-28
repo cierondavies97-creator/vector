@@ -1,0 +1,8 @@
+>>> screen.bgpic()
+      'nopic'
+      >>> screen.bgpic("landscape.gif")
+      >>> screen.bgpic()
+      "landscape.gif"
+turtle.clear()
+   Note:
+     This TurtleScreen method is available as a global function only

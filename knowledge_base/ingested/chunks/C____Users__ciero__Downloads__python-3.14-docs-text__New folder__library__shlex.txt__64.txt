@@ -1,0 +1,4 @@
+Instead of passing "True" as the value for the punctuation_chars
+parameter, you can pass a string with specific characters, which will
+be used to determine which characters constitute punctuation. For
+example:

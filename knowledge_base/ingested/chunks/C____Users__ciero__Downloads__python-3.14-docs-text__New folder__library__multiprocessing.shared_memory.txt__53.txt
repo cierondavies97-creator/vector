@@ -1,0 +1,4 @@
+"ShareableList" instances via slicing.
+   *sequence* is used in populating a new "ShareableList" full of
+   values. Set to "None" to instead attach to an already existing
+   "ShareableList" by its unique shared memory name.

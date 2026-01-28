@@ -1,0 +1,5 @@
+class RequestHandler(SimpleXMLRPCRequestHandler):
+       rpc_paths = ('/RPC2',)
+   # Create server
+   with SimpleXMLRPCServer(('localhost', 8000),
+                           requestHandler=RequestHandler) as server:

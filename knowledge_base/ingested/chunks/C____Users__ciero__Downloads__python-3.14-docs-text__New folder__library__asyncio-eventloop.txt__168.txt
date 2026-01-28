@@ -1,0 +1,4 @@
+custom executor for other user tasks, or setting a default executor
+  with a larger number of workers.
+Changed in version 3.7: Both *getaddrinfo* and *getnameinfo* methods
+were always documented to return a coroutine, but prior to Python 3.7

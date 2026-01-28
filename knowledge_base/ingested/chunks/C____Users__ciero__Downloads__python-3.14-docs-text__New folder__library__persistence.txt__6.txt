@@ -1,0 +1,8 @@
+* "dbm.dumb" --- Portable DBM implementation
+* "sqlite3" --- DB-API 2.0 interface for SQLite databases
+  * Tutorial
+  * Reference
+    * Module functions
+    * Module constants
+    * Connection objects
+    * Cursor objects

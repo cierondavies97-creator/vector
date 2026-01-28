@@ -1,0 +1,7 @@
+by NumPy and other third-party packages.
+   start
+   stop
+   step
+   Slice objects are also generated when extended indexing syntax is
+   used.  For example: "a[start:stop:step]" or "a[start:stop, i]".
+   See "itertools.islice()" for an alternate version that returns an

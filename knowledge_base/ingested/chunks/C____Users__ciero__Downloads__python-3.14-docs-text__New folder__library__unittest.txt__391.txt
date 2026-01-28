@@ -1,0 +1,7 @@
+@classmethod
+       def setUpClass(cls):
+           cls._connection = createExpensiveConnectionObject()
+       @classmethod
+       def tearDownClass(cls):
+           cls._connection.destroy()
+If you want the "setUpClass" and "tearDownClass" on base classes

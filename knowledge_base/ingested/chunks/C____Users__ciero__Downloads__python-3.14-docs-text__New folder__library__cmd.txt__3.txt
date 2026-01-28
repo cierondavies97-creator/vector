@@ -1,0 +1,4 @@
+"Cmd" itself; rather, it's useful as a superclass of an interpreter
+   class you define yourself in order to inherit "Cmd"'s methods and
+   encapsulate action methods.
+   The optional argument *completekey* is the "readline" name of a

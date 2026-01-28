@@ -1,0 +1,5 @@
+t.mainloop()
+to the end of the script. The script will now wait to be dismissed and
+will not exit until it is terminated, for example by closing the
+turtle graphics window.
+Use object-oriented turtle graphics

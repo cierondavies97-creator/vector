@@ -1,0 +1,5 @@
+rounded result is returned.  The signal flag or trap is used to
+   detect when results are inexact.
+class decimal.InvalidOperation
+   An invalid operation was performed.
+   Indicates that an operation was requested that does not make sense.

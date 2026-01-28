@@ -1,0 +1,11 @@
+3
+            >>> x.nbytes
+            24
+            >>> y = x.cast('B')
+            >>> y.format
+            'B'
+            >>> y.itemsize
+            1
+            >>> len(y)
+            24
+            >>> y.nbytes

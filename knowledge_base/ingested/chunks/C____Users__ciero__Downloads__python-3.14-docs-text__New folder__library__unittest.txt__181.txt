@@ -1,0 +1,4 @@
+self.assertEqual(cm.output, ['INFO:foo:first message',
+                                      'ERROR:foo.bar:second message'])
+      Added in version 3.4.
+   assertNoLogs(logger=None, level=None)

@@ -1,0 +1,6 @@
+this page).
+   "RawIOBase" provides these methods in addition to those from
+   "IOBase":
+   read(size=-1, /)
+      Read up to *size* bytes from the object and return them.  As a
+      convenience, if *size* is unspecified or -1, all bytes until EOF

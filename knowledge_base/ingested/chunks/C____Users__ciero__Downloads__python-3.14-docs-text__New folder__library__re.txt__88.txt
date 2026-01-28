@@ -1,0 +1,3 @@
+match for "...".  This is called a *negative lookbehind assertion*.
+   Similar to positive lookbehind assertions, the contained pattern
+   must only match strings of some fixed length.  Patterns which start

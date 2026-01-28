@@ -1,0 +1,4 @@
+instance and calling a single method on it.  That instance is not
+reused, so for applications that process many text strings using
+"wrap()" and/or "fill()", it may be more efficient to create your own
+"TextWrapper" object.

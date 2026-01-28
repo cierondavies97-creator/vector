@@ -1,0 +1,4 @@
+The module's API can be divided into two parts:
+* Module-level functions offering basic functionality, which are
+  useful for interactive inspection of exceptions and tracebacks.
+* "TracebackException" class and its helper classes "StackSummary" and

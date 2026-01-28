@@ -1,0 +1,7 @@
+be the right thing to do.
+   For example:
+      from contextlib import suppress
+      with suppress(FileNotFoundError):
+          os.remove('somefile.tmp')
+      with suppress(FileNotFoundError):
+          os.remove('someotherfile.tmp')

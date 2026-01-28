@@ -1,0 +1,3 @@
+method. This method uses "os.listdir()" to scan the directory,
+      and returns a "404" error response if the "listdir()" fails.
+      If the request was mapped to a file, it is opened. Any "OSError"

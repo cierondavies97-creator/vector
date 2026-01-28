@@ -1,0 +1,5 @@
+among *predecessors* it will be automatically added to the graph
+      with no predecessors of its own.
+      Raises "ValueError" if called after "prepare()".
+   prepare()
+      Mark the graph as finished and check for cycles in the graph. If

@@ -1,0 +1,4 @@
+contiguous
+   A buffer is considered contiguous exactly if it is either
+   *C-contiguous* or *Fortran contiguous*.  Zero-dimensional buffers
+   are C and Fortran contiguous.  In one-dimensional arrays, the items

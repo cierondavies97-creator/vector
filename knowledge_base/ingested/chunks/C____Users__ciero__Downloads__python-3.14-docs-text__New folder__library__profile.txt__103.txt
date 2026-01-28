@@ -1,0 +1,4 @@
+of error.
+The second problem is that it "takes a while" from when an event is
+dispatched until the profiler's call to get the time actually *gets*
+the state of the clock.  Similarly, there is a certain lag when

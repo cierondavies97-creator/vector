@@ -1,0 +1,6 @@
+exceptions are propagated, terminating the search.
+   Examples:
+      # list all modules python can access
+      walk_packages()
+      # list all submodules of ctypes
+      walk_packages(ctypes.__path__, ctypes.__name__ + '.')

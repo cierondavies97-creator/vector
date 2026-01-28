@@ -1,0 +1,9 @@
+...     assert arg == {6}
+  ...
+  >>> mock = Mock(side_effect=side_effect)
+  >>> mock({6})
+  >>> mock(set())
+  Traceback (most recent call last):
+      ...
+  AssertionError
+An alternative approach is to create a subclass of "Mock" or

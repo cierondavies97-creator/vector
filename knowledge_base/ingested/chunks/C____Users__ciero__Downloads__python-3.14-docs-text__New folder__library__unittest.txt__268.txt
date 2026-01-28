@@ -1,0 +1,5 @@
+await self._async_connection.close()
+              events.append("asyncTearDown")
+          async def on_cleanup(self):
+              events.append("cleanup")
+      if __name__ == "__main__":

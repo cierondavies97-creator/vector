@@ -1,0 +1,4 @@
+resulting coefficient measures the strength of a monotonic
+   relationship.
+   Spearman's correlation coefficient is appropriate for ordinal data
+   or for continuous data that doesn't meet the linear proportion

@@ -1,0 +1,4 @@
+name and a different process can attach to that same shared memory
+   block using that same name.
+   As a resource for sharing data across processes, shared memory
+   blocks may outlive the original process that created them.  When

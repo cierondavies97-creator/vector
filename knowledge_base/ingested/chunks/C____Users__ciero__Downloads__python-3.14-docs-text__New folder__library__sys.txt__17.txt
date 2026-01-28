@@ -1,0 +1,4 @@
+one argument called *path* that will contain the requested new
+   working directory.
+   "sys.audit()" will call the existing auditing hooks, passing the
+   event name and arguments, and will re-raise the first exception

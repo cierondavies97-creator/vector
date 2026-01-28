@@ -1,0 +1,7 @@
+"message_factory".
+Here's an example of how you might use "message_from_bytes()" at an
+interactive Python prompt:
+   >>> import email
+   >>> msg = email.message_from_bytes(myBytes)
+Additional notes
+================

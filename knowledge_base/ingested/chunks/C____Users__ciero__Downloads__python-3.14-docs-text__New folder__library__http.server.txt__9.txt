@@ -1,0 +1,3 @@
+on the accepted values for *certfile*, *keyfile* and *password*.
+   When specified, the *alpn_protocols* argument must be a sequence of
+   strings specifying the "Application-Layer Protocol Negotiation"

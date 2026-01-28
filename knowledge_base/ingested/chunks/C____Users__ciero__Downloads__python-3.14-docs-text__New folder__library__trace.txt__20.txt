@@ -1,0 +1,4 @@
+Call *func* with the given arguments under control of the
+      "Trace" object with the current tracing parameters.
+   results()
+      Return a "CoverageResults" object that contains the cumulative

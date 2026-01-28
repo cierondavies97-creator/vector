@@ -1,0 +1,4 @@
+submits to the process pool as separate tasks.  The
+      (approximate) size of these chunks can be specified by setting
+      *chunksize* to a positive integer.
+      Note that it may cause high memory usage for very long

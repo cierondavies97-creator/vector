@@ -1,0 +1,5 @@
+* *ssl_shutdown_timeout* is the time in seconds to wait for the SSL
+     shutdown to complete before aborting the connection. "30.0"
+     seconds if "None" (default).
+   Added in version 3.7.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*

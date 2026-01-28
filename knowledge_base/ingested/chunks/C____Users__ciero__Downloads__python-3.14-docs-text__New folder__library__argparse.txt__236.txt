@@ -1,0 +1,5 @@
+Arguments containing "-"
+------------------------
+The "parse_args()" method attempts to give errors whenever the user
+has clearly made a mistake, but some situations are inherently
+ambiguous.  For example, the command-line argument "-1" could either

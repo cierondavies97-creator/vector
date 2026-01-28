@@ -1,0 +1,4 @@
+"PyErr_Occurred()" to see whether an error occurred in a function
+call, since you should be able to tell from the return value.
+When a function *f* that calls another function *g* detects that the
+latter fails, *f* should itself return an error value (usually "NULL"

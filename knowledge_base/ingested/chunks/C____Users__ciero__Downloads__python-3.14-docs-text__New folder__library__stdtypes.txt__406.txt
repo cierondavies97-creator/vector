@@ -1,0 +1,9 @@
+[]
+      >>> "One line\n".splitlines()
+      ['One line']
+   For comparison, "split('\n')" gives:
+      >>> ''.split('\n')
+      ['']
+      >>> 'Two lines\n'.split('\n')
+      ['Two lines', '']
+str.startswith(prefix[, start[, end]])

@@ -1,0 +1,5 @@
++----------------+-------------------------------------------------------------+
+Prefix scheme
+=============
+The "prefix scheme" is useful when you wish to use one Python
+installation to perform the build/install (i.e., to run the setup

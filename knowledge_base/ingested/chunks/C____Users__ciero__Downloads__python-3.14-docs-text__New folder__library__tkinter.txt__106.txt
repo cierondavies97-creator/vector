@@ -1,0 +1,5 @@
+available and their values.  This is meant only as an example.
+The Packer
+----------
+The packer is one of Tk's geometry-management mechanisms.    Geometry
+managers are used to specify the relative positioning of widgets

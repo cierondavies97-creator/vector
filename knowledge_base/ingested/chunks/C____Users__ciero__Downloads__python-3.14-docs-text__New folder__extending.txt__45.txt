@@ -1,0 +1,6 @@
+static int
+   spam_module_exec(PyObject *m)
+   {
+       if (SpamError != NULL) {
+           PyErr_SetString(PyExc_ImportError,
+                           "cannot initialize spam module more than once");

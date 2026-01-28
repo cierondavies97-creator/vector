@@ -1,0 +1,6 @@
+interpreters.
+sys.getprofile()
+   Get the profiler function as set by "setprofile()".
+sys.gettrace()
+   Get the trace function as set by "settrace()".
+   **CPython implementation detail:** The "gettrace()" function is

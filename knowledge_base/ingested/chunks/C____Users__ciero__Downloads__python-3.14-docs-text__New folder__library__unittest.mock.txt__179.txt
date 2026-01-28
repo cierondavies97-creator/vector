@@ -1,0 +1,8 @@
+"configure_mock()":
+   >>> mock = MagicMock()
+   >>> mock.configure_mock(name='my_name')
+   >>> mock.name
+   'my_name'
+A simpler option is to simply set the "name" attribute after mock
+creation:
+   >>> mock = MagicMock()

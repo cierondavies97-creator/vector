@@ -1,0 +1,4 @@
+class test.support.import_helper.DirsOnSysPath(*paths)
+   A context manager to temporarily add directories to "sys.path".
+   This makes a copy of "sys.path", appends any directories given as
+   positional arguments, then reverts "sys.path" to the copied

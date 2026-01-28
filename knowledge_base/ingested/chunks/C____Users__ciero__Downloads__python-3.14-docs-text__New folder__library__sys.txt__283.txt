@@ -1,0 +1,5 @@
+e.g. "os.RTLD_LAZY").
+   Availability: Unix.
+sys.set_int_max_str_digits(maxdigits)
+   Set the integer string conversion length limitation used by this
+   interpreter. See also "get_int_max_str_digits()".

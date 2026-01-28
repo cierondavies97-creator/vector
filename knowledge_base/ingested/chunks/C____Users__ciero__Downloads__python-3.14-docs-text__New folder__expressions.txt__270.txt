@@ -1,0 +1,3 @@
+"s or 'foo'" yields the desired value.  Because "not" has to create a
+new value, it returns a boolean value regardless of the type of its
+argument (for example, "not 'foo'" produces "False" rather than "''".)

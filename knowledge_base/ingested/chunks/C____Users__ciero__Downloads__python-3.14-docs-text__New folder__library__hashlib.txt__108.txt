@@ -1,0 +1,5 @@
+...               node_offset=0, node_depth=1, last_node=True)
+   >>> h10.update(h00.digest())
+   >>> h10.update(h01.digest())
+   >>> h10.hexdigest()
+   '3ad2a9b37c6070e374c7a8c508fe20ca86b6ed54e286e93a0318e95e881db5aa'

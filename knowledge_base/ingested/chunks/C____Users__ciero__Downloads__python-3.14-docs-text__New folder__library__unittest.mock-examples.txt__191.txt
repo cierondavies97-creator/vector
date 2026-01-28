@@ -1,0 +1,6 @@
+...     return True
+...
+And a matcher object that can use comparison functions like this for
+its equality operation would look something like this:
+>>> class Matcher:
+...     def __init__(self, compare, some_obj):

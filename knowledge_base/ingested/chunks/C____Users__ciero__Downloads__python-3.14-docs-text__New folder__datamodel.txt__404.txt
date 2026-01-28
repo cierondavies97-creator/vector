@@ -1,0 +1,3 @@
+Called when an attribute assignment is attempted.  This is called
+   instead of the normal mechanism (i.e. store the value in the
+   instance dictionary). *name* is the attribute name, *value* is the

@@ -1,0 +1,3 @@
+"recv()" above. Returns the number of bytes sent. Applications are
+   responsible for checking that all data has been sent; if only some
+   of the data was transmitted, the application needs to attempt

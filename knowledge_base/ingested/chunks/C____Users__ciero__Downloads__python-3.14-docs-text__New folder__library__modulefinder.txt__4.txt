@@ -1,0 +1,4 @@
+This class provides "run_script()" and "report()" methods to
+   determine the set of modules imported by a script. *path* can be a
+   list of directories to search for modules; if not specified,
+   "sys.path" is used.  *debug* sets the debugging level; higher

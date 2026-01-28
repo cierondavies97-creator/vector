@@ -1,0 +1,3 @@
+|                   | co_lnotab           | encoded mapping of line     |
+|                   |                     | numbers to bytecode indices |
++-------------------+---------------------+-----------------------------+

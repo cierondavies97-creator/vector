@@ -1,0 +1,3 @@
+file, while attempting to optimize internally, using a cache, the
+common case where many lines are read from a single file.  This is
+used by the "traceback" module to retrieve source lines for inclusion

@@ -1,0 +1,4 @@
+* *frozen*: If true (the default is "False"), assigning to fields
+     will generate an exception.  This emulates read-only frozen
+     instances. See the discussion below.
+     If "__setattr__()" or "__delattr__()" is defined in the class and

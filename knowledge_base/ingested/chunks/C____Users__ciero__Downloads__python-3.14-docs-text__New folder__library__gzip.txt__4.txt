@@ -1,0 +1,4 @@
+**gzip** and **gunzip** programs, such  as those produced by
+**compress** and **pack**, are not supported by this module.
+The module defines the following items:
+gzip.open(filename, mode='rb', compresslevel=9, encoding=None, errors=None, newline=None)

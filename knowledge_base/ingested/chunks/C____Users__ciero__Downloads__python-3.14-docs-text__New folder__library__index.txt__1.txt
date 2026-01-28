@@ -1,0 +1,4 @@
+also describes some of the optional components that are commonly
+included in Python distributions.
+Python's standard library is very extensive, offering a wide range of
+facilities as indicated by the long table of contents listed below.

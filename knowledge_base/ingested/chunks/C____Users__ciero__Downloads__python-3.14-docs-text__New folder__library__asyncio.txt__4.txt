@@ -1,0 +1,7 @@
+execution;
+* perform network IO and IPC;
+* control subprocesses;
+* distribute tasks via queues;
+* synchronize concurrent code;
+Additionally, there are **low-level** APIs for *library and framework
+developers* to:

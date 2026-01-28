@@ -1,0 +1,4 @@
+any number of arguments.
+         * **aggregate_class** (*class* | None) --
+           A class that must implement the following methods:
+           * "step()": Add a row to the current window.

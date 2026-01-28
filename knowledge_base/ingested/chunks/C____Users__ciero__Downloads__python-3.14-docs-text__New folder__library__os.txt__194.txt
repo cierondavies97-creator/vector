@@ -1,0 +1,5 @@
+Combine the functionality of "os.writev()" and "os.pwrite()".
+   Availability: Linux >= 2.6.30, FreeBSD >= 6.0, OpenBSD >= 2.7, AIX
+   >= 7.1.
+   Using flags requires Linux >= 4.6.
+   Added in version 3.7.

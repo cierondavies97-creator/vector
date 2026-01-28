@@ -1,0 +1,3 @@
+Changed in version 3.14: Added the *show_positions* parameter.
+dis.distb(tb=None, *, file=None, show_caches=False, adaptive=False, show_offset=False, show_positions=False)
+   Disassemble the top-of-stack function of a traceback, using the

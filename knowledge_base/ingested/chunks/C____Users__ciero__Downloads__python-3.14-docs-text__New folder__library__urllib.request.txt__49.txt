@@ -1,0 +1,4 @@
+example, if the request is for an image in an HTML document, this
+   should be the request-host of the request for the page containing
+   the image.
+   *unverifiable* should indicate whether the request is unverifiable,

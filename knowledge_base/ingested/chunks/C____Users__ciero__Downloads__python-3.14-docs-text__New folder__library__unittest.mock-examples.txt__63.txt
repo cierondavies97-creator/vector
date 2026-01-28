@@ -1,0 +1,6 @@
+...         mock_method.assert_called_with()
+...
+>>> MyTest('test_something').test_something()
+You can stack up multiple patch decorators using this pattern:
+   >>> class MyTest(unittest.TestCase):
+   ...     @patch('package.module.ClassName1')

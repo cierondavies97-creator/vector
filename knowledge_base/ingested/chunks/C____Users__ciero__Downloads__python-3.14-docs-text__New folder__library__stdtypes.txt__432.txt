@@ -1,0 +1,6 @@
+Conversion specifier
+~~~~~~~~~~~~~~~~~~~~
+By default, the value of a replacement field expression is converted
+to a string using "str()":
+   >>> from fractions import Fraction
+   >>> one_third = Fraction(1, 3)

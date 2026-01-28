@@ -1,0 +1,5 @@
+combined using the bitwise operators without losing their
+      "IntFlag" membership. "IntFlag" members are also subclasses of
+      "int". (Notes)
+   "ReprEnum"
+      Used by "IntEnum", "StrEnum", and "IntFlag" to keep the "str()"

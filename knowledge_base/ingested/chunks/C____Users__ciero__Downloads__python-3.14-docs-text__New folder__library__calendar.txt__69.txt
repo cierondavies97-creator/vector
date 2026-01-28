@@ -1,0 +1,11 @@
+calendar.MARCH
+calendar.APRIL
+calendar.MAY
+calendar.JUNE
+calendar.JULY
+calendar.AUGUST
+calendar.SEPTEMBER
+calendar.OCTOBER
+calendar.NOVEMBER
+calendar.DECEMBER
+   Aliases for the months of the year, where "JANUARY" is "1" and

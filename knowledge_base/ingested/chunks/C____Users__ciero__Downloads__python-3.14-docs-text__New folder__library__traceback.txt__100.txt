@@ -1,0 +1,4 @@
+>>> import traceback
+   >>> traceback.format_list([('spam.py', 3, '<module>', 'spam.eggs()'),
+   ...                        ('eggs.py', 42, 'eggs', 'return "bacon"')])
+   ['  File "spam.py", line 3, in <module>\n    spam.eggs()\n',

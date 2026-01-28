@@ -1,0 +1,5 @@
+>>> from email.generator import BytesGenerator
+   >>> from email import policy
+   >>> from subprocess import Popen, PIPE
+   >>> with open('mymsg.txt', 'rb') as f:
+   ...     msg = message_from_binary_file(f, policy=policy.default)

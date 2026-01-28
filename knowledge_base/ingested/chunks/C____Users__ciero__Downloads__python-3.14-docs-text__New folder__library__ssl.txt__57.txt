@@ -1,0 +1,5 @@
+"PROTOCOL_SSLv3" to "PROTOCOL_TLS" for maximum compatibility with
+   modern servers.
+   Changed in version 3.10: The *timeout* parameter was added.
+ssl.DER_cert_to_PEM_cert(der_cert_bytes)
+   Given a certificate as a DER-encoded blob of bytes, returns a PEM-

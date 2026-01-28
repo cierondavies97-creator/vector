@@ -1,0 +1,5 @@
+"dataclasses" --- Data Classes
+******************************
+**Source code:** Lib/dataclasses.py
+======================================================================
+This module provides a decorator and functions for automatically

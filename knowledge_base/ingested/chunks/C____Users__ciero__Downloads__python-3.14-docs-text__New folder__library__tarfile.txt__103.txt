@@ -1,0 +1,5 @@
+TarFile.extraction_filter
+   Added in version 3.12.
+   The extraction filter used as a default for the *filter* argument
+   of "extract()" and "extractall()".
+   The attribute may be "None" or a callable. String names are not

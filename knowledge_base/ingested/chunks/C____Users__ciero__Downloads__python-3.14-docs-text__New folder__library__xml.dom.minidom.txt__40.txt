@@ -1,0 +1,5 @@
+handleSlideshow(dom)
+minidom and the DOM standard
+============================
+The "xml.dom.minidom" module is essentially a DOM 1.0-compatible DOM
+with some DOM 2 features (primarily namespace features).

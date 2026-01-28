@@ -1,0 +1,3 @@
+Arithmetic specification does not specify the behavior of direct
+comparisons; these rules for comparisons involving a "NaN" were taken
+from the IEEE 854 standard (see Table 3 in section 5.7).  To ensure

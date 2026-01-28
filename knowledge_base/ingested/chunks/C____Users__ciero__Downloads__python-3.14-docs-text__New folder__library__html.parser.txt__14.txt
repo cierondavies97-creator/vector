@@ -1,0 +1,5 @@
+redefined version should always call the "HTMLParser" base class
+   method "close()".
+HTMLParser.reset()
+   Reset the instance.  Loses all unprocessed data.  This is called
+   implicitly at instantiation time.

@@ -1,0 +1,6 @@
+*O*(*n*) insertion step.
+   Changed in version 3.10: Added the *key* parameter.
+Performance Notes
+=================
+When writing time sensitive code using *bisect()* and *insort()*, keep
+these thoughts in mind:

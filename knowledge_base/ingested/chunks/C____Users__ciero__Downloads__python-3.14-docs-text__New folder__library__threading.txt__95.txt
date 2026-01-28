@@ -1,0 +1,4 @@
+until just after the "run()" method terminates.  The module
+      function "enumerate()" returns a list of all alive threads.
+   daemon
+      A boolean value indicating whether this thread is a daemon

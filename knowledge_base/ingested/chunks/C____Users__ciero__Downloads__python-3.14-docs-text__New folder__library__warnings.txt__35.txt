@@ -1,0 +1,3 @@
+|                 | warnings, regardless of location               |
+  +-----------------+------------------------------------------------+
+* *message* is a string containing a regular expression that the start

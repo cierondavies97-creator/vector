@@ -1,0 +1,5 @@
+# convolve(data, [1, -2, 1]) → 2nd derivative estimate
+       kernel = tuple(kernel)[::-1]
+       n = len(kernel)
+       padded_signal = chain(repeat(0, n-1), signal, repeat(0, n-1))
+       windowed_signal = sliding_window(padded_signal, n)

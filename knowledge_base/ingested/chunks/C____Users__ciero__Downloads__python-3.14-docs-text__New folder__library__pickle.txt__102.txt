@@ -1,0 +1,4 @@
+object.__getnewargs__()
+   This method serves a similar purpose as "__getnewargs_ex__()", but
+   supports only positional arguments.  It must return a tuple of
+   arguments "args" which will be passed to the "__new__()" method

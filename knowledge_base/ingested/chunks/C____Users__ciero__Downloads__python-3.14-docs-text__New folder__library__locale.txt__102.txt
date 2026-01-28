@@ -1,0 +1,3 @@
+attempted. If that fails for any category, no category is changed
+   at all.  When the locale is retrieved using this flag, a string
+   indicating the setting for all categories is returned. This string

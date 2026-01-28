@@ -1,0 +1,3 @@
+| Mode          | Action                                       |
+   |===============|==============================================|
+   | "'r|*'"       | Open a *stream* of tar blocks for reading    |

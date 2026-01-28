@@ -1,0 +1,4 @@
+that the median may not be an actual data point.
+   If the data is ordinal (supports order operations) but not numeric
+   (doesn't support addition), consider using "median_low()" or
+   "median_high()" instead.

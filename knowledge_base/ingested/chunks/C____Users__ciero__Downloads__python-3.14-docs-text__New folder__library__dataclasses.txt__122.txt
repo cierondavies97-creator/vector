@@ -1,0 +1,5 @@
+self.x.append(element)
+   assert D().x is D().x
+This has the same issue as the original example using class "C". That
+is, two instances of class "D" that do not specify a value for "x"
+when creating a class instance will share the same copy of "x".

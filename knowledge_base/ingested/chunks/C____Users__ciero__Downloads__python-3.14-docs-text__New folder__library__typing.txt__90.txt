@@ -1,0 +1,7 @@
+...]" for aesthetic reasons.  Internally, the latter is converted to
+the former, so the following are equivalent:
+   >>> class X[**P]: ...
+   ...
+   >>> X[int, str]
+   __main__.X[[int, str]]
+   >>> X[[int, str]]

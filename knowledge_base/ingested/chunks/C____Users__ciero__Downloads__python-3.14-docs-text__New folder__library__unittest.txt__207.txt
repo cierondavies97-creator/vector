@@ -1,0 +1,5 @@
+generated.
+      Duplicate elements are *not* ignored when comparing *first* and
+      *second*. It verifies whether each element has the same count in
+      both sequences. Equivalent to:
+      "assertEqual(Counter(list(first)), Counter(list(second)))" but

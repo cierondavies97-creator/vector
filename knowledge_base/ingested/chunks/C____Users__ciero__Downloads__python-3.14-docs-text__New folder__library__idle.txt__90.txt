@@ -1,0 +1,5 @@
+runs code in an editor window.
+The editing features described in previous subsections work when
+entering code interactively.  IDLE's Shell window also responds to the
+following:
+* "C"-"c" attempts to interrupt statement execution (but may fail).

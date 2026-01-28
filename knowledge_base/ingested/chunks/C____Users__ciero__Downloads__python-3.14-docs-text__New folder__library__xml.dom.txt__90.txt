@@ -1,0 +1,4 @@
+the newly created attribute instance.
+Document.createAttributeNS(namespaceURI, qualifiedName)
+   Create and return an attribute node with a namespace.  The
+   *tagName* may have a prefix.  This method does not associate the

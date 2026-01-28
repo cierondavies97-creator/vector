@@ -1,0 +1,4 @@
+you have modified your "PATH" variable, you may need to remove them or
+undo the modifications. See Troubleshooting for more help with fixing
+non-working commands.
+When you first install a runtime, you will likely be prompted to add a

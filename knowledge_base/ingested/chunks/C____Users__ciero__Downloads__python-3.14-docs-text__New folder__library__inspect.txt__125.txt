@@ -1,0 +1,6 @@
+structures.  For Python implementations without such types, this
+   method will always return "False".
+Retrieving source code
+======================
+inspect.getdoc(object)
+   Get the documentation string for an object, cleaned up with

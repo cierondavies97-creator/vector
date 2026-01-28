@@ -1,0 +1,4 @@
+In the next example, walking the tree bottom-up is essential:
+   "rmdir()" doesn't allow deleting a directory before the directory
+   is empty:
+      # Delete everything reachable from the directory named in "top",

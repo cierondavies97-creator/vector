@@ -1,0 +1,7 @@
+from subprocess import Popen, PIPE
+   import sys
+   from threading import Thread
+   from urllib.parse import urlparse
+   from urllib.request import urlretrieve
+   import venv
+   class ExtendedEnvBuilder(venv.EnvBuilder):

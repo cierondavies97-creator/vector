@@ -1,0 +1,5 @@
+further information.
+   See also "pause()", "sigpending()" and "sigwait()".
+   Added in version 3.3.
+signal.setitimer(which, seconds, interval=0.0)
+   Sets given interval timer (one of "signal.ITIMER_REAL",

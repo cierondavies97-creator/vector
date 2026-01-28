@@ -1,0 +1,5 @@
+by default. A "ValueError" is raised if *address* does not
+   represent a valid IPv4 or IPv6 address.
+   >>> ipaddress.ip_address('192.168.0.1')
+   IPv4Address('192.168.0.1')
+   >>> ipaddress.ip_address('2001:db8::')

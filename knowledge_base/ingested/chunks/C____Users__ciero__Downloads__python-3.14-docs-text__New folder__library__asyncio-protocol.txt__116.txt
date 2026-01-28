@@ -1,0 +1,5 @@
+self.transport = transport
+       def data_received(self, data):
+           print("Received:", data.decode())
+           # We are done: close the transport;
+           # connection_lost() will be called automatically.

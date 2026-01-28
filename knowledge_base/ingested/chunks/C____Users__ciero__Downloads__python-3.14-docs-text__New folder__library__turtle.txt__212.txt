@@ -1,0 +1,4 @@
+performed.  (Can be used to accelerate the drawing of complex
+   graphics.)  When called without arguments, returns the currently
+   stored value of n. Second argument sets delay value (see
+   "delay()").

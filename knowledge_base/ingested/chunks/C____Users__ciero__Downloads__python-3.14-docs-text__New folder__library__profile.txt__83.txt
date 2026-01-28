@@ -1,0 +1,3 @@
+fraction between 0.0 and 1.0 inclusive (to select a percentage
+      of lines), or a string that will be interpreted as a regular
+      expression (to pattern match the standard name that is printed).

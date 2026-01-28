@@ -1,0 +1,3 @@
+Setting *preferred* to "True" makes this browser a preferred result
+   for a "get()" call with no argument.  Otherwise, this entry point
+   is only useful if you plan to either set the "BROWSER" variable or

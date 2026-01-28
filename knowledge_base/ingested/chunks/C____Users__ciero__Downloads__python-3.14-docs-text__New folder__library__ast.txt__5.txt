@@ -1,0 +1,3 @@
+stmt = FunctionDef(identifier name, arguments args,
+                          stmt* body, expr* decorator_list, expr? returns,
+                          string? type_comment, type_param* type_params)

@@ -1,0 +1,4 @@
+error, it exits and prints the error along with a usage message:
+   >>> parser = argparse.ArgumentParser(prog='PROG')
+   >>> parser.add_argument('--foo', type=int)
+   >>> parser.add_argument('bar', nargs='?')

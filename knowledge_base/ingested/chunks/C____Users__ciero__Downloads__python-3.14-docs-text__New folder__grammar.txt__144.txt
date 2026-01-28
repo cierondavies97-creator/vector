@@ -1,0 +1,7 @@
+| power
+   power[expr_ty]:
+       | a=await_primary '**' b=factor { _PyAST_BinOp(a, Pow, b, EXTRA) }
+       | await_primary
+   # Primary elements
+   # ----------------
+   # Primary elements are things like "obj.something.something", "obj[something]", "obj(something)", "obj" ...

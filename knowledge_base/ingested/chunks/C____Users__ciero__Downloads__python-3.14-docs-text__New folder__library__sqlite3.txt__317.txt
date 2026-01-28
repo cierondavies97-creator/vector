@@ -1,0 +1,6 @@
+con.close()
+How to work with SQLite URIs
+----------------------------
+Some useful URI tricks include:
+* Open a database in read-only mode:
+   >>> con = sqlite3.connect("file:tutorial.db?mode=ro", uri=True)

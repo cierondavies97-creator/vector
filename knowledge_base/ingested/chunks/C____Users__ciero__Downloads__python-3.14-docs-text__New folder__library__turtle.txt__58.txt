@@ -1,0 +1,6 @@
+turtle.teleport(x, y=None, *, fill_gap=False)
+   Parameters:
+      * **x** -- a number or "None"
+      * **y** -- a number or "None"
+      * **fill_gap** -- a boolean
+   Move turtle to an absolute position. Unlike goto(x, y), a line will

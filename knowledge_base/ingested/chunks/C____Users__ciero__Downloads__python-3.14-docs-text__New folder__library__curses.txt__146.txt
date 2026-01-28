@@ -1,0 +1,4 @@
+insert/delete character feature of the terminal; if *flag* is
+   "True", use of character insertion and deletion is enabled.  When
+   curses is first initialized, use of character insert/delete is
+   enabled by default.

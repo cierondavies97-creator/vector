@@ -1,0 +1,4 @@
+removing duplicates from a sequence, and computing mathematical
+operations such as intersection, union, difference, and symmetric
+difference.
+For set elements, the same immutability rules apply as for dictionary

@@ -1,0 +1,8 @@
+Changed in version 3.6: "wfile" also supports the
+   "io.BufferedIOBase" writable interface.
+Examples
+========
+"socketserver.TCPServer" Example
+--------------------------------
+This is the server side:
+   import socketserver

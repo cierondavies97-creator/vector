@@ -1,0 +1,5 @@
+* "bytes" (less than 10M bytes each)
+   * "None"
+   It also notably differs from the built-in "list" type in that these
+   lists can not change their overall length (i.e. no "append()",
+   "insert()", etc.) and do not support the dynamic creation of new

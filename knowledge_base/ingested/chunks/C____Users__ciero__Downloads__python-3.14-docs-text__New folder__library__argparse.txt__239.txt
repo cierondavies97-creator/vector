@@ -1,0 +1,5 @@
+>>> parser.parse_args(['-x', '-1'])
+   Namespace(foo=None, x='-1')
+   >>> # no negative number options, so -1 and -5 are positional arguments
+   >>> parser.parse_args(['-x', '-1', '-5'])
+   Namespace(foo='-5', x='-1')

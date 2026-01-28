@@ -1,0 +1,5 @@
+the mean is automatically calculated.
+   Use this function when your data is a sample from a population. To
+   calculate the variance from the entire population, see
+   "pvariance()".
+   Raises "StatisticsError" if *data* has fewer than two values.

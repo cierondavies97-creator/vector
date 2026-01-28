@@ -1,0 +1,4 @@
+the "os.DirEntry" methods and handle as appropriate.
+   To be directly usable as a *path-like object*, "os.DirEntry"
+   implements the "PathLike" interface.
+   Attributes and methods on a "os.DirEntry" instance are as follows:

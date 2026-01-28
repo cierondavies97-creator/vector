@@ -1,0 +1,5 @@
+Changed in version 3.14: The *require_scheme* and *resolve_host*
+   parameters were added.
+urllib.request.getproxies()
+   This helper function returns a dictionary of scheme to proxy server
+   URL mappings. It scans the environment for variables named

@@ -1,0 +1,5 @@
+Return "True" if both the real and imaginary parts of *z* are
+   finite, and "False" otherwise.
+   Added in version 3.2.
+cmath.isinf(z)
+   Return "True" if either the real or the imaginary part of *z* is an

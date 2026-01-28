@@ -1,0 +1,4 @@
+class importlib.abc.Traversable
+   An object with a subset of "pathlib.Path" methods suitable for
+   traversing directories and opening files.
+   For a representation of the object on the file-system, use

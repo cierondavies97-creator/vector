@@ -1,0 +1,5 @@
+Open a "Blob" handle to an existing BLOB (Binary Large OBject).
+      Parameters:
+         * **table** (*str*) -- The name of the table where the blob
+           is located.
+         * **column** (*str*) -- The name of the column where the blob

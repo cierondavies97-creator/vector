@@ -1,0 +1,5 @@
+Credits
+-------
+BLAKE2 was designed by *Jean-Philippe Aumasson*, *Samuel Neves*,
+*Zooko Wilcox-O'Hearn*, and *Christian Winnerlein* based on SHA-3
+finalist BLAKE created by *Jean-Philippe Aumasson*, *Luca Henzen*,

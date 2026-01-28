@@ -1,0 +1,5 @@
+in Lib/http/server.py.
+      Changed in version 3.7: Support of the "'If-Modified-Since'"
+      header.
+The "SimpleHTTPRequestHandler" class can be used in the following
+manner in order to create a very basic webserver serving files

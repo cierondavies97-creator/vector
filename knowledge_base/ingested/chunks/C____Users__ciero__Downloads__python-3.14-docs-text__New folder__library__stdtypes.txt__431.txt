@@ -1,0 +1,6 @@
+'number=14.3'
+Whitespace before, inside and after the expression, as well as
+whitespace after the equal sign, is significant --- it is retained in
+the result:
+   >>> f'{ number  -  4  = }'
+   ' number  -  4  = 10.3'

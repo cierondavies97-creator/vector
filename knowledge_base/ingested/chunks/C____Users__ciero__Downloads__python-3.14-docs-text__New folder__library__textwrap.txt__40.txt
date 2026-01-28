@@ -1,0 +1,3 @@
+considered as potentially good places for line breaks, but you
+      need to set "break_long_words" to false if you want truly
+      insecable words.  Default behaviour in previous versions was to

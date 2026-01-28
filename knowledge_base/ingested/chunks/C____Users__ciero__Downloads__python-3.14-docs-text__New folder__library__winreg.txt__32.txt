@@ -1,0 +1,7 @@
+"REG_EXPAND_SZ":
+      >>> ExpandEnvironmentStrings('%windir%')
+      'C:\\Windows'
+   Raises an auditing event "winreg.ExpandEnvironmentStrings" with
+   argument "str".
+winreg.FlushKey(key)
+   Writes all the attributes of a key to the registry.

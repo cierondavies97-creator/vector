@@ -1,0 +1,4 @@
+"showwarning()" function (which also suppresses output to
+   "sys.stdout"). Each object in the list has attributes with the same
+   names as the arguments to "showwarning()".
+   The *module* argument takes a module that will be used instead of

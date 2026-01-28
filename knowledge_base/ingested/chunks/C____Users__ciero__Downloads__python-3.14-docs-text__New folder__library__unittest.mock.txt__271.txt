@@ -1,0 +1,8 @@
+...     print(ord('c'))
+   ...
+   >>> test()
+   101
+TEST_PREFIX
+-----------
+All of the patchers can be used as class decorators. When used in this
+way they wrap every test method on the class. The patchers recognise

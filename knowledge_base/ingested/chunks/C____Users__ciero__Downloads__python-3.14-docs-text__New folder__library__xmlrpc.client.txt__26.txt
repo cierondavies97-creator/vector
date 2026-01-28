@@ -1,0 +1,3 @@
+|                        | depends on the value of the *use_builtin_types* flag.   |
+   +------------------------+---------------------------------------------------------+
+   | "nil"                  | The "None" constant.  Passing is allowed only if        |

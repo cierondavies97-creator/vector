@@ -1,0 +1,5 @@
+yields a function object.  The unnamed object behaves like a function
+object defined with:
+   def <lambda>(parameters):
+       return expression
+See section Function definitions for the syntax of parameter lists.

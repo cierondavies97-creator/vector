@@ -1,0 +1,4 @@
+Certain character sets must be encoded with quoted-printable or
+   base64 when used in email headers or bodies.  Certain character
+   sets must be converted outright, and are not allowed in email.
+   Optional *input_charset* is as described below; it is always

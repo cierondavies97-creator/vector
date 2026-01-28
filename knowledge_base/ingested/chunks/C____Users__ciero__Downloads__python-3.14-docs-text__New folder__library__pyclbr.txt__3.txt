@@ -1,0 +1,3 @@
+descriptors.  If possible, descriptors for imported base classes
+   are included.  Parameter *module* is a string with the name of the
+   module to read; it may be the name of a module within a package.

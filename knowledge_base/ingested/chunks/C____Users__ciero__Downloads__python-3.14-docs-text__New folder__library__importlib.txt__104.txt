@@ -1,0 +1,4 @@
+If the resource does not concretely exist on the file system,
+         raise "FileNotFoundError".
+   abstractmethod is_resource(name)
+         Returns "True" if the named *name* is considered a resource.

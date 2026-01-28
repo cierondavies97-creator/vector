@@ -1,0 +1,4 @@
+is returned but no value is cached in "sys.path_importer_cache".
+   classmethod invalidate_caches()
+      Calls "importlib.abc.PathEntryFinder.invalidate_caches()" on all
+      finders stored in "sys.path_importer_cache" that define the

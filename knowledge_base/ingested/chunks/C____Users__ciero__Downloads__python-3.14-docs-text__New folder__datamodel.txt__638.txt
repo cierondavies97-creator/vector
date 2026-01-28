@@ -1,0 +1,4 @@
+3.4.4. Asynchronous Context Managers
+------------------------------------
+An *asynchronous context manager* is a *context manager* that is able
+to suspend execution in its "__aenter__" and "__aexit__" methods.

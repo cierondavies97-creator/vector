@@ -1,0 +1,5 @@
+"__getitem__()" or "__class_getitem__()" should be called:
+   from inspect import isclass
+   def subscribe(obj, x):
+       """Return the result of the expression 'obj[x]'"""
+       class_of_obj = type(obj)

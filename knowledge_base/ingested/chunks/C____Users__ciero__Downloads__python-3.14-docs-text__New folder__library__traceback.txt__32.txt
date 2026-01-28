@@ -1,0 +1,4 @@
+attached to the exception.
+   Changed in version 3.13: *show_group* parameter was added.
+traceback.format_exception(exc, /, [value, tb, ]limit=None, chain=True)
+   Format a stack trace and the exception information.  The arguments

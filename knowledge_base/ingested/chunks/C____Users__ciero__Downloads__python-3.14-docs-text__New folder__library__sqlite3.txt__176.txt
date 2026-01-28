@@ -1,0 +1,4 @@
+file.  For an in-memory database or a "temp" database, the
+      serialization is the same sequence of bytes which would be
+      written to disk if that database were backed up to disk.
+      Parameters:

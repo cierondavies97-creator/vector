@@ -1,0 +1,4 @@
+with negative lookbehind assertions may match at the beginning of
+   the string being searched.
+"(?(id/name)yes-pattern|no-pattern)"
+   Will try to match with "yes-pattern" if the group with given *id*

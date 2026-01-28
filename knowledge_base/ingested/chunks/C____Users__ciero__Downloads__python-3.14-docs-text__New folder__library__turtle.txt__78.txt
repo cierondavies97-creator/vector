@@ -1,0 +1,7 @@
+used to delete it by calling "clearstamp(stamp_id)".
+      >>> turtle.color("blue")
+      >>> stamp_id = turtle.stamp()
+      >>> turtle.fd(50)
+turtle.clearstamp(stampid)
+   Parameters:
+      **stampid** -- an integer, must be return value of previous

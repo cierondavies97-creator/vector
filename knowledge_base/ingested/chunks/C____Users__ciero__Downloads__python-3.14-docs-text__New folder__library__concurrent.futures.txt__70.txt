@@ -1,0 +1,3 @@
+some circumstances. Follow its eventual resolution in gh-115634.
+   Changed in version 3.3: When one of the worker processes terminates
+   abruptly, a "BrokenProcessPool" error is now raised. Previously,

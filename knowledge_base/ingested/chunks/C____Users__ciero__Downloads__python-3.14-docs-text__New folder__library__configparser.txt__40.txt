@@ -1,0 +1,6 @@
+purpose = formatting for readability
+           multiline_values = are
+               handled just fine as
+               long as they are indented
+               deeper than the first line
+               of a value

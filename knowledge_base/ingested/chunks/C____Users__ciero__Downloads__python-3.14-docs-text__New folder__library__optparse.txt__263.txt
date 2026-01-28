@@ -1,0 +1,6 @@
+"callback_kwargs"
+   a dictionary of extra keyword arguments to pass to the callback
+How callbacks are called
+------------------------
+All callbacks are called as follows:
+   func(option, opt_str, value, parser, *args, **kwargs)

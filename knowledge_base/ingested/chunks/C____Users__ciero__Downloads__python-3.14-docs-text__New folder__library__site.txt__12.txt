@@ -1,0 +1,4 @@
+Note:
+  An executable line in a ".pth" file is run at every Python startup,
+  regardless of whether a particular module is actually going to be
+  used. Its impact should thus be kept to a minimum. The primary

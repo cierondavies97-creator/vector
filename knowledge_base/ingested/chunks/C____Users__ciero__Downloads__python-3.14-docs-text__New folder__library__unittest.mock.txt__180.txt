@@ -1,0 +1,5 @@
+>>> mock.name = "foo"
+Attaching Mocks as Attributes
+-----------------------------
+When you attach a mock as an attribute of another mock (or as the
+return value) it becomes a "child" of that mock. Calls to the child

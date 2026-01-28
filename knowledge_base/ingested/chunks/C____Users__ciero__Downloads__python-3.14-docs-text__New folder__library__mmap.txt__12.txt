@@ -1,0 +1,4 @@
+create an empty mapping on Windows).
+   *tagname*, if specified and not "None", is a string giving a tag
+   name for the mapping.  Windows allows you to have many different
+   mappings against the same file.  If you specify the name of an

@@ -1,0 +1,3 @@
+Note that urlopen returns a bytes object.  This is because there is no
+way for urlopen to automatically determine the encoding of the byte
+stream it receives from the HTTP server. In general, a program will

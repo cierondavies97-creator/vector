@@ -1,0 +1,3 @@
+"urldefrag()" functions are subclasses of the "tuple" type. These
+subclasses add the attributes listed in the documentation for those
+functions, the encoding and decoding support described in the previous

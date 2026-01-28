@@ -1,0 +1,4 @@
+"EFD_SEMAPHORE".
+   If "EFD_SEMAPHORE" is specified and the event counter is non-zero,
+   "eventfd_read()" returns 1 and decrements the counter by one.
+   If "EFD_SEMAPHORE" is not specified and the event counter is non-

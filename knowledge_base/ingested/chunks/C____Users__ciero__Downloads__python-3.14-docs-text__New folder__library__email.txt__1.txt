@@ -1,0 +1,3 @@
+The "email" package is a library for managing email messages.  It is
+specifically *not* designed to do any sending of email messages to
+SMTP (**RFC 2821**), NNTP, or other servers; those are functions of

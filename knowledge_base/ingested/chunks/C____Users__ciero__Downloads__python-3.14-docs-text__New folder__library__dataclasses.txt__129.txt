@@ -1,0 +1,4 @@
+overwriting the descriptor object.
+* To determine whether a field contains a default value, "@dataclass"
+  will call the descriptor's "__get__()" method using its class access
+  form: "descriptor.__get__(obj=None, type=cls)".  If the descriptor

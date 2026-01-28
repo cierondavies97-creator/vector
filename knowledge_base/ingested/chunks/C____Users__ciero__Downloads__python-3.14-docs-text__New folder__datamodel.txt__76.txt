@@ -1,0 +1,2 @@
+| function.__closure__                               | "None" or a "tuple" of cells that contain bindings |
+|                                                    | for the names specified in the "co_freevars"       |

@@ -1,0 +1,4 @@
+possible values.
+   *errors* controls how decoding errors are handled. If "'strict'"
+   (the default), a "UnicodeError" exception is raised. Other possible
+   values are "'ignore'", "'replace'", and any other name registered

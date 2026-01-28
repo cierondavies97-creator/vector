@@ -1,0 +1,3 @@
+with "dbm" databases is that the values (not the keys!) in a shelf can
+be essentially arbitrary Python objects --- anything that the "pickle"
+module can handle. This includes most class instances, recursive data

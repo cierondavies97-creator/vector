@@ -1,0 +1,4 @@
+===============================================
+When creating new WSGI application objects, frameworks, servers, or
+middleware, it can be useful to validate the new code's conformance
+using "wsgiref.validate".  This module provides a function that

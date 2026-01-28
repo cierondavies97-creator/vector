@@ -1,0 +1,3 @@
+delay compared to an IPv4-only client.  This is undesirable because
+   it causes the dual-stack client to have a worse user experience.
+   This document specifies requirements for algorithms that reduce

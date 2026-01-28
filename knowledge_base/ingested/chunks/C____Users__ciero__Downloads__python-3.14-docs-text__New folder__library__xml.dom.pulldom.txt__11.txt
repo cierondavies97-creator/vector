@@ -1,0 +1,4 @@
+class xml.dom.pulldom.SAX2DOM(documentFactory=None)
+   Subclass of "xml.sax.handler.ContentHandler".
+xml.dom.pulldom.parse(stream_or_string, parser=None, bufsize=None)
+   Return a "DOMEventStream" from the given input. *stream_or_string*

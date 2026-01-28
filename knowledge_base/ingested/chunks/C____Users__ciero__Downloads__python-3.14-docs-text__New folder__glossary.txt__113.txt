@@ -1,0 +1,4 @@
+generator
+   A function which returns a *generator iterator*.  It looks like a
+   normal function except that it contains "yield" expressions for
+   producing a series of values usable in a for-loop or that can be

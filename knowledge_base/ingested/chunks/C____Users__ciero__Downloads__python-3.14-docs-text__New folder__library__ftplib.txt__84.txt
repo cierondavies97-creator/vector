@@ -1,0 +1,6 @@
+includes the four exceptions listed above as well as "OSError" and
+   "EOFError".
+See also:
+  Module "netrc"
+     Parser for the ".netrc" file format.  The file ".netrc" is
+     typically used by FTP clients to load user authentication

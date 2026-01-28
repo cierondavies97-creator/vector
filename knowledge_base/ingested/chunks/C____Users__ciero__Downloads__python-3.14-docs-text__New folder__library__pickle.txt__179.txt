@@ -1,0 +1,4 @@
+to *buffer_callback*.  Those buffers will provide the data expected by
+the reconstructors of the objects whose pickling produced the original
+"PickleBuffer" objects.
+Between the sending side and the receiving side, the communications

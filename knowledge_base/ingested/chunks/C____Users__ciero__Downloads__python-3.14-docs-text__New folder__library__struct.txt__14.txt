@@ -1,0 +1,4 @@
+been consumed.  The buffer's size in bytes must be a multiple of
+   the size required by the format, as reflected by "calcsize()".
+   Each iteration yields a tuple as specified by the format string.
+   Added in version 3.4.

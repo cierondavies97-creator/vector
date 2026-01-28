@@ -1,0 +1,5 @@
+instance is slightly more efficient since new "PrettyPrinter" objects
+don't need to be created.
+PrettyPrinter.isreadable(object)
+   Determine if the formatted representation of the object is
+   "readable," or can be used to reconstruct the value using "eval()".

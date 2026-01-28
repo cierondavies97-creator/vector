@@ -1,0 +1,5 @@
+allocations.
+The following callbacks are called on "BufferedProtocol" instances:
+BufferedProtocol.get_buffer(sizehint)
+   Called to allocate a new receive buffer.
+   *sizehint* is the recommended minimum size for the returned buffer.

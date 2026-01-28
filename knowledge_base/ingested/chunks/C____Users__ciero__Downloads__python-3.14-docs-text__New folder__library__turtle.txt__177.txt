@@ -1,0 +1,6 @@
+turtle.end_poly()
+   Stop recording the vertices of a polygon.  Current turtle position
+   is last vertex of polygon.  This will be connected with the first
+   vertex.
+turtle.get_poly()
+   Return the last recorded polygon.

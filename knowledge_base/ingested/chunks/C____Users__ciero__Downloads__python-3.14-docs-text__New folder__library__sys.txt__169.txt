@@ -1,0 +1,3 @@
+accounted for, not the memory consumption of objects it refers to.
+   If given, *default* will be returned if the object does not provide
+   means to retrieve the size.  Otherwise a "TypeError" will be

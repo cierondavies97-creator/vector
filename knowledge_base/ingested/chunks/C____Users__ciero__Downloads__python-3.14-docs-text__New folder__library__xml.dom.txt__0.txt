@@ -1,0 +1,5 @@
+"xml.dom" --- The Document Object Model API
+*******************************************
+**Source code:** Lib/xml/dom/__init__.py
+======================================================================
+The Document Object Model, or "DOM," is a cross-language API from the

@@ -1,0 +1,5 @@
+Added in version 3.11.
+   "Template" instances also provide one public data attribute:
+   template
+      This is the object passed to the constructor's *template*
+      argument.  In general, you shouldn't change it, but read-only

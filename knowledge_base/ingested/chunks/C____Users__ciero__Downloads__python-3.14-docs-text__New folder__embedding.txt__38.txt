@@ -1,0 +1,7 @@
+return c
+then the result should be:
+   $ call multiply multiply 3 2
+   Will compute 3 times 2
+   Result of call: 6
+Although the program is quite large for its functionality, most of the
+code is for data conversion between Python and C, and for error

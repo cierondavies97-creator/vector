@@ -1,0 +1,6 @@
+>>> POINT.y
+   <ctypes.CField 'y' type=c_int, ofs=4, size=4>
+   >>>
+Warning:
+  "ctypes" does not support passing unions or structures with bit-
+  fields to functions by value.  While this may work on 32-bit x86,

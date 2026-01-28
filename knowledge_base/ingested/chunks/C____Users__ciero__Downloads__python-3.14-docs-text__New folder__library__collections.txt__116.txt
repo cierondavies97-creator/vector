@@ -1,0 +1,4 @@
+"defaultdict" objects support the following instance variable:
+   default_factory
+      This attribute is used by the "__missing__()" method; it is
+      initialized from the first argument to the constructor, if

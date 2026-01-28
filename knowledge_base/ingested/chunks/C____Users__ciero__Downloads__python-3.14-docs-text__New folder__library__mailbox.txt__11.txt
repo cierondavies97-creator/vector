@@ -1,0 +1,3 @@
+simultaneously changed by some other process.  The safest mailbox
+     format to use for such tasks is "Maildir"; try to avoid using
+     single-file formats such as "mbox" for concurrent writing.  If

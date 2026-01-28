@@ -1,0 +1,4 @@
+used. The default is "FORMAT_AUTO", which can decompress both ".xz"
+   and ".lzma" files. Other possible values are "FORMAT_XZ",
+   "FORMAT_ALONE", and "FORMAT_RAW".
+   The *memlimit* argument specifies a limit (in bytes) on the amount

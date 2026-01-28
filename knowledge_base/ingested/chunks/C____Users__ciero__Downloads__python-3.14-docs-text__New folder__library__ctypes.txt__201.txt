@@ -1,0 +1,10 @@
+>>> s.value = b"abc def ghi"
+   >>> s.value
+   b'abc def ghi'
+   >>> s.value is s.value
+   False
+   >>>
+Note:
+  Objects instantiated from "c_char_p" can only have their value set
+  to bytes or integers.
+Why is it printing "False"?  ctypes instances are objects containing a

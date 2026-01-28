@@ -1,0 +1,5 @@
+an alias of "OSError".
+select.devpoll()
+   (Only supported on Solaris and derivatives.)  Returns a "/dev/poll"
+   polling object; see section /dev/poll Polling Objects below for the
+   methods supported by devpoll objects.

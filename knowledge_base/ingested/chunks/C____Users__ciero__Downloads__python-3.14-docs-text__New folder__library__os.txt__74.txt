@@ -1,0 +1,4 @@
+may cause memory leaks. Refer to the system documentation for
+     "putenv()".
+   Raises an auditing event "os.putenv" with arguments "key", "value".
+   Changed in version 3.9: The function is now always available.

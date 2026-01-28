@@ -1,0 +1,9 @@
+more.
+   file
+      Name of the file in which the class is defined.
+   module
+      The name of the module defining the class described.
+   name
+      The name of the class.
+   lineno
+      The line number in the file where the definition starts.

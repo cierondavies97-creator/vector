@@ -1,0 +1,4 @@
+attribute if necessary if the "namespaceURI" and "localName"
+   attributes match. If a replacement occurs, the old attribute node
+   will be returned.  If *newAttr* is already in use,
+   "InuseAttributeErr" will be raised.

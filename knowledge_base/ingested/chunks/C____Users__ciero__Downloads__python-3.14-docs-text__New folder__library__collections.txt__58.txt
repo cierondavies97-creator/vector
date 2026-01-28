@@ -1,0 +1,4 @@
+c.clear()                       # reset all counts
+   list(c)                         # list unique elements
+   set(c)                          # convert to a set
+   dict(c)                         # convert to a regular dictionary

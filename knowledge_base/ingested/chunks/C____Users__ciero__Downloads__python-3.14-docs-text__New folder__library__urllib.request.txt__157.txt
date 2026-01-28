@@ -1,0 +1,5 @@
+given URI.
+AbstractBasicAuthHandler Objects
+================================
+AbstractBasicAuthHandler.http_error_auth_reqed(authreq, host, req, headers)
+   Handle an authentication request by getting a user/password pair,

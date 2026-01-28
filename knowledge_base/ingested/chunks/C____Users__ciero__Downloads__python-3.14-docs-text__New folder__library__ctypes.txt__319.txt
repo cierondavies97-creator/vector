@@ -1,0 +1,4 @@
+ctypes.DllCanUnloadNow()
+   This function is a hook which allows implementing in-process COM
+   servers with ctypes.  It is called from the DllCanUnloadNow
+   function that the _ctypes extension dll exports.

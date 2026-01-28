@@ -1,0 +1,4 @@
+file attributes of a directory entry.
+   "scandir()" will provide as much of this information as possible
+   without making additional system calls. When a "stat()" or
+   "lstat()" system call is made, the "os.DirEntry" object will cache

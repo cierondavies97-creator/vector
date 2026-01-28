@@ -1,0 +1,5 @@
+directory, and if so, adds it to "sys.path" and also inspects the
+newly added path for configuration files.
+Changed in version 3.5: Support for the "site-python" directory has
+been removed.
+Changed in version 3.13: On Unix, *Free threading* Python

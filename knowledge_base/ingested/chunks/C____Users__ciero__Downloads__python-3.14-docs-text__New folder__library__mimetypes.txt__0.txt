@@ -1,0 +1,5 @@
+"mimetypes" --- Map filenames to MIME types
+*******************************************
+**Source code:** Lib/mimetypes.py
+======================================================================
+The "mimetypes" module converts between a filename or URL and the MIME

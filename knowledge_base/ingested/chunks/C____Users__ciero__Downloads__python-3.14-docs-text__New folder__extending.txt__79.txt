@@ -1,0 +1,6 @@
+Py_ExitStatusException(status);
+   }
+Note:
+  If you declare a global variable or a local static one, the module
+  may experience unintended side-effects on re-initialisation, for
+  example when removing entries from "sys.modules" or importing

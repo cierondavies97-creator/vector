@@ -1,0 +1,7 @@
+is raised.
+msvcrt.LK_UNLCK
+   Unlocks the specified bytes, which must have been previously
+   locked.
+msvcrt.setmode(fd, flags)
+   Set the line-end translation mode for the file descriptor *fd*. To
+   set it to text mode, *flags* should be "os.O_TEXT"; for binary, it

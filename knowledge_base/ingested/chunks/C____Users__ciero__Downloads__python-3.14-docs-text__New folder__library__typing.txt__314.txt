@@ -1,0 +1,4 @@
+"ParamSpecKwargs". They are intended for runtime introspection and
+   have no special meaning to static type checkers.
+   Calling "get_origin()" on either of these objects will return the
+   original "ParamSpec":

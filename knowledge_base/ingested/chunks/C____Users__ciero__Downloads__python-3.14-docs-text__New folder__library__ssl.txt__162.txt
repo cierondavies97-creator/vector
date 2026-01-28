@@ -1,0 +1,4 @@
+(('localityName', 'San Francisco'),),
+                   (('organizationName', 'Electronic Frontier Foundation, Inc.'),),
+                   (('commonName', '*.eff.org'),),
+                   (('emailAddress', 'hostmaster@eff.org'),)),

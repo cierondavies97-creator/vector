@@ -1,0 +1,5 @@
+to sort according to time spent within each function, and then print
+the statistics for the top ten functions.
+You might also try:
+   p.sort_stats(SortKey.FILENAME).print_stats('__init__')
+This will sort all the statistics by file name, and then print out

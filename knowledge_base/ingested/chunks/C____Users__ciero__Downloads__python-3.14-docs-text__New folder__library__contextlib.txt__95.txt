@@ -1,0 +1,6 @@
+Added in version 3.7.
+Examples and Recipes
+====================
+This section describes some examples and recipes for making effective
+use of the tools provided by "contextlib".
+Supporting a variable number of context managers

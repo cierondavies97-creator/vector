@@ -1,0 +1,4 @@
+the second argument is negative; in that case, all arguments are
+converted to float and a float result is delivered. For example,
+"10**2" returns "100", but "10**-2" returns "0.01".
+Raising "0.0" to a negative power results in a "ZeroDivisionError".

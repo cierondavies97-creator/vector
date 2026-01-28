@@ -1,0 +1,4 @@
+"address".
+   Changed in version 3.5: The method now waits until the connection
+   completes instead of raising an "InterruptedError" exception if the
+   connection is interrupted by a signal, the signal handler doesn't

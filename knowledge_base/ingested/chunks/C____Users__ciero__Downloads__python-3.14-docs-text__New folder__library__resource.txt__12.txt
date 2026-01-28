@@ -1,0 +1,5 @@
+"resource", "limits".
+resource.prlimit(pid, resource[, limits])
+   Combines "setrlimit()" and "getrlimit()" in one function and
+   supports to get and set the resources limits of an arbitrary
+   process. If *pid* is 0, then the call applies to the current

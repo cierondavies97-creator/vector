@@ -1,0 +1,4 @@
+internet software (not just email), this will be a familiar concept to
+many programmers.
+The following sections describe the functionality of the "email"
+package. We start with the "message" object model, which is the

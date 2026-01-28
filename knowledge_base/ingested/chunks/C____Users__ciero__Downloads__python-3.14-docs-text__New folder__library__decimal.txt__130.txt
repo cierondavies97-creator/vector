@@ -1,0 +1,5 @@
+An error is returned whenever the resulting exponent is greater
+      than "Emax" or less than "Etiny()".
+   radix()
+      Return "Decimal(10)", the radix (base) in which the "Decimal"
+      class does all its arithmetic.  Included for compatibility with

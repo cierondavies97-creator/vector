@@ -1,0 +1,4 @@
+exceptions.
+In the case where a task group is cancelled externally and also must
+raise an "ExceptionGroup", it will call the parent task's "cancel()"
+method. This ensures that a "asyncio.CancelledError" will be raised at

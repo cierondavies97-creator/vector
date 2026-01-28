@@ -1,0 +1,5 @@
+"linecache" --- Random access to text lines
+*******************************************
+**Source code:** Lib/linecache.py
+======================================================================
+The "linecache" module allows one to get any line from a Python source

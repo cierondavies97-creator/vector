@@ -1,0 +1,5 @@
+"O_CLOEXEC" is available on the system, it is added to *oflag*.
+   Availability: Unix, not WASI.
+   Added in version 3.13.
+os.preadv(fd, buffers, offset, flags=0, /)
+   Read from a file descriptor *fd* at a position of *offset* into

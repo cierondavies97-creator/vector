@@ -1,0 +1,5 @@
+▶ Where does this function come from?
+▶ will import everything in a module
+▶ . . . unless you have a very good reason: e.g. pylab, interactive
+▶ Put all imports at the beginning of the file. . .
+▶ . . . unless you have a very good reason

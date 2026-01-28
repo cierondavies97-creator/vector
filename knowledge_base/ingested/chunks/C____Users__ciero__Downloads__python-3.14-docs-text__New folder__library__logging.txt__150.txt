@@ -1,0 +1,3 @@
+the original log record in any future processing of the event.
+Note that filters attached to handlers are consulted before an event
+is emitted by the handler, whereas filters attached to loggers are

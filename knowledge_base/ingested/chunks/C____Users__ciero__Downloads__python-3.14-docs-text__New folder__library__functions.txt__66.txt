@@ -1,0 +1,3 @@
+conversion like "int" and "float". For a general Python object "x",
+   "complex(x)" delegates to "x.__complex__()". If "__complex__()" is
+   not defined then it falls back to "__float__()". If "__float__()"

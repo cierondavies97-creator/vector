@@ -1,0 +1,5 @@
+"""Add a row to the current window."""
+                 self.count += value
+             def value(self):
+                 """Return the current value of the aggregate."""
+                 return self.count

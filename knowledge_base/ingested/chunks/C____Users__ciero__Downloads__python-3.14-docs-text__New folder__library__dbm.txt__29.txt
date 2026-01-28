@@ -1,0 +1,6 @@
+dbm.gnu.open(filename, flag='r', mode=0o666, /)
+   Open a GDBM database and return a "gdbm" object.
+   Parameters:
+      * **filename** (*path-like object*) -- The database file to
+        open.
+      * **flag** (*str*) --

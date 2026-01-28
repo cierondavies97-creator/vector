@@ -1,0 +1,3 @@
+appropriate callbacks, and parsing the entity.  This handler should
+   return an integer; if it returns "0", the parser will raise an
+   "XML_ERROR_EXTERNAL_ENTITY_HANDLING" error, otherwise parsing will

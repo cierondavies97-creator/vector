@@ -1,0 +1,4 @@
+to the order of the input *iterable*.  If the input *iterable* is
+   sorted, the output tuples will be produced in sorted order.
+   Elements are treated as unique based on their position, not on
+   their value.  If the input elements are unique, there will be no

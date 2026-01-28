@@ -1,0 +1,4 @@
+of the scripts and run them at the same time.
+* Multiple scripts demonstrating different features of the "turtle"
+  module.  Examples can be accessed via the Examples menu.  They can
+  also be run standalone.

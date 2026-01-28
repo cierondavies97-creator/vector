@@ -1,0 +1,4 @@
+Added in version 3.4.2.
+WriteTransport.set_write_buffer_limits(high=None, low=None)
+   Set the *high* and *low* watermarks for write flow control.
+   These two values (measured in number of bytes) control when the

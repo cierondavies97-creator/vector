@@ -1,0 +1,2 @@
+M.close()
+   M.logout()

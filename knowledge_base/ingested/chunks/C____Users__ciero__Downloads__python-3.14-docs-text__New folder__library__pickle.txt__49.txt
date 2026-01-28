@@ -1,0 +1,4 @@
+This takes a binary file for writing a pickle data stream.
+   The optional *protocol* argument, an integer, tells the pickler to
+   use the given protocol; supported protocols are 0 to
+   "HIGHEST_PROTOCOL". If not specified, the default is

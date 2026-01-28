@@ -1,0 +1,5 @@
+*data* is a non-empty bytes object containing the received data.
+SubprocessProtocol.pipe_connection_lost(fd, exc)
+   Called when one of the pipes communicating with the child process
+   is closed.
+   *fd* is the integer file descriptor that was closed.

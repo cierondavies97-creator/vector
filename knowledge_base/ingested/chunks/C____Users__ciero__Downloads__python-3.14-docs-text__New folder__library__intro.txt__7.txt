@@ -1,0 +1,4 @@
+built-in functions, data types and exceptions, and finally the
+modules, grouped in chapters of related modules.
+This means that if you start reading this manual from the start, and
+skip to the next chapter when you get bored, you will get a reasonable

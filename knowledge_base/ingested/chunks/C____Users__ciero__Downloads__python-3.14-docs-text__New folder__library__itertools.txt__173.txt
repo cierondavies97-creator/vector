@@ -1,0 +1,7 @@
+yield i
+       else:
+           stop = len(iterable) if stop is None else stop
+           i = start
+           with suppress(ValueError):
+               while True:
+                   yield (i := seq_index(value, i, stop))

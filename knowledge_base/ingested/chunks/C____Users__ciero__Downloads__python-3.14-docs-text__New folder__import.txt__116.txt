@@ -1,0 +1,3 @@
+during the import process, but it's important to keep in mind that
+they are subtly different. In particular, meta path finders operate at
+the beginning of the import process, as keyed off the "sys.meta_path"

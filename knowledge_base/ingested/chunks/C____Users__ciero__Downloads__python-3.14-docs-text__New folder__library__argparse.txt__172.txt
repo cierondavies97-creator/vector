@@ -1,0 +1,3 @@
+In general, the "type" keyword is a convenience that should only be
+used for simple conversions that can only raise one of the three
+supported exceptions. Anything with more interesting error-handling or

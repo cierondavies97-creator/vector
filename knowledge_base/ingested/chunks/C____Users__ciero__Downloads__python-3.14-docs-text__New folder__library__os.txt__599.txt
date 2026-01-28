@@ -1,0 +1,5 @@
+flushing stdio buffers, etc.
+   Note:
+     The standard way to exit is "sys.exit(n)".  "_exit()" should
+     normally only be used in the child process after a "fork()".
+The following exit codes are defined and can be used with "_exit()",

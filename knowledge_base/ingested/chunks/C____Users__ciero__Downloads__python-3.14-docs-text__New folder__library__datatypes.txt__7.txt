@@ -1,0 +1,6 @@
+* "defaultdict" Examples
+  * "namedtuple()" Factory Function for Tuples with Named Fields
+  * "OrderedDict" objects
+    * "OrderedDict" Examples and Recipes
+  * "UserDict" objects
+  * "UserList" objects

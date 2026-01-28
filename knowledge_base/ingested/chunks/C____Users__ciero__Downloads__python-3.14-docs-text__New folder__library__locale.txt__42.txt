@@ -1,0 +1,4 @@
+| "1"            | The sign should precede the value and     |
+   |                | currency symbol.                          |
+   +----------------+-------------------------------------------+
+   | "2"            | The sign should follow the value and      |

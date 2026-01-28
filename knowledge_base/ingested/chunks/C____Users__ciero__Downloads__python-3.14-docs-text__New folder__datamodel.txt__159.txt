@@ -1,0 +1,4 @@
+available.
+   "__file__" indicates the pathname of the file from which the module
+   was loaded (if loaded from a file), or the pathname of the shared
+   library file for extension modules loaded dynamically from a shared

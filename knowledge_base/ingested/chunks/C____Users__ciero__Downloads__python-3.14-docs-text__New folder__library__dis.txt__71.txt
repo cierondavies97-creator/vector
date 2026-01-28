@@ -1,0 +1,6 @@
+NOT_TAKEN
+   Do nothing code. Used by the interpreter to record "BRANCH_LEFT"
+   and "BRANCH_RIGHT" events for "sys.monitoring".
+   Added in version 3.14.
+POP_ITER
+   Removes the iterator from the top of the stack.

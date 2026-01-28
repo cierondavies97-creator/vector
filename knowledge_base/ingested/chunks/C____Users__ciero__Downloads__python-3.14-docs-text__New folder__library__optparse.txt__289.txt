@@ -1,0 +1,4 @@
+(Or whatever; obviously you don't need a callback for this example.)
+Callback example 6: variable arguments
+--------------------------------------
+Things get hairy when you want an option to take a variable number of

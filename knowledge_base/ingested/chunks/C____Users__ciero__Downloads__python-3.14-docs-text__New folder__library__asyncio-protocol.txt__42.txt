@@ -1,0 +1,5 @@
+WriteTransport.write(data)
+   Write some *data* bytes to the transport.
+   This method does not block; it buffers the data and arranges for it
+   to be sent out asynchronously.
+WriteTransport.writelines(list_of_data)

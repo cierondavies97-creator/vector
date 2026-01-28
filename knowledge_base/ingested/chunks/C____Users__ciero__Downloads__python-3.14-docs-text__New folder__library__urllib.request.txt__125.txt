@@ -1,0 +1,5 @@
+"OpenerDirector". Return values should be the same as for
+   "default_open()".
+BaseHandler.unknown_open(req)
+   This method is *not* defined in "BaseHandler", but subclasses
+   should define it if they want to catch all URLs with no specific

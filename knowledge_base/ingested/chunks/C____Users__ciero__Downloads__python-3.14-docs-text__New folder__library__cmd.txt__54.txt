@@ -1,0 +1,10 @@
+(turtle) reset
+   (turtle) circle 20
+   (turtle) right 30
+   (turtle) circle 40
+   (turtle) right 30
+   (turtle) circle 60
+   (turtle) right 30
+   (turtle) circle 80
+   (turtle) right 30
+   (turtle) circle 100

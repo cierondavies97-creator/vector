@@ -1,0 +1,4 @@
+responsible for inserting any desired padding. Note in the first
+"pack" call below that three NUL bytes were added after the packed
+"'#'" to align the following integer on a four-byte boundary. In this
+example, the output was produced on a little endian machine:

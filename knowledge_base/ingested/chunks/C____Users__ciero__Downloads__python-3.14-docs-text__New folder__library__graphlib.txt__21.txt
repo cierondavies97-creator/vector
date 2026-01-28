@@ -1,0 +1,6 @@
+the number that have been returned by
+      "TopologicalSorter.get_ready()".
+      The "__bool__()" method of this class defers to this function,
+      so instead of:
+         if ts.is_active():
+             ...

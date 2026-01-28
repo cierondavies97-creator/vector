@@ -1,0 +1,4 @@
+*package* if *module_relative* is "False".
+   Optional argument *setUp* specifies a set-up function for the test
+   suite. This is called before running the tests in each file.  The
+   *setUp* function will be passed a "DocTest" object.  The *setUp*

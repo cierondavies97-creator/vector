@@ -1,0 +1,7 @@
+args:
+         The arguments for the logging message.
+      exc_info:
+         An exception tuple, or "None".
+      func:
+         The name of the function or method which invoked the logging
+         call.

@@ -1,0 +1,3 @@
+This is the "polite" way to close a connection, but it may raise
+      an exception if the server responds with an error to the "QUIT"
+      command.  This implies a call to the "close()" method which

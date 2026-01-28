@@ -1,0 +1,4 @@
+exception; when this happens, an unspecified number of bytes may have
+already been written to the underlying file.  Trying to pickle a
+highly recursive data structure may exceed the maximum recursion
+depth, a "RecursionError" will be raised in this case.  You can

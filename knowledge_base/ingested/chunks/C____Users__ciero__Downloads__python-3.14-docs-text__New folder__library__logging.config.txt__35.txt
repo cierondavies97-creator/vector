@@ -1,0 +1,5 @@
+"listen()". This is typically called before calling "join()" on the
+   return value from "listen()".
+Security considerations
+=======================
+The logging configuration functionality tries to offer convenience,

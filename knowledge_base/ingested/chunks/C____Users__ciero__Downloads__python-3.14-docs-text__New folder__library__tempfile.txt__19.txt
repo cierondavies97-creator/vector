@@ -1,0 +1,4 @@
+*delete_on_close* is ignored.
+   Therefore to use the name of the temporary file to reopen the file
+   after closing it, either make sure not to delete the file upon
+   closure (set the *delete* parameter to be false) or, in case the

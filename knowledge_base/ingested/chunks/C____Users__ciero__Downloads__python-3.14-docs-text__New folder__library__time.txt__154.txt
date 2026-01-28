@@ -1,0 +1,6 @@
+not incremented while the system is asleep.
+   Availability: macOS >= 10.12.
+   Added in version 3.8.
+time.CLOCK_UPTIME_RAW_APPROX
+   Like "CLOCK_UPTIME_RAW", but the value is cached by the system at
+   context switches and therefore has less accuracy.

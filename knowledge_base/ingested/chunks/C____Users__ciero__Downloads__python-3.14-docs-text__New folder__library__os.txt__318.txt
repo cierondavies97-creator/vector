@@ -1,0 +1,4 @@
+descriptors.
+   It is also possible to create temporary directories; see the
+   "tempfile" module's "tempfile.mkdtemp()" function.
+   Raises an auditing event "os.mkdir" with arguments "path", "mode",

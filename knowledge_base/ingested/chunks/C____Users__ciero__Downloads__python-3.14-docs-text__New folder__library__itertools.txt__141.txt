@@ -1,0 +1,4 @@
+as recipes.  Currently, the "sliding_window()", "derangements()", and
+"sieve()" recipes are being tested to see whether they prove their
+worth.
+Substantially all of these recipes and many, many others can be

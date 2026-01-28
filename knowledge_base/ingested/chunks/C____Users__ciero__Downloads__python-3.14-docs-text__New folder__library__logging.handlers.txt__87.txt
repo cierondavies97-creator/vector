@@ -1,0 +1,4 @@
+* "retryMax" (maximum delay, defaulting to 30.0 seconds).
+      This means that if the remote listener starts up *after* the
+      handler has been used, you could lose messages (since the
+      handler won't even attempt a connection until the delay has

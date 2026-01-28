@@ -1,0 +1,2 @@
+| frame.f_locals                                     | The mapping used by the frame to look up local     |
+|                                                    | variables. If the frame refers to an *optimized    |

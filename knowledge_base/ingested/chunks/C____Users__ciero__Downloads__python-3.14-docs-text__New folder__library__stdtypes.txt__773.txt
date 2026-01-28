@@ -1,0 +1,4 @@
+argument and a possibly empty set of keyword arguments.
+   Dictionaries can be created by several means:
+   * Use a comma-separated list of "key: value" pairs within braces:
+     "{'jack': 4098, 'sjoerd': 4127}" or "{4098: 'jack', 4127:

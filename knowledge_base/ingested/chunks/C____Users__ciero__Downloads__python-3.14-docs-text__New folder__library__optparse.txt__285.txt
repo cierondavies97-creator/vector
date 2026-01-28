@@ -1,0 +1,5 @@
+reader.)
+Callback example 5: fixed arguments
+-----------------------------------
+Things get slightly more interesting when you define callback options
+that take a fixed number of arguments.  Specifying that a callback

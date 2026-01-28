@@ -1,0 +1,5 @@
+attribute and method lookups. Use the function *only* to drop
+   unnecessary references during reference leak debugging.
+   This function should be used for internal and specialized purposes
+   only.
+   Deprecated since version 3.13: Use the more general

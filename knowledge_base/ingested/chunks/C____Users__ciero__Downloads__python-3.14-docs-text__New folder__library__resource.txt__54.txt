@@ -1,0 +1,3 @@
+Pass to "getrusage()" to request resources consumed by the current
+   thread.  May not be available on all systems.
+   Added in version 3.2.

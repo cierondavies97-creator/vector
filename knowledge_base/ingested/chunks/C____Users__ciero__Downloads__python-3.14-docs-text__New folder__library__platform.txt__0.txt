@@ -1,0 +1,4 @@
+"platform" ---  Access to underlying platform's identifying data
+****************************************************************
+**Source code:** Lib/platform.py
+======================================================================

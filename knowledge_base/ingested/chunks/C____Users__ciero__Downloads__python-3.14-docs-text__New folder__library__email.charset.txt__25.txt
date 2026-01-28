@@ -1,0 +1,4 @@
+Add character properties to the global registry.
+   *charset* is the input character set, and must be the canonical
+   name of a character set.
+   Optional *header_enc* and *body_enc* is either "charset.QP" for

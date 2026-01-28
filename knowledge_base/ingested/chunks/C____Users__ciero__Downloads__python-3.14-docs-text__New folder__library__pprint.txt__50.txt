@@ -1,0 +1,5 @@
+'description': 'A sample Python project\n'
+                   '=======================\n'
+                   '\n'
+                   'This is the description file for the project.\n'
+                   '\n'

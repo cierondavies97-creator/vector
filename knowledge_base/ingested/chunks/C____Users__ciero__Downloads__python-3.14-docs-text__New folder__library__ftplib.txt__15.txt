@@ -1,0 +1,4 @@
+Changed in version 3.3: *source_address* parameter was added.
+   Changed in version 3.9: If the *timeout* parameter is set to be
+   zero, it will raise a "ValueError" to prevent the creation of a
+   non-blocking socket. The *encoding* parameter was added, and the

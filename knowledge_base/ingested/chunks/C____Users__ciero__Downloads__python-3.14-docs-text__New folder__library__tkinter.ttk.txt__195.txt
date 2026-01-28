@@ -1,0 +1,4 @@
+inserted at the end. If *iid* is specified, it is used as the
+      item identifier; *iid* must not already exist in the tree.
+      Otherwise, a new unique identifier is generated.
+      See Item Options for the list of available options.

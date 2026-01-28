@@ -1,0 +1,4 @@
+* the "subprocess.STDOUT" constant which will connect the
+       standard error stream to the process' standard output stream
+   * All other keyword arguments are passed to "subprocess.Popen"
+     without interpretation, except for *bufsize*,

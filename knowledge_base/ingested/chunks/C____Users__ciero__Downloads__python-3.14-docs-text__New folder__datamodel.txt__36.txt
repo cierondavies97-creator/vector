@@ -1,0 +1,5 @@
+left.
+Booleans ("bool")
+   These represent the truth values False and True.  The two objects
+   representing the values "False" and "True" are the only Boolean
+   objects. The Boolean type is a subtype of the integer type, and

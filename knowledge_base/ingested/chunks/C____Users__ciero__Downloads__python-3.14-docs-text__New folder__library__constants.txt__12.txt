@@ -1,0 +1,5 @@
+constants to the built-in namespace.  They are useful for the
+interactive interpreter shell and should not be used in programs.
+quit(code=None)
+exit(code=None)
+   Objects that when printed, print a message like "Use quit() or

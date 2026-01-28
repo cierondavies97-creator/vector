@@ -1,0 +1,6 @@
+"[Non-text (%(type)s) part of message omitted, filename
+      %(filename)s]"
+   Optional *_mangle_from_* and *maxheaderlen* are as with the
+   "Generator" base class.
+-[ Footnotes ]-
+[1] This statement assumes that you use the appropriate setting for

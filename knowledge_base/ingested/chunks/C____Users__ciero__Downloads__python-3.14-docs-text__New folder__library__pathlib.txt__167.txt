@@ -1,0 +1,4 @@
+specific order, sort the results.
+   See also: Pattern language documentation.
+   By default, or when the *case_sensitive* keyword-only argument is
+   set to "None", this method matches paths using platform-specific

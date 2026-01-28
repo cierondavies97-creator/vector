@@ -1,0 +1,4 @@
+some event to happen and then get exclusive access to a shared
+   resource.
+   In essence, a Condition object combines the functionality of an
+   "Event" and a "Lock".  It is possible to have multiple Condition

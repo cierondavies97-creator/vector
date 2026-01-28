@@ -1,0 +1,4 @@
+3.3.3.6. Creating the class object
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Once the class namespace has been populated by executing the class
+body, the class object is created by calling "metaclass(name, bases,

@@ -1,0 +1,4 @@
+[image]
+Selecting this option will download and install additional binaries to
+the same location as the main Python install. The main executable is
+called "python3.13t.exe", and other binaries either receive a "t"

@@ -1,0 +1,7 @@
+#       rule_name[return_type]:
+   #            | first_alt
+   #            | second_alt
+   # ( e )
+   #   Match e (allows also to use other operators in the group like '(e)*')
+   # [ e ] or e?
+   #   Optionally match e.

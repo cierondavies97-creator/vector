@@ -1,0 +1,3 @@
+U+0041) and *abstract characters* (e.g. "LATIN CAPITAL LETTER A").
+    While most abstract characters in Unicode are only represented
+    using one code point, there is a number of abstract characters

@@ -1,0 +1,4 @@
+bytes of dynamic memory allocated.
+   The amplification factor is calculated as "allocated / direct"
+   while parsing, where "direct" is the number of bytes read from the
+   primary document in parsing and "allocated" is the number of bytes

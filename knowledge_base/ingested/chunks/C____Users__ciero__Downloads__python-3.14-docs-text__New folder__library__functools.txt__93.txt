@@ -1,0 +1,6 @@
+"register()" attribute can also be used in a functional form:
+      >>> def nothing(arg, verbose=False):
+      ...     print("Nothing.")
+      ...
+      >>> fun.register(type(None), nothing)
+   The "register()" attribute returns the undecorated function. This

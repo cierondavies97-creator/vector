@@ -1,0 +1,4 @@
+True
+   Some named tuples are built-in types (such as the above examples).
+   Alternatively, a named tuple can be created from a regular class
+   definition that inherits from "tuple" and that defines named

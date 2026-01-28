@@ -1,0 +1,4 @@
+their bases.
+User-defined generics for parameter expressions are also supported via
+parameter specification variables in the form "[**P]".  The behavior
+is consistent with type variables' described above as parameter

@@ -1,0 +1,4 @@
+files = [stack.enter_context(open(fname)) for fname in filenames]
+             # Hold onto the close method, but don't call it yet.
+             close_files = stack.pop_all().close
+             # If opening any file fails, all previously opened files will be

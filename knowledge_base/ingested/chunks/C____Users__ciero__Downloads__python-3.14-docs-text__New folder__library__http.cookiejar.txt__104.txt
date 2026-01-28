@@ -1,0 +1,6 @@
+Otherwise, return *default*.
+Cookie.set_nonstandard_attr(name, value)
+   Set the value of the named cookie-attribute.
+The "Cookie" class also defines the following method:
+Cookie.is_expired(now=None)
+   "True" if cookie has passed the time at which the server requested

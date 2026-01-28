@@ -1,0 +1,8 @@
+#
+   # There are three styles:
+   # - No default
+   # - With default
+   # - Maybe with default
+   #
+   # There are two alternative forms of each, to deal with type comments:
+   # - Ends in a comma followed by an optional type comment

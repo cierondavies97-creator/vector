@@ -1,0 +1,5 @@
+A subclass of "PurePath", this path flavour represents non-Windows
+   filesystem paths:
+      >>> PurePosixPath('/etc/hosts')
+      PurePosixPath('/etc/hosts')
+   *pathsegments* is specified similarly to "PurePath".

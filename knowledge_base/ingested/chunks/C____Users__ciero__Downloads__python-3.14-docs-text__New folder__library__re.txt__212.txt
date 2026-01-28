@@ -1,0 +1,6 @@
+"copy.deepcopy()".  Compiled regular expression objects are considered
+atomic.
+Match Objects
+=============
+Match objects always have a boolean value of "True". Since "match()"
+and "search()" return "None" when there is no match, you can test

@@ -1,0 +1,5 @@
+"__path__" attribute.
+   See also *regular package* and *namespace package*.
+parallelism
+   Executing multiple operations at the same time (e.g. on multiple
+   CPU cores).  In Python builds with the *global interpreter lock

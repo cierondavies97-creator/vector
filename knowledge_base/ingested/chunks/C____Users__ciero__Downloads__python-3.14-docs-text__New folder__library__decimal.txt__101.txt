@@ -1,0 +1,6 @@
+infinity and "False" otherwise.
+   is_nan()
+      Return "True" if the argument is a (quiet or signaling) NaN and
+      "False" otherwise.
+   is_normal(context=None)
+      Return "True" if the argument is a *normal* finite number.

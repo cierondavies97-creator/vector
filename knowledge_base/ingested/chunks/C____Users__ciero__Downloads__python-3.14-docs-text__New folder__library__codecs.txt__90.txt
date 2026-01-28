@@ -1,0 +1,5 @@
+Incremental Encoding and Decoding
+---------------------------------
+The "IncrementalEncoder" and "IncrementalDecoder" classes provide the
+basic interface for incremental encoding and decoding.
+Encoding/decoding the input isn't done with one call to the stateless

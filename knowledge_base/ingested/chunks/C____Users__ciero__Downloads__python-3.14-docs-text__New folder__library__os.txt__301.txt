@@ -1,0 +1,5 @@
+common use cases.
+   Changed in version 3.2: The *path* parameter became optional.
+   Changed in version 3.3: Added support for specifying *path* as an
+   open file descriptor.
+   Changed in version 3.6: Accepts a *path-like object*.

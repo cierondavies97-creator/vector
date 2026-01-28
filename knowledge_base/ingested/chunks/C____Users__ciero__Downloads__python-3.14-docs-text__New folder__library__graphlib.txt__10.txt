@@ -1,0 +1,4 @@
+topological_sorter.prepare()
+      while topological_sorter.is_active():
+          for node in topological_sorter.get_ready():
+              # Worker threads or processes take nodes to work on off the

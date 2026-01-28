@@ -1,0 +1,4 @@
+In a model generated from bytes, any header values that (in
+   contravention of the RFCs) contain non-ASCII bytes will, when
+   retrieved through this interface, be represented as "Header"
+   objects with a charset of "unknown-8bit".

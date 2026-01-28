@@ -1,0 +1,6 @@
+at each provided path.
+How venvs work
+==============
+When a Python interpreter is running from a virtual environment,
+"sys.prefix" and "sys.exec_prefix" point to the directories of the
+virtual environment, whereas "sys.base_prefix" and

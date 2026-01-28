@@ -1,0 +1,4 @@
+*chr* as integer. Returns "0" if no combining class is defined. See
+   the Canonical Combining Class Values section of the Unicode
+   Character Database for more information.
+unicodedata.east_asian_width(chr)

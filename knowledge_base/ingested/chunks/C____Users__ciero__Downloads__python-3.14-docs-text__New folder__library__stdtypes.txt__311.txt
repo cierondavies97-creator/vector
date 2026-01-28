@@ -1,0 +1,4 @@
+(the default), a "UnicodeError" exception is raised. Other possible
+   values are "'ignore'", "'replace'", "'xmlcharrefreplace'",
+   "'backslashreplace'" and any other name registered via
+   "codecs.register_error()". See Error Handlers for details.

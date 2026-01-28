@@ -1,0 +1,4 @@
+compiling:
+     $ /opt/bin/python3.11-config --cflags
+     -I/opt/include/python3.11 -I/opt/include/python3.11 -Wsign-compare  -DNDEBUG -g -fwrapv -O3 -Wall
+* "pythonX.Y-config --ldflags --embed" will give you the recommended

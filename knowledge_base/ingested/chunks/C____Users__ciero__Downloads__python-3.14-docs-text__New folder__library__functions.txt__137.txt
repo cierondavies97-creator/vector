@@ -1,0 +1,5 @@
+provided, otherwise "AttributeError" is raised. *name* need not be
+   a Python identifier (see "setattr()").
+   Note:
+     Since private name mangling happens at compilation time, one must
+     manually mangle a private attribute's (attributes with two

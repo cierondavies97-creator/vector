@@ -1,0 +1,4 @@
+that code still using "doctest.master.summarize" in conjunction
+   with "testmod()" continues to get output for objects with no tests.
+   The *exclude_empty* argument to the newer "DocTestFinder"
+   constructor defaults to true.

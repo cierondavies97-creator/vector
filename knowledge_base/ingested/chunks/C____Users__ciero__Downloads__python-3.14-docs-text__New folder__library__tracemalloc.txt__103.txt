@@ -1,0 +1,7 @@
+print("Traceback (most recent call first):")
+         for line in traceback:
+             print(line)
+      Output:
+         Traceback (most recent call first):
+           File "test.py", line 9
+             obj = Object()

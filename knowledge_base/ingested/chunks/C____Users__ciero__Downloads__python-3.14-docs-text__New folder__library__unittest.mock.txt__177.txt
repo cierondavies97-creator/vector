@@ -1,0 +1,12 @@
+>>> hasattr(mock, 'm')
+True
+>>> del mock.m
+>>> hasattr(mock, 'm')
+False
+>>> del mock.f
+>>> mock.f
+Traceback (most recent call last):
+    ...
+AttributeError: f
+Mock names and the name attribute
+---------------------------------

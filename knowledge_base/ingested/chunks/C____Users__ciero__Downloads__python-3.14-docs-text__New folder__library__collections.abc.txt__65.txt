@@ -1,0 +1,4 @@
+the *stop* and *start* arguments.
+   Deprecated since version 3.12, will be removed in version 3.17: The
+   "ByteString" ABC has been deprecated.Use "isinstance(obj,
+   collections.abc.Buffer)" to test if "obj" implements the buffer

@@ -1,0 +1,4 @@
+This is a factory method which can be overridden in subclasses
+      to create specialized "LogRecord" instances.
+   hasHandlers()
+      Checks to see if this logger has any handlers configured. This

@@ -1,0 +1,4 @@
+(e.g. "'"'") preserves the literal value of all characters within
+  the quotes, with the exception of the characters mentioned in
+  "escape".  The escape characters retain its special meaning only
+  when followed by the quote in use, or the escape character itself.

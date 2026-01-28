@@ -1,0 +1,4 @@
+EOF is reached. File position is updated on return or also in case
+   of error in which case "file.tell()" can be used to figure out the
+   number of bytes which were sent. The socket must be of
+   "SOCK_STREAM" type. Non-blocking sockets are not supported.

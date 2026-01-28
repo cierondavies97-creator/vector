@@ -1,0 +1,4 @@
+opened, or it can be an existing file object to read from or write
+   to.
+   The mode argument can be either "'rb'" for reading (default),
+   "'wb'" for overwriting, "'ab'" for appending, or "'xb'" for

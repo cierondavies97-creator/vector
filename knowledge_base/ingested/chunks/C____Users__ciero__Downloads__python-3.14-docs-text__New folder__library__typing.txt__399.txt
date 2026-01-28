@@ -1,0 +1,4 @@
+protocols, and their interface is fairly broad.
+The protocols "io.Reader" and "io.Writer" offer a simpler alternative
+for argument types, when only the "read()" or "write()" methods are
+accessed, respectively:

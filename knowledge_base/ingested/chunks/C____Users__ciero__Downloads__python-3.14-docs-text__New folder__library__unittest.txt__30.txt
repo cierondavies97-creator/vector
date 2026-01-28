@@ -1,0 +1,5 @@
+the test run. Output during a passing test is discarded. Output is
+   echoed normally on test fail or error and is added to the failure
+   messages.
+-c, --catch
+   "Control"-"C" during the test run waits for the current test to end

@@ -1,0 +1,4 @@
+"optparse" automatically adds a "--version" option to your parser. If
+it encounters this option on the command line, it expands your
+"version" string (by replacing "%prog"), prints it to stdout, and
+exits.

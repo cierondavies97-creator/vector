@@ -1,0 +1,4 @@
+When another *operation* is given, it must be a "command verb" that
+   specifies what should be done with the file. Common verbs
+   documented by Microsoft are "'open'", "'print'" and  "'edit'" (to
+   be used on files) as well as "'explore'" and "'find'" (to be used

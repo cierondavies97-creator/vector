@@ -1,0 +1,4 @@
+"None".
+      "update()" accepts either another object with a "keys()" method
+      (in which case "__getitem__()" is called with every key returned
+      from the method) or an iterable of key/value pairs (as tuples or

@@ -1,0 +1,4 @@
+(optional callback) for each event. In addition, the interpreted
+nature of Python tends to add so much overhead to execution, that
+deterministic profiling tends to only add small processing overhead in
+typical applications.  The result is that deterministic profiling is

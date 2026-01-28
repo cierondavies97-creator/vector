@@ -1,0 +1,4 @@
+development and review, because the setup code and the cleanup code
+can end up being separated by arbitrarily long sections of code.
+"ExitStack" makes it possible to instead register a callback for
+execution at the end of a "with" statement, and then later decide to

@@ -1,0 +1,7 @@
+from typing import Self, reveal_type
+      class Foo:
+          def return_self(self) -> Self:
+              ...
+              return self
+      class SubclassOfFoo(Foo): pass
+      reveal_type(Foo().return_self())  # Revealed type is "Foo"

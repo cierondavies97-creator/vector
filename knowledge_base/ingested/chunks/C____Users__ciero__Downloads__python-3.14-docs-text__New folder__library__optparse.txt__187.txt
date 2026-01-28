@@ -1,0 +1,5 @@
+which you may specify to guide "optparse"'s behaviour; a few have
+required attributes, which you must specify for any option using that
+action.
+* ""store"" [relevant: "type", "dest", "nargs", "choices"]
+  The option must be followed by an argument, which is converted to a

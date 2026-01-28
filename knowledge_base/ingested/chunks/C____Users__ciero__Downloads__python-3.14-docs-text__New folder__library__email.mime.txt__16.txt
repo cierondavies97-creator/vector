@@ -1,0 +1,4 @@
+Module: "email.mime.application"
+   A subclass of "MIMENonMultipart", the "MIMEApplication" class is
+   used to represent MIME message objects of major type *application*.
+   *_data* contains the bytes for the raw application data.  Optional

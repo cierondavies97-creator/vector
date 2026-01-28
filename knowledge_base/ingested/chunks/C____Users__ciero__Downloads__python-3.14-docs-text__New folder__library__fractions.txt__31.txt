@@ -1,0 +1,4 @@
+"str.format()" method, the "format()" built-in function, or
+      Formatted string literals.
+      If the "format_spec" format specification string does not end
+      with one of the presentation types "'e'", "'E'", "'f'", "'F'",

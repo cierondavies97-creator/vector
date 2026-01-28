@@ -1,0 +1,4 @@
+* "None" for non-encoded parts of the header.
+   2. A list of length 1 containing a pair "(string, None)", where
+      *string* is always an instance of "str".
+   An "email.errors.HeaderParseError" may be raised when certain

@@ -1,0 +1,4 @@
+Search for all descendants (direct children, children's children,
+   etc.) with a particular element type name.
+Document.getElementsByTagNameNS(namespaceURI, localName)
+   Search for all descendants (direct children, children's children,

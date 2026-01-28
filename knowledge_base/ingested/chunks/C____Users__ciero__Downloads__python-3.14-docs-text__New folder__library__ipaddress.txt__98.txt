@@ -1,0 +1,4 @@
+objects.
+      >>> list(ip_network('192.0.2.0/24').subnets())
+      [IPv4Network('192.0.2.0/25'), IPv4Network('192.0.2.128/25')]
+      >>> list(ip_network('192.0.2.0/24').subnets(prefixlen_diff=2))

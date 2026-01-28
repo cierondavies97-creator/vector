@@ -1,0 +1,3 @@
+the objects support removal of keys, or for sequences if elements
+   can be removed from the sequence.  The same exceptions should be
+   raised for improper *key* values as for the "__getitem__()" method.

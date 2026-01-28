@@ -1,0 +1,4 @@
+future version of Python. The following table summarizes major
+deprecations for your convenience. This is subject to change, and not
+all deprecations are listed.
++---------------------------+---------------------------+---------------------------+---------------------------+

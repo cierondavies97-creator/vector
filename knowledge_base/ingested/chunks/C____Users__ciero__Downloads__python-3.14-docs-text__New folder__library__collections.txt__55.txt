@@ -1,0 +1,4 @@
+be a sequence of elements, not a sequence of "(key, value)"
+      pairs.
+Counters support rich comparison operators for equality, subset, and
+superset relationships: "==", "!=", "<", "<=", ">", ">=". All of those

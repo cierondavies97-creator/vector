@@ -1,0 +1,4 @@
+script file. This event is raised in the process that called
+   "sys.remote_exec()".
+   When the script is executed in the remote process, an auditing
+   event "cpython.remote_debugger_script" is raised with the path in

@@ -1,0 +1,5 @@
+(bytes/characters) written.
+   For example:
+      def write_binary(writer: Writer[bytes]):
+          writer.write(b"Hello world!\n")
+See ABCs and Protocols for working with I/O for other I/O related

@@ -1,0 +1,7 @@
+| invalid_with_item
+       | e=expression { _PyAST_withitem(e, NULL, p->arena) }
+   # Try statement
+   # -------------
+   try_stmt[stmt_ty]:
+       | invalid_try_stmt
+       | 'try' &&':' b=block f=finally_block { _PyAST_Try(b, NULL, NULL, f, EXTRA) }

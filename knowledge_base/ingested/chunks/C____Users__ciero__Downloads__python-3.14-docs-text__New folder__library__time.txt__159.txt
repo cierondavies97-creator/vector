@@ -1,0 +1,5 @@
+timezone, the second is the name of the local DST timezone.  If no
+   DST timezone is defined, the second string should not be used.  See
+   note below.
+Note:
+  For the above Timezone constants ("altzone", "daylight", "timezone",

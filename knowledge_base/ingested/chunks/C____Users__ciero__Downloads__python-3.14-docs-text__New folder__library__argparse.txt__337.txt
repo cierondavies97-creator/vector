@@ -1,0 +1,5 @@
+consume an option even if it's just a prefix of one of its known
+  options, instead of leaving it in the remaining arguments list.
+Customizing file parsing
+------------------------
+ArgumentParser.convert_arg_line_to_args(arg_line)

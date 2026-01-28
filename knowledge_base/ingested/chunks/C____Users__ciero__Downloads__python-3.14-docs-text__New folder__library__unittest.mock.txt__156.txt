@@ -1,0 +1,4 @@
+A version of "MagicMock" for multithreading tests. The
+   "ThreadingMock" object provides extra methods to wait for a call to
+   be invoked, rather than assert on it immediately.
+   The default timeout is specified by the "timeout" argument, or if

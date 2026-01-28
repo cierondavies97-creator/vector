@@ -1,0 +1,4 @@
+until it is exhausted, then proceeds to the next iterable, until
+   all of the iterables are exhausted.  This combines multiple data
+   sources into a single iterator.  Roughly equivalent to:
+      def chain(*iterables):

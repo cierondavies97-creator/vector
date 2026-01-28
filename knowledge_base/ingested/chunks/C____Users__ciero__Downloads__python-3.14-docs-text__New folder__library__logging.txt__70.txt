@@ -1,0 +1,4 @@
+arguments are interpreted as for "debug()".
+   log(level, msg, *args, **kwargs)
+      Logs a message with integer level *level* on this logger. The
+      other arguments are interpreted as for "debug()".

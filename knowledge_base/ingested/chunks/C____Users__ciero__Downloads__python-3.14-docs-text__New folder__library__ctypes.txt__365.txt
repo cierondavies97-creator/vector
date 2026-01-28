@@ -1,0 +1,5 @@
+pointers can now be pickled.
+   Instances have a single attribute:
+   value
+      This attribute contains the actual value of the instance. For
+      integer and pointer types, it is an integer, for character

@@ -1,0 +1,3 @@
+|           | of the pane area (not including internal padding or tabs).       |
+|           | Otherwise, the maximum height of all panes is used.              |
++-----------+------------------------------------------------------------------+

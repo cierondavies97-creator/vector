@@ -1,0 +1,4 @@
+write by any other user). This implements security behavior
+   equivalent to that of ftp and other programs that use ".netrc".
+   Such security checks are not available on platforms that do not
+   support "os.getuid()".

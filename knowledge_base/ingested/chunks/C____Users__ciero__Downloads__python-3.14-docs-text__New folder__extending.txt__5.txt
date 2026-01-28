@@ -1,0 +1,4 @@
+custom C code. These modules let you write Python code to interface
+  with C code and are more portable between implementations of Python
+  than writing and compiling a C extension module.
+1.1. A Simple Example

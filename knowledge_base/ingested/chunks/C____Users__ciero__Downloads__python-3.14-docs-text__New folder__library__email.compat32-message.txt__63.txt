@@ -1,0 +1,6 @@
+message's headers.  No exception is raised if the named field
+      isn't present in the headers.
+   keys()
+      Return a list of all the message's header field names.
+   values()
+      Return a list of all the message's field values.

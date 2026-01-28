@@ -1,0 +1,4 @@
+"""Add two strings or bytes objects together."""
+          return x + y
+   Note that type variables can be *bounded*, *constrained*, or
+   neither, but cannot be both bounded *and* constrained.

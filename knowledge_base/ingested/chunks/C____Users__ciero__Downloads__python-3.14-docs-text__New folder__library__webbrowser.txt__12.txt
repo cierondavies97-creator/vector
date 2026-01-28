@@ -1,0 +1,4 @@
+Exception raised when a browser control error occurs.
+The following functions are defined:
+webbrowser.open(url, new=0, autoraise=True)
+   Display *url* using the default browser. If *new* is 0, the *url*

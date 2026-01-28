@@ -1,0 +1,5 @@
+*context* differently.
+Custom event loop policies can control the behavior of
+"get_event_loop()", "set_event_loop()", and "new_event_loop()".
+Policy objects should implement the APIs defined in the
+"AbstractEventLoopPolicy" abstract base class.

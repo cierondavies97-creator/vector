@@ -1,0 +1,3 @@
+Optional keyword argument *initial_response_ok* specifies whether,
+   for authentication methods that support it, an "initial response"
+   as specified in **RFC 4954** can be sent along with the "AUTH"

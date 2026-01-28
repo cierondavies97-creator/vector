@@ -1,0 +1,5 @@
+'/usr'
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.dirname(path, /)
+   Return the directory name of pathname *path*.  This is the first
+   element of the pair returned by passing *path* to the function

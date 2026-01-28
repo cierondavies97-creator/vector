@@ -1,0 +1,3 @@
+specifically request iterators for those iteration types.  (An
+   example of an object supporting multiple forms of iteration would
+   be a tree structure which supports both breadth-first and depth-

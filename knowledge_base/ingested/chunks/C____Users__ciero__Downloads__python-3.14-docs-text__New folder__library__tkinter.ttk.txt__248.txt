@@ -1,0 +1,5 @@
+('pressed', 'selected', 6),
+                              ('active', 'selected', 5),
+                              ('selected', 4),
+                              ('', 1)])
+         style.layout('Explorer.Pin',

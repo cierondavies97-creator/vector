@@ -1,0 +1,5 @@
+imported, the "echo" and "main" functions will be defined, but neither
+of them will be called, because "__name__ != '__main__'".
+Packaging Considerations
+------------------------
+"main" functions are often used to create command-line tools by

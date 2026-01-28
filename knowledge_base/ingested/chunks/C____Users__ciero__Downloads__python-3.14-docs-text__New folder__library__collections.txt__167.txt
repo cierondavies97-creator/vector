@@ -1,0 +1,4 @@
+A regular "dict" can emulate OrderedDict's "od.popitem(last=True)"
+  with "d.popitem()" which is guaranteed to pop the rightmost (last)
+  item.
+  A regular "dict" can emulate OrderedDict's "od.popitem(last=False)"

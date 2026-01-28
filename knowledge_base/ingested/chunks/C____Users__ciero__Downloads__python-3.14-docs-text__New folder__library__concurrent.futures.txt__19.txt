@@ -1,0 +1,4 @@
+You can avoid having to call this method explicitly if you use
+      the executor as a *context manager* via the  "with" statement,
+      which will shutdown the "Executor" (waiting as if
+      "Executor.shutdown()" were called with *wait* set to "True"):

@@ -1,0 +1,3 @@
+| a=('(' b=single_target ')' { b }
+            | single_subscript_attribute_target) ':' b=expression c=['=' d=annotated_rhs { d }] {
+           CHECK_VERSION(stmt_ty, 6, "Variable annotations syntax is", _PyAST_AnnAssign(a, b, c, 0, EXTRA)) }

@@ -1,0 +1,4 @@
+individual files are copied using "copy2()".
+   If *symlinks* is true, symbolic links in the source tree are
+   represented as symbolic links in the new tree and the metadata of
+   the original links will be copied as far as the platform allows; if

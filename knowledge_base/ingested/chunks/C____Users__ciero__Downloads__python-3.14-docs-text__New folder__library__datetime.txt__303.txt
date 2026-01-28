@@ -1,0 +1,4 @@
+technical requirement that may be relaxed in the future.
+   A concrete subclass of "tzinfo" may need to implement the following
+   methods. Exactly which methods are needed depends on the uses made
+   of aware "datetime" objects. If in doubt, simply implement all of

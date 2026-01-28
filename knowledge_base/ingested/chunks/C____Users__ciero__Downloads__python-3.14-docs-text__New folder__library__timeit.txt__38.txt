@@ -1,0 +1,4 @@
+"default_timer()" measurements can be affected by other programs
+running on the same machine, so the best thing to do when accurate
+timing is necessary is to repeat the timing a few times and use the
+best time.  The "-r" option is good for this; the default of 5

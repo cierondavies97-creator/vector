@@ -1,0 +1,7 @@
+of the central location of the data.
+   If *data* is empty, "StatisticsError" will be raised.
+   Some examples of use:
+      >>> mean([1, 2, 3, 4, 4])
+      2.8
+      >>> mean([-1.0, 2.5, 3.25, 5.75])
+      2.625

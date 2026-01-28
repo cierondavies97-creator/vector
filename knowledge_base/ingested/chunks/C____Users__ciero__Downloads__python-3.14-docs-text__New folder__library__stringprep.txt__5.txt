@@ -1,0 +1,3 @@
+these tables would be very large to represent as dictionaries or
+lists, the module uses the Unicode character database internally. The
+module source code itself was generated using the "mkstringprep.py"

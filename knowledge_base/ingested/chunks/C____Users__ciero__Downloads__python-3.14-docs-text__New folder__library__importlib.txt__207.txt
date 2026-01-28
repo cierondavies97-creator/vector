@@ -1,0 +1,5 @@
+If **name** is for a submodule (contains a dot), the parent module
+   is automatically imported.
+   **name** and **package** work the same as for "import_module()".
+   Added in version 3.4.
+   Changed in version 3.7: Raises "ModuleNotFoundError" instead of

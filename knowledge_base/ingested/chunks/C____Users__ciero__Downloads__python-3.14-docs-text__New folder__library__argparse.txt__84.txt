@@ -1,0 +1,4 @@
+If the user would like to catch errors manually, the feature can be
+enabled by setting "exit_on_error" to "False":
+   >>> parser = argparse.ArgumentParser(exit_on_error=False)
+   >>> parser.add_argument('--integers', type=int)

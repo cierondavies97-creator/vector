@@ -1,0 +1,5 @@
+available or not readable, the "NotImplementedError" exception is
+   raised.
+   On Windows, it will use "BCryptGenRandom()".
+   See also:
+     The "secrets" module provides higher level functions. For an

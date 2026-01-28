@@ -1,0 +1,4 @@
+over this method.
+   The parameter "callback" is a callable object with the signature:
+   "def callback(hint: str | None) -> tuple[str | None, bytes]". The
+   "hint" parameter is an optional identity hint sent by the server.

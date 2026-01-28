@@ -1,0 +1,6 @@
+extracting a slice may not make sense. (One example of this is the
+NodeList interface in the W3C's Document Object Model.)
+3.3.1. Basic customization
+--------------------------
+object.__new__(cls[, ...])
+   Called to create a new instance of class *cls*.  "__new__()" is a

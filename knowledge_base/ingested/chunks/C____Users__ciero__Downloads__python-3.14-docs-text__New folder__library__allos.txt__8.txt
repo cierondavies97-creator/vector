@@ -1,0 +1,7 @@
+* Configuration dictionary schema
+    * Dictionary Schema Details
+    * Incremental Configuration
+    * Object connections
+    * User-defined objects
+    * Handler configuration order
+    * Access to external objects

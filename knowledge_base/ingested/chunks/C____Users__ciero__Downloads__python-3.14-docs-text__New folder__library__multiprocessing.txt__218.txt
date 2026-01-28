@@ -1,0 +1,4 @@
+class multiprocessing.Lock
+   A non-recursive lock object: a close analog of "threading.Lock".
+   Once a process or thread has acquired a lock, subsequent attempts
+   to acquire it from any process or thread will block until it is

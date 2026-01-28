@@ -1,0 +1,4 @@
+docstrings in their contained methods and nested classes.
+Note:
+  "doctest" can only automatically discover classes and functions that
+  are defined at the module level or inside other classes.Since nested

@@ -1,0 +1,4 @@
+Changed in version 3.12: The "filename" attribute and "__init__()"
+   constructor argument were removed.  They have been available using
+   the name "source" since 3.2.
+exception configparser.MultilineContinuationError

@@ -1,0 +1,7 @@
+function keys.
+   Added in version 3.9.
+curses.get_tabsize()
+   Retrieves the value set by "set_tabsize()".
+   Added in version 3.9.
+curses.set_tabsize(size)
+   Sets the number of columns used by the curses library when

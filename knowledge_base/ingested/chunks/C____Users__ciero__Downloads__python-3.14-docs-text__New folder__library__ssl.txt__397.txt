@@ -1,0 +1,4 @@
+* There is no handling of *suppress_ragged_eofs*. All end-of-file
+     conditions that are in violation of the protocol are reported via
+     the "SSLEOFError" exception.
+   * The method "unwrap()" call does not return anything, unlike for

@@ -1,0 +1,4 @@
+considered less than "b" when "a" precedes "b" in time.
+Naive and aware "time" objects are never equal. Order comparison
+between naive and aware "time" objects raises "TypeError".
+If both comparands are aware, and have the same "tzinfo" attribute,

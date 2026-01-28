@@ -1,0 +1,3 @@
+The most derived metaclass is selected from the explicitly specified
+metaclass (if any) and the metaclasses (i.e. "type(cls)") of all
+specified base classes. The most derived metaclass is one which is a

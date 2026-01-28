@@ -1,0 +1,4 @@
+return them as a list of alternating "Example"s and strings.
+      Line numbers for the "Example"s are 0-based.  The optional
+      argument *name* is a name identifying this string, and is only
+      used for error messages.

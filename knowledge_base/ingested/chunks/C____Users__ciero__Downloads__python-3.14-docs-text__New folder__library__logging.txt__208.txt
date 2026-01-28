@@ -1,0 +1,3 @@
+whether or not the *extra* argument of individual log calls should
+   be merged with the "LoggerAdapter" extra. The default behavior is
+   to ignore the *extra* argument of individual log calls and only use

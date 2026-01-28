@@ -1,0 +1,5 @@
+tracemalloc.take_snapshot()
+   Take a snapshot of traces of memory blocks allocated by Python.
+   Return a new "Snapshot" instance.
+   The snapshot does not include memory blocks allocated before the
+   "tracemalloc" module started to trace memory allocations.

@@ -1,0 +1,5 @@
+finder
+   An object that tries to find the *loader* for a module that is
+   being imported.
+   There are two types of finder: *meta path finders* for use with
+   "sys.meta_path", and *path entry finders* for use with

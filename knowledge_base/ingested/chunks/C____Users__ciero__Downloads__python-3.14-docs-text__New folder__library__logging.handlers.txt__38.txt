@@ -1,0 +1,3 @@
+The default implementation calls the 'rotator' attribute of the
+      handler, if it's callable, passing the source and dest arguments
+      to it. If the attribute isn't callable (the default is "None"),

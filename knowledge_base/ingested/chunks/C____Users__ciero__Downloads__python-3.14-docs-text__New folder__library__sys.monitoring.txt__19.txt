@@ -1,0 +1,6 @@
+block.
+sys.monitoring.events.STOP_ITERATION
+   An artificial "StopIteration" is raised; see the STOP_ITERATION
+   event.
+More events may be added in the future.
+These events are attributes of the "sys.monitoring.events" namespace.

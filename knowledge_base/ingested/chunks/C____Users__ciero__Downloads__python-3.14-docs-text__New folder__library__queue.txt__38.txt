@@ -1,0 +1,4 @@
+callers of "get()" are unblocked and will raise "ShutDown" because
+   the queue is empty.
+   Use caution when using "join()" with *immediate* set to true. This
+   unblocks the join even when no work has been done on the tasks,

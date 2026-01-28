@@ -1,0 +1,4 @@
+support the "VALUE" format when called directly. To support other
+   formats, this function calls the annotate function in a special
+   environment that allows it to produce annotations in the other
+   formats. This is a useful building block when implementing

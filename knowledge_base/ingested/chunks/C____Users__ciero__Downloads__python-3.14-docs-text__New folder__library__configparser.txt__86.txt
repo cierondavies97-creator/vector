@@ -1,0 +1,4 @@
+circumstances, the only way of storing comment prefix characters at
+  the beginning of a line in multiline values is to interpolate the
+  prefix, for example:
+     >>> from configparser import ConfigParser, ExtendedInterpolation

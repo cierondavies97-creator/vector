@@ -1,0 +1,4 @@
+key-value pairs). All such keys must be strings.
+   The type is roughly equivalent to the following code:
+      class SimpleNamespace:
+          def __init__(self, mapping_or_iterable=(), /, **kwargs):

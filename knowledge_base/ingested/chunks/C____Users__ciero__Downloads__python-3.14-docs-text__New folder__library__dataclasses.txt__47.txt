@@ -1,0 +1,4 @@
+string returned by the generated "__repr__()" method.
+   * *hash*: This can be a bool or "None".  If true, this field is
+     included in the generated "__hash__()" method.  If false, this
+     field is excluded from the generated "__hash__()". If "None" (the

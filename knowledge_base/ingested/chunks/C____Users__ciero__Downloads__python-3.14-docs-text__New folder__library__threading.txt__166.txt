@@ -1,0 +1,3 @@
+by a call to "release()".  Once awoken (and the counter is
+        greater than 0), decrement the counter by 1 and return "True".
+        Exactly one thread will be awoken by each call to "release()".

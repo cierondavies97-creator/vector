@@ -1,0 +1,4 @@
+to "Any", every type is a subtype of "object". However, unlike "Any",
+the reverse is not true: "object" is *not* a subtype of every other
+type.
+That means when the type of a value is "object", a type checker will

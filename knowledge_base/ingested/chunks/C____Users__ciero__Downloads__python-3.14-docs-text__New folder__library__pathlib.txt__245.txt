@@ -1,0 +1,4 @@
+behaviour.
+4. Like all "PurePath" and "Path" objects, the values returned from
+   "Path.glob()" and "Path.rglob()" don't include trailing slashes.
+5. The values returned from pathlib's "path.glob()" and "path.rglob()"

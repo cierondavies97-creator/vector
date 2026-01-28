@@ -1,0 +1,6 @@
+body=[
+                      Expr(
+                          value=Constant(value=Ellipsis))],
+                  orelse=[
+                      Expr(
+                          value=Constant(value=Ellipsis))])])

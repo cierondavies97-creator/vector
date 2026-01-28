@@ -1,0 +1,5 @@
+path.
+   See the documentation for "domain_return_ok()".
+In addition to implementing the methods above, implementations of the
+"CookiePolicy" interface must also supply the following attributes,
+indicating which protocols should be used, and how.  All of these

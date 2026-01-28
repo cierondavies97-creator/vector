@@ -1,0 +1,5 @@
+"'warning'".  To specify an X bitmap filename, give the full path
+   to the file, preceded with an "@", as in
+   ""@/usr/contrib/bitmap/gumby.bit"".
+boolean
+   You can pass integers 0 or 1 or the strings ""yes"" or ""no"".

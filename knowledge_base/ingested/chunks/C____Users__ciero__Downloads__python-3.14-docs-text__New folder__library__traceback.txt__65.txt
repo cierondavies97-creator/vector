@@ -1,0 +1,4 @@
+"FrameSummary" are captured as object representations.
+      Changed in version 3.12: Exceptions raised from "repr()" on a
+      local variable (when *capture_locals* is "True") are no longer
+      propagated to the caller.

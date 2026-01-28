@@ -1,0 +1,6 @@
+The "decode()" method returns a "SplitResult" instance.
+   Added in version 3.2.
+URL Quoting
+===========
+The URL quoting functions focus on taking program data and making it
+safe for use as URL components by quoting special characters and

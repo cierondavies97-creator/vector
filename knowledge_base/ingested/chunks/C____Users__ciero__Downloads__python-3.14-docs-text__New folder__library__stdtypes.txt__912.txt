@@ -1,0 +1,5 @@
+Special Attributes
+==================
+The implementation adds a few special read-only attributes to several
+object types, where they are relevant.  Some of these are not reported
+by the "dir()" built-in function.

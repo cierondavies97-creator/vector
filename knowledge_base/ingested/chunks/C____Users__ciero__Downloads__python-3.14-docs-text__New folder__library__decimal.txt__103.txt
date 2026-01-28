@@ -1,0 +1,6 @@
+otherwise.  Note that zeros and NaNs can both carry signs.
+   is_snan()
+      Return "True" if the argument is a signaling NaN and "False"
+      otherwise.
+   is_subnormal(context=None)
+      Return "True" if the argument is subnormal, and "False"

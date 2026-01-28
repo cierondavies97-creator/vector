@@ -1,0 +1,5 @@
+Changed in version 3.2: Added "quiet" attribute for the new "-q"
+   flag.
+   Added in version 3.2.3: The "hash_randomization" attribute.
+   Changed in version 3.3: Removed obsolete "division_warning"
+   attribute.

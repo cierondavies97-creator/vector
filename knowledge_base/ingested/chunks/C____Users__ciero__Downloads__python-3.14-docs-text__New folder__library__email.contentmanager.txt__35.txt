@@ -1,0 +1,3 @@
+the headers to *msg*.
+-[ Footnotes ]-
+[1] Originally added in 3.4 as a *provisional module*

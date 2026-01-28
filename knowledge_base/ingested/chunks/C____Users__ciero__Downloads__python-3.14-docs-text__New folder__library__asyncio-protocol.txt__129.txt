@@ -1,0 +1,6 @@
+sys.executable, '-c', code,
+           stdin=None, stderr=None)
+       # Wait for the subprocess exit using the process_exited()
+       # method of the protocol.
+       await exit_future
+       # Close the stdout pipe.

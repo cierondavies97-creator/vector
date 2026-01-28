@@ -1,0 +1,9 @@
+'-Infinity'
+   >>> json.dumps(float('nan'))
+   'NaN'
+   >>> # Same when deserializing
+   >>> json.loads('-Infinity')
+   -inf
+   >>> json.loads('NaN')
+   nan
+In the serializer, the *allow_nan* parameter can be used to alter this

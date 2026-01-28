@@ -1,0 +1,4 @@
+support package imports, and a path within the archive can be
+specified to only import from a subdirectory.  For example, the path
+"example.zip/lib/" would only import from the "lib/" subdirectory
+within the archive.

@@ -1,0 +1,5 @@
+See union type expressions.
+typing.Concatenate
+   Special form for annotating higher-order functions.
+   "Concatenate" can be used in conjunction with Callable and
+   "ParamSpec" to annotate a higher-order callable which adds,

@@ -1,0 +1,3 @@
+*i-th* of *m* sorted data points is computed as "i / (m + 1)".
+   Given nine sample values, the method sorts them and assigns the
+   following percentiles: 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%.

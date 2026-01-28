@@ -1,0 +1,6 @@
+"logging" --- Logging facility for Python
+*****************************************
+**Source code:** Lib/logging/__init__.py
+Important
+^^^^^^^^^
+This page contains the API reference information. For tutorial

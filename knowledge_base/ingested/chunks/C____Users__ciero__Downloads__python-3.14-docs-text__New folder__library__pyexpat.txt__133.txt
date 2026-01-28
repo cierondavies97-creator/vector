@@ -1,0 +1,5 @@
+xml.parsers.expat.errors.XML_ERROR_RESERVED_PREFIX_XMLNS
+   An attempt was made to declare or undeclare reserved namespace
+   prefix "xmlns".
+xml.parsers.expat.errors.XML_ERROR_RESERVED_NAMESPACE_URI
+   An attempt was made to bind the URI of one the reserved namespace

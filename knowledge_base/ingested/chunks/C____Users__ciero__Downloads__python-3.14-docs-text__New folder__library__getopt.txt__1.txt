@@ -1,0 +1,3 @@
+extensible alternative to this API is provided in the "optparse"
+  module. Further functional enhancements for command line parameter
+  processing are provided either as third party modules on PyPI, or

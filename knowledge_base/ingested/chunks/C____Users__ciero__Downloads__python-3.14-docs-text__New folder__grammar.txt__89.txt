@@ -1,0 +1,7 @@
+_PyAST_MatchSequence(patterns, EXTRA) }
+       | pattern
+   pattern[pattern_ty]:
+       | as_pattern
+       | or_pattern
+   as_pattern[pattern_ty]:
+       | pattern=or_pattern 'as' target=pattern_capture_target {

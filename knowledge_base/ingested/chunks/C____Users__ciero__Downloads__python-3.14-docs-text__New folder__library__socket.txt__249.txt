@@ -1,0 +1,4 @@
+such as the stream arguments of "subprocess.Popen()".
+socket.recv(bufsize[, flags])
+   Receive data from the socket.  The return value is a bytes object
+   representing the data received.  The maximum amount of data to be

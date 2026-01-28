@@ -1,0 +1,7 @@
+following key/value pairs:
+   * "shown": True/False
+   * "pendown": True/False
+   * "pencolor": color-string or color-tuple
+   * "fillcolor": color-string or color-tuple
+   * "pensize": positive number
+   * "speed": number in range 0..10

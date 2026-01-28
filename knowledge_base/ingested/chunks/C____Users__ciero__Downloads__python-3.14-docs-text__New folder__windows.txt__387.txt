@@ -1,0 +1,4 @@
+is started - it can be exited as normal, and any additional command-
+line arguments specified will be sent directly to Python.
+If you have multiple versions of Python installed (e.g., 3.7 and 3.14)
+you will have noticed that Python 3.14 was started - to launch Python

@@ -1,0 +1,3 @@
+10. When parsing a month and day using "strptime()", always include a
+    year in the format.  If the value you need to parse lacks a year,
+    append an explicit dummy leap year.  Otherwise your code will

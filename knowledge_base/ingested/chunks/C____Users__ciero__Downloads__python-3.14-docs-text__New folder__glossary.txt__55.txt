@@ -1,0 +1,5 @@
+Concurrent modification without proper synchronization can cause
+   *race conditions*, and might also trigger a *data race*, data
+   corruption, or both.
+context
+   This term has different meanings depending on where and how it is

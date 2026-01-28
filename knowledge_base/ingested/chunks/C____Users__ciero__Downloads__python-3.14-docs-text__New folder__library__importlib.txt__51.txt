@@ -1,0 +1,4 @@
+loaded, "ImportError" is raised, otherwise the loaded module is
+      returned.
+      If the requested module already exists in "sys.modules", that
+      module should be used and reloaded. Otherwise the loader should

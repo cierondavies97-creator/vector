@@ -1,0 +1,6 @@
+alive
+      Property which is true if the finalizer is alive, false
+      otherwise.
+   atexit
+      A writable boolean property which by default is true.  When the
+      program exits, it calls all remaining live finalizers for which

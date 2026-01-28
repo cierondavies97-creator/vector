@@ -1,0 +1,5 @@
+* argument_default - The global default value for arguments
+     (default: "None")
+   * conflict_handler - The strategy for resolving conflicting
+     optionals (usually unnecessary)
+   * add_help - Add a "-h/--help" option to the parser (default:

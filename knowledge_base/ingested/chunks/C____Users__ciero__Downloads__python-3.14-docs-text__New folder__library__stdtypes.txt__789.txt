@@ -1,0 +1,5 @@
+"__missing__()". If "__missing__()" is not defined, "KeyError"
+      is raised. "__missing__()" must be a method; it cannot be an
+      instance variable:
+         >>> class Counter(dict):
+         ...     def __missing__(self, key):

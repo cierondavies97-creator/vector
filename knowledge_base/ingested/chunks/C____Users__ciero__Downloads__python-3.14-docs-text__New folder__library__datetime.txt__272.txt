@@ -1,0 +1,4 @@
+2. The leading "T", normally required in cases where there may be
+      ambiguity between a date and a time, is not required.
+   3. Fractional seconds may have any number of digits (anything
+      beyond 6 will be truncated).

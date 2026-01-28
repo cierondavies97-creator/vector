@@ -1,0 +1,5 @@
+Parameter to the "sendfile()" function, if the implementation
+   supports it. The data won't be cached in the virtual memory and
+   will be freed afterwards.
+   Availability: Unix, not WASI.
+   Added in version 3.11.

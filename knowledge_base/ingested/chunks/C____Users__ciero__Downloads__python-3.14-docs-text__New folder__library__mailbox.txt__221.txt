@@ -1,0 +1,4 @@
+the visible headers are not automatically modified to
+      correspond. This method updates the visible headers as follows:
+      each visible header with a corresponding original header is set
+      to the value of the original header, each visible header without

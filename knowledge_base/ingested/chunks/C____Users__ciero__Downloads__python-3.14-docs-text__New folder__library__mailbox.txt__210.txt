@@ -1,0 +1,5 @@
++----------------------+-------------------------------+
+"BabylMessage" objects
+----------------------
+class mailbox.BabylMessage(message=None)
+   A message with Babyl-specific behaviors. Parameter *message* has

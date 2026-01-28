@@ -1,0 +1,8 @@
+* Command-line usage
+* "collections" --- Container datatypes
+  * "ChainMap" objects
+    * "ChainMap" Examples and Recipes
+  * "Counter" objects
+  * "deque" objects
+    * "deque" Recipes
+  * "defaultdict" objects

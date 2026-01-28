@@ -1,0 +1,5 @@
+Exception raised when the locale passed to "setlocale()" is not
+   recognized.
+locale.setlocale(category, locale=None)
+   If *locale* is given and not "None", "setlocale()" modifies the
+   locale setting for the *category*. The available categories are

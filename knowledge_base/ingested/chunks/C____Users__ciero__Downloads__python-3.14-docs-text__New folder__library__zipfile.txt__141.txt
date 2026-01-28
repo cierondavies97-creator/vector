@@ -1,0 +1,6 @@
+Interruption
+------------
+Interruption during the decompression, such as pressing control-C or
+killing the decompression process may result in incomplete
+decompression of the archive.
+Default behaviors of extraction

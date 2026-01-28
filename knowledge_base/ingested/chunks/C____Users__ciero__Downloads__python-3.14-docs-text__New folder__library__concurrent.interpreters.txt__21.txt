@@ -1,0 +1,3 @@
+you switch to another interpreter and run what you want there.
+Each actual thread in Python, even if you're only running in the main
+thread, has its own *current* execution context.  Multiple threads can

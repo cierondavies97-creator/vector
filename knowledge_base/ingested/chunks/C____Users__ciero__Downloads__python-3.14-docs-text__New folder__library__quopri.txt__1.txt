@@ -1,0 +1,4 @@
+This module performs quoted-printable transport encoding and decoding,
+as defined in **RFC 1521**: "MIME (Multipurpose Internet Mail
+Extensions) Part One: Mechanisms for Specifying and Describing the
+Format of Internet Message Bodies". The quoted-printable encoding is

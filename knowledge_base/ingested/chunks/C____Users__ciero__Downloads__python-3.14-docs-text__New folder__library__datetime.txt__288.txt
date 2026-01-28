@@ -1,0 +1,7 @@
+>>> dt.isoformat(timespec='microseconds')
+      '12:34:56.000000'
+      >>> dt.isoformat(timespec='auto')
+      '12:34:56'
+   Changed in version 3.6: Added the *timespec* parameter.
+time.__str__()
+   For a time "t", "str(t)" is equivalent to "t.isoformat()".

@@ -1,0 +1,5 @@
+CSS classes, for example:
+      "text-bold text-red"
+   Here is an example how "HTMLCalendar" can be customized:
+      class CustomHTMLCal(calendar.HTMLCalendar):
+          cssclasses = [style + " text-nowrap" for style in

@@ -1,0 +1,4 @@
+Shared fixtures are not intended to work with suites with non-standard
+ordering. A "BaseTestSuite" still exists for frameworks that don't
+want to support shared fixtures.
+If there are any exceptions raised during one of the shared fixture

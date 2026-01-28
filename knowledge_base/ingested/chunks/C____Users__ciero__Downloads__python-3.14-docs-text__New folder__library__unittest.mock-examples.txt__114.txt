@@ -1,0 +1,5 @@
+"assert_called_once_with()" method that also asserts that the
+"call_count" is one.
+>>> mock.foo_bar.assert_called_once_with('baz', spam='eggs')
+>>> mock.foo_bar()
+>>> mock.foo_bar.assert_called_once_with('baz', spam='eggs')

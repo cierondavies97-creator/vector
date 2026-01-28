@@ -1,0 +1,5 @@
+"copyreg" --- Register "pickle" support functions
+*************************************************
+**Source code:** Lib/copyreg.py
+======================================================================
+The "copyreg" module offers a way to define functions used while

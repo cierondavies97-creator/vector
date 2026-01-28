@@ -1,0 +1,6 @@
+"assert_called_once_with()" will then succeed no matter what was
+passed in.
+>>> mock = Mock(return_value=None)
+>>> mock('foo', bar=object())
+>>> mock.assert_called_once_with('foo', bar=ANY)
+"ANY" can also be used in comparisons with call lists like

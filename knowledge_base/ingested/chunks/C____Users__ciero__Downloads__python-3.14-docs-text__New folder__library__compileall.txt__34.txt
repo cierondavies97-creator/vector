@@ -1,0 +1,5 @@
+optimization level have the same content, use hard links to
+   consolidate duplicate files.
+   Changed in version 3.2: Added the *legacy* and *optimize*
+   parameter.
+   Changed in version 3.5: Added the *workers* parameter.

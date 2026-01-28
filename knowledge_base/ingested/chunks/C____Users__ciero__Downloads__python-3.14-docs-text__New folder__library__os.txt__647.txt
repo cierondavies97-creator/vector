@@ -1,0 +1,5 @@
+"posix_spawn_file_actions_addclose()",
+   "posix_spawn_file_actions_adddup2()", and
+   "posix_spawn_file_actions_addclosefrom_np()" API calls used to
+   prepare for the "posix_spawn()" call itself.
+   The *setpgroup* argument will set the process group of the child to

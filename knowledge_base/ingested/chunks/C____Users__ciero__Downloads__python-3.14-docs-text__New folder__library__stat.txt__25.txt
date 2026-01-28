@@ -1,0 +1,3 @@
+directory, not from the effective group ID of the creating process,
+   and directories created there will also get the "S_ISGID" bit set.
+   For a file that does not have the group execution bit ("S_IXGRP")

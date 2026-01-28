@@ -1,0 +1,4 @@
+specifying a *cte* of "7bit" for an input that contains non-
+      ASCII values), raise a "ValueError".
+      * For "str" objects, if *cte* is not set use heuristics to
+        determine the most compact encoding.  Prior to encoding,

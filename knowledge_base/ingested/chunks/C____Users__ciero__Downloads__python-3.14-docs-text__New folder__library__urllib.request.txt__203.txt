@@ -1,0 +1,4 @@
+overriding environment settings:
+   >>> import urllib.request
+   >>> proxies = {'http': 'http://proxy.example.com:8080/'}
+   >>> opener = urllib.request.build_opener(urllib.request.ProxyHandler(proxies))

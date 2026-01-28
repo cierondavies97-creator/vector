@@ -1,0 +1,4 @@
+that "look right" to people.
+   **Timing:** The basic Ratcliff-Obershelp algorithm is cubic time in
+   the worst case and quadratic time in the expected case.
+   "SequenceMatcher" is quadratic time for the worst case and has

@@ -1,0 +1,5 @@
+Added in version 3.3.
+os.supports_effective_ids
+   A "set" object indicating whether "os.access()" permits specifying
+   "True" for its *effective_ids* parameter on the local platform.
+   (Specifying "False" for *effective_ids* is always supported on all

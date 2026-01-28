@@ -1,0 +1,4 @@
+is not available, "RuntimeError" is raised. The default is
+   "ZIP_STORED".
+   If *allowZip64* is "True" (the default) zipfile will create ZIP
+   files that use the ZIP64 extensions when the zipfile is larger than

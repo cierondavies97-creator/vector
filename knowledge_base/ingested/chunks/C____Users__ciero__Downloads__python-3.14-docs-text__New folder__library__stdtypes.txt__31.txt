@@ -1,0 +1,4 @@
+x * complex(u, v) = complex(x * u, x * v)
+A comparison between numbers of different types behaves as though the
+exact values of those numbers were being compared. [2]
+All numeric types (except complex) support the following operations

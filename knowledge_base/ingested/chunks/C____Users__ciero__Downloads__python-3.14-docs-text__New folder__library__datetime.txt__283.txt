@@ -1,0 +1,4 @@
+"utcoffset()" does not return "None"
+   The optional argument *timespec* specifies the number of additional
+   components of the time to include (the default is "'auto'"). It can
+   be one of the following:

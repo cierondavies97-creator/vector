@@ -1,0 +1,3 @@
+directories in the source code tree. Any "__pycache__" directories
+   in the source code tree will be ignored and new ".pyc" files
+   written within the pycache prefix. Thus if you use "compileall" as

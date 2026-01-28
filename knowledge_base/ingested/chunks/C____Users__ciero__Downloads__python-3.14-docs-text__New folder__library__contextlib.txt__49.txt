@@ -1,0 +1,6 @@
+output to a regular file:
+      with open('help.txt', 'w') as f:
+          with redirect_stdout(f):
+              help(pow)
+   To send the output of "help()" to *sys.stderr*:
+      with redirect_stdout(sys.stderr):

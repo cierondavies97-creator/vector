@@ -1,0 +1,4 @@
+the "AssertionError" directly and provide a more useful failure
+message.
+As of version 1.5, the Python testing library PyHamcrest provides
+similar functionality, that may be useful here, in the form of its

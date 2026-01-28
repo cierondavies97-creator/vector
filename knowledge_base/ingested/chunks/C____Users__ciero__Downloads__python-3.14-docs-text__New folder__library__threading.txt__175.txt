@@ -1,0 +1,8 @@
+methods when they need to connect to the server:
+   with pool_sema:
+       conn = connectdb()
+       try:
+           # ... use connection ...
+       finally:
+           conn.close()
+The use of a bounded semaphore reduces the chance that a programming

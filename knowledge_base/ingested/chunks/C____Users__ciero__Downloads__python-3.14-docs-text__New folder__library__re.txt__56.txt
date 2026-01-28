@@ -1,0 +1,5 @@
+would produce a longer overall match.  In other words, the "'|'"
+   operator is never greedy.  To match a literal "'|'", use "\|", or
+   enclose it inside a character class, as in "[|]".
+"(...)"
+   Matches whatever regular expression is inside the parentheses, and

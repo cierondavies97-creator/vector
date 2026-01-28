@@ -1,0 +1,4 @@
+The order in which threads are awoken should not be relied on.
+      When invoked with *blocking* set to "False", do not block.  If a
+      call without an argument would block, return "False"
+      immediately; otherwise, do the same thing as when called without

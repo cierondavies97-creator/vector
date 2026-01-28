@@ -1,0 +1,5 @@
+the "Charset" instance for the default encoding of the message
+      body.
+   get_charsets(failobj=None)
+      Return a list containing the character set names in the message.
+      If the message is a *multipart*, then the list will contain one

@@ -1,0 +1,4 @@
+"cmp_op[opname >> 5]". If the fifth-lowest bit of "opname" is set
+   ("opname & 16"), the result should be coerced to "bool".
+   Changed in version 3.13: The fifth-lowest bit of the oparg now
+   indicates a forced conversion to "bool".

@@ -1,0 +1,4 @@
+"loop.connect_read_pipe()" event loop method and are also used by
+   subprocess-related methods like "loop.subprocess_exec()".
+class asyncio.Transport(WriteTransport, ReadTransport)
+   Interface representing a bidirectional transport, such as a TCP

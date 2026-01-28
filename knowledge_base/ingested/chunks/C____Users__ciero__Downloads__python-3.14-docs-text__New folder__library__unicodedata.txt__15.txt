@@ -1,0 +1,5 @@
+Returns the east asian width assigned to the character *chr* as
+   string. For a list of widths and or more information, see the
+   Unicode Standard Annex #11.
+unicodedata.mirrored(chr)
+   Returns the mirrored property assigned to the character *chr* as

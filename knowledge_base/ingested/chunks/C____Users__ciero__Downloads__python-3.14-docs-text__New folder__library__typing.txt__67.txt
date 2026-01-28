@@ -1,0 +1,5 @@
+As in the synchronous case, "AsyncIterable[YieldType]" and
+"AsyncIterator[YieldType]" are available as well:
+   async def infinite_stream(start: int) -> AsyncIterator[int]:
+       while True:
+           yield start

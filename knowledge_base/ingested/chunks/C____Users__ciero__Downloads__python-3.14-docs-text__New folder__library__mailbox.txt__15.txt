@@ -1,0 +1,3 @@
+*message* is an instance of the appropriate format-specific
+      "Message" subclass (e.g., if it's an "mboxMessage" instance and
+      this is an "mbox" instance), its format-specific information is

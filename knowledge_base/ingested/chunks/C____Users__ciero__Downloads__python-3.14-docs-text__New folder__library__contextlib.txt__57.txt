@@ -1,0 +1,6 @@
+functionality automatically.
+   Example of "ContextDecorator":
+      from contextlib import ContextDecorator
+      class mycontext(ContextDecorator):
+          def __enter__(self):
+              print('Starting')

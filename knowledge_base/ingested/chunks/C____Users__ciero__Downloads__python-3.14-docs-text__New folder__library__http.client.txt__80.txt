@@ -1,0 +1,7 @@
+>>> conn.request("GET", "/")
+   >>> r1 = conn.getresponse()
+   >>> while chunk := r1.read(200):
+   ...     print(repr(chunk))
+   b'<!doctype html>\n<!--[if"...
+   ...
+   >>> # Example of an invalid request

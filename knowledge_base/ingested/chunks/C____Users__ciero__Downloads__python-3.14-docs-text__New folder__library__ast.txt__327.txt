@@ -1,0 +1,5 @@
+body of an "AsyncFunctionDef".
+Note:
+  When a string is parsed by "ast.parse()", operator nodes (subclasses
+  of "ast.operator", "ast.unaryop", "ast.cmpop", "ast.boolop" and
+  "ast.expr_context") on the returned tree will be singletons. Changes

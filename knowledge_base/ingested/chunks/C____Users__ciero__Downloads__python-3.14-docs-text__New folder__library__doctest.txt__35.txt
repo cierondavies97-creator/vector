@@ -1,0 +1,5 @@
+write doctest examples; for information about actually running doctest
+on these examples, see the following sections.
+Which Docstrings Are Examined?
+------------------------------
+The module docstring, and all function, class and method docstrings

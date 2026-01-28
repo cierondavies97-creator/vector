@@ -1,0 +1,3 @@
+values contained within are modified.  However, storing a value in a
+container proxy (which triggers a "__setitem__" on the proxy object)
+does propagate through the manager and so to effectively modify such

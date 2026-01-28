@@ -1,0 +1,3 @@
+is a language subtag, a sort order identifier or custom modifier (for
+example, "valencia", "stroke" or "x-python"). Both hyphen ("'-'") and
+underscore ("'_'") separators are supported. Only UTF-8 encoding is

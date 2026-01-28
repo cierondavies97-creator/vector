@@ -1,0 +1,4 @@
+vary across different versions of both Tkinter and Tcl/Tk. If you're
+searching documentation, make sure it corresponds to the Python and
+Tcl/Tk versions installed on your system.
+When searching for how to use an API, it helps to know the exact name

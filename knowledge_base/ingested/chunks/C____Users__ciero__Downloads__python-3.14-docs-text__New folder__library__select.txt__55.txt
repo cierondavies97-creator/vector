@@ -1,0 +1,7 @@
+by Linux Kernel 3.5 or later.
+epoll.close()
+   Close the control file descriptor of the epoll object.
+epoll.closed
+   "True" if the epoll object is closed.
+epoll.fileno()
+   Return the file descriptor number of the control fd.

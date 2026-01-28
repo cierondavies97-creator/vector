@@ -1,0 +1,5 @@
+for row in reader:
+           print(row)
+The same applies to writing in something other than the system default
+encoding: specify the encoding argument when opening the output file.
+Registering a new dialect:

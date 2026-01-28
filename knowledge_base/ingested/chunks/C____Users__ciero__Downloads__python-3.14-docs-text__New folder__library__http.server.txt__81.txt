@@ -1,0 +1,6 @@
+code has been unmaintained for a while now and sees very little
+   practical use. Retaining it could lead to further security
+   considerations.
+Command-line interface
+======================
+"http.server" can also be invoked directly using the "-m" switch of

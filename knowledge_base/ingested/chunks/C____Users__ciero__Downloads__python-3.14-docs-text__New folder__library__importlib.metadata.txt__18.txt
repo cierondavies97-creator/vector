@@ -1,0 +1,3 @@
+attributes and a ".load()" method to resolve the value. There are
+   also ".module", ".attr", and ".extras" attributes for getting the
+   components of the ".value" attribute, and ".dist" for obtaining

@@ -1,0 +1,3 @@
+#       location of the generic failure of the first pass will be used (this avoids
+   #       reporting incorrect locations due to the invalid rules).
+   #     - The order of the alternatives involving invalid rules matter

@@ -1,0 +1,4 @@
+OpenSSL must have been compiled with support for it, and the
+   negotiated cipher suites and extensions must be supported by it (a
+   list of supported ones may vary by platform and kernel version).
+   Note that with enabled kernel TLS some cryptographic operations are

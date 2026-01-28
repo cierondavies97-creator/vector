@@ -1,0 +1,6 @@
+...     ALTERNATE = auto()
+         ...     OTHER = auto()
+         ...     SOMETHING_ELSE = auto()
+         ...     def __repr__(self):
+         ...         cls_name = self.__class__.__name__
+         ...         return f'{cls_name}.{self.name}'

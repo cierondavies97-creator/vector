@@ -1,0 +1,3 @@
+table object can do any of the following: return a Unicode ordinal
+   or a string, to map the character to one or more other characters;
+   return "None", to delete the character from the return string; or

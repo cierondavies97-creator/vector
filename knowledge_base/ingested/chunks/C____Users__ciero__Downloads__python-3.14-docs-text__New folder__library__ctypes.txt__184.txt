@@ -1,0 +1,5 @@
+same C thread.
+Accessing values exported from dlls
+-----------------------------------
+Some shared libraries not only export functions, they also export
+variables. An example in the Python library itself is the

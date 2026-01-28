@@ -1,0 +1,6 @@
+interpretation as for the "open()" function.  The optional
+   *protocol* and *writeback* parameters have the same interpretation
+   as for the "Shelf" class.
+Example
+=======
+To summarize the interface ("key" is a string, "data" is an arbitrary

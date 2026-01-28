@@ -1,0 +1,3 @@
+the *package* argument is specified, then it is relative to that
+     package.  To ensure OS-independence, *filename* should use "/"
+     characters to separate path segments, and may not be an absolute

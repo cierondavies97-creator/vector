@@ -1,0 +1,4 @@
+datetime.timedelta(days=64, seconds=29156, microseconds=10)
+   If any argument is a float and there are fractional microseconds,
+   the fractional microseconds left over from all arguments are
+   combined and their sum is rounded to the nearest microsecond using

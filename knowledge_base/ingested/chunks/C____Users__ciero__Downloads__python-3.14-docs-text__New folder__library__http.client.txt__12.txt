@@ -1,0 +1,4 @@
+if possible (that is, if "ssl.HAS_SNI" is true).
+   Changed in version 3.4: The *strict* parameter was removed. HTTP
+   0.9-style "Simple Responses" are no longer supported.
+   Changed in version 3.4.3: This class now performs all the necessary

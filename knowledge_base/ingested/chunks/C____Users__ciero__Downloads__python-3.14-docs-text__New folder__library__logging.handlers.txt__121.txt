@@ -1,0 +1,5 @@
+| Name (string)   | Symbolic value  |
+      |=================|=================|
+      | "auth"          | LOG_AUTH        |
+      +-----------------+-----------------+
+      | "authpriv"      | LOG_AUTHPRIV    |

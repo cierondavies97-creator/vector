@@ -1,0 +1,4 @@
+Python 2, so that the pickle data stream is readable with Python 2.
+   If *buffer_callback* is "None" (the default), buffer views are
+   serialized into *file* as part of the pickle stream.
+   If *buffer_callback* is not "None", then it can be called any

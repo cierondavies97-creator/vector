@@ -1,0 +1,5 @@
+with a parameterless method named "fileno()" returning such an
+   integer:
+   * *rlist*: wait until ready for reading
+   * *wlist*: wait until ready for writing
+   * *xlist*: wait for an "exceptional condition" (see the manual page

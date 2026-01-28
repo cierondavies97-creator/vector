@@ -1,0 +1,4 @@
+of elements was artificially made predictable by sorting the
+   attributes by their name. Based on the now guaranteed ordering of
+   dicts, this arbitrary reordering was removed in Python 3.8 to
+   preserve the order in which attributes were originally parsed or

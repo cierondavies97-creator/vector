@@ -1,0 +1,4 @@
+decoder.
+   This function requires that the codec accept "bytes" objects to
+   decode. Therefore it does not support text-to-text encoders such as
+   "rot_13", although "rot_13" may be used equivalently with

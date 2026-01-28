@@ -1,0 +1,6 @@
+print(f.read().decode('utf-8'))
+Adding HTTP headers:
+Use the *headers* argument to the "Request" constructor, or:
+   import urllib.request
+   req = urllib.request.Request('http://www.example.com/')
+   req.add_header('Referer', 'http://www.python.org/')

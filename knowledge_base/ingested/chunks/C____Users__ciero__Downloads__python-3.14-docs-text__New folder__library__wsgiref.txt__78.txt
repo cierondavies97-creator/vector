@@ -1,0 +1,4 @@
+class wsgiref.handlers.CGIHandler
+   CGI-based invocation via "sys.stdin", "sys.stdout", "sys.stderr"
+   and "os.environ".  This is useful when you have a WSGI application
+   and want to run it as a CGI script.  Simply invoke

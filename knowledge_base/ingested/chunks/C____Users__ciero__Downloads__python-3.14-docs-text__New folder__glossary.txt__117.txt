@@ -1,0 +1,5 @@
+range, and an optional "if" clause.  The combined expression
+   generates values for an enclosing function:
+      >>> sum(i*i for i in range(10))         # sum of squares 0, 1, 4, ... 81
+      285
+generic function

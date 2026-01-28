@@ -1,0 +1,7 @@
+>>> assert foo == {}
+When used as a class decorator "patch.dict()" honours
+"patch.TEST_PREFIX" (default to "'test'") for choosing which methods
+to wrap:
+>>> import os
+>>> import unittest
+>>> from unittest.mock import patch

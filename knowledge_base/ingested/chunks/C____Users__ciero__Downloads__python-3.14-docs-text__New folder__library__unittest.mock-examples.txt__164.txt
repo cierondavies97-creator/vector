@@ -1,0 +1,4 @@
+front costs" by delaying the import. This can also be solved in better
+ways than an unconditional local import (store the module as a class
+or module attribute and only do the import on first use).
+That aside there is a way to use "mock" to affect the results of an

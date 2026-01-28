@@ -1,0 +1,5 @@
+Changed in version 3.7: This can now handle coroutine and
+   asynchronous generator objects.
+   Changed in version 3.11: Added the *show_caches* and *adaptive*
+   parameters.
+   Changed in version 3.13: Added the *show_offsets* parameter.

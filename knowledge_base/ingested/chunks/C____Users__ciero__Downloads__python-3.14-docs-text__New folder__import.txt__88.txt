@@ -1,0 +1,5 @@
+5.4.3. Module specs
+-------------------
+The import machinery uses a variety of information about each module
+during import, especially before loading.  Most of the information is
+common to all modules.  The purpose of a module's spec is to

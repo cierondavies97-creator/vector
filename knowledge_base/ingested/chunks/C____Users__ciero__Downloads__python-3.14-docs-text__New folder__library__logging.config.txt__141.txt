@@ -1,0 +1,5 @@
+"[formatters]" section will have its configuration specified in a
+section called "[formatter_form01]". The root logger configuration
+must be specified in a section called "[logger_root]".
+Note:
+  The "fileConfig()" API is older than the "dictConfig()" API and does

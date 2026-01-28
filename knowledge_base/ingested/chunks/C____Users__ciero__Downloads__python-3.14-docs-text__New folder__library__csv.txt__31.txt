@@ -1,0 +1,5 @@
+If the argument passed to *fieldnames* is an iterator, it will be
+   coerced to a "list".
+   Changed in version 3.6: Returned rows are now of type
+   "OrderedDict".
+   Changed in version 3.8: Returned rows are now of type "dict".

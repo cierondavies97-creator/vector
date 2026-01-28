@@ -1,0 +1,4 @@
+combination "'\r\n'" (CRLF).
+BaseCookie.js_output(attrs=None)
+   Return an embeddable JavaScript snippet, which, if run on a browser
+   which supports JavaScript, will act the same as if the HTTP headers

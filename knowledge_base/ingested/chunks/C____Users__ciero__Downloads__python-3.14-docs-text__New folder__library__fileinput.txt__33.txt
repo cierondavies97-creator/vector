@@ -1,0 +1,5 @@
+without any decompression).
+   The *encoding* and *errors* values are passed to "io.TextIOWrapper"
+   for compressed files and open for normal files.
+   Usage example:  "fi =
+   fileinput.FileInput(openhook=fileinput.hook_compressed,

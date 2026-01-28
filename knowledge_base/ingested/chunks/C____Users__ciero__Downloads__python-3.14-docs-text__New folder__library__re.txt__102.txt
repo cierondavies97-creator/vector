@@ -1,0 +1,5 @@
+"\d"
+   For Unicode (str) patterns:
+      Matches any Unicode decimal digit (that is, any character in
+      Unicode character category [Nd]). This includes "[0-9]", and
+      also many other digit characters.

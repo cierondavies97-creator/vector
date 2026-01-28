@@ -1,0 +1,5 @@
+awaitable pdb.set_trace_async(*, header=None, commands=None)
+   async version of "set_trace()". This function should be used inside
+   an async function with "await".
+      async def f():
+          await pdb.set_trace_async()

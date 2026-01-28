@@ -1,0 +1,4 @@
+schema for user-defined logger classes.)
+Objects to be configured are described by dictionaries which detail
+their configuration.  In some places, the logging system will be able
+to infer from the context how an object is to be instantiated, but

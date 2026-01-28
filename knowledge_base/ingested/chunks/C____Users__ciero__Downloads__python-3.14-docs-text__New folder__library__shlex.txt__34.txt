@@ -1,0 +1,4 @@
+error messages in the standard, parseable format understood by
+   Emacs and other Unix tools.
+Instances of "shlex" subclasses have some public instance variables
+which either control lexical analysis or can be used for debugging:

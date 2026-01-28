@@ -1,0 +1,4 @@
+"b'abcdefghijklmnopqrstuvwxyz'". Uppercase ASCII characters are
+   those byte values in the sequence "b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'".
+   All other byte values are uncased.
+   The algorithm uses a simple language-independent definition of a

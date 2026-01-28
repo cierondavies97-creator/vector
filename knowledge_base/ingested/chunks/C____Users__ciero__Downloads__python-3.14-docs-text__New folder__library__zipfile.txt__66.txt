@@ -1,0 +1,4 @@
+raise a "ValueError". Previously, a "RuntimeError" was raised.
+ZipFile.testzip()
+   Read all the files in the archive and check their CRC's and file
+   headers. Return the name of the first bad file, or else return

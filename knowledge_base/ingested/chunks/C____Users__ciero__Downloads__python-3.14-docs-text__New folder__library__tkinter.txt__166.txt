@@ -1,0 +1,6 @@
+will be called from the Tk mainloop when I/O is possible on a file
+descriptor. Only one handler may be registered per file descriptor.
+Example code:
+   import tkinter
+   widget = tkinter.Tk()
+   mask = tkinter.READABLE | tkinter.WRITABLE

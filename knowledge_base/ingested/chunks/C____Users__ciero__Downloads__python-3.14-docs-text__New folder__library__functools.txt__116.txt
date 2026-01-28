@@ -1,0 +1,4 @@
+wrapper function is not updated, the metadata of the returned
+   function will reflect the wrapper definition rather than the
+   original function definition, which is typically less than helpful.
+   "update_wrapper()" may be used with callables other than functions.

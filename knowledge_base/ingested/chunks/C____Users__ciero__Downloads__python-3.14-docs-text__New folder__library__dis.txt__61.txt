@@ -1,0 +1,8 @@
+arg
+      numeric argument to operation (if any), otherwise "None"
+   oparg
+      alias for "arg"
+   argval
+      resolved arg value (if any), otherwise "None"
+   argrepr
+      human readable description of operation argument (if any),

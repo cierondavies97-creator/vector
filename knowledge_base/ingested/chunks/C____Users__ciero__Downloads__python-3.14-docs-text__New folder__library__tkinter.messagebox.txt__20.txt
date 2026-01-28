@@ -1,0 +1,4 @@
+tkinter.messagebox.OKCANCEL = 'okcancel'
+   Displays two buttons whose symbolic names are "OK" and "CANCEL".
+tkinter.messagebox.RETRYCANCEL = 'retrycancel'
+   Displays two buttons whose symbolic names are "RETRY" and "CANCEL".

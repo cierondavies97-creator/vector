@@ -1,0 +1,3 @@
+"HTTPPasswordMgr.add_password()".  *is_authenticated* sets the
+   initial value of the "is_authenticated" flag for the given URI or
+   list of URIs. If *is_authenticated* is specified as "True", *realm*

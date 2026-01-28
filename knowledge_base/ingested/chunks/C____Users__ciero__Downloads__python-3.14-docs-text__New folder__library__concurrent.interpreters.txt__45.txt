@@ -1,0 +1,8 @@
+from concurrent import interpreters
+   interp = interpreters.create()
+   # Run in the current OS thread.
+   interp.exec('print("spam!")')
+   interp.exec("""if True:
+       print('spam!')
+       """)
+   from textwrap import dedent

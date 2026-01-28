@@ -1,0 +1,5 @@
+>>> from statistics import median
+   >>> from math import isnan
+   >>> from itertools import filterfalse
+   >>> data = [20.7, float('NaN'),19.2, 18.3, float('NaN'), 14.4]
+   >>> sorted(data)  # This has surprising behavior

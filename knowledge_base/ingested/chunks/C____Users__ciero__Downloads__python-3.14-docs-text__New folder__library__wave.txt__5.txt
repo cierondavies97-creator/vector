@@ -1,0 +1,4 @@
+responsibility to close the file object.
+   The "open()" function may be used in a "with" statement.  When the
+   "with" block completes, the "Wave_read.close()" or
+   "Wave_write.close()" method is called.

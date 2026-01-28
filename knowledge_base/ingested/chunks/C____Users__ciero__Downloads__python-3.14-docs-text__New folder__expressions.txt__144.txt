@@ -1,0 +1,4 @@
+evaluate to an "int" or a "slice" (as discussed in the following
+   section). Examples of builtin sequence classes include the "str",
+   "list" and "tuple" classes.
+The formal syntax makes no special provision for negative indices in

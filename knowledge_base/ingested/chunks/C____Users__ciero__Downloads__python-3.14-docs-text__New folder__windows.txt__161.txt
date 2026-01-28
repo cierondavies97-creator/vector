@@ -1,0 +1,2 @@
+|                                                    | (e.g. ""pep514,start""). Enabled shortcuts may     |
+|                                                    | still be disabled by "disable_shortcut_kinds".     |

@@ -1,0 +1,3 @@
+If *strict* is "True", the first error encountered when evaluating
+   the path is re-raised. In particular, "FileNotFoundError" is raised
+   if *path* does not exist, or another "OSError" if it is otherwise

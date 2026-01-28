@@ -1,0 +1,4 @@
+determine if the ".pyc" file needs to be regenerated.
+   UNCHECKED_HASH
+      Like "CHECKED_HASH", the ".pyc" file includes a hash of the
+      source file content. However, Python will at runtime assume the

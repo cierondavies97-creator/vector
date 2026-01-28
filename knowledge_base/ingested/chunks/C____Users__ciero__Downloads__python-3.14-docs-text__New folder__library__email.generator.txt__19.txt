@@ -1,0 +1,4 @@
+non-ASCII bytes in headers using the MIME "unknown-8bit"
+      character set, thus rendering them RFC-compliant.
+      If *unixfrom* is "True", print the envelope header delimiter
+      used by the Unix mailbox format (see "mailbox") before the first

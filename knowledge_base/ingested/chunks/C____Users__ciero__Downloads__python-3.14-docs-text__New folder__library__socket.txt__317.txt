@@ -1,0 +1,4 @@
+Added in version 3.3.
+Note that there are no methods "read()" or "write()"; use "recv()" and
+"send()" without *flags* argument instead.
+Socket objects also have these (read-only) attributes that correspond

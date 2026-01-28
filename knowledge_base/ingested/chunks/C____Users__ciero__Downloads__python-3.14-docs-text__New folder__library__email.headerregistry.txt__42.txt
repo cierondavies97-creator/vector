@@ -1,0 +1,5 @@
+per **RFC 2045**, then the header object will have non-"None"
+   values for the following attributes:
+   version
+      The version number as a string, with any whitespace and/or
+      comments removed.

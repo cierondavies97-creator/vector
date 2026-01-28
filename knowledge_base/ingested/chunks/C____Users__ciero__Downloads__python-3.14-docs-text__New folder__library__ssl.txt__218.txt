@@ -1,0 +1,4 @@
+string, bytes, or bytearray value may be supplied directly as the
+   *password* argument.  It will be ignored if the private key is not
+   encrypted and no password is needed.
+   If the *password* argument is not specified and a password is

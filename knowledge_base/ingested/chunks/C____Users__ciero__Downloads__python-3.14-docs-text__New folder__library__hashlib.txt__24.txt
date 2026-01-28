@@ -1,0 +1,7 @@
+hash.digest_size
+   The size of the resulting hash in bytes.
+hash.block_size
+   The internal block size of the hash algorithm in bytes.
+A hash object has the following attributes:
+hash.name
+   The canonical name of this hash, always lowercase and always

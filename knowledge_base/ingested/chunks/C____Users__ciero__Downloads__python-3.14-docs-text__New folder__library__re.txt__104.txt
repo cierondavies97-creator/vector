@@ -1,0 +1,6 @@
+opposite of "\d".
+   Matches "[^0-9]" if the "ASCII" flag is used.
+"\s"
+   For Unicode (str) patterns:
+      Matches Unicode whitespace characters (as defined by
+      "str.isspace()"). This includes "[ \t\n\r\f\v]", and also many

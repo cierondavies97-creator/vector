@@ -1,0 +1,4 @@
+os.setpriority(which, who, priority)
+   Set program scheduling priority. The value *which* is one of
+   "PRIO_PROCESS", "PRIO_PGRP", or "PRIO_USER", and *who* is
+   interpreted relative to *which* (a process identifier for

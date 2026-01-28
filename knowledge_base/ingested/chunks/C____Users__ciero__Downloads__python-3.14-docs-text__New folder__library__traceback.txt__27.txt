@@ -1,0 +1,4 @@
+those items whose source text line is not "None".
+traceback.format_exception_only(exc, /, [value, ]*, show_group=False)
+   Format the exception part of a traceback using an exception value
+   such as given by "sys.last_value".  The return value is a list of

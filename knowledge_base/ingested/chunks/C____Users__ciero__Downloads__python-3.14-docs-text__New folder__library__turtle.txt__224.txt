@@ -1,0 +1,5 @@
+under the name "onscreenclick".  The global function "onclick" is
+     another one derived from the Turtle method "onclick".
+turtle.ontimer(fun, t=0)
+   Parameters:
+      * **fun** -- a function with no arguments

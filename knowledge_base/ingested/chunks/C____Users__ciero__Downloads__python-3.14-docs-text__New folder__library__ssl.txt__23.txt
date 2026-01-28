@@ -1,0 +1,5 @@
+"SSLKEYLOGFILE" is set, "create_default_context()" enables key
+   logging.
+   The default settings for this context include
+   "VERIFY_X509_PARTIAL_CHAIN" and "VERIFY_X509_STRICT". These make
+   the underlying OpenSSL implementation behave more like a conforming

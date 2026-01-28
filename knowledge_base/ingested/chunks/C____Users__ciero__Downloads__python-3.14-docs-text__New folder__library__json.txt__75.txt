@@ -1,0 +1,4 @@
+skipped.
+   If *ensure_ascii* is true (the default), the output is guaranteed
+   to have all incoming non-ASCII and non-printable characters
+   escaped. If *ensure_ascii* is false, all characters will be output

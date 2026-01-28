@@ -1,0 +1,3 @@
+list of imported symbols at module link time (AIX is one example), or
+offer a choice of different strategies (most Unices). And even if
+symbols are globally visible, the module whose functions one wishes to

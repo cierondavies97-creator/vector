@@ -1,0 +1,3 @@
+instances of "datetime", "date" and "time" pickled by Python 2.
+   If *buffers* is "None" (the default), then all data necessary for
+   deserialization must be contained in the pickle stream.  This means

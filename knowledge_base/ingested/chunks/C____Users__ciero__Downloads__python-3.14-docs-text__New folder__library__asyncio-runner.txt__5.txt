@@ -1,0 +1,4 @@
+It is recommended to use *loop_factory* to configure the event loop
+   instead of policies. Passing "asyncio.EventLoop" allows running
+   asyncio without the policy system.
+   The executor is given a timeout duration of 5 minutes to shutdown.

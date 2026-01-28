@@ -1,0 +1,5 @@
+"%COMSPEC%" and "%SystemRoot%\System32\cmd.exe". As a result,
+   dropping a malicious program named "cmd.exe" into a current
+   directory no longer works.
+class subprocess.CompletedProcess
+   The return value from "run()", representing a process that has

@@ -1,0 +1,5 @@
+>>> dllist()
+   ['', 'linux-vdso.so.1', '/lib/x86_64-linux-gnu/libm.so.6', '/lib/x86_64-linux-gnu/libc.so.6', ... ]
+Loading shared libraries
+------------------------
+There are several ways to load shared libraries into the Python

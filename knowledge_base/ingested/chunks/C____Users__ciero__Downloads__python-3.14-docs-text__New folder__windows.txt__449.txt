@@ -1,0 +1,3 @@
+| Name                | Value   | Description                                     |
+|=====================|=========|=================================================|
+| RC_BAD_VENV_CFG     | 107     | A "pyvenv.cfg" was found but is corrupt.        |

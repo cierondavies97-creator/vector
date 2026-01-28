@@ -1,0 +1,5 @@
+Raises an auditing event "os.link" with arguments "src", "dst",
+   "src_dir_fd", "dst_dir_fd".
+   Availability: Unix, Windows.
+   Changed in version 3.2: Added Windows support.
+   Changed in version 3.3: Added the *src_dir_fd*, *dst_dir_fd*, and

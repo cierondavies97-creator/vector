@@ -1,0 +1,6 @@
+close()
+      Close the runner.
+      Finalize asynchronous generators, shutdown default executor,
+      close the event loop and release embedded "contextvars.Context".
+   get_loop()
+      Return the event loop associated with the runner instance.

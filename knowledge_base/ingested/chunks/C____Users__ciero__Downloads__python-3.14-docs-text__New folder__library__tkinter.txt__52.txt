@@ -1,0 +1,6 @@
+responds to user input until the program terminates.
+Important Tk Concepts
+---------------------
+Even this simple program illustrates the following key Tk concepts:
+widgets
+   A Tkinter user interface is made up of individual *widgets*. Each

@@ -1,0 +1,5 @@
+'X: 3;  Y: 5'
+Replacing "%s" and "%r":
+   >>> "repr() shows quotes: {!r}; str() doesn't: {!s}".format('test1', 'test2')
+   "repr() shows quotes: 'test1'; str() doesn't: test2"
+Aligning the text and specifying a width:

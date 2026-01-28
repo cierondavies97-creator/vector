@@ -1,0 +1,5 @@
+attribute when it is actually intended to get a "total_seconds()"
+     value instead:
+        >>> from datetime import timedelta
+        >>> duration = timedelta(seconds=11235813)
+        >>> duration.days, duration.seconds

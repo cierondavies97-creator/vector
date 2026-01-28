@@ -1,0 +1,5 @@
+secure=True so that your userid and password are not passed in
+   cleartext across the wire.
+   Changed in version 3.5: The *context* parameter was added.
+   mapLogRecord(record)
+      Provides a dictionary, based on "record", which is to be URL-

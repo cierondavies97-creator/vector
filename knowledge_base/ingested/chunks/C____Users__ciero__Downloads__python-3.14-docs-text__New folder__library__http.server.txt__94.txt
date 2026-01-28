@@ -1,0 +1,4 @@
+could allow remote clients connecting to your server to send nefarious
+control codes to your terminal.
+Changed in version 3.12: Control characters are scrubbed in stderr
+logs.

@@ -1,0 +1,6 @@
+method_calls
+      As well as tracking calls to themselves, mocks also track calls
+      to methods and attributes, and *their* methods and attributes:
+      >>> mock = Mock()
+      >>> mock.method()
+      <Mock name='mock.method()' id='...'>

@@ -1,0 +1,7 @@
+>>> 'Monty Python'.ljust(10, '.')
+      'Monty Python'
+   See also "rjust()".
+str.lower()
+   Return a copy of the string with all the cased characters [4]
+   converted to lowercase. For example:
+      >>> 'Lower Method Example'.lower()

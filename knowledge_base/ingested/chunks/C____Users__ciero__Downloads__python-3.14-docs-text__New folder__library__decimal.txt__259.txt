@@ -1,0 +1,7 @@
+Decimal('0.0060000')
+Special values
+--------------
+The number system for the "decimal" module provides special values
+including "NaN", "sNaN", "-Infinity", "Infinity", and two zeros, "+0"
+and "-0".
+Infinities can be constructed directly with:  "Decimal('Infinity')".

@@ -1,0 +1,3 @@
+database as "Letter", i.e., those with general category property
+   being one of "Lm", "Lt", "Lu", "Ll", or "Lo".  Note that this is
+   different from the Alphabetic property defined in the section 4.10

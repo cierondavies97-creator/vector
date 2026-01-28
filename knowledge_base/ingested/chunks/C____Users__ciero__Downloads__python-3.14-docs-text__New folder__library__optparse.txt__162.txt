@@ -1,0 +1,5 @@
+overall option string.
+The canonical way to create an "Option" instance is with the
+"add_option()" method of "OptionParser".
+OptionParser.add_option(option)
+OptionParser.add_option(*opt_str, attr=value, ...)

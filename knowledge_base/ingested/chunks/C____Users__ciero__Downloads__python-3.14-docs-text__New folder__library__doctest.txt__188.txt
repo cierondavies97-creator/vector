@@ -1,0 +1,5 @@
+following diagram:
+                               list of:
+   +------+                   +---------+
+   |module| --DocTestFinder-> | DocTest | --DocTestRunner-> results
+   +------+    |        ^     +---------+     |       ^    (printed)

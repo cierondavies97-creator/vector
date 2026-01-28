@@ -1,0 +1,4 @@
+separate cache for *follow_symlinks* "True" and "False". Call
+      "os.stat()" to fetch up-to-date information.
+   Note that there is a nice correspondence between several attributes
+   and methods of "os.DirEntry" and of "pathlib.Path".  In particular,

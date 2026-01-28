@@ -1,0 +1,6 @@
+| invalid_comprehension
+   setcomp[expr_ty]:
+       | '{' a=named_expression b=for_if_clauses '}' { _PyAST_SetComp(a, b, EXTRA) }
+       | invalid_comprehension
+   genexp[expr_ty]:
+       | '(' a=( assignment_expression | expression !':=') b=for_if_clauses ')' { _PyAST_GeneratorExp(a, b, EXTRA) }

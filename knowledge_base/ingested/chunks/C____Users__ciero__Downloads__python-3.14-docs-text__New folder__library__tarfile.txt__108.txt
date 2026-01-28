@@ -1,0 +1,4 @@
+Add the file *name* to the archive. *name* may be any type of file
+   (directory, fifo, symbolic link, etc.). If given, *arcname*
+   specifies an alternative name for the file in the archive.
+   Directories are added recursively by default. This can be avoided

@@ -1,0 +1,8 @@
+dis.opname
+   Sequence of operation names, indexable using the bytecode.
+dis.opmap
+   Dictionary mapping operation names to bytecodes.
+dis.cmp_op
+   Sequence of all compare operation names.
+dis.hasarg
+   Sequence of bytecodes that use their argument.

@@ -1,0 +1,5 @@
+window.  It is possible to have multiple editor windows
+simultaneously.  On Windows and Linux, each has its own top menu.
+Each menu documented below indicates which window type it is
+associated with.
+Output windows, such as used for Edit => Find in Files, are a subtype

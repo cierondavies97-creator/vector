@@ -1,0 +1,6 @@
+True
+      >>> '⅕'.isnumeric()  # Vulgar fraction one fifth
+      True
+      >>> '²'.isdecimal(), '²'.isdigit(),  '²'.isnumeric()
+      (False, True, True)
+   See also "isdecimal()" and "isdigit()". Numeric characters are a

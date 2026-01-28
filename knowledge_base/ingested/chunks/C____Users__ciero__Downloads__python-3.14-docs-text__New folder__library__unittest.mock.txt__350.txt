@@ -1,0 +1,3 @@
+being mocked) underscore and double underscore prefixed attributes
+have been filtered from the result of calling "dir()" on a "Mock". If
+you dislike this behaviour you can switch it off by setting the module

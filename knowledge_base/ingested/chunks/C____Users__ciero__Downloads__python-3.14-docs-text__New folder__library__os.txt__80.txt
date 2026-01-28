@@ -1,0 +1,4 @@
+and *nstype* may be set to one of the CLONE_NEW* constants to
+   impose constraints on the operation ("0" means no constraints).
+   Since Linux 5.8, *fd* may refer to a PID file descriptor obtained
+   from "pidfd_open()". In this case, "setns()" reassociates the

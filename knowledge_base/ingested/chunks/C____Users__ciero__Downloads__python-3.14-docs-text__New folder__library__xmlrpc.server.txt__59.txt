@@ -1,0 +1,4 @@
+GET requests are handled by generating pydoc-style HTML documentation.
+This allows a server to provide its own web-based documentation.
+DocXMLRPCServer.set_server_title(server_title)
+   Set the title used in the generated HTML documentation. This title

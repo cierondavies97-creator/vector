@@ -1,0 +1,4 @@
+last "decompress()" call because it exceeded the limit for the
+   uncompressed data buffer.  This data has not yet been seen by the
+   zlib machinery, so you must feed it (possibly with further data
+   concatenated to it) back to a subsequent "decompress()" method call

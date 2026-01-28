@@ -1,0 +1,5 @@
+def read_and_write(reader: Reader[str], writer: Writer[bytes]):
+       data = reader.read()
+       writer.write(data.encode())
+Also consider using "collections.abc.Iterable" for iterating over the
+lines of an input stream:

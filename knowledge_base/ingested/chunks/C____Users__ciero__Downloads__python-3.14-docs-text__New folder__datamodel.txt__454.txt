@@ -1,0 +1,3 @@
+* Multiple inheritance with multiple slotted parent classes can be
+  used, but only one parent is allowed to have attributes created by
+  slots (the other bases must have empty slot layouts) - violations

@@ -1,0 +1,6 @@
+b.wait()
+       while True:
+           connection = make_connection()
+           process_client_connection(connection)
+class threading.Barrier(parties, action=None, timeout=None)
+   Create a barrier object for *parties* number of threads.  An

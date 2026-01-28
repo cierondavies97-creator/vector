@@ -1,0 +1,5 @@
+manager for the task, inheriting from "ContextDecorator" provides both
+capabilities in a single definition:
+   from contextlib import ContextDecorator
+   import logging
+   logging.basicConfig(level=logging.INFO)

@@ -1,0 +1,4 @@
+| '(' a='**' expression ')' {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "cannot use double starred expression here") }
+   invalid_import:
+       | a='import' ','.dotted_name+ 'from' dotted_name {

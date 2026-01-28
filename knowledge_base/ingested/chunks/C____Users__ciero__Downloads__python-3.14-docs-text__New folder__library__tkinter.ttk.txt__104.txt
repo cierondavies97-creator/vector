@@ -1,0 +1,6 @@
+selected tab
+* The literal string "end", which returns the number of tabs (only
+  valid for "Notebook.index()")
+Virtual Events
+--------------
+This widget generates a **<<NotebookTabChanged>>** virtual event after

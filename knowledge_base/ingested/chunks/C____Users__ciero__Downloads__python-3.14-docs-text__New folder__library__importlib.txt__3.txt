@@ -1,0 +1,4 @@
+other than Python.
+Two, the components to implement "import" are exposed in this package,
+making it easier for users to create their own custom objects (known
+generically as an *importer*) to participate in the import process.

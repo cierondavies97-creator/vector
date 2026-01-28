@@ -1,0 +1,5 @@
+has no annotations. See also: "__annotate__" attributes.
+   Added in version 3.14.
+3.2.9.3. Module dictionaries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Module objects also have the following special read-only attribute:

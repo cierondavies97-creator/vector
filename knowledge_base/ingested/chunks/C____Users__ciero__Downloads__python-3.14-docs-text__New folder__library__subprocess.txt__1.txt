@@ -1,0 +1,5 @@
+their input/output/error pipes, and obtain their return codes.  This
+module intends to replace several older modules and functions:
+   os.system
+   os.spawn*
+Information about how the "subprocess" module can be used to replace

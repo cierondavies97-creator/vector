@@ -1,0 +1,4 @@
+*ctx* is a context object, or "None" (use the current context). If
+   "None", calling this may set the global start method. See Global
+   start method for more details.
+   A synchronized wrapper will have two methods in addition to those

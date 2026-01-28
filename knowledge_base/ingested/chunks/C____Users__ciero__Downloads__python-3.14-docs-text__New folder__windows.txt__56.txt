@@ -1,0 +1,4 @@
+moved to the offline machine and used to install one or more of the
+bundled runtimes:
+   $> py install --source="<PATH>\index.json" <TAG>...
+The Python install manager can be installed by downloading its

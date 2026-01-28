@@ -1,0 +1,4 @@
+installed in the virtual environment. This uses "ensurepip" with
+     the "--default-pip" option.
+   * *prompt* -- a string to be used after virtual environment is
+     activated (defaults to "None" which means directory name of the

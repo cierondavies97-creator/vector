@@ -1,0 +1,4 @@
+sync and close times. This allows natural operations on mutable
+   entries, but can consume much more memory and make sync and close
+   take a long time.
+   The *keyencoding* parameter is the encoding used to encode keys

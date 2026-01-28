@@ -1,0 +1,4 @@
+The function takes the same arguments as "create_string_buffer()"
+   except *init* must be a string and *size* counts "c_wchar".
+   Raises an auditing event "ctypes.create_unicode_buffer" with
+   arguments "init", "size".

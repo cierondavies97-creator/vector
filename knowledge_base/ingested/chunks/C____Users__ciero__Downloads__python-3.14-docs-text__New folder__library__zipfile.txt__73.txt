@@ -1,0 +1,5 @@
+a null byte, the name of the file in the archive will be
+     truncated at the null byte.
+   Note:
+     A leading slash in the filename may lead to the archive being
+     impossible to open in some zip programs on Windows systems.

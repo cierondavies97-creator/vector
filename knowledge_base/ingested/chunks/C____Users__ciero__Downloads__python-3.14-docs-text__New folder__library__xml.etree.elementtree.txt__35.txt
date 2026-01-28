@@ -1,0 +1,7 @@
+<year>2011</year>
+           <gdppc>13600</gdppc>
+           <neighbor name="Costa Rica" direction="W"/>
+           <neighbor name="Colombia" direction="E"/>
+       </country>
+   </data>
+We can remove elements using "Element.remove()".  Let's say we want to

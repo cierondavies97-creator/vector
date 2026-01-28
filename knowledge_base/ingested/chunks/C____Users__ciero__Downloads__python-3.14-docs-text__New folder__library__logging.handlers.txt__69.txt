@@ -1,0 +1,3 @@
+that does not mean you will always see log files with times (in
+     the filename) separated by a minute; if, during application
+     execution, logging output is generated more frequently than once

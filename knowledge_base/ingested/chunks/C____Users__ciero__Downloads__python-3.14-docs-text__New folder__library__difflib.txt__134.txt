@@ -1,0 +1,7 @@
+of output are
+   -: file1
+   +: file2
+   Each remaining line begins with a two-letter code:
+       "- "    line unique to file1
+       "+ "    line unique to file2
+       "  "    line common to both files

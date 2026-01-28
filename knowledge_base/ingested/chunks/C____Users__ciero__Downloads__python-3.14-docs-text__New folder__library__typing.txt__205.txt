@@ -1,0 +1,4 @@
+type predicate function.  "TypeIs" only accepts a single type
+   argument. At runtime, functions marked this way should return a
+   boolean and take at least one positional argument.
+   "TypeIs" aims to benefit *type narrowing* -- a technique used by

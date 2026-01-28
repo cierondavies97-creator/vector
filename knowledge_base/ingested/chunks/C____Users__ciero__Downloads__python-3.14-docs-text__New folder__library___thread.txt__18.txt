@@ -1,0 +1,4 @@
+supported stack size value to guarantee sufficient stack space for
+   the interpreter itself.  Note that some platforms may have
+   particular restrictions on values for the stack size, such as
+   requiring a minimum stack size > 32 KiB or requiring allocation in

@@ -1,0 +1,3 @@
+| "Control"-"B"      | Cursor left, wrapping to previous line if   |
+      |                    | appropriate.                                |
+      +--------------------+---------------------------------------------+

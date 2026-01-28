@@ -1,0 +1,4 @@
+resources used during the test class. Functions will be called
+      in reverse order to the order they are added (LIFO (last-in,
+      first-out)). They are called with any arguments and keyword
+      arguments passed into "addClassCleanup()" when they are added.

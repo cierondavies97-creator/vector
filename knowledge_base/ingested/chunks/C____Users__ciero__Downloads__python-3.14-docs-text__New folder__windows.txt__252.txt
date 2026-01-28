@@ -1,0 +1,4 @@
+machines is installed using:
+   nuget.exe install python -ExcludeVersion -OutputDirectory .
+   nuget.exe install pythonx86 -ExcludeVersion -OutputDirectory .
+To select a particular version, add a "-Version 3.x.y". The output

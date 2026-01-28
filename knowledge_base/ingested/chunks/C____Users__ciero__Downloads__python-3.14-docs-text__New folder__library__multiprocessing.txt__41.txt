@@ -1,0 +1,6 @@
+"multiprocessing" queue will be serialized.
+**Pipes**
+   The "Pipe()" function returns a pair of connection objects
+   connected by a pipe which by default is duplex (two-way).  For
+   example:
+      from multiprocessing import Process, Pipe

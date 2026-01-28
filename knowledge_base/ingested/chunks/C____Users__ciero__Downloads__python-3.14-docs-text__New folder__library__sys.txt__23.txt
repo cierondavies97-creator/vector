@@ -1,0 +1,4 @@
+to the virtual environment prefix. "base_prefix", conversely, does
+   not change, and always points to the base Python installation.
+   Refer to Virtual Environments for more information.
+   Added in version 3.3.

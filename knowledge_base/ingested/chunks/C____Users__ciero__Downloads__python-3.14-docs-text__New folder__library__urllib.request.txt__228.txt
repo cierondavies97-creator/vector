@@ -1,0 +1,4 @@
+*****************************************************
+The "urllib.response" module defines functions and classes which
+define a minimal file-like interface, including "read()" and
+"readline()". Functions defined by this module are used internally by

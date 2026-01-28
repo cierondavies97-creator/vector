@@ -1,0 +1,4 @@
+* The "OrderedDict" algorithm can handle frequent reordering
+  operations better than "dict".  As shown in the recipes below, this
+  makes it suitable for implementing various kinds of LRU caches.
+* The equality operation for "OrderedDict" checks for matching order.

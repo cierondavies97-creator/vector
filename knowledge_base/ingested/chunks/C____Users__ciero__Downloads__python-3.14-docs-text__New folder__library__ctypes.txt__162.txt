@@ -1,0 +1,7 @@
+0
+   >>>
+Incomplete Types
+----------------
+*Incomplete Types* are structures, unions or arrays whose members are
+not yet specified. In C, they are specified by forward declarations,
+which are defined later:

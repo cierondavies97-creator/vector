@@ -1,0 +1,5 @@
+try:
+               print(list(pool.imap(f, list(range(10)))))
+           except ZeroDivisionError:
+               print('\tGot ZeroDivisionError as expected from list(pool.imap())')
+           else:

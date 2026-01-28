@@ -1,0 +1,4 @@
+PyPI
+   * *scm_ignore_files* -- Create ignore files based for the specified
+     source control managers (SCM) in the iterable. Support is defined
+     by having a method named "create_{scm}_ignore_file". The only

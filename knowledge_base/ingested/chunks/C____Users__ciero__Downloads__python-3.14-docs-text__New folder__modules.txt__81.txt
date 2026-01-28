@@ -1,0 +1,5 @@
+its package prefix, so it can be used as follows:
+   echo.echofilter(input, output, delay=0.7, atten=4)
+Yet another variation is to import the desired function or variable
+directly:
+   from sound.effects.echo import echofilter

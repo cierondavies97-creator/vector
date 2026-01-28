@@ -1,0 +1,6 @@
+encounters this option on the command-line.  The standard option
+   actions hard-coded into "optparse" are:
+   ""store""
+      store this option's argument (default)
+   ""store_const""
+      store a constant value, pre-set via "Option.const"

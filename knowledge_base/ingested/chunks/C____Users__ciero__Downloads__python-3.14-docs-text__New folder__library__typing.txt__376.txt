@@ -1,0 +1,6 @@
+or lower, inherit from "Generic" explicitly:
+      T = TypeVar("T")
+      class Group(TypedDict, Generic[T]):
+          key: T
+          group: list[T]
+   A "TypedDict" can be introspected via annotations dicts (see

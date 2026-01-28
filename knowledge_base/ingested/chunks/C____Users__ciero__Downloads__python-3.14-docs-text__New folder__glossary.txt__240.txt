@@ -1,0 +1,7 @@
+versions.
+regular package
+   A traditional *package*, such as a directory containing an
+   "__init__.py" file.
+   See also *namespace package*.
+reentrant
+   A property of a function or *lock* that allows it to be called or

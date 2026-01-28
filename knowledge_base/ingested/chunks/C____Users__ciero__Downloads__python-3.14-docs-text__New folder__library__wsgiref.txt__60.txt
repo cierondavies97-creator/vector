@@ -1,0 +1,5 @@
+*handler_class* to the "make_server()" function.  Some possibly
+   relevant methods for overriding in subclasses:
+   get_environ()
+      Return a "WSGIEnvironment" dictionary for a request.  The
+      default implementation copies the contents of the "WSGIServer"

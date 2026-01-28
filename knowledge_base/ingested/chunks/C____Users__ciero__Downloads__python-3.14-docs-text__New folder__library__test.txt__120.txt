@@ -1,0 +1,4 @@
+"tracemalloc" is enabled.
+test.support.check_free_after_iterating(test, iter, cls, args=())
+   Assert instances of *cls* are deallocated after iterating.
+test.support.missing_compiler_executable(cmd_names=[])

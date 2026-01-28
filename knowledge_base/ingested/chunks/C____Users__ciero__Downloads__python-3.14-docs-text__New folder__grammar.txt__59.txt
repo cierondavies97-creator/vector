@@ -1,0 +1,4 @@
+_PyPegen_star_etc(p, a, b, c) }
+       | '*' a=param_no_default_star_annotation b=param_maybe_default* c=[kwds] {
+           _PyPegen_star_etc(p, a, b, c) }
+       | '*' ',' b=param_maybe_default+ c=[kwds] {

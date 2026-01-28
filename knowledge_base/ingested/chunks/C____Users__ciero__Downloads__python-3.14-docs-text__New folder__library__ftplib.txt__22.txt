@@ -1,0 +1,4 @@
+for the connection attempt (default: the global default
+           timeout setting).
+         * **source_address** (*tuple** | **None*) -- A 2-tuple
+           "(host, port)" for the socket to bind to as its source

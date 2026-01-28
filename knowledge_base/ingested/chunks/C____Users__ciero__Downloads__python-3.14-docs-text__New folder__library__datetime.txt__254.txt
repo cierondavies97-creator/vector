@@ -1,0 +1,4 @@
+# but with a tzinfo set to self.
+           # See datetime.astimezone or fromtimestamp.
+           if dt.replace(tzinfo=timezone.utc) >= self.UTC_MOVE_DATE:
+               return dt + timedelta(hours=4, minutes=30)

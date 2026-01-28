@@ -1,0 +1,6 @@
+this may change in the future.)
+      >>> round(geometric_mean([54, 24, 36]), 1)
+      36.0
+   Added in version 3.8.
+statistics.harmonic_mean(data, weights=None)
+   Return the harmonic mean of *data*, a sequence or iterable of real-

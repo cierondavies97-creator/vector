@@ -1,0 +1,4 @@
+server when the TLS client specifies a server name indication. The
+   server name indication mechanism is specified in **RFC 6066**
+   section 3 - Server Name Indication.
+   Only one callback can be set per "SSLContext".  If *sni_callback*

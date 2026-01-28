@@ -1,0 +1,6 @@
+Changed in version 3.8: "yield" and "yield from" prohibited in the
+implicitly nested scope.
+6.2.9. Yield expressions
+------------------------
+   yield_atom:       "(" yield_expression ")"
+   yield_from:       "yield" "from" expression

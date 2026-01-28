@@ -1,0 +1,6 @@
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+Get started
+===========
+Imagine a robotic turtle starting at (0, 0) in the x-y plane.  After
+an "import turtle", give it the command "turtle.forward(15)", and it

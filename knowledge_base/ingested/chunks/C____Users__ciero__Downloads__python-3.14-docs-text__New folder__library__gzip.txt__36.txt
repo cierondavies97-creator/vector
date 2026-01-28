@@ -1,0 +1,3 @@
+Decompress the *data*, returning a "bytes" object containing the
+   uncompressed data. This function is capable of decompressing multi-
+   member gzip data (multiple gzip blocks concatenated together). When

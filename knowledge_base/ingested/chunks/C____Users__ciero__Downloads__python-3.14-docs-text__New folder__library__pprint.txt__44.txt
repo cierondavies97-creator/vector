@@ -1,0 +1,4 @@
+'the project, basic\n'
+                   'usage examples, etc. Generally, including the project '
+                   'changelog in here is not\n'
+                   'a good idea, although a simple "What\'s New" section for the '

@@ -1,0 +1,3 @@
+of execution will return the *same* mapping object. Changes made
+   through the mapping object returned from "locals()" will be visible
+   as assigned, reassigned, or deleted local variables, and assigning,

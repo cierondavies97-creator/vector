@@ -1,0 +1,4 @@
+specified with the *protocol* parameter.
+   Because of Python semantics, a shelf cannot know when a mutable
+   persistent-dictionary entry is modified.  By default modified
+   objects are written *only* when assigned to the shelf (see

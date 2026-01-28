@@ -1,0 +1,4 @@
+weak mappings are simply deleted.
+"WeakKeyDictionary" and "WeakValueDictionary" use weak references in
+their implementation, setting up callback functions on the weak
+references that notify the weak dictionaries when a key or value has

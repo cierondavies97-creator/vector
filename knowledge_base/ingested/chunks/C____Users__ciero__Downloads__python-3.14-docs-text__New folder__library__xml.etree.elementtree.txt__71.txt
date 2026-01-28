@@ -1,0 +1,3 @@
+|                         | in version 3.7.                                        |
++-------------------------+--------------------------------------------------------+
+| "[.!='text']"           | Selects all elements whose complete text content,      |

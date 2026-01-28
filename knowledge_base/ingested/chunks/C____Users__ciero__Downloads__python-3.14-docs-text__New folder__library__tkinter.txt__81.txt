@@ -1,0 +1,3 @@
+scope, independent of any widget. Examples are methods for accessing
+  the clipboard or the system bell. (They happen to be implemented as
+  methods in the base "Widget" class that all Tkinter widgets inherit

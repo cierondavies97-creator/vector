@@ -1,0 +1,5 @@
+visible portion of the tree.
+   selection()
+      Returns a tuple of selected items.
+      Changed in version 3.8: "selection()" no longer takes arguments.
+      For changing the selection state use the following selection

@@ -1,0 +1,5 @@
+module, class, or function.
+   Changed in version 3.3: "OSError" is raised instead of "IOError",
+   now an alias of the former.
+inspect.getsource(object)
+   Return the text of the source code for an object. The argument may

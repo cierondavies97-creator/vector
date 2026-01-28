@@ -1,0 +1,4 @@
+required methods or attributes, not their type signatures or
+     types. For example, "ssl.SSLObject" is a class, therefore it
+     passes an "issubclass()" check against Callable. However, the
+     "ssl.SSLObject.__init__" method exists only to raise a

@@ -1,0 +1,5 @@
+computed as well as the peak memory usage during the computations:
+   import tracemalloc
+   tracemalloc.start()
+   # Example code: compute a sum with a large temporary list
+   large_sum = sum(list(range(100000)))

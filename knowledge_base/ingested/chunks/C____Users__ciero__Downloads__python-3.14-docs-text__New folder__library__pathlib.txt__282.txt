@@ -1,0 +1,7 @@
+default.)
+Protocols
+=========
+The "pathlib.types" module provides types for static type checking.
+Added in version 3.14.
+class pathlib.types.PathInfo
+   A "typing.Protocol" describing the "Path.info" attribute.

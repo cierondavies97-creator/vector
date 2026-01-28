@@ -1,0 +1,3 @@
+typically 8 bytes on 64-bit builds and 4 bytes on 32-bit builds.
+     If an object's   "__hash__()" must interoperate on builds of
+     different bit sizes, be sure to check the width on all supported

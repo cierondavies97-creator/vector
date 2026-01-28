@@ -1,0 +1,4 @@
+or "KeyError" if the file object is already registered.
+   abstractmethod unregister(fileobj)
+      Unregister a file object from selection, removing it from
+      monitoring. A file object shall be unregistered prior to being

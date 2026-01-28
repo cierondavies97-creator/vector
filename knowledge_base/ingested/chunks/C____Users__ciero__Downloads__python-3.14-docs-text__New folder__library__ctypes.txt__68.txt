@@ -1,0 +1,4 @@
++------------------------------------+-----------------------------------+-------------------+
+All these types can be created by calling them with an optional
+initializer of the correct type and value:
+   >>> c_int()

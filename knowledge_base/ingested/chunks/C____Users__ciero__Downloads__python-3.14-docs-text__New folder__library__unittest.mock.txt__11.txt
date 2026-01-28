@@ -1,0 +1,4 @@
+or methods on the mock that don't exist on the spec will fail with an
+"AttributeError".
+The "patch()" decorator / context manager makes it easy to mock
+classes or objects in a module under test. The object you specify will

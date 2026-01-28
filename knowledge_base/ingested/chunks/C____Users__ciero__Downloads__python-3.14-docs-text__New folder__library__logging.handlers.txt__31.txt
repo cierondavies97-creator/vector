@@ -1,0 +1,4 @@
+using a namer to preserve certain attributes in the filename
+        which are used during rotation. For example,
+        "RotatingFileHandler" expects to have a set of log files whose
+        names contain successive integers, so that rotation works as

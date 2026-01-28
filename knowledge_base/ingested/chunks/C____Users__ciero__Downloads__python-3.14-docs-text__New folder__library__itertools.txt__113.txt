@@ -1,0 +1,5 @@
+itertools.repeat(object[, times])
+   Make an iterator that returns *object* over and over again. Runs
+   indefinitely unless the *times* argument is specified.
+   Roughly equivalent to:
+      def repeat(object, times=None):

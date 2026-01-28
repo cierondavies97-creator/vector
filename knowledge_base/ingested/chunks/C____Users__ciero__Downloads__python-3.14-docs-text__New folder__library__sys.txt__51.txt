@@ -1,0 +1,6 @@
+sys.stdout.write("\n")
+          builtins._ = value
+   Changed in version 3.2: Use "'backslashreplace'" error handler on
+   "UnicodeEncodeError".
+sys.dont_write_bytecode
+   If this is true, Python won't try to write ".pyc" files on the

@@ -1,0 +1,3 @@
+|           | and NaN are uppercased, too.                               |
+   +-----------+------------------------------------------------------------+
+   | "'n'"     | Number. This is the same as "'g'", except that it uses the |

@@ -1,0 +1,4 @@
+the argument of the operation as specified in the relevant C
+   documentation.
+   If *arg* does not support the read-write buffer interface or the
+   *mutate_flag* is false, behavior is as for the "fcntl()" function.

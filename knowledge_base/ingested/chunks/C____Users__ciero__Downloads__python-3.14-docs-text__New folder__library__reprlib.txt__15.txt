@@ -1,0 +1,3 @@
+string.  Note that the "normal" representation of the string is
+   used as the character source: if escape sequences are needed in the
+   representation, these may be mangled when the representation is

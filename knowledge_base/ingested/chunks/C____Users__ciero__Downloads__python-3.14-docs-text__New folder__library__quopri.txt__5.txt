@@ -1,0 +1,4 @@
+Extensions for Non-ASCII Text".
+quopri.encode(input, output, quotetabs, header=False)
+   Encode the contents of the *input* file and write the resulting
+   quoted-printable data to the *output* file. *input* and *output*

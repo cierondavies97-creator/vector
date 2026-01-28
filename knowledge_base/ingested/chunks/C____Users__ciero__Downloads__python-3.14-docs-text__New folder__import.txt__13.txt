@@ -1,0 +1,4 @@
+convenient analogy of directories and files.  Like file system
+directories, packages are organized hierarchically, and packages may
+themselves contain subpackages, as well as regular modules.
+It's important to keep in mind that all packages are modules, but not

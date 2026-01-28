@@ -1,0 +1,4 @@
+files, the *newline* argument to "open()" can be used to select
+      the line terminator(s) recognized.
+   readlines(hint=-1, /)
+      Read and return a list of lines from the stream.  *hint* can be

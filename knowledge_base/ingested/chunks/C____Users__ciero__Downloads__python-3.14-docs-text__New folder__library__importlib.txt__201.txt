@@ -1,0 +1,5 @@
+Decode the given bytes representing source code and return it as a
+   string with universal newlines (as required by
+   "importlib.abc.InspectLoader.get_source()").
+   Added in version 3.4.
+importlib.util.resolve_name(name, package)

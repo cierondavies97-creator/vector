@@ -1,0 +1,4 @@
+in the previous chapters are still valid. To show this, consider what
+the extension code from Python to C really does:
+1. Convert data values from Python to C,
+2. Perform a function call to a C routine using the converted values,

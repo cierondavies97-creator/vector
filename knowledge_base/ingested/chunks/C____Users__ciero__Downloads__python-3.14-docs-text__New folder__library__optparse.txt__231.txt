@@ -1,0 +1,6 @@
+behavior.
+OptionParser.get_option(opt_str)
+   Returns the Option instance with the option string *opt_str*, or
+   "None" if no options have that option string.
+OptionParser.has_option(opt_str)
+   Return "True" if the OptionParser has an option with option string

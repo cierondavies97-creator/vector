@@ -1,0 +1,6 @@
+server.register_multicall_functions()
+       print('Serving XML-RPC on localhost port 8000')
+       try:
+           server.serve_forever()
+       except KeyboardInterrupt:
+           print("\nKeyboard interrupt received, exiting.")

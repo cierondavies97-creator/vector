@@ -1,0 +1,4 @@
+to call "close()" on the existing connection.
+HTTPConnection.set_debuglevel(level)
+   Set the debugging level.  The default debug level is "0", meaning
+   no debugging output is printed.  Any value greater than "0" will

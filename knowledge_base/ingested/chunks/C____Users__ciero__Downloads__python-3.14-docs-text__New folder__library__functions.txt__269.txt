@@ -1,0 +1,6 @@
+deleting an attribute value.  And *doc* creates a docstring for the
+   attribute.
+   A typical use is to define a managed attribute "x":
+      class C:
+          def __init__(self):
+              self._x = None

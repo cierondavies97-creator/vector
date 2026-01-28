@@ -1,0 +1,5 @@
+to the struct module syntax. This means that
+         "memoryview(b'abc')[0] == b'abc'[0] == 97".
+      itemsize
+         The size in bytes of each element of the memoryview:
+            >>> import array, struct

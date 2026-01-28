@@ -1,0 +1,4 @@
+for example, escape sequences in strings are lost; hexadecimal
+  numbers are converted to decimal)
+* "ast.Attribute" (assuming the value is not a constant)
+* "ast.Subscript" (assuming the value is not a constant)

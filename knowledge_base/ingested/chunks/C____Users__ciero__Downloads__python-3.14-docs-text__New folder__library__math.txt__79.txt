@@ -1,0 +1,5 @@
+Raises "ValueError" if either of the arguments are negative.
+   Added in version 3.8.
+math.factorial(n)
+   Return factorial of the nonnegative integer *n*.
+   Changed in version 3.10: Floats with integral values (like "5.0")

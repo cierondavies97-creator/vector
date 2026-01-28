@@ -1,0 +1,3 @@
+Filter. When listing multiple filters on a single line (as for
+"PYTHONWARNINGS"), the individual filters are separated by commas and
+the filters listed later take precedence over those listed before them

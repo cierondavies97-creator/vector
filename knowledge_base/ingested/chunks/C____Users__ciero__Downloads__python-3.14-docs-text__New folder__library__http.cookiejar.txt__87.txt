@@ -1,0 +1,4 @@
+by or-ing together (for example,
+"DomainStrictNoDots|DomainStrictNonDomain" means both flags are set).
+DefaultCookiePolicy.DomainStrictNoDots
+   When setting cookies, the 'host prefix' must not contain a dot (eg.

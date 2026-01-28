@@ -1,0 +1,8 @@
+calendar.FRIDAY
+calendar.SATURDAY
+calendar.SUNDAY
+   Aliases for the days of the week, where "MONDAY" is "0" and
+   "SUNDAY" is "6".
+   Added in version 3.12.
+class calendar.Day
+   Enumeration defining days of the week as integer constants. The

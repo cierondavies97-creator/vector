@@ -1,0 +1,4 @@
+(asterisk), the actual width is read from the next element of the
+   tuple in *values*, and the object to convert comes after the
+   minimum field width and optional precision.
+5. Precision (optional), given as a "'.'" (dot) followed by the

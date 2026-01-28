@@ -1,0 +1,3 @@
+indexing, slicing, concatenation, and multiplication.  When using
+   slice assignment, the assigned value must be an array object with
+   the same type code; in all other cases, "TypeError" is raised.

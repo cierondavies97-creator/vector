@@ -1,0 +1,6 @@
+The same is true for derived classes.
+   Added in version 3.4.
+   Changed in version 3.7: "ModuleNotFoundError" is raised when the
+   module being reloaded lacks a "ModuleSpec".
+   Warning:
+     This function is not thread-safe. Calling it from multiple

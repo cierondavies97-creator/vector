@@ -1,0 +1,3 @@
+*time_mid*, 16-bit *time_hi_version*, 8-bit *clock_seq_hi_variant*,
+   8-bit *clock_seq_low*, 48-bit *node*) as the *fields* argument, or
+   a single 128-bit integer as the *int* argument. When a string of

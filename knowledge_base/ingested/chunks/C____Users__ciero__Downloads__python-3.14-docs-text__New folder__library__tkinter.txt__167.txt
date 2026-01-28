@@ -1,0 +1,5 @@
+widget.tk.createfilehandler(file, mask, callback)
+   ...
+   widget.tk.deletefilehandler(file)
+This feature is not available on Windows.
+Since you don't know how many bytes are available for reading, you may

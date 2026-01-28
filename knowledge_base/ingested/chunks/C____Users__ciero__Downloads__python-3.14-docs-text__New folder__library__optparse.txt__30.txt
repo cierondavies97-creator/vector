@@ -1,0 +1,7 @@
+example:
+   <yourscript> -f outfile --quiet
+   <yourscript> --quiet --file outfile
+   <yourscript> -q -foutfile
+   <yourscript> -qfoutfile
+Additionally, users can run one of the following
+   <yourscript> -h

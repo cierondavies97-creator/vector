@@ -1,0 +1,3 @@
+and last IP addresses.  *first* is the first "IPv4Address" or
+   "IPv6Address" in the range and *last* is the last "IPv4Address" or
+   "IPv6Address" in the range.  A "TypeError" is raised if *first* or

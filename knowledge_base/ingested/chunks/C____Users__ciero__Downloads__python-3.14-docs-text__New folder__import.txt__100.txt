@@ -1,0 +1,4 @@
+* If the module has a "__spec__" attribute, the information in the
+  spec is used to generate the repr.  The "name", "loader", "origin",
+  and "has_location" attributes are consulted.
+* If the module has a "__file__" attribute, this is used as part of

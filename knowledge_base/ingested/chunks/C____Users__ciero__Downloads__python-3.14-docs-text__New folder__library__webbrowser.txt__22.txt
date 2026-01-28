@@ -1,0 +1,5 @@
+call "get()" with a nonempty argument matching the name of a
+   handler you declare.
+   Changed in version 3.7: *preferred* keyword-only parameter was
+   added.
+A number of browser types are predefined.  This table gives the type

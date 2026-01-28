@@ -1,0 +1,4 @@
+(rather than end users of applications written in Python) are ignored
+by default.
+Notably, this "ignored by default" list includes "DeprecationWarning"
+(for every module except "__main__"), which means developers should

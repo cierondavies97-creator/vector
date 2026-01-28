@@ -1,0 +1,3 @@
+the element's start tag and its first child or end tag, or
+      "None", and the *tail* attribute holds either the text between
+      the element's end tag and the next tag, or "None".  For the XML

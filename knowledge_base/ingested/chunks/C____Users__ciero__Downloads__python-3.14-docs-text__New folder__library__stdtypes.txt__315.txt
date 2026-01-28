@@ -1,0 +1,4 @@
+to look for.  With optional *start*, test beginning at that
+   position.  With optional *end*, stop comparing at that position.
+   Using *start* and *end* is equivalent to
+   "str[start:end].endswith(suffix)". For example:

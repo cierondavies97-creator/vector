@@ -1,0 +1,5 @@
+Python interpreter.  It is provided in the "sys" module for
+   informational purposes; modifying this value has no effect on the
+   registry keys used by Python.
+   Availability: Windows.
+sys.monitoring

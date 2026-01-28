@@ -1,0 +1,5 @@
+Matches characters considered whitespace in the ASCII character
+      set; this is equivalent to "[ \t\n\r\f\v]".
+"\S"
+   Matches any character which is not a whitespace character. This is
+   the opposite of "\s".

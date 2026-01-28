@@ -1,0 +1,3 @@
+Remove (delete) the file *path*.  This function is semantically
+   identical to "remove()"; the "unlink" name is its traditional Unix
+   name.  Please see the documentation for "remove()" for further

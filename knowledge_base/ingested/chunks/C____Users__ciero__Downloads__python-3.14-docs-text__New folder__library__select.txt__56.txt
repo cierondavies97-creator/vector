@@ -1,0 +1,6 @@
+epoll.fromfd(fd)
+   Create an epoll object from a given file descriptor.
+epoll.register(fd[, eventmask])
+   Register a fd descriptor with the epoll object.
+epoll.modify(fd, eventmask)
+   Modify a registered file descriptor.

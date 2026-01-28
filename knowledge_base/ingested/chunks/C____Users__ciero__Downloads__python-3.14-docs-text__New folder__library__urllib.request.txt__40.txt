@@ -1,0 +1,3 @@
+requests are the only ones that use *data*.  The supported object
+   types include bytes, file-like objects, and iterables of bytes-like
+   objects. If no "Content-Length" nor "Transfer-Encoding" header

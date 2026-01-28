@@ -1,0 +1,3 @@
+The most powerful tool for doing this is "XMLPullParser".  It does not
+require a blocking read to obtain the XML data, and is instead fed
+with data incrementally with "XMLPullParser.feed()" calls.  To get the

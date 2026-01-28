@@ -1,0 +1,6 @@
+See also:
+  The "loop.subprocess_exec()" and "loop.subprocess_shell()" methods.
+Unix signals
+------------
+loop.add_signal_handler(signum, callback, *args)
+   Set *callback* as the handler for the *signum* signal.

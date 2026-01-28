@@ -1,0 +1,3 @@
+DOM applications typically start by parsing some XML into a DOM.  How
+this is accomplished is not covered at all by DOM Level 1, and Level 2
+provides only limited improvements: There is a "DOMImplementation"

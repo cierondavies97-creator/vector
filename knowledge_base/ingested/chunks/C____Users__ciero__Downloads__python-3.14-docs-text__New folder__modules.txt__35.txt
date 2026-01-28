@@ -1,0 +1,4 @@
+be cached as "__pycache__/spam.cpython-33.pyc".  This naming
+convention allows compiled modules from different releases and
+different versions of Python to coexist.
+Python checks the modification date of the source against the compiled

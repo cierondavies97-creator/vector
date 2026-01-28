@@ -1,0 +1,3 @@
++-----------+-----------------------------------------------------------------------+
+| "' '"     | (a space) A blank should be left before a positive number (or empty   |
+|           | string) produced by a signed conversion.                              |

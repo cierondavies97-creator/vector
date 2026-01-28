@@ -1,0 +1,5 @@
+members of this enumeration are exported to the module scope as
+   "MONDAY" through "SUNDAY".
+   Added in version 3.12.
+calendar.month_name
+   A sequence that represents the months of the year in the current

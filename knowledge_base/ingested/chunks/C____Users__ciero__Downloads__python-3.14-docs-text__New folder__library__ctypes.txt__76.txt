@@ -1,0 +1,7 @@
+>>> print(sizeof(p), repr(p.raw))
+   6 b'Hello\x00'
+   >>> print(repr(p.value))
+   b'Hello'
+   >>> p = create_string_buffer(b"Hello", 10) # create a 10 byte buffer
+   >>> print(sizeof(p), repr(p.raw))
+   10 b'Hello\x00\x00\x00\x00\x00'

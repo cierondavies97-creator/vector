@@ -1,0 +1,4 @@
+The *wbits* parameter controls the size of the history buffer (or
+   the "window size"), and what header and trailer format is expected.
+   It has the same meaning as described for decompress().
+   The *zdict* parameter specifies a predefined compression

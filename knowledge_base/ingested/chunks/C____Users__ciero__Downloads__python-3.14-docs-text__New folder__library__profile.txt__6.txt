@@ -1,0 +1,5 @@
+introduce overhead for Python code, but not for C-level functions,
+  and so the C code would seem faster than any Python one.
+Instant User's Manual
+=====================
+This section is provided for users that "don't want to read the

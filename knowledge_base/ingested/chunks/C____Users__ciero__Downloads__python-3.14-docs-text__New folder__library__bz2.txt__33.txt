@@ -1,0 +1,4 @@
+provide *data* as "b''" to obtain more of the output.
+      If all of the input data was decompressed and returned (either
+      because this was less than *max_length* bytes, or because
+      *max_length* was negative), the "needs_input" attribute will be

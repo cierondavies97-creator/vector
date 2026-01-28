@@ -1,0 +1,3 @@
+known as variance with N-1 degrees of freedom.  Provided that the
+     data points are representative (e.g. independent and identically
+     distributed), the result should be an unbiased estimate of the

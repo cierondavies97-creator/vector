@@ -1,0 +1,4 @@
+Also on Windows, the "PATHEXT" environment variable is used to
+   resolve commands that may not already include an extension. For
+   example, if you call "shutil.which("python")", "which()" will
+   search "PATHEXT" to know that it should look for "python.exe"

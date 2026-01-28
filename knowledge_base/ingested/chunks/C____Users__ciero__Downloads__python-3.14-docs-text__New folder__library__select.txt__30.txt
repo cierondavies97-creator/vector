@@ -1,0 +1,5 @@
+Added in version 3.4.
+devpoll.register(fd[, eventmask])
+   Register a file descriptor with the polling object.  Future calls
+   to the "poll()" method will then check whether the file descriptor
+   has any pending I/O events.  *fd* can be either an integer, or an

@@ -1,0 +1,5 @@
+OptionParser subclasses), but before any version or help
+      options. Deprecated; use "add_option()" after creating the
+      parser instead.
+   "option_class" (default: optparse.Option)
+      Class to use when adding options to the parser in

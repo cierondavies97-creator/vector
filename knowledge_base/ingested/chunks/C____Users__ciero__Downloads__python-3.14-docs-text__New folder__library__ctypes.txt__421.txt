@@ -1,0 +1,4 @@
+type fields. "ctypes" will create descriptors in the structure
+      type that allows accessing the nested fields directly, without
+      the need to create the structure or union field.
+      Here is an example type (Windows):

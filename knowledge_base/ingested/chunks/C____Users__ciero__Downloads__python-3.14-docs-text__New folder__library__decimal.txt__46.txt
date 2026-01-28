@@ -1,0 +1,6 @@
+of monitored computations by using the "clear_flags()" method.
+   >>> setcontext(ExtendedContext)
+   >>> getcontext().clear_flags()
+   >>> Decimal(355) / Decimal(113)
+   Decimal('3.14159292')
+   >>> getcontext()

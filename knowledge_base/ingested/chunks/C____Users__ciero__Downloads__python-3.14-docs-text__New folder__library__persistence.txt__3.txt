@@ -1,0 +1,7 @@
+* Persistence of External Objects
+    * Dispatch Tables
+    * Handling Stateful Objects
+  * Custom Reduction for Types, Functions, and Other Objects
+  * Out-of-band Buffers
+    * Provider API
+    * Consumer API

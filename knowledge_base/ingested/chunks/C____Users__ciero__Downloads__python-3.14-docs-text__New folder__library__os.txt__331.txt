@@ -1,0 +1,3 @@
+"stat.S_IFREG", "stat.S_IFCHR", "stat.S_IFBLK", and "stat.S_IFIFO"
+   (those constants are available in "stat").  For "stat.S_IFCHR" and
+   "stat.S_IFBLK", *device* defines the newly created device special

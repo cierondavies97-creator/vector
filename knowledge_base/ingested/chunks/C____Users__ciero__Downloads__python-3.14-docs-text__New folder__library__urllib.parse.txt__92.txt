@@ -1,0 +1,4 @@
+If "str" data is passed in, the result will also contain only "str"
+data. If "bytes" or "bytearray" data is passed in, the result will
+contain only "bytes" data.
+Attempting to mix "str" data with "bytes" or "bytearray" in a single

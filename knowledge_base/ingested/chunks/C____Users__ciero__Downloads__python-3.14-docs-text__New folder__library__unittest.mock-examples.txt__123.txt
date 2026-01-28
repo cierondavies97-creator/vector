@@ -1,0 +1,4 @@
+AssertionError: Expected: (({6},), {})
+   Called with: ((set(),), {})
+One possibility would be for mock to copy the arguments you pass in.
+This could then cause problems if you do assertions that rely on

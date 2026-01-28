@@ -1,0 +1,5 @@
+Changed in version 3.10: Added the *root_dir* and *dir_fd*
+   parameters.
+   Changed in version 3.11: Added the *include_hidden* parameter.
+glob.escape(pathname)
+   Escape all special characters ("'?'", "'*'" and "'['"). This is

@@ -1,0 +1,4 @@
+"MutableMapping" ABC. However, there are a few differences that should
+be taken into account:
+* By default, all keys in sections are accessible in a case-
+  insensitive manner [1].  E.g. "for option in parser["section"]"

@@ -1,0 +1,6 @@
+See also:
+  mbox man page from tin
+     A specification of the format, with details on locking.
+  Configuring Netscape Mail on Unix: Why The Content-Length Format is
+  Bad
+     An argument for using the original mbox format rather than a

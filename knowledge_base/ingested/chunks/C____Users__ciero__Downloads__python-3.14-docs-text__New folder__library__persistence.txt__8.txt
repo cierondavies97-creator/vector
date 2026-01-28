@@ -1,0 +1,5 @@
+* How to use placeholders to bind values in SQL queries
+    * How to adapt custom Python types to SQLite values
+      * How to write adaptable objects
+      * How to register adapter callables
+    * How to convert SQLite values to custom Python types

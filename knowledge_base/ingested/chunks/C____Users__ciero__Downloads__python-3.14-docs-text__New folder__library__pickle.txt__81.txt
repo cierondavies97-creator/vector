@@ -1,0 +1,5 @@
+N-dimensional array.
+   "PickleBuffer" is itself a buffer provider, therefore it is
+   possible to pass it to other APIs expecting a buffer-providing
+   object, such as "memoryview".
+   "PickleBuffer" objects can only be serialized using pickle protocol

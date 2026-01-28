@@ -1,0 +1,6 @@
+The URI authority, typically a host, but may also contain a port
+   separated by a colon.
+Request.origin_req_host
+   The original host for the request, without port.
+Request.selector
+   The URI path.  If the "Request" uses a proxy, then selector will be

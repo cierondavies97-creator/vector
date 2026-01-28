@@ -1,0 +1,4 @@
+Read and parse configuration data from *f* which must be an
+      iterable yielding Unicode strings (for example files opened in
+      text mode).
+      Optional argument *source* specifies the name of the file being

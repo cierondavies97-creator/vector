@@ -1,0 +1,5 @@
+been removed.
+"wsgiref.headers" -- WSGI response header tools
+===============================================
+This module provides a single class, "Headers", for convenient
+manipulation of WSGI response headers using a mapping-like interface.

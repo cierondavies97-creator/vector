@@ -1,0 +1,3 @@
+A context manager that raises "ResourceDenied" when various issues
+   with the internet connection manifest themselves as exceptions.
+"test.support.script_helper" --- Utilities for the Python execution tests

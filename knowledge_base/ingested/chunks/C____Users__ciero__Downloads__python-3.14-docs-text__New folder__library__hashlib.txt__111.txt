@@ -1,0 +1,4 @@
+Neves*. The documentation was copied from pyblake2 and written by
+*Dmitry Chestnykh*.
+The C code was partly rewritten for Python by *Christian Heimes*.
+The following public domain dedication applies for both C hash

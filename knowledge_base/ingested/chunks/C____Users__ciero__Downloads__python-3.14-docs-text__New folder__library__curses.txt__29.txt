@@ -1,0 +1,5 @@
+enabling character-at-a-time  line editing without touching the
+   rest of the screen.
+curses.flash()
+   Flash the screen.  That is, change it to reverse-video and then
+   change it back in a short interval.  Some people prefer such as

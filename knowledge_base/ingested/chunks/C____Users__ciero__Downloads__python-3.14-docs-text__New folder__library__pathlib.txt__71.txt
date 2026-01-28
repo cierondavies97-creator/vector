@@ -1,0 +1,4 @@
+allowed ("ValueError" is raised), the recursive wildcard ""**""
+   isn't supported (it acts like non-recursive ""*""), and if a
+   relative pattern is provided, then matching is done from the right:
+      >>> PurePath('a/b.py').match('*.py')

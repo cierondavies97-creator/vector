@@ -1,0 +1,4 @@
+unconditionally, if necessary waiting until it is released by
+   another thread (only one thread at a time can acquire a lock ---
+   that's their reason for existence).
+   If the *blocking* argument is present, the action depends on its

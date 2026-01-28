@@ -1,0 +1,11 @@
+Enumerate this:
+      0 spam
+      1 spam
+      2 eggs
+      3 spam
+      >>> fun(None)
+      Nothing.
+      >>> fun(1.23)
+      0.615
+   Where there is no registered implementation for a specific type,
+   its method resolution order is used to find a more generic

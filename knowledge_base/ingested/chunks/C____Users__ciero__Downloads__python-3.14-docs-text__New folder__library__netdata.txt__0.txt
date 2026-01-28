@@ -1,0 +1,6 @@
+Internet Data Handling
+**********************
+This chapter describes modules which support handling data formats
+commonly used on the internet.
+* "email" --- An email and MIME handling package
+  * "email.message": Representing an email message

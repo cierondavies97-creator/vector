@@ -1,0 +1,6 @@
+If the class variable is assigned after the class is created,
+   "__set_name__()" will not be called automatically. If needed,
+   "__set_name__()" can be called directly:
+      class A:
+         pass
+      c = C()

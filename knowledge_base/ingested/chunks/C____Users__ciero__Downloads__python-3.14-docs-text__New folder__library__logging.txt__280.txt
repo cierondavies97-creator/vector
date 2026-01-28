@@ -1,0 +1,5 @@
+use the "logging.getLogger()" API to get your loggers.
+logging.setLogRecordFactory(factory)
+   Set a callable which is used to create a "LogRecord".
+   Parameters:
+      **factory** -- The factory callable to be used to instantiate a

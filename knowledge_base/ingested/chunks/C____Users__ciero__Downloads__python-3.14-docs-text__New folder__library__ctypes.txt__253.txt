@@ -1,0 +1,5 @@
+same library each time.
+   LoadLibrary(name)
+      Load a shared library into the process and return it.  This
+      method always returns a new instance of the library.
+These prefabricated library loaders are available:

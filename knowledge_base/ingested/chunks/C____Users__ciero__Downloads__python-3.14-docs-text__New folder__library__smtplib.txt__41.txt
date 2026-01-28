@@ -1,0 +1,4 @@
+whether the server supports ESMTP, and "esmtp_features" will be a
+   dictionary containing the names of the SMTP service extensions this
+   server supports, and their parameters (if any).
+   Unless you wish to use "has_extn()" before sending mail, it should

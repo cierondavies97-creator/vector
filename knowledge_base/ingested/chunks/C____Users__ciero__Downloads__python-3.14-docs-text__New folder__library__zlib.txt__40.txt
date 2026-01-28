@@ -1,0 +1,6 @@
+object.
+Compress.copy()
+   Returns a copy of the compression object.  This can be used to
+   efficiently compress a set of data that share a common initial
+   prefix.
+Changed in version 3.8: Added "copy.copy()" and "copy.deepcopy()"

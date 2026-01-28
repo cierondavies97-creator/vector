@@ -1,0 +1,4 @@
+RAISE_INDENTATION_ERROR("expected an indented block after class definition on line %d", a->lineno) }
+   invalid_double_starred_kvpairs:
+       | ','.double_starred_kvpair+ ',' invalid_kvpair
+       | expression ':' a='*' bitwise_or { RAISE_SYNTAX_ERROR_STARTING_FROM(a, "cannot use a starred expression in a dictionary value") }

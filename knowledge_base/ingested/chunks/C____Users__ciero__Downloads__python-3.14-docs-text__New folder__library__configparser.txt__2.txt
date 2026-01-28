@@ -1,0 +1,5 @@
+used in the Windows Registry extended version of INI syntax.
+See also:
+  Module "tomllib"
+     TOML is a well-specified format for application configuration
+     files. It is specifically designed to be an improved version of

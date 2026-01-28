@@ -1,0 +1,3 @@
+shell-like features (in particular, "glob", "fnmatch", "os.walk()",
+   "os.path.expandvars()", "os.path.expanduser()", and "shutil").
+   Changed in version 3.3: When *universal_newlines* is "True", the

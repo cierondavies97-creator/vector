@@ -1,0 +1,4 @@
+and initialize it by calling "PyErr_NewException()" in the module's
+"Py_mod_exec" function ("spam_module_exec()"):
+   SpamError = PyErr_NewException("spam.error", NULL, NULL);
+Since "SpamError" is a global variable, it will be overwritten every

@@ -1,0 +1,2 @@
+|                                                    | the "python -m pip install --force pip" command    |
+|                                                    | will recreate the executables and show you the     |

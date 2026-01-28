@@ -1,0 +1,4 @@
+of "tell()" can be given as input to "seek()", to restore a
+      previous stream position.
+class io.StringIO(initial_value='', newline='\n')
+   A text stream using an in-memory text buffer.  It inherits from

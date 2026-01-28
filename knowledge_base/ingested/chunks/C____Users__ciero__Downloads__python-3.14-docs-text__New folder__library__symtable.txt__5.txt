@@ -1,0 +1,6 @@
+scopes.
+   ANNOTATION = "annotation"
+      Used for annotations if "from __future__ import annotations" is
+      active.
+   TYPE_ALIAS = "type alias"
+      Used for the symbol table of "type" constructions.

@@ -1,0 +1,5 @@
+['Heather', 'Albrecht', '548.326.4584', '919', 'Park Place']]
+Text Munging
+------------
+"sub()" replaces every occurrence of a pattern with a string or the
+result of a function.  This example demonstrates using "sub()" with a

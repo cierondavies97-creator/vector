@@ -1,0 +1,3 @@
+* The search functions are stateless and discard key function results
+  after they are used.  Consequently, if the search functions are used
+  in a loop, the key function may be called again and again on the

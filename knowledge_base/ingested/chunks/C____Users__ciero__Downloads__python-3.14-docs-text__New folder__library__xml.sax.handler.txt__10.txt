@@ -1,0 +1,4 @@
+false: Do not report attributes used for Namespace declarations, and
+      optionally do not report original prefixed names (default).
+      access: (parsing) read-only; (not parsing) read/write
+xml.sax.handler.feature_string_interning

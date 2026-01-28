@@ -1,0 +1,8 @@
+usage: PROG [-h] [-x X X] [--foo bar baz]
+   options:
+    -h, --help     show this help message and exit
+    -x X X
+    --foo bar baz
+dest
+----
+Most "ArgumentParser" actions add some value as an attribute of the

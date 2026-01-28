@@ -1,0 +1,5 @@
+def broadcast_message(message: str, servers: Sequence[Server]) -> None:
+       ...
+   # The static type checker will treat the previous type signature as
+   # being exactly equivalent to this one.
+   def broadcast_message(

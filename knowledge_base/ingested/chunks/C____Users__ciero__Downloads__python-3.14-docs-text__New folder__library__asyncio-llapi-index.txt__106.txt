@@ -1,0 +1,2 @@
+| "callback" "connection_lost()"                     | Called when the connection is lost or closed.      |
++----------------------------------------------------+----------------------------------------------------+

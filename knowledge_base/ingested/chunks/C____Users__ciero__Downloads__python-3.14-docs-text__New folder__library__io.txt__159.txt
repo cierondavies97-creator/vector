@@ -1,0 +1,7 @@
+line_buffering
+      Whether line buffering is enabled.
+   write_through
+      Whether writes are passed immediately to the underlying binary
+      buffer.
+      Added in version 3.7.
+   reconfigure(*, encoding=None, errors=None, newline=None, line_buffering=None, write_through=None)

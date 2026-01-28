@@ -1,0 +1,4 @@
+Python programmers using the "tkinter" package, and its extension, the
+"tkinter.ttk" module.
+The "tkinter" package is a thin object-oriented layer on top of
+Tcl/Tk. To use "tkinter", you don't need to write Tcl code, but you

@@ -1,0 +1,4 @@
+their arguments.
+If there are more positional arguments than there are formal parameter
+slots, a "TypeError" exception is raised, unless a formal parameter
+using the syntax "*identifier" is present; in this case, that formal

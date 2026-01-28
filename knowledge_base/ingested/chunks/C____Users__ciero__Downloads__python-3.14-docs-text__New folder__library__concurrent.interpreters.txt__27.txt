@@ -1,0 +1,4 @@
+objects won't stay in sync.
+By default, most objects are copied with "pickle" when they are passed
+to another interpreter.  Nearly all of the immutable builtin objects
+are either directly shared or copied efficiently.  For example:

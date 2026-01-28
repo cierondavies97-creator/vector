@@ -1,0 +1,9 @@
+named arguments. The C declaration from the windows header file is
+this:
+   WINUSERAPI int WINAPI
+   MessageBoxW(
+       HWND hWnd,
+       LPCWSTR lpText,
+       LPCWSTR lpCaption,
+       UINT uType);
+Here is the wrapping with "ctypes":

@@ -1,0 +1,4 @@
+Added in version 3.2.
+Unittest supports simple test discovery. In order to be compatible
+with test discovery, all of the test files must be modules or packages
+importable from the top-level directory of the project (this means

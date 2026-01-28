@@ -1,0 +1,7 @@
+Type.
+class typing.Sized
+   Deprecated alias to "collections.abc.Sized".
+   Deprecated since version 3.12: Use "collections.abc.Sized" directly
+   instead.
+Aliases to "contextlib" ABCs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~

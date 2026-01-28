@@ -1,0 +1,5 @@
+value being returned to Python code.See Implementing the
+     arithmetic operations for examples.
+   Caution:
+     "NotImplemented" and "NotImplementedError" are not
+     interchangeable. This constant should only be used as described

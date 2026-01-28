@@ -1,0 +1,6 @@
+expression "PY_RETURN | PY_START".
+sys.monitoring.events.NO_EVENTS
+   An alias for "0" so users can do explicit comparisons like:
+      if get_events(DEBUGGER_ID) == NO_EVENTS:
+          ...
+   Setting this event deactivates all events.

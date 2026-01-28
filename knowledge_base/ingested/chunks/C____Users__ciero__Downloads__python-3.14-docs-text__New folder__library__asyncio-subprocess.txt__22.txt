@@ -1,0 +1,6 @@
+This class is not thread safe.
+   See also the Subprocess and Threads section.
+   async wait()
+      Wait for the child process to terminate.
+      Set and return the "returncode" attribute.
+      Note:

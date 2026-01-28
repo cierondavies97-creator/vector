@@ -1,0 +1,5 @@
+"__annotations__"), have a new "__wrapped__" attribute, and are now
+   callable as regular functions.
+class str(*, encoding='utf-8', errors='strict')
+class str(object)
+class str(object, encoding, errors='strict')

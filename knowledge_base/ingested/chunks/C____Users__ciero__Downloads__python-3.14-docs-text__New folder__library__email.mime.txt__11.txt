@@ -1,0 +1,4 @@
+Module: "email.mime.multipart"
+   A subclass of "MIMEBase", this is an intermediate base class for
+   MIME messages that are *multipart*.  Optional *_subtype* defaults
+   to *mixed*, but can be used to specify the subtype of the message.

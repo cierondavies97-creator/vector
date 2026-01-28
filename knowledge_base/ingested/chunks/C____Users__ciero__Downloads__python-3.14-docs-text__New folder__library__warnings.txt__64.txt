@@ -1,0 +1,5 @@
+Testing Warnings
+================
+To test warnings raised by code, use the "catch_warnings" context
+manager. With it you can temporarily mutate the warnings filter to
+facilitate your testing. For instance, do the following to capture all

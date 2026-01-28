@@ -1,0 +1,6 @@
+"str.join()".
+   Added in version 3.7.
+types.ClassMethodDescriptorType
+   The type of *unbound* class methods of some built-in data types
+   such as "dict.__dict__['fromkeys']".
+   Added in version 3.7.

@@ -1,0 +1,4 @@
+* You can use the "-O" or "-OO" switches on the Python command to
+  reduce the size of a compiled module.  The "-O" switch removes
+  assert statements, the "-OO" switch removes both assert statements
+  and __doc__ strings.  Since some programs may rely on having these

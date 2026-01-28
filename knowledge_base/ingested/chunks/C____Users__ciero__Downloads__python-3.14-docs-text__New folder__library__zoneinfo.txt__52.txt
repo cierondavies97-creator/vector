@@ -1,0 +1,6 @@
+Functions
+=========
+zoneinfo.available_timezones()
+   Get a set containing all the valid keys for IANA time zones
+   available anywhere on the time zone path. This is recalculated on
+   every call to the function.

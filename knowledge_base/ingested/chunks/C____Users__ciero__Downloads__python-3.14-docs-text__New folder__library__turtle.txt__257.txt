@@ -1,0 +1,4 @@
+if "None", center window horizontally
+      * **starty** -- if positive, starting position in pixels from
+        the top edge of the screen, if negative from the bottom edge,
+        if "None", center window vertically

@@ -1,0 +1,5 @@
+overview:
+* "wave" --- Read and write WAV files
+  * Wave_read Objects
+  * Wave_write Objects
+* "colorsys" --- Conversions between color systems

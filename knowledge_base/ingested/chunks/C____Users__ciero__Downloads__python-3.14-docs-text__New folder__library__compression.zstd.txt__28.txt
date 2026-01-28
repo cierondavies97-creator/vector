@@ -1,0 +1,4 @@
+data as a "bytes" object.
+   The *level* argument is an integer controlling the level of
+   compression. *level* is an alternative to setting
+   "CompressionParameter.compression_level" in *options*. Use

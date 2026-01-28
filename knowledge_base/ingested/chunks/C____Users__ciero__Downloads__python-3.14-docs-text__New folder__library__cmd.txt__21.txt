@@ -1,0 +1,5 @@
+Cmd.default(line)
+   Method called on an input line when the command prefix is not
+   recognized. If this method is not overridden, it prints an error
+   message and returns.
+Cmd.completedefault(text, line, begidx, endidx)

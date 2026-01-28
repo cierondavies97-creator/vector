@@ -1,0 +1,5 @@
+actual current working directory and not the empty string.
+5.5.2. Path entry finder protocol
+---------------------------------
+In order to support imports of modules and initialized packages and
+also to contribute portions to namespace packages, path entry finders

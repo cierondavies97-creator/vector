@@ -1,0 +1,5 @@
+Global start method for more details.
+   A solitary difference from its close analog exists: its "acquire"
+   method's first argument is named *block*, as is consistent with
+   "Lock.acquire()".
+   get_value()

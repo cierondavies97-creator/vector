@@ -1,0 +1,4 @@
+The "urllib.request" module defines the following functions:
+urllib.request.urlopen(url, data=None, [timeout, ]*, context=None)
+   Open *url*, which can be either a string containing a valid,
+   properly encoded URL, or a "Request" object.

@@ -1,0 +1,3 @@
+Also, they can arise from dividing by zero when the "DivisionByZero"
+signal is not trapped.  Likewise, when the "Overflow" signal is not
+trapped, infinity can result from rounding beyond the limits of the

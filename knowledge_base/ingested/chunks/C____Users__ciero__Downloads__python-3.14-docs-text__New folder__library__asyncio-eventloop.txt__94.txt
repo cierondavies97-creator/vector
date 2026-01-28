@@ -1,0 +1,6 @@
+omitted (must be "None").
+     Note:
+       The *sock* argument transfers ownership of the socket to the
+       transport created. To close the socket, call the transport's
+       "close()" method.
+   See UDP echo client protocol and UDP echo server protocol examples.

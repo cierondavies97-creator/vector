@@ -1,0 +1,5 @@
+Using a *constrained* type variable, however, means that the
+   "TypeVar" can only ever be solved as being exactly one of the
+   constraints given:
+      a = concatenate('one', 'two')
+      reveal_type(a)  # revealed type is str

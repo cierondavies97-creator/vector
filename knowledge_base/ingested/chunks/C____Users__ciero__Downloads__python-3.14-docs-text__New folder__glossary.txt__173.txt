@@ -1,0 +1,6 @@
+magic method
+   An informal synonym for *special method*.
+mapping
+   A container object that supports arbitrary key lookups and
+   implements the methods specified in the "collections.abc.Mapping"
+   or "collections.abc.MutableMapping" abstract base classes.

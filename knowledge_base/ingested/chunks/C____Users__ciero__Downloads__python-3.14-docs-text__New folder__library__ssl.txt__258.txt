@@ -1,0 +1,4 @@
+Load the key generation parameters for Diffie-Hellman (DH) key
+   exchange. Using DH key exchange improves forward secrecy at the
+   expense of computational resources (both on the server and on the
+   client). The *dhfile* parameter should be the path to a file

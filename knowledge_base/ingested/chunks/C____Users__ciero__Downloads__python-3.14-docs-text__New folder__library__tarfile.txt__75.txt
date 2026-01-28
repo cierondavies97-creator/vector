@@ -1,0 +1,4 @@
+reading concatenated or damaged archives.
+   *debug* can be set from "0" (no debug messages) up to "3" (all
+   debug messages). The messages are written to "sys.stderr".
+   *errorlevel* controls how extraction errors are handled, see "the

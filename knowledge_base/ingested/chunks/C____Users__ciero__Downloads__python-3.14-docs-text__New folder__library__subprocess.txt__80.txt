@@ -1,0 +1,4 @@
+The *executable* argument specifies a replacement program to
+   execute.   It is very seldom needed.  When "shell=False",
+   *executable* replaces the program to execute specified by *args*.
+   However, the original *args* is still passed to the program.  Most

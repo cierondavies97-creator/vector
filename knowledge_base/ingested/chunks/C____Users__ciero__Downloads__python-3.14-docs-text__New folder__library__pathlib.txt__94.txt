@@ -1,0 +1,7 @@
+etc = MyPath('/etc', session_id=42)
+      hosts = etc / 'hosts'
+      print(hosts.session_id)  # 42
+   Added in version 3.12.
+Concrete paths
+==============
+Concrete paths are subclasses of the pure path classes.  In addition

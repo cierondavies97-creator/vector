@@ -1,0 +1,4 @@
+attributes to use. *header* is by default ""Set-Cookie:"".
+Morsel.js_output(attrs=None)
+   Return an embeddable JavaScript snippet, which, if run on a browser
+   which supports JavaScript, will act the same as if the HTTP header

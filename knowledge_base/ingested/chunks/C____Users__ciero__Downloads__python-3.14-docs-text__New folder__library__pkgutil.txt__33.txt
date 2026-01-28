@@ -1,0 +1,3 @@
+object hierarchy within the imported package to get to the desired
+   object.
+   Added in version 3.9.

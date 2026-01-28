@@ -1,0 +1,3 @@
+Note that *lock* and *ctx* are keyword-only parameters.
+multiprocessing.sharedctypes.Value(typecode_or_type, *args, lock=True, ctx=None)
+   The same as "RawValue()" except that depending on the value of

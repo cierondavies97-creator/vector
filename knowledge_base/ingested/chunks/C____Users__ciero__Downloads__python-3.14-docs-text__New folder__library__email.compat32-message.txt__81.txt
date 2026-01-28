@@ -1,0 +1,4 @@
+Set the default content type.  *ctype* should either be
+      *text/plain* or *message/rfc822*, although this is not enforced.
+      The default content type is not stored in the *Content-Type*
+      header.

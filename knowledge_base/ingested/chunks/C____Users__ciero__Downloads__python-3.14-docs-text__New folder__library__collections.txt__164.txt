@@ -1,0 +1,4 @@
+operations.  Tracking insertion order was secondary.
+* The "OrderedDict" was designed to be good at reordering operations.
+  Space efficiency, iteration speed, and the performance of update
+  operations were secondary.

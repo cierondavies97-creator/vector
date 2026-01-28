@@ -1,0 +1,5 @@
+>>> lists
+      [[3], [3], [3]]
+   What has happened is that "[[]]" is a one-element list containing
+   an empty list, so all three elements of "[[]] * 3" are references
+   to this single empty list.  Modifying any of the elements of

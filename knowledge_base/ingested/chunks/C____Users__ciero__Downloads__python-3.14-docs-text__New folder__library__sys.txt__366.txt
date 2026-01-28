@@ -1,0 +1,5 @@
+If no hook has been set, *hook* may be "None".
+   Added in version 3.8.
+sys.version
+   A string containing the version number of the Python interpreter
+   plus additional information on the build number and compiler used.

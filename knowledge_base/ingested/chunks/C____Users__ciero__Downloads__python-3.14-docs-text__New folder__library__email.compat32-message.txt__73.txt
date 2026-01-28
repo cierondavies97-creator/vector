@@ -1,0 +1,4 @@
+msg.add_header('Content-Disposition', 'attachment',
+                        filename=('iso-8859-1', '', 'Fußballer.ppt'))
+      Which produces
+         Content-Disposition: attachment; filename*="iso-8859-1''Fu%DFballer.ppt"

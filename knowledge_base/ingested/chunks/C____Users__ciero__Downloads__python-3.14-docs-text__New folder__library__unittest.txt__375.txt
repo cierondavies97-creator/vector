@@ -1,0 +1,4 @@
+remove tests from the standard set of tests. The third argument is
+used when loading packages as part of test discovery.
+A typical "load_tests" function that loads tests from a specific set
+of "TestCase" classes may look like:

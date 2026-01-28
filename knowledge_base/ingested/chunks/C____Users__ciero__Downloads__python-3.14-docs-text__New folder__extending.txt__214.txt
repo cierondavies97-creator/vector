@@ -1,0 +1,4 @@
+call might not have been loaded yet!
+Portability therefore requires not to make any assumptions about
+symbol visibility. This means that all symbols in extension modules
+should be declared "static", except for the module's initialization

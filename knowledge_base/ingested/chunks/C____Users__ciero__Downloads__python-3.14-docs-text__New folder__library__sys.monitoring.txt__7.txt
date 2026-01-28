@@ -1,0 +1,4 @@
+call "clear_tool_id()" before releasing *tool_id*.
+sys.monitoring.get_tool(tool_id: int, /) -> str | None
+   Returns the name of the tool if *tool_id* is in use, otherwise it
+   returns "None". *tool_id* must be in the range 0 to 5 inclusive.

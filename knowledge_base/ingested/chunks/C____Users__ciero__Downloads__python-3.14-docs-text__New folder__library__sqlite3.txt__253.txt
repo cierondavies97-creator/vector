@@ -1,0 +1,5 @@
+operate on a closed "Connection". "ProgrammingError" is a subclass
+   of "DatabaseError".
+exception sqlite3.NotSupportedError
+   Exception raised in case a method or database API is not supported
+   by the underlying SQLite library. For example, setting

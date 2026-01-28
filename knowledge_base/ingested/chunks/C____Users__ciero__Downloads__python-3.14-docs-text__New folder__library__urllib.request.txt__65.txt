@@ -1,0 +1,4 @@
+class urllib.request.HTTPPasswordMgrWithPriorAuth
+   A variant of "HTTPPasswordMgrWithDefaultRealm" that also has a
+   database of "uri -> is_authenticated" mappings.  Can be used by a
+   BasicAuth handler to determine when to send authentication

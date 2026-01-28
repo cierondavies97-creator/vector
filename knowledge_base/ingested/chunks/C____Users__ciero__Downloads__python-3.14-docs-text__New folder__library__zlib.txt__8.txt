@@ -1,0 +1,4 @@
+controlling the level of compression; See "Z_BEST_SPEED" ("1"),
+   "Z_BEST_COMPRESSION" ("9"), "Z_NO_COMPRESSION" ("0"), and the
+   default, "Z_DEFAULT_COMPRESSION" ("-1") for more information about
+   these values.

@@ -1,0 +1,4 @@
+class ast.GeneratorExp(elt, generators)
+class ast.DictComp(key, value, generators)
+   List and set comprehensions, generator expressions, and dictionary
+   comprehensions. "elt" (or "key" and "value") is a single node

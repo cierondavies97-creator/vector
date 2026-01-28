@@ -1,0 +1,6 @@
+[Escape]
+      # use a $$ to escape the $ sign ($ is the only character that needs to be escaped):
+      cost: $$80
+   Values from other sections can be fetched as well:
+      [Common]
+      home_dir: /Users

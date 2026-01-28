@@ -1,0 +1,4 @@
+the appropriate specific exception, each of which carries the
+appropriate value for the "code" attribute.
+exception xml.dom.DOMException
+   Base exception class used for all specific DOM exceptions.  This

@@ -1,0 +1,6 @@
+property instead.
+      Deprecated since version 3.10.
+Lock objects
+------------
+A primitive lock is a synchronization primitive that is not owned by a
+particular thread when locked.  In Python, it is currently the lowest

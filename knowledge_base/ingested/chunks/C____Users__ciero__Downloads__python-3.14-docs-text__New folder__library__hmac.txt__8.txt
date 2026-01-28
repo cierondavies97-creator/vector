@@ -1,0 +1,4 @@
+to a single call with the concatenation of all the arguments:
+   "m.update(a); m.update(b)" is equivalent to "m.update(a + b)".
+   Changed in version 3.4: Parameter *msg* can be of any type
+   supported by "hashlib".

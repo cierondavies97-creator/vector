@@ -1,0 +1,7 @@
+likely want to use the "search()" function rather than the
+   "match()" function:
+   >>> import re
+   >>> m = re.search('(?<=abc)def', 'abcdef')
+   >>> m.group(0)
+   'def'
+   This example looks for a word following a hyphen:

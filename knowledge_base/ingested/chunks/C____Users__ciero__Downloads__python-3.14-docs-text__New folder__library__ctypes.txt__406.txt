@@ -1,0 +1,3 @@
+before the structure or union type is first used: an instance or
+      subclass is created, "sizeof()" is called on it, and so on.
+      Later assignments to "_fields_" will raise an "AttributeError".

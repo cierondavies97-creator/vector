@@ -1,0 +1,6 @@
+The base class for custom dialogs.
+   body(master)
+      Override to construct the dialog's interface and return the
+      widget that should have initial focus.
+   buttonbox()
+      Default behaviour adds OK and Cancel buttons. Override for

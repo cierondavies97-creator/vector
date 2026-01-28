@@ -1,0 +1,4 @@
+Methods described in this subsections are low-level.  In regular
+async/await code consider using the high-level
+"asyncio.create_subprocess_shell()" and
+"asyncio.create_subprocess_exec()" convenience functions instead.

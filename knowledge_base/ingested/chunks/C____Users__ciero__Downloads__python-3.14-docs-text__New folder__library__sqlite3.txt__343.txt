@@ -1,0 +1,4 @@
+* An implicit rollback is performed if the database is "close()"-ed
+  with pending changes.
+Set *autocommit* to "True" to enable SQLite's autocommit mode. In this
+mode, "Connection.commit()" and "Connection.rollback()" have no

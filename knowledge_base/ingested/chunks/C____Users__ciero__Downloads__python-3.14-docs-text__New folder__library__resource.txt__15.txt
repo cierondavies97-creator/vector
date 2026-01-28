@@ -1,0 +1,6 @@
+the process.
+   Raises an auditing event "resource.prlimit" with arguments "pid",
+   "resource", "limits".
+   Availability: Linux >= 2.6.36 with glibc >= 2.13.
+   Added in version 3.4.
+These symbols define resources whose consumption can be controlled

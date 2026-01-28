@@ -1,0 +1,5 @@
+type=Name(id='TypeError', ctx=Load()),
+                          body=[
+                              Pass()])])])
+class ast.With(items, body, type_comment)
+   A "with" block. "items" is a list of "withitem" nodes representing

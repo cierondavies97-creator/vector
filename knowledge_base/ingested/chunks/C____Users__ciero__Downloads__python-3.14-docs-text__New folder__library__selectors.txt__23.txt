@@ -1,0 +1,4 @@
+the call will block until a monitored file object becomes ready.
+      This returns a list of "(key, events)" tuples, one for each
+      ready file object.
+      *key* is the "SelectorKey" instance corresponding to a ready

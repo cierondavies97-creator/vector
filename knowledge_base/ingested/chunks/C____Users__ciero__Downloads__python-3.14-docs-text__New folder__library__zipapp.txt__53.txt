@@ -1,0 +1,3 @@
+followed by an interpreter name, and then a newline ("b'\n'")
+   character.  The interpreter name can be anything acceptable to the
+   OS "shebang" processing, or the Python launcher on Windows.  The

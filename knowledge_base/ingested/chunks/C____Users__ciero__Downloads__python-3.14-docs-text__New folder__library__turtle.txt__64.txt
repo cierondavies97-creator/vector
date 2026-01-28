@@ -1,0 +1,7 @@
+>>> turtle.position()
+      (0.00,-10.00)
+turtle.setheading(to_angle)
+turtle.seth(to_angle)
+   Parameters:
+      **to_angle** -- a number (integer or float)
+   Set the orientation of the turtle to *to_angle*.  Here are some

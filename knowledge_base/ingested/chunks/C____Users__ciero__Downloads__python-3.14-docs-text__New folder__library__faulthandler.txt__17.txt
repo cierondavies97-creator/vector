@@ -1,0 +1,4 @@
+is also installed.
+   Changed in version 3.10: The dump now mentions if a garbage
+   collector collection is running if *all_threads* is true.
+   Changed in version 3.14: Only the current thread is dumped if the

@@ -1,0 +1,4 @@
+representing multiple packages or a module).
+   Loaders that wish to support resource reading are expected to
+   provide a method called "get_resource_reader(fullname)" which
+   returns an object implementing this ABC's interface. If the module

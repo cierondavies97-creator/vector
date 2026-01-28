@@ -1,0 +1,4 @@
+the three underlying abstract methods: "__contains__()", "__iter__()",
+and "__len__()". The ABC supplies the remaining methods such as
+"__and__()" and "isdisjoint()":
+   class ListBasedSet(collections.abc.Set):

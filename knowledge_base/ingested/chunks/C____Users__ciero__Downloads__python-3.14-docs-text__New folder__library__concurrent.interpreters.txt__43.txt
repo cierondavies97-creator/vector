@@ -1,0 +1,6 @@
+id
+      (read-only)
+      The queue's ID.
+exception concurrent.interpreters.QueueEmptyError
+   This exception, a subclass of "queue.Empty", is raised from
+   "Queue.get()" and "Queue.get_nowait()" when the queue is empty.

@@ -1,0 +1,4 @@
+"True", the window is raised if possible (note that under many
+   window managers this will occur regardless of the setting of this
+   variable).
+   Returns "True" if a browser was successfully launched, "False"

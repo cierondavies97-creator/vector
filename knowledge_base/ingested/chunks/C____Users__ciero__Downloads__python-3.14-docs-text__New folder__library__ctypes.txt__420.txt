@@ -1,0 +1,4 @@
+An optional sequence that lists the names of unnamed (anonymous)
+      fields. "_anonymous_" must be already defined when "_fields_" is
+      assigned, otherwise it will have no effect.
+      The fields listed in this variable must be structure or union

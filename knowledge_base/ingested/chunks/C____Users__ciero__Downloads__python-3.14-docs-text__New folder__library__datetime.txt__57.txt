@@ -1,0 +1,4 @@
+2. This is exact and cannot overflow.
+3. Division by zero raises "ZeroDivisionError".
+4. "-timedelta.max" is not representable as a "timedelta" object.
+5. String representations of "timedelta" objects are normalized

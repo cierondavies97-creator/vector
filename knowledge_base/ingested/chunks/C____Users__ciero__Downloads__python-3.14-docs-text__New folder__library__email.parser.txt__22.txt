@@ -1,0 +1,5 @@
+only way for such a message to be valid is for it to contain only
+   ASCII text or, if "utf8" is "True", no binary attachments.
+   Changed in version 3.3: Added the *policy* keyword.
+Parser API
+==========

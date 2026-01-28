@@ -1,0 +1,4 @@
+routine executes:
+      exec(command, globals, locals)
+   and gathers profiling statistics as in the "run()" function above.
+class profile.Profile(timer=None, timeunit=0.0, subcalls=True, builtins=True)

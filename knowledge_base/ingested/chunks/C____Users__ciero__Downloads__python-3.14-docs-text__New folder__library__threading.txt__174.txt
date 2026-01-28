@@ -1,0 +1,6 @@
+spawning any worker threads, your main thread would initialize the
+semaphore:
+   maxconnections = 5
+   # ...
+   pool_sema = BoundedSemaphore(value=maxconnections)
+Once spawned, worker threads call the semaphore's acquire and release

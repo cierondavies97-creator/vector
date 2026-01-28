@@ -1,0 +1,6 @@
+property instead.
+      Deprecated since version 3.10.
+   ident
+      The 'thread identifier' of this thread or "None" if the thread
+      has not been started.  This is a nonzero integer.  See the
+      "get_ident()" function.  Thread identifiers may be recycled when

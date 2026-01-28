@@ -1,0 +1,7 @@
+...     s.enterabs(1_650_000_000, 5, print_time, argument=("second enterabs",))
+   ...     s.run()
+   ...     print(time.time())
+   ...
+   >>> print_some_times()
+   1652342830.3640375
+   From print_time 1652342830.3642538 second enterabs

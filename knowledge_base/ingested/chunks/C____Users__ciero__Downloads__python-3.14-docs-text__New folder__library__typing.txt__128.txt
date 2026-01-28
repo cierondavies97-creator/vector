@@ -1,0 +1,4 @@
+print("It's a str")
+              case _:
+                  never_call_me(arg)  # OK, arg is of type Never (or NoReturn)
+   "Never" and "NoReturn" have the same meaning in the type system and

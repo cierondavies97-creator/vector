@@ -1,0 +1,6 @@
+line interface:
+   $ # get a MIME type by a file name
+   $ python -m mimetypes filename.png
+   type: image/png encoding: None
+   $ # get a MIME type by a URL
+   $ python -m mimetypes https://example.com/filename.txt

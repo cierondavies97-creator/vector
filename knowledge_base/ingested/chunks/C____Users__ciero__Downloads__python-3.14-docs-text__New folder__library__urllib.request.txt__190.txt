@@ -1,0 +1,4 @@
+opener = urllib.request.build_opener(auth_handler)
+   # ...and install it globally so it can be used with urlopen.
+   urllib.request.install_opener(opener)
+   with urllib.request.urlopen('http://www.example.com/login.html') as f:

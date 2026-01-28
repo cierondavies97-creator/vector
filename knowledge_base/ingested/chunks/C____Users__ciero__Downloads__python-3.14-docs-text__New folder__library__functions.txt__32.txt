@@ -1,0 +1,4 @@
+integers in the range "0 <= x < 256".  "bytes" is an immutable
+   version of "bytearray" -- it has the same non-mutating methods and
+   the same indexing and slicing behavior.
+   Accordingly, constructor arguments are interpreted as for

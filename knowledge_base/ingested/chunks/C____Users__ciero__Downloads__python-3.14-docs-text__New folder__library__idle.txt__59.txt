@@ -1,0 +1,4 @@
+* "C"-"LeftArrow" and "C"-"RightArrow" moves left or right one word.
+* "Home" and "End" go to the beginning or end of the line.
+* "Page Up" and "Page Down" go up or down one screen.
+* "C"-"Home" and "C"-"End" go to beginning or end of the file.

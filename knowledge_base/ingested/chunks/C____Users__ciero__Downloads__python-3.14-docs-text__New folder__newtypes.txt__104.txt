@@ -1,0 +1,6 @@
+static void
+   Trivial_dealloc(PyObject *op)
+   {
+       /* Clear weakrefs first before calling any destructors */
+       PyObject_ClearWeakRefs(op);
+       /* ... remainder of destruction code omitted for brevity ... */

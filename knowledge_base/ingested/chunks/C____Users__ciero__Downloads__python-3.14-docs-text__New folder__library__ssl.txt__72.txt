@@ -1,0 +1,4 @@
+order perform TLS client cert authentication.  If the client
+   chooses to send a certificate, it is verified.  Any verification
+   error immediately aborts the TLS handshake.
+   Use of this setting requires a valid set of CA certificates to be

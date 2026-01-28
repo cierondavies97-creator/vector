@@ -1,0 +1,6 @@
+source. Hence, "cp" fails if you run it with no arguments.  However,
+it has a flexible, useful syntax that does not require any options at
+all:
+   cp SOURCE DEST
+   cp SOURCE ... DEST-DIR
+You can get pretty far with just that.  Most "cp" implementations

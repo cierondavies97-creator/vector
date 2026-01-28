@@ -1,0 +1,5 @@
+"PySpam_System()" is also exported to other extension modules.
+The function "PySpam_System()" is a plain C function, declared
+"static" like everything else:
+   static int
+   PySpam_System(const char *command)

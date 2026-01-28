@@ -1,0 +1,4 @@
+"SMTPNotSupportedError" may be raised if "SMTPUTF8" is specified
+   but the server does not support it.
+SMTP.send_message(msg, from_addr=None, to_addrs=None, mail_options=(), rcpt_options=())
+   This is a convenience method for calling "sendmail()" with the

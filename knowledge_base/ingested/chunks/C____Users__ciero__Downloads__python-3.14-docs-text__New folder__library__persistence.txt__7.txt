@@ -1,0 +1,8 @@
+* Row objects
+    * Blob objects
+    * PrepareProtocol objects
+    * Exceptions
+    * SQLite and Python types
+    * Default adapters and converters (deprecated)
+    * Command-line interface
+  * How-to guides

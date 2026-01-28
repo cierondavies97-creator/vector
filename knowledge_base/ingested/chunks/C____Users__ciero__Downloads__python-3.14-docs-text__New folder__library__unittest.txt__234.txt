@@ -1,0 +1,4 @@
+by assigning an instance attribute, self.longMessage, to "True"
+      or "False" before calling the assert methods.
+      The class setting gets reset before each test call.
+      Added in version 3.1.

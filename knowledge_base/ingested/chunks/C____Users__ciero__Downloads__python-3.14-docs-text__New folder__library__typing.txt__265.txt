@@ -1,0 +1,4 @@
+attribute. When called directly, this method supports only the
+      "VALUE" format, which is equivalent to accessing the
+      "__constraints__" attribute directly, but the method object can
+      be passed to "annotationlib.call_evaluate_function()" to

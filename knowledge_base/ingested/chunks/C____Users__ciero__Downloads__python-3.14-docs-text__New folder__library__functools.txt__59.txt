@@ -1,0 +1,4 @@
+keywords resulting in a new object with a simplified signature.
+   For example, "partial()" can be used to create a callable that
+   behaves like the "int()" function where the *base* argument
+   defaults to "2":

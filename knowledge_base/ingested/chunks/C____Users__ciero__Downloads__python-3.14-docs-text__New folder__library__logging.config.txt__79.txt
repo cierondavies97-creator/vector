@@ -1,0 +1,5 @@
+User-defined objects
+--------------------
+The schema supports user-defined objects for handlers, filters and
+formatters.  (Loggers do not need to have different types for
+different instances, so there is no support in this configuration

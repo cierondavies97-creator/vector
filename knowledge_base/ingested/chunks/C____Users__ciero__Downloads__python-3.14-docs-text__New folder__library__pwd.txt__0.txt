@@ -1,0 +1,5 @@
+"pwd" --- The password database
+*******************************
+======================================================================
+This module provides access to the Unix user account and password
+database.  It is available on all Unix versions.

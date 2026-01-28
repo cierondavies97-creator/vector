@@ -1,0 +1,3 @@
+Receive normal data and ancillary data from the socket, behaving as
+   "recvmsg()" would, but scatter the non-ancillary data into a series
+   of buffers instead of returning a new bytes object.  The *buffers*

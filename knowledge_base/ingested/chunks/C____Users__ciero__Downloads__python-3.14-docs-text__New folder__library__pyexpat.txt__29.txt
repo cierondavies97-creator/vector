@@ -1,0 +1,5 @@
+attribute set to
+   "errors.codes[errors.XML_ERROR_CANT_CHANGE_FEATURE_ONCE_PARSING]".
+xmlparser.SetReparseDeferralEnabled(enabled)
+   Warning:
+     Calling "SetReparseDeferralEnabled(False)" has security

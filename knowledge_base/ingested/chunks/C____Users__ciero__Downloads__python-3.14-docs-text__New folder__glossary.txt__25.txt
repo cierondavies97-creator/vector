@@ -1,0 +1,3 @@
+Unless a function explicitly notes otherwise, attempting to call
+   the C API without an attached thread state will result in a fatal
+   error or undefined behavior.  A thread state can be attached and

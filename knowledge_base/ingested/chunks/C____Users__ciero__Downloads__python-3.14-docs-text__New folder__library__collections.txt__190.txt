@@ -1,0 +1,6 @@
+if len(self.cache) > self.maxsize:
+                   self.cache.popitem(last=False)
+           return result
+"UserDict" objects
+==================
+The class, "UserDict" acts as a wrapper around dictionary objects. The

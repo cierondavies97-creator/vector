@@ -1,0 +1,5 @@
+number.
+      * ""-Subnormal"", indicating that the operand is negative and
+        subnormal.
+      * ""-Zero"", indicating that the operand is a negative zero.
+      * ""+Zero"", indicating that the operand is a positive zero.

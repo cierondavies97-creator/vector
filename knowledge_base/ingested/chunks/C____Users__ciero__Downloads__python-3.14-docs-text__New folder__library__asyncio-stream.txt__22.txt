@@ -1,0 +1,6 @@
+It is not recommended to instantiate *StreamReader* objects
+   directly; use "open_connection()" and "start_server()" instead.
+   feed_eof()
+      Acknowledge the EOF.
+   async read(n=-1)
+      Read up to *n* bytes from the stream.

@@ -1,0 +1,5 @@
+runtime, however, calling a "NewType" returns its argument
+   unchanged.
+   Usage:
+      UserId = NewType('UserId', int)  # Declare the NewType "UserId"
+      first_user = UserId(1)  # "UserId" returns the argument unchanged at runtime

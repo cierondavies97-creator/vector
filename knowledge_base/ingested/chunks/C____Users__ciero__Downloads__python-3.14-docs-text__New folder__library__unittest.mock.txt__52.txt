@@ -1,0 +1,4 @@
+pass if the call is the most recent one, and in the case of
+      "assert_called_once_with()" it must also be the only call.
+      >>> mock = Mock(return_value=None)
+      >>> mock(1, 2, arg='thing')

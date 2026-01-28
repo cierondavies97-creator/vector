@@ -1,0 +1,4 @@
+creator functions available on the "Document" object. Derived
+  interfaces support all operations (and attributes) from the base
+  interfaces, plus any new operations.
+* Operations are used as methods. Since the DOM uses only "in"

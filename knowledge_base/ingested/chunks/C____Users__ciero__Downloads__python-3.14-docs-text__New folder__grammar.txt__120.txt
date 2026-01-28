@@ -1,0 +1,6 @@
+type_param_starred_default[expr_ty]: '=' e=star_expression {
+       CHECK_VERSION(expr_ty, 13, "Type parameter defaults are", e) }
+   # EXPRESSIONS
+   # -----------
+   expressions[expr_ty]:
+       | a=expression b=(',' c=expression { c })+ [','] {

@@ -1,0 +1,5 @@
+exception tarfile.ExtractError
+   Is raised for *non-fatal* errors when using "TarFile.extract()",
+   but only if "TarFile.errorlevel""== 2".
+exception tarfile.HeaderError
+   Is raised by "TarInfo.frombuf()" if the buffer it gets is invalid.

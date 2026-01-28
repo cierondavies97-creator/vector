@@ -1,0 +1,4 @@
+adding generated *special methods* such as "__init__()" and
+"__repr__()" to user-defined classes.  It was originally described in
+**PEP 557**.
+The member variables to use in these generated methods are defined

@@ -1,0 +1,5 @@
+in the process of running the application, and thus exist primarily
+   to allow customizing the process.
+   The following methods MUST be overridden in a subclass:
+   _write(data)
+      Buffer the bytes *data* for transmission to the client.  It's

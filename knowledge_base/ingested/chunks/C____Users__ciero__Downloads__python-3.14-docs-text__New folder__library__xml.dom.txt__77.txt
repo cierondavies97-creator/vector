@@ -1,0 +1,4 @@
+definition. This will be a URI as a string, or "None".
+DocumentType.internalSubset
+   A string giving the complete internal subset from the document.
+   This does not include the brackets which enclose the subset.  If

@@ -1,0 +1,5 @@
+exception ConnectionResetError
+   A subclass of "ConnectionError", raised when a connection is reset
+   by the peer. Corresponds to "errno" "ECONNRESET".
+exception FileExistsError
+   Raised when trying to create a file or directory which already

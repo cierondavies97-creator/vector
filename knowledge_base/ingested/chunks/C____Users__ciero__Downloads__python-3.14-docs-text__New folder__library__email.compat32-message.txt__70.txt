@@ -1,0 +1,3 @@
+encode the value, "LANGUAGE" can usually be set to "None" or the
+      empty string (see **RFC 2231** for other possibilities), and
+      "VALUE" is the string value containing non-ASCII code points.

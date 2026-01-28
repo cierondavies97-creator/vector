@@ -1,0 +1,4 @@
+>>> sig = signature(foo)
+         >>> for param in sig.parameters.values():
+         ...     if (param.kind == param.KEYWORD_ONLY and
+         ...                        param.default is param.empty):

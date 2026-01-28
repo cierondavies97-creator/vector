@@ -1,0 +1,5 @@
+statement by defining "__aenter__()" and "__aexit__()" methods.
+   Introduced by **PEP 492**.
+asynchronous generator
+   A function which returns an *asynchronous generator iterator*.  It
+   looks like a coroutine function defined with "async def" except

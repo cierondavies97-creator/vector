@@ -1,0 +1,6 @@
+# register_function as a decorator. *name* can only be given
+       # as a keyword argument.
+       @server.register_function(name='add')
+       def adder_function(x, y):
+           return x + y
+       # Register a function under function.__name__.

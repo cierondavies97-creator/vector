@@ -1,0 +1,3 @@
+This object wraps a Windows HKEY object, automatically closing it when
+the object is destroyed.  To guarantee cleanup, you can call either
+the "Close()" method on the object, or the "CloseKey()" function.

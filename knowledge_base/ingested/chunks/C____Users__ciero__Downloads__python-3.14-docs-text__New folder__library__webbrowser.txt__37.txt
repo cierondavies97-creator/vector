@@ -1,0 +1,4 @@
++--------------------------+-------------------------------------------+---------+
+Notes:
+1. "Konqueror" is the file manager for the KDE desktop environment for
+   Unix, and only makes sense to use if KDE is running.  Some way of

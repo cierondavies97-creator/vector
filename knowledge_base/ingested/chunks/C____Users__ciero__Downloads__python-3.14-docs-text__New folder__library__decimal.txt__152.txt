@@ -1,0 +1,5 @@
+* if *ndigits* is negative, return *number* rounded to the
+        nearest multiple of "10**abs(ndigits)".
+      For example:
+         >>> from decimal import Decimal, getcontext, ROUND_DOWN
+         >>> getcontext().rounding = ROUND_DOWN

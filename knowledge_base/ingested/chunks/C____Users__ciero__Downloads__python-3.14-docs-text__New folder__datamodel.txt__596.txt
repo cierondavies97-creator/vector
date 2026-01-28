@@ -1,0 +1,4 @@
+whether the returned buffer is read-only or writable.
+   "inspect.BufferFlags" provides a convenient way to interpret the
+   flags. The method must return a "memoryview" object.
+object.__release_buffer__(self, buffer)

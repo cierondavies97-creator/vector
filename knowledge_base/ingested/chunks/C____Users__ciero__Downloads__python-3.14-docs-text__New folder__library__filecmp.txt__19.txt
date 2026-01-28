@@ -1,0 +1,4 @@
+Files which are in both *a* and *b*, whose contents differ
+      according to the class's file comparison operator.
+   funny_files
+      Files which are in both *a* and *b*, but could not be compared.

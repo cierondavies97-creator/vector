@@ -1,0 +1,4 @@
+result. Return "None" if no more data is available.
+   fetchmany(size=cursor.arraysize)
+      Return the next set of rows of a query result as a "list".
+      Return an empty list if no more rows are available.

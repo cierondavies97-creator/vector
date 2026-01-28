@@ -1,0 +1,6 @@
+87.6
+   If *weights* is supplied, it must be the same length as the *data*
+   or a "ValueError" will be raised.
+   Added in version 3.8.
+   Changed in version 3.11: Added support for *weights*.
+statistics.geometric_mean(data)

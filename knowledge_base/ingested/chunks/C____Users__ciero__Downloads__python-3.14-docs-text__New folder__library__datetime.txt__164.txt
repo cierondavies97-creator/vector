@@ -1,0 +1,4 @@
+time tuple.  See also strftime() and strptime() Behavior and
+   "datetime.fromisoformat()".
+   Changed in version 3.13: If *format* specifies a day of month
+   without a year a "DeprecationWarning" is now emitted.  This is to

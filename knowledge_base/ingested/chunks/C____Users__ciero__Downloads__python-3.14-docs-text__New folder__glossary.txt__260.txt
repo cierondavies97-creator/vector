@@ -1,0 +1,4 @@
+strong reference
+   In Python's C API, a strong reference is a reference to an object
+   which is owned by the code holding the reference.  The strong
+   reference is taken by calling "Py_INCREF()" when the reference is

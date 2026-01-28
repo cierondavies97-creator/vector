@@ -1,0 +1,5 @@
+to group numbers.  The dictionary is empty if no symbolic groups
+   were used in the pattern.
+Pattern.pattern
+   The pattern string from which the pattern object was compiled.
+Changed in version 3.7: Added support of "copy.copy()" and

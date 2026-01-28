@@ -1,0 +1,5 @@
+ProxyHandler Objects
+====================
+ProxyHandler.<protocol>_open(request)
+   The "ProxyHandler" will have a method "<protocol>_open()" for every
+   *protocol* which has a proxy in the *proxies* dictionary given in

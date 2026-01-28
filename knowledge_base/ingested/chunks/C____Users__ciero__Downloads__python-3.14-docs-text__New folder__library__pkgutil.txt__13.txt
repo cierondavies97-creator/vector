@@ -1,0 +1,5 @@
+"None", all top-level modules on "sys.path".
+   *path* should be either "None" or a list of paths to look for
+   modules in.
+   *prefix* is a string to output on the front of every module name on
+   output.

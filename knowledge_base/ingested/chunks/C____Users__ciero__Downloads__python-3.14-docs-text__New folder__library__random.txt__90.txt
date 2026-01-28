@@ -1,0 +1,5 @@
+See also:
+  Statistics for Hackers a video tutorial by Jake Vanderplas on
+  statistical analysis using just a few fundamental concepts including
+  simulation, sampling, shuffling, and cross-validation.
+  Economics Simulation a simulation of a marketplace by Peter Norvig

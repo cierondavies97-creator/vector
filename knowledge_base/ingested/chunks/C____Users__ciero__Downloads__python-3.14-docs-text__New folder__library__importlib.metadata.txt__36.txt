@@ -1,0 +1,6 @@
+not installed in the current Python environment.
+The "version()" function is the quickest way to get a Distribution
+Package's version number, as a string:
+   >>> version('wheel')
+   '0.32.3'
+Distribution files

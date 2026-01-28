@@ -1,0 +1,7 @@
+heappush_max(lo, heappushpop(hi, x))
+               yield lo[0]
+           else:
+               heappush(hi, heappushpop_max(lo, x))
+               yield (lo[0] + hi[0]) / 2
+For example:
+   >>> list(running_median([5.0, 9.0, 4.0, 12.0, 8.0, 9.0]))

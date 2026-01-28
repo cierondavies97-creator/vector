@@ -1,0 +1,4 @@
+sometimes be helpful to consult the platform documentation, because
+the semantics of these functions varies among platforms.
+An explanation of some terminology and conventions is in order.
+* The *epoch* is the point where the time starts, the return value of

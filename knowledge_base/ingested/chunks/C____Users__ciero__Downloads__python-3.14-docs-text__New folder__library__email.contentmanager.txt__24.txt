@@ -1,0 +1,4 @@
+for a standard MIME charset name, use the standard charset
+      instead.
+      If *cte* is set, encode the payload using the specified content
+      transfer encoding, and set the *Content-Transfer-Encoding*

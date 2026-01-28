@@ -1,0 +1,5 @@
+data
+      A real "str" object used to store the contents of the
+      "UserString" class.
+   Changed in version 3.5: New methods "__getnewargs__", "__rmod__",
+   "casefold", "format_map", "isprintable", and "maketrans".

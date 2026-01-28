@@ -1,0 +1,13 @@
+errno.ENOTTY
+   Not a typewriter
+errno.ETXTBSY
+   Text file busy
+errno.EFBIG
+   File too large
+errno.ENOSPC
+   No space left on device
+errno.ESPIPE
+   Illegal seek
+errno.EROFS
+   Read-only file system
+errno.EMLINK

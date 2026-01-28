@@ -1,0 +1,3 @@
+Environment variables, its entries are added next.  Note that on
+  Windows, paths in this variable must be separated by semicolons, to
+  distinguish them from the colon used in drive identifiers ("C:\"

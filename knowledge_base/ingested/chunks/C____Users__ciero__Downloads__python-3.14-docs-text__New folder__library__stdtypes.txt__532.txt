@@ -1,0 +1,5 @@
+Added in version 3.9.
+bytes.decode(encoding='utf-8', errors='strict')
+bytearray.decode(encoding='utf-8', errors='strict')
+   Return the bytes decoded to a "str".
+   *encoding* defaults to "'utf-8'"; see Standard Encodings for

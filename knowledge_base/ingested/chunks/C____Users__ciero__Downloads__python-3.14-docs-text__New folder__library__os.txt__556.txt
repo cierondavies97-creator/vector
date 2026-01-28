@@ -1,0 +1,5 @@
+function operates the same interval timer as "timerfd_settime()".
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.timerfd_gettime(fd, /)
+   Return a two-item tuple of floats ("next_expiration", "interval").

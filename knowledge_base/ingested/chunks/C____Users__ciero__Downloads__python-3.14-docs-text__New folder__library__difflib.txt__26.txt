@@ -1,0 +1,4 @@
+added.  The default charset of HTML document changed from
+      "'ISO-8859-1'" to "'utf-8'".
+   make_table(fromlines, tolines, fromdesc='', todesc='', context=False, numlines=5)
+      Compares *fromlines* and *tolines* (lists of strings) and

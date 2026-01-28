@@ -1,0 +1,4 @@
+object, which supports registering and unregistering file
+   descriptors, and then polling them for I/O events; see section
+   Polling Objects below for the methods supported by polling objects.
+select.kqueue()

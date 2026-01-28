@@ -1,0 +1,3 @@
+type:                    "b" | "c" | "d" | "e" | "E" | "f" | "F" | "g"
+                            | "G" | "n" | "o" | "s" | "x" | "X" | "%"
+If a valid *align* value is specified, it can be preceded by a *fill*

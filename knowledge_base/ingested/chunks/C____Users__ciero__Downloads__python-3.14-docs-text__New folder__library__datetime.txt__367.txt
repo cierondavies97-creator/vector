@@ -1,0 +1,3 @@
+form 5:MM UTC on the day daylight time ends. The local wall clock
+leaps from 1:59 (daylight time) back to 1:00 (standard time) again.
+Local times of the form 1:MM are ambiguous. "astimezone()" mimics the

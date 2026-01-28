@@ -1,0 +1,4 @@
+default interpreter, while "pymanager" will display help ("pymanager
+exec ..." provides equivalent behaviour to "py ...").
+Each of these commands also has a windowed version that avoids
+creating a console window. These are "pyw", "pythonw" and

@@ -1,0 +1,3 @@
+filename for the underlying database.  As a side-effect, an
+   extension may be added to the filename and more than one file may
+   be created.  By default, the underlying database file is opened for

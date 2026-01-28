@@ -1,0 +1,6 @@
+$ ./myapp.pyz
+   <output from myapp>
+To replace the shebang line on an existing archive, create a modified
+archive using the "create_archive()" function:
+   >>> import zipapp
+   >>> zipapp.create_archive('old_archive.pyz', 'new_archive.pyz', '/usr/bin/python3')

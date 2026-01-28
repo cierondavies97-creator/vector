@@ -1,0 +1,4 @@
+beep the speaker, "RuntimeError" is raised.
+winsound.PlaySound(sound, flags)
+   Call the underlying "PlaySound()" function from the Platform API.
+   The *sound* parameter may be a filename, a system sound alias,

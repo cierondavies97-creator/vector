@@ -1,0 +1,5 @@
+available in all Python implementations.
+sys.getwindowsversion()
+   Return a named tuple describing the Windows version currently
+   running.  The named elements are *major*, *minor*, *build*,
+   *platform*, *service_pack*, *service_pack_minor*,

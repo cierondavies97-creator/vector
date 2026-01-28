@@ -1,0 +1,4 @@
+Parameters:
+         * **sql** (*str*) -- A single SQL DML statement.
+         * **parameters** (*iterable*) -- An *iterable* of parameters
+           to bind with the placeholders in *sql*. See How to use

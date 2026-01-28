@@ -1,0 +1,4 @@
+be detected (jpeg, png, gif, tiff, rgb, pbm, pgm, ppm, rast, xbm,
+   bmp, webp, and exr attempted), then the subtype will be
+   automatically included in the *Content-Type* header. Otherwise you
+   can explicitly specify the image subtype via the *_subtype*

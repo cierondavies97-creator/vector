@@ -1,0 +1,4 @@
+argument "follow_symlinks=False", or use "lstat()".
+   This function can support specifying a file descriptor and not
+   following symlinks.
+   On Windows, passing "follow_symlinks=False" will disable following

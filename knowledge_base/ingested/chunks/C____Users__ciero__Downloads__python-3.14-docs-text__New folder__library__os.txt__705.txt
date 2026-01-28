@@ -1,0 +1,4 @@
+Unix or the GetProcessTimes MSDN on Windows. On Windows, only
+   "user" and "system" are known; the other attributes are zero.
+   Availability: Unix, Windows.
+   Changed in version 3.3: Return type changed from a tuple to a

@@ -1,0 +1,3 @@
+designed around a pool of processes and predates the introduction
+     of the "concurrent.futures" module.  As such, it inherits some
+     operations that don't make sense for a pool backed by threads,

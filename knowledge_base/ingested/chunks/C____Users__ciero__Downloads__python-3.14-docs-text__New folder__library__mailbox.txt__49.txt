@@ -1,0 +1,4 @@
+than *path*.
+   Maildir is a directory-based mailbox format invented for the qmail
+   mail transfer agent and now widely supported by other programs.
+   Messages in a Maildir mailbox are stored in separate files within a

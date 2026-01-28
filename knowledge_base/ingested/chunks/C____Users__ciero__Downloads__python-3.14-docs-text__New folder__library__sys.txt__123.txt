@@ -1,0 +1,2 @@
+| float_info.max                    | "DBL_MAX"                         | The maximum representable         |
+   |                                   |                                   | positive finite float.            |

@@ -1,0 +1,4 @@
+still using the "compat32" API for backward compatibility reasons.
+Changed in version 3.6: Docs reorganized and rewritten to promote the
+new "EmailMessage"/"EmailPolicy" API.
+Contents of the "email" package documentation:

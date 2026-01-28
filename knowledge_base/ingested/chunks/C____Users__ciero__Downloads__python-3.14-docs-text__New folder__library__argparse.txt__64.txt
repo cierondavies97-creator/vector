@@ -1,0 +1,5 @@
+Note:
+  Empty lines are treated as empty strings ("''"), which are allowed
+  as values but not as arguments. Empty lines that are read as
+  arguments will result in an "unrecognized arguments" error.
+"ArgumentParser" uses *filesystem encoding and error handler* to read

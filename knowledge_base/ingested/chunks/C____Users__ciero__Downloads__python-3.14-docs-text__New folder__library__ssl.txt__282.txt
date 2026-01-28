@@ -1,0 +1,3 @@
+set back to "CERT_NONE" as long as hostname checking is enabled.
+   The "PROTOCOL_TLS_CLIENT" protocol enables hostname checking by
+   default. With other protocols, hostname checking must be enabled

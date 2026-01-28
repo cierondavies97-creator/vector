@@ -1,0 +1,6 @@
+DateTime Objects
+================
+class xmlrpc.client.DateTime
+   This class may be initialized with seconds since the epoch, a time
+   tuple, an ISO 8601 time/date string, or a "datetime.datetime"
+   instance.  It has the following methods, supported mainly for

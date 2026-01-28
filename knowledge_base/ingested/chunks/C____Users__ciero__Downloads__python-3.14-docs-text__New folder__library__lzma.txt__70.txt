@@ -1,0 +1,3 @@
+]
+   with lzma.open("file.xz", "w", filters=my_filters) as f:
+       f.write(b"blah blah blah")

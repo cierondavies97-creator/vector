@@ -1,0 +1,4 @@
+object.__annotations__
+   This attribute contains the annotations for an object. It is lazily
+   evaluated, so accessing the attribute may execute arbitrary code
+   and raise exceptions. If evaluation is successful, the attribute is

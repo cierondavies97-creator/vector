@@ -1,0 +1,5 @@
+file (probably using "os.makedev()"), otherwise it is ignored.
+   This function can also support paths relative to directory
+   descriptors.
+   Availability: Unix, not WASI.
+   Changed in version 3.3: Added the *dir_fd* parameter.

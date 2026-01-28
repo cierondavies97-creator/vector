@@ -1,0 +1,4 @@
+non-integers.
+3. The "'n'" and "'N'" conversion codes are only available for the
+   native size (selected as the default or with the "'@'" byte order
+   character). For the standard size, you can use whichever of the

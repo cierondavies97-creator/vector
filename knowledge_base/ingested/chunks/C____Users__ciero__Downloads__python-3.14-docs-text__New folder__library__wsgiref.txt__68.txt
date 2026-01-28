@@ -1,0 +1,3 @@
+returned application will forward all requests to the original
+   *application*, and will check that both the *application* and the
+   server invoking it are conforming to the WSGI specification and to

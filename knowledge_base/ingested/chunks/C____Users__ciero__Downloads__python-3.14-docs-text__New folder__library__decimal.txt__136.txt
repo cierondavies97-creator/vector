@@ -1,0 +1,4 @@
+zeros to length precision if necessary.  The sign and exponent
+      of the first operand are unchanged.
+   same_quantum(other, context=None)
+      Test whether self and other have the same exponent or whether

@@ -1,0 +1,4 @@
+effective group ids associated with the current user process;
+     this list is limited to a system-defined number of entries,
+     typically 16, and may be modified by calls to "setgroups()" if
+     suitably privileged. If built with a deployment target greater

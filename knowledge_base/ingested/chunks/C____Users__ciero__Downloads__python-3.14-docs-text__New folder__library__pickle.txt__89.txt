@@ -1,0 +1,4 @@
+classes.  Neither the function's code, nor any of its function
+attributes are pickled.  Thus the defining module must be importable
+in the unpickling environment, and the module must contain the named
+object, otherwise an exception will be raised. [3]

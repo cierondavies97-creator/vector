@@ -1,0 +1,3 @@
+"-Infinity" will be encoded as such.  This behavior is not JSON
+   specification compliant, but is consistent with most JavaScript
+   based encoders and decoders.  Otherwise, it will be a "ValueError"

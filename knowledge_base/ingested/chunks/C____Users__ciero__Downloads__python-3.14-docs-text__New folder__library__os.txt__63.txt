@@ -1,0 +1,5 @@
+another process.
+   Availability: Unix, Windows, not WASI.
+   Changed in version 3.2: Added support for Windows.
+os.getpriority(which, who)
+   Get program scheduling priority.  The value *which* is one of

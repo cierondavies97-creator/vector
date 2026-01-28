@@ -1,0 +1,4 @@
+written in Python and imported in source form.  Some modules provide
+interfaces that are highly specific to Python, like printing a stack
+trace; some provide interfaces that are specific to particular
+operating systems, such as access to specific hardware; others provide

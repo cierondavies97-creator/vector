@@ -1,0 +1,3 @@
+classmethod. Otherwise it is similar to "abstractmethod()".
+   This special case is deprecated, as the "classmethod()" decorator
+   is now correctly identified as abstract when applied to an abstract

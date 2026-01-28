@@ -1,0 +1,5 @@
+* A zero-filled bytes object of a specified length: "bytes(10)"
+   * From an iterable of integers: "bytes(range(20))"
+   * Copying existing binary data via the buffer protocol:
+     "bytes(obj)"
+   Also see the bytes built-in.

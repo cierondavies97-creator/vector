@@ -1,0 +1,5 @@
+list(d)               # All nested values
+   k in d                # Check all nested values
+   len(d)                # Number of nested values
+   d.items()             # All nested items
+   dict(d)               # Flatten into a regular dictionary

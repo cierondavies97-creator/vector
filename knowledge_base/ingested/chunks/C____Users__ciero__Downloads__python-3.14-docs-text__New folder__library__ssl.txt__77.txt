@@ -1,0 +1,5 @@
+ssl.VERIFY_DEFAULT
+   Possible value for "SSLContext.verify_flags". In this mode,
+   certificate revocation lists (CRLs) are not checked. By default
+   OpenSSL does neither require nor verify CRLs.
+   Added in version 3.4.

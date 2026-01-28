@@ -1,0 +1,3 @@
++-----------+------------------------------------------------------------+
+   | "'c'"     | Character. Converts the integer to the corresponding       |
+   |           | unicode character before printing.                         |

@@ -1,0 +1,5 @@
+"str_digits_check_threshold".
+sys.__interactivehook__
+   When this attribute exists, its value is automatically called (with
+   no arguments) when the interpreter is launched in interactive mode.
+   This is done after the "PYTHONSTARTUP" file is read, so that you

@@ -1,0 +1,5 @@
+* "0 <= second < 60",
+   * "0 <= microsecond < 1000000",
+   * "fold in [0, 1]".
+   If an argument outside those ranges is given, "ValueError" is
+   raised. All default to 0 except *tzinfo*, which defaults to "None".

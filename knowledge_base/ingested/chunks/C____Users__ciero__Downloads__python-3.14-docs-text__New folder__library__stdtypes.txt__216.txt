@@ -1,0 +1,4 @@
+for item in lst:
+       process(item)  # another thread may modify lst
+Consider external synchronization when sharing "list" instances across
+threads.  See Python support for free threading for more information.

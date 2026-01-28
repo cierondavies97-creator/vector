@@ -1,0 +1,4 @@
+address.  A "NetmaskValueError" is raised if the mask is not valid
+   for an IPv4 address.
+   If *strict* is "True" and host bits are set in the supplied
+   address, then "ValueError" is raised.  Otherwise, the host bits are

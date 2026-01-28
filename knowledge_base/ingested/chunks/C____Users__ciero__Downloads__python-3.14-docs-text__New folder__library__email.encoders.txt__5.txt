@@ -1,0 +1,4 @@
+it, and reset the payload to this newly encoded value.  They should
+also set the *Content-Transfer-Encoding* header as appropriate.
+Note that these functions are not meaningful for a multipart message.
+They must be applied to individual subparts instead, and will raise a

@@ -1,0 +1,6 @@
+return any "tempdir" value regardless of type so long as it was not
+   "None".
+tempfile.gettempdirb()
+   Same as "gettempdir()" but the return value is in bytes.
+   Added in version 3.5.
+tempfile.gettempprefix()

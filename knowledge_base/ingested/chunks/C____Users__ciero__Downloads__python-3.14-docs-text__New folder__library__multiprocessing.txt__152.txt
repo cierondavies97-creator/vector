@@ -1,0 +1,4 @@
+"close()" has been called.  It blocks until the background
+      thread exits, ensuring that all data in the buffer has been
+      flushed to the pipe.
+      By default if a process is not the creator of the queue then on

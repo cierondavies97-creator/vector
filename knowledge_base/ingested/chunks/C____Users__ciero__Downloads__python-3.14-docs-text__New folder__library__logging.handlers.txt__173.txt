@@ -1,0 +1,4 @@
+class logging.handlers.QueueHandler(queue)
+   Returns a new instance of the "QueueHandler" class. The instance is
+   initialized with the queue to send messages to. The *queue* can be
+   any queue-like object; it's used as-is by the "enqueue()" method,

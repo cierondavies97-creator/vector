@@ -1,0 +1,4 @@
+modified in normal use. Later sections list those that are intended
+for administrative customization.
+-[ Standard configuration options ]-
++-----------------------------------+-----------------------------------+-----------------------------------+

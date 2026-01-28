@@ -1,0 +1,4 @@
+If you're not sure how to do something in Tkinter, and you can't
+immediately find it in the tutorial or reference documentation you're
+using, there are a few strategies that can be helpful.
+First, remember that the details of how individual widgets work may

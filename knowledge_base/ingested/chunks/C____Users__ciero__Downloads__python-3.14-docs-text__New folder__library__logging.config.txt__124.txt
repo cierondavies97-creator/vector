@@ -1,0 +1,5 @@
+it at class level rather than instance level, you need to wrap it with
+"staticmethod()". For example:
+   from importlib import import_module
+   from logging.config import BaseConfigurator
+   BaseConfigurator.importer = staticmethod(import_module)

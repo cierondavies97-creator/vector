@@ -1,0 +1,6 @@
+writer.close()
+       await writer.wait_closed()
+   asyncio.run(tcp_echo_client('Hello World!'))
+See also:
+  The TCP echo client protocol example uses the low-level
+  "loop.create_connection()" method.

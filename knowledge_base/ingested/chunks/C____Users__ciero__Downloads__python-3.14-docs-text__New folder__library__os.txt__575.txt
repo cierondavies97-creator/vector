@@ -1,0 +1,4 @@
+argument to be ignored on some filesystems.
+   Raises an auditing event "os.setxattr" with arguments "path",
+   "attribute", "value", "flags".
+   Changed in version 3.6: Accepts a *path-like object* for *path* and

@@ -73,8 +73,8 @@ class VectorApp(tk.Tk):
 
         self.last_debug: dict = {}
 
-        self._pin_tag_map: dict[str, RetrievedItem] = {}
-        self._ctx_item: RetrievedItem | None = None
+        self._pin_tag_map: dict[str, dict] = {}
+        self._ctx_item: dict | None = None
 
         self._build_ui()
         self._load_chat_history()
@@ -85,7 +85,6 @@ class VectorApp(tk.Tk):
     # ========================================================
 
     def _build_ui(self):
-        # ---------- Menu ----------
         menubar = tk.Menu(self)
         self.configure(menu=menubar)
 
@@ -97,7 +96,6 @@ class VectorApp(tk.Tk):
             command=self._summarize_chat_to_memory,
         )
 
-        # ---------- Top bar ----------
         top = tk.Frame(self)
         top.pack(fill=tk.X, padx=8, pady=4)
 
@@ -110,18 +108,15 @@ class VectorApp(tk.Tk):
         tk.Checkbutton(top, text="Use Knowledge Base", variable=self.use_memory).pack(side=tk.LEFT, padx=12)
         tk.Checkbutton(top, text="Use Memory Core", variable=self.use_memory_core).pack(side=tk.LEFT, padx=6)
 
-        # ---------- Cycle status bar ----------
         cycle_bar = tk.Frame(self)
         cycle_bar.pack(fill=tk.X, padx=8, pady=(0, 6))
 
         self.cycle_status = tk.StringVar(value="🟡 No active cycle")
         tk.Label(cycle_bar, textvariable=self.cycle_status, anchor="w").pack(fill=tk.X)
 
-        # ---------- Main ----------
         main = tk.Frame(self)
         main.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
 
-        # ---------- Left column ----------
         tk.Label(main, text="Query").grid(row=0, column=0, sticky="w")
         self.query = tk.Text(main, height=4)
         self.query.grid(row=1, column=0, sticky="nsew")
@@ -132,7 +127,6 @@ class VectorApp(tk.Tk):
         self.response = tk.Text(main)
         self.response.grid(row=3, column=0, sticky="nsew")
 
-        # ---------- Right column ----------
         right = tk.Frame(main)
         right.grid(row=0, column=2, rowspan=6, sticky="nsew", padx=(8, 0))
 
@@ -158,13 +152,31 @@ class VectorApp(tk.Tk):
         self.heatmap_box = tk.Text(right, height=6)
         self.heatmap_box.pack(fill=tk.X)
 
-        main.columnconfigure(0, weight=3)
-        main.columnconfigure(2, weight=2)
-        main.rowconfigure(3, weight=1)
-
         self.context_menu = tk.Menu(self, tearoff=0)
         self.context_menu.add_command(label="📌 Pin / Unpin Item", command=self._ctx_toggle_pin)
         self.context_menu.add_command(label="📌 Pin Entire File", command=self._ctx_pin_file)
+
+    # ========================================================
+    # Pin helpers (ADDED – compatibility only)
+    # ========================================================
+
+    def _pin_item_by_id(self, namespace: str, chunk_id: str):
+        item = self._find_item_in_debug(namespace, chunk_id)
+        if item:
+            self.assistant.session_pins[namespace][chunk_id] = item
+
+    def _unpin_item_by_id(self, namespace: str, chunk_id: str):
+        self.assistant.session_pins.get(namespace, {}).pop(chunk_id, None)
+
+    def _find_item_in_debug(self, namespace: str, chunk_id: str):
+        for group in ("memory_core", "file_memory"):
+            for item in self.last_debug.get(group, []):
+                if item.get("namespace") == namespace and item.get("chunk_id") == chunk_id:
+                    return item
+        return None
+
+    # ========================================================
+    
 
     # ========================================================
     # Cycle status
@@ -349,16 +361,41 @@ class VectorApp(tk.Tk):
             f"  Original : {debug.get('query')}\n"
             f"  Rewritten: {debug.get('rewritten_query')}\n\n"
         )
+    def _render_debug(self):
+        self.memory.delete("1.0", tk.END)
+        self._pin_tag_map.clear()
+
+        debug = self.last_debug or {}
+
+        # ===============================
+        # Header
+        # ===============================
+        self.memory.insert(
+            tk.END,
+            "Query Rewrite\n"
+            f"  Original : {debug.get('query')}\n"
+            f"  Rewritten: {debug.get('rewritten_query')}\n\n"
+        )
 
         def insert_item(item: dict):
             namespace = item["namespace"]
             chunk_id = item["chunk_id"]
 
+            # -------------------------------
+            # Pin state (authoritative)
+            # -------------------------------
             pinned = chunk_id in self.assistant.session_pins.get(namespace, {})
             marker = "[PIN]" if pinned else "[ ]"
 
             tag = f"pin:{namespace}:{chunk_id}"
             self._pin_tag_map[tag] = item
+
+            # -------------------------------
+            # Retrieval (authoritative)
+            # -------------------------------
+            retrieval = item.get("retrieval", {})
+            score = retrieval.get("score", 0.0)
+            rank = retrieval.get("rank")
 
             # -------------------------------
             # Clickable header line ONLY
@@ -367,82 +404,62 @@ class VectorApp(tk.Tk):
             self.memory.insert(
                 tk.END,
                 f"{marker} {item.get('source_path', '')} "
-                f"(score={item.get('score', 0):.3f}, rank={item.get('rank')})\n"
+                f"(score={score:.3f}, rank={rank})\n"
             )
             end = self.memory.index(tk.END)
 
-            # Apply pin tag ONLY to header line
             self.memory.tag_add(tag, start, end)
             self.memory.tag_add("pin", start, end)
 
             # -------------------------------
-            # Rerank diagnostics
+            # Retrieval diagnostics
             # -------------------------------
-            if item.get("rerank_delta") is not None:
-                delta = item["rerank_delta"]
-                self.memory.insert(
-                    tk.END,
-                    f"  Rerank delta: {delta:+.3f}\n"
-                )
+            if retrieval:
+                self.memory.insert(tk.END, "  Retrieval:\n")
+                for k, v in retrieval.items():
+                    self.memory.insert(tk.END, f"    - {k}: {v}\n")
 
             # -------------------------------
-            # Tag grouping (plain text)
+            # Ranking diagnostics
+            # -------------------------------
+            ranking = item.get("ranking", {})
+            if ranking:
+                self.memory.insert(tk.END, "  Ranking:\n")
+                for k, v in ranking.items():
+                    self.memory.insert(tk.END, f"    - {k}: {v}\n")
+
+            # -------------------------------
+            # Semantic signals
+            # -------------------------------
+            semantic = item.get("semantic_signals", {})
+            if semantic:
+                self.memory.insert(tk.END, "  Semantic Signals:\n")
+                for k, v in semantic.items():
+                    self.memory.insert(tk.END, f"    - {k}: {v}\n")
+
+            # -------------------------------
+            # Pin diagnostics
+            # -------------------------------
+            pin_state = item.get("pin_state", {})
+            if pin_state:
+                self.memory.insert(tk.END, "  Pin State:\n")
+                for k, v in pin_state.items():
+                    self.memory.insert(tk.END, f"    - {k}: {v}\n")
+
+            # -------------------------------
+            # Raw tags (no reconstruction)
             # -------------------------------
             tags = item.get("tags", [])
-            groups = {
-                "concept": [],
-                "keyword": [],
-                "path": [],
-                "meta": [],
-            }
-
-            for t in tags:
-                if ":" in t:
-                    prefix, value = t.split(":", 1)
-                    if prefix in groups:
-                        groups[prefix].append(value)
-                    else:
-                        groups["meta"].append(t)
-                else:
-                    groups["meta"].append(t)
-
-            if groups["concept"]:
-                self.memory.insert(tk.END, "  Concepts:\n")
-                for c in groups["concept"]:
-                    self.memory.insert(tk.END, f"    - {c}\n")
-
-            if groups["keyword"]:
-                self.memory.insert(tk.END, "  Keywords:\n")
-                for k in groups["keyword"]:
-                    self.memory.insert(tk.END, f"    - {k}\n")
-
-            # -------------------------------
-            # Paths (ordered, reconstructed)
-            # -------------------------------
-            if groups["path"]:
-                self.memory.insert(tk.END, "  Paths:\n")
-
-                path_parts = groups["path"]
-
-                for i, part in enumerate(path_parts):
-                    is_last = i == len(path_parts) - 1
-                    suffix = "" if is_last else "/"
-                    self.memory.insert(
-                        tk.END,
-                        f"    - {part}{suffix}\n"
-                    )
-
-
-            if groups["meta"]:
-                self.memory.insert(tk.END, "  Metadata:\n")
-                for m in groups["meta"]:
-                    self.memory.insert(tk.END, f"    - {m}\n")
+            if tags:
+                self.memory.insert(tk.END, "  Tags:\n")
+                for t in tags:
+                    self.memory.insert(tk.END, f"    - {t}\n")
 
             # -------------------------------
             # Content
             # -------------------------------
             self.memory.insert(tk.END, "\n")
-            self.memory.insert(tk.END, f"{item['text']}\n\n")
+            self.memory.insert(tk.END, f"{item.get('text', '')}\n\n")
 
         # ===============================
         # MEMORY CORE
@@ -464,43 +481,48 @@ class VectorApp(tk.Tk):
 
 
 
-
-
     def _render_concept_heatmap(self):
         self.heatmap_box.delete("1.0", tk.END)
         heatmap = self.last_debug.get("concept_heatmap") or {}
+
         if not heatmap:
             self.heatmap_box.insert(tk.END, "No semantic concepts triggered.\n")
             return
-        for c, s in heatmap.items():
+
+        for concept, data in heatmap.items():
+            bar = "█" * int(data["normalized_dominance"] * 10)
             self.heatmap_box.insert(
                 tk.END,
-                f"{c.replace('concept:', ''):<25} {'█' * int(s * 10)} {s:.2f}\n"
+                f"{concept.replace('concept:', ''):<22} "
+                f"{bar:<10} "
+                f"{data['normalized_dominance']:.2f}\n"
+                f"  chunks: {', '.join(data['contributing_chunks'])}\n"
             )
 
-    # ========================================================
-    # Chat control
-    # ========================================================
+
+        # ========================================================
+        # Chat control
+        # ========================================================
 
     def _load_chat_history(self):
-        for m in self.assistant.chat_store.load():
-            role = "🧑 You" if m["role"] == "user" else "🤖 Assistant"
-            self.response.insert(tk.END, f"\n{role}:\n{m['content']}\n")
+            for m in self.assistant.chat_store.load():
+                role = "🧑 You" if m["role"] == "user" else "🤖 Assistant"
+                self.response.insert(tk.END, f"\n{role}:\n{m['content']}\n")
 
     def _clear_chat(self):
-        if messagebox.askyesno("Clear chat", "Clear all chat history?"):
-            self.assistant.clear_chat()
-            self.response.delete("1.0", tk.END)
-            self.memory.delete("1.0", tk.END)
-            self.heatmap_box.delete("1.0", tk.END)
-            self._refresh_pinned_panel()
+            if messagebox.askyesno("Clear chat", "Clear all chat history?"):
+                self.assistant.clear_chat()
+                self.response.delete("1.0", tk.END)
+                self.memory.delete("1.0", tk.END)
+                self.heatmap_box.delete("1.0", tk.END)
+                self._refresh_pinned_panel()
 
     def _summarize_chat_to_memory(self):
-        summary = self.assistant.summarize_chat_to_memory()
-        messagebox.showinfo(
-            "Memory Core",
-            summary if summary else "Nothing to summarize.",
-        )
+            summary = self.assistant.summarize_chat_to_memory()
+            messagebox.showinfo(
+                "Memory Core",
+                summary if summary else "Nothing to summarize.",
+            )
 
 
 if __name__ == "__main__":

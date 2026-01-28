@@ -1,0 +1,4 @@
+"working draft" stage, but this particular interface appears
+     uncontroversial.  Changes from the W3C will not necessarily
+     affect this method in the Python DOM interface (though any new
+     W3C API for this would also be supported).

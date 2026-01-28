@@ -1,0 +1,7 @@
+operator.is_(a, b)
+   Return "a is b".  Tests object identity.
+operator.is_not(a, b)
+   Return "a is not b".  Tests object identity.
+operator.is_none(a)
+   Return "a is None".  Tests object identity.
+   Added in version 3.14.

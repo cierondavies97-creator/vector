@@ -1,0 +1,5 @@
+geometry management
+   Widgets aren't automatically added to the user interface when they
+   are created. A *geometry manager* like "grid" controls where in the
+   user interface they are placed.
+event loop

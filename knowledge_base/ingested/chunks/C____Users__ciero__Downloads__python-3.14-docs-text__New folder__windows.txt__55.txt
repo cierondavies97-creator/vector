@@ -1,0 +1,4 @@
+$> py install --download=<PATH> ... <TAG>...
+The "--download=<PATH>" option will download the packages for the
+listed tags and create a directory containing them and an "index.json"
+file suitable for later installation. This entire directory can be

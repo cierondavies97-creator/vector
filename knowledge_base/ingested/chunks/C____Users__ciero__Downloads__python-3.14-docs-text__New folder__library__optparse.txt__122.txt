@@ -1,0 +1,5 @@
+group.add_option("-e", action="store_true", help="Print every action done")
+   parser.add_option_group(group)
+that results in the following output:
+   Usage: <yourscript> [options] arg1 arg2
+   Options:

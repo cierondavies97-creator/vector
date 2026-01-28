@@ -1,0 +1,4 @@
+there can be no executable binary material outside the Frameworks
+   folder.
+   To accommodate this requirement, when running on iOS, extension
+   module binaries are *not* packaged as ".so" files on "sys.path",

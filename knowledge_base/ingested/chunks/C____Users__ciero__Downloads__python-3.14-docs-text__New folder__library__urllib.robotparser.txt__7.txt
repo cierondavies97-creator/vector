@@ -1,0 +1,5 @@
+or the "robots.txt" entry for this parameter has invalid syntax,
+      return "None".
+      Added in version 3.6.
+   request_rate(useragent)
+      Returns the contents of the "Request-rate" parameter from

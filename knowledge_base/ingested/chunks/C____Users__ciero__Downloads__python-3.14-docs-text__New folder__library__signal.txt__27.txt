@@ -1,0 +1,7 @@
+Availability: Unix.
+signal.SIGXCPU
+   CPU time limit exceeded.
+   Availability: Unix.
+SIG*
+   All the signal numbers are defined symbolically.  For example, the
+   hangup signal is defined as "signal.SIGHUP"; the variable names are

@@ -1,0 +1,5 @@
+Creates a comment with the given *text*.  If "insert_comments"
+      is true, this will also add it to the tree.
+      Added in version 3.8.
+   pi(target, text)
+      Creates a process instruction with the given *target* name and

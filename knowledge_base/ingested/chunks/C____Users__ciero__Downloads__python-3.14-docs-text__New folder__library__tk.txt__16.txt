@@ -1,0 +1,8 @@
+* Developing tkinter applications
+    * Running without a subprocess
+  * Help and Preferences
+    * Help sources
+    * Setting preferences
+    * IDLE on macOS
+    * Extensions
+  * idlelib --- implementation of IDLE application

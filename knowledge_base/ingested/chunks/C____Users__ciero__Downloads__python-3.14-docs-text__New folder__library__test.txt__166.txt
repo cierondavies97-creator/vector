@@ -1,0 +1,4 @@
+for the zip file.
+"test.support.bytecode_helper" --- Support tools for testing correct bytecode generation
+****************************************************************************************
+The "test.support.bytecode_helper" module provides support for testing

@@ -1,0 +1,3 @@
+| "EPOLLMSG"                | Ignored.                                        |
+   +---------------------------+-------------------------------------------------+
+   | "EPOLLWAKEUP"             | Prevents sleep during event waiting.            |

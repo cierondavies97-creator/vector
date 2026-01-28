@@ -1,0 +1,4 @@
+execution times, allowing you to identify bottlenecks in your
+programs. Auditing events provide visibility into runtime behaviors
+that would otherwise require intrusive debugging or patching.
+* Audit events table

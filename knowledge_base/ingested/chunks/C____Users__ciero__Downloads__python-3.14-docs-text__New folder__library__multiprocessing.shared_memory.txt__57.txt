@@ -1,0 +1,4 @@
+byte to the end of such values when storing and unconditionally
+   removing it when fetching:
+      >>> from multiprocessing import shared_memory
+      >>> nul_bug_demo = shared_memory.ShareableList(['?\x00', b'\x03\x02\x01\x00\x00\x00'])

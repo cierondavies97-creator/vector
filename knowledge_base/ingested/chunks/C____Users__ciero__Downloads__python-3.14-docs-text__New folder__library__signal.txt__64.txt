@@ -1,0 +1,4 @@
+a signal handler for the signals you care about, then nothing will
+   be written to the wakeup fd. This can be used by a library to
+   wakeup a poll or select call, allowing the signal to be fully
+   processed.

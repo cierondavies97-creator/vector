@@ -1,0 +1,4 @@
+created by user code.
+   In general, user code should try not to depend on a specific
+   ordering of attributes, given that the XML Information Set
+   explicitly excludes the attribute order from conveying information.

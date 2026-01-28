@@ -1,0 +1,4 @@
+"feature_namespaces" feature is enabled (the default).
+   There are cases, however, when applications need to use prefixes in
+   character data or in attribute values, where they cannot safely be
+   expanded automatically; the "startPrefixMapping()" and

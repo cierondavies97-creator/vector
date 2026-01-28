@@ -1,0 +1,4 @@
+How to work with SQLite URIs.
+      * **autocommit** (*bool*) -- Control **PEP 249** transaction
+        handling behaviour. See "Connection.autocommit" and
+        Transaction control via the autocommit attribute for more

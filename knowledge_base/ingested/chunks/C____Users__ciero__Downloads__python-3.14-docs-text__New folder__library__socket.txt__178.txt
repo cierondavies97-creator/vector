@@ -1,0 +1,6 @@
+order, this is a no-op; otherwise, it performs a 2-byte swap
+   operation.
+   Changed in version 3.10: Raises "OverflowError" if *x* does not fit
+   in a 16-bit unsigned integer.
+socket.htonl(x)
+   Convert 32-bit positive integers from host to network byte order.

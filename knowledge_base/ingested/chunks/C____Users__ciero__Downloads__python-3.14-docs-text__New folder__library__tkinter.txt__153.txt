@@ -1,0 +1,5 @@
+The index Parameter
+-------------------
+A number of widgets require "index" parameters to be passed.  These
+are used to point at a specific place in a Text widget, or to
+particular characters in an Entry widget, or to particular menu items

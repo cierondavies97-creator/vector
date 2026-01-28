@@ -1,0 +1,3 @@
+This behaves exactly like "walk()", except that it yields a 4-tuple
+   "(dirpath, dirnames, filenames, dirfd)", and it supports "dir_fd".
+   *dirpath*, *dirnames* and *filenames* are identical to "walk()"

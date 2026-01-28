@@ -1,0 +1,6 @@
+... def test():
+   ...     from package.module import ClassName
+   ...     assert ClassName.attribute == sentinel.attribute
+   ...
+   >>> test()
+A nice pattern is to actually decorate test methods themselves:

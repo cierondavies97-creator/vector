@@ -1,0 +1,8 @@
+empty and whitespace-only lines:
+      >>> print(indent(s, '+ ', lambda line: True))
+      + hello
+      +
+      +
+      + world
+   Added in version 3.3.
+"wrap()", "fill()" and "shorten()" work by creating a "TextWrapper"

@@ -1,0 +1,8 @@
+parent:
+>>> manager = Mock()
+>>> mock_foo = manager.foo
+>>> mock_bar = manager.bar
+>>> mock_foo.something()
+<Mock name='mock.foo.something()' id='...'>
+>>> mock_bar.other.thing()
+<Mock name='mock.bar.other.thing()' id='...'>

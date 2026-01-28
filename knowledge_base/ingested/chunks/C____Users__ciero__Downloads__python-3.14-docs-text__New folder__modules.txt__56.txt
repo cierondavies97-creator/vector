@@ -1,0 +1,4 @@
+'setprofile', 'setrecursionlimit', 'setswitchinterval', 'settrace', 'stderr',
+    'stdin', 'stdout', 'thread_info', 'unraisablehook', 'version', 'version_info',
+    'warnoptions']
+Without arguments, "dir()" lists the names you have defined currently:

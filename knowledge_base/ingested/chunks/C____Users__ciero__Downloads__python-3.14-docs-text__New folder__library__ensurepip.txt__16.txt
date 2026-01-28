@@ -1,0 +1,5 @@
+installation of an earlier version of "pip" to the available
+   version.
+   *user* indicates whether to use the user scheme rather than
+   installing globally.
+   By default, the scripts "pipX" and "pipX.Y" will be installed

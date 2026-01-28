@@ -1,0 +1,3 @@
+Thread has two arguments before the *search_criterion* argument(s);
+   a *threading_algorithm*, and the searching *charset*.  Note that
+   unlike "search", the searching *charset* argument is mandatory.

@@ -1,0 +1,5 @@
+relative to the current position) and "os.SEEK_END" or "2" (seek
+      relative to the file's end).
+      Changed in version 3.13: Return the new absolute position
+      instead of "None".
+   seekable()

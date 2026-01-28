@@ -1,0 +1,3 @@
+to this, only str was allowed. *suffix* and *prefix* now accept and
+   default to "None" to cause an appropriate default value to be used.
+   Changed in version 3.6: The *dir* parameter now accepts a *path-

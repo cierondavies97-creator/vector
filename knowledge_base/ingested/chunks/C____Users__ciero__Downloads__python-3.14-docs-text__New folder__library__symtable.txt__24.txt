@@ -1,0 +1,4 @@
+Although "A().f()" raises "TypeError" at runtime, "A.f" is still
+      considered as a method-like function.
+      Deprecated since version 3.14, will be removed in version 3.16.
+class symtable.Symbol

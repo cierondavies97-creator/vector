@@ -1,0 +1,4 @@
+object and *length* is the number of bytes consumed.
+codecs.escape_decode(input, errors=None)
+   Decode *input* from escape sequences back to the original bytes.
+   *input* must be a *bytes-like object*.

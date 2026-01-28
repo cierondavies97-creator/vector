@@ -1,0 +1,4 @@
+blocks connections.
+Python installation issues occasionally stop IDLE: multiple versions
+can clash, or a single installation might need admin access.  If one
+undo the clash, or cannot or does not want to run as admin, it might

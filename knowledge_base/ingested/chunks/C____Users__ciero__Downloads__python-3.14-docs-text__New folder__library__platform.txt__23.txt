@@ -1,0 +1,4 @@
+"machine", and "processor".
+   "processor" is resolved late, on demand.
+   Note: the first two attribute names differ from the names presented
+   by "os.uname()", where they are named "sysname" and "nodename".

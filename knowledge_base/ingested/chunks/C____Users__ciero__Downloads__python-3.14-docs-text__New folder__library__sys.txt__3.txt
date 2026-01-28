@@ -1,0 +1,5 @@
+Availability: Unix.
+sys.addaudithook(hook)
+   Append the callable *hook* to the list of active auditing hooks for
+   the current (sub)interpreter.
+   When an auditing event is raised through the "sys.audit()"

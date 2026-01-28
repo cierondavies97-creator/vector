@@ -1,0 +1,3 @@
+to open a socket.  An alternative to providing a "(host, port)"
+   tuple is providing an address as a string, for example '/dev/log'.
+   In this case, a Unix domain socket is used to send the message to

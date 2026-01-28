@@ -1,0 +1,3 @@
+called "find_spec()" which takes three arguments: a name, an import
+path, and (optionally) a target module.  The meta path finder can use
+any strategy it wants to determine whether it can handle the named

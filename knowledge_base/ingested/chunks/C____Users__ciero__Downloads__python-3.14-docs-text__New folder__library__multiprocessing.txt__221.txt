@@ -1,0 +1,5 @@
+Global start method for more details.
+   "Lock" supports the *context manager* protocol and thus may be used
+   in "with" statements.
+   acquire(block=True, timeout=None)
+      Acquire a lock, blocking or non-blocking.

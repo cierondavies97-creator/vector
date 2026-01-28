@@ -1,0 +1,4 @@
+cmath.polar(z)
+   Return the representation of *z* in polar coordinates.  Returns a
+   pair "(r, phi)" where *r* is the modulus of *z* and *phi* is the
+   phase of *z*.  "polar(z)" is equivalent to "(abs(z), phase(z))".

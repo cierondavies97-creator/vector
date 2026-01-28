@@ -1,0 +1,9 @@
+>>> my_dict = {'a': 1, 'b': 2, 'c': 3}
+>>> def getitem(name):
+...      return my_dict[name]
+...
+>>> def setitem(name, val):
+...     my_dict[name] = val
+...
+>>> mock = MagicMock()
+>>> mock.__getitem__.side_effect = getitem

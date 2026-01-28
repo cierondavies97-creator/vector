@@ -1,0 +1,4 @@
+value, starting with "1".
+   Changed in version 3.11: "__str__()" is now "int.__str__()" to
+   better support the *replacement of existing constants* use-case.
+   "__format__()" was already "int.__format__()" for that same reason.

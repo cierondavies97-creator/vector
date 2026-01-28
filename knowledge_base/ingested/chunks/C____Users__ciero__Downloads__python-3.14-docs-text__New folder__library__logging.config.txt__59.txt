@@ -1,0 +1,4 @@
+* *root* - this will be the configuration for the root logger.
+  Processing of the configuration will be as for any logger, except
+  that the "propagate" setting will not be applicable.
+* *incremental* - whether the configuration is to be interpreted as

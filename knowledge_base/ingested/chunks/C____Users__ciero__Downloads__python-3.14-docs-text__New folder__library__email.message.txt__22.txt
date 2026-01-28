@@ -1,0 +1,4 @@
+*policy* argument may be used to override the default policy
+      obtained from the message instance. This can be used to control
+      some of the formatting produced by the method, since the
+      specified *policy* will be passed to the "BytesGenerator".

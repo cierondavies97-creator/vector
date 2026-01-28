@@ -1,0 +1,5 @@
+int, ValueRange(3, 10), ctype("char")
+      ]
+   However, this does not apply to "Annotated" types referenced
+   through a type alias, to avoid forcing evaluation of the underlying
+   "TypeAliasType":

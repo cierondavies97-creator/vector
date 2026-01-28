@@ -1,0 +1,4 @@
+invalid_parameters:
+       | a="/" ',' {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "at least one argument must precede /") }
+       | (slash_no_default | slash_with_default) param_maybe_default* a='/' {

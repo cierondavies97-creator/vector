@@ -1,0 +1,4 @@
+element has *text* "None" and *tail* ""3"".
+      To collect the inner text of an element, see "itertext()", for
+      example """.join(element.itertext())".
+      Applications may store arbitrary objects in these attributes.

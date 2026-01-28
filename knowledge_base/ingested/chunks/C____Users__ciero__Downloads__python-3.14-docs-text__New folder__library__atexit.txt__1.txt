@@ -1,0 +1,3 @@
+executed upon normal interpreter termination.  "atexit" runs these
+functions in the *reverse* order in which they were registered; if you
+register "A", "B", and "C", at interpreter termination time they will

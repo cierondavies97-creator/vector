@@ -1,0 +1,11 @@
+Example
+import my_product as mp
+mp.my_product([1,2,3])
+from my_product import my_product
+my_product([1,2,3])
+Nicola Chiapolini, 8 July 2024
+14 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY

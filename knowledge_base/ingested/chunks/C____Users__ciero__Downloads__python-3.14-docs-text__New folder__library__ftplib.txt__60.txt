@@ -1,0 +1,5 @@
+rmd(dirname)
+      Remove the directory named *dirname* on the server.
+   size(filename)
+      Request the size of the file named *filename* on the server.  On
+      success, the size of the file is returned as an integer,

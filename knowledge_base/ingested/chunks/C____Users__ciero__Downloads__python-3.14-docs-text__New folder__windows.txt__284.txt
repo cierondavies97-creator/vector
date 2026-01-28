@@ -1,0 +1,5 @@
+is used instead of the path to the main executable when deducing the
+  home location.
+The end result of all this is:
+* When running "python.exe", or any other .exe in the main Python
+  directory (either an installed version, or directly from the PCbuild

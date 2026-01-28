@@ -1,0 +1,4 @@
+As noted above, consider using the higher-level "asyncio.run()"
+   function, instead of using these lower level functions to manually
+   create and close an event loop.
+   Changed in version 3.14: Raises a "RuntimeError" if there is no

@@ -1,0 +1,4 @@
+called for the element on which declarations are placed.
+xmlparser.EndNamespaceDeclHandler(prefix)
+   Called when the closing tag is reached for an element  that
+   contained a namespace declaration.  This is called once for each

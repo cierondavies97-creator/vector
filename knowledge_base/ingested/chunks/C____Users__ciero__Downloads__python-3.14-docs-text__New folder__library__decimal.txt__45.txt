@@ -1,0 +1,5 @@
+Decimal(42) / Decimal(0)
+   DivisionByZero: x / 0
+Contexts also have signal flags for monitoring exceptional conditions
+encountered during computations.  The flags remain set until
+explicitly cleared, so it is best to clear the flags before each set

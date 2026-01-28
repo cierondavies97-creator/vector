@@ -1,0 +1,3 @@
+Under Unix, graphical browsers are preferred under X11, but text-mode
+browsers will be used if graphical browsers are not available or an
+X11 display isn't available.  If text-mode browsers are used, the

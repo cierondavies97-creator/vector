@@ -1,0 +1,4 @@
+__all__ = ["echo", "surround", "reverse"]
+This would mean that "from sound.effects import *" would import the
+three named submodules of the "sound.effects" package.
+Be aware that submodules might become shadowed by locally defined

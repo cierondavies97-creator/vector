@@ -1,0 +1,7 @@
+Local events
+------------
+Local events are associated with normal execution of the program and
+happen at clearly defined locations. All local events can be disabled.
+The local events are:
+* "PY_START"
+* "PY_RESUME"

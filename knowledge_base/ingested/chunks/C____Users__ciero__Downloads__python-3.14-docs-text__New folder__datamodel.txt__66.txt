@@ -1,0 +1,4 @@
+normal rules for numeric comparison: if two numbers compare equal
+(e.g., "1" and "1.0") then they can be used interchangeably to index
+the same dictionary entry.
+Dictionaries preserve insertion order, meaning that keys will be

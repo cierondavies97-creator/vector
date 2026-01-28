@@ -1,0 +1,4 @@
+"'... '" line containing the code, and the expected output (if any)
+extends to the next "'>>> '" or all-whitespace line.
+The fine print:
+* Expected output cannot contain an all-whitespace line, since such a

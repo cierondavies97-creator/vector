@@ -1,0 +1,4 @@
+Capsules can only be created and accessed via their C API, but they
+can be passed around like any other Python object. In particular,
+they can be assigned to a name in an extension module's namespace.
+Other extension modules can then import this module, retrieve the

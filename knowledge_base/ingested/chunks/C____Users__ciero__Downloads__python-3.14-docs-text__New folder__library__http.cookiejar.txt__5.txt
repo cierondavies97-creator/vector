@@ -1,0 +1,5 @@
+taking note of the "max-age" and "port" cookie-attributes introduced
+with RFC 2965.
+Note:
+  The various named parameters found in *Set-Cookie* and *Set-Cookie2*
+  headers (eg. "domain" and "expires") are conventionally referred to

@@ -1,0 +1,5 @@
+/* ... other members omitted for brevity ... */
+       .tp_flags = Py_TPFLAGS_MANAGED_WEAKREF | ...,
+   };
+The only further addition is that "tp_dealloc" needs to clear any weak
+references (by calling "PyObject_ClearWeakRefs()"):

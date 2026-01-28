@@ -1,0 +1,10 @@
+User-defined signal 1.
+   Availability: Unix.
+signal.SIGUSR2
+   User-defined signal 2.
+   Availability: Unix.
+signal.SIGVTALRM
+   Virtual timer expired.
+   Availability: Unix.
+signal.SIGWINCH
+   Window resize signal.

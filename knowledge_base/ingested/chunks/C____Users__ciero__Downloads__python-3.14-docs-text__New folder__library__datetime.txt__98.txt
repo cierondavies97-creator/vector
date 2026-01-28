@@ -1,0 +1,4 @@
+equal to "datetime" objects, even if they represent the same date.
+5. *date1* is considered less than *date2* when *date1* precedes
+   *date2* in time. In other words, "date1 < date2" if and only if
+   "date1.toordinal() < date2.toordinal()".

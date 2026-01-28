@@ -1,0 +1,6 @@
+>>> m()
+   >>> m.call_args_list == [call(1, 2, a='foo', b='bar'), call()]
+   True
+call.call_list()
+   For a call object that represents multiple calls, "call_list()"
+   returns a list of all the intermediate calls as well as the final

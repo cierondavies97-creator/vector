@@ -1,0 +1,5 @@
+program uses an obsolete module.
+Python programmers issue warnings by calling the "warn()" function
+defined in this module.  (C programmers use "PyErr_WarnEx()"; see
+Exception Handling for details).
+Warning messages are normally written to "sys.stderr", but their

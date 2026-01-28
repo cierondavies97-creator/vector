@@ -1,0 +1,5 @@
+daemon
+      The process's daemon flag, a Boolean value.  This must be set
+      before "start()" is called.
+      The initial value is inherited from the creating process.
+      When a process exits, it attempts to terminate all of its

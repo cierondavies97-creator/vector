@@ -1,0 +1,4 @@
+signal: in this case, an empty list will be returned.
+      Changed in version 3.5: The selector is now retried with a
+      recomputed timeout when interrupted by a signal if the signal
+      handler did not raise an exception (see **PEP 475** for the

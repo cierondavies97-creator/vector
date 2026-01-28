@@ -1,0 +1,6 @@
+supports subscripting ("[]"). See **PEP 585** and Generic Alias
+   Type.
+   Changed in version 3.13: The "SendType" parameter now has a
+   default.
+class typing.AsyncIterable(Generic[T_co])
+   Deprecated alias to "collections.abc.AsyncIterable".

@@ -1,0 +1,5 @@
+"fileinput.input()"; if there is no active state, "RuntimeError" is
+raised.
+fileinput.filename()
+   Return the name of the file currently being read.  Before the first
+   line has been read, returns "None".

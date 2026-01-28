@@ -1,0 +1,3 @@
+Here's the same example as before, but considering blanks to be
+      junk. That prevents "' abcd'" from matching the "' abcd'" at the
+      tail end of the second sequence directly.  Instead only the

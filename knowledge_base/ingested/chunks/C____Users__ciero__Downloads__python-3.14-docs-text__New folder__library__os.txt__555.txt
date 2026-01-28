@@ -1,0 +1,5 @@
+*clock_settime(2)*, and *date(1)*.
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.timerfd_settime_ns(fd, /, *, flags=0, initial=0, interval=0)
+   Similar to "timerfd_settime()", but use time as nanoseconds. This

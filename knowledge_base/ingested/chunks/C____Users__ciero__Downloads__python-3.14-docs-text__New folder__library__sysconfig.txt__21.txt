@@ -1,0 +1,3 @@
+| *purelib*      | "*userbase*/lib/python*X.Y*/site-packages"                  |
++----------------+-------------------------------------------------------------+
+| *include*      | "*userbase*/include/python*X.Y*"                            |

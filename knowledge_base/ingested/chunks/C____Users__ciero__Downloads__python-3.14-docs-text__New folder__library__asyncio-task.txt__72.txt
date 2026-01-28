@@ -1,0 +1,5 @@
+Tasks/Futures to be cancelled.
+   Note:
+     A new alternative to create and run tasks concurrently and wait
+     for their completion is "asyncio.TaskGroup". *TaskGroup* provides
+     stronger safety guarantees than *gather* for scheduling a nesting

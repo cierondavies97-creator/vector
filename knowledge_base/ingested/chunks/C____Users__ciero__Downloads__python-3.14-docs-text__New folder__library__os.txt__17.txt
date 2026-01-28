@@ -1,0 +1,3 @@
+* "sys.stdin", "sys.stdout", and "sys.stderr" all use UTF-8 as their
+  text encoding, with the "surrogateescape" error handler being
+  enabled for "sys.stdin" and "sys.stdout" ("sys.stderr" continues to

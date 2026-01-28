@@ -1,0 +1,5 @@
+function.
+async agen.__anext__()
+   Returns an awaitable which when run starts to execute the
+   asynchronous generator or resumes it at the last executed yield
+   expression.  When an asynchronous generator function is resumed

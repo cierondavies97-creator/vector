@@ -1,0 +1,5 @@
+behavior. Read the Hints for further verification section for
+     tar-specific details.
+   Changed in version 3.7: Accepts a *path-like object* for *filename*
+   and *extract_dir*.
+   Changed in version 3.12: Added the *filter* argument.

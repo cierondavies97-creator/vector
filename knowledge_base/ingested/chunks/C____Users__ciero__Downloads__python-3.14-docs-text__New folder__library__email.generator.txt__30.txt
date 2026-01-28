@@ -1,0 +1,4 @@
+messages are stored in Unix mbox format (see "mailbox" and WHY THE
+   CONTENT-LENGTH FORMAT IS BAD).
+   If *maxheaderlen* is not "None", refold any header lines that are
+   longer than *maxheaderlen*, or if "0", do not rewrap any headers.

@@ -1,0 +1,5 @@
+...
+User-defined generic type aliases are also supported. Examples:
+   from collections.abc import Iterable
+   type Response[S] = Iterable[S] | int
+   # Return type here is same as Iterable[str] | int

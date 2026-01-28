@@ -1,0 +1,6 @@
+with function parameter hints.  See Calltips in the Editing and
+   navigation section below.
+Show Surrounding Parens
+   Highlight the surrounding parenthesis.
+Format menu (Editor window only)
+--------------------------------

@@ -1,0 +1,4 @@
+*whence* is "SEEK_SET".
+      * "SEEK_SET" or "0": seek from the start of the stream (the
+        default); *offset* must either be a number returned by
+        "TextIOBase.tell()", or zero.  Any other *offset* value

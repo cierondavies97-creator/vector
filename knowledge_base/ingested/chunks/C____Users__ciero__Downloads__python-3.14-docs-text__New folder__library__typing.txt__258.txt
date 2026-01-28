@@ -1,0 +1,6 @@
+At runtime, "isinstance(x, T)" will raise "TypeError".
+   __name__
+      The name of the type variable.
+   __covariant__
+      Whether the type var has been explicitly marked as covariant.
+   __contravariant__

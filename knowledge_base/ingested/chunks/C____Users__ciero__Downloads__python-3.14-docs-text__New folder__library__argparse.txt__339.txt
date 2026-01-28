@@ -1,0 +1,3 @@
+This method takes a single argument *arg_line* which is a string
+   read from the argument file.  It returns a list of arguments parsed
+   from this string. The method is called once per line read from the

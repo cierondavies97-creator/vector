@@ -1,0 +1,5 @@
+<C object at 0x00AC18F0>
+The "ELLIPSIS" directive gives a nice approach for the last example:
+   >>> C()  # doctest: +ELLIPSIS
+   <C object at 0x...>
+Floating-point numbers are also subject to small output variations

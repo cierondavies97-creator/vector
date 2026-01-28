@@ -1,0 +1,3 @@
+|                   | f_trace_opcodes     | indicate whether per-opcode |
+|                   |                     | events are requested        |
++-------------------+---------------------+-----------------------------+

@@ -1,0 +1,4 @@
+defaults need to be filled in to complete the transformation to
+      a string (for example, MIME boundaries may be generated or
+      modified).
+      Note that this method is provided as a convenience and may not

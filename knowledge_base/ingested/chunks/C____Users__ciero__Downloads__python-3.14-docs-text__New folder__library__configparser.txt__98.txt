@@ -1,0 +1,4 @@
+this library, letting users create complex declarative
+  configurations.  This section is normally called ""DEFAULT"" but
+  this can be customized to point to any other valid section name.
+  Some typical values include: ""general"" or ""common"".  The name

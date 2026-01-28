@@ -1,0 +1,5 @@
+See also *module*.
+native code
+   Code that is compiled to machine instructions and runs directly on
+   the processor, as opposed to code that is interpreted or runs in a
+   virtual machine.  In the context of Python, native code typically

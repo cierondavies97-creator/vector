@@ -1,0 +1,4 @@
+examples in a "DocTest".
+   The comparison between expected outputs and actual outputs is done
+   by an "OutputChecker".  This comparison may be customized with a
+   number of option flags; see section Option Flags for more

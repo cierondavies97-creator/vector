@@ -1,0 +1,5 @@
+Populated caches can look like arbitrary instructions, so great
+   care should be taken when reading or modifying raw, adaptive
+   bytecode containing quickened data.
+   Added in version 3.11.
+**Unary operations**

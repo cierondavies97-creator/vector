@@ -1,0 +1,3 @@
++--------------------+-----------------------------------------------+
+   | "'x'" or "'x:'"    | Create a tarfile exclusively without          |
+   |                    | compression. Raise a "FileExistsError"        |

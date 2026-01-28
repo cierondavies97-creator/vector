@@ -1,0 +1,4 @@
+exception subprocess.CalledProcessError
+   Subclass of "SubprocessError", raised when a process run by
+   "check_call()", "check_output()", or "run()" (with "check=True")
+   returns a non-zero exit status.

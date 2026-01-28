@@ -1,0 +1,4 @@
+"OutputChecker" defines the following methods:
+   check_output(want, got, optionflags)
+      Return "True" iff the actual output from an example (*got*)
+      matches the expected output (*want*).  These strings are always

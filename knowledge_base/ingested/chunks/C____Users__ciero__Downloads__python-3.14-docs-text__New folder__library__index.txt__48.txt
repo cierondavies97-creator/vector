@@ -1,0 +1,6 @@
+* Development Tools
+  * "typing" --- Support for type hints
+  * "pydoc" --- Documentation generator and online help system
+  * Python Development Mode
+  * "doctest" --- Test interactive Python examples
+  * "unittest" --- Unit testing framework

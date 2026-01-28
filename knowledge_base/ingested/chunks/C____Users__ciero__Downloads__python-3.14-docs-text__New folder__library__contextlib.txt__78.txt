@@ -1,0 +1,4 @@
+These context managers may suppress exceptions just as they
+      normally would if used directly as part of a "with" statement.
+      Changed in version 3.11: Raises "TypeError" instead of
+      "AttributeError" if *cm* is not a context manager.

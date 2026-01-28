@@ -1,0 +1,10 @@
+"getscreen()"
+      "setundobuffer()"
+      "undobufferentries()"
+Methods of TurtleScreen/Screen
+------------------------------
+Window control
+      "bgcolor()"
+      "bgpic()"
+      "clearscreen()"
+      "resetscreen()"

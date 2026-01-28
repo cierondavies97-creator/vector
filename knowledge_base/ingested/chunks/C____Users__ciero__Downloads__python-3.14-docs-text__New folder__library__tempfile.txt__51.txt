@@ -1,0 +1,4 @@
+default to "None" to cause an appropriate default value to be used.
+   Changed in version 3.6: The *dir* parameter now accepts a *path-
+   like object*.
+tempfile.mkdtemp(suffix=None, prefix=None, dir=None)

@@ -1,0 +1,9 @@
+...
+   >>> Color.RED
+   <Color.RED: 'r'>
+   >>> Color.UNKNOWN
+   <Color.UNKNOWN: 'unknown'>
+   >>> str(Color.UNKNOWN)
+   'unknown'
+   Note:
+     There are places in the stdlib that check for an exact "str"

@@ -1,0 +1,7 @@
+shortcut for "iter(d.keys())".
+   clear()
+      Remove all items from the dictionary.
+   copy()
+      Return a shallow copy of the dictionary.
+   classmethod fromkeys(iterable, value=None, /)
+      Create a new dictionary with keys from *iterable* and values set

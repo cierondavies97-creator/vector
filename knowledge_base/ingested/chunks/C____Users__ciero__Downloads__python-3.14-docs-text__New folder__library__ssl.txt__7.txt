@@ -1,0 +1,4 @@
+supports additional methods such as "getpeercert()", which retrieves
+the certificate of the other side of the connection, "cipher()", which
+retrieves the cipher being used for the secure connection or
+"get_verified_chain()", "get_unverified_chain()" which retrieves

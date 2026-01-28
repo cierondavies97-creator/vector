@@ -1,0 +1,7 @@
+described in **PEP 3333**.
+Added in version 3.11.
+class wsgiref.types.StartResponse
+   A "typing.Protocol" describing **start_response()** callables
+   (**PEP 3333**).
+wsgiref.types.WSGIEnvironment
+   A type alias describing a WSGI environment dictionary.

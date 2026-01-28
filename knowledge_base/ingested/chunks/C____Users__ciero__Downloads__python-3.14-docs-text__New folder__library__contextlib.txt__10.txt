@@ -1,0 +1,4 @@
+...     # Resource is released at the end of this block,
+      ...     # even if code in the block raises an exception
+   The function being decorated must return a *generator*-iterator
+   when called. This iterator must yield exactly one value, which will

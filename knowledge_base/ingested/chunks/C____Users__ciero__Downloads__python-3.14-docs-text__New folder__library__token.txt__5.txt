@@ -1,0 +1,6 @@
+Return "True" for terminal token values.
+token.ISNONTERMINAL(x)
+   Return "True" for non-terminal token values.
+token.ISEOF(x)
+   Return "True" if *x* is the marker indicating the end of input.
+The token constants are:

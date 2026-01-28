@@ -1,0 +1,3 @@
+"optparse"; adding new actions is an advanced topic covered in section
+Extending optparse.  Most actions tell "optparse" to store a value in
+some variable---for example, take a string from the command line and

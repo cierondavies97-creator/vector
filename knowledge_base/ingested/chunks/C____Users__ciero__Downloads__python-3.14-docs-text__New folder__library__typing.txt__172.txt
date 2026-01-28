@@ -1,0 +1,5 @@
+ClassVar indicates that a given attribute is intended to be used as
+   a class variable and should not be set on instances of that class.
+   Usage:
+      class Starship:
+          stats: ClassVar[dict[str, int]] = {} # class variable

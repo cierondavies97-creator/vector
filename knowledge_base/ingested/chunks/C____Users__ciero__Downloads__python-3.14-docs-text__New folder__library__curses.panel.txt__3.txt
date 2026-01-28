@@ -1,0 +1,6 @@
+explicitly.  If you don't, the panel object is garbage collected
+   and removed from the panel stack.
+curses.panel.top_panel()
+   Returns the top panel in the panel stack.
+curses.panel.update_panels()
+   Updates the virtual screen after changes in the panel stack. This

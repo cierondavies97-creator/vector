@@ -1,0 +1,5 @@
+is returned.
+   Note that this function *only* returns a meaningful name for actual
+   Python modules - paths that potentially refer to Python packages
+   will still return "None".
+   Changed in version 3.3: The function is based directly on

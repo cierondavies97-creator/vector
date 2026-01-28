@@ -1,0 +1,5 @@
+* Contains only characters from the base64 alphabet.
+   * Contains no excess data after padding (including excess padding,
+     newlines, etc.).
+   * Does not start with a padding.
+   Changed in version 3.11: Added the *strict_mode* parameter.

@@ -1,0 +1,6 @@
+new_deadline = get_running_loop().time() + 10
+                  cm.reschedule(new_deadline)
+                  await long_running_task()
+          except TimeoutError:
+              pass
+          if cm.expired():

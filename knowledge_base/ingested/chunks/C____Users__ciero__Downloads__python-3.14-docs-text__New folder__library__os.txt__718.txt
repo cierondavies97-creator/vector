@@ -1,0 +1,4 @@
+is requested for any process in the process group "-pid" (the
+   absolute value of *pid*).
+   *options* is an OR combination of flags.  If it contains "WNOHANG"
+   and there are no matching children in the requested state, "(0, 0)"

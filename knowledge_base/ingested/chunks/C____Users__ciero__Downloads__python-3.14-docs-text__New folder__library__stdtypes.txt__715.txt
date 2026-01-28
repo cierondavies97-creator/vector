@@ -1,0 +1,4 @@
+memoryview, but the buffer itself is not copied. Supported
+         casts are 1D -> C-*contiguous* and C-contiguous -> 1D.
+         The destination format is restricted to a single element
+         native format in "struct" syntax. One of the formats must be

@@ -1,0 +1,4 @@
+When counting with floating-point numbers, better accuracy can
+   sometimes be achieved by substituting multiplicative code such as:
+   "(start + step * i for i in count())".
+   Changed in version 3.1: Added *step* argument and allowed non-

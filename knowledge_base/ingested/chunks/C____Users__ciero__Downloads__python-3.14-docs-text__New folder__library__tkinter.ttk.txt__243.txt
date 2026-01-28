@@ -1,0 +1,3 @@
+padding; a list of two numbers specify the horizontal and the
+         vertical padding; a single number specifies the same padding
+         all the way around the widget. This option may not be mixed

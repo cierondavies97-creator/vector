@@ -1,0 +1,4 @@
+the hash inputs the same. Personalizing each hash function used in
+   the protocol summarily stops this type of attack.
+   (The Skein Hash Function Family, p. 21)
+BLAKE2 can be personalized by passing bytes to the *person* argument:

@@ -1,0 +1,4 @@
+but it's actually a fundamental feature of the import system.  The
+invariant holding is that if you have "sys.modules['spam']" and
+"sys.modules['spam.foo']" (as you would after the above import), the
+latter must appear as the "foo" attribute of the former.

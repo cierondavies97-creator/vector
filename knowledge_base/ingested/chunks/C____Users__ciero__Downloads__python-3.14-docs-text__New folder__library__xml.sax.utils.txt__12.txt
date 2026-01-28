@@ -1,0 +1,4 @@
+pair of start/end tags, if set to "True" they are emitted as a
+   single self-closed tag.
+   Changed in version 3.2: Added the *short_empty_elements* parameter.
+class xml.sax.saxutils.XMLFilterBase(base)

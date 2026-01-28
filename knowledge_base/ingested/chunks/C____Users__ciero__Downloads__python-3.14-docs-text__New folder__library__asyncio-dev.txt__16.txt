@@ -1,0 +1,5 @@
+second.
+An executor can be used to run a task in a different thread, including
+in a different interpreter, or even in a different process to avoid
+blocking the OS thread with the event loop.  See the
+"loop.run_in_executor()" method for more details.

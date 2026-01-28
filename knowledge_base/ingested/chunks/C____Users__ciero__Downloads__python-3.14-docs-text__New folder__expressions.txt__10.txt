@@ -1,0 +1,4 @@
+The transformation is independent of the syntactical context in which
+the identifier is used but only the following private identifiers are
+mangled:
+* Any name used as the name of a variable that is assigned or read or

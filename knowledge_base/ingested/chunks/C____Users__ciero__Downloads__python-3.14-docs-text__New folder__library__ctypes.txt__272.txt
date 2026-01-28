@@ -1,0 +1,4 @@
+reusing the same callable object to check or post process the
+         results of several functions.
+         *arguments* is a tuple containing the parameters originally
+         passed to the function call, this allows specializing the

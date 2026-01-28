@@ -1,0 +1,4 @@
+Raise "OSError" if the file does not exist or is inaccessible.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.getsize(path, /)
+   Return the size, in bytes, of *path*.  Raise "OSError" if the file

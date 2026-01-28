@@ -1,0 +1,9 @@
+updated value is computed, but not assigned back to the input
+variable:
+>>> a = 'hello'
+>>> iadd(a, ' world')
+'hello world'
+>>> a
+'hello'
+For mutable targets such as lists and dictionaries, the in-place
+method will perform the update, so no subsequent assignment is

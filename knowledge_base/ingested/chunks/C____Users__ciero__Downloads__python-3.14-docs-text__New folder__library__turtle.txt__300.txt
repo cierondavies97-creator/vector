@@ -1,0 +1,4 @@
+"resizemode = auto".
+* If you set e.g. "language = italian" the docstringdict
+  "turtle_docstringdict_italian.py" will be loaded at import time (if
+  present on the import path, e.g. in the same directory as "turtle").

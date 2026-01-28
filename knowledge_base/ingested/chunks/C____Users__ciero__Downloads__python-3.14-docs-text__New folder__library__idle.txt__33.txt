@@ -1,0 +1,7 @@
+exception handling.
+Previous History
+   Cycle through earlier commands in history which match the current
+   entry.
+Next History
+   Cycle through later commands in history which match the current
+   entry.

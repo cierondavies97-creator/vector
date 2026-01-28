@@ -1,0 +1,4 @@
+"-X warn_default_encoding" command line option or set the
+"PYTHONWARNDEFAULTENCODING" environment variable, which will emit an
+"EncodingWarning" when the default encoding is used.
+If you are providing an API that uses "open()" or "TextIOWrapper" and

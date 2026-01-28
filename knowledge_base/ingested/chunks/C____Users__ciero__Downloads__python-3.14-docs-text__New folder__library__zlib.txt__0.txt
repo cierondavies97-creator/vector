@@ -1,0 +1,4 @@
+"zlib" --- Compression compatible with **gzip**
+***********************************************
+======================================================================
+For applications that require data compression, the functions in this

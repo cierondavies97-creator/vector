@@ -1,0 +1,4 @@
+attributes.
+   "SimpleNamespace" objects may be initialized in the same way as
+   "dict": either with keyword arguments, with a single positional
+   argument, or with both. When initialized with keyword arguments,

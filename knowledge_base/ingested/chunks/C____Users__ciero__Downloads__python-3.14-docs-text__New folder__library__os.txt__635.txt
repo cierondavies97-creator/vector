@@ -1,0 +1,3 @@
+byte.  If the return code is negative, the process was terminated
+   by the signal given by the negated value of the return code.  (For
+   example, the return value might be "- signal.SIGKILL" if the

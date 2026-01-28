@@ -1,0 +1,3 @@
+less than the length of *b* in bytes, depending on specifics of
+      the underlying raw stream, and especially if it is in non-
+      blocking mode.  "None" is returned if the raw stream is set not

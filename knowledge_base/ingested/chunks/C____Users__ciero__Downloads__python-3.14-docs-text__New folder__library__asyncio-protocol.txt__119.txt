@@ -1,0 +1,4 @@
+transport, protocol = await loop.create_connection(
+           lambda: MyProtocol(on_con_lost), sock=rsock)
+       # Simulate the reception of data from the network.
+       loop.call_soon(wsock.send, 'abc'.encode())

@@ -1,0 +1,4 @@
+performs no additional operations.
+   Each instance maintains a stack of registered callbacks that are
+   called in reverse order when the instance is closed (either
+   explicitly or implicitly at the end of a "with" statement). Note

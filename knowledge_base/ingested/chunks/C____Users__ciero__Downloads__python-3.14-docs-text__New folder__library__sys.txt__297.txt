@@ -1,0 +1,4 @@
+"timeslices" allocated to concurrently running Python threads.
+   Please note that the actual value can be higher, especially if
+   long-running internal functions or methods are used.  Also, which
+   thread becomes scheduled at the end of the interval is the

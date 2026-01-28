@@ -1,0 +1,3 @@
+class wsgiref.simple_server.WSGIRequestHandler(request, client_address, server)
+   Create an HTTP handler for the given *request* (i.e. a socket),
+   *client_address* (a "(host,port)" tuple), and *server*

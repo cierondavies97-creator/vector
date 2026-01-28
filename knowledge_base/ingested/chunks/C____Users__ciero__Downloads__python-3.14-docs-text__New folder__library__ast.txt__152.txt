@@ -1,0 +1,7 @@
+Module(
+          body=[
+              Assign(
+                  targets=[
+                      Name(id='a', ctx=Store()),
+                      Name(id='b', ctx=Store())],
+                  value=Constant(value=1))])

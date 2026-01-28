@@ -1,0 +1,5 @@
+end-of-file input is equivalent to "quit".
+   A confirmation prompt will be shown if the debugger is invoked in
+   "'inline'" mode. Either "y", "Y", "<Enter>" or "EOF" will confirm
+   the quit.
+   Changed in version 3.14: A confirmation prompt will be shown if the

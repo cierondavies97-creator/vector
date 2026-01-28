@@ -1,0 +1,4 @@
+else NotImplemented". For "__ne__()", by default it delegates to
+   "__eq__()" and inverts the result unless it is "NotImplemented".
+   There are no other implied relationships among the comparison
+   operators or default implementations; for example, the truth of

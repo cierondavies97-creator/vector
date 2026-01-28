@@ -1,0 +1,5 @@
+"abc" module.
+annotate function
+   A function that can be called to retrieve the *annotations* of an
+   object. This function is accessible as the "__annotate__" attribute
+   of functions, classes, and modules. Annotate functions are a subset

@@ -1,0 +1,5 @@
+...     print(row)
+   (1971, 'And Now for Something Completely Different')
+   (1975, 'Monty Python and the Holy Grail')
+   (1979, "Monty Python's Life of Brian")
+   (1982, 'Monty Python Live at the Hollywood Bowl')

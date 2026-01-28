@@ -1,0 +1,4 @@
+Open a Zstandard-compressed file in binary or text mode, returning
+   a *file object*.
+   The *file* argument can be either a file name (given as a "str",
+   "bytes" or *path-like* object), in which case the named file is

@@ -1,0 +1,4 @@
+This function works like "getopt()", except that GNU style scanning
+   mode is used by default. This means that option and non-option
+   arguments may be intermixed. The "getopt()" function stops
+   processing options as soon as a non-option argument is encountered.

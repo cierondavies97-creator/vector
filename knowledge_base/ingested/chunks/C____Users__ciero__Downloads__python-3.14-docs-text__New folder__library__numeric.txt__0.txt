@@ -1,0 +1,4 @@
+Numeric and Mathematical Modules
+********************************
+The modules described in this chapter provide numeric and math-related
+functions and data types. The "numbers" module defines an abstract

@@ -1,0 +1,3 @@
+| "%a"        | Locale's abbreviated weekday name.               |         |
+   +-------------+--------------------------------------------------+---------+
+   | "%A"        | Locale's full weekday name.                      |         |

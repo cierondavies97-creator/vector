@@ -1,0 +1,3 @@
+in this case, trailing symbols may be ignored instead of causing
+     an error.  For example, a backslash followed by two newlines may
+     be followed by arbitrary garbage. This will be fixed once the API

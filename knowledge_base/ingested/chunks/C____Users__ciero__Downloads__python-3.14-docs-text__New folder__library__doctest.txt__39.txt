@@ -1,0 +1,10 @@
+__test__ = {
+       'numbers': """
+   >>> factorial(6)
+   720
+   >>> [factorial(n) for n in range(6)]
+   [1, 1, 2, 6, 24, 120]
+   """
+   }
+The value of "example.__test__["numbers"]" will be treated as a
+docstring and all the tests inside it will be run. It is important to

@@ -1,0 +1,6 @@
+from compression import zstd
+   options = {
+      zstd.CompressionParameter.checksum_flag: 1
+   }
+   with zstd.open("file.zst", "w", options=options) as f:
+       f.write(b"Mind if I squeeze in?")

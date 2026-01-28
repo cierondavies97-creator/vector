@@ -1,0 +1,6 @@
+regardless of which file the library resolves.
+   Changed in version 3.14: The auditing event was added.
+Line buffer
+===========
+The following functions operate on the line buffer:
+readline.get_line_buffer()

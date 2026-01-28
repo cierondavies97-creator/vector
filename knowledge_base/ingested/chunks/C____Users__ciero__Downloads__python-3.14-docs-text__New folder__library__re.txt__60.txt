@@ -1,0 +1,5 @@
+supported extensions.
+"(?aiLmsux)"
+   (One or more letters from the set "'a'", "'i'", "'L'", "'m'",
+   "'s'", "'u'", "'x'".) The group matches the empty string; the
+   letters set the corresponding flags for the entire regular

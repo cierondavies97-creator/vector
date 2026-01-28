@@ -1,0 +1,5 @@
+use the function in the same library that allocated the memory.
+   Availability: Windows
+ctypes.util.dllist()
+   Try to provide a list of paths of the shared libraries loaded into
+   the current process.  These paths are not normalized or processed

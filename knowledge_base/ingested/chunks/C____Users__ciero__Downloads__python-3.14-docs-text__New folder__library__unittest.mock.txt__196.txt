@@ -1,0 +1,5 @@
+"MagicMock" if patch is creating one for you.
+   In addition you can pass "spec=True" or "spec_set=True", which
+   causes patch to pass in the object being mocked as the
+   spec/spec_set object.
+   *new_callable* allows you to specify a different class, or callable

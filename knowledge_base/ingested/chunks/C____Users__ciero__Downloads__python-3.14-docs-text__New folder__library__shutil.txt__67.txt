@@ -1,0 +1,4 @@
+If the destination is on the current filesystem, then "os.rename()"
+   is used. Otherwise, *src* is copied to the destination using
+   *copy_function* and then removed.  In case of symlinks, a new
+   symlink pointing to the target of *src* will be created as the

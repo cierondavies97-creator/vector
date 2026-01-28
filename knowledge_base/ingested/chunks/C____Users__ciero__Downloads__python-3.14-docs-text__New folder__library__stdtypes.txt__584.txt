@@ -1,0 +1,5 @@
+"[b'']" or "[bytearray(b'')]" depending on the type of object being
+   split.  The *sep* argument may be any *bytes-like object*.
+   For example:
+      >>> b'1,2,3'.split(b',')
+      [b'1', b'2', b'3']

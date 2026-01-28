@@ -1,0 +1,6 @@
+Decimal('325.62')
+>>> (b / a).quantize(TWOPLACES)     # And quantize division
+Decimal('0.03')
+In developing fixed-point applications, it is convenient to define
+functions to handle the "quantize()" step:
+>>> def mul(x, y, fp=TWOPLACES):

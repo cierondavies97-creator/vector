@@ -1,0 +1,4 @@
+certificate as a sequence of bytes, or "None" if the peer did not
+   provide a certificate.  Whether the peer provides a certificate
+   depends on the SSL socket's role:
+   * for a client SSL socket, the server will always provide a

@@ -1,0 +1,4 @@
+"time.strftime(fmt, d.timetuple())" although not all objects support a
+"timetuple()" method.
+For the "datetime.strptime()" and "date.strptime()" class methods, the
+default value is "1900-01-01T00:00:00.000": any components not

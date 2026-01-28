@@ -1,0 +1,4 @@
+2231**. The "email" package supports these standards in its
+"email.header" and "email.charset" modules.
+If you want to include non-ASCII characters in your email headers, say
+in the *Subject* or *To* fields, you should use the "Header" class and

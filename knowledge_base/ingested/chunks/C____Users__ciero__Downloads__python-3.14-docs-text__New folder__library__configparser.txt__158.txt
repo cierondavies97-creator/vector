@@ -1,0 +1,6 @@
+is raised.  The name of the section must be a string; if not,
+      "TypeError" is raised.
+      Changed in version 3.2: Non-string section names raise
+      "TypeError".
+   has_section(section)
+      Indicates whether the named *section* is present in the

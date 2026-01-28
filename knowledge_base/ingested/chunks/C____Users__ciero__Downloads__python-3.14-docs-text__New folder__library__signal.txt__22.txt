@@ -1,0 +1,8 @@
+Interrupt from keyboard (CTRL + C).
+   Default action is to raise "KeyboardInterrupt".
+signal.SIGKILL
+   Kill signal.
+   It cannot be caught, blocked, or ignored.
+   Availability: Unix.
+signal.SIGPIPE
+   Broken pipe: write to pipe with no readers.

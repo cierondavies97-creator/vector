@@ -1,0 +1,3 @@
+as there is an opportunity to specify search paths before initializing
+the interpreter. Otherwise, there is no fundamental differences
+between using the embedded distribution and a regular installation.

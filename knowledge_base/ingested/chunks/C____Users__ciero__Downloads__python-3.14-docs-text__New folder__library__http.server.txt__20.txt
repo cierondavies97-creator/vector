@@ -1,0 +1,6 @@
+it should be set to the empty string.
+   command
+      Contains the command (request type). For example, "'GET'".
+   path
+      Contains the request path. If query component of the URL is
+      present, then "path" includes the query. Using the terminology

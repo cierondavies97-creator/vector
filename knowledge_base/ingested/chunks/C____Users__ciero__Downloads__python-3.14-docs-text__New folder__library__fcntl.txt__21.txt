@@ -1,0 +1,5 @@
+this is most likely to result in a segmentation violation or a
+     more subtle data corruption.
+   Raises an auditing event "fcntl.fcntl" with arguments "fd", "cmd",
+   "arg".
+   Changed in version 3.14: Add support of arbitrary *bytes-like

@@ -1,0 +1,2 @@
+|                        |                                       | precedes the value (for positive |
+   |                        |                                       | resp. negative values).          |

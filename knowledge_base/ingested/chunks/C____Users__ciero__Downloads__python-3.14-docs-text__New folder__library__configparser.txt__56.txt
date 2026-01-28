@@ -1,0 +1,4 @@
+"parser['section']['option']" notation.
+"parser['section']" in particular returns a proxy for the section's
+data in the parser.  This means that the values are not copied but
+they are taken from the original parser on demand.  What's even more

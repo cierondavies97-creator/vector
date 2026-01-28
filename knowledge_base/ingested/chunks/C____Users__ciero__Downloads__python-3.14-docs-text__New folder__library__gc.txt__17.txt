@@ -1,0 +1,4 @@
+into the old generation.
+   In order to decide when to run, the collector keeps track of the
+   number of object allocations and deallocations since the last
+   collection.  When the number of allocations minus the number of

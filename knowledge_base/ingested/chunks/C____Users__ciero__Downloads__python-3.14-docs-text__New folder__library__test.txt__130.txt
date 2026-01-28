@@ -1,0 +1,6 @@
+lock raises an "OSError".
+   Added in version 3.10.
+test.support.check_disallow_instantiation(test_case, tp, *args, **kwds)
+   Assert that type *tp* cannot be instantiated using *args* and
+   *kwds*.
+   Added in version 3.10.

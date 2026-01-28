@@ -1,0 +1,7 @@
+self.iterator = it
+                  self.link = [None, None]
+          def __iter__(self):
+              return self
+          def __next__(self):
+              link = self.link
+              if link[1] is None:

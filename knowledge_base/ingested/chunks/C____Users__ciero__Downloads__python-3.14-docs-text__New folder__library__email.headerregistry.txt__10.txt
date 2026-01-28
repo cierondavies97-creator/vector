@@ -1,0 +1,5 @@
+complete about detecting compliance issues.  See the "errors"
+      module for a discussion of the types of defects that may be
+      reported.
+   max_count
+      The maximum number of headers of this type that can have the

@@ -1,0 +1,5 @@
+a failure was explicitly signalled using the assert* methods.
+   skipped
+      A list containing 2-tuples of "TestCase" instances and strings
+      holding the reason for skipping the test.
+      Added in version 3.1.

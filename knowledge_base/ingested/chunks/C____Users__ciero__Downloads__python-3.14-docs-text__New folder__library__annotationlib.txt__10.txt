@@ -1,0 +1,5 @@
+====================
+The way annotations are evaluated has changed over the history of
+Python 3, and currently still depends on a future import. There have
+been execution models for annotations:
+* *Stock semantics* (default in Python 3.0 through 3.13; see **PEP

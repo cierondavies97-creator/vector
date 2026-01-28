@@ -1,0 +1,4 @@
+base64 and it was not perfectly formed (missing padding,
+      characters outside the base64 alphabet), then an appropriate
+      defect will be added to the message's defect property
+      ("InvalidBase64PaddingDefect" or

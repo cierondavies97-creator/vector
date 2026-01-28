@@ -1,0 +1,7 @@
+exhausted = True
+          try:
+              curr_value = next(iterator)
+          except StopIteration:
+              return
+          curr_key = keyfunc(curr_value)
+          while not exhausted:

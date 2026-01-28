@@ -1,0 +1,4 @@
+pages instead of copying, but pages may still be copied if the
+     kernel cannot move the pages from the pipe.
+   * If "SPLICE_F_NONBLOCK" is specified, the kernel is asked to not
+     block on I/O. This makes the splice pipe operations nonblocking,

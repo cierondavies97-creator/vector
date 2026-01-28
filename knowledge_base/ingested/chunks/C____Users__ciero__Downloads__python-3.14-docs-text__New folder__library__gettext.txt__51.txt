@@ -1,0 +1,4 @@
+as the "protected" "_info" instance variable.
+If the ".mo" file's magic number is invalid, the major version number
+is unexpected, or if other problems occur while reading the file,
+instantiating a "GNUTranslations" class can raise "OSError".

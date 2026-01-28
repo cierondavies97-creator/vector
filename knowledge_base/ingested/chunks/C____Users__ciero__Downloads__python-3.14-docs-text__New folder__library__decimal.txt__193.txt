@@ -1,0 +1,7 @@
+>>> context.create_decimal_from_float(math.pi)
+         Traceback (most recent call last):
+             ...
+         decimal.Inexact: None
+      Added in version 3.1.
+   Etiny()
+      Returns a value equal to "Emin - prec + 1" which is the minimum

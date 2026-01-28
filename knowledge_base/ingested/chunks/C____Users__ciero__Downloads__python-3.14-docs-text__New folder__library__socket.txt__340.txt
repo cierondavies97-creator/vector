@@ -1,0 +1,9 @@
+with conn:
+       print('Connected by', addr)
+       while True:
+           data = conn.recv(1024)
+           if not data: break
+           conn.send(data)
+   # Echo client program
+   import socket
+   import sys

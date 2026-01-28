@@ -1,0 +1,4 @@
+respectively. If the server does not intend to send any other
+      headers using the "send_header()" method, then "send_response()"
+      should be followed by an "end_headers()" call.
+      Changed in version 3.3: Headers are stored to an internal buffer

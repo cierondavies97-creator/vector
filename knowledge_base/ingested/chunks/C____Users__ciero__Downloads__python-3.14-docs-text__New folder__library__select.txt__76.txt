@@ -1,0 +1,4 @@
+specifies the length of time in milliseconds which the system will
+   wait for events before returning. If *timeout* is omitted,
+   negative, or "None", the call will block until there is an event
+   for this poll object.

@@ -1,0 +1,5 @@
+"'*'", only elements whose tag equals *tag* are returned from
+      the iterator.  If the tree structure is modified during
+      iteration, the result is undefined.
+      Added in version 3.2.
+   iterfind(match, namespaces=None)

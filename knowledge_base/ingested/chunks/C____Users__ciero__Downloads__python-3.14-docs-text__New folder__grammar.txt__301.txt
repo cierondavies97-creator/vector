@@ -1,0 +1,4 @@
+| '{' annotated_rhs '='? ['!' NAME] !'}' {
+           PyErr_Occurred() ? NULL : RAISE_SYNTAX_ERROR_ON_NEXT_TOKEN("f-string: expecting '}'") }
+   invalid_fstring_conversion_character:
+       | '!' &(':' | '}') { RAISE_SYNTAX_ERROR_ON_NEXT_TOKEN("f-string: missing conversion character") }

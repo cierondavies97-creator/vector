@@ -1,0 +1,4 @@
+subprocess was killed.)  On Windows systems, the return value
+   contains the signed integer return code from the child process.
+   On Unix, "waitstatus_to_exitcode()" can be used to convert the
+   "close" method result (exit status) into an exit code if it is not

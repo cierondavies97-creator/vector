@@ -1,0 +1,4 @@
+object tree, in depth-first traversal order.  You will typically
+      use "walk()" as the iterator in a "for" loop; each iteration
+      returns the next subpart.
+      Here's an example that prints the MIME type of every part of a

@@ -1,0 +1,4 @@
+object.__getstate__()
+   Classes can further influence how their instances are pickled by
+   overriding the method "__getstate__()".  It is called and the
+   returned object is pickled as the contents for the instance,

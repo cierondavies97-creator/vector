@@ -1,0 +1,4 @@
+Availability: POSIX
+   Changed in version 3.2: *start_new_session* was added.
+   If *process_group* is a non-negative integer, the "setpgid(0,
+   value)" system call will be made in the child process prior to the

@@ -1,0 +1,5 @@
+large iterables are not supported. The standard bytes-to-bytes
+      codecs do not support this method.
+   reset()
+      Resets the codec buffers used for keeping internal state.
+      Calling this method should ensure that the data on the output is

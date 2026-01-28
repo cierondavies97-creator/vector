@@ -1,0 +1,6 @@
+Python.
+msvcrt.REPORT_ERRMODE
+   Report the current error mode value. Only available in debug build
+   of Python.
+msvcrt.CrtSetReportMode(type, mode)
+   Specifies the destination or destinations for a specific report

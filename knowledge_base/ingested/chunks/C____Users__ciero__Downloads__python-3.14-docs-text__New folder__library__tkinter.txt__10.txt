@@ -1,0 +1,6 @@
+* Python GUI programming with Tkinter
+       By Alan D. Moore. (ISBN 978-1788835886)
+  * Programming Python
+       By Mark Lutz; has excellent coverage of Tkinter. (ISBN
+       978-0596158101)
+  * Tcl and the Tk Toolkit (2nd edition)

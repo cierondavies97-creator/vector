@@ -1,0 +1,4 @@
+"{http://www.w3.org/2001/XInclude}include" element with the root
+element from the **source.xml** document. The result might look
+something like this:
+   <document xmlns:xi="http://www.w3.org/2001/XInclude">

@@ -1,0 +1,4 @@
+shebang line will be displayed if the --info option is specified).
+The following options are understood:
+-o <output>, --output=<output>
+   Write the output to a file named *output*.  If this option is not

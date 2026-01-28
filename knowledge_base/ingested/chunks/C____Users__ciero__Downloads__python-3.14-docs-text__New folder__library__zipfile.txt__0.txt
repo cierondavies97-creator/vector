@@ -1,0 +1,5 @@
+"zipfile" --- Work with ZIP archives
+************************************
+**Source code:** Lib/zipfile/
+======================================================================
+The ZIP file format is a common archive and compression standard. This

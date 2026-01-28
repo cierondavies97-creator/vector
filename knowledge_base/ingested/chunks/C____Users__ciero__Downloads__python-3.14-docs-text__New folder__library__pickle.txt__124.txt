@@ -1,0 +1,4 @@
+"obj[key] = value".  This is primarily used for dictionary
+     subclasses, but may be used by other classes as long as they
+     implement "__setitem__()".
+   * Optionally, a callable with a "(obj, state)" signature. This

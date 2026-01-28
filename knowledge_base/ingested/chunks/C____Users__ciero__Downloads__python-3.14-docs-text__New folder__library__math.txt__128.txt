@@ -1,0 +1,6 @@
+*e*).
+   With two arguments, return the logarithm of *x* to the given
+   *base*, calculated as "log(x)/log(base)".
+math.log1p(x)
+   Return the natural logarithm of *1+x* (base *e*). The result is
+   calculated in a way which is accurate for *x* near zero.

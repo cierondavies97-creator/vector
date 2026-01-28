@@ -1,0 +1,4 @@
+(usually in response to the user pressing control-c) all registered
+   results have "stop()" called.
+unittest.registerResult(result)
+   Register a "TestResult" object for control-c handling. Registering

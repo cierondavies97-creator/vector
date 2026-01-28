@@ -1,0 +1,5 @@
+can be entered, exited, and resumed at many different points.  They
+   can be implemented with the "async def" statement.  See also **PEP
+   492**.
+coroutine function
+   A function which returns a *coroutine* object.  A coroutine

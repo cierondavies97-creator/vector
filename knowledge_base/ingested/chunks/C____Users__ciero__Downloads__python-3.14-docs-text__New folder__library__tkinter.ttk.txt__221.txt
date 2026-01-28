@@ -1,0 +1,5 @@
+)
+         colored_btn = ttk.Button(text="Test", style="C.TButton").pack()
+         root.mainloop()
+      Note that the order of the (states, value) sequences for an
+      option does matter, if the order is changed to "[('active',

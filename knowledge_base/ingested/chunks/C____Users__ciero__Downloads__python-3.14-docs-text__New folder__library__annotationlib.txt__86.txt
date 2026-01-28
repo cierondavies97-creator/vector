@@ -1,0 +1,5 @@
+key: value for key, value in annotations.items()
+               if key not in classvar_keys
+            }
+            wrapped_annotate = None
+         elif annotate := annotationlib.get_annotate_from_class_namespace(ns):

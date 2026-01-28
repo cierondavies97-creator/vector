@@ -1,0 +1,3 @@
+and 2: stdin, stdout and stderr), which are always inherited.  Using
+"spawn*" functions, all inheritable handles and all inheritable file
+descriptors are inherited. Using the "subprocess" module, all file

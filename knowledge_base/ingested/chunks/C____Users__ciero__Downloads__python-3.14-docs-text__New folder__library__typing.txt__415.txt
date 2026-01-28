@@ -1,0 +1,4 @@
+x = reveal_type(1)  # prints "Runtime type is int"
+      print(x)  # prints "1"
+   Note that the runtime type may be different from (more or less
+   specific than) the type statically inferred by a type checker.

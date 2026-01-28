@@ -1,0 +1,6 @@
+required information.
+1.3. Pure Embedding
+===================
+The first program aims to execute a function in a Python script. Like
+in the section about the very high level interface, the Python
+interpreter does not directly interact with the application (but that

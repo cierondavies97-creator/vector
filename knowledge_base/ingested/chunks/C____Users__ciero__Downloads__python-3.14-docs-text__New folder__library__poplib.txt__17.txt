@@ -1,0 +1,5 @@
+lowercase; most return the response text sent by the server.
+A "POP3" instance has the following methods:
+POP3.set_debuglevel(level)
+   Set the instance's debugging level.  This controls the amount of
+   debugging output printed.  The default, "0", produces no debugging

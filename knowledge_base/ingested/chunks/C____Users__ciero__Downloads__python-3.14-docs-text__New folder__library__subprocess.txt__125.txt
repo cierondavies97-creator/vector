@@ -1,0 +1,5 @@
+Security Considerations
+=======================
+Unlike some other popen functions, this library will not implicitly
+choose to call a system shell.  This means that all characters,
+including shell metacharacters, can safely be passed to child

@@ -1,0 +1,4 @@
+reading, "ReadError" is raised. Use *mode* "'r'" to avoid this.  If
+   a compression method is not supported, "CompressionError" is
+   raised.
+   If *fileobj* is specified, it is used as an alternative to a *file

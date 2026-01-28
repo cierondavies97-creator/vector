@@ -1,0 +1,4 @@
+the provided value is a string, it will be looked up via
+   "grp.getgrnam()" and the value in "gr_gid" will be used. If the
+   value is an integer, it will be passed verbatim. (POSIX only)
+   Availability: POSIX

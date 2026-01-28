@@ -1,0 +1,4 @@
+parsing after reading the headers or not.  The default is
+      "False", meaning it parses the entire contents of the file.
+   parsebytes(bytes, headersonly=False)
+      Similar to the "parse()" method, except it takes a *bytes-like

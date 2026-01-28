@@ -1,0 +1,4 @@
+occurrences to be replaced; *count* must be a non-negative integer.
+   If omitted or zero, all occurrences will be replaced.
+   Adjacent empty matches are not possible, but an empty match can
+   occur immediately after a non-empty match. As a result, "sub('x*',

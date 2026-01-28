@@ -1,0 +1,5 @@
+If a callable is not specified, default progress
+                        information is output to sys.stderr.
+       """
+       def __init__(self, *args, **kwargs):
+           self.nodist = kwargs.pop('nodist', False)

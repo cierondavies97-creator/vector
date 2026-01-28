@@ -1,0 +1,4 @@
+page *signal(2)* for further information.)
+   When threads are enabled, this function can only be called from the
+   main thread of the main interpreter; attempting to call it from
+   other threads will cause a "ValueError" exception to be raised.

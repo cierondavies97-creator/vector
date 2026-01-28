@@ -1,0 +1,6 @@
+"str" are.
+Finally, it provides some additional type-related utility classes and
+functions that are not fundamental enough to be builtins.
+Dynamic Type Creation
+=====================
+types.new_class(name, bases=(), kwds=None, exec_body=None)

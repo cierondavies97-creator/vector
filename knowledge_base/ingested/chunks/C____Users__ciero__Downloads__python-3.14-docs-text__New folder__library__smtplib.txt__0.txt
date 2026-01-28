@@ -1,0 +1,5 @@
+"smtplib" --- SMTP protocol client
+**********************************
+**Source code:** Lib/smtplib.py
+======================================================================
+The "smtplib" module defines an SMTP client session object that can be

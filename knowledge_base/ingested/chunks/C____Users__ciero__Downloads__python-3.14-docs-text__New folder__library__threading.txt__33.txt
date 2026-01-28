@@ -1,0 +1,7 @@
+before its "run()" method is called.
+   Added in version 3.12.
+threading.gettrace()
+   Get the trace function as set by "settrace()".
+   Added in version 3.10.
+threading.setprofile(func)
+   Set a profile function for all threads started from the "threading"

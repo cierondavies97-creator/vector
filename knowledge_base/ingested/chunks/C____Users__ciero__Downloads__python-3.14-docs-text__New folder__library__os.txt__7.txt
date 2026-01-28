@@ -1,0 +1,5 @@
+are not available. Others like "getuid()" and "getpid()" are
+  emulated or stubs. WebAssembly platforms also lack support for
+  signals (e.g. "kill()", "wait()").
+Note:
+  All functions in this module raise "OSError" (or subclasses thereof)

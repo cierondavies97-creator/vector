@@ -1,0 +1,3 @@
+invalid_starred_expression_unpacking:
+       | a='*' expression '=' b=expression { RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "cannot assign to iterable argument unpacking") }
+   invalid_starred_expression:

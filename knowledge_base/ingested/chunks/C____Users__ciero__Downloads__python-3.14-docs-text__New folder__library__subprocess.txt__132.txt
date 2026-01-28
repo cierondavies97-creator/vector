@@ -1,0 +1,4 @@
+the child process generates enough output to a pipe such that it
+     blocks waiting for the OS pipe buffer to accept more data. Use
+     "Popen.communicate()" when using pipes to avoid that.
+   Note:

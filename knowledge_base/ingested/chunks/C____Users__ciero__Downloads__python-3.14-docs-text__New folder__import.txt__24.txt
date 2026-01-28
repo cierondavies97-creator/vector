@@ -1,0 +1,4 @@
+automatically perform a new search for package portions on the next
+import attempt within that package if the path of their parent package
+(or "sys.path" for a top level package) changes.
+With namespace packages, there is no "parent/__init__.py" file.  In

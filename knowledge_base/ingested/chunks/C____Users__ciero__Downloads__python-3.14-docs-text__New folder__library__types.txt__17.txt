@@ -1,0 +1,7 @@
+assert get_original_bases(int) == (object,)
+   Added in version 3.12.
+See also:
+  **PEP 560** - Core support for typing module and generic types
+Standard Interpreter Types
+==========================
+This module provides names for many of the types that are required to

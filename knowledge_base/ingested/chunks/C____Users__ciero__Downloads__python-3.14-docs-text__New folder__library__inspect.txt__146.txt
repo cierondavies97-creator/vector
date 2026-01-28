@@ -1,0 +1,5 @@
+of exception.
+   A slash (/) in the signature of a function denotes that the
+   parameters prior to it are positional-only. For more info, see the
+   FAQ entry on positional-only parameters.
+   Changed in version 3.5: The *follow_wrapped* parameter was added.

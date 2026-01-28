@@ -1,0 +1,4 @@
+their least significant bits are kept.
+uuid.uuid3(namespace, name)
+   Generate a UUID based on the MD5 hash of a namespace identifier
+   (which is a UUID) and a name (which is a "bytes" object or a string

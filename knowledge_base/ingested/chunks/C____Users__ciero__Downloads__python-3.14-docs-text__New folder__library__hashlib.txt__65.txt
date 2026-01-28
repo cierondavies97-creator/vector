@@ -1,0 +1,7 @@
+last one ("False" for sequential mode).
+   [image: Explanation of tree mode parameters.][image]
+See section 2.10 in BLAKE2 specification for comprehensive review of
+tree hashing.
+Constants
+---------
+blake2b.SALT_SIZE

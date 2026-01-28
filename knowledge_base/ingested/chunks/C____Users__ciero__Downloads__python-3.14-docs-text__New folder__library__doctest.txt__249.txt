@@ -1,0 +1,5 @@
+OutputChecker objects
+---------------------
+class doctest.OutputChecker
+   A class used to check the whether the actual output from a doctest
+   example matches the expected output.  "OutputChecker" defines two

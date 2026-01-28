@@ -1,0 +1,3 @@
++------------------+---------------------------+-------------------------------------------------+
+| lineno           | "%(lineno)d"              | Source line number where the logging call was   |
+|                  |                           | issued (if available).                          |

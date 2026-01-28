@@ -1,0 +1,5 @@
+not work as there is no way to properly replace the module
+   references throughout the interpreter safely; "ValueError" is
+   raised if such a substitution is detected.
+   Note:
+     For projects where startup time is critical, this class allows

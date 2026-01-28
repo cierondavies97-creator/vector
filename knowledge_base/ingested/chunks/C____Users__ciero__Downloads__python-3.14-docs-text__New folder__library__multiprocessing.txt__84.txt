@@ -1,0 +1,3 @@
+die via an uncaught "AttributeError" exception when starting as
+     *target* must have been defined within an importable module in
+     order to be loaded during unpickling.Example of this uncatchable

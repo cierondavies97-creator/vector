@@ -1,0 +1,5 @@
+used for content models such as "(A | B | C)".
+xml.parsers.expat.model.XML_CTYPE_EMPTY
+   Elements which are declared to be "EMPTY" have this model type.
+xml.parsers.expat.model.XML_CTYPE_MIXED
+xml.parsers.expat.model.XML_CTYPE_NAME

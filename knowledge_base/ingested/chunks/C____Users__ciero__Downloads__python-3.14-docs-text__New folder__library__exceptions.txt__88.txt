@@ -1,0 +1,3 @@
+accidentally caught by code that catches "Exception".  This allows
+   the exception to properly propagate up and cause the interpreter to
+   exit.  When it is not handled, the Python interpreter exits; no

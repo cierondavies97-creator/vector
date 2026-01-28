@@ -1,0 +1,3 @@
+| "assertDictEqual(a, b)"                   | dicts                         | 3.1            |
+   +-------------------------------------------+-------------------------------+----------------+
+   assertMultiLineEqual(first, second, msg=None)

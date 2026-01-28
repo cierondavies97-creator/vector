@@ -1,0 +1,6 @@
+>>> fly = subparsers.add_parser('fly', deprecated=True)
+   >>> parser.parse_args(['fly'])
+   chicken.py: warning: command 'fly' is deprecated
+   Namespace()
+   Added in version 3.13.
+   One particularly effective way of handling subcommands is to

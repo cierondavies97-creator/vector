@@ -1,0 +1,4 @@
+will be raised as exceptions, and warnings will be printed.
+XMLReader.setLocale(locale)
+   Allow an application to set the locale for errors and warnings.
+   SAX parsers are not required to provide localization for errors and

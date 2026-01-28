@@ -1,0 +1,3 @@
+"__getitem__()", "x in y" is "True" if and only if there is a non-
+negative integer index *i* such that "x is y[i] or x == y[i]", and no
+lower integer index raises the "IndexError" exception.  (If any other

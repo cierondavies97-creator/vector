@@ -1,0 +1,3 @@
+"input.read()" returns an empty bytes object. "encode()" inserts a
+   newline character ("b'\n'") after every 76 bytes of the output, as
+   well as ensuring that the output always ends with a newline, as per

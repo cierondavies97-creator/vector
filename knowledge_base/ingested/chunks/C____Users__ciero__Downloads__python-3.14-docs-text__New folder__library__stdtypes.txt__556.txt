@@ -1,0 +1,5 @@
+bytes or bytearray objects, followed by a copy of the original
+   sequence.
+   The separator to search for may be any *bytes-like object*.
+bytes.startswith(prefix[, start[, end]])
+bytearray.startswith(prefix[, start[, end]])

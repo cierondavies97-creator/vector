@@ -1,0 +1,5 @@
+this way.
+4.1.11. Administrative configuration
+------------------------------------
+There are a number of options that may be useful for administrators to
+override configuration of the Python install manager. These can be

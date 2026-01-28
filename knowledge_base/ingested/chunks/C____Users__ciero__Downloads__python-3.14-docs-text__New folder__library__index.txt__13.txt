@@ -1,0 +1,6 @@
+* "struct" --- Interpret bytes as packed binary data
+  * "codecs" --- Codec registry and base classes
+* Data Types
+  * "datetime" --- Basic date and time types
+  * "zoneinfo" --- IANA time zone support
+  * "calendar" --- General calendar-related functions

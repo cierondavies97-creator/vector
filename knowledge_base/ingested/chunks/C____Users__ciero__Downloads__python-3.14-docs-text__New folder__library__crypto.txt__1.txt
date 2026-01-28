@@ -1,0 +1,10 @@
+* "hashlib" --- Secure hashes and message digests
+  * Hash algorithms
+  * Usage
+  * Constructors
+  * Attributes
+  * Hash Objects
+  * SHAKE variable length digests
+  * File hashing
+  * Key derivation
+  * BLAKE2

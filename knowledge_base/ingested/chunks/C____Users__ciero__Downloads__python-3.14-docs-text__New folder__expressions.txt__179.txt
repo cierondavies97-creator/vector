@@ -1,0 +1,3 @@
+acceptable, although it will not match any formal parameter that could
+be declared). If there is no match to a formal parameter the key-value
+pair is collected by the "**" parameter, if there is one, or if there

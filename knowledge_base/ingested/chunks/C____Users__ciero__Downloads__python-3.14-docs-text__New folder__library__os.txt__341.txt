@@ -1,0 +1,4 @@
+if it is relative, it may be converted to an absolute pathname
+   using "os.path.join(os.path.dirname(path), result)".
+   If the *path* is a string object (directly or indirectly through a
+   "PathLike" interface), the result will also be a string object, and

@@ -1,0 +1,5 @@
+or directory junction).
+      On Windows, the "st_ino", "st_dev" and "st_nlink" attributes of
+      the "stat_result" are always set to zero. Call "os.stat()" to
+      get these attributes.
+      The result is cached on the "os.DirEntry" object, with a

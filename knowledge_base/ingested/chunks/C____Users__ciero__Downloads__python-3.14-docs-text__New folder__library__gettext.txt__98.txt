@@ -1,0 +1,5 @@
+* Gustavo Niemeyer
+-[ Footnotes ]-
+[1] The default locale directory is system dependent; for example, on
+    Red Hat Linux it is "/usr/share/locale", but on Solaris it is
+    "/usr/lib/locale". The "gettext" module does not try to support

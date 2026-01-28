@@ -1,0 +1,4 @@
+relationship.
+   If *method* is "ranked", computes Spearman's rank correlation
+   coefficient for two inputs. The data is replaced by ranks.  Ties
+   are averaged so that equal values receive the same rank.  The

@@ -1,0 +1,4 @@
+---------------------------------
+In this example, similar to the one above, we show how to use
+"make_archive()", but this time with the usage of *base_dir*.  We now
+have the following directory structure:

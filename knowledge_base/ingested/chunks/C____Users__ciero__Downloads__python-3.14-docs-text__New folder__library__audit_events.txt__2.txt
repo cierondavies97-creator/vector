@@ -1,0 +1,4 @@
+implementations. See your runtime specific documentation for actual
+events raised.
++--------------------------------+---------------------------------------------------------+-----------------+
+| Audit event                    | Arguments                                               | References      |

@@ -1,0 +1,6 @@
+"urlopen()" (or "OpenerDirector.open()").
+Here is an example session that uses the "GET" method to retrieve a
+URL containing parameters:
+   >>> import urllib.request
+   >>> import urllib.parse
+   >>> params = urllib.parse.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})

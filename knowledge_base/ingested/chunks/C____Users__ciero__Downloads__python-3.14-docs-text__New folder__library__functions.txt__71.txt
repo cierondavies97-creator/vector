@@ -1,0 +1,5 @@
+Deprecated since version 3.14: Passing a complex number as the
+   *real* or *imag* argument is now deprecated; it should only be
+   passed as a single positional argument.
+delattr(object, name, /)
+   This is a relative of "setattr()".  The arguments are an object and

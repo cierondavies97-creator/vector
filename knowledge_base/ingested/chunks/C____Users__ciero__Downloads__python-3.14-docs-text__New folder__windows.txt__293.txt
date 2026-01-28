@@ -1,0 +1,5 @@
+and user site-packages.
+Changed in version 3.6: Add "._pth" file support and removes
+"applocal" option from "pyvenv.cfg".
+Changed in version 3.6: Add "python*XX*.zip" as a potential landmark
+when directly adjacent to the executable.

@@ -1,0 +1,4 @@
+'baz': 'evil'}))
+   # The optional *fallback* argument can be used to provide a fallback value
+   print(cfg.get('Section1', 'foo'))
+         # -> "Python is fun!"

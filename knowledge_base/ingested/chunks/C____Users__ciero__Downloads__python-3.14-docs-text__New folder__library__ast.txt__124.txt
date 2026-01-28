@@ -1,0 +1,6 @@
+Subscripting
+~~~~~~~~~~~~
+class ast.Subscript(value, slice, ctx)
+   A subscript, such as "l[1]". "value" is the subscripted object
+   (usually sequence or mapping). "slice" is an index, slice or key.
+   It can be a "Tuple" and contain a "Slice". "ctx" is "Load", "Store"

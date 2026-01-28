@@ -1,0 +1,6 @@
+series.
+8. See **PEP 237**.
+Note:
+  The bytearray version of this method does *not* operate in place -
+  it always produces a new object, even if no changes were made.
+See also: **PEP 461** - Adding % formatting to bytes and bytearray

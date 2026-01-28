@@ -1,0 +1,5 @@
+and then brought back in Python 3.2.
+chr(codepoint, /)
+   Return the string representing a character with the specified
+   Unicode code point. For example, "chr(97)" returns the string
+   "'a'", while "chr(8364)" returns the string "'€'". This is the

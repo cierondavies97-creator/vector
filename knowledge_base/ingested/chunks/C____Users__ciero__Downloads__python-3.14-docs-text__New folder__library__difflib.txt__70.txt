@@ -1,0 +1,6 @@
+sequences.
+   set_seq1(a)
+      Set the first sequence to be compared.  The second sequence to
+      be compared is not changed.
+   set_seq2(b)
+      Set the second sequence to be compared.  The first sequence to

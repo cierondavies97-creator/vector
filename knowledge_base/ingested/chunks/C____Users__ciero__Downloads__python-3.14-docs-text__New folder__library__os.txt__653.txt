@@ -1,0 +1,4 @@
+C library "POSIX_SPAWN_SETSIGMASK" flag.
+   The *sigdef* argument will reset the disposition of all signals in
+   the set specified. This argument corresponds to the C library
+   "POSIX_SPAWN_SETSIGDEF" flag.

@@ -1,0 +1,4 @@
+| '{' items=items_pattern ',' rest=double_star_pattern ','? '}' {
+           _PyAST_MatchMapping(
+               CHECK(asdl_expr_seq*, _PyPegen_get_pattern_keys(p, items)),
+               CHECK(asdl_pattern_seq*, _PyPegen_get_patterns(p, items)),

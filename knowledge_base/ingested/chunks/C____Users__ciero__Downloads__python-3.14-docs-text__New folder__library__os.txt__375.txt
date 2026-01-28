@@ -1,0 +1,5 @@
+However it is advisable to call it explicitly or use the "with"
+      statement.
+      Added in version 3.6.
+   The following example shows a simple use of "scandir()" to display
+   all the files (excluding directories) in the given *path* that

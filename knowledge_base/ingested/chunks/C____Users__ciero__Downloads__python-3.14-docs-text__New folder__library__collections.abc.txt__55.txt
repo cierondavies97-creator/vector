@@ -1,0 +1,4 @@
+ABC for classes that provide the "__len__()" method.
+class collections.abc.Callable
+   ABC for classes that provide the "__call__()" method.
+   See Annotating callable objects for details on how to use

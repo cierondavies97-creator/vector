@@ -1,0 +1,5 @@
+exception configparser.InterpolationError
+   Base class for exceptions raised when problems occur performing
+   string interpolation.
+exception configparser.InterpolationDepthError
+   Exception raised when string interpolation cannot be completed

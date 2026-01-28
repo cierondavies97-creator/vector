@@ -1,0 +1,5 @@
+to the application.  The methods of this object control whether
+   errors are immediately converted to exceptions or are handled in
+   some other way.
+class xml.sax.handler.LexicalHandler
+   Interface used by the parser to represent low frequency events

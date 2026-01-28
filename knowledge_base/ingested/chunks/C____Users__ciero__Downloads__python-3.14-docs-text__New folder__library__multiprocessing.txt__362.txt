@@ -1,0 +1,4 @@
+*processes* is the number of worker processes to use.  If
+   *processes* is "None" then the number returned by
+   "os.process_cpu_count()" is used.
+   If *initializer* is not "None" then each worker process will call

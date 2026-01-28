@@ -1,0 +1,11 @@
+>>> class M(type):
+     ...     def __or__(self, other):
+     ...         return "Hello"
+     ...
+     >>> class C(metaclass=M):
+     ...     pass
+     ...
+     >>> C | int
+     'Hello'
+     >>> int | C
+     int | C

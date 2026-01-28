@@ -1,0 +1,4 @@
+mentioned in Logger Objects.
+   All calls to this function with a given name return the same logger
+   instance. This means that logger instances never need to be passed
+   between different parts of an application.

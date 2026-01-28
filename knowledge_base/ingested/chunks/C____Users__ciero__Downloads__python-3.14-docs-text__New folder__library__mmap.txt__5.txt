@@ -1,0 +1,5 @@
+directly (the file still needs to be closed when done).
+Note:
+  If you want to create a memory-mapping for a writable, buffered
+  file, you should "flush()" the file first.  This is necessary to
+  ensure that local modifications to the buffers are actually

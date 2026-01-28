@@ -1,0 +1,5 @@
+be numbers representing counts, but you *could* store anything in
+    the value field.
+  * The "most_common()" method requires only that the values be
+    orderable.
+  * For in-place operations such as "c[key] += 1", the value type need

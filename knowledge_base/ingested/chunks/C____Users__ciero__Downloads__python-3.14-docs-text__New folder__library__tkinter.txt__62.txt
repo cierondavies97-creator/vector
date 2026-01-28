@@ -1,0 +1,4 @@
+Tcl's syntax is similar to many shell languages, where the first word
+is the command to be executed, with arguments to that command
+following it, separated by spaces. Without getting into too many
+details, notice the following:

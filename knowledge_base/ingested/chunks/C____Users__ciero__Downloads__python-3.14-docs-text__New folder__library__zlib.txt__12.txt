@@ -1,0 +1,4 @@
+trailing checksum.
+   * +25 to +31 = 16 + (9 to 15): Uses the low 4 bits of the value as
+     the window size logarithm, while including a basic **gzip**
+     header and trailing checksum in the output.

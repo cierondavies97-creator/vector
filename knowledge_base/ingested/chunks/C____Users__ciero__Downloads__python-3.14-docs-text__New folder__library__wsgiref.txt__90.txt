@@ -1,0 +1,3 @@
+Similar to "BaseCGIHandler", but designed for use with HTTP origin
+   servers.  If you are writing an HTTP server implementation, you
+   will probably want to subclass this instead of "BaseCGIHandler".

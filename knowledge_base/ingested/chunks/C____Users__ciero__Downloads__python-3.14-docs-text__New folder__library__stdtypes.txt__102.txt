@@ -1,0 +1,4 @@
+classmethod complex.from_number(x)
+   Class method to convert a number to a complex number.
+   For a general Python object "x", "complex.from_number(x)" delegates
+   to "x.__complex__()".  If "__complex__()" is not defined then it

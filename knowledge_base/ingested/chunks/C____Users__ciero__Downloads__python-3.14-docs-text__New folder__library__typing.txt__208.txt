@@ -1,0 +1,6 @@
+# Type of ``val`` is narrowed to ``str``
+              ...
+          else:
+              # Else, type of ``val`` is narrowed to ``float``.
+              ...
+   Sometimes it would be convenient to use a user-defined boolean

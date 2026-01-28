@@ -1,0 +1,9 @@
+* Decimal objects
+    * Logical operands
+  * Context objects
+  * Constants
+  * Rounding modes
+  * Signals
+  * Floating-point notes
+    * Mitigating round-off error with increased precision
+    * Special values

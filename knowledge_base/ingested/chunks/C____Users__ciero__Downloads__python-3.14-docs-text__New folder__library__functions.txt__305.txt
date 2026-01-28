@@ -1,0 +1,5 @@
+For sorting examples and a brief sorting tutorial, see Sorting
+   Techniques.
+@staticmethod
+   Transform a method into a static method.
+   A static method does not receive an implicit first argument. To

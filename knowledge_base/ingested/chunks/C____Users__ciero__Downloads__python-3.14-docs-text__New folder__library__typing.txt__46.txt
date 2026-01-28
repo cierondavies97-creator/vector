@@ -1,0 +1,4 @@
+# and that all values in ``z`` are meant to be either strings or ints
+   z: Mapping[str, str | int] = {}
+"list" only accepts one type argument, so a type checker would emit an
+error on the "y" assignment above. Similarly, "Mapping" only accepts

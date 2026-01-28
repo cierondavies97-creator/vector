@@ -1,0 +1,5 @@
+additional positional arguments is deprecated; if supplied, they
+   are joined with *other*.
+PurePath.with_name(name)
+   Return a new path with the "name" changed.  If the original path
+   doesn't have a name, ValueError is raised:

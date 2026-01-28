@@ -1,0 +1,3 @@
+This method of serialization requires that the time zone data for the
+required key be available on both the serializing and deserializing
+side, similar to the way that references to classes and functions are

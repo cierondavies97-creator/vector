@@ -1,0 +1,3 @@
+that of the file object interface.  The *indent* parameter is the
+   indentation of the current node. The *addindent* parameter is the
+   incremental indentation to use for subnodes of the current one.

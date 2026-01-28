@@ -1,0 +1,4 @@
+current namespace is not affected: for a proper import statement, a
+   subsequent "STORE_FAST" instruction modifies the namespace.
+IMPORT_FROM(namei)
+   Loads the attribute "co_names[namei]" from the module found in

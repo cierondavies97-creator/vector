@@ -1,0 +1,6 @@
+$ python -m asyncio
+   asyncio REPL ...
+   Use "await" directly instead of "asyncio.run()".
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> import asyncio
+   >>> await asyncio.sleep(10, result='hello')

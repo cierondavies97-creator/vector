@@ -1,0 +1,5 @@
+root of the currently active virtual environment (if any) or the
+   default root for the current Python installation.
+--user
+   Installs "pip" into the user site packages directory rather than
+   globally for the current Python installation (this option is not

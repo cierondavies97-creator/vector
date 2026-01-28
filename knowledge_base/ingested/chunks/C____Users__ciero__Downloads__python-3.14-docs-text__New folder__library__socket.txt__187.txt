@@ -1,0 +1,5 @@
+IPv6, and "inet_ntop()" should be used instead for IPv4/v6 dual
+   stack support.
+   Changed in version 3.5: Writable *bytes-like object* is now
+   accepted.
+socket.inet_pton(address_family, ip_string)

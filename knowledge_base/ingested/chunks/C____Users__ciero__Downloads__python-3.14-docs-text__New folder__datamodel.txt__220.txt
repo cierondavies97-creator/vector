@@ -1,0 +1,4 @@
+"__delattr__()" method, this is called instead of updating the
+instance dictionary directly.
+Class instances can pretend to be numbers, sequences, or mappings if
+they have methods with certain special names.  See section Special

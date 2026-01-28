@@ -1,0 +1,4 @@
+Changed in version 3.7: Removed "AWAIT" and "ASYNC" tokens. "async"
+and "await" are now tokenized as "NAME" tokens.
+Changed in version 3.8: Added "TYPE_COMMENT", "TYPE_IGNORE",
+"COLONEQUAL". Added "AWAIT" and "ASYNC" tokens back (they're needed to

@@ -1,0 +1,5 @@
+"Yields the cumulative median of values seen so far."
+       lo = []  # max-heap
+       hi = []  # min-heap (same size as or one smaller than lo)
+       for x in iterable:
+           if len(lo) == len(hi):

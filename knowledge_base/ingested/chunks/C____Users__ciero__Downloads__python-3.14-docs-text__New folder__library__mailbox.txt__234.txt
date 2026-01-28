@@ -1,0 +1,5 @@
+the message are typically stored in *Status* and *X-Status*
+   headers.
+   Conventional flags for MMDF messages are identical to those of mbox
+   message and are as follows:
+   +--------+------------+----------------------------------+

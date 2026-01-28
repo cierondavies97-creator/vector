@@ -1,0 +1,5 @@
+you have options that should not be called when the moon is full, all
+you have to do is this:
+   def check_moon(option, opt_str, value, parser):
+       if is_moon_full():
+           raise OptionValueError("%s option invalid when moon is full"

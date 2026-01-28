@@ -1,0 +1,6 @@
+original Fraction.  The ratio is in lowest terms and has a
+      positive denominator.
+      Added in version 3.8.
+   is_integer()
+      Return "True" if the Fraction is an integer.
+      Added in version 3.12.

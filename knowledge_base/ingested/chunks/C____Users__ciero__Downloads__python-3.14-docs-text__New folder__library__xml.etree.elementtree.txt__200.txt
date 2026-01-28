@@ -1,0 +1,6 @@
+element.  Returns an "Element" instance.
+   data(data)
+      Adds text to the current element.  *data* is a string.  This
+      should be either a bytestring, or a Unicode string.
+   end(tag)
+      Closes the current element.  *tag* is the element name.  Returns

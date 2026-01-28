@@ -1,0 +1,3 @@
+described above is to "repr()"; that is, it is called when Python code
+calls "str()" on an instance of your object.  Its implementation is
+very similar to the "tp_repr" function, but the resulting string is

@@ -1,0 +1,3 @@
+If importing a module fails, for example due to a syntax error,
+      then this will be recorded as a single error and discovery will
+      continue.  If the import failure is due to "SkipTest" being

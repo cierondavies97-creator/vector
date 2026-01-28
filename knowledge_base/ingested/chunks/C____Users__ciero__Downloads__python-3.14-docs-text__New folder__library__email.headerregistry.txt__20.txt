@@ -1,0 +1,4 @@
+self._myattr = kw.pop('myattr')
+          super().init(*args, **kw)
+   That is, anything extra that the specialized class puts in to the
+   "kwds" dictionary should be removed and handled, and the remaining

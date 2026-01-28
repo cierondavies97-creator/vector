@@ -1,0 +1,5 @@
+Added in version 3.7.
+types.get_original_bases(cls, /)
+   Return the tuple of objects originally given as the bases of *cls*
+   before the "__mro_entries__()" method has been called on any bases
+   (following the mechanisms laid out in **PEP 560**). This is useful

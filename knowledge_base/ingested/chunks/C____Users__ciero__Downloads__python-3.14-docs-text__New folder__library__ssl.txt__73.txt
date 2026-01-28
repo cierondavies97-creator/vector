@@ -1,0 +1,5 @@
+passed to "SSLContext.load_verify_locations()".
+ssl.CERT_REQUIRED
+   Possible value for "SSLContext.verify_mode". In this mode,
+   certificates are required from the other side of the socket
+   connection; an "SSLError" will be raised if no certificate is

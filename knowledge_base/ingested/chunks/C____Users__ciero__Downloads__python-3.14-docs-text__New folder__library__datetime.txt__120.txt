@@ -1,0 +1,9 @@
+>>> d.isoformat()
+   '2002-03-11'
+   >>> d.strftime("%d/%m/%y")
+   '11/03/02'
+   >>> d.strftime("%A %d. %B %Y")
+   'Monday 11. March 2002'
+   >>> d.ctime()
+   'Mon Mar 11 00:00:00 2002'
+   >>> 'The {1} is {0:%d}, the {2} is {0:%B}.'.format(d, "day", "month")

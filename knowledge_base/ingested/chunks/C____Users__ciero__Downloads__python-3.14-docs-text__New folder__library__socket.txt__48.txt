@@ -1,0 +1,3 @@
+first address returned from the DNS resolution.  The socket address
+will be resolved differently into an actual IPv4/v6 address, depending
+on the results from DNS resolution and/or the host configuration.  For

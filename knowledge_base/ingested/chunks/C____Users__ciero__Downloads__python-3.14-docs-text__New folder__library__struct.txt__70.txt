@@ -1,0 +1,4 @@
+wrapped out-of-range values and raised "DeprecationWarning" instead of
+"struct.error".
+For the "'?'" format character, the return value is either "True" or
+"False". When packing, the truth value of the argument object is used.

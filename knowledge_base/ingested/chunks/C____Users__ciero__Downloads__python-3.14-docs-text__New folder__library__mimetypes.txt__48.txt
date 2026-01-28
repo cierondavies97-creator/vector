@@ -1,0 +1,4 @@
+By default the script converts MIME types to file extensions. However,
+if "--extension" is specified, it converts file extensions to MIME
+types.
+For each "type" entry, the script writes a line into the standard

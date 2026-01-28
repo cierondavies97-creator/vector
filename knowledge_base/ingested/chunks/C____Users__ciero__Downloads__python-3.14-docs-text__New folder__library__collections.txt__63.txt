@@ -1,0 +1,5 @@
+Counter({'a': 4, 'b': 3})
+   >>> c - d                       # subtract (keeping only positive counts)
+   Counter({'a': 2})
+   >>> c & d                       # intersection:  min(c[x], d[x])
+   Counter({'a': 1, 'b': 1})

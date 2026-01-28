@@ -1,0 +1,5 @@
+Attempting to remove a file descriptor that was never registered
+   causes a "KeyError" exception to be raised.
+poll.poll([timeout])
+   Polls the set of registered file descriptors, and returns a
+   possibly empty list containing "(fd, event)" 2-tuples for the

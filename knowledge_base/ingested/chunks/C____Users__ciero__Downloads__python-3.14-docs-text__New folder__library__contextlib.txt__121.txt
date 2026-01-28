@@ -1,0 +1,7 @@
+def cleanup_resources():
+           ...
+       result = perform_operation()
+       if result:
+           stack.pop_all()
+Due to the way the decorator protocol works, a callback function
+declared this way cannot take any parameters. Instead, any resources

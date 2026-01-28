@@ -1,0 +1,5 @@
+(turtle) ?
+   Documented commands (type help <topic>):
+   ========================================
+   bye     color    goto     home  playback  record  right
+   circle  forward  heading  left  position  reset   undo

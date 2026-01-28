@@ -1,0 +1,4 @@
+"assert_has_calls()" and "assert_any_call()".  When Autospeccing, it
+will also apply to method calls on the mock object.
+Changed in version 3.4: Added signature introspection on specced and
+autospecced mock objects.

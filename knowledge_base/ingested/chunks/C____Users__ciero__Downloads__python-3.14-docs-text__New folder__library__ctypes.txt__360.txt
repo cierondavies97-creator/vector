@@ -1,0 +1,6 @@
+corresponding ctypes data type. If a pointer type was not yet
+      created, the attribute is missing.
+      Added in version 3.14.
+   Common instance variables of ctypes data types:
+   _b_base_
+      Sometimes ctypes data instances do not own the memory block they

@@ -1,0 +1,4 @@
+foreign section. Interpolation can span multiple levels.  For
+   convenience, if the "section:" part is omitted, interpolation
+   defaults to the current section (and possibly the default values
+   from the special section).

@@ -1,0 +1,3 @@
+"try" construct could result in a failure to execute pending "finally"
+clauses.  In this case, it is the responsibility of the event loop or
+scheduler running the asynchronous generator to call the asynchronous

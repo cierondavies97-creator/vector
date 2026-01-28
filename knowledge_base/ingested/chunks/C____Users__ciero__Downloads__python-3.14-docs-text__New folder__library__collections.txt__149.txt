@@ -1,0 +1,6 @@
+Named tuples are also supported by generic function
+   "copy.replace()".
+   Changed in version 3.13: Raise "TypeError" instead of "ValueError"
+   for invalid keyword arguments.
+somenamedtuple._fields
+   Tuple of strings listing the field names.  Useful for introspection

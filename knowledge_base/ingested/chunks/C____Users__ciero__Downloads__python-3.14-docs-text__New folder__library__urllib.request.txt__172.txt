@@ -1,0 +1,7 @@
+CacheFTPHandler.setMaxConns(m)
+   Set maximum number of cached connections to *m*.
+UnknownHandler Objects
+======================
+UnknownHandler.unknown_open()
+   Raise a "URLError" exception.
+HTTPErrorProcessor Objects

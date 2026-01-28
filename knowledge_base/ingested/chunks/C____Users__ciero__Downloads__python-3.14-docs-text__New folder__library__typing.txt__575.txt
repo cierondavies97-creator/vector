@@ -1,0 +1,2 @@
+| "typing.Hashable" and     | 3.12                      | Undecided                 | gh-94309                  |
+| "typing.Sized"            |                           |                           |                           |

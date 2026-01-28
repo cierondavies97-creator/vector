@@ -1,0 +1,5 @@
+string---"optparse" will replace it with "str()" of the option's
+  default value.  If an option has no default value (or the default
+  value is "None"), "%default" expands to "none".
+Grouping Options
+~~~~~~~~~~~~~~~~

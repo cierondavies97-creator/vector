@@ -1,0 +1,3 @@
+|                   | __annotations__     | mapping of parameters names |
+|                   |                     | to annotations; ""return""  |
+|                   |                     | key is reserved for return  |

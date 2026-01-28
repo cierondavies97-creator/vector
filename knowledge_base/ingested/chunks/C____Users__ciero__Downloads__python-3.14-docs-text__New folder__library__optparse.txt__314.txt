@@ -1,0 +1,4 @@
+of a certain type; or rather, a string that can be converted to a
+   certain type. These options require a "type" attribute to the
+   Option constructor.
+These are overlapping sets: some default "store" actions are

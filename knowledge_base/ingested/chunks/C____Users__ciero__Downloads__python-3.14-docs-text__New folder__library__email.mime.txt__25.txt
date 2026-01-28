@@ -1,0 +1,4 @@
+default encoding is base64.  See the "email.encoders" module for a
+   list of the built-in encoders.
+   Optional *policy* argument defaults to "compat32".
+   *_params* are passed straight through to the base class

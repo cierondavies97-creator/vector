@@ -1,0 +1,4 @@
+most of the *magic methods*. You can use "MagicMock" without having
+   to configure the magic methods yourself.
+   The constructor parameters have the same meaning as for "Mock".
+   If you use the *spec* or *spec_set* arguments then *only* magic

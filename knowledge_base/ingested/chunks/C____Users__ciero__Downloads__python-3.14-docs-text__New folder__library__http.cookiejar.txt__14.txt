@@ -1,0 +1,4 @@
+Constructor arguments should be passed as keyword arguments only.
+   *blocked_domains* is a sequence of domain names that we never
+   accept cookies from, nor return cookies to. *allowed_domains* if
+   not "None", this is a sequence of the only domains for which we

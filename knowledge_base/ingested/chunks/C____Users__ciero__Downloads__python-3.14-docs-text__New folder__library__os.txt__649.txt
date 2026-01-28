@@ -1,0 +1,4 @@
+library "POSIX_SPAWN_SETPGROUP" flag.
+   If the *resetids* argument is "True" it will reset the effective
+   UID and GID of the child to the real UID and GID of the parent
+   process. If the argument is "False", then the child retains the

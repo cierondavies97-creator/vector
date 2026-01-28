@@ -1,0 +1,5 @@
+lazily evaluated elements related to type aliases and type
+   parameters:
+   * "typing.TypeAliasType.evaluate_value()", the value of type
+     aliases
+   * "typing.TypeVar.evaluate_bound()", the bound of type variables

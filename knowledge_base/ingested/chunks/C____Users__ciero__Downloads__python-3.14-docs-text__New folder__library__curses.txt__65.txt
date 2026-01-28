@@ -1,0 +1,4 @@
+curses.nonl()
+   Leave newline mode.  Disable translation of return into newline on
+   input, and disable low-level translation of newline into
+   newline/return on output (but this does not change the behavior of

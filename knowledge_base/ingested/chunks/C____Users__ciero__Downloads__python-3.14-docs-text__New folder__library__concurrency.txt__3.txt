@@ -1,0 +1,6 @@
+* Using locks, conditions, and semaphores in the "with" statement
+* "multiprocessing" --- Process-based parallelism
+  * Introduction
+    * The "Process" class
+    * Contexts and start methods
+    * Exchanging objects between processes

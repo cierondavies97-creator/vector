@@ -1,0 +1,4 @@
+"dfunc(a, b, fromfile, tofile, fromfiledate, tofiledate, n,
+   lineterm)". The output of *dfunc* is then converted back to bytes,
+   so the delta lines that you receive have the same
+   unknown/inconsistent encodings as *a* and *b*.

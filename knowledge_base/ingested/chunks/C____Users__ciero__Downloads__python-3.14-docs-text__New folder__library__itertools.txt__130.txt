@@ -1,0 +1,4 @@
+when simultaneously using iterators returned by the same "tee()"
+   call, even if the original *iterable* is threadsafe.
+   This itertool may require significant auxiliary storage (depending
+   on how much temporary data needs to be stored). In general, if one

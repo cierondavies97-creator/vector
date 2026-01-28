@@ -1,0 +1,5 @@
+Clone this node.  Setting *deep* means to clone all child nodes as
+   well.  This returns the clone.
+NodeList Objects
+----------------
+A "NodeList" represents a sequence of nodes.  These objects are used

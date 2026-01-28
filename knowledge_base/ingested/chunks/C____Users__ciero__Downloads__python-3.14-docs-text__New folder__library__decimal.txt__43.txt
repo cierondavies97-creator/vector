@@ -1,0 +1,5 @@
+>>> ExtendedContext
+   Context(prec=9, rounding=ROUND_HALF_EVEN, Emin=-999999, Emax=999999,
+           capitals=1, clamp=0, flags=[], traps=[])
+   >>> setcontext(ExtendedContext)
+   >>> Decimal(1) / Decimal(7)

@@ -1,0 +1,5 @@
+# Get the running loop
+          loop = asyncio.get_running_loop()
+          # Run something in a thread
+          await asyncio.to_thread(in_thread, loop)
+   It's also possible to run the other way around.  Example:

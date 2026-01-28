@@ -1,0 +1,3 @@
+be a SAX2 parser object. This function will change the document
+   handler of the parser and activate namespace support; other parser
+   configuration (like setting an entity resolver) must have been done

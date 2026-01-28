@@ -1,0 +1,3 @@
+Note: this function may not be able to retrieve all attributes that
+   getattr can fetch (like dynamically created attributes) and may
+   find attributes that getattr can't (like descriptors that raise

@@ -1,0 +1,5 @@
+after the character is printed.
+window.addnstr(str, n[, attr])
+window.addnstr(y, x, str, n[, attr])
+   Paint at most *n* characters of the character string *str* at "(y,
+   x)" with attributes *attr*, overwriting anything previously on the

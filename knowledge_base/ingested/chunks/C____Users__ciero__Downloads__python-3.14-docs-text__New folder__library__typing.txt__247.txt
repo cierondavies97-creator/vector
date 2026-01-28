@@ -1,0 +1,5 @@
+for more information on generic types.  Generic functions work as
+   follows:
+      def repeat[T](x: T, n: int) -> Sequence[T]:
+          """Return a list containing n references to x."""
+          return [x]*n

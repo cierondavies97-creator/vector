@@ -1,0 +1,8 @@
+possible, the code implementing a widget's behavior from the code
+implementing its appearance.
+See also:
+  Tk Widget Styling Support
+     A document introducing theming support for Tk
+Using Ttk
+=========
+To start using Ttk, import its module:

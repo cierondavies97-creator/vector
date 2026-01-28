@@ -1,0 +1,4 @@
+recursively, with indentation relative to their nesting depth.
+   Changed in version 3.10: The *etype* parameter has been renamed to
+   *exc* and is now positional-only.
+   Changed in version 3.11: The returned list now includes any "notes"

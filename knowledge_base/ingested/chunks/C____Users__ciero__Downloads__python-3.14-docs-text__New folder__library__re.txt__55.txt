@@ -1,0 +1,3 @@
+scanned, REs separated by "'|'" are tried from left to right. When
+   one pattern completely matches, that branch is accepted. This means
+   that once *A* matches, *B* will not be tested further, even if it

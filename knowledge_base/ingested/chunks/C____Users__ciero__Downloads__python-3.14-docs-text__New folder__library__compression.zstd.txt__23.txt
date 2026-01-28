@@ -1,0 +1,4 @@
+"ZstdFile" supports all the members specified by
+   "io.BufferedIOBase", except for "detach()" and "truncate()".
+   Iteration and the "with" statement are supported.
+   The following method and attributes are also provided:

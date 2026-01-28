@@ -1,0 +1,3 @@
+Any files may be present in the ZIP archive, but importers are only
+invoked for ".py" and ".pyc" files.  ZIP import of dynamic modules
+(".pyd", ".so") is disallowed. Note that if an archive only contains

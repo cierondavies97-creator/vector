@@ -1,0 +1,4 @@
+and_expr: shift_expr | and_expr "&" shift_expr
+   xor_expr: and_expr | xor_expr "^" and_expr
+   or_expr:  xor_expr | or_expr "|" xor_expr
+The "&" operator yields the bitwise AND of its arguments, which must

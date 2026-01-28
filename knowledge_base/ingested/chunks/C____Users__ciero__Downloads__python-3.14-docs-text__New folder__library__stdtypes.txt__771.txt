@@ -1,0 +1,3 @@
+not *hashable*, that is, values containing lists, dictionaries or
+other mutable types (that are compared by value rather than by object
+identity) may not be used as keys. Values that compare equal (such as

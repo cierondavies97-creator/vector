@@ -1,0 +1,4 @@
+sequence
+   An *iterable* which supports efficient element access using integer
+   indices via the "__getitem__()" special method and defines a
+   "__len__()" method that returns the length of the sequence. Some

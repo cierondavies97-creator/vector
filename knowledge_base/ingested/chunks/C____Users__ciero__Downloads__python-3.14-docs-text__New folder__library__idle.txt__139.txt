@@ -1,0 +1,3 @@
+It returns an altered version of the input string in which control
+codes, some BMP codepoints, and all non-BMP codepoints are replaced
+with escape codes. As demonstrated above, it allows one to identify

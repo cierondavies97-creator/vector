@@ -1,0 +1,5 @@
+also apply to the free-threaded builds.
+Free-threaded binaries are also available on nuget.org.
+4.12. Python launcher for Windows (deprecated)
+==============================================
+Deprecated since version 3.14: The launcher and this documentation

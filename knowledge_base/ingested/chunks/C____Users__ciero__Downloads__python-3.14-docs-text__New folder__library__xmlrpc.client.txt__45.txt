@@ -1,0 +1,4 @@
+Changed in version 3.5: Instances of "ServerProxy" support the
+*context manager* protocol for closing the underlying transport.
+A working example follows. The server code:
+   from xmlrpc.server import SimpleXMLRPCServer

@@ -1,0 +1,4 @@
+The names of codes are as used in the sources, and are only for
+reference. There is no way to access or resolve them apart from
+reading this page. Entries are listed in alphabetical order of names.
++---------------------+---------+-------------------------------------------------+

@@ -1,0 +1,5 @@
+from collections.abc import Iterable
+   from typing import Protocol
+   class Combiner(Protocol):
+       def __call__(self, *vals: bytes, maxlen: int | None = None) -> list[bytes]: ...
+   def batch_proc(data: Iterable[bytes], cb_results: Combiner) -> bytes:

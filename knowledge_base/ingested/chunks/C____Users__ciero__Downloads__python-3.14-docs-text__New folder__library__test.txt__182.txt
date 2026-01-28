@@ -1,0 +1,5 @@
+Any temporary file that is created should be closed and unlinked
+   (removed).
+test.support.os_helper.TESTFN_NONASCII
+   Set to a filename containing the "FS_NONASCII" character, if it
+   exists. This guarantees that if the filename exists, it can be

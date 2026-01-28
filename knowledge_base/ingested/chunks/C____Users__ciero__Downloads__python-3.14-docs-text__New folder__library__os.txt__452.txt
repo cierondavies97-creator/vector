@@ -1,0 +1,6 @@
+relative to mtime/ctime).
+   This function can support specifying a file descriptor.
+   Availability: Unix.
+   Changed in version 3.2: The "ST_RDONLY" and "ST_NOSUID" constants
+   were added.
+   Changed in version 3.3: Added support for specifying *path* as an

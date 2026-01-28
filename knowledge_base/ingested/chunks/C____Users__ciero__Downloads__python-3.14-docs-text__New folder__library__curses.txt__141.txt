@@ -1,0 +1,4 @@
+"getch()" does. Function keys, keypad keys and other special keys
+   return a multibyte string containing the key name.  In no-delay
+   mode, raise an exception if there is no input.
+window.getmaxyx()

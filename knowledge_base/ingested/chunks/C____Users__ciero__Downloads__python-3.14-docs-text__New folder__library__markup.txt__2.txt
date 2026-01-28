@@ -1,0 +1,8 @@
+* "HTMLParser" Methods
+  * Examples
+* "html.entities" --- Definitions of HTML general entities
+* XML Processing Modules
+  * XML security
+* "xml.etree.ElementTree" --- The ElementTree XML API
+  * Tutorial
+    * XML tree and elements

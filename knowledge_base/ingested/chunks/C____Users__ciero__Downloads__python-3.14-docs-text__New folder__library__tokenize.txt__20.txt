@@ -1,0 +1,5 @@
+"detect_encoding()".
+   Added in version 3.2.
+exception tokenize.TokenError
+   Raised when either a docstring or expression that may be split over
+   several lines is not completed anywhere in the file, for example:

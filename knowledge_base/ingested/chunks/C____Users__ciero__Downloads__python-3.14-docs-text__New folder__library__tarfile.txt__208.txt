@@ -1,0 +1,4 @@
+stores non-ASCII metadata using the universal character encoding
+*UTF-8*.
+The details of character conversion in "tarfile" are controlled by the
+*encoding* and *errors* keyword arguments of the "TarFile" class.

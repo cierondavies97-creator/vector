@@ -1,0 +1,4 @@
+"'fork'" start method may work if code does not use threads.
+Exchanging objects between processes
+------------------------------------
+"multiprocessing" supports two types of communication channel between

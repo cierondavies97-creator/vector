@@ -1,0 +1,5 @@
+by typing '_' after '.', either before or after the box is opened.
+Calltips
+--------
+A calltip is shown automatically when one types "(" after the name of
+an *accessible* function.  A function name expression may include dots

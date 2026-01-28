@@ -1,0 +1,6 @@
+def __init__(self, iterable):
+              it = iter(iterable)
+              if isinstance(it, _tee):
+                  self.iterator = it.iterator
+                  self.link = it.link
+              else:

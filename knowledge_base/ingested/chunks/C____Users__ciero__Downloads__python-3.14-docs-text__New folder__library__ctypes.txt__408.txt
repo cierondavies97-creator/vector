@@ -1,0 +1,5 @@
+class plus the "_fields_" defined in the sub-subclass, if any.
+   _pack_
+      An optional small integer that allows overriding the alignment
+      of structure fields in the instance.
+      This is only implemented for the MSVC-compatible memory layout

@@ -1,0 +1,4 @@
+default="intermediate",
+                     help="interaction mode: novice, intermediate, "
+                          "or expert [default: %default]")
+If "optparse" encounters either "-h" or "--help" on the command-line,

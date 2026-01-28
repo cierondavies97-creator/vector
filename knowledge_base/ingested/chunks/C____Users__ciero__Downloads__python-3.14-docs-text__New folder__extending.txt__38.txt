@@ -1,0 +1,4 @@
+and friends, functions that return an integer status usually return a
+positive value or zero for success and "-1" for failure, like Unix
+system calls.
+Finally, be careful to clean up garbage (by making "Py_XDECREF()" or

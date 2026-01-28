@@ -1,0 +1,7 @@
+store.
+Option.choices
+   For options of type ""choice"", the list of strings the user may
+   choose from.
+Option.callback
+   For options with action ""callback"", the callable to call when
+   this option is seen.  See section Option Callbacks for detail on

@@ -1,0 +1,3 @@
++---------------+--------------+----------------------------------------------------+
+Added in version 3.4: **fish** and **csh** activation scripts.
+Added in version 3.8: PowerShell activation scripts installed under

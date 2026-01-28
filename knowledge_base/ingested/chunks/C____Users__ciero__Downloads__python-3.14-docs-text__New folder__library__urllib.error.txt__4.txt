@@ -1,0 +1,4 @@
+Though being an exception (a subclass of "URLError"), an
+   "HTTPError" can also function as a non-exceptional file-like return
+   value (the same thing that "urlopen()" returns).  This is useful
+   when handling exotic HTTP errors, such as requests for

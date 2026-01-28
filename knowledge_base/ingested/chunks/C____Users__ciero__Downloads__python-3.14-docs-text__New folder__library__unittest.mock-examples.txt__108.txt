@@ -1,0 +1,4 @@
+methods with a mock that having to create a real function becomes a
+nuisance.
+If you pass "autospec=True" to patch then it does the patching with a
+*real* function object. This function object has the same signature as

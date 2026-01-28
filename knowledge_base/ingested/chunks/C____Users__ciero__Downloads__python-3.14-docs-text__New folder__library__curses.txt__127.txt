@@ -1,0 +1,5 @@
+window.chgat(num, attr)
+window.chgat(y, x, attr)
+window.chgat(y, x, num, attr)
+   Set the attributes of *num* characters at the current cursor
+   position, or at position "(y, x)" if supplied. If *num* is not

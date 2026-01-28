@@ -1,0 +1,6 @@
+program, or premature termination due to malformed messages in the
+mailbox:
+   import mailbox
+   import email.errors
+   list_names = ('python-list', 'python-dev', 'python-bugs')
+   boxes = {name: mailbox.mbox('~/email/%s' % name) for name in list_names}

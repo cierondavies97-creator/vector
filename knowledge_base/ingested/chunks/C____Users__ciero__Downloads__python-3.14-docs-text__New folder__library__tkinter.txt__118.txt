@@ -1,0 +1,3 @@
+possible to hand over an arbitrary Python variable to a widget through
+a "variable" or "textvariable" option.  The only kinds of variables
+for which this works are variables that are subclassed from a class

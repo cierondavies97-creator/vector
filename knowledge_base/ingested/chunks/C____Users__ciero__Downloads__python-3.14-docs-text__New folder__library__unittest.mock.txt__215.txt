@@ -1,0 +1,4 @@
+alternative class to the default "MagicMock" for the created mock. For
+example, if you wanted a "NonCallableMock" to be used:
+   >>> thing = object()
+   >>> with patch('__main__.thing', new_callable=NonCallableMock) as mock_thing:

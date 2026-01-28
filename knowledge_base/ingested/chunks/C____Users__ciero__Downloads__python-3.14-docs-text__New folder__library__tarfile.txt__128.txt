@@ -1,0 +1,4 @@
+"AREGTYPE", "LNKTYPE", "SYMTYPE", "DIRTYPE", "FIFOTYPE",
+   "CONTTYPE", "CHRTYPE", "BLKTYPE", "GNUTYPE_SPARSE".  To determine
+   the type of a "TarInfo" object more conveniently, use the "is*()"
+   methods below.

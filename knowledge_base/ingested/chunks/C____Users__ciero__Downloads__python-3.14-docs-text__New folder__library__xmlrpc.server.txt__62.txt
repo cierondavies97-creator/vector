@@ -1,0 +1,6 @@
+the documentation.
+DocCGIXMLRPCRequestHandler
+==========================
+The "DocCGIXMLRPCRequestHandler" class is derived from
+"CGIXMLRPCRequestHandler" and provides a means of creating self-
+documenting, XML-RPC CGI scripts. HTTP POST requests are handled as

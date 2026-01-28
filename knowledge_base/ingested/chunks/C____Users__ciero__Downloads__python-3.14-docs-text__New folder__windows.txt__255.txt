@@ -1,0 +1,5 @@
+# With -ExcludeVersion
+   > .\python\tools\python.exe -V
+   Python 3.5.2
+In general, nuget packages are not upgradeable, and newer versions
+should be installed side-by-side and referenced using the full path.

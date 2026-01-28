@@ -1,0 +1,7 @@
+False
+      >>> PureWindowsPath('b.py').full_match('*.PY')
+      True
+   Set *case_sensitive* to "True" or "False" to override this
+   behaviour.
+   Added in version 3.13.
+PurePath.match(pattern, *, case_sensitive=None)

@@ -1,0 +1,4 @@
+attribute will always return the same mock. Mocks record how you use
+them, allowing you to make assertions about what your code has done to
+them.
+"MagicMock" is a subclass of "Mock" with all the magic methods pre-

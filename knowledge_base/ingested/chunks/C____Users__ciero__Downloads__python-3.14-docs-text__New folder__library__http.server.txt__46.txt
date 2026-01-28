@@ -1,0 +1,5 @@
+Changed in version 3.2: Headers are stored in an internal
+      buffer.
+   send_response_only(code, message=None)
+      Sends the response header only, used for the purposes when "100
+      Continue" response is sent by the server to the client. The

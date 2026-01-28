@@ -1,0 +1,5 @@
+module will be file-based.
+   Added in version 3.4.
+   Changed in version 3.6: Accepts a *path-like object*.
+importlib.util.source_hash(source_bytes)
+   Return the hash of *source_bytes* as bytes. A hash-based ".pyc"

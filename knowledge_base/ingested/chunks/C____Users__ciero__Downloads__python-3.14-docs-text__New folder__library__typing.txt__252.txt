@@ -1,0 +1,4 @@
+different semantics in several important ways. Using a *bounded*
+   type variable means that the "TypeVar" will be solved using the
+   most specific type possible:
+      x = print_capitalized('a string')

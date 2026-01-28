@@ -1,0 +1,5 @@
+Returns the value of the "max_count" attribute of the
+      specialized class used to represent the header with the given
+      name.
+   header_source_parse(sourcelines)
+      The name is parsed as everything up to the '":"' and returned

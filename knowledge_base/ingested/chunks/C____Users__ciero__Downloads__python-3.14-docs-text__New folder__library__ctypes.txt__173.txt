@@ -1,0 +1,6 @@
+>>> qsort = libc.qsort
+   >>> qsort.restype = None
+   >>>
+"qsort()" must be called with a pointer to the data to sort, the
+number of items in the data array, the size of one item, and a pointer
+to the comparison function, the callback. The callback will then be

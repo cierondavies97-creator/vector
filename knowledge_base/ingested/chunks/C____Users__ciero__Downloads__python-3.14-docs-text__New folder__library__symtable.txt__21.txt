@@ -1,0 +1,6 @@
+Functions defined in a deeper scope (e.g., in an inner class)
+      are not picked up by "get_methods()".
+      For example:
+         >>> import symtable
+         >>> st = symtable.symtable('''
+         ... def outer(): pass

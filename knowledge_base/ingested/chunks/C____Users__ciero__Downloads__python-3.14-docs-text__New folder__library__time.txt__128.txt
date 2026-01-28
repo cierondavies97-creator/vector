@@ -1,0 +1,3 @@
+Reset the time conversion rules used by the library routines. The
+   environment variable "TZ" specifies how this is done. It will also
+   set the variables "tzname" (from the "TZ" environment variable),

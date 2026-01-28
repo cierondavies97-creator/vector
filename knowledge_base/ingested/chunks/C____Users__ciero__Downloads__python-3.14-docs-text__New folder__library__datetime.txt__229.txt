@@ -1,0 +1,5 @@
+>>> class TZ(tzinfo):
+      ...     """A time zone with an arbitrary, constant -06:39 offset."""
+      ...     def utcoffset(self, dt):
+      ...         return timedelta(hours=-6, minutes=-39)
+      ...

@@ -1,0 +1,4 @@
+alias is removed.  Aliasing is recursively applied to the first
+   word of the command line; all other words in the line are left
+   alone.
+   As an example, here are two useful aliases (especially when placed

@@ -1,0 +1,4 @@
+be an integer specifying an address, or a ctypes instance.
+ctypes.POINTER(type, /)
+   Create or return a ctypes pointer type. Pointer types are cached
+   and reused internally, so calling this function repeatedly is

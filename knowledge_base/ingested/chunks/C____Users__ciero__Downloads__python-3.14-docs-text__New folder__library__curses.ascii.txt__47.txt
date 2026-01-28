@@ -1,0 +1,5 @@
+If the character has its meta bit (0x80) set, the meta bit is
+   stripped, the preceding rules applied, and "'!'" prepended to the
+   result.
+curses.ascii.controlnames
+   A 33-element string array that contains the ASCII mnemonics for the

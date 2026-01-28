@@ -1,0 +1,6 @@
+values in the context object.
+asyncio support
+===============
+Context variables are natively supported in "asyncio" and are ready to
+be used without any extra configuration.  For example, here is a
+simple echo server, that uses a context variable to make the address

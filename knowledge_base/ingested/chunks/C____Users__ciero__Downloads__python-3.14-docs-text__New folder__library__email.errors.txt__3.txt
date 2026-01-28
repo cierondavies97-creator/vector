@@ -1,0 +1,4 @@
+exception email.errors.HeaderParseError
+   Raised under some error conditions when parsing the **RFC 5322**
+   headers of a message, this class is derived from
+   "MessageParseError".  The "set_boundary()" method will raise this

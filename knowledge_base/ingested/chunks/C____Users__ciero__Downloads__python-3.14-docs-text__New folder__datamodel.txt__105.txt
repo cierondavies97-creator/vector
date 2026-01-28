@@ -1,0 +1,2 @@
+| method.__self__                                    | Refers to the class instance object to which the   |
+|                                                    | method is bound                                    |

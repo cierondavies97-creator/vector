@@ -1,0 +1,5 @@
+"send()".  Blocks until there is something to receive.  Raises
+      "EOFError" if there is nothing left to receive and the other end
+      was closed.
+   fileno()
+      Return the file descriptor or handle used by the connection.

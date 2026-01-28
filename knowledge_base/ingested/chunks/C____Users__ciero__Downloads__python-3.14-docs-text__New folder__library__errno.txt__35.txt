@@ -1,0 +1,10 @@
+Inappropriate file type or format
+   Added in version 3.2.
+errno.ENEEDAUTH
+   Need authenticator
+   Added in version 3.2.
+errno.ENOATTR
+   Attribute not found
+   Added in version 3.2.
+errno.ENOPOLICY
+   Policy not found

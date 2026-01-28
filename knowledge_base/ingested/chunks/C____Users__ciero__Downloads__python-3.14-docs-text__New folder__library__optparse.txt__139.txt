@@ -1,0 +1,4 @@
+foo: error: -n option requires an argument
+"optparse"-generated error messages take care always to mention the
+option involved in the error; be sure to do the same when calling
+"OptionParser.error()" from your application code.

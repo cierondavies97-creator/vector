@@ -1,0 +1,6 @@
+~~~~~~~~~~~~~~~~~~~^^
+   IndexError: tuple index out of range
+   *** format_exc, first and last line:
+   Traceback (most recent call last):
+   IndexError: tuple index out of range
+   *** format_exception:

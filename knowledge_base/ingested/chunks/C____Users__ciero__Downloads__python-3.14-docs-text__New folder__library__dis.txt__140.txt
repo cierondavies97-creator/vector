@@ -1,0 +1,3 @@
+the unbound method and "STACK[-1]". "STACK[-1]" will be used as the
+   first argument ("self") by "CALL" or "CALL_KW" when calling the
+   unbound method. Otherwise, "NULL" and the object returned by the

@@ -1,0 +1,8 @@
+True
+   Raise "TypeError" for arguments that are not Protocols.
+   Added in version 3.13.
+typing.is_protocol(tp)
+   Determine if a type is a "Protocol".
+   For example:
+      class P(Protocol):
+          def a(self) -> str: ...

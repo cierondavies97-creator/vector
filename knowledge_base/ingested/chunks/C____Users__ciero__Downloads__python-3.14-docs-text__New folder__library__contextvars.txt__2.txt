@@ -1,0 +1,4 @@
+Context managers that have state should use Context Variables instead
+of "threading.local()" to prevent their state from bleeding to other
+code unexpectedly, when used in concurrent code.
+See also **PEP 567** for additional details.

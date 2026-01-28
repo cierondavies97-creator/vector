@@ -1,0 +1,4 @@
+specified in any specific order in the configuration file.
+   With "interpolation" set to "None", the parser would simply return
+   "%(my_dir)s/Pictures" as the value of "my_pictures" and
+   "%(home_dir)s/lumberjack" as the value of "my_dir".

@@ -1,0 +1,7 @@
+for use by library developers.
+class logging.NullHandler
+   Returns a new instance of the "NullHandler" class.
+   emit(record)
+      This method does nothing.
+   handle(record)
+      This method does nothing.

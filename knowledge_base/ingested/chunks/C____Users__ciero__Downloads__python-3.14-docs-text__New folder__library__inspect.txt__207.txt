@@ -1,0 +1,3 @@
+default values used if no argument is supplied. *annotations* is a
+   dictionary mapping parameter names to annotations. The special key
+   ""return"" is used to report the function return value annotation

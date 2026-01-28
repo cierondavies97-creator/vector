@@ -1,0 +1,6 @@
+behave so the object is recognized as an async function, and the
+   result of a call is an awaitable.
+   >>> mock = AsyncMock()
+   >>> inspect.iscoroutinefunction(mock)
+   True
+   >>> inspect.isawaitable(mock())

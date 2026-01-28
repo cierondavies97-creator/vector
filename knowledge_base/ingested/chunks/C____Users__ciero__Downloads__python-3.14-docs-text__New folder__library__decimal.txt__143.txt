@@ -1,0 +1,6 @@
+zeros.
+      For example, this converts "Decimal('123E+1')" to
+      "Decimal('1.23E+3')".
+   to_integral(rounding=None, context=None)
+      Identical to the "to_integral_value()" method.  The
+      "to_integral" name has been kept for compatibility with older

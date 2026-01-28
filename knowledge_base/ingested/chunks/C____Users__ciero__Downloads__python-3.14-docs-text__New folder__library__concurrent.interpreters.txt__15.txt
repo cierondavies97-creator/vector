@@ -1,0 +1,4 @@
+a helper for that though. There is another dedicated helper for
+calling the builtin "exec()" in an interpreter.
+When "exec()" (or "eval()") are called in an interpreter, they run
+using the interpreter's "__main__" module as the "globals" namespace.

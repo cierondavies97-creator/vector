@@ -1,0 +1,3 @@
+Prepare the tty of which fd is a file descriptor for a new login
+   session. Make the calling process a session leader; make the tty
+   the controlling tty, the stdin, the stdout, and the stderr of the

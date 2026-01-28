@@ -1,0 +1,5 @@
+>>> mac1.digest() == mac2.digest()
+   True
+   Added in version 3.11.
+   Changed in version 3.14: Now raises a "BlockingIOError" if the file
+   is opened in non-blocking mode. Previously, spurious null bytes

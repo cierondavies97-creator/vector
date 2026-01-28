@@ -1,0 +1,7 @@
+Encountered a start tag: title
+   Encountered some data  : Test
+   Encountered an end tag : title
+   Encountered an end tag : head
+   Encountered a start tag: body
+   Encountered a start tag: h1
+   Encountered some data  : Parse me!

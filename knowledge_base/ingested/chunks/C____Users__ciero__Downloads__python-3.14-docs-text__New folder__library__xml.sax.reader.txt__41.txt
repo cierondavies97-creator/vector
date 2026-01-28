@@ -1,0 +1,5 @@
+including the methods "copy()", "get()", "__contains__()", "items()",
+"keys()", and "values()".  The following methods are also provided:
+Attributes.getLength()
+   Return the number of attributes.
+Attributes.getNames()

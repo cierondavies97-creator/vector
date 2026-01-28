@@ -1,0 +1,5 @@
+a side-effect.
+      The method optionally resolves *name* relative to the given
+      *module*.
+      Changed in version 3.5: If an "ImportError" or "AttributeError"
+      occurs while traversing *name* then a synthetic test that raises

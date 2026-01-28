@@ -1,0 +1,4 @@
+not supported on Windows and some Unixes. If the
+     socket.SO_REUSEPORT constant is not defined then this capability
+     is unsupported.
+   * *allow_broadcast* tells the kernel to allow this endpoint to send

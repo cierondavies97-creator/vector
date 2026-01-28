@@ -1,0 +1,4 @@
+Unicode.
+The module "encodings.idna" also implements the nameprep procedure,
+which performs certain normalizations on host names, to achieve case-
+insensitivity of international domain names, and to unify similar

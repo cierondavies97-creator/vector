@@ -1,0 +1,2 @@
+| zlib_codec             | zip, zlib          | Compress the operand using     | "zlib.compress()" /            |
+|                        |                    | gzip.                          | "zlib.decompress()"            |

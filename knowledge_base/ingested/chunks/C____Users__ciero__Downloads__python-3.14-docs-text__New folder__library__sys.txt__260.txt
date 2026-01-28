@@ -1,0 +1,5 @@
+but no finder is found on "sys.path_hooks" then "None" is stored.
+   Originally specified in **PEP 302**.
+sys.platform
+   A string containing a platform identifier. Known values are:
+   +------------------+-----------------------------+

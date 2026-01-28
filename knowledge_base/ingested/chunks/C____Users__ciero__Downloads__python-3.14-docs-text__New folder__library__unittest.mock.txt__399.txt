@@ -1,0 +1,3 @@
+[4] This only applies to classes or already instantiated objects.
+    Calling a mocked class to create a mock instance *does not* create
+    a real instance. It is only attribute lookups - along with calls

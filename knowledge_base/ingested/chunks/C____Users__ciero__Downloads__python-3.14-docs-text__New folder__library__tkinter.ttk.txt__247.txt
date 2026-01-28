@@ -1,0 +1,6 @@
+*width*.
+      Example:
+         style = ttk.Style(root)
+         style.element_create('pin', 'vsapi', 'EXPLORERBAR', 3, [
+                              ('pressed', '!selected', 3),
+                              ('active', '!selected', 2),

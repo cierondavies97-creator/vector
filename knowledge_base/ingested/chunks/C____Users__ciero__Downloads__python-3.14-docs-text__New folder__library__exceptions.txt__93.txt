@@ -1,0 +1,4 @@
+inappropriate type.  The associated value is a string giving
+   details about the type mismatch.
+   This exception may be raised by user code to indicate that an
+   attempted operation on an object is not supported, and is not meant

@@ -1,0 +1,4 @@
+connections; however, your server *must* then include an
+      accurate "Content-Length" header (using "send_header()") in all
+      of its responses to clients. For backwards compatibility, the
+      setting defaults to "'HTTP/1.0'".

@@ -1,0 +1,5 @@
+Python 3.14+.  Add the "visit_Constant()" method instead to handle
+   all constant nodes.
+class ast.NodeTransformer
+   A "NodeVisitor" subclass that walks the abstract syntax tree and
+   allows modification of nodes.

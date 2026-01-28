@@ -1,0 +1,4 @@
+can be handled with "except" like all other exceptions. In addition,
+they are recognised by "except*", which matches their subgroups based
+on the types of the contained exceptions.
+exception ExceptionGroup(msg, excs)

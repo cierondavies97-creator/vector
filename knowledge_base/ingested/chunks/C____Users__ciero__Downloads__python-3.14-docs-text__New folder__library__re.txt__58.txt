@@ -1,0 +1,5 @@
+below.  To match the literals "'('" or "')'", use "\(" or "\)", or
+   enclose them inside a character class: "[(]", "[)]".
+"(?...)"
+   This is an extension notation (a "'?'" following a "'('" is not
+   meaningful otherwise).  The first character after the "'?'"

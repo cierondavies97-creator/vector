@@ -1,0 +1,6 @@
+subsection of the array.  Raise "ValueError" if *x* is not
+      found.
+      Changed in version 3.10: Added optional *start* and *stop*
+      parameters.
+   insert(i, x)
+      Insert a new item with value *x* in the array before position

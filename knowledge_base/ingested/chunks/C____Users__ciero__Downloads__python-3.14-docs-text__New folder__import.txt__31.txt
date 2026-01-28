@@ -1,0 +1,4 @@
+previously imported, "sys.modules" will contain entries for "foo",
+"foo.bar", and "foo.bar.baz".  Each key will have as its value the
+corresponding module object.
+During import, the module name is looked up in "sys.modules" and if

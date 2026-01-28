@@ -1,0 +1,4 @@
+subdirectories is retrieved before the tuples for the directory and
+   its subdirectories are generated.
+   When *topdown* is "True", the caller can modify the *dirnames* list
+   in-place (perhaps using "del" or slice assignment), and "walk()"

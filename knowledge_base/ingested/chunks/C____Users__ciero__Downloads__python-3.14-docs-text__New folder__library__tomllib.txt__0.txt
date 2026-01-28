@@ -1,0 +1,6 @@
+"tomllib" --- Parse TOML files
+******************************
+Added in version 3.11.
+**Source code:** Lib/tomllib
+======================================================================
+This module provides an interface for parsing TOML 1.0.0 (Tom's

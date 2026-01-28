@@ -1,0 +1,5 @@
+identical to what is described in that method.
+   The only difference is that if the root logger has no handlers,
+   then "basicConfig()" is called, prior to calling "debug" on the
+   root logger.
+   For very short scripts or quick demonstrations of "logging"

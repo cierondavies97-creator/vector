@@ -1,0 +1,4 @@
+to synchronize access to the value.  If *lock* is a "Lock" or
+   "RLock" object then that will be used to synchronize access to the
+   value.  If *lock* is "False" then access to the returned object
+   will not be automatically protected by a lock, so it will not

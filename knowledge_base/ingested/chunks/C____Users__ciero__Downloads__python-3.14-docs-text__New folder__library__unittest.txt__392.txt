@@ -1,0 +1,4 @@
+called then you must call up to them yourself. The implementations in
+"TestCase" are empty.
+If an exception is raised during a "setUpClass" then the tests in the
+class are not run and the "tearDownClass" is not run. Skipped classes

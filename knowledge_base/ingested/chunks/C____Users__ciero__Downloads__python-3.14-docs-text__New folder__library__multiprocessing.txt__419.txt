@@ -1,0 +1,5 @@
+if it is
+   * a readable "Connection" object;
+   * a connected and readable "socket.socket" object; or
+   * the "sentinel" attribute of a "Process" object.
+   A connection or socket object is ready when there is data available

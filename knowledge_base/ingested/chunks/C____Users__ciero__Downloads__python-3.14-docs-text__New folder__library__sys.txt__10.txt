@@ -1,0 +1,5 @@
+**PEP 578** for the original design discussion.
+   Added in version 3.8.
+   Changed in version 3.8.1: Exceptions derived from "Exception" but
+   not "RuntimeError" are no longer suppressed.
+   **CPython implementation detail:** When tracing is enabled (see

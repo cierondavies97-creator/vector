@@ -1,0 +1,9 @@
+try:
+                   msg = r.recv()
+               except EOFError:
+                   readers.remove(r)
+               else:
+                   print(msg)
+Address Formats
+~~~~~~~~~~~~~~~
+* An "'AF_INET'" address is a tuple of the form "(hostname, port)"

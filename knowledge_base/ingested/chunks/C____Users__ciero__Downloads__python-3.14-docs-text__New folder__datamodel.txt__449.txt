@@ -1,0 +1,4 @@
+in child classes. However, instances of a child subclass will get a
+  "__dict__" and *__weakref__* unless the subclass also defines
+  *__slots__* (which should only contain names of any *additional*
+  slots).

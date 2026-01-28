@@ -1,0 +1,3 @@
+Changed in version 3.9: This dictionary is no longer filled with
+      the default system mappings, but only contains overrides.
+   The "SimpleHTTPRequestHandler" class defines the following methods:

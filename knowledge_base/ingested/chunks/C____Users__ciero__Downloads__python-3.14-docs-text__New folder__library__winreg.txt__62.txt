@@ -1,0 +1,4 @@
+"SetValueEx()" function for support for other data types.
+   *value* is a string that specifies the new value.
+   If the key specified by the *sub_key* parameter does not exist, the
+   SetValue function creates it.

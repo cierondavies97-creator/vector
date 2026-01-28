@@ -1,0 +1,7 @@
+well, and Tk will display an empty box wherever the image was used.
+See also:
+  The Pillow package adds support for formats such as BMP, JPEG, TIFF,
+  and WebP, among others.
+File Handlers
+=============
+Tk allows you to register and unregister a callback function which

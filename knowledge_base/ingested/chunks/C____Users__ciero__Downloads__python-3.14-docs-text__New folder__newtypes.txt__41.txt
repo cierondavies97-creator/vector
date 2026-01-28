@@ -1,0 +1,7 @@
+intended for human consumption.  If "tp_str" is not specified, the
+"tp_repr" handler is used instead.
+Here is a simple example:
+   static PyObject *
+   newdatatype_str(PyObject *op)
+   {
+       newdatatypeobject *self = (newdatatypeobject *) op;

@@ -1,0 +1,4 @@
+group.add_option("-d", "--debug", action="store_true",
+                    help="Print debug information")
+   group.add_option("-s", "--sql", action="store_true",
+                    help="Print all SQL statements executed")

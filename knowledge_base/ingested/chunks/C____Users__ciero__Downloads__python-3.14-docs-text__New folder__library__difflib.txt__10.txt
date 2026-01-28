@@ -1,0 +1,5 @@
+"SequenceMatcher".
+   Changed in version 3.2: Added the *autojunk* parameter.
+class difflib.Differ
+   This is a class for comparing sequences of lines of text, and
+   producing human-readable differences or deltas.  Differ uses

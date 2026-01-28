@@ -1,0 +1,5 @@
+""SSLv3"", ""TLSv1"", ""TLSv1.1"" and ""TLSv1.2"". Recent OpenSSL
+   versions may define more return values.
+   Added in version 3.5.
+SSLSocket.pending()
+   Returns the number of already decrypted bytes available for read,

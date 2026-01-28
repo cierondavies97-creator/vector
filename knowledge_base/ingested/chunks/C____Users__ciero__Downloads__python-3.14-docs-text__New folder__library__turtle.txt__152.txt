@@ -1,0 +1,3 @@
+the shear angle. Do *not* change the turtle's heading (direction of
+   movement). If shear is not given: return the current shearfactor,
+   i. e. the tangent of the shear angle, by which lines parallel to

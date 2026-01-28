@@ -1,0 +1,9 @@
+(Pdb) exceptions 0
+      > example.py(16)inner()
+      -> 1 / x
+      (Pdb) up
+      > example.py(10)middle()
+      -> return inner(0)
+   Added in version 3.13.
+-[ Footnotes ]-
+[1] Whether a frame is considered to originate in a certain module is

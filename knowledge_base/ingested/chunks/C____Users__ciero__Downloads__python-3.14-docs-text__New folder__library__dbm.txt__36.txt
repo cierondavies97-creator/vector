@@ -1,0 +1,5 @@
+"closing" context manager via the "with" keyword.
+   Changed in version 3.2: Added the "get()" and "setdefault()"
+   methods.
+   Changed in version 3.13: Added the "clear()" method.
+   The following methods are also provided:

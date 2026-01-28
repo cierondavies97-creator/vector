@@ -1,0 +1,3 @@
++-----------+------------------------------------------------------------+
+   | "'n'"     | Number. This is the same as "'d'", except that it uses the |
+   |           | current locale setting to insert the appropriate digit     |

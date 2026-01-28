@@ -1,0 +1,4 @@
+Note that calling any of the generator methods below when the
+generator is already executing raises a "ValueError" exception.
+generator.__next__()
+   Starts the execution of a generator function or resumes it at the

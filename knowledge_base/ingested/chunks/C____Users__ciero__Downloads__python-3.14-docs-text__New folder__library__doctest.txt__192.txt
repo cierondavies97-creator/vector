@@ -1,0 +1,5 @@
+Python examples that should be run by this test.
+   globs
+      The namespace (aka globals) that the examples should be run in.
+      This is a dictionary mapping names to values.  Any changes to
+      the namespace made by the examples (such as binding new

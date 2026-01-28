@@ -1,0 +1,3 @@
+| "os.path.relpath()"                   | "PurePath.relative_to()" [1]                   |
++---------------------------------------+------------------------------------------------+
+| "os.path.expanduser()"                | "Path.expanduser()" [2]                        |

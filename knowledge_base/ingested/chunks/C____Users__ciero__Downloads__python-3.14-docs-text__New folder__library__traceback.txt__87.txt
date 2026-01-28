@@ -1,0 +1,7 @@
+The output for the example would look similar to this:
+   *** print_tb:
+     File "<doctest...>", line 10, in <module>
+       lumberjack()
+       ~~~~~~~~~~^^
+   *** print_exception:
+   Traceback (most recent call last):

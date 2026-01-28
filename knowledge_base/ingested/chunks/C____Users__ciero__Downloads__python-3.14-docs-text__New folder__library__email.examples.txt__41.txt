@@ -1,0 +1,8 @@
+asparagus_cid = make_msgid()
+   msg.add_alternative("""\
+   <html>
+     <head></head>
+     <body>
+       <p>Salut!</p>
+       <p>Cette
+           <a href="http://www.yummly.com/recipe/Roasted-Asparagus-Epicurious-203718">

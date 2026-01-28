@@ -1,0 +1,6 @@
+default it is "True".
+   "BaseManager" instances also have one read-only property:
+   address
+      The address used by the manager.
+   Changed in version 3.3: Manager objects support the context
+   management protocol -- see Context Manager Types.  "__enter__()"

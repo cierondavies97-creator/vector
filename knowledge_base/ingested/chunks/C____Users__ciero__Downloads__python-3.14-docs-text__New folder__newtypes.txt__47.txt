@@ -1,0 +1,4 @@
+(this will be explained shortly), there are generic implementations
+which can be used to provide the PyObject* version of the attribute
+management functions. The actual need for type-specific attribute
+handlers almost completely disappeared starting with Python 2.2,

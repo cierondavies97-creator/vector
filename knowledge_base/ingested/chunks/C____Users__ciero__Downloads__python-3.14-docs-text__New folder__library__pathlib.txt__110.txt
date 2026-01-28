@@ -1,0 +1,6 @@
+and on other platforms a "ValueError" is raised.
+Path.as_uri()
+   Represent the path as a 'file' URI.  "ValueError" is raised if the
+   path isn't absolute.
+      >>> p = PosixPath('/etc/passwd')
+      >>> p.as_uri()

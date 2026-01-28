@@ -1,0 +1,4 @@
+The type of code objects such as returned by "compile()".
+   Raises an auditing event "code.__new__" with arguments "code",
+   "filename", "name", "argcount", "posonlyargcount",
+   "kwonlyargcount", "nlocals", "stacksize", "flags".

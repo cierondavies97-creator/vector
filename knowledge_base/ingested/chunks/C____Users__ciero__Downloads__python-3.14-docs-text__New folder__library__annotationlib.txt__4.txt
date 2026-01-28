@@ -1,0 +1,4 @@
+* "FORWARDREF" returns "ForwardRef" objects for annotations that
+  cannot be resolved, allowing you to inspect the annotations without
+  evaluating them. This is useful when you need to work with
+  annotations that may contain unresolved forward references.

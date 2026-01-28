@@ -1,0 +1,4 @@
+call "faccessat" instead of "access").
+  You can check whether or not *dir_fd* is supported for a particular
+  function on your platform using "os.supports_dir_fd".  If it's
+  unavailable, using it will raise a "NotImplementedError".

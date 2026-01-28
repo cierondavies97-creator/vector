@@ -1,0 +1,3 @@
+very large objects, pickling more kinds of objects, and some data
+  format optimizations.  This was the default protocol in Python 3.8--
+  3.13. Refer to **PEP 3154** for information about improvements

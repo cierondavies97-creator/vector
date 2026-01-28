@@ -1,0 +1,3 @@
+There is no way for CGI code to tell whether the option was set, so
+   a separate handler class is provided.  It is used in the same way
+   as "CGIHandler", i.e., by calling "IISCGIHandler().run(app)", where

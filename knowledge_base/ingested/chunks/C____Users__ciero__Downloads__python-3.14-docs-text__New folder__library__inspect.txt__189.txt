@@ -1,0 +1,4 @@
+corresponding argument.  To remove a default value or/and an
+      annotation from a "Parameter", pass "Parameter.empty".
+         >>> from inspect import Parameter
+         >>> param = Parameter('foo', Parameter.KEYWORD_ONLY, default=42)

@@ -1,0 +1,4 @@
+deprecated in Python 3.8. These classes were removed in Python 3.14,
+and their functionality has been replaced with "ast.Constant".
+Deprecated since version 3.9: Old classes "ast.Index" and
+"ast.ExtSlice" are still available, but they will be removed in future

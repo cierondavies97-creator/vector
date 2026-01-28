@@ -1,0 +1,4 @@
+commit and roll back pending transactions. You can choose the
+underlying SQLite transaction behaviour — that is, whether and what
+type of "BEGIN" statements "sqlite3" implicitly executes – via the
+"isolation_level" attribute.

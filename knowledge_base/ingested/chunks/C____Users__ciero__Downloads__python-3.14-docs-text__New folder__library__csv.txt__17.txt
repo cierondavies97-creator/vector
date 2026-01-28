@@ -1,0 +1,3 @@
+returned by the "list_dialects()" function.  The other optional
+   *fmtparams* keyword arguments can be given to override individual
+   formatting parameters in the current dialect.  For full details

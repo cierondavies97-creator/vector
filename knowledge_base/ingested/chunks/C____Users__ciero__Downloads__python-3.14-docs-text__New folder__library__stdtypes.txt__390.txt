@@ -1,0 +1,4 @@
+may consist of multiple characters as a single delimiter (to split
+   with multiple delimiters, use "re.split()"). Splitting an empty
+   string with a specified separator returns "['']".
+   For example:

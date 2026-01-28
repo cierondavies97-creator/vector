@@ -1,0 +1,5 @@
+greater than or equal to 0.
+      If the "bytearray" needs to shrink, bytes beyond *size* are
+      truncated.
+      If the "bytearray" needs to grow, all new bytes, those beyond
+      *size*, will be set to null bytes.

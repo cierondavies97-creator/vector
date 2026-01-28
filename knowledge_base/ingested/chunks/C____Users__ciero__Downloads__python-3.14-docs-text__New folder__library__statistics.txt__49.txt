@@ -1,0 +1,5 @@
+(*epanechnikov*), *quartic* (*biweight*), *triweight*, and
+   *cosine*.
+   If *cumulative* is true, will return a cumulative distribution
+   function.
+   A "StatisticsError" will be raised if the *data* sequence is empty.

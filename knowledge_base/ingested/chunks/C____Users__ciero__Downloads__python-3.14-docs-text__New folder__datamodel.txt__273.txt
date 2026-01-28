@@ -1,0 +1,4 @@
+* No range will be backwards: "end >= start" for all triples.
+   * The last "tuple" yielded will have "end" equal to the size of the
+     *bytecode*.
+   Zero-width ranges, where "start == end", are allowed. Zero-width

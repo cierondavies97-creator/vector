@@ -1,0 +1,4 @@
+See also "signal.pthread_kill()".
+   Raises an auditing event "os.kill" with arguments "pid", "sig".
+   Availability: Unix, Windows, not WASI, not iOS.
+   Changed in version 3.2: Added Windows support.

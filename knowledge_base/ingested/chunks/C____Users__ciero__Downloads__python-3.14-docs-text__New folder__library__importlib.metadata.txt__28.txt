@@ -1,0 +1,5 @@
+Distribution metadata
+---------------------
+importlib.metadata.metadata(distribution_name)
+   Return the distribution metadata corresponding to the named
+   distribution package as a "PackageMetadata" instance.

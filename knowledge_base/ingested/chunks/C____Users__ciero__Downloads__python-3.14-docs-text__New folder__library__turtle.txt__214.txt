@@ -1,0 +1,6 @@
+off.
+See also the RawTurtle/Turtle method "speed()".
+Using screen events
+-------------------
+turtle.listen(xdummy=None, ydummy=None)
+   Set focus on TurtleScreen (in order to collect key-events).  Dummy

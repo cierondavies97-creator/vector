@@ -1,0 +1,4 @@
+will be raised.
+   When writing, the *options* argument can be a dictionary providing
+   advanced compression parameters; see "CompressionParameter" for
+   detailed information about supported parameters. The *level*

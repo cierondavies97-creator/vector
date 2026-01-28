@@ -1,0 +1,3 @@
+coercion) unless the second argument is negative; in that case, all
+   arguments are converted to float and a float result is delivered.
+   For example, "pow(10, 2)" returns "100", but "pow(10, -2)" returns

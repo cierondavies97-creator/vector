@@ -1,0 +1,4 @@
+pickling and copying objects. [4]
+Although powerful, implementing "__reduce__()" directly in your
+classes is error prone.  For this reason, class designers should use
+the high-level interface (i.e., "__getnewargs_ex__()",

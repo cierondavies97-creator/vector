@@ -1,0 +1,5 @@
+arithmetic.
+A Fraction instance can be constructed from a pair of rational
+numbers, from a single number, or from a string.
+class fractions.Fraction(numerator=0, denominator=1)
+class fractions.Fraction(number)

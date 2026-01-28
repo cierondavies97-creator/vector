@@ -1,0 +1,4 @@
+undefined behavior. If you're serializing and de-serializing Python
+objects, use the "pickle" module instead -- the performance is
+comparable, version independence is guaranteed, and pickle supports a
+substantially wider range of objects than marshal.

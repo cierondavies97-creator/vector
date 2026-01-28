@@ -1,0 +1,7 @@
+def __enter__(self):
+              return self
+          def __exit__(self, *exc):
+              return False
+   Note:
+     As the decorated function must be able to be called multiple
+     times, the underlying context manager must support use in

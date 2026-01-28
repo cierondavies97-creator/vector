@@ -1,0 +1,4 @@
+better appearance on different platforms than many of the classic
+   Tk widgets. Ttk is distributed as part of Tk, starting with Tk
+   version 8.5. Python bindings are provided in a separate module,
+   "tkinter.ttk".

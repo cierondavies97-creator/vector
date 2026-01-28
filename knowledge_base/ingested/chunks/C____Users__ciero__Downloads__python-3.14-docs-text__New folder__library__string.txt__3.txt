@@ -1,0 +1,8 @@
+is not locale-dependent and will not change.
+string.digits
+   The string "'0123456789'".
+string.hexdigits
+   The string "'0123456789abcdefABCDEF'".
+string.octdigits
+   The string "'01234567'".
+string.punctuation

@@ -1,0 +1,7 @@
+>>> from http import cookies
+   >>> C = cookies.SimpleCookie()
+   >>> C["fig"] = "newton"
+   >>> C["sugar"] = "wafer"
+   >>> print(C) # generate HTTP headers
+   Set-Cookie: fig=newton
+   Set-Cookie: sugar=wafer

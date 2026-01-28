@@ -1,0 +1,3 @@
+way to reproduce the issue you were seeing. Link to that issue from a
+comment in your code.
+Added in version 3.8: "_USE_POSIX_SPAWN"

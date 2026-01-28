@@ -1,0 +1,5 @@
+"deepcopy()", and only supports named tuples created by
+"namedtuple()", "dataclasses", and other classes which define method
+"__replace__()".
+object.__replace__(self, /, **changes)
+   This method should create a new object of the same type, replacing

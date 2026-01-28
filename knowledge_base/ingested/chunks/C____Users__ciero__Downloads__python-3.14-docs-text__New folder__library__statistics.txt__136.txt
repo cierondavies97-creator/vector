@@ -1,0 +1,5 @@
+arithmetic mean and *sigma* represents the standard deviation.
+   If *sigma* is negative, raises "StatisticsError".
+   mean
+      A read-only property for the arithmetic mean of a normal
+      distribution.

@@ -1,0 +1,5 @@
+"restart" is an alias for "run".
+   Changed in version 3.14: "run" and "restart" commands are disabled
+   when the debugger is invoked in "'inline'" mode.
+q(uit)
+   Quit from the debugger.  The program being executed is aborted. An

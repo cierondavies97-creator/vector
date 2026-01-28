@@ -1,0 +1,6 @@
+attach mocks that have names to a parent you use the "attach_mock()"
+method:
+   >>> thing1 = object()
+   >>> thing2 = object()
+   >>> parent = MagicMock()
+   >>> with patch('__main__.thing1', return_value=None) as child1:

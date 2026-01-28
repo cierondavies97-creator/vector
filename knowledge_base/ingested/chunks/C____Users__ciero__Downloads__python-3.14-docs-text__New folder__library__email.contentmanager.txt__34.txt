@@ -1,0 +1,4 @@
+the *Content-Type* header.
+      If *headers* is specified and is a list of strings of the form
+      "headername: headervalue" or a list of "header" objects
+      (distinguished from strings by having a "name" attribute), add

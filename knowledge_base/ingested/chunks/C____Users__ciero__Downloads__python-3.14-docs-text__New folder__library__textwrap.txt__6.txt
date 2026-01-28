@@ -1,0 +1,3 @@
+as "wrap()".
+textwrap.shorten(text, width, *, fix_sentence_endings=False, break_long_words=True, break_on_hyphens=True, placeholder=' [...]')
+   Collapse and truncate the given *text* to fit in the given *width*.

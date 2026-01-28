@@ -1,0 +1,5 @@
+generated.
+     If the class already defines "__init__()", this parameter is
+     ignored.
+   * *repr*: If true (the default), a "__repr__()" method will be
+     generated.  The generated repr string will have the class name

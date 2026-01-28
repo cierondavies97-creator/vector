@@ -1,0 +1,5 @@
+*time_hi_version* in little-endian byte order).
+UUID.fields
+   A tuple of the six integer fields of the UUID, which are also
+   available as six individual attributes and two derived attributes:
++----------------------------------------------------+----------------------------------------------------+

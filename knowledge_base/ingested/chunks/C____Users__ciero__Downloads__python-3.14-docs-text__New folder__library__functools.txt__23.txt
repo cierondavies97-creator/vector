@@ -1,0 +1,6 @@
+Example:
+      sorted(iterable, key=cmp_to_key(locale.strcoll))  # locale-aware sort order
+   For sorting examples and a brief sorting tutorial, see Sorting
+   Techniques.
+   Added in version 3.2.
+@functools.lru_cache(user_function)

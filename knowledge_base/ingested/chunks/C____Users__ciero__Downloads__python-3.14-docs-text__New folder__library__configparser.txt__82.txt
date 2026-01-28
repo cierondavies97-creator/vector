@@ -1,0 +1,4 @@
+* *inline_comment_prefixes*, default value: "None"
+  Comment prefixes are strings that indicate the start of a valid
+  comment within a config file. *comment_prefixes* are used only on
+  otherwise empty lines (optionally indented) whereas

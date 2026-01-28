@@ -1,0 +1,4 @@
+way to simulate zero-copy behaviour on this toy example.
+On the consumer side, we can pickle those objects the usual way, which
+when unserialized will give us a copy of the original object:
+   b = ZeroCopyByteArray(b"abc")

@@ -1,0 +1,4 @@
+combined in an "ExceptionGroup" or "BaseExceptionGroup" (as
+appropriate; see their documentation) which is then raised.
+Two base exceptions are treated specially: If any task fails with
+"KeyboardInterrupt" or "SystemExit", the task group still cancels the

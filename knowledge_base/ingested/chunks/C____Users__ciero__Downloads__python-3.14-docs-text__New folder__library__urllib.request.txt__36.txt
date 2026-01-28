@@ -1,0 +1,5 @@
+Registry for Windows. If both lowercase and uppercase environment
+   variables exist (and disagree), lowercase is preferred.
+   Note:
+     If the environment variable "REQUEST_METHOD" is set, which
+     usually indicates your script is running in a CGI environment,

@@ -1,0 +1,5 @@
+lock()
+   unlock()
+      Three locking mechanisms are used---dot locking and, if
+      available, the "flock()" and "lockf()" system calls. For MH
+      mailboxes, locking the mailbox means locking the ".mh_sequences"

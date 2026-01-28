@@ -1,0 +1,6 @@
+a list) will be produced. Actions that do not consume command-line
+arguments (e.g. "'store_const'") set "nargs=0".
+const
+-----
+The "const" argument of "add_argument()" is used to hold constant
+values that are not read from the command line but are required for

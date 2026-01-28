@@ -1,0 +1,5 @@
+is implicitly overridden to be "max(2, stacklevel)". To cause a
+   warning to be attributed to the caller from outside of the current
+   package you might write:
+      # example/lower.py
+      _warn_skips = (os.path.dirname(__file__),)

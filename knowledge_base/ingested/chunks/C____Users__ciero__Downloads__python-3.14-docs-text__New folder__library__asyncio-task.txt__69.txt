@@ -1,0 +1,4 @@
+If *return_exceptions* is "False" (default), the first raised
+   exception is immediately propagated to the task that awaits on
+   "gather()".  Other awaitables in the *aws* sequence **won't be
+   cancelled** and will continue to run.

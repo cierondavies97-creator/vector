@@ -1,0 +1,4 @@
+to be prefixed with another one to escape it.  For example, the two
+following lines of code are functionally identical:
+   >>> re.match(r"\W(.)\1\W", " ff ")
+   <re.Match object; span=(0, 4), match=' ff '>

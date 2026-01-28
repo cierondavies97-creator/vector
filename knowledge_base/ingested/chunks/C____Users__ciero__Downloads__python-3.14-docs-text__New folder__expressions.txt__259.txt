@@ -1,0 +1,4 @@
+is a substring of *y*.  An equivalent test is "y.find(x) != -1".
+Empty strings are always considered to be a substring of any other
+string, so """ in "abc"" will return "True".
+For user-defined classes which define the "__contains__()" method, "x

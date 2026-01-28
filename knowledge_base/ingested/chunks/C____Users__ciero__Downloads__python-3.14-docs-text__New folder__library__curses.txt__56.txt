@@ -1,0 +1,4 @@
+Set the mouse events to be reported, and return a tuple
+   "(availmask, oldmask)".   *availmask* indicates which of the
+   specified mouse events can be reported; on complete failure it
+   returns "0".  *oldmask* is the previous value of the given window's

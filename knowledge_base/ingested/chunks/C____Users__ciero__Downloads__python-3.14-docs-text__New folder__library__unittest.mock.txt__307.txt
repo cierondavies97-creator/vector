@@ -1,0 +1,4 @@
+of a specific type. These methods are preconfigured with a default
+return value, so that they can be used without you having to do
+anything if you aren't interested in the return value. You can still
+*set* the return value manually if you want to change the default.

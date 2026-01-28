@@ -1,0 +1,4 @@
+insensitive and stored in lowercase [1].
+It is possible to read several configurations into a single
+"ConfigParser", where the most recently added configuration has the
+highest priority. Any conflicting keys are taken from the more recent

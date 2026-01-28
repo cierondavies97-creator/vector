@@ -1,0 +1,6 @@
+the screen as it is entered.
+curses.endwin()
+   De-initialize the library, and return terminal to normal status.
+curses.erasechar()
+   Return the user's current erase character as a one-byte bytes
+   object.  Under Unix operating systems this is a property of the

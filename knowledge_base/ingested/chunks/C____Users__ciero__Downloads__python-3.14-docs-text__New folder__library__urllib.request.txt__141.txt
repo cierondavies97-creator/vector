@@ -1,0 +1,4 @@
+confirmation by the user.  In reality, browsers do allow
+     automatic redirection of these responses, changing the POST to a
+     "GET", and the default implementation reproduces this behavior.
+HTTPRedirectHandler.http_error_301(req, fp, code, msg, hdrs)

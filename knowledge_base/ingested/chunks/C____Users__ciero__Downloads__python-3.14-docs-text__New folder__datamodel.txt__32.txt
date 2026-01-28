@@ -1,0 +1,4 @@
+* Trailing zeros, possibly excepting a single zero after a decimal
+  point, are not shown.
+* A sign is shown only when the number is negative.
+Python distinguishes between integers, floating-point numbers, and

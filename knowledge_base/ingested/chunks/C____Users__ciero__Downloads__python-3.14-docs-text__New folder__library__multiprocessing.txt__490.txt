@@ -1,0 +1,8 @@
+# A simple generator function
+   def baz():
+       for i in range(10):
+           yield i*i
+   # Proxy type for generator objects
+   class GeneratorProxy(BaseProxy):
+       _exposed_ = ['__next__']
+       def __iter__(self):

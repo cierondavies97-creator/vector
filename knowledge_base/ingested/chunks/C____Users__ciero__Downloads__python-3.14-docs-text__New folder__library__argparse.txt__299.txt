@@ -1,0 +1,4 @@
+closed. This can also clobber the output files. In this case, it
+     would be better to wait until after the parser has run and then
+     use the "with"-statement to manage the files.
+   Changed in version 3.4: Added the *encodings* and *errors*

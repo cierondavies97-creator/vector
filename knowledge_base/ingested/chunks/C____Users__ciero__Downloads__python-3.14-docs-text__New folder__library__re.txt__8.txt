@@ -1,0 +1,3 @@
+available as module-level functions and methods on compiled regular
+expressions.  The functions are shortcuts that don't require you to
+compile a regex object first, but miss some fine-tuning parameters.

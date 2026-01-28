@@ -1,0 +1,4 @@
+extend the import machinery.
+Changed in version 3.4: In previous versions of Python, finders
+returned *loaders* directly, whereas now they return module specs
+which *contain* loaders. Loaders are still used during import but have

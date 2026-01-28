@@ -1,0 +1,3 @@
+result is exhausted, "StopAsyncIteration" is raised immediately,
+   * if "side_effect" is not defined, the async function will return
+     the value defined by "return_value", hence, by default, the async

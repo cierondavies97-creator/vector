@@ -1,0 +1,3 @@
+connection, then it must be turned off for IDLE to work.  It is safe
+to allow this internal connection because no data is visible on
+external ports.  A similar problem is a network mis-configuration that

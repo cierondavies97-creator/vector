@@ -1,0 +1,4 @@
+*obj* may be a callable, class, module, or other object with
+   "__annotate__" or "__annotations__" attributes. Passing any other
+   object raises "TypeError".
+   The *format* parameter controls the format in which annotations are

@@ -1,0 +1,6 @@
+webbrowser.open_new_tab(url)
+   # Open URL in new window, raising the window if possible.
+   webbrowser.open_new(url)
+Browser controller objects
+==========================
+Browser controllers provide the "name" attribute, and the following

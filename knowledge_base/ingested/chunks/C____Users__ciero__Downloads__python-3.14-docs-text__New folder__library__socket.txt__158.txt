@@ -1,0 +1,4 @@
+qualified domain name is available and *name* was provided, it is
+   returned unchanged.  If *name* was empty or equal to "'0.0.0.0'",
+   the hostname from "gethostname()" is returned.
+socket.gethostbyname(hostname)

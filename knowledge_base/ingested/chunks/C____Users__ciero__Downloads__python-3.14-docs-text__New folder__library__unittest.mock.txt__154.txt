@@ -1,0 +1,7 @@
+has been awaited). Before any awaits have been made it is an
+      empty list.
+      >>> mock = AsyncMock()
+      >>> async def main(*args):
+      ...     await mock(*args)
+      ...
+      >>> mock.await_args_list

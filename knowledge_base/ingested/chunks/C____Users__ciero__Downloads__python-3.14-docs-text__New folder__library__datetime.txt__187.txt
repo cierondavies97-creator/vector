@@ -1,0 +1,4 @@
+different "tzinfo" attributes, the comparison acts as comparands
+   were first converted to UTC datetimes except that the
+   implementation never overflows. "datetime" instances in a repeated
+   interval are never equal to "datetime" instances in other time

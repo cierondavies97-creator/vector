@@ -1,0 +1,4 @@
+implementation is provided.
+   abstractmethod get_source(fullname)
+         An abstract method to return the source of a module. It is
+         returned as a text string using *universal newlines*,

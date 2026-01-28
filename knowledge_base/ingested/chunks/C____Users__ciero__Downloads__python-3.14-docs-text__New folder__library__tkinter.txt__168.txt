@@ -1,0 +1,4 @@
+not want to use the "BufferedIOBase" or "TextIOBase" "read()" or
+"readline()" methods, since these will insist on reading a predefined
+number of bytes. For sockets, the "recv()" or "recvfrom()" methods
+will work fine; for other files, use raw reads or

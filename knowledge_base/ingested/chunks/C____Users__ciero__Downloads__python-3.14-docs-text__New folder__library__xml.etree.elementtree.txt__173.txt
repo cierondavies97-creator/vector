@@ -1,0 +1,3 @@
+perceptual mismatches for readers of the code. In cases where this
+   is difficult to achieve, a recipe like the following can be applied
+   prior to serialisation to enforce an order independently from the

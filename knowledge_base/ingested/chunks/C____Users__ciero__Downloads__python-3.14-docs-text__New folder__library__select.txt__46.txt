@@ -1,0 +1,3 @@
+|                           | Trigger behavior                                |
+   +---------------------------+-------------------------------------------------+
+   | "EPOLLONESHOT"            | Set one-shot behavior. After one event is       |

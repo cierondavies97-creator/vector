@@ -1,0 +1,4 @@
+the "setcontext()" function.
+In accordance with the standard, the "decimal" module provides two
+ready to use standard contexts, "BasicContext" and "ExtendedContext".
+The former is especially useful for debugging because many of the

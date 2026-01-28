@@ -1,0 +1,6 @@
+environment variable before launching Python.
+   See also "sys.getfilesystemencoding()" and
+   "sys.getfilesystemencodeerrors()".
+   Availability: Windows.
+   Note:
+     Changing the filesystem encoding after Python startup is risky

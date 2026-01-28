@@ -1,0 +1,4 @@
+module.
+Python 3.3 adds several new functions in "time" that can be used to
+make precise measurements of process or wall-clock time. For example,
+see "time.perf_counter()".

@@ -1,0 +1,4 @@
+Changed in version 3.4: Added the POSIX permission check.
+   Changed in version 3.7: "os.path.expanduser()" is used to find the
+   location of the ".netrc" file when *file* is not passed as
+   argument.

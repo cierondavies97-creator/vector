@@ -1,0 +1,6 @@
+in this function.
+   get_frees()
+      Return a tuple containing names of *free (closure) variables* in
+      this function.
+class symtable.Class
+   A namespace of a class.  This class inherits from "SymbolTable".

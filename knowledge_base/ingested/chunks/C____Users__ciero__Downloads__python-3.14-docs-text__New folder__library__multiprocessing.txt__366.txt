@@ -1,0 +1,5 @@
+"get_context()" function.
+   Note that the methods of the pool object should only be called by
+   the process which created the pool.
+   Warning:
+     "multiprocessing.pool" objects have internal resources that need

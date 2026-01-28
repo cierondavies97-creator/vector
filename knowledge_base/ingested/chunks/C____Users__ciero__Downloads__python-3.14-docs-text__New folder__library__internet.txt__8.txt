@@ -1,0 +1,7 @@
+* URL Parsing
+  * URL parsing security
+  * Parsing ASCII Encoded Bytes
+  * Structured Parse Results
+  * URL Quoting
+* "urllib.error" --- Exception classes raised by urllib.request
+* "urllib.robotparser" ---  Parser for robots.txt

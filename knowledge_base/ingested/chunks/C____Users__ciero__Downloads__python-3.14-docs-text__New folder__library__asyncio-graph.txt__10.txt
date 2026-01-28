@@ -1,0 +1,4 @@
+Like "print_call_graph()", but returns a string. If *future* is
+   "None" and there's no current task, the function returns an empty
+   string.
+asyncio.capture_call_graph(future=None, /, *, depth=1, limit=None)

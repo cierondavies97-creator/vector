@@ -1,0 +1,4 @@
+explicitly reset (e.g. using "sys.stdin.seek(0)").
+Empty files are opened and immediately closed; the only time their
+presence in the list of filenames is noticeable at all is when the
+last file opened is empty.

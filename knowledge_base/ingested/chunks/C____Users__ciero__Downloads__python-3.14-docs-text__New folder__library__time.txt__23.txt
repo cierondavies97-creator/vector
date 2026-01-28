@@ -1,0 +1,7 @@
+behavior, such as segmentation fault.
+   Availability: Unix
+   See the man page for *pthread_getcpuclockid(3)* for further
+   information.
+   Added in version 3.7.
+time.clock_getres(clk_id)
+   Return the resolution (precision) of the specified clock *clk_id*.

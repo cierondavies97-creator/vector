@@ -1,0 +1,8 @@
+>>> log = []
+   >>> def f():
+   ...     items = sorted(mydata.__dict__.items())
+   ...     log.append(items)
+   ...     mydata.number = 11
+   ...     log.append(mydata.number)
+   >>> import threading
+   >>> thread = threading.Thread(target=f)

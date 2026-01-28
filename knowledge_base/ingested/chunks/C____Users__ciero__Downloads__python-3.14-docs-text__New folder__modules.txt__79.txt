@@ -1,0 +1,6 @@
+described later.
+Users of the package can import individual modules from the package,
+for example:
+   import sound.effects.echo
+This loads the submodule "sound.effects.echo".  It must be referenced
+with its full name.

@@ -1,0 +1,7 @@
+>>> parser.feed(' more text</mytag>')
+   >>> for event, elem in parser.read_events():
+   ...     print(event)
+   ...     print(elem.tag, 'text=', elem.text)
+   ...
+   end
+   mytag text= sometext more text

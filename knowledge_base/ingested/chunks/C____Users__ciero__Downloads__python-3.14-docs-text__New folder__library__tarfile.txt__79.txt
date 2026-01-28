@@ -1,0 +1,5 @@
+Changed in version 3.5: The "'x'" (exclusive creation) mode was
+   added.
+   Changed in version 3.6: The *name* parameter accepts a *path-like
+   object*.
+   Changed in version 3.13: Add the *stream* parameter.

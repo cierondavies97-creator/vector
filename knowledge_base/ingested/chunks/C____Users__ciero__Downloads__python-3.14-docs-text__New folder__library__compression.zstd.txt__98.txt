@@ -1,0 +1,4 @@
+memory than other levels. Negative values can be used to trade
+      off faster compression for worse compression ratios.
+      Setting the level to zero uses "COMPRESSION_LEVEL_DEFAULT".
+   window_log

@@ -1,0 +1,5 @@
+@functools.cache(user_function)
+   Simple lightweight unbounded function cache.  Sometimes called
+   "memoize".
+   Returns the same as "lru_cache(maxsize=None)", creating a thin
+   wrapper around a dictionary lookup for the function arguments.

@@ -1,0 +1,4 @@
+The embeddable distros are minimal packages of Python suitable for
+embedding into larger applications. They can be installed using the
+Python install manager. See The embeddable package below for more
+information on these packages.

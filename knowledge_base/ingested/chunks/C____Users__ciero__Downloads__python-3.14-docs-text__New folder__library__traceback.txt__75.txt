@@ -1,0 +1,5 @@
+filename
+      The filename of the source code for this frame. Equivalent to
+      accessing "f.f_code.co_filename" on a frame object *f*.
+   lineno
+      The line number of the source code for this frame.

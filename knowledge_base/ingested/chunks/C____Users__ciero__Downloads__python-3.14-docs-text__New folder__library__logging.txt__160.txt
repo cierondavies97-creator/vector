@@ -1,0 +1,3 @@
+Contains all the information pertinent to the event being logged.
+   The primary information is passed in *msg* and *args*, which are
+   combined using "msg % args" to create the "message" attribute of

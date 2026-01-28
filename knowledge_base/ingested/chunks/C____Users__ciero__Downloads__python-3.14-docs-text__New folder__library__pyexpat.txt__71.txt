@@ -1,0 +1,4 @@
+Called for character data.  This will be called for normal
+   character data, CDATA marked content, and ignorable whitespace.
+   Applications which must distinguish these cases can use the
+   "StartCdataSectionHandler", "EndCdataSectionHandler", and

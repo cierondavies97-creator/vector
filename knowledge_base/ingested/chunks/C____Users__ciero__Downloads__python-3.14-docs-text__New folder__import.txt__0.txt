@@ -1,0 +1,5 @@
+5. The import system
+********************
+Python code in one *module* gains access to the code in another module
+by the process of *importing* it.  The "import" statement is the most
+common way of invoking the import machinery, but it is not the only

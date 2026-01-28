@@ -1,0 +1,4 @@
+User-defined method objects may be created when getting an attribute
+of a class (perhaps via an instance of that class), if that attribute
+is a user-defined function object or a "classmethod" object.
+When an instance method object is created by retrieving a user-defined

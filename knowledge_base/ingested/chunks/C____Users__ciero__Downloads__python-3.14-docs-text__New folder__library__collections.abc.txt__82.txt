@@ -1,0 +1,4 @@
+size = len(myvar)
+Several of the ABCs are also useful as mixins that make it easier to
+develop classes supporting container APIs.  For example, to write a
+class supporting the full "Set" API, it is only necessary to supply

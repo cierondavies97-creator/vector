@@ -1,0 +1,3 @@
+example, for PyPy 1.8 "sys.implementation.version" might be
+   "sys.version_info(1, 8, 0, 'final', 0)", whereas "sys.version_info"
+   would be "sys.version_info(2, 7, 2, 'final', 0)".  For CPython they

@@ -1,0 +1,5 @@
+instances to this test suite.
+      This is equivalent to iterating over *tests*, calling
+      "addTest()" for each element.
+   "TestSuite" shares the following methods with "TestCase":
+   run(result)

@@ -1,0 +1,6 @@
+-1024
+   >>> int.from_bytes(b'\xfc\x00', byteorder='big', signed=False)
+   64512
+   >>> int.from_bytes([255, 0, 0], byteorder='big')
+   16711680
+   The argument *bytes* must either be a *bytes-like object* or an

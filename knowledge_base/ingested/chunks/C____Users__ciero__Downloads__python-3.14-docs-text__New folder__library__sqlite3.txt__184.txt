@@ -1,0 +1,4 @@
+"rollback()" have no effect in this mode.
+      * "LEGACY_TRANSACTION_CONTROL": Pre-Python 3.12 (non-**PEP
+        249**-compliant) transaction control. See "isolation_level"
+        for more details.

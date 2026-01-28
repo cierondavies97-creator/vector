@@ -1,0 +1,5 @@
+Produce a set of annotated listing files upon program completion
+   that shows how many times each statement was executed.  See also "
+   --coverdir", "--file" and "--no-report" below.
+-t, --trace
+   Display lines as they are executed.

@@ -1,0 +1,4 @@
+Decode a message header value without converting the character set.
+   The header value is in *header*.
+   For historical reasons, this function may return either:
+   1. A list of pairs containing each of the decoded parts of the

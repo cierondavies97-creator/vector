@@ -1,0 +1,4 @@
+of the "PAGESIZE" or "ALLOCATIONGRANULARITY".
+      "None" is returned to indicate success.  An exception is raised
+      when the call failed.
+      Changed in version 3.8: Previously, a nonzero value was returned

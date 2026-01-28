@@ -1,0 +1,4 @@
+sequence for a regular expression.
+The solution is to use Python's raw string notation for regular
+expression patterns; backslashes are not handled in any special way in
+a string literal prefixed with "'r'".  So "r"\n"" is a two-character

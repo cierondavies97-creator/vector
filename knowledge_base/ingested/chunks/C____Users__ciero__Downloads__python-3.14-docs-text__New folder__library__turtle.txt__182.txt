@@ -1,0 +1,7 @@
+>>> ts
+      <turtle._Screen object at 0x...>
+      >>> ts.bgcolor("pink")
+turtle.setundobuffer(size)
+   Parameters:
+      **size** -- an integer or "None"
+   Set or disable undobuffer.  If *size* is an integer, an empty

@@ -1,0 +1,7 @@
+* UnknownHandler Objects
+  * HTTPErrorProcessor Objects
+  * Examples
+  * Legacy interface
+  * "urllib.request" Restrictions
+* "urllib.response" --- Response classes used by urllib
+* "urllib.parse" --- Parse URLs into components

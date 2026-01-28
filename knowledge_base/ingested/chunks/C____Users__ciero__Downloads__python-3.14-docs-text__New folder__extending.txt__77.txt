@@ -1,0 +1,5 @@
+/* Optionally import the module; alternatively,
+          import can be deferred until the embedded script
+          imports it. */
+       PyObject *pmodule = PyImport_ImportModule("spam");
+       if (!pmodule) {

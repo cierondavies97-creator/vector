@@ -1,0 +1,5 @@
+Raises an "InvalidStateError" error if the Future is already
+      *done*.
+   set_exception(exception)
+      Mark the Future as *done* and set an exception.
+      Raises an "InvalidStateError" error if the Future is already

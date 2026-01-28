@@ -1,0 +1,5 @@
+Changed in version 3.4: The positional argument specifiers can be
+omitted for "Formatter".
+Some simple format string examples:
+   "First, thou shalt count to {0}"  # References first positional argument
+   "Bring me a {}"                   # Implicitly references the first positional argument

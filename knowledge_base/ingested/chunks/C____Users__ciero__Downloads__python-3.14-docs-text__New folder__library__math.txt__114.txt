@@ -1,0 +1,4 @@
+The IEEE 754 special values of "NaN", "inf", and "-inf" will be
+   handled according to IEEE rules.  Specifically, "NaN" is not
+   considered close to any other value, including "NaN".  "inf" and
+   "-inf" are only considered close to themselves.

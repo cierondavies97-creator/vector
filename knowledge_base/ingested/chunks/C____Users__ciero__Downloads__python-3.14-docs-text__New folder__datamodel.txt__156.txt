@@ -1,0 +1,5 @@
+"__spec__.loader" is deprecated. In Python 3.16, "__loader__" will
+   cease to be set or taken into consideration by the import system or
+   the standard library.
+module.__path__
+   A (possibly empty) *sequence* of strings enumerating the locations

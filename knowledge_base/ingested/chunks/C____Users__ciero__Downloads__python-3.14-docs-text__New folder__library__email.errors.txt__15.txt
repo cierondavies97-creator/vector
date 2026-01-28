@@ -1,0 +1,4 @@
+several Python versions.
+exception email.errors.MultipartInvariantViolationDefect
+   A message claimed to be a *multipart*, but no subparts were found.
+   Note that when a message has this defect, its "is_multipart()"

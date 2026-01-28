@@ -1,0 +1,5 @@
+This operation applies the context precision and rounding, so it
+      is *not* an identity operation.
+   power(x, y, modulo=None)
+      Return "x" to the power of "y", reduced modulo "modulo" if
+      given.

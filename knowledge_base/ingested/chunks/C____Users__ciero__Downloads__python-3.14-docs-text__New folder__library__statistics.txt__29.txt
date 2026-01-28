@@ -1,0 +1,5 @@
+>>> from fractions import Fraction as F
+      >>> mean([F(3, 7), F(1, 21), F(5, 3), F(1, 3)])
+      Fraction(13, 21)
+      >>> from decimal import Decimal as D
+      >>> mean([D("0.5"), D("0.75"), D("0.625"), D("0.375")])

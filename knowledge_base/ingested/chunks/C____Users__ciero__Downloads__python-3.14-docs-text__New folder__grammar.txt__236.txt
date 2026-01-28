@@ -1,0 +1,4 @@
+invalid_comprehension:
+       | ('[' | '(' | '{') a=starred_expression for_if_clauses {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "iterable unpacking cannot be used in comprehension") }
+       | ('[' | '{') a=star_named_expression ',' b=star_named_expressions for_if_clauses {

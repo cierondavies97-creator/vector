@@ -1,0 +1,3 @@
+| "fragment"         | 4       | Fragment identifier       | empty string           |
+   +--------------------+---------+---------------------------+------------------------+
+   | "username"         |         | User name                 | "None"                 |

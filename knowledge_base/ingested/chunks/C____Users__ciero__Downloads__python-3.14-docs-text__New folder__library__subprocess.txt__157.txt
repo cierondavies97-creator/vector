@@ -1,0 +1,5 @@
+"Popen" creation.  The following attributes can be set by passing
+   them as keyword-only arguments.
+   Changed in version 3.7: Keyword-only argument support was added.
+   dwFlags
+      A bit field that determines whether certain "STARTUPINFO"

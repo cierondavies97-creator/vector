@@ -1,0 +1,6 @@
+From file itself
+----------------
+Decompression may fail due to incorrect password / CRC checksum / ZIP
+format or unsupported compression method / decryption.
+File system limitations
+-----------------------

@@ -1,0 +1,4 @@
+a result stores a weak reference to it, so it doesn't prevent the
+   result from being garbage collected.
+   Registering a "TestResult" object has no side-effects if control-c
+   handling is not enabled, so test frameworks can unconditionally

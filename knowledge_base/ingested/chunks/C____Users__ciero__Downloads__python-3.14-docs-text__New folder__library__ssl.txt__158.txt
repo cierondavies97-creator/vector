@@ -1,0 +1,4 @@
+key in the dictionary.
+   The "subject" and "issuer" fields are tuples containing the
+   sequence of relative distinguished names (RDNs) given in the
+   certificate's data structure for the respective fields, and each

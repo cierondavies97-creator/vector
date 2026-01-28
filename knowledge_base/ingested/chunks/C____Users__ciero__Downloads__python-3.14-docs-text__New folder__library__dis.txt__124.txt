@@ -1,0 +1,6 @@
+Added in version 3.14.
+LOAD_NAME(namei)
+   Pushes the value associated with "co_names[namei]" onto the stack.
+   The name is looked up within the locals, then the globals, then the
+   builtins.
+LOAD_LOCALS

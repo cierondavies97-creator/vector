@@ -1,0 +1,3 @@
+|=============================|===============================================|
+   | "KQ_FILTER_READ"            | Takes a descriptor and returns whenever there |
+   |                             | is data available to read                     |

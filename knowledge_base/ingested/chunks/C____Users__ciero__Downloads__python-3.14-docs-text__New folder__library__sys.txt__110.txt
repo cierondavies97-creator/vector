@@ -1,0 +1,5 @@
+"-X" "utf8" flag.
+   Changed in version 3.10: Added "warn_default_encoding" attribute
+   for "-X" "warn_default_encoding" flag.
+   Changed in version 3.11: Added the "safe_path" attribute for "-P"
+   option.

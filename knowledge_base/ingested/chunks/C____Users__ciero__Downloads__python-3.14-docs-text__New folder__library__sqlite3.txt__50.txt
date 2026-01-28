@@ -1,0 +1,4 @@
+See "runsource()" in Lib/sqlite3/__main__.py for real-world use.
+sqlite3.enable_callback_tracebacks(flag, /)
+   Enable or disable callback tracebacks. By default you will not get
+   any tracebacks in user-defined functions, aggregates, converters,

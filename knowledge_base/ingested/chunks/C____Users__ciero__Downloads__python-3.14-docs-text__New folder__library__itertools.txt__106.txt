@@ -1,0 +1,6 @@
+break
+              else:
+                  return
+itertools.product(*iterables, repeat=1)
+   Cartesian product of the input iterables.
+   Roughly equivalent to nested for-loops in a generator expression.

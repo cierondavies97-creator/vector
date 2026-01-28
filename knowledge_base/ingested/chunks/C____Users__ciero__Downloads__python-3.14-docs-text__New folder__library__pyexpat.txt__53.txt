@@ -1,0 +1,5 @@
+xmlparser.ErrorCode
+   Numeric code specifying the problem.  This value can be passed to
+   the "ErrorString()" function, or compared to one of the constants
+   defined in the "errors" object.
+xmlparser.ErrorColumnNumber

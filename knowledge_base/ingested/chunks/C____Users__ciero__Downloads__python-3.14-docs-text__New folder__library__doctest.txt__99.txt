@@ -1,0 +1,4 @@
+earlier failures; but it might also hide incorrect examples that
+   fail independently of the first failure.  When
+   "REPORT_ONLY_FIRST_FAILURE" is specified, the remaining examples
+   are still run, and still count towards the total number of failures

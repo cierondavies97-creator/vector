@@ -1,0 +1,5 @@
+Changed in version 3.6:
+   * Support added to accept objects implementing "os.PathLike".
+   * On Windows, opening a console buffer may return a subclass of
+     "io.RawIOBase" other than "io.FileIO".
+   Changed in version 3.11: The "'U'" mode has been removed.

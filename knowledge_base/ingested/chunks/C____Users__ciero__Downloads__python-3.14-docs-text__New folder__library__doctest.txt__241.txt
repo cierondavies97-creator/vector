@@ -1,0 +1,3 @@
+*example* is the example about to be processed. *exc_info* is a
+      tuple containing information about the unexpected exception (as
+      returned by "sys.exc_info()"). *test* is the test containing

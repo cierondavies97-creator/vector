@@ -1,0 +1,7 @@
+"c_long".
+class ctypes.c_int8
+   Represents the C 8-bit signed int datatype.  It is an alias for
+   "c_byte".
+class ctypes.c_int16
+   Represents the C 16-bit signed int datatype.  Usually an alias for
+   "c_short".

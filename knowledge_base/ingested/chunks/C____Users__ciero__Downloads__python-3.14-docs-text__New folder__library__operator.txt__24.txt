@@ -1,0 +1,5 @@
+functions that expect a function argument.
+operator.attrgetter(attr)
+operator.attrgetter(*attrs)
+   Return a callable object that fetches *attr* from its operand. If
+   more than one attribute is requested, returns a tuple of

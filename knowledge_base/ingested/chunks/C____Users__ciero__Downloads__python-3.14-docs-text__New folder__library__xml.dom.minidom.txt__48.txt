@@ -1,0 +1,4 @@
+type. These objects provide the interface defined in the DOM
+  specification, but with earlier versions of Python they do not
+  support the official API.  They are, however, much more "Pythonic"
+  than the interface defined in the W3C recommendations.

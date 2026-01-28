@@ -1,0 +1,5 @@
+k = db.nextkey(k)
+   gdbm.reorganize()
+      If you have carried out a lot of deletions and would like to
+      shrink the space used by the GDBM file, this routine will
+      reorganize the database.  "gdbm" objects will not shorten the

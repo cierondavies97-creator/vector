@@ -1,0 +1,3 @@
+that contribute to the type's hash value.  Even if a field is
+     excluded from the hash, it will still be used for comparisons.
+   * *compare*: If true (the default), this field is included in the

@@ -1,0 +1,4 @@
+value must be a str object.
+   This method differs from "object.__repr__()" in that there is no
+   expectation that "__str__()" return a valid Python expression: a
+   more convenient or concise representation can be used.

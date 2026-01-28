@@ -1,0 +1,4 @@
+method on a class the mocked function will be turned into a bound
+method if it is fetched from an instance. It will have "self" passed
+in as the first argument, which is exactly what was needed:
+>>> class Foo:

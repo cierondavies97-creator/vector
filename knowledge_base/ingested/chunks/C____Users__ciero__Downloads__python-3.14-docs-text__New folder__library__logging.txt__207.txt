@@ -1,0 +1,4 @@
+class logging.LoggerAdapter(logger, extra=None, merge_extra=False)
+   Returns an instance of "LoggerAdapter" initialized with an
+   underlying "Logger" instance, an optional dict-like object
+   (*extra*), and an optional boolean (*merge_extra*) indicating

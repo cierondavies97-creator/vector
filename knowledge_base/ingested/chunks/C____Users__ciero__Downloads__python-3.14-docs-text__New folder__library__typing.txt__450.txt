@@ -1,0 +1,4 @@
+introspected at runtime using "get_overloads()".
+typing.get_overloads(func)
+   Return a sequence of "@overload"-decorated definitions for *func*.
+   *func* is the function object for the implementation of the

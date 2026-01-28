@@ -1,0 +1,3 @@
+Mock allows you to assign functions (or other Mock instances) to magic
+methods and they will be called appropriately. The "MagicMock" class
+is just a Mock variant that has all of the magic methods pre-created

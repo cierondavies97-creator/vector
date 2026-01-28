@@ -1,0 +1,5 @@
+not defined then this protocol is unsupported.  More constants may
+   be available depending on the system.
+socket.AF_UNSPEC
+   "AF_UNSPEC" means that "getaddrinfo()" should return socket
+   addresses for any address family (either IPv4, IPv6, or any other)

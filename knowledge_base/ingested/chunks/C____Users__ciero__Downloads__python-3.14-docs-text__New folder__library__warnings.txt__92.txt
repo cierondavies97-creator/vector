@@ -1,0 +1,3 @@
+""default"", ""module"" and ""once"" are handled as ""always"".
+   *module_globals*, if supplied, should be the global namespace in
+   use by the code for which the warning is issued.  (This argument is

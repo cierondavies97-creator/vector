@@ -1,0 +1,5 @@
+stdout
+      Alias for output, for symmetry with "stderr".
+   stderr
+      Stderr output of the child process if it was captured by
+      "run()". Otherwise, "None".  This is always "bytes" when stderr

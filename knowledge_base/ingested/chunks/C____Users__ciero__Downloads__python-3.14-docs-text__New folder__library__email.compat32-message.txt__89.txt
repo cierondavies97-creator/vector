@@ -1,0 +1,4 @@
+in which case you should consider "VALUE" to be encoded in the
+      "us-ascii" charset.  You can usually ignore "LANGUAGE".
+      If your application doesn't care whether the parameter was
+      encoded as in **RFC 2231**, you can collapse the parameter value

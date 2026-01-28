@@ -1,0 +1,5 @@
+os.rmdir(os.path.join(root, name))
+      os.rmdir(top)
+   Raises an auditing event "os.walk" with arguments "top", "topdown",
+   "onerror", "followlinks".
+   Changed in version 3.5: This function now calls "os.scandir()"

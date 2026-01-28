@@ -1,0 +1,5 @@
+Logging Levels
+==============
+The numeric values of logging levels are given in the following table.
+These are primarily of interest if you want to define your own levels,
+and need them to have specific values relative to the predefined

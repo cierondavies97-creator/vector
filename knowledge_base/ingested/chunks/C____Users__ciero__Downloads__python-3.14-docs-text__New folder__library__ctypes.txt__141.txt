@@ -1,0 +1,11 @@
+>>> pi[0]
+   99
+   >>>
+Assigning to an integer index changes the pointed to value:
+   >>> print(i)
+   c_long(99)
+   >>> pi[0] = 22
+   >>> print(i)
+   c_long(22)
+   >>>
+It is also possible to use indexes different from 0, but you must know

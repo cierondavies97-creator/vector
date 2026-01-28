@@ -1,0 +1,4 @@
+A context manager to test that no messages are logged on the
+      *logger* or one of its children, with at least the given
+      *level*.
+      If given, *logger* should be a "logging.Logger" object or a

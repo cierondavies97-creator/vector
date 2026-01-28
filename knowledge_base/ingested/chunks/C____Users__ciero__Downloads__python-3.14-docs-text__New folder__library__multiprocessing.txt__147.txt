@@ -1,0 +1,4 @@
+default), block if necessary until an item is available.  If
+      *timeout* is a positive number, it blocks at most *timeout*
+      seconds and raises the "queue.Empty" exception if no item was
+      available within that time.  Otherwise (block is "False"),

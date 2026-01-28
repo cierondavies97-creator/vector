@@ -1,0 +1,5 @@
+CONTINUOUS
+      Ensure that there are no missing values between the lowest-
+      valued member and the highest-valued member:
+         >>> from enum import Enum, verify, CONTINUOUS
+         >>> @verify(CONTINUOUS)

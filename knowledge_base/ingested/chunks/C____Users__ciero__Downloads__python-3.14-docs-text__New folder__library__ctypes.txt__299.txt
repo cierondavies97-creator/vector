@@ -1,0 +1,4 @@
+>>>
+Functions with output parameters will automatically return the output
+parameter value if there is a single one, or a tuple containing the
+output parameter values when there are more than one, so the

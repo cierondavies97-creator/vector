@@ -1,0 +1,3 @@
+You can modify some of the "TarInfo"’s attributes before you add it
+   using "addfile()". If the file object is not an ordinary file
+   object positioned at the beginning of the file, attributes such as

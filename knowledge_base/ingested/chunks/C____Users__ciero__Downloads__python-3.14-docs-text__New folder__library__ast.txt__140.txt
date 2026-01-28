@@ -1,0 +1,6 @@
+...                indent=4)) # Multiple comprehensions in one.
+      Expression(
+          body=ListComp(
+              elt=Call(
+                  func=Name(id='ord', ctx=Load()),
+                  args=[

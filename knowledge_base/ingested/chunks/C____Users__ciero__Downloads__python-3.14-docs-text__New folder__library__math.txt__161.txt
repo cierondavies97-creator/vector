@@ -1,0 +1,4 @@
+Added in version 3.5.
+   Changed in version 3.11: It is now always available.
+**CPython implementation detail:** The "math" module consists mostly
+of thin wrappers around the platform C math library functions.

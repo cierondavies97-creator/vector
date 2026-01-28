@@ -1,0 +1,4 @@
+pointing to a file; return "False" if the entry is or points to
+      a directory or other non-file entry, or if it doesn't exist
+      anymore.
+      If *follow_symlinks* is "False", return "True" only if this

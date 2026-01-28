@@ -1,0 +1,6 @@
+yield from iter_index(data, 1, start=3)
+   def factor(n):
+       "Prime factors of n."
+       # factor(99) → 3 3 11
+       # factor(1_000_000_000_000_007) → 47 59 360620266859
+       # factor(1_000_000_000_000_403) → 1000000000000403

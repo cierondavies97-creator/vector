@@ -1,0 +1,4 @@
+different places, for instance:
+* In type annotations, such as callable arguments or tuple elements.
+* As the body of a function instead of a pass statement.
+* In third-party libraries, such as Numpy's slicing and striding.

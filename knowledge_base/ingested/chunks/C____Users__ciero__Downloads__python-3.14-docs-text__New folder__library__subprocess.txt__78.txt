@@ -1,0 +1,5 @@
+size
+   * negative bufsize (the default) means the system default of
+     io.DEFAULT_BUFFER_SIZE will be used.
+   Changed in version 3.3.1: *bufsize* now defaults to -1 to enable
+   buffering by default to match the behavior that most code expects.

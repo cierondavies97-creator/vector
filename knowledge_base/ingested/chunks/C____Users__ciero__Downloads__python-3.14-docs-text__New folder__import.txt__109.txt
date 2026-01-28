@@ -1,0 +1,4 @@
+Each path entry names a location to search for modules.
+The path based finder itself doesn't know how to import anything.
+Instead, it traverses the individual path entries, associating each of
+them with a path entry finder that knows how to handle that particular

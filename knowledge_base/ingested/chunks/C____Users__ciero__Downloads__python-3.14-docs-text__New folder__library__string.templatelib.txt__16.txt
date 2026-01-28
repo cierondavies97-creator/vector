@@ -1,0 +1,5 @@
+"tuple(i.value for i in template.interpolations)".
+   -[ Methods ]-
+   __new__(*args: str | Interpolation)
+      While literal syntax is the most common way to create a
+      "Template", it is also possible to create them directly using

@@ -1,0 +1,5 @@
+and "this".
+* *default_section*, default value: "configparser.DEFAULTSECT" (that
+  is: ""DEFAULT"")
+  The convention of allowing a special section of default values for
+  other sections or interpolation purposes is a powerful concept of

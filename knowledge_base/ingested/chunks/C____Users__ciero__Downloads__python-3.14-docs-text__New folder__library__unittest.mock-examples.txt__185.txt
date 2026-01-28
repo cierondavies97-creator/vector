@@ -1,0 +1,4 @@
+------------------------------
+Using the same basic concept as "ANY" we can implement matchers to do
+more complex assertions on objects used as arguments to mocks.
+Suppose we expect some object to be passed to a mock that by default

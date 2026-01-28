@@ -1,0 +1,4 @@
+int or a float.  If *timeout* is not specified or "None", there
+      is no limit to the wait time.
+      If a *fn* call raises an exception, then that exception will be
+      raised when its value is retrieved from the iterator.

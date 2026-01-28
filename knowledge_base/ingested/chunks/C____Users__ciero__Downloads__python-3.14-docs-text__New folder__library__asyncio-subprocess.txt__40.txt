@@ -1,0 +1,5 @@
+# Create the subprocess; redirect the standard output
+       # into a pipe.
+       proc = await asyncio.create_subprocess_exec(
+           sys.executable, '-c', code,
+           stdout=asyncio.subprocess.PIPE)

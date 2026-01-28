@@ -1,0 +1,4 @@
+pathlib.
+Python's "str" and "bytes" types, and portions of the "os" and
+"os.path" modules, are written in C and are very speedy. pathlib is
+written in pure Python and is often slower, but rarely slow enough to

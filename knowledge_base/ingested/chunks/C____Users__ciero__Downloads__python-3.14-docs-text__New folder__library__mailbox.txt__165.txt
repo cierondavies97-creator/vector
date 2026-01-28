@@ -1,0 +1,3 @@
+| P flag                          | "forwarded" or "resent" label   |
++---------------------------------+---------------------------------+
+| R flag                          | "answered" label                |

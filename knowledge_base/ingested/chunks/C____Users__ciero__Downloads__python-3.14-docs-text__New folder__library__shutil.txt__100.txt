@@ -1,0 +1,3 @@
+are also provided.  They rely on the "zipfile" and "tarfile" modules.
+shutil.make_archive(base_name, format[, root_dir[, base_dir[, verbose[, dry_run[, owner[, group[, logger]]]]]]])
+   Create an archive file (such as zip or tar) and return its name.

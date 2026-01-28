@@ -1,0 +1,4 @@
+register(typeid[, callable[, proxytype[, exposed[, method_to_typeid[, create_method]]]]])
+      A classmethod which can be used for registering a type or
+      callable with the manager class.
+      *typeid* is a "type identifier" which is used to identify a

@@ -1,0 +1,4 @@
+found, the relevant sub-directories added to "sys.path" ("Lib",
+  "plat-win", etc) are based on that folder.  Otherwise, the core
+  Python path is constructed from the PythonPath stored in the
+  registry.

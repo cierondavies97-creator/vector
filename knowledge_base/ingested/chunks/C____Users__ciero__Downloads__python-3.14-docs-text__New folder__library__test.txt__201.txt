@@ -1,0 +1,4 @@
+yields the directory.
+   If *path* is "None", the temporary directory is created using
+   "tempfile.mkdtemp()".  If *quiet* is "False", the context manager
+   raises an exception on error.  Otherwise, if *path* is specified

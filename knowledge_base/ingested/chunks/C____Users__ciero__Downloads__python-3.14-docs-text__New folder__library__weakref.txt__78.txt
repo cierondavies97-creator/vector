@@ -1,0 +1,7 @@
+self.name = tempfile.mkdtemp()
+       def remove(self):
+           if self.name is not None:
+               shutil.rmtree(self.name)
+               self.name = None
+       @property
+       def removed(self):

@@ -1,0 +1,5 @@
+parameter is honored.
+SimpleXMLRPCServer Objects
+==========================
+The "SimpleXMLRPCServer" class is based on "socketserver.TCPServer"
+and provides a means of creating simple, stand alone XML-RPC servers.

@@ -1,0 +1,4 @@
+Changed in version 3.2: The *verbosity*, *failfast*, *catchbreak*,
+   *buffer* and *warnings* parameters were added.
+   Changed in version 3.4: The *defaultTest* parameter was changed to
+   also accept an iterable of test names.

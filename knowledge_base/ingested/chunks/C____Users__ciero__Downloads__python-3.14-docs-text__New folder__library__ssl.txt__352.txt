@@ -1,0 +1,5 @@
+...                            server_hostname="www.python.org")
+   >>> conn.connect(("www.python.org", 443))
+You may then fetch the certificate:
+   >>> cert = conn.getpeercert()
+Visual inspection shows that the certificate does identify the desired

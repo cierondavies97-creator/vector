@@ -1,0 +1,4 @@
+replaced item, which invokes replaced item's corresponding
+"tp_dealloc" function. During deallocation, "tp_dealloc" calls
+"tp_finalize", which is mapped to the "__del__()" method for class
+instances (see **PEP 442**). This entire sequence happens

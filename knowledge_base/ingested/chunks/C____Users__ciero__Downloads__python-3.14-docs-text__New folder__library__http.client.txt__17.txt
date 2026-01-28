@@ -1,0 +1,4 @@
+This module provides the following function:
+http.client.parse_headers(fp)
+   Parse the headers from a file pointer *fp* representing a HTTP
+   request/response. The file has to be a "BufferedIOBase" reader

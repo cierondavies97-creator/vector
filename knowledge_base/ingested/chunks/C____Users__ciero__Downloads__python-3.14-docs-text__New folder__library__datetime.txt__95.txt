@@ -1,0 +1,4 @@
+Notes:
+1. *date2* is moved forward in time if "timedelta.days > 0", or
+   backward if "timedelta.days < 0". Afterward "date2 - date1 ==
+   timedelta.days". "timedelta.seconds" and "timedelta.microseconds"

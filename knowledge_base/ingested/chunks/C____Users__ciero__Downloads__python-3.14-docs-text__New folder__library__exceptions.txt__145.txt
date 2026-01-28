@@ -1,0 +1,5 @@
+>>> e = MyGroup("eg", [ValueError(1), TypeError(2)])
+         >>> e.add_note("a note")
+         >>> e.__context__ = Exception("context")
+         >>> e.__cause__ = Exception("cause")
+         >>> try:

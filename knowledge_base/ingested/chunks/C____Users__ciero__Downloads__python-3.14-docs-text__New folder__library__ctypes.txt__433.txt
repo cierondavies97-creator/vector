@@ -1,0 +1,9 @@
+"CField" class was not available directly.
+   name
+      Name of the field, as a string.
+   type
+      Type of the field, as a ctypes class.
+   offset
+   byte_offset
+      Offset of the field, in bytes.
+      For bitfields, this is the offset of the underlying byte-aligned

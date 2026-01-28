@@ -1,0 +1,8 @@
+def utcoffset(self, dt):
+           if self._isdst(dt):
+               return DSTOFFSET
+           else:
+               return STDOFFSET
+       def dst(self, dt):
+           if self._isdst(dt):
+               return DSTDIFF

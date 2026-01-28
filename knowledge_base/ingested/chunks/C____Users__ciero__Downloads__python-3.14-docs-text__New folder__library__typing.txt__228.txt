@@ -1,0 +1,5 @@
+returns "False", type checkers can narrow the type of the
+     variable to exclude the "TypeIs" type.
+   Added in version 3.10.
+typing.Unpack
+   Typing operator to conceptually mark an object as having been

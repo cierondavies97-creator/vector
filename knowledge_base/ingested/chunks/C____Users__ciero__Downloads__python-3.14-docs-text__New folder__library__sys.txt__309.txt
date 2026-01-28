@@ -1,0 +1,3 @@
+"None"; the return value specifies the new local trace function.
+      Per-opcode events are not emitted by default: they must be
+      explicitly requested by setting "f_trace_opcodes" to "True" on

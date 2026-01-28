@@ -1,0 +1,3 @@
+numbers consisting of their quotient and remainder when using
+   integer division.  With mixed operand types, the rules for binary
+   arithmetic operators apply.  For integers, the result is the same

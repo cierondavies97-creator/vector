@@ -1,0 +1,6 @@
+value is specified.
+test.support.python_is_optimized()
+   Return "True" if Python was not built with "-O0" or "-Og".
+test.support.with_pymalloc()
+   Return "_testcapi.WITH_PYMALLOC".
+test.support.requires(resource, msg=None)

@@ -1,0 +1,6 @@
+The "do_playback()" method reads the file and adds the recorded
+commands to the "cmdqueue" for immediate playback:
+   import cmd, sys
+   from turtle import *
+   class TurtleShell(cmd.Cmd):
+       intro = 'Welcome to the turtle shell.   Type help or ? to list commands.\n'

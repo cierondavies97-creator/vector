@@ -1,0 +1,6 @@
+--terse
+   Print terse information about the platform. This is equivalent to
+   calling "platform.platform()" with the *terse* argument set to
+   "True".
+--nonaliased
+   Print platform information without system/OS name aliasing. This is

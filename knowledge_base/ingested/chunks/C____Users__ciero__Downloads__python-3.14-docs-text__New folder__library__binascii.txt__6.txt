@@ -1,0 +1,4 @@
+represented by "'`'" instead of spaces.
+   Changed in version 3.7: Added the *backtick* parameter.
+binascii.a2b_base64(string, /, *, strict_mode=False)
+   Convert a block of base64 data back to binary and return the binary

@@ -1,0 +1,5 @@
+allowed for this attribute, unlike the *filter* argument to
+   "extract()".
+   If "extraction_filter" is "None" (the default), extraction methods
+   will use the "data" filter by default.
+   The attribute may be set on instances or overridden in subclasses.

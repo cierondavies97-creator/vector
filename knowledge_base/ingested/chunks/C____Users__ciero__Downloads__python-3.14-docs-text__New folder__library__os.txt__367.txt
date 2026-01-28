@@ -1,0 +1,4 @@
+Changed in version 3.6: Accepts a *path-like object*.
+os.scandir(path='.')
+   Return an iterator of "os.DirEntry" objects corresponding to the
+   entries in the directory given by *path*. The entries are yielded

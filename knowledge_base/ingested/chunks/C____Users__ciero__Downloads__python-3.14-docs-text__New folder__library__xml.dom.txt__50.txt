@@ -1,0 +1,4 @@
+element, in which case it will be the "Document" object. For "Attr"
+   nodes, this is always "None". This is a read-only attribute.
+Node.attributes
+   A "NamedNodeMap" of attribute objects.  Only elements have actual

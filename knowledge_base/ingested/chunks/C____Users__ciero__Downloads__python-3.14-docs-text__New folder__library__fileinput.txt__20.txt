@@ -1,0 +1,6 @@
+has no effect; it cannot be used to skip the first file.  After the
+   last line of the last file has been read, this function has no
+   effect.
+fileinput.close()
+   Close the sequence.
+The class which implements the sequence behavior provided by the

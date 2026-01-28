@@ -1,0 +1,5 @@
+Changed in version 3.5: Writable *bytes-like object* is now
+   accepted.
+socket.CMSG_LEN(length)
+   Return the total length, without trailing padding, of an ancillary
+   data item with associated data of the given *length*.  This value

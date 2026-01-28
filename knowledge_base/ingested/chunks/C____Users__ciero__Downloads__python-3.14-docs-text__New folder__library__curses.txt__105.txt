@@ -1,0 +1,7 @@
+Window Objects
+==============
+class curses.window
+   Window objects, as returned by "initscr()" and "newwin()" above,
+   have the following methods and attributes:
+window.addch(ch[, attr])
+window.addch(y, x, ch[, attr])

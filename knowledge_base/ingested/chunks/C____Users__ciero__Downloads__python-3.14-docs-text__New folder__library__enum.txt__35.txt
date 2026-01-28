@@ -1,0 +1,7 @@
+they will have a quadratic performance impact during creation
+        relative to the total number of mutable/unhashable values in
+        the enum.
+   _name_
+      Name of the member.
+   _value_
+      Value of the member, can be set in "__new__()".

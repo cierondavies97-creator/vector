@@ -1,0 +1,4 @@
+normalized to lower case and empty components may be dropped.
+   Specifically, empty parameters, queries, and fragment identifiers
+   will be removed.
+   For "urldefrag()" results, only empty fragment identifiers will be

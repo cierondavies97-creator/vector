@@ -1,0 +1,4 @@
+"x.__gt__(y)", and "x>=y" calls "x.__ge__(y)".
+   A rich comparison method may return the singleton "NotImplemented"
+   if it does not implement the operation for a given pair of
+   arguments. By convention, "False" and "True" are returned for a

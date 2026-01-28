@@ -1,0 +1,4 @@
+in utilities such as **ps**.  If "shell=True", on POSIX the
+   *executable* argument specifies a replacement shell for the default
+   "/bin/sh".
+   Changed in version 3.6: *executable* parameter accepts a *path-like

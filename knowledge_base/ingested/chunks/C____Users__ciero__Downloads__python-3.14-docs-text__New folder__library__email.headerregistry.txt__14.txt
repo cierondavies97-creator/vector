@@ -1,0 +1,4 @@
+non-ASCII data will be **RFC 2047** encoded.
+   "BaseHeader" by itself cannot be used to create a header object.
+   It defines a protocol that each specialized header cooperates with
+   in order to produce the header object.  Specifically, "BaseHeader"

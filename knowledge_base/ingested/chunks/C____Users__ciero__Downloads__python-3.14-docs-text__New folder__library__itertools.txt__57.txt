@@ -1,0 +1,5 @@
+repeated values within each combination.
+   Roughly equivalent to:
+      def combinations(iterable, r):
+          # combinations('ABCD', 2) → AB AC AD BC BD CD
+          # combinations(range(4), 3) → 012 013 023 123

@@ -1,0 +1,4 @@
+o.do_something_useful()
+Using a separate test for "liveness" creates race conditions in
+threaded applications; another thread can cause a weak reference to
+become invalidated before the weak reference is called; the idiom

@@ -1,0 +1,8 @@
+* Patch Decorators
+  * Further Examples
+    * Mocking chained calls
+    * Partial mocking
+    * Mocking a Generator Method
+    * Applying the same patch to every test method
+    * Mocking Unbound Methods
+    * Checking multiple calls with mock

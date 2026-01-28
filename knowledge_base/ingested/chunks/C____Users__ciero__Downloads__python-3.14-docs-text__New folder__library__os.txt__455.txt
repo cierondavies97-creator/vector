@@ -1,0 +1,4 @@
+an open file descriptor for their *dir_fd* parameter. Different
+   platforms provide different features, and the underlying
+   functionality Python uses to implement the *dir_fd* parameter is
+   not available on all platforms Python supports.  For consistency's

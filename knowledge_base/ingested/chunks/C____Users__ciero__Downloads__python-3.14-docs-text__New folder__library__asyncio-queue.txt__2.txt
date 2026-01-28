@@ -1,0 +1,6 @@
+Queue
+=====
+class asyncio.Queue(maxsize=0)
+   A first in, first out (FIFO) queue.
+   If *maxsize* is less than or equal to zero, the queue size is
+   infinite.  If it is an integer greater than "0", then "await put()"

@@ -1,0 +1,3 @@
+single optional parameter *factory*. If supplied, this must be a
+      *callable* returning an instance of "Cursor" or its subclasses.
+   blobopen(table, column, rowid, /, *, readonly=False, name='main')

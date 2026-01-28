@@ -1,0 +1,4 @@
+Add headers and payload to *msg*:
+      Add a *Content-Type* header with a "maintype/subtype" value.
+      * For "str", set the MIME "maintype" to "text", and set the
+        subtype to *subtype* if it is specified, or "plain" if it is

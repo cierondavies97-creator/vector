@@ -1,0 +1,5 @@
+or "None" if the message follows **RFC 2183**.
+      Added in version 3.5.
+   walk()
+      The "walk()" method is an all-purpose generator which can be
+      used to iterate over all the parts and subparts of a message

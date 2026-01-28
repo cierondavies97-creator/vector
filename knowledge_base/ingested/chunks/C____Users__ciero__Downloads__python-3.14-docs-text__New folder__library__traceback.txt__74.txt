@@ -1,0 +1,4 @@
+lookups happening at all. *locals* is an optional local variable
+   mapping, and if supplied the variable representations are stored in
+   the summary for later display.
+   "FrameSummary" instances have the following attributes:

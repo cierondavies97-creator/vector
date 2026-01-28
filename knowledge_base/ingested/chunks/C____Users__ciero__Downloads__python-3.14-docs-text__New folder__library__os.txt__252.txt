@@ -1,0 +1,4 @@
+*path* as a file descriptor.
+* **paths relative to directory descriptors:** If *dir_fd* is not
+  "None", it should be a file descriptor referring to a directory, and
+  the path to operate on should be relative; path will then be

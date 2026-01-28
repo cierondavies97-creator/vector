@@ -1,0 +1,4 @@
+Changed in version 3.8: Added the optional *initial* parameter.
+itertools.batched(iterable, n, *, strict=False)
+   Batch data from the *iterable* into tuples of length *n*. The last
+   batch may be shorter than *n*.

@@ -1,0 +1,6 @@
+"select.epoll()" object.
+class selectors.DevpollSelector
+   "select.devpoll()"-based selector.
+   fileno()
+      This returns the file descriptor used by the underlying
+      "select.devpoll()" object.

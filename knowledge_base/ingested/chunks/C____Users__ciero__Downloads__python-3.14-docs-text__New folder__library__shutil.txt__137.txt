@@ -1,0 +1,4 @@
+-rw-r--r-- tarek/staff     609 2008-06-09 13:26:54 ./authorized_keys
+   -rwxr-xr-x tarek/staff      65 2008-06-09 13:26:54 ./config
+   -rwx------ tarek/staff     668 2008-06-09 13:26:54 ./id_dsa
+   -rwxr-xr-x tarek/staff     609 2008-06-09 13:26:54 ./id_dsa.pub

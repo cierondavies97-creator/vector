@@ -1,0 +1,7 @@
+etc.
+"dir()" does not list the names of built-in functions and variables.
+If you want a list of those, they are defined in the standard module
+"builtins":
+   >>> import builtins
+   >>> dir(builtins)
+   ['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException',

@@ -1,0 +1,7 @@
+likely to result in a segmentation violation or a more subtle
+     data corruption.
+   An example:
+      >>> import array, fcntl, struct, termios, os
+      >>> os.getpgrp()
+      13341
+      >>> struct.unpack('h', fcntl.ioctl(0, termios.TIOCGPGRP, "  "))[0]

@@ -1,0 +1,4 @@
+is "bytes".  Other *bytes-like objects* are accepted as method
+   arguments too.  Text I/O classes work with "str" data.
+   Note that calling any method (even inquiries) on a closed stream is
+   undefined.  Implementations may raise "ValueError" in this case.

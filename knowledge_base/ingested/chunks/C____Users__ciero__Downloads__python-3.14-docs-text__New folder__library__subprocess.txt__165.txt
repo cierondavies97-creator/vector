@@ -1,0 +1,5 @@
+constructor, else "OSError" will be raised with Windows error
+         "ERROR_INVALID_PARAMETER" (87).
+         Warning:
+           In a multithreaded process, use caution to avoid leaking
+           handles that are marked inheritable when combining this

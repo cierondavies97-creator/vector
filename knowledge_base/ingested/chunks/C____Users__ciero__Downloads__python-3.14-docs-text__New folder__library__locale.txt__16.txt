@@ -1,0 +1,2 @@
+|                        |                                       | grouping is performed. If the    |
+   |                        |                                       | sequence terminates with a "0",  |

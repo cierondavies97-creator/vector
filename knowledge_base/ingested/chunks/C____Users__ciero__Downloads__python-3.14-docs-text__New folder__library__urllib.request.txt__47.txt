@@ -1,0 +1,4 @@
+and *data* is not "None", "Content-Type: application/x-www-form-
+   urlencoded" will be added as a default.
+   The next two arguments are only of interest for correct handling of
+   third-party HTTP cookies:

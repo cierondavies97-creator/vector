@@ -1,0 +1,4 @@
+is a method rather than a fixed string primarily because some
+   "tzinfo" subclasses will wish to return different names depending
+   on the specific value of *dt* passed, especially if the "tzinfo"
+   class is accounting for daylight time.

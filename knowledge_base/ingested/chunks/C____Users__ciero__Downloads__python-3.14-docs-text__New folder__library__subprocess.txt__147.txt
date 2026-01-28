@@ -1,0 +1,4 @@
+If the *stdin* argument was "PIPE", this attribute is a writeable
+   stream object as returned by "open()". If the *encoding* or
+   *errors* arguments were specified or the *text* or
+   *universal_newlines* argument was "True", the stream is a text

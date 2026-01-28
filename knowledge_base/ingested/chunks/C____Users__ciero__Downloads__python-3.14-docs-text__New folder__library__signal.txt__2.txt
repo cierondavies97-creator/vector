@@ -1,0 +1,4 @@
+and sockets can be reported as ordinary Python exceptions) and
+"SIGINT" is translated into a "KeyboardInterrupt" exception if the
+parent process has not changed it.
+A handler for a particular signal, once set, remains installed until

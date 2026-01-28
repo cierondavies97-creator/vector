@@ -1,0 +1,1 @@
+equality matcher (hamcrest.library.integration.match_equality).

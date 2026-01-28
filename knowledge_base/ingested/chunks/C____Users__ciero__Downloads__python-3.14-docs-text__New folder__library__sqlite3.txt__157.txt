@@ -1,0 +1,4 @@
+con.close()
+      See also: How to handle non-UTF-8 text encodings
+      Changed in version 3.13: Added the *filter* parameter.
+   backup(target, *, pages=-1, progress=None, name='main', sleep=0.250)

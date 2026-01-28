@@ -1,0 +1,5 @@
+system identifier for the entity, and fail if it is not available.
+XMLReader.getErrorHandler()
+   Return the current "ErrorHandler".
+XMLReader.setErrorHandler(handler)
+   Set the current error handler.  If no "ErrorHandler" is set, errors

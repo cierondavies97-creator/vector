@@ -1,0 +1,4 @@
+emits an error if the value is not of the specified type:
+      def greet(name: str) -> None:
+          assert_type(name, str)  # OK, inferred type of `name` is `str`
+          assert_type(name, int)  # type checker error

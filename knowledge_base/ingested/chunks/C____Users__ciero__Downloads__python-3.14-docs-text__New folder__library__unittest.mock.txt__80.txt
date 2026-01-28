@@ -1,0 +1,3 @@
+which must yield a value on every call.  This value can either
+      be an exception instance to be raised, or a value to be returned
+      from the call to the mock ("DEFAULT" handling is identical to

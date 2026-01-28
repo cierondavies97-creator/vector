@@ -1,0 +1,4 @@
+as well as the legacy "defaults=" keyword argument handling.
+   Changed in version 3.2: *allow_no_value*, *delimiters*,
+   *comment_prefixes*, *strict*, *empty_lines_in_values*,
+   *default_section* and *interpolation* were added.

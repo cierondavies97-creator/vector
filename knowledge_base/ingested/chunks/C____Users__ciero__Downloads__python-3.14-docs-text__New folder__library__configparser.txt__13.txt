@@ -1,0 +1,11 @@
+'no'
+   >>> topsecret['Port']
+   '50022'
+   >>> for key in config['forge.example']:
+   ...     print(key)
+   user
+   compressionlevel
+   serveraliveinterval
+   compression
+   forwardx11
+   >>> config['forge.example']['ForwardX11']

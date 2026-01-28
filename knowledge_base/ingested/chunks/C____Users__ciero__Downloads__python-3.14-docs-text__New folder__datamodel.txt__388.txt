@@ -1,0 +1,4 @@
+definition. A class which defines its own "__hash__()" that
+   explicitly raises a "TypeError" would be incorrectly identified as
+   hashable by an "isinstance(obj, collections.abc.Hashable)" call.
+   Note:

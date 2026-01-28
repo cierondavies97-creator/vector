@@ -1,0 +1,4 @@
+Babyl is a single-file mailbox format used by the Rmail mail user
+   agent included with Emacs. The beginning of a message is indicated
+   by a line containing the two characters Control-Underscore
+   ("'\037'") and Control-L ("'\014'"). The end of a message is

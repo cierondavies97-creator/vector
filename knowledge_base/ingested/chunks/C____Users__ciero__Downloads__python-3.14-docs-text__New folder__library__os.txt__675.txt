@@ -1,0 +1,3 @@
+For "spawnle()", "spawnlpe()", "spawnve()", and "spawnvpe()" (note
+   that these all end in "e"), the *env* parameter must be a mapping
+   which is used to define the environment variables for the new

@@ -1,0 +1,4 @@
+itertools such as "map()", "filter()", "reversed()", and
+"enumerate()".
+A secondary purpose of the recipes is to serve as an incubator.  The
+"accumulate()", "compress()", and "pairwise()" itertools started out

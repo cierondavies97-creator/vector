@@ -1,0 +1,6 @@
+foreground. The use of the "webbrowser" module on iOS requires the
+"ctypes" module. If "ctypes" isn't available, calls to "open()" will
+fail.
+Command-line interface
+======================
+The script **webbrowser** can be used as a command-line interface for

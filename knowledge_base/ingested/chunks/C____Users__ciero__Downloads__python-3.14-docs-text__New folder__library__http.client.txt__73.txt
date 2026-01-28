@@ -1,0 +1,6 @@
+is any iterable other than a single string, its elements are
+   similarly returned joined by commas.
+HTTPResponse.getheaders()
+   Return a list of (header, value) tuples.
+HTTPResponse.fileno()
+   Return the "fileno" of the underlying socket.

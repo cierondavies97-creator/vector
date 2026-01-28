@@ -1,0 +1,4 @@
+* "hmac" --- Keyed-Hashing for Message Authentication
+  * "secrets" --- Generate secure random numbers for managing secrets
+* Generic Operating System Services
+  * "os" --- Miscellaneous operating system interfaces

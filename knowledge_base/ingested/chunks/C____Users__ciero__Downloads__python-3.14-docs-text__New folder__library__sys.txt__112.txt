@@ -1,0 +1,5 @@
+attribute.
+sys.float_info
+   A *named tuple* holding information about the float type. It
+   contains low level information about the precision and internal
+   representation.  The values correspond to the various floating-

@@ -1,0 +1,4 @@
+sequence of optimization levels which lead to multiple compilations
+   of one ".py" file in one call.
+   *invalidation_mode* should be a member of the
+   "py_compile.PycInvalidationMode" enum and controls how the

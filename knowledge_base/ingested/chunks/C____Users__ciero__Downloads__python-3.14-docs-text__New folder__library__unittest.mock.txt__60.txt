@@ -1,0 +1,7 @@
+>>> mock = Mock(return_value=5)
+         >>> mock('hello')
+         5
+         >>> mock.reset_mock(return_value=True)
+         >>> mock('hello')
+         <Mock name='mock()' id='...'>
+      *side_effect* parameter when set to "True" resets "side_effect":

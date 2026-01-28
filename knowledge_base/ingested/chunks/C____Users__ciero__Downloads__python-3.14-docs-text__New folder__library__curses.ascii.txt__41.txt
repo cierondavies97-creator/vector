@@ -1,0 +1,6 @@
+string.hexdigits".
+curses.ascii.isctrl(c)
+   Checks for an ASCII control character (ordinal values 0 to 31).
+curses.ascii.ismeta(c)
+   Checks for a non-ASCII character (ordinal values 0x80 and above).
+These functions accept either integers or single-character strings;

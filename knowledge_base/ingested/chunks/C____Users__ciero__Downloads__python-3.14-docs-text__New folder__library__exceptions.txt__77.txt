@@ -1,0 +1,5 @@
+filename
+      The name of the file the syntax error occurred in.
+   lineno
+      Which line number in the file the error occurred in. This is
+      1-indexed: the first line in the file has a "lineno" of 1.

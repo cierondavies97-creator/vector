@@ -1,0 +1,4 @@
+img1 = tkinter.PhotoImage(master=root, file='button-pressed.png')
+         img1 = tkinter.PhotoImage(master=root, file='button-active.png')
+         style = ttk.Style(root)
+         style.element_create('Button.button', 'image',

@@ -1,0 +1,5 @@
+default):
+         * If no thread owns the lock, acquire the lock and return
+           immediately.
+         * If another thread owns the lock, block until we are able to
+           acquire lock, or *timeout*, if set to a positive float

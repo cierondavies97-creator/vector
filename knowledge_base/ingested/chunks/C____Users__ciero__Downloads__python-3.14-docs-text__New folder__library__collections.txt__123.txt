@@ -1,0 +1,4 @@
+the "default_factory" function calls "int()" to supply a default count
+of zero.  The increment operation then builds up the count for each
+letter.
+The function "int()" which always returns zero is just a special case

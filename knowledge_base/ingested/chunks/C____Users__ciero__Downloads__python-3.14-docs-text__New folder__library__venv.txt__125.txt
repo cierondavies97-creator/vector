@@ -1,0 +1,4 @@
+symlinks=options.symlinks,
+                                      upgrade=options.upgrade,
+                                      nodist=options.nodist,
+                                      nopip=options.nopip,

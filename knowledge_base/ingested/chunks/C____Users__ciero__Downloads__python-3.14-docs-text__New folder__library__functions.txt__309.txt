@@ -1,0 +1,3 @@
+Like all decorators, it is also possible to call "staticmethod" as
+   a regular function and do something with its result.  This is
+   needed in some cases where you need a reference to a function from

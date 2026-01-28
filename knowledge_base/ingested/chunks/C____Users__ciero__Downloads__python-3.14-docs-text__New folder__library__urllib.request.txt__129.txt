@@ -1,0 +1,4 @@
+4. the user-visible explanation of the code, as a string, and
+   5. the headers of the error, as a mapping object.
+   Return values and exceptions raised should be the same as those of
+   "urlopen()".

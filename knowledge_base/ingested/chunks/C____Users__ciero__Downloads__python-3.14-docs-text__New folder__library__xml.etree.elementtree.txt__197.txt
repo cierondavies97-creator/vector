@@ -1,0 +1,5 @@
+other XML-like format.
+   *element_factory*, when given, must be a callable accepting two
+   positional arguments: a tag and a dict of attributes.  It is
+   expected to return a new element instance.
+   The *comment_factory* and *pi_factory* functions, when given,

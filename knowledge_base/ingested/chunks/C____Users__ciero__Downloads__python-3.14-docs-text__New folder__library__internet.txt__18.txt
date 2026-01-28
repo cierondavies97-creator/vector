@@ -1,0 +1,9 @@
+* Comparison operators
+      * Arithmetic operators
+  * IP Network definitions
+    * Prefix, net mask and host mask
+    * Network objects
+    * Operators
+      * Logical operators
+      * Iteration
+      * Networks as containers of addresses

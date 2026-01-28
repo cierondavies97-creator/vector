@@ -1,0 +1,5 @@
+15
+      >>> s = '3.14159265358979'    # decimal string with 15 significant digits
+      >>> format(float(s), '.15g')  # convert to float and back -> same value
+      '3.14159265358979'
+   But for strings with more than "sys.float_info.dig" significant

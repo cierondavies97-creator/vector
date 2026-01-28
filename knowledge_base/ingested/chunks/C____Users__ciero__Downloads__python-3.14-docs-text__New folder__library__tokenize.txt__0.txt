@@ -1,0 +1,5 @@
+"tokenize" --- Tokenizer for Python source
+******************************************
+**Source code:** Lib/tokenize.py
+======================================================================
+The "tokenize" module provides a lexical scanner for Python source

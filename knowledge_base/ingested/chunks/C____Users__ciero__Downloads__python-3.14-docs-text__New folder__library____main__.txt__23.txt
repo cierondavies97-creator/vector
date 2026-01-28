@@ -1,0 +1,3 @@
+Since the call to "main" is wrapped in "sys.exit()", the expectation
+is that your function will return some value acceptable as an input to
+"sys.exit()"; typically, an integer or "None" (which is implicitly

@@ -1,0 +1,9 @@
+>>> for i in range(8):
+   ...     print(p.name, end=" ")
+   ...     p = p.next[0]
+   ...
+   foo bar foo bar foo bar foo bar
+   >>>
+Callback functions
+------------------
+"ctypes" allows creating C callable function pointers from Python

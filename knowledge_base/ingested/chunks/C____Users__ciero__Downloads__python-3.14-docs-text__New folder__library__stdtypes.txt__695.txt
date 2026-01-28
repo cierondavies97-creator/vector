@@ -1,0 +1,7 @@
+>>> a = memoryview(point)
+            >>> b = memoryview(point)
+            >>> a == point
+            False
+            >>> a == b
+            False
+         Note that, as with floating-point numbers, "v is w" does

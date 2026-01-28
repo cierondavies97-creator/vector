@@ -1,0 +1,5 @@
+is "True" (which is not the default), the international currency
+   symbol is used.
+   Note:
+     This function will not work with the 'C' locale, so you have to
+     set a locale via "setlocale()" first.

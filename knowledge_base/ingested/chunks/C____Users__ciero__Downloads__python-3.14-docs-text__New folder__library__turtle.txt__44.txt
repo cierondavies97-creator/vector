@@ -1,0 +1,10 @@
+"screensize()"
+      "setworldcoordinates()"
+Animation control
+      "no_animation()"
+      "delay()"
+      "tracer()"
+      "update()"
+Using screen events
+      "listen()"
+      "onkey()" | "onkeyrelease()"

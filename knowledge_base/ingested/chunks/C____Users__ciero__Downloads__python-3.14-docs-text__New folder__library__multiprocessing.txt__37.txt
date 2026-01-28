@@ -1,0 +1,4 @@
+Warning:
+  The "'spawn'" and "'forkserver'" start methods generally cannot be
+  used with "frozen" executables (i.e., binaries produced by packages
+  like **PyInstaller** and **cx_Freeze**) on POSIX systems. The

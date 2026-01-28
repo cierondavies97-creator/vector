@@ -1,0 +1,5 @@
+adding attachments and all the appropriate headers manually.  For MIME
+messages though, the "email" package provides some convenient
+subclasses to make things easier.
+Here are the classes:
+class email.mime.base.MIMEBase(_maintype, _subtype, *, policy=compat32, **_params)

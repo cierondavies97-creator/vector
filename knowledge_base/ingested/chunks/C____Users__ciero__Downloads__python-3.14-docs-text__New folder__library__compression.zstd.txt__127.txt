@@ -1,0 +1,5 @@
+compression. This value is only used when "nb_workers" >= 1.
+      Acceptable values vary from 0 to 9.
+         * 0 means dynamically set the overlap amount
+         * 1 means no overlap
+         * 9 means use a full window size from the previous job

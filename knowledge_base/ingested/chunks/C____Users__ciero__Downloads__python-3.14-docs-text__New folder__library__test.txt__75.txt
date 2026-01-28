@@ -1,0 +1,6 @@
+assert stderr.getvalue() == "error\n"
+   Example use with input stream:
+      with captured_stdin() as stdin:
+          stdin.write('hello\n')
+          stdin.seek(0)
+          # call test code that consumes from sys.stdin

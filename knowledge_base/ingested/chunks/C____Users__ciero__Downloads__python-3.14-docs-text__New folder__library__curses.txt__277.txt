@@ -1,0 +1,5 @@
+function keys (older PC keyboards may have only ten function keys);
+also, the following keypad mappings are standard:
++--------------------+-------------+
+| Keycap             | Constant    |
+|====================|=============|

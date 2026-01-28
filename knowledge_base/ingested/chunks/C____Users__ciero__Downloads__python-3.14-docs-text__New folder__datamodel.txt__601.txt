@@ -1,0 +1,4 @@
+set to a dictionary mapping from variable names to annotations.
+   Changed in version 3.14: Annotations are now lazily evaluated.
+object.__annotate__(format)
+   An *annotate function*. Returns a new dictionary object mapping

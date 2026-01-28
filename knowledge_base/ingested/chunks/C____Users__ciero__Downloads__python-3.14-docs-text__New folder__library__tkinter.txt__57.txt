@@ -1,0 +1,3 @@
+Tkinter reacts to user input, changes from your program, and even
+   refreshes the display only when actively running an *event loop*.
+   If your program isn't running the event loop, your user interface

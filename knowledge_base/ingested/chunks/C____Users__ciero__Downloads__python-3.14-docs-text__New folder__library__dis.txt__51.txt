@@ -1,0 +1,5 @@
+value of *show_caches*) and it no longer generates separate items
+   for the cache entries.
+dis.findlinestarts(code)
+   This generator function uses the "co_lines()" method of the code
+   object *code* to find the offsets which are starts of lines in the

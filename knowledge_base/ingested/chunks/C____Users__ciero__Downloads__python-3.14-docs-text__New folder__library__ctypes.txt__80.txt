@@ -1,0 +1,8 @@
+Hello, World!
+   14
+   >>> printf(b"%d bottles of beer\n", 42)
+   42 bottles of beer
+   19
+   >>> printf(b"%f bottles of beer\n", 42.5)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

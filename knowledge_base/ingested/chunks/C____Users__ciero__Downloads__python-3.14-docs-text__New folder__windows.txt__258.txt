@@ -1,0 +1,4 @@
+The package information pages on nuget.org are
+www.nuget.org/packages/python for the 64-bit version,
+www.nuget.org/packages/pythonx86 for the 32-bit version, and
+www.nuget.org/packages/pythonarm64 for the ARM64 version

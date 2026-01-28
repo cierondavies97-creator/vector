@@ -1,0 +1,6 @@
+Module "traceback"
+     Standard interface to extract, format and print stack traces of
+     Python programs.
+The typical usage to break into the debugger is to insert:
+   import pdb; pdb.set_trace()
+Or:

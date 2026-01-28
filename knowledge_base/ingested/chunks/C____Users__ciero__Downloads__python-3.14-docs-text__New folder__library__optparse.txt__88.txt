@@ -1,0 +1,3 @@
+defaults, they are all set to "None".  This is usually fine, but
+sometimes you want more control.  "optparse" lets you supply a default
+value for each destination, which is assigned before the command line

@@ -1,0 +1,5 @@
+if cls is MyIterable:
+                  if any("__iter__" in B.__dict__ for B in C.__mro__):
+                      return True
+              return NotImplemented
+      MyIterable.register(Foo)

@@ -1,0 +1,4 @@
+and the other start methods this also ensures that as long as the
+   child process is still alive the object will not be garbage
+   collected in the parent process.  This might be important if some
+   resource is freed when the object is garbage collected in the

@@ -1,0 +1,5 @@
+pattern fails. The "patterns" attribute contains a list of match
+   pattern nodes that will be matched against the subject.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case [x] | (y):

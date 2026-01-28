@@ -1,0 +1,9 @@
+def lumberjack():
+       bright_side_of_life()
+   def bright_side_of_life():
+       return tuple()[0]
+   try:
+       lumberjack()
+   except IndexError as exc:
+       print("*** print_tb:")
+       traceback.print_tb(exc.__traceback__, limit=1, file=sys.stdout)

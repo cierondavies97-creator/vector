@@ -1,0 +1,5 @@
+after the lifetime of some task it depends on).
+   Added in version 3.10.
+contextlib.nullcontext(enter_result=None)
+   Return a context manager that returns *enter_result* from
+   "__enter__", but otherwise does nothing. It is intended to be used

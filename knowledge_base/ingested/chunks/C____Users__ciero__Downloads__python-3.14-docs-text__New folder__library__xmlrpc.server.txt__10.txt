@@ -1,0 +1,4 @@
+passed to the "loads()" function and controls which types are
+   processed when date/times values or binary data are received; it
+   defaults to false.
+   Changed in version 3.3: The *use_builtin_types* flag was added.

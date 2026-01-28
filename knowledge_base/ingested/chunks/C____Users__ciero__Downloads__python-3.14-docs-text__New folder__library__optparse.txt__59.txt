@@ -1,0 +1,4 @@
+if you make that many demands on your users, most of them will simply
+give up.
+In short, try to minimize the amount of information that users are
+absolutely required to supply---use sensible defaults whenever

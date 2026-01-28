@@ -1,0 +1,3 @@
+logger, after first being passed to any handlers attached to
+      "A.B.C". If any logger in the chain "A.B.C", "A.B", "A" has its
+      "propagate" attribute set to false, then that is the last logger

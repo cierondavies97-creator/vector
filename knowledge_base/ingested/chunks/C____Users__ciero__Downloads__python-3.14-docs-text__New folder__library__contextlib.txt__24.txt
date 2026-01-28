@@ -1,0 +1,5 @@
+"asynccontextmanager()" can be used as decorators.
+contextlib.closing(thing)
+   Return a context manager that closes *thing* upon completion of the
+   block.  This is basically equivalent to:
+      from contextlib import contextmanager

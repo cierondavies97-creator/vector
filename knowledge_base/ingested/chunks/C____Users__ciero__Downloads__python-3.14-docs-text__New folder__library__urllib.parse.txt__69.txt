@@ -1,0 +1,4 @@
+Changed in version 3.8: Characters that affect netloc parsing under
+   NFKC normalization will now raise "ValueError".
+   Changed in version 3.10: ASCII newline and tab characters are
+   stripped from the URL.

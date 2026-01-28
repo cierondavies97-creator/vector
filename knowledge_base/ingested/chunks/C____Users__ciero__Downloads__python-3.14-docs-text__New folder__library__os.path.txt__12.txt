@@ -1,0 +1,5 @@
+Added in version 3.5.
+   Changed in version 3.6: Accepts a sequence of *path-like objects*.
+   Changed in version 3.13: Any iterable can now be passed, rather
+   than just sequences.
+os.path.commonprefix(list, /)

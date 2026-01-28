@@ -1,0 +1,7 @@
+# e*
+   #   Match zero or more occurrences of e.
+   # e+
+   #   Match one or more occurrences of e.
+   # s.e+
+   #   Match one or more occurrences of e, separated by s. The generated parse tree
+   #   does not include the separator. This is otherwise identical to (e (s e)*).

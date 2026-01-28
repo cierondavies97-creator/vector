@@ -1,0 +1,5 @@
+before being stored.
+These objects also support being used in a "with" statement, which
+will automatically close them when done.
+Changed in version 3.2: "get()" and "setdefault()" methods are now
+available for all "dbm" backends.

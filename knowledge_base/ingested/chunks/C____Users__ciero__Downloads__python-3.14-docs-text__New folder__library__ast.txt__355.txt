@@ -1,0 +1,4 @@
+tree starting at *node* by *n*. This is useful to "move code" to a
+   different location in a file.
+ast.copy_location(new_node, old_node)
+   Copy source location ("lineno", "col_offset", "end_lineno", and

@@ -1,0 +1,3 @@
+| padding          | Specifies the internal padding for the widget. The       |
+|                  | padding is a list of up to four length specifications.   |
++------------------+----------------------------------------------------------+

@@ -1,0 +1,3 @@
+To use them call "patch()", "patch.object()" or "patch.dict()" as
+normal and keep a reference to the returned "patcher" object. You can
+then call "start()" to put the patch in place and "stop()" to undo it.

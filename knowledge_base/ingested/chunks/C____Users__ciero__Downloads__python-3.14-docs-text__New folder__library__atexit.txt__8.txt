@@ -1,0 +1,5 @@
+a decorator.
+   Warning:
+     Starting new threads or calling "os.fork()" from a registered
+     function can lead to race condition between the main Python
+     runtime thread freeing thread states while internal "threading"

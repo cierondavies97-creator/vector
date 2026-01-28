@@ -1,0 +1,4 @@
+entries. Anytime a menu index is needed for an option or a
+   parameter, you may pass in:
+   * an integer which refers to the numeric position of the entry in
+     the widget, counted from the top, starting with 0;

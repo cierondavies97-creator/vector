@@ -1,0 +1,5 @@
+return "False".
+   Availability: Unix, not WASI, not Android, not iOS.
+os.WIFEXITED(status)
+   Return "True" if the process exited terminated normally, that is,
+   by calling "exit()" or "_exit()", or by returning from "main()";

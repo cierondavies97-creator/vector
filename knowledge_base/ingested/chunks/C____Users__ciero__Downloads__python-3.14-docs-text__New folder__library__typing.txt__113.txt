@@ -1,0 +1,6 @@
+that can duck type anywhere or are highly dynamic.
+typing.AnyStr
+   A constrained type variable.
+   Definition:
+      AnyStr = TypeVar('AnyStr', str, bytes)
+   "AnyStr" is meant to be used for functions that may accept "str" or

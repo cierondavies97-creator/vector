@@ -1,0 +1,4 @@
+the dictionary passed.  If not given, "<dict>" is used.
+      This method can be used to copy state between parsers.
+      Added in version 3.2.
+   get(section, option, *, raw=False, vars=None[, fallback])

@@ -1,0 +1,4 @@
+itself does not provide this method.
+object.__format__(self, format_spec)
+   Called by the "format()" built-in function, and by extension,
+   evaluation of formatted string literals and the "str.format()"

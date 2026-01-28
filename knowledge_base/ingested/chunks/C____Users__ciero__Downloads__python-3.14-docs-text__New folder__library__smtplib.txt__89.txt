@@ -1,0 +1,6 @@
+SMTP.helo_resp
+   The response to the "HELO" command, see "helo()".
+SMTP.ehlo_resp
+   The response to the "EHLO" command, see "ehlo()".
+SMTP.does_esmtp
+   A boolean value indicating whether the server supports ESMTP, see

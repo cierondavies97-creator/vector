@@ -1,0 +1,4 @@
+Return the message's sub-content type.  This is the *subtype*
+      part of the string returned by "get_content_type()".
+   get_default_type()
+      Return the default content type.  Most messages have a default

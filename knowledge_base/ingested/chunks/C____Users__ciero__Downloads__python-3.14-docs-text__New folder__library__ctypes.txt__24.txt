@@ -1,0 +1,6 @@
+call it with a "NULL" pointer):
+   >>> print(hex(windll.kernel32.GetModuleHandleA(None)))
+   0x1d000000
+   >>>
+"ValueError" is raised when you call an "stdcall" function with the
+"cdecl" calling convention, or vice versa:

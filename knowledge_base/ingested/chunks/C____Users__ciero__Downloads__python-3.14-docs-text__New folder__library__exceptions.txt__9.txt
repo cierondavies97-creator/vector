@@ -1,0 +1,4 @@
+explicit cause by using "from" with "raise":
+      raise new_exc from original_exc
+   The expression following "from" must be an exception or "None". It
+   will be set as "__cause__" on the raised exception. Setting

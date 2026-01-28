@@ -1,0 +1,4 @@
+make_related(boundary=None)
+      Convert a non-"multipart" message into a "multipart/related"
+      message, moving any existing *Content-* headers and payload into
+      a (new) first part of the "multipart".  If *boundary* is

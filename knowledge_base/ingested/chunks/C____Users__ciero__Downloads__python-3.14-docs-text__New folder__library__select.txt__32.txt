@@ -1,0 +1,5 @@
+you want to check for. The constants are the same that with
+   "poll()" object. The default value is a combination of the
+   constants "POLLIN", "POLLPRI", and "POLLOUT".
+   Warning:
+     Registering a file descriptor that's already registered is not an

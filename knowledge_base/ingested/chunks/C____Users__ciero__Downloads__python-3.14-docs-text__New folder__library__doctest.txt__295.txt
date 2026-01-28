@@ -1,0 +1,4 @@
+docstrings, containing test cases for the named topics.  These
+  functions can be included in the same file as the module, or
+  separated out into a separate test file.
+* Define a "__test__" dictionary mapping from regression test topics

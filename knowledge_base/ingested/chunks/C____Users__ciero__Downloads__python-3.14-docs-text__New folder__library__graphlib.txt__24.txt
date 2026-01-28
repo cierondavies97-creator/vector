@@ -1,0 +1,4 @@
+marked as processed by a previous call to this method or if a
+      node was not added to the graph by using
+      "TopologicalSorter.add()", if called without calling "prepare()"
+      or if node has not yet been returned by "get_ready()".

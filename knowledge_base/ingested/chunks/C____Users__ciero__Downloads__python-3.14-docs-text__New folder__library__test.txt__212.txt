@@ -1,0 +1,4 @@
+import, this function raises "unittest.SkipTest" if the module
+   cannot be imported.
+   Module and package deprecation messages are suppressed during this
+   import if *deprecated* is "True".  If a module is required on a

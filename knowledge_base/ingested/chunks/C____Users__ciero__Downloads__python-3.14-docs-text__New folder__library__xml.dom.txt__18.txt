@@ -1,0 +1,5 @@
+sequence of "(feature, version)" pairs which are passed to the
+   "hasFeature()" method on available "DOMImplementation" objects.
+Some convenience constants are also provided:
+xml.dom.EMPTY_NAMESPACE
+   The value used to indicate that no namespace is associated with a

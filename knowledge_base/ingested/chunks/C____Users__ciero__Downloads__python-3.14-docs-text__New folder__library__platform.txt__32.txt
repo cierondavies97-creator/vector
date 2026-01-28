@@ -1,0 +1,4 @@
+debugging code, i.e. code that checks arguments, ranges, etc.
+platform.win32_edition()
+   Returns a string representing the current Windows edition, or
+   "None" if the value cannot be determined.  Possible values include

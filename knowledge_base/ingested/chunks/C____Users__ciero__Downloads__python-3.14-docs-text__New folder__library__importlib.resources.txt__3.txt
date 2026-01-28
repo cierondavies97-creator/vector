@@ -1,0 +1,3 @@
+(pycache), and installation artifacts (like "reserved filenames" in
+directories) are technically de-facto resources of that package. In
+practice, however, resources are primarily those non-Python artifacts

@@ -1,0 +1,5 @@
+File "script.py", line 10, in <module>
+       main()
+   OSError: [Errno 9] Bad file descriptor
+"os.close(fp.fileno())" closes the file descriptor. When the file
+object finalizer tries to close the file descriptor again, it fails

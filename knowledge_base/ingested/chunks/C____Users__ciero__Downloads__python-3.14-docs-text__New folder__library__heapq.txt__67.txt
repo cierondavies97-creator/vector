@@ -1,0 +1,5 @@
+a few applications, and I think it is good to keep a 'heap' module
+around. :-)
+-[ Footnotes ]-
+[1] The disk balancing algorithms which are current, nowadays, are
+    more annoying than clever, and this is a consequence of the

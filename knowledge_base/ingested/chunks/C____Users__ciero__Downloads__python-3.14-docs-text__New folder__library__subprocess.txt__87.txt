@@ -1,0 +1,4 @@
+stderr data from the applications should be captured into the same
+   file handle as for *stdout*.
+   If *preexec_fn* is set to a callable object, this object will be
+   called in the child process just before the child is executed.

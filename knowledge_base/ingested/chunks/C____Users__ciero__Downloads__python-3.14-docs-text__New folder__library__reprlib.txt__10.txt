@@ -1,0 +1,8 @@
+...         return '<' + '|'.join(map(repr, self)) + '>'
+      ...
+      >>> m = MyList('abc')
+      >>> m.append(m)
+      >>> m.append('x')
+      >>> print(m)
+      <'a'|'b'|'c'|...|'x'>
+   Added in version 3.2.

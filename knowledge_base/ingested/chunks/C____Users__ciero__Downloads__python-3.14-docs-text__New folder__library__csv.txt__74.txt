@@ -1,0 +1,4 @@
+"reader()" function) have the following public methods:
+csvreader.__next__()
+   Return the next row of the reader's iterable object as a list (if
+   the object was returned from "reader()") or a dict (if it is a

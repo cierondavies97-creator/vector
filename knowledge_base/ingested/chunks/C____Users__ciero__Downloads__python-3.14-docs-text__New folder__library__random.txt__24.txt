@@ -1,0 +1,4 @@
+method is supplied with the Mersenne Twister generator and some
+   other generators may also provide it as an optional part of the
+   API. When available, "getrandbits()" enables "randrange()" to
+   handle arbitrarily large ranges.

@@ -1,0 +1,4 @@
+".mo" binary catalog file using the **msgfmt** program.  The ".mo"
+files are used by the "gettext" module for the actual translation
+processing at run-time.
+How you use the "gettext" module in your code depends on whether you

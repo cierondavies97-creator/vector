@@ -1,0 +1,4 @@
+"JoinableQueue.task_done()" for each task removed from the queue or
+else the semaphore used to count the number of unfinished tasks may
+eventually overflow, raising an exception.
+One difference from other Python queue implementations, is that

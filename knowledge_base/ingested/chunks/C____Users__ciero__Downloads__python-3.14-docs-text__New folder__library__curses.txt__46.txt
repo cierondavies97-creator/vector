@@ -1,0 +1,4 @@
+number, and the background color number.  The value of
+   *pair_number* must be between "1" and "COLOR_PAIRS - 1" (the "0"
+   color pair can only be changed by "use_default_colors()" and
+   "assume_default_colors()"). The value of *fg* and *bg* arguments

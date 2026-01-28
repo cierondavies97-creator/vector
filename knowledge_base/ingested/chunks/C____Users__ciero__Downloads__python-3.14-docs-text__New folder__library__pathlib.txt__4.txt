@@ -1,0 +1,4 @@
+class is right for your task, "Path" is most likely what you need. It
+instantiates a concrete path for the platform the code is running on.
+Pure paths are useful in some special cases; for example:
+1. If you want to manipulate Windows paths on a Unix machine (or vice

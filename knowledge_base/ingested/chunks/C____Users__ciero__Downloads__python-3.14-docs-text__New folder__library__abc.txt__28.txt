@@ -1,0 +1,8 @@
+shown in the following usage examples:
+      class C(ABC):
+          @abstractmethod
+          def my_abstract_method(self, arg1):
+              ...
+          @classmethod
+          @abstractmethod
+          def my_abstract_classmethod(cls, arg2):

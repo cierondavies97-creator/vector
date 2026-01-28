@@ -1,0 +1,3 @@
+If you want the mock to still return the default return value (a new
+mock), or any set return value, then there are two ways of doing this.
+Either return "return_value" from inside "side_effect", or return

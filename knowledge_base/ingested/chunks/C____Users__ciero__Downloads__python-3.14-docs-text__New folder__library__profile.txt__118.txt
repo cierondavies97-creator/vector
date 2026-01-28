@@ -1,0 +1,4 @@
+"your_time_func"'s return value will be interpreted differently:
+"profile.Profile"
+   "your_time_func" should return a single number, or a list of
+   numbers whose sum is the current time (like what "os.times()"

@@ -1,0 +1,10 @@
+datetime.month
+   Between 1 and 12 inclusive.
+datetime.day
+   Between 1 and the number of days in the given month of the given
+   year.
+datetime.hour
+   In "range(24)".
+datetime.minute
+   In "range(60)".
+datetime.second

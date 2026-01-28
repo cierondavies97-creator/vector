@@ -1,0 +1,7 @@
+"window.subwin()". By default, current locale encoding is used (see
+   "locale.getencoding()").
+   Added in version 3.3.
+window.erase()
+   Clear the window.
+window.getbegyx()
+   Return a tuple "(y, x)" of coordinates of upper-left corner.

@@ -1,0 +1,4 @@
+insensitive sorts.  Alternatively, a key function can be built from
+   a "lambda" expression such as "lambda r: (r[0], r[2])".  Also,
+   "operator.attrgetter()", "operator.itemgetter()", and
+   "operator.methodcaller()" are three key function constructors.  See

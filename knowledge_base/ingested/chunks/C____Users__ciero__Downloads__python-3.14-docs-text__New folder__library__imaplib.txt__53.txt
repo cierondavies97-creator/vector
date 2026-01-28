@@ -1,0 +1,4 @@
+Note:
+     The iterator returned by "IMAP4.idle()" is usable only within a
+     "with" statement. Before or after that context, unsolicited
+     responses are collected internally whenever a command finishes,

@@ -1,0 +1,4 @@
+accessible directly from Python. "Set" accessors should never be
+provided for "readonly" attributes.
+The IDL definitions do not fully embody the requirements of the W3C
+DOM API, such as the notion of certain objects, such as the return

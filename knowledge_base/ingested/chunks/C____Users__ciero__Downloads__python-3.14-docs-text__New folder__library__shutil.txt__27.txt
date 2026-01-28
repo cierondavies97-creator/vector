@@ -1,0 +1,3 @@
+Copies the file *src* to the file or directory *dst*.  *src* and
+   *dst* should be *path-like objects* or strings.  If *dst* specifies
+   a directory, the file will be copied into *dst* using the base

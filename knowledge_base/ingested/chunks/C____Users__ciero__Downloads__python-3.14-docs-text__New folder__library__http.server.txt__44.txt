@@ -1,0 +1,4 @@
+and "end_headers()" needs to be called explicitly.
+   send_header(keyword, value)
+      Adds the HTTP header to an internal buffer which will be written
+      to the output stream when either "end_headers()" or

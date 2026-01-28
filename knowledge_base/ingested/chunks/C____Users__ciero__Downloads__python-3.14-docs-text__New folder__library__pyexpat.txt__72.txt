@@ -1,0 +1,3 @@
+"ElementDeclHandler" callbacks to collect the required information.
+   Note that the character data may be chunked even if it is short and
+   so you may receive more than one call to "CharacterDataHandler()".

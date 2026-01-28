@@ -1,0 +1,5 @@
+addSuccess(test)
+      Called when the test case *test* succeeds.
+      The default implementation does nothing.
+   addSkip(test, reason)
+      Called when the test case *test* is skipped.  *reason* is the

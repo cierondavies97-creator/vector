@@ -1,0 +1,6 @@
+so why not be consistent?
+* If the testing strategy changes, there is no need to change the
+  source code.
+Re-using old test code
+======================
+Some users will find that they have existing test code that they would

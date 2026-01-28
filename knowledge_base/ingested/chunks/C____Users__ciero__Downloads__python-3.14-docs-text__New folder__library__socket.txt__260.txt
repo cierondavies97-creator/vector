@@ -1,0 +1,4 @@
+object holding the associated data.  The *msg_flags* item is the
+   bitwise OR of various flags indicating conditions on the received
+   message; see your system documentation for details. If the
+   receiving socket is unconnected, *address* is the address of the

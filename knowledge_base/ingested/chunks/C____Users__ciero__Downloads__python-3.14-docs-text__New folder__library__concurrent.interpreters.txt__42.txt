@@ -1,0 +1,4 @@
+implements the "queue.Queue" interface.  The underlying queue can
+   only be created through "create_queue()".
+   Some objects are actually shared and some are copied efficiently,
+   but most are copied via "pickle".  See "Sharing" Objects.

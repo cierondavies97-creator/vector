@@ -1,0 +1,4 @@
+its expected output.  The constructor arguments are used to
+   initialize the attributes of the same names.
+   "Example" defines the following attributes.  They are initialized
+   by the constructor, and should not be modified directly.

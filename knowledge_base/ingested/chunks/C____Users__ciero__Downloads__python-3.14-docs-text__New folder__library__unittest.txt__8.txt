@@ -1,0 +1,5 @@
+pytest
+     Third-party unittest framework with a lighter-weight syntax for
+     writing tests.  For example, "assert func(10) == 42".
+  The Python Testing Tools Taxonomy
+     An extensive list of Python testing tools including functional

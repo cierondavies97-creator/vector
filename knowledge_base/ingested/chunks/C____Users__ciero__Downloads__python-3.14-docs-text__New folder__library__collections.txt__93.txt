@@ -1,0 +1,5 @@
+deque(['f', 'g', 'h', 'i', 'j'])
+   >>> d.pop()                          # return and remove the rightmost item
+   'j'
+   >>> d.popleft()                      # return and remove the leftmost item
+   'f'

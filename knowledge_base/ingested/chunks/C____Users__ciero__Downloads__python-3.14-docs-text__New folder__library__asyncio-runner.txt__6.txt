@@ -1,0 +1,7 @@
+If the executor hasn't finished within that duration, a warning is
+   emitted and the executor is closed.
+   Example:
+      async def main():
+          await asyncio.sleep(1)
+          print('hello')
+      asyncio.run(main())

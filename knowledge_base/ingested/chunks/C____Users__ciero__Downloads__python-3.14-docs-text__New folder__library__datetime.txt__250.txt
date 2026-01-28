@@ -1,0 +1,4 @@
+return timedelta(hours=4)
+           elif (1945, 1, 1, 0, 0) <= dt.timetuple()[:5] < (1945, 1, 1, 0, 30):
+               # An ambiguous ("imaginary") half-hour range representing
+               # a 'fold' in time due to the shift from +4 to +4:30.

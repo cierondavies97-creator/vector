@@ -1,0 +1,4 @@
+(because the order of calls is determined at runtime, because that
+   order adapts to changes in the class hierarchy, and because that
+   order can include sibling classes that are unknown prior to
+   runtime).

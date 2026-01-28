@@ -1,0 +1,4 @@
+can be used in a "with" statement, just like a normal file.  The
+   name of the temporary file can be retrieved from the "name"
+   attribute of the returned file-like object. On Unix, unlike with
+   the "TemporaryFile()", the directory entry does not get unlinked

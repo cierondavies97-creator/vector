@@ -1,0 +1,9 @@
+errors:
+   import csv, sys
+   filename = 'some.csv'
+   with open(filename, newline='') as f:
+       reader = csv.reader(f)
+       try:
+           for row in reader:
+               print(row)
+       except csv.Error as e:

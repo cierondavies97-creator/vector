@@ -1,0 +1,4 @@
+"tempfile" --- Generate temporary files and directories
+*******************************************************
+**Source code:** Lib/tempfile.py
+======================================================================

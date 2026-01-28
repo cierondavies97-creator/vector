@@ -1,0 +1,4 @@
+cipher being used, the version of the SSL protocol that defines
+       its use, and the number of secret bits being used; result of
+       "ssl.SSLSocket.cipher()"
+     * "'peercert'": peer certificate; result of

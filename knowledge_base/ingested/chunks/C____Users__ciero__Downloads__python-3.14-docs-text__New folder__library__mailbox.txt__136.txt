@@ -1,0 +1,6 @@
+a "Mailbox" instance is initialized.
+"MaildirMessage" objects
+------------------------
+class mailbox.MaildirMessage(message=None)
+   A message with Maildir-specific behaviors. Parameter *message* has
+   the same meaning as with the "Message" constructor.

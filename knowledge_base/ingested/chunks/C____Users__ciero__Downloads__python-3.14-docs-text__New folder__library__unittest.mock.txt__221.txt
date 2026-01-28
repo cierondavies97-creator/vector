@@ -1,0 +1,4 @@
+keyword arguments, but a dictionary with these as keys can still be
+expanded into a "patch()" call using "**":
+   >>> config = {'method.return_value': 3, 'other.side_effect': KeyError}
+   >>> patcher = patch('__main__.thing', **config)

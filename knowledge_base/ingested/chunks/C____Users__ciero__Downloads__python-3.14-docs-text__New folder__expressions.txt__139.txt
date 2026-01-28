@@ -1,0 +1,4 @@
+The primary must evaluate to an object that supports subscription. An
+object may support subscription through defining one or both of
+"__getitem__()" and "__class_getitem__()". When the primary is
+subscripted, the evaluated result of the expression list will be

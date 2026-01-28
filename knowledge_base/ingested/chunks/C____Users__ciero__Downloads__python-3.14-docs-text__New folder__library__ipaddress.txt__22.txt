@@ -1,0 +1,3 @@
+As IPv4 does not define a shorthand notation for addresses with
+      octets set to zero, these two attributes are always the same as
+      "str(addr)" for IPv4 addresses. Exposing these attributes makes

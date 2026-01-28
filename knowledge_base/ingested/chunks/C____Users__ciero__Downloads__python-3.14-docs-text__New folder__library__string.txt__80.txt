@@ -1,0 +1,3 @@
+|           | excluding "'n'". For other presentation types, this option |
+|           | is not supported.                                          |
++-----------+------------------------------------------------------------+

@@ -1,0 +1,8 @@
+'z'])])
+      >>> print(ast.dump(ast.parse('nonlocal x,y,z'), indent=4))
+      Module(
+          body=[
+              Nonlocal(
+                  names=[
+                      'x',
+                      'y',

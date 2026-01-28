@@ -1,0 +1,4 @@
+or if "None", "m.__name__" is used.
+   Optional argument *exclude_empty* defaults to false.  If true,
+   objects for which no doctests are found are excluded from
+   consideration. The default is a backward compatibility hack, so

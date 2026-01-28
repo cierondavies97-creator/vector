@@ -1,0 +1,4 @@
+'-', 'abxd')" returns "'-a-b--d-'" instead of "'-a-b-d-'".
+   In string-type *repl* arguments, in addition to the character
+   escapes and backreferences described above, "\g<name>" will use the
+   substring matched by the group named "name", as defined by the

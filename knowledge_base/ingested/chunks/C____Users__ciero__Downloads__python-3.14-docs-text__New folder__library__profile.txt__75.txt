@@ -1,0 +1,4 @@
+and line number searches are in ascending order (alphabetical).
+      The subtle distinction between "SortKey.NFL" and
+      "SortKey.STDNAME" is that the standard name is a sort of the
+      name as printed, which means that the embedded line numbers get

@@ -1,0 +1,4 @@
+Added in version 3.6.
+The "shlex" class provides compatibility with the parsing performed by
+common Unix shells like "bash", "dash", and "sh".  To take advantage
+of this compatibility, specify the "punctuation_chars" argument in the

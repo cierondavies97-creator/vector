@@ -1,0 +1,4 @@
+"".168.1.2"", 192.168.1.2 is blocked, but 193.168.1.2 is not.
+"DefaultCookiePolicy" implements the following additional methods:
+DefaultCookiePolicy.blocked_domains()
+   Return the sequence of blocked domains (as a tuple).

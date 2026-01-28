@@ -1,0 +1,10 @@
+setcontext(DefaultContext)
+   # Afterwards, the threads can be started
+   t1.start()
+   t2.start()
+   t3.start()
+    . . .
+Recipes
+=======
+Here are a few recipes that serve as utility functions and that
+demonstrate ways to work with the "Decimal" class:

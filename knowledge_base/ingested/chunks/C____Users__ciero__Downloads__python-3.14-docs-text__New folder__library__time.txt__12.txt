@@ -1,0 +1,4 @@
+"strptime()", and accepted by "asctime()", "mktime()" and
+  "strftime()", is a sequence of 9 integers.  The return values of
+  "gmtime()", "localtime()", and "strptime()" also offer attribute
+  names for individual fields.

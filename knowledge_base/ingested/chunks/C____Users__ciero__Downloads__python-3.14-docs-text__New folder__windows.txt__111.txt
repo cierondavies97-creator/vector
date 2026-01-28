@@ -1,0 +1,4 @@
+"shebang" line.  Linux and other Unix like operating systems have
+native support for such lines and they are commonly used on such
+systems to indicate how a script should be executed. The "python" and
+"py" commands allow the same facilities to be used with Python scripts

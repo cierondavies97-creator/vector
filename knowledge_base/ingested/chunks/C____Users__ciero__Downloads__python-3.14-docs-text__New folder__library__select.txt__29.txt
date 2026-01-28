@@ -1,0 +1,7 @@
+Close the file descriptor of the polling object.
+   Added in version 3.4.
+devpoll.closed
+   "True" if the polling object is closed.
+   Added in version 3.4.
+devpoll.fileno()
+   Return the file descriptor number of the polling object.

@@ -1,0 +1,5 @@
+"email.header": Internationalized headers
+*****************************************
+**Source code:** Lib/email/header.py
+======================================================================
+This module is part of the legacy ("Compat32") email API.  In the

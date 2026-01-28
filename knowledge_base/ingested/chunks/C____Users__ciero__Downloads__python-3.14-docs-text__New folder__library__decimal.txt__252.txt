@@ -1,0 +1,5 @@
+====================
+Mitigating round-off error with increased precision
+---------------------------------------------------
+The use of decimal floating point eliminates decimal representation
+error (making it possible to represent "0.1" exactly); however, some

@@ -1,0 +1,6 @@
+| A flag            | A flag                       |
++-------------------+------------------------------+
+"MHMessage" objects
+-------------------
+class mailbox.MHMessage(message=None)
+   A message with MH-specific behaviors. Parameter *message* has the

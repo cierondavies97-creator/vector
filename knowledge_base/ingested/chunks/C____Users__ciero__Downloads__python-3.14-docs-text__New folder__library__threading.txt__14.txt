@@ -1,0 +1,3 @@
+operates within a single process, meaning that all threads share the
+same memory space. However, the GIL limits the performance gains of
+threading when it comes to CPU-bound tasks, as only one thread can

@@ -1,0 +1,5 @@
+with ExitStack() as stack:
+               stack.push(self)
+               yield
+               # The validation check passed and didn't raise an exception
+               # Accordingly, we want to keep the resource, and pass it

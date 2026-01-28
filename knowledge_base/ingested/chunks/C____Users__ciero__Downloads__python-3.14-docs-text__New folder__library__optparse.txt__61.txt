@@ -1,0 +1,4 @@
+of a GUI, or command-line options---the more options you implement,
+the more flexible your program is, and the more complicated its
+implementation becomes.  Too much flexibility has drawbacks as well,
+of course; too many options can overwhelm users and make your code

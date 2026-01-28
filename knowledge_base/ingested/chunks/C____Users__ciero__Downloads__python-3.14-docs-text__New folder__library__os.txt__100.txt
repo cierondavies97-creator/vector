@@ -1,0 +1,5 @@
+os.unsetenv(key, /)
+   Unset (delete) the environment variable named *key*. Such changes
+   to the environment affect subprocesses started with "os.system()",
+   "popen()" or "fork()" and "execv()".
+   Deletion of items in "os.environ" is automatically translated into

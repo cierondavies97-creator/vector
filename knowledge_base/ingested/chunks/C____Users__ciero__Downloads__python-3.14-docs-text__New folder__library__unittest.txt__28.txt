@@ -1,0 +1,4 @@
+python -m unittest -h
+Changed in version 3.2: In earlier versions it was only possible to
+run individual test methods and not modules or classes.
+Added in version 3.14: Output is colorized by default and can be

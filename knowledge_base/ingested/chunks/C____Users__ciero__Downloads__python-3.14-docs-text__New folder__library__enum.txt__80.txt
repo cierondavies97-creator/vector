@@ -1,0 +1,7 @@
+>>> purple & white
+         <Color.RED|BLUE: 5>
+         >>> purple & Color.GREEN
+         <Color: 0>
+   __xor__(self, other)
+      Returns current flag binary xor'ed with other:
+         >>> purple ^ white

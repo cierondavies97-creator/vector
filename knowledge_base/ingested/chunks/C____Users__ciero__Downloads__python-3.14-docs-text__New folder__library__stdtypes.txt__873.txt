@@ -1,0 +1,5 @@
+annotations*. The union type expression enables cleaner type hinting
+syntax compared to subscripting "typing.Union".
+X | Y | ...
+   Defines a union object which holds types *X*, *Y*, and so forth. "X
+   | Y" means either X or Y.  It is equivalent to "typing.Union[X,

@@ -1,0 +1,3 @@
+contains a "_dispatch()" method, it is called with the  requested
+   method name and the parameters from the  request; the return value
+   is returned to the client as the result. If instance does not have

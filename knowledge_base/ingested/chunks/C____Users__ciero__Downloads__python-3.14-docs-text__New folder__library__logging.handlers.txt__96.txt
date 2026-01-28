@@ -1,0 +1,2 @@
+class logging.handlers.SysLogHandler(address=('localhost', SYSLOG_UDP_PORT), facility=LOG_USER, socktype=socket.SOCK_DGRAM, timeout=None)
+   Returns a new instance of the "SysLogHandler" class intended to

@@ -1,0 +1,6 @@
+"importlib.resources.as_file()".
+   Added in version 3.9.
+   Deprecated since version 3.12, removed in version 3.14: Use
+   "importlib.resources.abc.Traversable" instead.
+   name
+      Abstract. The base name of this object without any parent

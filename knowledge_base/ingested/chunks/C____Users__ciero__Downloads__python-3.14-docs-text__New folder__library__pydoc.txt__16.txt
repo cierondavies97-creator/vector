@@ -1,0 +1,4 @@
+the *Module index*, *Topics* and *Keywords* pages.
+When **pydoc** generates documentation, it uses the current
+environment and path to locate modules.  Thus, invoking **pydoc spam**
+documents precisely the version of the module you would get if you

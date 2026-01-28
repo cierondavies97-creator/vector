@@ -1,0 +1,5 @@
+example.
+[2] The metaphor of "borrowing" a reference is not completely correct:
+    the owner still has a copy of the reference.
+[3] Checking that the reference count is at least 1 **does not work**
+    --- the reference count itself could be in freed memory and may

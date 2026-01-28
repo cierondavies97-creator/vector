@@ -1,0 +1,5 @@
+timeouts.
+   Changed in version 3.7: The method no longer toggles
+   "SOCK_NONBLOCK" flag on "socket.type".
+socket.setsockopt(level, optname, value: int | Buffer)
+socket.setsockopt(level, optname, None, optlen: int)

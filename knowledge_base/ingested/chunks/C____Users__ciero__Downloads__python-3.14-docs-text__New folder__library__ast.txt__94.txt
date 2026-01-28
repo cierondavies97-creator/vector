@@ -1,0 +1,7 @@
+value=Name(id='a', ctx=Load()))])
+      >>> print(ast.dump(ast.parse('a = 1'), indent=4))
+      Module(
+          body=[
+              Assign(
+                  targets=[
+                      Name(id='a', ctx=Store())],

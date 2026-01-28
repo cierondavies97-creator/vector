@@ -1,0 +1,4 @@
+parameter became keyword-only.
+   Changed in version 3.10: This class is thread unsafe in the face of
+   multiple simultaneous readers or writers, just like its equivalent
+   classes in "gzip" and "lzma" have always been.

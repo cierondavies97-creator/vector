@@ -1,0 +1,4 @@
+SQLite values. To be able to convert *from* SQLite values *to* custom
+Python types, we use *converters*.
+Let's go back to the "Point" class. We stored the x and y coordinates
+separated via semicolons as strings in SQLite.

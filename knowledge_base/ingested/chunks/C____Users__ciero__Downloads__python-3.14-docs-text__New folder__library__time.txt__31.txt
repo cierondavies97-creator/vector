@@ -1,0 +1,5 @@
+Supported clock names and the corresponding functions to read their
+   value are:
+   * "'monotonic'": "time.monotonic()"
+   * "'perf_counter'": "time.perf_counter()"
+   * "'process_time'": "time.process_time()"

@@ -1,0 +1,4 @@
+You can also extract a tar archive into a different directory by
+passing the directory's name:
+   $ python -m tarfile -e monty.tar  other-dir/
+For a list of the files in a tar archive, use the "-l" option:

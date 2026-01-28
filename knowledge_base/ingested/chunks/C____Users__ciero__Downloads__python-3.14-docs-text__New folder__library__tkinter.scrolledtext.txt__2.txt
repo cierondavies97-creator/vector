@@ -1,0 +1,3 @@
+a lot easier than setting up a text widget and scroll bar directly.
+The text widget and scrollbar are packed together in a "Frame", and
+the methods of the "Grid" and "Pack" geometry managers are acquired

@@ -1,0 +1,6 @@
+*aw* is not Future-like object and there is no running event loop.
+Timeouts
+========
+asyncio.timeout(delay)
+   Return an asynchronous context manager that can be used to limit
+   the amount of time spent waiting on something.

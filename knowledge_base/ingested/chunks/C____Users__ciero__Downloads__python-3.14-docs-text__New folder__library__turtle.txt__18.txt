@@ -1,0 +1,7 @@
+"end_fill()" command.)
+How to...
+=========
+This section covers some typical turtle use-cases and approaches.
+Get started as quickly as possible
+----------------------------------
+One of the joys of turtle graphics is the immediate, visual feedback

@@ -1,0 +1,4 @@
+PROG: error: the following arguments are required: foo
+If the "nargs" keyword argument is not provided, the number of
+arguments consumed is determined by the action.  Generally this means
+a single command-line argument will be consumed and a single item (not

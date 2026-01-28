@@ -1,0 +1,4 @@
+default, it is "None" and indexation starts from 0.
+Examples of Using the Module-Level Functions
+============================================
+This simple example implements a basic read-eval-print loop, similar

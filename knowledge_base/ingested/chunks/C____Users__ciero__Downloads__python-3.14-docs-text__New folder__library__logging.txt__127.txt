@@ -1,0 +1,3 @@
+if you have more than one "Formatter" subclass which customizes
+      the formatting of exception information. In this case, you will
+      have to clear the cached value (by setting the *exc_text*

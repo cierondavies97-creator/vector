@@ -1,0 +1,9 @@
+@create_model
+      class CustomerModel:
+          id: int
+          name: str
+   On a base class:
+      @dataclass_transform()
+      class ModelBase: ...
+      class CustomerModel(ModelBase):
+          id: int

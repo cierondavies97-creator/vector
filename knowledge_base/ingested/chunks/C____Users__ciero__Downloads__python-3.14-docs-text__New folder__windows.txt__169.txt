@@ -1,0 +1,2 @@
+|                                                    | default, this is "%VIRTUAL_ENV%", but may be set   |
+|                                                    | empty to disable venv detection.                   |

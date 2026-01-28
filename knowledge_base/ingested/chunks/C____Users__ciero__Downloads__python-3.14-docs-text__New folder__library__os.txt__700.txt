@@ -1,0 +1,4 @@
+The "subprocess" module provides more powerful facilities for
+   spawning new processes and retrieving their results; using that
+   module is recommended to using this function.  See the Replacing
+   Older Functions with the subprocess Module section in the

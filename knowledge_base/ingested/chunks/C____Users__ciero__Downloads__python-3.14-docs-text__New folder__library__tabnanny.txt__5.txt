@@ -1,0 +1,5 @@
+containing whitespace related problems.  This is set to true by the
+   "-q" option if called as a script.
+exception tabnanny.NannyNag
+   Raised by "process_tokens()" if detecting an ambiguous indent.
+   Captured and handled in "check()".

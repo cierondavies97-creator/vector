@@ -1,0 +1,6 @@
+package support.
+class pkgutil.ModuleInfo(module_finder, name, ispkg)
+   A namedtuple that holds a brief summary of a module's info.
+   Added in version 3.6.
+pkgutil.extend_path(path, name)
+   Extend the search path for the modules which comprise a package.

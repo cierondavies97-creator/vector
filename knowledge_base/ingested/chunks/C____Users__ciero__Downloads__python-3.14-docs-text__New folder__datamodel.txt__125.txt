@@ -1,0 +1,4 @@
+return an *awaitable* which when awaited will execute until it
+provides a value using the "yield" expression.  When the function
+executes an empty "return" statement or falls off the end, a
+"StopAsyncIteration" exception is raised and the asynchronous iterator

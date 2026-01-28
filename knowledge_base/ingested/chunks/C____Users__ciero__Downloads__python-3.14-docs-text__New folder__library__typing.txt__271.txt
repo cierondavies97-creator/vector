@@ -1,0 +1,4 @@
+"infer_variance" parameter was added.
+   Changed in version 3.13: Support for default values was added.
+class typing.TypeVarTuple(name, *, default=typing.NoDefault)
+   Type variable tuple. A specialized form of type variable that

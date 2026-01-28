@@ -1,0 +1,4 @@
+assignment.  This should only be implemented if "del obj.name" is
+   meaningful for the object.
+   For certain sensitive attribute deletions, raises an auditing event
+   "object.__delattr__" with arguments "obj" and "name".

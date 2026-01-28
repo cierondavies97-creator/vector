@@ -1,0 +1,4 @@
+example above, when the "a" command is specified, only the "foo"
+   and "bar" attributes are present, and when the "b" command is
+   specified, only the "foo" and "baz" attributes are present.
+   Similarly, when a help message is requested from a subparser, only

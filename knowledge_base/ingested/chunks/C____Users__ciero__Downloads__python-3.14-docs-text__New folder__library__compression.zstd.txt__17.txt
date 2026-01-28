@@ -1,0 +1,4 @@
+"bytes" or *path-like* object). If wrapping an existing file
+   object, the wrapped file will not be closed when the "ZstdFile" is
+   closed.
+   The *mode* argument can be either "'rb'" for reading (default),

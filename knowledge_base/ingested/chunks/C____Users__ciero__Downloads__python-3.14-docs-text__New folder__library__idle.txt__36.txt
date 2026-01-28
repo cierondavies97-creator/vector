@@ -1,0 +1,4 @@
+Debugger (toggle)
+   When activated, code entered in the Shell or run from an Editor
+   will run under the debugger.  In the Editor, breakpoints can be set
+   with the context menu.  This feature is still incomplete and

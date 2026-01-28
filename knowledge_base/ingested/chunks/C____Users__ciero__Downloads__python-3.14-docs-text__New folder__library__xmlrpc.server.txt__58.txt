@@ -1,0 +1,4 @@
+=======================
+The "DocXMLRPCServer" class is derived from "SimpleXMLRPCServer" and
+provides a means of creating self-documenting, stand alone XML-RPC
+servers. HTTP POST requests are handled as XML-RPC method calls. HTTP

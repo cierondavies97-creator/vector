@@ -1,0 +1,3 @@
+completely is not common and is actively discouraged.  Should
+      the coroutine nevertheless decide to suppress the cancellation,
+      it needs to call "Task.uncancel()" in addition to catching the

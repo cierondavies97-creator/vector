@@ -1,0 +1,5 @@
+@overload
+      def g(x: str) -> int: ...
+   The warning specified by *category* will be emitted at runtime on
+   use of deprecated objects. For functions, that happens on calls;
+   for classes, on instantiation and on creation of subclasses. If the

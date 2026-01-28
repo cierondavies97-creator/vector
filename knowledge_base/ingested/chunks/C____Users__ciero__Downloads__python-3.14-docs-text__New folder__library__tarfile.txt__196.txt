@@ -1,0 +1,7 @@
+tar.add("foo", filter=reset)
+   tar.close()
+Supported tar formats
+=====================
+There are three tar formats that can be created with the "tarfile"
+module:
+* The POSIX.1-1988 ustar format ("USTAR_FORMAT"). It supports

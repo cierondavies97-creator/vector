@@ -1,0 +1,5 @@
+'sjoerd'}", in addition to the "set" constructor.
+The constructors for both classes work the same:
+class set(iterable=(), /)
+class frozenset(iterable=(), /)
+   Return a new set or frozenset object whose elements are taken from

@@ -1,0 +1,4 @@
+*offset* argument does not affect the write operation; the data is
+   always appended to the end of the file. However, if the *offset*
+   argument is "-1", the current file *offset* is updated.
+   Availability: Linux >= 4.16.

@@ -1,0 +1,3 @@
+*type*. The return value is a string giving a filename extension,
+   including the leading dot ("'.'").  The extension is not guaranteed
+   to have been associated with any particular data stream, but would

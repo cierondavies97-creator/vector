@@ -1,0 +1,3 @@
+*maxsplit* splits are done, the *rightmost* ones.  If *sep* is not
+   specified or "None", any subsequence consisting solely of ASCII
+   whitespace is a separator. Except for splitting from the right,

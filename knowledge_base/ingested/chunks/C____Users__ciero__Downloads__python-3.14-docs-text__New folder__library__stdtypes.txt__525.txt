@@ -1,0 +1,4 @@
+*sub* in the range [*start*, *end*].  Optional arguments *start*
+   and *end* are interpreted as in slice notation.
+   The subsequence to search for may be any *bytes-like object* or an
+   integer in the range 0 to 255.

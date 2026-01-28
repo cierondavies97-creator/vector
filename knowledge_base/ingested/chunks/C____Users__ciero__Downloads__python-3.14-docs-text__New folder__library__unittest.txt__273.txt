@@ -1,0 +1,4 @@
+If *tests* is given, it must be an iterable of individual test
+   cases or other test suites that will be used to build the suite
+   initially. Additional methods are provided to add test cases and
+   suites to the collection later on.

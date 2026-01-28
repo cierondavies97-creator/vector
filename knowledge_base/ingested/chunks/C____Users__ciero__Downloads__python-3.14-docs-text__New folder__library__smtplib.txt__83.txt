@@ -1,0 +1,4 @@
+than one set of *Resent-** headers, a "ValueError" is raised, since
+   there is no way to unambiguously detect the most recent set of
+   *Resent-* headers.
+   "send_message" serializes *msg* using "BytesGenerator" with "\r\n"

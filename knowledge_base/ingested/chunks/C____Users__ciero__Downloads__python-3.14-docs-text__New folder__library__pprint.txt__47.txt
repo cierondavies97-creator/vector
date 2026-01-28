@@ -1,0 +1,5 @@
+'package_url': 'https://pypi.org/project/sampleproject/',
+    'platform': 'UNKNOWN',
+    'project_url': 'https://pypi.org/project/sampleproject/',
+    'project_urls': {'Download': 'UNKNOWN',
+                     'Homepage': 'https://github.com/pypa/sampleproject'},

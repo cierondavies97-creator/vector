@@ -1,0 +1,4 @@
+of the referent, whereas applying "repr()" will return the
+representation of the proxy.
+An important feature of proxy objects is that they are picklable so
+they can be passed between processes.  As such, a referent can contain

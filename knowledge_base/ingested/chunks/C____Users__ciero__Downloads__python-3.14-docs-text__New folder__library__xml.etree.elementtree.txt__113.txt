@@ -1,0 +1,4 @@
+either bytestrings or Unicode strings.  *parent* is the parent
+   element.  *tag* is the subelement name.  *attrib* is an optional
+   dictionary, containing element attributes.  *extra* contains
+   additional attributes, given as keyword arguments.  Returns an

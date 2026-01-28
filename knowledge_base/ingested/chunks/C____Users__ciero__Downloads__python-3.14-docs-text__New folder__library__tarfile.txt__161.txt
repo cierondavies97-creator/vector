@@ -1,0 +1,4 @@
+* Set user and group info ("uid", "gid", "uname", "gname") to
+     "None", so that extraction methods skip setting it.
+   Return the modified "TarInfo" member.
+   Note that this filter does not block *all* dangerous archive

@@ -1,0 +1,5 @@
+left to the application: this value will be passed through as the
+   *base* argument to the "ExternalEntityRefHandler()",
+   "NotationDeclHandler()", and "UnparsedEntityDeclHandler()"
+   functions.
+xmlparser.GetBase()

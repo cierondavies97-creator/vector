@@ -1,0 +1,6 @@
+There is no way to unregister a function.
+   Availability: Unix, not WASI, not Android, not iOS.
+   Added in version 3.7.
+os.spawnl(mode, path, ...)
+os.spawnle(mode, path, ..., env)
+os.spawnlp(mode, file, ...)

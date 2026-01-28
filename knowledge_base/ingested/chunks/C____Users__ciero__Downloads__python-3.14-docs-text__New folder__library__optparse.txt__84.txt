@@ -1,0 +1,4 @@
+Here we have two different options with the same destination, which is
+perfectly OK.  (It just means you have to be a bit careful when
+setting default values---see below.)
+When "optparse" encounters "-v" on the command line, it sets

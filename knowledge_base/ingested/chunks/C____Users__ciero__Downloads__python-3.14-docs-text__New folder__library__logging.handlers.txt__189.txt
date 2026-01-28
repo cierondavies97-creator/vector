@@ -1,0 +1,4 @@
+are received from a queue in an internal thread and passed, on the
+same thread, to one or more handlers for processing. While
+"QueueListener" is not itself a handler, it is documented here because
+it works hand-in-hand with "QueueHandler".

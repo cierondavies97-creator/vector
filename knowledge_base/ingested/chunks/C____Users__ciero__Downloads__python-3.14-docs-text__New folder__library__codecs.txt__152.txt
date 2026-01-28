@@ -1,0 +1,4 @@
+byte value.
+All of these encodings can only encode 256 of the 1114112 code points
+defined in Unicode. A simple and straightforward way that can store
+each Unicode code point, is to store each code point as four

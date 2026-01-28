@@ -1,0 +1,5 @@
+like object*.
+   Changed in version 3.12: "mkdtemp()" now always returns an absolute
+   path, even if *dir* is relative.
+tempfile.gettempdir()
+   Return the name of the directory used for temporary files. This

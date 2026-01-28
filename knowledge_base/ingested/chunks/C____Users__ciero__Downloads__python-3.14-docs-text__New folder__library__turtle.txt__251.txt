@@ -1,0 +1,4 @@
+the "-n" switch (no subprocess) is used, this value should be set
+   to "True" in "turtle.cfg".  In this case IDLE's own mainloop is
+   active also for the client script.
+turtle.save(filename, overwrite=False)

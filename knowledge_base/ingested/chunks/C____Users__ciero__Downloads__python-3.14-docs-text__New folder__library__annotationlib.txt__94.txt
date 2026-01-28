@@ -1,0 +1,4 @@
+Python is powerful enough that it is possible to achieve arbitrary
+code execution even with no access to any globals or builtins. For
+example:
+   >>> def f(x: (1).__class__.__base__.__subclasses__()[-1].__init__.__builtins__["print"]("Hello world")): pass

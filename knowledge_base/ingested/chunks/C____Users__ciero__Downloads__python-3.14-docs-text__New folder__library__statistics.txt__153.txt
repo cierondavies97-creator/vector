@@ -1,0 +1,4 @@
+Dividing a constant by an instance of "NormalDist" is not supported
+   because the result wouldn't be normally distributed.
+   Since normal distributions arise from additive effects of
+   independent variables, it is possible to add and subtract two

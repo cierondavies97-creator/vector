@@ -1,0 +1,6 @@
+So, for example, consider the following YAML snippet:
+   formatters:
+     brief:
+       # configuration for formatter with id 'brief' goes here
+     precise:
+       # configuration for formatter with id 'precise' goes here

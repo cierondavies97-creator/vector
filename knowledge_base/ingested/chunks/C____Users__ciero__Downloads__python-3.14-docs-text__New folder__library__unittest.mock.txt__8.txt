@@ -1,0 +1,8 @@
+exception when a mock is called:
+>>> from unittest.mock import Mock
+>>> mock = Mock(side_effect=KeyError('foo'))
+>>> mock()
+Traceback (most recent call last):
+ ...
+KeyError: 'foo'
+>>> values = {'a': 1, 'b': 2, 'c': 3}

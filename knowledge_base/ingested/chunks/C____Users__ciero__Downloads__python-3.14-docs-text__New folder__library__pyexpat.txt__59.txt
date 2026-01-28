@@ -1,0 +1,3 @@
+the (optional) declaration of the applicable version of the XML
+   recommendation, the encoding of the document text, and an optional
+   "standalone" declaration. *version* and *encoding* will be strings,

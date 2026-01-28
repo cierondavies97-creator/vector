@@ -1,0 +1,5 @@
+packages **do not** have to exist as physical files and directories on
+the file system: for example, a package and its resources can be
+imported from a zip file using "zipimport".
+Note:
+  This module provides functionality similar to pkg_resources Basic

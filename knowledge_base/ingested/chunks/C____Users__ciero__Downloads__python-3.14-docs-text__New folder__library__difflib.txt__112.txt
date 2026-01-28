@@ -1,0 +1,5 @@
+Differ Example
+==============
+This example compares two texts. First we set up the texts, sequences
+of individual single-line strings ending with newlines (such sequences
+can also be obtained from the "readlines()" method of file-like

@@ -1,0 +1,7 @@
+-----END CERTIFICATE-----
+   -----BEGIN CERTIFICATE-----
+   ... (the root certificate for the CA's issuer)...
+   -----END CERTIFICATE-----
+CA certificates
+---------------
+If you are going to require validation of the other side of the

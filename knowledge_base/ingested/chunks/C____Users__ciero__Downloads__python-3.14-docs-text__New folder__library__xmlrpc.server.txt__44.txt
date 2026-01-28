@@ -1,0 +1,4 @@
+*name* is given, it will be the method name associated with
+   *function*, otherwise "function.__name__" will be used.  *name* is
+   a string, and may contain characters not legal in Python
+   identifiers, including the period character.

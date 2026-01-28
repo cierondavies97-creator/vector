@@ -1,0 +1,4 @@
+(break, return etc.) the next line is dedented.  In leading
+indentation, "Backspace" deletes up to 4 spaces if they are there.
+"Tab" inserts spaces (in the Python Shell window one tab), number
+depends on Indent width. Currently, tabs are restricted to four spaces

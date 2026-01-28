@@ -1,0 +1,3 @@
+causes two function names to be indistinguishable (they are on
+      the same line of the same filename, and have the same function
+      name), then the statistics for these two entries are accumulated

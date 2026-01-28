@@ -1,0 +1,3 @@
+"eval()". There is no namespace, no name lookups, or ability to
+   call out. But it is not free from attack: A relatively small input
+   can lead to memory exhaustion or to C stack exhaustion, crashing

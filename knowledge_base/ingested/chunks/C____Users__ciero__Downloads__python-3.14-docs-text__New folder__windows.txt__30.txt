@@ -1,0 +1,4 @@
+and may be a prefix. Specifying the company is optional when it is
+"PythonCore", and specifying the tag is optional (but not the slash)
+when you want the latest release from a specific company.
+   $> py -V:Distributor\1.0 ...

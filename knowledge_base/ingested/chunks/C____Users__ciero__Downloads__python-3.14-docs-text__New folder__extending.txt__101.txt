@@ -1,0 +1,3 @@
+no arguments, pass in "NULL", or an empty tuple; to call it with one
+argument, pass a singleton tuple. "Py_BuildValue()" returns a tuple
+when its format string consists of zero or more format codes between

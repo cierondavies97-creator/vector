@@ -1,0 +1,4 @@
+exporters with arbitrary format strings, but some methods
+         (e.g. "tolist()") are restricted to native single element
+         formats.
+         Changed in version 3.3: format "'B'" is now handled according

@@ -1,0 +1,9 @@
+>>> turtle.position()
+      (0.00,0.00)
+      >>> turtle.backward(30)
+      >>> turtle.position()
+      (-30.00,0.00)
+turtle.right(angle)
+turtle.rt(angle)
+   Parameters:
+      **angle** -- a number (integer or float)

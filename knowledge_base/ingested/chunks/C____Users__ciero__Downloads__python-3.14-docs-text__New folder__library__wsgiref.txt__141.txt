@@ -1,0 +1,5 @@
+# Get the file name and MIME type
+       fn = os.path.join(path, environ["PATH_INFO"][1:])
+       if "." not in fn.split(os.path.sep)[-1]:
+           fn = os.path.join(fn, "index.html")
+       mime_type = mimetypes.guess_file_type(fn)[0]

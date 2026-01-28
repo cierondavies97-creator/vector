@@ -1,0 +1,8 @@
+lang1.install()
+   # ... time goes by, user selects language 2
+   lang2.install()
+   # ... more time goes by, user selects language 3
+   lang3.install()
+Deferred translations
+---------------------
+In most coding situations, strings are translated where they are

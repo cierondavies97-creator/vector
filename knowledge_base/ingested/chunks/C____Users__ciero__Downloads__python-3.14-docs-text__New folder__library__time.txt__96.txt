@@ -1,0 +1,4 @@
+"localtime()".
+   The *format* parameter uses the same directives as those used by
+   "strftime()"; it defaults to ""%a %b %d %H:%M:%S %Y"" which matches
+   the formatting returned by "ctime()". If *string* cannot be parsed

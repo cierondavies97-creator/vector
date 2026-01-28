@@ -1,0 +1,5 @@
+issues. In most cases you should consider using the
+     "extractall()" method.
+   Warning:
+     Never extract archives from untrusted sources without prior
+     inspection. See the warning for "extractall()" for details.

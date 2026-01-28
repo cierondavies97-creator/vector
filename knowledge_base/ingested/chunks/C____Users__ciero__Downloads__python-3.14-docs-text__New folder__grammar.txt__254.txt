@@ -1,0 +1,3 @@
+RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "* argument may appear only once") }
+   invalid_lambda_kwds:
+       | '**' lambda_param a='=' { RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "var-keyword argument cannot have default value") }

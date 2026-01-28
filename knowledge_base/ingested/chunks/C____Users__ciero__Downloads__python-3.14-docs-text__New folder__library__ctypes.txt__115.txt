@@ -1,0 +1,4 @@
+*2-tuples*, containing a *field name* and a *field type*.
+The field type must be a "ctypes" type like "c_int", or any other
+derived "ctypes" type: structure, union, array, pointer.
+Here is a simple example of a POINT structure, which contains two

@@ -1,0 +1,7 @@
+False
+Classes
+=======
+The "struct" module also defines the following type:
+class struct.Struct(format)
+   Return a new Struct object which writes and reads binary data
+   according to the format string *format*.  Creating a "Struct"

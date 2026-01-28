@@ -1,0 +1,4 @@
+paths to ZIP archives.
+Typically, "sys.path" is a list of directory names as strings.  This
+module also allows an item of "sys.path" to be a string naming a ZIP
+file archive. The ZIP archive can contain a subdirectory structure to

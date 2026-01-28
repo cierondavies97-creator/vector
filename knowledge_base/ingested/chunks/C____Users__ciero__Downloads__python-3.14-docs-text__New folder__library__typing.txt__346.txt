@@ -1,0 +1,6 @@
+return 0
+      def func(x: Proto) -> int:
+          return x.meth()
+      func(C())  # Passes static type check
+   See **PEP 544** for more details. Protocol classes decorated with
+   "runtime_checkable()" (described later) act as simple-minded

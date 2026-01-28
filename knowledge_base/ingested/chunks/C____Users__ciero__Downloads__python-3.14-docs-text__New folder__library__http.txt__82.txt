@@ -1,0 +1,8 @@
+>>> list(HTTPMethod)
+      [<HTTPMethod.CONNECT>,
+       <HTTPMethod.DELETE>,
+       <HTTPMethod.GET>,
+       <HTTPMethod.HEAD>,
+       <HTTPMethod.OPTIONS>,
+       <HTTPMethod.PATCH>,
+       <HTTPMethod.POST>,

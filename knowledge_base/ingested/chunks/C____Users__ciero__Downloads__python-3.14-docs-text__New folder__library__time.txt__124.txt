@@ -1,0 +1,7 @@
+"GetSystemTimeAsFileTime()".
+time.time_ns() -> int
+   Similar to "time()" but returns time as an integer number of
+   nanoseconds since the epoch.
+   Added in version 3.7.
+time.thread_time() -> float
+   Return the value (in fractional seconds) of the sum of the system

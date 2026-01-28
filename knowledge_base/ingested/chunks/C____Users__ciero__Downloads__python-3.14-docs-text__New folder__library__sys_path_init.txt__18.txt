@@ -1,0 +1,5 @@
+"PYTHONHOME" overrides the "pyvenv.cfg" detection.
+Note:
+  There are other ways how "virtual environments" could be
+  implemented, this documentation refers implementations based on the
+  "pyvenv.cfg" mechanism, such as "venv". Most virtual environment

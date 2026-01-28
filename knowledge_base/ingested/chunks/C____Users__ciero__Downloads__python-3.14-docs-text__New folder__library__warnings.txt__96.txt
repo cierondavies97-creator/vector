@@ -1,0 +1,4 @@
+supplied, "showwarning()" will try to read the line specified by
+   *filename* and *lineno*.
+warnings.formatwarning(message, category, filename, lineno, line=None)
+   Format a warning the standard way.  This returns a string which may

@@ -1,0 +1,5 @@
+that the "tzinfo" methods interpret *dt* as being in local time, and
+not need worry about objects in other time zones.
+There is one more "tzinfo" method that a subclass may wish to
+override:
+tzinfo.fromutc(dt)

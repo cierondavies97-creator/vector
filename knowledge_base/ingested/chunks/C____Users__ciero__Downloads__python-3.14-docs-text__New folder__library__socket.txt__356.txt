@@ -1,0 +1,5 @@
+s.bind((HOST, PORT))
+the "SO_REUSEADDR" flag tells the kernel to reuse a local socket in
+"TIME_WAIT" state, without waiting for its natural timeout to expire.
+See also:
+  For an introduction to socket programming (in C), see the following

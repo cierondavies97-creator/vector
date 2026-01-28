@@ -1,0 +1,5 @@
+This is especially relevant when serializing Python "int" values of
+extremely large magnitude, or when serializing instances of "exotic"
+numerical types such as "decimal.Decimal".
+Command-line interface
+======================

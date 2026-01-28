@@ -1,0 +1,4 @@
+at the "email" package instead.
+Changed in version 3.3: ASCII-only Unicode strings are now accepted by
+the decoding functions of the modern interface.
+Changed in version 3.4: Any *bytes-like objects* are now accepted by

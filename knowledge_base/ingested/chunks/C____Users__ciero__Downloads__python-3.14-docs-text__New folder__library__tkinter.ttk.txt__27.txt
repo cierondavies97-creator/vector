@@ -1,0 +1,3 @@
+| textvariable   | Specifies a name whose value will be used in place of the   |
+|                | text option resource.                                       |
++----------------+-------------------------------------------------------------+

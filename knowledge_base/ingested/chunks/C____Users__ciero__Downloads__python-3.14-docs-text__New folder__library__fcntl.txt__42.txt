@@ -1,0 +1,4 @@
+rv = fcntl.fcntl(f, fcntl.F_SETLKW, lockdata)
+Note that in the first example the return value variable *rv* will
+hold an integer value; in the second example it will hold a "bytes"
+object.  The structure lay-out for the *lockdata* variable is system

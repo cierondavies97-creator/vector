@@ -1,0 +1,4 @@
+This Request For Comments includes the rules for joining an
+     absolute and a relative URL, including a fair number of "Abnormal
+     Examples" which govern the treatment of border cases.
+  **RFC 1738** - Uniform Resource Locators (URL)

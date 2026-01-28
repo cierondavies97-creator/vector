@@ -1,0 +1,6 @@
+this, the IMAP4 "LOGOUT" command is issued automatically when the
+   "with" statement exits.  E.g.:
+      >>> from imaplib import IMAP4
+      >>> with IMAP4("domain.org") as M:
+      ...     M.noop()
+      ...

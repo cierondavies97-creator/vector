@@ -1,0 +1,7 @@
+>>> d = date(2005, 7, 14)
+   >>> t = time(12, 30)
+   >>> datetime.combine(d, t)
+   datetime.datetime(2005, 7, 14, 12, 30)
+   >>> # Using datetime.now()
+   >>> datetime.now()
+   datetime.datetime(2007, 12, 6, 16, 29, 43, 79043)   # GMT +1

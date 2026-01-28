@@ -1,0 +1,3 @@
+millisecond value of "4" as "004". Refer to the "str.format()"
+documentation for full details on the options available to you.
++------------------+---------------------------+-------------------------------------------------+

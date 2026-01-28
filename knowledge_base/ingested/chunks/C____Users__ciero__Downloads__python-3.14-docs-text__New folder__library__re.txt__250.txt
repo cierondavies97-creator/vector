@@ -1,0 +1,5 @@
+"group()" method of the match object in the following manner:
+   >>> pair = re.compile(r".*(.).*\1")
+   >>> pair.match("717ak").group(1)
+   '7'
+   # Error because re.match() returns None, which doesn't have a group() method:

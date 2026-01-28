@@ -1,0 +1,3 @@
+handler the destination, of a connection between the two.  Of course
+in the configured objects this is represented by the logger holding a
+reference to the handler.  In the configuration dict, this is done by

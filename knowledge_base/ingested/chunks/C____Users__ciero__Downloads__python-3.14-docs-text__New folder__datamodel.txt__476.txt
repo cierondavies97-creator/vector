@@ -1,0 +1,5 @@
+used;
+* if an explicit metaclass is given and it is *not* an instance of
+  "type()", then it is used directly as the metaclass;
+* if an instance of "type()" is given as the explicit metaclass, or
+  bases are defined, then the most derived metaclass is used.

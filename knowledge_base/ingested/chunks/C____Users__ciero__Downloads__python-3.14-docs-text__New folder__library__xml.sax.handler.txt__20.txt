@@ -1,0 +1,5 @@
+description: An optional extension handler for DTD-related events other
+      than notations and unparsed entities.
+      access: read/write
+xml.sax.handler.property_dom_node
+      value: ""http://xml.org/sax/properties/dom-node""

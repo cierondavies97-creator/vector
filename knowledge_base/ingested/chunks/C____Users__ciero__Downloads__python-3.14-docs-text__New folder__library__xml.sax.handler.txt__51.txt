@@ -1,0 +1,4 @@
+2.10): non-validating parsers may also use this method if they are
+   capable of parsing and using content models.
+   SAX parsers may return all contiguous whitespace in a single chunk,
+   or they may split it into several chunks; however, all of the

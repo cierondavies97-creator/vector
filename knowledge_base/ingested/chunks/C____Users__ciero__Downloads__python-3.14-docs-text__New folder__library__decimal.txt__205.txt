@@ -1,0 +1,6 @@
+log10(x, /)
+      Returns the base 10 logarithm of *x*.
+   logb(x, /)
+      Returns the exponent of the magnitude of the operand's MSD.
+   logical_and(x, y, /)
+      Applies the logical operation *and* between each operand's

@@ -1,0 +1,6 @@
+Copy *message_set* messages onto end of *new_mailbox*.
+IMAP4.create(mailbox)
+   Create new mailbox named *mailbox*.
+IMAP4.delete(mailbox)
+   Delete old mailbox named *mailbox*.
+IMAP4.deleteacl(mailbox, who)

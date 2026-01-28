@@ -1,0 +1,6 @@
+default, no text)
+   * epilog - Text to display after the argument help (by default, no
+     text)
+   * parents - A list of "ArgumentParser" objects whose arguments
+     should also be included
+   * formatter_class - A class for customizing the help output

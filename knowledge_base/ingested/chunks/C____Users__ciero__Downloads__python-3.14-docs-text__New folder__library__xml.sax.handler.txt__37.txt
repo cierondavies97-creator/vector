@@ -1,0 +1,4 @@
+of "endPrefixMapping()" events is not otherwise guaranteed.
+ContentHandler.startElement(name, attrs)
+   Signals the start of an element in non-namespace mode.
+   The *name* parameter contains the raw XML 1.0 name of the element

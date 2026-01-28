@@ -1,0 +1,6 @@
+...         screen.ontimer(f, 250)
+      >>> f()   ### makes the turtle march around
+      >>> running = False
+turtle.mainloop()
+turtle.done()
+   Starts event loop - calling Tkinter's mainloop function. Must be

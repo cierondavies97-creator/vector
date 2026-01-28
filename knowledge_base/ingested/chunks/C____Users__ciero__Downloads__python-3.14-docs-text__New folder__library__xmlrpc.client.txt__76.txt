@@ -1,0 +1,6 @@
+server.register_function(multiply, 'multiply')
+   server.register_function(divide, 'divide')
+   server.serve_forever()
+The client code for the preceding server:
+   import xmlrpc.client
+   proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")

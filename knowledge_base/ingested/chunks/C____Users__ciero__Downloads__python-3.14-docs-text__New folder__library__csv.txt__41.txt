@@ -1,0 +1,4 @@
+applications produce subtly different CSV data.  "Dialect"
+   instances define how "reader" and "writer" instances behave.
+   All available "Dialect" names are returned by "list_dialects()",
+   and they can be registered with specific "reader" and "writer"

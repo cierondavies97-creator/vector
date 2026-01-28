@@ -1,0 +1,5 @@
+encrypted files.
+ZipFile.read(name, pwd=None)
+   Return the bytes of the file *name* in the archive.  *name* is the
+   name of the file in the archive, or a "ZipInfo" object.  The
+   archive must be open for read or append. *pwd* is the password used

@@ -1,0 +1,3 @@
+Mock has many other ways you can configure it and control its
+behaviour. For example the *spec* argument configures the mock to take
+its specification from another object. Attempting to access attributes

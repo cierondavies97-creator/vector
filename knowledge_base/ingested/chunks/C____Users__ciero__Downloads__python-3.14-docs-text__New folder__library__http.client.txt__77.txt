@@ -1,0 +1,6 @@
+HTTPResponse.closed
+   Is "True" if the stream is closed.
+HTTPResponse.geturl()
+   Deprecated since version 3.9: Deprecated in favor of "url".
+HTTPResponse.info()
+   Deprecated since version 3.9: Deprecated in favor of "headers".

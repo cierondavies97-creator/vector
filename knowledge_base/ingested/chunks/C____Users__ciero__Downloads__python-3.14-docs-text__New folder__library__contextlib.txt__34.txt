@@ -1,0 +1,5 @@
+as a stand-in for an optional context manager, for example:
+      def myfunction(arg, ignore_exceptions=False):
+          if ignore_exceptions:
+              # Use suppress to ignore all exceptions.
+              cm = contextlib.suppress(Exception)

@@ -1,0 +1,4 @@
+lookup, i.e. "object.__getattribute__()", then "__getattr__" is
+searched in the module "__dict__" before raising an "AttributeError".
+If found, it is called with the attribute name and the result is
+returned.

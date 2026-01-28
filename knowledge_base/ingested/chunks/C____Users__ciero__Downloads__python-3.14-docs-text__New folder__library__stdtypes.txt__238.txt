@@ -1,0 +1,4 @@
+2) == range(0, 4, 2)".)
+Changed in version 3.2: Implement the Sequence ABC. Support slicing
+and negative indices. Test "int" objects for membership in constant
+time instead of iterating through all items.

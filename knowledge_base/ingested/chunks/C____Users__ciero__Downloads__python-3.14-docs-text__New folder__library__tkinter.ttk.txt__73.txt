@@ -1,0 +1,3 @@
+|========================|========================================================|
+| from                   | Float value.  If set, this is the minimum value to     |
+|                        | which the decrement button will decrement.  Must be    |

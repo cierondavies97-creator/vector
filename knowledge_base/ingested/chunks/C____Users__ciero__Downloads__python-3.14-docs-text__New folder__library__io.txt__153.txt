@@ -1,0 +1,3 @@
+"'\n'" characters written are translated to the system default
+     line separator, "os.linesep".  If *newline* is "''" or "'\n'", no
+     translation takes place.  If *newline* is any of the other legal

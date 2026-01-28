@@ -1,0 +1,5 @@
+The *compresslevel* argument is an integer from 1 to 9, as for the
+   "BZ2File" constructor.
+   For binary mode, this function is equivalent to the "BZ2File"
+   constructor: "BZ2File(filename, mode,
+   compresslevel=compresslevel)". In this case, the *encoding*,

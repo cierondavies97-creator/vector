@@ -1,0 +1,3 @@
+Transfer-Encoding* header to "base64".  This is a good encoding to
+   use when most of your payload is unprintable data since it is a
+   more compact form than quoted-printable.  The drawback of base64

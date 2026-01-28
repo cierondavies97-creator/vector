@@ -1,0 +1,4 @@
+All literals correspond to immutable data types, and hence the
+object's identity is less important than its value.  Multiple
+evaluations of literals with the same value (either the same
+occurrence in the program text or a different occurrence) may obtain

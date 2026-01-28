@@ -1,0 +1,4 @@
+unhashable when checking "isinstance(obj,
+   collections.abc.Hashable)".
+   If a class that overrides "__eq__()" needs to retain the
+   implementation of "__hash__()" from a parent class, the interpreter

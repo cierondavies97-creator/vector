@@ -1,0 +1,3 @@
+These more infrequently used classes are similar to the TCP and UDP
+   classes, but use Unix domain sockets; they're not available on non-
+   Unix platforms.  The parameters are the same as for "TCPServer".

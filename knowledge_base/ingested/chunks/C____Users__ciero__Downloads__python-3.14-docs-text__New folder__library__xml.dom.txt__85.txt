@@ -1,0 +1,3 @@
+may have a prefix.  The element is not inserted into the document
+   when it is created.  You need to explicitly insert it with one of
+   the other methods such as "insertBefore()" or "appendChild()".

@@ -1,0 +1,3 @@
+check the value of the "fold" attribute or avoid using hybrid "tzinfo"
+subclasses; there are no ambiguities when using "timezone", or any
+other fixed-offset "tzinfo" subclass (such as a class representing

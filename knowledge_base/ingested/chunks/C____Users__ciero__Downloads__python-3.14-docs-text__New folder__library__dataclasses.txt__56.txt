@@ -1,0 +1,4 @@
+the "@dataclass" decorator runs, the class attributes will all
+   contain the default values for the fields, just as if the default
+   value itself were specified.  For example, after:
+      @dataclass

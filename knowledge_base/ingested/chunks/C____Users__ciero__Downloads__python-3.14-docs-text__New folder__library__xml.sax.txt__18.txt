@@ -1,0 +1,4 @@
+"None" or an exception that was caught by the parsing code and is
+   being passed along as information.
+   This is the base class for the other SAX exception classes.
+exception xml.sax.SAXParseException(msg, exception, locator)

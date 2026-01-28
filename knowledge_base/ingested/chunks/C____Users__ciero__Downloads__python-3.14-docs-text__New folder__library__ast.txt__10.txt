@@ -1,0 +1,3 @@
+-- use 'orelse' because else is a keyword in target languages
+             | For(expr target, expr iter, stmt* body, stmt* orelse, string? type_comment)
+             | AsyncFor(expr target, expr iter, stmt* body, stmt* orelse, string? type_comment)

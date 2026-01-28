@@ -1,0 +1,5 @@
+is a dictionary containing CGI-style environment variables and the
+   second variable is the callable object.
+   """
+   from wsgiref.simple_server import make_server
+   def hello_world_app(environ, start_response):

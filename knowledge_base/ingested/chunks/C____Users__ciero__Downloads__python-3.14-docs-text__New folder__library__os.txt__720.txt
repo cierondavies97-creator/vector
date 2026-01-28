@@ -1,0 +1,3 @@
+handle *pid*, and return a tuple containing *pid*, and its exit
+   status shifted left by 8 bits (shifting makes cross-platform use of
+   the function easier). A *pid* less than or equal to "0" has no

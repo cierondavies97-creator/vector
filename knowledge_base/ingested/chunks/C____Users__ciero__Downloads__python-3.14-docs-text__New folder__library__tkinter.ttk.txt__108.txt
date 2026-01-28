@@ -1,0 +1,5 @@
+Returns the name of the tab element at position *x*, *y*, or the
+      empty string if none.
+   index(tab_id)
+      Returns the numeric index of the tab specified by *tab_id*, or
+      the total number of tabs if *tab_id* is the string "end".

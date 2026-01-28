@@ -1,0 +1,6 @@
+optimization settings in "sys.flags".
+test.support.captured_stdin()
+test.support.captured_stdout()
+test.support.captured_stderr()
+   A context managers that temporarily replaces the named stream with
+   "io.StringIO" object.

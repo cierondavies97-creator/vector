@@ -1,0 +1,4 @@
+pathlib implements path operations using "PurePath" and "Path"
+objects, and so it's said to be *object-oriented*. On the other hand,
+the "os" and "os.path" modules supply functions that work with low-
+level "str" and "bytes" objects, which is a more *procedural*

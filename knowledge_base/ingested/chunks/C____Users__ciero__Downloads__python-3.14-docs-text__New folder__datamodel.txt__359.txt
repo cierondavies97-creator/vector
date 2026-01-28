@@ -1,0 +1,5 @@
+The default implementation defined by the built-in type "object"
+   calls "object.__repr__()".
+object.__bytes__(self)
+   Called by bytes to compute a byte-string representation of an
+   object. This should return a "bytes" object. The "object" class

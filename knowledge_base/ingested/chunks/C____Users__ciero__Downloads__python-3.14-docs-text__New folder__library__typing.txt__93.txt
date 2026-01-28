@@ -1,0 +1,5 @@
+of parameterizing generics is cached, and most types in the "typing"
+module are *hashable* and comparable for equality.
+The "Any" type
+==============
+A special kind of type is "Any". A static type checker will treat

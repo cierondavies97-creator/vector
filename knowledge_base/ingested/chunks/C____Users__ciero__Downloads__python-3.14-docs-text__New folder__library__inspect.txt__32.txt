@@ -1,0 +1,3 @@
+|                   |                     | (this frame's caller)       |
++-------------------+---------------------+-----------------------------+
+|                   | f_builtins          | builtins namespace seen by  |

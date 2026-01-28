@@ -1,0 +1,5 @@
+Comparison with "json"
+----------------------
+There are fundamental differences between the pickle protocols and
+JSON (JavaScript Object Notation):
+* JSON is a text serialization format (it outputs unicode text,

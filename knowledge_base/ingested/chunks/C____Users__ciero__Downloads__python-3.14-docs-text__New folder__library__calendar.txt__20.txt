@@ -1,0 +1,5 @@
+4 and 6 weeks and each week contains 1--7 days. Days are
+      "datetime.date" objects.
+   yeardays2calendar(year, width=3)
+      Return the data for the specified year ready for formatting
+      (similar to "yeardatescalendar()"). Entries in the week lists

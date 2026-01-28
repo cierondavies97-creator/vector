@@ -1,0 +1,6 @@
+Unix systems supporting "CLOCK_THREAD_CPUTIME_ID".
+   Added in version 3.7.
+time.thread_time_ns() -> int
+   Similar to "thread_time()" but return time as nanoseconds.
+   Added in version 3.7.
+time.tzset()

@@ -1,0 +1,5 @@
+Added in version 3.7.
+TLS Upgrade
+-----------
+async loop.start_tls(transport, protocol, sslcontext, *, server_side=False, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None)
+   Upgrade an existing transport-based connection to TLS.

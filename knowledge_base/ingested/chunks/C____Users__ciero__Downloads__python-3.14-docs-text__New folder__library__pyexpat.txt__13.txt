@@ -1,0 +1,5 @@
+any separator.
+   For example, if *namespace_separator* is set to a space character
+   ("' '") and the following document is parsed:
+      <?xml version="1.0"?>
+      <root xmlns    = "http://default-namespace.org/"

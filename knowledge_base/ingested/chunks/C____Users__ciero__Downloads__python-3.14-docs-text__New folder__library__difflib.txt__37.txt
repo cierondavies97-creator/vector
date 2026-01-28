@@ -1,0 +1,4 @@
+*word* (typically a list of strings).
+   Optional argument *n* (default "3") is the maximum number of close
+   matches to return; *n* must be greater than "0".
+   Optional argument *cutoff* (default "0.6") is a float in the range

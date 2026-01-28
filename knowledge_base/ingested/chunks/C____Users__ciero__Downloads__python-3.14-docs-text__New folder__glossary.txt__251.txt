@@ -1,0 +1,5 @@
+"{'r', 'd'}".  See Displays for lists, sets and dictionaries.
+single dispatch
+   A form of *generic function* dispatch where the implementation is
+   chosen based on the type of a single argument.
+slice

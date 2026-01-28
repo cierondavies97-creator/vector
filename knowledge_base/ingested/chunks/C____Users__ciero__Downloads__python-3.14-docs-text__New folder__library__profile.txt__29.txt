@@ -1,0 +1,4 @@
+original size, then only lines containing "init" are maintained, and
+that sub-sub-list is printed.
+If you wondered what functions called the above functions, you could
+now ("p" is still sorted according to the last criteria) do:

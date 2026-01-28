@@ -1,0 +1,4 @@
+So if you are embedding Python, you are providing your own main
+program.  One of the things this main program has to do is initialize
+the Python interpreter.  At the very least, you have to call the
+function "Py_Initialize()".  There are optional calls to pass command

@@ -1,0 +1,5 @@
+*garbage* rather than being freed.  This can be useful for
+   debugging a leaking program.
+gc.DEBUG_LEAK
+   The debugging flags necessary for the collector to print
+   information about a leaking program (equal to "DEBUG_COLLECTABLE |

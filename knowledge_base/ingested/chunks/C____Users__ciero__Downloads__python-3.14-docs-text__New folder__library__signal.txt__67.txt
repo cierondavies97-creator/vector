@@ -1,0 +1,3 @@
+other threads will cause a "ValueError" exception to be raised.
+   There are two common ways to use this function. In both approaches,
+   you use the fd to wake up when a signal arrives, but then they

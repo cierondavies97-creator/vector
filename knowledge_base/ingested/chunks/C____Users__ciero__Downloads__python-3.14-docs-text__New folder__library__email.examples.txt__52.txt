@@ -1,0 +1,6 @@
+sys.exit()
+   # We can extract the richest alternative in order to display it:
+   richest = msg.get_body()
+   partfiles = {}
+   if richest['content-type'].maintype == 'text':
+       if richest['content-type'].subtype == 'plain':

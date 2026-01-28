@@ -1,0 +1,6 @@
+all implementations of Python.
+sys.last_type
+sys.last_value
+sys.last_traceback
+   These three variables are deprecated; use "sys.last_exc" instead.
+   They hold the legacy representation of "sys.last_exc", as returned

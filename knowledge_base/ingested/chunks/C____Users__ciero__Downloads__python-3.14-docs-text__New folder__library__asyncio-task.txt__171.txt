@@ -1,0 +1,4 @@
+custom "contextvars.Context" for the *coro* to run in. If no
+   *context* is provided, the Task copies the current context and
+   later runs its coroutine in the copied context.
+   An optional keyword-only *eager_start* argument allows eagerly

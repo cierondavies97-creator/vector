@@ -1,0 +1,4 @@
+*root_dir* together.
+   *root_dir* and *base_dir* both default to the current directory.
+   If *dry_run* is true, no archive is created, but the operations
+   that would be executed are logged to *logger*.

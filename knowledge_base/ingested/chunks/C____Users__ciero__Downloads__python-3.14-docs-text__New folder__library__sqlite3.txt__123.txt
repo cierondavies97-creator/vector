@@ -1,0 +1,5 @@
+* "0" if they are ordered equal
+      The following example shows a reverse sorting collation:
+         def collate_reverse(string1, string2):
+             if string1 == string2:
+                 return 0

@@ -1,0 +1,3 @@
+"ZIP_LZMA" it has no effect. When using "ZIP_DEFLATED" integers "0"
+   through "9" are accepted (see "zlib" for more information). When
+   using "ZIP_BZIP2" integers "1" through "9" are accepted (see "bz2"

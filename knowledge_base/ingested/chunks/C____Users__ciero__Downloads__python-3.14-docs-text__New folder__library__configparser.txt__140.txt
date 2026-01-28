@@ -1,0 +1,3 @@
+any section or option duplicates while reading from a single source
+   (file, string or dictionary), raising "DuplicateSectionError" or
+   "DuplicateOptionError".  When *empty_lines_in_values* is "False"

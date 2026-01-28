@@ -1,0 +1,4 @@
+**PEP 249**, and requires the third-party SQLite library.
+This is an *optional module*. If it is missing from your copy of
+CPython, look for documentation from your distributor (that is,
+whoever provided Python to you). If you are the distributor, see

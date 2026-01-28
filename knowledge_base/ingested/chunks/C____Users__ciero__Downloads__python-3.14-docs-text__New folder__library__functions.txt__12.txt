@@ -1,0 +1,4 @@
+When awaited, return the next item from the given *asynchronous
+   iterator*, or *default* if given and the iterator is exhausted.
+   This is the async variant of the "next()" builtin, and behaves
+   similarly.

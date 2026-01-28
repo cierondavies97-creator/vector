@@ -1,0 +1,4 @@
+compatible data types, and allows calling functions in DLLs or shared
+libraries.  It can be used to wrap these libraries in pure Python.
+This is an *optional module*. If it is missing from your copy of
+CPython, look for documentation from your distributor (that is,

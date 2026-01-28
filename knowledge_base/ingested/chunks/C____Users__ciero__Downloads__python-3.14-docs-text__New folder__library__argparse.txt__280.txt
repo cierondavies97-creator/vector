@@ -1,0 +1,5 @@
+>>> checkout = subparsers.add_parser('checkout', aliases=['co'])
+      >>> checkout.add_argument('foo')
+      >>> parser.parse_args(['co', 'bar'])
+      Namespace(foo='bar')
+   "add_parser()" supports also an additional *deprecated* argument,

@@ -1,0 +1,3 @@
+|                   | co_lines()          | returns an iterator that    |
+|                   |                     | yields successive bytecode  |
+|                   |                     | ranges                      |

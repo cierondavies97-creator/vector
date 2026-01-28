@@ -1,0 +1,6 @@
+otherwise "None"
+   positions
+      "dis.Positions" object holding the start and end locations that
+      are covered by this instruction.
+   cache_info
+      Information about the cache entries of this instruction, as

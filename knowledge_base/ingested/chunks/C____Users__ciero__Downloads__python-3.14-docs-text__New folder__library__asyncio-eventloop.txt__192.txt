@@ -1,0 +1,6 @@
+"ThreadPoolExecutor".
+Error Handling API
+------------------
+Allows customizing how exceptions are handled in the event loop.
+loop.set_exception_handler(handler)
+   Set *handler* as the new event loop exception handler.

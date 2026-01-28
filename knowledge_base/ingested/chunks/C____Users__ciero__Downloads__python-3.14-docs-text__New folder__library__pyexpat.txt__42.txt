@@ -1,0 +1,5 @@
+parser or if *max_factor* is outside the valid range. The
+   corresponding "lineno" and "offset" should not be used as they may
+   have no special meaning.
+   Note:
+     The maximum amplification factor is only considered if the

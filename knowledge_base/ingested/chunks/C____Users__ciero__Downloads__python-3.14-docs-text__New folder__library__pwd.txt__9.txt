@@ -1,0 +1,8 @@
+pwd.getpwnam(name)
+   Return the password database entry for the given user name.
+pwd.getpwall()
+   Return a list of all available password database entries, in
+   arbitrary order.
+See also:
+  Module "grp"
+     An interface to the group database, similar to this.

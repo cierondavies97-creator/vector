@@ -1,0 +1,4 @@
+* The arguments must be types and there must be at least one.
+   * Unions of unions are flattened, e.g.:
+        Union[Union[int, str], float] == Union[int, str, float]
+     However, this does not apply to unions referenced through a type

@@ -1,0 +1,5 @@
+description:
+     -f FILE, --filename=FILE
+  This is important for more than just saving space, though: the
+  manually written help text uses the meta-variable "FILE" to clue the
+  user in that there's a connection between the semi-formal syntax "-f

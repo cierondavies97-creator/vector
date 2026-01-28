@@ -1,0 +1,5 @@
+command line. The module can be run in the Shell without
+   restarting.
+Check Module
+   Check the syntax of the module currently open in the Editor window.
+   If the module has not been saved IDLE will either prompt the user

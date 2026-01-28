@@ -1,0 +1,6 @@
+fewer values than the "strings" tuple:
+      >>> t'Red Leicester'.interpolations
+      ()
+   values: tuple[object, ...]
+      A tuple of all interpolated values in the template.
+      >>> cheese = 'Camembert'

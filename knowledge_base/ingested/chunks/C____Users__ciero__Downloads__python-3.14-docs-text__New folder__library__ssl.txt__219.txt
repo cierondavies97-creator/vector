@@ -1,0 +1,4 @@
+required, OpenSSL's built-in password prompting mechanism will be
+   used to interactively prompt the user for a password.
+   An "SSLError" is raised if the private key doesn't match with the
+   certificate.

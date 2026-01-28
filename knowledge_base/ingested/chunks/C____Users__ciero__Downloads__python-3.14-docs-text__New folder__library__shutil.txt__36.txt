@@ -1,0 +1,5 @@
+"dst".
+   Raises an auditing event "shutil.copystat" with arguments "src",
+   "dst".
+   Changed in version 3.3: Added *follow_symlinks* argument, try to
+   copy extended file system attributes too (currently Linux only).

@@ -1,0 +1,7 @@
+defaults to "None".
+   For example:
+      >>> m = re.match(r"(\d+)\.(\d+)", "24.1632")
+      >>> m.groups()
+      ('24', '1632')
+   If we make the decimal place and everything after it optional, not
+   all groups might participate in the match.  These groups will

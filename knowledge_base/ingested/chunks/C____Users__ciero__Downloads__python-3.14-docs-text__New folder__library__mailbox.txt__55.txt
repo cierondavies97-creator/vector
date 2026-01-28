@@ -1,0 +1,3 @@
+certain message file names. However, some operating systems do
+      not permit this character in file names, If you wish to use a
+      Maildir-like format on such an operating system, you should

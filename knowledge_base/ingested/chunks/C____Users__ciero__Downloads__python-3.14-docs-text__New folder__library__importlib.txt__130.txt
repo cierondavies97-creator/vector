@@ -1,0 +1,5 @@
+Added in version 3.3.
+   Deprecated since version 3.6: Use "site" configuration instead.
+   Future versions of Python may not enable this finder by default.
+class importlib.machinery.PathFinder
+   A *Finder* for "sys.path" and package "__path__" attributes. This

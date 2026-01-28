@@ -1,0 +1,7 @@
+before each disassembly.
+pickle_file
+   A pickle file to read, or "-" to indicate reading from standard
+   input.
+Programmatic interface
+======================
+pickletools.dis(pickle, out=None, memo=None, indentlevel=4, annotate=0)

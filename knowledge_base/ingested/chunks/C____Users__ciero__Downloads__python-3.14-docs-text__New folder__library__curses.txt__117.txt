@@ -1,0 +1,4 @@
+parts of the background are combined with the blank characters.
+   The background becomes a property of the character and moves with
+   the character through any scrolling and insert/delete
+   line/character operations.

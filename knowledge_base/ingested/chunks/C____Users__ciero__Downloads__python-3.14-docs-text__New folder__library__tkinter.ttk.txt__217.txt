@@ -1,0 +1,6 @@
+ttk.Style().configure("TButton", padding=6, relief="flat",
+            background="#ccc")
+         btn = ttk.Button(text="Sample")
+         btn.pack()
+         root.mainloop()
+   map(style, query_opt=None, **kw)

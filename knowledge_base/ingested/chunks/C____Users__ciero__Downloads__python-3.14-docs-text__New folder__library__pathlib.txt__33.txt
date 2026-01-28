@@ -1,0 +1,8 @@
+>>> p = PurePath('/etc')
+   >>> str(p)
+   '/etc'
+   >>> p = PureWindowsPath('c:/Program Files')
+   >>> str(p)
+   'c:\\Program Files'
+Similarly, calling "bytes" on a path gives the raw filesystem path as
+a bytes object, as encoded by "os.fsencode()":

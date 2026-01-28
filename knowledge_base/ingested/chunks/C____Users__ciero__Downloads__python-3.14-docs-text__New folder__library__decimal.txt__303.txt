@@ -1,0 +1,4 @@
+invariant throughout an application?
+A: Some operations like addition, subtraction, and multiplication by
+an integer will automatically preserve fixed point.  Others
+operations, like division and non-integer multiplication, will change

@@ -1,0 +1,2 @@
+|                                   |                                   | time:  * "-1": indeterminable  *  |
+   |                                   |                                   | "0": toward zero  * "1": to       |

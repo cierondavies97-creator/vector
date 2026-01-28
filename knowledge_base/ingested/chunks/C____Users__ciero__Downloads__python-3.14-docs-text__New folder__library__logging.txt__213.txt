@@ -1,0 +1,5 @@
+Changed in version 3.2: The "isEnabledFor()",
+   "getEffectiveLevel()", "setLevel()" and "hasHandlers()" methods
+   were added to "LoggerAdapter".  These methods delegate to the
+   underlying logger.
+   Changed in version 3.6: Attribute "manager" and method "_log()"

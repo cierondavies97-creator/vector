@@ -1,0 +1,5 @@
+"JANUARY" through "DECEMBER".
+   Added in version 3.12.
+The "calendar" module defines the following exceptions:
+exception calendar.IllegalMonthError(month)
+   A subclass of "ValueError", raised when the given month number is

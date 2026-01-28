@@ -1,0 +1,4 @@
+* "'auto'": Same as "'seconds'" if "microsecond" is 0, same as
+     "'microseconds'" otherwise.
+   * "'hours'": Include the "hour" in the two-digit "HH" format.
+   * "'minutes'": Include "hour" and "minute" in "HH:MM" format.

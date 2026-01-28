@@ -1,0 +1,6 @@
+directory access functions.
+      Added in version 3.3.
+shutil.move(src, dst, copy_function=copy2)
+   Recursively move a file or directory (*src*) to another location
+   and return the destination.
+   If *dst* is an existing directory or a symlink to a directory, then

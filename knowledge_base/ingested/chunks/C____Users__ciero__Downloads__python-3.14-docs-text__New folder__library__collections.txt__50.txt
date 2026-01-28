@@ -1,0 +1,5 @@
+with equal counts are ordered in the order first encountered:
+      >>> Counter('abracadabra').most_common(3)
+      [('a', 5), ('b', 2), ('r', 2)]
+   subtract([iterable-or-mapping])
+      Elements are subtracted from an *iterable* or from another

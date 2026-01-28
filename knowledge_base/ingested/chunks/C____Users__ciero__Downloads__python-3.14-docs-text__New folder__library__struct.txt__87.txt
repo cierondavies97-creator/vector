@@ -1,0 +1,5 @@
+By default, native byte ordering and alignment is used, but it is
+better to be explicit and use the "'@'" prefix character.
+Standard Formats
+----------------
+When exchanging data beyond your process such as networking or

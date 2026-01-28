@@ -1,0 +1,6 @@
+codename.
+   * "is_emulator" - "True" if the device is an emulator; "False" if
+     it's a physical device.
+   Google maintains a list of known model and device names.
+   Added in version 3.13.
+Command-line usage

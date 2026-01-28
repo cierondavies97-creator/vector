@@ -1,0 +1,4 @@
+Q: I noticed that context precision is applied to the results of
+operations but not to the inputs.  Is there anything to watch out for
+when mixing values of different precisions?
+A: Yes.  The principle is that all values are considered to be exact

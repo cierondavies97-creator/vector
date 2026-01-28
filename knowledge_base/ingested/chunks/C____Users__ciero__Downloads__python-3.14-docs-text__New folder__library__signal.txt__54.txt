@@ -1,0 +1,4 @@
+signal mask is the set of signals whose delivery is currently
+   blocked for the caller. Return the old signal mask as a set of
+   signals.
+   The behavior of the call is dependent on the value of *how*, as

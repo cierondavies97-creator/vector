@@ -1,0 +1,5 @@
+"tkinter.ttk" module, which provides the modern themed widget set and
+API:
+   from tkinter import *
+   from tkinter import ttk
+class tkinter.Tk(screenName=None, baseName=None, className='Tk', useTk=True, sync=False, use=None)

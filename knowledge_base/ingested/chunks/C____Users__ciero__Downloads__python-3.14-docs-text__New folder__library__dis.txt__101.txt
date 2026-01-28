@@ -1,0 +1,6 @@
+state.
+   Changed in version 3.11: Exception representation on the stack now
+   consist of one, not three, items.
+RERAISE
+   Re-raises the exception currently on top of the stack. If oparg is
+   non-zero, pops an additional value from the stack which is used to

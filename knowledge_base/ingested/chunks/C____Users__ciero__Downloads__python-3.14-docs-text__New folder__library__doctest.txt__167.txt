@@ -1,0 +1,4 @@
+synthesized unit test fails, and a
+   "unittest.TestCase.failureException" exception is raised showing
+   the name of the file containing the test and a (sometimes
+   approximate) line number.  If all the examples in a docstring are

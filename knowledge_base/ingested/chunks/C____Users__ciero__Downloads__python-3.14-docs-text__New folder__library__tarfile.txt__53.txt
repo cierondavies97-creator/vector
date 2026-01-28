@@ -1,0 +1,5 @@
+Raised to refuse extracting a member with an absolute path.
+exception tarfile.OutsideDestinationError
+   Raised to refuse extracting a member outside the destination
+   directory.
+exception tarfile.SpecialFileError

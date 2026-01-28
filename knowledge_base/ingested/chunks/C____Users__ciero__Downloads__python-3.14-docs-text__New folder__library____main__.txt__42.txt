@@ -1,0 +1,7 @@
+except ValueError as ve:
+           return str(ve)
+   if __name__ == "__main__":
+       sys.exit(main())
+Now, if we started our program, the result would look like this:
+   $ python start.py
+   Define the variable `my_name`!

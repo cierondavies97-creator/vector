@@ -1,0 +1,4 @@
+"2.68". This is not a bug: it's a result of the fact that most
+     decimal fractions can't be represented exactly as a float.  See
+     Floating-Point Arithmetic:  Issues and Limitations for more
+     information.

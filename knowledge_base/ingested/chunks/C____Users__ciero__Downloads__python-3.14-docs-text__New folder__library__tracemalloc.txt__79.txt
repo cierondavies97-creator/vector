@@ -1,0 +1,6 @@
+one exclusive filter matches it.
+      Changed in version 3.6: "DomainFilter" instances are now also
+      accepted in *filters*.
+   classmethod load(filename)
+      Load a snapshot from a file.
+      See also "dump()".

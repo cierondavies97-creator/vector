@@ -1,0 +1,4 @@
+the fieldnames and will be omitted from the results. If
+   *fieldnames* is provided, they will be used and the first row will
+   be included in the results.  Regardless of how the fieldnames are
+   determined, the dictionary preserves their original ordering.

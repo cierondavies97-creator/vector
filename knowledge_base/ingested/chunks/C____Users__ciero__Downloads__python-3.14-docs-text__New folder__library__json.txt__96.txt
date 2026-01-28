@@ -1,0 +1,4 @@
+or UTF-32, with UTF-8 being the recommended default for maximum
+interoperability.
+As permitted, though not required, by the RFC, this module's
+serializer sets *ensure_ascii=True* by default, thus escaping the

@@ -1,0 +1,4 @@
+operations to complete.  Buffered data will be lost. No more data
+   will be received.  The protocol's "protocol.connection_lost()"
+   method will eventually be called with "None" as its argument.
+Subprocess Transports

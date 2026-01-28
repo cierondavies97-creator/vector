@@ -1,0 +1,5 @@
+match_case(
+                          pattern=MatchAs(
+                              pattern=MatchSequence(
+                                  patterns=[
+                                      MatchAs(name='x')]),

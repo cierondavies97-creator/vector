@@ -1,0 +1,4 @@
+dataclasses.asdict(obj, *, dict_factory=dict)
+   Converts the dataclass *obj* to a dict (by using the factory
+   function *dict_factory*).  Each dataclass is converted to a dict of
+   its fields, as "name: value" pairs.  dataclasses, dicts, lists, and

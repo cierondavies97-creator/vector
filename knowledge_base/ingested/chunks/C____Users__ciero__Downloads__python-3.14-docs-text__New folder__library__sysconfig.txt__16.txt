@@ -1,0 +1,6 @@
+* *data*: directory for data files.
+User scheme
+===========
+This scheme is designed to be the most convenient solution for users
+that don't have write permission to the global site-packages directory
+or don't want to install into it.

@@ -1,0 +1,6 @@
+>>> weird_json = '{"x": 1, "x": 2, "x": 3}'
+   >>> json.loads(weird_json)
+   {'x': 3}
+The *object_pairs_hook* parameter can be used to alter this behavior.
+Top-level Non-Object, Non-Array Values
+--------------------------------------

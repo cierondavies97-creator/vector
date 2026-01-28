@@ -1,0 +1,4 @@
+processed
+The most common usage is to supply neither keyword argument.  If you
+supply "values", it will be modified with repeated "setattr()" calls
+(roughly one for every option argument stored to an option

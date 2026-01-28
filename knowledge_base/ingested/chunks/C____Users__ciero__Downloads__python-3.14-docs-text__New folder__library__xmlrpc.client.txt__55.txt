@@ -1,0 +1,5 @@
+data
+      The binary data encapsulated by the "Binary" instance.  The data
+      is provided as a "bytes" object.
+   "Binary" objects have the following methods, supported mainly for
+   internal use by the marshalling/unmarshalling code:

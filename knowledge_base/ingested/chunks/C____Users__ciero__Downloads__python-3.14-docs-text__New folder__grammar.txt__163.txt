@@ -1,0 +1,5 @@
+| a=lambda_param c=default? &':' { _PyPegen_name_default_pair(p, a, c, NULL) }
+   lambda_param[arg_ty]: a=NAME { _PyAST_arg(a->v.Name.id, NULL, NULL, EXTRA) }
+   # LITERALS
+   # ========
+   fstring_middle[expr_ty]:

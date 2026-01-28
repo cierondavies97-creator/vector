@@ -1,0 +1,4 @@
+subscripting ("[]"). See **PEP 585** and Generic Alias Type.
+class typing.FrozenSet(frozenset, AbstractSet[T_co])
+   Deprecated alias to "builtins.frozenset".
+   Deprecated since version 3.9: "builtins.frozenset" now supports

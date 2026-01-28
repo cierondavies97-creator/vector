@@ -1,0 +1,4 @@
+also want to use a handy function that you've written in several
+programs without copying its definition into each program.
+To support this, Python has a way to put definitions in a file and use
+them in a script or in an interactive instance of the interpreter.

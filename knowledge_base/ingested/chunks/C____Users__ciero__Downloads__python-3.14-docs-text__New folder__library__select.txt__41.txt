@@ -1,0 +1,4 @@
+https://linux.die.net/man/4/epoll
+   *eventmask*
+   +---------------------------+-------------------------------------------------+
+   | Constant                  | Meaning                                         |

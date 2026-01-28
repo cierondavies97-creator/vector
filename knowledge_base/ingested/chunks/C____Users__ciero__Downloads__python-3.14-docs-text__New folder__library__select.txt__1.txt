@@ -1,0 +1,4 @@
+available in most operating systems, "devpoll()" available on Solaris
+and derivatives, "epoll()" available on Linux 2.5+ and "kqueue()"
+available on most BSD. Note that on Windows, it only works for
+sockets; on other operating systems, it also works for other file

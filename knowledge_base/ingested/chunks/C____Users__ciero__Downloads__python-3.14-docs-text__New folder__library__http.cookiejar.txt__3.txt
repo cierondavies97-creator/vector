@@ -1,0 +1,3 @@
+default. **RFC 2109** cookies are parsed as Netscape cookies and
+subsequently treated either as Netscape or RFC 2965 cookies according
+to the 'policy' in effect. Note that the great majority of cookies on

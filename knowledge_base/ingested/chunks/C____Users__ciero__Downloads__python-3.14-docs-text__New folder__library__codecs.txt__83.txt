@@ -1,0 +1,5 @@
+function interfaces of the stateless encoder and decoder:
+class codecs.Codec
+   encode(input, errors='strict')
+      Encodes the object *input* and returns a tuple (output object,
+      length consumed). For instance, *text encoding* converts a

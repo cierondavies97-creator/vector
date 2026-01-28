@@ -1,0 +1,5 @@
+any address header.
+   This header type provides the following additional attributes:
+   groups
+      A tuple of "Group" objects encoding the addresses and groups
+      found in the header value.  Addresses that are not part of a

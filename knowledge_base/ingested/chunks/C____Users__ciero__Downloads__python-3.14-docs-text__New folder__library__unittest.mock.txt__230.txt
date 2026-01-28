@@ -1,0 +1,5 @@
+object, and a mock is created for you and passed in as an extra
+argument to the decorated function:
+>>> @patch.object(SomeClass, 'class_method')
+... def test(mock_method):
+...     SomeClass.class_method(3)

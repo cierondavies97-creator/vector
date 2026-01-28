@@ -1,0 +1,3 @@
+The optional parameter *endpos* limits how far the string will be
+   searched; it will be as if the string is *endpos* characters long,
+   so only the characters from *pos* to "endpos - 1" will be searched

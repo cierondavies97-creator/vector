@@ -1,0 +1,4 @@
+if dt.tzinfo is not self:
+               raise ValueError("dt.tzinfo is not self")
+           # A custom implementation is required for fromutc as
+           # the input to this function is a datetime with utc values

@@ -1,0 +1,5 @@
+"printf"-style Bytes Formatting
+-------------------------------
+Note:
+  The formatting operations described here exhibit a variety of quirks
+  that lead to a number of common errors (such as failing to display

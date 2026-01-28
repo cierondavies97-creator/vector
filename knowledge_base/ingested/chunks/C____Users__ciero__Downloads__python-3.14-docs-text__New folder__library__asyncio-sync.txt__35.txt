@@ -1,0 +1,6 @@
+"release()" calls than "acquire()" calls.
+BoundedSemaphore
+================
+class asyncio.BoundedSemaphore(value=1)
+   A bounded semaphore object.  Not thread-safe.
+   Bounded Semaphore is a version of "Semaphore" that raises a

@@ -1,0 +1,5 @@
+Notes:
+1. This is a short-circuit operator, so it only evaluates the second
+   argument if the first one is false.
+2. This is a short-circuit operator, so it only evaluates the second
+   argument if the first one is true.

@@ -1,0 +1,4 @@
+implements various strategies to search for the named module when the
+import machinery is invoked.  These strategies can be modified and
+extended by using various hooks described in the sections below.
+Changed in version 3.3: The import system has been updated to fully

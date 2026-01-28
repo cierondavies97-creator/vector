@@ -1,0 +1,5 @@
+zero.
+   *access* is an integer that specifies an access mask that describes
+   the desired security access for the key.  Default is "KEY_WRITE".
+   See Access Rights for other allowed values.
+   If *key* is one of the predefined keys, *sub_key* may be "None". In

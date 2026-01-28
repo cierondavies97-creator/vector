@@ -1,0 +1,9 @@
+stat.S_IRWXO
+   Mask for permissions for others (not in group).
+stat.S_IROTH
+   Others have read permission.
+stat.S_IWOTH
+   Others have write permission.
+stat.S_IXOTH
+   Others have execute permission.
+stat.S_ENFMT

@@ -1,0 +1,4 @@
+It is possible to give an object an attribute whose name is not an
+   identifier as defined by Names (identifiers and keywords), for
+   example using "setattr()", if the object allows it. Such an
+   attribute will not be accessible using a dotted expression, and

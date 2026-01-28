@@ -1,0 +1,11 @@
+3  ->     import pdb; pdb.set_trace()
+     [EOF]
+     (Pdb) p x
+     6
+     (Pdb) step
+     --Return--
+     > <doctest a[0]>(2)f()->None
+     -> g(x*2)
+     (Pdb) list
+       1     def f(x):
+       2  ->     g(x*2)

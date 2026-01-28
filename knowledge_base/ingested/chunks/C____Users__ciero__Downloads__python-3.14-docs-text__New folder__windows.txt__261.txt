@@ -1,0 +1,5 @@
+========================
+Besides the standard CPython distribution, there are modified packages
+including additional functionality.  The following is a list of
+popular versions and their key features:
+ActivePython

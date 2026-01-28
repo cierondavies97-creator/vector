@@ -1,0 +1,8 @@
+zero, "join()" unblocks.
+Waiting for task completion
+---------------------------
+Example of how to wait for enqueued tasks to be completed:
+   import threading
+   import queue
+   q = queue.Queue()
+   def worker():

@@ -1,0 +1,4 @@
+Note:
+     The ZIP file standard historically did not specify a metadata
+     encoding, but strongly recommended CP437 (the original IBM PC
+     encoding) for interoperability.  Recent versions allow use of

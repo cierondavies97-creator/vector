@@ -1,0 +1,5 @@
+handler. Use "os.getenvb()" if you would like to use a different
+   encoding.
+   Availability: Unix, Windows.
+os.getenvb(key, default=None)
+   Return the value of the environment variable *key* as bytes if it

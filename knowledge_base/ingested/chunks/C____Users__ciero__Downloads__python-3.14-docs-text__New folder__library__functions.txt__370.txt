@@ -1,0 +1,5 @@
+sausage as saus" results in
+      _temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)
+      eggs = _temp.eggs
+      saus = _temp.sausage
+   Here, the "spam.ham" module is returned from "__import__()".  From

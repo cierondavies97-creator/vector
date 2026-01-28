@@ -1,0 +1,4 @@
+* *converters*, default value: not set
+  Config parsers provide option value getters that perform type
+  conversion.  By default "getint()", "getfloat()", and "getboolean()"
+  are implemented.  Should other getters be desirable, users may

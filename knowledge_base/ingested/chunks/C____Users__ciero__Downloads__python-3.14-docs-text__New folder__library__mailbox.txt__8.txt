@@ -1,0 +1,5 @@
+reference to the message representation kept by the "Mailbox"
+   instance.
+   The default "Mailbox" *iterator* iterates over message
+   representations, not keys as the default "dictionary" iterator
+   does. Moreover, modification of a mailbox during iteration is safe

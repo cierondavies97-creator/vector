@@ -1,0 +1,5 @@
+...
+In each of these situations, the top-level module's "__name__" is set
+to "'__main__'".
+As a result, a module can discover whether or not it is running in the
+top-level environment by checking its own "__name__", which allows a

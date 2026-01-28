@@ -1,0 +1,5 @@
+version.  If *filename* is omitted, it will check all the entries
+   in the cache.
+linecache.lazycache(filename, module_globals)
+   Capture enough detail about a non-file-based module to permit
+   getting its lines later via "getline()" even if *module_globals* is

@@ -1,0 +1,6 @@
+>>> pair.match("354aa").group(1)
+   'a'
+Simulating scanf()
+------------------
+Python does not currently have an equivalent to "scanf()".  Regular
+expressions are generally more powerful, though also more verbose,

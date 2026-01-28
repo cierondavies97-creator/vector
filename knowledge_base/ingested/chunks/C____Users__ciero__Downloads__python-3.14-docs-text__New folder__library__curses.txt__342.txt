@@ -1,0 +1,3 @@
+| "Control"-"L"      | Refresh screen.                             |
+      +--------------------+---------------------------------------------+
+      | "Control"-"N"      | Cursor down; move down one line.            |

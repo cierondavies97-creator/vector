@@ -1,0 +1,3 @@
+exception, a subclass of "FilterError". This will abort the extraction
+if "TarFile.errorlevel" is 1 or more. With "errorlevel=0" the error
+will be logged and the member will be skipped, but extraction will

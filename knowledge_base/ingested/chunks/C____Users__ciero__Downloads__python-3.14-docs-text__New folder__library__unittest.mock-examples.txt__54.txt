@@ -1,0 +1,5 @@
+attribute (or class or whatever) to be replaced with. 'patch.object'
+takes an object and the name of the attribute you would like patched,
+plus optionally the value to patch it with.
+"patch.object":
+   >>> original = SomeClass.attribute

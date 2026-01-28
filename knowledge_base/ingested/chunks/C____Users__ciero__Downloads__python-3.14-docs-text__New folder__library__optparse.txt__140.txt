@@ -1,0 +1,5 @@
+If "optparse"'s default error-handling behaviour does not suit your
+needs, you'll need to subclass OptionParser and override its "exit()"
+and/or "error()" methods.
+Putting it all together
+-----------------------

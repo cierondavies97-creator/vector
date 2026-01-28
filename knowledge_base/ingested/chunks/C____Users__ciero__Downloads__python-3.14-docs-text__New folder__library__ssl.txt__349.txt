@@ -1,0 +1,4 @@
+certificates in "/etc/ssl/certs/ca-bundle.crt"; if not, you'll get an
+error and have to adjust the location)
+The "PROTOCOL_TLS_CLIENT" protocol configures the context for cert
+validation and hostname verification. "verify_mode" is set to

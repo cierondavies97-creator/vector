@@ -1,0 +1,3 @@
+The "tkinter.colorchooser" module provides the "Chooser" class as an
+interface to the native color picker dialog. "Chooser" implements a
+modal color choosing dialog window. The "Chooser" class inherits from

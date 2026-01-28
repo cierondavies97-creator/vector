@@ -1,0 +1,4 @@
+result as a "bytes" instance. If *buffer* is specified, then read
+   into the buffer instead, and return the number of bytes read.
+   Raise "SSLWantReadError" or "SSLWantWriteError" if the socket is
+   non-blocking and the read would block.

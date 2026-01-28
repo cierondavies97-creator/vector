@@ -1,0 +1,5 @@
+by default for all TCP connections.
+   Changed in version 3.7: Added the *ssl_handshake_timeout*
+   parameter.
+   Changed in version 3.8: Added the *happy_eyeballs_delay* and
+   *interleave* parameters.Happy Eyeballs Algorithm: Success with

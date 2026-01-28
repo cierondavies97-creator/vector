@@ -1,0 +1,3 @@
+|           | exp < p", where "m" is -4 for floats and -6 for            |
+   |           | "Decimals", the number is formatted with presentation type |
+   |           | "'f'" and precision "p-1-exp".  Otherwise, the number is   |

@@ -1,0 +1,3 @@
+with the deflate method; otherwise, files are stored uncompressed.
+   This argument has no effect when copying an existing archive.
+   If a file object is specified for *source* or *target*, it is the

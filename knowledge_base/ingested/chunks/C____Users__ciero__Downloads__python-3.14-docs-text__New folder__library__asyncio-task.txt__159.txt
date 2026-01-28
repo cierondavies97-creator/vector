@@ -1,0 +1,5 @@
+assert future.result(timeout=2) == 3
+   If an exception is raised in the coroutine, the returned Future
+   will be notified.  It can also be used to cancel the task in the
+   event loop:
+      try:

@@ -1,0 +1,5 @@
+"add_argument_group()" is now deprecated.
+Mutual exclusion
+----------------
+ArgumentParser.add_mutually_exclusive_group(required=False)
+   Create a mutually exclusive group. "argparse" will make sure that

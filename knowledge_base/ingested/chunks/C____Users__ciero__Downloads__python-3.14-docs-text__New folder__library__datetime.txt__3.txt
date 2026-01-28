@@ -1,0 +1,5 @@
+Package DateType
+     Third-party library that introduces distinct static types to e.g.
+     allow *static type checkers* to differentiate between naive and
+     aware datetimes.
+Aware and Naive Objects

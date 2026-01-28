@@ -1,0 +1,10 @@
+"register_shape()" | "addshape()"
+      "turtles()"
+      "window_height()"
+      "window_width()"
+Input methods
+      "textinput()"
+      "numinput()"
+Methods specific to Screen
+      "bye()"
+      "exitonclick()"

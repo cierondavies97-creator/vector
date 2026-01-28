@@ -1,0 +1,4 @@
+not specified, and "1" if it is.
+   * *sock*, if given, should be an existing, already connected
+     "socket.socket" object to be used by the transport. If *sock* is
+     given, none of *host*, *port*, *family*, *proto*, *flags*,

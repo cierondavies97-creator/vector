@@ -1,0 +1,3 @@
+does not define "__get__()", then accessing the attribute will return
+the descriptor object itself unless there is a value in the object's
+instance dictionary.  If the descriptor defines "__set__()" and/or

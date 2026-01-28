@@ -1,0 +1,3 @@
+* To help find the line number of the object within its file.
+      If *module* is "False", no attempt to find the module will be
+      made.  This is obscure, of use mostly in testing doctest itself:

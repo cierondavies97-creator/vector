@@ -1,0 +1,3 @@
+"__delete__()", it is a data descriptor; if it defines neither, it is
+a non-data descriptor.  Normally, data descriptors define both
+"__get__()" and "__set__()", while non-data descriptors have just the

@@ -1,0 +1,2 @@
+|                                                    | for the memory layout of instances. This attribute |
+|                                                    | corresponds to "tp_base" at the C level.           |

@@ -1,0 +1,3 @@
+help='The value of the From: header (required)')
+       parser.add_argument('-r', '--recipient', required=True,
+                           action='append', metavar='RECIPIENT',

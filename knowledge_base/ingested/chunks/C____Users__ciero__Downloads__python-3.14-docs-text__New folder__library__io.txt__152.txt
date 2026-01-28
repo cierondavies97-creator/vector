@@ -1,0 +1,4 @@
+other legal values, input lines are only terminated by the given
+     string, and the line ending is returned to the caller
+     untranslated.
+   * When writing output to the stream, if *newline* is "None", any

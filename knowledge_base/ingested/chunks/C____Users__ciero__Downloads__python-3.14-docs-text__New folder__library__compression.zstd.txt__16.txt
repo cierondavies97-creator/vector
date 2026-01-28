@@ -1,0 +1,4 @@
+Open a Zstandard-compressed file in binary mode.
+   A "ZstdFile" can wrap an already-open *file object*, or operate
+   directly on a named file. The *file* argument specifies either the
+   file object to wrap, or the name of the file to open (as a "str",

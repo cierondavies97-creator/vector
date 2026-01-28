@@ -1,0 +1,4 @@
+Do not set "SIGPIPE"'s disposition to "SIG_DFL" in order to avoid
+"BrokenPipeError".  Doing that would cause your program to exit
+unexpectedly whenever any socket connection is interrupted while your
+program is still writing to it.

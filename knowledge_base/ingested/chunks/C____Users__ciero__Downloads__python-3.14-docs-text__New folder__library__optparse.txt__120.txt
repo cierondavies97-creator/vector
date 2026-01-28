@@ -1,0 +1,4 @@
+"It is believed that some of them bite.")
+   group.add_option("-g", action="store_true", help="Group option.")
+   parser.add_option_group(group)
+   group = OptionGroup(parser, "Debug Options")

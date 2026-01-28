@@ -1,0 +1,4 @@
+>>> ftp.login()                     # user anonymous, passwd anonymous@
+   '230 Login successful.'
+   >>> ftp.cwd('debian')               # change into "debian" directory
+   '250 Directory successfully changed.'

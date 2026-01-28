@@ -1,0 +1,4 @@
+*prot*, if specified, gives the desired memory protection; the two
+   most useful values are "PROT_READ" and "PROT_WRITE", to specify
+   that the pages may be read or written.  *prot* defaults to
+   "PROT_READ | PROT_WRITE".

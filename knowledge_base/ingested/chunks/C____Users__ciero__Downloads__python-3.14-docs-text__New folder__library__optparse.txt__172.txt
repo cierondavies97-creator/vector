@@ -1,0 +1,7 @@
+of this object, according to the "dest" (destination) option
+attribute.
+For example, when you call
+   parser.parse_args()
+one of the first things "optparse" does is create the "options"
+object:
+   options = Values()

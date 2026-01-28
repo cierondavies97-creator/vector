@@ -1,0 +1,11 @@
+...     exc = e
+   ...
+   >>> try:
+   ...     try:
+   ...         lumberjack()
+   ...     except:
+   ...         1/0
+   ... except Exception as e:
+   ...     chained_exc = e
+   ...
+   >>> # limit works as with the module-level functions

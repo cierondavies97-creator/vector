@@ -1,0 +1,7 @@
+def all(iterable):
+          for element in iterable:
+              if not element:
+                  return False
+          return True
+awaitable anext(async_iterator, /)
+awaitable anext(async_iterator, default, /)

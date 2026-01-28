@@ -1,0 +1,6 @@
+"FORWARDREF" format to produce a "ForwardRef" object that carries
+   more information.
+   See also:
+     **PEP 649** contains an explanation of the implementation
+     technique used by this function.
+   Added in version 3.14.

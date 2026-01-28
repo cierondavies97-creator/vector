@@ -1,0 +1,5 @@
+environment and streams are stored in the "stdin", "stdout",
+   "stderr", and "environ" attributes.
+   The "write()" method of *stdout* should write each chunk in full,
+   like "io.BufferedIOBase".
+class wsgiref.handlers.BaseHandler

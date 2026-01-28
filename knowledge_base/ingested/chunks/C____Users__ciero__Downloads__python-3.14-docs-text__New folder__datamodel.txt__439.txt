@@ -1,0 +1,4 @@
+overridden by instances.
+Python methods (including those decorated with "@staticmethod" and
+"@classmethod") are implemented as non-data descriptors.  Accordingly,
+instances can redefine and override methods.  This allows individual

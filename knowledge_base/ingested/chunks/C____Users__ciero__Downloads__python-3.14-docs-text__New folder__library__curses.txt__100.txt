@@ -1,0 +1,3 @@
+and columns specified in the terminfo database will be used, even
+   if environment variables "LINES" and "COLUMNS" (used by default)
+   are set, or if curses is running in a window (in which case default

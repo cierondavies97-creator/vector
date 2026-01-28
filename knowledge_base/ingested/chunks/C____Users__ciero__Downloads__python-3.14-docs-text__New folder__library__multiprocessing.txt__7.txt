@@ -1,0 +1,5 @@
+"interrupt" or "kill" a running process.
+See also:
+  "concurrent.futures.ProcessPoolExecutor" offers a higher level
+  interface to push tasks to a background process without blocking
+  execution of the calling process. Compared to using the "Pool"

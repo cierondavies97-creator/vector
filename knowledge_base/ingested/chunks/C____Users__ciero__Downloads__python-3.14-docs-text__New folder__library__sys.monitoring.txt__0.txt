@@ -1,0 +1,6 @@
+"sys.monitoring" --- Execution event monitoring
+***********************************************
+Added in version 3.12.
+======================================================================
+Note:
+  "sys.monitoring" is a namespace within the "sys" module, not an

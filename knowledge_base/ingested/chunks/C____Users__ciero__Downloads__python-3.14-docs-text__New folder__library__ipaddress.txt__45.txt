@@ -1,0 +1,5 @@
+Added in version 3.9.
+class ipaddress.IPv6Address(address)
+   Construct an IPv6 address.  An "AddressValueError" is raised if
+   *address* is not a valid IPv6 address.
+   The following constitutes a valid IPv6 address:

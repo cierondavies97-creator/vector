@@ -1,0 +1,2 @@
+|                                   |                                   | false to prevent it. By default,  |
+|                                   |                                   | true.                             |

@@ -1,0 +1,7 @@
+Locator.getPublicId()
+   Return the public identifier for the current event.
+Locator.getSystemId()
+   Return the system identifier for the current event.
+InputSource Objects
+===================
+InputSource.setPublicId(id)

@@ -1,0 +1,8 @@
+statement.
+   is_local()
+      Return "True" if the symbol is local to its block.
+   is_annotated()
+      Return "True" if the symbol is annotated.
+      Added in version 3.6.
+   is_free()
+      Return "True" if the symbol is referenced in its block, but not

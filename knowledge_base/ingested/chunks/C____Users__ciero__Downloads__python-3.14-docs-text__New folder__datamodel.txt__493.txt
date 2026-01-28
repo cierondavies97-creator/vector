@@ -1,0 +1,3 @@
+When a new class is created by "type.__new__", the object provided as
+the namespace parameter is copied to a new ordered mapping and the
+original object is discarded. The new copy is wrapped in a read-only

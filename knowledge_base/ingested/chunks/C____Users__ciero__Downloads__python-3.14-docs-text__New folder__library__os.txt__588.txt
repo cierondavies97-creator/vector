@@ -1,0 +1,4 @@
+caller.  Errors will be reported as "OSError" exceptions.
+   The current process is replaced immediately. Open file objects and
+   descriptors are not flushed, so if there may be data buffered on
+   these open files, you should flush them using "sys.stdout.flush()"

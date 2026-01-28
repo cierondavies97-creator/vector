@@ -1,0 +1,6 @@
+affect "Connection.row_factory" of the parent connection.
+      See How to create and use row factories for more details.
+Row objects
+-----------
+class sqlite3.Row
+   A "Row" instance serves as a highly optimized "row_factory" for

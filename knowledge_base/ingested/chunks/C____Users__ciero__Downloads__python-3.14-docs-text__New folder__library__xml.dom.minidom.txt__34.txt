@@ -1,0 +1,9 @@
+<point>It is important</point>
+   <point>To have more than</point>
+   <point>one slide</point>
+   </slide>
+   </slideshow>
+   """
+   dom = xml.dom.minidom.parseString(document)
+   def getText(nodelist):
+       rc = []

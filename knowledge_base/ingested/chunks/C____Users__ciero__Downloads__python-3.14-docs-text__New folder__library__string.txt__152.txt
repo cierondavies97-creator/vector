@@ -1,0 +1,4 @@
+* "$$" is an escape; it is replaced with a single "$".
+* "$identifier" names a substitution placeholder matching a mapping
+  key of ""identifier"".  By default, ""identifier"" is restricted to
+  any case-insensitive ASCII alphanumeric string (including

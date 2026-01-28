@@ -1,0 +1,3 @@
+string. It passes that Tcl command string to an internal "_tkinter"
+binary module, which then calls the Tcl interpreter to evaluate it.
+The Tcl interpreter will then call into the Tk and/or Ttk packages,

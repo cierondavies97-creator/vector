@@ -1,0 +1,4 @@
+standard handle redirection.
+   Changed in version 3.2: The default for *close_fds* was changed
+   from "False" to what is described above.
+   Changed in version 3.7: On Windows the default for *close_fds* was

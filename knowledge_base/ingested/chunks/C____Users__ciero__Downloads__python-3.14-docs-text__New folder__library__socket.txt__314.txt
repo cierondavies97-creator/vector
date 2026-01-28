@@ -1,0 +1,5 @@
+"SHUT_RD", further receives are disallowed.  If *how* is "SHUT_WR",
+   further sends are disallowed.  If *how* is "SHUT_RDWR", further
+   sends and receives are disallowed.
+   Availability: not WASI.
+socket.share(process_id)

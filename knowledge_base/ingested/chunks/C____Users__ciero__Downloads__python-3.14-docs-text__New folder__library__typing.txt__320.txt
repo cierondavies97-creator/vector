@@ -1,0 +1,8 @@
+"__value__" attribute is accessed:
+         >>> type Mutually = Recursive
+         >>> type Recursive = Mutually
+         >>> Mutually
+         Mutually
+         >>> Recursive
+         Recursive
+         >>> Mutually.__value__

@@ -1,0 +1,4 @@
+The optional argument *max_num_fields* is the maximum number of
+   fields to read. If set, then throws a "ValueError" if there are
+   more than *max_num_fields* fields read.
+   The optional argument *separator* is the symbol to use for

@@ -1,0 +1,4 @@
+* "__name__" is the function's name. See "function.__name__".
+* "__self__" is set to "None" (but see the next item).
+* "__module__" is the name of the module the function was defined in
+  or "None" if unavailable. See "function.__module__".

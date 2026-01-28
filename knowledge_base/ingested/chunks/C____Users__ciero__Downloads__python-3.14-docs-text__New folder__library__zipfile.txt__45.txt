@@ -1,0 +1,5 @@
+"with" statement:
+      with ZipFile('spam.zip') as myzip:
+          with myzip.open('eggs.txt') as myfile:
+              print(myfile.read())
+   With *mode* "'r'" the file-like object ("ZipExtFile") is read-only

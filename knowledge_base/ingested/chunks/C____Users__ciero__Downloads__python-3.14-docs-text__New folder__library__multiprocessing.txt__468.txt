@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+          queue = Queue()
+          p = Process(target=f, args=(queue,))
+          p.start()
+          p.join()                    # this deadlocks
+          obj = queue.get()

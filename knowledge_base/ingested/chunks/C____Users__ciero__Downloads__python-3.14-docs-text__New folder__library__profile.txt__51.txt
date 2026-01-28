@@ -1,0 +1,3 @@
+versions of this profiler, and there is no compatibility with files
+   produced by other profilers, or the same profiler run on a
+   different operating system.  If several files are provided, all the

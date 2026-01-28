@@ -1,0 +1,4 @@
+close()
+      Flush and close this stream. This method has no effect if the
+      file is already closed. Once the file is closed, any operation
+      on the file (e.g. reading or writing) will raise a "ValueError".

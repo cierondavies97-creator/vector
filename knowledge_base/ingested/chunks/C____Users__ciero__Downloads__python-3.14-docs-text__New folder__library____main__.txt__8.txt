@@ -1,0 +1,7 @@
+argument:
+     $ python helloworld.py
+     Hello, world!
+* the Python module or package passed to the Python interpreter with
+  the "-m" argument:
+     $ python -m tarfile
+     usage: tarfile.py [-h] [-v] (...)

@@ -1,0 +1,4 @@
+Raises an auditing event "os.chdir" with argument "path".
+   Changed in version 3.3: Added support for specifying *path* as a
+   file descriptor on some platforms.
+   Changed in version 3.6: Accepts a *path-like object*.

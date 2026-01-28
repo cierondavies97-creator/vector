@@ -1,0 +1,6 @@
+(one alternative of) a syntax rule has the form
+   name: othername
+and no semantics are given, the semantics of this form of "name" are
+the same as for "othername".
+6.1. Arithmetic conversions
+===========================

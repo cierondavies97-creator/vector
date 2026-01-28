@@ -1,0 +1,10 @@
+Used to build sets.
+   Added in version 3.9.
+DICT_UPDATE(i)
+   Implements:
+      map = STACK.pop()
+      dict.update(STACK[-i], map)
+   Used to build dicts.
+   Added in version 3.9.
+DICT_MERGE(i)
+   Like "DICT_UPDATE" but raises an exception for duplicate keys.

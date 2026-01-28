@@ -1,0 +1,3 @@
+elements; these "junk" elements are ones that are uninteresting in
+   some sense, such as blank lines or whitespace.  (Handling junk is
+   an extension to the Ratcliff and Obershelp algorithm.) The same

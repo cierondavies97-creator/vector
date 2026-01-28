@@ -1,0 +1,4 @@
+close()
+      Immediately unwinds the callback stack, invoking callbacks in
+      the reverse order of registration. For any context managers and
+      exit callbacks registered, the arguments passed in will indicate

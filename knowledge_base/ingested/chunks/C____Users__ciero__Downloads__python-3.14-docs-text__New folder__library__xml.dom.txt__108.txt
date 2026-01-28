@@ -1,0 +1,4 @@
+attributes in is arbitrary but will be consistent for the life of a
+   DOM.  Each item is an attribute node.  Get its value with the
+   "value" attribute.
+There are also experimental methods that give this class more mapping

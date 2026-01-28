@@ -1,0 +1,6 @@
+This attribute is not always available, and may raise
+      "AttributeError".
+      Added in version 3.12.
+   Note:
+     The exact meaning and resolution of the "st_atime", "st_mtime",
+     "st_ctime" and "st_birthtime" attributes depend on the operating

@@ -1,0 +1,7 @@
+handlers:
+     h1: #This is an id
+      # configuration of handler with id 'h1' goes here
+      formatter: brief
+     h2: #This is another id
+      # configuration of handler with id 'h2' goes here
+      formatter: precise

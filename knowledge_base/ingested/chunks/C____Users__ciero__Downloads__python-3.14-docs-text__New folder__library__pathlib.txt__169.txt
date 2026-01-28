@@ -1,0 +1,4 @@
+set to "False", this method follows symlinks except when expanding
+   ""**"" wildcards. Set *recurse_symlinks* to "True" to always follow
+   symlinks.
+   Raises an auditing event "pathlib.Path.glob" with arguments "self",

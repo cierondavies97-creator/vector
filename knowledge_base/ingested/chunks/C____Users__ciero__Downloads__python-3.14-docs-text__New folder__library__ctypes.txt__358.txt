@@ -1,0 +1,4 @@
+classmethod that normally returns *obj* if that is an instance
+      of the type.  Some types accept other objects as well.
+   in_dll(library, name)
+      This method returns a ctypes type instance exported by a shared

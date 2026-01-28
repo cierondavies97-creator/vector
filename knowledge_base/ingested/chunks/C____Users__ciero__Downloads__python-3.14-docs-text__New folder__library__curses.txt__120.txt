@@ -1,0 +1,3 @@
+| Parameter   | Description           | Default value           |
+   |=============|=======================|=========================|
+   | *ls*        | Left side             | "ACS_VLINE"             |

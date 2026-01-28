@@ -1,0 +1,7 @@
+import os
+   import smtplib
+   # For guessing MIME type based on file name extension
+   import mimetypes
+   from argparse import ArgumentParser
+   from email.message import EmailMessage
+   from email.policy import SMTP

@@ -1,0 +1,4 @@
+parameterization of standard-library generic classes in order to more
+easily apply *type hints* to these classes.
+To implement custom generic classes that can be parameterized at
+runtime and understood by static type-checkers, users should either

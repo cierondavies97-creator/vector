@@ -1,0 +1,3 @@
+from or added to the directory after creating the iterator, it is
+   unspecified whether a path object for that file is included.
+   If the path is not a directory or otherwise inaccessible, "OSError"

@@ -1,0 +1,4 @@
+*category* is "None", no warning is emitted at runtime. The
+   *stacklevel* determines where the warning is emitted. If it is "1"
+   (the default), the warning is emitted at the direct caller of the
+   deprecated object; if it is higher, it is emitted further up the

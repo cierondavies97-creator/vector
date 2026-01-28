@@ -1,0 +1,4 @@
+*separators* defaults to "(', ', ': ')" if *indent* is "None",
+        and "(',', ': ')" otherwise. For the most compact JSON,
+        specify "(',', ':')" to eliminate whitespace.
+      * **default** (*callable* | None) -- A function that is called

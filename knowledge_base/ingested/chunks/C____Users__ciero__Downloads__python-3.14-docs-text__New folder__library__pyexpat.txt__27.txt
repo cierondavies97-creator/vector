@@ -1,0 +1,5 @@
+does not contain a document type declaration, the
+   "ExternalEntityRefHandler" will still be called, but the
+   "StartDoctypeDeclHandler" and "EndDoctypeDeclHandler" will not be
+   called.
+   Passing a false value for *flag* will cancel a previous call that

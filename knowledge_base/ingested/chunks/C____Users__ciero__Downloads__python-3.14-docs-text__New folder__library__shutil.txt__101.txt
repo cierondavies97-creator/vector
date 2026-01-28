@@ -1,0 +1,4 @@
+*base_name* is the name of the file to create, including the path,
+   minus any format-specific extension.
+   *format* is the archive format: one of "zip" (if the "zlib" module
+   is available), "tar", "gztar" (if the "zlib" module is available),

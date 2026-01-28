@@ -1,0 +1,4 @@
+"Popen.communicate()" method.
+   If *shell* is "True", the specified command will be executed
+   through the shell.  This can be useful if you are using Python
+   primarily for the enhanced control flow it offers over most system

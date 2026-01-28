@@ -1,0 +1,4 @@
+given object. If the module is not specified or is "None", then
+      the test finder will attempt to automatically determine the
+      correct module.  The object's module is used:
+      * As a default namespace, if *globs* is not specified.

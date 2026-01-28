@@ -1,0 +1,4 @@
+and is slightly harder to use correctly, but is often faster for the
+cases it can handle (printf-style String Formatting).
+The Text Processing Services section of the standard library covers a
+number of other modules that provide various text related utilities

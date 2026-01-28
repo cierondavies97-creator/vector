@@ -1,0 +1,7 @@
+I have indented it
+      exactly the way
+      I want it
+   options:
+    -h, --help  show this help message and exit
+"RawTextHelpFormatter" maintains whitespace for all sorts of help
+text, including argument descriptions. However, multiple newlines are

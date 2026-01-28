@@ -1,0 +1,4 @@
+"'b'" is automatically added.
+   *encoding* specifies the encoding which is to be used for the file.
+   Any encoding that encodes to and decodes from bytes is allowed, and
+   the data types supported by the file methods depend on the codec

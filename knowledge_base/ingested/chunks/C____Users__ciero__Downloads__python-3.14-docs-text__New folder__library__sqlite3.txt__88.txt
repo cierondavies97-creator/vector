@@ -1,0 +1,5 @@
+* **name** (*str*) -- The name of the database where the blob
+           is located. Defaults to ""main"".
+      Raises:
+         **OperationalError** -- When trying to open a blob in a
+         "WITHOUT ROWID" table.

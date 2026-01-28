@@ -1,0 +1,6 @@
+filter matches any line number.
+   filename_pattern
+      Filename pattern of the filter ("str"). Read-only property.
+   all_frames
+      If *all_frames* is "True", all frames of the traceback are
+      checked. If *all_frames* is "False", only the most recent frame

@@ -1,0 +1,4 @@
+memory starting at *void *ptr*.
+   If *readonly* is true, the returned "memoryview" object can not be
+   used to modify the underlying memory. (Changes made by other means
+   will still be reflected in the returned object.)

@@ -1,0 +1,2 @@
+|====================================================|====================================================|
+| "python" gives me a "command not found" error or   | Did you install the Python install manager?        |

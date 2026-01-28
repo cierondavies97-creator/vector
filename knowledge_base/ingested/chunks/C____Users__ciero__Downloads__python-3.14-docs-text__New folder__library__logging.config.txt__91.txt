@@ -1,0 +1,4 @@
+my.package.customFormatterFactory(bar='baz', spam=99.9, answer=42)
+Warning:
+  The values for keys such as "bar", "spam" and "answer" in the above
+  example should not be configuration dictionaries or references such

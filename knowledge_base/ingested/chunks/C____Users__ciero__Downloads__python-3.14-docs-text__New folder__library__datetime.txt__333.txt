@@ -1,0 +1,6 @@
+return dt
+In the following "tzinfo_examples.py" file there are some examples of
+"tzinfo" classes:
+   from datetime import tzinfo, timedelta, datetime
+   ZERO = timedelta(0)
+   HOUR = timedelta(hours=1)

@@ -1,0 +1,4 @@
+bytes in the whole range from 0 to 255.
+shake.hexdigest(length)
+   Like "digest()" except the digest is returned as a string object of
+   double length, containing only hexadecimal digits.  This may be

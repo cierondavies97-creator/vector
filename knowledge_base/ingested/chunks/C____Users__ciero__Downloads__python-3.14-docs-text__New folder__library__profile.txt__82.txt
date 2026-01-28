@@ -1,0 +1,3 @@
+down to the significant entries.  Initially, the list is taken
+      to be the complete set of profiled functions.  Each restriction
+      is either an integer (to select a count of lines), or a decimal

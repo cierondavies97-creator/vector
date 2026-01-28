@@ -1,0 +1,5 @@
+number of secret bits being used.  If no connection has been
+   established, returns "None".
+SSLSocket.shared_ciphers()
+   Return the list of ciphers available in both the client and server.
+   Each entry of the returned list is a three-value tuple containing

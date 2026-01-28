@@ -1,0 +1,6 @@
+output to match local conventions.
+The list of modules described in this chapter is:
+* "gettext" --- Multilingual internationalization services
+  * GNU **gettext** API
+  * Class-based API
+    * The "NullTranslations" class

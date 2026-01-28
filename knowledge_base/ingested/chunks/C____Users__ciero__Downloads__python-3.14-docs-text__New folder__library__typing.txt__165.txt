@@ -1,0 +1,5 @@
+def open_helper(file: str, mode: Mode) -> str:
+          ...
+      open_helper('/some/path', 'r')      # Passes type check
+      open_helper('/other/path', 'typo')  # Error in type checker
+   "Literal[...]" cannot be subclassed. At runtime, an arbitrary value

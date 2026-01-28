@@ -1,0 +1,3 @@
+expr?* kw_defaults, arg? kwarg, expr* defaults)
+       arg = (identifier arg, expr? annotation, string? type_comment)
+              attributes (int lineno, int col_offset, int? end_lineno, int? end_col_offset)

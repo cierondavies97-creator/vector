@@ -1,0 +1,4 @@
+other end of the connection and return the number of bytes in
+      the message.  Blocks until there is something to receive.
+      Raises "EOFError" if there is nothing left to receive and the
+      other end was closed.

@@ -1,0 +1,4 @@
+targets in assignment or "del" statements.  The syntax for a slicing:
+   slicing:      primary "[" slice_list "]"
+   slice_list:   slice_item ("," slice_item)* [","]
+   slice_item:   expression | proper_slice

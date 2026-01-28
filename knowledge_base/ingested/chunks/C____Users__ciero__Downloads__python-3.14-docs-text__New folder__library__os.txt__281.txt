@@ -1,0 +1,5 @@
+See "shutil.chown()" for a higher-level function that accepts names
+   in addition to numeric ids.
+   Raises an auditing event "os.chown" with arguments "path", "uid",
+   "gid", "dir_fd".
+   Availability: Unix.

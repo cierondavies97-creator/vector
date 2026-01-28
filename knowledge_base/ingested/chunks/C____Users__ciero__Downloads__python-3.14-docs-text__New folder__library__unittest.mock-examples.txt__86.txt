@@ -1,0 +1,5 @@
+is then set to a lambda function that returns a real date. When the
+mock date class is called a real date will be constructed and returned
+by "side_effect".
+   >>> from datetime import date
+   >>> with patch('mymodule.date') as mock_date:

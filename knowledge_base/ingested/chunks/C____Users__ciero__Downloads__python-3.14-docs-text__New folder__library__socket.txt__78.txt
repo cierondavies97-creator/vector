@@ -1,0 +1,4 @@
+default. This allows your application to send both CAN and CAN FD
+   frames; however, you must accept both CAN and CAN FD frames when
+   reading from the socket.
+   This constant is documented in the Linux documentation.

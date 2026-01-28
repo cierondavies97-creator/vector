@@ -1,0 +1,4 @@
+or with a "__getitem__()" method that implements *sequence*
+   semantics.
+   Iterables can be used in a "for" loop and in many other places
+   where a sequence is needed ("zip()", "map()", ...).  When an

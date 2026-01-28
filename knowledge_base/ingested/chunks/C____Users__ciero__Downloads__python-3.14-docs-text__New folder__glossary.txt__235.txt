@@ -1,0 +1,3 @@
+relative timing or ordering of events, particularly in multi-
+   threaded programs.  Race conditions can lead to *non-deterministic*
+   behavior and bugs that are difficult to reproduce.  A *data race*

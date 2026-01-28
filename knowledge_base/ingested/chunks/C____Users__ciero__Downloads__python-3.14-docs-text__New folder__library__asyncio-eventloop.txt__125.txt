@@ -1,0 +1,6 @@
+* *protocol_factory* must be a callable returning a protocol
+     implementation.
+   * *sock* is a preexisting socket object returned from
+     "socket.accept".
+     Note:
+       The *sock* argument transfers ownership of the socket to the

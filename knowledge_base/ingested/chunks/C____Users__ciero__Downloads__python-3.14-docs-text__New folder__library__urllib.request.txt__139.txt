@@ -1,0 +1,3 @@
+"http_error_30*()" to perform the redirect to *newurl*.  Otherwise,
+   raise "HTTPError" if no other handler should try to handle this
+   URL, or return "None" if you can't but another handler might.

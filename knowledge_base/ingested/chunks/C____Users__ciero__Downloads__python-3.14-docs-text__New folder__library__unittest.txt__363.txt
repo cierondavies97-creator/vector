@@ -1,0 +1,6 @@
+following line at the end of a test script:
+      if __name__ == '__main__':
+          unittest.main()
+   You can run tests with more detailed information by passing in the
+   verbosity argument:
+      if __name__ == '__main__':

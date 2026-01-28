@@ -1,0 +1,4 @@
+registration order.
+   Note that "fork()" calls made by third-party C code may not call
+   those functions, unless it explicitly calls "PyOS_BeforeFork()",
+   "PyOS_AfterFork_Parent()" and "PyOS_AfterFork_Child()".

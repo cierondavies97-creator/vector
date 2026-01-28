@@ -1,0 +1,5 @@
+machinery provided by Windows platforms.  It includes functions and
+several constants.
+Availability: Windows.
+winsound.Beep(frequency, duration)
+   Beep the PC's speaker. The *frequency* parameter specifies

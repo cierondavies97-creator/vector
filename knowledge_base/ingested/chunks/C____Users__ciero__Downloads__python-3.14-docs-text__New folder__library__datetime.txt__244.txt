@@ -1,0 +1,8 @@
+>>> dt
+   datetime.datetime(2006, 11, 21, 16, 30)
+   >>> # Using datetime.timetuple() to get tuple of all attributes
+   >>> tt = dt.timetuple()
+   >>> for it in tt:
+   ...     print(it)
+   ...
+   2006    # year

@@ -1,0 +1,5 @@
+Embedded Python
+===============
+If Python is embedded within another application
+"Py_InitializeFromConfig()" and the "PyConfig" structure can be used
+to initialize Python. The path specific details are described at

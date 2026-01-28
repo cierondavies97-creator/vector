@@ -1,0 +1,8 @@
+digits.
+   logical_invert(x, /)
+      Invert all the digits in *x*.
+   logical_or(x, y, /)
+      Applies the logical operation *or* between each operand's
+      digits.
+   logical_xor(x, y, /)
+      Applies the logical operation *xor* between each operand's

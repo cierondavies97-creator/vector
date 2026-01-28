@@ -1,0 +1,5 @@
+"intersection_update()", "difference_update()", and
+"symmetric_difference_update()" methods will accept any iterable as an
+argument.
+Note, the *elem* argument to the "__contains__()", "remove()", and
+"discard()" methods may be a set.  To support searching for an

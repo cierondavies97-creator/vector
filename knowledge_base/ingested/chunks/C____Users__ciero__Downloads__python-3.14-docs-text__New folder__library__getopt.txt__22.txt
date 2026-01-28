@@ -1,0 +1,5 @@
+option; if there is no specific option to which the exception
+   relates, "opt" is an empty string.
+exception getopt.error
+   Alias for "GetoptError"; for backward compatibility.
+An example using only Unix style options:

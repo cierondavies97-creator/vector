@@ -1,0 +1,6 @@
+be marked by wrapping it in "_('...')" --- that is, a call to the
+function "_".  For example:
+   filename = 'mylog.txt'
+   message = _('writing a log message')
+   with open(filename, 'w') as fp:
+       fp.write(message)

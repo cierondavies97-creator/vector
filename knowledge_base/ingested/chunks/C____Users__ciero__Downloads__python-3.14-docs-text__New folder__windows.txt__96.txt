@@ -1,0 +1,2 @@
++-----------------------------------+-----------------------------------+-----------------------------------+
+| "install.source"                  | "PYTHON_MANAGER_SOURCE_URL"       | Override the index feed to obtain |

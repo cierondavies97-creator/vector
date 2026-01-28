@@ -1,0 +1,4 @@
+subparsers.  However, if it is necessary to check the name of the
+   subparser that was invoked, the "dest" keyword argument to the
+   "add_subparsers()" call will work:
+      >>> parser = argparse.ArgumentParser()

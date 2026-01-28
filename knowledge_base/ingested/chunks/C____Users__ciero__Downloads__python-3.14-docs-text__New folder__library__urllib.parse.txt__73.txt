@@ -1,0 +1,4 @@
+components of the base URL, in particular the addressing scheme,
+   the network location and (part of) the path, to provide missing
+   components in the relative URL.  For example:
+   >>> from urllib.parse import urljoin

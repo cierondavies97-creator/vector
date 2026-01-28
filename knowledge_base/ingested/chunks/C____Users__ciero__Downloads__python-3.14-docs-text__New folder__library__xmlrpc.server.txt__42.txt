@@ -1,0 +1,8 @@
+print(response)
+   except Error as v:
+       print("ERROR", v)
+This client which interacts with the demo XMLRPC server can be invoked
+as:
+   python -m xmlrpc.client
+CGIXMLRPCRequestHandler
+=======================

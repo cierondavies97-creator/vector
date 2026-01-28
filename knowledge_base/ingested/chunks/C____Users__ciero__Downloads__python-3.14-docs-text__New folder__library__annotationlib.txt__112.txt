@@ -1,0 +1,3 @@
+pass them to any of the APIs for introspecting annotations, for
+example by editing an "__annotations__" dictionary or directly
+creating a "ForwardRef" object.

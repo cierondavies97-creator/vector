@@ -1,0 +1,6 @@
+<para>This is a paragraph.</para>
+   </document>
+If the **parse** attribute is omitted, it defaults to "xml". The href
+attribute is required.
+To include a text document, use the
+"{http://www.w3.org/2001/XInclude}include" element, and set the

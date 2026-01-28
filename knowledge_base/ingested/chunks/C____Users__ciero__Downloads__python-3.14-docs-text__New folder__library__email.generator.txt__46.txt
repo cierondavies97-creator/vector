@@ -1,0 +1,4 @@
+type is not *text*, instead of printing it fill in the string *fmt*
+   using information from the part and print the resulting filled-in
+   string.
+   To fill in *fmt*, execute "fmt % part_info", where "part_info" is a

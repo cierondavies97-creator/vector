@@ -1,0 +1,4 @@
+another internal representation, and create the dictionary only
+      if someone asks for it.  To take advantage of such
+      implementations, use the dictionary methods below whenever
+      possible.

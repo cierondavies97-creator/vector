@@ -1,0 +1,6 @@
+relative to the seek position. A hole is defined as a sequence
+      of zeros.
+   Note:
+     These operations only make sense for filesystems that support
+     them.
+   Availability: Linux >= 3.1, macOS, Unix

@@ -1,0 +1,5 @@
+that it must return an *awaitable*.
+object.__aexit__(self, exc_type, exc_value, traceback)
+   Semantically similar to "__exit__()", the only difference being
+   that it must return an *awaitable*.
+An example of an asynchronous context manager class:

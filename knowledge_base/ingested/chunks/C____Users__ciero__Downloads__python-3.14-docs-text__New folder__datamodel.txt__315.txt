@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+The line number and last instruction in the traceback may differ from
+the line number of its frame object if the exception occurred in a

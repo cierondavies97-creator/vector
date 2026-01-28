@@ -1,0 +1,4 @@
+"yield_list" to the generator's caller, or "None" if "yield_list" is
+omitted. By suspended, we mean that all local state is retained,
+including the current bindings of local variables, the instruction
+pointer, the internal evaluation stack, and the state of any exception

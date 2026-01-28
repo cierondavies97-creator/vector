@@ -1,0 +1,4 @@
+The following functions take a process status code as returned by
+"system()", "wait()", or "waitpid()" as a parameter.  They may be used
+to determine the disposition of a process.
+os.WCOREDUMP(status, /)

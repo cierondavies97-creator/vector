@@ -1,0 +1,4 @@
+or iterable.
+   The arithmetic mean is the sum of the data divided by the number of
+   data points.  It is commonly called "the average", although it is
+   only one of many different mathematical averages.  It is a measure

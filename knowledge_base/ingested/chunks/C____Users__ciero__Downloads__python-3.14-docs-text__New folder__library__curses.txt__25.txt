@@ -1,0 +1,5 @@
+you can speed performance and perhaps reduce screen flicker by
+   issuing "noutrefresh()" calls on all windows, followed by a single
+   "doupdate()".
+curses.echo()
+   Enter echo mode.  In echo mode, each character input is echoed to

@@ -1,0 +1,4 @@
+Call "timeit()" a few times.
+      This is a convenience function that calls the "timeit()"
+      repeatedly, returning a list of results.  The first argument
+      specifies how many times to call "timeit()".  The second

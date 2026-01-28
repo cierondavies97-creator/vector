@@ -1,0 +1,4 @@
+is printable, this string is the character itself.  If the
+   character is a control character (0x00--0x1f) the string consists
+   of a caret ("'^'") followed by the corresponding uppercase letter.
+   If the character is an ASCII delete (0x7f) the string is "'^?'".

@@ -1,0 +1,5 @@
+applied before returning and that "NaN" values are either
+      signaled or ignored (depending on the context and whether they
+      are signaling or quiet).
+   min_mag(other, context=None)
+      Similar to the "min()" method, but the comparison is done using

@@ -1,0 +1,5 @@
+default is "'GET'" if *data* is "None" or "'POST'" otherwise.
+   Subclasses may indicate a different default method by setting the
+   "method" attribute in the class itself.
+   Note:
+     The request will not work as expected if the data object is

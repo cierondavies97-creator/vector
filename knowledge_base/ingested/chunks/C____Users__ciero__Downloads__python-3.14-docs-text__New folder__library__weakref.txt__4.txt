@@ -1,0 +1,4 @@
+may wish to associate a name with each.  If you used a Python
+dictionary to map names to images, or images to names, the image
+objects would remain alive just because they appeared as values or
+keys in the dictionaries.  The "WeakKeyDictionary" and

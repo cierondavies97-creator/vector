@@ -1,0 +1,5 @@
+are Future-like objects and there is no running event loop.
+Eager Task Factory
+==================
+asyncio.eager_task_factory(loop, coro, *, name=None, context=None)
+   A task factory for eager task execution.

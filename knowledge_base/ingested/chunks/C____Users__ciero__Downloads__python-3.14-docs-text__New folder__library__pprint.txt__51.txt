@@ -1,0 +1,3 @@
+'The file should use UTF-8 encoding and be written using '
+                   'ReStructured Text. It\n'
+                   'will be used to generate the project webpage on PyPI, and '

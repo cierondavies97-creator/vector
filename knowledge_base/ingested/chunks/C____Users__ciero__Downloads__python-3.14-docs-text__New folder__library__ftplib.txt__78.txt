@@ -1,0 +1,4 @@
+depending on what is specified in the "ssl_version" attribute.
+      Changed in version 3.4: The method now supports hostname check
+      with "ssl.SSLContext.check_hostname" and *Server Name
+      Indication* (see "ssl.HAS_SNI").

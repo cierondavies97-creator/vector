@@ -1,0 +1,5 @@
+session, this method tries ESMTP "EHLO" first. This method will
+   return normally if the authentication was successful, or may raise
+   the following exceptions:
+   "SMTPHeloError"
+      The server didn't reply properly to the "HELO" greeting.

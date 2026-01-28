@@ -1,0 +1,7 @@
+a read-write abstract property by appropriately marking one or more
+   of the underlying methods as abstract:
+      class C(ABC):
+          @property
+          def x(self):
+              ...
+          @x.setter

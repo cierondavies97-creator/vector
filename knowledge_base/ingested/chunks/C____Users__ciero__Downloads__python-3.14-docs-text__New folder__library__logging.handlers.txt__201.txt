@@ -1,0 +1,6 @@
+start()
+      Starts the listener.
+      This starts up a background thread to monitor the queue for
+      LogRecords to process.
+      Changed in version 3.14: Raises "RuntimeError" if called and the
+      listener is already running.

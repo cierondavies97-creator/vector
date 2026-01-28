@@ -1,0 +1,4 @@
+overriding "__iter__()" wasn't sufficient for providing tests.
+      Changed in version 3.4: In earlier versions the "TestSuite" held
+      references to each "TestCase" after "TestSuite.run()".
+      Subclasses can restore that behavior by overriding

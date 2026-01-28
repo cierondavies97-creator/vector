@@ -1,0 +1,5 @@
+class datetime.timedelta
+   A duration expressing the difference between two "datetime" or
+   "date" instances to microsecond resolution.
+class datetime.tzinfo
+   An abstract base class for time zone information objects. These are

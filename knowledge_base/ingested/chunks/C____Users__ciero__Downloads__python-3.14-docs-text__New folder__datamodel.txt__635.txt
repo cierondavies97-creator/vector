@@ -1,0 +1,7 @@
+iterator.  Should raise a "StopAsyncIteration" error when the
+   iteration is over.
+An example of an asynchronous iterable object:
+   class Reader:
+       async def readline(self):
+           ...
+       def __aiter__(self):

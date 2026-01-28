@@ -1,0 +1,4 @@
+platform; please see "copystat()" for more information.  If
+   "copymode()" cannot modify symbolic links on the local platform,
+   and it is asked to do so, it will do nothing and return.
+   Raises an auditing event "shutil.copymode" with arguments "src",

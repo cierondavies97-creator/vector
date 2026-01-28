@@ -1,0 +1,7 @@
+when the handler is closed.
+   Changed in version 3.6: The *flushOnClose* parameter was added.
+   close()
+      Calls "flush()", sets the target to "None" and clears the
+      buffer.
+   flush()
+      For a "MemoryHandler" instance, flushing means just sending the

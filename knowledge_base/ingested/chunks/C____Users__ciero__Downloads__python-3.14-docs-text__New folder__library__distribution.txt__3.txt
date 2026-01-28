@@ -1,0 +1,7 @@
+* Command-Line Interface
+  * Python API
+  * Examples
+  * Specifying the Interpreter
+  * Creating Standalone Applications with zipapp
+    * Caveats
+  * The Python Zip Application Archive Format

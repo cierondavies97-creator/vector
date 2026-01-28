@@ -1,0 +1,4 @@
+be used.
+   When a connection cannot be created, an exception is raised. By
+   default, it is the exception from the last address in the list. If
+   *all_errors* is "True", it is an "ExceptionGroup" containing the

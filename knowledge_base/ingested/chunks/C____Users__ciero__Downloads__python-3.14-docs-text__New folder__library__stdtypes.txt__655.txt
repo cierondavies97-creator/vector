@@ -1,0 +1,3 @@
+| "'u'"        | Obsolete type -- it is identical to "'d'".            | (8)     |
++--------------+-------------------------------------------------------+---------+
+| "'x'"        | Signed hexadecimal (lowercase).                       | (2)     |

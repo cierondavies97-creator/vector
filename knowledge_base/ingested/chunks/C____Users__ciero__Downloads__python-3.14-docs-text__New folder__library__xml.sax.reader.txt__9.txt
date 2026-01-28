@@ -1,0 +1,4 @@
+This class may include information about the public identifier,
+   system identifier, byte stream (possibly with character encoding
+   information) and/or the character stream of an entity.
+   Applications will create objects of this class for use in the

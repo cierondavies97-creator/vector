@@ -1,0 +1,3 @@
+originate in a module that matches one of these patterns. [1]
+   By default, Pdb sets a handler for the SIGINT signal (which is sent
+   when the user presses "Ctrl"-"C" on the console) when you give a

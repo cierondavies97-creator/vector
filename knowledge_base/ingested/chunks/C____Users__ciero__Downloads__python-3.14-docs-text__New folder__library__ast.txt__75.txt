@@ -1,0 +1,4 @@
+"Interpolation" and "Constant" nodes. These nodes may be any order,
+   and do not need to be interleaved.
+      >>> expr = ast.parse('t"{name} finished {place:ordinal}"', mode='eval')
+      >>> print(ast.dump(expr, indent=4))

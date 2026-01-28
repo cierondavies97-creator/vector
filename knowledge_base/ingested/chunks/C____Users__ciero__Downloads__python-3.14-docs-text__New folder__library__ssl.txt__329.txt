@@ -1,0 +1,3 @@
+should start with the specific certificate for the principal who "is"
+the client or server, and then the certificate for the issuer of that
+certificate, and then the certificate for the issuer of *that*

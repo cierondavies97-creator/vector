@@ -1,0 +1,4 @@
+arguments that can be used to tell it to look for files in other
+locations.
+Like "testmod()", "testfile()"'s verbosity can be set with the "-v"
+command-line switch or with the optional keyword argument *verbose*.

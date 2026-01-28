@@ -1,0 +1,6 @@
+fields with values from *changes*.
+   Added in version 3.13.
+See also:
+  Module "pickle"
+     Discussion of the special methods used to support object state
+     retrieval and restoration.

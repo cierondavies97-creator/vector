@@ -1,0 +1,4 @@
+"FLUSH_BLOCK", or "FLUSH_FRAME".
+   set_pledged_input_size(size)
+      Specify the amount of uncompressed data *size* that will be
+      provided for the next frame. *size* will be written into the

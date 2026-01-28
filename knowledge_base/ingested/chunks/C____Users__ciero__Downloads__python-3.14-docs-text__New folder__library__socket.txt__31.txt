@@ -1,0 +1,4 @@
+to four elements "(type, name [, feat [, mask]])", where:
+  * *type* is the algorithm type as string, e.g. "aead", "hash",
+    "skcipher" or "rng".
+  * *name* is the algorithm name and operation mode as string, e.g.

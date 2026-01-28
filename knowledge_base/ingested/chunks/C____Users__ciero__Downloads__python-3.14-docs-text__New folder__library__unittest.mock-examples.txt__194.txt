@@ -1,0 +1,4 @@
+the mock was called with against the one we created our matcher with.
+If they match then "assert_called_with" passes, and if they don't an
+"AssertionError" is raised:
+>>> match_wrong = Matcher(compare, Foo(3, 4))

@@ -1,0 +1,4 @@
+be done with care, because a too-high limit can lead to a crash.
+   If the new limit is too low at the current recursion depth, a
+   "RecursionError" exception is raised.
+   Changed in version 3.5.1: A "RecursionError" exception is now

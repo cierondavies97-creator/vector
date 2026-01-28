@@ -1,0 +1,4 @@
+"Callable", or as parameters for user-defined Generics.  See
+   "Generic" for more information on generic types.
+   For example, to add basic logging to a function, one can create a
+   decorator "add_logging" to log function calls.  The parameter

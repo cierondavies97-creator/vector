@@ -1,0 +1,5 @@
+"email.utils": Miscellaneous utilities
+**************************************
+**Source code:** Lib/email/utils.py
+======================================================================
+There are a couple of useful utilities provided in the "email.utils"

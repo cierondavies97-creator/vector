@@ -1,0 +1,6 @@
+"shutil".
+   Raises an auditing event "open" with arguments "path", "mode",
+   "flags".
+   The "mode" and "flags" arguments may have been modified or inferred
+   from the original call.
+   Changed in version 3.3:

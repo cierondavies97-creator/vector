@@ -1,0 +1,4 @@
+when the same string is compared repeatedly, e.g. when collating a
+   sequence of strings.
+locale.format_string(format, val, grouping=False, monetary=False)
+   Formats a number *val* according to the current "LC_NUMERIC"

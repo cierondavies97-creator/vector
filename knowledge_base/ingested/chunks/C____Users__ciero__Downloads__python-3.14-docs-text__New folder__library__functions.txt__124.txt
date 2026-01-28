@@ -1,0 +1,4 @@
+number:        [digitpart] "." digitpart | digitpart ["."]
+      exponent:      ("e" | "E") [sign] digitpart
+      floatnumber:   number [exponent]
+      absfloatvalue: floatnumber | infinity | nan

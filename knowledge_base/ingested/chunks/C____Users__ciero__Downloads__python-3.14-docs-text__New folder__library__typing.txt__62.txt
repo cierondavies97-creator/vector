@@ -1,0 +1,7 @@
+or invariantly.
+The "SendType" and "ReturnType" parameters default to "None":
+   def infinite_stream(start: int) -> Generator[int]:
+       while True:
+           yield start
+           start += 1
+It is also possible to set these types explicitly:

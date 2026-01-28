@@ -1,0 +1,5 @@
+the "_field_defaults" attribute, both of which are part of the
+   "namedtuple()" API.)
+   "NamedTuple" subclasses can also have docstrings and methods:
+      class Employee(NamedTuple):
+          """Represents an employee."""

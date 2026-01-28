@@ -1,0 +1,7 @@
+remarks:
+   add(message)
+   __setitem__(key, message)
+   update(arg)
+      Warning:
+        These methods generate unique file names based upon the
+        current process ID. When using multiple threads, undetected

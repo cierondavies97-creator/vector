@@ -1,0 +1,3 @@
+received; it defaults to false.
+   Changed in version 3.3: The *use_builtin_types* flag was added.
+class xmlrpc.server.CGIXMLRPCRequestHandler(allow_none=False, encoding=None, use_builtin_types=False)

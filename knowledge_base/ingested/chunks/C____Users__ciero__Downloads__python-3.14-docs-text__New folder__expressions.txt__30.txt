@@ -1,0 +1,4 @@
+Common syntax elements for comprehensions are:
+   comprehension: assignment_expression comp_for
+   comp_for:      ["async"] "for" target_list "in" or_test [comp_iter]
+   comp_iter:     comp_for | comp_if

@@ -1,0 +1,5 @@
+checkers*, IDEs, linters, etc.
+======================================================================
+This module provides runtime support for type hints.
+Consider the function below:
+   def surface_area_of_cube(edge_length: float) -> str:

@@ -1,0 +1,4 @@
+*stderr* arguments may not be supplied at the same time as
+   *capture_output*. If you wish to capture and combine both streams
+   into one, set *stdout* to "PIPE" and *stderr* to "STDOUT", instead
+   of using *capture_output*.

@@ -1,0 +1,3 @@
++----------------+-----------------------------------------------+
+   | *stream*       | Use the specified stream to initialize the    |
+   |                | "StreamHandler". Note that this argument is   |

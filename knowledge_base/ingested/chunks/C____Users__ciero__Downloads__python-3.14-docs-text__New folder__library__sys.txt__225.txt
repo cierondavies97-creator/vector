@@ -1,0 +1,6 @@
+the return value of "intern()" around to benefit from it.
+sys._is_gil_enabled()
+   Return "True" if the *GIL* is enabled and "False" if it is
+   disabled.
+   Added in version 3.13.
+   **CPython implementation detail:** It is not guaranteed to exist in

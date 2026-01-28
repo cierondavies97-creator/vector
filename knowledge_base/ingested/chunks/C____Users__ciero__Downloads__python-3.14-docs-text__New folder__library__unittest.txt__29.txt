@@ -1,0 +1,6 @@
+controlled using environment variables.
+Command-line options
+--------------------
+**unittest** supports these command-line options:
+-b, --buffer
+   The standard output and standard error streams are buffered during

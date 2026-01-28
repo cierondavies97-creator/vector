@@ -1,0 +1,3 @@
+A custom opener can be used by passing a callable as *opener*. The
+   underlying file descriptor for the file object is then obtained by
+   calling *opener* with (*file*, *flags*). *opener* must return an

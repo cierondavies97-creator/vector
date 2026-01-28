@@ -1,0 +1,7 @@
+if task in entry_finder:
+           remove_task(task)
+       count = next(counter)
+       entry = [priority, count, task]
+       entry_finder[task] = entry
+       heappush(pq, entry)
+   def remove_task(task):

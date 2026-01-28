@@ -1,0 +1,5 @@
+orelse=[
+                              Continue()])])])
+class ast.Try(body, handlers, orelse, finalbody)
+   "try" blocks. All attributes are list of nodes to execute, except
+   for "handlers", which is a list of "ExceptHandler" nodes.

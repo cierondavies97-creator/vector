@@ -1,0 +1,5 @@
+======================
+You can also invoke "pdb" from the command line to debug other
+scripts.  For example:
+   python -m pdb [-c command] (-m module | -p pid | pyfile) [args ...]
+When invoked as a module, pdb will automatically enter post-mortem

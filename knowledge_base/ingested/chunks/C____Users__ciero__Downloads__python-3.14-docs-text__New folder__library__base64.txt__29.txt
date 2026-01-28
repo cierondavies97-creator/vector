@@ -1,0 +1,5 @@
+information.
+base64.a85encode(b, *, foldspaces=False, wrapcol=0, pad=False, adobe=False)
+   Encode the *bytes-like object* *b* using Ascii85 and return the
+   encoded "bytes".
+   *foldspaces* is an optional flag that uses the special short

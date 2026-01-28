@@ -1,0 +1,5 @@
+Interacting with Subprocesses
+=============================
+Both "create_subprocess_exec()" and "create_subprocess_shell()"
+functions return instances of the *Process* class.  *Process* is a
+high-level wrapper that allows communicating with subprocesses and

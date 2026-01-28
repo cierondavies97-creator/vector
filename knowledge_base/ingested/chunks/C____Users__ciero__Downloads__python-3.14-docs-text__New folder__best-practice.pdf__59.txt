@@ -1,0 +1,8 @@
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Common Refactoring Operations
+▶ Rename class/method/module/package/function
+▶ Move class/method/module/package/function
+▶ Encapsulate code in method/function

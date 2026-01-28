@@ -1,0 +1,4 @@
+long as they all set this flag when being created. This option is
+     not supported on Windows.
+   * *keep_alive* set to "True" keeps connections active by enabling
+     the periodic transmission of messages.

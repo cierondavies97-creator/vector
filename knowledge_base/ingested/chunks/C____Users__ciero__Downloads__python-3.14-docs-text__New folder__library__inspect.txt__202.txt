@@ -1,0 +1,3 @@
+class whose entry immediately precedes the list.  Each entry is a
+   2-tuple containing a class and a tuple of its base classes.  If the
+   *unique* argument is true, exactly one entry appears in the

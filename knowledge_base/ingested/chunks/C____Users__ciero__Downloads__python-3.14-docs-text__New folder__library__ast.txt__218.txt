@@ -1,0 +1,4 @@
+Added in version 3.10.
+class ast.match_case(pattern, guard, body)
+   A single case pattern in a "match" statement. "pattern" contains
+   the match pattern that the subject will be matched against. Note

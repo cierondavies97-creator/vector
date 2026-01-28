@@ -1,0 +1,5 @@
+standardized by the C Standard and the POSIX standard (a thinly
+disguised Unix interface).
+Availability: Unix.
+**Do not import this module directly.**  Instead, import the module
+"os", which provides a *portable* version of this interface.  On Unix,

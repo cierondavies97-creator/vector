@@ -1,0 +1,3 @@
+ends in a slash, *tail* will be empty.  If there is no slash in
+   *path*, *head* will be empty.  If *path* is empty, both *head* and
+   *tail* are empty.  Trailing slashes are stripped from *head* unless

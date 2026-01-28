@@ -1,0 +1,6 @@
+The core built-in types for *type annotations* are Generic Alias and
+Union.
+Generic Alias Type
+------------------
+"GenericAlias" objects are generally created by subscripting a class.
+They are most often used with container classes, such as "list" or

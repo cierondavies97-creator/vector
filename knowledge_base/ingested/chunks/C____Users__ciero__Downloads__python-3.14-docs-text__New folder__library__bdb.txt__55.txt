@@ -1,0 +1,4 @@
+disabled events will be restarted after each user interaction.
+      Added in version 3.14.
+   Derived classes and clients can call the following methods to get a
+   data structure representing a stack trace.

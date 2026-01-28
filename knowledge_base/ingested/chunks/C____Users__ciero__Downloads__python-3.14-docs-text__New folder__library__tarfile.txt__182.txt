@@ -1,0 +1,5 @@
+Passing a directory is also acceptable:
+   $ python -m tarfile -c monty.tar life-of-brian_1979/
+If you want to extract a tar archive into the current directory, use
+the "-e" option:
+   $ python -m tarfile -e monty.tar

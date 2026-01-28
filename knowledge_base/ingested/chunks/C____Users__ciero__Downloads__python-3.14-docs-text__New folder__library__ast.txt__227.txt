@@ -1,0 +1,7 @@
+succeeds if the match subject is equal to the evaluated value.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case "Relevant":
+      ...         ...
+      ... """), indent=4))
+      Module(

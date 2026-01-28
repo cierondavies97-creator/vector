@@ -1,0 +1,4 @@
+"POSIX" at Python startup (see the "PyConfig_Read()" function).
+It can be enabled or disabled using the "-X utf8" command line option
+and the "PYTHONUTF8" environment variable.
+If the "PYTHONUTF8" environment variable is not set at all, then the

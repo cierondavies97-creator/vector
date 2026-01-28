@@ -1,0 +1,4 @@
+types.resolve_bases(bases)
+   Resolve MRO entries dynamically as specified by **PEP 560**.
+   This function looks for items in *bases* that are not instances of
+   "type", and returns a tuple where each such object that has an

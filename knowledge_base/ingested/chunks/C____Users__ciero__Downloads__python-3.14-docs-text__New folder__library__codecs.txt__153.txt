@@ -1,0 +1,3 @@
+consecutive bytes. There are two possibilities: store the bytes in big
+endian or in little endian order. These two encodings are called
+"UTF-32-BE" and "UTF-32-LE" respectively. Their disadvantage is that

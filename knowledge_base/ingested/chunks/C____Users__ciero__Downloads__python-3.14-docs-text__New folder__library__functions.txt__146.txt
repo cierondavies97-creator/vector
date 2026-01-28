@@ -1,0 +1,5 @@
+the reported signatures for callables are now more comprehensive
+   and consistent.
+hex(integer, /)
+   Convert an integer number to a lowercase hexadecimal string
+   prefixed with "0x". If *integer* is not a Python "int" object, it

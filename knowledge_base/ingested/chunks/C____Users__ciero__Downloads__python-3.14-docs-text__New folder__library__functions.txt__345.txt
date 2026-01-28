@@ -1,0 +1,5 @@
+without an argument has been updated as described for the
+   "locals()" builtin.
+zip(*iterables, strict=False)
+   Iterate over several iterables in parallel, producing tuples with
+   an item from each one.

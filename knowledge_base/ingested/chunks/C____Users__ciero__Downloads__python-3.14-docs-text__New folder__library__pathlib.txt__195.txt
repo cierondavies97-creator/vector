@@ -1,0 +1,6 @@
+raised.
+   See also:
+     The "open()", "write_text()" and "write_bytes()" methods are
+     often used to create files.
+Path.mkdir(mode=0o777, parents=False, exist_ok=False)
+   Create a new directory at this given path.  If *mode* is given, it

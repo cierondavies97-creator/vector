@@ -1,0 +1,4 @@
+generator function cannot control where the execution should continue
+after it yields; the control is always transferred to the generator's
+caller.
+Yield expressions are allowed anywhere in a "try" construct.  If the

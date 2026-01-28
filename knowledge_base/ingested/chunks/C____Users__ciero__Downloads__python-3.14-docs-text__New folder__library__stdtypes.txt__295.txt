@@ -1,0 +1,3 @@
+"bytes.decode()".  See Binary Sequence Types --- bytes, bytearray,
+   memoryview and Buffer Protocol for information on buffer objects.
+   Passing a "bytes" object to "str()" without the *encoding* or

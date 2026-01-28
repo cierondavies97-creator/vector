@@ -1,0 +1,5 @@
+Here's an example of how to send a MIME message containing a bunch of
+family pictures that may be residing in a directory:
+   # Import smtplib for the actual sending function.
+   import smtplib
+   # Here are the email package modules we'll need.

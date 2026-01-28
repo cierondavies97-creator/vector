@@ -1,0 +1,4 @@
+Return a "DOMEventStream" that represents the (Unicode) *string*.
+xml.dom.pulldom.default_bufsize
+   Default value for the *bufsize* parameter to "parse()".
+   The value of this variable can be changed before calling "parse()"

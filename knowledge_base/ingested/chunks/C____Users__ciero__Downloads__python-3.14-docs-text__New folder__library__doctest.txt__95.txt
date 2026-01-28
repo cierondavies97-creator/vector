@@ -1,0 +1,5 @@
+actual outputs are displayed using a unified diff.
+doctest.REPORT_CDIFF
+   When specified, failures that involve multi-line expected and
+   actual outputs will be displayed using a context diff.
+doctest.REPORT_NDIFF

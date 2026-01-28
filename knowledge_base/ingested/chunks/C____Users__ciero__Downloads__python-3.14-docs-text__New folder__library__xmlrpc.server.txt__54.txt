@@ -1,0 +1,4 @@
+response to HTTP GET requests.  Servers can either be free standing,
+using "DocXMLRPCServer", or embedded in a CGI environment, using
+"DocCGIXMLRPCRequestHandler".
+class xmlrpc.server.DocXMLRPCServer(addr, requestHandler=DocXMLRPCRequestHandler, logRequests=True, allow_none=False, encoding=None, bind_and_activate=True, use_builtin_types=True)

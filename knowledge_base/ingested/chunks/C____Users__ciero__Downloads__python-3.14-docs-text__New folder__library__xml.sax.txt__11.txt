@@ -1,0 +1,4 @@
+method on the handler.  A SAX application must therefore obtain a
+reader object, create or open the input sources, create the handlers,
+and connect these objects all together.  As the final step of
+preparation, the reader is called to parse the input. During parsing,

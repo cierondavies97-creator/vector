@@ -1,0 +1,3 @@
+Duplicate the file descriptor *fd* (an integer as returned by a
+   file object's "fileno()" method) and build a socket object from the
+   result.  Address family, socket type and protocol number are as for

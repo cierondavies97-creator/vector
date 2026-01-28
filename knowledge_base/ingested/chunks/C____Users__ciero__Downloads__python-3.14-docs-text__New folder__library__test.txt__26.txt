@@ -1,0 +1,4 @@
+starts with "test_", importing them, and executing the function
+"test_main()" if present or loading the tests via
+unittest.TestLoader.loadTestsFromModule if "test_main" does not exist.
+The names of tests to execute may also be passed to the script.

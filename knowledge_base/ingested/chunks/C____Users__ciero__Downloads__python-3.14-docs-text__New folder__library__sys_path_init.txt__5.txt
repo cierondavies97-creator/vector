@@ -1,0 +1,4 @@
+modules is called "prefix". The directory with the extension modules
+is called "exec_prefix".
+The "PYTHONHOME" environment variable may be used to set the "prefix"
+and "exec_prefix" locations. Otherwise these directories are found by

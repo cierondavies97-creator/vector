@@ -1,0 +1,6 @@
+raised instead of "AssertionError".
+   put_nowait(obj)
+      Equivalent to "put(obj, False)".
+   get([block[, timeout]])
+      Remove and return an item from the queue.  If optional args
+      *block* is "True" (the default) and *timeout* is "None" (the

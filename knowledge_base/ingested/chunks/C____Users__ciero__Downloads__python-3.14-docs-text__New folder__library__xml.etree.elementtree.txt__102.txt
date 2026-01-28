@@ -1,0 +1,4 @@
+it has a "root" attribute that references the root element of the
+   resulting XML tree once *source* is fully read. The iterator has
+   the "close()" method that closes the internal file object if
+   *source* is a filename.

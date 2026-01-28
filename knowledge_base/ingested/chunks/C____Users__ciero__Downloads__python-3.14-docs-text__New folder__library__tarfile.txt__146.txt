@@ -1,0 +1,4 @@
+features of UNIX-like filesystems), but block features that are very
+  likely to be surprising or malicious. See "tar_filter()" for
+  details.
+* the string "'data'": Ignore or block most features specific to UNIX-

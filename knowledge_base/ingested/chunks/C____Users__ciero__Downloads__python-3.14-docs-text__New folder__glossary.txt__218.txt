@@ -1,0 +1,6 @@
+path based finder
+   One of the default *meta path finders* which searches an *import
+   path* for modules.
+path-like object
+   An object representing a file system path. A path-like object is
+   either a "str" or "bytes" object representing a path, or an object

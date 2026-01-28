@@ -1,0 +1,3 @@
+be surprisingly slow compared to an "isinstance()" check against
+     a non-protocol class. Consider using alternative idioms such as
+     "hasattr()" calls for structural checks in performance-sensitive

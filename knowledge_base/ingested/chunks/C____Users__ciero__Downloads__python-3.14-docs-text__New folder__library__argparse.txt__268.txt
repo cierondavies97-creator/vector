@@ -1,0 +1,6 @@
+>>>
+      >>> # parse some argument lists
+      >>> parser.parse_args(['a', '12'])
+      Namespace(bar=12, foo=False)
+      >>> parser.parse_args(['--foo', 'b', '--baz', 'Z'])
+      Namespace(baz='Z', foo=True)

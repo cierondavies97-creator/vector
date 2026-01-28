@@ -1,0 +1,7 @@
+bright_side_of_life()
+       ~~~~~~~~~~~~~~~~~~~^^
+     File "<python-input-8>", line 11, in bright_side_of_life
+       return t[5]
+              ~^^^
+   IndexError: tuple index out of range
+   During handling of the above exception, another exception occurred:

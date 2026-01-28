@@ -1,0 +1,12 @@
+▶ still many helpful ideas
+Nicola Chiapolini, 8 July 2024
+3 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Outline
+Introduction
+Style & Documentation

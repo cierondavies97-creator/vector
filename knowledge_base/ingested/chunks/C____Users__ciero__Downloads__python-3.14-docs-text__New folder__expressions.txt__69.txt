@@ -1,0 +1,4 @@
+functions are described separately in section Asynchronous generator
+functions.
+When a generator function is called, it returns an iterator known as a
+generator.  That generator then controls the execution of the

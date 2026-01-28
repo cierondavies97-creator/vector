@@ -1,0 +1,5 @@
+match_case = (pattern pattern, expr? guard, stmt* body)
+       pattern = MatchValue(expr value)
+               | MatchSingleton(constant value)
+               | MatchSequence(pattern* patterns)
+               | MatchMapping(expr* keys, pattern* patterns, identifier? rest)

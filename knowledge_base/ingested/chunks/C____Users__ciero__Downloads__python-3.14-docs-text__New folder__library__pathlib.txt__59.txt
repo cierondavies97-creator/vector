@@ -1,0 +1,7 @@
+False
+      >>> PureWindowsPath('c:').is_absolute()
+      False
+      >>> PureWindowsPath('//some/share').is_absolute()
+      True
+PurePath.is_relative_to(other)
+   Return whether or not this path is relative to the *other* path.

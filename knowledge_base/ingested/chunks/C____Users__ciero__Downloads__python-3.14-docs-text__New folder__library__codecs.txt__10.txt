@@ -1,0 +1,3 @@
+caller.
+class codecs.CodecInfo(encode, decode, streamreader=None, streamwriter=None, incrementalencoder=None, incrementaldecoder=None, name=None)
+   Codec details when looking up the codec registry. The constructor

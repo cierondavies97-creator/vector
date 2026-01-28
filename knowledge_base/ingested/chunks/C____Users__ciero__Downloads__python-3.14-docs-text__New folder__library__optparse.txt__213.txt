@@ -1,0 +1,3 @@
+Prints the version number supplied to the OptionParser to stdout and
+  exits. The version number is actually formatted and printed by the
+  "print_version()" method of OptionParser.  Generally only relevant

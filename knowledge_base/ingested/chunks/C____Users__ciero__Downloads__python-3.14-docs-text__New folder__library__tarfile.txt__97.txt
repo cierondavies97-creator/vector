@@ -1,0 +1,4 @@
+Changed in version 3.12: Added the *filter* parameter.
+TarFile.extractfile(member)
+   Extract a member from the archive as a file object. *member* may be
+   a filename or a "TarInfo" object. If *member* is a regular file or

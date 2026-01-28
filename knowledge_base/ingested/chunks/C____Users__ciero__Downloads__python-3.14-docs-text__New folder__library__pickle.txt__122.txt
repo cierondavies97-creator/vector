@@ -1,0 +1,3 @@
+subclasses, but may be used by other classes as long as they have
+     "append()" and "extend()" methods with the appropriate signature.
+     (Whether "append()" or "extend()" is used depends on which pickle

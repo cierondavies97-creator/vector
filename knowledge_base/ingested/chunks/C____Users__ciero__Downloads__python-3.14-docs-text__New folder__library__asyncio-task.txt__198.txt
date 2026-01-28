@@ -1,0 +1,6 @@
+# Create a "cancel_me" Task
+             task = asyncio.create_task(cancel_me())
+             # Wait for 1 second
+             await asyncio.sleep(1)
+             task.cancel()
+             try:

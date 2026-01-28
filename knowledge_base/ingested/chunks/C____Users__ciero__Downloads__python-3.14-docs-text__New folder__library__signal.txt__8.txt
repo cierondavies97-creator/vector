@@ -1,0 +1,4 @@
+report on synchronous errors.
+* A long-running calculation implemented purely in C (such as regular
+  expression matching on a large body of text) may run uninterrupted
+  for an arbitrary amount of time, regardless of any signals received.

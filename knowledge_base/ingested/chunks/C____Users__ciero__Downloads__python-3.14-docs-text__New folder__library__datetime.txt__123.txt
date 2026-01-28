@@ -1,0 +1,5 @@
+...     print(i)
+   2002                # ISO year
+   11                  # ISO week number
+   1                   # ISO day number ( 1 = Monday )
+   >>> # A date object is immutable; all operations produce a new object

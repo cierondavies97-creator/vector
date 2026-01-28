@@ -1,0 +1,4 @@
+Python 3.12, "entry_points" always returns an "EntryPoints" object.
+See backports.entry_points_selectable for compatibility options.
+Changed in version 3.13: "EntryPoint" objects no longer present a
+tuple-like interface ("__getitem__()").

@@ -1,0 +1,5 @@
+"filecmp" --- File and Directory Comparisons
+********************************************
+**Source code:** Lib/filecmp.py
+======================================================================
+The "filecmp" module defines functions to compare files and

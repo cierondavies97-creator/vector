@@ -1,0 +1,3 @@
+and implement a "reducer_override()" method. This method can return an
+arbitrary reduction tuple (see "__reduce__()"). It can alternatively
+return "NotImplemented" to fallback to the traditional behavior.

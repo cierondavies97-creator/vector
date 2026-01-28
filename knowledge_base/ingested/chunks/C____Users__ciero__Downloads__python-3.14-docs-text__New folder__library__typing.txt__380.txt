@@ -1,0 +1,3 @@
+semantically total. For example, a "TypedDict" with "__total__"
+      set to "True" may have keys marked with "NotRequired", or it may
+      inherit from another "TypedDict" with "total=False". Therefore,

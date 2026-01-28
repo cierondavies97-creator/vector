@@ -1,0 +1,4 @@
+program. (See section The try statement.) It is accessible as the
+third item of the tuple returned by "sys.exc_info()", and as the
+"__traceback__" attribute of the caught exception.
+When the program contains no suitable handler, the stack trace is

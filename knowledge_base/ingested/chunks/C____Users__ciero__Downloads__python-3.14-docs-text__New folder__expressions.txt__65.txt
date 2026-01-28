@@ -1,0 +1,4 @@
+yield_expression: "yield" yield_list | yield_from
+The yield expression is used when defining a *generator* function or
+an *asynchronous generator* function and thus can only be used in the
+body of a function definition.  Using a yield expression in a

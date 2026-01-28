@@ -1,0 +1,4 @@
+yields the time zone's "standard offset", which should not depend
+   on the date or the time, but only on geographic location. The
+   implementation of "datetime.astimezone()" relies on this, but
+   cannot detect violations; it's the programmer's responsibility to

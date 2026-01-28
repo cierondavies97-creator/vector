@@ -1,0 +1,6 @@
+nested()  # will raise a "RuntimeWarning".
+       # Let's do it differently now and await it:
+       print(await nested())  # will print "42".
+   asyncio.run(main())
+Important:
+  In this documentation the term "coroutine" can be used for two

@@ -1,0 +1,3 @@
+created and protocol version (IMAP4 or IMAP4rev1) is determined
+   when the instance is initialized. If *host* is not specified, "''"
+   (the local host) is used. If *port* is omitted, the standard IMAP4

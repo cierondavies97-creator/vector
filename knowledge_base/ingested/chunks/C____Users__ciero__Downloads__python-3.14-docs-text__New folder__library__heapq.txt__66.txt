@@ -1,0 +1,4 @@
+same rate the first heap is melting.  When the first heap completely
+vanishes, you switch heaps and start a new run.  Clever and quite
+effective!
+In a word, heaps are useful memory structures to know.  I use them in

@@ -1,0 +1,6 @@
+can be later used to restore the settings.
+locale.CHAR_MAX
+   This is a symbolic constant used for different values returned by
+   "localeconv()".
+Background, details, hints, tips and caveats
+============================================

@@ -1,0 +1,5 @@
+* all three arguments must be integral
+      * "y" must be nonnegative
+      * at least one of "x" or "y" must be nonzero
+      * "modulo" must be nonzero and have at most 'precision' digits
+      The value resulting from "Context.power(x, y, modulo)" is equal

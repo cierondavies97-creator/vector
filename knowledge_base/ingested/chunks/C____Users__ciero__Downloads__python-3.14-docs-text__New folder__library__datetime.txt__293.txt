@@ -1,0 +1,6 @@
+than one day.
+   Changed in version 3.7: The DST offset is not restricted to a whole
+   number of minutes.
+time.tzname()
+   If "tzinfo" is "None", returns "None", else returns
+   "self.tzinfo.tzname(None)", or raises an exception if the latter

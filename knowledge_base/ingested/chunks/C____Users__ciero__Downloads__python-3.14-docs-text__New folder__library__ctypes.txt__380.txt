@@ -1,0 +1,6 @@
+class ctypes.c_int32
+   Represents the C 32-bit signed int datatype.  Usually an alias for
+   "c_int".
+class ctypes.c_int64
+   Represents the C 64-bit signed int datatype.  Usually an alias for
+   "c_longlong".

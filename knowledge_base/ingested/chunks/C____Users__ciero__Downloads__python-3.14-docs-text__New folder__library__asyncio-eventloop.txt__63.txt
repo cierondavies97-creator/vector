@@ -1,0 +1,4 @@
+The chronological synopsis of the underlying operation is as
+   follows:
+   1. The connection is established and a transport is created for it.
+   2. *protocol_factory* is called without arguments and is expected

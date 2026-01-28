@@ -1,0 +1,4 @@
+at least one slash, even on Windows, as plain names will not be
+   resolved.
+   For "execle()", "execlpe()", "execve()", and "execvpe()" (note that
+   these all end in "e"), the *env* parameter must be a mapping which

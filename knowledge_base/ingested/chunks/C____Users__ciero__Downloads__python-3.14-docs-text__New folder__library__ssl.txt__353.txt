@@ -1,0 +1,4 @@
+service (that is, the HTTPS host "www.python.org"):
+   >>> pprint.pprint(cert)
+   {'OCSP': ('http://ocsp.digicert.com',),
+    'caIssuers': ('http://cacerts.digicert.com/DigiCertSHA2ExtendedValidationServerCA.crt',),

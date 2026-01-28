@@ -1,0 +1,8 @@
+class tkinter.ttk.Spinbox
+   get()
+      Returns the current value of the spinbox.
+   set(value)
+      Sets the value of the spinbox to *value*.
+Notebook
+========
+Ttk Notebook widget manages a collection of windows and displays a

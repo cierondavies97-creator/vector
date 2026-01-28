@@ -1,0 +1,5 @@
+Added in version 3.11.
+async loop.sock_sendall(sock, data)
+   Send *data* to the *sock* socket. Asynchronous version of
+   "socket.sendall()".
+   This method continues to send to the socket until either all data

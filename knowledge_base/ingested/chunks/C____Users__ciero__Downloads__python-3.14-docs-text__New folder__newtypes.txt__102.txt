@@ -1,0 +1,5 @@
+legacy "tp_weaklistoffset" field should be left as zero.
+Concretely, here is how the statically declared type object would
+look:
+   static PyTypeObject TrivialType = {
+       PyVarObject_HEAD_INIT(NULL, 0)

@@ -1,0 +1,4 @@
+size of the file when "mmap" is called.
+   *flags* specifies the nature of the mapping. "MAP_PRIVATE" creates
+   a private copy-on-write mapping, so changes to the contents of the
+   mmap object will be private to this process, and "MAP_SHARED"

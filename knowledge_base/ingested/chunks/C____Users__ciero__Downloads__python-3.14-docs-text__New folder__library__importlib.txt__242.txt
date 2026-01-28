@@ -1,0 +1,4 @@
+show you how to register your own importers so that import will use
+them (for creating an importer for yourself, read the documentation
+for the appropriate classes defined within this package):
+   import importlib.machinery

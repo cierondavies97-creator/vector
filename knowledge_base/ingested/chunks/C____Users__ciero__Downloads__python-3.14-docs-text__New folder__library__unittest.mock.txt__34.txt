@@ -1,0 +1,4 @@
+* *spec_set*: A stricter variant of *spec*. If used, attempting to
+     *set* or get an attribute on the mock that isn't on the object
+     passed as *spec_set* will raise an "AttributeError".
+   * *side_effect*: A function to be called whenever the Mock is

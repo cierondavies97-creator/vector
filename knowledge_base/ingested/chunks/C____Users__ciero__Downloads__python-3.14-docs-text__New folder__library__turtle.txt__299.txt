@@ -1,0 +1,4 @@
+* If you want to use no fill color (i.e. make the turtle transparent),
+  you have to write "fillcolor = """ (but all nonempty strings must
+  not have quotes in the cfg file).
+* If you want to reflect the turtle its state, you have to use

@@ -1,0 +1,5 @@
+approach in the absence of more specific information).
+   Availability: Windows, pthreads.
+   Unix platforms with POSIX threads support.
+This module also defines the following constant:
+threading.TIMEOUT_MAX

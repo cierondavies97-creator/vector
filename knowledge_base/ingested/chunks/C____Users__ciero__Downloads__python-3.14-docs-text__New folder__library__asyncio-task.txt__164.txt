@@ -1,0 +1,8 @@
+current loop.
+   Added in version 3.7.
+asyncio.iscoroutine(obj)
+   Return "True" if *obj* is a coroutine object.
+   Added in version 3.4.
+Task Object
+===========
+class asyncio.Task(coro, *, loop=None, name=None, context=None, eager_start=False)

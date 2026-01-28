@@ -1,0 +1,8 @@
+Print a random choice, using "choice()".
+-i <N>
+--integer <N>
+   Print a random integer between 1 and N inclusive, using
+   "randint()".
+-f <N>
+--float <N>
+   Print a random floating-point number between 0 and N inclusive,

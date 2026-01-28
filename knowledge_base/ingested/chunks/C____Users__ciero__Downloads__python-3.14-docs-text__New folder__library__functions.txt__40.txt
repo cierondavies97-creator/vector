@@ -1,0 +1,4 @@
+or on an instance (such as "C().f()").  The instance is ignored
+   except for its class. If a class method is called for a derived
+   class, the derived class object is passed as the implied first
+   argument.

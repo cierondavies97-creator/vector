@@ -1,0 +1,4 @@
+"'anonymous'"). If given, "login(host, passwd, acct)" is
+        implicitly called by the constructor.
+      * **passwd** (*str*) -- The password to use when logging in. If
+        not given, and if *passwd* is the empty string or ""-"", a

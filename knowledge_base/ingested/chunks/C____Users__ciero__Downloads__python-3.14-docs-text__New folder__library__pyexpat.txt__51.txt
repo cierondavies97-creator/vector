@@ -1,0 +1,4 @@
+information is available from the declarations as needed to comply
+   with the standards for the behavior of XML processors.  By default,
+   this attribute is false; it may be changed at any time.
+The following attributes contain values relating to the most recent

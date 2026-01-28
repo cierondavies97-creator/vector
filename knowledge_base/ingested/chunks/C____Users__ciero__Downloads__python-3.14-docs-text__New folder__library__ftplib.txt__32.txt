@@ -1,0 +1,5 @@
+Parameters:
+         * **cmd** (*str*) -- An appropriate "RETR" command: ""RETR
+           *filename*"".
+         * **callback** (*callable*) -- A single parameter callable
+           that is called for each block of data received, with its

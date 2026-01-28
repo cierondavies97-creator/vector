@@ -1,0 +1,4 @@
+loadTestsFromName(name, module=None)
+      Return a suite of all test cases given a string specifier.
+      The specifier *name* is a "dotted name" that may resolve either
+      to a module, a test case class, a test method within a test case

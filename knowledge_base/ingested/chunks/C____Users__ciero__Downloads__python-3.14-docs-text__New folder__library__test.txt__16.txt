@@ -1,0 +1,4 @@
+* Exhaust as many code paths as possible. Test where branching occurs
+  and thus tailor input to make sure as many different paths through
+  the code are taken.
+* Add an explicit test for any bugs discovered for the tested code.

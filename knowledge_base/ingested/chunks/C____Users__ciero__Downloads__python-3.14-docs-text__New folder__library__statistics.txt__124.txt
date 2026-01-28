@@ -1,0 +1,5 @@
+regression describes the relationship between an independent
+   variable *x* and a dependent variable *y* in terms of this linear
+   function:
+      *y = slope * x + intercept + noise*
+   where "slope" and "intercept" are the regression parameters that

@@ -1,0 +1,4 @@
+types, both mutable and immutable. The "collections.abc.Sequence" ABC
+is provided to make it easier to correctly implement these operations
+on custom sequence types.
+This table lists the sequence operations sorted in ascending priority.

@@ -1,0 +1,7 @@
+...
+>>> assert thing['one'] == 1
+>>> assert list(thing) == ['one']
+patch.multiple
+--------------
+patch.multiple(target, spec=None, create=False, spec_set=None, autospec=None, new_callable=None, **kwargs)
+   Perform multiple patches in a single call. It takes the object to

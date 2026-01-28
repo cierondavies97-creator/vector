@@ -1,0 +1,5 @@
+sources, consider passing "shell=True" to allow Python to escape
+special characters. See gh-114539 for additional discussion.
+Popen Objects
+=============
+Instances of the "Popen" class have the following methods:

@@ -1,0 +1,4 @@
+Evaluate an "annotationlib.ForwardRef" as a *type hint*.
+   This is similar to calling "annotationlib.ForwardRef.evaluate()",
+   but unlike that method, "evaluate_forward_ref()" also recursively
+   evaluates forward references nested within the type hint.

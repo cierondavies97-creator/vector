@@ -1,0 +1,4 @@
+constructed that lists the differences between the sets.  This
+      method is used by default when comparing sets or frozensets with
+      "assertEqual()".
+      Fails if either of *first* or *second* does not have a

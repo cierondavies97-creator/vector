@@ -1,0 +1,4 @@
+cases)
+* the application requires additional control over the handling of
+  options which accept parameter values that may start with "-" (such
+  as delegated options to be passed to invoked subprocesses)

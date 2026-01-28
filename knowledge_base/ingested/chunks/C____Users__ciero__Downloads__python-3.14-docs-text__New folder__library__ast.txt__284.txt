@@ -1,0 +1,5 @@
+slice=Name(id='T', ctx=Load()),
+                      ctx=Load()))])
+   Added in version 3.12.
+   Changed in version 3.13: Added the *default_value* parameter.
+class ast.ParamSpec(name, default_value)

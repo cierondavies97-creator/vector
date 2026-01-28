@@ -1,0 +1,4 @@
+details.
+   "EnumType" is responsible for setting the correct "__repr__()",
+   "__str__()", "__format__()", and "__reduce__()" methods on the
+   final *enum*, as well as creating the enum members, properly

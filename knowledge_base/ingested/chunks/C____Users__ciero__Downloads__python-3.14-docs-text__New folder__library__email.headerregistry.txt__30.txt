@@ -1,0 +1,4 @@
+This means, for example, that the following code is valid and does
+   what one would expect:
+      msg['Date'] = datetime(2011, 7, 15, 21)
+   Because this is a naive "datetime" it will be interpreted as a UTC

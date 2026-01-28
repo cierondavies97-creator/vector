@@ -1,0 +1,4 @@
+* **n_arg** (*int*) -- The number of arguments the SQL
+           aggregate function can accept. If "-1", it may take any
+           number of arguments.
+         * **aggregate_class** (*class* | None) --

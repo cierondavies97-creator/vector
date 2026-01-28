@@ -1,0 +1,6 @@
+inspect.CO_VARKEYWORDS
+   The code object has a variable keyword parameter ("**kwargs"-like).
+inspect.CO_NESTED
+   The flag is set when the code object is a nested function.
+inspect.CO_GENERATOR
+   The flag is set when the code object is a generator function, i.e.

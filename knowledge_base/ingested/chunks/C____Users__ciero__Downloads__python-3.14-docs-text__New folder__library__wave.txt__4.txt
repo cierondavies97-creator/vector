@@ -1,0 +1,4 @@
+file-like object is passed as *file*, "file.mode" is used as the
+   default value for *mode*.
+   If you pass in a file-like object, the wave object will not close
+   it when its "close()" method is called; it is the caller's

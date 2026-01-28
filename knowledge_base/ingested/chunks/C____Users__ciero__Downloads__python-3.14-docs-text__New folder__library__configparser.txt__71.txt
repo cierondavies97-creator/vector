@@ -1,0 +1,4 @@
+An alternative dictionary type can be used for example to sort
+  sections and options on write-back.
+  Please note: there are ways to add a set of key-value pairs in a
+  single operation.  When you use a regular dictionary in those

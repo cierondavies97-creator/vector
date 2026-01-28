@@ -1,0 +1,5 @@
+newline and some containing internal newlines.
+      "print_exception()" is a wrapper around this method which just
+      prints the lines to a file.
+   format_exception_only(*, show_group=False)
+      Format the exception part of the traceback.

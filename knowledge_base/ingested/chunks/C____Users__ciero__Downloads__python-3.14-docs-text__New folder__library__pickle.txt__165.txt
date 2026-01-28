@@ -1,0 +1,5 @@
+If both the "dispatch_table" and "reducer_override()" are defined,
+then "reducer_override()" method takes priority.
+Note:
+  For performance reasons, "reducer_override()" may not be called for
+  the following objects: "None", "True", "False", and exact instances

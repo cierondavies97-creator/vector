@@ -1,0 +1,5 @@
+precision).
+Note:
+  The default "timestamp" converter ignores UTC offsets in the
+  database and always returns a naive "datetime.datetime" object. To
+  preserve UTC offsets in timestamps, either leave converters

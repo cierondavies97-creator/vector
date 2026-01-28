@@ -1,0 +1,5 @@
+"None".
+   Changed in version 3.6: Calling "testzip()" on a closed ZipFile
+   will raise a "ValueError".  Previously, a "RuntimeError" was
+   raised.
+ZipFile.write(filename, arcname=None, compress_type=None, compresslevel=None)

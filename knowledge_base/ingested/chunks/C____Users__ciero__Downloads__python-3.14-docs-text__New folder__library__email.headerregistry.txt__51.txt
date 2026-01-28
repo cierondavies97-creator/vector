@@ -1,0 +1,5 @@
+copied in to the registry during initialization.  *base_class* is
+   always the last class in the generated class's "__bases__" list.
+   The default mappings are:
+      subject:
+         UniqueUnstructuredHeader

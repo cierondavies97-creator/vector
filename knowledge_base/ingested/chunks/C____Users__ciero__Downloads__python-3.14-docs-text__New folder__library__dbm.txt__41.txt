@@ -1,0 +1,5 @@
+length of a database file except by using this reorganization;
+      otherwise, deleted file space will be kept and reused as new
+      (key, value) pairs are added.
+   gdbm.sync()
+      When the database has been opened in fast mode, this method

@@ -1,0 +1,4 @@
+a way similar to what the compiler or runtime loader does (on
+platforms with several versions of a shared library the most recent
+should be loaded), while the ctypes library loaders act like when a
+program is run, and call the runtime loader directly.

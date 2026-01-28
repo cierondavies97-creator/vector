@@ -1,0 +1,5 @@
+for all code pages.
+Python Specific Encodings
+=========================
+A number of predefined codecs are specific to Python, so their codec
+names have no meaning outside Python. These are listed in the tables

@@ -1,0 +1,5 @@
+iter(proxy)
+      Return an iterator over the keys of the underlying mapping.
+      This is a shortcut for "iter(proxy.keys())".
+   len(proxy)
+      Return the number of items in the underlying mapping.

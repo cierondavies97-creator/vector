@@ -1,0 +1,4 @@
+This module defines utility functions to assist in dynamic creation of
+new types.
+It also defines names for some object types that are used by the
+standard Python interpreter, but not exposed as builtins like "int" or

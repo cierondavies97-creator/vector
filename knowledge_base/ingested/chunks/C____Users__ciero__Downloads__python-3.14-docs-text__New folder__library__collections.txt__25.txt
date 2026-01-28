@@ -1,0 +1,5 @@
+Example of simulating Python's internal lookup chain:
+   import builtins
+   pylookup = ChainMap(locals(), globals(), vars(builtins))
+Example of letting user specified command-line arguments take
+precedence over environment variables which in turn take precedence

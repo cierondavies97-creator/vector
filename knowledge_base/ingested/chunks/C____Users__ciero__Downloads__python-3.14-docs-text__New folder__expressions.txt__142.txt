@@ -1,0 +1,5 @@
+starred. See **PEP 646**.
+For built-in objects, there are two types of objects that support
+subscription via "__getitem__()":
+1. Mappings. If the primary is a *mapping*, the expression list must
+   evaluate to an object whose value is one of the keys of the

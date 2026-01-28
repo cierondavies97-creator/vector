@@ -1,0 +1,7 @@
+tkinter.messagebox.RETRY = 'retry'
+tkinter.messagebox.IGNORE = 'ignore'
+tkinter.messagebox.OK = 'ok'
+tkinter.messagebox.CANCEL = 'cancel'
+tkinter.messagebox.YES = 'yes'
+tkinter.messagebox.NO = 'no'
+Predefined sets of buttons:

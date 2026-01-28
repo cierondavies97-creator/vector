@@ -1,0 +1,5 @@
+way that it could possibly be a desired state for one of the waiters.
+For example, the following code is a generic producer-consumer
+situation with unlimited buffer capacity:
+   # Consume one item
+   with cv:

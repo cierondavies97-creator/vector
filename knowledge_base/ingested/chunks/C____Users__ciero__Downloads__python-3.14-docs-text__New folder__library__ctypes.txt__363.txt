@@ -1,0 +1,6 @@
+contents is kept valid.  This object is only exposed for
+      debugging; never modify the contents of this dictionary.
+Fundamental data types
+----------------------
+class ctypes._SimpleCData
+   This non-public class is the base class of all fundamental ctypes

@@ -1,0 +1,5 @@
+and return the decoded "bytes".
+   Optional *casefold* is a flag specifying whether a lowercase
+   alphabet is acceptable as input.  For security purposes, the
+   default is "False".
+   **RFC 4648** allows for optional mapping of the digit 0 (zero) to

@@ -1,0 +1,4 @@
+Decimal('0.03')
+Q: There are many ways to express the same value.  The numbers "200",
+"200.000", "2E2", and ".02E+4" all have the same value at various
+precisions. Is there a way to transform them to a single recognizable

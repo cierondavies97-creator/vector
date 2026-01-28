@@ -1,0 +1,5 @@
+"dbm.sqlite3" --- SQLite backend for dbm
+========================================
+Added in version 3.13.
+**Source code:** Lib/dbm/sqlite3.py
+======================================================================

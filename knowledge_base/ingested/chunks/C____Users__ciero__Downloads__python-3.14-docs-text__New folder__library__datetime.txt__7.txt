@@ -1,0 +1,4 @@
+local time, or time in some other time zone is purely up to the
+program, just like it is up to the program whether a particular number
+represents metres, miles, or mass. Naive objects are easy to
+understand and to work with, at the cost of ignoring some aspects of

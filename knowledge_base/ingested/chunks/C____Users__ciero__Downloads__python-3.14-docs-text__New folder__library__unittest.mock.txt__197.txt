@@ -1,0 +1,4 @@
+object, that will be called to create the *new* object. By default
+   "AsyncMock" is used for async functions and "MagicMock" for the
+   rest.
+   A more powerful form of *spec* is *autospec*. If you set

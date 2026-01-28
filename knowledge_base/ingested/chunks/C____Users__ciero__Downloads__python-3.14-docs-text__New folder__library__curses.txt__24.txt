@@ -1,0 +1,4 @@
+The virtual screen may be updated by a "noutrefresh()" call after
+   write operations such as "addstr()" have been performed on a
+   window.  The normal "refresh()" call is simply "noutrefresh()"
+   followed by "doupdate()"; if you have to update multiple windows,

@@ -1,0 +1,4 @@
+overrides "TestSuite._removeTestAtIndex()" to preserve test
+      references.
+      Changed in version 3.2: In earlier versions the "TestSuite"
+      accessed tests directly rather than through iteration, so

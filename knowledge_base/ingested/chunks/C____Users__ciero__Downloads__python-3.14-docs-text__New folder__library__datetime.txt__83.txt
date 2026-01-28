@@ -1,0 +1,5 @@
+time tuple.  See also strftime() and strptime() Behavior and
+   "date.fromisoformat()".
+   Note:
+     If *format* specifies a day of month without a year a
+     "DeprecationWarning" is emitted.  This is to avoid a quadrennial

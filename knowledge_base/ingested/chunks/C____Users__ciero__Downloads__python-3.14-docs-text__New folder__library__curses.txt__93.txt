@@ -1,0 +1,4 @@
+curses.typeahead(fd)
+   Specify that the file descriptor *fd* be used for typeahead
+   checking.  If *fd* is "-1", then no typeahead checking is done.
+   The curses library does "line-breakout optimization" by looking for

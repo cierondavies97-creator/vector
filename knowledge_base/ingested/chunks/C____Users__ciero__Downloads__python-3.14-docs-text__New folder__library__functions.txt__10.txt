@@ -1,0 +1,5 @@
+Note: Unlike "iter()", "aiter()" has no 2-argument variant.
+   Added in version 3.10.
+all(iterable, /)
+   Return "True" if all elements of the *iterable* are true (or if the
+   iterable is empty).  Equivalent to:

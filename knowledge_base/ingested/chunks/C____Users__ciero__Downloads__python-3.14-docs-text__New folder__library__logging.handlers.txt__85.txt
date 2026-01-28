@@ -1,0 +1,4 @@
+handled by the same instance, it will not try connecting until
+      some time has passed.  The default parameters are such that the
+      initial delay is one second, and if after that delay the
+      connection still can't be made, the handler will double the

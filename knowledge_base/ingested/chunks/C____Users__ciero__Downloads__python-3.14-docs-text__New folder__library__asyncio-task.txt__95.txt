@@ -1,0 +1,4 @@
+references to tasks. A task that isn't referenced elsewhere may
+     get garbage collected at any time, even before it's done.
+   Changed in version 3.10: Removed the *loop* parameter.
+   Deprecated since version 3.10: Deprecation warning is emitted if

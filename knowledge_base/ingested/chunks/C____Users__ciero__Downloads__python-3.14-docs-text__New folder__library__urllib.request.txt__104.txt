@@ -1,0 +1,3 @@
+HTTP errors are a special case).  Note that, in the following,
+   *protocol* should be replaced with the actual protocol to handle,
+   for example "http_response()" would be the HTTP protocol response

@@ -1,0 +1,4 @@
+there are no failures.  By default, output is generated only in
+   case of an example failure.
+   Optional argument *compileflags* gives the set of flags that should
+   be used by the Python compiler when running the examples.  By

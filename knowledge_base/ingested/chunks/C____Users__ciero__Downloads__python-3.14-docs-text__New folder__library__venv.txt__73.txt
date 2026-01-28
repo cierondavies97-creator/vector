@@ -1,0 +1,5 @@
+upgrade_dependencies(context)
+      Upgrades the core venv dependency packages (currently pip) in
+      the environment. This is done by shelling out to the "pip"
+      executable in the environment.
+      Added in version 3.9.

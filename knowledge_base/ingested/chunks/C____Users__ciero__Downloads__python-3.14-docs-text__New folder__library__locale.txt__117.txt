@@ -1,0 +1,5 @@
+allowed for BCP 47 tags.
+Windows also supports locale names in the format:
+     language ["_" territory] ["." charset]
+where *language* and *territory* are full names, such as "English" and
+"United States", and *charset* is either a code page number (for

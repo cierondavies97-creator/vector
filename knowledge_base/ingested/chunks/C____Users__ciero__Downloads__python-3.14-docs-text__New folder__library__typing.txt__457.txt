@@ -1,0 +1,3 @@
+Changed in version 3.11: The decorator will now attempt to set a
+   "__final__" attribute to "True" on the decorated object. Thus, a
+   check like "if getattr(obj, "__final__", False)" can be used at

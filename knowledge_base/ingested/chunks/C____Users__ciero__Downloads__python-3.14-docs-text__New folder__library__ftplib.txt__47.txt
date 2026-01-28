@@ -1,0 +1,3 @@
+the initial bytes.  Note however that the "transfercmd()" method
+      converts *rest* to a string with the *encoding* parameter
+      specified at initialization, but no check is performed on the

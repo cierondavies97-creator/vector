@@ -1,0 +1,4 @@
+object.__buffer__(self, flags)
+   Called when a buffer is requested from *self* (for example, by the
+   "memoryview" constructor). The *flags* argument is an integer
+   representing the kind of buffer requested, affecting for example

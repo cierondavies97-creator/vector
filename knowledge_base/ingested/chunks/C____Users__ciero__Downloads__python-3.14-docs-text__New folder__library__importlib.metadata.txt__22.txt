@@ -1,0 +1,6 @@
+>>> scripts = entry_points(group='console_scripts')
+Pick out a specific script named "wheel" (found in the wheel project):
+   >>> 'wheel' in scripts.names
+   True
+   >>> wheel = scripts['wheel']
+Equivalently, query for that entry point during selection:

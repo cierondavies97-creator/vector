@@ -1,0 +1,7 @@
+Added in version 3.3.
+class ssl.Options
+   "enum.IntFlag" collection of OP_* constants.
+ssl.OP_NO_TICKET
+   Prevent client side from requesting a session ticket.
+   Added in version 3.6.
+ssl.OP_IGNORE_UNEXPECTED_EOF

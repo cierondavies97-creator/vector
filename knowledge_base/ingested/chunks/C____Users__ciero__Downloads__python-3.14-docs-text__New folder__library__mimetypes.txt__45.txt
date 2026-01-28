@@ -1,0 +1,4 @@
+one. When the type is already known the extension will be added
+      to the list of known extensions.
+      When *strict* is "True" (the default), the mapping will be added
+      to the official MIME types, otherwise to the non-standard ones.

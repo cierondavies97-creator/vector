@@ -1,0 +1,4 @@
+"write" method that accepts string data.
+   If optional *mangle_from_* is "True", put a ">" character in front
+   of any line in the body that starts with the exact string ""From
+   "", that is "From" followed by a space at the beginning of a line.

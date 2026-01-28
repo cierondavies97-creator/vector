@@ -1,0 +1,4 @@
+**Any**]**, **...**]*) -- Specifies a static list of supported
+        classes or functions that describe fields, similar to
+        "dataclasses.field()". Defaults to "()".
+      * ****kwargs** (*Any*) -- Arbitrary other keyword arguments are

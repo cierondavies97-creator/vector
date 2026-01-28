@@ -1,0 +1,3 @@
+means it doesn't do any cleanup like flushing file buffers.) If the
+   function is called twice, the new call replaces previous parameters
+   and resets the timeout. The timer has a sub-second resolution.

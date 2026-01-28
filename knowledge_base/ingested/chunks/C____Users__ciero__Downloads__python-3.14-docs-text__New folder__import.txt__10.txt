@@ -1,0 +1,6 @@
+recommended, simpler API than built-in "__import__()" for invoking the
+import machinery.  Refer to the "importlib" library documentation for
+additional detail.
+5.2. Packages
+=============
+Python has only one type of module object, and all modules are of this

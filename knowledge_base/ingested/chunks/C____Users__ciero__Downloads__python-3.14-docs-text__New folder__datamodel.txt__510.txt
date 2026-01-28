@@ -1,0 +1,4 @@
+outside of the standard library may not be understood by third-party
+type-checkers such as mypy. Using "__class_getitem__()" on any class
+for purposes other than type hinting is discouraged.
+3.3.5.2. *__class_getitem__* versus *__getitem__*

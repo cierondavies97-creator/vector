@@ -1,0 +1,4 @@
+assumed to be positioned at the start of the archive.
+   The *target* argument determines where the resulting archive will
+   be written:
+   * If it is the name of a file, or a *path-like object*, the archive

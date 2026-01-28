@@ -1,0 +1,6 @@
+# barrier with 3 parties
+         b = asyncio.Barrier(3)
+         # create 2 new waiting tasks
+         asyncio.create_task(b.wait())
+         asyncio.create_task(b.wait())
+         await asyncio.sleep(0)

@@ -1,0 +1,4 @@
+left operand's method has priority.  Virtual subclassing is not
+   considered.
+   When no appropriate method returns any value other than
+   "NotImplemented", the "==" and "!=" operators will fall back to

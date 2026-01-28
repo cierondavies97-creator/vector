@@ -1,0 +1,5 @@
+it has been requested multiple times.
+           To avoid flushing the LRU cache with one-time requests,
+           we don't cache until a request has been made more than once.
+       """
+       def __init__(self, func, maxsize=128, maxrequests=4096, cache_after=1):

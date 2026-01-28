@@ -1,0 +1,3 @@
+Items views also have set-like operations since the (key, value) pairs
+are unique and the keys are hashable. If all values in an items view
+are hashable as well, then the items view can interoperate with other

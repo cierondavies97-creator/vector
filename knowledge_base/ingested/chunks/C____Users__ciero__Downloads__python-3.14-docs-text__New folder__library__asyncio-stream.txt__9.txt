@@ -1,0 +1,4 @@
+Start a socket server.
+   The *client_connected_cb* callback is called whenever a new client
+   connection is established.  It receives a "(reader, writer)" pair
+   as two arguments, instances of the "StreamReader" and

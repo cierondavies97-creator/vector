@@ -1,0 +1,4 @@
+must be possible to call the constructor without any parameters).
+   Instances of the following classes will be in front of the
+   *handler*s, unless the *handler*s contain them, instances of them
+   or subclasses of them: "ProxyHandler" (if proxy settings are

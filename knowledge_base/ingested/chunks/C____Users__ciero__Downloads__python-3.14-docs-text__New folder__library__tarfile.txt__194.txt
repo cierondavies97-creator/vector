@@ -1,0 +1,4 @@
+with tarfile.open("sample.tar.gz", "w|gz", fileobj=sys.stdout.buffer) as tar:
+       for name in ["foo", "bar", "quux"]:
+           tar.add(name)
+How to create an archive and reset the user information using the

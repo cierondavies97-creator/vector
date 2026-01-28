@@ -1,0 +1,4 @@
+string did not end with one).
+      * For "bytes" objects, *cte* is taken to be base64 if not set,
+        and the aforementioned newline translation is not performed.
+      * For "EmailMessage", per **RFC 2046**, raise an error if a

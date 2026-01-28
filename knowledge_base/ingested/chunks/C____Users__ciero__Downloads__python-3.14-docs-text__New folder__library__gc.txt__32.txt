@@ -1,0 +1,8 @@
+True
+   Added in version 3.1.
+gc.is_finalized(obj)
+   Returns "True" if the given object has been finalized by the
+   garbage collector, "False" otherwise.
+      >>> x = None
+      >>> class Lazarus:
+      ...     def __del__(self):

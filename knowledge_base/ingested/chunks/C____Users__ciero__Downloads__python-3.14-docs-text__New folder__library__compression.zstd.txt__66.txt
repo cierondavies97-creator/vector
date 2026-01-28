@@ -1,0 +1,4 @@
+compression ratios and speed significantly.
+   The *samples* argument (an iterable of "bytes" objects), is the
+   population of samples used to train the Zstandard dictionary.
+   The *dict_size* argument, an integer, is the maximum size (in

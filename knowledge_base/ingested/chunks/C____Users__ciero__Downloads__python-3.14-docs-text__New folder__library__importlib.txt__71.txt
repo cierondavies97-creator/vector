@@ -1,0 +1,4 @@
+be an abstract concept (e.g. location in a zip file).
+      With the subsequent code object one can execute it in a module
+      by running "exec(code, module.__dict__)".
+      Added in version 3.4.

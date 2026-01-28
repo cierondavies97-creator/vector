@@ -1,0 +1,4 @@
+thread awakens it by calling "notify()" or "notify_all()".  Once
+awakened, "wait()" re-acquires the lock and returns.  It is also
+possible to specify a timeout.
+The "notify()" method wakes up one of the threads waiting for the

@@ -1,0 +1,6 @@
+'c:\\windows'
+      >>> p.as_posix()
+      'c:/windows'
+PurePath.is_absolute()
+   Return whether the path is absolute or not.  A path is considered
+   absolute if it has both a root and (if the flavour allows) a drive:

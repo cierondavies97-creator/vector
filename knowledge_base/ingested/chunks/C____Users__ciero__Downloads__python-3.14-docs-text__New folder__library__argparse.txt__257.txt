@@ -1,0 +1,3 @@
+Many programs split up their functionality into a number of
+   subcommands, for example, the "svn" program can invoke subcommands
+   like "svn checkout", "svn update", and "svn commit".  Splitting up

@@ -1,0 +1,5 @@
+made strict by writing:
+      somepolicy + policy.strict
+With all of these "EmailPolicies", the effective API of the email
+package is changed from the Python 3.2 API in the following ways:
+* Setting a header on a "Message" results in that header being parsed

@@ -1,0 +1,6 @@
+The preferred way to use a Semaphore is an "async with" statement:
+      sem = asyncio.Semaphore(10)
+      # ... later
+      async with sem:
+          # work with shared resource
+   which is equivalent to:

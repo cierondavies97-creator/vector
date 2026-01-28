@@ -1,0 +1,4 @@
+assert dom3.documentElement.tagName == "myxml"
+When you are finished with a DOM tree, you may optionally call the
+"unlink()" method to encourage early cleanup of the now-unneeded
+objects.  "unlink()" is an "xml.dom.minidom"-specific extension to the

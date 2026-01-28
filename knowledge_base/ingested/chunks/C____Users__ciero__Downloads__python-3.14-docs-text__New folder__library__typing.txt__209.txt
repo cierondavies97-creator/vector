@@ -1,0 +1,4 @@
+function as a type predicate.  Such a function should use
+   "TypeIs[...]" or "TypeGuard" as its return type to alert static
+   type checkers to this intention.  "TypeIs" usually has more
+   intuitive behavior than "TypeGuard", but it cannot be used when the

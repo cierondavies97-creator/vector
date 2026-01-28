@@ -1,0 +1,7 @@
+break
+         except ssl.SSLWantReadError:
+             select.select([sock], [], [])
+         except ssl.SSLWantWriteError:
+             select.select([], [sock], [])
+See also:
+  The "asyncio" module supports non-blocking SSL sockets and provides

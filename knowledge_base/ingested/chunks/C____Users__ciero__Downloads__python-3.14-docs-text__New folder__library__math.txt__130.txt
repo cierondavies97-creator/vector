@@ -1,0 +1,7 @@
+zeros.
+math.log10(x)
+   Return the base-10 logarithm of *x*.  This is usually more accurate
+   than "log(x, 10)".
+math.pow(x, y)
+   Return *x* raised to the power *y*.  Exceptional cases follow the
+   IEEE 754 standard as far as possible.  In particular, "pow(1.0, x)"

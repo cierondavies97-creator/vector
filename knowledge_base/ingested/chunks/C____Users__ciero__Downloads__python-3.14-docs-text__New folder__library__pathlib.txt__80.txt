@@ -1,0 +1,5 @@
+present in the path; call "resolve()" first if necessary to
+     resolve symlinks.
+   Changed in version 3.12: The *walk_up* parameter was added (old
+   behavior is the same as "walk_up=False").
+   Deprecated since version 3.12, removed in version 3.14: Passing

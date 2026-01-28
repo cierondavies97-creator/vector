@@ -1,0 +1,3 @@
+|           | formats the result in either fixed-point format or in      |
+   |           | scientific notation, depending on its magnitude. A         |
+   |           | precision of "0" is treated as equivalent to a precision   |

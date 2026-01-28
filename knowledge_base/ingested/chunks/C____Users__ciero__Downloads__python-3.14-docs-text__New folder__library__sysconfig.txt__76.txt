@@ -1,0 +1,6 @@
+If *scheme* is not an existing scheme, "get_paths()" will raise a
+   "KeyError".
+Other functions
+===============
+sysconfig.get_python_version()
+   Return the "MAJOR.MINOR" Python version number as a string.

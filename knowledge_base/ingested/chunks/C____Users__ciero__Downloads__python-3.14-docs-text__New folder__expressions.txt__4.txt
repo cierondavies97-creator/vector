@@ -1,0 +1,6 @@
+Some additional rules apply for certain operators (e.g., a string as a
+left argument to the '%' operator).  Extensions must define their own
+conversion behavior.
+6.2. Atoms
+==========
+Atoms are the most basic elements of expressions.  The simplest atoms

@@ -1,0 +1,5 @@
+no hint.
+      Note that it's already possible to iterate on file objects using
+      "for line in file: ..." without calling "file.readlines()".
+   seek(offset, whence=os.SEEK_SET, /)
+      Change the stream position to the given byte *offset*,

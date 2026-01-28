@@ -1,0 +1,4 @@
+content type of *text/plain*, except for messages that are
+      subparts of *multipart/digest* containers.  Such subparts have a
+      default content type of *message/rfc822*.
+   set_default_type(ctype)

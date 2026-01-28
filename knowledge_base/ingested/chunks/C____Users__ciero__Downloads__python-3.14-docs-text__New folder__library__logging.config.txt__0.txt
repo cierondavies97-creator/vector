@@ -1,0 +1,6 @@
+"logging.config" --- Logging configuration
+******************************************
+**Source code:** Lib/logging/config.py
+Important
+^^^^^^^^^
+This page contains only reference information. For tutorials, please

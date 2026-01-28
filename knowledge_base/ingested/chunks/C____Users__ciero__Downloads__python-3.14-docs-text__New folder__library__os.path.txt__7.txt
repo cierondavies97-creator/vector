@@ -1,0 +1,5 @@
+raising an exception for paths that contain characters or bytes
+unrepresentable at the OS level.
+os.path.abspath(path)
+   Return a normalized absolutized version of the pathname *path*. On
+   most platforms, this is equivalent to calling

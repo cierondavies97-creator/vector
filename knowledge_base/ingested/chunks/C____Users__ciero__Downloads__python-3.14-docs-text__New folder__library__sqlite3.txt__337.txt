@@ -1,0 +1,4 @@
+you can use the following technique, borrowed from the Unicode HOWTO:
+   con.text_factory = lambda data: str(data, errors="surrogateescape")
+Note:
+  The "sqlite3" module API does not support strings containing

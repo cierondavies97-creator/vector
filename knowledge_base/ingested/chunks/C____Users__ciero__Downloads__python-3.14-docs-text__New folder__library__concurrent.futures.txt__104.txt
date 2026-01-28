@@ -1,0 +1,4 @@
+wait completed.  The second set, named "not_done", contains the
+   futures that did not complete (pending or running futures).
+   *timeout* can be used to control the maximum number of seconds to
+   wait before returning.  *timeout* can be an int or float.  If

@@ -1,0 +1,5 @@
+worker's interpreter.  The executor serializes the *initializer*
+   and *initargs* using "pickle" when sending them to the worker's
+   interpreter.
+   Note:
+     The executor may replace uncaught exceptions from *initializer*

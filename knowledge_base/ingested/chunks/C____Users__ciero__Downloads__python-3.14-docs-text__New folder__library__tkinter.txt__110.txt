@@ -1,0 +1,4 @@
+is dynamically adjusted to accommodate incremental changes to the
+configuration, once it is packed.
+Note that widgets do not appear until they have had their geometry
+specified with a geometry manager.  It's a common early mistake to

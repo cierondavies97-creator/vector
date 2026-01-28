@@ -1,0 +1,5 @@
+print(pool.apply(f, (5,)))
+           except ZeroDivisionError:
+               print('\tGot ZeroDivisionError as expected from pool.apply()')
+           else:
+               raise AssertionError('expected ZeroDivisionError')

@@ -1,0 +1,3 @@
+binary mode, it returns an "io.BufferedReader"; in write binary and
+   append binary modes, it returns an "io.BufferedWriter", and in
+   read/write mode, it returns an "io.BufferedRandom".  When buffering

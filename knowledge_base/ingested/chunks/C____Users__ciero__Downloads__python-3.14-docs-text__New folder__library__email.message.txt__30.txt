@@ -1,0 +1,4 @@
+The following methods implement the mapping-like interface for
+   accessing the message's headers.  Note that there are some semantic
+   differences between these methods and a normal mapping (i.e.
+   dictionary) interface.  For example, in a dictionary there are no

@@ -1,0 +1,7 @@
+The number 1023 ("0x3ff" in hexadecimal) has the following byte
+  representations:
+  * "03 ff" in big-endian (">")
+  * "ff 03" in little-endian ("<")
+  Python example:
+  >>> import struct
+  >>> struct.pack('>h', 1023)

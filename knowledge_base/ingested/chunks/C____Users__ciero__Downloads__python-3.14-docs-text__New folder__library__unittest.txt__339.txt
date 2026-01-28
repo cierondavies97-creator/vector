@@ -1,0 +1,7 @@
+Called once before any tests are executed.
+      Added in version 3.1.
+   stopTestRun()
+      Called once after all tests are executed.
+      Added in version 3.1.
+   addError(test, err)
+      Called when the test case *test* raises an unexpected exception.

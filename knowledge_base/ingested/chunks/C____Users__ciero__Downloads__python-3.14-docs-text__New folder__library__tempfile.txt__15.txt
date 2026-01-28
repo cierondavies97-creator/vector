@@ -1,0 +1,4 @@
+that determine whether and how the named file should be
+     automatically deleted.
+   The returned object is always a *file-like object* whose "file"
+   attribute is the underlying true file object. This file-like object

@@ -1,0 +1,6 @@
+that point.
+      Added in version 3.11.
+   emit(record)
+      The record is formatted, and then sent to the syslog server. If
+      exception information is present, it is *not* sent to the
+      server.

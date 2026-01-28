@@ -1,0 +1,3 @@
+*size* is a requested size for the test (in arbitrary, test-
+   interpreted units.)  *memuse* is the number of bytes per unit for
+   the test, or a good estimate of it.  For example, a test that needs

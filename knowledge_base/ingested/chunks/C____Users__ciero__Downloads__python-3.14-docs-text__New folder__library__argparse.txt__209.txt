@@ -1,0 +1,4 @@
+"deprecated" keyword argument of "add_argument()", which defaults to
+"False", specifies if the argument is deprecated and will be removed
+in the future. For arguments, if "deprecated" is "True", then a
+warning will be printed to "sys.stderr" when the argument is used:

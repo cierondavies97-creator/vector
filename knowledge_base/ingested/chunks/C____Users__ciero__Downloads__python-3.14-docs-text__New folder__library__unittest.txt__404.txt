@@ -1,0 +1,4 @@
+with code or tests that install their own "signal.SIGINT" handler. If
+the "unittest" handler is called but *isn't* the installed
+"signal.SIGINT" handler, i.e. it has been replaced by the system under
+test and delegated to, then it calls the default handler. This will

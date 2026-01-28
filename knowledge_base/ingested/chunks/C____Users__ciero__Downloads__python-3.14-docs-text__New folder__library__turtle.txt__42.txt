@@ -1,0 +1,12 @@
+"get_shapepoly()"
+Using events
+      "onclick()"
+      "onrelease()"
+      "ondrag()"
+Special Turtle methods
+      "poly()"
+      "begin_poly()"
+      "end_poly()"
+      "get_poly()"
+      "clone()"
+      "getturtle()" | "getpen()"

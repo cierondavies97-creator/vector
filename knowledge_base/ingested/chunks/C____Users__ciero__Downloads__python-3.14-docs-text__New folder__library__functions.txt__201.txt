@@ -1,0 +1,4 @@
+encountered.  This is consistent with other sort-stability
+   preserving tools such as "sorted(iterable, key=keyfunc)[0]" and
+   "heapq.nsmallest(1, iterable, key=keyfunc)".
+   Changed in version 3.4: Added the *default* keyword-only parameter.

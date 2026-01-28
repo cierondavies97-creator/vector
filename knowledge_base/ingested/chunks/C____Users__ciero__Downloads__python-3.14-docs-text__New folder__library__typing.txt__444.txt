@@ -1,0 +1,4 @@
+@typing.overload
+   Decorator for creating overloaded functions and methods.
+   The "@overload" decorator allows describing functions and methods
+   that support multiple different combinations of argument types. A

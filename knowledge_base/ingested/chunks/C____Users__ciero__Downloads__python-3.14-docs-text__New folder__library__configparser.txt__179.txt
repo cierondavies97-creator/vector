@@ -1,0 +1,3 @@
+*section* to a Boolean value.  Note that the accepted values for
+      the option are "'1'", "'yes'", "'true'", and "'on'", which cause
+      this method to return "True", and "'0'", "'no'", "'false'", and

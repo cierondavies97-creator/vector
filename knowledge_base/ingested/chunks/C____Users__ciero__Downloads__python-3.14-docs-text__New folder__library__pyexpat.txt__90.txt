@@ -1,0 +1,4 @@
+described below.
+   For external entities to be parsed, this handler must be
+   implemented. It is responsible for creating the sub-parser using
+   "ExternalEntityParserCreate(context)", initializing it with the

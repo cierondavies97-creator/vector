@@ -1,0 +1,5 @@
+"parent/three/__init__.py" respectively.
+5.2.2. Namespace packages
+-------------------------
+A namespace package is a composite of various *portions*, where each
+portion contributes a subpackage to the parent package.  Portions may

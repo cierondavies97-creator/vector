@@ -1,0 +1,4 @@
+pipes, etc.).  File objects are also called *file-like objects* or
+   *streams*.
+   There are actually three categories of file objects: raw *binary
+   files*, buffered *binary files* and *text files*. Their interfaces

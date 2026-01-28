@@ -1,0 +1,4 @@
+blocks can be used for resource cleanup.  After the main task is
+   cancelled, "asyncio.Runner.run()" raises "KeyboardInterrupt".
+4. A user could write a tight loop which cannot be interrupted by
+   "asyncio.Task.cancel()", in which case the second following

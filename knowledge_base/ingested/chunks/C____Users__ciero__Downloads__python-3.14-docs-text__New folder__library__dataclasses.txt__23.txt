@@ -1,0 +1,3 @@
+create a "__hash__()" method with "unsafe_hash=True". This might
+     be the case if your class is logically immutable but can still be
+     mutated. This is a specialized use case and should be considered

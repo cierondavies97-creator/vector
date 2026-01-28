@@ -1,0 +1,5 @@
+"statistics" --- Mathematical statistics functions
+**************************************************
+Added in version 3.4.
+**Source code:** Lib/statistics.py
+======================================================================

@@ -1,0 +1,6 @@
+usage: PROG [-h] [-f FOO] [--foo FOO]
+   options:
+    -h, --help  show this help message and exit
+    -f FOO      old foo help
+    --foo FOO   new foo help
+Note that "ArgumentParser" objects only remove an action if all of its

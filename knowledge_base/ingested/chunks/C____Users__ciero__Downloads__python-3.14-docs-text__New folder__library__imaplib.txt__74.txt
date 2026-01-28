@@ -1,0 +1,5 @@
+the IMAP4 QUOTA extension defined in rfc2087.
+IMAP4.shutdown()
+   Close connection established in "open".  This method is implicitly
+   called by "IMAP4.logout()".  You may override this method.
+IMAP4.socket()

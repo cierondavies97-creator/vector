@@ -1,0 +1,4 @@
+readers; *attrs* must be a dictionary-like object containing a
+   mapping from attribute names to attribute values.
+class xml.sax.xmlreader.AttributesNSImpl(attrs, qnames)
+   Namespace-aware variant of "AttributesImpl", which will be passed

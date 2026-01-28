@@ -1,0 +1,5 @@
+interpreter and return to the debugger.
+   Note:
+     As "interact" creates a new dedicated namespace for code
+     execution, assignments to variables will not affect the original
+     namespaces. However, modifications to any referenced mutable

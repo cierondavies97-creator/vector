@@ -1,0 +1,5 @@
+Namespace(infile='input.txt', outfile=None)
+     >>> parser.parse_args([])
+     Namespace(infile=None, outfile=None)
+* "'*'".  All command-line arguments present are gathered into a list.
+  Note that it generally doesn't make much sense to have more than one

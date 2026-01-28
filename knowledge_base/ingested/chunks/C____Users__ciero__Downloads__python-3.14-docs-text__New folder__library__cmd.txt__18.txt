@@ -1,0 +1,4 @@
+Cmd.onecmd(str)
+   Interpret the argument as though it had been typed in response to
+   the prompt. This may be overridden, but should not normally need to
+   be; see the "precmd()" and "postcmd()" methods for useful execution

@@ -1,0 +1,6 @@
+attached to the failure / error message.
+      Added in version 3.2.
+   failfast
+      If set to true "stop()" will be called on the first failure or
+      error, halting the test run.
+      Added in version 3.2.

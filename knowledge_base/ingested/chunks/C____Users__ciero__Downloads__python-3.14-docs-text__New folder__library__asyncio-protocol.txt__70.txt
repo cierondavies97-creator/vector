@@ -1,0 +1,4 @@
+Called when some data is received.  *data* is a non-empty bytes
+   object containing the incoming data.
+   Whether the data is buffered, chunked or reassembled depends on the
+   transport.  In general, you shouldn't rely on specific semantics

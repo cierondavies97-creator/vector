@@ -1,0 +1,4 @@
+implementation you choose will be based on which trade-offs you're
+willing to make for your application (which is why "optparse" doesn't
+support this sort of thing directly).
+Nevertheless, here's a stab at a callback for an option with variable

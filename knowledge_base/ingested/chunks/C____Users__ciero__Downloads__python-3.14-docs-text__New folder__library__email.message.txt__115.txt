@@ -1,0 +1,4 @@
+is any other type of "multipart", raise a "TypeError". If
+      *content_manager* is not specified, use the "content_manager"
+      specified by the current "policy".
+   add_attachment(*args, content_manager=None, **kw)

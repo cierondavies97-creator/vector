@@ -1,0 +1,5 @@
+and gives full owner responsibilities (the new owner must dispose of
+the reference properly, as well as the previous owner).
+1.10.2. Ownership Rules
+-----------------------
+Whenever an object reference is passed into or out of a function, it

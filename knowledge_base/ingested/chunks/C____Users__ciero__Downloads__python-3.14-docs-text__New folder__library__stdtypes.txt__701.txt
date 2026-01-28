@@ -1,0 +1,5 @@
+views, the data is converted to C first. *order=None* is the
+         same as *order='C'*.
+      hex(*, bytes_per_sep=1)
+      hex(sep, bytes_per_sep=1)
+         Return a string object containing two hexadecimal digits for

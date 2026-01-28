@@ -1,0 +1,6 @@
+Py_TYPE(op)->tp_free(op);
+   }
+3.7. More Suggestions
+=====================
+In order to learn how to implement any specific method for your new
+data type, get the *CPython* source code.  Go to the "Objects"

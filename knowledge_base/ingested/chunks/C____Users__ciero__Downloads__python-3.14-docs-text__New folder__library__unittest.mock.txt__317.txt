@@ -1,0 +1,8 @@
+with all supported versions of Python.
+[3] The function is basically hooked up to the class, but each "Mock"
+    instance is kept isolated from the others.
+Helpers
+=======
+sentinel
+--------
+unittest.mock.sentinel

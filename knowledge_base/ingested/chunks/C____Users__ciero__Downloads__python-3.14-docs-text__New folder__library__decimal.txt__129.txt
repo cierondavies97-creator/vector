@@ -1,0 +1,4 @@
+first then rounding may be necessary.  In this case, the
+      rounding mode is determined by the "rounding" argument if given,
+      else by the given "context" argument; if neither argument is
+      given the rounding mode of the current thread's context is used.

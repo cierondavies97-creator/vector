@@ -1,0 +1,7 @@
+whitespace character. This is a read-only attribute.
+ProcessingInstruction.data
+   The content of the processing instruction following the first
+   whitespace character.
+Exceptions
+----------
+The DOM Level 2 recommendation defines a single exception,

@@ -1,0 +1,7 @@
+>>> u = uuid.uuid7()
+   >>> u.time
+   1743936859822
+   >>> # get UUIDv7 creation (local) time as a datetime object
+   >>> import datetime as dt
+   >>> dt.datetime.fromtimestamp(u.time / 1000)
+   datetime.datetime(...)

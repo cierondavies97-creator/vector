@@ -1,0 +1,5 @@
+Example
+=======
+Here are four minimal example programs using the TCP/IP protocol: a
+server that echoes all data that it receives back (servicing only one
+client), and a client using it.  Note that a server must perform the

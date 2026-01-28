@@ -1,0 +1,3 @@
+shells (which would be out of scope for the standard library, given
+the multiplicity of shells out there), it does allow you to perform
+processing of command lines more easily than you could otherwise.  To

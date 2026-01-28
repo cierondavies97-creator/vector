@@ -1,0 +1,6 @@
+"variance()" function is usually a better choice.
+   Raises "StatisticsError" if *data* is empty.
+   Examples:
+      >>> data = [0.0, 0.25, 0.25, 1.25, 1.5, 1.75, 2.75, 3.25]
+      >>> pvariance(data)
+      1.25

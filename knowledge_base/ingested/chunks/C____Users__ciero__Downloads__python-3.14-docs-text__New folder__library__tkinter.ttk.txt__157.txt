@@ -1,0 +1,3 @@
++----------+-----------------------------------------------------------------+
+| open     | "True"/"False" value indicating whether the item's children     |
+|          | should be displayed or hidden.                                  |

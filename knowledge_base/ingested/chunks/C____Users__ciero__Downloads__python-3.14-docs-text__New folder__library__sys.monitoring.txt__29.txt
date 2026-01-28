@@ -1,0 +1,4 @@
+generators and coroutines, the "STOP_ITERATION" event is provided.
+"STOP_ITERATION" can be locally disabled, unlike "RAISE".
+Note that the "STOP_ITERATION" event and the "RAISE" event for a
+"StopIteration" exception are equivalent, and are treated as

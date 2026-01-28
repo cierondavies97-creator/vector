@@ -1,0 +1,4 @@
+corresponding to *key* is set to *message* as if by using
+      "__setitem__()". As with "__setitem__()", each *key* must
+      already correspond to a message in the mailbox or else a
+      "KeyError" exception will be raised, so in general it is

@@ -1,0 +1,8 @@
+Exceptions
+==========
+exception json.JSONDecodeError(msg, doc, pos)
+   Subclass of "ValueError" with the following additional attributes:
+   msg
+      The unformatted error message.
+   doc
+      The JSON document being parsed.

@@ -1,0 +1,5 @@
+controls the spacing. Positive values calculate the separator
+      position from the right, negative values from the left.
+      >>> value = b'\xf0\xf1\xf2'
+      >>> value.hex('-')
+      'f0-f1-f2'

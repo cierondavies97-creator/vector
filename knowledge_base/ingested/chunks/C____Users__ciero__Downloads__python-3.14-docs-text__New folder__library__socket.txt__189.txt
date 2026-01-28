@@ -1,0 +1,4 @@
+"inet_aton()") or "in6_addr".
+   Supported values for *address_family* are currently "AF_INET" and
+   "AF_INET6". If the IP address string *ip_string* is invalid,
+   "OSError" will be raised. Note that exactly what is valid depends

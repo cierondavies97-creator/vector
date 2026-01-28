@@ -1,0 +1,3 @@
+Such a protocol can be used with "isinstance()" and "issubclass()".
+   This allows a simple-minded structural check, very similar to "one
+   trick ponies" in "collections.abc" such as "Iterable".  For

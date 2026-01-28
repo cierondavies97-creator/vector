@@ -1,0 +1,4 @@
+"get()" methods are compatible both with the mapping protocol and
+  the classic configparser API.
+* "parser.items()" is compatible with the mapping protocol (returns a
+  list of *section_name*, *section_proxy* pairs including the

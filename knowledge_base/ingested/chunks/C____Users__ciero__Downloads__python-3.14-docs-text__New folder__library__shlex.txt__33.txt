@@ -1,0 +1,4 @@
+where the "%s" is replaced with the name of the current source file
+   and the "%d" with the current input line number (the optional
+   arguments can be used to override these).
+   This convenience is provided to encourage "shlex" users to generate

@@ -1,0 +1,3 @@
+complex applications, and even then it should only be the high level
+structure in question, and not the details of how those structures are
+represented.  Since MIME content types are used widely in modern

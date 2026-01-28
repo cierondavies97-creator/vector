@@ -1,0 +1,6 @@
+"A?".
+xml.parsers.expat.model.XML_CQUANT_PLUS
+   The model must occur one or more times (like "A+").
+xml.parsers.expat.model.XML_CQUANT_REP
+   The model must occur zero or more times, as for "A*".
+Expat error constants

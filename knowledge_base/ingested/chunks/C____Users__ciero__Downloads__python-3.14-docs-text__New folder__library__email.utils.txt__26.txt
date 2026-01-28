@@ -1,0 +1,4 @@
+accepted by "time.gmtime()" and "time.localtime()", otherwise the
+   current time is used.
+   Optional *localtime* is a flag that when "True", interprets
+   *timeval*, and returns a date relative to the local timezone

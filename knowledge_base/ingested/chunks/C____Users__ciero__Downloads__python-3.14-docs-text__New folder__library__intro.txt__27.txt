@@ -1,0 +1,3 @@
+or inter-process communication. If an iOS app attempts to create a
+    subprocess, the process creating the subprocess will either lock
+    up, or crash. An iOS app has no visibility of other applications

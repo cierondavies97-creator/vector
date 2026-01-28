@@ -1,0 +1,5 @@
+and inspecting bytecode generation.
+Added in version 3.9.
+The module defines the following class:
+class test.support.bytecode_helper.BytecodeTestCase(unittest.TestCase)
+   This class has custom assertion methods for inspecting bytecode.

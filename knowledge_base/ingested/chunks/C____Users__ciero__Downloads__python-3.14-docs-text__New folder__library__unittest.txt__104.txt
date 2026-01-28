@@ -1,0 +1,4 @@
+runner to allow it to drive the tests, and methods that the test
+   code can use to check for and report various kinds of failure.
+   Each instance of "TestCase" will run a single base method: the
+   method named *methodName*. In most uses of "TestCase", you will

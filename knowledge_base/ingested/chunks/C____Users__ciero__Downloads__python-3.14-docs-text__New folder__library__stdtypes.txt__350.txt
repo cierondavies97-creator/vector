@@ -1,0 +1,5 @@
+the property value Numeric_Type=Digit, Numeric_Type=Decimal or
+   Numeric_Type=Numeric. For example:
+      >>> '0123456789'.isnumeric()
+      True
+      >>> '٠١٢٣٤٥٦٧٨٩'.isnumeric()  # Arabic-indic digit zero to nine

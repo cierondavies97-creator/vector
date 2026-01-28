@@ -1,0 +1,5 @@
+inequality.
+The "email.charset" module also provides the following functions for
+adding new entries to the global character set, alias, and codec
+registries:
+email.charset.add_charset(charset, header_enc=None, body_enc=None, output_charset=None)

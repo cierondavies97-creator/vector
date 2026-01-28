@@ -1,0 +1,5 @@
+# implementation) passes a datetime with dt.tzinfo is self.
+               return ZERO
+           assert dt.tzinfo is self
+           start, end = us_dst_range(dt.year)
+           # Can't compare naive to aware objects, so strip the timezone from

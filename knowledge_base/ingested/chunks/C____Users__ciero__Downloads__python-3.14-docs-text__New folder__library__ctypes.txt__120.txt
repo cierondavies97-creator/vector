@@ -1,0 +1,8 @@
+0 5
+   >>> print(rc.lowerright.x, rc.lowerright.y)
+   0 0
+   >>>
+Nested structures can also be initialized in the constructor in
+several ways:
+   >>> r = RECT(POINT(1, 2), POINT(3, 4))
+   >>> r = RECT((1, 2), (3, 4))

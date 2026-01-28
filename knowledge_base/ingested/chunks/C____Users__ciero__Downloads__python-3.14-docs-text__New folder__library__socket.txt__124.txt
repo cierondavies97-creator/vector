@@ -1,0 +1,4 @@
+"getdefaulttimeout()" is used.
+   If supplied, *source_address* must be a 2-tuple "(host, port)" for
+   the socket to bind to as its source address before connecting.  If
+   host or port are '' or 0 respectively the OS default behavior will

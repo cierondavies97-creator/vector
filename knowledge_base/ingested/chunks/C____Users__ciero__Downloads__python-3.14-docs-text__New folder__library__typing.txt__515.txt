@@ -1,0 +1,5 @@
+subscripting ("[]"). See **PEP 585** and Generic Alias Type.
+typing.Tuple
+   Deprecated alias for "tuple".
+   "tuple" and "Tuple" are special-cased in the type system; see
+   Annotating tuples for more details.

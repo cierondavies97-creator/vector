@@ -1,0 +1,6 @@
+Morsel.key
+   The name of the cookie.
+Morsel.set(key, value, coded_value)
+   Set the *key*, *value* and *coded_value* attributes.
+Morsel.isReservedKey(K)
+   Whether *K* is a member of the set of keys of a "Morsel".

@@ -1,0 +1,4 @@
+immutable container object that contains a reference to a mutable
+object can change when the latter's value is changed; however the
+container is still considered immutable, because the collection of
+objects it contains cannot be changed.  So, immutability is not

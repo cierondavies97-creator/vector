@@ -1,0 +1,3 @@
+situations where how a package and its resources are stored
+         are known a priori and the non-resource names would be
+         useful. For instance, returning subdirectory names is allowed

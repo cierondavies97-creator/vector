@@ -1,0 +1,4 @@
+has occurred. Since for backwards compatibility reasons, the
+constants' value is the error *message* and not the numeric error
+*code*, you do this by comparing its "code" attribute with
+"errors.codes[errors.XML_ERROR_*CONSTANT_NAME*]".

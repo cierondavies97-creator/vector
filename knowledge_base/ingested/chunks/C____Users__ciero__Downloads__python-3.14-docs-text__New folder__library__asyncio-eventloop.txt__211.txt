@@ -1,0 +1,4 @@
+* the "subprocess.PIPE" constant (default) which will create a
+       new pipe and connect it,
+     * the value "None" which will make the subprocess inherit the
+       file descriptor from this process

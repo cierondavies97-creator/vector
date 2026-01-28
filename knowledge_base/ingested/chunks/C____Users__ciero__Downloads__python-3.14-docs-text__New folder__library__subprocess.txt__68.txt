@@ -1,0 +1,4 @@
+are single list elements.
+   On Windows, if *args* is a sequence, it will be converted to a
+   string in a manner described in Converting an argument sequence to
+   a string on Windows.  This is because the underlying

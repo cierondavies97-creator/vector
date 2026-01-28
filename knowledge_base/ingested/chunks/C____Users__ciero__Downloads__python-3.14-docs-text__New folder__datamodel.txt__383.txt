@@ -1,0 +1,4 @@
+requires that a key's hash value is immutable (if the object's hash
+   value changes, it will be in the wrong hash bucket).
+   User-defined classes have "__eq__()" and "__hash__()" methods by
+   default (inherited from the "object" class); with them, all objects

@@ -1,0 +1,7 @@
+Start tag: script
+        attr: ('type', 'text/javascript')
+   Data     : alert("<strong>hello! &#9786;</strong>");
+   End tag  : script
+Parsing comments:
+   >>> parser.feed('<!--a comment-->'
+   ...             '<!--[if IE 9]>IE-specific content<![endif]-->')

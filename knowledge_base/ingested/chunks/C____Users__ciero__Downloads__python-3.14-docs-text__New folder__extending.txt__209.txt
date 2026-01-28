@@ -1,0 +1,4 @@
+useful for other extension modules. For example, an extension module
+could implement a type "collection" which works like lists without
+order. Just like the standard Python list type has a C API which
+permits extension modules to create and manipulate lists, this new

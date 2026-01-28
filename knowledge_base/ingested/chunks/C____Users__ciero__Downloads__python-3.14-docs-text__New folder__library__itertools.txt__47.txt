@@ -1,0 +1,4 @@
+batch. The result is yielded as soon as the batch is full or when
+   the input iterable is exhausted:
+      >>> flattened_data = ['roses', 'red', 'violets', 'blue', 'sugar', 'sweet']
+      >>> unflattened = list(batched(flattened_data, 2))

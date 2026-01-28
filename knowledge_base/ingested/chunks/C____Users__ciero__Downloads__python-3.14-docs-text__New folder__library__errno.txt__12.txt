@@ -1,0 +1,11 @@
+Resource deadlock would occur
+errno.ENAMETOOLONG
+   File name too long
+errno.ENOLCK
+   No record locks available
+errno.ENOSYS
+   Function not implemented
+errno.ENOTEMPTY
+   Directory not empty
+errno.ELOOP
+   Too many symbolic links encountered

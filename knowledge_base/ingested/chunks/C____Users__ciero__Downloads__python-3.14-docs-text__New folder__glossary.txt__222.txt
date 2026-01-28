@@ -1,0 +1,4 @@
+new features, for collecting community input on an issue, and for
+   documenting the design decisions that have gone into Python. The
+   PEP author is responsible for building consensus within the
+   community and documenting dissenting opinions.

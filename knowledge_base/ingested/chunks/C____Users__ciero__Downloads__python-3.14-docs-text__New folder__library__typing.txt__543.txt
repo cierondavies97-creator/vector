@@ -1,0 +1,5 @@
+Type.
+class typing.MutableSet(AbstractSet[T])
+   Deprecated alias to "collections.abc.MutableSet".
+   Deprecated since version 3.9: "collections.abc.MutableSet" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias

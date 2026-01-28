@@ -1,0 +1,4 @@
+A number of option flags control various aspects of doctest's
+behavior. Symbolic names for the flags are supplied as module
+constants, which can be bitwise ORed together and passed to various
+functions. The names can also be used in doctest directives, and may

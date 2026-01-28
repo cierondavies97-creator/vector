@@ -1,0 +1,4 @@
+and no bytes are available, "None" is returned.
+   write(b, /)
+      Write the given *bytes-like object*, *b*, to the underlying raw
+      stream, and return the number of bytes written.  This can be

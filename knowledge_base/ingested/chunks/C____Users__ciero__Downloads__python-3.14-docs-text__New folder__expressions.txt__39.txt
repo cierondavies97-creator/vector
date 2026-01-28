@@ -1,0 +1,4 @@
+may suspend the execution of the coroutine function in which it
+appears. See also **PEP 530**.
+Added in version 3.6: Asynchronous comprehensions were introduced.
+Changed in version 3.8: "yield" and "yield from" prohibited in the

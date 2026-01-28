@@ -1,0 +1,7 @@
+group ID will otherwise be potentially omitted.
+   Availability: Unix, not WASI.
+   Added in version 3.3.
+os.getgroups()
+   Return list of supplemental group ids associated with the current
+   process.
+   Availability: Unix, not WASI.

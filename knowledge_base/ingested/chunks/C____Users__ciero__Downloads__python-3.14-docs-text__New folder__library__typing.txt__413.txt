@@ -1,0 +1,5 @@
+emits a diagnostic with the inferred type of the argument. For
+   example:
+      x: int = 1
+      reveal_type(x)  # Revealed type is "builtins.int"
+   This can be useful when you want to debug how your type checker

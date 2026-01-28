@@ -1,0 +1,5 @@
+An external tool that reads Python code and analyzes it, looking
+   for issues such as incorrect types. See also *type hints* and the
+   "typing" module.
+stdlib
+   An abbreviation of *standard library*.

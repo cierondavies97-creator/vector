@@ -1,0 +1,6 @@
+Start tag: style
+        attr: ('type', 'text/css')
+   Data     : #python { color: green }
+   End tag  : style
+   >>> parser.feed('<script type="text/javascript">'
+   ...             'alert("<strong>hello! &#9786;</strong>");</script>')

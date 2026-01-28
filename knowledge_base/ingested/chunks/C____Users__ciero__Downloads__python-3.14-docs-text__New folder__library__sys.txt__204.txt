@@ -1,0 +1,6 @@
+# use some advanced feature
+          ...
+      else:
+          # use an alternative implementation or warn the user
+          ...
+   This is called "hexversion" since it only really looks meaningful

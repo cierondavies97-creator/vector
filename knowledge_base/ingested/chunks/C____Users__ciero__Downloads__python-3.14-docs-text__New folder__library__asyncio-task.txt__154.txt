@@ -1,0 +1,4 @@
+@contextlib.contextmanager
+      def loop_in_thread() -> Generator[asyncio.AbstractEventLoop]:
+          loop_fut = concurrent.futures.Future[asyncio.AbstractEventLoop]()
+          stop_event = asyncio.Event()

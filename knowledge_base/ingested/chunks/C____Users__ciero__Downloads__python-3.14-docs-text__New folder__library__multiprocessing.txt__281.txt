@@ -1,0 +1,4 @@
+from shared memory with the normal ctypes syntax.  (In the table
+"MyStruct" is some subclass of "ctypes.Structure".)
++----------------------+----------------------------+-----------------------------+
+| ctypes               | sharedctypes using type    | sharedctypes using typecode |

@@ -1,0 +1,5 @@
+platform's default C int type, their value is masked to fit into the C
+type.
+Before we move on calling functions with other parameter types, we
+have to learn more about "ctypes" data types.
+Fundamental data types

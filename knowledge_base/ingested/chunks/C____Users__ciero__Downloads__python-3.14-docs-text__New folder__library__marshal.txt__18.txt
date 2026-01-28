@@ -1,0 +1,4 @@
+"marshal.load" event for the entire load operation.
+   Changed in version 3.13: Added the *allow_code* parameter.
+marshal.dumps(value, version=version, /, *, allow_code=True)
+   Return the bytes object that would be written to a file by

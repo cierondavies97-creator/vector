@@ -1,0 +1,4 @@
+default), this flag will be inherited from the creating process.
+   By default, no arguments are passed to *target*. The *args*
+   argument, which defaults to "()", can be used to specify a list or
+   tuple of the arguments to pass to *target*.

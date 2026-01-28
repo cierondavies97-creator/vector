@@ -1,0 +1,5 @@
+are internationalizing a single module or your entire application. The
+next two sections will discuss each case.
+Localizing your module
+----------------------
+If you are localizing your module, you must take care not to make

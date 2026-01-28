@@ -1,0 +1,3 @@
+bytes represent text, and handles encoding and decoding to and from
+strings.  "TextIOWrapper", which extends "TextIOBase", is a buffered
+text interface to a buffered raw stream ("BufferedIOBase").  Finally,

@@ -1,0 +1,7 @@
+Added in version 3.11.
+   Availability: Linux >= 3.9
+socket.SO_REUSEPORT_LB
+      Constant to enable duplicate address and port bindings with load
+      balancing.
+   Added in version 3.14.
+   Availability: FreeBSD >= 12.0

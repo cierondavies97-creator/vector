@@ -1,0 +1,5 @@
+none.
+   heading(column, option=None, **kw)
+      Query or modify the heading options for the specified *column*.
+      If *kw* is not given, returns a dict of the heading option
+      values. If *option* is specified then the value for that

@@ -1,0 +1,5 @@
+self.log('Get ' + repr(self.value))
+           return self.value
+       def log(self, message: str) -> None:
+           self.logger.info('%s: %s', self.name, message)
+This syntax indicates that the class "LoggedVar" is parameterised

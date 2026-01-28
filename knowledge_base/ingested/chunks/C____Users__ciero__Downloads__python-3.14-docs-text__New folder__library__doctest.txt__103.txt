@@ -1,0 +1,5 @@
+subclassing "OutputChecker" or "DocTestRunner" to create new
+   options that are supported by your subclasses.
+   "register_optionflag()" should always be called using the following
+   idiom:
+      MY_FLAG = register_optionflag('MY_FLAG')

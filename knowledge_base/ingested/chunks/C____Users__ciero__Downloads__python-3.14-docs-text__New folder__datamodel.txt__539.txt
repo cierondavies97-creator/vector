@@ -1,0 +1,3 @@
+types, the accepted keys should be integers. Optionally, they may
+   support "slice" objects as well.  Negative index support is also
+   optional. If *key* is of an inappropriate type, "TypeError" may be

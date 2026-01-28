@@ -1,0 +1,7 @@
+Additional default values can be provided on initialization.
+   For example:
+      [Paths]
+      home_dir: /Users
+      my_dir: %(home_dir)s/lumberjack
+      my_pictures: %(my_dir)s/Pictures
+      [Escape]

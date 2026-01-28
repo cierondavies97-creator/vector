@@ -1,0 +1,9 @@
+...     return wrapper
+      ...
+      >>> @my_decorator
+      ... def example():
+      ...     """Docstring"""
+      ...     print('Called example function')
+      ...
+      >>> example()
+      Calling decorated function

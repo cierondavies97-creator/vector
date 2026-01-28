@@ -1,0 +1,4 @@
+functions similar to the built-in "repr()"; size limits for
+   different object types are added to avoid the generation of
+   representations which are excessively long.
+   The keyword arguments of the constructor can be used as a shortcut

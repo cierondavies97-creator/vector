@@ -1,0 +1,4 @@
+("/sbin/ldconfig", "gcc", "objdump" and "ld") to find the library
+file. It returns the filename of the library file.
+Note that if the output of these programs does not correspond to the
+dynamic linker used by Python, the result of this function may be

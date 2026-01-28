@@ -1,0 +1,3 @@
+"await" expressions or other asynchronous comprehensions anywhere
+except the iterable expression in the leftmost "for" clause, it is
+called an *asynchronous comprehension*. An asynchronous comprehension

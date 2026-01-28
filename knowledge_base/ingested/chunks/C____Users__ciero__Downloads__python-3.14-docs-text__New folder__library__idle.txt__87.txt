@@ -1,0 +1,3 @@
+the cursor anywhere on the line.  If a line is extended with Backslash
+("\"), the cursor must be on the last physical line. Submit a multi-
+line compound statement by entering a blank line after the statement.

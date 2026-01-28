@@ -1,0 +1,4 @@
+Example:
+   >>> diff = ndiff('one\ntwo\nthree\n'.splitlines(keepends=True),
+   ...              'ore\ntree\nemu\n'.splitlines(keepends=True))
+   >>> diff = list(diff) # materialize the generated delta into a list

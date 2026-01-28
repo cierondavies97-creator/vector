@@ -1,0 +1,4 @@
+frameworks that provide high-performance network and web-servers,
+database connection libraries, distributed task queues, etc.
+asyncio is often a perfect fit for IO-bound and high-level
+**structured** network code.

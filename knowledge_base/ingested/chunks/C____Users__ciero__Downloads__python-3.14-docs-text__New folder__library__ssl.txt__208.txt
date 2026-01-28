@@ -1,0 +1,4 @@
+future.
+   Changed in version 3.10: The default cipher suites now include only
+   secure AES and ChaCha20 ciphers with forward secrecy and security
+   level 2. RSA and DH keys with less than 2048 bits and ECC keys with

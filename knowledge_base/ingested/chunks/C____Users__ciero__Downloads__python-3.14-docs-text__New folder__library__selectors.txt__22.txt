@@ -1,0 +1,4 @@
+timeout expires.
+      If "timeout > 0", this specifies the maximum wait time, in
+      seconds. If "timeout <= 0", the call won't block, and will
+      report the currently ready file objects. If *timeout* is "None",

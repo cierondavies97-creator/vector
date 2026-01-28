@@ -1,0 +1,3 @@
+The "test" package contains all regression tests for Python as well as
+the modules "test.support" and "test.regrtest". "test.support" is used
+to enhance your tests while "test.regrtest" drives the testing suite.

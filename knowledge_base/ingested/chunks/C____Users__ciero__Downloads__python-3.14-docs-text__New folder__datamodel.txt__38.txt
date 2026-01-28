@@ -1,0 +1,4 @@
+3.2.4.2. "numbers.Real" ("float")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+These represent machine-level double precision floating-point numbers.
+You are at the mercy of the underlying machine architecture (and C or

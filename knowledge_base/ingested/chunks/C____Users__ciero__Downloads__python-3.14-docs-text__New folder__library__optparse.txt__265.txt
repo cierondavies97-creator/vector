@@ -1,0 +1,5 @@
+be the full, canonical option string---e.g. if the user puts "--
+   foo" on the command-line as an abbreviation for "--foobar", then
+   "opt_str" will be ""--foobar"".)
+"value"
+   is the argument to this option seen on the command-line.

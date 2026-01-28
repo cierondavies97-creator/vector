@@ -1,0 +1,4 @@
+returned value is one of the following ten strings.
+      * ""-Infinity"", indicating that the operand is negative
+        infinity.
+      * ""-Normal"", indicating that the operand is a negative normal

@@ -1,0 +1,4 @@
+*safe*.
+   When a sequence of two-element tuples is used as the *query*
+   argument, the first element of each tuple is a key and the second
+   is a value. The value element in itself can be a sequence and in

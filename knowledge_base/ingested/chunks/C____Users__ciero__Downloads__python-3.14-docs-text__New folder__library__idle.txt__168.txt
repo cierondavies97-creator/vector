@@ -1,0 +1,3 @@
+file also maps IDLE menu items to the code that implements the item.
+Except for files listed under 'Startup', the idlelib code is 'private'
+in sense that feature changes can be backported (see **PEP 434**).

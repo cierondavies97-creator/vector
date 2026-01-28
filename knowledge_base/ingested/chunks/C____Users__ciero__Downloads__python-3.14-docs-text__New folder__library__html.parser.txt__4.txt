@@ -1,0 +1,4 @@
+when start tags, end tags, text, comments, and other markup
+   elements are encountered.  The user should subclass "HTMLParser"
+   and override its methods to implement the desired behavior.
+   This parser does not check that end tags match start tags or call

@@ -1,0 +1,4 @@
+calculation, and then free the block again.  Now a change in the
+requirements for the function may add a test to the calculation that
+detects an error condition and can return prematurely from the
+function.  It's easy to forget to free the allocated memory block when

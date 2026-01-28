@@ -1,0 +1,4 @@
+string. The data is in the encoding of the entity which contains
+   the text. When called while an event handler is not active, the
+   return value is "None".
+xmlparser.ExternalEntityParserCreate(context[, encoding])

@@ -1,0 +1,4 @@
+Extensions on Windows) for more information about this.
+If you can't use dynamic loading, or if you want to make your module a
+permanent part of the Python interpreter, you will have to change the
+configuration setup and rebuild the interpreter.  Luckily, this is

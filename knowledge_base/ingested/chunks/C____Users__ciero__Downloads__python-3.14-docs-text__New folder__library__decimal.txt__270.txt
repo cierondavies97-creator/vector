@@ -1,0 +1,3 @@
+there are various representations of zero with differing precisions
+yet equivalent in value.  This takes a bit of getting used to.  For an
+eye accustomed to normalized floating-point representations, it is not

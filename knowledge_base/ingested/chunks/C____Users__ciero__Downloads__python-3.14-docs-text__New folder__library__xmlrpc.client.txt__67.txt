@@ -1,0 +1,8 @@
+server named by the URI does not exist).  It has the following
+   attributes:
+   url
+      The URI or URL that triggered the error.
+   errcode
+      The error code.
+   errmsg
+      The error message or diagnostic string.

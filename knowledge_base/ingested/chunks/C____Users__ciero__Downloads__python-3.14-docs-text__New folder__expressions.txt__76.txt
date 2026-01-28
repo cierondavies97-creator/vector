@@ -1,0 +1,4 @@
+generator is not resumed before it is finalized (by reaching a zero
+reference count or by being garbage collected), the generator-
+iterator's "close()" method will be called, allowing any pending
+"finally" clauses to execute.

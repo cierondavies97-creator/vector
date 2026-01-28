@@ -1,0 +1,3 @@
+In addition to the three supplied contexts, new contexts can be
+created with the "Context" constructor.
+class decimal.Context(prec=None, rounding=None, Emin=None, Emax=None, capitals=None, clamp=None, flags=None, traps=None)

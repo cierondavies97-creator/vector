@@ -1,0 +1,3 @@
+* **progress** (*callback* | None) -- If set to a *callable*,
+           it is invoked with three integer arguments for every backup
+           iteration: the *status* of the last iteration, the

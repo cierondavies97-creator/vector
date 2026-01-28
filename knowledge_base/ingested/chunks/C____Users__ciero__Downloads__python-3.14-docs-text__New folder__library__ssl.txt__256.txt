@@ -1,0 +1,4 @@
+*server_name_callback* is similar to *sni_callback*, except that
+   when the server hostname is an IDN-encoded internationalized domain
+   name, the *server_name_callback* receives a decoded U-label
+   (""pythön.org"").

@@ -1,0 +1,5 @@
+>>> manager.mock_calls
+[call.foo.something(), call.bar.other.thing()]
+We can then assert about the calls, including the order, by comparing
+with the "mock_calls" attribute on the manager mock:
+>>> expected_calls = [call.foo.something(), call.bar.other.thing()]

@@ -1,0 +1,7 @@
+line options:
+--altinstall
+   If an alternate installation is requested, the "pipX" script will
+   *not* be installed.
+--default-pip
+   If a "default pip" installation is requested, the "pip" script will
+   be installed in addition to the two regular scripts.

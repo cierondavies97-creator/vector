@@ -1,0 +1,6 @@
+is not empty, "False" otherwise. See "bytes.title()" for more
+   details on the definition of "titlecase".
+   For example:
+      >>> b'Hello World'.istitle()
+      True
+      >>> b'Hello world'.istitle()

@@ -1,0 +1,6 @@
+* "pipes" --- Interface to shell pipelines
+* "smtpd" --- SMTP Server
+* "sndhdr" --- Determine type of sound file
+* "spwd" --- The shadow password database
+* "sunau" --- Read and write Sun AU files
+* "telnetlib" --- Telnet client

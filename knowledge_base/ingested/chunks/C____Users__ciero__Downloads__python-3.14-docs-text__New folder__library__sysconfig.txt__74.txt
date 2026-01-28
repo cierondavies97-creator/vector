@@ -1,0 +1,3 @@
+Return a dictionary containing all installation paths corresponding
+   to an installation scheme. See "get_path()" for more information.
+   If *scheme* is not provided, will use the default scheme for the

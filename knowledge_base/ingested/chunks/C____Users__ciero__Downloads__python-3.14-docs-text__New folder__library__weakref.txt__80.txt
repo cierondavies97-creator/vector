@@ -1,0 +1,4 @@
+no longer forced to "None" during *interpreter shutdown*. So this code
+should work without any issues on CPython.
+However, handling of "__del__()" methods is notoriously implementation
+specific, since it depends on internal details of the interpreter's

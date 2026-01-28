@@ -1,0 +1,6 @@
+PurePosixPath('.')
+   If a segment is an absolute path, all previous segments are ignored
+   (like "os.path.join()"):
+      >>> PurePath('/etc', '/usr', 'lib64')
+      PurePosixPath('/usr/lib64')
+      >>> PureWindowsPath('c:/Windows', 'd:bar')

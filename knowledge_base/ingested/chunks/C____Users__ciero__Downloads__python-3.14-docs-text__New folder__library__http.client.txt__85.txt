@@ -1,0 +1,5 @@
+...            "Accept": "text/plain"}
+   >>> conn = http.client.HTTPConnection("bugs.python.org")
+   >>> conn.request("POST", "", params, headers)
+   >>> response = conn.getresponse()
+   >>> print(response.status, response.reason)

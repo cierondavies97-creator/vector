@@ -1,0 +1,4 @@
+| a=star_target ',' { (asdl_expr_seq*) _PyPegen_singleton_seq(p, a) }
+   star_target[expr_ty] (memo):
+       | '*' a=(!'*' star_target) {
+           _PyAST_Starred(CHECK(expr_ty, _PyPegen_set_expr_context(p, a, Store)), Store, EXTRA) }

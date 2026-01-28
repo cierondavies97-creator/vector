@@ -1,0 +1,4 @@
+buffer provided by the protocol to avoid unnecessary data copies.
+This can result in noticeable performance improvement for protocols
+that receive big amounts of data.  Sophisticated protocol
+implementations can significantly reduce the number of buffer

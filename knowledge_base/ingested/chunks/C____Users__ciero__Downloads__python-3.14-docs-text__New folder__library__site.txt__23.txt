@@ -1,0 +1,3 @@
+is part of "sys.path" unless disabled by "-s".  If this import fails
+with an "ImportError" or its subclass exception, and the exception's
+"name" attribute equals to "'usercustomize'", it is silently ignored.

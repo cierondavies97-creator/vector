@@ -1,0 +1,3 @@
+| kz1048            | kz_1048, strk1048_2002, rk1048   | Kazakh  Added in version 3.5.    |
++-------------------+----------------------------------+----------------------------------+
+| mac_cyrillic      | maccyrillic                      | Belarusian, Bulgarian,           |

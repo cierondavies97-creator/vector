@@ -1,0 +1,7 @@
+MODULE = "module"
+      Used for the symbol table of a module.
+   FUNCTION = "function"
+      Used for the symbol table of a function.
+   CLASS = "class"
+      Used for the symbol table of a class.
+   The following members refer to different flavors of annotation

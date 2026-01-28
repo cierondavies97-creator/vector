@@ -1,0 +1,3 @@
+aware mail reader because it falls outside the standard MIME
+      armor.  However, when viewing the raw text of the message, or
+      when viewing the message in a non-MIME aware reader, this text

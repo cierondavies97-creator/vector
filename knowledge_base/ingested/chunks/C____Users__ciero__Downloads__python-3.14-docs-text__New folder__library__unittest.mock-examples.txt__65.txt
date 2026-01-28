@@ -1,0 +1,5 @@
+...
+   >>> MyTest('test_something').test_something()
+When you nest patch decorators the mocks are passed in to the
+decorated function in the same order they applied (the normal *Python*
+order that decorators are applied). This means from the bottom up, so

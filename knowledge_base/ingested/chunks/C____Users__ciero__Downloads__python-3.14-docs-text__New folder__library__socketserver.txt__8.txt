@@ -1,0 +1,3 @@
+requires a lot of computation, or because it returns a lot of data
+which the client is slow to process.  The solution is to create a
+separate process or thread to handle each request; the "ForkingMixIn"

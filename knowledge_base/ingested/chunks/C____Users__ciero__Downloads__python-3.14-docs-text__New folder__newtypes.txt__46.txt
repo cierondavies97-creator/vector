@@ -1,0 +1,6 @@
+getattrfunc  tp_getattr;        /* char * version */
+   setattrfunc  tp_setattr;
+   /* ... */
+   getattrofunc tp_getattro;       /* PyObject * version */
+   setattrofunc tp_setattro;
+If accessing attributes of an object is always a simple operation

@@ -1,0 +1,4 @@
+immediately before it on the source inclusion stack is prepended
+   (this behavior is like the way the C preprocessor handles "#include
+   "file.h"").
+   The result of the manipulations is treated as a filename, and

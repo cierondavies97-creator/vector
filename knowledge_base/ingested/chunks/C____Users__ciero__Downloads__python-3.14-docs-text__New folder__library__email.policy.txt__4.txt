@@ -1,0 +1,4 @@
+Policy objects give the email package the flexibility to handle all
+these disparate use cases.
+A "Policy" object encapsulates a set of attributes and methods that
+control the behavior of various components of the email package during

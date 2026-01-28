@@ -1,0 +1,5 @@
+likely cause is a lost connection. Closes the socket so that we
+      can retry on the next event.
+   makeSocket()
+      This is a factory method which allows subclasses to define the
+      precise type of socket they want. The default implementation

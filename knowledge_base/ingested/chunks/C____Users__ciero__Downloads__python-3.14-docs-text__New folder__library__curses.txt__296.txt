@@ -1,0 +1,3 @@
+| curses.ACS_NEQUAL        | not-equal sign                             |
++--------------------------+--------------------------------------------+
+| curses.ACS_PI            | letter pi                                  |

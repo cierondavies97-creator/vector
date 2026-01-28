@@ -1,0 +1,5 @@
+left=Name(id='x', ctx=Load()),
+                              ops=[
+                                  Gt()],
+                              comparators=[
+                                  Constant(value=0)]),

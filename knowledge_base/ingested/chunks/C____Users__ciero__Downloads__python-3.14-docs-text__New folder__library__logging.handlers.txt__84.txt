@@ -1,0 +1,5 @@
+the network is busy.
+   createSocket()
+      Tries to create a socket; on failure, uses an exponential back-
+      off algorithm.  On initial failure, the handler will drop the
+      message it was trying to send.  When subsequent messages are

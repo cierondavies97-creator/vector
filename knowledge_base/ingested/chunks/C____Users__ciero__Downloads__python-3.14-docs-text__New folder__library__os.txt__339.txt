@@ -1,0 +1,4 @@
+os.pathconf_names
+   Dictionary mapping names accepted by "pathconf()" and "fpathconf()"
+   to the integer values defined for those names by the host operating
+   system.  This can be used to determine the set of names known to

@@ -1,0 +1,4 @@
+will appear at the top of the generated documentation inside a "h1"
+   element.
+DocCGIXMLRPCRequestHandler.set_server_documentation(server_documentation)
+   Set the description used in the generated HTML documentation. This

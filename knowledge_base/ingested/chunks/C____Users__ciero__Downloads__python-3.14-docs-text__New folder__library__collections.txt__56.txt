@@ -1,0 +1,4 @@
+tests treat missing elements as having zero counts so that
+"Counter(a=1) == Counter(a=1, b=0)" returns true.
+Changed in version 3.10: Rich comparison operations were added.
+Changed in version 3.10: In equality tests, missing elements are

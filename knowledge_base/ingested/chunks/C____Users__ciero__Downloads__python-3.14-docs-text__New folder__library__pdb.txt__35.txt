@@ -1,0 +1,4 @@
+"continue" command. This allows you to break into the debugger
+   again by pressing "Ctrl"-"C".  If you want Pdb not to touch the
+   SIGINT handler, set *nosigint* to true.
+   The *readrc* argument defaults to true and controls whether Pdb

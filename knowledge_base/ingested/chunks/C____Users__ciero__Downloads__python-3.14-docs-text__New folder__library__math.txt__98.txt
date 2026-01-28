@@ -1,0 +1,4 @@
+equivalents: it takes a single argument and return a pair of
+   values, rather than returning its second return value through an
+   'output parameter' (there is no such thing in Python).
+math.remainder(x, y)

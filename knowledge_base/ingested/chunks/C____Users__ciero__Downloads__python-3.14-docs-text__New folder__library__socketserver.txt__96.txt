@@ -1,0 +1,7 @@
+To build asynchronous handlers, use the "ThreadingMixIn" and
+"ForkingMixIn" classes.
+An example for the "ThreadingMixIn" class:
+   import socket
+   import threading
+   import socketserver
+   class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):

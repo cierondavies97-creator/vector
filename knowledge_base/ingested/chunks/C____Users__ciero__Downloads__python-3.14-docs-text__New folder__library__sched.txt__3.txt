@@ -1,0 +1,4 @@
+many time units. *delayfunc* will also be called with the argument
+   "0" after each event is run to allow other threads an opportunity
+   to run in multi-threaded applications.
+   Changed in version 3.3: *timefunc* and *delayfunc* parameters are

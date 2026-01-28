@@ -1,0 +1,6 @@
+Availability: Linux >= 3.9
+  See *vsock(7)*
+  Added in version 3.7.
+* "AF_PACKET" is a low-level interface directly to network devices.
+  The addresses are represented by the tuple "(ifname, proto[,
+  pkttype[, hatype[, addr]]])" where:

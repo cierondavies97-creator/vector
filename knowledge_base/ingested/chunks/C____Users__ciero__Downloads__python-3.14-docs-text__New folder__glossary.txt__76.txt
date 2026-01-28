@@ -1,0 +1,5 @@
+there.  See the documentation for function definitions and class
+   definitions for more about decorators.
+descriptor
+   Any object which defines the methods "__get__()", "__set__()", or
+   "__delete__()". When a class attribute is a descriptor, its special

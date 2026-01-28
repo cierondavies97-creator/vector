@@ -1,0 +1,5 @@
+2,26-2,27:          NEWLINE        '\n'
+   3,0-3,1:            NL             '\n'
+   4,0-4,0:            DEDENT         ''
+   4,0-4,9:            NAME           'say_hello'
+   4,9-4,10:           LPAR           '('

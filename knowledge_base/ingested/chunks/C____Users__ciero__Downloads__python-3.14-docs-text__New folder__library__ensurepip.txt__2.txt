@@ -1,0 +1,4 @@
+independent project with its own release cycle, and the latest
+available stable version is bundled with maintenance and feature
+releases of the CPython reference interpreter.
+In most cases, end users of Python shouldn't need to invoke this

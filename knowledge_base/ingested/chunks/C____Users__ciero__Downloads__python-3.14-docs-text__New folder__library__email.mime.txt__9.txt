@@ -1,0 +1,4 @@
+class email.mime.nonmultipart.MIMENonMultipart
+   Module: "email.mime.nonmultipart"
+   A subclass of "MIMEBase", this is an intermediate base class for
+   MIME messages that are not *multipart*.  The primary purpose of

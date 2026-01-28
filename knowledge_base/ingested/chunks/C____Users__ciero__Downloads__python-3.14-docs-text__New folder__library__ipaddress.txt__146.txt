@@ -1,0 +1,4 @@
+*last* are not IP addresses or are not of the same version.  A
+   "ValueError" is raised if *last* is not greater than *first* or if
+   *first* address version is not 4 or 6.
+   >>> [ipaddr for ipaddr in ipaddress.summarize_address_range(

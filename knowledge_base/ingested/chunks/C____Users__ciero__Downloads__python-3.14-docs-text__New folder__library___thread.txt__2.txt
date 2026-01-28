@@ -1,0 +1,4 @@
+to use and higher-level threading API built on top of this module.
+Changed in version 3.7: This module used to be optional, it is now
+always available.
+This module defines the following constants and functions:

@@ -1,0 +1,3 @@
+specific "Message" subclass (e.g., if it's an "mboxMessage"
+      instance and this is an "mbox" instance), its format-specific
+      information is used. Otherwise, the format-specific information

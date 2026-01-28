@@ -1,0 +1,5 @@
+35
+      >>> round(median_grouped(data, interval=10), 1)
+      37.5
+   The caller is responsible for making sure the data points are
+   separated by exact multiples of *interval*.  This is essential for

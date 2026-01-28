@@ -1,0 +1,4 @@
+as network file systems, that return "dirent.d_type ==
+      DT_UNKNOWN". If the entry is a symlink, a system call will be
+      required to follow the symlink unless *follow_symlinks* is
+      "False".

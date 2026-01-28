@@ -1,0 +1,6 @@
+copying from a "bytes" object.
+Functions and Exceptions
+========================
+The module defines the following exception and functions:
+exception struct.error
+   Exception raised on various occasions; argument is a string

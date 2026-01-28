@@ -1,0 +1,5 @@
+>>> cheese = 'Camembert'
+      >>> list(t'Ah! We do have {cheese}.')
+      ['Ah! We do have ', Interpolation('Camembert', 'cheese', None, ''), '.']
+      Caution:
+        Empty strings are **not** included in the iteration:

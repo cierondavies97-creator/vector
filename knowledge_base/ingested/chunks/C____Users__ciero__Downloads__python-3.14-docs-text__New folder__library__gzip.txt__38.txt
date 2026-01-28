@@ -1,0 +1,7 @@
+at once in memory instead of in a streamed fashion.
+Examples of usage
+=================
+Example of how to read a compressed file:
+   import gzip
+   with gzip.open('/home/joe/file.txt.gz', 'rb') as f:
+       file_content = f.read()

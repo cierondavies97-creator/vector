@@ -1,0 +1,5 @@
+Added in version 3.9.
+PurePath.with_suffix(suffix)
+   Return a new path with the "suffix" changed.  If the original path
+   doesn't have a suffix, the new *suffix* is appended instead.  If
+   the *suffix* is an empty string, the original suffix is removed:

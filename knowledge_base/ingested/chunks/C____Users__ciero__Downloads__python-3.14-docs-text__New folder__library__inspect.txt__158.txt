@@ -1,0 +1,4 @@
+Create a mapping from positional and keyword arguments to
+      parameters. Returns "BoundArguments" if "*args" and "**kwargs"
+      match the signature, or raises a "TypeError".
+   bind_partial(*args, **kwargs)

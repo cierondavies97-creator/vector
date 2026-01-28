@@ -1,0 +1,4 @@
+specific formatting parameters are grouped together into dialects.  A
+dialect is a subclass of the "Dialect" class containing various
+attributes describing the format of the CSV file.  When creating
+"reader" or "writer" objects, the programmer can specify a string or a

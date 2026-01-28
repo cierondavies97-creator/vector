@@ -1,0 +1,5 @@
+compute the posterior as the prior times the product of likelihoods
+for the feature measurements given the gender:
+   >>> prior_male = 0.5
+   >>> prior_female = 0.5
+   >>> posterior_male = (prior_male * height_male.pdf(ht) *

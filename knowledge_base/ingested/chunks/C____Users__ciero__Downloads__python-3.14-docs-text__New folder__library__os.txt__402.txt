@@ -1,0 +1,4 @@
+stat(*, follow_symlinks=True)
+      Return a "stat_result" object for this entry. This method
+      follows symbolic links by default; to stat a symbolic link add
+      the "follow_symlinks=False" argument.

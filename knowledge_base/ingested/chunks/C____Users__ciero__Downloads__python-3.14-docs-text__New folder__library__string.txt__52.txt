@@ -1,0 +1,4 @@
+the same result as if you had called "str()" on the value. A non-empty
+format specification typically modifies the result.
+The general form of a *standard format specifier* is:
+   format_spec:             [options][width_and_precision][type]

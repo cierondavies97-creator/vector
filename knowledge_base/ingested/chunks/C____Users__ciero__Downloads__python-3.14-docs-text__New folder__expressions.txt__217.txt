@@ -1,0 +1,5 @@
+A right shift by *n* bits is defined as floor division by "pow(2,n)".
+A left shift by *n* bits is defined as multiplication with "pow(2,n)".
+6.9. Binary bitwise operations
+==============================
+Each of the three bitwise operations has a different priority level:

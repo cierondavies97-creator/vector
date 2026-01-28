@@ -1,0 +1,3 @@
+One problem with over use of mocking is that it couples your tests to
+the implementation of your mocks rather than your real code. Suppose
+you have a class that implements "some_method". In a test for another

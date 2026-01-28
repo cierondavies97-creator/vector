@@ -1,0 +1,4 @@
+These are not handled by marshal, and in fact, attempting to marshal
+  recursive objects will crash your Python interpreter.  Object
+  sharing happens when there are multiple references to the same
+  object in different places in the object hierarchy being serialized.

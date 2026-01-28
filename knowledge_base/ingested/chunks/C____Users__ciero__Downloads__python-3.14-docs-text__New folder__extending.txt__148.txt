@@ -1,0 +1,4 @@
+"free()". It is important to call "free()" at the right time.  If a
+block's address is forgotten but "free()" is not called for it, the
+memory it occupies cannot be reused until the program terminates.
+This is called a *memory leak*.  On the other hand, if a program calls

@@ -1,0 +1,4 @@
+import logging
+      def add_logging[T, **P](f: Callable[P, T]) -> Callable[P, T]:
+          '''A type-safe decorator to add logging to a function.'''
+          def inner(*args: P.args, **kwargs: P.kwargs) -> T:

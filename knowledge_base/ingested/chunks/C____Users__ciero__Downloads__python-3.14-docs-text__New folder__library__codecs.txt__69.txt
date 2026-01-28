@@ -1,0 +1,4 @@
+errors parameter.
+   For encoding, *error_handler* will be called with a
+   "UnicodeEncodeError" instance, which contains information about the
+   location of the error. The error handler must either raise this or

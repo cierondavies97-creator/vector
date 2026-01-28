@@ -1,0 +1,5 @@
+given, then "-l" option will not be taken into account. **python -m
+   compileall <directory> -r 0** is equivalent to **python -m
+   compileall <directory> -l**.
+-j N
+   Use *N* workers to compile the files within the given directory. If

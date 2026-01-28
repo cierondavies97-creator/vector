@@ -1,0 +1,5 @@
+f = io.BytesIO()
+   p = MyPickler(f)
+does the same but all instances of "MyPickler" will by default share
+the private dispatch table.  On the other hand, the code
+   copyreg.pickle(SomeClass, reduce_SomeClass)

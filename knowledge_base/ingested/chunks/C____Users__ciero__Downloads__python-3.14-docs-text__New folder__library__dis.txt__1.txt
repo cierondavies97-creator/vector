@@ -1,0 +1,4 @@
+disassembling it. The CPython bytecode which this module takes as an
+input is defined in the file "Include/opcode.h" and used by the
+compiler and the interpreter.
+**CPython implementation detail:** Bytecode is an implementation

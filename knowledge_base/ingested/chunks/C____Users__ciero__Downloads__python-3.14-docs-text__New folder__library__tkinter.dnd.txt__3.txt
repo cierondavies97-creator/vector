@@ -1,0 +1,4 @@
+'source' is the object to be dragged, and 'event' is the event that
+invoked the call (the argument to your callback function).
+Selection of a target object occurs as follows:
+1. Top-down search of area under mouse for target widget

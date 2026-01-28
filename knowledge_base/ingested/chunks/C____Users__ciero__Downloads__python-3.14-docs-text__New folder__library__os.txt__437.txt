@@ -1,0 +1,7 @@
+st_creator
+      Creator of the file.
+   st_type
+      File type.
+   On Windows systems, the following attributes are also available:
+   st_file_attributes
+      Windows file attributes: "dwFileAttributes" member of the

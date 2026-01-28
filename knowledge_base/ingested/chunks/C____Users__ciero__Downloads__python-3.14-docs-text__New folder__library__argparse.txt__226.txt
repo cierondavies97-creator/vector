@@ -1,0 +1,4 @@
+-------------------
+The "parse_args()" method supports several ways of specifying the
+value of an option (if it takes one).  In the simplest case, the
+option and its value are passed as two separate arguments:

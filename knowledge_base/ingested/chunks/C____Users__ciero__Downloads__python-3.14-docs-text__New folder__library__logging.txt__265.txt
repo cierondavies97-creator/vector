@@ -1,0 +1,3 @@
+|                | a formatter set will be assigned the default  |
+   |                | formatter created in this function. Note that |
+   |                | this argument is incompatible with *filename* |

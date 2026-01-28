@@ -1,0 +1,4 @@
+should be interpreted:
+   * If *module_relative* is "True" (the default), then *filename*
+     specifies an OS-independent module-relative path.  By default,
+     this path is relative to the calling module's directory; but if

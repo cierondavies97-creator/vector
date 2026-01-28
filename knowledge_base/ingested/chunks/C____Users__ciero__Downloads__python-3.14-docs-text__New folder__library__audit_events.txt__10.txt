@@ -1,0 +1,2 @@
+|                                | "posonlyargcount", "kwonlyargcount", "nlocals",         |                 |
+|                                | "stacksize", "flags"                                    |                 |

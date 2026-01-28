@@ -1,0 +1,3 @@
+package is frowned upon, since it often causes poorly readable code.
+However, it is okay to use it to save typing in interactive sessions.
+If the module name is followed by "as", then the name following "as"

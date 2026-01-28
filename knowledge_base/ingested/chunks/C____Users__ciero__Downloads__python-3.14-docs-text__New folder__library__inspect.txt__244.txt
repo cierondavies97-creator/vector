@@ -1,0 +1,3 @@
+delayed destruction of objects and increased memory consumption
+  which occurs.Though the cycle detector will catch these, destruction
+  of the frames (and local variables) can be made deterministic by

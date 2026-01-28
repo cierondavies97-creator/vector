@@ -1,0 +1,6 @@
+if check_resource_ok is None:
+               def check_resource_ok(resource):
+                   return True
+           self.check_resource_ok = check_resource_ok
+       @contextmanager
+       def _cleanup_on_error(self):

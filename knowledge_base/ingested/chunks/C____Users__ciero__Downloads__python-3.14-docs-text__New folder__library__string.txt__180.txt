@@ -1,0 +1,3 @@
+Split the argument into words using "str.split()", capitalize each
+   word using "str.capitalize()", and join the capitalized words using
+   "str.join()".  If the optional second argument *sep* is absent or

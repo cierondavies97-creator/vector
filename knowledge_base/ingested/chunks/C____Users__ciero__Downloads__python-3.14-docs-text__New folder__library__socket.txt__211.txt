@@ -1,0 +1,4 @@
+Unix platforms supporting "sendmsg()" and "SCM_RIGHTS" mechanism.
+   Added in version 3.9.
+socket.recv_fds(sock, bufsize, maxfds[, flags])
+   Receive up to *maxfds* file descriptors from an "AF_UNIX" socket

@@ -1,0 +1,4 @@
+As noted in the documentation of "ExitStack.push()", this method can
+be useful in cleaning up an already allocated resource if later steps
+in the "__enter__()" implementation fail.
+Here's an example of doing this for a context manager that accepts

@@ -1,0 +1,4 @@
+These uses have different requirements, and it is important to
+distinguish them. In particular, filling your docstrings with obscure
+test cases makes for bad documentation.
+When writing a docstring, choose docstring examples with care. There's

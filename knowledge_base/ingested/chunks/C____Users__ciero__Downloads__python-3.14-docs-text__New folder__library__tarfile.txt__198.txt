@@ -1,0 +1,3 @@
+linknames, files bigger than 8 GiB and sparse files. It is the de
+  facto standard on GNU/Linux systems. "tarfile" fully supports the
+  GNU tar extensions for long names, sparse file support is read-only.

@@ -1,0 +1,4 @@
+such as "OP" or "NAME" with strings that are later rejected by the
+   parser.
+The remaining tokens represent specific operators and delimiters. (The
+"tokenize" module reports these as "OP"; see "exact_type" in the

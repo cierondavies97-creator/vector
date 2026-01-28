@@ -1,0 +1,9 @@
+For example:
+      >>> b'1234'.isdigit()
+      True
+      >>> b'1.23'.isdigit()
+      False
+bytes.islower()
+bytearray.islower()
+   Return "True" if there is at least one lowercase ASCII character in
+   the sequence and no uppercase ASCII characters, "False" otherwise.

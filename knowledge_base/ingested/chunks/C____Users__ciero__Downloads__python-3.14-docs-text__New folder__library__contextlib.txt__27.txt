@@ -1,0 +1,5 @@
+occurs, "page.close()" will be called when the "with" block is
+   exited.
+   Note:
+     Most types managing resources support the *context manager*
+     protocol, which closes *thing* on leaving the "with" statement.

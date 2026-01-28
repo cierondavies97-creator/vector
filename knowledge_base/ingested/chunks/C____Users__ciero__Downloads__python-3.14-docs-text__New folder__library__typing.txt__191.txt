@@ -1,0 +1,4 @@
+assert a1 != a2  # Order matters
+   It is up to the tool consuming the annotations to decide whether
+   the client is allowed to add multiple metadata elements to one
+   annotation and how to merge those annotations.

@@ -1,0 +1,5 @@
+* a plus sign followed by a single letter, or a few letters, or a
+     word, e.g. "+f", "+rgb"
+   * a slash followed by a letter, or a few letters, or a word, e.g.
+     "/f", "/file"
+   These option syntaxes are not supported by "optparse", and they

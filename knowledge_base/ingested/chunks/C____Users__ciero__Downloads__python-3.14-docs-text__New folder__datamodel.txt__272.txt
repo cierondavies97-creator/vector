@@ -1,0 +1,4 @@
+* The first range yielded will have a "start" of 0.
+   * The "(start, end)" ranges will be non-decreasing and consecutive.
+     That is, for any pair of "tuple"s, the "start" of the second will
+     be equal to the "end" of the first.

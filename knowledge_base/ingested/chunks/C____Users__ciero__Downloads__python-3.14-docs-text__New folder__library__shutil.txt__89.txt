@@ -1,0 +1,4 @@
+of 3-tuples (*srcname*, *dstname*, *exception*).
+Platform-dependent efficient copy operations
+--------------------------------------------
+Starting from Python 3.8, all functions involving a file copy

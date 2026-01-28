@@ -1,0 +1,3 @@
+One limitation has to do with accuracy of timing information. There is
+a fundamental problem with deterministic profilers involving accuracy.
+The most obvious restriction is that the underlying "clock" is only

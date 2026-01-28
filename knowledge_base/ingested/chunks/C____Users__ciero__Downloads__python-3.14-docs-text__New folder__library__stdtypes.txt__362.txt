@@ -1,0 +1,6 @@
+>>> '-'.join('Python')
+      'P-y-t-h-o-n'
+   See also "split()".
+str.ljust(width, fillchar=' ', /)
+   Return the string left justified in a string of length *width*.
+   Padding is done using the specified *fillchar* (default is an ASCII

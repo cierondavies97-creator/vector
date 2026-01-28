@@ -1,0 +1,3 @@
+Note that while "iterparse()" builds the tree incrementally, it
+   issues blocking reads on *source* (or the file it names).  As such,
+   it's unsuitable for applications where blocking reads can't be

@@ -1,0 +1,5 @@
+If no blocks match, this returns "(alo, blo, 0)".
+      This method returns a *named tuple* "Match(a, b, size)".
+      Changed in version 3.9: Added default arguments.
+   get_matching_blocks()
+      Return list of triples describing non-overlapping matching

@@ -1,0 +1,3 @@
+"bounds()" on "compression_level" to get the values that can be
+   passed for *level*. If advanced compression options are needed, the
+   *level* argument must be omitted and in the *options* dictionary

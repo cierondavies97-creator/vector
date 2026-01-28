@@ -1,0 +1,4 @@
+InteractiveConsole.interact(banner=None, exitmsg=None)
+   Closely emulate the interactive Python console. The optional
+   *banner* argument specify the banner to print before the first
+   interaction; by default it prints a banner similar to the one

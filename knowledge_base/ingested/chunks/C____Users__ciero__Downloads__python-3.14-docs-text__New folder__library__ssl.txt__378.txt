@@ -1,0 +1,4 @@
+"SSLWantWriteError" or "SSLWantReadError".
+* Calling "select()" tells you that the OS-level socket can be read
+  from (or written to), but it does not imply that there is sufficient
+  data at the upper SSL layer.  For example, only part of an SSL frame

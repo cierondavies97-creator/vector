@@ -1,0 +1,5 @@
+unexpectedly.
+resource.setrlimit(resource, limits)
+   Sets new limits of consumption of *resource*. The *limits* argument
+   must be a tuple "(soft, hard)" of two integers describing the new
+   limits. A value of "RLIM_INFINITY" can be used to request a limit

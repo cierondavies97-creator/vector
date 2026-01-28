@@ -1,0 +1,4 @@
+determining if the file exists and is executable.
+   *path* is a ""PATH" string" specifying the directories to look in,
+   delimited by "os.pathsep". When no *path* is specified, the "PATH"
+   environment variable is read from "os.environ", falling back to

@@ -1,0 +1,3 @@
+| "'G'"        | Floating-point format. Uses uppercase exponential     | (4)     |
+|              | format if exponent is less than -4 or not less than   |         |
+|              | precision, decimal format otherwise.                  |         |

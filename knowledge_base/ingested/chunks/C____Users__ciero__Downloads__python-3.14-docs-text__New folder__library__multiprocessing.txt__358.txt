@@ -1,0 +1,8 @@
+exception.
+   __repr__()
+      Return a representation of the proxy object.
+   __str__()
+      Return the representation of the referent.
+Cleanup
+~~~~~~~
+A proxy object uses a weakref callback so that when it gets garbage

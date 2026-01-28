@@ -1,0 +1,5 @@
+give the message as a byte string.
+exception multiprocessing.AuthenticationError
+   Raised when there is an authentication error.
+exception multiprocessing.TimeoutError
+   Raised by methods with a timeout when the timeout expires.

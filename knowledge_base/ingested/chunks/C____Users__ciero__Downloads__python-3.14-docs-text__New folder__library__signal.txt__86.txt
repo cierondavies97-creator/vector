@@ -1,0 +1,4 @@
+it is interrupted by a signal that is not in *sigset*.
+   The return value is an object representing the data contained in
+   the "siginfo_t" structure, namely: "si_signo", "si_code",
+   "si_errno", "si_pid", "si_uid", "si_status", "si_band".

@@ -1,0 +1,3 @@
+Return a list containing a "ZipInfo" object for each member of the
+   archive.  The objects are in the same order as their entries in the
+   actual ZIP file on disk if an existing archive was opened.

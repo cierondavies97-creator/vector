@@ -1,0 +1,3 @@
+interval. (A repeated interval occurs when clocks are rolled back
+   at the end of daylight saving time or when the UTC offset for the
+   current zone is decreased for political reasons.) The values 0 and

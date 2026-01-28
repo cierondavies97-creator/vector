@@ -1,0 +1,6 @@
+passed to the queue listener.
+Any custom queue handler and listener classes will need to be defined
+with the same initialization signatures as "QueueHandler" and
+"QueueListener".
+Added in version 3.12.
+Configuration file format

@@ -1,0 +1,9 @@
+Added in version 3.2.
+Constants
+=========
+math.pi
+   The mathematical constant *π* = 3.141592..., to available
+   precision.
+math.e
+   The mathematical constant *e* = 2.718281..., to available
+   precision.

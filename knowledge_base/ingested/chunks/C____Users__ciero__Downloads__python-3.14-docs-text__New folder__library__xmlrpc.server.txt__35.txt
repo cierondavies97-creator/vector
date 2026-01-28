@@ -1,0 +1,6 @@
+@server.register_function
+       def mul(x, y):
+           return x * y
+       server.serve_forever()
+The following example included in the "Lib/xmlrpc/server.py" module
+shows a server allowing dotted names and registering a multicall

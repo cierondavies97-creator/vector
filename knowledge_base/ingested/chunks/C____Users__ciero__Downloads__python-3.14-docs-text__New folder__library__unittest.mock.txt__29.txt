@@ -1,0 +1,4 @@
+created and ready to use. There are also non-callable variants, useful
+when you are mocking out objects that aren't callable:
+"NonCallableMock" and "NonCallableMagicMock"
+The "patch()" decorators makes it easy to temporarily replace classes

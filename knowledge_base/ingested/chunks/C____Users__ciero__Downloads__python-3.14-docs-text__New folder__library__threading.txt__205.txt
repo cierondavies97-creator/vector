@@ -1,0 +1,4 @@
+===============================================================
+All of the objects provided by this module that have "acquire" and
+"release" methods can be used as context managers for a "with"
+statement.  The "acquire" method will be called when the block is

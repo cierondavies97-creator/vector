@@ -1,0 +1,7 @@
+>>> mock.call_args
+      call(3, 4, 5, key='fish', next='w00t!')
+      >>> mock.call_args.args
+      (3, 4, 5)
+      >>> mock.call_args.kwargs
+      {'key': 'fish', 'next': 'w00t!'}
+      "call_args", along with members of the lists "call_args_list",

@@ -1,0 +1,4 @@
+-h, --help  show this help message and exit
+    --foo FOO   foo of the myprogram program
+Changed in version 3.14: The default "prog" value now reflects how
+"__main__" was actually executed, rather than always being

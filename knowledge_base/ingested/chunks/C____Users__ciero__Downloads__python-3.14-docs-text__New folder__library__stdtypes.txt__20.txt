@@ -1,0 +1,4 @@
+is a complex number.
+Non-identical instances of a class normally compare as non-equal
+unless the class defines the "__eq__()" method.
+Instances of a class cannot be ordered with respect to other instances

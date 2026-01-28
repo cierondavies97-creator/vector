@@ -1,0 +1,5 @@
+handlers.
+If the Tcl interpreter is not running the event loop and processing
+events, any "tkinter" calls made from threads other than the one
+running the Tcl interpreter will fail.
+A number of special cases exist:

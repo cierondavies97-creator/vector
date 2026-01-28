@@ -1,0 +1,5 @@
+The list has the same order as the members in the archive.
+TarFile.getnames()
+   Return the members as a list of their names. It has the same order
+   as the list returned by "getmembers()".
+TarFile.list(verbose=True, *, members=None)

@@ -1,0 +1,4 @@
+Compare *a* and *b* (lists of bytes objects) using *dfunc*; yield a
+   sequence of delta lines (also bytes) in the format returned by
+   *dfunc*. *dfunc* must be a callable, typically either
+   "unified_diff()" or "context_diff()".

@@ -1,0 +1,7 @@
+>>> turtle.shapesize(5,2)
+      >>> turtle.tilt(45)
+      >>> turtle.tiltangle()
+      45.0
+turtle.shapetransform(t11=None, t12=None, t21=None, t22=None)
+   Parameters:
+      * **t11** -- a number (optional)

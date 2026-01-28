@@ -1,0 +1,3 @@
+that has an "append" method.  Custom object types used with the
+      email package (for example, custom "Message" objects) should
+      also provide such an attribute, otherwise defects in parsed

@@ -1,0 +1,4 @@
+match with "a{3,5}" capturing 5, then 4 "'a'"s by backtracking and
+   then the final 2 "'a'"s are matched by the final "aa" in the
+   pattern. "x{m,n}+" is equivalent to "(?>x{m,n})".
+   Added in version 3.11.

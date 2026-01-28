@@ -1,0 +1,5 @@
+implementing concrete "MetaPathFinders".
+      Added in version 3.4.
+   invalidate_caches()
+      An optional method which, when called, should invalidate any
+      internal cache used by the finder. Used by

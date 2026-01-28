@@ -1,0 +1,4 @@
+Changed in version 3.9: "re.Match" supports "[]" to indicate a
+   Unicode (str) or bytes match. See Generic Alias Type.
+Match.expand(template)
+   Return the string obtained by doing backslash substitution on the

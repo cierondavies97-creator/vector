@@ -1,0 +1,4 @@
+1970). The initial value before reading any headers is "None".
+   name
+      The path to the gzip file on disk, as a "str" or "bytes".
+      Equivalent to the output of "os.fspath()" on the original input

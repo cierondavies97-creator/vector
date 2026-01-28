@@ -1,0 +1,3 @@
+(default is ""xml""). The keyword-only *short_empty_elements*
+      parameter controls the formatting of elements that contain no
+      content.  If "True" (the default), they are emitted as a single

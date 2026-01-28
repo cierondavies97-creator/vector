@@ -1,0 +1,7 @@
+argument "follow_symlinks=False", or use "lstat()".
+      >>> p = Path('setup.py')
+      >>> p.stat().st_size
+      956
+      >>> p.stat().st_mtime
+      1327883547.852554
+   Changed in version 3.10: The *follow_symlinks* parameter was added.

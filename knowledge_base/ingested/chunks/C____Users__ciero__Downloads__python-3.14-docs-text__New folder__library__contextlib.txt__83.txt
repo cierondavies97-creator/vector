@@ -1,0 +1,4 @@
+suppress exceptions (as they are never passed the exception
+      details).
+      The passed in callback is returned from the function, allowing
+      this method to be used as a function decorator.

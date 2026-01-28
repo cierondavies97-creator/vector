@@ -1,0 +1,5 @@
+colorsys.yiq_to_rgb(y, i, q)
+   Convert the color from YIQ coordinates to RGB coordinates.
+colorsys.rgb_to_hls(r, g, b)
+   Convert the color from RGB coordinates to HLS coordinates.
+colorsys.hls_to_rgb(h, l, s)

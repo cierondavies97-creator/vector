@@ -1,0 +1,6 @@
+that expression. (To create an empty tuple, use an empty pair of
+parentheses: "()".)
+6.16. Evaluation order
+======================
+Python evaluates expressions from left to right.  Notice that while
+evaluating an assignment, the right-hand side is evaluated before the

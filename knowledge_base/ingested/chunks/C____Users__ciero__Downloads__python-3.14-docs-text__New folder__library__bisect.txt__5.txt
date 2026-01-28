@@ -1,0 +1,4 @@
+is operating on it, the result is undefined. For example, using
+  "insort_left()" on the same list from multiple threads may result in
+  the list becoming unsorted.
+The following functions are provided:

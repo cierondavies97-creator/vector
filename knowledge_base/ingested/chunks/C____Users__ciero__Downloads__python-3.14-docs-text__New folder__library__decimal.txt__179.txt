@@ -1,0 +1,5 @@
+"Decimal('6.02e+23')".
+   clamp
+      Either "0" (the default) or "1".  If set to "1", the exponent
+      "e" of a "Decimal" instance representable in this context is
+      strictly limited to the range "Emin - prec + 1 <= e <= Emax -

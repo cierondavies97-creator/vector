@@ -1,0 +1,4 @@
+In previous versions, some kinds of "OSError" exception are raised,
+and others suppressed. The new behaviour is consistent with
+"os.path.exists()", "os.path.isdir()", etc. Use "stat()" to retrieve
+the file status without suppressing exceptions.

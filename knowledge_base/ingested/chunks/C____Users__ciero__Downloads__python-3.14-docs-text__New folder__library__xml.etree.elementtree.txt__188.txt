@@ -1,0 +1,5 @@
+to a binary stream and vice versa.
+      Changed in version 3.4: Added the *short_empty_elements*
+      parameter.
+      Changed in version 3.8: The "write()" method now preserves the
+      attribute order specified by the user.

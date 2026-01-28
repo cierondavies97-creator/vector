@@ -1,0 +1,3 @@
+items long, this item is marked as "popular" and is treated as junk
+   for the purpose of sequence matching. This heuristic can be turned
+   off by setting the "autojunk" argument to "False" when creating the

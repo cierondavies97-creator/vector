@@ -1,0 +1,4 @@
+access. When the FileIO object is closed this fd will be closed
+     as well, unless *closefd* is set to "False".
+   The *mode* can be "'r'", "'w'", "'x'" or "'a'" for reading
+   (default), writing, exclusive creation or appending. The file will

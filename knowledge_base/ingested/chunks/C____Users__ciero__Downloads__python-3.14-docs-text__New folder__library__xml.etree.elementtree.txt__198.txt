@@ -1,0 +1,3 @@
+should behave like the "Comment()" and "ProcessingInstruction()"
+   functions to create comments and processing instructions.  When not
+   given, the default factories will be used.  When *insert_comments*

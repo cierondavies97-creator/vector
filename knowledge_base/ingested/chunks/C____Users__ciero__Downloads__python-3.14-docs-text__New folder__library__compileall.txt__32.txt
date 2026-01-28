@@ -1,0 +1,5 @@
+used.  If *workers* is lower than "0", a "ValueError" will be
+   raised.
+   *invalidation_mode* should be a member of the
+   "py_compile.PycInvalidationMode" enum and controls how the
+   generated pycs are invalidated at runtime.

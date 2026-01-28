@@ -1,0 +1,4 @@
+the syntax used in Java 1.5 onwards.  In particular, the output of
+"float.hex()" is usable as a hexadecimal floating-point literal in C
+or Java code, and hexadecimal strings produced by C's "%a" format
+character or Java's "Double.toHexString" are accepted by

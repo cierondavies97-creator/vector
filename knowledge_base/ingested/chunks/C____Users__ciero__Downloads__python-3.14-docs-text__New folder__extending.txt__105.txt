@@ -1,0 +1,4 @@
+brand new object, or it is an existing object whose reference count
+has been incremented.  So, unless you want to save it in a global
+variable, you should somehow "Py_DECREF()" the result, even
+(especially!) if you are not interested in its value.

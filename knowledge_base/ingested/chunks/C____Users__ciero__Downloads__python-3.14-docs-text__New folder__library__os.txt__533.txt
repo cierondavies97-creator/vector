@@ -1,0 +1,7 @@
+"eventfd()".
+   Availability: Linux >= 2.6.27
+   Added in version 3.10.
+os.EFD_CLOEXEC
+   Set close-on-exec flag for new "eventfd()" file descriptor.
+   Availability: Linux >= 2.6.27
+   Added in version 3.10.

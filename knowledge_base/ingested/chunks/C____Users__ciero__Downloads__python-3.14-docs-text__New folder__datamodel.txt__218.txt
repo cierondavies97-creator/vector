@@ -1,0 +1,3 @@
+section Implementing Descriptors for another way in which attributes
+of a class retrieved via its instances may differ from the objects
+actually stored in the class's "__dict__".  If no class attribute is

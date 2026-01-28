@@ -1,0 +1,4 @@
+string or a list of strings, depending on platform.
+   Changed in version 3.2: Added context manager support.
+   Changed in version 3.6: Popen destructor now emits a
+   "ResourceWarning" warning if the child process is still running.

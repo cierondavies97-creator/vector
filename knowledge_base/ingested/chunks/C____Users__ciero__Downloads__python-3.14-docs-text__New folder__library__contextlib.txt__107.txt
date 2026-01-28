@@ -1,0 +1,4 @@
+class ResourceManager(AbstractContextManager):
+       def __init__(self, acquire_resource, release_resource, check_resource_ok=None):
+           self.acquire_resource = acquire_resource
+           self.release_resource = release_resource

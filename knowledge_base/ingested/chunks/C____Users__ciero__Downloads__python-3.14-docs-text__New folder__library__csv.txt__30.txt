@@ -1,0 +1,4 @@
+than fieldnames, the missing values are filled-in with the value of
+   *restval* (which defaults to "None").
+   All other optional or keyword arguments are passed to the
+   underlying "reader" instance.

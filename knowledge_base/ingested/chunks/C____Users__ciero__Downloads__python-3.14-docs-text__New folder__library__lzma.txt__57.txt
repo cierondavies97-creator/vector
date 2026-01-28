@@ -1,0 +1,9 @@
+* "FILTER_LZMA2" (for use with "FORMAT_XZ" and "FORMAT_RAW")
+* Delta filter:
+  * "FILTER_DELTA"
+* Branch-Call-Jump (BCJ) filters:
+  * "FILTER_X86"
+  * "FILTER_IA64"
+  * "FILTER_ARM"
+  * "FILTER_ARMTHUMB"
+  * "FILTER_POWERPC"

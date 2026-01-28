@@ -1,0 +1,6 @@
+an item, one could re-assign the modified value to the container
+proxy:
+   # create a list proxy and append a mutable object (a dictionary)
+   lproxy = manager.list()
+   lproxy.append({})
+   # now mutate the dictionary

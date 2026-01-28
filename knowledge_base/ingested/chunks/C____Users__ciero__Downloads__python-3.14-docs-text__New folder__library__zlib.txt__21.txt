@@ -1,0 +1,3 @@
+Computes a CRC (Cyclic Redundancy Check) checksum of *data*. The
+   result is an unsigned 32-bit integer. If *value* is present, it is
+   used as the starting value of the checksum; otherwise, a default

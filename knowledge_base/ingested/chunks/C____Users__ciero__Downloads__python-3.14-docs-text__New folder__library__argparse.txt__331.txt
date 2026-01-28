@@ -1,0 +1,5 @@
+There are also variants of these methods that simply return a string
+instead of printing it:
+ArgumentParser.format_usage()
+   Return a string containing a brief description of how the
+   "ArgumentParser" should be invoked on the command line.

@@ -1,0 +1,5 @@
+not always available, and may raise "AttributeError".
+      Changed in version 3.12: "st_birthtime" is now available on
+      Windows.
+   st_birthtime_ns
+      Time of file creation expressed in nanoseconds as an integer.

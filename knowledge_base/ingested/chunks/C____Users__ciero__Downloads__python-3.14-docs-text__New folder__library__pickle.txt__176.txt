@@ -1,0 +1,3 @@
+On the sending side, it needs to pass a *buffer_callback* argument to
+"Pickler" (or to the "dump()" or "dumps()" function), which will be
+called with each "PickleBuffer" generated while pickling the object

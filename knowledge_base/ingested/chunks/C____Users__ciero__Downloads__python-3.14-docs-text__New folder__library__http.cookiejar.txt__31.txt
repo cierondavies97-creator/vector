@@ -1,0 +1,3 @@
+method, which returns an "email.message.Message" instance.
+   The *request* object (usually a "urllib.request.Request" instance)
+   must support the method "get_full_url()" and the attributes "host",

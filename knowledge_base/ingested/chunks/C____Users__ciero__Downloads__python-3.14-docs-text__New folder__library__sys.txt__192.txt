@@ -1,0 +1,5 @@
+build number of the current operating system, rather than the
+   version that is being emulated for the process. It is intended for
+   use in logging rather than for feature detection.
+   Note:
+     *platform_version* derives the version from kernel32.dll which

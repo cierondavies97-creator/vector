@@ -1,0 +1,2 @@
+| ['async'] a='with' '(' ','.(expressions ['as' star_target])+ ','? ')' ':' NEWLINE !INDENT {
+           RAISE_INDENTATION_ERROR("expected an indented block after 'with' statement on line %d", a->lineno) }

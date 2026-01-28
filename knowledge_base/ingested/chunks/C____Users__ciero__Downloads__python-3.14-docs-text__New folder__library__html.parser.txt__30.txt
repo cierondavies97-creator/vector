@@ -1,0 +1,3 @@
+For example, for the processing instruction "<?proc color='red'>",
+   this method would be called as "handle_pi("proc color='red'")".  It
+   is intended to be overridden by a derived class; the base class

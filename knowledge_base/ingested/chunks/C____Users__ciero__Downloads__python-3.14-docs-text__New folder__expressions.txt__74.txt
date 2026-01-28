@@ -1,0 +1,4 @@
+method.
+All of this makes generator functions quite similar to coroutines;
+they yield multiple times, they have more than one entry point and
+their execution can be suspended.  The only difference is that a

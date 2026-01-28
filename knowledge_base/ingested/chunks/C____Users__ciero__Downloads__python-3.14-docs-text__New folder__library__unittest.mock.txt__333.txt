@@ -1,0 +1,11 @@
+>>> m(1, 2, 3, arg='one', arg2='two')
+>>> kall = m.call_args
+>>> kall.args
+(1, 2, 3)
+>>> kall.kwargs
+{'arg': 'one', 'arg2': 'two'}
+>>> kall.args is kall[0]
+True
+>>> kall.kwargs is kall[1]
+True
+>>> m = MagicMock()

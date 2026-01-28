@@ -1,0 +1,4 @@
+reveal_type(SubclassOfFoo().return_self())  # Revealed type is "SubclassOfFoo"
+   This annotation is semantically equivalent to the following, albeit
+   in a more succinct fashion:
+      from typing import TypeVar

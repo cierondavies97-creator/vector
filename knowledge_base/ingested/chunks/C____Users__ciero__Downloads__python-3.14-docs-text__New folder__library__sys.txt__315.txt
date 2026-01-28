@@ -1,0 +1,4 @@
+and the like.  Its behavior is part of the implementation platform,
+   rather than part of the language definition, and thus may not be
+   available in all Python implementations.
+   Changed in version 3.7: "'opcode'" event type added;

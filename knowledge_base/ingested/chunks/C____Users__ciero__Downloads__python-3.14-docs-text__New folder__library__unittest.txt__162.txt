@@ -1,0 +1,3 @@
+Like "assertRaises()" but also tests that *regex* matches on the
+      string representation of the raised exception.  *regex* may be a
+      regular expression object or a string containing a regular

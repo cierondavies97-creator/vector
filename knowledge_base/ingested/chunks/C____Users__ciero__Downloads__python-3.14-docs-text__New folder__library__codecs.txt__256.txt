@@ -1,0 +1,4 @@
+utf-32* decoders no longer decode byte sequences that correspond to
+surrogate code points.
+Changed in version 3.8: "cp65001" is now an alias to "utf_8".
+Changed in version 3.14: On Windows, "cpXXX" codecs are now available

@@ -1,0 +1,4 @@
+exception email.errors.HeaderWriteError
+   Raised when an error occurs when the "generator" outputs headers.
+exception email.errors.MessageDefect
+   This is the base class for all defects found when parsing email

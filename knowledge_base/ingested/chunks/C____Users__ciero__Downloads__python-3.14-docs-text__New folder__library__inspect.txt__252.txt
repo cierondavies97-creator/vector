@@ -1,0 +1,4 @@
+of *frame*. The first entry in the list represents *traceback*; the
+   last entry represents where the exception was raised.
+   Changed in version 3.5: A list of *named tuples* "FrameInfo(frame,
+   filename, lineno, function, code_context, index)" is returned.

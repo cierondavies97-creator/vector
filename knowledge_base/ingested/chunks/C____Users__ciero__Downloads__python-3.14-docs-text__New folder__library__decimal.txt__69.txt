@@ -1,0 +1,4 @@
+integer" operations (respectively) as described in the
+   specification.
+   Decimal objects cannot generally be combined with floats or
+   instances of "fractions.Fraction" in arithmetic operations: an

@@ -1,0 +1,5 @@
+write output to FILE
+     -m MODE, --mode=MODE  interaction mode: novice, intermediate, or expert
+                           [default: intermediate]
+     Dangerous Options:
+       Caution: use these options at your own risk.  It is believed that some

@@ -1,0 +1,8 @@
+See also:
+  * Format strings
+  * Template string literal (t-string) syntax
+  * **PEP 750**
+Template strings
+================
+Added in version 3.14.
+Template strings are a mechanism for custom string processing. They

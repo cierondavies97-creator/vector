@@ -1,0 +1,5 @@
+Added in version 3.12.
+class ctypes.c_ubyte
+   Represents the C unsigned char datatype, it interprets the value as
+   small integer.  The constructor accepts an optional integer
+   initializer; no overflow checking is done.

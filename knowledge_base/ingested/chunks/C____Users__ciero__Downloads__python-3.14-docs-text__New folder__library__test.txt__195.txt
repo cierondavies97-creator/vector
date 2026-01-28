@@ -1,0 +1,4 @@
+test.support.os_helper.rmdir(filename)
+   Call "os.rmdir()" on *filename*.  On Windows platforms, this is
+   wrapped with a wait loop that checks for the existence of the file,
+   which is needed due to antivirus programs that can hold files open

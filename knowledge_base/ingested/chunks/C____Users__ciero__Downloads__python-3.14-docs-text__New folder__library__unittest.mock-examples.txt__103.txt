@@ -1,0 +1,4 @@
+"undone" by calling "stop". This can be fiddlier than you might think,
+because if an exception is raised in the setUp then tearDown is not
+called. "unittest.TestCase.addCleanup()" makes this easier:
+   >>> class MyTest(unittest.TestCase):

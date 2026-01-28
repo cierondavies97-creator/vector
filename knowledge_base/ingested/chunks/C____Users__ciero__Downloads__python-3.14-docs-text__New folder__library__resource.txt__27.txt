@@ -1,0 +1,5 @@
+The time limit (in microseconds) on CPU time that a process can
+   spend under real-time scheduling without making a blocking syscall.
+   Availability: Linux >= 2.6.25.
+   Added in version 3.4.
+resource.RLIMIT_SIGPENDING

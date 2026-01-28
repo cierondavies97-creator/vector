@@ -1,0 +1,5 @@
+if key in mapping:
+                   del mapping[key]
+                   return
+           raise KeyError(key)
+   >>> d = DeepChainMap({'zebra': 'black'}, {'elephant': 'blue'}, {'lion': 'yellow'})

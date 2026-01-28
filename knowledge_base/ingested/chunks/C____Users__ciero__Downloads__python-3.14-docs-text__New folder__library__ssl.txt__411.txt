@@ -1,0 +1,7 @@
+paragraphs below to achieve a good security level.
+Manual settings
+---------------
+Verifying certificates
+~~~~~~~~~~~~~~~~~~~~~~
+When calling the "SSLContext" constructor directly, "CERT_NONE" is the
+default.  Since it does not authenticate the other peer, it can be

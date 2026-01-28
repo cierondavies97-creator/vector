@@ -1,0 +1,6 @@
+Type.
+   Changed in version 3.13: Default values for the send and return
+   types were added.
+class typing.Hashable
+   Deprecated alias to "collections.abc.Hashable".
+   Deprecated since version 3.12: Use "collections.abc.Hashable"

@@ -1,0 +1,7 @@
+6
+   See also "find()" and "rindex()".
+str.rindex(sub[, start[, end]])
+   Like "rfind()" but raises "ValueError" when the substring *sub* is
+   not found.
+str.rjust(width, fillchar=' ', /)
+   Return the string right justified in a string of length *width*.

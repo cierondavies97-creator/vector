@@ -1,0 +1,5 @@
+and describe operations on it as if it was a Python list. The top of
+the stack corresponds to "STACK[-1]" in this language.
+NOP
+   Do nothing code.  Used as a placeholder by the bytecode optimizer,
+   and to generate line tracing events.

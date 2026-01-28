@@ -1,0 +1,5 @@
+This method prints a usage message, including the *message*, to
+   "sys.stderr" and terminates the program with a status code of 2.
+Intermixed parsing
+------------------
+ArgumentParser.parse_intermixed_args(args=None, namespace=None)

@@ -1,0 +1,4 @@
+via "codecs.register_error()". See Error Handlers for details.
+   For performance reasons, the value of *errors* is not checked for
+   validity unless a decoding error actually occurs, Python
+   Development Mode is enabled or a debug build is used.

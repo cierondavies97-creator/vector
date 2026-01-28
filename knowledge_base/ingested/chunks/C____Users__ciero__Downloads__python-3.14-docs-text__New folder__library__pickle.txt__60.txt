@@ -1,0 +1,4 @@
+attribute, and it will instead use the global dispatch table
+      managed by the "copyreg" module. However, to customize the
+      pickling for a specific pickler object one can set the
+      "dispatch_table" attribute to a dict-like object.

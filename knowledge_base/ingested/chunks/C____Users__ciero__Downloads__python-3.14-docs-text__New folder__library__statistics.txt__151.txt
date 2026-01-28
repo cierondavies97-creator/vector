@@ -1,0 +1,5 @@
+of standard deviations above or below the mean of the normal
+      distribution: "(x - mean) / stdev".
+      Added in version 3.9.
+   Instances of "NormalDist" support addition, subtraction,
+   multiplication and division by a constant.  These operations are

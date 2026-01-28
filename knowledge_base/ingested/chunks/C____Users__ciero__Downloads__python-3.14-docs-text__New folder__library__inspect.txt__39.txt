@@ -1,0 +1,3 @@
+|                   |                     | coroutine object that owns  |
+|                   |                     | this frame, or "None" if    |
+|                   |                     | the frame is of a regular   |

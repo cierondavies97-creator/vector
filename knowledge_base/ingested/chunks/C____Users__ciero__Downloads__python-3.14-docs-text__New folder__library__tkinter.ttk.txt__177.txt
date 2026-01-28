@@ -1,0 +1,5 @@
+The valid options/values are:
+      *id*
+         Returns the column name. This is a read-only option.
+      *anchor*: One of the standard Tk anchor values.
+         Specifies how the text in this column should be aligned with

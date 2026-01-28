@@ -1,0 +1,4 @@
+loading, the details may depend on the style of dynamic loading your
+system uses; see the chapters about building extension modules
+(chapter Building C and C++ Extensions) and additional information
+that pertains only to building on Windows (chapter Building C and C++

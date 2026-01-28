@@ -1,0 +1,4 @@
+of the value, or "None" if no format was specified. Both
+     "conversion" and "format_spec" can be set at the same time.
+class ast.JoinedStr(values)
+   An f-string, comprising a series of "FormattedValue" and "Constant"

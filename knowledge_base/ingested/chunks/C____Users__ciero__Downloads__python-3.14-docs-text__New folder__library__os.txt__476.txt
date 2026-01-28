@@ -1,0 +1,8 @@
+*dst*.
+   Changed in version 3.8: Added support for unelevated symlinks on
+   Windows with Developer Mode.
+os.sync()
+   Force write of everything to disk.
+   Availability: Unix.
+   Added in version 3.3.
+os.truncate(path, length)

@@ -1,0 +1,6 @@
+screen buffer, "CONOUT$".
+subprocess.SW_HIDE
+   Hides the window. Another window will be activated.
+subprocess.STARTF_USESTDHANDLES
+   Specifies that the "STARTUPINFO.hStdInput",
+   "STARTUPINFO.hStdOutput", and "STARTUPINFO.hStdError" attributes

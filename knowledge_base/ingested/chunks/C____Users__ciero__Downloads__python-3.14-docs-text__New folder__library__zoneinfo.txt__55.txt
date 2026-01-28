@@ -1,0 +1,4 @@
+(the Unicode Common Locale Data Repository) to get more user-
+     friendly strings. See also the cautionary note on "ZoneInfo.key".
+zoneinfo.reset_tzpath(to=None)
+   Sets or resets the time zone search path ("TZPATH") for the module.

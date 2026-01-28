@@ -1,0 +1,5 @@
+Changed in version 3.6: "SSLContext.options" returns "Options"
+   flags:
+   >>> ssl.create_default_context().options
+   <Options.OP_ALL|OP_NO_SSLv3|OP_NO_SSLv2|OP_NO_COMPRESSION: 2197947391>
+   Deprecated since version 3.7: All "OP_NO_SSL*" and "OP_NO_TLS*"

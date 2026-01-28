@@ -1,0 +1,4 @@
+def print_abs[T: SupportsAbs](arg: T) -> None:
+          print("Absolute value:", abs(arg))
+      U = TypeVar('U', bound=str|bytes)  # Can be any subtype of the union str|bytes
+      V = TypeVar('V', bound=SupportsAbs)  # Can be anything with an __abs__ method

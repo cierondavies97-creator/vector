@@ -1,0 +1,5 @@
+*****************************************************************
+The "test.support.threading_helper" module provides support for
+threading tests.
+Added in version 3.10.
+test.support.threading_helper.join_thread(thread, timeout=None)

@@ -1,0 +1,5 @@
+"Pdb". If no backend is specified, the default is "'settrace'".
+   Note:
+     "breakpoint()" and "set_trace()" will not be affected by this
+     function. They always use "'monitoring'" backend.
+   Added in version 3.14.

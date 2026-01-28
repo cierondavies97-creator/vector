@@ -1,0 +1,6 @@
+@test.support.requires_gzip
+   Decorator for skipping tests if "gzip" doesn't exist.
+@test.support.requires_bz2
+   Decorator for skipping tests if "bz2" doesn't exist.
+@test.support.requires_lzma
+   Decorator for skipping tests if "lzma" doesn't exist.

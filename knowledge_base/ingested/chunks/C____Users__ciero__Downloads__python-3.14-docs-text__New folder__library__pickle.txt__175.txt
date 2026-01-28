@@ -1,0 +1,6 @@
+consumers can also opt-in to tell "pickle" that they will handle those
+buffers by themselves.
+Consumer API
+------------
+A communications system can enable custom handling of the
+"PickleBuffer" objects generated when serializing an object graph.

@@ -1,0 +1,3 @@
+restore it. If an exception occurs, the value stack level and the
+   last instruction on the frame are restored to their current state,
+   and control is transferred to the exception handler at "target".

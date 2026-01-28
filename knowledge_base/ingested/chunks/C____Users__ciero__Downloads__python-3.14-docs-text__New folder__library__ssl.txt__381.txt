@@ -1,0 +1,4 @@
+"select()" call if still necessary.
+  (of course, similar provisions apply when using other primitives
+  such as "poll()", or those in the "selectors" module)
+* The SSL handshake itself will be non-blocking: the

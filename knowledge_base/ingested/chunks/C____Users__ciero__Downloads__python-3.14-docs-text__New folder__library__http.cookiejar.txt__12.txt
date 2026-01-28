@@ -1,0 +1,5 @@
+Subclasses of this class are documented in section FileCookieJar
+   subclasses and co-operation with web browsers.
+   This should not be initialized directly – use its subclasses below
+   instead.
+   Changed in version 3.8: The filename parameter supports a *path-

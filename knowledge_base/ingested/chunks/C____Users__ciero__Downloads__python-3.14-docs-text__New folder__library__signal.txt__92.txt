@@ -1,0 +1,3 @@
+file is for a serial device that may not be turned on, which would
+normally cause the "os.open()" to hang indefinitely.  The solution is
+to set a 5-second alarm before opening the file; if the operation

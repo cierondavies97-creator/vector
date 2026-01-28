@@ -1,0 +1,3 @@
+Note that if this number is greater than zero but the Task is
+      still executing, "cancelled()" will still return "False". This
+      is because this number can be lowered by calling "uncancel()",

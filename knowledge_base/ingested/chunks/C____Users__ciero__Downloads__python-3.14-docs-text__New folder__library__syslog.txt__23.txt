@@ -1,0 +1,10 @@
+Examples
+========
+Simple example
+--------------
+A simple set of examples:
+   import syslog
+   syslog.syslog('Processing started')
+   if error:
+       syslog.syslog(syslog.LOG_ERR, 'Processing started')
+An example of setting some log options, these would include the

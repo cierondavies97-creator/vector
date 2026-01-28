@@ -1,0 +1,5 @@
+method on the parser object and section proxies.
+   When *allow_unnamed_section* is "True" (default: "False"), the
+   first section name can be omitted. See the "Unnamed Sections"
+   section.
+   It is possible to read several configurations into a single

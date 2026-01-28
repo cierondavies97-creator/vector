@@ -1,0 +1,5 @@
+transport created. To close the socket, call the transport's
+       "close()" method.
+   * *ssl* can be set to an "SSLContext" to enable SSL over the
+     accepted connections.
+   * *ssl_handshake_timeout* is (for an SSL connection) the time in

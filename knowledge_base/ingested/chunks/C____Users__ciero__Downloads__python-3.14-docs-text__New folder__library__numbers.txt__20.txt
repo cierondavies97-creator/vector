@@ -1,0 +1,4 @@
+to "MyIntegral" and "OtherTypeIKnowAbout" as "boilerplate". "a" will
+be an instance of "A", which is a subtype of "Complex" ("a : A <:
+Complex"), and "b : B <: Complex". I'll consider "a + b":
+1. If "A" defines an "__add__()" which accepts "b", all is well.

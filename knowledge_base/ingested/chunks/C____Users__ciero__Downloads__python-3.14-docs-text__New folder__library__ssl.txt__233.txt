@@ -1,0 +1,7 @@
+'id': 50380848,
+        'kea': 'kx-ecdhe',
+        'name': 'ECDHE-RSA-AES256-GCM-SHA384',
+        'protocol': 'TLSv1.2',
+        'strength_bits': 256,
+        'symmetric': 'aes-256-gcm'},
+       {'aead': True,

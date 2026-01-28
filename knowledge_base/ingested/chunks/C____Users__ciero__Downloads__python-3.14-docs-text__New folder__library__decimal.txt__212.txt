@@ -1,0 +1,3 @@
+With two arguments, compute "x**y".  If "x" is negative then "y"
+      must be integral.  The result will be inexact unless "y" is
+      integral and the result is finite and can be expressed exactly

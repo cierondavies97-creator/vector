@@ -1,0 +1,3 @@
+|           | of "1".  The precise rules are as follows: suppose that    |
+   |           | the result formatted with presentation type "'e'" and      |
+   |           | precision "p-1" would have exponent "exp".  Then, if "m <= |

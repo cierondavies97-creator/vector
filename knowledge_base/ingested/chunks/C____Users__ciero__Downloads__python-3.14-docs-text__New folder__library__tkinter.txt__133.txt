@@ -1,0 +1,7 @@
+callback
+   This is any Python function that takes no arguments.  For example:
+      def print_it():
+          print("hi there")
+      fred["command"] = print_it
+color
+   Colors can be given as the names of X colors in the rgb.txt file,

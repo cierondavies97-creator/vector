@@ -1,0 +1,4 @@
+value. Values can be any of the flags variables, combined using
+   bitwise OR (the "|" operator).
+re.match(pattern, string, flags=0)
+   If zero or more characters at the beginning of *string* match the

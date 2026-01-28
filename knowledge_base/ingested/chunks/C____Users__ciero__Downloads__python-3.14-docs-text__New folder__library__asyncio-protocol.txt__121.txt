@@ -1,0 +1,4 @@
+level "loop.add_reader()" method to register an FD.
+  The register an open socket to wait for data using streams example
+  uses high-level streams created by the "open_connection()" function
+  in a coroutine.

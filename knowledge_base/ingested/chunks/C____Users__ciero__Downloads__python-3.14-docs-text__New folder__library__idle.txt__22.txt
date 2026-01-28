@@ -1,0 +1,4 @@
+Format Paragraph
+   Reformat the current blank-line-delimited paragraph in comment
+   block or multiline string or selected line in a string.  All lines
+   in the paragraph will be formatted to less than N columns, where N

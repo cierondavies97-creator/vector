@@ -1,0 +1,6 @@
+notation.
+      >>> interface = IPv4Interface('192.0.2.5/24')
+      >>> interface.with_prefixlen
+      '192.0.2.5/24'
+   with_netmask
+      A string representation of the interface with the network as a

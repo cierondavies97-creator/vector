@@ -1,0 +1,3 @@
+during execution. For example, if a directory from *dirnames* has
+     been replaced with a symlink and *follow_symlinks* is false,
+     "Path.walk()" will still try to descend into it. To prevent such

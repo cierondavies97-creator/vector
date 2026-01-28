@@ -1,0 +1,8 @@
+format.
+   Added in version 3.3.
+   name
+      The name of the module the loader will handle.
+   path
+      The path to the bytecode file.
+   is_package(fullname)
+      Determines if the module is a package based on "path".

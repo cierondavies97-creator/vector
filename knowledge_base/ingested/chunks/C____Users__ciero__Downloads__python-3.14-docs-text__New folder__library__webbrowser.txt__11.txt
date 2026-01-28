@@ -1,0 +1,5 @@
+The options are, naturally, mutually exclusive.  Usage example:
+   python -m webbrowser -t "https://www.python.org"
+Availability: not WASI, not Android.
+The following exception is defined:
+exception webbrowser.Error

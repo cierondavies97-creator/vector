@@ -1,0 +1,7 @@
+Added in version 3.7.
+Server Objects
+==============
+Server objects are created by "loop.create_server()",
+"loop.create_unix_server()", "start_server()", and
+"start_unix_server()" functions.
+Do not instantiate the "Server" class directly.

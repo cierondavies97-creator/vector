@@ -1,0 +1,4 @@
+call the "deepcopy()" function with the component as first argument
+   and the *memo* dictionary as second argument. The *memo* dictionary
+   should be treated as an opaque object.
+Function "copy.replace()" is more limited than "copy()" and

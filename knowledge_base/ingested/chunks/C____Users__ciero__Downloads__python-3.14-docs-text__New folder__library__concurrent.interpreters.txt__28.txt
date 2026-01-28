@@ -1,0 +1,9 @@
+* "None"
+* "bool" ("True" and "False")
+* "bytes"
+* "str"
+* "int"
+* "float"
+* "tuple" (of similarly supported objects)
+There is a small number of Python types that actually share mutable
+data between interpreters:

@@ -1,0 +1,5 @@
+implementations, versions, or build configurations.
+   Added in version 3.14.
+   _jit.is_available()
+      Return "True" if the current Python executable supports JIT
+      compilation, and "False" otherwise.  This can be controlled by

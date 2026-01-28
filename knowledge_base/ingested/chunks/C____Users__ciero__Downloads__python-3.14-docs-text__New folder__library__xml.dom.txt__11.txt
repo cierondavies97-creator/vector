@@ -1,0 +1,5 @@
+compliance is not required (though implementations are free to support
+the strict mapping from IDL).  See section Conformance for a detailed
+discussion of mapping requirements.
+See also:
+  Document Object Model (DOM) Level 2 Specification

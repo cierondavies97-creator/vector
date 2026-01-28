@@ -1,0 +1,3 @@
+A match class pattern. "cls" is an expression giving the nominal
+   class to be matched. "patterns" is a sequence of pattern nodes to
+   be matched against the class defined sequence of pattern matching

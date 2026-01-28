@@ -1,0 +1,7 @@
+blake2s.SALT_SIZE
+Salt length (maximum length accepted by constructors).
+blake2b.PERSON_SIZE
+blake2s.PERSON_SIZE
+Personalization string length (maximum length accepted by
+constructors).
+blake2b.MAX_KEY_SIZE

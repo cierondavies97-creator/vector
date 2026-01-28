@@ -1,0 +1,5 @@
+for more information. *punctuation_chars* can be set only upon
+   "shlex" instance creation and can't be modified later.
+   Changed in version 3.6: The *punctuation_chars* parameter was
+   added.
+See also:

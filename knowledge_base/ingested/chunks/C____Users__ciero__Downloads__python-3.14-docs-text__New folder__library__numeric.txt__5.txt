@@ -1,0 +1,7 @@
+* Power and logarithmic functions
+  * Trigonometric functions
+  * Hyperbolic functions
+  * Classification functions
+  * Constants
+* "decimal" --- Decimal fixed-point and floating-point arithmetic
+  * Quick-start tutorial

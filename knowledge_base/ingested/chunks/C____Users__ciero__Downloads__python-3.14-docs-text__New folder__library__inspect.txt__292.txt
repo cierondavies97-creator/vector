@@ -1,0 +1,6 @@
+"inspect" module for any introspection needs.
+Buffer flags
+============
+class inspect.BufferFlags
+   This is an "enum.IntFlag" that represents the flags that can be
+   passed to the "__buffer__()" method of objects implementing the

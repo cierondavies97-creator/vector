@@ -1,0 +1,6 @@
+LOAD_CONST_IMMORTAL(consti)
+   Works as "LOAD_CONST", but is more efficient for immortal objects.
+JUMP
+JUMP_NO_INTERRUPT
+   Undirected relative jump instructions which are replaced by their
+   directed (forward/backward) counterparts by the assembler.

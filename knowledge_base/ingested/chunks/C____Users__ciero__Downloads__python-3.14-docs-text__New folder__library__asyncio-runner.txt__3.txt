@@ -1,0 +1,5 @@
+running in the same thread.
+   If *debug* is "True", the event loop will be run in debug mode.
+   "False" disables debug mode explicitly. "None" is used to respect
+   the global Debug Mode settings.
+   If *loop_factory* is not "None", it is used to create a new event

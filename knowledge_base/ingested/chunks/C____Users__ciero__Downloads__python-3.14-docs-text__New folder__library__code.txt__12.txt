@@ -1,0 +1,3 @@
+command that can be completed by entering more text (as opposed to
+   a complete command or a syntax error).  This function *almost*
+   always makes the same decision as the real interpreter main loop.

@@ -1,0 +1,5 @@
+particular type, end the format with the code for that type with a
+   repeat count of zero.  See Examples.
+Format Characters
+-----------------
+Format characters have the following meaning; the conversion between C

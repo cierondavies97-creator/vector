@@ -1,0 +1,7 @@
+Module "pickletools"
+     Tools for working with and analyzing pickled data.
+  Module "shelve"
+     Indexed databases of objects; uses "pickle".
+  Module "copy"
+     Shallow and deep object copying.
+  Module "marshal"

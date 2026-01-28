@@ -1,0 +1,3 @@
+error. Typically, the application will use this information for
+   reporting its own errors (such as character content that does not
+   match an application's business rules). The information returned by

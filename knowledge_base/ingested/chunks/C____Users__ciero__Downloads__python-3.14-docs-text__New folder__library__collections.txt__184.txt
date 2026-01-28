@@ -1,0 +1,6 @@
+self.cache[args] = time(), result
+           if len(self.cache) > self.maxsize:
+               self.cache.popitem(last=False)
+           return result
+   class MultiHitLRUCache:
+       """ LRU cache that defers caching a result until

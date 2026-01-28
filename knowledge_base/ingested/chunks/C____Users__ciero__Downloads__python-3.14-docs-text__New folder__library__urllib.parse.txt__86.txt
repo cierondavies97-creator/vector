@@ -1,0 +1,4 @@
+practical functionality rather than purity.
+Instead of raising an exception on unusual input, they may instead
+return some component parts as empty strings. Or components may
+contain more than perhaps they should.

@@ -1,0 +1,5 @@
+default behavior is to use "PRESET_DEFAULT" (preset level "6").
+   Higher presets produce smaller output, but make the compression
+   process slower.
+   Note:
+     In addition to being more CPU-intensive, compression with higher

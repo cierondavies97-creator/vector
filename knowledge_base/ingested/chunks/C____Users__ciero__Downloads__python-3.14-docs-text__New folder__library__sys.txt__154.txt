@@ -1,0 +1,5 @@
+module ("RTLD_*xxx*" constants, e.g. "os.RTLD_LAZY").
+   Availability: Unix.
+sys.getfilesystemencoding()
+   Get the *filesystem encoding*: the encoding used with the
+   *filesystem error handler* to convert between Unicode filenames and

@@ -1,0 +1,4 @@
+earlier ones. To allow setting the fallback, "copy.copy()" is used
+   to clone each translation object from the cache; the actual
+   instance data is still shared with the cache.
+   If no ".mo" file is found, this function raises "OSError" if

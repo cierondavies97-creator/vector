@@ -1,0 +1,7 @@
+its original location:
+      assert i > 0
+      STACK.append(STACK[-i])
+   Added in version 3.11.
+SWAP(i)
+   Swap the top of the stack with the i-th element:
+      STACK[-i], STACK[-1] = STACK[-1], STACK[-i]

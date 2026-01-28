@@ -1,0 +1,3 @@
+For every object which can support attributes, the corresponding type
+must provide the functions that control how the attributes are
+resolved.  There needs to be a function which can retrieve attributes

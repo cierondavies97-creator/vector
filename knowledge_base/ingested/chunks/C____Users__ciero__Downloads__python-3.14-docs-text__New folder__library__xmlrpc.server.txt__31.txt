@@ -1,0 +1,5 @@
+# Print list of available methods
+   print(s.system.listMethods())
+"register_function()" can also be used as a decorator. The previous
+server example can register functions in a decorator way:
+   from xmlrpc.server import SimpleXMLRPCServer

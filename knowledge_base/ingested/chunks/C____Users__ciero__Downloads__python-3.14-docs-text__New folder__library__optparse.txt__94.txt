@@ -1,0 +1,4 @@
+(options, args) = parser.parse_args()
+As before, the last value specified for a given option destination is
+the one that counts.  For clarity, try to use one method or the other
+of setting default values, not both.

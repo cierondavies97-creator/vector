@@ -1,0 +1,4 @@
+has been made configurable, through the use of a class-level
+      attribute, "append_nul". This defaults to "True" (preserving the
+      existing behaviour) but can be set to "False" on a
+      "SysLogHandler" instance in order for that instance to *not*

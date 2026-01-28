@@ -1,0 +1,5 @@
+}
+      def callback(identity):
+          return psk_table.get(identity, b'')
+      context.set_psk_server_callback(callback, 'ServerId_1')
+   This method will raise "NotImplementedError" if "HAS_PSK" is

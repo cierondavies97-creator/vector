@@ -1,0 +1,4 @@
+*method_to_typeid* argument of "BaseManager.register()".
+      If an exception is raised by the call, then is re-raised by
+      "_callmethod()".  If some other exception is raised in the
+      manager's process then this is converted into a "RemoteError"

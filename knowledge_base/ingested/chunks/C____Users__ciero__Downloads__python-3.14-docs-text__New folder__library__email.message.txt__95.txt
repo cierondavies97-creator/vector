@@ -1,0 +1,3 @@
+combinations that really make sense are "('plain',)", "('html',
+      'plain')", and the default "('related', 'html', 'plain')".  (2)
+      Because matching starts with the object on which "get_body" is

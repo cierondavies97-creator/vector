@@ -1,0 +1,6 @@
+of the following forms:
+* An integer between zero and the number of tabs
+* The name of a child window
+* A positional specification of the form "@x,y", which identifies the
+  tab
+* The literal string "current", which identifies the currently

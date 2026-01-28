@@ -1,0 +1,4 @@
+| real=signed_real_number '+' imag=imaginary_number {
+           _PyAST_BinOp(real, Add, imag, EXTRA) }
+       | real=signed_real_number '-' imag=imaginary_number  {
+           _PyAST_BinOp(real, Sub, imag, EXTRA) }

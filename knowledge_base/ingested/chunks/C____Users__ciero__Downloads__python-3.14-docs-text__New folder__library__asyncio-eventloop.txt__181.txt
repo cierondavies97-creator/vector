@@ -1,0 +1,6 @@
+initialized and used by "run_in_executor()" if needed.
+   Example:
+      import asyncio
+      import concurrent.futures
+      def blocking_io():
+          # File operations (such as logging) can block the

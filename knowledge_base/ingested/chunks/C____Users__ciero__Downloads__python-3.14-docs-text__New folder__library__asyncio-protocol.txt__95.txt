@@ -1,0 +1,6 @@
+async def main():
+       # Get a reference to the event loop as we plan to use
+       # low-level APIs.
+       loop = asyncio.get_running_loop()
+       server = await loop.create_server(
+           EchoServerProtocol,

@@ -1,0 +1,6 @@
+* "read()"
+   * "select()"
+   * "poll()"
+   The file descriptor's "read()" method can be called with a buffer
+   size of 8. If the timer has already expired one or more times,
+   "read()" returns the number of expirations with the host's

@@ -1,0 +1,5 @@
+"poplib" --- POP3 protocol client
+*********************************
+**Source code:** Lib/poplib.py
+======================================================================
+This module defines a class, "POP3", which encapsulates a connection

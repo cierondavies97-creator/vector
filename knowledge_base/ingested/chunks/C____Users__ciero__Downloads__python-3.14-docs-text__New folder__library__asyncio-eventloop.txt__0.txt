@@ -1,0 +1,6 @@
+Event Loop
+**********
+**Source code:** Lib/asyncio/events.py, Lib/asyncio/base_events.py
+======================================================================
+-[ Preface ]-
+The event loop is the core of every asyncio application. Event loops

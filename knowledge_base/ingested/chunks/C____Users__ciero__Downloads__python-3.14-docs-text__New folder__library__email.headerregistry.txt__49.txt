@@ -1,0 +1,4 @@
+This is the factory used by "EmailPolicy" by default.
+   "HeaderRegistry" builds the class used to create a header instance
+   dynamically, using *base_class* and a specialized class retrieved
+   from a registry that it holds.  When a given header name does not

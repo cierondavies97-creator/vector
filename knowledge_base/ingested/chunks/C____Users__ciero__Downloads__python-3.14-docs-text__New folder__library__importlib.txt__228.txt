@@ -1,0 +1,5 @@
+import importlib
+   itertools = importlib.import_module('itertools')
+Checking if a module can be imported
+------------------------------------
+If you need to find out if a module can be imported without actually

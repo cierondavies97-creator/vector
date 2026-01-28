@@ -1,0 +1,5 @@
+Module which provides function to parse and escape command lines.
+Disable use of "posix_spawn()"
+------------------------------
+On Linux, "subprocess" defaults to using the "vfork()" system call
+internally when it is safe to do so rather than "fork()". This greatly

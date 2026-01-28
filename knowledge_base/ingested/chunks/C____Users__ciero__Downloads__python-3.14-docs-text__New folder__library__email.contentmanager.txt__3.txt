@@ -1,0 +1,4 @@
+return the result of the call.  The expectation is that the
+      handler will extract the payload from *msg* and return an object
+      that encodes information about the extracted data.
+      To find the handler, look for the following keys in the

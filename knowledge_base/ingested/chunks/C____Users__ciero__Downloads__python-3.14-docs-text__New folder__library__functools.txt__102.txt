@@ -1,0 +1,5 @@
+To access all registered implementations, use the read-only
+   "registry" attribute:
+      >>> fun.registry.keys()
+      dict_keys([<class 'NoneType'>, <class 'int'>, <class 'object'>,
+                <class 'decimal.Decimal'>, <class 'list'>,

@@ -1,0 +1,3 @@
+operations that look like method calls on the man page for a specific
+widget (e.g., you'll find the "invoke()" method on the ttk::button man
+page), while functions that take a widget as a parameter often have

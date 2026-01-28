@@ -1,0 +1,5 @@
+methods". Class method objects are created by the built-in
+"classmethod()" constructor.
+3.3. Special method names
+=========================
+A class can implement certain operations that are invoked by special

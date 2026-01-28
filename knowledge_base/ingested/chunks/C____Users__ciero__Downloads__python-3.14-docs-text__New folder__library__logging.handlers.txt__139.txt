@@ -1,0 +1,4 @@
+then logs the message in the NT event log.
+   getEventCategory(record)
+      Returns the event category for the record. Override this if you
+      want to specify your own categories. This version returns 0.

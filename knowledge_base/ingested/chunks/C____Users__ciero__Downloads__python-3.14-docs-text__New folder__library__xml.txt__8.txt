@@ -1,0 +1,4 @@
+Python may be vulnerable if it uses such older versions of Expat.
+Check "pyexpat.EXPAT_VERSION".
+"xmlrpc" is **vulnerable** to the "decompression bomb" attack.
+billion laughs / exponential entity expansion

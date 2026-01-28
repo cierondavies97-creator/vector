@@ -1,0 +1,6 @@
+recursion. The next line: "Ordered by: cumulative time" indicates the
+output is sorted by the "cumtime" values. The column headings include:
+ncalls
+   for the number of calls.
+tottime
+   for the total time spent in the given function (and excluding time

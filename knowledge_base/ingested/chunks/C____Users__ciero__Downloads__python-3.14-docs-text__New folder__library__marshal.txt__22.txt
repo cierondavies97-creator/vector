@@ -1,0 +1,4 @@
+input are ignored.
+   Raises an auditing event "marshal.loads" with argument "bytes".
+   Changed in version 3.10: This call used to raise a "code.__new__"
+   audit event for each code object. Now it raises a single

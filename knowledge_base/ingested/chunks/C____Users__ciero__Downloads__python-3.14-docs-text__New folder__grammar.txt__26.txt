@@ -1,0 +1,5 @@
+# =================
+   # NOTE: annotated_rhs may start with 'yield'; yield_expr must start with 'yield'
+   assignment[stmt_ty]:
+       | a=NAME ':' b=expression c=['=' d=annotated_rhs { d }] {
+           CHECK_VERSION(

@@ -1,0 +1,3 @@
+resulting output will include a zlib-specific header and trailer.
+   * −9 to −15: Uses the absolute value of *wbits* as the window size
+     logarithm, while producing a raw output stream with no header or

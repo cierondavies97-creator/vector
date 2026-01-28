@@ -1,0 +1,6 @@
+(100.00,-0.00)
+      >>> turtle.heading()
+      0.0
+turtle.stamp()
+   Stamp a copy of the turtle shape onto the canvas at the current
+   turtle position.  Return a stamp_id for that stamp, which can be

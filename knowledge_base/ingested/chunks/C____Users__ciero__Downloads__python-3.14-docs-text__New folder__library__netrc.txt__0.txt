@@ -1,0 +1,5 @@
+"netrc" --- netrc file processing
+*********************************
+**Source code:** Lib/netrc.py
+======================================================================
+The "netrc" class parses and encapsulates the netrc file format used

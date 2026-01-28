@@ -1,0 +1,4 @@
+Create an application archive from *source*.  The source can be any
+   of the following:
+   * The name of a directory, or a *path-like object* referring to a
+     directory, in which case a new application archive will be

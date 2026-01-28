@@ -1,0 +1,4 @@
+abs(b)), abs_tol)".
+   *rel_tol* is the relative tolerance -- it is the maximum allowed
+   difference between *a* and *b*, relative to the larger absolute
+   value of *a* or *b*. For example, to set a tolerance of 5%, pass

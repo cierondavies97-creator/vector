@@ -1,0 +1,5 @@
+Availability: Linux >= 2.6.16.
+   Added in version 3.12.
+   See also: The "setns()" function.
+Flags to the "unshare()" function, if the implementation supports
+them. See *unshare(2)* in the Linux manual for their exact effect and

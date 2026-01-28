@@ -1,0 +1,6 @@
+formatter: precise
+         filename: logconfig.log
+         maxBytes: 1024
+         backupCount: 3
+  the handler with id "console" is instantiated as a
+  "logging.StreamHandler", using "sys.stdout" as the underlying

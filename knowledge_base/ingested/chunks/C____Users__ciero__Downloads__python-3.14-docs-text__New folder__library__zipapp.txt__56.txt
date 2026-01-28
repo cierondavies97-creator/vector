@@ -1,0 +1,4 @@
+directly.
+There is no requirement that the tools in this module are used to
+create application archives - the module is a convenience, but
+archives in the above format created by any means are acceptable to

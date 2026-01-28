@@ -1,0 +1,5 @@
+contextual difference mode.
+   The constructor for this class is:
+   __init__(tabsize=8, wrapcolumn=None, linejunk=None, charjunk=IS_CHARACTER_JUNK)
+      Initializes instance of "HtmlDiff".
+      *tabsize* is an optional keyword argument to specify tab stop

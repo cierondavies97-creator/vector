@@ -1,0 +1,5 @@
+Several input formats are allowed.  They use 0 to 3 arguments as
+   follows:
+   "color()"
+      Return the current pencolor and the current fillcolor as a pair
+      of color specification strings or tuples as returned by

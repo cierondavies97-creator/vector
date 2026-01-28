@@ -1,0 +1,5 @@
+# If there's a crash, you might duplicate a message, but
+               # that's better than losing a message completely.
+               box.lock()
+               box.add(message)
+               box.flush()

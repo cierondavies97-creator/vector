@@ -1,0 +1,3 @@
+*EnumDict* is a subclass of "dict" that is used as the namespace
+   for defining enum classes (see Preparing the class namespace). It
+   is exposed to allow subclasses of "EnumType" with advanced behavior

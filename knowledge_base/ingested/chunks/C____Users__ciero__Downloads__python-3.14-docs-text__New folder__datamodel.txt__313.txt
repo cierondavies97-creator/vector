@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| traceback.tb_lineno                                | Gives the line number where the exception occurred |

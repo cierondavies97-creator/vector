@@ -1,0 +1,5 @@
+curses.ascii.ispunct(c)
+   Checks for any printable ASCII character which is not a space or an
+   alphanumeric character.
+curses.ascii.isspace(c)
+   Checks for ASCII white-space characters; space, line feed, carriage

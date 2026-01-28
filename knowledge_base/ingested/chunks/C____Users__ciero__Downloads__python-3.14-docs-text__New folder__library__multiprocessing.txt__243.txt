@@ -1,0 +1,5 @@
+now.
+      Added in version 3.14.
+class multiprocessing.Semaphore([value])
+   A semaphore object: a close analog of "threading.Semaphore".
+   Instantiating this class may set the global start method. See

@@ -1,0 +1,4 @@
+* Target widget should have a callable *dnd_accept* attribute
+   * If *dnd_accept* is not present or returns "None", search moves to
+     parent widget
+   * If no target widget is found, then the target object is "None"

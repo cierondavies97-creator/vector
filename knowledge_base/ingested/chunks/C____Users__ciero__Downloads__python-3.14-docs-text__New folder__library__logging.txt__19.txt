@@ -1,0 +1,5 @@
+which has checks for the level passed to it.
+   parent
+      The parent logger of this logger. It may change based on later
+      instantiation of loggers which are higher up in the namespace
+      hierarchy.

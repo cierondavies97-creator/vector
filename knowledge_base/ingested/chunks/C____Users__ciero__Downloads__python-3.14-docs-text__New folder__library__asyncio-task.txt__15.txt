@@ -1,0 +1,6 @@
+awaitables.
+There are three main types of *awaitable* objects: **coroutines**,
+**Tasks**, and **Futures**.
+-[ Coroutines ]-
+Python coroutines are *awaitables* and therefore can be awaited from
+other coroutines:

@@ -1,0 +1,4 @@
+The basic idea is to smooth the data using a kernel function. to
+   help draw inferences about a population from a sample.
+   The degree of smoothing is controlled by the scaling parameter *h*
+   which is called the bandwidth.  Smaller values emphasize local

@@ -1,0 +1,2 @@
+class traceback.TracebackException(exc_type, exc_value, exc_traceback, *, limit=None, lookup_lines=True, capture_locals=False, compact=False, max_group_width=15, max_group_depth=10)
+   Capture an exception for later rendering. The meaning of *limit*,

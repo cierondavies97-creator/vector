@@ -1,0 +1,4 @@
+the transaction management of the "sqlite3" module and the
+      execution of triggers defined in the current database.
+      Passing "None" as *trace_callback* will disable the trace
+      callback.

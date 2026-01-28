@@ -1,0 +1,4 @@
+the amount of memory the process is using.
+   For backward compatibility, the return value is also accessible as
+   a tuple of 16 elements.
+   The fields "ru_utime" and "ru_stime" of the return value are

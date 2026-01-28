@@ -1,0 +1,4 @@
+with the same inputs.  In multi-threaded programs, non-
+   deterministic behavior often results from *race conditions* where
+   the relative timing or interleaving of threads affects the result.
+   Proper synchronization using *locks* and other *synchronization

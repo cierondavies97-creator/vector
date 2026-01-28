@@ -1,0 +1,4 @@
+A function or method which is defined using "async def" is called a
+*coroutine function*.  Such a function, when called, returns a
+*coroutine* object.  It may contain "await" expressions, as well as
+"async with" and "async for" statements. See also the Coroutine

@@ -1,0 +1,6 @@
+be called in other circumstances.
+   "OpenerDirector" will call this method with five positional
+   arguments:
+   1. a "Request" object,
+   2. a file-like object with the HTTP error body,
+   3. the three-digit code of the error, as a string,

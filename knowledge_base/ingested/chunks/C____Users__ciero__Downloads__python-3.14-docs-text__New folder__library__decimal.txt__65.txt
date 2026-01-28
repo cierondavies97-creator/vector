@@ -1,0 +1,4 @@
+objects can be copied, pickled, printed, used as dictionary keys,
+   used as set elements, compared, sorted, and coerced to another type
+   (such as "float" or "int").
+   There are some small differences between arithmetic on Decimal

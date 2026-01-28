@@ -1,0 +1,4 @@
+Optional *fallback_charset* specifies the character set to use if
+   the one in the **RFC 2231** header is not known by Python; it
+   defaults to "'us-ascii'".
+   For convenience, if the *value* passed to

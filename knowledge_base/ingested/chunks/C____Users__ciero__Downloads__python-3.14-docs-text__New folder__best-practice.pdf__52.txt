@@ -1,0 +1,5 @@
+Don’t Repeat Yourself (DRY)
+▶ No copy & paste!
+▶ Not just lines code, but knowledge of all sorts
+▶ Do not express the same piece of knowledge in two places. . .
+▶ . . . or you will have to update it everywhere

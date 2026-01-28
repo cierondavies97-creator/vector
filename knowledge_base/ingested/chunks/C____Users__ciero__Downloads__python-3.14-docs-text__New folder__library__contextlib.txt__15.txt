@@ -1,0 +1,4 @@
+it creates can be used as decorators as well as in "with"
+   statements. When used as a decorator, a new generator instance is
+   implicitly created on each function call (this allows the otherwise
+   "one-shot" context managers created by "contextmanager()" to meet

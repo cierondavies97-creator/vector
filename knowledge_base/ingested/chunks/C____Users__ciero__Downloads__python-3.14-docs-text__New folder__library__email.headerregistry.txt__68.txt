@@ -1,0 +1,5 @@
+an address group is:
+      display_name: [address-list];
+   As a convenience for processing lists of addresses that consist of
+   a mixture of groups and single addresses, a "Group" may also be
+   used to represent single addresses that are not part of a group by

@@ -1,0 +1,10 @@
+Added in version 3.4.
+Examples
+========
+Generating a plist:
+   import datetime
+   import plistlib
+   pl = dict(
+       aString = "Doodah",
+       aList = ["A", "B", 12, 32.1, [1, 2, 3]],
+       aFloat = 0.1,

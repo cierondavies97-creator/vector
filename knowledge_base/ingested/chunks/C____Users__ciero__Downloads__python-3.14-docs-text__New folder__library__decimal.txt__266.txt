@@ -1,0 +1,4 @@
+inequality always returns "True".  An attempt to compare two Decimals
+using any of the "<", "<=", ">" or ">=" operators will raise the
+"InvalidOperation" signal if either operand is a "NaN", and return
+"False" if this signal is not trapped.  Note that the General Decimal

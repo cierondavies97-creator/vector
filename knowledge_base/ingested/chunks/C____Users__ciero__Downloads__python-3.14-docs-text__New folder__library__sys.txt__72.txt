@@ -1,0 +1,4 @@
+derived from the "value" (the exception instance), so when an
+   exception is modified while it is being handled, the changes are
+   reflected in the results of subsequent calls to "exc_info()".
+sys.exec_prefix

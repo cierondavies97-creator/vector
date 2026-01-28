@@ -1,0 +1,6 @@
+else:
+               return dt + timedelta(hours=4)
+       def dst(self, dt):
+           # Kabul does not observe daylight saving time.
+           return timedelta(0)
+       def tzname(self, dt):

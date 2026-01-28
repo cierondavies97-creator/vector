@@ -1,0 +1,10 @@
+Classes
+=======
+Classes hierarchy:
+   BaseSelector
+   +-- SelectSelector
+   +-- PollSelector
+   +-- EpollSelector
+   +-- DevpollSelector
+   +-- KqueueSelector
+In the following, *events* is a bitwise mask indicating which I/O

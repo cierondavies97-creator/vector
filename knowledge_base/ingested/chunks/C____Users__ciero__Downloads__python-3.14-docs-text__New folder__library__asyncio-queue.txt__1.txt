@@ -1,0 +1,5 @@
+designed to be used specifically in async/await code.
+Note that methods of asyncio queues don't have a *timeout* parameter;
+use "asyncio.wait_for()" function to do queue operations with a
+timeout.
+See also the Examples section below.

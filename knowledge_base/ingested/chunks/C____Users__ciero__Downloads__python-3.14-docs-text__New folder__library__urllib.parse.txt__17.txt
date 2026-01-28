@@ -1,0 +1,4 @@
+query='', fragment='')
+   The *scheme* argument gives the default addressing scheme, to be
+   used only if the URL does not specify one.  It should be the same
+   type (text or bytes) as *urlstring*, except that the default value

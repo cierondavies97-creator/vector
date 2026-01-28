@@ -1,0 +1,6 @@
+>>> b'   1   2   3   '.split()
+      [b'1', b'2', b'3']
+bytes.strip(bytes=None, /)
+bytearray.strip(bytes=None, /)
+   Return a copy of the sequence with specified leading and trailing
+   bytes removed. The *bytes* argument is a binary sequence specifying

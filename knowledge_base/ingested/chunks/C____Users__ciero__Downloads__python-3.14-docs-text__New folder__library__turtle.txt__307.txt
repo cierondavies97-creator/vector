@@ -1,0 +1,4 @@
+* A "turtle.cfg" file which serves as an example of how to write and
+  use such files.
+The demo scripts are:
++--------------------------+--------------------------------+----------------------------------------+

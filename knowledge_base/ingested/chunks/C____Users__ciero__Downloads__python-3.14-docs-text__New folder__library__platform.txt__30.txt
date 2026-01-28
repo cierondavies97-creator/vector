@@ -1,0 +1,4 @@
+(multi/single processor). Values which cannot be determined are set
+   to the defaults given as parameters (which all default to an empty
+   string).
+   As a hint: *ptype* is "'Uniprocessor Free'" on single processor NT

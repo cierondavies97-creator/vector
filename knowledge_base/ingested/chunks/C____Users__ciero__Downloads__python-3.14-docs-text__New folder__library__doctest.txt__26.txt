@@ -1,0 +1,8 @@
+Failed example:
+       factorial(6)
+   Expected:
+       120
+   Got:
+       720
+As with "testmod()", "testfile()" won't display anything unless an
+example fails.  If an example does fail, then the failing example(s)

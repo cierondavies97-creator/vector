@@ -1,0 +1,4 @@
+exclusive creation. These can equivalently be given as "'r'",
+   "'w'", "'a'", and "'x'" respectively. You may also open in text
+   mode with "'rt'", "'wt'", "'at'", and "'xt'" respectively.
+   When reading, the *options* argument can be a dictionary providing

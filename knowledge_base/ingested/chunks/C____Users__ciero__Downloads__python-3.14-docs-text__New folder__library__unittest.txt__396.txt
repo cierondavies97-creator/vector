@@ -1,0 +1,4 @@
+use "addModuleCleanup":
+unittest.addModuleCleanup(function, /, *args, **kwargs)
+   Add a function to be called after "tearDownModule()" to cleanup
+   resources used during the test class. Functions will be called in

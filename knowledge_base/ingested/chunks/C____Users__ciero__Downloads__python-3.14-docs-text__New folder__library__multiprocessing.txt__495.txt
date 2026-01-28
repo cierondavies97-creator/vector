@@ -1,0 +1,7 @@
+assert sorted(f1._exposed_) == sorted(['f', 'g'])
+       print('-' * 20)
+       f2 = manager.Foo2()
+       f2.g()
+       f2._h()
+       assert not hasattr(f2, 'f')
+       assert sorted(f2._exposed_) == sorted(['g', '_h'])

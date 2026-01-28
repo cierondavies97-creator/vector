@@ -1,0 +1,4 @@
+The "signal" module defines the following functions:
+signal.alarm(time)
+   If *time* is non-zero, this function requests that a "SIGALRM"
+   signal be sent to the process in *time* seconds. Any previously

@@ -1,0 +1,5 @@
+tests. No methods on the resulting object are needed.  The
+      default value is the "TestSuite" class.
+      This affects all the "loadTestsFrom*" methods.
+   testNamePatterns
+      List of Unix shell-style wildcard test name patterns that test

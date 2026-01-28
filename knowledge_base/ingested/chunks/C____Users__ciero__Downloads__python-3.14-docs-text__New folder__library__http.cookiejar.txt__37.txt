@@ -1,0 +1,3 @@
+If given two arguments, cookies belonging to the specified *domain*
+   and URL *path* are removed.  If given three arguments, then the
+   cookie with the specified *domain*, *path* and *name* is removed.

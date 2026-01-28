@@ -1,0 +1,5 @@
+*sizehint*, if given, is passed as the *size* argument to the
+      stream's "read()" method.
+   reset()
+      Resets the codec buffers used for keeping internal state.
+      Note that no stream repositioning should take place. This method

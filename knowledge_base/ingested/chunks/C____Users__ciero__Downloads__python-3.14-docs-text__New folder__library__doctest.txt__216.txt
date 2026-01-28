@@ -1,0 +1,3 @@
+The globals for each "DocTest" is formed by combining *globs*
+      and *extraglobs* (bindings in *extraglobs* override bindings in
+      *globs*).  A new shallow copy of the globals dictionary is

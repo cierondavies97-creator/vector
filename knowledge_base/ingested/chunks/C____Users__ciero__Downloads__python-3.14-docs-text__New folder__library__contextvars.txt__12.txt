@@ -1,0 +1,5 @@
+can be passed to the "ContextVar.reset()" method to revert the
+   value of the variable to what it was before the corresponding
+   *set*.
+   The token supports context manager protocol to restore the
+   corresponding context variable value at the exit from "with" block:

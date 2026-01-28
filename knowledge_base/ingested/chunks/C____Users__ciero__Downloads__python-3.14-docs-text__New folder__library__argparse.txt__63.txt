@@ -1,0 +1,4 @@
+the same place as the original file referencing argument on the
+command line.  So in the example above, the expression "['-f', 'foo',
+'@args.txt']" is considered equivalent to the expression "['-f',
+'foo', '-f', 'bar']".

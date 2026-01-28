@@ -1,0 +1,4 @@
+includes the values of the node fields.
+Deprecated since version 3.8, removed in version 3.14: Previous
+versions of Python provided the AST classes "ast.Num", "ast.Str",
+"ast.Bytes", "ast.NameConstant" and "ast.Ellipsis", which were

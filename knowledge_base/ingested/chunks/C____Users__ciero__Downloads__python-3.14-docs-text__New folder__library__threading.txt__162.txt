@@ -1,0 +1,4 @@
+class threading.Semaphore(value=1)
+   This class implements semaphore objects.  A semaphore manages an
+   atomic counter representing the number of "release()" calls minus
+   the number of "acquire()" calls, plus an initial value.  The

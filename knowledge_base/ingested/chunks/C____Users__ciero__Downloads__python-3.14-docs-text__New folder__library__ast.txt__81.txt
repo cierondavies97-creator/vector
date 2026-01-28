@@ -1,0 +1,6 @@
+generated code is identical to the original and is intended for
+     code generation.
+   * "conversion" is an integer:
+     * -1: no conversion
+     * 97 ("ord('a')"): "!a" "ASCII" conversion
+     * 114 ("ord('r')"): "!r" "repr()" conversion

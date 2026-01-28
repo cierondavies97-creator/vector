@@ -1,0 +1,4 @@
+repeated attempts to import must be done with this form.
+   In the second form, the caller makes the division point clear
+   through the provision of a single colon: the dotted name to the
+   left of the colon is a package to be imported, and the dotted name

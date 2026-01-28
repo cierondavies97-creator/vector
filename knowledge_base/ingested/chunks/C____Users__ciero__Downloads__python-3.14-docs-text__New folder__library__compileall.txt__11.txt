@@ -1,0 +1,5 @@
+Python.  The default is to write files to their **PEP 3147**
+   locations and names, which allows byte-code files from multiple
+   versions of Python to coexist.
+-r
+   Control the maximum recursion level for subdirectories. If this is

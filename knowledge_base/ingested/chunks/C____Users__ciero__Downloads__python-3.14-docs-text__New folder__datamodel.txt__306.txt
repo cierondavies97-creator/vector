@@ -1,0 +1,4 @@
+may also be explicitly created by calling "types.TracebackType".
+Changed in version 3.7: Traceback objects can now be explicitly
+instantiated from Python code.
+For implicitly created tracebacks, when the search for an exception

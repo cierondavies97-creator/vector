@@ -1,0 +1,4 @@
+However, "load_module()" has been deprecated and loaders should
+implement "exec_module()" instead.The "load_module()" method must
+implement all the boilerplate loading functionality described above in
+addition to executing the module.  All the same constraints apply,

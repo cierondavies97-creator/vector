@@ -1,0 +1,6 @@
+stick around to hog resources and create problems when looking for
+   refleaks.
+test.support.get_attribute(obj, name)
+   Get an attribute, raising "unittest.SkipTest" if "AttributeError"
+   is raised.
+test.support.catch_unraisable_exception()

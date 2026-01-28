@@ -1,0 +1,8 @@
+argument in "parse()".
+--no-type-comments
+   Don't parse type comments.
+-a, --include-attributes
+   Include attributes such as line numbers and column offsets.
+-i <indent>
+--indent <indent>
+   Indentation of nodes in AST (number of spaces).

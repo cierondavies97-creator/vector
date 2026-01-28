@@ -1,0 +1,5 @@
+enumeration's "__members__", gathering any aliases it finds; if any
+   are found "ValueError" is raised with the details:
+      >>> from enum import Enum, unique
+      >>> @unique
+      ... class Mistake(Enum):

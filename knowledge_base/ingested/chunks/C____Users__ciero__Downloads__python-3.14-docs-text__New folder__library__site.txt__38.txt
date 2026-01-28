@@ -1,0 +1,6 @@
+site-packages was added to "sys.path" "ENABLE_USER_SITE" should be
+   used.
+   Added in version 3.2.
+Command-line interface
+======================
+The "site" module also provides a way to get the user directories from

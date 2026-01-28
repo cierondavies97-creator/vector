@@ -1,0 +1,5 @@
+interface -- for example, buffer objects and memory mapped
+      files.
+      The *errors* argument defines the error handling to apply. It
+      defaults to "'strict'" handling.
+      The method may not store state in the "Codec" instance. Use

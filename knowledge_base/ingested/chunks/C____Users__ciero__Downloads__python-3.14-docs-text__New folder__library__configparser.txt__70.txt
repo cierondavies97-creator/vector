@@ -1,0 +1,4 @@
+This option has a major impact on how the mapping protocol will
+  behave and how the written configuration files look.  With the
+  standard dictionary, every section is stored in the order they were
+  added to the parser.  Same goes for options within sections.

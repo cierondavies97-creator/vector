@@ -1,0 +1,9 @@
+print("reading %s..." % options.filename)
+       ...
+   if __name__ == "__main__":
+       main()
+Reference Guide
+===============
+Creating the parser
+-------------------
+The first step in using "optparse" is to create an OptionParser

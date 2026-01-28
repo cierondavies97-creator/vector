@@ -1,0 +1,4 @@
+The least significant bit of the Unicode character is the rightmost x
+bit.
+As UTF-8 is an 8-bit encoding no BOM is required and any "U+FEFF"
+character in the decoded string (even if it's the first character) is

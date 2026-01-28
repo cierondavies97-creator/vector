@@ -1,0 +1,4 @@
+when the SQL function is invoked. The callable must return
+           a type natively supported by SQLite. Set to "None" to
+           remove an existing SQL function.
+         * **deterministic** (*bool*) -- If "True", the created SQL

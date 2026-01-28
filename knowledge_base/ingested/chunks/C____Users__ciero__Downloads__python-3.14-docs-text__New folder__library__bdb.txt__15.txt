@@ -1,0 +1,3 @@
+"sys.settrace()" which has the best backward compatibility. The
+   "'monitoring'" backend uses the new "sys.monitoring" that was
+   introduced in Python 3.12, which can be much more efficient because

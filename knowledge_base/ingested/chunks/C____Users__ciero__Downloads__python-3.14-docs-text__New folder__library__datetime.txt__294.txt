@@ -1,0 +1,6 @@
+doesn't return "None" or a string object.
+Examples of Usage: "time"
+-------------------------
+Examples of working with a "time" object:
+   >>> from datetime import time, tzinfo, timedelta
+   >>> class TZ1(tzinfo):

@@ -1,0 +1,7 @@
+>>> '1 2 3'.split()
+      ['1', '2', '3']
+      >>> '1 2 3'.split(maxsplit=1)
+      ['1', '2 3']
+      >>> '   1   2   3   '.split()
+      ['1', '2', '3']
+   If *sep* is not specified or is "None" and  *maxsplit* is "0", only

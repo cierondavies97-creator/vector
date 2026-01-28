@@ -1,0 +1,4 @@
+variation in the exact format of this data among mbox
+   implementations. Flags that indicate the state of the message, such
+   as whether it has been read or marked as important, are typically
+   stored in *Status* and *X-Status* headers.

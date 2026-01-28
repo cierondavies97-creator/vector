@@ -1,0 +1,4 @@
+return "False": "a<b", "a==b", or "a>b".
+Since sets only define partial ordering (subset relationships), the
+output of the "list.sort()" method is undefined for lists of sets.
+Set elements, like dictionary keys, must be *hashable*.

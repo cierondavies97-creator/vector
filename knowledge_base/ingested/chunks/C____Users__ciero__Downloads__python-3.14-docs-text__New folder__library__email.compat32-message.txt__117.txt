@@ -1,0 +1,6 @@
+text/plain
+         message/rfc822
+         text/plain
+      "walk" iterates over the subparts of any part where
+      "is_multipart()" returns "True", even though
+      "msg.get_content_maintype() == 'multipart'" may return "False".

@@ -1,0 +1,3 @@
++--------------+---------------------------------------------------------------+
+A state specification is a sequence of state names, optionally
+prefixed with an exclamation point indicating that the bit is off.

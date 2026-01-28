@@ -1,0 +1,5 @@
+IDLE --- Python editor and shell
+********************************
+**Source code:** Lib/idlelib/
+======================================================================
+IDLE is Python's Integrated Development and Learning Environment.

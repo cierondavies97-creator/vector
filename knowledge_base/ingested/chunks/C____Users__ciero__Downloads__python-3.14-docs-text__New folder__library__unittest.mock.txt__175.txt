@@ -1,0 +1,5 @@
+-------------------
+Mock objects create attributes on demand. This allows them to pretend
+to be objects of any type.
+You may want a mock object to return "False" to a "hasattr()" call, or
+raise an "AttributeError" when an attribute is fetched. You can do

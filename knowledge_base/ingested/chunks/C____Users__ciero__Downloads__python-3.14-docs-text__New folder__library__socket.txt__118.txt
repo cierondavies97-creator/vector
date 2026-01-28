@@ -1,0 +1,3 @@
+Build a pair of connected socket objects using the given address
+   family, socket type, and protocol number.  Address family, socket
+   type, and protocol number are as for the "socket()" function above.

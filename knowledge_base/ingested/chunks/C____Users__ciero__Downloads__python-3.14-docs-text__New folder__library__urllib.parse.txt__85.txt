@@ -1,0 +1,4 @@
+The "urlsplit()" and "urlparse()" APIs do not perform **validation**
+of inputs.  They may not raise errors on inputs that other
+applications consider invalid.  They may also succeed on some inputs
+that might not be considered URLs elsewhere.  Their purpose is for

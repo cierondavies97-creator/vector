@@ -1,0 +1,5 @@
+* "*filename*.dat"
+        * "*filename*.dir"
+      * **flag** (*str*) --
+        * "'r'": Open existing database for reading only.
+        * "'w'": Open existing database for reading and writing.

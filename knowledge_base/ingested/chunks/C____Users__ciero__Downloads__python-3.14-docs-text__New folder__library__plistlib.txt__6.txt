@@ -1,0 +1,4 @@
+Read a plist file. *fp* should be a readable and binary file
+   object. Return the unpacked root object (which usually is a
+   dictionary).
+   The *fmt* is the format of the file and the following values are

@@ -1,0 +1,4 @@
+Internally, Tk and Ttk use facilities of the underlying operating
+system, i.e., Xlib on Unix/X11, Cocoa on macOS, GDI on Windows.
+When your Python application uses a class in Tkinter, e.g., to create
+a widget, the "tkinter" module first assembles a Tcl/Tk command

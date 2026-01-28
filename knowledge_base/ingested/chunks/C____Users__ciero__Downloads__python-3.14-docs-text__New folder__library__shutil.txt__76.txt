@@ -1,0 +1,4 @@
+Change owner *user* and/or *group* of the given *path*.
+   *user* can be a system user name or a uid; the same applies to
+   *group*. At least one argument is required.
+   See also "os.chown()", the underlying function.

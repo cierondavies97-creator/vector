@@ -1,0 +1,3 @@
+from a different process (such as one started with "multiprocessing").
+The Event Loop Methods section lists APIs that can read from pipes and
+watch file descriptors without blocking the event loop. In addition,

@@ -1,0 +1,4 @@
+it takes to collect them many times over as the years go by and things
+change.  I'm still amazed at how often one of my "doctest" examples
+stops working after a "harmless" change.
+Doctest also makes an excellent tool for regression testing,

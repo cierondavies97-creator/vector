@@ -1,0 +1,5 @@
+mutable sequence types.
+There are currently two intrinsic mutable sequence types:
+Lists
+   The items of a list are arbitrary Python objects.  Lists are formed
+   by placing a comma-separated list of expressions in square

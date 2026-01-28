@@ -1,0 +1,3 @@
+for other means of locating attributes). When the attribute name is
+not found there, the attribute search continues in the base classes.
+This search of the base classes uses the C3 method resolution order

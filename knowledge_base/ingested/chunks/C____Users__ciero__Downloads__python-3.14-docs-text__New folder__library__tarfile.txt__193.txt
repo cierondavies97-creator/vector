@@ -1,0 +1,6 @@
+for name in ["foo", "bar", "quux"]:
+           tar.add(name)
+How to create and write an archive to stdout using "sys.stdout.buffer"
+in the *fileobj* parameter in "TarFile.add()":
+   import sys
+   import tarfile

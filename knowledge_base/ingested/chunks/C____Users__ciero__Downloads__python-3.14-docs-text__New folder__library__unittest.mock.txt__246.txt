@@ -1,0 +1,6 @@
+...     def __getitem__(self, name):
+...         return self.values[name]
+...     def __setitem__(self, name, value):
+...         self.values[name] = value
+...     def __delitem__(self, name):
+...         del self.values[name]

@@ -1,0 +1,5 @@
+module.
+   FORWARDREF = 3
+      Values are real annotation values (as per "Format.VALUE" format)
+      for defined values, and "ForwardRef" proxies for undefined
+      values. Real objects may contain references to "ForwardRef"

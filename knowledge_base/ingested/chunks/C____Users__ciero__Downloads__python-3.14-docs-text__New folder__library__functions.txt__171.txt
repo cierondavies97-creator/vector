@@ -1,0 +1,4 @@
+return "True" if *class* is a subclass of any entry in *classinfo*.
+   In any other case, a "TypeError" exception is raised.
+   Changed in version 3.10: *classinfo* can be a Union Type.
+iter(iterable, /)

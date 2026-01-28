@@ -1,0 +1,4 @@
+249**-compliant transaction control. This means:
+* "sqlite3" ensures that a transaction is always open, so "connect()",
+  "Connection.commit()", and "Connection.rollback()" will implicitly
+  open a new transaction (immediately after closing the pending one,

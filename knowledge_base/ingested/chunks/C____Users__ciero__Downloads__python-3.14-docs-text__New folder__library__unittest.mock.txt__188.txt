@@ -1,0 +1,3 @@
+these but instead raises an "AttributeError". This is because the
+    interpreter will often implicitly request these methods, and gets
+    *very* confused to get a new Mock object when it expects a magic

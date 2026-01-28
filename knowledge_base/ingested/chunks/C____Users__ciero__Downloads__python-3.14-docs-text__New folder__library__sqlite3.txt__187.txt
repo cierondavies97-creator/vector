@@ -1,0 +1,6 @@
+autocommit mode.
+      "True" if a transaction is active (there are uncommitted
+      changes), "False" otherwise.
+      Added in version 3.2.
+   isolation_level
+      Controls the legacy transaction handling mode of "sqlite3". If

@@ -1,0 +1,4 @@
+time.ctime(time.mktime(d.timetuple()))
+   on platforms where the native C "ctime()" function (which
+   "time.ctime()" invokes, but which "datetime.ctime()" does not
+   invoke) conforms to the C standard.

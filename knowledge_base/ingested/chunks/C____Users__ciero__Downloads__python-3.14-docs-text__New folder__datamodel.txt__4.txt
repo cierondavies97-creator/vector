@@ -1,0 +1,4 @@
+*type* is also unchangeable. [1]
+The *value* of some objects can change.  Objects whose value can
+change are said to be *mutable*; objects whose value is unchangeable
+once they are created are called *immutable*. (The value of an

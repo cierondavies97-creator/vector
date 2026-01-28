@@ -1,0 +1,5 @@
+one.
+   * Nested "Literal" types are flattened, e.g.:
+        assert Literal[Literal[1, 2], 3] == Literal[1, 2, 3]
+     However, this does not apply to "Literal" types referenced
+     through a type alias, to avoid forcing evaluation of the

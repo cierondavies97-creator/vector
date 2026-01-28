@@ -1,0 +1,5 @@
+'notBefore': 'Nov 21 03:09:52 2011 GMT',
+       'serialNumber': '95F0',
+       'subject': ((('description', '571208-SLe257oHY9fVQ07Z'),),
+                   (('countryName', 'US'),),
+                   (('stateOrProvinceName', 'California'),),

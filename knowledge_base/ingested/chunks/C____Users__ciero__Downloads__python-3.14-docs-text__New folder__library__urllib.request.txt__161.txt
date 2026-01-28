@@ -1,0 +1,5 @@
+Retry the request with authentication information, if available.
+ProxyBasicAuthHandler Objects
+=============================
+ProxyBasicAuthHandler.http_error_407(req, fp, code, msg, hdrs)
+   Retry the request with authentication information, if available.

@@ -1,0 +1,3 @@
+are always opened in binary mode. No automatic conversion of
+     "'\n'" is done on reading and writing. The *mode* argument may be
+     any binary mode acceptable to the built-in "open()" function; the

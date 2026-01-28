@@ -1,0 +1,6 @@
+connections.
+   Changed in version 3.5: Added support for SSL/TLS in
+   "ProactorEventLoop".
+   Changed in version 3.5.1: The *host* parameter can be a sequence of
+   strings.
+   Changed in version 3.6: Added *ssl_handshake_timeout* and

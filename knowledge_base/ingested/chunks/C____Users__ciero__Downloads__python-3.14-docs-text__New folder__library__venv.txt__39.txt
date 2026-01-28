@@ -1,0 +1,4 @@
+script will run with that interpreter regardless of the value of
+"PATH". On Windows, "shebang" line processing is supported if you have
+the Python install manager installed. Thus, double-clicking an
+installed script in a Windows Explorer window should run it with the

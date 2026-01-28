@@ -1,0 +1,6 @@
+(-1, 86399, 999999)
+   Since the string representation of "timedelta" objects can be
+   confusing, use the following recipe to produce a more readable
+   format:
+      >>> def pretty_timedelta(td):
+      ...     if td.days >= 0:

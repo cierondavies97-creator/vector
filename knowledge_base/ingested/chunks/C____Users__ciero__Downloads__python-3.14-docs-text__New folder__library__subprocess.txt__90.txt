@@ -1,0 +1,4 @@
+Changed in version 3.8: The *preexec_fn* parameter is no longer
+   supported in subinterpreters. The use of the parameter in a
+   subinterpreter raises "RuntimeError". The new restriction may
+   affect applications that are deployed in mod_wsgi, uWSGI, and other

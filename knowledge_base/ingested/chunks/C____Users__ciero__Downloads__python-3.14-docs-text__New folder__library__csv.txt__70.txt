@@ -1,0 +1,4 @@
+characters in *lineterminator*). It defaults to "'"'". Can be set
+   to "None" to prevent escaping "'"'" if *quoting* is set to
+   "QUOTE_NONE".
+   Changed in version 3.11: An empty *quotechar* is not allowed.

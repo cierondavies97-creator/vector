@@ -1,0 +1,5 @@
+"concurrent.futures.InvalidStateError" if the "Future" is
+      already done.
+   set_exception(exception)
+      Sets the result of the work associated with the "Future" to the
+      "Exception" *exception*.

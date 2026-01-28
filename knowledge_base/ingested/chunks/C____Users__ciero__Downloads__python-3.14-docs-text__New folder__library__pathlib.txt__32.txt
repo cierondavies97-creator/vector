@@ -1,0 +1,5 @@
+>>> os.fspath(p)
+   '/etc'
+The string representation of a path is the raw filesystem path itself
+(in native form, e.g. with backslashes under Windows), which you can
+pass to any function taking a file path as a string:

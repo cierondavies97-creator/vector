@@ -1,0 +1,6 @@
+interactive help, or help(object) for help about object.", and when
+   accessed directly in the interactive interpreter, invokes the
+   built-in help system (see "help()").
+copyright
+credits
+   Objects that when printed or called, print the text of copyright or

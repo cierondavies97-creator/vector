@@ -1,0 +1,4 @@
+creates WSGI application objects that validate communications between
+a WSGI server or gateway and a WSGI application object, to check both
+sides for protocol conformance.
+Note that this utility does not guarantee complete **PEP 3333**

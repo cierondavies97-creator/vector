@@ -1,0 +1,4 @@
+the uncompressed data size require less memory to decompress,
+      especially at higher compression levels.
+      If "last_mode" is not "FLUSH_FRAME", a "ValueError" is raised as
+      the compressor is not at the start of a frame. If the pledged

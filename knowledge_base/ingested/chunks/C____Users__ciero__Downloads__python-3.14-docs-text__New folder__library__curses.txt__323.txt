@@ -1,0 +1,4 @@
+| curses.COLOR_YELLOW       | Yellow                       |
++---------------------------+------------------------------+
+"curses.textpad" --- Text input widget for curses programs
+**********************************************************

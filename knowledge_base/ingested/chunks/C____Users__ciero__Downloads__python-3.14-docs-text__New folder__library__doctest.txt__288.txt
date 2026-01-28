@@ -1,0 +1,4 @@
+especially if you don't skimp on explanatory text.  By interleaving
+prose and examples, it becomes much easier to keep track of what's
+actually being tested, and why.  When a test fails, good prose can
+make it much easier to figure out what the problem is, and how it

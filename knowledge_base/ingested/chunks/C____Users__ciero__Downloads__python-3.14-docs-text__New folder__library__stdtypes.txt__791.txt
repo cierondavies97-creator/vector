@@ -1,0 +1,6 @@
+"collections.Counter". A different "__missing__()" method is
+      used by "collections.defaultdict".
+   d[key] = value
+      Set "d[key]" to *value*.
+   del d[key]
+      Remove "d[key]" from *d*.  Raises a "KeyError" if *key* is not

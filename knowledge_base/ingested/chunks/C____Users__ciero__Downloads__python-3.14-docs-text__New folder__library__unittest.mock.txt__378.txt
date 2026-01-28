@@ -1,0 +1,4 @@
+"Request" objects are not callable, so the return value of
+instantiating our mocked out "request.Request" is a non-callable mock.
+With the spec in place any typos in our asserts will raise the correct
+error:

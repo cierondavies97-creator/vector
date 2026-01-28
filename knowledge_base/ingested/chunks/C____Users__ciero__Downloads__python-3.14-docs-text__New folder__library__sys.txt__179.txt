@@ -1,0 +1,4 @@
+subtypes) are included.
+   Objects from the list are not safe to use. Specifically, the result
+   will include objects from all interpreters that share their object
+   allocator state (that is, ones created with

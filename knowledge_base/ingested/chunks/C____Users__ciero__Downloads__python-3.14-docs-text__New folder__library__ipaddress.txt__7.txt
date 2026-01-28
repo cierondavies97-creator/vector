@@ -1,0 +1,3 @@
+representing the IP network.  Either IPv4 or IPv6 networks may be
+   supplied; integers less than "2**32" will be considered to be IPv4
+   by default.  *strict* is passed to "IPv4Network" or "IPv6Network"

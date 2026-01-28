@@ -1,0 +1,4 @@
+of the global variable "errno".  The most general function is
+"PyErr_SetObject()", which takes two object arguments, the exception
+and its associated value.  You don't need to "Py_INCREF()" the objects
+passed to any of these functions.

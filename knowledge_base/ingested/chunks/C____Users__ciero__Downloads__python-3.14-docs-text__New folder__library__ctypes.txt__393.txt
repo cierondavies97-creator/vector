@@ -1,0 +1,6 @@
+object that has a truth value.
+class ctypes.HRESULT
+   Represents a "HRESULT" value, which contains success or error
+   information for a function or method call.
+   Availability: Windows
+class ctypes.py_object

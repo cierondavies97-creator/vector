@@ -1,0 +1,8 @@
+deprecated.
+Note:
+  If you need to parse untrusted or unauthenticated data, see XML
+  security.
+Tutorial
+========
+This is a short tutorial for using "xml.etree.ElementTree" ("ET" in
+short).  The goal is to demonstrate some of the building blocks and

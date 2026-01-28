@@ -1,0 +1,7 @@
+argument to be passed explicitly.
+   Added in version 3.5.1.
+Introspection
+=============
+asyncio.current_task(loop=None)
+   Return the currently running "Task" instance, or "None" if no task
+   is running.

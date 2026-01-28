@@ -1,0 +1,4 @@
+class, you provide a mock of this object that *also* provides
+"some_method". If later you refactor the first class, so that it no
+longer has "some_method" - then your tests will continue to pass even
+though your code is now broken!

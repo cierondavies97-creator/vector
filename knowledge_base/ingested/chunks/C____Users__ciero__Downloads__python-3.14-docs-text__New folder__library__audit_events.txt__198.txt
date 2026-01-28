@@ -1,0 +1,3 @@
+| _posixsubprocess.fork_exec   | "exec_list", "args", "env"                  |
++------------------------------+---------------------------------------------+
+| ctypes.PyObj_FromPtr         | "obj"                                       |

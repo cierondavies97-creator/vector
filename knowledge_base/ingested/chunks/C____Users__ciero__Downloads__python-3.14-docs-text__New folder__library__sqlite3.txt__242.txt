@@ -1,0 +1,6 @@
+to native SQLite types.
+Exceptions
+----------
+The exception hierarchy is defined by the DB-API 2.0 (**PEP 249**).
+exception sqlite3.Warning
+   This exception is not currently raised by the "sqlite3" module, but

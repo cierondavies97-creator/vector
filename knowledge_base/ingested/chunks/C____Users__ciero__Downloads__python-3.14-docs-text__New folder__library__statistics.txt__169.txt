@@ -1,0 +1,4 @@
+The measurements are assumed to be normally distributed, so we
+summarize the data with "NormalDist":
+   >>> height_male = NormalDist.from_samples([6, 5.92, 5.58, 5.92])
+   >>> height_female = NormalDist.from_samples([5, 5.5, 5.42, 5.75])

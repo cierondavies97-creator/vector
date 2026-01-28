@@ -1,0 +1,4 @@
+only if the first set is a proper superset of the second set (is a
+superset, but is not equal).
+Instances of "set" are compared to instances of "frozenset" based on
+their members.  For example, "set('abc') == frozenset('abc')" returns

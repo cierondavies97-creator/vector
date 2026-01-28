@@ -1,0 +1,6 @@
+due to Tcl/Tk limitations.
+See also the indent/dedent region commands on the Format menu.
+Search and Replace
+------------------
+Any selection becomes a search target.  However, only selections
+within a line work because searches are only performed within lines

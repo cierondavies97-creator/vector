@@ -1,0 +1,4 @@
+A "match" statement. "subject" holds the subject of the match (the
+   object that is being matched against the cases) and "cases"
+   contains an iterable of "match_case" nodes with the different
+   cases.

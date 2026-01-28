@@ -1,0 +1,6 @@
+See also: **PEP 3151** - Reworking the OS and IO exception hierarchy
+Warnings
+========
+The following exceptions are used as warning categories; see the
+Warning Categories documentation for more details.
+exception Warning

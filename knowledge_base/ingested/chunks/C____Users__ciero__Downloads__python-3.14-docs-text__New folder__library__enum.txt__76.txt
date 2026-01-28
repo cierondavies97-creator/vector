@@ -1,0 +1,9 @@
+True
+         >>> purple in white
+         True
+         >>> white in purple
+         False
+   __iter__(self):
+      Returns all contained non-alias members:
+         >>> list(Color.RED)
+         [<Color.RED: 1>]

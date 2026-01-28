@@ -1,0 +1,4 @@
+in the result.  The previous behaviour mixed actual parser
+      options with variables provided for interpolation.
+   set(section, option, value)
+      If the given section exists, set the given option to the

@@ -1,0 +1,4 @@
+*name* is the unique name for the requested shared memory, as
+   described in the definition for "SharedMemory".  When attaching to
+   an existing "ShareableList", specify its shared memory block's
+   unique name while leaving *sequence* set to "None".

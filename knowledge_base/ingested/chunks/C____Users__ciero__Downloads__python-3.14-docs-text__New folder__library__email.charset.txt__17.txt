@@ -1,0 +1,4 @@
+Message object being encoded.  The function should then set the
+      *Content-Transfer-Encoding* header itself to whatever is
+      appropriate.
+      Returns the string "quoted-printable" if *body_encoding* is

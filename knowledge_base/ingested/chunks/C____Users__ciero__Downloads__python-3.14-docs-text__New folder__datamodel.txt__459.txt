@@ -1,0 +1,3 @@
+Keyword arguments which are given to a new class are passed to the
+   parent class's "__init_subclass__". For compatibility with other
+   classes using "__init_subclass__", one should take out the needed

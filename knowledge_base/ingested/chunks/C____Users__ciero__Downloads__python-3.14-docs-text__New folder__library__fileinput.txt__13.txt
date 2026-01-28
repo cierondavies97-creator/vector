@@ -1,0 +1,5 @@
+Changed in version 3.8: The keyword parameters *mode* and
+   *openhook* are now keyword-only.
+   Changed in version 3.10: The keyword-only parameter *encoding* and
+   *errors* are added.
+The following functions use the global state created by

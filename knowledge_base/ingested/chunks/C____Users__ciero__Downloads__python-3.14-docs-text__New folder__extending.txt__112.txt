@@ -1,0 +1,6 @@
+if (result == NULL)
+       return NULL; /* Pass error back */
+   /* Here maybe use the result */
+   Py_DECREF(result);
+Note the placement of "Py_DECREF(arglist)" immediately after the call,
+before the error check!  Also note that strictly speaking this code is

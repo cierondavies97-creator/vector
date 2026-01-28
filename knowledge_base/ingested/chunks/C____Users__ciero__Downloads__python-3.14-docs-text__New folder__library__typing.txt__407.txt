@@ -1,0 +1,7 @@
+typing.assert_never(arg, /)
+   Ask a static type checker to confirm that a line of code is
+   unreachable.
+   Example:
+      def int_or_str(arg: int | str) -> None:
+          match arg:
+              case int():

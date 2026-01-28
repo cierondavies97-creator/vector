@@ -1,0 +1,10 @@
+Added in version 3.8.3.
+Rounding modes
+==============
+decimal.ROUND_CEILING
+   Round towards "Infinity".
+decimal.ROUND_DOWN
+   Round towards zero.
+decimal.ROUND_FLOOR
+   Round towards "-Infinity".
+decimal.ROUND_HALF_DOWN

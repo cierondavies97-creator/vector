@@ -1,0 +1,4 @@
+"option_strings", "default", "type", "required", "help", etc.
+   defined. The easiest way to ensure these attributes are defined is
+   to call "Action.__init__()".
+   __call__(parser, namespace, values, option_string=None)

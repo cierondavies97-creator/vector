@@ -1,0 +1,5 @@
+otherwise stated. (Important exception: the Boolean operations "or"
+and "and" always return one of their operands.)
+Boolean Operations --- "and", "or", "not"
+=========================================
+These are the Boolean operations, ordered by ascending priority:

@@ -1,0 +1,4 @@
+widget.  The return value of these calls is a dictionary whose key is
+the name of the option as a string (for example, "'relief'") and whose
+values are 5-tuples.
+Some options, like "bg" are synonyms for common options with long

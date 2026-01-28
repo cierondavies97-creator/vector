@@ -1,0 +1,4 @@
+as a float.  For example, on a 1.8Ghz Intel Core i5 running macOS, and
+using Python's time.process_time() as the timer, the magical number is
+about 4.04e-6.
+The object of this exercise is to get a fairly consistent result. If

@@ -1,0 +1,5 @@
+server, or if more specific customization of what's sent to the
+      server is required.
+   emit(record)
+      Sends the record to the web server as a URL-encoded dictionary.
+      The "mapLogRecord()" method is used to convert the record to the

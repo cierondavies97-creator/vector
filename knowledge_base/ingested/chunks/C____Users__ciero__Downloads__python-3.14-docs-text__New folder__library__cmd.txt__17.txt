@@ -1,0 +1,4 @@
+docstring of "do_bar()", if available.  With no argument,
+   "do_help()" lists all available help topics (that is, all commands
+   with corresponding "help_*()" methods or commands that have
+   docstrings), and also lists any undocumented commands.

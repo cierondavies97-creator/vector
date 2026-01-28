@@ -1,0 +1,4 @@
+function that calls the original annotate function, makes any
+necessary adjustments, and returns the result.
+Below is an example of a metaclass that filters out all
+"typing.ClassVar" annotations from the class and puts them in a

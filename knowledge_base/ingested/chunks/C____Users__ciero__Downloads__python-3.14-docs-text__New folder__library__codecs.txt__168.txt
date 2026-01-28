@@ -1,0 +1,4 @@
+treated as a "ZERO WIDTH NO-BREAK SPACE".
+Without external information it's impossible to reliably determine
+which encoding was used for encoding a string. Each charmap encoding
+can decode any random byte sequence. However that's not possible with

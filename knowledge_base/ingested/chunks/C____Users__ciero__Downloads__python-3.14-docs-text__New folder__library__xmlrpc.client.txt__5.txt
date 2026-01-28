@@ -1,0 +1,3 @@
+A "ServerProxy" instance is an object that manages communication
+   with a remote XML-RPC server.  The required first argument is a URI
+   (Uniform Resource Indicator), and will normally be the URL of the

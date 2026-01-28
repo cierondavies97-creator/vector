@@ -1,0 +1,5 @@
+Raises an auditing event "os.forkpty" with no arguments.
+   Warning:
+     On macOS the use of this function is unsafe when mixed with using
+     higher-level system APIs, and that includes using
+     "urllib.request".

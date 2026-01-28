@@ -1,0 +1,4 @@
+asynchronous generator. As with the "send()" method for a
+   generator, this "sends" a value into the asynchronous generator
+   function, and the *value* argument becomes the result of the
+   current yield expression. The awaitable returned by the "asend()"

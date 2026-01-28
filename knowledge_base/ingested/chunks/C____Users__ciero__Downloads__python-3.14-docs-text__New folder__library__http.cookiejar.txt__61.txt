@@ -1,0 +1,3 @@
+Note that "domain_return_ok()" is called for every *cookie* domain,
+   not just for the *request* domain.  For example, the function might
+   be called with both "".example.com"" and ""www.example.com"" if the

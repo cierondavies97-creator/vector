@@ -1,0 +1,4 @@
+specific magic methods are supported. The supported list includes
+*almost* all of them. If there are any missing that you need please
+let us know.
+You mock magic methods by setting the method you are interested in to

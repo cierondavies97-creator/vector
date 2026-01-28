@@ -1,0 +1,4 @@
+Returns the size in bytes of a ctypes type or instance memory
+   buffer. Does the same as the C "sizeof" operator.
+ctypes.string_at(ptr, size=-1)
+   Return the byte string at *void *ptr*. If *size* is specified, it

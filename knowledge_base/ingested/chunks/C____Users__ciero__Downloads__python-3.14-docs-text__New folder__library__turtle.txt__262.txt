@@ -1,0 +1,6 @@
+default "Screen" object created automatically when needed for the
+   first time.
+class turtle.TurtleScreen(cv)
+   Parameters:
+      **cv** -- a "tkinter.Canvas"
+   Provides screen oriented methods like "bgcolor()" etc. that are

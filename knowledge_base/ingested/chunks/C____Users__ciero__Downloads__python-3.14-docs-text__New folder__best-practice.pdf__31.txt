@@ -1,0 +1,13 @@
+15 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Exceptions
+▶ use try, except and raise
+▶ often better then if (e.g. IndexError)
+Example
+try:
+my_product(1, 2, 3)

@@ -1,0 +1,5 @@
+Security Considerations
+***********************
+The following modules have specific security considerations:
+* "base64": base64 security considerations in **RFC 4648**
+* "hashlib": all constructors take a "usedforsecurity" keyword-only

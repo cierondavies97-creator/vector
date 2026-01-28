@@ -1,0 +1,6 @@
+<MagicMock name='mock.sync_foo' id='...'>
+   >>> a_mock.async_foo
+   <AsyncMock name='mock.async_foo' id='...'>
+   >>> mock = Mock(ExampleClass)
+   >>> mock.sync_foo
+   <Mock name='mock.sync_foo' id='...'>

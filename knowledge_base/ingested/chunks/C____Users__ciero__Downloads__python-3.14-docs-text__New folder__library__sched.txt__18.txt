@@ -1,0 +1,4 @@
+the exception.  If an exception is raised by *action*, the event
+   will not be attempted in future calls to "run()".
+   If a sequence of events takes longer to run than the time available
+   before the next event, the scheduler will simply fall behind.  No

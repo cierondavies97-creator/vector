@@ -1,0 +1,5 @@
+objects from the bytes.  The various DBM-related modules support a
+family of hash-based file formats that store a mapping of strings to
+other strings.
+The list of modules described in this chapter is:
+* "pickle" --- Python object serialization

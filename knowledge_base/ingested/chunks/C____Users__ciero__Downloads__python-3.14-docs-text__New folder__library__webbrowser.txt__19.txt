@@ -1,0 +1,4 @@
+appropriate to the caller's environment.
+webbrowser.register(name, constructor, instance=None, *, preferred=False)
+   Register the browser type *name*.  Once a browser type is
+   registered, the "get()" function can return a controller for that

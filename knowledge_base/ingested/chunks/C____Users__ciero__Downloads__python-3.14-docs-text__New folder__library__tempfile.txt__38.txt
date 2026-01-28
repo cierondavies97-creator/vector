@@ -1,0 +1,4 @@
+interpreter shutdown).
+   The *delete* parameter can be used to disable cleanup of the
+   directory tree upon exiting the context.  While it may seem unusual
+   for a context manager to disable the action taken when exiting the

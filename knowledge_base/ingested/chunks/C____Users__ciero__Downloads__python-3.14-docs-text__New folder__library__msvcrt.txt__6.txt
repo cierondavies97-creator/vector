@@ -1,0 +1,6 @@
+not merged; they must be unlocked individually.
+   Raises an auditing event "msvcrt.locking" with arguments "fd",
+   "mode", "nbytes".
+msvcrt.LK_LOCK
+msvcrt.LK_RLCK
+   Locks the specified bytes. If the bytes cannot be locked, the

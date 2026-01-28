@@ -1,0 +1,3 @@
+listed in the data description below. *locale* may be a string, or
+   a pair, language code and encoding. An empty string specifies the
+   user's default settings. If the modification of the locale fails,

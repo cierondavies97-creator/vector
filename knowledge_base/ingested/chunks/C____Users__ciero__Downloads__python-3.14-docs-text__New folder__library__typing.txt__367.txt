@@ -1,0 +1,8 @@
+possible to mark individual keys as non-required using
+   "NotRequired":
+      class Point2D(TypedDict):
+          x: int
+          y: int
+          label: NotRequired[str]
+      # Alternative syntax
+      Point2D = TypedDict('Point2D', {'x': int, 'y': int, 'label': NotRequired[str]})

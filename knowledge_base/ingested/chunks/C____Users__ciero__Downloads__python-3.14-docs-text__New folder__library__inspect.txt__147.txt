@@ -1,0 +1,4 @@
+Pass "False" to get a signature of *callable* specifically
+   ("callable.__wrapped__" will not be used to unwrap decorated
+   callables.)
+   Changed in version 3.10: The *globals*, *locals*, and *eval_str*

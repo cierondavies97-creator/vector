@@ -1,0 +1,3 @@
++-------------------+----------------------------------------------------------+
+| postcommand       | A script (possibly registered with Misc.register) that   |
+|                   | is called immediately before displaying the values. It   |

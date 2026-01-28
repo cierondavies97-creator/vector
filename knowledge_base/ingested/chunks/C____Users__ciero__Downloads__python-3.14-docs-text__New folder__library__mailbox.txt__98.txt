@@ -1,0 +1,5 @@
+*folder*. A "NoSuchMailboxError" exception is raised if the
+      folder does not exist.
+   add_folder(folder)
+      Create a folder whose name is *folder* and return an "MH"
+      instance representing it.

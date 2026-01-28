@@ -1,0 +1,7 @@
+>>> date(2002, 12, 4).isoformat()
+      '2002-12-04'
+date.__str__()
+   For a date "d", "str(d)" is equivalent to "d.isoformat()".
+date.ctime()
+   Return a string representing the date:
+      >>> from datetime import date

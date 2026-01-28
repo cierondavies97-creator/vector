@@ -1,0 +1,5 @@
+Parsers that need to support different or additional prefix
+characters, e.g. for options like "+f" or "/foo", may specify them
+using the "prefix_chars=" argument to the "ArgumentParser"
+constructor:
+   >>> parser = argparse.ArgumentParser(prog='PROG', prefix_chars='-+')

@@ -1,0 +1,3 @@
+also be left out.  Values can also span multiple lines, as long as
+they are indented deeper than the first line of the value.  Depending
+on the parser's mode, blank lines may be treated as parts of multiline

@@ -1,0 +1,6 @@
+sequence *s* are not copied; they are referenced multiple times.
+   This often haunts new Python programmers; consider:
+      >>> lists = [[]] * 3
+      >>> lists
+      [[], [], []]
+      >>> lists[0].append(3)

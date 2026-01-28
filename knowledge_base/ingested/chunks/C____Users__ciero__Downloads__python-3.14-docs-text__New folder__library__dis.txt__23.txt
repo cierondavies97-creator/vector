@@ -1,0 +1,4 @@
+about the code object, like "code_info()".
+   Changed in version 3.7: This can now handle coroutine and
+   asynchronous generator objects.
+   Changed in version 3.11: Added the *show_caches* and *adaptive*

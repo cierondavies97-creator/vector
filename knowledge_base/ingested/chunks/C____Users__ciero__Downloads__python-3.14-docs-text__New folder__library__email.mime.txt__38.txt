@@ -1,0 +1,3 @@
+MIMEText object created will have both a *Content-Type* header with
+   a "charset" parameter, and a *Content-Transfer-Encoding* header.
+   This means that a subsequent "set_payload" call will not result in

@@ -1,0 +1,3 @@
+levels. If you define a level with the same numeric value, it
+overwrites the predefined value; the predefined name is lost.
++-------------------------+-----------------+---------------------------------------+

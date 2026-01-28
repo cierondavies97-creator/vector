@@ -1,0 +1,4 @@
+not need to consider hierarchical issues such as recursive searching
+of the document nodes, although if the context of elements were
+important, one would either need to maintain some context-related
+state (i.e. remembering where one is in the document at any given

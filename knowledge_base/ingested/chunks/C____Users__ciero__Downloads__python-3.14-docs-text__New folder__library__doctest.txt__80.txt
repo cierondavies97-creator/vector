@@ -1,0 +1,4 @@
+expecting "little integer" output still work in these cases.  This
+   option will probably go away, but not for several years.
+doctest.DONT_ACCEPT_BLANKLINE
+   By default, if an expected output block contains a line containing

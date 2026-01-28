@@ -1,0 +1,4 @@
+replace any existing settings for these variables.
+   This routine is intended to make it easier for unit tests of WSGI
+   servers and applications to set up dummy environments.  It should
+   NOT be used by actual WSGI servers or applications, since the data

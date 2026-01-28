@@ -1,0 +1,3 @@
+universally administered MAC addresses (i.e. where the second least
+   significant bit of the first octet is *unset*) will be preferred
+   over locally administered MAC addresses, but with no other ordering

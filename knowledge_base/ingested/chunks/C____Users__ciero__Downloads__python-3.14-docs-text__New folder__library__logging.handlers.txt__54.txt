@@ -1,0 +1,5 @@
+on the product of *when* and *interval*.
+   You can use the *when* to specify the type of *interval*. The list
+   of possible values is below.  Note that they are not case
+   sensitive.
+   +------------------+------------------------------+---------------------------+

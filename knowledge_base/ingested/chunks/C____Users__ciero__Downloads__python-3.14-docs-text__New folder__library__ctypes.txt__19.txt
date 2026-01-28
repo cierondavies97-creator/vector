@@ -1,0 +1,4 @@
+Sometimes, dlls export functions with names which aren't valid Python
+identifiers, like ""??2@YAPAXI@Z"". In this case you have to use
+"getattr()" to retrieve the function:
+   >>> getattr(cdll.msvcrt, "??2@YAPAXI@Z")

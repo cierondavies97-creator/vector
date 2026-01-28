@@ -1,0 +1,11 @@
+Set x and y to 1 and 2.
+          >>> x, y = 1, 2
+          Print their sum:
+          >>> print(x+y)
+          3
+      """))
+   displays:
+      # Set x and y to 1 and 2.
+      x, y = 1, 2
+      #
+      # Print their sum:

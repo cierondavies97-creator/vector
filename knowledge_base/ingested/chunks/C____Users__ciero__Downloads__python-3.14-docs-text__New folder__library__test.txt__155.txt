@@ -1,0 +1,5 @@
+interpreter in a subprocess.  The values can include "__isolated",
+   "__cleanenv", "__cwd", and "TERM".
+   Changed in version 3.9: The function no longer strips whitespaces
+   from *stderr*.
+test.support.script_helper.assert_python_ok(*args, **env_vars)

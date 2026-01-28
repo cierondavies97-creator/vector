@@ -1,0 +1,4 @@
+This function uses a cache for past comparisons and the results,
+   with cache entries invalidated if the "os.stat()" information for
+   the file changes.  The entire cache may be cleared using
+   "clear_cache()".

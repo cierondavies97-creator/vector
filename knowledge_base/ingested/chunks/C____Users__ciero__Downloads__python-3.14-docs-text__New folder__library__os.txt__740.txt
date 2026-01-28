@@ -1,0 +1,6 @@
+Changed in version 3.9: Added "CLD_KILLED" and "CLD_STOPPED"
+   values.
+os.waitstatus_to_exitcode(status)
+   Convert a wait status to an exit code.
+   On Unix:
+   * If the process exited normally (if "WIFEXITED(status)" is true),

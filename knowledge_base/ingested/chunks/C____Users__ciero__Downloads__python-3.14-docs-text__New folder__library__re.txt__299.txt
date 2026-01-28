@@ -1,0 +1,4 @@
+Token(type='ASSIGN', value=':=', line=3, column=14)
+   Token(type='ID', value='total', line=3, column=17)
+   Token(type='OP', value='+', line=3, column=23)
+   Token(type='ID', value='price', line=3, column=25)

@@ -1,0 +1,7 @@
+NSKeyedUnarchiver.
+Changed in version 3.9: Old API removed.
+See also:
+  PList manual page
+     Apple's documentation of the file format.
+This module defines the following functions:
+plistlib.load(fp, *, fmt=None, dict_type=dict, aware_datetime=False)

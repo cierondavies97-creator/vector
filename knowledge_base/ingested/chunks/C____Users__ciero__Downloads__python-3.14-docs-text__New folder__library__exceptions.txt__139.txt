@@ -1,0 +1,4 @@
+groups are omitted from the result.
+      The condition is checked for all exceptions in the nested
+      exception group, including the top-level and any nested
+      exception groups. If the condition is true for such an exception

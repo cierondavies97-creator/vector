@@ -1,0 +1,6 @@
+inspect.isasyncgen(object)
+   Return "True" if the object is an *asynchronous generator iterator*
+   created by an *asynchronous generator* function.
+   Added in version 3.6.
+inspect.istraceback(object)
+   Return "True" if the object is a traceback.

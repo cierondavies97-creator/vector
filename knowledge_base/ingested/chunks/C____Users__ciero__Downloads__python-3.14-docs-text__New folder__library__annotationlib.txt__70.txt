@@ -1,0 +1,4 @@
+replaced with the result of calling "eval()" on those values:
+   * If eval_str is true, "eval()" is called on values of type "str".
+     (Note that "get_annotations()" doesn't catch exceptions; if
+     "eval()" raises an exception, it will unwind the stack past the

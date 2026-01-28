@@ -1,0 +1,4 @@
+or "None", the output goes to "sys.stderr"; otherwise it should be
+   an open *file* or *file-like object* to receive the output.
+   Note:
+     The meaning of the *limit* parameter is different than the

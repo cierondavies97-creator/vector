@@ -1,0 +1,3 @@
+code is free to remove cache entries from "sys.path_importer_cache"
+forcing the path based finder to perform the path entry search again.
+If the path entry is not present in the cache, the path based finder

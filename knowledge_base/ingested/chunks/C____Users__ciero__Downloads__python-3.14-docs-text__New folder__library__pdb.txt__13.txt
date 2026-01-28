@@ -1,0 +1,5 @@
+-p, --pid <pid>
+   Attach to the process with the specified PID.
+   Added in version 3.14.
+To attach to a running Python process for remote debugging, use the
+"-p" or "--pid" option with the target process's PID:

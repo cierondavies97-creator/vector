@@ -1,0 +1,4 @@
+Another test-support module with a very different flavor.
+  Simple Smalltalk Testing: With Patterns
+     Kent Beck's original paper on testing frameworks using the
+     pattern shared by "unittest".

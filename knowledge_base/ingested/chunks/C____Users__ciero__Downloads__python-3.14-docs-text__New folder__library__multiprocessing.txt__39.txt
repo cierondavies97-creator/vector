@@ -1,0 +1,7 @@
+processes:
+**Queues**
+   The "Queue" class is a near clone of "queue.Queue".  For example:
+      from multiprocessing import Process, Queue
+      def f(q):
+          q.put([42, None, 'hello'])
+      if __name__ == '__main__':

@@ -1,0 +1,5 @@
+Stop tracing. For "'settrace'" backend, this method is
+      equivalent to "sys.settrace(None)"
+      Added in version 3.14.
+   reset()
+      Set the "botframe", "stopframe", "returnframe" and "quitting"

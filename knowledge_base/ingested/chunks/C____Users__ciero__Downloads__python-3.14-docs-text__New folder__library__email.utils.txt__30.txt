@@ -1,0 +1,4 @@
+timezone offset is used. If it is an aware timezone with offset
+   zero, then *usegmt* may be set to "True", in which case the string
+   "GMT" is used instead of the numeric timezone offset.  This
+   provides a way to generate standards conformant HTTP date headers.

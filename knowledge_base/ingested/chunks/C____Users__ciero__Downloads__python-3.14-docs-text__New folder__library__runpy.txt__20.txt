@@ -1,0 +1,4 @@
+"sys.path". The function then looks for and executes a "__main__"
+   module using the updated path. Note that there is no special
+   protection against invoking an existing "__main__" entry located
+   elsewhere on "sys.path" if there is no such module at the specified

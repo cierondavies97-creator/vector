@@ -1,0 +1,5 @@
+dictionary must contain the key ""id"", and may contain additional
+keys to specify filter-dependent options. Valid filter IDs are as
+follows:
+* Compression filters:
+  * "FILTER_LZMA1" (for use with "FORMAT_ALONE")

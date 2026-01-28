@@ -1,0 +1,5 @@
+output was captured regardless of the "text=True" setting.  It
+      may remain "None" instead of "b''" when no stderr output was
+      observed.
+   Added in version 3.3.
+   Changed in version 3.5: *stdout* and *stderr* attributes added

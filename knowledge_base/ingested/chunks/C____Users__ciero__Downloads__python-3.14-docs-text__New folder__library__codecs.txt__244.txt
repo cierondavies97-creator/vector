@@ -1,0 +1,3 @@
+| mac_roman         | macroman, macintosh              | Western Europe                   |
++-------------------+----------------------------------+----------------------------------+
+| mac_turkish       | macturkish                       | Turkish                          |

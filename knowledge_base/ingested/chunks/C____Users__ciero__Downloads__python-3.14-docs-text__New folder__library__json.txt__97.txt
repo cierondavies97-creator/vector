@@ -1,0 +1,4 @@
+output so that the resulting strings only contain printable ASCII
+characters.
+Other than the *ensure_ascii* parameter, this module is defined
+strictly in terms of conversion between Python objects and "Unicode

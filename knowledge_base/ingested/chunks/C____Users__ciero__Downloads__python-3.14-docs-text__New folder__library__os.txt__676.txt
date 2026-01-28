@@ -1,0 +1,4 @@
+process (they are used instead of the current process'
+   environment); the functions "spawnl()", "spawnlp()", "spawnv()",
+   and "spawnvp()" all cause the new process to inherit the
+   environment of the current process.  Note that keys and values in

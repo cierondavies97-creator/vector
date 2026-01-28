@@ -1,0 +1,4 @@
+command, rather than requiring a challenge/response.
+   Changed in version 3.5: "SMTPNotSupportedError" may be raised, and
+   the *initial_response_ok* parameter was added.
+SMTP.auth(mechanism, authobject, *, initial_response_ok=True)

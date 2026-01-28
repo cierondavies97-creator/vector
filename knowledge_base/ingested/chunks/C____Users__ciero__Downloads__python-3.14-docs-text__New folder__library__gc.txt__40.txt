@@ -1,0 +1,4 @@
+instances of C extension types with a non-"NULL" "tp_del" slot.
+   If "DEBUG_SAVEALL" is set, then all unreachable objects will be
+   added to this list rather than freed.
+   Changed in version 3.2: If this list is non-empty at *interpreter

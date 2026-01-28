@@ -1,0 +1,3 @@
+Dictionaries compare equal if and only if they have the same "(key,
+   value)" pairs (regardless of ordering). Order comparisons ('<',
+   '<=', '>=', '>') raise "TypeError".  To illustrate dictionary

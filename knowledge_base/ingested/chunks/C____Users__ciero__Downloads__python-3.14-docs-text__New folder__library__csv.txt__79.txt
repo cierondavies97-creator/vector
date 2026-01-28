@@ -1,0 +1,3 @@
+dictionary mapping fieldnames to strings or numbers (by passing them
+through "str()" first) for "DictWriter" objects.  Note that complex
+numbers are written out surrounded by parens. This may cause some

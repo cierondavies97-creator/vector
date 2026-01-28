@@ -1,0 +1,6 @@
+def g(obj):
+                  return tuple(resolve_attr(obj, attr) for attr in items)
+          return g
+      def resolve_attr(obj, attr):
+          for name in attr.split("."):
+              obj = getattr(obj, name)

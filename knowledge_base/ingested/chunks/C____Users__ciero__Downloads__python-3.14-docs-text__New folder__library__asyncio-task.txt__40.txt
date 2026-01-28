@@ -1,0 +1,5 @@
+class asyncio.TaskGroup
+   An asynchronous context manager holding a group of tasks. Tasks can
+   be added to the group using "create_task()". All tasks are awaited
+   when the context manager exits.
+   Added in version 3.11.

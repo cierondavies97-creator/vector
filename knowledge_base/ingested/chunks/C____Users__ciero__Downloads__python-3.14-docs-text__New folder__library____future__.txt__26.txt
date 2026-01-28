@@ -1,0 +1,7 @@
+PY_RELEASE_SERIAL # the 3; an int
+      )
+_Feature.getOptionalRelease()
+   *OptionalRelease* records the first release in which the feature
+   was accepted.
+_Feature.getMandatoryRelease()
+   In the case of a *MandatoryRelease* that has not yet occurred,

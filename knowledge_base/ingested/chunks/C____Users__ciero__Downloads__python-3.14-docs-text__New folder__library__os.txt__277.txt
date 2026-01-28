@@ -1,0 +1,4 @@
+read-only flag with it (via the "stat.S_IWRITE" and
+     "stat.S_IREAD" constants or a corresponding integer value).  All
+     other bits are ignored. The default value of *follow_symlinks* is
+     "False" on Windows.The function is limited on WASI, see

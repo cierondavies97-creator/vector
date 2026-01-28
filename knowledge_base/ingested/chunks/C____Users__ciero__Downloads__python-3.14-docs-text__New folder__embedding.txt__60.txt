@@ -1,0 +1,4 @@
+especially between the system Python and your own compiled Python),
+  it is recommended that you use the absolute path to
+  "python*X.Y*-config", as in the above example.
+If this procedure doesn't work for you (it is not guaranteed to work

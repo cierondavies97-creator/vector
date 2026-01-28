@@ -1,0 +1,4 @@
+Changed in version 3.6: The default behavior of the *mangle_from_*
+   and *maxheaderlen* parameters is to follow the policy.
+   flatten(msg, unixfrom=False, linesep=None)
+      Print the textual representation of the message object structure

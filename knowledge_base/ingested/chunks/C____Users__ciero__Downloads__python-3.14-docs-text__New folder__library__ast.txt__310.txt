@@ -1,0 +1,8 @@
+A "return" statement.
+      >>> print(ast.dump(ast.parse('return 4'), indent=4))
+      Module(
+          body=[
+              Return(
+                  value=Constant(value=4))])
+class ast.Yield(value)
+class ast.YieldFrom(value)

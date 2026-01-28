@@ -1,0 +1,4 @@
+effect as the same-name command-line options.
+   The *warnings* argument specifies the warning filter that should be
+   used while running the tests.  If it's not specified, it will
+   remain "None" if a "-W" option is passed to **python** (see Warning

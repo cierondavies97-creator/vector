@@ -1,0 +1,4 @@
+iterator uses most or all of the data before another iterator
+   starts, it is faster to use "list()" instead of "tee()".
+itertools.zip_longest(*iterables, fillvalue=None)
+   Make an iterator that aggregates elements from each of the

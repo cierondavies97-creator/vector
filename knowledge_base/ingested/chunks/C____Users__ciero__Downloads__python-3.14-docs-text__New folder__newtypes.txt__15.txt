@@ -1,0 +1,4 @@
+Now that's a *lot* of methods.  Don't worry too much though -- if you
+have a type you want to define, the chances are very good that you
+will only implement a handful of these.
+As you probably expect by now, we're going to go over this and give

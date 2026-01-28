@@ -1,0 +1,4 @@
+*argument_list* is not used anymore and will always be "None".
+      The argument is kept for backwards compatibility.
+   user_line(frame)
+      Called from "dispatch_line()" when either "stop_here()" or

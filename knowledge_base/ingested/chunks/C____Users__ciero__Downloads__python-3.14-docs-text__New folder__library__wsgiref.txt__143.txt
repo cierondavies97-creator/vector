@@ -1,0 +1,5 @@
+else:
+           respond("404 Not Found", [("Content-Type", "text/plain")])
+           return [b"not found"]
+   if __name__ == "__main__":
+       # Get the path and port from command-line arguments

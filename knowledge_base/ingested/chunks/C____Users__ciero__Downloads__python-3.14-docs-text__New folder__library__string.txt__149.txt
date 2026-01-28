@@ -1,0 +1,4 @@
+literals.It is unrelated to template string literals (t-strings),
+  which were introduced in Python 3.14. These evaluate to
+  "string.templatelib.Template" objects, found in the
+  "string.templatelib" module.

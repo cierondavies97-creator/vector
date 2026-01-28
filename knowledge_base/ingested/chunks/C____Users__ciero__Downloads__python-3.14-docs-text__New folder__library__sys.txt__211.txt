@@ -1,0 +1,4 @@
+filenames of cached modules.  By convention, it would be a
+   composite of the implementation's name and version, like
+   "'cpython-33'".  However, a Python implementation may use some
+   other value if appropriate.  If "cache_tag" is set to "None", it

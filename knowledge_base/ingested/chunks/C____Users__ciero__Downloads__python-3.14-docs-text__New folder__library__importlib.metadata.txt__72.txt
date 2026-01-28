@@ -1,0 +1,4 @@
+That importer now presumably provides importable modules from a
+database, but it provides no metadata or entry points. For this custom
+importer to provide metadata, it would also need to implement
+"DistributionFinder":

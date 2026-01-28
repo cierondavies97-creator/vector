@@ -1,0 +1,8 @@
+operating system.
+   Raises an auditing event "winreg.QueryReflectionKey" with argument
+   "key".
+Constants
+=========
+The following constants are defined for use in many "winreg"
+functions.
+HKEY_* Constants

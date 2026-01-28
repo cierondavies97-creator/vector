@@ -1,0 +1,5 @@
+addition to ids.
+  * "handlers" (optional).  A list of ids of the handlers for this
+    logger.
+  The specified loggers will be configured according to the level,
+  propagation, filters and handlers specified.

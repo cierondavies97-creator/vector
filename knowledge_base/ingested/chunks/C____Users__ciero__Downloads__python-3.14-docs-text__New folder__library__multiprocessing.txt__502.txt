@@ -1,0 +1,4 @@
+[(plus, (i, 8)) for i in range(10)]
+           results = [pool.apply_async(calculate, t) for t in TASKS]
+           imap_it = pool.imap(calculatestar, TASKS)
+           imap_unordered_it = pool.imap_unordered(calculatestar, TASKS)

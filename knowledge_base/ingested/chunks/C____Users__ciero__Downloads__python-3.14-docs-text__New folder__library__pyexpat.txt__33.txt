@@ -1,0 +1,3 @@
+wanted, calling "SetReparseDeferralEnabled(False)" disables reparse
+   deferral for the current Expat parser instance, temporarily or
+   altogether. Calling "SetReparseDeferralEnabled(True)" allows re-

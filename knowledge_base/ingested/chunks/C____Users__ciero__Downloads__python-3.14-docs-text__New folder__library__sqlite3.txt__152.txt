@@ -1,0 +1,4 @@
+"None" (the default), SQLite will come up with an entry
+           point name of its own; see the SQLite docs Loading an
+           Extension for details.
+      Raises an auditing event "sqlite3.load_extension" with arguments

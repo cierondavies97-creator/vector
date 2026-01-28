@@ -1,0 +1,5 @@
+instances of course) is faster too. e.g.
+   class Something:
+       a = 33
+This brings up another issue. It is relatively common to provide a
+default value of "None" for members that will later be an object of a

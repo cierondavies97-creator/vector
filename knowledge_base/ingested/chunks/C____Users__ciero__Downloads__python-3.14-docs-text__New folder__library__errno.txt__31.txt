@@ -1,0 +1,11 @@
+errno.EREMOTEIO
+   Remote I/O error
+errno.EDQUOT
+   Quota exceeded
+errno.EQFULL
+   Interface output queue is full
+   Added in version 3.11.
+errno.ENOMEDIUM
+   No medium found
+errno.EMEDIUMTYPE
+   Wrong medium type

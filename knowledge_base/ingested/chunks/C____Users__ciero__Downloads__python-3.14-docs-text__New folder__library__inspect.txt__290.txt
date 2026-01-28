@@ -1,0 +1,6 @@
+the source code. If set, it will be the first item in "co_consts".
+   Added in version 3.14.
+inspect.CO_METHOD
+   The flag is set when the code object is a function defined in class
+   scope.
+   Added in version 3.14.

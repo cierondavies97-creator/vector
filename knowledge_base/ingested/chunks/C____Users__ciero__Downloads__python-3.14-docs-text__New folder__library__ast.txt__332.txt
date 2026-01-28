@@ -1,0 +1,4 @@
+ignored, and the "type_comment" field on selected AST nodes will
+   always be "None".  In addition, the locations of "# type: ignore"
+   comments will be returned as the "type_ignores" attribute of
+   "Module" (otherwise it is always an empty list).

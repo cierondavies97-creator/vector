@@ -1,0 +1,6 @@
+deadline is not set.
+         reschedule(when: float | None)
+            Reschedule the timeout.
+         expired() -> bool
+            Return whether the context manager has exceeded its
+            deadline (expired).

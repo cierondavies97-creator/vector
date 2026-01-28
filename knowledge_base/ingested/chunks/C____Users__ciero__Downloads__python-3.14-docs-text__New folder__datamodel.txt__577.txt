@@ -1,0 +1,4 @@
+object is an integer type.  Must return an integer.
+   If "__int__()", "__float__()" and "__complex__()" are not defined
+   then corresponding built-in functions "int()", "float()" and
+   "complex()" fall back to "__index__()".

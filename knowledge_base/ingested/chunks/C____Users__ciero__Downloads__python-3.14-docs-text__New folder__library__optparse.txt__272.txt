@@ -1,0 +1,7 @@
+"args"
+   is a tuple of arbitrary positional arguments supplied via the
+   "callback_args" option attribute.
+"kwargs"
+   is a dictionary of arbitrary keyword arguments supplied via
+   "callback_kwargs".
+Raising errors in a callback

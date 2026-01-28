@@ -1,0 +1,3 @@
+accumulated value and the right argument, *y*, is the update value
+   from the *iterable*.  If the optional *initial* is present, it is
+   placed before the items of the iterable in the calculation, and

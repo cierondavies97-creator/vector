@@ -1,0 +1,4 @@
+returns the listener object, and "__exit__()" calls "close()".
+multiprocessing.connection.wait(object_list, timeout=None)
+   Wait till an object in *object_list* is ready.  Returns the list of
+   those objects in *object_list* which are ready.  If *timeout* is a

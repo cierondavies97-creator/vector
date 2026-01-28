@@ -1,0 +1,4 @@
+manager* and has the properties *url*, *headers*, and *status*. See
+   "urllib.response.addinfourl" for more detail on these properties.
+   For HTTP and HTTPS URLs, this function returns a
+   "http.client.HTTPResponse" object slightly modified. In addition to

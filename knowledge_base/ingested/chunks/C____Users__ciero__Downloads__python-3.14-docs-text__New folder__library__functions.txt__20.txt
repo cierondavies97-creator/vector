@@ -1,0 +1,4 @@
+Return a Boolean value, i.e. one of "True" or "False".  The
+   argument is converted using the standard truth testing procedure.
+   If the argument is false or omitted, this returns "False";
+   otherwise, it returns "True".  The "bool" class is a subclass of

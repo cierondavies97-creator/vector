@@ -1,0 +1,5 @@
+sys.monitoring.events.CALL
+   A call in Python code (event occurs before the call).
+sys.monitoring.events.C_RAISE
+   An exception raised from any callable, except for Python functions
+   (event occurs after the exit).

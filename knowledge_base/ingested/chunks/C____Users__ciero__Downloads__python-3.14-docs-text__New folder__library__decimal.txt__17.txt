@@ -1,0 +1,3 @@
+of computation.  Depending on the needs of the application, signals
+may be ignored, considered as informational, or treated as exceptions.
+The signals in the decimal module are: "Clamped", "InvalidOperation",

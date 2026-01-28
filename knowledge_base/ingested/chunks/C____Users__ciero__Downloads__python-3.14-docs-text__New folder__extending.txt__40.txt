@@ -1,0 +1,4 @@
+such as "PyExc_ZeroDivisionError", which you can use directly. Of
+course, you should choose exceptions wisely --- don't use
+"PyExc_TypeError" to mean that a file couldn't be opened (that should
+probably be "PyExc_OSError"). If something's wrong with the argument

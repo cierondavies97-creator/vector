@@ -1,0 +1,10 @@
+...     return 3
+...
+>>> m.side_effect = side_effect
+>>> m()
+3
+>>> m.side_effect = None
+>>> m()
+6
+The "side_effect" can also be any iterable object. Repeated calls to
+the mock will return values from the iterable (until the iterable is

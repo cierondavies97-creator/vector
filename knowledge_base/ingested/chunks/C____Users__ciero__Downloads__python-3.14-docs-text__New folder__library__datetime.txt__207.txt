@@ -1,0 +1,6 @@
+latter doesn't return "None" or a "timedelta" object with magnitude
+   less than one day.
+   Changed in version 3.7: The UTC offset is not restricted to a whole
+   number of minutes.
+datetime.dst()
+   If "tzinfo" is "None", returns "None", else returns

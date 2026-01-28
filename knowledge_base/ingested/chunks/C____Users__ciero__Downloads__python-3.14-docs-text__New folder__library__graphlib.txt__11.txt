@@ -1,0 +1,4 @@
+# 'task_queue' queue.
+              task_queue.put(node)
+          # When the work for a node is done, workers put the node in
+          # 'finalized_tasks_queue' so we can get more nodes to work on.

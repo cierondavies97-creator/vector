@@ -1,0 +1,5 @@
+Decimal('2.561702493119680037517373933E+139')
+   classmethod from_float(f, /)
+      Alternative constructor that only accepts instances of "float"
+      or "int".
+      Note "Decimal.from_float(0.1)" is not the same as

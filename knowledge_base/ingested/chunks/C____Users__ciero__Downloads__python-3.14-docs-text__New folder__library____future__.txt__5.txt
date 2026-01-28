@@ -1,0 +1,5 @@
+will fail, because there was no module of that name prior to 2.1).
+Module Contents
+===============
+No feature description will ever be deleted from "__future__". Since
+its introduction in Python 2.1 the following features have found their

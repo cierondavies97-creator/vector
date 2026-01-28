@@ -1,0 +1,6 @@
+print('\n'.join(finder.badmodules.keys()))
+Sample output (may vary depending on the architecture):
+   Loaded modules:
+   _types:
+   copyreg:  _inverted_registry,_slotnames,__all__
+   re._compiler:  isstring,_sre,_optimize_unicode

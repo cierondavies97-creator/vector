@@ -1,0 +1,6 @@
+Here is a minimal example of such a test runner:
+   if __name__ == '__main__':
+       import doctest
+       flags = doctest.REPORT_NDIFF|doctest.FAIL_FAST
+       if len(sys.argv) > 1:
+           name = sys.argv[1]

@@ -1,0 +1,7 @@
+* "re.L" (locale dependent)
+   * "re.M" (multi-line)
+   * "re.S" (dot matches all)
+   * "re.U" (Unicode matching)
+   * "re.X" (verbose)
+   (The flags are described in Module Contents.)
+   The letters "'a'", "'L'" and "'u'" are mutually exclusive when used

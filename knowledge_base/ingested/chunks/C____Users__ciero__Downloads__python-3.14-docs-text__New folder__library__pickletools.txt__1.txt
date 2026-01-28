@@ -1,0 +1,3 @@
+details of the "pickle" module, some lengthy comments about the
+implementation, and a few useful functions for analyzing pickled data.
+The contents of this module are useful for Python core developers who

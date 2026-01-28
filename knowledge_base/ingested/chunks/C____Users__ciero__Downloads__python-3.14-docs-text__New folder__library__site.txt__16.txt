@@ -1,0 +1,8 @@
+subsubdirectories, "foo", "bar" and "spam", and two path configuration
+files, "foo.pth" and "bar.pth".  Assume "foo.pth" contains the
+following:
+   # foo package configuration
+   foo
+   bar
+   bletch
+and "bar.pth" contains:

@@ -1,0 +1,7 @@
+Extending
+*********
+The main direction for "asyncio" extending is writing custom *event
+loop* classes. Asyncio has helpers that could be used to simplify this
+task.
+Note:
+  Third-parties should reuse existing asyncio code with caution, a new

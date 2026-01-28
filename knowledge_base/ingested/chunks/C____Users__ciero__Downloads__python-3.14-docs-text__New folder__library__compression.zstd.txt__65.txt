@@ -1,0 +1,3 @@
+sizes of data, which is traditionally difficult to compress due to
+   less repetition. If you are compressing multiple similar groups of
+   data (such as similar files), Zstandard dictionaries can improve

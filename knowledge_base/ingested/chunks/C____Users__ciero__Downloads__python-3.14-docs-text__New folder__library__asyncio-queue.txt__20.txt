@@ -1,0 +1,6 @@
+on an empty queue.
+exception asyncio.QueueFull
+   Exception raised when the "put_nowait()" method is called on a
+   queue that has reached its *maxsize*.
+exception asyncio.QueueShutDown
+   Exception raised when "put()" or "get()" is called on a queue which

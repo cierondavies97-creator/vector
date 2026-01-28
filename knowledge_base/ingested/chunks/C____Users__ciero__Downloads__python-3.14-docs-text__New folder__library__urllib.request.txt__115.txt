@@ -1,0 +1,4 @@
+that method called to pre-process the request.
+2. Handlers with a method named like "<protocol>_open()" are called to
+   handle the request. This stage ends when a handler either returns a
+   non-"None" value (ie. a response), or raises an exception (usually

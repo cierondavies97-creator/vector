@@ -1,0 +1,3 @@
+documentation is derived from the docstring (i.e. the "__doc__"
+attribute) of the object, and recursively of its documentable members.
+If there is no docstring, "pydoc" tries to obtain a description from

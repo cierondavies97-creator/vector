@@ -1,0 +1,3 @@
+any of the other methods in the DocumentHandler interface.
+   The locator allows the application to determine the end position of
+   any document-related event, even if the parser is not reporting an

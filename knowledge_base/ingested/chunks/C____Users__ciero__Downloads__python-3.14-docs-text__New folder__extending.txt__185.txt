@@ -1,0 +1,4 @@
+invocations of the interpreter, which can cause the owner of a
+reference to dispose of it.
+The first and most important case to know about is using "Py_DECREF()"
+on an unrelated object while borrowing a reference to a list item.

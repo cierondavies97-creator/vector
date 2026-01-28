@@ -1,0 +1,4 @@
+* Calling "ZstdCompressor.set_pledged_input_size()" with the
+        exact amount of data that will be provided to the compressor
+        prior to any calls to "ZstdCompressor.compress()" for the
+        current frame. "ZstdCompressor.set_pledged_input_size()" must

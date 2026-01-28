@@ -1,0 +1,7 @@
+with ServerProxy("http://betty.userland.com") as proxy:
+       print(proxy)
+       try:
+           print(proxy.examples.getStateName(41))
+       except Error as v:
+           print("ERROR", v)
+To access an XML-RPC server through a HTTP proxy, you need to define a

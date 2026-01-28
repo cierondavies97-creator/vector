@@ -1,0 +1,3 @@
+that uses a "Status:" header to send an HTTP status, you probably
+   want to subclass this instead of "SimpleHandler".
+class wsgiref.handlers.SimpleHandler(stdin, stdout, stderr, environ, multithread=True, multiprocess=False)

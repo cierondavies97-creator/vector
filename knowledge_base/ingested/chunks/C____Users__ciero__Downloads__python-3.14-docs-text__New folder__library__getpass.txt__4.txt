@@ -1,0 +1,4 @@
+Otherwise, *echo_char* must be a single printable ASCII character
+   and each typed character is replaced by it. For example,
+   "echo_char='*'" will display asterisks instead of the actual input.
+   If echo free input is unavailable getpass() falls back to printing

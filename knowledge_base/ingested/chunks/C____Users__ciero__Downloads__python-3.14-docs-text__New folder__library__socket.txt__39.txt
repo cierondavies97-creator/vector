@@ -1,0 +1,4 @@
+Availability: Linux >= 2.2.
+* "AF_QIPCRTR" is a Linux-only socket based interface for
+  communicating with services running on co-processors in Qualcomm
+  platforms. The address family is represented as a "(node, port)"

@@ -1,0 +1,5 @@
+Handling boolean (flag) options
+-------------------------------
+Flag options---set a variable to true or false when a particular
+option is seen---are quite common.  "optparse" supports them with two
+separate actions, "store_true" and "store_false".  For example, you

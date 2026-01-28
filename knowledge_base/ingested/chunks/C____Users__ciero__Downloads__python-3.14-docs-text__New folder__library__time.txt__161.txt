@@ -1,0 +1,7 @@
+the "tm_gmtoff" and "tm_zone" results from "localtime()" to obtain
+  timezone information.
+See also:
+  Module "datetime"
+     More object-oriented interface to dates and times.
+  Module "locale"
+     Internationalization services.  The locale setting affects the

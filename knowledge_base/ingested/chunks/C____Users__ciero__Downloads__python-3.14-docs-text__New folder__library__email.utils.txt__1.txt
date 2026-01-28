@@ -1,0 +1,5 @@
+module:
+email.utils.localtime(dt=None)
+   Return local time as an aware datetime object.  If called without
+   arguments, return current time.  Otherwise *dt* argument should be
+   a "datetime" instance, and it is converted to the local time zone

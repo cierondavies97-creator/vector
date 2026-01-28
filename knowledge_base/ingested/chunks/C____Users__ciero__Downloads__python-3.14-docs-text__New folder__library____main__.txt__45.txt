@@ -1,0 +1,4 @@
+Why does this work?
+Python inserts an empty "__main__" module in "sys.modules" at
+interpreter startup, and populates it by running top-level code. In
+our example this is the "start" module which runs line by line and

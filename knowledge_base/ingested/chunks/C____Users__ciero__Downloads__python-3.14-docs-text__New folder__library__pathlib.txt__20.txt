@@ -1,0 +1,4 @@
+PurePosixPath('foo/../bar')
+   (a naïve approach would make "PurePosixPath('foo/../bar')"
+   equivalent to "PurePosixPath('bar')", which is wrong if "foo" is a
+   symbolic link to another directory)

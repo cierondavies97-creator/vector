@@ -1,0 +1,7 @@
+requested and loaded by a SSL connection.
+   Note:
+     Certificates in a capath directory aren't loaded unless they have
+     been used at least once.
+   Added in version 3.4.
+SSLContext.get_ciphers()
+   Get a list of enabled ciphers. The list is in order of cipher

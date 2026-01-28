@@ -1,0 +1,6 @@
+specified by the *who* parameter.  The *who* parameter should be
+   specified using one of the "RUSAGE_*" constants described below.
+   A simple example:
+      from resource import *
+      import time
+      # a non CPU-bound task

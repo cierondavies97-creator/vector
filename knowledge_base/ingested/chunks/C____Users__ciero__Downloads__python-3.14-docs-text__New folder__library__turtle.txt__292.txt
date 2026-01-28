@@ -1,0 +1,4 @@
+If you have an appropriate entry in your "turtle.cfg" file this
+dictionary will be read in at import time and will replace the
+original English docstrings.
+At the time of this writing there are docstring dictionaries in German

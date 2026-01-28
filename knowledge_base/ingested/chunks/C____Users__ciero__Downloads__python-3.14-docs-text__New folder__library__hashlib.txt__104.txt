@@ -1,0 +1,10 @@
+10
+    /  \
+   00  01
+This example uses 64-byte internal digests, and returns the 32-byte
+final digest:
+   >>> from hashlib import blake2b
+   >>>
+   >>> FANOUT = 2
+   >>> DEPTH = 2
+   >>> LEAF_SIZE = 4096

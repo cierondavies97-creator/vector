@@ -1,0 +1,6 @@
+Note:
+     The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.
+bytes.title()
+bytearray.title()
+   Return a titlecased version of the binary sequence where words

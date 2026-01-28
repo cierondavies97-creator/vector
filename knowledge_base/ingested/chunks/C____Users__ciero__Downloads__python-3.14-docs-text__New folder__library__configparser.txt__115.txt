@@ -1,0 +1,4 @@
+form. This should be an idempotent function: if the name is
+     already in canonical form, it should be returned unchanged.
+ConfigParser.SECTCRE
+   A compiled regular expression used to parse section headers.  The

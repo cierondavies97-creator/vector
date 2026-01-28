@@ -1,0 +1,4 @@
+the previous, blocking until the lock can be acquired.
+      When invoked with the *blocking* argument set to "False":
+         * If no thread owns the lock, acquire the lock and return
+           immediately.

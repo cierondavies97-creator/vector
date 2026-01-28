@@ -1,0 +1,4 @@
+"CGIHandler().run(app)", where "app" is the WSGI application object
+   you wish to invoke.
+   This class is a subclass of "BaseCGIHandler" that sets
+   "wsgi.run_once" to true, "wsgi.multithread" to false, and

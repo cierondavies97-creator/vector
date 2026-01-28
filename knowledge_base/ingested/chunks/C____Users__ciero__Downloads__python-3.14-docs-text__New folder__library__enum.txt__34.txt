@@ -1,0 +1,3 @@
+instances and an appropriate value will be chosen for you.
+        See "auto" for the details.While mutable/unhashable values,
+        such as "dict", "list" or a mutable "dataclass", can be used,

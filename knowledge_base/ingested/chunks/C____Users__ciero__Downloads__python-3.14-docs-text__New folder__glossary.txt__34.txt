@@ -1,0 +1,4 @@
+reference* to the object and so destroy it.
+   Calling "Py_INCREF()" on the *borrowed reference* is recommended to
+   convert it to a *strong reference* in-place, except when the object
+   cannot be destroyed before the last usage of the borrowed

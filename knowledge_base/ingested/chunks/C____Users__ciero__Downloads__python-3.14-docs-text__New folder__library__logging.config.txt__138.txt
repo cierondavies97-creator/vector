@@ -1,0 +1,4 @@
+=========================
+The configuration file format understood by "fileConfig()" is based on
+"configparser" functionality. The file must contain sections called
+"[loggers]", "[handlers]" and "[formatters]" which identify by name

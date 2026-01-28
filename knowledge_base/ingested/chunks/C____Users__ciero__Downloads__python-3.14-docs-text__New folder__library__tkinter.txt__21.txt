@@ -1,0 +1,5 @@
+which will in turn make calls to Xlib, Cocoa, or GDI.
+Tkinter Modules
+===============
+Support for Tkinter is spread across several modules. Most
+applications will need the main "tkinter" module, as well as the

@@ -1,0 +1,3 @@
+to the "PyFile_SetOpenCodeHook()". However, assuming that *path* is
+   a "str" and an absolute path, "open_code(path)" should always
+   behave the same as "open(path, 'rb')". Overriding the behavior is

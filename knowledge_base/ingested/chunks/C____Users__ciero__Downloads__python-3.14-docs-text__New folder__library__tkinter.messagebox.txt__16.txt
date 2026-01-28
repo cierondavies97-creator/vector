@@ -1,0 +1,4 @@
+tkinter.messagebox.askyesno(title=None, message=None, **options)
+   Ask a question. Shows buttons "YES" and "NO". Returns "True" if the
+   answer is yes and "False" otherwise.
+tkinter.messagebox.askyesnocancel(title=None, message=None, **options)

@@ -1,0 +1,4 @@
+AttributesNS.getQNameByName(name)
+   Return the qualified name for a "(namespace, localname)" pair.
+AttributesNS.getQNames()
+   Return the qualified names of all attributes.

@@ -1,0 +1,6 @@
+Built-in Constants
+******************
+A small number of constants live in the built-in namespace.  They are:
+False
+   The false value of the "bool" type. Assignments to "False" are
+   illegal and raise a "SyntaxError".

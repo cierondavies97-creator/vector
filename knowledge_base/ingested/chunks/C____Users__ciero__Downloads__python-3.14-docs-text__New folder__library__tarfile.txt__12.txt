@@ -1,0 +1,3 @@
+|                    | compression.                                  |
+   +--------------------+-----------------------------------------------+
+   | "'r:gz'"           | Open for reading with gzip compression.       |

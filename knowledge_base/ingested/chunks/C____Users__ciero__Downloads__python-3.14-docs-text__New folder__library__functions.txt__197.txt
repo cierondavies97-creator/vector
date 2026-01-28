@@ -1,0 +1,6 @@
+class memoryview(object)
+   Return a "memory view" object created from the given argument.  See
+   Memory Views for more information.
+min(iterable, /, *, key=None)
+min(iterable, /, *, default, key=None)
+min(arg1, arg2, /, *args, key=None)

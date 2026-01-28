@@ -1,0 +1,5 @@
+control by registering custom adapter functions.
+How to write adaptable objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Suppose we have a "Point" class that represents a pair of coordinates,
+"x" and "y", in a Cartesian coordinate system. The coordinate pair

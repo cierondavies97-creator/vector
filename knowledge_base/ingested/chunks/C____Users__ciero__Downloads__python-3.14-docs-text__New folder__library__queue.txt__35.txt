@@ -1,0 +1,4 @@
+"ShutDown". Currently blocked callers of "put()" will be unblocked
+   and will raise "ShutDown" in the formerly blocked thread.
+   If *immediate* is false (the default), the queue can be wound down
+   normally with "get()" calls to extract tasks that have already been

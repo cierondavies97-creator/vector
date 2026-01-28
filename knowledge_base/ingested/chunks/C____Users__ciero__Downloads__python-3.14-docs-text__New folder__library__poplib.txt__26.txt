@@ -1,0 +1,5 @@
+POP3.top(which, howmuch)
+   Retrieves the message header plus *howmuch* lines of the message
+   after the header of message number *which*. Result is in form
+   "(response, ['line', ...], octets)".
+   The POP3 TOP command this method uses, unlike the RETR command,

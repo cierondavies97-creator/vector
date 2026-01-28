@@ -1,0 +1,3 @@
+passwords in the ".netrc" file will raise a "NetrcParseError" if
+   the file ownership or permissions are insecure (owned by a user
+   other than the user running the process, or accessible for read or

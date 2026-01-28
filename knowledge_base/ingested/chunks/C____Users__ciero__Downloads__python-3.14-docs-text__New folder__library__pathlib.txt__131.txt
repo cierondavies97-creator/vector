@@ -1,0 +1,9 @@
+>>> Path('.').exists()
+      True
+      >>> Path('setup.py').exists()
+      True
+      >>> Path('/etc').exists()
+      True
+      >>> Path('nonexistentfile').exists()
+      False
+   Changed in version 3.12: The *follow_symlinks* parameter was added.

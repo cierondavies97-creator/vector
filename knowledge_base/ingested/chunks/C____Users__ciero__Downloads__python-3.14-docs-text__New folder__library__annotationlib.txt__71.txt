@@ -1,0 +1,5 @@
+"get_annotations()" call.)
+   * If *eval_str* is false (the default), values of type "str" are
+     unchanged.
+   *globals* and *locals* are passed in to "eval()"; see the
+   documentation for "eval()" for more information. If *globals* or

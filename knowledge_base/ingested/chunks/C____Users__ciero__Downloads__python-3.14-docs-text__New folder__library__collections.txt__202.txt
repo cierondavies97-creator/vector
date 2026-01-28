@@ -1,0 +1,5 @@
+methods which need to be provided in that case.
+"UserString" objects
+====================
+The class, "UserString" acts as a wrapper around string objects. The
+need for this class has been partially supplanted by the ability to

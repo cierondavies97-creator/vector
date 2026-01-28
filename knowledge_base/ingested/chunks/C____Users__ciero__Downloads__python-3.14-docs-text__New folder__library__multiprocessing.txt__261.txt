@@ -1,0 +1,5 @@
+by child processes.
+Note:
+  Although it is possible to store a pointer in shared memory remember
+  that this will refer to a location in the address space of a
+  specific process. However, the pointer is quite likely to be invalid

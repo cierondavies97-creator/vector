@@ -1,0 +1,3 @@
+Changed in version 3.12: "st_ctime" is deprecated on Windows.
+      Use "st_birthtime" for the file creation time. In the future,
+      "st_ctime" will contain the time of the most recent metadata

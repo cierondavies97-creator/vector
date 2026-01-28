@@ -1,0 +1,5 @@
+Create a backup of an SQLite database.
+      Works even if the database is being accessed by other clients or
+      concurrently by the same connection.
+      Parameters:
+         * **target** (*Connection*) -- The database connection to

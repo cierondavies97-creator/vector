@@ -1,0 +1,5 @@
+method (see below).  Users should never instantiate a "Field"
+   object directly.  Its documented attributes are:
+   * "name": The name of the field.
+   * "type": The type of the field.
+   * "default", "default_factory", "init", "repr", "hash", "compare",

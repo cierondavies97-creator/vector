@@ -1,0 +1,5 @@
+exponent value for subnormal results.  When underflow occurs,
+      the exponent is set to "Etiny".
+   Etop()
+      Returns a value equal to "Emax - prec + 1".
+   The usual approach to working with decimals is to create "Decimal"

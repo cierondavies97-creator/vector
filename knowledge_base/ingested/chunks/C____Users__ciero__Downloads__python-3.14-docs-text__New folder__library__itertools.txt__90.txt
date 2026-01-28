@@ -1,0 +1,4 @@
+for *start*, *stop*, or *step*.
+   If *start* is zero or "None", iteration starts at zero.  Otherwise,
+   elements from the iterable are skipped until *start* is reached.
+   If *stop* is "None", iteration continues until the input is

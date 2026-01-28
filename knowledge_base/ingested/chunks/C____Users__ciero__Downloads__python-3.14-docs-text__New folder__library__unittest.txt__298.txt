@@ -1,0 +1,4 @@
+within a test case class", rather than "a callable object".
+      For example, if you have a module "SampleTests" containing a
+      "TestCase"-derived class "SampleTestCase" with three test
+      methods ("test_one()", "test_two()", and "test_three()"), the

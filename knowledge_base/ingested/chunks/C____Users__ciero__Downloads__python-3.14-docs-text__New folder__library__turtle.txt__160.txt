@@ -1,0 +1,3 @@
+matrix as a tuple of 4 elements. Otherwise set the given elements
+   and transform the turtleshape according to the matrix consisting of
+   first row t11, t12 and second row t21, t22. The determinant t11 *

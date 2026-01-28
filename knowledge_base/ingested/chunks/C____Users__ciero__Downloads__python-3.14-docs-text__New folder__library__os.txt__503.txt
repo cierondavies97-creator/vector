@@ -1,0 +1,4 @@
+print(root, "consumes", end=" ")
+          print(sum(getsize(join(root, name)) for name in files), end=" ")
+          print("bytes in", len(files), "non-directory files")
+          if '__pycache__' in dirs:

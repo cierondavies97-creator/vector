@@ -1,0 +1,3 @@
+representations can be limited to help avoid denial of service
+   attacks. A "ValueError" is raised when the limit is exceeded while
+   converting a string to an "int" or when converting an "int" into a

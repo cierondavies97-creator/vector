@@ -1,0 +1,3 @@
+removal was decided in **PEP 594**.
+The last version of Python that provided the "nntplib" module was
+Python 3.12.

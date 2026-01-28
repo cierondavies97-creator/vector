@@ -1,0 +1,4 @@
+even extends to exception handling - if an inner callback
+   suppresses or replaces an exception, then outer callbacks will be
+   passed arguments based on that updated state.
+   This is a relatively low level API that takes care of the details

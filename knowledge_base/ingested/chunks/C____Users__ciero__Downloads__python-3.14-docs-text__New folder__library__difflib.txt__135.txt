@@ -1,0 +1,4 @@
+"? "    line not present in either input file
+   Lines beginning with "? " attempt to guide the eye to intraline
+   differences, and were not present in either input file.  These lines can be
+   confusing if the source files contain tab characters.

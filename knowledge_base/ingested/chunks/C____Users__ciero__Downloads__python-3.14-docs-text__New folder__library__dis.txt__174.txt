@@ -1,0 +1,5 @@
+COPY_FREE_VARS(n)
+   Copies the "n" *free (closure) variables* from the closure into the
+   frame. Removes the need for special code on the caller's side when
+   calling closures.
+   Added in version 3.11.

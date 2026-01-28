@@ -1,0 +1,4 @@
+representation (which behaves as if opened in binary mode) and
+   returns a custom representation. If *factory* is "None",
+   "mboxMessage" is used as the default message representation. If
+   *create* is "True", the mailbox is created if it does not exist.

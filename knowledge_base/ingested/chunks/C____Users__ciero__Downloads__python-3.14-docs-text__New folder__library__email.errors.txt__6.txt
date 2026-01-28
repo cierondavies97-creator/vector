@@ -1,0 +1,4 @@
+Raised if the "attach()" method is called on an instance of a class
+   derived from "MIMENonMultipart" (e.g. "MIMEImage").
+   "MultipartConversionError" multiply inherits from "MessageError"
+   and the built-in "TypeError".

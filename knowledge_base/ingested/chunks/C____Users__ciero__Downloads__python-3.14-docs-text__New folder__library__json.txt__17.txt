@@ -1,0 +1,7 @@
+used as a YAML serializer.
+Note:
+  This module's encoders and decoders preserve input and output order
+  by default.  Order is only lost if the underlying containers are
+  unordered.
+Basic Usage
+===========

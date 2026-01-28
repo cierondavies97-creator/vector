@@ -1,0 +1,7 @@
+name: str
+      import threading
+      assert isinstance(threading.Thread(name='Bob'), Named)
+   This decorator raises "TypeError" when applied to a non-protocol
+   class.
+   Note:
+     "runtime_checkable()" will check only the presence of the

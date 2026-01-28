@@ -1,0 +1,4 @@
+traceback to determine how the "tb_next" attributes should be linked
+to form a full stack trace.
+Special read-only attributes:
++----------------------------------------------------+----------------------------------------------------+

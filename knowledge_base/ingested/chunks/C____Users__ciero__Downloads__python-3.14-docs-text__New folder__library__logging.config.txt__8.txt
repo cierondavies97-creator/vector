@@ -1,0 +1,4 @@
+has a "configure()" method.  The "logging.config" module has a
+   callable attribute "dictConfigClass" which is initially set to
+   "DictConfigurator". You can replace the value of "dictConfigClass"
+   with a suitable implementation of your own.

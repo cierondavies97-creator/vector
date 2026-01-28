@@ -1,0 +1,4 @@
+would add "getdecimal()" on both the parser object and all section
+  proxies.  In other words, it will be possible to write both
+  "parser_instance.getdecimal('section', 'key', fallback=0)" and
+  "parser_instance['section'].getdecimal('key', 0)".

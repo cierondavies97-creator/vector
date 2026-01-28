@@ -1,0 +1,4 @@
+that ancestor's level is treated as the effective level of the
+      logger where the ancestor search began, and is used to determine
+      how a logging event is handled.
+      If the root is reached, and it has a level of NOTSET, then all

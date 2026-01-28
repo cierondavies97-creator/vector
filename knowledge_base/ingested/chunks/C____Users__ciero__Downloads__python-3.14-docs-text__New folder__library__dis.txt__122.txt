@@ -1,0 +1,9 @@
+object.
+DELETE_ATTR(namei)
+   Implements:
+      obj = STACK.pop()
+      del obj.name
+   where *namei* is the index of name into "co_names" of the code
+   object.
+STORE_GLOBAL(namei)
+   Works as "STORE_NAME", but stores the name as a global.

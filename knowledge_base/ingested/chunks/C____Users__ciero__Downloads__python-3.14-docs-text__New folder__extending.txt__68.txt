@@ -1,0 +1,7 @@
+...
+       .m_methods = spam_methods,
+       ...
+   };
+This structure, in turn, must be passed to the interpreter in the
+module's initialization function.  The initialization function must be
+named "PyInit_name()", where *name* is the name of the module, and

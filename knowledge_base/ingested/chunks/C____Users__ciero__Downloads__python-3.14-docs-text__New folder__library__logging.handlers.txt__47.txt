@@ -1,0 +1,3 @@
+nearly *maxBytes* in length; but if either of *maxBytes* or
+   *backupCount* is zero, rollover never occurs, so you generally want
+   to set *backupCount* to at least 1, and have a non-zero *maxBytes*.

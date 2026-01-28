@@ -1,0 +1,5 @@
+useful for accessing and modifying "info" that is experimental
+      (i.e., not a list of flags).
+   set_info(info)
+      Set "info" to *info*, which should be a string.
+When a "MaildirMessage" instance is created based upon an

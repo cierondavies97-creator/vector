@@ -1,0 +1,5 @@
+"flush()" using "hasattr()" if used in code running across a
+      variety of Python versions.
+      Added in version 3.13.
+   close()
+      Signal the parser that the data stream is terminated. Unlike

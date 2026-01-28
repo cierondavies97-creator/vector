@@ -1,0 +1,5 @@
+>>> len(hex(i_squared))
+   7144
+   >>> assert int(hex(i_squared), base=16) == i*i  # Hexadecimal is unlimited.
+The default limit is 4300 digits as provided in
+"sys.int_info.default_max_str_digits". The lowest limit that can be

@@ -1,0 +1,5 @@
+configuration language which provides a structure similar to what's
+found in Microsoft Windows INI files.  You can use this to write
+Python programs which can be customized by end users easily.
+Note:
+  This library does *not* interpret or write the value-type prefixes

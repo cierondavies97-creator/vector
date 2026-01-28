@@ -1,0 +1,3 @@
+function calls. "None" is passed as a C "NULL" pointer, bytes objects
+and strings are passed as pointer to the memory block that contains
+their data (char* or wchar_t*).  Python integers are passed as the

@@ -1,0 +1,4 @@
+specified by the Python programmer.
+(There are situations where a module can actually give a more detailed
+error message by calling another "PyErr_*" function, and in such cases
+it is fine to do so.  As a general rule, however, this is not

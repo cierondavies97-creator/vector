@@ -1,0 +1,4 @@
+Return "True" if this entry is a directory or a symbolic link
+      pointing to a directory; return "False" if the entry is or
+      points to any other kind of file, or if it doesn't exist
+      anymore.

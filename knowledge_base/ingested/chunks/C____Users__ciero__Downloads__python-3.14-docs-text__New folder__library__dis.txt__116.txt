@@ -1,0 +1,5 @@
+DELETE_NAME(namei)
+   Implements "del name", where *namei* is the index into "co_names"
+   attribute of the code object.
+UNPACK_SEQUENCE(count)
+   Unpacks "STACK[-1]" into *count* individual values, which are put

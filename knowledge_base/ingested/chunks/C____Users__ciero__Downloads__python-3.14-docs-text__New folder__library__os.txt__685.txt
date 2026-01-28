@@ -1,0 +1,3 @@
+"P_DETACH" is similar to "P_NOWAIT", but the new process is
+   detached from the console of the calling process. If "P_OVERLAY" is
+   used, the current process will be replaced; the "spawn*" function

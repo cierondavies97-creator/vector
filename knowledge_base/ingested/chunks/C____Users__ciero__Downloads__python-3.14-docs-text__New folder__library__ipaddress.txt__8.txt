@@ -1,0 +1,5 @@
+constructor.  A "ValueError" is raised if *address* does not
+   represent a valid IPv4 or IPv6 address, or if the network has host
+   bits set.
+   >>> ipaddress.ip_network('192.168.0.0/28')
+   IPv4Network('192.168.0.0/28')

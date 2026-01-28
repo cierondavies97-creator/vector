@@ -1,0 +1,3 @@
+exception is ignored and *import path* iteration continues.  The hook
+should expect either a string or bytes object; the encoding of bytes
+objects is up to the hook (e.g. it may be a file system encoding,

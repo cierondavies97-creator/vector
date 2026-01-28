@@ -1,0 +1,6 @@
+* "NormalDist" objects
+  * Examples and Recipes
+    * Classic probability problems
+    * Monte Carlo inputs for simulations
+    * Approximating binomial distributions
+    * Naive bayesian classifier

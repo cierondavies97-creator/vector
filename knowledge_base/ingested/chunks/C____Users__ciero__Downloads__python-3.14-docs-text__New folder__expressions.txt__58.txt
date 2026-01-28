@@ -1,0 +1,4 @@
+in the leftmost "for" clause is immediately evaluated, and the
+*iterator* is immediately created for that iterable, so that an error
+produced while creating the iterator will be emitted at the point
+where the generator expression is defined, rather than at the point

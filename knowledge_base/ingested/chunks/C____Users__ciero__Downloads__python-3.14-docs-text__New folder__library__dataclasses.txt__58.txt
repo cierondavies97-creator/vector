@@ -1,0 +1,5 @@
+will be "20", and the class attributes "C.x" and "C.y" will not be
+   set.
+class dataclasses.Field
+   "Field" objects describe each defined field. These objects are
+   created internally, and are returned by the "fields()" module-level

@@ -1,0 +1,3 @@
+Iteratively unpack from the buffer *buffer* according to the format
+   string *format*.  This function returns an iterator which will read
+   equally sized chunks from the buffer until all its contents have

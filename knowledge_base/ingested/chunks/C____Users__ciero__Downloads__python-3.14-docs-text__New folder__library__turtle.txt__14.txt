@@ -1,0 +1,7 @@
+start anew:
+   clearscreen()
+Making algorithmic patterns
+---------------------------
+Using loops, it's possible to build up geometric patterns:
+   for steps in range(100):
+       for c in ('blue', 'red', 'green'):

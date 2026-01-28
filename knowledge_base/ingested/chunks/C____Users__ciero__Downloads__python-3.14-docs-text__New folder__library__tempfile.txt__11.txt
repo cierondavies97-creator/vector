@@ -1,0 +1,4 @@
+The "os.O_TMPFILE" flag is used if it is available and works
+   (Linux-specific, requires Linux kernel 3.11 or later).
+   On platforms that are neither Posix nor Cygwin, TemporaryFile is an
+   alias for NamedTemporaryFile.

@@ -1,0 +1,5 @@
+In addition to those of "OSError", "BlockingIOError" can have one
+   more attribute:
+   characters_written
+      An integer containing the number of **bytes** written to the
+      stream before it blocked. This attribute is available when using

@@ -1,0 +1,5 @@
+Raises the "error" exception if any error occurs.
+   Changed in version 3.6: *level* can now be used as a keyword
+   parameter.
+   Changed in version 3.11: The *wbits* parameter is now available to
+   set window bits and compression type.

@@ -1,0 +1,3 @@
+the execution of a program.  There are many different syntaxes for
+   options; the traditional Unix syntax is a hyphen ("-") followed by
+   a single letter, e.g. "-x" or "-F".  Also, traditional Unix syntax

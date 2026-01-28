@@ -1,0 +1,8 @@
+To launch your default runtime, run "python" or "py" with the
+arguments you want to be passed to the runtime (such as script files
+or the module to launch):
+   $> py
+   ...
+   $> python my-script.py
+   ...
+   $> py -m this

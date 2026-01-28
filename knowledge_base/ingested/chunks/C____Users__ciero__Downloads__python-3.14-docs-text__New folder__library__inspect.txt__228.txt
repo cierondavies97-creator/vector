@@ -1,0 +1,5 @@
+unwrapping if any object in the chain has a "__signature__"
+   attribute defined.
+   "ValueError" is raised if a cycle is encountered.
+   Added in version 3.4.
+inspect.get_annotations(obj, *, globals=None, locals=None, eval_str=False, format=annotationlib.Format.VALUE)

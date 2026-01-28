@@ -1,0 +1,5 @@
+When invoked on an unlocked lock, a "RuntimeError" is raised.
+   async wait()
+      Wait until notified.
+      If the calling task has not acquired the lock when this method
+      is called, a "RuntimeError" is raised.

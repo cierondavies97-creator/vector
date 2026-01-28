@@ -1,0 +1,4 @@
+exception for paths that contain characters unrepresentable at the OS
+level.
+Changed in version 3.14: The methods given above now return "False"
+instead of raising any "OSError" exception from the operating system.

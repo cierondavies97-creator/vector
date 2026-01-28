@@ -1,0 +1,4 @@
+"None"), starting with "m.__doc__".
+   Also test examples reachable from dict "m.__test__", if it exists.
+   "m.__test__" maps names (strings) to functions, classes and
+   strings; function and class docstrings are searched for examples;

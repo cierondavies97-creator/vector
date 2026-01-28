@@ -1,0 +1,4 @@
+swapped with the ctypes private copy, the same happens immediately
+after the function call.
+The function "ctypes.get_errno()" returns the value of the ctypes
+private copy, and the function "ctypes.set_errno()" changes the ctypes

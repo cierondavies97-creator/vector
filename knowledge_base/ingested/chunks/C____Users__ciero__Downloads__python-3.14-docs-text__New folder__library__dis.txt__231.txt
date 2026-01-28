@@ -1,0 +1,5 @@
+compiler but are replaced by real opcodes or removed before bytecode
+is generated.
+SETUP_FINALLY(target)
+   Set up an exception handler for the following code block. If an
+   exception occurs, the value stack level is restored to its current

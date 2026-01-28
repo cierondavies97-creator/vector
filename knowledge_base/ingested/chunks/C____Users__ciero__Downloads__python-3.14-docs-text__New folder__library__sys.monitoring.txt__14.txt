@@ -1,0 +1,5 @@
+number from the preceding instruction.
+sys.monitoring.events.PY_RESUME
+   Resumption of a Python function (for generator and coroutine
+   functions), except for "throw()" calls.
+sys.monitoring.events.PY_RETURN

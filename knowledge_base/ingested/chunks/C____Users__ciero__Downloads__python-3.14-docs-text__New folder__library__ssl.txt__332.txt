@@ -1,0 +1,6 @@
+agency which issued the certification authority's certificate:
+   -----BEGIN CERTIFICATE-----
+   ... (certificate for your server)...
+   -----END CERTIFICATE-----
+   -----BEGIN CERTIFICATE-----
+   ... (the certificate for the CA)...

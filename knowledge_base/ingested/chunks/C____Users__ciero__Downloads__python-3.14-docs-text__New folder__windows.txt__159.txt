@@ -1,0 +1,2 @@
+| "install.fallback_source"                          | Path or URL to an index to consult when the main   |
+|                                                    | index cannot be accessed.                          |

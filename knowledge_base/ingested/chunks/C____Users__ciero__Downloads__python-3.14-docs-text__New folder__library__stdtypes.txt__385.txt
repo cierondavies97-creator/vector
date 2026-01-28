@@ -1,0 +1,3 @@
+*chars* argument is a string specifying the set of characters to be
+   removed.  If omitted or "None", the *chars* argument defaults to
+   removing whitespace.  The *chars* argument is not a suffix; rather,

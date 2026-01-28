@@ -1,0 +1,4 @@
+"loads()" function. However, if you want more control over
+serialization and de-serialization, you can create a "Pickler" or an
+"Unpickler" object, respectively.
+The "pickle" module provides the following constants:

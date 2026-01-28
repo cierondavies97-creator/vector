@@ -1,0 +1,4 @@
+introduced in Tk 8.5. It provides additional benefits including anti-
+aliased font rendering under X11 and window transparency (requiring a
+composition window manager on X11).
+The basic idea for "tkinter.ttk" is to separate, to the extent

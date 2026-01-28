@@ -1,0 +1,3 @@
+does no partitioning, the "path" would be irrelevant. In order to
+illustrate the purpose of "path", the example would need to illustrate
+a more complex "DatabaseImporter" whose behavior varied depending on

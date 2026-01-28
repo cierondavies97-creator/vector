@@ -1,0 +1,3 @@
+preceding RE, attempting to match as many repetitions as possible.
+   For example, "a{3,5}" will match from 3 to 5 "'a'" characters.
+   Omitting *m* specifies a lower bound of zero,  and omitting *n*

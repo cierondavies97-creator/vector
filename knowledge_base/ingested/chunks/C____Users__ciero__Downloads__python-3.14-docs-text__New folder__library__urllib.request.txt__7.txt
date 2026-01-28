@@ -1,0 +1,5 @@
+only works for HTTP, HTTPS and FTP connections.
+   If *context* is specified, it must be a "ssl.SSLContext" instance
+   describing the various SSL options. See "HTTPSConnection" for more
+   details.
+   This function always returns an object which can work as a *context

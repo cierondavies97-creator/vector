@@ -1,0 +1,2 @@
+|                                                    | "__annotations__ attributes".  For best practices  |
+|                                                    | on working with "__annotations__", please see      |

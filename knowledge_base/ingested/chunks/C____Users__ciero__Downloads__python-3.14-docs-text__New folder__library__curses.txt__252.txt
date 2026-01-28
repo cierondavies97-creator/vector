@@ -1,0 +1,3 @@
+| curses.KEY_SAVE           | Save                                         |
++---------------------------+----------------------------------------------+
+| curses.KEY_SBEG           | Shifted Beg (beginning)                      |

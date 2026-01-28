@@ -1,0 +1,3 @@
+"reusable" context managers (or, to be completely explicit, "reusable,
+but not reentrant" context managers, since reentrant context managers
+are also reusable). These context managers support being used multiple

@@ -1,0 +1,4 @@
+Compile the file with path *fullname*. Return a true value if the
+   file compiled successfully, and a false value otherwise.
+   If *ddir* is given, it is prepended to the path to the file being
+   compiled for use in compilation time tracebacks, and is also

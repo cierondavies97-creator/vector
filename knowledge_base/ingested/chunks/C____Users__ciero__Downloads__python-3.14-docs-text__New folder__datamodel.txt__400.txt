@@ -1,0 +1,5 @@
+control over attribute access.
+object.__getattribute__(self, name)
+   Called unconditionally to implement attribute accesses for
+   instances of the class. If the class also defines "__getattr__()",
+   the latter will not be called unless "__getattribute__()" either

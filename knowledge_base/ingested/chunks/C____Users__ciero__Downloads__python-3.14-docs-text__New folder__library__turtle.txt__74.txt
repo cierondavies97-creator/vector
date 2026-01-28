@@ -1,0 +1,10 @@
+0.0
+      >>> turtle.circle(120, 180)  # draw a semicircle
+      >>> turtle.position()
+      (0.00,240.00)
+      >>> turtle.heading()
+      180.0
+turtle.dot()
+turtle.dot(size)
+turtle.dot(color, /)
+turtle.dot(size, color, /)

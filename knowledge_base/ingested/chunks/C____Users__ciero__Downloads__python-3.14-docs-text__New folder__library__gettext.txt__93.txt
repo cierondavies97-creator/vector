@@ -1,0 +1,7 @@
+a string literal.
+Another way to handle this is with the following example:
+   def N_(message): return message
+   animals = [N_('mollusk'),
+              N_('albatross'),
+              N_('rat'),
+              N_('penguin'),

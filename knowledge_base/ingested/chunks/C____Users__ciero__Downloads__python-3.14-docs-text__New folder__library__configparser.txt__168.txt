@@ -1,0 +1,4 @@
+read.  If not given and *f* has a "name" attribute, that is used
+      for *source*; the default is "'<???>'".
+      Added in version 3.2: Replaces "readfp()".
+   read_string(string, source='<string>')

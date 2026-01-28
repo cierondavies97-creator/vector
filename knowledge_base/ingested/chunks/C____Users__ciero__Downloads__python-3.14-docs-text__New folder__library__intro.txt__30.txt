@@ -1,0 +1,4 @@
+anything, so Python installs its own streams which redirect
+    messages to the system log. These can be seen under the tags
+    "python.stdout" and "python.stderr" respectively.
+  * iOS apps have a limited concept of console output. "stdout" and

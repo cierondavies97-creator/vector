@@ -1,0 +1,4 @@
+compatibility with it.
+If you want to use a different configuration which better reflects the
+features of this module or which better fits to your needs, e.g. for
+use in a classroom, you can prepare a configuration file "turtle.cfg"

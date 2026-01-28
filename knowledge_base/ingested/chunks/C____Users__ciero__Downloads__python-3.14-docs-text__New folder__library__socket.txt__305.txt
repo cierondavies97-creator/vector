@@ -1,0 +1,3 @@
+false, the socket is set to non-blocking, else to blocking mode.
+   This method is a shorthand for certain "settimeout()" calls:
+   * "sock.setblocking(True)" is equivalent to "sock.settimeout(None)"

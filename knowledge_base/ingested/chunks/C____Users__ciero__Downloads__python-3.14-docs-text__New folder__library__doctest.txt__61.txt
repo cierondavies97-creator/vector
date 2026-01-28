@@ -1,0 +1,5 @@
+header, which may be either of the following two lines, indented the
+same as the first line of the example:
+   Traceback (most recent call last):
+   Traceback (innermost last):
+The traceback header is followed by an optional traceback stack, whose

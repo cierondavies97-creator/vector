@@ -1,0 +1,5 @@
+with 0 fields, use "class NT(NamedTuple): pass" or "NT =
+   NamedTuple("NT", [])".
+class typing.NewType(name, tp)
+   Helper class to create low-overhead distinct types.
+   A "NewType" is considered a distinct type by a typechecker. At

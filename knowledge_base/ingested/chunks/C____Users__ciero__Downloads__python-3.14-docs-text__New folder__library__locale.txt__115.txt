@@ -1,0 +1,5 @@
+BCP 47 tags:
+     language ["-" script] ["-" territory] ["." charset]
+     language ["-" script] "-" territory "-" modifier
+where *language* and *territory* have the same meaning as in Posix,
+*script* is a four-letter script code from ISO 15924, and *modifier*

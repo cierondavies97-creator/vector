@@ -1,0 +1,3 @@
+disassemble the contents of one or more pickle files.  Note that if
+you want to see the Python object stored in the pickle rather than the
+details of pickle format, you may want to use "-m pickle" instead.

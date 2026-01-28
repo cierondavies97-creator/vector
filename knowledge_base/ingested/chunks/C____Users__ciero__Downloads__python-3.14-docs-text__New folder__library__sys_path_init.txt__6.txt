@@ -1,0 +1,3 @@
+using the Python executable as a starting point and then looking for
+various 'landmark' files and directories. Note that any symbolic links
+are followed so the real Python executable location is used as the

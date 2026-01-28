@@ -1,0 +1,3 @@
+define them in a subclass or pass a dictionary where each key is a
+  name of the converter and each value is a callable implementing said
+  conversion.  For instance, passing "{'decimal': decimal.Decimal}"

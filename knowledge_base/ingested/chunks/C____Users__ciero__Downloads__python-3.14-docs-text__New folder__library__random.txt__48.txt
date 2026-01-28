@@ -1,0 +1,5 @@
+depending on floating-point rounding in the expression "a + (b-a) *
+   random()".
+random.triangular(low, high, mode)
+   Return a random floating-point number *N* such that "low <= N <=
+   high" and with the specified *mode* between those bounds.  The

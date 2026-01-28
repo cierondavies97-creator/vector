@@ -1,0 +1,4 @@
+class curses.textpad.Textbox(win)
+   Return a textbox widget object.  The *win* argument should be a
+   curses window object in which the textbox is to be contained. The
+   edit cursor of the textbox is initially located at the upper left

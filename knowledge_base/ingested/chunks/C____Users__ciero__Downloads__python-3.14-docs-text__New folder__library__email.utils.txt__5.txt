@@ -1,0 +1,4 @@
+across multiple hosts.
+   Changed in version 3.2: Added the *domain* keyword.
+The remaining functions are part of the legacy ("Compat32") email API.
+There is no need to directly use these with the new API, since the

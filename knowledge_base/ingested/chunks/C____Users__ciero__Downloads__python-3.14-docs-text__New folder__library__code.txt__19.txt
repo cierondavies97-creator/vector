@@ -1,0 +1,4 @@
+object.  The code is executed by calling the "runcode()" (which
+     also handles run-time exceptions, except for "SystemExit").
+     "runsource()" returns "False".
+   The return value can be used to decide whether to use "sys.ps1" or

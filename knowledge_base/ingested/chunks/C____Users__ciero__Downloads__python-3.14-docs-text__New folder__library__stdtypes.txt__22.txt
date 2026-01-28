@@ -1,0 +1,4 @@
+The behavior of the "is" and "is not" operators cannot be customized;
+also they can be applied to any two objects and never raise an
+exception.
+Two more operations with the same syntactic priority, "in" and "not

@@ -1,0 +1,5 @@
+connection that couldn't be made during a retryable operation.
+   Availability: Unix, not WASI.
+os.EX_PROTOCOL
+   Exit code that means that a protocol exchange was illegal, invalid,
+   or not understood.

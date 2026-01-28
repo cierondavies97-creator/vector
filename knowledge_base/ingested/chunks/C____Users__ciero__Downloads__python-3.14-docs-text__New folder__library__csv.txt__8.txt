@@ -1,0 +1,3 @@
+Return a reader object that will process lines from the given
+   *csvfile*.  A csvfile must be an iterable of strings, each in the
+   reader's defined csv format. A csvfile is most commonly a file-like

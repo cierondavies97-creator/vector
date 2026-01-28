@@ -1,0 +1,4 @@
+"None" in "sys.path_importer_cache" (to indicate that there is no
+finder for this path entry) and return "None", indicating that this
+*meta path finder* could not find the module.
+If a *path entry finder* *is* returned by one of the *path entry hook*

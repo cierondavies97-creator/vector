@@ -1,0 +1,5 @@
+past, present or future when daylight saving time applies).
+   Availability: Unix.
+   Note:
+     Although in many cases, changing the "TZ" environment variable
+     may affect the output of functions like "localtime()" without

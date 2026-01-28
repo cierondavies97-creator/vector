@@ -1,0 +1,3 @@
+| "POLLHUP"           | Hung up                                    |
+   +---------------------+--------------------------------------------+
+   | "POLLRDHUP"         | Stream socket peer closed connection, or   |

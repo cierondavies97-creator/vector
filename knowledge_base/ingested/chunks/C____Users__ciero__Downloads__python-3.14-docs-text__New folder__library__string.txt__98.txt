@@ -1,0 +1,3 @@
+| Type      | Meaning                                                    |
+   |===========|============================================================|
+   | "'e'"     | Scientific notation. For a given precision "p", formats    |

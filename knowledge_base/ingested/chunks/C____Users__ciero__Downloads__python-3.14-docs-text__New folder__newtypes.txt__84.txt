@@ -1,0 +1,5 @@
+each of these in the "Objects" directory of the Python source
+distribution.
+   hashfunc tp_hash;
+This function, if you choose to provide it, should return a hash
+number for an instance of your data type. Here is a simple example:

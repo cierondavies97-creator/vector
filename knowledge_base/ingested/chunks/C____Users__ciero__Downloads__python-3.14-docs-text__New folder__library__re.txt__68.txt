@@ -1,0 +1,3 @@
+to Unicode matching (default).  In bytes patterns "(?L:...)"
+   switches to locale dependent matching, and "(?a:...)" switches to
+   ASCII-only matching (default). This override is only in effect for

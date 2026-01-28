@@ -1,0 +1,5 @@
+outputted sorted by key. Default "False".
+   Changed in version 3.2: Allow strings for *indent* in addition to
+   integers.
+   Changed in version 3.4: Use "(',', ': ')" as default if *indent* is
+   not "None".

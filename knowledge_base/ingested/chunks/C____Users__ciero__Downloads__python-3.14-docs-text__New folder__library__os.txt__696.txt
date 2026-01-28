@@ -1,0 +1,3 @@
+Execute the command (a string) in a subshell.  This is implemented
+   by calling the Standard C function "system()", and has the same
+   limitations. Changes to "sys.stdin", etc. are not reflected in the

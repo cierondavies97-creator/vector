@@ -1,0 +1,4 @@
+is provided, it is set on the exception, otherwise any existing
+   "__traceback__" attribute stored in *value* may be cleared.
+   Changed in version 3.12: The second signature (type[, value[,
+   traceback]]) is deprecated and may be removed in a future version

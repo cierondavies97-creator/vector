@@ -1,0 +1,5 @@
+the elements.
+   format()
+      Returns a list of strings ready for printing.  Each string in
+      the resulting list corresponds to a single frame from the stack.
+      Each string ends in a newline; the strings may contain internal

@@ -1,0 +1,5 @@
+Changed in version 3.8: Class "ast.Constant" is now used for all
+constants.
+Changed in version 3.9: Simple indices are represented by their value,
+extended slices are represented as tuples.
+Changed in version 3.14: The "__repr__()" output of "AST" nodes

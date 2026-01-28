@@ -1,0 +1,4 @@
+str.strip(chars=None, /)
+   Return a copy of the string with the leading and trailing
+   characters removed. The *chars* argument is a string specifying the
+   set of characters to be removed. If omitted or "None", the *chars*

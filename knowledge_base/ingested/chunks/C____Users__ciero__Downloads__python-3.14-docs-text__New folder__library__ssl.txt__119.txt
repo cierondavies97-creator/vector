@@ -1,0 +1,6 @@
+Protocol Negotiation. When true, you can use the
+   "SSLContext.set_npn_protocols()" method to advertise which
+   protocols you want to support.
+   Added in version 3.3.
+ssl.HAS_SSLv2
+   Whether the OpenSSL library has built-in support for the SSL 2.0

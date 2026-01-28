@@ -1,0 +1,4 @@
+to those descendant loggers.
+You don't actually need to subclass "Filter": you can pass any
+instance which has a "filter" method with the same semantics.
+Changed in version 3.2: You don't need to create specialized "Filter"

@@ -1,0 +1,5 @@
+* Equality comparison should be reflexive. In other words, identical
+  objects should compare equal:
+     "x is y" implies "x == y"
+* Comparison should be symmetric. In other words, the following
+  expressions should have the same result:

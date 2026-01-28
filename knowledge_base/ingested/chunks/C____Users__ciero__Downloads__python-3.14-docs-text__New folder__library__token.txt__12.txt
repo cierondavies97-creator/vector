@@ -1,0 +1,5 @@
+**CPython implementation detail:** The token string includes the
+   prefix and the opening quote(s), but none of the contents of the
+   literal.
+token.FSTRING_MIDDLE
+   Token value used for literal text inside an f-string literal,

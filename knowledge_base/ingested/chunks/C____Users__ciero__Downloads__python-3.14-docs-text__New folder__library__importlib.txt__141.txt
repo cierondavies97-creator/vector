@@ -1,0 +1,4 @@
+stat calls for each module search to verify the cache is not
+   outdated. Because cache staleness relies upon the granularity of
+   the operating system's state information of the file system, there
+   is a potential race condition of searching for a module, creating a

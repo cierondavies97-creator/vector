@@ -1,0 +1,5 @@
+applications running on the same system.
+   See also "venv".
+virtual machine
+   A computer defined entirely in software.  Python's virtual machine
+   executes the *bytecode* emitted by the bytecode compiler.

@@ -1,0 +1,4 @@
+that execute when you “click on them”, or extension-less files like
+  Windows special device names).
+* Limit the number of extracted files, total size of extracted data,
+  filename length (including symlink length), and size of individual

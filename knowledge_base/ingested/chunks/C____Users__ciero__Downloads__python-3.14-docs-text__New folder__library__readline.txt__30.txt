@@ -1,0 +1,4 @@
+will be used as the new hook function; if omitted or "None", any
+   function already installed is removed.  The hook is called with no
+   arguments just before readline prints the first prompt.
+readline.set_pre_input_hook([function])

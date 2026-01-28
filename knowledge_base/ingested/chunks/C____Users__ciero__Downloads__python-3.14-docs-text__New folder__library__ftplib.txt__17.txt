@@ -1,0 +1,5 @@
+text version or "binary" for the binary version.
+   "FTP" instances have the following methods:
+   set_debuglevel(level)
+      Set the instance's debugging level as an "int". This controls
+      the amount of debugging output printed. The debug levels are:

@@ -1,0 +1,4 @@
+you can find yourself having to calculate an expected result using
+exactly the same algorithm as the code under test, which is a classic
+testing anti-pattern.
+Calls to the date constructor are recorded in the "mock_date"

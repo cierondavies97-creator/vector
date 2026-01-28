@@ -1,0 +1,4 @@
+operators.
+It is recommended that both mappings and sequences implement the
+"__contains__()" method to allow efficient use of the "in" operator;
+for mappings, "in" should search the mapping's keys; for sequences, it

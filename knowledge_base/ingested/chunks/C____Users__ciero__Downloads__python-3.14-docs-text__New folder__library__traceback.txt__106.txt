@@ -1,0 +1,6 @@
+File "<python-input-1>", line 10, in bright_side_of_life
+       return t[5]
+              ~^^^
+   IndexError: tuple index out of range
+   >>> # capture_locals adds local variables in frames
+   >>> TracebackException.from_exception(exc, limit=-2, capture_locals=True).print()

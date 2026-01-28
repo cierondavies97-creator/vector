@@ -1,0 +1,4 @@
+similar to processes, but they still enjoy in-process efficiency, like
+threads.
+All that said, interpreters do naturally support certain flavors of
+concurrency. There's a powerful side effect of that isolation.  It

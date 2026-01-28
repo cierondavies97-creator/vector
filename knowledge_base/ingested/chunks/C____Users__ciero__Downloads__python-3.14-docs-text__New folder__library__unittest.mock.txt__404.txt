@@ -1,0 +1,6 @@
+================================================================
+The order of their precedence is:
+1. "side_effect"
+2. "return_value"
+3. *wraps*
+If all three are set, mock will return the value from "side_effect",

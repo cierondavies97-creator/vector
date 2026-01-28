@@ -1,0 +1,8 @@
+...
+   >>> bottles = Bottles(42)
+   >>> printf(b"%d bottles of beer\n", bottles)
+   42 bottles of beer
+   19
+   >>>
+If you don't want to store the instance's data in the "_as_parameter_"
+instance variable, you could define a "property" which makes the

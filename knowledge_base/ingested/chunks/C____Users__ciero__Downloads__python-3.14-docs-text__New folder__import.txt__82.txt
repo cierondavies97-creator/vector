@@ -1,0 +1,4 @@
+Changed in version 3.5: A "DeprecationWarning" is raised when
+"exec_module()" is defined but "create_module()" is not.
+Changed in version 3.6: An "ImportError" is raised when
+"exec_module()" is defined but "create_module()" is not.

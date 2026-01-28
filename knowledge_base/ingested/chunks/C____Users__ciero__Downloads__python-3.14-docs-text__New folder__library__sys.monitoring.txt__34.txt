@@ -1,0 +1,6 @@
+"ValueError" if *tool_id* is not in use.
+No events are active by default.
+Per code object events
+----------------------
+Events can also be controlled on a per code object basis. The
+functions defined below which accept a "types.CodeType" should be

@@ -1,0 +1,5 @@
+sends logging output to a network socket. The base class uses a TCP
+socket.
+class logging.handlers.SocketHandler(host, port)
+   Returns a new instance of the "SocketHandler" class intended to
+   communicate with a remote machine whose address is given by *host*

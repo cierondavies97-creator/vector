@@ -1,0 +1,3 @@
+doesn't set the message's seen flag; unfortunately, TOP is poorly
+   specified in the RFCs and is frequently broken in off-brand
+   servers. Test this method by hand against the POP3 servers you will

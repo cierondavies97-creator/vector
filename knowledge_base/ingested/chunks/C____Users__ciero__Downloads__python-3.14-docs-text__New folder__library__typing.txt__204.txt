@@ -1,0 +1,6 @@
+The PEP introducing "Annotated" to the standard library.
+   Added in version 3.9.
+typing.TypeIs
+   Special typing construct for marking user-defined type predicate
+   functions.
+   "TypeIs" can be used to annotate the return type of a user-defined

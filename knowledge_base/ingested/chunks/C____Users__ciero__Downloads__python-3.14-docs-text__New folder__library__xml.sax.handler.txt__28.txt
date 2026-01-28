@@ -1,0 +1,4 @@
+the locator is probably not sufficient for use with a search
+   engine.
+   Note that the locator will return correct information only during
+   the invocation of the events in this interface. The application

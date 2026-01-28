@@ -1,0 +1,4 @@
+matter.
+pathlib's path normalization is slightly more opinionated and
+consistent than "os.path". For example, whereas "os.path.abspath()"
+eliminates "".."" segments from a path, which may change its meaning

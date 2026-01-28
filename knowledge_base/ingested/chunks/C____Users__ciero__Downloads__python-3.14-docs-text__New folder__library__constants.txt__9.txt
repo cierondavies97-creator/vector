@@ -1,0 +1,4 @@
+to indicate that something is omitted. Assignment to "Ellipsis" is
+   possible, but assignment to  "..." raises a "SyntaxError".
+   "Ellipsis" is the sole instance of the "types.EllipsisType" type.
+__debug__

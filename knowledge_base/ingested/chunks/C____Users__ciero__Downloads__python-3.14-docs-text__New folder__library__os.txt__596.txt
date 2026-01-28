@@ -1,0 +1,4 @@
+process.
+   For "execve()" on some platforms, *path* may also be specified as
+   an open file descriptor.  This functionality may not be supported
+   on your platform; you can check whether or not it is available

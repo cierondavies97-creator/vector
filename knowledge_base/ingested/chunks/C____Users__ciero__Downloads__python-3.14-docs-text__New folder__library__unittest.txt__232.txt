@@ -1,0 +1,4 @@
+longMessage
+      This class attribute determines what happens when a custom
+      failure message is passed as the msg argument to an assertXYY
+      call that fails. "True" is the default value. In this case, the

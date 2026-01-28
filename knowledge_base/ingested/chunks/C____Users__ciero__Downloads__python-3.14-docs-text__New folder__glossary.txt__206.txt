@@ -1,0 +1,5 @@
+can run Python code simultaneously on different cores.
+parameter
+   A named entity in a *function* (or method) definition that
+   specifies an *argument* (or in some cases, arguments) that the
+   function can accept.  There are five kinds of parameter:

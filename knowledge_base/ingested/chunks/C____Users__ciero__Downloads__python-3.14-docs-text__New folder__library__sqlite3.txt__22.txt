@@ -1,0 +1,4 @@
+use placeholders to bind values in SQL queries for more details).
+We can verify that the new rows were inserted by executing a "SELECT"
+query, this time iterating over the results of the query:
+   >>> for row in cur.execute("SELECT year, title FROM movie ORDER BY year"):

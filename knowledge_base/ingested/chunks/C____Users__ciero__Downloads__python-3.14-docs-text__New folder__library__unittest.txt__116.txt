@@ -1,0 +1,4 @@
+The same effect may be had by simply calling the "TestCase"
+      instance.
+      Changed in version 3.3: Previous versions of "run" did not
+      return the result. Neither did calling an instance.

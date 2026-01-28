@@ -1,0 +1,3 @@
+messages are old whether or not they've actually been read. Each
+   message in "cur" has an "info" section added to its file name to
+   store information about its state. (Some mail readers may also add

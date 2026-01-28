@@ -1,0 +1,4 @@
+*exposed* is used to specify a sequence of method names which
+      proxies for this typeid should be allowed to access using
+      "BaseProxy._callmethod()".  (If *exposed* is "None" then
+      "proxytype._exposed_" is used instead if it exists.)  In the

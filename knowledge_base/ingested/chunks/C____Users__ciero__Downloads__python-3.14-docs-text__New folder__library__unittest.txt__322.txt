@@ -1,0 +1,5 @@
+This affects all the "loadTestsFrom*" methods.
+      Added in version 3.7.
+class unittest.TestResult
+   This class is used to compile information about which tests have
+   succeeded and which have failed.

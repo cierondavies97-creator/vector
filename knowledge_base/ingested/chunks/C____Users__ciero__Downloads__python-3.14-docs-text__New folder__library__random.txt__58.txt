@@ -1,0 +1,5 @@
+must be greater than zero.
+random.normalvariate(mu=0.0, sigma=1.0)
+   Normal distribution.  *mu* is the mean, and *sigma* is the standard
+   deviation.
+   Changed in version 3.11: *mu* and *sigma* now have default

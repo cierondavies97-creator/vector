@@ -1,0 +1,4 @@
+the root object will return "True" from its "is_multipart()" method,
+and the subparts can be accessed via the payload manipulation methods,
+such as "get_body()", "iter_parts()", and "walk()".
+There are actually two parser interfaces available for use, the

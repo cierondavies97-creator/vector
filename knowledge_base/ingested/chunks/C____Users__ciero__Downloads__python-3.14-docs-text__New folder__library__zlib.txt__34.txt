@@ -1,0 +1,5 @@
+dictionary. If provided, this must be the same dictionary as was
+   used by the compressor that produced the data that is to be
+   decompressed.
+   Note:
+     If *zdict* is a mutable object (such as a "bytearray"), you must

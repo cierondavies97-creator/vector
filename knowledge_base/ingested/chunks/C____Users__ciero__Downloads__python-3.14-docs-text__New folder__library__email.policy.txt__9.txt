@@ -1,0 +1,3 @@
+message is created by the program, then the policy can be specified
+when it is created.  When a message is passed to a "generator", the
+generator uses the policy from the message by default, but you can

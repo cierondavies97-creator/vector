@@ -1,0 +1,7 @@
+-ffoo
+   -f foo
+   --file=foo
+   --file foo
+then "optparse", on seeing this option, will do the equivalent of
+   options.filename = "foo"
+The "type" and "dest" option attributes are almost as important as

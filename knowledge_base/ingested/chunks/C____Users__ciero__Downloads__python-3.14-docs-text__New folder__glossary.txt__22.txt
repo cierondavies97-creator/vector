@@ -1,0 +1,5 @@
+"__anext__()" method until it raises a "StopAsyncIteration"
+   exception.  Introduced by **PEP 492**.
+atomic operation
+   An operation that appears to execute as a single, indivisible step:
+   no other thread can observe it half-done, and its effects become

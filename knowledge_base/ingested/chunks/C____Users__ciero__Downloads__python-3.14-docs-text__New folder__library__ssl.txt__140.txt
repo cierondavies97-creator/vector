@@ -1,0 +1,4 @@
+timeout each time bytes are received or sent. The socket timeout is
+   now the maximum total duration of the shutdown.
+   Deprecated since version 3.6: It is deprecated to create a
+   "SSLSocket" instance directly, use "SSLContext.wrap_socket()" to

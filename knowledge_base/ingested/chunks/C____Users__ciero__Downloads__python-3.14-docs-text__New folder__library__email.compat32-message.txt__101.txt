@@ -1,0 +1,5 @@
+be quoted (the default).
+      An alternative header can be specified in the *header* argument.
+      When the *Content-Type* header is set a *MIME-Version* header is
+      also added.
+      This is a legacy method.  On the "EmailMessage" class its

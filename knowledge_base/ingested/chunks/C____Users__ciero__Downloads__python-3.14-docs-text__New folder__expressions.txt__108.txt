@@ -1,0 +1,3 @@
+When the execution is resumed by awaiting on the next object returned
+by the asynchronous generator's methods, the function can proceed
+exactly as if the yield expression were just another external call.

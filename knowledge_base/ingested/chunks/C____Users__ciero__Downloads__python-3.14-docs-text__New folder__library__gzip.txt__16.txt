@@ -1,0 +1,4 @@
+releases the mode of *fileobj* will not be used.  It is better to
+   always specify *mode* for writing.
+   Note that the file is always opened in binary mode. To open a
+   compressed file in text mode, use "open()" (or wrap your "GzipFile"

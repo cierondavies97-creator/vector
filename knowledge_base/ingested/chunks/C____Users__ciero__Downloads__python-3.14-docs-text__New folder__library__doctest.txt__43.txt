@@ -1,0 +1,6 @@
+In most cases a copy-and-paste of an interactive console session works
+fine, but doctest isn't trying to do an exact emulation of any
+specific Python shell.
+   >>> # comments are ignored
+   >>> x = 12
+   >>> x

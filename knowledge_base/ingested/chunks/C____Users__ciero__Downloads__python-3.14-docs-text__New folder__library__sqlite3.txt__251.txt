@@ -1,0 +1,5 @@
+affected, e.g. a foreign key check fails.  It is a subclass of
+   "DatabaseError".
+exception sqlite3.InternalError
+   Exception raised when SQLite encounters an internal error. If this
+   is raised, it may indicate that there is a problem with the runtime

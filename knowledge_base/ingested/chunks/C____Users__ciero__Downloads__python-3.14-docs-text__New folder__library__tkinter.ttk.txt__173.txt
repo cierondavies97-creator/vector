@@ -1,0 +1,4 @@
+closed item or is scrolled offscreen), returns an empty string.
+   get_children(item=None)
+      Returns the list of children belonging to *item*.
+      If *item* is not specified, returns root children.

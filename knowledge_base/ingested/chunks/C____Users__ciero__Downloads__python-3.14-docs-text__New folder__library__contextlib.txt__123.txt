@@ -1,0 +1,4 @@
+an ordinary "with" statement and also as a function decorator.
+For example, it is sometimes useful to wrap functions or groups of
+statements with a logger that can track the time of entry and time of
+exit.  Rather than writing both a function decorator and a context

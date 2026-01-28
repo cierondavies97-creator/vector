@@ -1,0 +1,5 @@
+_PyAST_NamedExpr(CHECK(expr_ty, _PyPegen_set_expr_context(p, a, Store)), b, EXTRA)) }
+   named_expression[expr_ty]:
+       | assignment_expression
+       | invalid_named_expression
+       | expression !':='

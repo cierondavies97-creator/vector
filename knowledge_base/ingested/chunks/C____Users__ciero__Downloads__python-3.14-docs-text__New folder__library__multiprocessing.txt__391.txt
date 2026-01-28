@@ -1,0 +1,4 @@
+management protocol -- see Context Manager Types.  "__enter__()"
+   returns the pool object, and "__exit__()" calls "terminate()".
+class multiprocessing.pool.AsyncResult
+   The class of the result returned by "Pool.apply_async()" and

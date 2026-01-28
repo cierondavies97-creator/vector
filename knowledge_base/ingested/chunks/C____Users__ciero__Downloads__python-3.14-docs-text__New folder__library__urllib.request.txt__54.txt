@@ -1,0 +1,4 @@
+sent to the HTTP server right away after the headers.  There is
+     no support for a 100-continue expectation in the library.
+   Changed in version 3.3: "Request.method" argument is added to the
+   Request class.

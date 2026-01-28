@@ -1,0 +1,5 @@
+Defining a callback option
+--------------------------
+As always, the easiest way to define a callback option is by using the
+"OptionParser.add_option()" method.  Apart from "action", the only
+option attribute you must specify is "callback", the function to call:

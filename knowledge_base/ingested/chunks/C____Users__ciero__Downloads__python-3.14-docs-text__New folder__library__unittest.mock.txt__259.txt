@@ -1,0 +1,4 @@
+-----------------------------
+All the patchers have "start()" and "stop()" methods. These make it
+simpler to do patching in "setUp" methods or where you want to do
+multiple patches without nesting decorators or with statements.

@@ -1,0 +1,6 @@
+At this point, the original "-n"/"--dry-run" option is no longer
+accessible, so "optparse" removes it, leaving this help text:
+   Options:
+     ...
+     -n, --noisy   be noisy
+     --dry-run     new dry-run option

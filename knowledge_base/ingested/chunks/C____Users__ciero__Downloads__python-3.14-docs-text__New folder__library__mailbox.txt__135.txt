@@ -1,0 +1,4 @@
+situations, the time and memory required to generate "Message"
+   representations might not be acceptable. For such situations,
+   "Mailbox" instances also offer string and file-like
+   representations, and a custom message factory may be specified when

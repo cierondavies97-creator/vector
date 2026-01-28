@@ -1,0 +1,5 @@
+using Python command-line options or the "warnings" API, any such
+   warnings will be written to "sys.stderr" (*not* "wsgi.errors",
+   unless they happen to be the same object).
+   Example usage:
+      from wsgiref.validate import validator

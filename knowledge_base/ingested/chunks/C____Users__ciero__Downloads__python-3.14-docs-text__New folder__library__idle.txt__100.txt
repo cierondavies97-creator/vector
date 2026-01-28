@@ -1,0 +1,5 @@
+in this file will be executed in the Tk namespace, so this file is not
+useful for importing functions to be used from IDLE's Python shell.
+Command-line usage
+------------------
+IDLE can be invoked from the command line with various options. The

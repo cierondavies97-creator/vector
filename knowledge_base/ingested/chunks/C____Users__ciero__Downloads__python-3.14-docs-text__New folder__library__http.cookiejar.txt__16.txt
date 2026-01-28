@@ -1,0 +1,4 @@
+"CookiePolicy" and "DefaultCookiePolicy" objects.
+   "DefaultCookiePolicy" implements the standard accept / reject rules
+   for Netscape and **RFC 2965** cookies.  By default, **RFC 2109**
+   cookies (ie. cookies received in a *Set-Cookie* header with a

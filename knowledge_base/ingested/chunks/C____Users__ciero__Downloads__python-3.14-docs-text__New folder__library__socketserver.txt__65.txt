@@ -1,0 +1,3 @@
+the interface, given below.  A concrete request handler subclass
+   must define a new "handle()" method, and can override any of the
+   other methods.  A new instance of the subclass is created for each

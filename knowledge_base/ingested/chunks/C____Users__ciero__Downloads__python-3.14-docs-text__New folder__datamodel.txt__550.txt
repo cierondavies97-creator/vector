@@ -1,0 +1,4 @@
+implementation that is more efficient than the one provided by
+   "reversed()".
+The membership test operators ("in" and "not in") are normally
+implemented as an iteration through a container. However, container

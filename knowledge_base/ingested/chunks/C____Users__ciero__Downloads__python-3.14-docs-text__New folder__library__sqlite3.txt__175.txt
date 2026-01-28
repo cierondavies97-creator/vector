@@ -1,0 +1,5 @@
+disabled.
+      Added in version 3.12.
+   serialize(*, name='main')
+      Serialize a database into a "bytes" object.  For an ordinary on-
+      disk database file, the serialization is just a copy of the disk

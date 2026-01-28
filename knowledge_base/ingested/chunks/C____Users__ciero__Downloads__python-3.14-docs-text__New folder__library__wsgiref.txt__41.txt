@@ -1,0 +1,4 @@
+contain duplicates.  Any fields deleted and re-inserted are
+      always appended to the header list.  If no fields exist with the
+      given name, returns an empty list.
+   add_header(name, value, **_params)

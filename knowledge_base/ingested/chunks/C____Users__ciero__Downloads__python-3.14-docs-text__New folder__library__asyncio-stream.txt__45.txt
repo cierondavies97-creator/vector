@@ -1,0 +1,5 @@
+SSL shutdown to complete before aborting the connection.
+        "30.0" seconds if "None" (default).
+      Added in version 3.11.
+      Changed in version 3.12: Added the *ssl_shutdown_timeout*
+      parameter.

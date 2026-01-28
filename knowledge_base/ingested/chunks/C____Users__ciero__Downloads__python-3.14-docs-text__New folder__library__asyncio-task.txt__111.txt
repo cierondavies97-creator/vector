@@ -1,0 +1,5 @@
+Added in version 3.11.
+async asyncio.wait_for(aw, timeout)
+   Wait for the *aw* awaitable to complete with a timeout.
+   If *aw* is a coroutine it is automatically scheduled as a Task.
+   *timeout* can either be "None" or a float or int number of seconds

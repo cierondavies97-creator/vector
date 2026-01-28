@@ -1,0 +1,3 @@
+indicates to read and decode as much as possible. This parameter
+      is intended to prevent having to decode huge files in one step.
+      The *firstline* flag indicates that it would be sufficient to

@@ -1,0 +1,6 @@
+evaluate to "False" if the method timed out.
+      Ignoring the timeout feature, calling this method is roughly
+      equivalent to writing:
+         while not predicate():
+             cv.wait()
+      Therefore, the same rules apply as with "wait()": The lock must

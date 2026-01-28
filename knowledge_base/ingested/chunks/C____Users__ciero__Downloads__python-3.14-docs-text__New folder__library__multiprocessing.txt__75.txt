@@ -1,0 +1,4 @@
+global start method sets the default mechanism for creating a process.
+Several multiprocessing functions and methods that may also
+instantiate certain objects will implicitly set the global start
+method to the system's default, if it hasn’t been set already. The

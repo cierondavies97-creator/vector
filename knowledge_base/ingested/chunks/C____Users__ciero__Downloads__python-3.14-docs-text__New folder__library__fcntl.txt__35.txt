@@ -1,0 +1,7 @@
+method are accepted as well) of the file to lock or unlock, and
+   *cmd* is one of the following values:
+   fcntl.LOCK_UN
+      Release an existing lock.
+   fcntl.LOCK_SH
+      Acquire a shared lock.
+   fcntl.LOCK_EX

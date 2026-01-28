@@ -1,0 +1,5 @@
+attribute is required to be given in the document instance,
+   *required* will be true. This requires Expat version 1.95.0 or
+   newer.
+xmlparser.StartElementHandler(name, attributes)
+   Called for the start of every element.  *name* is a string

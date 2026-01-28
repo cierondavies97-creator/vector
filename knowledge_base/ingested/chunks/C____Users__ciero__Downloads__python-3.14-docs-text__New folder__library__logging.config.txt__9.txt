@@ -1,0 +1,4 @@
+"dictConfig()" calls "dictConfigClass" passing the specified
+   dictionary, and then calls the "configure()" method on the returned
+   object to put the configuration into effect:
+      def dictConfig(config):

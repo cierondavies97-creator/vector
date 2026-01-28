@@ -1,0 +1,4 @@
+"execlpe()", "execvp()", and "execvpe()") will use the "PATH"
+   environment variable to locate the program *file*.  When the
+   environment is being replaced (using one of the "exec*e" variants,
+   discussed in the next paragraph), the new environment is used as

@@ -1,0 +1,4 @@
+of the same class, or other types of object, unless the class defines
+enough of the methods "__lt__()", "__le__()", "__gt__()", and
+"__ge__()" (in general, "__lt__()" and "__eq__()" are sufficient, if
+you want the conventional meanings of the comparison operators).

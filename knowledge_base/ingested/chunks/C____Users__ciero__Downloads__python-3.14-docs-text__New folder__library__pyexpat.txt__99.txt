@@ -1,0 +1,6 @@
+<child2 name="fred">More text</child2>
+   </parent>""", 1)
+The output from this program is:
+   Start element: parent {'id': 'top'}
+   Start element: child1 {'name': 'paul'}
+   Character data: 'Text goes here'

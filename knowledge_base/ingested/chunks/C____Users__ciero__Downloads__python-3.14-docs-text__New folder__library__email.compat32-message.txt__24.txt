@@ -1,0 +1,4 @@
+modified).
+      Note that this method is provided as a convenience and may not
+      always format the message the way you want.  For example, by
+      default it does not do the mangling of lines that begin with

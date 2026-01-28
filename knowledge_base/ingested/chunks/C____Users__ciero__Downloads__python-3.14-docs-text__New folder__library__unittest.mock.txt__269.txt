@@ -1,0 +1,7 @@
+...
+  As an added bonus you no longer need to keep a reference to the
+  "patcher" object.
+It is also possible to stop all patches which have been started by
+using "patch.stopall()".
+patch.stopall()
+   Stop all active patches. Only stops patches started with "start".

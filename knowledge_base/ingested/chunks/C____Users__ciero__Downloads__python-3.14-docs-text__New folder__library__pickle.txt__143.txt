@@ -1,0 +1,7 @@
+tasks = (
+           'give food to fish',
+           'prepare group meeting',
+           'fight with a zebra',
+           )
+       for task in tasks:
+           cursor.execute("INSERT INTO memos VALUES(NULL, ?)", (task,))

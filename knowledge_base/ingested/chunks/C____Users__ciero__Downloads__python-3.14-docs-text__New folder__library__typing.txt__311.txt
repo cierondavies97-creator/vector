@@ -1,0 +1,4 @@
+declared using the type parameter syntax introduced by **PEP 695**.
+   Changed in version 3.13: Support for default values was added.
+   Note:
+     Only parameter specification variables defined in global scope

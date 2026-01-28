@@ -1,0 +1,4 @@
+*height* should also be set. The *width* and *height* options
+         cannot be mixed with the *padding* or *margins* options.
+      height=height
+         Specifies the height of the element. See the comments for

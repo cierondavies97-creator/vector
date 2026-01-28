@@ -1,0 +1,5 @@
+"PyConfig".
+   Changed in version 3.2: "getfilesystemencoding()" result cannot be
+   "None" anymore.
+   Changed in version 3.6: Windows is no longer guaranteed to return
+   "'mbcs'". See **PEP 529** and "_enablelegacywindowsfsencoding()"

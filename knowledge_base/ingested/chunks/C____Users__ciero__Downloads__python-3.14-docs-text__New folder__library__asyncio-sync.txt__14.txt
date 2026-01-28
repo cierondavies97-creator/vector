@@ -1,0 +1,8 @@
+until another task calls "set()".
+   set()
+      Set the event.
+      All tasks waiting for event to be set will be immediately
+      awakened.
+   clear()
+      Clear (unset) the event.
+      Subsequent tasks awaiting on "wait()" will now block until the

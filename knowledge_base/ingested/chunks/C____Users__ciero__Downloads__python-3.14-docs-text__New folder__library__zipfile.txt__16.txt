@@ -1,0 +1,3 @@
+compression. This was changed in APPNOTE 6.3.8 to method ID "93"
+     to avoid conflicts, with method ID "20" being deprecated. For
+     compatibility, the "zipfile" module reads both method IDs but

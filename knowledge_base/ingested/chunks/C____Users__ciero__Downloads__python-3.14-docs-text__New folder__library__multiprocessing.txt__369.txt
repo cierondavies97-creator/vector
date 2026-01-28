@@ -1,0 +1,5 @@
+Changed in version 3.4: Added the *context* parameter.
+   Changed in version 3.13: *processes* uses "os.process_cpu_count()"
+   by default, instead of "os.cpu_count()".
+   Note:
+     Worker processes within a "Pool" typically live for the complete

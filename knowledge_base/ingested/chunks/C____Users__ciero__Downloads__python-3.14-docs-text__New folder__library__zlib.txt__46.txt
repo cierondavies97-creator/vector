@@ -1,0 +1,4 @@
+*string*.  This data should be concatenated to the output produced
+   by any preceding calls to the "decompress()" method.  Some of the
+   input data may be preserved in internal buffers for later
+   processing.

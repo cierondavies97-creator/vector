@@ -1,0 +1,4 @@
+and "ZstdFile" class. To decompress a multi-frame input, you
+     should use "decompress()", "ZstdFile" if working with a *file
+     object*, or multiple "ZstdDecompressor" instances.
+   decompress(data, max_length=-1)

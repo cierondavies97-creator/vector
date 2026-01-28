@@ -1,0 +1,3 @@
+yield resource.name
+   Deprecated since version 3.11: Prefer "iterdir()" as above, which
+   offers more control over the results and richer functionality.

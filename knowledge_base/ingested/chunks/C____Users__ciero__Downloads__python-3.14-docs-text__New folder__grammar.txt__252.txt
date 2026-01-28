@@ -1,0 +1,5 @@
+invalid_lambda_parameters_helper:
+       | a=lambda_slash_with_default { _PyPegen_singleton_seq(p, a) }
+       | lambda_param_with_default+
+   invalid_lambda_star_etc:
+       | '*' (':' | ',' (':' | '**')) { RAISE_SYNTAX_ERROR("named arguments must follow bare *") }

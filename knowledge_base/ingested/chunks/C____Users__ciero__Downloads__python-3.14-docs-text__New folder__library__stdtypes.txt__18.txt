@@ -1,0 +1,4 @@
+| "is not"     | negated object identity   |
++--------------+---------------------------+
+Unless stated otherwise, objects of different types never compare
+equal. The "==" operator is always defined but for some object types

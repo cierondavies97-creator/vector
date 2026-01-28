@@ -1,0 +1,6 @@
+used to pickle external objects by reference.
+   # Simple example presenting how persistent ID can be used to pickle
+   # external objects by reference.
+   import pickle
+   import sqlite3
+   from collections import namedtuple

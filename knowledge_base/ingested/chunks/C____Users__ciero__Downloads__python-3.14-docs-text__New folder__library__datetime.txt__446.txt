@@ -1,0 +1,5 @@
+was restricted to years >= 1900.
+   Changed in version 3.3: In version 3.2, "strftime()" method was
+   restricted to years >= 1000.
+3. When used with the "strptime()" method, the "%p" directive only
+   affects the output hour field if the "%I" directive is used to

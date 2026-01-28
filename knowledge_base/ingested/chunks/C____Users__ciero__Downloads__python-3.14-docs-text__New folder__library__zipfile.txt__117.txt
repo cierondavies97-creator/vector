@@ -1,0 +1,4 @@
+archive. If *arcname* is not specified, the name will be the same
+   as *filename*, but with any drive letter and leading path
+   separators removed.
+   The *strict_timestamps* argument, when set to "False", allows to

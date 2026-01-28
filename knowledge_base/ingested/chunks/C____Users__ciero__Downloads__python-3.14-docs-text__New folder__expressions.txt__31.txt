@@ -1,0 +1,4 @@
+comp_if:       "if" or_test [comp_iter]
+The comprehension consists of a single expression followed by at least
+one "for" clause and zero or more "for" or "if" clauses. In this case,
+the elements of the new container are those that would be produced by

@@ -1,0 +1,5 @@
+It inherits from "codecs.IncrementalDecoder".
+Static Typing
+=============
+The following protocols can be used for annotating function and method
+arguments for simple stream reading or writing operations. They are

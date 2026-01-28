@@ -1,0 +1,4 @@
+numeric character reference, which is a decimal form of Unicode
+   code point with format "&#*num*;" .
+codecs.namereplace_errors(exception)
+   Implements the "'namereplace'" error handling (for encoding within

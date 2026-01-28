@@ -1,0 +1,4 @@
+support reverse iteration using "reversed()".
+Equality tests between "OrderedDict" objects are order-sensitive and
+are roughly equivalent to "list(od1.items())==list(od2.items())".
+Equality tests between "OrderedDict" objects and other "Mapping"

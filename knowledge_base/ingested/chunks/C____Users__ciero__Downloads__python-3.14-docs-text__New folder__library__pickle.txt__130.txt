@@ -1,0 +1,4 @@
+just an arbitrary object (for any newer protocol).
+The resolution of such persistent IDs is not defined by the "pickle"
+module; it will delegate this resolution to the user-defined methods
+on the pickler and unpickler, "persistent_id()" and

@@ -1,0 +1,6 @@
+Added in version 3.2.
+signal.NSIG
+   One more than the number of the highest signal number. Use
+   "valid_signals()" to get valid signal numbers.
+signal.ITIMER_REAL
+   Decrements interval timer in real time, and delivers "SIGALRM" upon

@@ -1,0 +1,4 @@
+Subsequent attribute reads and writes take precedence over the
+   *cached_property* method and it works like a normal attribute.
+   The cached value can be cleared by deleting the attribute.  This
+   allows the *cached_property* method to run again.

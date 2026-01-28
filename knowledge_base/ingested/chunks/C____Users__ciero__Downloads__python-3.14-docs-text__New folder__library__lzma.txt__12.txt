@@ -1,0 +1,3 @@
+class lzma.LZMAFile(filename=None, mode='r', *, format=None, check=-1, preset=None, filters=None)
+   Open an LZMA-compressed file in binary mode.
+   An "LZMAFile" can wrap an already-open *file object*, or operate

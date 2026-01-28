@@ -1,0 +1,5 @@
+Type aliases
+============
+A type alias is defined using the "type" statement, which creates an
+instance of "TypeAliasType". In this example, "Vector" and
+"list[float]" will be treated equivalently by static type checkers:

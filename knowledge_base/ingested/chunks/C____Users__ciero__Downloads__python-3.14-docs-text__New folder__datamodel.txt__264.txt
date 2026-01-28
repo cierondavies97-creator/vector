@@ -1,0 +1,4 @@
+*bytecode* instruction in the code object.
+   The iterator returns "tuple"s containing the "(start_line,
+   end_line, start_column, end_column)". The *i-th* tuple corresponds
+   to the position of the source code that compiled to the *i-th* code

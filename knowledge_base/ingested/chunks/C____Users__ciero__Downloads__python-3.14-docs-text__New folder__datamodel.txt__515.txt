@@ -1,0 +1,6 @@
+# call obj.__class_getitem__(x)
+       elif isclass(obj) and hasattr(obj, '__class_getitem__'):
+           return obj.__class_getitem__(x)
+       # Else, raise an exception
+       else:
+           raise TypeError(

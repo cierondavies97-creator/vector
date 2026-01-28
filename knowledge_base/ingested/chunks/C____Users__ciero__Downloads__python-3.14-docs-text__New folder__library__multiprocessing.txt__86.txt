@@ -1,0 +1,4 @@
+>>> Traceback (most recent call last):
+          File ".../multiprocessing/spawn.py", line ..., in spawn_main
+          File ".../multiprocessing/spawn.py", line ..., in _main
+        AttributeError: module '__main__' has no attribute 'knigit'

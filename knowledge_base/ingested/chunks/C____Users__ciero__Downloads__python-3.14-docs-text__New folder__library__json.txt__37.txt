@@ -1,0 +1,6 @@
+conversion table.
+   Parameters:
+      * **fp** (*file-like object*) -- A ".read()"-supporting *text
+        file* or *binary file* containing the JSON document to be
+        deserialized.
+      * **cls** (a "JSONDecoder" subclass) -- If set, a custom JSON

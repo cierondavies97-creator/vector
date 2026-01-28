@@ -1,0 +1,4 @@
+cases the "find_spec()" method would just return a spec with the
+loader set to "self".
+Module loaders may opt in to creating the module object during loading
+by implementing a "create_module()" method. It takes one argument, the

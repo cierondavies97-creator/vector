@@ -1,0 +1,5 @@
+options:
+        -h, --help     show this help message and exit
+        --baz {X,Y,Z}  baz help
+   The "add_subparsers()" method also supports "title" and
+   "description" keyword arguments.  When either is present, the

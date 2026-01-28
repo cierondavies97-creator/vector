@@ -1,0 +1,4 @@
+any logging configuration. The end result is to just print the
+   message to "sys.stderr". This replaces the earlier error message
+   saying that "no handlers could be found for logger XYZ". If you
+   need the earlier behaviour for some reason, "lastResort" can be set

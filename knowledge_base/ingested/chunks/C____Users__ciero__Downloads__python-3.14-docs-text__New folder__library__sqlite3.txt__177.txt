@@ -1,0 +1,6 @@
+**name** (*str*) -- The database name to be serialized.
+         Defaults to ""main"".
+      Return type:
+         bytes
+      Note:
+        This method is only available if the underlying SQLite library

@@ -1,0 +1,7 @@
+for previous versions.
+SSLContext.security_level
+   An integer representing the security level for the context. This
+   attribute is read-only.
+   Added in version 3.10.
+SSLContext.verify_flags
+   The flags for certificate verification operations. You can set

@@ -1,0 +1,6 @@
+ZipInfo.compress_type
+   Type of compression for the archive member.
+ZipInfo.comment
+   Comment for the individual archive member as a "bytes" object.
+ZipInfo.extra
+   Expansion field data.  The PKZIP Application Note contains some

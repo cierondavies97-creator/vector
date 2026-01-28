@@ -1,0 +1,3 @@
+method unless it is safe to do so.  Neither will it add or change
+     an existing explicitly defined "__hash__()" method.  Setting the
+     class attribute "__hash__ = None" has a specific meaning to

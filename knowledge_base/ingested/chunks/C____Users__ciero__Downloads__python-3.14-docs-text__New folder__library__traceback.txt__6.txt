@@ -1,0 +1,3 @@
+"FrameSummary". These offer both more flexibility in the output
+  generated and the ability to store the information necessary for
+  later formatting without holding references to actual exception and

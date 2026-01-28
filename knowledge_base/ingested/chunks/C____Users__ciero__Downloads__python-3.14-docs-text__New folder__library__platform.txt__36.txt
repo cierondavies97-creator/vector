@@ -1,0 +1,5 @@
+============
+platform.ios_ver(system='', release='', model='', is_simulator=False)
+   Get iOS version information and return it as a "namedtuple()" with
+   the following attributes:
+   * "system" is the OS name; either "'iOS'" or "'iPadOS'".

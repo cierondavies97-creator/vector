@@ -1,0 +1,4 @@
+Return canonical form of *filename*.
+      For real file names, the canonical form is an operating-system-
+      dependent, "case-normalized" "absolute path". A *filename* with
+      angle brackets, such as ""<stdin>"" generated in interactive

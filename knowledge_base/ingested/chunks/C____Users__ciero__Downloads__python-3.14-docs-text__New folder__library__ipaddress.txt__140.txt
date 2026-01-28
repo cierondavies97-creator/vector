@@ -1,0 +1,3 @@
+address objects with the same IP version can be compared, and the
+address objects will always sort before the interface objects.  Two
+interface objects are first compared by their networks and, if those

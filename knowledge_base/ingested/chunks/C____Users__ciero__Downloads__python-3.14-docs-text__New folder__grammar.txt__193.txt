@@ -1,0 +1,4 @@
+| target_with_star_atom
+   target_with_star_atom[expr_ty] (memo):
+       | a=t_primary '.' b=NAME !t_lookahead { _PyAST_Attribute(a, b->v.Name.id, Store, EXTRA) }
+       | a=t_primary '[' b=slices ']' !t_lookahead { _PyAST_Subscript(a, b, Store, EXTRA) }

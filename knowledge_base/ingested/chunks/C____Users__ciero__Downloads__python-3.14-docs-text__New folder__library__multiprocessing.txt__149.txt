@@ -1,0 +1,5 @@
+raised instead of "OSError".
+   get_nowait()
+      Equivalent to "get(False)".
+   "multiprocessing.Queue" has a few additional methods not found in
+   "queue.Queue".  These methods are usually unnecessary for most

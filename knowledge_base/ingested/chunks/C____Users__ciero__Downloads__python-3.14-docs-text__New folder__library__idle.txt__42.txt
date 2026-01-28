@@ -1,0 +1,5 @@
+of each line of text.  The default is off, which may be changed in
+   the preferences (see Setting preferences).
+Zoom/Restore Height
+   Toggles the window between normal size and maximum height. The
+   initial size defaults to 40 lines by 80 chars unless changed on the

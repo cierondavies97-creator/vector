@@ -1,0 +1,6 @@
+machinery automatically sets "__path__" correctly for the namespace
+package.
+5.4.5. Module reprs
+-------------------
+By default, all modules have a usable repr, however depending on the
+attributes set above, and in the module's spec, you can more

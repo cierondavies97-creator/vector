@@ -1,0 +1,4 @@
+Note:
+     If you want to send configurations to the listener which don't
+     disable existing loggers, you will need to use a JSON format for
+     the configuration, which will use "dictConfig()" for

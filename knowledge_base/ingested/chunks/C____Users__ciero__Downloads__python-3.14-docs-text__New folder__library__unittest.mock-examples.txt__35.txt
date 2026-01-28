@@ -1,0 +1,5 @@
+attribute of "__aiter__" can be used to set the return values to be
+used for iteration.
+>>> mock = MagicMock()  # AsyncMock also works here
+>>> mock.__aiter__.return_value = [1, 2, 3]
+>>> async def main():

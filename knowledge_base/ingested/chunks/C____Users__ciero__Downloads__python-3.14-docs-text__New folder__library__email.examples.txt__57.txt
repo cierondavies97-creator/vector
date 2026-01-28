@@ -1,0 +1,6 @@
+sys.exit()
+   with tempfile.NamedTemporaryFile(mode='w', delete=False) as f:
+       f.write(magic_html_parser(body.get_content(), partfiles))
+   webbrowser.open(f.name)
+   os.remove(f.name)
+   for fn in partfiles.values():

@@ -1,0 +1,5 @@
+Added in version 3.12.
+Path.is_mount()
+   Return "True" if the path is a *mount point*: a point in a file
+   system where a different file system has been mounted.  On POSIX,
+   the function checks whether *path*'s parent, "path/..", is on a

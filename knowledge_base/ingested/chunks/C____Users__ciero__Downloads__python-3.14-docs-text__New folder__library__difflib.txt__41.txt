@@ -1,0 +1,4 @@
+Optional keyword parameters *linejunk* and *charjunk* are filtering
+   functions (or "None"):
+   *linejunk*: A function that accepts a single string argument, and
+   returns true if the string is junk, or false if not. The default is

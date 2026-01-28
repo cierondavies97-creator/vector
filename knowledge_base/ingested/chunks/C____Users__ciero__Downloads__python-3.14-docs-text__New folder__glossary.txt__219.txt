@@ -1,0 +1,4 @@
+implementing the "os.PathLike" protocol. An object that supports
+   the "os.PathLike" protocol can be converted to a "str" or "bytes"
+   file system path by calling the "os.fspath()" function;
+   "os.fsdecode()" and "os.fsencode()" can be used to guarantee a

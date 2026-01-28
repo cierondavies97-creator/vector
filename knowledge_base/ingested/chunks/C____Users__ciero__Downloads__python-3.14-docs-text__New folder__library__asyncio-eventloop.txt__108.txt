@@ -1,0 +1,4 @@
+network interfaces, a different random port will be selected for
+     each interface).
+   * *family* can be set to either "socket.AF_INET" or "AF_INET6" to
+     force the socket to use IPv4 or IPv6. If not set, the *family*

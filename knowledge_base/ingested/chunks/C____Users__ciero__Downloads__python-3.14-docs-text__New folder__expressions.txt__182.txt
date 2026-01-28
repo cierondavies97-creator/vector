@@ -1,0 +1,6 @@
+exception.  How this value is computed depends on the type of the
+callable object.
+If it is---
+a user-defined function:
+   The code block for the function is executed, passing it the
+   argument list.  The first thing the code block will do is bind the

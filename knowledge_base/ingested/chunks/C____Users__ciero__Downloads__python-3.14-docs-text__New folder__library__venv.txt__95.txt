@@ -1,0 +1,5 @@
+def post_setup(self, context):
+           """
+           Set up any packages which need to be pre-installed into the
+           virtual environment being created.
+           :param context: The information for the virtual environment

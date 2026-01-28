@@ -1,0 +1,4 @@
+be discarded, whereas those of severity WARNING and above would be
+   processed according to the logger's effective level. If
+   "logging.disable(logging.NOTSET)" is called, it effectively removes
+   this overriding level, so that logging output again depends on the

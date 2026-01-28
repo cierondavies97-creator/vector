@@ -1,0 +1,5 @@
+datetime.timetuple()
+   Return a "time.struct_time" such as returned by "time.localtime()".
+   "d.timetuple()" is equivalent to:
+      time.struct_time((d.year, d.month, d.day,
+                        d.hour, d.minute, d.second,

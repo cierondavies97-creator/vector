@@ -1,0 +1,4 @@
+Shell is designed for development rather than production runs.
+For instance, Shell never throws away output.  A program that sends
+unlimited output to Shell will eventually fill memory, resulting in a
+memory error. In contrast, some system text windows only keep the last

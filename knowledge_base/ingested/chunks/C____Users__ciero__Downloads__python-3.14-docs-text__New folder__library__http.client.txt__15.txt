@@ -1,0 +1,5 @@
+Custom *context* should set ALPN protocols with
+   "set_alpn_protocols()".
+   Changed in version 3.12: The deprecated *key_file*, *cert_file* and
+   *check_hostname* parameters have been removed.
+class http.client.HTTPResponse(sock, debuglevel=0, method=None, url=None)

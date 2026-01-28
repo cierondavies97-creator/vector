@@ -1,0 +1,4 @@
+changed via the "addHandler()" and "removeHandler()" methods,
+        which use locks to ensure thread-safe operation.
+   disabled
+      This attribute disables handling of any events. It is set to

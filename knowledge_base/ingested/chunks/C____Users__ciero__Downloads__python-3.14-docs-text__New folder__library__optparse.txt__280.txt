@@ -1,0 +1,4 @@
+work: the error message and the flag that it sets must be generalized.
+   def check_order(option, opt_str, value, parser):
+       if parser.values.b:
+           raise OptionValueError("can't use %s after -b" % opt_str)

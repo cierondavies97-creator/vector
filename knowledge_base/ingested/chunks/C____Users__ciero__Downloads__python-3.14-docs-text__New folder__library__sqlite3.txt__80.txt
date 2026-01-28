@@ -1,0 +1,5 @@
+These constants are used for the "Connection.setconfig()" and
+   "getconfig()" methods.
+   The availability of these constants varies depending on the version
+   of SQLite Python was compiled with.
+   Added in version 3.12.

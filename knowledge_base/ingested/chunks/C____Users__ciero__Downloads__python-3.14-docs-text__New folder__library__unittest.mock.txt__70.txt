@@ -1,0 +1,5 @@
+after the mock has been created.
+   __dir__()
+      "Mock" objects limit the results of "dir(some_mock)" to useful
+      results. For mocks with a *spec* this includes all the permitted
+      attributes for the mock.

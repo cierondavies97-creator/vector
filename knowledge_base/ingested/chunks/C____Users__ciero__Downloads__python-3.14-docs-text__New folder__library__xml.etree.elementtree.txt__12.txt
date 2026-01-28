@@ -1,0 +1,7 @@
+...
+   country {'name': 'Liechtenstein'}
+   country {'name': 'Singapore'}
+   country {'name': 'Panama'}
+Children are nested, and we can access specific child nodes by index:
+   >>> root[0][1].text
+   '2008'

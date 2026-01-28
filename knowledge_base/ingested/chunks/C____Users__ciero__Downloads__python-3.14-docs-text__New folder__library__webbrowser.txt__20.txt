@@ -1,0 +1,4 @@
+browser type.  If *instance* is not provided, or is "None",
+   *constructor* will be called without parameters to create an
+   instance when needed.  If *instance* is provided, *constructor*
+   will never be called, and may be "None".

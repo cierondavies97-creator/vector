@@ -1,0 +1,4 @@
+All leading whitespace is removed from the first line.  Any leading
+   whitespace that can be uniformly removed from the second line
+   onwards is removed.  Empty lines at the beginning and end are
+   subsequently removed.  Also, all tabs are expanded to spaces.

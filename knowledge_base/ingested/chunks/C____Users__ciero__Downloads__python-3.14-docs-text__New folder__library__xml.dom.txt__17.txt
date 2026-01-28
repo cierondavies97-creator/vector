@@ -1,0 +1,3 @@
+If name is not given, this examines the available implementations
+   to find one with the required feature set.  If no implementation
+   can be found, raise an "ImportError".  The features list must be a

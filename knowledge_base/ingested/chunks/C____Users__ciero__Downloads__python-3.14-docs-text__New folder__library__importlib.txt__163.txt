@@ -1,0 +1,6 @@
+True
+      >>> import importlib.abc
+      >>> isinstance(my_namespace.__loader__, importlib.abc.Loader)
+      True
+   Added in version 3.11.
+class importlib.machinery.ModuleSpec(name, loader, *, origin=None, loader_state=None, is_package=None)

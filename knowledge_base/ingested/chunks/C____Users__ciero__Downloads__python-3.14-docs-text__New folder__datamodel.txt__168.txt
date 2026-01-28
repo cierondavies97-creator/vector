@@ -1,0 +1,5 @@
+"__annotations__", see "annotationlib".
+   Changed in version 3.14: Annotations are now lazily evaluated. See
+   **PEP 649**.
+module.__annotate__
+   The *annotate function* for this module, or "None" if the module

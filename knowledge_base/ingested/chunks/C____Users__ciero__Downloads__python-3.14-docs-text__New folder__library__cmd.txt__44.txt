@@ -1,0 +1,5 @@
+def do_position(self, arg):
+           'Print the current turtle position:  POSITION'
+           print('Current position is %d %d\n' % position())
+       def do_heading(self, arg):
+           'Print the current turtle heading in degrees:  HEADING'

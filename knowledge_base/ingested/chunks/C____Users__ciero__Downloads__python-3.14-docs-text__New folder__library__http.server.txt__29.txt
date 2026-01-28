@@ -1,0 +1,4 @@
+Specifies the HTTP version to which the server is conformant. It
+      is sent in responses to let the client know the server's
+      communication capabilities for future requests. If set to
+      "'HTTP/1.1'", the server will permit HTTP persistent

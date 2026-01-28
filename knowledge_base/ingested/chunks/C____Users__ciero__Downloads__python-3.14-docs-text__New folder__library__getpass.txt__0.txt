@@ -1,0 +1,6 @@
+"getpass" --- Portable password input
+*************************************
+**Source code:** Lib/getpass.py
+======================================================================
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

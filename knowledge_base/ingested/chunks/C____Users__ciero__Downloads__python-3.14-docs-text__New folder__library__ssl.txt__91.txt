@@ -1,0 +1,5 @@
+"SSLContext.maximum_version" instead.
+ssl.PROTOCOL_TLSv1
+   Selects TLS version 1.0 as the channel encryption protocol.
+   Deprecated since version 3.6: OpenSSL has deprecated all version
+   specific protocols.

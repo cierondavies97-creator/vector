@@ -1,0 +1,5 @@
+value_pattern[pattern_ty]:
+       | attr=attr !('.' | '(' | '=') { _PyAST_MatchValue(attr, EXTRA) }
+   attr[expr_ty]:
+       | value=name_or_attr '.' attr=NAME {
+           _PyAST_Attribute(value, attr->v.Name.id, Load, EXTRA) }

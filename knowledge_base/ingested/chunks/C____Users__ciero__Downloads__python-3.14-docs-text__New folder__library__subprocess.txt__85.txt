@@ -1,0 +1,4 @@
+standard input, standard output and standard error file handles,
+   respectively.  Valid values are "None", "PIPE", "DEVNULL", an
+   existing file descriptor (a positive integer), and an existing
+   *file object* with a valid file descriptor.  With the default

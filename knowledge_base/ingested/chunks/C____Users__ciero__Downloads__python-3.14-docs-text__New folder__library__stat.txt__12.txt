@@ -1,0 +1,6 @@
+elif S_ISREG(mode):
+               # It's a file, call the callback function
+               callback(pathname)
+           else:
+               # Unknown file type, print a message
+               print('Skipping %s' % pathname)

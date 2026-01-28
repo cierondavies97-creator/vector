@@ -1,0 +1,4 @@
+Callback example 4: check arbitrary condition
+---------------------------------------------
+Of course, you could put any condition in there---you're not limited
+to checking the values of already-defined options.  For example, if

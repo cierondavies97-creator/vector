@@ -1,0 +1,9 @@
+6
+>>> a.count(b'howdy')
+0
+>>> a.count(b'HoWdY')
+1
+>>> a.shm.close()
+>>> a.shm.unlink()
+>>> del a  # Use of a ShareableList after call to unlink() is unsupported
+The following example depicts how one, two, or many processes may

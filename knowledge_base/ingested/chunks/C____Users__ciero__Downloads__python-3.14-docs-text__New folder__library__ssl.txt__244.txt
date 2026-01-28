@@ -1,0 +1,5 @@
+successful handshake, the "SSLSocket.selected_npn_protocol()"
+   method will return the agreed-upon protocol.
+   This method will raise "NotImplementedError" if "HAS_NPN" is
+   "False".
+   Added in version 3.3.

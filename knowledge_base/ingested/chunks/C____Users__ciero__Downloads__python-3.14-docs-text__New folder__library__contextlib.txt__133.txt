@@ -1,0 +1,5 @@
+context managers, and will complain about the underlying generator
+failing to yield if an attempt is made to use them a second time:
+   >>> from contextlib import contextmanager
+   >>> @contextmanager
+   ... def singleuse():

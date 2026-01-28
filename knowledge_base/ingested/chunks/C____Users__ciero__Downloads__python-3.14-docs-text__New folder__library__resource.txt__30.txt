@@ -1,0 +1,6 @@
+only if bit 1 of the vm.overcommit sysctl is set. Please see
+   tuning(7) for a complete description of this sysctl.
+   Availability: FreeBSD >= 8.
+   Added in version 3.4.
+resource.RLIMIT_NPTS
+   The maximum number of pseudo-terminals created by this user id.

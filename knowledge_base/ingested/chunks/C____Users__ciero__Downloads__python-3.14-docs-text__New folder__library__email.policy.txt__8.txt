@@ -1,0 +1,4 @@
+"EmailPolicy" policy, via its pre-defined instance "default".
+When a "Message" or "EmailMessage" object is created, it acquires a
+policy.  If the message is created by a "parser", a policy passed to
+the parser will be the policy used by the message it creates.  If the

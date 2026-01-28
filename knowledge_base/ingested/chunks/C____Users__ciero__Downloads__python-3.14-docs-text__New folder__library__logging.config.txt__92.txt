@@ -1,0 +1,3 @@
+as "cfg://foo" or "ext://bar", because they will not be processed by
+  the configuration machinery, but passed to the callable as-is.
+The key "'()'" has been used as the special key because it is not a

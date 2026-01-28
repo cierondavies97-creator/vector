@@ -1,0 +1,6 @@
+file descriptor directly will bypass the file object methods, ignoring
+aspects such as internal buffering of data.
+os.close(fd)
+   Close file descriptor *fd*.
+   Note:
+     This function is intended for low-level I/O and must be applied

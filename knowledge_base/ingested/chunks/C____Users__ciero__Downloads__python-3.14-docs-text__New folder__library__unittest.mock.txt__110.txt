@@ -1,0 +1,7 @@
+keyword arguments are for configuring attributes of the mock:
+>>> m = MagicMock(attribute=3, other='fish')
+>>> m.attribute
+3
+>>> m.other
+'fish'
+The return value and side effect of child mocks can be set in the same

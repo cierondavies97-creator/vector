@@ -1,0 +1,5 @@
+data may become available.
+      Note:
+        When the underlying raw stream is non-blocking,
+        implementations may either raise "BlockingIOError" or return
+        "None" if no data is available. "io" implementations return

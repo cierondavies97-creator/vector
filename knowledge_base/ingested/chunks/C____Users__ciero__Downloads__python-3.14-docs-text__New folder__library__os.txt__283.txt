@@ -1,0 +1,6 @@
+arguments.
+   Changed in version 3.6: Supports a *path-like object*.
+os.chroot(path)
+   Change the root directory of the current process to *path*.
+   Availability: Unix, not WASI, not Android.
+   Changed in version 3.6: Accepts a *path-like object*.

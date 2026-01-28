@@ -1,0 +1,5 @@
+load the library.
+Accessing a function on a loaded library raises an auditing event
+"ctypes.dlsym" with arguments "library" (the library object) and
+"name" (the symbol's name as a string or integer).
+In cases when only the library handle is available rather than the

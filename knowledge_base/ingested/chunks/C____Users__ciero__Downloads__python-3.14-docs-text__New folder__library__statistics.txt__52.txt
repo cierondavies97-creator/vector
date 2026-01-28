@@ -1,0 +1,5 @@
+function.][image]
+   Added in version 3.13.
+statistics.kde_random(data, h, kernel='normal', *, seed=None)
+   Return a function that makes a random selection from the estimated
+   probability density function produced by "kde(data, h, kernel)".

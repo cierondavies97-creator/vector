@@ -1,0 +1,6 @@
+_init_module_attrs(spec, module)
+   if spec.loader is None:
+       # unsupported
+       raise ImportError
+   if spec.origin is None and spec.submodule_search_locations is not None:
+       # namespace package

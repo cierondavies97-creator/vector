@@ -1,0 +1,5 @@
+careful control of how those components interact.
+Note:
+  Interpreters in the same process can technically never be strictly
+  isolated from one another since there are few restrictions on memory
+  access within the same process.  The Python runtime makes a best

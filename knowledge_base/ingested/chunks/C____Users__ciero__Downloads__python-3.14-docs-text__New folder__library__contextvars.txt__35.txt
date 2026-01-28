@@ -1,0 +1,6 @@
+of a remote client available in the Task that handles that client:
+   import asyncio
+   import contextvars
+   client_addr_var = contextvars.ContextVar('client_addr')
+   def render_goodbye():
+       # The address of the currently handled client can be accessed

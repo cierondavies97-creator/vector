@@ -1,0 +1,5 @@
+"hashlib" --- Secure hashes and message digests
+***********************************************
+**Source code:** Lib/hashlib.py
+======================================================================
+This module implements a common interface to many different hash

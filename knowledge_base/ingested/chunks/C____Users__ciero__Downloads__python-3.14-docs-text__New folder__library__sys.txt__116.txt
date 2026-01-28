@@ -1,0 +1,2 @@
+| float_info.epsilon                | "DBL_EPSILON"                     | difference between 1.0 and the    |
+   |                                   |                                   | least value greater than 1.0 that |

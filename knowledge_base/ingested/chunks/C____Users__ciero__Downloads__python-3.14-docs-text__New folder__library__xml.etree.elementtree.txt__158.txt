@@ -1,0 +1,3 @@
+Note that if the matching element has no text content an empty
+      string is returned. *namespaces* is an optional mapping from
+      namespace prefix to full name.  Pass "''" as prefix to move all

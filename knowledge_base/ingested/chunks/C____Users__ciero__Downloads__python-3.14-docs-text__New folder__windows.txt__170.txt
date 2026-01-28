@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "shebang_can_run_anything_silently"                | True to suppress visible warnings when a shebang   |

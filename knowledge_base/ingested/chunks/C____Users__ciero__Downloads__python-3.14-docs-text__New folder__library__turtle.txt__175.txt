@@ -1,0 +1,5 @@
+turtle.poly()
+   Record the vertices of a polygon drawn in the "with turtle.poly():"
+   block. The first and last vertices will be connected.
+      >>> with turtle.poly():
+      ...     turtle.forward(100)

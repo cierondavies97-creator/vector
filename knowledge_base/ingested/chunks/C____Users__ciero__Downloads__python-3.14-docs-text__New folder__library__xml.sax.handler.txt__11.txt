@@ -1,0 +1,3 @@
+value: ""http://xml.org/sax/features/string-interning""
+      true: All element names, prefixes, attribute names, Namespace URIs, and
+      local names are interned using the built-in intern function.

@@ -1,0 +1,6 @@
+much harder to maintain.
+Tutorial
+========
+While "optparse" is quite flexible and powerful, it's also
+straightforward to use in most cases.  This section covers the code
+patterns that are common to any "optparse"-based program.

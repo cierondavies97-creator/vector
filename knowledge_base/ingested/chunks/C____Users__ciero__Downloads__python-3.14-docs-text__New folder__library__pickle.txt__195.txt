@@ -1,0 +1,12 @@
+import builtins
+   import io
+   import pickle
+   safe_builtins = {
+       'range',
+       'complex',
+       'set',
+       'frozenset',
+       'slice',
+   }
+   class RestrictedUnpickler(pickle.Unpickler):
+       def find_class(self, module, name):

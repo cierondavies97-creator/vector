@@ -1,0 +1,4 @@
+Using RLock as a context manager
+           Recommended over manual "acquire()" and "release()" calls
+           whenever practical.
+      When invoked with the *blocking* argument set to "True" (the

@@ -1,0 +1,4 @@
+possible.  Using a hard coded port is discouraged since it can make
+   multiple instances of the test impossible to run simultaneously,
+   which is a problem for buildbots.
+test.support.socket_helper.bind_port(sock, host=HOST)

@@ -1,0 +1,3 @@
+instantiating a logger. The class should define "__init__()" such
+   that only a name argument is required, and the "__init__()" should
+   call "Logger.__init__()". This function is typically called before

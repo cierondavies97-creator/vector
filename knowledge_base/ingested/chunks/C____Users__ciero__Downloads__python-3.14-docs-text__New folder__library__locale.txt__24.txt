@@ -1,0 +1,2 @@
+|                        |                                       | separated from the value  by a   |
+   |                        |                                       | space (for positive resp.        |

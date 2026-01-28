@@ -1,0 +1,7 @@
+future environment changes.
+   "getenvb()" is only available if "supports_bytes_environ" is
+   "True".
+   Availability: Unix.
+   Added in version 3.2.
+os.get_exec_path(env=None)
+   Returns the list of directories that will be searched for a named

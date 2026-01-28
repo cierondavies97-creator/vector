@@ -1,0 +1,5 @@
+Incremental (de)compression
+===========================
+class bz2.BZ2Compressor(compresslevel=9)
+   Create a new compressor object. This object may be used to compress
+   data incrementally. For one-shot compression, use the "compress()"

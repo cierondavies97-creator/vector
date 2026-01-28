@@ -1,0 +1,5 @@
+Example: "http.client.responses[http.client.NOT_FOUND]" is "'Not
+   Found'".
+See HTTP status codes for a list of HTTP status codes that are
+available in this module as constants.
+HTTPConnection Objects

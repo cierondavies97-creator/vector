@@ -1,0 +1,6 @@
+/* Error checking of pName left out */
+       pModule = PyImport_Import(pName);
+       Py_DECREF(pName);
+       if (pModule != NULL) {
+           pFunc = PyObject_GetAttrString(pModule, argv[2]);
+           /* pFunc is a new reference */

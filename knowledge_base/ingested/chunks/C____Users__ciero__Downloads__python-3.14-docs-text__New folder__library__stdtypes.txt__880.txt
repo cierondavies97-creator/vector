@@ -1,0 +1,6 @@
+True
+      >>> isinstance([1], int | list[int])
+      Traceback (most recent call last):
+        ...
+      TypeError: isinstance() argument 2 cannot be a parameterized generic
+The user-exposed type for the union object can be accessed from

@@ -1,0 +1,5 @@
+Quick-start tutorial
+====================
+The usual start to using decimals is importing the module, viewing the
+current context with "getcontext()" and, if necessary, setting new
+values for precision, rounding, or enabled traps:

@@ -1,0 +1,6 @@
+setStream(stream)
+      Sets the instance's stream to the specified value, if it is
+      different. The old stream is flushed before the new stream is
+      set.
+      Parameters:
+         **stream** -- The stream that the handler should use.

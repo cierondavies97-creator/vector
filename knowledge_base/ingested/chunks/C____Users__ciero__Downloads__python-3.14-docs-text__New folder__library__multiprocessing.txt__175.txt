@@ -1,0 +1,4 @@
+"freeze_support()" has no effect.
+multiprocessing.get_all_start_methods()
+   Returns a list of the supported start methods, the first of which
+   is the default.  The possible start methods are "'fork'", "'spawn'"

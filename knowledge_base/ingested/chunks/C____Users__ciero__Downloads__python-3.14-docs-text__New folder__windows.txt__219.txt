@@ -1,0 +1,2 @@
+|                                                    | name, create a batch file containing "@py          |
+|                                                    | "%~dpn0.py" %*" with the same name as the script,  |

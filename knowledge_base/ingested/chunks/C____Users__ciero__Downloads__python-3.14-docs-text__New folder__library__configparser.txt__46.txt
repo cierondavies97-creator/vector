@@ -1,0 +1,4 @@
+# use a %% to escape the % sign (% is the only character that needs to be escaped):
+      gain: 80%%
+   In the example above, "ConfigParser" with *interpolation* set to
+   "BasicInterpolation()" would resolve "%(home_dir)s" to the value of

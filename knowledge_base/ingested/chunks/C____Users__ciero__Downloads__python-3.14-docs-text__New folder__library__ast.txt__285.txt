@@ -1,0 +1,4 @@
+A "typing.ParamSpec". "name" is the name of the parameter
+   specification. "default_value" is the default value; if the
+   "ParamSpec" has no default, this attribute will be set to "None".
+      >>> print(ast.dump(ast.parse("type Alias[**P = [int, str]] = Callable[P, int]"), indent=4))

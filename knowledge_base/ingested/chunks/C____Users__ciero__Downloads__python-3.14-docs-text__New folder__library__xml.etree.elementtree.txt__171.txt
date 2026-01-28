@@ -1,0 +1,4 @@
+Code should be prepared to deal with any ordering on input. In
+   cases where deterministic XML output is required, e.g. for
+   cryptographic signing or test data sets, canonical serialisation is
+   available with the "canonicalize()" function.

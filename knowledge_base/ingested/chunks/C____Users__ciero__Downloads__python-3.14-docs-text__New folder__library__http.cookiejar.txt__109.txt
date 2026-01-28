@@ -1,0 +1,5 @@
+returning Netscape cookies, and block some domains from setting
+cookies or having them returned:
+   import urllib.request
+   from http.cookiejar import CookieJar, DefaultCookiePolicy
+   policy = DefaultCookiePolicy(

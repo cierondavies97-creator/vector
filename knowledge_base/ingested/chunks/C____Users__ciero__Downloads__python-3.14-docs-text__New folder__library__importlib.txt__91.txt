@@ -1,0 +1,6 @@
+exception.
+      Changed in version 3.4: No longer raises "NotImplementedError"
+      when called.
+   get_code(fullname)
+      Concrete implementation of "InspectLoader.get_code()".
+   exec_module(module)

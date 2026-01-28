@@ -1,0 +1,4 @@
+get_all(name)
+      Return a list of all the values for the named header.
+      The returned list will be sorted in the order they appeared in
+      the original header list or were added to this instance, and may

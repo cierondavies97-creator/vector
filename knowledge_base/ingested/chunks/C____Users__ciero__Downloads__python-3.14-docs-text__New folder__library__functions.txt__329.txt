@@ -1,0 +1,5 @@
+For both use cases, a typical superclass call looks like this:
+      class C(B):
+          def method(self, arg):
+              super().method(arg)    # This does the same thing as:
+                                     # super(C, self).method(arg)

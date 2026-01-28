@@ -1,0 +1,4 @@
+We can verify that the new table has been created by querying the
+"sqlite_master" table built-in to SQLite, which should now contain an
+entry for the "movie" table definition (see The Schema Table for
+details). Execute that query by calling "cur.execute(...)", assign the

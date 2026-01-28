@@ -1,0 +1,5 @@
+Raises an auditing event "os.posix_spawn" with arguments "path",
+   "argv", "env".
+   Added in version 3.8.
+   Availability: POSIX, not WASI, not Android, not iOS.
+   See "posix_spawn()" documentation.

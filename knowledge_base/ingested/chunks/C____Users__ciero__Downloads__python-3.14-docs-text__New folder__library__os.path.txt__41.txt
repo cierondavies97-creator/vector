@@ -1,0 +1,4 @@
+performance for reading and writing files. It is recommended for
+   use for source code, temporary build directories, package caches,
+   and other IO-intensive operations.
+   May raise an error for an invalid path, for example, one without a

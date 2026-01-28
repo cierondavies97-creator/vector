@@ -1,0 +1,5 @@
+one_message = some_mailbox.get_message(key)
+         one_message.set_info(info)
+         some_mailbox[key] = one_message
+      but faster, because it does not open the message file.
+      If you do have a "MaildirMessage" object, use its "set_info()"

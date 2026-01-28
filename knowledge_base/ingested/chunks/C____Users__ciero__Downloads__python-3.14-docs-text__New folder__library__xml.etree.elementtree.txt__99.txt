@@ -1,0 +1,4 @@
+Parses an XML section into an element tree incrementally, and
+   reports what's going on to the user.  *source* is a filename or
+   *file object* containing XML data.  *events* is a sequence of
+   events to report back.  The supported events are the strings

@@ -1,0 +1,4 @@
+Return a *file-like object* that can be used as a temporary storage
+   area. The file is created securely, using the same rules as
+   "mkstemp()". It will be destroyed as soon as it is closed
+   (including an implicit close when the object is garbage collected).

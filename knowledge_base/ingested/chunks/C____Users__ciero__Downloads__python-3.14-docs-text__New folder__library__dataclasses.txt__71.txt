@@ -1,0 +1,3 @@
+Creates a new dataclass with name *cls_name*, fields as defined in
+   *fields*, base classes as given in *bases*, and initialized with a
+   namespace as given in *namespace*.  *fields* is an iterable whose

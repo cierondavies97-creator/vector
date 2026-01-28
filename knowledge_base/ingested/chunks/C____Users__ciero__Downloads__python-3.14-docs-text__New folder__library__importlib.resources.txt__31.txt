@@ -1,0 +1,4 @@
+Provides the path to the *resource* as an actual file system path.
+   This function returns a context manager for use in a "with"
+   statement. The context manager provides a "pathlib.Path" object.
+   Exiting the context manager cleans up any temporary files created,

@@ -1,0 +1,5 @@
+"Stats" objects have the following methods:
+   strip_dirs()
+      This method for the "Stats" class removes all leading path
+      information from file names.  It is very useful in reducing the
+      size of the printout to fit within (close to) 80 columns.  This

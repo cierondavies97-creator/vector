@@ -1,0 +1,5 @@
+"DivisionByZero" trap is set, then a "DivisionByZero" exception is
+raised upon encountering the condition.
+class decimal.Clamped
+   Altered an exponent to fit representation constraints.
+   Typically, clamping occurs when an exponent falls outside the

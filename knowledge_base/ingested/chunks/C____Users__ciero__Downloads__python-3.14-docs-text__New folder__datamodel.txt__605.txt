@@ -1,0 +1,5 @@
+preferably be set to "None" (it can’t be deleted), rather than set
+   to a function that returns an empty dict.
+   Added in version 3.14.
+See also:
+  **PEP 649** --- Deferred evaluation of annotation using descriptors

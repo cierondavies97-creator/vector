@@ -1,0 +1,7 @@
+operator.__delitem__(a, b)
+   Remove the value of *a* at index *b*.
+operator.getitem(a, b)
+operator.__getitem__(a, b)
+   Return the value of *a* at index *b*.
+operator.indexOf(a, b)
+   Return the index of the first of occurrence of *b* in *a*.

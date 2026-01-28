@@ -1,0 +1,5 @@
+The process ID of the child process.
+   Note that if you set the *shell* argument to "True", this is the
+   process ID of the spawned shell.
+Popen.returncode
+   The child return code. Initially "None", "returncode" is set by a

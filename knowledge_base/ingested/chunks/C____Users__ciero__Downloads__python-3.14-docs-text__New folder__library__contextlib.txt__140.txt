@@ -1,0 +1,4 @@
+functions calling each other and hence be far more complicated than
+this example.
+Note also that being reentrant is *not* the same thing as being thread
+safe. "redirect_stdout()", for example, is definitely not thread safe,

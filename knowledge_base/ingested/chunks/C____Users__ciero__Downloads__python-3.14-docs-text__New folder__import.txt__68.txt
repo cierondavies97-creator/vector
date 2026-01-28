@@ -1,0 +1,4 @@
+* After the module is created but before execution, the import
+  machinery sets the import-related module attributes
+  ("_init_module_attrs" in the pseudo-code example above), as
+  summarized in a later section.

@@ -1,0 +1,3 @@
+with a 500 person capacity.  There is a talk about Python and another
+about Ruby. In previous conferences, 65% of the attendees preferred to
+listen to Python talks.  Assuming the population preferences haven't

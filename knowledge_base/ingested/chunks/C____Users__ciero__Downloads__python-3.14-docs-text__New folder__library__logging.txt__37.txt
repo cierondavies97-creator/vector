@@ -1,0 +1,4 @@
+string representation of the level such as 'INFO' as an
+      alternative to the integer constants such as "INFO". Note,
+      however, that levels are internally stored as integers, and
+      methods such as e.g. "getEffectiveLevel()" and "isEnabledFor()"

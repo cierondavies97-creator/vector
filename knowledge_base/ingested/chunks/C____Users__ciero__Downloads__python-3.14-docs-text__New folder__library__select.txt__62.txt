@@ -1,0 +1,4 @@
+has any pending I/O events.  *fd* can be either an integer, or an
+   object with a "fileno()" method that returns an integer.  File
+   objects implement "fileno()", so they can also be used as the
+   argument.

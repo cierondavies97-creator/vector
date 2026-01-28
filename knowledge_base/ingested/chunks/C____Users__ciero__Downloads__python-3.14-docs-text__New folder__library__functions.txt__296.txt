@@ -1,0 +1,4 @@
+default to "None".
+   Slice objects have read-only data attributes "start", "stop", and
+   "step" which merely return the argument values (or their default).
+   They have no other explicit functionality; however, they are used

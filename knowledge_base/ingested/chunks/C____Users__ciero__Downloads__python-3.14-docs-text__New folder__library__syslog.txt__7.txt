@@ -1,0 +1,4 @@
+affected and the restriction is not relevant for most users.)
+   "openlog()" must be called in the main interpreter before
+   "syslog()" may be used in a subinterpreter.  Otherwise it will
+   raise "RuntimeError".

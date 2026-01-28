@@ -1,0 +1,5 @@
+"gzip" --- Support for **gzip** files
+*************************************
+**Source code:** Lib/gzip.py
+======================================================================
+This module provides a simple interface to compress and decompress

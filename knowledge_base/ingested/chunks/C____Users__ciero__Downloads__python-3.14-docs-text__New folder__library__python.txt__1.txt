@@ -1,0 +1,7 @@
+* "sys" --- System-specific parameters and functions
+* "sys.monitoring" --- Execution event monitoring
+  * Tool identifiers
+    * Registering and using tools
+  * Events
+    * Local events
+    * Deprecated event

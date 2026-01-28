@@ -1,0 +1,5 @@
+expansion.  (See also the "glob" module.)
+See also: The "pathlib" module offers high-level path objects.
+Note:
+  All of these functions accept either only bytes or only string
+  objects as their parameters.  The result is an object of the same

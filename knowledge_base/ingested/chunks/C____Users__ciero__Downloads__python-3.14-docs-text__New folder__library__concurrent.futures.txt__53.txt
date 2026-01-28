@@ -1,0 +1,4 @@
+run with this executor has true multi-core parallelism.
+   The optional *initializer* and *initargs* arguments have the same
+   meaning as for "ThreadPoolExecutor": the initializer is run when
+   each worker is created, though in this case it is run in the

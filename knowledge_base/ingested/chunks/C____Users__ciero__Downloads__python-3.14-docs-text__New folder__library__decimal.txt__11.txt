@@ -1,0 +1,3 @@
+required parts of the standard. When needed, the programmer has full
+  control over rounding and signal handling. This includes an option
+  to enforce exact arithmetic by using exceptions to block any inexact

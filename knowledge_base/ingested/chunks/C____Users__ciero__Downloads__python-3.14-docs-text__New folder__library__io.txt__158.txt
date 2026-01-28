@@ -1,0 +1,4 @@
+"BlockingIOError" may be raised if a read operation cannot be
+     completed immediately.
+   "TextIOWrapper" provides these data attributes and methods in
+   addition to those from "TextIOBase" and "IOBase":

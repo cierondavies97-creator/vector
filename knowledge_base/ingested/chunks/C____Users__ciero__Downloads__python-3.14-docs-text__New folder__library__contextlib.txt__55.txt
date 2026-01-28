@@ -1,0 +1,6 @@
+This context manager is reentrant.
+   Added in version 3.11.
+class contextlib.ContextDecorator
+   A base class that enables a context manager to also be used as a
+   decorator.
+   Context managers inheriting from "ContextDecorator" have to

@@ -1,0 +1,7 @@
+"__future__" statements are in effect, these will be included as
+   well.
+keyword.issoftkeyword(s)
+   Return "True" if *s* is a Python soft keyword.
+   Added in version 3.9.
+keyword.softkwlist
+   Sequence containing all the soft keywords defined for the

@@ -1,0 +1,9 @@
+gets passed:
+   >>> def py_cmp_func(a, b):
+   ...     print("py_cmp_func", a[0], b[0])
+   ...     return 0
+   ...
+   >>> cmp_func = CMPFUNC(py_cmp_func)
+   >>>
+The result:
+   >>> qsort(ia, len(ia), sizeof(c_int), cmp_func)

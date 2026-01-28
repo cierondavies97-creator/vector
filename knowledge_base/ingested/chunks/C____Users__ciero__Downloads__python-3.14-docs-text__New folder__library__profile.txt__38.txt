@@ -1,0 +1,3 @@
+run via the *timer* argument. This must be a function that returns
+   a single number representing the current time. If the number is an
+   integer, the *timeunit* specifies a multiplier that specifies the

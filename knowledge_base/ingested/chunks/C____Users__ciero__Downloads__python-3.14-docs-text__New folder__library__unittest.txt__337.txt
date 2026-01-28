@@ -1,0 +1,4 @@
+maintain the internal data structures, and may be extended in
+   subclasses to support additional reporting requirements.  This is
+   particularly useful in building tools which support interactive
+   reporting while tests are being run.

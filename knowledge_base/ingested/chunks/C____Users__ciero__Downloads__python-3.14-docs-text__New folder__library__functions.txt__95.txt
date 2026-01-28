@@ -1,0 +1,4 @@
+dictionary into *globals* before passing it to "eval()".  If the
+   *locals* mapping is omitted it defaults to the *globals*
+   dictionary.  If both mappings are omitted, the source is executed
+   with the *globals* and *locals* in the environment where "eval()"

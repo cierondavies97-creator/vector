@@ -1,0 +1,4 @@
+parameter expressions. See "ParamSpec" and **PEP 612** for more
+details.
+A user-defined generic class can have ABCs as base classes without a
+metaclass conflict. Generic metaclasses are not supported. The outcome

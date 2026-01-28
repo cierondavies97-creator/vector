@@ -1,0 +1,5 @@
+return getattr(obj, name)(*args, **kwargs)
+          return caller
+Mapping Operators to Functions
+==============================
+This table shows how abstract operations correspond to operator

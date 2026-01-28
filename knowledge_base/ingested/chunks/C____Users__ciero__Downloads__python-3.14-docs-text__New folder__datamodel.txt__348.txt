@@ -1,0 +1,5 @@
+in the traceback.
+   See also: Documentation for the "gc" module.
+   Warning:
+     Due to the precarious circumstances under which "__del__()"
+     methods are invoked, exceptions that occur during their execution

@@ -1,0 +1,5 @@
+information on the warnings framework.
+sys.winver
+   The version number used to form registry keys on Windows platforms.
+   This is stored as string resource 1000 in the Python DLL.  The
+   value is normally the major and minor versions of the running

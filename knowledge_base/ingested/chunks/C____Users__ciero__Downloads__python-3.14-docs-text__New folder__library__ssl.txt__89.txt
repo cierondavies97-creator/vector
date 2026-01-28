@@ -1,0 +1,6 @@
+ssl.PROTOCOL_SSLv3
+   Selects SSL version 3 as the channel encryption protocol.
+   This protocol is not available if OpenSSL is compiled with the "no-
+   ssl3" option.
+   Warning:
+     SSL version 3 is insecure.  Its use is highly discouraged.

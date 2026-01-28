@@ -1,0 +1,5 @@
+curses.LINES
+   The height of the screen, i.e., the number of lines. It is defined
+   only after the call to "initscr()". Updated by
+   "update_lines_cols()", "resizeterm()" and "resize_term()".
+Some constants are available to specify character cell attributes. The

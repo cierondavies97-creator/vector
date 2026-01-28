@@ -1,0 +1,6 @@
+When "Mock" wraps an object, the default value of "return_value" will
+be "DEFAULT".
+>>> order_mock = Mock(spec=Order, wraps=Order)
+>>> order_mock.return_value
+sentinel.DEFAULT
+>>> order_mock.get_value.return_value

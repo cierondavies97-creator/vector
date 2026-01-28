@@ -1,0 +1,3 @@
++-------------------------+--------------------------------------------------------+
+| "[tag]"                 | Selects all elements that have a child named "tag".    |
+|                         | Only immediate children are supported.                 |

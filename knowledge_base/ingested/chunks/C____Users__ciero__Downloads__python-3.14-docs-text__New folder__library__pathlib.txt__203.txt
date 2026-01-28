@@ -1,0 +1,6 @@
+"os.symlink()"'s.
+   Changed in version 3.13: Raises "UnsupportedOperation" if
+   "os.symlink()" is not available. In previous versions,
+   "NotImplementedError" was raised.
+Path.hardlink_to(target)
+   Make this path a hard link to the same file as *target*.

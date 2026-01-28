@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "py" gives me a "can't open file" error when I     | This usually means you have the legacy launcher    |

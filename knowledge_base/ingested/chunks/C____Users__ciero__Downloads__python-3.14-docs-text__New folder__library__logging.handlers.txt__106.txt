@@ -1,0 +1,3 @@
+handler initialization, but it's not regarded as an error if the
+      other end isn't listening at this point - the method will be
+      called again when emitting an event, if there is no socket at

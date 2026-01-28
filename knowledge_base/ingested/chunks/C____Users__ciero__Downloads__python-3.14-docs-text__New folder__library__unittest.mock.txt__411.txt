@@ -1,0 +1,5 @@
+sentinel.DEFAULT
+The order of precedence will ignore this value and it will move to the
+last successor which is the wrapped object.
+As the real call is being made to the wrapped object, creating an
+instance of this mock will return the real instance of the class. The

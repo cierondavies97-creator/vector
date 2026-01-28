@@ -1,0 +1,5 @@
+Added in version 3.5.
+The variables defined in the "signal" module are:
+signal.SIG_DFL
+   This is one of two standard signal handling options; it will simply
+   perform the default function for the signal.  For example, on most

@@ -1,0 +1,9 @@
+secure, closed network.
+   import datetime
+   class ExampleService:
+       def getData(self):
+           return '42'
+       class currentTime:
+           @staticmethod
+           def getCurrentTime():
+               return datetime.datetime.now()

@@ -1,0 +1,6 @@
+Added in version 3.11: Added "Path.suffix" property.
+Path.stem
+   The final path component, without its suffix.
+   Added in version 3.11: Added "Path.stem" property.
+Path.suffixes
+   A list of the path’s suffixes, commonly called file extensions.

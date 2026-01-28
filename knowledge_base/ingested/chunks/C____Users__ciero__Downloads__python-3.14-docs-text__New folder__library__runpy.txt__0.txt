@@ -1,0 +1,5 @@
+"runpy" --- Locating and executing Python modules
+*************************************************
+**Source code:** Lib/runpy.py
+======================================================================
+The "runpy" module is used to locate and run Python modules without

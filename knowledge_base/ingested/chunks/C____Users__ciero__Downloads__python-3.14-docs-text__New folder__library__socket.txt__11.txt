@@ -1,0 +1,3 @@
+host address: "''" represents "INADDR_ANY", which is used to bind
+    to all interfaces, and the string "'<broadcast>'" represents
+    "INADDR_BROADCAST".  This behavior is not compatible with IPv6,

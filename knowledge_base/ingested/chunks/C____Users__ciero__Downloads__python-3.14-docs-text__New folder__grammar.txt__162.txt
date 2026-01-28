@@ -1,0 +1,3 @@
+| a=lambda_param c=default &':' { _PyPegen_name_default_pair(p, a, c, NULL) }
+   lambda_param_maybe_default[NameDefaultPair*]:
+       | a=lambda_param c=default? ',' { _PyPegen_name_default_pair(p, a, c, NULL) }

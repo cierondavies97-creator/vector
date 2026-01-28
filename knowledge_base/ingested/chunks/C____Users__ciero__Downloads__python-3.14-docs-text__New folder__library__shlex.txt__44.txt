@@ -1,0 +1,6 @@
+shlex.instream
+   The input stream from which this "shlex" instance is reading
+   characters.
+shlex.source
+   This attribute is "None" by default.  If you assign a string to it,
+   that string will be recognized as a lexical-level inclusion request

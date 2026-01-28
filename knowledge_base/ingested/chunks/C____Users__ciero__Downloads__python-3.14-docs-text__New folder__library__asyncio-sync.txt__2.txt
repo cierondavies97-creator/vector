@@ -1,0 +1,8 @@
+*timeout* argument; use the "asyncio.wait_for()" function to perform
+  operations with timeouts.
+asyncio has the following basic synchronization primitives:
+* "Lock"
+* "Event"
+* "Condition"
+* "Semaphore"
+* "BoundedSemaphore"

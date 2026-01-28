@@ -1,0 +1,10 @@
+>>> thread.start()
+   >>> thread.join()
+   >>> log
+   [[('color', 'red')], 11]
+without affecting this thread's data:
+   >>> mydata.number
+   2
+   >>> mydata.color
+   Traceback (most recent call last):
+   ...

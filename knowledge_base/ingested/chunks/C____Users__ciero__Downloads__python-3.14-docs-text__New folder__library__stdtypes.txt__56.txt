@@ -1,0 +1,4 @@
+numeric operations and higher than the comparisons; the unary
+operation "~" has the same priority as the other unary numeric
+operations ("+" and "-").
+This table lists the bitwise operations sorted in ascending priority:

@@ -1,0 +1,4 @@
+The optional argument *timespec* specifies the number of additional
+   components of the time to include (the default is "'auto'"). It can
+   be one of the following:
+   * "'auto'": Same as "'seconds'" if "microsecond" is 0, same as

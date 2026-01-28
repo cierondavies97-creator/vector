@@ -1,0 +1,4 @@
+*context manager*, the "name" will be assigned to the target of
+      the "as" clause in the "with" statement, if there is one.
+   cleanup()
+      The directory can be explicitly cleaned up by calling the

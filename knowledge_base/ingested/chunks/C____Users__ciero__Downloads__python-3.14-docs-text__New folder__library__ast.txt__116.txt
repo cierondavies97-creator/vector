@@ -1,0 +1,6 @@
+arg='b',
+                      value=Name(id='c', ctx=Load())),
+                  keyword(
+                      value=Name(id='e', ctx=Load()))]))
+class ast.keyword(arg, value)
+   A keyword argument to a function call or class definition. "arg" is

@@ -1,0 +1,4 @@
+depth limitations in Python's AST compiler.
+   Changed in version 3.5: "open()" always creates a new database when
+   *flag* is "'n'".
+   Changed in version 3.8: A database opened read-only if *flag* is

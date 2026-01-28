@@ -1,0 +1,4 @@
+token string. Any additional sequence elements are ignored.
+   The result is guaranteed to tokenize back to match the input so
+   that the conversion is lossless and round-trips are assured.  The
+   guarantee applies only to the token type and token string as the

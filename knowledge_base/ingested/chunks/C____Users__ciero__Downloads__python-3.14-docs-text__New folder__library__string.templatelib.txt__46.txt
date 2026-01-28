@@ -1,0 +1,5 @@
+processing logic.
+   Three conversion flags are currently supported:
+   * "'s'" which calls "str()" on the value (like "!s"),
+   * "'r'" which calls "repr()" (like "!r"), and
+   * "'a'" which calls "ascii()" (like "!a").

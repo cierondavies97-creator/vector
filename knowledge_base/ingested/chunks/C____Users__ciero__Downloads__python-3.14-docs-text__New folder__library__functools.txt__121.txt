@@ -1,0 +1,4 @@
+This is a convenience function for invoking "update_wrapper()" as a
+   function decorator when defining a wrapper function.  It is
+   equivalent to "partial(update_wrapper, wrapped=wrapped,
+   assigned=assigned, updated=updated)". For example:

@@ -1,0 +1,6 @@
+provided to the "run()" method).
+      For "TestCase" instances, this will always be an instance of
+      "TestResult"; subclasses of "TestCase" should override this as
+      necessary.
+   id()
+      Return a string identifying the specific test case.  This is

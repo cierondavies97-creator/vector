@@ -1,0 +1,4 @@
+in functions defined in C provide no metadata about their
+     arguments.
+   **CPython implementation detail:** If the passed object has a
+   "__signature__" attribute, we may use it to create the signature.

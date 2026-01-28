@@ -1,0 +1,3 @@
+effort at isolation but extension modules may easily violate that.
+  Therefore, do not use multiple interpreters in security-sensitive
+  situations, where they shouldn't have access to each other's data.

@@ -1,0 +1,5 @@
+"sys.path" entry rather than being executed directly.
+   Changed in version 3.12: The setting of "__cached__", "__loader__",
+   and "__package__" are deprecated.
+See also:
+  **PEP 338** -- Executing modules as scripts

@@ -1,0 +1,3 @@
+The Python DOM interface provides the constants, but also expands the
+set of exceptions so that a specific exception exists for each of the
+exception codes defined by the DOM.  The implementations must raise

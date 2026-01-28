@@ -1,0 +1,4 @@
+turn off interpolation completely, "ExtendedInterpolation()"
+  provides a more advanced variant inspired by "zc.buildout".  More on
+  the subject in the dedicated documentation section.
+  "RawConfigParser" has a default value of "None".

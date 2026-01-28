@@ -1,0 +1,6 @@
+* "type_params" is a list of type parameters.
+   type_comment
+      "type_comment" is an optional string with the type annotation as
+      a comment.
+   Changed in version 3.12: Added "type_params".
+class ast.Lambda(args, body)

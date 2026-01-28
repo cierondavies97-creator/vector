@@ -1,0 +1,3 @@
+optional argument *on_error* is specified, it should be a callable;
+   it will be called with one argument, an "OSError" instance. The
+   callable can handle the error to continue the walk or re-raise it

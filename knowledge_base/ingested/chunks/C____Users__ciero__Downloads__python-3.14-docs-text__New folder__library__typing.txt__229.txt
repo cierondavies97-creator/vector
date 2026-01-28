@@ -1,0 +1,5 @@
+unpacked.
+   For example, using the unpack operator "*" on a type variable tuple
+   is equivalent to using "Unpack" to mark the type variable tuple as
+   having been unpacked:
+      Ts = TypeVarTuple('Ts')

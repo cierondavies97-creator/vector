@@ -1,0 +1,4 @@
+assertRegex(text, regex, msg=None)
+   assertNotRegex(text, regex, msg=None)
+      Test that a *regex* search matches (or does not match) *text*.
+      In case of failure, the error message will include the pattern

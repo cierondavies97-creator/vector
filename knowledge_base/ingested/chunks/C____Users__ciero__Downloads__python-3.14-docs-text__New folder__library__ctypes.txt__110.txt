@@ -1,0 +1,4 @@
+------------------------------------------------------
+Sometimes a C api function expects a *pointer* to a data type as
+parameter, probably to write into the corresponding location, or if
+the data is too large to be passed by value. This is also known as

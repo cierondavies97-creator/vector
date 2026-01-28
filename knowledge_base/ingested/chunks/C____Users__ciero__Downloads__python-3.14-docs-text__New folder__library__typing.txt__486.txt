@@ -1,0 +1,7 @@
+for unsupported objects.
+   Examples:
+      assert get_args(int) == ()
+      assert get_args(Dict[int, str]) == (int, str)
+      assert get_args(Union[int, str]) == (int, str)
+   Added in version 3.8.
+typing.get_protocol_members(tp)

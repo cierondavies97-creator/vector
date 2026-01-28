@@ -1,0 +1,7 @@
+>>> with SMTP("domain.org") as smtp:
+      ...     smtp.noop()
+      ...
+      (250, b'Ok')
+      >>>
+   All commands will raise an auditing event "smtplib.SMTP.send" with
+   arguments "self" and "data", where "data" is the bytes about to be

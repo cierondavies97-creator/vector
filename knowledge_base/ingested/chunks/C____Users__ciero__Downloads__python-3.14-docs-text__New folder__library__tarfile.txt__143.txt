@@ -1,0 +1,5 @@
+*tarfile* supports extraction filters: a mechanism to limit
+functionality, and thus mitigate some of the security issues.
+Warning:
+  None of the available filters blocks *all* dangerous archive
+  features. Never extract archives from untrusted sources without

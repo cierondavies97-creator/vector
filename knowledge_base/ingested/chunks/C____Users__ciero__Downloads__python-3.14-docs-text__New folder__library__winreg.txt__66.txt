@@ -1,0 +1,5 @@
+is associated.
+   *reserved* can be anything -- zero is always passed to the API.
+   *type* is an integer that specifies the type of the data. See Value
+   Types for the available types.
+   *value* is a string that specifies the new value.

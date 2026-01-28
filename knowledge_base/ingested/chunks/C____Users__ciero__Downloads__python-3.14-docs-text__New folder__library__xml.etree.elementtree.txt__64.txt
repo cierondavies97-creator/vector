@@ -1,0 +1,3 @@
+|                         | current  element. For example, ".//egg" selects all    |
+|                         | "egg" elements in the entire tree.                     |
++-------------------------+--------------------------------------------------------+

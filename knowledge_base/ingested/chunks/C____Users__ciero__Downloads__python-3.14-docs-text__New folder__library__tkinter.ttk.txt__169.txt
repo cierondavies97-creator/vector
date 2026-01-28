@@ -1,0 +1,3 @@
+| <<TreeviewOpen>>     | Generated just before settings the focus item to   |
+|                      | open=True.                                         |
++----------------------+----------------------------------------------------+

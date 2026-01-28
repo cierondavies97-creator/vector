@@ -1,0 +1,3 @@
+flag for "io.TextIOWrapper.reconfigure()". When no *buffering*
+   argument is given, the default buffering policy works as follows:
+   * Binary files are buffered in fixed-size chunks; the size of the

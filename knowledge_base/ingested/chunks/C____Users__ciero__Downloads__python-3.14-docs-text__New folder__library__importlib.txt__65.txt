@@ -1,0 +1,5 @@
+find the requested module.
+      Note:
+        While the method has a default implementation, it is suggested
+        that it be overridden if possible for performance.
+      Changed in version 3.4: No longer abstract and a concrete

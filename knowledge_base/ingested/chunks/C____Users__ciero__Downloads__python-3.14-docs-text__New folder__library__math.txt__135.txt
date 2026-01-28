@@ -1,0 +1,5 @@
+sqrt(sum((px - qx) ** 2.0 for px, qx in zip(p, q)))
+   Added in version 3.8.
+math.fsum(iterable)
+   Return an accurate floating-point sum of values in the iterable.
+   Avoids loss of precision by tracking multiple intermediate partial

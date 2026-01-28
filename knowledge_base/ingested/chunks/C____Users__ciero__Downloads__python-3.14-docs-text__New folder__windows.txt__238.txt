@@ -1,0 +1,6 @@
+developer can ensure compatibility with newer versions before
+providing updates to users.
+The two recommended use cases for this distribution are described
+below.
+4.2.1. Python application
+-------------------------

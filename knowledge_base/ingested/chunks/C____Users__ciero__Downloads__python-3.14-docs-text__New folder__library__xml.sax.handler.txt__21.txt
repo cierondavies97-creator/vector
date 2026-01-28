@@ -1,0 +1,3 @@
+data type: org.w3c.dom.Node (not supported in Python 2)
+      description: When parsing, the current DOM node being visited if this is
+      a DOM iterator; when not parsing, the root DOM node for iteration.

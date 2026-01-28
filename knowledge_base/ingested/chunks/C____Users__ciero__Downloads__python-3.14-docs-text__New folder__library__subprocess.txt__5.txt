@@ -1,0 +1,4 @@
+Run the command described by *args*.  Wait for command to complete,
+   then return a "CompletedProcess" instance.
+   The arguments shown above are merely the most common ones,
+   described below in Frequently Used Arguments (hence the use of

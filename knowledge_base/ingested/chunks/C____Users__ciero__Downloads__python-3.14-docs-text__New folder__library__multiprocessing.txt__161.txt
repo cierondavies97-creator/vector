@@ -1,0 +1,4 @@
+"JoinableQueue", a "Queue" subclass, is a queue which additionally
+   has "task_done()" and "join()" methods.
+   Instantiating this class may set the global start method. See
+   Global start method for more details.

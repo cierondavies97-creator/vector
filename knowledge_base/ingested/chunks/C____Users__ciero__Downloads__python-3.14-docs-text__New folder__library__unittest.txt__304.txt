@@ -1,0 +1,4 @@
+*testCaseClass*; this should be a subclass of "TestCase".
+   discover(start_dir, pattern='test*.py', top_level_dir=None)
+      Find all the test modules by recursing into subdirectories from
+      the specified start directory, and return a TestSuite object

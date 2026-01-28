@@ -1,0 +1,3 @@
+"sys.exc_info()" is called to get the exception information.
+      The second optional keyword argument is *stack_info*, which
+      defaults to "False". If true, stack information is added to the

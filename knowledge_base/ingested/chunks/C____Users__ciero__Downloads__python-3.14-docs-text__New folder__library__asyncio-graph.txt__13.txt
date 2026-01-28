@@ -1,0 +1,5 @@
+Returns a "FutureCallGraph" data class object:
+   * "FutureCallGraph(future, call_stack, awaited_by)"
+        Where *future* is a reference to a "Future" or a "Task" (or
+        their subclasses.)
+        "call_stack" is a tuple of "FrameCallGraphEntry" objects.

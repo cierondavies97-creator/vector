@@ -1,0 +1,4 @@
+use "raw.readall" if available (which should implement
+      "RawIOBase.readall()"), otherwise will read in a loop until read
+      returns "None", an empty "bytes", or a non-retryable error. For
+      most streams this is to EOF, but for non-blocking streams more

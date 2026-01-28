@@ -1,0 +1,5 @@
+...         mock_bar = self.create_patch('mymodule.Bar')
+   ...         mock_spam = self.create_patch('mymodule.Spam')
+   ...
+   ...         assert mymodule.Foo is mock_foo
+   ...         assert mymodule.Bar is mock_bar

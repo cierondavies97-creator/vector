@@ -1,0 +1,4 @@
+namespaces as well as nested namespaces in objects (in methods).
+   Namespaces support modularity by preventing naming conflicts.  For
+   instance, the functions "builtins.open" and "os.open()" are
+   distinguished by their namespaces.  Namespaces also aid readability

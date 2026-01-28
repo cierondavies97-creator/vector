@@ -1,0 +1,6 @@
+-----------------------
+* On macOS, toplevel windows automatically include a built-in size
+  grip by default. Adding a "Sizegrip" is harmless, since the built-in
+  grip will just mask the widget.
+Bugs
+----

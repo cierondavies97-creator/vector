@@ -1,0 +1,6 @@
+my_tarfile.extractall()
+* Use the "'data'" filter; *fail* if it is not available:
+     my_tarfile.extractall(filter=tarfile.data_filter)
+  or:
+     my_tarfile.extraction_filter = tarfile.data_filter
+     my_tarfile.extractall()

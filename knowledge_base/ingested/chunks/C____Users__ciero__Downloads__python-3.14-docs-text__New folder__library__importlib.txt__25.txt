@@ -1,0 +1,4 @@
+global variables) is retained.  Redefinitions of names will
+   override the old definitions, so this is generally not a problem.
+   If the new version of a module does not define a name that was
+   defined by the old version, the old definition remains.  This

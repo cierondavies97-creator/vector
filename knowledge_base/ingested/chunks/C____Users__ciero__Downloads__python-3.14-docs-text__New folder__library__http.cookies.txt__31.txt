@@ -1,0 +1,6 @@
+Raise an error if key is not a valid **RFC 2109** attribute,
+   otherwise behave the same as "dict.setdefault()".
+Example
+=======
+The following example demonstrates how to use the "http.cookies"
+module.

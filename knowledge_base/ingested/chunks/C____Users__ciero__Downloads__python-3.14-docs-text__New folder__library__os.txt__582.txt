@@ -1,0 +1,4 @@
+This search path is used when resolving dependencies for imported
+   extension modules (the module itself is resolved through
+   "sys.path"), and also by "ctypes".
+   Remove the directory by calling **close()** on the returned object

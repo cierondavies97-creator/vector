@@ -1,0 +1,4 @@
+"__attribute__((aligned(N)))" on GCC or "#pragma align(N)" on
+      MSVC, except "ctypes" may allow values that the compiler would
+      reject.
+      "_align_" can only *increase* a structure's alignment

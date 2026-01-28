@@ -1,0 +1,7 @@
+...                   s)
+      ...
+      >>> titlecase("they're bill's friends.")
+      "They're Bill's Friends."
+   See also "istitle()".
+str.translate(table, /)
+   Return a copy of the string in which each character has been mapped

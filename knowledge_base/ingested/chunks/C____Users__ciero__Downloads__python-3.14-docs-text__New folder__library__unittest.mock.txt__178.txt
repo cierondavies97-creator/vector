@@ -1,0 +1,3 @@
+Since "name" is an argument to the "Mock" constructor, if you want
+your mock object to have a "name" attribute you can't just pass it in
+at creation time. There are two alternatives. One option is to use

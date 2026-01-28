@@ -1,0 +1,4 @@
+"ValueError" is raised.
+   The *debug_override* parameter is deprecated and can be used to
+   override the system's value for "__debug__". A "True" value is the
+   equivalent of setting *optimization* to the empty string. A "False"

@@ -1,0 +1,4 @@
+Open a ZIP file, where *file* can be a path to a file (a string), a
+   file-like object or a *path-like object*.
+   The *mode* parameter should be "'r'" to read an existing file,
+   "'w'" to truncate and write a new file, "'a'" to append to an

@@ -1,0 +1,4 @@
+The *file* must be kept open until the traceback is dumped or
+   "cancel_dump_traceback_later()" is called: see issue with file
+   descriptors.
+   This function is implemented using a watchdog thread.

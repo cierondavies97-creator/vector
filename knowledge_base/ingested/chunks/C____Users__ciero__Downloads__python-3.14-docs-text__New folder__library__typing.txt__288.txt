@@ -1,0 +1,7 @@
+__name__
+      The name of the type variable tuple.
+   __default__
+      The default value of the type variable tuple, or
+      "typing.NoDefault" if it has no default.
+      Added in version 3.13.
+   evaluate_default()

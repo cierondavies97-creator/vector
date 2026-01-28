@@ -1,0 +1,3 @@
+three values *a*, *b* and *c* will be equivalent to "3/(1/a + 1/b +
+   1/c)".  If one of the values is zero, the result will be zero.
+   The harmonic mean is a type of average, a measure of the central

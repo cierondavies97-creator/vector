@@ -1,0 +1,3 @@
+"Mock" is a very powerful and flexible object, but it suffers from a
+flaw which is general to mocking. If you refactor some of your code,
+rename members and so on, any tests for code that is still using the

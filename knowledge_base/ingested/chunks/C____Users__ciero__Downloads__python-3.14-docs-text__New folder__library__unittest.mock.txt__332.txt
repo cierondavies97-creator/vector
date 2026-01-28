@@ -1,0 +1,4 @@
+more complex introspection and assertions. The positional arguments
+are a tuple (an empty tuple if there are no positional arguments) and
+the keyword arguments are a dictionary:
+>>> m = MagicMock(return_value=None)

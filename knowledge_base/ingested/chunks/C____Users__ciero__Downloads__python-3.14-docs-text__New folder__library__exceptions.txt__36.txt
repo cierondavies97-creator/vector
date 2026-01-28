@@ -1,0 +1,5 @@
+path
+      The path to any file which triggered the exception.
+   Changed in version 3.3: Added the "name" and "path" attributes.
+exception ModuleNotFoundError
+   A subclass of "ImportError" which is raised by "import" when a

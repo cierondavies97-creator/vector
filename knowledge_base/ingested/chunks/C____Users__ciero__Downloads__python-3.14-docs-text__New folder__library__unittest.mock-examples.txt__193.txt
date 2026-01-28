@@ -1,0 +1,4 @@
+>>> mock.assert_called_with(match_foo)
+The "Matcher" is instantiated with our compare function and the "Foo"
+object we want to compare against. In "assert_called_with" the
+"Matcher" equality method will be called, which compares the object

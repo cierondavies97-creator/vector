@@ -1,0 +1,4 @@
+created item.
+      *parent* is the item ID of the parent item, or the empty string
+      to create a new top-level item. *index* is an integer, or the
+      value "end", specifying where in the list of parent's children

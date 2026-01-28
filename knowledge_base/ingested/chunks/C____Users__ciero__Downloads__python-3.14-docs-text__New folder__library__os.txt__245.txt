@@ -1,0 +1,4 @@
+descriptors except standard streams are closed, and inheritable
+handles are only inherited if the *close_fds* parameter is "False".
+On WebAssembly platforms, the file descriptor cannot be modified.
+os.get_inheritable(fd, /)

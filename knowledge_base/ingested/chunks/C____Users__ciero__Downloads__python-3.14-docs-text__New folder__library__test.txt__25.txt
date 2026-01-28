@@ -1,0 +1,3 @@
+used in previous Python versions still works.  Running the script by
+itself automatically starts running all regression tests in the "test"
+package. It does this by finding all modules in the package whose name

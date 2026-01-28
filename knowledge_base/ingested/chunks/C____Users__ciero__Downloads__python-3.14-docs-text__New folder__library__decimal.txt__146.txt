@@ -1,0 +1,4 @@
+"Rounded".  If given, applies *rounding*; otherwise, uses the
+      rounding method in either the supplied *context* or the current
+      context.
+   Decimal numbers can be rounded using the "round()" function:

@@ -1,0 +1,3 @@
+number.  In polar coordinates, a complex number *z* is defined by the
+modulus *r* and the phase angle *phi*. The modulus *r* is the distance
+from *z* to the origin, while the phase *phi* is the counterclockwise

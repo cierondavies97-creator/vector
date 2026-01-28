@@ -1,0 +1,4 @@
+This version introduces support for out-of-band buffers, where
+   **PEP 3118**-compatible data can be transmitted separately from the
+   main pickle stream.
+   Changed in version 3.0: The default protocol is 3.

@@ -1,0 +1,4 @@
+transactions are implicitly opened before "execute()" and
+"executemany()" executes "INSERT", "UPDATE", "DELETE", or "REPLACE"
+statements; for other statements, no implicit transaction handling is
+performed. Use the "commit()" and "rollback()" methods to respectively

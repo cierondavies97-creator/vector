@@ -1,0 +1,6 @@
+else:
+              # Do not ignore any exceptions, cm has no effect.
+              cm = contextlib.nullcontext()
+          with cm:
+              # Do something
+   An example using *enter_result*:

@@ -1,0 +1,6 @@
+>>> PureWindowsPath('//some/share/setup.py').name
+      'setup.py'
+      >>> PureWindowsPath('//some/share').name
+      ''
+PurePath.suffix
+   The last dot-separated portion of the final component, if any:

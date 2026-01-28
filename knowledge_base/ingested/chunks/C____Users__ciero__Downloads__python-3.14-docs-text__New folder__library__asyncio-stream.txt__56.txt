@@ -1,0 +1,6 @@
+url = urllib.parse.urlsplit(url)
+       if url.scheme == 'https':
+           reader, writer = await asyncio.open_connection(
+               url.hostname, 443, ssl=True)
+       else:
+           reader, writer = await asyncio.open_connection(

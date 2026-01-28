@@ -1,0 +1,4 @@
+the global Debug Mode settings.
+   *loop_factory* could be used for overriding the loop creation. It
+   is the responsibility of the *loop_factory* to set the created loop
+   as the current one. By default "asyncio.new_event_loop()" is used

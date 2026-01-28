@@ -1,0 +1,4 @@
+excluding "self". The length of the tuple of keyword argument names
+   is the number of named arguments.
+   "CALL_KW" pops all arguments, the keyword names, and the callable
+   object off the stack, calls the callable object with those

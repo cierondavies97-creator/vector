@@ -1,0 +1,3 @@
+instance as the spec rather than the class. The other is to create a
+subclass of the production class and add the defaults to the subclass
+without affecting the production class. Both of these require you to

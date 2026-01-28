@@ -1,0 +1,4 @@
+| WASI             | "'wasi'"                    |
+   +------------------+-----------------------------+
+   On Unix systems not listed in the table, the value is the
+   lowercased OS name as returned by "uname -s", with the first part

@@ -1,0 +1,5 @@
+This option can be used with "-p" but not with "-d".
+-p prepend_prefix
+   Prepend the given prefix to paths recorded in the ".pyc" files. Use
+   "-p /" to make the paths absolute.
+   This option can be used with "-s" but not with "-d".

@@ -1,0 +1,5 @@
+start = await increment(start)
+Coroutines can be annotated using "Coroutine[YieldType, SendType,
+ReturnType]". Generic arguments correspond to those of "Generator",
+for example:
+   from collections.abc import Coroutine

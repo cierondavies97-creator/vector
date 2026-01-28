@@ -1,0 +1,5 @@
+as changes to the rules become broadly available.
+   Availability: Windows.
+   Added in version 3.13.
+os.path.join(path, /, *paths)
+   Join one or more path segments intelligently.  The return value is

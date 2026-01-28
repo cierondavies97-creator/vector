@@ -1,0 +1,6 @@
+>>> manager.list([1,2,3]) == [1,2,3]
+     False
+  One should just use a copy of the referent instead when making
+  comparisons.
+class multiprocessing.managers.BaseProxy
+   Proxy objects are instances of subclasses of "BaseProxy".

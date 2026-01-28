@@ -1,0 +1,4 @@
+or incompatible settings passed over remote SSH connections.
+   Python doesn't internally use locale-dependent character
+   transformation functions from "ctype.h". Instead, "pyctype.h"
+   provides locale-independent equivalents like "Py_TOLOWER".

@@ -1,0 +1,4 @@
+with "dup()") if you want to keep them longer.
+   This example displays the number of bytes taken by non-directory
+   files in each directory under the starting directory, except that
+   it doesn't look under any "__pycache__" subdirectory:

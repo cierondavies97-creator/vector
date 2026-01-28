@@ -1,0 +1,10 @@
+▶ n must be integer
+▶ once fixed, we get the next error: str2 must be string
+Nicola Chiapolini, 8 July 2024
+19 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies

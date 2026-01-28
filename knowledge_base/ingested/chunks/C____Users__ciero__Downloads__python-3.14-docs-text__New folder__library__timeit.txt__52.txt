@@ -1,0 +1,6 @@
+0.08588060699912603
+To give the "timeit" module access to functions you define, you can
+pass a *setup* parameter which contains an import statement:
+   def test():
+       """Stupid test function"""
+       L = [i for i in range(100)]

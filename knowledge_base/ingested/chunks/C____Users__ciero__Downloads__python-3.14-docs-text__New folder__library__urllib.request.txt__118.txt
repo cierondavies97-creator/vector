@@ -1,0 +1,6 @@
+methods.
+3. Every handler with a method named like "<protocol>_response()" has
+   that method called to post-process the response.
+BaseHandler Objects
+===================
+"BaseHandler" objects provide a couple of methods that are directly

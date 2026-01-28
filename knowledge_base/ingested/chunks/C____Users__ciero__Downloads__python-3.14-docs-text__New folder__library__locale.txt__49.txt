@@ -1,0 +1,6 @@
+the GNU C library.
+   locale.CODESET
+      Get a string with the name of the character encoding used in the
+      selected locale.
+   locale.D_T_FMT
+      Get a string that can be used as a format string for

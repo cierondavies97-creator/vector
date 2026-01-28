@@ -1,0 +1,4 @@
+configured to use the default policy automatically.
+   Changed in version 3.8: On Windows, "ProactorEventLoop" is now used
+   by default.
+   Changed in version 3.14: The "get_event_loop()" method of the

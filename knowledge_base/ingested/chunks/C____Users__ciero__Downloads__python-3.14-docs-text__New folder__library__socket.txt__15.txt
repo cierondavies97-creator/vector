@@ -1,0 +1,4 @@
+part. This information is superfluous and may be safely omitted
+  (recommended).
+* "AF_NETLINK" sockets are represented as pairs "(pid, groups)".
+* Linux-only support for TIPC is available using the "AF_TIPC" address

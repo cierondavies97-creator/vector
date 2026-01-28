@@ -1,0 +1,6 @@
+* "statistics" --- Mathematical statistics functions
+  * Averages and measures of central location
+  * Measures of spread
+  * Statistics for relations between two inputs
+  * Function details
+  * Exceptions

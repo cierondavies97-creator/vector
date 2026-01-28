@@ -1,0 +1,5 @@
+respect to the cell.
+      *minwidth*: width
+         The minimum width of the column in pixels. The treeview
+         widget will not make the column any smaller than specified by
+         this option when the widget is resized or the user drags a

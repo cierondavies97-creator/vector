@@ -1,0 +1,3 @@
+The library contains built-in modules (written in C) that provide
+access to system functionality such as file I/O that would otherwise
+be inaccessible to Python programmers, as well as modules written in

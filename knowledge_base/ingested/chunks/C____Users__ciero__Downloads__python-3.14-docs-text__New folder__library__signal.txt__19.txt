@@ -1,0 +1,9 @@
+signal.SIGBUS
+   Bus error (bad memory access).
+   Availability: Unix.
+signal.SIGCHLD
+   Child process stopped or terminated.
+   Availability: Unix.
+signal.SIGCLD
+   Alias to "SIGCHLD".
+   Availability: not macOS.

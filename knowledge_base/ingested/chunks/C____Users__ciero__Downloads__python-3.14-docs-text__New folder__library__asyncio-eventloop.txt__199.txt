@@ -1,0 +1,5 @@
+* 'future' (optional): "asyncio.Future" instance;
+   * 'task' (optional): "asyncio.Task" instance;
+   * 'handle' (optional): "asyncio.Handle" instance;
+   * 'protocol' (optional): Protocol instance;
+   * 'transport' (optional): Transport instance;

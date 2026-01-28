@@ -1,0 +1,6 @@
+were added to the digest.
+Key derivation
+==============
+Key derivation and key stretching algorithms are designed for secure
+password hashing. Naive algorithms such as "sha1(password)" are not
+resistant against brute-force attacks. A good password hashing

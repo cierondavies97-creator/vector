@@ -1,0 +1,5 @@
+Availability: Unix, not WASI.
+   Added in version 3.3.
+os.posix_fallocate(fd, offset, len, /)
+   Ensures that enough disk space is allocated for the file specified
+   by *fd* starting from *offset* and continuing for *len* bytes.

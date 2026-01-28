@@ -1,0 +1,6 @@
+getSubject(record)
+      If you want to specify a subject line which is record-dependent,
+      override this method.
+MemoryHandler
+=============
+The "MemoryHandler" class, located in the "logging.handlers" module,

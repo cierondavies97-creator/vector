@@ -1,0 +1,3 @@
++-----------------------------------+-----------------------------------+-----------------------------------+
+   The attribute "sys.float_info.dig" needs further explanation.  If
+   "s" is any string representing a decimal number with at most

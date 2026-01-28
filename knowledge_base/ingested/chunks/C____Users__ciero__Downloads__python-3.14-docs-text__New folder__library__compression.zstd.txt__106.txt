@@ -1,0 +1,4 @@
+tweaks its search algorithm to look for this size and larger.
+      For all strategies < "btopt", the effective minimum is "4"; for
+      all strategies > "fast", the effective maximum is "6".
+      A value of zero causes the value to be selected automatically.

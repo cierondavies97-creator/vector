@@ -1,0 +1,4 @@
+the option "--fo" will match as "--foo", but "--f" will not match
+   uniquely, so "GetoptError" will be raised.
+   The return value consists of two elements: the first is a list of
+   "(option, value)" pairs; the second is the list of program

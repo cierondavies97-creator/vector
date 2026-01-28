@@ -1,0 +1,4 @@
+Intended for use in "skip" decorators.  "emscripten" and "wasi" are
+   assumed to be compiled with "musl"; otherwise "platform.libc_ver"
+   is checked.
+test.support.check_syntax_error(testcase, statement, errtext='', *, lineno=None, offset=None)

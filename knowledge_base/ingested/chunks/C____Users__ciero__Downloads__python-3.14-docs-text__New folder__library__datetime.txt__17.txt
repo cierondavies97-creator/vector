@@ -1,0 +1,5 @@
+used by the "datetime" and "time" classes to provide a customizable
+   notion of time adjustment (for example, to account for time zone
+   and/or daylight saving time).
+class datetime.timezone
+   A class that implements the "tzinfo" abstract base class as a fixed

@@ -1,0 +1,3 @@
+library's many functions.
+  In case gzip (de)compression is a bottleneck, the python-isal
+  package speeds up (de)compression with a mostly compatible API.

@@ -1,0 +1,4 @@
+when the wrapped version is closed.
+   Data written to the wrapped file is decoded according to the given
+   *data_encoding* and then written to the original file as bytes
+   using *file_encoding*. Bytes read from the original file are

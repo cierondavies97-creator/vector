@@ -1,0 +1,10 @@
+SSL Sockets
+===========
+class ssl.SSLSocket(socket.socket)
+   SSL sockets provide the following methods of Socket Objects:
+   * "accept()"
+   * "bind()"
+   * "close()"
+   * "connect()"
+   * "detach()"
+   * "fileno()"

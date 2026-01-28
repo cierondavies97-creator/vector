@@ -1,0 +1,6 @@
+"True".
+test.support.unix_shell
+   Path for shell if not on Windows; otherwise "None".
+test.support.LOOPBACK_TIMEOUT
+   Timeout in seconds for tests using a network server listening on
+   the network local loopback interface like "127.0.0.1".

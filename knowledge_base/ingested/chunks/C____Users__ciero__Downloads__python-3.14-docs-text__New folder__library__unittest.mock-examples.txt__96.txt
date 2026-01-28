@@ -1,0 +1,5 @@
+Tricks for Systems Programmers.
+Applying the same patch to every test method
+--------------------------------------------
+If you want several patches in place for multiple test methods the
+obvious way is to apply the patch decorators to every method. This can

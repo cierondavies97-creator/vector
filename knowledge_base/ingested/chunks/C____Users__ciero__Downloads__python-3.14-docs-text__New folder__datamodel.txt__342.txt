@@ -1,0 +1,4 @@
+if any, must explicitly call it to ensure proper deletion of the
+   base class part of the instance.
+   It is possible (though not recommended!) for the "__del__()" method
+   to postpone destruction of the instance by creating a new reference

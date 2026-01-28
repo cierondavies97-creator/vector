@@ -1,0 +1,7 @@
+...
+   Leaving second context
+   Callback: from second context
+   >>> with stack:
+   ...     stack.callback(print, "Callback: from outer context")
+   ...     with stack:
+   ...         stack.callback(print, "Callback: from inner context")

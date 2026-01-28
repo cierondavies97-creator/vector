@@ -1,0 +1,3 @@
+| "hostname"         |         | Host name (lower case)    | "None"                 |
+   +--------------------+---------+---------------------------+------------------------+
+   | "port"             |         | Port number as integer,   | "None"                 |

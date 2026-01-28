@@ -1,0 +1,3 @@
+string, the interpretation is platform-dependent and described
+   below.  See the *shell* and *executable* arguments for additional
+   differences from the default behavior.  Unless otherwise stated, it

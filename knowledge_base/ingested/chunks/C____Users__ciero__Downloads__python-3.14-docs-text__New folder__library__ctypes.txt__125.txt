@@ -1,0 +1,4 @@
+definition; see the attribute documentation for details.
+It is possible to specify the maximum alignment for the fields and/or
+for the structure itself by setting the class attributes "_pack_"
+and/or "_align_", respectively. See the attribute documentation for

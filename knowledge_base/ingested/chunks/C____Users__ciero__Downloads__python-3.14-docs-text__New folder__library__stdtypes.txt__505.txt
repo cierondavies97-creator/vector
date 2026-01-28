@@ -1,0 +1,4 @@
+There is no dedicated literal syntax for bytearray objects, instead
+   they are always created by calling the constructor:
+   * Creating an empty instance: "bytearray()"
+   * Creating a zero-filled instance with a given length:

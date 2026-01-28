@@ -1,0 +1,4 @@
+"format_usage()" methods. You can also register custom actions using
+the "register()" method and reference them by their registered name.
+An example of a custom action:
+   >>> class FooAction(argparse.Action):

@@ -1,0 +1,4 @@
+was raised. Exceptions raised by *onexc* will not be caught.
+   The deprecated *onerror* is similar to *onexc*, except that the
+   third parameter it receives is the tuple returned from
+   "sys.exc_info()".

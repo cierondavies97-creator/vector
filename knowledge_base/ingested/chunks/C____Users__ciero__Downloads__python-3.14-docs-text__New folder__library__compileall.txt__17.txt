@@ -1,0 +1,5 @@
+-e dir
+   Ignore symlinks pointing outside the given directory.
+--hardlink-dupes
+   If two ".pyc" files with different optimization level have the same
+   content, use hard links to consolidate duplicate files.

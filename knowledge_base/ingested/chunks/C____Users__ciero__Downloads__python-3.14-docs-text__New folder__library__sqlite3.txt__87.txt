@@ -1,0 +1,4 @@
+is located.
+         * **rowid** (*int*) -- The row id where the blob is located.
+         * **readonly** (*bool*) -- Set to "True" if the blob should
+           be opened without write permissions. Defaults to "False".

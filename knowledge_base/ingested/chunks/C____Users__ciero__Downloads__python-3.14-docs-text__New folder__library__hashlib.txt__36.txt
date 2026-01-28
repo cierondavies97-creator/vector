@@ -1,0 +1,4 @@
+similar. *fileobj* must be opened in blocking mode, otherwise a
+   "BlockingIOError" may be raised.
+   The function may bypass Python's I/O and use the file descriptor
+   from "fileno()" directly. *fileobj* must be assumed to be in an

@@ -1,0 +1,4 @@
+signature into lines of at most *max_width* characters. If the
+      signature is longer than *max_width*, all parameters will be on
+      separate lines.
+      If *quote_annotation_strings* is False, *annotations* in the

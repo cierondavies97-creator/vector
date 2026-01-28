@@ -1,0 +1,5 @@
+>>> bar_parser.add_argument('--bar')
+   >>> bar_parser.parse_args(['--bar', 'YYY'])
+   Namespace(bar='YYY', parent=None)
+Note that most parent parsers will specify "add_help=False".
+Otherwise, the "ArgumentParser" will see two "-h/--help" options (one

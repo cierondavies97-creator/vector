@@ -1,0 +1,4 @@
+so that it behaves consistently on all platforms without regard for
+   the data that is stored.  *buffering*, *encoding*, *errors* and
+   *newline* are interpreted as for "open()".
+   The *dir*, *prefix* and *suffix* parameters have the same meaning

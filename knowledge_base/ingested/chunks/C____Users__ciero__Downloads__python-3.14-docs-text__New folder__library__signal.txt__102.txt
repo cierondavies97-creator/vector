@@ -1,0 +1,4 @@
+instruction. Most notably, a "KeyboardInterrupt" may appear at any
+point during execution. Most Python code, including the standard
+library, cannot be made robust against this, and so a
+"KeyboardInterrupt" (or any other exception resulting from a signal

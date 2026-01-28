@@ -1,0 +1,3 @@
+|           | the number in scientific notation with the letter 'e'      |
+   |           | separating the coefficient from the exponent. The          |
+   |           | coefficient has one digit before and "p" digits after the  |

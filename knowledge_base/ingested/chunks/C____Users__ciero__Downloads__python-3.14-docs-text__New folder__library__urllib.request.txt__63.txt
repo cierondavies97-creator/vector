@@ -1,0 +1,4 @@
+"HTTP_PROXY" will be ignored if a variable "REQUEST_METHOD" is
+     set; see the documentation on "getproxies()".
+class urllib.request.HTTPPasswordMgr
+   Keep a database of  "(realm, uri) -> (user, password)" mappings.

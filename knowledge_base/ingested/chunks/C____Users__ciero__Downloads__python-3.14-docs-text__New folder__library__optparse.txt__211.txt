@@ -1,0 +1,5 @@
+will print something like the following help message to stdout
+  (assuming "sys.argv[0]" is ""foo.py""):
+     Usage: foo.py [options]
+     Options:
+       -h, --help        Show this help message and exit

@@ -1,0 +1,4 @@
+ordering so that if the input's iterables are sorted, the product
+   tuples are emitted in sorted order.
+   To compute the product of an iterable with itself, specify the
+   number of repetitions with the optional *repeat* keyword argument.

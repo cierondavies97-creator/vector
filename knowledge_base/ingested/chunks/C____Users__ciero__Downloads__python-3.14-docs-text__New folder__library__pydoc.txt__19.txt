@@ -1,0 +1,4 @@
+Changed in version 3.4: "pydoc" now uses "inspect.signature()" rather
+than "inspect.getfullargspec()" to extract signature information from
+callables.
+Changed in version 3.7: Added the "-n" option.

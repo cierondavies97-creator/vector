@@ -1,0 +1,6 @@
+"threading.settrace()", "threading.setprofile()", "threading.Timer",
+  or "threading.local".
+Connection Objects
+------------------
+Connection objects allow the sending and receiving of picklable
+objects or strings.  They can be thought of as message oriented

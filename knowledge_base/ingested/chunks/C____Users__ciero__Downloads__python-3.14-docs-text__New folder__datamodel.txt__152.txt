@@ -1,0 +1,4 @@
+The *loader* object that the import machinery used to load the
+   module.
+   This attribute is mostly useful for introspection, but can be used
+   for additional loader-specific functionality, for example getting

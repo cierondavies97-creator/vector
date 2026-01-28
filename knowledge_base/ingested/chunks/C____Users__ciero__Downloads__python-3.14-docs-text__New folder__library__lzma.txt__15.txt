@@ -1,0 +1,4 @@
+appending. These can equivalently be given as ""rb"", ""wb"",
+   ""xb"" and ""ab"" respectively.
+   If *filename* is a file object (rather than an actual file name), a
+   mode of ""w"" does not truncate the file, and is instead equivalent

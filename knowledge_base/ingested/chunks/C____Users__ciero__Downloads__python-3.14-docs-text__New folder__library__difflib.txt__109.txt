@@ -1,0 +1,4 @@
+be ignored.  Read the description of the "find_longest_match()"
+   method's *isjunk* parameter for an explanation.
+   "Differ" objects are used (deltas generated) via a single method:
+   compare(a, b)

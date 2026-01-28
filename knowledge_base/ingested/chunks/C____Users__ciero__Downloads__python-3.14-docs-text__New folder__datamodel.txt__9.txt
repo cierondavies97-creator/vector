@@ -1,0 +1,4 @@
+garbage, which collects most objects as soon as they become
+unreachable, but is not guaranteed to collect garbage containing
+circular references.  See the documentation of the "gc" module for
+information on controlling the collection of cyclic garbage. Other

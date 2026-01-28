@@ -1,0 +1,4 @@
+monospaced font. However, the sentence detection algorithm is
+      imperfect: it assumes that a sentence ending consists of a
+      lowercase letter followed by one of "'.'", "'!'", or "'?'",
+      possibly followed by one of "'"'" or ""'"", followed by a space.

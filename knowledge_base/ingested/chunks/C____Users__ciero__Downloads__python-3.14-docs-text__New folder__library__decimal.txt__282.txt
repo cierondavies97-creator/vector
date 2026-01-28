@@ -1,0 +1,5 @@
+trailneg:optional trailing minus indicator:  '-', ')', space or blank
+       >>> d = Decimal('-1234567.8901')
+       >>> moneyfmt(d, curr='$')
+       '-$1,234,567.89'
+       >>> moneyfmt(d, places=0, sep='.', dp='', neg='', trailneg='-')

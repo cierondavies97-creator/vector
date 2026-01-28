@@ -1,0 +1,4 @@
+=======================
+A Python distribution contains a "Makefile" and a "pyconfig.h" header
+file that are necessary to build both the Python binary itself and
+third-party C extensions compiled using "setuptools".

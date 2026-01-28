@@ -1,0 +1,4 @@
+explicit format string. *fmt* can be one of the following: "'s'",
+   the default option, equivalent to "str()", "'b'" for a zero-padded
+   binary string, "'X'" or "'x'" for an uppercase or lowercase
+   hexadecimal representation, or "'n'", which is equivalent to "'b'"

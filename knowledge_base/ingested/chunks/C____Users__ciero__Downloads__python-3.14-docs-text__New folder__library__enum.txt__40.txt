@@ -1,0 +1,4 @@
+...         print('today is %s' % cls(date.today().isoweekday()).name)
+         ...
+         >>> dir(Weekday.SATURDAY)
+         ['__class__', '__doc__', '__eq__', '__hash__', '__module__', 'name', 'today', 'value']

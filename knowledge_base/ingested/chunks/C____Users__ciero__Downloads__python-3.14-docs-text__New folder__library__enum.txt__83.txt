@@ -1,0 +1,6 @@
+"oct()".
+   Note:
+     Using "auto" with "Flag" results in integers that are powers of
+     two, starting with "1".
+   Changed in version 3.11: The *repr()* of zero-valued flags has
+   changed.  It is now:

@@ -1,0 +1,4 @@
+dataclasses.astuple(obj, *, tuple_factory=tuple)
+   Converts the dataclass *obj* to a tuple (by using the factory
+   function *tuple_factory*).  Each dataclass is converted to a tuple
+   of its field values.  dataclasses, dicts, lists, and tuples are

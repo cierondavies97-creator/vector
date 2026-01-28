@@ -1,0 +1,7 @@
+"doModuleCleanups()" pops methods off the stack of cleanup
+   functions one at a time, so it can be called at any time.
+   Added in version 3.8.
+Signal Handling
+===============
+Added in version 3.2.
+The "-c/--catch" command-line option to unittest, along with the

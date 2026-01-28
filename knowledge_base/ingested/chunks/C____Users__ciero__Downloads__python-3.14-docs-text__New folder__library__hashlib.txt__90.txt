@@ -1,0 +1,3 @@
+two or more messages that ultimately yield the same hash value
+   during the digital signature generation process --- even if it is
+   practical to find collisions for the hash function. However, the

@@ -1,0 +1,5 @@
+hundreds of thousands of components (from individual programs and
+modules to packages and entire application development frameworks),
+available from the Python Package Index.
+* Introduction
+  * Notes on availability

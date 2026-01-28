@@ -1,0 +1,3 @@
+specify read-only, write-through or copy-on-write memory respectively,
+or "ACCESS_DEFAULT" to defer to *prot*.  *access* can be used on both
+Unix and Windows.  If *access* is not specified, Windows mmap returns

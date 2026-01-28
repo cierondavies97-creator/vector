@@ -1,0 +1,5 @@
+The value returned is an integer, typically one of
+      "logging.DEBUG", "logging.INFO" etc.
+   getChild(suffix)
+      Returns a logger which is a descendant to this logger, as
+      determined by the suffix. Thus,

@@ -1,0 +1,3 @@
+arguments have the same meanings as for "LZMADecompressor". In this
+   case, the *check* and *preset* arguments should not be used.
+   When opening a file for writing, the *format*, *check*, *preset*

@@ -1,0 +1,4 @@
+supplied, both *first* and *second* must be instances of
+      *seq_type* or a failure will be raised.  If the sequences are
+      different an error message is constructed that shows the
+      difference between the two.

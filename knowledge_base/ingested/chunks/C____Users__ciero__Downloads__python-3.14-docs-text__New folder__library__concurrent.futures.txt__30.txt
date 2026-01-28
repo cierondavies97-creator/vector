@@ -1,0 +1,3 @@
+will default to the number of processors on the machine, multiplied
+   by "5", assuming that "ThreadPoolExecutor" is often used to overlap
+   I/O instead of CPU work and the number of workers should be higher

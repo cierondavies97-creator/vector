@@ -1,0 +1,4 @@
+of POSIX "#!" line, but there are other issues to consider:
+* If you use "/usr/bin/env python" (or other forms of the "python"
+  command, such as "/usr/bin/python"), you need to consider that your
+  users may have either Python 2 or Python 3 as their default, and

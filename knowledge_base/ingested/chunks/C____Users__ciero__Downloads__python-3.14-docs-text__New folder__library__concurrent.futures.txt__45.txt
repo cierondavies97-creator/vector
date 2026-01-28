@@ -1,0 +1,4 @@
+points of using threads, like race conditions.
+Each worker's interpreter is isolated from all the other interpreters.
+"Isolated" means each interpreter has its own runtime state and
+operates completely independently.  For example, if you redirect

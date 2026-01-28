@@ -1,0 +1,7 @@
+of Python.
+   Added in version 3.2.
+   Changed in version 3.3: Added the *policy* keyword.
+   Changed in version 3.6: *_factory* defaults to the policy
+   "message_factory".
+   feed(data)
+      Feed the parser some more data.  *data* should be a *bytes-like

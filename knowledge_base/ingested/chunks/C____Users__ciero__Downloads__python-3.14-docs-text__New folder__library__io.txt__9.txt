@@ -1,0 +1,5 @@
+Binary I/O
+----------
+Binary I/O (also called *buffered I/O*) expects *bytes-like objects*
+and produces "bytes" objects.  No encoding, decoding, or newline
+translation is performed.  This category of streams can be used for

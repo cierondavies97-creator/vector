@@ -1,0 +1,4 @@
+using this conversion table.
+   *parse_float* will be called with the string of every TOML float to
+   be decoded.  By default, this is equivalent to "float(num_str)".
+   This can be used to use another datatype or parser for TOML floats

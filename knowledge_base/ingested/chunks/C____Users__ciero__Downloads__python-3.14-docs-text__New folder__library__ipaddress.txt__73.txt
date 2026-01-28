@@ -1,0 +1,3 @@
+additional attributes. All of these are common between "IPv4Network"
+and "IPv6Network", so to avoid duplication they are only documented
+for "IPv4Network". Network objects are *hashable*, so they can be used

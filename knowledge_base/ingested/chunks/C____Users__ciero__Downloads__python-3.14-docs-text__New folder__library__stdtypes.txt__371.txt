@@ -1,0 +1,5 @@
+mapped to the character at the same position in *to*.  If there is
+   a third argument, it must be a string, whose characters will be
+   mapped to "None" in the result.
+str.partition(sep, /)
+   Split the string at the first occurrence of *sep*, and return a

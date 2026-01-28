@@ -1,0 +1,4 @@
+The "RawIOBase" ABC extends "IOBase".  It deals with the reading and
+writing of bytes to a stream.  "FileIO" subclasses "RawIOBase" to
+provide an interface to files in the machine's file system.
+The "BufferedIOBase" ABC extends "IOBase".  It deals with buffering on

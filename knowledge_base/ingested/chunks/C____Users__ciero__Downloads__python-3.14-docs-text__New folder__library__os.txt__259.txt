@@ -1,0 +1,3 @@
+test the existence of *path*, or it can be the inclusive OR of one
+   or more of "R_OK", "W_OK", and "X_OK" to test permissions.  Return
+   "True" if access is allowed, "False" if not. See the Unix man page

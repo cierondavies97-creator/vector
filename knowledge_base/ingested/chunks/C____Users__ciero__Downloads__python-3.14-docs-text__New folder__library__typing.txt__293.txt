@@ -1,0 +1,4 @@
+class typing.ParamSpec(name, *, bound=None, covariant=False, contravariant=False, default=typing.NoDefault)
+   Parameter specification variable.  A specialized version of type
+   variables.
+   In type parameter lists, parameter specifications can be declared

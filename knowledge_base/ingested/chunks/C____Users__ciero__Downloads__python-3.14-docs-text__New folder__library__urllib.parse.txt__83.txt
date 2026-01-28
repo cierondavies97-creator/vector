@@ -1,0 +1,6 @@
+See section Structured Parse Results for more information on the
+   result object.
+   Changed in version 3.2: Result is a structured object rather than a
+   simple 2-tuple.
+urllib.parse.unwrap(url)
+   Extract the url from a wrapped URL (that is, a string formatted as

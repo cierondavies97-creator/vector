@@ -1,0 +1,11 @@
+always at least as large as "ratio()":
+>>> s = SequenceMatcher(None, "abcd", "bcde")
+>>> s.ratio()
+0.75
+>>> s.quick_ratio()
+0.75
+>>> s.real_quick_ratio()
+1.0
+SequenceMatcher Examples
+========================
+This example compares two strings, considering blanks to be "junk":

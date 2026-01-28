@@ -1,0 +1,4 @@
+Yield *finder* objects for the given module name.
+   If *fullname* contains a "'.'", the finders will be for the package
+   containing *fullname*, otherwise they will be all registered top
+   level finders (i.e. those on both "sys.meta_path" and

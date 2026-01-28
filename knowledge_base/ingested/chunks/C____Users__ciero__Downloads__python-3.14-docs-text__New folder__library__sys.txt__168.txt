@@ -1,0 +1,4 @@
+of object. All built-in objects will return correct results, but
+   this does not have to hold true for third-party extensions as it is
+   implementation specific.
+   Only the memory consumption directly attributed to the object is

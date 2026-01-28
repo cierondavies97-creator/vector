@@ -1,0 +1,8 @@
+...     rank.set('updated', 'yes')
+   ...
+   >>> tree.write('output.xml')
+Our XML now looks like this:
+   <?xml version="1.0"?>
+   <data>
+       <country name="Liechtenstein">
+           <rank updated="yes">2</rank>

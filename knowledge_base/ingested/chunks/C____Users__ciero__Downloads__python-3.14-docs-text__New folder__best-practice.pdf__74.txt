@@ -1,0 +1,11 @@
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+The Waterfall Model, Royce 1970
+▶ sequential
+▶ from manufacturing and construction
+Nicola Chiapolini, 8 July 2024
+33 / 34
+Introduction
+Style & Documentation

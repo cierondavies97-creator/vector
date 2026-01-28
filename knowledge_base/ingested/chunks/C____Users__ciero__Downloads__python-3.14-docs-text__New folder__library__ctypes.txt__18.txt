@@ -1,0 +1,4 @@
+*windll* does not try to select one of them by magic, you must access
+the version you need by specifying "GetModuleHandleA" or
+"GetModuleHandleW" explicitly, and then call it with bytes or string
+objects respectively.

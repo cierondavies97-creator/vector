@@ -1,0 +1,5 @@
+target_key = curr_key
+              curr_group = _grouper(target_key)
+              yield curr_key, curr_group
+              if curr_key == target_key:
+                  for _ in curr_group:

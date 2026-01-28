@@ -1,0 +1,6 @@
+all be found at (**Source Code**) https://github.com/uw-imap/imap
+  (**Not Maintained**).
+IMAP4 Objects
+=============
+All IMAP4rev1 commands are represented by methods of the same name,
+either uppercase or lowercase.

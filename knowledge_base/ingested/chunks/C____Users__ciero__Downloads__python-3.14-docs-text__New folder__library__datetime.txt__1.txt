@@ -1,0 +1,8 @@
+times.
+While date and time arithmetic is supported, the focus of the
+implementation is on efficient attribute extraction for output
+formatting and manipulation.
+Tip:
+  Skip to the format codes.
+See also:
+  Module "calendar"

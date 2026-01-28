@@ -1,0 +1,3 @@
+name is present, then this function automatically creates a "Stats"
+   instance and prints a simple profiling report. If the sort value is
+   specified, it is passed to this "Stats" instance to control how the

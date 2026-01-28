@@ -1,0 +1,4 @@
+custom decoders, for example JSON-RPC class hinting. Default
+        "None".
+      * **object_pairs_hook** (*callable* | None) -- If set, a
+        function that is called with the result of any JSON object

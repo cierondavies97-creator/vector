@@ -1,0 +1,3 @@
+that our response object uses the builtin "open()" as its "spec".
+To do this we create a mock instance as our mock backend and create a
+mock response object for it. To set the response as the return value

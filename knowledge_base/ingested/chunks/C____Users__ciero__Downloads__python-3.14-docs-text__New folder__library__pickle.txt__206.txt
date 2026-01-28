@@ -1,0 +1,4 @@
+file that you want to examine comes from an untrusted source, "-m
+pickletools" is a safer option because it does not execute pickle
+bytecode, see pickletools CLI usage.
+   python -m pickle pickle_file [pickle_file ...]

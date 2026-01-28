@@ -1,0 +1,4 @@
+for this purpose: IndentedHelpFormatter and TitledHelpFormatter.
+   "add_help_option" (default: "True")
+      If true, "optparse" will add a help option (with option strings
+      "-h" and "--help") to the parser.

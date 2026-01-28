@@ -1,0 +1,4 @@
+this method relies on the platform C "mktime()" function to perform
+   the conversion. Since "datetime" supports wider range of values
+   than "mktime()" on many platforms, this method may raise
+   "OverflowError" or "OSError" for times far in the past or far in

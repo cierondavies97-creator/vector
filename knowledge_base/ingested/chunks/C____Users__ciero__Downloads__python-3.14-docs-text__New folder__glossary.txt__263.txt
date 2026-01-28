@@ -1,0 +1,3 @@
+execution of multiple threads to ensure *thread-safe* access to
+   shared resources. Python's "threading" module provides several
+   synchronization primitives including "Lock", "RLock", "Semaphore",

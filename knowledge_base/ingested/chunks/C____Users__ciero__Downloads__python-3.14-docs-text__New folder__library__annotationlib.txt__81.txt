@@ -1,0 +1,4 @@
+call it and retrieve the annotations. Using the "FORWARDREF" format
+will usually be best, because this allows the annotations to refer to
+names that cannot yet be resolved when the class is created.
+To modify the annotations, it is best to create a wrapper annotate

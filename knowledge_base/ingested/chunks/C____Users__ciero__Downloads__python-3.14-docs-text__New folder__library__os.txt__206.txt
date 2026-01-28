@@ -1,0 +1,4 @@
+To read a "file object" returned by the built-in function
+     "open()", or "sys.stdin", use its member functions, for example
+     "io.BufferedIOBase.readinto()", "io.BufferedIOBase.read()", or
+     "io.TextIOBase.read()"

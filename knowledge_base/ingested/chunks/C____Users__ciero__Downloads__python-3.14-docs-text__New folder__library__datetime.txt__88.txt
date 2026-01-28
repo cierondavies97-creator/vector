@@ -1,0 +1,8 @@
+"timedelta(days=1)".
+Instance attributes (read-only):
+date.year
+   Between "MINYEAR" and "MAXYEAR" inclusive.
+date.month
+   Between 1 and 12 inclusive.
+date.day
+   Between 1 and the number of days in the given month of the given

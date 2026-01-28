@@ -1,0 +1,4 @@
+In the API below, and in this documentation, the unqualified term
+*heap* generally refers to a min-heap. The API for max-heaps is named
+using a "_max"  suffix.
+To create a heap, use a list initialized as "[]", or transform an

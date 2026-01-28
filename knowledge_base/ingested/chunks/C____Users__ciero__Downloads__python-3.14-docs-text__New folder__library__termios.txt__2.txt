@@ -1,0 +1,4 @@
+Availability: Unix.
+All functions in this module take a file descriptor *fd* as their
+first argument.  This can be an integer file descriptor, such as
+returned by "sys.stdin.fileno()", or a *file object*, such as

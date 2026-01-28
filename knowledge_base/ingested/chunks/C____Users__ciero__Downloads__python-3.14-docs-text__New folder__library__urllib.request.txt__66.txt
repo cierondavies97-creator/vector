@@ -1,0 +1,5 @@
+credentials immediately instead of waiting for a "401" response
+   first.
+   Added in version 3.5.
+class urllib.request.AbstractBasicAuthHandler(password_mgr=None)
+   This is a mixin class that helps with HTTP authentication, both to

@@ -1,0 +1,5 @@
+* "sysname" - operating system name
+   * "nodename" - name of machine on network (implementation-defined)
+   * "release" - operating system release
+   * "version" - operating system version
+   * "machine" - hardware identifier

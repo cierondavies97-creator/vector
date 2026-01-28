@@ -1,0 +1,6 @@
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+ctypes tutorial
+===============
+Note: The code samples in this tutorial use "doctest" to make sure
+that they actually work.  Since some code samples behave differently

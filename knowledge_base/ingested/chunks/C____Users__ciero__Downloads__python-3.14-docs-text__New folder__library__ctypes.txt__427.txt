@@ -1,0 +1,4 @@
+appended to the fields of the base class.
+   Structure and union constructors accept both positional and keyword
+   arguments.  Positional arguments are used to initialize member
+   fields in the same order as they are appear in "_fields_".  Keyword

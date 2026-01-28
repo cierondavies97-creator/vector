@@ -1,0 +1,5 @@
+entry point groups, and a ".names" attribute that reports all
+   identified entry point names.
+class importlib.metadata.EntryPoint
+   Details of an installed entry point.
+   Each "EntryPoint" instance has ".name", ".group", and ".value"

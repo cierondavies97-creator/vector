@@ -1,0 +1,6 @@
+equal the original *archivepath* argument given to the
+   "zipimporter" constructor.
+Examples
+========
+Here is an example that imports a module from a ZIP archive - note
+that the "zipimport" module is not explicitly used.

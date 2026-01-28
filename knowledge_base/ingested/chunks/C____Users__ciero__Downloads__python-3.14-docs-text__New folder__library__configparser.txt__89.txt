@@ -1,0 +1,8 @@
+...   yet_another_extension
+     ...
+     ... interpolation not necessary = if # is not at line start
+     ... even in multiline values = line #1
+     ...   line #2
+     ...   line #3
+     ... """)
+     >>> print(parser['hashes']['shebang'])

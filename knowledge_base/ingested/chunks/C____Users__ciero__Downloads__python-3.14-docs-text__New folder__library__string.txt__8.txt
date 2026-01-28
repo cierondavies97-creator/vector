@@ -1,0 +1,4 @@
+you to create and customize your own string formatting behaviors using
+the same implementation as the built-in "format()" method.
+class string.Formatter
+   The "Formatter" class has the following public methods:

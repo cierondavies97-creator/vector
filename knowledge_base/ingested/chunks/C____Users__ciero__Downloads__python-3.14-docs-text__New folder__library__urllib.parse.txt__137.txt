@@ -1,0 +1,5 @@
+Working Group for the URL Standard that defines URLs, domains, IP
+     addresses, the application/x-www-form-urlencoded format, and
+     their API.
+  **RFC 3986** - Uniform Resource Identifiers
+     This is the current standard (STD66). Any changes to urllib.parse

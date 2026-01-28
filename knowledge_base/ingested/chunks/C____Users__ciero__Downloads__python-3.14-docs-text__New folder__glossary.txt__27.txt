@@ -1,0 +1,4 @@
+that the caller holds the *GIL* for the current interpreter, so
+   only one OS thread can have an attached thread state at a given
+   moment. In *free-threaded* builds of Python, threads can
+   concurrently hold an attached thread state, allowing for true

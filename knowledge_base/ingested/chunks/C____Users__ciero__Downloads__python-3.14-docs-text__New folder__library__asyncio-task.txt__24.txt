@@ -1,0 +1,6 @@
+await asyncio.gather(
+           function_that_returns_a_future_object(),
+           some_python_coroutine()
+       )
+A good example of a low-level function that returns a Future object is
+"loop.run_in_executor()".

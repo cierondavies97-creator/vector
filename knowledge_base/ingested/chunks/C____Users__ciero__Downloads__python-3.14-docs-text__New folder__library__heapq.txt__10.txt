@@ -1,0 +1,6 @@
+heapq.heappush(heap, item)
+   Push the value *item* onto the *heap*, maintaining the min-heap
+   invariant.
+heapq.heappop(heap)
+   Pop and return the smallest item from the *heap*, maintaining the
+   min-heap invariant.  If the heap is empty, "IndexError" is raised.

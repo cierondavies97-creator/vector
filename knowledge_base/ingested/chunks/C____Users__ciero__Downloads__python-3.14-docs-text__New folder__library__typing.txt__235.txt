@@ -1,0 +1,6 @@
+typing.
+   Added in version 3.11.
+Building generic types and type aliases
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The following classes should not be used directly as annotations.
+Their intended purpose is to be building blocks for creating generic

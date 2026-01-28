@@ -1,0 +1,4 @@
+length of *buffer* (in bytes).
+      If the buffer is too short then a "BufferTooShort" exception is
+      raised and the complete message is available as "e.args[0]"
+      where "e" is the exception instance.

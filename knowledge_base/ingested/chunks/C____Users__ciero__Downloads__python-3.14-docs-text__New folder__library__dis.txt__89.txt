@@ -1,0 +1,6 @@
+Changed in version 3.11: Previously, this instruction did not have
+   an oparg.
+GET_AITER
+   Implements "STACK[-1] = STACK[-1].__aiter__()".
+   Added in version 3.5.
+   Changed in version 3.7: Returning awaitable objects from

@@ -1,0 +1,4 @@
+effectively global, so patching on them has to be undone after the
+test or the patch will persist into other tests and cause hard to
+diagnose problems.
+mock provides three convenient decorators for this: "patch()",

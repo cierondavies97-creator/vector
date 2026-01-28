@@ -1,0 +1,4 @@
+Integer string conversion length limitation
+===========================================
+CPython has a global limit for converting between "int" and "str" to
+mitigate denial of service attacks. This limit *only* applies to

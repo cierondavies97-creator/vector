@@ -1,0 +1,10 @@
+29 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Refactoring Example
+def product_minus_sum(numbers):
+""" Subtract sum of numbers from product of numbers. """

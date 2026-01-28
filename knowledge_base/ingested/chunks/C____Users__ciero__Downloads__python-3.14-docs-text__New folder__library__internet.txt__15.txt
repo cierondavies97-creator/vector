@@ -1,0 +1,9 @@
+* "xmlrpc.client" --- XML-RPC client access
+  * ServerProxy Objects
+  * DateTime Objects
+  * Binary Objects
+  * Fault Objects
+  * ProtocolError Objects
+  * MultiCall Objects
+  * Convenience Functions
+  * Example of Client Usage

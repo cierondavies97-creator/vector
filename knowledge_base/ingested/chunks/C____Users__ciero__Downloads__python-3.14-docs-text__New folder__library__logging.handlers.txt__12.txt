@@ -1,0 +1,3 @@
+specified, "'a'" is used.  If *encoding* is not "None", it is used
+   to open the file with that encoding.  If *delay* is true, then file
+   opening is deferred until the first call to "emit()". By default,

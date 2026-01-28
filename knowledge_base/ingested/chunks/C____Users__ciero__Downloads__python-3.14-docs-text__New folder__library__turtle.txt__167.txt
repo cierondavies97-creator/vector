@@ -1,0 +1,6 @@
+...
+      >>> onclick(turn)  # Now clicking into the turtle will turn it.
+      >>> onclick(None)  # event-binding will be removed
+turtle.onrelease(fun, btn=1, add=None)
+   Parameters:
+      * **fun** -- a function with two arguments which will be called

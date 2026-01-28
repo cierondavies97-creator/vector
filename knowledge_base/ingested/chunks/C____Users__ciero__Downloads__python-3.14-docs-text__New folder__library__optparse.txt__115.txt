@@ -1,0 +1,3 @@
+"Caution: use these options at your own risk.  "
+                       "It is believed that some of them bite.")
+   group.add_option("-g", action="store_true", help="Group option.")

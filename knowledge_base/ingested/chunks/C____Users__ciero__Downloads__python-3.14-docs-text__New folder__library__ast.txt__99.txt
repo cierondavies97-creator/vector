@@ -1,0 +1,6 @@
+Expressions
+-----------
+class ast.Expr(value)
+   When an expression, such as a function call, appears as a statement
+   by itself with its return value not used or stored, it is wrapped
+   in this container. "value" holds one of the other nodes in this

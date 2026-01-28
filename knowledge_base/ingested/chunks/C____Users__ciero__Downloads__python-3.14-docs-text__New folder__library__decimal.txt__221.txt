@@ -1,0 +1,6 @@
+shift(x, y, /)
+      Returns a shifted copy of *x*, *y* times.
+   sqrt(x, /)
+      Square root of a non-negative number to context precision.
+   subtract(x, y, /)
+      Return the difference between *x* and *y*.

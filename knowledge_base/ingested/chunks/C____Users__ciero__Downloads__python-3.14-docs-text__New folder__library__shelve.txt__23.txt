@@ -1,0 +1,4 @@
+previously, keys were always encoded in UTF-8.
+   Changed in version 3.4: Added context manager support.
+   Changed in version 3.10: "pickle.DEFAULT_PROTOCOL" is now used as
+   the default pickle protocol.

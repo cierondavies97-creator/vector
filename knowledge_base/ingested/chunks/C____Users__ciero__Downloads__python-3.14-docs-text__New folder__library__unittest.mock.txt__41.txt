@@ -1,0 +1,3 @@
+attribute that doesn't exist will raise an "AttributeError").
+     If the mock has an explicit *return_value* set then calls are not
+     passed to the wrapped object and the *return_value* is returned

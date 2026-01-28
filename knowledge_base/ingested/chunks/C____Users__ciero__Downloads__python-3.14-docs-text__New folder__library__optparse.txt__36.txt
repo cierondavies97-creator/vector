@@ -1,0 +1,5 @@
+than "sys.argv[1:]", so you should read "argument" as "an element
+   of "sys.argv[1:]", or of some other list provided as a substitute
+   for "sys.argv[1:]"".
+option
+   an argument used to supply extra information to guide or customize

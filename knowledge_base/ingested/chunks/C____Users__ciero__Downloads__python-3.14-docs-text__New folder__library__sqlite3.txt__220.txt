@@ -1,0 +1,8 @@
+that refers to *con*:
+         >>> con = sqlite3.connect(":memory:")
+         >>> cur = con.cursor()
+         >>> cur.connection == con
+         True
+         >>> con.close()
+   description
+      Read-only attribute that provides the column names of the last

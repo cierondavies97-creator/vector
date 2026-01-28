@@ -1,0 +1,4 @@
+=======================
+Date and time objects may be categorized as "aware" or "naive"
+depending on whether or not they include time zone information.
+With sufficient knowledge of applicable algorithmic and political time

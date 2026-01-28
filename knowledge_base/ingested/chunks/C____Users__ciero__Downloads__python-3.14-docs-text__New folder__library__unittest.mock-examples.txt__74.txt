@@ -1,0 +1,5 @@
+about chained calls. Of course another alternative is writing your
+code in a more testable way in the first place...
+So, suppose we have some code that looks a little bit like this:
+>>> class Something:
+...     def __init__(self):

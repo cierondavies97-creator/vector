@@ -1,0 +1,5 @@
+removed.
+hashlib.scrypt(password, *, salt, n, r, p, maxmem=0, dklen=64)
+   The function provides scrypt password-based key derivation function
+   as defined in **RFC 7914**.
+   *password* and *salt* must be *bytes-like objects*.  Applications

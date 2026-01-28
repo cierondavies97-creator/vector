@@ -1,0 +1,4 @@
+conditions which arise are dependent on this context (such as
+      remote client IP address and authenticated user name, in the
+      above example). In such circumstances, it is likely that
+      specialized "Formatter"s would be used with particular

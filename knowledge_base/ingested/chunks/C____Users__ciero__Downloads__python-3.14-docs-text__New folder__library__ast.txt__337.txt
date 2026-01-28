@@ -1,0 +1,4 @@
+doesn't guarantee that the source code provided is valid Python
+     code that can be executed as the compilation step can raise
+     further "SyntaxError" exceptions. For instance, the source
+     "return 42" generates a valid AST node for a return statement,

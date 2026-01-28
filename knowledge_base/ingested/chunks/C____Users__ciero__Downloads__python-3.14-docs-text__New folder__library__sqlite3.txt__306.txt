@@ -1,0 +1,4 @@
+because you don't have to create the (often superfluous) "Cursor"
+objects explicitly. Instead, the "Cursor" objects are created
+implicitly and these shortcut methods return the cursor objects. This
+way, you can execute a "SELECT" statement and iterate over it directly

@@ -1,0 +1,6 @@
+"frozenset()" constructor.  As a frozenset is immutable and
+   *hashable*, it can be used again as an element of another set, or
+   as a dictionary key.
+3.2.7. Mappings
+---------------
+These represent finite sets of objects indexed by arbitrary index

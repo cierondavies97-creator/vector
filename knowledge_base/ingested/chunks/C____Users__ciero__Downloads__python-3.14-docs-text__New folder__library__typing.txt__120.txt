@@ -1,0 +1,5 @@
+will be removed from "typing" in Python 3.18.
+typing.LiteralString
+   Special type that includes only literal strings.
+   Any string literal is compatible with "LiteralString", as is
+   another "LiteralString". However, an object typed as just "str" is

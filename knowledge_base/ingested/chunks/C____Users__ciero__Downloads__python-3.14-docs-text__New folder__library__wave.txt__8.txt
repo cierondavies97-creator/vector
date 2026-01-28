@@ -1,0 +1,6 @@
+instance unusable.  This is called automatically on object
+      collection.
+   getnchannels()
+      Returns number of audio channels ("1" for mono, "2" for stereo).
+   getsampwidth()
+      Returns sample width in bytes.

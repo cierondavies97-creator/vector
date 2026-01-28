@@ -1,0 +1,5 @@
+* Only the filename, the function name and the line number are
+  displayed. (no source code)
+* It is limited to 100 frames and 100 threads.
+* The order is reversed: the most recent call is shown first.
+By default, the Python traceback is written to "sys.stderr". To see

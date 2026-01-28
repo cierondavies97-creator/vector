@@ -1,0 +1,4 @@
+processes running on different machines. A manager object controls a
+server process which manages *shared objects*.  Other processes can
+access the shared objects by using proxies.
+multiprocessing.Manager()

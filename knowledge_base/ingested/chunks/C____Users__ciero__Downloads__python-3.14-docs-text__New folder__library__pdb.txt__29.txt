@@ -1,0 +1,5 @@
+"sys.last_exc".
+pdb.set_default_backend(backend)
+   There are two supported backends for pdb: "'settrace'" and
+   "'monitoring'". See "bdb.Bdb" for details. The user can set the
+   default backend to use if none is specified when instantiating

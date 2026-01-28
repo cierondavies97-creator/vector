@@ -1,0 +1,4 @@
+"Callable[ParamSpecVariable, ReturnType]" and
+"Callable[Concatenate[Arg1Type, Arg2Type, ..., ParamSpecVariable],
+ReturnType]" respectively.
+Changed in version 3.10: "Callable" now supports "ParamSpec" and

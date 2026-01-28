@@ -1,0 +1,5 @@
+>>> group.add_argument('--foo', action='store_true')
+      >>> group.add_argument('--bar', action='store_false')
+      >>> parser.parse_args(['--foo'])
+      Namespace(bar=True, foo=True)
+      >>> parser.parse_args(['--bar'])

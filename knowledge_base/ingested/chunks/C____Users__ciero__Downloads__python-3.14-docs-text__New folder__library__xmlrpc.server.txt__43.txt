@@ -1,0 +1,4 @@
+The "CGIXMLRPCRequestHandler" class can be used to handle XML-RPC
+requests sent to Python CGI scripts.
+CGIXMLRPCRequestHandler.register_function(function=None, name=None)
+   Register a function that can respond to XML-RPC requests.  If

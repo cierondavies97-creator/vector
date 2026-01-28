@@ -1,0 +1,5 @@
+debug build of Python.
+msvcrt.CrtSetReportFile(type, file)
+   After you use "CrtSetReportMode()" to specify "CRTDBG_MODE_FILE",
+   you can specify the file handle to receive the message text. *type*
+   must be one of the "CRT_*" constants listed below. *file* should be

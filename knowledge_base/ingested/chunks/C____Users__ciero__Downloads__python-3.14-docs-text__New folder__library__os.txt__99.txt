@@ -1,0 +1,5 @@
+"platform.uname()" can be used to get the user-facing operating
+   system name and version on iOS and Android.
+   Availability: Unix.
+   Changed in version 3.3: Return type changed from a tuple to a
+   tuple-like object with named attributes.

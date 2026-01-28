@@ -1,0 +1,3 @@
+present and true, newlines are not encoded but trailing whitespace
+   will be encoded. If the optional argument *header* is present and
+   true, spaces will be encoded as underscores per **RFC 1522**. If

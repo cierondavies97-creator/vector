@@ -1,0 +1,4 @@
+7. Some sequence types (such as "range") only support item sequences
+   that follow specific patterns, and hence don't support sequence
+   concatenation or repetition.
+8. An "IndexError" is raised if *i* is outside the sequence range.

@@ -1,0 +1,5 @@
+forking servers is to collect the status of any child processes
+      that have exited, while in threading servers this method does
+      nothing.
+   process_request(request, client_address)
+      Calls "finish_request()" to create an instance of the

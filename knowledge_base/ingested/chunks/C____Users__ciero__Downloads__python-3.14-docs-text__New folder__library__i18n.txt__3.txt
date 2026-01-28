@@ -1,0 +1,7 @@
+* Changing languages on the fly
+    * Deferred translations
+  * Acknowledgements
+* "locale" --- Internationalization services
+  * Background, details, hints, tips and caveats
+  * Locale names
+  * For extension writers and programs that embed Python

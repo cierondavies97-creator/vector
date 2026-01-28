@@ -1,0 +1,5 @@
+**PEP 492** for more details.
+   Added in version 3.5.
+inspect.CO_ITERABLE_COROUTINE
+   The flag is used to transform generators into generator-based
+   coroutines.  Generator objects with this flag can be used in

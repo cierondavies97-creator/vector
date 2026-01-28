@@ -1,0 +1,4 @@
+mapping (i.e. dictionary) interface.  For example, in a dictionary
+   there are no duplicate keys, but here there may be duplicate
+   message headers.  Also, in dictionaries there is no guaranteed
+   order to the keys returned by "keys()", but in a "Message" object,

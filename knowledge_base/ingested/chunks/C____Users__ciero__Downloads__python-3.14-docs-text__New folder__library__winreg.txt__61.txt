@@ -1,0 +1,5 @@
+constants.
+   *sub_key* is a string that names the subkey with which the value is
+   associated.
+   *type* is an integer that specifies the type of the data. Currently
+   this must be "REG_SZ", meaning only strings are supported.  Use the

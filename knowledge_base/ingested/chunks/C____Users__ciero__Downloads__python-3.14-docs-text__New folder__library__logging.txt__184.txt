@@ -1,0 +1,3 @@
+| created          | "%(created)f"             | Time when the "LogRecord" was created (as       |
+|                  |                           | returned by "time.time_ns()" / 1e9).            |
++------------------+---------------------------+-------------------------------------------------+

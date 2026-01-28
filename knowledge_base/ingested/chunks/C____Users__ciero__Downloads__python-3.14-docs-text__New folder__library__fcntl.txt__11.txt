@@ -1,0 +1,3 @@
+"fcntl" module exposes the "F_SEAL_FUTURE_WRITE" constant for use with
+"F_ADD_SEALS" and "F_GET_SEALS" operations. On FreeBSD, the "fcntl"
+module exposes the "F_READAHEAD", "F_ISUNIONSTACK", and "F_KINFO"

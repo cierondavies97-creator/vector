@@ -1,0 +1,6 @@
+all standard built-in types.
+Types are written like this: "<class 'int'>".
+The Null Object
+---------------
+This object is returned by functions that don't explicitly return a
+value.  It supports no special operations.  There is exactly one null

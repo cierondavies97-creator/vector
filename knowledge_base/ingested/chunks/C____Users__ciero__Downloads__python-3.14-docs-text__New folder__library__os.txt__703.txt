@@ -1,0 +1,6 @@
+object with five attributes:
+   * "user" - user time
+   * "system" - system time
+   * "children_user" - user time of all child processes
+   * "children_system" - system time of all child processes
+   * "elapsed" - elapsed real time since a fixed point in the past

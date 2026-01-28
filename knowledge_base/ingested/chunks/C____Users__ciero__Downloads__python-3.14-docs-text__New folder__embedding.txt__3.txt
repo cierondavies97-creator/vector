@@ -1,0 +1,4 @@
+Python.  You can also use it yourself if some of the functionality can
+be written in Python more easily.
+Embedding Python is similar to extending it, but not quite.  The
+difference is that when you extend Python, the main program of the

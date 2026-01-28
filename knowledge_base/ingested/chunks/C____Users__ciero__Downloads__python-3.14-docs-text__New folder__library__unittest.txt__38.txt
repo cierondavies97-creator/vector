@@ -1,0 +1,4 @@
+that their filenames must be valid identifiers).
+Test discovery is implemented in "TestLoader.discover()", but can also
+be used from the command line. The basic command-line usage is:
+   cd project_directory

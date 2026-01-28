@@ -1,0 +1,3 @@
+| "'r'"     | open for reading (default)                                      |
+   +-----------+-----------------------------------------------------------------+
+   | "'w'"     | open for writing, truncating the file first                     |

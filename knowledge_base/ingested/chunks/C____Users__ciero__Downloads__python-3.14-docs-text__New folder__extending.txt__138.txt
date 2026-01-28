@@ -1,0 +1,4 @@
+PyObject *Py_BuildValue(const char *format, ...);
+It recognizes a set of format units similar to the ones recognized by
+"PyArg_ParseTuple()", but the arguments (which are input to the
+function, not output) must not be pointers, just values.  It returns a

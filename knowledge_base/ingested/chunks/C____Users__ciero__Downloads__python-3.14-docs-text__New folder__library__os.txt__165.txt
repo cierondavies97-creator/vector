@@ -1,0 +1,11 @@
+os.O_SHORT_LIVED
+os.O_TEMPORARY
+os.O_RANDOM
+os.O_SEQUENTIAL
+os.O_TEXT
+   The above constants are only available on Windows.
+os.O_EVTONLY
+os.O_FSYNC
+os.O_SYMLINK
+os.O_NOFOLLOW_ANY
+   The above constants are only available on macOS.

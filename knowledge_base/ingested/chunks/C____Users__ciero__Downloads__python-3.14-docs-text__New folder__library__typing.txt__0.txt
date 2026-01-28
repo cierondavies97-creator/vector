@@ -1,0 +1,7 @@
+"typing" --- Support for type hints
+***********************************
+Added in version 3.5.
+**Source code:** Lib/typing.py
+Note:
+  The Python runtime does not enforce function and variable type
+  annotations. They can be used by third party tools such as *type

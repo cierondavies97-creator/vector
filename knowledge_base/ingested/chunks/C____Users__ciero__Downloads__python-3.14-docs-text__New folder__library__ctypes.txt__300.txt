@@ -1,0 +1,4 @@
+GetWindowRect function now returns a RECT instance, when called.
+Output parameters can be combined with the "errcheck" protocol to do
+further output processing and error checking.  The win32
+"GetWindowRect" api function returns a "BOOL" to signal success or

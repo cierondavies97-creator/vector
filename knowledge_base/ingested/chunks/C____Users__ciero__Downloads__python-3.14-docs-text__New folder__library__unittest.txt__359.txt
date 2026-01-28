@@ -1,0 +1,5 @@
+defaults to "TextTestResult" if no "resultclass" is provided.
+      The result class is instantiated with the following arguments:
+         stream, descriptions, verbosity
+   run(test)
+      This method is the main public interface to the

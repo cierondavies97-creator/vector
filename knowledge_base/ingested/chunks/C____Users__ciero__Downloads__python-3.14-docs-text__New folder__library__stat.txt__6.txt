@@ -1,0 +1,5 @@
+Two additional functions are defined for more general manipulation of
+the file's mode:
+stat.S_IMODE(mode)
+   Return the portion of the file's mode that can be set by
+   "os.chmod()"---that is, the file's permission bits, plus the sticky

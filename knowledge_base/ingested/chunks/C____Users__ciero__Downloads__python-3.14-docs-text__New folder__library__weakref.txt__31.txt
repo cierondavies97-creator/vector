@@ -1,0 +1,3 @@
+equal identity) is inserted into the dictionary, it replaces the
+   value but does not replace the existing key. Due to this, when the
+   reference to the original key is deleted, it also deletes the entry

@@ -1,0 +1,7 @@
+>>> parser.print_help()
+      usage: PROG [--foo FOO] bar
+      group:
+        bar    bar help
+        --foo FOO  foo help
+   The "add_argument_group()" method returns an argument group object
+   which has an "add_argument()" method just like a regular

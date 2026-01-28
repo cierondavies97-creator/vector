@@ -1,0 +1,5 @@
+Create a Unix connection.
+   The socket family will be "AF_UNIX"; socket type will be
+   "SOCK_STREAM".
+   A tuple of "(transport, protocol)" is returned on success.
+   *path* is the name of a Unix domain socket and is required, unless

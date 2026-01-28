@@ -1,0 +1,5 @@
+of "TypeB", and if it returns "False", it is not an instance of
+   "TypeB".
+   "TypeIs" also works with type variables.  For more information, see
+   **PEP 742** (Narrowing types with "TypeIs").
+   Added in version 3.13.

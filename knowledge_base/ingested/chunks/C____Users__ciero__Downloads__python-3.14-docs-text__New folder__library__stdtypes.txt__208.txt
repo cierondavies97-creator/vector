@@ -1,0 +1,4 @@
+Methods that only operate on a single elements with no shifting
+required are *atomic*:
+   lst.append(x)  # append to the end of the list, no shifting required
+   lst.pop()      # pop element from the end of the list, no shifting required

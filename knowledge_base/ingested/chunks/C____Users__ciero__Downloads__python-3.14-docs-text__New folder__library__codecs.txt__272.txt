@@ -1,0 +1,5 @@
++----------------------+-----------+-----------------------------+
+Changed in version 3.8: "unicode_internal" codec is removed.
+Binary Transforms
+-----------------
+The following codecs provide binary transforms: *bytes-like object* to

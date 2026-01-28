@@ -1,0 +1,4 @@
+[('Explorer.Pin.pin', {'sticky': 'news'})])
+         pin = ttk.Checkbutton(style='Explorer.Pin')
+         pin.pack(expand=True, fill='both')
+      Changed in version 3.13: Added support of the "vsapi" element

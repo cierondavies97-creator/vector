@@ -1,0 +1,6 @@
+patterns.
+   Corresponds to the inline flag "(?a)".
+   Note:
+     The "U" flag still exists for backward compatibility, but is
+     redundant in Python 3 since matches are Unicode by default for
+     "str" patterns, and Unicode matching isn't allowed for bytes

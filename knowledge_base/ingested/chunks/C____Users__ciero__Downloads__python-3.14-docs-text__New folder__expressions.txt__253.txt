@@ -1,0 +1,4 @@
+"x < y and y <= z" implies "x < z"
+* Inverse comparison should result in the boolean negation. In other
+  words, the following expressions should have the same result:
+     "x == y" and "not x != y"

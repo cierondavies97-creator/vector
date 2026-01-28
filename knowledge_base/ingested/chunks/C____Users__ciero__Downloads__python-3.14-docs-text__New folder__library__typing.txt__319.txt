@@ -1,0 +1,7 @@
+(T,)
+         >>> type NotGeneric = int
+         >>> NotGeneric.__type_params__
+         ()
+   __value__
+      The type alias's value. This is lazily evaluated, so names used
+      in the definition of the alias are not resolved until the

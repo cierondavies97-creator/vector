@@ -1,0 +1,5 @@
+Like "Path.chmod()" but, if the path points to a symbolic link, the
+   symbolic link's mode is changed rather than its target's.
+Pattern language
+================
+The following wildcards are supported in patterns for "full_match()",

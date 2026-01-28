@@ -1,0 +1,4 @@
+"accept()" method. The method may raise "SSLError".
+   On client connections, the optional parameter *server_hostname*
+   specifies the hostname of the service which we are connecting to.
+   This allows a single server to host multiple SSL-based services

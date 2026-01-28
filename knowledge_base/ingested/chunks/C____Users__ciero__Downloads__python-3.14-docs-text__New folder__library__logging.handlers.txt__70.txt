@@ -1,0 +1,3 @@
+a minute, *then* you can expect to see log files with times
+     separated by a minute. If, on the other hand, logging messages
+     are only output once every five minutes (say), then there will be

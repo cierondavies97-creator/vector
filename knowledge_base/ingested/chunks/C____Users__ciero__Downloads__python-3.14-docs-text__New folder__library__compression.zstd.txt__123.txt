@@ -1,0 +1,5 @@
+"True" or "1" enable storing the dictionary ID while "False" or
+      "0" disable it.
+   nb_workers
+      Select how many threads will be spawned to compress in parallel.
+      When "nb_workers" > 0, enables multi-threaded compression, a

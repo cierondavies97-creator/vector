@@ -1,0 +1,6 @@
+current date and time.
+      The result looks like "'Sun, 06 Nov 1994 08:49:37 GMT'".
+   log_date_time_string()
+      Returns the current date and time, formatted for logging.
+   address_string()
+      Returns the client address.

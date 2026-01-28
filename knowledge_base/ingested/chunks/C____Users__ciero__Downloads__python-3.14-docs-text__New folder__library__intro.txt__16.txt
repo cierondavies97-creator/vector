@@ -1,0 +1,4 @@
+permit blocking I/O. Other blocking operations like "sleep()" block
+the browser event loop.
+The properties and behavior of Python on WebAssembly platforms depend
+on the Emscripten-SDK or WASI-SDK version, WASM runtimes (browser,

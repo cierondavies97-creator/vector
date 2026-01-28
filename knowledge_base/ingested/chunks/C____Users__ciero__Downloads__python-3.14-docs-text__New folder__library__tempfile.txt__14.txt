@@ -1,0 +1,5 @@
+the following differences:
+   * This function returns a file that is guaranteed to have a visible
+     name in the file system.
+   * To manage the named file, it extends the parameters of
+     "TemporaryFile()" with *delete* and *delete_on_close* parameters

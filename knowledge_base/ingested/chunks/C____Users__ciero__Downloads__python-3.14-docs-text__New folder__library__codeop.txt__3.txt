@@ -1,0 +1,5 @@
+subsequent input can be compiled with these in effect.
+The "codeop" module provides a way of doing each of these things, and
+a way of doing them both.
+To do just the former:
+codeop.compile_command(source, filename='<input>', symbol='single')

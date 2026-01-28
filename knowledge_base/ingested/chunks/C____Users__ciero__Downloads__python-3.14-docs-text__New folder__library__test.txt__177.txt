@@ -1,0 +1,5 @@
+See "threading.excepthook()" documentation.
+   These attributes are deleted at the context manager exit.
+   Usage:
+      with threading_helper.catch_threading_exception() as cm:
+          # code spawning a thread which raises an exception

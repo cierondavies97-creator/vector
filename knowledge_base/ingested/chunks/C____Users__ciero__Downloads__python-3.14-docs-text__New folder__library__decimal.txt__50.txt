@@ -1,0 +1,5 @@
+File "<pyshell#112>", line 1, in -toplevel-
+       Decimal(1) / Decimal(0)
+   DivisionByZero: x / 0
+Most programs adjust the current context only once, at the beginning
+of the program.  And, in many applications, data is converted to

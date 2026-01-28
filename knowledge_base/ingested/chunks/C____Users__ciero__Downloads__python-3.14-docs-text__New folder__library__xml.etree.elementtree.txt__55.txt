@@ -1,0 +1,4 @@
+root.findall(".//*[@name='Singapore']/year")
+   # All 'neighbor' nodes that are the second child of their parent
+   root.findall(".//neighbor[2]")
+For XML with namespaces, use the usual qualified "{namespace}tag"

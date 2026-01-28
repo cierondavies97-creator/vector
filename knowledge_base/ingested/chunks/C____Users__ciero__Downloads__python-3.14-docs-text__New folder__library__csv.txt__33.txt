@@ -1,0 +1,6 @@
+...
+      Eric Idle
+      John Cleese
+      >>> print(row)
+      {'first_name': 'John', 'last_name': 'Cleese'}
+class csv.DictWriter(f, fieldnames, restval='', extrasaction='raise', dialect='excel', *args, **kwds)

@@ -1,0 +1,8 @@
+instead of "begin_fill()" and "end_fill()" to automatically begin and
+end fill. Here is an example:
+   with fill():
+       for i in range(4):
+           forward(100)
+           right(90)
+   forward(200)
+The code above is equivalent to:

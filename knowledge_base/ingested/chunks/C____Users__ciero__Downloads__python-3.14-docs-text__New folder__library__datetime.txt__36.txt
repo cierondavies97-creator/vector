@@ -1,0 +1,8 @@
+"timedelta" object.
+Instance attributes (read-only):
+timedelta.days
+   Between -999,999,999 and 999,999,999 inclusive.
+timedelta.seconds
+   Between 0 and 86,399 inclusive.
+   Caution:
+     It is a somewhat common bug for code to unintentionally use this

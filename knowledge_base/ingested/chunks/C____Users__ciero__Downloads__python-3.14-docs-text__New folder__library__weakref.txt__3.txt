@@ -1,0 +1,4 @@
+A primary use for weak references is to implement caches or mappings
+holding large objects, where it's desired that a large object not be
+kept alive solely because it appears in a cache or mapping.
+For example, if you have a number of large binary image objects, you

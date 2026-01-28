@@ -1,0 +1,5 @@
+may be raised by applications using "sqlite3", for example if a
+   user-defined function truncates data while inserting. "Warning" is
+   a subclass of "Exception".
+exception sqlite3.Error
+   The base class of the other exceptions in this module. Use this to

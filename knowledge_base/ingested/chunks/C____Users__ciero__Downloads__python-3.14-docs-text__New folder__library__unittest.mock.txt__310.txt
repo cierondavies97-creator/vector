@@ -1,0 +1,12 @@
+For example:
+>>> mock = MagicMock()
+>>> int(mock)
+1
+>>> len(mock)
+0
+>>> list(mock)
+[]
+>>> object() in mock
+False
+The two equality methods, "__eq__()" and "__ne__()", are special. They
+do the default equality comparison on identity, using the

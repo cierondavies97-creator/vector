@@ -1,0 +1,5 @@
+parts.
+The constructors "int()", "float()", and "complex()" can be used to
+produce numbers of a specific type.
+Python fully supports mixed arithmetic: when a binary arithmetic
+operator has operands of different numeric types, the operand with the

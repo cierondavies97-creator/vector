@@ -1,0 +1,3 @@
+Called by "str(object)", the default "__format__()" implementation,
+   and the built-in function "print()", to compute the "informal" or
+   nicely printable string representation of an object.  The return

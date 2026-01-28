@@ -1,0 +1,3 @@
+"multipart-alternative" into a "multipart/mixed", moving any
+      existing *Content-* headers and payload into a (new) first part
+      of the "multipart".  If *boundary* is specified, use it as the

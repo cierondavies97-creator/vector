@@ -1,0 +1,4 @@
+fails.
+test.support.threading_helper.start_threads(threads, unlock=None)
+   Context manager to start *threads*, which is a sequence of threads.
+   *unlock* is a function called after the threads are started, even

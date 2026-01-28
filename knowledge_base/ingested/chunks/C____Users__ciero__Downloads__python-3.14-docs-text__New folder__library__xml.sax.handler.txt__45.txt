@@ -1,0 +1,4 @@
+The *name* parameter contains the name of the element type, just as
+   with the "startElementNS()" method, likewise the *qname* parameter.
+ContentHandler.characters(content)
+   Receive notification of character data.

@@ -1,0 +1,5 @@
+return complex(other) + complex(self)
+           else:
+               return NotImplemented
+There are 5 different cases for a mixed-type operation on subclasses
+of "Complex". I'll refer to all of the above code that doesn't refer

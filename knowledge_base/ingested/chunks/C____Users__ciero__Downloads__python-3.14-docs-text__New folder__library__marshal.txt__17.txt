@@ -1,0 +1,4 @@
+"dump()", "load()" will substitute "None" for the unmarshallable
+     type.
+   Changed in version 3.10: This call used to raise a "code.__new__"
+   audit event for each code object. Now it raises a single

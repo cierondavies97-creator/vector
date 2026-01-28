@@ -1,0 +1,4 @@
+Like "Traversable.joinpath", The individual components should use
+  forward slashes ("/") as path separators. For example, the following
+  are equivalent:
+     importlib.resources.read_binary(my_module, "pics/painting.png")

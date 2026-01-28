@@ -1,0 +1,4 @@
+Pattern.match(string[, pos[, endpos]])
+   If zero or more characters at the *beginning* of *string* match
+   this regular expression, return a corresponding "Match". Return
+   "None" if the string does not match the pattern; note that this is

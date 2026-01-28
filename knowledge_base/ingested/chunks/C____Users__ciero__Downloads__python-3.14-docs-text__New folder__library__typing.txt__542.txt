@@ -1,0 +1,5 @@
+Type.
+class typing.MutableSequence(Sequence[T])
+   Deprecated alias to "collections.abc.MutableSequence".
+   Deprecated since version 3.9: "collections.abc.MutableSequence" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias

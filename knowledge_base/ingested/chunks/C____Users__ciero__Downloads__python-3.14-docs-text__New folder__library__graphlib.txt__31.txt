@@ -1,0 +1,4 @@
+[0, 2, 1, 3]
+      This is due to the fact that "0" and "2" are in the same level
+      in the graph (they would have been returned in the same call to
+      "get_ready()") and the order between them is determined by the

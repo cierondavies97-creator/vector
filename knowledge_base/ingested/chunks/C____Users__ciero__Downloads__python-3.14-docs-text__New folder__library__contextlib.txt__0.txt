@@ -1,0 +1,4 @@
+"contextlib" --- Utilities for "with"-statement contexts
+********************************************************
+**Source code:** Lib/contextlib.py
+======================================================================

@@ -1,0 +1,4 @@
+strict standards-compliance, use the "compare()" and
+"compare_signal()" methods instead.
+The signed zeros can result from calculations that underflow. They
+keep the sign that would have resulted if the calculation had been

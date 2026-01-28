@@ -1,0 +1,3 @@
+| "'a'"     | open for writing, appending to the end of file if it exists     |
+   +-----------+-----------------------------------------------------------------+
+   | "'b'"     | binary mode                                                     |

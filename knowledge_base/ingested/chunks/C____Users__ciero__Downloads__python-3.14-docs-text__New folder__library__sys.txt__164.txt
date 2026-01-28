@@ -1,0 +1,4 @@
+Note that the returned value may not actually reflect how many
+   references to the object are actually held.  For example, some
+   objects are *immortal* and have a very high refcount that does not
+   reflect the actual number of references.  Consequently, do not rely

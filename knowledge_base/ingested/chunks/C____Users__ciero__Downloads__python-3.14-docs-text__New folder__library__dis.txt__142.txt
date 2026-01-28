@@ -1,0 +1,4 @@
+This opcode implements "super()", both in its zero-argument and
+   two-argument forms (e.g. "super().method()", "super().attr" and
+   "super(cls, self).method()", "super(cls, self).attr").
+   It pops three values from the stack (from top of stack down):

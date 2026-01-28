@@ -1,0 +1,4 @@
+header indented the same and starting with an alphanumeric is taken
+  to be the start of the exception detail.  Of course this does the
+  right thing for genuine tracebacks.
+* When the "IGNORE_EXCEPTION_DETAIL" doctest option is specified,

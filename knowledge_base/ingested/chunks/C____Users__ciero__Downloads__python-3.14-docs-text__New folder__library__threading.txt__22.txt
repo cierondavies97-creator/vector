@@ -1,0 +1,4 @@
+cycle. It should be cleared explicitly to break the reference cycle
+   when the exception is no longer needed.
+   Storing *thread* using a custom hook can resurrect it if it is set
+   to an object which is being finalized. Avoid storing *thread* after

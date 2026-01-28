@@ -1,0 +1,5 @@
+be a poor hierarchy if it precluded the possibility of adding those.
+You can add "MyFoo" between "Complex" and "Real" with:
+   class MyFoo(Complex): ...
+   MyFoo.register(Real)
+Implementing the arithmetic operations

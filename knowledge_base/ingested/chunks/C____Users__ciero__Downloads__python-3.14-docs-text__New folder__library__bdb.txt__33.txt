@@ -1,0 +1,5 @@
+in that scope.
+   Normally derived classes don't override the following methods, but
+   they may if they want to redefine the definition of stopping and
+   breakpoints.
+   is_skipped_module(module_name)

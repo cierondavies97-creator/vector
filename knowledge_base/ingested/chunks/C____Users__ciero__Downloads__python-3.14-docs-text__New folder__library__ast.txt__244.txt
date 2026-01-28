@@ -1,0 +1,3 @@
+A match mapping pattern. "keys" is a sequence of expression nodes.
+   "patterns" is a corresponding sequence of pattern nodes. "rest" is
+   an optional name that can be specified to capture the remaining

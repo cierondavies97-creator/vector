@@ -1,0 +1,4 @@
+appropriate arguments for functions which depend on total ordering
+  (for example, "min()", "max()", and "sorted()" produce undefined
+  results given a list of sets as inputs).
+  Comparison of sets enforces reflexivity of its elements.

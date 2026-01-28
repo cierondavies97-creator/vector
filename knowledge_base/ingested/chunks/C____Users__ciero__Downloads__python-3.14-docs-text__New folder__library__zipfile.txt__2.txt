@@ -1,0 +1,3 @@
+files that use the ZIP64 extensions (that is ZIP files that are more
+than 4 GiB in size).  It supports decryption of encrypted files in ZIP
+archives, but it cannot create an encrypted file.  Decryption is

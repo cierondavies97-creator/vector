@@ -1,0 +1,4 @@
+installation.
+   When running under Virtual Environments, "exec_prefix" gets
+   overwritten to the virtual environment prefix. "base_exec_prefix",
+   conversely, does not change, and always points to the base Python

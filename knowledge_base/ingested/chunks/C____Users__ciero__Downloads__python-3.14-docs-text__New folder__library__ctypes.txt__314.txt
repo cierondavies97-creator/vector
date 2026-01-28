@@ -1,0 +1,5 @@
+If both arguments are given, *size* must not be less than
+   "len(init)".
+   Warning:
+     If *size* is equal to "len(init)", a NUL terminator is not added.
+     Do not treat such a buffer as a C string.

@@ -1,0 +1,6 @@
+Functions are accessed as attributes of dll objects:
+   >>> libc.printf
+   <_FuncPtr object at 0x...>
+   >>> print(windll.kernel32.GetModuleHandleA)
+   <_FuncPtr object at 0x...>
+   >>> print(windll.kernel32.MyOwnFunction)

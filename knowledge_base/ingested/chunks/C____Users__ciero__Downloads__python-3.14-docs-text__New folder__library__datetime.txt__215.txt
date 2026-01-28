@@ -1,0 +1,5 @@
+Warning:
+     Because naive "datetime" objects are treated by many "datetime"
+     methods as local times, it is preferred to use aware datetimes to
+     represent times in UTC; as a result, using
+     "datetime.utctimetuple()" may give misleading results. If you

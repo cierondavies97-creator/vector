@@ -1,0 +1,5 @@
+objects.
+By default, the "pickle" data format uses a relatively compact binary
+representation.  If you need optimal size characteristics, you can
+efficiently compress pickled data.
+The module "pickletools" contains tools for analyzing data streams

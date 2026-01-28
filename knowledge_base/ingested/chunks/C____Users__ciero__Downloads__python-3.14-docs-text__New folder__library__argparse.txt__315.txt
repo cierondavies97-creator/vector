@@ -1,0 +1,4 @@
+*required* argument, to indicate that at least one of the mutually
+   exclusive arguments is required:
+      >>> parser = argparse.ArgumentParser(prog='PROG')
+      >>> group = parser.add_mutually_exclusive_group(required=True)

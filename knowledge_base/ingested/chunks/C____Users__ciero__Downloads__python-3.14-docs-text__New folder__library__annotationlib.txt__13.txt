@@ -1,0 +1,7 @@
+def func(a: Cls) -> None:
+       print(a)
+   class Cls: pass
+   print(func.__annotations__)
+This will behave as follows:
+* Under stock semantics (Python 3.13 and earlier), it will throw a
+  "NameError" at the line where "func" is defined, because "Cls" is an

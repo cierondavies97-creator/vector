@@ -1,0 +1,7 @@
+sys.stdout.write('.')
+           print()
+           print()
+   if __name__ == '__main__':
+       multiprocessing.freeze_support()
+       test()
+An example showing how to use queues to feed tasks to a collection of

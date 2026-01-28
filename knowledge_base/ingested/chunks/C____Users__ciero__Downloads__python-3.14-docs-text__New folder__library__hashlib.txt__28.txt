@@ -1,0 +1,5 @@
+bytes in the whole range from 0 to 255.
+hash.hexdigest()
+   Like "digest()" except the digest is returned as a string object of
+   double length, containing only hexadecimal digits.  This may be
+   used to exchange the value safely in email or other non-binary

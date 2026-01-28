@@ -1,0 +1,6 @@
+>>> Color.RED._add_alias_("ERROR")
+         >>> Color.ERROR
+         <Color.RED: 1>
+      Raises a "NameError" if the name is already assigned to a
+      different member.
+      Added in version 3.13.

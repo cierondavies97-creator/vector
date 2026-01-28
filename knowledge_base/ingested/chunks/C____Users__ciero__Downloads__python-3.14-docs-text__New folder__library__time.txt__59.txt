@@ -1,0 +1,4 @@
+time.strftime(format[, t])
+   Convert a tuple or "struct_time" representing a time as returned by
+   "gmtime()" or "localtime()" to a string as specified by the
+   *format* argument.  If *t* is not provided, the current time as

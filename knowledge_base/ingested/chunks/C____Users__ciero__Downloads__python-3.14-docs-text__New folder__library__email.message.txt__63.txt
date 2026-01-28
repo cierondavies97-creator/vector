@@ -1,0 +1,4 @@
+already exists in the header, replace its value with *value*.
+      When *header* is "Content-Type" (the default) and the header
+      does not yet exist in the message, add it, set its value to
+      *text/plain*, and append the new parameter value.  Optional

@@ -1,0 +1,5 @@
+"sockaddr".
+   Availability: not WASI.
+socket.getprotobyname(protocolname)
+   Translate an internet protocol name (for example, "'icmp'") to a
+   constant suitable for passing as the (optional) third argument to

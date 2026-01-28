@@ -1,0 +1,4 @@
+"Server" is retained as an alias for "ServerProxy" for backwards
+   compatibility.  New code should use "ServerProxy".
+   Changed in version 3.5: Added the *context* argument.
+   Changed in version 3.6: Added support of type tags with prefixes

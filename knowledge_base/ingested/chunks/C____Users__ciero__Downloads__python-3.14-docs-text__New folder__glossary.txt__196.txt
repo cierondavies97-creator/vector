@@ -1,0 +1,5 @@
+global variables read and write to the global namespace.  The
+   "nonlocal" allows writing to outer scopes.
+new-style class
+   Old name for the flavor of classes now used for all class objects.
+   In earlier Python versions, only new-style classes could use

@@ -1,0 +1,5 @@
+"tracemalloc" --- Trace memory allocations
+******************************************
+Added in version 3.4.
+**Source code:** Lib/tracemalloc.py
+======================================================================

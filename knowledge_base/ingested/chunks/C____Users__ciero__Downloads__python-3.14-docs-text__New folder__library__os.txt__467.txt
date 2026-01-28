@@ -1,0 +1,4 @@
+if the functionality is used when it's not locally available.
+   (Specifying "True" for *follow_symlinks* is always supported on all
+   platforms.)
+   To check whether a particular function accepts "False" for its

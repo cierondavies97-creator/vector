@@ -1,0 +1,4 @@
+generates a narrower range of seeds.
+   Changed in version 3.2: Moved to the version 2 scheme which uses
+   all of the bits in a string seed.
+   Changed in version 3.11: The *seed* must be one of the following

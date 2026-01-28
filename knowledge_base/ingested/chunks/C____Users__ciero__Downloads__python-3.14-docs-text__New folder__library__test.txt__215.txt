@@ -1,0 +1,4 @@
+Delete *name* from "sys.modules".
+test.support.import_helper.make_legacy_pyc(source)
+   Move a **PEP 3147**/**PEP 488** pyc file to its legacy pyc location
+   and return the file system path to the legacy pyc file.  The

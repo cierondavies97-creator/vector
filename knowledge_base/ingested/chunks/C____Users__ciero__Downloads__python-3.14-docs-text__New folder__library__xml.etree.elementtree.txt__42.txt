@@ -1,0 +1,8 @@
+>>> b = ET.SubElement(a, 'b')
+   >>> c = ET.SubElement(a, 'c')
+   >>> d = ET.SubElement(c, 'd')
+   >>> ET.dump(a)
+   <a><b /><c><d /></c></a>
+Parsing XML with Namespaces
+---------------------------
+If the XML input has namespaces, tags and attributes with prefixes in

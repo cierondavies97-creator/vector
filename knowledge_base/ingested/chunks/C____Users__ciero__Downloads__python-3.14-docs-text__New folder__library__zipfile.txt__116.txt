@@ -1,0 +1,5 @@
+Construct a "ZipInfo" instance for a file on the filesystem, in
+   preparation for adding it to a zip file.
+   *filename* should be the path to a file or directory on the
+   filesystem.
+   If *arcname* is specified, it is used as the name within the

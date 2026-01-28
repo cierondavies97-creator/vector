@@ -1,0 +1,6 @@
+_order_
+      No longer used, kept for backward compatibility. (class
+      attribute, removed during class creation).
+   _ignore_
+      "_ignore_" is only used during creation and is removed from the
+      enumeration once creation is complete.

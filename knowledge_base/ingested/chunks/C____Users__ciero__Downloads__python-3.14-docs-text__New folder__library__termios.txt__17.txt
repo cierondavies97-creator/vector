@@ -1,0 +1,6 @@
+try:
+           termios.tcsetattr(fd, termios.TCSADRAIN, new)
+           passwd = input(prompt)
+       finally:
+           termios.tcsetattr(fd, termios.TCSADRAIN, old)
+       return passwd

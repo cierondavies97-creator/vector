@@ -1,0 +1,5 @@
+raise an exception when it encounters leap day because the default
+    year used by the parser (1900) is not a leap year.  Users run into
+    that bug every leap year.
+       >>> month_day = "02/29"
+       >>> datetime.strptime(f"{month_day};1984", "%m/%d;%Y")  # No leap year bug.

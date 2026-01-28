@@ -1,0 +1,4 @@
+always possible to recover the exact source code.
+First, the stringifier of course cannot recover any information that
+is not present in the compiled code, including comments, whitespace,
+parenthesization, and operations that get simplified by the compiler.

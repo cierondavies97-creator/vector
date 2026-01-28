@@ -1,0 +1,5 @@
+>>> d
+   deque(['g', 'h', 'i', 'j', 'k', 'l'])
+   >>> deque(reversed(d))               # make a new deque in reverse order
+   deque(['l', 'k', 'j', 'i', 'h', 'g'])
+   >>> d.clear()                        # empty the deque

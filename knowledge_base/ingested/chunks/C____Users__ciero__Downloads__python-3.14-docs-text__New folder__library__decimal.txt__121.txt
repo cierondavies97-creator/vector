@@ -1,0 +1,5 @@
+form.
+      In the latest versions of the specification, this operation is
+      also known as "reduce".
+   number_class(context=None)
+      Return a string describing the *class* of the operand.  The

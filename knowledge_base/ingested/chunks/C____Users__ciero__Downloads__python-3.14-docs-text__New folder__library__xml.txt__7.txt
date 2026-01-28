@@ -1,0 +1,3 @@
+disproportional use of dynamic memory. Python bundles a copy of Expat,
+and whether Python uses the bundled or a system-wide Expat, depends on
+how the Python interpreter "has been configured" in your environment.

@@ -1,0 +1,4 @@
+basic type ("str", "int", "float", "bool", "None") will be
+        skipped instead of raising a "TypeError". Default "False".
+      * **ensure_ascii** (*bool*) -- If "True" (the default), the
+        output is guaranteed to have all incoming non-ASCII and non-

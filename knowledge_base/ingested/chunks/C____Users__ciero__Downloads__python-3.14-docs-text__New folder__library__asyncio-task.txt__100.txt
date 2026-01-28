@@ -1,0 +1,5 @@
+a "TimeoutError" which can be caught and handled.
+   Note:
+     The "asyncio.timeout()" context manager is what transforms the
+     "asyncio.CancelledError" into a "TimeoutError", which means the
+     "TimeoutError" can only be caught *outside* of the context

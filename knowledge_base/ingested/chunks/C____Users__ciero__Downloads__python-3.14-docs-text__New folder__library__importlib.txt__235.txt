@@ -1,0 +1,5 @@
+module = importlib.util.module_from_spec(spec)
+       sys.modules[module_name] = module
+       spec.loader.exec_module(module)
+       return module
+   # For illustrative purposes only (use of `json` is arbitrary).

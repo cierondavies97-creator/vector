@@ -1,0 +1,3 @@
+the behaviour of the Unix "env" program, which performs the same
+search, but prefers launching known Python commands. A warning may be
+displayed when searching for arbitrary executables, and this search

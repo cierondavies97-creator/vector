@@ -1,0 +1,4 @@
+based on whether they match the public name convention and were
+   defined in *module*.
+   The *name_of_module* argument can specify (as a string or tuple
+   thereof) what module(s) an API could be defined in order to be

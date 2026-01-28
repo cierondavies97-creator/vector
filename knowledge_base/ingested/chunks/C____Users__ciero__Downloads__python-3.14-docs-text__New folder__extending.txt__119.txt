@@ -1,0 +1,4 @@
+code will probably crash or at least overwrite random bits in memory.
+So be careful!
+Note that any Python object references which are provided to the
+caller are *borrowed* references; do not decrement their reference

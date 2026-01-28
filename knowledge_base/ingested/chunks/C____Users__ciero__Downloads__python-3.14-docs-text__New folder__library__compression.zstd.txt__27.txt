@@ -1,0 +1,4 @@
+Compressing and decompressing data in memory
+============================================
+compression.zstd.compress(data, level=None, options=None, zstd_dict=None)
+   Compress *data* (a *bytes-like object*), returning the compressed

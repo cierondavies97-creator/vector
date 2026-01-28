@@ -1,0 +1,4 @@
+data.  This is useful for processing files in an unknown
+     encoding.
+   * "'xmlcharrefreplace'" is only supported when writing to a file.
+     Characters not supported by the encoding are replaced with the

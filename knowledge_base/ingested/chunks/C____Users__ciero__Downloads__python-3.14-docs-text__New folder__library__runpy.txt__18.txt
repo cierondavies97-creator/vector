@@ -1,0 +1,3 @@
+supplied to the CPython command line, *file_path* may refer to a
+   Python source file, a compiled bytecode file or a valid "sys.path"
+   entry containing a "__main__" module (e.g. a zipfile containing a

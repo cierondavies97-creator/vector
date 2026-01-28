@@ -1,0 +1,4 @@
+*name* is the name (within the module) of the object with the
+   doctests of interest.  The result is a string, containing the
+   object's docstring converted to a Python script, as described for
+   "script_from_examples()" above.  For example, if module "a.py"

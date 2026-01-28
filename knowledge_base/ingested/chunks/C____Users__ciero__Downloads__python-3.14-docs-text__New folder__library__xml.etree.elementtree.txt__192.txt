@@ -1,0 +1,4 @@
+>>> links = list(p.iter("a"))   # Returns list of all links
+   >>> links
+   [<Element 'a' at 0xb77ec2ac>, <Element 'a' at 0xb77ec1cc>]
+   >>> for i in links:             # Iterates through all found links

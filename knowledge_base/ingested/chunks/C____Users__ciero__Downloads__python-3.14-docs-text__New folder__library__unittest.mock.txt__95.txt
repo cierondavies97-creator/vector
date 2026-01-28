@@ -1,0 +1,5 @@
+>>> mock.call_args_list == expected
+      True
+      Members of "call_args_list" are "call" objects. These can be
+      unpacked as tuples to get at the individual arguments. See calls
+      as tuples.

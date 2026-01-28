@@ -1,0 +1,4 @@
+later core dumps) if you do so.  Functions that return object
+references generally return "NULL" only to indicate that an exception
+occurred.  The reason for not testing for "NULL" arguments is that
+functions often pass the objects they receive on to other function ---

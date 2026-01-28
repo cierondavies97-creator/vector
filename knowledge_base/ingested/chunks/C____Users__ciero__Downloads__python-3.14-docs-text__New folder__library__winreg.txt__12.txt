@@ -1,0 +1,4 @@
+that case, the handle returned is the same key handle passed in to
+   the function.
+   If the key already exists, this function opens the existing key.
+   The return value is the handle of the opened key. If the function

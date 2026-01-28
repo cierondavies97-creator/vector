@@ -1,0 +1,5 @@
+should look like:
+   @patch('b.SomeClass')
+However, consider the alternative scenario where instead of "from a
+import SomeClass" module b does "import a" and "some_function" uses
+"a.SomeClass". Both of these import forms are common. In this case the

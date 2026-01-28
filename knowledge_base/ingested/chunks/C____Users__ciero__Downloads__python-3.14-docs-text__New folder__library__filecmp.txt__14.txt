@@ -1,0 +1,4 @@
+The "dircmp" class offers a number of interesting attributes that
+   may be used to get various bits of information about the directory
+   trees being compared.
+   Note that via "__getattr__()" hooks, all attributes are computed

@@ -1,0 +1,4 @@
+frozen modules, or even built-in modules.  Meta hooks are registered
+by adding new finder objects to "sys.meta_path", as described below.
+Import path hooks are called as part of "sys.path" (or
+"package.__path__") processing, at the point where their associated

@@ -1,0 +1,5 @@
+accumulates until the same quote is encountered again (thus,
+   different quote types protect each other as in the shell.)  By
+   default, includes ASCII single and double quotes.
+shlex.escapedquotes
+   Characters in "quotes" that will interpret escape characters

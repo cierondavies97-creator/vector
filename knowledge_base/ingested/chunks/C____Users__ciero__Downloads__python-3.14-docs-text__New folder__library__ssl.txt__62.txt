@@ -1,0 +1,5 @@
+capath,
+   * "openssl_capath" - hard coded path to a capath directory
+   Added in version 3.4.
+ssl.enum_certificates(store_name)
+   Retrieve certificates from Windows' system cert store. *store_name*

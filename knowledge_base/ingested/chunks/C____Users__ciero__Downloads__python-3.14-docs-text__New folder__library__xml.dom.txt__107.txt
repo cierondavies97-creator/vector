@@ -1,0 +1,8 @@
+"nodeValue" attribute.
+NamedNodeMap Objects
+--------------------
+"NamedNodeMap" does *not* inherit from "Node".
+NamedNodeMap.length
+   The length of the attribute list.
+NamedNodeMap.item(index)
+   Return an attribute with a particular index.  The order you get the

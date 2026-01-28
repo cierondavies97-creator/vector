@@ -1,0 +1,7 @@
+incorrect key.
+dbm.dumb.open(filename, flag='c', mode=0o666)
+   Open a "dbm.dumb" database.
+   Parameters:
+      * **filename** --
+        The basename of the database file (without extensions). A new
+        database creates the following files:

@@ -1,0 +1,5 @@
+"EACCES", "EPERM", and "ENOTCAPABLE".
+   Changed in version 3.11.1: WASI's "ENOTCAPABLE" is now mapped to
+   "PermissionError".
+exception ProcessLookupError
+   Raised when a given process doesn't exist. Corresponds to "errno"

@@ -1,0 +1,3 @@
+something you get a module back. This need not be the case however.
+This means you can use "patch.dict()" to *temporarily* put a mock in
+place in "sys.modules". Any imports whilst this patch is active will

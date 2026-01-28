@@ -1,0 +1,3 @@
+"StatisticsError" is raised.  *data* can be a sequence or iterable.
+   The high median is always a member of the data set.  When the
+   number of data points is odd, the middle value is returned.  When

@@ -1,0 +1,3 @@
+| curses.KEY_REPLACE        | Replace                                      |
++---------------------------+----------------------------------------------+
+| curses.KEY_RESTART        | Restart                                      |

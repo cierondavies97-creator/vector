@@ -1,0 +1,8 @@
+given. Methods, of course, have the additional first argument *self*
+  which is omitted here.
+Turtle methods
+--------------
+Turtle motion
+   Move and draw
+         "forward()" | "fd()"
+         "backward()" | "bk()" | "back()"

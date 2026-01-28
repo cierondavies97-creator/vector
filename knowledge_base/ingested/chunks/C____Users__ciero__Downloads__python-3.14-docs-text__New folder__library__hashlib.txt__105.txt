@@ -1,0 +1,7 @@
+>>> INNER_SIZE = 64
+   >>>
+   >>> buf = bytearray(6000)
+   >>>
+   >>> # Left leaf
+   ... h00 = blake2b(buf[0:LEAF_SIZE], fanout=FANOUT, depth=DEPTH,
+   ...               leaf_size=LEAF_SIZE, inner_size=INNER_SIZE,

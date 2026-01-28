@@ -1,0 +1,7 @@
+>>> custom.read_string(config)
+      >>> list(custom['Section1'].keys())
+      ['Key']
+      >>> list(custom['Section2'].keys())
+      ['AnotherKey']
+   Note:
+     The optionxform function transforms option names to a canonical

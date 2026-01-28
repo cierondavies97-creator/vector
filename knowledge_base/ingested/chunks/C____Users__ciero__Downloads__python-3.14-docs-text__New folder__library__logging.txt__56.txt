@@ -1,0 +1,4 @@
+of this parameter mirrors the equivalent one in the "warnings"
+      module.
+      The fourth keyword argument is *extra* which can be used to pass
+      a dictionary which is used to populate the "__dict__" of the

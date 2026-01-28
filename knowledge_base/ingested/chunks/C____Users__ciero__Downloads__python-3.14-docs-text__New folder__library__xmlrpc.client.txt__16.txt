@@ -1,0 +1,3 @@
+also be used to query the remote server for the methods it supports
+   (service discovery) and fetch other server-associated metadata.
+   Types that are conformable (e.g. that can be marshalled through

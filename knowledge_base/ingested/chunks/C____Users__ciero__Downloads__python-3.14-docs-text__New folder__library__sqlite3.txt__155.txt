@@ -1,0 +1,4 @@
+Parameters:
+         **filter** (*str** | **None*) -- An optional "LIKE" pattern
+         for database objects to dump, e.g. "prefix_%". If "None" (the
+         default), all database objects will be included.

@@ -1,0 +1,6 @@
+specified.
+     Note:
+       The *sock* argument transfers ownership of the socket to the
+       server created. To close the socket, call the server's
+       "close()" method.
+   * *backlog* is the maximum number of queued connections passed to

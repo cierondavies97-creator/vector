@@ -1,0 +1,7 @@
+this behavior.
+   class TextReader:
+       """Print and number lines in a text file."""
+       def __init__(self, filename):
+           self.filename = filename
+           self.file = open(filename)
+           self.lineno = 0

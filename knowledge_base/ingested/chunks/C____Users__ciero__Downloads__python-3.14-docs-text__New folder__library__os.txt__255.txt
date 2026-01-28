@@ -1,0 +1,3 @@
+* **not following symlinks:** If *follow_symlinks* is "False", and the
+  last element of the path to operate on is a symbolic link, the
+  function will operate on the symbolic link itself rather than the

@@ -1,0 +1,4 @@
+a path segment, or an object implementing the "os.PathLike"
+   interface where the "__fspath__()" method returns a string, such as
+   another path object:
+      >>> PurePath('foo', 'some/path', 'bar')

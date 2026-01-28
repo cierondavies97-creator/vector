@@ -1,0 +1,4 @@
+Each callback will be called exactly once.
+   The optional keyword-only *context* argument specifies a custom
+   "contextvars.Context" for the *callback* to run in. Callbacks use
+   the current context when no *context* is provided.

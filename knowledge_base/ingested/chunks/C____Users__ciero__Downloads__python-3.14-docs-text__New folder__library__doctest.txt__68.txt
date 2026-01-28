@@ -1,0 +1,4 @@
+exception traceback or from ordinary printing.  So, e.g., an example
+  that expects "ValueError: 42 is prime" will pass whether
+  "ValueError" is actually raised or if the example merely prints that
+  traceback text.  In practice, ordinary output rarely begins with a

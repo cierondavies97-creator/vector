@@ -1,0 +1,3 @@
+is usually not necessary to call "iter()" or deal with iterator
+   objects yourself.  The "for" statement does that automatically for
+   you, creating a temporary unnamed variable to hold the iterator for

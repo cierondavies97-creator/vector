@@ -1,0 +1,3 @@
+routine, since as a side effect it affects the entire program.  Saving
+and restoring it is almost as bad: it is expensive and affects other
+threads that happen to run before the settings have been restored.

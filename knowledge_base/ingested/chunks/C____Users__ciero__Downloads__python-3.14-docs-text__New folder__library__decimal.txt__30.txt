@@ -1,0 +1,5 @@
+>>> Decimal('3.1415926535') + Decimal('2.7182818285')
+   Decimal('5.85988')
+If the internal limits of the C version are exceeded, constructing a
+decimal raises "InvalidOperation":
+   >>> Decimal("1e9999999999999999999")

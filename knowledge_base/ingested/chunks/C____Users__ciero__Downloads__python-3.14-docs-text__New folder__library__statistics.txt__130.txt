@@ -1,0 +1,4 @@
+well a model based on major planets can predict the orbital
+   distances for dwarf planets:
+      >>> model = linear_regression(period_squared, dist_cubed, proportional=True)
+      >>> slope = model.slope

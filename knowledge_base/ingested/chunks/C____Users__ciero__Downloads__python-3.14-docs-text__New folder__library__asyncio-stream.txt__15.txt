@@ -1,0 +1,6 @@
+Note:
+     The *sock* argument transfers ownership of the socket to the
+     "StreamWriter" created. To close the socket, call its "close()"
+     method.
+   Availability: Unix.
+   Changed in version 3.7: Added the *ssl_handshake_timeout*

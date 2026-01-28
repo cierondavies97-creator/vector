@@ -1,0 +1,6 @@
+Added in version 3.4.
+POP3.user(username)
+   Send user command, response should indicate that a password is
+   required.
+POP3.pass_(password)
+   Send password, response includes message count and mailbox size.

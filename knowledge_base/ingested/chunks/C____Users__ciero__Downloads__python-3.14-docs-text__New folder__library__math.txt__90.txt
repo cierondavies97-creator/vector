@@ -1,0 +1,5 @@
+should return an "Integral" value.
+math.fma(x, y, z)
+   Fused multiply-add operation. Return "(x * y) + z", computed as
+   though with infinite precision and range followed by a single round
+   to the "float" format. This operation often provides better

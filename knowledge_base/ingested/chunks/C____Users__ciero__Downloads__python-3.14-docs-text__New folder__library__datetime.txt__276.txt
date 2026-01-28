@@ -1,0 +1,5 @@
+datetime.time(4, 23, 1, tzinfo=datetime.timezone.utc)
+      >>> time.fromisoformat('04:23:01+00:00')
+      datetime.time(4, 23, 1, tzinfo=datetime.timezone.utc)
+   Added in version 3.7.
+   Changed in version 3.11: Previously, this method only supported

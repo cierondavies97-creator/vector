@@ -1,0 +1,5 @@
+Special Attributes of "GenericAlias" objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All parameterized generics implement special read-only attributes.
+genericalias.__origin__
+   This attribute points at the non-parameterized generic class:

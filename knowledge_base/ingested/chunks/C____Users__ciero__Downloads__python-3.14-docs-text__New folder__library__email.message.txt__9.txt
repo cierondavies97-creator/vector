@@ -1,0 +1,4 @@
+The keys are ordered, but unlike a real dict, there can be duplicates.
+Additional methods are provided for working with headers that have
+duplicate keys.
+The *payload* is either a string or bytes object, in the case of

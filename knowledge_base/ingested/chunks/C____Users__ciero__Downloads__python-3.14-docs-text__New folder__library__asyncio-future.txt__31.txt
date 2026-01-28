@@ -1,0 +1,5 @@
+The Future object was designed to mimic "concurrent.futures.Future".
+  Key differences include:
+  * unlike asyncio Futures, "concurrent.futures.Future" instances
+    cannot be awaited.
+  * "asyncio.Future.result()" and "asyncio.Future.exception()" do not

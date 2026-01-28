@@ -1,0 +1,5 @@
+and "max()" functions.  If repeated usage of these functions is
+required, consider turning the iterable into an actual heap.
+Basic Examples
+==============
+A heapsort can be implemented by pushing all values onto a heap and

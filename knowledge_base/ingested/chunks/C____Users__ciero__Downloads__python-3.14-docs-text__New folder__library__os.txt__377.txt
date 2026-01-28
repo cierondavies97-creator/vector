@@ -1,0 +1,5 @@
+print(entry.name)
+   Note:
+     On Unix-based systems, "scandir()" uses the system's opendir()
+     and readdir() functions. On Windows, it uses the Win32
+     FindFirstFileW and FindNextFileW functions.

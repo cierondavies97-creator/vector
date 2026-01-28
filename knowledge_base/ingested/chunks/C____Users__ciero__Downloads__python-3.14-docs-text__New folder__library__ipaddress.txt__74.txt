@@ -1,0 +1,5 @@
+as keys in dictionaries.
+class ipaddress.IPv4Network(address, strict=True)
+   Construct an IPv4 network definition.  *address* can be one of the
+   following:
+   1. A string consisting of an IP address and an optional mask,

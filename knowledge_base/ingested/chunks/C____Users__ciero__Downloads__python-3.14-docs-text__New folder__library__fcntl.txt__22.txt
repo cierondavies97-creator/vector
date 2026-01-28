@@ -1,0 +1,4 @@
+objects*, not only "bytes".
+fcntl.ioctl(fd, request, arg=0, mutate_flag=True, /)
+   This function is identical to the "fcntl()" function, except that
+   the argument handling is even more complicated.

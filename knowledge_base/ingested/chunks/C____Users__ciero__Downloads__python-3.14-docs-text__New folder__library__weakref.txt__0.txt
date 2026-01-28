@@ -1,0 +1,5 @@
+"weakref" --- Weak references
+*****************************
+**Source code:** Lib/weakref.py
+======================================================================
+The "weakref" module allows the Python programmer to create *weak

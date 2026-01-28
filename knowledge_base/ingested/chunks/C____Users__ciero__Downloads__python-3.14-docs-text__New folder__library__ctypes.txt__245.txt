@@ -1,0 +1,5 @@
+ctypes.RTLD_GLOBAL
+   Flag to use as *mode* parameter.  On platforms where this flag is
+   not available, it is defined as the integer zero.
+ctypes.RTLD_LOCAL
+   Flag to use as *mode* parameter.  On platforms where this is not

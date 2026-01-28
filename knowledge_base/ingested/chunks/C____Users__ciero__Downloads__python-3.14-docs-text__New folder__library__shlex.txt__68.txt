@@ -1,0 +1,3 @@
+recommended to always use "posix" and "whitespace_split" when using
+  "punctuation_chars", which will negate "wordchars" entirely.
+For best effect, "punctuation_chars" should be set in conjunction with

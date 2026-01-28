@@ -1,0 +1,6 @@
+on the system. (Only "SOCK_STREAM" and "SOCK_DGRAM" appear to be
+   generally useful.)
+socket.SOCK_CLOEXEC
+socket.SOCK_NONBLOCK
+   These two constants, if defined, can be combined with the socket
+   types and allow you to set some flags atomically (thus avoiding

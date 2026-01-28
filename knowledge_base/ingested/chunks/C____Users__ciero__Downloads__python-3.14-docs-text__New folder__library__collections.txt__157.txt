@@ -1,0 +1,4 @@
+helps keep memory requirements low by preventing the creation of
+instance dictionaries.
+Subclassing is not useful for adding new, stored fields.  Instead,
+simply create a new named tuple type from the "_fields" attribute:

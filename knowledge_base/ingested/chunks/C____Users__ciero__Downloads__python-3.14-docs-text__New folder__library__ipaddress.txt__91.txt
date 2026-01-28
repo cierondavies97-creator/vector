@@ -1,0 +1,4 @@
+in the result. Networks with a mask of 32 will return a list
+      containing the single host address.
+      >>> list(ip_network('192.0.2.0/29').hosts())
+      [IPv4Address('192.0.2.1'), IPv4Address('192.0.2.2'),

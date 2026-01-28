@@ -1,0 +1,4 @@
+Added in version 3.14.
+os.sendfile(out_fd, in_fd, offset, count)
+os.sendfile(out_fd, in_fd, offset, count, headers=(), trailers=(), flags=0)
+   Copy *count* bytes from file descriptor *in_fd* to file descriptor

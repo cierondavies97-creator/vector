@@ -1,0 +1,7 @@
+a file object for *filename*).
+      Added in version 3.3.
+   fileno()
+      Return the file descriptor for the underlying file.
+      Added in version 3.3.
+   readable()
+      Return whether the file was opened for reading.

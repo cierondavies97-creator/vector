@@ -1,0 +1,4 @@
+connection will terminate with a fatal TLS alert message
+   "ALERT_DESCRIPTION_HANDSHAKE_FAILURE".
+   This method will raise "NotImplementedError" if the OpenSSL library
+   had OPENSSL_NO_TLSEXT defined when it was built.

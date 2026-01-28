@@ -1,0 +1,3 @@
+*posix* is not true (default), the "shlex" instance will operate in
+   compatibility mode.  When operating in POSIX mode, "shlex" will try
+   to be as close as possible to the POSIX shell parsing rules.  The

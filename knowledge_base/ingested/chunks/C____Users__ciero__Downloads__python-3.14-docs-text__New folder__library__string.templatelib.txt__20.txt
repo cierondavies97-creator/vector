@@ -1,0 +1,5 @@
+>>> template.strings
+      ('Ah! We do have Camembert.',)
+      If multiple interpolations are passed consecutively, they will
+      be treated as separate interpolations and an empty string will
+      be inserted between them. For example, the following code

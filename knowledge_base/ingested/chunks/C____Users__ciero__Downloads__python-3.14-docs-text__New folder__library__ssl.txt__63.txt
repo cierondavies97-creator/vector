@@ -1,0 +1,4 @@
+may be one of "CA", "ROOT" or "MY". Windows may provide additional
+   cert stores, too.
+   The function returns a list of (cert_bytes, encoding_type, trust)
+   tuples. The encoding_type specifies the encoding of cert_bytes. It

@@ -1,0 +1,4 @@
+values to combine.  The optional *facility* keyword argument
+   (default is "LOG_USER") sets the default facility for messages
+   which do not have a facility explicitly encoded.
+   Raises an auditing event "syslog.openlog" with arguments "ident",

@@ -1,0 +1,4 @@
+ignored. This can be used as a performance enhancement to avoid
+   repeated work in every process.
+   For this to work, it must be called before the forkserver process
+   has been launched (before creating a "Pool" or starting a

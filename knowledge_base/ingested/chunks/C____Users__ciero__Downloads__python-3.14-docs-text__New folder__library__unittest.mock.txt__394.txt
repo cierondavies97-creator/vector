@@ -1,0 +1,7 @@
+will normally of some other type, autospec doesn't use a spec for
+members that are set to "None". These will just be ordinary mocks
+(well - MagicMocks):
+>>> class Something:
+...     member = None
+...
+>>> mock = create_autospec(Something)

@@ -1,0 +1,5 @@
+"resource.RLIMIT_CORE"'s soft limit to 0 to prevent coredump file
+   creation.
+   On both platforms, the old value is restored by "__exit__()".
+class test.support.SaveSignals
+   Class to save and restore signal handlers registered by the Python

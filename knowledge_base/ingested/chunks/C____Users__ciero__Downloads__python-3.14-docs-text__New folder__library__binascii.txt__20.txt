@@ -1,0 +1,4 @@
+long as the length of *data*.
+   Similar functionality (but returning a text string) is also
+   conveniently accessible using the "bytes.hex()" method.
+   If *sep* is specified, it must be a single character str or bytes

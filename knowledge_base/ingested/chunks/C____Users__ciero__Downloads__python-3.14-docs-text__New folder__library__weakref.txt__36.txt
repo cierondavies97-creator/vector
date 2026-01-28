@@ -1,0 +1,5 @@
+avoid creating references that will cause the garbage collector to
+keep the keys around longer than needed.
+WeakKeyDictionary.keyrefs()
+   Return an iterable of the weak references to the keys.
+class weakref.WeakValueDictionary([dict])

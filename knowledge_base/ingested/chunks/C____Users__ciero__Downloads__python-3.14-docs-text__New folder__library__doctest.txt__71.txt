@@ -1,0 +1,4 @@
+everything following the leftmost colon and any module information
+  in the exception name is ignored.
+* The interactive shell omits the traceback header line for some
+  "SyntaxError"s.  But doctest uses the traceback header line to

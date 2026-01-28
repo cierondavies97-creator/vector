@@ -1,0 +1,4 @@
+location.
+   The optional dictionary argument *init_globals* may be used to pre-
+   populate the module's globals dictionary before the code is
+   executed. *init_globals* will not be modified. If any of the

@@ -1,0 +1,5 @@
+*subelement* is not an "Element".
+   extend(subelements)
+      Appends *subelements* from an iterable of elements. Raises
+      "TypeError" if a subelement is not an "Element".
+      Added in version 3.2.

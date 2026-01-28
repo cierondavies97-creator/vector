@@ -1,0 +1,4 @@
+own key, to use as a namespace in the metadata.
+   * *kw_only*: If true, this field will be marked as keyword-only.
+     This is used when the generated "__init__()" method's parameters
+     are computed.

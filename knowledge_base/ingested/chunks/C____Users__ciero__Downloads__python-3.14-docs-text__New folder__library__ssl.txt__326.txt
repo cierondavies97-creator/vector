@@ -1,0 +1,3 @@
+automatically, by the underlying OpenSSL framework; the application
+need not concern itself with its mechanics.  But the application does
+usually need to provide sets of certificates to allow this process to

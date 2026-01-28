@@ -1,0 +1,5 @@
+*creationflags* parameter which includes
+     "CREATE_NEW_PROCESS_GROUP".
+Popen.terminate()
+   Stop the child. On POSIX OSs the method sends "SIGTERM" to the
+   child. On Windows the Win32 API function "TerminateProcess()" is

@@ -1,0 +1,5 @@
+name is defined, *default* is returned, or, if not given,
+   "ValueError" is raised. For example:
+      >>> unicodedata.name('½')
+      'VULGAR FRACTION ONE HALF'
+      >>> unicodedata.name('\uFFFF', 'fallback')

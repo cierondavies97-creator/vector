@@ -1,0 +1,4 @@
+* "'u'": Do not lock database.
+        Not all flags are valid for all versions of GDBM. See the
+        "open_flags" member for a list of supported flag characters.
+      * **mode** (*int*) -- The Unix file access mode of the file

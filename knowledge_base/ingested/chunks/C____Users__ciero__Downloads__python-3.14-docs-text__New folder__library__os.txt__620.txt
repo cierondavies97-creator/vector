@@ -1,0 +1,4 @@
+"0" in the child, the new child's process id in the parent, and
+   *fd* is the file descriptor of the master end of the pseudo-
+   terminal.  For a more portable approach, use the "pty" module.  If
+   an error occurs "OSError" is raised.

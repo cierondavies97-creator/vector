@@ -1,0 +1,7 @@
+* "1 <= month <= 12",
+   * "1 <= day <= number of days in the given month and year",
+   * "0 <= hour < 24",
+   * "0 <= minute < 60",
+   * "0 <= second < 60",
+   * "0 <= microsecond < 1000000",
+   * "fold in [0, 1]".

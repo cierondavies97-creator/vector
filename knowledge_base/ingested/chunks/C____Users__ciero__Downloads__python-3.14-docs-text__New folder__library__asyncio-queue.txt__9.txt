@@ -1,0 +1,5 @@
+free slot is available before adding the item.
+      Raises "QueueShutDown" if the queue has been shut down.
+   put_nowait(item)
+      Put an item into the queue without blocking.
+      If no free slot is immediately available, raise "QueueFull".

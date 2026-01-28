@@ -1,0 +1,5 @@
+short usage message for your whole program.  Here's an OptionParser
+populated with user-friendly (documented) options:
+   usage = "usage: %prog [options] arg1 arg2"
+   parser = OptionParser(usage=usage)
+   parser.add_option("-v", "--verbose",

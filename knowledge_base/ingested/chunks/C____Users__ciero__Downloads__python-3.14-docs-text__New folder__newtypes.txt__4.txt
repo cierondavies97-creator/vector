@@ -1,0 +1,6 @@
+PyMappingMethods *tp_as_mapping;
+       /* More standard operations (here for binary compatibility) */
+       hashfunc tp_hash;
+       ternaryfunc tp_call;
+       reprfunc tp_str;
+       getattrofunc tp_getattro;

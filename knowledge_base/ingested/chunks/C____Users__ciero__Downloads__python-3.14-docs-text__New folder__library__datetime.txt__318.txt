@@ -1,0 +1,3 @@
+Return the time zone name corresponding to the "datetime" object
+   *dt*, as a string. Nothing about string names is defined by the
+   "datetime" module, and there's no requirement that it mean anything

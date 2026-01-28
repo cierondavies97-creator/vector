@@ -1,0 +1,4 @@
+like to run from "unittest", without converting every old test
+function to a "TestCase" subclass.
+For this reason, "unittest" provides a "FunctionTestCase" class. This
+subclass of "TestCase" can be used to wrap an existing test function.

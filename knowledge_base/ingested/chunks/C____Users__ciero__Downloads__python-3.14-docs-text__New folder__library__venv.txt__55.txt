@@ -1,0 +1,5 @@
+value supported by default is ""git"" via
+     "create_git_ignore_file()".
+   Changed in version 3.4: Added the "with_pip" parameter
+   Changed in version 3.6: Added the "prompt" parameter
+   Changed in version 3.9: Added the "upgrade_deps" parameter

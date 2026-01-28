@@ -1,0 +1,4 @@
+in the cache file. If a checked hash-based cache file is found to be
+invalid, Python regenerates it and writes a new checked hash-based
+cache file. For unchecked hash-based ".pyc" files, Python simply
+assumes the cache file is valid if it exists. Hash-based ".pyc" files

@@ -1,0 +1,6 @@
+>>> cheese = 'Camembert'
+      >>> template = t'Ah! We do have {cheese}.'
+      >>> template.strings
+      ('Ah! We do have ', '.')
+      Empty strings *are* included in the tuple:
+      >>> response = 'We do have '

@@ -1,0 +1,3 @@
+file to *rollover* at a predetermined size. When the size is about
+   to be exceeded, the file is closed and a new file is silently
+   opened for output. Rollover occurs whenever the current log file is

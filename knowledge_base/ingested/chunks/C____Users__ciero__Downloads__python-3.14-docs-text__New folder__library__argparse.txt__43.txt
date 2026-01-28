@@ -1,0 +1,5 @@
+class argparse.RawTextHelpFormatter
+class argparse.ArgumentDefaultsHelpFormatter
+class argparse.MetavarTypeHelpFormatter
+"RawDescriptionHelpFormatter" and "RawTextHelpFormatter" give more
+control over how textual descriptions are displayed. By default,

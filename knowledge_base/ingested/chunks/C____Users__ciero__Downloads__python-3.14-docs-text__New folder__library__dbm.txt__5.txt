@@ -1,0 +1,4 @@
+"'dbm.ndbm'" or "'dbm.gnu'"
+   Changed in version 3.11: *filename* accepts a *path-like object*.
+dbm.open(file, flag='r', mode=0o666)
+   Open a database and return the corresponding database object.

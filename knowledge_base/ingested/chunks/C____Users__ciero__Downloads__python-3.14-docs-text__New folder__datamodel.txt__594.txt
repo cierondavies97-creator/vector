@@ -1,0 +1,4 @@
+implemented by builtin types such as "bytes" and "memoryview", and
+third-party libraries may define additional buffer types.
+While buffer types are usually implemented in C, it is also possible
+to implement the protocol in Python.

@@ -1,0 +1,5 @@
+"list" or "typing.List".
+   Deprecated since version 3.9: "builtins.list" now supports
+   subscripting ("[]"). See **PEP 585** and Generic Alias Type.
+class typing.Set(set, MutableSet[T])
+   Deprecated alias to "builtins.set".

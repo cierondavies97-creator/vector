@@ -1,0 +1,5 @@
+get_flags(key)
+      Return as a string the flags that are set on the message
+      corresponding to *key*. This is the same as
+      "get_message(key).get_flags()" but much faster, because it does
+      not open the message file. Use this method when iterating over

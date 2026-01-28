@@ -1,0 +1,3 @@
+provide access to operating system primitives such as system calls.
+The set of such modules is a configuration option which also depends
+on the underlying platform.  For example, the "winreg" module is only

@@ -1,0 +1,5 @@
+Base class for all "tarfile" exceptions.
+exception tarfile.ReadError
+   Is raised when a tar archive is opened, that either cannot be
+   handled by the "tarfile" module or is somehow invalid.
+exception tarfile.CompressionError

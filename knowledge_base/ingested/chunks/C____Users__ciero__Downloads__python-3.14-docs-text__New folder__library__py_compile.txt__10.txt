@@ -1,0 +1,4 @@
+paths into regular files if it is allowed to write byte-compiled
+   files to those paths. This is a side-effect of import using file
+   renaming to place the final byte-compiled file into place to
+   prevent concurrent file writing issues.

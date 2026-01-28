@@ -1,0 +1,5 @@
+set, and use that as the *name* parameter.
+   Note:
+     The "open()", "read()" and "extract()" methods can take a
+     filename or a "ZipInfo" object.  You will appreciate this when
+     trying to read a ZIP file that contains members with duplicate

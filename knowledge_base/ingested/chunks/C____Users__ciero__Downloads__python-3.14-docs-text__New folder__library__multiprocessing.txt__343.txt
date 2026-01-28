@@ -1,0 +1,5 @@
+Proxy Objects.  This permits nesting of these managed lists, dicts,
+and other Proxy Objects:
+   >>> a = manager.list()
+   >>> b = manager.list()
+   >>> a.append(b)         # referent of a now contains referent of b

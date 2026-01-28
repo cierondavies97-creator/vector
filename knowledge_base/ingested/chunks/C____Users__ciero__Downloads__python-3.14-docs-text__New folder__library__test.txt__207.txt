@@ -1,0 +1,4 @@
+removed from the "sys.modules" cache before doing the import.
+   *blocked* is an iterable of module names that are replaced with
+   "None" in the module cache during the import to ensure that
+   attempts to import them raise "ImportError".

@@ -1,0 +1,4 @@
+If *initial* is less than zero, it raises an "OSError" exception
+   with "errno" set to "errno.EINVAL"
+   By default the timer will fire when *initial* seconds have elapsed.
+   (If *initial* is zero, timer will fire immediately.)

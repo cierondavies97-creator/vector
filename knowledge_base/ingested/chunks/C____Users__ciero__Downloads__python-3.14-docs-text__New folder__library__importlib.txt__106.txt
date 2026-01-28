@@ -1,0 +1,4 @@
+returned by the iterator be actual resources, e.g. it is
+         acceptable to return names for which "is_resource()" would be
+         false.
+         Allowing non-resource names to be returned is to allow for

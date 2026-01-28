@@ -1,0 +1,7 @@
+for line in difflib.ndiff(a, b):
+           print(line, end=' ')
+       return 1
+   # crack args (sys.argv[1:] is normal) & compare;
+   # return false iff a problem
+   def main(args):
+       import getopt

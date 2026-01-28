@@ -1,0 +1,4 @@
+number and raises an exception if an "os.stat()" call on either
+   pathname fails.
+   Changed in version 3.2: Added Windows support.
+   Changed in version 3.4: Windows now uses the same implementation as

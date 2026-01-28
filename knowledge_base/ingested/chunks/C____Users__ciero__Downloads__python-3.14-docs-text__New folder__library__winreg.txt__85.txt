@@ -1,0 +1,6 @@
+winreg.KEY_CREATE_SUB_KEY
+   Required to create a subkey of a registry key.
+winreg.KEY_ENUMERATE_SUB_KEYS
+   Required to enumerate the subkeys of a registry key.
+winreg.KEY_NOTIFY
+   Required to request change notifications for a registry key or for

@@ -1,0 +1,4 @@
+exception is raised if the method was called as "discard()". The
+      behavior of "discard()" may be preferred if the underlying
+      mailbox format supports concurrent modification by other
+      processes.

@@ -1,0 +1,4 @@
+*in_dict* can be a dictionary or a mapping like container. If it is
+   a mapping then it must at least support getting, setting and
+   deleting items plus iterating over keys.
+   *in_dict* can also be a string specifying the name of the

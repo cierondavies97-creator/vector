@@ -1,0 +1,6 @@
+CPython, look for documentation from your distributor (that is,
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+Menus
+=====
+IDLE has two main window types, the Shell window and the Editor

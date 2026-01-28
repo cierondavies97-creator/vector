@@ -1,0 +1,5 @@
+package, a false value otherwise. "ImportError" is raised if the
+      *loader* cannot find the module.
+      Changed in version 3.4: Raises "ImportError" instead of
+      "NotImplementedError".
+   static source_to_code(data, path='<string>')

@@ -1,0 +1,5 @@
+can be a class or a tuple of classes, as supported by
+      "issubclass()"). To check for the exact type, use "assertIs(cls,
+      superclass)".
+      Added in version 3.14.
+   It is also possible to check the production of exceptions,

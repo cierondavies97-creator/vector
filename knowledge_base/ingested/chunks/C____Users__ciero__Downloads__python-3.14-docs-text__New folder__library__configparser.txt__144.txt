@@ -1,0 +1,4 @@
+file, but will be used when writing parsed settings to a new config
+   file.
+   Interpolation behaviour may be customized by providing a custom
+   handler through the *interpolation* argument. "None" can be used to

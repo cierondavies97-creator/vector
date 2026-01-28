@@ -1,0 +1,7 @@
+url.hostname, 80)
+       query = (
+           f"HEAD {url.path or '/'} HTTP/1.0\r\n"
+           f"Host: {url.hostname}\r\n"
+           f"\r\n"
+       )
+       writer.write(query.encode('latin-1'))

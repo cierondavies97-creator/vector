@@ -1,0 +1,4 @@
+collection type should have a set of C functions for direct
+manipulation from other extension modules.
+At first sight this seems easy: just write the functions (without
+declaring them "static", of course), provide an appropriate header

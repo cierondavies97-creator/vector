@@ -1,0 +1,4 @@
+"Task" constructor (or factory) - all of the keyword arguments to
+   this function are passed through to that interface.
+   If the *name* argument is provided and not "None", it is set as the
+   name of the task using "Task.set_name()".

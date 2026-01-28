@@ -1,0 +1,7 @@
+>>> list(HTTPStatus)
+      [HTTPStatus.CONTINUE, HTTPStatus.SWITCHING_PROTOCOLS, ...]
+HTTP status codes
+=================
+Supported, IANA-registered status codes available in "http.HTTPStatus"
+are:
++---------+-------------------------------------+---------------------------------------------------------------------------------+

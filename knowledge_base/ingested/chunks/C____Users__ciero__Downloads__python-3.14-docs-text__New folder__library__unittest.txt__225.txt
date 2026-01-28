@@ -1,0 +1,4 @@
+assertTupleEqual(first, second, msg=None)
+      Tests that two lists or tuples are equal.  If not, an error
+      message is constructed that shows only the differences between
+      the two.  An error is also raised if either of the parameters

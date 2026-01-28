@@ -1,0 +1,6 @@
+that class.
+Element.tagName
+   The element type name.  In a namespace-using document it may have
+   colons in it. The value is a string.
+Element.getElementsByTagName(tagName)
+   Same as equivalent method in the "Document" class.

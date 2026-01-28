@@ -1,0 +1,3 @@
+stack contains a mapping object containing additional keyword
+   arguments. Before the callable is called, the mapping object and
+   iterable object are each "unpacked" and their contents passed in as

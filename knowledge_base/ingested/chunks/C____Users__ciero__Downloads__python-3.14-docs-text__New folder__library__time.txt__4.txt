@@ -1,0 +1,4 @@
+Leap seconds are excluded from this total on all POSIX-compliant
+  platforms.
+* The functions in this module may not handle dates and times before
+  the epoch or far in the future.  The cut-off point in the future is

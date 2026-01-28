@@ -1,0 +1,4 @@
+-----------------------------------
+See also: Explanation of the object-oriented interface
+Other than for very basic introductory purposes, or for trying things
+out as quickly as possible, it's more usual and much more powerful to

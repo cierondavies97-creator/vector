@@ -1,0 +1,7 @@
+>>> o.hostname
+      'docs.python.org'
+      >>> o.port
+      80
+      >>> o._replace(fragment="").geturl()
+      'http://docs.python.org:80/3/library/urllib.parse.html?highlight=params'
+   Following the syntax specifications in **RFC 1808**, urlparse

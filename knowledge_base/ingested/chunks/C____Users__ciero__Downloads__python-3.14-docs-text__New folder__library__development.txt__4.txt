@@ -1,0 +1,8 @@
+* Other special directives
+    * Protocols
+    * ABCs and Protocols for working with I/O
+    * Functions and decorators
+    * Introspection helpers
+    * Constant
+    * Deprecated aliases
+      * Aliases to built-in types

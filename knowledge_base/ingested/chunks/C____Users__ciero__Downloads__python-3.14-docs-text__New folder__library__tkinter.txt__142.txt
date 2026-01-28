@@ -1,0 +1,6 @@
+wrap
+   Must be one of: ""none"", ""char"", or ""word"".
+Bindings and Events
+-------------------
+The bind method from the widget command allows you to watch for
+certain events and to have a callback function trigger when that event

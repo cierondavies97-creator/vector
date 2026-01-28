@@ -1,0 +1,4 @@
+sampling without replacement.
+On the real line, there are functions to compute uniform, normal
+(Gaussian), lognormal, negative exponential, gamma, and beta
+distributions. For generating distributions of angles, the von Mises

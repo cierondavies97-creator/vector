@@ -1,0 +1,4 @@
+backward compatible behavior and features, respectively.
+"Policy" instances are immutable, but they can be cloned, accepting
+the same keyword arguments as the class constructor and returning a
+new "Policy" instance that is a copy of the original but with the

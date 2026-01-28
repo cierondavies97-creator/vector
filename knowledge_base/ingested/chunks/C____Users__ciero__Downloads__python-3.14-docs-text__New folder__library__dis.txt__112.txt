@@ -1,0 +1,5 @@
+Added in version 3.10.
+MATCH_SEQUENCE
+   If "STACK[-1]" is an instance of "collections.abc.Sequence" and is
+   *not* an instance of "str"/"bytes"/"bytearray" (or, more
+   technically: if it has the "Py_TPFLAGS_SEQUENCE" flag set in its

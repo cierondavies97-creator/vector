@@ -1,0 +1,7 @@
+sock.bind(('localhost', 1234))
+   sock.listen(100)
+   sock.setblocking(False)
+   sel.register(sock, selectors.EVENT_READ, accept)
+   while True:
+       events = sel.select()
+       for key, mask in events:

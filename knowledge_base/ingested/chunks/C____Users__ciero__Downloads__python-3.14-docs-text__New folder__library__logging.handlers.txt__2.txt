@@ -1,0 +1,5 @@
+"NullHandler") are actually defined in the "logging" module itself,
+but have been documented here along with the other handlers.
+StreamHandler
+=============
+The "StreamHandler" class, located in the core "logging" package,

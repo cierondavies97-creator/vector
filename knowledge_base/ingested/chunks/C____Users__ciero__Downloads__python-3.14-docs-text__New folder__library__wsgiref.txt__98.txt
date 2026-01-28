@@ -1,0 +1,4 @@
+as the "wsgi.input" of the request currently being processed.
+   get_stderr()
+      Return an object compatible with "ErrorStream" suitable for use
+      as the "wsgi.errors" of the request currently being processed.

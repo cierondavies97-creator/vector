@@ -1,0 +1,5 @@
+the value.
+generator.throw(value)
+generator.throw(type[, value[, traceback]])
+   Raises an exception at the point where the generator was paused,
+   and returns the next value yielded by the generator function.  If

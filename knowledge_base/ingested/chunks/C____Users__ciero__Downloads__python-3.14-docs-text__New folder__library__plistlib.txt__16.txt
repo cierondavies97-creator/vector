@@ -1,0 +1,5 @@
+An "OverflowError" will be raised for integer values that cannot be
+   represented in (binary) plist files.
+   Added in version 3.4.
+   Changed in version 3.13: The keyword-only parameter
+   *aware_datetime* has been added.

@@ -1,0 +1,4 @@
+"__getitem__()" method have been removed.
+**Optional in-place filtering:** if the keyword argument
+"inplace=True" is passed to "fileinput.input()" or to the "FileInput"
+constructor, the file is moved to a backup file and standard output is

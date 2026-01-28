@@ -1,0 +1,5 @@
+Decimal('3.1415')
+   >>> pi + 0 - Decimal('0.00005').   # Intermediate values are rounded
+   Decimal('3.1416')
+Q: Some decimal values always print with exponential notation.  Is
+there a way to get a non-exponential representation?

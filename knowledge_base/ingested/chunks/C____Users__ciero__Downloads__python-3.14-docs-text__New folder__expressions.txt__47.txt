@@ -1,0 +1,5 @@
+--------------------------
+A dictionary display is a possibly empty series of dict items
+(key/value pairs) enclosed in curly braces:
+   dict_display:       "{" [dict_item_list | dict_comprehension] "}"
+   dict_item_list:     dict_item ("," dict_item)* [","]

@@ -1,0 +1,4 @@
+error handler (which is probably "'strict'"), encode it to
+   "sys.stdout.encoding" with "'backslashreplace'" error handler.
+   "sys.displayhook" is called on the result of evaluating an
+   *expression* entered in an interactive Python session.  The display

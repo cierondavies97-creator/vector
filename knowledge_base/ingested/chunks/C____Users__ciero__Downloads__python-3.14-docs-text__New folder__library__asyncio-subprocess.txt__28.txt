@@ -1,0 +1,4 @@
+Note, that the data read is buffered in memory, so do not use
+      this method if the data size is large or unlimited.
+      Changed in version 3.12: *stdin* gets closed when "input=None"
+      too.

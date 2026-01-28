@@ -1,0 +1,5 @@
+This will make sure that the error does not crop up again if the
+  code is changed in the future.
+* Make sure to clean up after your tests (such as close and remove all
+  temporary files).
+* If a test is dependent on a specific condition of the operating

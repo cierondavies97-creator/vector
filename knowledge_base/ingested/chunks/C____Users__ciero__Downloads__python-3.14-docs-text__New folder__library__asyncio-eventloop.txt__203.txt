@@ -1,0 +1,5 @@
+Set the debug mode of the event loop.
+   Changed in version 3.7: The new Python Development Mode can now
+   also be used to enable the debug mode.
+loop.slow_callback_duration
+   This attribute can be used to set the minimum execution duration in

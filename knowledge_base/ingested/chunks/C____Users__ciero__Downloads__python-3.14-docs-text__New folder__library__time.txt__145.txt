@@ -1,0 +1,6 @@
+which may have  discontinuities if the time is changed using
+   "settimeofday()" or similar.
+   Availability: Linux >= 2.6.39.
+   Added in version 3.7.
+time.CLOCK_HIGHRES
+   The Solaris OS has a "CLOCK_HIGHRES" timer that attempts to use an

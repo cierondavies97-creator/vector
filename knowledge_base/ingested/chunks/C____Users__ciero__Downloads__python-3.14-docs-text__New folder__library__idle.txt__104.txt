@@ -1,0 +1,6 @@
+Set the title of the shell window.
+-
+   Read and execute standard input in the shell window. This option
+   must be the last one before any arguments.
+If arguments are provided:
+* If "-", "-c", or "-r" is used, all arguments are placed in

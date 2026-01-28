@@ -1,0 +1,4 @@
+statements.  This method corresponds to the "tp_iter" slot of the
+   type structure for Python objects in the Python/C API.
+iterator.__next__()
+   Return the next item from the *iterator*.  If there are no further

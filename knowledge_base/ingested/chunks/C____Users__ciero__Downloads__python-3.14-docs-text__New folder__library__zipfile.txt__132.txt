@@ -1,0 +1,7 @@
+ZipInfo.file_size
+   Size of the uncompressed file.
+Command-line interface
+======================
+The "zipfile" module provides a simple command-line interface to
+interact with ZIP archives.
+If you want to create a new ZIP archive, specify its name after the

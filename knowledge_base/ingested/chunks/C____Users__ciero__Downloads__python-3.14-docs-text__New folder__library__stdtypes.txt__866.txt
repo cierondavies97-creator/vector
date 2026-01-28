@@ -1,0 +1,5 @@
+>>> list[int].__origin__
+      <class 'list'>
+genericalias.__args__
+   This attribute is a "tuple" (possibly of length 1) of generic types
+   passed to the original "__class_getitem__()" of the generic class:

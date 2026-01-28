@@ -1,0 +1,7 @@
+See also:
+  mmdf man page from tin
+     A specification of MMDF format from the documentation of tin, a
+     newsreader.
+  MMDF
+     A Wikipedia article describing the Multichannel Memorandum
+     Distribution Facility.

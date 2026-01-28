@@ -1,0 +1,8 @@
+winsound.MB_ICONERROR
+   Play the "SystemHand" sound.
+   Added in version 3.14.
+winsound.MB_ICONINFORMATION
+   Play the "SystemDefault" sound.
+   Added in version 3.14.
+winsound.MB_ICONSTOP
+   Play the "SystemHand" sound.

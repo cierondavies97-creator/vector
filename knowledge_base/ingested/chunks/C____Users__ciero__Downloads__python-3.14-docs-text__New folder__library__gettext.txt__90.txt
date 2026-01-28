@@ -1,0 +1,8 @@
+are printed.
+Here is one way you can handle this situation:
+   def _(message): return message
+   animals = [_('mollusk'),
+              _('albatross'),
+              _('rat'),
+              _('penguin'),
+              _('python'), ]

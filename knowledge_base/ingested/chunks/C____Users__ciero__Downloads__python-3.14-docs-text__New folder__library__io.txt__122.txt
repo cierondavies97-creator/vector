@@ -1,0 +1,4 @@
+"RawIOBase" object under various conditions, including:
+   * when the buffer gets too small for all pending data;
+   * when "flush()" is called;
+   * when a "seek()" is requested (for "BufferedRandom" objects);

@@ -1,0 +1,6 @@
+star_named_expression[expr_ty]:
+       | '*' a=bitwise_or { _PyAST_Starred(a, Load, EXTRA) }
+       | named_expression
+   assignment_expression[expr_ty]:
+       | a=NAME ':=' ~ b=expression {
+           CHECK_VERSION(expr_ty, 8, "Assignment expressions are",

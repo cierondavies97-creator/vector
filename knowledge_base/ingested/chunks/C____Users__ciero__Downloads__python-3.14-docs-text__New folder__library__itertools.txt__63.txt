@@ -1,0 +1,5 @@
+Elements are treated as unique based on their position, not on
+   their value.  If the input elements are unique, the generated
+   combinations will also be unique.
+   Roughly equivalent to:
+      def combinations_with_replacement(iterable, r):

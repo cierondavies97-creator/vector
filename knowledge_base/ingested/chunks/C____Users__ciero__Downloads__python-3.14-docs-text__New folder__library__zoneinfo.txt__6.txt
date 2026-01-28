@@ -1,0 +1,6 @@
+>>> print(dt)
+   2020-10-31 12:00:00-07:00
+   >>> dt.tzname()
+   'PDT'
+Datetimes constructed in this way are compatible with datetime
+arithmetic and handle daylight saving time transitions with no further

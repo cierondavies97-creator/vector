@@ -1,0 +1,4 @@
+* "PYTHONPATH" (a list of directory names, with the same syntax as the
+  shell variable "PATH").
+* The installation-dependent default (by convention including a "site-
+  packages" directory, handled by the "site" module).

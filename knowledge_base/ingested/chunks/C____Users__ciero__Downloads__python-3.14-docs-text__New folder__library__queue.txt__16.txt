@@ -1,0 +1,4 @@
+doesn't guarantee that a subsequent get() will not block, nor will
+   qsize() < maxsize guarantee that put() will not block.
+Queue.empty()
+   Return "True" if the queue is empty, "False" otherwise.  If empty()

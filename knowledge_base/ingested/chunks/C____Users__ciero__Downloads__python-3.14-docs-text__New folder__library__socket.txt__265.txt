@@ -1,0 +1,4 @@
+"RuntimeWarning", and will return the part of it which is inside
+   the buffer provided it has not been truncated before the start of
+   its associated data.
+   On systems which support the "SCM_RIGHTS" mechanism, the following

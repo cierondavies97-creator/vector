@@ -1,0 +1,4 @@
+* "C"-"d" closes Shell if typed at a ">>>" prompt.
+* "Alt"-"p" and "Alt"-"n" ("C"-"p" and "C"-"n" on macOS) retrieve to
+  the current prompt the previous or next previously entered statement
+  that matches anything already typed.

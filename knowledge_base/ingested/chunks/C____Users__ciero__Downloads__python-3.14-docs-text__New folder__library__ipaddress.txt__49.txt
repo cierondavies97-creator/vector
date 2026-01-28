@@ -1,0 +1,4 @@
+For example, "fe80::1234%1" might identify address "fe80::1234"
+      on the first link of the node.
+   2. An integer that fits into 128 bits.
+   3. An integer packed into a "bytes" object of length 16, big-

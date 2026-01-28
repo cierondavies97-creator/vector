@@ -1,0 +1,4 @@
+Return a "*Translations" instance based on the *domain*,
+   *localedir*, and *languages*, which are first passed to "find()" to
+   get a list of the associated ".mo" file paths.  Instances with
+   identical ".mo" file names are cached.  The actual class

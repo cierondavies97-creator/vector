@@ -1,0 +1,6 @@
+"sys.exit()" call during the called command/function execution) no
+profiling results will be printed.
+The "Stats" Class
+=================
+Analysis of the profiler data is done using the "Stats" class.
+class pstats.Stats(*filenames or profile, stream=sys.stdout)

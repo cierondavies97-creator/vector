@@ -1,0 +1,4 @@
+mapping elements. Permitted key expressions are restricted as
+   described in the match statement documentation.
+   This pattern succeeds if the subject is a mapping, all evaluated
+   key expressions are present in the mapping, and the value

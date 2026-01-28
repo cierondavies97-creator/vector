@@ -1,0 +1,5 @@
+*Content-Transfer-Encoding* header).
+   Optional *policy* argument defaults to "compat32".
+   Changed in version 3.5: *_charset* also accepts "Charset"
+   instances.
+   Changed in version 3.6: Added *policy* keyword-only parameter.

@@ -1,0 +1,6 @@
+# Repeated hour
+               return std_time.replace(fold=1)
+           if std_time < start or dst_time >= end:
+               # Standard time
+               return std_time
+           if start <= std_time < end - HOUR:

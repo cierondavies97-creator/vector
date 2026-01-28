@@ -1,0 +1,4 @@
+"logging.getLogger('abc').getChild('def.ghi')" would return the
+      same logger as would be returned by
+      "logging.getLogger('abc.def.ghi')". This is a convenience
+      method, useful when the parent logger is named using e.g.

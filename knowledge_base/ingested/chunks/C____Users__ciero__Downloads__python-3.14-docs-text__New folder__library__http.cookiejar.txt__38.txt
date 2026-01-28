@@ -1,0 +1,5 @@
+Raises "KeyError" if no matching cookie exists.
+CookieJar.clear_session_cookies()
+   Discard all session cookies.
+   Discards all contained cookies that have a true "discard" attribute
+   (usually because they had either no "max-age" or "expires" cookie-

@@ -1,0 +1,6 @@
+typing.clear_overloads()
+   Clear all registered overloads in the internal registry.
+   This can be used to reclaim the memory used by the registry.
+   Added in version 3.11.
+@typing.final
+   Decorator to indicate final methods and final classes.

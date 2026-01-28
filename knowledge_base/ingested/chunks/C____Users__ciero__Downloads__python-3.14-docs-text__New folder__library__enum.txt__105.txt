@@ -1,0 +1,6 @@
+20
+   KEEP
+      Out-of-range values are kept, and the "Flag" membership is kept.
+      This is the default for "IntFlag":
+         >>> from enum import Flag, KEEP, auto
+         >>> class KeepFlag(Flag, boundary=KEEP):

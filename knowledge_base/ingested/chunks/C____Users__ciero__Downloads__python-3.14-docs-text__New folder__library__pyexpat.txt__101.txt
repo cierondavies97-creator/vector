@@ -1,0 +1,4 @@
+==========================
+Content models are described using nested tuples.  Each tuple contains
+four values: the type, the quantifier, the name, and a tuple of
+children.  Children are simply additional content model descriptions.

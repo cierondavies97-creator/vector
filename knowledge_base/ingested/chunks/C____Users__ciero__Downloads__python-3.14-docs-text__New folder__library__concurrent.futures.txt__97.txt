@@ -1,0 +1,4 @@
+threads waiting on the "Future" completing (i.e. through
+      "as_completed()" or "wait()") will be woken up.
+      If the method returns "True" then the "Future" was not cancelled
+      and has been put in the running state, i.e. calls to

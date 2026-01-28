@@ -1,0 +1,2 @@
+|                                                    | "None" if the function has no annotations. See     |
+|                                                    | "object.__annotate__".  Added in version 3.14.     |

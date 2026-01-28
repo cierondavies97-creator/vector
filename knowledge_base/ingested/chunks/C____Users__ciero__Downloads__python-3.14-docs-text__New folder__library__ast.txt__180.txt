@@ -1,0 +1,8 @@
+alias(name='c')],
+                  level=2)])
+Control flow
+------------
+Note:
+  Optional clauses such as "else" are stored as an empty list if
+  they're not present.
+class ast.If(test, body, orelse)

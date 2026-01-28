@@ -1,0 +1,6 @@
+get_filter()
+      Retrieve the file filter currently in use.
+   get_selection()
+      Retrieve the currently selected item.
+   go(dir_or_file=os.curdir, pattern='*', default='', key=None)
+      Render dialog and start event loop.

@@ -1,0 +1,8 @@
+* Examples
+* "array" --- Efficient arrays of numeric values
+* "weakref" --- Weak references
+  * Weak Reference Objects
+  * Example
+  * Finalizer Objects
+  * Comparing finalizers with "__del__()" methods
+* "types" --- Dynamic type creation and names for built-in types

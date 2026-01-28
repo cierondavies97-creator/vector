@@ -1,0 +1,5 @@
+Changed in version 3.8: Added support of path-like objects.
+XMLReader.getContentHandler()
+   Return the current "ContentHandler".
+XMLReader.setContentHandler(handler)
+   Set the current "ContentHandler".  If no "ContentHandler" is set,

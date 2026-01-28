@@ -1,0 +1,5 @@
+will be expanded to spaces using the "expandtabs()" method of
+      *text*.
+   tabsize
+      (default: "8") If "expand_tabs" is true, then all tab characters
+      in *text* will be expanded to zero or more spaces, depending on

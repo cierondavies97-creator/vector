@@ -1,0 +1,4 @@
+"xml.dom.minidom.Element" or "xml.dom.minidom.Text".
+Since the document is treated as a "flat" stream of events, the
+document "tree" is implicitly traversed and the desired elements are
+found regardless of their depth in the tree. In other words, one does

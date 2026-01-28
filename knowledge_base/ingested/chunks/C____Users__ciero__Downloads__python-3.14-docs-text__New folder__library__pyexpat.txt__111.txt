@@ -1,0 +1,5 @@
+A dictionary mapping numeric error codes to their string
+   descriptions.
+   Added in version 3.2.
+xml.parsers.expat.errors.XML_ERROR_ASYNC_ENTITY
+xml.parsers.expat.errors.XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF

@@ -1,0 +1,2 @@
+netrc.macros
+   Dictionary mapping macro names to string lists.

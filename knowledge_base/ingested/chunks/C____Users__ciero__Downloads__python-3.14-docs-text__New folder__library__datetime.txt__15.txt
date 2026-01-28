@@ -1,0 +1,5 @@
+"leap seconds" here.) Attributes: "hour", "minute", "second",
+   "microsecond", and "tzinfo".
+class datetime.datetime
+   A combination of a date and a time. Attributes: "year", "month",
+   "day", "hour", "minute", "second", "microsecond", and "tzinfo".

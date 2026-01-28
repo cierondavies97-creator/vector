@@ -1,0 +1,3 @@
+This function can support paths relative to directory descriptors.
+   On Windows, attempting to remove a file that is in use causes an
+   exception to be raised; on Unix, the directory entry is removed but

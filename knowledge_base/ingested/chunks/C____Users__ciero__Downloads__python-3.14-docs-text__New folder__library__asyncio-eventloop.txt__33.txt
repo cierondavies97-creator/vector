@@ -1,0 +1,4 @@
+Raises "RuntimeError" if called on a loop that's been closed. This
+   can happen on a secondary thread when the main application is
+   shutting down.
+   See the concurrency and multithreading section of the

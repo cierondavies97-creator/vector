@@ -1,0 +1,5 @@
+"flush()", the "decompress()" method cannot be called again; the
+   only realistic action is to delete the object.
+   The optional parameter *length* sets the initial size of the output
+   buffer.
+Decompress.copy()

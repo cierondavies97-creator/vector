@@ -1,0 +1,7 @@
+root certificate, and no one else will have it in their cache of known
+(and trusted) root certificates.
+Examples
+========
+Testing for SSL support
+-----------------------
+To test for the presence of SSL support in a Python installation, user

@@ -1,0 +1,6 @@
+no elements are present, raises an "IndexError".
+   remove(value)
+      Remove the first occurrence of *value*.  If not found, raises a
+      "ValueError".
+   reverse()
+      Reverse the elements of the deque in-place and then return

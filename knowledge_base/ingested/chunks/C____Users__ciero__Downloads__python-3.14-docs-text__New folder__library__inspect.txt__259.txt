@@ -1,0 +1,5 @@
+Changed in version 3.11: A list of "FrameInfo" objects is returned.
+Fetching attributes statically
+==============================
+Both "getattr()" and "hasattr()" can trigger code execution when
+fetching or checking for the existence of attributes. Descriptors,

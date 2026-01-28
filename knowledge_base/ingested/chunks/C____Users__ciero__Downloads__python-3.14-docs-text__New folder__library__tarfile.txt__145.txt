@@ -1,0 +1,4 @@
+* the string "'fully_trusted'": Honor all metadata as specified in the
+  archive. Should be used if the user trusts the archive completely,
+  or implements their own complex verification.
+* the string "'tar'": Honor most *tar*-specific features (i.e.

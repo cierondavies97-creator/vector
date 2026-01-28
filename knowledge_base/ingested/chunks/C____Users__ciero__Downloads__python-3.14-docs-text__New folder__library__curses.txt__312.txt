@@ -1,0 +1,3 @@
+| Mouse button constant              | Meaning                                       |
+|====================================|===============================================|
+| curses.BUTTONn_PRESSED             | Mouse button *n* pressed                      |

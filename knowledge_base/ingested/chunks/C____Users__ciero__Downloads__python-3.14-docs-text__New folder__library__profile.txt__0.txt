@@ -1,0 +1,6 @@
+The Python Profilers
+********************
+**Source code:** Lib/profile.py and Lib/pstats.py
+======================================================================
+Introduction to the profilers
+=============================

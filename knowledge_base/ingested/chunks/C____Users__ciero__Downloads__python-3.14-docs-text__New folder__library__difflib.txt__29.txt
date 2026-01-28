@@ -1,0 +1,3 @@
+Context diffs are a compact way of showing just the lines that have
+   changed plus a few lines of context.  The changes are shown in a
+   before/after style.  The number of context lines is set by *n*

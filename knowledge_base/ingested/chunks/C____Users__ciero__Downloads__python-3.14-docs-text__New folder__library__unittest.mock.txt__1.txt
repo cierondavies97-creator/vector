@@ -1,0 +1,4 @@
+"unittest.mock" is a library for testing in Python. It allows you to
+replace parts of your system under test with mock objects and make
+assertions about how they have been used.
+"unittest.mock" provides a core "Mock" class removing the need to

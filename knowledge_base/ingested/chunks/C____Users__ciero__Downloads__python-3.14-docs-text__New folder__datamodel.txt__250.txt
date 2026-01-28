@@ -1,0 +1,2 @@
+| codeobject.co_names                                | A "tuple" containing the names used by the         |
+|                                                    | *bytecode* in the function                         |

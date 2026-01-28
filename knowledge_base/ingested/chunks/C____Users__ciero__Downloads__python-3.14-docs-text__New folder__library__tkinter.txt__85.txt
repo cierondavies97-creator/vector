@@ -1,0 +1,4 @@
+comes from a thread other than the one that created the "Tk" object,
+an event is posted to the interpreter's event queue, and when
+executed, the result is returned to the calling Python thread.
+Tcl/Tk applications are normally event-driven, meaning that after

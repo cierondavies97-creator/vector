@@ -1,0 +1,5 @@
+use that kind of pattern, the class needs to define a *__match_args__*
+attribute.
+object.__match_args__
+   This class variable can be assigned a tuple of strings. When this
+   class is used in a class pattern with positional arguments, each

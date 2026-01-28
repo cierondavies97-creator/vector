@@ -1,0 +1,9 @@
+>>> mock = Mock()
+>>> mock.method.return_value = 3
+>>> mock.method()
+3
+The return value can also be set in the constructor:
+>>> mock = Mock(return_value=3)
+>>> mock()
+3
+If you need an attribute setting on your mock, just do it:

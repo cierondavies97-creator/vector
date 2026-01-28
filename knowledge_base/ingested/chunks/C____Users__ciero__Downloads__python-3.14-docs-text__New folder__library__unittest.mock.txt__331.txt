@@ -1,0 +1,4 @@
+two-tuples of (positional args, keyword args) whereas the "call"
+objects in "Mock.mock_calls", along with ones you construct yourself,
+are three-tuples of (name, positional args, keyword args).
+You can use their "tupleness" to pull out the individual arguments for

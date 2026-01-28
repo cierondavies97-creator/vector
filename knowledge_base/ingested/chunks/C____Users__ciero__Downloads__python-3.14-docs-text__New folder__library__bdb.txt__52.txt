@@ -1,0 +1,5 @@
+get_all_breaks()
+      Return all breakpoints that are set.
+   Derived classes and clients can call the following methods to
+   disable and restart events to achieve better performance. These
+   methods only work when using the "'monitoring'" backend.

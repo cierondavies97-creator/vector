@@ -1,0 +1,4 @@
+and you can also poke around your option parser and see what's there.
+OptionParser provides several methods to help you out:
+OptionParser.disable_interspersed_args()
+   Set parsing to stop on the first non-option.  For example, if "-a"

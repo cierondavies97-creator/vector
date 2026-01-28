@@ -1,0 +1,4 @@
+* bare "-" (if not the argument to some option): halt command-line
+  processing but keep the "-" (append it to "parser.largs")
+If you want an option that takes a variable number of arguments, there
+are several subtle, tricky issues to worry about.  The exact

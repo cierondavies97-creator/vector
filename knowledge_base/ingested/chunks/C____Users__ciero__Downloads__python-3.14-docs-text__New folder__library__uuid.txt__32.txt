@@ -1,0 +1,5 @@
+"RESERVED_MICROSOFT", or "RESERVED_FUTURE".
+UUID.version
+   The UUID version number (1 through 8, meaningful only when the
+   variant is "RFC_4122").
+   Changed in version 3.14: Added UUID versions 6, 7 and 8.

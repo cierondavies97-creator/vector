@@ -1,0 +1,4 @@
+under the package name as a file path, and if any subdirectories
+      are package directories, all of these are added recursively in
+      sorted order.
+      *basename* is intended for internal use only.

@@ -1,0 +1,5 @@
+attribute lookup are pushed.
+   Changed in version 3.12: If the low bit of "namei" is set, then a
+   "NULL" or "self" is pushed to the stack before the attribute or
+   unbound method respectively.
+LOAD_SUPER_ATTR(namei)

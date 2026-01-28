@@ -1,0 +1,4 @@
+call fails. If *iid* is specified, a "COMError" is raised instead.
+   COM methods use a special calling convention: They require a
+   pointer to the COM interface as first argument, in addition to
+   those parameters that are specified in the "argtypes" tuple.

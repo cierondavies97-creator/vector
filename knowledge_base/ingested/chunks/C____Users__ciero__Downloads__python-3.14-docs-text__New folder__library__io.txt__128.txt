@@ -1,0 +1,4 @@
+"BufferedRandom" is capable of anything "BufferedReader" or
+   "BufferedWriter" can do.  In addition, "seek()" and "tell()" are
+   guaranteed to be implemented.
+class io.BufferedRWPair(reader, writer, buffer_size=DEFAULT_BUFFER_SIZE, /)

@@ -1,0 +1,4 @@
+DEFAULTSECT).  However, this method can also be invoked with
+  arguments: "parser.items(section, raw, vars)".  The latter call
+  returns a list of *option*, *value* pairs for a specified "section",
+  with all interpolations expanded (unless "raw=True" is provided).

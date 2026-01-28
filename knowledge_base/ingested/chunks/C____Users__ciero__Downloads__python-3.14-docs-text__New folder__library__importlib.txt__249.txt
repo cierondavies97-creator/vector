@@ -1,0 +1,5 @@
+path = None
+       if '.' in absolute_name:
+           parent_name, _, child_name = absolute_name.rpartition('.')
+           parent_module = import_module(parent_name)
+           path = parent_module.__spec__.submodule_search_locations

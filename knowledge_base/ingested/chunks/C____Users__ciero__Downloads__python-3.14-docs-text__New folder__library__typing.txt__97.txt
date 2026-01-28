@@ -1,0 +1,4 @@
+checker did not report an error when assigning "a" to "s" even though
+"s" was declared to be of type "str" and receives an "int" value at
+runtime!
+Furthermore, all functions without a return type or parameter types

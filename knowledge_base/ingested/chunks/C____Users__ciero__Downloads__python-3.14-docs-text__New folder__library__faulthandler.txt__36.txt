@@ -1,0 +1,3 @@
+Binary file "/opt/python/python", at _PyObject_MakeTpCall+0xce [0x5b27f7b73883]
+     Binary file "/opt/python/python", at +0x11bab6 [0x5b27f7b73ab6]
+     Binary file "/opt/python/python", at PyObject_Vectorcall+0x23 [0x5b27f7b73b04]

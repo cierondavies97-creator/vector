@@ -1,0 +1,5 @@
+'fallback'
+unicodedata.decimal(chr, default=None, /)
+   Returns the decimal value assigned to the character *chr* as
+   integer. If no such value is defined, *default* is returned, or, if
+   not given, "ValueError" is raised. For example:

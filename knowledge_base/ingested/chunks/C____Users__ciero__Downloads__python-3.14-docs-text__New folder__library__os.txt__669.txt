@@ -1,0 +1,4 @@
+signal that killed the process.  On Windows, the process id will
+   actually be the process handle, so can be used with the "waitpid()"
+   function.
+   Note on VxWorks, this function doesn't return "-signal" when the

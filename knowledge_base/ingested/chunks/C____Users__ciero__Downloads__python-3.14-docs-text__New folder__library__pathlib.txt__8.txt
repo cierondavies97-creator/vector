@@ -1,0 +1,5 @@
+PosixPath('__pycache__'), PosixPath('build')]
+Listing Python source files in this directory tree:
+   >>> list(p.glob('**/*.py'))
+   [PosixPath('test_pathlib.py'), PosixPath('setup.py'),
+    PosixPath('pathlib.py'), PosixPath('docs/conf.py'),

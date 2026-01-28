@@ -1,0 +1,7 @@
+the "spam" module:
+   >>> import spam
+   >>> spam.foo
+   <module 'spam.foo' from '/tmp/imports/spam/foo.py'>
+   >>> spam.Foo
+   <class 'spam.foo.Foo'>
+Given Python's familiar name binding rules this might seem surprising,

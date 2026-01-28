@@ -1,0 +1,8 @@
+""count""
+      increment a counter by one
+   ""callback""
+      call a specified function
+   ""help""
+      print a usage message including all options and the
+      documentation for them
+   (If you don't supply an action, the default is ""store"".  For this

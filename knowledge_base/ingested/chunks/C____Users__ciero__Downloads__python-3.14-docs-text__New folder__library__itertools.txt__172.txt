@@ -1,0 +1,5 @@
+seq_index = getattr(iterable, 'index', None)
+       if seq_index is None:
+           iterator = islice(iterable, start, stop)
+           for i, element in enumerate(iterator, start):
+               if element is value or element == value:

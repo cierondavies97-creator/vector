@@ -1,0 +1,4 @@
+the mapping.  This may be most useful to associate additional
+information with a reference, but could also be used to insert
+additional processing on calls to retrieve the referent.
+This example shows how a subclass of "ref" can be used to store

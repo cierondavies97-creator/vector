@@ -1,0 +1,4 @@
+should define it if they want to catch all URLs.
+   This method, if implemented, will be called by the parent
+   "OpenerDirector".  It should return a file-like object as described
+   in the return value of the "open()" method of "OpenerDirector", or

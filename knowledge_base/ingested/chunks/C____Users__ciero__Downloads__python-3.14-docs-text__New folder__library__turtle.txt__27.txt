@@ -1,0 +1,7 @@
+instead.)
+Use turtle graphics in a script
+-------------------------------
+It's recommended to use the "turtle" module namespace as described
+immediately above, for example:
+   import turtle as t
+   from random import random

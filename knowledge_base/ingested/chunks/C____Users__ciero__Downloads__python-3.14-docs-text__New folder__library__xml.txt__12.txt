@@ -1,0 +1,5 @@
+entities.
+decompression bomb
+   Decompression bombs (aka ZIP bomb) apply to all XML libraries that
+   can parse compressed XML streams such as gzipped HTTP streams or
+   LZMA-compressed files. For an attacker it can reduce the amount of

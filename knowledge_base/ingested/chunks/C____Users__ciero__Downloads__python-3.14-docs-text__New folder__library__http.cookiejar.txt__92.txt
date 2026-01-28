@@ -1,0 +1,3 @@
+"Cookie" instances have Python attributes roughly corresponding to the
+standard cookie-attributes specified in the various cookie standards.
+The correspondence is not one-to-one, because there are complicated

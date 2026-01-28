@@ -1,0 +1,3 @@
+(if it is not disabled); *b2j* is a dict mapping the remaining
+   elements of *b* to a list of positions where they occur. All three
+   are reset whenever *b* is reset with "set_seqs()" or "set_seq2()".

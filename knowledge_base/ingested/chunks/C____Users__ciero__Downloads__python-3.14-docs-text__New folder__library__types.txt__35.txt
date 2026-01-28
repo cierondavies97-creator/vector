@@ -1,0 +1,6 @@
+>>> list[int] == GenericAlias(list, (int,))
+      True
+      >>> dict[str, int] == GenericAlias(dict, (str, int))
+      True
+   Added in version 3.9.
+   Changed in version 3.9.2: This type can now be subclassed.

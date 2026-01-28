@@ -1,0 +1,5 @@
+should iterate through the object's keys; for sequences, it should
+iterate through the values.
+object.__len__(self)
+   Called to implement the built-in function "len()".  Should return
+   the length of the object, an integer ">=" 0.  Also, an object that

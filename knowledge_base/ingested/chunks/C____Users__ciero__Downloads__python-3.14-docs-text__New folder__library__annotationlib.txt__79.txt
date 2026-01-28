@@ -1,0 +1,4 @@
+A metaclass may want to inspect or even modify the annotations in a
+class body during class creation. Doing so requires retrieving
+annotations from the class namespace dictionary. For classes created
+with "from __future__ import annotations", the annotations will be in

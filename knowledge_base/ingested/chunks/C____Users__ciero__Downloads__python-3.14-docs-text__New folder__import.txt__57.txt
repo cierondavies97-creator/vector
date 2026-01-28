@@ -1,0 +1,4 @@
+knows how to import built-in modules, one that knows how to import
+frozen modules, and one that knows how to import modules from an
+*import path* (i.e. the *path based finder*).
+Changed in version 3.4: The "find_spec()" method of meta path finders

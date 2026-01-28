@@ -1,0 +1,5 @@
+process is killed if it is still running.
+Note:
+  It is the application's responsibility to ensure that all whitespace
+  and special characters are quoted appropriately to avoid shell
+  injection vulnerabilities. The "shlex.quote()" function can be used

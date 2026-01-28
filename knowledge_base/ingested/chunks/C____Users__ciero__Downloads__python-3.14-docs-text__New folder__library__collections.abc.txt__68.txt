@@ -1,0 +1,3 @@
+"ByteString" never actually told you anything useful about the
+   object. Other common buffer types such as "memoryview" were also
+   never understood as subtypes of "ByteString" (either at runtime or

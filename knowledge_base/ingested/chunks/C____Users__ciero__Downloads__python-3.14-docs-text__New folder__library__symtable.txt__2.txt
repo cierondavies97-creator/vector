@@ -1,0 +1,5 @@
+Generating Symbol Tables
+========================
+symtable.symtable(code, filename, compile_type)
+   Return the toplevel "SymbolTable" for the Python source *code*.
+   *filename* is the name of the file containing the code.

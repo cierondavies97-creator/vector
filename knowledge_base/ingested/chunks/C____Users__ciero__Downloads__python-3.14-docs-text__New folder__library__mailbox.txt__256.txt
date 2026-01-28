@@ -1,0 +1,4 @@
++---------------------+-------------------------------+
+| A flag              | "answered" label              |
++---------------------+-------------------------------+
+When an "MMDFMessage" instance is created based upon an "mboxMessage"

@@ -1,0 +1,4 @@
+sample mean gives an unbiased estimate of the true population
+     mean, so that when taken on average over all the possible
+     samples, "mean(sample)" converges on the true mean of the entire
+     population.  If *data* represents the entire population rather

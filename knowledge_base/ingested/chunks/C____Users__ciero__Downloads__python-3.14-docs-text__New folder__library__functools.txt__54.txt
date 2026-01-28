@@ -1,0 +1,6 @@
+Added in version 3.2.
+   Changed in version 3.4: Returning "NotImplemented" from the
+   underlying comparison function for unrecognised types is now
+   supported.
+functools.Placeholder
+   A singleton object used as a sentinel to reserve a place for

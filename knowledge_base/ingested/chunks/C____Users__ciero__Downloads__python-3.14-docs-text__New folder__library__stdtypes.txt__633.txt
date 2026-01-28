@@ -1,0 +1,4 @@
+to make a sequence of length *width*. A leading sign prefix
+   ("b'+'"/ "b'-'") is handled by inserting the padding *after* the
+   sign character rather than before. For "bytes" objects, the
+   original sequence is returned if *width* is less than or equal to

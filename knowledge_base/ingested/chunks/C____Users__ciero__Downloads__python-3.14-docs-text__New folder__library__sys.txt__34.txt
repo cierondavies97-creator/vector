@@ -1,0 +1,5 @@
+only.
+   Raises an auditing event "sys._current_frames" with no arguments.
+sys._current_exceptions()
+   Return a dictionary mapping each thread's identifier to the topmost
+   exception currently active in that thread at the time the function

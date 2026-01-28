@@ -1,0 +1,5 @@
+which is sometimes useful when dealing with different encoding
+environments.
+The design is such that one can use the factory functions returned by
+the "lookup()" function to construct the instance.
+class codecs.StreamRecoder(stream, encode, decode, Reader, Writer, errors='strict')

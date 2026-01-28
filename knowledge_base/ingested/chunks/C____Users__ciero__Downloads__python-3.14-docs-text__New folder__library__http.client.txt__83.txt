@@ -1,0 +1,10 @@
+>>> conn.request("HEAD", "/")
+   >>> res = conn.getresponse()
+   >>> print(res.status, res.reason)
+   200 OK
+   >>> data = res.read()
+   >>> print(len(data))
+   0
+   >>> data == b''
+   True
+Here is an example session that uses the "POST" method:

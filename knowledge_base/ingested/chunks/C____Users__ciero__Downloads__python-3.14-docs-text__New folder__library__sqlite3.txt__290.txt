@@ -1,0 +1,5 @@
+First, we'll define a converter function that accepts the string as a
+parameter and constructs a "Point" object from it.
+Note:
+  Converter functions are **always** passed a "bytes" object, no
+  matter the underlying SQLite data type.

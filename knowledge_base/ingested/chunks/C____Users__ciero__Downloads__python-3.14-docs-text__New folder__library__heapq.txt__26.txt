@@ -1,0 +1,4 @@
+element in *iterable* (for example, "key=str.lower").  Equivalent
+   to:  "sorted(iterable, key=key, reverse=True)[:n]".
+heapq.nsmallest(n, iterable, key=None)
+   Return a list with the *n* smallest elements from the dataset

@@ -1,0 +1,5 @@
+Get the current coroutine origin tracking depth, as set by
+   "set_coroutine_origin_tracking_depth()".
+   Added in version 3.7.
+   Note:
+     This function has been added on a provisional basis (see **PEP

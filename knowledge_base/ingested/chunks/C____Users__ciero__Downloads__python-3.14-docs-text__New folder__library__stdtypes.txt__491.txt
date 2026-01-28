@@ -1,0 +1,4 @@
+This is done deliberately to emphasise that while many binary
+   formats include ASCII based elements and can be usefully
+   manipulated with some text-oriented algorithms, this is not
+   generally the case for arbitrary binary data (blindly applying text

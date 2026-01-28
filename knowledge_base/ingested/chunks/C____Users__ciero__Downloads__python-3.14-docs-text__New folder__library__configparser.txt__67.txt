@@ -1,0 +1,4 @@
+very likely that you will want to customize some of the features.
+The most common way to change the way a specific config parser works
+is to use the "__init__()" options:
+* *defaults*, default value: "None"

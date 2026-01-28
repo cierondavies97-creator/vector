@@ -1,0 +1,3 @@
+reliably detecting KDE would be nice; the "KDEDIR" variable is not
+   sufficient.  Note also that the name "kfm" is used even when using
+   the **konqueror** command with KDE 2 --- the implementation selects

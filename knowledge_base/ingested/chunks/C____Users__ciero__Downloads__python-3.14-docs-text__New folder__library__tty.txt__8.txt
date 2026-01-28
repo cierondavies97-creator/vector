@@ -1,0 +1,4 @@
+setting the minimum input to 1 byte with no delay.
+   Changed in version 3.12: The return value is now the original tty
+   attributes, instead of "None".
+   Changed in version 3.12.2: The "ICRNL" flag is no longer cleared.

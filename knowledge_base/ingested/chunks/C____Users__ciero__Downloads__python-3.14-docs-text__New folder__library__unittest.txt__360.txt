@@ -1,0 +1,3 @@
+"TextTestRunner". This method takes a "TestSuite" or "TestCase"
+      instance. A "TestResult" is created by calling "_makeResult()"
+      and the test(s) are run and the results printed to stdout.

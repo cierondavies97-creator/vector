@@ -1,0 +1,6 @@
+all implementations of Python.
+sys.is_finalizing()
+   Return "True" if the main Python interpreter is *shutting down*.
+   Return "False" otherwise.
+   See also the "PythonFinalizationError" exception.
+   Added in version 3.5.

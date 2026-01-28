@@ -1,0 +1,3 @@
+statistics for identical functions will be coalesced, so that an
+   overall view of several processes can be considered in a single
+   report.  If additional files need to be combined with data in an

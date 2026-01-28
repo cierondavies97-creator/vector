@@ -1,0 +1,4 @@
+by extending the embedded interpreter.  That is, the embedded
+interpreter gets extended with routines provided by the application.
+While it sounds complex, it is not so bad.  Simply forget for a while
+that the application starts the Python interpreter.  Instead, consider

@@ -1,0 +1,5 @@
+comparing with "call_args", "call_args_list", "mock_calls" and
+   "method_calls". "call()" can also be used with
+   "assert_has_calls()".
+   >>> m = MagicMock(return_value=None)
+   >>> m(1, 2, a='foo', b='bar')

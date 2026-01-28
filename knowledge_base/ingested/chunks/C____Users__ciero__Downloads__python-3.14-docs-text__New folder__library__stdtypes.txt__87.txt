@@ -1,0 +1,6 @@
+Added in version 3.12.
+Additional Methods on Float
+---------------------------
+The float type implements the "numbers.Real" *abstract base class*.
+float also has the following additional methods.
+classmethod float.from_number(x)

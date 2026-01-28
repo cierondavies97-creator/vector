@@ -1,0 +1,5 @@
+>>> mock('some', 'thing', 'else')
+      >>> mock.assert_any_call(1, 2, arg='thing')
+   assert_has_calls(calls, any_order=False)
+      assert the mock has been called with the specified calls. The
+      "mock_calls" list is checked for the calls.

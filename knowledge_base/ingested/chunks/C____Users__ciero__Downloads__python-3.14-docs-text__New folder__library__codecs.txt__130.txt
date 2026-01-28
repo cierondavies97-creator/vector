@@ -1,0 +1,4 @@
+only return the first line, if there are decoding errors on
+      later lines.
+      The method should use a greedy read strategy meaning that it
+      should read as much data as is allowed within the definition of

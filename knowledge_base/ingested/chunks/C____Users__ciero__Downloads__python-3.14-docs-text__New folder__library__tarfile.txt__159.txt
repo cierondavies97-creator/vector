@@ -1,0 +1,5 @@
+* Refuse to extract device files (including pipes). This raises
+     "SpecialFileError".
+   * For regular files, including hard links:
+     * Set the owner read and write permissions ("S_IRUSR" |
+       "S_IWUSR").

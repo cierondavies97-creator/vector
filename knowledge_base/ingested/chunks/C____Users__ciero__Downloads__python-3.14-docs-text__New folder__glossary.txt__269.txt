@@ -1,0 +1,5 @@
+opened in text mode ("'r'" or "'w'"), "sys.stdin", "sys.stdout",
+   and instances of "io.StringIO".
+   See also *binary file* for a file object able to read and write
+   *bytes-like objects*.
+thread state

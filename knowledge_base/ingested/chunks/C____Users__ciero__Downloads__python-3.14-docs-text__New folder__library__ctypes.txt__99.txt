@@ -1,0 +1,5 @@
+The argument types can be specified using "argtypes":
+   >>> libc.time.argtypes = (POINTER(c_time_t),)
+To call the function with a "NULL" pointer as first argument, use
+"None":
+   >>> print(libc.time(None))

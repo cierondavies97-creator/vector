@@ -1,0 +1,4 @@
+#   Match e1 or e2.
+   #   The first alternative can also appear on the line after the rule name for
+   #   formatting purposes. In that case, a | must be used before the first
+   #   alternative, like so:

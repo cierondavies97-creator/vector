@@ -1,0 +1,7 @@
+between the code above and the prompt below down to a 'Squeezed
+   text' label.
+Editing and Navigation
+======================
+Editor windows
+--------------
+IDLE may open editor windows when it starts, depending on settings and

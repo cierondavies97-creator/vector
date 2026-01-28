@@ -1,0 +1,3 @@
+of each worker process; *initargs* is a tuple of arguments passed
+   to the initializer.  Should *initializer* raise an exception, all
+   currently pending jobs will raise a "BrokenProcessPool", as well as

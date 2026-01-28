@@ -1,0 +1,3 @@
+or as strings representing RGB values in 4 bit: ""#RGB"", 8 bit:
+   ""#RRGGBB"", 12 bit: ""#RRRGGGBBB"", or 16 bit: ""#RRRRGGGGBBBB""
+   ranges, where R,G,B here represent any legal hex digit.  See page

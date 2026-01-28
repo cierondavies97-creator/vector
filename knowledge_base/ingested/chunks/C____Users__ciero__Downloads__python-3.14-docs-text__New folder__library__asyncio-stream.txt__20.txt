@@ -1,0 +1,5 @@
+*path-like object*.
+   Changed in version 3.10: Removed the *loop* parameter.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*
+   parameter.
+   Changed in version 3.13: Added the *cleanup_socket* parameter.

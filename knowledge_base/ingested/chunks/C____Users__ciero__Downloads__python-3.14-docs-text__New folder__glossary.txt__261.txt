@@ -1,0 +1,4 @@
+created and released with "Py_DECREF()" when the reference is
+   deleted.
+   The "Py_NewRef()" function can be used to create a strong reference
+   to an object. Usually, the "Py_DECREF()" function must be called on

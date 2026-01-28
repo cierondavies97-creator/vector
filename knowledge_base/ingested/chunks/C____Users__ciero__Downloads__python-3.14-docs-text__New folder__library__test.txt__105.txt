@@ -1,0 +1,4 @@
+test.support.linked_to_musl()
+   Return "False" if there is no evidence the interpreter was compiled
+   with "musl", otherwise return a version triple, either "(0, 0, 0)"
+   if the version is unknown, or the actual version if it is known.

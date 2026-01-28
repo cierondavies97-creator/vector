@@ -1,0 +1,4 @@
+computer, and returns a handle object.
+   *computer_name* is the name of the remote computer, of the form
+   "r"\\computername"".  If "None", the local computer is used.
+   *key* is the predefined handle to connect to.

@@ -1,0 +1,4 @@
+denied.  This function can be overridden to implement access
+      controls for a server. The default implementation always returns
+      "True".
+   Changed in version 3.6: Support for the *context manager* protocol

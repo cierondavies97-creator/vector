@@ -1,0 +1,6 @@
+parameter.
+Watching file descriptors
+-------------------------
+loop.add_reader(fd, callback, *args)
+   Start monitoring the *fd* file descriptor for read availability and
+   invoke *callback* with the specified arguments once *fd* is

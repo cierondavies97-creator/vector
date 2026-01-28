@@ -1,0 +1,6 @@
+represents a printable character.
+msvcrt.getwche()
+   Wide char variant of "getche()", returning a Unicode value.
+msvcrt.putch(char)
+   Print the byte string *char* to the console without buffering.
+msvcrt.putwch(unicode_char)

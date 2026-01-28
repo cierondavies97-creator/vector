@@ -1,0 +1,2 @@
+| **D** "delattr()"         | "hex()"  **I** "id()"   | "property()"            | **_** "__import__()"      |
+| "dict()" "dir()"          | "input()" "int()"       |                         |                           |

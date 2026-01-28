@@ -1,0 +1,5 @@
+AnnAssign(
+                  target=Name(id='c', ctx=Store()),
+                  annotation=Name(id='int', ctx=Load()),
+                  simple=1)])
+      >>> print(ast.dump(ast.parse('(a): int = 1'), indent=4)) # Annotation with parenthesis

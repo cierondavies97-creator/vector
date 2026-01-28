@@ -1,0 +1,6 @@
+not. A string created by composing "LiteralString"-typed objects is
+   also acceptable as a "LiteralString".
+   Example:
+      def run_query(sql: LiteralString) -> None:
+          ...
+      def caller(arbitrary_string: str, literal_string: LiteralString) -> None:

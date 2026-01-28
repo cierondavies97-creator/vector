@@ -1,0 +1,4 @@
+raised. If "UNNAMED_SECTION" is passed and support is disabled,
+      "UnnamedSectionDisabledError" is raised.
+      Type of *section* is not checked which lets users create non-
+      string named sections.  This behaviour is unsupported and may

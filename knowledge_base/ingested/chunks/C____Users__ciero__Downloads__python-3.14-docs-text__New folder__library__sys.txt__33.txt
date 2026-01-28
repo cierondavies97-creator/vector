@@ -1,0 +1,4 @@
+returned for a non-deadlocked thread may bear no relationship to
+   that thread's current activity by the time calling code examines
+   the frame.
+   This function should be used for internal and specialized purposes

@@ -1,0 +1,4 @@
+class importlib.machinery.SourceFileLoader(fullname, path)
+   A concrete implementation of "importlib.abc.SourceLoader" by
+   subclassing "importlib.abc.FileLoader" and providing some concrete
+   implementations of other methods.

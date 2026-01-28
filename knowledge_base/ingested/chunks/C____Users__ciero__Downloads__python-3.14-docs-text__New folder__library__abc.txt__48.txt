@@ -1,0 +1,3 @@
+A function to recalculate an abstract class's abstraction status.
+   This function should be called if a class's abstract methods have
+   been implemented or changed after it was created. Usually, this

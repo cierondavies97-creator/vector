@@ -1,0 +1,6 @@
+print(mm.readline())  # prints b"Hello  world!\n"
+          # close the map
+          mm.close()
+   "mmap" can also be used as a context manager in a "with" statement:
+      import mmap
+      with mmap.mmap(-1, 13) as mm:

@@ -1,0 +1,4 @@
+other characters, for example the non-breaking spaces mandated
+      by typography rules in many languages.
+      Matches "[ \t\n\r\f\v]" if the "ASCII" flag is used.
+   For 8-bit (bytes) patterns:

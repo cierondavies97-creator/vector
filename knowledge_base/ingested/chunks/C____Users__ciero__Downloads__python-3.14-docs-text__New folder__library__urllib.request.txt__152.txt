@@ -1,0 +1,5 @@
+will be searched if the given *realm* has no matching
+   user/password.
+HTTPPasswordMgrWithPriorAuth Objects
+====================================
+This password manager extends "HTTPPasswordMgrWithDefaultRealm" to

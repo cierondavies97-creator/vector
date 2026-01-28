@@ -1,0 +1,5 @@
+The lock is initially unlocked.
+_thread.get_ident()
+   Return the 'thread identifier' of the current thread.  This is a
+   nonzero integer.  Its value has no direct meaning; it is intended
+   as a magic cookie to be used e.g. to index a dictionary of thread-

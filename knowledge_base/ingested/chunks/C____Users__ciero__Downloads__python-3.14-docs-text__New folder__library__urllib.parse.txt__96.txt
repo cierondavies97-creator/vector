@@ -1,0 +1,4 @@
+(for "decode()" methods).
+Applications that need to operate on potentially improperly quoted
+URLs that may contain non-ASCII data will need to do their own
+decoding from bytes to characters before invoking the URL parsing

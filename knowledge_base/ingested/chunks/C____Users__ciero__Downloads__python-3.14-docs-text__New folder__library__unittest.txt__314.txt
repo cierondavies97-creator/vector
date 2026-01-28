@@ -1,0 +1,4 @@
+"load_tests" regardless of whether their path matches *pattern*,
+      because it is impossible for a package name to match the default
+      pattern.
+      Changed in version 3.11: *start_dir* can not be a *namespace

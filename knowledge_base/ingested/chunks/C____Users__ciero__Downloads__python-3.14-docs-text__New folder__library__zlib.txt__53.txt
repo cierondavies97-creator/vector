@@ -1,0 +1,6 @@
+The deflate compression method.
+zlib.MAX_WBITS
+   The maximum window size, expressed as a power of 2. For example, if
+   "MAX_WBITS" is "15" it results in a window size of "32 KiB".
+zlib.DEF_MEM_LEVEL
+   The default memory level for compression objects.

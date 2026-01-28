@@ -1,0 +1,4 @@
+inherit all of the parents inheritable handles on Windows.
+Changed in version 3.8: On macOS, the *spawn* start method is now the
+default.  The *fork* start method should be considered unsafe as it
+can lead to crashes of the subprocess as macOS system libraries may

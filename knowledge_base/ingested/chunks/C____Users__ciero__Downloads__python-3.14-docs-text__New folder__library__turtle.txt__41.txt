@@ -1,0 +1,9 @@
+"isvisible()"
+   Appearance
+         "shape()"
+         "resizemode()"
+         "shapesize()" | "turtlesize()"
+         "shearfactor()"
+         "tiltangle()"
+         "tilt()"
+         "shapetransform()"

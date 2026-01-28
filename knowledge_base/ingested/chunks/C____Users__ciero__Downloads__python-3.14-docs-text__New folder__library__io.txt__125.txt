@@ -1,0 +1,4 @@
+write(b, /)
+      Write the *bytes-like object*, *b*, and return the number of
+      bytes written.  When in non-blocking mode, a "BlockingIOError"
+      with "BlockingIOError.characters_written" set is raised if the

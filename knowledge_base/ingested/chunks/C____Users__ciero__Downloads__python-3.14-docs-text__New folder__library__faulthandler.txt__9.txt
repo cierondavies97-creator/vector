@@ -1,0 +1,7 @@
+See also:
+     "traceback.print_tb()", which can be used to print a traceback
+     object.
+   Changed in version 3.5: Added support for passing file descriptor
+   to this function.
+Dumping the C stack
+===================

@@ -1,0 +1,5 @@
+else:
+               sys.stderr.write('Installing %s ...%s' % (name, term))
+               sys.stderr.flush()
+           # Install in the virtual environment
+           args = [context.env_exe, fn]

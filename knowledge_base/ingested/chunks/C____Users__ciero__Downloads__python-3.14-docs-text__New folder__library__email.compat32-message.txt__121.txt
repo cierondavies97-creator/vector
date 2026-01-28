@@ -1,0 +1,4 @@
+contain subparts. "is_multipart()" returns "True" and "walk"
+      descends into the subparts.
+   "Message" objects can also optionally contain two instance
+   attributes, which can be used when generating the plain text of a

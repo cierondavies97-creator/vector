@@ -1,0 +1,6 @@
+Return the tangent of *z*.
+Hyperbolic functions
+====================
+cmath.acosh(z)
+   Return the inverse hyperbolic cosine of *z*. There is one branch
+   cut, extending left from 1 along the real axis to -∞.

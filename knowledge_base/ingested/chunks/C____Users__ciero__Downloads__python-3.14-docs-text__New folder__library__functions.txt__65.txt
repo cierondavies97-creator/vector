@@ -1,0 +1,4 @@
+complexvalue: floatvalue |
+                    floatvalue ("j" | "J") |
+                    floatvalue sign absfloatvalue ("j" | "J")
+   If the argument is a number, the constructor serves as a numeric

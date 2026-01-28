@@ -1,0 +1,5 @@
+# chain('ABC', 'DEF') → A B C D E F
+          for iterable in iterables:
+              yield from iterable
+classmethod chain.from_iterable(iterable)
+   Alternate constructor for "chain()".  Gets chained inputs from a

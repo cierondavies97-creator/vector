@@ -1,0 +1,6 @@
+asyncio.create_task(bug())
+   asyncio.run(main())
+Output:
+   Task exception was never retrieved
+   future: <Task finished coro=<bug() done, defined at test.py:3>
+     exception=Exception('not consumed')>

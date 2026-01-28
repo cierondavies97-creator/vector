@@ -1,0 +1,3 @@
+environment variable to locate the program *file*.  When the
+   environment is being replaced (using one of the "spawn*e" variants,
+   discussed in the next paragraph), the new environment is used as

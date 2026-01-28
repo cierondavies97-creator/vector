@@ -1,0 +1,7 @@
+>>> turtle.shape("turtle")
+      >>> turtle.shape()
+      'turtle'
+turtle.resizemode(rmode=None)
+   Parameters:
+      **rmode** -- one of the strings "auto", "user", "noresize"
+   Set resizemode to one of the values: "auto", "user", "noresize".

@@ -1,0 +1,5 @@
+Token value indicating that a "type: ignore" comment was
+   recognized. Such tokens are produced instead of regular "COMMENT"
+   tokens only with the "PyCF_TYPE_COMMENTS" flag.
+token.TYPE_COMMENT
+   Token value indicating that a type comment was recognized. Such

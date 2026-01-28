@@ -1,0 +1,4 @@
+accessed through the new children attribute.  Each has a new parent
+attribute.
+The descriptors returned by these functions are instances of Function
+and Class classes.  Users are not expected to create instances of

@@ -1,0 +1,5 @@
+dst_diff = DSTDIFF // SECOND
+           # Detect fold
+           fold = (args == _time.localtime(stamp - dst_diff))
+           return datetime(*args, microsecond=dt.microsecond,
+                           tzinfo=self, fold=fold)

@@ -1,0 +1,5 @@
+class type(name, bases, dict, /, **kwargs)
+   With one argument, return the type of an *object*.  The return
+   value is a type object and generally the same object as returned by
+   "object.__class__".
+   The "isinstance()" built-in function is recommended for testing the

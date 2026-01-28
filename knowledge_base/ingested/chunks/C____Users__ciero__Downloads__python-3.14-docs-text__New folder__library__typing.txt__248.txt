@@ -1,0 +1,5 @@
+def print_capitalized[S: str](x: S) -> S:
+          """Print x capitalized, and return x."""
+          print(x.capitalize())
+          return x
+      def concatenate[A: (str, bytes)](x: A, y: A) -> A:

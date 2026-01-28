@@ -1,0 +1,6 @@
+use with "re.match()". The path specification can contain shell-
+   style wildcards.
+   For example:
+   >>> import glob, re
+   >>>
+   >>> regex = glob.translate('**/*.txt', recursive=True, include_hidden=True)

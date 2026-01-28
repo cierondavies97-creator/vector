@@ -1,0 +1,3 @@
+Decorator to mark a class or function as unavailable at runtime.
+   This decorator is itself not available at runtime. It is mainly
+   intended to mark classes that are defined in type stub files if an

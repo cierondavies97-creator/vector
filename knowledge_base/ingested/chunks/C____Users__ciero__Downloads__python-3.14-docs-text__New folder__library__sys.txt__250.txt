@@ -1,0 +1,3 @@
+not necessarily work as expected and deleting essential items from
+   the dictionary may cause Python to fail.  If you want to iterate
+   over this global dictionary always use "sys.modules.copy()" or

@@ -1,0 +1,6 @@
+method.
+BaseHandler.<protocol>_open(req)
+   This method is *not* defined in "BaseHandler", but subclasses
+   should define it if they want to handle URLs with the given
+   protocol.
+   This method, if defined, will be called by the parent

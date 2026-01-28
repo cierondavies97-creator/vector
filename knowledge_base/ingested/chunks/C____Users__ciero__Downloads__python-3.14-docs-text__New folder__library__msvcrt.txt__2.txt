@@ -1,0 +1,4 @@
+Further documentation on these functions can be found in the Platform
+API documentation.
+The module implements both the normal and wide char variants of the
+console I/O api. The normal API deals only with ASCII characters and

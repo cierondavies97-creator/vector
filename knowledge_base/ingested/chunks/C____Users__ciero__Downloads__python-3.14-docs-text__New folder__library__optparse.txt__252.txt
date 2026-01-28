@@ -1,0 +1,5 @@
+parser.add_option("--novice", action="store_const",
+                        dest="mode", const="novice")
+Option Callbacks
+================
+When "optparse"'s built-in actions and types aren't quite enough for

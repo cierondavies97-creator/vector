@@ -1,0 +1,3 @@
+be overridden to implement custom flushing strategies.
+class logging.handlers.MemoryHandler(capacity, flushLevel=ERROR, target=None, flushOnClose=True)
+   Returns a new instance of the "MemoryHandler" class. The instance

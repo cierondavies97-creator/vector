@@ -1,0 +1,5 @@
+$ python -m mimetypes --extension --lenient text/xul
+   .xul
+   $ # try to feed an unknown file extension
+   $ python -m mimetypes filename.sh filename.nc filename.xxx filename.txt
+   type: application/x-sh encoding: None

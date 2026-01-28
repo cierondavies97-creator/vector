@@ -1,0 +1,4 @@
+the same, however on other platforms
+"lib/python*majorversion*.*minorversion*/lib-dynload" ("lib/python3.11
+/lib-dynload") is searched for and used as an anchor for
+"exec_prefix". On some platforms "lib" may be "lib64" or another

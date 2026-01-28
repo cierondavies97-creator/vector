@@ -1,0 +1,5 @@
+"LC_NUMERIC" settings.
+   Added in version 3.5.
+locale.localize(string, grouping=False, monetary=False)
+   Converts a normalized number string into a formatted string
+   following the "LC_NUMERIC" settings.

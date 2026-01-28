@@ -1,0 +1,3 @@
+subclass of the "Dialect" class as the dialect parameter.  In addition
+to, or instead of, the *dialect* parameter, the programmer can also
+specify individual formatting parameters, which have the same names as

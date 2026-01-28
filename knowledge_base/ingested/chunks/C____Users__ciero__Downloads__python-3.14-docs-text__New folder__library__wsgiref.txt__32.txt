@@ -1,0 +1,4 @@
+"Headers" objects support typical mapping operations including
+   "__getitem__()", "get()", "__setitem__()", "setdefault()",
+   "__delitem__()" and "__contains__()".  For each of these methods,
+   the key is the header name (treated case-insensitively), and the

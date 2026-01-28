@@ -1,0 +1,4 @@
+"app.log.5". The file being written to is always "app.log".  When
+   this file is filled, it is closed and renamed to "app.log.1", and
+   if files "app.log.1", "app.log.2", etc. exist, then they are
+   renamed to "app.log.2", "app.log.3" etc. respectively.

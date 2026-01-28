@@ -1,0 +1,5 @@
+Note:
+     Archive names should be relative to the archive root, that is,
+     they should not start with a path separator.
+   Note:
+     If "arcname" (or "filename", if "arcname" is  not given) contains

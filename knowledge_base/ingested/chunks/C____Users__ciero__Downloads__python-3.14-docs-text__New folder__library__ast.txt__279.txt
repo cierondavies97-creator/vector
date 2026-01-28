@@ -1,0 +1,7 @@
+Note:
+     "TypeIgnore" nodes are not generated when the *type_comments*
+     parameter is set to "False" (default).  See "ast.parse()" for
+     more details.
+   Added in version 3.8.
+Type parameters
+---------------

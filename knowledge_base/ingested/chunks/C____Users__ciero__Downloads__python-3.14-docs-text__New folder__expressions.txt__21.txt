@@ -1,0 +1,4 @@
+>>> print(greeting + space + name)   # not: print(greeting space name)
+   Hello Blaise
+Literal concatenation can freely mix raw strings, triple-quoted
+strings, and formatted string literals. For example:

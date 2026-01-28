@@ -1,0 +1,6 @@
+Added in version 3.13.
+   name
+      The bzip2 file name.  Equivalent to the "name" attribute of the
+      underlying *file object*.
+      Added in version 3.13.
+   Changed in version 3.1: Support for the "with" statement was added.

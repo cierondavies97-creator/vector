@@ -1,0 +1,4 @@
+compileall.compile_dir(pathlib.Path('Lib/'), force=True)
+See also:
+  Module "py_compile"
+     Byte-compile a single source file.

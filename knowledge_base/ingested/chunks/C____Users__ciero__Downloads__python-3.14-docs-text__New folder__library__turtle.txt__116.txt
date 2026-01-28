@@ -1,0 +1,8 @@
+>>> turtle.pencolor()
+      (50.0, 193.0, 143.0)
+turtle.fillcolor()
+turtle.fillcolor(color, /)
+turtle.fillcolor(r, g, b, /)
+   Return or set the fillcolor.
+   Four input formats are allowed:
+   "fillcolor()"

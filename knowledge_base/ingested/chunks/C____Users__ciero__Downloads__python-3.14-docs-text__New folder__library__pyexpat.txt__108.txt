@@ -1,0 +1,4 @@
+=====================
+The following constants are provided in the "xml.parsers.expat.errors"
+module.  These constants are useful in interpreting some of the
+attributes of the "ExpatError" exception objects raised when an error

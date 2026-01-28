@@ -1,0 +1,6 @@
+"loop.connect_read_pipe()", "loop.connect_write_pipe()", as well as
+  the Subprocess Transports and Subprocess Protocols.
+Constants
+=========
+asyncio.subprocess.PIPE
+   Can be passed to the *stdin*, *stdout* or *stderr* parameters.

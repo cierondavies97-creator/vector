@@ -1,0 +1,4 @@
+that error when run will be returned. These errors are included
+      in the errors accumulated by self.errors.
+   loadTestsFromNames(names, module=None)
+      Similar to "loadTestsFromName()", but takes a sequence of names

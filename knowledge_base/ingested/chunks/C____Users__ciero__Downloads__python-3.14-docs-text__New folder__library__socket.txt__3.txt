@@ -1,0 +1,4 @@
+oriented style: the "socket()" function returns a *socket object*
+whose methods implement the various socket system calls.  Parameter
+types are somewhat higher-level than in the C interface: as with
+"read()" and "write()" operations on Python files, buffer allocation

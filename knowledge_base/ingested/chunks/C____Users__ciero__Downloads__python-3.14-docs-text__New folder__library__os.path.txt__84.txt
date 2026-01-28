@@ -1,0 +1,6 @@
+('C:', '/', 'Users/Sam')
+      >>> splitroot('//Server/Share/Users/Sam')
+      ('//Server/Share', '/', 'Users/Sam')
+   Added in version 3.12.
+os.path.splitext(path, /)
+   Split the pathname *path* into a pair "(root, ext)"  such that

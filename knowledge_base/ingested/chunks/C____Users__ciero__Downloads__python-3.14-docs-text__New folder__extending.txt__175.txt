@@ -1,0 +1,4 @@
+is part of the function's interface specification whether ownership is
+transferred with the reference or not.
+Most functions that return a reference to an object pass on ownership
+with the reference.  In particular, all functions whose function it is

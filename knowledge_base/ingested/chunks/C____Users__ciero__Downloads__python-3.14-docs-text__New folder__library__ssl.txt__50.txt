@@ -1,0 +1,3 @@
+Return the time in seconds since the Epoch, given the "cert_time"
+   string representing the "notBefore" or "notAfter" date from a
+   certificate in ""%b %d %H:%M:%S %Y %Z"" strptime format (C locale).

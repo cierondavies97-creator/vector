@@ -1,0 +1,3 @@
+Also, this decorator requires that the "__dict__" attribute on each
+   instance be a mutable mapping. This means it will not work with
+   some types, such as metaclasses (since the "__dict__" attributes on

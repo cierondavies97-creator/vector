@@ -1,0 +1,5 @@
+... )
+      >>> list(template)
+      ['Ah! We do have ', Interpolation('Camembert', 'cheese', None, ''), '.']
+      If multiple strings are passed consecutively, they will be
+      concatenated into a single value in the "strings" attribute. For

@@ -1,0 +1,3 @@
+|           | case letters for the digits above 9.                       |
+   +-----------+------------------------------------------------------------+
+   | "'X'"     | Hex format. Outputs the number in base 16, using upper-    |

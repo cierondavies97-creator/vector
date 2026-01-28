@@ -1,0 +1,7 @@
+TarInfo.isdev()
+   Return "True" if it is one of character device, block device or
+   FIFO.
+Extraction filters
+==================
+Added in version 3.12.
+The *tar* format is designed to capture all details of a UNIX-like

@@ -1,0 +1,5 @@
+as the current profile.
+   print_stats(sort=-1)
+      Create a "Stats" object based on the current profile and print
+      the results to stdout.
+      The *sort* parameter specifies the sorting order of the

@@ -1,0 +1,6 @@
+invalid syntax, return "None".
+      Added in version 3.8.
+The following example demonstrates basic use of the "RobotFileParser"
+class:
+   >>> import urllib.robotparser
+   >>> rp = urllib.robotparser.RobotFileParser()

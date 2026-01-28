@@ -1,0 +1,5 @@
+"errno" variable in the calling thread to *value* and return the
+   previous value.
+   Raises an auditing event "ctypes.set_errno" with argument "errno".
+ctypes.set_last_error(value)
+   Sets the current value of the ctypes-private copy of the system

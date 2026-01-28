@@ -1,0 +1,4 @@
+"execl()" or "execv()".  In Python, arguments are elements of
+   "sys.argv[1:]" ("sys.argv[0]" is the name of the program being
+   executed).  Unix shells also use the term "word".
+   It is occasionally desirable to substitute an argument list other

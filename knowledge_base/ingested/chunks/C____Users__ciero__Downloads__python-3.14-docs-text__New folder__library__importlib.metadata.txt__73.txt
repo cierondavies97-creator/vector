@@ -1,0 +1,5 @@
+from importlib.metadata import DistributionFinder
+   class DatabaseImporter(DistributionFinder):
+       ...
+       def find_distributions(self, context=DistributionFinder.Context()):
+           query = dict(name=context.name) if context.name else {}

@@ -1,0 +1,7 @@
+the user's ".idlerc" directory.
+Set Breakpoint
+   Set a breakpoint on the current line.
+Clear Breakpoint
+   Clear the breakpoint on that line.
+Shell and Output windows also have the following.
+Go to file/line

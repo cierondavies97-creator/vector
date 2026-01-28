@@ -1,0 +1,6 @@
+whether there was a match with a simple "if" statement:
+   match = re.search(pattern, string)
+   if match:
+       process(match)
+class re.Match
+   Match object returned by successful "match"es and "search"es.

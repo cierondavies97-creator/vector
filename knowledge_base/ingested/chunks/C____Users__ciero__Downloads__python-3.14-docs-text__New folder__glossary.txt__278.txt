@@ -1,0 +1,4 @@
+A string which is bound by three instances of either a quotation
+   mark (") or an apostrophe (').  While they don't provide any
+   functionality not available with single-quoted strings, they are
+   useful for a number of reasons.  They allow you to include

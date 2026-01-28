@@ -1,0 +1,5 @@
+Prefix, net mask and host mask
+------------------------------
+There are several equivalent ways to specify IP network masks.  A
+*prefix* "/<nbits>" is a notation that denotes how many high-order
+bits are set in the network mask.  A *net mask* is an IP address with

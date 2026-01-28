@@ -1,0 +1,4 @@
+This is also true for any access of the "__annotations__" attribute,
+and for various functions in the "typing" module that work with
+annotations, such as "typing.get_type_hints()".
+Any security issue arising from this also applies immediately after

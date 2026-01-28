@@ -1,0 +1,4 @@
+docs for "chmod()" for possible values of *mode*.  As of Python
+   3.3, this is equivalent to "os.chmod(path, mode,
+   follow_symlinks=False)".
+   "lchmod()" is not part of POSIX, but Unix implementations may have

@@ -1,0 +1,3 @@
+handlers take exactly one parameter, the instance for which they are
+being called, and return a new reference.  In the case of an error,
+they should set an exception and return "NULL".  "tp_iter" corresponds

@@ -1,0 +1,4 @@
+affect all subsequent operations on the archive. For cases where this
+is unwanted, you can use "copy.copy()" or call the "replace()" method
+to create a modified copy in one step.
+Several attributes can be set to "None" to indicate that a piece of

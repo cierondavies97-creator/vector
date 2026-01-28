@@ -1,0 +1,4 @@
+*mapping* (or counter).  Like "dict.update()" but subtracts
+      counts instead of replacing them.  Both inputs and outputs may
+      be zero or negative.
+      >>> c = Counter(a=4, b=2, c=0, d=-2)

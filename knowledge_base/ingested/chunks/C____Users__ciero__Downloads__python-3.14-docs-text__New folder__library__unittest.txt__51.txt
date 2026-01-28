@@ -1,0 +1,4 @@
+instances. To make your own test cases you must write subclasses of
+"TestCase" or use "FunctionTestCase".
+The testing code of a "TestCase" instance should be entirely self
+contained, such that it can be run either in isolation or in arbitrary

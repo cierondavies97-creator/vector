@@ -1,0 +1,3 @@
+class imaplib.IMAP4_SSL(host='', port=IMAP4_SSL_PORT, *, ssl_context=None, timeout=None)
+   This is a subclass derived from "IMAP4" that connects over an SSL
+   encrypted socket (to use this class you need a socket module that

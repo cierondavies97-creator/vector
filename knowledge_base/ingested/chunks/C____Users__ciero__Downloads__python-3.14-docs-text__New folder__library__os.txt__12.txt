@@ -1,0 +1,4 @@
+error handler* to perform this conversion (see
+"sys.getfilesystemencoding()").
+The *filesystem encoding and error handler* are configured at Python
+startup by the "PyConfig_Read()" function: see "filesystem_encoding"

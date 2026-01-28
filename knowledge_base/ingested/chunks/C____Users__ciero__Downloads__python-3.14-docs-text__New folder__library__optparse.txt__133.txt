@@ -1,0 +1,3 @@
+about: programmer errors and user errors.  Programmer errors are
+usually erroneous calls to "OptionParser.add_option()", e.g. invalid
+option strings, unknown option attributes, missing option attributes,

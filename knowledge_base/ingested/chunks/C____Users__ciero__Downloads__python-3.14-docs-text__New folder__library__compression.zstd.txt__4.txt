@@ -1,0 +1,5 @@
+(de)compression.
+* The "compress()" and "decompress()" functions for one-shot
+  (de)compression.
+* The "train_dict()" and "finalize_dict()" functions and the
+  "ZstdDict" class to train and manage Zstandard dictionaries.

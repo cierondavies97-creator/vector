@@ -1,0 +1,6 @@
+int
+      Raises:
+         **ProgrammingError** -- If *category* is not recognised by
+         the underlying SQLite library.
+      Example, limit the number of attached databases to 1 for
+      "Connection" "con" (the default limit is 10):

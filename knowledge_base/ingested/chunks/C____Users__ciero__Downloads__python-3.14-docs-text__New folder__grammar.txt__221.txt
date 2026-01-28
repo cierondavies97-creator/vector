@@ -1,0 +1,4 @@
+}
+   invalid_expression:
+      |  STRING a=(!STRING expression_without_invalid)+ STRING {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE( PyPegen_first_item(a, expr_ty), PyPegen_last_item(a, expr_ty),

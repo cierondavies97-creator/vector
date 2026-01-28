@@ -1,0 +1,8 @@
+* Command-line options
+* "mailbox" --- Manipulate mailboxes in various formats
+  * "Mailbox" objects
+    * "Maildir" objects
+    * "mbox" objects
+    * "MH" objects
+    * "Babyl" objects
+    * "MMDF" objects

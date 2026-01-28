@@ -1,0 +1,4 @@
+used to uniquely identify this particular thread system-wide (until
+   the thread terminates, after which the value may be recycled by the
+   OS).
+   Availability: Windows, FreeBSD, Linux, macOS, OpenBSD, NetBSD, AIX,

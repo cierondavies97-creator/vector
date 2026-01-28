@@ -1,0 +1,3 @@
+pointers to arbitrary Python objects: the Python function, and the
+argument list.  The argument list must always be a tuple object, whose
+length is the number of arguments.  To call the Python function with

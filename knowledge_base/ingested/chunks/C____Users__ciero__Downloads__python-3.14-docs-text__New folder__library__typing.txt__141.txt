@@ -1,0 +1,4 @@
+Added in version 3.10.
+   Deprecated since version 3.12: "TypeAlias" is deprecated in favor
+   of the "type" statement, which creates instances of "TypeAliasType"
+   and which natively supports forward references. Note that while

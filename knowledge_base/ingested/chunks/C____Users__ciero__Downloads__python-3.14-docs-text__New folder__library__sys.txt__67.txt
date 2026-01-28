@@ -1,0 +1,6 @@
+objects.
+   Added in version 3.7: __breakpointhook__
+   Added in version 3.8: __unraisablehook__
+sys.exception()
+   This function, when called while an exception handler is executing
+   (such as an "except" or "except*" clause), returns the exception

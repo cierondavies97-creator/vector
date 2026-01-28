@@ -1,0 +1,7 @@
+>>> con.setlimit(sqlite3.SQLITE_LIMIT_ATTACHED, 1)
+         10
+         >>> con.getlimit(sqlite3.SQLITE_LIMIT_ATTACHED)
+         1
+      Added in version 3.11.
+   getconfig(op, /)
+      Query a boolean connection configuration option.

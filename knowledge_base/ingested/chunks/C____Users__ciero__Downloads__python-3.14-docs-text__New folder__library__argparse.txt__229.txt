@@ -1,0 +1,5 @@
+>>> parser.parse_args(['--foo=FOO'])
+   Namespace(foo='FOO', x=None)
+For short options (options only one character long), the option and
+its value can be concatenated:
+   >>> parser.parse_args(['-xX'])

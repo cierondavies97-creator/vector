@@ -1,0 +1,5 @@
+command-line options are the action and type of each option, the most
+likely direction of extension is to add new actions and new types.
+Adding new types
+----------------
+To add new types, you need to define your own subclass of "optparse"'s

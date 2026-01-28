@@ -1,0 +1,4 @@
+Token(type='OP', value='*', line=3, column=31)
+   Token(type='ID', value='quantity', line=3, column=33)
+   Token(type='END', value=';', line=3, column=41)
+   Token(type='ID', value='tax', line=4, column=8)

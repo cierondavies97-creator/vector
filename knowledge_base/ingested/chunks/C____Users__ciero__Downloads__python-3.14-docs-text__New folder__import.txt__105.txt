@@ -1,0 +1,4 @@
+the source file's contents rather than its metadata. There are two
+variants of hash-based ".pyc" files: checked and unchecked. For
+checked hash-based ".pyc" files, Python validates the cache file by
+hashing the source file and comparing the resulting hash with the hash

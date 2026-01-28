@@ -1,0 +1,4 @@
+when using "lst += iterable".Similarly, assigning to a list slice with
+"lst[i:j] = iterable" is safe to call from multiple threads, but
+"iterable" is only locked when it is also a "list" (but not its
+subclasses).Operations that involve multiple accesses, as well as

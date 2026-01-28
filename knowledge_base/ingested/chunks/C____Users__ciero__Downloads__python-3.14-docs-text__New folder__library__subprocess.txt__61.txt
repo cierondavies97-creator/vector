@@ -1,0 +1,4 @@
+Windows, see the documentation of the "lpApplicationName" and
+     "lpCommandLine" parameters of WinAPI "CreateProcess", and note
+     that when resolving or searching for the executable path with
+     "shell=False", *cwd* does not override the current working

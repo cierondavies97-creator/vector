@@ -1,0 +1,5 @@
+"(1+3j).conjugate() == (1-3j)".
+class numbers.Real
+   To "Complex", "Real" adds the operations that work on real numbers.
+   In short, those are: a conversion to "float", "math.trunc()",
+   "round()", "math.floor()", "math.ceil()", "divmod()", "//", "%",

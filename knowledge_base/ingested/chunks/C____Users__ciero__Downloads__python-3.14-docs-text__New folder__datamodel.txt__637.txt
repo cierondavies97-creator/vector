@@ -1,0 +1,4 @@
+return an *awaitable* that would resolve to an *asynchronous
+iterator*.Starting with Python 3.7, "__aiter__()" must return an
+asynchronous iterator object.  Returning anything else will result in
+a "TypeError" error.

@@ -1,0 +1,5 @@
+"VerifyFlags" flags:
+   >>> ssl.create_default_context().verify_flags
+   <VerifyFlags.VERIFY_X509_TRUSTED_FIRST: 32768>
+SSLContext.verify_mode
+   Whether to try to verify other peers' certificates and how to

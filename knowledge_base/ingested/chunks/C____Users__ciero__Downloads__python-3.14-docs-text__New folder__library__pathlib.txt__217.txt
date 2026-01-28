@@ -1,0 +1,5 @@
+instance.
+Path.move(target)
+   Move this file or directory tree to the given *target*, and return
+   a new "Path" instance pointing to *target*.
+   If the *target* doesn't exist it will be created. If both this path

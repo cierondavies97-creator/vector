@@ -1,0 +1,5 @@
+__main__.X[[int, str]]
+Note that generics with "ParamSpec" may not have correct
+"__parameters__" after substitution in some cases because they are
+intended primarily for static type checking.
+Changed in version 3.10: "Generic" can now be parameterized over

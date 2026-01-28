@@ -1,0 +1,6 @@
+is true.
+   The *version* argument indicates the data format that "dump" should
+   use (see below).
+   Raises an auditing event "marshal.dumps" with arguments "value",
+   "version".
+   Changed in version 3.13: Added the *allow_code* parameter.

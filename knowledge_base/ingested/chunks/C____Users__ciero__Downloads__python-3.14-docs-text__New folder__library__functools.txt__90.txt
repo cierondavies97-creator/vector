@@ -1,0 +1,5 @@
+itself with the typehint going into the function definition:
+      >>> @fun.register(list)
+      ... def _(arg: list[int], verbose=False):
+      ...     if verbose:
+      ...         print("Enumerate this:")

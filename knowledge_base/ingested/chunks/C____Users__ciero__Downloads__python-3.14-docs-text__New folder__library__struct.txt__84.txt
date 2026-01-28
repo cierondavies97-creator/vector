@@ -1,0 +1,3 @@
+native byte ordering and data sizes.  Internal pad bytes are normally
+inserted automatically.  It is possible that a zero-repeat format code
+will be needed at the end of a format string to round up to the

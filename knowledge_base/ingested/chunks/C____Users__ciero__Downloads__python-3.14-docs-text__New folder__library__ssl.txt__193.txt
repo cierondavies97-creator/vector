@@ -1,0 +1,5 @@
+side sockets, in order to speed up repeated connections from the same
+clients.
+class ssl.SSLContext(protocol=None)
+   Create a new SSL context.  You may pass *protocol* which must be
+   one of the "PROTOCOL_*" constants defined in this module.  The

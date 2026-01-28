@@ -1,0 +1,4 @@
+*mapping*, but the "keys()" and "items()" methods return lists, and
+   the "setdefault()" method requires two arguments. It also supports
+   a "closing" context manager via the "with" keyword.
+   The following methods are also provided:

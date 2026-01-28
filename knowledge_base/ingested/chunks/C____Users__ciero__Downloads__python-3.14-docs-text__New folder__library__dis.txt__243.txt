@@ -1,0 +1,8 @@
+dis.hasjump
+   Sequence of bytecodes that have a jump target. All jumps are
+   relative.
+   Added in version 3.13.
+dis.haslocal
+   Sequence of bytecodes that access a local variable.
+dis.hascompare
+   Sequence of bytecodes of Boolean operations.

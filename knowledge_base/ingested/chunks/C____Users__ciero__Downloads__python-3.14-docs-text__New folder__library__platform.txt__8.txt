@@ -1,0 +1,4 @@
+An empty string is returned if the value cannot be determined.
+platform.platform(aliased=False, terse=False)
+   Returns a single string identifying the underlying platform with as
+   much useful information as possible.

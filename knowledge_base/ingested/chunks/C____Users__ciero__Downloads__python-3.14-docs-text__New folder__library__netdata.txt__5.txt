@@ -1,0 +1,6 @@
+* Character Encodings
+    * Infinite and NaN Number Values
+    * Repeated Names Within an Object
+    * Top-level Non-Object, Non-Array Values
+    * Implementation Limitations
+  * Command-line interface

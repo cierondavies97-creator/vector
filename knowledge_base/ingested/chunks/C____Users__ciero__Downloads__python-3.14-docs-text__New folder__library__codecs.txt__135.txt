@@ -1,0 +1,4 @@
+is primarily intended to be able to recover from decoding
+      errors.
+In addition to the above methods, the "StreamReader" must also inherit
+all other methods and attributes from the underlying stream.

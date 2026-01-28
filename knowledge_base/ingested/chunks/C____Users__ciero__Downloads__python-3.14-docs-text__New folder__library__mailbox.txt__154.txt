@@ -1,0 +1,3 @@
+"mboxMessage" or "MMDFMessage" instance, the *Status* and *X-Status*
+headers are omitted and the following conversions take place:
++----------------------+------------------------------------------------+

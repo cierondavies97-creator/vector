@@ -1,0 +1,4 @@
+Prepares a record for queuing. The object returned by this
+      method is enqueued.
+      The base implementation formats the record to merge the message,
+      arguments, exception and stack information, if present.  It also

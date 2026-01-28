@@ -1,0 +1,4 @@
+This is 1-indexed: the first character in the line has an
+      "offset" of 1.
+   For errors in f-string fields, the message is prefixed by
+   "f-string: " and the offsets are offsets in a text constructed from

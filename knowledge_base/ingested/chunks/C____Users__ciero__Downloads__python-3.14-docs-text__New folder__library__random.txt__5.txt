@@ -1,0 +1,4 @@
+generators in existence.  However, being completely deterministic, it
+is not suitable for all purposes, and is completely unsuitable for
+cryptographic purposes.
+The functions supplied by this module are actually bound methods of a

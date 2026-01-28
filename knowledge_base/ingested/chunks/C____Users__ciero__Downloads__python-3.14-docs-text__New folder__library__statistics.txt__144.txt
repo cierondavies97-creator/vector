@@ -1,0 +1,4 @@
+X < x+dx) / dx" as *dx* approaches zero.
+      The relative likelihood is computed as the probability of a
+      sample occurring in a narrow range divided by the width of the
+      range (hence the word "density").  Since the likelihood is

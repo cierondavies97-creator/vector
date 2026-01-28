@@ -1,0 +1,4 @@
+the initializer.  Should *initializer* raise an exception, all
+   currently pending jobs will raise a "BrokenThreadPool", as well as
+   any attempt to submit more jobs to the pool.
+   Changed in version 3.5: If *max_workers* is "None" or not given, it

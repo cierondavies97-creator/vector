@@ -1,0 +1,4 @@
+Changed in version 3.7: The keyword-only argument *header*.
+   Changed in version 3.13: "set_trace()" will enter the debugger
+   immediately, rather than on the next line of code to be executed.
+   Added in version 3.14: The *commands* argument.

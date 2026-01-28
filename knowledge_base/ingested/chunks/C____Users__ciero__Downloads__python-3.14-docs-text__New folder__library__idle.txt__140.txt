@@ -1,0 +1,4 @@
+the characters in a string, regardless of how they are displayed.
+Normal and error output are generally kept separate (on separate
+lines) from code input and each other.  They each get different
+highlight colors.

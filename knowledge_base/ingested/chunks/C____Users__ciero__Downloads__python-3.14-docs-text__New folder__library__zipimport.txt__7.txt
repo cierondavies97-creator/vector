@@ -1,0 +1,4 @@
+**PEP 273** - Import Modules from Zip Archives
+     Written by James C. Ahlstrom, who also provided an
+     implementation. Python 2.3 follows the specification in **PEP
+     273**, but uses an implementation written by Just van Rossum that

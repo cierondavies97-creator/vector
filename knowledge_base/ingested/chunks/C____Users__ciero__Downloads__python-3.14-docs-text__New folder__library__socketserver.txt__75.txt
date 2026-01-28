@@ -1,0 +1,7 @@
+client.
+       """
+       def handle(self):
+           # self.request is the TCP socket connected to the client
+           pieces = [b'']
+           total = 0
+           while b'\n' not in pieces[-1] and total < 10_000:

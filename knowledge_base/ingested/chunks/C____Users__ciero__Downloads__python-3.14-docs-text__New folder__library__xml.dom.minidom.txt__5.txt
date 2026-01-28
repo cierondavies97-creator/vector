@@ -1,0 +1,4 @@
+object.
+xml.dom.minidom.parse(filename_or_file, parser=None, bufsize=None)
+   Return a "Document" from the given input. *filename_or_file* may be
+   either a file name, or a file-like object. *parser*, if given, must

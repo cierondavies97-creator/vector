@@ -1,0 +1,5 @@
+"tkinter" --- Python interface to Tcl/Tk
+****************************************
+**Source code:** Lib/tkinter/__init__.py
+======================================================================
+The "tkinter" package ("Tk interface") is the standard Python

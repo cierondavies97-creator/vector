@@ -1,0 +1,4 @@
+estimate than an average (arithmetic mean).  A running median is an
+online algorithm that updates continuously as new data arrives.
+A running median can be efficiently implemented by balancing two
+heaps, a max-heap for values at or below the midpoint and a min-heap

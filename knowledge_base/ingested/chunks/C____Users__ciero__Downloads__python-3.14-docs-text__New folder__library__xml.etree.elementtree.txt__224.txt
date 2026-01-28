@@ -1,0 +1,3 @@
+calls to a callback target, "XMLPullParser" collects an internal
+   list of parsing events and lets the user read from it. *events* is
+   a sequence of events to report back.  The supported events are the

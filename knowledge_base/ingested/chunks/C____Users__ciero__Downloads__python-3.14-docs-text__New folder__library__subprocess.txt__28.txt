@@ -1,0 +1,4 @@
+stream should be opened.  Most useful with "Popen.communicate()".
+subprocess.STDOUT
+   Special value that can be used as the *stderr* argument to "Popen"
+   and indicates that standard error should go into the same handle as

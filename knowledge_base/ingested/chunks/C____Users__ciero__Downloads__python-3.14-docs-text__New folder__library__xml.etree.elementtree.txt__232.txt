@@ -1,0 +1,4 @@
+object, or other context value as follows.
+      * "start", "end": the current Element.
+      * "comment", "pi": the current comment / processing instruction
+      * "start-ns": a tuple "(prefix, uri)" naming the declared

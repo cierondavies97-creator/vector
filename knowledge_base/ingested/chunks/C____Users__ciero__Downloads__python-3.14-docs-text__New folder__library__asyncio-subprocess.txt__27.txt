@@ -1,0 +1,4 @@
+process needs to be created with "stdin=PIPE".  Similarly, to
+      get anything other than "None" in the result tuple, the process
+      has to be created with "stdout=PIPE" and/or "stderr=PIPE"
+      arguments.

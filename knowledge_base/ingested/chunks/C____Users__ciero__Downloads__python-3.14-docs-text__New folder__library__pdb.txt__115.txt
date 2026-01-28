@@ -1,0 +1,5 @@
+-> raise ValueError("reraise middle() error") from e
+      (Pdb) exceptions
+        0 ZeroDivisionError('division by zero')
+        1 ValueError('Middle fail')
+      > 2 ValueError('reraise middle() error')

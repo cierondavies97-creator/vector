@@ -1,0 +1,4 @@
+empty string), only newlines are inserted. If "None" (the
+        default), the most compact representation is used.
+      * **separators** (*tuple** | **None*) -- A two-tuple:
+        "(item_separator, key_separator)". If "None" (the default),

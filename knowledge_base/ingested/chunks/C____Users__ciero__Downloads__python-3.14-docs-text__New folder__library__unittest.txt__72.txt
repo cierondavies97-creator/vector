@@ -1,0 +1,4 @@
+optional set-up and tear-down methods:
+   testcase = unittest.FunctionTestCase(testSomething,
+                                        setUp=makeSomethingDB,
+                                        tearDown=deleteSomethingDB)

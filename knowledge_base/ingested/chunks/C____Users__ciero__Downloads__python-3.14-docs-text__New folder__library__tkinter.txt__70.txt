@@ -1,0 +1,3 @@
+call its "configure()" method, which returns a dictionary containing a
+variety of information about each object, including its default and
+current values. Use "keys()" to get just the names of each option.

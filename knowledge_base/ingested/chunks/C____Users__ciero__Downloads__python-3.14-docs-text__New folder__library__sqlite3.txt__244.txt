@@ -1,0 +1,4 @@
+catch all errors with one single "except" statement. "Error" is a
+   subclass of "Exception".
+   If the exception originated from within the SQLite library, the
+   following two attributes are added to the exception:

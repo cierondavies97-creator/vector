@@ -1,0 +1,4 @@
+value: if it is false, the lock is only acquired if it can be
+   acquired immediately without waiting, while if it is true, the lock
+   is acquired unconditionally as above.
+   If the floating-point *timeout* argument is present and positive,

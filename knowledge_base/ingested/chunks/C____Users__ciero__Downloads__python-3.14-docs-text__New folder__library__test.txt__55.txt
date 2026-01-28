@@ -1,0 +1,6 @@
+mixed type comparison.
+test.support.SMALLEST
+   Object that is less than anything (except itself). Used to test
+   mixed type comparison.
+The "test.support" module defines the following functions:
+test.support.busy_retry(timeout, err_msg=None, /, *, error=True)

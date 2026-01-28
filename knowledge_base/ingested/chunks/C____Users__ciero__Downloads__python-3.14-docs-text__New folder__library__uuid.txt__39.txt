@@ -1,0 +1,4 @@
+hardware address as a 48-bit positive integer. When a sequence
+   number *clock_seq* is not specified, a pseudo-random 14-bit
+   positive integer is generated.
+   If *node* or *clock_seq* exceed their expected bit count, only

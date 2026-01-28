@@ -1,0 +1,4 @@
+positional arguments is deprecated. In future Python versions they
+   will be keyword-only parameters.
+re.subn(pattern, repl, string, count=0, flags=0)
+   Perform the same operation as "sub()", but return a tuple

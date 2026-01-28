@@ -1,0 +1,4 @@
+not have to be overridden in non-abstract derived classes.
+   The "__subclasshook__()" class method defined here says that any
+   class that has an "__iter__()" method in its "__dict__" (or in that
+   of one of its base classes, accessed via the "__mro__" list) is

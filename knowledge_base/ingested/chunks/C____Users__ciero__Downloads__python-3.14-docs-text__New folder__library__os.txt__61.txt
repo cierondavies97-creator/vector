@@ -1,0 +1,8 @@
+returned.
+   Availability: Unix, not WASI.
+os.getpgrp()
+   Return the id of the current process group.
+   Availability: Unix, not WASI.
+os.getpid()
+   Return the current process id.
+   The function is a stub on WASI, see WebAssembly platforms for more

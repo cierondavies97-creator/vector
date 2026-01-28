@@ -1,0 +1,5 @@
+"__aiter__" is no longer supported.
+GET_ANEXT
+   Implement "STACK.append(get_awaitable(STACK[-1].__anext__()))" to
+   the stack. See "GET_AWAITABLE" for details about "get_awaitable".
+   Added in version 3.5.

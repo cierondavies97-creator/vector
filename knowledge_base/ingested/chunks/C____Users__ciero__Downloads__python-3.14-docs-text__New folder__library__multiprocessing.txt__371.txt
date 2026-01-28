@@ -1,0 +1,4 @@
+only a set amount of work before being exiting, being cleaned up
+     and a new process spawned to replace the old one. The
+     *maxtasksperchild* argument to the "Pool" exposes this ability to
+     the end user.

@@ -1,0 +1,6 @@
+this function.
+   Added in version 3.11.
+logging.getLevelName(level)
+   Returns the textual or numeric representation of logging level
+   *level*.
+   If *level* is one of the predefined levels "CRITICAL", "ERROR",

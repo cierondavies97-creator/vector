@@ -1,0 +1,4 @@
+timing loop was repeated, and finally the time the statement body took
+on average within the best repetition of the timing loop. That is, the
+time the fastest repetition took divided by the loop count.
+   >>> import timeit

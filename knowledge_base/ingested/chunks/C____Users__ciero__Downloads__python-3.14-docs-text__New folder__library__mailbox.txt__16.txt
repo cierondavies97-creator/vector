@@ -1,0 +1,6 @@
+used. Otherwise, reasonable defaults for format-specific
+      information are used.
+      Changed in version 3.2: Support for binary input was added.
+   remove(key)
+   __delitem__(key)
+   discard(key)

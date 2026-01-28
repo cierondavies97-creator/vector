@@ -1,0 +1,5 @@
+("# type: <type>", "# type: ignore <stuff>").
+   Added in version 3.8.
+ast.compare(a, b, /, *, compare_attributes=False)
+   Recursively compares two ASTs.
+   *compare_attributes* affects whether AST attributes are considered

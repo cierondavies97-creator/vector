@@ -1,0 +1,5 @@
+All arguments except *filename* are optional, and should be
+   specified in keyword form.
+   Test examples in the file named *filename*.  Return
+   "(failure_count, test_count)".
+   Optional argument *module_relative* specifies how the filename

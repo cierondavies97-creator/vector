@@ -1,0 +1,4 @@
+embedded environments.
+   If *close_fds* is true, all file descriptors except "0", "1" and
+   "2" will be closed before the child process is executed.  Otherwise
+   when *close_fds* is false, file descriptors obey their inheritable

@@ -1,0 +1,5 @@
+Introducing Python's framework for type annotations
+  Generic Alias Types
+     Documentation for objects representing parameterized generic
+     classes
+  Generics, user-defined generics and "typing.Generic"

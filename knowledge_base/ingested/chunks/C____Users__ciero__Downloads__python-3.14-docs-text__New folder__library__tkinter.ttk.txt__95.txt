@@ -1,0 +1,3 @@
+| sticky      | Specifies how the child window is positioned within the pane   |
+|             | area. Value is a string containing zero or more of the         |
+|             | characters "n", "s", "e" or "w". Each letter refers to a side  |

@@ -1,0 +1,4 @@
+after a non-blocking open.  The meaning of the size field for other
+character and block devices varies more, depending on the
+implementation of the underlying system call.
+The variables below define the flags used in the "ST_MODE" field.

@@ -1,0 +1,7 @@
+body=[
+              Match(
+                  subject=Name(id='x', ctx=Load()),
+                  cases=[
+                      match_case(
+                          pattern=MatchMapping(
+                              keys=[

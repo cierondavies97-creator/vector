@@ -1,0 +1,4 @@
+following "class" and "def", strings, and comments. For any text
+window, these are the cursor (when present), found text (when
+possible), and selected text.
+IDLE also highlights the soft keywords "match", "case", and "_" in

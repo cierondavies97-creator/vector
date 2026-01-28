@@ -1,0 +1,4 @@
+Enable the SQLite engine to load SQLite extensions from shared
+      libraries if *enabled* is "True"; else, disallow loading SQLite
+      extensions. SQLite extensions can define new functions,
+      aggregates or whole new virtual table implementations.  One

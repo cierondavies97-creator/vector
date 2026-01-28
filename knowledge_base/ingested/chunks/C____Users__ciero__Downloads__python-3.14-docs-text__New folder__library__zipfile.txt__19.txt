@@ -1,0 +1,7 @@
+extract individual files.
+See also:
+  PKZIP Application Note
+     Documentation on the ZIP file format by Phil Katz, the creator of
+     the format and algorithms used.
+  Info-ZIP Home Page
+     Information about the Info-ZIP project's ZIP archive programs and

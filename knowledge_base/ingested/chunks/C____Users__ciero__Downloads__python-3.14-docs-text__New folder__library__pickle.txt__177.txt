@@ -1,0 +1,4 @@
+graph.  Buffers accumulated by the *buffer_callback* will not see
+their data copied into the pickle stream, only a cheap marker will be
+inserted.
+On the receiving side, it needs to pass a *buffers* argument to

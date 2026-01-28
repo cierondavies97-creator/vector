@@ -1,0 +1,3 @@
+exception groups (see "BaseExceptionGroup"). The depth refers to
+   the nesting level of the group, and the width refers to the size of
+   a single exception group's exceptions array. The formatted output

@@ -1,0 +1,4 @@
+"signature()", but still ignores "__wrapped__" attributes and
+   includes the already bound first parameter in the signature output
+   for bound methods.
+   Changed in version 3.6: This method was previously documented as

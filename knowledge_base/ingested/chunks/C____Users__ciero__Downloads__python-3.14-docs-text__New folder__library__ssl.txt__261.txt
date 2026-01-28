@@ -1,0 +1,4 @@
+describing a well-known elliptic curve, for example "prime256v1"
+   for a widely supported curve.
+   This setting doesn't apply to client sockets.  You can also use the
+   "OP_SINGLE_ECDH_USE" option to further improve security.

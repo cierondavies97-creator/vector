@@ -1,0 +1,3 @@
+header is set to "0" for methods that expect a body ("PUT", "POST",
+   and "PATCH").  If *body* is a string or a bytes-like object that is
+   not also a *file*, the Content-Length header is set to its length.

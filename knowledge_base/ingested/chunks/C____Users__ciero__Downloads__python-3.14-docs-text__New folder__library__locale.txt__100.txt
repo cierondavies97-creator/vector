@@ -1,0 +1,5 @@
+This value may not be available on operating systems not conforming
+   to the POSIX standard, most notably Windows.
+locale.LC_NUMERIC
+   Locale category for formatting numbers.  The functions
+   "format_string()", "atoi()", "atof()" and "str()" of the "locale"

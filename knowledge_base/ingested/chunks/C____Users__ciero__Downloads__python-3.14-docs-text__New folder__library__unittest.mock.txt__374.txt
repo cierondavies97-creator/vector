@@ -1,0 +1,5 @@
+with very complex or deeply nested objects (like modules that import
+modules that import modules) without a big performance hit.
+Here's an example of it in use:
+   >>> from urllib import request
+   >>> patcher = patch('__main__.request', autospec=True)

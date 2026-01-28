@@ -1,0 +1,4 @@
+ensure it. If a "tzinfo" subclass cannot guarantee this, it may be
+   able to override the default implementation of "tzinfo.fromutc()"
+   to work correctly with "astimezone()" regardless.
+   Most implementations of "dst()" will probably look like one of

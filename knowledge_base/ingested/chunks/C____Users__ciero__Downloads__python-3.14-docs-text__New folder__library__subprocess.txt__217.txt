@@ -1,0 +1,7 @@
+Environment example:
+   os.spawnlpe(os.P_NOWAIT, "/bin/mycmd", "mycmd", "myarg", env)
+   ==>
+   Popen(["/bin/mycmd", "myarg"], env={"PATH": "/usr/bin"})
+Replacing "os.popen()"
+----------------------
+Return code handling translates as follows:

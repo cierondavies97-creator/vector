@@ -1,0 +1,5 @@
+"foo: 'spam'"
+      "Parameter" objects are also supported by the generic function
+      "copy.replace()".
+   Changed in version 3.4: In Python 3.3 "Parameter" objects were
+   allowed to have "name" set to "None" if their "kind" was set to

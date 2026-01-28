@@ -1,0 +1,4 @@
+(This means that zero-argument "super()" will not work as expected
+   within nested functions, including generator expressions, which
+   implicitly create nested functions.)
+   There are two typical use cases for *super*.  In a class hierarchy

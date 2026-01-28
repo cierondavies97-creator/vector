@@ -1,0 +1,4 @@
+has another type (such as a string), the object's value is printed
+   and the exit status is one.
+   A call to "sys.exit()" is translated into an exception so that
+   clean-up handlers ("finally" clauses of "try" statements) can be

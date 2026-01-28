@@ -1,0 +1,4 @@
+"ThreadingMixIn.daemon_threads" to "True" to not wait until
+      threads complete.
+   Changed in version 3.7: "ForkingMixIn.server_close" and
+   "ThreadingMixIn.server_close" now waits until all child processes

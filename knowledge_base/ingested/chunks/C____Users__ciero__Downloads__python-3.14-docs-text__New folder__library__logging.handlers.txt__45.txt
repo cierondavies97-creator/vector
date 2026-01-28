@@ -1,0 +1,4 @@
+is true, then file opening is deferred until the first call to
+   "emit()".  By default, the file grows indefinitely. If *errors* is
+   provided, it determines how encoding errors are handled.
+   You can use the *maxBytes* and *backupCount* values to allow the

@@ -1,0 +1,8 @@
+3.7, try the command:
+   py -3.7
+If you want the latest version of Python 2 you have installed, try the
+command:
+   py -2
+If you see the following error, you do not have the launcher
+installed:
+   'py' is not recognized as an internal or external command,

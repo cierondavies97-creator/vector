@@ -1,0 +1,5 @@
+function should be called from within a class decorator.
+   Returns *cls*, to allow usage as a class decorator.
+   If *cls* is not an instance of "ABCMeta", does nothing.
+   Note:
+     This function assumes that *cls*'s superclasses are already

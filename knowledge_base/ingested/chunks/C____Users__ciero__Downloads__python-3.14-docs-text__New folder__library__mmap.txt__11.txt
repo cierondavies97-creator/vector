@@ -1,0 +1,4 @@
+*length* is larger than the current size of the file, the file is
+   extended to contain *length* bytes.  If *length* is "0", the
+   maximum length of the map is the current size of the file, except
+   that if the file is empty Windows raises an exception (you cannot

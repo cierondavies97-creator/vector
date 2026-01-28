@@ -1,0 +1,4 @@
+Note:
+  Recall that the use of a type alias declares two types to be
+  *equivalent* to one another. Doing "type Alias = Original" will make
+  the static type checker treat "Alias" as being *exactly equivalent*

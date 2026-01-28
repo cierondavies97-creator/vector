@@ -1,0 +1,4 @@
+WebAssembly platforms for more information.
+The "getpass" module provides two functions:
+getpass.getpass(prompt='Password: ', stream=None, *, echo_char=None)
+   Prompt the user for a password without echoing.  The user is

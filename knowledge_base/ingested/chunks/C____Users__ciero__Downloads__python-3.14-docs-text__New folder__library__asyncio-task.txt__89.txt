@@ -1,0 +1,6 @@
+factory of an event loop via "loop.set_task_factory(factory)").
+   Added in version 3.12.
+Shielding From Cancellation
+===========================
+awaitable asyncio.shield(aw)
+   Protect an awaitable object from being "cancelled".

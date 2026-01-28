@@ -1,0 +1,5 @@
+will be used as the new value for the internal flag which
+   corresponds to *stop*; returning false will cause interpretation to
+   continue.
+Cmd.preloop()
+   Hook method executed once when "cmdloop()" is called.  This method

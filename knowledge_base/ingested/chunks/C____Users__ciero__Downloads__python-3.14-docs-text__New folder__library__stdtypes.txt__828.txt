@@ -1,0 +1,4 @@
+"open()" to be used as the context expression in a "with"
+   statement.
+   An example of a context manager that returns a related object is
+   the one returned by "decimal.localcontext()". These managers set

@@ -1,0 +1,2 @@
+|                                   |                                   | This directory should be added to |
+|                                   |                                   | your "PATH" to make the commands  |

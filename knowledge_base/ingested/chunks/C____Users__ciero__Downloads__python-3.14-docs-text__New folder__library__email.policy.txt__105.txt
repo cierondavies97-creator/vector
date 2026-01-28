@@ -1,0 +1,5 @@
+If the value contains binary data, it is converted into a
+      "Header" object using the "unknown-8bit" charset. Otherwise it
+      is returned unmodified.
+   fold(name, value)
+      Headers are folded using the "Header" folding algorithm, which

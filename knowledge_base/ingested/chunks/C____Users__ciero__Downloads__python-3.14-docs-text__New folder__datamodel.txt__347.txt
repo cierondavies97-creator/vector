@@ -1,0 +1,3 @@
+cycles is when an exception has been caught in a local variable.
+   The frame's locals then reference the exception, which references
+   its own traceback, which references the locals of all frames caught

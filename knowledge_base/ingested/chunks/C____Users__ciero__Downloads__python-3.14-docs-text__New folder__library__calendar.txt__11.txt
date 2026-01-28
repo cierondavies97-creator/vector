@@ -1,0 +1,5 @@
+month or after the end of the month that are required to get a
+      complete week.
+   itermonthdays(year, month)
+      Return an iterator for the month *month* in the year *year*
+      similar to "itermonthdates()", but not restricted by the

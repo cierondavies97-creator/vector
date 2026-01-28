@@ -1,0 +1,4 @@
+those found in Perl.
+Both patterns and strings to be searched can be Unicode strings
+("str") as well as 8-bit strings ("bytes"). However, Unicode strings
+and 8-bit strings cannot be mixed: that is, you cannot match a Unicode

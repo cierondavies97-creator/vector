@@ -1,0 +1,5 @@
+enum member; may be overridden
+  Note:
+    For standard "Enum" classes the next value chosen is the highest
+    value seen incremented by one.For "Flag" classes the next value
+    chosen will be the next highest power-of-two.

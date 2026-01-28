@@ -1,0 +1,6 @@
+two arguments in the constructor (one of which is *self*). Here's what
+happens if we try to call it incorrectly:
+   >>> req = request.Request()
+   Traceback (most recent call last):
+    ...
+   TypeError: <lambda>() takes at least 2 arguments (1 given)

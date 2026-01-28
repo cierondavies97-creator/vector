@@ -1,0 +1,4 @@
+of *meta path finders* on "sys.meta_path".
+The implementation has hooks integrated into the "PathFinder", serving
+metadata for distribution packages found on the file system.
+The abstract class "importlib.abc.MetaPathFinder" defines the

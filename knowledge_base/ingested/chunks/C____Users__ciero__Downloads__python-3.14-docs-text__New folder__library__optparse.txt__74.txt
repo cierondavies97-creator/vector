@@ -1,0 +1,6 @@
+take the next argument (or the remainder of the current argument),
+ensure that it is of the correct type, and store it to your chosen
+destination.
+For example:
+   parser.add_option("-f", "--file",
+                     action="store", type="string", dest="filename")

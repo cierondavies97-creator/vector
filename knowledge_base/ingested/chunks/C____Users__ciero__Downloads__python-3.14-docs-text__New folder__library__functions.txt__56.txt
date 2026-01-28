@@ -1,0 +1,5 @@
+character.  This is to facilitate detection of incomplete and
+     complete statements in the "code" module.
+   Warning:
+     It is possible to crash the Python interpreter with a
+     sufficiently large/complex string when compiling to an AST object

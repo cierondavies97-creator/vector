@@ -1,0 +1,3 @@
+for printing.  Each string in the resulting list corresponds to the
+   item with the same index in the argument list.  Each string ends in
+   a newline; the strings may contain internal newlines as well, for

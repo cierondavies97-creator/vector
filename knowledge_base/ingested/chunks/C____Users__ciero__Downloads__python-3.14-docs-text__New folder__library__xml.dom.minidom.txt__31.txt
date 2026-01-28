@@ -1,0 +1,5 @@
+"toxml()".
+   The *standalone* argument behaves exactly as in "writexml()".
+   Changed in version 3.8: The "toprettyxml()" method now preserves
+   the attribute order specified by the user.
+   Changed in version 3.9: The *standalone* parameter was added.

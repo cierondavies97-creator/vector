@@ -1,0 +1,4 @@
+*garbage collection* is free to destroy the referent and reuse its
+memory for something else.  However, until the object is actually
+destroyed the weak reference may return the object even if there are
+no strong references to it.

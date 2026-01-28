@@ -1,0 +1,4 @@
+or timeout.  Sockets are by default always created in blocking mode,
+but this can be changed by calling "setdefaulttimeout()".
+* In *blocking mode*, operations block until complete or the system
+  returns an error (such as connection timed out).

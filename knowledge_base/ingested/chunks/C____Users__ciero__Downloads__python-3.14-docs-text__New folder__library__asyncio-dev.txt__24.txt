@@ -1,0 +1,7 @@
+In this case, asyncio would emit a log message when the Future object
+is garbage collected.
+Example of an unhandled exception:
+   import asyncio
+   async def bug():
+       raise Exception("not consumed")
+   async def main():

@@ -1,0 +1,4 @@
+del_t_atom[expr_ty]:
+       | a=NAME { _PyPegen_set_expr_context(p, a, Del) }
+       | '(' a=del_target ')' { _PyPegen_set_expr_context(p, a, Del) }
+       | '(' a=[del_targets] ')' { _PyAST_Tuple(a, Del, EXTRA) }

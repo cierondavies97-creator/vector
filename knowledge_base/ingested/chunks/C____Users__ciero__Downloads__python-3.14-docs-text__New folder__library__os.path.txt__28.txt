@@ -1,0 +1,3 @@
+time of the last metadata change, and, on others (like Windows), is
+   the creation time for *path*. The return value is a number giving
+   the number of seconds since the epoch (see the  "time" module).

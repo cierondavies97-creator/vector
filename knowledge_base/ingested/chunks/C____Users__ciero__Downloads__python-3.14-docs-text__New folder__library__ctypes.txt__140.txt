@@ -1,0 +1,8 @@
+would cause the pointer to point to the memory location where this is
+stored:
+   >>> i = c_int(99)
+   >>> pi.contents = i
+   >>> pi.contents
+   c_long(99)
+   >>>
+Pointer instances can also be indexed with integers:

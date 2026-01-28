@@ -1,0 +1,4 @@
+with a call to close the reset method must be called to make the
+   parser ready to accept new data, either from feed or using the
+   parse method.
+   Note that these methods must *not* be called during parsing, that

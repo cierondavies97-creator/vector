@@ -1,0 +1,5 @@
+hex digits is given, curly braces, hyphens, and a URN prefix are
+   all optional.  For example, these expressions all yield the same
+   UUID:
+      UUID('{12345678-1234-5678-1234-567812345678}')
+      UUID('12345678123456781234567812345678')

@@ -1,0 +1,7 @@
+'id': 50380847,
+        'kea': 'kx-ecdhe',
+        'name': 'ECDHE-RSA-AES128-GCM-SHA256',
+        'protocol': 'TLSv1.2',
+        'strength_bits': 128,
+        'symmetric': 'aes-128-gcm'}]
+   Added in version 3.6.

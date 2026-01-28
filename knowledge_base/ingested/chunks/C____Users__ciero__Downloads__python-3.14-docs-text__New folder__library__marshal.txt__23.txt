@@ -1,0 +1,5 @@
+"marshal.loads" event for the entire load operation.
+   Changed in version 3.13: Added the *allow_code* parameter.
+In addition, the following constants are defined:
+marshal.version
+   Indicates the format that the module uses. Version 0 is the

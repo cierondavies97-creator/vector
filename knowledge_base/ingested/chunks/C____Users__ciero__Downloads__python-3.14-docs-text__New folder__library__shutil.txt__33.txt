@@ -1,0 +1,4 @@
+preserve file metadata.
+   When *follow_symlinks* is false, and *src* is a symbolic link,
+   "copy2()" attempts to copy all metadata from the *src* symbolic
+   link to the newly created *dst* symbolic link. However, this

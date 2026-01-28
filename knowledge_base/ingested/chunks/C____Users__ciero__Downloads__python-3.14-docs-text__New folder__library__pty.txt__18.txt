@@ -1,0 +1,4 @@
+print('Script started, file is', filename)
+       script.write(('Script started on %s\n' % time.asctime()).encode())
+       pty.spawn(shell, read)
+       script.write(('Script done on %s\n' % time.asctime()).encode())

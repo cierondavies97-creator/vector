@@ -1,0 +1,6 @@
+with IPv4, IPv6 with IPv6).
+Logical operators
+~~~~~~~~~~~~~~~~~
+Network objects can be compared with the usual set of logical
+operators. Network objects are ordered first by network address, then
+by net mask.

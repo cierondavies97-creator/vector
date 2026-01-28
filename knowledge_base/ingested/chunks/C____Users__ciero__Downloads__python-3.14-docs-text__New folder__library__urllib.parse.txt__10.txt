@@ -1,0 +1,4 @@
+*path* component, which is retained if present.  For example:
+      >>> from urllib.parse import urlparse
+      >>> urlparse("scheme://netloc/path;parameters?query#fragment")
+      ParseResult(scheme='scheme', netloc='netloc', path='/path;parameters', params='',

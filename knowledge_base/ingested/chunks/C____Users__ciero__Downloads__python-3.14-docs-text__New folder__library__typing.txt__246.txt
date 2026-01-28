@@ -1,0 +1,4 @@
+A = TypeVar('A', str, bytes)  # Must be exactly str or bytes
+   Type variables exist primarily for the benefit of static type
+   checkers.  They serve as the parameters for generic types as well
+   as for generic function and type alias definitions. See "Generic"

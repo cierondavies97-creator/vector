@@ -1,0 +1,3 @@
+BLAKE2 has configurable size of digests up to 64 bytes for BLAKE2b and
+up to 32 bytes for BLAKE2s. For example, to replace SHA-1 with BLAKE2b
+without changing the size of output, we can tell BLAKE2b to produce

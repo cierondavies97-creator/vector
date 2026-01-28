@@ -1,0 +1,4 @@
+*current context* is the "Context" object at the top of the current
+   thread's stack.  All "Context" objects in the stacks are considered
+   to be *entered*.
+   *Entering* a context, which can be done by calling its "run()"

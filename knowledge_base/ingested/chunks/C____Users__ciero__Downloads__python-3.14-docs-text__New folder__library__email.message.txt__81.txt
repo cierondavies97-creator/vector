@@ -1,0 +1,4 @@
+The possible values for this method are *inline*, *attachment*
+      or "None" if the message follows **RFC 2183**.
+      Added in version 3.5.
+   The following methods relate to interrogating and manipulating the

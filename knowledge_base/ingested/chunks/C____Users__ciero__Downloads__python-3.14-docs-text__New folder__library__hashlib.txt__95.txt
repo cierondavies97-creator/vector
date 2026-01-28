@@ -1,0 +1,8 @@
+>>> h2 = blake2b(salt=salt2)
+>>> h2.update(msg)
+>>> # The digests are different.
+>>> h1.digest() != h2.digest()
+True
+Personalization
+~~~~~~~~~~~~~~~
+Sometimes it is useful to force hash function to produce different

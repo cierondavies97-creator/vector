@@ -1,0 +1,5 @@
+attempted with the cursor.
+   setinputsizes(sizes, /)
+      Required by the DB-API. Does nothing in "sqlite3".
+   setoutputsize(size, column=None, /)
+      Required by the DB-API. Does nothing in "sqlite3".

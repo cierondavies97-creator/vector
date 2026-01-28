@@ -1,0 +1,4 @@
+Returns "True" if the named *path* is considered a resource.
+      "FileNotFoundError" is raised if *path* does not exist.
+      Changed in version 3.10: The argument *name* was renamed to
+      *path*.

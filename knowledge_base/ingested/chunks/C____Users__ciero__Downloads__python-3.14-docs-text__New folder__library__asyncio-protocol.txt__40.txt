@@ -1,0 +1,3 @@
+watermark.  Setting *high* to zero forces *low* to zero as well,
+   and causes "pause_writing()" to be called whenever the buffer
+   becomes non-empty.  Setting *low* to zero causes "resume_writing()"

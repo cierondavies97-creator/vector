@@ -1,0 +1,5 @@
+@neg.register
+          def _(self, arg: bool):
+              return not arg
+   "@singledispatchmethod" supports nesting with other decorators such
+   as "@classmethod". Note that to allow for "dispatcher.register",

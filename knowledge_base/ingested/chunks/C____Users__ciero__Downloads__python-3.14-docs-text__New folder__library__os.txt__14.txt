@@ -1,0 +1,4 @@
+bytes are replaced by a Unicode character U+DC*xx* on decoding, and
+these are again translated to the original byte on encoding.
+The *file system encoding* must guarantee to successfully decode all
+bytes below 128. If the file system encoding fails to provide this

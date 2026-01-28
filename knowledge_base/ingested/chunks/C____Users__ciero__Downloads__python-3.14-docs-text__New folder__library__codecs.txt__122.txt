@@ -1,0 +1,4 @@
+compatible with the Python codec registry.
+class codecs.StreamReader(stream, errors='strict')
+   Constructor for a "StreamReader" instance.
+   All stream readers must provide this constructor interface. They

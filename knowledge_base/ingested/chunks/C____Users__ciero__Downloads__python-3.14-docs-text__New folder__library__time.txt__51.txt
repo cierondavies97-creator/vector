@@ -1,0 +1,7 @@
+"float" type.
+   Added in version 3.3.
+time.process_time_ns() -> int
+   Similar to "process_time()" but return time as nanoseconds.
+   Added in version 3.7.
+time.sleep(secs)
+   Suspend execution of the calling thread for the given number of

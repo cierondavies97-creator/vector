@@ -1,0 +1,4 @@
+* Quotes are stripped out, and do not separate words
+  (""Do"Not"Separate"" is parsed as the single word "DoNotSeparate");
+* Non-quoted escape characters (e.g. "'\'") preserve the literal value
+  of the next character that follows;

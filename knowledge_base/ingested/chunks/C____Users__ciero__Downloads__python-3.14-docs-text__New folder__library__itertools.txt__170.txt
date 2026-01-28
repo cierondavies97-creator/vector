@@ -1,0 +1,5 @@
+# Algorithm credited to Stefan Pochmann
+       seq = tuple(iterable)
+       pos = tuple(range(len(seq)))
+       have_moved = map(map, repeat(is_not), repeat(pos), permutations(pos, r=r))
+       valid_derangements = map(all, have_moved)

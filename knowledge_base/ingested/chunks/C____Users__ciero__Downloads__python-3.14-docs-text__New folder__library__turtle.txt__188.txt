@@ -1,0 +1,5 @@
+with the Shape class *only* when using compound shapes like shown
+  above!
+Methods of TurtleScreen/Screen and corresponding functions
+==========================================================
+Most of the examples in this section refer to a TurtleScreen instance

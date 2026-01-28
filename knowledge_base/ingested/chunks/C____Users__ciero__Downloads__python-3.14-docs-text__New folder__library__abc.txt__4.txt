@@ -1,0 +1,4 @@
+A helper class that has "ABCMeta" as its metaclass.  With this
+   class, an abstract base class can be created by simply deriving
+   from "ABC" avoiding sometimes confusing metaclass usage, for
+   example:

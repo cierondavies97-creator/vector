@@ -1,0 +1,8 @@
+static PyMethodDef spam_methods[] = {
+       ...
+       {"system",  spam_system, METH_VARARGS,
+        "Execute a shell command."},
+       ...
+       {NULL, NULL, 0, NULL}        /* Sentinel */
+   };
+Note the third entry ("METH_VARARGS").  This is a flag telling the

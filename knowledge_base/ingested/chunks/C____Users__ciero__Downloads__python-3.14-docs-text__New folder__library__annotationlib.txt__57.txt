@@ -1,0 +1,4 @@
+below for an example using this function in a metaclass.
+   Added in version 3.14.
+annotationlib.get_annotations(obj, *, globals=None, locals=None, eval_str=False, format=Format.VALUE)
+   Compute the annotations dict for an object.

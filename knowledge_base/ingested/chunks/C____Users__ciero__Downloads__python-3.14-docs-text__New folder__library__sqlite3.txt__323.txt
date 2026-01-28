@@ -1,0 +1,4 @@
+custom "row_factory".
+While "row_factory" exists as an attribute both on the "Cursor" and
+the "Connection", it is recommended to set "Connection.row_factory",
+so all cursors created from the connection will use the same row

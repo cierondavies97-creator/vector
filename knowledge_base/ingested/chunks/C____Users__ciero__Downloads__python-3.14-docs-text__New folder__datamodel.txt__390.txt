@@ -1,0 +1,4 @@
+predictable between repeated invocations of Python.This is
+     intended to provide protection against a denial-of-service caused
+     by carefully chosen inputs that exploit the worst case
+     performance of a dict insertion, *O*(*n*^2) complexity.  See

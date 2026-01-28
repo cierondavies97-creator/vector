@@ -1,0 +1,7 @@
+Examples
+========
+Here are some examples of typical usage of the "tempfile" module:
+   >>> import tempfile
+   # create a temporary file and write some data to it
+   >>> fp = tempfile.TemporaryFile()
+   >>> fp.write(b'Hello world!')

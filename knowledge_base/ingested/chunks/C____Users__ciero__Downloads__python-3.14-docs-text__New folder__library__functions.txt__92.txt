@@ -1,0 +1,6 @@
+Raises:
+      Syntax errors are reported as exceptions.
+   Warning:
+     This function executes arbitrary code. Calling it with user-
+     supplied input may lead to security vulnerabilities.
+   The *source* argument is parsed and evaluated as a Python

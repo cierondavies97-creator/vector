@@ -1,0 +1,4 @@
+blocking mode: block until the system urandom entropy pool is
+   initialized (128 bits of entropy are collected by the kernel). See
+   the **PEP 524** for the rationale. On Linux, the "getrandom()"
+   function can be used to get random bytes in non-blocking mode

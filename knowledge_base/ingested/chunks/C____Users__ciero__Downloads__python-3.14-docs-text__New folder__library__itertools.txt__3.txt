@@ -1,0 +1,5 @@
+produces a sequence "f(0), f(1), ...".  The same effect can be
+achieved in Python by combining "map()" and "count()" to form "map(f,
+count())".
+**Infinite iterators:**
++--------------------+-------------------+---------------------------------------------------+-------------------------------------------+

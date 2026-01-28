@@ -1,0 +1,4 @@
+matching message numbers.
+   Sort has two arguments before the *search_criterion* argument(s); a
+   parenthesized list of *sort_criteria*, and the searching *charset*.
+   Note that unlike "search", the searching *charset* argument is

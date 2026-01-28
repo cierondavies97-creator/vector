@@ -1,0 +1,4 @@
+* *thread*: Thread which raised the exception, can be "None".
+   If *exc_type* is "SystemExit", the exception is silently ignored.
+   Otherwise, the exception is printed out on "sys.stderr".
+   If  this function raises an exception, "sys.excepthook()" is called

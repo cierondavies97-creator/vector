@@ -1,0 +1,10 @@
+product_value = prod(numbers)
+return sum_value - product_value
+▶ split into functions
+▶ use libraries/built-ins
+▶ fix bug
+Nicola Chiapolini, 8 July 2024
+29 / 34
+Introduction
+Style & Documentation
+Special Statements

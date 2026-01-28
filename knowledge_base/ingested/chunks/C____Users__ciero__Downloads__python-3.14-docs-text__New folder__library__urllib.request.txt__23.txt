@@ -1,0 +1,4 @@
+Convert the given local path to a "file:" URL. This function uses
+   "quote()" function to encode the path.
+   If *add_scheme* is false (the default), the return value omits the
+   "file:" scheme prefix. Set *add_scheme* to true to return a

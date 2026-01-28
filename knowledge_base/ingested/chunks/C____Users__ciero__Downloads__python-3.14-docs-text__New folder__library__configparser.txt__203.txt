@@ -1,0 +1,4 @@
+to files) can only be achieved using string values.
+      This method lets users assign non-string values to keys
+      internally.  This behaviour is unsupported and will cause errors
+      when attempting to write to a file or get it in non-raw mode.

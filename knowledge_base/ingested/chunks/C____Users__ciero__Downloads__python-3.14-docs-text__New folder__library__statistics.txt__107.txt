@@ -1,0 +1,4 @@
+Setting the *method* to "inclusive" is used for describing
+   population data or for samples that are known to include the most
+   extreme values from the population.  The minimum value in *data* is
+   treated as the 0th percentile and the maximum value is treated as

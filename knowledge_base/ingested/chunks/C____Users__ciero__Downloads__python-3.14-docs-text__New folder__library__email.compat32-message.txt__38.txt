@@ -1,0 +1,3 @@
+returned as-is (undecoded).  In all cases the returned value is
+      binary data.  If the message is a multipart and the *decode*
+      flag is "True", then "None" is returned.  If the payload is

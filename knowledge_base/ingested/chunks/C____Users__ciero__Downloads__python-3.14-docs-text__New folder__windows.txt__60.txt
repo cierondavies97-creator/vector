@@ -1,0 +1,4 @@
+The "--yes" option bypasses the confirmation prompt before
+uninstalling.
+Instead of passing tags individually, the "--purge" option may be
+specified. This will remove all runtimes managed by the Python install

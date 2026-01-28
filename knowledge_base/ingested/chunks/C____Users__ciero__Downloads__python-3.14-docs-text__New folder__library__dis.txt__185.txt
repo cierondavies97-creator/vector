@@ -1,0 +1,6 @@
+returned by the callable object.
+   Added in version 3.6.
+PUSH_NULL
+   Pushes a "NULL" to the stack. Used in the call sequence to match
+   the "NULL" pushed by "LOAD_METHOD" for non-method calls.
+   Added in version 3.11.

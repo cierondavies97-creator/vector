@@ -1,0 +1,4 @@
+classes* (ABCs) in Python, as outlined in **PEP 3119**; see the PEP
+for why this was added to Python. (See also **PEP 3141** and the
+"numbers" module regarding a type hierarchy for numbers based on
+ABCs.)

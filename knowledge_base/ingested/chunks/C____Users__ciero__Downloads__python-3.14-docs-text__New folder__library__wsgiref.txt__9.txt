@@ -1,0 +1,4 @@
+such protocols will include a "HTTPS" variable with a value of "1",
+   "yes", or "on" when a request is received via SSL.  So, this
+   function returns "https" if such a value is found, and "http"
+   otherwise.

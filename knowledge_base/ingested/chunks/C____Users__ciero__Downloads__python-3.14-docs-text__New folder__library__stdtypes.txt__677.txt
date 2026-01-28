@@ -1,0 +1,4 @@
+The "itemsize" attribute will give you the number of bytes in a
+      single element.
+      A "memoryview" supports slicing and indexing to expose its data.
+      One-dimensional slicing will result in a subview:

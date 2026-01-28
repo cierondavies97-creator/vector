@@ -1,0 +1,5 @@
+helps illustrate the various APIs that importlib exposes by providing
+an approximate implementation of "importlib.import_module()":
+   import importlib.util
+   import sys
+   def import_module(name, package=None):

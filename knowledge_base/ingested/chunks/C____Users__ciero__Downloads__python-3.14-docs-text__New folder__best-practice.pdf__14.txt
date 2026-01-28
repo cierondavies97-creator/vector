@@ -1,0 +1,8 @@
+▶ autopep8 (e.g autopep8 --in-place my_product.py)
+▶ yapf3 (e.g yapf3 --in-place my_product.py)
+▶ black (e.g. black my_product.py)
+Nicola Chiapolini, 8 July 2024
+8 / 34
+Introduction
+Style & Documentation
+Special Statements

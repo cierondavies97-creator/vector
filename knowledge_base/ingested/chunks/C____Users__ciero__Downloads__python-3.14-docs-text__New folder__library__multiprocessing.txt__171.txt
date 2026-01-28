@@ -1,0 +1,5 @@
+the "current_process()". For the main process, "parent_process"
+   will be "None".
+   Added in version 3.8.
+multiprocessing.freeze_support()
+   Add support for when a program which uses "multiprocessing" has

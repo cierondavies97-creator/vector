@@ -1,0 +1,4 @@
+| 2       | gr_gid      | the numerical group ID            |
++---------+-------------+-----------------------------------+
+| 3       | gr_mem      | all the group member's  user      |
+|         |             | names                             |

@@ -1,0 +1,6 @@
+newdatatype_getattr(PyObject *op, char *name)
+   {
+       newdatatypeobject *self = (newdatatypeobject *) op;
+       if (strcmp(name, "data") == 0) {
+           return PyLong_FromLong(self->data);
+       }

@@ -1,0 +1,3 @@
+Changed in version 3.4: Any *bytes-like object* is now accepted.
+      Note that it is invalid to set any parameters after calling
+      "writeframes()" or "writeframesraw()", and any attempt to do so

@@ -1,0 +1,4 @@
+except Exception as e:
+           print('Error: %s' % e, file=sys.stderr)
+       sys.exit(rc)
+This script is also available for download online.

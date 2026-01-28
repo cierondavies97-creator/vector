@@ -1,0 +1,7 @@
+s.bind((HOST, 0))
+   # Include IP headers
+   s.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
+   # receive all packets
+   s.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
+   # receive a packet
+   print(s.recvfrom(65565))

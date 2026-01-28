@@ -1,0 +1,6 @@
+penup(self) unbound turtle.Turtle method
+         Pull the pen up -- no drawing when moving.
+         Aliases: penup | pu | up
+         No argument
+         >>> turtle.penup()
+* The docstrings of the functions which are derived from methods have

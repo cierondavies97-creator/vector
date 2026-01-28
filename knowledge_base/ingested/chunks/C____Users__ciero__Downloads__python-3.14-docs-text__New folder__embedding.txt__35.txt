@@ -1,0 +1,8 @@
+Py_DECREF(pModule);
+       }
+       else {
+           PyErr_Print();
+           fprintf(stderr, "Failed to load \"%s\"\n", argv[1]);
+           return 1;
+       }
+       if (Py_FinalizeEx() < 0) {

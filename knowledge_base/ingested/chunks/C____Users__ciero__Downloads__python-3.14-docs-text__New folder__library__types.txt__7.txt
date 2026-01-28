@@ -1,0 +1,4 @@
+*metaclass* is the appropriate metaclass, *namespace* is the
+   prepared class namespace and *kwds* is an updated copy of the
+   passed in *kwds* argument with any "'metaclass'" entry removed. If
+   no *kwds* argument is passed in, this will be an empty dict.

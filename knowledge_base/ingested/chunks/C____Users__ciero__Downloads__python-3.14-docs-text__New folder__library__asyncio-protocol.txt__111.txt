@@ -1,0 +1,6 @@
+self.transport.close()
+       def error_received(self, exc):
+           print('Error received:', exc)
+       def connection_lost(self, exc):
+           print("Connection closed")
+           self.on_con_lost.set_result(True)

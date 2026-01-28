@@ -1,0 +1,11 @@
+"fill()"
+         "begin_fill()"
+         "end_fill()"
+   More drawing control
+         "reset()"
+         "clear()"
+         "write()"
+Turtle state
+   Visibility
+         "showturtle()" | "st()"
+         "hideturtle()" | "ht()"

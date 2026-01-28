@@ -1,0 +1,5 @@
+A class method receives the class as an implicit first argument,
+   just like an instance method receives the instance. To declare a
+   class method, use this idiom:
+      class C:
+          @classmethod

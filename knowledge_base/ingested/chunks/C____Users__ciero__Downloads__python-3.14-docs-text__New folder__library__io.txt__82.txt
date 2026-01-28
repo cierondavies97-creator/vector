@@ -1,0 +1,5 @@
+"read()" will return data read so far or "None" if no data is
+   available.
+   Besides, the "read()" method does not have a default implementation
+   that defers to "readinto()".
+   A typical "BufferedIOBase" implementation should not inherit from a

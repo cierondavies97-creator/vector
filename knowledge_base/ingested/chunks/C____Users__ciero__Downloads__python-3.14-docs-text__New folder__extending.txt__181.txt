@@ -1,0 +1,4 @@
+and "PyList_SetItem()".  These functions take over ownership of the
+item passed to them --- even if they fail!  (Note that
+"PyDict_SetItem()" and friends don't take over ownership --- they are
+"normal.")

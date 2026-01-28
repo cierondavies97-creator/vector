@@ -1,0 +1,8 @@
+in the example YAML snippet below.
+   handlers:
+     qhand:
+       class: logging.handlers.QueueHandler
+       queue: my.module.queue_factory
+       listener: my.package.CustomListener
+       handlers:
+         - hand_name_1

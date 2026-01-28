@@ -1,0 +1,8 @@
+visible = True
+   language = english
+   exampleturtle = turtle
+   examplescreen = screen
+   title = Python Turtle Graphics
+   using_IDLE = False
+Short explanation of selected entries:
+* The first four lines correspond to the arguments of the

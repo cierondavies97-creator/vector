@@ -1,0 +1,4 @@
+getter function or around the cached property access.
+   Note, this decorator interferes with the operation of **PEP 412**
+   key-sharing dictionaries.  This means that instance dictionaries
+   can take more space than usual.

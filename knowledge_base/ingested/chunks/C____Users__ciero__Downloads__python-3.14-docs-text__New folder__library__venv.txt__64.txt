@@ -1,0 +1,5 @@
+"install_scripts()").
+      * "env_name" - The name of the virtual environment. Used for
+        "__VENV_NAME__" in activation scripts (see
+        "install_scripts()").
+      * "prompt" - The prompt to be used by the activation scripts.

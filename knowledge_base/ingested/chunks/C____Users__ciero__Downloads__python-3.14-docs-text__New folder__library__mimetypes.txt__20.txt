@@ -1,0 +1,5 @@
+Changed in version 3.2: Previously, Windows registry settings were
+   ignored.
+mimetypes.read_mime_types(filename)
+   Load the type map given in the file *filename*, if it exists.  The
+   type map is returned as a dictionary mapping filename extensions,

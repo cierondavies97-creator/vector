@@ -1,0 +1,5 @@
+behavior because "Py_UNICODE" is alias of "wchar_t" since Python
+   3.3.
+   Deprecated since version 3.3, will be removed in version 3.16:
+   Please migrate to "'w'" typecode.
+2. Added in version 3.13.

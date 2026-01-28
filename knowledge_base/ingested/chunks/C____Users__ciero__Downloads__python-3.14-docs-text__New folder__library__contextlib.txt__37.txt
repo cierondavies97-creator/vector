@@ -1,0 +1,6 @@
+cm = nullcontext(file_or_path)
+          with cm as file:
+              # Perform processing on the file
+   It can also be used as a stand-in for asynchronous context
+   managers:
+      async def send_http(session=None):

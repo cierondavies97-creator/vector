@@ -1,0 +1,5 @@
+disable_current_event()
+      Disable the current event until the next time "restart_events()"
+      is called. This is helpful when the debugger is not interested
+      in the current line.
+      Added in version 3.14.

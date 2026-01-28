@@ -1,0 +1,4 @@
+*Content-Type* header of type *multipart*, but their
+  "is_multipart()" method may return "False". If such messages were
+  parsed with the "FeedParser", they will have an instance of the
+  "MultipartInvariantViolationDefect" class in their *defects*

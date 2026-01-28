@@ -1,0 +1,6 @@
+"SMTPAuthenticationError"
+      The server didn't accept the username/password combination.
+   "SMTPNotSupportedError"
+      The "AUTH" command is not supported by the server.
+   "SMTPException"
+      No suitable authentication method was found.

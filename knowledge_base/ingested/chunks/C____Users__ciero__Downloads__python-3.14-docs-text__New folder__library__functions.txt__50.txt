@@ -1,0 +1,4 @@
+non-zero integer then the *flags* argument is it -- the flags
+   (future features and compiler options) in the surrounding code are
+   ignored.
+   Compiler options and future statements are specified by bits which

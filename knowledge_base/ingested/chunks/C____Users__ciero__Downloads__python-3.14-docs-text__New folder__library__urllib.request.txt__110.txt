@@ -1,0 +1,3 @@
+exceptions raised are the same as those of "urlopen()" (which
+   simply calls the "open()" method on the currently installed global
+   "OpenerDirector").  The optional *timeout* parameter specifies a

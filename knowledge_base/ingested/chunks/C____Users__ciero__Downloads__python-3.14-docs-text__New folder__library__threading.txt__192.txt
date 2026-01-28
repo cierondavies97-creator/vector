@@ -1,0 +1,9 @@
+thread:
+   b = Barrier(2, timeout=5)
+   def server():
+       start_server()
+       b.wait()
+       while True:
+           connection = accept_connection()
+           process_server_connection(connection)
+   def client():

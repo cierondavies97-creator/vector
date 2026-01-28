@@ -1,0 +1,5 @@
+case _:
+               raise ValueError('Expected fill, strict, or ignore')
+   def roundrobin(*iterables):
+       "Visit input iterables in a cycle until each is exhausted."
+       # roundrobin('ABC', 'D', 'EF') → A D E B F C

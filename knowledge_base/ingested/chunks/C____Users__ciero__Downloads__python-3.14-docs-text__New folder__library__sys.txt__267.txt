@@ -1,0 +1,3 @@
+of the version as returned by "uname -r" appended, e.g. "'sunos5'",
+   *at the time when Python was built*. Unless you want to test for a
+   specific system version, it is therefore recommended to use the

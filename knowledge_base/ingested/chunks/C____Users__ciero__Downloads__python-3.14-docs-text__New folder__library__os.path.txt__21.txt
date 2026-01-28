@@ -1,0 +1,4 @@
+"pwd". An initial "~user" is looked up directly in the password
+   directory.
+   On Windows, "USERPROFILE" will be used if set, otherwise a
+   combination of "HOMEPATH" and "HOMEDRIVE" will be used.  An initial

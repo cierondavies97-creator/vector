@@ -1,0 +1,6 @@
+passed to "simplefilter()" as if it were called immediately on
+   entering the context.
+   See The Warnings Filter for the meaning of the *category* and
+   *lineno* parameters.
+   Note:
+     See Concurrent safety of Context Managers for details on the

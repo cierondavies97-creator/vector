@@ -1,0 +1,4 @@
+the absolute values of the operands.
+   next_minus(context=None)
+      Return the largest number representable in the given context (or
+      in the current thread's context if no context is given) that is

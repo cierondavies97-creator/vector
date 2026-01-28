@@ -1,0 +1,5 @@
+>>> u._replace(scheme='http')
+      ParseResult(scheme='http', netloc='www.cwi.nl:80', path='/%7Eguido/Python.html',
+                  params='', query='', fragment='')
+   Warning:
+     "urlparse()" does not perform validation.  See URL parsing

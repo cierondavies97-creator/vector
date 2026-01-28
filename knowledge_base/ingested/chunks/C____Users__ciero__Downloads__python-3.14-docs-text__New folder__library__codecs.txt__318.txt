@@ -1,0 +1,2 @@
+byte stream). On decoding, an optional UTF-8 encoded BOM at the start
+of the data will be skipped.

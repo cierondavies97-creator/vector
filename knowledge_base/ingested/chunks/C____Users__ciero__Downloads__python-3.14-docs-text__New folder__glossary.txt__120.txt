@@ -1,0 +1,6 @@
+For more details, see generic alias types, **PEP 483**, **PEP
+   484**, **PEP 585**, and the "typing" module.
+GIL
+   See *global interpreter lock*.
+global interpreter lock
+   The mechanism used by the *CPython* interpreter to assure that only

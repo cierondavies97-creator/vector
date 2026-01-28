@@ -1,0 +1,4 @@
+Type hints of global variables, class attributes, and functions,
+   but not local variables, can be accessed using
+   "typing.get_type_hints()".
+   See "typing" and **PEP 484**, which describe this functionality.

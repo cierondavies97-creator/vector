@@ -1,0 +1,3 @@
+decoding errors are to be handled—this cannot be used in binary
+   mode. A variety of standard error handlers are available (listed
+   under Error Handlers), though any error handling name that has been

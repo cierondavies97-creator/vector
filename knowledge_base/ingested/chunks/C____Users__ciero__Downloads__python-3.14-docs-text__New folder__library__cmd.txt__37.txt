@@ -1,0 +1,4 @@
+a few of the commands in the "turtle" module.
+Basic turtle commands such as "forward()" are added to a "Cmd"
+subclass with method named "do_forward()".  The argument is converted
+to a number and dispatched to the turtle module.  The docstring is

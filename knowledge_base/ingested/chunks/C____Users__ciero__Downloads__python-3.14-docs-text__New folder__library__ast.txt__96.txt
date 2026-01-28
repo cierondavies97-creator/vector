@@ -1,0 +1,5 @@
+class ast.Starred(value, ctx)
+   A "*var" variable reference. "value" holds the variable, typically
+   a "Name" node. This type must be used when building a "Call" node
+   with "*args".
+      >>> print(ast.dump(ast.parse('a, *b = it'), indent=4))

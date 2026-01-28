@@ -1,0 +1,4 @@
+*extraglobs* appears in the combined dict.  By default, or if
+   "None", no extra globals are used.  This is an advanced feature
+   that allows parameterization of doctests.  For example, a doctest
+   can be written for a base class, using a generic name for the

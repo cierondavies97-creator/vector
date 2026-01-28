@@ -1,0 +1,4 @@
+important when functions may be called recursively or from signal
+   handlers. Thread-unsafe functions may be *non-deterministic* if
+   they're called reentrantly in a multithreaded program.
+   For locks, Python's "threading.RLock" (reentrant lock) is

@@ -1,0 +1,5 @@
+can be found in the SQLite URI documentation.
+How to create and use row factories
+-----------------------------------
+By default, "sqlite3" represents each row as a "tuple". If a "tuple"
+does not suit your needs, you can use the "sqlite3.Row" class or a

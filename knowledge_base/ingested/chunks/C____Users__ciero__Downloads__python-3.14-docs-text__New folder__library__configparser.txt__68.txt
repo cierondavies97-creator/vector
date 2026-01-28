@@ -1,0 +1,3 @@
+This option accepts a dictionary of key-value pairs which will be
+  initially put in the "DEFAULT" section.  This makes for an elegant
+  way to support concise configuration files that don't specify values

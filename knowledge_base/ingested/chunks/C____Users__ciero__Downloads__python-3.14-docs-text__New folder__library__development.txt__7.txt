@@ -1,0 +1,5 @@
+* ResourceWarning Example
+  * Bad file descriptor error example
+* "doctest" --- Test interactive Python examples
+  * Simple Usage: Checking Examples in Docstrings
+  * Simple Usage: Checking Examples in a Text File

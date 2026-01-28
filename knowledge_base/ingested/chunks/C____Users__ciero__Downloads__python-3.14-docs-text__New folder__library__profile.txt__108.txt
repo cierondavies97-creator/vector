@@ -1,0 +1,5 @@
+Do *not* be alarmed by negative numbers in the profile.  They should
+*only* appear if you have calibrated your profiler, and the results
+are actually better than without calibration.
+Calibration
+===========

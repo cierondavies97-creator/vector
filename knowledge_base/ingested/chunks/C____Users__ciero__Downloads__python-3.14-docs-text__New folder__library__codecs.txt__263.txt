@@ -1,0 +1,4 @@
+| oem                  |           | Windows only: Encode the    |
+|                      |           | operand according to the    |
+|                      |           | OEM codepage (CP_OEMCP).    |
+|                      |           | Added in version 3.6.       |

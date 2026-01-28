@@ -1,0 +1,4 @@
+have the full flexibility of Python's f-strings, but return a
+"Template" instance that gives access to the static and interpolated
+(in curly brackets) parts of a string *before* they are combined.
+To write a t-string, use a "'t'" prefix instead of an "'f'", like so:

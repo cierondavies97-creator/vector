@@ -1,0 +1,6 @@
+*singular* is returned, and *plural* is returned in all other
+      cases.
+      Added in version 3.8.
+Solaris message catalog support
+-------------------------------
+The Solaris operating system defines its own binary ".mo" file format,

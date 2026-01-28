@@ -1,0 +1,5 @@
+s = s.lstrip('-0b') # remove leading zeros and minus sign
+          return len(s)       # len('100101') --> 6
+   Added in version 3.1.
+int.bit_count()
+   Return the number of ones in the binary representation of the

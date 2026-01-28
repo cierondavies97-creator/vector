@@ -1,0 +1,8 @@
+column is numbered "0".
+Example
+=======
+The following program defines three handlers that just print out their
+arguments.
+   import xml.parsers.expat
+   # 3 handler functions
+   def start_element(name, attrs):

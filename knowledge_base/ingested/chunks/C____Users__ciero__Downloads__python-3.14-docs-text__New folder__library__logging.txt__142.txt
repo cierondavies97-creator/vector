@@ -1,0 +1,4 @@
+outputs the event message) is used as the line formatter.
+   formatHeader(records)
+      Return a header for a list of *records*. The base implementation
+      just returns the empty string. You will need to override this

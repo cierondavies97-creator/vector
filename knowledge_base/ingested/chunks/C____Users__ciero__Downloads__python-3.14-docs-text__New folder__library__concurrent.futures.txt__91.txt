@@ -1,0 +1,4 @@
+"TimeoutError" will be raised.  *timeout* can be an int or
+      float.  If *timeout* is not specified or "None", there is no
+      limit to the wait time.
+      If the future is cancelled before completing then

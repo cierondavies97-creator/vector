@@ -1,0 +1,5 @@
+the "Cursor":
+   cur = con.cursor()
+Now that we've got a database connection and a cursor, we can create a
+database table "movie" with columns for title, release year, and
+review score. For simplicity, we can just use column names in the

@@ -1,0 +1,5 @@
+little_ordered = list(bytes)
+          elif byteorder == 'big':
+              little_ordered = list(reversed(bytes))
+          else:
+              raise ValueError("byteorder must be either 'little' or 'big'")

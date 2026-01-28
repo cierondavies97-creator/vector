@@ -1,0 +1,7 @@
+traps
+   flags
+      Lists of any signals to be set. Generally, new contexts should
+      only set traps and leave the flags clear.
+   Emin
+   Emax
+      Integers specifying the outer limits allowable for exponents.

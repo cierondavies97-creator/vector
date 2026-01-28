@@ -1,0 +1,5 @@
+1522**.
+quopri.decodestring(s, header=False)
+   Like "decode()", except that it accepts a source "bytes" and
+   returns the corresponding decoded "bytes".
+quopri.encodestring(s, quotetabs=False, header=False)

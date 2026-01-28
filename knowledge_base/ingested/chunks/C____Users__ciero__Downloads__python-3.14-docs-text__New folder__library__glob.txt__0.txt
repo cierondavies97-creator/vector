@@ -1,0 +1,5 @@
+"glob" --- Unix style pathname pattern expansion
+************************************************
+**Source code:** Lib/glob.py
+======================================================================
+The "glob" module finds pathnames using pattern matching rules similar

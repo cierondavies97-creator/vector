@@ -1,0 +1,5 @@
+FileCookieJar.filename
+   Filename of default file in which to keep cookies.  This attribute
+   may be assigned to.
+FileCookieJar.delayload
+   If true, load cookies lazily from disk.  This attribute should not

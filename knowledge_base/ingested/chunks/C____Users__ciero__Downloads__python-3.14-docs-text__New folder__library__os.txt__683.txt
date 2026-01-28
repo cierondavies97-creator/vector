@@ -1,0 +1,3 @@
+functions.  If this is given as *mode*, the "spawn*" functions will
+   not return until the new process has run to completion and will
+   return the exit code of the process the run is successful, or

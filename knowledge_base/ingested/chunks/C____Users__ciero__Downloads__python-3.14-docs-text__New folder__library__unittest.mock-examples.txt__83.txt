@@ -1,0 +1,6 @@
+>>> call_list = chained.call_list()
+   >>> assert mock_backend.mock_calls == call_list
+Partial mocking
+---------------
+For some tests, you may want to mock out a call to
+"datetime.date.today()" to return a known date, but don't want to

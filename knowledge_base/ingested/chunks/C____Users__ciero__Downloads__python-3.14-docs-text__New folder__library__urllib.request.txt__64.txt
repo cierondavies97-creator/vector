@@ -1,0 +1,4 @@
+class urllib.request.HTTPPasswordMgrWithDefaultRealm
+   Keep a database of  "(realm, uri) -> (user, password)" mappings. A
+   realm of "None" is considered a catch-all realm, which is searched
+   if no other realm fits.

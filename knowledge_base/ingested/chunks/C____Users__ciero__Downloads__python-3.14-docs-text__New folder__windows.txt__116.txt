@@ -1,0 +1,4 @@
+environment variable) can be used in a shebang, even if it is not on
+your "PATH". This allows the use of shebangs like
+"/usr/bin/python3.12" to select a particular runtime.
+If no runtimes are installed, or if automatic installation is enabled,

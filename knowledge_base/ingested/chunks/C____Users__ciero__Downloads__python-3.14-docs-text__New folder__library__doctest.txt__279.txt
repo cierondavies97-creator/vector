@@ -1,0 +1,5 @@
+the documentation for "DocTestRunner" in section Advanced API.
+There are two exceptions that may be raised by "DebugRunner"
+instances:
+exception doctest.DocTestFailure(test, example, got)
+   An exception raised by "DocTestRunner" to signal that a doctest

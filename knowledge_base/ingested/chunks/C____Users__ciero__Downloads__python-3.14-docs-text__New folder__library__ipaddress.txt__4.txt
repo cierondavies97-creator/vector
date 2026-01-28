@@ -1,0 +1,3 @@
+Return an "IPv4Address" or "IPv6Address" object depending on the IP
+   address passed as argument.  Either IPv4 or IPv6 addresses may be
+   supplied; integers less than "2**32" will be considered to be IPv4

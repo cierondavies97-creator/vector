@@ -1,0 +1,6 @@
+MultiCall Objects
+=================
+The "MultiCall" object provides a way to encapsulate multiple calls to
+a remote server into a single request [1].
+class xmlrpc.client.MultiCall(server)
+   Create an object used to boxcar method calls. *server* is the

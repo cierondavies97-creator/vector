@@ -1,0 +1,4 @@
+extend(iterable)
+      Append items from *iterable* to the end of the array.  If
+      *iterable* is another array, it must have *exactly* the same
+      type code; if not, "TypeError" will be raised.  If *iterable* is

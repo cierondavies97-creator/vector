@@ -1,0 +1,6 @@
+def bit_count(self):
+          return bin(self).count("1")
+   Added in version 3.10.
+int.to_bytes(length=1, byteorder='big', *, signed=False)
+   Return an array of bytes representing an integer.
+   >>> (1024).to_bytes(2, byteorder='big')

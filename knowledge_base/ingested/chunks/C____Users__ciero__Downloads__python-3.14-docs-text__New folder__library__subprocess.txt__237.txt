@@ -1,0 +1,4 @@
+improves performance.
+   subprocess._USE_POSIX_SPAWN = False  # See CPython issue gh-NNNNNN.
+It is safe to set this to false on any Python version. It will have no
+effect on older or newer versions where unsupported. Do not assume the

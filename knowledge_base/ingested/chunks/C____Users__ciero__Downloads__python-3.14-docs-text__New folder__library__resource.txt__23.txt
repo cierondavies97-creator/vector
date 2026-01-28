@@ -1,0 +1,5 @@
+The BSD name for "RLIMIT_NOFILE".
+resource.RLIMIT_MEMLOCK
+   The maximum address space which may be locked in memory.
+resource.RLIMIT_VMEM
+   The largest area of mapped memory which the process may occupy.

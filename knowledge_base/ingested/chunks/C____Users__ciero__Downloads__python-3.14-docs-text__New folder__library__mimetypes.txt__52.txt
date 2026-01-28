@@ -1,0 +1,5 @@
+error: unknown extension of filename.pict
+   $ # now look in the extended database built into Python
+   $ python -m mimetypes --lenient filename.pict
+   type: image/pict encoding: None
+   $ # get a file extension by a MIME type

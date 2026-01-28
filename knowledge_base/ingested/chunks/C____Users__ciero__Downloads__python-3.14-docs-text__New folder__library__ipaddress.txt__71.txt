@@ -1,0 +1,4 @@
+some number of high-order bits set.  Thus the prefix "/24" is
+equivalent to the net mask "255.255.255.0" in IPv4, or "ffff:ff00::"
+in IPv6.  In addition, a *host mask* is the logical inverse of a *net
+mask*, and is sometimes used (for example in Cisco access control

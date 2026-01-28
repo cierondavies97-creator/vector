@@ -1,0 +1,3 @@
+_PyAST_AsyncFunctionDef(n->v.Name.id,
+                               (params) ? params : CHECK(arguments_ty, _PyPegen_empty_arguments(p)),
+                               b, NULL, a, NEW_TYPE_COMMENT(p, tc), t, EXTRA)

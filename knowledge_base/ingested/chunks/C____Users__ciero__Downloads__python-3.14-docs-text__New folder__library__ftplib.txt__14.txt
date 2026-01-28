@@ -1,0 +1,5 @@
+dr-xr-xr-x   9 ftp      ftp           154 May  6 10:43 ..
+   dr-xr-xr-x   5 ftp      ftp          4096 May  6 10:43 CentOS
+   dr-xr-xr-x   3 ftp      ftp            18 Jul 10  2008 Fedora
+   >>>
+   Changed in version 3.2: Support for the "with" statement was added.

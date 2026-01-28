@@ -1,0 +1,4 @@
+a new "Path" instance pointing to *target*.
+   If the source is a file, the target will be replaced if it is an
+   existing file. If the source is a symlink and *follow_symlinks* is
+   true (the default), the symlink's target is copied. Otherwise, the

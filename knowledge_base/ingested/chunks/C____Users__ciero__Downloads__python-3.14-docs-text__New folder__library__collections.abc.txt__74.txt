@@ -1,0 +1,4 @@
+following methods, defined in Coroutine Objects: "send()",
+   "throw()", and "close()".  Custom implementations must also
+   implement "__await__()".  All "Coroutine" instances are also
+   instances of "Awaitable".

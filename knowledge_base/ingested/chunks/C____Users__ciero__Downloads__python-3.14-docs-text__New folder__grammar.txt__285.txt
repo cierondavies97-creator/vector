@@ -1,0 +1,2 @@
+RAISE_INDENTATION_ERROR("expected an indented block after 'else' statement on line %d", a->lineno) }
+       | 'else' ':' block 'elif' { RAISE_SYNTAX_ERROR("'elif' block follows an 'else' block")}

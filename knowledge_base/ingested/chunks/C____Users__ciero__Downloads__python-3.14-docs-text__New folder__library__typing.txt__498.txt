@@ -1,0 +1,8 @@
+default value. For example:
+      >>> T = TypeVar("T")
+      >>> T.__default__ is typing.NoDefault
+      True
+      >>> S = TypeVar("S", default=None)
+      >>> S.__default__ is None
+      True
+   Added in version 3.13.

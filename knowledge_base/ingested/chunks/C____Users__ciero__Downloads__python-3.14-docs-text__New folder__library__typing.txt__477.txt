@@ -1,0 +1,5 @@
+(see "Annotated" for more information).
+   See also "annotationlib.get_annotations()", a lower-level function
+   that returns annotations more directly.
+   Caution:
+     This function may execute arbitrary code contained in

@@ -1,0 +1,4 @@
+"patch()". Like "patch()", "patch.object()" takes arbitrary keyword
+   arguments for configuring the mock object it creates.
+   When used as a class decorator "patch.object()" honours
+   "patch.TEST_PREFIX" for choosing which methods to wrap.

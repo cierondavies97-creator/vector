@@ -1,0 +1,4 @@
+to as *mboxo*. This means that the *Content-Length* header, if
+   present, is ignored and that any occurrences of "From " at the
+   beginning of a line in a message body are transformed to ">From "
+   when storing the message, although occurrences of ">From " are not

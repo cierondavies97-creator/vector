@@ -1,0 +1,4 @@
+The decorated class, metaclass, or function may accept the
+   following bool arguments which type checkers will assume have the
+   same effect as they would have on the "@dataclasses.dataclass"
+   decorator: "init", "eq", "order", "unsafe_hash", "frozen",

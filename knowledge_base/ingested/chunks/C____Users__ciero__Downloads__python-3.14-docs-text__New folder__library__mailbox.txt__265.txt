@@ -1,0 +1,7 @@
+Examples
+========
+A simple example of printing the subjects of all messages in a mailbox
+that seem interesting:
+   import mailbox
+   for message in mailbox.mbox('~/mbox'):
+       subject = message['subject']       # Could possibly be None.

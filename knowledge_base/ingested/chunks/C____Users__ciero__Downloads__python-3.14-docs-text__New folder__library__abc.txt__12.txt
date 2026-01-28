@@ -1,0 +1,4 @@
+allow usage as a class decorator.
+      Changed in version 3.4: To detect calls to "register()", you can
+      use the "get_cache_token()" function.
+   You can also override this method in an abstract base class:

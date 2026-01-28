@@ -1,0 +1,5 @@
+"True" if "sys.platform" is "wasi".
+test.support.is_apple_mobile
+   "True" if "sys.platform" is "ios", "tvos", or "watchos".
+test.support.is_apple
+   "True" if "sys.platform" is "darwin" or "is_apple_mobile" is

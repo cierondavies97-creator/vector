@@ -1,0 +1,7 @@
+* "email.message": Representing an email message
+* "email.parser": Parsing email messages
+  * FeedParser API
+  * Parser API
+  * Additional notes
+* "email.generator": Generating MIME documents
+* "email.policy": Policy Objects

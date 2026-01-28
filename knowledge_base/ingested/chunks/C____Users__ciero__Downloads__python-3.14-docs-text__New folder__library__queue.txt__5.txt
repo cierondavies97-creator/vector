@@ -1,0 +1,4 @@
+additional guarantees in exchange for the smaller functionality.
+The "queue" module defines the following classes and exceptions:
+class queue.Queue(maxsize=0)
+   Constructor for a FIFO (first-in, first-out) queue.  *maxsize* is

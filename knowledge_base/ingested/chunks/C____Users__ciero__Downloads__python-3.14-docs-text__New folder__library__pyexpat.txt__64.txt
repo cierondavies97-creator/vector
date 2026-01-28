@@ -1,0 +1,4 @@
+Called once for each element type declaration.  *name* is the name
+   of the element type, and *model* is a representation of the content
+   model.
+xmlparser.AttlistDeclHandler(elname, attname, type, default, required)

@@ -1,0 +1,4 @@
+algorithm is applied: runs of consecutive ASCII whitespace are
+   regarded as a single separator, and the result will contain no
+   empty strings at the start or end if the sequence has leading or
+   trailing whitespace.  Consequently, splitting an empty sequence or

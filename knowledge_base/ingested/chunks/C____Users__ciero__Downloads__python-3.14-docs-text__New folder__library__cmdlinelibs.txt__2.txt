@@ -1,0 +1,4 @@
+* "curses.textpad" --- Text input widget for curses programs
+* "curses.ascii" --- Utilities for ASCII characters
+* "curses.panel" --- A panel stack extension for curses
+* "cmd" --- Support for line-oriented command interpreters

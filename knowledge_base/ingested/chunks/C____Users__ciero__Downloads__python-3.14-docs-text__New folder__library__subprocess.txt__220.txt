@@ -1,0 +1,4 @@
+and none of the guarantees described above regarding security and
+exception handling consistency are valid for these functions.
+subprocess.getstatusoutput(cmd, *, encoding=None, errors=None)
+   Return "(exitcode, output)" of executing *cmd* in a shell.

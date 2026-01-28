@@ -1,0 +1,5 @@
+def __init__(self, db):
+           self.db = db
+       def find_spec(self, fullname, target=None) -> ModuleSpec:
+           return self.db.spec_from_name(fullname)
+   sys.meta_path.append(DatabaseImporter(connect_db(...)))

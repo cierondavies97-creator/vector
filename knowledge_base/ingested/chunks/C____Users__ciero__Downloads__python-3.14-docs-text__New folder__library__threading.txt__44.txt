@@ -1,0 +1,4 @@
+of every object, they are separate objects in Python.  Python's
+"Thread" class supports a subset of the behavior of Java's Thread
+class; currently, there are no priorities, no thread groups, and
+threads cannot be destroyed, stopped, suspended, resumed, or

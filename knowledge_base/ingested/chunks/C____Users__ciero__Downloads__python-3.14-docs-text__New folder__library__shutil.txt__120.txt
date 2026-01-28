@@ -1,0 +1,4 @@
+is unpacked. If not provided, the current working directory is
+   used.
+   *format* is the archive format: one of "zip", "tar", "gztar",
+   "bztar", "xztar", or "zstdtar".  Or any other format registered

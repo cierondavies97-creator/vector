@@ -1,0 +1,4 @@
+logb(context=None)
+      For a nonzero number, return the adjusted exponent of its
+      operand as a "Decimal" instance.  If the operand is a zero then
+      "Decimal('-Infinity')" is returned and the "DivisionByZero" flag

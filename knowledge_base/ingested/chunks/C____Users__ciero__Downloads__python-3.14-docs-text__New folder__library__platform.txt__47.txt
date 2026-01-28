@@ -1,0 +1,4 @@
+================
+platform.android_ver(release='', api_level=0, manufacturer='', model='', device='', is_emulator=False)
+   Get Android device information. Returns a "namedtuple()" with the
+   following attributes. Values which cannot be determined are set to

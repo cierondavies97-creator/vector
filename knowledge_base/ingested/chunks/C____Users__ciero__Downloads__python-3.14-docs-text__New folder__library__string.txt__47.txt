@@ -1,0 +1,4 @@
+Most built-in types support a common formatting mini-language, which
+is described in the next section.
+A *format_spec* field can also include nested replacement fields
+within it. These nested replacement fields may contain a field name,

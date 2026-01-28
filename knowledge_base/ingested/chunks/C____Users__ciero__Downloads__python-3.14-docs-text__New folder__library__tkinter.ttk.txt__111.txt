@@ -1,0 +1,5 @@
+previously selected window (if different) is unmapped. If
+      *tab_id* is omitted, returns the widget name of the currently
+      selected pane.
+   tab(tab_id, option=None, **kw)
+      Query or modify the options of the specific *tab_id*.

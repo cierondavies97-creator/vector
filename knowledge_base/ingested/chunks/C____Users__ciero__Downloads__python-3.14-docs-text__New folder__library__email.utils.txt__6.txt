@@ -1,0 +1,5 @@
+parsing and formatting they provide is done automatically by the
+header parsing machinery of the new API.
+email.utils.quote(str)
+   Return a new string with backslashes in *str* replaced by two
+   backslashes, and double quotes replaced by backslash-double quote.

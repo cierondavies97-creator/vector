@@ -1,0 +1,6 @@
+zlib.ZLIB_RUNTIME_VERSION
+   The version string of the zlib library actually loaded by the
+   interpreter.
+   Added in version 3.3.
+zlib.ZLIBNG_VERSION
+   The version string of the zlib-ng library that was used for

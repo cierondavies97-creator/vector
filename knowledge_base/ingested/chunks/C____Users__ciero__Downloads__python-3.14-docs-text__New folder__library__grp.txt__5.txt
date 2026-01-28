@@ -1,0 +1,4 @@
++---------+-------------+-----------------------------------+
+The gid is an integer, name and password are strings, and the member
+list is a list of strings. (Note that most users are not explicitly
+listed as members of the group they are in according to the password

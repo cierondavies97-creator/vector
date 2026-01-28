@@ -1,0 +1,4 @@
+values and set needed attributes in the normal way.
+Additionally, mock provides a "patch()" decorator that handles
+patching module and class level attributes within the scope of a test,
+along with "sentinel" for creating unique objects. See the quick guide

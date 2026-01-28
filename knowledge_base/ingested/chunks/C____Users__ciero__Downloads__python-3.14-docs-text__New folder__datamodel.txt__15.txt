@@ -1,0 +1,3 @@
+values, not the identities of the contained objects; however, when we
+talk about the mutability of a container, only the identities of the
+immediately contained objects are implied.  So, if an immutable

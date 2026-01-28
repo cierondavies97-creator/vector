@@ -1,0 +1,6 @@
+"os.path.basename(sys.argv[0])".
+usage
+-----
+By default, "ArgumentParser" calculates the usage message from the
+arguments it contains. The default message can be overridden with the
+"usage=" keyword argument:

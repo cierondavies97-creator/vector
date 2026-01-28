@@ -1,0 +1,3 @@
+or "-1").  It should *not* call one of the "PyErr_*" functions --- one
+has already been called by *g*. *f*'s caller is then supposed to also
+return an error indication to *its* caller, again *without* calling

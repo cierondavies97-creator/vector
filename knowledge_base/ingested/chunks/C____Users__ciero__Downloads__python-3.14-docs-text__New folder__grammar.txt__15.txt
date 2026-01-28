@@ -1,0 +1,6 @@
+# &e
+   #   Succeed if e can be parsed, without consuming any input.
+   # !e
+   #   Fail if e can be parsed, without consuming any input.
+   # ~
+   #   Commit to the current alternative, even if it fails to parse.

@@ -1,0 +1,5 @@
+grade).
+      For sorting examples and a brief sorting tutorial, see Sorting
+      Techniques.
+      **CPython implementation detail:** While a list is being sorted,
+      the effect of attempting to mutate, or even inspect, the list is

@@ -1,0 +1,3 @@
+is what makes use of the module spec provided by the *finder* (from
+   which "__file__" and "__cached__" are derived).  So if a loader can
+   load from a cached module but otherwise does not load from a file,

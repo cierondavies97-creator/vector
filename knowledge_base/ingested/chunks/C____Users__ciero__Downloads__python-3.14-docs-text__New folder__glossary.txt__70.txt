@@ -1,0 +1,4 @@
+corruption. Proper use of *locks* and other *synchronization
+   primitives* prevents data races.  Note that data races can only
+   happen in native code, but that *native code* might be exposed in a
+   Python API.  See also *race condition* and *thread-safe*.

@@ -1,0 +1,8 @@
+leading runs of consecutive whitespace are considered.
+   For example:
+      >>> "".split(None, 0)
+      []
+      >>> "   ".split(None, 0)
+      []
+      >>> "   foo   ".split(maxsplit=0)
+      ['foo   ']

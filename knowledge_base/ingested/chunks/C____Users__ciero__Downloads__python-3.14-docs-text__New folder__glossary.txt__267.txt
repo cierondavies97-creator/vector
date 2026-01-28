@@ -1,0 +1,4 @@
+"encoding", and recreating the string from the sequence of bytes is
+   known as "decoding".
+   There are a variety of different text serialization codecs, which
+   are collectively referred to as "text encodings".

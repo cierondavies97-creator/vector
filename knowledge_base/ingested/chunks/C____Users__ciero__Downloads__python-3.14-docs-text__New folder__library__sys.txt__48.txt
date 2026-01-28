@@ -1,0 +1,7 @@
+of these values can be customized by assigning another one-argument
+   function to "sys.displayhook".
+   Pseudo-code:
+      def displayhook(value):
+          if value is None:
+              return
+          # Set '_' to None to avoid recursion

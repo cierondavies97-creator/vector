@@ -1,0 +1,5 @@
+follow the interface defined by the "io.TextIOBase" abstract class.
+3.2.13. Internal types
+----------------------
+A few types used internally by the interpreter are exposed to the
+user. Their definitions may change with future versions of the

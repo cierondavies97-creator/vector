@@ -1,0 +1,5 @@
+equivalent to "d.appendleft(d.pop())", and rotating one step to
+      the left is equivalent to "d.append(d.popleft())".
+   Deque objects also provide one read-only attribute:
+   maxlen
+      Maximum size of a deque or "None" if unbounded.

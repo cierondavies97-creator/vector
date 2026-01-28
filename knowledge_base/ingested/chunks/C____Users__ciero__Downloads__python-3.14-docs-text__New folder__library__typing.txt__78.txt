@@ -1,0 +1,9 @@
+...
+Each type variable argument to "Generic" must be distinct. This is
+thus invalid:
+   from typing import TypeVar, Generic
+   ...
+   class Pair[M, M]:  # SyntaxError
+       ...
+   T = TypeVar('T')
+   class Pair(Generic[T, T]):   # INVALID

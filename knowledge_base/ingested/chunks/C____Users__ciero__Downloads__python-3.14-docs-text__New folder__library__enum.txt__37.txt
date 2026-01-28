@@ -1,0 +1,5 @@
+"_ignore_" is a list of names that will not become members, and
+      whose names will also be removed from the completed enumeration.
+      See TimePeriod for an example.
+   __dir__(self)
+      Returns "['__class__', '__doc__', '__module__', 'name',

@@ -1,0 +1,8 @@
+>>> [ type(entry) for entry in a ]
+[<class 'str'>, <class 'bytes'>, <class 'float'>, <class 'int'>, <class 'NoneType'>, <class 'bool'>, <class 'int'>]
+>>> a[2]
+-273.154
+>>> a[2] = -78.5
+>>> a[2]
+-78.5
+>>> a[2] = 'dry ice'  # Changing data types is supported as well

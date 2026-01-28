@@ -1,0 +1,4 @@
+"onkey()". As the latter binds actions to the key release event, an
+  alias: "onkeyrelease()" was also added for it.
+* The method "Screen.mainloop" has been added, so there is no longer a
+  need to use the standalone "mainloop()" function when working with

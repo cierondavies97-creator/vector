@@ -1,0 +1,4 @@
+"dump_c_stack()" for more information on compatibility.
+   Changed in version 3.5: Added support for passing file descriptor
+   to this function.
+   Changed in version 3.6: On Windows, a handler for Windows exception

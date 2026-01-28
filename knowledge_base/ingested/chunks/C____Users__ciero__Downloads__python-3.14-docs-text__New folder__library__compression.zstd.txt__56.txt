@@ -1,0 +1,5 @@
+trained data used during compression. This must be the same
+   Zstandard dictionary used during compression.
+   Note:
+     This class does not transparently handle inputs containing
+     multiple compressed frames, unlike the "decompress()" function

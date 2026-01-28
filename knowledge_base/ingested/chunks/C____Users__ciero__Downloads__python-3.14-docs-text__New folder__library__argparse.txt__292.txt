@@ -1,0 +1,5 @@
+>>> subparser2.add_argument('y')
+      >>> parser.parse_args(['2', 'frobble'])
+      Namespace(subparser_name='2', y='frobble')
+   Changed in version 3.7: New *required* keyword-only parameter.
+   Changed in version 3.14: Subparser's *prog* is no longer affected

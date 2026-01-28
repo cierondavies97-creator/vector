@@ -1,0 +1,4 @@
+undefined.  The C implementation of Python makes the list appear
+      empty for the duration, and raises "ValueError" if it can detect
+      that the list has been mutated during a sort.
+Thread safety: Reading a single element from a "list" is *atomic*:

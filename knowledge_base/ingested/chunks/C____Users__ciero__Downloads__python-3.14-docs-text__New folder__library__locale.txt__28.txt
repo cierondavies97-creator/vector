@@ -1,0 +1,2 @@
+|                        |                                       | in local formatting of monetary  |
+   |                        |                                       | values.                          |

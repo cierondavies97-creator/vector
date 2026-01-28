@@ -1,0 +1,5 @@
+Networking and Interprocess Communication
+*****************************************
+The modules described in this chapter provide mechanisms for
+networking and inter-processes communication.
+Some modules only work for two processes that are on the same machine,

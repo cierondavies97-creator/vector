@@ -1,0 +1,7 @@
+>>> mock(1, 2, 3)
+>>> mock(4, 5, 6)
+>>> mock()
+>>> mock.call_args_list
+[call(1, 2, 3), call(4, 5, 6), call()]
+The "call" helper makes it easy to make assertions about these calls.
+You can build up a list of expected calls and compare it to

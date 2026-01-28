@@ -1,0 +1,5 @@
+depending on the system error code.
+exception BlockingIOError
+   Raised when an operation would block on an object (e.g. socket) set
+   for non-blocking operation. Corresponds to "errno" "EAGAIN",
+   "EALREADY", "EWOULDBLOCK" and "EINPROGRESS".

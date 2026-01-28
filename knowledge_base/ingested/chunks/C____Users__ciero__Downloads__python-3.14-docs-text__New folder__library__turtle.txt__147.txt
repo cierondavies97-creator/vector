@@ -1,0 +1,5 @@
+turtle.turtlesize(stretch_wid=None, stretch_len=None, outline=None)
+   Parameters:
+      * **stretch_wid** -- positive number
+      * **stretch_len** -- positive number
+      * **outline** -- positive number

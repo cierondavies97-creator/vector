@@ -1,0 +1,3 @@
+of "'w'", which is not supported.  In addition, the "'c'" typecode
+   is an alias for "ctypes.c_char".  If *size_or_initializer* is an
+   integer, then it determines the length of the array, and the array

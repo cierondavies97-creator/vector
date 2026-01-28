@@ -1,0 +1,5 @@
+address (including human name) if the user address is valid.
+   Otherwise returns an SMTP error code of 400 or greater and an error
+   string.
+   Note:
+     Many sites disable SMTP "VRFY" in order to foil spammers.

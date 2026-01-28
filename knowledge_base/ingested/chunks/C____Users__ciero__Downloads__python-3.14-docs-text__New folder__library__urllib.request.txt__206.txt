@@ -1,0 +1,4 @@
+The following functions and classes are ported from the Python 2
+module "urllib" (as opposed to "urllib2").  They might become
+deprecated at some point in the future.
+urllib.request.urlretrieve(url, filename=None, reporthook=None, data=None)

@@ -1,0 +1,3 @@
+"'IDREF'", ... *default* gives the default value for the attribute
+   used when the attribute is not specified by the document instance,
+   or "None" if there is no default value ("#IMPLIED" values).  If the

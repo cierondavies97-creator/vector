@@ -1,0 +1,7 @@
+destinations (i.e. those in effect before "captureWarnings(True)"
+   was called).
+See also:
+  Module "logging.config"
+     Configuration API for the logging module.
+  Module "logging.handlers"
+     Useful handlers included with the logging module.

@@ -1,0 +1,3 @@
+used by teachers in the classroom. For the programmer who needs to
+produce some graphical output it can be a way to do that without the
+overhead of introducing more complex or external libraries into their

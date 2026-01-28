@@ -1,0 +1,6 @@
+Python version: "3.2"
+   Current installation scheme: "posix_prefix"
+   Paths:
+           data = "/usr/local"
+           include = "/Users/tarek/Dev/svn.python.org/py3k/Include"
+           platinclude = "."

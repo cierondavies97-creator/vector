@@ -1,0 +1,4 @@
+PROG 2.0
+You may also specify an arbitrary action by passing an "Action"
+subclass (e.g. "BooleanOptionalAction") or other object that
+implements the same interface. Only actions that consume command-line

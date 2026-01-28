@@ -1,0 +1,4 @@
+IMAP4.starttls(ssl_context=None)
+   Send a "STARTTLS" command.  The *ssl_context* argument is optional
+   and should be a "ssl.SSLContext" object.  This will enable
+   encryption on the IMAP connection.  Please read Security

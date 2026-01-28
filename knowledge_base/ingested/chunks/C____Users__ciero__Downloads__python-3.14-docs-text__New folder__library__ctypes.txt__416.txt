@@ -1,0 +1,4 @@
+GCC and Clang, this layout can be selected with
+        "__attribute__((ms_struct))".
+      * ""gcc-sysv"": the layout used by GCC with the System V or
+        “SysV-like” data model, as used on Linux and macOS. With this

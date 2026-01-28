@@ -1,0 +1,5 @@
+popped. If the exception is not "StopAsyncIteration", it is re-
+   raised.
+   Added in version 3.8.
+   Changed in version 3.11: Exception representation on the stack now
+   consist of one, not three, items.

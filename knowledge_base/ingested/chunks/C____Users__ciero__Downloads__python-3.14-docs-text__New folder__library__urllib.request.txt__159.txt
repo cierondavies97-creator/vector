@@ -1,0 +1,4 @@
+be the error headers.
+   *host* is either an authority (e.g. ""python.org"") or a URL
+   containing an authority component (e.g. ""http://python.org/""). In
+   either case, the authority must not contain a userinfo component

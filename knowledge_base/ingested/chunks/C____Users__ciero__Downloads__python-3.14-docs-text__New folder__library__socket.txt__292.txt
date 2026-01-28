@@ -1,0 +1,3 @@
+ancillary data from a series of buffers and concatenating it into a
+   single message.  The *buffers* argument specifies the non-ancillary
+   data as an iterable of *bytes-like objects* (e.g. "bytes" objects);

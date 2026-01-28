@@ -1,0 +1,8 @@
+...
+Added in version 3.11.
+Affected APIs
+-------------
+The limitation only applies to potentially slow conversions between
+"int" and "str" or "bytes":
+* "int(string)" with default base 10.
+* "int(string, base)" for all bases that are not a power of 2.

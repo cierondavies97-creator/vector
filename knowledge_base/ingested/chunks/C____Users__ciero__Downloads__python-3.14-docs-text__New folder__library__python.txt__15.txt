@@ -1,0 +1,8 @@
+* Command-line interface
+* "annotationlib" --- Functionality for introspecting annotations
+  * Annotation semantics
+  * Classes
+  * Functions
+  * Recipes
+    * Using annotations in a metaclass
+  * Limitations of the "STRING" format

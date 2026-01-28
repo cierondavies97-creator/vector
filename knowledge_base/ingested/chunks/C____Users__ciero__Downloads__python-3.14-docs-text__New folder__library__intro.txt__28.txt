@@ -1,0 +1,4 @@
+that are running, nor any ability to communicate with other
+    running applications, outside of the iOS-specific APIs that exist
+    for this purpose.
+* Mobile apps have limited access to modify system resources (such as

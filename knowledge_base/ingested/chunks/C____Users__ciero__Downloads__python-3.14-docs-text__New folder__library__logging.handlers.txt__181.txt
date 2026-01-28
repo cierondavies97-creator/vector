@@ -1,0 +1,4 @@
+and "exc_text" attributes to "None".
+      You might want to override this method if you want to convert
+      the record to a dict or JSON string, or send a modified copy of
+      the record while leaving the original intact.

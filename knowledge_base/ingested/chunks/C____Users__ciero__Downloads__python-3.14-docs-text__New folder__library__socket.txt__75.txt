@@ -1,0 +1,5 @@
+Availability: Linux >= 2.6.25, NetBSD >= 8.
+   Added in version 3.3.
+   Changed in version 3.11: NetBSD support was added.
+   Changed in version 3.14: Restored missing "CAN_RAW_ERR_FILTER" on
+   Linux.

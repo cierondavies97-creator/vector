@@ -1,0 +1,6 @@
+* Buffer overflow
+  * Memory allocator API violation
+  * Unsafe usage of the GIL
+  See the "PyMem_SetupDebugHooks()" C function.
+  It behaves as if the "PYTHONMALLOC" environment variable is set to
+  "debug".

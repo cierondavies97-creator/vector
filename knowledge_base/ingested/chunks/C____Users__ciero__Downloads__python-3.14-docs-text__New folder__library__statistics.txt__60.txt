@@ -1,0 +1,4 @@
+statistics.median_low(data)
+   Return the low median of numeric data.  If *data* is empty,
+   "StatisticsError" is raised.  *data* can be a sequence or iterable.
+   The low median is always a member of the data set.  When the number

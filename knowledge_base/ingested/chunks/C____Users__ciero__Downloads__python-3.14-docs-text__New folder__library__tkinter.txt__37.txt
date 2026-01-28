@@ -1,0 +1,7 @@
+"tkinter.colorchooser"
+   Dialog to let the user choose a color.
+"tkinter.commondialog"
+   Base class for the dialogs defined in the other modules listed
+   here.
+"tkinter.filedialog"
+   Common dialogs to allow the user to specify a file to open or save.

@@ -1,0 +1,4 @@
+classes, provided they implement the special class method
+     "__class_getitem__()".
+  Generics, user-defined generics and "typing.Generic"
+     Documentation on how to implement generic classes that can be

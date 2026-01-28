@@ -1,0 +1,5 @@
+"loop.subprocess_shell()" methods are not implemented.
+"ProactorEventLoop" has the following limitations:
+* The "loop.add_reader()" and "loop.add_writer()" methods are not
+  supported.
+The resolution of the monotonic clock on Windows is usually around

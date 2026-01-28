@@ -1,0 +1,5 @@
+Changed in version 3.14: An "IMAP4.error" is raised if MD5 support
+   is not available.
+IMAP4.logout()
+   Shutdown connection to server. Returns server "BYE" response.
+   Changed in version 3.8: The method no longer ignores silently

@@ -1,0 +1,4 @@
+"asynchat" --- Asynchronous socket command/response handler
+***********************************************************
+Deprecated since version 3.6, removed in version 3.12.
+This module is no longer part of the Python standard library. It was

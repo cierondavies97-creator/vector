@@ -1,0 +1,4 @@
+execute(sql, parameters=(), /)
+      Create a new "Cursor" object and call "execute()" on it with the
+      given *sql* and *parameters*. Return the new cursor object.
+   executemany(sql, parameters, /)

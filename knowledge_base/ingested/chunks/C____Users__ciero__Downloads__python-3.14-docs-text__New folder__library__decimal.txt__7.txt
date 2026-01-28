@@ -1,0 +1,3 @@
+significance. This is the customary presentation for monetary
+  applications. For multiplication, the "schoolbook" approach uses all
+  the figures in the multiplicands.  For instance, "1.3 * 1.2" gives

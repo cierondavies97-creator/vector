@@ -1,0 +1,4 @@
+Tracebacks of traces are limited to "get_traceback_limit()" frames.
+   Use the *nframe* parameter of the "start()" function to store more
+   frames.
+   The "tracemalloc" module must be tracing memory allocations to take

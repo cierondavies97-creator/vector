@@ -1,0 +1,4 @@
+cache if there is no source module.  To support a non-source (compiled
+only) distribution, the compiled module must be in the source
+directory, and there must not be a source module.
+Some tips for experts:

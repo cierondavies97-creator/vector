@@ -1,0 +1,4 @@
+Restores registry reflection for the specified disabled key.
+   *key* is an already open key, or one of the predefined HKEY_*
+   constants.
+   Will generally raise "NotImplementedError" if executed on a 32-bit

@@ -1,0 +1,4 @@
+as a script.)
+Each module has its own private namespace, which is used as the global
+namespace by all functions defined in the module. Thus, the author of
+a module can use global variables in the module without worrying about

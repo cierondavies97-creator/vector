@@ -1,0 +1,5 @@
+is accessed, not when the type variable is created (see Lazy
+      evaluation).
+   evaluate_bound()
+      An *evaluate function* corresponding to the "__bound__"
+      attribute. When called directly, this method supports only the

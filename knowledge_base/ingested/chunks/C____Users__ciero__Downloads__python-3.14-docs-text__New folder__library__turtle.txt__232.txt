@@ -1,0 +1,4 @@
+given. If not, a hint is issued and the dialog remains open for
+   correction. Return the number input. If the dialog is canceled,
+   return "None".
+      >>> screen.numinput("Poker", "Your stakes:", 1000, minval=10, maxval=10000)

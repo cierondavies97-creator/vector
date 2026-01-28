@@ -1,0 +1,3 @@
+|=================|================================================|
+  | ""default""     | print the first occurrence of matching         |
+  |                 | warnings for each location (module + line      |

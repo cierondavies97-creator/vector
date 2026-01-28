@@ -1,0 +1,6 @@
+Have fun!
+Changes since Python 2.6
+========================
+* The methods "Turtle.tracer", "Turtle.window_width" and
+  "Turtle.window_height" have been eliminated. Methods with these
+  names and functionality are now available only as methods of

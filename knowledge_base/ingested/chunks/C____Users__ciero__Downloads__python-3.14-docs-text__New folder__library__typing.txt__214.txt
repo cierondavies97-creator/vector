@@ -1,0 +1,5 @@
+# of ``Parent`` and ``Child``, which is equivalent to
+              # ``Child``.
+              assert_type(arg, Child)
+          else:
+              # Type of ``arg`` is narrowed to exclude ``Parent``,

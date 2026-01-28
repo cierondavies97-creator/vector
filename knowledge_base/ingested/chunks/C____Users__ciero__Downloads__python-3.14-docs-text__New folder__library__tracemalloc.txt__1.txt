@@ -1,0 +1,4 @@
+The tracemalloc module is a debug tool to trace memory blocks
+allocated by Python. It provides the following information:
+* Traceback where an object was allocated
+* Statistics on allocated memory blocks per filename and per line

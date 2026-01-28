@@ -1,0 +1,5 @@
+manager for the modern installer.
+4.11.1. Installation steps
+--------------------------
+Four Python 3.14 installers are available for download - two each for
+the 32-bit and 64-bit versions of the interpreter. The *web installer*

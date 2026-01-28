@@ -1,0 +1,6 @@
+...
+   RuntimeError: generator didn't yield
+Reentrant context managers
+--------------------------
+More sophisticated context managers may be "reentrant". These context
+managers can not only be used in multiple "with" statements, but may

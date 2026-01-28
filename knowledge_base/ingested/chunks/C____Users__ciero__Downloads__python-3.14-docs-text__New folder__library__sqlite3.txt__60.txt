@@ -1,0 +1,6 @@
+n number(10)            ! will look up a converter named "number"
+       )
+   This flag may be combined with "PARSE_COLNAMES" using the "|"
+   (bitwise or) operator.
+   Note:
+     Generated fields (for example "MAX(p)") are returned as "str".

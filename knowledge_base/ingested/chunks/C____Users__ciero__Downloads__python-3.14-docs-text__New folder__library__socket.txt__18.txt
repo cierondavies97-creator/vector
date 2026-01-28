@@ -1,0 +1,5 @@
+*v2* is the port identifier, and *v3* should be 0.
+    If *addr_type* is "TIPC_ADDR_NAMESEQ", then *v1* is the server
+    type, *v2* is the lower port number, and *v3* is the upper port
+    number.
+    If *addr_type* is "TIPC_ADDR_ID", then *v1* is the node, *v2* is

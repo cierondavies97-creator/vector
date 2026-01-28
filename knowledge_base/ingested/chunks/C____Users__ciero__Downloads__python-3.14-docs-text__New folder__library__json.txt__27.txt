@@ -1,0 +1,4 @@
+serializing into custom datatypes. If "None" (the default),
+        "JSONEncoder" is used.
+      * **indent** (*int** | **str** | **None*) -- If a positive
+        integer or string, JSON array elements and object members will

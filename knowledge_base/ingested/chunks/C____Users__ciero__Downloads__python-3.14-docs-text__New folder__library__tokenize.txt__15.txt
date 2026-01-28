@@ -1,0 +1,4 @@
+"tokenize()" needs to detect the encoding of source files it
+tokenizes. The function it uses to do this is available:
+tokenize.detect_encoding(readline)
+   The "detect_encoding()" function is used to detect the encoding

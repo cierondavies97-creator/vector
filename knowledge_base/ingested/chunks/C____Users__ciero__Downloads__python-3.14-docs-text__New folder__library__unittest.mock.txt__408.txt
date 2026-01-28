@@ -1,0 +1,5 @@
+"return_value" and the wrapped object, ignoring "side_effect".
+>>> order_mock.get_value.side_effect = None
+>>> order_mock.get_value()
+'second'
+If the value being returned by "side_effect" is "DEFAULT", it is

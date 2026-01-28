@@ -1,0 +1,4 @@
+| '!' !NAME { RAISE_SYNTAX_ERROR_ON_NEXT_TOKEN("t-string: invalid conversion character") }
+   invalid_string_tstring_concat:
+       | a=(fstring|string)+ b[expr_ty]=tstring {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(PyPegen_last_item(a, expr_ty), b, "cannot mix t-string literals with string or bytes literals") }

@@ -1,0 +1,6 @@
+for task in tasks:
+           task.cancel()
+       # Wait until all worker tasks are cancelled.
+       await asyncio.gather(*tasks, return_exceptions=True)
+       print('====')
+       print(f'3 workers slept in parallel for {total_slept_for:.2f} seconds')

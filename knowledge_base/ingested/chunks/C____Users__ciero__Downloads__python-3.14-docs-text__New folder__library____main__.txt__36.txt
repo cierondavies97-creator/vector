@@ -1,0 +1,4 @@
+See also:
+  See "venv" for an example of a package with a minimal "__main__.py"
+  in the standard library. It doesn't contain a "if __name__ ==
+  '__main__'" block. You can invoke it with "python -m venv

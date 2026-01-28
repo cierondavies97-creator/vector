@@ -1,0 +1,5 @@
+Changed in version 3.2: Added support for re-encoding "8bit"
+      message bodies, and the *linesep* argument.
+   clone(fp)
+      Return an independent clone of this "Generator" instance with
+      the exact same options, and *fp* as the new *outfp*.

@@ -1,0 +1,4 @@
+Added in version 3.8.
+functools.update_wrapper(wrapper, wrapped, assigned=WRAPPER_ASSIGNMENTS, updated=WRAPPER_UPDATES)
+   Update a *wrapper* function to look like the *wrapped* function.
+   The optional arguments are tuples to specify which attributes of

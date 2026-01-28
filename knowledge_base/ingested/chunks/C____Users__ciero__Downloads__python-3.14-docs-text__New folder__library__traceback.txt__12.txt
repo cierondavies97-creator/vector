@@ -1,0 +1,5 @@
+object *tb* to *file*. This differs from "print_tb()" in the
+   following ways:
+   * if *tb* is not "None", it prints a header "Traceback (most recent
+     call last):"
+   * it prints the exception type and *value* after the stack trace

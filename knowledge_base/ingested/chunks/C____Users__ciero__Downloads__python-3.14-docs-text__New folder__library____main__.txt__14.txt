@@ -1,0 +1,3 @@
+parsing command-line arguments or fetching data from standard input.
+If a module like this was imported from a different module, for
+example to unit test it, the script code would unintentionally execute

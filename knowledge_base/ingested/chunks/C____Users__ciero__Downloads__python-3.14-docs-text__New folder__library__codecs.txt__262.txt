@@ -1,0 +1,4 @@
+| mbcs                 | ansi,     | Windows only: Encode the    |
+|                      | dbcs      | operand according to the    |
+|                      |           | ANSI codepage (CP_ACP).     |
++----------------------+-----------+-----------------------------+

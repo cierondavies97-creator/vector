@@ -1,0 +1,3 @@
+| "pstdev()"              | Population standard deviation of data.        |
++-------------------------+-----------------------------------------------+
+| "pvariance()"           | Population variance of data.                  |

@@ -1,0 +1,7 @@
+"False".
+   is_subnormal(x, /)
+      Returns "True" if *x* is subnormal; otherwise returns "False".
+   is_zero(x, /)
+      Returns "True" if *x* is a zero; otherwise returns "False".
+   ln(x, /)
+      Returns the natural (base e) logarithm of *x*.

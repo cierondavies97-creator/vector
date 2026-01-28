@@ -1,0 +1,2 @@
+description will appear as a paragraph, below the server name, in
+   the documentation.

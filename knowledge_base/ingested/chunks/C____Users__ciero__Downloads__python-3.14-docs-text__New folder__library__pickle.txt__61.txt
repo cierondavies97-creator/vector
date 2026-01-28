@@ -1,0 +1,4 @@
+Alternatively, if a subclass of "Pickler" has a "dispatch_table"
+      attribute then this will be used as the default dispatch table
+      for instances of that class.
+      See Dispatch Tables for usage examples.

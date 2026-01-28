@@ -1,0 +1,5 @@
+the one of the "LoggerAdapter" instance
+   process(msg, kwargs)
+      Modifies the message and/or keyword arguments passed to a
+      logging call in order to insert contextual information. This
+      implementation takes the object passed as *extra* to the

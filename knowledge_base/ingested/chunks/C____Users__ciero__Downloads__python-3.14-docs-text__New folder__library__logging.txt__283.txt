@@ -1,0 +1,7 @@
+fn:
+         The full pathname of the file where the logging call was
+         made.
+      lno:
+         The line number in the file where the logging call was made.
+      msg:
+         The logging message.

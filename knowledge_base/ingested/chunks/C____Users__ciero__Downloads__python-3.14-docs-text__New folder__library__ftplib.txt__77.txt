@@ -1,0 +1,6 @@
+"FTP_TLS" class inherits from "FTP", defining these additional
+   methods and attributes:
+   ssl_version
+      The SSL version to use (defaults to "ssl.PROTOCOL_SSLv23").
+   auth()
+      Set up a secure control connection by using TLS or SSL,

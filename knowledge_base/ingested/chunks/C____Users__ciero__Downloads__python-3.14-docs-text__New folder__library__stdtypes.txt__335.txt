@@ -1,0 +1,6 @@
+'spam, spam, spam'.index('eggs')
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+      ValueError: substring not found
+   See also "rindex()".
+str.isalnum()
+   Return "True" if all characters in the string are alphanumeric and

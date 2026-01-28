@@ -1,0 +1,4 @@
+The class creation process can be customized by passing the
+"metaclass" keyword argument in the class definition line, or by
+inheriting from an existing class that included such an argument. In
+the following example, both "MyClass" and "MySubclass" are instances

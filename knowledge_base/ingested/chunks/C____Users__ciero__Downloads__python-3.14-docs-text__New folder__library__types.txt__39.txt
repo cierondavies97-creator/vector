@@ -1,0 +1,6 @@
+types.FrameType
+   The type of frame objects such as found in "tb.tb_frame" if "tb" is
+   a traceback object.
+types.GetSetDescriptorType
+   The type of objects defined in extension modules with
+   "PyGetSetDef", such as "FrameType.f_locals" or

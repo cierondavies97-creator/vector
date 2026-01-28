@@ -1,0 +1,4 @@
+The one and only root element of the document.
+Document.createElement(tagName)
+   Create and return a new element node.  The element is not inserted
+   into the document when it is created.  You need to explicitly

@@ -1,0 +1,7 @@
+writer.write(render_goodbye())  # body
+       writer.close()
+   async def main():
+       srv = await asyncio.start_server(
+           handle_request, '127.0.0.1', 8081)
+       async with srv:
+           await srv.serve_forever()

@@ -1,0 +1,6 @@
+client does not already have a connection.
+   Raises an auditing event "http.client.connect" with arguments
+   "self", "host", "port".
+HTTPConnection.close()
+   Close the connection to the server.
+HTTPConnection.blocksize

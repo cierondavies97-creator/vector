@@ -1,0 +1,9 @@
+For example:
+      >>> b'ABCabc'.isalpha()
+      True
+      >>> b'ABCabc1'.isalpha()
+      False
+bytes.isascii()
+bytearray.isascii()
+   Return "True" if the sequence is empty or all bytes in the sequence
+   are ASCII, "False" otherwise. ASCII bytes are in the range 0-0x7F.

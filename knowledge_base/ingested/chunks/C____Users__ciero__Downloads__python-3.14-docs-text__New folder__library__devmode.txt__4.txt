@@ -1,0 +1,6 @@
+* "ImportWarning"
+  * "PendingDeprecationWarning"
+  * "ResourceWarning"
+  Normally, the above warnings are filtered by the default warning
+  filters.
+  It behaves as if the "-W default" command line option is used.

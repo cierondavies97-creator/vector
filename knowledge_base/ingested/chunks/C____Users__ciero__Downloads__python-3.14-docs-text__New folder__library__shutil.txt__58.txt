@@ -1,0 +1,4 @@
+The first parameter, *function*, is the function which raised the
+   exception; it depends on the platform and implementation.  The
+   second parameter, *path*, will be the path name passed to
+   *function*.  The third parameter, *excinfo*, is the exception that

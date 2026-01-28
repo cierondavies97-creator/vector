@@ -1,0 +1,4 @@
+available,  it raises the exception.
+   You can still retrieve the downloaded data in this case, it is
+   stored in the "content" attribute of the exception instance.
+   If no *Content-Length* header was supplied, urlretrieve can not

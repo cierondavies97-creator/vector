@@ -1,0 +1,4 @@
+that it was called correctly. Another common use case is to pass an
+object into a method (or some part of the system under test) and then
+check that it is used in the correct way.
+The simple "ProductionClass" below has a "closer" method. If it is

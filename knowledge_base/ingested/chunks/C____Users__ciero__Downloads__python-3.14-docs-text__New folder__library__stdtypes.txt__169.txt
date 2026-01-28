@@ -1,0 +1,3 @@
+This support allows immutable sequences, such as "tuple" instances, to
+be used as "dict" keys and stored in "set" and "frozenset" instances.
+Attempting to hash an immutable sequence that contains unhashable

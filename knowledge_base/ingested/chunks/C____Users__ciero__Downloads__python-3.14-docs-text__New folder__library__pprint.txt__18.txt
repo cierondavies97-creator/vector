@@ -1,0 +1,6 @@
+>>> pprint.isreadable(stuff)
+   False
+pprint.isrecursive(object)
+   Determine if *object* requires a recursive representation.  This
+   function is subject to the same limitations as noted in
+   "saferepr()" below and may raise an "RecursionError" if it fails to

@@ -1,0 +1,5 @@
+The system must have a current leap second table in order for this
+   to give the correct answer.  PTP or NTP software can maintain a
+   leap second table.
+   Availability: Linux.
+   Added in version 3.9.

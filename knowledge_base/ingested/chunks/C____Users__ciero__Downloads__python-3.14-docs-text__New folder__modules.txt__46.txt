@@ -1,0 +1,11 @@
+and secondary prompts:
+   >>> import sys
+   >>> sys.ps1
+   '>>> '
+   >>> sys.ps2
+   '... '
+   >>> sys.ps1 = 'C> '
+   C> print('Yuck!')
+   Yuck!
+   C>
+These two variables are only defined if the interpreter is in

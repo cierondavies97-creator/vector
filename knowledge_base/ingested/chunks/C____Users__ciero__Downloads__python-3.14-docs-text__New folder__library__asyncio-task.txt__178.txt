@@ -1,0 +1,5 @@
+Return the exception of the Task.
+      If the wrapped coroutine raised an exception that exception is
+      returned.  If the wrapped coroutine returned normally this
+      method returns "None".
+      If the Task has been *cancelled*, this method raises a

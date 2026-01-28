@@ -1,0 +1,5 @@
+"-math.inf".)  Equivalent to the output of "float('inf')".
+   Added in version 3.5.
+math.nan
+   A floating-point "not a number" (NaN) value. Equivalent to the
+   output of "float('nan')". Due to the requirements of the IEEE-754

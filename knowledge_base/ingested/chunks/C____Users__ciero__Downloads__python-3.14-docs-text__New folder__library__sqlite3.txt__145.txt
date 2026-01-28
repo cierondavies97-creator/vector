@@ -1,0 +1,5 @@
+Raises an auditing event "sqlite3.enable_load_extension" with
+      arguments "connection", "enabled".
+      Added in version 3.2.
+      Changed in version 3.10: Added the
+      "sqlite3.enable_load_extension" auditing event.

@@ -1,0 +1,4 @@
+index of a record:
+   >>> data = [('red', 5), ('blue', 1), ('yellow', 8), ('black', 0)]
+   >>> data.sort(key=lambda r: r[1])       # Or use operator.itemgetter(1).
+   >>> keys = [r[1] for r in data]         # Precompute a list of keys.

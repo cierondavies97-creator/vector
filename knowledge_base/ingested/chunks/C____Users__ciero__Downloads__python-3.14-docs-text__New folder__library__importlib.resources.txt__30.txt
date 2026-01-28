@@ -1,0 +1,4 @@
+files(anchor).joinpath(*path_names).read_text(encoding=encoding)
+   Changed in version 3.13: Multiple *path_names* are accepted.
+   *encoding* and *errors* must be given as keyword arguments.
+importlib.resources.path(anchor, *path_names)

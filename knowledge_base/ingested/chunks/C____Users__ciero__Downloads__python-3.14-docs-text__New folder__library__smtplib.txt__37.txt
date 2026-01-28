@@ -1,0 +1,6 @@
+response code and message sent by the server in its connection
+   response.
+   Raises an auditing event "smtplib.connect" with arguments "self",
+   "host", "port".
+SMTP.helo(name='')
+   Identify yourself to the SMTP server using "HELO".  The hostname

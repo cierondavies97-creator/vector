@@ -1,0 +1,4 @@
+sqlite3.register_adapter(datetime.datetime, adapt_datetime_epoch)
+   def convert_date(val):
+       """Convert ISO 8601 date to datetime.date object."""
+       return datetime.date.fromisoformat(val.decode())

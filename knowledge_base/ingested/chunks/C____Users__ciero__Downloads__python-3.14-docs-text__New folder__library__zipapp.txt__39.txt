@@ -1,0 +1,4 @@
+Typically, you should use an "/usr/bin/env python2" or "/usr/bin/env
+python3", depending on whether your code is written for Python 2 or 3.
+Creating Standalone Applications with zipapp
+============================================

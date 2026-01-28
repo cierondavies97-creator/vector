@@ -1,0 +1,5 @@
+objects
+  * "partial" Objects
+* "operator" --- Standard operators as functions
+  * Mapping Operators to Functions
+  * In-place Operators

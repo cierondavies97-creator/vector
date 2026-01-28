@@ -1,0 +1,5 @@
+BUILD_MAP(count)
+   Pushes a new dictionary object onto the stack.  Pops "2 * count"
+   items so that the dictionary holds *count* entries: "{...,
+   STACK[-4]: STACK[-3], STACK[-2]: STACK[-1]}".
+   Changed in version 3.5: The dictionary is created from stack items

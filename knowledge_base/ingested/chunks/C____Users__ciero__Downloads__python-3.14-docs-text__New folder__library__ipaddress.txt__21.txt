@@ -1,0 +1,5 @@
+Changed in version 3.14: Made available on the class.
+   compressed
+   exploded
+      The string representation in dotted decimal notation. Leading
+      zeroes are never included in the representation.

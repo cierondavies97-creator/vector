@@ -1,0 +1,3 @@
+On some systems, *mode* is ignored.  Where it is used, the current
+   umask value is first masked out.  If bits other than the last 9
+   (i.e. the last 3 digits of the octal representation of the *mode*)

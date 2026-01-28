@@ -1,0 +1,3 @@
+item is a namespace *portion*.For backwards compatibility with other
+implementations of the import protocol, many path entry finders also
+support the same, traditional "find_module()" method that meta path

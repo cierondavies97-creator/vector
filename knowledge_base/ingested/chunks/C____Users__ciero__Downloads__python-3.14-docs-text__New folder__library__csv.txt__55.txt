@@ -1,0 +1,4 @@
+the characters in *lineterminator* occurs in output data it is
+   preceded by the current *escapechar* character. If *escapechar* is
+   not set, the writer will raise "Error" if any characters that
+   require escaping are encountered. Set *quotechar* to "None" to

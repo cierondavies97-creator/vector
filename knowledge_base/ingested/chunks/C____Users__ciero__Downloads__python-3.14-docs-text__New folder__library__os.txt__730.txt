@@ -1,0 +1,5 @@
+*id* (a process file descriptor created with "pidfd_open()").
+   Availability: Unix, not WASI, not Android, not iOS.
+   Note:
+     "P_PIDFD" is only available on Linux >= 5.4.
+   Added in version 3.3.

@@ -1,0 +1,3 @@
+inspect.formatargvalues(args[, varargs, varkw, locals, formatarg, formatvarargs, formatvarkw, formatvalue])
+   Format a pretty argument spec from the four values returned by
+   "getargvalues()".  The format* arguments are the corresponding

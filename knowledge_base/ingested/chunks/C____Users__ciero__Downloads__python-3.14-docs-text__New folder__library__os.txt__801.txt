@@ -1,0 +1,4 @@
+C "getentropy()" function is now used. These functions avoid the
+   usage of an internal file descriptor.
+   Changed in version 3.5.2: On Linux, if the "getrandom()" syscall
+   blocks (the urandom entropy pool is not initialized yet), fall back

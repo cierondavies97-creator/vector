@@ -1,0 +1,4 @@
+a write-through mapping.  The initial memory values for all three
+access types are taken from the specified file.  Assignment to an
+"ACCESS_READ" memory map raises a "TypeError" exception.  Assignment
+to an "ACCESS_WRITE" memory map affects both memory and the underlying

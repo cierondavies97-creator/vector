@@ -1,0 +1,3 @@
+*method* argument can be "'fork'", "'spawn'" or "'forkserver'".
+   Raises "RuntimeError" if the start method has already been set and
+   *force* is not "True".  If *method* is "None" and *force* is "True"

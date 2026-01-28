@@ -1,0 +1,4 @@
+object when called and use the default values from *DefaultContext*.
+If the flag is true, new threads will start with a copy of context
+from the caller of "threading.Thread.start()".
+To control the defaults so that each thread will use the same values

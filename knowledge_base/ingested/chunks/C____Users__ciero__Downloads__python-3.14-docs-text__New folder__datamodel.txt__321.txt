@@ -1,0 +1,5 @@
+regular slices.
+3.2.13.5. Static method objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Static method objects provide a way of defeating the transformation of
+function objects to method objects described above. A static method

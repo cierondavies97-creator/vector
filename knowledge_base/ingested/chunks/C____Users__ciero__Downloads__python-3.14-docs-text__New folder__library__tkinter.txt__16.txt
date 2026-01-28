@@ -1,0 +1,4 @@
+Tk
+   Tk is a Tcl package implemented in C that adds custom commands to
+   create and manipulate GUI widgets. Each "Tk" object embeds its own
+   Tcl interpreter instance with Tk loaded into it. Tk's widgets are

@@ -1,0 +1,4 @@
+to the GNU **gettext** API.  If you use this API you will affect the
+translation of your entire application globally.  Often this is what
+you want if your application is monolingual, with the choice of
+language dependent on the locale of your user.  If you are localizing

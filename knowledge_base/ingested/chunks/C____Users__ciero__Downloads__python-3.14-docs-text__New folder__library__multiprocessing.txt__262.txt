@@ -1,0 +1,4 @@
+in the context of a second process and trying to dereference the
+  pointer from the second process may cause a crash.
+multiprocessing.sharedctypes.RawArray(typecode_or_type, size_or_initializer)
+   Return a ctypes array allocated from shared memory.

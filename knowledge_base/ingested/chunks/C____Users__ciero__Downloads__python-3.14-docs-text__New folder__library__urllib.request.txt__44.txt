@@ -1,0 +1,3 @@
+"add_header()" was called with each key and value as arguments.
+   This is often used to "spoof" the "User-Agent" header value, which
+   is used by a browser to identify itself -- some HTTP servers only

@@ -1,0 +1,4 @@
+method may return "False" even though its content type claims to be
+   *multipart*.
+exception email.errors.InvalidBase64PaddingDefect
+   When decoding a block of base64 encoded bytes, the padding was not

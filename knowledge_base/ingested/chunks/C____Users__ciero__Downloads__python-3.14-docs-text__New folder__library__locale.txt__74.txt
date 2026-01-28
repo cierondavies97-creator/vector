@@ -1,0 +1,4 @@
+encoding and "@"-modifier. The language code and encoding may be
+   "None" if their values cannot be determined. The "C" locale is
+   represented as "(None, None)".
+locale.getpreferredencoding(do_setlocale=True)

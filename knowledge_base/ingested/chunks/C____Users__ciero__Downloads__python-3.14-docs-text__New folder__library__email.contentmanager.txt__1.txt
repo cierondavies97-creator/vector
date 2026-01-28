@@ -1,0 +1,4 @@
+Added in version 3.6: [1]
+class email.contentmanager.ContentManager
+   Base class for content managers.  Provides the standard registry
+   mechanisms to register converters between MIME content and other

@@ -1,0 +1,4 @@
+For these cases, the "cast()" function is handy.
+The "cast()" function can be used to cast a ctypes instance into a
+pointer to a different ctypes data type.  "cast()" takes two
+parameters, a ctypes object that is or can be converted to a pointer

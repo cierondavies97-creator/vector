@@ -1,0 +1,4 @@
+"numbers.Rational", and implements all of the methods and
+   operations from that class.  "Fraction" instances are *hashable*,
+   and should be treated as immutable.  In addition, "Fraction" has
+   the following properties and methods:

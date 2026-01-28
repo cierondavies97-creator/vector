@@ -1,0 +1,5 @@
+WriteTransport.can_write_eof()
+   Return "True" if the transport supports "write_eof()", "False" if
+   not.
+WriteTransport.get_write_buffer_size()
+   Return the current size of the output buffer used by the transport.

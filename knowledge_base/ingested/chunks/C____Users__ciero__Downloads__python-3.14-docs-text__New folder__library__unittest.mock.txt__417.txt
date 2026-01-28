@@ -1,0 +1,5 @@
+'third'
+If "side_effect" is exhausted, the order of precedence will not cause
+a value to be obtained from the successors. Instead, "StopIteration"
+exception is raised.
+>>> order_mock = Mock(spec=Order, wraps=Order)

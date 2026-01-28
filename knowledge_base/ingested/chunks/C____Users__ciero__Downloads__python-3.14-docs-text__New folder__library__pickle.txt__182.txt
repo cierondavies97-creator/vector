@@ -1,0 +1,5 @@
+else:
+               # PickleBuffer is forbidden with pickle protocols <= 4.
+               return type(self)._reconstruct, (bytearray(self),)
+       @classmethod
+       def _reconstruct(cls, obj):

@@ -1,0 +1,3 @@
+tab character itself is not copied.)  If the character is a newline
+   ("\n") or return ("\r"), it is copied and the current column is
+   reset to zero.  Any other character is copied unchanged and the

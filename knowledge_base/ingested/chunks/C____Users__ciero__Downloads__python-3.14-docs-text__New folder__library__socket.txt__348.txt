@@ -1,0 +1,4 @@
+broadcast manager protocol instead, open a socket with:
+   socket.socket(socket.AF_CAN, socket.SOCK_DGRAM, socket.CAN_BCM)
+After binding ("CAN_RAW") or connecting ("CAN_BCM") the socket, you
+can use the "socket.send()" and "socket.recv()" operations (and their

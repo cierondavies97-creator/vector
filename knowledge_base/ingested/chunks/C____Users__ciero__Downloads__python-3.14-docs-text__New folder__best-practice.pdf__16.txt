@@ -1,0 +1,9 @@
++np.sin(beta)*np.cos(phi)*np.sin(sigma)*np.cos(iota)
+-np.sin(beta)*np.sin(phi)*np.sin(iota)
+Nicola Chiapolini, 8 July 2024
+8 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring

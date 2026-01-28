@@ -1,0 +1,3 @@
+of the "CookieJar"'s "CookiePolicy" instance are true and false
+   respectively), the *Cookie2* header is also added when appropriate.
+   The *request* object (usually a "urllib.request.Request" instance)

@@ -1,0 +1,4 @@
+will need to consult the Tk documentation, and occasionally the Tcl
+documentation. "tkinter" is a set of wrappers that implement the Tk
+widgets as Python classes.
+"tkinter"'s chief virtues are that it is fast, and that it usually

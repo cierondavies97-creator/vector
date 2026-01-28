@@ -1,0 +1,4 @@
+this flag unless the "LOCALE" flag is also used.
+   Corresponds to the inline flag "(?i)".
+   Note that when the Unicode patterns "[a-z]" or "[A-Z]" are used in
+   combination with the "IGNORECASE" flag, they will match the 52

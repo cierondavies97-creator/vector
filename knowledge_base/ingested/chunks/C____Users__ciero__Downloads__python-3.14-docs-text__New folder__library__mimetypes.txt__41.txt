@@ -1,0 +1,5 @@
+"readfp()" to parse the file.
+      If *strict* is "True", information will be added to list of
+      standard types, else to the list of non-standard types.
+   readfp(fp, strict=True)
+      Load MIME type information from an open file *fp*.  The file

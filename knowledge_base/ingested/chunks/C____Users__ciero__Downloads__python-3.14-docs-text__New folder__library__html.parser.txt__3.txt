@@ -1,0 +1,4 @@
+If *scripting* is false (the default), the content of the
+   "noscript" element is parsed normally; if it's true, it's returned
+   as is without being parsed.
+   An "HTMLParser" instance is fed HTML data and calls handler methods

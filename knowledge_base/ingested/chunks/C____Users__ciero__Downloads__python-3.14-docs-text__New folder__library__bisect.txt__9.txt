@@ -1,0 +1,4 @@
+for the right slice.
+   *key* specifies a *key function* of one argument that is used to
+   extract a comparison key from each element in the array.  To
+   support searching complex records, the key function is not applied

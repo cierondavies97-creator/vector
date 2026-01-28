@@ -1,0 +1,7 @@
+#       (like any rule in PEG).
+   #
+   # Grammar Syntax (see PEP 617 for more information):
+   #
+   # rule_name: expression
+   #   Optionally, a type can be included right after the rule name, which
+   #   specifies the return type of the C or Python function corresponding to the

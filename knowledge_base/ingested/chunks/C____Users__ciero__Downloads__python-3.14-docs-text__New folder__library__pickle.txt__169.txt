@@ -1,0 +1,7 @@
+p = MyPickler(f)
+   p.dump(MyClass)
+   del MyClass
+   unpickled_class = pickle.loads(f.getvalue())
+   assert isinstance(unpickled_class, type)
+   assert unpickled_class.__name__ == "MyClass"
+   assert unpickled_class.my_attribute == 1

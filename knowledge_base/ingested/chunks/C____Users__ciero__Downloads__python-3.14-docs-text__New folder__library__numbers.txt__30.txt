@@ -1,0 +1,6 @@
+reverse.__name__ = '__r' + fallback_operator.__name__ + '__'
+       reverse.__doc__ = monomorphic_operator.__doc__
+       return forward, reverse
+   def _add(a, b):
+       """a + b"""
+       return Fraction(a.numerator * b.denominator +

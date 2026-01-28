@@ -1,0 +1,3 @@
+exact. Any occurrence of a mixed operation is silently recorded by
+   setting "FloatOperation" in the context flags. Explicit conversions
+   with "from_float()" or "create_decimal_from_float()" do not set the

@@ -1,0 +1,3 @@
+the environment's Python interpreter and you can run installed scripts
+without having to use their full path. The invocation of the
+activation script is platform-specific ("*<venv>*" must be replaced by

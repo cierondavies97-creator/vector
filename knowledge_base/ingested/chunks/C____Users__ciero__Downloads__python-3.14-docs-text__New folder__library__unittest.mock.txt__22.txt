@@ -1,0 +1,4 @@
+'wheeeeee'
+For ensuring that the mock objects in your tests have the same api as
+the objects they are replacing, you can use auto-speccing. Auto-
+speccing can be done through the *autospec* argument to patch, or the

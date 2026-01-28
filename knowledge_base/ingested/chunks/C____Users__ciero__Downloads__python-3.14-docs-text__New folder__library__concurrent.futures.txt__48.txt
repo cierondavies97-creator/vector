@@ -1,0 +1,4 @@
+more than one interpreter at the same time.  That effectively means
+interpreters cannot actually share such objects or data.  Instead,
+each interpreter must have its own copy, and you will have to
+synchronize any changes between the copies manually.  Immutable

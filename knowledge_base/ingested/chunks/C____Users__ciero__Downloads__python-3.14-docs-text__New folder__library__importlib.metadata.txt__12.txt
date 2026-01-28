@@ -1,0 +1,4 @@
+You can also get a distribution's version number, list its constituent
+files, and get a list of the distribution's Distribution requirements.
+exception importlib.metadata.PackageNotFoundError
+   Subclass of "ModuleNotFoundError" raised by several functions in

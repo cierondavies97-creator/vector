@@ -1,0 +1,4 @@
+*function call*, *function return*, and *exception* events are
+monitored, and precise timings are made for the intervals between
+these events (during which time the user's code is executing).  In
+contrast, *statistical profiling* (which is not done by this module)

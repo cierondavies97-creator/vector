@@ -1,0 +1,4 @@
+os.environ["PYTHONWARNINGS"] = "default" # Also affect subprocesses
+Finally, developers of interactive shells that run user code in a
+namespace other than "__main__" are advised to ensure that
+"DeprecationWarning" messages are made visible by default, using code

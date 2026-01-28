@@ -1,0 +1,2 @@
+|                                   |                                   | directory is a temporary cache,   |
+|                                   |                                   | and can be cleaned up from time   |

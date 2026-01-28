@@ -1,0 +1,5 @@
+environment's executable.
+      The directories are allowed to exist (for when an existing
+      environment is being upgraded).
+   create_git_ignore_file(context)
+      Creates a ".gitignore" file within the virtual environment that

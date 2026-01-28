@@ -1,0 +1,4 @@
+name" form of import statement.  These imports use leading dots to
+indicate the current and parent packages involved in the relative
+import.  From the "surround" module for example, you might use:
+   from . import echo

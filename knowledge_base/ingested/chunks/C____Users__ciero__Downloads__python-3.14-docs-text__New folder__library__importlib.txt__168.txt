@@ -1,0 +1,4 @@
+origin
+      The location the *loader* should use to load the module (see
+      "module.__file__"). For example, for modules loaded from a ".py"
+      file this is the filename. The *finder* should always set this

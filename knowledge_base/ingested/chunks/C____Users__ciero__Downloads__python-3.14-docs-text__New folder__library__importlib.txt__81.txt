@@ -1,0 +1,5 @@
+"ResourceLoader" and "ExecutionLoader", requiring the
+   implementation of:
+   * "ResourceLoader.get_data()"
+   * "ExecutionLoader.get_filename()"
+        Should only return the path to the source file; sourceless

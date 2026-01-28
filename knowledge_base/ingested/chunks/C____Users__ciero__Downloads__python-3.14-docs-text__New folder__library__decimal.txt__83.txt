@@ -1,0 +1,4 @@
+than the second operand.  See the specification for details of
+      the total order.
+      This operation is unaffected by context and is quiet: no flags
+      are changed and no rounding is performed.  As an exception, the

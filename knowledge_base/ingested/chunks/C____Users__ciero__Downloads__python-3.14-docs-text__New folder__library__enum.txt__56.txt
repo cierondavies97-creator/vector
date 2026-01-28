@@ -1,0 +1,5 @@
+the *Enum* name and member name, but can be overridden:
+         >>> from enum import auto, Enum
+         >>> class OtherStyle(Enum):
+         ...     ALTERNATE = auto()
+         ...     OTHER = auto()

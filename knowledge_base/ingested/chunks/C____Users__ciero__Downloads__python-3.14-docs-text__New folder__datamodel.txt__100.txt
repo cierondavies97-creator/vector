@@ -1,0 +1,2 @@
+| function.__type_params__                           | A "tuple" containing the type parameters of a      |
+|                                                    | generic function.  Added in version 3.12.          |

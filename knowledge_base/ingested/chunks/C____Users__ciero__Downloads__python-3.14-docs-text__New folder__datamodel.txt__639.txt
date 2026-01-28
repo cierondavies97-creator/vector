@@ -1,0 +1,5 @@
+Asynchronous context managers can be used in an "async with"
+statement.
+The "object" class itself does not provide these methods.
+object.__aenter__(self)
+   Semantically similar to "__enter__()", the only difference being

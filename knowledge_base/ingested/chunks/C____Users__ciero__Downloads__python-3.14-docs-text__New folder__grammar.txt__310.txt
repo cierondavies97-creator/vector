@@ -1,0 +1,3 @@
+| a=tstring+ b[expr_ty]=(fstring|string) {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(PyPegen_last_item(a, expr_ty), b, "cannot mix t-string literals with string or bytes literals") }
+   invalid_arithmetic:

@@ -1,0 +1,4 @@
+inside the root window.
+The next line creates a label widget holding a static text string. The
+"grid()" method is used to specify the relative layout (position) of
+the label within its containing frame widget, similar to how tables in

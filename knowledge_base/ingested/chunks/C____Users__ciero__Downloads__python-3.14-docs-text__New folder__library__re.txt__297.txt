@@ -1,0 +1,8 @@
+IF quantity THEN
+           total := total + price * quantity;
+           tax := price * 0.05;
+       ENDIF;
+   '''
+   for token in tokenize(statements):
+       print(token)
+The tokenizer produces the following output:

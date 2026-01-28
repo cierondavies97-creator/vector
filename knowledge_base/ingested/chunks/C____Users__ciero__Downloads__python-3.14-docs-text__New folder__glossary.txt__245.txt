@@ -1,0 +1,4 @@
+space for instance attributes and eliminating instance
+   dictionaries.  Though popular, the technique is somewhat tricky to
+   get right and is best reserved for rare cases where there are large
+   numbers of instances in a memory-critical application.

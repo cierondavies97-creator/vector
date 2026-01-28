@@ -1,0 +1,4 @@
+class importlib.metadata.Distribution
+   Details of an installed distribution package.
+   Note: different "Distribution" instances do not currently compare
+   equal, even if they relate to the same installed distribution and

@@ -1,0 +1,4 @@
+async reset()
+      Return the barrier to the default, empty state.  Any tasks
+      waiting on it will receive the "BrokenBarrierError" exception.
+      If a barrier is broken it may be better to just leave it and

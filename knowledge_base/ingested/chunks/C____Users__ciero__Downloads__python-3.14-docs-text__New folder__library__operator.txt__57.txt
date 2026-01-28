@@ -1,0 +1,3 @@
+| Slice Assignment        | "seq[i:j] = values"       | "setitem(seq, slice(i, j), values)"     |
++-------------------------+---------------------------+-----------------------------------------+
+| Slice Deletion          | "del seq[i:j]"            | "delitem(seq, slice(i, j))"             |

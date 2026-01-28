@@ -1,0 +1,4 @@
+Py_XDECREF(my_callback);  /* Dispose of previous callback */
+           my_callback = temp;       /* Remember new callback */
+           /* Boilerplate to return "None" */
+           Py_INCREF(Py_None);

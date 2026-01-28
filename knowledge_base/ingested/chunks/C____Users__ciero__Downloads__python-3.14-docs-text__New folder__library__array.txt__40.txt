@@ -1,0 +1,4 @@
+tounicode()
+      Convert the array to a Unicode string.  The array must have a
+      type "'u'" or "'w'"; otherwise a "ValueError" is raised. Use
+      "array.tobytes().decode(enc)" to obtain a Unicode string from an

@@ -1,0 +1,4 @@
+decompression, or while initializing the (de)compressor state.
+Reading and writing compressed files
+====================================
+compression.zstd.open(file, /, mode='rb', *, level=None, options=None, zstd_dict=None, encoding=None, errors=None, newline=None)

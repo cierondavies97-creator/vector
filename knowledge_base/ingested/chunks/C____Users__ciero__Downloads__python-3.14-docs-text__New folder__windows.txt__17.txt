@@ -1,0 +1,4 @@
+Uninstalling the Python install manager does not uninstall any Python
+runtimes.
+If you are not able to install an MSIX in your context, for example,
+you are using automated deployment software that does not support it,

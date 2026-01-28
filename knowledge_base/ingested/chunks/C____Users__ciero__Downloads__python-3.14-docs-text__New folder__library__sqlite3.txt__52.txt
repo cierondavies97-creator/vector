@@ -1,0 +1,6 @@
+the feature again.
+   Note:
+     Errors in user-defined function callbacks are logged as
+     unraisable exceptions. Use an "unraisable hook handler" for
+     introspection of the failed callback.
+sqlite3.register_adapter(type, adapter, /)

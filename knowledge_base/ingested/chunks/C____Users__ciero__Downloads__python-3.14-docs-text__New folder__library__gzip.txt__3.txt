@@ -1,0 +1,4 @@
+"GzipFile" class reads and writes **gzip**-format files, automatically
+compressing or decompressing the data so that it looks like an
+ordinary *file object*.
+Note that additional file formats which can be decompressed by the

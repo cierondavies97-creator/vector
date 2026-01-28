@@ -1,0 +1,4 @@
+float then the call blocks for at most that many seconds.  If
+   *timeout* is "None" then it will block for an unlimited period. A
+   negative timeout is equivalent to a zero timeout.
+   For both POSIX and Windows, an object can appear in *object_list*

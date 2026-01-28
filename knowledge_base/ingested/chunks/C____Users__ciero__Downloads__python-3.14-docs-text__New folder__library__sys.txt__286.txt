@@ -1,0 +1,3 @@
+(only on call and return, but the return event is reported even
+   when an exception has been set). The function is thread-specific,
+   but there is no way for the profiler to know about context switches

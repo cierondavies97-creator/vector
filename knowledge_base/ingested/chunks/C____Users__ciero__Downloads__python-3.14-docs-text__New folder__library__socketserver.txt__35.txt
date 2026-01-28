@@ -1,0 +1,3 @@
+to decide which request to work on next (or whether to handle a new
+incoming request).  This is particularly important for stream services
+where each client can potentially be connected for a long time (if

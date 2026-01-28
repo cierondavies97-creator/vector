@@ -1,0 +1,5 @@
+allowed in the current state.
+   Added in version 3.8.
+exception concurrent.futures.thread.BrokenThreadPool
+   Derived from "BrokenExecutor", this exception class is raised when
+   one of the workers of a "ThreadPoolExecutor" has failed

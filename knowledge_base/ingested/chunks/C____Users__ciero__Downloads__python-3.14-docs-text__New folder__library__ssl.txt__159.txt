@@ -1,0 +1,5 @@
+RDN is a sequence of name-value pairs.  Here is a real-world
+   example:
+      {'issuer': ((('countryName', 'IL'),),
+                  (('organizationName', 'StartCom Ltd.'),),
+                  (('organizationalUnitName',

@@ -1,0 +1,5 @@
+built against, see "sys.getandroidapilevel()".
+   * "manufacturer" - Manufacturer name.
+   * "model" - Model name – typically the marketing name or model
+     number.
+   * "device" - Device name – typically the model number or a

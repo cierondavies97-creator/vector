@@ -1,0 +1,4 @@
+print(cfg.get('Section1', 'foo', raw=True))   # -> "%(bar)s is %(baz)s!"
+   # The optional *vars* argument is a dict with members that will take
+   # precedence in interpolation.
+   print(cfg.get('Section1', 'foo', vars={'bar': 'Documentation',

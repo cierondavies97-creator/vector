@@ -1,0 +1,6 @@
+Exception classes
+=================
+exception concurrent.futures.CancelledError
+   Raised when a future is cancelled.
+exception concurrent.futures.TimeoutError
+   A deprecated alias of "TimeoutError", raised when a future

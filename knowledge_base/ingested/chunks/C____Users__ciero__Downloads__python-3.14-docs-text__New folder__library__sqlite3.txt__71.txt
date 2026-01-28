@@ -1,0 +1,2 @@
+| SQLite threading   | **threadsafety**       | SQLITE_THREADSAFE      | DB-API 2.0 meaning              |
+   | mode               |                        |                        |                                 |

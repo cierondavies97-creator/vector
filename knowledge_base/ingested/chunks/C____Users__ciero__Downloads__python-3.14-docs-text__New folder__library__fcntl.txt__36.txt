@@ -1,0 +1,5 @@
+Acquire an exclusive lock.
+   fcntl.LOCK_NB
+      Bitwise OR with any of the other three "LOCK_*" constants to
+      make the request non-blocking.
+   If "LOCK_NB" is used and the lock cannot be acquired, an "OSError"

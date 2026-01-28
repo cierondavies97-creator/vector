@@ -1,0 +1,5 @@
+for i in range(10):
+              Process(target=f, args=(lock,)).start()
+Beware of replacing "sys.stdin" with a "file like object"
+   "multiprocessing" originally unconditionally called:
+      os.close(sys.stdin.fileno())

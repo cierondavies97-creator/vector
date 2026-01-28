@@ -1,0 +1,4 @@
+255.
+   The number of values before the list value is encoded in the
+   argument of the opcode. The number of values after the list if any
+   is encoded using an "EXTENDED_ARG". As a consequence, the argument

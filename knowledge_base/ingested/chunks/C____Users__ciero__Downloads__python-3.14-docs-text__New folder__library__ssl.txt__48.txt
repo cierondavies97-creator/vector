@@ -1,0 +1,4 @@
+ssl.RAND_add(bytes, entropy, /)
+   Mix the given *bytes* into the SSL pseudo-random number generator.
+   The parameter *entropy* (a float) is a lower bound on the entropy
+   contained in string (so you can always use "0.0").  See **RFC

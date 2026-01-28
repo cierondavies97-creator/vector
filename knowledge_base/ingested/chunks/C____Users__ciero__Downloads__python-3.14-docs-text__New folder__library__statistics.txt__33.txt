@@ -1,0 +1,5 @@
+"float".  The *data* may be a sequence or iterable.  If the input
+   dataset is empty, raises a "StatisticsError".
+      >>> fmean([3.5, 4.0, 5.25])
+      4.25
+   Optional weighting is supported.  For example, a professor assigns

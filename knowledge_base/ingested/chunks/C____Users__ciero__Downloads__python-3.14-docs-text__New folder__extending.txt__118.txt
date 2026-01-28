@@ -1,0 +1,4 @@
+the format string.
+Note that while "PyArg_ParseTuple()" checks that the Python arguments
+have the required types, it cannot check the validity of the addresses
+of C variables passed to the call: if you make mistakes there, your

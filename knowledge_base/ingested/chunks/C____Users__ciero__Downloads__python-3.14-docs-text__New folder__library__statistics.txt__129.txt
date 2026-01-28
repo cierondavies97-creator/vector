@@ -1,0 +1,5 @@
+data is fit to a line passing through the origin. Since the
+   *intercept* will always be 0.0, the underlying linear function
+   simplifies to:
+      *y = slope * x + noise*
+   Continuing the example from "correlation()", we look to see how

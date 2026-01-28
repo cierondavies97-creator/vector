@@ -1,0 +1,3 @@
+| curses.BUTTONn_CLICKED             | Mouse button *n* clicked                      |
++------------------------------------+-----------------------------------------------+
+| curses.BUTTONn_DOUBLE_CLICKED      | Mouse button *n* double clicked               |

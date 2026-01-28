@@ -1,0 +1,6 @@
+is the empty string.
+   >>> import calendar
+   >>> list(calendar.month_abbr)
+   ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+calendar.JANUARY
+calendar.FEBRUARY

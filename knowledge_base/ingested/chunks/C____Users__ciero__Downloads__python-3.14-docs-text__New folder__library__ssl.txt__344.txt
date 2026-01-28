@@ -1,0 +1,5 @@
+Organizational Unit Name (eg, section) []:My Group
+   Common Name (eg, YOUR name) []:myserver.mygroup.myorganization.com
+   Email Address []:ops@myserver.mygroup.myorganization.com
+   %
+The disadvantage of a self-signed certificate is that it is its own

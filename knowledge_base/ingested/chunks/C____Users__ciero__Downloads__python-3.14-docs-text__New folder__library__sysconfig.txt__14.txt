@@ -1,0 +1,4 @@
+* *platstdlib*: directory containing the standard Python library files
+  that are platform-specific.
+* *platlib*: directory for site-specific, platform-specific files.
+* *purelib*: directory for site-specific, non-platform-specific files

@@ -1,0 +1,5 @@
+Exception raised when a key without a corresponding value is
+   continued with an indented line.
+   Added in version 3.13.
+exception configparser.UnnamedSectionDisabledError
+   Exception raised when attempting to use the "UNNAMED_SECTION"

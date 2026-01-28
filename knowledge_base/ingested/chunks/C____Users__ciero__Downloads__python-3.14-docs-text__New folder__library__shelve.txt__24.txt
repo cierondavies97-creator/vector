@@ -1,0 +1,3 @@
+class shelve.BsdDbShelf(dict, protocol=None, writeback=False, keyencoding='utf-8')
+   A subclass of "Shelf" which exposes "first()", "next()",
+   "previous()", "last()" and "set_location()" methods. These are

@@ -1,0 +1,3 @@
+importlib.util.spec_from_loader(name, loader, *, origin=None, is_package=None)
+   A factory function for creating a "ModuleSpec" instance based on a
+   loader.  The parameters have the same meaning as they do for

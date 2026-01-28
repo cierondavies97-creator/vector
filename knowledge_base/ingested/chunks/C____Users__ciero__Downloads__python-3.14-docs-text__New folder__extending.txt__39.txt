@@ -1,0 +1,4 @@
+"Py_DECREF()" calls for objects you have already created) when you
+return an error indicator!
+The choice of which exception to raise is entirely yours.  There are
+predeclared C objects corresponding to all built-in Python exceptions,

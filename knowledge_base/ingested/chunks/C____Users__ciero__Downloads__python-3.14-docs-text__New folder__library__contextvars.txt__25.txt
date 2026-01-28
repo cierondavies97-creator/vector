@@ -1,0 +1,4 @@
+run(callable, *args, **kwargs)
+      Enters the Context, executes "callable(*args, **kwargs)", then
+      exits the Context.  Returns *callable*'s return value, or
+      propagates an exception if one occurred.

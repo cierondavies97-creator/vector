@@ -1,0 +1,4 @@
+POSIX requirement).
+   This function can support specifying *src_dir_fd* and/or
+   *dst_dir_fd* to supply paths relative to directory descriptors.
+   If you want cross-platform overwriting of the destination, use

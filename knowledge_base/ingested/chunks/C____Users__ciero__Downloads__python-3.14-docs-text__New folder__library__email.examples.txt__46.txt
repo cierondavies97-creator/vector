@@ -1,0 +1,6 @@
+import webbrowser
+   # Import the email modules we'll need
+   from email import policy
+   from email.parser import BytesParser
+   def magic_html_parser(html_text, partfiles):
+       """Return safety-sanitized html linked to partfiles.

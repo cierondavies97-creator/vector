@@ -1,0 +1,5 @@
+"inspect" --- Inspect live objects
+**********************************
+**Source code:** Lib/inspect.py
+======================================================================
+The "inspect" module provides several useful functions to help get

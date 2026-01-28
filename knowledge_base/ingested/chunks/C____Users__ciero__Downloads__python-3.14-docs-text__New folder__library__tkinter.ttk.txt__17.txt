@@ -1,0 +1,3 @@
+|             | is returned, it means that the window should be skipped        |
+|             | entirely during keyboard traversal. If 1, it means that the    |
+|             | window should receive the input focus as long as it is         |

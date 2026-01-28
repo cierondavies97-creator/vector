@@ -1,0 +1,3 @@
+Specifying a single regression test (**python -m test test_spam**)
+will minimize output and only print whether the test passed or failed.
+Running "test" directly allows what resources are available for tests

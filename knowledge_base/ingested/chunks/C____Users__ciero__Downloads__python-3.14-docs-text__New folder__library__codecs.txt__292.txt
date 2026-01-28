@@ -1,0 +1,5 @@
+Returns a tuple "(output, length)" where *output* is a "bytes"
+   object and *length* is the number of bytes consumed.
+Text Transforms
+---------------
+The following codec provides a text transform: a "str" to "str"

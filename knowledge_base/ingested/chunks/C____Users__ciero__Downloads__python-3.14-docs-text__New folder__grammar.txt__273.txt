@@ -1,0 +1,3 @@
+| a='except' '*' (NEWLINE | ':') { RAISE_SYNTAX_ERROR("expected one or more exception types") }
+       | 'except' '*' expression 'as' a=expression ':' block {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(

@@ -1,0 +1,5 @@
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.
+-[ asyncio REPL ]-
+You can experiment with an "asyncio" concurrent context in the *REPL*:

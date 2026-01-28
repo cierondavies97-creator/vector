@@ -1,0 +1,4 @@
+(Note that omitting the launcher also omits file associations, and is
+only recommended for per-user installs when there is also a system-
+wide installation that included the launcher.)
+The options listed above can also be provided in a file named

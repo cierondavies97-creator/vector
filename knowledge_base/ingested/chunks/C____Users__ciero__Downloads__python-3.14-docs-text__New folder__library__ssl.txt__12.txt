@@ -1,0 +1,6 @@
+"create_default_context()" returns a new context with secure default
+settings.
+Client socket example with default context and IPv4/IPv6 dual stack:
+   import socket
+   import ssl
+   hostname = 'www.python.org'

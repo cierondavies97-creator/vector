@@ -1,0 +1,3 @@
+of the argument of the operation (for example, if an integer is
+     passed when a pointer is expected, or the information returned in
+     the buffer by the operating system is larger than 1024 bytes),

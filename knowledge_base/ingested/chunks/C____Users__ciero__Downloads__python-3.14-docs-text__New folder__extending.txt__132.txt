@@ -1,0 +1,4 @@
+const char *type = "Norwegian Blue";
+       static char *kwlist[] = {"voltage", "state", "action", "type", NULL};
+       if (!PyArg_ParseTupleAndKeywords(args, keywds, "i|sss", kwlist,
+                                        &voltage, &state, &action, &type))

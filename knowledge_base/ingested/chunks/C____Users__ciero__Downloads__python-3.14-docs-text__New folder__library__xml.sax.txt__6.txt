@@ -1,0 +1,3 @@
+Create a SAX parser and use it to parse a document.  The document,
+   passed in as *filename_or_stream*, can be a filename or a file
+   object.  The *handler* parameter needs to be a SAX "ContentHandler"

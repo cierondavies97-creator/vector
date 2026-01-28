@@ -1,0 +1,5 @@
+points to.
+   Raises an auditing event "shutil.copyfile" with arguments "src",
+   "dst".
+   Changed in version 3.3: "IOError" used to be raised instead of
+   "OSError". Added *follow_symlinks* argument. Now returns *dst*.

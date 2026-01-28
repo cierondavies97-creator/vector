@@ -1,0 +1,5 @@
+Changed in version 3.13: Extra function attributes on the stack,
+   signaled by oparg flags, were removed. They now use
+   "SET_FUNCTION_ATTRIBUTE".
+SET_FUNCTION_ATTRIBUTE(flag)
+   Sets an attribute on a function object. Expects the function at

@@ -1,0 +1,6 @@
+as dictionary keys.
+* Objects of these types support efficient pickling via the "pickle"
+  module.
+Determining if an Object is Aware or Naive
+------------------------------------------
+Objects of the "date" type are always naive.

@@ -1,0 +1,4 @@
+subset of a problem space, and a more generally applicable solution is
+available elsewhere in the standard library (for example, "getopt"
+covers the very specific task of "mimic the C "getopt()" API in
+Python", rather than the broader command line option parsing and

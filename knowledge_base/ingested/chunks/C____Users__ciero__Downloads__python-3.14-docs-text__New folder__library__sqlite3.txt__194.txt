@@ -1,0 +1,6 @@
+modified, inserted, or deleted since the database connection was
+      opened.
+Cursor objects
+--------------
+   A "Cursor" object represents a database cursor which is used to
+   execute SQL statements, and manage the context of a fetch

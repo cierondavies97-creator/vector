@@ -1,0 +1,3 @@
+debugging if the program being debugged exits abnormally.  After post-
+mortem debugging (or after normal exit of the program), pdb will
+restart the program.  Automatic restarting preserves pdb's state (such

@@ -1,0 +1,3 @@
+"request_queue_size" requests.  Once the queue is full, further
+      requests from clients will get a "Connection denied" error.  The
+      default value is usually 5, but this can be overridden by

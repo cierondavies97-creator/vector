@@ -1,0 +1,3 @@
+PI element factory.  This factory function creates a special
+   element that will be serialized as an XML processing instruction.
+   *target* is a string containing the PI target.  *text* is a string

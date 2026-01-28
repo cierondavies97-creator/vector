@@ -1,0 +1,4 @@
+os.RWF_APPEND
+   Provide a per-write equivalent of the "O_APPEND" "os.open()" flag.
+   This flag is meaningful only for "os.pwritev()", and its effect
+   applies only to the data range written by the system call. The

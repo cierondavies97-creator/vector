@@ -1,0 +1,5 @@
+on both the value of *address_family* and the underlying
+   implementation of "inet_pton()".
+   Availability: Unix, Windows.
+   Changed in version 3.4: Windows support added
+socket.inet_ntop(address_family, packed_ip)

@@ -1,0 +1,5 @@
+first three bytes in the file. In UTF-8, the use of the BOM is
+discouraged and should generally be avoided.
+Standard Encodings
+==================
+Python comes with a number of codecs built-in, either implemented as C

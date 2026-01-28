@@ -1,0 +1,4 @@
+writeable, non seekable "RawIOBase" raw binary stream.  It inherits
+   from "BufferedIOBase".
+   When writing to this object, data is normally placed into an
+   internal buffer.  The buffer will be written out to the underlying

@@ -1,0 +1,4 @@
+"(x<y or x==y)" does not imply "x<=y". To automatically generate
+   ordering operations from a single root operation, see
+   "functools.total_ordering()".
+   By default, the "object" class provides implementations consistent

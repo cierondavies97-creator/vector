@@ -1,0 +1,6 @@
+useful to support, for example, asynchronous connects.
+   Raises an auditing event "socket.connect" with arguments "self",
+   "address".
+   Availability: not WASI.
+socket.detach()
+   Put the socket object into closed state without actually closing

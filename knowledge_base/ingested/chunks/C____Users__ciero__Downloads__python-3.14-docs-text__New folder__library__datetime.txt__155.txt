@@ -1,0 +1,5 @@
+>>> datetime.fromisoformat('2011-11-04')
+      datetime.datetime(2011, 11, 4, 0, 0)
+      >>> datetime.fromisoformat('20111104')
+      datetime.datetime(2011, 11, 4, 0, 0)
+      >>> datetime.fromisoformat('2011-11-04T00:05:23')

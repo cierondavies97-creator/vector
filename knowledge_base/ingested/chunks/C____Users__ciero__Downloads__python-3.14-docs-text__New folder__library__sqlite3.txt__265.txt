@@ -1,0 +1,5 @@
+The deprecated default adapters and converters consist of:
+* An adapter for "datetime.date" objects to "strings" in ISO 8601
+  format.
+* An adapter for "datetime.datetime" objects to strings in ISO 8601
+  format.

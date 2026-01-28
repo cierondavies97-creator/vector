@@ -1,0 +1,5 @@
+subclass thereof), otherwise a "TypeError" is raised.
+   Optional *_subtype* sets the subtype of the message; it defaults to
+   *rfc822*.
+   Optional *policy* argument defaults to "compat32".
+   Changed in version 3.6: Added *policy* keyword-only parameter.

@@ -1,0 +1,5 @@
+Introduces lazy evaluation of annotations and the "__annotate__"
+     function.
+3.3.13. Special method lookup
+-----------------------------
+For custom classes, implicit invocations of special methods are only

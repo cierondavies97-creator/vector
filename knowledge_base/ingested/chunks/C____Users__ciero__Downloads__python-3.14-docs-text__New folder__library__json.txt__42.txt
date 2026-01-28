@@ -1,0 +1,4 @@
+Default "None".
+      * **parse_float** (*callable* | None) -- If set, a function that
+        is called with the string of every JSON float to be decoded.
+        If "None" (the default), it is equivalent to "float(num_str)".

@@ -1,0 +1,5 @@
+See Annotating generators and coroutines for details on using
+   "collections.abc.AsyncGenerator" and "typing.AsyncGenerator" in
+   type annotations.
+   Added in version 3.6.1.
+   Deprecated since version 3.9: "collections.abc.AsyncGenerator" now

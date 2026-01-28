@@ -1,0 +1,5 @@
+Changed in version 3.5: The "'backslashreplace'" error handler now
+works with decoding and translating.
+The set of allowed values can be extended by registering a new named
+error handler:
+codecs.register_error(name, error_handler, /)

@@ -1,0 +1,6 @@
+return values are: 'CPython', 'IronPython', 'Jython', 'PyPy'.
+platform.python_revision()
+   Returns a string identifying the Python implementation SCM
+   revision.
+platform.python_version()
+   Returns the Python version as string "'major.minor.patchlevel'".

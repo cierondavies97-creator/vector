@@ -1,0 +1,4 @@
+(U+FFFD, the official REPLACEMENT CHARACTER) for decoding errors.
+codecs.backslashreplace_errors(exception)
+   Implements the "'backslashreplace'" error handling.
+   Malformed data is replaced by a backslashed escape sequence. On

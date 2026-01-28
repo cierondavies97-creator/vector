@@ -1,0 +1,4 @@
+The absolute value of the second operand gives the number of
+      places to rotate.  If the second operand is positive then
+      rotation is to the left; otherwise rotation is to the right. The
+      coefficient of the first operand is padded on the left with

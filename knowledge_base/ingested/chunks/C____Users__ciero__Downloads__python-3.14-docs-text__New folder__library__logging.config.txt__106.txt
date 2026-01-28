@@ -1,0 +1,3 @@
+match the regular expression "^(?P<prefix>[a-z]+)://(?P<suffix>.*)$"
+whereby, if the "prefix" is recognised, the "suffix" is processed in a
+prefix-dependent manner and the result of the processing replaces the

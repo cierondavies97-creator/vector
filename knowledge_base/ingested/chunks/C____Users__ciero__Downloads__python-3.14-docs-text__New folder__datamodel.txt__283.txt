@@ -1,0 +1,2 @@
+|                                                    | scope*, this may return a write-through proxy      |
+|                                                    | object.  Changed in version 3.13: Return a proxy   |

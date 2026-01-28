@@ -1,0 +1,4 @@
+chosen from a platform-dependent list, but the user of the
+   application can control the directory location by setting the
+   *TMPDIR*, *TEMP* or *TMP* environment variables.  There is thus no
+   guarantee that the generated filename will have any nice

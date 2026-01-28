@@ -1,0 +1,5 @@
+"os.name". The schemes are used by package installers to determine
+where to copy files to.
+Python currently supports nine schemes:
+* *posix_prefix*: scheme for POSIX platforms like Linux or macOS.
+  This is the default scheme used when Python or a component is

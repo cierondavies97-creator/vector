@@ -1,0 +1,4 @@
+"options" object returned by "parse_args()" based on user-supplied
+command-line values.  When "parse_args()" returns from parsing this
+command line, "options.filename" will be ""outfile"" and
+"options.verbose" will be "False".  "optparse" supports both long and

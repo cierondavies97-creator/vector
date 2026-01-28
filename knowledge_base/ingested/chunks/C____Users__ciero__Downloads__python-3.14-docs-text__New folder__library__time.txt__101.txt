@@ -1,0 +1,4 @@
+offer more directives than those listed.  But "strptime()" is
+   independent of any platform and thus does not necessarily support
+   all directives available that are not documented as supported.
+class time.struct_time

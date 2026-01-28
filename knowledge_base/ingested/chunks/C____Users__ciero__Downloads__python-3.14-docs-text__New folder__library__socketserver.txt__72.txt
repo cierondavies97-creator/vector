@@ -1,0 +1,6 @@
+rfile
+      A file object from which receives the request is read. Support
+      the "io.BufferedIOBase" readable interface.
+   wfile
+      A file object to which the reply is written. Support the
+      "io.BufferedIOBase" writable interface

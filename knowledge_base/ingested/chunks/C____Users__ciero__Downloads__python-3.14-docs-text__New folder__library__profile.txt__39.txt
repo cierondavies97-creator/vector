@@ -1,0 +1,4 @@
+duration of each unit of time. For example, if the timer returns
+   times measured in thousands of seconds, the time unit would be
+   ".001".
+   Directly using the "Profile" class allows formatting profile

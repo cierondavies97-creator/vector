@@ -1,0 +1,4 @@
+For the Python events, specialized functions (see below) are
+      called.  For the C events, no action is taken.
+      The *arg* parameter depends on the previous event.
+      See the documentation for "sys.settrace()" for more information

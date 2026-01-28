@@ -1,0 +1,5 @@
+type From3To10[T] = Annotated[T, ValueRange(3, 10)]
+      assert Annotated[From3To10[int], ctype("char")] != Annotated[
+         int, ValueRange(3, 10), ctype("char")
+      ]
+   Duplicated metadata elements are not removed:

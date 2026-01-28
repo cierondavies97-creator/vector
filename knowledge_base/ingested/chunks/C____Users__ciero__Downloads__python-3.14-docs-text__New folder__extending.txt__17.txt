@@ -1,0 +1,6 @@
+return NULL;
+       sts = system(command);
+       return PyLong_FromLong(sts);
+   }
+There is a straightforward translation from the argument list in
+Python (for example, the single expression ""ls -l"") to the arguments

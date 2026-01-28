@@ -1,0 +1,4 @@
+"DocTestRunner"'s output checker, and the results are formatted
+      by the "DocTestRunner.report_*()" methods.
+   summarize(verbose=None)
+      Print a summary of all the test cases that have been run by this

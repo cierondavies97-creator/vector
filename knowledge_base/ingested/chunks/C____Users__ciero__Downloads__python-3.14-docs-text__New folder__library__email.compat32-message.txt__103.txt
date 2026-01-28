@@ -1,0 +1,3 @@
+a "filename" parameter, this method falls back to looking for
+      the "name" parameter on the *Content-Type* header.  If neither
+      is found, or the header is missing, then *failobj* is returned.

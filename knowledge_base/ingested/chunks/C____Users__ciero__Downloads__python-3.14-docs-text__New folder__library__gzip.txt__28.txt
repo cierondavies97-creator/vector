@@ -1,0 +1,5 @@
+Changed in version 3.2: Support for zero-padded and unseekable
+   files was added.
+   Changed in version 3.3: The "io.BufferedIOBase.read1()" method is
+   now implemented.
+   Changed in version 3.4: Added support for the "'x'" and "'xb'"

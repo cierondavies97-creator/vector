@@ -1,0 +1,7 @@
+exception _thread.error
+   Raised on thread-specific errors.
+   Changed in version 3.3: This is now a synonym of the built-in
+   "RuntimeError".
+_thread.LockType
+   This is the type of lock objects.
+_thread.start_new_thread(function, args[, kwargs])

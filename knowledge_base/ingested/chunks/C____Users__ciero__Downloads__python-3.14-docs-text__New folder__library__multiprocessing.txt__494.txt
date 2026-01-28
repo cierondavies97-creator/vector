@@ -1,0 +1,10 @@
+MyManager.register('operator', get_operator_module)
+   ##
+   def test():
+       manager = MyManager()
+       manager.start()
+       print('-' * 20)
+       f1 = manager.Foo1()
+       f1.f()
+       f1.g()
+       assert not hasattr(f1, '_h')

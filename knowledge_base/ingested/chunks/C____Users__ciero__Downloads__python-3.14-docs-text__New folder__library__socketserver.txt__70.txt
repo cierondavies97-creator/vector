@@ -1,0 +1,7 @@
+request
+      The *new* "socket.socket" object to be used to communicate with
+      the client.
+   client_address
+      Client address returned by "BaseServer.get_request()".
+   server
+      "BaseServer" object used for handling the request.

@@ -1,0 +1,4 @@
+When an instance method object is created by retrieving a
+"classmethod" object from a class or instance, its "__self__"
+attribute is the class itself, and its "__func__" attribute is the
+function object underlying the class method.

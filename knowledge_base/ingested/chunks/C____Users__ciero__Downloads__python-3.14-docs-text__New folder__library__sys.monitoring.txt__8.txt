@@ -1,0 +1,4 @@
+All IDs are treated the same by the VM with regard to events, but the
+following IDs are pre-defined to make co-operation of tools easier:
+   sys.monitoring.DEBUGGER_ID = 0
+   sys.monitoring.COVERAGE_ID = 1

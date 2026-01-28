@@ -1,0 +1,5 @@
+ignored.
+-[ Footnotes ]-
+[1] Note that the parser only accepts the Unix-style end of line
+    convention. If you are reading the code from a file, make sure to
+    use newline conversion mode to convert Windows or Mac-style

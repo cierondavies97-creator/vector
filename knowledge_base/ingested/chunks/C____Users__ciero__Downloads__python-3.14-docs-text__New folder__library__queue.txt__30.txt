@@ -1,0 +1,3 @@
+the queue. The count goes down whenever a consumer thread calls
+   "task_done()" to indicate that the item was retrieved and all work
+   on it is complete.  When the count of unfinished tasks drops to

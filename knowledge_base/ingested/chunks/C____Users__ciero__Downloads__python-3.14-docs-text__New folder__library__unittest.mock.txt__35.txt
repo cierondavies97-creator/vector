@@ -1,0 +1,3 @@
+called. See the "side_effect" attribute. Useful for raising
+     exceptions or dynamically changing return values. The function is
+     called with the same arguments as the mock, and unless it returns

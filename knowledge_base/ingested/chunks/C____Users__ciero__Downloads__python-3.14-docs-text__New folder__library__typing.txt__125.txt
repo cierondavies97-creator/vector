@@ -1,0 +1,6 @@
+no members.
+   They can be used to indicate that a function never returns, such as
+   "sys.exit()":
+      from typing import Never  # or NoReturn
+      def stop() -> Never:
+          raise RuntimeError('no way')

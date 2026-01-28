@@ -1,0 +1,4 @@
+Py_DECREF(arglist);
+"PyObject_CallObject()" returns a Python object pointer: this is the
+return value of the Python function.  "PyObject_CallObject()" is
+"reference-count-neutral" with respect to its arguments.  In the

@@ -1,0 +1,3 @@
+held on them (for example, a "bytearray" would temporarily
+         forbid resizing); therefore, calling release() is handy to
+         remove these restrictions (and free any dangling resources)

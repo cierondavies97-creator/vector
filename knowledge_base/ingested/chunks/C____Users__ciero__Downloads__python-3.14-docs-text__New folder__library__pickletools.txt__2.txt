@@ -1,0 +1,6 @@
+are working on the "pickle"; ordinary users of the "pickle" module
+probably won't find the "pickletools" module relevant.
+Command-line usage
+==================
+Added in version 3.2.
+When invoked from the command line, "python -m pickletools" will

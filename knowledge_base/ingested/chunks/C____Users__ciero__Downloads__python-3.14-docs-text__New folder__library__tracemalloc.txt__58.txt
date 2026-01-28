@@ -1,0 +1,4 @@
+"tracemalloc" module. Use the "get_tracemalloc_memory()" function
+   to measure how much memory is used by the "tracemalloc" module.
+   The "PYTHONTRACEMALLOC" environment variable
+   ("PYTHONTRACEMALLOC=NFRAME") and the "-X" "tracemalloc=NFRAME"

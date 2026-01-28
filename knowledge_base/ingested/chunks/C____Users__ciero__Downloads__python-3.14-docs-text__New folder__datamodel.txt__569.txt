@@ -1,0 +1,6 @@
+object.__ilshift__(self, other)
+object.__irshift__(self, other)
+object.__iand__(self, other)
+object.__ixor__(self, other)
+object.__ior__(self, other)
+   These methods are called to implement the augmented arithmetic

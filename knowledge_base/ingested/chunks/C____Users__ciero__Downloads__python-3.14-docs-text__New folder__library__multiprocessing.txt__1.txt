@@ -1,0 +1,6 @@
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly
+platforms.
+Introduction
+============
+"multiprocessing" is a package that supports spawning processes using

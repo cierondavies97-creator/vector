@@ -1,0 +1,4 @@
+the package.  This includes any names defined (and submodules
+explicitly loaded) by "__init__.py".  It also includes any submodules
+of the package that were explicitly loaded by previous "import"
+statements.  Consider this code:

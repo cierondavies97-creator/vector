@@ -1,0 +1,3 @@
+| Path           | Installation directory                                      |
+|================|=============================================================|
+| *stdlib*       | "*userbase*/lib/python"                                     |

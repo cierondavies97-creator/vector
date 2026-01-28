@@ -1,0 +1,3 @@
+arguments checked and will raise a "TypeError" if they are called
+   with the wrong signature. For mocks replacing a class, their return
+   value (the 'instance') will have the same spec as the class. See

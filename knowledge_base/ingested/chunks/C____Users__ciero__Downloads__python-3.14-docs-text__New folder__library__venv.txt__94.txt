@@ -1,0 +1,4 @@
+self.nopip = kwargs.pop('nopip', False)
+           self.progress = kwargs.pop('progress', None)
+           self.verbose = kwargs.pop('verbose', False)
+           super().__init__(*args, **kwargs)

@@ -1,0 +1,4 @@
+conventions for verbose regular expressions.
+  Added in version 3.2.
+Alternatively, you can provide the entire regular expression pattern
+by overriding the class attribute *pattern*.  If you do this, the

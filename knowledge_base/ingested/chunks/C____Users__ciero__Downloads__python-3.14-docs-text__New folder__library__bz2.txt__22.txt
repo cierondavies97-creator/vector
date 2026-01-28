@@ -1,0 +1,5 @@
+Changed in version 3.4: The "'x'" (exclusive creation) mode was
+   added.
+   Changed in version 3.5: The "read()" method now accepts an argument
+   of "None".
+   Changed in version 3.6: Accepts a *path-like object*.

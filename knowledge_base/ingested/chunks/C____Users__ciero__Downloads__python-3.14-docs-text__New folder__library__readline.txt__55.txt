@@ -1,0 +1,5 @@
+readline.set_history_length(1000)
+           readline.write_history_file(histfile)
+Note:
+  The new *REPL* introduced in version 3.13 doesn't support readline.
+  However, readline can still be used by setting the

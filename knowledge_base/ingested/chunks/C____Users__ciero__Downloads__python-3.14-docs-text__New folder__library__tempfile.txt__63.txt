@@ -1,0 +1,3 @@
+The module uses a global variable to store the name of the directory
+used for temporary files returned by "gettempdir()".  It can be set
+directly to override the selection process, but this is discouraged.

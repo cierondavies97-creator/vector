@@ -1,0 +1,5 @@
+ModuleSpec.  The function uses available *loader* APIs, such as
+   "InspectLoader.is_package()", to fill in any missing information on
+   the spec.
+   Added in version 3.4.
+importlib.util.spec_from_file_location(name, location, *, loader=None, submodule_search_locations=None)

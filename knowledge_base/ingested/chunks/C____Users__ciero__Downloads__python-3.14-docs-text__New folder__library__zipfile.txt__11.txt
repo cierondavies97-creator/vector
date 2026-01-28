@@ -1,0 +1,5 @@
+compatibility.
+   _for_archive(archive)
+      Resolve the date_time, compression attributes, and external
+      attributes to suitable defaults as used by "ZipFile.writestr()".
+      Returns self for chaining.

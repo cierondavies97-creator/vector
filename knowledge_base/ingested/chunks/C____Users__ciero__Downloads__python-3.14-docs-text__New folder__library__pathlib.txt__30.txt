@@ -1,0 +1,7 @@
+>>> p / 'init.d' / 'apache2'
+   PurePosixPath('/etc/init.d/apache2')
+   >>> q = PurePath('bin')
+   >>> '/usr' / q
+   PurePosixPath('/usr/bin')
+   >>> p / '/an_absolute_path'
+   PurePosixPath('/an_absolute_path')

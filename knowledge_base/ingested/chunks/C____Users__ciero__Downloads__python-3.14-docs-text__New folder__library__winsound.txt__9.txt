@@ -1,0 +1,5 @@
+default sound is registered, raise "RuntimeError". Do not use with
+   "SND_FILENAME".
+   All Win32 systems support at least the following; most systems
+   support many more:
+   +----------------------------+------------------------------------------+

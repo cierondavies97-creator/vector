@@ -1,0 +1,3 @@
++------------+-----------------------------------------------------------------+
+| variable   | A name which is linked to the option value. If specified, the   |
+|            | value of the progress bar is automatically set to the value of  |

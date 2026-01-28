@@ -1,0 +1,5 @@
+Client socket example with custom context and IPv4:
+   hostname = 'www.python.org'
+   # PROTOCOL_TLS_CLIENT requires valid cert chain and hostname
+   context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+   context.load_verify_locations('path/to/cabundle.pem')

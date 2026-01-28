@@ -1,0 +1,5 @@
+"sub()" and "subn()", only backslashes should be escaped.  For
+   example:
+      >>> digits_re = r'\d+'
+      >>> sample = '/usr/sbin/sendmail - 0 errors, 12 warnings'
+      >>> print(re.sub(digits_re, digits_re.replace('\\', r'\\'), sample))

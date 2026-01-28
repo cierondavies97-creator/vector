@@ -1,0 +1,3 @@
+Patch can be used as a context manager, with the with statement.
+   Here the patching applies to the indented block after the with
+   statement. If you use "as" then the patched object will be bound to

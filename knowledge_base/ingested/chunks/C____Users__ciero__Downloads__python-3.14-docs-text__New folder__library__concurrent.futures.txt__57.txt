@@ -1,0 +1,3 @@
+then it also sets the "__cause__" to a corresponding "ExecutionFailed"
+instance, which contains a summary of the original exception. In the
+uncommon case that the worker is not able to preserve the original as-

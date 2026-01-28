@@ -1,0 +1,8 @@
+"PROTOCOL_TLS".
+   Changed in version 3.13: The context now uses
+   "VERIFY_X509_PARTIAL_CHAIN" and "VERIFY_X509_STRICT" in its default
+   verify flags.
+Exceptions
+----------
+exception ssl.SSLError
+   Raised to signal an error from the underlying SSL implementation

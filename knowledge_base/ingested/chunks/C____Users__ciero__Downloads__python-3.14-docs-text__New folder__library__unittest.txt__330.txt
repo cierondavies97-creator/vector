@@ -1,0 +1,8 @@
+Added in version 3.12.
+   shouldStop
+      Set to "True" when the execution of tests should stop by
+      "stop()".
+   testsRun
+      The total number of tests run so far.
+   buffer
+      If set to true, "sys.stdout" and "sys.stderr" will be buffered

@@ -1,0 +1,4 @@
+concat("foo", b"bar")   # Error, cannot mix str and bytes
+   Note that, despite its name, "AnyStr" has nothing to do with the
+   "Any" type, nor does it mean "any string". In particular, "AnyStr"
+   and "str | bytes" are different from each other and have different

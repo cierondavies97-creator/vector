@@ -1,0 +1,4 @@
+Naive and aware "datetime" objects are never equal.
+   If both comparands are aware, and have the same "tzinfo" attribute,
+   the "tzinfo" and "fold" attributes are ignored and the base
+   datetimes are compared. If both comparands are aware and have

@@ -1,0 +1,4 @@
+"Event".
+There is a "main thread" object; this corresponds to the initial
+thread of control in the Python program.  It is not a daemon thread.
+There is the possibility that "dummy thread objects" are created.

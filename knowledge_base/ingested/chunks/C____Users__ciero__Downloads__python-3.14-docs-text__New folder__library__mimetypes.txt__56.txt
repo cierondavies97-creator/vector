@@ -1,0 +1,3 @@
+.aac
+   .opus
+   error: unknown type audio/future

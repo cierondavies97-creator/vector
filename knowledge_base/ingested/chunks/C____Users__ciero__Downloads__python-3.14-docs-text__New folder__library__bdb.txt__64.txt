@@ -1,0 +1,3 @@
+("file", "line") (which must exist) that is "enabled", for which
+   "checkfuncname()" is true, and that has neither a false "condition"
+   nor positive "ignore" count.  The *flag*, meaning that a temporary

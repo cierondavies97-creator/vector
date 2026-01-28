@@ -1,0 +1,6 @@
+are over 200 common widget methods, so again identifying those
+specific to a widget class is helpful.
+   print(dir(btn))
+   print(set(dir(btn)) - set(dir(frm)))
+Navigating the Tcl/Tk Reference Manual
+--------------------------------------

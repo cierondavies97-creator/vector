@@ -1,0 +1,7 @@
+"getLogger()" to obtain the logger.
+      Note:
+        This attribute should be treated as read-only.
+   level
+      The threshold of this logger, as set by the "setLevel()" method.
+      Note:
+        Do not set this attribute directly - always use "setLevel()",

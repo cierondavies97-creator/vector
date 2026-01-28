@@ -1,0 +1,4 @@
+this text to the message's *preamble* attribute.  When the
+      "Generator" is writing out the plain text representation of a
+      MIME message, and it finds the message has a *preamble*
+      attribute, it will write this text in the area between the

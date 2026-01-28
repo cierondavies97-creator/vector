@@ -1,0 +1,4 @@
+error.  *helpfile* is the path of the help file.  *helpcontext*
+      is the help context identifier.  *progid* is the "ProgID" of the
+      interface that defined the error.
+   Availability: Windows

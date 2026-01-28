@@ -1,0 +1,5 @@
+left(*parse(arg))
+       def do_goto(self, arg):
+           'Move turtle to an absolute position with changing orientation.  GOTO 100 200'
+           goto(*parse(arg))
+       def do_home(self, arg):

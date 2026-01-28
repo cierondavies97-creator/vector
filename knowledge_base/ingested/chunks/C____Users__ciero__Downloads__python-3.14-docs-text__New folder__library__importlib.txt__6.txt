@@ -1,0 +1,5 @@
+since the writing of this document (e.g. redirecting based on
+     "None" in "sys.modules").
+  The "__import__()" function
+     The "import" statement is syntactic sugar for this function.
+  The initialization of the sys.path module search path

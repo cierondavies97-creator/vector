@@ -1,0 +1,3 @@
+print("Event loop running for 1 hour, press Ctrl+C to interrupt.")
+   print(f"pid {os.getpid()}: send SIGINT or SIGTERM to exit.")
+   asyncio.run(main())

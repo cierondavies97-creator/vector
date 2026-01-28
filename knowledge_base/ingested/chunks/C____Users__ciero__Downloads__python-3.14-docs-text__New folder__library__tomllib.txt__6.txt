@@ -1,0 +1,4 @@
+Load TOML from a "str" object. Return a "dict". Convert TOML types
+   to Python using this conversion table. The *parse_float* argument
+   has the same meaning as in "load()".
+   A "TOMLDecodeError" will be raised on an invalid TOML document.

@@ -1,0 +1,5 @@
+...     return '-'.join([word[:4] for word in string.casefold().split()])
+   ...
+   >>> parser = argparse.ArgumentParser()
+   >>> _ = parser.add_argument('short_title', type=hyphenated)
+   >>> parser.parse_args(['"The Tale of Two Cities"'])

@@ -1,0 +1,4 @@
+These semantic differences are intentional and are biased toward
+   maximal convenience.
+   Note that in all cases, any envelope header present in the message
+   is not included in the mapping interface.

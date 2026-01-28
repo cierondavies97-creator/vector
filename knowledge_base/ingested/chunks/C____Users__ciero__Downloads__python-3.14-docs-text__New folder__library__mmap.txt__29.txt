@@ -1,0 +1,4 @@
+mm.write(b"Hello world!")
+   Added in version 3.2: Context manager support.
+   The next example demonstrates how to create an anonymous map and
+   exchange data between the parent and child processes:

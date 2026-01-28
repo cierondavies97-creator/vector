@@ -1,0 +1,6 @@
+python -m timeit [-n N] [-r N] [-u U] [-s S] [-p] [-v] [-h] [statement ...]
+Where the following options are understood:
+-n N, --number=N
+   how many times to execute 'statement'
+-r N, --repeat=N
+   how many times to repeat the timer (default 5)

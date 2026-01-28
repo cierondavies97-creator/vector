@@ -1,0 +1,5 @@
+iterable of strings, no ordering is expected.
+   Added in version 3.8.
+xml.etree.ElementTree.Comment(text=None)
+   Comment element factory.  This factory function creates a special
+   element that will be serialized as an XML comment by the standard

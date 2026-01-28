@@ -1,0 +1,4 @@
+*dict_content* is a "raw content" dictionary, without any format
+   restrictions. "False" means *dict_content* is an ordinary Zstandard
+   dictionary, created from Zstandard functions, for example,
+   "train_dict()" or the external **zstd** CLI.

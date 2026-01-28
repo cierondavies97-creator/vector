@@ -1,0 +1,6 @@
+and set as current event loop with "asyncio.set_event_loop()" if
+   *loop_factory* is "None".
+   Basically, "asyncio.run()" example can be rewritten with the runner
+   usage:
+      async def main():
+          await asyncio.sleep(1)

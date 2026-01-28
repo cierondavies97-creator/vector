@@ -1,0 +1,4 @@
+module object that will be the target of loading later. The import
+system passes in a target module only during reload.
+The meta path may be traversed multiple times for a single import
+request. For example, assuming none of the modules involved has

@@ -1,0 +1,4 @@
+amount of *extent*.
+   As the circle is approximated by an inscribed regular polygon,
+   *steps* determines the number of steps to use.  If not given, it
+   will be calculated automatically.  May be used to draw regular

@@ -1,0 +1,4 @@
+called. Otherwise, it's assumed to be a callable and called with the
+record as the single parameter. The returned value should conform to
+that returned by "filter()".
+Changed in version 3.12: You can now return a "LogRecord" instance

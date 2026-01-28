@@ -1,0 +1,4 @@
+"offvalue", and "value".  This connection works both ways: if the
+variable changes for any reason, the widget it's connected to will be
+updated to reflect the new value.
+Unfortunately, in the current implementation of "tkinter" it is not

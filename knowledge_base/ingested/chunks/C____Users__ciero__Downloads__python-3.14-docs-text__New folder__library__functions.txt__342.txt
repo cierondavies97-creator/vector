@@ -1,0 +1,6 @@
+type of an object.
+vars()
+vars(object, /)
+   Return the "__dict__" attribute for a module, class, instance, or
+   any other object with a "__dict__" attribute.
+   Objects such as modules and instances have an updateable "__dict__"

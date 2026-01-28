@@ -1,0 +1,3 @@
+| "INTRINSIC_UNARY_POSITIVE"          | Performs the unary "+" operation    |
+   +-------------------------------------+-------------------------------------+
+   | "INTRINSIC_LIST_TO_TUPLE"           | Converts a list to a tuple          |

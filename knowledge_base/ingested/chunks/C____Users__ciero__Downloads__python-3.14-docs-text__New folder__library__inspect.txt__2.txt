@@ -1,0 +1,3 @@
+code of a method, extract and format the argument list for a function,
+or get all the information you need to display a detailed traceback.
+There are four main kinds of services provided by this module: type

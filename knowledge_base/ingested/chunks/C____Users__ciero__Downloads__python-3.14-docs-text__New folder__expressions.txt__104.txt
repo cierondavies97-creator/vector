@@ -1,0 +1,4 @@
+using "async def" further defines the function as an *asynchronous
+generator* function.
+When an asynchronous generator function is called, it returns an
+asynchronous iterator known as an asynchronous generator object. That

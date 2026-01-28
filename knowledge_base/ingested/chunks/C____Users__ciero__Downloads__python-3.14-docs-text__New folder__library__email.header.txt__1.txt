@@ -1,0 +1,3 @@
+current API encoding and decoding of headers is handled transparently
+by the dictionary-like API of the "EmailMessage" class.  In addition
+to uses in legacy code, this module can be useful in applications that

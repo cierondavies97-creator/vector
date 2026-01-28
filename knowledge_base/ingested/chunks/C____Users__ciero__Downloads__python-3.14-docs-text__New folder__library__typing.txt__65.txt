@@ -1,0 +1,4 @@
+"ReturnType" type argument ("AsyncGenerator[YieldType, SendType]").
+The "SendType" argument defaults to "None", so the following
+definitions are equivalent:
+   async def infinite_stream(start: int) -> AsyncGenerator[int]:

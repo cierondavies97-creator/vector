@@ -1,0 +1,4 @@
+two type arguments: the first indicates the type of the keys, and the
+second indicates the type of the values.
+Unlike most other Python containers, however, it is common in
+idiomatic Python code for tuples to have elements which are not all of

@@ -1,0 +1,4 @@
+object strictly between "-timedelta(hours=24)" and
+   "timedelta(hours=24)" (the magnitude of the offset must be less
+   than one day). Most implementations of "utcoffset()" will probably
+   look like one of these two:

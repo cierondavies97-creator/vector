@@ -1,0 +1,4 @@
+# so only ``Unrelated`` is left.
+              assert_type(arg, Unrelated)
+   The type inside "TypeIs" must be consistent with the type of the
+   function's argument; if it is not, static type checkers will raise

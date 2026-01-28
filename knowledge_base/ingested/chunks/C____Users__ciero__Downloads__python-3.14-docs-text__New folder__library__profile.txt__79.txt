@@ -1,0 +1,5 @@
+arguments will be silently ignored.
+      Added in version 3.7: Added the SortKey enum.
+   reverse_order()
+      This method for the "Stats" class reverses the ordering of the
+      basic list within the object.  Note that by default ascending vs

@@ -1,0 +1,4 @@
+line is taken to signal the end of expected output.  If expected
+  output does contain a blank line, put "<BLANKLINE>" in your doctest
+  example each place a blank line is expected.
+* All hard tab characters are expanded to spaces, using 8-column tab

@@ -1,0 +1,7 @@
+>>> from typing import TypeVar
+      >>> T = TypeVar('T')
+      >>> list[T].__parameters__
+      (~T,)
+   Note:
+     A "GenericAlias" object with "typing.ParamSpec" parameters may
+     not have correct "__parameters__" after substitution because

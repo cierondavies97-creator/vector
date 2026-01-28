@@ -1,0 +1,4 @@
+"'u'" or "'w'", otherwise it is a list of numbers. The string
+representation is guaranteed to be able to be converted back to an
+array with the same type and value using "eval()", so long as the
+"array" class has been imported using "from array import array".

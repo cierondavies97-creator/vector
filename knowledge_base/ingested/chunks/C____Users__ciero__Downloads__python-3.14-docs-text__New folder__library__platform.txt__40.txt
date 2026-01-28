@@ -1,0 +1,4 @@
+a tuple of strings "(lib, version)" which default to the given
+   parameters in case the lookup fails.
+   Note that this function has intimate knowledge of how different
+   libc versions add symbols to the executable is probably only usable

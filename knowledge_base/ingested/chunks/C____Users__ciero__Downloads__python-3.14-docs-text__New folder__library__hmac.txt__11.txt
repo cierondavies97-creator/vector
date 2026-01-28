@@ -1,0 +1,4 @@
+reduce the vulnerability to timing attacks.
+HMAC.hexdigest()
+   Like "digest()" except the digest is returned as a string twice the
+   length containing only hexadecimal digits.  This may be used to

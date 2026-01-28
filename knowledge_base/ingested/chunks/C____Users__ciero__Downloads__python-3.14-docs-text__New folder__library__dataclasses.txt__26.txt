@@ -1,0 +1,4 @@
+unhashable (which it is, since it is mutable).  If *eq* is false,
+     "__hash__()" will be left untouched meaning the "__hash__()"
+     method of the superclass will be used (if the superclass is
+     "object", this means it will fall back to id-based hashing).

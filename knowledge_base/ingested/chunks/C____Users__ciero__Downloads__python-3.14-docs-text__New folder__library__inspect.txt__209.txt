@@ -1,0 +1,4 @@
+encountered in extension module APIs. This function is retained
+   primarily for use in code that needs to maintain compatibility with
+   the Python 2 "inspect" module API.
+   Changed in version 3.4: This function is now based on

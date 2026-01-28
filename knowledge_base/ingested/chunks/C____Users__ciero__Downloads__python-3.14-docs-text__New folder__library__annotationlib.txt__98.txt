@@ -1,0 +1,7 @@
+supported
+  * "ast.Not" ("not") is not supported
+* "ast.Dict" (except when using "**" unpacking)
+* "ast.Set"
+* "ast.Compare"
+  * "ast.Eq" and "ast.NotEq" are supported
+  * "ast.Lt", "ast.LtE", "ast.Gt", and "ast.GtE" are supported, but

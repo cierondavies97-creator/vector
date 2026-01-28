@@ -1,0 +1,3 @@
++------------------------------------------+-------------------------------------+
+   | "INTRINSIC_TYPEVAR_WITH_BOUND"           | Creates a "typing.TypeVar" with a   |
+   |                                          | bound.                              |

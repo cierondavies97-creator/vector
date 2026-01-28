@@ -1,0 +1,4 @@
+a function) is requested.  Thus it is possible to either completely
+forbid globals or restrict them to a safe subset.
+Here is an example of an unpickler allowing only few safe classes from
+the "builtins" module to be loaded:

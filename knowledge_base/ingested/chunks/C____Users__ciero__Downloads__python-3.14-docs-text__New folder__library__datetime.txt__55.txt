@@ -1,0 +1,3 @@
++----------------------------------+-------------------------------------------------+
+| "repr(t)"                        | Returns a string representation of the          |
+|                                  | "timedelta" object as a constructor call with   |

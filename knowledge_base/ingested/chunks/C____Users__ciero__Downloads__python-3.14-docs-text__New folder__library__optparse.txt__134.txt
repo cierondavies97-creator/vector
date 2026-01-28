@@ -1,0 +1,4 @@
+etc.  These are dealt with in the usual way: raise an exception
+(either "optparse.OptionError" or "TypeError") and let the program
+crash.
+Handling user errors is much more important, since they are guaranteed

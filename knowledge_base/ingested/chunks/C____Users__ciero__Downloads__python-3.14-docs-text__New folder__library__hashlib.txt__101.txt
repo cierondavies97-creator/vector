@@ -1,0 +1,4 @@
+'cf68fb5761b9c44e7878bfb2c4c9aea52264a80b75005e65619778de59f383a3'
+Personalization together with the keyed mode can also be used to
+derive different keys from a single one.
+>>> from hashlib import blake2s

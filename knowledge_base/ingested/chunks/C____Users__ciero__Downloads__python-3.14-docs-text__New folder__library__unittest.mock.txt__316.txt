@@ -1,0 +1,5 @@
+"__getstate__" and "__setstate__"
+* "__getformat__"
+[2] Magic methods *should* be looked up on the class rather than the
+    instance. Different versions of Python are inconsistent about
+    applying this rule. The supported protocol methods should work

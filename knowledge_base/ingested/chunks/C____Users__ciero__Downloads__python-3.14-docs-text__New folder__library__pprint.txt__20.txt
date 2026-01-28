@@ -1,0 +1,4 @@
+been overridden.  If the representation of object exposes a
+   recursive entry, the recursive reference will be represented as
+   "<Recursion on typename with id=number>".  The representation is
+   not otherwise formatted.

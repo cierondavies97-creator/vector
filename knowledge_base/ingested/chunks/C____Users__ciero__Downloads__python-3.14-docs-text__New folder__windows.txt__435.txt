@@ -1,0 +1,4 @@
+"python3" will use the latest Python 3.x installed.
+* The command "python3.7" will not consult any options at all as the
+  versions are fully specified.
+* If "PY_PYTHON=3", the commands "python" and "python3" will both use

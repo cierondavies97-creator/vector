@@ -1,0 +1,4 @@
+locale.nl_langinfo(option)
+   Return some locale-specific information as a string.  This function
+   is not available on all systems, and the set of possible options
+   might also vary across platforms.  The possible argument values are

@@ -1,0 +1,6 @@
+test.support.get_pagesize()
+   Get size of a page in bytes.
+   Added in version 3.12.
+test.support.setswitchinterval(interval)
+   Set the "sys.setswitchinterval()" to the given *interval*.  Defines
+   a minimum interval for Android systems to prevent the system from

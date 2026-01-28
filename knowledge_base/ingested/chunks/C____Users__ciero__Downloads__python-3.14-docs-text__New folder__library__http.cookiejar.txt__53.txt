@@ -1,0 +1,4 @@
+clobbered by Mozilla.
+class http.cookiejar.LWPCookieJar(filename=None, delayload=None, policy=None)
+   A "FileCookieJar" that can load from and save cookies to disk in
+   format compatible with the libwww-perl library's "Set-Cookie3" file

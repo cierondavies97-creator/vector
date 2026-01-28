@@ -1,0 +1,5 @@
+the "code" module instead.
+There are two parts to this job:
+1. Being able to tell if a line of input completes a Python statement:
+   in short, telling whether to print '">>>"' or '"..."' next.
+2. Remembering which future statements the user has entered, so

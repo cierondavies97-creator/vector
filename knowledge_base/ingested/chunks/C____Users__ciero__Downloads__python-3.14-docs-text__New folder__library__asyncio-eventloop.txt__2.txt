@@ -1,0 +1,4 @@
+reference the loop object or call its methods.  This section is
+intended mostly for authors of lower-level code, libraries, and
+frameworks, who need finer control over the event loop behavior.
+-[ Obtaining the Event Loop ]-

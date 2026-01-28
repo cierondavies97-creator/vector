@@ -1,0 +1,4 @@
+replacement occurs, the old attribute node will be returned.  If
+   *newAttr* is already in use, "InuseAttributeErr" will be raised.
+Element.setAttributeNodeNS(newAttr)
+   Add a new attribute node to the element, replacing an existing

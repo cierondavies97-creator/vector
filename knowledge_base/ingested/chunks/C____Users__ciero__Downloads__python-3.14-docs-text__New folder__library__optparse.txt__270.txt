@@ -1,0 +1,5 @@
+following them still there.  Feel free to modify "parser.rargs",
+      e.g. by consuming more arguments.
+   "parser.values"
+      the object where option values are by default stored (an
+      instance of optparse.OptionValues).  This lets callbacks use the

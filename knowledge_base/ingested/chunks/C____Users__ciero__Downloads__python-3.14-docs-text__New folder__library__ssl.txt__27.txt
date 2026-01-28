@@ -1,0 +1,4 @@
+using the "OP_NO_SSLv3". SSL3.0 is widely considered to be
+     completely broken. If you still wish to continue to use this
+     function but still allow SSL 3.0 connections you can re-enable
+     them using:

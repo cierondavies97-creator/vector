@@ -1,0 +1,7 @@
+>>> sizeof(short_array)
+   32
+   >>> sizeof(type(short_array))
+   8
+   >>>
+This is nice and fine, but how would one access the additional
+elements contained in this array?  Since the type still only knows

@@ -1,0 +1,6 @@
+all the sub-tree below it (its children, their children, and so on).
+For example, "Element.iter()":
+   >>> for neighbor in root.iter('neighbor'):
+   ...     print(neighbor.attrib)
+   ...
+   {'name': 'Austria', 'direction': 'E'}

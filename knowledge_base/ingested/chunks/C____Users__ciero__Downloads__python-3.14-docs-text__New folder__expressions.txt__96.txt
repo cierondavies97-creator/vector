@@ -1,0 +1,3 @@
+was paused. If the generator function catches the exception and
+   returns a value, this value is returned from "close()".  If the
+   generator function is already closed, or raises "GeneratorExit" (by

@@ -1,0 +1,5 @@
+handled. The supplied actions are:
+* "'store'" - This just stores the argument's value.  This is the
+  default action.
+* "'store_const'" - This stores the value specified by the const
+  keyword argument; note that the const keyword argument defaults to

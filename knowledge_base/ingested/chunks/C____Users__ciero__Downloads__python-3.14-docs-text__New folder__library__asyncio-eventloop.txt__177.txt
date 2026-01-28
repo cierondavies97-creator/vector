@@ -1,0 +1,5 @@
+Use "functools.partial()" to pass keyword arguments to *callback*.
+   Like "signal.signal()", this function must be invoked in the main
+   thread.
+loop.remove_signal_handler(sig)
+   Remove the handler for the *sig* signal.

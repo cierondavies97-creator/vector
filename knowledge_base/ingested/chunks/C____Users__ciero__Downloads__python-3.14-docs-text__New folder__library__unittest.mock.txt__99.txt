@@ -1,0 +1,6 @@
+>>> mock = MagicMock()
+      >>> result = mock(1, 2, 3)
+      >>> mock.first(a=3)
+      <MagicMock name='mock.first()' id='...'>
+      >>> mock.second()
+      <MagicMock name='mock.second()' id='...'>

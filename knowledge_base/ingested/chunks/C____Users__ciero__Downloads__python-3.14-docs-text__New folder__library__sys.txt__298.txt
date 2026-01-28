@@ -1,0 +1,6 @@
+operating system's decision.  The interpreter doesn't have its own
+   scheduler.
+   Added in version 3.2.
+sys.settrace(tracefunc)
+   Set the system's trace function, which allows you to implement a
+   Python source code debugger in Python.  The function is thread-

@@ -1,0 +1,5 @@
+pointer type fields, or any other data types containing pointer type
+fields.
+class ctypes.Structure(*args, **kw)
+   Abstract base class for structures in *native* byte order.
+   Concrete structure and union types must be created by subclassing

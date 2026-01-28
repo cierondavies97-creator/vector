@@ -1,0 +1,4 @@
+symbolic links.
+   Changed in version 3.3: Added the *dir_fd* parameter, and now allow
+   *target_is_directory* on non-Windows platforms.
+   Changed in version 3.6: Accepts a *path-like object* for *src* and

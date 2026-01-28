@@ -1,0 +1,5 @@
+assignments do an automatic deletion of the existing header in
+      the future.
+   __delitem__(name)
+      Delete all occurrences of the field with name *name* from the
+      message's headers.  No exception is raised if the named field

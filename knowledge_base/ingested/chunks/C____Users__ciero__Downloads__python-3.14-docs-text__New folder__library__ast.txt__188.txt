@@ -1,0 +1,10 @@
+... for x in y:
+      ...     ...
+      ... else:
+      ...     ...
+      ... """), indent=4))
+      Module(
+          body=[
+              For(
+                  target=Name(id='x', ctx=Store()),
+                  iter=Name(id='y', ctx=Load()),

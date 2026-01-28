@@ -1,0 +1,6 @@
+uuid.MAX
+   A special form of UUID that is specified to have all 128 bits set
+   to one according to **RFC 9562, §5.10**.
+   Added in version 3.14.
+See also:
+  **RFC 9562** - A Universally Unique IDentifier (UUID) URN Namespace

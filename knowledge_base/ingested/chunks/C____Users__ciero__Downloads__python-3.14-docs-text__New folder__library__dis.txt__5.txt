@@ -1,0 +1,4 @@
+the interpreter now adapts the bytecode to specialize it for different
+runtime conditions. The adaptive bytecode can be shown by passing
+"adaptive=True".
+Changed in version 3.12: The argument of a jump is the offset of the

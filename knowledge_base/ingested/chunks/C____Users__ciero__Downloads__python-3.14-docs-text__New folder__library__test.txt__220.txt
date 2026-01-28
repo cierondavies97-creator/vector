@@ -1,0 +1,5 @@
+***************************************************************
+The "test.support.warnings_helper" module provides support for
+warnings tests.
+Added in version 3.10.
+test.support.warnings_helper.ignore_warnings(*, category)

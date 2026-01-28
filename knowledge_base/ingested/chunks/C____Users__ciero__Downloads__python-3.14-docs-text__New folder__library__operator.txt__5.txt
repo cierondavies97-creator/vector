@@ -1,0 +1,4 @@
+"lt(a, b)" is equivalent to "a < b", "le(a, b)" is equivalent to "a
+   <= b", "eq(a, b)" is equivalent to "a == b", "ne(a, b)" is
+   equivalent to "a != b", "gt(a, b)" is equivalent to "a > b" and
+   "ge(a, b)" is equivalent to "a >= b".  Note that these functions

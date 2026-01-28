@@ -1,0 +1,5 @@
+Decimal('0.5625')
+   Note:
+     The mean is strongly affected by outliers and is not necessarily
+     a typical example of the data points. For a more robust, although
+     less efficient, measure of central tendency, see "median()".The

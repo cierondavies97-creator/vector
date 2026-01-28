@@ -1,0 +1,6 @@
+calendar.firstweekday()
+   Returns the current setting for the weekday to start each week.
+calendar.isleap(year)
+   Returns "True" if *year* is a leap year, otherwise "False".
+calendar.leapdays(y1, y2)
+   Returns the number of leap years in the range from *y1* to *y2*

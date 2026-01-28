@@ -1,0 +1,8 @@
+The bulk of the work is in the header file "spammodule.h", which looks
+like this:
+   #ifndef Py_SPAMMODULE_H
+   #define Py_SPAMMODULE_H
+   #ifdef __cplusplus
+   extern "C" {
+   #endif
+   /* Header file for spammodule */

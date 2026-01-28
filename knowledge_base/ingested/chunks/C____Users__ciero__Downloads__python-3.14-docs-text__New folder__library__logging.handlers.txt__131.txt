@@ -1,0 +1,5 @@
+NTEventLogHandler
+=================
+The "NTEventLogHandler" class, located in the "logging.handlers"
+module, supports sending logging messages to a local Windows NT,
+Windows 2000 or Windows XP event log. Before you can use it, you need

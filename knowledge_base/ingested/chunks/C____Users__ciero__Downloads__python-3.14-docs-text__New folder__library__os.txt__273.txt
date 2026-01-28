@@ -1,0 +1,4 @@
+Changed in version 3.3: Added the *follow_symlinks* parameter.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.chmod(path, mode, *, dir_fd=None, follow_symlinks=True)
+   Change the mode of *path* to the numeric *mode*. *mode* may take

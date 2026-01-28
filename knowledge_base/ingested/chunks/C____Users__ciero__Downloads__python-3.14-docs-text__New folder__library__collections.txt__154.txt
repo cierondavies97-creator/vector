@@ -1,0 +1,5 @@
+change functionality with a subclass.  Here is how to add a calculated
+field and a fixed-width print format:
+   >>> class Point(namedtuple('Point', ['x', 'y'])):
+   ...     __slots__ = ()
+   ...     @property

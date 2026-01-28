@@ -1,0 +1,5 @@
+defined in the *Enum* class, and *Enum* subclasses can define
+     members with the names "value" and "name".
+   Added in version 3.11.
+@enum.unique
+   A "class" decorator specifically for enumerations.  It searches an

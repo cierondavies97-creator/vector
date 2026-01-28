@@ -1,0 +1,5 @@
+--upgrade
+   Upgrade the environment directory to use this version of Python,
+   assuming Python has been upgraded in-place.
+--without-pip
+   Skips installing or upgrading pip in the virtual environment (pip

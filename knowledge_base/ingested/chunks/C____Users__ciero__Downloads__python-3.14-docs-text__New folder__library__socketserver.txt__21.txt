@@ -1,0 +1,4 @@
+"ThreadingMixIn.server_close" waits until all non-daemon threads
+      complete, except if "block_on_close" attribute is "False".
+   max_children
+      Specify how many child processes will exist to handle requests

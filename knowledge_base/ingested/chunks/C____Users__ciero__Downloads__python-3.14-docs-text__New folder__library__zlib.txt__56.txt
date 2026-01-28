@@ -1,0 +1,6 @@
+zlib.Z_DEFAULT_STRATEGY
+   Default compression strategy, for normal data.
+zlib.Z_FILTERED
+   Compression strategy for data produced by a filter (or predictor).
+zlib.Z_HUFFMAN_ONLY
+   Compression strategy that forces Huffman coding only.

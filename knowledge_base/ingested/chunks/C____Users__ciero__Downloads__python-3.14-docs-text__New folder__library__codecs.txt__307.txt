@@ -1,0 +1,3 @@
+transparently convert Unicode domain labels to IDNA on the wire, and
+convert back ACE labels to Unicode before presenting them to the user.
+Python supports this conversion in several ways:  the "idna" codec

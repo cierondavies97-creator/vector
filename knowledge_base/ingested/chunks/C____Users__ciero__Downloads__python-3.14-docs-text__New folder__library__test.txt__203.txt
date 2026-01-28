@@ -1,0 +1,4 @@
+platforms, this is wrapped with a wait loop that checks for the
+   existence of the file.
+"test.support.import_helper" --- Utilities for import tests
+***********************************************************

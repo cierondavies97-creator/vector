@@ -1,0 +1,3 @@
+protocol at runtime. For use in type annotations, either use
+   "Buffer" or a union that explicitly specifies the types your code
+   supports (e.g., "bytes | bytearray | memoryview")."ByteString" was

@@ -1,0 +1,5 @@
+specified, so may not exist on some platforms.
+A hash object has the following methods:
+hash.update(data)
+   Update the hash object with the *bytes-like object*. Repeated calls
+   are equivalent to a single call with the concatenation of all the

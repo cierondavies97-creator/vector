@@ -1,0 +1,4 @@
+precision.  If specified as "'*'" (an asterisk), the actual
+   precision is read from the next element of the tuple in *values*,
+   and the value to convert comes after the precision.
+6. Length modifier (optional).

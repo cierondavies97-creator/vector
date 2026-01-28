@@ -1,0 +1,4 @@
+the cache.
+* For backward compatibility, if a URL appears to point to a local
+  file but the file can't be opened, the URL is re-interpreted using
+  the FTP protocol.  This can sometimes cause confusing error

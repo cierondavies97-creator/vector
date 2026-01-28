@@ -1,0 +1,8 @@
+except BaseException:
+           try:
+               del sys.modules[spec.name]
+           except KeyError:
+               pass
+           raise
+   return sys.modules[spec.name]
+Note the following details:

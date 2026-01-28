@@ -1,0 +1,6 @@
+zero.
+random.shuffle(x)
+   Shuffle the sequence *x* in place.
+   To shuffle an immutable sequence and return a new shuffled list,
+   use "sample(x, k=len(x))" instead.
+   Note that even for small "len(x)", the total number of permutations

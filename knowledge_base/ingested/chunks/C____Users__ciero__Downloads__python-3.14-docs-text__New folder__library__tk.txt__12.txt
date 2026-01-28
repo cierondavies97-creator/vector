@@ -1,0 +1,10 @@
+* Item Options
+    * Tag Options
+    * Column Identifiers
+    * Virtual Events
+    * ttk.Treeview
+  * Ttk Styling
+    * Layouts
+* IDLE --- Python editor and shell
+  * Menus
+    * File menu (Shell and Editor)

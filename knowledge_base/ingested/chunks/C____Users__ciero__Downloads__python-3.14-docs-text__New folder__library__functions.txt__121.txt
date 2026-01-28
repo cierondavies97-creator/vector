@@ -1,0 +1,3 @@
+whitespace.  The optional sign may be "'+'" or "'-'"; a "'+'" sign
+   has no effect on the value produced.  The argument may also be a
+   string representing a NaN (not-a-number), or positive or negative

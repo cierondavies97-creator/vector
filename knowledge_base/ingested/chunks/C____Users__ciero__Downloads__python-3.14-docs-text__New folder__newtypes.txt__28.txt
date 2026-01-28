@@ -1,0 +1,3 @@
+misleading errors from the interpreter.  The proper way to protect
+against this is to save a pending exception before performing the
+unsafe action, and restoring it when done.  This can be done using the

@@ -1,0 +1,4 @@
+correctly.
+This common limitation means that it is generally advisable to create
+context managers directly in the header of the "with" statement where
+they are used (as shown in all of the usage examples above).

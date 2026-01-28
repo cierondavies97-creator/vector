@@ -1,0 +1,2 @@
+|                                                    | or install the legacy launcher and select it as    |
+|                                                    | the association for scripts.                       |

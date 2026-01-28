@@ -1,0 +1,4 @@
+The "MIMEBase" class always adds a *Content-Type* header (based on
+   *_maintype*, *_subtype*, and *_params*), and a *MIME-Version*
+   header (always set to "1.0").
+   Changed in version 3.6: Added *policy* keyword-only parameter.

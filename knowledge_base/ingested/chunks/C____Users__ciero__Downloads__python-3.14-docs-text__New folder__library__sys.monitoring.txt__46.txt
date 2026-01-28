@@ -1,0 +1,4 @@
+called. Callback functions returning an object other than "DISABLE"
+will have no effect. Different events will provide the callback
+function with different arguments, as follows:
+* "PY_START" and "PY_RESUME":

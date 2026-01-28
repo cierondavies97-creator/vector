@@ -1,0 +1,8 @@
+section Option Flags.
+   Added in version 3.4.
+-f, --fail-fast
+   This is shorthand for "-o FAIL_FAST".
+   Added in version 3.4.
+How It Works
+============
+This section examines in detail how doctest works: which docstrings it

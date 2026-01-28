@@ -1,0 +1,5 @@
+contains the populated namespace and the list of any unrecognized
+   arguments.
+      >>> parser = argparse.ArgumentParser()
+      >>> parser.add_argument('--foo', action='store_true')
+      >>> parser.add_argument('bar')

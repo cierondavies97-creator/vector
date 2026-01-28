@@ -1,0 +1,4 @@
+configuration itself rather than the import namespace.  The mechanism
+allows access by dot or by index, in a similar way to that provided by
+"str.format".  Thus, given the following snippet:
+   handlers:

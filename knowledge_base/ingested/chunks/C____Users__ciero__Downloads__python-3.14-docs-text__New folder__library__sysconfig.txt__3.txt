@@ -1,0 +1,4 @@
+"sysconfig" puts all variables found in these files in a dictionary
+that can be accessed using "get_config_vars()" or "get_config_var()".
+Notice that on Windows, it's a much smaller set.
+sysconfig.get_config_vars(*args)

@@ -1,0 +1,4 @@
+Python compiler when running the examples.  If not specified,
+      then it will default to the set of future-import flags that
+      apply to *globs*.
+      The output of each example is checked using the

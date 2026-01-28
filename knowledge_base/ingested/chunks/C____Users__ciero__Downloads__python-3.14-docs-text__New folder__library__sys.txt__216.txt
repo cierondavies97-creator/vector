@@ -1,0 +1,4 @@
+The addition of new required attributes must go through the
+     normal PEP process. See **PEP 421** for more information.
+sys.int_info
+   A *named tuple* that holds information about Python's internal

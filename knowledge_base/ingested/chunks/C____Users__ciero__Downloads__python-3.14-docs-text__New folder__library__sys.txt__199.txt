@@ -1,0 +1,6 @@
+hash_info.width
+      The width in bits used for hash values
+   hash_info.modulus
+      The prime modulus P used for numeric hash scheme
+   hash_info.inf
+      The hash value returned for a positive infinity

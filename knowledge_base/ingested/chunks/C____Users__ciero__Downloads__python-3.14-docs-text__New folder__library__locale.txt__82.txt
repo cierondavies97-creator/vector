@@ -1,0 +1,4 @@
+normalization fails, the original name is returned unchanged.
+   If the given encoding is not known, the function defaults to the
+   default encoding for the locale code just like "setlocale()".
+locale.strcoll(string1, string2)

@@ -1,0 +1,4 @@
+types results in inequality, and ordering comparison across these
+  types raises "TypeError".
+  Sequences compare lexicographically using comparison of
+  corresponding elements.  The built-in containers typically assume

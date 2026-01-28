@@ -1,0 +1,5 @@
+although they are not required.  These are typically used for system
+programs written in Python, such as a mail server's external command
+delivery program.
+Note:
+  Some of these may not be available on all Unix platforms, since

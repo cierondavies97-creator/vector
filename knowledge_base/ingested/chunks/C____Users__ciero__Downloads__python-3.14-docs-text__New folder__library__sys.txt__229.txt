@@ -1,0 +1,5 @@
+building CPython with the "--experimental-jit" option on
+      Windows, and the "--enable-experimental-jit" option on all other
+      platforms.
+   _jit.is_enabled()
+      Return "True" if JIT compilation is enabled for the current

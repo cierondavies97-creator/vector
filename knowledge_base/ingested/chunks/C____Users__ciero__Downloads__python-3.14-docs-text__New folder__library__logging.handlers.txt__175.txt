@@ -1,0 +1,4 @@
+"SimpleQueue" and instead use "multiprocessing.Queue".
+   Warning:
+     The "multiprocessing" module uses an internal logger created and
+     accessed via "get_logger()". "multiprocessing.Queue" will log

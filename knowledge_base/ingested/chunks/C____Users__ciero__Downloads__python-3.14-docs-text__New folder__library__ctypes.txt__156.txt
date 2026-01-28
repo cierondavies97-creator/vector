@@ -1,0 +1,6 @@
+ctypes will apply the required "byref()" conversion in this case
+automatically.
+To set a POINTER type field to "NULL", you can assign "None":
+   >>> bar.values = None
+   >>>
+Sometimes you have instances of incompatible types.  In C, you can

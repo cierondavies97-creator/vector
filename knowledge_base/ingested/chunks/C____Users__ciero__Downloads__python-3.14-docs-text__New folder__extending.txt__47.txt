@@ -1,0 +1,8 @@
+}
+   static PyModuleDef_Slot spam_module_slots[] = {
+       {Py_mod_exec, spam_module_exec},
+       {0, NULL}
+   };
+   static struct PyModuleDef spam_module = {
+       .m_base = PyModuleDef_HEAD_INIT,
+       .m_name = "spam",

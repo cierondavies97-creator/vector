@@ -1,0 +1,5 @@
+123".
+   *name* need not be a Python identifier as defined in Names
+   (identifiers and keywords) unless the object chooses to enforce
+   that, for example in a custom "__getattribute__()" or via
+   "__slots__". An attribute whose name is not an identifier will not

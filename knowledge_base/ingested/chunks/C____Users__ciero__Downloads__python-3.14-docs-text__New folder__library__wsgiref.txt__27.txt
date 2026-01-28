@@ -1,0 +1,4 @@
+*filelike* object's "read()" method to obtain bytestrings to yield.
+   When "read()" returns an empty bytestring, iteration is ended and
+   is not resumable.
+   If *filelike* has a "close()" method, the returned object will also

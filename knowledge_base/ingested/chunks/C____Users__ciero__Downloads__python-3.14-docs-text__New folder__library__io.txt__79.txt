@@ -1,0 +1,3 @@
+to block and no single byte could be readily written to it.  The
+      caller may release or mutate *b* after this method returns, so
+      the implementation should only access *b* during the method

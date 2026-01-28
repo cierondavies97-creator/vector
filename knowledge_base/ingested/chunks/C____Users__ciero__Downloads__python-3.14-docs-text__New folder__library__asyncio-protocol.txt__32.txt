@@ -1,0 +1,6 @@
+data is available for reading.
+   Changed in version 3.7: The method is idempotent, i.e. it can be
+   called when the transport is already reading.
+Write-only Transports
+---------------------
+WriteTransport.abort()

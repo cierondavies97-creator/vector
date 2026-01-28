@@ -1,0 +1,5 @@
+sockets, etc).
+class asyncio.BufferedProtocol(BaseProtocol)
+   A base class for implementing streaming protocols with manual
+   control of the receive buffer.
+class asyncio.DatagramProtocol(BaseProtocol)

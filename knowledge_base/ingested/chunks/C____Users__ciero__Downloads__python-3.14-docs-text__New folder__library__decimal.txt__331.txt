@@ -1,0 +1,7 @@
+>>> maxdigits = 19 * ((500 * 1024**2) // 8)
+   >>>
+   >>> # Check that this works:
+   >>> c = Context(prec=maxdigits, Emax=MAX_EMAX, Emin=MIN_EMIN)
+   >>> c.traps[Inexact] = True
+   >>> setcontext(c)
+   >>>

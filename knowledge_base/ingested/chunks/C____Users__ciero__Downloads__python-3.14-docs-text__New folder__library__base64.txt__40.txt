@@ -1,0 +1,6 @@
+Added in version 3.13.
+Legacy Interface
+================
+base64.decode(input, output)
+   Decode the contents of the binary *input* file and write the
+   resulting binary data to the *output* file. *input* and *output*

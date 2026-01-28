@@ -1,0 +1,3 @@
+An SSLObject communicates with the outside world using memory buffers.
+The class "MemoryBIO" provides a memory buffer that can be used for
+this purpose.  It wraps an OpenSSL memory BIO (Basic IO) object:

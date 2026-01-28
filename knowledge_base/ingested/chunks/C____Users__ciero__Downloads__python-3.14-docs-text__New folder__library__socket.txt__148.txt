@@ -1,0 +1,5 @@
+2-tuple for "AF_INET", a "(address, port, flowinfo, scope_id)"
+   4-tuple for "AF_INET6"), and is meant to be passed to the
+   "socket.connect()" method.
+   Note:
+     If you intend to use results from "getaddrinfo()" to create a

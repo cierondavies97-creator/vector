@@ -1,0 +1,4 @@
+DocTestRunner, and return a "TestResults" instance.
+      The optional *verbose* argument controls how detailed the
+      summary is.  If the verbosity is not specified, then the
+      "DocTestRunner"'s verbosity is used.

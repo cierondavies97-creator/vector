@@ -1,0 +1,3 @@
++------------------------+---------------------------------------+----------------------------------+
+   All numeric values can be set to "CHAR_MAX" to indicate that there
+   is no value specified in this locale.

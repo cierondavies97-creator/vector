@@ -1,0 +1,3 @@
+in the configuration, the string "'cfg://handlers'" would resolve to
+the dict with key "handlers", the string "'cfg://handlers.email" would
+resolve to the dict with key "email" in the "handlers" dict, and so

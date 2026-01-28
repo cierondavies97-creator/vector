@@ -1,0 +1,5 @@
+Availability: Unix.
+   See the man page *sigwaitinfo(2)* for further information.
+   See also "pause()", "sigwait()" and "sigtimedwait()".
+   Added in version 3.3.
+   Changed in version 3.5: The function is now retried if interrupted

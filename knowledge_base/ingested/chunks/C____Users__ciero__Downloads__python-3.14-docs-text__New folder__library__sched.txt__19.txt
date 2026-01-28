@@ -1,0 +1,5 @@
+events will be dropped; the calling code is responsible for
+   canceling  events which are no longer pertinent.
+   Changed in version 3.3: *blocking* parameter was added.
+scheduler.queue
+   Read-only attribute returning a list of upcoming events in the

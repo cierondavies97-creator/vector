@@ -1,0 +1,6 @@
+Ignore cookies in Set-Cookie: headers that have names starting with
+   "'$'".
+DefaultCookiePolicy.strict_ns_set_path
+   Don't allow setting cookies whose path doesn't path-match request
+   URI.
+"strict_ns_domain" is a collection of flags.  Its value is constructed

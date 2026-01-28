@@ -1,0 +1,4 @@
+""start"", ""end"", ""comment"", ""pi"", ""start-ns"" and ""end-
+   ns"" (the "ns" events are used to get detailed namespace
+   information).  If *events* is omitted, only ""end"" events are
+   reported. *parser* is an optional parser instance.  If not given,

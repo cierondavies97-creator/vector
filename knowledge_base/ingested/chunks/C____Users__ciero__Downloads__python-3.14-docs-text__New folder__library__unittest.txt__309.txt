@@ -1,0 +1,4 @@
+"package.load_tests(loader, tests, pattern)". Test discovery
+      takes care to ensure that a package is only checked for tests
+      once during an invocation, even if the load_tests function
+      itself calls "loader.discover".

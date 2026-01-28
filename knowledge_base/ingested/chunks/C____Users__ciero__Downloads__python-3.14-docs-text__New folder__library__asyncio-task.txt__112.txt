@@ -1,0 +1,4 @@
+to wait for.  If *timeout* is "None", block until the future
+   completes.
+   If a timeout occurs, it cancels the task and raises "TimeoutError".
+   To avoid the task "cancellation", wrap it in "shield()".

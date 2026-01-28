@@ -1,0 +1,9 @@
+key = STACK.pop()
+      container = STACK.pop()
+      del container[key]
+BINARY_SLICE
+   Implements:
+      end = STACK.pop()
+      start = STACK.pop()
+      container = STACK.pop()
+      STACK.append(container[start:end])

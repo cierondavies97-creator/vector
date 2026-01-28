@@ -1,0 +1,6 @@
+to the parent partition.
+  The "service_id" is the service identifier of the registered
+  service.
+  Added in version 3.12.
+If you use a hostname in the *host* portion of IPv4/v6 socket address,
+the program may show a nondeterministic behavior, as Python uses the

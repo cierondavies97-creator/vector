@@ -1,0 +1,3 @@
+Path.rglob(pattern, *, case_sensitive=None, recurse_symlinks=False)
+   Glob the given relative *pattern* recursively.  This is like
+   calling "Path.glob()" with ""**/"" added in front of the *pattern*.

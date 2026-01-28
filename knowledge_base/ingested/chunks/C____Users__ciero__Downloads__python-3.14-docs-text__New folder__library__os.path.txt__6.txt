@@ -1,0 +1,5 @@
+interface:
+  * "posixpath" for UNIX-style paths
+  * "ntpath" for Windows paths
+Changed in version 3.8: "exists()", "lexists()", "isdir()",
+"isfile()", "islink()", and "ismount()" now return "False" instead of

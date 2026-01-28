@@ -1,0 +1,4 @@
+img1, ('pressed', img2), ('active', img3),
+                              border=(2, 4), sticky='we')
+      If "from" is used as the value of *etype*, "element_create()"
+      will clone an existing element. *args* is expected to contain a

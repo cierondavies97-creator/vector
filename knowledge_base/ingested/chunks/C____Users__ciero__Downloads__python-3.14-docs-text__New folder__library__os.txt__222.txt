@@ -1,0 +1,3 @@
+pointed to by *src* and *dst* must reside in the same filesystem,
+   otherwise an "OSError" is raised with "errno" set to "errno.EXDEV".
+   This copy is done without the additional cost of transferring data

@@ -1,0 +1,3 @@
+create a host of stubs throughout your test suite. After performing an
+action, you can make assertions about which methods / attributes were
+used and arguments they were called with. You can also specify return

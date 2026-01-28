@@ -1,0 +1,5 @@
+"content_manager" is set to "raw_data_manager".
+      Added in version 3.4.
+   The class provides the following concrete implementations of the
+   abstract methods of "Policy":
+   header_max_count(name)

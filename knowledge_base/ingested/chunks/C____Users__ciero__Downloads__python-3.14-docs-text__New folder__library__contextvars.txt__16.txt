@@ -1,0 +1,4 @@
+Returns a copy of the current "Context" object.
+   The following snippet gets a copy of the current context and prints
+   all variables and their values that are set in it:
+      ctx: Context = copy_context()

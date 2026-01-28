@@ -1,0 +1,7 @@
+4.12.1.3. From a script
+~~~~~~~~~~~~~~~~~~~~~~~
+Let's create a test Python script - create a file called "hello.py"
+with the following contents
+   #! python
+   import sys
+   sys.stdout.write("hello from Python %s\n" % (sys.version,))

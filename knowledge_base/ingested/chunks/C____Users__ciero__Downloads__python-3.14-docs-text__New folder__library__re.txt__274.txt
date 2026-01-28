@@ -1,0 +1,4 @@
+['Heather', 'Albrecht', '548.326.4584', '919 Park Place']]
+The ":?" pattern matches the colon after the last name, so that it
+does not occur in the result list.  With a "maxsplit" of "4", we could
+separate the house number from the street name:

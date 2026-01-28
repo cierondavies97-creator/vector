@@ -1,0 +1,6 @@
+>>> @patch.object(SomeClass, 'attribute', sentinel.attribute)
+   ... def test():
+   ...     assert SomeClass.attribute == sentinel.attribute
+   ...
+   >>> test()
+   >>> assert SomeClass.attribute == original

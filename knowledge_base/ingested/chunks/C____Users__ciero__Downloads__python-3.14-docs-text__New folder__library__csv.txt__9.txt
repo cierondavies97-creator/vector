@@ -1,0 +1,3 @@
+object or list. If *csvfile* is a file object, it should be opened
+   with "newline=''". [1]  An optional *dialect* parameter can be
+   given which is used to define a set of parameters specific to a

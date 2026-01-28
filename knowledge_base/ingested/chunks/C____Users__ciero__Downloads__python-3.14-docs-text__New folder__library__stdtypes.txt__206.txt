@@ -1,0 +1,3 @@
+operations from here on block using the per-object lock.Writing a
+single item via "lst[i] = x" is safe to call from multiple threads and
+will not corrupt the list.The following operations return new objects

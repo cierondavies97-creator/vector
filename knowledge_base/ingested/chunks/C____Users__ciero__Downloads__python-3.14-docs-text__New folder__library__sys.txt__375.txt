@@ -1,0 +1,5 @@
+through the "-X" command-line option.  Option names are either
+   mapped to their values, if given explicitly, or to "True".
+   Example:
+      $ ./python -Xa=b -Xc
+      Python 3.2a3+ (py3k, Oct 16 2010, 20:14:50)

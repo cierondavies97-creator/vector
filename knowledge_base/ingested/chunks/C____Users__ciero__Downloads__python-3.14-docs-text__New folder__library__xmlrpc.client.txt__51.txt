@@ -1,0 +1,6 @@
+import xmlrpc.client
+   def today():
+       today = datetime.datetime.today()
+       return xmlrpc.client.DateTime(today)
+   server = SimpleXMLRPCServer(("localhost", 8000))
+   print("Listening on port 8000...")

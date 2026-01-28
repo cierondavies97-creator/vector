@@ -1,0 +1,4 @@
+passed in with "send()" and any exceptions passed in with "throw()"
+are passed to the underlying iterator if it has the appropriate
+methods.  If this is not the case, then "send()" will raise
+"AttributeError" or "TypeError", while "throw()" will just raise the

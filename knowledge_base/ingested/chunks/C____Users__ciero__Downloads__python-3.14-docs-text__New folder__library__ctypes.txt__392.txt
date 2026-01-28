@@ -1,0 +1,5 @@
+zero-terminated wide character string.  The constructor accepts an
+   integer address, or a string.
+class ctypes.c_bool
+   Represent the C bool datatype (more accurately, _Bool from C99).
+   Its value can be "True" or "False", and the constructor accepts any

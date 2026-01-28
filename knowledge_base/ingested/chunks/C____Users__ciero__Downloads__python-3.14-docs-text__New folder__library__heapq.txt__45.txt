@@ -1,0 +1,4 @@
+is to mark the entry as removed and add a new entry with the revised
+priority:
+   pq = []                         # list of entries arranged in a heap
+   entry_finder = {}               # mapping of tasks to entries

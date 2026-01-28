@@ -1,0 +1,3 @@
+unable to deliver its content more than once (e.g. a file or an
+     iterable that can produce the content only once) and the request
+     is retried for HTTP redirects or authentication.  The *data* is

@@ -1,0 +1,4 @@
+specifically):
+     func(code: CodeType, instruction_offset: int, callable: object, arg0: object) -> object
+  *code* represents the code object where the call is being made,
+  while *callable* is the object that is about to be called (and thus

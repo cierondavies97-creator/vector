@@ -1,0 +1,5 @@
+custom transport.  The following example shows how:
+   import http.client
+   import xmlrpc.client
+   class ProxiedTransport(xmlrpc.client.Transport):
+       def set_proxy(self, host, port=None, headers=None):

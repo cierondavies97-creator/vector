@@ -1,0 +1,3 @@
+line) before the character under the cursor, up to *n* characters.
+   If *n* is zero or negative, the entire string is inserted. All
+   characters to the right of the cursor are shifted right, with the

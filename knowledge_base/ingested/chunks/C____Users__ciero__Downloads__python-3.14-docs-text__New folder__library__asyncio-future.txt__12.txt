@@ -1,0 +1,5 @@
+Deprecated since version 3.10: Deprecation warning is emitted if
+   *loop* is not specified and there is no running event loop.
+   result()
+      Return the result of the Future.
+      If the Future is *done* and has a result set by the

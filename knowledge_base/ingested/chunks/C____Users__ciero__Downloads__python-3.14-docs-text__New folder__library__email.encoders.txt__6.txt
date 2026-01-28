@@ -1,0 +1,5 @@
+"TypeError" if passed a message whose type is multipart.
+Here are the encoding functions provided:
+email.encoders.encode_quopri(msg)
+   Encodes the payload into quoted-printable form and sets the
+   *Content-Transfer-Encoding* header to "quoted-printable" [1]. This

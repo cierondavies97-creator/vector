@@ -1,0 +1,5 @@
+>>> itemgetter('rank')(soldier)
+   'captain'
+   Example of using "itemgetter()" to retrieve specific fields from a
+   tuple record:
+   >>> inventory = [('apple', 3), ('banana', 2), ('pear', 5), ('orange', 1)]

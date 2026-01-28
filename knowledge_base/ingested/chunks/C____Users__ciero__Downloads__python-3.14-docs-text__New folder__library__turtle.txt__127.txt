@@ -1,0 +1,8 @@
+See also: Screen method "colormode()".
+Filling
+~~~~~~~
+turtle.filling()
+   Return fillstate ("True" if filling, "False" else).
+      >>> turtle.begin_fill()
+      >>> if turtle.filling():
+      ...    turtle.pensize(5)

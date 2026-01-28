@@ -1,0 +1,4 @@
+**RFC 2965** - HTTP State Management Mechanism
+     The Netscape protocol with the bugs fixed.  Uses *Set-Cookie2* in
+     place of *Set-Cookie*.  Not widely used.
+  https://kristol.org/cookie/errata.html

@@ -1,0 +1,3 @@
+expected, and "TimedRotatingFileHandler" deletes old log files
+        (based on the "backupCount" parameter passed to the handler's
+        initializer) by determining the oldest files to delete. For

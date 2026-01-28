@@ -1,0 +1,6 @@
+tabs()
+      Returns a list of windows managed by the notebook.
+   enable_traversal()
+      Enable keyboard traversal for a toplevel window containing this
+      notebook.
+      This will extend the bindings for the toplevel window containing

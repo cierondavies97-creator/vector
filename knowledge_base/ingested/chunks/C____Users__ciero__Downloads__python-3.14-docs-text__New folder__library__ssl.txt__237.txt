@@ -1,0 +1,4 @@
+succeeds: no error is returned if no certificates are to be found.
+   When the OpenSSL library is provided as part of the operating
+   system, though, it is likely to be configured properly.
+SSLContext.set_ciphers(ciphers, /)

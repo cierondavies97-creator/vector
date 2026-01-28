@@ -1,0 +1,5 @@
+"native" compiler for the current platform. See the "_layout_"
+attribute for details on the default behavior and how to change it.
+Arrays
+------
+Arrays are sequences, containing a fixed number of instances of the

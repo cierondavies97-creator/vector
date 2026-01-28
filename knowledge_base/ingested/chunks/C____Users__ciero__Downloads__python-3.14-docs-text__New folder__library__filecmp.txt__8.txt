@@ -1,0 +1,4 @@
+for "filecmp.cmp()".
+   For example, "cmpfiles('a', 'b', ['c', 'd/e'])" will compare "a/c"
+   with "b/c" and "a/d/e" with "b/d/e".  "'c'" and "'d/e'" will each
+   be in one of the three returned lists.

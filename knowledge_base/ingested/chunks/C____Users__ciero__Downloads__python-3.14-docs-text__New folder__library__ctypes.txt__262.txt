@@ -1,0 +1,5 @@
+they represent C function pointers.
+   This behavior can be customized by assigning to special attributes
+   of the foreign function object.
+   restype
+      Assign a ctypes type to specify the result type of the foreign

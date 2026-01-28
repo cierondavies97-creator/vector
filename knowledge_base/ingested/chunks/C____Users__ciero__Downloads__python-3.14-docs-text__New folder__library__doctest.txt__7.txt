@@ -1,0 +1,6 @@
+ValueError: n must be exact integer
+       >>> factorial(30.0)
+       265252859812191058636308480000000
+       It must also not be ridiculously large:
+       >>> factorial(1e100)
+       Traceback (most recent call last):

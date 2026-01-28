@@ -1,0 +1,4 @@
+logger, or delegation to the parent when the logger is a non-
+      root logger). Note that the root logger is created with level
+      "WARNING".
+      The term 'delegation to the parent' means that if a logger has a

@@ -1,0 +1,4 @@
+Open a streaming transport connection to a given address specified
+   by *host* and *port*.
+   The socket family can be either "AF_INET" or "AF_INET6" depending
+   on *host* (or the *family* argument, if provided).

@@ -1,0 +1,3 @@
+| textvariable      | Specifies a name whose value is linked to the widget     |
+|                   | value. Whenever the value associated with that name      |
+|                   | changes, the widget value is updated, and vice versa.    |

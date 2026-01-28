@@ -1,0 +1,6 @@
+German lowercase letter "'ß'" will be converted to byte sequence
+   "\N{LATIN SMALL LETTER SHARP S}" .
+   Added in version 3.5.
+Stateless Encoding and Decoding
+-------------------------------
+The base "Codec" class defines these methods which also define the

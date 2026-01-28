@@ -1,0 +1,4 @@
+number "-1". So "init_pair(x, COLOR_RED, -1)" will initialize
+     pair *x* as red on default background and "init_pair(x, -1,
+     COLOR_BLUE)" will initialize pair *x* as default foreground on
+     blue.

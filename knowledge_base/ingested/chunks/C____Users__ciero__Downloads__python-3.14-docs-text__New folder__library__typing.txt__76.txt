@@ -1,0 +1,4 @@
+A generic type can have any number of type variables. All varieties of
+"TypeVar" are permissible as parameters for a generic type:
+   from typing import TypeVar, Generic, Sequence
+   class WeirdTrio[T, B: Sequence[bytes], S: (int, str)]:

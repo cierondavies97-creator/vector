@@ -1,0 +1,2 @@
+supported. Trying to guess where one ends and the other begins is
+    too error-prone, and that also makes for a confusing test.

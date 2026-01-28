@@ -1,0 +1,4 @@
+* An invalid logger name.
+   * Inability to resolve to an internal or external object.
+   Parsing is performed by the "DictConfigurator" class, whose
+   constructor is passed the dictionary used for configuration, and

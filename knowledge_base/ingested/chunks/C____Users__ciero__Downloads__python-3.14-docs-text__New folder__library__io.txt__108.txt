@@ -1,0 +1,7 @@
+"RawIOBase" and "IOBase":
+   mode
+      The mode as given in the constructor.
+   name
+      The file name.  This is the file descriptor of the file when no
+      name is given in the constructor.
+Buffered Streams

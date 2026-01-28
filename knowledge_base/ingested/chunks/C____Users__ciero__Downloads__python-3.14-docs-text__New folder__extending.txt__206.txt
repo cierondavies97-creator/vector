@@ -1,0 +1,3 @@
+linked by the C compiler, global or static objects with constructors
+cannot be used.  This is not a problem if the main program is linked
+by the C++ compiler.  Functions that will be called by the Python

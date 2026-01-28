@@ -1,0 +1,4 @@
+Use "del" to remove it entirely:
+   >>> c['sausage'] = 0                        # counter entry with a zero count
+   >>> del c['sausage']                        # del actually removes the entry
+   Added in version 3.1.

@@ -1,0 +1,7 @@
+add "'x'" pad bytes where needed.  Revisiting the examples from the
+previous section, we have:
+   >>> calcsize('<qh6xq')
+   24
+   >>> pack('<qh6xq', 1, 2, 3) == pack('@lhl', 1, 2, 3)
+   True
+   >>> calcsize('@llh')

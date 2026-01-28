@@ -1,0 +1,6 @@
+print('Current heading is %d\n' % (heading(),))
+       def do_color(self, arg):
+           'Set the color:  COLOR BLUE'
+           color(arg.lower())
+       def do_undo(self, arg):
+           'Undo (repeatedly) the last turtle action(s):  UNDO'

@@ -1,0 +1,4 @@
+When mode is "'r'", *metadata_encoding* may be set to the name of a
+   codec, which will be used to decode metadata such as the names of
+   members and ZIP comments.
+   If the file is created with mode "'w'", "'x'" or "'a'" and then

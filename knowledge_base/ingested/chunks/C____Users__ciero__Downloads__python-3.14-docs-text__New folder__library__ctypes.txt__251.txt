@@ -1,0 +1,4 @@
+calling the "LoadLibrary()" method, or by retrieving the library as
+attribute of the loader instance.
+class ctypes.LibraryLoader(dlltype)
+   Class which loads shared libraries.  *dlltype* should be one of the

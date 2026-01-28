@@ -1,0 +1,6 @@
+Color = tuple[int, int, int]
+      def remove_gray_shades(colors: list[Color]) -> list[Color]:
+          pass
+   See "typing" and **PEP 484**, which describe this functionality.
+type hint
+   An *annotation* that specifies the expected type for a variable, a

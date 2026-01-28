@@ -1,0 +1,6 @@
+the closed element.
+   start(tag, attrs)
+      Opens a new element.  *tag* is the element name.  *attrs* is a
+      dictionary containing element attributes.  Returns the opened
+      element.
+   comment(text)

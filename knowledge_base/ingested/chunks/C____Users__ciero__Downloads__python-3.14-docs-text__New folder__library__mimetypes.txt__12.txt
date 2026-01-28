@@ -1,0 +1,4 @@
+filename extensions, including the leading dot ("'.'").  The
+   extensions are not guaranteed to have been associated with any
+   particular data stream, but would be mapped to the MIME type *type*
+   by "guess_type()" and "guess_file_type()".

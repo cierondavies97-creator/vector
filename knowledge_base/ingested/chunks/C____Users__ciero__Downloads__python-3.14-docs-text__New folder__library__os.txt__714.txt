@@ -1,0 +1,7 @@
+raised.
+   Availability: Unix, not WASI, not Android, not iOS.
+   Added in version 3.3.
+   Changed in version 3.13: This function is now available on macOS as
+   well.
+os.waitpid(pid, options, /)
+   The details of this function differ on Unix and Windows.

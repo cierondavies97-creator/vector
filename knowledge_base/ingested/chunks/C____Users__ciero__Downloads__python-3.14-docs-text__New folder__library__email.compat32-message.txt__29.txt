@@ -1,0 +1,4 @@
+that "msg.get_content_maintype() == 'multipart'" will return the
+      "True". For example, "is_multipart" will return "True" when the
+      "Message" is of type "message/rfc822".)
+   set_unixfrom(unixfrom)

@@ -1,0 +1,4 @@
+corresponding attribute".
+   The *encoding* and *errors* arguments define the character encoding
+   to be used for reading or writing the archive and how conversion
+   errors are going to be handled. The default settings will work for

@@ -1,0 +1,4 @@
+07:00:00 UTC = 02:00:00 EST 0
+Note that the "datetime" instances that differ only by the value of
+the "fold" attribute are considered equal in comparisons.
+Applications that can't bear wall-time ambiguities should explicitly

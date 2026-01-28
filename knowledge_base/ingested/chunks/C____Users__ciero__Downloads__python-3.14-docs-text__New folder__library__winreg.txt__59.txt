@@ -1,0 +1,4 @@
+privilege.  Note that privileges are different than permissions --
+   see the Conflicts Between User Rights and Permissions documentation
+   for more details.
+   This function passes "NULL" for *security_attributes* to the API.

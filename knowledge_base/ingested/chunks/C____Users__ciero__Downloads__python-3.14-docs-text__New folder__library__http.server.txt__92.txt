@@ -1,0 +1,5 @@
+Security considerations
+=======================
+"SimpleHTTPRequestHandler" will follow symbolic links when handling
+requests, this makes it possible for files outside of the specified
+directory to be served.

@@ -1,0 +1,7 @@
+winreg.REG_DWORD_BIG_ENDIAN
+   A 32-bit number in big-endian format.
+winreg.REG_EXPAND_SZ
+   Null-terminated string containing references to environment
+   variables ("%PATH%").
+winreg.REG_LINK
+   A Unicode symbolic link.

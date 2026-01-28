@@ -1,0 +1,5 @@
+Spam = TypedDict("Spam", {"a": int, "b": str})
+      assert Bar.__bases__ == (Foo, float)
+      assert get_original_bases(Bar) == (Foo[int], float)
+      assert Baz.__bases__ == (list,)
+      assert get_original_bases(Baz) == (list[str],)

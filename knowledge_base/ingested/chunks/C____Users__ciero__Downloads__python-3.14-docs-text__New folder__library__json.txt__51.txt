@@ -1,0 +1,4 @@
+Changed in version 3.6: *s* can now be of type "bytes" or
+   "bytearray". The input encoding should be UTF-8, UTF-16 or UTF-32.
+   Changed in version 3.9: The keyword argument *encoding* has been
+   removed.

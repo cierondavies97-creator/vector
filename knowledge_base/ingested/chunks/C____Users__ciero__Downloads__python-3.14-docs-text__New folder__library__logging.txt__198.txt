@@ -1,0 +1,3 @@
+|                  |                           | logging call was issued (if available).         |
++------------------+---------------------------+-------------------------------------------------+
+| process          | "%(process)d"             | Process ID (if available).                      |

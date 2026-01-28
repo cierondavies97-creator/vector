@@ -1,0 +1,6 @@
+pure classes may be useful since those simply don't have any OS-
+   accessing operations.
+See also:
+  **PEP 428**: The pathlib module -- object-oriented filesystem paths.
+See also:
+  For low-level path manipulation on strings, you can also use the

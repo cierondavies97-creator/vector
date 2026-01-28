@@ -1,0 +1,5 @@
+1 represent, respectively, the earlier and later of the two moments
+   with the same wall time representation.
+   Added in version 3.6.
+Supported operations:
++-----------------------------------------+----------------------------------+

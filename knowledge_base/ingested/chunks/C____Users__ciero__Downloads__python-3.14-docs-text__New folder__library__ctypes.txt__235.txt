@@ -1,0 +1,4 @@
+after the function execution the Python error flag is checked. If
+   the error flag is set, a Python exception is raised.
+   Thus, this is only useful to call Python C api functions directly.
+   Changed in version 3.12: The *name* parameter can now be a *path-

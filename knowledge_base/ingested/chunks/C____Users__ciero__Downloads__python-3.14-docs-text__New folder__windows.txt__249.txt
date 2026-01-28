@@ -1,0 +1,5 @@
+4.3. The nuget.org packages
+===========================
+Added in version 3.5.2.
+The nuget.org package is a reduced size Python environment intended
+for use on continuous integration and build systems that do not have a

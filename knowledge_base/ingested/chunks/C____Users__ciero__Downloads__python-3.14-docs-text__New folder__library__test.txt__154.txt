@@ -1,0 +1,4 @@
+common environment variables that might impact whether or not the
+   interpreter can start.
+test.support.script_helper.run_python_until_end(*args, **env_vars)
+   Set up the environment based on *env_vars* for running the

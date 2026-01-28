@@ -1,0 +1,4 @@
+When one pastes code into Shell, it is not compiled and possibly
+executed until one hits "Return", as specified above. One may edit
+pasted code first. If one pastes more than one statement into Shell,
+the result will be a "SyntaxError" when multiple statements are

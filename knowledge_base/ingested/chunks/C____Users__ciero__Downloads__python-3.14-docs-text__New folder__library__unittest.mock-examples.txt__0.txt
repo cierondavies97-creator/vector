@@ -1,0 +1,9 @@
+"unittest.mock" --- getting started
+***********************************
+Added in version 3.3.
+Using Mock
+==========
+Mock Patching Methods
+---------------------
+Common uses for "Mock" objects include:
+* Patching methods

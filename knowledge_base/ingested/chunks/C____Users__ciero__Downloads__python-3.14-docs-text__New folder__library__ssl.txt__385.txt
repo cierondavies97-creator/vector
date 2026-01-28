@@ -1,0 +1,7 @@
+Memory BIO Support
+==================
+Added in version 3.5.
+Ever since the SSL module was introduced in Python 2.6, the
+"SSLSocket" class has provided two related but distinct areas of
+functionality:
+* SSL protocol handling

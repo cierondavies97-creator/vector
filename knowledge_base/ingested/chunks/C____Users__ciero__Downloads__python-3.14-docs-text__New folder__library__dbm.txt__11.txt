@@ -1,0 +1,4 @@
+"keys()" method returns a list instead of a view object. The
+"setdefault()" method requires two arguments.
+Key and values are always stored as "bytes". This means that when
+strings are used they are implicitly converted to the default encoding

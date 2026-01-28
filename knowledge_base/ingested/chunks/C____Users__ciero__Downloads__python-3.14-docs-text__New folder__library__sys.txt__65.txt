@@ -1,0 +1,7 @@
+and the "threading.excepthook()" function handles exception
+     raised by "threading.Thread.run()".
+sys.__breakpointhook__
+sys.__displayhook__
+sys.__excepthook__
+sys.__unraisablehook__
+   These objects contain the original values of "breakpointhook",

@@ -1,0 +1,3 @@
+require an active SSL connection, i.e. the handshake was completed
+  and "SSLSocket.unwrap()" was not called.Normally you should use the
+  socket API methods like "recv()" and "send()" instead of these

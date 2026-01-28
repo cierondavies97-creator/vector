@@ -1,0 +1,6 @@
+os.EFD_NONBLOCK
+   Set "O_NONBLOCK" status flag for new "eventfd()" file descriptor.
+   Availability: Linux >= 2.6.27
+   Added in version 3.10.
+os.EFD_SEMAPHORE
+   Provide semaphore-like semantics for reads from an "eventfd()" file

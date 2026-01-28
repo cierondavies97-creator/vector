@@ -1,0 +1,4 @@
+can be used to obtain the actual number of bytes sent.
+   *fallback*, when set to "True", makes asyncio manually read and
+   send the file when the platform does not support the sendfile
+   syscall (e.g. Windows or SSL socket on Unix).

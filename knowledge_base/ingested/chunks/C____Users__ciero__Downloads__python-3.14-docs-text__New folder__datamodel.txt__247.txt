@@ -1,0 +1,2 @@
+| codeobject.co_code                                 | A string representing the sequence of *bytecode*   |
+|                                                    | instructions in the function                       |

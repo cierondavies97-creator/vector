@@ -1,0 +1,3 @@
+The optional argument *verbose* can be used to display the objects
+   searched by the finder.  It defaults to "False" (no output).
+   The optional argument *parser* specifies the "DocTestParser" object

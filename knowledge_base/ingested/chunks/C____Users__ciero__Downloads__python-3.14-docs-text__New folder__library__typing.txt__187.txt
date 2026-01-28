@@ -1,0 +1,5 @@
+library encountering an "Annotated" type can scan through the
+   metadata elements to determine if they are of interest (e.g., using
+   "isinstance()").
+   Annotated[<type>, <metadata>]
+   Here is an example of how you might use "Annotated" to add metadata

@@ -1,0 +1,4 @@
+to docstrings containing test cases.
+When you have placed your tests in a module, the module can itself be
+the test runner.  When a test fails, you can arrange for your test
+runner to re-run only the failing doctest while you debug the problem.

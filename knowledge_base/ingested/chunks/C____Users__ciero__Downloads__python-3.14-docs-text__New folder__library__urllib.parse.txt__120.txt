@@ -1,0 +1,3 @@
+urllib.parse.unquote(string, encoding='utf-8', errors='replace')
+   Replace "%*xx*" escapes with their single-character equivalent. The
+   optional *encoding* and *errors* parameters specify how to decode

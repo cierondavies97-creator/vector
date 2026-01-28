@@ -1,0 +1,4 @@
+urllib.request.build_opener([handler, ...])
+   Return an "OpenerDirector" instance, which chains the handlers in
+   the order given. *handler*s can be either instances of
+   "BaseHandler", or subclasses of "BaseHandler" (in which case it

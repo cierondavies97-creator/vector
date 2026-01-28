@@ -1,0 +1,8 @@
+>>> list(purple)
+         [<Color.RED: 1>, <Color.BLUE: 4>]
+      Added in version 3.11.
+   __len__(self):
+      Returns number of members in flag:
+         >>> len(Color.GREEN)
+         1
+         >>> len(white)

@@ -1,0 +1,5 @@
+number of path segments.
+   If *include_hidden* is true, wildcards can match path segments that
+   start with a dot (".").
+   A sequence of path separators may be supplied to the *seps*
+   argument. If not given, "os.sep" and "altsep" (if available) are

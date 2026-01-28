@@ -1,0 +1,5 @@
+6.12. Assignment expressions
+============================
+   assignment_expression: [identifier ":="] expression
+An assignment expression (sometimes also called a "named expression"
+or "walrus") assigns an "expression" to an "identifier", while also

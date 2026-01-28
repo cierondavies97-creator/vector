@@ -1,0 +1,5 @@
+"decode_header()".
+   "decode_header()" takes a header value string and returns a
+   sequence of pairs of the format "(decoded_string, charset)" where
+   *charset* is the name of the character set.
+   This function takes one of those sequence of pairs and returns a

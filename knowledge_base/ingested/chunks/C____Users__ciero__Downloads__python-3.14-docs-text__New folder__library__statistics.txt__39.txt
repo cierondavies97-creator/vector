@@ -1,0 +1,4 @@
+valued numbers.  If *weights* is omitted or "None", then equal
+   weighting is assumed.
+   The harmonic mean is the reciprocal of the arithmetic "mean()" of
+   the reciprocals of the data. For example, the harmonic mean of

@@ -1,0 +1,5 @@
+occurred.  Please contact the administrator."
+   Methods and attributes for **PEP 3333**'s "Optional Platform-
+   Specific File Handling" feature:
+   wsgi_file_wrapper
+      A "wsgi.file_wrapper" factory, compatible with

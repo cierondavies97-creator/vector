@@ -1,0 +1,4 @@
+function. This is similar to "call_annotate_function()", but the
+   latter always returns a dictionary mapping strings to annotations,
+   while this function returns a single value.
+   This is intended for use with the evaluate functions generated for

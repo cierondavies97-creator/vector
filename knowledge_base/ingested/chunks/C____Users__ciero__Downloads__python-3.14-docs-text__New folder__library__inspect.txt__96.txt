@@ -1,0 +1,4 @@
+including the names of enclosing packages. The file extension is
+   checked against all of the entries in
+   "importlib.machinery.all_suffixes()". If it matches, the final path
+   component is returned with the extension removed. Otherwise, "None"

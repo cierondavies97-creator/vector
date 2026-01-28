@@ -1,0 +1,4 @@
+absolute minimum information needed to identify the platform.
+   Changed in version 3.8: On macOS, the function now uses
+   "mac_ver()", if it returns a non-empty release string, to get the
+   macOS version rather than the darwin version.

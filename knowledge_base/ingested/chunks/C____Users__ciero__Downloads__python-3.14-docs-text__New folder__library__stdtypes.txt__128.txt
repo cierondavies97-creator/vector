@@ -1,0 +1,4 @@
+two methods, which together form the *iterator protocol*:
+iterator.__iter__()
+   Return the *iterator* object itself.  This is required to allow
+   both containers and iterators to be used with the "for" and "in"

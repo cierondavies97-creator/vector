@@ -1,0 +1,4 @@
+* "args" holds a list of the arguments passed by position.
+   * "keywords" holds a list of "keyword" objects representing
+     arguments passed by keyword.
+   The "args" and "keywords" arguments are optional and default to

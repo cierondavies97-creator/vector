@@ -1,0 +1,4 @@
+>>> import fibo
+This does not add the names of the functions defined in "fibo"
+directly to the current *namespace* (see Python Scopes and Namespaces
+for more details); it only adds the module name "fibo" there. Using

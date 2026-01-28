@@ -1,0 +1,3 @@
+|              | window. The *background* state is set for widgets in a        |
+|              | background window, and cleared for those in the foreground    |
+|              | window                                                        |

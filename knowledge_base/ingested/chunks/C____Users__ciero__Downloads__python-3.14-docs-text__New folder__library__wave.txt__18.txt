@@ -1,0 +1,3 @@
+calling "writeframes()" with all of the frame data to be written.
+   In the latter case "writeframes()" will calculate the number of
+   frames in the data and set *nframes* accordingly before writing the

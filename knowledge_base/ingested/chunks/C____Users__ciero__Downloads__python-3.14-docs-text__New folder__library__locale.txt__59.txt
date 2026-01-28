@@ -1,0 +1,4 @@
+suitable for the "regex" function from the C library, which
+        might differ from the syntax used in "re".
+   locale.CRNCYSTR
+      Get the currency symbol, preceded by "-" if the symbol should

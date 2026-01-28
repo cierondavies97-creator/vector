@@ -1,0 +1,5 @@
+RPC servers written in Python.  Servers can either be free standing,
+using "SimpleXMLRPCServer", or embedded in a CGI environment, using
+"CGIXMLRPCRequestHandler".
+Warning:
+  The "xmlrpc.server" module is not secure against maliciously

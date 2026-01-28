@@ -1,0 +1,5 @@
+the reference after examining the value.
+1.4. Extending Embedded Python
+==============================
+Until now, the embedded Python interpreter had no access to
+functionality from the application itself.  The Python API allows this

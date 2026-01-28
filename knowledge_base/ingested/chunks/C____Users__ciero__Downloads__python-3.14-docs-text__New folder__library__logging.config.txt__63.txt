@@ -1,0 +1,4 @@
+configuration.  For example, because objects such as filters and
+formatters are anonymous, once a configuration is set up, it is not
+possible to refer to such anonymous objects when augmenting a
+configuration.

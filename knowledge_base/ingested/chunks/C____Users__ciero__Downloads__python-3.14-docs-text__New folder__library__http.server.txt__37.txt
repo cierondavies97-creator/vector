@@ -1,0 +1,4 @@
+Added in version 3.2.
+   send_error(code, message=None, explain=None)
+      Sends and logs a complete error reply to the client. The numeric
+      *code* specifies the HTTP error code, with *message* as an

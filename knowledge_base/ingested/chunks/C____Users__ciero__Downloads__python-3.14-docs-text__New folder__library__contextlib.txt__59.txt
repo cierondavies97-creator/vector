@@ -1,0 +1,8 @@
+...     print('The bit in the middle')
+      ...
+      >>> function()
+      Starting
+      The bit in the middle
+      Finishing
+      >>> with mycontext():
+      ...     print('The bit in the middle')

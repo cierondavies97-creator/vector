@@ -1,0 +1,4 @@
+Changed in version 3.13: Symlink loops are treated like other
+   errors: "OSError" is raised in strict mode, and no exception is
+   raised in non-strict mode. In previous versions, "RuntimeError" is
+   raised no matter the value of *strict*.

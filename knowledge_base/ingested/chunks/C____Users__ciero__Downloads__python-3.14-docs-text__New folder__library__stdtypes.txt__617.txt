@@ -1,0 +1,5 @@
+approach to splitting lines. Line breaks are not included in the
+   resulting list unless *keepends* is given and true.
+   For example:
+      >>> b'ab c\n\nde fg\rkl\r\n'.splitlines()
+      [b'ab c', b'', b'de fg', b'kl']

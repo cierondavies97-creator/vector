@@ -1,0 +1,6 @@
+* "importlib.util" -- Utility code for importers
+  * Examples
+    * Importing programmatically
+    * Checking if a module can be imported
+    * Importing a source file directly
+    * Implementing lazy imports

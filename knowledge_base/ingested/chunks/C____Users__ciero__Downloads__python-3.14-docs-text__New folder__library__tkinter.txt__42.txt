@@ -1,0 +1,6 @@
+"tkinter.constants"
+   Symbolic constants that can be used in place of strings when
+   passing various parameters to Tkinter calls. Automatically imported
+   by the main "tkinter" module.
+"tkinter.dnd"
+   (experimental) Drag-and-drop support for "tkinter". This will

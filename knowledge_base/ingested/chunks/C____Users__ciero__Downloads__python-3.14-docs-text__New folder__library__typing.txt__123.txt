@@ -1,0 +1,5 @@
+run_query(  # type checker error
+              f"SELECT * FROM students WHERE name = {arbitrary_string}"
+          )
+   "LiteralString" is useful for sensitive APIs where arbitrary user-
+   generated strings could generate problems. For example, the two

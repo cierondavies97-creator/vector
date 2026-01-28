@@ -1,0 +1,4 @@
+using an object from the module namespace that we can patch out.
+Generally local imports are to be avoided. They are sometimes done to
+prevent circular dependencies, for which there is *usually* a much
+better way to solve the problem (refactor the code) or to prevent "up

@@ -1,0 +1,5 @@
+call resets the state to unlocked; which one of the waiting threads
+proceeds is not defined, and may vary across implementations.
+All methods are executed atomically.
+class threading.Lock
+   The class implementing primitive lock objects.  Once a thread has

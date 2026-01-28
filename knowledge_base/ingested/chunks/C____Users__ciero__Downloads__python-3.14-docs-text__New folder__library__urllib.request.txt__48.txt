@@ -1,0 +1,4 @@
+*origin_req_host* should be the request-host of the origin
+   transaction, as defined by **RFC 2965**.  It defaults to
+   "http.cookiejar.request_host(self)".  This is the host name or IP
+   address of the original request that was initiated by the user. For

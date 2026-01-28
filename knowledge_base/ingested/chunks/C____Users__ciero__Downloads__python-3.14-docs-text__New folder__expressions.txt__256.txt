@@ -1,0 +1,5 @@
+not-a-number values are an example for not following these rules.
+6.10.2. Membership test operations
+----------------------------------
+The operators "in" and "not in" test for membership.  "x in s"
+evaluates to "True" if *x* is a member of *s*, and "False" otherwise.

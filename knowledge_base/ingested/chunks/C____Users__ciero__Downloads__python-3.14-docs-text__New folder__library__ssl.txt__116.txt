@@ -1,0 +1,6 @@
+Whether the OpenSSL library has built-in support not checking
+   subject common name and "SSLContext.hostname_checks_common_name" is
+   writeable.
+   Added in version 3.7.
+ssl.HAS_ECDH
+   Whether the OpenSSL library has built-in support for the Elliptic

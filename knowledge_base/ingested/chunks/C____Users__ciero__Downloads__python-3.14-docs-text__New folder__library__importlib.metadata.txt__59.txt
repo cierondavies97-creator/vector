@@ -1,0 +1,5 @@
+Core metadata specification for additional details.
+Added in version 3.13: The ".origin" property was added.
+Distribution Discovery
+======================
+By default, this package provides built-in support for discovery of

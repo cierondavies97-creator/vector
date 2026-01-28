@@ -1,0 +1,6 @@
+object.
+   async readline()
+      Read one line, where "line" is a sequence of bytes ending with
+      "\n".
+      If EOF is received and "\n" was not found, the method returns
+      partially read data.

@@ -1,0 +1,3 @@
+"array.array" objects, as well as many common "memoryview" objects.
+   Bytes-like objects can be used for various operations that work
+   with binary data; these include compression, saving to a binary

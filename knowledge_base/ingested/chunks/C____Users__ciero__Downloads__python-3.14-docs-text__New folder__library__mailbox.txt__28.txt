@@ -1,0 +1,4 @@
+the method was called as "__getitem__()". The message is
+      represented as an instance of the appropriate format-specific
+      "Message" subclass unless a custom message factory was specified
+      when the "Mailbox" instance was initialized.

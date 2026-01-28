@@ -1,0 +1,5 @@
+object):
+   import shelve
+   d = shelve.open(filename)  # open -- file may get suffix added by low-level
+                              # library
+   d[key] = data              # store data at key (overwrites old data if

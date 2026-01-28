@@ -1,0 +1,4 @@
+Movie(name='Aliens', released=1986, director='Cameron'),
+    Movie(name='Titanic', released=1997, director='Cameron')]
+If the key function is expensive, it is possible to avoid repeated
+function calls by searching a list of precomputed keys to find the

@@ -1,0 +1,4 @@
+top-level domains like ".co.uk", ".gov.uk", ".co.nz".etc.  This is
+   far from perfect and isn't guaranteed to work!
+**RFC 2965** protocol strictness switches:
+DefaultCookiePolicy.strict_rfc2965_unverifiable

@@ -1,0 +1,3 @@
+Assignment to these attributes should not be necessary other than in
+rare circumstances in a "CookiePolicy" method.  The class does not
+enforce internal consistency, so you should know what you're doing if

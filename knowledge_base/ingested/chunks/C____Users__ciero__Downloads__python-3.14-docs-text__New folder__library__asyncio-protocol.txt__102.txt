@@ -1,0 +1,8 @@
+# is lost and close the transport.
+       try:
+           await on_con_lost
+       finally:
+           transport.close()
+   asyncio.run(main())
+See also:
+  The TCP echo client using streams example uses the high-level

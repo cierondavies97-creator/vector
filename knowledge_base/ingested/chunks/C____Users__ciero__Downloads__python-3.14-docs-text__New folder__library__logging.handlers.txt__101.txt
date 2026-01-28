@@ -1,0 +1,4 @@
+indefinitely if the syslog server is unreachable. By default,
+   *timeout* is "None", meaning no timeout is applied.
+   Note that if your server is not listening on UDP port 514,
+   "SysLogHandler" may appear not to work. In that case, check what

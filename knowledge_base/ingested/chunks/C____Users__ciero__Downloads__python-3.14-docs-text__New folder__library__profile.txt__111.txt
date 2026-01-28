@@ -1,0 +1,3 @@
+The method executes the number of Python calls given by the argument,
+directly and again under the profiler, measuring the time for both. It
+then computes the hidden overhead per profiler event, and returns that

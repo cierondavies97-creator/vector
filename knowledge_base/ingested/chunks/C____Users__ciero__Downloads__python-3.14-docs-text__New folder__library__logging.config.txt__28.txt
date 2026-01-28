@@ -1,0 +1,5 @@
+four-byte length string packed in binary using "struct.pack('>L',
+   n)".
+   Note:
+     Because portions of the configuration are passed through
+     "eval()", use of this function may open its users to a security

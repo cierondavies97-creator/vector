@@ -1,0 +1,4 @@
+get the valid values for "compression_level", one may check the
+      result of "CompressionParameter.compression_level.bounds()".
+      Both the lower and upper bounds are inclusive.
+   compression_level

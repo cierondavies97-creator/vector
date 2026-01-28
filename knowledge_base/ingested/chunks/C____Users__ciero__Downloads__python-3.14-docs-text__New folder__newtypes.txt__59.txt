@@ -1,0 +1,3 @@
+instance structure.  The "type" field should contain a type code like
+"Py_T_INT" or "Py_T_DOUBLE"; the value will be used to determine how
+to convert Python values to and from C values.  The "flags" field is

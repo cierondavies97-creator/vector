@@ -1,0 +1,3 @@
+or in the case where the address family is "AF_CAN" the protocol
+   should be one of "CAN_RAW", "CAN_BCM", "CAN_ISOTP" or "CAN_J1939".
+   If *fileno* is specified, the values for *family*, *type*, and

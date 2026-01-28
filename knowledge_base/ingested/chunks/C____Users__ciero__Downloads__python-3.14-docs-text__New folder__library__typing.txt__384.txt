@@ -1,0 +1,4 @@
+declaring a "TypedDict" with one value for the "total" argument
+      and then inheriting from it in another "TypedDict" with a
+      different value for "total":
+         >>> class Point2D(TypedDict, total=False):

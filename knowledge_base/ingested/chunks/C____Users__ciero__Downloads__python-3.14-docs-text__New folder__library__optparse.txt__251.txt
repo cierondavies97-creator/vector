@@ -1,0 +1,4 @@
+To avoid this confusion, use "set_defaults()":
+      parser.set_defaults(mode="advanced")
+      parser.add_option("--advanced", action="store_const",
+                        dest="mode", const="advanced")

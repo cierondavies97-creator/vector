@@ -1,0 +1,5 @@
+Note:
+     On macOS, this is indistinguishable from "Semaphore" because
+     "sem_getvalue()" is not implemented on that platform.
+class multiprocessing.Condition([lock])
+   A condition variable: an alias for "threading.Condition".

@@ -1,0 +1,3 @@
+The "test" package can be run as a script to drive Python's regression
+test suite, thanks to the "-m" option: **python -m test**. Under the
+hood, it uses "test.regrtest"; the call **python -m test.regrtest**

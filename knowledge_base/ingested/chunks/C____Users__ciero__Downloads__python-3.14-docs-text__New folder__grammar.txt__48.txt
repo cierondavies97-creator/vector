@@ -1,0 +1,5 @@
+c, NULL, t, EXTRA) }
+   # Function definitions
+   # --------------------
+   function_def[stmt_ty]:
+       | d=decorators f=function_def_raw { _PyPegen_function_def_decorators(p, d, f) }

@@ -1,0 +1,3 @@
+| Value            | Type of interval             | If/how *atTime* is used   |
+   |==================|==============================|===========================|
+   | "'S'"            | Seconds                      | Ignored                   |

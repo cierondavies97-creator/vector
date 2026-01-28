@@ -1,0 +1,7 @@
+os.CLONE_VM
+File Object Creation
+====================
+These functions create new *file objects*.  (See also "open()" for
+opening file descriptors.)
+os.fdopen(fd, *args, **kwargs)
+   Return an open file object connected to the file descriptor *fd*.

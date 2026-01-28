@@ -1,0 +1,5 @@
+Receive up to *nbytes* from *sock*.  Asynchronous version of
+   "socket.recv()".
+   Return the received data as a bytes object.
+   *sock* must be a non-blocking socket.
+   Changed in version 3.7: Even though this method was always

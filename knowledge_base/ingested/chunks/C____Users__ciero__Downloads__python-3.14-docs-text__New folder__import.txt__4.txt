@@ -1,0 +1,4 @@
+may occur, such as the importing of parent packages, and the updating
+of various caches (including "sys.modules"), only the "import"
+statement performs a name binding operation.
+When an "import" statement is executed, the standard builtin

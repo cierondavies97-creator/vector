@@ -1,0 +1,3 @@
+function already installed is removed.  The hook is called with no
+   arguments after the first prompt has been printed and just before
+   readline starts reading input characters.  This function only

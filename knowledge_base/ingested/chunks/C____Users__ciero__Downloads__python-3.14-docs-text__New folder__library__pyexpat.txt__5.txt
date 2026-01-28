@@ -1,0 +1,5 @@
+xml.parsers.expat.XMLParserType
+   The type of the return values from the "ParserCreate()" function.
+The "xml.parsers.expat" module contains two functions:
+xml.parsers.expat.ErrorString(errno)
+   Returns an explanatory string for a given error number *errno*.

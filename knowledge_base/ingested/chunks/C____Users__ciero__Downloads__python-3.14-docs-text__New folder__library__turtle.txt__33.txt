@@ -1,0 +1,6 @@
+angle = int(random() * 360)
+       t.right(angle)
+       t.fd(steps)
+   t.screen.mainloop()
+Note the last line. "t.screen" is an instance of the "Screen" that a
+Turtle instance exists on; it's created automatically along with the

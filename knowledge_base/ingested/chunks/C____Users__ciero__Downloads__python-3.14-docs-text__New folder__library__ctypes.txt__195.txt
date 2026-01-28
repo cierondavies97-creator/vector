@@ -1,0 +1,7 @@
+other than what actually happens.
+Consider the following example:
+   >>> from ctypes import *
+   >>> class POINT(Structure):
+   ...     _fields_ = ("x", c_int), ("y", c_int)
+   ...
+   >>> class RECT(Structure):

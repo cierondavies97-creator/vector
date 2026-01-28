@@ -1,0 +1,5 @@
+in a different format.
+      Added in version 3.14.
+   __constraints__
+      A tuple containing the constraints of the type variable, if any.
+      Changed in version 3.12: For type variables created through type

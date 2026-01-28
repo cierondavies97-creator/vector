@@ -1,0 +1,3 @@
+operations will use the effective uid/gid, therefore this routine
+   can be used in a suid/sgid environment to test if the invoking user
+   has the specified access to *path*.  *mode* should be "F_OK" to

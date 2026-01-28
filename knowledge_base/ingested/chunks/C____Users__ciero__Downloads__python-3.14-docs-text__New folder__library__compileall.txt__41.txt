@@ -1,0 +1,3 @@
+to the file being compiled, and if it returns a true value, the
+   file is not compiled and "True" is returned. This can be used to
+   exclude files matching a regular expression, given as a re.Pattern

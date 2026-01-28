@@ -1,0 +1,7 @@
+False
+      >>> p.samefile('spam')
+      True
+   Added in version 3.5.
+Path.info
+   A "PathInfo" object that supports querying file type information.
+   The object exposes methods that cache their results, which can help

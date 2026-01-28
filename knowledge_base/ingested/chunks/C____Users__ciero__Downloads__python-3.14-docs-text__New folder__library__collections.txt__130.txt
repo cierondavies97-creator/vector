@@ -1,0 +1,4 @@
+*typename* and *field_names*) and a helpful "__repr__()" method
+   which lists the tuple contents in a "name=value" format.
+   The *field_names* are a sequence of strings such as "['x', 'y']".
+   Alternatively, *field_names* can be a single string with each

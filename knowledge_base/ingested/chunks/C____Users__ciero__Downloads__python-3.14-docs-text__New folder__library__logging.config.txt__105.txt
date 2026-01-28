@@ -1,0 +1,4 @@
+the "ext://" will be stripped off and the remainder of the value
+processed using normal import mechanisms.
+The handling of such prefixes is done in a way analogous to protocol
+handling: there is a generic mechanism to look for prefixes which

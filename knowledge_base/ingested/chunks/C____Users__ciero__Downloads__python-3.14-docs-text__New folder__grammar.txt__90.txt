@@ -1,0 +1,5 @@
+_PyAST_MatchAs(pattern, target->v.Name.id, EXTRA) }
+       | invalid_as_pattern
+   or_pattern[pattern_ty]:
+       | patterns[asdl_pattern_seq*]='|'.closed_pattern+ {
+           asdl_seq_LEN(patterns) == 1 ? asdl_seq_GET(patterns, 0) : _PyAST_MatchOr(patterns, EXTRA) }

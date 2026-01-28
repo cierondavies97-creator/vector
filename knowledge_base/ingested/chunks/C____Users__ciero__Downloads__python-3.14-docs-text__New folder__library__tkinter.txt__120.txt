@@ -1,0 +1,5 @@
+to change its value you call the "set()" method.  If you follow this
+protocol, the widget will always track the value of the variable, with
+no further intervention on your part.
+For example:
+   import tkinter as tk

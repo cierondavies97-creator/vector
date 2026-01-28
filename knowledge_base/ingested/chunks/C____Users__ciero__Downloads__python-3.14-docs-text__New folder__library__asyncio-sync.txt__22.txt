@@ -1,0 +1,6 @@
+"RuntimeError" error is raised.
+   locked()
+      Return "True" if the underlying lock is acquired.
+   notify_all()
+      Wake up all tasks waiting on this condition.
+      This method acts like "notify()", but wakes up all waiting

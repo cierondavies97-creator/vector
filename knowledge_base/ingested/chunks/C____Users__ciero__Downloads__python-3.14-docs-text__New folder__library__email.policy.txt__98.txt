@@ -1,0 +1,4 @@
+settings, is folded using an algorithm that fully implements the RFC
+  folding algorithms, including knowing where encoded words are
+  required and allowed.
+From the application view, this means that any header obtained through

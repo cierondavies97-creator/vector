@@ -1,0 +1,4 @@
+and "ROOT" system stores. On all systems it calls
+   "SSLContext.set_default_verify_paths()". In the future the method
+   may load CA certificates from other locations, too.
+   The *purpose* flag specifies what kind of CA certificates are

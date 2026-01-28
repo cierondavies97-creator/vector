@@ -1,0 +1,6 @@
+located, why a particular version was chosen and the exact command-
+line used to execute the target Python. It is primarily intended for
+testing and debugging.
+4.12.6. Dry run
+---------------
+If an environment variable "PYLAUNCHER_DRYRUN" is set (to any value),

@@ -1,0 +1,7 @@
+applications always use the compiled form.
+Flags
+-----
+Changed in version 3.6: Flag constants are now instances of
+"RegexFlag", which is a subclass of "enum.IntFlag".
+class re.RegexFlag
+   An "enum.IntFlag" class containing the regex options listed below.

@@ -1,0 +1,5 @@
+directories to treat as containing CGI scripts.
+   The "CGIHTTPRequestHandler" defines the following method:
+   do_POST()
+      This method serves the "'POST'" request type, only allowed for
+      CGI scripts.  Error 501, "Can only POST to CGI scripts", is

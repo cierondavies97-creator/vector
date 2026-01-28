@@ -1,0 +1,3 @@
+order marks (BOMs) for several encodings. They are used in UTF-16
+   and UTF-32 data streams to indicate the byte order used, and in
+   UTF-8 as a Unicode signature. "BOM_UTF16" is either "BOM_UTF16_BE"

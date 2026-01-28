@@ -1,0 +1,3 @@
+with GNU **msgfmt**.  With these two programs, you may not need the
+GNU **gettext** package to internationalize your Python applications.)
+**xgettext**, **pygettext**, and similar tools generate ".po" files

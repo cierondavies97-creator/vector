@@ -1,0 +1,5 @@
+hardcoded list of constants supported by this instruction.  Used by
+   the "assert" statement to load "AssertionError".
+   Added in version 3.14.
+LOAD_BUILD_CLASS
+   Pushes "builtins.__build_class__()" onto the stack.  It is later

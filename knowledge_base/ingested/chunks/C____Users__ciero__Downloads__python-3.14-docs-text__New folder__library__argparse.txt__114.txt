@@ -1,0 +1,4 @@
+"None".  The "'store_const'" action is most commonly used with
+  optional arguments that specify some sort of flag.  For example:
+     >>> parser = argparse.ArgumentParser()
+     >>> parser.add_argument('--foo', action='store_const', const=42)

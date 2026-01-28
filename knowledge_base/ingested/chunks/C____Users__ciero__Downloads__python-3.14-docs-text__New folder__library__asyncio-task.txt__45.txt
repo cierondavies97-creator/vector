@@ -1,0 +1,3 @@
+finish. While waiting, new tasks may still be added to the group (for
+example, by passing "tg" into one of the coroutines and calling
+"tg.create_task()" in that coroutine). Once the last task has finished

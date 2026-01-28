@@ -1,0 +1,5 @@
+class collections.abc.Container
+   ABC for classes that provide the "__contains__()" method.
+class collections.abc.Hashable
+   ABC for classes that provide the "__hash__()" method.
+class collections.abc.Sized

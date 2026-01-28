@@ -1,0 +1,4 @@
+with the name of the argument itself.
+      When invoked with the *block* argument set to "False", do not
+      block. If the lock has already been acquired (and thus is owned)
+      by another process or thread, the current process or thread does

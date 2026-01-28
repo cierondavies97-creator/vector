@@ -1,0 +1,3 @@
+"TypeAlias" and "TypeAliasType" serve similar purposes and have
+   similar names, they are distinct and the latter is not the type of
+   the former. Removal of "TypeAlias" is not currently planned, but

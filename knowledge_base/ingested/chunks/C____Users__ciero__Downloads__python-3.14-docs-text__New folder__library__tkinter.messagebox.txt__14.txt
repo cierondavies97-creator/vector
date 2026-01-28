@@ -1,0 +1,4 @@
+the symbolic name of the selected button.
+tkinter.messagebox.askokcancel(title=None, message=None, **options)
+   Ask if operation should proceed. Shows buttons "OK" and "CANCEL".
+   Returns "True" if the answer is ok and "False" otherwise.

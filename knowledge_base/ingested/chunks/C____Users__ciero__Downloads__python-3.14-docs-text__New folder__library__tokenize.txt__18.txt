@@ -1,0 +1,4 @@
+cookie are present, but disagree, a "SyntaxError" will be raised.
+   Note that if the BOM is found, "'utf-8-sig'" will be returned as an
+   encoding.
+   If no encoding is specified, then the default of "'utf-8'" will be

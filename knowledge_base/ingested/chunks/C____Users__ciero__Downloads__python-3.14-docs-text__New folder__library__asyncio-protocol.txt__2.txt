@@ -1,0 +1,5 @@
+-[ Introduction ]-
+At the highest level, the transport is concerned with *how* bytes are
+transmitted, while the protocol determines *which* bytes to transmit
+(and to some extent when).
+A different way of saying the same thing: a transport is an

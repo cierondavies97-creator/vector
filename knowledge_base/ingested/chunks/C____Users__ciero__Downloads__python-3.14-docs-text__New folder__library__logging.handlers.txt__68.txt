@@ -1,0 +1,3 @@
+only when rollover occurs, and rollover occurs only when emitting
+     output. If this is not kept in mind, it might lead to some
+     confusion. For example, if an interval of "every minute" is set,

@@ -1,0 +1,4 @@
+-[ Footnotes ]-
+[1] Additional information on these special methods may be found in
+    the Python Reference Manual (Basic customization).
+[2] As a consequence, the list "[1, 2]" is considered equal to "[1.0,

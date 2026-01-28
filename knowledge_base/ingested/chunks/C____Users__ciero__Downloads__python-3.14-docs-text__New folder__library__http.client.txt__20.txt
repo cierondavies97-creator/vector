@@ -1,0 +1,4 @@
+be ready to read these field lines, so the first line should
+     already be consumed before calling the function.
+The following exceptions are raised as appropriate:
+exception http.client.HTTPException

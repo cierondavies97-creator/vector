@@ -1,0 +1,4 @@
+the source of the "PATH" variable. The other variants, "execl()",
+   "execle()", "execv()", and "execve()", will not use the "PATH"
+   variable to locate the executable; *path* must contain an
+   appropriate absolute or relative path. Relative paths must include

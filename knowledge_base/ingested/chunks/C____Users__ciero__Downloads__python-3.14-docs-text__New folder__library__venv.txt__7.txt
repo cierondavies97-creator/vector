@@ -1,0 +1,6 @@
+environment.
+* Not considered as movable or copyable -- you just recreate the same
+  environment in the target location.
+See **PEP 405** for more background on Python virtual environments.
+See also:
+  Python Packaging User Guide: Creating and using virtual environments

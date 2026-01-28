@@ -1,0 +1,5 @@
+# indicate there is no underlying value
+           # in which case the descriptor itself will
+           # have to do
+           pass
+Current State of Generators, Coroutines, and Asynchronous Generators

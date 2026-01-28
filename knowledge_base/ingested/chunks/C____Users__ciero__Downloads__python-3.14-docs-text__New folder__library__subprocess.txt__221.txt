@@ -1,0 +1,3 @@
+Execute the string *cmd* in a shell with "check_output()" and
+   return a 2-tuple "(exitcode, output)". *encoding* and *errors* are
+   used to decode output; see the notes on Frequently Used Arguments

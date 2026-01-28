@@ -1,0 +1,6 @@
+>>> mock_backend.configure_mock(**config)
+With these we monkey patch the "mock backend" in place and can make
+the real call:
+   >>> something.backend = mock_backend
+   >>> something.method()
+Using "mock_calls" we can check the chained call with a single assert.

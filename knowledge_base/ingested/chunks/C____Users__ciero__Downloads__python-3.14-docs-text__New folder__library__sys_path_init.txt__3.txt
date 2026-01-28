@@ -1,0 +1,4 @@
+Be wary of setting this in your shell profile or global environment
+  variables. The "site" module offers more nuanced techniques as
+  mentioned below.
+The next items added are the directories containing standard Python

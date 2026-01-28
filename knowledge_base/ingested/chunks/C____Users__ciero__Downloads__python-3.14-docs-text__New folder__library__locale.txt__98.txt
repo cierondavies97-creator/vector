@@ -1,0 +1,5 @@
+"time.strftime()" follows these conventions.
+locale.LC_MONETARY
+   Locale category for formatting of monetary values.  The available
+   options are available from the "localeconv()" function.
+locale.LC_MESSAGES

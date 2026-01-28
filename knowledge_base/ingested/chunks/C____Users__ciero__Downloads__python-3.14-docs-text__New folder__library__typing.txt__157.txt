@@ -1,0 +1,3 @@
+used to indicate that "with_lock" expects a callable which takes in
+   a "Lock" as the first argument, and returns a callable with a
+   different type signature.  In this case, the "ParamSpec" indicates

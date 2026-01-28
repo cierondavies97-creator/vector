@@ -1,0 +1,4 @@
+types involved; similarly, alignment is taken into account when
+  unpacking.  In contrast, when communicating data between external
+  sources, the programmer is responsible for defining byte ordering
+  and padding between elements. See Byte Order, Size, and Alignment

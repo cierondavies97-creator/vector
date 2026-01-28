@@ -1,0 +1,4 @@
+Changed in version 3.3: New optional argument *password*.
+SSLContext.load_default_certs(purpose=Purpose.SERVER_AUTH)
+   Load a set of default "certification authority" (CA) certificates
+   from default locations. On Windows it loads CA certs from the "CA"

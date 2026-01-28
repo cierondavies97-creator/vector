@@ -1,0 +1,4 @@
+For example, a set of files may easily be handled in a single with
+   statement as follows:
+      with ExitStack() as stack:
+          files = [stack.enter_context(open(fname)) for fname in filenames]

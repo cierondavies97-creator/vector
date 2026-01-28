@@ -1,0 +1,6 @@
+"PATH"
+* Shortcuts are available for all users
+4.11.2. Removing the MAX_PATH limitation
+----------------------------------------
+Windows historically has limited path lengths to 260 characters. This
+meant that paths longer than this would not resolve and errors would

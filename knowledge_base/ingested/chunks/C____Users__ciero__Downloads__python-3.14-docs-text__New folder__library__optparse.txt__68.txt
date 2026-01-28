@@ -1,0 +1,4 @@
+your program's command line:
+   (options, args) = parser.parse_args()
+(If you like, you can pass a custom argument list to "parse_args()",
+but that's rarely necessary: by default it uses "sys.argv[1:]".)

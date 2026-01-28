@@ -1,0 +1,4 @@
+assert isinstance(sig, MySignature)
+      Its behavior is otherwise identical to that of "signature()".
+      Added in version 3.5.
+      Changed in version 3.10: The *globals*, *locals*, and *eval_str*

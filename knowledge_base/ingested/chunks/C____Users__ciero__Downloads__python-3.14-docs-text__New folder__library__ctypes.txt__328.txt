@@ -1,0 +1,5 @@
+it does not return the ctypes-private copy of the error code.
+   Availability: Windows
+ctypes.get_errno()
+   Returns the current value of the ctypes-private copy of the system
+   "errno" variable in the calling thread.

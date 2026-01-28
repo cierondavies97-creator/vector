@@ -1,0 +1,6 @@
+sig = signature(test)
+      ba = sig.bind(10, b=20)
+      test(*ba.args, **ba.kwargs)
+See also:
+  **PEP 362** - Function Signature Object.
+     The detailed specification, implementation details and examples.

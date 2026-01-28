@@ -1,0 +1,5 @@
+pieces.append(self.request.recv(2000))
+               total += len(pieces[-1])
+           self.data = b''.join(pieces)
+           print(f"Received from {self.client_address[0]}:")
+           print(self.data.decode("utf-8"))

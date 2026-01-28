@@ -1,0 +1,4 @@
+The optional argument *arg* can be an integer giving the exit
+   status (defaulting to zero), or another type of object.  If it is
+   an integer, zero is considered "successful termination" and any
+   nonzero value is considered "abnormal termination" by shells and

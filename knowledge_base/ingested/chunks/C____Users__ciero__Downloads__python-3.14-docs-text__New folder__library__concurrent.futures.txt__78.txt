@@ -1,0 +1,5 @@
+Added in version 3.14.
+   kill_workers()
+      Attempt to kill all living worker processes immediately by
+      calling "Process.kill" on each of them. Internally, it will also
+      call "Executor.shutdown()" to ensure that all other resources

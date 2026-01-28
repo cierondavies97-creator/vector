@@ -1,0 +1,5 @@
+raise "TypeError".
+* If an *iterator* is used for *__slots__* then a *descriptor* is
+  created for each of the iterator's values. However, the *__slots__*
+  attribute will be an empty iterator.
+3.3.3. Customizing class creation

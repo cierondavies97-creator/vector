@@ -1,0 +1,5 @@
+f.write(b"This data will not be compressed\n")
+       with zstd.open(f, "w") as zstf:
+           zstf.write(b"This *will* be compressed\n")
+       f.write(b"Not compressed\n")
+Creating a compressed file using compression parameters:

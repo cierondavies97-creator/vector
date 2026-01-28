@@ -1,0 +1,3 @@
+*binary file* or *bytes-like object*) is converted back into an object
+hierarchy.  Pickling (and unpickling) is alternatively known as
+"serialization", "marshalling," [1] or "flattening"; however, to avoid

@@ -1,0 +1,7 @@
+part envelope and data.
+IMAP4.myrights(mailbox)
+   Show my ACLs for a mailbox (i.e. the rights that I have on
+   mailbox).
+IMAP4.namespace()
+   Returns IMAP namespaces as defined in **RFC 2342**.
+IMAP4.noop()

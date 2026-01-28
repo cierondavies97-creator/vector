@@ -1,0 +1,4 @@
+same mechanism as the rest of "optparse" for storing option
+      values; you don't need to mess around with globals or closures.
+      You can also access or modify the value(s) of any options
+      already encountered on the command-line.

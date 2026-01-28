@@ -1,0 +1,6 @@
+virtual subclasses of the base class will be dispatched to that
+   implementation:
+      >>> from collections.abc import Mapping
+      >>> @fun.register
+      ... def _(arg: Mapping, verbose=False):
+      ...     if verbose:

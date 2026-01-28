@@ -1,0 +1,6 @@
+If an argument outside those ranges is given, "ValueError" is
+   raised.
+   Changed in version 3.6: Added the *fold* parameter.
+Other constructors, all class methods:
+classmethod datetime.today()
+   Return the current local date and time, with "tzinfo" "None".

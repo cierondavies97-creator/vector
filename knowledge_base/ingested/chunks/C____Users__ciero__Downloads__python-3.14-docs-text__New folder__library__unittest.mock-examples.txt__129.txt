@@ -1,0 +1,4 @@
+call({6})
+"copy_call_args" is called with the mock that will be called. It
+returns a new mock that we do the assertion on. The "side_effect"
+function makes a copy of the args and calls our "new_mock" with the

@@ -1,0 +1,4 @@
+the debugger session.  The *convenience variables* are cleared when
+the program resumes execution so it's less likely to interfere with
+your program compared to using normal variables like "foo = 1".
+There are four preset *convenience variables*:

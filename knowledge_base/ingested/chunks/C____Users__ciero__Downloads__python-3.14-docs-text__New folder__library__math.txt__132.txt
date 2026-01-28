@@ -1,0 +1,4 @@
+Unlike the built-in "**" operator, "math.pow()" converts both its
+   arguments to type "float".  Use "**" or the built-in "pow()"
+   function for computing exact integer powers.
+   Changed in version 3.11: The special cases "pow(0.0, -inf)" and

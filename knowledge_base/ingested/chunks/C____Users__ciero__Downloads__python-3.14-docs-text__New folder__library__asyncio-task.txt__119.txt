@@ -1,0 +1,4 @@
+the maximum number of seconds to wait before returning.
+   Note that this function does not raise "TimeoutError". Futures or
+   Tasks that aren't done when the timeout occurs are simply returned
+   in the second set.

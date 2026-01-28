@@ -1,0 +1,4 @@
+>>> mock.member.foo.bar.baz()
+<MagicMock name='mock.member.foo.bar.baz()' id='...'>
+If modifying your production classes to add defaults isn't to your
+liking then there are more options. One of these is simply to use an

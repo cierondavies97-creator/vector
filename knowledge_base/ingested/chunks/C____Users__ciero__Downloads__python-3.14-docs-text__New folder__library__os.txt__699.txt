@@ -1,0 +1,4 @@
+after running *command*.  The shell is given by the Windows
+   environment variable "COMSPEC": it is usually **cmd.exe**, which
+   returns the exit status of the command run; on systems using a non-
+   native shell, consult your shell documentation.

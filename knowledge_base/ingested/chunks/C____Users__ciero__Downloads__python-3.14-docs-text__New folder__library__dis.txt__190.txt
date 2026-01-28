@@ -1,0 +1,6 @@
+closure
+   * "0x10" the *annotate function* for the function object
+   Added in version 3.13.
+   Changed in version 3.14: Added "0x10" to indicate the annotate
+   function for the function object.
+BUILD_SLICE(argc)

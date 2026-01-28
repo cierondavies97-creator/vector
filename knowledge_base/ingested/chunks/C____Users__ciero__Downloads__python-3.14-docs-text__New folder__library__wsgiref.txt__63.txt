@@ -1,0 +1,5 @@
+handle()
+      Process the HTTP request.  The default implementation creates a
+      handler instance using a "wsgiref.handlers" class to implement
+      the actual WSGI application interface.
+"wsgiref.validate" --- WSGI conformance checker

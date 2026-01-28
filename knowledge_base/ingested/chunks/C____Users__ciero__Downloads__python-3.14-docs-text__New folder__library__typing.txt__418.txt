@@ -1,0 +1,4 @@
+"dataclass_transform" may be used to decorate a class, metaclass,
+   or a function that is itself a decorator. The presence of
+   "@dataclass_transform()" tells a static type checker that the
+   decorated object performs runtime "magic" that transforms a class

@@ -1,0 +1,4 @@
+mode of "'w'" does not truncate the file, and is instead equivalent
+   to "'a'".
+   When reading, the *options* argument can be a dictionary providing
+   advanced decompression parameters; see "DecompressionParameter" for

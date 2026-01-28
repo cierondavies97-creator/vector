@@ -1,0 +1,3 @@
+annotate function. This is primarily useful before the class has
+   been fully created (e.g., in a metaclass); after the class exists,
+   the annotate function can be retrieved with "cls.__annotate__". See

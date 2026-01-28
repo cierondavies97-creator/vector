@@ -1,0 +1,6 @@
+from tkinter import ttk
+To override the basic Tk widgets, the import should follow the Tk
+import:
+   from tkinter import *
+   from tkinter.ttk import *
+That code causes several "tkinter.ttk" widgets ("Button",

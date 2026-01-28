@@ -1,0 +1,4 @@
+Query or sets dynamic values of the specified option(s) in
+      *style*.
+      Each key in *kw* is an option and each value should be a list or
+      a tuple (usually) containing statespecs grouped in tuples,

@@ -1,0 +1,4 @@
+"None", or negative read as much as possible.
+      Fewer bytes may be returned than requested. An empty "bytes"
+      object is returned if the stream is already at EOF. More than
+      one read may be made and calls may be retried if specific errors

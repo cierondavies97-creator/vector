@@ -1,0 +1,6 @@
+Namespace(bar='XXX')
+deprecated
+----------
+During a project's lifetime, some arguments may need to be removed
+from the command line. Before removing them, you should inform your
+users that the arguments are deprecated and will be removed. The

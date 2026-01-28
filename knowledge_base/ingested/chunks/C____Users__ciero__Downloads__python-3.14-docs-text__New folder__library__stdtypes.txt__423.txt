@@ -1,0 +1,4 @@
+str.zfill(width, /)
+   Return a copy of the string left filled with ASCII "'0'" digits to
+   make a string of length *width*. A leading sign prefix
+   ("'+'"/"'-'") is handled by inserting the padding *after* the sign

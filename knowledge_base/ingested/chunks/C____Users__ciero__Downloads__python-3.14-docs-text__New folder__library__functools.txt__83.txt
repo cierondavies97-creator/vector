@@ -1,0 +1,5 @@
+as a decorator.  For functions annotated with types, the decorator
+   will infer the type of the first argument automatically:
+      >>> @fun.register
+      ... def _(arg: int, verbose=False):
+      ...     if verbose:

@@ -1,0 +1,3 @@
+values to the second argument of the cursor's "execute()" method.
+An SQL statement may use one of two kinds of placeholders: question
+marks (qmark style) or named placeholders (named style). For the qmark

@@ -1,0 +1,6 @@
+MS Windows Specific Services
+****************************
+This chapter describes modules that are only available on MS Windows
+platforms.
+* "msvcrt" --- Useful routines from the MS VC++ runtime
+  * File Operations

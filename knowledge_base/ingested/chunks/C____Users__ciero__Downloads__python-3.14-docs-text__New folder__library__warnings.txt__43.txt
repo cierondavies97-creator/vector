@@ -1,0 +1,5 @@
+*category*) are the same, ignoring the module and line number.
+Describing Warning Filters
+--------------------------
+The warnings filter is initialized by "-W" options passed to the
+Python interpreter command line and the "PYTHONWARNINGS" environment

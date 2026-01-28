@@ -1,0 +1,4 @@
+"virtual environment.")
+       parser.add_argument('--no-pip', default=False,
+                           action='store_true', dest='nopip',
+                           help="Don't install pip in the virtual "

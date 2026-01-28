@@ -1,0 +1,5 @@
+file interface):
+   class MyTCPHandler(socketserver.StreamRequestHandler):
+       def handle(self):
+           # self.rfile is a file-like object created by the handler.
+           # We can now use e.g. readline() instead of raw recv() calls.

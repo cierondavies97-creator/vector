@@ -1,0 +1,4 @@
+receive and the other end has closed.
+      If *maxlength* is specified and the message is longer than
+      *maxlength* then "OSError" is raised and the connection will no
+      longer be readable.

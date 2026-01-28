@@ -1,0 +1,4 @@
+codes.An "HTTPError" exception raised as a security consideration if
+  the HTTPRedirectHandler is presented with a redirected URL which is
+  not an HTTP, HTTPS or FTP URL.
+HTTPRedirectHandler.redirect_request(req, fp, code, msg, hdrs, newurl)

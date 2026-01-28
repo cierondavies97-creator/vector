@@ -1,0 +1,4 @@
+floating-point number using the "abs()" function if appropriate.
+The "+" (addition) operator yields the sum of its arguments.  The
+arguments must either both be numbers or both be sequences of the same
+type.  In the former case, the numbers are converted to a common real

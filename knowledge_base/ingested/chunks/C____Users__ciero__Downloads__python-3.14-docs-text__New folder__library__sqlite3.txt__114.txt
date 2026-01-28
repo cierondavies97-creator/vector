@@ -1,0 +1,6 @@
+Raises:
+         **NotSupportedError** -- If used with a version of SQLite
+         older than 3.25.0, which does not support aggregate window
+         functions.
+      Added in version 3.11.
+      Example:

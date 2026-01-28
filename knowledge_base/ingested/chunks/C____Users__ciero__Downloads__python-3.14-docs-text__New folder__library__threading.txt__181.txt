@@ -1,0 +1,5 @@
+"wait()" will block until "set()" is called to set the internal
+      flag to true again.
+   wait(timeout=None)
+      Block as long as the internal flag is false and the timeout, if
+      given, has not expired. The return value represents the reason

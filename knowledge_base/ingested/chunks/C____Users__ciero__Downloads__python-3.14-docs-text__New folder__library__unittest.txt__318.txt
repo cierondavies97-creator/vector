@@ -1,0 +1,6 @@
+methods.
+   sortTestMethodsUsing
+      Function to be used to compare method names when sorting them in
+      "getTestCaseNames()" and all the "loadTestsFrom*" methods.
+   suiteClass
+      Callable object that constructs a test suite from a list of

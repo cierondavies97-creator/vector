@@ -1,0 +1,4 @@
+"assertWarnsRegex()" only when they are used as a context manager.
+   assertEqual(first, second, msg=None)
+      Test that *first* and *second* are equal.  If the values do not
+      compare equal, the test will fail.

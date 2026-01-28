@@ -1,0 +1,4 @@
+Because most of the operations on any given type will be very similar,
+it can be useful to define a helper function which generates the
+forward and reverse instances of any given operator. For example,
+"fractions.Fraction" uses:

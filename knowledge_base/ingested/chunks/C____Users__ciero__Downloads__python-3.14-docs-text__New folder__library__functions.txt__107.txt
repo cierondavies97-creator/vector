@@ -1,0 +1,3 @@
+and *locals* are given, they are used for the global and local
+   variables, respectively.  If provided, *locals* can be any mapping
+   object.  Remember that at the module level, globals and locals are

@@ -1,0 +1,4 @@
+similar to that returned by the built-in function of the same name,
+   but with limits on most sizes.
+In addition to size-limiting tools, the module also provides a
+decorator for detecting recursive calls to "__repr__()" and

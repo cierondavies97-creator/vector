@@ -1,0 +1,6 @@
+interrupt_write.send(b'\0')
+   signal.signal(signal.SIGINT, handler)
+   def serve_forever(httpd):
+       sel = DefaultSelector()
+       sel.register(interrupt_read, EVENT_READ)
+       sel.register(httpd, EVENT_READ)

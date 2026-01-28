@@ -1,0 +1,6 @@
+the information contained in an XML document type declaration.
+Node Objects
+------------
+All of the components of an XML document are subclasses of "Node".
+Node.nodeType
+   An integer representing the node type.  Symbolic constants for the

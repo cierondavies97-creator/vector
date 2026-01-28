@@ -1,0 +1,3 @@
+current file. The line number may be prefixed with a *filename* and
+   a colon, to specify a breakpoint in another file (possibly one that
+   hasn't been loaded yet).  The file is searched on "sys.path".

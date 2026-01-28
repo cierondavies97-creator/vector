@@ -1,0 +1,3 @@
+*max_tasks_per_child* is "None" which means worker processes will
+   live as long as the pool. When a max is specified, the "spawn"
+   multiprocessing start method will be used by default in absence of

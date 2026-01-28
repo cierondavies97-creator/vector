@@ -1,0 +1,6 @@
+"bytes" arguments but cannot allow the two to mix.
+   For example:
+      def concat(a: AnyStr, b: AnyStr) -> AnyStr:
+          return a + b
+      concat("foo", "bar")    # OK, output has type 'str'
+      concat(b"foo", b"bar")  # OK, output has type 'bytes'

@@ -1,0 +1,4 @@
+tempfile.tempdir
+   When set to a value other than "None", this variable defines the
+   default value for the *dir* argument to the functions defined in
+   this module, including its type, bytes or str.  It cannot be a

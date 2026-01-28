@@ -1,0 +1,4 @@
+Each item in this tuple contains further information about a
+parameter, it must be a tuple containing one, two, or three items.
+The first item is an integer containing a combination of direction
+flags for the parameter:

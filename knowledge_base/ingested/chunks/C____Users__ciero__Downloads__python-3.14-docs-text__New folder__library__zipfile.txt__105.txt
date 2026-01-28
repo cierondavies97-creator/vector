@@ -1,0 +1,4 @@
+necessary.
+      If the *optimize* parameter to "PyZipFile" was "0", "1" or "2",
+      only files with that optimization level (see "compile()") are
+      added to the archive, compiling if necessary.

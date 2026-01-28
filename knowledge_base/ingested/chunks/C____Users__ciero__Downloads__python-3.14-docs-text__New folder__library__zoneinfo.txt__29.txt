@@ -1,0 +1,6 @@
+"__str__()" and "__repr__()".
+   Objects created via this constructor cannot be pickled (see
+   pickling).
+   "ValueError" is raised if the data read from *file_obj* is not a
+   valid TZif file.
+classmethod ZoneInfo.no_cache(key)

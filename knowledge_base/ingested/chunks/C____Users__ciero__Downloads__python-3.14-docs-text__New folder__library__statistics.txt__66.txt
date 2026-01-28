@@ -1,0 +1,5 @@
+The *data* can be any iterable of numeric data with each value
+   being exactly the midpoint of a bin.  At least one value must be
+   present.
+   The *interval* is the width of each bin.
+   For example, demographic information may have been summarized into

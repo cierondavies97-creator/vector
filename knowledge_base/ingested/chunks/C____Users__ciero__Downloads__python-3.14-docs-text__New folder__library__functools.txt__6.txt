@@ -1,0 +1,5 @@
+It is possible for the wrapped function to be called more than once
+   if another thread makes an additional call before the initial call
+   has been completed and cached.
+   Added in version 3.9.
+@functools.cached_property(func)

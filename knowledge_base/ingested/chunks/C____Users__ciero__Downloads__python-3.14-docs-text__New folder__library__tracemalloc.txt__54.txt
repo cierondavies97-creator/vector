@@ -1,0 +1,5 @@
+"True" if the "tracemalloc" module is tracing Python memory
+   allocations, "False" otherwise.
+   See also "start()" and "stop()" functions.
+tracemalloc.start(nframe: int = 1)
+   Start tracing Python memory allocations: install hooks on Python

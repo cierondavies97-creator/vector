@@ -1,0 +1,4 @@
+thread changes it to unlocked, then the "acquire()" call resets it to
+locked and returns.  The "release()" method should only be called in
+the locked state; it changes the state to unlocked and returns
+immediately. If an attempt is made to release an unlocked lock, a

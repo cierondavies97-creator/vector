@@ -1,0 +1,9 @@
+'assert_called',
+    'assert_called_once',
+    'assert_called_once_with',
+    'assert_called_with',
+    'assert_has_calls',
+    'assert_not_called',
+    'attach_mock',
+    ...
+   >>> from urllib import request

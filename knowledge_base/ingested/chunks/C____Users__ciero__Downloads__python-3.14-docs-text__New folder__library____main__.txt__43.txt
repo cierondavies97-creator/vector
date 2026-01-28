@@ -1,0 +1,4 @@
+The exit code of the program would be 1, indicating an error.
+Uncommenting the line with "my_name = "Dinsdale"" fixes the program
+and now it exits with status code 0, indicating success:
+   $ python start.py

@@ -1,0 +1,5 @@
+"__init__.py" file.
+   Namespace packages allow several individually installable packages
+   to have a common parent package. Otherwise, it is recommended to
+   use a *regular package*.
+   For more information, see **PEP 420** and Namespace packages.

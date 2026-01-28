@@ -1,0 +1,4 @@
+Convenience function which creates a TCP socket bound to *address*
+   (a 2-tuple "(host, port)") and returns the socket object.
+   *family* should be either "AF_INET" or "AF_INET6". *backlog* is the
+   queue size passed to "socket.listen()"; if not specified , a

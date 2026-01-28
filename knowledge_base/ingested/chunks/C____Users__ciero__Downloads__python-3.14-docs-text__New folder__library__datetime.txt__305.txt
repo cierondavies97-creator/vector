@@ -1,0 +1,3 @@
+"tzinfo" object represents both time zone and DST adjustments,
+   "utcoffset()" should return their sum. If the UTC offset isn't
+   known, return "None". Else the value returned must be a "timedelta"

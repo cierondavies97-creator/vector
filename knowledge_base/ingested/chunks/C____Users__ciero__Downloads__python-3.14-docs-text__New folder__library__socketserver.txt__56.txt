@@ -1,0 +1,4 @@
+with the client, and the client's address.
+   handle_error(request, client_address)
+      This function is called if the "handle()" method of a
+      "RequestHandlerClass" instance raises an exception.  The default

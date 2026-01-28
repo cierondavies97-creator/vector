@@ -1,0 +1,4 @@
+"'strict'", which causes "ValueError" to be raised in case an
+   encoding error occurs.
+codecs.iterencode(iterator, encoding, errors='strict', **kwargs)
+   Uses an incremental encoder to iteratively encode the input

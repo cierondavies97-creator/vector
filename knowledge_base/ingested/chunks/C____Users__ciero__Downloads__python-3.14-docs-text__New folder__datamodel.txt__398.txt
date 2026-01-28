@@ -1,0 +1,3 @@
+between "__getattr__()" and "__setattr__()".) This is done both for
+   efficiency reasons and because otherwise "__getattr__()" would have
+   no way to access other attributes of the instance.  Note that at

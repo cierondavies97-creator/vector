@@ -1,0 +1,5 @@
+Added in version 3.13.
+   add_flag(key, flag)
+      On the message corresponding to *key*, set the flags specified
+      by *flag* without changing other flags. To add more than one
+      flag at a time, *flag* may be a string of more than one

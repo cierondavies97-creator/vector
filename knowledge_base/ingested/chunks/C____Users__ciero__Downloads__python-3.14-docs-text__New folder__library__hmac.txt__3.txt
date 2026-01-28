@@ -1,0 +1,4 @@
+constructor or module for the HMAC object to use.  It may be any
+   name suitable to "hashlib.new()". Despite its argument position, it
+   is required.
+   Changed in version 3.4: Parameter *key* can be a bytes or bytearray

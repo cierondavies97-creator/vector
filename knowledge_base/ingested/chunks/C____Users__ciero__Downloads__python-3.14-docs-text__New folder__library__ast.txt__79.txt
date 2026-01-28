@@ -1,0 +1,5 @@
+Added in version 3.14.
+   Node representing a single interpolation field in a template string
+   literal.
+   * "value" is any expression node (such as a literal, a variable, or
+     a function call). This has the same meaning as

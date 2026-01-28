@@ -1,0 +1,3 @@
+| "(expressions...)",  "[expressions...]", "{key: | Binding or parenthesized expression,  |
+| value...}", "{expressions...}"                  | list display, dictionary display, set |
+|                                                 | display                               |

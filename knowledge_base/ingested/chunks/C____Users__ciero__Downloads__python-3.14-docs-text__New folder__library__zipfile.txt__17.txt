@@ -1,0 +1,5 @@
+will only write data with method ID "93".
+   Added in version 3.14.
+Note:
+  The ZIP file format specification has included support for bzip2
+  compression since 2001, for LZMA compression since 2006, and

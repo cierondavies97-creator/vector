@@ -1,0 +1,4 @@
+the "datetime" module. The "timezone" class can represent simple time
+zones with fixed offsets from UTC, such as UTC itself or North
+American EST and EDT time zones. Supporting time zones at deeper
+levels of detail is up to the application. The rules for time

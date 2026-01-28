@@ -1,0 +1,5 @@
+interpreter's "-m" switch, in order to provide a simple SQLite shell.
+The argument signature is as follows:
+   python -m sqlite3 [-h] [-v] [filename] [sql]
+Type ".quit" or CTRL-D to exit the shell.
+-h, --help

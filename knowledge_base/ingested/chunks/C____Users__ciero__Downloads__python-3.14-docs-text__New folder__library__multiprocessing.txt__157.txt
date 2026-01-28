@@ -1,0 +1,4 @@
+attempts to instantiate a "Queue" will result in an
+     "ImportError". See bpo-3770 for additional information.  The same
+     holds true for any of the specialized queue types listed below.
+class multiprocessing.SimpleQueue

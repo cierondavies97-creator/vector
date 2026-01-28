@@ -1,0 +1,4 @@
+Register *callable* *progress_handler* to be invoked for every
+      *n* instructions of the SQLite virtual machine. This is useful
+      if you want to get called from SQLite during long-running
+      operations, for example to update a GUI.

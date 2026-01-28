@@ -1,0 +1,3 @@
+in the comparison. If *compare_attributes* is "False" (default),
+   then attributes are ignored. Otherwise they must all be equal. This
+   option is useful to check whether the ASTs are structurally equal

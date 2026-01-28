@@ -1,0 +1,7 @@
+>>> print(ast.dump(ast.parse('from y import x,y,z'), indent=4))
+      Module(
+          body=[
+              ImportFrom(
+                  module='y',
+                  names=[
+                      alias(name='x'),

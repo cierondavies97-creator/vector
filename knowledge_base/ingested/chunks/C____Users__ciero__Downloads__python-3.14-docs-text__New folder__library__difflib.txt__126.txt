@@ -1,0 +1,3 @@
+help='Produce HTML side by side diff '
+                                '(can use -c and -l in conjunction)')
+       parser.add_argument('-n', action='store_true', default=False,

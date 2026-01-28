@@ -1,0 +1,4 @@
+* "'ignore'" ignores errors.  Note that ignoring encoding errors
+     can lead to data loss.
+   * "'replace'" causes a replacement marker (such as "'?'") to be
+     inserted where there is malformed data.

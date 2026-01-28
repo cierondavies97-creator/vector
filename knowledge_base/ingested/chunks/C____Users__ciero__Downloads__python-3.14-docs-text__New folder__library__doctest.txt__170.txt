@@ -1,0 +1,4 @@
+Optional argument *extraglobs* specifies an extra set of global
+   variables, which is merged into *globs*.  By default, no extra
+   globals are used.
+   Optional argument *test_finder* is the "DocTestFinder" object (or a

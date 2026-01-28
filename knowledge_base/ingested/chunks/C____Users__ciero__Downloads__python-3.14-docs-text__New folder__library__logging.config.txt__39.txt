@@ -1,0 +1,3 @@
+objects to create and the connections between them; for example, you
+may create a handler named 'console' and then say that the logger
+named 'startup' will send its messages to the 'console' handler. These

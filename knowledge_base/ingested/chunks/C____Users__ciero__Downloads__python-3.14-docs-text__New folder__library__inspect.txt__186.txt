@@ -1,0 +1,6 @@
+...         print('Parameter:', param)
+         Parameter: c
+   kind.description
+      Describes an enum value of "Parameter.kind".
+      Added in version 3.8.
+      Example: print all descriptions of arguments:

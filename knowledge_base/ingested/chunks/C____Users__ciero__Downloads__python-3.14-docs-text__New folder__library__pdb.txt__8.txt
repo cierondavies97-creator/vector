@@ -1,0 +1,4 @@
+Changed in version 3.3: Tab-completion via the "readline" module is
+available for commands and command arguments, e.g. the current global
+and local names are offered as arguments of the "p" command.
+Command-line interface

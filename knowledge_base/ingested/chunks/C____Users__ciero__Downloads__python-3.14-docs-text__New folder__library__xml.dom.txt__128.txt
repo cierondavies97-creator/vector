@@ -1,0 +1,5 @@
+exception xml.dom.NotSupportedErr
+   Raised when the implementation does not support the requested type
+   of object or operation.
+exception xml.dom.NoDataAllowedErr
+   This is raised if data is specified for a node which does not

@@ -1,0 +1,4 @@
+This function can support specifying a file descriptor.  The
+   descriptor must refer to an opened directory, not an open file.
+   This function can raise "OSError" and subclasses such as
+   "FileNotFoundError", "PermissionError", and "NotADirectoryError".

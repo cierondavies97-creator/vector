@@ -1,0 +1,4 @@
+There is no default implementation
+   header_store_parse(name, value)
+      The email package calls this method with the name and value
+      provided by the application program when the application program

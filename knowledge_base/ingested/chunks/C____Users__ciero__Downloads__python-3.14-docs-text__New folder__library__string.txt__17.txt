@@ -1,0 +1,3 @@
+Auto-numbering of *field_name* returned from "parse()" is done
+      by "vformat()" before calling this method.  Returns a tuple
+      (obj, used_key). The default version takes strings of the form

@@ -1,0 +1,7 @@
+protected inside the "if __name__ == '__main__'" clause of the main
+   module.
+   See Contexts and start methods.
+   Added in version 3.4.
+Note:
+  "multiprocessing" contains no analogues of
+  "threading.active_count()", "threading.enumerate()",

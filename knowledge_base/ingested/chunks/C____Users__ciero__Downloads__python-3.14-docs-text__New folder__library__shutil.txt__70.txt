@@ -1,0 +1,4 @@
+is not possible to also copy the metadata, at the expense of not
+   copying any of the metadata.
+   Raises an auditing event "shutil.move" with arguments "src", "dst".
+   Changed in version 3.3: Added explicit symlink handling for foreign

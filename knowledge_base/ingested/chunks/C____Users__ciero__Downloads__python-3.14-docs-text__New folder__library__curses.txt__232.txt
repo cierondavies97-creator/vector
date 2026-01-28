@@ -1,0 +1,3 @@
+| curses.KEY_LL             | Home down or bottom (lower left)             |
++---------------------------+----------------------------------------------+
+| curses.KEY_A1             | Upper left of keypad                         |

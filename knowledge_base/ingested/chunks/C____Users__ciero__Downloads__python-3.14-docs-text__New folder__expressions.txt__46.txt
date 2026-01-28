@@ -1,0 +1,5 @@
+comprehension is supplied, the set is constructed from the elements
+resulting from the comprehension.
+An empty set cannot be constructed with "{}"; this literal constructs
+an empty dictionary.
+6.2.7. Dictionary displays

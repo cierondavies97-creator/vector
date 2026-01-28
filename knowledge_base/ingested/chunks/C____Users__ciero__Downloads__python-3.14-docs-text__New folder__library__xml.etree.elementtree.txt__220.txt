@@ -1,0 +1,4 @@
+...     def end(self, tag):             # Called for each closing tag.
+      ...         self.depth -= 1
+      ...     def data(self, data):
+      ...         pass            # We do not need to do anything with data.

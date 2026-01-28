@@ -1,0 +1,3 @@
+dictionary containing the current bindings of the function's local
+   variables and any nonlocal cell references. In this case, name
+   binding changes made via the returned dict are *not* written back

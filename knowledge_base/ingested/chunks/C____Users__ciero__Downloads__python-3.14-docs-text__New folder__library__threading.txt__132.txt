@@ -1,0 +1,4 @@
+enclosed block.  The "acquire()" and "release()" methods also call the
+corresponding methods of the associated lock.
+Other methods must be called with the associated lock held.  The
+"wait()" method releases the lock, and then blocks until another

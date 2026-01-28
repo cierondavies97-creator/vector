@@ -1,0 +1,5 @@
+it easier to write display code that can handle both IPv4 and
+      IPv6 addresses.
+   packed
+      The binary representation of this address - a "bytes" object of
+      the appropriate length (most significant octet first). This is 4

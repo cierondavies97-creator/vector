@@ -1,0 +1,4 @@
+current umask value is first masked out.  Return the file
+   descriptor for the newly opened file. The new file descriptor is
+   non-inheritable.
+   For a description of the flag and mode values, see the C run-time

@@ -1,0 +1,9 @@
+object.  For instance
+>>> import weakref
+>>> class Object:
+...     pass
+...
+>>> kenny = Object()
+>>> weakref.finalize(kenny, print, "You killed Kenny!")
+<finalize object at ...; for 'Object' at ...>
+>>> del kenny

@@ -1,0 +1,5 @@
+33
+   >>> p                       # readable __repr__ with a name=value style
+   Point(x=11, y=22)
+Named tuples are especially useful for assigning field names to result
+tuples returned by the "csv" or "sqlite3" modules:

@@ -1,0 +1,4 @@
+number.  If all the examples in a file are skipped, then the
+   synthesized unit test is also marked as skipped.
+   Pass one or more paths (as strings) to text files to be examined.
+   Options may be provided as keyword arguments:

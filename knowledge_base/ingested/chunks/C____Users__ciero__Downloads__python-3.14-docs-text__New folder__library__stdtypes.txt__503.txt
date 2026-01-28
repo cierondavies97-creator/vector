@@ -1,0 +1,4 @@
+bytes object of length 1.  (This contrasts with text strings, where
+both indexing and slicing will produce a string of length 1)
+The representation of bytes objects uses the literal format ("b'...'")
+since it is often more useful than e.g. "bytes([46, 46, 46])".  You

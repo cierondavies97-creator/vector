@@ -1,0 +1,4 @@
+--------------------------------------
+As some features of Python are not included in the initial installer
+download, selecting those features may require an internet connection.
+To avoid this need, all possible components may be downloaded on-

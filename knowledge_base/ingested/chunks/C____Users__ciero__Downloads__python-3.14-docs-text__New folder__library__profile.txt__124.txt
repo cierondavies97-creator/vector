@@ -1,0 +1,4 @@
+As the "cProfile.Profile" class cannot be calibrated, custom timer
+   functions should be used with care and should be as fast as
+   possible.  For the best results with a custom timer, it might be
+   necessary to hard-code it in the C source of the internal "_lsprof"

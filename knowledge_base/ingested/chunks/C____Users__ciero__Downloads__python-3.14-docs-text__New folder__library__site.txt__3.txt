@@ -1,0 +1,4 @@
+Changed in version 3.3: Importing the module used to trigger paths
+manipulation even when using "-S".
+It starts by constructing up to four directories from a head and a
+tail part. For the head part, it uses "sys.prefix" and

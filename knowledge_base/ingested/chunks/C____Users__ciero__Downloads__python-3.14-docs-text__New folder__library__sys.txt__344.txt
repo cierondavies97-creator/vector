@@ -1,0 +1,4 @@
+* When interactive, the "stdout" stream is line-buffered.
+     Otherwise, it is block-buffered like regular text files.  The
+     "stderr" stream is line-buffered in both cases.  You can make
+     both streams unbuffered by passing the "-u" command-line option

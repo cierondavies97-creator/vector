@@ -1,0 +1,4 @@
+If not specified, the default value used will check for all 3 types
+   of events.
+   +---------------------+--------------------------------------------+
+   | Constant            | Meaning                                    |

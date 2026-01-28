@@ -1,0 +1,4 @@
+"Tuple", it represents constraints; otherwise it represents the
+   bound. "default_value" is the default value; if the "TypeVar" has
+   no default, this attribute will be set to "None".
+      >>> print(ast.dump(ast.parse("type Alias[T: int = bool] = list[T]"), indent=4))

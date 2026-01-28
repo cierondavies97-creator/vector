@@ -1,0 +1,4 @@
+value of "__new__()" should be the new object instance (usually an
+   instance of *cls*).
+   Typical implementations create a new instance of the class by
+   invoking the superclass's "__new__()" method using

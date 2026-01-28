@@ -1,0 +1,5 @@
+they are lightweight and require no more memory than regular
+   tuples.
+   To support pickling, the named tuple class should be assigned to a
+   variable that matches *typename*.
+   Changed in version 3.1: Added support for *rename*.

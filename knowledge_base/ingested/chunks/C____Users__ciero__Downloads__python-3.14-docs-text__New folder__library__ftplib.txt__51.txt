@@ -1,0 +1,4 @@
+directory is assumed. *facts* is a list of strings representing
+      the type of information desired (e.g. "["type", "size",
+      "perm"]").  Return a generator object yielding a tuple of two
+      elements for every file found in path.  First element is the

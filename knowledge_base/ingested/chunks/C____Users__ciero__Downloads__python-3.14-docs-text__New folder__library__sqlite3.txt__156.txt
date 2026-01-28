@@ -1,0 +1,6 @@
+Example:
+         # Convert file example.db to SQL dump file dump.sql
+         con = sqlite3.connect('example.db')
+         with open('dump.sql', 'w') as f:
+             for line in con.iterdump():
+                 f.write('%s\n' % line)

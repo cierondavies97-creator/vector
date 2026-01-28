@@ -1,0 +1,4 @@
+implement a Python interpreter. It deliberately avoids including some
+of the types that arise only incidentally during processing such as
+the "listiterator" type.
+Typical use of these names is for "isinstance()" or "issubclass()"

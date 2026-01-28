@@ -1,0 +1,4 @@
+peak from the computation "large_sum" (that is, equal to
+"first_peak"). In this case, both peaks are much higher than the final
+memory usage, and which suggests we could optimise (by removing the
+unnecessary call to "list", and writing "sum(range(...))").

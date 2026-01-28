@@ -1,0 +1,8 @@
+lock = asyncio.Lock()
+      # ... later
+      await lock.acquire()
+      try:
+          # access shared state
+      finally:
+          lock.release()
+   Changed in version 3.10: Removed the *loop* parameter.

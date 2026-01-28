@@ -1,0 +1,6 @@
+try:
+               print(pool.map(f, list(range(10))))
+           except ZeroDivisionError:
+               print('\tGot ZeroDivisionError as expected from pool.map()')
+           else:
+               raise AssertionError('expected ZeroDivisionError')

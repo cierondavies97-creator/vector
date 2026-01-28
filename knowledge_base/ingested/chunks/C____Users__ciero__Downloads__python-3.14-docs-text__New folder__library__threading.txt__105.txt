@@ -1,0 +1,5 @@
+underlying private lock type.
+   acquire(blocking=True, timeout=-1)
+      Acquire a lock, blocking or non-blocking.
+      When invoked with the *blocking* argument set to "True" (the
+      default), block until the lock is unlocked, then set it to

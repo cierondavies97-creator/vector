@@ -1,0 +1,3 @@
+arbitrary length.  Otherwise, the deque is bounded to the specified
+   maximum length.  Once a bounded length deque is full, when new
+   items are added, a corresponding number of items are discarded from

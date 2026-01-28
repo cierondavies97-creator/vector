@@ -1,0 +1,4 @@
+"False" then this method will return immediately and the
+      resources associated with the executor will be freed when all
+      pending futures are done executing.  Regardless of the value of
+      *wait*, the entire Python program will not exit until all

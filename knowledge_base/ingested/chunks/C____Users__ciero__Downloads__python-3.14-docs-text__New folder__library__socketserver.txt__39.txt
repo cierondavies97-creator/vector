@@ -1,0 +1,5 @@
+process.
+   handle_request()
+      Process a single request.  This function calls the following
+      methods in order: "get_request()", "verify_request()", and
+      "process_request()".  If the user-provided "handle()" method of

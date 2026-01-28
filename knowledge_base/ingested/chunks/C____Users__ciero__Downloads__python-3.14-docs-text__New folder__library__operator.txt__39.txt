@@ -1,0 +1,4 @@
+symbols in the Python syntax and the functions in the "operator"
+module.
++-------------------------+---------------------------+-----------------------------------------+
+| Operation               | Syntax                    | Function                                |

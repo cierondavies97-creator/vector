@@ -1,0 +1,4 @@
+buffer needs to be written out but the raw stream blocks.
+class io.BufferedRandom(raw, buffer_size=DEFAULT_BUFFER_SIZE)
+   A buffered binary stream providing higher-level access to a
+   seekable "RawIOBase" raw binary stream.  It inherits from

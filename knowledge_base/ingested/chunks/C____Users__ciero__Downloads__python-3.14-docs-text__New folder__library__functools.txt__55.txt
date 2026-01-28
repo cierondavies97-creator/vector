@@ -1,0 +1,5 @@
+positional arguments when calling "partial()" and
+   "partialmethod()".
+   Added in version 3.14.
+functools.partial(func, /, *args, **keywords)
+   Return a new partial object which when called will behave like

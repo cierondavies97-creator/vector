@@ -1,0 +1,4 @@
+option strings as you like (including zero), as long as there is at
+least one option string overall.
+The option strings passed to "OptionParser.add_option()" are
+effectively labels for the option defined by that call.  For brevity,

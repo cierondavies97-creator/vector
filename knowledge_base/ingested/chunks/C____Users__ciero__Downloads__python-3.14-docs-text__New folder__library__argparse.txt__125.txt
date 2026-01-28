@@ -1,0 +1,4 @@
+* "'count'" - This counts the number of times an argument occurs. For
+  example, this is useful for increasing verbosity levels:
+     >>> parser = argparse.ArgumentParser()
+     >>> parser.add_argument('--verbose', '-v', action='count', default=0)

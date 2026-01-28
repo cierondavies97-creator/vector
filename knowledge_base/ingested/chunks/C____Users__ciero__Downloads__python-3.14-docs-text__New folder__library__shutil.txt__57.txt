@@ -1,0 +1,4 @@
+"rmtree.avoids_symlink_attacks" function attribute to determine
+     which case applies.
+   If *onexc* is provided, it must be a callable that accepts three
+   parameters: *function*, *path*, and *excinfo*.

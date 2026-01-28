@@ -1,0 +1,4 @@
+readline.__name__         readline.parse_and_bind(
+   >>> readline.
+The "rlcompleter" module is designed for use with Python's interactive
+mode.  Unless Python is run with the "-S" option, the module is

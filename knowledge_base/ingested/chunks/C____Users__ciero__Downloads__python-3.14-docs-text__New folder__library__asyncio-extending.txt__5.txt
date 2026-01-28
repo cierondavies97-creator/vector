@@ -1,0 +1,4 @@
+"loop.create_task()", or "asyncio.create_task()" factories instead.
+However, third-party *event loops* may *reuse* built-in future and
+task implementations for the sake of getting a complex and highly
+optimized code for free.

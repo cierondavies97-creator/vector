@@ -1,0 +1,5 @@
+httpd.handle_request()
+   print("Serving on port 8000")
+   httpd = HTTPServer(('', 8000), SimpleHTTPRequestHandler)
+   serve_forever(httpd)
+   print("Shutdown...")

@@ -1,0 +1,3 @@
+parentheses are used in *pattern*, then the text of all groups in
+   the pattern are also returned as part of the resulting list. If
+   *maxsplit* is nonzero, at most *maxsplit* splits occur, and the

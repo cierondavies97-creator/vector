@@ -1,0 +1,6 @@
+starting with the last mapping:
+      >>> combined = baseline.copy()
+      >>> combined.update(adjustments)
+      >>> list(combined)
+      ['music', 'art', 'opera']
+   Changed in version 3.9: Added support for "|" and "|=" operators,

@@ -1,0 +1,4 @@
+function is given by reduction modulo "P" for a fixed prime "P".  The
+value of "P" is made available to Python as the "modulus" attribute of
+"sys.hash_info".
+**CPython implementation detail:** Currently, the prime used is "P =

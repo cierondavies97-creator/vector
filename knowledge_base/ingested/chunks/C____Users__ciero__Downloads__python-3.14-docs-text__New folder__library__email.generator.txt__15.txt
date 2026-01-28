@@ -1,0 +1,4 @@
+and *maxheaderlen* parameters is to follow the policy.
+   flatten(msg, unixfrom=False, linesep=None)
+      Print the textual representation of the message object structure
+      rooted at *msg* to the output file specified when the

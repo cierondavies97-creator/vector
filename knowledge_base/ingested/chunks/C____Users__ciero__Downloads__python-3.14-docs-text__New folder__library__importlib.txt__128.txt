@@ -1,0 +1,5 @@
+Only class methods are defined by this class to alleviate the need
+   for instantiation.
+   Changed in version 3.4: Gained "create_module()" and
+   "exec_module()" methods.
+class importlib.machinery.WindowsRegistryFinder

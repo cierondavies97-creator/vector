@@ -1,0 +1,6 @@
+since the Unix Epoch).
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.TFD_TIMER_CANCEL_ON_SET
+   A flag for the "timerfd_settime()" and "timerfd_settime_ns()"
+   functions along with "TFD_TIMER_ABSTIME". The timer is cancelled

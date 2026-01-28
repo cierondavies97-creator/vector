@@ -1,0 +1,5 @@
+code is *exitcode*.
+   Raise an "AssertionError" if the process exit code is not equal to
+   *exitcode*.
+   If the process runs longer than *timeout* seconds ("SHORT_TIMEOUT"
+   by default), kill the process and raise an "AssertionError". The

@@ -1,0 +1,4 @@
+can set this hook there.  The "site" module sets this.
+   Raises an auditing event "cpython.run_interactivehook" with the
+   hook object as the argument when the hook is called on startup.
+   Added in version 3.4.

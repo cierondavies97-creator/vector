@@ -1,0 +1,7 @@
+locale.ABMON_9
+   locale.ABMON_10
+   locale.ABMON_11
+   locale.ABMON_12
+      Get the abbreviated name of the n-th month.
+   locale.RADIXCHAR
+      Get the radix character (decimal dot, decimal comma, etc.).

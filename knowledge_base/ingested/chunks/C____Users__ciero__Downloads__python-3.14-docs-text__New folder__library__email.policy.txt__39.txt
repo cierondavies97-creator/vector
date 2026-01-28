@@ -1,0 +1,4 @@
+"Compat32" policy. For backwards compatible, but unsafe,
+      behavior, it must be set to "False" explicitly.
+      Added in version 3.13.
+   The following "Policy" method is intended to be called by code

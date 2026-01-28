@@ -1,0 +1,4 @@
+and for the default values.
+   When *delimiters* is given, it is used as the set of substrings
+   that divide keys from values.  When *comment_prefixes* is given, it
+   will be used as the set of substrings that prefix comments in

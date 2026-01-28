@@ -1,0 +1,8 @@
+os.devnull
+   The file path of the null device. For example: "'/dev/null'" for
+   POSIX, "'nul'" for Windows.  Also available via "os.path".
+os.RTLD_LAZY
+os.RTLD_NOW
+os.RTLD_GLOBAL
+os.RTLD_LOCAL
+os.RTLD_NODELETE

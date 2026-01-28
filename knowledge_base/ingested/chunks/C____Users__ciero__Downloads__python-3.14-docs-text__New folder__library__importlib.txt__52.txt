@@ -1,0 +1,3 @@
+create a new module and insert it into "sys.modules" before any
+      loading begins, to prevent recursion from the import.  If the
+      loader inserted a module and the load fails, it must be removed

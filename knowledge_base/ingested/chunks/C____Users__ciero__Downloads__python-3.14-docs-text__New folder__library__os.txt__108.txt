@@ -1,0 +1,4 @@
+This is an alias of the "open()" built-in function and accepts the
+   same arguments. The only difference is that the first argument of
+   "fdopen()" must always be an integer.
+File Descriptor Operations

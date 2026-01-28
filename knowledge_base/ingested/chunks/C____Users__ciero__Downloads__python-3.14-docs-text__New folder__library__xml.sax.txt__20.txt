@@ -1,0 +1,4 @@
+supports the SAX "Locator" interface as well as the "SAXException"
+   interface.
+exception xml.sax.SAXNotRecognizedException(msg, exception=None)
+   Subclass of "SAXException" raised when a SAX "XMLReader" is

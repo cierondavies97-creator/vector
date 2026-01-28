@@ -1,0 +1,4 @@
+Changed in version 3.4: The class now supports hostname check with
+   "ssl.SSLContext.check_hostname" and *Server Name Indication* (see
+   "ssl.HAS_SNI").
+   Changed in version 3.9: The optional *timeout* parameter was added.

@@ -1,0 +1,3 @@
+contains a utility for capturing enough information about an exception
+to print it later, without the need to save a reference to the actual
+exception. Since exceptions can be the roots of large objects graph,

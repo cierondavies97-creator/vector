@@ -1,0 +1,4 @@
+that can in addition be represented using a sequence of more than
+    one code point.  For example, the abstract character "LATIN
+    CAPITAL LETTER C WITH CEDILLA" can be represented as a single
+    *precomposed character* at code position U+00C7, or as a sequence

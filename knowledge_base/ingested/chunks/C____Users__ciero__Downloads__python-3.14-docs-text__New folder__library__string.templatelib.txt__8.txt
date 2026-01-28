@@ -1,0 +1,4 @@
+('Camembert',)
+   The "strings" tuple has one more element than "interpolations" and
+   "values"; the interpolations “belong” between the strings. This may
+   be easier to understand when tuples are aligned

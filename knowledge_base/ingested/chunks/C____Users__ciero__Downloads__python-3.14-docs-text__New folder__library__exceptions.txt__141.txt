@@ -1,0 +1,5 @@
+"match" is "subgroup(condition)" and "rest" is the remaining
+      non-matching part.
+   derive(excs)
+      Returns an exception group with the same "message", but which
+      wraps the exceptions in "excs".

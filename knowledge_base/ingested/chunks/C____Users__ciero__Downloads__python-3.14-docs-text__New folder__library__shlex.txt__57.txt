@@ -1,0 +1,6 @@
+Otherwise the escape character will be considered a normal
+  character.
+* EOF is signaled with a "None" value;
+* Quoted empty strings ("''") are allowed.
+Improved Compatibility with Shells
+==================================

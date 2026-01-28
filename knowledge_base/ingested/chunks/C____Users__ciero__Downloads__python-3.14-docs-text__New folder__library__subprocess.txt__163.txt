@@ -1,0 +1,5 @@
+"Popen" is called with "shell=True".
+   lpAttributeList
+      A dictionary of additional attributes for process creation as
+      given in "STARTUPINFOEX", see UpdateProcThreadAttribute.
+      Supported attributes:

@@ -1,0 +1,4 @@
+and restore file information like timestamp, access permissions and
+  owner.
+Changed in version 3.3: Added support for "lzma" compression.
+Changed in version 3.12: Archives are extracted using a filter, which

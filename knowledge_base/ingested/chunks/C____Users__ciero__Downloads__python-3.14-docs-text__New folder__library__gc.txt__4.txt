@@ -1,0 +1,7 @@
+Enable automatic garbage collection.
+gc.disable()
+   Disable automatic garbage collection.
+gc.isenabled()
+   Return "True" if automatic collection is enabled.
+gc.collect(generation=2)
+   Perform a collection.  The optional argument *generation* may be an

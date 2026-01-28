@@ -1,0 +1,5 @@
+client-side sockets.
+   Added in version 3.2.
+SSLSocket.server_hostname
+   Hostname of the server: "str" type, or "None" for server-side
+   socket or if the hostname was not specified in the constructor.

@@ -1,0 +1,5 @@
+>>> parser.parse_args([])
+   usage: [-h] --foo FOO
+   : error: the following arguments are required: --foo
+As the example shows, if an option is marked as "required",
+"parse_args()" will report an error if that option is not present at

@@ -1,0 +1,4 @@
+"IndexError" is raised.
+   This one step operation is more efficient than a "heappop()"
+   followed by "heappush()" and can be more appropriate when using a
+   fixed-size heap. The pop/push combination always returns an element

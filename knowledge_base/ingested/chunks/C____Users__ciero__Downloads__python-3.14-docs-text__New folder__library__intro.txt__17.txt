@@ -1,0 +1,4 @@
+NodeJS, wasmtime), and Python build time flags. WebAssembly,
+Emscripten, and WASI are evolving standards; some features like
+networking may be supported in the future.
+For Python in the browser, users should consider Pyodide or PyScript.

@@ -1,0 +1,3 @@
+| Option   | Description                                                      |
+|==========|==================================================================|
+| orient   | One of "horizontal" or "vertical". Specifies the orientation of  |

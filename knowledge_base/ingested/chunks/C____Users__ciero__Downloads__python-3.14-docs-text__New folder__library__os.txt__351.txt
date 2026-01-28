@@ -1,0 +1,4 @@
+"os.removedirs('foo/bar/baz')" will first remove the directory
+   "'foo/bar/baz'", and then remove "'foo/bar'" and "'foo'" if they
+   are empty. Raises "OSError" if the leaf directory could not be
+   successfully removed.

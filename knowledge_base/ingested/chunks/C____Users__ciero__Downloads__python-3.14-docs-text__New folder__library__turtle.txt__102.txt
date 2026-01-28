@@ -1,0 +1,6 @@
+Parameters:
+      * **pen** -- a dictionary with some or all of the below listed
+        keys
+      * **pendict** -- one or more keyword-arguments with the below
+        listed keys as keywords
+   Return or set the pen's attributes in a "pen-dictionary" with the

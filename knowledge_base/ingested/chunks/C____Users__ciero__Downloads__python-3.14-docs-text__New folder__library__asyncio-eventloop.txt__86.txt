@@ -1,0 +1,5 @@
+Create a datagram connection.
+   The socket family can be either "AF_INET", "AF_INET6", or
+   "AF_UNIX", depending on *host* (or the *family* argument, if
+   provided).
+   The socket type will be "SOCK_DGRAM".

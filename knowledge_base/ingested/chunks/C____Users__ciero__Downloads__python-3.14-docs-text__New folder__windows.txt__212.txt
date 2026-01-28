@@ -1,0 +1,2 @@
+| type it in my terminal.                            | ".venv\Scripts\activate" script in your terminal   |
+|                                                    | to activate.                                       |

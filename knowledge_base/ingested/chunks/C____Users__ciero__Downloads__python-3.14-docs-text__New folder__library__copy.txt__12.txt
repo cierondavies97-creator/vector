@@ -1,0 +1,5 @@
+arguments are passed.
+object.__deepcopy__(self, memo)
+   Called to implement the deep copy operation; it is passed one
+   argument, the *memo* dictionary.  If the "__deepcopy__"
+   implementation needs to make a deep copy of a component, it should

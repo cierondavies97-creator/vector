@@ -1,0 +1,4 @@
+remain in *dirnames*. This can be used to prune the search, or to
+   impose a specific order of visiting, or even to inform
+   "Path.walk()" about directories the caller creates or renames
+   before it resumes "Path.walk()" again. Modifying *dirnames* when

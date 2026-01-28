@@ -1,0 +1,3 @@
+each project and run "<env>\Scripts\Activate" in your terminal to use
+it. This provides isolation between projects, consistency over time,
+and ensures that additional commands added by packages are also

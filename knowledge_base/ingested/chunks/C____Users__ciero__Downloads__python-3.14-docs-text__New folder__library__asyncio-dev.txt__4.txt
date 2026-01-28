@@ -1,0 +1,5 @@
+command line option.
+When the debug mode is enabled:
+* Many non-threadsafe asyncio APIs (such as "loop.call_soon()" and
+  "loop.call_at()" methods) raise an exception if they are called from
+  a wrong thread.

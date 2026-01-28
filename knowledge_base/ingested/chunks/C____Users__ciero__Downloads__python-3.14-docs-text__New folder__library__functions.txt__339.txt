@@ -1,0 +1,5 @@
+definitions for the class body; it may be copied or wrapped before
+   becoming the "__dict__" attribute. The following two statements
+   create identical "type" objects:
+   >>> class X:
+   ...     a = 1

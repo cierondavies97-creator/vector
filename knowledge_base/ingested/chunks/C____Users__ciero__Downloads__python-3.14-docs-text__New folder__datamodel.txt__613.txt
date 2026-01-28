@@ -1,0 +1,6 @@
+>>> class Meta(type):
+   ...     def __getattribute__(*args):
+   ...         print("Metaclass getattribute invoked")
+   ...         return type.__getattribute__(*args)
+   ...
+   >>> class C(object, metaclass=Meta):

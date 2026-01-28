@@ -1,0 +1,3 @@
+Each key in *settings* is a style and each value may contain the
+      keys 'configure', 'map', 'layout' and 'element create' and they
+      are expected to have the same format as specified by the methods

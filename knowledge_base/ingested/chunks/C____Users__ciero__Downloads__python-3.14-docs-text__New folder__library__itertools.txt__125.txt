@@ -1,0 +1,5 @@
+link[0] = next(self.iterator)
+                  link[1] = [None, None]
+              value, self.link = link
+              return value
+   When the input *iterable* is already a tee iterator object, all

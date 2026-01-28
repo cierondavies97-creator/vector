@@ -1,0 +1,4 @@
+C version may raise InvalidOperation if the second operand
+      cannot be converted exactly.
+   compare_total_mag(other, context=None)
+      Compare two operands using their abstract representation rather

@@ -1,0 +1,4 @@
+*sub_key* is a string that names the key this method opens or
+   creates.
+   If *key* is one of the predefined keys, *sub_key* may be "None". In
+   that case, the handle returned is the same key handle passed in to

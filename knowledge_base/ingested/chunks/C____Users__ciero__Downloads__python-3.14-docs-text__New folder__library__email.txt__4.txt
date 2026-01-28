@@ -1,0 +1,3 @@
+represents email messages.  An application interacts with the package
+primarily through the object model interface defined in the "message"
+sub-module.  The application can use this API to ask questions about

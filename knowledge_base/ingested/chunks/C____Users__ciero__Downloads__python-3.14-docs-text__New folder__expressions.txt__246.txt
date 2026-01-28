@@ -1,0 +1,4 @@
+not exist, the shorter collection is ordered first (for example,
+    "[1,2] < [1,2,3]" is true).
+* Mappings (instances of "dict") compare equal if and only if they
+  have equal "(key, value)" pairs. Equality comparison of the keys and

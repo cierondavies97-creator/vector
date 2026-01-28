@@ -1,0 +1,7 @@
+* load_tests Protocol
+  * Class and Module Fixtures
+    * setUpClass and tearDownClass
+    * setUpModule and tearDownModule
+  * Signal Handling
+* "unittest.mock" --- mock object library
+  * Quick Guide

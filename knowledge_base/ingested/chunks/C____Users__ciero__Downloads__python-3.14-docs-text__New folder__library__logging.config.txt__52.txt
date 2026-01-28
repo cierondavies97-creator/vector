@@ -1,0 +1,5 @@
+handler.
+    Changed in version 3.11: "filters" can take filter instances in
+    addition to ids.
+  All *other* keys are passed through as keyword arguments to the
+  handler's constructor.  For example, given the snippet:

@@ -1,0 +1,5 @@
+or "Del" according to the action performed with the subscript.
+      >>> print(ast.dump(ast.parse('l[1:2, 3]', mode='eval'), indent=4))
+      Expression(
+          body=Subscript(
+              value=Name(id='l', ctx=Load()),

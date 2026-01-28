@@ -1,0 +1,5 @@
+turtles are not affected.
+turtle.write(arg, move=False, align='left', font=('Arial', 8, 'normal'))
+   Parameters:
+      * **arg** -- object to be written to the TurtleScreen
+      * **move** -- True/False

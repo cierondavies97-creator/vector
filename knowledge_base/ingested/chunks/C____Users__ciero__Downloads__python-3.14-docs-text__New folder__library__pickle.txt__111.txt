@@ -1,0 +1,5 @@
+Refer to the section Handling Stateful Objects for more information
+about how to use the methods "__getstate__()" and "__setstate__()".
+Note:
+  At unpickling time, some methods like "__getattr__()",
+  "__getattribute__()", or "__setattr__()" may be called upon the

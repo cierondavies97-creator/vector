@@ -1,0 +1,5 @@
+Set signal handlers for SIGINT and SIGTERM
+------------------------------------------
+(This "signals" example only works on Unix.)
+Register handlers for signals "SIGINT" and "SIGTERM" using the
+"loop.add_signal_handler()" method:

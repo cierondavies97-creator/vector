@@ -1,0 +1,3 @@
+means that subtle differences often exist in the data produced and
+consumed by different applications.  These differences can make it
+annoying to process CSV files from multiple sources. Still, while the

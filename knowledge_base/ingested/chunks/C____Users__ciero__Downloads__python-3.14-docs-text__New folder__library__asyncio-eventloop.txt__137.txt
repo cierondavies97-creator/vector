@@ -1,0 +1,4 @@
+* *sslcontext*: a configured instance of "SSLContext".
+   * *server_side* pass "True" when a server-side connection is being
+     upgraded (like the one created by "create_server()").
+   * *server_hostname*: sets or overrides the host name that the

@@ -1,0 +1,4 @@
+Changed in version 3.11: A list of "FrameInfo" objects is returned.
+inspect.getinnerframes(traceback, context=1)
+   Get a list of "FrameInfo" objects for a traceback's frame and all
+   inner frames.  These frames represent calls made as a consequence

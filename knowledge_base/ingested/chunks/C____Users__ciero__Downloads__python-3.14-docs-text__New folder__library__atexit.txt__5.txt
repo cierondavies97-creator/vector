@@ -1,0 +1,4 @@
+function and arguments more than once.
+   At normal program termination (for instance, if "sys.exit()" is
+   called or the main module's execution completes), all functions
+   registered are called in last in, first out order.  The assumption

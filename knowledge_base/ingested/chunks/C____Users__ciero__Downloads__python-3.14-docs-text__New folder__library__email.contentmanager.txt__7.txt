@@ -1,0 +1,4 @@
+as adding various MIME headers to encode information needed to
+      interpret the stored data.
+      To find the handler, obtain the type of *obj* ("typ =
+      type(obj)"), and look for the following keys in the registry,

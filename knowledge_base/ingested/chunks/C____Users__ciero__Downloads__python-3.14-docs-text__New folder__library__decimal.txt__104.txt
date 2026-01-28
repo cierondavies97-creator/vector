@@ -1,0 +1,6 @@
+otherwise.
+   is_zero()
+      Return "True" if the argument is a (positive or negative) zero
+      and "False" otherwise.
+   ln(context=None)
+      Return the natural (base e) logarithm of the operand.  The

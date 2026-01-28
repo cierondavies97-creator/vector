@@ -1,0 +1,4 @@
+rawparam = msg.get_param('foo')
+         param = email.utils.collapse_rfc2231_value(rawparam)
+      In any case, the parameter value (either the returned string, or
+      the "VALUE" item in the 3-tuple) is always unquoted, unless

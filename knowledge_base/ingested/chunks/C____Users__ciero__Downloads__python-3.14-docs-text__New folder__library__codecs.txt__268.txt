@@ -1,0 +1,4 @@
+|                      |           | used for testing purposes.  |
+|                      |           | Raise an exception for all  |
+|                      |           | conversions, even empty     |
+|                      |           | strings. The error handler  |

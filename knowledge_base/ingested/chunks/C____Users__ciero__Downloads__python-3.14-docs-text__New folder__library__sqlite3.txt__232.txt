@@ -1,0 +1,4 @@
+get the size (number of bytes) of the blob. Use indices and
+   *slices* for direct access to the blob data.
+   Use the "Blob" as a *context manager* to ensure that the blob
+   handle is closed after use.

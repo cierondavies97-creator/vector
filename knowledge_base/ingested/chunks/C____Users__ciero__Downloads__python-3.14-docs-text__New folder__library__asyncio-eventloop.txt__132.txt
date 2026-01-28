@@ -1,0 +1,4 @@
+the file when the platform does not support the sendfile system
+   call (e.g. Windows or SSL socket on Unix).
+   Raise "SendfileNotAvailableError" if the system does not support
+   the *sendfile* syscall and *fallback* is "False".

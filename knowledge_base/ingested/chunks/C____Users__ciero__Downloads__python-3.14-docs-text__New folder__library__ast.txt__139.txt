@@ -1,0 +1,4 @@
+each "for" clause can have multiple "ifs".
+   "is_async" indicates a comprehension is asynchronous (using an
+   "async for" instead of "for"). The value is an integer (0 or 1).
+      >>> print(ast.dump(ast.parse('[ord(c) for line in file for c in line]', mode='eval'),

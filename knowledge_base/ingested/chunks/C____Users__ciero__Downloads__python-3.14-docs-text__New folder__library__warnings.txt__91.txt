@@ -1,0 +1,4 @@
+passed, the filename with ".py" stripped is used.
+   *registry*, if supplied, should be the "__warningregistry__"
+   dictionary of the module. If no registry is passed, each warning is
+   treated as the first occurrence, that is, filter actions

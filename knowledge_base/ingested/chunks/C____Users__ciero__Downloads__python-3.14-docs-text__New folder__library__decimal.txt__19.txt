@@ -1,0 +1,5 @@
+to one, an exception is raised.  Flags are sticky, so the user needs
+to reset them before monitoring a calculation.
+See also:
+  * IBM's General Decimal Arithmetic Specification, The General
+    Decimal Arithmetic Specification.

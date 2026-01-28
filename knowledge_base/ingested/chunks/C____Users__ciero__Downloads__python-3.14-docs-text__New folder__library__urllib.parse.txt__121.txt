@@ -1,0 +1,4 @@
+percent-encoded sequences into Unicode characters, as accepted by
+   the "bytes.decode()" method.
+   *string* may be either a "str" or a "bytes" object.
+   *encoding* defaults to "'utf-8'". *errors* defaults to "'replace'",

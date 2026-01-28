@@ -1,0 +1,3 @@
+-[ Streaming Protocols (TCP, Unix Sockets, Pipes) ]-
++----------------------------------------------------+----------------------------------------------------+
+| "callback" "data_received()"                       | Called when some data is received.                 |

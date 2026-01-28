@@ -1,0 +1,4 @@
+the year and month for the name to be formatted respectively.
+   prmonth(theyear, themonth, w=0, l=0)
+      Print a month's calendar as returned by "formatmonth()".
+   formatyear(theyear, w=2, l=1, c=6, m=3)

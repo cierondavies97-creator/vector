@@ -1,0 +1,4 @@
+using a proportional font to edit the file.  That is why when your
+  application does not need values with empty lines, you should
+  consider disallowing them.  This will make empty lines split keys
+  every time.  In the example above, it would produce two keys, "key"

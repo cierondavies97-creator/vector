@@ -1,0 +1,5 @@
+The values "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY",
+   "SATURDAY", and "SUNDAY" are provided for convenience. For example,
+   to set the first weekday to Sunday:
+      import calendar
+      calendar.setfirstweekday(calendar.SUNDAY)

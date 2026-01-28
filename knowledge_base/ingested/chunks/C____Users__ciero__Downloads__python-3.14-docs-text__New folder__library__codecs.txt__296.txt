@@ -1,0 +1,4 @@
+encodings.normalize_encoding(encoding)
+   Normalize encoding name *encoding*.
+   Normalization works as follows: all non-alphanumeric characters
+   except the dot used for Python package names are collapsed and

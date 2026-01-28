@@ -1,0 +1,4 @@
+the file.
+   For modes "'w:zst'", "'x:zst'" and "'w|zst'", "tarfile.open()"
+   accepts the keyword argument *level* to specify the compression
+   level of the file. The keyword argument *options* may also be

@@ -1,0 +1,4 @@
+registration of functions that can be called by the XML-RPC
+   protocol.  The *requestHandler* parameter should be a factory for
+   request handler instances; it defaults to
+   "SimpleXMLRPCRequestHandler".  The *addr* and *requestHandler*

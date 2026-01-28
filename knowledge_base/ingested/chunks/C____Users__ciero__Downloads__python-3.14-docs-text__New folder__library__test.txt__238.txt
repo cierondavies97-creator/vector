@@ -1,0 +1,5 @@
+Here all warnings will be caught, and the test code tests the
+   captured warnings directly.
+   Changed in version 3.2: New optional arguments *filters* and
+   *quiet*.
+class test.support.warnings_helper.WarningsRecorder

@@ -1,0 +1,3 @@
+Set the value of the given socket option (see the Unix manual page
+   *setsockopt(2)*).  The needed symbolic constants are defined in
+   this module (*SO_* etc. <socket-unix-constants>*).  The value can

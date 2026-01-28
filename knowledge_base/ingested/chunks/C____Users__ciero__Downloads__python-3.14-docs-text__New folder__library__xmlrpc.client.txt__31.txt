@@ -1,0 +1,3 @@
+responsibility to ensure that the string is free of characters that
+   aren't allowed in XML, such as the control characters with ASCII
+   values between 0 and 31 (except, of course, tab, newline and

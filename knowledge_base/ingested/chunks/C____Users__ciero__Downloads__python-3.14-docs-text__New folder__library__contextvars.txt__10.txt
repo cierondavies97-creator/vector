@@ -1,0 +1,5 @@
+"ContextVar.set()" that created the *token* was used.
+      For example:
+         var = ContextVar('var')
+         token = var.set('new value')
+         # code that uses 'var'; var.get() returns 'new value'.

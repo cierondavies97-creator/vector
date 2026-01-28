@@ -1,0 +1,6 @@
+async wait_closed()
+      Wait until the "close()" method completes and all active
+      connections have finished.
+   sockets
+      List of socket-like objects, "asyncio.trsock.TransportSocket",
+      which the server is listening on.

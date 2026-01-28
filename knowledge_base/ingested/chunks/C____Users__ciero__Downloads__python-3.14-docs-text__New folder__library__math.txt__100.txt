@@ -1,0 +1,4 @@
+quotient "x / y".  If "x / y" is exactly halfway between two
+   consecutive integers, the nearest *even* integer is used for "n".
+   The remainder "r = remainder(x, y)" thus always satisfies "abs(r)
+   <= 0.5 * abs(y)".

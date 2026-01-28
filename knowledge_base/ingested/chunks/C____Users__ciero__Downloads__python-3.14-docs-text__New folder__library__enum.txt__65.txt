@@ -1,0 +1,6 @@
+integer operation is performed with an *IntEnum* member, the
+   resulting value loses its enumeration status.
+   >>> from enum import IntEnum
+   >>> class Number(IntEnum):
+   ...     ONE = 1
+   ...     TWO = 2

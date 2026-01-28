@@ -1,0 +1,3 @@
+it expands "%prog" to "os.path.basename(sys.argv[0])" (or to
+      "prog" if you passed that keyword argument).  To suppress a
+      usage message, pass the special value "optparse.SUPPRESS_USAGE".

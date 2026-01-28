@@ -1,0 +1,5 @@
+"dir_fd".
+   Changed in version 3.3: Added the *dir_fd* parameter.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.removedirs(name)
+   Remove directories recursively.  Works like "rmdir()" except that,

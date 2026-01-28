@@ -1,0 +1,3 @@
+"bytes" object. Some of *data* may be buffered internally, for
+      use in later calls to "compress()" and "flush()". The returned
+      data should be concatenated with the output of any previous

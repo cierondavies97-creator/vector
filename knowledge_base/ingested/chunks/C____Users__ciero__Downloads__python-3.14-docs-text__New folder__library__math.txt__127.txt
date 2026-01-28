@@ -1,0 +1,6 @@
+1.0000050000069649e-05
+   >>> expm1(1e-5)    # result accurate to full precision
+   1.0000050000166668e-05
+   Added in version 3.2.
+math.log(x[, base])
+   With one argument, return the natural logarithm of *x* (to base

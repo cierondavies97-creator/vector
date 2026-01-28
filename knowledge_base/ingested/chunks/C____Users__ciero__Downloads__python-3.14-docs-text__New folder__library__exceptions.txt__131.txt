@@ -1,0 +1,4 @@
+exception BaseExceptionGroup(msg, excs)
+   Both of these exception types wrap the exceptions in the sequence
+   "excs". The "msg" parameter must be a string. The difference
+   between the two classes is that "BaseExceptionGroup" extends

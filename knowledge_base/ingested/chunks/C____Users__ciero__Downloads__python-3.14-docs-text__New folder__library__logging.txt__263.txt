@@ -1,0 +1,3 @@
+|                | incompatible with *filename* - if both are    |
+   |                | present, a "ValueError" is raised.            |
+   +----------------+-----------------------------------------------+

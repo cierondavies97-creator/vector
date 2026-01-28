@@ -1,0 +1,5 @@
+constructor and adds it to *kwargs* using key 'extra'. The
+      return value is a (*msg*, *kwargs*) tuple which has the
+      (possibly modified) versions of the arguments passed in.
+   manager
+      Delegates to the underlying "manager" on *logger*.

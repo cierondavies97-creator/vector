@@ -1,0 +1,4 @@
+with the fullwidth digits "'\uff10'" through "'\uff19'". Case is
+   not significant, so, for example, "inf", "Inf", "INFINITY", and
+   "iNfINity" are all acceptable spellings for positive infinity.
+   If *value* is a "tuple", it should have three components, a sign

@@ -1,0 +1,6 @@
+is returned unchanged.
+      Parameters:
+         **default_name** -- The default name for the log file.
+      Added in version 3.3.
+   rotate(source, dest)
+      When rotating, rotate the current log.

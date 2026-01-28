@@ -1,0 +1,4 @@
+to avoid inactivity timeouts on servers that impose them should
+   keep this at most 29 minutes (1740 seconds). Requires a socket
+   connection; *duration* must be "None" on "IMAP4_stream"
+   connections.

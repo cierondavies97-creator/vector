@@ -1,0 +1,6 @@
+floating-point number "(3 + 10./16 + 7./16**2) * 2.0**10", or
+"3740.0":
+   >>> float.fromhex('0x3.a7p10')
+   3740.0
+Applying the reverse conversion to "3740.0" gives a different
+hexadecimal string representing the same number:

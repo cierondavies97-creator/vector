@@ -1,0 +1,8 @@
+else:
+               c = chr(int(name))
+           print("Num ent  :", c)
+       def handle_decl(self, data):
+           print("Decl     :", data)
+   parser = MyHTMLParser()
+Parsing a doctype:
+   >>> parser.feed('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" '

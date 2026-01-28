@@ -1,0 +1,7 @@
+"a = ior(a, b)" is equivalent to "a |= b".
+operator.ipow(a, b)
+operator.__ipow__(a, b)
+   "a = ipow(a, b)" is equivalent to "a **= b".
+operator.irshift(a, b)
+operator.__irshift__(a, b)
+   "a = irshift(a, b)" is equivalent to "a >>= b".

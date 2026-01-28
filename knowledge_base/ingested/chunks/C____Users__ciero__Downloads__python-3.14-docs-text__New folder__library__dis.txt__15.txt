@@ -1,0 +1,4 @@
+Analyse the bytecode corresponding to a function, generator,
+   asynchronous generator, coroutine, method, string of source code,
+   or a code object (as returned by "compile()").
+   This is a convenience wrapper around many of the functions listed

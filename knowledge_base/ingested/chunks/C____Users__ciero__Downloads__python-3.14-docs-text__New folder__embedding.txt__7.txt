@@ -1,0 +1,3 @@
+you can pass a stdio file pointer and a file name (for identification
+in error messages only) to "PyRun_SimpleFile()".  You can also call
+the lower-level operations described in the previous chapters to

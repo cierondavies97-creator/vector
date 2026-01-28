@@ -1,0 +1,4 @@
+Compress.compress(data)
+   Compress *data*, returning a bytes object containing compressed
+   data for at least part of the data in *data*.  This data should be
+   concatenated to the output produced by any preceding calls to the

@@ -1,0 +1,5 @@
+and the new value will take effect.
+DOMEventStream Objects
+======================
+class xml.dom.pulldom.DOMEventStream(stream, parser, bufsize)
+   Changed in version 3.11: Support for "__getitem__()" method has

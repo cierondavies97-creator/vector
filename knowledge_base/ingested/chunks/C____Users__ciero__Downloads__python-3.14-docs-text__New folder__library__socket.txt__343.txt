@@ -1,0 +1,10 @@
+except OSError as msg:
+           s.close()
+           s = None
+           continue
+       break
+   if s is None:
+       print('could not open socket')
+       sys.exit(1)
+   with s:
+       s.sendall(b'Hello, world')

@@ -1,0 +1,5 @@
+constants were added.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.7: Added the "f_fsid" attribute.
+os.supports_dir_fd
+   A "set" object indicating which functions in the "os" module accept

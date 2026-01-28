@@ -1,0 +1,4 @@
+__bound__
+      The upper bound of the type variable, if any.
+      Changed in version 3.12: For type variables created through type
+      parameter syntax, the bound is evaluated only when the attribute

@@ -1,0 +1,5 @@
+record = old_factory(*args, **kwargs)
+          record.custom_attribute = 0xdecafbad
+          return record
+      logging.setLogRecordFactory(record_factory)
+   With this pattern, multiple factories could be chained, and as long

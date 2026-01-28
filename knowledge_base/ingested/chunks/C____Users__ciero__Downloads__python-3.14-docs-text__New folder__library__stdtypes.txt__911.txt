@@ -1,0 +1,6 @@
+"type(NotImplemented)()" produces the singleton instance.
+It is written as "NotImplemented".
+Internal Objects
+----------------
+See The standard type hierarchy for this information.  It describes
+stack frame objects, traceback objects, and slice objects.

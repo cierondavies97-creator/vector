@@ -1,0 +1,5 @@
+character of the font can occupy
+      *linespace* - minimum vertical separation necessary between any
+      two
+         characters of the font that ensures no vertical overlap
+         between lines.

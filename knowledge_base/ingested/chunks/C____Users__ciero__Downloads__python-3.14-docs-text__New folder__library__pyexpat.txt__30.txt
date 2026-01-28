@@ -1,0 +1,4 @@
+implications, as detailed below; please make sure to understand
+     these consequences prior to using the "SetReparseDeferralEnabled"
+     method.
+   Expat 2.6.0 introduced a security mechanism called "reparse

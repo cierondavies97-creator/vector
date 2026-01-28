@@ -1,0 +1,4 @@
+conflicts. One may also define an abstract base class by passing
+   the metaclass keyword and using "ABCMeta" directly, for example:
+      from abc import ABCMeta
+      class MyABC(metaclass=ABCMeta):

@@ -1,0 +1,8 @@
+>>> padded[0][:-1]
+      '?\x00'
+      >>> padded[1][:-1]
+      b'\x03\x02\x01\x00\x00\x00'
+      >>> padded.shm.unlink()
+   count(value)
+      Return the number of occurrences of *value*.
+   index(value)

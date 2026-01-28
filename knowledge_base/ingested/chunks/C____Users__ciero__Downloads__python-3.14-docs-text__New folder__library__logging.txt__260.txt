@@ -1,0 +1,3 @@
+|                | "'$'" for printf-style, "str.format()" or     |
+   |                | "string.Template" respectively. Defaults to   |
+   |                | "'%'".                                        |

@@ -1,0 +1,4 @@
+A bit more complete example might involve using more than one group:
+still extending the previous example:
+   group = OptionGroup(parser, "Dangerous Options",
+                       "Caution: use these options at your own risk.  "

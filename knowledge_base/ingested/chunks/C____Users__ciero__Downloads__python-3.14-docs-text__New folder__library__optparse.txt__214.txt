@@ -1,0 +1,5 @@
+if the "version" argument is supplied to the OptionParser
+  constructor.  As with "help" options, you will rarely create
+  "version" options, since "optparse" automatically adds them when
+  needed.
+Standard option types

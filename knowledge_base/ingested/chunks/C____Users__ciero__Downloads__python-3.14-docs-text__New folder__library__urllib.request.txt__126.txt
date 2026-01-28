@@ -1,0 +1,5 @@
+registered handler to open it.
+   This method, if implemented, will be called by the "parent"
+   "OpenerDirector".  Return values should be the same as for
+   "default_open()".
+BaseHandler.http_error_default(req, fp, code, msg, hdrs)

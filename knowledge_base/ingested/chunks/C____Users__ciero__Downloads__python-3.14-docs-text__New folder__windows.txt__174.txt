@@ -1,0 +1,4 @@
+runtimes installed, then "python" will launch this one. Otherwise, you
+will need to use "py -V:3.14t ..." or, if you have added the global
+aliases directory to your "PATH" environment variable, the
+"python3.14t.exe" commands.

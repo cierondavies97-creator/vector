@@ -1,0 +1,9 @@
+>>> from ctypes.util import find_library
+   >>> find_library("m")
+   'libm.so.6'
+   >>> find_library("c")
+   'libc.so.6'
+   >>> find_library("bz2")
+   'libbz2.so.1.0'
+   >>>
+On macOS and Android, "find_library()" uses the system's standard

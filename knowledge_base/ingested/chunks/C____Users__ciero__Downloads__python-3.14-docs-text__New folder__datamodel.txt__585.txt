@@ -1,0 +1,4 @@
+describe the exception that caused the context to be exited. If the
+   context was exited without an exception, all three arguments will
+   be "None".
+   If an exception is supplied, and the method wishes to suppress the

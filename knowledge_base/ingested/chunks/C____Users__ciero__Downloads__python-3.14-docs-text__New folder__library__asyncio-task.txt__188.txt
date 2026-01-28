@@ -1,0 +1,6 @@
+eagerly. See the Eager Task Factory.
+      Added in version 3.8.
+      Changed in version 3.12: Newly added eager task execution means
+      result may be "None".
+   get_context()
+      Return the "contextvars.Context" object associated with the

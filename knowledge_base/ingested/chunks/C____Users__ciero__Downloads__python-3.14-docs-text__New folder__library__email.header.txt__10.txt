@@ -1,0 +1,4 @@
+properly **RFC 2047** encoded.  MIME-aware mail readers would show
+this header using the embedded ISO-8859-1 character.
+Here is the "Header" class description:
+class email.header.Header(s=None, charset=None, maxlinelen=None, header_name=None, continuation_ws=' ', errors='strict')

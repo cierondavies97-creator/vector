@@ -1,0 +1,4 @@
+default), "AF_INET6", "AF_UNIX", "AF_CAN", "AF_PACKET", or
+   "AF_RDS". The socket type should be "SOCK_STREAM" (the default),
+   "SOCK_DGRAM", "SOCK_RAW" or perhaps one of the other "SOCK_"
+   constants. The protocol number is usually zero and may be omitted

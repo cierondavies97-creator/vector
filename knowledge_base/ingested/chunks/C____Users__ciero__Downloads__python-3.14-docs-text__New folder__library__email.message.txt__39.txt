@@ -1,0 +1,4 @@
+Note that this does *not* overwrite or delete any existing
+      header with the same name.  If you want to ensure that the new
+      header is the only one present in the message with field name
+      *name*, delete the field first, e.g.:

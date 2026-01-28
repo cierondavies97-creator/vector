@@ -1,0 +1,7 @@
+turtle.undobufferentries()
+   Return number of entries in the undobuffer.
+      >>> while undobufferentries():
+      ...     undo()
+Compound shapes
+---------------
+To use compound turtle shapes, which consist of several polygons of

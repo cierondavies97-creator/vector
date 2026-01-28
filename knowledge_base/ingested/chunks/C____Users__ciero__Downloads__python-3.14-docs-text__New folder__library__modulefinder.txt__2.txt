@@ -1,0 +1,5 @@
+its argument, after which a report of the imported modules will be
+printed.
+modulefinder.AddPackagePath(pkg_name, path)
+   Record that the package named *pkg_name* can be found in the
+   specified *path*.

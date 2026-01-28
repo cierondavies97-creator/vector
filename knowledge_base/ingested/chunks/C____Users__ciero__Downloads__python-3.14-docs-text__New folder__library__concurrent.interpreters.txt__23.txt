@@ -1,0 +1,5 @@
+they do not share the *GIL*, which means combining threads with
+multiple interpreters enables full multi-core parallelism. (This has
+been the case since Python 3.12.)
+Communication Between Interpreters
+----------------------------------

@@ -1,0 +1,3 @@
+byte is an ASCII newline ("b'\n'") or carriage return ("b'\r'"), it
+   is copied and the current column is reset to zero.  Any other byte
+   value is copied unchanged and the current column is incremented by

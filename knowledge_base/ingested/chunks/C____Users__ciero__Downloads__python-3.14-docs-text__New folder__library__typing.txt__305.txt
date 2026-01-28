@@ -1,0 +1,7 @@
+"ParamSpecKwargs".
+   __name__
+      The name of the parameter specification.
+   __default__
+      The default value of the parameter specification, or
+      "typing.NoDefault" if it has no default.
+      Added in version 3.13.

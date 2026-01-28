@@ -1,0 +1,4 @@
+"list.append()" operation then attaches the value to the new list.
+When keys are encountered again, the look-up proceeds normally
+(returning the list for that key) and the "list.append()" operation
+adds another value to the list. This technique is simpler and faster

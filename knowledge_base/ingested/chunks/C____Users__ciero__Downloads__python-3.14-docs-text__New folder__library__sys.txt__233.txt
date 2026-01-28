@@ -1,0 +1,5 @@
+branching on its return value will likely lead to unexpected
+        behavior (if doing so causes JIT code to be entered or
+        exited):
+           >>> for warmup in range(BIG_NUMBER):
+           ...     # This line is "hot", and is eventually JIT-compiled:

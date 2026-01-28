@@ -1,0 +1,3 @@
+| curses.KEY_SPREVIOUS      | Shifted Prev                                 |
++---------------------------+----------------------------------------------+
+| curses.KEY_SPRINT         | Shifted Print                                |

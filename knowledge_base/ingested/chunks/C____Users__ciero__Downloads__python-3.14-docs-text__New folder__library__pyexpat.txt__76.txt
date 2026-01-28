@@ -1,0 +1,4 @@
+the name of the notation for unparsed entities.
+   *is_parameter_entity* will be true if the entity is a parameter
+   entity or false for general entities (most applications only need
+   to be concerned with general entities). This is only available

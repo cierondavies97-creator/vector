@@ -1,0 +1,5 @@
+dependent --- therefore using the "flock()" call may be better.
+See also:
+  Module "os"
+     If the locking flags "O_SHLOCK" and "O_EXLOCK" are present in the
+     "os" module (on BSD only), the "os.open()" function provides an

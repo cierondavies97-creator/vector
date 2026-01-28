@@ -1,0 +1,7 @@
+Cut
+   Copy selection into the system-wide clipboard; then delete the
+   selection.
+Copy
+   Copy selection into the system-wide clipboard.
+Paste
+   Insert contents of the system-wide clipboard into the current

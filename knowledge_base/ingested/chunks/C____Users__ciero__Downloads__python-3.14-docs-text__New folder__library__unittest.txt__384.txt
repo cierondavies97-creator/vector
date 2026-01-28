@@ -1,0 +1,4 @@
+followed by "setUpClass()" from the new class.
+Similarly if a test is from a different module from the previous test
+then "tearDownModule" from the previous module is run, followed by
+"setUpModule" from the new module.

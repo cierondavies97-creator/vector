@@ -1,0 +1,4 @@
+processes which share a common console window, e.g., some
+   subprocesses. Any other value for *sig* will cause the process to
+   be unconditionally killed by the TerminateProcess API, and the exit
+   code will be set to *sig*.

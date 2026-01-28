@@ -1,0 +1,6 @@
+occurs.
+   Subclasses should override this method to handle specific HTTP
+   errors.
+   Arguments, return values and exceptions raised should be the same
+   as for "http_error_default()".
+BaseHandler.<protocol>_request(req)

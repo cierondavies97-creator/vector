@@ -1,0 +1,4 @@
+class configparser.BasicInterpolation
+   The default implementation used by "ConfigParser".  It enables
+   values to contain format strings which refer to other values in the
+   same section, or values in the special default section [1].

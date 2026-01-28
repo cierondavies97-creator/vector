@@ -1,0 +1,4 @@
+"flush()" or "close()" on the file-like object before attempting to
+   read the destination file.
+shutil.copyfile(src, dst, *, follow_symlinks=True)
+   Copy the contents (no metadata) of the file named *src* to a file

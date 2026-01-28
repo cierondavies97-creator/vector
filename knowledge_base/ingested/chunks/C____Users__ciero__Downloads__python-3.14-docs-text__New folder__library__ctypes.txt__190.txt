@@ -1,0 +1,7 @@
+...                 ("get_code", POINTER(c_ubyte)),  # Function pointer
+   ...                ]
+   ...
+   >>>
+We have defined the "_frozen" data type, so we can get the pointer to
+the table:
+   >>> FrozenTable = POINTER(struct_frozen)

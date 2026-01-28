@@ -1,0 +1,4 @@
+"STACK[-1]" into individual values, where the total number of
+   values can be smaller than the number of items in the iterable: one
+   of the new values will be a list of all leftover items.
+   The number of values before and after the list value is limited to

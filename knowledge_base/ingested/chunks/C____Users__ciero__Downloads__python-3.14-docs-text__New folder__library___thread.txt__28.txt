@@ -1,0 +1,5 @@
+**Caveats:**
+* Interrupts always go to the main thread (the "KeyboardInterrupt"
+  exception will be received by that thread.)
+* Calling "sys.exit()" or raising the "SystemExit" exception is
+  equivalent to calling "_thread.exit()".

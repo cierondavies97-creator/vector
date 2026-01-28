@@ -1,0 +1,9 @@
+print(__main__.my_name)
+Example usage of this module could be as follows:
+   # start.py
+   import sys
+   from namely import print_user_name
+   # my_name = "Dinsdale"
+   def main():
+       try:
+           print_user_name()

@@ -1,0 +1,4 @@
+"cte_type=8bit", it will act as if "cte_type" is "7bit".
+   raise_on_defect
+      If "True", any defects encountered will be raised as errors.  If
+      "False" (the default), defects will be passed to the

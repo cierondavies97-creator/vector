@@ -1,0 +1,4 @@
+Note that "Lock" is actually a factory function which returns an
+   instance of "multiprocessing.synchronize.Lock" initialized with a
+   default context.
+   Instantiating this class may set the global start method. See

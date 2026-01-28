@@ -1,0 +1,5 @@
+On Solaris "os.sendfile()" is used.
+On Windows "shutil.copyfile()" uses a bigger default buffer size (1
+MiB instead of 64 KiB) and a "memoryview()"-based variant of
+"shutil.copyfileobj()" is used.
+If the fast-copy operation fails and no data was written in the

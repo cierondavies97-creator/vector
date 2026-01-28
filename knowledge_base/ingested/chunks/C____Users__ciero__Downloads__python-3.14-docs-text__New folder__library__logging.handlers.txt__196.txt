@@ -1,0 +1,5 @@
+is as in previous Python versions - to always pass each message to
+   each handler.
+   Changed in version 3.5: The "respect_handler_level" argument was
+   added.
+   Changed in version 3.14: "QueueListener" can now be used as a

@@ -1,0 +1,6 @@
+for element in it:
+              value = function(value, element)
+          return value
+   See "itertools.accumulate()" for an iterator that yields all
+   intermediate values.
+   Changed in version 3.14: *initial* is now supported as a keyword

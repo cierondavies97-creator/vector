@@ -1,0 +1,5 @@
+able to participate in out-of-band buffer pickling:
+   class ZeroCopyByteArray(bytearray):
+       def __reduce_ex__(self, protocol):
+           if protocol >= 5:
+               return type(self)._reconstruct, (PickleBuffer(self),), None

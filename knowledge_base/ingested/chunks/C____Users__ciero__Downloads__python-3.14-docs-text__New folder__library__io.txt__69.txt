@@ -1,0 +1,5 @@
+Changed in version 3.5: Windows will now zero-fill files when
+      extending.
+   writable()
+      Return "True" if the stream supports writing.  If "False",
+      "write()" and "truncate()" will raise "OSError".

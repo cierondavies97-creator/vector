@@ -1,0 +1,4 @@
+The return value is the handle of the opened key. If the function
+   fails, an "OSError" exception is raised.
+   Raises an auditing event "winreg.ConnectRegistry" with arguments
+   "computer_name", "key".

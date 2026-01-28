@@ -1,0 +1,6 @@
+purpose cryptographic hash function, such as SHA-256, is not
+  suitable for hashing passwords.  See BLAKE2 FAQ for more
+  information.
+>>> import os
+>>> from hashlib import blake2b
+>>> msg = b'some message'

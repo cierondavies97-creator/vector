@@ -1,0 +1,3 @@
+padded with null bytes so that exactly count bytes in all are used.
+   Note that for "unpack()", the "'p'" format character consumes
+   "count" bytes, but that the string returned can never contain more

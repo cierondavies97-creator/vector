@@ -1,0 +1,4 @@
+async agen.athrow(type[, value[, traceback]])
+   Returns an awaitable that raises an exception of type "type" at the
+   point where the asynchronous generator was paused, and returns the
+   next value yielded by the generator function as the value of the

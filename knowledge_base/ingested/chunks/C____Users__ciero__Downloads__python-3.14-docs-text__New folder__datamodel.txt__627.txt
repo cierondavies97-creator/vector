@@ -1,0 +1,5 @@
+exception) is the same as when iterating over the "__await__()"
+   return value, described above.
+coroutine.throw(value)
+coroutine.throw(type[, value[, traceback]])
+   Raises the specified exception in the coroutine.  This method

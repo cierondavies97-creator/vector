@@ -1,0 +1,3 @@
+a one-character string; a "ValueError" will be raised if the string
+   has an illegal length ("None" is considered the same as omission).
+   When namespace processing is enabled, element type names and

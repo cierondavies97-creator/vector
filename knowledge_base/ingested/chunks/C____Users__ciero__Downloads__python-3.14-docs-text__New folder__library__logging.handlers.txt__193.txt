@@ -1,0 +1,3 @@
+handlers which will handle entries placed on the queue. The queue
+   can be any queue-like object; it's passed as-is to the "dequeue()"
+   method, which needs to know how to get messages from it. The queue

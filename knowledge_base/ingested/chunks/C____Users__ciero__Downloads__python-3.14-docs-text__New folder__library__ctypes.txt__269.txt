@@ -1,0 +1,4 @@
+conversion rules.
+      New: It is now possible to put items in argtypes which are not
+      ctypes types, but each item must have a "from_param()" method
+      which returns a value usable as argument (integer, string,

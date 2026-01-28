@@ -1,0 +1,5 @@
+ctx = ssl.create_default_context(Purpose.CLIENT_AUTH)
+        ctx.options &= ~ssl.OP_NO_SSLv3
+   Note:
+     This context enables "VERIFY_X509_STRICT" by default, which may
+     reject pre-**RFC 5280** or malformed certificates that the

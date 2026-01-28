@@ -1,0 +1,5 @@
+>>> con = sqlite3.connect(":memory:")
+   >>> con.row_factory = sqlite3.Row
+Queries now return "Row" objects:
+   >>> res = con.execute("SELECT 'Earth' AS name, 6378 AS radius")
+   >>> row = res.fetchone()

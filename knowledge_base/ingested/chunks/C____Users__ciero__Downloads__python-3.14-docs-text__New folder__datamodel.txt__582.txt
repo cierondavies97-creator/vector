@@ -1,0 +1,3 @@
+statement), but can also be used by directly invoking their methods.
+Typical uses of context managers include saving and restoring various
+kinds of global state, locking and unlocking resources, closing opened

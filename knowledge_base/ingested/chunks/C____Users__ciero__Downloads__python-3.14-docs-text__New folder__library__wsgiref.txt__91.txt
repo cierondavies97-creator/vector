@@ -1,0 +1,4 @@
+This class is a subclass of "BaseHandler".  It overrides the
+   "__init__()", "get_stdin()", "get_stderr()", "add_cgi_vars()",
+   "_write()", and "_flush()" methods to support explicitly setting
+   the environment and streams via the constructor.  The supplied

@@ -1,0 +1,4 @@
+same Logger object.
+The "name" is potentially a period-separated hierarchical value, like
+"foo.bar.baz" (though it could also be just plain "foo", for example).
+Loggers that are further down in the hierarchical list are children of

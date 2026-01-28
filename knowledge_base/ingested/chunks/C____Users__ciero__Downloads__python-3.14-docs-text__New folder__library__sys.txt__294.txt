@@ -1,0 +1,4 @@
+the C stack and crashing Python.
+   The highest possible limit is platform-dependent.  A user may need
+   to set the limit higher when they have a program that requires deep
+   recursion and a platform that supports a higher limit.  This should

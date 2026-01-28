@@ -1,0 +1,5 @@
+"192.168.1.0/0.0.0.255".
+   2. An integer that fits into 32 bits.  This is equivalent to a
+      single-address network, with the network address being *address*
+      and the mask being "/32".
+   3. An integer packed into a "bytes" object of length 4, big-endian.

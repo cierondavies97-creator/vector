@@ -1,0 +1,4 @@
+values in the class pattern).
+   This pattern succeeds if the subject is an instance of the
+   nominated class, all positional patterns match the corresponding
+   class-defined attributes, and any specified keyword attributes

@@ -1,0 +1,4 @@
+Since this behavior was impossible to implement safely, it was
+   removed in Python 3.4.1. See bpo-21082.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.7: The *mode* argument no longer affects the

@@ -1,0 +1,7 @@
+'Hook'
+      >>> 'BaseTestCase'.removeprefix('Test')
+      'BaseTestCase'
+   Added in version 3.9.
+   See also "removesuffix()" and "startswith()".
+str.removesuffix(suffix, /)
+   If the string ends with the *suffix* string and that *suffix* is

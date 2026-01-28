@@ -1,0 +1,4 @@
+has_default()
+      Return whether or not the type variable has a default value.
+      This is equivalent to checking whether "__default__" is not the
+      "typing.NoDefault" singleton, except that it does not force

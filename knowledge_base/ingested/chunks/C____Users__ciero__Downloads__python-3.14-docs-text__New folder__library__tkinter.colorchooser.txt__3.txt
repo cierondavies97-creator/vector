@@ -1,0 +1,4 @@
+selected color (or "None") to the caller.
+See also:
+  Module "tkinter.commondialog"
+     Tkinter standard dialog module

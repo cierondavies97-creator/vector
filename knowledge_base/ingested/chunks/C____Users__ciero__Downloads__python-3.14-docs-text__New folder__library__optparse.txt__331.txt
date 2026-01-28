@@ -1,0 +1,5 @@
+inconsistent arguments.
+exception optparse.OptionConflictError
+   Raised if conflicting options are added to an "OptionParser".
+exception optparse.OptionValueError
+   Raised if an invalid option value is encountered on the command

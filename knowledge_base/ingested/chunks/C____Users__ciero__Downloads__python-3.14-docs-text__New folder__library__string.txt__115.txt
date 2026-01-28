@@ -1,0 +1,3 @@
+|           | infinity, positive and negative zero, and nans, are        |
+   |           | formatted as "inf", "-inf", "0", "-0" and "nan"            |
+   |           | respectively, regardless of the precision.                 |

@@ -1,0 +1,4 @@
+context, it can be useful during debugging or when you need your
+   cleanup behavior to be conditional based on other logic.
+   Raises an auditing event "tempfile.mkdtemp" with argument
+   "fullpath".

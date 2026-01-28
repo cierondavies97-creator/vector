@@ -1,0 +1,4 @@
+detectable, to better inform developers of a design problem that
+   the POSIX platform specifically notes as not supported. Even in
+   code that *appears* to work, it has never been safe to mix
+   threading with "os.fork()" on POSIX platforms. The CPython runtime

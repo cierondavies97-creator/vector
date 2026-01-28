@@ -1,0 +1,5 @@
+MatchValue(
+                                      value=Constant(value=0))]),
+                          body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))]),

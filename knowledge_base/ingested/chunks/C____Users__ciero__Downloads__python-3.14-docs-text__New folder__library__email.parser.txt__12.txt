@@ -1,0 +1,3 @@
+extremely accurate when parsing standards-compliant messages, and it
+does a very good job of parsing non-compliant messages, providing
+information about how a message was deemed broken.  It will populate a

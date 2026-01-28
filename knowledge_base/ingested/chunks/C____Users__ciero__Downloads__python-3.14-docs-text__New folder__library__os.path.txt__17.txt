@@ -1,0 +1,4 @@
+platforms, this function may return "False" if permission is not
+   granted to execute "os.stat()" on the requested file, even if the
+   *path* physically exists.
+   Changed in version 3.3: *path* can now be an integer: "True" is

@@ -1,0 +1,5 @@
+same method used internally when the lexer reaches EOF on a stacked
+   input stream.
+shlex.error_leader(infile=None, lineno=None)
+   This method generates an error message leader in the format of a
+   Unix C compiler error label; the format is "'"%s", line %d: '",

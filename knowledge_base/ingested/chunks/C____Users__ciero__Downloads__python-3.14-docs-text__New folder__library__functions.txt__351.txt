@@ -1,0 +1,4 @@
+[(0, 'fee'), (1, 'fi'), (2, 'fo')]
+   * "zip()" is often used in cases where the iterables are assumed to
+     be of equal length.  In such cases, it's recommended to use the
+     "strict=True" option. Its output is the same as regular "zip()":

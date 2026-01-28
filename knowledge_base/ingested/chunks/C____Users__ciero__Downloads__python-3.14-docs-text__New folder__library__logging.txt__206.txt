@@ -1,0 +1,4 @@
+=====================
+"LoggerAdapter" instances are used to conveniently pass contextual
+information into logging calls. For a usage example, see the section
+on adding contextual information to your logging output.

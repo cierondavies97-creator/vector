@@ -1,0 +1,5 @@
+"talk" directly to hardware or that perform brief tasks that should
+   have limited interruptions.
+   Added in version 3.7.
+subprocess.CREATE_NO_WINDOW
+   A "Popen" "creationflags" parameter to specify that a new process

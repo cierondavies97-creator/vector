@@ -1,0 +1,4 @@
+DictWriter objects have the following public method:
+DictWriter.writeheader()
+   Write a row with the field names (as specified in the constructor)
+   to the writer's file object, formatted according to the current

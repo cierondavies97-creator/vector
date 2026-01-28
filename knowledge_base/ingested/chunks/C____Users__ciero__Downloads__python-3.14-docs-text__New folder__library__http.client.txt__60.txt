@@ -1,0 +1,4 @@
+*method* string, the *url* string, and the HTTP version
+   ("HTTP/1.1").  To disable automatic sending of "Host:" or "Accept-
+   Encoding:" headers (for example to accept additional content
+   encodings), specify *skip_host* or *skip_accept_encoding* with non-

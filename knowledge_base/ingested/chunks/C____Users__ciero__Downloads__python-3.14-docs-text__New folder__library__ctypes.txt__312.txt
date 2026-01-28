@@ -1,0 +1,4 @@
+object is a ctypes array of "c_char".
+   If *size* is given (and not "None"), it must be an "int". It
+   specifies the size of the returned array.
+   If the *init* argument is given, it must be "bytes". It is used to

@@ -1,0 +1,3 @@
+item of "x". The resulting value must be a nonnegative integer less
+than the number of items in the sequence, and the subscription selects
+the item whose index is that value (counting from zero). Since the

@@ -1,0 +1,8 @@
+>>> p = PropertyMock(return_value=3)
+   >>> type(m).foo = p
+   >>> m.foo
+   3
+   >>> p.assert_called_once_with()
+Caution:
+  If an "AttributeError" is raised by "PropertyMock", it will be
+  interpreted as a missing descriptor and "__getattr__()" will be

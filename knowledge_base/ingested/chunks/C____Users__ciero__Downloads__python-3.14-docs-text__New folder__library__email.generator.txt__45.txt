@@ -1,0 +1,3 @@
+Act like "Generator", except that for any subpart of the message
+   passed to "Generator.flatten()", if the subpart is of main type
+   *text*, print the decoded payload of the subpart, and if the main

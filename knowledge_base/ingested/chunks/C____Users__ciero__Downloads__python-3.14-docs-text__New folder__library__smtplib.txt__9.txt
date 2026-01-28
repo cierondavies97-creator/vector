@@ -1,0 +1,5 @@
+below.
+   The "SMTP" class supports the "with" statement.  When used like
+   this, the SMTP "QUIT" command is issued automatically when the
+   "with" statement exits.  E.g.:
+      >>> from smtplib import SMTP

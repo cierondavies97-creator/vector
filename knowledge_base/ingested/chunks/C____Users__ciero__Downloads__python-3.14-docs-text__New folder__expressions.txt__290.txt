@@ -1,0 +1,4 @@
+conditional expressions, which group from right to left).
+Note that comparisons, membership tests, and identity tests, all have
+the same precedence and have a left-to-right chaining feature as
+described in the Comparisons section.

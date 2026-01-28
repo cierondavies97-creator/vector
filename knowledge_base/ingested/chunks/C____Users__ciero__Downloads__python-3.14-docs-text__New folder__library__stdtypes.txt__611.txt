@@ -1,0 +1,7 @@
+False
+bytes.isupper()
+bytearray.isupper()
+   Return "True" if there is at least one uppercase alphabetic ASCII
+   character in the sequence and no lowercase ASCII characters,
+   "False" otherwise.
+   For example:

@@ -1,0 +1,5 @@
+The value of the "unittest" reporting flags in effect before the
+   function was called is returned by the function.
+Advanced API
+============
+The basic API is a simple wrapper that's intended to make doctest easy

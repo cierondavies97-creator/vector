@@ -1,0 +1,4 @@
+before and after the data from *in_fd* is written. It returns the
+   same as the first case.
+   On macOS and FreeBSD, a value of "0" for *count* specifies to send
+   until the end of *in_fd* is reached.

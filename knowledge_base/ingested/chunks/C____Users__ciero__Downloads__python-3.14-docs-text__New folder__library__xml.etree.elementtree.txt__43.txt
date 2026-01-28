@@ -1,0 +1,4 @@
+the form "prefix:sometag" get expanded to "{uri}sometag" where the
+*prefix* is replaced by the full *URI*. Also, if there is a default
+namespace, that full URI gets prepended to all of the non-prefixed
+tags.

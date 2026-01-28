@@ -1,0 +1,5 @@
+"None" if there is no next level.
+   Changed in version 3.7: This attribute is now writable
+3.2.13.4. Slice objects
+~~~~~~~~~~~~~~~~~~~~~~~
+Slice objects are used to represent slices for "__getitem__()"

@@ -1,0 +1,5 @@
+"atexit" --- Exit handlers
+**************************
+======================================================================
+The "atexit" module defines functions to register and unregister
+cleanup functions.  Functions thus registered are automatically

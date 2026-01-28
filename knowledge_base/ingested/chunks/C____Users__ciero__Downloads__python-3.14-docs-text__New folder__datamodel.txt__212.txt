@@ -1,0 +1,4 @@
++----------------------------------------------------+----------------------------------------------------+
+3.2.10.2. Special methods
+~~~~~~~~~~~~~~~~~~~~~~~~~
+In addition to the special attributes described above, all Python

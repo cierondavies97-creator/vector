@@ -1,0 +1,4 @@
+**Source code:** Lib/dbm/gnu.py
+======================================================================
+The "dbm.gnu" module provides an interface to the GDBM (GNU dbm)
+library, similar to the "dbm.ndbm" module, but with additional

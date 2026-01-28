@@ -1,0 +1,4 @@
+If you're doing anything tricky when it comes to events or threads,
+  be aware of these possibilities.
+* There are a few select "tkinter" functions that presently work only
+  when called from the thread that created the Tcl interpreter.

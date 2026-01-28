@@ -1,0 +1,4 @@
+* suggest_on_error - Enables suggestions for mistyped argument
+     choices and subparser names (default: "False")
+   * color - Allow color output (default: "True")
+   Changed in version 3.5: *allow_abbrev* parameter was added.

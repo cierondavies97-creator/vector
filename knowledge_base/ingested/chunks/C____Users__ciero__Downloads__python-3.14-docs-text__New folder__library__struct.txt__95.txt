@@ -1,0 +1,4 @@
+the module-level functions are cached, so programs that use only
+     a few format strings needn't worry about reusing a single
+     "Struct" instance.
+   Compiled Struct objects support the following methods and

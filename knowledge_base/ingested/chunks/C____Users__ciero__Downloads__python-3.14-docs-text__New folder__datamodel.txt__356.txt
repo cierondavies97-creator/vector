@@ -1,0 +1,4 @@
+This is typically used for debugging, so it is important that the
+   representation is information-rich and unambiguous. A default
+   implementation is provided by the "object" class itself.
+object.__str__(self)

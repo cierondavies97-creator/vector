@@ -1,0 +1,4 @@
+compiled using the same compiler (native formats), and data
+interchange between applications using agreed upon data layout
+(standard formats).  Generally speaking, the format strings
+constructed for these two domains are distinct.

@@ -1,0 +1,6 @@
+nodes.
+      >>> print(ast.dump(ast.parse('f"sin({a}) is {sin(a):.3}"', mode='eval'), indent=4))
+      Expression(
+          body=JoinedStr(
+              values=[
+                  Constant(value='sin('),

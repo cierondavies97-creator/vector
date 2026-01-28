@@ -1,0 +1,4 @@
+configurations (if the developer provides a mechanism to present
+   the choices and load the chosen configuration).
+   It will raise "FileNotFoundError" if the file doesn't exist and
+   "RuntimeError" if the file is invalid or empty.

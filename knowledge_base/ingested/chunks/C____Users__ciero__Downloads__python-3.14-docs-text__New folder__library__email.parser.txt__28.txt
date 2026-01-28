@@ -1,0 +1,4 @@
+the resulting bytes, and return the message object.  *fp* must
+      support both the "readline()" and the "read()" methods.
+      The bytes contained in *fp* must be formatted as a block of
+      **RFC 5322** (or, if "utf8" is "True", **RFC 6532**) style

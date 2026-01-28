@@ -1,0 +1,3 @@
+the class definition). The "__prepare__" method should be implemented
+as a "classmethod". The namespace returned by "__prepare__" is passed
+in to "__new__", but when the final class object is created the

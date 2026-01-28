@@ -1,0 +1,4 @@
+child parser is created with the "ordered_attributes" and
+   "specified_attributes" set to the values of this parser.
+xmlparser.SetParamEntityParsing(flag)
+   Control parsing of parameter entities (including the external DTD

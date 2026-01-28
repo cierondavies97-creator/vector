@@ -1,0 +1,5 @@
+====================================
+Comparison with "marshal"
+-------------------------
+Python has a more primitive serialization module called "marshal", but
+in general "pickle" should always be the preferred way to serialize

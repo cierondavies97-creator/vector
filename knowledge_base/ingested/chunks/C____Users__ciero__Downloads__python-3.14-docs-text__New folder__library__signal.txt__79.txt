@@ -1,0 +1,4 @@
+module).
+   On Windows, "signal()" can only be called with "SIGABRT", "SIGFPE",
+   "SIGILL", "SIGINT", "SIGSEGV", "SIGTERM", or "SIGBREAK". A
+   "ValueError" will be raised in any other case. Note that not all

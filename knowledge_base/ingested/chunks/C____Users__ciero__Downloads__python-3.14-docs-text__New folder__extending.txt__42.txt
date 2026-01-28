@@ -1,0 +1,4 @@
+You can also define a new exception that is unique to your module. The
+simplest way to do this is to declare a static global object variable
+at the beginning of the file:
+   static PyObject *SpamError = NULL;

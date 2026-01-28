@@ -1,0 +1,3 @@
+"VALUE" format, which is equivalent to accessing the "__bound__"
+      attribute directly, but the method object can be passed to
+      "annotationlib.call_evaluate_function()" to evaluate the value

@@ -1,0 +1,3 @@
+The keyword arguments define attributes of the new Option object.
+   The most important option attribute is "action", and it largely
+   determines which other attributes are relevant or required.  If you

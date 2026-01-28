@@ -1,0 +1,6 @@
+>>> m = QueueManager(address=('foo.bar.org', 50000), authkey=b'abracadabra')
+   >>> m.connect()
+   >>> queue = m.get_queue()
+   >>> queue.put('hello')
+Another client can also use it:
+   >>> from multiprocessing.managers import BaseManager

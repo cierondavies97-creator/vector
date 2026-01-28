@@ -1,0 +1,4 @@
+"False", the connection may be accessed in multiple threads;
+        write operations may need to be serialized by the user to
+        avoid data corruption. See "threadsafety" for more
+        information.

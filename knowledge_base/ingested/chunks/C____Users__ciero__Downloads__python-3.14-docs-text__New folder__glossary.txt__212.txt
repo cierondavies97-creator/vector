@@ -1,0 +1,4 @@
+a parameter can be defined by prepending the parameter name with
+     "*", for example *args* in the following:
+        def func(*args, **kwargs): ...
+   * *var-keyword*: specifies that arbitrarily many keyword arguments

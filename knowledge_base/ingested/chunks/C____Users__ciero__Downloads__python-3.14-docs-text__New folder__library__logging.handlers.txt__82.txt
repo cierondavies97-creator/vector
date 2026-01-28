@@ -1,0 +1,4 @@
+about security, you may want to override this method to
+      implement a more secure mechanism. For example, you can sign
+      pickles using HMAC and then verify them on the receiving end, or
+      alternatively you can disable unpickling of global objects on

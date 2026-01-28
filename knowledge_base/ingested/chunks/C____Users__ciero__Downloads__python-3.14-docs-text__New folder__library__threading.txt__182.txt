@@ -1,0 +1,3 @@
+that this blocking method returned; "True" if returning because
+      the internal flag is set to true, or "False" if a timeout is
+      given and the internal flag did not become true within the given

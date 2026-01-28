@@ -1,0 +1,4 @@
+-------------------------------------------------
+You can also customize "ctypes" argument conversion to allow instances
+of your own classes be used as function arguments. "ctypes" looks for
+an "_as_parameter_" attribute and uses this as the function argument.

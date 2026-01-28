@@ -1,0 +1,4 @@
+constructor for the type.
+   If *lock* is "True" (the default) then a new recursive lock object
+   is created to synchronize access to the value.  If *lock* is a
+   "Lock" or "RLock" object then that will be used to synchronize

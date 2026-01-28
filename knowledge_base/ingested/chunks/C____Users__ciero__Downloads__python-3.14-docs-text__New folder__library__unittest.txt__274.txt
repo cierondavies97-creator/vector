@@ -1,0 +1,3 @@
+"TestSuite" objects behave much like "TestCase" objects, except
+   they do not actually implement a test.  Instead, they are used to
+   aggregate tests into groups of tests that should be run together.

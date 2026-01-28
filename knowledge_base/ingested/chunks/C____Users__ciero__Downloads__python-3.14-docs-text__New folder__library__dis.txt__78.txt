@@ -1,0 +1,6 @@
+Unary operations take the top of the stack, apply the operation, and
+push the result back on the stack.
+UNARY_NEGATIVE
+   Implements "STACK[-1] = -STACK[-1]".
+UNARY_NOT
+   Implements "STACK[-1] = not STACK[-1]".

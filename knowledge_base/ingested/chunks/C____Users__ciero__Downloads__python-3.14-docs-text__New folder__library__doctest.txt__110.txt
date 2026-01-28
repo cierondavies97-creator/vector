@@ -1,0 +1,5 @@
+[0,    1, ...,   18,    19]
+If multiple directive comments are used for a single example, then
+they are combined:
+   >>> print(list(range(20)))  # doctest: +ELLIPSIS
+   ...                         # doctest: +NORMALIZE_WHITESPACE

@@ -1,0 +1,4 @@
+objects aren't limited to those provided by the "logging" module
+because you might write your own formatter or handler class. The
+parameters to these classes may also need to include external objects
+such as "sys.stderr".  The syntax for describing these objects and

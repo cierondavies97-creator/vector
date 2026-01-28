@@ -1,0 +1,7 @@
+>>> turtle.position()
+      (0.00,0.00)
+      >>> turtle.heading()
+      0.0
+turtle.clear()
+   Delete the turtle's drawings from the screen.  Do not move turtle.
+   State and position of the turtle as well as drawings of other

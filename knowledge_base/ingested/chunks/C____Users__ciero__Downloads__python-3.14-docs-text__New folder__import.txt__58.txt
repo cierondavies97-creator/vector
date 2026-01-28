@@ -1,0 +1,4 @@
+replaced "find_module()", which is now deprecated.  While it will
+continue to work without change, the import machinery will try it only
+if the finder does not implement "find_spec()".
+Changed in version 3.10: Use of "find_module()" by the import system

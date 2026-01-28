@@ -1,0 +1,7 @@
+dicts. Therefore, the example first collects all matching elements
+with "root.findall()", and only then iterates over the list of
+matches.
+Our XML now looks like this:
+   <?xml version="1.0"?>
+   <data>
+       <country name="Liechtenstein">

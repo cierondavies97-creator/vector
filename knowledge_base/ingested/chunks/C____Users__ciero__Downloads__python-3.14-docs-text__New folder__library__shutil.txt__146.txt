@@ -1,0 +1,4 @@
+connected to a terminal, the value given in "fallback" parameter is
+   used. "fallback" defaults to "(80, 24)" which is the default size
+   used by many terminal emulators.
+   The value returned is a named tuple of type "os.terminal_size".

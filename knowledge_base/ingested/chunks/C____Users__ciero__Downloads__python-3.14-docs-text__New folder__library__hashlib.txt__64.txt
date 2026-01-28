@@ -1,0 +1,6 @@
+sequential mode).
+* *node_depth*: node depth (0 to 255, 0 for leaves, or in sequential
+  mode).
+* *inner_size*: inner digest size (0 to 64 for BLAKE2b, 0 to 32 for
+  BLAKE2s, 0 in sequential mode).
+* *last_node*: boolean indicating whether the processed node is the

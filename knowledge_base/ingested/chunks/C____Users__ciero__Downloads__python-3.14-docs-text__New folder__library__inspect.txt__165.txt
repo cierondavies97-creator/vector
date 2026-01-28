@@ -1,0 +1,3 @@
+signature are displayed without opening and closing quotation
+      marks if they are strings. This is useful if the signature was
+      created with the "STRING" format or if "from __future__ import

@@ -1,0 +1,8 @@
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Finding Bugs with Pylint
+Example
+def current_rotation(beta, iota, phi, sigma):
+""" calculate current rotation """
+return np.cos(beta)*np.cos(phi)*np.cos(sigma)

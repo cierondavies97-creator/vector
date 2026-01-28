@@ -1,0 +1,3 @@
+before it is returned to the caller.  The arguments are those
+   passed to the class constructor expression.  If a base class has an
+   "__init__()" method, the derived class's "__init__()" method, if

@@ -1,0 +1,5 @@
+to provide documentation for test methods. This is done because
+documentation strings get printed out if they exist and thus what test
+is being run is not stated.
+A basic boilerplate is often used:
+   import unittest

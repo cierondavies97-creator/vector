@@ -1,0 +1,5 @@
+border's value if not specified.
+      sticky=spec
+         Specifies how the image is placed within the final parcel.
+         spec contains zero or more characters "n", "s", "w", or "e".
+      width=width

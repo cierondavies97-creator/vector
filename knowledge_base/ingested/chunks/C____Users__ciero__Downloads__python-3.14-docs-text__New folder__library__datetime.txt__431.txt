@@ -1,0 +1,3 @@
+| "%:z"       | UTC offset in the form           | (empty), +00:00, -04:00, | (6)     |
+|             | "±HH:MM[:SS[.ffffff]]" (empty    | +10:30, +06:34:15,       |         |
+|             | string if the object is naive).  | -03:07:12.345216         |         |

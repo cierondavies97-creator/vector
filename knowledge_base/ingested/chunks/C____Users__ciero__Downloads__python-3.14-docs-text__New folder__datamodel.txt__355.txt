@@ -1,0 +1,3 @@
+value must be a string object. If a class defines "__repr__()" but
+   not "__str__()", then "__repr__()" is also used when an "informal"
+   string representation of instances of that class is required.

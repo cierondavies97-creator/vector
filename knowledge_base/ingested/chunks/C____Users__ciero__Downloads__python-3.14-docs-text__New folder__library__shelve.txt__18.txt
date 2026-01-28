@@ -1,0 +1,5 @@
+knowledge about the database implementation used.
+* On macOS "dbm.ndbm" can silently corrupt the database file on
+  updates, which can cause hard crashes when trying to read from the
+  database.
+class shelve.Shelf(dict, protocol=None, writeback=False, keyencoding='utf-8')

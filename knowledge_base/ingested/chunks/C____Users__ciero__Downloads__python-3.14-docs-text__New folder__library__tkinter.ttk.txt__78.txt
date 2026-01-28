@@ -1,0 +1,3 @@
+|                        | items in this sequence rather than incrementing or     |
+|                        | decrementing numbers.                                  |
++------------------------+--------------------------------------------------------+

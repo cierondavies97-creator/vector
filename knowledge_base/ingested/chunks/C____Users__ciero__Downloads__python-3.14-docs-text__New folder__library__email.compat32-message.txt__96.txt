@@ -1,0 +1,4 @@
+the RFC 2231 language, defaulting to the empty string.  Both
+      *charset* and *language* should be strings.
+      If *replace* is "False" (the default) the header is moved to the
+      end of the list of headers.  If *replace* is "True", the header

@@ -1,0 +1,4 @@
+parameters will become positional-only in Python 3.15.
+   create_window_function(name, num_params, aggregate_class, /)
+      Create or remove a user-defined aggregate window function.
+      Parameters:

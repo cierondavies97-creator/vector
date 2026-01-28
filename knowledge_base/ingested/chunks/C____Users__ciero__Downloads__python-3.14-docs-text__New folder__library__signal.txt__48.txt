@@ -1,0 +1,4 @@
+it must be "None".  The *flags* argument is provided for future
+   extensions; no flag values are currently defined.
+   See the *pidfd_send_signal(2)* man page for more information.
+   Availability: Linux >= 5.1, Android >= "build-time" API level 31

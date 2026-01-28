@@ -1,0 +1,4 @@
+This value should not be negative as it is interpreted as an
+      absolute offset but this constraint is not enforced at runtime.
+exception UnicodeEncodeError
+   Raised when a Unicode-related error occurs during encoding.  It is

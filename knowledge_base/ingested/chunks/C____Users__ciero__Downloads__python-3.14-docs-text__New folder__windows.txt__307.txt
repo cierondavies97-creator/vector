@@ -1,0 +1,4 @@
+* The Python install manager will be installed according to the option
+  at the bottom of the first page
+* The standard library, test suite, launcher and pip will be installed
+* If selected, the install directory will be added to your "PATH"

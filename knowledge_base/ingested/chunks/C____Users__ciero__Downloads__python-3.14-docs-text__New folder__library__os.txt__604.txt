@@ -1,0 +1,7 @@
+os.EX_NOUSER
+   Exit code that means a specified user did not exist.
+   Availability: Unix, not WASI.
+os.EX_NOHOST
+   Exit code that means a specified host did not exist.
+   Availability: Unix, not WASI.
+os.EX_UNAVAILABLE

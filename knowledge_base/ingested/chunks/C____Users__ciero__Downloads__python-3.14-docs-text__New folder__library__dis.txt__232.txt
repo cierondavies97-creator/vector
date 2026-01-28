@@ -1,0 +1,5 @@
+state and control is transferred to the exception handler at
+   "target".
+SETUP_CLEANUP(target)
+   Like "SETUP_FINALLY", but in case of an exception also pushes the
+   last instruction ("lasti") to the stack so that "RERAISE" can

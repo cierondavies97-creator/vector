@@ -1,0 +1,9 @@
+supported on this platform.
+socket.AF_BLUETOOTH
+socket.BTPROTO_L2CAP
+socket.BTPROTO_RFCOMM
+socket.BTPROTO_HCI
+socket.BTPROTO_SCO
+   Integer constants for use with Bluetooth addresses.
+socket.BDADDR_ANY
+socket.BDADDR_LOCAL

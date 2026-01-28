@@ -1,0 +1,4 @@
+Mathematically, it is written "x : P(X <= x) = p".
+      Finds the value *x* of the random variable *X* such that the
+      probability of the variable being less than or equal to that
+      value equals the given probability *p*.

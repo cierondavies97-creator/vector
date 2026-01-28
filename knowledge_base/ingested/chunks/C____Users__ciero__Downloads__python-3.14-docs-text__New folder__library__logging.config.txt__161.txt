@@ -1,0 +1,10 @@
+class=handlers.MemoryHandler
+   level=NOTSET
+   formatter=form08
+   target=
+   args=(10, ERROR)
+   [handler_hand09]
+   class=handlers.HTTPHandler
+   level=NOTSET
+   formatter=form09
+   args=('localhost:9022', '/log', 'GET')

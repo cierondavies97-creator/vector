@@ -1,0 +1,3 @@
+*unixfrom* is true, the envelope header is included in the
+      returned string.  *unixfrom* defaults to "False".  For backward
+      compatibility with the base "Message" class *maxheaderlen* is

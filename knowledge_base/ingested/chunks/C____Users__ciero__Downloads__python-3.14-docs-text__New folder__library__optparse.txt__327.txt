@@ -1,0 +1,4 @@
+provides the very useful "ensure_value()" method. "ensure_value()"
+  is essentially "getattr()" with a safety valve; it is called as
+     values.ensure_value(attr, value)
+  If the "attr" attribute of "values" doesn't exist or is "None", then

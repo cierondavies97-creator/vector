@@ -1,0 +1,4 @@
+"functools" --- Higher-order functions and operations on callable objects
+*************************************************************************
+**Source code:** Lib/functools.py
+======================================================================

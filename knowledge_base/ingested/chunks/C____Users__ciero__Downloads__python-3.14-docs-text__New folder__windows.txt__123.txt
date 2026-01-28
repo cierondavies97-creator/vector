@@ -1,0 +1,5 @@
+will override PyManager's one by default, and you will need to use
+  "pymanager" commands for installing and uninstalling.
+4.1.10. Advanced installation
+-----------------------------
+For situations where an MSIX cannot be installed, such as some older

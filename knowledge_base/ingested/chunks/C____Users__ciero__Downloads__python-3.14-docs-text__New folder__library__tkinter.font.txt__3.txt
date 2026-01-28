@@ -1,0 +1,5 @@
+identifying fonts as a single object, rather than specifying a font
+   by its attributes with each occurrence.
+      arguments:
+            *font* - font specifier tuple (family, size, options)
+            *name* - unique font name

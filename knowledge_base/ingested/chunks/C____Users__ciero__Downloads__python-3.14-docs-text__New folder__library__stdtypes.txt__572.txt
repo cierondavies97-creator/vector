@@ -1,0 +1,3 @@
+Return a copy of the object right justified in a sequence of length
+   *width*. Padding is done using the specified *fillbyte* (default is
+   an ASCII space). For "bytes" objects, the original sequence is

@@ -1,0 +1,5 @@
+It can be used to make sure that the logs order is consistent
+   before writing into stderr.
+   Added in version 3.11.
+test.support.print_warning(msg)
+   Print a warning into "sys.__stderr__". Format the message as:

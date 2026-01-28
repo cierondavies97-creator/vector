@@ -1,0 +1,4 @@
+RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "t-string: lambda expressions are not allowed without parentheses") }
+   invalid_named_expression(memo):
+       | a=expression ':=' expression {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(

@@ -1,0 +1,5 @@
+class graphlib.TopologicalSorter(graph=None)
+   Provides functionality to topologically sort a graph of *hashable*
+   nodes.
+   A topological order is a linear ordering of the vertices in a graph
+   such that for every directed edge u -> v from vertex u to vertex v,

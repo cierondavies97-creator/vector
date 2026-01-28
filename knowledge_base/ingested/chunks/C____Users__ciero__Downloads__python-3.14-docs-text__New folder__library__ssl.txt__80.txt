@@ -1,0 +1,5 @@
+all certificates in the peer cert chain are checked.
+   Added in version 3.4.
+ssl.VERIFY_X509_STRICT
+   Possible value for "SSLContext.verify_flags" to disable workarounds
+   for broken X.509 certificates.

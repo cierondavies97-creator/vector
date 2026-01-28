@@ -1,0 +1,10 @@
+errno.EMSGSIZE
+   Message too long
+errno.EPROTOTYPE
+   Protocol wrong type for socket
+errno.ENOPROTOOPT
+   Protocol not available
+errno.EPROTONOSUPPORT
+   Protocol not supported
+errno.ESOCKTNOSUPPORT
+   Socket type not supported

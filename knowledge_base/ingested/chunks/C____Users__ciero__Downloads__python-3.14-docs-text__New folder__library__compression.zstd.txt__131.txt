@@ -1,0 +1,5 @@
+options = {DecompressionParameter.window_log_max: upper}
+      decompress(data, options=options)
+   bounds()
+      Return the tuple of int bounds, "(lower, upper)", of a
+      decompression parameter. This method should be called on the

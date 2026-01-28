@@ -1,0 +1,6 @@
+defined.
+Examples
+========
+Note that all examples in this section **purposefully** show how to
+use the low-level event loop APIs, such as "loop.run_forever()" and
+"loop.call_soon()".  Modern asyncio applications rarely need to be

@@ -1,0 +1,6 @@
+"@singledispatch", note that the dispatch happens on the type of
+   the first argument:
+      >>> from functools import singledispatch
+      >>> @singledispatch
+      ... def fun(arg, verbose=False):
+      ...     if verbose:

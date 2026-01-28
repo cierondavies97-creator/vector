@@ -1,0 +1,5 @@
+"find_module()", deprecated in 3.10 are now removed.  Use
+   "find_spec()" instead.
+   create_module(spec)
+      Implementation of "importlib.abc.Loader.create_module()" that
+      returns "None" to explicitly request the default semantics.

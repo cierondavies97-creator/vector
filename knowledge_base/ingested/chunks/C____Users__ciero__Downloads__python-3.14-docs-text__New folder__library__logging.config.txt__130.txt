@@ -1,0 +1,4 @@
+API. For instance, this may be an actual instance of "queue.Queue"
+  or a subclass thereof, or a proxy obtained by
+  "multiprocessing.managers.SyncManager.Queue()".
+  This is of course only possible if you are constructing or modifying

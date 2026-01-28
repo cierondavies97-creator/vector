@@ -1,0 +1,7 @@
+is sometimes used for configuration, but does not support
+     comments.
+Quick Start
+===========
+Let's take a very basic configuration file that looks like this:
+   [DEFAULT]
+   ServerAliveInterval = 45

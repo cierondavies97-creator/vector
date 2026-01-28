@@ -1,0 +1,4 @@
+World Wide Web Consortium (W3C) for accessing and modifying XML
+documents.  A DOM implementation presents an XML document as a tree
+structure, or allows client code to build such a structure from
+scratch.  It then gives access to the structure through a set of

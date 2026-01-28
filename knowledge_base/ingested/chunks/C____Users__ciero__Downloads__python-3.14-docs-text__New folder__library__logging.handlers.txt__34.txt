@@ -1,0 +1,6 @@
+"TimedRotatingFileHandler" which overrides the
+        "getFilesToDelete()" method to fit in with the custom naming
+        scheme.)
+      Added in version 3.3.
+   rotator
+      If this attribute is set to a callable, the "rotate()" method

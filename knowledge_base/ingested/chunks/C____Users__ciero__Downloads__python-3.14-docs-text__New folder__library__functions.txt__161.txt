@@ -1,0 +1,3 @@
+in code.  For base 0, the string is interpreted in a similar way to
+   an integer literal in code, in that the actual base is 2, 8, 10, or
+   16 as determined by the prefix. Base 0 also disallows leading

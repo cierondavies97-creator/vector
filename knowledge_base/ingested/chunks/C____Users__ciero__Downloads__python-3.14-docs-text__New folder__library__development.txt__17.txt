@@ -1,0 +1,6 @@
+* Raising exceptions with mocks
+    * Side effect functions and iterables
+    * Mocking asynchronous iterators
+    * Mocking asynchronous context manager
+    * Creating a Mock from an Existing Object
+    * Using side_effect to return per file content

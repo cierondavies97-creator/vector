@@ -1,0 +1,4 @@
+* *kw_only*: If true (the default value is "False"), then all
+     fields will be marked as keyword-only.  If a field is marked as
+     keyword-only, then the only effect is that the "__init__()"
+     parameter generated from a keyword-only field must be specified

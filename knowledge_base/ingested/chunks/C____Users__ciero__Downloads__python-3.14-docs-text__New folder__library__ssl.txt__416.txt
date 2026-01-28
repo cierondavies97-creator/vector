@@ -1,0 +1,6 @@
+client certificate.
+Protocol versions
+~~~~~~~~~~~~~~~~~
+SSL versions 2 and 3 are considered insecure and are therefore
+dangerous to use.  If you want maximum compatibility between clients
+and servers, it is recommended to use "PROTOCOL_TLS_CLIENT" or

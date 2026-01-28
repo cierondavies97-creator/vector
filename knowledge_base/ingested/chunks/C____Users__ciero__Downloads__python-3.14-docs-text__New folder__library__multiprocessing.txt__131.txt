@@ -1,0 +1,5 @@
+However, objects enqueued by the same process will always be in
+     the expected order with respect to each other.
+Warning:
+  If a process is killed using "Process.terminate()" or "os.kill()"
+  while it is trying to use a "Queue", then the data in the queue is

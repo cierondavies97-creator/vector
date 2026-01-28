@@ -1,0 +1,4 @@
+When you subclass "Mock" or "MagicMock" all dynamically created
+attributes, and the "return_value" will use your subclass
+automatically. That means all children of a "CopyingMock" will also
+have the type "CopyingMock".

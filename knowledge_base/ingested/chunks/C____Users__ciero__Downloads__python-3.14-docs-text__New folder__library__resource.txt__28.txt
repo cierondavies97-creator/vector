@@ -1,0 +1,6 @@
+The number of signals which the process may queue.
+   Availability: Linux >= 2.6.8.
+   Added in version 3.4.
+resource.RLIMIT_SBSIZE
+   The maximum size (in bytes) of socket buffer usage for this user.
+   This limits the amount of network memory, and hence the amount of

@@ -1,0 +1,5 @@
+that the key names in the INI file are case insensitive.)  The
+contents of an environment variable will override things specified in
+the INI file.
+For example:
+* Setting "PY_PYTHON=3.7" is equivalent to the INI file containing:

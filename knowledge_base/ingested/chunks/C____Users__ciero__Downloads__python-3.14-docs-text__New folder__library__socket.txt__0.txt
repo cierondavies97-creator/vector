@@ -1,0 +1,5 @@
+"socket" --- Low-level networking interface
+*******************************************
+**Source code:** Lib/socket.py
+======================================================================
+This module provides access to the BSD *socket* interface. It is

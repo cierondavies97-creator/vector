@@ -1,0 +1,3 @@
+as a single "Name", "Tuple", "List", "Attribute" or "Subscript"
+   node. "iter" holds the item to be looped over, again as a single
+   node. "body" and "orelse" contain lists of nodes to execute. Those

@@ -1,0 +1,6 @@
+Note:
+     in 3.13 the default "_generate_next_value_" will always return
+     the highest member value incremented by 1, and will fail if any
+     member is an incompatible type.
+@enum.property
+   A decorator similar to the built-in *property*, but specifically

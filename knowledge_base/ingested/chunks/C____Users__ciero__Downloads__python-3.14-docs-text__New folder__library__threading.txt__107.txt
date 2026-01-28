@@ -1,0 +1,4 @@
+and return "True".
+      When invoked with the floating-point *timeout* argument set to a
+      positive value, block for at most the number of seconds
+      specified by *timeout* and as long as the lock cannot be

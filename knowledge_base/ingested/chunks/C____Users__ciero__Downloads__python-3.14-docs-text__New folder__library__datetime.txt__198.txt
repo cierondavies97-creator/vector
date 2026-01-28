@@ -1,0 +1,4 @@
+as *self*, but in *tz*'s local time.
+   If provided, *tz* must be an instance of a "tzinfo" subclass, and
+   its "utcoffset()" and "dst()" methods must not return "None". If
+   *self* is naive, it is presumed to represent time in the system

@@ -1,0 +1,4 @@
+"BaseExceptionGroup".
+   The "BaseExceptionGroup" constructor returns an "ExceptionGroup"
+   rather than a "BaseExceptionGroup" if all contained exceptions are
+   "Exception" instances, so it can be used to make the selection

@@ -1,0 +1,3 @@
+"memoryview" of a "bytearray". Other operations require the binary
+   data to be stored in immutable objects ("read-only bytes-like
+   objects"); examples of these include "bytes" and a "memoryview" of

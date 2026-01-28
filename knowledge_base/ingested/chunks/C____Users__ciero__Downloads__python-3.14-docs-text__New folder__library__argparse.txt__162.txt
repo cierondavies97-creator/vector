@@ -1,0 +1,6 @@
+>>> parser.parse_args(['a'])
+   Namespace(foo='a')
+   >>> parser.parse_args([])
+   Namespace(foo=42)
+For required arguments, the "default" value is ignored. For example,
+this applies to positional arguments with nargs values other than "?"

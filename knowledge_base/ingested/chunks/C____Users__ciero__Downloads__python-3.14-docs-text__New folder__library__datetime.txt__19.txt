@@ -1,0 +1,6 @@
+Common Properties
+-----------------
+The "date", "datetime", "time", and "timezone" types share these
+common features:
+* Objects of these types are immutable.
+* Objects of these types are *hashable*, meaning that they can be used

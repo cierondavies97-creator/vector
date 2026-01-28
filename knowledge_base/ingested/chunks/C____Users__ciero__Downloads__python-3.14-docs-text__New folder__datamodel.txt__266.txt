@@ -1,0 +1,4 @@
+* Loading a pyc file compiled while using "-X" "no_debug_ranges".
+   * Position tuples corresponding to artificial instructions.
+   * Line and column numbers that can't be represented due to
+     implementation specific limitations.

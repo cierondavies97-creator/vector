@@ -1,0 +1,6 @@
+* "int(string, base)" with base 2, 4, 8, 16, or 32.
+* "int.from_bytes()" and "int.to_bytes()".
+* "hex()", "oct()", "bin()".
+* Format Specification Mini-Language for hex, octal, and binary
+  numbers.
+* "str" to "float".

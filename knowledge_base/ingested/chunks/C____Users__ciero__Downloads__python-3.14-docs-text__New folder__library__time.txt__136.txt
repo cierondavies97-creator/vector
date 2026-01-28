@@ -1,0 +1,5 @@
+"*n*"
+         The zero-based Julian day (0 <= *n* <= 365). Leap days are
+         counted, and it is possible to refer to February 29.
+      "M*m*.*n*.*d*"
+         The *d*'th day (0 <= *d* <= 6) of week *n* of month *m* of

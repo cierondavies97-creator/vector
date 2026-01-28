@@ -1,0 +1,6 @@
+Python.
+   See also the "MISSING_C_DOCSTRINGS" variable.
+test.support.TEST_HTTP_URL
+   Define the URL of a dedicated HTTP server for the network tests.
+test.support.ALWAYS_EQ
+   Object that is equal to anything.  Used to test mixed type

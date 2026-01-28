@@ -1,0 +1,3 @@
+is appended to a buffer and the interpreter's "runsource()" method
+   is called with the concatenated contents of the buffer as source.
+   If this indicates that the command was executed or invalid, the

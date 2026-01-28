@@ -1,0 +1,4 @@
+asyncio.run(main())
+   # To test it you can use telnet or curl:
+   #     telnet 127.0.0.1 8081
+   #     curl 127.0.0.1:8081

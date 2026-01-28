@@ -1,0 +1,4 @@
+============================================================
+The core built-in types for manipulating binary data are "bytes" and
+"bytearray". They are supported by "memoryview" which uses the buffer
+protocol to access the memory of other binary objects without needing

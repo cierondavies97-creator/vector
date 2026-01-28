@@ -1,0 +1,5 @@
+or more letters from the "'i'", "'m'", "'s'", "'x'".) The letters
+   set or remove the corresponding flags for the part of the
+   expression:
+   * "re.A" (ASCII-only matching)
+   * "re.I" (ignore case)

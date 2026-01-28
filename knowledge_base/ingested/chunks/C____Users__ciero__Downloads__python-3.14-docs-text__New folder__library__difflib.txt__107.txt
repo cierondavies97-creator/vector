@@ -1,0 +1,4 @@
+*linejunk*: A function that accepts a single string argument, and
+   returns true if the string is junk.  The default is "None", meaning
+   that no line is considered junk.
+   *charjunk*: A function that accepts a single character argument (a

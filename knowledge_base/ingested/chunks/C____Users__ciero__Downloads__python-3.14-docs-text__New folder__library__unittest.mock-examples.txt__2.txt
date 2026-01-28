@@ -1,0 +1,4 @@
+>>> real.method(3, 4, 5, key='value')
+<MagicMock name='method()' id='...'>
+Once our mock has been used ("real.method" in this example) it has
+methods and attributes that allow you to make assertions about how it

@@ -1,0 +1,4 @@
+"DocTestCase".
+So both ways of creating a "unittest.TestSuite" run instances of
+"DocTestCase".  This is important for a subtle reason: when you run
+"doctest" functions yourself, you can control the "doctest" options in

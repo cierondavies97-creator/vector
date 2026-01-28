@@ -1,0 +1,4 @@
+pixels
+      * **bg** -- colorstring or color-tuple, new background color
+   If no arguments are given, return current (canvaswidth,
+   canvasheight).  Else resize the canvas the turtles are drawing on.

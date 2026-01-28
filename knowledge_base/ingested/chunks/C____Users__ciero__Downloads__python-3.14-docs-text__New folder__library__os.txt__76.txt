@@ -1,0 +1,6 @@
+os.setgid(gid, /)
+   Set the current process' group id.
+   Availability: Unix, not WASI, not Android.
+os.setgroups(groups, /)
+   Set the list of supplemental group ids associated with the current
+   process to *groups*. *groups* must be a sequence, and each element

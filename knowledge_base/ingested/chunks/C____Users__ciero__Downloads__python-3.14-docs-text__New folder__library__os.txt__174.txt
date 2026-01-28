@@ -1,0 +1,3 @@
+the region of the file specified by *fd* starting at *offset* and
+   continuing for *len* bytes. *advice* is one of "POSIX_FADV_NORMAL",
+   "POSIX_FADV_SEQUENTIAL", "POSIX_FADV_RANDOM", "POSIX_FADV_NOREUSE",

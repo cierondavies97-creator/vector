@@ -1,0 +1,3 @@
+"VALUE_WITH_FAKE_GLOBALS" is supported and use that in the fake
+       globals environment. If neither of these formats are supported,
+       it will fall back to using "VALUE" with the result converted

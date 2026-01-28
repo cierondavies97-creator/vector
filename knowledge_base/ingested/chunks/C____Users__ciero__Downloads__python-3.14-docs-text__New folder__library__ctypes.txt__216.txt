@@ -1,0 +1,6 @@
+naming schemes and paths to locate the library, and returns a full
+pathname if successful:
+   >>> from ctypes.util import find_library
+   >>> find_library("c")
+   '/usr/lib/libc.dylib'
+   >>> find_library("m")

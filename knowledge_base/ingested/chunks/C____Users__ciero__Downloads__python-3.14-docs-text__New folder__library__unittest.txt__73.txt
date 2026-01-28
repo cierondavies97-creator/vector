@@ -1,0 +1,4 @@
+Note:
+  Even though "FunctionTestCase" can be used to quickly convert an
+  existing test base over to a "unittest"-based system, this approach
+  is not recommended.  Taking the time to set up proper "TestCase"

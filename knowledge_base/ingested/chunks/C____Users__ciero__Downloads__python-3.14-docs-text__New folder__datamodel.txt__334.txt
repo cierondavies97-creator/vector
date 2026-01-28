@@ -1,0 +1,4 @@
+"super().__new__(cls[, ...])" with appropriate arguments and then
+   modifying the newly created instance as necessary before returning
+   it.
+   If "__new__()" is invoked during object construction and it returns

@@ -1,0 +1,5 @@
+Below is an example where a number of ctypes objects are modified by a
+child process:
+   from multiprocessing import Process, Lock
+   from multiprocessing.sharedctypes import Value, Array
+   from ctypes import Structure, c_double

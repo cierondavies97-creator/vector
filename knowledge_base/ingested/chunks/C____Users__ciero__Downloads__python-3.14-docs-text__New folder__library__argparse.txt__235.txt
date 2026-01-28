@@ -1,0 +1,6 @@
+usage: PROG [-h] [--foo FOO] [bar]
+   PROG: error: no such option: --bar
+   >>> # wrong number of arguments
+   >>> parser.parse_args(['spam', 'badger'])
+   usage: PROG [-h] [--foo FOO] [bar]
+   PROG: error: extra arguments found: badger

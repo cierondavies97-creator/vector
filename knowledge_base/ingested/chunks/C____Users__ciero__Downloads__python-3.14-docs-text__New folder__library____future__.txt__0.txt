@@ -1,0 +1,5 @@
+"__future__" --- Future statement definitions
+*********************************************
+**Source code:** Lib/__future__.py
+======================================================================
+Imports of the form "from __future__ import feature" are called future

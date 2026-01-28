@@ -1,0 +1,6 @@
+sqlite_errorcode
+      The numeric error code from the SQLite API
+      Added in version 3.11.
+   sqlite_errorname
+      The symbolic name of the numeric error code from the SQLite API
+      Added in version 3.11.

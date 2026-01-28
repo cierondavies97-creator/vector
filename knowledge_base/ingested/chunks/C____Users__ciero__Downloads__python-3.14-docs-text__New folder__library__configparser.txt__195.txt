@@ -1,0 +1,3 @@
+Legacy variant of the "ConfigParser".  It has interpolation
+   disabled by default and allows for non-string section names, option
+   names, and values via its unsafe "add_section" and "set" methods,

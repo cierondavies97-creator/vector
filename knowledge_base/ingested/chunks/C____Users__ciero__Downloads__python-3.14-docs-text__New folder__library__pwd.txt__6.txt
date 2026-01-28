@@ -1,0 +1,5 @@
++---------+-----------------+-------------------------------+
+The uid and gid items are integers, all others are strings. "KeyError"
+is raised if the entry asked for cannot be found.
+Note:
+  In traditional Unix the field "pw_passwd" usually contains a

@@ -1,0 +1,3 @@
+>>> smm.shutdown()  # Calls unlink() on sl, raw_shm, and another_sl
+The following example depicts a potentially more convenient pattern
+for using "SharedMemoryManager" objects via the "with" statement to

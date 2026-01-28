@@ -1,0 +1,5 @@
+>>> # Round to two places
+>>> Decimal('3.214').quantize(TWOPLACES)
+Decimal('3.21')
+>>> # Validate that a number does not exceed two places
+>>> Decimal('3.21').quantize(TWOPLACES, context=Context(traps=[Inexact]))

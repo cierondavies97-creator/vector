@@ -1,0 +1,5 @@
+'undefined'
+   Added in version 3.14.
+annotationlib.get_annotate_from_class_namespace(namespace)
+   Retrieve the *annotate function* from a class namespace dictionary
+   *namespace*. Return "None" if the namespace does not contain an

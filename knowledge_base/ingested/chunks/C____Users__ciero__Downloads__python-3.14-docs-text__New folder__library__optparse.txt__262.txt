@@ -1,0 +1,5 @@
+will consume "nargs" arguments, each of which must be convertible
+   to "type".  It then passes a tuple of converted values to your
+   callback.
+"callback_args"
+   a tuple of extra positional arguments to pass to the callback

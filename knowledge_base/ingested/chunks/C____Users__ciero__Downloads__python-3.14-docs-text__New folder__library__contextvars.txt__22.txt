@@ -1,0 +1,4 @@
+assigned in different threads.
+   Attempting to enter an already entered context, including contexts
+   entered in other threads, raises a "RuntimeError".
+   After exiting a context, it can later be re-entered (from any

@@ -1,0 +1,4 @@
+converted to the platform's local date and time, and the returned
+   "datetime" object is naive.
+   If *tz* is not "None", it must be an instance of a "tzinfo"
+   subclass, and the timestamp is converted to *tz*’s time zone.

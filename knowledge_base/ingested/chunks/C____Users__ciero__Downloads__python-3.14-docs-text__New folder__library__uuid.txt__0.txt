@@ -1,0 +1,5 @@
+"uuid" --- UUID objects according to **RFC 9562**
+*************************************************
+**Source code:** Lib/uuid.py
+======================================================================
+This module provides immutable "UUID" objects (the "UUID" class) and

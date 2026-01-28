@@ -1,0 +1,4 @@
+Note that "__rpow__()" should be defined to accept an optional
+   third argument if the three-argument version of the built-in
+   "pow()" function is to be supported.
+   Changed in version 3.14: Three-argument "pow()" now try calling

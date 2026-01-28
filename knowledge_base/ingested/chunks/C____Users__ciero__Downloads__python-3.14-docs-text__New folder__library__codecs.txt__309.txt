@@ -1,0 +1,3 @@
+based on the "." separator and converting any ACE labels found into
+unicode. Furthermore, the "socket" module transparently converts
+Unicode host names to ACE, so that applications need not be concerned

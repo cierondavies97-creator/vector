@@ -1,0 +1,6 @@
+supplied arguments, it should return "NotImplemented".
+object.__radd__(self, other)
+object.__rsub__(self, other)
+object.__rmul__(self, other)
+object.__rmatmul__(self, other)
+object.__rtruediv__(self, other)

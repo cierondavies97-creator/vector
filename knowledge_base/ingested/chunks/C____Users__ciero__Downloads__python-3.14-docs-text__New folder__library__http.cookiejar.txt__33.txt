@@ -1,0 +1,5 @@
+Changed in version 3.3: *request* object needs "origin_req_host"
+   attribute. Dependency on a deprecated method
+   "get_origin_req_host()" has been removed.
+CookieJar.set_policy(policy)
+   Set the "CookiePolicy" instance to be used.

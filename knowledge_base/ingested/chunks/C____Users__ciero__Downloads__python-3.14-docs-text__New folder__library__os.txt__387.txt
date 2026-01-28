@@ -1,0 +1,5 @@
+argument is of type "bytes" and "str" otherwise.  Use
+      "fsdecode()" to decode byte filenames.
+   inode()
+      Return the inode number of the entry.
+      The result is cached on the "os.DirEntry" object. Use

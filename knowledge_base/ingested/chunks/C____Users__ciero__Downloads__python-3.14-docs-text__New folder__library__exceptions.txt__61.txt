@@ -1,0 +1,4 @@
+exception OverflowError
+   Raised when the result of an arithmetic operation is too large to
+   be represented.  This cannot occur for integers (which would rather
+   raise "MemoryError" than give up).  However, for historical

@@ -1,0 +1,5 @@
+Set fillcolor to *colorstring*, which is a Tk color
+      specification string, such as ""red"", ""yellow"", or
+      ""#33cc8c"".
+   "fillcolor((r, g, b))"
+      Set fillcolor to the RGB color represented by the tuple of *r*,

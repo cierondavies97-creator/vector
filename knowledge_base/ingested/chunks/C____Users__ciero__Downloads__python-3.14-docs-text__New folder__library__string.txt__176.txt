@@ -1,0 +1,4 @@
+value must be a regular expression object with four named capturing
+groups.  The capturing groups correspond to the rules given above,
+along with the invalid placeholder rule:
+* *escaped* -- This group matches the escape sequence, e.g. "$$", in

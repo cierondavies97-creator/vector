@@ -1,0 +1,3 @@
+for a match.  If *endpos* is less than *pos*, no match will be
+   found; otherwise, if *rx* is a compiled regular expression object,
+   "rx.search(string, 0, 50)" is equivalent to "rx.search(string[:50],

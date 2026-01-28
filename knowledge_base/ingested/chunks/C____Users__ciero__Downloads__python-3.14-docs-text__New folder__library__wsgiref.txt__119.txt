@@ -1,0 +1,5 @@
+status string as defined in **PEP 3333**; it defaults to a 500
+      code and message.
+   error_headers
+      The HTTP headers used for error responses.  This should be a
+      list of WSGI response headers ("(name, value)" tuples), as

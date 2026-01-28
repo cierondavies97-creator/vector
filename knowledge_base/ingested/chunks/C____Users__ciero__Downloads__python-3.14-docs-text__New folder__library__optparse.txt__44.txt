@@ -1,0 +1,8 @@
+argument from their option:
+      -f foo
+      --file foo
+   or included in the same argument:
+      -ffoo
+      --file=foo
+   Typically, a given option either takes an argument or it doesn't.
+   Lots of people want an "optional option arguments" feature, meaning

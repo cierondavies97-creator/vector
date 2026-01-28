@@ -1,0 +1,8 @@
+For instance:
+   void
+   bug(PyObject *list)
+   {
+       PyObject *item = PyList_GetItem(list, 0);
+       PyList_SetItem(list, 1, PyLong_FromLong(0L));
+       PyObject_Print(item, stdout, 0); /* BUG! */
+   }

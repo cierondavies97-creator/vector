@@ -1,0 +1,5 @@
+If both are called for the same argument, the last default set for
+   an argument is used:
+      >>> parser = argparse.ArgumentParser()
+      >>> parser.add_argument('--foo', default='bar')
+      >>> parser.set_defaults(foo='spam')

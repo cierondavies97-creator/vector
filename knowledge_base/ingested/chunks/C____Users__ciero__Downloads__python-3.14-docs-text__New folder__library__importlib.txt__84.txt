@@ -1,0 +1,5 @@
+files are an optimization to speed up loading by removing the
+   parsing step of Python's compiler, and so no bytecode-specific API
+   is exposed.
+   path_stats(path)
+      Optional abstract method which returns a "dict" containing

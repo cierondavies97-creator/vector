@@ -1,0 +1,8 @@
+Command-line options
+--------------------
+-l <zipfile>
+--list <zipfile>
+   List files in a zipfile.
+-c <zipfile> <source1> ... <sourceN>
+--create <zipfile> <source1> ... <sourceN>
+   Create zipfile from source files.

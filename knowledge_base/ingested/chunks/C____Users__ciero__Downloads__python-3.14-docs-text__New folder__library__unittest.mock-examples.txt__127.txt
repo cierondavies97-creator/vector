@@ -1,0 +1,6 @@
+...         args = deepcopy(args)
+   ...         kwargs = deepcopy(kwargs)
+   ...         new_mock(*args, **kwargs)
+   ...         return DEFAULT
+   ...     mock.side_effect = side_effect
+   ...     return new_mock

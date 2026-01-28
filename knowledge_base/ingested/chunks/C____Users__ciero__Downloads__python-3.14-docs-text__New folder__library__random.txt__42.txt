@@ -1,0 +1,4 @@
+Changed in version 3.9: Added the *counts* parameter.
+   Changed in version 3.11: The *population* must be a sequence.
+   Automatic conversion of sets to lists is no longer supported.
+Discrete distributions

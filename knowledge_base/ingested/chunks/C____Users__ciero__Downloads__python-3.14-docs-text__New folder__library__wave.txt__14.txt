@@ -1,0 +1,5 @@
+which has been removed in Python 3.13.
+   The following two methods define a term "position" which is
+   compatible between them, and is otherwise implementation dependent.
+   setpos(pos)
+      Set the file pointer to the specified position.

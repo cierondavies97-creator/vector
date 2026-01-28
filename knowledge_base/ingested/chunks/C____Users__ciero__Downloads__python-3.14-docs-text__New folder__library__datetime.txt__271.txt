@@ -1,0 +1,5 @@
+Other constructors:
+classmethod time.fromisoformat(time_string)
+   Return a "time" corresponding to a *time_string* in any valid ISO
+   8601 format, with the following exceptions:
+   1. Time zone offsets may have fractional seconds.

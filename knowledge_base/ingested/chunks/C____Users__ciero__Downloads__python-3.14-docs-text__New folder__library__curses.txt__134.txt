@@ -1,0 +1,5 @@
+window.echochar(ch[, attr])
+   Add character *ch* with attribute *attr*, and immediately  call
+   "refresh()" on the window.
+window.enclose(y, x)
+   Test whether the given pair of screen-relative character-cell

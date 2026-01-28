@@ -1,0 +1,5 @@
+for prod in result:
+              yield tuple(prod)
+   Before "product()" runs, it completely consumes the input
+   iterables, keeping pools of values in memory to generate the
+   products.  Accordingly, it is only useful with finite inputs.

@@ -1,0 +1,5 @@
+generated TAB-delimited file.  It is registered with the dialect
+   name "'excel-tab'".
+class csv.unix_dialect
+   The "unix_dialect" class defines the usual properties of a CSV file
+   generated on UNIX systems, i.e. using "'\n'" as line terminator and

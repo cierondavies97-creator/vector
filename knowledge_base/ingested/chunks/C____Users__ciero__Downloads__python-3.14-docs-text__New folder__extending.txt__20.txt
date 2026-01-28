@@ -1,0 +1,3 @@
+have to convert them to C values.  The function "PyArg_ParseTuple()"
+in the Python API checks the argument types and converts them to C
+values.  It uses a template string to determine the required types of

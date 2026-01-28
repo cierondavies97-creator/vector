@@ -1,0 +1,4 @@
+"create_module()").  Loaders should implement it instead of
+      "load_module()".  The import machinery takes care of all the
+      other responsibilities of "load_module()" when "exec_module()"
+      is implemented.

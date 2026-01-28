@@ -1,0 +1,3 @@
+Changed in version 3.10: Add "__builtins__" attribute to functions.
+Changed in version 3.11: Add "gi_suspended" attribute to generators.
+Changed in version 3.11: Add "cr_suspended" attribute to coroutines.

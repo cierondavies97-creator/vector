@@ -1,0 +1,5 @@
+heap). Because of this limitation traceback dumping is minimal
+compared to normal Python tracebacks:
+* Only ASCII is supported. The "backslashreplace" error handler is
+  used on encoding.
+* Each string is limited to 500 characters.

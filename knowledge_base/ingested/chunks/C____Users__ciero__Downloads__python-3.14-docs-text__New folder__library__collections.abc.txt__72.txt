@@ -1,0 +1,5 @@
+instances of this ABC.
+   Note:
+     In CPython, generator-based coroutines (*generators* decorated
+     with "@types.coroutine") are *awaitables*, even though they do
+     not have an "__await__()" method. Using "isinstance(gencoro,

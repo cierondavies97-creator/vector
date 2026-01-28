@@ -1,0 +1,5 @@
+Even though we can use "class" syntax to create Enums, Enums are not
+normal Python classes.  See How are Enums different? for more details.
+Note:
+  Nomenclature
+  * The class "Color" is an *enumeration* (or *enum*)

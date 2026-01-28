@@ -1,0 +1,3 @@
+only support addition and subtraction.  So fractions, floats, and
+    decimals would work and negative values are supported.  The same
+    is also true for "update()" and "subtract()" which allow negative

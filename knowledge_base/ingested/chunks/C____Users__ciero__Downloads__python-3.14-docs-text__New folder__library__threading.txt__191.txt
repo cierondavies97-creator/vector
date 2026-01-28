@@ -1,0 +1,5 @@
+will block until all of the threads have made their "wait()" calls. At
+this point, the threads are released simultaneously.
+The barrier can be reused any number of times for the same number of
+threads.
+As an example, here is a simple way to synchronize a client and server

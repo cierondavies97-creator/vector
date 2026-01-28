@@ -1,0 +1,7 @@
+result = Py_None;
+       }
+       return result;
+   }
+This function must be registered with the interpreter using the
+"METH_VARARGS" flag; this is described in section The Module's Method
+Table and Initialization Function.  The "PyArg_ParseTuple()" function

@@ -1,0 +1,7 @@
+class with format-specific state and behavior. Supported mailbox
+formats are Maildir, mbox, MH, Babyl, and MMDF.
+See also:
+  Module "email"
+     Represent and manipulate messages.
+"Mailbox" objects
+=================

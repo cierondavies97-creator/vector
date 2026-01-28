@@ -1,0 +1,5 @@
+>>> get_annotations(Movie, format=Format.STRING)
+      {'name': 'str', 'year': 'int'}
+   Added in version 3.14.
+annotationlib.call_annotate_function(annotate, format, *, owner=None)
+   Call the *annotate function* *annotate* with the given *format*, a

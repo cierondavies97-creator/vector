@@ -1,0 +1,4 @@
+includes exceptions raised directly within the function and that
+   are allowed to continue to propagate.
+sys.monitoring.events.PY_YIELD
+   Yield from a Python function (occurs immediately before the yield,

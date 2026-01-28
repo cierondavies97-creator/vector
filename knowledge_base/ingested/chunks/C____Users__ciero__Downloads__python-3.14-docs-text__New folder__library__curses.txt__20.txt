@@ -1,0 +1,4 @@
+the running program is using curses.  (Its counterpart is the
+   "shell" mode, for when the program is not in curses.)  Subsequent
+   calls to "reset_prog_mode()" will restore this mode.
+curses.def_shell_mode()

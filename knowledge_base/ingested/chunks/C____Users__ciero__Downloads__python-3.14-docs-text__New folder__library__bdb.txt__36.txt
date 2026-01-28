@@ -1,0 +1,5 @@
+Derived classes should override these methods to gain control over
+   debugger operation.
+   user_call(frame, argument_list)
+      Called from "dispatch_call()" if a break might stop inside the
+      called function.

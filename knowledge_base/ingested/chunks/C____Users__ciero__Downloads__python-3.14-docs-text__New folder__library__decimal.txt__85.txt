@@ -1,0 +1,4 @@
+than their value as in "compare_total()", but ignoring the sign
+      of each operand. "x.compare_total_mag(y)" is equivalent to
+      "x.copy_abs().compare_total(y.copy_abs())".
+      This operation is unaffected by context and is quiet: no flags

@@ -1,0 +1,5 @@
+3.3.3.2. Resolving MRO entries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+object.__mro_entries__(self, bases)
+   If a base that appears in a class definition is not an instance of
+   "type", then an "__mro_entries__()" method is searched on the base.

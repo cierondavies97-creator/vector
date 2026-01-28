@@ -1,0 +1,4 @@
+-np.sin(beta)*np.sin(phi)*np.sin(iota)
+[...]:7:4: W0101: Unreachable code (unreachable)
+[...]:7:4: W0106: Expression "+np[...]" is assigned to nothing [...]
+[...]:8:4: W0106: Expression "-np[...]" is assigned to nothing [...]

@@ -1,0 +1,4 @@
+"str", the bytes having been first decoded using a platform-
+   dependent encoding or using the specified *encoding* if given.
+   Note:
+     Python doesn't depend on the underlying operating system's notion

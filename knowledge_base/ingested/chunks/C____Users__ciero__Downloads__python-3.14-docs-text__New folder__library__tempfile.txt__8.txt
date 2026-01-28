@@ -1,0 +1,3 @@
+object the temporary file will be removed from the filesystem.
+   The *mode* parameter defaults to "'w+b'" so that the file created
+   can be read and written without being closed.  Binary mode is used

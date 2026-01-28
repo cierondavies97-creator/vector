@@ -1,0 +1,4 @@
+unfinished tasks is zero, callers of "join()" are unblocked.
+      Also, blocked callers of "get()" are unblocked and will raise
+      "QueueShutDown" because the queue is empty.
+      Use caution when using "join()" with *immediate* set to true.

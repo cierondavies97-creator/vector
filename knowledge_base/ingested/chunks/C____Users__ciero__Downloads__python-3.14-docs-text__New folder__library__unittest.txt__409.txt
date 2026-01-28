@@ -1,0 +1,5 @@
+register all results they create independently of whether or not
+   handling is enabled.
+unittest.removeResult(result)
+   Remove a registered result. Once a result has been removed then
+   "stop()" will no longer be called on that result object in response

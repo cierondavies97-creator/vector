@@ -1,0 +1,3 @@
+values.  Only slots that have a value are included in the latter.
+   * For a class that has "__slots__" and no instance "__dict__", the
+     default state is a tuple whose first item is "None" and whose

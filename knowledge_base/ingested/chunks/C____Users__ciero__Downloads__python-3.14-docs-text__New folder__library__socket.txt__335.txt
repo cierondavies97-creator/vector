@@ -1,0 +1,3 @@
+available (it should listen to both instead). On most of IPv6-ready
+systems, IPv6 will take precedence and the server may not accept IPv4
+traffic. The client side will try to connect to all the addresses

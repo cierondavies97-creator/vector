@@ -1,0 +1,9 @@
+decimal digits are those byte values in the sequence
+   "b'0123456789'".
+   For example:
+      >>> b'ABCabc1'.isalnum()
+      True
+      >>> b'ABC abc1'.isalnum()
+      False
+bytes.isalpha()
+bytearray.isalpha()

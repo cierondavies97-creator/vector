@@ -1,0 +1,3 @@
+|                                  | integer is returned. (3)                        |
++----------------------------------+-------------------------------------------------+
+| "t1 = t2 % t3"                   | The remainder is computed as a "timedelta"      |

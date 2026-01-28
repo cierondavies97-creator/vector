@@ -1,0 +1,5 @@
+return fallback_operator(float(a), float(b))
+           elif isinstance(a, Complex):
+               return fallback_operator(complex(a), complex(b))
+           else:
+               return NotImplemented

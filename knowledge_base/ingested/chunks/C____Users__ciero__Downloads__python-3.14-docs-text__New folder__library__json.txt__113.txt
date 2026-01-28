@@ -1,0 +1,4 @@
+**Source code:** Lib/json/tool.py
+======================================================================
+The "json" module can be invoked as a script via "python -m json" to
+validate and pretty-print JSON objects. The "json.tool" submodule

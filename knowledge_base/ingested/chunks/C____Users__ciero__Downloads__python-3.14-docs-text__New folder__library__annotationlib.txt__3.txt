@@ -1,0 +1,4 @@
+"Format"), each of which works best for different use cases:
+* "VALUE" evaluates the annotations and returns their value. This is
+  most straightforward to work with, but it may raise errors, for
+  example if the annotations contain references to undefined names.

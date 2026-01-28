@@ -1,0 +1,4 @@
+Changed in version 3.10: The "Description" is now included in the
+metadata when presented through the payload. Line continuation
+characters have been removed.The "json" attribute was added.
+Distribution versions

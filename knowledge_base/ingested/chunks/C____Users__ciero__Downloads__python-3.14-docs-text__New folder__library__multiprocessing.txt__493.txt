@@ -1,0 +1,3 @@
+# register the generator function baz; use `GeneratorProxy` to make proxies
+   MyManager.register('baz', baz, proxytype=GeneratorProxy)
+   # register get_operator_module(); make public functions accessible via proxy

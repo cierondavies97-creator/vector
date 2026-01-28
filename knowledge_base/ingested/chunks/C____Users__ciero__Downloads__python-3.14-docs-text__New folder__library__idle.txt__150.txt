@@ -1,0 +1,4 @@
+----------------------------
+By default, IDLE executes user code in a separate subprocess via a
+socket, which uses the internal loopback interface.  This connection
+is not externally visible and no data is sent to or received from the

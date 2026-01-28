@@ -1,0 +1,5 @@
+* "linecache" --- Random access to text lines
+  * "shutil" --- High-level file operations
+* Data Persistence
+  * "pickle" --- Python object serialization
+  * "copyreg" --- Register "pickle" support functions

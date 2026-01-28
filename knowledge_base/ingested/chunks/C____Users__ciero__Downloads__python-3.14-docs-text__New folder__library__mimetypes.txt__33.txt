@@ -1,0 +1,3 @@
+recognition of encoded files for which the encoding and the type
+      are indicated by the same extension.  For example, the ".tgz"
+      extension is mapped to ".tar.gz" to allow the encoding and type

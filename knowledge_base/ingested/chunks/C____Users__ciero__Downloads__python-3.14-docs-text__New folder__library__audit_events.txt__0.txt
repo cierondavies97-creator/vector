@@ -1,0 +1,5 @@
+Audit events table
+******************
+This table contains all events raised by "sys.audit()" or
+"PySys_Audit()" calls throughout the CPython runtime and the standard
+library.  These calls were added in 3.8 or later (see **PEP 578**).

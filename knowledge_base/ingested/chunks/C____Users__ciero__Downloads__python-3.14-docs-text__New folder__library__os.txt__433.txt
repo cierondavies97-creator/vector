@@ -1,0 +1,6 @@
+also be available:
+   st_blocks
+      Number of 512-byte blocks allocated for file. This may be
+      smaller than "st_size"/512 when the file has holes.
+   st_blksize
+      "Preferred" blocksize for efficient file system I/O. Writing to

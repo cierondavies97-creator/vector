@@ -1,0 +1,4 @@
+this dictionary.  The third argument, *maxlevels*, gives the
+   requested limit to recursion; this will be "0" if there is no
+   requested limit.  This argument should be passed unmodified to
+   recursive calls. The fourth argument, *level*, gives the current

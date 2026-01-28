@@ -1,0 +1,4 @@
+The C function calling mechanism guarantees that the argument list
+passed to C functions ("args" in the examples) is never "NULL" --- in
+fact it guarantees that it is always a tuple [4].
+It is a severe error to ever let a "NULL" pointer "escape" to the

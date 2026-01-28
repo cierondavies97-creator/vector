@@ -1,0 +1,7 @@
+Added in version 3.13.
+   lineno
+   col_offset
+   end_lineno
+   end_col_offset
+      Instances of "ast.expr" and "ast.stmt" subclasses have "lineno",
+      "col_offset", "end_lineno", and "end_col_offset" attributes.

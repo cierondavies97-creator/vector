@@ -1,0 +1,3 @@
+When a C function is called from Python, it borrows references to its
+arguments from the caller.  The caller owns a reference to the object,
+so the borrowed reference's lifetime is guaranteed until the function

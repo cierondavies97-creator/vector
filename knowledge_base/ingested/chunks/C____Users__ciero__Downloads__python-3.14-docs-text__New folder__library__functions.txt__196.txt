@@ -1,0 +1,4 @@
+preserving tools such as "sorted(iterable, key=keyfunc,
+   reverse=True)[0]" and "heapq.nlargest(1, iterable, key=keyfunc)".
+   Changed in version 3.4: Added the *default* keyword-only parameter.
+   Changed in version 3.8: The *key* can be "None".

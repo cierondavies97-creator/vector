@@ -1,0 +1,6 @@
+>>> getcount = itemgetter(1)
+   >>> list(map(getcount, inventory))
+   [3, 2, 5, 1]
+   >>> sorted(inventory, key=getcount)
+   [('orange', 1), ('banana', 2), ('apple', 3), ('pear', 5)]
+operator.methodcaller(name, /, *args, **kwargs)

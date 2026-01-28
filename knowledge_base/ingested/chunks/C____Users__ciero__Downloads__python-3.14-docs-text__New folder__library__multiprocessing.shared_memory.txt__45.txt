@@ -1,0 +1,6 @@
+>>> sl
+   ShareableList([0, 1, 2, 3], name='psm_6572_7512')
+   >>> raw_shm = smm.SharedMemory(size=128)
+   >>> another_sl = smm.ShareableList('alpha')
+   >>> another_sl
+   ShareableList(['a', 'l', 'p', 'h', 'a'], name='psm_6572_12221')

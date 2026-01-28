@@ -1,0 +1,4 @@
+passes "encoding=None" as a parameter, you can use "text_encoding()"
+so that callers of the API will emit an "EncodingWarning" if they
+don't pass an "encoding". However, please consider using UTF-8 by
+default (i.e. "encoding="utf-8"") for new APIs.

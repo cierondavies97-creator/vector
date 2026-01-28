@@ -1,0 +1,4 @@
+urllib.request.url2pathname(url, *, require_scheme=False, resolve_host=False)
+   Convert the given "file:" URL to a local path. This function uses
+   "unquote()" to decode the URL.
+   If *require_scheme* is false (the default), the given value should

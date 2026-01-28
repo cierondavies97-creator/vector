@@ -1,0 +1,6 @@
+| gt_bitwise_or
+       | notin_bitwise_or
+       | in_bitwise_or
+       | isnot_bitwise_or
+       | is_bitwise_or
+   eq_bitwise_or[CmpopExprPair*]: '==' a=bitwise_or { _PyPegen_cmpop_expr_pair(p, Eq, a) }

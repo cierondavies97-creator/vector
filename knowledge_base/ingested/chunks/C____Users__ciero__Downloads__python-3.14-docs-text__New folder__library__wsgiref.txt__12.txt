@@ -1,0 +1,4 @@
+of the application object addressed by the request.
+wsgiref.util.shift_path_info(environ)
+   Shift a single name from "PATH_INFO" to "SCRIPT_NAME" and return
+   the name. The *environ* dictionary is *modified* in-place; use a

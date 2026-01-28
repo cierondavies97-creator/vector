@@ -1,0 +1,6 @@
+Availability: Unix, Windows.
+class asyncio.ProactorEventLoop
+   A subclass of "AbstractEventLoop" for Windows that uses "I/O
+   Completion Ports" (IOCP).
+   Availability: Windows.
+   See also: MSDN documentation on I/O Completion Ports.

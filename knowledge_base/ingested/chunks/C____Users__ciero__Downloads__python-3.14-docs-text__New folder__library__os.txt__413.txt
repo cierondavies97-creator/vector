@@ -1,0 +1,5 @@
+to resolve the path name as far as possible and call "lstat()" on
+   the result. This does not apply to dangling symlinks or junction
+   points, which will raise the usual exceptions.
+   Example:
+      >>> import os

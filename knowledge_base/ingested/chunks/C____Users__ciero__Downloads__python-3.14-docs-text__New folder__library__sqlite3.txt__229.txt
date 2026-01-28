@@ -1,0 +1,4 @@
+"Connection" objects. It supports iteration, equality testing,
+   "len()", and *mapping* access by column name and index.
+   Two "Row" objects compare equal if they have identical column names
+   and values.

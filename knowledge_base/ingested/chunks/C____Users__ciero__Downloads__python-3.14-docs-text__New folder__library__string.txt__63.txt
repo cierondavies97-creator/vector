@@ -1,0 +1,3 @@
+| "'^'"     | Forces the field to be centered within the available       |
+|           | space.                                                     |
++-----------+------------------------------------------------------------+

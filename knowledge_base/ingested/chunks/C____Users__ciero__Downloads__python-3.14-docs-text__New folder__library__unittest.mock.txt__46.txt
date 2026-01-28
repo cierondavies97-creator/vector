@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+      ...
+      AssertionError: Expected 'method' to have been called once. Called 2 times.
+      Calls: [call(), call()].
+      Added in version 3.6.
+   assert_called_with(*args, **kwargs)

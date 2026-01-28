@@ -1,0 +1,6 @@
+>>> c = C()
+   >>> c.__len__()                 # Explicit lookup via instance
+   Class getattribute invoked
+   10
+   >>> type(c).__len__(c)          # Explicit lookup via type
+   Metaclass getattribute invoked

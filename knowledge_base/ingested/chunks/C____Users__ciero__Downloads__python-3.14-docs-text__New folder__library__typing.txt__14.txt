@@ -1,0 +1,7 @@
+NewType
+=======
+Use the "NewType" helper to create distinct types:
+   from typing import NewType
+   UserId = NewType('UserId', int)
+   some_id = UserId(524313)
+The static type checker will treat the new type as if it were a

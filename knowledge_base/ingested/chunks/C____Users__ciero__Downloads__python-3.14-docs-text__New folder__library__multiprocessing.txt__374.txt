@@ -1,0 +1,4 @@
+object.
+      If *callback* is specified then it should be a callable which
+      accepts a single argument.  When the result becomes ready
+      *callback* is applied to it, that is unless the call failed, in

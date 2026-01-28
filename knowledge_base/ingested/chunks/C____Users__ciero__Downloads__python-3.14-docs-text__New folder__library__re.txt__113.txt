@@ -1,0 +1,4 @@
+"'\u'", "'\U'", and "'\N'" escape sequences are only recognized in
+Unicode (str) patterns. In bytes patterns they are errors. Unknown
+escapes of ASCII letters are reserved for future use and treated as
+errors.

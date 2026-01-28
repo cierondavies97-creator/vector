@@ -1,0 +1,3 @@
+be a single envelope header, also known as the *Unix-From* header or
+the "From_" header.  The *payload* is either a string or bytes, in the
+case of simple message objects, or a list of "Message" objects, for

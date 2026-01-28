@@ -1,0 +1,4 @@
+attribute of the "DictConfigurator" or its superclass, the
+"BaseConfigurator" class. However, you need to be careful because of
+the way functions are accessed from classes via descriptors. If you
+are using a Python callable to do your imports, and you want to define

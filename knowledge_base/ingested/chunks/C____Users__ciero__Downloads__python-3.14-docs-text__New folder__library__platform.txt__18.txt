@@ -1,0 +1,4 @@
+string is returned if the value cannot be determined.
+platform.system()
+   Returns the system/OS name, such as "'Linux'", "'Darwin'",
+   "'Java'", "'Windows'". An empty string is returned if the value

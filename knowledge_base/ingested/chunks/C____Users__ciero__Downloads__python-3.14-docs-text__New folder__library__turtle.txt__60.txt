@@ -1,0 +1,9 @@
+traveled during teleporting act as a fill barrier like in goto(x,
+   y).
+      >>> tp = turtle.pos()
+      >>> tp
+      (0.00,0.00)
+      >>> turtle.teleport(60)
+      >>> turtle.pos()
+      (60.00,0.00)
+      >>> turtle.teleport(y=10)

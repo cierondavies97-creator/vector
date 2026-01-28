@@ -1,0 +1,3 @@
+|                   | of the entry window, in average-size characters of the   |
+|                   | widget's font.                                           |
++-------------------+----------------------------------------------------------+

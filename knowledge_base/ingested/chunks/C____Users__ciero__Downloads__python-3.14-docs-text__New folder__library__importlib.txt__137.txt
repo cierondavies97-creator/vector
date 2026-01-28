@@ -1,0 +1,5 @@
+method. Otherwise entries in "sys.path_importer_cache" set to
+      "None" are deleted.
+      Changed in version 3.7: Entries of "None" in
+      "sys.path_importer_cache" are deleted.
+   Changed in version 3.4: Calls objects in "sys.path_hooks" with the

@@ -1,0 +1,6 @@
+Database documentation for a list of bidirectional codes. For
+   example:
+      >>> unicodedata.bidirectional('\N{ARABIC-INDIC DIGIT SEVEN}') # 'A'rabic, 'N'umber
+      'AN'
+unicodedata.combining(chr)
+   Returns the canonical combining class assigned to the character

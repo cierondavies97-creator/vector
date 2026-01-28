@@ -1,0 +1,3 @@
+clients, the implementers with experience using DOM over CORBA from
+Python do not consider this a problem.  Attributes that are declared
+"readonly" may not restrict write access in all DOM implementations.

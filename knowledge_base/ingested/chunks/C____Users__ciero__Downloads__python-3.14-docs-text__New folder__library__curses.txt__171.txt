@@ -1,0 +1,5 @@
+mark a rectangle in the destination window.
+window.putwin(file)
+   Write all data associated with the window into the provided file
+   object.  This information can be later retrieved using the
+   "getwin()" function.

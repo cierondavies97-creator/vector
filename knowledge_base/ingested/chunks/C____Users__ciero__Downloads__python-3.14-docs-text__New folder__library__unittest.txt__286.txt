@@ -1,0 +1,5 @@
+shared as "unittest.defaultTestLoader".  Using a subclass or
+   instance, however, allows customization of some configurable
+   properties.
+   "TestLoader" objects have the following attributes:
+   errors

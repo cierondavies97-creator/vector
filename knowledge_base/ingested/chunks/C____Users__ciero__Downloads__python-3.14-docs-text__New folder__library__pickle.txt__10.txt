@@ -1,0 +1,4 @@
+"pickle" stores such objects only once, and ensures that all other
+  references point to the master copy.  Shared objects remain shared,
+  which can be very important for mutable objects.
+* "marshal" cannot be used to serialize user-defined classes and their

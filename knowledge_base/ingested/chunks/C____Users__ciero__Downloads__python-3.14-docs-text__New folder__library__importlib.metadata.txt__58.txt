@@ -1,0 +1,6 @@
+'MIT'
+For editable packages, an "origin" property may present **PEP 610**
+metadata:
+   >>> dist.origin.url
+   'file:///path/to/wheel-0.32.3.editable-py3-none-any.whl'
+The full set of available metadata is not described here. See the PyPA

@@ -1,0 +1,4 @@
+non-propagating descendent logger.
+      If given, *level* should be either a numeric logging level or
+      its string equivalent (for example either ""ERROR"" or
+      "logging.ERROR").  The default is "logging.INFO".

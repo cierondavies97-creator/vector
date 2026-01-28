@@ -1,0 +1,4 @@
+"~/.local" for UNIX and macOS non-framework builds,
+   "~/Library/Python/*X.Y*" for macOS framework builds, and
+   "*%APPDATA%*\Python" for Windows.  This value is used to compute
+   the installation directories for scripts, data files, Python

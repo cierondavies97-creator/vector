@@ -1,0 +1,6 @@
+integer in the range 0 to 255.
+   Changed in version 3.3: Also accept an integer in the range 0 to
+   255 as the subsequence.
+bytes.rpartition(sep, /)
+bytearray.rpartition(sep, /)
+   Split the sequence at the last occurrence of *sep*, and return a

@@ -1,0 +1,4 @@
+the system call instead of raising an "InterruptedError" exception
+   (see **PEP 475** for the rationale).
+socket.sendmsg_afalg([msg, ]*, op[, iv[, assoclen[, flags]]])
+   Specialized version of "sendmsg()" for "AF_ALG" socket. Set mode,

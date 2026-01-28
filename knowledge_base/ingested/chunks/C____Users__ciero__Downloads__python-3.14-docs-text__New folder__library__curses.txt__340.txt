@@ -1,0 +1,3 @@
+| "Control"-"J"      | Terminate if the window is 1 line,          |
+      |                    | otherwise insert newline.                   |
+      +--------------------+---------------------------------------------+

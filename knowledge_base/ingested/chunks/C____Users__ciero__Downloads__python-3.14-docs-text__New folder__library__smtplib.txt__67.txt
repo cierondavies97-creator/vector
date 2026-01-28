@@ -1,0 +1,3 @@
+The caller may pass a list of ESMTP options (such as ""8bitmime"")
+   to be used in "MAIL FROM" commands as *mail_options*. ESMTP options
+   (such as "DSN" commands) that should be used with all "RCPT"

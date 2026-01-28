@@ -1,0 +1,7 @@
+>>> p = Path('setup.py')
+      >>> with p.open() as f:
+      ...     f.readline()
+      ...
+      '#!/usr/bin/env python3\n'
+Path.read_text(encoding=None, errors=None, newline=None)
+   Return the decoded contents of the pointed-to file as a string:

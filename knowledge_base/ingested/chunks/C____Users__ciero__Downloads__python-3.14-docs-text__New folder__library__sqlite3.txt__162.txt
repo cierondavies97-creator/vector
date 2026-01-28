@@ -1,0 +1,4 @@
+""temp"" for the temporary database, or the name of a
+           custom database as attached using the "ATTACH DATABASE" SQL
+           statement.
+         * **sleep** (*float*) -- The number of seconds to sleep

@@ -1,0 +1,5 @@
+class uses the encoding "locale.getpreferredencoding(False)"
+   instead of "locale.getpreferredencoding()".  See the
+   "io.TextIOWrapper" class for more information on this change.
+   Note:
+     Read the Security Considerations section before using

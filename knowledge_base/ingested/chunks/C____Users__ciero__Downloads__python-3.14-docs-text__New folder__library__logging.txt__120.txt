@@ -1,0 +1,4 @@
+using one of printf-style String Formatting ("%"),
+        "str.format()" ("{") or "string.Template" ("$"). This only
+        applies to *fmt* (e.g. "'%(message)s'" versus "'{message}'"),
+        not to the actual log messages passed to the logging methods.

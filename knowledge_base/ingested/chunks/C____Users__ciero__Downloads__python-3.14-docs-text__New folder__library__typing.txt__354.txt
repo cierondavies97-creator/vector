@@ -1,0 +1,4 @@
+"TypeError" with a more informative message, therefore making it
+     impossible to call (instantiate) "ssl.SSLObject".
+   Note:
+     An "isinstance()" check against a runtime-checkable protocol can

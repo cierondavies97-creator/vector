@@ -1,0 +1,4 @@
+concretely, "gettext" will look for binary ".mo" files for the
+   given domain using the path (on Unix):
+   "*localedir*/*language*/LC_MESSAGES/*domain*.mo", where *language*
+   is searched for in the environment variables "LANGUAGE", "LC_ALL",

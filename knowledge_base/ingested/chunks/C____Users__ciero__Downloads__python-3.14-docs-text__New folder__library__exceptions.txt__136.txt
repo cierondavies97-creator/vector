@@ -1,0 +1,4 @@
+from the current group that match *condition*, or "None" if the
+      result is empty.
+      The condition can be an exception type or tuple of exception
+      types, in which case each exception is checked for a match using

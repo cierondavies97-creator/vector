@@ -1,0 +1,5 @@
+longer used. In case OpenSSL refuses a hostname or IP address, the
+   handshake is aborted early and a TLS alert message is sent to the
+   peer.
+SSLSocket.getpeercert(binary_form=False)
+   If there is no certificate for the peer on the other end of the

@@ -1,0 +1,4 @@
+added part has no *Content-Disposition* header, add one with the
+      value "inline".
+   add_alternative(*args, content_manager=None, **kw)
+      If the message is a "multipart/alternative", create a new

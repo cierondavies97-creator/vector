@@ -1,0 +1,5 @@
+internally via "os.copy_file_range()" on supported Linux filesystems.
+copytree example
+----------------
+An example that uses the "ignore_patterns()" helper:
+   from shutil import copytree, ignore_patterns

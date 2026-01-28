@@ -1,0 +1,4 @@
+Return the result of calling running the given function in the
+      interpreter (in the current thread).
+   call_in_thread(callable, /, *args, **kwargs)
+      Run the given function in the interpreter (in a new thread).

@@ -1,0 +1,3 @@
+of the "name" and "path" attributes of each "os.DirEntry" will be
+   "bytes"; in all other circumstances, they will be of type "str".
+   This function can also support specifying a file descriptor; the

@@ -1,0 +1,4 @@
+"iter_parts()" will yield a list of subparts.
+* Most messages with a content type of *message/** (such as *message
+  /delivery-status* and *message/rfc822*) will also be parsed as
+  container object containing a list payload of length 1.  Their

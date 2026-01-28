@@ -1,0 +1,4 @@
+Requirements for optional modules.
+The data compression is provided by the "zlib" module.
+The "gzip" module provides the "GzipFile" class, as well as the
+"open()", "compress()" and "decompress()" convenience functions. The

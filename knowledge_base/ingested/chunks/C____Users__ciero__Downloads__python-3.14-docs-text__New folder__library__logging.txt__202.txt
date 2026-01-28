@@ -1,0 +1,3 @@
+|                  |                           | up to and including the stack frame of the      |
+|                  |                           | logging call which resulted in the creation of  |
+|                  |                           | this record.                                    |

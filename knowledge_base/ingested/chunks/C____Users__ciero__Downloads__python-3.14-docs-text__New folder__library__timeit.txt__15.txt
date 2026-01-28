@@ -1,0 +1,4 @@
+don't contain multi-line string literals.  The statement will by
+   default be executed within timeit's namespace; this behavior can be
+   controlled by passing a namespace to *globals*.
+   To measure the execution time of the first statement, use the

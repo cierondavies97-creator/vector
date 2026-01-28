@@ -1,0 +1,4 @@
+When *walk_up* is false (the default), the path must start with
+   *other*. When the argument is true, ".." entries may be added to
+   form the relative path. In all other cases, such as the paths
+   referencing different drives, "ValueError" is raised.:

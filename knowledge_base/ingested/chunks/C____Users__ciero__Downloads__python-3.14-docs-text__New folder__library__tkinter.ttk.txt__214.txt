@@ -1,0 +1,7 @@
+widget, use the method "Misc.winfo_class()"
+(somewidget.winfo_class()).
+See also:
+  Tcl'2004 conference presentation
+     This document explains how the theme engine works
+class tkinter.ttk.Style
+   This class is used to manipulate the style database.

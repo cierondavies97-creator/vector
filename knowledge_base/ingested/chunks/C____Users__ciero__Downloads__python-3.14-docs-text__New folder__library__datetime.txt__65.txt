@@ -1,0 +1,5 @@
+------------------------------
+An additional example of normalization:
+   >>> # Components of another_year add up to exactly 365 days
+   >>> from datetime import timedelta
+   >>> year = timedelta(days=365)

@@ -1,0 +1,5 @@
+use this, you can read the module source code to learn the details.
+shlex.lineno
+   Source line number (count of newlines seen so far plus one).
+shlex.token
+   The token buffer.  It may be useful to examine this when catching

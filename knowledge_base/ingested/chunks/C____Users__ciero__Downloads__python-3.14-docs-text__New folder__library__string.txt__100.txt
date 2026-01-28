@@ -1,0 +1,3 @@
+|           | decimal point, for a total of "p + 1" significant digits.  |
+   |           | With no precision given, uses a precision of "6" digits    |
+   |           | after the decimal point for "float", and shows all         |

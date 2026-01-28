@@ -1,0 +1,4 @@
+Open *file* and return a corresponding *file object*.  If the file
+   cannot be opened, an "OSError" is raised. See Reading and Writing
+   Files for more examples of how to use this function.
+   *file* is a *path-like object* giving the pathname (absolute or

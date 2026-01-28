@@ -1,0 +1,4 @@
+number of lines that will be written to a history file.)
+readline.get_history_item(index)
+   Return the current contents of history item at *index*.  The item
+   index is one-based.  This calls "history_get()" in the underlying

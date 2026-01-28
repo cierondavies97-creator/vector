@@ -1,0 +1,4 @@
+and "denominator" (if present) are strings of decimal digits
+   (underscores may be used to delimit digits as with integral
+   literals in code).  In addition, any string that represents a
+   finite value and is accepted by the "float" constructor is also

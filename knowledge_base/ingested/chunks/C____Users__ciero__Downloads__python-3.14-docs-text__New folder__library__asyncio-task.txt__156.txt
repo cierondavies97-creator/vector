@@ -1,0 +1,5 @@
+for fut in concurrent.futures.as_completed((loop_fut, complete_fut)):
+                  if fut is loop_fut:
+                      loop = loop_fut.result()
+                      try:
+                          yield loop

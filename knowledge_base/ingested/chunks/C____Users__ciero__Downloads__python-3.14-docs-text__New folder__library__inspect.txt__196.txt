@@ -1,0 +1,5 @@
+from the "arguments" attribute.
+   kwargs
+      A dict of keyword arguments values.  Dynamically computed from
+      the "arguments" attribute.  Arguments that can be passed
+      positionally are included in "args" instead.

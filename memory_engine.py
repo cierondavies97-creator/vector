@@ -191,12 +191,23 @@ class MemoryEngine:
                 except Exception:
                     metadata = {}
 
-            # -------- ensure tags --------
+            # ---- explicit retrieval diagnostics (NO inference) ----
+            metadata.setdefault("retrieval", {})
+            metadata["retrieval"].update(
+                {
+                    "engine": "faiss",
+                    "metric": "inner_product",
+                    "normalized_embeddings": True,
+                    "score": c.score,
+                    "rank": c.rank,
+                }
+            )
+
+            # ---- namespace tag (explicit, not inferred) ----
             tags = list(metadata.get("tags", []))
             if "namespace:file" not in tags:
                 tags.append("namespace:file")
             metadata["tags"] = tags
-
 
             out.append(
                 RetrievedItem(

@@ -1,0 +1,4 @@
+easier to test that a warning was correctly raised.  It is
+   approximately equivalent to calling
+   "warnings.catch_warnings(record=True)" with
+   "warnings.simplefilter()" set to "always" and with the option to

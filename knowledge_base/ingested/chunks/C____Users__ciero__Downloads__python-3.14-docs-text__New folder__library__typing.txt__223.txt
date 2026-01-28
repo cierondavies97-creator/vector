@@ -1,0 +1,6 @@
+def func1(val: list[object]):
+          if is_str_list(val):
+              # Type of ``val`` is narrowed to ``list[str]``.
+              print(" ".join(val))
+          else:
+              # Type of ``val`` remains as ``list[object]``.

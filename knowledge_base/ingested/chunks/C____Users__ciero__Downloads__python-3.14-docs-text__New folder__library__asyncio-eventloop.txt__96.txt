@@ -1,0 +1,3 @@
+Changed in version 3.8.1: The *reuse_address* parameter is no
+   longer supported, as using socket.SO_REUSEADDR poses a significant
+   security concern for UDP. Explicitly passing "reuse_address=True"

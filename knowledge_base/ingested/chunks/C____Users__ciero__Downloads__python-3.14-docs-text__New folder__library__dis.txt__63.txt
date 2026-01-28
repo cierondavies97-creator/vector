@@ -1,0 +1,7 @@
+to "offset"
+   cache_offset
+      start index of the cache entries following the operation
+   end_offset
+      end index of the cache entries following the operation
+   starts_line
+      "True" if this opcode starts a source line, otherwise "False"

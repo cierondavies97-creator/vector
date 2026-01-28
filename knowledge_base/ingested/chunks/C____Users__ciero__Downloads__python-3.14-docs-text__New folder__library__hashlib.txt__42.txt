@@ -1,0 +1,4 @@
+function must be tunable, slow, and include a salt.
+hashlib.pbkdf2_hmac(hash_name, password, salt, iterations, dklen=None)
+   The function provides PKCS#5 password-based key derivation function
+   2. It uses HMAC as pseudorandom function.

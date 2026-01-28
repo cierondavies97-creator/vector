@@ -1,0 +1,4 @@
+the child process prior to the execution of the subprocess. If the
+   provided value is a string, it will be looked up via
+   "pwd.getpwnam()" and the value in "pw_uid" will be used. If the
+   value is an integer, it will be passed verbatim. (POSIX only)

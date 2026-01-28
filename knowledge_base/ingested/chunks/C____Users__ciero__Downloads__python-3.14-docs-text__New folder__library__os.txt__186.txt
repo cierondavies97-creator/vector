@@ -1,0 +1,6 @@
+errno to "errno.EAGAIN".
+   Availability: Linux >= 4.14.
+   Added in version 3.7.
+os.RWF_HIPRI
+   High priority read/write. Allows block-based filesystems to use
+   polling of the device, which provides lower latency, but may use

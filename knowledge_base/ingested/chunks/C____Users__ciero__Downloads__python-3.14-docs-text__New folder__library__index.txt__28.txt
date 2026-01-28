@@ -1,0 +1,4 @@
+* "platform" ---  Access to underlying platform's identifying data
+  * "errno" --- Standard errno system symbols
+  * "ctypes" --- A foreign function library for Python
+* Command-line interface libraries

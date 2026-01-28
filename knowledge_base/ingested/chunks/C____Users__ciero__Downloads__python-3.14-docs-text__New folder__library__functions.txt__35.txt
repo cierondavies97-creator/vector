@@ -1,0 +1,4 @@
+Note that classes are callable (calling a class returns a new
+   instance); instances are callable if their class has a "__call__()"
+   method.
+   Added in version 3.2: This function was first removed in Python 3.0

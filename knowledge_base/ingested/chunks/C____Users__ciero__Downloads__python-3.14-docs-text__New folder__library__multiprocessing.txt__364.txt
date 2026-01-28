@@ -1,0 +1,4 @@
+*maxtasksperchild* is "None", which means worker processes will
+   live as long as the pool.
+   *context* can be used to specify the context used for starting the
+   worker processes.  Usually a pool is created using the function

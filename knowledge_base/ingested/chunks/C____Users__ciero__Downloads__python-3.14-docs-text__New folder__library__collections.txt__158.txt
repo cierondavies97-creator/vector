@@ -1,0 +1,5 @@
+>>> Point3D = namedtuple('Point3D', Point._fields + ('z',))
+Docstrings can be customized by making direct assignments to the
+"__doc__" fields:
+>>> Book = namedtuple('Book', ['id', 'title', 'authors'])
+>>> Book.__doc__ += ': Hardcover book in active collection'

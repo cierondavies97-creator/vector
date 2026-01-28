@@ -1,0 +1,3 @@
+supports HTTP/1.1.
+   Added in version 3.14.
+class http.server.ThreadingHTTPSServer(server_address, RequestHandlerClass, bind_and_activate=True, *, certfile, keyfile=None, password=None, alpn_protocols=None)

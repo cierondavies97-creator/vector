@@ -1,0 +1,3 @@
+processes. If the shell is invoked explicitly, via "shell=True", it is
+the application's responsibility to ensure that all whitespace and
+metacharacters are quoted appropriately to avoid shell injection

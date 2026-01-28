@@ -1,0 +1,4 @@
+passing a callable object to the constructor, or by overriding the
+"run()" method in a subclass.  No other methods (except for the
+constructor) should be overridden in a subclass.  In other words,
+*only*  override the "__init__()" and "run()" methods of this class.

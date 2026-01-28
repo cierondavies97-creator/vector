@@ -1,0 +1,4 @@
+many files).  Returning true from "domain_return_ok()" and
+   "path_return_ok()" leaves all the work to "return_ok()".
+   If "domain_return_ok()" returns true for the cookie domain,
+   "path_return_ok()" is called for the cookie path.  Otherwise,

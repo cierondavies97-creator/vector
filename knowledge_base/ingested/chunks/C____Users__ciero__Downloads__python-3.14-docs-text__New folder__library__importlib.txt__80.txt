@@ -1,0 +1,4 @@
+Reads *path* as a binary file and returns the bytes from it.
+class importlib.abc.SourceLoader
+   An abstract base class for implementing source (and optionally
+   bytecode) file loading. The class inherits from both

@@ -1,0 +1,6 @@
+Replacing Older Functions with the "subprocess" Module
+======================================================
+In this section, "a becomes b" means that b can be used as a
+replacement for a.
+Note:
+  All "a" functions in this section fail (more or less) silently if

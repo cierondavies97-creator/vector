@@ -1,0 +1,5 @@
+Custom Python Interpreters
+**************************
+The modules described in this chapter allow writing interfaces similar
+to Python's interactive interpreter.  If you want a Python interpreter
+that supports some special feature in addition to the Python language,

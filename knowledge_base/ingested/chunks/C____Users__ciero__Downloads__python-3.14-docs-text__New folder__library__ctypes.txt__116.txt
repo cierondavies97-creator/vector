@@ -1,0 +1,6 @@
+integers named *x* and *y*, and also shows how to initialize a
+structure in the constructor:
+   >>> from ctypes import *
+   >>> class POINT(Structure):
+   ...     _fields_ = [("x", c_int),
+   ...                 ("y", c_int)]

@@ -1,0 +1,5 @@
+method with the same name to access any attributes it needs, for
+   example, "object.__getattribute__(self, name)".
+   Note:
+     This method may still be bypassed when looking up special methods
+     as the result of implicit invocation via language syntax or

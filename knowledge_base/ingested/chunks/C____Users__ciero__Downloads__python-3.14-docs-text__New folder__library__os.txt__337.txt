@@ -1,0 +1,4 @@
+included in that mapping, passing an integer for *name* is also
+   accepted.
+   If *name* is a string and is not known, "ValueError" is raised.  If
+   a specific value for *name* is not supported by the host system,

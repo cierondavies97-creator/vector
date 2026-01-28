@@ -1,0 +1,4 @@
+class importlib.metadata.PackagePath
+   A "pathlib.PurePath" derived object with additional "dist", "size",
+   and "hash" properties corresponding to the distribution package's
+   installation metadata for that file.

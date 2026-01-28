@@ -1,0 +1,4 @@
+both compression and decompression). Additionally, data
+        compressed in this manner cannot be decompressed using
+        "FORMAT_AUTO" (see "LZMADecompressor").
+   The *check* argument specifies the type of integrity check to

@@ -1,0 +1,4 @@
+with the "set()" method and reset to *false* with the "clear()"
+   method.  The "wait()" method blocks until the flag is set to
+   *true*.  The flag is set to *false* initially.
+   Changed in version 3.10: Removed the *loop* parameter.

@@ -1,0 +1,3 @@
+used to embed "XML literals" in Python code.  *text* is a string
+   containing XML data.  *parser* is an optional parser instance.  If
+   not given, the standard "XMLParser" parser is used.  Returns an

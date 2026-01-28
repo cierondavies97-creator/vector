@@ -1,0 +1,5 @@
+--without-doc-strings" option.
+   See also the "HAVE_DOCSTRINGS" variable.
+test.support.HAVE_DOCSTRINGS
+   Set to "True" if function docstrings are available. See the "python
+   -OO" option, which strips docstrings of functions implemented in

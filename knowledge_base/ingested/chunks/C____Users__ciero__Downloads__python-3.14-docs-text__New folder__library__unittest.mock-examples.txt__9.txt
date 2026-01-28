@@ -1,0 +1,6 @@
+check that it was called correctly.
+>>> real = ProductionClass()
+>>> mock = Mock()
+>>> real.closer(mock)
+>>> mock.close.assert_called_with()
+We don't have to do any work to provide the 'close' method on our

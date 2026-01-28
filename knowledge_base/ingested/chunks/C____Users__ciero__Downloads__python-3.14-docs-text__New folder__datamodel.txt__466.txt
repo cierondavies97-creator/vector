@@ -1,0 +1,5 @@
+A.x = c                  # The hook is not called
+      c.__set_name__(A, 'x')   # Manually invoke the hook
+   See Creating the class object for more details.
+   Added in version 3.6.
+3.3.3.1. Metaclasses

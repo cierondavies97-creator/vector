@@ -1,0 +1,5 @@
+The "test.support.import_helper" module provides support for import
+tests.
+Added in version 3.10.
+test.support.import_helper.forget(module_name)
+   Remove the module named *module_name* from "sys.modules" and delete

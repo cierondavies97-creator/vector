@@ -1,0 +1,4 @@
+to be released must be accessed as closure variables.
+Using a context manager as a function decorator
+-----------------------------------------------
+"ContextDecorator" makes it possible to use a context manager in both

@@ -1,0 +1,4 @@
+computer science, invented by the early Dutch computer scientist
+Edsger W. Dijkstra (he used the names "P()" and "V()" instead of
+"acquire()" and "release()").
+A semaphore manages an internal counter which is decremented by each

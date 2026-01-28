@@ -1,0 +1,2 @@
++-----------------------------+----------------------------------------+----------------------------+
+| InstallLauncherAllUsers     | Installs the launcher for all users.   | 1                          |

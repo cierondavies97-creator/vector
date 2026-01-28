@@ -1,0 +1,5 @@
+Examples
+========
+The "bisect()" function can be useful for numeric table lookups. This
+example uses "bisect()" to look up a letter grade for an exam score
+(say) based on a set of ordered numeric breakpoints: 90 and up is an

@@ -1,0 +1,4 @@
+s = +s  # Round the final result back to the default precision
+   Using keyword arguments, the code would be the following:
+      from decimal import localcontext
+      with localcontext(prec=42) as ctx:

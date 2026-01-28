@@ -1,0 +1,6 @@
+is recognized as an IoT edition.
+   Added in version 3.8.
+macOS platform
+==============
+platform.mac_ver(release='', versioninfo=('', '', ''), machine='')
+   Get macOS version information and return it as tuple "(release,

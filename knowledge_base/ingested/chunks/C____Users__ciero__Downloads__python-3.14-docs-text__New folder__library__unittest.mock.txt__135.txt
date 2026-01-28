@@ -1,0 +1,6 @@
+>>> mock.assert_awaited()
+      Traceback (most recent call last):
+      ...
+      AssertionError: Expected mock to have been awaited.
+      >>> asyncio.run(main(coroutine_mock))
+      >>> mock.assert_awaited()

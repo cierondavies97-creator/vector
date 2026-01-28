@@ -1,0 +1,4 @@
+If an iterable of key names is passed to the "only_keys" parameter,
+   only the specified keys will be removed from the cache. Keys passed
+   to "only_keys" but not found in the cache are ignored.
+   Warning:

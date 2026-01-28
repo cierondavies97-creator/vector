@@ -1,0 +1,4 @@
+already scheduled), and then exit.
+   If "stop()" is called while "run_forever()" is running, the loop
+   will run the current batch of callbacks and then exit. Note that
+   new callbacks scheduled by callbacks will not run in this case;

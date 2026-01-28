@@ -1,0 +1,4 @@
+>>> displaymatch(pair.match("718ak"))     # No pairs.
+   >>> displaymatch(pair.match("354aa"))     # Pair of aces.
+   "<Match: '354aa', groups=('a',)>"
+To find out what card the pair consists of, one could use the

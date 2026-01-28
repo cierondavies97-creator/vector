@@ -1,0 +1,4 @@
+named *dst* and return *dst* in the most efficient way possible.
+   *src* and *dst* are *path-like objects* or path names given as
+   strings.
+   *dst* must be the complete target file name; look at "copy()" for a

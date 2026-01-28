@@ -1,0 +1,5 @@
+"re" --- Regular expression operations
+**************************************
+**Source code:** Lib/re/
+======================================================================
+This module provides regular expression matching operations similar to

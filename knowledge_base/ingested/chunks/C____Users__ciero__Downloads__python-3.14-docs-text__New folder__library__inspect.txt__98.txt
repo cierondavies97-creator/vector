@@ -1,0 +1,7 @@
+"importlib".
+inspect.ismodule(object)
+   Return "True" if the object is a module.
+inspect.isclass(object)
+   Return "True" if the object is a class, whether built-in or created
+   in Python code.
+inspect.ismethod(object)

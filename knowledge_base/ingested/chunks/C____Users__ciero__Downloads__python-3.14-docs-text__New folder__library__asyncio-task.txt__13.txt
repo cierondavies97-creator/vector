@@ -1,0 +1,4 @@
+print(f"started at {time.strftime('%X')}")
+         # The await is implicit when the context manager exits.
+         print(f"finished at {time.strftime('%X')}")
+  The timing and output should be the same as for the previous

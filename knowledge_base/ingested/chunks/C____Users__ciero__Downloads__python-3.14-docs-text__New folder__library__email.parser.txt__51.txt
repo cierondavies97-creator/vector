@@ -1,0 +1,4 @@
+"is_multipart()" method will return "True". The single element
+  yielded by "iter_parts()" will be a sub-message object.
+* Some non-standards-compliant messages may not be internally
+  consistent about their *multipart*-edness.  Such messages may have a

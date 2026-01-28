@@ -1,0 +1,8 @@
+t2.start()
+           p.wait()
+           t1.join()
+           t2.join()
+           if progress is not None:
+               progress('done.', 'main')
+           else:
+               sys.stderr.write('done.\n')

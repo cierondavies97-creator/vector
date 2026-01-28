@@ -1,0 +1,4 @@
+*name* argument.  This feature is similar to "*.pth" files (see the
+   "site" module for more information), except that it doesn't
+   special-case lines starting with "import".  A "*.pkg" file is
+   trusted at face value: apart from skipping blank lines and ignoring

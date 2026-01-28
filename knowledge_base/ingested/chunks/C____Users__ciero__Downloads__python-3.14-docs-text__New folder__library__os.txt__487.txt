@@ -1,0 +1,5 @@
+"ns", "dir_fd".
+   Changed in version 3.3: Added support for specifying *path* as an
+   open file descriptor, and the *dir_fd*, *follow_symlinks*, and *ns*
+   parameters.
+   Changed in version 3.6: Accepts a *path-like object*.

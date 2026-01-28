@@ -1,0 +1,7 @@
+"test".
+Further Examples
+================
+Here are some more examples for some slightly more advanced scenarios.
+Mocking chained calls
+---------------------
+Mocking chained calls is actually straightforward with mock once you

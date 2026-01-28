@@ -1,0 +1,5 @@
+options:
+    --foo FOO  foo help
+The help option is typically "-h/--help". The exception to this is if
+the "prefix_chars=" is specified and does not include "-", in which
+case "-h" and "--help" are not valid options.  In this case, the first

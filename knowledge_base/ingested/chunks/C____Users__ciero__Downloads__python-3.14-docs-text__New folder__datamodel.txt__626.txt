@@ -1,0 +1,3 @@
+"__await__()".  If *value* is not "None", this method delegates to
+   the "send()" method of the iterator that caused the coroutine to
+   suspend.  The result (return value, "StopIteration", or other

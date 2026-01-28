@@ -1,0 +1,6 @@
+* "oparg == 3": call "ascii()" on *value*
+   Used for implementing formatted string literals (f-strings).
+   Added in version 3.13.
+FORMAT_SIMPLE
+   Formats the value on top of stack:
+      value = STACK.pop()

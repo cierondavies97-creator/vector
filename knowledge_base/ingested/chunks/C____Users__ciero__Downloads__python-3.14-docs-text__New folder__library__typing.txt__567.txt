@@ -1,0 +1,5 @@
+returned by the "__aexit__()" method.
+   Added in version 3.6.2.
+   Deprecated since version 3.9:
+   "contextlib.AbstractAsyncContextManager" now supports subscripting
+   ("[]"). See **PEP 585** and Generic Alias Type.

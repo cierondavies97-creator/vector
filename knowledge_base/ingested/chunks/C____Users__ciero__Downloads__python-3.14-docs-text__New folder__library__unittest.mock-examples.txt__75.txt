@@ -1,0 +1,5 @@
+...         self.backend = BackendProvider()
+...     def method(self):
+...         response = self.backend.get_endpoint('foobar').create_call('spam', 'eggs').start_call()
+...         # more code
+Assuming that "BackendProvider" is already well tested, how do we test

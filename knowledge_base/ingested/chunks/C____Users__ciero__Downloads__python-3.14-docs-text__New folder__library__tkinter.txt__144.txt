@@ -1,0 +1,5 @@
+and the Tk Toolkit (2nd edition)*, for details).
+func
+   is a Python function, taking one argument, to be invoked when the
+   event occurs. An Event instance will be passed as the argument.
+   (Functions deployed this way are commonly known as *callbacks*.)

@@ -1,0 +1,4 @@
+data = authobject(response)
+   It will be called to process server continuation responses; the
+   *response* argument it is passed will be "bytes".  It should return
+   "bytes" *data* that will be base64 encoded and sent to the server.

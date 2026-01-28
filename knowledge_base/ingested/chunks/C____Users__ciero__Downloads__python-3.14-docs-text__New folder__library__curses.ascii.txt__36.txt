@@ -1,0 +1,5 @@
+"isupper(c) or islower(c)".
+curses.ascii.isascii(c)
+   Checks for a character value that fits in the 7-bit ASCII set.
+curses.ascii.isblank(c)
+   Checks for an ASCII whitespace character; space or horizontal tab.

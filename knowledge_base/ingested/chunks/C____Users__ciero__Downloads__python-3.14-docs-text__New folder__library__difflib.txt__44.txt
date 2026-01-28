@@ -1,0 +1,4 @@
+default is module-level function "IS_CHARACTER_JUNK()", which
+   filters out whitespace characters (a blank or tab; it's a bad idea
+   to include newline in this!).
+   >>> diff = ndiff('one\ntwo\nthree\n'.splitlines(keepends=True),

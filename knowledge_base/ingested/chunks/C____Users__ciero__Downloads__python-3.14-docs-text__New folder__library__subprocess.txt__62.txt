@@ -1,0 +1,4 @@
+directory and *env* cannot override the "PATH" environment
+     variable. Using a full path avoids all of these variations.
+   An example of passing some arguments to an external program as a
+   sequence is:

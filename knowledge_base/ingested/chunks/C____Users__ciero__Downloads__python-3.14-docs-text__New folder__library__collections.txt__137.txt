@@ -1,0 +1,4 @@
+Changed in version 3.6: The *verbose* and *rename* parameters
+   became keyword-only arguments.
+   Changed in version 3.6: Added the *module* parameter.
+   Changed in version 3.7: Removed the *verbose* parameter and the

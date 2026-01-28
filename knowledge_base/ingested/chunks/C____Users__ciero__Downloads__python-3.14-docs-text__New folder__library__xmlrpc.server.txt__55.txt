@@ -1,0 +1,4 @@
+Create a new server instance. All parameters have the same meaning
+   as for "SimpleXMLRPCServer"; *requestHandler* defaults to
+   "DocXMLRPCRequestHandler".
+   Changed in version 3.3: The *use_builtin_types* flag was added.

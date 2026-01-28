@@ -1,0 +1,5 @@
+cause all currently defined debug output to be printed to stdout.
+   The "debuglevel" is passed to any new "HTTPResponse" objects that
+   are created.
+   Added in version 3.1.
+HTTPConnection.set_tunnel(host, port=None, headers=None)

@@ -1,0 +1,4 @@
+"PYTHONNODEBUGRANGES" environment variable can be used.
+codeobject.co_lines()
+   Returns an iterator that yields information about successive ranges
+   of *bytecode*s. Each item yielded is a "(start, end, lineno)"

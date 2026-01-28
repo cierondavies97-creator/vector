@@ -1,0 +1,3 @@
+is stored externally (for instance, in the file system), a synchronous
+class will essentially render the service "deaf" while one request is
+being handled -- which may be for a very long time if a client is slow

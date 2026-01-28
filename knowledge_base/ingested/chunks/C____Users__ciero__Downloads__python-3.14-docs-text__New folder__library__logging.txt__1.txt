@@ -1,0 +1,6 @@
+information and discussion of more advanced topics, see
+* Basic Tutorial
+* Advanced Tutorial
+* Logging Cookbook
+======================================================================
+This module defines functions and classes which implement a flexible

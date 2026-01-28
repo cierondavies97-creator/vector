@@ -1,0 +1,5 @@
+"None".
+   read1(size=-1, /)
+      Read and return up to *size* bytes, calling "readinto()" which
+      may retry if "EINTR" is encountered per **PEP 475**. If *size*
+      is "-1" or not provided, the implementation will choose an

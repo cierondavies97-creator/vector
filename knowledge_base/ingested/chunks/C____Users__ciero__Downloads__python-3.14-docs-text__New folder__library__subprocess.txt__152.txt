@@ -1,0 +1,5 @@
+Warning:
+  Use "communicate()" rather than ".stdin.write", ".stdout.read" or
+  ".stderr.read" to avoid deadlocks due to any of the other OS pipe
+  buffers filling up and blocking the child process.
+Popen.pid

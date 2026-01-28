@@ -1,0 +1,3 @@
+be combined — for example, how "starmap()" and "repeat()" can work
+together.  The recipes also show patterns for using itertools with the
+"operator" and "collections" modules as well as with the built-in

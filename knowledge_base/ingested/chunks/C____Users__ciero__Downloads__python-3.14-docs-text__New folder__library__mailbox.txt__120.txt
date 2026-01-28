@@ -1,0 +1,4 @@
+*factory* is a callable object that accepts a file-like message
+   representation (which behaves as if opened in binary mode) and
+   returns a custom representation. If *factory* is "None",
+   "MMDFMessage" is used as the default message representation. If

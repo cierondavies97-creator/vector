@@ -1,0 +1,6 @@
+as they don't overwrite each other's attributes or unintentionally
+   overwrite the standard attributes listed above, there should be no
+   surprises.
+LogRecord attributes
+====================
+The LogRecord has a number of attributes, most of which are derived

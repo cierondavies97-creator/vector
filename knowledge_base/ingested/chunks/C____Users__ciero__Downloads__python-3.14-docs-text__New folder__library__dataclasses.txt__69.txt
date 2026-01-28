@@ -1,0 +1,5 @@
+recursed into. Other objects are copied with "copy.deepcopy()".
+   Continuing from the previous example:
+      assert astuple(p) == (10, 20)
+      assert astuple(c) == ([(0, 0), (10, 4)],)
+   To create a shallow copy, the following workaround may be used:

@@ -1,0 +1,4 @@
+sequence should be accepted as shorthand for 4 consecutive spaces
+   (ASCII 0x20). This feature is not supported by the "standard"
+   Ascii85 encoding.
+   *adobe* controls whether the input sequence is in Adobe Ascii85

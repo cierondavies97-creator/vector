@@ -1,0 +1,4 @@
+Py_BuildValue("()")                      ()
+   Py_BuildValue("(i)", 123)                (123,)
+   Py_BuildValue("(ii)", 123, 456)          (123, 456)
+   Py_BuildValue("(i,i)", 123, 456)         (123, 456)

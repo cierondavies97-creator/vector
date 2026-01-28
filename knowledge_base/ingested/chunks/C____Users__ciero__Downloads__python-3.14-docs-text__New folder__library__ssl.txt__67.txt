@@ -1,0 +1,5 @@
+tuples. The encoding_type specifies the encoding of cert_bytes. It
+   is either "x509_asn" for X.509 ASN.1 data or "pkcs_7_asn" for
+   PKCS#7 ASN.1 data.
+   Availability: Windows.
+   Added in version 3.4.

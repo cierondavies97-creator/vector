@@ -1,0 +1,5 @@
+in derived classes.
+      Added in version 3.8.
+   npgettext(context, singular, plural, n)
+      If a fallback has been set, forward "npgettext()" to the
+      fallback. Otherwise, return the translated message.  Overridden

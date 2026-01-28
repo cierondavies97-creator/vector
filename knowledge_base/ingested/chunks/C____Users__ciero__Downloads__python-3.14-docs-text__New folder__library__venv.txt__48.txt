@@ -1,0 +1,3 @@
+"EnvBuilder" class.
+class venv.EnvBuilder(system_site_packages=False, clear=False, symlinks=False, upgrade=False, with_pip=False, prompt=None, upgrade_deps=False, *, scm_ignore_files=frozenset())
+   The "EnvBuilder" class accepts the following keyword arguments on

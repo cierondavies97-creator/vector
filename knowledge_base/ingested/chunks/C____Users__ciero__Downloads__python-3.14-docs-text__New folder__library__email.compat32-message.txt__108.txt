@@ -1,0 +1,4 @@
+However, it does *not* preserve any continuation lines which may
+      have been present in the original *Content-Type* header.
+   get_content_charset(failobj=None)
+      Return the "charset" parameter of the *Content-Type* header,

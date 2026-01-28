@@ -1,0 +1,4 @@
+os.TFD_TIMER_ABSTIME
+   A flag for the "timerfd_settime()" and "timerfd_settime_ns()"
+   functions. If this flag is set, *initial* is interpreted as an
+   absolute value on the timer's clock (in UTC seconds or nanoseconds

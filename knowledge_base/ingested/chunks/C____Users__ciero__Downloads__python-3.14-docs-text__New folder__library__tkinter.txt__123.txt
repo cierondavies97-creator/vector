@@ -1,0 +1,4 @@
+# Define a callback for when the user hits return.
+           # It prints the current value of the variable.
+           self.entrythingy.bind('<Key-Return>',
+                                self.print_contents)

@@ -1,0 +1,6 @@
+needed.  For example, in a module that wants to implement an "open()"
+function that wraps the built-in "open()", this module can be used
+directly:
+   import builtins
+   def open(path):
+       f = builtins.open(path, 'r')

@@ -1,0 +1,4 @@
+frame.clear()
+   This method clears all references to local variables held by the
+   frame.  Also, if the frame belonged to a *generator*, the generator
+   is finalized.  This helps break reference cycles involving frame

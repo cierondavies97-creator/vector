@@ -1,0 +1,2 @@
+|                                   |                                   | "10**e" is in the range of        |
+   |                                   |                                   | representable finite floats.      |

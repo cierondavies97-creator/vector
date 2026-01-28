@@ -1,0 +1,5 @@
+"collections.abc" --- Abstract Base Classes for Containers
+**********************************************************
+Added in version 3.3: Formerly, this module was part of the
+"collections" module.
+**Source code:** Lib/_collections_abc.py

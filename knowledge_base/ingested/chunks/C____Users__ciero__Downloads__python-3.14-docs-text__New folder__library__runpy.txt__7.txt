@@ -1,0 +1,4 @@
+populate the module's globals dictionary before the code is
+   executed. *init_globals* will not be modified. If any of the
+   special global variables below are defined in *init_globals*, those
+   definitions are overridden by "run_module()".

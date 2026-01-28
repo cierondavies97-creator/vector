@@ -1,0 +1,4 @@
+"'sys.stderr'".  To facilitate this distinction, the configuration
+system looks for certain special prefixes in string values and treat
+them specially.  For example, if the literal string
+"'ext://sys.stderr'" is provided as a value in the configuration, then

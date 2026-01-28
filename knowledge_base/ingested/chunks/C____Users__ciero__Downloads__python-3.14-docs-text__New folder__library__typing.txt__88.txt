@@ -1,0 +1,6 @@
+...
+   >>> Z[int, [dict, float]]
+   __main__.Z[int, [dict, float]]
+Classes generic over a "ParamSpec" can also be created using explicit
+inheritance from "Generic". In this case, "**" is not used:
+   from typing import ParamSpec, Generic

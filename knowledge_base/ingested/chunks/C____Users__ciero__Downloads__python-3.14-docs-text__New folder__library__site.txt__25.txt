@@ -1,0 +1,4 @@
+======================
+On systems that support "readline", this module will also import and
+configure the "rlcompleter" module, if Python is started in
+interactive mode and without the "-S" option. The default behavior is

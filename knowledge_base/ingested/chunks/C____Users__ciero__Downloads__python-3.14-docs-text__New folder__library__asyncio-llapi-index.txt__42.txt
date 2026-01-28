@@ -1,0 +1,2 @@
+| "await" "loop.connect_read_pipe()"                 | Wrap a read end of a pipe into a "(transport,      |
+|                                                    | protocol)" pair.                                   |

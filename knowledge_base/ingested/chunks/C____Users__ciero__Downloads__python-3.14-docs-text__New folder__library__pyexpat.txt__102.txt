@@ -1,0 +1,4 @@
+The values of the first two fields are constants defined in the
+"xml.parsers.expat.model" module.  These constants can be collected in
+two groups: the model type group and the quantifier group.
+The constants in the model type group are:

@@ -1,0 +1,3 @@
+the input datetime, and "datetime2 - datetime1 == timedelta" after.
+   "OverflowError" is raised if "datetime2.year" would be smaller than
+   "MINYEAR" or larger than "MAXYEAR". Note that no time zone

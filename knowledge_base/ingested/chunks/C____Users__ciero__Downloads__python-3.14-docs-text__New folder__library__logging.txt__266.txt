@@ -1,0 +1,3 @@
+|                | or *stream* - if both are present, a          |
+   |                | "ValueError" is raised.                       |
+   +----------------+-----------------------------------------------+

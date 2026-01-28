@@ -1,0 +1,5 @@
+the following sort calls:
+   p.sort_stats(SortKey.NAME)
+   p.print_stats()
+The first call will actually sort the list by function name, and the
+second call will print out the statistics.  The following are some

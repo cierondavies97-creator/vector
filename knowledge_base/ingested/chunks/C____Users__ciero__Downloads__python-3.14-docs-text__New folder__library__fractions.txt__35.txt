@@ -1,0 +1,6 @@
+the "float" type in the Format Specification Mini-Language
+      section.
+      Here are some examples:
+         >>> from fractions import Fraction
+         >>> format(Fraction(103993, 33102), '_')
+         '103_993/33_102'

@@ -1,0 +1,5 @@
+of its fields, in order.  Both instances in the comparison must
+     be of the identical type.
+     If the class already defines "__eq__()", this parameter is
+     ignored.
+   * *order*: If true (the default is "False"), "__lt__()",

@@ -1,0 +1,4 @@
+"patch()". These arguments will be applied to *all* patches done by
+   "patch.multiple()".
+   When used as a class decorator "patch.multiple()" honours
+   "patch.TEST_PREFIX" for choosing which methods to wrap.

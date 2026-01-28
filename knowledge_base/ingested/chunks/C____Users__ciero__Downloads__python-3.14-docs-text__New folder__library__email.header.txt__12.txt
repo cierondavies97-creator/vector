@@ -1,0 +1,4 @@
+header with "append()" method calls.  *s* may be an instance of
+   "bytes" or "str", but see the "append()" documentation for
+   semantics.
+   Optional *charset* serves two purposes: it has the same meaning as

@@ -1,0 +1,5 @@
+The W3C recommendation upon which the Python DOM API is based.
+  Document Object Model (DOM) Level 1 Specification
+     The W3C recommendation for the DOM supported by
+     "xml.dom.minidom".
+  Python Language Mapping Specification

@@ -1,0 +1,7 @@
+may be available (but may be only filled out if root tries to use
+   them):
+   st_gen
+      File generation number.
+   On Solaris and derivatives, the following attributes may also be
+   available:
+   st_fstype

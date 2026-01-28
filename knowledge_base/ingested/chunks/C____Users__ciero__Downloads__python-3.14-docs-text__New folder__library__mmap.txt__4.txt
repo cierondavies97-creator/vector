@@ -1,0 +1,3 @@
+existing Python file object, use its "fileno()" method to obtain the
+correct value for the *fileno* parameter.  Otherwise, you can open the
+file using the "os.open()" function, which returns a file descriptor

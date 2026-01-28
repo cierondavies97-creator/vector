@@ -1,0 +1,4 @@
+carriage return); failing to do this will result in an XML-RPC
+   request that isn't well-formed XML.  If you have to pass arbitrary
+   bytes via XML-RPC, use "bytes" or "bytearray" classes or the
+   "Binary" wrapper class described below.

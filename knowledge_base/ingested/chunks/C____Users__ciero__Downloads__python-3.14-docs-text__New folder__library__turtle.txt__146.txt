@@ -1,0 +1,7 @@
+arguments.
+      >>> turtle.resizemode()
+      'noresize'
+      >>> turtle.resizemode("auto")
+      >>> turtle.resizemode()
+      'auto'
+turtle.shapesize(stretch_wid=None, stretch_len=None, outline=None)

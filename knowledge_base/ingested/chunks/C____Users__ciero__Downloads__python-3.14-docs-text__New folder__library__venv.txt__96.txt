@@ -1,0 +1,5 @@
+creation request being processed.
+           """
+           os.environ['VIRTUAL_ENV'] = context.env_dir
+           if not self.nodist:
+               self.install_setuptools(context)

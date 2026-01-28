@@ -1,0 +1,4 @@
+the convenience functions) accept a large number of optional
+arguments. For most typical use cases, many of these arguments can be
+safely left at their default values. The arguments that are most
+commonly needed are:

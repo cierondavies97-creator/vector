@@ -1,0 +1,5 @@
+Task or a callback.  If there's a need for such code to call a low-
+level asyncio API, the "loop.call_soon_threadsafe()" method should be
+used, e.g.:
+   loop.call_soon_threadsafe(fut.cancel)
+To schedule a coroutine object from a different OS thread, the

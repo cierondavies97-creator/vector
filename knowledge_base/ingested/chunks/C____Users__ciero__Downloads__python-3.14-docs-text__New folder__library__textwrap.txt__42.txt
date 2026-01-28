@@ -1,0 +1,6 @@
+Added in version 3.4.
+   placeholder
+      (default: "' [...]'") String that will appear at the end of the
+      output text if it has been truncated.
+      Added in version 3.4.
+   "TextWrapper" also provides some public methods, analogous to the

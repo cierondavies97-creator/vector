@@ -1,0 +1,4 @@
+will be initially zeroed. Otherwise, *size_or_initializer* is a
+   sequence which is used to initialize the array and whose length
+   determines the length of the array.
+   If *lock* is "True" (the default) then a new lock object is created

@@ -1,0 +1,4 @@
+at a time for "ForkingMixIn".  If the limit is reached, new
+      requests will wait until one child process has finished.
+   daemon_threads
+      For "ThreadingMixIn" use daemonic threads by setting

@@ -1,0 +1,5 @@
+>>> s2 = ['python\n', 'eggy\n', 'hamster\n', 'guido\n']
+   >>> sys.stdout.writelines(context_diff(s1, s2, fromfile='before.py',
+   ...                        tofile='after.py'))
+   *** before.py
+   --- after.py

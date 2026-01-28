@@ -1,0 +1,4 @@
+open file descriptor (passing "os.open" as *opener* results in
+   functionality similar to passing "None").
+   The newly created file is non-inheritable.
+   See the "open()" built-in function for examples on using the

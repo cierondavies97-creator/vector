@@ -1,0 +1,4 @@
+Comment  : a comment
+   Comment  : [if IE 9]>IE-specific content<![endif]
+Parsing named and numeric character references and converting them to
+the correct char (note: these 3 references are all equivalent to

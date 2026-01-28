@@ -1,0 +1,4 @@
+this module now uses parsing rules that are a bit less strict than
+they once were.
+The character set, "string.ascii_letters", "string.digits" and
+"!#$%&'*+-.^_`|~:" denote the set of valid characters allowed by this

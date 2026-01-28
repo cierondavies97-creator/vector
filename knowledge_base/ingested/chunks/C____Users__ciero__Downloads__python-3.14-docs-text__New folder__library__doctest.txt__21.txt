@@ -1,0 +1,5 @@
+no effect).
+There is also a command line shortcut for running "testmod()", see
+section Command-line Usage.
+For more information on "testmod()", see section Basic API.
+Simple Usage: Checking Examples in a Text File

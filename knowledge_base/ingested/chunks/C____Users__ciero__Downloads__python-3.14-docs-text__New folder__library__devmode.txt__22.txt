@@ -1,0 +1,3 @@
+longer than expected; it can cause severe issues upon exiting Python.
+It is bad in CPython, but it is even worse in PyPy. Closing resources
+explicitly makes an application more deterministic and more reliable.

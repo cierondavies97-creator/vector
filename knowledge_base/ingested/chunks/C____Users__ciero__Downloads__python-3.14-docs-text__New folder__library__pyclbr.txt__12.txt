@@ -1,0 +1,7 @@
+"False" otherwise.
+      Added in version 3.10.
+Class Objects
+=============
+class pyclbr.Class
+   Class "Class" instances describe classes defined by class
+   statements.  They have the same attributes as "Functions" and two

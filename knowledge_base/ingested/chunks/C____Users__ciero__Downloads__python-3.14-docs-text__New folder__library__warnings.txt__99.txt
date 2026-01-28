@@ -1,0 +1,3 @@
+it is inserted at the end.  This checks the types of the arguments,
+   compiles the *message* and *module* regular expressions, and
+   inserts them as a tuple in the list of warnings filters.  Entries

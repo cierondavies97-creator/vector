@@ -1,0 +1,3 @@
+| "'e'"        | Floating-point exponential format (lowercase).        | (3)     |
++--------------+-------------------------------------------------------+---------+
+| "'E'"        | Floating-point exponential format (uppercase).        | (3)     |

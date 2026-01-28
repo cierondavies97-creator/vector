@@ -1,0 +1,4 @@
+Platforms, the calling convention for variadic functions is different
+than that for regular functions.
+On those platforms it is required to specify the "argtypes" attribute
+for the regular, non-variadic, function arguments:

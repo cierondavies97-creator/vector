@@ -1,0 +1,4 @@
+happening by having a coding convention or strategy that minimizes
+this kind of errors.
+Since Python makes heavy use of "malloc()" and "free()", it needs a
+strategy to avoid memory leaks as well as the use of freed memory.

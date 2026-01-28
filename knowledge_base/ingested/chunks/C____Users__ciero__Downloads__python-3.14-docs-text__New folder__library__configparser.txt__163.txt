@@ -1,0 +1,4 @@
+will be read.
+      If none of the named files exist, the "ConfigParser" instance
+      will contain an empty dataset.  An application which requires
+      initial values to be loaded from a file should load the required

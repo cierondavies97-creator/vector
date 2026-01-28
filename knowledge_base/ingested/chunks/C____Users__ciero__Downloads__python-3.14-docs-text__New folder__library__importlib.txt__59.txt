@@ -1,0 +1,4 @@
+from the storage back-end.
+      Deprecated since version 3.7: This ABC is deprecated in favour
+      of supporting resource loading through
+      "importlib.resources.abc.TraversableResources". This class

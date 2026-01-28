@@ -1,0 +1,6 @@
+For backward compatibility, generic type aliases can also be created
+through a simple assignment:
+   from collections.abc import Iterable
+   from typing import TypeVar
+   S = TypeVar("S")
+   Response = Iterable[S] | int

@@ -1,0 +1,4 @@
+The type of traceback objects such as found in
+   "sys.exception().__traceback__".
+   See the language reference for details of the available attributes
+   and operations, and guidance on creating tracebacks dynamically.

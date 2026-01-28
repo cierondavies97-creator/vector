@@ -1,0 +1,4 @@
+HTTP response from a web server, and then returned to the server in
+later HTTP requests.
+Both the regular Netscape cookie protocol and the protocol defined by
+**RFC 2965** are handled.  RFC 2965 handling is switched off by

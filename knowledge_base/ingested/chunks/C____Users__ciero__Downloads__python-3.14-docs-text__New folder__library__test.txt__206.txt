@@ -1,0 +1,4 @@
+module by removing the named module from "sys.modules" before doing
+   the import. Note that unlike "reload()", the original module is not
+   affected by this operation.
+   *fresh* is an iterable of additional module names that are also

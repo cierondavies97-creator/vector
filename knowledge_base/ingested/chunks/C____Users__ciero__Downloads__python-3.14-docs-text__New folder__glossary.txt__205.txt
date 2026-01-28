@@ -1,0 +1,4 @@
+(GIL)*, only one thread runs Python bytecode at a time, so taking
+   advantage of multiple CPU cores typically involves multiple
+   processes (e.g. "multiprocessing") or native extensions that
+   release the GIL. In *free-threaded* Python, multiple Python threads

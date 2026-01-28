@@ -1,0 +1,4 @@
+differences, and were not present in either input sequence. These
+   lines can be confusing if the sequences contain whitespace
+   characters, such as spaces, tabs or line breaks.
+class difflib.HtmlDiff

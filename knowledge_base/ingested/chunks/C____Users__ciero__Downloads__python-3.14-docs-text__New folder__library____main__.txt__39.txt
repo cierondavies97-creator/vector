@@ -1,0 +1,5 @@
+This doesn't import a "__main__.py" file but rather whichever module
+that received the special name "'__main__'".
+Here is an example module that consumes the "__main__" namespace:
+   # namely.py
+   import __main__

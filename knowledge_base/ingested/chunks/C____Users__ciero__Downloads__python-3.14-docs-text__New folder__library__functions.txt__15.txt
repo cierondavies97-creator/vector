@@ -1,0 +1,7 @@
+def any(iterable):
+          for element in iterable:
+              if element:
+                  return True
+          return False
+ascii(object, /)
+   As "repr()", return a string containing a printable representation

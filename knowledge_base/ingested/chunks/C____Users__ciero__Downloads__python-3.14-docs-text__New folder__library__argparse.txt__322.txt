@@ -1,0 +1,6 @@
+Parser defaults
+---------------
+ArgumentParser.set_defaults(**kwargs)
+   Most of the time, the attributes of the object returned by
+   "parse_args()" will be fully determined by inspecting the command-
+   line arguments and the argument actions.  "set_defaults()" allows

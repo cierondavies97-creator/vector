@@ -1,0 +1,4 @@
+ignored. This is what is mostly wanted for a logging system -
+      most users will not care about errors in the logging system,
+      they are more interested in application errors. You could,
+      however, replace this with a custom handler if you wish. The

@@ -1,0 +1,4 @@
+regular expressions around them are interpreted.
+Repetition operators or quantifiers ("*", "+", "?", "{m,n}", etc)
+cannot be directly nested. This avoids ambiguity with the non-greedy
+modifier suffix "?", and with other modifiers in other

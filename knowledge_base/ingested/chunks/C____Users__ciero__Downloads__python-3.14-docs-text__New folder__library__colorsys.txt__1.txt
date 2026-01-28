@@ -1,0 +1,4 @@
+values between colors expressed in the RGB (Red Green Blue) color
+space used in computer monitors and three other coordinate systems:
+YIQ, HLS (Hue Lightness Saturation) and HSV (Hue Saturation Value).
+Coordinates in all of these color spaces are floating-point values.

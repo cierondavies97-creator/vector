@@ -1,0 +1,6 @@
+preserve interactivity on the rest of the computer.
+os.SCHED_DEADLINE
+   Scheduling policy for tasks with deadline constraints.
+   Added in version 3.14.
+os.SCHED_IDLE
+   Scheduling policy for extremely low priority background tasks.

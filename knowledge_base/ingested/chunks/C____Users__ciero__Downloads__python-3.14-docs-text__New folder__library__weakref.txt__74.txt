@@ -1,0 +1,5 @@
+>>> assert newobj is obj
+>>> assert func(*args, **kwargs) == 6
+CALLBACK
+Unless you set the "atexit" attribute to "False", a finalizer will be
+called when the program exits if it is still alive.  For instance

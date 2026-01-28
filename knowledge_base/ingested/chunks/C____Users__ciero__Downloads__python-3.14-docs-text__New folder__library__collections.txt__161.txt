@@ -1,0 +1,5 @@
+weight: float
+           description: Optional[str] = None
+  * See "types.SimpleNamespace()" for a mutable namespace based on an
+    underlying dictionary instead of a tuple.
+  * The "dataclasses" module provides a decorator and functions for

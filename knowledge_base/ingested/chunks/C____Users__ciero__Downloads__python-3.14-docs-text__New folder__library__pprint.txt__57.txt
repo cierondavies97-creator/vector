@@ -1,0 +1,5 @@
+'requires_python': None,
+    'summary': 'A sample Python project',
+    'version': '1.2.0'}
+Additionally, maximum character *width* can be suggested. If a long
+object cannot be split, the specified width will be exceeded:

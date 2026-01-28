@@ -1,0 +1,3 @@
+should search through the values.  It is further recommended that both
+mappings and sequences implement the "__iter__()" method to allow
+efficient iteration through the container; for mappings, "__iter__()"

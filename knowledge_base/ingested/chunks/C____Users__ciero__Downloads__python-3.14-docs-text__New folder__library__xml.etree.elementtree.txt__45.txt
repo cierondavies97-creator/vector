@@ -1,0 +1,5 @@
+xmlns="http://people.example.com">
+       <actor>
+           <name>John Cleese</name>
+           <fictional:character>Lancelot</fictional:character>
+           <fictional:character>Archie Leach</fictional:character>

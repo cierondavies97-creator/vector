@@ -1,0 +1,5 @@
+level=NOTSET
+   handlers=hand01
+The "level" entry can be one of "DEBUG, INFO, WARNING, ERROR,
+CRITICAL" or "NOTSET". For the root logger only, "NOTSET" means that
+all messages will be logged. Level values are evaluated in the context

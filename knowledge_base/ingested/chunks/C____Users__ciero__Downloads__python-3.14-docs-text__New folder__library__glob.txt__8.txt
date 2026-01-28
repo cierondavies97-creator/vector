@@ -1,0 +1,4 @@
+effect on "glob()" as changing the current directory before calling
+   it.  If *pathname* is relative, the result will contain paths
+   relative to *root_dir*.
+   This function can support paths relative to directory descriptors

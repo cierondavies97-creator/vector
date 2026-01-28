@@ -1,0 +1,5 @@
+being defined, as well as accessing the current instance for
+   ordinary methods.
+   For practical suggestions on how to design cooperative classes
+   using "super()", see guide to using super().
+   Changed in version 3.14: "super" objects are now "pickleable" and

@@ -1,0 +1,5 @@
+can be "None". It is usually the case for Windows GUI apps that
+     aren't connected to a console and Python apps started with
+     **pythonw**.
+sys.stdlib_module_names
+   A frozenset of strings containing the names of standard library

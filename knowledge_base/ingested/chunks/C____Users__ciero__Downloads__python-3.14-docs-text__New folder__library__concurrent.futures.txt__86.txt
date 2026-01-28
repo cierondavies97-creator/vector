@@ -1,0 +1,6 @@
+and the method will return "True".
+   cancelled()
+      Return "True" if the call was successfully cancelled.
+   running()
+      Return "True" if the call is currently being executed and cannot
+      be cancelled.

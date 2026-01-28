@@ -1,0 +1,6 @@
+"BRANCH_RIGHT" events will give much better performance as they can be
+disabled independently.
+Ancillary events
+----------------
+Ancillary events can be monitored like other events, but are
+controlled by another event:

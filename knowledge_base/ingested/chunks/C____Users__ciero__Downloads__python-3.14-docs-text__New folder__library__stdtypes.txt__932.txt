@@ -1,0 +1,5 @@
+"sys.int_info.default_max_str_digits" was used during
+  initialization.
+From code, you can inspect the current limit and set a new one using
+these "sys" APIs:
+* "sys.get_int_max_str_digits()" and "sys.set_int_max_str_digits()"

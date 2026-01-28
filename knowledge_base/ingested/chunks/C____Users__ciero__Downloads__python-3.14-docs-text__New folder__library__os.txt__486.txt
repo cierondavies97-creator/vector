@@ -1,0 +1,4 @@
+object with the *ns* parameter to "utime()".
+   This function can support specifying a file descriptor, paths
+   relative to directory descriptors and not following symlinks.
+   Raises an auditing event "os.utime" with arguments "path", "times",

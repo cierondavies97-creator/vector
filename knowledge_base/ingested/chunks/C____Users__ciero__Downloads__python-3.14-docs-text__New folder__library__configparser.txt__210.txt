@@ -1,0 +1,4 @@
+because the number of iterations exceeds "MAX_INTERPOLATION_DEPTH".
+   Subclass of "InterpolationError".
+exception configparser.InterpolationMissingOptionError
+   Exception raised when an option referenced from a value does not

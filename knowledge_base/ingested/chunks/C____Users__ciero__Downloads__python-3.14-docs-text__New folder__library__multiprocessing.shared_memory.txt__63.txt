@@ -1,0 +1,11 @@
+>>> a[2]
+'dry ice'
+>>> a[2] = 'larger than previously allocated storage space'
+Traceback (most recent call last):
+  ...
+ValueError: exceeds available storage for existing str
+>>> a[2]
+'dry ice'
+>>> len(a)
+7
+>>> a.index(42)

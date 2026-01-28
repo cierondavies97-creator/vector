@@ -1,0 +1,8 @@
+* "importlib.metadata" -- Accessing package metadata
+  * Overview
+  * Functional API
+    * Entry points
+    * Distribution metadata
+    * Distribution versions
+    * Distribution files
+    * Distribution requirements

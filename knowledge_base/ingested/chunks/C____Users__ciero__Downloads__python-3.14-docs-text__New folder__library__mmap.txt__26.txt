@@ -1,0 +1,5 @@
+mm = mmap.mmap(f.fileno(), 0)
+          # read content via standard file methods
+          print(mm.readline())  # prints b"Hello Python!\n"
+          # read content via slice notation
+          print(mm[:5])  # prints b"Hello"

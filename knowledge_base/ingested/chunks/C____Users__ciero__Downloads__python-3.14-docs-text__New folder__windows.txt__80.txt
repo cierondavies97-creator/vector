@@ -1,0 +1,2 @@
++-----------------------------------+-----------------------------------+-----------------------------------+
+| "automatic_install"               | "PYTHON_MANAGER_AUTOMATIC_INSTAL  | True to allow automatic installs  |

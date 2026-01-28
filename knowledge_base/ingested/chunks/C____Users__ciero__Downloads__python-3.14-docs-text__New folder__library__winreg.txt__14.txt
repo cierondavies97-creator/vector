@@ -1,0 +1,7 @@
+Added in version 3.2.
+   Changed in version 3.3: See above.
+winreg.DeleteKey(key, sub_key)
+   Deletes the specified key.
+   *key* is an already open key, or one of the predefined HKEY_*
+   constants.
+   *sub_key* is a string that must be a subkey of the key identified

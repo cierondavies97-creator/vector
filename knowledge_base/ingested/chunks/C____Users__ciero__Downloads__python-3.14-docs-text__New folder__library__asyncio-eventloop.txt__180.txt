@@ -1,0 +1,3 @@
+instance. The default executor is used if *executor* is "None". The
+   default executor can be set by "loop.set_default_executor()",
+   otherwise, a "concurrent.futures.ThreadPoolExecutor" will be lazy-

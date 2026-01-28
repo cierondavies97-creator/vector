@@ -1,0 +1,3 @@
+If *address* is also "None" then a default is chosen.  This default
+   is the family which is assumed to be the fastest available.  See
+   Address Formats.  Note that if *family* is "'AF_UNIX'" and address

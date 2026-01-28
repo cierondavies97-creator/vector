@@ -1,0 +1,4 @@
+data to the outgoing BIO.
+   The *server_side*, *server_hostname* and *session* parameters have
+   the same meaning as in "SSLContext.wrap_socket()".
+   Changed in version 3.6: *session* argument was added.

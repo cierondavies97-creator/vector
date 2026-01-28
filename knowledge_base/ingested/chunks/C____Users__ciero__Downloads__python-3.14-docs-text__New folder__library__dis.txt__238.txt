@@ -1,0 +1,7 @@
+locals" storage.
+   Note that "LOAD_CLOSURE" is replaced with "LOAD_FAST" in the
+   assembler.
+   Changed in version 3.13: This opcode is now a pseudo-instruction.
+Opcode collections
+==================
+These collections are provided for automatic introspection of bytecode

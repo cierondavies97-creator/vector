@@ -1,0 +1,4 @@
+translation object. A translation object should consult the
+      fallback if it cannot provide a translation for a given message.
+   gettext(message)
+      If a fallback has been set, forward "gettext()" to the fallback.

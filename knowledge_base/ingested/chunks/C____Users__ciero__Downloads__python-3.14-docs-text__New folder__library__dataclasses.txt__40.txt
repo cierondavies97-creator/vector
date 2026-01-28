@@ -1,0 +1,2 @@
+occurs in a single class, or as a result of class inheritance.
+dataclasses.field(*, default=MISSING, default_factory=MISSING, init=True, repr=True, hash=None, compare=True, metadata=None, kw_only=MISSING, doc=None)

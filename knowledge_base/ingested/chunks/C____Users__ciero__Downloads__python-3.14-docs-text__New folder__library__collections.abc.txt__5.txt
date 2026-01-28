@@ -1,0 +1,6 @@
+def count(self, value): ...         # Optionally override a mixin method
+      >>> issubclass(C, Sequence)
+      True
+      >>> isinstance(C(), Sequence)
+      True
+2. Existing classes and built-in classes can be registered as "virtual

@@ -1,0 +1,7 @@
+if dt >= self.UTC_MOVE_DATE:
+               return "+04:30"
+           return "+04"
+Usage of "KabulTz" from above:
+   >>> tz1 = KabulTz()
+   >>> # Datetime before the change
+   >>> dt1 = datetime(1900, 11, 21, 16, 30, tzinfo=tz1)

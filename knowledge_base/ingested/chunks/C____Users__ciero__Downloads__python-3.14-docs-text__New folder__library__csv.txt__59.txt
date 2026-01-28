@@ -1,0 +1,5 @@
+written.
+   Instructs "reader" objects to interpret an empty (unquoted) string
+   as "None" and to otherwise behave as "QUOTE_NONNUMERIC".
+   Added in version 3.12.
+The "csv" module defines the following exception:

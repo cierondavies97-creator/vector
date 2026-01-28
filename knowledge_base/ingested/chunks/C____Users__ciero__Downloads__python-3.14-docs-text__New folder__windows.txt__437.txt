@@ -1,0 +1,4 @@
+major version was specified.)
+* If "PY_PYTHON=3" and "PY_PYTHON3=3.7", the commands "python" and
+  "python3" will both use specifically 3.7
+In addition to environment variables, the same settings can be

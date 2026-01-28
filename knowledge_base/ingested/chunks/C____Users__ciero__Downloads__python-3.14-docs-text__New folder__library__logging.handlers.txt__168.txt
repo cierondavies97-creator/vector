@@ -1,0 +1,5 @@
+dictionary to be sent.
+   Note:
+     Since preparing a record for sending it to a web server is not
+     the same as a generic formatting operation, using
+     "setFormatter()" to specify a "Formatter" for a "HTTPHandler" has

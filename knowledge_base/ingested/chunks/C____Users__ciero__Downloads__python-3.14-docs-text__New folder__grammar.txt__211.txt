@@ -1,0 +1,3 @@
+| a=NAME b='=' expression for_if_clauses {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "invalid syntax. Maybe you meant '==' or ':=' instead of '='?")}
+       | (args ',')? a=NAME b='=' &(',' | ')') {

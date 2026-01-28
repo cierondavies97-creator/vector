@@ -1,0 +1,6 @@
+index must have as many elements as there are type variable items in
+the "GenericAlias" object's "__args__".
+   >>> from typing import TypeVar
+   >>> Y = TypeVar('Y')
+   >>> dict[str, Y][int]
+   dict[str, int]

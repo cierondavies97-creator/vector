@@ -1,0 +1,4 @@
+The optional *strict* argument has the same meaning as with the
+   "guess_type()" function.
+mimetypes.guess_extension(type, strict=True)
+   Guess the extension for a file based on its MIME type, given by

@@ -1,0 +1,4 @@
+alternative fails to parse
+  Python mainly uses cuts for optimizations or improved error
+  messages. They often appear to be useless in the listing below.
+  Cuts currently don't appear inside parentheses, brackets, lookaheads

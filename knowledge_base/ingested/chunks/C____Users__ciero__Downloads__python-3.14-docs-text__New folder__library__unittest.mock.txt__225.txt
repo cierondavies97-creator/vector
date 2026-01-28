@@ -1,0 +1,7 @@
+previous example work as expected:
+   >>> @patch('sys.non_existing_attribute', 42, create=True)
+   ... def test(mock_stdout):
+   ...     assert sys.non_existing_attribute == 42
+   ...
+   >>> test()
+Changed in version 3.8: "patch()" now returns an "AsyncMock" if the

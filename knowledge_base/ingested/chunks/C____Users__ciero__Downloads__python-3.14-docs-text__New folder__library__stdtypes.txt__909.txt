@@ -1,0 +1,5 @@
+input is incomplete.
+Lastly, the Python documentation often uses three dots in conventional
+English usage to mean omitted content, even in code examples that also
+use them as the "Ellipsis".
+The NotImplemented Object

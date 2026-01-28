@@ -1,0 +1,4 @@
+names ("bg" is shorthand for "background"). Passing the "config()"
+method the name of a shorthand option will return a 2-tuple, not
+5-tuple. The 2-tuple passed back will contain the name of the synonym
+and the "real" option (such as "('bg', 'background')").

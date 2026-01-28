@@ -1,0 +1,4 @@
+attribute to a meaningful value for the *loader* to use.  In the
+      uncommon case that there is not one (like for namespace
+      packages), it should be set to "None".
+   submodule_search_locations

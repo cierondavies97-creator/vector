@@ -1,0 +1,5 @@
+"selectors" --- High-level I/O multiplexing
+*******************************************
+Added in version 3.4.
+**Source code:** Lib/selectors.py
+======================================================================

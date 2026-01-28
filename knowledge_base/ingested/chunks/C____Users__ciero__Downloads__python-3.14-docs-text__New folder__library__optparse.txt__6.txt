@@ -1,0 +1,5 @@
+prototyping and testing command line argument handling in
+"getopt"-based C applications.
+"optparse" should be considered as an alternative to "argparse" in the
+following cases:
+* an application is already using "optparse" and doesn't want to risk

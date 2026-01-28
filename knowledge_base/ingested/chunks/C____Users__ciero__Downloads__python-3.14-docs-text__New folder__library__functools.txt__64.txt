@@ -1,0 +1,4 @@
+"Placeholder" sentinels of the input object are filled in with new
+   positional arguments. A placeholder can be retained by inserting a
+   new "Placeholder" sentinel to the place held by a previous
+   "Placeholder":

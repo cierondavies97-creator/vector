@@ -1,0 +1,4 @@
+created by the pool.Added the *initializer* and *initargs*
+   arguments.
+   Changed in version 3.11: The *max_tasks_per_child* argument was
+   added to allow users to control the lifetime of workers in the

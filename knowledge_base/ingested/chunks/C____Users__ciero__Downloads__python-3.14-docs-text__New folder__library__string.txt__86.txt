@@ -1,0 +1,3 @@
+| "'s'"     | String format. This is the default type for strings and    |
+   |           | may be omitted.                                            |
+   +-----------+------------------------------------------------------------+

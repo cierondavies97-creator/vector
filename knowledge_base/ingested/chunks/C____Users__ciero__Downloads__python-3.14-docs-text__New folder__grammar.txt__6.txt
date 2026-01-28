@@ -1,0 +1,8 @@
+result = func_type_rule(p);
+       }
+       return result;
+   }
+   '''
+   # ========================= START OF THE GRAMMAR =========================
+   # General grammatical elements and rules:
+   #

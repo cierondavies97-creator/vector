@@ -1,0 +1,5 @@
+incompatible and can not be used interchangeably.
+Warning:
+  The NDBM library shipped as part of macOS has an undocumented
+  limitation on the size of values, which can result in corrupted
+  database files when storing values larger than this limit. Reading

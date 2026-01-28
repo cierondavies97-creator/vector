@@ -1,0 +1,5 @@
+"O_NONBLOCK" status flag for the new timer file descriptor. If
+   "TFD_NONBLOCK" is not set as a flag, "read()" blocks.
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.TFD_CLOEXEC

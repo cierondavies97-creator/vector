@@ -1,0 +1,4 @@
+Use "isinstance(obj, collections.abc.Buffer)" to test if "obj"
+   implements the buffer protocol at runtime. For use in type
+   annotations, either use "Buffer" or a union that explicitly
+   specifies the types your code supports (e.g., "bytes | bytearray |

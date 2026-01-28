@@ -1,0 +1,6 @@
+In its basic form, "pp()" shows the whole object:
+   >>> pprint.pp(project_info)
+   {'author': 'The Python Packaging Authority',
+    'author_email': 'pypa-dev@googlegroups.com',
+    'bugtrack_url': None,
+    'classifiers': ['Development Status :: 3 - Alpha',

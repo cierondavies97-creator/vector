@@ -1,0 +1,5 @@
+>>> dist_cubed = [d * d * d for d in dist_from_sun]
+      >>> round(correlation(period_squared, dist_cubed), 4)
+      1.0
+   Added in version 3.10.
+   Changed in version 3.12: Added support for Spearman's rank

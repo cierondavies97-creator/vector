@@ -1,0 +1,4 @@
+* multi-window text editor with multiple undo, Python colorizing,
+  smart indent, call tips, auto completion, and other features
+* search within any window, replace within editor windows, and search
+  through multiple files (grep)

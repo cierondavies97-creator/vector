@@ -1,0 +1,5 @@
+Changed in version 3.10: Added support for pretty-printing
+"dataclasses.dataclass".
+Functions
+=========
+pprint.pp(object, stream=None, indent=1, width=80, depth=None, *, compact=False, sort_dicts=False, underscore_numbers=False)

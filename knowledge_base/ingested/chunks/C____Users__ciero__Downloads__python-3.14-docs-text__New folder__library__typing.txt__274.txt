@@ -1,0 +1,4 @@
+return (*tup[1:], tup[0])
+   A normal type variable enables parameterization with a single type.
+   A type variable tuple, in contrast, allows parameterization with an
+   *arbitrary* number of types by acting like an *arbitrary* number of

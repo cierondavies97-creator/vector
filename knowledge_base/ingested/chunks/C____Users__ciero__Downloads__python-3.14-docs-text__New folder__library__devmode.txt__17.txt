@@ -1,0 +1,6 @@
+main()
+The script does not close the file explicitly. By default, Python does
+not emit any warning. Example using README.txt, which has 269 lines:
+   $ python script.py README.txt
+   269
+Enabling the Python Development Mode displays a "ResourceWarning"

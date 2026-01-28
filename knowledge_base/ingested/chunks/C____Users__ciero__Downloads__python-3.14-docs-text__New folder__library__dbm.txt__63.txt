@@ -1,0 +1,5 @@
+dumbdbm.close()
+      Close the database.
+   dumbdbm.sync()
+      Synchronize the on-disk directory and data files.  This method
+      is called by the "shelve.Shelf.sync()" method.

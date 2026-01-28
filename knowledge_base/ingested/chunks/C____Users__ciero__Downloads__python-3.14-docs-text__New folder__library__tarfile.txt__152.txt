@@ -1,0 +1,6 @@
+not attempt to clean up.
+Default named filters
+---------------------
+The pre-defined, named filters are available as functions, so they can
+be reused in custom filters:
+tarfile.fully_trusted_filter(member, path)

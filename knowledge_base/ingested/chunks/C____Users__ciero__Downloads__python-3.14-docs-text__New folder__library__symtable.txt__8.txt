@@ -1,0 +1,5 @@
+class symtable.SymbolTable
+   A namespace table for a block.  The constructor is not public.
+   get_type()
+      Return the type of the symbol table.  Possible values are
+      members of the "SymbolTableType" enumeration.

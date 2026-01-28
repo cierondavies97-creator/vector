@@ -1,0 +1,4 @@
+actually access a filesystem.  There are three ways to access these
+classes, which we also call *flavours*:
+class pathlib.PurePath(*pathsegments)
+   A generic class that represents the system's path flavour

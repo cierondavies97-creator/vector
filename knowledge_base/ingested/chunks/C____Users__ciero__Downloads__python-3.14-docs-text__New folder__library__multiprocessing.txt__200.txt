@@ -1,0 +1,4 @@
+Changed in version 3.3: This function used to raise "IOError",
+      which is now an alias of "OSError".
+   recv_bytes_into(buffer[, offset])
+      Read into *buffer* a complete message of byte data sent from the

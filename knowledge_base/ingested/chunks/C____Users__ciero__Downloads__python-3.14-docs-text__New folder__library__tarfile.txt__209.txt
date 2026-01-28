@@ -1,0 +1,3 @@
+*encoding* defines the character encoding to use for the metadata in
+the archive. The default value is "sys.getfilesystemencoding()" or
+"'ascii'" as a fallback. Depending on whether the archive is read or

@@ -1,0 +1,4 @@
+and behavior are otherwise the same as for "debug()".
+logging.disable(level=CRITICAL)
+   Provides an overriding level *level* for all loggers which takes
+   precedence over the logger's own level. When the need arises to

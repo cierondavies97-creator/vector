@@ -1,0 +1,3 @@
+Earlier versions of Python did not scrub control characters from the
+log messages emitted to stderr from "python -m http.server" or the
+default "BaseHTTPRequestHandler" ".log_message" implementation. This

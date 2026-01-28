@@ -1,0 +1,5 @@
+classes, so they may be overridden by subclasses or by attribute
+assignment.
+ConfigParser.BOOLEAN_STATES
+   By default when using "getboolean()", config parsers consider the
+   following values "True": "'1'", "'yes'", "'true'", "'on'" and the

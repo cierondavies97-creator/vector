@@ -1,0 +1,4 @@
+These functions are all available on Linux only.
+os.getxattr(path, attribute, *, follow_symlinks=True)
+   Return the value of the extended filesystem attribute *attribute*
+   for *path*. *attribute* can be bytes or str (directly or indirectly

@@ -1,0 +1,4 @@
+EOFError, ImportError, and IndexError.
+The "pickle" module exports three classes, "Pickler", "Unpickler" and
+"PickleBuffer":
+class pickle.Pickler(file, protocol=None, *, fix_imports=True, buffer_callback=None)

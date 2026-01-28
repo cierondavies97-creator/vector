@@ -1,0 +1,5 @@
+| class_pattern
+   # Literal patterns are used for equality and identity constraints
+   literal_pattern[pattern_ty]:
+       | value=signed_number !('+' | '-') { _PyAST_MatchValue(value, EXTRA) }
+       | value=complex_number { _PyAST_MatchValue(value, EXTRA) }

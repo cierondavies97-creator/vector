@@ -1,0 +1,3 @@
+Determine if the object requires a recursive representation.
+This method is provided as a hook to allow subclasses to modify the
+way objects are converted to strings.  The default implementation uses

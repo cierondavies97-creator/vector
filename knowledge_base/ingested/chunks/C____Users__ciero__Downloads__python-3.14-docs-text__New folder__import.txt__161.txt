@@ -1,0 +1,4 @@
+instead. Use the "-m" switch if valid module metadata is desired in
+"__main__".
+Note also that even when "__main__" corresponds with an importable
+module and "__main__.__spec__" is set accordingly, they're still

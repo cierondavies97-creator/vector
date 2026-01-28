@@ -1,0 +1,4 @@
+generated equality and comparison methods ("__eq__()",
+     "__gt__()", et al.).
+   * *metadata*: This can be a mapping or "None". "None" is treated as
+     an empty dict.  This value is wrapped in "MappingProxyType()" to

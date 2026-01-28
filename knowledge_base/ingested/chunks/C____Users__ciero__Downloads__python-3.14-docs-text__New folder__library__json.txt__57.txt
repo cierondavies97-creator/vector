@@ -1,0 +1,4 @@
+It also understands "NaN", "Infinity", and "-Infinity" as their
+   corresponding "float" values, which is outside the JSON spec.
+   *object_hook* is an optional function that will be called with the
+   result of every JSON object decoded and its return value will be

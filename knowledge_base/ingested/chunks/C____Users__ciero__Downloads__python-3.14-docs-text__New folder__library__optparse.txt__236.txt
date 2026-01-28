@@ -1,0 +1,7 @@
+in the constructor:
+   parser = OptionParser(..., conflict_handler=handler)
+or with a separate call:
+   parser.set_conflict_handler(handler)
+The available conflict handlers are:
+   ""error"" (default)
+      assume option conflicts are a programming error and raise

@@ -1,0 +1,6 @@
+mocked object has been used by interrogating the "return_value" mock:
+>>> mock = Mock()
+>>> mock().foo(a=2, b=3)
+<Mock name='mock().foo()' id='...'>
+>>> mock.return_value.foo.assert_called_with(a=2, b=3)
+From here it is a simple step to configure and then make assertions

@@ -1,0 +1,6 @@
+header is the only one present in the message with field name
+      *name*, delete the field first, e.g.:
+         del msg['subject']
+         msg['subject'] = 'Python roolz!'
+   __delitem__(name)
+      Delete all occurrences of the field with name *name* from the

@@ -1,0 +1,7 @@
+python -m tokenize [-e] [filename.py]
+The following options are accepted:
+-h, --help
+   show this help message and exit
+-e, --exact
+   display token names using the exact type
+If "filename.py" is specified its contents are tokenized to stdout.

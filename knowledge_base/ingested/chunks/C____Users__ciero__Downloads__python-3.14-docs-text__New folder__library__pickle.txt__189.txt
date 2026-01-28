@@ -1,0 +1,4 @@
+another object's memory.  However, third-party datatypes such as NumPy
+arrays do not have this limitation, and allow use of zero-copy
+pickling (or making as few copies as possible) when transferring
+between distinct processes or systems.

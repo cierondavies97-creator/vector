@@ -1,0 +1,5 @@
+this user-visible delay and provides an algorithm.For more
+   information: https://datatracker.ietf.org/doc/html/rfc6555
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*
+   parameter.
+   Changed in version 3.12: *all_errors* was added.

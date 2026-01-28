@@ -1,0 +1,4 @@
+like object*.
+   Changed in version 3.13: Any "OSError" exceptions raised from
+   scanning the filesystem are suppressed. In previous versions, such
+   exceptions are suppressed in many cases, but not all.

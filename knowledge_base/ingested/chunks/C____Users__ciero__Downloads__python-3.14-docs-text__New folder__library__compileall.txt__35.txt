@@ -1,0 +1,4 @@
+Changed in version 3.5: *quiet* parameter was changed to a
+   multilevel value.
+   Changed in version 3.5: The *legacy* parameter only writes out
+   ".pyc" files, not ".pyo" files no matter what the value of

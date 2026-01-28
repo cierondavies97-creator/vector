@@ -1,0 +1,3 @@
+Third-party packages should be installed by the application installer
+alongside the embedded distribution. Using pip to manage dependencies
+as for a regular Python installation is not supported with this

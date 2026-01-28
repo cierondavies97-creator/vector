@@ -1,0 +1,7 @@
+queried.
+      Return type:
+         int
+      Raises:
+         **ProgrammingError** -- If *category* is not recognised by
+         the underlying SQLite library.
+      Example, query the maximum length of an SQL statement for

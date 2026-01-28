@@ -1,0 +1,5 @@
+"pickle" --- Python object serialization
+****************************************
+**Source code:** Lib/pickle.py
+======================================================================
+The "pickle" module implements binary protocols for serializing and

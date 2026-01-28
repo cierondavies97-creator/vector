@@ -1,0 +1,5 @@
+"f-strings" which is short for formatted string literals.  See also
+   **PEP 498**.
+file object
+   An object exposing a file-oriented API (with methods such as
+   "read()" or "write()") to an underlying resource.  Depending on the

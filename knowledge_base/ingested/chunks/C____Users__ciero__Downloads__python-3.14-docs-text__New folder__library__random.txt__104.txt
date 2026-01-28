@@ -1,0 +1,6 @@
+return ldexp(mantissa, exponent)
+All real valued distributions in the class will use the new method:
+   >>> fr = FullRandom()
+   >>> fr.random()
+   0.05954861408025609
+   >>> fr.expovariate(0.25)

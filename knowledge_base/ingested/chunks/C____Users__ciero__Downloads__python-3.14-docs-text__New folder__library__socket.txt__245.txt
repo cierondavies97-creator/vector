@@ -1,0 +1,3 @@
+socket.makefile(mode='r', buffering=None, *, encoding=None, errors=None, newline=None)
+   Return a *file object* associated with the socket.  The exact
+   returned type depends on the arguments given to "makefile()".

@@ -1,0 +1,4 @@
+Return a key suitable for sorting between networks and addresses.
+   Address and Network objects are not sortable by default; they're
+   fundamentally different, so the expression:
+      IPv4Address('192.0.2.0') <= IPv4Network('192.0.2.0/24')

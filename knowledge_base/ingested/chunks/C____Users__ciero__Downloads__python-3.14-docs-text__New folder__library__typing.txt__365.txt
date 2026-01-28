@@ -1,0 +1,7 @@
+names:
+      # raises SyntaxError
+      class Point2D(TypedDict):
+          in: int  # 'in' is a keyword
+          x-y: int  # name with hyphens
+      class Definition(TypedDict):
+          __schema: str  # mangled to `_Definition__schema`

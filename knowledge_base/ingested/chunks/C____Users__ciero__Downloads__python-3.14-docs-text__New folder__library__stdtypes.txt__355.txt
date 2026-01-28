@@ -1,0 +1,7 @@
+For example:
+      >>> ''.isprintable(), ' '.isprintable()
+      (True, True)
+      >>> '\t'.isprintable(), '\n'.isprintable()
+      (False, False)
+str.isspace()
+   Return "True" if there are only whitespace characters in the string

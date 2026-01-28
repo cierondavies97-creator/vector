@@ -1,0 +1,4 @@
+be assigned to.  This is only a hint, since this only affects
+   performance, not behaviour (unless the cookies on disk are
+   changing). A "CookieJar" object may ignore it.  None of the
+   "FileCookieJar" classes included in the standard library lazily

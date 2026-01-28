@@ -1,0 +1,4 @@
+reality.
+For applications requiring aware objects, "datetime" and "time"
+objects have an optional time zone information attribute, "tzinfo",
+that can be set to an instance of a subclass of the abstract "tzinfo"

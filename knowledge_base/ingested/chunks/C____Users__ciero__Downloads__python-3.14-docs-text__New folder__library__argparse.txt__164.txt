@@ -1,0 +1,8 @@
+>>> parser.add_argument('--foo', default=argparse.SUPPRESS)
+   >>> parser.parse_args([])
+   Namespace()
+   >>> parser.parse_args(['--foo', '1'])
+   Namespace(foo='1')
+type
+----
+By default, the parser reads command-line arguments in as simple

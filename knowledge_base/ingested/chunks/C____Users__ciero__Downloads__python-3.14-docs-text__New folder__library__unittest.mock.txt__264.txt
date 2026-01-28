@@ -1,0 +1,5 @@
+...         self.patcher2 = patch('package.module.Class2')
+   ...         self.MockClass1 = self.patcher1.start()
+   ...         self.MockClass2 = self.patcher2.start()
+   ...
+   ...     def tearDown(self):

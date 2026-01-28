@@ -1,0 +1,7 @@
+* Corresponding tools
+  * Protocols
+* "os.path" --- Common pathname manipulations
+* "stat" --- Interpreting "stat()" results
+* "filecmp" --- File and Directory Comparisons
+  * The "dircmp" class
+* "tempfile" --- Generate temporary files and directories

@@ -1,0 +1,4 @@
+POSIX terms, of that native error code.
+      Under Windows, if the *winerror* constructor argument is an
+      integer, the "errno" attribute is determined from the Windows
+      error code, and the *errno* argument is ignored.  On other

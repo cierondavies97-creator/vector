@@ -1,0 +1,4 @@
+"CHANNEL_BINDING_TYPES" list.  Currently only the 'tls-unique'
+   channel binding, defined by **RFC 5929**, is supported.
+   "ValueError" will be raised if an unsupported channel binding type
+   is requested.

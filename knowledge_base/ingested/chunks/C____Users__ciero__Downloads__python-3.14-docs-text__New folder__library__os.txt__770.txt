@@ -1,0 +1,4 @@
+host operating system are given as the keys of the "confstr_names"
+   dictionary.  For configuration variables not included in that
+   mapping, passing an integer for *name* is also accepted.
+   If the configuration value specified by *name* isn't defined,

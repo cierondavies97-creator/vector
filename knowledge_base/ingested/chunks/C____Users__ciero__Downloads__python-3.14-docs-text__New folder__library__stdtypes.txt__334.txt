@@ -1,0 +1,5 @@
+Like "find()", but raise "ValueError" when the substring is not
+   found. For example:
+      >>> 'spam, spam, spam'.index('eggs')
+      Traceback (most recent call last):
+        File "<python-input-0>", line 1, in <module>

@@ -1,0 +1,4 @@
+state.  The "ContextVar" class is used to declare and work with
+*Context Variables*.  The "copy_context()" function and the "Context"
+class should be used to manage the current context in asynchronous
+frameworks.

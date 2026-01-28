@@ -1,0 +1,4 @@
+as "Secure Sockets Layer") encryption and peer authentication
+facilities for network sockets, both client-side and server-side.
+This module uses the OpenSSL library.
+This is an *optional module*. If it is missing from your copy of

@@ -1,0 +1,5 @@
+lying around.
+   If *delay* is true, then file opening is deferred until the first
+   call to "emit()".
+   If *atTime* is not "None", it must be a "datetime.time" instance
+   which specifies the time of day when rollover occurs, for the cases

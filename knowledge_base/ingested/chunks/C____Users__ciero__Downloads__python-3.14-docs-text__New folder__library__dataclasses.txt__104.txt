@@ -1,0 +1,4 @@
+if self.j is None and database is not None:
+               self.j = database.lookup('j')
+   c = C(10, database=my_database)
+In this case, "fields()" will return "Field" objects for "i" and "j",

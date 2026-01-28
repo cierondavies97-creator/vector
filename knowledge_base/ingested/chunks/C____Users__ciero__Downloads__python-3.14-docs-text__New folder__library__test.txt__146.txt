@@ -1,0 +1,4 @@
+sockets. The only case for setting these options is testing
+   multicasting via multiple UDP sockets.
+   Additionally, if the "SO_EXCLUSIVEADDRUSE" socket option is
+   available (i.e. on Windows), it will be set on the socket.  This

@@ -1,0 +1,4 @@
+Both base-64 alphabets defined in **RFC 4648** (normal, and URL- and
+filesystem-safe) are supported.
+The legacy interface does not support decoding from strings, but it
+does provide functions for encoding and decoding to and from *file

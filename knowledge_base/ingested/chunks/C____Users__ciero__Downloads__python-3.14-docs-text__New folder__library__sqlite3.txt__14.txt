@@ -1,0 +1,3 @@
+"tuple" containing the table's name. If we query "sqlite_master" for a
+non-existent table "spam", "res.fetchone()" will return "None":
+   >>> res = cur.execute("SELECT name FROM sqlite_master WHERE name='spam'")

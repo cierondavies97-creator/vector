@@ -1,0 +1,3 @@
+"SSLContext.set_ciphers()" method.  Starting from Python 3.2.3, the
+ssl module disables certain weak ciphers by default, but you may want
+to further restrict the cipher choice. Be sure to read OpenSSL's

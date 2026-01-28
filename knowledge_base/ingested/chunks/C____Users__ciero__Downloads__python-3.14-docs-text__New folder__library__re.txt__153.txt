@@ -1,0 +1,4 @@
+['Words', ', ', 'words', ', ', 'words', '.', '']
+      >>> re.split(r'\W+', 'Words, words, words.', maxsplit=1)
+      ['Words', 'words, words.']
+      >>> re.split('[a-f]+', '0a3B9', flags=re.IGNORECASE)

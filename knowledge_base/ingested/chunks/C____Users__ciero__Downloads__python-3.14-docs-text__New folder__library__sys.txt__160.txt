@@ -1,0 +1,4 @@
+*filesystem encoding* to convert between Unicode filenames and
+   bytes filenames. The filesystem encoding is returned from
+   "getfilesystemencoding()".
+   "os.fsencode()" and "os.fsdecode()" should be used to ensure that

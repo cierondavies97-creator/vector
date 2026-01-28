@@ -1,0 +1,4 @@
+"LEGACY_TRANSACTION_CONTROL" (the default).
+      * **check_same_thread** (*bool*) -- If "True" (default),
+        "ProgrammingError" will be raised if the database connection
+        is used by a thread other than the one that created it. If

@@ -1,0 +1,3 @@
+created in the execution process, whether directly by user code or by
+modules such as multiprocessing.  If such subprocess use "input" from
+sys.stdin or "print" or "write" to sys.stdout or sys.stderr, IDLE

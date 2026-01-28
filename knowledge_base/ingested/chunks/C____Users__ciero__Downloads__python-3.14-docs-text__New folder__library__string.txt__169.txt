@@ -1,0 +1,4 @@
+cannot change the delimiter after class creation (i.e. a different
+  delimiter must be set in the subclass's class namespace).
+* *idpattern* -- This is the regular expression describing the pattern
+  for non-braced placeholders.  The default value is the regular

@@ -1,0 +1,7 @@
+>>> dir(Mock(spec=request))
+   ['AbstractBasicAuthHandler',
+    'AbstractDigestAuthHandler',
+    'AbstractHTTPHandler',
+    'BaseHandler',
+    ...
+Many of the not-very-useful (private to "Mock" rather than the thing

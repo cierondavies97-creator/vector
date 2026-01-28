@@ -1,0 +1,4 @@
+All stream writers must provide this constructor interface. They
+   are free to add additional keyword arguments, but only the ones
+   defined here are used by the Python codec registry.
+   The *stream* argument must be a file-like object open for writing

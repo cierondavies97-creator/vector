@@ -1,0 +1,4 @@
+directory being linked to), and *dst* is the name of the link being
+   created.
+   On Windows, a symlink represents either a file or a directory, and
+   does not morph to the target dynamically.  If the target is

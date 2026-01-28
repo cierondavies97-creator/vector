@@ -1,0 +1,7 @@
+<yourscript> --help
+and "optparse" will print out a brief summary of your script's
+options:
+   Usage: <yourscript> [options]
+   Options:
+     -h, --help            show this help message and exit
+     -f FILE, --file=FILE  write report to FILE

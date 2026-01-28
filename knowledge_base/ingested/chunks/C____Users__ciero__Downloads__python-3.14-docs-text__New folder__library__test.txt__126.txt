@@ -1,0 +1,8 @@
+treated as part of the public API even though their names indicate
+   otherwise.
+   Example use:
+      import bar
+      import foo
+      import unittest
+      from test import support
+      class MiscTestCase(unittest.TestCase):

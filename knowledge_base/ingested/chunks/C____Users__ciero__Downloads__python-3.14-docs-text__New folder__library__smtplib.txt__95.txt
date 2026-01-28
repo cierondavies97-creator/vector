@@ -1,0 +1,6 @@
+server.set_debuglevel(1)
+   server.sendmail(from_addr, to_addrs, msg)
+   server.quit()
+Note:
+  In general, you will want to use the "email" package's features to
+  construct an email message, which you can then send via

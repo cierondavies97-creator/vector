@@ -1,0 +1,3 @@
+| curses.KEY_IL             | Insert line                                  |
++---------------------------+----------------------------------------------+
+| curses.KEY_DC             | Delete character                             |

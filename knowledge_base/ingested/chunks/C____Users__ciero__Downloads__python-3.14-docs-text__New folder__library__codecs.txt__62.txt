@@ -1,0 +1,3 @@
+|                           | "namereplace_errors()".                         |
++---------------------------+-------------------------------------------------+
+In addition, the following error handler is specific to the given

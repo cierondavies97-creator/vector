@@ -1,0 +1,4 @@
+capabilities, take a look at "iterparse()".  It can be useful when
+you're reading a large XML document and don't want to hold it wholly
+in memory.
+Where *immediate* feedback through events is wanted, calling method

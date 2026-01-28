@@ -1,0 +1,5 @@
+will not create a window.
+   Added in version 3.7.
+subprocess.DETACHED_PROCESS
+   A "Popen" "creationflags" parameter to specify that a new process
+   will not inherit its parent's console. This value cannot be used

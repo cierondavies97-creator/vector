@@ -1,0 +1,8 @@
+# Send thirty task requests to the worker.
+   for item in range(30):
+       q.put(item)
+   # Block until all tasks are done.
+   q.join()
+   print('All work completed')
+Terminating queues
+------------------

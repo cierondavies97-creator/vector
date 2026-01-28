@@ -1,0 +1,5 @@
+that is entered before the statement body is executed and exited when
+the statement ends:
+contextmanager.__enter__()
+   Enter the runtime context and return either this object or another
+   object related to the runtime context. The value returned by this

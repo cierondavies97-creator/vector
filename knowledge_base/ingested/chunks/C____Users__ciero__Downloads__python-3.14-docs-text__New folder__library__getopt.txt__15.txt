@@ -1,0 +1,5 @@
+in the list in the same order in which they were found, thus
+   allowing multiple occurrences.  Long and short options may be
+   mixed.
+   Changed in version 3.14: Optional arguments are supported.
+getopt.gnu_getopt(args, shortopts, longopts=[])

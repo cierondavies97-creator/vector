@@ -1,0 +1,4 @@
+Changed in version 3.7: "SSLObject" instances must be created with
+   "wrap_bio()". In earlier versions, it was possible to create
+   instances directly. This was never documented or officially
+   supported.

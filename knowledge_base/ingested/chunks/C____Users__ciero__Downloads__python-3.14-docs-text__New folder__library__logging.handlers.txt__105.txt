@@ -1,0 +1,6 @@
+Changed in version 3.14: *timeout* was added.
+   close()
+      Closes the socket to the remote host.
+   createSocket()
+      Tries to create a socket and, if it's not a datagram socket,
+      connect it to the other end. This method is called during

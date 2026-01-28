@@ -1,0 +1,2 @@
+| UUID.time_hi_version                               | The next 16 bits of the UUID. Only relevant to     |
+|                                                    | version 1.                                         |

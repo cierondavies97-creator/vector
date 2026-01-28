@@ -1,0 +1,4 @@
+__init__.py
+Importing "parent.one" will implicitly execute "parent/__init__.py"
+and "parent/one/__init__.py".  Subsequent imports of "parent.two" or
+"parent.three" will execute "parent/two/__init__.py" and

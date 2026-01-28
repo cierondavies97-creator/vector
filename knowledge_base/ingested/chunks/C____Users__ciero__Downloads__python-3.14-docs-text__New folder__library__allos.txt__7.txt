@@ -1,0 +1,7 @@
+* Thread Safety
+  * Module-Level Functions
+  * Module-Level Attributes
+  * Integration with the warnings module
+* "logging.config" --- Logging configuration
+  * Configuration functions
+  * Security considerations

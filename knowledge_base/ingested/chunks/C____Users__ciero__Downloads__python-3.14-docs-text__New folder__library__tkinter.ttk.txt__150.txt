@@ -1,0 +1,3 @@
+| show             | A list containing zero or more of the following values,  |
+|                  | specifying which elements of the tree to display.  *     |
+|                  | tree: display tree labels in column #0.  * headings:     |

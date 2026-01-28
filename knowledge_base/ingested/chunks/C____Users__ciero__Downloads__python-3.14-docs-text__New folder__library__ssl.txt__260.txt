@@ -1,0 +1,3 @@
+Set the curve name for Elliptic Curve-based Diffie-Hellman (ECDH)
+   key exchange.  ECDH is significantly faster than regular DH while
+   arguably as secure.  The *curve_name* parameter should be a string

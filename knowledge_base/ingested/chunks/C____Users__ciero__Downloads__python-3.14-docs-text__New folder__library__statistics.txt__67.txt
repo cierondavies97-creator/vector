@@ -1,0 +1,5 @@
+consecutive ten-year age groups with each group being represented
+   by the 5-year midpoints of the intervals:
+      >>> from collections import Counter
+      >>> demographics = Counter({
+      ...    25: 172,   # 20 to 30 years old

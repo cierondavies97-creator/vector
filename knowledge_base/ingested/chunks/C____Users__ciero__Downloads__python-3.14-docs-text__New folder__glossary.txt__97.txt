@@ -1,0 +1,3 @@
+operating system and encode Unicode to the operating system.
+   The filesystem encoding must guarantee to successfully decode all
+   bytes below 128. If the file system encoding fails to provide this

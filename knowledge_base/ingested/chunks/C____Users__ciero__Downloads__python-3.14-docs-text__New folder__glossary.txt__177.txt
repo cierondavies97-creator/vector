@@ -1,0 +1,4 @@
+tool, but when the need arises, metaclasses can provide powerful,
+   elegant solutions.  They have been used for logging attribute
+   access, adding thread-safety, tracking object creation,
+   implementing singletons, and many other tasks.

@@ -1,0 +1,6 @@
+Functions, Constants, and Exceptions
+====================================
+Socket creation
+---------------
+Instances of "SSLSocket" must be created using the
+"SSLContext.wrap_socket()" method. The helper function

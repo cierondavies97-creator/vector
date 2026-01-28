@@ -1,0 +1,5 @@
+headers not buffered and sent directly the output stream.If the
+      *message* is not specified, the HTTP message corresponding the
+      response *code*  is sent.
+      Added in version 3.2.
+   end_headers()

@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "callback" "pipe_connection_lost()"                | Called when one of the pipes communicating with    |

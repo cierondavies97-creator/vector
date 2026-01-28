@@ -1,0 +1,3 @@
+in the "unittest" universe.  This class is intended to be used as a
+   base class, with specific tests being implemented by concrete
+   subclasses.  This class implements the interface needed by the test

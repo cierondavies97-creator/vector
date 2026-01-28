@@ -1,0 +1,6 @@
+function will always be called from the generated "__init__()"
+function.  This happens because there is no other way to give the
+field an initial value.
+Mutable default values
+======================
+Python stores default member variable values in class attributes.

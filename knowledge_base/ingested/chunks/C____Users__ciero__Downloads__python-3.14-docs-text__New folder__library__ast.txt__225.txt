@@ -1,0 +1,4 @@
+cls=Name(id='tuple', ctx=Load())),
+                          body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])

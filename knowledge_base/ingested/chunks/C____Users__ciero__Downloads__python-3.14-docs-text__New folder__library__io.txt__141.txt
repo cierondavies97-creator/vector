@@ -1,0 +1,5 @@
+produces undefined behaviour.
+      * "SEEK_CUR" or "1": "seek" to the current position; *offset*
+        must be zero, which is a no-operation (all other values are
+        unsupported).
+      * "SEEK_END" or "2": seek to the end of the stream; *offset*

@@ -1,0 +1,4 @@
+random.choices(population, weights=None, *, cum_weights=None, k=1)
+   Return a *k* sized list of elements chosen from the *population*
+   with replacement. If the *population* is empty, raises
+   "IndexError".

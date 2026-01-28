@@ -1,0 +1,4 @@
+The default implementation returns "None" for all header names.
+   header_source_parse(sourcelines)
+      The email package calls this method with a list of strings, each
+      string ending with the line separation characters found in the

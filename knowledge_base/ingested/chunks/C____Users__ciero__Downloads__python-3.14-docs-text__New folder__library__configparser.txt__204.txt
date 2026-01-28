@@ -1,0 +1,7 @@
+**Use the mapping protocol API** which does not allow such
+      assignments to take place.
+Exceptions
+==========
+exception configparser.Error
+   Base class for all other "configparser" exceptions.
+exception configparser.NoSectionError

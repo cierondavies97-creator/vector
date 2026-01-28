@@ -1,0 +1,3 @@
+False
+   >>> rp.can_fetch("*", "http://www.musi-cal.com/")
+   True

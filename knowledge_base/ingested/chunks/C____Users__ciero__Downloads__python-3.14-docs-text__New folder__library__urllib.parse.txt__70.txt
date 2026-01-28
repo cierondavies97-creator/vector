@@ -1,0 +1,4 @@
+Changed in version 3.12: Leading WHATWG C0 control and space
+   characters are stripped from the URL.
+urllib.parse.urlunsplit(parts)
+   Combine the elements of a tuple as returned by "urlsplit()" into a

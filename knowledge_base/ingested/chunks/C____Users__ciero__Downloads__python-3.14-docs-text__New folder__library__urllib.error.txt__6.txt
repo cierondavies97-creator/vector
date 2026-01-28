@@ -1,0 +1,6 @@
+found in "http.server.BaseHTTPRequestHandler.responses".
+   reason
+      This is usually a string explaining the reason for this error.
+      An alias for *msg* attribute.
+   headers
+      The HTTP response headers for the HTTP request that caused the

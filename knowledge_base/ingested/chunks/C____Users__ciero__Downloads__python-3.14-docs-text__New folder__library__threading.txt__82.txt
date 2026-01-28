@@ -1,0 +1,4 @@
+until the thread whose "join()" method is called terminates --
+      either normally or through an unhandled exception -- or until
+      the optional timeout occurs.
+      When the *timeout* argument is present and not "None", it should

@@ -1,0 +1,5 @@
+and *authkey* optional input arguments and how they may be used to
+   connect to an existing "SharedMemoryManager" service from other
+   processes.
+   SharedMemory(size)
+      Create and return a new "SharedMemory" object with the specified

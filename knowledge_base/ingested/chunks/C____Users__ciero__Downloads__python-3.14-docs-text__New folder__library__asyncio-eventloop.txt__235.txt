@@ -1,0 +1,5 @@
+the server to avoid races with new clients connecting.
+      Added in version 3.13.
+   abort_clients()
+      Close all existing incoming client connections immediately,
+      without waiting for pending operations to complete.

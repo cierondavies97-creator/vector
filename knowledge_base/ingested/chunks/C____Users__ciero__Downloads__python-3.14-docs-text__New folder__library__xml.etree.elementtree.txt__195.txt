@@ -1,0 +1,6 @@
+given, the first argument is interpreted as a URI, and this
+   argument is interpreted as a local name. "QName" instances are
+   opaque.
+TreeBuilder Objects
+-------------------
+class xml.etree.ElementTree.TreeBuilder(element_factory=None, *, comment_factory=None, pi_factory=None, insert_comments=False, insert_pis=False)

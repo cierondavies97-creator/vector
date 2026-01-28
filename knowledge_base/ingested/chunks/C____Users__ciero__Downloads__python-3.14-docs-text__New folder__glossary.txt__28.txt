@@ -1,0 +1,5 @@
+parallelism of the bytecode interpreter.
+attribute
+   A value associated with an object which is usually referenced by
+   name using dotted expressions. For example, if an object *o* has an
+   attribute *a* it would be referenced as *o.a*.

@@ -1,0 +1,6 @@
+>>> import struct
+            >>> buf = struct.pack("i"*12, *list(range(12)))
+            >>> x = memoryview(buf)
+            >>> y = x.cast('i', shape=[2,2,3])
+            >>> y.tolist()
+            [[[0, 1, 2], [3, 4, 5]], [[6, 7, 8], [9, 10, 11]]]

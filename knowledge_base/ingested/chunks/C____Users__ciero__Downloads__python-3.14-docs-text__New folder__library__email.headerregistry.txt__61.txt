@@ -1,0 +1,7 @@
+an address is:
+      [display_name] <username@domain>
+   or:
+      username@domain
+   where each part must conform to specific syntax rules spelled out
+   in **RFC 5322**.
+   As a convenience *addr_spec* can be specified instead of *username*

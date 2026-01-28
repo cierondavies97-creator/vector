@@ -1,0 +1,9 @@
+for t in threads:
+       t.start()
+   # Wait for all threads to finish
+   for t in threads:
+       t.join()
+Changed in version 3.7: This module used to be optional, it is now
+always available.
+See also:
+  "concurrent.futures.ThreadPoolExecutor" offers a higher level

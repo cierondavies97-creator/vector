@@ -1,0 +1,5 @@
+See "setLogRecordFactory()" for more information about the how the
+   factory is called.
+logging.debug(msg, *args, **kwargs)
+   This is a convenience function that calls "Logger.debug()", on the
+   root logger. The handling of the arguments is in every way

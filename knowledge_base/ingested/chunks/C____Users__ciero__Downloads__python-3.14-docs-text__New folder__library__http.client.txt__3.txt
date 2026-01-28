@@ -1,0 +1,4 @@
+WebAssembly platforms for more information.
+The module provides the following classes:
+class http.client.HTTPConnection(host, port=None, [timeout, ]source_address=None, blocksize=8192)
+   An "HTTPConnection" instance represents one transaction with an

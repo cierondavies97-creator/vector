@@ -1,0 +1,5 @@
+* "weakref" --- Weak references
+  * "types" --- Dynamic type creation and names for built-in types
+  * "copy" --- Shallow and deep copy operations
+  * "pprint" --- Data pretty printer
+  * "reprlib" --- Alternate "repr()" implementation

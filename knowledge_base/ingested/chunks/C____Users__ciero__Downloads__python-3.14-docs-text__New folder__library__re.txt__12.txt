@@ -1,0 +1,3 @@
+another string *q* matches *B*, the string *pq* will match AB.  This
+holds unless *A* or *B* contain low precedence operations; boundary
+conditions between *A* and *B*; or have numbered group references.

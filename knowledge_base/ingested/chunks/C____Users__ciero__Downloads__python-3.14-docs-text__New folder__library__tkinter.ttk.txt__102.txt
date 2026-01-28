@@ -1,0 +1,5 @@
+|             | activation if "Notebook.enable_traversal()" is called.         |
++-------------+----------------------------------------------------------------+
+Tab Identifiers
+---------------
+The tab_id present in several methods of "ttk.Notebook" may take any

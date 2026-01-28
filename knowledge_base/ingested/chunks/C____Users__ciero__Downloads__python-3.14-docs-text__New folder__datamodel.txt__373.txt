@@ -1,0 +1,4 @@
+See the paragraph on "__hash__()" for some important notes on
+   creating *hashable* objects which support custom comparison
+   operations and are usable as dictionary keys.
+   There are no swapped-argument versions of these methods (to be used

@@ -1,0 +1,5 @@
+means that "ProcessPoolExecutor" will not work in the interactive
+interpreter.
+Calling "Executor" or "Future" methods from a callable submitted to a
+"ProcessPoolExecutor" will result in deadlock.
+Note that the restrictions on functions and arguments needing to

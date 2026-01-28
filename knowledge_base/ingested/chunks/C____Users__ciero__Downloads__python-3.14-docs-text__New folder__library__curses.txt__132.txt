@@ -1,0 +1,7 @@
+window.delch([y, x])
+   Delete any character at "(y, x)".
+window.deleteln()
+   Delete the line under the cursor. All following lines are moved up
+   by one line.
+window.derwin(begin_y, begin_x)
+window.derwin(nlines, ncols, begin_y, begin_x)

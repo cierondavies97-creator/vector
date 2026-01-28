@@ -1,0 +1,4 @@
+as-is, except for the characters that must be escaped: quotation
+   mark, reverse solidus, and the control characters U+0000 through
+   U+001F.
+   If *check_circular* is true (the default), then lists, dicts, and

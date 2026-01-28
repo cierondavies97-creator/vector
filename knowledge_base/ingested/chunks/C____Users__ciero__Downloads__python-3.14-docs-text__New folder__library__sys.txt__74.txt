@@ -1,0 +1,4 @@
+all configuration files (e.g. the "pyconfig.h" header file) are
+   installed in the directory "*exec_prefix*/lib/python*X.Y*/config",
+   and shared library modules are installed in
+   "*exec_prefix*/lib/python*X.Y*/lib-dynload", where *X.Y* is the

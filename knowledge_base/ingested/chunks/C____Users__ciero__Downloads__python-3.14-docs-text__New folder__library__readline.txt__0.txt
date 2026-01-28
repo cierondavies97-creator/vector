@@ -1,0 +1,4 @@
+"readline" --- GNU readline interface
+*************************************
+======================================================================
+The "readline" module defines a number of functions to facilitate

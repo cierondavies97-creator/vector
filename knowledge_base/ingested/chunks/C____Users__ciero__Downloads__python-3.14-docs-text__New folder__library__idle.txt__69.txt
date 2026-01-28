@@ -1,0 +1,3 @@
+Instead of waiting, or after a box is closed, open a completion box
+immediately with Show Completions on the Edit menu.  The default hot
+key is "C"-"space".  If one types a prefix for the desired name before

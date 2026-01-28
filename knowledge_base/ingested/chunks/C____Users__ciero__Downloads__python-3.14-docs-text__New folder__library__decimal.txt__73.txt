@@ -1,0 +1,5 @@
+remains: "Decimal('321e+5').adjusted()" returns seven.  Used for
+      determining the position of the most significant digit with
+      respect to the decimal point.
+   as_integer_ratio()
+      Return a pair "(n, d)" of integers that represent the given

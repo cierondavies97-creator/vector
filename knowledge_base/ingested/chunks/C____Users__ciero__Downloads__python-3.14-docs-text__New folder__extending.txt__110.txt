@@ -1,0 +1,3 @@
+same manner as the function object.  In other cases, you may have to
+construct a new tuple to pass as the argument list.  The simplest way
+to do this is to call "Py_BuildValue()".  For example, if you want to

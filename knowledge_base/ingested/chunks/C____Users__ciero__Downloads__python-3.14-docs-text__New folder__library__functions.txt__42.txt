@@ -1,0 +1,4 @@
+*descriptors* such as "property()".
+   Changed in version 3.10: Class methods now inherit the method
+   attributes ("__module__", "__name__", "__qualname__", "__doc__" and
+   "__annotations__") and have a new "__wrapped__" attribute.

@@ -1,0 +1,4 @@
+sends logging output to streams such as *sys.stdout*, *sys.stderr* or
+any file-like object (or, more precisely, any object which supports
+"write()" and "flush()" methods).
+class logging.StreamHandler(stream=None)

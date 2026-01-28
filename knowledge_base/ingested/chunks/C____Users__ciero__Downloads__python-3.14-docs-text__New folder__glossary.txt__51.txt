@@ -1,0 +1,3 @@
+written with a "j" suffix, e.g., "3+1j".  To get access to complex
+   equivalents of the "math" module, use "cmath".  Use of complex
+   numbers is a fairly advanced mathematical feature.  If you're not

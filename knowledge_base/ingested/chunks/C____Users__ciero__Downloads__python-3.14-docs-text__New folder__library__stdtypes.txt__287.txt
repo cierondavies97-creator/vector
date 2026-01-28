@@ -1,0 +1,4 @@
+See String and Bytes literals for more about the various forms of
+string literal, including supported escape sequences, and the "r"
+("raw") prefix that disables most escape sequence processing.
+Strings may also be created from other objects using the "str"

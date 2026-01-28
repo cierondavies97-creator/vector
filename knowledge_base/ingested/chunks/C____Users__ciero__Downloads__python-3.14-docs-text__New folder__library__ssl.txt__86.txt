@@ -1,0 +1,5 @@
+TLS protocol constant is deprecated in favor of
+   "PROTOCOL_TLS_CLIENT" and "PROTOCOL_TLS_SERVER".
+ssl.PROTOCOL_TLS_CLIENT
+   Auto-negotiate the highest protocol version that both the client
+   and server support, and configure the context client-side

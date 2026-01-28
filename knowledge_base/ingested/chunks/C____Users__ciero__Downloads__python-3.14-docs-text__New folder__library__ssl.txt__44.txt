@@ -1,0 +1,6 @@
+"SSLCertVerificationError".
+Random generation
+-----------------
+ssl.RAND_bytes(num, /)
+   Return *num* cryptographically strong pseudo-random bytes. Raises
+   an "SSLError" if the PRNG has not been seeded with enough data or

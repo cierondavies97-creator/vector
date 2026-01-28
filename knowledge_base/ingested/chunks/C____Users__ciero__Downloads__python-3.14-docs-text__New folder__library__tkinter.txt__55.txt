@@ -1,0 +1,3 @@
+Widgets have *configuration options*, which modify their appearance
+   and behavior, such as the text to display in a label or button.
+   Different classes of widgets will have different sets of options.

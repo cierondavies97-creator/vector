@@ -1,0 +1,3 @@
+object; however, you can *own a reference* to an object.  An object's
+reference count is now defined as the number of owned references to
+it.  The owner of a reference is responsible for calling "Py_DECREF()"

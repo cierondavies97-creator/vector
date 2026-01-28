@@ -1,0 +1,4 @@
+"JSONDecodeError" would not be well formatted and a
+"FileNotFoundError" exception would not be handled at all.
+Even "FileType" has its limitations for use with the "type" keyword.
+If one argument uses "FileType" and then a subsequent argument fails,

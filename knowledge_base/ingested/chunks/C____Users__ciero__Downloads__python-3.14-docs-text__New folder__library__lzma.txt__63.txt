@@ -1,0 +1,4 @@
+to be subtracted. The default is 1, i.e. take the differences between
+adjacent bytes.
+The BCJ filters are intended to be applied to machine code. They
+convert relative branches, calls and jumps in the code to use absolute

@@ -1,0 +1,5 @@
+changed, what is the probability that the Python room will stay within
+its capacity limits?
+   >>> n = 750             # Sample size
+   >>> p = 0.65            # Preference for Python
+   >>> q = 1.0 - p         # Preference for Ruby

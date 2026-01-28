@@ -1,0 +1,2 @@
+|                                                    | Click Start, open "Manage app execution aliases",  |
+|                                                    | and check that the aliases for "Python (default)"  |

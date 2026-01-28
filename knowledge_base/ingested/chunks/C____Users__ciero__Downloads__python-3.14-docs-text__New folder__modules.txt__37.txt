@@ -1,0 +1,4 @@
+with different architectures.
+Python does not check the cache in two circumstances.  First, it
+always recompiles and does not store the result for the module that's
+loaded directly from the command line.  Second, it does not check the

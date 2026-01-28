@@ -1,0 +1,5 @@
+Windows API function "GetLastError()".
+   Availability: Windows
+ctypes.GetLastError()
+   Returns the last error code set by Windows in the calling thread.
+   This function calls the Windows "GetLastError()" function directly,

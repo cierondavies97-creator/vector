@@ -1,0 +1,7 @@
+in GNU **gettext** format.  Here's what you would put at the top of
+your module:
+   import gettext
+   t = gettext.translation('spam', '/usr/share/locale')
+   _ = t.gettext
+Localizing your application
+---------------------------

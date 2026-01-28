@@ -1,0 +1,4 @@
+depends on settings of the listening socket:
+* if the listening socket is in *blocking mode* or in *timeout mode*,
+  the socket returned by "accept()" is in *blocking mode*;
+* if the listening socket is in *non-blocking mode*, whether the

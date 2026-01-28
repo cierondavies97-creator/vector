@@ -1,0 +1,6 @@
+SSL channel as a list of DER-encoded bytes. If certificate
+   verification was disabled method acts the same as
+   "get_unverified_chain()".
+   Added in version 3.13.
+SSLSocket.get_unverified_chain()
+   Returns raw certificate chain provided by the other end of the SSL

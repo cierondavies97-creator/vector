@@ -1,0 +1,6 @@
+cannot be backtracked and will thus fail to match. "x*+", "x++" and
+   "x?+" are equivalent to "(?>x*)", "(?>x+)" and "(?>x?)"
+   correspondingly.
+   Added in version 3.11.
+"{m}"
+   Specifies that exactly *m* copies of the previous RE should be

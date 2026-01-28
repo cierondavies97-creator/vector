@@ -1,0 +1,4 @@
+the time zone database (except on Windows, where there are no "well-
+known" locations for time zone data). On POSIX systems, downstream
+distributors and those building Python from source who know where
+their system time zone data is deployed may change the default time

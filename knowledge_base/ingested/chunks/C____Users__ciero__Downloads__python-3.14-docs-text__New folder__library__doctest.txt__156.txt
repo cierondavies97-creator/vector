@@ -1,0 +1,4 @@
+use "/" characters to separate path segments, and may not be an
+     absolute path (i.e., it may not begin with "/").
+   * If *module_relative* is "False", then each filename in *paths*
+     specifies an OS-specific path.  The path may be absolute or

@@ -1,0 +1,10 @@
+>>> wheel.module
+   'wheel.cli'
+   >>> wheel.attr
+   'main'
+   >>> wheel.extras
+   []
+   >>> main = wheel.load()
+   >>> main
+   <function main at 0x103528488>
+The "group" and "name" are arbitrary values defined by the package

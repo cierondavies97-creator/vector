@@ -1,0 +1,4 @@
+numbers.  Formally, a digit is a character that has the property
+   value Numeric_Type=Digit or Numeric_Type=Decimal.
+str.isidentifier()
+   Return "True" if the string is a valid identifier according to the

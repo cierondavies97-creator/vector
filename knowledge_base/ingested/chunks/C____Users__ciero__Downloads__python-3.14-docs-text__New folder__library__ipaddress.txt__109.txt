@@ -1,0 +1,5 @@
+0
+      Deprecated since version 3.7: It uses the same ordering and
+      comparison algorithm as "<", "==", and ">"
+class ipaddress.IPv6Network(address, strict=True)
+   Construct an IPv6 network definition.  *address* can be one of the

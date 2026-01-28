@@ -1,0 +1,4 @@
+buffer
+      The underlying binary buffer (a "BufferedIOBase" or "RawIOBase"
+      instance) that "TextIOBase" deals with. This is not part of the
+      "TextIOBase" API and may not exist in some implementations.

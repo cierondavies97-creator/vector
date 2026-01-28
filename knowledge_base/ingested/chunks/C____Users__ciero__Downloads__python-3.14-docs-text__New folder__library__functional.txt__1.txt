@@ -1,0 +1,5 @@
+The following modules are documented in this chapter:
+* "itertools" --- Functions creating iterators for efficient looping
+  * Itertool Functions
+  * Itertools Recipes
+* "functools" --- Higher-order functions and operations on callable

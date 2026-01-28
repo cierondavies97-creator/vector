@@ -1,0 +1,6 @@
+calls.
+The class can be used to simulate nested scopes and is useful in
+templating.
+class collections.ChainMap(*maps)
+   A "ChainMap" groups multiple dicts or other mappings together to
+   create a single, updateable view.  If no *maps* are specified, a

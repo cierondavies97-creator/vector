@@ -1,0 +1,4 @@
+seconds. The argument may be a floating-point number to indicate a
+   more precise sleep time.
+   If the sleep is interrupted by a signal and no exception is raised
+   by the signal handler, the sleep is restarted with a recomputed

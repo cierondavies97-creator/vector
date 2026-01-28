@@ -1,0 +1,6 @@
+def convert_arg_line_to_args(self, arg_line):
+              return arg_line.split()
+Exiting methods
+---------------
+ArgumentParser.exit(status=0, message=None)
+   This method terminates the program, exiting with the specified

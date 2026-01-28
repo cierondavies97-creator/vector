@@ -1,0 +1,4 @@
+of *iterable* that are false are removed.
+   Note that "filter(function, iterable)" is equivalent to the
+   generator expression "(item for item in iterable if
+   function(item))" if function is not "None" and "(item for item in

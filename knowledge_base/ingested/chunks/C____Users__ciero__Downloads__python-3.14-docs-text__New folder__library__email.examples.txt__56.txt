@@ -1,0 +1,5 @@
+f.write(part.get_content())
+               # again strip the <> to go from email form of cid to html form.
+               partfiles[part['content-id'][1:-1]] = f.name
+   else:
+       print("Don't know how to display {}".format(richest.get_content_type()))

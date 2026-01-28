@@ -1,0 +1,4 @@
+Python process (implies "sys._jit.is_available()"), and "False"
+      otherwise. If JIT compilation is available, this can be
+      controlled by setting the "PYTHON_JIT" environment variable to
+      "0" (disabled) or "1" (enabled) at interpreter startup.

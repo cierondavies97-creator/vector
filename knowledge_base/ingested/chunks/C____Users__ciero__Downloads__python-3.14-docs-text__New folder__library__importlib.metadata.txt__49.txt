@@ -1,0 +1,4 @@
+multiple distribution packages), each top level import name maps to
+   a list of distribution names rather than mapping directly to a
+   single name.
+A convenience method to resolve the Distribution Package name (or

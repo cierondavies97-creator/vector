@@ -1,0 +1,6 @@
+Random numbers
+==============
+os.getrandom(size, flags=0)
+   Get up to *size* random bytes. The function can return less bytes
+   than requested.
+   These bytes can be used to seed user-space random number generators

@@ -1,0 +1,4 @@
+the MIME content type), for operating on the payload, for generating a
+serialized version of the message, and for recursively walking over
+the object tree.
+The "EmailMessage" dictionary-like interface is indexed by the header

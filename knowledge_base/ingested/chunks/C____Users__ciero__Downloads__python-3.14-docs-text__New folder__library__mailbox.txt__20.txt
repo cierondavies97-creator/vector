@@ -1,0 +1,3 @@
+instance, an "email.message.Message" instance, a string, a byte
+      string, or a file-like object (which should be open in binary
+      mode). If *message* is an instance of the appropriate format-

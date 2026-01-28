@@ -1,0 +1,5 @@
+set the *return_value* to be anything you want.
+To configure return values on methods of *instances* on the patched
+class you must do this on the "return_value". For example:
+   >>> class Class:
+   ...     def method(self):

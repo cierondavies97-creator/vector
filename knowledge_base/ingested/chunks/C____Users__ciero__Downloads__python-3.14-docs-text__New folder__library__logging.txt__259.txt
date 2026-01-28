@@ -1,0 +1,3 @@
++----------------+-----------------------------------------------+
+   | *style*        | If *format* is specified, use this style for  |
+   |                | the format string. One of "'%'", "'{'" or     |

@@ -1,0 +1,6 @@
+>>> get_annotations(zerodiv, format=Format.FORWARDREF)
+   Traceback (most recent call last):
+     ...
+   ZeroDivisionError: division by zero
+   >>> def ifexp(x: 1 if y else 0): ...
+   >>> get_annotations(ifexp, format=Format.STRING)

@@ -1,0 +1,3 @@
+The first argument to "Annotated" must be a valid type. Multiple
+   metadata elements can be supplied as "Annotated" supports variadic
+   arguments. The order of the metadata elements is preserved and

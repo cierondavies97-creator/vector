@@ -1,0 +1,5 @@
+leading underscores) name in order to retrieve it with
+     "getattr()".
+globals()
+   Return the dictionary implementing the current module namespace.
+   For code within functions, this is set when the function is defined

@@ -1,0 +1,5 @@
+is not documented and is considered as an *internal* API.
+Future and Task private constructors
+====================================
+"asyncio.Future" and "asyncio.Task" should be never created directly,
+please use corresponding "loop.create_future()" and

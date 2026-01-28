@@ -1,0 +1,5 @@
+object*.
+   Added in version 3.13.
+mimetypes.guess_all_extensions(type, strict=True)
+   Guess the extensions for a file based on its MIME type, given by
+   *type*. The return value is a list of strings giving all possible

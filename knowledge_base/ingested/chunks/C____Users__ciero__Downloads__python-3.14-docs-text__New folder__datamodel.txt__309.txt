@@ -1,0 +1,4 @@
+written (nicely formatted) to the standard error stream; if the
+interpreter is interactive, it is also made available to the user as
+"sys.last_traceback".
+For explicitly created tracebacks, it is up to the creator of the

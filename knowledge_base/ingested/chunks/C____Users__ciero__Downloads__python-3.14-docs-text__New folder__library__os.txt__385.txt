@@ -1,0 +1,5 @@
+"fsdecode()" to decode byte filenames.
+   path
+      The entry's full path name: equivalent to
+      "os.path.join(scandir_path, entry.name)" where *scandir_path* is
+      the "scandir()" *path* argument.  The path is only absolute if

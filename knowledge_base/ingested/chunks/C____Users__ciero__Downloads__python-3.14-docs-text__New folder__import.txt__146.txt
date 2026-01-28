@@ -1,0 +1,4 @@
+on a path entry finder, the import system will always call
+"find_loader()" in preference to "find_module()".
+Changed in version 3.10: Calls to "find_module()" and "find_loader()"
+by the import system will raise "ImportWarning".

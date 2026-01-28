@@ -1,0 +1,6 @@
+continue to do so on subsequent calls. Implementations that do not
+obey this property are deemed broken.
+Generator Types
+---------------
+Python's *generator*s provide a convenient way to implement the
+iterator protocol.  If a container object's "__iter__()" method is

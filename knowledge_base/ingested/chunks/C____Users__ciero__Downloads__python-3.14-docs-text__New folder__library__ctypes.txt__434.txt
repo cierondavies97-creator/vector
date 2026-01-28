@@ -1,0 +1,5 @@
+*storage unit*; see "bit_offset".
+   byte_size
+      Size of the field, in bytes.
+      For bitfields, this is the size of the underlying *storage
+      unit*. Typically, it has the same size as the bitfield's type.

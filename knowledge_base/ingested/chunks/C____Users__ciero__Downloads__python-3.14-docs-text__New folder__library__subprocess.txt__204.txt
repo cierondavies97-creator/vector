@@ -1,0 +1,4 @@
+"shell=True". The current directory and "%PATH%" are replaced with
+   "%COMSPEC%" and "%SystemRoot%\System32\cmd.exe". As a result,
+   dropping a malicious program named "cmd.exe" into a current
+   directory no longer works.

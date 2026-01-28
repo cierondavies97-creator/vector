@@ -1,0 +1,5 @@
+rounded logarithm, then "k = 1 + int(log(abs(x), 2))". If "x" is
+   zero, then "x.bit_length()" returns "0".
+   Equivalent to:
+      def bit_length(self):
+          s = bin(self)       # binary representation:  bin(-37) --> '-0b100101'

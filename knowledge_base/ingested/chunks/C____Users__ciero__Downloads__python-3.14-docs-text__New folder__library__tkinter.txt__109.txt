@@ -1,0 +1,3 @@
+widgets appear inside the master into which they are packed.  You can
+pack widgets into frames, and frames into other frames, in order to
+achieve the kind of layout you desire. Additionally, the arrangement

@@ -1,0 +1,4 @@
+similarly also captured on import, and the function may not reflect
+   future environment changes.
+   On Unix, keys and values are decoded with
+   "sys.getfilesystemencoding()" and "'surrogateescape'" error

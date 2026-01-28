@@ -1,0 +1,6 @@
+called with an object then it calls "close" on it.
+>>> class ProductionClass:
+...     def closer(self, something):
+...         something.close()
+...
+So to test it we need to pass in an object with a "close" method and

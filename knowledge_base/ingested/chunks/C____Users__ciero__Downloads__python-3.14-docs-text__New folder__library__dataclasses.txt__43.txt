@@ -1,0 +1,3 @@
+detect if some parameters are provided by the user. This sentinel
+   is used because "None" is a valid value for some parameters with a
+   distinct meaning.  No code should directly use the "MISSING" value.

@@ -1,0 +1,5 @@
+that exit handlers and finally clauses, etc., will not be
+      executed.
+      Note that descendant processes of the process will *not* be
+      terminated -- they will simply become orphaned.
+      Warning:

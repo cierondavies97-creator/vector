@@ -1,0 +1,5 @@
+-m <module>
+   Specifies that a module is being profiled instead of a script.
+   Added in version 3.7: Added the "-m" option to "cProfile".
+   Added in version 3.8: Added the "-m" option to "profile".
+The "pstats" module's "Stats" class has a variety of methods for

@@ -1,0 +1,4 @@
+the source of the program that triggered the error.
+exception SystemExit
+   This exception is raised by the "sys.exit()" function.  It inherits
+   from "BaseException" instead of "Exception" so that it is not

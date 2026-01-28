@@ -1,0 +1,4 @@
+"KeyboardInterrupt", this is not a problem, but applications that are
+complex or require high reliability should avoid raising exceptions
+from signal handlers. They should also avoid catching
+"KeyboardInterrupt" as a means of gracefully shutting down.  Instead,

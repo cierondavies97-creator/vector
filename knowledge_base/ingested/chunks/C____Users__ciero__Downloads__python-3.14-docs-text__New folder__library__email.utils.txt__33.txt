@@ -1,0 +1,4 @@
+using the empty string for *language*.
+email.utils.collapse_rfc2231_value(value, errors='replace', fallback_charset='us-ascii')
+   When a header parameter is encoded in **RFC 2231** format,
+   "Message.get_param" may return a 3-tuple containing the character

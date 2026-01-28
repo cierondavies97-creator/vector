@@ -1,0 +1,3 @@
+*buffer*.  If *size* is given then that many bytes will be read
+      from buffer.  Very large buffers (approximately 32 MiB+, though
+      it depends on the OS) may raise a "ValueError" exception

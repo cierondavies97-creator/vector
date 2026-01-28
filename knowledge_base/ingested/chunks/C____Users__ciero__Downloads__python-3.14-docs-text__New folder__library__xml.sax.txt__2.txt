@@ -1,0 +1,4 @@
+security.
+Changed in version 3.7.1: The SAX parser no longer processes general
+external entities by default to increase security. Before, the parser
+created network connections to fetch remote files or loaded local

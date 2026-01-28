@@ -1,0 +1,3 @@
+semaphore implementation on the host operating system. Without one,
+  the "multiprocessing.synchronize" module will be disabled, and
+  attempts to import it will result in an "ImportError". See bpo-3770

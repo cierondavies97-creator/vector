@@ -1,0 +1,4 @@
+The arguments to "Popen" are as follows.
+   *args* should be a sequence of program arguments or else a single
+   string or *path-like object*. By default, the program to execute is
+   the first item in *args* if *args* is a sequence.  If *args* is a

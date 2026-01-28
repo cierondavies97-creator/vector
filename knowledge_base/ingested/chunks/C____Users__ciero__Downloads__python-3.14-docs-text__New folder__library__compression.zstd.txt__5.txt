@@ -1,0 +1,4 @@
+* The "CompressionParameter", "DecompressionParameter", and "Strategy"
+  classes for setting advanced (de)compression parameters.
+This is an *optional module*. If it is missing from your copy of
+CPython, look for documentation from your distributor (that is,

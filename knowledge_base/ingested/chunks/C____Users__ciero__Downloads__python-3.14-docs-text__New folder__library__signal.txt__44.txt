@@ -1,0 +1,5 @@
+Raises "ValueError" if *signalnum* is invalid.
+   Added in version 3.8.
+signal.valid_signals()
+   Return the set of valid signal numbers on this platform.  This can
+   be less than "range(1, NSIG)" if some signals are reserved by the

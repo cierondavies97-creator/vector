@@ -1,0 +1,5 @@
+distinguish between these cases.
+Path.is_char_device()
+   Return "True" if the path points to a character device. "False"
+   will be returned if the path is invalid, inaccessible or missing,
+   or if it points to something other than a character device. Use

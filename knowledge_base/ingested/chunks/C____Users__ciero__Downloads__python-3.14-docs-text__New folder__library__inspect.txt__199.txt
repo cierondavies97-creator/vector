@@ -1,0 +1,6 @@
+>>> ba.arguments
+         {'a': 'spam', 'b': 'ham', 'args': ()}
+      Added in version 3.5.
+   The "args" and "kwargs" properties can be used to invoke functions:
+      def test(a, *, b):
+          ...

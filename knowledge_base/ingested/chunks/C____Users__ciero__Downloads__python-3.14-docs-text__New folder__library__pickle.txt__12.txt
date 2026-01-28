@@ -1,0 +1,4 @@
+across Python versions.  Because its primary job in life is to
+  support ".pyc" files, the Python implementers reserve the right to
+  change the serialization format in non-backwards compatible ways
+  should the need arise. The "pickle" serialization format is

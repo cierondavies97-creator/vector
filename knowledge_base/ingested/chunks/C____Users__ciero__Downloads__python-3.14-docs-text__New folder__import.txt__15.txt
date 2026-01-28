@@ -1,0 +1,3 @@
+parent package name by a dot, akin to Python's standard attribute
+access syntax.  Thus you might have a package called "email", which in
+turn has a subpackage called "email.mime" and a module within that

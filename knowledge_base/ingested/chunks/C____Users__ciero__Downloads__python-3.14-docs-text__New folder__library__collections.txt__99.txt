@@ -1,0 +1,6 @@
+>>> d.extendleft('abc')              # extendleft() reverses the input order
+   >>> d
+   deque(['c', 'b', 'a'])
+"deque" Recipes
+---------------
+This section shows various approaches to working with deques.

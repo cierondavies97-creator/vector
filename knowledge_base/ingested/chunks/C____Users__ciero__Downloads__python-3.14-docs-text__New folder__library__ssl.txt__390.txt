@@ -1,0 +1,4 @@
+is typically used by framework authors that want to implement
+   asynchronous IO for SSL through memory buffers.
+   This class implements an interface on top of a low-level SSL object
+   as implemented by OpenSSL. This object captures the state of an SSL

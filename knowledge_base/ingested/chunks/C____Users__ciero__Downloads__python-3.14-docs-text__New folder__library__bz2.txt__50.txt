@@ -1,0 +1,7 @@
+...     unused = f.write(data)
+...
+>>> with bz2.open("myfile.bz2", "rb") as f:
+...     # Decompress data from file
+...     content = f.read()
+...
+>>> content == data  # Check equality to original object after round-trip

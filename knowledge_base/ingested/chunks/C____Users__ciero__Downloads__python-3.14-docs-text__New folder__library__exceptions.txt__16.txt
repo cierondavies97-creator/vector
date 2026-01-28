@@ -1,0 +1,4 @@
+custom memory layouts which makes it impossible to create a subclass
+that inherits from multiple exception types. The memory layout of a
+type is an implementation detail and might change between Python
+versions, leading to new conflicts in the future.  Therefore, it's

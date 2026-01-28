@@ -1,0 +1,4 @@
+If you merely want to attach a "timezone" object *tz* to a datetime
+   *dt* without adjustment of date and time data, use
+   "dt.replace(tzinfo=tz)". If you merely want to remove the
+   "timezone" object from an aware datetime *dt* without conversion of

@@ -1,0 +1,6 @@
+match objects a little more gracefully:
+   def displaymatch(match):
+       if match is None:
+           return None
+       return '<Match: %r, groups=%r>' % (match.group(), match.groups())
+Suppose you are writing a poker program where a player's hand is

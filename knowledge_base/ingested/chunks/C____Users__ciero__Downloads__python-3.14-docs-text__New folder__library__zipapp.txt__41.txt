@@ -1,0 +1,4 @@
+key to doing this is to bundle all of the application's dependencies
+into the archive, along with the application code.
+The steps to create a standalone archive are as follows:
+1. Create your application in a directory as normal, so you have a

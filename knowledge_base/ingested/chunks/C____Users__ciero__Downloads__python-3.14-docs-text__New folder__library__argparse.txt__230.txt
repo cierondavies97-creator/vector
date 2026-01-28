@@ -1,0 +1,5 @@
+Namespace(foo=None, x='X')
+Several short options can be joined together, using only a single "-"
+prefix, as long as only the last option (or none of them) requires a
+value:
+   >>> parser = argparse.ArgumentParser(prog='PROG')

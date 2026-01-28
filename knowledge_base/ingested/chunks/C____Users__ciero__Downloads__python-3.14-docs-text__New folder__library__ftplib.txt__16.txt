@@ -1,0 +1,4 @@
+default was changed from Latin-1 to UTF-8 to follow **RFC 2640**.
+   Several "FTP" methods are available in two flavors: one for
+   handling text files and another for binary files. The methods are
+   named for the command which is used followed by "lines" for the

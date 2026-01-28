@@ -1,0 +1,4 @@
+"-c" option and then list the filename(s) that should be included:
+   $ python -m zipfile -c monty.zip spam.txt eggs.txt
+Passing a directory is also acceptable:
+   $ python -m zipfile -c monty.zip life-of-brian_1979/

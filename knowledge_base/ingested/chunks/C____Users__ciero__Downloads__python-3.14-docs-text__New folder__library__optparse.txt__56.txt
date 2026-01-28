@@ -1,0 +1,5 @@
+from the core mission of "cp", which is to copy either one file to
+another, or several files to another directory.
+What are positional arguments for?
+----------------------------------
+Positional arguments are for those pieces of information that your

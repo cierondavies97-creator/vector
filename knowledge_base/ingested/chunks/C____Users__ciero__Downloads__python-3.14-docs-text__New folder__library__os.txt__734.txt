@@ -1,0 +1,4 @@
+been stopped by the delivery of a signal to be reported.
+   This option is not available for the other "wait*" functions.
+   Availability: Unix, not WASI, not Android, not iOS.
+   Added in version 3.3.

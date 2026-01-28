@@ -1,0 +1,6 @@
+less emphasized font than the main message.
+      *icon*
+         Specifies an icon to display. If this option is not
+         specified, then the "INFO" icon will be displayed.
+      *message*
+         Specifies the message to display in this message box. The

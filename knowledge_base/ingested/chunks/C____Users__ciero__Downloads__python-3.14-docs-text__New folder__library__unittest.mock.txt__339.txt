@@ -1,0 +1,5 @@
+callable.
+   "create_autospec()" also takes arbitrary keyword arguments that are
+   passed to the constructor of the created mock.
+See Autospeccing for examples of how to use auto-speccing with
+"create_autospec()" and the *autospec* argument to "patch()".

@@ -1,0 +1,4 @@
+'%Y-%m-%d %H:%M:%S,uuu' is used, where the uuu part is a
+      millisecond value and the other letters are as per the
+      "time.strftime()" documentation.  An example time in this format
+      is "2003-01-23 00:29:50,411".  The resulting string is returned.

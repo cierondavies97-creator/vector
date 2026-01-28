@@ -1,0 +1,4 @@
+Notes on using "Set" and "MutableSet" as a mixin:
+1. Since some set operations create new sets, the default mixin
+   methods need a way to create new instances from an *iterable*. The
+   class constructor is assumed to have a signature in the form

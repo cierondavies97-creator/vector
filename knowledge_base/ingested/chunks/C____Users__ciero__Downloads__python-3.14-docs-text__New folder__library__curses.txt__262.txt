@@ -1,0 +1,3 @@
+| curses.KEY_SIC            | Shifted Input                                |
++---------------------------+----------------------------------------------+
+| curses.KEY_SLEFT          | Shifted Left arrow                           |

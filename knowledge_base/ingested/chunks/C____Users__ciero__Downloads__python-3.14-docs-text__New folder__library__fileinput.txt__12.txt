@@ -1,0 +1,5 @@
+"with" statement is exited, even if an exception occurs:
+      with fileinput.input(files=('spam.txt', 'eggs.txt'), encoding="utf-8") as f:
+          for line in f:
+              process(line)
+   Changed in version 3.2: Can be used as a context manager.

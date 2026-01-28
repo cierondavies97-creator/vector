@@ -1,0 +1,4 @@
+"__main__" module attributes and "sys.argv[0]")
+   * usage - The string describing the program usage (default:
+     generated from arguments added to parser)
+   * description - Text to display before the argument help (by

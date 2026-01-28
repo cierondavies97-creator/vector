@@ -1,0 +1,4 @@
+strict compliance with the RFCs, such as generating emails that
+interoperate with email servers that do not themselves follow the
+standards, or that implement extensions you want to use in ways that
+violate the standards.

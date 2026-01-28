@@ -1,0 +1,4 @@
+| caches the | loading a      | load an    |
+      | dictionary | digested       | undigested |
+      |            | dictionary     | dictionary |
+      |            | again with the | multiple   |

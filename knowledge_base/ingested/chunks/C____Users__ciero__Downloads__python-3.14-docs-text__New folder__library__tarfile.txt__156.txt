@@ -1,0 +1,5 @@
+Return the modified "TarInfo" member.
+tarfile.data_filter(member, path)
+   Implements the "'data'" filter. In addition to what "tar_filter"
+   does:
+   * Normalize link targets ("TarInfo.linkname") using

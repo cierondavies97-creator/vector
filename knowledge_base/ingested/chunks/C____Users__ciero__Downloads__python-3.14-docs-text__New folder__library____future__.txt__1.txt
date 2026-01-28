@@ -1,0 +1,4 @@
+statements. These are special-cased by the Python compiler to allow
+the use of new Python features in modules containing the future
+statement before the release in which the feature becomes standard.
+While these future statements are given additional special meaning by

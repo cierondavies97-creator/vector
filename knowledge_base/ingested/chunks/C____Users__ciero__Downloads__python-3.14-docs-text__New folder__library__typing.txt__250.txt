@@ -1,0 +1,4 @@
+The variance of type variables is inferred by type checkers when
+   they are created through the type parameter syntax or when
+   "infer_variance=True" is passed. Manually created type variables
+   may be explicitly marked covariant or contravariant by passing

@@ -1,0 +1,3 @@
+type objects (or recursively, other such tuples) or a Union Type of
+   multiple types, return "True" if *object* is an instance of any of
+   the types. If *classinfo* is not a type or tuple of types and such

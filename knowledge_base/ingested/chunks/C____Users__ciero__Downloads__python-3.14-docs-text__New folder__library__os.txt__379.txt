@@ -1,0 +1,5 @@
+emitted in its destructor.The function accepts a *path-like
+   object*.
+   Changed in version 3.7: Added support for file descriptors on Unix.
+class os.DirEntry
+   Object yielded by "scandir()" to expose the file path and other

@@ -1,0 +1,5 @@
+environment. This mapping can be str to str on any platform or
+   bytes to bytes on POSIX platforms much like "os.environ" or
+   "os.environb".
+   Note:
+     If specified, *env* must provide any variables required for the

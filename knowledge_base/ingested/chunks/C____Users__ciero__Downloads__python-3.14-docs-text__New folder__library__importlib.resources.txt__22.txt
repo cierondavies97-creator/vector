@@ -1,0 +1,4 @@
+This function is roughly equivalent to:
+      files(anchor).joinpath(*path_names).open('rb')
+   Changed in version 3.13: Multiple *path_names* are accepted.
+importlib.resources.open_text(anchor, *path_names, encoding='utf-8', errors='strict')

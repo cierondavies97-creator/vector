@@ -1,0 +1,5 @@
+# start = end for no DST.
+       if 2006 < year:
+           dststart, dstend = DSTSTART_2007, DSTEND_2007
+       elif 1986 < year < 2007:
+           dststart, dstend = DSTSTART_1987_2006, DSTEND_1987_2006

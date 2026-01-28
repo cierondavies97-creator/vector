@@ -1,0 +1,4 @@
+"breakpoint()" function passes its "*args" and "**kws" straight
+   through.  Whatever "breakpointhooks()" returns is returned from
+   "breakpoint()".
+   The default implementation first consults the environment variable

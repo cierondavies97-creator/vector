@@ -1,0 +1,4 @@
+lexical scoping allows the class body (including any methods) to
+reference names from the current and outer scopes when the class
+definition occurs inside a function.
+However, even when the class definition occurs inside the function,

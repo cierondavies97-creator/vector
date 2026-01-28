@@ -1,0 +1,4 @@
+the latest installed Python 3 version.
+* If "PY_PYTHON=3.7-32", the command "python" will use the 32-bit
+  implementation of 3.7 whereas the command "python3" will use the
+  latest installed Python (PY_PYTHON was not considered at all as a

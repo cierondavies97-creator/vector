@@ -1,0 +1,5 @@
+>>> list(map(round, predicted_dist))
+      [5912, 10166, 6806, 6459, 414]
+      >>> [5_906, 10_152, 6_796, 6_450, 414]  # actual distance in million km
+      [5906, 10152, 6796, 6450, 414]
+   Added in version 3.10.

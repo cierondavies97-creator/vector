@@ -1,0 +1,5 @@
+be in blocking mode.
+   The newly created socket is non-inheritable.
+   Changed in version 3.4: The returned socket is now non-inheritable.
+socket.fromshare(data)
+   Instantiate a socket from data obtained from the "socket.share()"

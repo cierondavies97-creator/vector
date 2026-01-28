@@ -1,0 +1,6 @@
+--system-site-packages
+   Give the virtual environment access to the system site-packages
+   directory.
+--symlinks
+   Try to use symlinks rather than copies, when symlinks are not the
+   default for the platform.

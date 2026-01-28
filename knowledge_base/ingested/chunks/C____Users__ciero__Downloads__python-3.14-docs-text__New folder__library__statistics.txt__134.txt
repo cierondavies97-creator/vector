@@ -1,0 +1,5 @@
+"NormalDist" objects
+====================
+"NormalDist" is a tool for creating and manipulating normal
+distributions of a random variable.  It is a class that treats the
+mean and standard deviation of data measurements as a single entity.

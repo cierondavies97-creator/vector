@@ -1,0 +1,4 @@
+Unix" are supported on macOS, iOS and Android, all of which build on
+  a Unix core.
+* If an availability note contains both a minimum Kernel version and a
+  minimum libc version, then both conditions must hold. For example a

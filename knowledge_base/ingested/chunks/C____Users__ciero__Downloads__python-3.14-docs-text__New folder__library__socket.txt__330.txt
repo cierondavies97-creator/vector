@@ -1,0 +1,5 @@
+listening on but on the new socket returned by "accept()".
+The first two examples support IPv4 only.
+   # Echo server program
+   import socket
+   HOST = ''                 # Symbolic name meaning all available interfaces

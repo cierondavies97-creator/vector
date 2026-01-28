@@ -1,0 +1,3 @@
+form "pkg.module:callable" and the archive will be run by importing
+   "pkg.module" and executing the given callable with no arguments.
+   It is an error to omit *main* if the source is a directory and does

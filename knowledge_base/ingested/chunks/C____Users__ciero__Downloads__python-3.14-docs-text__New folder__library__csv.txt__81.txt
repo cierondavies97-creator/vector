@@ -1,0 +1,4 @@
+call to the *write* method of the underlying file object.
+   Changed in version 3.5: Added support of arbitrary iterables.
+csvwriter.writerows(rows, /)
+   Write all elements in *rows* (an iterable of *row* objects as

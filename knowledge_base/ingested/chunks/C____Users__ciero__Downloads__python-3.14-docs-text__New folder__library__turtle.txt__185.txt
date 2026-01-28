@@ -1,0 +1,5 @@
+different color, you must use the helper class "Shape" explicitly as
+described below:
+1. Create an empty Shape object of type "compound".
+2. Add as many components to this object as desired, using the
+   "addcomponent()" method.

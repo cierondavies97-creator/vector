@@ -1,0 +1,3 @@
+the *backup* parameter is given (typically as "backup='.<some
+extension>'"), it specifies the extension for the backup file, and the
+backup file remains around; by default, the extension is "'.bak'" and

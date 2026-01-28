@@ -1,0 +1,7 @@
+custom queue implementations.
+      Added in version 3.3.
+See also:
+  Module "logging"
+     API reference for the logging module.
+  Module "logging.config"
+     Configuration API for the logging module.

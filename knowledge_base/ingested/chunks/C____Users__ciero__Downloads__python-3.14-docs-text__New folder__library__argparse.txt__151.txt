@@ -1,0 +1,4 @@
+the various "ArgumentParser" actions.  The two most common uses of it
+are:
+* When "add_argument()" is called with "action='store_const'" or
+  "action='append_const'".  These actions add the "const" value to one

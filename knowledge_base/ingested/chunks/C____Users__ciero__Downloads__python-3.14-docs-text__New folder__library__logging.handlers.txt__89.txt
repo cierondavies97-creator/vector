@@ -1,0 +1,5 @@
+UDP sockets.
+class logging.handlers.DatagramHandler(host, port)
+   Returns a new instance of the "DatagramHandler" class intended to
+   communicate with a remote machine whose address is given by *host*
+   and *port*.

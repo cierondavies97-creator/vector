@@ -1,0 +1,4 @@
+syntax and confusing interfaces.)
+Lots of people want their programs to have "required options".  Think
+about it. If it's required, then it's *not optional*!  If there is a
+piece of information that your program absolutely requires in order to

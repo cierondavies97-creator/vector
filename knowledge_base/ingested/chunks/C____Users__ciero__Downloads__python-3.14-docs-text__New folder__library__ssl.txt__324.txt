@@ -1,0 +1,4 @@
+time period over which it is valid.  This is expressed as two fields,
+called "notBefore" and "notAfter".
+In the Python use of certificates, a client or server can use a
+certificate to prove who they are.  The other side of a network

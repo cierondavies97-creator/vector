@@ -1,0 +1,5 @@
+process, which is the sum of resources used by all threads in the
+   process.
+resource.RUSAGE_CHILDREN
+   Pass to "getrusage()" to request resources consumed by child
+   processes of the calling process which have been terminated and

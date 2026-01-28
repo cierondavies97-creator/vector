@@ -1,0 +1,3 @@
+| "7"      | "ru_majflt"            | page faults requiring I/O               |
+   +----------+------------------------+-----------------------------------------+
+   | "8"      | "ru_nswap"             | number of swap outs                     |

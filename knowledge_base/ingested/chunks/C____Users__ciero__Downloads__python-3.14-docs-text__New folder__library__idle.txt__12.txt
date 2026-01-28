@@ -1,0 +1,5 @@
+and '.txt' will be added for Python and text files, except that on
+   macOS Aqua,'.py' is added for all files.)
+Save Copy As...
+   Save the current window to different file without changing the
+   associated file.  (See Save As note above about filename

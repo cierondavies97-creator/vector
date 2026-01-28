@@ -1,0 +1,4 @@
+When *backupCount* is non-zero, the system will save old log files
+   by appending the extensions '.1', '.2' etc., to the filename. For
+   example, with a *backupCount* of 5 and a base file name of
+   "app.log", you would get "app.log", "app.log.1", "app.log.2", up to

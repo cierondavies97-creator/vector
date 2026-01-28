@@ -1,0 +1,9 @@
+};
+   static struct PyModuleDef keywdarg_module = {
+       .m_base = PyModuleDef_HEAD_INIT,
+       .m_name = "keywdarg",
+       .m_size = 0,
+       .m_methods = keywdarg_methods,
+   };
+   PyMODINIT_FUNC
+   PyInit_keywdarg(void)

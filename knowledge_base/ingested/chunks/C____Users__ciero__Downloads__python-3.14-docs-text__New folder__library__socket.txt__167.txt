@@ -1,0 +1,4 @@
+likely containing only a single address). To find the fully
+   qualified domain name, use the function "getfqdn()".
+   "gethostbyaddr()" supports both IPv4 and IPv6.
+   Raises an auditing event "socket.gethostbyaddr" with argument

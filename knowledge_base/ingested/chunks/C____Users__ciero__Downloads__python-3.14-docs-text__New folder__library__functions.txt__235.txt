@@ -1,0 +1,4 @@
+unsupported characters with "\N{...}" escape sequences.
+   *newline* determines how to parse newline characters from the
+   stream. It can be "None", "''", "'\n'", "'\r'", and "'\r\n'".  It
+   works as follows:

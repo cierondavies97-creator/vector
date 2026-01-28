@@ -1,0 +1,4 @@
+whereas the results of "glob.glob(root_dir=path)" never include an
+   empty string that would correspond to *path*.
+Comparison to the "os" and "os.path" modules
+============================================

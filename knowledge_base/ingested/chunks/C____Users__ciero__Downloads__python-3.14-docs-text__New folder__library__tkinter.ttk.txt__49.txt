@@ -1,0 +1,7 @@
+ttk.Widget
+----------
+Besides the methods described below, the "ttk.Widget" supports the
+methods "tkinter.Widget.cget()" and "tkinter.Widget.configure()".
+class tkinter.ttk.Widget
+   identify(x, y)
+      Returns the name of the element at position *x* *y*, or the

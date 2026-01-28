@@ -1,0 +1,4 @@
+* "loop.create_unix_connection()" and "loop.create_unix_server()" are
+  not supported. The "socket.AF_UNIX" socket family is specific to
+  Unix.
+* "loop.add_signal_handler()" and "loop.remove_signal_handler()" are

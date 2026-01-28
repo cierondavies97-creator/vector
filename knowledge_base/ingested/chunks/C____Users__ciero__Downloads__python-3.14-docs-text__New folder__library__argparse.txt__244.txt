@@ -1,0 +1,4 @@
+See also the argparse howto on ambiguous arguments for more details.
+Argument abbreviations (prefix matching)
+----------------------------------------
+The "parse_args()" method by default allows long options to be

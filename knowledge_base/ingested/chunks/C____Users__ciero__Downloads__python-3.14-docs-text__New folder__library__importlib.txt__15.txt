@@ -1,0 +1,3 @@
+If you are dynamically importing a module that was created since
+   the interpreter began execution (e.g., created a Python source
+   file), you may need to call "invalidate_caches()" in order for the

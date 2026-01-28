@@ -1,0 +1,9 @@
+-eggs
+   -ham
+   +python
+   +eggy
+   +hamster
+    guido
+   See A command-line interface to difflib for a more detailed
+   example.
+difflib.diff_bytes(dfunc, a, b, fromfile=b'', tofile=b'', fromfiledate=b'', tofiledate=b'', n=3, lineterm=b'\n')

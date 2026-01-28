@@ -1,0 +1,4 @@
+would defeat the purpose of the warning message).
+   The *skip_file_prefixes* keyword argument can be used to indicate
+   which stack frames are ignored when counting stack levels. This can
+   be useful when you want the warning to always appear at call sites

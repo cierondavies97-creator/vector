@@ -1,0 +1,7 @@
+by the "shutil" module.
+* The "compression" package
+* "compression.zstd" --- Compression compatible with the Zstandard
+  format
+  * Exceptions
+  * Reading and writing compressed files
+  * Compressing and decompressing data in memory

@@ -1,0 +1,5 @@
+Popen.poll()
+   Check if child process has terminated.  Set and return "returncode"
+   attribute. Otherwise, returns "None".
+Popen.wait(timeout=None)
+   Wait for child process to terminate.  Set and return "returncode"

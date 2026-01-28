@@ -1,0 +1,3 @@
+root parsers are created by "parser.ExternalEntityParserCreate".
+   Expat can optionally do XML namespace processing for you, enabled
+   by providing a value for *namespace_separator*.  The value must be

@@ -1,0 +1,4 @@
+returned. In Python this means that the type of the returned  value
+   will be something other than list.
+ServerProxy.system.methodHelp(name)
+   This method takes one parameter, the name of a method implemented

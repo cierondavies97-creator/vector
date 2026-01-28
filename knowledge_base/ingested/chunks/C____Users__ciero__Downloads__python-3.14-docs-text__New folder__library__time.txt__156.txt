@@ -1,0 +1,7 @@
+privileges. The clock is the same for all processes.
+   Availability: Unix.
+   Added in version 3.3.
+Timezone Constants
+==================
+time.altzone
+   The offset of the local DST timezone, in seconds west of UTC, if

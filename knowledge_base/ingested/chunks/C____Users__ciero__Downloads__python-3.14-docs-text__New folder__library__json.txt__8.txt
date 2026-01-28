@@ -1,0 +1,4 @@
+>>> def custom_json(obj):
+   ...     if isinstance(obj, complex):
+   ...         return {'__complex__': True, 'real': obj.real, 'imag': obj.imag}
+   ...     raise TypeError(f'Cannot serialize object of {type(obj)}')

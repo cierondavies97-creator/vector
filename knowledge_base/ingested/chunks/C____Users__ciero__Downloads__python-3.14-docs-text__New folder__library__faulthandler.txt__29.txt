@@ -1,0 +1,7 @@
+different file. Call these functions again each time that the file is
+replaced.
+Example
+=======
+Example of a segmentation fault on Linux with and without enabling the
+fault handler:
+   $ python -c "import ctypes; ctypes.string_at(0)"

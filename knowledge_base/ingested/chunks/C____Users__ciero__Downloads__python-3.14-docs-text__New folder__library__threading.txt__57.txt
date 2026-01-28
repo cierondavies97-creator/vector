@@ -1,0 +1,8 @@
+>>> mydata = MyLocal()
+   >>> mydata.number = 42
+   >>> mydata.color = 'red'
+So, the separate thread:
+   >>> thread = threading.Thread(target=f)
+   >>> thread.start()
+   >>> thread.join()
+affects what we see:

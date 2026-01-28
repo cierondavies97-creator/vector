@@ -1,0 +1,4 @@
+"pen()" to restore the former pen-state.  Moreover one or more of
+   these attributes can be provided as keyword-arguments.  This can be
+   used to set several pen attributes in one statement.
+      >>> turtle.pen(fillcolor="black", pencolor="red", pensize=10)

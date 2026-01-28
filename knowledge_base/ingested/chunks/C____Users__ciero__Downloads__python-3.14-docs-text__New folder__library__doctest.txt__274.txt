@@ -1,0 +1,5 @@
+containing doctest examples is specified directly, via the *src*
+   argument.
+   Optional argument *pm* has the same meaning as in function
+   "debug()" above.
+   Optional argument *globs* gives a dictionary to use as both local

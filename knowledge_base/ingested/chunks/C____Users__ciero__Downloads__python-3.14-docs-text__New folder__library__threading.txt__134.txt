@@ -1,0 +1,4 @@
+condition variable, if any are waiting.  The "notify_all()" method
+wakes up all threads waiting for the condition variable.
+Note: the "notify()" and "notify_all()" methods don't release the
+lock; this means that the thread or threads awakened will not return

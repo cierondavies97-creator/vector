@@ -1,0 +1,3 @@
+builtins namespace in addition to "_()".  Supported names are
+      "'gettext'", "'ngettext'", "'pgettext'", and "'npgettext'".
+      Note that this is only one way, albeit the most convenient way,

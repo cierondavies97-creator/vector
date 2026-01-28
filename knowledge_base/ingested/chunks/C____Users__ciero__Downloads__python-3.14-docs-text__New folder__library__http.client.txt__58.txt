@@ -1,0 +1,4 @@
+Buffer size in bytes for sending a file-like message body.
+   Added in version 3.7.
+As an alternative to using the "request()" method described above, you
+can also send your request step by step, by using the four functions

@@ -1,0 +1,5 @@
+* Otherwise, call "gettimeofday()".
+   Use "time_ns()" to avoid the precision loss caused by the "float"
+   type.
+Changed in version 3.13: On Windows, calls
+"GetSystemTimePreciseAsFileTime()" instead of

@@ -1,0 +1,6 @@
+skipTest(reason)
+      Calling this during a test method or "setUp()" skips the current
+      test.  See Skipping tests and expected failures for more
+      information.
+      Added in version 3.1.
+   subTest(msg=None, **params)

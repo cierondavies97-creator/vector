@@ -1,0 +1,7 @@
+* "collections.abc.MutableSequence"
+* "collections.abc.ByteString"
+* "collections.abc.MappingView"
+* "collections.abc.KeysView"
+* "collections.abc.ItemsView"
+* "collections.abc.ValuesView"
+* "contextlib.AbstractContextManager"

@@ -1,0 +1,4 @@
+default=[], dest='recipients',
+                           help='A To: header value (at least one required)')
+       args = parser.parse_args()
+       directory = args.directory

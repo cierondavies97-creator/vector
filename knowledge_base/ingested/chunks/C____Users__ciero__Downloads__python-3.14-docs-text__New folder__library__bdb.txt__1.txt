@@ -1,0 +1,5 @@
+breakpoints or managing execution via the debugger.
+The following exception is defined:
+exception bdb.BdbQuit
+   Exception raised by the "Bdb" class for quitting the debugger.
+The "bdb" module also defines two classes:

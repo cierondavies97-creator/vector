@@ -1,0 +1,4 @@
+This module defines the following functions:
+tomllib.load(fp, /, *, parse_float=float)
+   Read a TOML file. The first argument should be a readable and
+   binary file object. Return a "dict". Convert TOML types to Python

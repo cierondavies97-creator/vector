@@ -1,0 +1,5 @@
+8bit" charset.  Otherwise the original source header is used,
+      with its existing line breaks and any (RFC invalid) binary data
+      it may contain.
+email.policy.compat32
+   An instance of "Compat32", providing  backward compatibility with

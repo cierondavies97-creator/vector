@@ -1,0 +1,6 @@
+RFC-correct "\r\n".
+email.policy.SMTP
+   Suitable for serializing messages in conformance with the email
+   RFCs. Like "default", but with "linesep" set to "\r\n", which is
+   RFC compliant.
+email.policy.SMTPUTF8

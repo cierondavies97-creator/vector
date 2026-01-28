@@ -1,0 +1,5 @@
+available for reading.
+   Any preexisting callback registered for *fd* is cancelled and
+   replaced by *callback*.
+loop.remove_reader(fd)
+   Stop monitoring the *fd* file descriptor for read availability.

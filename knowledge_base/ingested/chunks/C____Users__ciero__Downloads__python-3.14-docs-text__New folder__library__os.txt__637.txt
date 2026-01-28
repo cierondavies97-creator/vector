@@ -1,0 +1,4 @@
+"None". On Windows, the "close" method result is directly the exit
+   code (or "None").
+   This is implemented using "subprocess.Popen"; see that class's
+   documentation for more powerful ways to manage and communicate with

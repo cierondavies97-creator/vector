@@ -1,0 +1,3 @@
+Python includes a number of default finders and importers.  The first
+one knows how to locate built-in modules, and the second knows how to
+locate frozen modules.  A third default finder searches an *import

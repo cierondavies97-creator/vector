@@ -1,0 +1,4 @@
+Calls "abort()" on all associated transports.
+      "close()" should be called before "abort_clients()" when closing
+      the server to avoid races with new clients connecting.
+      Added in version 3.13.

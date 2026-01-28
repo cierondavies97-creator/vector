@@ -1,0 +1,3 @@
+|             | (north, south, east or west) that the child window will stick  |
+|             | to, as per the "grid()" geometry manager.                      |
++-------------+----------------------------------------------------------------+

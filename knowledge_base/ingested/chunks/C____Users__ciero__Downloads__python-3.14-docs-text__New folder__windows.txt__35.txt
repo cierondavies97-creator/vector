@@ -1,0 +1,3 @@
+installed automatically and then launched. Otherwise, the requested
+version will be installed if automatic installation is configured
+(most likely by setting "PYTHON_MANAGER_AUTOMATIC_INSTALL" to "true"),

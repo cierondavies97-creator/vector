@@ -1,0 +1,5 @@
+is_bitwise_or[CmpopExprPair*]: 'is' a=bitwise_or { _PyPegen_cmpop_expr_pair(p, Is, a) }
+   # Bitwise operators
+   # -----------------
+   bitwise_or[expr_ty]:
+       | a=bitwise_or '|' b=bitwise_xor { _PyAST_BinOp(a, BitOr, b, EXTRA) }

@@ -1,0 +1,3 @@
+fields.  Such a class can be written by hand, or it can be created
+   by inheriting "typing.NamedTuple", or with the factory function
+   "collections.namedtuple()".  The latter techniques also add some

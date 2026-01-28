@@ -1,0 +1,4 @@
+Babel is a Python internationalization library that includes a
+"pybabel" script to extract and compile message catalogs.  François
+Pinard's program called **xpot** does a similar job and is available
+as part of his po-utils package.

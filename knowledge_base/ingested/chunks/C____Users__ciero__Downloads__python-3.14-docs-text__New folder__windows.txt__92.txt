@@ -1,0 +1,2 @@
+|                                   |                                   | additional output during startup  |
+|                                   |                                   | that is later suppressed by other |

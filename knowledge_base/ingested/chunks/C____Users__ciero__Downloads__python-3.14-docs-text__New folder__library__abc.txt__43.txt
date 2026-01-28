@@ -1,0 +1,8 @@
+now correctly identified as abstract when applied to an abstract
+   method:
+      class C(ABC):
+          @property
+          @abstractmethod
+          def my_abstract_property(self):
+              ...
+   The above example defines a read-only property; you can also define

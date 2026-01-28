@@ -1,0 +1,8 @@
+"Trace" instances.
+      The sequence has an undefined order. Use the
+      "Snapshot.statistics()" method to get a sorted list of
+      statistics.
+Statistic
+---------
+class tracemalloc.Statistic
+   Statistic on memory allocations.

@@ -1,0 +1,6 @@
+slice=Tuple(
+                  elts=[
+                      Slice(
+                          lower=Constant(value=1),
+                          upper=Constant(value=2)),
+                      Constant(value=3)],

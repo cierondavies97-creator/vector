@@ -1,0 +1,5 @@
+an unlocked (unowned) state.  Note that the type of exception
+      raised in this situation differs from the implemented behavior
+      in "threading.RLock.release()".
+   locked()
+      Return a boolean indicating whether this object is locked right

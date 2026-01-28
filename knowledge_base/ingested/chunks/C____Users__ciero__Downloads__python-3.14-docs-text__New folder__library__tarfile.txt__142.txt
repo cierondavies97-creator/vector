@@ -1,0 +1,4 @@
+file can overwrite arbitrary files in various ways (e.g.  by using
+absolute paths, ".." path components, or symlinks that affect later
+members).
+In most cases, the full functionality is not needed. Therefore,

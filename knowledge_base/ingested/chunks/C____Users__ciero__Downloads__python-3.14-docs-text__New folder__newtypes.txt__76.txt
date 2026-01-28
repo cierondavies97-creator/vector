@@ -1,0 +1,5 @@
+switch (op) {
+       case Py_LT: c = size1 <  size2; break;
+       case Py_LE: c = size1 <= size2; break;
+       case Py_EQ: c = size1 == size2; break;
+       case Py_NE: c = size1 != size2; break;

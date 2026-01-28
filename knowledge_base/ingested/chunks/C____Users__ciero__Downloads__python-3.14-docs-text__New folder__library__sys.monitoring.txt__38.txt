@@ -1,0 +1,4 @@
+"sys.monitoring.DISABLE" from a callback function. This does not
+change which events are set, or any other code locations for the same
+event.
+Disabling events for specific locations is very important for high

@@ -1,0 +1,4 @@
+string containing an **RFC 2822** date, such as  ""Mon, 20 Nov 1995
+   19:12:08 -0500"".  If it succeeds in parsing the date,
+   "parsedate()" returns a 9-tuple that can be passed directly to
+   "time.mktime()"; otherwise "None" will be returned.  Note that

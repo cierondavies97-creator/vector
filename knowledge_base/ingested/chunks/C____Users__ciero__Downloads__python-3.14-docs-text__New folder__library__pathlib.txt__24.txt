@@ -1,0 +1,5 @@
+PureWindowsPath('c:/Users/Ximénez')
+      >>> PureWindowsPath('//server/share/file')
+      PureWindowsPath('//server/share/file')
+   *pathsegments* is specified similarly to "PurePath".
+Regardless of the system you're running on, you can instantiate all of

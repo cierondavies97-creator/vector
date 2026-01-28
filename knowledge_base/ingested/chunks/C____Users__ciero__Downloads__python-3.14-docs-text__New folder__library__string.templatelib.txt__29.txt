@@ -1,0 +1,5 @@
+>>> template += Template('We do have ')
+      >>> # Treat cheese as an interpolation
+      >>> cheese = 'Camembert'
+      >>> template += Template(Interpolation(cheese, 'cheese'))
+      >>> list(template)

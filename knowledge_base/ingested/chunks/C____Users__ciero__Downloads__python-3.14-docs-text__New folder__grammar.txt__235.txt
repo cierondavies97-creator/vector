@@ -1,0 +1,6 @@
+| '(' a=invalid_ann_assign_target ')' { a }
+   invalid_del_stmt:
+       | 'del' a=star_expressions {
+           RAISE_SYNTAX_ERROR_INVALID_TARGET(DEL_TARGETS, a) }
+   invalid_block:
+       | NEWLINE !INDENT { RAISE_INDENTATION_ERROR("expected an indented block") }

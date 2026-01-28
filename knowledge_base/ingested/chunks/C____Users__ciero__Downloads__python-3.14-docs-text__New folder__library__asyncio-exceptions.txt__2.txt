@@ -1,0 +1,5 @@
+asyncio Tasks are cancelled.  In almost all situations the
+   exception must be re-raised.
+   Changed in version 3.8: "CancelledError" is now a subclass of
+   "BaseException" rather than "Exception".
+exception asyncio.InvalidStateError

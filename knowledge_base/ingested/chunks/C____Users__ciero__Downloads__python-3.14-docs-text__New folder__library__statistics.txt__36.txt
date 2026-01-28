@@ -1,0 +1,4 @@
+Convert *data* to floats and compute the geometric mean.
+   The geometric mean indicates the central tendency or typical value
+   of the *data* using the product of the values (as opposed to the
+   arithmetic mean which uses their sum).

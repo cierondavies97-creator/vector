@@ -1,0 +1,3 @@
+ensure *thread-safe* access to shared data.  Alternative design
+   patterns to locks exist such as queues, producer/consumer patterns,
+   and thread-local state. See also *deadlock*, and *reentrant*.

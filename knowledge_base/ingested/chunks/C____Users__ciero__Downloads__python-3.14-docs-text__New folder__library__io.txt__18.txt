@@ -1,0 +1,5 @@
+Python 3.15 will make Python UTF-8 Mode default.
+Opt-in EncodingWarning
+----------------------
+Added in version 3.10: See **PEP 597** for more details.
+To find where the default locale encoding is used, you can enable the

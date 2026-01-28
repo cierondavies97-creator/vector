@@ -1,0 +1,4 @@
+A finalizer is considered *alive* until it is called (either
+   explicitly or at garbage collection), and after that it is *dead*.
+   Calling a live finalizer returns the result of evaluating
+   "func(*arg, **kwargs)", whereas calling a dead finalizer returns

@@ -1,0 +1,4 @@
+we may want to customize pickling based on another criterion than the
+object's type, or we may want to customize the pickling of functions
+and classes.
+For those cases, it is possible to subclass from the "Pickler" class

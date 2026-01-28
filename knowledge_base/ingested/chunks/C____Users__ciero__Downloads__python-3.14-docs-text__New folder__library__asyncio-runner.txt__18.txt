@@ -1,0 +1,6 @@
+the first call of "run()" or "get_loop()".
+Handling Keyboard Interruption
+==============================
+Added in version 3.11.
+When "signal.SIGINT" is raised by "Ctrl"-"C", "KeyboardInterrupt"
+exception is raised in the main thread by default. However this

@@ -1,0 +1,5 @@
+branches. There is no guarantee which branch is "left" and which is
+   "right", except that it will be consistent for the duration of the
+   program.
+sys.monitoring.events.BRANCH_RIGHT
+   A conditional branch goes right.

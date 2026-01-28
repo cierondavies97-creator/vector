@@ -1,0 +1,3 @@
++-------------+----------------------------------------------------------------+
+| takefocus   | Determines whether the window accepts the focus during         |
+|             | keyboard traversal. 0, 1 or an empty string is returned. If 0  |

@@ -1,0 +1,4 @@
+receive data on the connection, and *address* is the address bound
+   to the socket on the other end of the connection.
+   The newly created socket is non-inheritable.
+   Changed in version 3.4: The socket is now non-inheritable.

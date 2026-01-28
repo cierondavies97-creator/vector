@@ -1,0 +1,5 @@
+respectively.
+pty.spawn(argv[, master_read[, stdin_read]])
+   Spawn a process, and connect its controlling terminal with the
+   current process's standard io. This is often used to baffle
+   programs which insist on reading from the controlling terminal. It

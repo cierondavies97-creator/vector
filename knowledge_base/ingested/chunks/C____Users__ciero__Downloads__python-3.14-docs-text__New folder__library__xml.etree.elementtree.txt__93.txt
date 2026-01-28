@@ -1,0 +1,3 @@
+Parses an XML section from a string constant.  Same as "XML()".
+   *text* is a string containing XML data.  *parser* is an optional
+   parser instance. If not given, the standard "XMLParser" parser is

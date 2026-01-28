@@ -1,0 +1,4 @@
+when the reference is no longer needed.  Ownership of a reference can
+be transferred.  There are three ways to dispose of an owned
+reference: pass it on, store it, or call "Py_DECREF()". Forgetting to
+dispose of an owned reference creates a memory leak.

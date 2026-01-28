@@ -1,0 +1,4 @@
+682**).
+The "'#'" option causes the "alternate form" to be used for the
+conversion.  The alternate form is defined differently for different
+types.  This option is only valid for integer, float and complex

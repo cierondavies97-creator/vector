@@ -1,0 +1,5 @@
+*interleave* parameters.
+   Changed in version 3.10: Removed the *loop* parameter.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*
+   parameter.
+async asyncio.start_server(client_connected_cb, host=None, port=None, *, limit=None, family=socket.AF_UNSPEC, flags=socket.AI_PASSIVE, sock=None, backlog=100, ssl=None, reuse_address=None, reuse_port=None, keep_alive=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None, start_serving=True)

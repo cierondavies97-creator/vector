@@ -1,0 +1,4 @@
+Return the current local date and time.
+   If optional argument *tz* is "None" or not specified, this is like
+   "today()", but, if possible, supplies more precision than can be
+   gotten from going through a "time.time()" timestamp (for example,

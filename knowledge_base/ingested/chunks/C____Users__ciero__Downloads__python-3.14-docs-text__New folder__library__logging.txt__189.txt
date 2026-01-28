@@ -1,0 +1,3 @@
+| levelname        | "%(levelname)s"           | Text logging level for the message ("'DEBUG'",  |
+|                  |                           | "'INFO'", "'WARNING'", "'ERROR'",               |
+|                  |                           | "'CRITICAL'").                                  |

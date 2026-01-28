@@ -1,0 +1,2 @@
+| asyncio.FIRST_COMPLETED                            | The function will return when any future finishes  |
+   |                                                    | or is cancelled.                                   |

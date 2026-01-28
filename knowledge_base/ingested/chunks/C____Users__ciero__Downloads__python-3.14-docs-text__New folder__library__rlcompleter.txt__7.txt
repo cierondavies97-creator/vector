@@ -1,0 +1,4 @@
+returns "None".
+      If called for *text* that doesn't include a period character
+      ("'.'"), it will complete from names currently defined in
+      "__main__", "builtins" and keywords (as defined by the "keyword"

@@ -1,0 +1,6 @@
+this operation lies along the negative real axis.  The sign of the
+   result is the same as the sign of "z.imag", even when "z.imag" is
+   zero:
+      >>> phase(-1+0j)
+      3.141592653589793
+      >>> phase(-1-0j)

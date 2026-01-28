@@ -1,0 +1,6 @@
+...
+          @override
+          def done(self) -> None:  # Error reported by type checker
+              ...
+   There is no runtime checking of this property.
+   The decorator will attempt to set an "__override__" attribute to

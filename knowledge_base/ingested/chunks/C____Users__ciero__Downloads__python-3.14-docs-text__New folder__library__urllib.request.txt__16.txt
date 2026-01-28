@@ -1,0 +1,4 @@
+extension with protocol indicator "http/1.1" when no *context* is
+   given. Custom *context* should set ALPN protocols with
+   "set_alpn_protocols()".
+   Changed in version 3.13: Remove *cafile*, *capath* and *cadefault*

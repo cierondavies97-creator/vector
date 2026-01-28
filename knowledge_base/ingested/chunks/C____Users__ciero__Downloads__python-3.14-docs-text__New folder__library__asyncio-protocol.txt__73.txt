@@ -1,0 +1,4 @@
+uses asyncio).
+   This method may return a false value (including "None"), in which
+   case the transport will close itself.  Conversely, if this method
+   returns a true value, the protocol used determines whether to close

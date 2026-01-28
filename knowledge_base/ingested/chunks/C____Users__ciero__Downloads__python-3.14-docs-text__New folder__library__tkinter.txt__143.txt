@@ -1,0 +1,6 @@
+type occurs.  The form of the bind method is:
+   def bind(self, sequence, func, add=''):
+where:
+sequence
+   is a string that denotes the target kind of event.  (See the
+   *bind(3tk)* man page, and page 201 of John Ousterhout's book, *Tcl

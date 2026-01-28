@@ -1,0 +1,5 @@
+replaced with a single underscore, leading and trailing underscores
+   are removed. For example, "'  -;#'" becomes "'_'".
+   Note that *encoding* should be ASCII only.
+Note:
+  The following functions should not be used directly, except for

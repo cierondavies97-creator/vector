@@ -1,0 +1,4 @@
+ASCII compatible binary formats and should not be applied to arbitrary
+binary data. Note that all of the bytearray methods in this section do
+*not* operate in place, and instead produce new objects.
+bytes.capitalize()

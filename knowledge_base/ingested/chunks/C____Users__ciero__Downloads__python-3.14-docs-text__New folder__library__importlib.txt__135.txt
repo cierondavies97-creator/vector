@@ -1,0 +1,4 @@
+"None" is both stored in the cache and returned.
+      Added in version 3.4.
+      Changed in version 3.5: If the current working directory --
+      represented by an empty string -- is no longer valid then "None"

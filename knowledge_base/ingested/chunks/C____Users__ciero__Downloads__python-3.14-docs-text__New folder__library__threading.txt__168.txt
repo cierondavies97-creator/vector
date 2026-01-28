@@ -1,0 +1,4 @@
+arguments, and return "True".
+      When invoked with a *timeout* other than "None", it will block
+      for at most *timeout* seconds.  If acquire does not complete
+      successfully in that interval, return "False".  Return "True"

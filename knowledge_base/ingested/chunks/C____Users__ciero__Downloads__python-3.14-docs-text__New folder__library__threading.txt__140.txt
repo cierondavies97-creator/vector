@@ -1,0 +1,7 @@
+computation of timeouts:
+   # Consume an item
+   with cv:
+       cv.wait_for(an_item_is_available)
+       get_an_available_item()
+To choose between "notify()" and "notify_all()", consider whether one
+state change can be interesting for only one or several waiting

@@ -1,0 +1,4 @@
+-------------------------------------
+The filters that suppress repeated warnings apply the following
+criteria to determine if a warning is considered a repeat:
+* ""default"": A warning is considered a repeat only if the

@@ -1,0 +1,6 @@
+unchanged.
+      Any other argument combinations are invalid, and may raise
+      exceptions.
+      See also: "os.SEEK_SET", "os.SEEK_CUR", and "os.SEEK_END".
+   tell()
+      Return the stream position as an opaque number. The return value

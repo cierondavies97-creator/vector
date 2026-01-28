@@ -1,0 +1,4 @@
+"trace_dispatch()" method for further tracing in that scope.
+   dispatch_call(frame, arg)
+      If the debugger should stop on this function call, invoke the
+      "user_call()" method (which should be overridden in subclasses).

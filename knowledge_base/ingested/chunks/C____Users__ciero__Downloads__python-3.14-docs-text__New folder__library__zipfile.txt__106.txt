@@ -1,0 +1,3 @@
+If *pathname* is a file, the filename must end with ".py", and
+      just the (corresponding "*.pyc") file is added at the top level
+      (no path information).  If *pathname* is a file that does not

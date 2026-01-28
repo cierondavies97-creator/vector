@@ -1,0 +1,4 @@
+using the standard import mechanism (refer to **PEP 302** for
+   details) and then executed in a fresh module namespace.
+   The *mod_name* argument should be an absolute module name. If the
+   module name refers to a package rather than a normal module, then

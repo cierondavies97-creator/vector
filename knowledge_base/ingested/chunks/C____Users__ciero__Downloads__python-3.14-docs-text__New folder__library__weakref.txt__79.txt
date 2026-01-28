@@ -1,0 +1,5 @@
+return self.name is None
+       def __del__(self):
+           self.remove()
+Starting with Python 3.4, "__del__()" methods no longer prevent
+reference cycles from being garbage collected, and module globals are

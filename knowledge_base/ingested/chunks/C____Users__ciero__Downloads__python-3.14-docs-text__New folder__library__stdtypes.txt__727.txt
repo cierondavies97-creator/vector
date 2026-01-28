@@ -1,0 +1,6 @@
+Added in version 3.14.
+      There are also several readonly attributes available:
+      obj
+         The underlying object of the memoryview:
+            >>> b  = bytearray(b'xyz')
+            >>> m = memoryview(b)

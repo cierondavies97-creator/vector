@@ -1,0 +1,8 @@
+of the file, by the owner of the directory, or by a privileged
+   process.
+stat.S_IRWXU
+   Mask for file owner permissions.
+stat.S_IRUSR
+   Owner has read permission.
+stat.S_IWUSR
+   Owner has write permission.

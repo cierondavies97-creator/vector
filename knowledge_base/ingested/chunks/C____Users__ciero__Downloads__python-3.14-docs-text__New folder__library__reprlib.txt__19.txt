@@ -1,0 +1,10 @@
+its own line, indented by that string:
+      >>> aRepr.indent = '-->'
+      >>> print(aRepr.repr(example))
+      [
+      -->1,
+      -->'spam',
+      -->{
+      -->-->'a': 2,
+      -->-->'b': 'spam eggs',
+      -->-->'c': {

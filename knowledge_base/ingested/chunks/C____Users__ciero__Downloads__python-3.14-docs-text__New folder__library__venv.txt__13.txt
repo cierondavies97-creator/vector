@@ -1,0 +1,4 @@
+On Windows, invoke the "venv" command as follows:
+   PS> python -m venv C:\path\to\new\virtual\environment
+The command, if run with "-h", will show the available options:
+   usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear]

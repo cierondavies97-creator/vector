@@ -1,0 +1,4 @@
+If "datetime" instance "d" is naive, this is the same as
+   "d.timetuple()" except that "tm_isdst" is forced to 0 regardless of
+   what "d.dst()" returns. DST is never in effect for a UTC time.
+   If "d" is aware, "d" is normalized to UTC time, by subtracting

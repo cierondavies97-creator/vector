@@ -1,0 +1,3 @@
+Note that this manipulation of "sys" is not thread-safe. Other
+   threads may see the partially initialised module, as well as the
+   altered list of arguments. It is recommended that the "sys" module

@@ -1,0 +1,8 @@
+and set variables to the default values.
+      >>> turtle.goto(0,-22)
+      >>> turtle.left(100)
+      >>> turtle.position()
+      (0.00,-22.00)
+      >>> turtle.heading()
+      100.0
+      >>> turtle.reset()

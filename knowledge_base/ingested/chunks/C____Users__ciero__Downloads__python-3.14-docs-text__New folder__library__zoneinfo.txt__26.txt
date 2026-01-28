@@ -1,0 +1,6 @@
+a = ZoneInfo(key)
+      b = ZoneInfo(key)
+      assert a is b
+   "key" must be in the form of a relative, normalized POSIX path,
+   with no up-level references. The constructor will raise
+   "ValueError" if a non-conforming key is passed.

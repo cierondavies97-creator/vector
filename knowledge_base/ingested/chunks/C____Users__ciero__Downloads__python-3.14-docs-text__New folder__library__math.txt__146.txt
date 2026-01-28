@@ -1,0 +1,6 @@
+"-pi/2" and "pi/2".
+math.atan(x)
+   Return the arc tangent of *x*, in radians. The result is between
+   "-pi/2" and "pi/2".
+math.atan2(y, x)
+   Return "atan(y / x)", in radians. The result is between "-pi" and

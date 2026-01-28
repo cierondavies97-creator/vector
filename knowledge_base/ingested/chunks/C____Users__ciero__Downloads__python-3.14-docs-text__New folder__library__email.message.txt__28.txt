@@ -1,0 +1,4 @@
+"True". For example, "is_multipart" will return "True" when the
+      "EmailMessage" is of type "message/rfc822".
+   set_unixfrom(unixfrom)
+      Set the message's envelope header to *unixfrom*, which should be

@@ -1,0 +1,4 @@
+value "attachment".  This method can be used both for explicit
+      attachments (*Content-Disposition: attachment*) and "inline"
+      attachments (*Content-Disposition: inline*), by passing
+      appropriate options to the "content_manager".

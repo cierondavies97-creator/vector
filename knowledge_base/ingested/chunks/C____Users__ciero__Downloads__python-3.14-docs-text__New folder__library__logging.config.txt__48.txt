@@ -1,0 +1,3 @@
+or extra configuration keys, you should use User-defined objects.
+* *filters* - the corresponding value will be a dict in which each key
+  is a filter id and each value is a dict describing how to configure

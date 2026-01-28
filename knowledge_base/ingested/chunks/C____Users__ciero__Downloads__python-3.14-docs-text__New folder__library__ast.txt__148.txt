@@ -1,0 +1,5 @@
+>>> print(ast.dump(ast.parse('[i async for i in soc]', mode='eval'),
+      ...                indent=4)) # Async comprehension
+      Expression(
+          body=ListComp(
+              elt=Name(id='i', ctx=Load()),

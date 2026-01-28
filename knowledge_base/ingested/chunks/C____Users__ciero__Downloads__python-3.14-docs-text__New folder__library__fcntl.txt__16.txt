@@ -1,0 +1,4 @@
+size of *arg* must match the type and size of the argument of the
+   operation as specified in the relevant C documentation.
+   When *arg* is an integer, the function returns the integer return
+   value of the C "fcntl()" call.

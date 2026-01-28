@@ -1,0 +1,6 @@
+Match.re
+   The regular expression object whose "match()" or "search()" method
+   produced this match instance.
+Match.string
+   The string passed to "match()" or "search()".
+Changed in version 3.7: Added support of "copy.copy()" and

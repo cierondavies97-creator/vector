@@ -1,0 +1,5 @@
+to "find_module()".
+**PEP 366** describes the addition of the "__package__" attribute for
+explicit relative imports in main modules.
+**PEP 328** introduced absolute and explicit relative imports and
+initially proposed "__name__" for semantics **PEP 366** would

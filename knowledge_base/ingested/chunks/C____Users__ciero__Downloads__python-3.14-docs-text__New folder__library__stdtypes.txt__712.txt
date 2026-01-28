@@ -1,0 +1,6 @@
+The context management protocol can be used for a similar
+         effect, using the "with" statement:
+            >>> with memoryview(b'abc') as m:
+            ...     m[0]
+            ...
+            97

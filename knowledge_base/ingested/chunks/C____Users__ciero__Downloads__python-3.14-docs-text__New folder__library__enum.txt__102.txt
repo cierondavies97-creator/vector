@@ -1,0 +1,5 @@
+CONFORM
+      Out-of-range values have invalid values removed, leaving a valid
+      "Flag" value:
+         >>> from enum import Flag, CONFORM, auto
+         >>> class ConformFlag(Flag, boundary=CONFORM):

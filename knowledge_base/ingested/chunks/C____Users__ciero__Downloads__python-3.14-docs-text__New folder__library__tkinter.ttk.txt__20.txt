@@ -1,0 +1,4 @@
+The following options are supported by widgets that are controlled by
+a scrollbar.
++------------------+-----------------------------------------------------------+
+| Option           | Description                                               |

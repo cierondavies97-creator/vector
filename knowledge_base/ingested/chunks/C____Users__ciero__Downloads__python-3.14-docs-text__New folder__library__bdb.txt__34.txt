@@ -1,0 +1,6 @@
+Return "True" if *module_name* matches any skip pattern.
+   stop_here(frame)
+      Return "True" if *frame* is below the starting frame in the
+      stack.
+   break_here(frame)
+      Return "True" if there is an effective breakpoint for this line.

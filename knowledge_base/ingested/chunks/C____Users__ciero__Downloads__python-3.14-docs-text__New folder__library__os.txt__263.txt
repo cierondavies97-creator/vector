@@ -1,0 +1,5 @@
+between checking and opening the file to manipulate it. It's
+     preferable to use *EAFP* techniques. For example:
+        if os.access("myfile", os.R_OK):
+            with open("myfile") as fp:
+                return fp.read()

@@ -1,0 +1,5 @@
+"'abcd'" can match, and matches the leftmost "'abcd'" in the
+      second sequence:
+      >>> s = SequenceMatcher(lambda x: x==" ", " abcd", "abcd abcd")
+      >>> s.find_longest_match(0, 5, 0, 9)
+      Match(a=1, b=0, size=4)

@@ -1,0 +1,6 @@
+Below are some examples of typical usage of the "bz2" module.
+Using "compress()" and "decompress()" to demonstrate round-trip
+compression:
+>>> import bz2
+>>> data = b"""\
+... Donec rhoncus quis sapien sit amet molestie. Fusce scelerisque vel augue

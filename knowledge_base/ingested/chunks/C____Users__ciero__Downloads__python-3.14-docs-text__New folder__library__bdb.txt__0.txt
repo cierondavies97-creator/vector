@@ -1,0 +1,5 @@
+"bdb" --- Debugger framework
+****************************
+**Source code:** Lib/bdb.py
+======================================================================
+The "bdb" module handles basic debugger functions, like setting

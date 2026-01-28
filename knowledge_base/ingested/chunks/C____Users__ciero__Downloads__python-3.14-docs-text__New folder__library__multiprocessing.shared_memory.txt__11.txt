@@ -1,0 +1,4 @@
+a new shared memory block, if "None" (the default) is supplied
+        for the name, a novel name will be generated.
+      * **create** (*bool*) -- Control whether a new shared memory
+        block is created ("True") or an existing shared memory block

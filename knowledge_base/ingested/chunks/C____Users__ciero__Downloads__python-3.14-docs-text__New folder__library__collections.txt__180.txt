@@ -1,0 +1,5 @@
+'Store items in the order the keys were last added'
+       def __setitem__(self, key, value):
+           super().__setitem__(key, value)
+           self.move_to_end(key)
+An "OrderedDict" would also be useful for implementing variants of

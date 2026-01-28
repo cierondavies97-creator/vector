@@ -1,0 +1,6 @@
+Whether the type var has been explicitly marked as
+      contravariant.
+   __infer_variance__
+      Whether the type variable's variance should be inferred by type
+      checkers.
+      Added in version 3.12.

@@ -1,0 +1,3 @@
+inherit **bash**-like history-list editing (e.g. "Control"-"P"
+   scrolls back to the last command, "Control"-"N" forward to the next
+   one, "Control"-"F" moves the cursor to the right non-destructively,

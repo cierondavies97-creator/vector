@@ -1,0 +1,5 @@
+information of the proper choice of branch cuts for numerical
+purposes, a good reference should be the following:
+See also:
+  Kahan, W:  Branch cuts for complex elementary functions; or, Much
+  ado about nothing's sign bit.  In Iserles, A., and Powell, M.

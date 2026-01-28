@@ -1,0 +1,5 @@
+>>> s = shlex.shlex('~/a && b-c --color=auto || d *.py?',
+     ...                 punctuation_chars=True)
+     >>> list(s)
+     ['~/a', '&&', 'b-c', '--color=auto', '||', 'd', '*.py?']
+  However, to match the shell as closely as possible, it is

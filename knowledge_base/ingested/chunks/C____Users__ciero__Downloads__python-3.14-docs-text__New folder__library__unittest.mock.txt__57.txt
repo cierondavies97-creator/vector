@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+        ...
+      AssertionError: Expected 'hello' to not have been called. Called 1 times.
+      Calls: [call()].
+      Added in version 3.5.
+   reset_mock(*, return_value=False, side_effect=False)

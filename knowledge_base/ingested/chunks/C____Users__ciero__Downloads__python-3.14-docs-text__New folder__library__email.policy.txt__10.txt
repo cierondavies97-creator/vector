@@ -1,0 +1,4 @@
+also pass a specific policy to the generator that will override the
+one stored on the message object.
+The default value for the *policy* keyword for the "email.parser"
+classes and the parser convenience functions **will be changing** in a

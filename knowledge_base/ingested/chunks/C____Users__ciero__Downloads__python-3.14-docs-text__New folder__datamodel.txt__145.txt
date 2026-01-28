@@ -1,0 +1,4 @@
+string). Otherwise, it should be set to the name of the module's
+   package (which can be equal to "module.__name__" if the module
+   itself is a package). See **PEP 366** for further details.
+   This attribute is used instead of "__name__" to calculate explicit

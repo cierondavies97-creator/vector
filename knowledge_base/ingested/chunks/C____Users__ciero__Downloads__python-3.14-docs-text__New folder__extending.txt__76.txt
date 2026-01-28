@@ -1,0 +1,6 @@
+If this step fails, it will be a fatal error. */
+       status = Py_InitializeFromConfig(&config);
+       if (PyStatus_Exception(status)) {
+           goto exception;
+       }
+       PyConfig_Clear(&config);

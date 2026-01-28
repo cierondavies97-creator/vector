@@ -1,0 +1,7 @@
+values()
+      Return a new view of the underlying mapping's values.
+   reversed(proxy)
+      Return a reverse iterator over the keys of the underlying
+      mapping.
+      Added in version 3.9.
+   hash(proxy)

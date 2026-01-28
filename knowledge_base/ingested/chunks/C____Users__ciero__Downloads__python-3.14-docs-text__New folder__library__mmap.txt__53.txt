@@ -1,0 +1,4 @@
+(never less than "len(bytes)", since if the write fails, a
+      "ValueError" will be raised).  The file position is updated to
+      point after the bytes that were written.  If the mmap was
+      created with "ACCESS_READ", then writing to it will raise a

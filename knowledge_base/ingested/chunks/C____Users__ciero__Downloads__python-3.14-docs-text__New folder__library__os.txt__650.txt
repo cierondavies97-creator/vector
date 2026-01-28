@@ -1,0 +1,4 @@
+effective UID and GID of the parent. In either case, if the set-
+   user-ID and set-group-ID permission bits are enabled on the
+   executable file, their effect will override the setting of the
+   effective UID and GID. This argument corresponds to the C library

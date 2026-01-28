@@ -1,0 +1,4 @@
+The following error handlers are only applicable to encoding (within
+*text encodings*):
++---------------------------+-------------------------------------------------+
+| Value                     | Meaning                                         |

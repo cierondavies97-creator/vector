@@ -1,0 +1,4 @@
+32-bit version, and pythonarm64-freethreaded for the ARM64 version.
+These packages contain both the "python3.13t.exe" and "python.exe"
+entry points, both of which run free threaded.
+4.4. Alternative bundles

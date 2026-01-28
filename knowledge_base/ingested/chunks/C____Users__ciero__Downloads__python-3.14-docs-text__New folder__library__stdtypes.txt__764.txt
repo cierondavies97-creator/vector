@@ -1,0 +1,7 @@
+apply to immutable instances of "frozenset":
+set.update(*others)
+set |= other | ...
+   Update the set, adding elements from all others.
+set.intersection_update(*others)
+set &= other & ...
+   Update the set, keeping only elements found in it and all others.

@@ -1,0 +1,3 @@
+|                   | clear()             | used to clear all           |
+|                   |                     | references to local         |
+|                   |                     | variables                   |

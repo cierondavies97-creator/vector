@@ -1,0 +1,4 @@
+the key function changes (which is why it is usually necessary to
+   have sorted the data using the same key function).  That behavior
+   differs from SQL's GROUP BY which aggregates common elements
+   regardless of their input order.

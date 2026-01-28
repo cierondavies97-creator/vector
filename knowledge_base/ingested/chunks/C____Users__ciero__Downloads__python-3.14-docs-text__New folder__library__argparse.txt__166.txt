@@ -1,0 +1,4 @@
+and type conversions to be performed.
+If the type keyword is used with the default keyword, the type
+converter is only applied if the default is a string.
+The argument to "type" can be a callable that accepts a single string

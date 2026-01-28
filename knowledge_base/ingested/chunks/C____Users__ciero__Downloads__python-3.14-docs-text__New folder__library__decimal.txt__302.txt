@@ -1,0 +1,6 @@
+Decimal('3.21')
+>>> Decimal('3.214').quantize(TWOPLACES, context=Context(traps=[Inexact]))
+Traceback (most recent call last):
+   ...
+Inexact: None
+Q: Once I have valid two place inputs, how do I maintain that

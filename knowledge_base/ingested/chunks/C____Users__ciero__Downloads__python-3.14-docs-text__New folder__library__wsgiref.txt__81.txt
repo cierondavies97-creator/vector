@@ -1,0 +1,4 @@
+on Microsoft's IIS web server, without having set the config
+   allowPathInfo option (IIS>=7) or metabase
+   allowPathInfoForScriptMappings (IIS<7).
+   By default, IIS gives a "PATH_INFO" that duplicates the

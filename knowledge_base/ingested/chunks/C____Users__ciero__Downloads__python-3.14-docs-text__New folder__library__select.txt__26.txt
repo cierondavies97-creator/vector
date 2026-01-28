@@ -1,0 +1,3 @@
+to a pipe when the pipe has been reported as ready for writing by
+   "select()", "poll()" or another interface in this module.  This
+   doesn't apply to other kind of file-like objects such as sockets.

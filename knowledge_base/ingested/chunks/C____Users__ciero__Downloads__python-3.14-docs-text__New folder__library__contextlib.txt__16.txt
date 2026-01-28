@@ -1,0 +1,5 @@
+the requirement that context managers support multiple invocations
+   in order to be used as decorators).
+   Changed in version 3.2: Use of "ContextDecorator".
+@contextlib.asynccontextmanager
+   Similar to "contextmanager()", but creates an asynchronous context

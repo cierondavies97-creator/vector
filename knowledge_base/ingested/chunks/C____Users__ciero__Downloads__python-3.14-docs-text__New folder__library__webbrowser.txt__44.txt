@@ -1,0 +1,4 @@
+*new* is 1, a new browser window is opened if possible. If *new* is
+   2, a new browser page ("tab") is opened if possible.
+controller.open_new(url)
+   Open *url* in a new window of the browser handled by this

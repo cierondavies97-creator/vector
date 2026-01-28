@@ -1,0 +1,6 @@
+('foo.bar', '.exe')
+      >>> splitext('/foo/bar.exe')
+      ('/foo/bar', '.exe')
+   Leading periods of the last component of the path are considered to
+   be part of the root:
+      >>> splitext('.cshrc')

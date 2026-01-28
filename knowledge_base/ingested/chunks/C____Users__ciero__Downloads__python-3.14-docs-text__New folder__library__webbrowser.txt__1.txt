@@ -1,0 +1,4 @@
+The "webbrowser" module provides a high-level interface to allow
+displaying web-based documents to users. Under most circumstances,
+simply calling the "open()" function from this module will do the
+right thing.

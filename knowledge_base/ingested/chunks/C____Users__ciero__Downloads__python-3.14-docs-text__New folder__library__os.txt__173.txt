@@ -1,0 +1,5 @@
+Availability: Unix.
+   Added in version 3.3.
+os.posix_fadvise(fd, offset, len, advice, /)
+   Announces an intention to access data in a specific pattern thus
+   allowing the kernel to make optimizations. The advice applies to

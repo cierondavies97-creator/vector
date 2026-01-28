@@ -1,0 +1,3 @@
+"assertEqual()" are summarized in the following table.  Note that
+   it's usually not necessary to invoke these methods directly.
+   +-------------------------------------------+-------------------------------+----------------+

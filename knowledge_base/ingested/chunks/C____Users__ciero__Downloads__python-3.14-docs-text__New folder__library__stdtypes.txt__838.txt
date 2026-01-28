@@ -1,0 +1,3 @@
+Note that there is no specific slot for any of these methods in the
+type structure for Python objects in the Python/C API. Extension types
+wanting to define these methods must provide them as a normal Python

@@ -1,0 +1,2 @@
+|                                   | "PYMANAGER_DEBUG"                 | (0-50). By default, 20. Lower     |
+|                                   |                                   | values produce more output. The   |

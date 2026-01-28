@@ -1,0 +1,6 @@
+--copies
+   Try to use copies rather than symlinks, even when symlinks are the
+   default for the platform.
+--clear
+   Delete the contents of the environment directory if it already
+   exists, before environment creation.

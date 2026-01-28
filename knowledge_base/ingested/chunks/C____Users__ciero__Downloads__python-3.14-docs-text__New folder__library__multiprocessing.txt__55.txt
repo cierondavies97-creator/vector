@@ -1,0 +1,4 @@
+of arbitrary ctypes objects allocated from shared memory.
+**Server process**
+   A manager object returned by "Manager()" controls a server process
+   which holds Python objects and allows other processes to manipulate

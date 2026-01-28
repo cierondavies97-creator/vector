@@ -1,0 +1,4 @@
+various "add_" methods, thereby simplifying the creation of
+   multipart messages.
+   email.contentmanager.get_content(msg, errors='replace')
+      Return the payload of the part as either a string (for "text"

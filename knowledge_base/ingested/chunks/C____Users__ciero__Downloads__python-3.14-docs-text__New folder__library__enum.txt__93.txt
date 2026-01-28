@@ -1,0 +1,6 @@
+...     GREEN = 2
+         ...     BLUE = 3
+         ...     CRIMSON = 1
+         Traceback (most recent call last):
+         ...
+         ValueError: aliases found in <enum 'Color'>: CRIMSON -> RED

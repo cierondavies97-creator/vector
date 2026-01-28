@@ -1,0 +1,4 @@
+It extends the existing *ustar* format with extra headers for
+  information that cannot be stored otherwise. There are two flavours
+  of pax headers: Extended headers only affect the subsequent file
+  header, global headers are valid for the complete archive and affect

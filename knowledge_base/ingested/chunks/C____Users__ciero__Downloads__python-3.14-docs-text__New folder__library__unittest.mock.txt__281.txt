@@ -1,0 +1,5 @@
+b.py
+       -> from a import SomeClass
+       -> some_function instantiates SomeClass
+Now we want to test "some_function" but we want to mock out
+"SomeClass" using "patch()". The problem is that when we import module

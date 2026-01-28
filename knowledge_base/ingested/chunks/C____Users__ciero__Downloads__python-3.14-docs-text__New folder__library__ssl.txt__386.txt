@@ -1,0 +1,4 @@
+* Network IO
+The network IO API is identical to that provided by "socket.socket",
+from which "SSLSocket" also inherits. This allows an SSL socket to be
+used as a drop-in replacement for a regular socket, making it very

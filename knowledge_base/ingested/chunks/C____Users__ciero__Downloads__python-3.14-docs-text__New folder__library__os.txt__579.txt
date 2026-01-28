@@ -1,0 +1,3 @@
+arguments is passed to the new program as its own name rather than as
+an argument a user may have typed on a command line.  For the C
+programmer, this is the "argv[0]" passed to a program's "main()".  For

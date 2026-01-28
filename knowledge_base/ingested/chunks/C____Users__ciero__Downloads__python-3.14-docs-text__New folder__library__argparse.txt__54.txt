@@ -1,0 +1,4 @@
+"MetavarTypeHelpFormatter" uses the name of the type argument for each
+argument as the display name for its values (rather than using the
+dest as the regular formatter does):
+   >>> parser = argparse.ArgumentParser(

@@ -1,0 +1,4 @@
+Files are an example of effectively single use context managers, since
+the first "with" statement will close the file, preventing any further
+IO operations using that file object.
+Context managers created using "contextmanager()" are also single use

@@ -1,0 +1,4 @@
+initial value is limited to a 32 bit unsigned int although the
+   event counter is an unsigned 64 bit integer with a maximum value of
+   2^64-2.
+   *flags* can be constructed from "EFD_CLOEXEC", "EFD_NONBLOCK", and

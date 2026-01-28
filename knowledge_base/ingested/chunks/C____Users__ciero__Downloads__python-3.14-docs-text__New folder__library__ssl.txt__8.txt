@@ -1,0 +1,4 @@
+certificate chain.
+For more sophisticated applications, the "ssl.SSLContext" class helps
+manage settings and certificates, which can then be inherited by SSL
+sockets created through the "SSLContext.wrap_socket()" method.

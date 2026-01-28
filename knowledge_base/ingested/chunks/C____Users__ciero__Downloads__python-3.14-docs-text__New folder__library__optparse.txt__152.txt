@@ -1,0 +1,5 @@
+options.
+   "description" (default: "None")
+      A paragraph of text giving a brief overview of your program.
+      "optparse" reformats this paragraph to fit the current terminal
+      width and prints it when the user requests help (after "usage",

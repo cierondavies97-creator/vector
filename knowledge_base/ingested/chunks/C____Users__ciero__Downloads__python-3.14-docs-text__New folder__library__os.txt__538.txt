@@ -1,0 +1,4 @@
+endianness, which may be converted to an "int" by
+   "int.from_bytes(x, byteorder=sys.byteorder)".
+   "select()" and "poll()" can be used to wait until timer expires and
+   the file descriptor is readable.

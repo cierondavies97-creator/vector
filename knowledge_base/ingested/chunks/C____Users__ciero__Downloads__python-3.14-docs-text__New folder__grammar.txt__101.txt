@@ -1,0 +1,7 @@
+name_or_attr[expr_ty]:
+       | attr
+       | NAME
+   group_pattern[pattern_ty]:
+       | '(' pattern=pattern ')' { pattern }
+   sequence_pattern[pattern_ty]:
+       | '[' patterns=maybe_sequence_pattern? ']' { _PyAST_MatchSequence(patterns, EXTRA) }

@@ -1,0 +1,2 @@
+| "callback" "pause_writing()"                       | Called when the transport's buffer goes over the   |
+|                                                    | high water mark.                                   |

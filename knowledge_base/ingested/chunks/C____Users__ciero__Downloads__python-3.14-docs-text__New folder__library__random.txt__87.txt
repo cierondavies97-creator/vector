@@ -1,0 +1,5 @@
+arrival_time = 0.0
+   servers = [0.0] * num_servers  # time when each server becomes available
+   heapify(servers)
+   for i in range(1_000_000):
+       arrival_time += expovariate(1.0 / average_arrival_interval)

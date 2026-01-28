@@ -1,0 +1,5 @@
+see names defined in other docstrings.
+You can force use of your own dict as the execution context by passing
+"globs=your_dict" to "testmod()" or "testfile()" instead.
+What About Exceptions?
+----------------------

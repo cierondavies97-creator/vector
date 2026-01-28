@@ -1,0 +1,3 @@
+Mark Hammond's Win32 extensions for Python installed.
+class logging.handlers.NTEventLogHandler(appname, dllname=None, logtype='Application')
+   Returns a new instance of the "NTEventLogHandler" class. The

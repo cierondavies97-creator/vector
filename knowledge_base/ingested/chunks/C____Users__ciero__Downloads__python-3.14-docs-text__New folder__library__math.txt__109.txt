@@ -1,0 +1,4 @@
+values, rather than returning its second return value through an
+   'output parameter' (there is no such thing in Python).
+math.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)
+   Return "True" if the values *a* and *b* are close to each other and

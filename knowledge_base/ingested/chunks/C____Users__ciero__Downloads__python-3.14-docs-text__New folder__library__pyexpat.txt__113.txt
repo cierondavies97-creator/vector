@@ -1,0 +1,4 @@
+XML (for example, character "0", or '"&#0;"').
+xml.parsers.expat.errors.XML_ERROR_BINARY_ENTITY_REF
+   An entity reference referred to an entity which was declared with a
+   notation, so cannot be parsed.

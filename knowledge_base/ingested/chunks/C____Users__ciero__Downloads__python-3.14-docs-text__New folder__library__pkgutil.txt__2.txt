@@ -1,0 +1,5 @@
+Intended use is to place the following code in a package's
+   "__init__.py":
+      from pkgutil import extend_path
+      __path__ = extend_path(__path__, __name__)
+   For each directory on "sys.path" that has a subdirectory that

@@ -1,0 +1,4 @@
+kind of path.
+The default set of path entry finders implement all the semantics for
+finding modules on the file system, handling special file types such
+as Python source code (".py" files), Python byte code (".pyc" files)

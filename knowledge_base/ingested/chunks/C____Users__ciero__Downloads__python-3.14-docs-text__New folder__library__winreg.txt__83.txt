@@ -1,0 +1,6 @@
+"KEY_NOTIFY", and "KEY_CREATE_LINK" access rights.
+winreg.KEY_WRITE
+   Combines the STANDARD_RIGHTS_WRITE, "KEY_SET_VALUE", and
+   "KEY_CREATE_SUB_KEY" access rights.
+winreg.KEY_READ
+   Combines the STANDARD_RIGHTS_READ, "KEY_QUERY_VALUE",

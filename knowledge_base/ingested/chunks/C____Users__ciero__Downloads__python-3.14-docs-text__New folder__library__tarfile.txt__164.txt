@@ -1,0 +1,5 @@
+continue.
+Hints for further verification
+------------------------------
+Even with "filter='data'", *tarfile* is not suited for extracting
+untrusted files without prior inspection. Among other issues, the pre-

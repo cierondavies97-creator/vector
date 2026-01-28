@@ -1,0 +1,5 @@
+and earlier.
+   Changed in version 3.14: The *mtime* parameter now defaults to 0
+   for reproducible output. For the previous behaviour of using the
+   current time, pass "None" to *mtime*.
+gzip.decompress(data)

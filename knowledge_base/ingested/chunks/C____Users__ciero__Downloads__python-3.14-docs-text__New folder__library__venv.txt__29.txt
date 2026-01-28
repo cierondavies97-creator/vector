@@ -1,0 +1,3 @@
+A virtual environment may be "activated" using a script in its binary
+directory ("bin" on POSIX; "Scripts" on Windows). This will prepend
+that directory to your "PATH", so that running **python** will invoke

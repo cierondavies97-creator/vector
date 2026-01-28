@@ -1,0 +1,4 @@
+configure them, to specify return values or limit what attributes are
+available, and then make assertions about how they have been used:
+>>> from unittest.mock import MagicMock
+>>> thing = ProductionClass()

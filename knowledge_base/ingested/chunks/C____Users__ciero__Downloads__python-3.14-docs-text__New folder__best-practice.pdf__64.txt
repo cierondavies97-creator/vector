@@ -1,0 +1,10 @@
+sum_value = my_sum(numbers)
+product_value = my_product(numbers)
+return sum_value - product_value
+▶ split into functions
+▶ use libraries/built-ins
+▶ fix bug
+Nicola Chiapolini, 8 July 2024
+29 / 34
+Introduction
+Style & Documentation

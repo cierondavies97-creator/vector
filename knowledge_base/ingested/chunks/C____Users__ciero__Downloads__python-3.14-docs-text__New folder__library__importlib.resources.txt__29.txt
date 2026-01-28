@@ -1,0 +1,5 @@
+"open()".
+   For backward compatibility reasons, the *encoding* argument must be
+   given explicitly if there are multiple *path_names*. This
+   limitation is scheduled to be removed in Python 3.15.
+   This function is roughly equivalent to:

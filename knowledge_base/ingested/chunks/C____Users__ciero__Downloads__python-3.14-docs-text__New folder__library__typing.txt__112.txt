@@ -1,0 +1,4 @@
+* Every type is compatible with "Any".
+   * "Any" is compatible with every type.
+   Changed in version 3.11: "Any" can now be used as a base class.
+   This can be useful for avoiding type checker errors with classes

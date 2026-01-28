@@ -1,0 +1,4 @@
+Changed in version 3.6: The "struct_time" attributes "tm_gmtoff" and
+  "tm_zone" are now available on all platforms.
+* Use the following functions to convert between time representations:
+  +---------------------------+---------------------------+---------------------------+

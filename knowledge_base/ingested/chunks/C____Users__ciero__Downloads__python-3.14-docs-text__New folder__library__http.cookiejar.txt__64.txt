@@ -1,0 +1,7 @@
+attributes may be assigned to.
+CookiePolicy.netscape
+   Implement Netscape protocol.
+CookiePolicy.rfc2965
+   Implement **RFC 2965** protocol.
+CookiePolicy.hide_cookie2
+   Don't add *Cookie2* header to requests (the presence of this header

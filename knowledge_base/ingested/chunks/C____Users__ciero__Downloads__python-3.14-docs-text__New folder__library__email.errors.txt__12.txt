@@ -1,0 +1,5 @@
+Added in version 3.3.
+exception email.errors.FirstHeaderLineIsContinuationDefect
+   The message had a continuation line as its first header line.
+exception email.errors.MisplacedEnvelopeHeaderDefect
+   A "Unix From" header was found in the middle of a header block.

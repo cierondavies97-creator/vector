@@ -1,0 +1,4 @@
+Standard asyncio event loop supports running subprocesses from
+different threads by default.
+On Windows subprocesses are provided by "ProactorEventLoop" only
+(default), "SelectorEventLoop" has no subprocess support.

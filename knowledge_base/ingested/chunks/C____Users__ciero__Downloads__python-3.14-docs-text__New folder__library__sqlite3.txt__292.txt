@@ -1,0 +1,4 @@
+*detect_types* parameter of "connect()". There are three options:
+* Implicit: set *detect_types* to "PARSE_DECLTYPES"
+* Explicit: set *detect_types* to "PARSE_COLNAMES"
+* Both: set *detect_types* to "sqlite3.PARSE_DECLTYPES |

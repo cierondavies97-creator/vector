@@ -1,0 +1,5 @@
+The four arguments to a callback are described below.
+There are several other option attributes that you can supply when you
+define a callback option:
+"type"
+   has its usual meaning: as with the ""store"" or ""append"" actions,

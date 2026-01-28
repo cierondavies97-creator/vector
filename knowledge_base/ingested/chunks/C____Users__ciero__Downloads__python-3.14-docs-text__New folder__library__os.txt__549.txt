@@ -1,0 +1,4 @@
+However, if the "TFD_TIMER_ABSTIME" flag is set, the timer will
+   fire when the timer's clock (set by *clockid* in
+   "timerfd_create()") reaches *initial* seconds.
+   The timer's interval is set by the *interval* "float". If

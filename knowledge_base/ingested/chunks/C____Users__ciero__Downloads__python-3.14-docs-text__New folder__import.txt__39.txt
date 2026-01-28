@@ -1,0 +1,3 @@
+path* for modules.  The *import path* is a list of locations that may
+name file system paths or zip files.  It can also be extended to
+search for any locatable resource, such as those identified by URLs.

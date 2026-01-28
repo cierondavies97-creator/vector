@@ -1,0 +1,5 @@
+"zipapp" --- Manage executable Python zip archives
+**************************************************
+Added in version 3.5.
+**Source code:** Lib/zipapp.py
+======================================================================

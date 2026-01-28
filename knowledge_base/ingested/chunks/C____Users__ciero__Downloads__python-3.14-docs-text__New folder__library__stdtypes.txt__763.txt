@@ -1,0 +1,4 @@
+Binary operations that mix "set" instances with "frozenset" return the
+type of the first operand.  For example: "frozenset('ab') | set('bc')"
+returns an instance of "frozenset".
+The following table lists operations available for "set" that do not

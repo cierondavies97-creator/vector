@@ -1,0 +1,5 @@
+"token" --- Constants used with Python parse trees
+**************************************************
+**Source code:** Lib/token.py
+======================================================================
+This module provides constants which represent the numeric values of

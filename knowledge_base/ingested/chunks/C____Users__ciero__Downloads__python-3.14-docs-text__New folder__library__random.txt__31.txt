@@ -1,0 +1,4 @@
+includes integers, floats, and fractions but excludes decimals).
+   Weights are assumed to be non-negative and finite.  A "ValueError"
+   is raised if all weights are zero.
+   For a given seed, the "choices()" function with equal weighting

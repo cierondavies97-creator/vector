@@ -1,0 +1,5 @@
+definition.__type_params__
+   The type parameters of generic classes, functions, and type
+   aliases. For classes and functions that are not generic, this will
+   be an empty tuple.
+   Added in version 3.12.

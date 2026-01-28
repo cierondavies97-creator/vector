@@ -1,0 +1,5 @@
+A "Popen" "creationflags" parameter to specify that a new process
+   will have a below average priority.
+   Added in version 3.7.
+subprocess.HIGH_PRIORITY_CLASS
+   A "Popen" "creationflags" parameter to specify that a new process

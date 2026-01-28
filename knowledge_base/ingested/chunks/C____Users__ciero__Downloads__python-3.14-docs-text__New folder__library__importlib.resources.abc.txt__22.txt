@@ -1,0 +1,5 @@
+handle suitable for reading (same as "pathlib.Path.open").
+      When opening as text, accepts encoding parameters such as those
+      accepted by "io.TextIOWrapper".
+   read_bytes()
+      Read contents of self as bytes.

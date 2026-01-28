@@ -1,0 +1,4 @@
+with distinct certificates, quite similarly to HTTP virtual hosts.
+   Specifying *server_hostname* will raise a "ValueError" if
+   *server_side* is true.
+   The parameter "do_handshake_on_connect" specifies whether to do the

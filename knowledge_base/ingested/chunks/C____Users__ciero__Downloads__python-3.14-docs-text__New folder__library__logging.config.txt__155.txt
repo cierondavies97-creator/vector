@@ -1,0 +1,4 @@
+package's namespace, is the list of arguments to the constructor for
+the handler class. Refer to the constructors for the relevant
+handlers, or to the examples below, to see how typical entries are
+constructed. If not provided, it defaults to "()".

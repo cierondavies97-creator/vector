@@ -1,0 +1,3 @@
+It is also possible to *borrow* [2] a reference to an object.  The
+borrower of a reference should not call "Py_DECREF()".  The borrower
+must not hold on to the object longer than the owner from which it was

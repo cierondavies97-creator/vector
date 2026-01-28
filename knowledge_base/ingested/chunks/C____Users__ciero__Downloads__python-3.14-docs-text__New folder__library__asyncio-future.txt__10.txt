@@ -1,0 +1,4 @@
+(e.g. in protocols implemented using asyncio transports) to
+   interoperate with high-level async/await code.
+   The rule of thumb is to never expose Future objects in user-facing
+   APIs, and the recommended way to create a Future object is to call

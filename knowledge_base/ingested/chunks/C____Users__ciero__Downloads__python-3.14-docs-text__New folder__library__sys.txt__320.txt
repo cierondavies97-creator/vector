@@ -1,0 +1,5 @@
+Note:
+     This function has been added on a provisional basis (see **PEP
+     411** for details.)
+sys.set_coroutine_origin_tracking_depth(depth)
+   Allows enabling or disabling coroutine origin tracking. When

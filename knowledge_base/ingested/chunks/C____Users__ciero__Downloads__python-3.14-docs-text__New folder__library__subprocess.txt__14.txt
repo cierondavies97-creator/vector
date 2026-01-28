@@ -1,0 +1,3 @@
+objects for stdin, stdout and stderr are opened in text mode using
+   the specified *encoding* and *errors* or the "io.TextIOWrapper"
+   default. The *universal_newlines* argument is equivalent  to *text*

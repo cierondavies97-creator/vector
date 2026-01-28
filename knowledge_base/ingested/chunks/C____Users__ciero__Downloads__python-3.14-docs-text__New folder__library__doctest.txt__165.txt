@@ -1,0 +1,4 @@
+used to convert the file to unicode.
+   The global "__file__" is added to the globals provided to doctests
+   loaded from a text file using "DocFileSuite()".
+doctest.DocTestSuite(module=None, globs=None, extraglobs=None, test_finder=None, setUp=None, tearDown=None, optionflags=0, checker=None)

@@ -1,0 +1,6 @@
+from being properly garbage collected.
+   name
+      The name of the variable.  This is a read-only property.
+      Added in version 3.7.1.
+   get([default])
+      Return a value for the context variable for the current context.

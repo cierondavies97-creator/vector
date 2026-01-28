@@ -1,0 +1,6 @@
+and also requires a directive to do so:
+   >>> print(list(range(20)))  # doctest: +ELLIPSIS
+   [0, 1, ..., 18, 19]
+Multiple directives can be used on a single physical line, separated
+by commas:
+   >>> print(list(range(20)))  # doctest: +ELLIPSIS, +NORMALIZE_WHITESPACE

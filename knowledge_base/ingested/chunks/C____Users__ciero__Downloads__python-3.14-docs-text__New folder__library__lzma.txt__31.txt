@@ -1,0 +1,4 @@
+custom filter chain (with the *filters* argument).
+   The *preset* argument (if provided) should be an integer between
+   "0" and "9" (inclusive), optionally OR-ed with the constant
+   "PRESET_EXTREME". If neither *preset* nor *filters* are given, the

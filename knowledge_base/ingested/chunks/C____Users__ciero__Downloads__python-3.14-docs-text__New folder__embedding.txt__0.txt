@@ -1,0 +1,4 @@
+1. Embedding Python in Another Application
+******************************************
+The previous chapters discussed how to extend Python, that is, how to
+extend the functionality of Python by attaching a library of C

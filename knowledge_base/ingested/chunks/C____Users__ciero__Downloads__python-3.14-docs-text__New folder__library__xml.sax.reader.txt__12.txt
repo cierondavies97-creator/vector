@@ -1,0 +1,4 @@
+object which represents the element attributes in a
+   "startElement()" call. In addition to the most useful dictionary
+   operations, it supports a number of other methods as described by
+   the interface. Objects of this class should be instantiated by

@@ -1,0 +1,4 @@
+Wrap the *coro* coroutine into a "Task" and schedule its execution.
+   Return the Task object.
+   The full function signature is largely the same as that of the
+   "Task" constructor (or factory) - all of the keyword arguments to

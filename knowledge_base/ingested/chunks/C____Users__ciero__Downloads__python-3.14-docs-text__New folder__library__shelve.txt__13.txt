@@ -1,0 +1,6 @@
+automatically when the shelf is closed with "close()".
+Shelf.close()
+   Synchronize and close the persistent *dict* object.  Operations on
+   a closed shelf will fail with a "ValueError".
+See also:
+  Persistent dictionary recipe with widely supported storage formats

@@ -1,0 +1,3 @@
+be created from whole cloth by creating an "EmailMessage" object,
+adding headers using the dictionary interface, and adding payload(s)
+using "set_content()" and related methods, or they can be created by

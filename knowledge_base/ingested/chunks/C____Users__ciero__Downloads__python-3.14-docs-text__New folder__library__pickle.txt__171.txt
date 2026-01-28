@@ -1,0 +1,3 @@
+consumption.  However, normal operation of the "pickle" module, as it
+transforms a graph-like structure of objects into a sequential stream
+of bytes, intrinsically involves copying data to and from the pickle

@@ -1,0 +1,5 @@
+>>> print(_)
+      -1 day, 19:00:00
+6. The expression "t2 - t3" will always be equal to the expression "t2
+   + (-t3)" except when t3 is equal to "timedelta.max"; in that case
+   the former will produce a result while the latter will overflow.

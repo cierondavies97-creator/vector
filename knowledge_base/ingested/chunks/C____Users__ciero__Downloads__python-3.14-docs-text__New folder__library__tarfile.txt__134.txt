@@ -1,0 +1,9 @@
+TarInfo.devminor: int
+   Device minor number.
+TarInfo.offset: int
+   The tar header starts here.
+TarInfo.offset_data: int
+   The file's data starts here.
+TarInfo.sparse
+   Sparse member information.
+TarInfo.pax_headers: dict

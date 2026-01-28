@@ -1,0 +1,5 @@
+references* to objects.
+In the following, the term *referent* means the object which is
+referred to by a weak reference.
+A weak reference to an object is not enough to keep the object alive:
+when the only remaining references to a referent are weak references,

@@ -1,0 +1,6 @@
+// Strong reference on a heap type, borrowed reference on a static type
+       PyTypeObject *tp_base;
+       PyObject *tp_dict;
+       descrgetfunc tp_descr_get;
+       descrsetfunc tp_descr_set;
+       Py_ssize_t tp_dictoffset;

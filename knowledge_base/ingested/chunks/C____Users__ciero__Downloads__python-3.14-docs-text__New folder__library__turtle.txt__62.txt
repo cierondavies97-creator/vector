@@ -1,0 +1,8 @@
+Set the turtle's first coordinate to *x*, leave second coordinate
+   unchanged.
+      >>> turtle.position()
+      (0.00,240.00)
+      >>> turtle.setx(10)
+      >>> turtle.position()
+      (10.00,240.00)
+turtle.sety(y)

@@ -1,0 +1,7 @@
+| 270 - south         | 270 - west           |
+   +---------------------+----------------------+
+      >>> turtle.setheading(90)
+      >>> turtle.heading()
+      90.0
+turtle.home()
+   Move turtle to the origin -- coordinates (0,0) -- and set its

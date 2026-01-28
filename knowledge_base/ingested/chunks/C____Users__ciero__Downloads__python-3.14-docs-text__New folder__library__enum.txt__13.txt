@@ -1,0 +1,5 @@
+member name, while other Enums default to 1 and increase from
+      there.
+   "property()"
+      Allows "Enum" members to have attributes without conflicting
+      with member names.  The "value" and "name" attributes are

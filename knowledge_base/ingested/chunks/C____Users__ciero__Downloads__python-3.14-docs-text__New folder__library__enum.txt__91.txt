@@ -1,0 +1,5 @@
+mixed-in data type instead of using the "Enum"-default "str()".
+   Added in version 3.11.
+class enum.EnumCheck
+   *EnumCheck* contains the options used by the "verify()" decorator
+   to ensure various constraints; failed constraints result in a

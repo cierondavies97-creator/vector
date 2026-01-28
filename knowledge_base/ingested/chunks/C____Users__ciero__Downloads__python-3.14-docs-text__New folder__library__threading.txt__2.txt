@@ -1,0 +1,4 @@
+units of a process) concurrently within a single process. It allows
+for the creation and management of threads, making it possible to
+execute tasks in parallel, sharing memory space. Threads are
+particularly useful when tasks are I/O bound, such as file operations

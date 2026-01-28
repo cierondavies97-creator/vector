@@ -1,0 +1,3 @@
+has found utility outside of the realm of email.  Some of these uses
+conform fairly closely to the main email RFCs, some do not.  Even when
+working with email, there are times when it is desirable to break

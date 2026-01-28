@@ -1,0 +1,5 @@
+open for reading.
+   This function is roughly equivalent to:
+      files(anchor).joinpath(*path_names).open('r', encoding=encoding)
+   Changed in version 3.13: Multiple *path_names* are accepted.
+   *encoding* and *errors* must be given as keyword arguments.

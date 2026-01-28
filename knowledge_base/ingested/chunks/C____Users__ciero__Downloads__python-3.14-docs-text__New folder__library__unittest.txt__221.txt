@@ -1,0 +1,3 @@
+Test that the multiline string *first* is equal to the string
+      *second*. When not equal a diff of the two strings highlighting
+      the differences will be included in the error message. This

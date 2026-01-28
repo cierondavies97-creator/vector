@@ -1,0 +1,5 @@
+* trying to delete it raises "ValueError",
+  * "parser.clear()" leaves it intact,
+  * "parser.popitem()" never returns it.
+* "parser.get(section, option, **kwargs)" - the second argument is
+  **not** a fallback value.  Note however that the section-level

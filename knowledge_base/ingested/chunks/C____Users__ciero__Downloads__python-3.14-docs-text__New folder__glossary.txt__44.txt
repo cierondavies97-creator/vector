@@ -1,0 +1,5 @@
+normally contain method definitions which operate on instances of
+   the class.
+class variable
+   A variable defined in a class and intended to be modified only at
+   class level (i.e., not in an instance of the class).

@@ -1,0 +1,4 @@
+context's "Emin" and "Emax" limits.  If possible, the exponent is
+   reduced to fit by adding zeros to the coefficient.
+class decimal.DecimalException
+   Base class for other signals and a subclass of "ArithmeticError".

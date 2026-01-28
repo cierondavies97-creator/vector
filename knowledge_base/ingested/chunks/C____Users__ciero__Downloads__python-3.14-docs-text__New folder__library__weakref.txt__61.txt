@@ -1,0 +1,5 @@
+shown above is safe in threaded applications as well as single-
+threaded applications.
+Specialized versions of "ref" objects can be created through
+subclassing. This is used in the implementation of the
+"WeakValueDictionary" to reduce the memory overhead for each entry in

@@ -1,0 +1,4 @@
+*data*. The mode (when it exists) is the most typical value and
+   serves as a measure of central location.
+   If there are multiple modes with the same frequency, returns the
+   first one encountered in the *data*.  If the smallest or largest of

@@ -1,0 +1,5 @@
+or less, all traceback information is suppressed and only the
+   exception type and value are printed.
+sys.unraisablehook(unraisable, /)
+   Handle an unraisable exception.
+   Called when an exception has occurred but there is no way for

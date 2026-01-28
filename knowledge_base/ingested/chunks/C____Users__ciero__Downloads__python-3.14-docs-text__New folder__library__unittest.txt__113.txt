@@ -1,0 +1,4 @@
+A class method called after tests in an individual class have
+      run. "tearDownClass" is called with the class as the only
+      argument and must be decorated as a "classmethod()":
+         @classmethod

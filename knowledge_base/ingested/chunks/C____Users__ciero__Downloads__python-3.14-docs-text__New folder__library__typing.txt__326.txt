@@ -1,0 +1,7 @@
+>>> type Unpacked = tuple[bool, *Alias]
+      >>> Unpacked.__value__
+      tuple[bool, typing.Unpack[Alias]]
+   Added in version 3.14.
+Other special directives
+~~~~~~~~~~~~~~~~~~~~~~~~
+These functions and classes should not be used directly as

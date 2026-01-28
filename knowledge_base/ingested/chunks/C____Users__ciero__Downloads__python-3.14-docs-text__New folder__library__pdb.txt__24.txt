@@ -1,0 +1,4 @@
+code is not otherwise being debugged (e.g. when an assertion
+   fails).  If given, *header* is printed to the console just before
+   debugging begins. The *commands* argument, if given, is a list of
+   commands to execute when the debugger starts.

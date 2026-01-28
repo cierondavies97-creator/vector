@@ -1,0 +1,5 @@
+values, "RuntimeError" is raised.  It is useful when reading
+      data from a file written on a machine with a different byte
+      order.
+   count(x)
+      Return the number of occurrences of *x* in the array.

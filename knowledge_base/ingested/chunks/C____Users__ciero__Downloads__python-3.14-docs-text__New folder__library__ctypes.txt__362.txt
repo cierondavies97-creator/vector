@@ -1,0 +1,4 @@
+has allocated the memory block itself, false otherwise.
+   _objects
+      This member is either "None" or a dictionary containing Python
+      objects that need to be kept alive so that the memory block

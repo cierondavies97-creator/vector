@@ -1,0 +1,5 @@
+ignored (same behavior as the POSIX "rm -f" command).
+   Changed in version 3.8: The *missing_ok* parameter was added.
+Path.rmdir()
+   Remove this directory.  The directory must be empty.
+Permissions and ownership

@@ -1,0 +1,7 @@
+body=Dict(
+              keys=[
+                  Constant(value='a'),
+                  None],
+              values=[
+                  Constant(value=1),
+                  Name(id='d', ctx=Load())]))

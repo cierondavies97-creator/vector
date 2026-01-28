@@ -1,0 +1,4 @@
+used for typing annotations, can be safely imported inside an "if
+   TYPE_CHECKING:" block.  This prevents the module from actually
+   being imported at runtime; annotations aren't eagerly evaluated
+   (see **PEP 649**) so using undefined symbols in annotations is

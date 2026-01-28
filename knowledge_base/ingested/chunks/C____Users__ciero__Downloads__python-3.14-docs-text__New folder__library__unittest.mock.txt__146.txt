@@ -1,0 +1,5 @@
+If *any_order* is true then the awaits can be in any order, but
+      they must all appear in "await_args_list".
+      >>> mock = AsyncMock()
+      >>> async def main(*args, **kwargs):
+      ...     await mock(*args, **kwargs)

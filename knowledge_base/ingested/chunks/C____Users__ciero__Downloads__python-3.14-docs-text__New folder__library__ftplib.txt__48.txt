@@ -1,0 +1,3 @@
+string's contents.  If the server does not recognize the "REST"
+      command, an "error_reply" exception will be raised.  If this
+      happens, simply call "transfercmd()" without a *rest* argument.

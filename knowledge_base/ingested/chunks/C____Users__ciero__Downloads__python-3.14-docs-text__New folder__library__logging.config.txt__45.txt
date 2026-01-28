@@ -1,0 +1,5 @@
+configure the corresponding "Formatter" instance.
+  The configuring dict is searched for the following optional keys
+  which correspond to the arguments passed to create a "Formatter"
+  object:
+  * "format"

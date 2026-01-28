@@ -1,0 +1,5 @@
+that "prefix" and "exec_prefix" always point to the virtual
+   environment, even when "site" is disabled ("-S").
+sys.executable
+   A string giving the absolute path of the executable binary for the
+   Python interpreter, on systems where this makes sense. If Python is

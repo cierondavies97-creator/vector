@@ -1,0 +1,4 @@
+given, it must be a subset of the list returned by "getmembers()".
+   Changed in version 3.5: Added the *members* parameter.
+TarFile.next()
+   Return the next member of the archive as a "TarInfo" object, when

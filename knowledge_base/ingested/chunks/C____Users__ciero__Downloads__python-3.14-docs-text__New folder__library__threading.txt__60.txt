@@ -1,0 +1,4 @@
+Once a thread object is created, its activity must be started by
+calling the thread's "start()" method.  This invokes the "run()"
+method in a separate thread of control.
+Once the thread's activity is started, the thread is considered

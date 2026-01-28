@@ -1,0 +1,7 @@
+returned.
+   Availability: Unix.
+   Added in version 3.3.
+os.posix_openpt(oflag, /)
+   Open and return a file descriptor for a master pseudo-terminal
+   device.
+   Calls the C standard library function "posix_openpt()". The *oflag*

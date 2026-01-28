@@ -1,0 +1,4 @@
+abstract methods and properties are overridden.  The abstract
+   methods can be called using any of the normal 'super' call
+   mechanisms.  "abstractmethod()" may be used to declare abstract
+   methods for properties and descriptors.

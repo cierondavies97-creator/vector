@@ -1,0 +1,4 @@
+importlib.resources.contents(anchor, *path_names)
+   Return an iterable over the named items within the package or path.
+   The iterable returns names of resources (e.g. files) and non-
+   resources (e.g. directories) as "str". The iterable does not

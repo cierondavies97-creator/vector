@@ -1,0 +1,8 @@
+The type of type aliases created through the "type" statement.
+   Example:
+      >>> type Alias = int
+      >>> type(Alias)
+      <class 'typing.TypeAliasType'>
+   Added in version 3.12.
+   __name__
+      The name of the type alias:

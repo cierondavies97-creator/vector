@@ -1,0 +1,5 @@
+0.23702679807320237
+A callable can also be passed from the Python Interface:
+   >>> timeit.timeit(lambda: "-".join(map(str, range(100))), number=10000)
+   0.19665591977536678
+Note however that "timeit()" will automatically determine the number

@@ -1,0 +1,4 @@
+A context manager that is designed to make it easy to
+   programmatically combine other context managers and cleanup
+   functions, especially those that are optional or otherwise driven
+   by input data.

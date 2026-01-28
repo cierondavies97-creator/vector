@@ -1,0 +1,5 @@
+to its transport.
+BaseProtocol.connection_lost(exc)
+   Called when the connection is lost or closed.
+   The argument is either an exception object or "None". The latter
+   means a regular EOF is received, or the connection was aborted or

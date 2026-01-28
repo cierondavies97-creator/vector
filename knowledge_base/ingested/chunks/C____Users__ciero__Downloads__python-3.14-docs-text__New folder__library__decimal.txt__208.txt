@@ -1,0 +1,6 @@
+min_mag(x, y, /)
+      Compares the values numerically with their sign ignored.
+   minus(x, /)
+      Minus corresponds to the unary prefix minus operator in Python.
+   multiply(x, y, /)
+      Return the product of *x* and *y*.

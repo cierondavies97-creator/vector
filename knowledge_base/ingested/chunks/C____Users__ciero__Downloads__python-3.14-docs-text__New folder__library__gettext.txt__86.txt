@@ -1,0 +1,4 @@
+lang1 = gettext.translation('myapplication', languages=['en'])
+   lang2 = gettext.translation('myapplication', languages=['fr'])
+   lang3 = gettext.translation('myapplication', languages=['de'])
+   # start by using language1

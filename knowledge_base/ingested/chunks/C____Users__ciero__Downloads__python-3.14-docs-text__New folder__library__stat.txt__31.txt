@@ -1,0 +1,8 @@
+stat.S_IWRITE
+   Unix V7 synonym for "S_IWUSR".
+stat.S_IEXEC
+   Unix V7 synonym for "S_IXUSR".
+The following flags can be used in the *flags* argument of
+"os.chflags()":
+stat.UF_SETTABLE
+   All user settable flags.

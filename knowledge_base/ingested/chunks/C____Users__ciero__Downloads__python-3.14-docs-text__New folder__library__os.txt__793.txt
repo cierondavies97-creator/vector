@@ -1,0 +1,4 @@
+or for cryptographic purposes.
+   "getrandom()" relies on entropy gathered from device drivers and
+   other sources of environmental noise. Unnecessarily reading large
+   quantities of data will have a negative impact on  other users  of

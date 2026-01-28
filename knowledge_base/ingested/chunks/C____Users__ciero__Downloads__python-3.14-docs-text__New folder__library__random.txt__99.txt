@@ -1,0 +1,5 @@
+while True:
+           random.shuffle(perm)
+           if all(p != q for p, q in zip(start, perm)):
+               return tuple([seq[i] for i in perm])
+The default "random()" returns multiples of 2⁻⁵³ in the range *0.0 ≤ x

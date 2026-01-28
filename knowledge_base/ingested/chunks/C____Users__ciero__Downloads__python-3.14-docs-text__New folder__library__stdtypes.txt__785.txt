@@ -1,0 +1,5 @@
+>>> d["two"] = None
+      >>> d
+      {'one': 42, 'three': 3, 'four': 4, 'two': None}
+   Changed in version 3.7: Dictionary order is guaranteed to be
+   insertion order.  This behavior was an implementation detail of

@@ -1,0 +1,4 @@
+-[ Footnotes ]-
+[1] It *is* possible in some cases to change an object's type, under
+    certain controlled conditions. It generally isn't a good idea
+    though, since it can lead to some very strange behaviour if it is

@@ -1,0 +1,6 @@
+documented below.
+class typing.Generic
+   Abstract base class for generic types.
+   A generic type is typically declared by adding a list of type
+   parameters after the class name:
+      class Mapping[KT, VT]:

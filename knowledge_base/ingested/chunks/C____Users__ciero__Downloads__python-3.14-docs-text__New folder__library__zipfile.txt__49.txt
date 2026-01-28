@@ -1,0 +1,3 @@
+may exceed 2 GiB, pass "force_zip64=True" to ensure that the header
+   format is capable of supporting large files.  If the file size is
+   known in advance, construct a "ZipInfo" object with "file_size"

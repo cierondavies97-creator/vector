@@ -1,0 +1,4 @@
+and accepted exactly one parameter.
+The zipp project provides backports of the latest path object
+functionality to older Pythons. Use "zipp.Path" in place of
+"zipfile.Path" for early access to changes.

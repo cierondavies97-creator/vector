@@ -1,0 +1,5 @@
+both default to empty strings.  The elements of both sequences must
+   be *hashable*.
+   The optional argument *autojunk* can be used to disable the
+   automatic junk heuristic.
+   Changed in version 3.2: Added the *autojunk* parameter.

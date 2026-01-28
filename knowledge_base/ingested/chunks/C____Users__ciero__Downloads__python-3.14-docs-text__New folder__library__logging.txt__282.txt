@@ -1,0 +1,7 @@
+The factory has the following signature:
+   "factory(name, level, fn, lno, msg, args, exc_info, func=None,
+   sinfo=None, **kwargs)"
+      name:
+         The logger name.
+      level:
+         The logging level (numeric).

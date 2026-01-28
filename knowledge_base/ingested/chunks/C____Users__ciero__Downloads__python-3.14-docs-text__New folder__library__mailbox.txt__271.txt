@@ -1,0 +1,6 @@
+for name in list_names:
+           list_id = message['list-id']
+           if list_id and name in list_id:
+               # Get mailbox to use
+               box = boxes[name]
+               # Write copy to disk before removing original.

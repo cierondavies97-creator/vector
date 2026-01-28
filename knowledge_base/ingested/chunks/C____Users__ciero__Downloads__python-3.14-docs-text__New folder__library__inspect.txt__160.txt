@@ -1,0 +1,5 @@
+signature.
+   replace(*[, parameters][, return_annotation])
+      Create a new "Signature" instance based on the instance
+      "replace()" was invoked on. It is possible to pass different
+      *parameters* and/or *return_annotation* to override the

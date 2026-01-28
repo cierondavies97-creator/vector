@@ -1,0 +1,4 @@
+responsible for taking those three arguments and creating the
+   class.  Most object oriented programming languages provide a
+   default implementation.  What makes Python special is that it is
+   possible to create custom metaclasses.  Most users never need this

@@ -1,0 +1,4 @@
+dispatch_return(frame, arg)
+      If the debugger should stop on this function return, invoke the
+      "user_return()" method (which should be overridden in
+      subclasses). Raise a "BdbQuit" exception if the "quitting" flag

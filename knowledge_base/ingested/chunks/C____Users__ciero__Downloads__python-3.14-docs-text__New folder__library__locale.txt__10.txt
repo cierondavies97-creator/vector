@@ -1,0 +1,5 @@
+setting (typically specified in the "LANG" environment variable).
+   If the locale is not changed thereafter, using multithreading
+   should not cause problems.
+locale.localeconv()
+   Returns the database of the local conventions as a dictionary. This

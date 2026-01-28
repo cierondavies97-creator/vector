@@ -1,0 +1,5 @@
+Availability: Windows
+ctypes.DllGetClassObject()
+   This function is a hook which allows implementing in-process COM
+   servers with ctypes.  It is called from the DllGetClassObject
+   function that the "_ctypes" extension dll exports.

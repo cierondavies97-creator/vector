@@ -1,0 +1,4 @@
+matched a null string.  For example, after "m = re.search('b(c?)',
+   'cba')", "m.start(0)" is 1, "m.end(0)" is 2, "m.start(1)" and
+   "m.end(1)" are both 2, and "m.start(2)" raises an "IndexError"
+   exception.

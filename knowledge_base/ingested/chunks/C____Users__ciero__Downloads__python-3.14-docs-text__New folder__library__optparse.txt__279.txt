@@ -1,0 +1,4 @@
+Callback example 3: check option order (generalized)
+----------------------------------------------------
+If you want to reuse this callback for several similar options (set a
+flag, but blow up if "-b" has already been seen), it needs a bit of

@@ -1,0 +1,6 @@
+Availability: Windows.
+   Added in version 3.14.
+This module implements the following exception:
+exception encodings.CodecRegistryError
+   Raised when a codec is invalid or incompatible.
+"encodings.idna" --- Internationalized Domain Names in Applications

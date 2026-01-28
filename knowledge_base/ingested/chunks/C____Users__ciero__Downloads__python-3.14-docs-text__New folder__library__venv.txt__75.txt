@@ -1,0 +1,4 @@
+environment or perform other post-creation steps.
+   install_scripts(context, path)
+      This method can be called from "setup_scripts()" or
+      "post_setup()" in subclasses to assist in installing custom

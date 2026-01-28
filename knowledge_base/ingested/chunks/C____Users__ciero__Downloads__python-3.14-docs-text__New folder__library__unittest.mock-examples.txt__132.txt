@@ -1,0 +1,5 @@
+"MagicMock" that copies (using "copy.deepcopy()") the arguments.
+Here's an example implementation:
+>>> from copy import deepcopy
+>>> class CopyingMock(MagicMock):
+...     def __call__(self, /, *args, **kwargs):

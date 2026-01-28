@@ -1,0 +1,8 @@
+module
+      The name of the module defining the function described.
+   name
+      The name of the function.
+   lineno
+      The line number in the file where the definition starts.
+   parent
+      For top-level functions, "None".  For nested functions, the

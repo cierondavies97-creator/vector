@@ -1,0 +1,3 @@
+The first place checked during import search is "sys.modules".  This
+mapping serves as a cache of all modules that have been previously
+imported, including the intermediate paths.  So if "foo.bar.baz" was

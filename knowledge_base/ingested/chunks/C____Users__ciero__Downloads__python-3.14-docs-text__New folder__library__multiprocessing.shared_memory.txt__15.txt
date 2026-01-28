@@ -1,0 +1,4 @@
+ensures proper cleanup of the shared memory even if all other
+        processes with access to the memory exit without doing so.
+        Python processes created from a common ancestor using
+        "multiprocessing" facilities share a single resource tracker

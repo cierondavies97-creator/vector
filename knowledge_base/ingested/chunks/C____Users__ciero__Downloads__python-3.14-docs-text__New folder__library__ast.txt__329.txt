@@ -1,0 +1,3 @@
+ast.parse(source, filename='<unknown>', mode='exec', *, type_comments=False, feature_version=None, optimize=-1)
+   Parse the source into an AST node.  Equivalent to "compile(source,
+   filename, mode, flags=FLAGS_VALUE, optimize=optimize)", where

@@ -1,0 +1,3 @@
+considered *distinct* modules. This is due to the fact that blocks
+guarded by "if __name__ == "__main__":" checks only execute when the
+module is used to populate the "__main__" namespace, and not during

@@ -1,0 +1,5 @@
+>>> (wheel,) = entry_points(group='console_scripts', name='wheel')
+   >>> (wheel,) = entry_points().select(group='console_scripts', name='wheel')
+Inspect the resolved entry point:
+   >>> wheel
+   EntryPoint(name='wheel', value='wheel.cli:main', group='console_scripts')

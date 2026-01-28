@@ -1,0 +1,4 @@
+contains exactly one item.  The buffer's size in bytes, starting at
+   position *offset*, must be at least the size required by the
+   format, as reflected by "calcsize()".
+struct.iter_unpack(format, buffer)

@@ -1,0 +1,6 @@
+present, or to "None", if absent.
+   Changed in version 3.9: Added merge ("|") and update ("|=")
+   operators, specified in **PEP 584**.
+"defaultdict" Examples
+----------------------
+Using "list" as the "default_factory", it is easy to group a sequence

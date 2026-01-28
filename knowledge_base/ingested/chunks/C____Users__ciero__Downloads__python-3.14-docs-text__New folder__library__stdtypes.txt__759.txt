@@ -1,0 +1,3 @@
+other (each is a subset of the other). A set is less than another set
+if and only if the first set is a proper subset of the second set (is
+a subset, but is not equal). A set is greater than another set if and

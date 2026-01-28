@@ -1,0 +1,4 @@
+parsing messages.  Note that the defects are added to the message
+where the problem was found, so for example, if a message nested
+inside a *multipart/alternative* had a malformed header, that nested
+message object would have a defect, but the containing messages would

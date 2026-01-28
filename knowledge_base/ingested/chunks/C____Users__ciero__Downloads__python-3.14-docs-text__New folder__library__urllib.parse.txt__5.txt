@@ -1,0 +1,4 @@
+The "urllib.parse" module defines functions that fall into two broad
+categories: URL parsing and URL quoting. These are covered in detail
+in the following sections.
+This module's functions use the deprecated term "netloc" (or

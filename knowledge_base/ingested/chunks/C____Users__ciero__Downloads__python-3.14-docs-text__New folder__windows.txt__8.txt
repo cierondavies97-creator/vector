@@ -1,0 +1,4 @@
+manual steps required to configure your PC.
+Apart from using the Python install manager, Python can also be
+obtained as NuGet packages. See The nuget.org packages below for more
+information on these packages.

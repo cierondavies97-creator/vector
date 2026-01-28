@@ -1,0 +1,4 @@
+poll and never blocks.
+   The return value is a triple of lists of objects that are ready:
+   subsets of the first three arguments.  When the time-out is reached
+   without a file descriptor becoming ready, three empty lists are

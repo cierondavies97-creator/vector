@@ -1,0 +1,5 @@
+the duration of the loop.  See also *iterator*, *sequence*, and
+   *generator*.
+iterator
+   An object representing a stream of data.  Repeated calls to the
+   iterator's "__next__()" method (or passing it to the built-in

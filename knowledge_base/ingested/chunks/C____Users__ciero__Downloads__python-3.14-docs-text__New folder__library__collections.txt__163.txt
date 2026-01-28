@@ -1,0 +1,5 @@
+less important now that the built-in "dict" class gained the ability
+to remember insertion order (this new behavior became guaranteed in
+Python 3.7).
+Some differences from "dict" still remain:
+* The regular "dict" was designed to be very good at mapping

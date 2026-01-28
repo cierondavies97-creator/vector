@@ -1,0 +1,7 @@
+>>> p
+      PosixPath('tests')
+      >>> p.absolute()
+      PosixPath('/home/antoine/pathlib/tests')
+Path.resolve(strict=False)
+   Make the path absolute, resolving any symlinks.  A new path object
+   is returned:

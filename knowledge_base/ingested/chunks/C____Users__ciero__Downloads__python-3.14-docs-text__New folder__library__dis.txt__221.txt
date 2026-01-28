@@ -1,0 +1,3 @@
+|                                     | argument is a tuple of the type     |
+   |                                     | alias's name, type parameters, and  |
+   |                                     | value.                              |

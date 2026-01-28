@@ -1,0 +1,4 @@
+series into n-length groups using "zip(*[iter(s)]*n,
+     strict=True)".  This repeats the *same* iterator "n" times so
+     that each output tuple has the result of "n" calls to the
+     iterator. This has the effect of dividing the input into n-length

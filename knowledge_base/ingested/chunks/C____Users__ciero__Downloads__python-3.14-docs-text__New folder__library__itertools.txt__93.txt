@@ -1,0 +1,6 @@
+# islice('ABCDEFG', 0, None, 2) → A C E G
+          s = slice(*args)
+          start = 0 if s.start is None else s.start
+          stop = s.stop
+          step = 1 if s.step is None else s.step
+          if start < 0 or (stop is not None and stop < 0) or step <= 0:

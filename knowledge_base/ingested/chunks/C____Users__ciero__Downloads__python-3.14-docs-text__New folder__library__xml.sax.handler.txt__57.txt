@@ -1,0 +1,6 @@
+Handle a notation declaration event.
+DTDHandler.unparsedEntityDecl(name, publicId, systemId, ndata)
+   Handle an unparsed entity declaration event.
+EntityResolver Objects
+======================
+EntityResolver.resolveEntity(publicId, systemId)

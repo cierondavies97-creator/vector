@@ -1,0 +1,3 @@
+different type. "None" would be useless as a spec because it wouldn't
+let you access *any* attributes or methods on it. As "None" is *never*
+going to be useful as a spec, and probably indicates a member that

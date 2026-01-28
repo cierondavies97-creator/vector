@@ -1,0 +1,3 @@
+the message complies with the standard Maildir format, the
+      result is the concatenation in alphabetical order of zero or one
+      occurrence of each of "'D'", "'F'", "'P'", "'R'", "'S'", and

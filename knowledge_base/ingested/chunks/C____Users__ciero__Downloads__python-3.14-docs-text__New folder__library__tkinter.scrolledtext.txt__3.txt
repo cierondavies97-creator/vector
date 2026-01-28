@@ -1,0 +1,3 @@
+from the "Frame" object.  This allows the "ScrolledText" widget to be
+used directly to achieve most normal geometry management behavior.
+Should more specific control be necessary, the following attributes

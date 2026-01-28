@@ -1,0 +1,3 @@
+In the tree above, each cell *k* is topping "2*k+1" and "2*k+2". In a
+usual binary tournament we see in sports, each cell is the winner over
+the two cells it tops, and we can trace the winner down the tree to

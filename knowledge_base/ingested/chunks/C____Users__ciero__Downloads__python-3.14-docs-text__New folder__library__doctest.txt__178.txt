@@ -1,0 +1,4 @@
+doctest.set_unittest_reportflags(flags)
+   Set the "doctest" reporting flags to use.
+   Argument *flags* takes the bitwise OR of option flags.  See section
+   Option Flags.  Only "reporting flags" can be used.

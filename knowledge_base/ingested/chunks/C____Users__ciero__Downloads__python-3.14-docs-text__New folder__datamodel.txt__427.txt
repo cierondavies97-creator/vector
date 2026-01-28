@@ -1,0 +1,3 @@
+attributes). For callables, it may indicate that an instance of the
+   given type (or a subclass) is expected or required as the first
+   positional argument (for example, CPython sets this attribute for

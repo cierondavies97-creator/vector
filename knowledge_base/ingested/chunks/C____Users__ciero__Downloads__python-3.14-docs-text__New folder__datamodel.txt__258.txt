@@ -1,0 +1,2 @@
+| codeobject.co_flags                                | An "integer" encoding a number of flags for the    |
+|                                                    | interpreter.                                       |

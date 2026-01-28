@@ -1,0 +1,4 @@
+both "getattr()" and "super()".  The attribute is dynamic and can
+   change whenever the inheritance hierarchy is updated.
+   If the second argument is omitted, the super object returned is
+   unbound.  If the second argument is an object, "isinstance(obj,

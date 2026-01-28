@@ -1,0 +1,4 @@
+contain other folders. Instead, a logical nesting is indicated
+   using "'.'" to delimit levels, e.g., "Archived.2005.07".
+   colon
+      The Maildir specification requires the use of a colon ("':'") in

@@ -1,0 +1,6 @@
+self.pop_all()
+   with Callback(cleanup_resources) as cb:
+       result = perform_operation()
+       if result:
+           cb.cancel()
+If the resource cleanup isn't already neatly bundled into a standalone

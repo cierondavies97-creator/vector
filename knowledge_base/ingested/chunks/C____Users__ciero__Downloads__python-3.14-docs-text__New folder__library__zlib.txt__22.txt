@@ -1,0 +1,4 @@
+value of 0 is used.  Passing in *value* allows computing a running
+   checksum over the concatenation of several inputs.  The algorithm
+   is not cryptographically strong, and should not be used for
+   authentication or digital signatures.  Since the algorithm is

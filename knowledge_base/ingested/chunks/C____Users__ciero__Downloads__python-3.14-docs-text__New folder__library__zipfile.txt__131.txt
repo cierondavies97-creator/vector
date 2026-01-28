@@ -1,0 +1,8 @@
+ZipInfo.external_attr
+   External file attributes.
+ZipInfo.header_offset
+   Byte offset to the file header.
+ZipInfo.CRC
+   CRC-32 of the uncompressed file.
+ZipInfo.compress_size
+   Size of the compressed data.

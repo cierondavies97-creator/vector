@@ -1,0 +1,4 @@
+class importlib.machinery.BuiltinImporter
+   An *importer* for built-in modules. All known built-in modules are
+   listed in "sys.builtin_module_names". This class implements the
+   "importlib.abc.MetaPathFinder" and "importlib.abc.InspectLoader"

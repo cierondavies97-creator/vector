@@ -1,0 +1,5 @@
+super().__setattr__(attr, value)
+   sys.modules[__name__].__class__ = VerboseModule
+Note:
+  Defining module "__getattr__" and setting module "__class__" only
+  affect lookups made using the attribute access syntax -- directly

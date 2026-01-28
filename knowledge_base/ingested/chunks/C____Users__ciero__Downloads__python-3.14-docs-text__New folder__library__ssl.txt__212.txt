@@ -1,0 +1,4 @@
+SSLContext.cert_store_stats()
+   Get statistics about quantities of loaded X.509 certificates, count
+   of X.509 certificates flagged as CA certificates and certificate
+   revocation lists as dictionary.

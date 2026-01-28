@@ -1,0 +1,5 @@
+A: Yes, any binary floating-point number can be exactly expressed as a
+Decimal though an exact conversion may take more precision than
+intuition would suggest:
+   >>> Decimal(math.pi)
+   Decimal('3.141592653589793115997963468544185161590576171875')

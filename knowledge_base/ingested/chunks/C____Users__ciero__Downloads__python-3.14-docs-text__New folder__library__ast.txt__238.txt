@@ -1,0 +1,4 @@
+sequence pattern. If "name" is not "None", a list containing the
+   remaining sequence elements is bound to that name if the overall
+   sequence pattern is successful.
+      >>> print(ast.dump(ast.parse("""

@@ -1,0 +1,4 @@
+of "NaN" is quiet and, once created, will flow through other
+computations always resulting in another "NaN".  This behavior can be
+useful for a series of computations that occasionally have missing
+inputs --- it allows the calculation to proceed while flagging

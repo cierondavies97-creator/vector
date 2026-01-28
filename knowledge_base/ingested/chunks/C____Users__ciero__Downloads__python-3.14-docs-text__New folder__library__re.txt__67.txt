@@ -1,0 +1,4 @@
+as inline flags, so they can't be combined or follow "'-'".
+   Instead, when one of them appears in an inline group, it overrides
+   the matching mode in the enclosing group.  In Unicode patterns
+   "(?a:...)" switches to ASCII-only matching, and "(?u:...)" switches

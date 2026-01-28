@@ -1,0 +1,4 @@
+Note that we don't patch "datetime.date" globally, we patch "date" in
+the module that *uses* it. See where to patch.
+When "date.today()" is called a known date is returned, but calls to
+the "date(...)" constructor still return normal dates. Without this

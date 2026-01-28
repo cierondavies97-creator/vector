@@ -1,0 +1,5 @@
+If(
+                          test=Name(id='y', ctx=Load()),
+                          body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))],

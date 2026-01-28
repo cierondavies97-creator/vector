@@ -1,0 +1,4 @@
+constructor.  This defaults to "False", which preserves pre-3.6
+behaviour. However, if it is set to "True", then parsing of the
+characters "();<>|&" is changed: any run of these characters is
+returned as a single token.  While this is short of a full parser for

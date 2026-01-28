@@ -1,0 +1,3 @@
+|             | the widget's default layout and style. This option is read-    |
+|             | only, and may only be specified when the window is created.    |
++-------------+----------------------------------------------------------------+

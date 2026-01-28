@@ -1,0 +1,4 @@
+opening the box, the first match or near miss is made visible. The
+result is the same as if one enters a prefix after the box is
+displayed.  Show Completions after a quote completes filenames in the
+current directory instead of a root directory.

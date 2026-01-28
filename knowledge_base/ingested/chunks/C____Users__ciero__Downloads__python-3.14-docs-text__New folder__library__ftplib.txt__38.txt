@@ -1,0 +1,5 @@
+storbinary(cmd, fp, blocksize=8192, callback=None, rest=None)
+      Store a file in binary transfer mode.
+      Parameters:
+         * **cmd** (*str*) -- An appropriate "STOR" command: ""STOR
+           *filename*"".

@@ -1,0 +1,4 @@
+operations on text I/O objects might raise a "BlockingIOError" if
+  the stream cannot perform the operation immediately.
+The text stream API is described in detail in the documentation of
+"TextIOBase".

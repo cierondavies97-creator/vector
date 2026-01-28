@@ -1,0 +1,2 @@
+| "callback" "pipe_data_received()"                  | Called when the child process writes data into its |
+|                                                    | *stdout* or *stderr* pipe.                         |

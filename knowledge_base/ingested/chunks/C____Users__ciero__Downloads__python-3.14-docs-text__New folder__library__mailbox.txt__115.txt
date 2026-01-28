@@ -1,0 +1,5 @@
+in the Babyl options section, but the Babyl section is updated
+        whenever the mailbox is modified.
+   Some "Mailbox" methods implemented by "Babyl" deserve special
+   remarks:
+   get_file(key)

@@ -1,0 +1,5 @@
+pair of backslashes is interpreted as a literal backslash.  If the
+   number of backslashes is odd, the last backslash escapes the next
+   double quotation mark as described in rule 3.
+See also:
+  "shlex"

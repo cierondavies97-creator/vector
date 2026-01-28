@@ -1,0 +1,5 @@
+__repr__(self)
+      Returns the string used for *repr()* calls.  By default, returns
+      the *Enum* name, member name, and value, but can be overridden:
+         >>> from enum import auto, Enum
+         >>> class OtherStyle(Enum):

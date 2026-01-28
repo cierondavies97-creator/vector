@@ -1,0 +1,3 @@
+|                   | invoking Misc.selection_get, for example).               |
++-------------------+----------------------------------------------------------+
+| justify           | Specifies how the text is aligned within the widget. One |

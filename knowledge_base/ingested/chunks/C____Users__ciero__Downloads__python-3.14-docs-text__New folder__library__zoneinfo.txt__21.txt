@@ -1,0 +1,4 @@
+relative paths. Relative components specified in "PYTHONTZPATH"
+   will not be used, but otherwise the behavior when a relative path
+   is specified is implementation-defined; CPython will raise
+   "InvalidTZPathWarning", but other implementations are free to

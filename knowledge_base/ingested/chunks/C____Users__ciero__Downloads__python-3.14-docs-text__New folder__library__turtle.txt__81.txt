@@ -1,0 +1,5 @@
+delete all stamps, if *n* > 0 delete first *n* stamps, else if *n*
+   < 0 delete last *n* stamps.
+      >>> for i in range(8):
+      ...     unused_stamp_id = turtle.stamp()
+      ...     turtle.fd(30)

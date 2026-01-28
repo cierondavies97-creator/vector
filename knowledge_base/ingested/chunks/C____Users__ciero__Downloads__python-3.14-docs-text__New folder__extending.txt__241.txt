@@ -1,0 +1,4 @@
+is rather complicated. However, the basic structure is the same for
+each function that is exported, so it has to be learned only once.
+Finally it should be mentioned that Capsules offer additional
+functionality, which is especially useful for memory allocation and

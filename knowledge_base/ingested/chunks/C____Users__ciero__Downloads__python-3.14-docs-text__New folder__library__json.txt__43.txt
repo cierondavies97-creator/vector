@@ -1,0 +1,4 @@
+This can be used to parse JSON floats into custom datatypes,
+        for example "decimal.Decimal".
+      * **parse_int** (*callable* | None) -- If set, a function that
+        is called with the string of every JSON int to be decoded. If

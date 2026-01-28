@@ -1,0 +1,3 @@
+exception is raised. If a group is contained in a part of the
+   pattern that did not match, the corresponding result is "None". If
+   a group is contained in a part of the pattern that matched multiple

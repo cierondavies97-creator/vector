@@ -1,0 +1,5 @@
+"configparser" --- Configuration file parser
+********************************************
+**Source code:** Lib/configparser.py
+======================================================================
+This module provides the "ConfigParser" class which implements a basic

@@ -1,0 +1,3 @@
+* *slots*: If true (the default is "False"), "__slots__" attribute
+     will be generated and new class will be returned instead of the
+     original one. If "__slots__" is already defined in the class,

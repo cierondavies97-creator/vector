@@ -1,0 +1,4 @@
+with length "1".  The built-in function "ord()" converts a code
+   point from its string form to an integer in the range "0 - 10FFFF";
+   "chr()" converts an integer in the range "0 - 10FFFF" to the
+   corresponding length "1" string object. "str.encode()" can be used

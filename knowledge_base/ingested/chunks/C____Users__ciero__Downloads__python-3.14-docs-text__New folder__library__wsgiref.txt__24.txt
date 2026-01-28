@@ -1,0 +1,5 @@
+print("Serving on port 8000...")
+          httpd.serve_forever()
+In addition to the environment functions above, the "wsgiref.util"
+module also provides these miscellaneous utilities:
+wsgiref.util.is_hop_by_hop(header_name)

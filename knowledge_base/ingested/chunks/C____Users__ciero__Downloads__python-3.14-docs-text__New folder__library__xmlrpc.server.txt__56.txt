@@ -1,0 +1,5 @@
+class xmlrpc.server.DocCGIXMLRPCRequestHandler
+   Create a new instance to handle XML-RPC requests in a CGI
+   environment.
+class xmlrpc.server.DocXMLRPCRequestHandler
+   Create a new request handler instance. This request handler

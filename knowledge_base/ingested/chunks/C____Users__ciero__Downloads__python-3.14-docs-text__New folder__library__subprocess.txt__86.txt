@@ -1,0 +1,4 @@
+settings of "None", no redirection will occur.  "PIPE" indicates
+   that a new pipe to the child should be created.  "DEVNULL"
+   indicates that the special file "os.devnull" will be used.
+   Additionally, *stderr* can be "STDOUT", which indicates that the

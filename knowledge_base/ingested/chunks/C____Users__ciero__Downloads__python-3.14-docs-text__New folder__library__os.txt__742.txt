@@ -1,0 +1,4 @@
+is the number of the signal that caused the process to terminate
+     (return "-WTERMSIG(status)"): result less than 0.
+   * Otherwise, raise a "ValueError".
+   On Windows, return *status* shifted right by 8 bits.

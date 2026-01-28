@@ -1,0 +1,10 @@
+polygons.
+      >>> turtle.home()
+      >>> turtle.position()
+      (0.00,0.00)
+      >>> turtle.heading()
+      0.0
+      >>> turtle.circle(50)
+      >>> turtle.position()
+      (-0.00,0.00)
+      >>> turtle.heading()

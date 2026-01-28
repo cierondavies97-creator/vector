@@ -1,0 +1,5 @@
+option that specified whether Unicode characters were stored as
+   UCS-2 or UCS-4.
+sys.meta_path
+   A list of *meta path finder* objects that have their "find_spec()"
+   methods called to see if one of the objects can find the module to

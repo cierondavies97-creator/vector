@@ -1,0 +1,4 @@
+order. *address* is an integer representation of an IPv4 IP
+   address.  A "ValueError" is raised if the integer is negative or
+   too large to be an IPv4 IP address.
+   >>> ipaddress.ip_address(3221225985)

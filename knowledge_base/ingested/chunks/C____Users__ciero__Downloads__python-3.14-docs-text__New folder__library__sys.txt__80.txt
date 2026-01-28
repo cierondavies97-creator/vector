@@ -1,0 +1,4 @@
+the like.  Most systems require it to be in the range 0--127, and
+   produce undefined results otherwise.  Some systems have a
+   convention for assigning specific meanings to specific exit codes,
+   but these are generally underdeveloped; Unix programs generally use

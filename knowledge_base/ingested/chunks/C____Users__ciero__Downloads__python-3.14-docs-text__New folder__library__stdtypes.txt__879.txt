@@ -1,0 +1,5 @@
+a union object:
+      >>> isinstance("", int | str)
+      True
+   However, parameterized generics in union objects cannot be checked:
+      >>> isinstance(1, int | list[int])  # short-circuit evaluation

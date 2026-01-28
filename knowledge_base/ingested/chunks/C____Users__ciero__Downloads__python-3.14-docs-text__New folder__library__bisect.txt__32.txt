@@ -1,0 +1,6 @@
+>>> from operator import attrgetter
+   >>> from bisect import bisect, insort
+   >>> from pprint import pprint
+   >>> Movie = namedtuple('Movie', ('name', 'released', 'director'))
+   >>> movies = [
+   ...     Movie('Jaws', 1975, 'Spielberg'),

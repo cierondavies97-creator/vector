@@ -1,0 +1,3 @@
+Compares two strings according to the current "LC_COLLATE" setting.
+   As any other compare function, returns a negative, or a positive
+   value, or "0", depending on whether *string1* collates before or

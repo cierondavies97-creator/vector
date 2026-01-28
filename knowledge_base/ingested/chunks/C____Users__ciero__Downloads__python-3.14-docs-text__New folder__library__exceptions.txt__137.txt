@@ -1,0 +1,3 @@
+the same check that is used in an "except" clause.  The
+      condition can also be a callable (other than a type object) that
+      accepts an exception as its single argument and returns true for

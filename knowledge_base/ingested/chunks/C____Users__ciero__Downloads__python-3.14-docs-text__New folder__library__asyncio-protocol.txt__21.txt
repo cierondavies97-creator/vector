@@ -1,0 +1,5 @@
+uses.
+   *name* is a string representing the piece of transport-specific
+   information to get.
+   *default* is the value to return if the information is not
+   available, or if the transport does not support querying it with

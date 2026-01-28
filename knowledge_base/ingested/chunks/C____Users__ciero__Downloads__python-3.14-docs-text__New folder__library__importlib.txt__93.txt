@@ -1,0 +1,5 @@
+Use "exec_module()" instead.
+   get_source(fullname)
+      Concrete implementation of "InspectLoader.get_source()".
+   is_package(fullname)
+      Concrete implementation of "InspectLoader.is_package()". A

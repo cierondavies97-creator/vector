@@ -1,0 +1,5 @@
+i.e. begin with a digit in the range 1--5.
+ftplib.all_errors
+   The set of all exceptions (as a tuple) that methods of "FTP"
+   instances may raise as a result of problems with the FTP connection
+   (as opposed to programming errors made by the caller).  This set

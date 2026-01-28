@@ -1,0 +1,5 @@
+subpackage called "email.mime.text".
+5.2.1. Regular packages
+-----------------------
+Python defines two types of packages, *regular packages* and
+*namespace packages*.  Regular packages are traditional packages as

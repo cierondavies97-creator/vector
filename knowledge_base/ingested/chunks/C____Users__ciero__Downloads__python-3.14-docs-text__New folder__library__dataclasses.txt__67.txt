@@ -1,0 +1,3 @@
+To create a shallow copy, the following workaround may be used:
+      {field.name: getattr(obj, field.name) for field in fields(obj)}
+   "asdict()" raises "TypeError" if *obj* is not a dataclass instance.

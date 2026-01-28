@@ -1,0 +1,3 @@
+value for the current working directory is looked up fresh for each
+module lookup. Third, the path used for "sys.path_importer_cache" and
+returned by "importlib.machinery.PathFinder.find_spec()" will be the

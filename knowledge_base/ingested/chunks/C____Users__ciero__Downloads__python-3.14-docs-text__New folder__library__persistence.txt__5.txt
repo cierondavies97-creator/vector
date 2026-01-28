@@ -1,0 +1,6 @@
+* Example
+* "marshal" --- Internal Python object serialization
+* "dbm" --- Interfaces to Unix "databases"
+  * "dbm.sqlite3" --- SQLite backend for dbm
+  * "dbm.gnu" --- GNU database manager
+  * "dbm.ndbm" --- New Database Manager

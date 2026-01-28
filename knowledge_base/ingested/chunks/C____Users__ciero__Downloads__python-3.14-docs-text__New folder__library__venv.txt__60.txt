@@ -1,0 +1,5 @@
+self.setup_scripts(context)
+             self.post_setup(context)
+      Each of the methods "ensure_directories()",
+      "create_configuration()", "setup_python()", "setup_scripts()"
+      and "post_setup()" can be overridden.

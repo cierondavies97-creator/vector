@@ -1,0 +1,5 @@
+"shlex" --- Simple lexical analysis
+***********************************
+**Source code:** Lib/shlex.py
+======================================================================
+The "shlex" class makes it easy to write lexical analyzers for simple

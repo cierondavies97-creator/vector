@@ -1,0 +1,4 @@
+This routine adds various parameters required for WSGI, including
+   "HTTP_HOST", "SERVER_NAME", "SERVER_PORT", "REQUEST_METHOD",
+   "SCRIPT_NAME", "PATH_INFO", and all of the **PEP 3333**-defined
+   "wsgi.*" variables.  It only supplies default values, and does not

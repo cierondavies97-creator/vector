@@ -1,0 +1,3 @@
+|            | of this option whenever its value is greater than 0 and, in     |
+|            | determinate mode, less than maximum. This option may be used by |
+|            | the current theme to provide additional animation effects.      |

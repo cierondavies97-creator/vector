@@ -1,0 +1,5 @@
+Added in version 3.2.
+class email.parser.BytesHeaderParser(_class=None, *, policy=policy.compat32)
+   Exactly like "BytesParser", except that *headersonly* defaults to
+   "True".
+   Added in version 3.3.

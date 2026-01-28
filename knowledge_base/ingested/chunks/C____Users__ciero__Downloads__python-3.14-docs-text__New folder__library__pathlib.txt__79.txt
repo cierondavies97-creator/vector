@@ -1,0 +1,4 @@
+Warning:
+     This function is part of "PurePath" and works with strings. It
+     does not check or access the underlying file structure. This can
+     impact the *walk_up* option as it assumes that no symlinks are

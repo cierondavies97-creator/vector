@@ -1,0 +1,4 @@
+two positional arguments plus any keyword arguments passed to
+   "ArgumentParser.add_argument()" except for the "action" itself.
+   Instances of "Action" (or return value of any callable to the
+   "action" parameter) should have attributes "dest",

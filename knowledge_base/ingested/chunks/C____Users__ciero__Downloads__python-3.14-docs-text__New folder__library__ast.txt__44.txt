@@ -1,0 +1,4 @@
+symbol, for example one can get the source segment of a one-line
+      expression node using "source_line[node.col_offset :
+      node.end_col_offset]".
+   The constructor of a class "ast.T" parses its arguments as follows:

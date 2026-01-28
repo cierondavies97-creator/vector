@@ -1,0 +1,6 @@
+for executables compiled using **gcc**.
+   The file is read and scanned in chunks of *chunksize* bytes.
+Linux platforms
+===============
+platform.freedesktop_os_release()
+   Get operating system identification from "os-release" file and

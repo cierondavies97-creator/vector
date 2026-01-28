@@ -1,0 +1,5 @@
+"SOCK_NONBLOCK", but "sock.type" will be set to
+   "socket.SOCK_STREAM".
+   Changed in version 3.9: The CAN_J1939 protocol was added.
+   Changed in version 3.10: The IPPROTO_MPTCP protocol was added.
+socket.socketpair([family[, type[, proto]]])

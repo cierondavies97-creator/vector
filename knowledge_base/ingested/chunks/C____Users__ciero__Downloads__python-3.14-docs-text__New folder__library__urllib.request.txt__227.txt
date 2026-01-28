@@ -1,0 +1,4 @@
+fail with a 550 error, and then perform a directory listing for the
+  unreadable file. If fine-grained control is needed, consider using
+  the "ftplib" module.
+"urllib.response" --- Response classes used by urllib

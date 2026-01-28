@@ -1,0 +1,7 @@
+for i in range(100):
+       steps = int(random() * 100)
+       angle = int(random() * 360)
+       t.right(angle)
+       t.fd(steps)
+Another step is also required though - as soon as the script ends,
+Python will also close the turtle's window. Add:

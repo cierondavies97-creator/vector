@@ -1,0 +1,6 @@
+has no effect on the meaning of string literals and cannot be combined
+with the "r" prefix.
+class str(*, encoding='utf-8', errors='strict')
+class str(object)
+class str(object, encoding, errors='strict')
+class str(object, *, errors)

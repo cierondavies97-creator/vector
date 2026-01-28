@@ -1,0 +1,6 @@
+returned, and *plural* is returned in all other cases.
+      Here is an example:
+         n = len(os.listdir('.'))
+         cat = GNUTranslations(somefile)
+         message = cat.ngettext(
+             'There is %(num)d file in this directory',

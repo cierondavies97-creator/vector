@@ -1,0 +1,4 @@
+Acceptable forms of *filename* are "/abspath/to/file.py",
+   "relpath/file.py", "module" and "package.module".
+   With a *function* argument, set a break at the first executable
+   statement within that function. *function* can be any expression

@@ -1,0 +1,7 @@
+case Py_GT: c = size1 >  size2; break;
+       case Py_GE: c = size1 >= size2; break;
+       }
+       result = c ? Py_True : Py_False;
+       return Py_NewRef(result);
+    }
+3.5. Abstract Protocol Support

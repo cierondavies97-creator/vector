@@ -1,0 +1,3 @@
+With the *block* argument set to "True" (the default), the
+      method call will block until the lock is in an unlocked state,
+      then set it to locked and return "True".  Note that the name of

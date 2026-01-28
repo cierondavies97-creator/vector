@@ -1,0 +1,6 @@
+if check():
+              break
+      else:
+          raise RuntimeError('my custom error')
+test.support.is_resource_enabled(resource)
+   Return "True" if *resource* is enabled and available. The list of

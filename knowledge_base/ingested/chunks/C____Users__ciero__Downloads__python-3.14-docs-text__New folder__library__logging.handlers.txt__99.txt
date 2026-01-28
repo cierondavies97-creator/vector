@@ -1,0 +1,3 @@
+the syslog. If *facility* is not specified, "LOG_USER" is used. The
+   type of socket opened depends on the *socktype* argument, which
+   defaults to "socket.SOCK_DGRAM" and thus opens a UDP socket. To

@@ -1,0 +1,5 @@
+group.  The goal of the *cyclic garbage collector* is to identify
+   these groups and break the reference cycles so that the memory can
+   be reclaimed.
+data race
+   A situation where multiple threads access the same memory location

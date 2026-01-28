@@ -1,0 +1,4 @@
+Each file named in *files* or "knownfiles" takes precedence over
+   those named before it.  Calling "init()" repeatedly is allowed.
+   Specifying an empty list for *files* will prevent the system
+   defaults from being applied: only the well-known values will be

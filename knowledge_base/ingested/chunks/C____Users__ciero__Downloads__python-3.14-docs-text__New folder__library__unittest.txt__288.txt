@@ -1,0 +1,5 @@
+fatal errors are also indicated by a synthetic test that will
+      raise the original error when run.
+      Added in version 3.5.
+   "TestLoader" objects have the following methods:
+   loadTestsFromTestCase(testCaseClass)

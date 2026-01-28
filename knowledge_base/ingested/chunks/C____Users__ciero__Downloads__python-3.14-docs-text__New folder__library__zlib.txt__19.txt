@@ -1,0 +1,4 @@
+"Z_RLE" and "Z_FIXED".
+   *zdict* is a predefined compression dictionary. This is a sequence
+   of bytes (such as a "bytes" object) containing subsequences that
+   are expected to occur frequently in the data that is to be

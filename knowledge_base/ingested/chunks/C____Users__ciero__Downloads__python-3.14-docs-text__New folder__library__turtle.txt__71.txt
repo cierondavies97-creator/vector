@@ -1,0 +1,4 @@
+circle.  If *extent* is not a full circle, one endpoint of the arc
+   is the current pen position.  Draw the arc in counterclockwise
+   direction if *radius* is positive, otherwise in clockwise
+   direction.  Finally the direction of the turtle is changed by the

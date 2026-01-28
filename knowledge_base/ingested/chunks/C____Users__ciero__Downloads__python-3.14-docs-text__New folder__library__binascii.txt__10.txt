@@ -1,0 +1,5 @@
+3548**.
+   Changed in version 3.6: Added the *newline* parameter.
+binascii.a2b_qp(data, header=False)
+   Convert a block of quoted-printable data back to binary and return
+   the binary data. More than one line may be passed at a time. If the

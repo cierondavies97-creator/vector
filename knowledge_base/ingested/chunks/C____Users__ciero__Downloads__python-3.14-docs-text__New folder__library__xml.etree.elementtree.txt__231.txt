@@ -1,0 +1,3 @@
+in the data fed to the parser.  The iterator yields "(event,
+      elem)" pairs, where *event* is a string representing the type of
+      event (e.g. ""end"") and *elem* is the encountered "Element"

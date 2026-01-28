@@ -1,0 +1,9 @@
+returned by "os.stat()", "os.fstat()" or "os.lstat()".
+stat.ST_MODE
+   Inode protection mode.
+stat.ST_INO
+   Inode number.
+stat.ST_DEV
+   Device inode resides on.
+stat.ST_NLINK
+   Number of links to the inode.

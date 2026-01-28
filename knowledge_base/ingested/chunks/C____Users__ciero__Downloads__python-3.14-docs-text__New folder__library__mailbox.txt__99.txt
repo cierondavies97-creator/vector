@@ -1,0 +1,5 @@
+remove_folder(folder)
+      Delete the folder whose name is *folder*. If the folder contains
+      any messages, a "NotEmptyError" exception will be raised and the
+      folder will not be deleted.
+   get_sequences()

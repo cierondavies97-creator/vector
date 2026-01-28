@@ -1,0 +1,4 @@
+bytes.splitlines(keepends=False)
+bytearray.splitlines(keepends=False)
+   Return a list of the lines in the binary sequence, breaking at
+   ASCII line boundaries. This method uses the *universal newlines*

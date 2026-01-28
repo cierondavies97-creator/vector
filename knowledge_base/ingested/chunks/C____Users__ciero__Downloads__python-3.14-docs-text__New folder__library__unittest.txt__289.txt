@@ -1,0 +1,4 @@
+Return a suite of all test cases contained in the
+      "TestCase"-derived "testCaseClass".
+      A test case instance is created for each method named by
+      "getTestCaseNames()". By default these are the method names

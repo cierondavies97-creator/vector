@@ -1,0 +1,5 @@
+return, form feed, horizontal tab, vertical tab.
+curses.ascii.isupper(c)
+   Checks for an ASCII uppercase letter.
+curses.ascii.isxdigit(c)
+   Checks for an ASCII hexadecimal digit.  This is equivalent to "c in

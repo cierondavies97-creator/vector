@@ -1,0 +1,4 @@
+* the application requires some other command line parameter
+  processing behavior which "argparse" does not support, but which can
+  be implemented in terms of the lower level interface offered by
+  "optparse"

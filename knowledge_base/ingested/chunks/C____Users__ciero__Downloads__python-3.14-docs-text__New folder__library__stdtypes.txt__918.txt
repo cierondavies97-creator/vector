@@ -1,0 +1,3 @@
+that can convert a string to a binary integer or a binary integer to a
+string in linear time, *unless* the base is a power of 2. Even the
+best known algorithms for base 10 have sub-quadratic complexity.

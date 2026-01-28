@@ -1,0 +1,6 @@
+>>> # After the PDT -> PST transition
+   >>> print((dt_utc + timedelta(hours=1)).astimezone(LOS_ANGELES))
+   2020-11-01 01:00:00-08:00
+Data sources
+============
+The "zoneinfo" module does not directly provide time zone data, and

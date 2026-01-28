@@ -1,0 +1,3 @@
+have various capabilities: it can be read-only, write-only, or read-
+write. It can also allow arbitrary random access (seeking forwards or
+backwards to any location), or only sequential access (for example in

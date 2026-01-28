@@ -1,0 +1,3 @@
++---------+-------------------------------------+---------------------------------------------------------------------------------+
+In order to preserve backwards compatibility, enum values are also
+present in the "http.client" module in the form of constants. The enum

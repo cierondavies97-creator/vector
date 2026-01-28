@@ -1,0 +1,4 @@
+least 5 workers for I/O bound tasks. It utilizes at most 32 CPU
+   cores for CPU bound tasks which release the GIL. And it avoids
+   using very large resources implicitly on many-core
+   machines.ThreadPoolExecutor now reuses idle worker threads before

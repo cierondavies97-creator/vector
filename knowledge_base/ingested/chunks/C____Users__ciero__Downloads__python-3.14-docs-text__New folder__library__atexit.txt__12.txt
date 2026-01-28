@@ -1,0 +1,8 @@
+matching identities.
+See also:
+  Module "readline"
+     Useful example of "atexit" to read and write "readline" history
+     files.
+"atexit" Example
+================
+The following simple example demonstrates how a module can initialize

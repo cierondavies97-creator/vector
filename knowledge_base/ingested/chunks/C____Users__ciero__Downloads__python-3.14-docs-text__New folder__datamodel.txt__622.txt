@@ -1,0 +1,5 @@
+3.4.2. Coroutine Objects
+------------------------
+*Coroutine objects* are *awaitable* objects. A coroutine's execution
+can be controlled by calling "__await__()" and iterating over the
+result.  When the coroutine has finished executing and returns, the

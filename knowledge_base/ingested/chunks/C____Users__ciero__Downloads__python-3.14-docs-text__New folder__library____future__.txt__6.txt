@@ -1,0 +1,3 @@
+way into the language using this mechanism:
++---------------------------+---------------------------+---------------------------+---------------------------+
+| feature                   | optional in               | mandatory in              | effect                    |

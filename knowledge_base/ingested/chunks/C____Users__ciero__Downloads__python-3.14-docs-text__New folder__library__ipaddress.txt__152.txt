@@ -1,0 +1,6 @@
+*obj* is either a network or address object.
+Custom Exceptions
+=================
+To support more specific error reporting from class constructors, the
+module defines the following exceptions:
+exception ipaddress.AddressValueError(ValueError)

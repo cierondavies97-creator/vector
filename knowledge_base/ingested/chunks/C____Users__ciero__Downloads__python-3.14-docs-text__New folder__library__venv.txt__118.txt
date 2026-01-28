@@ -1,0 +1,4 @@
+'the platform.')
+       parser.add_argument('--clear', default=False, action='store_true',
+                           dest='clear', help='Delete the contents of the '
+                                              'virtual environment '

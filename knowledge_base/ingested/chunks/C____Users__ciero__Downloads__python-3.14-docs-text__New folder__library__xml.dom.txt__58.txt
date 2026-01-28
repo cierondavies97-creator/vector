@@ -1,0 +1,3 @@
+would get here from another property such as the "tagName" property
+   for elements or the "name" property for attributes. For all node
+   types, the value of this attribute will be either a string or

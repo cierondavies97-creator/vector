@@ -1,0 +1,6 @@
+it will be raised in "__fspath__()".
+EnvironmentVarGuard.set(envvar, value)
+   Temporarily set the environment variable "envvar" to the value of
+   "value".
+EnvironmentVarGuard.unset(envvar, *others)
+   Temporarily unset one or more environment variables.

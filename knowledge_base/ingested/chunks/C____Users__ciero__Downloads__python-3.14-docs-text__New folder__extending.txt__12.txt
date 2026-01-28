@@ -1,0 +1,5 @@
+or "PY", except those defined in standard header files.
+Tip:
+  For backward compatibility, "Python.h" includes several standard
+  header files. C extensions should include the standard headers that
+  they use, and should not rely on these implicit includes. If using

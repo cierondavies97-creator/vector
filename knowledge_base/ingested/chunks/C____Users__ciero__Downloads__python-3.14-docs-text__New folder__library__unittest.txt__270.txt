@@ -1,0 +1,3 @@
+This class implements the portion of the "TestCase" interface which
+   allows the test runner to drive the test, but does not provide the
+   methods which test code can use to check and report errors.  This

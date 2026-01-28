@@ -1,0 +1,5 @@
+"deque" objects
+===============
+class collections.deque([iterable[, maxlen]])
+   Returns a new deque object initialized left-to-right (using
+   "append()") with data from *iterable*.  If *iterable* is not

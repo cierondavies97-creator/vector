@@ -1,0 +1,6 @@
+>>> d = {'a': 1}
+         >>> d.values() == d.values()
+         False
+   d | other
+      Create a new dictionary with the merged keys and values of *d*
+      and *other*, which must both be dictionaries. The values of

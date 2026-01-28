@@ -1,0 +1,3 @@
+Return a copy of the sequence where all ASCII tab characters are
+   replaced by one or more ASCII spaces, depending on the current
+   column and the given tab size.  Tab positions occur every *tabsize*

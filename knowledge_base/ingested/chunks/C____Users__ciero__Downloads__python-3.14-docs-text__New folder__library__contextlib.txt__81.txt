@@ -1,0 +1,5 @@
+callback stack.
+      By returning true values, these callbacks can suppress
+      exceptions the same way context manager "__exit__()" methods
+      can.
+      The passed in object is returned from the function, allowing

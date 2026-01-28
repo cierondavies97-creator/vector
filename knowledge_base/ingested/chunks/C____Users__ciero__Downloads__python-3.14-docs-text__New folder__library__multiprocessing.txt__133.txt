@@ -1,0 +1,4 @@
+it has not used "JoinableQueue.cancel_join_thread"), then that
+  process will not terminate until all buffered items have been
+  flushed to the pipe.This means that if you try joining that process
+  you may get a deadlock unless you are sure that all items which have

@@ -1,0 +1,4 @@
+At least one of the file descriptors must refer to a pipe. If
+   *offset_src* is "None", then *src* is read from the current
+   position; respectively for *offset_dst*. The offset associated to
+   the file descriptor that refers to a pipe must be "None". The files

@@ -1,0 +1,5 @@
+Added in version 3.3.
+socket.CMSG_SPACE(length)
+   Return the buffer size needed for "recvmsg()" to receive an
+   ancillary data item with associated data of the given *length*,
+   along with any trailing padding.  The buffer space needed to

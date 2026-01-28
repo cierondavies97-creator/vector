@@ -1,0 +1,4 @@
+removed. For "urlsplit()" and "urlparse()" results, all noted
+   changes will be made to the URL returned by this method.
+   The result of this method remains unchanged if passed back through
+   the original parsing function:

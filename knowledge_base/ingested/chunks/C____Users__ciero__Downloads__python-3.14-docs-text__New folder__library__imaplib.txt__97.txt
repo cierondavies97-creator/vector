@@ -1,0 +1,6 @@
+IMAP4 Example
+=============
+Here is a minimal example (without error checking) that opens a
+mailbox and retrieves and prints all messages:
+   import getpass, imaplib
+   M = imaplib.IMAP4(host='example.org')

@@ -1,0 +1,7 @@
+>>> C = cookies.SimpleCookie()
+   >>> C["oreo"] = "doublestuff"
+   >>> C["oreo"]["path"] = "/"
+   >>> print(C)
+   Set-Cookie: oreo=doublestuff; Path=/
+   >>> C = cookies.SimpleCookie()
+   >>> C["twix"] = "none for you"

@@ -1,0 +1,4 @@
+"RequestHandlerClass".  If desired, this function can create a
+      new process or thread to handle the request; the "ForkingMixIn"
+      and "ThreadingMixIn" classes do this.
+   server_activate()

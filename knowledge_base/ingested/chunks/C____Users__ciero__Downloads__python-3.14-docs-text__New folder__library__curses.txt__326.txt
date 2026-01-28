@@ -1,0 +1,3 @@
+Draw a rectangle.  The first argument must be a window object; the
+   remaining arguments are coordinates relative to that window.  The
+   second and third arguments are the y and x coordinates of the upper

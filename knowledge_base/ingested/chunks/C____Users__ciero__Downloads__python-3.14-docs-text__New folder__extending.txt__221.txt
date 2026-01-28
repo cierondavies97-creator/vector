@@ -1,0 +1,4 @@
+encourage you to specify a name.  Properly named Capsules provide a
+degree of runtime type-safety; there is no feasible way to tell one
+unnamed Capsule from another.
+In particular, Capsules used to expose C APIs should be given a name

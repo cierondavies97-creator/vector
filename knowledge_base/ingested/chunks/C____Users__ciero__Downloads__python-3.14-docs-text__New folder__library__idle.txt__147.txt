@@ -1,0 +1,4 @@
+b.pack()".  Again, nothing visibly changes in standard Python until
+one enters "root.update()".
+Most tkinter programs run "root.mainloop()", which usually does not
+return until the tk app is destroyed.  If the program is run with

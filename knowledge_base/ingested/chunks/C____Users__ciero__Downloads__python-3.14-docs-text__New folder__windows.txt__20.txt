@@ -1,0 +1,3 @@
+all, the current latest release will be installed automatically.
+For all scenarios involving multiple runtime versions, the recommended
+command is "py". This may be used anywhere in place of "python" or the

@@ -1,0 +1,4 @@
+method is passed to the descriptor's "__set__()" method rather than
+  overwriting the descriptor object.
+* Similarly, when getting or setting the field, the descriptor's
+  "__get__()" or "__set__()" method is called rather than returning or

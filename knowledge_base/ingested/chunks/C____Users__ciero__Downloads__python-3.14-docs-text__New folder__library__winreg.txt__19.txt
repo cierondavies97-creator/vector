@@ -1,0 +1,4 @@
+the desired security access for the key.  Default is
+   "KEY_WOW64_64KEY". On 32-bit Windows, the WOW64 constants are
+   ignored. See Access Rights for other allowed values.
+   *This method can not delete keys with subkeys.*

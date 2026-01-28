@@ -1,0 +1,7 @@
+tarfile.ENCODING
+   The default character encoding: "'utf-8'" on Windows, the value
+   returned by "sys.getfilesystemencoding()" otherwise.
+tarfile.REGTYPE
+tarfile.AREGTYPE
+   A regular file "type".
+tarfile.LNKTYPE

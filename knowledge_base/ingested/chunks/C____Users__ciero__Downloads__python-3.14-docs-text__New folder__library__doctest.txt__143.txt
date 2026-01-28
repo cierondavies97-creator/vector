@@ -1,0 +1,4 @@
+Optional arguments *extraglobs*, *verbose*, *report*,
+   *optionflags*, *raise_on_error*, and *globs* are the same as for
+   function "testfile()" above, except that *globs* defaults to
+   "m.__dict__".

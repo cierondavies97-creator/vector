@@ -1,0 +1,3 @@
++------------------+---------------------------+-------------------------------------------------+
+| message          | "%(message)s"             | The logged message, computed as "msg % args".   |
+|                  |                           | This is set when "Formatter.format()" is        |

@@ -1,0 +1,4 @@
+to 0, meaning that no ancillary data will be received.  Appropriate
+   buffer sizes for ancillary data can be calculated using
+   "CMSG_SPACE()" or "CMSG_LEN()", and items which do not fit into the
+   buffer might be truncated or discarded.  The *flags* argument

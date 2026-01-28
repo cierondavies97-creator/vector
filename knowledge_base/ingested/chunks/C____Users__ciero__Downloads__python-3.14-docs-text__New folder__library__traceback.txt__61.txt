@@ -1,0 +1,6 @@
+depth.
+      Changed in version 3.11: The exception's "notes" are now
+      included in the output.
+      Changed in version 3.13: Added the *show_group* parameter.
+"StackSummary" Objects
+======================

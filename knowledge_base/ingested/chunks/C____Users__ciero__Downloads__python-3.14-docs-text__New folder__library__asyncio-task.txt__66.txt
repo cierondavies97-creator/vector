@@ -1,0 +1,6 @@
+if (loop.time() + 1.0) >= end_time:
+                  break
+              await asyncio.sleep(1)
+      asyncio.run(display_date())
+   Changed in version 3.10: Removed the *loop* parameter.
+   Changed in version 3.13: Raises "ValueError" if *delay* is "nan".

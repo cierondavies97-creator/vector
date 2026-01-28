@@ -1,0 +1,4 @@
+Suspend or resume input or output on file descriptor *fd*.  The
+   *action* argument can be "TCOOFF" to suspend output, "TCOON" to
+   restart output, "TCIOFF" to suspend input, or "TCION" to restart
+   input.

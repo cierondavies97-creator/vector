@@ -1,0 +1,4 @@
+Open a bzip2-compressed file in binary mode.
+   If *filename* is a "str" or "bytes" object, open the named file
+   directly. Otherwise, *filename* should be a *file object*, which
+   will be used to read or write the compressed data.

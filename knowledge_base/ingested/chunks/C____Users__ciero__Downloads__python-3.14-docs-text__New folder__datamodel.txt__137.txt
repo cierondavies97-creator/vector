@@ -1,0 +1,4 @@
+system. When a module is created using the machinery associated with
+the import system, these attributes are filled in based on the
+module's *spec*, before the *loader* executes and loads the module.
+To create a module dynamically rather than using the import system,

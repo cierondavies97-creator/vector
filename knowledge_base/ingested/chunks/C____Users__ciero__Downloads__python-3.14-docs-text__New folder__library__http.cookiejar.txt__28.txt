@@ -1,0 +1,4 @@
+Changed in version 3.3: *request* object needs "origin_req_host"
+   attribute. Dependency on a deprecated method
+   "get_origin_req_host()" has been removed.
+CookieJar.extract_cookies(response, request)

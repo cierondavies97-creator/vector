@@ -1,0 +1,4 @@
+with earlier versions of Python.
+* Protocol version 2 was introduced in Python 2.3.  It provides much
+  more efficient pickling of *new-style classes*.  Refer to **PEP
+  307** for information about improvements brought by protocol 2.

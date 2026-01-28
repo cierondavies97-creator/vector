@@ -1,0 +1,2 @@
+|                                                    | from the MSI, all at once. They are all compatible |
+|                                                    | and will share configuration and runtimes.         |

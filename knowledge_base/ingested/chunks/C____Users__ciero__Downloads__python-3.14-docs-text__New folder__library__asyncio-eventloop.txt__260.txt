@@ -1,0 +1,9 @@
+try:
+       loop.run_forever()
+   finally:
+       loop.close()
+See also:
+  A similar current date example created with a coroutine and the
+  "run()" function.
+Watch a file descriptor for read events
+---------------------------------------

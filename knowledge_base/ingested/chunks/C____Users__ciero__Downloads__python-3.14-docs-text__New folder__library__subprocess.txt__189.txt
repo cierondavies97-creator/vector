@@ -1,0 +1,3 @@
+dropping a malicious program named "cmd.exe" into a current
+   directory no longer works.
+subprocess.check_call(args, *, stdin=None, stdout=None, stderr=None, shell=False, cwd=None, timeout=None, **other_popen_kwargs)

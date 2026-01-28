@@ -1,0 +1,8 @@
+>>> p = PurePosixPath('.')
+      >>> p.parent
+      PurePosixPath('.')
+   Note:
+     This is a purely lexical operation, hence the following
+     behaviour:
+        >>> p = PurePosixPath('foo/..')
+        >>> p.parent

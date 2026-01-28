@@ -1,0 +1,4 @@
+and global execution context.  If not specified, or "None", an
+   empty dictionary is used. If specified, a shallow copy of the
+   dictionary is used.
+The "DebugRunner" class, and the special exceptions it may raise, are

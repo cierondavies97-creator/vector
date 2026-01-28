@@ -1,0 +1,5 @@
+handler) may on rare occasions put the program in an unexpected state.
+To illustrate this issue, consider the following code:
+   class SpamContext:
+       def __init__(self):
+           self.lock = threading.Lock()

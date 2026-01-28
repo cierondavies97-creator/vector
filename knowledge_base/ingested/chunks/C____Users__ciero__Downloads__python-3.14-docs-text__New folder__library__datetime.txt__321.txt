@@ -1,0 +1,4 @@
+The default implementation of "tzname()" raises
+   "NotImplementedError".
+These methods are called by a "datetime" or "time" object, in response
+to their methods of the same names. A "datetime" object passes itself

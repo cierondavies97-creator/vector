@@ -1,0 +1,3 @@
+iterator raises "StopIteration", and the exception's "value" attribute
+holds the return value.  If the coroutine raises an exception, it is
+propagated by the iterator.  Coroutines should not directly raise

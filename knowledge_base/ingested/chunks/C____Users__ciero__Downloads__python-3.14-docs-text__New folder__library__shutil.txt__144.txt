@@ -1,0 +1,4 @@
+For each of the two dimensions, the environment variable, "COLUMNS"
+   and "LINES" respectively, is checked. If the variable is defined
+   and the value is a positive integer, it is used.
+   When "COLUMNS" or "LINES" is not defined, which is the common case,

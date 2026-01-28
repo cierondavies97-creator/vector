@@ -1,0 +1,3 @@
+replacement is bytes, the encoder will simply copy them into the
+   output buffer. If the replacement is a string, the encoder will
+   encode the replacement. Encoding continues on original input at the

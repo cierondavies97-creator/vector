@@ -1,0 +1,5 @@
+to prefer trusted certificates when building the trust chain to
+   validate a certificate. This flag is enabled by default.
+   Added in version 3.4.4.
+ssl.VERIFY_X509_PARTIAL_CHAIN
+   Possible value for "SSLContext.verify_flags". It instructs OpenSSL

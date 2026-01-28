@@ -1,0 +1,3 @@
+values make the class print debugging messages about what it's
+   doing. *excludes* is a list of module names to exclude from the
+   analysis. *replace_paths* is a list of "(oldpath, newpath)" tuples

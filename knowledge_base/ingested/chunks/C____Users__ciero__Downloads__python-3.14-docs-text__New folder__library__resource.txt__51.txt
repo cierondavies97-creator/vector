@@ -1,0 +1,6 @@
+same as the hardware page size.)
+The following "RUSAGE_*" symbols are passed to the "getrusage()"
+function to specify which processes information should be provided
+for.
+resource.RUSAGE_SELF
+   Pass to "getrusage()" to request resources consumed by the calling

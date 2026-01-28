@@ -1,0 +1,6 @@
+Pre-built distributions of the free-threaded build are available by
+installing tags with the "t" suffix.
+   $> py install 3.14t
+   $> py install 3.14t-arm64
+   $> py install 3.14t-32
+This will install and register as normal. If you have no other

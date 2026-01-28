@@ -1,0 +1,4 @@
+that are not yet defined when the annotation is encountered. In
+addition, there were performance problems with executing annotations
+at module import time. Therefore, in Python 3.7, **PEP 563**
+introduced the ability to store annotations as strings using the "from

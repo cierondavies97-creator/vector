@@ -1,0 +1,6 @@
+exception handler.
+   addFilter(filter)
+      Adds the specified filter *filter* to this logger.
+   removeFilter(filter)
+      Removes the specified filter *filter* from this logger.
+   filter(record)

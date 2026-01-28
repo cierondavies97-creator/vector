@@ -1,0 +1,5 @@
+file. *offset* defaults to 0.  *offset* must be a multiple of the
+   "ALLOCATIONGRANULARITY".
+   Raises an auditing event "mmap.__new__" with arguments "fileno",
+   "length", "access", "offset".
+class mmap.mmap(fileno, length, flags=MAP_SHARED, prot=PROT_WRITE | PROT_READ, access=ACCESS_DEFAULT, offset=0, *, trackfd=True)

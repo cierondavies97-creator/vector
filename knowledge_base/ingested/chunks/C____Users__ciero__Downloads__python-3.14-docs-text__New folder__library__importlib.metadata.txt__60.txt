@@ -1,0 +1,3 @@
+metadata for file system and zip file Distribution Packages. This
+metadata finder search defaults to "sys.path", but varies slightly in
+how it interprets those values from how other import machinery does.

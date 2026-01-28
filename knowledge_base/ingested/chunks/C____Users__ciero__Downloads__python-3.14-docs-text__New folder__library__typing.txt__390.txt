@@ -1,0 +1,5 @@
+See the TypedDict section in the typing documentation for more
+   examples and detailed rules.
+   Added in version 3.8.
+   Changed in version 3.9: "TypedDict" is now a function rather than a
+   class. It can still be used as a class base, as described above.

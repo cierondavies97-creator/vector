@@ -1,0 +1,6 @@
+count:
+            The number of members currently defined, not including
+            this one.
+         last_values:
+            A list of the previous values.
+      A *staticmethod* that is used to determine the next value

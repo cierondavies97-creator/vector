@@ -1,0 +1,4 @@
+effect of setting system-wide defaults.  Changing the fields after
+   threads have started is not recommended as it would require thread
+   synchronization to prevent race conditions.
+   In single threaded environments, it is preferable to not use this

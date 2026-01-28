@@ -1,0 +1,4 @@
+first argument is ignored in order to provide backwards
+   compatibility.
+   When *show_group* is "True", and the exception is an instance of
+   "BaseExceptionGroup", the nested exceptions are included as well,

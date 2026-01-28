@@ -1,0 +1,7 @@
+redirect was followed.
+   headers
+      Returns the headers of the response in the form of an
+      "EmailMessage" instance.
+   status
+      Added in version 3.9.
+      Status code returned by server.

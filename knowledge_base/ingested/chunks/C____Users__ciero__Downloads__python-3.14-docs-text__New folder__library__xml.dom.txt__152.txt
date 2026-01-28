@@ -1,0 +1,3 @@
+Python IDL compilers are not likely to work, and wrapper objects may
+be needed on the client if the DOM objects are accessed via CORBA.
+While this does require some additional consideration for CORBA DOM

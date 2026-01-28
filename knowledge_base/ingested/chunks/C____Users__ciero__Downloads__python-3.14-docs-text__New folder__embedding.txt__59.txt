@@ -1,0 +1,5 @@
+flags when linking:
+     $ /opt/bin/python3.11-config --ldflags --embed
+     -L/opt/lib/python3.11/config-3.11-x86_64-linux-gnu -L/opt/lib -lpython3.11 -lpthread -ldl  -lutil -lm
+Note:
+  To avoid confusion between several Python installations (and

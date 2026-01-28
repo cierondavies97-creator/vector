@@ -1,0 +1,3 @@
+borrowed. Using a borrowed reference after the owner has disposed of
+it risks using freed memory and should be avoided completely [3].
+The advantage of borrowing over owning a reference is that you don't

@@ -1,0 +1,3 @@
+used effectively in a "with" statement once. These single use context
+managers must be created afresh each time they're used - attempting to
+use them a second time will trigger an exception or otherwise not work

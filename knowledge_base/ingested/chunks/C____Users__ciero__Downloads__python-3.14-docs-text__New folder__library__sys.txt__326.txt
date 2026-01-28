@@ -1,0 +1,7 @@
+Availability: Linux.
+   Added in version 3.12.
+sys.is_stack_trampoline_active()
+   Return "True" if a stack profiler trampoline is active.
+   Availability: Linux.
+   Added in version 3.12.
+sys.remote_exec(pid, script)

@@ -1,0 +1,7 @@
+calculated ordered mapping of fields.  Because the fields are in
+insertion order, derived classes override base classes.  An example:
+   @dataclass
+   class Base:
+       x: Any = 15.0
+       y: int = 0
+   @dataclass

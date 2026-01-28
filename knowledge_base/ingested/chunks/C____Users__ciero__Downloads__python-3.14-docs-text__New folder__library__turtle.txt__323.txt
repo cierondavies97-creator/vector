@@ -1,0 +1,2 @@
+| "paint"                  | super minimalistic drawing     | "onclick()"                            |
+|                          | program                        |                                        |

@@ -1,0 +1,4 @@
+purposes, but should not be checked.  E.g., the example's output
+   might be random; or the example might depend on resources which
+   would be unavailable to the test driver.
+   The SKIP flag can also be used for temporarily "commenting out"

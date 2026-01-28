@@ -1,0 +1,5 @@
+function is marked as deterministic, which allows SQLite to
+           perform additional optimizations.
+      Changed in version 3.8: Added the *deterministic* parameter.
+      Example:
+         >>> import hashlib

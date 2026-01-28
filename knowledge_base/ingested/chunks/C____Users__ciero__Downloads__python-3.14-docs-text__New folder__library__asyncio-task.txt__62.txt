@@ -1,0 +1,11 @@
+except* TerminateTaskGroup:
+           pass
+   asyncio.run(main())
+Expected output:
+   Task 1: start
+   Task 2: start
+   Task 1: done
+Sleeping
+========
+async asyncio.sleep(delay, result=None)
+   Block for *delay* seconds.

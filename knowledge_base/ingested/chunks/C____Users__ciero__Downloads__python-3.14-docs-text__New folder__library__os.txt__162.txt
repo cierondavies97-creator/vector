@@ -1,0 +1,4 @@
+Changed in version 3.6: Accepts a *path-like object*.
+The following constants are options for the *flags* parameter to the
+"open()" function.  They can be combined using the bitwise OR operator
+"|".  Some of them are not available on all platforms.  For

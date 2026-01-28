@@ -1,0 +1,6 @@
+A panel stack extension that adds depth to  curses windows.
+  Module "curses.textpad"
+     Editable text widget for curses supporting  **Emacs**-like
+     bindings.
+  Curses Programming with Python
+     Tutorial material on using curses with Python, by Andrew Kuchling

@@ -1,0 +1,4 @@
+example, the following code creates a "Template" with a single
+      final string:
+      >>> from string.templatelib import Template
+      >>> template = Template('Ah! We do have ', 'Camembert', '.')

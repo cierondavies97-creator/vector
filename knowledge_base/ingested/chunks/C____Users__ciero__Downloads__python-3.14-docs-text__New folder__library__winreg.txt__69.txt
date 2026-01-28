@@ -1,0 +1,5 @@
+Raises an auditing event "winreg.SetValue" with arguments "key",
+   "sub_key", "type", "value".
+winreg.DisableReflectionKey(key)
+   Disables registry reflection for 32-bit processes running on a
+   64-bit operating system.

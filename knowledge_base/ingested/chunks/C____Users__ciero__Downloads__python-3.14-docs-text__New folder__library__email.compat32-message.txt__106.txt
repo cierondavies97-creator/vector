@@ -1,0 +1,4 @@
+*boundary*.  "set_boundary()" will always quote *boundary* if
+      necessary.  A "HeaderParseError" is raised if the message object
+      has no *Content-Type* header.
+      Note that using this method is subtly different than deleting

@@ -1,0 +1,3 @@
+specifies an infinite upper bound.  As an example, "a{4,}b" will
+   match "'aaaab'" or a thousand "'a'" characters followed by a "'b'",
+   but not "'aaab'". The comma may not be omitted or the modifier

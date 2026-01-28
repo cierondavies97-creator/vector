@@ -1,0 +1,3 @@
+"hook_compressed()" to support compressed files.
+The following function is the primary interface of this module:
+fileinput.input(files=None, inplace=False, backup='', *, mode='r', openhook=None, encoding=None, errors=None)

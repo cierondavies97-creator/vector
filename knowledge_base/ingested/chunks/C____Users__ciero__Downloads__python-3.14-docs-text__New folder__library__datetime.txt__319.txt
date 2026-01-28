@@ -1,0 +1,3 @@
+in particular. For example, ""GMT"", ""UTC"", ""-500"", ""-5:00"",
+   ""EDT"", ""US/Eastern"", ""America/New York"" are all valid
+   replies. Return "None" if a string name isn't known. Note that this

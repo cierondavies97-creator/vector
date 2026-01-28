@@ -1,0 +1,7 @@
+# Ignore the body, close the socket
+       writer.close()
+       await writer.wait_closed()
+   url = sys.argv[1]
+   asyncio.run(print_http_headers(url))
+Usage:
+   python example.py http://example.com/path/page.html

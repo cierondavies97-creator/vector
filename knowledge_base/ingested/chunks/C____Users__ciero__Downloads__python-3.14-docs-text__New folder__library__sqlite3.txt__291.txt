@@ -1,0 +1,5 @@
+def convert_point(s):
+       x, y = map(float, s.split(b";"))
+       return Point(x, y)
+We now need to tell "sqlite3" when it should convert a given SQLite
+value. This is done when connecting to a database, using the

@@ -1,0 +1,4 @@
+Added in version 3.11: Added "Path.suffixes" property.
+Path.read_text(*, **)
+   Read the current file as unicode text. Positional and keyword
+   arguments are passed through to "io.TextIOWrapper" (except

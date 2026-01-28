@@ -1,0 +1,4 @@
+bytes) the Zstandard dictionary should be. The Zstandard
+   documentation suggests an absolute maximum of no more than 100 KB,
+   but the maximum can often be smaller depending on the data. Larger
+   dictionaries generally slow down compression, but improve

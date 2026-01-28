@@ -1,0 +1,3 @@
+compatibility decomposition, followed by the canonical composition.
+   Even if two unicode strings are normalized and look the same to a
+   human reader, if one has combining characters and the other

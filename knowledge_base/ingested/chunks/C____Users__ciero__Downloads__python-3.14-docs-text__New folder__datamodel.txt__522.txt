@@ -1,0 +1,7 @@
+>>> Menu['SPAM']
+   <Menu.SPAM: 'spam'>
+   >>> type(Menu['SPAM'])
+   <enum 'Menu'>
+See also:
+  **PEP 560** - Core Support for typing module and generic types
+     Introducing "__class_getitem__()", and outlining when a

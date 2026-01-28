@@ -1,0 +1,3 @@
+spaces in them.  If *args* is a sequence, the first item specifies
+   the command string, and any additional items will be treated as
+   additional arguments to the shell itself.  That is to say, "Popen"

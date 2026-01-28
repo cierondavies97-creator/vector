@@ -1,0 +1,5 @@
+these, "action" is the most fundamental.
+Understanding option actions
+----------------------------
+Actions tell "optparse" what to do when it encounters an option on the
+command line.  There is a fixed set of actions hard-coded into

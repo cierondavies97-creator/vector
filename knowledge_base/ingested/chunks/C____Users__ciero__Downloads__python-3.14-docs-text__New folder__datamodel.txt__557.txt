@@ -1,0 +1,4 @@
+These methods are called to implement the binary arithmetic
+   operations ("+", "-", "*", "@", "/", "//", "%", "divmod()",
+   "pow()", "**", "<<", ">>", "&", "^", "|").  For instance, to
+   evaluate the expression "x + y", where *x* is an instance of a

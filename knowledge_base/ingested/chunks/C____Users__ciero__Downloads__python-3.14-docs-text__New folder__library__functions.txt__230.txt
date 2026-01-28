@@ -1,0 +1,4 @@
+registered with "codecs.register_error()" is also valid.  The
+   standard names include:
+   * "'strict'" to raise a "ValueError" exception if there is an
+     encoding error.  The default value of "None" has the same effect.

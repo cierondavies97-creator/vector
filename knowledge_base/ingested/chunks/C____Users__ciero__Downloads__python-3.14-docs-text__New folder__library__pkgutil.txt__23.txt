@@ -1,0 +1,4 @@
+relative filename, using "/" as the path separator.  The parent
+   directory name ".." is not allowed, and nor is a rooted name
+   (starting with a "/").
+   The function returns a binary string that is the contents of the

@@ -1,0 +1,6 @@
+for the existence of the files.
+@test.support.os_helper.skip_unless_symlink
+   A decorator for running tests that require support for symbolic
+   links.
+@test.support.os_helper.skip_unless_xattr
+   A decorator for running tests that require support for xattr.

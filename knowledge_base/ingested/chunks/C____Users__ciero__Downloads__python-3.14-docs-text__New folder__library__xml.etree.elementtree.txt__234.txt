@@ -1,0 +1,5 @@
+only when they are retrieved from the iterator, so multiple
+      readers iterating in parallel over iterators obtained from
+      "read_events()" will have unpredictable results.
+   Note:
+     "XMLPullParser" only guarantees that it has seen the ">"

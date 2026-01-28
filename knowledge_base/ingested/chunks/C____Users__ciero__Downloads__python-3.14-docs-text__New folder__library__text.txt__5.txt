@@ -1,0 +1,8 @@
+* Raw String Notation
+    * Writing a Tokenizer
+* "difflib" --- Helpers for computing deltas
+  * SequenceMatcher Objects
+  * SequenceMatcher Examples
+  * Differ Objects
+  * Differ Example
+  * A command-line interface to difflib

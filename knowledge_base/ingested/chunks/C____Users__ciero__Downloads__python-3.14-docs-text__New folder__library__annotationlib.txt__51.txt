@@ -1,0 +1,5 @@
+* "typing.TypeVar.evaluate_constraints()", the constraints of type
+     variables
+   * "typing.TypeVar.evaluate_default()", the default value of type
+     variables
+   * "typing.ParamSpec.evaluate_default()", the default value of

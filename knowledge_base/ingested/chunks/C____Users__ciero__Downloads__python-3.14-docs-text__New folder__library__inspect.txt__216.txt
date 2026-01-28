@@ -1,0 +1,7 @@
+optional formatting functions that are called to turn names and
+   values into strings.
+   Note:
+     This function was inadvertently marked as deprecated in Python
+     3.5.
+inspect.getmro(cls)
+   Return a tuple of class cls's base classes, including cls, in

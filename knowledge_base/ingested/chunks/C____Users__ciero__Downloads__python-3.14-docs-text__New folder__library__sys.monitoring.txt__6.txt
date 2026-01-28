@@ -1,0 +1,6 @@
+in use.
+sys.monitoring.clear_tool_id(tool_id: int, /) -> None
+   Unregister all events and callback functions associated with
+   *tool_id*.
+sys.monitoring.free_tool_id(tool_id: int, /) -> None
+   Should be called once a tool no longer requires *tool_id*. Will

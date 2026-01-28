@@ -1,0 +1,5 @@
+providing a "__bool__()" method.
+The operator "not" yields "True" if its argument is false, "False"
+otherwise.
+The expression "x and y" first evaluates *x*; if *x* is false, its
+value is returned; otherwise, *y* is evaluated and the resulting value

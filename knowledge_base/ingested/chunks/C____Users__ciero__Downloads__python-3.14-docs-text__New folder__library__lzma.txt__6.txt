@@ -1,0 +1,4 @@
+Open an LZMA-compressed file in binary or text mode, returning a
+   *file object*.
+   The *filename* argument can be either an actual file name (given as
+   a "str", "bytes" or *path-like* object), in which case the named

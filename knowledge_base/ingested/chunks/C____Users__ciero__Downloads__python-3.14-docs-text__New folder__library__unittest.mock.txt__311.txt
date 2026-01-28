@@ -1,0 +1,8 @@
+"side_effect" attribute, unless you change their return value to
+return something else:
+   >>> MagicMock() == 3
+   False
+   >>> MagicMock() != 3
+   True
+   >>> mock = MagicMock()
+   >>> mock.__eq__.return_value = True

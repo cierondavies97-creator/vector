@@ -1,0 +1,6 @@
+...     print('created temporary directory', tmpdirname)
+   >>>
+   # directory and contents have been removed
+Deprecated functions and variables
+==================================
+A historical way to create temporary files was to first generate a

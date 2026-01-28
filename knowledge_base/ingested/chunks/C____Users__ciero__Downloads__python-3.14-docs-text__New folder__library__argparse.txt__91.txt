@@ -1,0 +1,4 @@
+versions and want to opportunistically use "suggest_on_error" when
+it's available, you can set it as an attribute after initializing the
+parser instead of using the keyword argument:
+   >>> parser = argparse.ArgumentParser(description='Process some integers.')

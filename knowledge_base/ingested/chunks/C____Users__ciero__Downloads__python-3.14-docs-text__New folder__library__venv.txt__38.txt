@@ -1,0 +1,4 @@
+in the environment should be runnable without activating it.
+In order to achieve this, scripts installed into virtual environments
+have a "shebang" line which points to the environment's Python
+interpreter, "#!/*<path-to-venv>*/bin/python". This means that the

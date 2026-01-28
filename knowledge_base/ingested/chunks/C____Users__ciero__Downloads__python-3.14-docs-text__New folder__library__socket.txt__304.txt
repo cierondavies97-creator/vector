@@ -1,0 +1,7 @@
+Added in version 3.5.
+socket.set_inheritable(inheritable)
+   Set the inheritable flag of the socket's file descriptor or
+   socket's handle.
+   Added in version 3.4.
+socket.setblocking(flag)
+   Set blocking or non-blocking mode of the socket: if *flag* is

@@ -1,0 +1,6 @@
+The file is a firmlink (macOS 10.15+)
+   Added in version 3.13.
+stat.SF_DATALESS
+   The file is a dataless object (macOS 10.15+)
+   Added in version 3.13.
+See the *BSD or macOS systems man page *chflags(2)* for more

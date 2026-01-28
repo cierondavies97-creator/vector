@@ -1,0 +1,5 @@
+the constructor:
+      >>> from string.templatelib import Interpolation, Template
+      >>> cheese = 'Camembert'
+      >>> template = Template(
+      ...     'Ah! We do have ', Interpolation(cheese, 'cheese'), '.'

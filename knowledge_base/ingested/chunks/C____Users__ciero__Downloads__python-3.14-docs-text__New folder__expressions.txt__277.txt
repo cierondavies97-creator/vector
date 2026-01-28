@@ -1,0 +1,4 @@
+rather than *x*. If *C* is true, *x* is evaluated and its value is
+returned; otherwise, *y* is evaluated and its value is returned.
+See **PEP 308** for more details about conditional expressions.
+6.14. Lambdas

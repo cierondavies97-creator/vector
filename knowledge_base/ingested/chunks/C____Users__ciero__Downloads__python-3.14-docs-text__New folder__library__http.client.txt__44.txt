@@ -1,0 +1,3 @@
+Encoding are set in *headers*, file and iterable *body* objects are
+   now chunk-encoded. The *encode_chunked* argument was added. No
+   attempt is made to determine the Content-Length for file objects.

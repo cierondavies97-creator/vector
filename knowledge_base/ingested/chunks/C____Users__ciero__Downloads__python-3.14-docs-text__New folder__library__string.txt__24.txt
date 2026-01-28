@@ -1,0 +1,3 @@
+arguments to this function is the set of all argument keys that
+      were actually referred to in the format string (integers for
+      positional arguments, and strings for named arguments), and a

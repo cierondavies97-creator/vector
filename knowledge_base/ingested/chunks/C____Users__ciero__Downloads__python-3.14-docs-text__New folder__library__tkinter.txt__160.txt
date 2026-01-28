@@ -1,0 +1,6 @@
+which means that matches for menu items labelled "last",
+     "active", or "none" may be interpreted as the above literals,
+     instead.
+Images
+------
+Images of different formats can be created through the corresponding

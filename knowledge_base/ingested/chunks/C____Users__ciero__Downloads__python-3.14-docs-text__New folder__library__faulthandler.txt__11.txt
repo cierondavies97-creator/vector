@@ -1,0 +1,6 @@
+of a dumped C stack.
+C Stack Compatibility
+---------------------
+If the system does not support the C-level *backtrace(3)* or
+*dladdr1(3)*, then C stack dumps will not work. An error will be
+printed instead of the stack.

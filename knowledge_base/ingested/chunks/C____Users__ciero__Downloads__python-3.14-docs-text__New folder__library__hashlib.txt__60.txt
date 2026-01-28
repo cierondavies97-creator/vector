@@ -1,0 +1,5 @@
++---------+-------------+----------+-----------+-------------+
+Note:
+  BLAKE2 specification defines constant lengths for salt and
+  personalization parameters, however, for convenience, this
+  implementation accepts byte strings of any size up to the specified

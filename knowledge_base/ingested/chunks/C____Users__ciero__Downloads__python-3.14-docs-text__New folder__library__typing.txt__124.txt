@@ -1,0 +1,7 @@
+cases above that generate type checker errors could be vulnerable
+   to an SQL injection attack.
+   See **PEP 675** for more details.
+   Added in version 3.11.
+typing.Never
+typing.NoReturn
+   "Never" and "NoReturn" represent the bottom type, a type that has

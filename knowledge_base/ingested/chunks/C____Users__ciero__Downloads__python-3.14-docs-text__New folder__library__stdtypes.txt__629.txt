@@ -1,0 +1,6 @@
+...
+      >>> titlecase(b"they're bill's friends.")
+      b"They're Bill's Friends."
+   Note:
+     The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.

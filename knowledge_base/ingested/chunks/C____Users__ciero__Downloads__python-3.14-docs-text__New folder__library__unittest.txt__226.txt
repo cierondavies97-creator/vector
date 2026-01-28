@@ -1,0 +1,5 @@
+are of the wrong type. These methods are used by default when
+      comparing lists or tuples with "assertEqual()".
+      Added in version 3.1.
+   assertSetEqual(first, second, msg=None)
+      Tests that two sets are equal.  If not, an error message is

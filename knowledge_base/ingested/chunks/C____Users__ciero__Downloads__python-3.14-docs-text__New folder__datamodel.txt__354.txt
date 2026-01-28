@@ -1,0 +1,4 @@
+should look like a valid Python expression that could be used to
+   recreate an object with the same value (given an appropriate
+   environment).  If this is not possible, a string of the form
+   "<...some useful description...>" should be returned. The return

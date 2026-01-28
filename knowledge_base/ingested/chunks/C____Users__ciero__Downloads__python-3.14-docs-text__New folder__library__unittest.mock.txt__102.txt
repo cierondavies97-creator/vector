@@ -1,0 +1,5 @@
+calls are made, the parameters of ancestor calls are not
+        recorded and so will always compare equal:
+        >>> mock = MagicMock()
+        >>> mock.top(a=3).bottom()
+        <MagicMock name='mock.top().bottom()' id='...'>

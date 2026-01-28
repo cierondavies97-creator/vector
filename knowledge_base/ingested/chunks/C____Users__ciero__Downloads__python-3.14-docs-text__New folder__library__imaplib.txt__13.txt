@@ -1,0 +1,4 @@
+object which allows bundling SSL configuration options,
+   certificates and private keys into a single (potentially long-
+   lived) structure.  Please read Security considerations for best
+   practices.

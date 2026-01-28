@@ -1,0 +1,5 @@
+position.  With optional *end*, stop comparing at that position.
+   The suffix(es) to search for may be any *bytes-like object*.
+bytes.find(sub[, start[, end]])
+bytearray.find(sub[, start[, end]])
+   Return the lowest index in the data where the subsequence *sub* is

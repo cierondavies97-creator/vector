@@ -1,0 +1,5 @@
+By John Ousterhout, inventor of Tcl/Tk, and Ken Jones; does not
+       cover Tkinter. (ISBN 978-0321336330)
+Architecture
+============
+Tcl/Tk is not a single library but rather consists of a few distinct

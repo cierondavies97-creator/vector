@@ -1,0 +1,4 @@
+the three new methods above, the msg attribute contains the same
+   information as the "reason" attribute --- the reason phrase
+   returned by server --- instead of the response headers as it is
+   specified in the documentation for "HTTPResponse".

@@ -1,0 +1,5 @@
+"inspect.get_annotations" will continue to work.
+The interpreter stack
+=====================
+Some of the following functions return "FrameInfo" objects. For
+backwards compatibility these objects allow tuple-like operations on

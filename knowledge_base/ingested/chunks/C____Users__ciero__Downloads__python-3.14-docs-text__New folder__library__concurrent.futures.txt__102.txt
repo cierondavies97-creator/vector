@@ -1,0 +1,5 @@
+Module Functions
+================
+concurrent.futures.wait(fs, timeout=None, return_when=ALL_COMPLETED)
+   Wait for the "Future" instances (possibly created by different
+   "Executor" instances) given by *fs* to complete. Duplicate futures

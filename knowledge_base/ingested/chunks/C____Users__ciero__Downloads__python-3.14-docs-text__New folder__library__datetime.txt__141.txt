@@ -1,0 +1,4 @@
+supported by the platform C "localtime()" or "gmtime()" functions.
+   Raise "OSError" instead of "ValueError" on "localtime()" or
+   "gmtime()" failure.
+   Changed in version 3.6: "fromtimestamp()" may return instances with

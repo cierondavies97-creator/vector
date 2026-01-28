@@ -1,0 +1,5 @@
+See also: The *timerfd_create(2)* man page.
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.timerfd_settime(fd, /, *, flags=flags, initial=0.0, interval=0.0)
+   Alter a timer file descriptor's internal timer. This function

@@ -1,0 +1,4 @@
+Has two optional arguments which must be specified as keyword
+   arguments.
+   *key* specifies a function of one argument that is used to extract
+   a comparison key from each element in *iterable* (for example,

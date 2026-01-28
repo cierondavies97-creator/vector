@@ -1,0 +1,3 @@
+that should be used to decode a Python source file. It requires one
+   argument, readline, in the same way as the "tokenize()" generator.
+   It will call readline a maximum of twice, and return the encoding

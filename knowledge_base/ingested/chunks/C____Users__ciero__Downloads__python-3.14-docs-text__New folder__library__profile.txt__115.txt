@@ -1,0 +1,4 @@
+pr.bias = your_computed_bias
+   # 3. Specify computed bias in instance constructor.
+   pr = profile.Profile(bias=your_computed_bias)
+If you have a choice, you are better off choosing a smaller constant,

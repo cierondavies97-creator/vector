@@ -1,0 +1,4 @@
+task exits the barrier which stays in the same state. If the
+      state of the barrier is "filling", the number of waiting task
+      decreases by 1.
+      The return value is an integer in the range of 0 to "parties-1",

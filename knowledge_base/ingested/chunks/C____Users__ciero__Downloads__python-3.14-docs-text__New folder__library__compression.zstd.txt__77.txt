@@ -1,0 +1,4 @@
+"compress(data, zstd_dict=zd.as_digested_dict)". Digesting a
+   dictionary is a costly operation that occurs when loading a
+   Zstandard dictionary. When making multiple calls to compression or
+   decompression, passing a digested dictionary will reduce the

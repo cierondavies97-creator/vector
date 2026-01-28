@@ -1,0 +1,4 @@
+bytes), or a text stream (yielding character strings).  See
+   "readline()" below.
+   "IOBase" is also a context manager and therefore supports the
+   "with" statement.  In this example, *file* is closed after the

@@ -1,0 +1,7 @@
+value=Constant(value=1))])
+      >>> print(ast.dump(ast.parse('del a'), indent=4))
+      Module(
+          body=[
+              Delete(
+                  targets=[
+                      Name(id='a', ctx=Del())])])

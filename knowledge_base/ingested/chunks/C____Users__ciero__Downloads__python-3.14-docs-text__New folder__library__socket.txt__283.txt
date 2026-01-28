@@ -1,0 +1,4 @@
+delivery of the remaining data. For further information on this
+   topic, consult the Socket Programming HOWTO.
+   Changed in version 3.5: If the system call is interrupted and the
+   signal handler does not raise an exception, the method now retries

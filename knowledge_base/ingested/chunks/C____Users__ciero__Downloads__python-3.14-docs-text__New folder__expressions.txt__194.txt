@@ -1,0 +1,4 @@
+The unary "-" (minus) operator yields the negation of its numeric
+argument; the operation can be overridden with the "__neg__()" special
+method.
+The unary "+" (plus) operator yields its numeric argument unchanged;

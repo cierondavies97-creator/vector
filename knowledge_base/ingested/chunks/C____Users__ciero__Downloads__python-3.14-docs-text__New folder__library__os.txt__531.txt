@@ -1,0 +1,6 @@
+os.close(fd)
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.10.
+os.eventfd_read(fd)
+   Read value from an "eventfd()" file descriptor and return a 64 bit
+   unsigned int. The function does not verify that *fd* is an

@@ -1,0 +1,5 @@
+return an integer. First we create the "type" for the callback
+function:
+   >>> CMPFUNC = CFUNCTYPE(c_int, POINTER(c_int), POINTER(c_int))
+   >>>
+To get started, here is a simple callback that shows the values it

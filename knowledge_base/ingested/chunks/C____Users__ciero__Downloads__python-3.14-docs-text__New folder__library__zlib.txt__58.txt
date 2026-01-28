@@ -1,0 +1,7 @@
+zlib.Z_FIXED
+   Compression strategy that prevents the use of dynamic Huffman
+   codes.
+   This constant is only available if Python was compiled with zlib
+   1.2.2.2 or greater.
+   Added in version 3.6.
+zlib.Z_NO_FLUSH

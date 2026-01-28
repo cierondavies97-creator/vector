@@ -1,0 +1,4 @@
+additional hooks that can be used to customize how modules are found
+and loaded from the *import path*.
+Three variables are used by the *path based finder*, "sys.path",
+"sys.path_hooks" and "sys.path_importer_cache".  The "__path__"

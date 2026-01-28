@@ -1,0 +1,5 @@
+of.
+   Changed in version 3.4: *Module specs* were introduced in Python
+   3.4, by **PEP 451**.
+   Changed in version 3.12: Removed the fallback that looked for a
+   "find_module()" method if a "meta_path" entry didn't have a

@@ -1,0 +1,3 @@
+Section 3.3.1.  How the data is encoded is dependent on the type of
+   *message_body*.  If *message_body* implements the buffer interface
+   the encoding will result in a single chunk. If *message_body* is a

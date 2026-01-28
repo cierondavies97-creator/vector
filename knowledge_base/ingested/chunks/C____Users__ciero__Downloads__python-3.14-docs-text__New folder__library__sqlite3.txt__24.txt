@@ -1,0 +1,4 @@
+(1983, "Monty Python's The Meaning of Life")
+Each row is a two-item "tuple" of "(year, title)", matching the
+columns selected in the query.
+Finally, verify that the database has been written to disk by calling

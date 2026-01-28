@@ -1,0 +1,5 @@
+versioninfo, machine)" with *versioninfo* being a tuple "(version,
+   dev_stage, non_release_version)".
+   Entries which cannot be determined are set to "''".  All tuple
+   entries are strings.
+iOS platform

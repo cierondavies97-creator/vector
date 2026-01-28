@@ -1,0 +1,7 @@
+someData = b"<binary gunk>",
+       someMoreData = b"<lots of binary gunk>" * 10,
+       aDate = datetime.datetime.now()
+   )
+   print(plistlib.dumps(pl).decode())
+Parsing a plist:
+   import plistlib

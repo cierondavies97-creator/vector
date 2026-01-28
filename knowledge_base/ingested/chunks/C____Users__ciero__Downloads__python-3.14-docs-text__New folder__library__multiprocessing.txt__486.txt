@@ -1,0 +1,8 @@
+def foo():
+          print('hello')
+      if __name__ == '__main__':
+          freeze_support()
+          set_start_method('spawn')
+          p = Process(target=foo)
+          p.start()
+   (The "freeze_support()" line can be omitted if the program will be

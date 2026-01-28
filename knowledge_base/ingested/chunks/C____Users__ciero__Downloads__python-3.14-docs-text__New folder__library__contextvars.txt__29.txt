@@ -1,0 +1,5 @@
+ctx.run(main)
+         # The 'main()' function was run in the 'ctx' context,
+         # so changes to 'var' are contained in it:
+         print(ctx[var])  # 'ham'
+         # However, outside of 'ctx', 'var' is still set to 'spam':

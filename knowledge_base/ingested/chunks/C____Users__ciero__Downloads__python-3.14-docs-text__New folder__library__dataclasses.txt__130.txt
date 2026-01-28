@@ -1,0 +1,4 @@
+returns a value in this case, it will be used as the field's
+  default. On the other hand, if the descriptor raises
+  "AttributeError" in this situation, no default value will be
+  provided for the field.

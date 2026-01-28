@@ -1,0 +1,3 @@
+2822**'s 'higher level syntactic breaks':  split points preceded
+      by a splitchar are preferred during line splitting, with the
+      characters preferred in the order in which they appear in the

@@ -1,0 +1,4 @@
+is closed unless *closefd* is set to "False".)
+   *mode* is an optional string that specifies the mode in which the
+   file is opened.  It defaults to "'r'" which means open for reading
+   in text mode. Other common values are "'w'" for writing (truncating

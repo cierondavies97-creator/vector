@@ -1,0 +1,5 @@
+not be omitted.
+* *path_names* are components of a resource's path name, relative to
+  the anchor. For example, to get the text of resource named
+  "info.txt", use:
+     importlib.resources.read_text(my_module, "info.txt")

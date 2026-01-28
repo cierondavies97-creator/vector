@@ -1,0 +1,5 @@
+in the *cc* array must be done using the symbolic constants defined
+   in the "termios" module.
+termios.tcsetattr(fd, when, attributes)
+   Set the tty attributes for file descriptor *fd* from the
+   *attributes*, which is a list like the one returned by

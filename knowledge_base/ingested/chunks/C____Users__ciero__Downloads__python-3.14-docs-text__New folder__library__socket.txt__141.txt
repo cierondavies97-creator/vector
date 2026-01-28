@@ -1,0 +1,4 @@
+system.
+   Translate the *host*/*port* argument into a sequence of 5-tuples
+   that contain all the necessary arguments for creating a socket
+   connected to that service. *host* is a domain name, a string

@@ -1,0 +1,4 @@
+to enable a feature that is not supported, or to set a property to
+   a value that the implementation does not support.  SAX applications
+   and extensions may use this class for similar purposes.
+See also:

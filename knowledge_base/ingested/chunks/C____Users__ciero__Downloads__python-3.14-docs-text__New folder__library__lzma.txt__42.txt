@@ -1,0 +1,5 @@
+filter chains.
+   Note:
+     This class does not transparently handle inputs containing
+     multiple compressed streams, unlike "decompress()" and
+     "LZMAFile". To decompress a multi-stream input with

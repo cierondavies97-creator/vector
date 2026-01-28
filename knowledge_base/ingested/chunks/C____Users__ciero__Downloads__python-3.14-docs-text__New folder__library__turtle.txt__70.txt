@@ -1,0 +1,3 @@
+Draw a circle with given *radius*.  The center is *radius* units
+   left of the turtle; *extent* -- an angle -- determines which part
+   of the circle is drawn.  If *extent* is not given, draw the entire

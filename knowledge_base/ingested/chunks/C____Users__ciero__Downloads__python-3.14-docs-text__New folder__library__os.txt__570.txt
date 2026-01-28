@@ -1,0 +1,4 @@
+*attribute* should be bytes or str (directly or indirectly through
+   the "PathLike" interface). If it is a string, it is encoded with
+   the *filesystem encoding and error handler*.
+   This function can support specifying a file descriptor and not

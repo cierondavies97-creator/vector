@@ -1,0 +1,5 @@
+See How do I cache method calls? for more details on how this
+   differs from "cached_property()".
+   Added in version 3.8.
+   Changed in version 3.12: Prior to Python 3.12, "cached_property"
+   included an undocumented lock to ensure that in multi-threaded

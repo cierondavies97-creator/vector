@@ -1,0 +1,5 @@
+alternative aliases for these encodings may result in slower
+execution.
+Changed in version 3.6: Optimization opportunity recognized for us-
+ascii.
+Many of the character sets support the same languages. They vary in

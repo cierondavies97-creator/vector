@@ -1,0 +1,6 @@
+above.  "CookiePolicy" itself may be used as a 'null policy' to allow
+setting and receiving any and all cookies (this is unlikely to be
+useful).
+DefaultCookiePolicy Objects
+===========================
+Implements the standard rules for accepting and returning cookies.

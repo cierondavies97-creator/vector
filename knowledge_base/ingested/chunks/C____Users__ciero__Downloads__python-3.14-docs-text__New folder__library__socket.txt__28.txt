@@ -1,0 +1,4 @@
+* On FreeBSD, NetBSD and DragonFly BSD it accepts "bdaddr" where
+      "bdaddr" is the Bluetooth address as a string.
+    Changed in version 3.2: NetBSD and DragonFlyBSD support added.
+    Changed in version 3.13.3: FreeBSD support added.

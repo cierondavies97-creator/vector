@@ -1,0 +1,4 @@
+See How to create and use row factories for more details.
+   text_factory
+      A *callable* that accepts a "bytes" parameter and returns a text
+      representation of it. The callable is invoked for SQLite values

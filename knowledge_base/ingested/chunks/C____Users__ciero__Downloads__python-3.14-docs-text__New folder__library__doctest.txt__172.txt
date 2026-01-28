@@ -1,0 +1,4 @@
+for each docstring.
+   This function uses the same search technique as "testmod()".
+   Changed in version 3.5: "DocTestSuite()" returns an empty
+   "unittest.TestSuite" if *module* contains no docstrings instead of

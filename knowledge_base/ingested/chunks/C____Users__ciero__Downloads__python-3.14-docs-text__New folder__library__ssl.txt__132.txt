@@ -1,0 +1,6 @@
+Added in version 3.6.
+class ssl.TLSVersion
+   "enum.IntEnum" collection of SSL and TLS versions for
+   "SSLContext.maximum_version" and "SSLContext.minimum_version".
+   Added in version 3.7.
+TLSVersion.MINIMUM_SUPPORTED

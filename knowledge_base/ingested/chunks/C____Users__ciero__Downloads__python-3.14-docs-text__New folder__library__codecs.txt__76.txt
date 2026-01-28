@@ -1,0 +1,5 @@
+Malformed data is ignored; encoding or decoding is continued
+   without further notice.
+codecs.replace_errors(exception)
+   Implements the "'replace'" error handling.
+   Substitutes "?" (ASCII character) for encoding errors or "�"

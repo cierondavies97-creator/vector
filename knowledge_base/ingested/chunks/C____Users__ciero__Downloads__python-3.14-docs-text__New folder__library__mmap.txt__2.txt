@@ -1,0 +1,4 @@
+through a memory-mapped file.  You can also change a single byte by
+doing "obj[index] = 97", or change a subsequence by assigning to a
+slice: "obj[i1:i2] = b'...'".  You can also read and write data
+starting at the current file position, and "seek()" through the file

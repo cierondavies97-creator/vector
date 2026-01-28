@@ -1,0 +1,4 @@
+asyncio._enter_task(loop, task)
+   Switch the current task to the *task* argument.
+   Call the function just before executing a portion of embedded
+   *coroutine* ("coroutine.send()" or "coroutine.throw()").

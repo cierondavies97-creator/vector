@@ -1,0 +1,5 @@
+>>> v[2:6] = b'spam'
+         >>> data
+         bytearray(b'z1spam')
+      One-dimensional memoryviews of *hashable* (read-only) types with
+      formats 'B', 'b' or 'c' are also hashable. The hash is defined

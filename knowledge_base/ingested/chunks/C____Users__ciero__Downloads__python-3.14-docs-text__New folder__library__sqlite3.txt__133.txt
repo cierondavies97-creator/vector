@@ -1,0 +1,5 @@
+authorizer using "None".
+      Changed in version 3.13: Passing *authorizer_callback* as a
+      keyword argument is deprecated. The parameter will become
+      positional-only in Python 3.15.
+   set_progress_handler(progress_handler, n)

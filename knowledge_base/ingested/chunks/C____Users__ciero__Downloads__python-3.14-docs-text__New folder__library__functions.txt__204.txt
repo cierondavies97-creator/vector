@@ -1,0 +1,5 @@
+the constructor is called, it returns a new featureless object. The
+   constructor does not accept any arguments.
+   Note:
+     "object" instances do *not* have "__dict__" attributes, so you
+     can't assign arbitrary attributes to an instance of "object".

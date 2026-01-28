@@ -1,0 +1,3 @@
+Module "mailbox"
+     Tools for creating, reading, and managing collections of messages
+     on disk using a variety standard formats.

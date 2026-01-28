@@ -1,0 +1,6 @@
+"6" for the others.
+Repr.maxlong
+   Maximum number of characters in the representation for an integer.
+   Digits are dropped from the middle.  The default is "40".
+Repr.maxstring
+   Limit on the number of characters in the representation of the

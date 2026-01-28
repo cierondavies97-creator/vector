@@ -1,0 +1,6 @@
+exists. Corresponds to "errno" "EEXIST".
+exception FileNotFoundError
+   Raised when a file or directory is requested but doesn't exist.
+   Corresponds to "errno" "ENOENT".
+exception InterruptedError
+   Raised when a system call is interrupted by an incoming signal.

@@ -1,0 +1,4 @@
+is aborted by the peer. Corresponds to "errno" "ECONNABORTED".
+exception ConnectionRefusedError
+   A subclass of "ConnectionError", raised when a connection attempt
+   is refused by the peer. Corresponds to "errno" "ECONNREFUSED".

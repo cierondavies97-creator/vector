@@ -1,0 +1,4 @@
+>>> Decimal('12.0').compare_total(Decimal('12'))
+      Decimal('-1')
+      Quiet and signaling NaNs are also included in the total
+      ordering.  The result of this function is "Decimal('0')" if both

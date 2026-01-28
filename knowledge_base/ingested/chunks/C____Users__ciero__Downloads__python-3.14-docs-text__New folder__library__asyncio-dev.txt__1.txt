@@ -1,0 +1,5 @@
+==========
+By default asyncio runs in production mode.  In order to ease the
+development asyncio has a *debug mode*.
+There are several ways to enable asyncio debug mode:
+* Setting the "PYTHONASYNCIODEBUG" environment variable to "1".

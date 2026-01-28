@@ -1,0 +1,4 @@
+real-time clock is changed discontinuously. Reading the descriptor
+   is aborted with the error ECANCELED.
+   Linux manages system clock as UTC. A daylight-savings time
+   transition is done by changing time offset only and doesn't cause

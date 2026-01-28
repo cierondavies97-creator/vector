@@ -1,0 +1,6 @@
+there are non-alphabet characters present in the input.
+base64.b32hexencode(s)
+   Similar to "b32encode()" but uses the Extended Hex Alphabet, as
+   defined in **RFC 4648**.
+   Added in version 3.10.
+base64.b32hexdecode(s, casefold=False)

@@ -1,0 +1,4 @@
+"multiprocessing.Pool()" or the "Pool()" method of a context
+   object.  In both cases *context* is set appropriately. If "None",
+   calling this function will have the side effect of setting the
+   current global start method if it has not been set already. See the

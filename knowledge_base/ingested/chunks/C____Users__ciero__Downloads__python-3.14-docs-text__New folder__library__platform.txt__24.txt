@@ -1,0 +1,5 @@
+Entries which cannot be determined are set to "''".
+   Changed in version 3.3: Result changed from a tuple to a
+   "namedtuple()".
+   Changed in version 3.9: "processor" is resolved late instead of
+   immediately.

@@ -1,0 +1,4 @@
+objects and data, like the builtin singletons, strings, and tuples of
+immutable objects, don't have these limitations.
+Communicating and synchronizing between interpreters is most
+effectively done using dedicated tools, like those proposed in **PEP

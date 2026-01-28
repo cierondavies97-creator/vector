@@ -1,0 +1,4 @@
+object.
+   *fileobj* must be a file-like object opened for reading in binary
+   mode. It accepts file objects from  builtin "open()", "BytesIO"
+   instances, SocketIO objects from "socket.socket.makefile()", and

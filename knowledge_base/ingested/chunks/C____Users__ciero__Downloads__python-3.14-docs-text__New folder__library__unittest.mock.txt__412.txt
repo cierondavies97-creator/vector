@@ -1,0 +1,7 @@
+positional arguments, if any, required by the wrapped object must be
+passed.
+>>> order_mock_instance = order_mock()
+>>> isinstance(order_mock_instance, Order)
+True
+>>> order_mock_instance.get_value()
+'third'

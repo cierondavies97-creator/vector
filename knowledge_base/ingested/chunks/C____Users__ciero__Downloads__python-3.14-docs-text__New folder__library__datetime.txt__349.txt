@@ -1,0 +1,5 @@
+end = first_sunday_on_or_after(dstend.replace(year=year))
+       return start, end
+   class USTimeZone(tzinfo):
+       def __init__(self, hours, reprname, stdname, dstname):
+           self.stdoffset = timedelta(hours=hours)

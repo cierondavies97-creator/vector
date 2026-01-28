@@ -1,0 +1,7 @@
+used.
+   Added in version 3.2.
+os.getegid()
+   Return the effective group id of the current process.  This
+   corresponds to the "set id" bit on the file being executed in the
+   current process.
+   Availability: Unix, not WASI.

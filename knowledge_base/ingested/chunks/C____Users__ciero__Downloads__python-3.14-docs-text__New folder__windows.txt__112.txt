@@ -1,0 +1,4 @@
+on Windows.
+To allow shebang lines in Python scripts to be portable between Unix
+and Windows, a number of 'virtual' commands are supported to specify
+which interpreter to use.  The supported virtual commands are:

@@ -1,0 +1,5 @@
+#ifdef SPAM_MODULE
+   /* This section is used when compiling spammodule.c */
+   static PySpam_System_RETURN PySpam_System PySpam_System_PROTO;
+   #else
+   /* This section is used in modules that use spammodule's API */

@@ -1,0 +1,5 @@
+subset). Possible *flag* values are
+   "XML_PARAM_ENTITY_PARSING_NEVER",
+   "XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE" and
+   "XML_PARAM_ENTITY_PARSING_ALWAYS".  Return true if setting the flag
+   was successful.

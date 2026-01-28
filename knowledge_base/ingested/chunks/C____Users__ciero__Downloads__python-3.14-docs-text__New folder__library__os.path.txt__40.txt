@@ -1,0 +1,5 @@
+points on Windows.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.isdevdrive(path)
+   Return "True" if pathname *path* is located on a Windows Dev Drive.
+   A Dev Drive is optimized for developer scenarios, and offers faster

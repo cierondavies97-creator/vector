@@ -1,0 +1,3 @@
+of two objects.  The objects do not need to have the same type.
+Chapter Objects, values and types states that objects have a value (in
+addition to type and identity).  The value of an object is a rather

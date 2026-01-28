@@ -1,0 +1,5 @@
+*policy* arguments of "BytesFeedParser".
+   Note: **The policy keyword should always be specified**; The
+   default will change to "email.policy.default" in a future version
+   of Python.
+   Changed in version 3.3: Removed the *strict* argument that was

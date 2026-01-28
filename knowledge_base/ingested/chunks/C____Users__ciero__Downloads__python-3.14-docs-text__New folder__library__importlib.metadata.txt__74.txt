@@ -1,0 +1,4 @@
+for dist_record in self.db.query_distributions(query):
+               yield DatabaseDistribution(dist_record)
+In this way, "query_distributions" would return records for each
+distribution served by the database matching the query. For example,

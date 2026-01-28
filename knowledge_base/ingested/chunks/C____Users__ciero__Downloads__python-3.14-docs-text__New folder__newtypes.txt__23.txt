@@ -1,0 +1,6 @@
+{
+       newdatatypeobject *self = (newdatatypeobject *) op;
+       free(self->obj_UnderlyingDatatypePtr);
+       Py_TYPE(self)->tp_free(self);
+   }
+If your type supports garbage collection, the destructor should call

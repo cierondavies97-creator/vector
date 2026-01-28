@@ -1,0 +1,3 @@
++-------------------------------------+-------------------------------------+
+   | "INTRINSIC_STOPITERATION_ERROR"     | Extracts the return value from a    |
+   |                                     | "StopIteration" exception.          |

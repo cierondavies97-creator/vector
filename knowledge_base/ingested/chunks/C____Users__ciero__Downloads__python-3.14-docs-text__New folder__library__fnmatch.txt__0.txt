@@ -1,0 +1,5 @@
+"fnmatch" --- Unix filename pattern matching
+********************************************
+**Source code:** Lib/fnmatch.py
+======================================================================
+This module provides support for Unix shell-style wildcards, which are

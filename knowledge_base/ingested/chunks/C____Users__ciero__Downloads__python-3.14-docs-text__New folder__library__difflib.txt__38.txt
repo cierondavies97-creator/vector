@@ -1,0 +1,4 @@
+[0, 1]. Possibilities that don't score at least that similar to
+   *word* are ignored.
+   The best (no more than *n*) matches among the possibilities are
+   returned in a list, sorted by similarity score, most similar first.

@@ -1,0 +1,7 @@
+recommended to avoid subclassing multiple exception types altogether.
+Base classes
+============
+The following exceptions are used mostly as base classes for other
+exceptions.
+exception BaseException
+   The base class for all built-in exceptions.  It is not meant to be

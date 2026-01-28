@@ -1,0 +1,4 @@
+text provided to the "write()" method, to the *file-like object*
+   *outfp*. *outfp* must support a "write" method that accepts binary
+   data.
+   If optional *mangle_from_* is "True", put a ">" character in front

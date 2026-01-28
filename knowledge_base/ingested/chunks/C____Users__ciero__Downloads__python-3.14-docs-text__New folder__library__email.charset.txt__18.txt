@@ -1,0 +1,5 @@
+"QP", returns the string "base64" if *body_encoding* is
+      "BASE64", and returns the string "7bit" otherwise.
+   get_output_charset()
+      Return the output character set.
+      This is the *output_charset* attribute if that is not "None",

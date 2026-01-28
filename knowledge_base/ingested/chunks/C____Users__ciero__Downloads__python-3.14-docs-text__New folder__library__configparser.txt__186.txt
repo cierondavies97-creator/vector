@@ -1,0 +1,5 @@
+Changed in version 3.14: Raises InvalidWriteError if this would
+      write a representation which cannot be accurately parsed by a
+      future "read()" call from this parser.
+   Note:
+     Comments in the original configuration file are not preserved

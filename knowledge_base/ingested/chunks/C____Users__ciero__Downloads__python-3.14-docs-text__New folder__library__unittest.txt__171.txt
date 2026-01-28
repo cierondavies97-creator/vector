@@ -1,0 +1,5 @@
+when it is called.
+      Added in version 3.2.
+      Changed in version 3.3: Added the *msg* keyword argument when
+      used as a context manager.
+   assertWarnsRegex(warning, regex, callable, *args, **kwds)

@@ -1,0 +1,4 @@
+class email.headerregistry.MIMEVersionHeader
+   There is really only one valid value for the *MIME-Version* header,
+   and that is "1.0".  For future proofing, this header class supports
+   other valid version numbers.  If a version number has a valid value

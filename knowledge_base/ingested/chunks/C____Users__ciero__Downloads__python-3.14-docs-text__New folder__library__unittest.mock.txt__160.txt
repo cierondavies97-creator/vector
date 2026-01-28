@@ -1,0 +1,3 @@
+Waits until the mock is called with the specified arguments.
+      If a timeout was passed at the creation of the mock the function
+      raises an "AssertionError" if the call is not performed in time.

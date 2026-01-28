@@ -1,0 +1,4 @@
+implying that "sqlite3" ensures a transaction is always open.
+        Use "commit()" and "rollback()" to close transactions.
+        This is the recommended value of "autocommit".
+      * "True": Use SQLite's autocommit mode. "commit()" and

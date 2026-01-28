@@ -1,0 +1,4 @@
+async asyncio.create_subprocess_shell(cmd, stdin=None, stdout=None, stderr=None, limit=None, **kwds)
+   Run the *cmd* shell command.
+   The *limit* argument sets the buffer limit for "StreamReader"
+   wrappers for "stdout" and "stderr" (if "subprocess.PIPE" is passed

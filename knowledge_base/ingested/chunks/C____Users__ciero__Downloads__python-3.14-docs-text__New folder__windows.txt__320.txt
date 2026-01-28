@@ -1,0 +1,3 @@
+| /layout [directory]   | to pre-download all components                           |
++-----------------------+----------------------------------------------------------+
+| /log [filename]       | to specify log files location                            |

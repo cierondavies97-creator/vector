@@ -1,0 +1,3 @@
+when a reference to it is deleted. When the counter reaches zero, the
+last reference to the object has been deleted and the object is freed.
+An alternative strategy is called *automatic garbage collection*.

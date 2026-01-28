@@ -1,0 +1,3 @@
+Note that adding "PYTHONUTF8=1" to the default environment variables
+will affect all Python 3.7+ applications on your system. If you have
+any Python 3.7+ applications which rely on the legacy system encoding,

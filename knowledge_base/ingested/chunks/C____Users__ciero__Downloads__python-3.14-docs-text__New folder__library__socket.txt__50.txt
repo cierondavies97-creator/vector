@@ -1,0 +1,7 @@
+subclasses.
+Non-blocking mode is supported through "setblocking()".  A
+generalization of this based on timeouts is supported through
+"settimeout()".
+Module contents
+===============
+The module "socket" exports the following elements.

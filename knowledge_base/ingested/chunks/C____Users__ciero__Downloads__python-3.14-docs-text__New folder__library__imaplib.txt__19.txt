@@ -1,0 +1,5 @@
+from the set ["A" .. "P"].
+imaplib.ParseFlags(flagstr)
+   Converts an IMAP4 "FLAGS" response to a tuple of individual flags.
+imaplib.Time2Internaldate(date_time)
+   Convert *date_time* to an IMAP4 "INTERNALDATE" representation. The

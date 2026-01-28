@@ -1,0 +1,6 @@
+become deprecated when it is replaced with the Tk DND.
+"turtle"
+   Turtle graphics in a Tk window.
+Tkinter Life Preserver
+======================
+This section is not designed to be an exhaustive tutorial on either Tk

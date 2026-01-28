@@ -1,0 +1,5 @@
+(asdl_expr_seq*)_PyPegen_seq_append_to_end(
+               p,
+               CHECK(asdl_seq*, _PyPegen_seq_append_to_end(p, a, b)),
+               c) }
+       | a=','.expression+ ',' '*' b=expression { (asdl_expr_seq*)_PyPegen_seq_append_to_end(p, a, b) }

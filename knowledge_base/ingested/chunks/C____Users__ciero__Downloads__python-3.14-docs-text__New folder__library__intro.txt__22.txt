@@ -1,0 +1,4 @@
+* Some functions are stubs that either don't do anything and always
+  return hardcoded values.
+* Functions related to file descriptors, file permissions, file
+  ownership, and links are limited and don't support some operations.

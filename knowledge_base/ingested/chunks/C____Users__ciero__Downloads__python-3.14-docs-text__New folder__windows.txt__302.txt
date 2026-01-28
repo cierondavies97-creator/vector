@@ -1,0 +1,5 @@
+Windows.
+4.11. The full installer (deprecated)
+=====================================
+Deprecated since version 3.14: This installer is deprecated since 3.14
+and will not be produced for Python 3.16 or later. See Python install

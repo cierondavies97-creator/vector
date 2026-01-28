@@ -1,0 +1,10 @@
+has been shut down.
+   Added in version 3.13.
+Examples
+========
+Queues can be used to distribute workload between several concurrent
+tasks:
+   import asyncio
+   import random
+   import time
+   async def worker(name, queue):

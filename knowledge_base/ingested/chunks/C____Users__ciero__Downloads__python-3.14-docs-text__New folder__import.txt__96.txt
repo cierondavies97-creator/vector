@@ -1,0 +1,3 @@
+packages were implemented prior to **PEP 420**.  With the adoption of
+**PEP 420**, namespace packages no longer need to supply "__init__.py"
+files containing only "__path__" manipulation code; the import

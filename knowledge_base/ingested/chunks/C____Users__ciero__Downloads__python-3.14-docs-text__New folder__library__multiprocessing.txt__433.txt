@@ -1,0 +1,5 @@
+where *hostname* is a string and *port* is an integer.
+* An "'AF_UNIX'" address is a string representing a filename on the
+  filesystem.
+* An "'AF_PIPE'" address is a string of the form
+  "r'\\.\pipe\*PipeName*'".  To use "Client()" to connect to a named

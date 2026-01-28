@@ -1,0 +1,3 @@
+meanings. For the shell, these are shell output, shell error, user
+output, and user error.  For Python code, at the shell prompt or in an
+editor, these are keywords, builtin class and function names, names

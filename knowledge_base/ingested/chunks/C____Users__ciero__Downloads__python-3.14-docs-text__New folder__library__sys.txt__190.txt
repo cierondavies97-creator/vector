@@ -1,0 +1,3 @@
+| "3" (VER_NT_SERVER)                     | The system is a server, but not a |
+   |                                         | domain controller.                |
+   +-----------------------------------------+-----------------------------------+

@@ -1,0 +1,5 @@
+is returned.
+The expression "x or y" first evaluates *x*; if *x* is true, its value
+is returned; otherwise, *y* is evaluated and the resulting value is
+returned.
+Note that neither "and" nor "or" restrict the value and type they

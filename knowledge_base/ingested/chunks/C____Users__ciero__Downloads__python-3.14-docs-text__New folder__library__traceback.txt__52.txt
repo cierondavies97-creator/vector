@@ -1,0 +1,6 @@
+occurred. Can be "None" if not present.
+      Added in version 3.10.
+   text
+      For syntax errors - the text where the error occurred.
+   offset
+      For syntax errors - the offset into the text where the error

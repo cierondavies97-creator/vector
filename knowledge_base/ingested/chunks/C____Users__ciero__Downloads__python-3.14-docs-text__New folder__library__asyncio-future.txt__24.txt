@@ -1,0 +1,5 @@
+the callbacks, and return "True".
+      Changed in version 3.9: Added the *msg* parameter.
+   exception()
+      Return the exception that was set on this Future.
+      The exception (or "None" if no exception was set) is returned

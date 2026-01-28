@@ -1,0 +1,7 @@
+...     print(row)
+   {'a': 1, 'b': 2}
+   >>> con.close()
+The following row factory returns a *named tuple*:
+   from collections import namedtuple
+   def namedtuple_factory(cursor, row):
+       fields = [column[0] for column in cursor.description]

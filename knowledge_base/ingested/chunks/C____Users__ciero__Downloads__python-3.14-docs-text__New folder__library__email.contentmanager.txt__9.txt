@@ -1,0 +1,4 @@
+* the type's "name" ("typ.__name__").
+      If none of the above match, repeat all of the checks above for
+      each of the types in the *MRO* ("typ.__mro__"). Finally, if no
+      other key yields a handler, check for a handler for the key

@@ -1,0 +1,5 @@
+--------------------
+Python offers different primitive operations based on regular
+expressions:
+* "re.match()" checks for a match only at the beginning of the string
+* "re.search()" checks for a match anywhere in the string (this is

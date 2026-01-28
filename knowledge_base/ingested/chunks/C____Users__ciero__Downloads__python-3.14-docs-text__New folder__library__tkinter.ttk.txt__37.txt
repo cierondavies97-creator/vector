@@ -1,0 +1,3 @@
+| Option   | Description                                                      |
+|==========|==================================================================|
+| state    | May be set to "normal" or "disabled" to control the "disabled"   |

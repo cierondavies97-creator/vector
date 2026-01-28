@@ -1,0 +1,5 @@
+external entities by default to increase security by default. To
+enable processing of external entities, pass a custom parser instance
+in:
+   from xml.dom.pulldom import parse
+   from xml.sax import make_parser

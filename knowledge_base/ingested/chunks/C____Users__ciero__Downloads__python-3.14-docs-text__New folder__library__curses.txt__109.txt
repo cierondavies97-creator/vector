@@ -1,0 +1,7 @@
+display.
+window.addstr(str[, attr])
+window.addstr(y, x, str[, attr])
+   Paint the character string *str* at "(y, x)" with attributes
+   *attr*, overwriting anything previously on the display.
+   Note:
+     * Writing outside the window, subwindow, or pad raises

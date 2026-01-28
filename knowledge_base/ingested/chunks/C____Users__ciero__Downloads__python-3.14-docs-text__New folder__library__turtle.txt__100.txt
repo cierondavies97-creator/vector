@@ -1,0 +1,5 @@
+turtle.width(width=None)
+   Parameters:
+      **width** -- a positive number
+   Set the line thickness to *width* or return it.  If resizemode is
+   set to "auto" and turtleshape is a polygon, that polygon is drawn

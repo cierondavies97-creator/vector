@@ -1,0 +1,4 @@
+wanted.  A separate function is needed to separate the path
+   segments and parameters.  This function returns a 5-item *named
+   tuple*:
+      (addressing scheme, network location, path, query, fragment identifier).

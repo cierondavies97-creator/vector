@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "await" "loop.connect_write_pipe()"                | Wrap a write end of a pipe into a "(transport,     |

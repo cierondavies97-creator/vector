@@ -1,0 +1,3 @@
+| MatchClass(expr cls, pattern* patterns, identifier* kwd_attrs, pattern* kwd_patterns)
+               | MatchStar(identifier? name)
+               -- The optional "rest" MatchMapping parameter handles capturing extra mapping keys

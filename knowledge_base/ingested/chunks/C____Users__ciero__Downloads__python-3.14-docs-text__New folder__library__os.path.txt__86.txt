@@ -1,0 +1,5 @@
+('bar', '')
+   If the path contains an extension, then *ext* will be set to this
+   extension, including the leading period. Note that previous periods
+   will be ignored:
+      >>> splitext('foo.bar.exe')

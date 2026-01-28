@@ -1,0 +1,5 @@
+calling thread (i.e., the signals which have been raised while
+   blocked).  Return the set of the pending signals.
+   Availability: Unix.
+   See the man page *sigpending(2)* for further information.
+   See also "pause()", "pthread_sigmask()" and "sigwait()".

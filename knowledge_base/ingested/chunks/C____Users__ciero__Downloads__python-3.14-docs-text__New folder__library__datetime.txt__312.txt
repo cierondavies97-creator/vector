@@ -1,0 +1,4 @@
+and daylight times must be consistent in this sense:
+   "tz.utcoffset(dt) - tz.dst(dt)"
+   must return the same result for every "datetime" *dt* with
+   "dt.tzinfo == tz". For sane "tzinfo" subclasses, this expression

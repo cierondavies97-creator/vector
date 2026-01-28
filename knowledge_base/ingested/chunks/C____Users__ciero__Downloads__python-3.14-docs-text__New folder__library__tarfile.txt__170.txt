@@ -1,0 +1,3 @@
+to allow updating tape archives, but can be abused maliciously.
+* *tarfile* does not protect against issues with “live” data, e.g. an
+  attacker tinkering with the destination (or source) directory while

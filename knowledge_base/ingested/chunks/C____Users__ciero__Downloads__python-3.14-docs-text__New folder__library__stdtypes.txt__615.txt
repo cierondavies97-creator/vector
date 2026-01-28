@@ -1,0 +1,4 @@
+those byte values in the sequence "b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'".
+   Note:
+     The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.

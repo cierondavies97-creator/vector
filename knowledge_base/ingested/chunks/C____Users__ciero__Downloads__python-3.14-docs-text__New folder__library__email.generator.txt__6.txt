@@ -1,0 +1,4 @@
+opposed to binary) serialized representation, but since Unicode cannot
+represent binary data directly, the message is of necessity
+transformed into something that contains only ASCII characters, using
+the standard email RFC Content Transfer Encoding techniques for

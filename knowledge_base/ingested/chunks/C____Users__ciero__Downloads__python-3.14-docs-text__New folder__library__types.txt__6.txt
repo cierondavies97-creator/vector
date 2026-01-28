@@ -1,0 +1,5 @@
+namespace.
+   The arguments are the components that make up a class definition
+   header: the class name, the base classes (in order) and the keyword
+   arguments (such as "metaclass").
+   The return value is a 3-tuple: "metaclass, namespace, kwds"

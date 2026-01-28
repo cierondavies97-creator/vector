@@ -1,0 +1,3 @@
+a sequence of file names which should be used to augment the
+   default type map.  If omitted, the file names to use are taken from
+   "knownfiles"; on Windows, the current registry settings are loaded.

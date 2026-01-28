@@ -1,0 +1,4 @@
+See "BaseHandler.<protocol>_response()" for more information.
+OpenerDirector.open(url, data=None[, timeout])
+   Open the given *url* (which can be a request object or a string),
+   optionally passing the given *data*. Arguments, return values and

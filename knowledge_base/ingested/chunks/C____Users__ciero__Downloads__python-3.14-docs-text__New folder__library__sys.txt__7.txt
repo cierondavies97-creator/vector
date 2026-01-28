@@ -1,0 +1,3 @@
+minimum, any security-sensitive hooks must be added using the C API
+   "PySys_AddAuditHook()" before initialising the runtime, and any
+   modules allowing arbitrary memory modification (such as "ctypes")

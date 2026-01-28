@@ -1,0 +1,4 @@
+substituting a placeholder string instead.
+@reprlib.recursive_repr(fillvalue='...')
+   Decorator for "__repr__()" methods to detect recursive calls within
+   the same thread.  If a recursive call is made, the *fillvalue* is

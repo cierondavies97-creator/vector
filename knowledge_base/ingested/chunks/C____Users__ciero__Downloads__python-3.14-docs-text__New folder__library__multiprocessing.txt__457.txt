@@ -1,0 +1,5 @@
+synchronization primitives.
+Picklability
+   Ensure that the arguments to the methods of proxies are picklable.
+Thread safety of proxies
+   Do not use a proxy object from more than one thread unless you

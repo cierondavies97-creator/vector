@@ -1,0 +1,4 @@
+interpreter prompt.
+   Added in version 3.2.
+   Changed in version 3.4: Added *file* parameter.
+dis.dis(x=None, *, file=None, depth=None, show_caches=False, adaptive=False, show_offsets=False, show_positions=False)

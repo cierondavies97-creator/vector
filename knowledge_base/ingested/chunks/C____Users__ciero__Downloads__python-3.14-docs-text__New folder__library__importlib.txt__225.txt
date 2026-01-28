@@ -1,0 +1,4 @@
+and "importlib.machinery.ExtensionFileLoader".
+   classmethod factory(loader)
+      A class method which returns a callable that creates a lazy
+      loader. This is meant to be used in situations where the loader

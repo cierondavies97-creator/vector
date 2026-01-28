@@ -1,0 +1,4 @@
+$> py uninstall [-y|--yes] --purge
+The Python install manager can be uninstalled through the Windows
+"Installed apps" settings page. This does not remove any runtimes, and
+they will still be usable, though the global "python" and "py"

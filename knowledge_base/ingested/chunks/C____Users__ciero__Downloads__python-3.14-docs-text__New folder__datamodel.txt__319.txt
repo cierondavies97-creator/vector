@@ -1,0 +1,5 @@
+These attributes can have any type.
+Slice objects support one method:
+slice.indices(self, length)
+   This method takes a single integer argument *length* and computes
+   information about the slice that the slice object would describe if

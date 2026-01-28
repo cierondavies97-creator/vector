@@ -1,0 +1,4 @@
+default this is a new Mock (created on first access). See the
+     "return_value" attribute.
+   * *unsafe*: By default, accessing any attribute whose name starts
+     with *assert*, *assret*, *asert*, *aseert* or *assrt* will raise

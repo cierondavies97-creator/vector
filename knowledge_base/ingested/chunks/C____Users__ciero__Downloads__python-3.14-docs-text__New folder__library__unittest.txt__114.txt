@@ -1,0 +1,6 @@
+def tearDownClass(cls):
+             ...
+      See Class and Module Fixtures for more details.
+      Added in version 3.2.
+   run(result=None)
+      Run the test, collecting the result into the "TestResult" object

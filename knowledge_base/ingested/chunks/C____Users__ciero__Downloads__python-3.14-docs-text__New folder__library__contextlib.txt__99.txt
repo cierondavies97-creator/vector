@@ -1,0 +1,4 @@
+# Perform operations that use the acquired resources
+As shown, "ExitStack" also makes it quite easy to use "with"
+statements to manage arbitrary resources that don't natively support
+the context management protocol.

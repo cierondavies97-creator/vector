@@ -1,0 +1,4 @@
+*arg*. *frame* is the current stack frame. *event* is a string:
+   "'call'", "'line'", "'return'", "'exception'" or "'opcode'".  *arg*
+   depends on the event type.
+   The trace function is invoked (with *event* set to "'call'")

@@ -1,0 +1,4 @@
+performance of the function being measured.  If so, GC can be
+        re-enabled as the first statement in the *setup* string.  For
+        example:
+           timeit.Timer('for i in range(10): oct(i)', 'gc.enable()').timeit()

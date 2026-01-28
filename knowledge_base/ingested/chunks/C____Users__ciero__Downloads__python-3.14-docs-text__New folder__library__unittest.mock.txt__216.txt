@@ -1,0 +1,7 @@
+...     assert thing is mock_thing
+   ...     thing()
+   ...
+   Traceback (most recent call last):
+     ...
+   TypeError: 'NonCallableMock' object is not callable
+Another use case might be to replace an object with an "io.StringIO"

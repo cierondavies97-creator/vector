@@ -1,0 +1,4 @@
+is used. Use *mtime* = 0 to generate a compressed stream that does
+   not depend on creation time.
+   See below for the "mtime" attribute that is set when decompressing.
+   Calling a "GzipFile" object's "close()" method does not close

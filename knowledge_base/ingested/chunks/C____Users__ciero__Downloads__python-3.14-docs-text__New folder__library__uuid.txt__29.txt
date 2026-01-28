@@ -1,0 +1,2 @@
+| UUID.clock_seq                                     | The 14-bit sequence number. Only relevant to       |
+|                                                    | versions 1 and 6.                                  |

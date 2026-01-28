@@ -1,0 +1,5 @@
+messages.
+Scheduling delayed callbacks
+----------------------------
+Event loop provides mechanisms to schedule callback functions to be
+called at some point in the future.  Event loop uses monotonic clocks

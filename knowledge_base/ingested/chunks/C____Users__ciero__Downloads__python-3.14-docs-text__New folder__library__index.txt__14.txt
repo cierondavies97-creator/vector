@@ -1,0 +1,5 @@
+* "collections" --- Container datatypes
+  * "collections.abc" --- Abstract Base Classes for Containers
+  * "heapq" --- Heap queue algorithm
+  * "bisect" --- Array bisection algorithm
+  * "array" --- Efficient arrays of numeric values

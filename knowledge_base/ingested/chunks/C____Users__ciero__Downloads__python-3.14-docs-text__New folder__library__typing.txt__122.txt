@@ -1,0 +1,4 @@
+run_query("SELECT * FROM students")  # OK
+          run_query(literal_string)  # OK
+          run_query("SELECT * FROM " + literal_string)  # OK
+          run_query(arbitrary_string)  # type checker error

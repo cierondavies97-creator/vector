@@ -1,0 +1,4 @@
+the source is rotated to, e.g. 'test.log.1'.
+      Added in version 3.3.
+The reason the attributes exist is to save you having to subclass -
+you can use the same callables for instances of "RotatingFileHandler"

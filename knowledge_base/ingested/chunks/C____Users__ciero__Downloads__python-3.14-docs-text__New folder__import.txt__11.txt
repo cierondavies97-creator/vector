@@ -1,0 +1,4 @@
+type, regardless of whether the module is implemented in Python, C, or
+something else.  To help organize modules and provide a naming
+hierarchy, Python has a concept of *packages*.
+You can think of packages as the directories on a file system and

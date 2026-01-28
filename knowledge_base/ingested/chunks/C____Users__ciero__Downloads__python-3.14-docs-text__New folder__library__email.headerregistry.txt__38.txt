@@ -1,0 +1,5 @@
+which allows an address list to be copied with groups intact by
+   using the list obtained from the "groups" attribute of the source
+   header.
+class email.headerregistry.SingleAddressHeader
+   A subclass of "AddressHeader" that adds one additional attribute:

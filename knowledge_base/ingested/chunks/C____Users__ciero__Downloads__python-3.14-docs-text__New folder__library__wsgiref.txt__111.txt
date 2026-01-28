@@ -1,0 +1,4 @@
+value and the "server_software" attribute is set.
+   Methods and attributes for customizing exception handling:
+   log_exception(exc_info)
+      Log the *exc_info* tuple in the server log.  *exc_info* is a

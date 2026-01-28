@@ -1,0 +1,4 @@
+The "cpu_count()" function can be used to get the number of logical
+   CPUs in the **system**.
+   If "-X cpu_count" is given or "PYTHON_CPU_COUNT" is set,
+   "process_cpu_count()" returns the override value *n*.

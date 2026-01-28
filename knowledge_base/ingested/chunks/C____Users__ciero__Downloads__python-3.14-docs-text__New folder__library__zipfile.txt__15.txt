@@ -1,0 +1,7 @@
+requires the "lzma" module.
+   Added in version 3.3.
+zipfile.ZIP_ZSTANDARD
+   The numeric constant for Zstandard compression. This requires the
+   "compression.zstd" module.
+   Note:
+     In APPNOTE 6.3.7, the method ID "20" was assigned to Zstandard

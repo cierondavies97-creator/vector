@@ -1,0 +1,4 @@
+object is the "documentElement" property.  It gives you the main
+element in the XML document: the one that holds all others.  Here is
+an example program:
+   dom3 = parseString("<myxml>Some data</myxml>")

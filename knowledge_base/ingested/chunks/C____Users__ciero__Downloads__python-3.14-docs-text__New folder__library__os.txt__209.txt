@@ -1,0 +1,4 @@
+the current position of *in_fd* and the position of *in_fd* is
+   updated.
+   The second case may be used on macOS and FreeBSD where *headers*
+   and *trailers* are arbitrary sequences of buffers that are written

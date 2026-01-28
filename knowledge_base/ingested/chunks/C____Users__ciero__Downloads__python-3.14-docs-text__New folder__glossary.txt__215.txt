@@ -1,0 +1,5 @@
+difference between arguments and parameters, the
+   "inspect.Parameter" class, the Function definitions section, and
+   **PEP 362**.
+path entry
+   A single location on the *import path* which the *path based

@@ -1,0 +1,6 @@
+error which causes the semaphore to be released more than it's
+acquired will go undetected.
+Event objects
+-------------
+This is one of the simplest mechanisms for communication between
+threads: one thread signals an event and other threads wait for it.

@@ -1,0 +1,5 @@
+StatsProfile, FunctionProfile. Added the following function:
+      get_stats_profile.
+What Is Deterministic Profiling?
+================================
+*Deterministic profiling* is meant to reflect the fact that all

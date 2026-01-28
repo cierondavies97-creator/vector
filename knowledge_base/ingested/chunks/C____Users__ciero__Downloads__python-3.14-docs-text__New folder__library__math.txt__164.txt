@@ -1,0 +1,4 @@
+case, most functions will return a NaN, but (again following C99 Annex
+F) there are some exceptions to this rule, for example
+"pow(float('nan'), 0.0)" or "hypot(float('nan'), float('inf'))".
+Note that Python makes no effort to distinguish signaling NaNs from

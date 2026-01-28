@@ -1,0 +1,5 @@
+PyZipFile objects
+=================
+The "PyZipFile" constructor takes the same parameters as the "ZipFile"
+constructor, and one additional parameter, *optimize*.
+class zipfile.PyZipFile(file, mode='r', compression=ZIP_STORED, allowZip64=True, optimize=-1)

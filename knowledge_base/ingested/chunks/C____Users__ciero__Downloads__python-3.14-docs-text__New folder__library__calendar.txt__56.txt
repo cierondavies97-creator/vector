@@ -1,0 +1,4 @@
+month,  for the specified *year* and *month*.
+calendar.monthcalendar(year, month)
+   Returns a matrix representing a month's calendar.  Each row
+   represents a week; days outside of the month are represented by

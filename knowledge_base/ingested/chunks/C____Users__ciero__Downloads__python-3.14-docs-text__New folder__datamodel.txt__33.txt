@@ -1,0 +1,7 @@
+complex numbers:
+3.2.4.1. "numbers.Integral"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+These represent elements from the mathematical set of integers
+(positive and negative).
+Note:
+  The rules for integer representation are intended to give the most

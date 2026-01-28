@@ -1,0 +1,5 @@
+Python user.
+1.11. Writing Extensions in C++
+===============================
+It is possible to write extension modules in C++.  Some restrictions
+apply.  If the main program (the Python interpreter) is compiled and

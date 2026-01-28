@@ -1,0 +1,4 @@
+object identity for equality.
+Here's one solution that uses the "side_effect" functionality. If you
+provide a "side_effect" function for a mock then "side_effect" will be
+called with the same args as the mock. This gives us an opportunity to

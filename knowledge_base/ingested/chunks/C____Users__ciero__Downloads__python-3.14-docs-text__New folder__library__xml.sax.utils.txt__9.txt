@@ -1,0 +1,4 @@
+<element attr="ab ' cd &quot; ef">
+   This function is useful when generating attribute values for HTML
+   or any SGML using the reference concrete syntax.
+class xml.sax.saxutils.XMLGenerator(out=None, encoding='iso-8859-1', short_empty_elements=False)

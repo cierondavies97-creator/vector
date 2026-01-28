@@ -1,0 +1,4 @@
+def f(cls, arg1, arg2): ...
+   The "@classmethod" form is a function *decorator* -- see Function
+   definitions for details.
+   A class method can be called either on the class (such as "C.f()")

@@ -1,0 +1,4 @@
+If your application uses pseudo instructions or specialized
+   instructions, use the "hasarg" collection instead.
+   Changed in version 3.6: Now every instruction has an argument, but
+   opcodes "< HAVE_ARGUMENT" ignore it. Before, only opcodes ">=

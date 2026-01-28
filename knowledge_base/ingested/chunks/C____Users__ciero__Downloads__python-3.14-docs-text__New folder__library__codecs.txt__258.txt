@@ -1,0 +1,3 @@
+below based on the expected input and output types (note that while
+text encodings are the most common use case for codecs, the underlying
+codec infrastructure supports arbitrary data transforms rather than

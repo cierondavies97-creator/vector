@@ -1,0 +1,13 @@
+6 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Formatting Code
+▶ use coding conventions, e.g: PEP-8
+▶ conventions specify
+▶ layout
+▶ white-space
+▶ comments

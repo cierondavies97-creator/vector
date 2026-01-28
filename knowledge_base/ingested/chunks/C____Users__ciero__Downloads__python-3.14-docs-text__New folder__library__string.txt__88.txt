@@ -1,0 +1,3 @@
+| Type      | Meaning                                                    |
+   |===========|============================================================|
+   | "'b'"     | Binary format. Outputs the number in base 2.               |

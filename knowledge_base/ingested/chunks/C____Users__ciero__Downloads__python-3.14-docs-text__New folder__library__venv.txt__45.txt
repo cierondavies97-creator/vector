@@ -1,0 +1,3 @@
+the old location. If you move an environment because you moved a
+  parent directory of it, you should recreate the environment in its
+  new location. Otherwise, software installed into the environment may

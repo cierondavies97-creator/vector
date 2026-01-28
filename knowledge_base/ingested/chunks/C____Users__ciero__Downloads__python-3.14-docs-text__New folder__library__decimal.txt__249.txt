@@ -1,0 +1,5 @@
+flag.
+   Otherwise (the signal is trapped), only equality comparisons and
+   explicit conversions are silent. All other mixed operations raise
+   "FloatOperation".
+The following table summarizes the hierarchy of signals:

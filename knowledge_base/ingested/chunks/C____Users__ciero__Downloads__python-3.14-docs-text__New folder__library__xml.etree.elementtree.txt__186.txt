@@ -1,0 +1,4 @@
+self-closed tag, otherwise they are emitted as a pair of
+      start/end tags.
+      The output is either a string ("str") or binary ("bytes"). This
+      is controlled by the *encoding* argument.  If *encoding* is

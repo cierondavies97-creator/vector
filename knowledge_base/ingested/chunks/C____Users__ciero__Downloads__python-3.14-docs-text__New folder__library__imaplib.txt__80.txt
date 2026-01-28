@@ -1,0 +1,5 @@
+considerations for best practices.
+   Added in version 3.2.
+   Changed in version 3.4: The method now supports hostname check with
+   "ssl.SSLContext.check_hostname" and *Server Name Indication* (see
+   "ssl.HAS_SNI").

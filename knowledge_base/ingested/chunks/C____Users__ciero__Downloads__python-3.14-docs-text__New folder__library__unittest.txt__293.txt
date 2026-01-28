@@ -1,0 +1,4 @@
+instantiated directly does not play well with this method.
+        Doing so, however, can be useful when the fixtures are
+        different and defined in subclasses.
+      If a module provides a "load_tests" function it will be called

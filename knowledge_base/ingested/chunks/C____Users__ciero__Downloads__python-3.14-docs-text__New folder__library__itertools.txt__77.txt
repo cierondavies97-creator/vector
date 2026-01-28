@@ -1,0 +1,5 @@
+value.  If *predicate* is "None", returns the items that are false.
+   Roughly equivalent to:
+      def filterfalse(predicate, iterable):
+          # filterfalse(lambda x: x<5, [1,4,6,3,8]) → 6 8
+          if predicate is None:

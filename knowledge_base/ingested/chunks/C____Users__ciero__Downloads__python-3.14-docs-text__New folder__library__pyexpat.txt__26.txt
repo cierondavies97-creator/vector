@@ -1,0 +1,4 @@
+xmlparser.UseForeignDTD([flag])
+   Calling this with a true value for *flag* (the default) will cause
+   Expat to call the "ExternalEntityRefHandler" with "None" for all
+   arguments to allow an alternate DTD to be loaded.  If the document

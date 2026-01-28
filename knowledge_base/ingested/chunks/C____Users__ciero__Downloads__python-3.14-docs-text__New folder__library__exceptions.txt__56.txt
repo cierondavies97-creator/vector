@@ -1,0 +1,5 @@
+platforms, the *winerror* argument is ignored, and the
+      "winerror" attribute does not exist.
+   strerror
+      The corresponding error message, as provided by the operating
+      system.  It is formatted by the C functions "perror()" under

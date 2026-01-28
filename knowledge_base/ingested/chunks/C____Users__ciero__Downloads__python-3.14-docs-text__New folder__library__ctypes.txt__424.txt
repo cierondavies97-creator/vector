@@ -1,0 +1,3 @@
+the "u" field is defined as anonymous field, it is now possible
+      to access the members directly off the TYPEDESC instance.
+      "td.lptdesc" and "td.u.lptdesc" are equivalent, but the former

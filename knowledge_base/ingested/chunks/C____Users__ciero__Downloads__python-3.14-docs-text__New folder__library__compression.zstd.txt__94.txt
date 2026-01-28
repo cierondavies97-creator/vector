@@ -1,0 +1,4 @@
+lower, upper = CompressionParameter.compression_level.bounds()
+   Example setting the "window_log" to the maximum size:
+      _lower, upper = CompressionParameter.window_log.bounds()
+      options = {CompressionParameter.window_log: upper}

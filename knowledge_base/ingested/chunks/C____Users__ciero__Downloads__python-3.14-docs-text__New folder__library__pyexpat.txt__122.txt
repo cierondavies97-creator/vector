@@ -1,0 +1,4 @@
+A CDATA marked section was not closed.
+xml.parsers.expat.errors.XML_ERROR_EXTERNAL_ENTITY_HANDLING
+xml.parsers.expat.errors.XML_ERROR_NOT_STANDALONE
+   The parser determined that the document was not "standalone" though

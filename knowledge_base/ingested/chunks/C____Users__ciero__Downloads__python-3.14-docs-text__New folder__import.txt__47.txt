@@ -1,0 +1,3 @@
+searches "sys.meta_path", which contains a list of meta path finder
+objects.  These finders are queried in order to see if they know how
+to handle the named module.  Meta path finders must implement a method

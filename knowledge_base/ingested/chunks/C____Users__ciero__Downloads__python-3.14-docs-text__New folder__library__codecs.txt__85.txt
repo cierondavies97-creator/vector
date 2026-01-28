@@ -1,0 +1,4 @@
+The method may not store state in the "Codec" instance. Use
+      "StreamWriter" for codecs which have to keep state in order to
+      make encoding efficient.
+      The encoder must be able to handle zero length input and return

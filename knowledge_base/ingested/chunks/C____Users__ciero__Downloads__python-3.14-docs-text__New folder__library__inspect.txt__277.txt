@@ -1,0 +1,4 @@
+* AGEN_CLOSED: Execution has completed.
+   Added in version 3.12.
+The current internal state of the generator can also be queried. This
+is mostly useful for testing purposes, to ensure that internal state

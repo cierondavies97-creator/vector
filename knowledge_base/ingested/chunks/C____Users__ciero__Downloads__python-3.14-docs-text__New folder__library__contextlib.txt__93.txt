@@ -1,0 +1,4 @@
+Continuing the example for "asynccontextmanager()":
+      async with AsyncExitStack() as stack:
+          connections = [await stack.enter_async_context(get_connection())
+              for i in range(5)]

@@ -1,0 +1,6 @@
+the default pattern.
+Class and Module Fixtures
+=========================
+Class and module level fixtures are implemented in "TestSuite". When
+the test suite encounters a test from a new class then
+"tearDownClass()" from the previous class (if there is one) is called,

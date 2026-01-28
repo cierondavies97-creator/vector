@@ -1,0 +1,5 @@
+namespace is copied into a new "dict".
+If the metaclass has no "__prepare__" attribute, then the class
+namespace is initialised as an empty ordered mapping.
+See also:
+  **PEP 3115** - Metaclasses in Python 3000

@@ -1,0 +1,9 @@
+print("a regular file.")
+       elif tarinfo.isdir():
+           print("a directory.")
+       else:
+           print("something else.")
+   tar.close()
+Writing examples
+----------------
+How to create an uncompressed tar archive from a list of filenames:

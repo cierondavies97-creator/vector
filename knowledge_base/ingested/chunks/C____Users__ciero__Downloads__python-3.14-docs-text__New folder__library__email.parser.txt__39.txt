@@ -1,0 +1,4 @@
+"True".
+Since creating a message object structure from a string or a file
+object is such a common task, four functions are provided as a
+convenience.  They are available in the top-level "email" package

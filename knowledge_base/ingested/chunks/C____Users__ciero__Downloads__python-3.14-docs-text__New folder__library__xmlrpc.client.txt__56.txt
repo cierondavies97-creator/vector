@@ -1,0 +1,6 @@
+decode(bytes)
+      Accept a base64 "bytes" object and decode it as the instance's
+      new data.
+   encode(out)
+      Write the XML-RPC base 64 encoding of this binary item to the
+      *out* stream object.

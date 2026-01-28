@@ -1,0 +1,4 @@
+meaning (for example, a module loaded from a database).
+   If "__file__" is set then the "__cached__" attribute might also be
+   set,  which is the path to any compiled version of the code (for
+   example, a byte-compiled file). The file does not need to exist to

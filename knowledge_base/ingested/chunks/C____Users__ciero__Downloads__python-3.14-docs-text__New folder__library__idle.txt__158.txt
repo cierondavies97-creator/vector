@@ -1,0 +1,3 @@
+including tutorials, available at "docs.python.org/x.y", where 'x.y'
+is the currently running Python version.  If your system has an off-
+line copy of the docs (this may be an installation option), that will

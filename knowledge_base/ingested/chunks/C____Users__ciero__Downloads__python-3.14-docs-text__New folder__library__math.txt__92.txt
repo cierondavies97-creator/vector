@@ -1,0 +1,5 @@
+nan)" and "fma(inf, 0, nan)". In these cases, "math.fma" returns a
+   NaN, and does not raise any exception.
+   Added in version 3.13.
+math.fmod(x, y)
+   Return the floating-point remainder of "x / y", as defined by the

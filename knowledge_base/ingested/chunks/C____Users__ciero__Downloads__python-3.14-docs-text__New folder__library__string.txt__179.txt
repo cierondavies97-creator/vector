@@ -1,0 +1,6 @@
+expression.
+The methods on this class will raise "ValueError" if the pattern
+matches the template without one of these named groups matching.
+Helper functions
+================
+string.capwords(s, sep=None)

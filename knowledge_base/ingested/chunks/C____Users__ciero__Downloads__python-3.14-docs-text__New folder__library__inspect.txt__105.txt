@@ -1,0 +1,5 @@
+function is a *coroutine function*.
+inspect.markcoroutinefunction(func)
+   Decorator to mark a callable as a *coroutine function* if it would
+   not otherwise be detected by "iscoroutinefunction()".
+   This may be of use for sync functions that return a *coroutine*, if

@@ -1,0 +1,6 @@
+>>> Point3D.__optional_keys__ == frozenset({'x', 'y'})
+         True
+      Added in version 3.9.
+      Note:
+        If "from __future__ import annotations" is used or if
+        annotations are given as strings, annotations are not

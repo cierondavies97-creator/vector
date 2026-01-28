@@ -1,0 +1,5 @@
+must be running an SMTP server.
+   """)
+       parser.add_argument('-d', '--directory',
+                           help="""Mail the contents of the specified directory,
+                           otherwise use the current directory.  Only the regular

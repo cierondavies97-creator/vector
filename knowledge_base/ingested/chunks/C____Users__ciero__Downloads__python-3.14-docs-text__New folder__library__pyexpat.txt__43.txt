@@ -1,0 +1,6 @@
+threshold that can be adjusted by
+     "SetAllocTrackerActivationThreshold()" is exceeded.
+   Added in version 3.14.1.
+"xmlparser" objects have the following attributes:
+xmlparser.buffer_size
+   The size of the buffer used when "buffer_text" is true. A new

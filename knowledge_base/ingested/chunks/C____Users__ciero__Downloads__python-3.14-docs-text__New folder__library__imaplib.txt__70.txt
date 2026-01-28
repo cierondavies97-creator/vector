@@ -1,0 +1,5 @@
+typ, msgnums = M.search(None, 'FROM', '"LDJ"')
+      # or:
+      typ, msgnums = M.search(None, '(FROM "LDJ")')
+IMAP4.select(mailbox='INBOX', readonly=False)
+   Select a mailbox. Returned data is the count of messages in

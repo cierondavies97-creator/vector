@@ -1,0 +1,3 @@
+"parsedate()", but on success returns a "datetime"; otherwise
+   "ValueError" is raised if *date* contains an invalid value such as
+   an hour greater than 23 or a timezone offset not between -24 and 24

@@ -1,0 +1,6 @@
+falls back to "__float__()".  If "__float__()" is not defined then
+   it falls back to "__index__()".
+   Added in version 3.14.
+Hashing of numeric types
+------------------------
+For numbers "x" and "y", possibly of different types, it's a

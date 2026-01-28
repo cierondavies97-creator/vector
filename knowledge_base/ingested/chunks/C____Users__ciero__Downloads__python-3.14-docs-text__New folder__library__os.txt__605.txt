@@ -1,0 +1,5 @@
+Exit code that means that a required service is unavailable.
+   Availability: Unix, not WASI.
+os.EX_SOFTWARE
+   Exit code that means an internal software error was detected.
+   Availability: Unix, not WASI.

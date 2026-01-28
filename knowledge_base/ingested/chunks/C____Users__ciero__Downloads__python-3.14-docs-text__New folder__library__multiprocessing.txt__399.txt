@@ -1,0 +1,5 @@
+Listeners and Clients
+---------------------
+Usually message passing between processes is done using queues or by
+using "Connection" objects returned by "Pipe()".
+However, the "multiprocessing.connection" module allows some extra

@@ -1,0 +1,5 @@
+See also:
+  * How-to guides for further reading:
+    * How to use placeholders to bind values in SQL queries
+    * How to adapt custom Python types to SQLite values
+    * How to convert SQLite values to custom Python types

@@ -1,0 +1,4 @@
+argument being the data as "bytes".
+         * **rest** (*int*) -- A "REST" command to be sent to the
+           server. See the documentation for the *rest* parameter of
+           the "transfercmd()" method.

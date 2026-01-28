@@ -1,0 +1,5 @@
+python3 -m mypy factorial.py
+factorial.py:15: error: Argument 1 to "factorial" has incompatible
+type "float"; expected "int"
+[arg-type]
+factorial.py:16: error: Argument 2 to "concat" has incompatible type

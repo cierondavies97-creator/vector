@@ -1,0 +1,4 @@
+"ALERT_DESCRIPTION_*" can be returned.  Other return values will
+   result in a TLS fatal error with
+   "ALERT_DESCRIPTION_INTERNAL_ERROR".
+   If an exception is raised from the *sni_callback* function the TLS

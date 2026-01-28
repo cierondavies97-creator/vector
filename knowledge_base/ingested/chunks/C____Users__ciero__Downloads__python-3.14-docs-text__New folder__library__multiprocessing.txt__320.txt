@@ -1,0 +1,7 @@
+Create an object with a writable "value" attribute and return a
+      proxy for it.
+   dict()
+   dict(mapping)
+   dict(sequence)
+      Create a shared "dict" object and return a proxy for it.
+   list()

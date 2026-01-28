@@ -1,0 +1,4 @@
+If *signalnum* is 0, then no signal is sent, but error checking is
+   still performed; this can be used to check if the target thread is
+   still running.
+   Raises an auditing event "signal.pthread_kill" with arguments

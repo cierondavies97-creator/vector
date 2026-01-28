@@ -1,0 +1,5 @@
+the arguments and ordering are identical to the
+      "print_callers()" method.
+   get_stats_profile()
+      This method returns an instance of StatsProfile, which contains
+      a mapping of function names to instances of FunctionProfile.

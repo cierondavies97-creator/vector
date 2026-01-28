@@ -1,0 +1,4 @@
+number "0" is used.
+   When a snapshot is taken, tracebacks of traces are limited to
+   "get_traceback_limit()" frames. See the "take_snapshot()" function.
+   The original number of frames of the traceback is stored in the

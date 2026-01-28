@@ -1,0 +1,5 @@
+"hasjump".
+dis.hasjabs
+   Sequence of bytecodes that have an absolute jump target.
+   Deprecated since version 3.13: All jumps are now relative. This
+   list is empty.

@@ -1,0 +1,4 @@
+Now let's make up a fake command line and ask "optparse" to parse it:
+   args = ["-f", "foo.txt"]
+   (options, args) = parser.parse_args(args)
+When "optparse" sees the option string "-f", it consumes the next

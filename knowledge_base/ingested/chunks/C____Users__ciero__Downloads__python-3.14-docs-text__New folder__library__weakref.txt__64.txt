@@ -1,0 +1,6 @@
+super().__init__(ob, callback)
+           self.__counter = 0
+           for k, v in annotations.items():
+               setattr(self, k, v)
+       def __call__(self):
+           """Return a pair containing the referent and the number of

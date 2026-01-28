@@ -1,0 +1,5 @@
+etc.) with a particular namespace URI and localname.  The localname
+   is the part of the namespace after the prefix.
+Element Objects
+---------------
+"Element" is a subclass of "Node", so inherits all the attributes of

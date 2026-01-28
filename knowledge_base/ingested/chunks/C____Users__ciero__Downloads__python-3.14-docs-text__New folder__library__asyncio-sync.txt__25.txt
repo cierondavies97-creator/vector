@@ -1,0 +1,3 @@
+This method releases the underlying lock, and then blocks until
+      it is awakened by a "notify()" or "notify_all()" call. Once
+      awakened, the Condition re-acquires its lock and this method

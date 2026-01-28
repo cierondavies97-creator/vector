@@ -1,0 +1,3 @@
+Along with the "QueueListener" class, "QueueHandler" can be used to
+let handlers do their work on a separate thread from the one which
+does the logging. This is important in web applications and also other

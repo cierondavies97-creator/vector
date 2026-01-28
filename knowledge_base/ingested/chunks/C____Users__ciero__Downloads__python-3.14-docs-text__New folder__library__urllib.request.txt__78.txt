@@ -1,0 +1,3 @@
+"HTTPPasswordMgr"; refer to section HTTPPasswordMgr Objects for
+   information on the interface that must be supported. When both
+   Digest Authentication Handler and Basic Authentication Handler are

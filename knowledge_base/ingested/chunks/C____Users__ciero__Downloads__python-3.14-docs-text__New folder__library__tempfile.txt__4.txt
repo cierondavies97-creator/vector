@@ -1,0 +1,4 @@
+compatibility, the argument order is somewhat odd; it is recommended
+to use keyword arguments for clarity.
+The module defines the following user-callable items:
+tempfile.TemporaryFile(mode='w+b', buffering=-1, encoding=None, newline=None, suffix=None, prefix=None, dir=None, *, errors=None)

@@ -1,0 +1,5 @@
+>>> parser.add_argument('bar', nargs='?', default='d')
+     >>> parser.parse_args(['XX', '--foo', 'YY'])
+     Namespace(bar='XX', foo='YY')
+     >>> parser.parse_args(['XX', '--foo'])
+     Namespace(bar='XX', foo='c')

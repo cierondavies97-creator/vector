@@ -1,0 +1,4 @@
+it is the root (one or more slashes only).  In all cases,
+   "join(head, tail)" returns a path to the same location as *path*
+   (but the strings may differ).  Also see the functions "join()",
+   "dirname()" and "basename()".

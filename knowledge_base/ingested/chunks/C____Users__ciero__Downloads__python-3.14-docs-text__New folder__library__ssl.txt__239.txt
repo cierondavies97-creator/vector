@@ -1,0 +1,5 @@
+"SSLError" will be raised.
+   Note:
+     when connected, the "SSLSocket.cipher()" method of SSL sockets
+     will give the currently selected cipher.TLS 1.3 cipher suites
+     cannot be disabled with "set_ciphers()".

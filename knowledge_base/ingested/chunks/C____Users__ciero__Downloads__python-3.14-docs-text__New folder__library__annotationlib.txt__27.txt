@@ -1,0 +1,3 @@
+Instances of this class are returned when the "FORWARDREF" format
+   is used and annotations contain a name that cannot be resolved.
+   This can happen when a forward reference is used in an annotation,

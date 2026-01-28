@@ -1,0 +1,6 @@
+possibly using different quoting conventions, are allowed, and their
+meaning is the same as their concatenation:
+   >>> "hello" 'world'
+   "helloworld"
+Formally:
+   strings: ( STRING | fstring)+ | tstring+

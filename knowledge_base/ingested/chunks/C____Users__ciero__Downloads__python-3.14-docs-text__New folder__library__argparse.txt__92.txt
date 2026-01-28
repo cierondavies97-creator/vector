@@ -1,0 +1,6 @@
+>>> parser.suggest_on_error = True
+Added in version 3.14.
+color
+-----
+By default, the help message is printed in color using ANSI escape
+sequences. If you want plain text help messages, you can disable this

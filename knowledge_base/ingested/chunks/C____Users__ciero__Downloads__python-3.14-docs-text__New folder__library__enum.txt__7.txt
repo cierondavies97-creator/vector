@@ -1,0 +1,6 @@
+"IntEnum"
+      Base class for creating enumerated constants that are also
+      subclasses of "int". (Notes)
+   "StrEnum"
+      Base class for creating enumerated constants that are also
+      subclasses of "str". (Notes)

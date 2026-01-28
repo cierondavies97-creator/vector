@@ -1,0 +1,5 @@
+is initially a copy of the global "encodings_map" defined in the
+      module.
+   types_map
+      Tuple containing two dictionaries, mapping filename extensions
+      to MIME types: the first dictionary is for the non-standards

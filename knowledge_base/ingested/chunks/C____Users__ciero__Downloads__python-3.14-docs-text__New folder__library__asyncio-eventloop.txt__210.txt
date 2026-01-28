@@ -1,0 +1,6 @@
+the "asyncio.SubprocessProtocol" class.
+   Other parameters:
+   * *stdin* can be any of these:
+     * a file-like object
+     * an existing file descriptor (a positive integer), for example
+       those created with "os.pipe()"

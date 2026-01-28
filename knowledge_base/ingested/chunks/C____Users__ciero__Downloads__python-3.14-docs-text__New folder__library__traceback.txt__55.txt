@@ -1,0 +1,5 @@
+"StackSummary" class.
+      Note that when locals are captured, they are also shown in the
+      traceback.
+   print(*, file=None, chain=True)
+      Print to *file* (default "sys.stderr") the exception information

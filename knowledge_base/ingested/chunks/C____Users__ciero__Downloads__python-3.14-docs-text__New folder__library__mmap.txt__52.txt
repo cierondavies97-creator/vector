@@ -1,0 +1,5 @@
+tell()
+      Returns the current position of the file pointer.
+   write(bytes)
+      Write the bytes in *bytes* into memory at the current position
+      of the file pointer and return the number of bytes written

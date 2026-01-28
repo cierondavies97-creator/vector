@@ -1,0 +1,4 @@
+lambda_slash_no_default[asdl_arg_seq*]:
+       | a[asdl_arg_seq*]=lambda_param_no_default+ '/' ',' { a }
+       | a[asdl_arg_seq*]=lambda_param_no_default+ '/' &':' { a }
+   lambda_slash_with_default[SlashWithDefault*]:

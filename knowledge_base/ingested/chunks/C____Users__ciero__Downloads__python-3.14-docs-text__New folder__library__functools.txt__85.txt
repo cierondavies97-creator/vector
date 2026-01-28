@@ -1,0 +1,6 @@
+...     for i, elem in enumerate(arg):
+      ...         print(i, elem)
+   "typing.Union" can also be used:
+      >>> @fun.register
+      ... def _(arg: int | float, verbose=False):
+      ...     if verbose:

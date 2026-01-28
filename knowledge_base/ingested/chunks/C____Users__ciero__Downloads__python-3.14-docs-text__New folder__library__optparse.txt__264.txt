@@ -1,0 +1,6 @@
+where
+"option"
+   is the Option instance that's calling the callback
+"opt_str"
+   is the option string seen on the command-line that's triggering the
+   callback. (If an abbreviated long option was used, "opt_str" will

@@ -1,0 +1,4 @@
+if "requests-1.0" is in the database, "find_distributions" would yield
+a "DatabaseDistribution" for "Context(name='requests')" or
+"Context(name=None)".
+For the sake of simplicity, this example ignores "context.path". The

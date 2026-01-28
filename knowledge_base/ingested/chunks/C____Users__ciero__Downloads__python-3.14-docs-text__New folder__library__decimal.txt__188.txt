@@ -1,0 +1,3 @@
+precision than is needed by the application.  Another benefit is
+      that rounding immediately eliminates unintended effects from
+      digits beyond the current precision. In the following example,

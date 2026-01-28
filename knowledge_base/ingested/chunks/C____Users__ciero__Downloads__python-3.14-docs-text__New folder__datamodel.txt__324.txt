@@ -1,0 +1,3 @@
+around another object that alters the way in which that object is
+retrieved from classes and class instances. The behaviour of class
+method objects upon such retrieval is described above, under "instance

@@ -1,0 +1,4 @@
+iter(tag=None)
+      Creates a tree *iterator* with the current element as the root.
+      The iterator iterates over this element and all elements below
+      it, in document (depth first) order.  If *tag* is not "None" or

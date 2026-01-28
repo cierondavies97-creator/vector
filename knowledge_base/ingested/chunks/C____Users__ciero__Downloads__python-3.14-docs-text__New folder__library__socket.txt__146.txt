@@ -1,0 +1,3 @@
+In these tuples, *family*, *type*, *proto* are all integers and are
+   meant to be passed to the "socket()" function.  *canonname* will be
+   a string representing the canonical name of the *host* if

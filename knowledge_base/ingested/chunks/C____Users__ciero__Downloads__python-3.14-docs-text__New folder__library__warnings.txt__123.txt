@@ -1,0 +1,5 @@
+by an internal property in the context variable.  In this case, the
+"showwarning()" function will not be restored when exiting the context
+handler.
+The "context_aware_warnings" flag can be set the "-X
+context_aware_warnings" command-line option or by the

@@ -1,0 +1,4 @@
+new file, and then searching for the module the new file
+   represents. If the operations happen fast enough to fit within the
+   granularity of stat calls, then the module search will fail. To
+   prevent this from happening, when you create a module dynamically,

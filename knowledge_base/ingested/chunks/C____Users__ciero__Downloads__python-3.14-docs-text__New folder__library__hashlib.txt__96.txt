@@ -1,0 +1,4 @@
+digests for the same input for different purposes. Quoting the authors
+of the Skein hash function:
+   We recommend that all application designers seriously consider
+   doing this; we have seen many protocols where a hash that is

@@ -1,0 +1,4 @@
+"""Adapt datetime.datetime to Unix timestamp."""
+       return int(val.timestamp())
+   sqlite3.register_adapter(datetime.date, adapt_date_iso)
+   sqlite3.register_adapter(datetime.datetime, adapt_datetime_iso)

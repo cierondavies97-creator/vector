@@ -1,0 +1,4 @@
+*user* and *passwd* must be strings. This causes "(user, passwd)"
+   to be used as authentication tokens when authentication for *realm*
+   and a super-URI of any of the given URIs is given.
+HTTPPasswordMgr.find_user_password(realm, authuri)

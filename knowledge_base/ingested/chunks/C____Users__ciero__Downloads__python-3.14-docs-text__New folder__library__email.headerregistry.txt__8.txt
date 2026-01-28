@@ -1,0 +1,5 @@
+"header_factory" call.  The string value of any header object is
+   the *value* fully decoded to unicode.
+   This base class defines the following read-only properties:
+   name
+      The name of the header (the portion of the field before the

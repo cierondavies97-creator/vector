@@ -1,0 +1,5 @@
+cmath.rect(r, phi)
+   Return the complex number *z* with polar coordinates *r* and *phi*.
+   Equivalent to "complex(r * math.cos(phi), r * math.sin(phi))".
+Power and logarithmic functions
+===============================

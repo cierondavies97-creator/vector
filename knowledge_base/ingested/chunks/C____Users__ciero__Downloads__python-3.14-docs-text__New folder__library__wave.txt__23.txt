@@ -1,0 +1,6 @@
+seekable).
+   setcomptype(type, name)
+      Set the compression type and description. At the moment, only
+      compression type "NONE" is supported, meaning no compression.
+   setparams(tuple)
+      The *tuple* should be "(nchannels, sampwidth, framerate,

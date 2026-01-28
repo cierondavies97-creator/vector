@@ -1,0 +1,4 @@
+next_server_available = servers[0]
+       wait = max(0.0, next_server_available - arrival_time)
+       waits.append(wait)
+       service_duration = max(0.0, gauss(average_service_time, stdev_service_time))

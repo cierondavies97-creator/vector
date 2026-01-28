@@ -1,0 +1,4 @@
+A high-level means of setting other compression parameters that
+      affect the speed and ratio of compressing data.
+      Regular compression levels are greater than "0". Values greater
+      than "20" are considered "ultra" compression and require more

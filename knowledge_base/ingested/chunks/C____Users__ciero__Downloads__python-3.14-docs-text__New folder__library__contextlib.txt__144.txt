@@ -1,0 +1,4 @@
+context manager (for a reentrant lock, it is necessary to use
+"threading.RLock" instead).
+Another example of a reusable, but not reentrant, context manager is
+"ExitStack", as it invokes *all* currently registered callbacks when

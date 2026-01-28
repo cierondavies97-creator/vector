@@ -1,0 +1,4 @@
+class, it will be normalized to the original class. If "X" is an
+   instance of "ParamSpecArgs" or "ParamSpecKwargs", return the
+   underlying "ParamSpec". Return "None" for unsupported objects.
+   Examples:

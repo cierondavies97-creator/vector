@@ -1,0 +1,4 @@
+Added in version 3.6: [1]
+Headers are represented by customized subclasses of "str".  The
+particular class used to represent a given header is determined by the
+"header_factory" of the "policy" in effect when the headers are

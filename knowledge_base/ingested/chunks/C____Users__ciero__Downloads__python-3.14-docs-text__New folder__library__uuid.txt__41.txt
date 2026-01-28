@@ -1,0 +1,5 @@
+that will be encoded using UTF-8) according to **RFC 9562, §5.3**.
+uuid.uuid4()
+   Generate a random UUID in a cryptographically-secure method
+   according to **RFC 9562, §5.4**.
+uuid.uuid5(namespace, name)

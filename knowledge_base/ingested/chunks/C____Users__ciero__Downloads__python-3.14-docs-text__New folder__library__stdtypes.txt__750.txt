@@ -1,0 +1,8 @@
+'foo'])"
+Instances of "set" and "frozenset" provide the following operations:
+len(s)
+   Return the number of elements in set *s* (cardinality of *s*).
+x in s
+   Test *x* for membership in *s*.
+x not in s
+   Test *x* for non-membership in *s*.

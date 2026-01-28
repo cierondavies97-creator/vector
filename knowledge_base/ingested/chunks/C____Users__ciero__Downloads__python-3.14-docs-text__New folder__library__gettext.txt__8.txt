@@ -1,0 +1,4 @@
+then the current global domain is returned, otherwise the global
+   domain is set to *domain*, which is returned.
+gettext.gettext(message)
+   Return the localized translation of *message*, based on the current

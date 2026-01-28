@@ -1,0 +1,4 @@
+an attempt raises "TypeError".  A motivation for this default behavior
+is the lack of a similar invariant as for equality.
+The behavior of the default equality comparison, that instances with
+different identities are always unequal, may be in contrast to what

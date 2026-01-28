@@ -1,0 +1,3 @@
+the file object member are saved. When the instance is unpickled, the
+file is reopened, and reading resumes from the last location. The
+"__setstate__()" and "__getstate__()" methods are used to implement

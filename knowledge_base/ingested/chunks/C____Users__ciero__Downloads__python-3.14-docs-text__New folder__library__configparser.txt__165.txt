@@ -1,0 +1,4 @@
+config.read(['site.cfg', os.path.expanduser('~/.myapp.cfg')],
+                     encoding='cp1250')
+      Changed in version 3.2: Added the *encoding* parameter.
+      Previously, all files were read using the default encoding for

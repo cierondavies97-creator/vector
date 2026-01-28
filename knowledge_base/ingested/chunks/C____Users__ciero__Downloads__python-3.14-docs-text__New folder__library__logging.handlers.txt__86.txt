@@ -1,0 +1,5 @@
+delay each time up to a maximum of 30 seconds.
+      This behaviour is controlled by the following handler
+      attributes:
+      * "retryStart" (initial delay, defaulting to 1.0 seconds).
+      * "retryFactor" (multiplier, defaulting to 2.0).

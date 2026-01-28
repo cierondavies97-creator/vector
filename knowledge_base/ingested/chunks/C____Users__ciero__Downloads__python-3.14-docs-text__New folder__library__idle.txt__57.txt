@@ -1,0 +1,4 @@
+character is entered in the new space.
+Several non-character keys move the cursor and possibly delete
+characters.  Deletion does not puts text on the clipboard, but IDLE
+has an undo list.  Wherever this doc discusses keys, 'C' refers to the

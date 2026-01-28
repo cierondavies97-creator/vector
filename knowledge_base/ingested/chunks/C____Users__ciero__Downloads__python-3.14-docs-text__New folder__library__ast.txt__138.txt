@@ -1,0 +1,4 @@
+class ast.comprehension(target, iter, ifs, is_async)
+   One "for" clause in a comprehension. "target" is the reference to
+   use for each element - typically a "Name" or "Tuple" node. "iter"
+   is the object to iterate over. "ifs" is a list of test expressions:

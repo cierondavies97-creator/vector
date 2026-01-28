@@ -1,0 +1,7 @@
+await asyncio.sleep(sleep_time)
+       print(f'Task {task_id}: done')
+   async def main():
+       try:
+           async with TaskGroup() as group:
+               # spawn some tasks
+               group.create_task(job(1, 0.5))

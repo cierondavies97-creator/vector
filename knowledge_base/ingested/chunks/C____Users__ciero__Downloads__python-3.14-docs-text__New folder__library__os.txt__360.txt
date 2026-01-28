@@ -1,0 +1,5 @@
+directories corresponding to rightmost path segments of the old
+   name will be pruned away using "removedirs()".
+   Note:
+     This function can fail with the new directory structure made if
+     you lack permissions needed to remove the leaf directory or file.

@@ -1,0 +1,4 @@
+IDNA hostname in the *Host* field if it sends that field at all).
+When receiving host names from the wire (such as in reverse name
+lookup), no automatic conversion to Unicode is performed: applications
+wishing to present such host names to the user should decode them to

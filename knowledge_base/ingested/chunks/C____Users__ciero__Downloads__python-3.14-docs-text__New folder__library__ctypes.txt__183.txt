@@ -1,0 +1,3 @@
+every invocation. This behavior is correct for most purposes, but it
+  means that values stored with "threading.local" will *not* survive
+  across different callbacks, even when those calls are made from the

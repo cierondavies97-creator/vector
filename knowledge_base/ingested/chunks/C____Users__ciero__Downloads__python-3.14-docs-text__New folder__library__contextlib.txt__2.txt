@@ -1,0 +1,4 @@
+class contextlib.AbstractContextManager
+   An *abstract base class* for classes that implement
+   "object.__enter__()" and "object.__exit__()". A default
+   implementation for "object.__enter__()" is provided which returns

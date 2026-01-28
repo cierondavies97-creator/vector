@@ -1,0 +1,5 @@
+bytes.removeprefix(prefix, /)
+bytearray.removeprefix(prefix, /)
+   If the binary data starts with the *prefix* string, return
+   "bytes[len(prefix):]". Otherwise, return a copy of the original
+   binary data:

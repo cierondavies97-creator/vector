@@ -1,0 +1,4 @@
+"urllib.error" --- Exception classes raised by urllib.request
+*************************************************************
+**Source code:** Lib/urllib/error.py
+======================================================================

@@ -1,0 +1,3 @@
+communicate with normal file system sockets, so programs intended to
+  run on Linux may need to deal with both types of address.  A string
+  or bytes-like object can be used for either type of address when

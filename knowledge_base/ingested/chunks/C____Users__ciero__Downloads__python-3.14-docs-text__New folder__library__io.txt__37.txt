@@ -1,0 +1,4 @@
+"BufferedRandom" provides a buffered interface to seekable streams.
+Another "BufferedIOBase" subclass, "BytesIO", is a stream of in-memory
+bytes.
+The "TextIOBase" ABC extends "IOBase".  It deals with streams whose

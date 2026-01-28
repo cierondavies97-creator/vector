@@ -1,0 +1,4 @@
+if *item* is in *self*, false otherwise.  For mapping objects, this
+   should consider the keys of the mapping rather than the values or
+   the key-item pairs.
+   For objects that don't define "__contains__()", the membership test

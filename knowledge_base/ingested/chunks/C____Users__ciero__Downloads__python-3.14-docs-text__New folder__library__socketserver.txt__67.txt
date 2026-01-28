@@ -1,0 +1,4 @@
+request.  The default implementation does nothing.  Several
+      instance attributes are available to it; the request is
+      available as "request"; the client address as "client_address";
+      and the server instance as "server", in case it needs access to

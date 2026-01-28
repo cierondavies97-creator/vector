@@ -1,0 +1,6 @@
+format string without the use of extra padding.  A zero-repeat format
+code solves that problem:
+   >>> calcsize('@llh0l')
+   24
+The "'x'" format code can be used to specify the repeat, but for
+native formats it is better to use a zero-repeat format like "'0l'".

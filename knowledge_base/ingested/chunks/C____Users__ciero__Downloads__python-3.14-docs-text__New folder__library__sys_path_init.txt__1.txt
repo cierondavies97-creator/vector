@@ -1,0 +1,4 @@
+The first entry in the module search path is the directory that
+contains the input script, if there is one. Otherwise, the first entry
+is the current directory, which is the case when executing the
+interactive shell, a "-c" command, or "-m" module.

@@ -1,0 +1,4 @@
+simulates a file.  It defaults to "None", in which case *filename*
+   is opened to provide a file object.
+   When *fileobj* is not "None", the *filename* argument is only used
+   to be included in the **gzip** file header, which may include the

@@ -1,0 +1,3 @@
+*mailhost* argument. If you use a string, the standard SMTP port is
+   used. If your SMTP server requires authentication, you can specify
+   a (username, password) tuple for the *credentials* argument.

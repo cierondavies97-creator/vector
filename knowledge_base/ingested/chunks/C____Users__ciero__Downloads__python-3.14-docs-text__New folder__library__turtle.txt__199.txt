@@ -1,0 +1,4 @@
+under the name "resetscreen".  The global function "reset" is
+     another one derived from the Turtle method "reset".
+turtle.resetscreen()
+   Reset all Turtles on the Screen to their initial state.

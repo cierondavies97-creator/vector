@@ -1,0 +1,5 @@
+bytes object to send a zero-length datagram. The buffer size
+   calculation used for flow control is also updated to account for
+   the datagram header.
+DatagramTransport.abort()
+   Close the transport immediately, without waiting for pending

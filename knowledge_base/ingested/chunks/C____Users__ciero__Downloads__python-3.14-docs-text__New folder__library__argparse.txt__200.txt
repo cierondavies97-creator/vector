@@ -1,0 +1,5 @@
+for each of the arguments:
+   >>> parser = argparse.ArgumentParser(prog='PROG')
+   >>> parser.add_argument('-x', nargs=2)
+   >>> parser.add_argument('--foo', nargs=2, metavar=('bar', 'baz'))
+   >>> parser.print_help()

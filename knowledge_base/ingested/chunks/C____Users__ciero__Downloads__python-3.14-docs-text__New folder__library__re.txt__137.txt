@@ -1,0 +1,4 @@
+When a line contains a "#" that is not in a character class and is
+   not preceded by an unescaped backslash, all characters from the
+   leftmost such "#" through the end of the line are ignored.
+   This means that the two following regular expression objects that

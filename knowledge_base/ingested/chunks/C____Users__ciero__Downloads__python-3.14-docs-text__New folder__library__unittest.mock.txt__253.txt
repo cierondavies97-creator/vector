@@ -1,0 +1,4 @@
+If you want "patch.multiple()" to create mocks for you, then you can
+use "DEFAULT" as the value. If you use "patch.multiple()" as a
+decorator then the created mocks are passed into the decorated
+function by keyword.

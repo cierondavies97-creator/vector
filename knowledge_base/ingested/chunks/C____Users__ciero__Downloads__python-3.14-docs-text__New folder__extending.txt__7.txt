@@ -1,0 +1,5 @@
+takes a null-terminated character string as argument and returns an
+integer.  We want this function to be callable from Python as follows:
+   >>> import spam
+   >>> status = spam.system("ls -l")
+Begin by creating a file "spammodule.c".  (Historically, if a module

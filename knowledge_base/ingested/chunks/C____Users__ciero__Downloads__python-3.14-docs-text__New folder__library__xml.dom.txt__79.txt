@@ -1,0 +1,3 @@
+entities. For entity names defined more than once, only the first
+   definition is provided (others are ignored as required by the XML
+   recommendation).  This may be "None" if the information is not

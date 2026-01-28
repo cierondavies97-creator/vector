@@ -1,0 +1,5 @@
+[3] The exception raised will likely be an "ImportError" or an
+    "AttributeError" but it could be something else.
+[4] The "copy" module uses this protocol for shallow and deep copying
+    operations.
+[5] The limitation on alphanumeric characters is due to the fact that

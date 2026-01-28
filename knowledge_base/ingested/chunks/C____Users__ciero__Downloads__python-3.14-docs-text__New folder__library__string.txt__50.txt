@@ -1,0 +1,3 @@
+(see Format String Syntax, f-strings, and t-strings). They can also be
+passed directly to the built-in "format()" function.  Each formattable
+type may define how the format specification is to be interpreted.

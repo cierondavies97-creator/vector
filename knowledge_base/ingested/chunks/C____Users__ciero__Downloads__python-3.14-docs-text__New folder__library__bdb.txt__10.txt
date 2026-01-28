@@ -1,0 +1,7 @@
+funcname
+      Function name that defines whether a "Breakpoint" is hit upon
+      entering the function.
+   enabled
+      "True" if "Breakpoint" is enabled.
+   bpbynumber
+      Numeric index for a single instance of a "Breakpoint".

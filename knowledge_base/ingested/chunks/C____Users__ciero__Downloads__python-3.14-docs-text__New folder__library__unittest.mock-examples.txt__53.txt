@@ -1,0 +1,3 @@
+"patch.object()" and "patch.dict()". "patch" takes a single string, of
+the form "package.module.Class.attribute" to specify the attribute you
+are patching. It also optionally takes a value that you want the

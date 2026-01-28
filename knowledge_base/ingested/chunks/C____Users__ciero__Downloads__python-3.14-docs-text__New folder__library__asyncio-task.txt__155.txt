@@ -1,0 +1,5 @@
+async def main() -> None:
+              loop_fut.set_result(asyncio.get_running_loop())
+              await stop_event.wait()
+          with concurrent.futures.ThreadPoolExecutor(1) as tpe:
+              complete_fut = tpe.submit(asyncio.run, main())

@@ -1,0 +1,4 @@
+| JoinedStr(expr* values)
+            | TemplateStr(expr* values)
+            | Constant(constant value, string? kind)
+            -- the following expression can appear in assignment context

@@ -1,0 +1,4 @@
+itertools.accumulate(iterable[, function, *, initial=None])
+   Make an iterator that returns accumulated sums or accumulated
+   results from other binary functions.
+   The *function* defaults to addition.  The *function* should accept

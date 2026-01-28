@@ -1,0 +1,4 @@
+that resumes execution.
+   Specifying any command resuming execution (currently "continue",
+   "step", "next", "return", "until", "jump", "quit" and their
+   abbreviations) terminates the command list (as if that command was

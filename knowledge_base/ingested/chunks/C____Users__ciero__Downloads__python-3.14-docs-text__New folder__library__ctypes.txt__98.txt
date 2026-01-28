@@ -1,0 +1,5 @@
+the function object.
+The C prototype of "time()" is "time_t time(time_t *)". Because
+"time_t" might be of a different type than the default return type
+int, you should specify the "restype" attribute:
+   >>> libc.time.restype = c_time_t

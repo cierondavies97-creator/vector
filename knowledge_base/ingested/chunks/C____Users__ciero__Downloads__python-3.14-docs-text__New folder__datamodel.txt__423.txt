@@ -1,0 +1,4 @@
+specification; however, it is likely that some third-party tools
+   have descriptors that require both arguments.  Python's own
+   "__getattribute__()" implementation always passes in both arguments
+   whether they are required or not.

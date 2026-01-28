@@ -1,0 +1,5 @@
+Examples:
+      >>> subprocess.run(["ls", "-l"])  # doesn't capture output
+      CompletedProcess(args=['ls', '-l'], returncode=0)
+      >>> subprocess.run("exit 1", shell=True, check=True)
+      Traceback (most recent call last):

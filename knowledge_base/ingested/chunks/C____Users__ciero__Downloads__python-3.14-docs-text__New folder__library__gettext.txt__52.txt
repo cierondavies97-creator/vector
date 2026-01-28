@@ -1,0 +1,6 @@
+class gettext.GNUTranslations
+   The following methods are overridden from the base class
+   implementation:
+   gettext(message)
+      Look up the *message* id in the catalog and return the
+      corresponding message string, as a Unicode string.  If there is

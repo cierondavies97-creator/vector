@@ -1,5 +1,1349 @@
 {
   "files": {
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/best-practice.pdf": {
+      "hash": "db6e0967ccfff81bf0e316d6e2c5ef08f8877bf92cd52e5ba7b4a8fc651942db",
+      "mtime": 1769553588
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/datamodel.txt": {
+      "hash": "4c156ee1f53e055e0b77db4a363978e022069d04a0afc1c2d27c6493fe74dcc6",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/embedding.txt": {
+      "hash": "ea1a834a02ea800d3d0745fb367608b8cba8fb2f4395995fb7354cfcf015bcbe",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/expressions.txt": {
+      "hash": "8dea101ab77235a1b84e3f4d2dd3143d0c555a3852c8fed215d981433b1b64f5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/extending.txt": {
+      "hash": "417deb41f21da4a7dd1186cee1d466df0b98a532579728f12a05755be8b6bc8a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/glossary.txt": {
+      "hash": "d84e61b2ea5efaa6571dcdb34af65b16c4faaf2ac687e3de676cebc8d0d6fba5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/grammar.txt": {
+      "hash": "03308c8c3751878e6beb6925b471350f5f862971703f2538c50ec6e21fb0d780",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/import.txt": {
+      "hash": "c81c558111e0f8e73838a899a9c0d376471672e9989faa6eeeabb42330863a69",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/modules.txt": {
+      "hash": "8a651ac99ecddcd951ac63084016a254fe6a1e516862a53a05f025ce64a888f5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/newtypes.txt": {
+      "hash": "ff37bd22ba86c7bd513a81a3db3a5ec987e8ab59bf6842760608d301f7485363",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/windows.txt": {
+      "hash": "3cbbd004d3232338b6450769863b2e93a4a675930e32bea444a7ebae5839b7ea",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/abc.txt": {
+      "hash": "b370bb7b798caad7a37ce02673934f4f08700868c9ea07845a328b043ad05761",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/aifc.txt": {
+      "hash": "ec0391052eb53f1cfbe167737327b2b77923857eb0154c8da268d373ba0b463e",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/allos.txt": {
+      "hash": "d44efbc41aeb42c7087f6bece18644c553ca834d5034fa5670cbca46c113fa47",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/annotationlib.txt": {
+      "hash": "a2fad9d9057ae0f740b485e79c63be714ba6030645eef60f8a98f0bb3af13873",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/archiving.txt": {
+      "hash": "7a1f8ca80d9a6820a2787a9dbcd888d6c90c9ebe19269d0465dfd9e51fc05a13",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/argparse.txt": {
+      "hash": "8a6415642a7307d629e0e023ffff01709daf535205732f339bc18b1a88720257",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/array.txt": {
+      "hash": "8a853a687fc5bdd46a9927123f44e5445b3ab21bf2b9efa4ea1ff7e10ec6f4ef",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ast.txt": {
+      "hash": "2c139731b5a5f19565bd3973b9896e42f4217d066dbf8bc22d8cb08b7c65735e",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asynchat.txt": {
+      "hash": "56aef7e9bbd9ae2110b6a321ebc22b256607fb0c681ed28537fad34b47fc9090",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-api-index.txt": {
+      "hash": "06fa6279a8a8c8d1a648e60b9311f047963d717220e6a3800f2216e2139a083a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-dev.txt": {
+      "hash": "a04eecb96afffb02c5b3dae8757439058ee914517d88cbf964bfc32af5de0b73",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-eventloop.txt": {
+      "hash": "d9d8998c20c03e91608de0644101ec21e2948510b6633dc7935a0448851a9b40",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-exceptions.txt": {
+      "hash": "aeb42a40c4d3b8cae56aa7b3e2f2452a3194a816b96aabdb2c94d47bcff29fce",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-extending.txt": {
+      "hash": "0ce0367ecaa09db8b4f2866a5d733ba95c6a744d9d53a802caefa9910235d28f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-future.txt": {
+      "hash": "723121f388ea0cf8ddbb558d0cd40952b297ec1962c1cd9295ab6539fc0588a6",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-graph.txt": {
+      "hash": "e7dc3a635bcee0dbb98f012b406e23e13ff06a0f1343a25524bea57a337ceefa",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-llapi-index.txt": {
+      "hash": "a23a7a887078155db5a26f12e05418f6ac877f997b7ddac86fc656c580f85160",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-platforms.txt": {
+      "hash": "ec2895534fee3d3584adc883da309040c65ae1eb94ce3c5a7a3e0819b5209421",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-policy.txt": {
+      "hash": "67c96a26960616b8a18279ae61773e1baa339a63120609c71b86335bce6ddd5f",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-protocol.txt": {
+      "hash": "d204be47d2b9059b7ad5f7a2e19159d674cf31e276824f70457e52937531bffa",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-queue.txt": {
+      "hash": "ff0ffd97b36b6efd2b4def1d39385fba595e5a3406dd808fb917577b4d6f49e3",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-runner.txt": {
+      "hash": "8df7bd5715509dda4fadbc930b32080490cb34f979068e22f1dcd1a373c02b58",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-stream.txt": {
+      "hash": "8743c3ca2d0add9fc2314dd6f59e4b2a6b2c72512a3e2cf4bb6220f192118874",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-subprocess.txt": {
+      "hash": "76410d2a2e92a5869dfdeda7cbdfef88879dd3a03e9fdc0ea2665780ad0c9dda",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-sync.txt": {
+      "hash": "cfe12ed03a2442a15eccf212ae20dc92f6a15e027ca1980d1eb7ada92257d7a0",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio-task.txt": {
+      "hash": "d59baf2c65e665ff38350dedad24b7809bb6bc850afa3ed88d34cb6eb0a93deb",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncio.txt": {
+      "hash": "152e3774c7c96bd876109bceab0ab0211059b018f4c8e7c32676bbb14dcd383d",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/asyncore.txt": {
+      "hash": "4d7f78149a7a82e76e51766e7b4fbebb9b2c2ea85231ce107e3ed103792c4517",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/atexit.txt": {
+      "hash": "9a096a7c4b42a8e6b4498ae40917a2973c24b67e105cd096561b57d888ca5fc1",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/audioop.txt": {
+      "hash": "19a816b55dc4fc7e3cd5ace6a0399bb82486c47fe1c9d585b67a75cb102a25de",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/audit_events.txt": {
+      "hash": "282b5d3298b4d7f380455cbc2a06f4ce8b5fbf6e292abdb60207f9e6bcb4bb4b",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/base64.txt": {
+      "hash": "7fa3a7af191b9eff64b4bf67af1c5e3997656bea988e1950e755b55dc9e9afef",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/bdb.txt": {
+      "hash": "fbb73344c9882be4c9324d8a905e427e37d361792232b06f9b9e233978ef6074",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/binary.txt": {
+      "hash": "855b035d468cc4da49b9e86dc7fc480fac6dd1ace0c56b4b96ffdb5bcbc333fe",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/binascii.txt": {
+      "hash": "93e93ee125f5f29f1db73c6afabe6490831b679b6922cbcc0ce8c065380a2e26",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/bisect.txt": {
+      "hash": "934b3a27cc26be1668c2c544bd531f74309598cc0f2f860ed2fc8a96b24d639e",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/builtins.txt": {
+      "hash": "d3f4815137f57e5a683e55f5d4fc193b2f136b8b7d8b2eda38650bfe5e160e20",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/bz2.txt": {
+      "hash": "4e32dc3f1641b7c9e687a8bcad565d10a5617ef922272d74436c84a7b89f78d2",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/calendar.txt": {
+      "hash": "bfc72c363570434cc276f247bfef4a7d2a170529de5352f7f667ec1d8a480a83",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/cgi.txt": {
+      "hash": "1256da93e7e072c695a9f1c365ee4bd6268ecd7d067650fd6750217e8b925e7e",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/cgitb.txt": {
+      "hash": "64bd4569a0221ad6d3c309aaa3f611c1edb76347f7b523fde6605b04b1119730",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/chunk.txt": {
+      "hash": "d35fc5b7363c7b20047e085a25365eb47e25b86e4be6534396dec2ed65157396",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/cmath.txt": {
+      "hash": "44b8964130abead16bb7efe749256cc790023910dd7a7e35b6cd4c449ff2a64a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/cmd.txt": {
+      "hash": "79f3cc23fa91b707bd6f952ef70e8c18667a58da856610610b10a507bf046ffe",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/cmdline.txt": {
+      "hash": "4aeebffe73c2fd30a84a0aae191aef89f783ad3e47046d1b2c0d1835376a6e72",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/cmdlinelibs.txt": {
+      "hash": "b847060e6392b0163cb4f652eef97cb570b8134be284af3c33b55d33fe849df5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/code.txt": {
+      "hash": "f3b4ddd4604eec4f2fd3b8532ff0532518524f5ead5e6a98011db0a606e68ec6",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/codecs.txt": {
+      "hash": "7eb526fab6d57115dc573c21f87bd45df46903d983ba24e299ebe81c23500853",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/codeop.txt": {
+      "hash": "cf1419420adb8d1fda0925d53d37bb93e5a218e294142638035204dabbab7874",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/collections.abc.txt": {
+      "hash": "504a4ab525785d6853482d8d471ddb798cef0948a22b3c76e8641856ceb4a1cc",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/collections.txt": {
+      "hash": "5da1ac4c11572b1579ffbb24939ccc6140a064ab352c415053a7afcb99f465ad",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/colorsys.txt": {
+      "hash": "4ade80bd0b7e95ab799a0668451c30f0b2182a90f39eb0192776f849fdad6421",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/compileall.txt": {
+      "hash": "d03460473307a4ba1d770955aa30660628a5b00975028ce671f10c8af22c734c",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/compression.txt": {
+      "hash": "221f083f01d07e10c61a42b30ab4c37d69743f94ce4ffff4f8c5390cb853ef65",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/compression.zstd.txt": {
+      "hash": "6a834e7543a8fc2166a3a69a09cf10bdcc474484103d82d4a19055f4ff1c740f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/concurrency.txt": {
+      "hash": "9144f5df9b4603da0f0464aa57f89ec00ef63ff1028df57c4633484981dd97dd",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/concurrent.futures.txt": {
+      "hash": "c5fd5f3fbf9cc2d3e5300f7c9056efce8f70143e7e0ac728251ad972cdb6d2bc",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/concurrent.interpreters.txt": {
+      "hash": "30ab10e9701ce7f0c96eeff9c4d07c5d929204762a4b899af47b738e4248a8f0",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/concurrent.txt": {
+      "hash": "971b0a3e8aeb3ff1ca5bccb292522134a8fc2b62e672680ab6487623f082f41a",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/configparser.txt": {
+      "hash": "81014d0b9db49eab3348feaf4c37309c6913ad223afc47bb84fb9e16f88fc616",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/constants.txt": {
+      "hash": "a66d0957a27d711d92ba586e775243730b8023a789317ce0046cfcc56ef55bed",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/contextlib.txt": {
+      "hash": "1ac88e48ca2f4c4eef70c9a979e5da88d54ce5854b5177cfa9259054b5bc62da",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/contextvars.txt": {
+      "hash": "cd0afab729e0eea077d9f1c89ce8c4203cd9da700682fd52af06a68964bce679",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/copy.txt": {
+      "hash": "4ebf8f4ca32dbc026935fb7397c4fc86dd81064c08e56da670bb57ad816a1bde",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/copyreg.txt": {
+      "hash": "8920a42fcd42938145c15bf4360ecc639b40143bded3155ee8c0e2af1ea20909",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/crypt.txt": {
+      "hash": "190a22984af956ae3febdb8a7ac83796efe1a2c8c4eba19ced8d6cf4bcc77e56",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/crypto.txt": {
+      "hash": "f23ecf5f15ce9712c23cc6b16d42eb41e97515681e1308e1a46e8b3a38940d14",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/csv.txt": {
+      "hash": "847eccc4e26a0701c6a3c30721d0cafd892f177a8d236457e5417c646aa0551c",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ctypes.txt": {
+      "hash": "6135e057eb9474a1572818b100743ba4e1cf0b9e2ff67b523f2ffa5add7deb31",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/curses.ascii.txt": {
+      "hash": "7b760ad8c7f6a7dc0b48f735417e55c25dc5e17856d6eb5804f9c1ba1574456a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/curses.panel.txt": {
+      "hash": "6258d7c6444348f3697e40c08043ffb5ca771adc61af715db21f9e997da7005d",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/curses.txt": {
+      "hash": "6880e89f5b13507531de346563be79d4f26a6a2ced6ff78563d3e00aaccb9c98",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/custominterp.txt": {
+      "hash": "1bc62812ebbedff1b9f68043bf617d388566e2c048727025bb9e373869254d4e",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/dataclasses.txt": {
+      "hash": "4be55622f7331ef7fb1c634e6ad5e8d93fb427200ff7f770068c995f1e82214e",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/datatypes.txt": {
+      "hash": "ce277fd0ca755c27b371f53d3fd4a4d9e9a2a613ef9635ce5522218528fca978",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/datetime.txt": {
+      "hash": "ecc6cff16e82a023fabb72a033efdd5475a4ccd6bc6316adf393f8b9e879f861",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/dbm.txt": {
+      "hash": "3fba6b2f5b147c69e97104df61eef2c14e35b1b87c6e30468a22c3f253557fac",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/debug.txt": {
+      "hash": "376b868e14b50b1f73e6ada871625051a0d28ed6d23c8839906e5f56521f07e8",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/decimal.txt": {
+      "hash": "4a9bae990e0132d42530d750a1c0edbab37cfa0bca186ff06e1766744e358bc3",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/development.txt": {
+      "hash": "4e4f0725a24e138b1919454a784ec37ee6d6d7ceef2a9b22fc22a7233d416139",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/devmode.txt": {
+      "hash": "daabe1592091abd897928657290ba6133382c9d69fdec2665a154a11d0aec092",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/dialog.txt": {
+      "hash": "a5cdcbe783468ce32acb7aa2876ba532c7e6f7c80bfcc0afd4da41d8ea9b7ef5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/difflib.txt": {
+      "hash": "634dd97272d20f29f881a6c8a62b6e5444bf9b5fa605087944ef91f8beb7fd31",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/dis.txt": {
+      "hash": "7cdea2a939f521f06f056f9af8af204424b0851799f63901b76958e1a21ae5e1",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/distribution.txt": {
+      "hash": "32a0f63cfb20e2529faa30b0ace1423e9e8a650d888a515893a5e6122255f62f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/distutils.txt": {
+      "hash": "72d8c7904384f9d813cbdb3588c43492aa15b694263cd43ee649cdd0cfef1589",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/doctest.txt": {
+      "hash": "9060ae8e24b0421bf438a6c4de51e076d8f7ff6a5a1641d3e268ae5f41b42076",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.charset.txt": {
+      "hash": "c46c2d01dd695ec981d0f5a9e7f077c544d0fae299e816b01817beb594670d32",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.compat32-message.txt": {
+      "hash": "ca9144305b3f12aead2a8ef359908019d1da40ce08f46ffc3cca07e1872c1432",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.contentmanager.txt": {
+      "hash": "daab3043401a7636ac1f561566700ca2faa4bd363df2e3430696d5c3b6a3671f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.encoders.txt": {
+      "hash": "0032e5d7542c1e4e12aeb217f0c8b47db5c41c07cc903871982a3fe2c65608be",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.errors.txt": {
+      "hash": "510cad5f51382b921874b1d33452e4ba29f149c54d9884abdeeccd0e34c0f8ea",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.examples.txt": {
+      "hash": "0a66209f9036ce96675c6e137c1d417954afe2dc59ec08ac7f1e618dea344cab",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.generator.txt": {
+      "hash": "6acc32fe424fd180252a000410172f946aa74f277ce90591e3786839c5f65d11",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.header.txt": {
+      "hash": "c40a5373ce4d9ba75e08dd4e85a5fd56ae0afee27c1e6cbb3aa4e51ac29b1068",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.headerregistry.txt": {
+      "hash": "367a1ad53aa0752d1fcf0e593afe73d5fe37aa600ecd7d4bf24ad05f8ee5a5ab",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.iterators.txt": {
+      "hash": "95fc94191a1006f055a84ab37edf472c9786876b39c24362e74cdc498631b455",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.message.txt": {
+      "hash": "572b60ebc68a7f588fce71295e624ae252aa24adf6a13e101f558fc1884cc69b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.mime.txt": {
+      "hash": "2ebe70e88cc8dc9a6e97d988284ed02592552a828e24ec009e31334d2802e940",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.parser.txt": {
+      "hash": "d580496715f2344f97e766c294aaaa39aa241827b0d4804fd8ddfc392a3eb8ed",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.policy.txt": {
+      "hash": "d8c9374bef62875693173114aa5187cdbacf1be5f0f7452d06ab239c295f451b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.txt": {
+      "hash": "7a2a22d1d8a68390b18c39144b088eef7d60df1dc889a3ce6cc438e92f43c5a8",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/email.utils.txt": {
+      "hash": "e63ae33c96786867f7465b6198cbf759e97cacf34c843cb7192e8415a7a9c370",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ensurepip.txt": {
+      "hash": "deb9fd0d4fee1f975f7869baae35705861f44b7b44f220cfc3d3997c61b882c3",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/enum.txt": {
+      "hash": "17c8639ba714146ff47300359a5c67e35a8f6f1209b21bda3e2a086199510561",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/errno.txt": {
+      "hash": "8668ecd0ab07f44ba399c10483f6618e041637a317a949398d26f14b06c90cfe",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/exceptions.txt": {
+      "hash": "5ed0f8c0555210cae1094901120c069934ff54e269ccf7d0719a6e0aa2ebeba3",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/faulthandler.txt": {
+      "hash": "7de1e047339a9c2526a8f5b01771c39447ffbf08de4487a5c290f92dcee32c3b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/fcntl.txt": {
+      "hash": "87a070bc94d6e99b53a617f4838a87e270e5a8eb085950df76e260c0afd3e912",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/filecmp.txt": {
+      "hash": "163a7d7988d3e284cd204475f50939f7db871d775d0c423ca06a266b8937c68b",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/fileformats.txt": {
+      "hash": "36dd93f5834e6b5bc462697692151ea74b43b235a38343cf930b604fb4b6d843",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/fileinput.txt": {
+      "hash": "f70296d0a926fc8c696fcc47c31c8de3451b650156b2ce99e3cf40d0591c6af5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/filesys.txt": {
+      "hash": "7d7564da1ad9db374fc1292c4a1073e1951618b409a1e8c55421b4e979c3bac3",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/fnmatch.txt": {
+      "hash": "0879ffbd20fb0ad8d6a42f5401e05a9429738a452d8da1df656e4aace05570de",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/fractions.txt": {
+      "hash": "870c9b6ac2f1cb74edabbd2810eb1792e140116228a38f9ba370516aa4ae5b3b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/frameworks.txt": {
+      "hash": "2be5260a7c2703c86658f266f2d121536e2b2445b0284a36c3fe559a79a5ab3f",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ftplib.txt": {
+      "hash": "fa5ff944aad3fcf6e05a9b2d7befbb6c1d8afaebea266fa76b92316cbd47202c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/functional.txt": {
+      "hash": "8e631104a80235ff8ee63d13e7de805375037ce2fd314d7bc6b714c004f865a8",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/functions.txt": {
+      "hash": "08af166ad8794cb07450c222e7392ba5ed5910a21bc443136be7477732165f20",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/functools.txt": {
+      "hash": "e460c8d9e85658a9be2ef2e610fed2caa3705c8d2906ead9d5074008e7e980de",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/gc.txt": {
+      "hash": "ee7c3c9159304e956c864f89f2b46a802165d7720bd2fa56c0595185a6554ae9",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/getopt.txt": {
+      "hash": "ac328373e34b279e124c9b8a61288462b0a0b103717741992f46b09e7cc5c3ba",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/getpass.txt": {
+      "hash": "f34ab81d727a7808b591577092c9ffae81d7e8772637fad4ea06d9d76f520f53",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/gettext.txt": {
+      "hash": "9cda18a6bf10e1203e125751eddb46c744226cf01d1124020e52d7a1f8a82ae4",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/glob.txt": {
+      "hash": "8486274b7208debd9eda8f2a6436933b4045220dcc3a1e256a1136c2cb72b342",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/graphlib.txt": {
+      "hash": "b9ced18f5e26e3f59dc7865c017bbc4d770ca45b55ffce7809f0654bdf1fad58",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/grp.txt": {
+      "hash": "9689f0351fc5f69b9cb9c8fc19e12744b3ef1c8d3d355165a0ed5b008264c965",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/gzip.txt": {
+      "hash": "474d38af76fbc5ba81485cebdca633e58867b65a8e9257b0248658c0389515d3",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/hashlib.txt": {
+      "hash": "6d305bd082133c6e35521037ec7a7ec892cb25600aa5a3bc35c69d437a80f446",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/heapq.txt": {
+      "hash": "8e41e3f0aa5d333285d513c7ed394f57662e5ee08dd33351bb49d82090449144",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/hmac.txt": {
+      "hash": "c8760867eae9e2dc2fd0ea7cea203d06131eee5c9ff7e9296119f8b42ec7b9ed",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/html.entities.txt": {
+      "hash": "e83ead67b4958fa54ab9eca34aa0705349c46e5f003233b289c7e90449718441",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/html.parser.txt": {
+      "hash": "8e1b2448e51e22118cab77b059e6e9435296f012ddb4c412e07be2707e569c1b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/html.txt": {
+      "hash": "4319a8c2b0d87e0e4c218e98264f73b0a1bbb055a8bb8b6eb35d5a3e02c24aa9",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/http.client.txt": {
+      "hash": "9d9ddc3ee03f87083348254b44cb4240466e50cf8ce59f99112f194a363f96a6",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/http.cookiejar.txt": {
+      "hash": "9ed212c7dbe1d4a87f27f59c969d3e7a713c6e982048aace450a945c4da83544",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/http.cookies.txt": {
+      "hash": "20e0170e3fbf9e4ea12aa4f46503e64a81d3098e234b8fe87b278ef03216a128",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/http.server.txt": {
+      "hash": "689a2bda7d3d8ff1c890ceb3d400fc13c08804be4dbe4cf6119f3678e63b57ee",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/http.txt": {
+      "hash": "97c050c3c2966cb294e0fa039382915ec5b1415600ed61038628c69fc82b1d49",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/i18n.txt": {
+      "hash": "3933181803cdc5afd587f8c8f58f9c523415e47d41eb6ec6c62c3e82d631488f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/idle.txt": {
+      "hash": "02ee728ee86e77c8859b85b75fe38c598faa4beadf4889bcfca3d8bc09bd6408",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/imaplib.txt": {
+      "hash": "ccc8740ca6b90906a6db803c19a30eedd7b2720b47f89e3ddbf5a74125bce49a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/imghdr.txt": {
+      "hash": "748fa92cb18199640fde8c51fea37263ab8f73d56c2271c83783a89627e81d08",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/imp.txt": {
+      "hash": "e01affd798633fd749d8e9a67e8148e181e2e1332827edb092c4f068185957d8",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/importlib.metadata.txt": {
+      "hash": "638a57b3cd3c694432776c4642bf6e3448fb83006991f8e98feeef7d349fdf94",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/importlib.resources.abc.txt": {
+      "hash": "54c8aa626a973c3c34f2210b45e5a6023d14ddd22fe7341e85c4a7883f8d3a62",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/importlib.resources.txt": {
+      "hash": "746ccd0c3e9bc29ed6eece268bb6061ef9073514c013c19724948982baa641cd",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/importlib.txt": {
+      "hash": "5f21163ea19e817f920039eec56c715703da1644d66b6c490e2354705ab950dd",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/index.txt": {
+      "hash": "0e18a524f9a5ccc180fb22ec769e1e01ade43a8a074319fb50f5cf47b6847f49",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/inspect.txt": {
+      "hash": "43b70aa8b73bbb45508e0f6ad0e2a6f7c0bb8a5d4fa44321da2467e75b634773",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/internet.txt": {
+      "hash": "eb3e484da76fb8d0ba54353667c57e5095b7a948c5c3e51a635d5335eafd6553",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/intro.txt": {
+      "hash": "d416c8adc6eafaf757bd81d5fc209869293504a5be43f4fc52f79e1ba7428d99",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/io.txt": {
+      "hash": "8bfd4adccb59dbf567627a6c7e8bdb907e841a64f8e7899894237e259d716a27",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ipaddress.txt": {
+      "hash": "58bb6e108468fd8452446e8d5e7c8eb7fae70a2ad79c5fe59cf42f531898a97c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ipc.txt": {
+      "hash": "81cf861df155baafba283bd4771568905eb910d78201345bcb19cb1d6ca6ce7f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/itertools.txt": {
+      "hash": "d90a1f5ea292f358313b93bee1f025c85e29faa3a9c0b49f03f871731444d6b0",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/json.txt": {
+      "hash": "a1e9c55441589c7d9f56602a8d23c38b9ed8207b317e2bd103223734b2388062",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/keyword.txt": {
+      "hash": "f67c35420caa0ce9b4a2bb6ba6e1ee9b0ef9c82eae98cc3b6c361b603ce22696",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/language.txt": {
+      "hash": "0e644a1c0c7faf2f5dc5fc0536fcce9091eff1893f154111642d13268cd8906c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/linecache.txt": {
+      "hash": "08415767e7f0717479e0f57fc4d34d6cac047843a723f55573882dfbef33a4a7",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/locale.txt": {
+      "hash": "894b8c03bf109ff414f7fe9bbe7c86f9aa5191dc95c2adb4f35ff4e938cb2d7f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/logging.config.txt": {
+      "hash": "bf1ffaf0543d1360096a0fe3cd013e5fc60ffd8b941b9515dcc91ea66c999984",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/logging.handlers.txt": {
+      "hash": "b2e45cfa6f2332fc07c48ef11c29f28abc381c7f26bb2a35279e166c3cf8edda",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/logging.txt": {
+      "hash": "8b69ca2af9dd778a8426576240d96c01668c5ac06b3fe129a9bff7529869f18f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/lzma.txt": {
+      "hash": "040af67f5762ac3b167ad282793b9a308b9dffae12ab16b5aa1f100be5aa211d",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/mailbox.txt": {
+      "hash": "7154b5094bfeb4e4fda42027d94bffa9bfb9ef22540198ce2cb119cb65ae78d4",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/mailcap.txt": {
+      "hash": "e14f11de95df416df95df61b40f9598613bf5f44580f0162e68726fe5409bf38",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/markup.txt": {
+      "hash": "bddbe28f88e526484f5e770256e79fb25c9d5632b27c3081275ce1493e332591",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/marshal.txt": {
+      "hash": "0b77bb76c1b5ed47b8c0e49912d9c01eda65117197e2f5a4638c85029cf0fc50",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/math.txt": {
+      "hash": "6fd7c46e20f03df6bb72605636b217fe5915b2b5d3a129b5f94da4a3f0b36978",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/mimetypes.txt": {
+      "hash": "b5daa3958d456f4bc4a78d253b73d7da2b382d5cd29b253b66370d069fbbec51",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/mm.txt": {
+      "hash": "30a3c049e5e393c8d375ea1218f8c7a183bb43e28760538c1a95a2a071637ee2",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/mmap.txt": {
+      "hash": "f72ad862cd990f27e7d264598d488b93bfd6a7ef4f9f1e46f347c2bc5d8875c7",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/modulefinder.txt": {
+      "hash": "bff9f397b285ce6c32a899d782116b5f7df3c7f978ce83d96c03518937df703c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/modules.txt": {
+      "hash": "a19fcd115fafc7e7a14669c6a528c797f09cb89f98f0218599bcf663956f6238",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/msilib.txt": {
+      "hash": "fc3513cf96cc7585147fc05faca68eca2161de4a497331bf77c6f04cb98945fa",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/msvcrt.txt": {
+      "hash": "84c3649cb1559bdd2069a723d4c4da395cbd0cfb73bb159e8778b4fae0883543",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/multiprocessing.shared_memory.txt": {
+      "hash": "223ef18bc47bae8474e19d6308f5e47eedb70e11e34464f6cde5b387b6ba2236",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/multiprocessing.txt": {
+      "hash": "bd7ad5342a6d96f68b74abdbf2c9e75d861047196c356b6ef8bc35b7bcbada05",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/netdata.txt": {
+      "hash": "0ad39dbaad7c30fe6a38dd75258c9c78f068678a96b2727c2dcd8498a20c2d1f",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/netrc.txt": {
+      "hash": "7e3ac3b86645e6e867fd8c5f332e6b2a94ec59a546c25719b63eda267cc5a54e",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/nis.txt": {
+      "hash": "0d15db37ea11de795e2a0fc797d122e12b0e929ac03512e197d4101802e311a7",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/nntplib.txt": {
+      "hash": "c3c271a1fc914a195c5f0b36ff79113b8ca1acc7d1f52038e6730ddf5b94d377",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/numbers.txt": {
+      "hash": "070a960fbf72d1361cc32ac5731aa36fbbcc756884d6efe6e1be083c3105b78c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/numeric.txt": {
+      "hash": "a03ecc6510d1d4dacd2992ae419dac5276cb14509ffd339cb26cadaba1988aea",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/operator.txt": {
+      "hash": "8b961169005158077754f14d4cec342a1a9da7566735c9b2d608079597ed86d3",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/optparse.txt": {
+      "hash": "ea841dc0e10d664a582848b1562f826a215d2c06e2e73faad3bcebbcae379ed6",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/os.path.txt": {
+      "hash": "34490bd8a5d02e8499271bd8d2dba32ecfc19eed1f2acdf3dedd8c83a0a3b134",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/os.txt": {
+      "hash": "7f1c79491036fcc49fd85e3ae64a1fa45949ab6fb1a170c2d43cb40cb7da50e9",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ossaudiodev.txt": {
+      "hash": "0369a3bc19527a490429e43a9b9c358744d9ee664b81d75dfa4711a0086acd9f",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pathlib.txt": {
+      "hash": "6acad5d8832edf9238f601cf9eeda9da9f8b8398cd1356cdaa508c90dc620c53",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pdb.txt": {
+      "hash": "b66efc574921240887a1314b3d2f40f898d8f8dde42d0ce657669c03c5de0518",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/persistence.txt": {
+      "hash": "5f6725ec90f79c71ec330071366cad17828537227efd995306ac2bb9d7e5e59a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pickle.txt": {
+      "hash": "a5180882f82e63f6c6c60201b43f41c5e03a31c482d5c1089265910e36e07704",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pickletools.txt": {
+      "hash": "4cc95d2503a6e58e9b36cd98f925ca45efea6089dffb97c8d675d80d228e6ad4",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pipes.txt": {
+      "hash": "bd7e104c0e95a609c6470f9c24dd81a8850e67ffbd91fc2e98661fcc2cd8bd72",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pkgutil.txt": {
+      "hash": "a6092303421a93a3800548c24ce3914c814e41b1cdef521e35a09a49d071a7c0",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/platform.txt": {
+      "hash": "00c3d814e2302e96780a89db7e90b8bf6c1028abc3b9bbcec46b699f1203c626",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/plistlib.txt": {
+      "hash": "fadb3f98b86e22944c948a50b70c15ccb1abeeb94d3005df5f830b48baec5311",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/poplib.txt": {
+      "hash": "a7af9148ecfc6fcccc599b1e8831c0dd82a23ebef9482a12cd2c82a4e855ad44",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/posix.txt": {
+      "hash": "d014af3ace8cecf00b50f3de86253c07592a3bc1240b9df3d1b59593d678b77a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pprint.txt": {
+      "hash": "91811a39f8eac1f1d025702faa563b257b9b1a50c04a629c850730d89ae39fb6",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/profile.txt": {
+      "hash": "3c2cec5ec50645696e81ea8e0af731b03d52c81463d6f4548dad891ff4ae2982",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pty.txt": {
+      "hash": "37f32f76027cf03a797adf8f1adb681ea2d6f1a9046c665e506d55193a7e6c77",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pwd.txt": {
+      "hash": "ae0b5d8d01366064fb09b9fbebc4c68aa81a672eff38cf1246fab54c1c12d3bd",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pyclbr.txt": {
+      "hash": "b3b8a9787f5ef6e2c301accb81694c49a7254c3dccae0356ab9040a813bab7aa",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pydoc.txt": {
+      "hash": "32262b4cc8a77ede658d32e40882c4621216433f9ff6082771f4eb16364cb62d",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/pyexpat.txt": {
+      "hash": "eda70fe2ecd548368938e6f9e0639167d931d32a065834ededc60104970a8989",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/python.txt": {
+      "hash": "33648d2692500f01c563aeda24447a6d27dc48b7ca093b54fd62db6ccd413346",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/py_compile.txt": {
+      "hash": "5c99ea9c84a007894f0280ab86535fd58c6273ea4efaf49fc0b844d9ad24ce93",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/queue.txt": {
+      "hash": "4d9e3558c84e7ec1f3a1d6d362a521a6a83dde2bafdc03be57765cbd15aa9e0d",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/quopri.txt": {
+      "hash": "4a2723db8a23cfb3ab596705bb6792adfac0c2c40d8552a675c41e762fe8e4d0",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/random.txt": {
+      "hash": "f08e8fde9780a51d239b99512d94293dec2e4cfac8387738950d9df0b9194d13",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/re.txt": {
+      "hash": "4525f53df51e89c3dbf50fd65e49c46209e41578bf5a442135cca6a488069371",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/readline.txt": {
+      "hash": "c16d9946795eb1d0b2d13a021df8cfcaeb921c9a107e361582378ef1d623646e",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/removed.txt": {
+      "hash": "97b9f0ca26bebfbbfe9f512d83b07d0cb5e48003c1b146786b328218c1843308",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/reprlib.txt": {
+      "hash": "a9e929547b6bc32722b02bee34b34e3f47cd36f16790bf04bf234293ce15444d",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/resource.txt": {
+      "hash": "c2787d24ed364dcae136160064ca6e98ed5262dadd8897a59631b4a9fcb1543f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/rlcompleter.txt": {
+      "hash": "d2f250e6d098198acfbb59c6327ef8ac792c6150ea1fe5556238bde89816dae7",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/runpy.txt": {
+      "hash": "cd5ad1643dd9a3cd52a1981fc5a725dc0681c29e972cf78b231a42679e66fb9b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sched.txt": {
+      "hash": "2264f8ba596cb6a353e9093f6e8db384f37c4c7196d9a69127c33642ae6507b5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/secrets.txt": {
+      "hash": "f2ebee302ce106e92ead6fcf4acdf2d46062444c047f636839a74f874e6a7ef5",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/security_warnings.txt": {
+      "hash": "2fa56723d64adb7aab4938945474f12a0a171632b6815132d3415a1a5e40aa19",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/select.txt": {
+      "hash": "9962510e4862b37a06e62c5708ed22011559b8b955bd7abc08db46412c69102c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/selectors.txt": {
+      "hash": "e00414cbf6d4cbd50f2e84c57ab8651ff0c9692491fa3e17ab33afacd559092c",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/shelve.txt": {
+      "hash": "26b870be65ae9c7702f3d72d48f3b9f8dbb7c108e829409eacaac70629d80a5f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/shlex.txt": {
+      "hash": "bdded04ba4e3f9373a8598a27f5ac71ffa16c0d5fbd987751109d24e26c6c3fb",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/shutil.txt": {
+      "hash": "4ec47d1fceeee0bc668f47617f6cfdc2cb17d07a7d28cae40da7cef31e7c48ab",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/signal.txt": {
+      "hash": "807a9ae723f23e05175416089d36134cd959a1ab9f7720a2bac844d043ff66c6",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/site.txt": {
+      "hash": "4954cefc42d773a1a4e86a8d12323d473f22f05f1cdeaafc63478e2853618dcc",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/smtpd.txt": {
+      "hash": "9d1eaa2f7a014e48915892d54b5a199429f63541f3c6f3c22be260a38ca31323",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/smtplib.txt": {
+      "hash": "476b61195a74198991aec688cf4e9e38bde672985104b64a51a02443783ee1a9",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sndhdr.txt": {
+      "hash": "7bf879576327c4c4e5b68a64edf46e391d62ea21edcffb499f97f6cbba1907e6",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/socket.txt": {
+      "hash": "2f9da97e3e0f1f8e3ef91b8e54451af61f72ae30246026f665bdde9a0f1566a9",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/socketserver.txt": {
+      "hash": "266ae45b1cd2a0a4475f1d9eb469178b4b4f74695041698997a7f7db6a6541c8",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/spwd.txt": {
+      "hash": "fa7ebbfb0cee27f3de9144ab2d6ba246117c5e24e6b7b69525e16f3ce48d60cc",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sqlite3.txt": {
+      "hash": "78a833b114a68cdfe594cc176a7b74ebcbc81108a341b97a577875a851eb7a97",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/ssl.txt": {
+      "hash": "40a578749673045ae48644f000253694590650acd3e54664533ae79f3e8e3f2d",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/stat.txt": {
+      "hash": "33eb19a7d1ff7f118bf51ed229553d0aec3369922b9afc1fcd58751a3d7f119d",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/statistics.txt": {
+      "hash": "924cd2d3cbe5e4307e117aa55f3575694b7ce1f4fda6f702619d717bb5414973",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/stdtypes.txt": {
+      "hash": "afc4d385f4228316f5b79be2ed01fddb1b162437a73866afd7c296e3a9622571",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/string.templatelib.txt": {
+      "hash": "2b1d32f5a55799ed04a43d30a51879120781fb2a3c20916ac878301f9dee0199",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/string.txt": {
+      "hash": "39a5e920180ab477f8f6ef559e03696ee07fc52051f208399dd6a88ec615e05f",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/stringprep.txt": {
+      "hash": "b437b8796bdf5611f8cc1903b8bcbabe3c44b3442858692447d4d0325317f366",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/struct.txt": {
+      "hash": "c896a9915a549a43fbd3a0d4bec76828c33bbf975389be0e25990af7add28aec",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/subprocess.txt": {
+      "hash": "81950ac1a70c5ec2d56604d6e5bc0a20da3d2b940552d4e3b3b33ec208fbee23",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sunau.txt": {
+      "hash": "2b6447000e37ebfc19bddadf77eb60573d708d39cb488456ee364a1e4d5e61fa",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/superseded.txt": {
+      "hash": "2911029241f5d3ba1ca246854ce6076ada9c585a3e18a80d2effd24631cc64fe",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/symtable.txt": {
+      "hash": "533929662c007e390731160f41ea91a12da80ae93baa05f436d3f36962c3b81b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sys.monitoring.txt": {
+      "hash": "c0efa2b8678a7c6bf0491409c7b232edaa9a4151d58cb260f18745b05e702e03",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sys.txt": {
+      "hash": "fcca9a57bbbd94fb57aed5d5a0ec47e3df31289536bd056435af2bfab14b2278",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sysconfig.txt": {
+      "hash": "ec057dddaaeb780ed0e8202c41114e682dad59d46ee0f3f15ea037e86e39dcb3",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/syslog.txt": {
+      "hash": "d2f8bb060c2075e5c295f108f0e4b34d95ab5681aae1dd04d64d579e4624d485",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/sys_path_init.txt": {
+      "hash": "ae0512283d5a1281403ac9eabf01ae900d0fd116f3a86d7a8a2634e06c19ec3b",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tabnanny.txt": {
+      "hash": "afc315a3386eab70899dec9b8999d904df026fa92c07ae1973d27a8d43811977",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tarfile.txt": {
+      "hash": "59b221f742b58c357d143d8d41a1ff4d98275bff20b3e5818874e0b169c3d79f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/telnetlib.txt": {
+      "hash": "ad70492dac7f8456b760fd91aebc771fea28b17be2c18884a1aab56aee641439",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tempfile.txt": {
+      "hash": "0c1dc2c72a29114e01026b76f5264cf074e31802300d8c5d8d8cc3b932c0df6f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/termios.txt": {
+      "hash": "341c5fa150725bd0ac037668fd52009673e977f6a4643e6e54fd4cb3069476a5",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/test.txt": {
+      "hash": "901385b060e848a3b8bc2011a42f9d9201ad901663eb4721da80213e06f228fa",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/text.txt": {
+      "hash": "7cc499ce17d78130988cdf0d2dddba3450cc49193d8bda7ea6b22dbe845ad539",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/textwrap.txt": {
+      "hash": "d0cb8527392eabd47c7519dec6b42a2baa6c2673034e74b3c93e6fade058f80d",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/threading.txt": {
+      "hash": "2a3cf4a66ae6bc32f64bc1cb48e5e675201278f20415310e09b9289b0e9f0683",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/time.txt": {
+      "hash": "132389080f55e2694e56a0c8b2b474143b584e74f53889441c0220d7411e2866",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/timeit.txt": {
+      "hash": "8c62ff861144820f72f85442c43577a18b6c01334086ec1d797b80b7a34482bd",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tk.txt": {
+      "hash": "3b8135f6a31c31b1b6edade60f9cdc15eaf156fb1cc46b2af5d278c028c35d28",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.colorchooser.txt": {
+      "hash": "c17be622358d7d068fdfab8d3115738540e4aee5b35f4a75a23cb826c756dfe4",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.dnd.txt": {
+      "hash": "e570a6d22dfb5b2f82b814b0431fa4bbdd69e6667884ebf1351afb092ed282a0",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.font.txt": {
+      "hash": "caa669ef9277696a35b4b6914379f9cbee2575686eb1466a59230672ed96de35",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.messagebox.txt": {
+      "hash": "0cd5f6b7a3d15e6a814e22dc7f8567e423bc65485b704c4d437466e661ba4124",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.scrolledtext.txt": {
+      "hash": "fc99c867470e8bf091f211b2dd5edfb188c71f98e727a2832572c382874582b2",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.ttk.txt": {
+      "hash": "2a52cf7123505a364489e8a7e04668a88505c67cc3c5b7489c1b345a35050526",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tkinter.txt": {
+      "hash": "f2c15fb33f464b71501ce7d97ac5d5305011c4ff51eef61f95cdd0e8547beb61",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/token.txt": {
+      "hash": "e4a5ea8a4aa9c0612bb9f3f6212254667d050410ec5ae2239eb78d1245ab6370",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tokenize.txt": {
+      "hash": "9909f187afc9498430f959e5a8c9f6e1956a00440d16cbe15c8a96b3b21f2a3f",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tomllib.txt": {
+      "hash": "1fd5a1c17aff2b15ad05df656f66927230a749b0c1216a171b9ed17a3323eb59",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/trace.txt": {
+      "hash": "89b5a80b34fab4f4ef867739080c55279f2bf91b7644b83f586fb2d0ec1a189e",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/traceback.txt": {
+      "hash": "1f0ca3b280a46fd4b287bca44dea2124df588376863a488921200910b33720f7",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tracemalloc.txt": {
+      "hash": "79e6d52cabf10b355df5c9ffaf1565dee63227d62cda209038e4de6032606b7b",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/tty.txt": {
+      "hash": "c815a631ff7a3499aa6ee7be3a2e12002e26d86ce1ba4409f3024637aabd7969",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/turtle.txt": {
+      "hash": "a0d432d2c880c295a85ebbbce861aa123091209a27d22cb3291d2d11966bea3c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/types.txt": {
+      "hash": "3f57cd3860e118fb88c50b43f323b2b9f926d2f8372f73b033f67f88e3ed4705",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/typing.txt": {
+      "hash": "ad907f482bdc28c48f8e24232e0a26f60756fa036972a4126bec1b8c24da63cc",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/unicodedata.txt": {
+      "hash": "d92aa89717ff8e6d3eeaac4f95a02e7d2ea67b2ed2acf63f085be379904b2f3e",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/unittest.mock-examples.txt": {
+      "hash": "11b3aa1d7eec47bff9c436be5510f7d512001035fd1cdea5d6638062ae6ce16a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/unittest.mock.txt": {
+      "hash": "0a72c3c768e2c928140c65efbdea2793bf795d72d787dd4a09cd06d2d63e8ae3",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/unittest.txt": {
+      "hash": "0d2c61687bb1b17029fc5cdd13a1ef097831759e5ff8aba544ad63b81cb7a97a",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/unix.txt": {
+      "hash": "8ddd0f43e7ca1fe5d06fca962d72c6ab356960a3455c0c957109da6912aceeba",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/urllib.error.txt": {
+      "hash": "d5ab5d09a926f4a61c369608a291221b56c2f8fdead886d1497f114e6662b75e",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/urllib.parse.txt": {
+      "hash": "e2d0c894ccb99763699dedb82c58f99234c5027251ea1df324c241f4dd4dc586",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/urllib.request.txt": {
+      "hash": "2fe0d67ce50718df0658ebf588fe145c06fce162110b3d5d73777498bd6fd3cf",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/urllib.robotparser.txt": {
+      "hash": "0fccd595a4eab8244372634f44c58492467b8ad505d0e504b82125a6edec8022",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/urllib.txt": {
+      "hash": "1c510fa57f46a95231690e746084a76ea3c84b0b82af12c02fe1f6e12e1545db",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/uu.txt": {
+      "hash": "93b74fa34d5891809588cf9fa828529398f48bd4a4c8915540966814bc61603a",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/uuid.txt": {
+      "hash": "430ac41abdfcd143636334afa9f86cf87e6083bac354c94d59343f47c5fe941c",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/venv.txt": {
+      "hash": "00f874e81694a036e7ed993aa8c5adb5e231edf582248016942969708ecf85ed",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/warnings.txt": {
+      "hash": "013bd912590eb732f9d416d391c3275d57f2eff68b5bcc5b84d356c93edb6e49",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/wave.txt": {
+      "hash": "e413262afa3a1a64944cae80805a54b0712d1647872d49c8a03eb8df2da5c696",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/weakref.txt": {
+      "hash": "ca9253296ba667fcfff1696e81957ecbdb8d3b342b15a15db68eab5177a990da",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/webbrowser.txt": {
+      "hash": "4608936863aac9f868704d007e12edc3a51d357f50b14b4a151ca249f0395cdd",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/windows.txt": {
+      "hash": "4960361ef3e47f28b3e5c0e7599416d8022f0eea496ae9bb9202357c8acf7e1a",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/winreg.txt": {
+      "hash": "2f7b5c70be1c2e7933443cc80b730abf91aca89f1a5d8c657846ec88b16f3839",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/winsound.txt": {
+      "hash": "2657eff66965dda4747ca6c729f5a9c8cdee00dc3ea721e0a3b3547ee5282982",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/wsgiref.txt": {
+      "hash": "fc4e2139fb459e62ee28637ba80b94cf557b975a63b7887ae1126cd39b7505da",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xdrlib.txt": {
+      "hash": "887c684b45f63214838f0c0ace2b8e0a908ea6d4446e704786c34744f737f918",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.dom.minidom.txt": {
+      "hash": "d4c049aaddb29b6f873929899097bf402b211f2b68ef8b22b7332f6dbb19f9f9",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.dom.pulldom.txt": {
+      "hash": "c9da0ad960041e8419b6a110caeb09d046ec6473e3c58468c7903f15ebd15cd1",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.dom.txt": {
+      "hash": "d5daea8153d099bd64c53aafbef27d835dc0fe5809bf283c7f4221ae67523843",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.etree.elementtree.txt": {
+      "hash": "9bb13700a640f144b7a5ac72eeec0c35f8fc92c3e12593d8e86db53a563ad69b",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.sax.handler.txt": {
+      "hash": "9895fb72235f26202966d45772e7c1f0e2a5373bf8fb7e92d68132f0bffa5934",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.sax.reader.txt": {
+      "hash": "facffb62f3c372352fd948b9568b1559ffae03d0e57722c3a9a3fe7625ebd548",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.sax.txt": {
+      "hash": "2e817999045baf4efc893e5a7276cb189798768e44d5a48ac60257a453c833b8",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.sax.utils.txt": {
+      "hash": "32fa3e2a38bda0b9b30f978d1d360e7e121d32813404842ee03c13e10233ac2a",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xml.txt": {
+      "hash": "fce63d0ad5de41e7029e0f3c874102cbdf383bb115c8865ce1432e4b0a9fc7ad",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xmlrpc.client.txt": {
+      "hash": "e4d1f0601dd507dcb305d1928868fd2b8aee5d1d5ea743b5ad836c26dd8d5c32",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xmlrpc.server.txt": {
+      "hash": "19ba52704527f28baa76fe9c0c39336e4d3438f54a63fdc1f9e24b0b8572cc5a",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/xmlrpc.txt": {
+      "hash": "53c7eac3ffc80caa4a1a199f12a07e15830699c29fe44881d5c26e1cc36380b9",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/zipapp.txt": {
+      "hash": "a3b654f66cbad60c59dc77e18bcefc433700f1de8044e443a256b4c2d9637594",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/zipfile.txt": {
+      "hash": "00260a65fde276395f8b47e22e0ec06798cd75480a96edf9e1c446b02bd8e4f5",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/zipimport.txt": {
+      "hash": "47eb1bb06d28b573e922b02abee03c7884c98364c62850b9307ce77386635782",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/zlib.txt": {
+      "hash": "72243b9361ece5d3c744709b76163aeb2d3898588db8f1aa482fee42ada443e7",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/zoneinfo.txt": {
+      "hash": "b1eeb7eae8ad50c95c199bee35dd90f14aadd8f63aedcde6ea0df986fc681830",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/_thread.txt": {
+      "hash": "5aa2c07665aa391b31042f35d6ea38db637711c89f65fc5fea605cf51299c057",
+      "mtime": 1769553129
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/__future__.txt": {
+      "hash": "cbd2a0b249aec05f0206cb14e49f2872041ec83002f35c03341ddc42179cc3ce",
+      "mtime": 1769553128
+    },
+    "C:/Users/ciero/Downloads/python-3.14-docs-text/New folder/library/__main__.txt": {
+      "hash": "085a840fdd38bd1d0e65e8eaec0d6ca3237ef331e5b930a547a0be1b50439385",
+      "mtime": 1769553129
+    },
     "C:/Users/ciero/Downloads/realign master/orderbook info.docx": {
       "hash": "e9a385fe84611da33a3563b57ff978472d087de310bd445ba98ce78775deefbf",
       "mtime": 1769443421

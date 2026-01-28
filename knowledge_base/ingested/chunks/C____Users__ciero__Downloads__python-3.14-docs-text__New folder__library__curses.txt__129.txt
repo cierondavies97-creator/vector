@@ -1,0 +1,5 @@
+"touchline()" method so that the contents will be redisplayed by
+   the next window refresh.
+window.clear()
+   Like "erase()", but also cause the whole window to be repainted
+   upon next call to "refresh()".

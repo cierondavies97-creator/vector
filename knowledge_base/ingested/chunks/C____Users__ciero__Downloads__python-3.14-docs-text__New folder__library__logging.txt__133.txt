@@ -1,0 +1,3 @@
+the "converter" attribute to a function with the same signature
+      as "time.localtime()" or "time.gmtime()". To change it for all
+      formatters, for example if you want all logging times to be

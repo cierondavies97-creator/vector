@@ -1,0 +1,6 @@
+or if you just call "parser.print_help()", it prints the following to
+standard output:
+   Usage: <yourscript> [options] arg1 arg2
+   Options:
+     -h, --help            show this help message and exit
+     -v, --verbose         make lots of noise [default]

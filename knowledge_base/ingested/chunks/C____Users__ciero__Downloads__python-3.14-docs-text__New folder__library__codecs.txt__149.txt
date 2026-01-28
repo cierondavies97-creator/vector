@@ -1,0 +1,3 @@
+encoded with this codec. Doing so will raise a "UnicodeEncodeError"
+that looks like the following (although the details of the error
+message may differ): "UnicodeEncodeError: 'latin-1' codec can't encode

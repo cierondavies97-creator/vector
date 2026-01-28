@@ -1,0 +1,3 @@
+modifying the core config file distributed with the Python install
+manager. We recommend, however, that registry values are used only to
+set "base_config" to a JSON file containing the full set of overrides.

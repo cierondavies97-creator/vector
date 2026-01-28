@@ -1,0 +1,4 @@
+internet connection for optional features. See Installing without
+downloading for other ways to avoid downloading during installation.
+After starting the installer, one of two options may be selected:
+[image]

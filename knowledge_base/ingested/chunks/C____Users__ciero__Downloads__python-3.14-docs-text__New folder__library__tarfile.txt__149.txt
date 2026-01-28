@@ -1,0 +1,4 @@
+TarInfo describing the member and the destination path to where the
+  archive is extracted (i.e. the same path is used for all members):
+     filter(member: TarInfo, path: str, /) -> TarInfo | None
+  The callable is called just before each member is extracted, so it

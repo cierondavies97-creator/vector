@@ -1,0 +1,5 @@
+Write *value* to a plist file. *fp* should be a writable, binary
+   file object.
+   The *fmt* argument specifies the format of the plist file and can
+   be one of the following values:
+   * "FMT_XML": XML formatted plist file

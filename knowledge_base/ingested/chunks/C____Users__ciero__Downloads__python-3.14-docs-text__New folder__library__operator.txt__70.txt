@@ -1,0 +1,8 @@
+operator.iadd(a, b)
+operator.__iadd__(a, b)
+   "a = iadd(a, b)" is equivalent to "a += b".
+operator.iand(a, b)
+operator.__iand__(a, b)
+   "a = iand(a, b)" is equivalent to "a &= b".
+operator.iconcat(a, b)
+operator.__iconcat__(a, b)

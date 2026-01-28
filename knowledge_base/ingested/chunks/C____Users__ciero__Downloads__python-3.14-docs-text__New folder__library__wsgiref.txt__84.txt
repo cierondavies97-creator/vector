@@ -1,0 +1,4 @@
+all other script mappings, many of which break when exposed to the
+   "PATH_TRANSLATED" bug. For this reason IIS<7 is almost never
+   deployed with the fix (Even IIS7 rarely uses it because there is
+   still no UI for it.).

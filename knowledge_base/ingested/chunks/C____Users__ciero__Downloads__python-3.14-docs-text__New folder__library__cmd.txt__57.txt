@@ -1,0 +1,5 @@
+Current position is 0 0
+   Current heading is 0
+   Current heading is 180
+   (turtle) bye
+   Thank you for using Turtle

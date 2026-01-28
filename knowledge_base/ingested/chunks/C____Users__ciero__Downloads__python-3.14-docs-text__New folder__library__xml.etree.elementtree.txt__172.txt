@@ -1,0 +1,3 @@
+In cases where canonical output is not applicable but a specific
+   attribute order is still desirable on output, code should aim for
+   creating the attributes directly in the desired order, to avoid

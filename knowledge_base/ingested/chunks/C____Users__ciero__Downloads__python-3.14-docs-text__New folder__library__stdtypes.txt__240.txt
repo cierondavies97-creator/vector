@@ -1,0 +1,5 @@
+See also:
+  * The linspace recipe shows how to implement a lazy version of range
+    suitable for floating-point applications.
+Text and Binary Sequence Type Methods Summary
+=============================================

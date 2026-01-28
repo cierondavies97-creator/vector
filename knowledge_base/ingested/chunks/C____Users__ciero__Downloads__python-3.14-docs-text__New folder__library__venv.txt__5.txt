@@ -1,0 +1,4 @@
+virtual environments and Python interpreters and libraries installed
+  in the operating system.
+* Contained in a directory, conventionally named ".venv" or "venv" in
+  the project directory, or under a container directory for lots of

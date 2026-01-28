@@ -1,0 +1,7 @@
+step = STACK.pop()
+      end = STACK.pop()
+      start = STACK.pop()
+      STACK.append(slice(start, end, step))
+   See the "slice()" built-in function for more information.
+EXTENDED_ARG(ext)
+   Prefixes any opcode which has an argument too big to fit into the

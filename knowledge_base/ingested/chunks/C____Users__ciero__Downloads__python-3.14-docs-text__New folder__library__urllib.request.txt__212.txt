@@ -1,0 +1,4 @@
+>>> local_filename, headers = urllib.request.urlretrieve('http://python.org/')
+      >>> html = open(local_filename)
+      >>> html.close()
+   If the *url* uses the "http:" scheme identifier, the optional

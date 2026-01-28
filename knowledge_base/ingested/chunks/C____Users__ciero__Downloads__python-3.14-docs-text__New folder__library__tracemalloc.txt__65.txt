@@ -1,0 +1,6 @@
+allocated in the address space "domain".
+   domain
+      Address space of a memory block ("int"). Read-only property.
+Filter
+------
+class tracemalloc.Filter(inclusive: bool, filename_pattern: str, lineno: int = None, all_frames: bool = False, domain: int = None)

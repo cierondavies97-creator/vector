@@ -1,0 +1,6 @@
+first line.
+4.12.2. Shebang lines
+---------------------
+If the first line of a script file starts with "#!", it is known as a
+"shebang" line.  Linux and other Unix like operating systems have
+native support for such lines and they are commonly used on such

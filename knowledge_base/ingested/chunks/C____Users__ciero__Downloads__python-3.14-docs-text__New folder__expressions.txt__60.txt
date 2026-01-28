@@ -1,0 +1,5 @@
+leftmost iterable. For example: "(x*y for x in range(10) for y in
+range(x, x+10))".
+The parentheses can be omitted on calls with only one argument.  See
+section Calls for details.
+To avoid interfering with the expected operation of the generator

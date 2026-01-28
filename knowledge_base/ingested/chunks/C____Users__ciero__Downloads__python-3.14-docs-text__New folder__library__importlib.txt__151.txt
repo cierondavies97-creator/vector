@@ -1,0 +1,3 @@
+Please note that direct use of bytecode files (and thus not source
+   code files) inhibits your modules from being usable by all Python
+   implementations or new versions of Python which change the bytecode

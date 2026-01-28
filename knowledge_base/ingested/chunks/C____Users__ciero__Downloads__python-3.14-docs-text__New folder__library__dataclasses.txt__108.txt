@@ -1,0 +1,3 @@
+fields from that base class to an ordered mapping of fields. After all
+of the base class fields are added, it adds its own fields to the
+ordered mapping.  All of the generated methods will use this combined,

@@ -1,0 +1,5 @@
+timeout feature is not available on Windows.
+   Added in version 3.9.
+test.support.calcobjsize(fmt)
+   Return the size of the "PyObject" whose structure members are
+   defined by *fmt*. The returned value includes the size of the

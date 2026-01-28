@@ -1,0 +1,4 @@
+* "'f'": Open the database in fast mode. Writes to the
+          database will not be synchronized.
+        * "'s'": Synchronized mode. Changes to the database will be
+          written immediately to the file.

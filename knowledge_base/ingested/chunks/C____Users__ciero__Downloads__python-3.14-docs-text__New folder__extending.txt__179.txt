@@ -1,0 +1,4 @@
+even though it may actually create the object it returns: this is
+possible because an owned reference to the object is stored in
+"sys.modules".
+When you pass an object reference into another function, in general,

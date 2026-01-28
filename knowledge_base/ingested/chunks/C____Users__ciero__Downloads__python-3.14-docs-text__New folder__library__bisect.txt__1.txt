@@ -1,0 +1,4 @@
+without having to sort the list after each insertion.  For long lists
+of items with expensive comparison operations, this can be an
+improvement over linear searches or frequent resorting.
+The module is called "bisect" because it uses a basic bisection

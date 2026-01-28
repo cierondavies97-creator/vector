@@ -1,0 +1,6 @@
+efficiently, but most are copied via "pickle".  See "Sharing"
+      Objects.
+   exec(code, /, dedent=True)
+      Run the given source code in the interpreter (in the current
+      thread).
+   call(callable, /, *args, **kwargs)

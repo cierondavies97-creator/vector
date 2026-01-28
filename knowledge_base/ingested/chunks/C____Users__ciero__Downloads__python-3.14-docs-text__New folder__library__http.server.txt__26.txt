@@ -1,0 +1,5 @@
+"'BaseHTTP/0.2'".
+   sys_version
+      Contains the Python system version, in a form usable by the
+      "version_string" method and the "server_version" class variable.
+      For example, "'Python/1.4'".

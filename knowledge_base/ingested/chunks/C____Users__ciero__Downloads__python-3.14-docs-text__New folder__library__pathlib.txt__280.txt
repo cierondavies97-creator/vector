@@ -1,0 +1,4 @@
+"RuntimeError".
+[3] "os.path.abspath()" removes "".."" components without resolving
+    symlinks, which may change the meaning of the path, whereas
+    "Path.absolute()" leaves any "".."" components in the path.

@@ -1,0 +1,4 @@
+signal handler at a later point(for example at the next *bytecode*
+instruction). This has consequences:
+* It makes little sense to catch synchronous errors like "SIGFPE" or
+  "SIGSEGV" that are caused by an invalid operation in C code.  Python

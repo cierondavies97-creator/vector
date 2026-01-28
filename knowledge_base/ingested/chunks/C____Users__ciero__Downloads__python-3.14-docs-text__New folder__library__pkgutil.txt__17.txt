@@ -1,0 +1,5 @@
+output.
+   Note that this function must import all *packages* (*not* all
+   modules!) on the given *path*, in order to access the "__path__"
+   attribute to find submodules.
+   *onerror* is a function which gets called with one argument (the

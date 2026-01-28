@@ -1,0 +1,4 @@
+would have to read data from the backing storage or wait for a
+   lock.
+   If some data was successfully read, it will return the number of
+   bytes read. If no bytes were read, it will return "-1" and set

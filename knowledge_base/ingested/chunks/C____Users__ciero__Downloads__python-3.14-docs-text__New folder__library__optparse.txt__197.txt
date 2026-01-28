@@ -1,0 +1,3 @@
+this option on the command-line.  If "nargs" > 1, multiple arguments
+  are consumed, and a tuple of length "nargs" is appended to "dest".
+  The defaults for "type" and "dest" are the same as for the ""store""

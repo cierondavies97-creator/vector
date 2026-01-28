@@ -1,0 +1,4 @@
+variables. "unsetenv()" will be called automatically when an item
+   is deleted from "os.environ", and when one of the "pop()" or
+   "clear()" methods is called.
+   See also: The "os.reload_environ()" function.

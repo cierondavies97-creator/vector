@@ -1,0 +1,3 @@
+match as much text as possible.  Sometimes this behaviour isn't
+   desired; if the RE "<.*>" is matched against "'<a> b <c>'", it will
+   match the entire string, and not just "'<a>'".  Adding "?" after

@@ -1,0 +1,4 @@
+evaluate the inner expression "{precision}" to determine the value
+  of the "format_spec" attribute. If "precision" were to be "2", the
+  resulting format specifier would be "'.2f'".
+* When the equals sign "'='" is provided in an interpolation

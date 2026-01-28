@@ -1,0 +1,9 @@
+* Path objects
+  * PyZipFile objects
+  * ZipInfo objects
+  * Command-line interface
+    * Command-line options
+  * Decompression pitfalls
+    * From file itself
+    * File system limitations
+    * Resources limitations

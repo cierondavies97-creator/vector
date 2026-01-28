@@ -1,0 +1,3 @@
+A common use case is to mock out classes instantiated by your code
+under test. When you patch a class, then that class is replaced with a
+mock. Instances are created by *calling the class*. This means you

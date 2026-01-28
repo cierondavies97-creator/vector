@@ -1,0 +1,5 @@
+Simple API for XML (SAX) interface for Python.  The package itself
+provides the SAX exceptions and the convenience functions which will
+be most used by users of the SAX API.
+Note:
+  If you need to parse untrusted or unauthenticated data, see XML

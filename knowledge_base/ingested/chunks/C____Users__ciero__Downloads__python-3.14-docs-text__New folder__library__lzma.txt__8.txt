@@ -1,0 +1,4 @@
+""xt"", or ""at"" for text mode. The default is ""rb"".
+   When opening a file for reading, the *format* and *filters*
+   arguments have the same meanings as for "LZMADecompressor". In this
+   case, the *check* and *preset* arguments should not be used.

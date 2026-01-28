@@ -1,0 +1,8 @@
+EXTRA) }
+       | inversion
+   inversion[expr_ty] (memo):
+       | 'not' a=inversion { _PyAST_UnaryOp(Not, a, EXTRA) }
+       | comparison
+   # Comparison operators
+   # --------------------
+   comparison[expr_ty]:

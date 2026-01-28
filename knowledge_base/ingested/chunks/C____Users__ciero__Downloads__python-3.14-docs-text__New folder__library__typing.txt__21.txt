@@ -1,0 +1,6 @@
+"NewType":
+   from typing import NewType
+   UserId = NewType('UserId', int)
+   ProUserId = NewType('ProUserId', UserId)
+and typechecking for "ProUserId" will work as expected.
+See **PEP 484** for more details.

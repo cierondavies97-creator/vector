@@ -1,0 +1,5 @@
+*raw* parameter is false.  This is relevant only when the default
+   *interpolation* is used.
+RawConfigParser Objects
+=======================
+class configparser.RawConfigParser(defaults=None, dict_type=dict, allow_no_value=False, *, delimiters=('=', ':'), comment_prefixes=('#', ';'), inline_comment_prefixes=None, strict=True, empty_lines_in_values=True, default_section=configparser.DEFAULTSECT, interpolation=BasicInterpolation(), converters={}, allow_unnamed_section=False)

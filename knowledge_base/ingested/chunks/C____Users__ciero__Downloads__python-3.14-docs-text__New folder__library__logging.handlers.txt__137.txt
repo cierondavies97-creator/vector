@@ -1,0 +1,3 @@
+At this point, you can remove the application name from the
+      registry as a source of event log entries. However, if you do
+      this, you will not be able to see the events as you intended in

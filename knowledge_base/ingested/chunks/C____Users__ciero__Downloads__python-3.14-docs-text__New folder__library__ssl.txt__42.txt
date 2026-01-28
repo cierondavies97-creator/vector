@@ -1,0 +1,7 @@
+Added in version 3.3.
+exception ssl.SSLCertVerificationError
+   A subclass of "SSLError" raised when certificate validation has
+   failed.
+   Added in version 3.7.
+   verify_code
+      A numeric error number that denotes the verification error.

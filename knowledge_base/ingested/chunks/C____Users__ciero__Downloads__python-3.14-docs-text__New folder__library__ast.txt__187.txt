@@ -1,0 +1,6 @@
+in "orelse" are executed if the loop finishes normally, rather than
+   via a "break" statement.
+   type_comment
+      "type_comment" is an optional string with the type annotation as
+      a comment.
+      >>> print(ast.dump(ast.parse("""

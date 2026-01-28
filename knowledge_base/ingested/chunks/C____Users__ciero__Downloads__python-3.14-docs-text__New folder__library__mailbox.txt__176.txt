@@ -1,0 +1,3 @@
+*time_* may be specified and will be formatted appropriately and
+      appended to *from_*. If *time_* is specified, it should be a
+      "time.struct_time" instance, a tuple suitable for passing to

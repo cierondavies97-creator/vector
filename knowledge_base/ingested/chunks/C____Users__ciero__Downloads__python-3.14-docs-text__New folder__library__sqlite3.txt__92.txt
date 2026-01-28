@@ -1,0 +1,5 @@
+method does nothing. If "autocommit" is "False", a new
+      transaction is implicitly opened if a pending transaction was
+      rolled back by this method.
+   close()
+      Close the database connection. If "autocommit" is "False", any

@@ -1,0 +1,4 @@
+class Employee: ...
+   # Sequence[Employee] indicates that all elements in the sequence
+   # must be instances of "Employee".
+   # Mapping[str, str] indicates that all keys and all values in the mapping

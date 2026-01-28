@@ -1,0 +1,5 @@
+coordinates instead of a "RECT" instance, you can retrieve the fields
+in the function and return them instead, the normal processing will no
+longer take place:
+   >>> def errcheck(result, func, args):
+   ...     if not result:

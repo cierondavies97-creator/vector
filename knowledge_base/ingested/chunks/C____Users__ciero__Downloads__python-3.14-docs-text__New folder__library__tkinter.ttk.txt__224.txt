@@ -1,0 +1,5 @@
+To check what font a Button uses by default:
+         from tkinter import ttk
+         print(ttk.Style().lookup("TButton", "font"))
+   layout(style, layoutspec=None)
+      Define the widget layout for given *style*. If *layoutspec* is

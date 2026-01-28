@@ -1,0 +1,5 @@
+* **acct** (*str*) -- Account information to be used for the
+           "ACCT" FTP command. Few systems implement this. See RFC-959
+           for more details.
+   abort()
+      Abort a file transfer that is in progress.  Using this does not

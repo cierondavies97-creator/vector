@@ -1,0 +1,4 @@
+Load a private key and the corresponding certificate.  The
+   *certfile* string must be the path to a single file in PEM format
+   containing the certificate as well as any number of CA certificates
+   needed to establish the certificate's authenticity.  The *keyfile*

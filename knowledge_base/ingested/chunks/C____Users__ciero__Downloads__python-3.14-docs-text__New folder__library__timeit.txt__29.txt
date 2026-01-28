@@ -1,0 +1,4 @@
+processes interfering with your timing accuracy. So the
+        "min()" of the result is probably the only number you should
+        be interested in.  After that, you should look at the entire
+        vector and apply common sense rather than statistics.

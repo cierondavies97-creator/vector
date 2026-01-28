@@ -1,0 +1,5 @@
+or when an attempt is made to use the "SMTP" instance before
+   connecting it to a server.
+exception smtplib.SMTPResponseException
+   Base class for all exceptions that include an SMTP error code.
+   These exceptions are generated in some instances when the SMTP

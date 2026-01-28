@@ -1,0 +1,4 @@
+"https", based on the current request's "environ" variables.
+   setup_environ()
+      Set the "environ" attribute to a fully populated WSGI
+      environment.  The default implementation uses all of the above

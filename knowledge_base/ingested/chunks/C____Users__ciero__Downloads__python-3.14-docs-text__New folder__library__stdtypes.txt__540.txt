@@ -1,0 +1,5 @@
+integer in the range 0 to 255.
+   Note:
+     The "find()" method should be used only if you need to know the
+     position of *sub*.  To check if *sub* is a substring or not, use
+     the "in" operator:

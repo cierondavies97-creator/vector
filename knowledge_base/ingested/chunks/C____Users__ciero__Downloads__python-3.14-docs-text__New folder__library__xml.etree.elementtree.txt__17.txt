@@ -1,0 +1,4 @@
+too low-level and inconvenient for most needs.  Sometimes what the
+user really wants is to be able to parse XML incrementally, without
+blocking operations, while enjoying the convenience of fully
+constructed "Element" objects.

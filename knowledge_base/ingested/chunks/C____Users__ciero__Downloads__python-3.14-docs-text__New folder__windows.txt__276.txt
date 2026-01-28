@@ -1,0 +1,5 @@
+When no "._pth" file is found, this is how "sys.path" is populated on
+Windows:
+* An empty entry is added at the start, which corresponds to the
+  current directory.
+* If the environment variable "PYTHONPATH" exists, as described in

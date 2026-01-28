@@ -1,0 +1,3 @@
+"DEFAULT_LOGGING_CONFIG_PORT" is used. Logging configurations will
+   be sent as a file suitable for processing by "dictConfig()" or
+   "fileConfig()". Returns a "Thread" instance on which you can call

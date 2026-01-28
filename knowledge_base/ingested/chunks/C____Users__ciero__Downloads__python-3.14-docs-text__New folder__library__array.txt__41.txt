@@ -1,0 +1,4 @@
+array of some other type.
+The string representation of array objects has the form
+"array(typecode, initializer)". The *initializer* is omitted if the
+array is empty, otherwise it is a Unicode string if the *typecode* is

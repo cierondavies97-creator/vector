@@ -1,0 +1,3 @@
+indicates where in the original source file the first line of code
+   was found.  An "OSError" is raised if the source code cannot be
+   retrieved. A "TypeError" is raised if the object is a built-in

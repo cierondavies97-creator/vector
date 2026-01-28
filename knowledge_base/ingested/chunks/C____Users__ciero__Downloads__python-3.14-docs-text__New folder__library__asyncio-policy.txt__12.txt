@@ -1,0 +1,4 @@
+default asyncio policy now raises a "RuntimeError" if there is no
+   set event loop.
+   Deprecated since version 3.14: The "DefaultEventLoopPolicy" class
+   is deprecated and will be removed in Python 3.16.

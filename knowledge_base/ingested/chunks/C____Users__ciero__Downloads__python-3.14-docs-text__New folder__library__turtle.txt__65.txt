@@ -1,0 +1,5 @@
+common directions in degrees:
+   +---------------------+----------------------+
+   | standard mode       | logo mode            |
+   |=====================|======================|
+   | 0 - east            | 0 - north            |

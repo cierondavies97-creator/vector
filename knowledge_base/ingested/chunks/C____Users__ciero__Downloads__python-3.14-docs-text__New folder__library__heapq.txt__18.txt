@@ -1,0 +1,5 @@
+item from *heap*. The combined action runs more efficiently than
+   "heappush_max()" followed by a separate call to "heappop_max()".
+   Added in version 3.14.
+heapq.heapreplace_max(heap, item)
+   Pop and return the largest item from the max-heap *heap* and also

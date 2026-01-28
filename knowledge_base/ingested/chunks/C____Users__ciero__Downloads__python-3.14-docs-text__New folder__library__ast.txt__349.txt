@@ -1,0 +1,5 @@
+Changed in version 3.9: Now supports creating empty sets with
+   "'set()'".
+   Changed in version 3.10: For string inputs, leading spaces and tabs
+   are now stripped.
+ast.get_docstring(node, clean=True)

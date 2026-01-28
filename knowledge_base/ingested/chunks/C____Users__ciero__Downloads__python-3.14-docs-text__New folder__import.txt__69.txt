@@ -1,0 +1,4 @@
+* Module execution is the key moment of loading in which the module's
+  namespace gets populated.  Execution is entirely delegated to the
+  loader, which gets to decide what gets populated and how.
+* The module created during loading and passed to exec_module() may

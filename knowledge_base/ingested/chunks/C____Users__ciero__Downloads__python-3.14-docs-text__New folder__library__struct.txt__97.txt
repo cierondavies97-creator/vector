@@ -1,0 +1,6 @@
+format.
+   unpack(buffer)
+      Identical to the "unpack()" function, using the compiled format.
+      The buffer's size in bytes must equal "size".
+   unpack_from(buffer, offset=0)
+      Identical to the "unpack_from()" function, using the compiled

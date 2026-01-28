@@ -1,0 +1,3 @@
+| None      | For "float" this is like the "'g'" type, except that when  |
+   |           | fixed- point notation is used to format the result, it     |
+   |           | always includes at least one digit past the decimal point, |

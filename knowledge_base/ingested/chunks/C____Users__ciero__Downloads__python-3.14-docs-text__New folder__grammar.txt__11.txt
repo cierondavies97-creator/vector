@@ -1,0 +1,7 @@
+#   rule:
+   # rule_name[return_type]: expression
+   #   If the return type is omitted, then a void * is returned in C and an Any in
+   #   Python.
+   # e1 e2
+   #   Match e1, then match e2.
+   # e1 | e2

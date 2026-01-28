@@ -1,0 +1,5 @@
+and for creating new named tuple types from existing named tuples.
+      >>> p._fields            # view the field names
+      ('x', 'y')
+      >>> Color = namedtuple('Color', 'red green blue')
+      >>> Pixel = namedtuple('Pixel', Point._fields + Color._fields)

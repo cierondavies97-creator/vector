@@ -1,0 +1,5 @@
+# transition times based on the input dt.year, and expressed
+          # in standard local time.
+          if dston <= dt.replace(tzinfo=None) < dstoff:
+              return timedelta(hours=1)
+          else:

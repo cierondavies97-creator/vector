@@ -1,0 +1,5 @@
+features:
+   * Any form of network IO; "recv()" and "send()" read and write only
+     to the underlying "MemoryBIO" buffers.
+   * There is no *do_handshake_on_connect* machinery. You must always
+     manually call "do_handshake()" to start the handshake.

@@ -1,0 +1,3 @@
+strict, imaplib still continues to allow such tags to be created
+     for backward compatibility reasons, and as of Python 3.6, handles
+     them if they are sent from the server, since this improves real-

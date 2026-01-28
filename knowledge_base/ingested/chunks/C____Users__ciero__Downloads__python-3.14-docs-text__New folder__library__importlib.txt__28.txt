@@ -1,0 +1,4 @@
+key modules is not recommended.  In many cases extension modules
+   are not designed to be initialized more than once, and may fail in
+   arbitrary ways when reloaded.
+   If a module imports objects from another module using "from" ...

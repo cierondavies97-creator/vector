@@ -1,0 +1,5 @@
+Note:
+     Excluded time components are truncated, not rounded.
+   "ValueError" will be raised on an invalid *timespec* argument:
+      >>> from datetime import datetime
+      >>> datetime.now().isoformat(timespec='minutes')

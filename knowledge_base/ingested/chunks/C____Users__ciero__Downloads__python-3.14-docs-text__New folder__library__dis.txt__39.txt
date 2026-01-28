@@ -1,0 +1,4 @@
+last traceback if none was passed.  The instruction causing the
+   exception is indicated.
+   The disassembly is written as text to the supplied *file* argument
+   if provided and to "sys.stdout" otherwise.

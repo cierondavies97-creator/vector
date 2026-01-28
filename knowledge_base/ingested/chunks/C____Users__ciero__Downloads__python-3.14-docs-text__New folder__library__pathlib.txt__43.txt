@@ -1,0 +1,5 @@
+implementation-defined manner, although more than two leading
+     slashes shall be treated as a single slash."*
+PurePath.anchor
+   The concatenation of the drive and root:
+      >>> PureWindowsPath('c:/Program Files/').anchor

@@ -1,0 +1,5 @@
+returned.
+   Note:
+     This function is intended for low-level I/O and must be applied
+     to a file descriptor as returned by "os.open()" or "pipe()".  To
+     read a "file object" returned by the built-in function "open()"

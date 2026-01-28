@@ -1,0 +1,4 @@
+Python's import system, this library intends to replace similar
+functionality in the entry point API and metadata API of
+"pkg_resources". Along with "importlib.resources", this package can
+eliminate the need to use the older and less efficient "pkg_resources"

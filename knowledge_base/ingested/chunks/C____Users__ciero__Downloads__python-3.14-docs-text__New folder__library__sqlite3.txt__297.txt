@@ -1,0 +1,6 @@
+print("with declared types:", cur.fetchone()[0])
+   cur.close()
+   con.close()
+   # 2) Parse using column names
+   con = sqlite3.connect(":memory:", detect_types=sqlite3.PARSE_COLNAMES)
+   cur = con.execute("CREATE TABLE test(p)")

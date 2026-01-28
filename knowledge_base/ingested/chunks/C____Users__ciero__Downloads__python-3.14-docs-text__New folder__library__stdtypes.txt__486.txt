@@ -1,0 +1,5 @@
+variety of other ways.
+class bytes(source=b'')
+class bytes(source, encoding, errors='strict')
+   Firstly, the syntax for bytes literals is largely the same as that
+   for string literals, except that a "b" prefix is added:

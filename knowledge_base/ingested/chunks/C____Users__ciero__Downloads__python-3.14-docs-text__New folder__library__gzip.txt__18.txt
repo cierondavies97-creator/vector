@@ -1,0 +1,4 @@
+compression. "0" is no compression. The default is "9".
+   The optional *mtime* argument is the timestamp requested by gzip.
+   The time is in Unix format, i.e., seconds since 00:00:00 UTC,
+   January 1, 1970. If *mtime* is omitted or "None", the current time

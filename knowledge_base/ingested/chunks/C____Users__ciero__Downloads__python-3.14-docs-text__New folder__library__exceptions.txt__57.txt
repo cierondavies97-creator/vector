@@ -1,0 +1,5 @@
+POSIX, and "FormatMessage()" under Windows.
+   filename
+   filename2
+      For exceptions that involve a file system path (such as "open()"
+      or "os.unlink()"), "filename" is the file name passed to the

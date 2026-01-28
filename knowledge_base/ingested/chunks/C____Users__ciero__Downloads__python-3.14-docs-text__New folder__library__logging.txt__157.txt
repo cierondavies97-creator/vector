@@ -1,0 +1,4 @@
+useful if you want to do things like counting how many records were
+processed by a particular logger or handler, or adding, changing or
+removing attributes in the "LogRecord" being processed. Obviously
+changing the LogRecord needs to be done with some care, but it does

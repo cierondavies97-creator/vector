@@ -1,0 +1,3 @@
+system and the file system. For example, on Windows systems using
+     the FAT32 file systems, "st_mtime" has 2-second resolution, and
+     "st_atime" has only 1-day resolution. See your operating system

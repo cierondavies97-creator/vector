@@ -1,0 +1,4 @@
+The *newl* parameter specifies the string to use to terminate
+   newlines.
+   For the "Document" node, an additional keyword argument *encoding*
+   can be used to specify the encoding field of the XML header.

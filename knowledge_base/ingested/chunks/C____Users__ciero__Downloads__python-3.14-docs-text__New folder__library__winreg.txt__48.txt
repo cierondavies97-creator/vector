@@ -1,0 +1,4 @@
++---------+-----------------------------------------------+
+   Raises an auditing event "winreg.QueryInfoKey" with argument "key".
+winreg.QueryValue(key, sub_key)
+   Retrieves the unnamed value for a key, as a string.

@@ -1,0 +1,6 @@
+Changed in version 3.14: Added support for the "partitioned"
+   attribute.
+Morsel.value
+   The value of the cookie.
+Morsel.coded_value
+   The encoded value of the cookie --- this is what should be sent.

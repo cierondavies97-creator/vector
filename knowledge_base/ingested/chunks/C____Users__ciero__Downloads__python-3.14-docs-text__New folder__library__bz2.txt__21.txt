@@ -1,0 +1,3 @@
+Changed in version 3.3: Support was added for *filename* being a
+   *file object* instead of an actual filename.The "'a'" (append) mode
+   was added, along with support for reading multi-stream files.

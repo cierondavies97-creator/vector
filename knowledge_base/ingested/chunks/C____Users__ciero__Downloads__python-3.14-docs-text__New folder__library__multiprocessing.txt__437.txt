@@ -1,0 +1,4 @@
+ends are using the same key does **not** involve sending the key over
+the connection.)
+If authentication is requested but no authentication key is specified
+then the return value of "current_process().authkey" is used (see

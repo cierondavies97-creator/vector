@@ -1,0 +1,3 @@
+platforms. Some higher-level modules use these functions to build the
+Windows implementations of their services. For example, the "getpass"
+module uses this in the implementation of the "getpass()" function.

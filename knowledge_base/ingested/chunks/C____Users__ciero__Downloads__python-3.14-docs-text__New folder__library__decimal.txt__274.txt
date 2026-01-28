@@ -1,0 +1,4 @@
+"decimal.DefaultContext" object.
+The "sys.flags.thread_inherit_context" flag affects the context for
+new threads.  If the flag is false, new threads will start with an
+empty context.  In this case, "getcontext()" will create a new context

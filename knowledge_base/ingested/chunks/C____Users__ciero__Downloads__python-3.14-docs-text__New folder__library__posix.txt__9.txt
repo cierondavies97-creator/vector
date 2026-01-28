@@ -1,0 +1,4 @@
+documentation, "posix" defines the following data item:
+posix.environ
+   A dictionary representing the string environment at the time the
+   interpreter was started. Keys and values are bytes on Unix and str

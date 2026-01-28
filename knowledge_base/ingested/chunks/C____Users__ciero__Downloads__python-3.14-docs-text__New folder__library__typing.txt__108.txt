@@ -1,0 +1,4 @@
+allowing "Bucket" to be implicitly considered a subtype of both
+"Sized" and "Iterable[int]" by static type checkers. This is known as
+*structural subtyping* (or static duck-typing):
+   from collections.abc import Iterator, Iterable

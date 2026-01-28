@@ -1,0 +1,3 @@
+the *charset* argument to the "append()" method.  It also sets the
+   default character set for all subsequent "append()" calls that omit
+   the *charset* argument.  If *charset* is not provided in the

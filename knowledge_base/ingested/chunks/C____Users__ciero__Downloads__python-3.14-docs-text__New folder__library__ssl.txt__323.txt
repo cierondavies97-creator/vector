@@ -1,0 +1,3 @@
+the issuer's statement by finding the issuer's public key, decrypting
+the statement with it, and comparing it to the other information in
+the certificate. The certificate also contains information about the

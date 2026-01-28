@@ -1,0 +1,7 @@
+...         self.compare = compare
+...         self.some_obj = some_obj
+...     def __eq__(self, other):
+...         return self.compare(self.some_obj, other)
+...
+Putting all this together:
+>>> match_foo = Matcher(compare, Foo(1, 2))

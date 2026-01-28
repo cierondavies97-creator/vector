@@ -1,0 +1,5 @@
+| '%=' { _PyPegen_augoperator(p, Mod) }
+       | '&=' { _PyPegen_augoperator(p, BitAnd) }
+       | '|=' { _PyPegen_augoperator(p, BitOr) }
+       | '^=' { _PyPegen_augoperator(p, BitXor) }
+       | '<<=' { _PyPegen_augoperator(p, LShift) }

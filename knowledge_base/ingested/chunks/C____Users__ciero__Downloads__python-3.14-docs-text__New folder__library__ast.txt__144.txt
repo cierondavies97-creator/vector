@@ -1,0 +1,6 @@
+left=Name(id='n', ctx=Load()),
+                  op=Pow(),
+                  right=Constant(value=2)),
+              generators=[
+                  comprehension(
+                      target=Name(id='n', ctx=Store()),

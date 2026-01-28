@@ -1,0 +1,8 @@
+EXTRA) }
+       | bitwise_or
+   compare_op_bitwise_or_pair[CmpopExprPair*]:
+       | eq_bitwise_or
+       | noteq_bitwise_or
+       | lte_bitwise_or
+       | lt_bitwise_or
+       | gte_bitwise_or

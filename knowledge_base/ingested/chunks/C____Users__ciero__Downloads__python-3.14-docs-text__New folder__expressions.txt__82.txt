@@ -1,0 +1,5 @@
+Python.
+  **PEP 342** - Coroutines via Enhanced Generators
+     The proposal to enhance the API and syntax of generators, making
+     them usable as simple coroutines.
+  **PEP 380** - Syntax for Delegating to a Subgenerator

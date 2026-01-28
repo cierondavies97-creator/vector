@@ -1,0 +1,4 @@
+"inet_aton()" does not support IPv6, and "inet_pton()" should be
+   used instead for IPv4/v6 dual stack support.
+socket.inet_ntoa(packed_ip)
+   Convert a 32-bit packed IPv4 address (a *bytes-like object* four

@@ -1,0 +1,4 @@
+con.enable_load_extension(True)
+         # Load the fulltext search extension
+         con.execute("select load_extension('./fts3.so')")
+         # alternatively you can load the extension using an API call:

@@ -1,0 +1,4 @@
+for the application.  As usual for any Python script, the parent of
+the script (in this case the zip file) will be placed on "sys.path"
+and thus further modules can be imported from the zip file.
+The zip file format allows arbitrary data to be prepended to a zip

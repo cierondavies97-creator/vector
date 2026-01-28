@@ -1,0 +1,5 @@
+including those using gzip, bz2 and lzma compression. Use the
+"zipfile" module to read or write ".zip" files, or the higher-level
+functions in shutil.
+Some facts and figures:
+* reads and writes "gzip", "bz2", "compression.zstd", and "lzma"

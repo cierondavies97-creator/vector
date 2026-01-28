@@ -1,0 +1,4 @@
+Lists also provide the following additional method:
+   sort(*, key=None, reverse=False)
+      This method sorts the list in place, using only "<" comparisons
+      between items. Exceptions are not suppressed - if any comparison

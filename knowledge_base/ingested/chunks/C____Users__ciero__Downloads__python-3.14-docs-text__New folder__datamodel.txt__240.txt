@@ -1,0 +1,2 @@
+| codeobject.co_varnames                             | A "tuple" containing the names of the local        |
+|                                                    | variables in the function (starting with the       |

@@ -1,0 +1,4 @@
+class fractions.Fraction(string)
+   The first version requires that *numerator* and *denominator* are
+   instances of "numbers.Rational" and returns a new "Fraction"
+   instance with a value equal to "numerator/denominator". If

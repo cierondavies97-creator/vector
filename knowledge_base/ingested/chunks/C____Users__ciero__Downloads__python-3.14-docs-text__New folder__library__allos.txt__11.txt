@@ -1,0 +1,9 @@
+* SMTPHandler
+  * MemoryHandler
+  * HTTPHandler
+  * QueueHandler
+  * QueueListener
+* "platform" ---  Access to underlying platform's identifying data
+  * Cross platform
+  * Java platform
+  * Windows platform

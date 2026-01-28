@@ -1,0 +1,6 @@
+INI.
+  Module "shlex"
+     Support for creating Unix shell-like mini-languages which can
+     also be used for application configuration files.
+  Module "json"
+     The "json" module implements a subset of JavaScript syntax which

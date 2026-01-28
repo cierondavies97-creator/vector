@@ -1,0 +1,4 @@
+platlib = "/usr/local/lib/python3.2/site-packages"
+           platstdlib = "/usr/local/lib/python3.2"
+           purelib = "/usr/local/lib/python3.2/site-packages"
+           scripts = "/usr/local/bin"

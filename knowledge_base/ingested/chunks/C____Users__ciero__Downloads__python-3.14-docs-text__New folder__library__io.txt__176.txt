@@ -1,0 +1,6 @@
+from the stream.
+   Added in version 3.14.
+   read()
+   read(size, /)
+      Read data from the input stream and return it. If *size* is
+      specified, it should be an integer, and at most *size* items

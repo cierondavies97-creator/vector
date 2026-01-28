@@ -1,0 +1,8 @@
+>>> config = configparser.ConfigParser()
+   >>> config.sections()
+   []
+   >>> config.read('example.ini')
+   ['example.ini']
+   >>> config.sections()
+   ['forge.example', 'topsecret.server.example']
+   >>> 'forge.example' in config

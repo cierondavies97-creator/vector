@@ -1,0 +1,4 @@
+raise one of the following exceptions:
+   "ValueError" -- if *name* isn't in a recognised format.
+   "ImportError" -- if an import failed when it shouldn't have.
+   "AttributeError" -- If a failure occurred when traversing the

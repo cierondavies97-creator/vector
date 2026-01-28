@@ -1,0 +1,3 @@
+It produces 53-bit precision floats and has a period of 2**19937-1.
+The underlying implementation in C is both fast and threadsafe.  The
+Mersenne Twister is one of the most extensively tested random number

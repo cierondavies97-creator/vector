@@ -1,0 +1,4 @@
+class ast.AnnAssign(target, annotation, value, simple)
+   An assignment with a type annotation. "target" is a single node and
+   can be a "Name", an "Attribute" or a "Subscript". "annotation" is
+   the annotation, such as a "Constant" or "Name" node. "value" is a

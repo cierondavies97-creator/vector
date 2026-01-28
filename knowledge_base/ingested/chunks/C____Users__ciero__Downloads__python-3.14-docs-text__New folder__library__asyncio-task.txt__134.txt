@@ -1,0 +1,4 @@
+When used as a plain iterator, each iteration yields a new
+   coroutine that returns the result or raises the exception of the
+   next completed awaitable. This pattern is compatible with Python
+   versions older than 3.13:

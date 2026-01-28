@@ -1,0 +1,4 @@
+Spam, Spam, Spam, Spam, Spam, Baked Beans
+      Spam, Lovely Spam, Wonderful Spam
+csv.writer(csvfile, /, dialect='excel', **fmtparams)
+   Return a writer object responsible for converting the user's data

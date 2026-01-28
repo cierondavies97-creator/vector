@@ -1,0 +1,5 @@
+iterator of 1-tuples.  With no arguments, it returns an empty
+   iterator.
+   Tips and tricks:
+   * The left-to-right evaluation order of the iterables is
+     guaranteed. This makes possible an idiom for clustering a data

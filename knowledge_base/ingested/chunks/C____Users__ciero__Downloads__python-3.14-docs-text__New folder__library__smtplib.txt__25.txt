@@ -1,0 +1,6 @@
+all "SMTPResponseException" exceptions, this sets 'sender' to the
+   string that the SMTP server refused.
+exception smtplib.SMTPRecipientsRefused
+   All recipient addresses refused.
+   recipients
+      A dictionary of exactly the same sort as returned by

@@ -1,0 +1,4 @@
+the *fork* context cannot be passed to processes started using the
+*spawn* or *forkserver* start methods.
+Libraries using "multiprocessing" or "ProcessPoolExecutor" should be
+designed to allow their users to provide their own multiprocessing

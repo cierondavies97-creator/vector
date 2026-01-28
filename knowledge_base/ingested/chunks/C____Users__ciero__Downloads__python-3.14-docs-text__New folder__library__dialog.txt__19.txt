@@ -1,0 +1,8 @@
+ok_event(event)
+      Exit dialog returning current selection.
+   quit(how=None)
+      Exit dialog returning filename, if any.
+   set_filter(dir, pat)
+      Set the file filter.
+   set_selection(file)
+      Update the current file selection to *file*.

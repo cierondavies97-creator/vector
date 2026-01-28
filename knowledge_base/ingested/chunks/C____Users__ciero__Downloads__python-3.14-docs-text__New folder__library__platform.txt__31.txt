@@ -1,0 +1,3 @@
+machines and "'Multiprocessor Free'" on multi processor machines.
+   The "'Free'" refers to the OS version being free of debugging code.
+   It could also state "'Checked'" which means the OS version uses

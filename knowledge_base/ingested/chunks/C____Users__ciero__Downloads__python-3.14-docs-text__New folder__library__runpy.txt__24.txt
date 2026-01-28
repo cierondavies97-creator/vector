@@ -1,0 +1,4 @@
+"None" and to "'<run_path>'" otherwise.
+   If *file_path* directly references a script file (whether as source
+   or as precompiled byte code), then "__file__" will be set to
+   *file_path*, and "__spec__", "__cached__", "__loader__" and

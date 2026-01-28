@@ -1,0 +1,6 @@
+the value type needs to support addition, subtraction, and
+    comparison.
+  * The "elements()" method requires integer counts.  It ignores zero
+    and negative counts.
+See also:
+  * Bag class in Smalltalk.

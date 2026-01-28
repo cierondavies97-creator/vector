@@ -1,0 +1,5 @@
+memory block containing unicode characters of the C type "wchar_t",
+use the "create_unicode_buffer()" function.
+Calling functions, continued
+----------------------------
+Note that printf prints to the real standard output channel, *not* to

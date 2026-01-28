@@ -1,0 +1,4 @@
+object.  Now it is limited to: "None", "int", "float", "str",
+   "bytes", or "bytearray".
+   Subclasses of "Random" should override the following methods if
+   they wish to make use of a different basic generator:

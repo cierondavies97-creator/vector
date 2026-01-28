@@ -1,0 +1,7 @@
+file object (e.g. if the "LZMAFile" was constructed by passing
+        a file object for *filename*).
+   mode
+      "'rb'" for reading and "'wb'" for writing.
+      Added in version 3.13.
+   name
+      The lzma file name.  Equivalent to the "name" attribute of the

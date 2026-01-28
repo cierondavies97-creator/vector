@@ -1,0 +1,5 @@
+if fn:
+               extension = os.path.splitext(part.get_filename())[1]
+           else:
+               extension = mimetypes.guess_extension(part.get_content_type())
+           with tempfile.NamedTemporaryFile(suffix=extension, delete=False) as f:

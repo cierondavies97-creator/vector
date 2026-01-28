@@ -1,0 +1,4 @@
+ticking at a rate (typically) of about .001 seconds.  Hence no
+measurements will be more accurate than the underlying clock.  If
+enough measurements are taken, then the "error" will tend to average
+out. Unfortunately, removing this first error induces a second source

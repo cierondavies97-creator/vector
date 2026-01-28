@@ -1,0 +1,5 @@
+name in the underlying system.  For instance,
+   "errno.errorcode[errno.EPERM]" maps to "'EPERM'".
+To translate a numeric error code to an error message, use
+"os.strerror()".
+Of the following list, symbols that are not used on the current

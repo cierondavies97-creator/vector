@@ -1,0 +1,4 @@
+iter(callable, sentinel, /)
+   Return an *iterator* object.  The first argument is interpreted
+   very differently depending on the presence of the second argument.
+   Without a second argument, the single argument must be a collection

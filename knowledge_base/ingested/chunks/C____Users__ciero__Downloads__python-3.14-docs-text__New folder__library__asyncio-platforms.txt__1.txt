@@ -1,0 +1,8 @@
+All Platforms
+=============
+* "loop.add_reader()" and "loop.add_writer()" cannot be used to
+  monitor file I/O.
+Windows
+=======
+**Source code:** Lib/asyncio/proactor_events.py,
+Lib/asyncio/windows_events.py, Lib/asyncio/windows_utils.py

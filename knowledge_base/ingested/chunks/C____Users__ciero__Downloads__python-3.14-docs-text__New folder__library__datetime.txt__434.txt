@@ -1,0 +1,4 @@
+because Python calls the platform C library's "strftime()" function,
+and platform variations are common. To see the full set of format
+codes supported on your platform, consult the *strftime(3)*
+documentation. There are also differences between platforms in

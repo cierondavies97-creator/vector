@@ -1,0 +1,3 @@
+"TarFile.extract()" and "TarFile.extractall()". Nevertheless, they
+   appear as error messages in the debug output when *debug* is
+   greater than 0. If "1" (the default), all *fatal* errors are raised

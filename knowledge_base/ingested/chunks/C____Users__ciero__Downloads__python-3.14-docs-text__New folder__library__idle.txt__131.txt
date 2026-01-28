@@ -1,0 +1,5 @@
+sys.exit, IDLE returns to a Shell prompt instead of exiting.
+User output in Shell
+--------------------
+When a program outputs text, the result is determined by the
+corresponding output device.  When IDLE executes user code,

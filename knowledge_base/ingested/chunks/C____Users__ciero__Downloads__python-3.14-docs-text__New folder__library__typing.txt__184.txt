@@ -1,0 +1,4 @@
+has no special logic for the metadata, it should ignore the
+   metadata and simply treat the annotation as "T". As such,
+   "Annotated" can be useful for code that wants to use annotations
+   for purposes outside Python's static typing system.

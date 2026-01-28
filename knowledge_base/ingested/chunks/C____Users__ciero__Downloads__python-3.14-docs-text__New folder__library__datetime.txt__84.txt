@@ -1,0 +1,3 @@
+leap year bug in code seeking to parse only a month and day as
+     the default year used in absence of one in the format is not a
+     leap year. Such *format* values may raise an error as of Python

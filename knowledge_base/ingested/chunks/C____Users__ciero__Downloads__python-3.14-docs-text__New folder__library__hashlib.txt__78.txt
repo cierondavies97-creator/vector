@@ -1,0 +1,4 @@
+can be securely used in prefix-MAC mode thanks to the
+indifferentiability property inherited from BLAKE.
+This example shows how to get a (hex-encoded) 128-bit authentication
+code for message "b'message data'" with key "b'pseudorandom key'":

@@ -1,0 +1,4 @@
+remove all countries with a rank higher than 50:
+   >>> for country in root.findall('country'):
+   ...     # using root.findall() to avoid removal during traversal
+   ...     rank = int(country.find('rank').text)

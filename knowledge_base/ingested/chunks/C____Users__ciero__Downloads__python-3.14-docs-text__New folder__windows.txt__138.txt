@@ -1,0 +1,4 @@
+scenario. We suggest looking into the PowerShell Add-
+AppxProvisionedPackage cmdlet, the native Windows PackageManager
+class, or the documentation and support for your deployment tool.
+Regardless of the install method, users will still need to install

@@ -1,0 +1,5 @@
+'Mark an existing task as REMOVED.  Raise KeyError if not found.'
+       entry = entry_finder.pop(task)
+       entry[-1] = REMOVED
+   def pop_task():
+       'Remove and return the lowest priority task. Raise KeyError if empty.'

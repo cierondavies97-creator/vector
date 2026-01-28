@@ -1,0 +1,4 @@
+precedence over the one next to the executable, so a user, who may not
+have write access to the .ini file next to the launcher, can override
+commands in that global .ini file.
+4.12.4.2. Customizing default Python versions

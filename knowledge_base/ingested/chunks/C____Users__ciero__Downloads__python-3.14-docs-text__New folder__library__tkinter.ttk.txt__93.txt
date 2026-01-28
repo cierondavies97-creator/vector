@@ -1,0 +1,3 @@
+| Option      | Description                                                    |
+|=============|================================================================|
+| state       | Either "normal", "disabled" or "hidden". If "disabled", then   |

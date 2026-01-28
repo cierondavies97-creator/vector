@@ -1,0 +1,5 @@
+Added in version 3.7.
+   itermonthdays4(year, month)
+      Return an iterator for the month *month* in the year *year*
+      similar to "itermonthdates()", but not restricted by the
+      "datetime.date" range. Days returned will be tuples consisting

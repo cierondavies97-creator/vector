@@ -1,0 +1,4 @@
+Returns a month's calendar in a multi-line string using the
+   "formatmonth()" of the "TextCalendar" class.
+calendar.prcal(year, w=0, l=0, c=6, m=3)
+   Prints the calendar for an entire year as returned by

@@ -1,0 +1,3 @@
+account) and returns the resulting decoded object. If this is
+      the last call to "decode()" *final* must be true (the default is
+      false). If *final* is true the decoder must decode the input

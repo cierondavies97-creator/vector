@@ -1,0 +1,5 @@
+only.
+   Raises an auditing event "sys._current_exceptions" with no
+   arguments.
+   Changed in version 3.12: Each value in the dictionary is now a
+   single exception instance, rather than a 3-tuple as returned from

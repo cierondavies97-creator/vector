@@ -1,0 +1,6 @@
+and having the speed of native dictionaries.
+Restrictions
+============
+* The choice of which database package will be used (such as
+  "dbm.ndbm" or "dbm.gnu") depends on which interface is available.
+  Therefore it is not safe to open the database directly using "dbm".

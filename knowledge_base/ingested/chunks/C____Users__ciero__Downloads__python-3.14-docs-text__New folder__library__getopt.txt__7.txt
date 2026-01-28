@@ -1,0 +1,3 @@
+is the string of option letters that the script wants to recognize,
+   with options that require an argument followed by a colon ("':'")
+   and options that accept an optional argument followed by two colons

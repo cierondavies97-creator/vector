@@ -1,0 +1,4 @@
+path = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
+       port = int(sys.argv[2]) if len(sys.argv) > 2 else 8000
+       # Make and start the server until control-c
+       httpd = simple_server.make_server("", port, app)

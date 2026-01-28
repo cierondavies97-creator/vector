@@ -1,0 +1,5 @@
+Of particular note is that double-clicking "python.exe" in File
+  Explorer will resolve the symlink eagerly and ignore the virtual
+  environment.
+Note:
+  On Microsoft Windows, it may be required to enable the

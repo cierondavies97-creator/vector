@@ -1,0 +1,4 @@
+warnings.warn(UserWarning("Hide me!"))
+   In this case if either warning was not raised, or some other
+   warning was raised, "check_warnings()" would raise an error.
+   When a test needs to look more deeply into the warnings, rather

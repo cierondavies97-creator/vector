@@ -1,0 +1,4 @@
+generated pycs are invalidated at runtime.
+   The *stripdir*, *prependdir* and *limit_sl_dest* arguments
+   correspond to the "-s", "-p" and "-e" options described above. They
+   may be specified as "str" or "os.PathLike".

@@ -1,0 +1,5 @@
+"heapq" --- Heap queue algorithm
+********************************
+**Source code:** Lib/heapq.py
+======================================================================
+This module provides an implementation of the heap queue algorithm,

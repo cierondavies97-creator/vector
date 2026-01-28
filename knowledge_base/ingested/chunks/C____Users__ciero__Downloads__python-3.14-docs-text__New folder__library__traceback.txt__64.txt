@@ -1,0 +1,4 @@
+"FrameSummary" objects will not have read their lines in yet,
+      making the cost of creating the "StackSummary" cheaper (which
+      may be valuable if it may not actually get formatted). If
+      *capture_locals* is "True" the local variables in each

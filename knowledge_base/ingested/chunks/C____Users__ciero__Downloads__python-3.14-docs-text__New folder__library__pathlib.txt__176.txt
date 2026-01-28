@@ -1,0 +1,4 @@
+(including *self* but excluding '.' and '..'), the method yields a
+   3-tuple of "(dirpath, dirnames, filenames)".
+   *dirpath* is a "Path" to the directory currently being walked,
+   *dirnames* is a list of strings for the names of subdirectories in

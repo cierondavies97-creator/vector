@@ -1,0 +1,4 @@
+attributes.  Some attributes that are only meaningful for IPv6
+addresses are also implemented by "IPv4Address" objects, in order to
+make it easier to write code that handles both IP versions correctly.
+Address objects are *hashable*, so they can be used as keys in

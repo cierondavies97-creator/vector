@@ -1,0 +1,3 @@
+| Concatenation           | "seq1 + seq2"             | "concat(seq1, seq2)"                    |
++-------------------------+---------------------------+-----------------------------------------+
+| Containment Test        | "obj in seq"              | "contains(seq, obj)"                    |

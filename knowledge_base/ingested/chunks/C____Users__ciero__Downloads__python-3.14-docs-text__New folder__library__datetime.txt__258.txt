@@ -1,0 +1,6 @@
+>>> dt3 = dt2.astimezone(timezone.utc)
+   >>> dt3
+   datetime.datetime(2006, 6, 14, 8, 30, tzinfo=datetime.timezone.utc)
+   >>> dt2
+   datetime.datetime(2006, 6, 14, 13, 0, tzinfo=KabulTz())
+   >>> dt2 == dt3

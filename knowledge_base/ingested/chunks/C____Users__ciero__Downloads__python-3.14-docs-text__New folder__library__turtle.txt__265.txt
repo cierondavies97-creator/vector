@@ -1,0 +1,4 @@
+**type_** -- one of the strings "polygon", "image", "compound"
+   Data structure modeling shapes.  The pair "(type_, data)" must
+   follow this specification:
+   +-------------+------------------------------------------------------------+

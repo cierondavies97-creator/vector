@@ -1,0 +1,4 @@
+only relative indications of where time is being spent.
+In Python, since there is an interpreter active during execution, the
+presence of instrumented code is not required in order to do
+deterministic profiling. Python automatically provides a *hook*

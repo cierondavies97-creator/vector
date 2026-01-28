@@ -1,0 +1,3 @@
+sending socket, if available; otherwise, its value is unspecified.
+   On some systems, "sendmsg()" and "recvmsg()" can be used to pass
+   file descriptors between processes over an "AF_UNIX" socket.  When

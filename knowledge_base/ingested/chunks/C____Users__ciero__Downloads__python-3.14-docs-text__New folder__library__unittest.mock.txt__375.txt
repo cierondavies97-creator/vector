@@ -1,0 +1,6 @@
+>>> mock_request = patcher.start()
+   >>> request is mock_request
+   True
+   >>> mock_request.Request
+   <MagicMock name='request.Request' spec='Request' id='...'>
+You can see that "request.Request" has a spec. "request.Request" takes

@@ -1,0 +1,4 @@
+Normally, however, you do not need to use these additional methods,
+   as "set_app()" is normally called by "make_server()", and the
+   "get_app()" exists mainly for the benefit of request handler
+   instances.

@@ -1,0 +1,5 @@
+the inferred type of the argument passed in must be the bottom
+   type, "Never", and nothing else.
+   At runtime, this throws an exception when called.
+   See also:
+     Unreachable Code and Exhaustiveness Checking has more information

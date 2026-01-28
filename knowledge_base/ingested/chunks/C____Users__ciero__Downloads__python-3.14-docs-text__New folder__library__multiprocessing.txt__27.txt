@@ -1,0 +1,3 @@
+On POSIX using the *spawn* or *forkserver* start methods will also
+start a *resource tracker* process which tracks the unlinked named
+system resources (such as named semaphores or "SharedMemory" objects)

@@ -1,0 +1,5 @@
+Sequences are distinguished according to their mutability:
+3.2.5.1. Immutable sequences
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+An object of an immutable sequence type cannot change once it is
+created.  (If the object contains references to other objects, these

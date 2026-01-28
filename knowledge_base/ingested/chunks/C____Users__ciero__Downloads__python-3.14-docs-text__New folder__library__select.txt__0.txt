@@ -1,0 +1,4 @@
+"select" --- Waiting for I/O completion
+***************************************
+======================================================================
+This module provides access to the "select()" and "poll()" functions

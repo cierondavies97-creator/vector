@@ -1,0 +1,7 @@
+equality.
+   __ne__(other)
+      This method allows you to compare two "Header" instances for
+      inequality.
+The "email.header" module also provides the following convenient
+functions.
+email.header.decode_header(header)

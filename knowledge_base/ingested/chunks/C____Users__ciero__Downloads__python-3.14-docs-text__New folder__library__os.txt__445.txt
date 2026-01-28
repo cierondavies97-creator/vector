@@ -1,0 +1,4 @@
+Eventually, it will contain the last metadata change time, for
+   consistency with other platforms, but for now still contains
+   creation time. Use "st_birthtime" for the creation time.On Windows,
+   "st_ino" may now be up to 128 bits, depending on the file system.

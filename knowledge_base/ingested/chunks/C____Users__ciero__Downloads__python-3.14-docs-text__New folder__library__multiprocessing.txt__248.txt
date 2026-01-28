@@ -1,0 +1,6 @@
+for additional information.
+Shared "ctypes" Objects
+-----------------------
+It is possible to create shared objects using shared memory which can
+be inherited by child processes.
+multiprocessing.Value(typecode_or_type, *args, lock=True)

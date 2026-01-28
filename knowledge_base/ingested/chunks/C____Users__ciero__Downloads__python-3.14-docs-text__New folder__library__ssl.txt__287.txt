@@ -1,0 +1,6 @@
+analyzers such as Wireshark. The log file is opened in append-only
+   mode. Writes are synchronized between threads, but not between
+   processes.
+   Added in version 3.8.
+SSLContext.maximum_version
+   A "TLSVersion" enum member representing the highest supported TLS

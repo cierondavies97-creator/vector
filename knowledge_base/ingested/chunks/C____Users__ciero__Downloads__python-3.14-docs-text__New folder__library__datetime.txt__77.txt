@@ -1,0 +1,4 @@
+Return a "date" corresponding to a *date_string* given in any valid
+   ISO 8601 format, with the following exceptions:
+   1. Reduced precision dates are not currently supported ("YYYY-MM",
+      "YYYY").

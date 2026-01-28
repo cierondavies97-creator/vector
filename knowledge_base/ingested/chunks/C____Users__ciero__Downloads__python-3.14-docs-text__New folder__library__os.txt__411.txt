@@ -1,0 +1,4 @@
+all name-surrogate reparse points, which includes symlinks and
+   directory junctions. Other types of reparse points that do not
+   resemble links or that the operating system is unable to follow
+   will be opened directly. When following a chain of multiple links,

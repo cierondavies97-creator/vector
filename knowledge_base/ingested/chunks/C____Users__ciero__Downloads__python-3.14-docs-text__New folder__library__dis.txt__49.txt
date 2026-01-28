@@ -1,0 +1,5 @@
+directly from the disassembled code object.
+   The *adaptive* parameter works as it does in "dis()".
+   Added in version 3.4.
+   Changed in version 3.11: Added the *show_caches* and *adaptive*
+   parameters.

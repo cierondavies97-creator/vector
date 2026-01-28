@@ -1,0 +1,9 @@
+...   def __init__(self):
+   ...     self.a = 33
+   ...
+   >>> with patch('__main__.Something', autospec=True):
+   ...   thing = Something()
+   ...   thing.a
+   ...
+   Traceback (most recent call last):
+     ...

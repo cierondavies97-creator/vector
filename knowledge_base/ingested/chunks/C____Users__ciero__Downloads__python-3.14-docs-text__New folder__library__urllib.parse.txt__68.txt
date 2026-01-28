@@ -1,0 +1,5 @@
+Warning:
+     "urlsplit()" does not perform validation.  See URL parsing
+     security for details.
+   Changed in version 3.6: Out-of-range port numbers now raise
+   "ValueError", instead of returning "None".

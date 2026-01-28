@@ -1,0 +1,4 @@
+drawn from the "LogRecord" object's LogRecord attributes. If
+        not specified, "'%(message)s'" is used, which is just the
+        logged message.
+      * **datefmt** (*str*) -- A format string for the date/time

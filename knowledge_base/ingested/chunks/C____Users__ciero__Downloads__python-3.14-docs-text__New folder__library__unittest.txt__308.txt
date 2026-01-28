@@ -1,0 +1,4 @@
+raised, it will be recorded as a skip instead of an error.
+      If a package (a directory containing a file named "__init__.py")
+      is found, the package will be checked for a "load_tests"
+      function. If this exists then it will be called

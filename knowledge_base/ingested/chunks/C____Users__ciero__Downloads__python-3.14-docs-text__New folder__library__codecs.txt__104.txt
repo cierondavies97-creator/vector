@@ -1,0 +1,4 @@
+schemes by providing the *errors* keyword argument. See Error
+   Handlers for possible values.
+   The *errors* argument will be assigned to an attribute of the same
+   name. Assigning to this attribute makes it possible to switch

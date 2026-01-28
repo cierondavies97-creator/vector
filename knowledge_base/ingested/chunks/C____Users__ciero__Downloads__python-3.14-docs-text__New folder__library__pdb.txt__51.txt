@@ -1,0 +1,4 @@
+string concatenation "';'';'" or "";"";"".
+To set a temporary global variable, use a *convenience variable*. A
+*convenience variable* is a variable whose name starts with "$".  For
+example, "$foo = 1" sets a global variable "$foo" which you can use in

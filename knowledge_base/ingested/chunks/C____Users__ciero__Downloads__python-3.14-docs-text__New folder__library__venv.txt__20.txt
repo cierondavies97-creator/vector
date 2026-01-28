@@ -1,0 +1,5 @@
+Skips adding SCM ignore files to the environment directory (Git is
+   supported by default).
+Changed in version 3.4: Installs pip by default, added the "--without-
+pip"  and "--copies" options.
+Changed in version 3.4: In earlier versions, if the target directory

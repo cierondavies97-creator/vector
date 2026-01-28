@@ -1,0 +1,4 @@
+The installed completer function is invoked by the *entry_func*
+   callback passed to "rl_completion_matches()" in the underlying
+   library. The *text* string comes from the first parameter to the
+   "rl_attempted_completion_function" callback of the underlying

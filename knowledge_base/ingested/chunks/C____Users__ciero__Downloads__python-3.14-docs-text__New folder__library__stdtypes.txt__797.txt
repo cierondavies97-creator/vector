@@ -1,0 +1,6 @@
+keys()
+      Return a new view of the dictionary's keys.  See the
+      documentation of view objects.
+   pop(key, /)
+   pop(key, default, /)
+      If *key* is in the dictionary, remove it and return its value,

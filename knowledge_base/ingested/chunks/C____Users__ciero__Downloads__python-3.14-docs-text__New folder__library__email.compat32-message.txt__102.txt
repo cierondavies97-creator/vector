@@ -1,0 +1,4 @@
+functionality is replaced by the "make_" and "add_" methods.
+   get_filename(failobj=None)
+      Return the value of the "filename" parameter of the *Content-
+      Disposition* header of the message.  If the header does not have

@@ -1,0 +1,3 @@
+| exc_info         | You shouldn't need to     | Exception tuple (à la "sys.exc_info") or, if no |
+|                  | format this yourself.     | exception has occurred, "None".                 |
++------------------+---------------------------+-------------------------------------------------+

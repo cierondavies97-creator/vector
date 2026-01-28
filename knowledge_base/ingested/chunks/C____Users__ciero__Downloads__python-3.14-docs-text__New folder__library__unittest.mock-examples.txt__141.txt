@@ -1,0 +1,6 @@
+...         thing = patcher.start()
+   ...         self.addCleanup(patcher.stop)
+   ...         return thing
+   ...
+   ...     def test_foo(self):
+   ...         mock_foo = self.create_patch('mymodule.Foo')

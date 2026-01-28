@@ -1,0 +1,5 @@
+*dst_dir_fd* to supply paths relative to directory descriptors.
+   Raises an auditing event "os.rename" with arguments "src", "dst",
+   "src_dir_fd", "dst_dir_fd".
+   Added in version 3.3.
+   Changed in version 3.6: Accepts a *path-like object* for *src* and

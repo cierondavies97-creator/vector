@@ -1,0 +1,3 @@
+context manager or by calling "close()" and "terminate()" manually.
+   *processes* is the number of worker threads to use.  If *processes*
+   is "None" then the number returned by "os.process_cpu_count()" is

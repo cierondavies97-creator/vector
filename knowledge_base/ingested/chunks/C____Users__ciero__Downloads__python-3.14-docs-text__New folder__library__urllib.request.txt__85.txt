@@ -1,0 +1,8 @@
+delays.
+class urllib.request.UnknownHandler
+   A catch-all class to handle unknown URLs.
+class urllib.request.HTTPErrorProcessor
+   Process HTTP error responses.
+Request Objects
+===============
+The following methods describe "Request"'s public interface, and so

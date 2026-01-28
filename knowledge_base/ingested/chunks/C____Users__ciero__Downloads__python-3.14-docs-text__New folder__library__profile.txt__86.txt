@@ -1,0 +1,3 @@
+This method for the "Stats" class prints a list of all functions
+      that called each function in the profiled database.  The
+      ordering is identical to that provided by "print_stats()", and

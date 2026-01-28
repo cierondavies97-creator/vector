@@ -1,0 +1,7 @@
+with suppress(exception):
+           if first is not None:
+               yield first()
+           while True:
+               yield function()
+   # ==== Mathematical operations ====
+   def multinomial(*counts):

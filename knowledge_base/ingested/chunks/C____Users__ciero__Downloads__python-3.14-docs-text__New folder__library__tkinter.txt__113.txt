@@ -1,0 +1,7 @@
+some examples:
+   fred.pack()                     # defaults to side = "top"
+   fred.pack(side="left")
+   fred.pack(expand=1)
+Packer Options
+--------------
+For more extensive information on the packer and the options that it

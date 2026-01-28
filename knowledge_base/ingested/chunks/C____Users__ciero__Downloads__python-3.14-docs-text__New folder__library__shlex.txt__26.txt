@@ -1,0 +1,3 @@
+request in effect, or the previous source was a stream (such as
+   "sys.stdin"), the result is left alone.  Otherwise, if the result
+   is a relative pathname, the directory part of the name of the file

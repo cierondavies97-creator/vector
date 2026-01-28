@@ -1,0 +1,5 @@
+information.
+When used from within a virtual environment, common installation tools
+such as pip will install Python packages into a virtual environment
+without needing to be told to do so explicitly.
+A virtual environment is (amongst other things):

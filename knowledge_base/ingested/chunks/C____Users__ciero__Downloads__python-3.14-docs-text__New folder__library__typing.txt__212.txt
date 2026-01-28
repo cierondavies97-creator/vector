@@ -1,0 +1,7 @@
+narrowed to exclude "NarrowedType".
+   For example:
+      from typing import assert_type, final, TypeIs
+      class Parent: pass
+      class Child(Parent): pass
+      @final
+      class Unrelated: pass

@@ -1,0 +1,7 @@
+created whenever any of the functions derived from a Turtle method is
+called.
+To use multiple turtles on a screen, the object-oriented interface
+must be used.
+Help and configuration
+======================
+How to use help

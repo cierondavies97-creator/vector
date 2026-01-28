@@ -1,0 +1,5 @@
+var = ContextVar('var', default='default value')
+      with var.set('new value'):
+          assert var.get() == 'new value'
+      assert var.get() == 'default value'
+   Added in version 3.14: Added support for usage as a context

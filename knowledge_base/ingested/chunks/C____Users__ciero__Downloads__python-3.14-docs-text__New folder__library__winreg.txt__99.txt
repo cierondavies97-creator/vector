@@ -1,0 +1,6 @@
+you need the underlying Win32 handle to exist beyond the lifetime
+   of the handle object.
+   Raises an auditing event "winreg.PyHKEY.Detach" with argument
+   "key".
+PyHKEY.__enter__()
+PyHKEY.__exit__(*exc_info)

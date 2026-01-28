@@ -1,0 +1,4 @@
+"EmailMessage" objects have the following instance attributes:
+   preamble
+      The format of a MIME document allows for some text between the
+      blank line following the headers, and the first multipart

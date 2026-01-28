@@ -1,0 +1,5 @@
+| star_expression
+   star_expression[expr_ty] (memo):
+       | '*' a=bitwise_or { _PyAST_Starred(a, Load, EXTRA) }
+       | expression
+   star_named_expressions[asdl_expr_seq*]: a[asdl_expr_seq*]=','.star_named_expression+ [','] { a }

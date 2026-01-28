@@ -1,0 +1,4 @@
+using basic "sqlite3" functionality. It assumes a fundamental
+understanding of database concepts, including cursors and
+transactions.
+First, we need to create a new database and open a database connection

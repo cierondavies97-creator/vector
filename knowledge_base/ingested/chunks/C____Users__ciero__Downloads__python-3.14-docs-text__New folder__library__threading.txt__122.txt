@@ -1,0 +1,4 @@
+value.
+         * If the same thread owns the lock, acquire the lock again,
+           and return immediately. This is the difference between
+           "Lock" and "RLock"; "Lock" handles this case the same as

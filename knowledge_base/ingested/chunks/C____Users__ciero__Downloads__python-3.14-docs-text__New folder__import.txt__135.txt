@@ -1,0 +1,3 @@
+handled slightly differently from other entries on "sys.path". First,
+if the current working directory cannot be determined or is found not
+to exist, no value is stored in "sys.path_importer_cache". Second, the

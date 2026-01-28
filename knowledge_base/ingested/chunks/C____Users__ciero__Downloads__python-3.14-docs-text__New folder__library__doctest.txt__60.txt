@@ -1,0 +1,4 @@
+ValueError: list.remove(x): x not in list
+That doctest succeeds if "ValueError" is raised, with the
+"list.remove(x): x not in list" detail as shown.
+The expected output for an exception must start with a traceback

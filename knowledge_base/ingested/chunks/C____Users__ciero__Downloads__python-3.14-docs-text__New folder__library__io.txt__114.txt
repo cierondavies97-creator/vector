@@ -1,0 +1,5 @@
+Changed in version 3.7: The *size* argument is now optional.
+   readinto1(b, /)
+      In "BytesIO", this is the same as "readinto()".
+      Added in version 3.5.
+class io.BufferedReader(raw, buffer_size=DEFAULT_BUFFER_SIZE)

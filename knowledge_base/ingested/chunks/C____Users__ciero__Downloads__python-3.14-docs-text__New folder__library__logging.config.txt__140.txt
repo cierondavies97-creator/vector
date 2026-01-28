@@ -1,0 +1,4 @@
+section, the relevant configuration details are held in a section
+"[logger_log01]". Similarly, a handler called "hand01" in the
+"[handlers]" section will have its configuration held in a section
+called "[handler_hand01]", while a formatter called "form01" in the

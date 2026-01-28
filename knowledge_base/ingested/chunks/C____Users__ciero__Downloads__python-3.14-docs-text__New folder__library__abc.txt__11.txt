@@ -1,0 +1,6 @@
+class MyABC(ABC):
+             pass
+         MyABC.register(tuple)
+         assert issubclass(tuple, MyABC)
+         assert isinstance((), MyABC)
+      Changed in version 3.3: Returns the registered subclass, to

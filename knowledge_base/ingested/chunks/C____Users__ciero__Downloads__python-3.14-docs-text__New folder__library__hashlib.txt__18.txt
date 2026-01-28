@@ -1,0 +1,5 @@
+hashlib.sha256([data, ]*, usedforsecurity=True)
+hashlib.sha384([data, ]*, usedforsecurity=True)
+hashlib.sha512([data, ]*, usedforsecurity=True)
+hashlib.sha3_224([data, ]*, usedforsecurity=True)
+hashlib.sha3_256([data, ]*, usedforsecurity=True)

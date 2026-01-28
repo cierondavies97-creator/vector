@@ -1,0 +1,4 @@
+*zip_basename* containing an empty "__init__" file and a file
+   *script_basename* containing the *source*.  If *compiled* is
+   "True", both source files will be compiled and added to the zip
+   package.  Return a tuple of the full zip path and the archive name

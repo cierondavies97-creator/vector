@@ -1,0 +1,4 @@
+list of filenames which were successfully parsed.
+      If *filenames* is a string, a "bytes" object or a *path-like
+      object*, it is treated as a single filename.  If a file named in
+      *filenames* cannot be opened, that file will be ignored.  This

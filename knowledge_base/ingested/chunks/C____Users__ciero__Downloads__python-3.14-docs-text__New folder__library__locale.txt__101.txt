@@ -1,0 +1,5 @@
+module are affected by that category.  All other numeric formatting
+   operations are not affected.
+locale.LC_ALL
+   Combination of all locale settings.  If this flag is used when the
+   locale is changed, setting the locale for all categories is

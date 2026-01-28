@@ -1,0 +1,9 @@
+* "__exit__": "False"
+* "__aexit__": "False"
+* "__complex__": "1j"
+* "__float__": "1.0"
+* "__bool__": "True"
+* "__index__": "1"
+* "__hash__": default hash for the mock
+* "__str__": default str for the mock
+* "__sizeof__": default sizeof for the mock

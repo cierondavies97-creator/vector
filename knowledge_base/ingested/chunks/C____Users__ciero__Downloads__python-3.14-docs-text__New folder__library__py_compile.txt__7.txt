@@ -1,0 +1,4 @@
+used.
+   The *doraise* and *quiet* arguments determine how errors are
+   handled while compiling file. If *quiet* is 0 or 1, and *doraise*
+   is false, the default behaviour is enabled: an error string is

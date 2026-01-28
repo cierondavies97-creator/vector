@@ -1,0 +1,5 @@
+p.print_callees()
+   p.add('restats')
+Invoked as a script, the "pstats" module is a statistics browser for
+reading and examining profile dumps.  It has a simple line-oriented
+interface (implemented using "cmd") and interactive help.

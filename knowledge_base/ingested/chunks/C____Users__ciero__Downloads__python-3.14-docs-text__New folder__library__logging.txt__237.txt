@@ -1,0 +1,5 @@
+explicitly supply a suitable value.
+   Changed in version 3.7: The *level* parameter was defaulted to
+   level "CRITICAL". See bpo-28524 for more information about this
+   change.
+logging.addLevelName(level, levelName)

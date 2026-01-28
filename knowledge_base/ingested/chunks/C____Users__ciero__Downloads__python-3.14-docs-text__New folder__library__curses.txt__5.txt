@@ -1,0 +1,6 @@
+string* it can be specified as a Unicode string or a byte string.
+See also:
+  Module "curses.ascii"
+     Utilities for working with ASCII characters, regardless of your
+     locale settings.
+  Module "curses.panel"

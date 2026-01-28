@@ -1,0 +1,4 @@
+specified, the output filename will be the same as the input
+   *source*, with the extension ".pyz" added.  If an explicit filename
+   is given, it is used as is (so a ".pyz" extension should be
+   included if required).

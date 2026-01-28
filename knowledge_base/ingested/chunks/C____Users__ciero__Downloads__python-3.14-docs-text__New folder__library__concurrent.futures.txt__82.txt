@@ -1,0 +1,6 @@
+if n % i == 0:
+               return False
+       return True
+   def main():
+       with concurrent.futures.ProcessPoolExecutor() as executor:
+           for number, prime in zip(PRIMES, executor.map(is_prime, PRIMES)):

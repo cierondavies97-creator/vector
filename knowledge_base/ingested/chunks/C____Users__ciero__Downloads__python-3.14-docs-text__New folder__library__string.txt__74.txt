@@ -1,0 +1,3 @@
+When no explicit alignment is given, preceding the *width* field by a
+zero ("'0'") character enables sign-aware zero-padding for numeric
+types, excluding "complex".  This is equivalent to a *fill* character

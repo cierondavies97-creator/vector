@@ -1,0 +1,5 @@
+avoid deadlocking the application.
+      It may be preferable to simply create the barrier with a
+      sensible *timeout* value to automatically guard against one of
+      the threads going awry.
+   parties

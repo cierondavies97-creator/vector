@@ -1,0 +1,4 @@
+above. Aside from being defined, the behaviour in other scopes
+   remains unchanged from previous versions.
+map(function, iterable, /, *iterables, strict=False)
+   Return an iterator that applies *function* to every item of

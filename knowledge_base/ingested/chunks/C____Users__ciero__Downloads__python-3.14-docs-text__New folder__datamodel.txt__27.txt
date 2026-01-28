@@ -1,0 +1,5 @@
+context now raises a "TypeError". It previously evaluated to "True"
+and emitted a "DeprecationWarning" since Python 3.9.
+3.2.3. Ellipsis
+---------------
+This type has a single value.  There is a single object with this

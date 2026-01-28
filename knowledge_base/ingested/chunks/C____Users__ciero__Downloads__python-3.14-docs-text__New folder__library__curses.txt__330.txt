@@ -1,0 +1,5 @@
+hand corner of the containing window, with coordinates "(0, 0)".
+   The instance's "stripspaces" flag is initially on.
+   "Textbox" objects have the following methods:
+   edit([validator])
+      This is the entry point you will normally use.  It accepts

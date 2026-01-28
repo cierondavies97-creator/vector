@@ -1,0 +1,4 @@
+and "parse_known_intermixed_args()" methods support this parsing
+   style.
+   These parsers do not support all the "argparse" features, and will
+   raise exceptions if unsupported features are used.  In particular,

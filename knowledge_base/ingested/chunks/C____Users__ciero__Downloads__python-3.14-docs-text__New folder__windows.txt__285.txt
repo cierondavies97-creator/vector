@@ -1,0 +1,4 @@
+directory), the core path is deduced, and the core paths in the
+  registry are ignored.  Other "application paths" in the registry are
+  always read.
+* When Python is hosted in another .exe (different directory, embedded

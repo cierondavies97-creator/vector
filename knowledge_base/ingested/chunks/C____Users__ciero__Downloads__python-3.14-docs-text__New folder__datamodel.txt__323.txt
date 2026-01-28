@@ -1,0 +1,5 @@
+method objects are also callable. Static method objects are created by
+the built-in "staticmethod()" constructor.
+3.2.13.6. Class method objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A class method object, like a static method object, is a wrapper

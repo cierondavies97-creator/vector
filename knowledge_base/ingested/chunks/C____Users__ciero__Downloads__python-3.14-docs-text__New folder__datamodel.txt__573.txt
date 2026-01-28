@@ -1,0 +1,4 @@
+considered, as with the evaluation of "x + y". In certain
+   situations, augmented assignment can result in unexpected errors
+   (see Why does a_tuple[i] += ['item'] raise an exception when the
+   addition works?), but this behavior is in fact part of the data

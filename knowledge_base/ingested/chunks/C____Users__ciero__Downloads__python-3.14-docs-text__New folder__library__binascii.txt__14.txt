@@ -1,0 +1,4 @@
+the optional argument *header* is present and false, newline
+   characters will be encoded as well; otherwise linefeed conversion
+   might corrupt the binary data stream.
+binascii.crc_hqx(data, value)

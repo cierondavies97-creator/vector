@@ -1,0 +1,4 @@
+operations.
+* The decimal module was designed to support "without prejudice, both
+  exact unrounded decimal arithmetic (sometimes called fixed-point
+  arithmetic) and rounded floating-point arithmetic."  -- excerpt from

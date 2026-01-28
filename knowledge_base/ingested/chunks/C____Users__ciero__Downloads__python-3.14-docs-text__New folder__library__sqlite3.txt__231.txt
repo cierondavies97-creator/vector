@@ -1,0 +1,7 @@
+Changed in version 3.5: Added support of slicing.
+Blob objects
+------------
+class sqlite3.Blob
+   Added in version 3.11.
+   A "Blob" instance is a *file-like object* that can read and write
+   data in an SQLite BLOB (Binary Large OBject). Call "len(blob)" to

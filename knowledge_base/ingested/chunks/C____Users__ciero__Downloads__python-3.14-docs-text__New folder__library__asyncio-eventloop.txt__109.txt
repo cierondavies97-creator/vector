@@ -1,0 +1,4 @@
+will be determined from host name (defaults to "AF_UNSPEC").
+   * *flags* is a bitmask for "getaddrinfo()".
+   * *sock* can optionally be specified in order to use a preexisting
+     socket object. If specified, *host* and *port* must not be

@@ -1,0 +1,5 @@
+1. Time zone offsets may have fractional seconds.
+   2. The "T" separator may be replaced by any single unicode
+      character.
+   3. Fractional hours and minutes are not supported.
+   4. Reduced precision dates are not currently supported ("YYYY-MM",

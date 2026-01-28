@@ -1,0 +1,5 @@
+types (like int, str, or tuple) to customize instance creation.  It
+   is also commonly overridden in custom metaclasses in order to
+   customize class creation.
+object.__init__(self[, ...])
+   Called after the instance has been created (by "__new__()"), but

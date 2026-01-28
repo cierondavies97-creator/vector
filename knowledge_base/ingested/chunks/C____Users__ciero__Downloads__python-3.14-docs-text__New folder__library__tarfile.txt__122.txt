@@ -1,0 +1,5 @@
+* "list()" will print a placeholder string.
+class tarfile.TarInfo(name='')
+   Create a "TarInfo" object.
+classmethod TarInfo.frombuf(buf, encoding, errors)
+   Create and return a "TarInfo" object from string buffer *buf*.

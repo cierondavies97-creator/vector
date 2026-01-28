@@ -1,0 +1,2 @@
+will automatically close *key* when control leaves the "with"
+   block.

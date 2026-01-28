@@ -1,0 +1,6 @@
+appropriate destination.
+* Filters provide a finer grained facility for determining which log
+  records to output.
+* Formatters specify the layout of log records in the final output.
+Logger Objects
+==============

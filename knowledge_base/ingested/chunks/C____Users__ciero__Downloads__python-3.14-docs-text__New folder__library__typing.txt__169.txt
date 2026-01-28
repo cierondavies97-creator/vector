@@ -1,0 +1,4 @@
+* When comparing literals, the argument order is ignored, e.g.:
+        assert Literal[1, 2] == Literal[2, 1]
+   * You cannot subclass or instantiate a "Literal".
+   * You cannot write "Literal[X][Y]".

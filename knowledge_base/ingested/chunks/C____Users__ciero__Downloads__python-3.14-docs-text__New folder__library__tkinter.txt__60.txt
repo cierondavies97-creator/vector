@@ -1,0 +1,3 @@
+debugging your Tkinter application, there are times that it will be
+useful to understand what those underlying Tcl/Tk commands look like.
+To illustrate, here is the Tcl/Tk equivalent of the main part of the

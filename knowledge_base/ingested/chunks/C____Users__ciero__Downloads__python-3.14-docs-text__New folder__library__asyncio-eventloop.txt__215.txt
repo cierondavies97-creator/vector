@@ -1,0 +1,4 @@
+* the value "None" which will make the subprocess inherit the
+       file descriptor from this process
+     * the "subprocess.DEVNULL" constant which indicates that the
+       special "os.devnull" file will be used

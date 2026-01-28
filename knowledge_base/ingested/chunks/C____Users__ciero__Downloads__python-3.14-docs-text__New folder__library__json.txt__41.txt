@@ -1,0 +1,4 @@
+literal decoded with an ordered list of pairs. The return
+        value of this function will be used instead of the "dict".
+        This feature can be used to implement custom decoders. If
+        *object_hook* is also set, *object_pairs_hook* takes priority.

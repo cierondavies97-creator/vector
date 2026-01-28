@@ -1,0 +1,4 @@
+8.87925541791544
+The recipe is conceptually equivalent to an algorithm that chooses
+from all the multiples of 2⁻¹⁰⁷⁴ in the range *0.0 ≤ x < 1.0*.  All
+such numbers are evenly spaced, but most have to be rounded down to

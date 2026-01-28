@@ -1,0 +1,4 @@
+values which the names map to may change between Python versions.
+The module also provides a mapping from numeric codes to names and
+some functions.  The functions mirror definitions in the Python C
+header files.

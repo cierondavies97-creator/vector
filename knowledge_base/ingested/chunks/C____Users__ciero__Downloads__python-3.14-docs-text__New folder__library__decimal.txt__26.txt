@@ -1,0 +1,7 @@
+decimals and floats in constructors or ordering comparisons raises an
+exception:
+   >>> c = getcontext()
+   >>> c.traps[FloatOperation] = True
+   >>> Decimal(3.14)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

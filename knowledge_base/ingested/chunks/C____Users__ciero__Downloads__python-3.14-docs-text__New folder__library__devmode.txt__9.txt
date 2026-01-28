@@ -1,0 +1,5 @@
+* Enable asyncio debug mode. For example, "asyncio" checks for
+  coroutines that were not awaited and logs them.
+  It behaves as if the "PYTHONASYNCIODEBUG" environment variable is
+  set to "1".
+* Check the *encoding* and *errors* arguments for string encoding and

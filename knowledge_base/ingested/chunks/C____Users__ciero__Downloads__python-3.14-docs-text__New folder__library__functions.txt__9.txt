@@ -1,0 +1,5 @@
+"__abs__()". If the argument is a complex number, its magnitude is
+   returned.
+aiter(async_iterable, /)
+   Return an *asynchronous iterator* for an *asynchronous iterable*.
+   Equivalent to calling "x.__aiter__()".

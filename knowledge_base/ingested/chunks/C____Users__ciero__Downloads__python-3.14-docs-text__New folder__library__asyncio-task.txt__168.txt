@@ -1,0 +1,4 @@
+Tasks, or the low-level "loop.create_task()" or "ensure_future()"
+   functions.  Manual instantiation of Tasks is discouraged.
+   To cancel a running Task use the "cancel()" method.  Calling it
+   will cause the Task to throw a "CancelledError" exception into the

@@ -1,0 +1,7 @@
+Module(
+          body=[
+              TypeAlias(
+                  name=Name(id='Alias', ctx=Store()),
+                  type_params=[
+                      TypeVar(
+                          name='T',

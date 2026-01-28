@@ -1,0 +1,3 @@
+Mutable sequences should provide methods "append()", "clear()",
+"count()", "extend()", "index()", "insert()", "pop()", "remove()", and
+"reverse()", like Python standard "list" objects. Finally, sequence

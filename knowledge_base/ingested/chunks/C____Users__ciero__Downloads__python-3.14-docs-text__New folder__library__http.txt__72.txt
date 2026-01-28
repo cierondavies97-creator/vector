@@ -1,0 +1,6 @@
+compatibility: "413 REQUEST_ENTITY_TOO_LARGE", "414
+REQUEST_URI_TOO_LONG", "416 REQUESTED_RANGE_NOT_SATISFIABLE" and "422
+UNPROCESSABLE_ENTITY".
+HTTP status category
+====================
+Added in version 3.12.

@@ -1,0 +1,5 @@
+method: these methods are used to convert the object to a complex or
+floating-point number, respectively, and the function is then applied
+to the result of the conversion.
+Note:
+  For functions involving branch cuts, we have the problem of deciding

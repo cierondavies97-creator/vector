@@ -1,0 +1,7 @@
+temporarily creates inheritable handles.
+      Added in version 3.7.
+Windows Constants
+-----------------
+The "subprocess" module exposes the following constants.
+subprocess.STD_INPUT_HANDLE
+   The standard input device. Initially, this is the console input

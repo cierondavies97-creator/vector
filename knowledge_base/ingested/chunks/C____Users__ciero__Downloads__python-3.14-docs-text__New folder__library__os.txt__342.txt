@@ -1,0 +1,4 @@
+the call may raise a UnicodeDecodeError. If the *path* is a bytes
+   object (direct or indirectly), the result will be a bytes object.
+   This function can also support paths relative to directory
+   descriptors.

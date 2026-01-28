@@ -1,0 +1,4 @@
+possible anomalous behavior from side-effects of importing a module.
+* Try to maximize code reuse. On occasion, tests will vary by
+  something as small as what type of input is used. Minimize code
+  duplication by subclassing a basic test class with a class that

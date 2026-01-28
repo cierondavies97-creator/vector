@@ -1,0 +1,4 @@
+* FORWARDREF: If "object.__annotations__" exists and can be
+     evaluated successfully, it is used; otherwise, the
+     "object.__annotate__" function is called. If it does not exist
+     either, "object.__annotations__" is tried again and any error

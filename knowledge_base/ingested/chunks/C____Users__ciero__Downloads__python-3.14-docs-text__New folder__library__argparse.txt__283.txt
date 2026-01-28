@@ -1,0 +1,4 @@
+combine the use of the "add_subparsers()" method with calls to
+   "set_defaults()" so that each subparser knows which Python function
+   it should execute.  For example:
+      >>> # subcommand functions

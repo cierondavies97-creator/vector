@@ -1,0 +1,4 @@
+| a="match" subject=subject_expr ':' NEWLINE !INDENT {
+           RAISE_INDENTATION_ERROR("expected an indented block after 'match' statement on line %d", a->lineno) }
+   invalid_case_block:
+       | "case" patterns guard? NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }

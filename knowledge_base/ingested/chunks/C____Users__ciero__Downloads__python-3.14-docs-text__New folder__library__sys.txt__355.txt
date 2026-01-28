@@ -1,0 +1,5 @@
+The name of the thread implementation:
+      * ""nt"": Windows threads
+      * ""pthread"": POSIX threads
+      * ""pthread-stubs"": stub POSIX threads (on WebAssembly
+        platforms without threading support)

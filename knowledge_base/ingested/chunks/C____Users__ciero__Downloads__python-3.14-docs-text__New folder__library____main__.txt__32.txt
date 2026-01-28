@@ -1,0 +1,5 @@
+relative import.  This import style can be used when referencing
+modules within a package.  For more details, see Intra-package
+References in the Modules section of the tutorial.
+Idiomatic Usage
+---------------

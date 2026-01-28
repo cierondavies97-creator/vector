@@ -1,0 +1,4 @@
+defined at the top level of a module.
+Similarly, when class instances are pickled, their class's code and
+data are not pickled along with them.  Only the instance data are
+pickled.  This is done on purpose, so you can fix bugs in a class or

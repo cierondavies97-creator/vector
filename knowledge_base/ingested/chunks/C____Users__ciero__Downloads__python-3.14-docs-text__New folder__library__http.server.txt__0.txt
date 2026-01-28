@@ -1,0 +1,5 @@
+"http.server" --- HTTP servers
+******************************
+**Source code:** Lib/http/server.py
+======================================================================
+This module defines classes for implementing HTTP servers.

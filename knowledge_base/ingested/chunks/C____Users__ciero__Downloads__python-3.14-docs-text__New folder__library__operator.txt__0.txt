@@ -1,0 +1,5 @@
+"operator" --- Standard operators as functions
+**********************************************
+**Source code:** Lib/operator.py
+======================================================================
+The "operator" module exports a set of efficient functions

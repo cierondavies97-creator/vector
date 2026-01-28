@@ -1,0 +1,6 @@
+tuple).
+reversed(dictview)
+   Return a reverse iterator over the keys, values or items of the
+   dictionary. The view will be iterated in reverse order of the
+   insertion.
+   Changed in version 3.8: Dictionary views are now reversible.

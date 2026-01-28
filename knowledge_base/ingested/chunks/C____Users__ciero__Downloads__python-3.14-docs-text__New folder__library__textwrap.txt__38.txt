@@ -1,0 +1,3 @@
+"width".  If it is false, long words will not be broken, and
+      some lines may be longer than "width".  (Long words will be put
+      on a line by themselves, in order to minimize the amount by

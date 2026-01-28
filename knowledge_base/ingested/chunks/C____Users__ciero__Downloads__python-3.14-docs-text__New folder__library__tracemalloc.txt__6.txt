@@ -1,0 +1,7 @@
+top_stats = snapshot.statistics('lineno')
+   print("[ Top 10 ]")
+   for stat in top_stats[:10]:
+       print(stat)
+Example of output of the Python test suite:
+   [ Top 10 ]
+   <frozen importlib._bootstrap>:716: size=4855 KiB, count=39328, average=126 B

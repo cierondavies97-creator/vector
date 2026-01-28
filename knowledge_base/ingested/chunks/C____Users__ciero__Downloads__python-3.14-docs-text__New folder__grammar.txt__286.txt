@@ -1,0 +1,4 @@
+invalid_while_stmt:
+       | 'while' named_expression NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }
+       | a='while' named_expression ':' NEWLINE !INDENT {
+           RAISE_INDENTATION_ERROR("expected an indented block after 'while' statement on line %d", a->lineno) }

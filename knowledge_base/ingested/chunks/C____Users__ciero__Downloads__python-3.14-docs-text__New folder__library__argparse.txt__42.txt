@@ -1,0 +1,6 @@
+formatter_class
+---------------
+"ArgumentParser" objects allow the help formatting to be customized by
+specifying an alternate formatting class.  Currently, there are four
+such classes:
+class argparse.RawDescriptionHelpFormatter

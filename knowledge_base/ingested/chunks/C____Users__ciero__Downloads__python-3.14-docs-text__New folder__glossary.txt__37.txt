@@ -1,0 +1,4 @@
+file, and sending over a socket.
+   Some operations need the binary data to be mutable.  The
+   documentation often refers to these as "read-write bytes-like
+   objects".  Example mutable buffer objects include "bytearray" and a

@@ -1,0 +1,3 @@
+The return value is a tuple "(type, encoding)" where *type* is
+   "None" if the type can't be guessed (missing or unknown suffix) or
+   a string of the form "'type/subtype'", usable for a MIME *content-

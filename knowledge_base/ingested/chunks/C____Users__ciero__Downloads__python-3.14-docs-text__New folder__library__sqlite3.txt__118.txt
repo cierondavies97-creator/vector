@@ -1,0 +1,5 @@
+Any clean-up actions should be placed here.
+                 """
+                 return self.count
+         con = sqlite3.connect(":memory:")
+         cur = con.execute("CREATE TABLE test(x, y)")

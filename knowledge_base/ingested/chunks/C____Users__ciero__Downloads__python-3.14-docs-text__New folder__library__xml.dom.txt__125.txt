@@ -1,0 +1,5 @@
+this error to be raised.
+exception xml.dom.InvalidModificationErr
+   Raised when an attempt is made to modify the type of a node.
+exception xml.dom.InvalidStateErr
+   Raised when an attempt is made to use an object that is not defined

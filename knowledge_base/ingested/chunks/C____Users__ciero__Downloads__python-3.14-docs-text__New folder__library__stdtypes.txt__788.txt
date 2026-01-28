@@ -1,0 +1,4 @@
+is not present, the "d[key]" operation calls that method with
+      the key *key* as argument.  The "d[key]" operation then returns
+      or raises whatever is returned or raised by the
+      "__missing__(key)" call. No other operations or methods invoke

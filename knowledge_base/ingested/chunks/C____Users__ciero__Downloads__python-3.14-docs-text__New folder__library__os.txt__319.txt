@@ -1,0 +1,5 @@
+"dir_fd".
+   Changed in version 3.3: Added the *dir_fd* parameter.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.13: Windows now handles a *mode* of "0o700".
+os.makedirs(name, mode=0o777, exist_ok=False)

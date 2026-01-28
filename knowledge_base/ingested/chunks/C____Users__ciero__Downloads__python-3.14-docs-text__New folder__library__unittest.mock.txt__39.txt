@@ -1,0 +1,5 @@
+an "AttributeError". Passing "unsafe=True" will allow access to
+     these attributes.
+     Added in version 3.5.
+   * *wraps*: Item for the mock object to wrap. If *wraps* is not
+     "None" then calling the Mock will pass the call through to the

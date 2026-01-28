@@ -1,0 +1,4 @@
+used internally in order to copy the file more efficiently. See
+   Platform-dependent efficient copy operations section.
+exception shutil.SpecialFileError
+   This exception is raised when "copyfile()" or "copytree()" attempt

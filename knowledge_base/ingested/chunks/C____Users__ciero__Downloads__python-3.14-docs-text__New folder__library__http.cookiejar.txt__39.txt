@@ -1,0 +1,4 @@
+attribute, or an explicit "discard" cookie-attribute).  For
+   interactive browsers, the end of a session usually corresponds to
+   closing the browser window.
+   Note that the "save()" method won't save session cookies anyway,

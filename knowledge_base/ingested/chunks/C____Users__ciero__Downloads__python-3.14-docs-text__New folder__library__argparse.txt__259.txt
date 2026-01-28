@@ -1,0 +1,4 @@
+"add_subparsers()" method.  The "add_subparsers()" method is
+   normally called with no arguments and returns a special action
+   object.  This object has a single method, "add_parser()", which
+   takes a command name and any "ArgumentParser" constructor

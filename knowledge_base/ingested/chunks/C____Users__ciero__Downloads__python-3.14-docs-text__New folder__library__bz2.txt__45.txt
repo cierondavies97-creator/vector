@@ -1,0 +1,7 @@
+>>> out = b""
+>>> for chunk in gen_data():
+...     # Provide data to the compressor object
+...     out = out + comp.compress(chunk)
+...
+>>> # Finish the compression process.  Call this once you have
+>>> # finished providing data to the compressor.

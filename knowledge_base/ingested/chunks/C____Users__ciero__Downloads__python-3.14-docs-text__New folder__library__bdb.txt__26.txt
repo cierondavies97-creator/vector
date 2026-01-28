@@ -1,0 +1,4 @@
+on the trace function.  For more information on code and frame
+      objects, refer to The standard type hierarchy.
+   dispatch_line(frame)
+      If the debugger should stop on the current line, invoke the

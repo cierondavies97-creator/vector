@@ -1,0 +1,5 @@
+For accessing the C Python api directly, a ready-to-use Python shared
+library object is available:
+ctypes.pythonapi
+   An instance of "PyDLL" that exposes Python C API functions as
+   attributes.  Note that all these functions are assumed to return C

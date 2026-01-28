@@ -1,0 +1,5 @@
+messages.
+      Example:
+         with self.assertLogs('foo', level='INFO') as cm:
+             logging.getLogger('foo').info('first message')
+             logging.getLogger('foo.bar').error('second message')

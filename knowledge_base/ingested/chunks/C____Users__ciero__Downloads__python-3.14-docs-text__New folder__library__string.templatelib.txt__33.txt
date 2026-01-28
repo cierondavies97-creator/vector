@@ -1,0 +1,7 @@
+...         print(value, expression, conversion, format_spec, sep=' | ')
+   ...
+   3.0 | 1. + 2. | None | .2f
+   -[ Attributes ]-
+   value: object
+      The evaluated value of the interpolation.
+      >>> t'{1 + 2}'.interpolations[0].value

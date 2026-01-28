@@ -1,0 +1,3 @@
+>>> # make a UUID from a string of hex digits (braces and hyphens ignored)
+   >>> x = uuid.UUID('{00010203-0405-0607-0809-0a0b0c0d0e0f}')
+   >>> # convert a UUID to a string of hex digits in standard form

@@ -1,0 +1,4 @@
+first argument; however, where "Popen" takes a single argument
+   which is list of strings, *subprocess_exec* takes multiple string
+   arguments.
+   The *protocol_factory* must be a callable returning a subclass of

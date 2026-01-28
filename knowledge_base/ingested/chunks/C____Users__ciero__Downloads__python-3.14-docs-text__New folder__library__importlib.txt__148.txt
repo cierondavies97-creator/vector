@@ -1,0 +1,6 @@
+path_stats(path)
+      Concrete implementation of
+      "importlib.abc.SourceLoader.path_stats()".
+   set_data(path, data)
+      Concrete implementation of
+      "importlib.abc.SourceLoader.set_data()".

@@ -1,0 +1,4 @@
+"TEXT" data type. This works well for UTF-8 encoded text, but it might
+fail for other encodings and invalid UTF-8. You can use a custom
+"text_factory" to handle such cases.
+Because of SQLite's flexible typing, it is not uncommon to encounter

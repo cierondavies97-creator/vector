@@ -1,0 +1,4 @@
+string translation function.
+xml.sax.saxutils.unescape(data, entities={})
+   Unescape "'&amp;'", "'&lt;'", and "'&gt;'" in a string of data.
+   You can unescape other strings of data by passing a dictionary as

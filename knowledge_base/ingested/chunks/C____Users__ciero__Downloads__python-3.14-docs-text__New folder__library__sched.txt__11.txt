@@ -1,0 +1,3 @@
+Executing the event means executing "action(*argument, **kwargs)".
+   *argument* is a sequence holding the positional arguments for
+   *action*. *kwargs* is a dictionary holding the keyword arguments

@@ -1,0 +1,4 @@
+any object that has a "read()" or "write()" method (depending on
+   the *mode*) that works with bytes. *bufsize* specifies the
+   blocksize and defaults to "20 * 512" bytes. Use this variant in
+   combination with e.g. "sys.stdin.buffer", a socket *file object* or

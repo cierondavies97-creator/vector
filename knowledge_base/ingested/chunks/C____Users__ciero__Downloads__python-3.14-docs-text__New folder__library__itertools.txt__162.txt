@@ -1,0 +1,6 @@
+# sliding_window('ABCDEFG', 3) → ABC BCD CDE DEF EFG
+       iterator = iter(iterable)
+       window = deque(islice(iterator, n - 1), maxlen=n)
+       for x in iterator:
+           window.append(x)
+           yield tuple(window)

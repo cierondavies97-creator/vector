@@ -1,0 +1,4 @@
+instance, the following conversions take place:
++----------------------+---------------------------------+
+| Resulting state      | "MaildirMessage" state          |
+|======================|=================================|

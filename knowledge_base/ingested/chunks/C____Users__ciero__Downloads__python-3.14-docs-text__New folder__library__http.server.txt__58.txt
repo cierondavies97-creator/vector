@@ -1,0 +1,4 @@
+Changed in version 3.9: The *directory* parameter accepts a *path-
+   like object*.
+   A lot of the work, such as parsing the request, is done by the base
+   class "BaseHTTPRequestHandler".  This class implements the

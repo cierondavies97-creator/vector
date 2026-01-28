@@ -1,0 +1,3 @@
+the computational resources of multi-core machines, you are advised to
+use "multiprocessing" or "concurrent.futures.ProcessPoolExecutor".
+However, threading is still an appropriate model if you want to run

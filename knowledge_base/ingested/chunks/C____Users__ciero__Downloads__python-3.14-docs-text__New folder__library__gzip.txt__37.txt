@@ -1,0 +1,4 @@
+the data is certain to contain only one member the
+   "zlib.decompress()" function with *wbits* set to 31 is faster.
+   Added in version 3.2.
+   Changed in version 3.11: Speed is improved by decompressing members

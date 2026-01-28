@@ -1,0 +1,5 @@
+"unexpectedSuccesses" attribute.
+   addSubTest(test, subtest, outcome)
+      Called when a subtest finishes.  *test* is the test case
+      corresponding to the test method.  *subtest* is a custom
+      "TestCase" instance describing the subtest.

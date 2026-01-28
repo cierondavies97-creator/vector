@@ -1,0 +1,5 @@
+be available through the proxy).  In this way, a proxy can be used
+just like its referent can:
+   >>> mp_context = multiprocessing.get_context('spawn')
+   >>> manager = mp_context.Manager()
+   >>> l = manager.list([i*i for i in range(10)])

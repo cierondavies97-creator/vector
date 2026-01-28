@@ -1,0 +1,9 @@
+A link (inside tarfile) "type".
+tarfile.SYMTYPE
+   A symbolic link "type".
+tarfile.CHRTYPE
+   A character special device "type".
+tarfile.BLKTYPE
+   A block special device "type".
+tarfile.DIRTYPE
+   A directory "type".

@@ -1,0 +1,7 @@
+using "uniform()".
+If no options are given, the output depends on the input:
+* String or multiple: same as "--choice".
+* Integer: same as "--integer".
+* Float: same as "--float".
+Command-line example
+====================

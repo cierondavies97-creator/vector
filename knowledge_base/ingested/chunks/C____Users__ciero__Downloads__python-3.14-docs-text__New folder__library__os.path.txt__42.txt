@@ -1,0 +1,5 @@
+recognizable drive, but returns "False" on platforms that do not
+   support Dev Drives. See the Windows documentation for information
+   on enabling and creating Dev Drives.
+   Added in version 3.12.
+   Changed in version 3.13: The function is now available on all

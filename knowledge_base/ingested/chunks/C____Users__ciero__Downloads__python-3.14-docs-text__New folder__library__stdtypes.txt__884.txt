@@ -1,0 +1,5 @@
+See also:
+  **PEP 604** -- PEP proposing the "X | Y" syntax and the Union type.
+Added in version 3.10.
+Changed in version 3.14: Union objects are now instances of
+"typing.Union". Previously, they were instances of "types.UnionType",

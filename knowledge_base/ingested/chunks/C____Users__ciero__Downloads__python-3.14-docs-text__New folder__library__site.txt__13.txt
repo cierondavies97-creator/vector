@@ -1,0 +1,4 @@
+intended purpose of executable lines is to make the corresponding
+  module(s) importable (load 3rd-party import hooks, adjust "PATH"
+  etc). Any other initialization is supposed to be done upon a
+  module's actual import, if and when it happens. Limiting a code

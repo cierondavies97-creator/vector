@@ -1,0 +1,4 @@
+Namespace(bar=['c'], foo=['a', 'b'])
+  Note that "nargs=1" produces a list of one item.  This is different
+  from the default, in which the item is produced by itself.
+* "'?'". One argument will be consumed from the command line if

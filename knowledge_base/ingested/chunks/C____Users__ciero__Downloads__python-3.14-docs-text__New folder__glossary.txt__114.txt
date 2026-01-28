@@ -1,0 +1,4 @@
+retrieved one at a time with the "next()" function.
+   Usually refers to a generator function, but may refer to a
+   *generator iterator* in some contexts.  In cases where the intended
+   meaning isn't clear, using the full terms avoids ambiguity.

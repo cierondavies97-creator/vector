@@ -1,0 +1,6 @@
+Socket families
+===============
+Depending on the system and the build options, various socket families
+are supported by this module.
+The address format required by a particular socket object is
+automatically selected based on the address family specified when the

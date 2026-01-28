@@ -1,0 +1,6 @@
+IDL mapping for Python.
+Type Mapping
+------------
+The IDL types used in the DOM specification are mapped to Python types
+according to the following table.
++--------------------+---------------------------------------------+

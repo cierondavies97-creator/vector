@@ -1,0 +1,9 @@
+method.
+Get HTTP headers
+----------------
+Simple example querying HTTP headers of the URL passed on the command
+line:
+   import asyncio
+   import urllib.parse
+   import sys
+   async def print_http_headers(url):

@@ -1,0 +1,3 @@
+subclasses" of the ABCs.  Those classes should define the full API
+   including all of the abstract methods and all of the mixin methods.
+   This lets users rely on "issubclass()" or "isinstance()" tests to

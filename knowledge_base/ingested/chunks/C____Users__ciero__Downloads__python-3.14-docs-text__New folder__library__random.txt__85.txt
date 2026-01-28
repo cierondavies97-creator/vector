@@ -1,0 +1,4 @@
+print(f'hypothesis that there is no difference between the drug and the placebo.')
+Simulation of arrival times and service deliveries for a multiserver
+queue:
+   from heapq import heapify, heapreplace

@@ -1,0 +1,5 @@
+generator iterator
+   An object created by a *generator* function.
+   Each "yield" temporarily suspends processing, remembering the
+   execution state (including local variables and pending try-
+   statements).  When the *generator iterator* resumes, it picks up

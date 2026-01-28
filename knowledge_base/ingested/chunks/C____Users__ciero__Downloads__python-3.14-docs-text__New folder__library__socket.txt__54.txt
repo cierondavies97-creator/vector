@@ -1,0 +1,5 @@
+"OSError".
+exception socket.gaierror
+   A subclass of "OSError", this exception is raised for address-
+   related errors by "getaddrinfo()" and "getnameinfo()". The
+   accompanying value is a pair "(error, string)" representing an

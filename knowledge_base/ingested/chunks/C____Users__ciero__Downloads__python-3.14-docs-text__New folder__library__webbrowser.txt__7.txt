@@ -1,0 +1,4 @@
+browser, but allow the remote browser to maintain its own windows on
+the display.  If remote browsers are not available on Unix, the
+controlling process will launch a new browser and wait.
+On iOS, the "BROWSER" environment variable, as well as any arguments

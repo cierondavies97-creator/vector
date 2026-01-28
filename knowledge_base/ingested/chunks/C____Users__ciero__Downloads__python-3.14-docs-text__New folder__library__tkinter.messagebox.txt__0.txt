@@ -1,0 +1,4 @@
+"tkinter.messagebox" --- Tkinter message prompts
+************************************************
+**Source code:** Lib/tkinter/messagebox.py
+======================================================================

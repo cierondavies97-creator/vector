@@ -1,0 +1,5 @@
+the path is returned unchanged.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.8: No longer uses "HOME" on Windows.
+os.path.expandvars(path)
+   Return the argument with environment variables expanded.

@@ -1,0 +1,5 @@
+default context.
+   Instantiating this class may set the global start method. See
+   Global start method for more details.
+   "RLock" supports the *context manager* protocol and thus may be
+   used in "with" statements.

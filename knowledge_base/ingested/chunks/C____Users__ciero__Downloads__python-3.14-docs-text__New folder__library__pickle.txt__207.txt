@@ -1,0 +1,7 @@
+The following option is accepted:
+pickle_file
+   A pickle file to read, or "-" to indicate reading from standard
+   input.
+See also:
+  Module "copyreg"
+     Pickle interface constructor registration for extension types.

@@ -1,0 +1,3 @@
+as a convenient base class for more specific MIME-aware subclasses.
+   *_maintype* is the *Content-Type* major type (e.g. *text* or
+   *image*), and *_subtype* is the *Content-Type* minor type  (e.g.

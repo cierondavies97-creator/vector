@@ -1,0 +1,4 @@
+an attribute matching the name of the requested method.
+   If the optional *allow_dotted_names* argument is true and the
+   instance does not have a "_dispatch()" method, then if the
+   requested method name contains periods, each component of the

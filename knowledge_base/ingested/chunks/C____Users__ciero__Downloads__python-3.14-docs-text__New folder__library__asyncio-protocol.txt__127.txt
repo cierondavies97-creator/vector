@@ -1,0 +1,5 @@
+# Get a reference to the event loop as we plan to use
+       # low-level APIs.
+       loop = asyncio.get_running_loop()
+       code = 'import datetime; print(datetime.datetime.now())'
+       exit_future = asyncio.Future(loop=loop)

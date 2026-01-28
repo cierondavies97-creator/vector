@@ -1,0 +1,6 @@
+"ssl.SSLSocket.getpeercert()"
+     * "'sslcontext'": "ssl.SSLContext" instance
+     * "'ssl_object'": "ssl.SSLObject" or "ssl.SSLSocket" instance
+   * pipe:
+     * "'pipe'": pipe object
+   * subprocess:

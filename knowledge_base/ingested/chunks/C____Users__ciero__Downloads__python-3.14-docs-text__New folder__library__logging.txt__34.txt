@@ -1,0 +1,4 @@
+level of NOTSET, its chain of ancestor loggers is traversed
+      until either an ancestor with a level other than NOTSET is
+      found, or the root is reached.
+      If an ancestor is found with a level other than NOTSET, then

@@ -1,0 +1,4 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+The "IncrementalEncoder" class is used for encoding an input in
+multiple steps. It defines the following methods which every
+incremental encoder must define in order to be compatible with the

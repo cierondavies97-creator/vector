@@ -1,0 +1,6 @@
+Returns a string identifying the compiler used for compiling
+   Python.
+platform.python_branch()
+   Returns a string identifying the Python implementation SCM branch.
+platform.python_implementation()
+   Returns a string identifying the Python implementation. Possible

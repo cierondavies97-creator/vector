@@ -1,0 +1,4 @@
+self.release_resource()
+Replacing any use of "try-finally" and flag variables
+-----------------------------------------------------
+A pattern you will sometimes see is a "try-finally" statement with a

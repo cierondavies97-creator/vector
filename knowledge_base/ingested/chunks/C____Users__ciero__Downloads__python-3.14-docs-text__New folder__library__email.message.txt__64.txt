@@ -1,0 +1,4 @@
+*header* specifies an alternative header to *Content-Type*.
+      If the value contains non-ASCII characters, the charset and
+      language may be explicitly specified using the optional
+      *charset* and *language* parameters.  Optional *language*

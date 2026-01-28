@@ -1,0 +1,8 @@
+Availability: Linux.
+   Added in version 3.12.
+socket.AF_RDS
+socket.PF_RDS
+socket.SOL_RDS
+RDS_*
+   Many constants of these forms, documented in the Linux
+   documentation, are also defined in the socket module.

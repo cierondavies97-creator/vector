@@ -1,0 +1,3 @@
+to access further features, you have to do this yourself:
+class pdb.Pdb(completekey='tab', stdin=None, stdout=None, skip=None, nosigint=False, readrc=True, mode=None, backend=None, colorize=False)
+   "Pdb" is the debugger class.

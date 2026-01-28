@@ -1,0 +1,5 @@
+Lookup *name* in the table and return a "Symbol" instance.
+   get_symbols()
+      Return a list of "Symbol" instances for names in the table.
+   get_children()
+      Return a list of the nested symbol tables.

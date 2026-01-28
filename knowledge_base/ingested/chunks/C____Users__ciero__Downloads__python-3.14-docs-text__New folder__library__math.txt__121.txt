@@ -1,0 +1,4 @@
+positive *normalized* float, "sys.float_info.min").
+   * If *x* is equal to the largest positive representable float,
+     return the value of the least significant bit of *x*, such that
+     the first float smaller than *x* is "x - ulp(x)".

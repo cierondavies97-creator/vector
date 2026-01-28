@@ -1,0 +1,3 @@
+The default word characters in Unicode (str) patterns are Unicode
+   alphanumerics and the underscore, but this can be changed by using
+   the "ASCII" flag. Word boundaries are determined by the current

@@ -1,0 +1,3 @@
+|                                  | rounded to the nearest multiple of              |
+|                                  | timedelta.resolution using round-half-to-even.  |
++----------------------------------+-------------------------------------------------+

@@ -1,0 +1,4 @@
+the parent process's logger -- any other customization of the
+   logger will not be inherited.
+multiprocessing.log_to_stderr(level=None)
+   This function performs a call to "get_logger()" but in addition to

@@ -1,0 +1,4 @@
+will be of interest to advanced applications.
+Following those is a set of examples of using the fundamental parts of
+the APIs covered in the preceding sections.
+The foregoing represent the modern (unicode friendly) API of the email

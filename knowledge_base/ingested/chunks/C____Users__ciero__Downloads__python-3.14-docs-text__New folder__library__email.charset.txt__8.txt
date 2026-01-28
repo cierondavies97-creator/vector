@@ -1,0 +1,4 @@
+*input_charset* is "euc-jp", then headers will be encoded with
+   base64, bodies will not be encoded, but output text will be
+   converted from the "euc-jp" character set to the "iso-2022-jp"
+   character set.

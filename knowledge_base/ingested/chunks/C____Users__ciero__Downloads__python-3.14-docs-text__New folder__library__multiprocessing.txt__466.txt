@@ -1,0 +1,3 @@
+all items which have been put on the queue will eventually be
+   removed before the process is joined.  Otherwise you cannot be sure
+   that processes which have put items on the queue will terminate.

@@ -1,0 +1,4 @@
+them as the child is not going to re-enter the interpreter.
+   Functions registered for execution before forking are called in
+   reverse registration order.  Functions registered for execution
+   after forking (either in the parent or in the child) are called in

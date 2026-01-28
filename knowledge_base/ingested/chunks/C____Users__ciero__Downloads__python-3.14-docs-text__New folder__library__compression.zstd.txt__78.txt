@@ -1,0 +1,5 @@
+overhead of loading the dictionary.
+      Difference for compression
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      +------------+----------------+------------+
+      |            | Digested       | Undigested |

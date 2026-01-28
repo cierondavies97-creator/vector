@@ -1,0 +1,4 @@
+handler was not installed from Python.
+signal.strsignal(signalnum)
+   Returns the description of signal *signalnum*, such as "Interrupt"
+   for "SIGINT". Returns "None" if *signalnum* has no description.

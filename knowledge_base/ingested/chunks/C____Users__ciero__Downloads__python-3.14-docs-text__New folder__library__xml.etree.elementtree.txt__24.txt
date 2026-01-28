@@ -1,0 +1,5 @@
+"XMLPullParser.flush()" can help reduce delay; please make sure to
+study the related security notes.
+Finding interesting elements
+----------------------------
+"Element" has some useful methods that help iterate recursively over

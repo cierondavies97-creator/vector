@@ -1,0 +1,4 @@
+least OpenSSL 1.0.2 or 1.1.0.
+Changed in version 3.10: **PEP 644** has been implemented. The ssl
+module requires OpenSSL 1.1.1 or newer.Use of deprecated constants and
+functions result in deprecation warnings.

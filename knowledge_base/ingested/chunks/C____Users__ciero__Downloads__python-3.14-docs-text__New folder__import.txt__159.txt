@@ -1,0 +1,4 @@
+directory, zipfile or other "sys.path" entry.
+In the remaining cases "__main__.__spec__" is set to "None", as the
+code used to populate the "__main__" does not correspond directly with
+an importable module:

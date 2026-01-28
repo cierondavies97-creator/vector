@@ -1,0 +1,4 @@
+"ZIP_ZSTANDARD" will raise a "NotImplementedError". An error will
+   also be raised if the corresponding compression module is not
+   available.
+   Changed in version 3.6: Calling "read()" on a closed ZipFile will

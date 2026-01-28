@@ -1,0 +1,3 @@
+same priority (which is higher than that of the Boolean operations).
+Comparisons can be chained arbitrarily; for example, "x < y <= z" is
+equivalent to "x < y and y <= z", except that *y* is evaluated only

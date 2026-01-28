@@ -1,0 +1,4 @@
+for the lock to be unlocked, only one coroutine eventually
+      proceeds.
+      Acquiring a lock is *fair*: the coroutine that proceeds will be
+      the first coroutine that started waiting on the lock.

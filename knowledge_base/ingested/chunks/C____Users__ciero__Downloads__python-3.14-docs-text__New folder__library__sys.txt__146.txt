@@ -1,0 +1,5 @@
+digits, this isn't always true:
+      >>> s = '9876543211234567'    # 16 significant digits is too many!
+      >>> format(float(s), '.16g')  # conversion changes value
+      '9876543211234568'
+sys.float_repr_style

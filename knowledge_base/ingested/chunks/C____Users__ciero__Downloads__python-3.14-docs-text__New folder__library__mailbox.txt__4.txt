@@ -1,0 +1,5 @@
+from "Mailbox" and your code should instantiate a particular
+   subclass.
+   The "Mailbox" interface is dictionary-like, with small keys
+   corresponding to messages. Keys are issued by the "Mailbox"
+   instance with which they will be used and are only meaningful to

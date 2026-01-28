@@ -1,0 +1,5 @@
+Run a Python subprocess with the given arguments.
+   *kw* is extra keyword args to pass to "subprocess.Popen()". Returns
+   a "subprocess.Popen" object.
+test.support.script_helper.kill_python(p)
+   Run the given "subprocess.Popen" process until completion and

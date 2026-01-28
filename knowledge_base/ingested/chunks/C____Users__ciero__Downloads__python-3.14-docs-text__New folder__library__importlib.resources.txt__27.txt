@@ -1,0 +1,3 @@
+files(anchor).joinpath(*path_names).read_bytes()
+   Changed in version 3.13: Multiple *path_names* are accepted.
+importlib.resources.read_text(anchor, *path_names, encoding='utf-8', errors='strict')

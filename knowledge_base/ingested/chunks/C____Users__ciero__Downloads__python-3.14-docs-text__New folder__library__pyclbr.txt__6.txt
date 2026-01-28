@@ -1,0 +1,3 @@
+level function and class names to their descriptors.  Nested
+   objects are entered into the children dictionary of their parent.
+   As with readmodule, *module* names the module to be read and *path*

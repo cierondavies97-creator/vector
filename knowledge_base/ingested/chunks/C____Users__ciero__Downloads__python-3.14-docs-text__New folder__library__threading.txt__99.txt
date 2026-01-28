@@ -1,0 +1,4 @@
+level synchronization primitive available, implemented directly by the
+"_thread" extension module.
+A primitive lock is in one of two states, "locked" or "unlocked". It
+is created in the unlocked state.  It has two basic methods,

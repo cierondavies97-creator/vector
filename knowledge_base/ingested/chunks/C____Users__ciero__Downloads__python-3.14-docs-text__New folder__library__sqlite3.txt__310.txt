@@ -1,0 +1,5 @@
+con.close()
+How to use the connection context manager
+-----------------------------------------
+A "Connection" object can be used as a context manager that
+automatically commits or rolls back open transactions when leaving the

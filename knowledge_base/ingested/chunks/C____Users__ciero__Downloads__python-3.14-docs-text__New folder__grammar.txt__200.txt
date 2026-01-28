@@ -1,0 +1,5 @@
+t_lookahead: '(' | '[' | '.'
+   # Targets for del statements
+   # --------------------------
+   del_targets[asdl_expr_seq*]: a[asdl_expr_seq*]=','.del_target+ [','] { a }
+   del_target[expr_ty] (memo):

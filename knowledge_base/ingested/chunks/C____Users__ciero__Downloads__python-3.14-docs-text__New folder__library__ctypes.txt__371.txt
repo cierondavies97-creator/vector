@@ -1,0 +1,5 @@
+Represents the C signed char datatype, and interprets the value as
+   small integer.  The constructor accepts an optional integer
+   initializer; no overflow checking is done.
+class ctypes.c_char
+   Represents the C char datatype, and interprets the value as a

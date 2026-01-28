@@ -1,0 +1,4 @@
+When opening a file for writing, the *format*, *check*, *preset*
+   and *filters* arguments have the same meanings as for
+   "LZMACompressor".
+   For binary mode, this function is equivalent to the "LZMAFile"

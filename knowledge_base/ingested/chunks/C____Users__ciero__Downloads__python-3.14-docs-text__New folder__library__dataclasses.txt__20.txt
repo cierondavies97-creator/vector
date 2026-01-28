@@ -1,0 +1,4 @@
+the programmer's intent, the existence and behavior of
+     "__eq__()", and the values of the *eq* and *frozen* flags in the
+     "@dataclass" decorator.
+     By default, "@dataclass" will not implicitly add a "__hash__()"

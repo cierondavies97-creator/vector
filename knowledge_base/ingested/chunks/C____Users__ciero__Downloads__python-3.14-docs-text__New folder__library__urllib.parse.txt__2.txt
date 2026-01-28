@@ -1,0 +1,4 @@
+The module has been designed to match the internet RFC on Relative
+Uniform Resource Locators. It supports the following URL schemes:
+"file", "ftp", "gopher", "hdl", "http", "https", "imap", "itms-
+services", "mailto", "mms", "news", "nntp", "prospero", "rsync",

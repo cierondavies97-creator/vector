@@ -1,0 +1,6 @@
+zlib.Z_RLE
+   Compression strategy that limits match distances to one (run-length
+   encoding).
+   This constant is only available if Python was compiled with zlib
+   1.2.0.1 or greater.
+   Added in version 3.6.

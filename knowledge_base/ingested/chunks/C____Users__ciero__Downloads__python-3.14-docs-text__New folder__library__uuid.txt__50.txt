@@ -1,0 +1,6 @@
+with "uuid3()" or "uuid5()".
+uuid.NAMESPACE_DNS
+   When this namespace is specified, the *name* string is a fully
+   qualified domain name.
+uuid.NAMESPACE_URL
+   When this namespace is specified, the *name* string is a URL.

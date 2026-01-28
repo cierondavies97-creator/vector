@@ -1,0 +1,4 @@
+dictionary mapping field names (as also listed in "_fields") to
+      their types.
+         >>> ast.TypeVar._field_types
+         {'name': <class 'str'>, 'bound': ast.expr | None, 'default_value': ast.expr | None}

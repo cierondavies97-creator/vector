@@ -1,0 +1,4 @@
+argument value "'+'" or "'*'". Note that when nargs is "None" (the
+  default) or "'?'", each character of the argument string will be
+  appended to the list. Example usage:
+     >>> parser = argparse.ArgumentParser()

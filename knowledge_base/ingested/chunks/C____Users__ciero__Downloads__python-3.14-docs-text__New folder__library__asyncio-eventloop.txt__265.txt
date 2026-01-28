@@ -1,0 +1,6 @@
+loop.close()
+See also:
+  * A similar example using transports, protocols, and the
+    "loop.create_connection()" method.
+  * Another similar example using the high-level
+    "asyncio.open_connection()" function and streams.

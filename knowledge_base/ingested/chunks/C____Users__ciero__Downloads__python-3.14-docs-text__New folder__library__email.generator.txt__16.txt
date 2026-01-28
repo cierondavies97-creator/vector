@@ -1,0 +1,4 @@
+"BytesGenerator" instance was created.
+      If the "policy" option "cte_type" is "8bit" (the default), copy
+      any headers in the original parsed message that have not been
+      modified to the output with any bytes with the high bit set

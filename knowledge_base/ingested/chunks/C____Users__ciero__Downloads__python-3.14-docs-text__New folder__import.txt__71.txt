@@ -1,0 +1,6 @@
+5.4.1. Loaders
+--------------
+Module loaders provide the critical function of loading: module
+execution. The import machinery calls the
+"importlib.abc.Loader.exec_module()" method with a single argument,
+the module object to execute.  Any value returned from "exec_module()"

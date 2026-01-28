@@ -1,0 +1,4 @@
+"collections.abc.Generator" and "typing.Generator" in type
+   annotations.
+   Deprecated since version 3.9: "collections.abc.Generator" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias

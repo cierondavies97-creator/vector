@@ -1,0 +1,3 @@
+special meaning on Windows, and raises an exception. The value of
+   integer *options* has no effect. *pid* can refer to any process
+   whose id is known, not necessarily a child process. The "spawn*"

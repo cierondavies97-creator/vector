@@ -1,0 +1,4 @@
+POP3.dele(which)
+   Flag message number *which* for deletion.  On most servers
+   deletions are not actually performed until QUIT (the major
+   exception is Eudora QPOP, which deliberately violates the RFCs by

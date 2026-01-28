@@ -1,0 +1,4 @@
+layout, "_pack_" must be unset or zero.
+      If not set explicitly, "ctypes" will use a default that matches
+      the platform conventions. This default may change in future
+      Python releases (for example, when a new platform gains official

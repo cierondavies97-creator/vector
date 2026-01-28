@@ -1,0 +1,3 @@
+is specified in *headers*.  If *encode_chunked* is "False", the
+   HTTPConnection object assumes that all encoding is handled by the
+   calling code.  If it is "True", the body will be chunk-encoded.

@@ -1,0 +1,4 @@
+to the value that would be obtained by computing "(x**y) %
+      modulo" with unbounded precision, but is computed more
+      efficiently.  The exponent of the result is zero, regardless of
+      the exponents of "x", "y" and "modulo".  The result is always

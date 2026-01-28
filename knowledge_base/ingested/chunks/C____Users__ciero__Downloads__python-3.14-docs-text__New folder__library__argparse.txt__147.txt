@@ -1,0 +1,4 @@
+* "'+'". Just like "'*'", all command-line arguments present are
+  gathered into a list.  Additionally, an error message will be
+  generated if there wasn't at least one command-line argument
+  present.  For example:

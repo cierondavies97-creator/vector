@@ -1,0 +1,4 @@
+------------------
+In Tk, there is a utility command, "wm", for interacting with the
+window manager.  Options to the "wm" command allow you to control
+things like titles, placement, icon bitmaps, and the like.  In

@@ -1,0 +1,2 @@
+| type.__annotations__                               | A dictionary containing *variable annotations*     |
+|                                                    | collected during class body execution. See also:   |

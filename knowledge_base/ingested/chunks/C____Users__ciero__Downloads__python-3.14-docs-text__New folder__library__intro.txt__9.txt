@@ -1,0 +1,3 @@
+in the index (in the back).  And finally, if you enjoy learning about
+random subjects, you choose a random page number (see module "random")
+and read a section or two.  Regardless of the order in which you read

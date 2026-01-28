@@ -1,0 +1,4 @@
+any, must explicitly call it to ensure proper initialization of the
+   base class part of the instance; for example:
+   "super().__init__([args...])".
+   Because "__new__()" and "__init__()" work together in constructing

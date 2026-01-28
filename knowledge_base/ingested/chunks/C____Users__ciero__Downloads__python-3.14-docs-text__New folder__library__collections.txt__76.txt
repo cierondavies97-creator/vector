@@ -1,0 +1,4 @@
+side of the deque with approximately the same *O*(1) performance in
+   either direction.
+   Though "list" objects support similar operations, they are
+   optimized for fast fixed-length operations and incur *O*(*n*)

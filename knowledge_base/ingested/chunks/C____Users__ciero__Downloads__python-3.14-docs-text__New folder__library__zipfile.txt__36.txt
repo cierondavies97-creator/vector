@@ -1,0 +1,4 @@
+page (default) or UTF-8 by a flag in the archive header. That
+     flag takes precedence over *metadata_encoding*, which is a
+     Python-specific extension.
+   Changed in version 3.2: Added the ability to use "ZipFile" as a

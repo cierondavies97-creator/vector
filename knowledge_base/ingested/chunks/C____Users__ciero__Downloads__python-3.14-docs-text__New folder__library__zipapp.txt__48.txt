@@ -1,0 +1,3 @@
+it alongside your zipfile and add code to your "__main__.py" to
+include the directory containing the unzipped module in "sys.path". In
+this case, you will need to make sure to ship appropriate binaries for

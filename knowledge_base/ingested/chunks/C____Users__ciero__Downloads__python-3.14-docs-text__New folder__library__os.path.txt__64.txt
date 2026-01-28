@@ -1,0 +1,4 @@
+and UNIX with respect to how links and subsequent path components
+     interact.Operating system APIs make paths canonical as needed, so
+     it's not normally necessary to call this function.
+   Changed in version 3.6: Accepts a *path-like object*.

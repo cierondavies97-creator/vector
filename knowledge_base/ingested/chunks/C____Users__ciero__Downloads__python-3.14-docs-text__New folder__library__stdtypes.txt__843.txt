@@ -1,0 +1,3 @@
+For a container class, the argument(s) supplied to a subscription of
+the class may indicate the type(s) of the elements an object contains.
+For example, "set[bytes]" can be used in type annotations to signify a

@@ -1,0 +1,6 @@
+See also:
+  * See "typing.NamedTuple" for a way to add type hints for named
+    tuples.  It also provides an elegant notation using the "class"
+    keyword:
+       class Component(NamedTuple):
+           part_number: int

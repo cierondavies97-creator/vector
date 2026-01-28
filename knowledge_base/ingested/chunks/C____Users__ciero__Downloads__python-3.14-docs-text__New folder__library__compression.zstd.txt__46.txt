@@ -1,0 +1,4 @@
+frame header of the next frame unless
+      "CompressionParameter.content_size_flag" is "False" or "0". A
+      size of "0" means that the frame is empty. If *size* is "None",
+      the frame header will omit the frame size. Frames that include

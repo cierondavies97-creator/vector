@@ -1,0 +1,4 @@
+itself is not awaitable and does not provide this method.
+   Note:
+     The language doesn't place any restriction on the type or value
+     of the objects yielded by the iterator returned by "__await__",

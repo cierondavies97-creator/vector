@@ -1,0 +1,3 @@
+If "WNOHANG" is specified and there are no matching children in the
+   requested state, "None" is returned. Otherwise, if there are no
+   matching children that could be waited for, "ChildProcessError" is

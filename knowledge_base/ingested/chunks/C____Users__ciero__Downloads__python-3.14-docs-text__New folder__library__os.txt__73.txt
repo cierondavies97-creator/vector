@@ -1,0 +1,5 @@
+and "getenvb()", which respectively use "os.environ" and
+   "os.environb" in their implementations.
+   See also the "os.reload_environ()" function.
+   Note:
+     On some platforms, including FreeBSD and macOS, setting "environ"

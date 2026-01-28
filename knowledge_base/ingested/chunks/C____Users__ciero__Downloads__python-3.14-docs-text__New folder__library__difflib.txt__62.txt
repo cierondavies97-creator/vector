@@ -1,0 +1,4 @@
+=======================
+The "SequenceMatcher" class has this constructor:
+class difflib.SequenceMatcher(isjunk=None, a='', b='', autojunk=True)
+   Optional argument *isjunk* must be "None" (the default) or a one-

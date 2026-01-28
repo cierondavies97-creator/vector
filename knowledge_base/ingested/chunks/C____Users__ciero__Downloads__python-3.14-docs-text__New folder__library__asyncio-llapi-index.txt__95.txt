@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+Low-level transport abstraction over subprocesses. Returned by
+"loop.subprocess_exec()" and "loop.subprocess_shell()":

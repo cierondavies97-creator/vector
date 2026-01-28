@@ -1,0 +1,10 @@
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Refactoring Example
+from my_math import my_product, my_sum
+def product_minus_sum(numbers):
+""" Subtract sum of numbers from product of numbers. """

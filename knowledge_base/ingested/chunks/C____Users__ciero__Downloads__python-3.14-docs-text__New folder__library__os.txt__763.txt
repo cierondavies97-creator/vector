@@ -1,0 +1,4 @@
+*pid* of 0 means the calling process. The result is one of the
+   scheduling policy constants above.
+os.sched_setparam(pid, param, /)
+   Set the scheduling parameters for the process with PID *pid*. A

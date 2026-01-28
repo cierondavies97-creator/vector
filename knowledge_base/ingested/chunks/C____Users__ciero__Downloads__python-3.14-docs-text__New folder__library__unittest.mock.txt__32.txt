@@ -1,0 +1,3 @@
+the mock object. If you pass in an object then a list of strings
+     is formed by calling dir on the object (excluding unsupported
+     magic attributes and methods). Accessing any attribute not in

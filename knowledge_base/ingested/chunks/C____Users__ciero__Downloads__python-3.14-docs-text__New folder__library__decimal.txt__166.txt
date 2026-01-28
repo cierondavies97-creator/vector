@@ -1,0 +1,5 @@
+described below. In addition, the module provides three pre-made
+contexts:
+decimal.BasicContext
+   This is a standard context defined by the General Decimal
+   Arithmetic Specification.  Precision is set to nine.  Rounding is

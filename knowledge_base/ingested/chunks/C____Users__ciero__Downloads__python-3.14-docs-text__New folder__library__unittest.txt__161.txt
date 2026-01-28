@@ -1,0 +1,4 @@
+Changed in version 3.3: Added the *msg* keyword argument when
+      used as a context manager.
+   assertRaisesRegex(exception, regex, callable, *args, **kwds)
+   assertRaisesRegex(exception, regex, *, msg=None)

@@ -1,0 +1,4 @@
+"urllib.parse.urlencode()" function takes a mapping or sequence of
+   2-tuples and returns an ASCII string in this format. It should be
+   encoded to bytes before being used as the *data* parameter.
+   *headers* should be a dictionary, and will be treated as if

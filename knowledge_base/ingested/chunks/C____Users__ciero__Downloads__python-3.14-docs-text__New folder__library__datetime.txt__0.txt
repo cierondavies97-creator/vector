@@ -1,0 +1,5 @@
+"datetime" --- Basic date and time types
+****************************************
+**Source code:** Lib/datetime.py
+======================================================================
+The "datetime" module supplies classes for manipulating dates and

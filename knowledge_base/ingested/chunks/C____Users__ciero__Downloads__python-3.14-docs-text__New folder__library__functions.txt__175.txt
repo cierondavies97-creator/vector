@@ -1,0 +1,5 @@
+its "__next__()" method; if the value returned is equal to
+   *sentinel*, "StopIteration" will be raised, otherwise the value
+   will be returned.
+   See also Iterator Types.
+   One useful application of the second form of "iter()" is to build a

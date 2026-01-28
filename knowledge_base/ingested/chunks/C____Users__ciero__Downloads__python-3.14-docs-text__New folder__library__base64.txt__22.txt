@@ -1,0 +1,4 @@
+Similar to "b32decode()" but uses the Extended Hex Alphabet, as
+   defined in **RFC 4648**.
+   This version does not allow the digit 0 (zero) to the letter O (oh)
+   and digit 1 (one) to either the letter I (eye) or letter L (el)

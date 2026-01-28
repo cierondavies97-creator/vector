@@ -1,0 +1,4 @@
+original source.
+   evaluate(*, owner=None, globals=None, locals=None, type_params=None, format=Format.VALUE)
+      Evaluate the forward reference, returning its value.
+      If the *format* argument is "VALUE" (the default), this method

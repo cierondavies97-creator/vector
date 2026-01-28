@@ -1,0 +1,4 @@
+context whenever the task starts or resumes execution.
+cyclic isolate
+   A subgroup of one or more objects that reference each other in a
+   reference cycle, but are not referenced by objects outside the

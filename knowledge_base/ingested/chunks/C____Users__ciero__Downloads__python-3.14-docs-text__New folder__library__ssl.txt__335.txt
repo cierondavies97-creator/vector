@@ -1,0 +1,4 @@
+the file which matches.  The platform's certificates file can be used
+by calling "SSLContext.load_default_certs()", this is done
+automatically with "create_default_context()".
+Combined key and certificate

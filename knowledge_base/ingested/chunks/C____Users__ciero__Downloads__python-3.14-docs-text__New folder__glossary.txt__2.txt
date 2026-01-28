@@ -1,0 +1,5 @@
+decorator.
+   * The three dots form of the Ellipsis object.
+abstract base class
+   Abstract base classes complement *duck-typing* by providing a way
+   to define interfaces when other techniques like "hasattr()" would

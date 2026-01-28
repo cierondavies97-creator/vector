@@ -1,0 +1,5 @@
+(preferably not from within the demo-viewer).
+"turtledemo" --- Demo scripts
+=============================
+The "turtledemo" package includes a set of demo scripts.  These
+scripts can be run and viewed using the supplied demo viewer as

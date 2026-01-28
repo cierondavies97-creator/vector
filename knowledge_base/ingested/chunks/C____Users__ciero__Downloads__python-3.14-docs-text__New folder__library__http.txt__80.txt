@@ -1,0 +1,7 @@
+False
+class http.HTTPMethod
+   Added in version 3.11.
+   A subclass of "enum.StrEnum" that defines a set of HTTP methods and
+   descriptions written in English.
+   Usage:
+      >>> from http import HTTPMethod

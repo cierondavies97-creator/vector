@@ -1,0 +1,8 @@
+...
+      KeyError
+      >>> m.side_effect = None
+      >>> m()
+      3
+   call_args
+      This is either "None" (if the mock hasn't been called), or the
+      arguments that the mock was last called with. This will be in

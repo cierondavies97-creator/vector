@@ -1,0 +1,3 @@
+The server name argument is text. For internationalized domain
+   name, the server name is an IDN A-label (""xn--pythn-mua.org"").
+   A typical use of this callback is to change the "ssl.SSLSocket"'s

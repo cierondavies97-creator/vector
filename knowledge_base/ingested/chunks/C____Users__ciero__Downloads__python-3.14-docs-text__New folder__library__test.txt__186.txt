@@ -1,0 +1,4 @@
+Set to a non-ASCII name for a temporary file.
+class test.support.os_helper.EnvironmentVarGuard
+   Class used to temporarily set or unset environment variables.
+   Instances can be used as a context manager and have a complete

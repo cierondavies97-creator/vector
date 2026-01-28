@@ -1,0 +1,7 @@
+value = tuple(STACK[-count:])
+          STACK = STACK[:-count]
+      STACK.append(value)
+BUILD_LIST(count)
+   Works as "BUILD_TUPLE", but creates a list.
+BUILD_SET(count)
+   Works as "BUILD_TUPLE", but creates a set.

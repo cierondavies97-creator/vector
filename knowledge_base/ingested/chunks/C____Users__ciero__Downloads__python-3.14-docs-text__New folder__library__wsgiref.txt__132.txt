@@ -1,0 +1,5 @@
+wsgiref.types.WSGIApplication
+   A type alias describing a WSGI application callable.
+class wsgiref.types.InputStream
+   A "typing.Protocol" describing a **WSGI Input Stream**.
+class wsgiref.types.ErrorStream

@@ -1,0 +1,5 @@
+"subprocess" module is recommended instead.
+os.P_NOWAIT
+os.P_NOWAITO
+   Possible values for the *mode* parameter to the "spawn*" family of
+   functions.  If either of these values is given, the "spawn*"

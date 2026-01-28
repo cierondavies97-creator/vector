@@ -1,0 +1,4 @@
+to "header_factory", and the resulting header object is returned
+      as the value.  In this case a "ValueError" is raised if the
+      input value contains CR or LF characters.
+   header_fetch_parse(name, value)

@@ -1,0 +1,7 @@
+section, a "Constant", a "Name", a "Lambda", a "Yield" or
+   "YieldFrom" node.
+      >>> print(ast.dump(ast.parse('-a'), indent=4))
+      Module(
+          body=[
+              Expr(
+                  value=UnaryOp(

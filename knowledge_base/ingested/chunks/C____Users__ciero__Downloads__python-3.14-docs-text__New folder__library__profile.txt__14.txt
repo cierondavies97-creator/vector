@@ -1,0 +1,6 @@
+made in calls to sub-functions)
+percall
+   is the quotient of "tottime" divided by "ncalls"
+cumtime
+   is the cumulative time spent in this and all subfunctions (from
+   invocation till exit). This figure is accurate *even* for recursive

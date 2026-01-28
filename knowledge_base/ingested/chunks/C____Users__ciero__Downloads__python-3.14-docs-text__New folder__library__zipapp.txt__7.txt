@@ -1,0 +1,4 @@
+An output filename must be specified if the *source* is an archive
+   (and in that case, *output* must not be the same as *source*).
+-p <interpreter>, --python=<interpreter>
+   Add a "#!" line to the archive specifying *interpreter* as the

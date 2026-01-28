@@ -1,0 +1,6 @@
+**parse** attribute to "text":
+   <?xml version="1.0"?>
+   <document xmlns:xi="http://www.w3.org/2001/XInclude">
+     Copyright (c) <xi:include href="year.txt" parse="text" />.
+   </document>
+The result might look something like:

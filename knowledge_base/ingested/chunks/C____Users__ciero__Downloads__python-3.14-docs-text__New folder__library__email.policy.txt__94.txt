@@ -1,0 +1,4 @@
+sender or recipient addresses have non-ASCII characters (the
+   "smtplib.SMTP.send_message()" method handles this automatically).
+email.policy.HTTP
+   Suitable for serializing headers with for use in HTTP traffic.

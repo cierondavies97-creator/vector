@@ -1,0 +1,3 @@
+false, and both *src* and *dst* are symbolic links, "copymode()"
+   will attempt to modify the mode of *dst* itself (rather than the
+   file it points to).  This functionality is not available on every

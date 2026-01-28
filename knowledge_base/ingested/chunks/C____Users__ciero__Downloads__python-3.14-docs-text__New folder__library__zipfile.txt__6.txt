@@ -1,0 +1,6 @@
+but that has not been enabled.
+class zipfile.ZipFile
+   The class for reading and writing ZIP files.  See section ZipFile
+   objects for constructor details.
+class zipfile.Path
+   Class that implements a subset of the interface provided by

@@ -1,0 +1,4 @@
+to_addrs  = prompt("To: ").split()
+   print("Enter message, end with ^D (Unix) or ^Z (Windows):")
+   # Add the From: and To: headers at the start!
+   lines = [f"From: {from_addr}", f"To: {', '.join(to_addrs)}", ""]

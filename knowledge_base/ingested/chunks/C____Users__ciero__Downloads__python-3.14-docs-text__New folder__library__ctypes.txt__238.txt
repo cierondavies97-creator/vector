@@ -1,0 +1,4 @@
+For details, consult the *dlopen(3)* manpage.  On Windows, *mode* is
+ignored.  On posix systems, RTLD_NOW is always added, and is not
+configurable.
+The *use_errno* parameter, when set to true, enables a ctypes

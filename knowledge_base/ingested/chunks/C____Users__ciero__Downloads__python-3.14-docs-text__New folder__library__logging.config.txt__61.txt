@@ -1,0 +1,4 @@
+If the specified value is "True", the configuration is processed as
+  described in the section on Incremental Configuration.
+* *disable_existing_loggers* - whether any existing non-root loggers
+  are to be disabled. This setting mirrors the parameter of the same

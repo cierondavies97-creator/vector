@@ -1,0 +1,6 @@
+traceback objects.
+Added in version 3.13: Output is colorized by default and can be
+controlled using environment variables.
+Module-Level Functions
+======================
+traceback.print_tb(tb, limit=None, file=None)

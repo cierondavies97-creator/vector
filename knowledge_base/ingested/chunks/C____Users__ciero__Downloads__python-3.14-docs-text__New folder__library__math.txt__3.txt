@@ -1,0 +1,4 @@
+allows earlier detection of the unexpected complex number used as a
+parameter, so that the programmer can determine how and why it was
+generated in the first place.
+The following functions are provided by this module.  Except when

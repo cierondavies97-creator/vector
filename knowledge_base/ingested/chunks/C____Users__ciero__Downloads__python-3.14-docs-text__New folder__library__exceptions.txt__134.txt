@@ -1,0 +1,5 @@
+automatic. The "ExceptionGroup" constructor, on the other hand,
+   raises a "TypeError" if any contained exception is not an
+   "Exception" subclass.
+   message
+      The "msg" argument to the constructor. This is a read-only

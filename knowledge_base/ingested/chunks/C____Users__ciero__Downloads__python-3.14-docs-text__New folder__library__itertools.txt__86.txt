@@ -1,0 +1,6 @@
+yield curr_value
+              for curr_value in iterator:
+                  curr_key = keyfunc(curr_value)
+                  if curr_key != target_key:
+                      return
+                  yield curr_value

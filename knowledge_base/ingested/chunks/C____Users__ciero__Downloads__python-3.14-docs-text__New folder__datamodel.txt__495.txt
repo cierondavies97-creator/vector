@@ -1,0 +1,3 @@
+The potential uses for metaclasses are boundless. Some ideas that have
+been explored include enum, logging, interface checking, automatic
+delegation, automatic property creation, proxies, frameworks, and

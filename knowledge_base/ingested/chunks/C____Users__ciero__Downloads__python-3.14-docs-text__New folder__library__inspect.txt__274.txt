@@ -1,0 +1,5 @@
+* CORO_SUSPENDED: Currently suspended at an await expression.
+   * CORO_CLOSED: Execution has completed.
+   Added in version 3.5.
+inspect.getasyncgenstate(agen)
+   Get current state of an asynchronous generator object.  The

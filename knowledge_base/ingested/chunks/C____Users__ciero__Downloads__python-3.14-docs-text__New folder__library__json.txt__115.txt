@@ -1,0 +1,5 @@
+}
+   $ echo '{1.2:3.4}' | python -m json
+   Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Changed in version 3.5: The output is now in the same order as the
+input. Use the "--sort-keys" option to sort the output of dictionaries

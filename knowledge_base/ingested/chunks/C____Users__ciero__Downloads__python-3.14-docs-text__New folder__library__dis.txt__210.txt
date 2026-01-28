@@ -1,0 +1,3 @@
+implement functionality that is not performance critical.
+   The operand determines which intrinsic function is called:
+   +-------------------------------------+-------------------------------------+

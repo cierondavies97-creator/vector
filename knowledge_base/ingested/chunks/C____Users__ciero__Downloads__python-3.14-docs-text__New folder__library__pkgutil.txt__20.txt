@@ -1,0 +1,4 @@
+Note:
+     Only works for a *finder* which defines an "iter_modules()"
+     method. This interface is non-standard, so the module also
+     provides implementations for "importlib.machinery.FileFinder" and

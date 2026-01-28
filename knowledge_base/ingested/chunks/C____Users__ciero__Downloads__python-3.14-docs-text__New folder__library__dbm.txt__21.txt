@@ -1,0 +1,5 @@
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.
+dbm.sqlite3.open(filename, /, flag='r', mode=0o666)
+   Open an SQLite database.

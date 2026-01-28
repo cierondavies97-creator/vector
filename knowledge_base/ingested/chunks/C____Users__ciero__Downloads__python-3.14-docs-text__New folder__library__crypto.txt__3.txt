@@ -1,0 +1,6 @@
+* Credits
+* "hmac" --- Keyed-Hashing for Message Authentication
+* "secrets" --- Generate secure random numbers for managing secrets
+  * Random numbers
+  * Generating tokens
+    * How many bytes should tokens use?

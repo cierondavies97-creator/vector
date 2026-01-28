@@ -1,0 +1,8 @@
+socket.ETHERTYPE_ARP
+socket.ETHERTYPE_IP
+socket.ETHERTYPE_IPV6
+socket.ETHERTYPE_VLAN
+   IEEE 802.3 protocol number. constants.
+   Availability: Linux, FreeBSD, macOS.
+   Added in version 3.12.
+socket.SHUT_RD

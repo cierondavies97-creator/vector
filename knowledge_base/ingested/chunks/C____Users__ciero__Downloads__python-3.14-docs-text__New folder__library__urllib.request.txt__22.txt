@@ -1,0 +1,4 @@
+module can be imported), "HTTPSHandler" will also be added.
+   A "BaseHandler" subclass may also change its "handler_order"
+   attribute to modify its position in the handlers list.
+urllib.request.pathname2url(path, *, add_scheme=False)

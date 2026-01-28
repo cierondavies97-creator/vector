@@ -1,0 +1,5 @@
+initializing.
+   Added in version 3.7.
+exception concurrent.futures.interpreter.BrokenInterpreterPool
+   Derived from "BrokenThreadPool", this exception class is raised
+   when one of the workers of a "InterpreterPoolExecutor" has failed

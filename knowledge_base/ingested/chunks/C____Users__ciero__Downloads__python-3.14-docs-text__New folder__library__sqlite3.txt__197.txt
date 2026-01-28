@@ -1,0 +1,5 @@
+Execute a single SQL statement, optionally binding Python values
+      using placeholders.
+      Parameters:
+         * **sql** (*str*) -- A single SQL statement.
+         * **parameters** ("dict" | *sequence*) -- Python values to

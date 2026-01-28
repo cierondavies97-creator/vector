@@ -1,0 +1,4 @@
+are described in the relevant sections.
+Some libraries described under Text Processing Services also work with
+either ASCII-compatible binary formats (for example, "re") or all
+binary data (for example, "difflib").

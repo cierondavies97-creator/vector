@@ -1,0 +1,5 @@
+result to "res", and call "res.fetchone()" to fetch the resulting row:
+   >>> res = cur.execute("SELECT name FROM sqlite_master")
+   >>> res.fetchone()
+   ('movie',)
+We can see that the table has been created, as the query returns a

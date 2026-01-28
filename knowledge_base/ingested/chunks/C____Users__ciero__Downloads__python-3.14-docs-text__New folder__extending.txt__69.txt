@@ -1,0 +1,7 @@
+should be the only non-"static" item defined in the module file:
+   PyMODINIT_FUNC
+   PyInit_spam(void)
+   {
+       return PyModuleDef_Init(&spam_module);
+   }
+Note that "PyMODINIT_FUNC" declares the function as "PyObject *"

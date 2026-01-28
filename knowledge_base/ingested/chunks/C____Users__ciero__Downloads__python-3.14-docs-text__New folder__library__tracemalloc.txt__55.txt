@@ -1,0 +1,3 @@
+memory allocators. Collected tracebacks of traces will be limited
+   to *nframe* frames. By default, a trace of a memory block only
+   stores the most recent frame: the limit is "1". *nframe* must be

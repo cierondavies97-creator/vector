@@ -1,0 +1,4 @@
+table declaration -- thanks to the flexible typing feature of SQLite,
+specifying the data types is optional. Execute the "CREATE TABLE"
+statement by calling "cur.execute(...)":
+   cur.execute("CREATE TABLE movie(title, year, score)")

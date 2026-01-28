@@ -1,0 +1,10 @@
+>>> aRepr.indent = 4
+      >>> print(aRepr.repr(example))
+      [
+          1,
+          'spam',
+          {
+              'a': 2,
+              'b': 'spam eggs',
+              'c': {
+                  3: 4.5,

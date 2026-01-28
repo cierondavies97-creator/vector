@@ -1,0 +1,4 @@
+479001600
+   The cache is threadsafe so that the wrapped function can be used in
+   multiple threads.  This means that the underlying data structure
+   will remain coherent during concurrent updates.

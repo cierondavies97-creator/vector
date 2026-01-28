@@ -1,0 +1,4 @@
+as "OSError" or "FilterError" exceptions. If "2", all *non-fatal*
+   errors are raised as "TarError" exceptions as well.
+   Some exceptions, e.g. ones caused by wrong argument types or data
+   corruption, are always raised.

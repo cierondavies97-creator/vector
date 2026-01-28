@@ -1,0 +1,6 @@
+>>> mock.assert_called_with(match_wrong)
+Traceback (most recent call last):
+    ...
+AssertionError: Expected: ((<Matcher object at 0x...>,), {})
+Called with: ((<Foo object at 0x...>,), {})
+With a bit of tweaking you could have the comparison function raise

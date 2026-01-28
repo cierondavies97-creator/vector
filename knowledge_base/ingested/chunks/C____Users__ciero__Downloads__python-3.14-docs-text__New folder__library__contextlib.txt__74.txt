@@ -1,0 +1,4 @@
+can be handled correctly.
+   Since registered callbacks are invoked in the reverse order of
+   registration, this ends up behaving as if multiple nested "with"
+   statements had been used with the registered set of callbacks. This

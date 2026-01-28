@@ -1,0 +1,4 @@
+then it represents a named argument in *kwargs*.
+      The *args* parameter is set to the list of positional arguments
+      to "vformat()", and the *kwargs* parameter is set to the
+      dictionary of keyword arguments.

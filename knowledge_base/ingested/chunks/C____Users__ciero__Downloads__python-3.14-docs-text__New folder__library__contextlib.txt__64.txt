@@ -1,0 +1,5 @@
+multiple "with" statements. If this is not the case, then the
+     original construct with the explicit "with" statement inside the
+     function should be used.
+   Added in version 3.2.
+class contextlib.AsyncContextDecorator

@@ -1,0 +1,5 @@
+*iterator*.
+   Changed in version 3.12: Slice objects are now *hashable* (provided
+   "start", "stop", and "step" are hashable).
+sorted(iterable, /, *, key=None, reverse=False)
+   Return a new sorted list from the items in *iterable*.

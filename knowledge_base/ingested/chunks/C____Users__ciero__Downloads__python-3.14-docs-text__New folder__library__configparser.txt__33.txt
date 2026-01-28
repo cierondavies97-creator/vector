@@ -1,0 +1,4 @@
+values or ignored.
+By default, a valid section name can be any string that does not
+contain '\n'. To change this, see "ConfigParser.SECTCRE".
+The first section name may be omitted if the parser is configured to

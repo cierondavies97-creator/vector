@@ -1,0 +1,5 @@
+macOS.
+      *default*
+         Gives the symbolic name of the default button for this
+         message window ("OK", "CANCEL", and so on). If this option is
+         not specified, the first button in the dialog will be made

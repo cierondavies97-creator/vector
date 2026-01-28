@@ -1,0 +1,4 @@
++-----------------------+-----------------------------------+-----------+----------------------+
+Notes:
+1. Also referred to as integer division.  For operands of type "int",
+   the result has type "int".  For operands of type "float", the

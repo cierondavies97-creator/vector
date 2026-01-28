@@ -1,0 +1,7 @@
+Availability: Linux.
+   On architectures where the signal is available. See the man page
+   *signal(7)* for further information.
+   Added in version 3.11.
+signal.SIGTERM
+   Termination signal.
+signal.SIGUSR1

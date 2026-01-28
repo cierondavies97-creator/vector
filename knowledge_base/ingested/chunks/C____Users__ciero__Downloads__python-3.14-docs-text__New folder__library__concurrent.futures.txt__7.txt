@@ -1,0 +1,4 @@
+Similar to "map(fn, *iterables)" except:
+      * The *iterables* are collected immediately rather than lazily,
+        unless a *buffersize* is specified to limit the number of
+        submitted tasks whose results have not yet been yielded. If

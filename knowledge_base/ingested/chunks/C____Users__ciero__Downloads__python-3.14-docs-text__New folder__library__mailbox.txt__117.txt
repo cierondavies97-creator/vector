@@ -1,0 +1,4 @@
+into an "io.BytesIO" instance, which has an API identical to
+      that of a file. As a result, the file-like object is truly
+      independent of the underlying mailbox but does not save memory
+      compared to a string representation.

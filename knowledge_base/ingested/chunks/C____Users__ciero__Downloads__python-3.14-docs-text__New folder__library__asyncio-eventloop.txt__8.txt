@@ -1,0 +1,5 @@
+current event loop.
+   Note:
+     The "asyncio" policy system is deprecated and will be removed in
+     Python 3.16; from there on, this function will return the current
+     running event loop if present else it will return the loop set by

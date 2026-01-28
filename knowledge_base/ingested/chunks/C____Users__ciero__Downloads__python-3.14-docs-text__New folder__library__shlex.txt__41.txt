@@ -1,0 +1,5 @@
+defined in "escape".  This is only used in POSIX mode, and includes
+   just "'"'" by default.
+shlex.whitespace_split
+   If "True", tokens will only be split in whitespaces.  This is
+   useful, for example, for parsing command lines with "shlex",

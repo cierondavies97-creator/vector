@@ -1,0 +1,4 @@
+Transports returned by "loop.create_datagram_endpoint()":
+-[ Datagram Transports ]-
++----------------------------------------------------+----------------------------------------------------+
+| "transport.sendto()"                               | Send data to the remote peer.                      |

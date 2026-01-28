@@ -1,0 +1,4 @@
+like "-f" or "--foo", or a positional argument, like a list of
+filenames, is expected.  The first arguments passed to
+"add_argument()" must therefore be either a series of flags, or a
+simple argument name.

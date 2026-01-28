@@ -1,0 +1,5 @@
+and can be retrieved with "IMAP4.response()".
+   Note:
+     The "Idler" class name and structure are internal interfaces,
+     subject to change. Calling code can rely on its context
+     management, iteration, and public method to remain stable, but

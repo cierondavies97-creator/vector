@@ -1,0 +1,4 @@
+"verify" callable is called with a single argument - the bytes
+   received across the socket - and should return the bytes to be
+   processed, or "None" to indicate that the bytes should be
+   discarded. The returned bytes could be the same as the passed in

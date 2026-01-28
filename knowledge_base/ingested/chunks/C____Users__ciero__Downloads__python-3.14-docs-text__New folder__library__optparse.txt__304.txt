@@ -1,0 +1,4 @@
+process.
+Here's a silly example that demonstrates adding a ""complex"" option
+type to parse Python-style complex numbers on the command line.  (This
+is even sillier than it used to be, because "optparse" 1.3 added

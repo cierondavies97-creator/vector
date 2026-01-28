@@ -1,0 +1,5 @@
+Raises an auditing event "os.unsetenv" with argument "key".
+   Changed in version 3.9: The function is now always available and is
+   also available on Windows.
+os.unshare(flags)
+   Disassociate parts of the process execution context, and move them

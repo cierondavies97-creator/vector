@@ -1,0 +1,5 @@
+next "refresh()" call.
+window.refresh([pminrow, pmincol, sminrow, smincol, smaxrow, smaxcol])
+   Update the display immediately (sync actual screen with previous
+   drawing/deleting methods).
+   The 6 optional arguments can only be specified when the window is a

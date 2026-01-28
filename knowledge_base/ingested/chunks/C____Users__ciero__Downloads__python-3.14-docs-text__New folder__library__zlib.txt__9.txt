@@ -1,0 +1,3 @@
+The *wbits* argument controls the size of the history buffer (or
+   the "window size") used when compressing data, and whether a header
+   and trailer is included in the output.  It can take several ranges

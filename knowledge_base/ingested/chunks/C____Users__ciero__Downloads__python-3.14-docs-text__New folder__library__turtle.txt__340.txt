@@ -1,0 +1,6 @@
+This behaviour corresponds to a "fill()" call without arguments in
+  Python 2.6.
+Changes since Python 3.0
+========================
+* The "Turtle" methods "shearfactor()", "shapetransform()" and
+  "get_shapepoly()" have been added. Thus the full range of regular

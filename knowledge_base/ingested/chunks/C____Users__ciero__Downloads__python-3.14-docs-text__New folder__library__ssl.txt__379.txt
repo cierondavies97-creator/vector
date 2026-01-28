@@ -1,0 +1,4 @@
+might have arrived.  Therefore, you must be ready to handle
+  "SSLSocket.recv()" and "SSLSocket.send()" failures, and retry after
+  another call to "select()".
+* Conversely, since the SSL layer has its own framing, a SSL socket

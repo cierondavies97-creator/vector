@@ -1,0 +1,5 @@
+[WARNING/MainProcess] doomed
+   >>> m = multiprocessing.Manager()
+   [INFO/SyncManager-...] child process calling self.run()
+   [INFO/SyncManager-...] created temp directory /.../pymp-...
+   [INFO/SyncManager-...] manager serving at '/.../listener-...'

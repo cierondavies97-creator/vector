@@ -1,0 +1,4 @@
+designed for use as a checksum algorithm, it is not suitable for
+   use as a general hash algorithm.
+   Changed in version 3.0: The result is always unsigned.
+zlib.decompress(data, /, wbits=MAX_WBITS, bufsize=DEF_BUF_SIZE)

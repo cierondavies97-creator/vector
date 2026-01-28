@@ -1,0 +1,6 @@
+* HTTPPasswordMgr Objects
+  * HTTPPasswordMgrWithPriorAuth Objects
+  * AbstractBasicAuthHandler Objects
+  * HTTPBasicAuthHandler Objects
+  * ProxyBasicAuthHandler Objects
+  * AbstractDigestAuthHandler Objects

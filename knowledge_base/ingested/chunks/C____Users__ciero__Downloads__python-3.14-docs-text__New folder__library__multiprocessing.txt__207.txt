@@ -1,0 +1,6 @@
+>>> assert count == len(arr1) * arr1.itemsize
+   >>> arr2
+   array('i', [0, 1, 2, 3, 4, 0, 0, 0, 0, 0])
+Warning:
+  The "Connection.recv()" method automatically unpickles the data it
+  receives, which can be a security risk unless you can trust the

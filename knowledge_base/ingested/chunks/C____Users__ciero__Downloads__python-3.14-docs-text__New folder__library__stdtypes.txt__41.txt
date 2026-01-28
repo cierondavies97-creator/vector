@@ -1,0 +1,3 @@
+| "complex(re, im)"     | a complex number with real part   | (6)       | "complex()"          |
+|                       | *re*, imaginary part *im*. *im*   |           |                      |
+|                       | defaults to zero.                 |           |                      |

@@ -1,0 +1,3 @@
+Write coverage results.  Set *show_missing* to show lines that
+      had no hits.  Set *summary* to include in the output the
+      coverage summary per module.  *coverdir* specifies the directory

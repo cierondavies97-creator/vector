@@ -1,0 +1,6 @@
+bytes.upper()
+bytearray.upper()
+   Return a copy of the sequence with all the lowercase ASCII
+   characters converted to their corresponding uppercase counterpart.
+   For example:
+      >>> b'Hello World'.upper()

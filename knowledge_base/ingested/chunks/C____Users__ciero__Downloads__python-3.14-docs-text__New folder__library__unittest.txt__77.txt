@@ -1,0 +1,5 @@
+within a "setUp()" or test method, or raising "SkipTest" directly.
+Basic skipping looks like this:
+   class MyTestCase(unittest.TestCase):
+       @unittest.skip("demonstrating skipping")
+       def test_nothing(self):

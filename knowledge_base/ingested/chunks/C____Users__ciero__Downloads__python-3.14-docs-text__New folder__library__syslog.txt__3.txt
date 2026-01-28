@@ -1,0 +1,4 @@
+is added if necessary.  Each message is tagged with a priority
+   composed of a *facility* and a *level*.  The optional *priority*
+   argument, which defaults to "LOG_INFO", determines the message
+   priority.  If the facility is not encoded in *priority* using

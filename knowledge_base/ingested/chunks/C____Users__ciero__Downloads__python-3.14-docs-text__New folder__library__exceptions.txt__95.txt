@@ -1,0 +1,4 @@
+"int" is expected) should result in a "TypeError", but passing
+   arguments with the wrong value (e.g. a number outside expected
+   boundaries) should result in a "ValueError".
+exception UnboundLocalError

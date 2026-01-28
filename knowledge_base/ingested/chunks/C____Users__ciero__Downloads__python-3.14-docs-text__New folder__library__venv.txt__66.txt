@@ -1,0 +1,4 @@
+virtual environment is created from another virtual
+        environment.
+      * "inc_path" - The include path for the virtual environment.
+      * "lib_path" - The purelib path for the virtual environment.

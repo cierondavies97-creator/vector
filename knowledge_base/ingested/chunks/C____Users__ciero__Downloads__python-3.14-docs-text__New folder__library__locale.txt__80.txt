@@ -1,0 +1,5 @@
+supported.
+   * On Windows, return the ANSI code page.
+   The Python preinitialization configures the LC_CTYPE locale. See
+   also the *filesystem encoding and error handler*.
+   This function is similar to "getpreferredencoding(False)" except

@@ -1,0 +1,4 @@
+detect mount points for all Unix and POSIX variants.  It is not
+   able to reliably detect bind mounts on the same filesystem. On
+   Linux systems, it will always return "True" for btrfs subvolumes,
+   even if they aren't mount points. On Windows, a drive letter root

@@ -1,0 +1,5 @@
+"difflib" --- Helpers for computing deltas
+******************************************
+**Source code:** Lib/difflib.py
+======================================================================
+This module provides classes and functions for comparing sequences. It

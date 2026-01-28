@@ -1,0 +1,3 @@
+type_param = TypeVar(identifier name, expr? bound, expr? default_value)
+                  | ParamSpec(identifier name, expr? default_value)
+                  | TypeVarTuple(identifier name, expr? default_value)

@@ -1,0 +1,5 @@
+any subsequent operations.
+* Fully trusted archive:
+     my_tarfile.extraction_filter = (lambda member, path: member)
+     my_tarfile.extractall()
+* Use the "'data'" filter if available, but revert to Python 3.11

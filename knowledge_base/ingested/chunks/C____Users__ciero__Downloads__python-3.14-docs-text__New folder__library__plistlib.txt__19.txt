@@ -1,0 +1,8 @@
+manual).
+   data
+      Int value of the UID.  It must be in the range "0 <= data <
+      2**64".
+   Added in version 3.8.
+The following constants are available:
+plistlib.FMT_XML
+   The XML format for plist files.

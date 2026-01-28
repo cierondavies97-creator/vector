@@ -1,0 +1,3 @@
+generating a traceback.  The callable object *func* is then passed
+   the main window 'stdscr' as its first argument, followed by any
+   other arguments passed to "wrapper()".  Before calling *func*,

@@ -1,0 +1,6 @@
+== '__main__'" can improve code clarity and correctness. Most often, a
+function named "main" encapsulates the program's primary behavior:
+   # echo.py
+   import shlex
+   import sys
+   def echo(phrase: str) -> None:

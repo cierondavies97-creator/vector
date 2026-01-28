@@ -1,0 +1,7 @@
+Panel.top()
+   Push panel to the top of the stack.
+Panel.userptr()
+   Returns the user pointer for the panel.  This might be any Python
+   object.
+Panel.window()
+   Returns the window object associated with the panel.

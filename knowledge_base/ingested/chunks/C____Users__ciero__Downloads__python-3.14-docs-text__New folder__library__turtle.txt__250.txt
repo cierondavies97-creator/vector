@@ -1,0 +1,5 @@
+Shut the turtlegraphics window.
+turtle.exitonclick()
+   Bind "bye()" method to mouse clicks on the Screen.
+   If the value "using_IDLE" in the configuration dictionary is
+   "False" (default value), also enter mainloop.  Remark: If IDLE with

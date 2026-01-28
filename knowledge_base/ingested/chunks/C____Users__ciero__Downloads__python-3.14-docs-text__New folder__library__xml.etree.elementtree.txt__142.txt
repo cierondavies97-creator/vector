@@ -1,0 +1,7 @@
+*extra* contains additional attributes, given as keyword arguments.
+   tag
+      A string identifying what kind of data this element represents
+      (the element type, in other words).
+   text
+   tail
+      These attributes can be used to hold additional data associated

@@ -1,0 +1,4 @@
+Here are some additional useful header related methods:
+   get_all(name, failobj=None)
+      Return a list of all the values for the field named *name*. If
+      there are no such named headers in the message, *failobj* is

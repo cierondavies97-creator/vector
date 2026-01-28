@@ -1,0 +1,4 @@
+running programs.  Based on "lsprof", contributed by Brett Rosen
+   and Ted Czotter.
+2. "profile", a pure Python module whose interface is imitated by
+   "cProfile", but which adds significant overhead to profiled

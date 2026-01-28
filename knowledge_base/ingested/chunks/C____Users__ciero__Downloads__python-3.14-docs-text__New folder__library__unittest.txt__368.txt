@@ -1,0 +1,4 @@
+standard output without calling "sys.exit()":
+      >>> from unittest import main
+      >>> main(module='test_module', exit=False)
+   The *failfast*, *catchbreak* and *buffer* parameters have the same

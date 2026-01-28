@@ -1,0 +1,5 @@
+first_size, first_peak = tracemalloc.get_traced_memory()
+   tracemalloc.reset_peak()
+   # Example code: compute a sum with a small temporary list
+   small_sum = sum(list(range(1000)))
+   second_size, second_peak = tracemalloc.get_traced_memory()

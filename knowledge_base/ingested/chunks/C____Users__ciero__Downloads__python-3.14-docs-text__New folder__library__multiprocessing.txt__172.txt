@@ -1,0 +1,4 @@
+been frozen to produce an executable.  (Has been tested with
+   **py2exe**, **PyInstaller** and **cx_Freeze**.)
+   One needs to call this function straight after the "if __name__ ==
+   '__main__'" line of the main module.  For example:

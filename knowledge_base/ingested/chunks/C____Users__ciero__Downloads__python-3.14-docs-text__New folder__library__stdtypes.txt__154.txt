@@ -1,0 +1,6 @@
+"lists" modifies this single list. You can create a list of
+   different lists this way:
+      >>> lists = [[] for i in range(3)]
+      >>> lists[0].append(3)
+      >>> lists[1].append(5)
+      >>> lists[2].append(7)

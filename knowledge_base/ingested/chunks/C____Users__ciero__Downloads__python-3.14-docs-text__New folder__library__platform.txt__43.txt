@@ -1,0 +1,4 @@
+"/usr/lib/os-release" can be read.
+   On success, the function returns a dictionary where keys and values
+   are strings. Values have their special characters like """ and "$"
+   unquoted. The fields "NAME", "ID", and "PRETTY_NAME" are always

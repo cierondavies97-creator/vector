@@ -1,0 +1,4 @@
+objects share one Lock, which allows coordinating exclusive access
+   to a shared resource between different tasks interested in
+   particular states of that shared resource.
+   The optional *lock* argument must be a "Lock" object or "None".  In

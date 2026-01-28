@@ -1,0 +1,6 @@
+use an alternative object as the spec. Thankfully "patch()" supports
+this - you can simply pass the alternative object as the *autospec*
+argument:
+   >>> class Something:
+   ...   def __init__(self):
+   ...     self.a = 33

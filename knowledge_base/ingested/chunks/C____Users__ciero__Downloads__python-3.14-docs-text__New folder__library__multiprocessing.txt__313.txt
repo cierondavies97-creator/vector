@@ -1,0 +1,4 @@
+process if it was not already started.
+class multiprocessing.managers.SyncManager
+   A subclass of "BaseManager" which can be used for the
+   synchronization of processes.  Objects of this type are returned by

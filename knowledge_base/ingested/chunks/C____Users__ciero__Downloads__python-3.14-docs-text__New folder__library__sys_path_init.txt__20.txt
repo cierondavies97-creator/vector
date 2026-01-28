@@ -1,0 +1,4 @@
+name as the shared library or executable ("python._pth" or
+"python311._pth"). The shared library path is always known on Windows,
+however it may not be available on other platforms. In the "._pth"
+file specify one line for each path to add to "sys.path". The file

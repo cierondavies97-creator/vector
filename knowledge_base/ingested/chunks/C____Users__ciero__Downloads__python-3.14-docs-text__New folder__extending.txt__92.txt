@@ -1,0 +1,3 @@
+Calling a Python function is easy.  First, the Python program must
+somehow pass you the Python function object.  You should provide a
+function (or some other interface) to do this.  When this function is

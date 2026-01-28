@@ -1,0 +1,7 @@
+General calendar related functions.
+  Module "time"
+     Time access and conversions.
+  Module "zoneinfo"
+     Concrete time zones representing the IANA time zone database.
+  Package dateutil
+     Third-party library with expanded time zone and parsing support.

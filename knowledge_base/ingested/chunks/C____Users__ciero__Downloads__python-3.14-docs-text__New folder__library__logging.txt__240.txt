@@ -1,0 +1,5 @@
+section on Custom Levels.
+logging.getLevelNamesMapping()
+   Returns a mapping from level names to their corresponding logging
+   levels. For example, the string "CRITICAL" maps to "CRITICAL". The
+   returned mapping is copied from an internal mapping on each call to

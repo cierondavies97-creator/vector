@@ -1,0 +1,7 @@
+requires the "zlib" module.
+zipfile.ZIP_BZIP2
+   The numeric constant for the BZIP2 compression method.  This
+   requires the "bz2" module.
+   Added in version 3.3.
+zipfile.ZIP_LZMA
+   The numeric constant for the LZMA compression method.  This

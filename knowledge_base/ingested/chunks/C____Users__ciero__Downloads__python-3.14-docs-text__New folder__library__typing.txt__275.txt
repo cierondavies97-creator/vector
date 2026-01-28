@@ -1,0 +1,5 @@
+type variables wrapped in a tuple. For example:
+      # T is bound to int, Ts is bound to ()
+      # Return value is (1,), which has type tuple[int]
+      move_first_element_to_last(tup=(1,))
+      # T is bound to int, Ts is bound to (str,)

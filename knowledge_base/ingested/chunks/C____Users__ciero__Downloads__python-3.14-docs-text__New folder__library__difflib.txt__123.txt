@@ -1,0 +1,6 @@
+"""
+   import sys, os, difflib, argparse
+   from datetime import datetime, timezone
+   def file_mtime(path):
+       t = datetime.fromtimestamp(os.stat(path).st_mtime,
+                                  timezone.utc)

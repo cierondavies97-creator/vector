@@ -1,0 +1,4 @@
+If *kw* is not given, returns a dict of the column option
+      values. If *option* is specified then the value for that
+      *option* is returned. Otherwise, sets the options to the
+      corresponding values.

@@ -1,0 +1,4 @@
+types should implement addition (meaning concatenation) and
+multiplication (meaning repetition) by defining the methods
+"__add__()", "__radd__()", "__iadd__()", "__mul__()", "__rmul__()" and
+"__imul__()" described below; they should not define other numerical

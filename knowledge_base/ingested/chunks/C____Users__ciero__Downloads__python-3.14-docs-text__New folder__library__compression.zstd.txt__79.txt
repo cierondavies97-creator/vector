@@ -1,0 +1,4 @@
+|            | dictionary     | dictionary |
+      |============|================|============|
+      | Advanced   | "window_log",  | None       |
+      | parameters | "hash_log",    |            |

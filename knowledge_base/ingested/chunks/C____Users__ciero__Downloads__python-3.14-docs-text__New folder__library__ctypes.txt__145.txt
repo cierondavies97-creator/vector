@@ -1,0 +1,6 @@
+>>> PI(c_int(42))
+   <ctypes.LP_c_long object at 0x...>
+   >>>
+Calling the pointer type without an argument creates a "NULL" pointer.
+"NULL" pointers have a "False" boolean value:
+   >>> null_ptr = POINTER(c_int)()

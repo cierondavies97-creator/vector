@@ -1,0 +1,5 @@
+used as a context manager.
+   assertWarns(warning, callable, *args, **kwds)
+   assertWarns(warning, *, msg=None)
+      Test that a warning is triggered when *callable* is called with
+      any positional or keyword arguments that are also passed to

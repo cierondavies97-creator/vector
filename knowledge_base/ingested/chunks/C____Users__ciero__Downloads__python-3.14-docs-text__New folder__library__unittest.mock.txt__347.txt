@@ -1,0 +1,5 @@
+be shown. If the mock was created with a *spec* (or *autospec* of
+course) then all the attributes from the original are shown, even if
+they haven't been accessed yet:
+   >>> dir(Mock())
+   ['assert_any_call',

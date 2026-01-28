@@ -1,0 +1,5 @@
+using the "getcontext()" and "setcontext()" functions:
+decimal.getcontext()
+   Return the current context for the active thread.
+decimal.setcontext(c, /)
+   Set the current context for the active thread to *c*.

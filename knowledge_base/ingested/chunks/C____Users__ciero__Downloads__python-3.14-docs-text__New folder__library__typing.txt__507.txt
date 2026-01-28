@@ -1,0 +1,4 @@
+issued by the interpreter for these aliases.
+If at some point it is decided to remove these deprecated aliases, a
+deprecation warning will be issued by the interpreter for at least two
+releases prior to removal. The aliases are guaranteed to remain in the

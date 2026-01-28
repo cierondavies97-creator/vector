@@ -1,0 +1,4 @@
+many simple types such as "bytes" and "bytearray", an element is
+      a single byte, but other types such as "array.array" may have
+      bigger elements.
+      "len(view)" is equal to the length of "tolist", which is the

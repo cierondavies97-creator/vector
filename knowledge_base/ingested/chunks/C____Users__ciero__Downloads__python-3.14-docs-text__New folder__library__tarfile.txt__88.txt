@@ -1,0 +1,4 @@
+allow writing, extracting files to it will fail.
+   If *numeric_owner* is "True", the uid and gid numbers from the
+   tarfile are used to set the owner/group for the extracted files.
+   Otherwise, the named values from the tarfile are used.

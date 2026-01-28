@@ -1,0 +1,7 @@
+follows:
+   python -m turtledemo
+Alternatively, you can run the demo scripts individually.  For
+example,
+   python -m turtledemo.bytedesign
+The "turtledemo" package directory contains:
+* A demo viewer "__main__.py" which can be used to view the sourcecode

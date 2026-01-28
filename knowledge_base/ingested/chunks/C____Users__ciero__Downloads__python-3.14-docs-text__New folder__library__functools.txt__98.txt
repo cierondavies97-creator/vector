@@ -1,0 +1,4 @@
+implementation. The original function decorated with
+   "@singledispatch" is registered for the base "object" type, which
+   means it is used if no better implementation is found.
+   If an implementation is registered to an *abstract base class*,

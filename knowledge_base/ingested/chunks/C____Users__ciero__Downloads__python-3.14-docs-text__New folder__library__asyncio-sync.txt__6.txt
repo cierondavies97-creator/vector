@@ -1,0 +1,5 @@
+async acquire()
+      Acquire the lock.
+      This method waits until the lock is *unlocked*, sets it to
+      *locked* and returns "True".
+      When more than one coroutine is blocked in "acquire()" waiting

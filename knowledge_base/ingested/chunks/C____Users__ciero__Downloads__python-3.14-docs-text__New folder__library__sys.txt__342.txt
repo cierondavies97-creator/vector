@@ -1,0 +1,4 @@
+Python. In that case, the console codepages are used as for any
+     other character device.
+     Under all platforms, you can override the character encoding by
+     setting the "PYTHONIOENCODING" environment variable before

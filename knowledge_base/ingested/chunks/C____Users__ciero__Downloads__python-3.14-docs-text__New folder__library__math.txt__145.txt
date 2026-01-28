@@ -1,0 +1,7 @@
+Trigonometric functions
+=======================
+math.acos(x)
+   Return the arc cosine of *x*, in radians. The result is between "0"
+   and "pi".
+math.asin(x)
+   Return the arc sine of *x*, in radians. The result is between

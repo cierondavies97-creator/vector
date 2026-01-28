@@ -1,0 +1,4 @@
+as the "handle" named parameter, otherwise the underlying platform's
+"dlopen()" or "LoadLibrary()" function is used to load the library
+into the process, and to get a handle to it.
+The *mode* parameter can be used to specify how the library is loaded.

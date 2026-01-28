@@ -1,0 +1,4 @@
+if the type of a field is of type "InitVar".  If a field is an
+"InitVar", it is considered a pseudo-field called an init-only field.
+As it is not a true field, it is not returned by the module-level
+"fields()" function.  Init-only fields are added as parameters to the

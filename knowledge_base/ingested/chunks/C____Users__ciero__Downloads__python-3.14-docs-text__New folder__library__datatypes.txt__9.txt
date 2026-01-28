@@ -1,0 +1,8 @@
+* "heapq" --- Heap queue algorithm
+  * Basic Examples
+  * Other Applications
+  * Priority Queue Implementation Notes
+  * Theory
+* "bisect" --- Array bisection algorithm
+  * Performance Notes
+  * Searching Sorted Lists

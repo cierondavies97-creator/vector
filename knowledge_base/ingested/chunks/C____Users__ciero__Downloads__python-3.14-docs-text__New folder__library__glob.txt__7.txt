@@ -1,0 +1,4 @@
+during the call of this function, whether a path name for that file
+   will be included is unspecified.
+   If *root_dir* is not "None", it should be a *path-like object*
+   specifying the root directory for searching.  It has the same

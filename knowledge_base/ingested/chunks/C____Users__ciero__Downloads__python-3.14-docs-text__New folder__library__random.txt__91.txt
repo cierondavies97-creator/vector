@@ -1,0 +1,4 @@
+that shows effective use of many of the tools and distributions
+  provided by this module (gauss, uniform, sample, betavariate,
+  choice, triangular, and randrange).
+  A Concrete Introduction to Probability (using Python) a tutorial by

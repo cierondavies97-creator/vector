@@ -1,0 +1,4 @@
+dict_item:          expression ":" expression | "**" or_expr
+   dict_comprehension: expression ":" expression comp_for
+A dictionary display yields a new dictionary object.
+If a comma-separated sequence of dict items is given, they are

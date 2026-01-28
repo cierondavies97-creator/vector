@@ -1,0 +1,6 @@
+Classes can be skipped just like methods:
+   @unittest.skip("showing class skipping")
+   class MySkippedTestCase(unittest.TestCase):
+       def test_not_run(self):
+           pass
+"TestCase.setUp()" can also skip the test.  This is useful when a

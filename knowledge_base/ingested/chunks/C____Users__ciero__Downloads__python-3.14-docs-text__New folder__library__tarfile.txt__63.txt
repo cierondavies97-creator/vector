@@ -1,0 +1,5 @@
+Documentation of the higher-level archiving facilities provided
+     by the standard "shutil" module.
+  GNU tar manual, Basic Tar Format
+     Documentation for tar archive files, including GNU tar
+     extensions.

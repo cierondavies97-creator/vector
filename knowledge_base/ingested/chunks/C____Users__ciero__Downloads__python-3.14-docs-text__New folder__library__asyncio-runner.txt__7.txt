@@ -1,0 +1,5 @@
+Added in version 3.7.
+   Changed in version 3.9: Updated to use
+   "loop.shutdown_default_executor()".
+   Changed in version 3.10: *debug* is "None" by default to respect
+   the global debug mode settings.

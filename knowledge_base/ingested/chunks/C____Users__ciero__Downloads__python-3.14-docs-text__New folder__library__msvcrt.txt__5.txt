@@ -1,0 +1,3 @@
+continue beyond the end of the file. *mode* must be one of the
+   "LK_*" constants listed below. Multiple regions in a file may be
+   locked at the same time, but may not overlap. Adjacent regions are

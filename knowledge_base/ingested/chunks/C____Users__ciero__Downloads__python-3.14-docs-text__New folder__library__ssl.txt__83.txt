@@ -1,0 +1,4 @@
+to accept intermediate CAs in the trust store to be treated as
+   trust-anchors, in the same way as the self-signed root CA
+   certificates. This makes it possible to trust certificates issued
+   by an intermediate CA without having to trust its ancestor root CA.

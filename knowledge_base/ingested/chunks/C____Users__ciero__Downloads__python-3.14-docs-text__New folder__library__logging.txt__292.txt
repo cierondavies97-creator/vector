@@ -1,0 +1,4 @@
+resulting string logged to a logger named "'py.warnings'" with a
+   severity of "WARNING".
+   If *capture* is "False", the redirection of warnings to the logging
+   system will stop, and warnings will be redirected to their original

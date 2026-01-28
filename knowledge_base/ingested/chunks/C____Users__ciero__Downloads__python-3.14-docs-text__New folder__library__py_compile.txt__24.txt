@@ -1,0 +1,6 @@
+a directory structure to locate source files; it only compiles files
+named explicitly. The exit status is nonzero if one of the files could
+not be compiled.
+<file> ... <fileN>
+-
+   Positional arguments are files to compile.  If "-" is the only

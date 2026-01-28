@@ -1,0 +1,5 @@
+Module "doctest"
+     Tests embedded in documentation strings.
+Writing Unit Tests for the "test" package
+=========================================
+It is preferred that tests that use the "unittest" module follow a few

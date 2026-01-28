@@ -1,0 +1,4 @@
+information.
+On Windows, the following file attribute constants are available for
+use when testing bits in the "st_file_attributes" member returned by
+"os.stat()". See the Windows API documentation for more detail on the

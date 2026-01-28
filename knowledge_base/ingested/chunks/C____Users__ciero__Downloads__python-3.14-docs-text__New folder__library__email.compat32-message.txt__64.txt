@@ -1,0 +1,6 @@
+items()
+      Return a list of 2-tuples containing all the message's field
+      headers and values.
+   get(name, failobj=None)
+      Return the value of the named header field.  This is identical
+      to "__getitem__()" except that optional *failobj* is returned if

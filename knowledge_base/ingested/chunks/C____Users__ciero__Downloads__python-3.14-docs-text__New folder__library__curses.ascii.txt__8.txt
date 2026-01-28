@@ -1,0 +1,3 @@
+| curses.ascii.E  | Enquiry, goes with "ACK" flow control          |
+| NQ              |                                                |
++-----------------+------------------------------------------------+

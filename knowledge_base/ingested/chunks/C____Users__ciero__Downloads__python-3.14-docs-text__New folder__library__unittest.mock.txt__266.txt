@@ -1,0 +1,6 @@
+...
+   >>> MyTest('test_something').run()
+Caution:
+  If you use this technique you must ensure that the patching is
+  "undone" by calling "stop". This can be fiddlier than you might
+  think, because if an exception is raised in the "setUp" then

@@ -1,0 +1,4 @@
+of 195, determine the percentage of students with test scores between
+1100 and 1200, after rounding to the nearest whole number:
+   >>> sat = NormalDist(1060, 195)
+   >>> fraction = sat.cdf(1200 + 0.5) - sat.cdf(1100 - 0.5)

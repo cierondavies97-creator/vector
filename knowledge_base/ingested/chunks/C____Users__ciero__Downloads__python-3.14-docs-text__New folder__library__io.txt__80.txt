@@ -1,0 +1,6 @@
+call.
+class io.BufferedIOBase
+   Base class for binary streams that support some kind of buffering.
+   It inherits from "IOBase".
+   The main difference with "RawIOBase" is that methods "read()",
+   "readinto()" and "write()" will try (respectively) to read as much

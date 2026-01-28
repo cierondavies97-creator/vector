@@ -1,0 +1,5 @@
+'0041 0303'
+unicodedata.normalize(form, unistr)
+   Return the normal form *form* for the Unicode string *unistr*.
+   Valid values for *form* are 'NFC', 'NFKC', 'NFD', and 'NFKD'.
+   The Unicode standard defines various normalization forms of a

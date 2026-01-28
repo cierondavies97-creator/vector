@@ -1,0 +1,4 @@
+of the standard warning categories.  A warning category must always be
+a subclass of the "Warning" class.
+The following warnings category classes are currently defined:
++------------------------------------+-------------------------------------------------+

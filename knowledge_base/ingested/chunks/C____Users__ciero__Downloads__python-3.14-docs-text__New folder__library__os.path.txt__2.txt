@@ -1,0 +1,4 @@
+or any object implementing the "os.PathLike" protocol.
+Unlike a Unix shell, Python does not do any *automatic* path
+expansions. Functions such as "expanduser()" and "expandvars()" can be
+invoked explicitly when an application desires shell-like path

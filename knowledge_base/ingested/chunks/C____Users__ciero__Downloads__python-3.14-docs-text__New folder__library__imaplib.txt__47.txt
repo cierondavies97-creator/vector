@@ -1,0 +1,8 @@
+>>> with M.idle(duration=29 * 60) as idler:
+      ...     for typ, data in idler:
+      ...         print(typ, data)
+      ...
+      EXISTS [b'1']
+      RECENT [b'1']
+   Idler.burst(interval=0.1)
+      Yield a burst of responses no more than *interval* seconds apart

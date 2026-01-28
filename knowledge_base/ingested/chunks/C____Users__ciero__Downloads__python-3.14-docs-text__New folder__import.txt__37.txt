@@ -1,0 +1,4 @@
+finder's job is to determine whether it can find the named module
+using whatever strategy it knows about. Objects that implement both of
+these interfaces are referred to as *importers* - they return
+themselves when they find that they can load the requested module.

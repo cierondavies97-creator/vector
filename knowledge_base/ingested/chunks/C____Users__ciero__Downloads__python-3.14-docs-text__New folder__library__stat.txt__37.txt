@@ -1,0 +1,7 @@
+The file needs an entitlement to write to (macOS 10.13+)
+   Added in version 3.13.
+stat.SF_NOUNLINK
+   The file may not be renamed or deleted.
+stat.SF_SNAPSHOT
+   The file is a snapshot file.
+stat.SF_FIRMLINK

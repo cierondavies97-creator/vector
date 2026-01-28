@@ -1,0 +1,5 @@
+language definition, section Names (identifiers and keywords).
+   "keyword.iskeyword()" can be used to test whether string "s" is a
+   reserved identifier, such as "def" and "class".
+   Example:
+      >>> from keyword import iskeyword

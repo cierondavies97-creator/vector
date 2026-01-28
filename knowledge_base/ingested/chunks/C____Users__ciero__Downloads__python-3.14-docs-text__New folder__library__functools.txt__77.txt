@@ -1,0 +1,5 @@
+serves as a default when the iterable is empty.  If *initial* is
+   not given and *iterable* contains only one item, the first item is
+   returned.
+   Roughly equivalent to:
+      initial_missing = object()

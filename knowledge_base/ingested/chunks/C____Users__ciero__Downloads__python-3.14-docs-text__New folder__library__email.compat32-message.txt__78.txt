@@ -1,0 +1,5 @@
+that the default type be *text/plain*.
+   get_content_maintype()
+      Return the message's main content type.  This is the *maintype*
+      part of the string returned by "get_content_type()".
+   get_content_subtype()

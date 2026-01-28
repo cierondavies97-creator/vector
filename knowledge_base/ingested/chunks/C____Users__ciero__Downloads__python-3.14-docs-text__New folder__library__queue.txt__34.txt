@@ -1,0 +1,5 @@
+When no longer needed, "Queue" objects can be wound down until empty
+or terminated immediately with a hard shutdown.
+Queue.shutdown(immediate=False)
+   Put a "Queue" instance into a shutdown mode.
+   The queue can no longer grow. Future calls to "put()" raise

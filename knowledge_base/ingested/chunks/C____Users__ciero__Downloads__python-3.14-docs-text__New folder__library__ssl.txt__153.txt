@@ -1,0 +1,4 @@
+time bytes are received or sent. The socket timeout is now the
+   maximum total duration of the handshake.
+   Changed in version 3.7: Hostname or IP address is matched by
+   OpenSSL during handshake. The function "match_hostname()" is no

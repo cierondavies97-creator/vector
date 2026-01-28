@@ -1,0 +1,5 @@
+- it always produces a new object, even if no changes were made.
+   Added in version 3.9.
+bytes.removesuffix(suffix, /)
+bytearray.removesuffix(suffix, /)
+   If the binary data ends with the *suffix* string and that *suffix*

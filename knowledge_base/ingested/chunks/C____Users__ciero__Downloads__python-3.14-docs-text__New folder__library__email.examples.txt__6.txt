@@ -1,0 +1,4 @@
+#  Or for parsing headers in a string (this is an uncommon operation), use:
+   headers = Parser(policy=default).parsestr(
+           'From: Foo Bar <user@example.com>\n'
+           'To: <someone_else@example.com>\n'

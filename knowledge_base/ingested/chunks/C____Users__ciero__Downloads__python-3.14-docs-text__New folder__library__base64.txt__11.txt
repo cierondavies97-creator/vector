@@ -1,0 +1,5 @@
+of the "+" and "/" characters.
+   A "binascii.Error" exception is raised if *s* is incorrectly
+   padded.
+   If *validate* is "False" (the default), characters that are neither
+   in the normal base-64 alphabet nor the alternative alphabet are

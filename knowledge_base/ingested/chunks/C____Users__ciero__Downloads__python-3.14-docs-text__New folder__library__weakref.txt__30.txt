@@ -1,0 +1,4 @@
+data with an object owned by other parts of an application without
+   adding attributes to those objects.  This can be especially useful
+   with objects that override attribute accesses.
+   Note that when a key with equal value to an existing key (but not

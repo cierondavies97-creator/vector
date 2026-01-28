@@ -1,0 +1,4 @@
+could be unintentionally using the global variable instead of a local
+name.  A "main" function solves this problem.
+Using a "main" function has the added benefit of the "echo" function
+itself being isolated and importable elsewhere. When "echo.py" is

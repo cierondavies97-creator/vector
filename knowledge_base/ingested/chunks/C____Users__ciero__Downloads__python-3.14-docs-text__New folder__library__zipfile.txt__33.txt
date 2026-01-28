@@ -1,0 +1,4 @@
+statement.  In the example, *myzip* is closed after the "with"
+   statement's suite is finished---even if an exception occurs:
+      with ZipFile('spam.zip', 'w') as myzip:
+          myzip.write('eggs.txt')

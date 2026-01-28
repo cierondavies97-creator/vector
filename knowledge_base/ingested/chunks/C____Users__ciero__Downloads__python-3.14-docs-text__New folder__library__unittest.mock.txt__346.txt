@@ -1,0 +1,4 @@
+this filtering, or need to switch it off for diagnostic purposes, then
+set "mock.FILTER_DIR = False".
+With filtering on, "dir(some_mock)" shows only useful attributes and
+will include any dynamically created attributes that wouldn't normally

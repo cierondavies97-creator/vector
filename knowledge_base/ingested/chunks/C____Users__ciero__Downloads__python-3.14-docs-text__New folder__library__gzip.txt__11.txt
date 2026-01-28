@@ -1,0 +1,3 @@
+class gzip.GzipFile(filename=None, mode=None, compresslevel=9, fileobj=None, mtime=None)
+   Constructor for the "GzipFile" class, which simulates most of the
+   methods of a *file object*, with the exception of the "truncate()"

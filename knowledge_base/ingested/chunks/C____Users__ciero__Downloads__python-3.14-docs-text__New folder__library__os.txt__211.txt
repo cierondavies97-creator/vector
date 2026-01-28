@@ -1,0 +1,3 @@
+All platforms support sockets as *out_fd* file descriptor, and some
+   platforms allow other types (e.g. regular file, pipe) as well.
+   Cross-platform applications should not use *headers*, *trailers*

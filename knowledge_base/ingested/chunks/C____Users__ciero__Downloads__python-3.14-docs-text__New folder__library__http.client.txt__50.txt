@@ -1,0 +1,4 @@
+request, *not* the address of the proxy server).
+   The *headers* argument should be a mapping of extra HTTP headers to
+   send with the CONNECT request.
+   As HTTP/1.1 is used for HTTP CONNECT tunnelling request, as per the

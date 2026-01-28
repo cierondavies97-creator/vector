@@ -1,0 +1,3 @@
+"'$'" matches at the end of the string and at the end of each line
+   (immediately preceding each newline).  By default, "'^'" matches
+   only at the beginning of the string, and "'$'" only at the end of

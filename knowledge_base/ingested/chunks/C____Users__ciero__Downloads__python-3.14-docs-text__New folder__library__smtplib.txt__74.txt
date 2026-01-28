@@ -1,0 +1,4 @@
+get your mail. If this method does not raise an exception, it
+   returns a dictionary, with one entry for each recipient that was
+   refused.  Each entry contains a tuple of the SMTP error code and
+   the accompanying error message sent by the server.

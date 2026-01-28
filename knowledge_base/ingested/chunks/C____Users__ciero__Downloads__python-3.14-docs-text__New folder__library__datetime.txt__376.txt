@@ -1,0 +1,5 @@
+periodically to reflect changes made by political bodies to time
+     zone boundaries, UTC offsets, and daylight-saving rules.
+"timezone" Objects
+==================
+The "timezone" class is a subclass of "tzinfo", each instance of which

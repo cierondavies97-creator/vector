@@ -1,0 +1,4 @@
+deterministic behavior use a numeric address in *host* portion.
+All errors raise exceptions.  The normal exceptions for invalid
+argument types and out-of-memory conditions can be raised. Errors
+related to socket or address semantics raise "OSError" or one of its

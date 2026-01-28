@@ -1,0 +1,6 @@
+from multiple threads at once.
+"TextIOWrapper" objects are not thread-safe.
+Reentrancy
+----------
+Binary buffered objects (instances of "BufferedReader",
+"BufferedWriter", "BufferedRandom" and "BufferedRWPair") are not

@@ -1,0 +1,5 @@
+Advanced parameter control
+==========================
+class compression.zstd.CompressionParameter
+   An "IntEnum" containing the advanced compression parameter keys
+   that can be used when compressing data.

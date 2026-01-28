@@ -1,0 +1,5 @@
+See section Option Callbacks for more detail.
+* ""help""
+  Prints a complete help message for all the options in the current
+  option parser.  The help message is constructed from the "usage"
+  string passed to OptionParser's constructor and the "help" string

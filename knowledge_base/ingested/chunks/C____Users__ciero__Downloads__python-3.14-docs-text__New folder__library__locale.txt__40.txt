@@ -1,0 +1,4 @@
+The possible values for "'p_sign_posn'" and "'n_sign_posn'" are
+   given below.
+   +----------------+-------------------------------------------+
+   | Value          | Explanation                               |

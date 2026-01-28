@@ -1,0 +1,3 @@
+class that has an "__add__()" method, "type(x).__add__(x, y)" is
+   called.  The "__divmod__()" method should be the equivalent to
+   using "__floordiv__()" and "__mod__()"; it should not be related to

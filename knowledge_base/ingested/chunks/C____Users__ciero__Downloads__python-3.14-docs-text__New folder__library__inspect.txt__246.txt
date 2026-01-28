@@ -1,0 +1,7 @@
+frame = inspect.currentframe()
+         try:
+             # do something with the frame
+         finally:
+             del frame
+  If you want to keep the frame around (for example to print a
+  traceback later), you can also break reference cycles by using the

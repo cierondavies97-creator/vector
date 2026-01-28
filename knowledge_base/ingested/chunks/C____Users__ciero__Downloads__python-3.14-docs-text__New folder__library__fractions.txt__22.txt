@@ -1,0 +1,5 @@
+"decimal.Decimal" or "numbers.Integral".
+      Note:
+        From Python 3.2 onwards, you can also construct a "Fraction"
+        instance directly from a "decimal.Decimal" instance.
+   classmethod from_number(number)

@@ -1,0 +1,5 @@
+Incremental codecs can maintain state.
+   streamwriter
+   streamreader
+      Stream writer and reader classes or factory functions. These
+      have to provide the interface defined by the base classes

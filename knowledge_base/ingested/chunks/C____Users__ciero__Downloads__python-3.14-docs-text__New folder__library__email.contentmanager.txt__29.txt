@@ -1,0 +1,4 @@
+*cte* of "quoted-printable" or "base64" is requested for
+        *subtype* "rfc822", and for any *cte* other than "7bit" for
+        *subtype* "external-body".  For "message/rfc822", use "8bit"
+        if *cte* is not specified.  For all other values of *subtype*,

@@ -1,0 +1,4 @@
+The *capath* string, if present, is the path to a directory
+   containing several CA certificates in PEM format, following an
+   OpenSSL specific layout.
+   The *cadata* object, if present, is either an ASCII string of one

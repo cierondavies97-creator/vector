@@ -1,0 +1,10 @@
+>>> # Date in ISO format
+   >>> ic = dt.isocalendar()
+   >>> for it in ic:
+   ...     print(it)
+   ...
+   2006    # ISO year
+   47      # ISO week
+   2       # ISO weekday
+   >>> # Formatting a datetime
+   >>> dt.strftime("%A, %d. %B %Y %I:%M%p")

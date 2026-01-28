@@ -1,0 +1,4 @@
+*src* is moved inside that directory. The destination path in that
+   directory must not already exist.
+   If *dst* already exists but is not a directory, it may be
+   overwritten depending on "os.rename()" semantics.

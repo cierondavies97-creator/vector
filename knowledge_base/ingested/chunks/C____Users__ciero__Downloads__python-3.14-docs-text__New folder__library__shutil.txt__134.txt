@@ -1,0 +1,5 @@
+You can register new formats or provide your own unpacker for any
+   existing formats, by using "register_unpack_format()".
+Archiving example
+-----------------
+In this example, we create a gzip'ed tar-file archive containing all

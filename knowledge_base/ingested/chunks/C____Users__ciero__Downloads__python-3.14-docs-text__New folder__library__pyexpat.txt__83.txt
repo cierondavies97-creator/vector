@@ -1,0 +1,5 @@
+xmlparser.EndCdataSectionHandler()
+   Called at the end of a CDATA section.
+xmlparser.DefaultHandler(data)
+   Called for any characters in the XML document for which no
+   applicable handler has been specified.  This means characters that

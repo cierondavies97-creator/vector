@@ -1,0 +1,7 @@
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.
+Executor Objects
+================
+class concurrent.futures.Executor
+   An abstract class that provides methods to execute calls

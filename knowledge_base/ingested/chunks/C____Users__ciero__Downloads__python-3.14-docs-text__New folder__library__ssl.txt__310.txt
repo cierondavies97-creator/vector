@@ -1,0 +1,6 @@
+# A table using the hint from the server:
+      psk_table = { 'ServerId_1': bytes.fromhex('c0ffee'),
+                    'ServerId_2': bytes.fromhex('facade')
+      }
+      def callback(hint):
+          return 'ClientId_1', psk_table.get(hint, b'')

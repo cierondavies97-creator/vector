@@ -1,0 +1,4 @@
+"rlcompleter" --- Completion function for GNU readline
+******************************************************
+**Source code:** Lib/rlcompleter.py
+======================================================================

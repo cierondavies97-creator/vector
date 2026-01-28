@@ -1,0 +1,4 @@
+08:00:00 UTC = 04:00:00 EDT
+When DST ends (the "end" line), there's a potentially worse problem:
+there's an hour that can't be spelled unambiguously in local wall
+time: the last hour of daylight time. In Eastern, that's times of the

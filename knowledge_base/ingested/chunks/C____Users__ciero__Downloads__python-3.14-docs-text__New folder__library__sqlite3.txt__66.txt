@@ -1,0 +1,6 @@
+expected by the "sqlite3" module. Required by the DB-API. Hard-
+   coded to ""qmark"".
+   Note:
+     The "named" DB-API parameter style is also supported.
+sqlite3.sqlite_version
+   Version number of the runtime SQLite library as a "string".

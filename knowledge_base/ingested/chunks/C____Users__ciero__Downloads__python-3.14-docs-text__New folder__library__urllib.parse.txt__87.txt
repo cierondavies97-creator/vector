@@ -1,0 +1,4 @@
+We recommend that users of these APIs where the values may be used
+anywhere with security implications code defensively. Do some
+verification within your code before trusting a returned component
+part.  Does that "scheme" make sense?  Is that a sensible "path"?  Is

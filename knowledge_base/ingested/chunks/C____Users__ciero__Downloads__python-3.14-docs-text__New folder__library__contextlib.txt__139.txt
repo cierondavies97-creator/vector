@@ -1,0 +1,5 @@
+This is written directly to stdout
+   >>> print(stream.getvalue())
+   This is written to the stream rather than stdout
+   This is also written to the stream
+Real world examples of reentrancy are more likely to involve multiple

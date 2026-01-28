@@ -1,0 +1,5 @@
+High-level Module Interface
+===========================
+io.DEFAULT_BUFFER_SIZE
+   An int containing the default buffer size used by the module's
+   buffered I/O classes.  "open()" uses the file's blksize (as

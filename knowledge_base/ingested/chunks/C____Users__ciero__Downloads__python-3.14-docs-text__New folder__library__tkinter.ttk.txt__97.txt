@@ -1,0 +1,3 @@
+| padding     | Specifies the amount of extra space to add between the         |
+|             | notebook and this pane. Syntax is the same as for the option   |
+|             | padding used by this widget.                                   |

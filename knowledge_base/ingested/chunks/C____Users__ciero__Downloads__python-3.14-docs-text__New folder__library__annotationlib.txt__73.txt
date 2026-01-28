@@ -1,0 +1,4 @@
+"sys.modules[obj.__module__].__dict__" and *locals* defaults to
+     the *obj* class namespace.
+   * If *obj* is a callable, *globals* defaults to "obj.__globals__",
+     although if *obj* is a wrapped function (using

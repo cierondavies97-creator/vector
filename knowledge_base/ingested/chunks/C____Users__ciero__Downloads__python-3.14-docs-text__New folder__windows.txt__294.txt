@@ -1,0 +1,4 @@
+Deprecated since version 3.6: Modules specified in the registry under
+"Modules" (not "PythonPath") may be imported by
+"importlib.machinery.WindowsRegistryFinder". This finder is enabled on
+Windows in 3.6.0 and earlier, but may need to be explicitly added to

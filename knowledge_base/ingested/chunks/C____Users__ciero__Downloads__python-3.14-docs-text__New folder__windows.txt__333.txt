@@ -1,0 +1,2 @@
+| AssociateFiles              | Create file associations if the        | 1                          |
+|                             | launcher is also installed.            |                            |

@@ -1,0 +1,5 @@
+| "local7"        | LOG_LOCAL7      |
+      +-----------------+-----------------+
+   mapPriority(levelname)
+      Maps a logging level name to a syslog priority name. You may
+      need to override this if you are using custom levels, or if the

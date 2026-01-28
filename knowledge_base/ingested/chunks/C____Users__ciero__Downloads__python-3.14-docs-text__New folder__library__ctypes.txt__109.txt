@@ -1,0 +1,5 @@
+one is used, it calls "GetLastError()" to retrieve it.
+Please note that a much more powerful error checking mechanism is
+available through the "errcheck" attribute; see the reference manual
+for details.
+Passing pointers (or: passing parameters by reference)

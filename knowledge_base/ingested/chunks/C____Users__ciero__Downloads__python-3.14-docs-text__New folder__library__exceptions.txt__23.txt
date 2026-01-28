@@ -1,0 +1,6 @@
+...
+         except SomeException:
+             tb = sys.exception().__traceback__
+             raise OtherException(...).with_traceback(tb)
+   __traceback__
+      A writable field that holds the traceback object associated with

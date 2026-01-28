@@ -1,0 +1,6 @@
+Disposition* header.
+   content_disposition
+      "inline" and "attachment" are the only valid values in common
+      use.
+class email.headerregistry.ContentTransferEncodingHeader
+   Handles the *Content-Transfer-Encoding* header.

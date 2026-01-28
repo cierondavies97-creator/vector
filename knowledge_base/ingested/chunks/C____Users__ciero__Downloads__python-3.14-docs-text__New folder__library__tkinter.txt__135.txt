@@ -1,0 +1,5 @@
+160 of Ousterhout's book for details.
+cursor
+   The standard X cursor names from "cursorfont.h" can be used,
+   without the "XC_" prefix.  For example to get a hand cursor
+   ("XC_hand2"), use the string ""hand2"".  You can also specify a

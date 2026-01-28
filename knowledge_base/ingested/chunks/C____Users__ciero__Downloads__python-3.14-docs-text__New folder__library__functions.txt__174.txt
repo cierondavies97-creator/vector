@@ -1,0 +1,3 @@
+raised. If the second argument, *sentinel*, is given, then the
+   first argument must be a callable object.  The iterator created in
+   this case will call *callable* with no arguments for each call to

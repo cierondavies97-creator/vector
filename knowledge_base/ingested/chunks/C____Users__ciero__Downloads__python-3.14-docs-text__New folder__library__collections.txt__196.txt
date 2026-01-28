@@ -1,0 +1,4 @@
+to subclass directly from "list"; however, this class can be easier to
+work with because the underlying list is accessible as an attribute.
+class collections.UserList([list])
+   Class that simulates a list.  The instance's contents are kept in a

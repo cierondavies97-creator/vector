@@ -1,0 +1,7 @@
+variation.
+  "mbox" is a family of several mutually incompatible mailbox formats
+     A history of mbox variations.
+"MH" objects
+------------
+class mailbox.MH(path, factory=None, create=True)
+   A subclass of "Mailbox" for mailboxes in MH format. Parameter

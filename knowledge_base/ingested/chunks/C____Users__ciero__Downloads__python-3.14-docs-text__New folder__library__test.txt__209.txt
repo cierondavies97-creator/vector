@@ -1,0 +1,5 @@
+import if *deprecated* is "True".
+   This function will raise "ImportError" if the named module cannot
+   be imported.
+   Example use:
+      # Get copies of the warnings module for testing without affecting the

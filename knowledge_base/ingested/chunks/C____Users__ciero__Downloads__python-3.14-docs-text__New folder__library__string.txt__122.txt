@@ -1,0 +1,3 @@
+|           | faithfully.  For "Decimal", this is the same as either     |
+   |           | "'g'" or "'G'" depending on the value of                   |
+   |           | "context.capitals" for the current decimal context.  The   |

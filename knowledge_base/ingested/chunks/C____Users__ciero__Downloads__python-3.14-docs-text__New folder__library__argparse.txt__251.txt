@@ -1,0 +1,4 @@
+Namespace(accumulate=<built-in function max>, integers=[1, 2, 3, 4])
+   >>> parser.parse_args(['1', '2', '3', '4', '--sum'])
+   Namespace(accumulate=<built-in function sum>, integers=[1, 2, 3, 4])
+The Namespace object

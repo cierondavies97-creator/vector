@@ -1,0 +1,4 @@
+information about a single member of the ZIP archive.
+There is one classmethod to make a "ZipInfo" instance for a filesystem
+file:
+classmethod ZipInfo.from_file(filename, arcname=None, *, strict_timestamps=True)

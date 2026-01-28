@@ -1,0 +1,4 @@
+whatsoever.  (Pick a random program from the Unix or GNU toolsets.
+Can it run without any options at all and still make sense?  The main
+exceptions are "find", "tar", and "dd"---all of which are mutant
+oddballs that have been rightly criticized for their non-standard

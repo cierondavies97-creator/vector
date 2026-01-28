@@ -1,0 +1,5 @@
+It defaults to "None".
+It should return a "TestSuite".
+*loader* is the instance of "TestLoader" doing the loading.
+*standard_tests* are the tests that would be loaded by default from
+the module. It is common for test modules to only want to add or

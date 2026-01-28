@@ -1,0 +1,8 @@
+@property
+      def cache(self):
+          pid = os.getpid()
+          if pid != self._pid:
+              self._pid = pid
+              self._cache = []
+          return self._cache
+   For more information, see bpo-5155, bpo-5313 and bpo-5331

@@ -1,0 +1,5 @@
+def __getitem__(self, key: KT) -> VT:
+              ...
+              # Etc.
+   Such a class implicitly inherits from "Generic". The runtime
+   semantics of this syntax are discussed in the Language Reference.

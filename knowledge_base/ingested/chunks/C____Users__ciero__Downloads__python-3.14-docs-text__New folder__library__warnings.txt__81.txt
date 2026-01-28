@@ -1,0 +1,4 @@
+particular warning issued is changed into an error by the warnings
+   filter.  The *stacklevel* argument can be used by wrapper functions
+   written in Python, like this:
+      def deprecated_api(message):

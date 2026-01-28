@@ -1,0 +1,4 @@
+to be properly managed (like any other resource) by using the
+     pool as a context manager or by calling "close()" and
+     "terminate()" manually. Failure to do this can lead to the
+     process hanging on finalization.Note that it is **not correct**

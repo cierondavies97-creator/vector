@@ -1,0 +1,3 @@
+Whether or not the lists are sorted depends on the file system.  If
+   a file is removed from or added to the *dirpath* directory during
+   generating the lists, whether a name for that file be included is

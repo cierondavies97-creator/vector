@@ -1,0 +1,5 @@
+Annotations Best Practices for more information on annotations best
+   practices), "__total__", "__required_keys__", and
+   "__optional_keys__".
+   __total__
+      "Point2D.__total__" gives the value of the "total" argument.

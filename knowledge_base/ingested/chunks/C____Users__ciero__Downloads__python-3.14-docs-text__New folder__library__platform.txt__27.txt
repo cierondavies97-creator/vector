@@ -1,0 +1,3 @@
+being a tuple "(vm_name, vm_release, vm_vendor)" and *osinfo* being
+   a tuple "(os_name, os_version, os_arch)". Values which cannot be
+   determined are set to the defaults given as parameters (which all

@@ -1,0 +1,6 @@
+definition.
+   * "decorator_list" is a list of nodes, as in "FunctionDef".
+   * "type_params" is a list of type parameters.
+      >>> print(ast.dump(ast.parse("""\
+      ... @decorator1
+      ... @decorator2

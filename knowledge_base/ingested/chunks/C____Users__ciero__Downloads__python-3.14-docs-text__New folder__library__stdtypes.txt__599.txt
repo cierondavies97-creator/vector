@@ -1,0 +1,5 @@
+one regardless of how the byte value is represented when printed:
+      >>> b'01\t012\t0123\t01234'.expandtabs()
+      b'01      012     0123    01234'
+      >>> b'01\t012\t0123\t01234'.expandtabs(4)
+      b'01  012 0123    01234'

@@ -1,0 +1,4 @@
+a single line of input. However, "generate_tokens()" expects
+   *readline* to return a str object rather than bytes.
+   The result is an iterator yielding named tuples, exactly like
+   "tokenize()". It does not yield an "ENCODING" token.

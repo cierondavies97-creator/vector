@@ -1,0 +1,4 @@
+string can also be *compressed* (shorthand notation) by various
+      means.  See **RFC 4291** for details.  For example,
+      ""0000:0000:0000:0000:0000:0abc:0007:0def"" can be compressed to
+      ""::abc:7:def"".

@@ -1,0 +1,4 @@
+If "setUp()" succeeded, "tearDown()" will be run whether the test
+method succeeded or not.
+Such a working environment for the testing code is called a *test
+fixture*.  A new TestCase instance is created as a unique test fixture

@@ -1,0 +1,6 @@
+shutil.rmtree(directory, onexc=remove_readonly)
+Archiving operations
+====================
+Added in version 3.2.
+Changed in version 3.5: Added support for the *xztar* format.
+High-level utilities to create and read compressed and archived files

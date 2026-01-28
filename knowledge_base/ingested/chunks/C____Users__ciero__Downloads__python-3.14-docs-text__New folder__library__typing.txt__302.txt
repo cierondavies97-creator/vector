@@ -1,0 +1,5 @@
+args
+   kwargs
+      Since "ParamSpec" captures both positional and keyword
+      parameters, "P.args" and "P.kwargs" can be used to split a
+      "ParamSpec" into its components.  "P.args" represents the tuple

@@ -1,0 +1,5 @@
+called between those two methods.
+BaseProtocol.connection_made(transport)
+   Called when a connection is made.
+   The *transport* argument is the transport representing the
+   connection.  The protocol is responsible for storing the reference

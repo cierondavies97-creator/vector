@@ -1,0 +1,4 @@
+application is still the Python interpreter, while if you embed
+Python, the main program may have nothing to do with Python ---
+instead, some parts of the application occasionally call the Python
+interpreter to run some Python code.

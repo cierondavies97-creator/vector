@@ -1,0 +1,4 @@
+* Refuse to extract files with absolute paths (in case the name is
+     absolute even after stripping slashes, e.g. "C:/foo" on Windows).
+     This raises "AbsolutePathError".
+   * Refuse to extract files whose absolute path (after following

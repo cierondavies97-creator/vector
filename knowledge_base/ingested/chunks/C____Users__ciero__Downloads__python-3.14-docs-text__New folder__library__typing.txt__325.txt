@@ -1,0 +1,6 @@
+ForwardRef('undefined')
+      Added in version 3.14.
+   -[ Unpacking ]-
+   Type aliases support star unpacking using the "*Alias" syntax. This
+   is equivalent to using "Unpack[Alias]" directly:
+      >>> type Alias = tuple[int, str]

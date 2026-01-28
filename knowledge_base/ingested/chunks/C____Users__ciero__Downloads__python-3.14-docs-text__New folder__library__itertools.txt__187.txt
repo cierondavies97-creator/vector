@@ -1,0 +1,5 @@
+"""
+       # polynomial_from_roots([5, -4, 3]) → [1, -4, -17, 60]
+       factors = zip(repeat(1), map(neg, roots))
+       return list(reduce(convolve, factors, [1]))
+   def polynomial_eval(coefficients, x):

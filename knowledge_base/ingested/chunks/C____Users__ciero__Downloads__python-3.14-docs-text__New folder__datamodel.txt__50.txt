@@ -1,0 +1,5 @@
+to convert a "str" to "bytes" using the given text encoding, and
+   "bytes.decode()" can be used to achieve the opposite.
+Tuples
+   The items of a tuple are arbitrary Python objects. Tuples of two or
+   more items are formed by comma-separated lists of expressions.  A

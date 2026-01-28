@@ -1,0 +1,4 @@
+protocol).dump(obj)".
+   Arguments *file*, *protocol*, *fix_imports* and *buffer_callback*
+   have the same meaning as in the "Pickler" constructor.
+   Changed in version 3.8: The *buffer_callback* argument was added.

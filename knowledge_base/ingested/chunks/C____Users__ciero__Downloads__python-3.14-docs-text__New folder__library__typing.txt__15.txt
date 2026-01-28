@@ -1,0 +1,7 @@
+subclass of the original type. This is useful in helping catch logical
+errors:
+   def get_user_name(user_id: UserId) -> str:
+       ...
+   # passes type checking
+   user_a = get_user_name(UserId(42351))
+   # fails type checking; an int is not a UserId

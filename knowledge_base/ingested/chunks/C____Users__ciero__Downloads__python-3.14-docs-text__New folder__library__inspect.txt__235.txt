@@ -1,0 +1,6 @@
+index
+      The index of the current line being executed in the
+      "code_context" list.
+   positions
+      A "dis.Positions" object containing the start line number, end
+      line number, start column offset, and end column offset

@@ -1,0 +1,4 @@
+Note:
+     Immediate execution of the coroutine is a semantic change. If the
+     coroutine returns or raises, the task is never scheduled to the
+     event loop. If the coroutine execution blocks, the task is

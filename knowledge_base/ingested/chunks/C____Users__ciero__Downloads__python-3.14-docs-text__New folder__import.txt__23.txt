@@ -1,0 +1,4 @@
+directly to objects on the file system; they may be virtual modules
+that have no concrete representation.
+Namespace packages do not use an ordinary list for their "__path__"
+attribute. They instead use a custom iterable type which will

@@ -1,0 +1,5 @@
+argument group rather than the entire parser.
+   Note that any arguments not in your user-defined groups will end up
+   back in the usual "positional arguments" and "optional arguments"
+   sections.
+   Deprecated since version 3.11, removed in version 3.14: Calling

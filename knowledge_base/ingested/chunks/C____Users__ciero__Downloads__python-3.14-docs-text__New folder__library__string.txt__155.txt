@@ -1,0 +1,4 @@
+The "string" module provides a "Template" class that implements these
+rules.  The methods of "Template" are:
+class string.Template(template)
+   The constructor takes a single argument which is the template

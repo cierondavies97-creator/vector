@@ -1,0 +1,3 @@
++-----------------------------+----------------------------------------+----------------------------+
+For example, to silently install a default, system-wide Python
+installation, you could use the following command (from an elevated

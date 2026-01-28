@@ -1,0 +1,4 @@
+Changed in version 3.8: Support for key logging to "SSLKEYLOGFILE"
+   was added.
+   Changed in version 3.10: The context now uses "PROTOCOL_TLS_CLIENT"
+   or "PROTOCOL_TLS_SERVER" protocol instead of generic

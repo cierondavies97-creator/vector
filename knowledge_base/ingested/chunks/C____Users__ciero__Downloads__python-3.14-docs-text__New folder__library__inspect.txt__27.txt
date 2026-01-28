@@ -1,0 +1,3 @@
+|                   | __module__          | name of module in which     |
+|                   |                     | this function was defined   |
++-------------------+---------------------+-----------------------------+

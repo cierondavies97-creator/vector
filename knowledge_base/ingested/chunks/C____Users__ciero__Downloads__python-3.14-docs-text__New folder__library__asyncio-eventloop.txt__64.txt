@@ -1,0 +1,4 @@
+to return a protocol instance.
+   3. The protocol instance is coupled with the transport by calling
+      its "connection_made()" method.
+   4. A "(transport, protocol)" tuple is returned on success.

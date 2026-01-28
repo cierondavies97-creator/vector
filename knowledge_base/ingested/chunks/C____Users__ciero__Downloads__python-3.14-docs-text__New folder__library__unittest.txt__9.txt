@@ -1,0 +1,5 @@
+testing frameworks and mock object libraries.
+  Testing in Python Mailing List
+     A special-interest-group for discussion of testing, and testing
+     tools, in Python.
+  The script "Tools/unittestgui/unittestgui.py" in the Python source

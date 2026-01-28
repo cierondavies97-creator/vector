@@ -1,0 +1,4 @@
+| Resulting state     | "MHMessage" state          |
+|=====================|============================|
+| R flag and O flag   | no "unseen" sequence       |
++---------------------+----------------------------+

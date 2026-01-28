@@ -1,0 +1,3 @@
+consecutively), then *literal_text* will be a zero-length
+      string.  If there is no replacement field, then the values of
+      *field_name*, *format_spec* and *conversion* will be "None". The

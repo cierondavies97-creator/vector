@@ -1,0 +1,5 @@
+without enabling it.
+      Added in version 3.14.
+exception configparser.InvalidWriteError
+   Exception raised when an attempted "ConfigParser.write()" would not
+   be parsed accurately with a future "ConfigParser.read()" call.

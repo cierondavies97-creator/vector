@@ -1,0 +1,6 @@
+"open()".
+      Changed in version 3.6.1: The *filenames* parameter accepts a
+      *path-like object*.
+      Changed in version 3.7: The *filenames* parameter accepts a
+      "bytes" object.
+   read_file(f, source=None)

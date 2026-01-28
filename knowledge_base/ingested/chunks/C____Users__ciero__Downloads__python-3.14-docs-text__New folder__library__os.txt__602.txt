@@ -1,0 +1,6 @@
+value of zero.
+   Availability: Unix, Windows.
+os.EX_USAGE
+   Exit code that means the command was used incorrectly, such as when
+   the wrong number of arguments are given.
+   Availability: Unix, not WASI.

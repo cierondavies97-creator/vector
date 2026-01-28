@@ -1,0 +1,5 @@
+*happy_eyeballs_delay*, *interleave* and *local_addr* should be
+     specified.
+     Note:
+       The *sock* argument transfers ownership of the socket to the
+       transport created. To close the socket, call the transport's

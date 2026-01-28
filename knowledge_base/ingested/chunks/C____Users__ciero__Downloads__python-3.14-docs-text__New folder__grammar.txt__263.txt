@@ -1,0 +1,5 @@
+invalid_import_from_targets:
+       | import_from_as_names ',' NEWLINE {
+           RAISE_SYNTAX_ERROR("trailing comma not allowed without surrounding parentheses") }
+       | token=NEWLINE {
+           RAISE_SYNTAX_ERROR_STARTING_FROM(token, "Expected one or more names after 'import'") }

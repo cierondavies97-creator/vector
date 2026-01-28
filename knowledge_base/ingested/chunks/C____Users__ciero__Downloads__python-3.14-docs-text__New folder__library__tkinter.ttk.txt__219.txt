@@ -1,0 +1,5 @@
+lists, or some other preference. A statespec is a compound of
+      one or more states and then a value.
+      An example may make it more understandable:
+         import tkinter
+         from tkinter import ttk

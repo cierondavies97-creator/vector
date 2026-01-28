@@ -1,0 +1,4 @@
+Availability: Unix.
+   Changed in version 3.7: Added the *ssl_handshake_timeout*
+   parameter. The *path* parameter can now be a *path-like object*.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*

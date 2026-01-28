@@ -1,0 +1,4 @@
+are designed so as to release the GIL when doing computationally
+   intensive tasks such as compression or hashing.  Also, the GIL is
+   always released when doing I/O.
+   As of Python 3.13, the GIL can be disabled using the "--disable-

@@ -1,0 +1,3 @@
+as the *linesep*, and calls "sendmail()" to transmit the resulting
+   message.  Regardless of the values of *from_addr* and *to_addrs*,
+   "send_message" does not transmit any *Bcc* or *Resent-Bcc* headers

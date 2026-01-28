@@ -1,0 +1,5 @@
+interrupted.  The static methods of Java's Thread class, when
+implemented, are mapped to module-level functions.
+All of the methods described below are executed atomically.
+Thread-local data
+-----------------

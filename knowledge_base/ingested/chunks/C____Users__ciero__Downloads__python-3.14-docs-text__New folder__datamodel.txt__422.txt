@@ -1,0 +1,4 @@
+This method should return the computed attribute value or raise an
+   "AttributeError" exception.
+   **PEP 252** specifies that "__get__()" is callable with one or two
+   arguments.  Python's own built-in descriptors support this

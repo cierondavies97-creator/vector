@@ -1,0 +1,4 @@
+indicates the cause of the error and is converted to a Python string
+object and stored as the "associated value" of the exception.
+Another useful function is "PyErr_SetFromErrno()", which only takes an
+exception argument and constructs the associated value by inspection

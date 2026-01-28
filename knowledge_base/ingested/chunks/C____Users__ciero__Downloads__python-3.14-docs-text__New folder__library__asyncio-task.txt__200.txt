@@ -1,0 +1,6 @@
+#     cancel_me(): cancel sleep
+         #     cancel_me(): after sleep
+         #     main(): cancel_me is cancelled now
+   cancelled()
+      Return "True" if the Task is *cancelled*.
+      The Task is *cancelled* when the cancellation was requested with

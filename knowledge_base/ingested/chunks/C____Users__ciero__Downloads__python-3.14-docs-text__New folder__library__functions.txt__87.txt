@@ -1,0 +1,5 @@
+% b" is non-zero it has the same sign as *b*, and "0 <= abs(a % b)
+   < abs(b)".
+enumerate(iterable, start=0)
+   Return an enumerate object. *iterable* must be a sequence, an
+   *iterator*, or some other object which supports iteration. The

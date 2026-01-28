@@ -1,0 +1,4 @@
+Change the owner and group id of *path* to the numeric *uid* and
+   *gid*.  To leave one of the ids unchanged, set it to -1.
+   This function can support specifying a file descriptor, paths
+   relative to directory descriptors and not following symlinks.

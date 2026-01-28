@@ -1,0 +1,5 @@
+Examples of operations which can be blocked with a
+   "PythonFinalizationError" during the Python finalization:
+   * Creating a new Python thread.
+   * "Joining" a running daemon thread.
+   * "os.fork()".

@@ -1,0 +1,4 @@
+"WaitForSingleObject" and "WaitForMultipleObjects" family of API
+      calls.  On POSIX, this is a file descriptor usable with
+      primitives from the "select" module.
+      Added in version 3.3.

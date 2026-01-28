@@ -1,0 +1,4 @@
+"setTarget()" before this handler does anything useful. If
+   *flushOnClose* is specified as "False", then the buffer is *not*
+   flushed when the handler is closed. If not specified or specified
+   as "True", the previous behaviour of flushing the buffer will occur

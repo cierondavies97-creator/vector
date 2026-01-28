@@ -1,0 +1,4 @@
+The "__main__" module is a special case relative to Python's import
+system.  As noted elsewhere, the "__main__" module is directly
+initialized at interpreter startup, much like "sys" and "builtins".
+However, unlike those two, it doesn't strictly qualify as a built-in

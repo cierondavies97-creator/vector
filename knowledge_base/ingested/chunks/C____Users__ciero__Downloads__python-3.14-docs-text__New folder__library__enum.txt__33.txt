@@ -1,0 +1,6 @@
+>>> Color.RED.value
+         1
+      Value of the member, can be set in "__new__()".
+      Note:
+        Enum member valuesMember values can be anything: "int", "str",
+        etc.  If the exact value is unimportant you may use "auto"

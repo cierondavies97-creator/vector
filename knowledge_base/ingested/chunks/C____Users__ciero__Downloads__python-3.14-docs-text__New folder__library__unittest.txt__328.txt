@@ -1,0 +1,5 @@
+expectedFailures
+      A list containing 2-tuples of "TestCase" instances and strings
+      holding formatted tracebacks.  Each tuple represents an expected
+      failure or error of the test case.
+   unexpectedSuccesses

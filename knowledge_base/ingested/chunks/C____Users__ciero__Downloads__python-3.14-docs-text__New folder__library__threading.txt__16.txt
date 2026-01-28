@@ -1,0 +1,7 @@
+available by default (see **PEP 703**).
+Reference
+=========
+This module defines the following functions:
+threading.active_count()
+   Return the number of "Thread" objects currently alive.  The
+   returned count is equal to the length of the list returned by

@@ -1,0 +1,6 @@
+specifying an encoding:
+   f = open("myfile.txt", "r", encoding="utf-8")
+In-memory text streams are also available as "StringIO" objects:
+   f = io.StringIO("some initial text data")
+Note:
+  When working with a non-blocking stream, be aware that read

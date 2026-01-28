@@ -1,0 +1,2 @@
+|                                                    | generated executable. We recommend using the       |
+|                                                    | "python -m pip" command instead, or alternatively  |

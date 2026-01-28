@@ -1,0 +1,6 @@
+introduced "ParamSpec" and "Concatenate")
+     * "ParamSpec"
+     * Annotating callable objects
+typing.Literal
+   Special typing form to define "literal types".
+   "Literal" can be used to indicate to type checkers that the

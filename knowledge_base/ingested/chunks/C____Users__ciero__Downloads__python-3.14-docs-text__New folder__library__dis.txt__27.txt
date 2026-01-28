@@ -1,0 +1,4 @@
+information for the supplied function, generator, asynchronous
+   generator, coroutine, method, source code string or code object.
+   Note that the exact contents of code info strings are highly
+   implementation dependent and they may change arbitrarily across

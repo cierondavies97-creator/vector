@@ -1,0 +1,4 @@
+Changed in version 3.2: Allow strings for *indent* in addition to
+   integers.
+   If specified, *separators* should be an "(item_separator,
+   key_separator)" tuple.  The default is "(', ', ': ')" if *indent*

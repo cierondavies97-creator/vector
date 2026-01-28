@@ -1,0 +1,4 @@
+behaviour, making it appropriate for cryptography.  *a* and *b*
+   must both be of the same type: either "str" (ASCII only, as e.g.
+   returned by "HMAC.hexdigest()"), or a *bytes-like object*.
+   Note:

@@ -1,0 +1,4 @@
+once per class and module. If you randomize the order, so that tests
+from different modules and classes are adjacent to each other, then
+these shared fixture functions may be called multiple times in a
+single test run.

@@ -1,0 +1,6 @@
+deeper contents):
+   >>> pprint.pp(project_info, depth=1)
+   {'author': 'The Python Packaging Authority',
+    'author_email': 'pypa-dev@googlegroups.com',
+    'bugtrack_url': None,
+    'classifiers': [...],

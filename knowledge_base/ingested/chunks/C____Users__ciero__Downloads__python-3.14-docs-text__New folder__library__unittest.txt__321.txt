@@ -1,0 +1,4 @@
+this list. Note that matches are always performed using
+      "fnmatch.fnmatchcase()", so unlike patterns passed to the "-k"
+      option, simple substring patterns will have to be converted
+      using "*" wildcards.

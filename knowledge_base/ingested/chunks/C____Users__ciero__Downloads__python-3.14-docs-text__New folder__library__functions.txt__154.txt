@@ -1,0 +1,5 @@
+Raises an auditing event "builtins.input" with argument "prompt"
+   before reading input
+   Raises an auditing event "builtins.input/result" with the result
+   after successfully reading input.
+class int(number=0, /)

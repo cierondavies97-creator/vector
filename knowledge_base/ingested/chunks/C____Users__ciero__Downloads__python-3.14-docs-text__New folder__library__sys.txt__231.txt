@@ -1,0 +1,6 @@
+_jit.is_active()
+      Return "True" if the topmost Python frame is currently executing
+      JIT code (implies "sys._jit.is_enabled()"), and "False"
+      otherwise.
+      Note:
+        This function is intended for testing and debugging the JIT

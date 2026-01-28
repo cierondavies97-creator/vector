@@ -1,0 +1,7 @@
+traceback
+      Traceback where the memory block was allocated, "Traceback"
+      instance.
+StatisticDiff
+-------------
+class tracemalloc.StatisticDiff
+   Statistic difference on memory allocations between an old and a new

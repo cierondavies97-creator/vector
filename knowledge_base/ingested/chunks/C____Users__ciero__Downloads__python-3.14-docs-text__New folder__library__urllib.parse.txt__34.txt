@@ -1,0 +1,4 @@
+security for details.
+   Changed in version 3.2: Added IPv6 URL parsing capabilities.
+   Changed in version 3.3: The fragment is now parsed for all URL
+   schemes (unless *allow_fragments* is false), in accordance with

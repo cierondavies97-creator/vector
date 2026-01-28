@@ -1,0 +1,4 @@
+(Sometimes, reference counting is also referred to as a garbage
+collection strategy, hence my use of "automatic" to distinguish the
+two.)  The big advantage of automatic garbage collection is that the
+user doesn't need to call "free()" explicitly.  (Another claimed

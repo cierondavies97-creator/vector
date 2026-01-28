@@ -1,0 +1,4 @@
+in the example above.
+   Parameters can specify both optional and required arguments, as
+   well as default values for some optional arguments.
+   See also the *argument* glossary entry, the FAQ question on the

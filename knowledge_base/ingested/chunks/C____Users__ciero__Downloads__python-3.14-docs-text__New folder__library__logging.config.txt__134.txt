@@ -1,0 +1,4 @@
+only possible if you are constructing or modifying the configuration
+  dictionary in code.
+* A string which resolves to a class which is a subclass of
+  "QueueListener", such as "'my.package.CustomListener'".

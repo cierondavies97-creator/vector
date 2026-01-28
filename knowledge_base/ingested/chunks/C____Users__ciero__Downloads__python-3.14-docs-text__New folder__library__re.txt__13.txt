@@ -1,0 +1,4 @@
+Thus, complex expressions can easily be constructed from simpler
+primitive expressions like the ones described here.  For details of
+the theory and implementation of regular expressions, consult the
+Friedl book [Frie09], or almost any textbook about compiler

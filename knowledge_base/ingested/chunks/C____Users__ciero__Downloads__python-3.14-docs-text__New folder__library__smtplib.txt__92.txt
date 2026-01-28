@@ -1,0 +1,6 @@
+the **RFC 822** headers.  In particular, the 'To' and 'From' addresses
+must be included in the message headers explicitly:
+   import smtplib
+   def prompt(title):
+       return input(title).strip()
+   from_addr = prompt("From: ")

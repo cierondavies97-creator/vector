@@ -1,0 +1,4 @@
+supports some customization).
+xml.dom.getDOMImplementation(name=None, features=())
+   Return a suitable DOM implementation. The *name* is either well-
+   known, the module name of a DOM implementation, or "None". If it is

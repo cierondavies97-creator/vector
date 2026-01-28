@@ -1,0 +1,4 @@
+points that separate *data* into 100 equal sized groups.  Raises
+   "StatisticsError" if *n* is not least 1.
+   The *data* can be any iterable containing sample data.  For
+   meaningful results, the number of data points in *data* should be

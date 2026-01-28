@@ -1,0 +1,6 @@
+weakref.ProxyType
+   The type object for proxies of objects which are not callable.
+weakref.CallableProxyType
+   The type object for proxies of callable objects.
+weakref.ProxyTypes
+   Sequence containing all the type objects for proxies.  This can

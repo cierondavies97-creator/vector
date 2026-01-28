@@ -1,0 +1,4 @@
+class. To specify a Unix socket, you must use an absolute path for
+   *host*, starting with a '/'.
+   Authentication is supported, using the regular SMTP mechanism. When
+   using a Unix socket, LMTP generally don't support or require any

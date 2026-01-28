@@ -1,0 +1,5 @@
+values of the appropriate type.
+"parser"
+   is the OptionParser instance driving the whole thing, mainly useful
+   because you can access some other interesting data through its
+   instance attributes:

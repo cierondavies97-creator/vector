@@ -1,0 +1,3 @@
+themename, from which the element will be cloned, and optionally
+      an element to clone from. If this element to clone from is not
+      specified, an empty element will be used. *kw* is discarded.

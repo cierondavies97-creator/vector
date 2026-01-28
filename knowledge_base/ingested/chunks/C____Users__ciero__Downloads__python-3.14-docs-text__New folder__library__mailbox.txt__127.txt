@@ -1,0 +1,6 @@
+"From " line. If *from_* is False, the first line of the file is
+      dropped.
+   lock()
+   unlock()
+      Three locking mechanisms are used---dot locking and, if
+      available, the "flock()" and "lockf()" system calls.

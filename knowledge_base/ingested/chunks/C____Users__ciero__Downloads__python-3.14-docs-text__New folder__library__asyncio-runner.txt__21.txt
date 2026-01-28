@@ -1,0 +1,3 @@
+handler cancels the main task by calling "asyncio.Task.cancel()"
+   which raises "asyncio.CancelledError" inside the main task.  This
+   causes the Python stack to unwind, "try/except" and "try/finally"

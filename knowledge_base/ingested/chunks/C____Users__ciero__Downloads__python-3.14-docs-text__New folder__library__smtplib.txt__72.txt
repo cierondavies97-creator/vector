@@ -1,0 +1,4 @@
+ESMTP, message size and each of the specified options will be
+   passed to it (if the option is in the feature set the server
+   advertises).  If "EHLO" fails, "HELO" will be tried and ESMTP
+   options suppressed.

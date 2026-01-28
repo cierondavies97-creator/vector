@@ -1,0 +1,6 @@
+passing it as an argument.
+  Changed in version 3.3: Previously, "AF_UNIX" socket paths were
+  assumed to use UTF-8 encoding.
+  Changed in version 3.5: Writable *bytes-like object* is now
+  accepted.
+* A pair "(host, port)" is used for the "AF_INET" address family,

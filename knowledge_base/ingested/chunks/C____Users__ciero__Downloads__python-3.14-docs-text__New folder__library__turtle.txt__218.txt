@@ -1,0 +1,5 @@
+Parameters:
+      * **fun** -- a function with no arguments or "None"
+      * **key** -- a string: key (e.g. "a") or key-symbol (e.g.
+        "space")
+   Bind *fun* to key-press event of key if key is given, or to any

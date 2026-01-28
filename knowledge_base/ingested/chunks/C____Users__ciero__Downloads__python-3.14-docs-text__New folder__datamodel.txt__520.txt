@@ -1,0 +1,7 @@
+behaviour. An example of this can be found in the "enum" module:
+   >>> from enum import Enum
+   >>> class Menu(Enum):
+   ...     """A breakfast menu"""
+   ...     SPAM = 'spam'
+   ...     BACON = 'bacon'
+   ...

@@ -1,0 +1,4 @@
+# Optionally run the configuration checker and accept all changes
+   $> py install --configure -y
+To download the Python install manager and install on another machine,
+the following WinGet command will download the required files from the

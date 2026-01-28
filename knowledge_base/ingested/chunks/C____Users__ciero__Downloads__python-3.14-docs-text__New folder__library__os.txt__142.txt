@@ -1,0 +1,6 @@
+information.
+   On Windows, this function is limited to pipes.
+   Added in version 3.5.
+   Changed in version 3.12: Added support for pipes on Windows.
+os.grantpt(fd, /)
+   Grant access to the slave pseudo-terminal device associated with

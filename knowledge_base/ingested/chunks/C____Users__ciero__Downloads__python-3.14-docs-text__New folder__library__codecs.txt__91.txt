@@ -1,0 +1,4 @@
+encoder/decoder function, but with multiple calls to the
+"encode()"/"decode()" method of the incremental encoder/decoder. The
+incremental encoder/decoder keeps track of the encoding/decoding
+process during method calls.

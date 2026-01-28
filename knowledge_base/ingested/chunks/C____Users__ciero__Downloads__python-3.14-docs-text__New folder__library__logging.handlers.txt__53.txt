@@ -1,0 +1,3 @@
+Returns a new instance of the "TimedRotatingFileHandler" class. The
+   specified file is opened and used as the stream for logging. On
+   rotating it also sets the filename suffix. Rotating happens based

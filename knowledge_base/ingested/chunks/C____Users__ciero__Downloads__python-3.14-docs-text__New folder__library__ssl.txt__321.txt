@@ -1,0 +1,4 @@
+the parts, you can decrypt it with the other part, and **only** with
+the other part.
+A certificate contains information about two principals.  It contains
+the name of a *subject*, and the subject's public key.  It also

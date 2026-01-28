@@ -1,0 +1,3 @@
+the path to the directory containing the virtual environment):
++---------------+--------------+----------------------------------------------------+
+| Platform      | Shell        | Command to activate virtual environment            |

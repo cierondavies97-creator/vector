@@ -1,0 +1,4 @@
+the old "urllib2.urlopen".  Proxy handling, which was done by
+   passing a dictionary parameter to "urllib.urlopen", can be obtained
+   by using "ProxyHandler" objects.
+   The default opener raises an auditing event "urllib.Request" with

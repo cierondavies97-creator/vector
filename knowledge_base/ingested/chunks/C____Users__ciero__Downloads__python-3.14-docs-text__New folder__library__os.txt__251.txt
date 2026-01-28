@@ -1,0 +1,4 @@
+"os.supports_fd". If this functionality is unavailable, using it
+  will raise a "NotImplementedError".
+  If the function also supports *dir_fd* or *follow_symlinks*
+  arguments, it's an error to specify one of those when supplying

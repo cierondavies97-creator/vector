@@ -1,0 +1,3 @@
+have an "append" method.  It also means that if the default value is
+  non-empty, the default elements will be present in the parsed value
+  for the option, with any values from the command line appended after

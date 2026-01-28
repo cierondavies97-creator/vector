@@ -1,0 +1,5 @@
+setting and receiving cookies.  There are also some strictness
+switches that allow you to tighten up the rather loose Netscape
+protocol rules a little bit (at the cost of blocking some benign
+cookies).
+A domain blocklist and allowlist is provided (both off by default).

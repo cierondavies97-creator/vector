@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "install.disable_shortcut_kinds"                   | Comma-separated list of shortcut kinds to exclude  |

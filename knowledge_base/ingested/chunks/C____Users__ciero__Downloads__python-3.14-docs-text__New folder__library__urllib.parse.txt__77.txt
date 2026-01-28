@@ -1,0 +1,5 @@
+*netloc* parts.
+   Warning:
+     Because an absolute URL may be passed as the "url" parameter, it
+     is generally **not secure** to use "urljoin" with an attacker-
+     controlled "url". For example in,

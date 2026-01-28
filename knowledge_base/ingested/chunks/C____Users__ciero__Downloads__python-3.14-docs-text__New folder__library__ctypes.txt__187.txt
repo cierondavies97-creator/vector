@@ -1,0 +1,4 @@
+Quoting the docs for that value:
+   This pointer is initialized to point to an array of "_frozen"
+   records, terminated by one whose members are all "NULL" or zero.
+   When a frozen module is imported, it is searched in this table.

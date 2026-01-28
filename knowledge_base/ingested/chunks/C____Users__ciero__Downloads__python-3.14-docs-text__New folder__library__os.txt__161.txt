@@ -1,0 +1,4 @@
+Changed in version 3.5: If the system call is interrupted and the
+   signal handler does not raise an exception, the function now
+   retries the system call instead of raising an "InterruptedError"
+   exception (see **PEP 475** for the rationale).

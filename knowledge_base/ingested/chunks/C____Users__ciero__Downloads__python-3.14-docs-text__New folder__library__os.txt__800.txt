@@ -1,0 +1,4 @@
+easy-to-use interface to the random number generator provided by
+     your platform, please see "random.SystemRandom".
+   Changed in version 3.5: On Linux 3.17 and newer, the "getrandom()"
+   syscall is now used when available.  On OpenBSD 5.6 and newer, the

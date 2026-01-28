@@ -1,0 +1,4 @@
+but splice may nevertheless block because the spliced file
+     descriptors may block.
+   * If "SPLICE_F_MORE" is specified, it hints to the kernel that more
+     data will be coming in a subsequent splice.

@@ -1,0 +1,4 @@
+*status* and, if given, it prints a *message* to "sys.stderr"
+   before that. The user can override this method to handle these
+   steps differently:
+      class ErrorCatchingArgumentParser(argparse.ArgumentParser):

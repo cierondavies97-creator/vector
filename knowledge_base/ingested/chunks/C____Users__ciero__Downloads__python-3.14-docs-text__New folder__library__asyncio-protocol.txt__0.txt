@@ -1,0 +1,6 @@
+Transports and Protocols
+************************
+-[ Preface ]-
+Transports and Protocols are used by the **low-level** event loop APIs
+such as "loop.create_connection()".  They use callback-based
+programming style and enable high-performance implementations of

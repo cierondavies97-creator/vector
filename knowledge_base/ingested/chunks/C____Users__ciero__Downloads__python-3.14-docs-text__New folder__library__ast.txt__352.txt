@@ -1,0 +1,5 @@
+"end_col_offset") is missing, return "None".
+   If *padded* is "True", the first line of a multi-line statement
+   will be padded with spaces to match its original position.
+   Added in version 3.8.
+ast.fix_missing_locations(node)

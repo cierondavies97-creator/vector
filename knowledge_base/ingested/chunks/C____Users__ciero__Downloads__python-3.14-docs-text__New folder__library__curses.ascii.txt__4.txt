@@ -1,0 +1,3 @@
+| curses.ascii.S  | Start of heading, console interrupt            |
+| OH              |                                                |
++-----------------+------------------------------------------------+

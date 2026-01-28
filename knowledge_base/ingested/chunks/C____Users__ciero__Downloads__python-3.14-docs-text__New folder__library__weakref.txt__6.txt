@@ -1,0 +1,4 @@
+If, for example, an image object is a value in a
+"WeakValueDictionary", then when the last remaining references to that
+image object are the weak references held by weak mappings, garbage
+collection can reclaim the object, and its corresponding entries in

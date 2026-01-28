@@ -1,0 +1,2 @@
+value of "getElementsByTagName()", being "live".  The Python DOM API
+does not require implementations to enforce such requirements.

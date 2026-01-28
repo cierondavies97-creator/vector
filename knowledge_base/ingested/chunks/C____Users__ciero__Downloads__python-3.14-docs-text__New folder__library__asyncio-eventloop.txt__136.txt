@@ -1,0 +1,5 @@
+In some situations (e.g. when the passed transport is already
+   closing) this may return "None".
+   Parameters:
+   * *transport* and *protocol* instances that methods like
+     "create_server()" and "create_connection()" return.

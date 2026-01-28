@@ -1,0 +1,4 @@
+===============================
+When a coroutine function is called, but not awaited (e.g. "coro()"
+instead of "await coro()") or the coroutine is not scheduled with
+"asyncio.create_task()", asyncio will emit a "RuntimeWarning":

@@ -1,0 +1,9 @@
+stat.ST_UID
+   User id of the owner.
+stat.ST_GID
+   Group id of the owner.
+stat.ST_SIZE
+   Size in bytes of a plain file; amount of data waiting on some
+   special files.
+stat.ST_ATIME
+   Time of last access.

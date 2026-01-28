@@ -1,0 +1,4 @@
+returned, and must be a member of the "Format" enum or its integer
+   equivalent. The different formats work as follows:
+   * VALUE: "object.__annotations__" is tried first; if that does not
+     exist, the "object.__annotate__" function is called if it exists.

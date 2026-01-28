@@ -1,0 +1,6 @@
+Note that functions created with lambda expressions cannot contain
+statements or annotations.
+6.15. Expression lists
+======================
+   starred_expression:       "*" or_expr | expression
+   flexible_expression:      assignment_expression | starred_expression

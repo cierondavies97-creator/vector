@@ -1,0 +1,5 @@
+increases memory usage and window size.
+      "True" or "1" enable long distance matching while "False" or "0"
+      disable it.
+      Enabling this parameter increases default "window_log" to 128
+      MiB except when expressly set to a different value. This setting

@@ -1,0 +1,5 @@
+as it makes a global modification to the system state by binding
+"sys.stdout" to a different stream.
+Reusable context managers
+-------------------------
+Distinct from both single use and reentrant context managers are

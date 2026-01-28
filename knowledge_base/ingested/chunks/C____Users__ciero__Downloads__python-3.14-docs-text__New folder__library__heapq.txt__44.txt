@@ -1,0 +1,3 @@
+task can be done with a dictionary pointing to an entry in the queue.
+Removing the entry or changing its priority is more difficult because
+it would break the heap structure invariants.  So, a possible solution

@@ -1,0 +1,4 @@
+using that interpreter.
+The biggest benefit to using interpreters instead of only threads is
+true multi-core parallelism.  Each interpreter has its own *Global
+Interpreter Lock*, so code running in one interpreter can run on one

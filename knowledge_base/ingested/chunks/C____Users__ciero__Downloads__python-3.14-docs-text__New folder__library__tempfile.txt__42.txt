@@ -1,0 +1,4 @@
+The file is readable and writable only by the creating user ID.  If
+   the platform uses permission bits to indicate whether a file is
+   executable, the file is executable by no one.
+   The file descriptor is not inherited by child processes.

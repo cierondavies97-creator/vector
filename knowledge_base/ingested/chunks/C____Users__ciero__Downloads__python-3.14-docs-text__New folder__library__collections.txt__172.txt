@@ -1,0 +1,5 @@
+removes a (key, value) pair.  The pairs are returned in LIFO
+      (last-in, first-out) order if *last* is true or FIFO (first-in,
+      first-out) order if false.
+   move_to_end(key, last=True)
+      Move an existing *key* to either end of an ordered dictionary.

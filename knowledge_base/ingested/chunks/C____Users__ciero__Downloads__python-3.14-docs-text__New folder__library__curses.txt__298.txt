@@ -1,0 +1,3 @@
+| curses.ACS_PLUS          | big plus sign                              |
++--------------------------+--------------------------------------------+
+| curses.ACS_RARROW        | right arrow                                |

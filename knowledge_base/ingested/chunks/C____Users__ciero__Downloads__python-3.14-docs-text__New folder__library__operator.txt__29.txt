@@ -1,0 +1,5 @@
+return obj
+operator.itemgetter(item)
+operator.itemgetter(*items)
+   Return a callable object that fetches *item* from its operand using
+   the operand's "__getitem__()" method.  If multiple items are

@@ -1,0 +1,3 @@
+the entities of each type which are defined in the file. For each such
+entity, there is a separate section which identifies how that entity
+is configured.  Thus, for a logger named "log01" in the "[loggers]"

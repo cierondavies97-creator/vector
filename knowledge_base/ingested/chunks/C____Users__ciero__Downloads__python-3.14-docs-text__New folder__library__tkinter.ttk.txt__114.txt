@@ -1,0 +1,5 @@
+the notebook as follows:
+      * "Control"-"Tab": selects the tab following the currently
+        selected one.
+      * "Shift"-"Control"-"Tab": selects the tab preceding the
+        currently selected one.

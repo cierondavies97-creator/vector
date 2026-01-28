@@ -1,0 +1,4 @@
+information on weak references, see the "weakref" module.
+exception RuntimeError
+   Raised when an error is detected that doesn't fall in any of the
+   other categories.  The associated value is a string indicating what

@@ -1,0 +1,4 @@
+"Widget.state()", and the following inherited from "Entry":
+"Entry.bbox()", "Entry.delete()", "Entry.icursor()", "Entry.index()",
+"Entry.insert()", "Entry.selection()", "Entry.xview()", it has some
+other methods, described at "ttk.Combobox".

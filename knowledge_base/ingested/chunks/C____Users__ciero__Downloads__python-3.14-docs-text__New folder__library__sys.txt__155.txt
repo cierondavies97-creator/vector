@@ -1,0 +1,4 @@
+bytes filenames. The filesystem error handler is returned from
+   "getfilesystemencodeerrors()".
+   For best compatibility, str should be used for filenames in all
+   cases, although representing filenames as bytes is also supported.

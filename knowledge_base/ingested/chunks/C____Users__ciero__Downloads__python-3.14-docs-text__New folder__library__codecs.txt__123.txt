@@ -1,0 +1,4 @@
+are free to add additional keyword arguments, but only the ones
+   defined here are used by the Python codec registry.
+   The *stream* argument must be a file-like object open for reading
+   text or binary data, as appropriate for the specific codec.

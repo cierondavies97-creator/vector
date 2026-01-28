@@ -1,0 +1,5 @@
+codecs.escape_encode(input, errors=None)
+   Encode *input* using escape sequences. Similar to how "repr()" on
+   bytes produces escaped byte values.
+   *input* must be a "bytes" object.
+   Returns a tuple "(output, length)" where *output* is a "bytes"

@@ -1,0 +1,3 @@
+| curses.KEY_REDO           | Redo                                         |
++---------------------------+----------------------------------------------+
+| curses.KEY_REFERENCE      | Ref (reference)                              |

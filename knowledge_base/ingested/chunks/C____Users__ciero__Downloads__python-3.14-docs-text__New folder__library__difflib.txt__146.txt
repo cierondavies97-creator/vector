@@ -1,0 +1,5 @@
+# read ndiff output from stdin, and print file1 (which=='1') or
+   # file2 (which=='2') to stdout
+   def restore(which):
+       restored = difflib.restore(sys.stdin.readlines(), which)
+       sys.stdout.writelines(restored)

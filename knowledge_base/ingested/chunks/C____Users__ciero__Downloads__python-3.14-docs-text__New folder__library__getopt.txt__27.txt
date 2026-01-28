@@ -1,0 +1,6 @@
+>>> optlist, args = getopt.getopt(args, 'C::', ['color=?'])
+   >>> optlist
+   [('-C', 'on'), ('-C', ''), ('--color', 'off'), ('--color', '')]
+   >>> args
+   ['a1', 'a2']
+The order of options and non-option arguments can be preserved:

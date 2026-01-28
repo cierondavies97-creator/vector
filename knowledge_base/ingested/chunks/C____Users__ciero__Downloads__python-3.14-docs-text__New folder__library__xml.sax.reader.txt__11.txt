@@ -1,0 +1,4 @@
+application, although it may make copies and modify those.
+class xml.sax.xmlreader.AttributesImpl(attrs)
+   This is an implementation of the "Attributes" interface (see
+   section The Attributes Interface).  This is a dictionary-like

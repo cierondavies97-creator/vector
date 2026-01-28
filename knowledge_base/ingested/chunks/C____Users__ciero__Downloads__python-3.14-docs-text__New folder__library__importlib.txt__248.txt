@@ -1,0 +1,6 @@
+"""An approximate implementation of import."""
+       absolute_name = importlib.util.resolve_name(name, package)
+       try:
+           return sys.modules[absolute_name]
+       except KeyError:
+           pass

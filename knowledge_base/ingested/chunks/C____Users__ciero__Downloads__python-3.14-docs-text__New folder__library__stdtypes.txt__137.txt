@@ -1,0 +1,4 @@
+In the table, *s* and *t* are sequences of the same type, *n*, *i*,
+*j* and *k* are integers and *x* is an arbitrary object that meets any
+type and value restrictions imposed by *s*.
+The "in" and "not in" operations have the same priorities as the

@@ -1,0 +1,3 @@
+(that Python calls ""utf-8-sig"") for its Notepad program: Before any
+of the Unicode characters is written to the file, a UTF-8 encoded BOM
+(which looks like this as a byte sequence: "0xef", "0xbb", "0xbf") is

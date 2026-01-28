@@ -1,0 +1,3 @@
+return a hash object with the same simple interface. For example: use
+"sha256()" to create a SHA-256 hash object. You can now feed this
+object with *bytes-like objects* (normally "bytes") using the "update"

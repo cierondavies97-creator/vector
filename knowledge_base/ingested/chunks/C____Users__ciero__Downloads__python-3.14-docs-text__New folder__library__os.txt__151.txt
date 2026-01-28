@@ -1,0 +1,7 @@
+Changed in version 3.3: Add support for "SEEK_HOLE" and
+   "SEEK_DATA".
+os.SEEK_SET
+os.SEEK_CUR
+os.SEEK_END
+   Parameters to the "lseek()" function and the "seek()" method on
+   *file-like objects*, for whence to adjust the file position

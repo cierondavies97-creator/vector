@@ -1,0 +1,6 @@
+Availability: Tk 8.6.
+   index(item)
+      Returns the integer index of *item* within its parent's list of
+      children.
+   insert(parent, index, iid=None, **kw)
+      Creates a new item and returns the item identifier of the newly

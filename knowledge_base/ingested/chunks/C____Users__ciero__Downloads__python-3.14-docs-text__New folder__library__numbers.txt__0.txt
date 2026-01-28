@@ -1,0 +1,5 @@
+"numbers" --- Numeric abstract base classes
+*******************************************
+**Source code:** Lib/numbers.py
+======================================================================
+The "numbers" module (**PEP 3141**) defines a hierarchy of numeric

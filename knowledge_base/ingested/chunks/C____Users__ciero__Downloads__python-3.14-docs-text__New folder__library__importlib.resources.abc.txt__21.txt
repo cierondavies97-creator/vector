@@ -1,0 +1,5 @@
+abstractmethod __truediv__(child)
+      Return Traversable child in self. Equivalent to
+      "joinpath(child)".
+   abstractmethod open(mode='r', *args, **kwargs)
+      *mode* may be 'r' or 'rb' to open as text or binary. Return a

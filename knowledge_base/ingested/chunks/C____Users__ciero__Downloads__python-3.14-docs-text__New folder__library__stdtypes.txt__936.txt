@@ -1,0 +1,4 @@
+than the limit will encounter an error during parsing, usually at
+  startup time or import time or even at installation time - anytime
+  an up to date ".pyc" does not already exist for the code. A
+  workaround for source that contains such large constants is to

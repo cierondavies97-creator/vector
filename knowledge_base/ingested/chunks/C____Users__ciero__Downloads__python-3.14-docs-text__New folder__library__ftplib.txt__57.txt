@@ -1,0 +1,6 @@
+prints to "sys.stdout".  This method returns "None".
+      Note:
+        If your server supports the command, "mlsd()" offers a better
+        API.
+   rename(fromname, toname)
+      Rename file *fromname* on the server to *toname*.

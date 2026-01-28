@@ -1,0 +1,5 @@
+data stored in the instance.  A variety of primitive C types are
+supported, and access may be read-only or read-write.  The structures
+in the table are defined as:
+   typedef struct PyMemberDef {
+       const char *name;

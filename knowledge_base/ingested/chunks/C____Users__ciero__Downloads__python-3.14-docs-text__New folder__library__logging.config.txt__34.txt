@@ -1,0 +1,5 @@
+configuration. This method allows you to specify
+     "disable_existing_loggers" as "False" in the configuration you
+     send.
+logging.config.stopListening()
+   Stops the listening server which was created with a call to

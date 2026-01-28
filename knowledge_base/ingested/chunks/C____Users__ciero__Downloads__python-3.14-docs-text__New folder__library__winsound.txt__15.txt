@@ -1,0 +1,5 @@
+# "*" probably isn't the registered name of any sound).
+      winsound.PlaySound("*", winsound.SND_ALIAS)
+winsound.SND_LOOP
+   Play the sound repeatedly.  The "SND_ASYNC" flag must also be used
+   to avoid blocking.  Cannot be used with "SND_MEMORY".

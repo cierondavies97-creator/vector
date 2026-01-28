@@ -1,0 +1,12 @@
+Nicola Chiapolini, 8 July 2024
+9 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Documenting Code: Docstrings
+Example
+def my_product(numbers):
+""" Compute the product of a sequence of numbers. """

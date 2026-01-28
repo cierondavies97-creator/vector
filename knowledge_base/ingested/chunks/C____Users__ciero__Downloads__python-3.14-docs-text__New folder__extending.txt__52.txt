@@ -1,0 +1,4 @@
+variable will not be garbage-collected. It will "leak". We did,
+however, ensure that this will happen at most once per process.
+We discuss the use of "PyMODINIT_FUNC" as a function return type later
+in this sample.

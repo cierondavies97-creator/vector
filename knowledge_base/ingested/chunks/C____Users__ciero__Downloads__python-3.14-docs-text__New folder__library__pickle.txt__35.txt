@@ -1,0 +1,4 @@
+Changed in version 3.8: The default protocol is 4.
+   Changed in version 3.14: The default protocol is 5.
+The "pickle" module provides the following functions to make the
+pickling process more convenient:

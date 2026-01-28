@@ -1,0 +1,11 @@
+errno.EPROGUNAVAIL
+   RPC prog. not avail
+   Added in version 3.2.
+errno.EPWROFF
+   Device power is off
+   Added in version 3.2.
+errno.EBADRPC
+   RPC struct is bad
+   Added in version 3.2.
+errno.ERPCMISMATCH
+   RPC version wrong

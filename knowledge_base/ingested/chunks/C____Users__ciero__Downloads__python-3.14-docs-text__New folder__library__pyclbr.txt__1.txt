@@ -1,0 +1,4 @@
+classes, and methods defined in a Python-coded module.  The
+information is sufficient to implement a module browser.  The
+information is extracted from the Python source code rather than by
+importing the module, so this module is safe to use with untrusted

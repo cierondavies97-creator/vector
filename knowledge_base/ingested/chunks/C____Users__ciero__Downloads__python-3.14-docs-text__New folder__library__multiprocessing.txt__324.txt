@@ -1,0 +1,4 @@
+However, when using a proxy for a namespace object, an attribute
+   beginning with "'_'" will be an attribute of the proxy and not an
+   attribute of the referent:
+      >>> mp_context = multiprocessing.get_context('spawn')

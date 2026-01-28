@@ -1,0 +1,4 @@
+content_size_flag
+      Write the size of the data to be compressed into the Zstandard
+      frame header when known prior to compressing.
+      This flag only takes effect under the following scenarios:

@@ -1,0 +1,4 @@
+tkinter.messagebox.YESNO = 'yesno'
+   Displays two buttons whose symbolic names are "YES" and "NO".
+tkinter.messagebox.YESNOCANCEL = 'yesnocancel'
+   Displays three buttons whose symbolic names are "YES", "NO" and

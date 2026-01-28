@@ -1,0 +1,4 @@
+retrlines(cmd, callback=None)
+      Retrieve a file or directory listing in the encoding specified
+      by the *encoding* parameter at initialization. *cmd* should be
+      an appropriate "RETR" command (see "retrbinary()") or a command

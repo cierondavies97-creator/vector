@@ -1,0 +1,4 @@
+* type - The type to which the command-line argument should be
+     converted.
+   * choices - A sequence of the allowable values for the argument.
+   * required - Whether or not the command-line option may be omitted

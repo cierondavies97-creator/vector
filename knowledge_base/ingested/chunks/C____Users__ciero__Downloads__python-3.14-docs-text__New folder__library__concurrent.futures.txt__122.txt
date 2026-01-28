@@ -1,0 +1,3 @@
+"ProcessPoolExecutor" has terminated in a non-clean fashion (for
+   example, if it was killed from the outside).
+   Added in version 3.3.

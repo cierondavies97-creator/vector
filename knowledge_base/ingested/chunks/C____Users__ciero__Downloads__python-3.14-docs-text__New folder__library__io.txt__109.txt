@@ -1,0 +1,5 @@
+----------------
+Buffered I/O streams provide a higher-level interface to an I/O device
+than raw I/O does.
+class io.BytesIO(initial_bytes=b'')
+   A binary stream using an in-memory bytes buffer.  It inherits from

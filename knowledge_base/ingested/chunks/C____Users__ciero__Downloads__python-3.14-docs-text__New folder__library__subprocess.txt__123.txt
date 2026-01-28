@@ -1,0 +1,5 @@
+A "ValueError" will be raised if "Popen" is called with invalid
+arguments.
+"check_call()" and "check_output()" will raise "CalledProcessError" if
+the called process returns a non-zero return code.
+All of the functions and methods that accept a *timeout* parameter,

@@ -1,0 +1,6 @@
+Matches "[0-9]" if the "ASCII" flag is used.
+   For 8-bit (bytes) patterns:
+      Matches any decimal digit in the ASCII character set; this is
+      equivalent to "[0-9]".
+"\D"
+   Matches any character which is not a decimal digit. This is the

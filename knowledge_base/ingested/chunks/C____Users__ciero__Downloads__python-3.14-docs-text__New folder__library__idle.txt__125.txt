@@ -1,0 +1,4 @@
+print faster in IDLE, format and join together everything one wants
+displayed together and then print a single string.  Both format
+strings and "str.join()" can help combine fields and lines.
+IDLE's standard stream replacements are not inherited by subprocesses

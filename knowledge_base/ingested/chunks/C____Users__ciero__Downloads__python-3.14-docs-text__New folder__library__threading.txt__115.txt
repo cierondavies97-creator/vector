@@ -1,0 +1,4 @@
+block of code.
+RLock's "acquire()"/"release()" call pairs may be nested, unlike
+Lock's "acquire()"/"release()". Only the final "release()" (the
+"release()" of the outermost pair) resets the lock to an unlocked

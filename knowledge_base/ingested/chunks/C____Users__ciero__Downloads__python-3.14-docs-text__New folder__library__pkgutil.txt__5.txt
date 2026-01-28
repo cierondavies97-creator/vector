@@ -1,0 +1,4 @@
+comments, all entries found in a "*.pkg" file are added to the
+   path, regardless of whether they exist on the filesystem (this is a
+   feature).
+   If the input path is not a list (as is the case for frozen

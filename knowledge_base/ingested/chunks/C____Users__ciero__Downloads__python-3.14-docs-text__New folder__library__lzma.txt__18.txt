@@ -1,0 +1,5 @@
+and *filters* arguments have the same meanings as for
+   "LZMACompressor".
+   "LZMAFile" supports all the members specified by
+   "io.BufferedIOBase", except for "detach()" and "truncate()".
+   Iteration and the "with" statement are supported.

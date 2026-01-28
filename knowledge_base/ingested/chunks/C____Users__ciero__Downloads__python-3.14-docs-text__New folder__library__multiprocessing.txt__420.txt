@@ -1,0 +1,4 @@
+to be read from it, or the other end has been closed.
+   **POSIX**: "wait(object_list, timeout)" almost equivalent
+   "select.select(object_list, [], [], timeout)".  The difference is
+   that, if "select.select()" is interrupted by a signal, it can raise

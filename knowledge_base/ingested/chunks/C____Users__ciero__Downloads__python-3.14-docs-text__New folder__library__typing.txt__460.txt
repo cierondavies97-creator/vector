@@ -1,0 +1,4 @@
+class (but not to methods defined in its superclasses or
+   subclasses). Type checkers will ignore all annotations in a
+   function or class with this decorator.
+   "@no_type_check" mutates the decorated object in place.

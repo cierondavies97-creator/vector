@@ -1,0 +1,4 @@
+This function is not thread-safe. Calling it while the
+     environment is being modified in an other thread is an undefined
+     behavior. Reading from "os.environ" or "os.environb", or calling
+     "os.getenv()" while reloading, may return an empty result.

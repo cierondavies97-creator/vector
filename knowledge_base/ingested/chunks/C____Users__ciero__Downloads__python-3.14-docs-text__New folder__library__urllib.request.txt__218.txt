@@ -1,0 +1,5 @@
+previous calls to "urlretrieve()".
+"urllib.request" Restrictions
+=============================
+* Currently, only the following protocols are supported: HTTP
+  (versions 0.9 and 1.0), FTP, local files, and data URLs.

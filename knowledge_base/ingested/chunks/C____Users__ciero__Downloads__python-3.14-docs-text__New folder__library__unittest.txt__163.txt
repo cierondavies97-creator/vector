@@ -1,0 +1,5 @@
+expression suitable for use by "re.search()".  Examples:
+         self.assertRaisesRegex(ValueError, "invalid literal for.*XYZ'$",
+                                int, 'XYZ')
+      or:
+         with self.assertRaisesRegex(ValueError, 'literal'):

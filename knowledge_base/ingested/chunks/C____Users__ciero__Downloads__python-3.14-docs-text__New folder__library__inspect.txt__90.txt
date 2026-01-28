@@ -1,0 +1,5 @@
+Changed in version 3.12: Add "ag_suspended" attribute to async
+generators.
+Changed in version 3.14: Add "f_generator" attribute to frames.
+inspect.getmembers(object[, predicate])
+   Return all the members of an object in a list of "(name, value)"

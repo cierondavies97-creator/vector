@@ -1,0 +1,3 @@
+operands have the same representation, "Decimal('-1')" if the
+      first operand is lower in the total order than the second, and
+      "Decimal('1')" if the first operand is higher in the total order

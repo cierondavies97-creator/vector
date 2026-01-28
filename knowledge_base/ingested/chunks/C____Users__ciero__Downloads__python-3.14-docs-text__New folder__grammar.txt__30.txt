@@ -1,0 +1,5 @@
+_PyAST_AugAssign(a, b->kind, c, EXTRA) }
+       | invalid_assignment
+   annotated_rhs[expr_ty]: yield_expr | star_expressions
+   augassign[AugOperator*]:
+       | '+=' { _PyPegen_augoperator(p, Add) }

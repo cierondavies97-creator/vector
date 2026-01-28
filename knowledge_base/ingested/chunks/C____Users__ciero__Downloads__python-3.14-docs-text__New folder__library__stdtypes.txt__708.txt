@@ -1,0 +1,7 @@
+>>> m[0] = 43
+            >>> mm.tolist()
+            [43, 98, 99]
+         Added in version 3.8.
+      release()
+         Release the underlying buffer exposed by the memoryview
+         object.  Many objects take special actions when a view is

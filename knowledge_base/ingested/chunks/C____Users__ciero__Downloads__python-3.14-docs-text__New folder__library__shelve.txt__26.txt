@@ -1,0 +1,4 @@
+or "bsddb.rnopen()".  The optional *protocol*, *writeback*, and
+   *keyencoding* parameters have the same interpretation as for the
+   "Shelf" class.
+class shelve.DbfilenameShelf(filename, flag='c', protocol=None, writeback=False)

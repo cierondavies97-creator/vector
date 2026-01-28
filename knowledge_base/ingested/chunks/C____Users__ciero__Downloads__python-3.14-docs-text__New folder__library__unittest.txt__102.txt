@@ -1,0 +1,7 @@
+Classes and functions
+=====================
+This section describes in depth the API of "unittest".
+Test cases
+----------
+class unittest.TestCase(methodName='runTest')
+   Instances of the "TestCase" class represent the logical test units

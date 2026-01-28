@@ -1,0 +1,6 @@
+"UUID" instances have these read-only attributes:
+UUID.bytes
+   The UUID as a 16-byte string (containing the six integer fields in
+   big-endian byte order).
+UUID.bytes_le
+   The UUID as a 16-byte string (with *time_low*, *time_mid*, and

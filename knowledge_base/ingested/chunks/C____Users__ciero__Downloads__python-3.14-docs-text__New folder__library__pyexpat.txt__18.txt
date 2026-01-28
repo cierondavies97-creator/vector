@@ -1,0 +1,4 @@
+single file in fragments, not the submission of multiple files.
+   *data* can be the empty string at any time.
+xmlparser.ParseFile(file)
+   Parse XML data reading from the object *file*.  *file* only needs

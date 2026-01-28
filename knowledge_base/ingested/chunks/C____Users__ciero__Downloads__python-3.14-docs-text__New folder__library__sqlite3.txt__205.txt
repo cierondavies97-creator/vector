@@ -1,0 +1,8 @@
+are used and the items in *parameters* are sequences instead
+         of "dict"s.
+      Example:
+         rows = [
+             ("row1",),
+             ("row2",),
+         ]
+         # cur is an sqlite3.Cursor object

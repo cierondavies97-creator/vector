@@ -1,0 +1,3 @@
+"import" statement is not, strictly speaking, an operation on a module
+object; "import foo" does not require a module object named *foo* to
+exist, rather it requires an (external) *definition* for a module

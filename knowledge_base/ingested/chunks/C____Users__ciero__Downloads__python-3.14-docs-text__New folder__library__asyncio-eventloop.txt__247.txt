@@ -1,0 +1,4 @@
+A subclass of "AbstractEventLoop" based on the "selectors" module.
+   Uses the most efficient *selector* available for the given
+   platform.  It is also possible to manually configure the exact
+   selector implementation to be used:

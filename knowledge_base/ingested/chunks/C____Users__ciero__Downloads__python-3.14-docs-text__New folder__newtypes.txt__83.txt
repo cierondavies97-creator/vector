@@ -1,0 +1,4 @@
+or a mapping object, then you place the address of a structure that
+implements the C type "PyNumberMethods", "PySequenceMethods", or
+"PyMappingMethods", respectively. It is up to you to fill in this
+structure with appropriate values. You can find examples of the use of

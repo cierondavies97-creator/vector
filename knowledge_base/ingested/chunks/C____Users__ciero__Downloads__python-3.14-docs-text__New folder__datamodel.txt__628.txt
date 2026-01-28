@@ -1,0 +1,3 @@
+delegates to the "throw()" method of the iterator that caused the
+   coroutine to suspend, if it has such a method.  Otherwise, the
+   exception is raised at the suspension point.  The result (return

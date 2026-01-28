@@ -1,0 +1,5 @@
+Changed in version 3.11: Added the *ssl_shutdown_timeout*
+   parameter.
+   Changed in version 3.13: Added the *keep_alive* parameter.
+-[ Unix Sockets ]-
+async asyncio.open_unix_connection(path=None, *, limit=None, ssl=None, sock=None, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None)

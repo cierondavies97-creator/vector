@@ -1,0 +1,4 @@
+string to go into a URL. Plus signs in the original string are
+   escaped unless they are included in *safe*.  It also does not have
+   *safe* default to "'/'".
+   Example: "quote_plus('/El Niño/')" yields "'%2FEl+Ni%C3%B1o%2F'".

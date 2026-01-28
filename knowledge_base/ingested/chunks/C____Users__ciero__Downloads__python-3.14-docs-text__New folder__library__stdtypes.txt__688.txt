@@ -1,0 +1,4 @@
+automatically with "collections.abc.Sequence"
+      Changed in version 3.5: memoryviews can now be indexed with
+      tuple of integers.
+      Changed in version 3.14: memoryview is now a *generic type*.

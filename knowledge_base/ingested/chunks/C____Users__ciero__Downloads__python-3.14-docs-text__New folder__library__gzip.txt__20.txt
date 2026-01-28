@@ -1,0 +1,3 @@
+*fileobj*, since you might wish to append more material after the
+   compressed data.  This also allows you to pass an "io.BytesIO"
+   object opened for writing as *fileobj*, and retrieve the resulting

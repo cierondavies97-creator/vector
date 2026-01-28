@@ -1,0 +1,4 @@
+Sequence of "Frame" instances sorted from the oldest frame to the
+   most recent frame.
+   A traceback contains at least "1" frame. If the "tracemalloc"
+   module failed to get a frame, the filename ""<unknown>"" at line

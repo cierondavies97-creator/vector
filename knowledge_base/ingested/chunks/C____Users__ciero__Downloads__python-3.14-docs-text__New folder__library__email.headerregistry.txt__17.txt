@@ -1,0 +1,3 @@
+and "defects".  "decoded" should be the string value for the header
+   (that is, the header value fully decoded to unicode).  The parse
+   method should assume that *string* may contain content-transfer-

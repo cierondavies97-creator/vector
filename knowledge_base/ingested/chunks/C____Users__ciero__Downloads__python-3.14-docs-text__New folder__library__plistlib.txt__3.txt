@@ -1,0 +1,4 @@
+To work with plist data in bytes or string objects, use "dumps()" and
+"loads()".
+Values can be strings, integers, floats, booleans, tuples, lists,
+dictionaries (but only with string keys), "bytes", "bytearray" or

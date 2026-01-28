@@ -1,0 +1,6 @@
+printed top-aligned. Any value lower than 1 is ignored. Defaults to
+   1.
+--spacing SPACING, -s SPACING
+   The space between months in columns. Any value lower than 2 is
+   ignored. Defaults to 6.
+--months MONTHS, -m MONTHS

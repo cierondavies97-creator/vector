@@ -1,0 +1,3 @@
+messages. It derives from the older **RFC 822** standard which came
+into widespread use at a time when most email was composed of ASCII
+characters only.  **RFC 2822** is a specification written assuming

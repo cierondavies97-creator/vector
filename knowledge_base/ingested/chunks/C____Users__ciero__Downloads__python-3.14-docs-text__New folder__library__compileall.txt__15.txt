@@ -1,0 +1,4 @@
+rather than a timestamp. See Cached bytecode invalidation for more
+   information on how Python validates bytecode cache files at
+   runtime. The default is "timestamp" if the "SOURCE_DATE_EPOCH"
+   environment variable is not set, and "checked-hash" if the

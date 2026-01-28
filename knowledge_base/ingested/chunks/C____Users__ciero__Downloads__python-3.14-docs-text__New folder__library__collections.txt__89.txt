@@ -1,0 +1,4 @@
+Added in version 3.1.
+In addition to the above, deques support iteration, pickling,
+"len(d)", "reversed(d)", "copy.copy(d)", "copy.deepcopy(d)",
+membership testing with the "in" operator, and subscript references

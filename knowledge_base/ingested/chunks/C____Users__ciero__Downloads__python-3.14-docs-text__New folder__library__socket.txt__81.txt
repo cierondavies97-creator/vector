@@ -1,0 +1,6 @@
+Availability: Linux >= 2.6.25.
+   Added in version 3.7.
+socket.CAN_J1939
+   CAN_J1939, in the CAN protocol family, is the SAE J1939 protocol.
+   J1939 constants, documented in the Linux documentation.
+   Availability: Linux >= 5.4.

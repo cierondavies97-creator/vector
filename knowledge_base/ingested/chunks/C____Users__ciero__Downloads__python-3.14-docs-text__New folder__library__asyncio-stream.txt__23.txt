@@ -1,0 +1,4 @@
+If *n* is not provided or set to "-1", read until EOF, then
+      return all read "bytes". If EOF was received and the internal
+      buffer is empty, return an empty "bytes" object.
+      If *n* is "0", return an empty "bytes" object immediately.

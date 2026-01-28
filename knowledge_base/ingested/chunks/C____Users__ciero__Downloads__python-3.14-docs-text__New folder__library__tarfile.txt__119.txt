@@ -1,0 +1,4 @@
+its type. It does *not* contain the file's data itself.
+"TarInfo" objects are returned by "TarFile"'s methods "getmember()",
+"getmembers()" and "gettarinfo()".
+Modifying the objects returned by "getmember()" or "getmembers()" will

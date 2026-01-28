@@ -1,0 +1,5 @@
+print(combined['user'])
+Example patterns for using the "ChainMap" class to simulate nested
+contexts:
+   c = ChainMap()        # Create root context
+   d = c.new_child()     # Create nested child context

@@ -1,0 +1,4 @@
+single argument being the data as "bytes".
+         * **blocksize** (*int*) -- The maximum chunk size to read on
+           the low-level "socket" object created to do the actual
+           transfer. This also corresponds to the largest size of data

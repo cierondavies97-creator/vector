@@ -1,0 +1,4 @@
+zone path by specifying the compile-time option "TZPATH" (or, more
+likely, the "configure flag --with-tzpath"), which should be a string
+delimited by "os.pathsep".
+On all platforms, the configured value is available as the "TZPATH"

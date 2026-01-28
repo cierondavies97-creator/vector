@@ -1,0 +1,4 @@
+new connections.  If *address* is "None" then an arbitrary one is
+   chosen.
+   *authkey* is the authentication key which will be used to check the
+   validity of incoming connections to the server process.  If

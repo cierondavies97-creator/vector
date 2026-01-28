@@ -1,0 +1,6 @@
+>>> pprint.pprint(conn.recv(1024).split(b"\r\n"))
+   [b'HTTP/1.1 200 OK',
+    b'Date: Sat, 18 Oct 2014 18:27:20 GMT',
+    b'Server: nginx',
+    b'Content-Type: text/html; charset=utf-8',
+    b'X-Frame-Options: SAMEORIGIN',

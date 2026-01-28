@@ -1,0 +1,4 @@
+Opens the provided file with mode "'rb'". This function should be
+   used when the intent is to treat the contents as executable code.
+   *path* should be a "str" and an absolute path.
+   The behavior of this function may be overridden by an earlier call

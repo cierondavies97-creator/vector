@@ -1,0 +1,4 @@
+also call "Executor.shutdown()" to ensure that all other
+      resources associated with the executor are freed.
+      After calling this method the caller should no longer submit
+      tasks to the executor.

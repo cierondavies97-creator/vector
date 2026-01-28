@@ -1,0 +1,4 @@
+wait for the completion of a specific child process and have more
+     options. "waitpid()" is the only one also available on Windows.
+os.waitid(idtype, id, options, /)
+   Wait for the completion of a child process.

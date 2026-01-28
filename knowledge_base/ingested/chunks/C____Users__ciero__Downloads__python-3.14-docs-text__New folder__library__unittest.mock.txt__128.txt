@@ -1,0 +1,4 @@
+function returns a new "AsyncMock" object.
+   Setting the *spec* of a "Mock" or "MagicMock" to an async function
+   will result in a coroutine object being returned after calling.
+   >>> async def async_func(): pass

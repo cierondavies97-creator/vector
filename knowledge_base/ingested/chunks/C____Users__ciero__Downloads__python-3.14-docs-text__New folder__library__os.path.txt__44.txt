@@ -1,0 +1,4 @@
+or dot; those that contain colons (i.e. file streams such as
+   "name:stream"), wildcard characters (i.e. "'*?"<>'"), pipe, or
+   ASCII control characters; as well as DOS device names such as
+   "NUL", "CON", "CONIN$", "CONOUT$", "AUX", "PRN", "COM1", and

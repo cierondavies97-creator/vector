@@ -1,0 +1,5 @@
+headers and the first boundary.  See "email.parser" and
+      "email.generator" for details.
+      Note that if the message object has no preamble, the *preamble*
+      attribute will be "None".
+   epilogue

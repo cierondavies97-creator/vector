@@ -1,0 +1,5 @@
+module is not available. In earlier versions, "NotImplementedError"
+   was raised.
+   Changed in version 3.13: The *follow_symlinks* parameter was added.
+Path.chmod(mode, *, follow_symlinks=True)
+   Change the file mode and permissions, like "os.chmod()".

@@ -1,0 +1,4 @@
+reclaimed after their reference counts drop to zero.
+   * The names in the module namespace are updated to point to any new
+     or changed objects.
+   * Other references to the old objects (such as names external to

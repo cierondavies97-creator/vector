@@ -1,0 +1,3 @@
+Note that tuples are not formed by the parentheses, but rather by use
+of the comma.  The exception is the empty tuple, for which parentheses
+*are* required --- allowing unparenthesized "nothing" in expressions

@@ -1,0 +1,5 @@
+have a naive "datetime" representing UTC, use
+     "datetime.replace(tzinfo=timezone.utc)" to make it aware, at
+     which point you can use "datetime.timetuple()".
+datetime.toordinal()
+   Return the proleptic Gregorian ordinal of the date. The same as

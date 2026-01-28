@@ -1,0 +1,7 @@
+isn't present in the headers.
+   keys()
+      Return a list of all the message's header field names.
+   values()
+      Return a list of all the message's field values.
+   items()
+      Return a list of 2-tuples containing all the message's field

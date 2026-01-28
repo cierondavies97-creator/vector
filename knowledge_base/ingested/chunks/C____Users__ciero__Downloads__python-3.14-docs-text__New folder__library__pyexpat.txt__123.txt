@@ -1,0 +1,4 @@
+it declared itself to be in the XML declaration, and the
+   "NotStandaloneHandler" was set and returned "0".
+xml.parsers.expat.errors.XML_ERROR_UNEXPECTED_STATE
+xml.parsers.expat.errors.XML_ERROR_ENTITY_DECLARED_IN_PE

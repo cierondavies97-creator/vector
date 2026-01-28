@@ -1,0 +1,4 @@
+the "dst()" method: "tzinfo" is "None" or "dst()" returns "None",
+   "tm_isdst" is set to "-1"; else if "dst()" returns a non-zero
+   value, "tm_isdst" is set to 1; else "tm_isdst" is set to 0.
+datetime.utctimetuple()

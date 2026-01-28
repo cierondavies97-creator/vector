@@ -1,0 +1,4 @@
+*methodresponse* is true. *params* can be either a tuple of
+   arguments or an instance of the "Fault" exception class.  If
+   *methodresponse* is true, only a single value can be returned,
+   meaning that *params* must be of length 1. *encoding*, if supplied,

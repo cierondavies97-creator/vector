@@ -1,0 +1,3 @@
+"st_gid", "st_size", "st_atime", "st_mtime", "st_ctime". More items
+   may be added at the end by some implementations. For compatibility
+   with older Python versions, accessing "stat_result" as a tuple

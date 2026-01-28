@@ -1,0 +1,4 @@
+sort data or that count occurrences.  The functions affected are
+"median()", "median_low()", "median_high()", "median_grouped()",
+"mode()", "multimode()", and "quantiles()".  The "NaN" values should
+be stripped before calling these functions:

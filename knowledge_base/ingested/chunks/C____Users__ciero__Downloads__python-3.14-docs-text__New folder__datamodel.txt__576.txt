@@ -1,0 +1,3 @@
+to losslessly convert the numeric object to an integer object (such
+   as in slicing, or in the built-in "bin()", "hex()" and "oct()"
+   functions). Presence of this method indicates that the numeric

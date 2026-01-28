@@ -1,0 +1,3 @@
+class urllib.request.AbstractDigestAuthHandler(password_mgr=None)
+   This is a mixin class that helps with HTTP authentication, both to
+   the remote host and to a proxy. *password_mgr*, if given, should be

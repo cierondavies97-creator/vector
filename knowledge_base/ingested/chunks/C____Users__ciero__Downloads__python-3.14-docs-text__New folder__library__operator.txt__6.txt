@@ -1,0 +1,4 @@
+can return any value, which may or may not be interpretable as a
+   Boolean value.  See Comparisons for more information about rich
+   comparisons.
+The logical operations are also generally applicable to all objects,

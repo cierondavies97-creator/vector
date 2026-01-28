@@ -1,0 +1,5 @@
+* "Return" while the cursor is on any previous statement appends the
+  latter to anything already typed at the prompt.
+Text colors
+-----------
+Idle defaults to black on white text, but colors text with special

@@ -1,0 +1,4 @@
+*offset* tells from where to start reading the file. If specified,
+   *count* is the total number of bytes to transmit as opposed to
+   sending the file until EOF is reached. File position is always
+   updated, even when this method raises an error, and "file.tell()"

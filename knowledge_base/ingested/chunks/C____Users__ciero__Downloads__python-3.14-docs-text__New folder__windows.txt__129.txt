@@ -1,0 +1,3 @@
+When the MSIX is installed, but commands are not available in the
+"PATH" environment variable, they can be found under "%LocalAppData%\
+Microsoft\WindowsApps\PythonSoftwareFoundation.PythonManager_3847v3x7

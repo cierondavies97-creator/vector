@@ -1,0 +1,4 @@
+which is a sequence object used as a data source.
+If a derived class does not wish to comply with this requirement, all
+of the special methods supported by this class will need to be
+overridden; please consult the sources for information about the

@@ -1,0 +1,4 @@
+movement is not possible.  The following synonyms are supported
+      where possible:
+      +----------------------------------+--------------------+
+      | Constant                         | Keystroke          |

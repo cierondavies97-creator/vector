@@ -1,0 +1,4 @@
+Open *url*.  If open fails, raises "TestFailed".
+test.support.reap_children()
+   Use this at the end of "test_main" whenever sub-processes are
+   started. This will help ensure that no extra children (zombies)

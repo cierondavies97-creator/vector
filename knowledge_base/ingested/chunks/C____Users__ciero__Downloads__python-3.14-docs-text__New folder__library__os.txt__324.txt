@@ -1,0 +1,3 @@
+Changed in version 3.4.1: Before Python 3.4.1, if *exist_ok* was
+   "True" and the directory existed, "makedirs()" would still raise an
+   error if *mode* did not match the mode of the existing directory.

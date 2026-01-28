@@ -1,0 +1,5 @@
+"decompress()" function instead.
+   Note:
+     This class does not transparently handle inputs containing
+     multiple compressed streams, unlike "decompress()" and "BZ2File".
+     If you need to decompress a multi-stream input with

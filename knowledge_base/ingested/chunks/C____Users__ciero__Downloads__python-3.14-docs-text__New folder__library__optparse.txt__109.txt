@@ -1,0 +1,4 @@
+FILE" and the informal semantic description "write output to FILE".
+  This is a simple but effective way to make your help text a lot
+  clearer and more useful for end users.
+* options that have a default value can include "%default" in the help

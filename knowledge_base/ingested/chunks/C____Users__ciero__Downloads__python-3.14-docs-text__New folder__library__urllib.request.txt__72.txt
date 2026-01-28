@@ -1,0 +1,4 @@
+class urllib.request.HTTPBasicAuthHandler(password_mgr=None)
+   Handle authentication with the remote host. *password_mgr*, if
+   given, should be something that is compatible with
+   "HTTPPasswordMgr"; refer to section HTTPPasswordMgr Objects for

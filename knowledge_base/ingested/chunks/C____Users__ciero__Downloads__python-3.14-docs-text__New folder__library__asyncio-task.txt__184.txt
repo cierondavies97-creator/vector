@@ -1,0 +1,3 @@
+to return; by default all available frames are returned. The
+      ordering of the returned list differs depending on whether a
+      stack or a traceback is returned: the newest frames of a stack

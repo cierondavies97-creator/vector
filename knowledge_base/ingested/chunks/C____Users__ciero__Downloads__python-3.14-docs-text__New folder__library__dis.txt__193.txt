@@ -1,0 +1,4 @@
+default one byte. *ext* holds an additional byte which act as
+   higher bits in the argument. For each opcode, at most three
+   prefixal "EXTENDED_ARG" are allowed, forming an argument from two-
+   byte to four-byte.

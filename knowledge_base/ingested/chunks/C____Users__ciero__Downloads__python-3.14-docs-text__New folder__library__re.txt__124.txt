@@ -1,0 +1,3 @@
+ASCII letters and 4 additional non-ASCII letters: 'İ' (U+0130,
+   Latin capital letter I with dot above), 'ı' (U+0131, Latin small
+   letter dotless i), 'ſ' (U+017F, Latin small letter long s) and 'K'

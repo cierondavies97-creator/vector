@@ -1,0 +1,3 @@
+iterable object is passed as an argument to the built-in function
+   "iter()", it returns an iterator for the object.  This iterator is
+   good for one pass over the set of values.  When using iterables, it

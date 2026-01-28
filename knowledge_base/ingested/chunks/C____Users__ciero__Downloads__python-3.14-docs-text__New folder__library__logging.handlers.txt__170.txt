@@ -1,0 +1,5 @@
+============
+Added in version 3.2.
+The "QueueHandler" class, located in the "logging.handlers" module,
+supports sending logging messages to a queue, such as those
+implemented in the "queue" or "multiprocessing" modules.

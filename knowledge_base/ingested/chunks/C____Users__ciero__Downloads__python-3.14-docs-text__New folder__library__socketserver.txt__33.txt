@@ -1,0 +1,4 @@
+the request data.  This can be implemented by using a synchronous
+server and doing an explicit fork in the request handler class
+"handle()" method.
+Another approach to handling multiple simultaneous requests in an

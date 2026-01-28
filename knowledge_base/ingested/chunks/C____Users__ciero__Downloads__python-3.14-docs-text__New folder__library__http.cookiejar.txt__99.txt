@@ -1,0 +1,6 @@
+cookie, or "None".
+Cookie.comment_url
+   URL linking to a comment from the server explaining the function of
+   this cookie, or "None".
+Cookie.rfc2109
+   "True" if this cookie was received as an **RFC 2109** cookie (ie.

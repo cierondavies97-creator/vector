@@ -1,0 +1,4 @@
+ordered dictionary of headers with additional methods for accessing
+both specialized information from the headers, for accessing the
+payload, for generating a serialized version of the message, and for
+recursively walking over the object tree.  Note that duplicate headers

@@ -1,0 +1,3 @@
+"__main__" is the name of the environment where top-level code is run.
+"Top-level code" is the first user-specified Python module that starts
+running. It's "top-level" because it imports all other modules that

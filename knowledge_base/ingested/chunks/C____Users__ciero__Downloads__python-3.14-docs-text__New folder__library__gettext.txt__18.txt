@@ -1,0 +1,4 @@
+"gettext" defines a "GNUTranslations" class which implements the
+parsing of GNU ".mo" format files, and has methods for returning
+strings. Instances of this class can also install themselves in the
+built-in namespace as the function "_()".

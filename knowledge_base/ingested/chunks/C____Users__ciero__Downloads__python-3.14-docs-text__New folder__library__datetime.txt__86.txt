@@ -1,0 +1,5 @@
+>>> date_string = "02/29"
+        >>> when = date.strptime(f"{date_string};1984", "%m/%d;%Y")  # Avoids leap year bug.
+        >>> when.strftime("%B %d")
+        'February 29'
+   Added in version 3.14.

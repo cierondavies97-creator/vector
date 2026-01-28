@@ -1,0 +1,4 @@
+newly created exception class; this is intentional!  Since the
+exception could be removed from the module by external code, an owned
+reference to the class is needed to ensure that it will not be
+discarded, causing "SpamError" to become a dangling pointer. Should it

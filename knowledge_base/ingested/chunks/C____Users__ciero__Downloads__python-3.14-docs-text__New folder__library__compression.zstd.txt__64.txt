@@ -1,0 +1,5 @@
+Zstandard dictionaries
+======================
+compression.zstd.train_dict(samples, dict_size)
+   Train a Zstandard dictionary, returning a "ZstdDict" instance.
+   Zstandard dictionaries enable more efficient compression of smaller

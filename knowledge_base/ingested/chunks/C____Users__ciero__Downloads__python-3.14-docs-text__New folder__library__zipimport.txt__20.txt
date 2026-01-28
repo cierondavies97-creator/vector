@@ -1,0 +1,6 @@
+invalidate_caches()
+      Clear out the internal cache of information about files found
+      within the ZIP archive.
+      Added in version 3.10.
+   archive
+      The file name of the importer's associated ZIP file, without a

@@ -1,0 +1,9 @@
+Examples
+========
+Display the top 10
+------------------
+Display the 10 files allocating the most memory:
+   import tracemalloc
+   tracemalloc.start()
+   # ... run your application ...
+   snapshot = tracemalloc.take_snapshot()

@@ -1,0 +1,4 @@
+"DEFAULT", the return value of this function is used as the
+     return value.
+     Alternatively *side_effect* can be an exception class or
+     instance. In this case the exception will be raised when the mock

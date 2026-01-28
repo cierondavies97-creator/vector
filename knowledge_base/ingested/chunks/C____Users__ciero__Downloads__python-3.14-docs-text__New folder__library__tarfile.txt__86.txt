@@ -1,0 +1,3 @@
+directory or directory *path*. If optional *members* is given, it
+   must be a subset of the list returned by "getmembers()". Directory
+   information like owner, modification time and permissions are set

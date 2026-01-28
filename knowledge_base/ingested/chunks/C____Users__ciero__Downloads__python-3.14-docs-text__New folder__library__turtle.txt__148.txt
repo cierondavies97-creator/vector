@@ -1,0 +1,3 @@
+Return or set the pen's attributes x/y-stretchfactors and/or
+   outline.  Set resizemode to "user".  If and only if resizemode is
+   set to "user", the turtle will be displayed stretched according to

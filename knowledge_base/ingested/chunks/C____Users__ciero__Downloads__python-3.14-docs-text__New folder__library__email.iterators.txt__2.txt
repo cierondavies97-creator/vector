@@ -1,0 +1,3 @@
+returning the string payloads line-by-line.  It skips over all the
+   subpart headers, and it skips over any subpart with a payload that
+   isn't a Python string.  This is somewhat equivalent to reading the

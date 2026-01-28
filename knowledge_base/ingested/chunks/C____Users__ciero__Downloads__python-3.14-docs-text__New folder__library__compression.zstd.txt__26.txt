@@ -1,0 +1,6 @@
+passing a file object for *file*).
+   mode
+      "'rb'" for reading and "'wb'" for writing.
+   name
+      The name of the Zstandard file. Equivalent to the "name"
+      attribute of the underlying *file object*.

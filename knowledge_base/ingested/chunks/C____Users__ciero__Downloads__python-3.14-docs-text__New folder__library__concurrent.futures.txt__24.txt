@@ -1,0 +1,8 @@
+return 6
+   executor = ThreadPoolExecutor(max_workers=2)
+   a = executor.submit(wait_on_b)
+   b = executor.submit(wait_on_a)
+And:
+   def wait_on_future():
+       f = executor.submit(pow, 5, 2)
+       # This will never complete because there is only one worker thread and

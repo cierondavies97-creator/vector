@@ -1,0 +1,7 @@
+time.sleep(3)
+      print(getrusage(RUSAGE_SELF))
+      # a CPU-bound task
+      for i in range(10 ** 8):
+         _ = 1 + 1
+      print(getrusage(RUSAGE_SELF))
+   The fields of the return value each describe how a particular

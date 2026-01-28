@@ -1,0 +1,4 @@
+or making network requests, where much of the time is spent waiting
+for external resources.
+A typical use case for "threading" includes managing a pool of worker
+threads that can process multiple tasks concurrently.  Here's a basic

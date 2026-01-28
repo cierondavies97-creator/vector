@@ -1,0 +1,3 @@
+| wrap                   | Boolean value.  If "True", increment and decrement     |
+|                        | buttons will cycle from the "to" value to the "from"   |
+|                        | value or the "from" value to the "to" value,           |

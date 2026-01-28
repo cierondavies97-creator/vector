@@ -1,0 +1,7 @@
+arguments.
+      >>> mock = AsyncMock()
+      >>> async def main(*args, **kwargs):
+      ...     await mock(*args, **kwargs)
+      ...
+      >>> asyncio.run(main('foo', bar='bar'))
+      >>> asyncio.run(main('hello'))

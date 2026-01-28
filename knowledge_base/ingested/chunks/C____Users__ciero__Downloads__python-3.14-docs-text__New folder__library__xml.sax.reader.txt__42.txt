@@ -1,0 +1,6 @@
+Return the names of the attributes.
+Attributes.getType(name)
+   Returns the type of the attribute *name*, which is normally
+   "'CDATA'".
+Attributes.getValue(name)
+   Return the value of attribute *name*.

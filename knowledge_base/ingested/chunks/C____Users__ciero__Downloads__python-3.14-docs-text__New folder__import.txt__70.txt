@@ -1,0 +1,4 @@
+not be the one returned at the end of import [2].
+Changed in version 3.4: The import system has taken over the
+boilerplate responsibilities of loaders.  These were previously
+performed by the "importlib.abc.Loader.load_module()" method.

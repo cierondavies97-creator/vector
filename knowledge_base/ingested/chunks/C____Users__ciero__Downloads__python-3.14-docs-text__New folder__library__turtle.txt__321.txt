@@ -1,0 +1,2 @@
+| "nim"                    | play the classical nim game    | turtles as nimsticks, event driven     |
+|                          | with three heaps of sticks     | (mouse, keyboard)                      |

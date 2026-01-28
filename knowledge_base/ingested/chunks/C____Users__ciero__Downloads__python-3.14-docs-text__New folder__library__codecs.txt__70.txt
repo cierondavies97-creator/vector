@@ -1,0 +1,3 @@
+a different exception, or return a tuple with a replacement for the
+   unencodable part of the input and a position where encoding should
+   continue. The replacement may be either "str" or "bytes". If the

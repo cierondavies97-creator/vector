@@ -1,0 +1,4 @@
+class mailbox.Mailbox
+   A mailbox, which may be inspected and modified.
+   The "Mailbox" class defines an interface and is not intended to be
+   instantiated.  Instead, format-specific subclasses should inherit

@@ -1,0 +1,11 @@
+Drawing state
+~~~~~~~~~~~~~
+turtle.pendown()
+turtle.pd()
+turtle.down()
+   Pull the pen down -- drawing when moving.
+turtle.penup()
+turtle.pu()
+turtle.up()
+   Pull the pen up -- no drawing when moving.
+turtle.pensize(width=None)

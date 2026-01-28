@@ -1,0 +1,4 @@
+Arguments that are read from a file (see the
+   *fromfile_prefix_chars* keyword argument to the "ArgumentParser"
+   constructor) are read one argument per line.
+   "convert_arg_line_to_args()" can be overridden for fancier reading.

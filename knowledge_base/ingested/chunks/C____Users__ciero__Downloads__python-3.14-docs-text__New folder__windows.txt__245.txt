@@ -1,0 +1,5 @@
+locations as there is an opportunity to specify the search path before
+launching the application.
+4.2.2. Embedding Python
+-----------------------
+Applications written in native code often require some form of

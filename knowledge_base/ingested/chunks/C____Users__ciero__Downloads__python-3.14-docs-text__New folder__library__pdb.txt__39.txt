@@ -1,0 +1,5 @@
+source code displayed in pdb.
+   Example call to enable tracing with *skip*:
+      import pdb; pdb.Pdb(skip=['django.*']).set_trace()
+   Raises an auditing event "pdb.Pdb" with no arguments.
+   Changed in version 3.1: Added the *skip* parameter.

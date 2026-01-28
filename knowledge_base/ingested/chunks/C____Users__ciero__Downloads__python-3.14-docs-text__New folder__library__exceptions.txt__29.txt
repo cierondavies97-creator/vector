@@ -1,0 +1,6 @@
+"KeyError".  This can be raised directly by "codecs.lookup()".
+Concrete exceptions
+===================
+The following exceptions are the exceptions that are usually raised.
+exception AssertionError
+   Raised when an "assert" statement fails.

@@ -1,0 +1,4 @@
+maxDiff
+      This attribute controls the maximum length of diffs output by
+      assert methods that report diffs on failure. It defaults to 80*8
+      characters. Assert methods affected by this attribute are

@@ -1,0 +1,6 @@
+inquiry tp_clear;
+       /* Assigned meaning in release 2.1 */
+       /* rich comparisons */
+       richcmpfunc tp_richcompare;
+       /* weak reference enabler */
+       Py_ssize_t tp_weaklistoffset;

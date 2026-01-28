@@ -1,0 +1,5 @@
+types (in particular, on Unix, it works on pipes). It cannot be used
+on regular files to determine whether a file has grown since it was
+last read.
+Note:
+  The "selectors" module allows high-level and efficient I/O

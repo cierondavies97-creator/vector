@@ -1,0 +1,4 @@
+unhandled "StopIteration" exceptions.
+Coroutines also have the methods listed below, which are analogous to
+those of generators (see Generator-iterator methods).  However, unlike
+generators, coroutines do not directly support iteration.

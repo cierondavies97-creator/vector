@@ -1,0 +1,4 @@
+-[ Footnotes ]-
+[1] The name of this module stems from a bit of terminology used by
+    the designers of Modula-3 (amongst others), who use the term
+    "marshalling" for shipping of data around in a self-contained

@@ -1,0 +1,5 @@
+IPv4, this is only "240.0.0.0/4", the "Reserved" address block.
+      For IPv6, this is all addresses allocated as "Reserved by IETF"
+      for future use.
+      Note:
+        For IPv4, "is_reserved" is not related to the address block

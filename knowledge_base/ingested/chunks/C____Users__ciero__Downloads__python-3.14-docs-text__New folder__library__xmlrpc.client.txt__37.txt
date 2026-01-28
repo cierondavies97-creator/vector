@@ -1,0 +1,4 @@
+procedure call accepted by the XML-RPC server.  Calling the method
+performs an RPC, dispatched by both name and argument signature (e.g.
+the same method name can be overloaded with multiple argument
+signatures).  The RPC finishes by returning a value, which may be

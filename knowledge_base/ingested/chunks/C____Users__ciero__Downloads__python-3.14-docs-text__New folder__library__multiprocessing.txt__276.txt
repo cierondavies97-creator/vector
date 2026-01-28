@@ -1,0 +1,4 @@
+multiprocessing.sharedctypes.copy(obj)
+   Return a ctypes object allocated from shared memory which is a copy
+   of the ctypes object *obj*.
+multiprocessing.sharedctypes.synchronized(obj, lock=None, ctx=None)

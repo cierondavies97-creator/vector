@@ -1,0 +1,4 @@
+flat text representation of the message from a file using
+   "readline()", skipping over all the intervening headers.
+   Optional *decode* is passed through to "Message.get_payload".
+email.iterators.typed_subpart_iterator(msg, maintype='text', subtype=None)

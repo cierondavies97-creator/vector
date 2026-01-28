@@ -1,0 +1,4 @@
+managing its appearance (including size and title) and behaviour.
+"TurtleScreen"'s constructor needs a "tkinter.Canvas" or a
+"ScrolledCanvas" as an argument.
+The functional interface for turtle graphics uses the various methods

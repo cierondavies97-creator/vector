@@ -1,0 +1,4 @@
+function. For functions that involve two file system paths (such
+      as "os.rename()"), "filename2" corresponds to the second file
+      name passed to the function.
+   Changed in version 3.3: "EnvironmentError", "IOError",

@@ -1,0 +1,4 @@
+"ExceptionGroup".
+      "subgroup()" and "split()" copy the "__traceback__",
+      "__cause__", "__context__" and "__notes__" fields from the
+      original exception group to the one returned by "derive()", so

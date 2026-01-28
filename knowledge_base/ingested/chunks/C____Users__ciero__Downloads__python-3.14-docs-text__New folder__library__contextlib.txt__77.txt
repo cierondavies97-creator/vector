@@ -1,0 +1,4 @@
+enter_context(cm)
+      Enters a new context manager and adds its "__exit__()" method to
+      the callback stack. The return value is the result of the
+      context manager's own "__enter__()" method.

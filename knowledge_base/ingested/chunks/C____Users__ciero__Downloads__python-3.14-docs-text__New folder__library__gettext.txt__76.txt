@@ -1,0 +1,4 @@
+that are message catalogs.  They are structured human-readable files
+that contain every marked string in the source code, along with a
+placeholder for the translated versions of these strings.
+Copies of these ".po" files are then handed over to the individual

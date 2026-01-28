@@ -1,0 +1,4 @@
+"fileno()", "lineno()", "filelineno()", "isfirstline()",
+   "isstdin()", "nextfile()" and "close()" correspond to the functions
+   of the same name in the module. In addition it is *iterable* and
+   has a "readline()" method which returns the next input line. The

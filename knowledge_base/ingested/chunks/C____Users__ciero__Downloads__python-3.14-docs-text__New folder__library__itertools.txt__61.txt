@@ -1,0 +1,4 @@
+once.
+   The output is a subsequence of "product()" that keeps only entries
+   that are subsequences (with possible repeated elements) of the
+   *iterable*.  The number of subsequence returned is "(n + r - 1)! /

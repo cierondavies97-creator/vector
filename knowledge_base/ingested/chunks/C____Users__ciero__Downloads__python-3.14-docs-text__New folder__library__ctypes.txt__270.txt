@@ -1,0 +1,5 @@
+ctypes instance).  This allows defining adapters that can adapt
+      custom objects as function parameters.
+   errcheck
+      Assign a Python function or another callable to this attribute.
+      The callable will be called with three or more arguments:

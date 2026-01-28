@@ -1,0 +1,4 @@
+Changed in version 3.6: Shared objects are capable of being nested.
+   For example, a shared container object such as a shared list can
+   contain other shared objects which will all be managed and
+   synchronized by the "SyncManager".

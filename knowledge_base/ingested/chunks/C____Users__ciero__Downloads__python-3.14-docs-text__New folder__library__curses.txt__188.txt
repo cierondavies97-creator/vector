@@ -1,0 +1,4 @@
+read is used, and "getch()" will return "-1" if no input is
+   waiting.  If *delay* is positive, then "getch()" will block for
+   *delay* milliseconds, and return "-1" if there is still no input at
+   the end of that time.

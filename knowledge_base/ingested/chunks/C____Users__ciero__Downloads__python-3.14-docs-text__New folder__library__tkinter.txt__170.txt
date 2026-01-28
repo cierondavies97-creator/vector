@@ -1,0 +1,4 @@
+a file or socket object), or an integer file descriptor. The *mask*
+   argument is an ORed combination of any of the three constants
+   below. The callback is called as follows:
+      callback(file, mask)

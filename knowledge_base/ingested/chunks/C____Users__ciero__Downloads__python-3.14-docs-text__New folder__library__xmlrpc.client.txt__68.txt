@@ -1,0 +1,5 @@
+headers
+      A dict containing the headers of the HTTP/HTTPS request that
+      triggered the error.
+In the following example we're going to intentionally cause a
+"ProtocolError" by providing an invalid URI:

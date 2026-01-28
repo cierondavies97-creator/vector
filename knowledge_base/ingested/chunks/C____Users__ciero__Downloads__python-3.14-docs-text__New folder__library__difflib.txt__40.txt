@@ -1,0 +1,6 @@
+[]
+   >>> get_close_matches('accept', keyword.kwlist)
+   ['except']
+difflib.ndiff(a, b, linejunk=None, charjunk=IS_CHARACTER_JUNK)
+   Compare *a* and *b* (lists of strings); return a "Differ"-style
+   delta (a *generator* generating the delta lines).

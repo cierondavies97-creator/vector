@@ -1,0 +1,4 @@
+by "PYTHONBREAKPOINT", a "RuntimeWarning" is reported and the
+   breakpoint is ignored.
+   Also note that if "sys.breakpointhook()" is overridden
+   programmatically, "PYTHONBREAKPOINT" is *not* consulted.

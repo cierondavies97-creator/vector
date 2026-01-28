@@ -1,0 +1,4 @@
+A path configuration file is a file whose name has the form
+"*name*.pth" and exists in one of the four directories mentioned
+above; its contents are additional items (one per line) to be added to
+"sys.path".  Non-existing items are never added to "sys.path", and no

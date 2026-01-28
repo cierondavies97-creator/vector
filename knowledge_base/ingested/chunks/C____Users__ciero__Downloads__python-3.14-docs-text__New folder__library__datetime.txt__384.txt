@@ -1,0 +1,6 @@
+Changed in version 3.6: Name generated from "offset=timedelta(0)"
+   is now plain "'UTC'", not "'UTC+00:00'".
+timezone.dst(dt)
+   Always returns "None".
+timezone.fromutc(dt)
+   Return "dt + offset". The *dt* argument must be an aware "datetime"

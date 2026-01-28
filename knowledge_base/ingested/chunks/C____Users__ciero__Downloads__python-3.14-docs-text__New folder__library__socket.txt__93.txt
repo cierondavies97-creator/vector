@@ -1,0 +1,8 @@
+Added in version 3.14.
+socket.SOL_RFCOMM
+socket.SOL_L2CAP
+socket.SOL_HCI
+socket.SOL_SCO
+socket.SOL_BLUETOOTH
+   Used in the level argument to the "setsockopt()" and "getsockopt()"
+   methods of Bluetooth socket objects.

@@ -1,0 +1,6 @@
+statement.  See **PEP 343**.
+context manager
+   An object which implements the *context management protocol* and
+   controls the environment seen in a "with" statement.  See **PEP
+   343**.
+context variable

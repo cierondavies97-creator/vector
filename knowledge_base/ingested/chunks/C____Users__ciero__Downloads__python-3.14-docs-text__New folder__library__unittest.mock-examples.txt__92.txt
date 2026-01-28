@@ -1,0 +1,4 @@
+object. It is the generator object that is then iterated over. The
+protocol method for iteration is "__iter__()", so we can mock this
+using a "MagicMock".
+Here's an example class with an "iter" method implemented as a

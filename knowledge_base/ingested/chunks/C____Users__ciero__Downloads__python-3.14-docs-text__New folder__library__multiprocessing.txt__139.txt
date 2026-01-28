@@ -1,0 +1,4 @@
+Global start method for more details.
+   The usual "queue.Empty" and "queue.Full" exceptions from the
+   standard library's "queue" module are raised to signal timeouts.
+   "Queue" implements all the methods of "queue.Queue" except for

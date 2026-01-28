@@ -1,0 +1,6 @@
+return t[5]
+              ~^^^
+       t = ("bright", "side", "of", "life")
+   IndexError: tuple index out of range
+   >>> # The *chain* kwarg to print() controls whether chained
+   >>> # exceptions are displayed

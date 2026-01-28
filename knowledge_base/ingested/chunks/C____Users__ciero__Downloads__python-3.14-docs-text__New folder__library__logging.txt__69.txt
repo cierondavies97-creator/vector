@@ -1,0 +1,5 @@
+error(msg, *args, **kwargs)
+      Logs a message with level "ERROR" on this logger. The arguments
+      are interpreted as for "debug()".
+   critical(msg, *args, **kwargs)
+      Logs a message with level "CRITICAL" on this logger. The

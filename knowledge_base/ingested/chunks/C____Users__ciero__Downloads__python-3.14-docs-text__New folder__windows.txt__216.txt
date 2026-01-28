@@ -1,0 +1,2 @@
+|                                                    | path to add to "PATH". These scripts are separated |
+|                                                    | for each runtime, and so you may need to add       |

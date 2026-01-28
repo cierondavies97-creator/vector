@@ -1,0 +1,4 @@
+generated and transmitted if not provided in the headers argument.
+HTTPConnection.get_proxy_response_headers()
+   Returns a dictionary with the headers of the response received from
+   the proxy server to the CONNECT request.

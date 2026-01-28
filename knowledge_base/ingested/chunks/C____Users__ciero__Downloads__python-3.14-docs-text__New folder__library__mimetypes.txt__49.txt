@@ -1,0 +1,5 @@
+output stream. If an unknown type occurs, it writes an error message
+into the standard error stream and exits with the return code "1".
+Command-line example
+====================
+Here are some examples of typical usage of the "mimetypes" command-

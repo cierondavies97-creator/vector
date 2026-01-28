@@ -1,0 +1,4 @@
+otherwise, "object.__annotations__" is used and stringified using
+     "annotations_to_string()".
+     * When calling "object.__annotate__" it is first called with
+       "STRING". If this is not implemented, it will then check if

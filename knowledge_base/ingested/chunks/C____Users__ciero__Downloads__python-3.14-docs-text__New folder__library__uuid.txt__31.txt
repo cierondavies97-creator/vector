@@ -1,0 +1,5 @@
+UUID.urn
+   The UUID as a URN as specified in **RFC 9562**.
+UUID.variant
+   The UUID variant, which determines the internal layout of the UUID.
+   This will be one of the constants "RESERVED_NCS", "RFC_4122",

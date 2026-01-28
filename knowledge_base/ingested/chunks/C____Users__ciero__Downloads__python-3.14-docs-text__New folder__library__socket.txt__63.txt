@@ -1,0 +1,6 @@
+possible race conditions and the need for separate calls).
+   See also:
+     Secure File Descriptor Handling for a more thorough explanation.
+   Availability: Linux >= 2.6.27.
+   Added in version 3.2.
+SO_*

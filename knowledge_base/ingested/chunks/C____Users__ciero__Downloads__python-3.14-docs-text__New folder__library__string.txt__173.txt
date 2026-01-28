@@ -1,0 +1,4 @@
+and outside braces). If given, this allows you to define different
+  patterns for braced and unbraced placeholders.
+  Added in version 3.7.
+* *flags* -- The regular expression flags that will be applied when

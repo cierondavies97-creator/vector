@@ -1,0 +1,3 @@
+assignments ("+=", "-=", "*=", "@=", "/=", "//=", "%=", "**=",
+   "<<=", ">>=", "&=", "^=", "|=").  These methods should attempt to
+   do the operation in-place (modifying *self*) and return the result

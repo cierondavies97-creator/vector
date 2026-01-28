@@ -1,0 +1,3 @@
+The keyword-only *filter* argument is passed to the underlying
+   unpacking function. For zip files, *filter* is not accepted. For
+   tar files, it is recommended to use "'data'" (default since Python

@@ -1,0 +1,4 @@
+change affects other threads.
+   Changed in version 3.7: When formatting a number with the "n" type,
+   the function sets temporarily the "LC_CTYPE" locale to the
+   "LC_NUMERIC" locale in some cases.

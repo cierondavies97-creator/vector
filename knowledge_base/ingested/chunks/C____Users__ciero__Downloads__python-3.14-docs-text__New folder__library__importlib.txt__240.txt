@@ -1,0 +1,3 @@
+*importer*. This means managing both the *finder* and *loader* side of
+things. For finders there are two flavours to choose from depending on
+your needs: a *meta path finder* or a *path entry finder*. The former

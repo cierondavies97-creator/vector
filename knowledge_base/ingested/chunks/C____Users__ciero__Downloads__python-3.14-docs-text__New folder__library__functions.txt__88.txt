@@ -1,0 +1,4 @@
+"__next__()" method of the iterator returned by "enumerate()"
+   returns a tuple containing a count (from *start* which defaults to
+   0) and the values obtained from iterating over *iterable*.
+   >>> seasons = ['Spring', 'Summer', 'Fall', 'Winter']

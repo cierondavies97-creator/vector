@@ -1,0 +1,3 @@
+invalid_class_def_raw:
+       | 'class' NAME [type_params] ['(' [arguments] ')'] NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }
+       | a='class' NAME [type_params] ['(' [arguments] ')'] ':' NEWLINE !INDENT {

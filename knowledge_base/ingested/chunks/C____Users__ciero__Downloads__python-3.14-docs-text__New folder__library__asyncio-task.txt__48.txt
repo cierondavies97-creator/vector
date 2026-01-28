@@ -1,0 +1,4 @@
+resulting "asyncio.CancelledError" will interrupt an "await", but it
+will not bubble out of the containing "async with" statement.
+Once all tasks have finished, if any tasks have failed with an
+exception other than "asyncio.CancelledError", those exceptions are

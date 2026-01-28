@@ -1,0 +1,3 @@
+needing to manually decode it, "set_content" provides a rich set of
+   options for controlling the headers added to a part and controlling
+   the content transfer encoding, and it enables the use of the

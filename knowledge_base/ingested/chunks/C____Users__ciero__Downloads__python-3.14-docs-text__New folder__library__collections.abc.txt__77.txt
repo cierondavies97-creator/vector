@@ -1,0 +1,5 @@
+parameters correspond to those of "Generator".
+   Added in version 3.5.
+class collections.abc.AsyncIterable
+   ABC for classes that provide an "__aiter__" method.  See also the
+   definition of *asynchronous iterable*.

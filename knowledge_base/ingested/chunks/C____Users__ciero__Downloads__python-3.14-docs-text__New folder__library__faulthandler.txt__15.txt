@@ -1,0 +1,4 @@
+The *file* must be kept open until the fault handler is disabled:
+   see issue with file descriptors.
+   If *c_stack* is "True", then the C stack trace is printed after the
+   Python traceback, unless the system does not support it. See

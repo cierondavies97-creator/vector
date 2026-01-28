@@ -1,0 +1,4 @@
+* Most other built-in types have no comparison methods implemented, so
+  they inherit the default comparison behavior.
+User-defined classes that customize their comparison behavior should
+follow some consistency rules, if possible:

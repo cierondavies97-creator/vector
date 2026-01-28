@@ -1,0 +1,6 @@
+"string" --- Common string operations
+*************************************
+**Source code:** Lib/string/__init__.py
+======================================================================
+See also:
+  Text Sequence Type --- str

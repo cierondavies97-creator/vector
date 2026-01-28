@@ -1,0 +1,6 @@
+parent
+      For top-level classes, "None".  For nested classes, the parent.
+      Added in version 3.7.
+   children
+      A dictionary mapping names to descriptors for nested functions
+      and classes.

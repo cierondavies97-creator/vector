@@ -1,0 +1,5 @@
+Three, the package contains modules exposing additional functionality
+for managing aspects of Python packages:
+* "importlib.metadata" presents access to metadata from third-party
+  distributions.
+* "importlib.resources" provides routines for accessing non-code

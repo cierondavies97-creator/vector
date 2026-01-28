@@ -1,0 +1,4 @@
+Changed in version 3.4: Added the "__callback__" attribute.
+weakref.proxy(object[, callback])
+   Return a proxy to *object* which uses a weak reference.  This
+   supports use of the proxy in most contexts instead of requiring the

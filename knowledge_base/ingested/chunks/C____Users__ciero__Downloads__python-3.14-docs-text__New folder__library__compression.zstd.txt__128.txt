@@ -1,0 +1,5 @@
+Each increment halves/doubles the overlap size. "8" means an
+      overlap of "window_size/2", "7" means an overlap of
+      "window_size/4", etc.
+class compression.zstd.DecompressionParameter
+   An "IntEnum" containing the advanced decompression parameter keys

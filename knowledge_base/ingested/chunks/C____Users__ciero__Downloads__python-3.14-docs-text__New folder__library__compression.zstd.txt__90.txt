@@ -1,0 +1,5 @@
+Zstandard functions and following the Zstandard format.
+         "0" means a "raw content" dictionary, free of any format
+         restriction, used for advanced users.
+         Note:
+           The meaning of "0" for "ZstdDict.dict_id" is different from

@@ -1,0 +1,3 @@
+part of the same thread share a common event queue, which gets ugly
+  fast. In practice, don't create more than one instance of "Tk" at a
+  time. Otherwise, it's best to create them in separate threads and

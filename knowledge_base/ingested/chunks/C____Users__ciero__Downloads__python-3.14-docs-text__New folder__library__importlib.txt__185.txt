@@ -1,0 +1,4 @@
+containing the path to the ".fwork" file.
+   When a module is loaded with this loader, the "__file__" for the
+   module will report as the location of the ".fwork" file. This
+   allows code to use the "__file__" of a  module as an anchor for

@@ -1,0 +1,5 @@
+you use raw strings for all but the simplest expressions.
+"[]"
+   Used to indicate a set of characters.  In a set:
+   * Characters can be listed individually, e.g. "[amk]" will match
+     "'a'", "'m'", or "'k'".

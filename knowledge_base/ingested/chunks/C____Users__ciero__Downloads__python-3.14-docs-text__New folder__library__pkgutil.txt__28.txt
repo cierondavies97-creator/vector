@@ -1,0 +1,5 @@
+stands for a literal period in these pseudo-regexes:
+   * "W(.W)*"
+   * "W(.W)*:(W(.W)*)?"
+   The first form is intended for backward compatibility only. It
+   assumes that some part of the dotted name is a package, and the

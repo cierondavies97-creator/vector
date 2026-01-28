@@ -1,0 +1,4 @@
+A file change can happen because of usage of programs such as
+*newsyslog* and *logrotate* which perform log file rotation. This
+handler, intended for use under Unix/Linux, watches the file to see if
+it has changed since the last emit. (A file is deemed to have changed

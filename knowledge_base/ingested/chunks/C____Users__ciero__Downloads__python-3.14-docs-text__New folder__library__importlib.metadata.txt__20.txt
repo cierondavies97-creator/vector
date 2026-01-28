@@ -1,0 +1,4 @@
+attributes for convenience:
+   >>> sorted(eps.groups)
+   ['console_scripts', 'distutils.commands', 'distutils.setup_keywords', 'egg_info.writers', 'setuptools.installation']
+"EntryPoints" has a "select()" method to select entry points matching

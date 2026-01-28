@@ -1,0 +1,4 @@
+sent to the remote host.
+   Changed in version 3.3: Support for the "with" statement was added.
+   Changed in version 3.3: *source_address* argument was added.
+   Added in version 3.5: The SMTPUTF8 extension (**RFC 6531**) is now

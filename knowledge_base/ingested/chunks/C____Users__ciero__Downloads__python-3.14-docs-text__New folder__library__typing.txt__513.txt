@@ -1,0 +1,4 @@
+Note that to annotate arguments, it is preferred to use an abstract
+   collection type such as "collections.abc.Set" rather than to use
+   "set" or "typing.Set".
+   Deprecated since version 3.9: "builtins.set" now supports

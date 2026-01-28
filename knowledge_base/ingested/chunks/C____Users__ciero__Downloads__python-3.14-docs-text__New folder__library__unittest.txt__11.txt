@@ -1,0 +1,6 @@
+by a continuous integration system such as Buildbot, Jenkins, GitHub
+  Actions, or AppVeyor.
+Basic example
+=============
+The "unittest" module provides a rich set of tools for constructing
+and running tests.  This section demonstrates that a small subset of

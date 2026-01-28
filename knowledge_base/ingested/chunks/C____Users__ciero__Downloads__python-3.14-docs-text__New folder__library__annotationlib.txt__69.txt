@@ -1,0 +1,4 @@
+returns an empty dict.
+   * All accesses to object members and dict values are done using
+     "getattr()" and "dict.get()" for safety.
+   *eval_str* controls whether or not values of type "str" are

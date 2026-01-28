@@ -1,0 +1,3 @@
+* **fp** (*file object*) -- A file object (opened in binary
+           mode) which is read until EOF, using its "read()" method in
+           blocks of size *blocksize* to provide the data to be

@@ -1,0 +1,3 @@
+An abstract base class representing a *path entry finder*.  Though
+   it bears some similarities to "MetaPathFinder", "PathEntryFinder"
+   is meant for use only within the path-based import subsystem

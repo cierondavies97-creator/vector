@@ -1,0 +1,4 @@
+This is currently the default value of "autocommit".
+      Changing "autocommit" to "False" will open a new transaction,
+      and changing it to "True" will commit any pending transaction.
+      See Transaction control via the autocommit attribute for more

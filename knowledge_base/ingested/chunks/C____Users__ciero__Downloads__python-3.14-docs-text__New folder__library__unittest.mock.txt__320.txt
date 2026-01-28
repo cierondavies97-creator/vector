@@ -1,0 +1,3 @@
+Sometimes when testing you need to test that a specific object is
+passed as an argument to another method, or returned. It can be common
+to create named sentinel objects to test this. "sentinel" provides a

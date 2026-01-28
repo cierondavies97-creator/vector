@@ -1,0 +1,5 @@
+for element in saved:
+                  yield element
+   This itertool may require significant auxiliary storage (depending
+   on the length of the iterable).
+itertools.dropwhile(predicate, iterable)

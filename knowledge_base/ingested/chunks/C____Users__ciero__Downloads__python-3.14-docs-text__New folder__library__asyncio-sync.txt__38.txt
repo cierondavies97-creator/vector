@@ -1,0 +1,5 @@
+all of the waiting tasks would unblock simultaneously.
+   "async with" can be used as an alternative to awaiting on "wait()".
+   The barrier can be reused any number of times.
+   Example:
+      async def example_barrier():

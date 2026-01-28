@@ -1,0 +1,4 @@
+*deterministic* to "True" in "create_function()", if the underlying
+   SQLite library does not support deterministic functions.
+   "NotSupportedError" is a subclass of "DatabaseError".
+SQLite and Python types

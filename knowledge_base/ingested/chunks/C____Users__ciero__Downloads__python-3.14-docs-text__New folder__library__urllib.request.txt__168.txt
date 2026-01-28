@@ -1,0 +1,6 @@
+raised.
+DataHandler Objects
+===================
+DataHandler.data_open(req)
+   Read a data URL. This kind of URL contains the content encoded in
+   the URL itself. The data URL syntax is specified in **RFC 2397**.

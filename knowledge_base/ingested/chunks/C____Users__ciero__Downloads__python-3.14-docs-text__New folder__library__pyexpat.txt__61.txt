@@ -1,0 +1,3 @@
+xmlparser.StartDoctypeDeclHandler(doctypeName, systemId, publicId, has_internal_subset)
+   Called when Expat begins parsing the document type declaration
+   ("<!DOCTYPE ...").  The *doctypeName* is provided exactly as

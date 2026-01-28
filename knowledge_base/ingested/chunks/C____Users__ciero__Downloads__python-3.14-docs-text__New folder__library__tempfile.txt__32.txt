@@ -1,0 +1,4 @@
+Changed in version 3.11: Fully implements the "io.BufferedIOBase"
+   and "io.TextIOBase" abstract base classes (depending on whether
+   binary or text *mode* was specified).
+class tempfile.TemporaryDirectory(suffix=None, prefix=None, dir=None, ignore_cleanup_errors=False, *, delete=True)

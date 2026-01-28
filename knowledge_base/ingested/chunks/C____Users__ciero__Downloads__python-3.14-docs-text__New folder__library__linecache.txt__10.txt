@@ -1,0 +1,6 @@
+"None" in the later call. This avoids doing I/O until a line is
+   actually needed, without having to carry the module globals around
+   indefinitely.
+   Added in version 3.5.
+Example:
+   >>> import linecache

@@ -1,0 +1,4 @@
+class, a "TestSuite" instance, or a callable object which
+      returns a "TestCase" or "TestSuite" instance.  These checks are
+      applied in the order listed here; that is, a method on a
+      possible test case class will be picked up as "a test method

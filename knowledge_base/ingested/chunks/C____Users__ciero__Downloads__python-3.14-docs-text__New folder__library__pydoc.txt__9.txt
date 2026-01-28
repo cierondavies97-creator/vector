@@ -1,0 +1,4 @@
+the output for easier reading.  If either the "MANPAGER" or the
+"PAGER" environment variable is set, **pydoc** will use its value as a
+pagination program. When both are set, "MANPAGER" is used.
+Specifying a "-w" flag before the argument will cause HTML

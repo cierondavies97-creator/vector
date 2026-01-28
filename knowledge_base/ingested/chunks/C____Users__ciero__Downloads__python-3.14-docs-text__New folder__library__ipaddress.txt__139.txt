@@ -1,0 +1,4 @@
+For equality comparison ("==" and "!="), both the IP address and
+network must be the same for the objects to be equal.  An interface
+will not compare equal to any address or network object.
+For ordering ("<", ">", etc) the rules are different.  Interface and

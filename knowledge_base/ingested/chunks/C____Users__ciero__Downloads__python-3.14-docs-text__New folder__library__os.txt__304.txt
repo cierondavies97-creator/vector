@@ -1,0 +1,6 @@
+Availability: Windows
+   Added in version 3.12.
+os.listmounts(volume)
+   Return a list containing the mount points for a volume on a Windows
+   system.
+   *volume* must be represented as a GUID path, like those returned by

@@ -1,0 +1,4 @@
+"FlagBoundary"
+      An enumeration with the values "STRICT", "CONFORM", "EJECT", and
+      "KEEP" which allows for more fine-grained control over how
+      invalid values are dealt with in an enumeration.

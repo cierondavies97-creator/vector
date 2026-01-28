@@ -1,0 +1,4 @@
+at the top of a file.  This also increases possible attribute
+completions.
+Completion boxes initially exclude names beginning with '_' or, for
+modules, not included in '__all__'.  The hidden names can be accessed

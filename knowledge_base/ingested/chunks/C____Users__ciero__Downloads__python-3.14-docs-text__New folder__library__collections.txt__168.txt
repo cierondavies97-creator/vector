@@ -1,0 +1,4 @@
+with "(k := next(iter(d)), d.pop(k))" which will return and remove
+  the leftmost (first) item if it exists.
+* "OrderedDict" has a "move_to_end()" method to efficiently reposition
+  an element to an endpoint.

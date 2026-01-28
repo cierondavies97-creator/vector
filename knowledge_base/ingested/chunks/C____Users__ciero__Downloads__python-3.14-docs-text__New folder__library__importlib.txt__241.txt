@@ -1,0 +1,3 @@
+is what you would put on "sys.meta_path" while the latter is what you
+create using a *path entry hook* on "sys.path_hooks" which works with
+"sys.path" entries to potentially create a finder. This example will

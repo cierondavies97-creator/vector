@@ -1,0 +1,4 @@
+*anchor* is an optional "Anchor". If the anchor is a package,
+   resources are resolved from that package. If a module, resources
+   are resolved adjacent to that module (in the same package or the
+   package root). If the anchor is omitted, the caller's module is

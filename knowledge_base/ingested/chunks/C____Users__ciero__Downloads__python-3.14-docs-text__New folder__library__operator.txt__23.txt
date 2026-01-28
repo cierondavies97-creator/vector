@@ -1,0 +1,5 @@
+Return "obj(*args, **kwargs)".
+   Added in version 3.11.
+The "operator" module also defines tools for generalized attribute and
+item lookups.  These are useful for making fast field extractors as
+arguments for "map()", "sorted()", "itertools.groupby()", or other

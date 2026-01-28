@@ -1,0 +1,4 @@
+object which supports the *iterable* protocol (the "__iter__()"
+   method), or it must support the sequence protocol (the
+   "__getitem__()" method with integer arguments starting at "0").  If
+   it does not support either of those protocols, "TypeError" is

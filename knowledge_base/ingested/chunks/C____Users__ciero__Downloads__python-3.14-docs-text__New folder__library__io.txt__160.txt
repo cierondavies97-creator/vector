@@ -1,0 +1,4 @@
+Reconfigure this text stream using new settings for *encoding*,
+      *errors*, *newline*, *line_buffering* and *write_through*.
+      Parameters not specified keep current settings, except
+      "errors='strict'" is used when *encoding* is specified but

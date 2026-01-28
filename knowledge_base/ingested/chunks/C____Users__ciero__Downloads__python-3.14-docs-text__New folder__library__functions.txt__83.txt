@@ -1,0 +1,6 @@
+>>> dir(s)
+   ['area', 'location', 'perimeter']
+   Note:
+     Because "dir()" is supplied primarily as a convenience for use at
+     an interactive prompt, it tries to supply an interesting set of
+     names more than it tries to supply a rigorously or consistently

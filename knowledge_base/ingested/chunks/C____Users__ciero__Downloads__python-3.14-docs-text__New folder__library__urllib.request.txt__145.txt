@@ -1,0 +1,4 @@
+HTTPRedirectHandler.http_error_308(req, fp, code, msg, hdrs)
+   The same as "http_error_301()", but called for the 'permanent
+   redirect' response. It does not allow changing the request method
+   from "POST" to "GET".

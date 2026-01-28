@@ -1,0 +1,5 @@
+cause no problems.
+Safe importing of main module
+   Make sure that the main module can be safely imported by a new
+   Python interpreter without causing unintended side effects (such as
+   starting a new process).

@@ -1,0 +1,7 @@
+Deque objects support the following methods:
+   append(x)
+      Add *x* to the right side of the deque.
+   appendleft(x)
+      Add *x* to the left side of the deque.
+   clear()
+      Remove all elements from the deque leaving it with length 0.

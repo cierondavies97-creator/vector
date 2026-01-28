@@ -1,0 +1,5 @@
+and after the decimal point and defaults to 6.
+5. If precision is "N", the output is truncated to "N" characters.
+6. "b'%s'" is deprecated, but will not be removed during the 3.x
+   series.
+7. "b'%r'" is deprecated, but will not be removed during the 3.x

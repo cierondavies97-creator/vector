@@ -1,0 +1,8 @@
+result in the connection being closed.
+State machine:
+   start -> connection_made
+       [-> data_received]*
+       [-> eof_received]?
+   -> connection_lost -> end
+Buffered Streaming Protocols
+----------------------------

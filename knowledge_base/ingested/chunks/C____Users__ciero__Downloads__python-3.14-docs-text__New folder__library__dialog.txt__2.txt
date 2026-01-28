@@ -1,0 +1,4 @@
+tkinter.simpledialog.askstring(title, prompt, **kw)
+   The above three functions provide dialogs that prompt the user to
+   enter a value of the desired type.
+class tkinter.simpledialog.Dialog(parent, title=None)

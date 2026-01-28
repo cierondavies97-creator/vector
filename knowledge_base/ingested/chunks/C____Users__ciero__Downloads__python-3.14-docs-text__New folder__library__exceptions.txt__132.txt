@@ -1,0 +1,4 @@
+"BaseException" and it can wrap any exception, while
+   "ExceptionGroup" extends "Exception" and it can only wrap
+   subclasses of "Exception". This design is so that "except
+   Exception" catches an "ExceptionGroup" but not

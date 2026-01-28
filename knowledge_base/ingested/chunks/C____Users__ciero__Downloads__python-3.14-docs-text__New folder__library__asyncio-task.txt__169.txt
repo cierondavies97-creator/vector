@@ -1,0 +1,4 @@
+wrapped coroutine.  If a coroutine is awaiting on a Future object
+   during cancellation, the Future object will be cancelled.
+   "cancelled()" can be used to check if the Task was cancelled. The
+   method returns "True" if the wrapped coroutine did not suppress the

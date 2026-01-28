@@ -1,0 +1,8 @@
+2
+   return_value
+      Set this to configure the value returned by calling the mock:
+      >>> mock = Mock()
+      >>> mock.return_value = 'fish'
+      >>> mock()
+      'fish'
+      The default return value is a mock object and you can configure

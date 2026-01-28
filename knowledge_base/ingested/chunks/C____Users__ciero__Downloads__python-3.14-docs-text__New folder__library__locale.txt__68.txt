@@ -1,0 +1,4 @@
+a tuple of the form "(language code, encoding)".
+   According to POSIX, a program which has not called
+   "setlocale(LC_ALL, '')" runs using the portable "'C'" locale.
+   Calling "setlocale(LC_ALL, '')" lets it use the default locale as

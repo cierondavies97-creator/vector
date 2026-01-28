@@ -1,0 +1,4 @@
+to the start of the file. Valid values for *whence* are:
+   * "SEEK_SET" or "0" -- set *pos* relative to the beginning of the
+     file
+   * "SEEK_CUR" or "1" -- set *pos* relative to the current file

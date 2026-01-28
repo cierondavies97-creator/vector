@@ -1,0 +1,3 @@
+| selectmode       | Controls how the built-in class bindings manage the      |
+|                  | selection. One of "extended", "browse" or "none". If set |
+|                  | to "extended" (the default), multiple items may be       |

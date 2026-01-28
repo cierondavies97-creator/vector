@@ -1,0 +1,4 @@
+must implement the "find_spec()" method.
+"find_spec()" takes two arguments: the fully qualified name of the
+module being imported, and the (optional) target module.
+"find_spec()" returns a fully populated spec for the module. This spec

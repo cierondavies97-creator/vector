@@ -1,0 +1,5 @@
+returns "False".
+   * The input is incomplete, and more input is required;
+     "compile_command()" returned "None". "runsource()" returns
+     "True".
+   * The input is complete; "compile_command()" returned a code

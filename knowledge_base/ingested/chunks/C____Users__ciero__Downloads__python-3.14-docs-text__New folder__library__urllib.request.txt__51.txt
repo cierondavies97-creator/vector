@@ -1,0 +1,4 @@
+automatic fetching of the image, this should be true.
+   *method* should be a string that indicates the HTTP request method
+   that will be used (e.g. "'HEAD'").  If provided, its value is
+   stored in the "method" attribute and is used by "get_method()". The

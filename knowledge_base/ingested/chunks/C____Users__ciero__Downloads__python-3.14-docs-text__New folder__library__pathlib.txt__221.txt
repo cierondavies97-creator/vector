@@ -1,0 +1,4 @@
+directory, use "Path.rmdir()" instead.
+   If *missing_ok* is false (the default), "FileNotFoundError" is
+   raised if the path does not exist.
+   If *missing_ok* is true, "FileNotFoundError" exceptions will be

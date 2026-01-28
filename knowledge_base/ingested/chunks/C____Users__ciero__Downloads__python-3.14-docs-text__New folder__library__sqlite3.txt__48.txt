@@ -1,0 +1,6 @@
+unclosed string literals and the statement is terminated by a
+   semicolon.
+   For example:
+      >>> sqlite3.complete_statement("SELECT foo FROM bar;")
+      True
+      >>> sqlite3.complete_statement("SELECT foo")

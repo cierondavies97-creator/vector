@@ -1,0 +1,5 @@
+Instead, it typically employs "hasattr()" tests or *EAFP*
+   programming.
+dunder
+   An informal short-hand for "double underscore", used when talking
+   about a *special method*. For example, "__init__" is often

@@ -1,0 +1,7 @@
+details.
+      Note:
+        The "isolation_level" attribute has no effect unless
+        "autocommit" is "LEGACY_TRANSACTION_CONTROL".
+      Added in version 3.12.
+   in_transaction
+      This read-only attribute corresponds to the low-level SQLite

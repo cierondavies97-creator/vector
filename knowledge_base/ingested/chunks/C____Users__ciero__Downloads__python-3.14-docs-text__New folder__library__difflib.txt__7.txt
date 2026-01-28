@@ -1,0 +1,4 @@
+expected-case behavior dependent in a complicated way on how many
+   elements the sequences have in common; best case time is linear.
+   **Automatic junk heuristic:** "SequenceMatcher" supports a
+   heuristic that automatically treats certain sequence items as junk.

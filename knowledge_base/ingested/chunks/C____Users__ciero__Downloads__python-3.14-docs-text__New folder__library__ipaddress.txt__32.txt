@@ -1,0 +1,4 @@
+* There are exceptions within "2001::/23" (otherwise considered
+        private): "2001:1::1/128", "2001:1::2/128", "2001:3::/32",
+        "2001:4:112::/48", "2001:20::/28", "2001:30::/28". The
+        exceptions are not considered private.

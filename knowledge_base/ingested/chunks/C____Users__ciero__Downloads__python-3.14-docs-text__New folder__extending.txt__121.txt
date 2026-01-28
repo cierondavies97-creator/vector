@@ -1,0 +1,4 @@
+ok = PyArg_ParseTuple(args, "s", &s); /* A string */
+       /* Possible Python call: f('whoops!') */
+   ok = PyArg_ParseTuple(args, "lls", &k, &l, &s); /* Two longs and a string */
+       /* Possible Python call: f(1, 2, 'three') */

@@ -1,0 +1,4 @@
+/usr/sbin/sendmail - \d+ errors, \d+ warnings
+   Changed in version 3.3: The "'_'" character is no longer escaped.
+   Changed in version 3.7: Only characters that can have special
+   meaning in a regular expression are escaped. As a result, "'!'",

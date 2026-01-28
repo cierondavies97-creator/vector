@@ -1,0 +1,5 @@
+* Or use "select()" (resolution: 1 microsecond).
+   Note:
+     To emulate a "no-op", use "pass" instead of "time.sleep(0)".To
+     voluntarily relinquish the CPU, specify a real-time scheduling
+     policy and use "os.sched_yield()" instead.

@@ -1,0 +1,6 @@
+*policy* keyword.
+   Changed in version 3.6: *_class* defaults to the policy
+   "message_factory".
+   parse(fp, headersonly=False)
+      Read all the data from the text-mode file-like object *fp*,
+      parse the resulting text, and return the root message object.

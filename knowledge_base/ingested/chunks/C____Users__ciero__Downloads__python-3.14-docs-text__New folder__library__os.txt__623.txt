@@ -1,0 +1,4 @@
+"DeprecationWarning". See the longer explanation on "os.fork()".
+   Availability: Unix, not WASI, not Android, not iOS.
+os.kill(pid, sig, /)
+   Send signal *sig* to the process *pid*.  Constants for the specific

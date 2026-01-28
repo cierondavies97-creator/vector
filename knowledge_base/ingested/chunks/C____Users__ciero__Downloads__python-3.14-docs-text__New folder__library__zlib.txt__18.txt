@@ -1,0 +1,4 @@
+Higher values use more memory, but are faster and produce smaller
+   output.
+   *strategy* is used to tune the compression algorithm. Possible
+   values are "Z_DEFAULT_STRATEGY", "Z_FILTERED", "Z_HUFFMAN_ONLY",

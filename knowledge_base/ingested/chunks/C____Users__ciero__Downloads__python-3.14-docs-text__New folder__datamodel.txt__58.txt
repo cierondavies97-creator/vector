@@ -1,0 +1,3 @@
+As such, they cannot be indexed by any subscript. However, they can be
+iterated over, and the built-in function "len()" returns the number of
+items in a set. Common uses for sets are fast membership testing,

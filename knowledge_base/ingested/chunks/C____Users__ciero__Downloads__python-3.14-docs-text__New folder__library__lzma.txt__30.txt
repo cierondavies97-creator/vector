@@ -1,0 +1,4 @@
+* "CHECK_SHA256": 256-bit Secure Hash Algorithm.
+   If the specified check is not supported, an "LZMAError" is raised.
+   The compression settings can be specified either as a preset
+   compression level (with the *preset* argument), or in detail as a

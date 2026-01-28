@@ -1,0 +1,7 @@
+iterated. This should be used to reliably finalize all scheduled
+   asynchronous generators.
+   Note that there is no need to call this function when
+   "asyncio.run()" is used.
+   Example:
+      try:
+          loop.run_forever()

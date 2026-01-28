@@ -1,0 +1,3 @@
+passing the AppInstaller file to the Add-AppxPackage command. This
+installs using the MSIX on python.org, and is only recommended for
+cases where installing via the Store (interactively or using WinGet)

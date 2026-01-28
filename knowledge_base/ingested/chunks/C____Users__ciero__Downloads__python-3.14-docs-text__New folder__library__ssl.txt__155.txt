@@ -1,0 +1,4 @@
+connection, return "None".  If the SSL handshake hasn't been done
+   yet, raise "ValueError".
+   If the "binary_form" parameter is "False", and a certificate was
+   received from the peer, this method returns a "dict" instance.  If

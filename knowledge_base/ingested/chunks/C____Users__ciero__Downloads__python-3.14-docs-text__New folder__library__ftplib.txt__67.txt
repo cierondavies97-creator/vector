@@ -1,0 +1,4 @@
+Parameters:
+      * **host** (*str*) -- The hostname to connect to. If given,
+        "connect(host)" is implicitly called by the constructor.
+      * **user** (*str*) -- The username to log in with (default:

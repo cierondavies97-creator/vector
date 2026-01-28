@@ -1,0 +1,4 @@
+arguments (e.g. "'store'", "'append'", "'extend'", or custom actions
+with non-zero "nargs") can be used with positional arguments.
+The recommended way to create a custom action is to extend "Action",
+overriding the "__call__()" method and optionally the "__init__()" and

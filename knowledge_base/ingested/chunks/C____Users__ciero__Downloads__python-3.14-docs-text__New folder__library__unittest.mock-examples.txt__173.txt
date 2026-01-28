@@ -1,0 +1,4 @@
+your mock objects through the "method_calls" attribute. This doesn't
+allow you to track the order of calls between separate mock objects,
+however we can use "mock_calls" to achieve the same effect.
+Because mocks track calls to child mocks in "mock_calls", and

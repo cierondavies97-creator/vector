@@ -1,0 +1,3 @@
+"OrderedDict" now support reverse iteration using "reversed()".
+Changed in version 3.6: With the acceptance of **PEP 468**, order is
+retained for keyword arguments passed to the "OrderedDict" constructor

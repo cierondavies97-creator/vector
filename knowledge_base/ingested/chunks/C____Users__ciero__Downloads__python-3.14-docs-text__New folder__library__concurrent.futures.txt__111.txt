@@ -1,0 +1,2 @@
+| concurrent.futures.ALL_COMPLETED                   | The function will return when all futures finish   |
+   |                                                    | or are cancelled.                                  |

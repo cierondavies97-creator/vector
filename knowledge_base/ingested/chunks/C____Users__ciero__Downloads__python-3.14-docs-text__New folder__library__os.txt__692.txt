@@ -1,0 +1,3 @@
+and no way to retrieve the application's exit status.  The *path*
+   parameter is relative to the current directory or *cwd*.  If you
+   want to use an absolute path, make sure the first character is not

@@ -1,0 +1,6 @@
+elapsed, but just silently drop messages during the delay
+      period).
+DatagramHandler
+===============
+The "DatagramHandler" class, located in the "logging.handlers" module,
+inherits from "SocketHandler" to support sending logging messages over

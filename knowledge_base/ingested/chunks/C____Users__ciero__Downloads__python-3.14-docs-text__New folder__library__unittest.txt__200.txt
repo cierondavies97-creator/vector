@@ -1,0 +1,4 @@
+Changed in version 3.2: "assertAlmostEqual()" automatically
+      considers almost equal objects that compare equal.
+      "assertNotAlmostEqual()" automatically fails if the objects
+      compare equal.  Added the *delta* keyword argument.

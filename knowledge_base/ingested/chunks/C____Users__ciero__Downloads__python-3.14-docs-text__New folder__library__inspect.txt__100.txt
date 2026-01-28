@@ -1,0 +1,4 @@
+functions created by a *lambda* expression.
+inspect.isgeneratorfunction(object)
+   Return "True" if the object is a Python generator function.
+   Changed in version 3.8: Functions wrapped in "functools.partial()"

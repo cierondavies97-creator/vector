@@ -1,0 +1,4 @@
+specified, returns a tuple of lookup values.  For example:
+   * After "f = itemgetter(2)", the call "f(r)" returns "r[2]".
+   * After "g = itemgetter(2, 5, 3)", the call "g(r)" returns "(r[2],
+     r[5], r[3])".

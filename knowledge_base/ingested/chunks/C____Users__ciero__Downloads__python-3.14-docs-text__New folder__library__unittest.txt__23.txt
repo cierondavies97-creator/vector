@@ -1,0 +1,5 @@
+Command-Line Interface
+======================
+The unittest module can be used from the command line to run tests
+from modules, classes or even individual test methods:
+   python -m unittest test_module1 test_module2

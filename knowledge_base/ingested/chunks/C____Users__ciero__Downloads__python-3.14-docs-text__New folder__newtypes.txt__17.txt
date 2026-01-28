@@ -1,0 +1,4 @@
+then change the values to suit your new type.
+   const char *tp_name; /* For printing */
+The name of the type -- as mentioned in the previous chapter, this
+will appear in various places, almost entirely for diagnostic

@@ -1,0 +1,5 @@
+Human-readable version of "getcomptype()". Usually "'not
+      compressed'" parallels "'NONE'".
+   getparams()
+      Returns a "namedtuple()" "(nchannels, sampwidth, framerate,
+      nframes, comptype, compname)", equivalent to output of the

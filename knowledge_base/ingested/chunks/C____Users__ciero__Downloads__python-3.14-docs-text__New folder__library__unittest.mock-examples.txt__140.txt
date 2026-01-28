@@ -1,0 +1,6 @@
+simple helper method, "create_patch", puts the patch in place and
+returns the created mock for us:
+   >>> class MyTest(unittest.TestCase):
+   ...
+   ...     def create_patch(self, name):
+   ...         patcher = patch(name)

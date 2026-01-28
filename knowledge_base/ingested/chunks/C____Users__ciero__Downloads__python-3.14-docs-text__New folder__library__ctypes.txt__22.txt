@@ -1,0 +1,6 @@
+AttributeError: function ordinal 0 not found
+   >>>
+Calling functions
+-----------------
+You can call these functions like any other Python callable. This
+example uses the "rand()" function, which takes no arguments and

@@ -1,0 +1,4 @@
+keyword arguments but does not affect the semantics.
+The primary must evaluate to a callable object (user-defined
+functions, built-in functions, methods of built-in objects, class
+objects, methods of class instances, and all objects having a

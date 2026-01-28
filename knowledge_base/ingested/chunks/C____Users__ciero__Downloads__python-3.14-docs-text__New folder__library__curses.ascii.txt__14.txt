@@ -1,0 +1,3 @@
+| curses.ascii.NL | Alias for "LF": "New line"                     |
++-----------------+------------------------------------------------+
+| curses.ascii.VT | Vertical tab                                   |

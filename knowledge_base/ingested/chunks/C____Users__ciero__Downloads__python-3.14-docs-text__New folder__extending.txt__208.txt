@@ -1,0 +1,5 @@
+compilers define this symbol).
+1.12. Providing a C API for an Extension Module
+===============================================
+Many extension modules just provide new functions and types to be used
+from Python, but sometimes the code in an extension module can be

@@ -1,0 +1,4 @@
+control) and leaving *warnings* to "None".
+   Changed in version 3.2: Added the *warnings* parameter.
+   Changed in version 3.2: The default stream is set to "sys.stderr"
+   at instantiation time rather than import time.

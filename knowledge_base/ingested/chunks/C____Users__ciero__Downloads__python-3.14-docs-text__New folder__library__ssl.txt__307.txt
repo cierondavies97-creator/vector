@@ -1,0 +1,5 @@
+is a *bytes-like object* representing the pre-shared key. Return a
+   zero length PSK to reject the connection.
+   Setting "callback" to "None" removes any existing callback.
+   Note:
+     When using TLS 1.3:

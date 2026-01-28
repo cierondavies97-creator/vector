@@ -1,0 +1,5 @@
+getcontext().prec -= 2
+       return +s               # unary plus applies the new precision
+   def exp(x):
+       """Return e raised to the power of x.  Result type matches input type.
+       >>> print(exp(Decimal(1)))

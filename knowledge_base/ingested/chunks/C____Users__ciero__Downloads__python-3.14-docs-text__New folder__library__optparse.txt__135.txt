@@ -1,0 +1,4 @@
+to happen no matter how stable your code is.  "optparse" can
+automatically detect some user errors, such as bad option arguments
+(passing "-n 4x" where "-n" takes an integer argument), missing
+arguments ("-n" at the end of the command line, where "-n" takes an

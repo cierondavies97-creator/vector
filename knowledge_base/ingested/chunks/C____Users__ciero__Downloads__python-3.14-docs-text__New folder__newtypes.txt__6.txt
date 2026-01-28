@@ -1,0 +1,5 @@
+const char *tp_doc; /* Documentation string */
+       /* Assigned meaning in release 2.0 */
+       /* call function for all accessible objects */
+       traverseproc tp_traverse;
+       /* delete references to contained objects */

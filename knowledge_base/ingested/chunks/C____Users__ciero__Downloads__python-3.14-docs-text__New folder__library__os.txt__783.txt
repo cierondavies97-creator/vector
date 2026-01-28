@@ -1,0 +1,5 @@
+parent directory. This is "'..'" for Windows and POSIX. Also
+   available via "os.path".
+os.sep
+   The character used by the operating system to separate pathname
+   components. This is "'/'" for POSIX and "'\\'" for Windows.  Note

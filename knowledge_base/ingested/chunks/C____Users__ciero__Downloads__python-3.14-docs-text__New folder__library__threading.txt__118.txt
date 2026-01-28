@@ -1,0 +1,4 @@
+acquired a reentrant lock, the same thread may acquire it again
+   without blocking; the thread must release it once for each time it
+   has acquired it.
+   Note that "RLock" is actually a factory function which returns an

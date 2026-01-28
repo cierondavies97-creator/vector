@@ -1,0 +1,4 @@
+Pushes a reference to the locals dictionary onto the stack.  This
+   is used to prepare namespace dictionaries for
+   "LOAD_FROM_DICT_OR_DEREF" and "LOAD_FROM_DICT_OR_GLOBALS".
+   Added in version 3.12.

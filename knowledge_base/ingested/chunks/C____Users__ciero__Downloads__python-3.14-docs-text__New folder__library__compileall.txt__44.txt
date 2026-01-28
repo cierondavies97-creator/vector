@@ -1,0 +1,4 @@
+**PEP 3147** locations and names, which allows byte-code files from
+   multiple versions of Python to coexist.
+   *optimize* specifies the optimization level for the compiler.  It
+   is passed to the built-in "compile()" function. Accepts also a

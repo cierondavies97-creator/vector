@@ -1,0 +1,11 @@
+errno.ENOMEM
+   Out of memory
+errno.EACCES
+   Permission denied.  This error is mapped to the exception
+   "PermissionError".
+errno.EFAULT
+   Bad address
+errno.ENOTBLK
+   Block device required
+errno.EBUSY
+   Device or resource busy

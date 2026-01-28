@@ -1,0 +1,3 @@
+deallocation of the pointer stored in a Capsule. The details are
+described in the Python/C API Reference Manual in the section Capsules
+and in the implementation of Capsules (files "Include/pycapsule.h" and

@@ -1,0 +1,4 @@
+The abstract method returns an iterable of no items.
+class importlib.resources.abc.Traversable
+   An object with a subset of "pathlib.Path" methods suitable for
+   traversing directories and opening files.

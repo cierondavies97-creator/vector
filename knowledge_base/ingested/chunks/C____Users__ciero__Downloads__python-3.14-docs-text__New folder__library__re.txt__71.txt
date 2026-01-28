@@ -1,0 +1,3 @@
+can only be unwound to a point *before* the "(?>...)" because once
+   exited, the expression, known as an *atomic group*, has thrown away
+   all stack points within itself. Thus, "(?>.*)." would never match

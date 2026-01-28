@@ -1,0 +1,4 @@
+'Heather Albrecht: 548.326.4584 919 Park Place']
+Finally, split each entry into a list with first name, last name,
+telephone number, and address.  We use the "maxsplit" parameter of
+"split()" because the address has spaces, our splitting pattern, in

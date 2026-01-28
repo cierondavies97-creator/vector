@@ -1,0 +1,2 @@
+|                                                    | will be ignored. See Configuration for information |
+|                                                    | about configuration settings.                      |

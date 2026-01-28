@@ -1,0 +1,7 @@
+object.  Return *default* otherwise.  If *default* is not given,
+      return "None".
+   iter(context)
+      Return an iterator over the variables stored in the context
+      object.
+   len(proxy)
+      Return the number of variables set in the context object.

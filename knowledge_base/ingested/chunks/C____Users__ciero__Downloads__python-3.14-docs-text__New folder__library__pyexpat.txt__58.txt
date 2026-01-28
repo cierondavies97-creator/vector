@@ -1,0 +1,4 @@
+object accepting the correct number of arguments.  The arguments are
+all strings, unless otherwise stated.
+xmlparser.XmlDeclHandler(version, encoding, standalone)
+   Called when the XML declaration is parsed.  The XML declaration is

@@ -1,0 +1,4 @@
+with the *EAFP* approach and is characterized by the presence of
+   many "if" statements.
+   In a multi-threaded environment, the LBYL approach can risk
+   introducing a *race condition* between "the looking" and "the

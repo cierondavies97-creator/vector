@@ -1,0 +1,6 @@
+>>>
+Structures and unions
+---------------------
+Structures and unions must derive from the "Structure" and "Union"
+base classes which are defined in the "ctypes" module. Each subclass
+must define a "_fields_" attribute.  "_fields_" must be a list of

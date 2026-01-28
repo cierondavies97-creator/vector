@@ -1,0 +1,4 @@
+Returns the awaitable's result or raises an exception.
+      This function cannot be called when another asyncio event loop
+      is running in the same thread.
+      Changed in version 3.14: *coro* can be any awaitable object.

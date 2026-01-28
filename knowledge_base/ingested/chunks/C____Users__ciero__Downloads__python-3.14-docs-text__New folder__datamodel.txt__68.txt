@@ -1,0 +1,4 @@
+Dictionaries are mutable; they can be created by the "{}" notation
+(see section Dictionary displays).
+The extension modules "dbm.ndbm" and "dbm.gnu" provide additional
+examples of mapping types, as does the "collections" module.

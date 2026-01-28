@@ -1,0 +1,5 @@
+IO stream.
+   It is not recommended to instantiate *StreamWriter* objects
+   directly; use "open_connection()" and "start_server()" instead.
+   write(data)
+      The method attempts to write the *data* to the underlying socket

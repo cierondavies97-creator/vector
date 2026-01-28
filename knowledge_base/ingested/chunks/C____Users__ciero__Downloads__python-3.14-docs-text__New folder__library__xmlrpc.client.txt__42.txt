@@ -1,0 +1,4 @@
+structs as a parameter, and it returns a string, its signature is
+   simply "string, array". If it expects three integers and returns a
+   string, its signature is "string, int, int, int".
+   If no signature is defined for the method, a non-array value is

@@ -1,0 +1,4 @@
+Note:
+     *metadata_encoding* is an instance-wide setting for the ZipFile.
+     It is not possible to set this on a per-member basis.This
+     attribute is a workaround for legacy implementations which

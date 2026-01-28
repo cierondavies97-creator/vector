@@ -1,0 +1,4 @@
+"get_ready()" and process them. Call "done()" on each node as it
+     finishes processing.
+   In case just an immediate sorting of the nodes in the graph is
+   required and no parallelism is involved, the convenience method

@@ -1,0 +1,4 @@
+* "statistics" --- Mathematical statistics functions
+* Functional Programming Modules
+  * "itertools" --- Functions creating iterators for efficient looping
+  * "functools" --- Higher-order functions and operations on callable

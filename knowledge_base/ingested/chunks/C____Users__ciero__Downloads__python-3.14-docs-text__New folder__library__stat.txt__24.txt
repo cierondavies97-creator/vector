@@ -1,0 +1,5 @@
+Set UID bit.
+stat.S_ISGID
+   Set-group-ID bit.  This bit has several special uses.  For a
+   directory it indicates that BSD semantics is to be used for that
+   directory: files created there inherit their group ID from the

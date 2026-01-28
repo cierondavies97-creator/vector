@@ -1,0 +1,4 @@
+"'replace'" was always used to encode, and "'ignore'" to decode.
+Changed in version 3.3: Support any error handler.
+"encodings.utf_8_sig" --- UTF-8 codec with BOM signature
+========================================================

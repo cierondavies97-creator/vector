@@ -1,0 +1,5 @@
+"faulthandler" --- Dump the Python traceback
+********************************************
+Added in version 3.3.
+======================================================================
+This module contains functions to dump Python tracebacks explicitly,

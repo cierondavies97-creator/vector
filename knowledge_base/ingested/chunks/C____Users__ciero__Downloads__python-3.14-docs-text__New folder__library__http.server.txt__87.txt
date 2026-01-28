@@ -1,0 +1,6 @@
+python -m http.server --protocol HTTP/1.1
+   Added in version 3.11.
+--cgi
+   "CGIHTTPRequestHandler" can be enabled in the command line by
+   passing the "--cgi" option:
+      python -m http.server --cgi

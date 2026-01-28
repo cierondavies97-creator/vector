@@ -1,0 +1,4 @@
+an empty object of the output object type in this situation.
+   decode(input, errors='strict')
+      Decodes the object *input* and returns a tuple (output object,
+      length consumed). For instance, for a *text encoding*, decoding

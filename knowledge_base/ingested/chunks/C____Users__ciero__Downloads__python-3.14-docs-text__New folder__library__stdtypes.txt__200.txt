@@ -1,0 +1,3 @@
+when sorting a large sequence.  To remind users that it operates
+      by side effect, it does not return the sorted sequence (use
+      "sorted()" to explicitly request a new sorted list instance).

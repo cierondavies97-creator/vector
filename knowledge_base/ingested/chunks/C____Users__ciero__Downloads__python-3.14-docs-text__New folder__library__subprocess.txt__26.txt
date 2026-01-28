@@ -1,0 +1,5 @@
+If "returncode" is non-zero, raise a "CalledProcessError".
+   Added in version 3.5.
+subprocess.DEVNULL
+   Special value that can be used as the *stdin*, *stdout* or *stderr*
+   argument to "Popen" and indicates that the special file

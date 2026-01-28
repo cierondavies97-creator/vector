@@ -1,0 +1,3 @@
+| "%B"        | Month as locale's full name.     | January, February, ...,  | (1)     |
+|             |                                  | December (en_US);        |         |
+|             |                                  | Januar, Februar, ...,    |         |

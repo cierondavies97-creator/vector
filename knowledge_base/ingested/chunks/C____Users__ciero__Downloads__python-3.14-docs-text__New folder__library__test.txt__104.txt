@@ -1,0 +1,5 @@
+the test method may be less than the requested value.  If *dry_run*
+   is "False", it means the test doesn't support dummy runs when "-M"
+   is not specified.
+@test.support.bigaddrspacetest
+   Decorator for tests that fill the address space.

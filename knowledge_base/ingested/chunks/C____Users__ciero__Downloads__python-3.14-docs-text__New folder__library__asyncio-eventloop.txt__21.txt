@@ -1,0 +1,4 @@
+This method clears all queues and shuts down the executor, but does
+   not wait for the executor to finish.
+   This method is idempotent and irreversible.  No other methods
+   should be called after the event loop is closed.

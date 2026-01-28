@@ -1,0 +1,4 @@
+times, resulting in corruption.
+   If you write a file-like object and implement your own caching, you
+   can make it fork-safe by storing the pid whenever you append to the
+   cache, and discarding the cache when the pid changes. For example:

@@ -1,0 +1,5 @@
+return timedelta(hours=4, minutes=30)
+       def fromutc(self, dt):
+           # Follow same validations as in datetime.tzinfo
+           if not isinstance(dt, datetime):
+               raise TypeError("fromutc() requires a datetime argument")

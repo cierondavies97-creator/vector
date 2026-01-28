@@ -1,0 +1,5 @@
+"copy" --- Shallow and deep copy operations
+*******************************************
+**Source code:** Lib/copy.py
+======================================================================
+Assignment statements in Python do not copy objects, they create

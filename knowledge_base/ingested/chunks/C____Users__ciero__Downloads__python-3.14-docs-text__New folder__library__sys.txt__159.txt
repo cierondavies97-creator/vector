@@ -1,0 +1,5 @@
+for more information.
+   Changed in version 3.7: Return "'utf-8'" if the Python UTF-8 Mode
+   is enabled.
+sys.getfilesystemencodeerrors()
+   Get the *filesystem error handler*: the error handler used with the

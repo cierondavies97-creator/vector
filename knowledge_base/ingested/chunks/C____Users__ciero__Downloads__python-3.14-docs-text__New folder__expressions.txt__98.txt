@@ -1,0 +1,5 @@
+normal exit, "close()" returns "None" and has no other effect.
+   Changed in version 3.13: If a generator returns a value upon being
+   closed, the value is returned by "close()".
+6.2.9.2. Examples
+~~~~~~~~~~~~~~~~~

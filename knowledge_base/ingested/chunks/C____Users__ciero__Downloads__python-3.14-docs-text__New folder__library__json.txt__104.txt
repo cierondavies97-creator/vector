@@ -1,0 +1,5 @@
+behavior.  In the deserializer, the *parse_constant* parameter can be
+used to alter this behavior.
+Repeated Names Within an Object
+-------------------------------
+The RFC specifies that the names within a JSON object should be

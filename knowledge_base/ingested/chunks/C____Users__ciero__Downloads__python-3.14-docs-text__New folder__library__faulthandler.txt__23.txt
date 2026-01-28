@@ -1,0 +1,5 @@
+Changed in version 3.5: Added support for passing file descriptor
+   to this function.
+   Changed in version 3.7: This function is now always available.
+faulthandler.cancel_dump_traceback_later()
+   Cancel the last call to "dump_traceback_later()".

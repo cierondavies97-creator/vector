@@ -1,0 +1,4 @@
+present, it is used as the starting value of the checksum;
+   otherwise, a default value of 1 is used.  Passing in *value* allows
+   computing a running checksum over the concatenation of several
+   inputs.  The algorithm is not cryptographically strong, and should

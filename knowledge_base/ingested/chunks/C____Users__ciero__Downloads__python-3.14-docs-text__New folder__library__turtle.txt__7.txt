@@ -1,0 +1,8 @@
+work.
+Tutorial
+========
+New users should start here. In this tutorial we'll explore some of
+the basics of turtle drawing.
+Starting a turtle environment
+-----------------------------
+In a Python shell, import all the objects of the "turtle" module:

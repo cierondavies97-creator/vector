@@ -1,0 +1,4 @@
+this to happen, the filenames should be sortable using the
+        date/time portion of the filename, and a namer needs to
+        respect this. (If a namer is wanted that doesn't respect this
+        scheme, it will need to be used in a subclass of

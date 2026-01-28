@@ -1,0 +1,5 @@
+subsequent lines together, and stripping any trailing carriage
+      return or linefeed characters.
+   header_store_parse(name, value)
+      The name and value are returned unmodified.
+   header_fetch_parse(name, value)

@@ -1,0 +1,3 @@
+character and any combination of attributes.  The attribute part of
+   the background is combined (OR'ed) with all non-blank characters
+   that are written into the window.  Both the character and attribute

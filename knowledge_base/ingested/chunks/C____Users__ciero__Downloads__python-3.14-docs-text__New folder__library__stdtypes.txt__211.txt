@@ -1,0 +1,4 @@
+lst *= x               # copies elements in place
+The "remove()" method may allow concurrent modifications since element
+comparison may execute arbitrary Python code (via
+"__eq__()")."extend()" is safe to call from multiple threads.

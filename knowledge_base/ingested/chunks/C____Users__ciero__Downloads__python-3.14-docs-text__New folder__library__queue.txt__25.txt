@@ -1,0 +1,4 @@
+an uninterruptible wait on an underlying lock.  This means that no
+   exceptions can occur, and in particular a SIGINT will not trigger a
+   "KeyboardInterrupt".
+   Raises "ShutDown" if the queue has been shut down and is empty, or

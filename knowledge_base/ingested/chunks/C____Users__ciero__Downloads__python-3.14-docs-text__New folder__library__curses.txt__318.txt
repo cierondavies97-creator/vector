@@ -1,0 +1,4 @@
+Changed in version 3.10: The "BUTTON5_*" constants are now exposed if
+they are provided by the underlying curses library.
+The following table lists the predefined colors:
++---------------------------+------------------------------+

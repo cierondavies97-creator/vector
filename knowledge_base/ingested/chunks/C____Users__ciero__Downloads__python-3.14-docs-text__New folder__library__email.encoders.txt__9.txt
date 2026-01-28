@@ -1,0 +1,4 @@
+encoding is that it renders the text non-human readable.
+email.encoders.encode_7or8bit(msg)
+   This doesn't actually modify the message's payload, but it does set
+   the *Content-Transfer-Encoding* header to either "7bit" or "8bit"

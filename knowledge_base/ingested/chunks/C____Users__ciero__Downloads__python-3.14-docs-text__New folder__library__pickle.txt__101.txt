@@ -1,0 +1,4 @@
+class requires keyword-only arguments.  Otherwise, it is
+   recommended for compatibility to implement "__getnewargs__()".
+   Changed in version 3.6: "__getnewargs_ex__()" is now used in
+   protocols 2 and 3.

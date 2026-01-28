@@ -1,0 +1,6 @@
+Classes created with a metaclass of "ABCMeta" have the following
+   method:
+   register(subclass)
+      Register *subclass* as a "virtual subclass" of this ABC. For
+      example:
+         from abc import ABC

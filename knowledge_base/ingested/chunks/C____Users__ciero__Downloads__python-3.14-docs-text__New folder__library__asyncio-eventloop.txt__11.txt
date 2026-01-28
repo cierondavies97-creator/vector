@@ -1,0 +1,5 @@
+event loop APIs;
+* The Callback Handles section documents the "Handle" and
+  "TimerHandle" instances which are returned from scheduling methods
+  such as "loop.call_soon()" and "loop.call_later()";
+* The Server Objects section documents types returned from event loop

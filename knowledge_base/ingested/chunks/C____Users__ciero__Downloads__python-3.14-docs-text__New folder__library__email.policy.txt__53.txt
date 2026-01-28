@@ -1,0 +1,4 @@
+*value* should be the unfolded value (all line separator
+      characters removed, but whitespace kept intact), stripped of
+      leading whitespace.
+      *sourcelines* may contain surrogateescaped binary data.

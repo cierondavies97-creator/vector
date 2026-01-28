@@ -1,0 +1,6 @@
+the "in" operator:
+        >>> 'Py' in 'Python'
+        True
+str.format(*args, **kwargs)
+   Perform a string formatting operation.  The string on which this
+   method is called can contain literal text or replacement fields

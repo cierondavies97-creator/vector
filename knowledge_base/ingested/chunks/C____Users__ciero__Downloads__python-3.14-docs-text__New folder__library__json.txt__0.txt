@@ -1,0 +1,5 @@
+"json" --- JSON encoder and decoder
+***********************************
+**Source code:** Lib/json/__init__.py
+======================================================================
+JSON (JavaScript Object Notation), specified by **RFC 7159** (which

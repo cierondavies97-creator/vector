@@ -1,0 +1,5 @@
+"os.stat_result.st_mtime".
+   Changed in version 3.12: Can be set to "None" for "extract()" and
+   "extractall()", causing extraction to skip applying this attribute.
+TarInfo.mode: int
+   Permission bits, as for "os.chmod()".

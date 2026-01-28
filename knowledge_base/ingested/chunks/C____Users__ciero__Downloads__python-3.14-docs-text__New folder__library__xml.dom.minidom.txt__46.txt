@@ -1,0 +1,4 @@
+Values of type "DOMString" may also be "None" where allowed to have
+  the IDL "null" value by the DOM specification from the W3C.
+* "const" declarations map to variables in their respective scope
+  (e.g. "xml.dom.minidom.Node.PROCESSING_INSTRUCTION_NODE"); they must

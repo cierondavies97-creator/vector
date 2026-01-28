@@ -1,0 +1,3 @@
+['/bin/vikings', '-input', 'eggs.txt', '-output', 'spam spam.txt', '-cmd', "echo '$MONEY'"]
+        >>> p = subprocess.Popen(args) # Success!
+     Note in particular that options (such as *-input*) and arguments

@@ -1,0 +1,7 @@
+assert i == 9
+           print('\tGot ZeroDivisionError as expected from IMapIterator.next()')
+           print()
+           #
+           # Testing timeouts
+           #
+           print('Testing ApplyResult.get() with timeout:', end=' ')

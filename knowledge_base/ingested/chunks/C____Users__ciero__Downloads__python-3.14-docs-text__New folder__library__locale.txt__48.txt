@@ -1,0 +1,4 @@
+numbers, for which symbolic constants are available in the locale
+   module.
+   The "nl_langinfo()" function accepts one of the following keys.
+   Most descriptions are taken from the corresponding description in

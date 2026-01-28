@@ -1,0 +1,8 @@
+@types.coroutine
+      def gen_coro():
+          yield
+      assert not isawaitable(gen())
+      assert isawaitable(gen_coro())
+   Added in version 3.5.
+inspect.isasyncgenfunction(object)
+   Return "True" if the object is an *asynchronous generator*

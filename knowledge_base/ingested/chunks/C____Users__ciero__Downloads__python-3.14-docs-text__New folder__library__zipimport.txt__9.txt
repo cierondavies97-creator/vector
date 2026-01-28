@@ -1,0 +1,6 @@
+exception zipimport.ZipImportError
+   Exception raised by zipimporter objects. It's a subclass of
+   "ImportError", so it can be caught as "ImportError", too.
+zipimporter Objects
+===================
+"zipimporter" is the class for importing ZIP files.

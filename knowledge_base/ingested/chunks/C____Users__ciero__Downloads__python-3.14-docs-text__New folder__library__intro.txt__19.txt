@@ -1,0 +1,3 @@
+* Process-related APIs are not available or always fail with an error.
+  That includes APIs that spawn new processes ("fork()", "execve()"),
+  wait for processes ("waitpid()"), send signals ("kill()"), or

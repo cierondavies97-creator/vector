@@ -1,0 +1,4 @@
+don't need to tell OptionParser which option class to use:
+   option_list = [MyOption("-c", action="store", type="complex", dest="c")]
+   parser = OptionParser(option_list=option_list)
+Adding new actions

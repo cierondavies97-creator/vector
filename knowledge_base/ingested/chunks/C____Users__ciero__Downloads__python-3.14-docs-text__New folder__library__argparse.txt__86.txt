@@ -1,0 +1,8 @@
+... except argparse.ArgumentError:
+   ...     print('Catching an argumentError')
+   ...
+   Catching an argumentError
+Added in version 3.9.
+suggest_on_error
+----------------
+By default, when a user passes an invalid argument choice or subparser

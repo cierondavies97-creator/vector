@@ -1,0 +1,6 @@
+returned from functions that don't explicitly return anything. Its
+truth value is false.
+3.2.2. NotImplemented
+---------------------
+This type has a single value.  There is a single object with this
+value. This object is accessed through the built-in name

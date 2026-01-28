@@ -1,0 +1,4 @@
+no effect. Instead of calling "format()", this handler calls
+     "mapLogRecord()" and then "urllib.parse.urlencode()" to encode
+     the dictionary in a form suitable for sending to a web server.
+QueueHandler

@@ -1,0 +1,5 @@
+Availability: Linux >= 3.6.
+   Added in version 3.5.
+socket.CAN_RAW_JOIN_FILTERS
+   Joins the applied CAN filters such that only CAN frames that match
+   all given CAN filters are passed to user space.

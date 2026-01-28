@@ -1,0 +1,5 @@
+*service_pack_minor*, *service_pack_major*, *suite_mask*, and
+   *product_type*.
+   Changed in version 3.6: Added *platform_version*
+sys.get_asyncgen_hooks()
+   Returns an *asyncgen_hooks* object, which is similar to a

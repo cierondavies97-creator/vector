@@ -1,0 +1,3 @@
+|           | but before the digits.  This is used for printing fields   |
+|           | in the form '+000000120'. This alignment option is only    |
+|           | valid for numeric types, excluding "complex". It becomes   |

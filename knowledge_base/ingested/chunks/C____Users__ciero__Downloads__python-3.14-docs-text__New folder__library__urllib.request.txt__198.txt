@@ -1,0 +1,4 @@
+with opener.open('http://www.example.com/') as f:
+      print(f.read().decode('utf-8'))
+Also, remember that a few standard headers (*Content-Length*,
+*Content-Type* and *Host*) are added when the "Request" is passed to

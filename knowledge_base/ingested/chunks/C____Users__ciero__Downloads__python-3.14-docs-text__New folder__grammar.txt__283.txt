@@ -1,0 +1,3 @@
+RAISE_INDENTATION_ERROR("expected an indented block after 'if' statement on line %d", a->lineno) }
+   invalid_elif_stmt:
+       | 'elif' named_expression NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }

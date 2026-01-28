@@ -1,0 +1,3 @@
+a, "cannot use assignment expressions with %s", _PyPegen_get_expr_name(a)) }
+       | a=NAME '=' b=bitwise_or !('='|':=') {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "invalid syntax. Maybe you meant '==' or ':=' instead of '='?") }

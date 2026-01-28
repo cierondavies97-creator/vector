@@ -1,0 +1,7 @@
+* CookieJar and FileCookieJar Objects
+  * FileCookieJar subclasses and co-operation with web browsers
+  * CookiePolicy Objects
+  * DefaultCookiePolicy Objects
+  * Cookie Objects
+  * Examples
+* "xmlrpc" --- XMLRPC server and client modules

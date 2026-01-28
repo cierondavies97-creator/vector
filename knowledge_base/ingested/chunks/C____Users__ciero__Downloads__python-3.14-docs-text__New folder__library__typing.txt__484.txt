@@ -1,0 +1,6 @@
+assert get_origin(P.args) is P
+      assert get_origin(P.kwargs) is P
+   Added in version 3.8.
+typing.get_args(tp)
+   Get type arguments with all substitutions performed: for a typing
+   object of the form "X[Y, Z, ...]" return "(Y, Z, ...)".

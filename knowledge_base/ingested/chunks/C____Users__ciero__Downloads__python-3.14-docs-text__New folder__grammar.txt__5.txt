@@ -1,0 +1,5 @@
+} else if (p->start_rule == Py_single_input) {
+           result = interactive_rule(p);
+       } else if (p->start_rule == Py_eval_input) {
+           result = eval_rule(p);
+       } else if (p->start_rule == Py_func_type_input) {

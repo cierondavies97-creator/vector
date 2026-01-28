@@ -1,0 +1,4 @@
+"SystemExit", which is allowed to propagate.
+   A note about "KeyboardInterrupt": this exception may occur
+   elsewhere in this code, and may not always be caught.  The caller
+   should be prepared to deal with it.

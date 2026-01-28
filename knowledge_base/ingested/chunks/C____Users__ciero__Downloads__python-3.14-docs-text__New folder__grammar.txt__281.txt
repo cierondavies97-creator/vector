@@ -1,0 +1,4 @@
+PyPegen_first_item(a, pattern_ty),
+           PyPegen_last_item(a, pattern_ty),
+           "positional patterns follow keyword patterns") }
+   invalid_class_argument_pattern[asdl_pattern_seq*]:

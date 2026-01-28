@@ -1,0 +1,4 @@
+The *filter* argument specifies how "members" are modified or
+   rejected before extraction. See Extraction filters for details. It
+   is recommended to set this explicitly only if specific *tar*
+   features are required, or as "filter='data'" to support Python

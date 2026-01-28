@@ -1,0 +1,4 @@
+support installing runtimes per-machine. To emulate a per-machine
+install, you can use "py install --target=<shared location>" as
+administrator and add your own system-wide modifications to "PATH",
+the registry, or the Start menu.

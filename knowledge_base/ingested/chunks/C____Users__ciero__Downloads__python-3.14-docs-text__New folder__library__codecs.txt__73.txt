@@ -1,0 +1,4 @@
+"UnicodeDecodeError" or "UnicodeTranslateError" will be passed to
+   the handler and that the replacement from the error handler will be
+   put into the output directly.
+Previously registered error handlers (including the standard error

@@ -1,0 +1,5 @@
+time the module is reinitialized, when the "Py_mod_exec" function is
+called.
+For now, let's avoid the issue: we will block repeated initialization
+by raising an "ImportError":
+   static PyObject *SpamError = NULL;

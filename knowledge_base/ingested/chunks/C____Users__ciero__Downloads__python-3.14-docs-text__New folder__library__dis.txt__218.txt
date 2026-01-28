@@ -1,0 +1,3 @@
+| "INTRINSIC_PARAMSPEC"               | Creates a "typing.ParamSpec"        |
+   +-------------------------------------+-------------------------------------+
+   | "INTRINSIC_TYPEVARTUPLE"            | Creates a "typing.TypeVarTuple"     |

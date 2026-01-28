@@ -1,0 +1,5 @@
+they should install their own "SIGINT" handler. Below is an example of
+an HTTP server that avoids "KeyboardInterrupt":
+   import signal
+   import socket
+   from selectors import DefaultSelector, EVENT_READ

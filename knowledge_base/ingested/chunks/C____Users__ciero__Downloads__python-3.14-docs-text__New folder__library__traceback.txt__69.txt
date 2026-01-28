@@ -1,0 +1,5 @@
+Changed in version 3.6: Long sequences of repeated frames are
+      now abbreviated.
+   format_frame_summary(frame_summary)
+      Returns a string for printing one of the frames involved in the
+      stack. This method is called for each "FrameSummary" object to

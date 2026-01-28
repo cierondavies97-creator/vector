@@ -1,0 +1,3 @@
+compileall.compile_path(skip_curdir=True, maxlevels=0, force=False, quiet=0, legacy=False, optimize=-1, invalidation_mode=None)
+   Byte-compile all the ".py" files found along "sys.path". Return a
+   true value if all the files compiled successfully, and a false

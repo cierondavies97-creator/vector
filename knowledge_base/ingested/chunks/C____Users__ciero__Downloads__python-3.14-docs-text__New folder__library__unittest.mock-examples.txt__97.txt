@@ -1,0 +1,3 @@
+feel like unnecessary repetition. Instead, you can use "patch()" (in
+all its various forms) as a class decorator. This applies the patches
+to all test methods on the class. A test method is identified by

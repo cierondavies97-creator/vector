@@ -1,0 +1,7 @@
+Example usage of "ModuleFinder"
+===============================
+The script that is going to get analyzed later on (bacon.py):
+   import re, itertools
+   try:
+       import baconhameggs
+   except ImportError:

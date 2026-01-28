@@ -1,0 +1,3 @@
+set the subtype to *subtype* if it is specified or "rfc822" if
+        it is not.  If *subtype* is "partial", raise an error ("bytes"
+        objects must be used to construct "message/partial" parts).

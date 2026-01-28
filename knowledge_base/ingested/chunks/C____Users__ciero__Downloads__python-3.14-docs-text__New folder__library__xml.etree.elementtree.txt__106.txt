@@ -1,0 +1,4 @@
+Changed in version 3.8: The "comment" and "pi" events were added.
+   Changed in version 3.13: Added the "close()" method.
+xml.etree.ElementTree.parse(source, parser=None)
+   Parses an XML section into an element tree.  *source* is a filename

@@ -1,0 +1,6 @@
+such corrupted files can result in a hard crash (segmentation
+  fault).
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly
+platforms.
+exception dbm.ndbm.error

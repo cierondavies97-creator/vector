@@ -1,0 +1,4 @@
+functools.cmp_to_key(func)
+   Transform an old-style comparison function to a *key function*.
+   Used with tools that accept key functions (such as "sorted()",
+   "min()", "max()", "heapq.nlargest()", "heapq.nsmallest()",

@@ -1,0 +1,3 @@
+| ""always""      | always print matching warnings                 |
+  +-----------------+------------------------------------------------+
+  | ""all""         | alias to "always"                              |

@@ -1,0 +1,3 @@
+|                        | conformable type. Objects of user-defined classes can   |
+   |                        | be passed in; only their "__dict__" attribute is        |
+   |                        | transmitted.                                            |

@@ -1,0 +1,5 @@
+MIME message.
+   preamble
+      The format of a MIME document allows for some text between the
+      blank line following the headers, and the first multipart
+      boundary string. Normally, this text is never visible in a MIME-

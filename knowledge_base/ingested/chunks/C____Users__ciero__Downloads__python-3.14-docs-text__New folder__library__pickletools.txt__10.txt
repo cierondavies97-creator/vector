@@ -1,0 +1,4 @@
+be used as the pickle's memo; it can be used to perform
+   disassemblies across multiple pickles created by the same pickler.
+   Successive levels, indicated by "MARK" opcodes in the stream, are
+   indented by *indentlevel* spaces.  If a nonzero value is given to

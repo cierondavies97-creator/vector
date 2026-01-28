@@ -1,0 +1,4 @@
+the visible headers.
+When a "BabylMessage" instance is created based upon a
+"MaildirMessage" instance, the following conversions take place:
++---------------------+---------------------------------+

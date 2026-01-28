@@ -1,0 +1,7 @@
+n = 10_000
+   count = 0
+   combined = drug + placebo
+   for i in range(n):
+       shuffle(combined)
+       new_diff = mean(combined[:len(drug)]) - mean(combined[len(drug):])
+       count += (new_diff >= observed_diff)

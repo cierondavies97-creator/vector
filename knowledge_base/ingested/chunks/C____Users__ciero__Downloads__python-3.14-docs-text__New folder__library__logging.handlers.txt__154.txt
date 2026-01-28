@@ -1,0 +1,5 @@
+emit(record)
+      Append the record to the buffer. If "shouldFlush()" returns
+      true, call "flush()" to process the buffer.
+   flush()
+      For a "BufferingHandler" instance, flushing means that it sets

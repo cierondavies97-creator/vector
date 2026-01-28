@@ -1,0 +1,3 @@
+probably surprise you a few times, as you learn exactly what Python
+does and doesn't guarantee about output.  For example, when printing a
+set, Python doesn't guarantee that the element is printed in any

@@ -1,0 +1,4 @@
+A recursive lock object: a close analog of "threading.RLock".  A
+   recursive lock must be released by the process or thread that
+   acquired it. Once a process or thread has acquired a recursive
+   lock, the same process or thread may acquire it again without

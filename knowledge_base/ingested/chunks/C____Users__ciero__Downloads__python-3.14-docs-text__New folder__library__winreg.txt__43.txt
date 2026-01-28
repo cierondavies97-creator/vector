@@ -1,0 +1,5 @@
+Raises an auditing event "winreg.OpenKey" with arguments "key",
+   "sub_key", "access".
+   Raises an auditing event "winreg.OpenKey/result" with argument
+   "key".
+   Changed in version 3.2: Allow the use of named arguments.

@@ -1,0 +1,4 @@
+instantiated by a user, but may be used by introspection tools.
+   Note:
+     **PEP 585** generic types such as "list["SomeClass"]" will not be
+     implicitly transformed into "list[ForwardRef("SomeClass")]" and

@@ -1,0 +1,7 @@
+"""
+           if filename == "METADATA":
+               return f"""Name: {self.record.name}
+   Version: {self.record.version}
+   """
+           if filename == "entry_points.txt":
+               return "\n".join(

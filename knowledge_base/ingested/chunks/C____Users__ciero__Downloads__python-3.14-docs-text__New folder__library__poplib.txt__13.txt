@@ -1,0 +1,5 @@
+"ssl.HAS_SNI").
+   Changed in version 3.9: If the *timeout* parameter is set to be
+   zero, it will raise a "ValueError" to prevent the creation of a
+   non-blocking socket.
+   Changed in version 3.12: The deprecated *keyfile* and *certfile*

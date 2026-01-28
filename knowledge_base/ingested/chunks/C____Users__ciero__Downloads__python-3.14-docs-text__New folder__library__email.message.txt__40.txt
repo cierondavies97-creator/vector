@@ -1,0 +1,4 @@
+del msg['subject']
+         msg['subject'] = 'Python roolz!'
+      If the "policy" defines certain headers to be unique (as the
+      standard policies do), this method may raise a "ValueError" when

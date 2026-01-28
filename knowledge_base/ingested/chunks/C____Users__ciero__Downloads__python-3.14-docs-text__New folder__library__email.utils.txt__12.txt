@@ -1,0 +1,5 @@
+non-ASCII characters.  Can be an instance of "str" or a "Charset".
+   Defaults to "utf-8".
+   Changed in version 3.3: Added the *charset* option.
+email.utils.getaddresses(fieldvalues, *, strict=True)
+   This method returns a list of 2-tuples of the form returned by

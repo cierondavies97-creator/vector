@@ -1,0 +1,3 @@
+".py", ".pyw", ".pyc" files) when it was installed.  This means that
+when you double-click on one of these files from Windows explorer the
+launcher will be used, and therefore you can use the same facilities

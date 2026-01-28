@@ -1,0 +1,4 @@
+Shebang lines for more information. When there is no shebang line, or
+it cannot be resolved, the script will be launched with the default
+runtime.
+If you are running in an active virtual environment, have not

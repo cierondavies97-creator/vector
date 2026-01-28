@@ -1,0 +1,6 @@
+is_optimized()
+      Return "True" if the locals in this table can be optimized.
+   is_nested()
+      Return "True" if the block is a nested class or function.
+   has_children()
+      Return "True" if the block has nested namespaces within it.

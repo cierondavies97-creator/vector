@@ -1,0 +1,4 @@
+compression algorithm, targeting real-time compression scenarios at
+zlib-level and better compression ratios." Also included is a file
+interface that supports reading and writing the contents of ".zst"
+files created by the **zstd** utility, as well as raw zstd compressed

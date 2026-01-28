@@ -1,0 +1,6 @@
+traceback corresponds to.
+   code_context
+      A list of lines of context from the source code that's being
+      executed by the frame this traceback corresponds to.
+   index
+      The index of the current line being executed in the

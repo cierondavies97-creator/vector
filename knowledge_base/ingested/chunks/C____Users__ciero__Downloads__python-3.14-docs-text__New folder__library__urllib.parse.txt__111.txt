@@ -1,0 +1,3 @@
+appropriately encoding non-ASCII text. They also support reversing
+these operations to recreate the original data from the contents of a
+URL component if that task isn't already covered by the URL parsing

@@ -1,0 +1,4 @@
+This handles cases where the shebang specifies "/usr/bin/env python3"
+but "python3.exe" is not present in the active environment.
+The "/usr/bin/env" form of shebang line has one further special
+property. Before looking for installed Python interpreters, this form

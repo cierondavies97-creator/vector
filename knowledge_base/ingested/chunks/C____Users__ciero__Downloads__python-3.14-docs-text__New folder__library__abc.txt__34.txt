@@ -1,0 +1,4 @@
+Note:
+     Unlike Java abstract methods, these abstract methods may have an
+     implementation. This implementation can be called via the
+     "super()" mechanism from the class that overrides it.  This could

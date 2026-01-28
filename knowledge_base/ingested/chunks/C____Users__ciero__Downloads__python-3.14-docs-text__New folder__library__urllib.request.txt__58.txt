@@ -1,0 +1,5 @@
+A class which defines a default handler for HTTP error responses;
+   all responses are turned into "HTTPError" exceptions.
+class urllib.request.HTTPRedirectHandler
+   A class to handle redirections.
+class urllib.request.HTTPCookieProcessor(cookiejar=None)

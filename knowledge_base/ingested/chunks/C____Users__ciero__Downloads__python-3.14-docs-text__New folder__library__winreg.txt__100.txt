@@ -1,0 +1,4 @@
+The HKEY object implements "__enter__()" and "__exit__()" and thus
+   supports the context protocol for the "with" statement:
+      with OpenKey(HKEY_LOCAL_MACHINE, "foo") as key:
+          ...  # work with key

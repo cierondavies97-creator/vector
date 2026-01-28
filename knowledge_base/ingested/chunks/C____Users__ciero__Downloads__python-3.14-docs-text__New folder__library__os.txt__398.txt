@@ -1,0 +1,4 @@
+file, or if it doesn't exist anymore.
+      The result is cached on the "os.DirEntry" object. Call
+      "os.path.islink()" to fetch up-to-date information.
+      On the first, uncached call, no system call is required in most

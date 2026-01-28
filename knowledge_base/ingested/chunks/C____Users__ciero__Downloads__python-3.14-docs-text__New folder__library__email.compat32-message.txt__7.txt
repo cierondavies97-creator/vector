@@ -1,0 +1,4 @@
+are supported but special methods must be used to access them.
+The "Message" pseudo-dictionary is indexed by the header names, which
+must be ASCII values.  The values of the dictionary are strings that
+are supposed to contain only ASCII characters; there is some special

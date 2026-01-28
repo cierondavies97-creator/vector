@@ -1,0 +1,6 @@
+Equivalent to:
+      datetime.fromtimestamp(time.time())
+   See also "now()", "fromtimestamp()".
+   This method is functionally equivalent to "now()", but without a
+   "tz" parameter.
+classmethod datetime.now(tz=None)

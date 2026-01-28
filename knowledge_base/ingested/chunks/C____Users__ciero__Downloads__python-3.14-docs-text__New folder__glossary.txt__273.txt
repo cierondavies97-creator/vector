@@ -1,0 +1,6 @@
+bound to the same thread, but only one can be *attached* in that
+   thread at any given moment.
+   See Thread State and the Global Interpreter Lock for more
+   information.
+thread-safe
+   A module, function, or class that behaves correctly when used by

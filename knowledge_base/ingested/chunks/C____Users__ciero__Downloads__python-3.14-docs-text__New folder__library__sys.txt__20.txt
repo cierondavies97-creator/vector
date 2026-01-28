@@ -1,0 +1,5 @@
+the native function is preferred when possible.
+   See the audit events table for all events raised by CPython.
+   Added in version 3.8.
+sys.base_exec_prefix
+   Equivalent to "exec_prefix", but referring to the base Python

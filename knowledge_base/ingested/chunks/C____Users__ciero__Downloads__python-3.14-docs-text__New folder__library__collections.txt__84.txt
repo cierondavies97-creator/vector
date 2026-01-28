@@ -1,0 +1,6 @@
+insert(i, x)
+      Insert *x* into the deque at position *i*.
+      If the insertion would cause a bounded deque to grow beyond
+      *maxlen*, an "IndexError" is raised.
+      Added in version 3.5.
+   pop()

@@ -1,0 +1,4 @@
+(for example, gb2312).
+   The normal form KD (NFKD) will apply the compatibility
+   decomposition, that is, replace all compatibility characters with
+   their equivalents. The normal form KC (NFKC) first applies the

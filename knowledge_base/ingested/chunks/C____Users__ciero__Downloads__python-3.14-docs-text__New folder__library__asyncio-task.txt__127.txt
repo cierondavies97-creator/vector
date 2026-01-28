@@ -1,0 +1,4 @@
++----------------------------------------------------+----------------------------------------------------+
+   Unlike "wait_for()", "wait()" does not cancel the futures when a
+   timeout occurs.
+   Changed in version 3.10: Removed the *loop* parameter.

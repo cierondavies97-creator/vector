@@ -1,0 +1,5 @@
+"ValueError" will be raised by the interpreter in a non-specific
+location (that is, no traceback will be provided).
+sys.monitoring.restart_events() -> None
+   Enable all the events that were disabled by
+   "sys.monitoring.DISABLE" for all tools.

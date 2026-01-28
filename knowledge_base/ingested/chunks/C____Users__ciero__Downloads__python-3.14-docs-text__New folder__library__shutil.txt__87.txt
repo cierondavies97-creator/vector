@@ -1,0 +1,3 @@
+the current directory is prepended even if it is already in the
+   search path; "PATHEXT" is used now even when *cmd* includes a
+   directory component or ends with an extension that is in "PATHEXT";

@@ -1,0 +1,4 @@
+"tuple" and "int" do not support weak references even when subclassed.
+Extension types can easily be made to support weak references; see
+Weak Reference Support.
+When "__slots__" are defined for a given type, weak reference support

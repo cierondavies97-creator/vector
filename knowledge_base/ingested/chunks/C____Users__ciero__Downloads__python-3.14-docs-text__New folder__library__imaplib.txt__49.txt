@@ -1,0 +1,5 @@
+subsequent responses. (For example, a rapid series of "EXPUNGE"
+      responses after a bulk delete.)
+      Requires a socket connection; does not work on "IMAP4_stream"
+      connections.
+         >>> with M.idle() as idler:

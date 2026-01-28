@@ -1,0 +1,4 @@
+are interpreted as with the "Parser" class constructor.
+   Changed in version 3.3: Removed the *strict* argument.  Added the
+   *policy* keyword.
+   Changed in version 3.6: *_class* defaults to the policy

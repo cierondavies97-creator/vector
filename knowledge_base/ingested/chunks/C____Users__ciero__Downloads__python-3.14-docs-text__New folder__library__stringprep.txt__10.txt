@@ -1,0 +1,6 @@
+Determine whether *code* is in tableC.1.1  (ASCII space
+   characters).
+stringprep.in_table_c12(code)
+   Determine whether *code* is in tableC.1.2  (Non-ASCII space
+   characters).
+stringprep.in_table_c11_c12(code)

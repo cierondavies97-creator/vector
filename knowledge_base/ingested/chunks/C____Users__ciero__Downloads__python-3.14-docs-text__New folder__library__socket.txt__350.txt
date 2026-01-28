@@ -1,0 +1,6 @@
+can_frame_fmt = "=IB3x8s"
+   can_frame_size = struct.calcsize(can_frame_fmt)
+   def build_can_frame(can_id, data):
+       can_dlc = len(data)
+       data = data.ljust(8, b'\x00')
+       return struct.pack(can_frame_fmt, can_id, can_dlc, data)

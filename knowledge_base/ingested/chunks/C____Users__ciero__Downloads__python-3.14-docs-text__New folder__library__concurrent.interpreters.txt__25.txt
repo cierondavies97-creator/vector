@@ -1,0 +1,5 @@
+With this in mind, the "concurrent.interpreters" module provides a
+"queue.Queue" implementation, available through "create_queue()".
+"Sharing" Objects
+-----------------
+Any data actually shared between interpreters loses the thread-safety

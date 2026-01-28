@@ -1,0 +1,4 @@
+return names for which "is_resource()" would be false.
+      Allowing non-resource names to be returned is to allow for
+      situations where how a package and its resources are stored are
+      known a priori and the non-resource names would be useful. For

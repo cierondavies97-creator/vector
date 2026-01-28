@@ -1,0 +1,5 @@
+"email.errors": Exception and Defect classes
+********************************************
+**Source code:** Lib/email/errors.py
+======================================================================
+The following exception classes are defined in the "email.errors"

@@ -1,0 +1,6 @@
+or if the "py exec" or "pymanager exec" forms of the command were
+used.
+4.1.3. Command help
+-------------------
+The "py help" command will display the full list of supported
+commands, along with their options. Any command may be passed the "-?"

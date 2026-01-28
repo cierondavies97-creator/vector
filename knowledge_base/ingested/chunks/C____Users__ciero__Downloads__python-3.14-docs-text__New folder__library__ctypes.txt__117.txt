@@ -1,0 +1,10 @@
+...
+   >>> point = POINT(10, 20)
+   >>> print(point.x, point.y)
+   10 20
+   >>> point = POINT(y=5)
+   >>> print(point.x, point.y)
+   0 5
+   >>> POINT(1, 2, 3)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

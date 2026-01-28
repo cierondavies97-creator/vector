@@ -1,0 +1,5 @@
+* "mmap" --- Memory-mapped file support
+* Internet Data Handling
+  * "email" --- An email and MIME handling package
+  * "json" --- JSON encoder and decoder
+  * "mailbox" --- Manipulate mailboxes in various formats

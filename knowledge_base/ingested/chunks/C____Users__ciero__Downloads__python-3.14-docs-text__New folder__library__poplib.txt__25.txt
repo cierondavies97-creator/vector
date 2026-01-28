@@ -1,0 +1,7 @@
+doing pending deletes on any disconnect).
+POP3.rset()
+   Remove any deletion marks for the mailbox.
+POP3.noop()
+   Do nothing.  Might be used as a keep-alive.
+POP3.quit()
+   Signoff:  commit changes, unlock mailbox, drop connection.

@@ -1,0 +1,5 @@
+Added in version 3.14.
+LOAD_FAST_CHECK(var_num)
+   Pushes a reference to the local "co_varnames[var_num]" onto the
+   stack, raising an "UnboundLocalError" if the local variable has not
+   been initialized.

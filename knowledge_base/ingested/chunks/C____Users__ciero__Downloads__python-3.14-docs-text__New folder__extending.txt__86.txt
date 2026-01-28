@@ -1,0 +1,3 @@
+and rebuild the interpreter by running **make** in the toplevel
+directory.  You can also run **make** in the "Modules/" subdirectory,
+but then you must first rebuild "Makefile" there by running '**make**

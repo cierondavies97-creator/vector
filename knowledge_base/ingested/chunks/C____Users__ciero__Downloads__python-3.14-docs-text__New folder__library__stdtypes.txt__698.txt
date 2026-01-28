@@ -1,0 +1,6 @@
+>>> m.tobytes()
+            b'abc'
+            >>> bytes(m)
+            b'abc'
+         For non-contiguous arrays the result is equal to the
+         flattened list representation with all elements converted to

@@ -1,0 +1,4 @@
+| "variance()"            | Sample variance of data.                      |
++-------------------------+-----------------------------------------------+
+Statistics for relations between two inputs
+===========================================

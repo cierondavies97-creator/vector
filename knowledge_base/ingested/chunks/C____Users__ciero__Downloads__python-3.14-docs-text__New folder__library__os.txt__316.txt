@@ -1,0 +1,4 @@
+are set, their meaning is platform-dependent.  On some platforms,
+   they are ignored and you should call "chmod()" explicitly to set
+   them.
+   On Windows, a *mode* of "0o700" is specifically handled to apply

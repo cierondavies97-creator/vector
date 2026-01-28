@@ -1,0 +1,4 @@
+Changed in version 3.2: The *rest* parameter was added.
+   storlines(cmd, fp, callback=None)
+      Store a file in line mode.  *cmd* should be an appropriate
+      "STOR" command (see "storbinary()").  Lines are read until EOF

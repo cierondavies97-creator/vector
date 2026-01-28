@@ -1,0 +1,4 @@
+"args", "env".
+   Availability: Unix, Windows, not WASI, not Android, not iOS.
+   "spawnlp()", "spawnlpe()", "spawnvp()" and "spawnvpe()" are not
+   available on Windows.  "spawnle()" and "spawnve()" are not thread-

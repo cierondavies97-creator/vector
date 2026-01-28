@@ -1,0 +1,6 @@
+curses.unget_wch(ch)
+   Push *ch* so the next "get_wch()" will return it.
+   Note:
+     Only one *ch* can be pushed before "get_wch()" is called.
+   Added in version 3.3.
+curses.ungetmouse(id, x, y, z, bstate)

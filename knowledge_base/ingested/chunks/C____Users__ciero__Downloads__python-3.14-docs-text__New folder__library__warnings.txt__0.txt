@@ -1,0 +1,5 @@
+"warnings" --- Warning control
+******************************
+**Source code:** Lib/warnings.py
+======================================================================
+Warning messages are typically issued in situations where it is useful

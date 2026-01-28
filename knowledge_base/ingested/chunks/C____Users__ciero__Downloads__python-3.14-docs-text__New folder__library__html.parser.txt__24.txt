@@ -1,0 +1,5 @@
+form "&name;" (e.g. "&gt;"), where *name* is a general entity
+   reference (e.g. "'gt'"). This method is only called if
+   *convert_charrefs* is false.
+HTMLParser.handle_charref(name)
+   This method is called to process decimal and hexadecimal numeric

@@ -1,0 +1,4 @@
+a 'cannot connect' message that directs the user here.  It then exits.
+One specific connection failure on Unix systems results from
+misconfigured masquerading rules somewhere in a system's network
+setup. When IDLE is started from a terminal, one will see a message

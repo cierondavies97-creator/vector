@@ -1,0 +1,5 @@
+of the enclosing class, function or module.  Since it is available
+   via introspection, it is the canonical place for documentation of
+   the object.
+duck-typing
+   A programming style which does not look at an object's type to

@@ -1,0 +1,3 @@
+headers and header continuation lines, optionally preceded by an
+      envelope header.  The header block is terminated either by the
+      end of the data or by a blank line.  Following the header block

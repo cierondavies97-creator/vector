@@ -1,0 +1,4 @@
+If you want to clear any previously installed progress handler,
+      call the method with "None" for *progress_handler*.
+      Returning a non-zero value from the handler function will
+      terminate the currently executing query and cause it to raise a

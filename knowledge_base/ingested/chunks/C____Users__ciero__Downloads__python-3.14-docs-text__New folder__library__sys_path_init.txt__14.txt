@@ -1,0 +1,5 @@
+documentation.
+Note:
+  Certain command line options may further affect path calculations.
+  See "-E", "-I", "-s" and "-S" for further details.
+Changed in version 3.14: "sys.prefix" and "sys.exec_prefix" are now

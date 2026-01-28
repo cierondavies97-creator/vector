@@ -1,0 +1,4 @@
+"set_result()" method, the result value is returned.
+      If the Future is *done* and has an exception set by the
+      "set_exception()" method, this method raises the exception.
+      If the Future has been *cancelled*, this method raises a

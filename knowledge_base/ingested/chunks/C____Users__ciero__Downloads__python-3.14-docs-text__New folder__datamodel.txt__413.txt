@@ -1,0 +1,4 @@
+module.__class__
+For a more fine grained customization of the module behavior (setting
+attributes, properties, etc.), one can set the "__class__" attribute
+of a module object to a subclass of "types.ModuleType". For example:

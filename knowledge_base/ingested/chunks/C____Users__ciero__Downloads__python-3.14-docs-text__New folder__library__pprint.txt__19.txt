@@ -1,0 +1,5 @@
+detect a recursive object.
+pprint.saferepr(object)
+   Return a string representation of *object*, protected against
+   recursion in some common data structures, namely instances of
+   "dict", "list" and "tuple" or subclasses whose "__repr__" has not

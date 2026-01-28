@@ -1,0 +1,4 @@
+the module will be run and the "tearDownModule" will not be run. If
+the exception is a "SkipTest" exception then the module will be
+reported as having been skipped instead of as an error.
+To add cleanup code that must be run even in the case of an exception,

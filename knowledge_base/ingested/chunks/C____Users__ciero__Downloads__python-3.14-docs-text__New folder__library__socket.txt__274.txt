@@ -1,0 +1,5 @@
+address)", where *nbytes* is the total number of bytes of non-
+   ancillary data written into the buffers, and *ancdata*, *msg_flags*
+   and *address* are the same as for "recvmsg()".
+   Example:
+      >>> import socket

@@ -1,0 +1,4 @@
+template string *template*, as done by the "sub()" method. Escapes
+   such as "\n" are converted to the appropriate characters, and
+   numeric backreferences ("\1", "\2") and named backreferences
+   ("\g<1>", "\g<name>") are replaced by the contents of the

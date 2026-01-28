@@ -1,0 +1,5 @@
+type, if a path or file name is returned.
+Note:
+  Since different operating systems have different path name
+  conventions, there are several versions of this module in the
+  standard library.  The "os.path" module is always the path module

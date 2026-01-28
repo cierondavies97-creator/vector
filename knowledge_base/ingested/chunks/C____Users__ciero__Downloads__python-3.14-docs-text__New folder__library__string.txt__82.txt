@@ -1,0 +1,3 @@
+|           | "'b'", "'o'", "'x'", and "'X'", underscores are inserted   |
+|           | every 4 digits. For other presentation types, this option  |
+|           | is not supported.                                          |

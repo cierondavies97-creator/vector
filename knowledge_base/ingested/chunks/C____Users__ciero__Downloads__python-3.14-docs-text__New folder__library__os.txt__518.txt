@@ -1,0 +1,5 @@
+"topdown", "onerror", "follow_symlinks", "dir_fd".
+   Availability: Unix.
+   Added in version 3.3.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.7: Added support for "bytes" paths.

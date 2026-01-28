@@ -1,0 +1,4 @@
+base, as set by a previous call to "SetBase()".  The public and
+   system identifiers, *systemId* and *publicId*, are strings if
+   given; if the public identifier is not given, *publicId* will be
+   "None".  The *context* value is opaque and should only be used as

@@ -1,0 +1,4 @@
+In addition to providing the defined protocol methods and
+   attributes, subscripting the instance is equivalent to calling the
+   "get()" method.
+Every Distribution Package includes some metadata, which you can

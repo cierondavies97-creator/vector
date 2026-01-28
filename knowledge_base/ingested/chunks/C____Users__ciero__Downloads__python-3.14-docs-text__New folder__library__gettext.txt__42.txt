@@ -1,0 +1,5 @@
+install(names=None)
+      This method installs "gettext()" into the built-in namespace,
+      binding it to "_".
+      If the *names* parameter is given, it must be a sequence
+      containing the names of functions you want to install in the

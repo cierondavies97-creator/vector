@@ -1,0 +1,4 @@
+Exiting a context effectively reverts any changes made to context
+   variables while the context was entered (if needed, the values can
+   be restored by re-entering the context).
+   Context implements the "collections.abc.Mapping" interface.

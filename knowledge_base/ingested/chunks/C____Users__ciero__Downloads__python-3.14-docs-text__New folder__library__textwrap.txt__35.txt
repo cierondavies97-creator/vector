@@ -1,0 +1,5 @@
+One problem with this algorithm is that it is unable to detect
+      the difference between "Dr." in
+         [...] Dr. Frankenstein's monster [...]
+      and "Spot." in
+         [...] See Spot. See Spot run [...]

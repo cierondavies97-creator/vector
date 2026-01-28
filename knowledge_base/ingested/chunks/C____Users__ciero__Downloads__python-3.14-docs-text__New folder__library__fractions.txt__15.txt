@@ -1,0 +1,5 @@
+rules.
+   Changed in version 3.11: "Fraction" implements "__int__" now to
+   satisfy "typing.SupportsInt" instance checks.
+   Changed in version 3.12: Space is allowed around the slash for
+   string inputs: "Fraction('2 / 3')".

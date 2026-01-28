@@ -1,0 +1,8 @@
+>>> time.tzset()
+      >>> time.tzname
+      ('EET', 'EEST')
+Clock ID Constants
+==================
+These constants are used as parameters for "clock_getres()" and
+"clock_gettime()".
+time.CLOCK_BOOTTIME

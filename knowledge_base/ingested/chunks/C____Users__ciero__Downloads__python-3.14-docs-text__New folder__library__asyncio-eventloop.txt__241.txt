@@ -1,0 +1,5 @@
+connections.  Only one "serve_forever" task can exist per one
+      *Server* object.
+      Example:
+         async def client_connected(reader, writer):
+             # Communicate with the client with

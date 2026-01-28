@@ -1,0 +1,3 @@
+| alternate    | A widget-specific alternate display format                    |
++--------------+---------------------------------------------------------------+
+| invalid      | The widget's value is invalid                                 |

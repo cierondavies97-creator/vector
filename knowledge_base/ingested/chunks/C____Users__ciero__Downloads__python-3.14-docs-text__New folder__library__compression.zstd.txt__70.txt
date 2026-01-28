@@ -1,0 +1,4 @@
+"dict_content" containing the raw dictionary contents.
+   The *samples* argument (an iterable of "bytes" objects), contains
+   sample data for generating the Zstandard dictionary.
+   The *dict_size* argument, an integer, is the maximum size (in

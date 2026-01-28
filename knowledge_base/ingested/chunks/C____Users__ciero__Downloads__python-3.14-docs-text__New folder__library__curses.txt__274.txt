@@ -1,0 +1,3 @@
+| curses.KEY_RESIZE         | Terminal resize event                        |
++---------------------------+----------------------------------------------+
+| curses.KEY_MAX            | Maximum key value                            |

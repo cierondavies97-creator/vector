@@ -1,0 +1,4 @@
+If *return_exceptions* is "True", exceptions are treated the same
+   as successful results, and aggregated in the result list.
+   If "gather()" is *cancelled*, all submitted awaitables (that have
+   not completed yet) are also *cancelled*.

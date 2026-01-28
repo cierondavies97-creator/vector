@@ -1,0 +1,10 @@
+...     a + 1
+      ... except TypeError:
+      ...     pass
+      ... """), indent=4))
+      Module(
+          body=[
+              Try(
+                  body=[
+                      Expr(
+                          value=BinOp(

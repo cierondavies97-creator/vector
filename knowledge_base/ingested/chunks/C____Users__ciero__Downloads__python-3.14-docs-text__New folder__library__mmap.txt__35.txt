@@ -1,0 +1,3 @@
+*offset* and *size* are specified, only changes to the given
+      range of bytes will be flushed to disk; otherwise, the whole
+      extent of the mapping is flushed.  *offset* must be a multiple

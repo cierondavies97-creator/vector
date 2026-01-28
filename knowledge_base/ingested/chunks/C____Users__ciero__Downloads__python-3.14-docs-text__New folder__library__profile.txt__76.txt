@@ -1,0 +1,3 @@
+compared in an odd way.  For example, lines 3, 20, and 40 would
+      (if the file names were the same) appear in the string order 20,
+      3 and 40. In contrast, "SortKey.NFL" does a numeric compare of

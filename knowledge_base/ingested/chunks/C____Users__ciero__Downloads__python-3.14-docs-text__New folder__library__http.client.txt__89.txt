@@ -1,0 +1,6 @@
+...
+   >>> import http.client
+   >>> BODY = "***filecontents***"
+   >>> conn = http.client.HTTPConnection("localhost", 8080)
+   >>> conn.request("PUT", "/file", BODY)
+   >>> response = conn.getresponse()

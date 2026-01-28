@@ -1,0 +1,5 @@
+programs. If you're trying to extend the profiler in some way, the
+   task might be easier with this module.  Originally designed and
+   written by Jim Roskind.
+Note:
+  The profiler modules are designed to provide an execution profile

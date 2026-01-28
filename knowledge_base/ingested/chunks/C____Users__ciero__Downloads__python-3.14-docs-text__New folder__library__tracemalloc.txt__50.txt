@@ -1,0 +1,4 @@
+The limit is set by the "start()" function.
+tracemalloc.get_traced_memory()
+   Get the current size and peak size of memory blocks traced by the
+   "tracemalloc" module as a tuple: "(current: int, peak: int)".

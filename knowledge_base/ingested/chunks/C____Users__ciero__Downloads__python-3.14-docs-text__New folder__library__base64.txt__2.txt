@@ -1,0 +1,4 @@
+Base16) and the non-standard Base85 encodings.
+There are two interfaces provided by this module.  The modern
+interface supports encoding *bytes-like objects* to ASCII "bytes", and
+decoding *bytes-like objects* or strings containing ASCII to "bytes".

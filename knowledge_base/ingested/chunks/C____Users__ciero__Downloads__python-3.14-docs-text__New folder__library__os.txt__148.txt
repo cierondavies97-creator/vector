@@ -1,0 +1,6 @@
+calling process; close fd.
+   Availability: Unix, not WASI.
+   Added in version 3.11.
+os.lseek(fd, pos, whence, /)
+   Set the current position of file descriptor *fd* to position *pos*,
+   modified by *whence*, and return the new position in bytes relative

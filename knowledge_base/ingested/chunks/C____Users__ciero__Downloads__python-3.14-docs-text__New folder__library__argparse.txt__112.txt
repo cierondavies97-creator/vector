@@ -1,0 +1,3 @@
+line arguments associated with them, though most actions simply add an
+attribute to the object returned by "parse_args()".  The "action"
+keyword argument specifies how the command-line arguments should be

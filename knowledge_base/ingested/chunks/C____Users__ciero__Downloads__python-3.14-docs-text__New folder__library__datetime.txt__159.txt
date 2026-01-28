@@ -1,0 +1,4 @@
+>>> datetime.fromisoformat('2011-11-04T00:05:23+04:00')
+      datetime.datetime(2011, 11, 4, 0, 5, 23,
+          tzinfo=datetime.timezone(datetime.timedelta(seconds=14400)))
+   Added in version 3.7.

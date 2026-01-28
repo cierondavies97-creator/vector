@@ -1,0 +1,3 @@
+that contains integer constants in decimal in their source that
+  exceed the minimum threshold. A consequence of setting the limit is
+  that Python source code containing decimal integer literals longer

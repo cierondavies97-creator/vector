@@ -1,0 +1,4 @@
+|                      |           | Latin-1 source code. Beware |
+|                      |           | that Python source code     |
+|                      |           | actually uses UTF-8 by      |
+|                      |           | default.                    |

@@ -1,0 +1,4 @@
+memory block plus some *descriptor*s accessing the contents of the
+memory. Storing a Python object in the memory block does not store the
+object itself, instead the "contents" of the object is stored.
+Accessing the contents again constructs a new Python object each time!

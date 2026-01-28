@@ -1,0 +1,6 @@
+>>> mock.async_foo
+   <AsyncMock name='mock.async_foo' id='...'>
+   Added in version 3.8.
+   assert_awaited()
+      Assert that the mock was awaited at least once. Note that this
+      is separate from the object having been called, the "await"

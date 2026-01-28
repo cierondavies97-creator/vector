@@ -1,0 +1,7 @@
+"iscoroutine()".
+   Added in version 3.12.
+inspect.iscoroutine(object)
+   Return "True" if the object is a *coroutine* created by an "async
+   def" function.
+   Added in version 3.5.
+inspect.isawaitable(object)

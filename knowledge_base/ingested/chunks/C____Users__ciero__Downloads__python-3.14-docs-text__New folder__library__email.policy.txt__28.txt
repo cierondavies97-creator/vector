@@ -1,0 +1,5 @@
+wrapping should be done at all.
+   linesep
+      The string to be used to terminate lines in serialized output.
+      The default is "\n" because that's the internal end-of-line
+      discipline used by Python, though "\r\n" is required by the

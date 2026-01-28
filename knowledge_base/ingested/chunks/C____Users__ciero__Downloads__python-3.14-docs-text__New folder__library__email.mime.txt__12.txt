@@ -1,0 +1,3 @@
+A *Content-Type* header of *multipart/_subtype* will be added to
+   the message object.  A *MIME-Version* header will also be added.
+   Optional *boundary* is the multipart boundary string.  When "None"

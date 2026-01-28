@@ -1,0 +1,4 @@
+string object to a bytes object using a particular character set
+      encoding (e.g., "cp1252" or "iso-8859-1").
+      The *errors* argument defines the error handling to apply. It
+      defaults to "'strict'" handling.

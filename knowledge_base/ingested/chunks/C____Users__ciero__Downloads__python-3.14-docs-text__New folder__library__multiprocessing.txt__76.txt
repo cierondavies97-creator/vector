@@ -1,0 +1,3 @@
+global start method can only be set once. If you need to change the
+start method from the system default, you must proactively set the
+global start method before calling functions or methods, or creating

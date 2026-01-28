@@ -1,0 +1,3 @@
+deallocators are frequently called as the interpreter unwinds the
+Python stack; when the stack is unwound due to an exception (rather
+than normal returns), nothing is done to protect the deallocators from

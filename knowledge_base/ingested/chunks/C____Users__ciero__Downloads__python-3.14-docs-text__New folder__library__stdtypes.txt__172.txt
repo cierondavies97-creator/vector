@@ -1,0 +1,3 @@
+value restrictions imposed by *s* (for example, "bytearray" only
+accepts integers that meet the value restriction "0 <= x <= 255").
++--------------------------------+----------------------------------+-----------------------+

@@ -1,0 +1,6 @@
+associated with a value of a consistent type. This expectation is
+   not checked at runtime but is only enforced by type checkers.
+   Usage:
+      class Point2D(TypedDict):
+          x: int
+          y: int

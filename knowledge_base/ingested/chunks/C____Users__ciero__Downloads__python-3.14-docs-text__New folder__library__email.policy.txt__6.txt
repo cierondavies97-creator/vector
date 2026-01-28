@@ -1,0 +1,3 @@
+For all of the "parser" classes and the related convenience functions,
+and for the "Message" class, this is the "Compat32" policy, via its
+corresponding pre-defined instance "compat32".  This policy provides

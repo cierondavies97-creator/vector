@@ -1,0 +1,9 @@
+previous implementations, and valuable experience to the creation of
+this module:
+* Peter Funk
+* James Henstridge
+* Juan David Ibáñez Palomar
+* Marc-André Lemburg
+* Martin von Löwis
+* François Pinard
+* Barry Warsaw

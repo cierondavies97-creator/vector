@@ -1,0 +1,4 @@
+and provides the following methods: "read()", "readline()",
+   "readlines()", "seek()", "tell()", "__iter__()", "__next__()".
+   These objects can operate independently of the ZipFile.
+   With "mode='w'", a writable file handle is returned, which supports

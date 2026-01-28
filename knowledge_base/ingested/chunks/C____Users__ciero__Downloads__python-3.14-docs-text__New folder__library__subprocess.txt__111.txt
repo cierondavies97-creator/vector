@@ -1,0 +1,4 @@
+equivalent  to *text* and is provided for backwards compatibility.
+   By default, file objects are opened in binary mode.
+   Added in version 3.6: *encoding* and *errors* were added.
+   Added in version 3.7: *text* was added as a more readable alias for

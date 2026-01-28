@@ -1,0 +1,5 @@
+return conn.query('SELECT ...')
+   Added in version 3.7.
+   Context managers defined with "asynccontextmanager()" can be used
+   either as decorators or with "async with" statements:
+      import time

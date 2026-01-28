@@ -1,0 +1,6 @@
+specifies the input:
+     class TestFuncAcceptsSequencesMixin:
+         func = mySuperWhammyFunction
+         def test_func(self):
+             self.func(self.arg)
+     class AcceptLists(TestFuncAcceptsSequencesMixin, unittest.TestCase):

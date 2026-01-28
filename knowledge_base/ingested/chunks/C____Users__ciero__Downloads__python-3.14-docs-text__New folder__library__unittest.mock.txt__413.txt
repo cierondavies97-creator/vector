@@ -1,0 +1,7 @@
+>>> order_mock.get_value.return_value = DEFAULT
+>>> order_mock.get_value()
+'third'
+>>> order_mock.get_value.return_value = "second"
+>>> order_mock.get_value()
+'second'
+But if you assign "None" to it, this will not be ignored as it is an

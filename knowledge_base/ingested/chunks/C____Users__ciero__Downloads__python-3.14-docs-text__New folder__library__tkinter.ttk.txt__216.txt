@@ -1,0 +1,5 @@
+For example, to change every default button to be a flat button
+      with some padding and a different background color:
+         from tkinter import ttk
+         import tkinter
+         root = tkinter.Tk()

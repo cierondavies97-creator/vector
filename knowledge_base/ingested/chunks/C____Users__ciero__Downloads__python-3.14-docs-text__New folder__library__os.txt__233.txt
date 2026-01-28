@@ -1,0 +1,3 @@
+to a file descriptor as returned by "os.open()" or "pipe()".  To
+     write a "file object" returned by the built-in function "open()"
+     or by "popen()" or "fdopen()", or "sys.stdout" or "sys.stderr",

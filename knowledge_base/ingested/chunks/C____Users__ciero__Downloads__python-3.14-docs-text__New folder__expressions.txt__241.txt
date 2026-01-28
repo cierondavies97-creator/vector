@@ -1,0 +1,4 @@
+Strings and binary sequences cannot be directly compared.
+* Sequences (instances of "tuple", "list", or "range") can be compared
+  only within each of their types, with the restriction that ranges do
+  not support order comparison.  Equality comparison across these

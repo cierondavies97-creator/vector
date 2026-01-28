@@ -1,0 +1,4 @@
+to the corresponding local variables or nonlocal cell references,
+   and assigning, reassigning, or deleting local variables and
+   nonlocal cell references does *not* affect the contents of
+   previously returned dictionaries.

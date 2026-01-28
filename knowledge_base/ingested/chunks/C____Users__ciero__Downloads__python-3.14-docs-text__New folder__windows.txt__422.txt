@@ -1,0 +1,4 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Two .ini files will be searched by the launcher - "py.ini" in the
+current user's application data directory ("%LOCALAPPDATA%" or
+"$env:LocalAppData") and "py.ini" in the same directory as the

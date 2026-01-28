@@ -1,0 +1,4 @@
+<FrameSummary file <doctest...>, line 4 in lumberjack>,
+    <FrameSummary file <doctest...>, line 7 in bright_side_of_life>]
+   *** format_tb:
+   ['  File "<doctest default[0]>", line 10, in <module>\n    lumberjack()\n    ~~~~~~~~~~^^\n',

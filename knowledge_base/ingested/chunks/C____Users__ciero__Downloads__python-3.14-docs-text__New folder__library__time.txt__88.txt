@@ -1,0 +1,4 @@
+| "%%"        | A literal "'%'" character.                       |         |
+   +-------------+--------------------------------------------------+---------+
+   Notes:
+   1. The "%f" format directive only applies to "strptime()", not to

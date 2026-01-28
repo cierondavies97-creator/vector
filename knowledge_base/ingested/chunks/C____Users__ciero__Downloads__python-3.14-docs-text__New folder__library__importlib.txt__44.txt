@@ -1,0 +1,4 @@
+object that the finder may use to make a more educated guess
+      about what spec to return. "importlib.util.spec_from_loader()"
+      may be useful for implementing concrete "PathEntryFinders".
+      Added in version 3.4.

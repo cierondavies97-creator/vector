@@ -1,0 +1,4 @@
+"WEXITED", "WSTOPPED" or "WCONTINUED" is required; "WNOHANG" and
+   "WNOWAIT" are additional optional flags.
+   The return value is an object representing the data contained in
+   the "siginfo_t" structure with the following attributes:

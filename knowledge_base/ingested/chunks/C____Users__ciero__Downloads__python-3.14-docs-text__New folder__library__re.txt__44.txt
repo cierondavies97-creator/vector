@@ -1,0 +1,4 @@
+digits numbers from "00" to "59", and "[0-9A-Fa-f]" will match
+     any hexadecimal digit.  If "-" is escaped (e.g. "[a\-z]") or if
+     it's placed as the first or last character (e.g. "[-a]" or
+     "[a-]"), it will match a literal "'-'".

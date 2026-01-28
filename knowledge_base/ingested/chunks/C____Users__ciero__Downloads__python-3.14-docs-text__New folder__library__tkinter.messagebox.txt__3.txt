@@ -1,0 +1,4 @@
+Create a message window with an application-specified message, an
+   icon and a set of buttons. Each of the buttons in the message
+   window is identified by a unique symbolic name (see the *type*
+   options).

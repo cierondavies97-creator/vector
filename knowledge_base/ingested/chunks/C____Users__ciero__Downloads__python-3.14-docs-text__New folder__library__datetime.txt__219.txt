@@ -1,0 +1,5 @@
+the future.
+   For aware "datetime" instances, the return value is computed as:
+      (dt - datetime(1970, 1, 1, tzinfo=timezone.utc)).total_seconds()
+   Added in version 3.3.
+   Changed in version 3.6: The "timestamp()" method uses the "fold"

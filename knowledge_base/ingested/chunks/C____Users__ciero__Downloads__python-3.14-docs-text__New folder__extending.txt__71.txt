@@ -1,0 +1,4 @@
+Python.) A pointer to the module definition must be returned via
+"PyModuleDef_Init()", so that the import machinery can create the
+module and store it in "sys.modules".
+When embedding Python, the "PyInit_spam()" function is not called

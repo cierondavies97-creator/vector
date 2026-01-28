@@ -1,0 +1,4 @@
+distribution is available.
+Almost all module functions depend on the basic function "random()",
+which generates a random float uniformly in the half-open range "0.0
+<= X < 1.0". Python uses the Mersenne Twister as the core generator.

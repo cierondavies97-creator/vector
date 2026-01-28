@@ -1,0 +1,4 @@
+by the application program, and whatever the method returns is
+      what is passed back to the application as the value of the
+      header being retrieved. Note that there may be more than one
+      header with the same name stored in the "Message"; the method is

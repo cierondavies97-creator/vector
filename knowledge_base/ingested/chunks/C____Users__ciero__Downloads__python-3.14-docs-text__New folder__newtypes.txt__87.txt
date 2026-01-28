@@ -1,0 +1,5 @@
+successful, as seen above.
+   ternaryfunc tp_call;
+This function is called when an instance of your data type is
+"called", for example, if "obj1" is an instance of your data type and
+the Python script contains "obj1('hello')", the "tp_call" handler is

@@ -1,0 +1,4 @@
+print("For the moment, the pool remains available for more work")
+       # exiting the 'with'-block has stopped the pool
+       print("Now the pool is closed and no longer available")
+Note that the methods of a pool should only ever be used by the

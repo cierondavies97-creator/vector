@@ -1,0 +1,4 @@
+between the file name and the suffix; if you need one, put it at
+   the beginning of *suffix*.
+   If *prefix* is not "None", the file name will begin with that
+   prefix; otherwise, a default prefix is used.  The default is the

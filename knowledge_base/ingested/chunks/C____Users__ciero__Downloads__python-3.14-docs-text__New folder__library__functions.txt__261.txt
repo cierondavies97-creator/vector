@@ -1,0 +1,4 @@
+present and *exp* is negative, *base* must be relatively prime to
+   *mod*. In that case, "pow(inv_base, -exp, mod)" is returned, where
+   *inv_base* is an inverse to *base* modulo *mod*.
+   Here's an example of computing an inverse for "38" modulo "97":

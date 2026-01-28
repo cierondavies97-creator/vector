@@ -1,0 +1,4 @@
+form (*action*, *message*, *category*, *module*, *lineno*), where:
+* *action* is one of the following strings:
+  +-----------------+------------------------------------------------+
+  | Value           | Disposition                                    |

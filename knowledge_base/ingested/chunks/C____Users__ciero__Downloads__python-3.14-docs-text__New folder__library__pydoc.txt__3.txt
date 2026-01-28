@@ -1,0 +1,4 @@
+the block of comment lines just above the definition of the class,
+function or method in the source file, or at the top of the module
+(see "inspect.getcomments()").
+The built-in function "help()" invokes the online help system in the

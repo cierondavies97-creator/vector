@@ -1,0 +1,5 @@
+Changed in version 3.4: Added support for data URLs.
+* The caching feature of "urlretrieve()" has been disabled until
+  someone finds the time to hack proper processing of Expiration time
+  headers.
+* There should be a function to query whether a particular URL is in

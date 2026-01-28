@@ -1,0 +1,3 @@
+| *filemode*     | If *filename* is specified, open the file in  |
+   |                | this mode. Defaults to "'a'".                 |
+   +----------------+-----------------------------------------------+

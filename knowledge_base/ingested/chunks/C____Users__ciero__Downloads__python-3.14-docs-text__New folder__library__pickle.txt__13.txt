@@ -1,0 +1,4 @@
+guaranteed to be backwards compatible across Python releases
+  provided a compatible pickle protocol is chosen and pickling and
+  unpickling code deals with Python 2 to Python 3 type differences if
+  your data is crossing that unique breaking change language boundary.

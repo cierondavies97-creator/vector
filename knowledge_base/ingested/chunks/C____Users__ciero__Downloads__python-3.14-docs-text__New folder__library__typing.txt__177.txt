@@ -1,0 +1,5 @@
+class Connection:
+          TIMEOUT: Final[int] = 10
+      class FastConnector(Connection):
+          TIMEOUT = 1  # Error reported by type checker
+   There is no runtime checking of these properties. See **PEP 591**

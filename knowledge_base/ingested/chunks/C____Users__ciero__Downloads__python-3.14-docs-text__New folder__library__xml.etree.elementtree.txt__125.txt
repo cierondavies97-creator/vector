@@ -1,0 +1,4 @@
+string containing XML data.  *parser* is an optional parser
+   instance.  If not given, the standard "XMLParser" parser is used.
+   Returns a tuple containing an "Element" instance and a dictionary.
+XInclude support

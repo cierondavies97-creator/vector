@@ -1,0 +1,6 @@
+"type(STACK[-1]).__xxx__; STACK[-1]" on the stack. If
+   "type(STACK[-1]).__xxx__" is not a method, leave
+   "STACK[-1].__xxx__; NULL" on the stack.
+   Added in version 3.14.
+**Pseudo-instructions**
+These opcodes do not appear in Python bytecode. They are used by the

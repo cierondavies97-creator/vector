@@ -1,0 +1,4 @@
+*above*, *to the left of*, *filling*, etc - and works everything out
+to determine the exact placement coordinates for you.
+The size of any *master* widget is determined by the size of the
+"slave widgets" inside.  The packer is used to control where slave

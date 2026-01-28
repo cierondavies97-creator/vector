@@ -1,0 +1,5 @@
+Changed in version 3.12: Added the *eager_start* parameter.
+   done()
+      Return "True" if the Task is *done*.
+      A Task is *done* when the wrapped coroutine either returned a
+      value, raised an exception, or the Task was cancelled.

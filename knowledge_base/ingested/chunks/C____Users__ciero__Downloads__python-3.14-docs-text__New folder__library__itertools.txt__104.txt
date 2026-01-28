@@ -1,0 +1,6 @@
+yield tuple(pool[i] for i in indices[:r])
+          while n:
+              for i in reversed(range(r)):
+                  cycles[i] -= 1
+                  if cycles[i] == 0:
+                      indices[i:] = indices[i+1:] + indices[i:i+1]

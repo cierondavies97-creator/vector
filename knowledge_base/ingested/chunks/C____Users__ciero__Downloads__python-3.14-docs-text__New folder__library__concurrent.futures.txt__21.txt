@@ -1,0 +1,5 @@
+e.submit(shutil.copy, 'src4.txt', 'dest4.txt')
+      Changed in version 3.9: Added *cancel_futures*.
+ThreadPoolExecutor
+==================
+"ThreadPoolExecutor" is an "Executor" subclass that uses a pool of

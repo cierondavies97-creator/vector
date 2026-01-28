@@ -1,0 +1,6 @@
+the Python interpreter.  For example, if you have a shebang line:
+   #! /usr/bin/python -v
+Then Python will be started with the "-v" option
+4.12.4. Customization
+---------------------
+4.12.4.1. Customization via INI files

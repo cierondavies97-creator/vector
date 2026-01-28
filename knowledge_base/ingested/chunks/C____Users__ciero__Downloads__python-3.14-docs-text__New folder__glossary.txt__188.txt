@@ -1,0 +1,5 @@
+extra methods that may not be found in hand-written or built-in
+   named tuples.
+namespace
+   The place where a variable is stored.  Namespaces are implemented
+   as dictionaries.  There are the local, global and built-in

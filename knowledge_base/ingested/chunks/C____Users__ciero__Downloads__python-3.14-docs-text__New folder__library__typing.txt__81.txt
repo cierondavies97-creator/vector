@@ -1,0 +1,4 @@
+for each position. In the following example, "MyIterable" is not
+generic but implicitly inherits from "Iterable[Any]":
+   from collections.abc import Iterable
+   class MyIterable(Iterable): # Same as Iterable[Any]

@@ -1,0 +1,4 @@
+items are ignored. Here's an example of both styles:
+   con = sqlite3.connect(":memory:")
+   cur = con.execute("CREATE TABLE lang(name, first_appeared)")
+   # This is the named style used with executemany():

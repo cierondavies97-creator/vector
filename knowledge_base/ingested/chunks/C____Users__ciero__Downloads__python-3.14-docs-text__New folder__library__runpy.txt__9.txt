@@ -1,0 +1,4 @@
+minimal set of variables - other variables may be set implicitly as
+   an interpreter implementation detail.)
+   "__name__" is set to *run_name* if this optional argument is not
+   "None", to "mod_name + '.__main__'" if the named module is a

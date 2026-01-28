@@ -1,0 +1,4 @@
+constructor (the default), the "us-ascii" character set is used
+   both as *s*'s initial charset and as the default for subsequent
+   "append()" calls.
+   The maximum line length can be specified explicitly via

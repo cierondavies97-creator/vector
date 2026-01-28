@@ -1,0 +1,5 @@
+display different parts of the parent window at the same physical
+   position on the screen.
+window.mvwin(new_y, new_x)
+   Move the window so its upper-left corner is at "(new_y, new_x)".
+window.nodelay(flag)

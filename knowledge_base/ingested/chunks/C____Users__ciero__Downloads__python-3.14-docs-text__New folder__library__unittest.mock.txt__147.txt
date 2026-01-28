@@ -1,0 +1,7 @@
+...
+      >>> calls = [call("foo"), call("bar")]
+      >>> mock.assert_has_awaits(calls)
+      Traceback (most recent call last):
+      ...
+      AssertionError: Awaits not found.
+      Expected: [call('foo'), call('bar')]

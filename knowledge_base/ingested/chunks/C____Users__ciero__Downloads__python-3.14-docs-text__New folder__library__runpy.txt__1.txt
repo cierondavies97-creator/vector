@@ -1,0 +1,4 @@
+importing them first. Its main use is to implement the "-m" command
+line switch that allows scripts to be located using the Python module
+namespace rather than the filesystem.
+Note that this is *not* a sandbox module - all code is executed in the

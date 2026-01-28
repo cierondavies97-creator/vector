@@ -1,0 +1,6 @@
+CPython, look for documentation from your distributor (that is,
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+See also:
+  Installing Python Modules
+     The end user guide for installing Python packages

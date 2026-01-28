@@ -1,0 +1,7 @@
+On Windows, the default event loop "ProactorEventLoop" supports
+subprocesses, whereas "SelectorEventLoop" does not.
+macOS
+=====
+Modern macOS versions are fully supported.
+-[ macOS <= 10.8 ]-
+On macOS 10.6, 10.7 and 10.8, the default event loop uses

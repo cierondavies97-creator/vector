@@ -1,0 +1,9 @@
+Namespace(bar='X', foo='Y')
+   >>> parser.print_help()
+   usage:  [-h] [--foo FOO] bar
+   positional arguments:
+    bar
+   options:
+    -h, --help  show this help message and exit
+    --foo FOO
+An alternative name can be specified with "metavar":

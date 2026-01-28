@@ -1,0 +1,5 @@
+"as_bytes()" and "BytesGenerator".)
+      Changed in version 3.4: the *policy* keyword argument was added.
+   __str__()
+      Equivalent to "as_string()".  Allows "str(msg)" to produce a
+      string containing the formatted message.

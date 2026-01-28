@@ -1,0 +1,4 @@
+Added in version 3.14.
+   limit_denominator(max_denominator=1000000)
+      Finds and returns the closest "Fraction" to "self" that has
+      denominator at most max_denominator.  This method is useful for

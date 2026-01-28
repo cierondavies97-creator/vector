@@ -1,0 +1,5 @@
+encoder/decoder to implement the file protocols. Codec authors also
+need to define how the codec will handle encoding and decoding errors.
+Error Handlers
+--------------
+To simplify and standardize error handling, codecs may implement

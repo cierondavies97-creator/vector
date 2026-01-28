@@ -1,0 +1,5 @@
+control behaviour to the "Connection.isolation_level" attribute. See
+Transaction control via the isolation_level attribute for more
+information.
+Transaction control via the "isolation_level" attribute
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

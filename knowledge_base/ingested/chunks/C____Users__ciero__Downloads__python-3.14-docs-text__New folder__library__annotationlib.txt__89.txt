@@ -1,0 +1,5 @@
+return {key: value for key, value in annos.items() if key not in classvar_keys}
+         else:  # no annotations
+            classvars = {}
+            wrapped_annotate = None
+         typ = super().__new__(mcls, name, bases, ns)

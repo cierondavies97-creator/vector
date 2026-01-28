@@ -1,0 +1,4 @@
+managers*. "mkstemp()" and "mkdtemp()" are lower-level functions which
+require manual cleanup.
+All the user-callable functions and constructors take additional
+arguments which allow direct control over the location and name of

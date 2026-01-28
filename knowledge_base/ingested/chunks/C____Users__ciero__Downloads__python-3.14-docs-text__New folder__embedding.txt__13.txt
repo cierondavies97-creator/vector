@@ -1,0 +1,10 @@
+if (Py_FinalizeEx() < 0) {
+           exit(120);
+       }
+       return 0;
+     exception:
+        PyConfig_Clear(&config);
+        Py_ExitStatusException(status);
+   }
+Note:
+  "#define PY_SSIZE_T_CLEAN" was used to indicate that "Py_ssize_t"

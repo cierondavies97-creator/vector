@@ -1,0 +1,3 @@
+"readlines()" method of file-like objects.  The delta generated
+      also consists of newline-terminated strings, ready to be printed
+      as-is via the "writelines()" method of a file-like object.

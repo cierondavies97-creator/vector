@@ -1,0 +1,4 @@
+or by "popen()" or "fdopen()", or "sys.stdin", use its "read()"
+     or "readline()" methods.
+   Changed in version 3.5: If the system call is interrupted and the
+   signal handler does not raise an exception, the function now

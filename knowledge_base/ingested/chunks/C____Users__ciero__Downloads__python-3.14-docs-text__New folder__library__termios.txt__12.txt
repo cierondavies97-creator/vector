@@ -1,0 +1,5 @@
+termios.tcgetwinsize(fd)
+   Return a tuple "(ws_row, ws_col)" containing the tty window size
+   for file descriptor *fd*. Requires "termios.TIOCGWINSZ" or
+   "termios.TIOCGSIZE".
+   Added in version 3.11.

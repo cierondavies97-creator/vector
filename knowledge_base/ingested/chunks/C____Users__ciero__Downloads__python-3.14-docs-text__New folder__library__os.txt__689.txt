@@ -1,0 +1,5 @@
+on directories).
+   When launching an application, specify *arguments* to be passed as
+   a single string. This argument may have no effect when using this
+   function to launch a document.
+   The default working directory is inherited, but may be overridden

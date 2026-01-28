@@ -1,0 +1,7 @@
+Module(
+          body=[
+              AnnAssign(
+                  target=Subscript(
+                      value=Name(id='a', ctx=Load()),
+                      slice=Constant(value=1),
+                      ctx=Store()),

@@ -1,0 +1,6 @@
+>>> turtle.shapesize(4,2)
+      >>> turtle.shearfactor(-0.5)
+      >>> turtle.shapetransform()
+      (4.0, -1.0, -0.0, 2.0)
+turtle.get_shapepoly()
+   Return the current shape polygon as tuple of coordinate pairs. This

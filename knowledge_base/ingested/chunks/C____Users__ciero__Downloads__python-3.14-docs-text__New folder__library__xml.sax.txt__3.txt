@@ -1,0 +1,5 @@
+files from the file system for DTD and entities. The feature can be
+enabled again with method "setFeature()" on the parser object and
+argument "feature_external_ges".
+The convenience functions are:
+xml.sax.make_parser(parser_list=[])

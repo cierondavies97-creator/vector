@@ -1,0 +1,4 @@
+"version" argument to OptionParser:
+   parser = OptionParser(usage="%prog [-f] [-q]", version="%prog 1.0")
+"%prog" is expanded just like it is in "usage".  Apart from that,
+"version" can contain anything you like.  When you supply it,

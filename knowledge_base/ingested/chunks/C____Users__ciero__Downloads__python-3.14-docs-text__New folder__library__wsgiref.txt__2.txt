@@ -1,0 +1,3 @@
+Only authors of web servers and programming frameworks need to know
+every detail and corner case of the WSGI design.  You don't need to
+understand every detail of WSGI just to install a WSGI application or

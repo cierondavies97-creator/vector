@@ -1,0 +1,3 @@
+It provides the ability to disable the collector, tune the collection
+frequency, and set debugging options.  It also provides access to
+unreachable objects that the collector found but cannot free.  Since

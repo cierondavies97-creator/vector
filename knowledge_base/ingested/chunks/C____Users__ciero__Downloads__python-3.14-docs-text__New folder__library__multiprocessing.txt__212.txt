@@ -1,0 +1,5 @@
+Instantiating this class may set the global start method. See
+   Global start method for more details.
+   Added in version 3.3.
+class multiprocessing.BoundedSemaphore([value])
+   A bounded semaphore object: a close analog of

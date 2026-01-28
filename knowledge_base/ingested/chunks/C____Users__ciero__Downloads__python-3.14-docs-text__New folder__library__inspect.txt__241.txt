@@ -1,0 +1,5 @@
+traceback corresponds to.
+   Changed in version 3.11: "Traceback" is now a class instance (that
+   is backwards compatible with the previous *named tuple*).
+Note:
+  Keeping references to frame objects, as found in the first element

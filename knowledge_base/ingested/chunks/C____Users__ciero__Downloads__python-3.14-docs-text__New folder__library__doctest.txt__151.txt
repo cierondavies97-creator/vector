@@ -1,0 +1,4 @@
+Convert doctest tests from one or more text files to a
+   "unittest.TestSuite".
+   The returned "unittest.TestSuite" is to be run by the unittest
+   framework and runs the interactive examples in each file.  If an

@@ -1,0 +1,6 @@
+"ID", "ID_LIKE", "VERSION_ID", or "VARIANT_ID" to identify Linux
+   distributions.
+   Example:
+      def get_like_distro():
+          info = platform.freedesktop_os_release()
+          ids = [info["ID"]]

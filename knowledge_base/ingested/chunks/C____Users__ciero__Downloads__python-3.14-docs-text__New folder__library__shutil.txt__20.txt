@@ -1,0 +1,4 @@
+the "extended attributes" where possible.  The file contents,
+   owner, and group are unaffected.  *src* and *dst* are *path-like
+   objects* or path names given as strings.
+   If *follow_symlinks* is false, and *src* and *dst* both refer to

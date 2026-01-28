@@ -1,0 +1,4 @@
+function call, you should use "byref(obj)" which is much faster.
+ctypes.resize(obj, size)
+   This function resizes the internal memory buffer of *obj*, which
+   must be an instance of a ctypes type.  It is not possible to make

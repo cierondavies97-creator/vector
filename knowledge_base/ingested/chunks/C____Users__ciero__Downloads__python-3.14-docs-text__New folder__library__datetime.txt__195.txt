@@ -1,0 +1,3 @@
+"time" object.
+datetime.replace(year=self.year, month=self.month, day=self.day, hour=self.hour, minute=self.minute, second=self.second, microsecond=self.microsecond, tzinfo=self.tzinfo, *, fold=0)
+   Return a new "datetime" object with the same attributes, but with

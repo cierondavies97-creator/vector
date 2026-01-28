@@ -1,0 +1,7 @@
+_PyAST_Tuple(a, Load, EXTRA) }
+   set[expr_ty]: '{' a=star_named_expressions '}' { _PyAST_Set(a, EXTRA) }
+   # Dicts
+   # -----
+   dict[expr_ty]:
+       | '{' a=[double_starred_kvpairs] '}' {
+           _PyAST_Dict(

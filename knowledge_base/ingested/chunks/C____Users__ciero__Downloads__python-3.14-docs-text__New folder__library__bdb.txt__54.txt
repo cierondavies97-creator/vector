@@ -1,0 +1,4 @@
+restart_events()
+      Restart all the disabled events. This function is automatically
+      called in "dispatch_*" methods after "user_*" methods are
+      called. If the "dispatch_*" methods are not overridden, the

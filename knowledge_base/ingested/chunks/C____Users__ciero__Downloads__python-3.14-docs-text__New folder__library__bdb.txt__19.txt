@@ -1,0 +1,6 @@
+mode, is returned unchanged.
+   start_trace(self)
+      Start tracing. For "'settrace'" backend, this method is
+      equivalent to "sys.settrace(self.trace_dispatch)"
+      Added in version 3.14.
+   stop_trace(self)

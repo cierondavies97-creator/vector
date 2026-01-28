@@ -1,0 +1,4 @@
+Automatically called at the time the owning class *owner* is
+   created. The object has been assigned to *name* in that class:
+      class A:
+          x = C()  # Automatically calls: x.__set_name__(A, 'x')

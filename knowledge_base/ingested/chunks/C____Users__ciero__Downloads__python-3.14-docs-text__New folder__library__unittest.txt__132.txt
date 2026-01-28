@@ -1,0 +1,4 @@
+All the assert methods accept a *msg* argument that, if specified,
+   is used as the error message on failure (see also "longMessage").
+   Note that the *msg* keyword argument can be passed to
+   "assertRaises()", "assertRaisesRegex()", "assertWarns()",

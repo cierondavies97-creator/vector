@@ -1,0 +1,5 @@
+* "'thread_time'": "time.thread_time()"
+   * "'time'": "time.time()"
+   The result has the following attributes:
+   * *adjustable*: "True" if the clock can be set to jump forward or
+     backward in time, "False" otherwise. Does not refer to gradual

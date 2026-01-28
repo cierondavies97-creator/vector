@@ -1,0 +1,7 @@
+typecode
+      The typecode character used to create the array.
+   itemsize
+      The length in bytes of one array item in the internal
+      representation.
+   append(x)
+      Append a new item with value *x* to the end of the array.

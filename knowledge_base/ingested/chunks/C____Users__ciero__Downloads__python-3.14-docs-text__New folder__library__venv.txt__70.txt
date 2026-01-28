@@ -1,0 +1,5 @@
+directories.
+      Changed in version 3.12: The attribute "lib_path" was added to
+      the context, and the context object was documented.
+   create_configuration(context)
+      Creates the "pyvenv.cfg" configuration file in the environment.

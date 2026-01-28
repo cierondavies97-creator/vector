@@ -1,0 +1,3 @@
+on a trailing blank goes to the end of that line instead, and
+      trailing blanks are stripped when the window contents are
+      gathered.

@@ -1,0 +1,6 @@
+comparison.
+test.support.NEVER_EQ
+   Object that is not equal to anything (even to "ALWAYS_EQ"). Used to
+   test mixed type comparison.
+test.support.LARGEST
+   Object that is greater than anything (except itself). Used to test

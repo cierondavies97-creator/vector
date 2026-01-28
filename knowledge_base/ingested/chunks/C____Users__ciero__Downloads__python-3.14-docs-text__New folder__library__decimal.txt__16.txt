@@ -1,0 +1,4 @@
+treated as exceptions.  Rounding options include "ROUND_CEILING",
+"ROUND_DOWN", "ROUND_FLOOR", "ROUND_HALF_DOWN", "ROUND_HALF_EVEN",
+"ROUND_HALF_UP", "ROUND_UP", and "ROUND_05UP".
+Signals are groups of exceptional conditions arising during the course

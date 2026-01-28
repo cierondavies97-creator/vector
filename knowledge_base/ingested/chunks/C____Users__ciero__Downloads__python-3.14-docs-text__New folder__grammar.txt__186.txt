@@ -1,0 +1,5 @@
+| ','.kwarg_or_starred+
+       | ','.kwarg_or_double_starred+
+   starred_expression[expr_ty]:
+       | invalid_starred_expression_unpacking
+       | '*' a=expression { _PyAST_Starred(a, Load, EXTRA) }

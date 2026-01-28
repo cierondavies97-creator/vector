@@ -1,0 +1,8 @@
+* "datetime" --- Basic date and time types
+  * Aware and Naive Objects
+  * Constants
+  * Available Types
+    * Common Properties
+    * Determining if an Object is Aware or Naive
+  * "timedelta" Objects
+    * Examples of usage: "timedelta"

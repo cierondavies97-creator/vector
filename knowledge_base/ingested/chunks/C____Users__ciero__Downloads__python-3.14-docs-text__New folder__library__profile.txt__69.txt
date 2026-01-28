@@ -1,0 +1,3 @@
+| "'ncalls'"         | N/A                   | call count             |
+      +--------------------+-----------------------+------------------------+
+      | "'pcalls'"         | SortKey.PCALLS        | primitive call count   |

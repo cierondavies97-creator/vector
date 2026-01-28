@@ -1,0 +1,4 @@
+a higher level Streams API. It polls for events using the
+  "selectors" module and handles "SSLWantWriteError",
+  "SSLWantReadError" and "BlockingIOError" exceptions. It runs the SSL
+  handshake asynchronously as well.

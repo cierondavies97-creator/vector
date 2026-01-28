@@ -1,0 +1,2 @@
+|                                   |                                   | nearest  * "2": toward positive   |
+   |                                   |                                   | infinity  * "3": toward negative  |

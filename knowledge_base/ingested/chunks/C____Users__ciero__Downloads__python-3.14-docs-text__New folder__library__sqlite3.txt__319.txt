@@ -1,0 +1,4 @@
+exist; will raise "OperationalError" if unable to create a new file:
+   >>> con = sqlite3.connect("file:nosuchdb.db?mode=rw", uri=True)
+   Traceback (most recent call last):
+   OperationalError: unable to open database file

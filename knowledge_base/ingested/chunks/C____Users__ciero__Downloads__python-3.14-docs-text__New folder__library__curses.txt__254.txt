@@ -1,0 +1,3 @@
+| curses.KEY_SCOMMAND       | Shifted Command                              |
++---------------------------+----------------------------------------------+
+| curses.KEY_SCOPY          | Shifted Copy                                 |

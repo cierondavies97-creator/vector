@@ -1,0 +1,4 @@
+or "*", or optional arguments marked as "required=True".
+Providing "default=argparse.SUPPRESS" causes no attribute to be added
+if the command-line argument was not present:
+   >>> parser = argparse.ArgumentParser()

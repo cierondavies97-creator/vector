@@ -1,0 +1,5 @@
+Namespace(foo_bar='1', x='2')
+"dest" allows a custom attribute name to be provided:
+   >>> parser = argparse.ArgumentParser()
+   >>> parser.add_argument('--foo', dest='bar')
+   >>> parser.parse_args('--foo XXX'.split())

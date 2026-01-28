@@ -1,0 +1,3 @@
+|                         | including descendants, does not equal the given        |
+|                         | "text".  Added in version 3.10.                        |
++-------------------------+--------------------------------------------------------+

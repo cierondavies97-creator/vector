@@ -1,0 +1,4 @@
+operation occurs within the kernel, avoiding the use of userspace
+buffers in Python as in ""outfd.write(infd.read())"".
+On macOS fcopyfile is used to copy the file content (not metadata).
+On Linux "os.copy_file_range()" or "os.sendfile()" is used.

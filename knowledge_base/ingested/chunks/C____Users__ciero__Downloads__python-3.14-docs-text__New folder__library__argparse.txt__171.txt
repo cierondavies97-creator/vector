@@ -1,0 +1,4 @@
+Namespace(short_title='"the-tale-of-two-citi')
+The "bool()" function is not recommended as a type converter.  All it
+does is convert empty strings to "False" and non-empty strings to
+"True". This is usually not what is desired.

@@ -1,0 +1,3 @@
+The *name* parameter contains the name of the element type as a
+   "(uri, localname)" tuple, the *qname* parameter contains the raw
+   XML 1.0 name used in the source document, and the *attrs* parameter

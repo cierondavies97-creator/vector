@@ -1,0 +1,6 @@
+fewer responsibilities.
+5.3.3. Import hooks
+-------------------
+The import machinery is designed to be extensible; the primary
+mechanism for this are the *import hooks*.  There are two types of
+import hooks: *meta hooks* and *import path hooks*.

@@ -1,0 +1,4 @@
+to a file descriptor as returned by "os.open()" or "pipe()".  To
+     close a "file object" returned by the built-in function "open()"
+     or by "popen()" or "fdopen()", use its "close()" method.
+os.closerange(fd_low, fd_high, /)

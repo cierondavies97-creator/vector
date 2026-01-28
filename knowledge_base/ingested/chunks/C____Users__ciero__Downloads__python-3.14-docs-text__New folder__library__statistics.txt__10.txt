@@ -1,0 +1,3 @@
+| "mean()"                | Arithmetic mean ("average") of data.                            |
++-------------------------+-----------------------------------------------------------------+
+| "fmean()"               | Fast, floating-point arithmetic mean, with optional weighting.  |

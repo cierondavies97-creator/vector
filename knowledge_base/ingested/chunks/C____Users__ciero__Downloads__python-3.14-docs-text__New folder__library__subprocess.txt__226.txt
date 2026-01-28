@@ -1,0 +1,3 @@
+Return output (stdout and stderr) of executing *cmd* in a shell.
+   Like "getstatusoutput()", except the exit code is ignored and the
+   return value is a string containing the command's output.  Example:

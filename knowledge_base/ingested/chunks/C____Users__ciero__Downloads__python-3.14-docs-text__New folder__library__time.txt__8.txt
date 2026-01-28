@@ -1,0 +1,3 @@
+(determined by local law) and can change from year to year.  The C
+  library has a table containing the local rules (often it is read
+  from a system file for flexibility) and is the only source of True

@@ -1,0 +1,4 @@
+Calls the reentrant C standard library function "ptsname_r()" if it
+   is available; otherwise, the C standard library function
+   "ptsname()", which is not guaranteed to be thread-safe, is called.
+   Availability: Unix, not WASI.

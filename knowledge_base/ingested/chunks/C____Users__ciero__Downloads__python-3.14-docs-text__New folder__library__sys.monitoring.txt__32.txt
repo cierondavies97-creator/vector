@@ -1,0 +1,6 @@
+event will trigger only once, even if it is turned on both globally
+and locally.
+Setting events globally
+-----------------------
+Events can be controlled globally by modifying the set of events being
+monitored.

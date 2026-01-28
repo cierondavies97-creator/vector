@@ -1,0 +1,4 @@
+The Lib/idlelib package implements the IDLE application.  See the rest
+of this page for how to use IDLE.
+The files in idlelib are described in idlelib/README.txt.  Access it
+either in idlelib or click Help => About IDLE on the IDLE menu.  This

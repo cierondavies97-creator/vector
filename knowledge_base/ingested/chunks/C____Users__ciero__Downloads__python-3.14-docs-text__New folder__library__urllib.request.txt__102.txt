@@ -1,0 +1,4 @@
+Changed in version 3.4: The request methods add_data, has_data,
+get_data, get_type, get_host, get_selector, get_origin_req_host and
+is_unverifiable that were deprecated since 3.3 have been removed.
+OpenerDirector Objects

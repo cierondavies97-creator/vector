@@ -1,0 +1,5 @@
+content type and CTE header using the *_subtype* and *_charset* values
+passed during the instantiation of that class.
+The remaining text in this section is the original documentation of
+the module.
+When creating "Message" objects from scratch, you often need to encode

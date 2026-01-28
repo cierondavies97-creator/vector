@@ -1,0 +1,5 @@
+-s S, --setup=S
+   statement to be executed once initially (default "pass")
+-p, --process
+   measure process time, not wallclock time, using
+   "time.process_time()" instead of "time.perf_counter()", which is

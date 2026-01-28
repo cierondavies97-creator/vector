@@ -1,0 +1,8 @@
+operator.__pos__(obj)
+   Return *obj* positive ("+obj").
+operator.pow(a, b)
+operator.__pow__(a, b)
+   Return "a ** b", for *a* and *b* numbers.
+operator.rshift(a, b)
+operator.__rshift__(a, b)
+   Return *a* shifted right by *b*.

@@ -1,0 +1,4 @@
+attributes with values ready to start debugging.
+   trace_dispatch(frame, event, arg)
+      This function is installed as the trace function of debugged
+      frames.  Its return value is the new trace function (in most

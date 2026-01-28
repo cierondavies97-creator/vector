@@ -1,0 +1,5 @@
+"Semaphore" example
+-------------------
+Semaphores are often used to guard resources with limited capacity,
+for example, a database server.  In any situation where the size of
+the resource is fixed, you should use a bounded semaphore.  Before

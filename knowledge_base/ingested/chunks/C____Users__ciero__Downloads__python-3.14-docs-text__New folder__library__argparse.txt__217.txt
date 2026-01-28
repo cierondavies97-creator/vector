@@ -1,0 +1,5 @@
+action.
+      * *namespace* - The "Namespace" object that will be returned by
+        "parse_args()".  Most actions add an attribute to this object
+        using "setattr()".
+      * *values* - The associated command-line arguments, with any

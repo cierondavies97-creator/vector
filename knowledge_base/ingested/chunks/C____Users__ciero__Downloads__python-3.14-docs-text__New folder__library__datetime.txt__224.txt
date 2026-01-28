@@ -1,0 +1,5 @@
+"weekday()", "isocalendar()".
+datetime.isocalendar()
+   Return a *named tuple* with three components: "year", "week" and
+   "weekday". The same as "self.date().isocalendar()".
+datetime.isoformat(sep='T', timespec='auto')

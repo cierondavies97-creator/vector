@@ -1,0 +1,6 @@
+"?"
+   Matches one non-separator character.
+"[seq]"
+   Matches one character in *seq*, where *seq* is a sequence of
+   characters. Range expressions are supported; for example, "[a-z]"
+   matches any lowercase ASCII letter. Multiple ranges can be

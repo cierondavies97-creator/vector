@@ -1,0 +1,4 @@
+"dump()" using the same *fp* will result in an invalid JSON file.
+   Parameters:
+      * **obj** (*object*) -- The Python object to be serialized.
+      * **fp** (*file-like object*) -- The file-like object *obj* will

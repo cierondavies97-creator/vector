@@ -1,0 +1,5 @@
+Using "fill()" is equivalent to adding the "begin_fill()" before
+   the fill-block and "end_fill()" after the fill-block:
+      >>> turtle.color("black", "red")
+      >>> turtle.begin_fill()
+      >>> turtle.circle(80)

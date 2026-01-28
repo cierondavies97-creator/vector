@@ -1,0 +1,4 @@
+UTF-8 (only).  In this module, UTF-8 will automatically be used
+     to write the member names if they contain any non-ASCII
+     characters.  It is not possible to write member names in any
+     encoding other than ASCII or UTF-8.

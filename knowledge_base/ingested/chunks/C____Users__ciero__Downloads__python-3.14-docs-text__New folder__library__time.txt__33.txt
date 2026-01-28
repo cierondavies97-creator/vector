@@ -1,0 +1,5 @@
+NTP rate adjustments.
+   * *implementation*: The name of the underlying C function used to
+     get the clock value.  Refer to Clock ID Constants for possible
+     values.
+   * *monotonic*: "True" if the clock cannot go backward, "False"

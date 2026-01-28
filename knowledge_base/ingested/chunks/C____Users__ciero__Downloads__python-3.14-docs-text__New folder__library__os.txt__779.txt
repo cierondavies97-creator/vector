@@ -1,0 +1,4 @@
+returned.  The comments regarding the *name* parameter for
+   "confstr()" apply here as well; the dictionary that provides
+   information on the known names is given by "sysconf_names".
+   Availability: Unix.

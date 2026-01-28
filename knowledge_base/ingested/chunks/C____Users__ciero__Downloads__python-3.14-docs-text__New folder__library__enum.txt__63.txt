@@ -1,0 +1,6 @@
+_add_value_alias_()
+      Adds a new value as an alias to an existing member:
+         >>> Color.RED._add_value_alias_(42)
+         >>> Color(42)
+         <Color.RED: 1>
+      Raises a "ValueError" if the value is already linked with a

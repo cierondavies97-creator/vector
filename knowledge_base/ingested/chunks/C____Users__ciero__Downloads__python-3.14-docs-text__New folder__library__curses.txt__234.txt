@@ -1,0 +1,3 @@
+| curses.KEY_B2             | Center of keypad                             |
++---------------------------+----------------------------------------------+
+| curses.KEY_C1             | Lower left of keypad                         |

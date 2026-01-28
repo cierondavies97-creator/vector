@@ -1,0 +1,3 @@
+cannot be joined.  They are never deleted, since it is impossible to
+detect the termination of alien threads.
+class threading.Thread(group=None, target=None, name=None, args=(), kwargs={}, *, daemon=None, context=None)

@@ -1,0 +1,3 @@
+If one of the options in this parser is defined with
+   parser.add_option("-f", "--file", action="store", type="string", dest="filename")
+and the command-line being parsed includes any of the following:

@@ -1,0 +1,5 @@
+but since no documentation can be found on this format, it is not
+supported at this time.
+The Catalog constructor
+-----------------------
+GNOME uses a version of the "gettext" module by James Henstridge, but

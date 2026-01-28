@@ -1,0 +1,4 @@
+such as "run()" and "Popen.communicate()" will raise "TimeoutExpired"
+if the timeout expires before the process exits.
+Exceptions defined in this module all inherit from "SubprocessError".
+Added in version 3.3: The "SubprocessError" base class was added.

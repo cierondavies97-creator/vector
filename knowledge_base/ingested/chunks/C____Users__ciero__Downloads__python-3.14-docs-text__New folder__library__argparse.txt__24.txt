@@ -1,0 +1,3 @@
+Note that the program name, whether determined from "sys.argv[0]",
+from the "__main__" module attributes or from the "prog=" argument, is
+available to help messages using the "%(prog)s" format specifier.

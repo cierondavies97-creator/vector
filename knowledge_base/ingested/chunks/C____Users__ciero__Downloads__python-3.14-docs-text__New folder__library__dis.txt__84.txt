@@ -1,0 +1,9 @@
+subscript (replaces opcode "BINARY_SUBSCR")
+STORE_SUBSCR
+   Implements:
+      key = STACK.pop()
+      container = STACK.pop()
+      value = STACK.pop()
+      container[key] = value
+DELETE_SUBSCR
+   Implements:

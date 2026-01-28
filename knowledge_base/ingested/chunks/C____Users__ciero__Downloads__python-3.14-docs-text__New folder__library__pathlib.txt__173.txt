@@ -1,0 +1,5 @@
+Note:
+     The paths are returned in no particular order. If you need a
+     specific order, sort the results.
+   See also: Pattern language and "Path.glob()" documentation.
+   Raises an auditing event "pathlib.Path.rglob" with arguments

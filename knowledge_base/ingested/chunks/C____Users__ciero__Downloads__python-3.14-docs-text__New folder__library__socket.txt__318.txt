@@ -1,0 +1,10 @@
+to the values given to the "socket" constructor.
+socket.family
+   The socket family.
+socket.type
+   The socket type.
+socket.proto
+   The socket protocol.
+Notes on socket timeouts
+========================
+A socket object can be in one of three modes: blocking, non-blocking,

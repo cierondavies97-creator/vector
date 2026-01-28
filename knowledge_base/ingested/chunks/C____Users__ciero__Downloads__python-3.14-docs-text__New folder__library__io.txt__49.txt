@@ -1,0 +1,4 @@
+implementations represent a file that cannot be read, written or
+   seeked.
+   Even though "IOBase" does not declare "read()" or "write()" because
+   their signatures will vary, implementations and clients should

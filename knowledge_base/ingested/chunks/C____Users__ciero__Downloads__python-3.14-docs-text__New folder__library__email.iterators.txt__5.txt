@@ -1,0 +1,4 @@
+matching is done only with the main type.  *maintype* is optional
+   too; it defaults to *text*.
+   Thus, by default "typed_subpart_iterator()" returns each subpart
+   that has a MIME type of *text/**.

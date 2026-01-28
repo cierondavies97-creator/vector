@@ -1,0 +1,4 @@
+Because the default behavior of "Message.__setitem__" is to
+      append the value to the list of headers, it is easy to create
+      duplicate headers without realizing it.  This method allows
+      certain headers to be limited in the number of instances of that

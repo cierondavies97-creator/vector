@@ -1,0 +1,3 @@
+"__getattribute__()" method is called first and either returns a value
+or raises "AttributeError" if the attribute is not available.
+If an "AttributeError" is raised and the object has a "__getattr__()"

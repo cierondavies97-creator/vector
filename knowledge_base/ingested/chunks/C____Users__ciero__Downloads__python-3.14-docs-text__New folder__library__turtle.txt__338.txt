@@ -1,0 +1,4 @@
+"Screen". The functions derived from these remain available. (In
+  fact already in Python 2.6 these methods were merely duplications of
+  the corresponding "TurtleScreen"/"Screen" methods.)
+* The method "Turtle.fill()" has been eliminated. The behaviour of

@@ -1,0 +1,3 @@
+handles the entry into, and the exit from, the desired runtime context
+for the execution of the block of code.  Context managers are normally
+invoked using the "with" statement (described in section The with

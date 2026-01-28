@@ -1,0 +1,5 @@
+those byte values in the sequence "b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'".
+bytes.isspace()
+bytearray.isspace()
+   Return "True" if all bytes in the sequence are ASCII whitespace and
+   the sequence is not empty, "False" otherwise.  ASCII whitespace

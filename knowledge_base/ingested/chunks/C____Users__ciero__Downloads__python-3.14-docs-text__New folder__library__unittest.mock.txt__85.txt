@@ -1,0 +1,8 @@
+>>> mock(3)
+      4
+      >>> mock(-8)
+      -7
+      Setting "side_effect" to "None" clears it:
+      >>> m = Mock(side_effect=KeyError, return_value=3)
+      >>> m()
+      Traceback (most recent call last):

@@ -1,0 +1,5 @@
+type information from *format* from left to right.  On success,
+"PyArg_ParseTupleAndKeywords()" returns true, otherwise it returns
+false and raises an appropriate exception.
+Note:
+  Nested tuples cannot be parsed when using keyword arguments!

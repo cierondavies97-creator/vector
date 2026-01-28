@@ -1,0 +1,5 @@
+"import site" is listed.
+* If you are loading "python3.dll" or "python37.dll" in your own
+  executable, explicitly set "PyConfig.module_search_paths" before
+  "Py_InitializeFromConfig()".
+* Clear and/or overwrite "PYTHONPATH" and set "PYTHONHOME" before

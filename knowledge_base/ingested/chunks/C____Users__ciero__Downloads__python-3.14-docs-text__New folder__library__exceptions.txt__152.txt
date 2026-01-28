@@ -1,0 +1,7 @@
+is also a subclass of "Exception" can only wrap instances of
+   "Exception".
+   Added in version 3.11.
+Exception hierarchy
+===================
+The class hierarchy for built-in exceptions is:
+   BaseException

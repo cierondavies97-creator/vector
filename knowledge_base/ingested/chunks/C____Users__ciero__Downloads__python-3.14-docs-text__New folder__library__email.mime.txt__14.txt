@@ -1,0 +1,4 @@
+always attach new subparts to the message by using the
+   "Message.attach" method.
+   Optional *policy* argument defaults to "compat32".
+   Additional parameters for the *Content-Type* header are taken from

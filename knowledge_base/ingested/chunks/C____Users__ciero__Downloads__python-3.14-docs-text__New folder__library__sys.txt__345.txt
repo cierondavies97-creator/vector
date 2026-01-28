@@ -1,0 +1,5 @@
+or setting the "PYTHONUNBUFFERED" environment variable.
+   Changed in version 3.9: Non-interactive "stderr" is now line-
+   buffered instead of fully buffered.
+   Note:
+     To write or read binary data from/to the standard streams, use

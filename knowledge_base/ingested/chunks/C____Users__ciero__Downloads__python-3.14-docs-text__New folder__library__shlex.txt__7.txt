@@ -1,0 +1,4 @@
+Warning:
+     The "shlex" module is **only designed for Unix shells**.The
+     "quote()" function is not guaranteed to be correct on non-POSIX
+     compliant shells or shells from other operating systems such as

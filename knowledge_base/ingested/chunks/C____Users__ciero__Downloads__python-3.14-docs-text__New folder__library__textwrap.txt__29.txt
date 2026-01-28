@@ -1,0 +1,4 @@
+text should be split into paragraphs (using "str.splitlines()"
+        or similar) which are wrapped separately.
+   drop_whitespace
+      (default: "True") If true, whitespace at the beginning and

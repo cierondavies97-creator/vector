@@ -1,0 +1,3 @@
+response in a burst. Therefore, an expired "Idler" will cause
+        this generator to return immediately without producing
+        anything. Callers should consider this if using it in a loop.

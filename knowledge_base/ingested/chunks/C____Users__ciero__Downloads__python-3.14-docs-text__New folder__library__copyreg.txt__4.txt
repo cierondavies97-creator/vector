@@ -1,0 +1,4 @@
+or a tuple containing between two and six elements. See the
+   "dispatch_table" for more details on the interface of *function*.
+   The *constructor_ob* parameter is a legacy feature and is now
+   ignored, but if passed it must be a callable.

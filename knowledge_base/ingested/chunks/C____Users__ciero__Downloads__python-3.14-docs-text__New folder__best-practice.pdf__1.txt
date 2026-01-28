@@ -1,0 +1,6 @@
+University of Zurich
+Faculty of Science
+8 July 2024
+Based on talk by Valentin Haenel
+https://github.com/esc/best-practices-talk
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 License.

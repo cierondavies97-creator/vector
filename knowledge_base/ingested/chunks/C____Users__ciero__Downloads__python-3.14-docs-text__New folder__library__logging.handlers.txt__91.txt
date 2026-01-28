@@ -1,0 +1,3 @@
+to be made each time an event is logged, which can introduce some
+     latency into the system. If this affects you, you can do a lookup
+     yourself and initialize this handler using the looked-up IP

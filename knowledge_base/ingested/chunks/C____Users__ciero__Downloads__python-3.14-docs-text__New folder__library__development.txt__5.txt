@@ -1,0 +1,5 @@
+* Aliases to types in "collections"
+      * Aliases to other concrete types
+      * Aliases to container ABCs in "collections.abc"
+      * Aliases to asynchronous ABCs in "collections.abc"
+      * Aliases to other ABCs in "collections.abc"

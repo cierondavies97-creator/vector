@@ -1,0 +1,4 @@
+as the "PYTHON_MANAGER_CONFIG" environment variable or the "--config"
+command line option (but not both). These locations may be modified by
+administrative customization options listed later.
+The following settings are those that are considered likely to be

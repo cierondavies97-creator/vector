@@ -1,0 +1,7 @@
+except ValueError:
+               return False
+       for arg in parser.rargs:
+           # stop on --foo like options
+           if arg[:2] == "--" and len(arg) > 2:
+               break
+           # stop on -a, but not on -3 or -3.0

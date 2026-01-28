@@ -1,0 +1,4 @@
+The new file descriptor is non-inheritable.
+   Changed in version 3.3: Added the *flags* parameter.
+   Changed in version 3.4: Support for the "with" statement was added.
+   The new file descriptor is now non-inheritable.

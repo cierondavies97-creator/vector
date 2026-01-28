@@ -1,0 +1,4 @@
+order is generally maintained, with new headers added to the end of
+   the wrapped list.
+   Unlike a dictionary, "Headers" objects do not raise an error when
+   you try to get or delete a key that isn't in the wrapped header

@@ -1,0 +1,4 @@
+be compared is not changed.
+   find_longest_match(alo=0, ahi=None, blo=0, bhi=None)
+      Find longest matching block in "a[alo:ahi]" and "b[blo:bhi]".
+      If *isjunk* was omitted or "None", "find_longest_match()"

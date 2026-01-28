@@ -1,0 +1,6 @@
+content events will be discarded.
+XMLReader.getDTDHandler()
+   Return the current "DTDHandler".
+XMLReader.setDTDHandler(handler)
+   Set the current "DTDHandler".  If no "DTDHandler" is set, DTD
+   events will be discarded.

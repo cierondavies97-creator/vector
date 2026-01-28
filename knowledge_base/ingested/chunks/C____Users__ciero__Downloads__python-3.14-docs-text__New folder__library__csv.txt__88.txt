@@ -1,0 +1,5 @@
+(see "locale.getencoding()").  To decode a file using a different
+encoding, use the "encoding" argument of open:
+   import csv
+   with open('some.csv', newline='', encoding='utf-8') as f:
+       reader = csv.reader(f)

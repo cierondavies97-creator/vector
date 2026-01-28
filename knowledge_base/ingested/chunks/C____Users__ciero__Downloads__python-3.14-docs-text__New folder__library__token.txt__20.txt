@@ -1,0 +1,4 @@
+the C tokenizer but is needed for the "tokenize" module.
+The following token types are not produced by the "tokenize" module,
+and are defined for special uses in the tokenizer or parser:
+token.TYPE_IGNORE

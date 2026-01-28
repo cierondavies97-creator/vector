@@ -1,0 +1,3 @@
+| *type_*     | *data*                                                     |
+   |=============|============================================================|
+   | "polygon"   | a polygon-tuple, i.e. a tuple of pairs of coordinates      |

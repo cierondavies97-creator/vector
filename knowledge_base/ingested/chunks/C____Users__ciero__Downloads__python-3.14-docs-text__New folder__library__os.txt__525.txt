@@ -1,0 +1,4 @@
+more information.  By default, the new file descriptor is non-
+   inheritable.
+   *initval* is the initial value of the event counter. The initial
+   value must be a 32 bit unsigned integer. Please note that the

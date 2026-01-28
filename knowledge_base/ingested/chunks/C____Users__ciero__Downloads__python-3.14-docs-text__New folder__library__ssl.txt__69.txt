@@ -1,0 +1,4 @@
+sockets, just about any cert is accepted.  Validation errors, such
+   as untrusted or expired cert, are ignored and do not abort the
+   TLS/SSL handshake.
+   In server mode, no certificate is requested from the client, so the

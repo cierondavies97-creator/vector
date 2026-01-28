@@ -1,0 +1,6 @@
+existing "doctest"-based tests.
+Skipping tests and expected failures
+====================================
+Added in version 3.1.
+Unittest supports skipping individual test methods and even whole
+classes of tests.  In addition, it supports marking a test as an

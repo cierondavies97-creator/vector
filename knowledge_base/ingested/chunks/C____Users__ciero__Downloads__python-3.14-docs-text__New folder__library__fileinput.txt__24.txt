@@ -1,0 +1,3 @@
+The *openhook*, when given, must be a function that takes two
+   arguments, *filename* and *mode*, and returns an accordingly opened
+   file-like object. You cannot use *inplace* and *openhook* together.

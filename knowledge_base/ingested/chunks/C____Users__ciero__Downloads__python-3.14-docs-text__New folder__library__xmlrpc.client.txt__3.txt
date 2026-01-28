@@ -1,0 +1,4 @@
+Changed in version 3.5: For HTTPS URIs, "xmlrpc.client" now performs
+all the necessary certificate and hostname checks by default.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

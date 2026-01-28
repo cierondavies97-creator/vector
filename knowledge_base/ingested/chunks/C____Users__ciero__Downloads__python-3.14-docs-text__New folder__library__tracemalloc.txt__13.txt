@@ -1,0 +1,5 @@
+print(stat)
+Example of output before/after running some tests of the Python test
+suite:
+   [ Top 10 differences ]
+   <frozen importlib._bootstrap>:716: size=8173 KiB (+4428 KiB), count=71332 (+39369), average=117 B

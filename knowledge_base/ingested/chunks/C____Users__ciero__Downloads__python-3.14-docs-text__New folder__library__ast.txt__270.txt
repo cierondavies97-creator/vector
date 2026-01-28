@@ -1,0 +1,4 @@
+class ast.MatchOr(patterns)
+   A match "or-pattern". An or-pattern matches each of its subpatterns
+   in turn to the subject, until one succeeds. The or-pattern is then
+   deemed to succeed. If none of the subpatterns succeed the or-

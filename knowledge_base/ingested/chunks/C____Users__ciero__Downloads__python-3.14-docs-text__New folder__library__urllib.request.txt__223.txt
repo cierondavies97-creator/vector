@@ -1,0 +1,4 @@
+information in the reply header, which can be inspected by looking
+  at the *Content-Type* header.  If the returned data is HTML, you can
+  use the module "html.parser" to parse it.
+* The code handling the FTP protocol cannot differentiate between a

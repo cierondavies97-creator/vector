@@ -1,0 +1,7 @@
+Path.readlink()
+   Return the path to which the symbolic link points (as returned by
+   "os.readlink()"):
+      >>> p = Path('mylink')
+      >>> p.symlink_to('setup.py')
+      >>> p.readlink()
+      PosixPath('setup.py')

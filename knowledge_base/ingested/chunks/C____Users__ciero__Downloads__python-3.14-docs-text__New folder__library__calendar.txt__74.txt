@@ -1,0 +1,6 @@
+Command-line usage
+==================
+Added in version 2.5.
+The "calendar" module can be executed as a script from the command
+line to interactively print a calendar.
+   python -m calendar [-h] [-L LOCALE] [-e ENCODING] [-t {text,html}]

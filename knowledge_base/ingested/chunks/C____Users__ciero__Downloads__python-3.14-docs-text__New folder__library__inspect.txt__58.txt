@@ -1,0 +1,3 @@
+|                   |                     | object was defined          |
++-------------------+---------------------+-----------------------------+
+|                   | co_qualname         | fully qualified name with   |

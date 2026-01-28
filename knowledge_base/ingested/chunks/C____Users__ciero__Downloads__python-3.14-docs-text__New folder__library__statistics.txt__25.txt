@@ -1,0 +1,4 @@
+| "linear_regression()"     | Slope and intercept for simple linear regression.     |
++---------------------------+-------------------------------------------------------+
+Function details
+================

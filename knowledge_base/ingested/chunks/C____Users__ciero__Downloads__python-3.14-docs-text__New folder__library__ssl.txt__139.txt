@@ -1,0 +1,5 @@
+especially the notes on non-blocking sockets.
+   Instances of "SSLSocket" must be created using the
+   "SSLContext.wrap_socket()" method.
+   Changed in version 3.5: The "sendfile()" method was added.
+   Changed in version 3.5: The "shutdown()" does not reset the socket

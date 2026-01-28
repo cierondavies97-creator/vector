@@ -1,0 +1,4 @@
+print(b == new_b)  # True
+   print(b is new_b)  # True: no copy was made
+This example is limited by the fact that "bytearray" allocates its own
+memory: you cannot create a "bytearray" instance that is backed by

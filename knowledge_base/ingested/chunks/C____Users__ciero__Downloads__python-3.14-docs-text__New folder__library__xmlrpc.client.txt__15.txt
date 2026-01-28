@@ -1,0 +1,3 @@
+The returned instance is a proxy object with methods that can be
+   used to invoke corresponding RPC calls on the remote server.  If
+   the remote server supports the introspection API, the proxy can

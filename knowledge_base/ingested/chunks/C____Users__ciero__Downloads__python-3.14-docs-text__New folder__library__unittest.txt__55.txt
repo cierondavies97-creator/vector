@@ -1,0 +1,4 @@
+will identify the test case as a *failure*.  Any other exceptions will
+be treated as *errors*.
+Tests can be numerous, and their set-up can be repetitive.  Luckily,
+we can factor out set-up code by implementing a method called

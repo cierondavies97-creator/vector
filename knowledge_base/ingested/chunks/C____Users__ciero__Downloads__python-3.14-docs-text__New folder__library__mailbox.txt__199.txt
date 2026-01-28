@@ -1,0 +1,4 @@
++------------+--------------------------------------------+
+   | flagged    | Marked as important                        |
+   +------------+--------------------------------------------+
+   "MHMessage" instances offer the following methods:

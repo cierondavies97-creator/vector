@@ -1,0 +1,6 @@
+The W3C recommendation for the DOM supported by
+     "xml.dom.minidom".
+DOM Objects
+===========
+The definition of the DOM API for Python is given as part of the
+"xml.dom" module documentation.  This section lists the differences

@@ -1,0 +1,6 @@
+arguments are provided in order to be able to pass "listen()" to
+   the onclick method.
+turtle.onkey(fun, key)
+turtle.onkeyrelease(fun, key)
+   Parameters:
+      * **fun** -- a function with no arguments or "None"

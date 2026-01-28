@@ -1,0 +1,4 @@
+blocks when the queue reaches *maxsize* until an item is removed by
+   "get()".
+   Unlike the standard library threading "queue", the size of the
+   queue is always known and can be returned by calling the "qsize()"

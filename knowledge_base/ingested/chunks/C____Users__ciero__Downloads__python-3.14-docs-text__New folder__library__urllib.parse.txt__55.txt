@@ -1,0 +1,3 @@
+the URL. This should generally be used instead of "urlparse()" if
+   the more recent URL syntax allowing parameters to be applied to
+   each segment of the *path* portion of the URL (see **RFC 2396**) is

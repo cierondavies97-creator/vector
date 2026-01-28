@@ -1,0 +1,4 @@
+in your local environment, or in the argument parser itself by setting
+"color" to "False":
+   >>> parser = argparse.ArgumentParser(description='Process some integers.',
+   ...                                  color=False)

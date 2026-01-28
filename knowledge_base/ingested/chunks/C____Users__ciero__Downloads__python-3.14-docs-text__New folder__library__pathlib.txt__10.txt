@@ -1,0 +1,12 @@
+Querying path properties:
+   >>> q.exists()
+   True
+   >>> q.is_dir()
+   False
+Opening a file:
+   >>> with q.open() as f: f.readline()
+   ...
+   '#!/bin/bash\n'
+Exceptions
+==========
+exception pathlib.UnsupportedOperation

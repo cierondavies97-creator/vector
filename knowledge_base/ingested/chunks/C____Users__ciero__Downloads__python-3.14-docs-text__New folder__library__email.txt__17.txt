@@ -1,0 +1,4 @@
+library.
+The next three sections cover the exceptions the package may raise and
+the defects (non-compliance with the RFCs) that the "parser" may
+detect.  Then we cover the "headerregistry" and the "contentmanager"

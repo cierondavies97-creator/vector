@@ -1,0 +1,5 @@
+recomputed timeout when interrupted by a signal, except if the
+   signal handler raises an exception (see **PEP 475** for the
+   rationale), instead of raising "InterruptedError".
+select.PIPE_BUF
+   The minimum number of bytes which can be written without blocking

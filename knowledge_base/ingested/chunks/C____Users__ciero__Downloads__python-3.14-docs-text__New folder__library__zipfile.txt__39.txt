@@ -1,0 +1,5 @@
+object*.
+   Changed in version 3.7: Add the *compresslevel* parameter.
+   Changed in version 3.8: The *strict_timestamps* keyword-only
+   parameter.
+   Changed in version 3.11: Added support for specifying member name

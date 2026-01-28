@@ -1,0 +1,5 @@
+==========================
+HTTPErrorProcessor.http_response(request, response)
+   Process HTTP error responses.
+   For 200 error codes, the response object is returned immediately.
+   For non-200 error codes, this simply passes the job on to the

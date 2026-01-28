@@ -1,0 +1,4 @@
+commit()
+      Commit any pending transaction to the database. If "autocommit"
+      is "True", or there is no open transaction, this method does
+      nothing. If "autocommit" is "False", a new transaction is

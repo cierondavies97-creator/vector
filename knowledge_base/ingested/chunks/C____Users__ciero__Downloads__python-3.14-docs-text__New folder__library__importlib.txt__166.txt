@@ -1,0 +1,5 @@
+runtime and this will not be automatically reflected in the
+   module's "__spec__.origin", and vice versa.
+   Added in version 3.4.
+   name
+      The module's fully qualified name (see "module.__name__"). The

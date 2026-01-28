@@ -1,0 +1,5 @@
+"HTMLParser" class to print out start tags, end tags, and data as they
+are encountered:
+   from html.parser import HTMLParser
+   class MyHTMLParser(HTMLParser):
+       def handle_starttag(self, tag, attrs):

@@ -1,0 +1,8 @@
+Print CLI help.
+-v, --version
+   Print underlying SQLite library version.
+Added in version 3.12.
+How-to guides
+=============
+How to use placeholders to bind values in SQL queries
+-----------------------------------------------------

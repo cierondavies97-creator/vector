@@ -1,0 +1,5 @@
+"multipart/alternative" or a non-"multipart", return an empty
+      iterator.
+   iter_parts()
+      Return an iterator over all of the immediate sub-parts of the
+      message, which will be empty for a non-"multipart".  (See also

@@ -1,0 +1,4 @@
+ipaddress.AddressValueError: 4294967296 (>= 2**32) is not permitted as an IPv4 address
+IP Network definitions
+======================
+The "IPv4Network" and "IPv6Network" objects provide a mechanism for

@@ -1,0 +1,6 @@
+Alternatively, a workaround for apostrophes can be constructed
+   using regular expressions:
+      >>> import re
+      >>> def titlecase(s):
+      ...     return re.sub(r"[A-Za-z]+('[A-Za-z]+)?",
+      ...                   lambda mo: mo.group(0).capitalize(),

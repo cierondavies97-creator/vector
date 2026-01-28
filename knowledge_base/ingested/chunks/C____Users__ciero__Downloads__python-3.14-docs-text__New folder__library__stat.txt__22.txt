@@ -1,0 +1,14 @@
+stat.S_IFCHR
+   Character device.
+stat.S_IFIFO
+   FIFO.
+stat.S_IFDOOR
+   Door.
+   Added in version 3.4.
+stat.S_IFPORT
+   Event port.
+   Added in version 3.4.
+stat.S_IFWHT
+   Whiteout.
+   Added in version 3.4.
+Note:

@@ -1,0 +1,4 @@
+The optional *message_body* argument can be used to pass a message
+   body associated with the request.
+   If *encode_chunked* is "True", the result of each iteration of
+   *message_body* will be chunk-encoded as specified in **RFC 7230**,

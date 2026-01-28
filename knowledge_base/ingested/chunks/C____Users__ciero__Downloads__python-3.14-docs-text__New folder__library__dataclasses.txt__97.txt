@@ -1,0 +1,4 @@
+care of initializing all fields of any base class that is a dataclass
+itself.
+See the section below on init-only variables for ways to pass
+parameters to "__post_init__()".  Also see the warning about how

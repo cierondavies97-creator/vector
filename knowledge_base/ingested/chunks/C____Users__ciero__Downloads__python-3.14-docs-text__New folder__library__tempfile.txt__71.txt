@@ -1,0 +1,8 @@
+...     fp.write(b'Hello world!')
+   ...     fp.seek(0)
+   ...     fp.read()
+   b'Hello world!'
+   >>>
+   # file is now closed and removed
+   # create a temporary file using a context manager
+   # close the file, use the name to open the file again

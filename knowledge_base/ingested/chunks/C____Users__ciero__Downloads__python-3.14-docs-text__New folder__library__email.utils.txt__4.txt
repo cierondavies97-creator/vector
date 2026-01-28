@@ -1,0 +1,4 @@
+given provides the portion of the msgid after the '@'.  The default
+   is the local hostname.  It is not normally necessary to override
+   this default, but may be useful certain cases, such as a
+   constructing distributed system that uses a consistent domain name

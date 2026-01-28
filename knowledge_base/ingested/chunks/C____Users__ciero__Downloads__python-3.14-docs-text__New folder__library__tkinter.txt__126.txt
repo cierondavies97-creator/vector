@@ -1,0 +1,4 @@
+"tkinter", these commands have been implemented as methods on the "Wm"
+class.  Toplevel widgets are subclassed from the "Wm" class, and so
+can call the "Wm" methods directly.
+To get at the toplevel window that contains a given widget, you can

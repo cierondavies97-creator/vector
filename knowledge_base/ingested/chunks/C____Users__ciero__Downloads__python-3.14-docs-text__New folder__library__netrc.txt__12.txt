@@ -1,0 +1,5 @@
+neither matching host nor default entry is available, return
+   "None".
+netrc.__repr__()
+   Dump the class data as a string in the format of a netrc file.
+   (This discards comments and may reorder the entries.)

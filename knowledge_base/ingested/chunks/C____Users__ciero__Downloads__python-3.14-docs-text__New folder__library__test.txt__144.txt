@@ -1,0 +1,3 @@
+Bind the socket to a free port and return the port number.  Relies
+   on ephemeral ports in order to ensure we are using an unbound port.
+   This is important as many tests may be running simultaneously,

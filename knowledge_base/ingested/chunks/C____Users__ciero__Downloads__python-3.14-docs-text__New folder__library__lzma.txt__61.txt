@@ -1,0 +1,5 @@
+* "nice_len": What should be considered a "nice length" for a match.
+  This should be 273 or less.
+* "mf": What match finder to use -- "MF_HC3", "MF_HC4", "MF_BT2",
+  "MF_BT3", or "MF_BT4".
+* "depth": Maximum search depth used by match finder. 0 (default)

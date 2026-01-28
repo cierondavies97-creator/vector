@@ -1,0 +1,6 @@
+long as it is a "str" or "bytes" object. In all other cases,
+   "TypeError" is raised.
+   Added in version 3.6.
+class os.PathLike
+   An *abstract base class* for objects representing a file system
+   path, e.g. "pathlib.PurePath".

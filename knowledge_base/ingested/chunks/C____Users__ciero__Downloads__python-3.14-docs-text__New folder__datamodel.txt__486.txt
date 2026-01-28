@@ -1,0 +1,4 @@
+namespace, **kwds)" (the additional keywords passed here are the same
+as those passed to "__prepare__").
+This class object is the one that will be referenced by the zero-
+argument form of "super()". "__class__" is an implicit closure

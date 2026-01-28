@@ -1,0 +1,4 @@
+asyncio provides a set of abstract base classes that should be used to
+implement network protocols.  Those classes are meant to be used
+together with transports.
+Subclasses of abstract base protocol classes may implement some or all

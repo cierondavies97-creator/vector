@@ -1,0 +1,4 @@
+hidden instance of the "random.Random" class.  You can instantiate
+your own instances of "Random" to get generators that don't share
+state.
+Class "Random" can also be subclassed if you want to use a different

@@ -1,0 +1,8 @@
+class Point:
+          x: float
+          _: KW_ONLY
+          y: float
+          z: float
+      p = Point(0, y=1.5, z=2.0)
+   In a single dataclass, it is an error to specify more than one
+   field whose type is "KW_ONLY".

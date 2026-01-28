@@ -1,0 +1,4 @@
+qualified names (*module.name*) instead.
+   If a module instantiates instances of a class, reloading the module
+   that defines the class does not affect the method definitions of
+   the instances --- they continue to use the old class definition.

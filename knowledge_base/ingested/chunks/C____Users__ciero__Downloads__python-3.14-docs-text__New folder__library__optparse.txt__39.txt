@@ -1,0 +1,4 @@
+--dry-run".  These are the only two option syntaxes provided by
+   "optparse".
+   Some other option syntaxes that the world has seen include:
+   * a hyphen followed by a few letters, e.g. "-pf" (this is *not* the

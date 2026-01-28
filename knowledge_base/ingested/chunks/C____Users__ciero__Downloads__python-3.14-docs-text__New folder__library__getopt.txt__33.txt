@@ -1,0 +1,6 @@
+main()
+Note that an equivalent command line interface could be produced with
+less code and more informative help and error messages by using the
+"optparse" module:
+   import optparse
+   if __name__ == '__main__':

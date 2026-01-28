@@ -1,0 +1,4 @@
+For backwards compatibility, this object also behaves like a five-
+   tuple containing "user", "system", "children_user",
+   "children_system", and "elapsed" in that order.
+   See the Unix manual page *times(2)* and times(3) manual page on

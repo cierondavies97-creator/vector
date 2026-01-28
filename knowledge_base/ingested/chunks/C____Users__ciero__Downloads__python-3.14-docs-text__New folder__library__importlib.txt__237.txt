@@ -1,0 +1,6 @@
+The example below shows how to implement lazy imports:
+   >>> import importlib.util
+   >>> import sys
+   >>> def lazy_import(name):
+   ...     spec = importlib.util.find_spec(name)
+   ...     loader = importlib.util.LazyLoader(spec.loader)

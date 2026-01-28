@@ -1,0 +1,4 @@
+the message body, instead setting the payload to the raw body.
+class email.parser.BytesParser(_class=None, *, policy=policy.compat32)
+   Create a "BytesParser" instance.  The *_class* and *policy*
+   arguments have the same meaning and semantics as the *_factory* and

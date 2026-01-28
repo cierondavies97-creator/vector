@@ -1,0 +1,3 @@
+It is not necessarily trivial to find the right flags to pass to your
+compiler (and linker) in order to embed the Python interpreter into
+your application, particularly because Python needs to load library

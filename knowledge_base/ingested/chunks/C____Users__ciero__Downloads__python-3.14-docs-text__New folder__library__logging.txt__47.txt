@@ -1,0 +1,4 @@
+formatting operation is performed on *msg* when no *args* are
+      supplied.
+      There are four keyword arguments in *kwargs* which are
+      inspected: *exc_info*, *stack_info*, *stacklevel* and *extra*.

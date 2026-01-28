@@ -1,0 +1,5 @@
+For examples using "yield from", see PEP 380: Syntax for Delegating to
+a Subgenerator in "What's New in Python."
+6.2.9.3. Asynchronous generator functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The presence of a yield expression in a function or method defined

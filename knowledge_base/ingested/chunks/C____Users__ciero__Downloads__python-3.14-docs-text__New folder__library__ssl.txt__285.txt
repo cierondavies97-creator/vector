@@ -1,0 +1,4 @@
+Changed in version 3.7: "verify_mode" is now automatically changed
+   to "CERT_REQUIRED"  when hostname checking is enabled and
+   "verify_mode" is "CERT_NONE". Previously the same operation would
+   have failed with a "ValueError".

@@ -1,0 +1,8 @@
+called "screen".
+Window control
+--------------
+turtle.bgcolor()
+turtle.bgcolor(color, /)
+turtle.bgcolor(r, g, b, /)
+   Return or set the background color of the TurtleScreen.
+   Four input formats are allowed:

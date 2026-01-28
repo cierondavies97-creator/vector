@@ -1,0 +1,5 @@
+is parsed as the single word "Do"Not"Separate");
+* Escape characters are not recognized;
+* Enclosing characters in quotes preserve the literal value of all
+  characters within the quotes;
+* Closing quotes separate words (""Do"Separate" is parsed as ""Do""

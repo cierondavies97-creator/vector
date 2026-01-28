@@ -1,0 +1,5 @@
+checks by default. You have to load certificates into the context.
+Cipher selection
+~~~~~~~~~~~~~~~~
+If you have advanced security requirements, fine-tuning of the ciphers
+enabled when negotiating a SSL session is possible through the

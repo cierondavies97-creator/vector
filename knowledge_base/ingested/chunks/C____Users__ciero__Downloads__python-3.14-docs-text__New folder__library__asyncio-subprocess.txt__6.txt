@@ -1,0 +1,5 @@
+See also the Examples subsection.
+Creating Subprocesses
+=====================
+async asyncio.create_subprocess_exec(program, *args, stdin=None, stdout=None, stderr=None, limit=None, **kwds)
+   Create a subprocess.

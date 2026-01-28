@@ -1,0 +1,11 @@
+5
+            >>> m.nbytes
+            20
+            >>> y = m[::2]
+            >>> len(y)
+            3
+            >>> y.nbytes
+            12
+            >>> len(y.tobytes())
+            12
+         Multi-dimensional arrays:

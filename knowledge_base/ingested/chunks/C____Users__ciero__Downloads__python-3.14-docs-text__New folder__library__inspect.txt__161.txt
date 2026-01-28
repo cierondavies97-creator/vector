@@ -1,0 +1,6 @@
+corresponding properties of the base signature.  To remove
+      "return_annotation" from the copied "Signature", pass in
+      "Signature.empty".
+         >>> def test(a, b):
+         ...     pass
+         ...

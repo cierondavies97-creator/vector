@@ -1,0 +1,4 @@
+----------------------
+"ctypes" defines a number of primitive C compatible data types:
++------------------------+--------------------------------------------+------------------------------+
+| ctypes type            | C type                                     | Python type                  |

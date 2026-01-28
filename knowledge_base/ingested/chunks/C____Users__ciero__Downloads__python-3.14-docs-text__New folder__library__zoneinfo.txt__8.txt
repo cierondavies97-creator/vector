@@ -1,0 +1,4 @@
+as a daylight saving time to standard time transition), the offset
+from *before* the transition is used when "fold=0", and the offset
+*after* the transition is used when "fold=1", for example:
+   >>> dt = datetime(2020, 11, 1, 1, tzinfo=ZoneInfo("America/Los_Angeles"))

@@ -1,0 +1,2 @@
+| "assertWarnsRegex(warn, r, fun, *args, **kwds)"           | "fun(*args, **kwds)" raises *warn* and | 3.2          |
+   |                                                           | the message matches regex *r*          |              |

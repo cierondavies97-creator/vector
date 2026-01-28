@@ -1,0 +1,4 @@
+To support inserting records in a table, the *key* function (if
+   any) is applied to *x* for the search step but not for the
+   insertion step.
+   Keep in mind that the *O*(log *n*) search is dominated by the slow

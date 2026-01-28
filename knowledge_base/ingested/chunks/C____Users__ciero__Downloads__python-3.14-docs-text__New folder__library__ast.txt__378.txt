@@ -1,0 +1,8 @@
+... async def f():
+      ...     await other_func()
+      ... """), indent=4, show_empty=True))
+      Module(
+          body=[
+              AsyncFunctionDef(
+                  name='f',
+                  args=arguments(

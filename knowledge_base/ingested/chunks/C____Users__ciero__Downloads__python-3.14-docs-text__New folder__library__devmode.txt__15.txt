@@ -1,0 +1,5 @@
+Changed in version 3.9: The *encoding* and *errors* arguments are now
+checked for string encoding and decoding operations.
+ResourceWarning Example
+=======================
+Example of a script counting the number of lines of the text file

@@ -1,0 +1,4 @@
+manager rather than calling acquire/release directly.
+      Changed in version 3.2: The *timeout* parameter is new.
+   release()
+      Release a lock, decrementing the recursion level.  If after the

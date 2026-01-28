@@ -1,0 +1,6 @@
+documents" to "Always".  This setting is not compatible with the
+tk/tkinter GUI framework used by IDLE, and it breaks a few IDLE
+features.
+Extensions
+----------
+IDLE contains an extension facility.  Preferences for extensions can

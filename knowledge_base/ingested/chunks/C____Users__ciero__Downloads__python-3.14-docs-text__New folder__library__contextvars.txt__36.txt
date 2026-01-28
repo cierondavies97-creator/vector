@@ -1,0 +1,4 @@
+# without passing it explicitly to this function.
+       client_addr = client_addr_var.get()
+       return f'Good bye, client @ {client_addr}\r\n'.encode()
+   async def handle_request(reader, writer):

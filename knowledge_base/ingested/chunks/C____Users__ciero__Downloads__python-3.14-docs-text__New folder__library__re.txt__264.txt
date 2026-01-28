@@ -1,0 +1,4 @@
+>>> re.fullmatch("p.*n", "python") # Match
+   <re.Match object; span=(0, 6), match='python'>
+   >>> re.fullmatch("r.*n", "python") # No match
+Regular expressions beginning with "'^'" can be used with "search()"

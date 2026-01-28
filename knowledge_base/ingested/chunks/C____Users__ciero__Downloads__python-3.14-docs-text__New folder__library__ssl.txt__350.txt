@@ -1,0 +1,4 @@
+"CERT_REQUIRED" and "check_hostname" is set to "True". All other
+protocols create SSL contexts with insecure defaults.
+When you use the context to connect to a server, "CERT_REQUIRED" and
+"check_hostname" validate the server certificate: it ensures that the

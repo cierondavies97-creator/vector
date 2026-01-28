@@ -1,0 +1,4 @@
+updated to the latest version of the protocol. For compatibility
+      with such implementations, provide a single argument without
+      path separators to each call to "joinpath". For example:
+         files.joinpath('subdir').joinpath('subsubdir').joinpath('file.txt')

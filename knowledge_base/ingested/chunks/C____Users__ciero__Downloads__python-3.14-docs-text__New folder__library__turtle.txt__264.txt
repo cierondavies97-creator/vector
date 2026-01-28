@@ -1,0 +1,5 @@
+i.e. a Tkinter-canvas with scrollbars added
+   Used by class Screen, which thus automatically provides a
+   ScrolledCanvas as playground for the turtles.
+class turtle.Shape(type_, data)
+   Parameters:

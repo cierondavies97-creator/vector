@@ -1,0 +1,6 @@
+run.
+Distinguishing test iterations using subtests
+=============================================
+Added in version 3.4.
+When there are very small differences among your tests, for instance
+some parameters, unittest allows you to distinguish them inside the

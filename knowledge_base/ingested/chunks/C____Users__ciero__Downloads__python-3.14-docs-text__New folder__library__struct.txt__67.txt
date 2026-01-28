@@ -1,0 +1,4 @@
+optional feature in C. As specified in the C11 standard, each
+    complex type is represented by a two-element C array containing,
+    respectively, the real and imaginary parts.
+A format character may be preceded by an integral repeat count.  For

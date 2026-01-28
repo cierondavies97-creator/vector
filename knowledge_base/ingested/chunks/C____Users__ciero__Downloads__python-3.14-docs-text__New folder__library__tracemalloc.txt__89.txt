@@ -1,0 +1,5 @@
+"Snapshot" instance.
+   "Snapshot.compare_to()" returns a list of "StatisticDiff"
+   instances. See also the "Statistic" class.
+   count
+      Number of memory blocks in the new snapshot ("int"): "0" if the

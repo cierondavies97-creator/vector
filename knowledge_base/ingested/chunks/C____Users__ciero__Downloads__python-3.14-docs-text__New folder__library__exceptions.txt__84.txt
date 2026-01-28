@@ -1,0 +1,3 @@
+The associated value is a string indicating what went wrong (in
+   low-level terms). In *CPython*, this could be raised by incorrectly
+   using Python's C API, such as returning a "NULL" value without an

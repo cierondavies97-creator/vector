@@ -1,0 +1,3 @@
+| "'F'"        | Floating-point decimal format.                        | (3)     |
++--------------+-------------------------------------------------------+---------+
+| "'g'"        | Floating-point format. Uses lowercase exponential     | (4)     |

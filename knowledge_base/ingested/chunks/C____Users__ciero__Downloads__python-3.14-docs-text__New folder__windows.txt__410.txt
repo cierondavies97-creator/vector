@@ -1,0 +1,4 @@
+request usage of the 32-bit Python 3.7. If a virtual environment is
+active, the version will be ignored and the environment will be used.
+Added in version 3.7: Beginning with python launcher 3.7 it is
+possible to request 64-bit version by the "-64" suffix. Furthermore it

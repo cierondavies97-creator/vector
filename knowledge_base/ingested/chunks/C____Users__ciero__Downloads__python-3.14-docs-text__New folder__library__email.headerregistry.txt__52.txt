@@ -1,0 +1,10 @@
+date:
+         UniqueDateHeader
+      resent-date:
+         DateHeader
+      orig-date:
+         UniqueDateHeader
+      sender:
+         UniqueSingleAddressHeader
+      resent-sender:
+         SingleAddressHeader

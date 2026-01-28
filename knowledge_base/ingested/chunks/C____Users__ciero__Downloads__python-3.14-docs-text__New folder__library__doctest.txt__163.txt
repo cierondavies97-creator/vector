@@ -1,0 +1,4 @@
+options for the tests, created by or-ing together individual option
+   flags.  See section Option Flags. See function
+   "set_unittest_reportflags()" below for a better way to set
+   reporting options.

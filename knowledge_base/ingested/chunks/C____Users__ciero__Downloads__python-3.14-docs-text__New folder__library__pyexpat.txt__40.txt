@@ -1,0 +1,4 @@
+of dynamic memory allocated in the parser hierarchy.
+   The *max_factor* value must be a non-NaN "float" value greater than
+   or equal to 1.0. Amplification factors greater than 100.0 can be
+   observed near the start of parsing even with benign files in

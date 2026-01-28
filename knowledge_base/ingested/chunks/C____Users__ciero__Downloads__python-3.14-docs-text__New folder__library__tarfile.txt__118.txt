@@ -1,0 +1,5 @@
+TarInfo Objects
+===============
+A "TarInfo" object represents one member in a "TarFile". Aside from
+storing all required attributes of a file (like file type, size, time,
+permissions, owner etc.), it provides some useful methods to determine

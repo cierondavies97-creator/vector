@@ -1,0 +1,4 @@
+represents the metadata for a Python Distribution Package. You can get
+the concrete "Distribution" subclass instance for an installed
+distribution package by calling the "distribution()" function:
+   >>> from importlib.metadata import distribution

@@ -1,0 +1,4 @@
+cte
+      Valid values are "7bit", "8bit", "base64", and "quoted-
+      printable".  See **RFC 2045** for more information.
+class email.headerregistry.HeaderRegistry(base_class=BaseHeader, default_class=UnstructuredHeader, use_default_map=True)

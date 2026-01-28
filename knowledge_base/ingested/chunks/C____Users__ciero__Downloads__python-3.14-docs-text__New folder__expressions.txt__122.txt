@@ -1,0 +1,4 @@
+signalling that the asynchronous iteration has completed.
+   This method is normally called implicitly by a "async for" loop.
+async agen.asend(value)
+   Returns an awaitable which when run resumes the execution of the

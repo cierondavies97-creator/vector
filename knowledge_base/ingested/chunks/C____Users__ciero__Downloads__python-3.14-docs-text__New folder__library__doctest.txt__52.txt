@@ -1,0 +1,5 @@
+For example, the "\n" above would be interpreted as a newline
+  character.  Alternatively, you can double each backslash in the
+  doctest version (and not use a raw string):
+     >>> def f(x):
+     ...     '''Backslashes in a raw docstring: m\\n'''

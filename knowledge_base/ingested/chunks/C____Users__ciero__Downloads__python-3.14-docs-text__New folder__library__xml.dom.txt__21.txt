@@ -1,0 +1,4 @@
+xml.dom.XHTML_NAMESPACE
+   The URI of the XHTML namespace as defined by XHTML 1.0: The
+   Extensible HyperText Markup Language (section 3.1.1).
+In addition, "xml.dom" contains a base "Node" class and the DOM

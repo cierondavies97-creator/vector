@@ -1,0 +1,3 @@
+introducing delimiter.  The default value is "$".  Note that this
+  should *not* be a regular expression, as the implementation will
+  call "re.escape()" on this string as needed.  Note further that you

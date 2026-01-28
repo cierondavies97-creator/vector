@@ -1,0 +1,4 @@
+(expressed as an "int" or "float").
+      This *generator* is an alternative to iterating one response at
+      a time, intended to aid in efficient batch processing. It
+      retrieves the next response along with any immediately available

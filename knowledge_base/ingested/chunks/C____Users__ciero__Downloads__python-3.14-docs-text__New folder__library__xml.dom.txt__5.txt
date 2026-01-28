@@ -1,0 +1,4 @@
+code.  The DOM is a standard tree representation for XML data.
+The Document Object Model is being defined by the W3C in stages, or
+"levels" in their terminology.  The Python mapping of the API is
+substantially based on the DOM Level 2 recommendation.

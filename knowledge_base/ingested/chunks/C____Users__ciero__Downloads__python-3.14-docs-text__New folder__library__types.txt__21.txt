@@ -1,0 +1,6 @@
+objects, and is not raised for normal compilation.
+types.GeneratorType
+   The type of *generator*-iterator objects, created by generator
+   functions.
+types.CoroutineType
+   The type of *coroutine* objects, created by "async def" functions.

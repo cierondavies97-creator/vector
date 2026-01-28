@@ -1,0 +1,5 @@
++----------------------------------------------------+----------------------------------------------------+
+4.2. The embeddable package
+===========================
+Added in version 3.5.
+The embedded distribution is a ZIP file containing a minimal Python

@@ -1,0 +1,4 @@
+Returns a string containing the base set by a previous call to
+   "SetBase()", or "None" if  "SetBase()" hasn't been called.
+xmlparser.GetInputContext()
+   Returns the input data that generated the current event as a

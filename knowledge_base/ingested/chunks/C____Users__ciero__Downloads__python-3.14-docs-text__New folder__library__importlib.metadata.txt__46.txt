@@ -1,0 +1,4 @@
+Raises "PackageNotFoundError" if the named distribution package is
+   not installed in the current Python environment.
+To get the full set of requirements for a Distribution Package, use
+the "requires()" function:

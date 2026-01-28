@@ -1,0 +1,5 @@
+The "uuid" module defines the special Nil and Max UUID values:
+uuid.NIL
+   A special form of UUID that is specified to have all 128 bits set
+   to zero according to **RFC 9562, §5.9**.
+   Added in version 3.14.

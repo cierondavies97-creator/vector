@@ -1,0 +1,4 @@
+"sorted()", "list.sort()", "heapq.merge()", "heapq.nsmallest()",
+   "heapq.nlargest()", and "itertools.groupby()".
+   There are several ways to create a key function.  For example. the
+   "str.casefold()" method can serve as a key function for case

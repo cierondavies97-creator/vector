@@ -1,0 +1,3 @@
+Changed in version 3.10: "netrc" try UTF-8 encoding before using
+   locale specific encoding. The entry in the netrc file no longer
+   needs to contain all tokens.  The missing tokens' value default to

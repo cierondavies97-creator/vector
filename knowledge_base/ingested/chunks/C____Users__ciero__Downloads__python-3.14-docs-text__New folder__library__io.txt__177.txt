@@ -1,0 +1,7 @@
+(bytes/characters) will be read.
+   For example:
+      def read_it(reader: Reader[str]):
+          data = reader.read(11)
+          assert isinstance(data, str)
+class io.Writer[T]
+   Generic protocol for writing to a file or other output stream. "T"

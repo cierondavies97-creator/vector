@@ -1,0 +1,5 @@
+object.
+   Raises an auditing event "sys.setprofile" with no arguments.
+sys.setrecursionlimit(limit)
+   Set the maximum depth of the Python interpreter stack to *limit*.
+   This limit prevents infinite recursion from causing an overflow of

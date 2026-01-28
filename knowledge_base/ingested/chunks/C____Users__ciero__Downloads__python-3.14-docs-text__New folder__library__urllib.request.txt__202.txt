@@ -1,0 +1,5 @@
+>>> data = data.encode('ascii')
+   >>> with urllib.request.urlopen("http://requestb.in/xrbl82xr", data) as f:
+   ...     print(f.read().decode('utf-8'))
+   ...
+The following example uses an explicitly specified HTTP proxy,

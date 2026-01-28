@@ -1,0 +1,5 @@
+alternative to the integer constants such as "INFO".
+   setFormatter(fmt)
+      Sets the formatter for this handler to *fmt*. The *fmt* argument
+      must be a "Formatter" instance or "None".
+   addFilter(filter)

@@ -1,0 +1,3 @@
+order they will be run.  Each event is shown as a *named tuple*
+   with the following fields:  time, priority, action, argument,
+   kwargs.

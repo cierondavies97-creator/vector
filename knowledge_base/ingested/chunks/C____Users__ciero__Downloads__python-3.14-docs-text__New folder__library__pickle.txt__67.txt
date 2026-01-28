@@ -1,0 +1,4 @@
+useful when re-using picklers.
+class pickle.Unpickler(file, *, fix_imports=True, encoding='ASCII', errors='strict', buffers=None)
+   This takes a binary file for reading a pickle data stream.
+   The protocol version of the pickle is detected automatically, so no

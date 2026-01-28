@@ -1,0 +1,5 @@
+>>> dict[str, list[int]].__args__
+      (<class 'str'>, list[int])
+genericalias.__parameters__
+   This attribute is a lazily computed tuple (possibly empty) of
+   unique type variables found in "__args__":

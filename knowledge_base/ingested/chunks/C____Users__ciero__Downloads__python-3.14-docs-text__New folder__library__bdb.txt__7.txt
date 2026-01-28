@@ -1,0 +1,7 @@
+nicely formatted:
+      * Breakpoint number.
+      * Temporary status (del or keep).
+      * File/line position.
+      * Break condition.
+      * Number of times to ignore.
+      * Number of times hit.

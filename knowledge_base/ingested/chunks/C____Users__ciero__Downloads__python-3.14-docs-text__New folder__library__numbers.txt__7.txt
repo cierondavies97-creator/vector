@@ -1,0 +1,6 @@
+It also provides a default for "float()".
+   The "numerator" and "denominator" values should be instances of
+   "Integral" and should be in lowest terms with "denominator"
+   positive.
+   numerator
+      Abstract.  The numerator of this rational number.

@@ -1,0 +1,5 @@
+"""Evaluate a polynomial at a specific value.
+       Computes with better numeric stability than Horner's method.
+       """
+       # Evaluate x³ -4x² -17x + 60 at x = 5
+       # polynomial_eval([1, -4, -17, 60], x=5) → 0

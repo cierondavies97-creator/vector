@@ -1,0 +1,6 @@
+missing.
+   Changed in version 3.5: Documentation strings are now inherited if
+   not overridden.
+inspect.getcomments(object)
+   Return in a single string any lines of comments immediately
+   preceding the object's source code (for a class, function, or

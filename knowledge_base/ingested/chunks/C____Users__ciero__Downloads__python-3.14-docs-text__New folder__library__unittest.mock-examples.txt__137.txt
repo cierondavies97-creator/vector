@@ -1,0 +1,5 @@
+...
+   ...     def test_foo(self):
+   ...         with patch('mymodule.Foo') as mock_foo:
+   ...             with patch('mymodule.Bar') as mock_bar:
+   ...                 with patch('mymodule.Spam') as mock_spam:

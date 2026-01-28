@@ -1,0 +1,4 @@
+platform. Example usage:
+      check_impl_detail()               # Only on CPython (default).
+      check_impl_detail(jython=True)    # Only on Jython.
+      check_impl_detail(cpython=False)  # Everywhere except CPython.

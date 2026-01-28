@@ -1,0 +1,4 @@
+Changed in version 3.6: Added the *prompt* parameter
+   Changed in version 3.9: Added the *upgrade_deps* parameter
+   Changed in version 3.13: Added the *scm_ignore_files* parameter
+An example of extending "EnvBuilder"

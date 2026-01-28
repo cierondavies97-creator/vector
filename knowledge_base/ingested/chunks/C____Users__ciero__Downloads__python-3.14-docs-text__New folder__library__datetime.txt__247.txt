@@ -1,0 +1,3 @@
+'Tuesday, 21. November 2006 04:30PM'
+   >>> 'The {1} is {0:%d}, the {2} is {0:%B}, the {3} is {0:%I:%M%p}.'.format(dt, "day", "month", "time")
+   'The day is 21, the month is November, the time is 04:30PM.'

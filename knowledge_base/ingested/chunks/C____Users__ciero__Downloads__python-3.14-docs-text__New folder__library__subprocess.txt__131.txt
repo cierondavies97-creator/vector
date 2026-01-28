@@ -1,0 +1,6 @@
+attribute.
+   If the process does not terminate after *timeout* seconds, raise a
+   "TimeoutExpired" exception.  It is safe to catch this exception and
+   retry the wait.
+   Note:
+     This will deadlock when using "stdout=PIPE" or "stderr=PIPE" and

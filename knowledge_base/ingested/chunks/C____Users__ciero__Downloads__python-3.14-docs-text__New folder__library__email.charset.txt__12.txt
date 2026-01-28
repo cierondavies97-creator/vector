@@ -1,0 +1,5 @@
+mail message's body, which indeed may be different than the
+      header encoding. "charset.SHORTEST" is not allowed for
+      *body_encoding*.
+   output_charset
+      Some character sets must be converted before they can be used in

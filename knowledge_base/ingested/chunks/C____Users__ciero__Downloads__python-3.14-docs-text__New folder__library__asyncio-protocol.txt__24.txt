@@ -1,0 +1,5 @@
+connected, result of "socket.socket.getpeername()" ("None" on
+       error)
+     * "'socket'": "socket.socket" instance
+     * "'sockname'": the socket's own address, result of
+       "socket.socket.getsockname()"

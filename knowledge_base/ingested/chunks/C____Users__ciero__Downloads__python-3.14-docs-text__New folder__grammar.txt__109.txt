@@ -1,0 +1,5 @@
+| key=(literal_expr | attr) ':' pattern=pattern {
+           _PyPegen_key_pattern_pair(p, key, pattern) }
+   double_star_pattern[expr_ty]:
+       | '**' target=pattern_capture_target { target }
+   class_pattern[pattern_ty]:

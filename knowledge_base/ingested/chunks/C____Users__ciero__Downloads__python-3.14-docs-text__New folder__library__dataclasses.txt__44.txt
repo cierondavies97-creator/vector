@@ -1,0 +1,4 @@
+The parameters to "field()" are:
+   * *default*: If provided, this will be the default value for this
+     field.  This is needed because the "field()" call itself replaces
+     the normal position of the default value.

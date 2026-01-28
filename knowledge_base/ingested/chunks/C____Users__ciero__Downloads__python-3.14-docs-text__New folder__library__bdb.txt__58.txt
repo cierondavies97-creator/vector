@@ -1,0 +1,6 @@
+* The function name or ""<lambda>"".
+      * The input arguments.
+      * The return value.
+      * The line of code (if it exists).
+   The following two methods can be called by clients to use a
+   debugger to debug a *statement*, given as a string.

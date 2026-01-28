@@ -1,0 +1,5 @@
+"OptionGroup", return "None".
+Printing a version string
+-------------------------
+Similar to the brief usage string, "optparse" can also print a version
+string for your program.  You have to supply the string as the

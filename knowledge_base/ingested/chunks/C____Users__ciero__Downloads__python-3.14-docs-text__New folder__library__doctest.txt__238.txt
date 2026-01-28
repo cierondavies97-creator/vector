@@ -1,0 +1,4 @@
+Report that the given example failed.  This method is provided
+      to allow subclasses of "DocTestRunner" to customize their
+      output; it should not be called directly.
+      *example* is the example about to be processed.  *got* is the

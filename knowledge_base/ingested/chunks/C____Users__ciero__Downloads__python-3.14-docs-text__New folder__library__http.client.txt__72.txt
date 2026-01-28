@@ -1,0 +1,3 @@
+Return the value of the header *name*, or *default* if there is no
+   header matching *name*.  If there is more than one  header with the
+   name *name*, return all of the values joined by ', '.  If *default*

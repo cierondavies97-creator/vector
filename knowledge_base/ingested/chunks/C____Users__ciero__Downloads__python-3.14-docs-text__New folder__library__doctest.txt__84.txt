@@ -1,0 +1,5 @@
+output is very long, and you want to wrap it across multiple lines
+   in your source.
+doctest.ELLIPSIS
+   When specified, an ellipsis marker ("...") in the expected output
+   can match any substring in the actual output.  This includes

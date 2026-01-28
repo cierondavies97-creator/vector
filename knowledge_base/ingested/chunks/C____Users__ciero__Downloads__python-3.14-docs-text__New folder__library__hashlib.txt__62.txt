@@ -1,0 +1,4 @@
+Constructor functions also accept the following tree hashing
+parameters:
+* *fanout*: fanout (0 to 255, 0 if unlimited, 1 in sequential mode).
+* *depth*: maximal depth of tree (1 to 255, 255 if unlimited, 1 in

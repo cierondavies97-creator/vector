@@ -1,0 +1,5 @@
+encountered and they are meant to be overridden in a subclass.  The
+base class implementations do nothing (except for
+"handle_startendtag()"):
+HTMLParser.handle_starttag(tag, attrs)
+   This method is called to handle the start tag of an element (e.g.

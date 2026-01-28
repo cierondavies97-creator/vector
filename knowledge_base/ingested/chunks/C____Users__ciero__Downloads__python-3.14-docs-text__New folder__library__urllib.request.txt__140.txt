@@ -1,0 +1,4 @@
+Note:
+     The default implementation of this method does not strictly
+     follow **RFC 2616**, which says that 301 and 302 responses to
+     "POST" requests must not be automatically redirected without

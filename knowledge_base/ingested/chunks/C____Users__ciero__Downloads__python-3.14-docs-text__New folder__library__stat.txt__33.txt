@@ -1,0 +1,7 @@
+stat.UF_NOUNLINK
+   The file may not be renamed or deleted.
+stat.UF_COMPRESSED
+   The file is stored compressed (macOS 10.6+).
+stat.UF_TRACKED
+   Used for handling document IDs (macOS)
+   Added in version 3.13.

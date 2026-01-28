@@ -1,0 +1,4 @@
+This function first borrows a reference to "list[0]", then replaces
+"list[1]" with the value "0", and finally prints the borrowed
+reference. Looks harmless, right?  But it's not!
+Let's follow the control flow into "PyList_SetItem()".  The list owns

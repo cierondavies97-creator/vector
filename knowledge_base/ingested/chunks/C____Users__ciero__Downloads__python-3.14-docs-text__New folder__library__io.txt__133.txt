@@ -1,0 +1,6 @@
+methods in addition to those from "IOBase":
+   encoding
+      The name of the encoding used to decode the stream's bytes into
+      strings, and to encode strings into bytes.
+   errors
+      The error setting of the decoder or encoder.

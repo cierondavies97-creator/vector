@@ -1,0 +1,3 @@
+stripped off and the number interpreted as the port number to use.
+   This method is automatically invoked by the constructor if a host
+   is specified during instantiation.  Returns a 2-tuple of the

@@ -1,0 +1,3 @@
+behavior, you should explicitly declare how you want your threads to
+behave on an abrupt shutdown.  The "ThreadingMixIn" class defines an
+attribute *daemon_threads*, which indicates whether or not the server

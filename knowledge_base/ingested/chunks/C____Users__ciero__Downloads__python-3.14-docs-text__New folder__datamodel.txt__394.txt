@@ -1,0 +1,5 @@
+class itself), all its instances are considered true.
+3.3.2. Customizing attribute access
+-----------------------------------
+The following methods can be defined to customize the meaning of
+attribute access (use of, assignment to, or deletion of "x.name") for

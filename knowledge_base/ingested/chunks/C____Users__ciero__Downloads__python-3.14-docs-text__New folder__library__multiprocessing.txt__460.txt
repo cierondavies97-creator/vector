@@ -1,0 +1,4 @@
+process.  Even so it is probably good practice to explicitly join
+   all the processes that you start.
+Better to inherit than pickle/unpickle
+   When using the *spawn* or *forkserver* start methods many types

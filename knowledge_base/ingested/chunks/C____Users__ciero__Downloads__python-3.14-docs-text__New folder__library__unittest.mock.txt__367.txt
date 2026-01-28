@@ -1,0 +1,3 @@
+*old api* but uses mocks instead of the real objects will still pass.
+This means your tests can all pass even though your code is broken.
+Changed in version 3.5: Before 3.5, tests with a typo in the word

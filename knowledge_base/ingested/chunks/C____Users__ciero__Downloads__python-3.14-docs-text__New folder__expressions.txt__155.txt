@@ -1,0 +1,3 @@
+slice object (see section The standard type hierarchy) whose "start",
+"stop" and "step" attributes are the values of the expressions given
+as lower bound, upper bound and stride, respectively, substituting

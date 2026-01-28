@@ -1,0 +1,4 @@
+be more compact by omitting unambiguous field names.  Attributes
+   such as line numbers and column offsets are not dumped by default.
+   If this is wanted, *include_attributes* can be set to true.
+   If *indent* is a non-negative integer or string, then the tree will

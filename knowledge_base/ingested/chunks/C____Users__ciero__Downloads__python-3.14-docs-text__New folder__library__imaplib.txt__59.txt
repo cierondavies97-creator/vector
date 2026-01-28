@@ -1,0 +1,5 @@
+arbitrary exceptions.
+IMAP4.lsub(directory='""', pattern='*')
+   List subscribed mailbox names in directory matching pattern.
+   *directory* defaults to the top level directory and *pattern*
+   defaults to match any mailbox. Returned data are tuples of message

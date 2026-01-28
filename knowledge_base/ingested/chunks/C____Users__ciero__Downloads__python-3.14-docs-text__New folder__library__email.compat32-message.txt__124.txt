@@ -1,0 +1,4 @@
+can become visible.
+      The *preamble* attribute contains this leading extra-armor text
+      for MIME documents.  When the "Parser" discovers some text after
+      the headers but before the first boundary string, it assigns

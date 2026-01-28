@@ -1,0 +1,4 @@
+When an "MHMessage" instance is created based upon a "BabylMessage"
+instance, the following conversions take place:
++----------------------+-------------------------------+
+| Resulting state      | "BabylMessage" state          |

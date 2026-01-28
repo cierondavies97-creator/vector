@@ -1,0 +1,4 @@
+will be interpreted as named placeholders.
+How to adapt custom Python types to SQLite values
+-------------------------------------------------
+SQLite supports only a limited set of data types natively. To store

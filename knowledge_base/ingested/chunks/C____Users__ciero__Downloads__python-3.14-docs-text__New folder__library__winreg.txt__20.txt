@@ -1,0 +1,4 @@
+If the method succeeds, the entire key, including all of its
+   values, is removed. If the method fails, an "OSError" exception is
+   raised.
+   On unsupported Windows versions, "NotImplementedError" is raised.

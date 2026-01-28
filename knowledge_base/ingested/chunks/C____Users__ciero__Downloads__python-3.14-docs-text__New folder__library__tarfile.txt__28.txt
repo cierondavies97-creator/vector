@@ -1,0 +1,4 @@
+object* opened in binary mode for *name*. It is supposed to be at
+   position 0.
+   For modes "'w:gz'", "'x:gz'", "'w|gz'", "'w:bz2'", "'x:bz2'",
+   "'w|bz2'", "tarfile.open()" accepts the keyword argument

@@ -1,0 +1,5 @@
+class instances.
+object.__getattr__(self, name)
+   Called when the default attribute access fails with an
+   "AttributeError" (either "__getattribute__()" raises an
+   "AttributeError" because *name* is not an instance attribute or an

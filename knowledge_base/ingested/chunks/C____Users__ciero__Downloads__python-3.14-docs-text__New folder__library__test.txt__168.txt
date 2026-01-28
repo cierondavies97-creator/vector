@@ -1,0 +1,4 @@
+BytecodeTestCase.get_disassembly_as_string(co)
+   Return the disassembly of *co* as string.
+BytecodeTestCase.assertInBytecode(x, opname, argval=_UNSPECIFIED)
+   Return instr if *opname* is found, otherwise throws

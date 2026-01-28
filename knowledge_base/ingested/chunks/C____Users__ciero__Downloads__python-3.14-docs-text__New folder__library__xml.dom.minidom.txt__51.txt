@@ -1,0 +1,4 @@
+accepts it as an encoding name. See https://www.w3.org/TR/2006
+    /REC-xml11-20060816/#NT-EncodingDecl and
+    https://www.iana.org/assignments/character-sets/character-
+    sets.xhtml.

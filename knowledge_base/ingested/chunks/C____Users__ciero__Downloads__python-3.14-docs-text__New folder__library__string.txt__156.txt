@@ -1,0 +1,5 @@
+string.
+   substitute(mapping={}, /, **kwds)
+      Performs the template substitution, returning a new string.
+      *mapping* is any dictionary-like object with keys that match the
+      placeholders in the template.  Alternatively, you can provide

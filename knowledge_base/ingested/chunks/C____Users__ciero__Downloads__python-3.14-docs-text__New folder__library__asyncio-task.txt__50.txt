@@ -1,0 +1,4 @@
+remaining tasks and waits for them, but then the initial
+"KeyboardInterrupt" or "SystemExit" is re-raised instead of
+"ExceptionGroup" or "BaseExceptionGroup".
+If the body of the "async with" statement exits with an exception (so

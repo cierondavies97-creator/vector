@@ -1,0 +1,4 @@
+which is created using the original group's "derive()" method.
+   Added in version 3.4.
+   Changed in version 3.12: "suppress" now supports suppressing
+   exceptions raised as part of a "BaseExceptionGroup".

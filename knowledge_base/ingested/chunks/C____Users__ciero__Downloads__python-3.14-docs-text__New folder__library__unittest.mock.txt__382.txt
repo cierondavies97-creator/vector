@@ -1,0 +1,4 @@
+>>> mock_request.Request('foo', 'bar')
+<NonCallableMagicMock name='mock.Request()' spec='Request' id='...'>
+This isn't without caveats and limitations however, which is why it is
+not the default behaviour. In order to know what attributes are

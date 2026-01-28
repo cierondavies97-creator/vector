@@ -1,0 +1,4 @@
+class itself does not implement any of these protocols.
+object.__get__(self, instance, owner=None)
+   Called to get the attribute of the owner class (class attribute
+   access) or of an instance of that class (instance attribute

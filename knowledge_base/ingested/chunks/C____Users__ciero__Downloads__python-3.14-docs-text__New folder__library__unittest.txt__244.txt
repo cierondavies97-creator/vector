@@ -1,0 +1,4 @@
+passed into "addCleanup()" when they are added.
+      If "setUp()" fails, meaning that "tearDown()" is not called,
+      then any cleanup functions added will still be called.
+      Added in version 3.1.

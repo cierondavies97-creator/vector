@@ -1,0 +1,4 @@
+such as "max()" that rely on a different underlying method.
+   Implementing all six comparisons also helps avoid confusion for
+   mixed type comparisons which can call the reflected "__gt__()"
+   method.

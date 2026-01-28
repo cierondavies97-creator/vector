@@ -1,0 +1,13 @@
+return str1+str2
+n = 4.
+res = factorial(n)
+concat(f"{n}! = ", res)
+Nicola Chiapolini, 8 July 2024
+20 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+mypy: Check with mypy

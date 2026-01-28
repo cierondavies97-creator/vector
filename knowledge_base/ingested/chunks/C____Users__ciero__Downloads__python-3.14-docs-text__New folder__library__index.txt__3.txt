@@ -1,0 +1,3 @@
+Python that provide standardized solutions for many problems that
+occur in everyday programming. Some of these modules are explicitly
+designed to encourage and enhance the portability of Python programs

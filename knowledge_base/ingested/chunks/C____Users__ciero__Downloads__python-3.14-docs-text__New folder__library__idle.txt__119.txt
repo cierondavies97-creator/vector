@@ -1,0 +1,6 @@
+to edit a file with such a character or later when entering such a
+character.  If one cannot upgrade tcl/tk, then re-configure IDLE to
+use a font that works better.
+Running user code
+-----------------
+With rare exceptions, the result of executing Python code with IDLE is

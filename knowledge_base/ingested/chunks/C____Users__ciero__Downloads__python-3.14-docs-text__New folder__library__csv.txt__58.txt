@@ -1,0 +1,4 @@
+csv.QUOTE_STRINGS
+   Instructs "writer" objects to always place quotes around fields
+   which are strings.  This is similar to "QUOTE_NONNUMERIC", except
+   that if a field value is "None" an empty (unquoted) string is

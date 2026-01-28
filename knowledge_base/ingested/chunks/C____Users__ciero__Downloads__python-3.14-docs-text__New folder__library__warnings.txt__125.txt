@@ -1,0 +1,3 @@
+created by "threading.Thread" to start with a copy of the context
+     variables from the thread starting it.  When true, the context
+     established by "catch_warnings" in one thread will also apply to

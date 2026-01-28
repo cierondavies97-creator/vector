@@ -1,0 +1,3 @@
+The original GNU **gettext** only supported C or C++ source code but
+its extended version **xgettext** scans code written in a number of
+languages, including Python, to find strings marked as translatable.

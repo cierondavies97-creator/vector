@@ -1,0 +1,4 @@
+elif options.n:
+           diff = difflib.ndiff(fromlines, tolines)
+       elif options.m:
+           diff = difflib.HtmlDiff().make_file(fromlines,tolines,fromfile,tofile,context=options.c,numlines=n)

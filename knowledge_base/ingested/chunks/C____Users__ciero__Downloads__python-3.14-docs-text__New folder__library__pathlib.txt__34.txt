@@ -1,0 +1,7 @@
+>>> bytes(p)
+   b'/etc'
+Note:
+  Calling "bytes" is only recommended under Unix.  Under Windows, the
+  unicode form is the canonical representation of filesystem paths.
+Accessing individual parts
+--------------------------

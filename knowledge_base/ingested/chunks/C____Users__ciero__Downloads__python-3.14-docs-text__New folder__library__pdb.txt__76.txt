@@ -1,0 +1,3 @@
+immediately followed by end). This is because any time you resume
+   execution (even with a simple next or step), you may encounter
+   another breakpoint—which could have its own command list, leading

@@ -1,0 +1,6 @@
+sent = yield 0
+       while sent >= 0:
+           sent = yield round(sent)
+       return 'Done'
+Note that unlike many other generic classes in the standard library,
+the "SendType" of "Generator" behaves contravariantly, not covariantly

@@ -1,0 +1,3 @@
+| Option    | Description                                                      |
+|===========|==================================================================|
+| height    | If present and greater than zero, specifies the desired height   |

@@ -1,0 +1,11 @@
+Nicola Chiapolini, 8 July 2024
+18 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+mypy: Execute with Python
+python3 factorial.py
+Traceback (most recent call last):

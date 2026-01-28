@@ -1,0 +1,6 @@
+or executed, this method has no effect.
+   cancelled()
+      Return "True" if the callback was cancelled.
+      Added in version 3.7.
+class asyncio.TimerHandle
+   A callback wrapper object returned by "loop.call_later()", and

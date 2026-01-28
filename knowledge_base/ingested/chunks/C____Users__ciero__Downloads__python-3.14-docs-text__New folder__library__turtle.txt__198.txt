@@ -1,0 +1,5 @@
+the now empty TurtleScreen to its initial state: white background,
+   no background image, no event bindings and tracing on.
+turtle.reset()
+   Note:
+     This TurtleScreen method is available as a global function only

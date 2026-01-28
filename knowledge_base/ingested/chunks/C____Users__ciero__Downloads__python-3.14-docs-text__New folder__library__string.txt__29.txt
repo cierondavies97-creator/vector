@@ -1,0 +1,4 @@
+related to that of formatted string literals and template string
+literals, but it is less sophisticated and, in particular, does not
+support arbitrary expressions in interpolations.
+Format strings contain "replacement fields" surrounded by curly braces

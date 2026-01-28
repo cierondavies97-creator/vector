@@ -1,0 +1,4 @@
+LOCAL_CREDS and LOCAL_CREDS_PERSISTENT can be used with SOCK_DGRAM,
+   SOCK_STREAM sockets, equivalent to Linux/DragonFlyBSD SO_PASSCRED,
+   while LOCAL_CREDS sends the credentials at first read,
+   LOCAL_CREDS_PERSISTENT sends for each read, SCM_CREDS2 must be then

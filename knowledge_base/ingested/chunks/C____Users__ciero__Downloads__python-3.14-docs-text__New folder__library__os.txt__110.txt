@@ -1,0 +1,3 @@
+usually file descriptor 0, standard output is 1, and standard error is
+2.  Further files opened by a process will then be assigned 3, 4, 5,
+and so forth.  The name "file descriptor" is slightly deceptive; on

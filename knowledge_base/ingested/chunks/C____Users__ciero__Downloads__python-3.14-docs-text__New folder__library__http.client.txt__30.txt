@@ -1,0 +1,4 @@
+======================
+"HTTPConnection" instances have the following methods:
+HTTPConnection.request(method, url, body=None, headers={}, *, encode_chunked=False)
+   This will send a request to the server using the HTTP request

@@ -1,0 +1,8 @@
+* Tool identifiers
+* Events
+* Callbacks
+Tool identifiers
+================
+A tool identifier is an integer and the associated name. Tool
+identifiers are used to discourage tools from interfering with each
+other and to allow multiple tools to operate at the same time.

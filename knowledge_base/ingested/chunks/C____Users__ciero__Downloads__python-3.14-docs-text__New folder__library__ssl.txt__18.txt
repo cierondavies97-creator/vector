@@ -1,0 +1,4 @@
+purposes.
+ssl.create_default_context(purpose=Purpose.SERVER_AUTH, *, cafile=None, capath=None, cadata=None)
+   Return a new "SSLContext" object with default settings for the
+   given *purpose*.  The settings are chosen by the "ssl" module, and

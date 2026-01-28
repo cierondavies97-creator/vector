@@ -1,0 +1,5 @@
+3.8.
+When using the default metaclass "type", or any metaclass that
+ultimately calls "type.__new__", the following additional
+customization steps are invoked after creating the class object:
+1. The "type.__new__" method collects all of the attributes in the

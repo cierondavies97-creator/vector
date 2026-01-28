@@ -1,0 +1,7 @@
+supply.  Here is the C declaration:
+   WINUSERAPI BOOL WINAPI
+   GetWindowRect(
+        HWND hWnd,
+        LPRECT lpRect);
+Here is the wrapping with "ctypes":
+   >>> from ctypes import POINTER, WINFUNCTYPE, windll, WinError

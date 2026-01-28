@@ -1,0 +1,5 @@
+Similar to "timerfd_gettime()", but return time as nanoseconds.
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.TFD_NONBLOCK
+   A flag for the "timerfd_create()" function, which sets the

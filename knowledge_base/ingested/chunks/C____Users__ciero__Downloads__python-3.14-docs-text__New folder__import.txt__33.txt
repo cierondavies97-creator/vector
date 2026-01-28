@@ -1,0 +1,3 @@
+"sys.modules" is writable.  Deleting a key may not destroy the
+associated module (as other modules may hold references to it), but it
+will invalidate the cache entry for the named module, causing Python

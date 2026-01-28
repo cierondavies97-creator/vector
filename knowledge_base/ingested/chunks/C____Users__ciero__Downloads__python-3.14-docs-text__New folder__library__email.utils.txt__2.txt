@@ -1,0 +1,4 @@
+according to the system time zone database.  If *dt* is naive (that
+   is, "dt.tzinfo" is "None"), it is assumed to be in local time.
+   Added in version 3.3.
+   Deprecated since version 3.12, removed in version 3.14: The *isdst*

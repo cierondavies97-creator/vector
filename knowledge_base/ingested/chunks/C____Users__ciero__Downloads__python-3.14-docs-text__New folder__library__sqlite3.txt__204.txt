@@ -1,0 +1,4 @@
+placeholders to bind values in SQL queries.
+      Raises:
+         **ProgrammingError** -- When *sql* contains more than one SQL
+         statement or is not a DML statement, When named placeholders

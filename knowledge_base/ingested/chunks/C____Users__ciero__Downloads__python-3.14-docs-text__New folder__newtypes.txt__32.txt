@@ -1,0 +1,7 @@
+PyErr_Restore(err_type, err_value, err_traceback);
+           Py_DECREF(self->my_callback);
+       }
+       Py_TYPE(self)->tp_free(self);
+   }
+Note:
+  There are limitations to what you can safely do in a deallocator

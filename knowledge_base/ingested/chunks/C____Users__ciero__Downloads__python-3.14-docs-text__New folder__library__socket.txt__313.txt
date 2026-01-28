@@ -1,0 +1,6 @@
+accepted.
+   Changed in version 3.6: setsockopt(level, optname, None, optlen:
+   int) form added.
+   Availability: not WASI.
+socket.shutdown(how)
+   Shut down one or both halves of the connection.  If *how* is

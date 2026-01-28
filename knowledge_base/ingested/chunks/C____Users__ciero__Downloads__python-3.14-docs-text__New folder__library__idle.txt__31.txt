@@ -1,0 +1,5 @@
+to save or autosave, as selected in the General tab of the Idle
+   Settings dialog.  If there is a syntax error, the approximate
+   location is indicated in the Editor window.
+Python Shell
+   Open or wake up the Python Shell window.

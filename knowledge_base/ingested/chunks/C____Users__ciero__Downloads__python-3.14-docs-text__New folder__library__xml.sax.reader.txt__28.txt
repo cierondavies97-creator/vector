@@ -1,0 +1,7 @@
+*SAXNotSupportedException* is raised.
+IncrementalParser Objects
+=========================
+Instances of "IncrementalParser" offer the following additional
+methods:
+IncrementalParser.feed(data)
+   Process a chunk of *data*.

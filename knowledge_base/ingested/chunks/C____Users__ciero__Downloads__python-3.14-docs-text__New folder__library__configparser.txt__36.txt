@@ -1,0 +1,6 @@
+spaces around the delimiter = obviously
+   you can also use : to delimit keys from values
+   [All Values Are Strings]
+   values like this: 1000000
+   or this: 3.14159265359
+   are they treated as numbers? : no

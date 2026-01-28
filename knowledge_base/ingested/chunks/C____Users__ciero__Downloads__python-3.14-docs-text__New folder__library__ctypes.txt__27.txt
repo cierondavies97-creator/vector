@@ -1,0 +1,4 @@
+>>>
+To find out the correct calling convention you have to look into the C
+header file or the documentation for the function you want to call.
+On Windows, "ctypes" uses win32 structured exception handling to

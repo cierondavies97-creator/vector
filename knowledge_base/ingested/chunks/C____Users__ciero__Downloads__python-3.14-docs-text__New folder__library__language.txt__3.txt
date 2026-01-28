@@ -1,0 +1,6 @@
+* "symtable" --- Access to the compiler's symbol tables
+  * Generating Symbol Tables
+  * Examining Symbol Tables
+  * Command-Line Usage
+* "token" --- Constants used with Python parse trees
+* "keyword" --- Testing for Python keywords

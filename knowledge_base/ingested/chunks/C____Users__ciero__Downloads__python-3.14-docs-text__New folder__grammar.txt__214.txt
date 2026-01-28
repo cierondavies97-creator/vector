@@ -1,0 +1,4 @@
+invalid_kwarg:
+       | a[Token*]=('True'|'False'|'None') b='=' {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "cannot assign to %s", PyBytes_AS_STRING(a->bytes)) }
+       | a=NAME b='=' expression for_if_clauses {

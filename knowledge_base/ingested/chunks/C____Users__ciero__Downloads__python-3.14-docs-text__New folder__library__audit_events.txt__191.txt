@@ -1,0 +1,4 @@
+The following events are raised internally and do not correspond to
+any public API of CPython:
++------------------------------+---------------------------------------------+
+| Audit event                  | Arguments                                   |

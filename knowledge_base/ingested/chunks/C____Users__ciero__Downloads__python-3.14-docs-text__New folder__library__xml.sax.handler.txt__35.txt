@@ -1,0 +1,4 @@
+are not guaranteed to be properly nested relative to each-other:
+   all "startPrefixMapping()" events will occur before the
+   corresponding "startElement()" event, and all "endPrefixMapping()"
+   events will occur after the corresponding "endElement()" event, but

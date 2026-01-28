@@ -1,0 +1,4 @@
+Added in version 3.6.
+* "AF_VSOCK" allows communication between virtual machines and their
+  hosts. The sockets are represented as a "(CID, port)" tuple where
+  the context ID or CID and port are integers.

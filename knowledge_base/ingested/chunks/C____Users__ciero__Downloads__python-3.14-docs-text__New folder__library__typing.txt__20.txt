@@ -1,0 +1,5 @@
+from typing import NewType
+   UserId = NewType('UserId', int)
+   # Fails at runtime and does not pass type checking
+   class AdminUserId(UserId): pass
+However, it is possible to create a "NewType" based on a 'derived'

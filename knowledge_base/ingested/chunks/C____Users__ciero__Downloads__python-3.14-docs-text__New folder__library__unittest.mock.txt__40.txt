@@ -1,0 +1,3 @@
+wrapped object (returning the real result). Attribute access on
+     the mock will return a Mock object that wraps the corresponding
+     attribute of the wrapped object (so attempting to access an

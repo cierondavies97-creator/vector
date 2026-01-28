@@ -1,0 +1,5 @@
+body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))]),
+                      match_case(
+                          pattern=MatchClass(

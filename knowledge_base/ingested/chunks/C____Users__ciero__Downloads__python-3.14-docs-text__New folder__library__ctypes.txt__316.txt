@@ -1,0 +1,6 @@
+b'ab\x00\x00'
+      >>> bytes(create_string_buffer(b'abcdef', 2))
+      Traceback (most recent call last):
+         ...
+      ValueError: byte string too long
+   Raises an auditing event "ctypes.create_string_buffer" with

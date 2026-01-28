@@ -1,0 +1,3 @@
+Generally, FIFOs are used as rendezvous between "client" and
+   "server" type processes: the server opens the FIFO for reading, and
+   the client opens it for writing.  Note that "mkfifo()" doesn't open

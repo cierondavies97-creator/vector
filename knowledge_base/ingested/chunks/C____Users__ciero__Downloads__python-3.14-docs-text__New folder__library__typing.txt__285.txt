@@ -1,0 +1,7 @@
+pass
+   Finally, an unpacked type variable tuple can be used as the type
+   annotation of "*args":
+      def call_soon[*Ts](
+          callback: Callable[[*Ts], None],
+          *args: *Ts
+      ) -> None:

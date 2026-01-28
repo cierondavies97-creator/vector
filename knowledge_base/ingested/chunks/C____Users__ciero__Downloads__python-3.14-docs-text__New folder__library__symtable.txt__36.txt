@@ -1,0 +1,7 @@
+Command-Line Usage
+==================
+Added in version 3.13.
+The "symtable" module can be executed as a script from the command
+line.
+   python -m symtable [infile...]
+Symbol tables are generated for the specified Python source files and

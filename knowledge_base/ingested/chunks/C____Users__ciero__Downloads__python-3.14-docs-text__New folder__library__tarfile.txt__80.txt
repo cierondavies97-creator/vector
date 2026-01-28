@@ -1,0 +1,5 @@
+classmethod TarFile.open(...)
+   Alternative constructor. The "tarfile.open()" function is actually
+   a shortcut to this classmethod.
+TarFile.getmember(name)
+   Return a "TarInfo" object for member *name*. If *name* can not be

@@ -1,0 +1,4 @@
+single optional node.
+   "simple" is always either 0 (indicating a "complex" target) or 1
+   (indicating a "simple" target). A "simple" target consists solely
+   of a "Name" node that does not appear between parentheses; all

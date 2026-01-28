@@ -1,0 +1,5 @@
+>>> manager.mock_calls == expected_calls
+True
+If "patch" is creating, and putting in place, your mocks then you can
+attach them to a manager mock using the "attach_mock()" method. After
+attaching calls will be recorded in "mock_calls" of the manager.

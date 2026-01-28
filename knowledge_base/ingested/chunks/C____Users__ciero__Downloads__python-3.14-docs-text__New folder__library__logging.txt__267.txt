@@ -1,0 +1,3 @@
+| *force*        | If this keyword argument is specified as      |
+   |                | true, any existing handlers attached to the   |
+   |                | root logger are removed and closed, before    |

@@ -1,0 +1,3 @@
+However, since the SSL (and TLS) protocol has its own framing atop
+   of TCP, the SSL sockets abstraction can, in certain respects,
+   diverge from the specification of normal, OS-level sockets.  See

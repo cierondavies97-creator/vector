@@ -1,0 +1,4 @@
+| "!"         | network (= big-endian)   | standard   | none        |
++-------------+--------------------------+------------+-------------+
+If the first character is not one of these, "'@'" is assumed.
+Note:

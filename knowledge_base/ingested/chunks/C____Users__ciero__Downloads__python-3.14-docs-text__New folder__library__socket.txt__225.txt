@@ -1,0 +1,4 @@
+method raises an "InterruptedError" exception if the connection is
+   interrupted by a signal (or the exception raised by the signal
+   handler).
+   Raises an auditing event "socket.connect" with arguments "self",

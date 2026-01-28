@@ -1,0 +1,4 @@
+of line numbers.  *trace* enables line execution tracing.
+   *countfuncs* enables listing of the functions called during the
+   run.  *countcallers* enables call relationship tracking.
+   *ignoremods* is a list of modules or packages to ignore.

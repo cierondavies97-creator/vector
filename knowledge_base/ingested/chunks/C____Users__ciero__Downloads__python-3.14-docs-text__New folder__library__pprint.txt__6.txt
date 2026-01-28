@@ -1,0 +1,5 @@
+can reassign "print = pprint.pp" for use within a scope.
+   Parameters:
+      * **object** -- The object to be printed.
+      * **stream** (*file-like object* | None) -- A file-like object
+        to which the output will be written by calling its "write()"

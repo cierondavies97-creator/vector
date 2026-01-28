@@ -1,0 +1,7 @@
+while True:
+              for i in reversed(range(r)):
+                  if indices[i] != n - 1:
+                      break
+              else:
+                  return
+              indices[i:] = [indices[i] + 1] * (r - i)

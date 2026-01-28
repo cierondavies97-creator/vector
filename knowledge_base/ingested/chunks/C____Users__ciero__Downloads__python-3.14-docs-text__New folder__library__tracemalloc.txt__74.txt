@@ -1,0 +1,3 @@
+The "take_snapshot()" function creates a snapshot instance.
+   compare_to(old_snapshot: Snapshot, key_type: str, cumulative: bool = False)
+      Compute the differences with an old snapshot. Get statistics as

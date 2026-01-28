@@ -1,0 +1,4 @@
+by a signal not in *sigset* and the signal handler does not raise
+   an exception (see **PEP 475** for the rationale).
+signal.sigtimedwait(sigset, timeout)
+   Like "sigwaitinfo()", but takes an additional *timeout* argument

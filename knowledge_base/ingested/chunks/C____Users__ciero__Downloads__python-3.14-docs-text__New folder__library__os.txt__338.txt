@@ -1,0 +1,5 @@
+even if it is included in "pathconf_names", an "OSError" is raised
+   with "errno.EINVAL" for the error number.
+   This function can support specifying a file descriptor.
+   Availability: Unix.
+   Changed in version 3.6: Accepts a *path-like object*.

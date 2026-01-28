@@ -1,0 +1,5 @@
+By default "shutil" provides these formats:
+   * *zip*: ZIP file (if the "zlib" module is available).
+   * *tar*: Uncompressed tar file. Uses POSIX.1-2001 pax format for
+     new archives.
+   * *gztar*: gzip'ed tar-file (if the "zlib" module is available).

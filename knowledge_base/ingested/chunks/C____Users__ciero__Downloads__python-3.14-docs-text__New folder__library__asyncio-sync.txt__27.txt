@@ -1,0 +1,5 @@
+use "wait_for()" instead.
+   async wait_for(predicate)
+      Wait until a predicate becomes *true*.
+      The predicate must be a callable which result will be
+      interpreted as a boolean value.  The method will repeatedly

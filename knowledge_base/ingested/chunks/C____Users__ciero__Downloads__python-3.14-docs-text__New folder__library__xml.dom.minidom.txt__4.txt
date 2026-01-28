@@ -1,0 +1,4 @@
+datasource = open('c:\\temp\\mydata.xml')
+   dom2 = parse(datasource)  # parse an open file
+   dom3 = parseString('<myxml>Some data<empty/> some more data</myxml>')
+The "parse()" function can take either a filename or an open file

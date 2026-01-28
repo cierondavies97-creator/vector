@@ -1,0 +1,4 @@
+and used. As many Python scripts written to work on Unix will already
+have this line, you should find these scripts can be used by the
+launcher without modification. If you are writing a new script on
+Windows which you hope will be useful on Unix, you should use one of

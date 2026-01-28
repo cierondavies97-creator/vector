@@ -1,0 +1,4 @@
+*errors* arguments were specified or the *text* or
+   *universal_newlines* argument was "True", the stream is a text
+   stream, otherwise it is a byte stream. If the *stderr* argument was
+   not "PIPE", this attribute is "None".

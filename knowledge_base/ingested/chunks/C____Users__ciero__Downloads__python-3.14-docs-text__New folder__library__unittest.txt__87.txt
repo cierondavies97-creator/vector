@@ -1,0 +1,6 @@
+expected failures:
+@unittest.skip(reason)
+   Unconditionally skip the decorated test.  *reason* should describe
+   why the test is being skipped.
+@unittest.skipIf(condition, reason)
+   Skip the decorated test if *condition* is true.

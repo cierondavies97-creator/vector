@@ -1,0 +1,5 @@
+>>> x = Decimal(2) ** 256
+   >>> x / 128
+   Decimal('904625697166532776746648320380374280103671755200316906558262375061821325312')
+For inexact results, "MAX_PREC" is far too large on 64-bit platforms
+and the available memory will be insufficient:

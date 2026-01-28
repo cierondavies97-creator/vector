@@ -1,0 +1,10 @@
+Frame of a traceback.
+   The "Traceback" class is a sequence of "Frame" instances.
+   filename
+      Filename ("str").
+   lineno
+      Line number ("int").
+Snapshot
+--------
+class tracemalloc.Snapshot
+   Snapshot of traces of memory blocks allocated by Python.

@@ -1,0 +1,4 @@
+======================================================================
+Changed in version 3.8: On Windows, "ProactorEventLoop" is now the
+default event loop.
+All event loops on Windows do not support the following methods:

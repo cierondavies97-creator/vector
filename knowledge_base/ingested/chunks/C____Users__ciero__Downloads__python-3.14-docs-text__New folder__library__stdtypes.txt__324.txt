@@ -1,0 +1,7 @@
+0
+      >>> 'spam, spam, spam'.find('sp', 5)
+      6
+   See also "rfind()" and "index()".
+   Note:
+     The "find()" method should be used only if you need to know the
+     position of *sub*.  To check if *sub* is a substring or not, use

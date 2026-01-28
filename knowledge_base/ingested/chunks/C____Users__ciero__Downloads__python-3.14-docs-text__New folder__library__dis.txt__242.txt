@@ -1,0 +1,5 @@
+are referenced by inner scopes or names in outer scopes that are
+   referenced from this scope.  It does *not* include references to
+   global or builtin scopes.
+dis.hasname
+   Sequence of bytecodes that access an attribute by name.

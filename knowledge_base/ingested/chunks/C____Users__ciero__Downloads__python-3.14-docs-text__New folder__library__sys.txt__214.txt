@@ -1,0 +1,3 @@
+start with an underscore, and are not described here.  Regardless
+   of its contents, "sys.implementation" will not change during a run
+   of the interpreter, nor between implementation versions.  (It may

@@ -1,0 +1,6 @@
+# Load the records from the pickle data stream.
+       file.seek(0)
+       memos = DBUnpickler(file, conn).load()
+       print("Unpickled records:")
+       pprint.pprint(memos)
+   if __name__ == '__main__':

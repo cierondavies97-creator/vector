@@ -1,0 +1,5 @@
+use "7bit".
+      Note:
+        A *cte* of "binary" does not actually work correctly yet. The
+        "EmailMessage" object as modified by "set_content" is correct,
+        but "BytesGenerator" does not serialize it correctly.

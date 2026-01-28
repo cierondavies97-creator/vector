@@ -1,0 +1,5 @@
+Changed in version 3.10: The function uses OpenSSL's
+   "CRYPTO_memcmp()" internally when available.
+See also:
+  Module "hashlib"
+     The Python module providing secure hash functions.

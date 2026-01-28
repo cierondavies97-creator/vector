@@ -1,0 +1,4 @@
+in two ways in the DOM Core recommendation:  an "Element" object
+provides one as its list of child nodes, and the
+"getElementsByTagName()" and "getElementsByTagNameNS()" methods of
+"Node" return objects with this interface to represent query results.

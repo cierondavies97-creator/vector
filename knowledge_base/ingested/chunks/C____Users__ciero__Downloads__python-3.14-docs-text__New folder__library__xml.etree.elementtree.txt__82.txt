@@ -1,0 +1,5 @@
+object, if provided, or returns it as a text string if not.  The
+   output file receives text, not bytes.  It should therefore be
+   opened in text mode with "utf-8" encoding.
+   Typical uses:
+      xml_data = "<root>...</root>"

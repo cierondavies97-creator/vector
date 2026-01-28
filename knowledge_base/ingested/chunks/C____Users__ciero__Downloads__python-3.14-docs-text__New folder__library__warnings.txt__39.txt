@@ -1,0 +1,4 @@
+ignoring any whitespace at the start or end of *module*.
+* *lineno* is an integer that the line number where the warning
+  occurred must match, or "0" to match all line numbers.
+Since the "Warning" class is derived from the built-in "Exception"

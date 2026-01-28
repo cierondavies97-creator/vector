@@ -1,0 +1,6 @@
+For example, if your script is called "/usr/bin/foo":
+   $ /usr/bin/foo --version
+   foo 1.0
+The following two methods can be used to print and get the "version"
+string:
+OptionParser.print_version(file=None)

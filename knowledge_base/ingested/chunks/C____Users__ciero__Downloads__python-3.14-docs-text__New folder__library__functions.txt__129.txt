@@ -1,0 +1,5 @@
+literals is allowed.
+   Changed in version 3.7: The parameter is now positional-only.
+   Changed in version 3.8: Falls back to "__index__()" if
+   "__float__()" is not defined.
+format(value, format_spec='', /)

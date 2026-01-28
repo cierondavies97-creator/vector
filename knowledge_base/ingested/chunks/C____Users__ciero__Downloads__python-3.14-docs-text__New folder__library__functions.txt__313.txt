@@ -1,0 +1,4 @@
+class str(object, *, errors)
+   Return a "str" version of *object*.  See "str()" for details.
+   "str" is the built-in string *class*.  For general information
+   about strings, see Text Sequence Type --- str.

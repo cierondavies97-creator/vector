@@ -1,0 +1,5 @@
+array.
+   * If it is an *iterable*, it must be an iterable of integers in the
+     range "0 <= x < 256", which are used as the initial contents of
+     the array.
+   Without an argument, an array of size 0 is created.

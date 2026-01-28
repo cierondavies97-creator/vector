@@ -1,0 +1,3 @@
+|                     |         | operating system.                               |
++---------------------+---------+-------------------------------------------------+
+| RC_NO_PYTHON        | 103     | Unable to locate the requested version.         |

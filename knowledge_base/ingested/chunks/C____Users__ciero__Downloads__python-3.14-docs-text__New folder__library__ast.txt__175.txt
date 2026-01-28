@@ -1,0 +1,7 @@
+body=[
+              Import(
+                  names=[
+                      alias(name='x'),
+                      alias(name='y'),
+                      alias(name='z')])])
+class ast.ImportFrom(module, names, level)

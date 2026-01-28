@@ -1,0 +1,6 @@
+>>> from math import floor
+      >>> floor(Fraction(355, 113))
+      3
+   __ceil__()
+      Returns the least "int" ">= self".  This method can also be
+      accessed through the "math.ceil()" function.

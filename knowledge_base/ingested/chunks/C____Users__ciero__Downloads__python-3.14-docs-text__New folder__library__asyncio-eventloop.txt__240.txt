@@ -1,0 +1,4 @@
+Start accepting connections until the coroutine is cancelled.
+      Cancellation of "serve_forever" task causes the server to be
+      closed.
+      This method can be called if the server is already accepting

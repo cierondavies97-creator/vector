@@ -1,0 +1,5 @@
+WindowsPath('c:/windows')
+      >>> p = Path.from_uri('file:/c|/windows')
+      WindowsPath('c:/windows')
+   "ValueError" is raised if the URI does not start with "file:", or
+   the parsed path isn't absolute.

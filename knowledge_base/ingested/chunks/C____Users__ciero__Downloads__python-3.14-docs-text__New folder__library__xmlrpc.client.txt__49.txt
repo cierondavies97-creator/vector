@@ -1,0 +1,5 @@
+internal use by the marshalling/unmarshalling code:
+   decode(string)
+      Accept a string as the instance's new time value.
+   encode(out)
+      Write the XML-RPC encoding of this "DateTime" item to the *out*

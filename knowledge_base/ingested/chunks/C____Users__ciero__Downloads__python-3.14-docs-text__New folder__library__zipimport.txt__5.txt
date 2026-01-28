@@ -1,0 +1,4 @@
+".py" files, Python will not attempt to modify the archive by adding
+the corresponding ".pyc" file, meaning that if a ZIP archive doesn't
+contain ".pyc" files, importing may be rather slow.
+Changed in version 3.13: ZIP64 is supported

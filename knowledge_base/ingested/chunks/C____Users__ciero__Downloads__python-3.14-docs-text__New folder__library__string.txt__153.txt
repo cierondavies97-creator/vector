@@ -1,0 +1,4 @@
+underscores) that starts with an underscore or ASCII letter.  The
+  first non-identifier character after the "$" character terminates
+  this placeholder specification.
+* "${identifier}" is equivalent to "$identifier".  It is required when

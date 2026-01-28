@@ -1,0 +1,4 @@
+your target architecture(s) (and potentially pick the correct version
+to add to "sys.path" at runtime, based on the user's machine).
+The Python Zip Application Archive Format
+=========================================

@@ -1,0 +1,4 @@
+If *convert_charrefs* is true (the default), all character
+   references (except the ones in elements like "script" and "style")
+   are automatically converted to the corresponding Unicode
+   characters.

@@ -1,0 +1,3 @@
+"pymanager", due to the lower chance of encountering a conflict with
+existing installs. The only difference between the two commands is
+when running without any arguments: "py" will install and launch your

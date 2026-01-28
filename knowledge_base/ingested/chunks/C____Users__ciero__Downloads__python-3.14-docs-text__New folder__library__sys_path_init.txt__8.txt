@@ -1,0 +1,3 @@
+"home" and on Unix the archive is expected to be in "lib". Note that
+the expected zip archive location is added to the module search path
+even if the archive does not exist. If no archive was found, Python on

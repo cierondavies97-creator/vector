@@ -1,0 +1,5 @@
+'a'
+      Note:
+        Unlike f-strings, where conversions are applied automatically,
+        the expected behavior with t-strings is that code that
+        *processes* the "Template" will decide how to interpret and

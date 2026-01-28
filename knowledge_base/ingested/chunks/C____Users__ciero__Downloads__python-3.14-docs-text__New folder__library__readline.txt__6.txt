@@ -1,0 +1,3 @@
+time.The configuration file for "editline" is different from that of
+  GNU readline. If you programmatically load configuration strings you
+  can use "backend" to determine which library is being used.If you

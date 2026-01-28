@@ -1,0 +1,8 @@
+>>> turtle.fillcolor('#ffffff')
+      >>> turtle.fillcolor()
+      (255.0, 255.0, 255.0)
+turtle.color()
+turtle.color(color, /)
+turtle.color(r, g, b, /)
+turtle.color(pencolor, fillcolor, /)
+   Return or set pencolor and fillcolor.

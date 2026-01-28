@@ -1,0 +1,4 @@
+Dinsdale
+Note that importing "__main__" doesn't cause any issues with
+unintentionally running top-level code meant for script use which is
+put in the "if __name__ == "__main__"" block of the "start" module.

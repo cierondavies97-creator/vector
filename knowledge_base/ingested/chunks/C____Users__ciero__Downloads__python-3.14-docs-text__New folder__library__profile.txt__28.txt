@@ -1,0 +1,3 @@
+This line sorts statistics with a primary key of time, and a secondary
+key of cumulative time, and then prints out some of the statistics. To
+be specific, the list is first culled down to 50% (re: ".5") of its

@@ -1,0 +1,4 @@
+test_windows_support (__main__.MyTestCase.test_windows_support) ... skipped 'requires Windows'
+   ----------------------------------------------------------------------
+   Ran 4 tests in 0.005s
+   OK (skipped=4)

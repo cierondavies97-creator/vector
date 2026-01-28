@@ -1,0 +1,5 @@
+objects. As you'll see shortly, at other times Tcl uses what appear
+  to be method calls on widget objects, which more closely mirror what
+  is used in Tkinter.
+How do I...? What option does...?
+---------------------------------

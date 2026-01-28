@@ -1,0 +1,4 @@
+Python list without surprises: "heap[0]" is the smallest item, and
+"heap.sort()" maintains the heap invariant!
+Like "list.sort()", this implementation uses only the "<" operator for
+comparisons, for both min-heaps and max-heaps.

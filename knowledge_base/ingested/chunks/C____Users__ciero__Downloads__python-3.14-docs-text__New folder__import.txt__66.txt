@@ -1,0 +1,4 @@
+(directly or indirectly) import itself; adding it to "sys.modules"
+  beforehand prevents unbounded recursion in the worst case and
+  multiple loading in the best.
+* If loading fails, the failing module -- and only the failing module

@@ -1,0 +1,6 @@
+Parsing and generating URIs
+---------------------------
+Concrete path objects can be created from, and represented as, 'file'
+URIs conforming to **RFC 8089**.
+Note:
+  File URIs are not portable across machines with different filesystem

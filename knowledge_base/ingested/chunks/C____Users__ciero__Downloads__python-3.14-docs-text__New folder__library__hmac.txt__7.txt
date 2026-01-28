@@ -1,0 +1,6 @@
+which is supported by OpenSSL.
+   Added in version 3.7.
+class hmac.HMAC
+   An HMAC object has the following methods:
+HMAC.update(msg)
+   Update the hmac object with *msg*.  Repeated calls are equivalent

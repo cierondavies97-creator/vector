@@ -1,0 +1,7 @@
+>>> type(b)
+   <class 'numpy.ndarray'>
+   >>> type(a)
+   <class 'numpy.ndarray'>
+   >>> shm.name  # We did not specify a name so one was chosen for us
+   'psm_21467_46075'
+   >>> # In either the same shell or a new Python shell on the same machine

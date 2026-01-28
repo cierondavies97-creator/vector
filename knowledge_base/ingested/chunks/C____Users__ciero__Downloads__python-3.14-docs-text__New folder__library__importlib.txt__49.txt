@@ -1,0 +1,5 @@
+"exec_module()" is defined.
+   exec_module(module)
+      An abstract method that executes the module in its own namespace
+      when a module is imported or reloaded.  The module should
+      already be initialized when "exec_module()" is called.  When

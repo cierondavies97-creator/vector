@@ -1,0 +1,4 @@
+of the "threading" module with two important caveats:
+* asyncio primitives are not thread-safe, therefore they should not be
+  used for OS thread synchronization (use "threading" for that);
+* methods of these synchronization primitives do not accept the

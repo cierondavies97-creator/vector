@@ -1,0 +1,4 @@
+See "struct_time" for a description of these objects.
+  Changed in version 3.3: The "struct_time" type was extended to
+  provide the "tm_gmtoff" and "tm_zone" attributes when platform
+  supports corresponding "struct tm" members.

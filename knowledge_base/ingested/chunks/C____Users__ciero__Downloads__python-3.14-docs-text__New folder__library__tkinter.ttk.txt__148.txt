@@ -1,0 +1,3 @@
+|                  | selected. If "browse", only a single item will be        |
+|                  | selected at a time. If "none", the selection will not be |
+|                  | changed.  Note that the application code and tag         |

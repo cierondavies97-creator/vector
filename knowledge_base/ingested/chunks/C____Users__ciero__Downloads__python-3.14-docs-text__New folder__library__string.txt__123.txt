@@ -1,0 +1,3 @@
+|           | overall effect is to match the output of "str()" as        |
+   |           | altered by the other format modifiers.                     |
+   +-----------+------------------------------------------------------------+

@@ -1,0 +1,4 @@
+methods* like "__lt__()", described in Basic customization.
+The default behavior for equality comparison ("==" and "!=") is based
+on the identity of the objects.  Hence, equality comparison of
+instances with the same identity results in equality, and equality

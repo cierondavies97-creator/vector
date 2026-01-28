@@ -1,0 +1,5 @@
+interface directly, the "concurrent.futures" API more readily allows
+  the submission of work to the underlying process pool to be
+  separated from waiting for the results.
+The "Process" class
+-------------------

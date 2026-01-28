@@ -1,0 +1,4 @@
+instead of UTC, properly taking daylight savings time into account.
+   The default is "False" meaning UTC is used.
+   Optional *usegmt* is a flag that when "True", outputs a  date
+   string with the timezone as an ascii string "GMT", rather than a

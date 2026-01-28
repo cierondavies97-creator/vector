@@ -1,0 +1,4 @@
+considered a "MyIterable" too.
+   Finally, the last line makes "Foo" a virtual subclass of
+   "MyIterable", even though it does not define an "__iter__()" method
+   (it uses the old-style iterable protocol, defined in terms of

@@ -1,0 +1,4 @@
+following environment variables are searched: "LANGUAGE", "LC_ALL",
+   "LC_MESSAGES", and "LANG".  The first one returning a non-empty
+   value is used for the *languages* variable. The environment
+   variables should contain a colon separated list of languages, which

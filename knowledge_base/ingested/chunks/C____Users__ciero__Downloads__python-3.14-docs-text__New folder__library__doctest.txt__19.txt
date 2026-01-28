@@ -1,0 +1,5 @@
+failures.", where *N* is the number of examples that failed.
+Run it with the "-v" switch instead:
+   python M.py -v
+and a detailed report of all examples tried is printed to standard
+output, along with assorted summaries at the end.

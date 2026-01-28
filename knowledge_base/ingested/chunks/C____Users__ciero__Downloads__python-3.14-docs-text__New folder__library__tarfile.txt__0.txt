@@ -1,0 +1,5 @@
+"tarfile" --- Read and write tar archive files
+**********************************************
+**Source code:** Lib/tarfile.py
+======================================================================
+The "tarfile" module makes it possible to read and write tar archives,

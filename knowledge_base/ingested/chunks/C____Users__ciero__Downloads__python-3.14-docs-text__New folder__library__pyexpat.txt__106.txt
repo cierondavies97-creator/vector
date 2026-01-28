@@ -1,0 +1,5 @@
+The constants in the quantifier group are:
+xml.parsers.expat.model.XML_CQUANT_NONE
+   No modifier is given, so it can appear exactly once, as for "A".
+xml.parsers.expat.model.XML_CQUANT_OPT
+   The model is optional: it can appear once or not at all, as for

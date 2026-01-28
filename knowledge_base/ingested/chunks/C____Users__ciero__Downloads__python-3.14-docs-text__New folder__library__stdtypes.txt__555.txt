@@ -1,0 +1,3 @@
+3-tuple containing the part before the separator, the separator
+   itself or its bytearray copy, and the part after the separator. If
+   the separator is not found, return a 3-tuple containing two empty

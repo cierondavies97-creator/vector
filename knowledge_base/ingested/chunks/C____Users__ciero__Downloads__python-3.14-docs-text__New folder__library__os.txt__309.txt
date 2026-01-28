@@ -1,0 +1,6 @@
+"os.listmounts()".
+   May raise "OSError" if an error occurs collecting the volumes.
+   Raises an auditing event "os.listvolumes" with no arguments.
+   Availability: Windows
+   Added in version 3.12.
+os.lstat(path, *, dir_fd=None)

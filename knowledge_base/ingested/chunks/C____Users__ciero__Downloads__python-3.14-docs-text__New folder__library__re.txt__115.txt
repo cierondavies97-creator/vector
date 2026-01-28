@@ -1,0 +1,4 @@
+octal escapes are always at most three digits in length.
+Changed in version 3.3: The "'\u'" and "'\U'" escape sequences have
+been added.
+Changed in version 3.6: Unknown escapes consisting of "'\'" and an

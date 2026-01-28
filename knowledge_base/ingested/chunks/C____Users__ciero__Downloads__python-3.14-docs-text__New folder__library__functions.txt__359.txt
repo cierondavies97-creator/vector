@@ -1,0 +1,5 @@
+>>> x2, y2 = zip(*zip(x, y))
+        >>> x == list(x2) and y == list(y2)
+        True
+   Changed in version 3.10: Added the "strict" argument.
+__import__(name, globals=None, locals=None, fromlist=(), level=0)

@@ -1,0 +1,5 @@
+reveal_type(x)  # revealed type is str
+      class StringSubclass(str):
+          pass
+      y = print_capitalized(StringSubclass('another string'))
+      reveal_type(y)  # revealed type is StringSubclass

@@ -1,0 +1,6 @@
+Py_DECREF(pArgs);
+               if (pValue != NULL) {
+                   printf("Result of call: %ld\n", PyLong_AsLong(pValue));
+                   Py_DECREF(pValue);
+               }
+               else {

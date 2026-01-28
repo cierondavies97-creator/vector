@@ -1,0 +1,3 @@
+When editing code in an editor (as oppose to Shell), increase the
+available module-level names by running your code and not restarting
+the Shell thereafter.  This is especially useful after adding imports

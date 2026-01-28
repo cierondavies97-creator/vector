@@ -1,0 +1,6 @@
+Changed in version 3.13: "Maildir" now ignores files with a leading
+   dot.
+   "Maildir" instances have all of the methods of "Mailbox" in
+   addition to the following:
+   list_folders()
+      Return a list of the names of all folders.

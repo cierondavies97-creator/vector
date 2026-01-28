@@ -1,0 +1,4 @@
+('OK', [b'Nothing Accomplished. d25if65hy903weo.87'])
+   Changed in version 3.5: Support for the "with" statement was added.
+   Changed in version 3.9: The optional *timeout* parameter was added.
+Three exceptions are defined as attributes of the "IMAP4" class:

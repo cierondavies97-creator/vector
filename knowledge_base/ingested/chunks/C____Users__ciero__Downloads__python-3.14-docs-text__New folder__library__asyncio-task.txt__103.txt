@@ -1,0 +1,5 @@
+class asyncio.Timeout(when)
+      An asynchronous context manager for cancelling overdue
+      coroutines.
+      "when" should be an absolute time at which the context should
+      time out, as measured by the event loop's clock:

@@ -1,0 +1,3 @@
+determine the effective level of the logger. The "propagate" entry is
+set to 1 to indicate that messages must propagate to handlers higher
+up the logger hierarchy from this logger, or 0 to indicate that

@@ -1,0 +1,5 @@
+if arg[:1] == "-" and len(arg) > 1 and not floatable(arg):
+               break
+           value.append(arg)
+       del parser.rargs[:len(value)]
+       setattr(parser.values, option.dest, value)

@@ -1,0 +1,6 @@
+in a similar way to "@dataclasses.dataclass".
+   Example usage with a decorator function:
+      @dataclass_transform()
+      def create_model[T](cls: type[T]) -> type[T]:
+          ...
+          return cls

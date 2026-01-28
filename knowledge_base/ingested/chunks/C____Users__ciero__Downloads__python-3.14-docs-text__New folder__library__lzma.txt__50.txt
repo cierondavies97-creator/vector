@@ -1,0 +1,5 @@
+needs_input
+      "False" if the "decompress()" method can provide more
+      decompressed data before requiring new uncompressed input.
+      Added in version 3.5.
+lzma.compress(data, format=FORMAT_XZ, check=-1, preset=None, filters=None)

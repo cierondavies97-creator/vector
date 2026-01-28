@@ -1,0 +1,7 @@
+>>> p = PurePath('/etc/passwd')
+   >>> p.is_relative_to('/etc')
+   True
+   >>> p.is_relative_to('/usr')
+   False
+   This method is string-based; it neither accesses the filesystem nor
+   treats "".."" segments specially. The following code is equivalent:

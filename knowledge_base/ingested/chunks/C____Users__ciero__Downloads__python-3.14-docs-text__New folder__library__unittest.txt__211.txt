@@ -1,0 +1,4 @@
+Added in version 3.14.
+   The "assertEqual()" method dispatches the equality check for
+   objects of the same type to different type-specific methods.  These
+   methods are already implemented for most of the built-in types, but

@@ -1,0 +1,5 @@
+The casefolding algorithm is described in section 3.13 'Default
+   Case Folding' of the Unicode Standard.
+   Added in version 3.3.
+str.center(width, fillchar=' ', /)
+   Return centered in a string of length *width*. Padding is done

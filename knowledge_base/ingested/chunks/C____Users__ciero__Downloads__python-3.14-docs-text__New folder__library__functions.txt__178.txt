@@ -1,0 +1,4 @@
+**CPython implementation detail:** "len" raises "OverflowError" on
+   lengths larger than "sys.maxsize", such as "range(2 ** 100)".
+class list(iterable=(), /)
+   Rather than being a function, "list" is actually a mutable sequence

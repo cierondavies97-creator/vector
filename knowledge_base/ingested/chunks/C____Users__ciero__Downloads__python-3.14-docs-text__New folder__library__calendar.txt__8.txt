@@ -1,0 +1,5 @@
+Identical to reading the "firstweekday" property.
+   setfirstweekday(firstweekday)
+      Set the first weekday to *firstweekday*, passed as an "int" (0--
+      6)
+      Identical to setting the "firstweekday" property.

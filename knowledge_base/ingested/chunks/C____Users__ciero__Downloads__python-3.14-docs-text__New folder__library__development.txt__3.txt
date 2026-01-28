@@ -1,0 +1,8 @@
+* User-defined generic types
+  * The "Any" type
+  * Nominal vs structural subtyping
+  * Module contents
+    * Special typing primitives
+      * Special types
+      * Special forms
+      * Building generic types and type aliases

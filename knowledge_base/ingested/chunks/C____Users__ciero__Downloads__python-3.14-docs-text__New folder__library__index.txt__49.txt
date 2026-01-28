@@ -1,0 +1,5 @@
+* "unittest.mock" --- mock object library
+  * "unittest.mock" --- getting started
+  * "test" --- Regression tests package for Python
+  * "test.support" --- Utilities for the Python test suite
+  * "test.support.socket_helper" --- Utilities for socket tests

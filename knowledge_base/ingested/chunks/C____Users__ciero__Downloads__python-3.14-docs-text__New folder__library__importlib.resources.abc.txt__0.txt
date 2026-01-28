@@ -1,0 +1,4 @@
+"importlib.resources.abc" -- Abstract base classes for resources
+****************************************************************
+**Source code:** Lib/importlib/resources/abc.py
+======================================================================

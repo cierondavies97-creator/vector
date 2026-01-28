@@ -1,0 +1,6 @@
+Note:
+  The *FileDialog* class should be subclassed for custom event
+  handling and behaviour.
+class tkinter.filedialog.FileDialog(master, title=None)
+   Create a basic file selection dialog.
+   cancel_command(event=None)

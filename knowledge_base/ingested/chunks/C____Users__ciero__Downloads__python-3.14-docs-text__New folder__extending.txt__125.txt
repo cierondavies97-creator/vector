@@ -1,0 +1,8 @@
+/* A rectangle and a point */
+       /* Possible Python call:
+          f(((0, 0), (400, 300)), (10, 10)) */
+   }
+   {
+       Py_complex c;
+       ok = PyArg_ParseTuple(args, "D:myfunction", &c);
+       /* a complex, also providing a function name for errors */

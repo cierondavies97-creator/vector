@@ -1,0 +1,4 @@
+doing the import, then you should use "importlib.util.find_spec()".
+Note that if "name" is a submodule (contains a dot),
+"importlib.util.find_spec()" will import the parent module.
+   import importlib.util

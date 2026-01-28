@@ -1,0 +1,2 @@
+| "chr()" "classmethod()"   | **H** "hasattr()"       | "open()" "ord()"  **P** | "tuple()" "type()"  **V** |
+| "compile()" "complex()"   | "hash()" "help()"       | "pow()" "print()"       | "vars()"  **Z** "zip()"   |

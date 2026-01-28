@@ -1,0 +1,2 @@
+| "callback" "process_exited()"                      | Called when the child process has exited. It can   |
+|                                                    | be called before "pipe_data_received()" and        |

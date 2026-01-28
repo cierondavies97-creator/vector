@@ -1,0 +1,3 @@
+| text     | The textual label to display for the item.                      |
++----------+-----------------------------------------------------------------+
+| image    | A Tk Image, displayed to the left of the label.                 |

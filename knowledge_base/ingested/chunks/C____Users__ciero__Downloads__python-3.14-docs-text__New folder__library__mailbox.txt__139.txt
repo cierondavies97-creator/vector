@@ -1,0 +1,3 @@
+an "info" section to messages in "new".)  The "info" section may
+   take one of two forms: it may contain "2," followed by a list of
+   standardized flags (e.g., "2,FR") or it may contain "1," followed

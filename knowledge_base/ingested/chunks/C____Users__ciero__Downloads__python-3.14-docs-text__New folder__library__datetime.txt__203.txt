@@ -1,0 +1,4 @@
+date and time data, use "dt.replace(tzinfo=None)".
+   Note that the default "tzinfo.fromutc()" method can be overridden
+   in a "tzinfo" subclass to affect the result returned by
+   "astimezone()". Ignoring error cases, "astimezone()" acts like:

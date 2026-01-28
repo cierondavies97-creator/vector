@@ -1,0 +1,4 @@
+This makes it appropriate for use in destructors such as "__del__"
+   methods or "weakref" callbacks.
+SimpleQueue.put_nowait(item)
+   Equivalent to "put(item, block=False)", provided for compatibility

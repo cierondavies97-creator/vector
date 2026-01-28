@@ -1,0 +1,4 @@
+result is well-defined but only "almost always correctly
+      rounded".
+      With three arguments, compute "(x**y) % modulo".  For the three
+      argument form, the following restrictions on the arguments hold:

@@ -1,0 +1,4 @@
+# next_connect is not one of the original task objects. It must be
+          # awaited to obtain the result value or raise the exception of the
+          # awaitable that finishes next.
+          reader, writer = await next_connect

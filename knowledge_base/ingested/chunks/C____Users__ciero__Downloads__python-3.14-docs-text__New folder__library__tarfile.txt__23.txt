@@ -1,0 +1,3 @@
+| "'w'" or "'w:'"    | Open for uncompressed writing.                |
+   +--------------------+-----------------------------------------------+
+   | "'w:gz'"           | Open for gzip compressed writing.             |

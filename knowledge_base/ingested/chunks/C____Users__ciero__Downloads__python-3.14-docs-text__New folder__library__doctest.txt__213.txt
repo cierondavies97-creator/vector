@@ -1,0 +1,4 @@
+* To prevent the DocTestFinder from extracting DocTests from
+        objects that are imported from other modules.  (Contained
+        objects with modules other than *module* are ignored.)
+      * To find the name of the file containing the object.

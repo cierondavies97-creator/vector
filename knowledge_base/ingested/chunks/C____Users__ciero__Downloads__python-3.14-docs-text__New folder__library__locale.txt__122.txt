@@ -1,0 +1,8 @@
+accessible as a shared library.
+Access to message catalogs
+==========================
+locale.gettext(msg)
+locale.dgettext(domain, msg)
+locale.dcgettext(domain, msg, category)
+locale.textdomain(domain)
+locale.bindtextdomain(domain, dir)

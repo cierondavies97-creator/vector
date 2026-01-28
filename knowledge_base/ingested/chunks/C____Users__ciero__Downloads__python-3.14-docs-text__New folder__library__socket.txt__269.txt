@@ -1,0 +1,6 @@
+fds.frombytes(cmsg_data[:len(cmsg_data) - (len(cmsg_data) % fds.itemsize)])
+          return msg, list(fds)
+   Availability: Unix.
+   Most Unix platforms.
+   Added in version 3.3.
+   Changed in version 3.5: If the system call is interrupted and the

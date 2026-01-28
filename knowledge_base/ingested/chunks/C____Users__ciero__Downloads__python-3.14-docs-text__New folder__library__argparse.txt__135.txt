@@ -1,0 +1,8 @@
+Namespace(bar='1', foo=None) '2' '--foo'
+   >>> args
+   Namespace(bar='1', foo='2')
+For more details, see "Action".
+nargs
+-----
+"ArgumentParser" objects usually associate a single command-line
+argument with a single action to be taken.  The "nargs" keyword

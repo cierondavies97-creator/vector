@@ -1,0 +1,2 @@
+|                      | "dataclass_transform" will be used, or if that is unspecified, the value of      |
+   |                      | "kw_only_default" on "dataclass_transform" will be used.                         |

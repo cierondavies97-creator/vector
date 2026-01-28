@@ -1,0 +1,4 @@
+should be used in some APIs instead of "int". It is not necessary
+  since Python 3.13, but we keep it here for backward compatibility.
+  See Strings and buffers for a description of this macro.
+Setting "PyConfig.program_name" should be called before

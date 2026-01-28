@@ -1,0 +1,5 @@
+or tp_reserved (Python 3) */
+       reprfunc tp_repr;
+       /* Method suites for standard classes */
+       PyNumberMethods *tp_as_number;
+       PySequenceMethods *tp_as_sequence;

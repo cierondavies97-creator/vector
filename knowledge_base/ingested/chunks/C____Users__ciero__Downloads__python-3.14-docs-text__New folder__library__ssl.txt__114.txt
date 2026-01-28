@@ -1,0 +1,6 @@
+This option is only available with OpenSSL 3.0.0 and later.
+   Added in version 3.12.
+ssl.OP_LEGACY_SERVER_CONNECT
+   Allow legacy insecure renegotiation between OpenSSL and unpatched
+   servers only.
+   Added in version 3.12.

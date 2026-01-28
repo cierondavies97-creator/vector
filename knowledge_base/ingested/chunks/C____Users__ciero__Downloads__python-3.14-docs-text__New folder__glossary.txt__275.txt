@@ -1,0 +1,3 @@
+the *free-threaded* build, built-in types like "dict", "list", and
+   "set" use internal locking to make many operations thread-safe,
+   although thread safety is not necessarily guaranteed.  Code that is

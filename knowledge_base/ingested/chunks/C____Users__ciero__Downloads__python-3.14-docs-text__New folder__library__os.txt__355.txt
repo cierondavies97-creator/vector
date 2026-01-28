@@ -1,0 +1,3 @@
+respectively.  If both are directories and *dst* is empty, *dst*
+   will be silently replaced.  If *dst* is a non-empty directory, an
+   "OSError" is raised. If both are files, *dst* will be replaced

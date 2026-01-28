@@ -1,0 +1,4 @@
+multiple threads with no restriction.
+   The mappings from SQLite threading modes to DB-API 2.0 threadsafety
+   levels are as follows:
+   +--------------------+------------------------+------------------------+---------------------------------+

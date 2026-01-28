@@ -1,0 +1,5 @@
+AttributeError: 'MyLocal' object has no attribute 'color'
+Note that subclasses can define *__slots__*, but they are not thread
+local. They are shared across threads:
+   >>> class MyLocal(local):
+   ...     __slots__ = 'number'

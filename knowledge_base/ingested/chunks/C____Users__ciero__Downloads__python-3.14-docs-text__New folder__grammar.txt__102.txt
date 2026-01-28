@@ -1,0 +1,3 @@
+| '(' patterns=open_sequence_pattern? ')' { _PyAST_MatchSequence(patterns, EXTRA) }
+   open_sequence_pattern[asdl_seq*]:
+       | pattern=maybe_star_pattern ',' patterns=maybe_sequence_pattern? {

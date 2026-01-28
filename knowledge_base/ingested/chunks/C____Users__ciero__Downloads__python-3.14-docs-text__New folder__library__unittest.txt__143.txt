@@ -1,0 +1,5 @@
+"assertIs(type(obj), cls)".
+      Added in version 3.2.
+   assertIsSubclass(cls, superclass, msg=None)
+   assertNotIsSubclass(cls, superclass, msg=None)
+      Test that *cls* is (or is not) a subclass of *superclass* (which

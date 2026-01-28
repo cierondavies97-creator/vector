@@ -1,0 +1,4 @@
+metadata about the specified path.  Supported dictionary keys
+      are:
+      * "'mtime'" (mandatory): an integer or floating-point number
+        representing the modification time of the source code;

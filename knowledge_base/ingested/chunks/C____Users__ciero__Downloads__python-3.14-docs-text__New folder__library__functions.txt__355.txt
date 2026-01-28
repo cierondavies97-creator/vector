@@ -1,0 +1,4 @@
+* Shorter iterables can be padded with a constant value to make all
+     the iterables have the same length.  This is done by
+     "itertools.zip_longest()".
+   Edge cases: With a single iterable argument, "zip()" returns an

@@ -1,0 +1,6 @@
+See also the "process_cpu_count()" function.
+Miscellaneous System Information
+================================
+os.confstr(name, /)
+   Return string-valued system configuration values. *name* specifies
+   the configuration value to retrieve; it may be a string which is

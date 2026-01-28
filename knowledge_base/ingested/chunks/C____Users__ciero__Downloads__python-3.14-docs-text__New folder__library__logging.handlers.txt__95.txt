@@ -1,0 +1,6 @@
+byte-string is as described in the documentation for
+      "SocketHandler.makePickle()".
+SysLogHandler
+=============
+The "SysLogHandler" class, located in the "logging.handlers" module,
+supports sending logging messages to a remote or local Unix syslog.

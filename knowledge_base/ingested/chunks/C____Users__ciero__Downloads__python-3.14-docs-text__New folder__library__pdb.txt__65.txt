@@ -1,0 +1,4 @@
+the number of times that breakpoint has been hit, the current
+   ignore count, and the associated condition if any.
+   Each breakpoint is assigned a number to which all the other
+   breakpoint commands refer.

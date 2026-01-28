@@ -1,0 +1,4 @@
+"__class_getitem__()" may be called instead of "__getitem__()".
+     See __class_getitem__ versus __getitem__ for more details.
+object.__setitem__(self, key, value)
+   Called to implement assignment to "self[key]".  Same note as for

@@ -1,0 +1,4 @@
+associated with the source *path*.  For example, if *path* is
+   "/foo/bar/baz.py" the return value would be
+   "/foo/bar/__pycache__/baz.cpython-32.pyc" for Python 3.2. The
+   "cpython-32" string comes from the current magic tag (see

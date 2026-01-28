@@ -1,0 +1,8 @@
+os.PRIO_USER
+   Parameters for the "getpriority()" and "setpriority()" functions.
+   Availability: Unix, not WASI.
+   Added in version 3.3.
+os.PRIO_DARWIN_THREAD
+os.PRIO_DARWIN_PROCESS
+os.PRIO_DARWIN_BG
+os.PRIO_DARWIN_NONUI

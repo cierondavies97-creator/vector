@@ -1,0 +1,5 @@
+generators when they happen to exit early by "break" or an
+   exception.  For example:
+      from contextlib import aclosing
+      async with aclosing(my_generator()) as values:
+          async for value in values:

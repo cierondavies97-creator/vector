@@ -1,0 +1,4 @@
+by the *cwd* argument. This should be an absolute path. A relative
+   *path* will be resolved against this argument.
+   Use *show_cmd* to override the default window style. Whether this
+   has any effect will depend on the application being launched.

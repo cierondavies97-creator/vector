@@ -1,0 +1,4 @@
+not specified.  For backwards compatibility, if three arguments are
+   passed, the "args" attribute contains only a 2-tuple of the first
+   two constructor arguments.
+   The constructor often actually returns a subclass of "OSError", as

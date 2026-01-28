@@ -1,0 +1,4 @@
+needed. Note, that it will still be the same shared object. This
+happens, because the deserialized object has the same unique name and
+is just attached to an existing object with the same name (if the
+object is still alive):

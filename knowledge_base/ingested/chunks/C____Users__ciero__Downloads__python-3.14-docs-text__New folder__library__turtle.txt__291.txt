@@ -1,0 +1,4 @@
+into different languages.
+If you (or your students) want to use "turtle" with online help in
+your native language, you have to translate the docstrings and save
+the resulting file as e.g. "turtle_docstringdict_german.py".

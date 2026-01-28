@@ -1,0 +1,6 @@
+hash_a("foo")
+   # Passes type checking, since Any is compatible with all types
+   hash_b(42)
+   hash_b("foo")
+Use "object" to indicate that a value could be any type in a typesafe
+manner. Use "Any" to indicate that a value is dynamically typed.

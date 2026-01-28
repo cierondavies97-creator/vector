@@ -1,0 +1,4 @@
+A "Future-like" object that runs a Python coroutine.  Not thread-
+   safe.
+   Tasks are used to run coroutines in event loops. If a coroutine
+   awaits on a Future, the Task suspends the execution of the

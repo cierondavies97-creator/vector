@@ -1,0 +1,5 @@
+"SMTPDataError"
+      The server replied with an unexpected error code (other than a
+      refusal of a recipient).
+   "SMTPNotSupportedError"
+      "SMTPUTF8" was given in the *mail_options* but is not supported

@@ -1,0 +1,3 @@
+script), but install modules into the third-party module directory of
+a different Python installation (or something that looks like a
+different Python installation).  If this sounds a trifle unusual, it

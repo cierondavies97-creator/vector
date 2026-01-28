@@ -1,0 +1,4 @@
+Changed in version 3.7: As a "dict" subclass, "Counter" inherited
+   the capability to remember insertion order.  Math operations on
+   *Counter* objects also preserve order.  Results are ordered
+   according to when an element is first encountered in the left

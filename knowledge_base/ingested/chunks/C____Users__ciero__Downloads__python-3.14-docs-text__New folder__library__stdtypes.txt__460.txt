@@ -1,0 +1,3 @@
++-----------+-----------------------------------------------------------------------+
+| "'-'"     | The converted value is left adjusted (overrides the "'0'" conversion  |
+|           | if both are given).                                                   |

@@ -1,0 +1,3 @@
+| "EPOLLOUT"                | Available for write                             |
+   +---------------------------+-------------------------------------------------+
+   | "EPOLLPRI"                | Urgent data for read                            |

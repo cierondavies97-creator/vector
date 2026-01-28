@@ -1,0 +1,4 @@
+terminates, because pointers have no size. Sooner or later it would
+probably crash with an access violation or whatever, so it's better to
+break out of the loop when we hit the "NULL" entry:
+   >>> for item in table:

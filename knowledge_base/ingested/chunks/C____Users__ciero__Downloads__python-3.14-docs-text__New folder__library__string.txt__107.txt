@@ -1,0 +1,3 @@
++-----------+------------------------------------------------------------+
+   | "'g'"     | General format.  For a given precision "p >= 1", this      |
+   |           | rounds the number to "p" significant digits and then       |

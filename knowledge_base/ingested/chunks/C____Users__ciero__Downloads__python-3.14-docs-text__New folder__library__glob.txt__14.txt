@@ -1,0 +1,5 @@
+Return an *iterator* which yields the same values as "glob()"
+   without actually storing them all simultaneously.
+   Raises an auditing event "glob.glob" with arguments "pathname",
+   "recursive".
+   Raises an auditing event "glob.glob/2" with arguments "pathname",

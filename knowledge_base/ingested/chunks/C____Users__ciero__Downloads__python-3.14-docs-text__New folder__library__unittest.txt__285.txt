@@ -1,0 +1,5 @@
+-------------------------
+class unittest.TestLoader
+   The "TestLoader" class is used to create test suites from classes
+   and modules.  Normally, there is no need to create an instance of
+   this class; the "unittest" module provides an instance that can be

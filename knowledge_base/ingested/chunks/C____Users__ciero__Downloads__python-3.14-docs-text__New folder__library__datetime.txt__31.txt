@@ -1,0 +1,6 @@
+"OverflowError" is raised.
+   Note that normalization of negative values may be surprising at
+   first. For example:
+      >>> from datetime import timedelta
+      >>> d = timedelta(microseconds=-1)
+      >>> (d.days, d.seconds, d.microseconds)

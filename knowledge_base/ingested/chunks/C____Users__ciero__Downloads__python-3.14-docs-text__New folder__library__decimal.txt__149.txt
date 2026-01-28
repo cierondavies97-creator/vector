@@ -1,0 +1,4 @@
+nearest multiple of "Decimal('1E-ndigits')" is returned; in this
+      case, "round(number, ndigits)" is equivalent to
+      "self.quantize(Decimal('1E-ndigits'))".  Returns
+      "Decimal('NaN')" if *number* is a quiet NaN.  Raises

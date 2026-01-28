@@ -1,0 +1,4 @@
+Changed in version 3.5.2: "address" no longer needs to be resolved.
+   "sock_connect" will try to check if the *address* is already
+   resolved by calling "socket.inet_pton()".  If not,
+   "loop.getaddrinfo()" will be used to resolve the *address*.

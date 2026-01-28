@@ -1,0 +1,5 @@
+"DefaultEventLoopPolicy" and override the methods for which custom
+behavior is wanted, e.g.:
+   class MyEventLoopPolicy(asyncio.DefaultEventLoopPolicy):
+       def get_event_loop(self):
+           """Get the event loop.

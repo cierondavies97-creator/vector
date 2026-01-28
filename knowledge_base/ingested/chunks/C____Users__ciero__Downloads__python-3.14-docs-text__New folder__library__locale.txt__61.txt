@@ -1,0 +1,4 @@
+for each era in a locale.
+      Most locales do not define this value.  An example of a locale
+      which does define this value is the Japanese one.  In Japan, the
+      traditional representation of dates includes the name of the era

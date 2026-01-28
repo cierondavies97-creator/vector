@@ -1,0 +1,5 @@
+integer for function keys, keypad keys, and other special keys. In
+   no-delay mode, raise an exception if there is no input.
+   Added in version 3.3.
+window.getkey([y, x])
+   Get a character, returning a string instead of an integer, as

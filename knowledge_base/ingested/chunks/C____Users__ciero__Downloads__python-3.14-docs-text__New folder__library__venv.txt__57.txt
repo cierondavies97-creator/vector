@@ -1,0 +1,4 @@
+contain the virtual environment.  The "create" method will
+      either create the environment in the specified directory, or
+      raise an appropriate exception.
+      The "create" method of the "EnvBuilder" class illustrates the

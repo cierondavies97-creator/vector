@@ -1,0 +1,8 @@
+Example:
+      >>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):
+      ...     print(item)
+      ...
+      (1, 'sugar')
+      (2, 'spice')
+      (3, 'everything nice')
+   More formally: "zip()" returns an iterator of tuples, where the

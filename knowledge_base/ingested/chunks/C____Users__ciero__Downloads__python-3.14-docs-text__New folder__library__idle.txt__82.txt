@@ -1,0 +1,5 @@
+Code Context
+------------
+Within an editor window containing Python code, code context can be
+toggled in order to show or hide a pane at the top of the window.
+When shown, this pane freezes the opening lines for block code, such

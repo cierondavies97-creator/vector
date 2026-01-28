@@ -1,0 +1,4 @@
+test.support.check__all__(test_case, module, name_of_module=None, extra=(), not_exported=())
+   Assert that the "__all__" variable of *module* contains all public
+   names.
+   The module's public names (its API) are detected automatically

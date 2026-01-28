@@ -1,0 +1,4 @@
+below it).  If the iterator indicates it is exhausted then the byte
+   code counter is incremented by *delta*.
+   Changed in version 3.12: Up until 3.11 the iterator was popped when
+   it was exhausted.

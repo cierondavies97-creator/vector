@@ -1,0 +1,3 @@
+string is examined character by character.  If the character is a
+   tab ("\t"), one or more space characters are inserted in the result
+   until the current column is equal to the next tab position. (The

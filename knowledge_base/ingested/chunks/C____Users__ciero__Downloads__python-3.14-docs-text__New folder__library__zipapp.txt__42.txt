@@ -1,0 +1,5 @@
+"myapp" directory containing a "__main__.py" file, and any
+   supporting application code.
+2. Install all of your application's dependencies into the "myapp"
+   directory, using pip:
+      $ python -m pip install -r requirements.txt --target myapp

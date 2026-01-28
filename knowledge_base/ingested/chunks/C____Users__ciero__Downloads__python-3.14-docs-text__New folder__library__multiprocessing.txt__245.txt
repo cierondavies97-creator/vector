@@ -1,0 +1,5 @@
+Return the current value of semaphore.
+      Note that this may raise "NotImplementedError" on platforms like
+      macOS where "sem_getvalue()" is not implemented.
+   locked()
+      Return a boolean indicating whether this object is locked right

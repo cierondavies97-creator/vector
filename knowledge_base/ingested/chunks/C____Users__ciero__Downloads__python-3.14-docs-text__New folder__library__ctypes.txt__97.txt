@@ -1,0 +1,5 @@
+"ctypes" instance, or an object with an "_as_parameter_" attribute.
+Return types
+------------
+By default functions are assumed to return the C int type.  Other
+return types can be specified by setting the "restype" attribute of

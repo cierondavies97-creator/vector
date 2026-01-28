@@ -1,0 +1,11 @@
+interp.exec(dedent("""
+       print('spam!')
+       """))
+   def run(arg):
+       return arg
+   res = interp.call(run, 'spam!')
+   print(res)
+   def run():
+       print('spam!')
+   interp.call(run)
+   # Run in new OS thread.

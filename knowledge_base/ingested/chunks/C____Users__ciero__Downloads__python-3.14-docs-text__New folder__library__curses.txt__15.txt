@@ -1,0 +1,4 @@
+"raw()" then "cbreak()" leaves the terminal in cbreak mode.
+curses.color_content(color_number)
+   Return the intensity of the red, green, and blue (RGB) components
+   in the color *color_number*, which must be between "0" and "COLORS

@@ -1,0 +1,4 @@
+Changed in version 3.4: Added the *short_empty_elements* parameter.
+   Changed in version 3.8: Added the *xml_declaration* and
+   *default_namespace* parameters.
+   Changed in version 3.8: The "tostring()" function now preserves the

@@ -1,0 +1,4 @@
+Changed in version 3.6: Accepts a *path-like object*.
+os.path.samestat(stat1, stat2, /)
+   Return "True" if the stat tuples *stat1* and *stat2* refer to the
+   same file. These structures may have been returned by "os.fstat()",

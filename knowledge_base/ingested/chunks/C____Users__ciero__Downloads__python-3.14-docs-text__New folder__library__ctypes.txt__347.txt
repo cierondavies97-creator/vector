@@ -1,0 +1,4 @@
+* size).from_address(ptr))". (While "from_address()" only takes
+   integers, *ptr* can also be given as a "ctypes.POINTER" or a
+   "byref()" object.)
+   Raises an auditing event "ctypes.memoryview_at" with arguments

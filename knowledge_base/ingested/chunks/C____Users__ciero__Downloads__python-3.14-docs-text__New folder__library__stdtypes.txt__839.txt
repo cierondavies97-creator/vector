@@ -1,0 +1,5 @@
+accessible method. Compared to the overhead of setting up the runtime
+context, the overhead of a single class dictionary lookup is
+negligible.
+Type Annotation Types --- Generic Alias, Union
+==============================================

@@ -1,0 +1,7 @@
+Added in version 3.9.
+   Note:
+     Any truncated integers at the end of the list of file
+     descriptors.
+Socket Objects
+==============
+Socket objects have the following methods.  Except for "makefile()",

@@ -1,0 +1,4 @@
+Pop "STACK[-1]", "STACK[-2]", and "STACK[-3]". If "STACK[-3]" is an
+   instance of "STACK[-2]" and has the positional and keyword
+   attributes required by *count* and "STACK[-1]", push a tuple of
+   extracted attributes. Otherwise, push "None".

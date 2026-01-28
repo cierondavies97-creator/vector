@@ -1,0 +1,7 @@
+posonlyargs=[],
+                      args=[],
+                      kwonlyargs=[],
+                      kw_defaults=[],
+                      defaults=[]),
+                  body=[
+                      Expr(

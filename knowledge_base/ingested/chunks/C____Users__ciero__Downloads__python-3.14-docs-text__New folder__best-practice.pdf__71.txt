@@ -1,0 +1,8 @@
+▶ How far ahead should I plan?
+▶ What should I prioritise?
+▶ When do I write tests and documentation?
+Right methodology depends on scenario.
+Nicola Chiapolini, 8 July 2024
+31 / 34
+Introduction
+Style & Documentation

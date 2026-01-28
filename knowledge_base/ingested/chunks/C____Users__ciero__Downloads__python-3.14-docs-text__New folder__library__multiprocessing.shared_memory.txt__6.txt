@@ -1,0 +1,3 @@
+serialization/deserialization and copying of data.
+class multiprocessing.shared_memory.SharedMemory(name=None, create=False, size=0, *, track=True)
+   Create an instance of the "SharedMemory" class for either creating

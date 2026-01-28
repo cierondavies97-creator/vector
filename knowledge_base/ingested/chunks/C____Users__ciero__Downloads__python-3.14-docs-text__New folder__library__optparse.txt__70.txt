@@ -1,0 +1,5 @@
+not supply that option
+* "args", the list of positional arguments leftover after parsing
+  options
+This tutorial section only covers the four most important option
+attributes: "action", "type", "dest" (destination), and "help". Of

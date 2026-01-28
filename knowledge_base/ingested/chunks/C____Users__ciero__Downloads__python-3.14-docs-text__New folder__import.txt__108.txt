@@ -1,0 +1,5 @@
+5.5. The Path Based Finder
+==========================
+As mentioned previously, Python comes with several default meta path
+finders. One of these, called the *path based finder* ("PathFinder"),
+searches an *import path*, which contains a list of *path entries*.

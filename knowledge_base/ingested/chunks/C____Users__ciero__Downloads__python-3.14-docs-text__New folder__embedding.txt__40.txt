@@ -1,0 +1,4 @@
+After initializing the interpreter, the script is loaded using
+"PyImport_Import()".  This routine needs a Python string as its
+argument, which is constructed using the "PyUnicode_DecodeFSDefault()"
+data conversion routine.

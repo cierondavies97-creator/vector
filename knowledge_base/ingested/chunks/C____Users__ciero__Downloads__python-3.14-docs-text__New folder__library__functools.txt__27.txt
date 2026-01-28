@@ -1,0 +1,4 @@
+keyword arguments to the function must be *hashable*.
+   Distinct argument patterns may be considered to be distinct calls
+   with separate cache entries.  For example, "f(a=1, b=2)" and
+   "f(b=2, a=1)" differ in their keyword argument order and may have

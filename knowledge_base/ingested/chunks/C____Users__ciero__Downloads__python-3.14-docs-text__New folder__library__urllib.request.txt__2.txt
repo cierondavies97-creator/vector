@@ -1,0 +1,5 @@
+interface.
+Warning:
+  On macOS it is unsafe to use this module in programs using
+  "os.fork()" because the "getproxies()" implementation for macOS uses
+  a higher-level system API. Set the environment variable "no_proxy"

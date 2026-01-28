@@ -1,0 +1,5 @@
+True
+   The result of "mock()" is an async function which will have the
+   outcome of "side_effect" or "return_value" after it has been
+   awaited:
+   * if "side_effect" is a function, the async function will return

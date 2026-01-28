@@ -1,0 +1,4 @@
+call_soon or similar API), this function will always return the
+   running event loop.
+   If there is no running event loop set, the function will return the
+   result of the "get_event_loop_policy().get_event_loop()" call.

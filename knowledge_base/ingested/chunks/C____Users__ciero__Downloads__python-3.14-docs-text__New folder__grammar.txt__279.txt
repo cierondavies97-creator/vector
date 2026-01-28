@@ -1,0 +1,4 @@
+| a="case" patterns guard? ':' NEWLINE !INDENT {
+           RAISE_INDENTATION_ERROR("expected an indented block after 'case' statement on line %d", a->lineno) }
+   invalid_as_pattern:
+       | or_pattern 'as' a="_" { RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "cannot use '_' as a target") }

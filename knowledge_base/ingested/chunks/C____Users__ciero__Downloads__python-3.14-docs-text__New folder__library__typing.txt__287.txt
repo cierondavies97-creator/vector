@@ -1,0 +1,4 @@
+in "*args". Here, this allows us to ensure the types of the "*args"
+   passed to "call_soon" match the types of the (positional) arguments
+   of "callback".
+   See **PEP 646** for more details on type variable tuples.

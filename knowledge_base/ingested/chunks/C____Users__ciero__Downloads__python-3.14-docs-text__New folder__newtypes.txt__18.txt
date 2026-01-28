@@ -1,0 +1,4 @@
+purposes. Try to choose something that will be helpful in such a
+situation!
+   Py_ssize_t tp_basicsize, tp_itemsize; /* For allocation */
+These fields tell the runtime how much memory to allocate when new

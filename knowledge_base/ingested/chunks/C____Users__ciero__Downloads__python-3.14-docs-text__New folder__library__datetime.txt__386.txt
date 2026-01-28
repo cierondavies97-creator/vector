@@ -1,0 +1,4 @@
+"strftime(format)" method, to create a string representing the time
+under the control of an explicit format string.
+Conversely, the "date.strptime()", "datetime.strptime()" and
+"time.strptime()" class methods create an object from a string

@@ -1,0 +1,4 @@
+"urllib.parse.urlencode()" method can be used for generating the
+   query string of a URL or data for a POST request.
+   Changed in version 3.2: *query* supports bytes and string objects.
+   Changed in version 3.5: Added the *quote_via* parameter.

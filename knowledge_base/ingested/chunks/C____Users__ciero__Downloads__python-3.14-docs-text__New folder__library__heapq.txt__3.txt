@@ -1,0 +1,4 @@
+always the root, "heap[0]".
+Max-heaps satisfy the reverse invariant: every parent node has a value
+*greater* than any of its children.  These are implemented as lists
+for which "maxheap[2*k+1] <= maxheap[k]" and "maxheap[2*k+2] <=

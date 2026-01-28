@@ -1,0 +1,5 @@
+associated with the instruction being executed by the frame this
+      record corresponds to.
+   Changed in version 3.5: Return a *named tuple* instead of a
+   "tuple".
+   Changed in version 3.11: "FrameInfo" is now a class instance (that

@@ -1,0 +1,4 @@
+augmented with the characters "~-./*?=".  That is because these
+  characters can appear in file names (including wildcards) and
+  command-line arguments (e.g. "--color=auto"). Hence:
+     >>> import shlex

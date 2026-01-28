@@ -1,0 +1,10 @@
+"penup()" | "pu()" | "up()"
+         "pensize()" | "width()"
+         "pen()"
+         "isdown()"
+   Color control
+         "color()"
+         "pencolor()"
+         "fillcolor()"
+   Filling
+         "filling()"

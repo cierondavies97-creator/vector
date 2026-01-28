@@ -1,0 +1,4 @@
+inputs created from "io.IOBase.readlines()" result in diffs that
+   are suitable for use with "io.IOBase.writelines()" since both the
+   inputs and outputs have trailing newlines.
+   For inputs that do not have trailing newlines, set the *lineterm*

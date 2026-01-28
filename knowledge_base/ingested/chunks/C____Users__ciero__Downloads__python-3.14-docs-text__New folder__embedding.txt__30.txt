@@ -1,0 +1,5 @@
+if (!pValue) {
+                       Py_DECREF(pArgs);
+                       Py_DECREF(pModule);
+                       fprintf(stderr, "Cannot convert argument\n");
+                       return 1;

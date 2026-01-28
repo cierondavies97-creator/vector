@@ -1,0 +1,3 @@
+"selectors.KqueueSelector", which does not support character devices
+on these versions.  The "SelectorEventLoop" can be manually configured
+to use "SelectSelector" or "PollSelector" to support character devices

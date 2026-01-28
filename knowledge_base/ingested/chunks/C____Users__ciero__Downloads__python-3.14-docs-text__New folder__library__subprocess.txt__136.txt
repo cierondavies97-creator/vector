@@ -1,0 +1,3 @@
+if no data should be sent to the child.  If streams were opened in
+   text mode, *input* must be a string. Otherwise, it must be bytes.
+   "communicate()" returns a tuple "(stdout_data, stderr_data)". The

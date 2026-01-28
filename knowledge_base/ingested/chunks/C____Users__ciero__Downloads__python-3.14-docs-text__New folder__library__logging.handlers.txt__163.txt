@@ -1,0 +1,3 @@
+number.  If no *method* is specified, "GET" is used. If *secure* is
+   true, a HTTPS connection will be used. The *context* parameter may
+   be set to a "ssl.SSLContext" instance to configure the SSL settings

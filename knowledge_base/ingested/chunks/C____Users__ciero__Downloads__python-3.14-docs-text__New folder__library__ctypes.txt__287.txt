@@ -1,0 +1,4 @@
+non-negative integer. *name* is name of the COM method. *iid* is an
+   optional pointer to the interface identifier which is used in
+   extended error reporting.
+   If *iid* is not specified, an "OSError" is raised if the COM method

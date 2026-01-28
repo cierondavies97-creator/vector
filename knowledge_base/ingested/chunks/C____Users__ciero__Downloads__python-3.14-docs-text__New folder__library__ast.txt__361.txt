@@ -1,0 +1,5 @@
+exist.
+   generic_visit(node)
+      This visitor calls "visit()" on all children of the node.
+      Note that child nodes of nodes that have a custom visitor method
+      won't be visited unless the visitor calls "generic_visit()" or

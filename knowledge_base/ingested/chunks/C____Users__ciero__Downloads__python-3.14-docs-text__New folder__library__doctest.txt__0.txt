@@ -1,0 +1,5 @@
+"doctest" --- Test interactive Python examples
+**********************************************
+**Source code:** Lib/doctest.py
+======================================================================
+The "doctest" module searches for pieces of text that look like

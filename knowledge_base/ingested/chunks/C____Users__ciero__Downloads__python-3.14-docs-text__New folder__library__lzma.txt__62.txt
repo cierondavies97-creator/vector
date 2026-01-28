@@ -1,0 +1,4 @@
+means to select automatically based on other filter options.
+The delta filter stores the differences between bytes, producing more
+repetitive input for the compressor in certain circumstances. It
+supports one option, "dist". This indicates the distance between bytes

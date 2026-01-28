@@ -1,0 +1,4 @@
+list, tuple, set, frozenset, dict, or collections.deque, the
+expression "x in y" is equivalent to "any(x is e or x == e for e in
+y)".
+For the string and bytes types, "x in y" is "True" if and only if *x*

@@ -1,0 +1,4 @@
+removed from its location, otherwise it is replaced with the return
+   value.  The return value may be the original node in which case no
+   replacement takes place.
+   Here is an example transformer that rewrites all occurrences of

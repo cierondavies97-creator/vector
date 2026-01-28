@@ -1,0 +1,4 @@
+In this case no "*" specifiers may occur in a format (since they
+require a sequential parameter list).
+The conversion flag characters are:
++-----------+-----------------------------------------------------------------------+

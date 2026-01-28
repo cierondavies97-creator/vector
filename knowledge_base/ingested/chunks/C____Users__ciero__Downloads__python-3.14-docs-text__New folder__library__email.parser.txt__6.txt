@@ -1,0 +1,3 @@
+a stream which might block waiting for more input (such as reading an
+email message from a socket).  The "FeedParser" can consume and parse
+the message incrementally, and only returns the root object when you

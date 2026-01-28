@@ -1,0 +1,4 @@
+on the web.  This hook (a callable) would return a *path entry finder*
+supporting the protocol described below, which was then used to get a
+loader for the module from the web.
+A word of warning: this section and the previous both use the term

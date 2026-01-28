@@ -1,0 +1,5 @@
+a signal which is not blocked.
+   * "SIG_SETMASK": The set of blocked signals is set to the *mask*
+     argument.
+   *mask* is a set of signal numbers (e.g. {"signal.SIGINT",
+   "signal.SIGTERM"}). Use "valid_signals()" for a full mask including

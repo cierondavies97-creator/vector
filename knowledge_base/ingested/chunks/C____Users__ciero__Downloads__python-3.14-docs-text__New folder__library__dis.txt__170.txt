@@ -1,0 +1,5 @@
+"co_varnames".
+LOAD_FROM_DICT_OR_DEREF(i)
+   Pops a mapping off the stack and looks up the name associated with
+   slot "i" of the "fast locals" storage in this mapping. If the name
+   is not found there, loads it from the cell contained in slot "i",

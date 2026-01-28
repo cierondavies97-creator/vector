@@ -1,0 +1,5 @@
+written. The *data* argument must be an object supporting the
+   buffer interface.
+   Raise "SSLWantReadError" or "SSLWantWriteError" if the socket is
+   non-blocking and the write would block.
+   As at any time a re-negotiation is possible, a call to "write()"

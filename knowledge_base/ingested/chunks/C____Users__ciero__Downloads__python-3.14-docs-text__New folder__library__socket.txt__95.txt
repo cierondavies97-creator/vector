@@ -1,0 +1,4 @@
+and "getsockopt()" methods of Bluetooth socket objects.
+   "BT_*" and "L2CAP_LM" are only available on Linux. "SO_BTH_*" are
+   only available on Windows. Other constants may be available on
+   Linux and various BSD platforms.

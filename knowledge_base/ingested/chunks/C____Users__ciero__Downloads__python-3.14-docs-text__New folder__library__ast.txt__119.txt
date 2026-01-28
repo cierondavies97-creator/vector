@@ -1,0 +1,4 @@
+orelse=Name(id='c', ctx=Load())))
+class ast.Attribute(value, attr, ctx)
+   Attribute access, e.g. "d.keys". "value" is a node, typically a
+   "Name". "attr" is a bare string giving the name of the attribute,

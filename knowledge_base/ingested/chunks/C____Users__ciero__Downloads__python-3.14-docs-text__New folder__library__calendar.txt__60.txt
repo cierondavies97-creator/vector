@@ -1,0 +1,4 @@
+An unrelated but handy function that takes a time tuple such as
+   returned by the "gmtime()" function in the "time" module, and
+   returns the corresponding Unix timestamp value, assuming an epoch
+   of 1970, and the POSIX encoding.  In fact, "time.gmtime()" and

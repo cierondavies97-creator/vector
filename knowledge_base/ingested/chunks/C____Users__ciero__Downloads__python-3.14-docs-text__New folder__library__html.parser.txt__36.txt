@@ -1,0 +1,6 @@
+def handle_entityref(self, name):
+           c = chr(name2codepoint[name])
+           print("Named ent:", c)
+       def handle_charref(self, name):
+           if name.startswith('x'):
+               c = chr(int(name[1:], 16))

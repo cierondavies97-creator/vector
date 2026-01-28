@@ -1,0 +1,4 @@
+extremely slow as it is implemented in native Python rather than C.
+Handling compressed archives requires *optional modules* such as
+"zlib", "bz2", "lzma", and "compression.zstd". If any of them are
+missing from your copy of CPython, look for documentation from your

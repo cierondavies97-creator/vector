@@ -1,0 +1,4 @@
+# finished with client
+And go back to listening for new client connections (of course, a real
+server would probably handle each client connection in a separate
+thread, or put the sockets in non-blocking mode and use an event

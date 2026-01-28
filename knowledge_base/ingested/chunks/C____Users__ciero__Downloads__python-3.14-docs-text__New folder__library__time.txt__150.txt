@@ -1,0 +1,7 @@
+Added in version 3.3.
+time.CLOCK_PROF
+   High-resolution per-process timer from the CPU.
+   Availability: FreeBSD, NetBSD >= 7, OpenBSD.
+   Added in version 3.7.
+time.CLOCK_TAI
+   International Atomic Time

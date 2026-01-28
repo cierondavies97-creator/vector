@@ -1,0 +1,4 @@
+dictionary composed of the following keys and values:
+   * "type" -- Full MIME type of the non-*text* part
+   * "maintype" -- Main MIME type of the non-*text* part
+   * "subtype" -- Sub-MIME type of the non-*text* part

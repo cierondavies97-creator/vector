@@ -1,0 +1,4 @@
+generally a worthwhile benefit. Before committing to the process
+described here, we recommend investigating your existing tools to see
+if they can provide Python directly.
+To obtain Python from the CPython team, use the Python Install

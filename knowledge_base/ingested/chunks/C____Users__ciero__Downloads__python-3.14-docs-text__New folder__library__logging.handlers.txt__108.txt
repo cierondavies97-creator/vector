@@ -1,0 +1,4 @@
+Changed in version 3.2.1: (See: bpo-12168.) In earlier versions,
+      the message sent to the syslog daemons was always terminated
+      with a NUL byte, because early versions of these daemons
+      expected a NUL terminated message - even though it's not in the

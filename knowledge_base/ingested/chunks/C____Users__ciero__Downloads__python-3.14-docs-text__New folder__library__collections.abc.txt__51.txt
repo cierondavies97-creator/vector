@@ -1,0 +1,4 @@
+interface by verifying the required methods are present and have
+    not been set to "None".  This only works for simple interfaces.
+    More complex interfaces require registration or direct
+    subclassing.

@@ -1,0 +1,3 @@
+socket.  The optional *flags* argument has the same meaning as for
+   "recv()" above. Unlike "send()", this method continues to send data
+   from *bytes* until either all data has been sent or an error

@@ -1,0 +1,3 @@
+across multiple input values, distributing the input data across
+processes (data parallelism).  The following example demonstrates the
+common practice of defining such functions in a module so that child

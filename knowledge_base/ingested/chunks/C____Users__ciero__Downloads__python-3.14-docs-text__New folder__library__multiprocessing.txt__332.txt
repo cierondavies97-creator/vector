@@ -1,0 +1,5 @@
+>>> s.serve_forever()
+One client can access the server as follows:
+   >>> from multiprocessing.managers import BaseManager
+   >>> class QueueManager(BaseManager): pass
+   >>> QueueManager.register('get_queue')

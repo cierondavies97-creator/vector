@@ -1,0 +1,6 @@
+Other functions
+~~~~~~~~~~~~~~~
+The "socket" module also offers various network-related services:
+socket.close(fd)
+   Close a socket file descriptor. This is like "os.close()", but for
+   sockets. On some platforms (most noticeable Windows) "os.close()"

@@ -1,0 +1,4 @@
+parsing a serialized representation of the email message.
+The "email" package provides a standard parser that understands most
+email document structures, including MIME documents.  You can pass the
+parser a bytes, string or file object, and the parser will return to

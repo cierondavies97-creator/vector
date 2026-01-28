@@ -1,0 +1,5 @@
+Namespace(bar=False, foo=False)
+      >>> parser.parse_args(['--foo', '--bar'])
+      usage: PROG [-h] [--foo | --bar]
+      PROG: error: argument --bar: not allowed with argument --foo
+   The "add_mutually_exclusive_group()" method also accepts a

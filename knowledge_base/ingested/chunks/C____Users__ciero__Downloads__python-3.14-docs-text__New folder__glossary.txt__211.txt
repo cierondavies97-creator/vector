@@ -1,0 +1,4 @@
+def func(arg, *, kw_only1, kw_only2): ...
+   * *var-positional*: specifies that an arbitrary sequence of
+     positional arguments can be provided (in addition to any
+     positional arguments already accepted by other parameters).  Such

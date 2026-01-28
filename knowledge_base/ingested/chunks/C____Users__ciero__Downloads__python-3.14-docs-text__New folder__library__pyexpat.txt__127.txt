@@ -1,0 +1,5 @@
+The document attempted to remove the namespace declaration
+   associated with a prefix.
+xml.parsers.expat.errors.XML_ERROR_INCOMPLETE_PE
+   A parameter entity contained incomplete markup.
+xml.parsers.expat.errors.XML_ERROR_XML_DECL

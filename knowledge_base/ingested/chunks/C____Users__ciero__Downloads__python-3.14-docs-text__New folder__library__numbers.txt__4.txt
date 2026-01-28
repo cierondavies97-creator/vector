@@ -1,0 +1,7 @@
+and "!=" are abstract.
+   real
+      Abstract. Retrieves the real component of this number.
+   imag
+      Abstract. Retrieves the imaginary component of this number.
+   abstractmethod conjugate()
+      Abstract. Returns the complex conjugate. For example,

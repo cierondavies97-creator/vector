@@ -1,0 +1,6 @@
+Magic Mock
+----------
+There are two "MagicMock" variants: "MagicMock" and
+"NonCallableMagicMock".
+class unittest.mock.MagicMock(*args, **kw)
+   "MagicMock" is a subclass of "Mock" with default implementations of

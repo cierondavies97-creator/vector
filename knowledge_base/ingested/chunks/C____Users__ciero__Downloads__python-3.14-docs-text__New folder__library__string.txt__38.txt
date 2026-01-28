@@ -1,0 +1,4 @@
+(e.g., the strings "'10'" or "':-]'") within a format string. The
+*arg_name* can be followed by any number of index or attribute
+expressions. An expression of the form "'.name'" selects the named
+attribute using "getattr()", while an expression of the form

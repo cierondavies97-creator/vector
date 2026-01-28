@@ -1,0 +1,3 @@
+order in which the entries are retrieved.  In a FIFO (first-in, first-
+out) queue, the first tasks added are the first retrieved.  In a LIFO
+(last-in, first-out) queue, the most recently added entry is the first

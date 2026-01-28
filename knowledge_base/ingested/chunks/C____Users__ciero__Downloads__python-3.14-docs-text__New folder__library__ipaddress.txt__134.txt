@@ -1,0 +1,6 @@
+net mask.
+      >>> interface = IPv4Interface('192.0.2.5/24')
+      >>> interface.with_netmask
+      '192.0.2.5/255.255.255.0'
+   with_hostmask
+      A string representation of the interface with the network as a

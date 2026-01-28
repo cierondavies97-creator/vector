@@ -1,0 +1,4 @@
+retrieved (operating like a stack).  With a priority queue, the
+entries are kept sorted (using the "heapq" module) and the lowest
+valued entry is retrieved first.
+Internally, those three types of queues use locks to temporarily block

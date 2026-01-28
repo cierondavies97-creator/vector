@@ -1,0 +1,6 @@
+behaviour of "Random" instances.
+   setstate(state)
+      Override this method in subclasses to customise the "setstate()"
+      behaviour of "Random" instances.
+   random()
+      Override this method in subclasses to customise the "random()"

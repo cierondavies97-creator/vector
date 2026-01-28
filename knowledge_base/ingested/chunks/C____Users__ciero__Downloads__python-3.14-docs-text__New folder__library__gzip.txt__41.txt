@@ -1,0 +1,8 @@
+import gzip
+   s_in = b"Lots of content here"
+   s_out = gzip.compress(s_in)
+See also:
+  Module "zlib"
+     The basic data compression module needed to support the **gzip**
+     file format.
+  In case gzip (de)compression is a bottleneck, the python-isal

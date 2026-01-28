@@ -1,0 +1,5 @@
+functions.
+      Added in version 3.12.
+class unittest.TextTestResult(stream, descriptions, verbosity, *, durations=None)
+   A concrete implementation of "TestResult" used by the
+   "TextTestRunner". Subclasses should accept "**kwargs" to ensure

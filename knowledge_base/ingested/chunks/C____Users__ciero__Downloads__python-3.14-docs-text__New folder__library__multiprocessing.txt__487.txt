@@ -1,0 +1,4 @@
+run normally instead of frozen.)
+   This allows the newly spawned Python interpreter to safely import
+   the module and then run the module's "foo()" function.
+   Similar restrictions apply if a pool or manager is created in the

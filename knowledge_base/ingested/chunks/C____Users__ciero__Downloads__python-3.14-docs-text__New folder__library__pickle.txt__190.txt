@@ -1,0 +1,5 @@
+See also: **PEP 574** -- Pickle protocol 5 with out-of-band data
+Restricting Globals
+===================
+By default, unpickling will import any class or function that it finds
+in the pickle data.  For many applications, this behaviour is

@@ -1,0 +1,4 @@
+POP3.stls(context=None)
+   Start a TLS session on the active connection as specified in **RFC
+   2595**. This is only allowed before user authentication
+   *context* parameter is a "ssl.SSLContext" object which allows

@@ -1,0 +1,4 @@
+"QueueShutDown".
+      If *immediate* is true, the queue is terminated immediately. The
+      queue is drained to be completely empty and the count of
+      unfinished tasks is reduced by the number of tasks drained. If

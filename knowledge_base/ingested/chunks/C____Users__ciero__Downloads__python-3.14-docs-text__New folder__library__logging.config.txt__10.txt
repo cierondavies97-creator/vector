@@ -1,0 +1,4 @@
+dictConfigClass(config).configure()
+   For example, a subclass of "DictConfigurator" could call
+   "DictConfigurator.__init__()" in its own "__init__()", then set up
+   custom prefixes which would be usable in the subsequent

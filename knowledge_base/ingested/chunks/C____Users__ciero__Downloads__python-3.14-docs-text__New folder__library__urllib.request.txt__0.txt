@@ -1,0 +1,4 @@
+"urllib.request" --- Extensible library for opening URLs
+********************************************************
+**Source code:** Lib/urllib/request.py
+======================================================================

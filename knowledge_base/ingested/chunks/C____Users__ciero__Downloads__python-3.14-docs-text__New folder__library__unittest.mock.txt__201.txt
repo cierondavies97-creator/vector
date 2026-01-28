@@ -1,0 +1,3 @@
+exist. If you pass in "create=True", and the attribute doesn't
+   exist, patch will create the attribute for you when the patched
+   function is called, and delete it again after the patched function

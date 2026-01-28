@@ -1,0 +1,3 @@
+set to "True", the *root_dir* argument is passed as a keyword
+   argument. Otherwise the current working directory of the process is
+   temporarily changed to *root_dir* before calling *function*. In

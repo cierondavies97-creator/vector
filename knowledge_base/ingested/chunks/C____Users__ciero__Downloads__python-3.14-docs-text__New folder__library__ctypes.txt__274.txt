@@ -1,0 +1,3 @@
+On Windows, when a foreign function call raises a system exception
+(for example, due to an access violation), it will be captured and
+replaced with a suitable Python exception. Further, an auditing event

@@ -1,0 +1,5 @@
+explanation of the keyword arguments.
+   Added in version 3.4.
+   Changed in version 3.13: *data* can be a string when *fmt* equals
+   "FMT_XML".
+plistlib.dump(value, fp, *, fmt=FMT_XML, sort_keys=True, skipkeys=False, aware_datetime=False)

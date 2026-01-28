@@ -1,0 +1,7 @@
+* Hints for further verification
+    * Supporting older Python versions
+    * Stateful extraction filter example
+  * Command-Line Interface
+    * Command-line options
+  * Examples
+    * Reading examples

@@ -1,0 +1,3 @@
+possibly empty list containing "(fd, event)" 2-tuples for the
+   descriptors that have events or errors to report. *fd* is the file
+   descriptor, and *event* is a bitmask with bits set for the reported

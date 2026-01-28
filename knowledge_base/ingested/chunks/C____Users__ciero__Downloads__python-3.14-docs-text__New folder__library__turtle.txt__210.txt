@@ -1,0 +1,8 @@
+updates.)  The longer the drawing delay, the slower the animation.
+   Optional argument:
+      >>> screen.delay()
+      10
+      >>> screen.delay(5)
+      >>> screen.delay()
+      5
+turtle.tracer(n=None, delay=None)

@@ -1,0 +1,5 @@
+to Netscape cookies, in which case "version" is 0.
+Cookie.port_specified
+   "True" if a port or set of ports was explicitly specified by the
+   server (in the *Set-Cookie* / *Set-Cookie2* header).
+Cookie.domain_specified

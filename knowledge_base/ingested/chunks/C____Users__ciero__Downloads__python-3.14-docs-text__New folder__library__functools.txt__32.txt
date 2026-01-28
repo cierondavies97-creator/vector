@@ -1,0 +1,3 @@
+"Decimal(42)" and "Fraction(42)" are be treated as distinct calls
+   with distinct results. In contrast, the tuple arguments "('answer',
+   Decimal(42))" and "('answer', Fraction(42))" are treated as

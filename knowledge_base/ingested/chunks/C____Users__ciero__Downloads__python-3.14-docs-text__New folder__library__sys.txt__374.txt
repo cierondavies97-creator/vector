@@ -1,0 +1,5 @@
+Namespace containing functions and constants for register callbacks
+   and controlling monitoring events. See  "sys.monitoring" for
+   details.
+sys._xoptions
+   A dictionary of the various implementation-specific flags passed

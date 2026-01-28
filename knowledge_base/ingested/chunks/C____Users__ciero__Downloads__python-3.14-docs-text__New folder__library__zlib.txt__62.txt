@@ -1,0 +1,5 @@
+when it gets to the next deflate block boundary.
+   This constant is only available if Python was compiled with zlib
+   1.2.3.4 or greater.
+   Added in version 3.6.
+Information about the version of the zlib library in use is available

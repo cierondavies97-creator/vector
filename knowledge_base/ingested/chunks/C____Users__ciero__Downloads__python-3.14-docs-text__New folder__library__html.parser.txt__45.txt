@@ -1,0 +1,4 @@
+Num ent  : >
+Feeding incomplete chunks to "feed()" works, but "handle_data()" might
+be called more than once if *convert_charrefs* is false:
+   >>> for chunk in ['<sp', 'an>buff', 'ered', ' text</s', 'pan>']:

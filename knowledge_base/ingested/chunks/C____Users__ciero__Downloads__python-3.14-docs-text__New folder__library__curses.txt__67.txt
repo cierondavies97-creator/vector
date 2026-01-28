@@ -1,0 +1,5 @@
+to detect the return key on input.
+curses.noqiflush()
+   When the "noqiflush()" routine is used, normal flush of input and
+   output queues associated with the "INTR", "QUIT" and "SUSP"
+   characters will not be done.  You may want to call "noqiflush()" in

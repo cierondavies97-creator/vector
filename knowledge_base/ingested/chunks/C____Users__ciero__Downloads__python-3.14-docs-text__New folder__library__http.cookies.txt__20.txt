@@ -1,0 +1,4 @@
+"None" (sent with same-site and cross-site requests). When using
+   "None", the "secure" attribute must also be set, as required by
+   modern browsers.
+   The attribute "partitioned" indicates to user agents that these

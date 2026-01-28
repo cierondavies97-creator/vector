@@ -1,0 +1,4 @@
+Make this path a symbolic link pointing to *target*.
+   On Windows, a symlink represents either a file or a directory, and
+   does not morph to the target dynamically.  If the target is
+   present, the type of the symlink will be created to match.

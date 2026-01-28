@@ -1,0 +1,5 @@
+will be used to set attributes on the mock after it is created. See
+   the "configure_mock()" method for details.
+   assert_called()
+      Assert that the mock was called at least once.
+      >>> mock = Mock()

@@ -1,0 +1,4 @@
+Changed in version 3.4: Added native support for the context
+management protocol to the objects returned by "open()".
+Changed in version 3.8: Deleting a key from a read-only database
+raises a database module specific exception instead of "KeyError".

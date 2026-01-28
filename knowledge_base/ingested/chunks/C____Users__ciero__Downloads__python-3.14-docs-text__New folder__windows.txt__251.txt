@@ -1,0 +1,4 @@
+What follows is a summary that is sufficient for Python developers.
+The "nuget.exe" command line tool may be downloaded directly from
+"https://aka.ms/nugetclidl", for example, using curl or PowerShell.
+With the tool, the latest version of Python for 64-bit or 32-bit

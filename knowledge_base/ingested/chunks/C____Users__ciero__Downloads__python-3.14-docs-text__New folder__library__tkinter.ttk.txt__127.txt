@@ -1,0 +1,6 @@
++------------+-----------------------------------------------------------------+
+ttk.Progressbar
+---------------
+class tkinter.ttk.Progressbar
+   start(interval=None)
+      Begin autoincrement mode: schedules a recurring timer event that

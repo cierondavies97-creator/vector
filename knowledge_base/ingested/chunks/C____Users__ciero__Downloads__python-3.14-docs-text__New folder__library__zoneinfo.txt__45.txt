@@ -1,0 +1,6 @@
+pickle constructed from "ZoneInfo("Europe/Berlin")", one would
+   expect the following behavior:
+      >>> a = ZoneInfo("Europe/Berlin")
+      >>> b = pickle.loads(europe_berlin_pkl)
+      >>> a is b
+      True

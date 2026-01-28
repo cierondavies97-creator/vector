@@ -1,0 +1,5 @@
+"logging.Formatter('%(ip)s %(message)s', defaults={"ip":
+        None})"
+   Changed in version 3.2: Added the *style* parameter.
+   Changed in version 3.8: Added the *validate* parameter.
+   Changed in version 3.10: Added the *defaults* parameter.

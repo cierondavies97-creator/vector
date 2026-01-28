@@ -1,0 +1,11 @@
+Get the abbreviated name of the n-th day of the week.
+   locale.MON_1
+   locale.MON_2
+   locale.MON_3
+   locale.MON_4
+   locale.MON_5
+   locale.MON_6
+   locale.MON_7
+   locale.MON_8
+   locale.MON_9
+   locale.MON_10

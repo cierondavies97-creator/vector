@@ -1,0 +1,4 @@
+floatvalue:    [sign] absfloatvalue
+   Case is not significant, so, for example, "inf", "Inf", "INFINITY",
+   and "iNfINity" are all acceptable spellings for positive infinity.
+   Otherwise, if the argument is an integer or a floating-point

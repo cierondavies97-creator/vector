@@ -1,0 +1,9 @@
+"ConnectionResetError".
+errno.ENOBUFS
+   No buffer space available
+errno.EISCONN
+   Transport endpoint is already connected
+errno.ENOTCONN
+   Transport endpoint is not connected
+errno.ESHUTDOWN
+   Cannot send after transport endpoint shutdown. This error is mapped

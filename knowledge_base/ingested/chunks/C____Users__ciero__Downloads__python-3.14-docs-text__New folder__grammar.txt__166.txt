@@ -1,0 +1,3 @@
+fstring_full_format_spec[ResultTokenWithMetadata*]:
+       | colon=':' spec=fstring_format_spec* { _PyPegen_setup_full_format_spec(p, colon, (asdl_expr_seq *) spec, EXTRA) }
+   fstring_format_spec[expr_ty]:

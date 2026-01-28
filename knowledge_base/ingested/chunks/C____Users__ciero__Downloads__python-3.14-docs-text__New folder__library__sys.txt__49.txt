@@ -1,0 +1,6 @@
+builtins._ = None
+          text = repr(value)
+          try:
+              sys.stdout.write(text)
+          except UnicodeEncodeError:
+              bytes = text.encode(sys.stdout.encoding, 'backslashreplace')

@@ -1,0 +1,5 @@
+made.  For fully non-blocking parsing, see "XMLPullParser".
+   Note:
+     "iterparse()" only guarantees that it has seen the ">" character
+     of a starting tag when it emits a "start" event, so the
+     attributes are defined, but the contents of the text and tail

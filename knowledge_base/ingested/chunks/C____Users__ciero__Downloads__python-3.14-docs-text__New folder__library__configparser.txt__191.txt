@@ -1,0 +1,4 @@
+affect this behavior.
+      You don't need to subclass the parser to use this method, you
+      can also set it on an instance, to a function that takes a
+      string argument and returns a string.  Setting it to "str", for

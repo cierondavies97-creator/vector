@@ -1,0 +1,4 @@
+datetime(*(time.strptime(date_string, format)[0:6]))
+except when the format includes sub-second components or time zone
+offset information, which are supported in "datetime.strptime" but are
+discarded by "time.strptime".

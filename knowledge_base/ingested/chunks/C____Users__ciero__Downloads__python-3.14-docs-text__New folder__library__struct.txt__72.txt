@@ -1,0 +1,4 @@
+lack of any prefix character) may not match what the reader's
+  machine produces as that depends on the platform and compiler.
+Pack and unpack integers of three different sizes, using big endian
+ordering:

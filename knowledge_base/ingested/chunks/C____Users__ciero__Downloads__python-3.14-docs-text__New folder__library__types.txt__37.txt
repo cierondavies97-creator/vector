@@ -1,0 +1,5 @@
+class types.UnionType
+   The type of union type expressions.
+   Added in version 3.10.
+   Changed in version 3.14: This is now an alias for "typing.Union".
+class types.TracebackType(tb_next, tb_frame, tb_lasti, tb_lineno)

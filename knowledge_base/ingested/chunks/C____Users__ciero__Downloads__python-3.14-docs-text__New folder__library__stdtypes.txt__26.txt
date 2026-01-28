@@ -1,0 +1,4 @@
+complex number *z*, use "z.real" and "z.imag". (The standard library
+includes the additional numeric types "fractions.Fraction", for
+rationals, and "decimal.Decimal", for floating-point numbers with
+user-definable precision.)

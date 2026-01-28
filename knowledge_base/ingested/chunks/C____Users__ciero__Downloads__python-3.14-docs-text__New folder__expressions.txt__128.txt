@@ -1,0 +1,4 @@
+exception, then when the awaitable is run that exception propagates
+   to the caller of the awaitable.
+   Changed in version 3.12: The second signature (type[, value[,
+   traceback]]) is deprecated and may be removed in a future version

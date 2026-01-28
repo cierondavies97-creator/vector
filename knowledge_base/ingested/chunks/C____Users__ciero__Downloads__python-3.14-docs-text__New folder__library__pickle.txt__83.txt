@@ -1,0 +1,4 @@
+memoryview with format "B" (unsigned bytes).  "BufferError" is
+      raised if the buffer is neither C- nor Fortran-contiguous.
+   release()
+      Release the underlying buffer exposed by the PickleBuffer

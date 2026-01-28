@@ -1,0 +1,4 @@
+archiving from. Further arguments are passed as keyword arguments:
+   *owner*, *group*, *dry_run* and *logger* (as passed in
+   "make_archive()").
+   If *function* has the custom attribute "function.supports_root_dir"

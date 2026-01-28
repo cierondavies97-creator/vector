@@ -1,0 +1,5 @@
+argument, which allows multiple strings to refer to the same
+   subparser. This example, like "svn", aliases "co" as a shorthand
+   for "checkout":
+      >>> parser = argparse.ArgumentParser()
+      >>> subparsers = parser.add_subparsers()

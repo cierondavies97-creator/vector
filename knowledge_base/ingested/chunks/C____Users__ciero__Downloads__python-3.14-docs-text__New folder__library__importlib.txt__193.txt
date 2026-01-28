@@ -1,0 +1,4 @@
+"get_tag()"; if "sys.implementation.cache_tag" is not defined then
+   "NotImplementedError" will be raised).
+   The *optimization* parameter is used to specify the optimization
+   level of the bytecode file. An empty string represents no

@@ -1,0 +1,5 @@
+Frequently Used Arguments and "run()".
+   To also capture standard error in the result, use
+   "stderr=subprocess.STDOUT":
+      >>> subprocess.check_output(
+      ...     "ls non_existent_file; exit 0",

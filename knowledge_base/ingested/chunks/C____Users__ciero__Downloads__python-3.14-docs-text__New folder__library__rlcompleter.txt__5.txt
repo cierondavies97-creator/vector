@@ -1,0 +1,4 @@
+automatically imported and configured (see Readline configuration).
+On platforms without "readline", the "Completer" class defined by this
+module can still be used for custom purposes.
+class rlcompleter.Completer

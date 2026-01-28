@@ -1,0 +1,3 @@
+|                         | selects all tags in the given namespace, "{*}spam"     |
+|                         | selects tags named "spam" in any (or no) namespace,    |
+|                         | and "{}*" only selects tags that are not in a          |

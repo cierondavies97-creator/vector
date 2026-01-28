@@ -1,0 +1,5 @@
+are written using a "traditional" testing style that compares output
+printed to "sys.stdout"; this style of test is considered deprecated.
+See also:
+  Module "unittest"
+     Writing PyUnit regression tests.

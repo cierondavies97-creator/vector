@@ -1,0 +1,4 @@
+Paint character *ch* at "(y, x)" with attributes *attr*,
+   overwriting any character previously painted at that location.  By
+   default, the character position and attributes are the current
+   settings for the window object.

@@ -1,0 +1,3 @@
+after all members have been extracted. This is done to work around
+   two problems: A directory's modification time is reset each time a
+   file is created in it. And, if a directory's permissions do not

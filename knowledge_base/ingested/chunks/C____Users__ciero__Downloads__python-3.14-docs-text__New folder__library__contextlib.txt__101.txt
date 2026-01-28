@@ -1,0 +1,4 @@
+from the "with" statement body or the context manager's "__exit__"
+method. By using "ExitStack" the steps in the context management
+protocol can be separated slightly in order to allow this:
+   stack = ExitStack()

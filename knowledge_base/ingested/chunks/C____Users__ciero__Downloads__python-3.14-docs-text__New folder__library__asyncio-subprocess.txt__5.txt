@@ -1,0 +1,6 @@
+to modify the above example to run several commands simultaneously:
+   async def main():
+       await asyncio.gather(
+           run('ls /zzz'),
+           run('sleep 1; echo "hello"'))
+   asyncio.run(main())

@@ -1,0 +1,4 @@
+class types.SimpleNamespace
+   A simple "object" subclass that provides attribute access to its
+   namespace, as well as a meaningful repr.
+   Unlike "object", with "SimpleNamespace" you can add and remove

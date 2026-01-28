@@ -1,0 +1,4 @@
+containing the PI contents, if given.  Returns an element instance,
+   representing a processing instruction.
+   Note that "XMLParser" skips over processing instructions in the
+   input instead of creating PI objects for them. An "ElementTree"

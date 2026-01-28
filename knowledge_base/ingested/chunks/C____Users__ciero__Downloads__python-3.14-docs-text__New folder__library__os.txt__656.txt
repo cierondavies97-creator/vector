@@ -1,0 +1,4 @@
+Changed in version 3.13: *env* parameter accepts "None".
+   "os.POSIX_SPAWN_CLOSEFROM" is available on platforms where
+   "posix_spawn_file_actions_addclosefrom_np()" exists.
+   Availability: Unix, not WASI, not Android, not iOS.

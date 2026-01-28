@@ -1,0 +1,4 @@
+and the following condition holds (see
+        "IPv6Address.ipv4_mapped"):
+           address.is_private == address.ipv4_mapped.is_private
+      "is_private" has value opposite to "is_global", except for the

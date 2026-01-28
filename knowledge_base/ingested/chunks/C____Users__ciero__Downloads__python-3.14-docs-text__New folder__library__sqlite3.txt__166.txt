@@ -1,0 +1,6 @@
+Added in version 3.7.
+      See also: How to handle non-UTF-8 text encodings
+   getlimit(category, /)
+      Get a connection runtime limit.
+      Parameters:
+         **category** (*int*) -- The SQLite limit category to be

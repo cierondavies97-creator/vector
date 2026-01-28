@@ -1,0 +1,4 @@
+initialization, the interpreter runs an event loop (i.e.
+"Tk.mainloop()") and responds to events. Because it is single-
+threaded, event handlers must respond quickly, otherwise they will
+block other events from being processed. To avoid this, any long-

@@ -1,0 +1,4 @@
+running computations should not run in an event handler, but are
+either broken into smaller pieces using timers, or run in another
+thread. This is different from many GUI toolkits where the GUI runs in
+a completely separate thread from all application code including event

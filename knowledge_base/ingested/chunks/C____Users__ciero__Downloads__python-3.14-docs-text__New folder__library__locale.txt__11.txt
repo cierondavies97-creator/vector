@@ -1,0 +1,3 @@
+dictionary has the following strings as keys:
+   +------------------------+---------------------------------------+----------------------------------+
+   | Category               | Key                                   | Meaning                          |

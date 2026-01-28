@@ -1,0 +1,5 @@
+...
+   OldT = TypeVar('OldT', contravariant=True)
+   OldB = TypeVar('OldB', bound=Sequence[bytes], covariant=True)
+   OldS = TypeVar('OldS', int, str)
+   class OldWeirdTrio(Generic[OldT, OldB, OldS]):

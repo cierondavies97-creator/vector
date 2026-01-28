@@ -1,0 +1,10 @@
+"NotADirectoryError".
+errno.EISDIR
+   Is a directory. This error is mapped to the exception
+   "IsADirectoryError".
+errno.EINVAL
+   Invalid argument
+errno.ENFILE
+   File table overflow
+errno.EMFILE
+   Too many open files

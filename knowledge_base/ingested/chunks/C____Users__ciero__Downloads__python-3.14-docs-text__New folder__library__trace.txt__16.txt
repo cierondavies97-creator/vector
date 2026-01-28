@@ -1,0 +1,3 @@
+*ignoredirs* is a list of directories whose modules or packages
+   should be ignored.  *infile* is the name of the file from which to
+   read stored count information.  *outfile* is the name of the file

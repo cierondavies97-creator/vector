@@ -1,0 +1,5 @@
+class _U(Union):
+             _fields_ = [("lptdesc", POINTER(TYPEDESC)),
+                         ("lpadesc", POINTER(ARRAYDESC)),
+                         ("hreftype", HREFTYPE)]
+         class TYPEDESC(Structure):

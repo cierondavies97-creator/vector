@@ -1,0 +1,4 @@
+calling the "defaultTestResult()" method) and used. The result
+      object is returned to "run()"'s caller. At the end of the test
+      all the tasks in the event loop are cancelled.
+   An example illustrating the order:

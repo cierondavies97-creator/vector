@@ -1,0 +1,4 @@
+* "openssl_cafile_env" - OpenSSL's environment key that points to a
+     cafile,
+   * "openssl_cafile" - hard coded path to a cafile,
+   * "openssl_capath_env" - OpenSSL's environment key that points to a

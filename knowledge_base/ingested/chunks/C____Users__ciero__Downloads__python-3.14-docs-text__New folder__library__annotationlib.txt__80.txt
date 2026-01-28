@@ -1,0 +1,3 @@
+the "__annotations__" key of the dictionary. For other classes with
+annotations, "get_annotate_from_class_namespace()" can be used to get
+the annotate function, and "call_annotate_function()" can be used to

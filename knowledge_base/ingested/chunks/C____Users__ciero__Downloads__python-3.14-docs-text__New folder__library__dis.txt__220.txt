@@ -1,0 +1,3 @@
++-------------------------------------+-------------------------------------+
+   | "INTRINSIC_TYPEALIAS"               | Creates a "typing.TypeAliasType";   |
+   |                                     | used in the "type" statement. The   |

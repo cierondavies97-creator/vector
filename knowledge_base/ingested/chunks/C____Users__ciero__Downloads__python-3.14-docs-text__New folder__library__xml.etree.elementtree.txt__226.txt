@@ -1,0 +1,5 @@
+feed(data)
+      Feed the given bytes data to the parser.
+   flush()
+      Triggers parsing of any previously fed unparsed data, which can
+      be used to ensure more immediate feedback, in particular with

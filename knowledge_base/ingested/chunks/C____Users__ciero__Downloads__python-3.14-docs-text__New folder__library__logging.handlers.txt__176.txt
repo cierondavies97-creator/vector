@@ -1,0 +1,4 @@
+"DEBUG" level messages upon items being queued. If those log
+     messages are processed by a "QueueHandler" using the same
+     "multiprocessing.Queue" instance, it will cause a deadlock or
+     infinite recursion.

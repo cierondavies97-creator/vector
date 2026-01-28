@@ -1,0 +1,5 @@
+the 64-bit registry view. On 32-bit Windows, this constant is
+   ignored.
+winreg.KEY_WOW64_32KEY
+   Indicates that an application on 64-bit Windows should operate on
+   the 32-bit registry view. On 32-bit Windows, this constant is

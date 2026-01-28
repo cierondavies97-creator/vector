@@ -1,0 +1,6 @@
+was added.  Exiting the context manager is equivalent to calling
+   "server_close()".
+Request Handler Objects
+=======================
+class socketserver.BaseRequestHandler
+   This is the superclass of all request handler objects.  It defines

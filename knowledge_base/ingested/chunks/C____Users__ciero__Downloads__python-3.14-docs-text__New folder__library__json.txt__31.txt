@@ -1,0 +1,4 @@
+for objects that can't otherwise be serialized. It should
+        return a JSON encodable version of the object or raise a
+        "TypeError". If "None" (the default), "TypeError" is raised.
+      * **sort_keys** (*bool*) -- If "True", dictionaries will be

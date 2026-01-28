@@ -1,0 +1,4 @@
+"__file__", "__cached__", "__loader__" and "__package__" will be
+   set as normal based on the module spec.
+   A number of alterations are also made to the "sys" module. Firstly,
+   "sys.path" may be altered as described above. "sys.argv[0]" is

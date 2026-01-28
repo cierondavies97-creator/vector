@@ -1,0 +1,3 @@
+only if it does not have a "name" attribute (having a "name"
+      attribute means it is a header object of some sort).  If a
+      source value needs to be refolded according to the policy, it is

@@ -1,0 +1,3 @@
+|             | padded decimal number.           |                          |         |
++-------------+----------------------------------+--------------------------+---------+
+| "%p"        | Locale's equivalent of either AM | AM, PM (en_US); am, pm   | (1),    |

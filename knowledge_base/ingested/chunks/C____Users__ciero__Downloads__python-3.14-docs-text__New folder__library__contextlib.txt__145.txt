@@ -1,0 +1,6 @@
+leaving any with statement, regardless of where those callbacks were
+added:
+   >>> from contextlib import ExitStack
+   >>> stack = ExitStack()
+   >>> with stack:
+   ...     stack.callback(print, "Callback: from first context")

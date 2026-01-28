@@ -1,0 +1,7 @@
+>>> b'TestHook'.removeprefix(b'Test')
+      b'Hook'
+      >>> b'BaseTestCase'.removeprefix(b'Test')
+      b'BaseTestCase'
+   The *prefix* may be any *bytes-like object*.
+   Note:
+     The bytearray version of this method does *not* operate in place

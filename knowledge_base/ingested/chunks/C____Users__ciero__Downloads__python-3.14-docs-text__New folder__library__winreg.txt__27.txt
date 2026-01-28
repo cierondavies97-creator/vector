@@ -1,0 +1,4 @@
+called. It is typically called repeatedly, until an "OSError"
+   exception is raised, indicating no more values.
+   The result is a tuple of 3 items:
+   +---------+----------------------------------------------+

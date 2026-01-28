@@ -1,0 +1,5 @@
+Final names cannot be reassigned in any scope. Final names declared
+   in class scopes cannot be overridden in subclasses.
+   For example:
+      MAX_SIZE: Final = 9000
+      MAX_SIZE += 1  # Error reported by type checker

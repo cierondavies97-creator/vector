@@ -1,0 +1,4 @@
+__future__ import annotations" syntax. The plan at the time was to
+eventually make this behavior the default, but a problem appeared:
+stringified annotations are more difficult to process for those who
+introspect annotations at runtime. An alternative proposal, **PEP

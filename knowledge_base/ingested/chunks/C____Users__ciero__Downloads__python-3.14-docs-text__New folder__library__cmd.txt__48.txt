@@ -1,0 +1,6 @@
+self.file = open(arg, 'w')
+       def do_playback(self, arg):
+           'Playback commands from a file:  PLAYBACK rose.cmd'
+           self.close()
+           with open(arg) as f:
+               self.cmdqueue.extend(f.read().splitlines())

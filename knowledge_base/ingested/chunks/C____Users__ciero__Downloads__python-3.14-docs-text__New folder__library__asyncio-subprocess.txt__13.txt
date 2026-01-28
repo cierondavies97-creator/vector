@@ -1,0 +1,6 @@
+Note:
+  Subprocesses are available for Windows if a "ProactorEventLoop" is
+  used. See Subprocess Support on Windows for details.
+See also:
+  asyncio also has the following *low-level* APIs to work with
+  subprocesses: "loop.subprocess_exec()", "loop.subprocess_shell()",

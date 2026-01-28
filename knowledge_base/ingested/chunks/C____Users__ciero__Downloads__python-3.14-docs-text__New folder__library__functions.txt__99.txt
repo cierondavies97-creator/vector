@@ -1,0 +1,4 @@
+current global and local dictionary, respectively, which may be
+   useful to pass around for use by "eval()" or "exec()".
+   If the given source is a string, then leading and trailing spaces
+   and tabs are stripped.

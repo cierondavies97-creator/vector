@@ -1,0 +1,4 @@
+*name* is the implementation's identifier, e.g. "'cpython'".  The
+   actual string is defined by the Python implementation, but it is
+   guaranteed to be lower case.
+   *version* is a named tuple, in the same format as

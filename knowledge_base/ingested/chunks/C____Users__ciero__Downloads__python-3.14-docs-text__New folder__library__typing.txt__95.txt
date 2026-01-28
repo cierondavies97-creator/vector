@@ -1,0 +1,8 @@
+from typing import Any
+   a: Any = None
+   a = []          # OK
+   a = 2           # OK
+   s: str = ''
+   s = a           # OK
+   def foo(item: Any) -> int:
+       # Passes type checking; 'item' could be any type,

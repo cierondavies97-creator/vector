@@ -1,0 +1,4 @@
+defined filters do not prevent denial-of-service attacks. Users should
+do additional checks.
+Here is an incomplete list of things to consider:
+* Extract to a "new temporary directory" to prevent e.g. exploiting

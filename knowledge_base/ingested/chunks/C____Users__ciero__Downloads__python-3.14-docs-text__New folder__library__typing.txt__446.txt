@@ -1,0 +1,4 @@
+checker only, since they will be overwritten by the
+   non-"@overload"-decorated definition. The non-"@overload"-decorated
+   definition, meanwhile, will be used at runtime but should be
+   ignored by a type checker.  At runtime, calling an

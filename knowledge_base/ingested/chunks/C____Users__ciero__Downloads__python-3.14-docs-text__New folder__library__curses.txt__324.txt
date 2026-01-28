@@ -1,0 +1,4 @@
+The "curses.textpad" module provides a "Textbox" class that handles
+elementary text editing in a curses window, supporting a set of
+keybindings resembling those of Emacs (thus, also of Netscape
+Navigator, BBedit 6.x, FrameMaker, and many other programs).  The

@@ -1,0 +1,5 @@
+If *callback* is given and is not "None", it will be called
+      after each trial with two arguments: "callback(number,
+      time_taken)".
+      Added in version 3.6.
+   repeat(repeat=5, number=1000000)

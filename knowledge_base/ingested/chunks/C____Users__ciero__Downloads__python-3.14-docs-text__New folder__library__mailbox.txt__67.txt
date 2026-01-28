@@ -1,0 +1,5 @@
+character.
+      Considerations for using this method versus the message object's
+      "add_flag()" method are similar to those for "set_flags()"; see
+      the discussion there.
+      Added in version 3.13.

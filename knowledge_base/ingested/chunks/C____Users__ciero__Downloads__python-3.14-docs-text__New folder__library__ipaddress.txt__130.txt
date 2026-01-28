@@ -1,0 +1,4 @@
+constructor of "IPv4Network", except that arbitrary host addresses
+   are always accepted.
+   "IPv4Interface" is a subclass of "IPv4Address", so it inherits all
+   the attributes from that class.  In addition, the following

@@ -1,0 +1,3 @@
+When *show_group* is "True", and the exception is an instance of
+      "BaseExceptionGroup", the nested exceptions are included as
+      well, recursively, with indentation relative to their nesting

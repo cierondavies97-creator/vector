@@ -1,0 +1,8 @@
+... class Foo(base1, base2, metaclass=meta):
+      ...     pass
+      ... """), indent=4))
+      Module(
+          body=[
+              ClassDef(
+                  name='Foo',
+                  bases=[

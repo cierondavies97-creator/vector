@@ -1,0 +1,5 @@
+causes the entire directory to be ignored by the Git source
+      control manager.
+      Added in version 3.13.
+   Changed in version 3.7.2: Windows now uses redirector scripts for
+   "python[w].exe" instead of copying the actual binaries. In 3.7.2

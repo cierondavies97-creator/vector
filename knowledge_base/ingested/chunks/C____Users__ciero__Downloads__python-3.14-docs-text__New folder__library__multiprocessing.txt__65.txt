@@ -1,0 +1,3 @@
+res = pool.apply_async(os.getpid, ()) # runs in *only* one process
+           print(res.get(timeout=1))             # prints the PID of that process
+           # launching multiple evaluations asynchronously *may* use more processes

@@ -1,0 +1,12 @@
+errno.EDEADLOCK
+   File locking deadlock error
+errno.EBFONT
+   Bad font file format
+errno.ENOSTR
+   Device not a stream
+errno.ENODATA
+   No data available
+errno.ETIME
+   Timer expired
+errno.ENOSR
+   Out of streams resources

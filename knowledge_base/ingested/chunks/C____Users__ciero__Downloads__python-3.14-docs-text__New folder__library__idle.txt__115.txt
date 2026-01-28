@@ -1,0 +1,4 @@
+fail to connect.  Dismissing the error box or using Restart Shell on
+the Shell menu may fix a temporary problem.
+When IDLE first starts, it attempts to read user configuration files
+in "~/.idlerc/" (~ is one's home directory).  If there is a problem,

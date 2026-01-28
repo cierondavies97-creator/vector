@@ -1,0 +1,4 @@
+The *args* argument will be a pointer to a Python tuple object
+containing the arguments.  Each item of the tuple corresponds to an
+argument in the call's argument list.  The arguments are Python
+objects --- in order to do anything with them in our C function we

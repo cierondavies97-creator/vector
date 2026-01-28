@@ -1,0 +1,4 @@
+The return value is a generator of strings, each ending in a
+      newline.
+      When *show_group* is "False", the generator emits the
+      exception's message followed by its notes (if it has any). The

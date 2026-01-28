@@ -1,0 +1,4 @@
+monospaced fonts.  If particular characters have problems in Shell or
+an editor, add them to the top of the sample and try changing first
+size and then font.
+On the Highlights and Keys tab, select a built-in or custom color

@@ -1,0 +1,4 @@
+* *nt*: scheme for Windows. This is the default scheme used when
+  Python or a component is installed.
+* *nt_user*: scheme for Windows, when the *user* option is used.
+* *nt_venv*: scheme for "Python virtual environments" on Windows; by

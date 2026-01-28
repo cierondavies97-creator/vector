@@ -1,0 +1,4 @@
+it does not detect classes that iterate with the "__getitem__()"
+   method. The only reliable way to determine whether an object is
+   *iterable* is to call "iter(obj)".
+class collections.abc.Collection

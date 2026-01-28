@@ -1,0 +1,4 @@
+represents a time zone defined by a fixed offset from UTC.
+Objects of this class cannot be used to represent time zone
+information in the locations where different offsets are used in
+different days of the year or where historical changes have been made

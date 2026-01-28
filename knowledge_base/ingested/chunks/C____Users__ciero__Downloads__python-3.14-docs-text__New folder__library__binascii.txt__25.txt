@@ -1,0 +1,5 @@
+more liberal towards whitespace) is also accessible using the
+   "bytes.fromhex()" class method.
+exception binascii.Error
+   Exception raised on errors. These are usually programming errors.
+exception binascii.Incomplete

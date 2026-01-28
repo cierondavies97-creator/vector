@@ -1,0 +1,4 @@
+parser is included with Python, so the "xml.parsers.expat" module will
+always be available.
+The documentation for the "xml.dom" and "xml.sax" packages are the
+definition of the Python bindings for the DOM and SAX interfaces.

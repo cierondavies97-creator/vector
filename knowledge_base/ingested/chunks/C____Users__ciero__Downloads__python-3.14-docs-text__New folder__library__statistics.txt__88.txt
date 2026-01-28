@@ -1,0 +1,5 @@
+Fraction(13, 72)
+   Note:
+     When called with the entire population, this gives the population
+     variance σ².  When called on a sample instead, this is the biased
+     sample variance s², also known as variance with N degrees of

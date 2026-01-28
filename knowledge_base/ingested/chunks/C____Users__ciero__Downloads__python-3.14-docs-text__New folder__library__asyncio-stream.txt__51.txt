@@ -1,0 +1,6 @@
+TCP echo server using streams
+-----------------------------
+TCP echo server using the "asyncio.start_server()" function:
+   import asyncio
+   async def handle_echo(reader, writer):
+       data = await reader.read(100)

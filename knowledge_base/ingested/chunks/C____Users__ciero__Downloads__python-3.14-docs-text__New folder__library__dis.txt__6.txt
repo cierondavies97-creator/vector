@@ -1,0 +1,4 @@
+target instruction relative to the instruction that appears
+immediately after the jump instruction's "CACHE" entries.As a
+consequence, the presence of the "CACHE" instructions is transparent
+for forward jumps but needs to be taken into account when reasoning

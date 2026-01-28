@@ -1,0 +1,6 @@
+Self = TypeVar("Self", bound="Foo")
+      class Foo:
+          def return_self(self: Self) -> Self:
+              ...
+              return self
+   In general, if something returns "self", as in the above examples,

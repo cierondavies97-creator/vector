@@ -1,0 +1,6 @@
+>>> mock.__setitem__.side_effect = setitem
+Note:
+  An alternative to using "MagicMock" is to use "Mock" and *only*
+  provide the magic methods you specifically want:
+  >>> mock = Mock()
+  >>> mock.__getitem__ = Mock(side_effect=getitem)

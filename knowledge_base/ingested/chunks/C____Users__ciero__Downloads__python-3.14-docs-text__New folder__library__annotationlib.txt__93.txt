@@ -1,0 +1,4 @@
+Second, the stringifier can intercept almost all operations that
+involve names looked up in some scope, but it cannot intercept
+operations that operate fully on constants. As a corollary, this also
+means it is not safe to request the "STRING" format on untrusted code:

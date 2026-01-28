@@ -1,0 +1,5 @@
+greater than or equal to the length of the sequence.
+NodeList.length
+   The number of nodes in the sequence.
+In addition, the Python DOM interface requires that some additional
+support is provided to allow "NodeList" objects to be used as Python

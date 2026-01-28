@@ -1,0 +1,4 @@
+server_software
+      If the "origin_server" attribute is set, this attribute's value
+      is used to set the default "SERVER_SOFTWARE" WSGI environment
+      variable, and also to set a default "Server:" header in HTTP

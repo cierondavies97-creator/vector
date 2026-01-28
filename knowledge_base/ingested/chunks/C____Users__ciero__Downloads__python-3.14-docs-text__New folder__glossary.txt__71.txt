@@ -1,0 +1,4 @@
+deadlock
+   A situation in which two or more tasks (threads, processes, or
+   coroutines) wait indefinitely for each other to release resources
+   or complete actions, preventing any from making progress.  For

@@ -1,0 +1,4 @@
+For the benefit of object persistence, the "pickle" module supports
+the notion of a reference to an object outside the pickled data
+stream.  Such objects are referenced by a persistent ID, which should
+be either a string of alphanumeric characters (for protocol 0) [5] or

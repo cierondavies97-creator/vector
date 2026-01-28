@@ -1,0 +1,5 @@
+example, running
+   python -m pydoc sys
+at a shell prompt will display documentation on the "sys" module, in a
+style similar to the manual pages shown by the Unix **man** command.
+The argument to **pydoc** can be the name of a function, module, or

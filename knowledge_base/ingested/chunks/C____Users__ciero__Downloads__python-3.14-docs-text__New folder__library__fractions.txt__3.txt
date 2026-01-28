@@ -1,0 +1,4 @@
+*denominator* is zero, it raises a "ZeroDivisionError".
+   The second version requires that *number* is an instance of
+   "numbers.Rational" or has the "as_integer_ratio()" method (this
+   includes "float" and "decimal.Decimal"). It returns a "Fraction"

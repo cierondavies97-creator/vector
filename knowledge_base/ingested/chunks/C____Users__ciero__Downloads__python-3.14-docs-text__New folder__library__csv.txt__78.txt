@@ -1,0 +1,3 @@
+"writer" objects ("DictWriter" instances and objects returned by the
+"writer()" function) have the following public methods.  A *row* must
+be an iterable of strings or numbers for "writer" objects and a

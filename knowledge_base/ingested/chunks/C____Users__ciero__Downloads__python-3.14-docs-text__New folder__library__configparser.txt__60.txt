@@ -1,0 +1,4 @@
+"A" in parser["section"]
+* All sections include "DEFAULTSECT" values as well which means that
+  ".clear()" on a section may not leave the section visibly empty.
+  This is because default values cannot be deleted from the section

@@ -1,0 +1,7 @@
+initialized.
+   If the "GRND_NONBLOCK" flag is set, then "getrandom()" does not
+   block in these cases, but instead immediately raises
+   "BlockingIOError".
+   Added in version 3.6.
+os.GRND_RANDOM
+   If  this  bit  is  set,  then  random bytes are drawn from the

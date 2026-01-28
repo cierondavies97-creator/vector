@@ -1,0 +1,4 @@
+Use "PARSE_COLNAMES" to enforce types for such queries.
+sqlite3.PARSE_COLNAMES
+   Pass this flag value to the *detect_types* parameter of "connect()"
+   to look up a converter function by using the type name, parsed from

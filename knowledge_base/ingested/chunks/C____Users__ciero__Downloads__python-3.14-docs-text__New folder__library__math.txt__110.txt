@@ -1,0 +1,4 @@
+"False" otherwise.
+   Whether or not two values are considered close is determined
+   according to given absolute and relative tolerances.  If no errors
+   occur, the result will be: "abs(a-b) <= max(rel_tol * max(abs(a),

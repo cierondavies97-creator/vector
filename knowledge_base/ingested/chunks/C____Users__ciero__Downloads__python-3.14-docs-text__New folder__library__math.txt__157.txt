@@ -1,0 +1,5 @@
+check out Vi Hart's video Pi is (still) Wrong, and start
+   celebrating Tau day by eating twice as much pie!
+   Added in version 3.6.
+math.inf
+   A floating-point positive infinity.  (For negative infinity, use

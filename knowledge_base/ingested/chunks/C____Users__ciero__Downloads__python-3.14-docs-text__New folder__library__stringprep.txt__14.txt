@@ -1,0 +1,6 @@
+Determine whether *code* is in tableC.5  (Surrogate codes).
+stringprep.in_table_c6(code)
+   Determine whether *code* is in tableC.6  (Inappropriate for plain
+   text).
+stringprep.in_table_c7(code)
+   Determine whether *code* is in tableC.7  (Inappropriate for

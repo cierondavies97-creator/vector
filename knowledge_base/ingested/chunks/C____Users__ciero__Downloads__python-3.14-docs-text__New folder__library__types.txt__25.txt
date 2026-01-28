@@ -1,0 +1,6 @@
+types.CellType
+   The type for cell objects: such objects are used as containers for
+   a function's *closure variables*.
+   Added in version 3.8.
+types.MethodType
+   The type of methods of user-defined class instances.

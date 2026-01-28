@@ -1,0 +1,5 @@
+contain, instead they share part of the memory block of a base
+      object.  The "_b_base_" read-only member is the root ctypes
+      object that owns the memory block.
+   _b_needsfree_
+      This read-only variable is true when the ctypes data instance

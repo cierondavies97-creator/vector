@@ -1,0 +1,5 @@
+The particular order that is returned may depend on the specific
+      order in which the items were inserted in the graph. For
+      example:
+         >>> ts = TopologicalSorter()
+         >>> ts.add(3, 2, 1)

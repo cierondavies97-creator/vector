@@ -1,0 +1,10 @@
+>>> print(i)
+   c_long(42)
+   >>> print(i.value)
+   42
+   >>> i.value = -99
+   >>> print(i.value)
+   -99
+   >>>
+Assigning a new value to instances of the pointer types "c_char_p",
+"c_wchar_p", and "c_void_p" changes the *memory location* they point

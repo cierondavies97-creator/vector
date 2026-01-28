@@ -1,0 +1,3 @@
+what you're doing, just as in C: You can access or change arbitrary
+memory locations. Generally you only use this feature if you receive a
+pointer from a C function, and you *know* that the pointer actually

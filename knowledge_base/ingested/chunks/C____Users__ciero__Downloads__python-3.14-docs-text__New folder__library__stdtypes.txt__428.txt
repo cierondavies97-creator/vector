@@ -1,0 +1,5 @@
+Each replacement field must contain an expression, optionally followed
+by:
+* a *debug specifier* -- an equal sign ("=");
+* a *conversion specifier* -- "!s", "!r" or "!a"; and/or
+* a *format specifier* prefixed with a colon (":").

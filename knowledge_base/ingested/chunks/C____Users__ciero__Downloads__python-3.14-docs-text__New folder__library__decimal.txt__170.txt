@@ -1,0 +1,5 @@
+application to complete a run in the presence of conditions that
+   would otherwise halt the program.
+decimal.DefaultContext
+   This context is used by the "Context" constructor as a prototype
+   for new contexts.  Changing a field (such a precision) has the

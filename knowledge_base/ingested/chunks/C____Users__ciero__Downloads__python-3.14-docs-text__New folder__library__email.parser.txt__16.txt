@@ -1,0 +1,3 @@
+"compat32" policy, which maintains backward compatibility with the
+   Python 3.2 version of the email package and provides "Message" as
+   the default factory.  All other policies provide "EmailMessage" as

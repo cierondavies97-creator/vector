@@ -1,0 +1,5 @@
+Note:
+  It is generally only possible to subscript a class if the class
+  implements the special method "__class_getitem__()".
+A "GenericAlias" object acts as a proxy for a *generic type*,
+implementing *parameterized generics*.

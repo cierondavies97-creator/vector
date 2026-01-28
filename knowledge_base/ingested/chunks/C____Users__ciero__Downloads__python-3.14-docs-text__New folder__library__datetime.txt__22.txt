@@ -1,0 +1,6 @@
+Otherwise, "d" is naive.
+A "time" object "t" is aware if both of the following hold:
+1. "t.tzinfo" is not "None"
+2. "t.tzinfo.utcoffset(None)" does not return "None".
+Otherwise, "t" is naive.
+The distinction between aware and naive doesn't apply to "timedelta"

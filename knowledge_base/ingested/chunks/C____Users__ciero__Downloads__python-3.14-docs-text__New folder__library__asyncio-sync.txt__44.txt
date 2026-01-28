@@ -1,0 +1,6 @@
+different for each task. This can be used to select a task to do
+      some special housekeeping, e.g.:
+         ...
+         async with barrier as position:
+            if position == 0:
+               # Only one task prints this

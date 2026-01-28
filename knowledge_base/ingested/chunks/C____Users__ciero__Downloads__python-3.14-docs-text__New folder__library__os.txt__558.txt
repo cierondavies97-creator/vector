@@ -1,0 +1,5 @@
+only fire once, after "next_expiration" seconds have elapsed.
+   See also: *timerfd_gettime(2)*
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+os.timerfd_gettime_ns(fd, /)

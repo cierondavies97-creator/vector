@@ -1,0 +1,3 @@
+scheduled alarm is canceled (only one alarm can be scheduled at any
+   time).  The returned value is then the number of seconds before any
+   previously set alarm was to have been delivered. If *time* is zero,

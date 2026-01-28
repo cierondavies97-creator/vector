@@ -1,0 +1,5 @@
+all other methods and attributes from the underlying stream.
+StreamReader Objects
+~~~~~~~~~~~~~~~~~~~~
+The "StreamReader" class is a subclass of "Codec" and defines the
+following methods which every stream reader must define in order to be

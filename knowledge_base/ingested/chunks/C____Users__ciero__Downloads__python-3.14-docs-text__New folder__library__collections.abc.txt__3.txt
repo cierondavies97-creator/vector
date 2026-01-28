@@ -1,0 +1,4 @@
+base classes.  The class must supply the required abstract methods.
+   The remaining mixin methods come from inheritance and can be
+   overridden if desired.  Other methods may be added as needed:
+      class C(Sequence):                      # Direct inheritance

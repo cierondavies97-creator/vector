@@ -1,0 +1,6 @@
+style=%
+   validate=True
+   defaults={'customfield': 'defaultvalue'}
+   class=logging.Formatter
+The arguments for the formatter configuration are the same as the keys
+in the dictionary schema formatters section.

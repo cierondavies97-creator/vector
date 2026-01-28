@@ -1,0 +1,6 @@
+This feature is defined at the syntactical level, so it only works
+with literals. To concatenate string expressions at run time, the '+'
+operator may be used:
+   >>> greeting = "Hello"
+   >>> space = " "
+   >>> name = "Blaise"

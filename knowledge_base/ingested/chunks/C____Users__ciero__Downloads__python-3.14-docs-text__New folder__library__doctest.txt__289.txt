@@ -1,0 +1,3 @@
+should be fixed.  It's true that you could write extensive comments in
+code-based testing, but few programmers do. Many have found that using
+doctest approaches instead leads to much clearer tests.  Perhaps this

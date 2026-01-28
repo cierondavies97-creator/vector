@@ -1,0 +1,11 @@
+Nicola Chiapolini, 8 July 2024
+1 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Best Practices
+Scientific Programming with Python
+Nicola Chiapolini

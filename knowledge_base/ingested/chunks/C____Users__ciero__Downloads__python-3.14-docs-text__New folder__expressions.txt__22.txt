@@ -1,0 +1,5 @@
+>>> "Hello" r', ' f"{name}!"
+   "Hello, Blaise!"
+This feature can be used to reduce the number of backslashes needed,
+to split long strings conveniently across long lines, or even to add
+comments to parts of strings. For example:

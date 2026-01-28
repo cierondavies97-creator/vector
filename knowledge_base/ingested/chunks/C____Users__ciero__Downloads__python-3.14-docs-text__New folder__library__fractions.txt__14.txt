@@ -1,0 +1,4 @@
+returns an "int" type. Previously, the GCD type depended on
+   *numerator* and *denominator*.
+   Changed in version 3.11: Underscores are now permitted when
+   creating a "Fraction" instance from a string, following **PEP 515**

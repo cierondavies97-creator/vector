@@ -1,0 +1,4 @@
+"http.cookiejar" --- Cookie handling for HTTP clients
+*****************************************************
+**Source code:** Lib/http/cookiejar.py
+======================================================================

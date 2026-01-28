@@ -1,0 +1,5 @@
+>>> mock.__class__ = dict
+      >>> isinstance(mock, dict)
+      True
+class unittest.mock.NonCallableMock(spec=None, wraps=None, name=None, spec_set=None, **kwargs)
+   A non-callable version of "Mock". The constructor parameters have

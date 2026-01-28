@@ -1,0 +1,4 @@
+rollover, so it should be as simple and as fast as possible.
+        It should also return the same output every time for a given
+        input, otherwise the rollover behaviour may not work as
+        expected.It's also worth noting that care should be taken when

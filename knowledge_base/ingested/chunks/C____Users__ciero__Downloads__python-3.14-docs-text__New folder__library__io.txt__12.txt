@@ -1,0 +1,5 @@
+binary streams.  See "socket.socket.makefile()" for example.
+Raw I/O
+-------
+Raw I/O (also called *unbuffered I/O*) is generally used as a low-
+level building-block for binary and text streams; it is rarely useful

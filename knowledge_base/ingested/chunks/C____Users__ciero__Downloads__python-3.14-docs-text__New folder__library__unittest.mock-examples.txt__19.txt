@@ -1,0 +1,3 @@
+If you make an assertion about "mock_calls" and any unexpected methods
+have been called, then the assertion will fail. This is useful because
+as well as asserting that the calls you expected have been made, you

@@ -1,0 +1,5 @@
+Helper functions
+================
+string.templatelib.convert(obj, /, conversion)
+   Applies formatted string literal conversion semantics to the given
+   object *obj*. This is frequently useful for custom template string

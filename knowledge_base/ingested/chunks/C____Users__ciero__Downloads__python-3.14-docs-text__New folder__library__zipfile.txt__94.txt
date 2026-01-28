@@ -1,0 +1,5 @@
+Path.is_symlink()
+   Return "True" if the current context references a symbolic link.
+   Added in version 3.12.
+   Changed in version 3.13: Previously, "is_symlink" would
+   unconditionally return "False".

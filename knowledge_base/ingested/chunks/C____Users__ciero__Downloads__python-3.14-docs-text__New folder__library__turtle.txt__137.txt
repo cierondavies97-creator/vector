@@ -1,0 +1,5 @@
+and with the given font.  If *move* is true, the pen is moved to
+   the bottom-right corner of the text.  By default, *move* is
+   "False".
+   >>> turtle.write("Home = ", True, align="center")
+   >>> turtle.write((0,0), True)

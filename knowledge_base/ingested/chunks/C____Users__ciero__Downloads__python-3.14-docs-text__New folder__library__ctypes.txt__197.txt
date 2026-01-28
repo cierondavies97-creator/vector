@@ -1,0 +1,6 @@
+>>> rc.a, rc.b = rc.b, rc.a
+   >>> print(rc.a.x, rc.a.y, rc.b.x, rc.b.y)
+   3 4 3 4
+   >>>
+Hm. We certainly expected the last statement to print "3 4 1 2". What
+happened? Here are the steps of the "rc.a, rc.b = rc.b, rc.a" line

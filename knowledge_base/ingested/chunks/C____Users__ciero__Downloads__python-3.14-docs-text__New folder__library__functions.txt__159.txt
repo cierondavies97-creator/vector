@@ -1,0 +1,4 @@
+between digits.
+   A base-n integer string contains digits, each representing a value
+   from 0 to n-1. The values 0--9 can be represented by any Unicode
+   decimal digit. The values 10--35 can be represented by "a" to "z"

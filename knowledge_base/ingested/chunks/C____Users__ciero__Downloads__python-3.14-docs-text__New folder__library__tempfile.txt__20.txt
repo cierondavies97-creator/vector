@@ -1,0 +1,4 @@
+temporary file is created in a "with" statement, set the
+   *delete_on_close* parameter to be false. The latter approach is
+   recommended as it provides assistance in automatic cleaning of the
+   temporary file upon the context manager exit.

@@ -1,0 +1,4 @@
+Note that when "color=True", colored output depends on both
+environment variables and terminal capabilities.  However, if
+"color=False", colored output is always disabled, even if environment
+variables like "FORCE_COLOR" are set.

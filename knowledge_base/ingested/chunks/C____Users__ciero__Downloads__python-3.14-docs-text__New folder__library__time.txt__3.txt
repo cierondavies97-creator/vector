@@ -1,0 +1,4 @@
+"time.gmtime(0)". It is January 1, 1970, 00:00:00 (UTC) on all
+  platforms.
+* The term *seconds since the epoch* refers to the total number of
+  elapsed seconds since the epoch, typically excluding leap seconds.

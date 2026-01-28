@@ -1,0 +1,4 @@
+For logging to be useful, it needs to be configured: setting the
+levels and destinations for each logger, potentially changing how
+specific modules log, often based on command-line arguments or
+application configuration. In most cases, like the one above, only the

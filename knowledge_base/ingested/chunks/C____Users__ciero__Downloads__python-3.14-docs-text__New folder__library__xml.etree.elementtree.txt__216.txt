@@ -1,0 +1,5 @@
+"flush()" using "hasattr()" if used in code running across a
+      variety of Python versions.
+      Added in version 3.13.
+   "XMLParser.feed()" calls *target*'s "start(tag, attrs_dict)" method
+   for each opening tag, its "end(tag)" method for each closing tag,

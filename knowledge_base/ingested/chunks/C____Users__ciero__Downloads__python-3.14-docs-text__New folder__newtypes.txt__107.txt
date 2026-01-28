@@ -1,0 +1,4 @@
+type you are implementing, use the "PyObject_TypeCheck()" function.  A
+sample of its use might be something like the following:
+   if (!PyObject_TypeCheck(some_object, &MyType)) {
+       PyErr_SetString(PyExc_TypeError, "arg #1 not a mything");

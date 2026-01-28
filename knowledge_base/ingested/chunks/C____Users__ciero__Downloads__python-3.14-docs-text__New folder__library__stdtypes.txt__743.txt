@@ -1,0 +1,4 @@
+containers see the built-in "dict", "list", and "tuple" classes, and
+the "collections" module.)
+Like other collections, sets support "x in set", "len(set)", and "for
+x in set".  Being an unordered collection, sets do not record element

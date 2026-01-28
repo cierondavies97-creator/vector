@@ -1,0 +1,3 @@
+such a loader and it defines a "get_source" method, then that
+   determines the source lines (if "get_source()" returns "None", then
+   "''" is returned). Finally, if *filename* is a relative filename,

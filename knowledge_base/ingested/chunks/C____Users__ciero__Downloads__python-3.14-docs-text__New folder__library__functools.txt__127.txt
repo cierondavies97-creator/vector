@@ -1,0 +1,4 @@
+The keyword arguments that will be supplied when the "partial"
+   object is called.
+"partial" objects are like function objects in that they are callable,
+weak referenceable, and can have attributes.  There are some important

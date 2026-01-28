@@ -1,0 +1,4 @@
+child process exits an empty byte array should be returned to
+   signal end of file.
+   The default implementation for both functions will read and return
+   up to 1024 bytes each time the function is called. The

@@ -1,0 +1,4 @@
+log record.
+   Added in version 3.2: This function has been provided, along with
+   "getLogRecordFactory()", to allow developers more control over how
+   the "LogRecord" representing a logging event is constructed.

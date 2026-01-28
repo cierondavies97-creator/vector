@@ -1,0 +1,4 @@
+scripts into the virtual environment.
+      *path* is the path to a directory that should contain
+      subdirectories "common", "posix", "nt"; each containing scripts
+      destined for the "bin" directory in the environment.  The

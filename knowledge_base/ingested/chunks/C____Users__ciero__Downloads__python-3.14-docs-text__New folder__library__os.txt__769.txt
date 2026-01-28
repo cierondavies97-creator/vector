@@ -1,0 +1,3 @@
+the name of a defined system value; these names are specified in a
+   number of standards (POSIX, Unix 95, Unix 98, and others).  Some
+   platforms define additional names as well. The names known to the

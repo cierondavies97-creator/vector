@@ -1,0 +1,5 @@
+Changed in version 3.6: "SIO_LOOPBACK_FAST_PATH" was added.
+TIPC_*
+   TIPC related constants, matching the ones exported by the C socket
+   API. See the TIPC documentation for more information.
+socket.AF_ALG

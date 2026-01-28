@@ -1,0 +1,4 @@
+Popen(["/usr/bin/git", "commit", "-m", "Fixes a bug."])
+   On POSIX, if *args* is a string, the string is interpreted as the
+   name or path of the program to execute.  However, this can only be
+   done if not passing arguments to the program.

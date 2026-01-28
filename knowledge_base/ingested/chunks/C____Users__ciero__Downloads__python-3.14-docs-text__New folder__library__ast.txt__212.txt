@@ -1,0 +1,3 @@
+A single context manager in a "with" block. "context_expr" is the
+   context manager, often a "Call" node. "optional_vars" is a "Name",
+   "Tuple" or "List" for the "as foo" part, or "None" if that isn't

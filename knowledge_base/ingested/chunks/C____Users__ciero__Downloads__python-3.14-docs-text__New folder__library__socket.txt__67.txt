@@ -1,0 +1,4 @@
+"TCP_KEEPCNT" on Windows platforms when available.
+   Changed in version 3.7: "TCP_NOTSENT_LOWAT" was added.Added support
+   for "TCP_KEEPIDLE", "TCP_KEEPINTVL" on Windows platforms when
+   available.

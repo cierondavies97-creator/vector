@@ -1,0 +1,8 @@
+iterator = iter(iterable)
+          for x in iterator:
+              if not predicate(x):
+                  yield x
+                  break
+          for x in iterator:
+              yield x
+   Note this does not produce *any* output until the predicate first

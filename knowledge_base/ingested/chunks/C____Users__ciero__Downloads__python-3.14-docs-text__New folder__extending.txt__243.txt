@@ -1,0 +1,4 @@
+"Objects/pycapsule.c" in the Python source code distribution).
+-[ Footnotes ]-
+[1] An interface for this function already exists in the standard
+    module "os" --- it was chosen as a simple and straightforward

@@ -1,0 +1,4 @@
+* "'size'" (optional): the size in bytes of the source code.
+      Any other keys in the dictionary are ignored, to allow for
+      future extensions. If the path cannot be handled, "OSError" is
+      raised.

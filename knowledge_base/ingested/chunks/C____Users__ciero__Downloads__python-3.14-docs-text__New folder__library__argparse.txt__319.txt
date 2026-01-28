@@ -1,0 +1,4 @@
+>>> exclusive_group.add_argument('--foo', help='foo help')
+      >>> exclusive_group.add_argument('--bar', help='bar help')
+      >>> parser.print_help()
+      usage: PROG [-h] (--foo FOO | --bar BAR)

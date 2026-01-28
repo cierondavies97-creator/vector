@@ -1,0 +1,3 @@
+|                        | literal.                                               |
++------------------------+--------------------------------------------------------+
+| command                | Python callable.  Will be called with no arguments     |

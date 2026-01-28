@@ -1,0 +1,4 @@
+Begin the scope of a prefix-URI Namespace mapping.
+   The information from this event is not necessary for normal
+   Namespace processing: the SAX XML reader will automatically replace
+   prefixes for element and attribute names when the

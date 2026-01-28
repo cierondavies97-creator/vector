@@ -1,0 +1,5 @@
+a longer diff.
+The "Differ" class has this constructor:
+class difflib.Differ(linejunk=None, charjunk=None)
+   Optional keyword parameters *linejunk* and *charjunk* are for
+   filter functions (or "None"):

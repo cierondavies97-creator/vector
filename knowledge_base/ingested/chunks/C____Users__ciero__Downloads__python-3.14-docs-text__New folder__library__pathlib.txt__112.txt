@@ -1,0 +1,6 @@
+but deprecated. The method's use of "os.fsencode()" makes it
+   strictly impure.
+Expanding and resolving paths
+-----------------------------
+classmethod Path.home()
+   Return a new path object representing the user's home directory (as

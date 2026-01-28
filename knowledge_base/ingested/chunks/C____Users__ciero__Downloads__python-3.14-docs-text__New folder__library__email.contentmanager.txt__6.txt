@@ -1,0 +1,4 @@
+paragraph), call "clear_content()" on the *msg*, and call the
+      handler function, passing through all arguments.  The
+      expectation is that the handler will transform and store *obj*
+      into *msg*, possibly making other changes to *msg* as well, such

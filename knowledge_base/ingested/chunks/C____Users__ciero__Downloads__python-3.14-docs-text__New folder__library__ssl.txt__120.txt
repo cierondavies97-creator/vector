@@ -1,0 +1,8 @@
+protocol.
+   Added in version 3.7.
+ssl.HAS_SSLv3
+   Whether the OpenSSL library has built-in support for the SSL 3.0
+   protocol.
+   Added in version 3.7.
+ssl.HAS_TLSv1
+   Whether the OpenSSL library has built-in support for the TLS 1.0

@@ -1,0 +1,4 @@
+omitted, it defaults to "termios.TCSAFLUSH", and is passed to
+   "termios.tcsetattr()". The return value of "termios.tcgetattr()" is
+   saved before setting *fd* to raw mode; this value is returned.
+   Changed in version 3.12: The return value is now the original tty

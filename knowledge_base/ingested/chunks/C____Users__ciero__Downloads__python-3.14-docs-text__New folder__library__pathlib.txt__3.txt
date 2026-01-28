@@ -1,0 +1,4 @@
+classes, there are two classes that use multiple inheritance:
+PosixPath subclasses PurePosixPath and Path, and WindowsPath
+subclasses PureWindowsPath and Path.][image]
+If you've never used this module before or just aren't sure which

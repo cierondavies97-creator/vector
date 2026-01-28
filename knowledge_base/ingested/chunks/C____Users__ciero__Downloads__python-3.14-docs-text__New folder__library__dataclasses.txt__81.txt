@@ -1,0 +1,4 @@
+It is an error for *changes* to contain any fields that are defined
+   as having "init=False".  A "ValueError" will be raised in this
+   case.
+   Be forewarned about how "init=False" fields work during a call to

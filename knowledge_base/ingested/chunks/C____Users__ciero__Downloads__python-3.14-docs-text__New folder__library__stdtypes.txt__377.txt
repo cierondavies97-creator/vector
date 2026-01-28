@@ -1,0 +1,5 @@
+occurrences are replaced. If *count* is not specified or "-1", then
+   all occurrences are replaced. For example:
+      >>> 'spam, spam, spam'.replace('spam', 'eggs')
+      'eggs, eggs, eggs'
+      >>> 'spam, spam, spam'.replace('spam', 'eggs', 1)

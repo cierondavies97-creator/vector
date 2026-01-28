@@ -1,0 +1,7 @@
+in the above example, we use "Py_BuildValue()" to construct the
+dictionary.
+   PyObject *dict;
+   ...
+   dict = Py_BuildValue("{s:i}", "name", val);
+   result = PyObject_Call(my_callback, NULL, dict);
+   Py_DECREF(dict);

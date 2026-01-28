@@ -1,0 +1,4 @@
+from wsgiref.simple_server import make_server
+      # Our callable object which is intentionally not compliant to the
+      # standard, so the validator is going to break
+      def simple_app(environ, start_response):

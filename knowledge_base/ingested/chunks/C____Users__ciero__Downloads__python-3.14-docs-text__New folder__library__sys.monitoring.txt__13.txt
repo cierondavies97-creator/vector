@@ -1,0 +1,5 @@
+A VM instruction is about to be executed.
+sys.monitoring.events.JUMP
+   An unconditional jump in the control flow graph is made.
+sys.monitoring.events.LINE
+   An instruction is about to be executed that has a different line

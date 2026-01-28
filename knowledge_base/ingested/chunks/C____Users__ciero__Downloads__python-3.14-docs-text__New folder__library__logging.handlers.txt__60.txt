@@ -1,0 +1,3 @@
+|                  | at time *atTime*             |                           |
+   +------------------+------------------------------+---------------------------+
+   When using weekday-based rotation, specify 'W0' for Monday, 'W1'

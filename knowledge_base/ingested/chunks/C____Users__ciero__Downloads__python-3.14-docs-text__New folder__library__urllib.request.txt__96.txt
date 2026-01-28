@@ -1,0 +1,3 @@
+previous calls in case the *key* collides. Currently, this is no
+   loss of HTTP functionality, since all headers which have meaning
+   when used more than once have a (header-specific) way of gaining

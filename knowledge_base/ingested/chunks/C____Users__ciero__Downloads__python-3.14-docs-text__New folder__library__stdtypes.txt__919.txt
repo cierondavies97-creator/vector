@@ -1,0 +1,5 @@
+Converting a large value such as "int('1' * 500_000)" can take over a
+second on a fast CPU.
+Limiting conversion size offers a practical way to avoid **CVE
+2020-10735**.
+The limit is applied to the number of digit characters in the input or

@@ -1,0 +1,3 @@
+...                   weight_male.pdf(wt) * foot_size_male.pdf(fs))
+   >>> posterior_female = (prior_female * height_female.pdf(ht) *
+   ...                     weight_female.pdf(wt) * foot_size_female.pdf(fs))

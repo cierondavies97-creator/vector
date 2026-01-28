@@ -1,0 +1,4 @@
+dictionary.  Later values replace values already set by earlier dict
+items and earlier dictionary unpackings.
+Added in version 3.5: Unpacking into dictionary displays, originally
+proposed by **PEP 448**.

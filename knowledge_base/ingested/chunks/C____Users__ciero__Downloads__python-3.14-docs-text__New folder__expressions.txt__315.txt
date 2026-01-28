@@ -1,0 +1,4 @@
+nature of descriptors, you may notice seemingly unusual behaviour
+    in certain uses of the "is" operator, like those involving
+    comparisons between instance methods, or constants.  Check their
+    documentation for more info.

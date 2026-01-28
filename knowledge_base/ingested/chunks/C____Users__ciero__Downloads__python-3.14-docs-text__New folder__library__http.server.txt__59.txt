@@ -1,0 +1,5 @@
+"do_GET()" and "do_HEAD()" functions.
+   The following are defined as class-level attributes of
+   "SimpleHTTPRequestHandler":
+   server_version
+      This will be ""SimpleHTTP/" + __version__", where "__version__"

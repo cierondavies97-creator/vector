@@ -1,0 +1,6 @@
+# back to our caller
+               stack.pop_all()
+       def __enter__(self):
+           resource = self.acquire_resource()
+           with self._cleanup_on_error():
+               if not self.check_resource_ok(resource):

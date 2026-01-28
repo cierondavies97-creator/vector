@@ -1,0 +1,4 @@
+set correctly for modules run this way, as well as ensuring the
+   real module name is always accessible as "__spec__.name".
+   Changed in version 3.12: The setting of "__cached__", "__loader__",
+   and "__package__" are deprecated. See "ModuleSpec" for

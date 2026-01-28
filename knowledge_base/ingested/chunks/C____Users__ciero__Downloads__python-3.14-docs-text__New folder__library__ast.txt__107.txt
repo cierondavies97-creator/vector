@@ -1,0 +1,4 @@
+operator, such as "a or b or c", are collapsed into one node with
+   several values.
+   This doesn't include "not", which is a "UnaryOp".
+      >>> print(ast.dump(ast.parse('x or y', mode='eval'), indent=4))

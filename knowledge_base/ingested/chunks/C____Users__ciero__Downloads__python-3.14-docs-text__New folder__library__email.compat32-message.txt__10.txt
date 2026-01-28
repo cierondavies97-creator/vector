@@ -1,0 +1,4 @@
+MIME container documents (e.g. *multipart/** and *message/rfc822*).
+Here are the methods of the "Message" class:
+class email.message.Message(policy=compat32)
+   If *policy* is specified (it must be an instance of a "policy"

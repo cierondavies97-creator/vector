@@ -1,0 +1,7 @@
+this attribute changes the pointer to point to the assigned
+      object.
+Exceptions
+----------
+exception ctypes.ArgumentError
+   This exception is raised when a foreign function call cannot
+   convert one of the passed arguments.

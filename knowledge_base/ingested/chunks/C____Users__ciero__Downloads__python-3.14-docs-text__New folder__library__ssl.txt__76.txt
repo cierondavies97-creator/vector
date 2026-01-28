@@ -1,0 +1,5 @@
+Use of this setting requires a valid set of CA certificates to be
+   passed to "SSLContext.load_verify_locations()".
+class ssl.VerifyMode
+   "enum.IntEnum" collection of CERT_* constants.
+   Added in version 3.6.

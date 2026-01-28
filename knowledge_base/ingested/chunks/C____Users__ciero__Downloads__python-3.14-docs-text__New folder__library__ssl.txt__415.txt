@@ -1,0 +1,3 @@
+In server mode, if you want to authenticate your clients using the SSL
+layer (rather than using a higher-level authentication mechanism),
+you'll also have to specify "CERT_REQUIRED" and similarly check the

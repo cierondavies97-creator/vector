@@ -1,0 +1,3 @@
+compiled modules into multiple interpreters within a process (or
+  following a "fork()" without an intervening "exec()"). If module
+  state is not yet fully isolated, authors should consider marking the

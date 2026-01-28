@@ -1,0 +1,4 @@
+the latter case a new Lock object is created automatically.
+   Changed in version 3.10: Removed the *loop* parameter.
+   The preferred way to use a Condition is an "async with" statement:
+      cond = asyncio.Condition()

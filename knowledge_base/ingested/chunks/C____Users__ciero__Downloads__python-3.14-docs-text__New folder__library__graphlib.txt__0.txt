@@ -1,0 +1,4 @@
+"graphlib" --- Functionality to operate with graph-like structures
+******************************************************************
+**Source code:** Lib/graphlib.py
+======================================================================

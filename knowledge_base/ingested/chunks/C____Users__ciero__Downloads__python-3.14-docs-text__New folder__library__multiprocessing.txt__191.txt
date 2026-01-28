@@ -1,0 +1,6 @@
+connected sockets.
+Connection objects are usually created using "Pipe" -- see also
+Listeners and Clients.
+class multiprocessing.connection.Connection
+   send(obj)
+      Send an object to the other end of the connection which should

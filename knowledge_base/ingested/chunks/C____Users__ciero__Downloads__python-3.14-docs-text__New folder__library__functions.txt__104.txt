@@ -1,0 +1,4 @@
+executed (unless a syntax error occurs). [1] If it is a code
+   object, it is simply executed.  In all cases, the code that's
+   executed is expected to be valid as file input (see the section
+   File input in the Reference Manual). Be aware that the "nonlocal",

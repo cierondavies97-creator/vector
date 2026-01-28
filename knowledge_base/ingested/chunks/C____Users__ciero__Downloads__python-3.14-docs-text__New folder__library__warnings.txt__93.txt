@@ -1,0 +1,5 @@
+used to support displaying source for modules found in zipfiles or
+   other non-filesystem import sources).
+   *source*, if supplied, is the destroyed object which emitted a
+   "ResourceWarning".
+   Changed in version 3.6: Add the *source* parameter.

@@ -1,0 +1,4 @@
+If "STACK[-1]" is an instance of "collections.abc.Mapping" (or,
+   more technically: if it has the "Py_TPFLAGS_MAPPING" flag set in
+   its "tp_flags"), push "True" onto the stack.  Otherwise, push
+   "False".

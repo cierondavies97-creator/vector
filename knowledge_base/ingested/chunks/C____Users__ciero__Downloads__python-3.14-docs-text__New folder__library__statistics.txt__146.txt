@@ -1,0 +1,4 @@
+equal to *x*.  Mathematically, it is written "P(X <= x)".
+   inv_cdf(p)
+      Compute the inverse cumulative distribution function, also known
+      as the quantile function or the percent-point function.

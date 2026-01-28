@@ -1,0 +1,4 @@
+operations may allow lock-free operations to observe intermediate
+states since they modify multiple elements in place:
+   lst.insert(idx, item)  # shifts elements
+   lst.pop(idx)           # idx not at the end of the list, shifts elements

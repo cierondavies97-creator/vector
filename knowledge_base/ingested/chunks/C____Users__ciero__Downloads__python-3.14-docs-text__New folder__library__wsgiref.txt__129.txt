@@ -1,0 +1,4 @@
+by Python to decode it is anything other than ISO-8859-1 (e.g. Unix
+   systems using UTF-8).
+   If you are implementing a CGI-based handler of your own, you
+   probably want to use this routine instead of just copying values

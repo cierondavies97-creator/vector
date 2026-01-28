@@ -1,0 +1,4 @@
+default is "PycInvalidationMode.TIMESTAMP".
+   Changed in version 3.2: Changed default value of *cfile* to be
+   **PEP 3147**-compliant.  Previous default was *file* + "'c'" ("'o'"
+   if optimization was enabled). Also added the *optimize* parameter.

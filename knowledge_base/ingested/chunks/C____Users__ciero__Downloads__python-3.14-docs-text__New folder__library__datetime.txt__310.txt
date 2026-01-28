@@ -1,0 +1,3 @@
+added to the UTC offset returned by "utcoffset()", so there's no
+   need to consult "dst()" unless you're interested in obtaining DST
+   info separately. For example, "datetime.timetuple()" calls its

@@ -1,0 +1,5 @@
+authentication key of its parent process, although this may be
+      changed by setting "authkey" to another byte string.
+      See Authentication keys.
+   sentinel
+      A numeric handle of a system object which will become "ready"

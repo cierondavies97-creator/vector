@@ -1,0 +1,5 @@
+stdout.  Otherwise, the content is read from stdin.
+See also:
+  Green Tree Snakes, an external documentation resource, has good
+  details on working with Python ASTs.
+  ASTTokens annotates Python ASTs with the positions of tokens and

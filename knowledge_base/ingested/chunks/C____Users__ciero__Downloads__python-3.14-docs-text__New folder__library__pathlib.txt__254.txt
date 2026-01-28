@@ -1,0 +1,4 @@
+a file or directory, rather than a directory only.
+2. pathlib normalizes "Path("./my_program")" to "Path("my_program")",
+   which changes a path's meaning when used as an executable search
+   path, such as in a shell or when spawning a child process.

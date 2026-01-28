@@ -1,0 +1,5 @@
+"new_event_loop()" functions can be altered by setting a custom event
+loop policy.
+-[ Contents ]-
+This documentation page contains the following sections:
+* The Event Loop Methods section is the reference documentation of the

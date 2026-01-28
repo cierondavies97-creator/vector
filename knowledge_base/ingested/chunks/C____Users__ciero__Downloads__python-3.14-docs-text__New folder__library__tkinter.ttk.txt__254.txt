@@ -1,0 +1,5 @@
+"Style.configure()", "Style.map()", "Style.layout()" and
+      "Style.element_create()" respectively.
+      As an example, let's change the Combobox for the default theme a
+      bit:
+         from tkinter import ttk

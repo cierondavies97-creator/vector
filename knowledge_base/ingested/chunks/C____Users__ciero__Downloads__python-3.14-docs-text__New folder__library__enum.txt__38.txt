@@ -1,0 +1,6 @@
+'value']" and any public methods defined on *self.__class__*:
+         >>> from enum import Enum
+         >>> from datetime import date
+         >>> class Weekday(Enum):
+         ...     MONDAY = 1
+         ...     TUESDAY = 2

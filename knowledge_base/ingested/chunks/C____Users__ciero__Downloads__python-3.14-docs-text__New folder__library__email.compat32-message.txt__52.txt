@@ -1,0 +1,4 @@
+returns "None".
+   The following methods implement a mapping-like interface for
+   accessing the message's **RFC 2822** headers.  Note that there are
+   some semantic differences between these methods and a normal

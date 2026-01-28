@@ -1,0 +1,4 @@
+particular CSV dialect.  It may be an instance of a subclass of the
+   "Dialect" class or one of the strings returned by the
+   "list_dialects()" function.  The other optional *fmtparams* keyword
+   arguments can be given to override individual formatting parameters

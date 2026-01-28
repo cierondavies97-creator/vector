@@ -1,0 +1,4 @@
+"select/poll on a file descriptor" (readiness based) model that is
+assumed by "socket.socket" and by the internal OpenSSL socket IO
+routines. This is mostly relevant for platforms like Windows where
+this model is not efficient. For this purpose, a reduced scope variant

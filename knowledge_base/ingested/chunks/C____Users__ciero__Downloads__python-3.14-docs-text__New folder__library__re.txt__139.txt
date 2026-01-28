@@ -1,0 +1,7 @@
+b = re.compile(r"\d+\.\d*")
+   Corresponds to the inline flag "(?x)".
+Functions
+---------
+re.compile(pattern, flags=0)
+   Compile a regular expression pattern into a regular expression
+   object, which can be used for matching using its "match()",

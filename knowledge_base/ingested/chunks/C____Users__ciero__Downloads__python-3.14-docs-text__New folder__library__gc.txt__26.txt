@@ -1,0 +1,4 @@
+construction and hence in a temporarily invalid state. Avoid
+     using "get_referrers()" for any purpose other than debugging.
+   Raises an auditing event "gc.get_referrers" with argument "objs".
+gc.get_referents(*objs)

@@ -1,0 +1,6 @@
+...
+   >>> MyTest('test_foo').run()
+Mocking Unbound Methods
+-----------------------
+Sometimes a test needs to patch an *unbound method*, which means
+patching the method on the class rather than on the instance. In order

@@ -1,0 +1,4 @@
+* **key** -- a string: key (e.g. "a") or key-symbol (e.g.
+        "space")
+   Bind *fun* to key-release event of key.  If *fun* is "None", event
+   bindings are removed. Remark: in order to be able to register key-

@@ -1,0 +1,3 @@
+additional entry is needed at the end; it is a sentinel that marks the
+end of the array.  The "ml_name" field of the sentinel must be "NULL".
+The second table is used to define attributes which map directly to

@@ -1,0 +1,4 @@
+class decorators, but where class decorators only affect the specific
+class they're applied to, "__init_subclass__" solely applies to future
+subclasses of the class defining the method.
+classmethod object.__init_subclass__(cls)

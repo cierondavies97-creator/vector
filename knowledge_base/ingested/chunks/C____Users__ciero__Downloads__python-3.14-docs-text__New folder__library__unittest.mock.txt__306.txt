@@ -1,0 +1,7 @@
+>>> mock = MagicMock()
+>>> mock[3] = 'fish'
+>>> mock.__setitem__.assert_called_with(3, 'fish')
+>>> mock.__getitem__.return_value = 'result'
+>>> mock[2]
+'result'
+By default many of the protocol methods are required to return objects

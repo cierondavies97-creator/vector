@@ -1,0 +1,5 @@
+Type.
+Aliases to asynchronous ABCs in "collections.abc"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class typing.Coroutine(Awaitable[ReturnType], Generic[YieldType, SendType, ReturnType])
+   Deprecated alias to "collections.abc.Coroutine".

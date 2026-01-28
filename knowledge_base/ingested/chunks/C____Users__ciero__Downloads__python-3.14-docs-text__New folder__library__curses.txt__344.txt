@@ -1,0 +1,3 @@
+| "Control"-"P"      | Cursor up; move up one line.                |
+      +--------------------+---------------------------------------------+
+      Move operations do nothing if the cursor is at an edge where the

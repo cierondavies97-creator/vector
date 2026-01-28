@@ -1,0 +1,3 @@
+Instances of these classes have no public methods.  Functions exported
+by the shared library can be accessed as attributes or by index.
+Please note that accessing the function through an attribute caches

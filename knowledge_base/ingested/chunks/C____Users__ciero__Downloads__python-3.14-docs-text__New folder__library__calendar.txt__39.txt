@@ -1,0 +1,5 @@
+customize the CSS classes used by the calendar:
+   cssclasses
+      A list of CSS classes used for each weekday. The default class
+      list is:
+         cssclasses = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]

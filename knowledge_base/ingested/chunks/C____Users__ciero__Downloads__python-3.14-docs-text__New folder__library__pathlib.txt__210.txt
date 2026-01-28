@@ -1,0 +1,3 @@
+Path.copy_into(target_dir, *, follow_symlinks=True, preserve_metadata=False)
+   Copy this file or directory tree into the given *target_dir*, which
+   should be an existing directory. Other arguments are handled

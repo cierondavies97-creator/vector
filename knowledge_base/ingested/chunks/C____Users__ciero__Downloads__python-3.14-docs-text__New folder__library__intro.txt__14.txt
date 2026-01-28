@@ -1,0 +1,4 @@
+"wasm32-wasi" (WASI) provide a subset of POSIX APIs. WebAssembly
+runtimes and browsers are sandboxed and have limited access to the
+host and external resources. Any Python standard library module that
+uses processes, threading, networking, signals, or other forms of

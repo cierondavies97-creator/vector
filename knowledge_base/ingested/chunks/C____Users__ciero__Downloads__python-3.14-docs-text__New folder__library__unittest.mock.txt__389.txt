@@ -1,0 +1,4 @@
+...
+There is a more aggressive version of both *spec* and *autospec* that
+*does* prevent you setting non-existent attributes. This is useful if
+you want to ensure your code only *sets* valid attributes too, but

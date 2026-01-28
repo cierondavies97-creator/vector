@@ -1,0 +1,6 @@
+default it is "None" and presents subcommands in form {cmd1,
+     cmd2, ..}
+   Some example usage:
+      >>> # create the top-level parser
+      >>> parser = argparse.ArgumentParser(prog='PROG')
+      >>> parser.add_argument('--foo', action='store_true', help='foo help')

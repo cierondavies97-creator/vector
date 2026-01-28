@@ -1,0 +1,3 @@
+Python applications should normally find no need to invoke these
+functions, and should use "gettext" instead.  A known exception to
+this rule are applications that link with additional C libraries which

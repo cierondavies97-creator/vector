@@ -1,0 +1,3 @@
+logging configuration, you will need to use "dictConfig()". Note
+  that future enhancements to configuration functionality will be
+  added to "dictConfig()", so it's worth considering transitioning to

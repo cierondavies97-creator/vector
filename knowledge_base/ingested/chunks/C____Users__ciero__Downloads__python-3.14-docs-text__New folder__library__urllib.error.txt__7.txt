@@ -1,0 +1,5 @@
+"HTTPError". An alias for *hdrs* attribute.
+      Added in version 3.4.
+   fp
+      A file-like object where the HTTP error body can be read from.
+exception urllib.error.ContentTooShortError(msg, content)

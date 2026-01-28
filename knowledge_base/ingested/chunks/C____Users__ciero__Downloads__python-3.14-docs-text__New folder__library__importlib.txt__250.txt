@@ -1,0 +1,6 @@
+for finder in sys.meta_path:
+           spec = finder.find_spec(absolute_name, path)
+           if spec is not None:
+               break
+       else:
+           msg = f'No module named {absolute_name!r}'

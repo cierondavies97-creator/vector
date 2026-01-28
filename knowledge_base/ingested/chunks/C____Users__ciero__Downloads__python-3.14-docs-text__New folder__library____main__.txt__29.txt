@@ -1,0 +1,5 @@
+└── student.py
+"__main__.py" will be executed when the package itself is invoked
+directly from the command line using the "-m" flag. For example:
+   $ python -m bandclass
+This command will cause "__main__.py" to run. How you utilize this

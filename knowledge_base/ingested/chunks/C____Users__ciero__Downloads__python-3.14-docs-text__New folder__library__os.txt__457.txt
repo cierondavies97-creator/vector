@@ -1,0 +1,4 @@
+*dir_fd* is always supported on all platforms.)
+   To check whether a particular function accepts an open file
+   descriptor for its *dir_fd* parameter, use the "in" operator on
+   "supports_dir_fd". As an example, this expression evaluates to

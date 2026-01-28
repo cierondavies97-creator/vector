@@ -1,0 +1,4 @@
+proxies, in the dict-compatible form (see the "getdecimal()" example
+  above).
+More advanced customization may be achieved by overriding default
+values of these parser attributes.  The defaults are defined on the

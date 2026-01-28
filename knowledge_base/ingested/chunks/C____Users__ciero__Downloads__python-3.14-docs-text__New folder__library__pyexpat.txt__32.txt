@@ -1,0 +1,4 @@
+may — depending of the sizing of input chunks pushed to Expat — no
+   longer be called right after pushing new input to the parser.
+   Where immediate feedback and taking over responsibility of
+   protecting against denial of service from large tokens are both

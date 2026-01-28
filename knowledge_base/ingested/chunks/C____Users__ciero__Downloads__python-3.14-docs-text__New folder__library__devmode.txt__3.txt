@@ -1,0 +1,4 @@
+PYTHONMALLOC=debug PYTHONASYNCIODEBUG=1 python -W default -X faulthandler
+Effects of the Python Development Mode:
+* Add "default" warning filter. The following warnings are shown:
+  * "DeprecationWarning"

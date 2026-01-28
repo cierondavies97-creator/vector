@@ -1,0 +1,3 @@
+use multi-core CPUs efficiently. For more details, see **PEP 703**.
+   In prior versions of Python's C API, a function might declare that
+   it requires the GIL to be held in order to use it. This refers to

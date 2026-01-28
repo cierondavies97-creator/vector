@@ -1,0 +1,3 @@
+compiling the regular expression used for recognizing substitutions.
+  The default value is "re.IGNORECASE".  Note that "re.VERBOSE" will
+  always be added to the flags, so custom *idpattern*s must follow

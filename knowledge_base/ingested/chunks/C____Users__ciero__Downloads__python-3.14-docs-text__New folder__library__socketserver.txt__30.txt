@@ -1,0 +1,4 @@
+parent process and passed to each child.  In this case, you can use a
+threading server, but you will probably have to use locks to protect
+the integrity of the shared data.
+On the other hand, if you are building an HTTP server where all data

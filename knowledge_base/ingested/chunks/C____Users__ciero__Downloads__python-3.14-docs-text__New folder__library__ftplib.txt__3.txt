@@ -1,0 +1,5 @@
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.
+Here's a sample session using the "ftplib" module:
+   >>> from ftplib import FTP
+   >>> ftp = FTP('ftp.us.debian.org')  # connect to host, default port

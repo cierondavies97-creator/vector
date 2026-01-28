@@ -1,0 +1,3 @@
+Python is to loop over all elements of an iterable using a "for"
+   statement.  Many other languages don't have this type of construct,
+   so people unfamiliar with Python sometimes use a numerical counter

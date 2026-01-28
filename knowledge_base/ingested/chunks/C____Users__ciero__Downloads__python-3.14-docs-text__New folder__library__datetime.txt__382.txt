@@ -1,0 +1,6 @@
+number of minutes.
+timezone.tzname(dt)
+   Return the fixed value specified when the "timezone" instance is
+   constructed.
+   If *name* is not provided in the constructor, the name returned by
+   "tzname(dt)" is generated from the value of the "offset" as

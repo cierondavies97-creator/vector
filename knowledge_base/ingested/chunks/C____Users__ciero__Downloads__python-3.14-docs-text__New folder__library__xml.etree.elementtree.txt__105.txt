@@ -1,0 +1,4 @@
+attributes are undefined at that point.  The same applies to the
+     element children; they may or may not be present.If you need a
+     fully populated element, look for "end" events instead.
+   Deprecated since version 3.4: The *parser* argument.

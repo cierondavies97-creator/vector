@@ -1,0 +1,7 @@
+* "shlex" --- Simple lexical analysis
+  * shlex Objects
+  * Parsing Rules
+  * Improved Compatibility with Shells
+* "posix" --- The most common POSIX system calls
+  * Large File Support
+  * Notable Module Contents

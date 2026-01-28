@@ -1,0 +1,4 @@
+buffer is "max(min(blocksize, 8 MiB), DEFAULT_BUFFER_SIZE)" when
+     the device block size is available. On most systems, the buffer
+     will typically be 128 kilobytes long.
+   * "Interactive" text files (files for which "isatty()" returns

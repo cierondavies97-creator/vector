@@ -1,0 +1,7 @@
+visible.  So, if that data is needed later, it should be stored as
+   a list:
+      groups = []
+      uniquekeys = []
+      data = sorted(data, key=keyfunc)
+      for k, g in groupby(data, keyfunc):
+          groups.append(list(g))      # Store group iterator as a list

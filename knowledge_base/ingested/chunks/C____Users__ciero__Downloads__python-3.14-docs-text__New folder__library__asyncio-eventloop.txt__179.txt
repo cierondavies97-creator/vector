@@ -1,0 +1,4 @@
+-----------------------------------------
+awaitable loop.run_in_executor(executor, func, *args)
+   Arrange for *func* to be called in the specified executor.
+   The *executor* argument should be an "concurrent.futures.Executor"

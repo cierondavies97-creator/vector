@@ -1,0 +1,4 @@
+Changed in version 3.3: Connection objects themselves can now be
+   transferred between processes using "Connection.send()" and
+   "Connection.recv()".Connection objects also now support the context
+   management protocol -- see Context Manager Types.  "__enter__()"

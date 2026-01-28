@@ -1,0 +1,3 @@
+using "PyObject_GetAttrString()".  If the name exists, and the object
+returned is callable, you can safely assume that it is a function.
+The program then proceeds by constructing a tuple of arguments as

@@ -1,0 +1,4 @@
+marshal.dump(value, file, version=version, /, *, allow_code=True)
+   Write the value on the open file.  The value must be a supported
+   type.  The file must be a writeable *binary file*.
+   If the value has (or contains an object that has) an unsupported

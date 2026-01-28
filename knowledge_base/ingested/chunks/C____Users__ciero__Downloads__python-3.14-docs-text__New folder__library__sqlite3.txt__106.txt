@@ -1,0 +1,6 @@
+def __init__(self):
+                 self.count = 0
+             def step(self, value):
+                 self.count += value
+             def finalize(self):
+                 return self.count

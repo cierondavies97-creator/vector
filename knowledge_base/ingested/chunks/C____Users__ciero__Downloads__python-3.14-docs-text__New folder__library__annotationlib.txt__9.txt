@@ -1,0 +1,5 @@
+Annotations Best Practices provides best practices for working with
+  annotations.
+  typing-extensions provides a backport of "get_annotations()" that
+  works on earlier versions of Python.
+Annotation semantics

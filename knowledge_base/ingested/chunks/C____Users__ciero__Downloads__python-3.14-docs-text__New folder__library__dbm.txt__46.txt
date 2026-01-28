@@ -1,0 +1,5 @@
+Raised on "dbm.ndbm"-specific errors, such as I/O errors.
+   "KeyError" is raised for general mapping errors like specifying an
+   incorrect key.
+dbm.ndbm.library
+   Name of the NDBM implementation library used.

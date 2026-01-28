@@ -1,0 +1,4 @@
+to:  "sorted(iterable, key=key)[:n]".
+The latter two functions perform best for smaller values of *n*.  For
+larger values, it is more efficient to use the "sorted()" function.
+Also, when "n==1", it is more efficient to use the built-in "min()"

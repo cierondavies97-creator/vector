@@ -1,0 +1,4 @@
+newlines and similar are represented by tokens.
+   The "tokenize" module exposes Python's lexical analyzer. The
+   "token" module contains information on the various types of tokens.
+triple-quoted string

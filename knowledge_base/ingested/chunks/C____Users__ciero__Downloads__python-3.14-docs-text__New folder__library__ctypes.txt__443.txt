@@ -1,0 +1,5 @@
+"ctypes" data type and *length* an integer.
+   This function is *soft deprecated* in favor of multiplication.
+   There are no plans to remove it.
+class ctypes._Pointer
+   Private, abstract base class for pointers.

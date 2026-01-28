@@ -1,0 +1,6 @@
+"True".
+   do_clear(arg)
+      Handle how a breakpoint must be removed when it is a temporary
+      one.
+      This method must be implemented by derived classes.
+   Derived classes and clients can call the following methods to

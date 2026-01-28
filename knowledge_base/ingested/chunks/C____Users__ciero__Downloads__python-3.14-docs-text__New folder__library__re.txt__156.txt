@@ -1,0 +1,4 @@
+Adjacent empty matches are not possible, but an empty match can
+   occur immediately after a non-empty match.
+      >>> re.split(r'\b', 'Words, words, words.')
+      ['', 'Words', ', ', 'words', ', ', 'words', '.']

@@ -1,0 +1,3 @@
+| Level                   | Numeric value   | What it means / When to use it        |
+|=========================|=================|=======================================|
+| logging.NOTSET          | 0               | When set on a logger, indicates that  |

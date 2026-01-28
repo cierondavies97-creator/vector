@@ -1,0 +1,3 @@
+| "standard"   | to the right (east)       | counterclockwise    |
+   +--------------+---------------------------+---------------------+
+   | "logo"       | upward    (north)         | clockwise           |

@@ -1,0 +1,4 @@
+legacycrypt, bcrypt, or argon2-cffi. These are not supported or
+maintained by the Python core team.
+The last version of Python that provided the "crypt" module was Python
+3.12.

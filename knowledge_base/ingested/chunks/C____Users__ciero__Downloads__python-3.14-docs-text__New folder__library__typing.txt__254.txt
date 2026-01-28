@@ -1,0 +1,4 @@
+z = print_capitalized(45)  # error: int is not a subtype of str
+   The upper bound of a type variable can be a concrete type, abstract
+   type (ABC or Protocol), or even a union of types:
+      # Can be anything with an __abs__ method

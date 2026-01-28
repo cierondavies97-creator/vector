@@ -1,0 +1,4 @@
+must be between "0" and "COLORS - 1", or, after calling
+   "use_default_colors()" or "assume_default_colors()", "-1". If the
+   color-pair was previously initialized, the screen is refreshed and
+   all occurrences of that color-pair are changed to the new

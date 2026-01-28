@@ -1,0 +1,4 @@
+class wsgiref.headers.Headers([headers])
+   Create a mapping-like object wrapping *headers*, which must be a
+   list of header name/value tuples as described in **PEP 3333**. The
+   default value of *headers* is an empty list.

@@ -1,0 +1,4 @@
+Values are integers as supported by the Win32 "ShellExecute()"
+   function.
+   "startfile()" returns as soon as the associated application is
+   launched. There is no option to wait for the application to close,

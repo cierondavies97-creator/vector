@@ -1,0 +1,2 @@
+Changed in version 3.13: Previously, various exceptions beyond just
+   "OSError" were raised.

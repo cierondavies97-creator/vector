@@ -1,0 +1,4 @@
+This functionality can be used to inject your own values into a
+   "LogRecord" at creation time. You can use the following pattern:
+      old_factory = logging.getLogRecordFactory()
+      def record_factory(*args, **kwargs):

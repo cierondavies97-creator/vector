@@ -1,0 +1,7 @@
+{
+       return PyModuleDef_Init(&keywdarg_module);
+   }
+1.9. Building Arbitrary Values
+==============================
+This function is the counterpart to "PyArg_ParseTuple()".  It is
+declared as follows:

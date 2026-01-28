@@ -1,0 +1,5 @@
+hence unhashable), byte arrays otherwise provide the same interface
+   and functionality as immutable "bytes" objects.
+3.2.6. Set types
+----------------
+These represent unordered, finite sets of unique, immutable objects.

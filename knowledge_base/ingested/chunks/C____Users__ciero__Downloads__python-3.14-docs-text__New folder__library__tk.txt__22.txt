@@ -1,0 +1,6 @@
+* Methods specific to Screen, not inherited from TurtleScreen
+  * Public classes
+  * Explanation
+  * Help and configuration
+    * How to use help
+    * Translation of docstrings into different languages

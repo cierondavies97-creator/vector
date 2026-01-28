@@ -1,0 +1,4 @@
+Deprecated since version 3.10: Deprecation warning is emitted if
+   *obj* is not a Future-like object and *loop* is not specified and
+   there is no running event loop.
+asyncio.wrap_future(future, *, loop=None)

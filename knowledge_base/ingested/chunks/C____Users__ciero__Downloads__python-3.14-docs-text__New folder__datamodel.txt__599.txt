@@ -1,0 +1,7 @@
+methods.
+  "collections.abc.Buffer"
+     ABC for buffer types.
+3.3.12. Annotations
+-------------------
+Functions, classes, and modules may contain *annotations*, which are a
+way to associate information (usually *type hints*) with a symbol.

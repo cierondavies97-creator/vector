@@ -1,0 +1,7 @@
+This is the XML file that is going to be manipulated:
+   <html>
+       <head>
+           <title>Example page</title>
+       </head>
+       <body>
+           <p>Moved to <a href="http://example.org/">example.org</a>

@@ -1,0 +1,3 @@
+| increment              | Float value.  Specifies the amount which the           |
+|                        | increment/decrement buttons change the value. Defaults |
+|                        | to 1.0.                                                |

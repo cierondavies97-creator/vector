@@ -1,0 +1,3 @@
+and so is the arithmetic on those values.  Only the results are
+rounded.  The advantage for inputs is that "what you type is what you
+get".  A disadvantage is that the results can look odd if you forget

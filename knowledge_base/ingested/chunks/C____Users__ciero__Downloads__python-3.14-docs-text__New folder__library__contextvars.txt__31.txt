@@ -1,0 +1,6 @@
+context[var]
+      Return the value of the *var* "ContextVar" variable. If the
+      variable is not set in the context object, a "KeyError" is
+      raised.
+   get(var[, default])
+      Return the value for *var* if *var* has the value in the context

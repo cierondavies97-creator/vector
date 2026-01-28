@@ -1,0 +1,4 @@
+A class to handle HTTP Cookies.
+class urllib.request.ProxyHandler(proxies=None)
+   Cause requests to go through a proxy. If *proxies* is given, it
+   must be a dictionary mapping protocol names to URLs of proxies. The

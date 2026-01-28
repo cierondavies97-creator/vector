@@ -1,0 +1,4 @@
+>>> datetime(2002, 12, 25, tzinfo=TZ()).isoformat(' ')
+      '2002-12-25 00:00:00-06:39'
+      >>> datetime(2009, 11, 27, microsecond=100, tzinfo=TZ()).isoformat()
+      '2009-11-27T00:00:00.000100-06:39'

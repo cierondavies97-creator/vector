@@ -1,0 +1,4 @@
+want
+      The expected output from running the example's source code
+      (either from stdout, or a traceback in case of exception).
+      "want" ends with a newline unless no output is expected, in

@@ -1,0 +1,8 @@
+has to define an "__index__()" method that returns an integer. Some
+   examples:
+   >>> hex(255)
+   '0xff'
+   >>> hex(-42)
+   '-0x2a'
+   If you want to convert an integer number to an uppercase or lower
+   hexadecimal string with prefix or not, you can use either of the

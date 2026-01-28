@@ -1,0 +1,4 @@
+canceled or absent from the terminal description.
+curses.tigetstr(capname)
+   Return the value of the string capability corresponding to the
+   terminfo capability name *capname* as a bytes object.  Return

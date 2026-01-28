@@ -1,0 +1,4 @@
+and appear *atomic* to other threads:
+   lst1 + lst2    # concatenates two lists into a new list
+   x * lst        # repeats lst x times into a new list
+   lst.copy()     # returns a shallow copy of the list

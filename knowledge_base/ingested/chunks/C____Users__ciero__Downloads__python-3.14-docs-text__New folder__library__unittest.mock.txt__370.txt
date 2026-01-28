@@ -1,0 +1,6 @@
+you can only access attributes on the mock that exist on the real
+class:
+>>> from urllib import request
+>>> mock = Mock(spec=request.Request)
+>>> mock.assret_called_with  # Intentional typo!
+Traceback (most recent call last):

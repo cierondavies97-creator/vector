@@ -1,0 +1,5 @@
+* "fcntl" --- The "fcntl" and "ioctl" system calls
+  * "resource" --- Resource usage information
+  * "syslog" --- Unix syslog library routines
+* Modules command-line interface (CLI)
+* Superseded Modules

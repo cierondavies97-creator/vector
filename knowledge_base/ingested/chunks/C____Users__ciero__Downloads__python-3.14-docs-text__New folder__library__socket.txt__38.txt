@@ -1,0 +1,5 @@
+is looped back to a packet socket.
+  * *hatype* - Optional integer specifying the ARP hardware address
+    type.
+  * *addr* - Optional bytes-like object specifying the hardware
+    physical address, whose interpretation depends on the device.

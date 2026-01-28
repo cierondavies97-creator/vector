@@ -1,0 +1,4 @@
+checkable protocol will still work, but will have no impact on
+   "isinstance()" checks comparing objects to the protocol. See What's
+   new in Python 3.12 for more details.
+class typing.TypedDict(dict)

@@ -1,0 +1,2 @@
+|                                                    | auditing event "object.__getattr__" with arguments |
+|                                                    | "obj" and ""tb_frame"".                            |

@@ -1,0 +1,4 @@
+Run command with arguments.  Wait for command to complete. If the
+   return code was zero then return, otherwise raise
+   "CalledProcessError". The "CalledProcessError" object will have the
+   return code in the "returncode" attribute. If "check_call()" was

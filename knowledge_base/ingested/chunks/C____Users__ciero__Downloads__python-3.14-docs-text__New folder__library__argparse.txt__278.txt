@@ -1,0 +1,6 @@
+options:
+        -h, --help  show this help message and exit
+      subcommands:
+        valid subcommands
+        {foo,bar}   additional help
+   Furthermore, "add_parser()" supports an additional *aliases*

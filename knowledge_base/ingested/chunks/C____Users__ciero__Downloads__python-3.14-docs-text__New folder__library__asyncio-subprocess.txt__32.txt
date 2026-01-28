@@ -1,0 +1,7 @@
+process.
+      On Windows this method is an alias for "terminate()".
+   stdin
+      Standard input stream ("StreamWriter") or "None" if the process
+      was created with "stdin=None".
+   stdout
+      Standard output stream ("StreamReader") or "None" if the process

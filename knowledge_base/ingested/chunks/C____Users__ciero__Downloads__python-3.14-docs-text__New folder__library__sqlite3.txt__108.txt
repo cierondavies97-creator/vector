@@ -1,0 +1,5 @@
+cur.execute("SELECT mysum(i) FROM test")
+         print(cur.fetchone()[0])
+         con.close()
+      Changed in version 3.13: Passing *name*, *n_arg*, and
+      *aggregate_class* as keyword arguments is deprecated. These

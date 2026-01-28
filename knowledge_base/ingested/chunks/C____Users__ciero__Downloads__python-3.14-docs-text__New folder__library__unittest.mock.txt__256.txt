@@ -1,0 +1,5 @@
+... @patch.multiple('__main__', thing=DEFAULT, other=DEFAULT)
+   ... def test_function(mock_exit, other, thing):
+   ...     assert 'other' in repr(other)
+   ...     assert 'thing' in repr(thing)
+   ...     assert 'exit' in repr(mock_exit)

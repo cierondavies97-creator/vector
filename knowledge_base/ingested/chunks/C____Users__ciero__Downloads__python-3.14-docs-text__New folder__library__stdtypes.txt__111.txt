@@ -1,0 +1,4 @@
+sys.hash_info.imag * hash(z.imag)", reduced modulo
+  "2**sys.hash_info.width" so that it lies in
+  "range(-2**(sys.hash_info.width - 1), 2**(sys.hash_info.width -
+  1))".  Again, if the result is "-1", it's replaced with "-2".

@@ -1,0 +1,4 @@
+point) or to make use of the "DOMEventStream.expandNode()" method and
+switch to DOM-related processing.
+class xml.dom.pulldom.PullDOM(documentFactory=None)
+   Subclass of "xml.sax.handler.ContentHandler".

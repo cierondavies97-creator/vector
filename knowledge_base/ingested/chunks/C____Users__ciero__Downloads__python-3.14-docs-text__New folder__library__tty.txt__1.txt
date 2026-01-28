@@ -1,0 +1,6 @@
+raw modes.
+Availability: Unix.
+Because it requires the "termios" module, it will work only on Unix.
+The "tty" module defines the following functions:
+tty.cfmakeraw(mode)
+   Convert the tty attribute list *mode*, which is a list like the one

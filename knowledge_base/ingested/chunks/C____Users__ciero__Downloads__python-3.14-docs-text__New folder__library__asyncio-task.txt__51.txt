@@ -1,0 +1,3 @@
+"__aexit__()" is called with an exception set), this is treated the
+same as if one of the tasks failed: the remaining tasks are cancelled
+and then waited for, and non-cancellation exceptions are grouped into

@@ -1,0 +1,3 @@
+"XMLReader", the parser will call the methods in your object to report
+all warnings and errors. There are three levels of errors available:
+warnings, (possibly) recoverable errors, and unrecoverable errors.

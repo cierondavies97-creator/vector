@@ -1,0 +1,5 @@
+implement "__await__()".
+object.__await__(self)
+   Must return an *iterator*.  Should be used to implement *awaitable*
+   objects.  For instance, "asyncio.Future" implements this method to
+   be compatible with the "await" expression. The "object" class

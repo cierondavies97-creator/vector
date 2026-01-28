@@ -1,0 +1,4 @@
+available on the spec object, autospec has to introspect (access
+attributes) the spec. As you traverse attributes on the mock a
+corresponding traversal of the original object is happening under the
+hood. If any of your specced objects have properties or descriptors

@@ -1,0 +1,3 @@
+| curses.ascii.RS | Record separator, block-mode terminator        |
++-----------------+------------------------------------------------+
+| curses.ascii.US | Unit separator                                 |

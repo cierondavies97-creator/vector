@@ -1,0 +1,4 @@
+because this was less than *max_length* bytes, or because
+      *max_length* was negative), the "needs_input" attribute will be
+      set to "True".
+      Attempting to decompress data after the end of a frame will

@@ -1,0 +1,4 @@
+optimization, so "/foo/bar/baz.py" with an *optimization* of "''"
+   will result in a bytecode path of
+   "/foo/bar/__pycache__/baz.cpython-32.pyc". "None" causes the
+   interpreter's optimization level to be used. Any other value's

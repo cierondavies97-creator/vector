@@ -1,0 +1,3 @@
+Report that the given example raised an unexpected exception.
+      This method is provided to allow subclasses of "DocTestRunner"
+      to customize their output; it should not be called directly.

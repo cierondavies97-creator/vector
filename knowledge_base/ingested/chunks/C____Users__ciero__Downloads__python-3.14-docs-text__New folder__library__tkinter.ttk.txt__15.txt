@@ -1,0 +1,3 @@
+| cursor      | Specifies the mouse cursor to be used for the widget. If set   |
+|             | to the empty string (the default), the cursor is inherited for |
+|             | the parent widget.                                             |

@@ -1,0 +1,6 @@
+>>> D = decimal.Decimal
+>>> D('1.23') + D('3.45')
+Decimal('4.68')
+Q: In a fixed-point application with two decimal places, some inputs
+have many places and need to be rounded.  Others are not supposed to
+have excess digits and need to be validated.  What methods should be

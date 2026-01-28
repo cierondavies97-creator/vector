@@ -1,0 +1,4 @@
+This function can also support paths relative to directory
+   descriptors.
+   FIFOs are pipes that can be accessed like regular files.  FIFOs
+   exist until they are deleted (for example with "os.unlink()").

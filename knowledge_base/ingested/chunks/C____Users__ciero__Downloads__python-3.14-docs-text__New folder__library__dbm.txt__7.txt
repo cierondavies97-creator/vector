@@ -1,0 +1,5 @@
+used; if it does not exist, the first submodule listed above
+        that can be imported is used.
+      * **flag** (*str*) --
+        * "'r'" (default): Open existing database for reading only.
+        * "'w'": Open existing database for reading and writing.

@@ -1,0 +1,6 @@
+to set the attributes of the "Repr" instance. Which means that the
+   following initialization:
+      aRepr = reprlib.Repr(maxlevel=3)
+   Is equivalent to:
+      aRepr = reprlib.Repr()
+      aRepr.maxlevel = 3

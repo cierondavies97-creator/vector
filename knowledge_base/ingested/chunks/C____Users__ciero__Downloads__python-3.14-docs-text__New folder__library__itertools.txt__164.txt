@@ -1,0 +1,5 @@
+# grouper('ABCDEFG', 3, incomplete='strict') → ABC DEF ValueError
+       # grouper('ABCDEFG', 3, incomplete='ignore') → ABC DEF
+       iterators = [iter(iterable)] * n
+       match incomplete:
+           case 'fill':

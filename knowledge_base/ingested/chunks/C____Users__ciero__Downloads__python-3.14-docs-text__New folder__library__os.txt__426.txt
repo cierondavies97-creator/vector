@@ -1,0 +1,5 @@
+Use "st_birthtime_ns" for the file creation time. In the future,
+      "st_ctime" will contain the time of the most recent metadata
+      change, as for other platforms.
+   st_birthtime
+      Time of file creation expressed in seconds. This attribute is

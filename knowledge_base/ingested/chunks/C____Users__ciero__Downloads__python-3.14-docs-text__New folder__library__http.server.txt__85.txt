@@ -1,0 +1,5 @@
+-d, --directory <dir>
+   Specifies a directory to which it should serve the files. By
+   default, the server uses the current directory. For example, the
+   following command uses a specific directory:
+      python -m http.server --directory /tmp/

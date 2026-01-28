@@ -1,0 +1,4 @@
+best response. For example, returning "None" is appropriate if the
+class wishes to say that time objects don't participate in the
+"tzinfo" protocols. It may be more useful for "utcoffset(None)" to
+return the standard UTC offset, as there is no other convention for

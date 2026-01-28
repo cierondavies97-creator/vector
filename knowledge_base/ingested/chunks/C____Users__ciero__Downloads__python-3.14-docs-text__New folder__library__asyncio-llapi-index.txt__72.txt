@@ -1,0 +1,7 @@
+* Using add_reader() to watch an FD for read events.
+* Using loop.add_signal_handler().
+* Using loop.subprocess_exec().
+Transports
+==========
+All transports implement the following methods:
++----------------------------------------------------+----------------------------------------------------+

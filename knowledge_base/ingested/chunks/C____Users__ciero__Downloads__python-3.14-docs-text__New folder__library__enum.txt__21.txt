@@ -1,0 +1,4 @@
+handling duplicates, providing iteration over the enum class, etc.
+   Added in version 3.11: Before 3.11 "EnumType" was called
+   "EnumMeta", which is still available as an alias.
+   __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)

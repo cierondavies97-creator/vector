@@ -1,0 +1,6 @@
+Segmentation fault: invalid memory reference.
+signal.SIGSTOP
+   Stop executing (cannot be caught or ignored).
+signal.SIGSTKFLT
+   Stack fault on coprocessor. The Linux kernel does not raise this
+   signal: it can only be raised in user space.

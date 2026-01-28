@@ -1,0 +1,4 @@
+instead of a default state. There are several cases:
+   * For a class that has no instance "__dict__" and no "__slots__",
+     the default state is "None".
+   * For a class that has an instance "__dict__" and no "__slots__",

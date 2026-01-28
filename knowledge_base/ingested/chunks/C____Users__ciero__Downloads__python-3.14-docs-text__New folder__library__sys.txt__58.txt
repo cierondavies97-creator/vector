@@ -1,0 +1,5 @@
+a pre-build step, you must ensure you run it with the same pycache
+   prefix (if any) that you will use at runtime.
+   A relative path is interpreted relative to the current working
+   directory.
+   This value is initially set based on the value of the "-X"

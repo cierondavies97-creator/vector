@@ -1,0 +1,4 @@
+lot slower than accessing the raw ctypes object.
+   Changed in version 3.5: Synchronized objects support the *context
+   manager* protocol.
+The table below compares the syntax for creating shared ctypes objects

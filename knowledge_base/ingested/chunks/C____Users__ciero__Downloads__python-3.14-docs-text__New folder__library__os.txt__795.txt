@@ -1,0 +1,6 @@
+Availability: Linux >= 3.17.
+   Added in version 3.6.
+os.urandom(size, /)
+   Return a bytestring of *size* random bytes suitable for
+   cryptographic use.
+   This function returns random bytes from an OS-specific randomness

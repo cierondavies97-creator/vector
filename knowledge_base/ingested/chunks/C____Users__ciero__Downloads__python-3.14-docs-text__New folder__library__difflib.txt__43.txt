@@ -1,0 +1,4 @@
+so frequent as to constitute noise, and this usually works better
+   than using this function.
+   *charjunk*: A function that accepts a character (a string of length
+   1), and returns if the character is junk, or false if not. The

@@ -1,0 +1,6 @@
+@test.support.no_tracing
+   Decorator to temporarily turn off tracing for the duration of the
+   test.
+@test.support.refcount_test
+   Decorator for tests which involve reference counting.  The
+   decorator does not run the test if it is not run by CPython.  Any

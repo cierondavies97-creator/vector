@@ -1,0 +1,4 @@
+and extension modules. Test modules are excluded.
+   For packages, only the main package is listed: sub-packages and
+   sub-modules are not listed. For example, the "email" package is
+   listed, but the "email.mime" sub-package and the "email.message"

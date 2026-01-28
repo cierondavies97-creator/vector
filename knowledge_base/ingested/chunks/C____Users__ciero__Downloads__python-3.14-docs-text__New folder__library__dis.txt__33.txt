@@ -1,0 +1,4 @@
+generator expressions, nested functions, the bodies of nested
+   classes, and the code objects used for annotation scopes. Strings
+   are first compiled to code objects with the "compile()" built-in
+   function before being disassembled.  If no object is provided, this

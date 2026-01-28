@@ -1,0 +1,6 @@
+For example:
+      >>> s = 'hello\n\n \nworld'
+      >>> indent(s, '  ')
+      '  hello\n\n \n  world'
+   The optional *predicate* argument can be used to control which
+   lines are indented. For example, it is easy to add *prefix* to even

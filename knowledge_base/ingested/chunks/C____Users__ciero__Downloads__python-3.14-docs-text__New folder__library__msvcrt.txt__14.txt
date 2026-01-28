@@ -1,0 +1,6 @@
+keycode. The "Control"-"C" keypress cannot be read with this
+   function.
+msvcrt.getwch()
+   Wide char variant of "getch()", returning a Unicode value.
+msvcrt.getche()
+   Similar to "getch()", but the keypress will be echoed if it

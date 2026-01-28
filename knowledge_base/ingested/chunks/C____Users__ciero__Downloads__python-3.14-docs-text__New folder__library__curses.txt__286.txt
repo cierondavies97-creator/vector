@@ -1,0 +1,3 @@
+| curses.ACS_BSSS          | alternate name for top tee                 |
++--------------------------+--------------------------------------------+
+| curses.ACS_BTEE          | bottom tee                                 |

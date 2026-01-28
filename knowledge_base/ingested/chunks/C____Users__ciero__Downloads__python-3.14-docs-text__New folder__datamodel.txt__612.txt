@@ -1,0 +1,6 @@
+True
+   >>> type(int).__hash__(int) == hash(int)
+   True
+In addition to bypassing any instance attributes in the interest of
+correctness, implicit special method lookup generally also bypasses
+the "__getattribute__()" method even of the object's metaclass:

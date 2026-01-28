@@ -1,0 +1,3 @@
+within their container - their mutual *master*.  In contrast to the
+more cumbersome *placer* (which is used less commonly, and we do not
+cover here), the packer takes qualitative relationship specification -

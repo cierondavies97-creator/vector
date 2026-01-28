@@ -1,0 +1,4 @@
+*charset* is a locale encoding, and *modifier* is a script name, a
+language subtag, a sort order identifier, or other locale modifier
+(for example, "latin", "valencia", "stroke" and "euro").
+On Windows, several formats are supported. [2] [3] A subset of IETF

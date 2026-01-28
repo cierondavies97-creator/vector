@@ -1,0 +1,6 @@
+>>> printf(b"%s %d %f\n", b"X", 2, 3)
+   X 2 3.000000
+   13
+   >>>
+If you have defined your own classes which you pass to function calls,
+you have to implement a "from_param()" class method for them to be

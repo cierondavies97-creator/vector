@@ -1,0 +1,5 @@
+* Internet Protocols and Support
+  * "webbrowser" --- Convenient web-browser controller
+  * "wsgiref" --- WSGI Utilities and Reference Implementation
+  * "urllib" --- URL handling modules
+  * "urllib.request" --- Extensible library for opening URLs

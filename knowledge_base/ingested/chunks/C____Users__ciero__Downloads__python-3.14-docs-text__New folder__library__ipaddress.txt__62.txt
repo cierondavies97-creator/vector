@@ -1,0 +1,7 @@
+1
+Note that IPv6 scoped addresses are converted to integers without
+scope zone ID.
+Operators
+---------
+Address objects support some operators.  Unless stated otherwise,
+operators can only be applied between compatible objects (i.e. IPv4

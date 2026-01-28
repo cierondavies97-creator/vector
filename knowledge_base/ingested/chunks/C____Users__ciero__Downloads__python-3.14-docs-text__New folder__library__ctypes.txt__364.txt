@@ -1,0 +1,4 @@
+data types. It is mentioned here because it contains the common
+   attributes of the fundamental ctypes data types.  "_SimpleCData" is
+   a subclass of "_CData", so it inherits their methods and
+   attributes. ctypes data types that are not and do not contain

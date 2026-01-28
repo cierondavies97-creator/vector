@@ -1,0 +1,4 @@
+Turn turtle right by *angle* units.  (Units are by default degrees,
+   but can be set via the "degrees()" and "radians()" functions.)
+   Angle orientation depends on the turtle mode, see "mode()".
+      >>> turtle.heading()

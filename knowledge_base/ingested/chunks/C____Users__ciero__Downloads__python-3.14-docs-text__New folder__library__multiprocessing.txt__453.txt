@@ -1,0 +1,4 @@
+and it has its own type for representing the status of
+     asynchronous jobs, "AsyncResult", that is not understood by any
+     other libraries.Users should generally prefer to use
+     "concurrent.futures.ThreadPoolExecutor", which has a simpler

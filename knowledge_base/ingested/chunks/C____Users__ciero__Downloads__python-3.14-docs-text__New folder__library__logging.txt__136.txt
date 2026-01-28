@@ -1,0 +1,3 @@
+using another format string, "'%s,%03d'" --- and both of these
+      format strings have been hardcoded into this method. With the
+      change, these strings are defined as class-level attributes

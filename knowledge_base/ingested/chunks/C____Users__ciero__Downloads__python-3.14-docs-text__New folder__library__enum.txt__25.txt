@@ -1,0 +1,5 @@
+A mix-in type for the new Enum.
+           start:
+              The first integer value for the Enum (used by "auto").
+           boundary:
+              How to handle out-of-range values from bit operations

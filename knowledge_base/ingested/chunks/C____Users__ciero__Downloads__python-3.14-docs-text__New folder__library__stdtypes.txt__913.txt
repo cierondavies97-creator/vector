@@ -1,0 +1,6 @@
+definition.__name__
+   The name of the class, function, method, descriptor, or generator
+   instance.
+definition.__qualname__
+   The *qualified name* of the class, function, method, descriptor, or
+   generator instance.

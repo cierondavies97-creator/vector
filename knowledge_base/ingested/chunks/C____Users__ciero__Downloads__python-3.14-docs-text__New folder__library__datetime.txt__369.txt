@@ -1,0 +1,4 @@
+have the "fold" attribute set to 0 and the later times have it set to
+1. For example, at the Fall back transition of 2016, we get:
+   >>> u0 = datetime(2016, 11, 6, 4, tzinfo=timezone.utc)
+   >>> for i in range(4):

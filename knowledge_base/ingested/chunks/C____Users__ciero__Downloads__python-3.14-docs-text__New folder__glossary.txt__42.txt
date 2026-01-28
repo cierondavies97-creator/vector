@@ -1,0 +1,4 @@
+A callable is an object that can be called, possibly with a set of
+   arguments (see *argument*), with the following syntax:
+      callable(argument1, argument2, argumentN)
+   A *function*, and by extension a *method*, is a callable. An

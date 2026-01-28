@@ -1,0 +1,4 @@
+func(code: CodeType, instruction_offset: int) -> object
+* "PY_RETURN" and "PY_YIELD":
+     func(code: CodeType, instruction_offset: int, retval: object) -> object
+* "CALL", "C_RAISE" and "C_RETURN" (*arg0* can be "MISSING"

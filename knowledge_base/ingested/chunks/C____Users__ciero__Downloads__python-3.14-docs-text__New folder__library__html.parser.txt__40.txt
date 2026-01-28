@@ -1,0 +1,6 @@
+Start tag: h1
+   Data     : Python
+   End tag  : h1
+The content of elements like "script" and "style" is returned as is,
+without further parsing:
+   >>> parser.feed('<style type="text/css">#python { color: green }</style>')

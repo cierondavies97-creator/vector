@@ -1,0 +1,9 @@
+py_cmp_func 5 1
+   py_cmp_func 33 99
+   py_cmp_func 7 33
+   py_cmp_func 5 7
+   py_cmp_func 1 7
+   >>>
+Now we can actually compare the two items and return a useful result:
+   >>> def py_cmp_func(a, b):
+   ...     print("py_cmp_func", a[0], b[0])

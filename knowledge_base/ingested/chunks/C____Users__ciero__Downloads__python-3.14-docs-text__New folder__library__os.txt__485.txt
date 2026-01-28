@@ -1,0 +1,4 @@
+subsequent "stat()" call, depending on the resolution with which
+   your operating system records access and modification times; see
+   "stat()". The best way to preserve exact times is to use the
+   *st_atime_ns* and *st_mtime_ns* fields from the "os.stat()" result

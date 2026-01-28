@@ -1,0 +1,6 @@
+the underlying file descriptor.  The file descriptor is returned,
+   and can be reused for other purposes.
+   Added in version 3.2.
+socket.dup()
+   Duplicate the socket.
+   The newly created socket is non-inheritable.

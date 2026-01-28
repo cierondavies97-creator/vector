@@ -1,0 +1,5 @@
+confronted with an unrecognized feature or property.  SAX
+   applications and extensions may use this class for similar
+   purposes.
+exception xml.sax.SAXNotSupportedException(msg, exception=None)
+   Subclass of "SAXException" raised when a SAX "XMLReader" is asked

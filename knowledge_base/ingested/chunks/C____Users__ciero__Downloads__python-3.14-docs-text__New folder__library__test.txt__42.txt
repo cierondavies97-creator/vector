@@ -1,0 +1,4 @@
+if the internet request is blocked for whatever reason.
+   Usually, a timeout using "INTERNET_TIMEOUT" should not mark a test
+   as failed, but skip the test instead: see "transient_internet()".
+   Its default value is 1 minute.

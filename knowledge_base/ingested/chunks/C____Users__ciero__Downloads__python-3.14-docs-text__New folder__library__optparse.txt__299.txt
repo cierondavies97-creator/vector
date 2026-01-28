@@ -1,0 +1,5 @@
+"Option" class.  This class has a couple of attributes that define
+"optparse"'s types: "TYPES" and "TYPE_CHECKER".
+Option.TYPES
+   A tuple of type names; in your subclass, simply define a new tuple
+   "TYPES" that builds on the standard one.

@@ -1,0 +1,3 @@
+| lambda_param_no_default* a='(' ','.lambda_param+ ','? b=')' {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "Lambda expression parameters cannot be parenthesized") }
+       | (lambda_slash_no_default | lambda_slash_with_default)? lambda_param_maybe_default* '*' (',' | lambda_param_no_default) lambda_param_maybe_default* a='/' {

@@ -1,0 +1,3 @@
+Dual-Stack Hosts. When a server's IPv4 path and protocol are
+   working, but the server's IPv6 path and protocol are not working, a
+   dual-stack client application experiences significant connection

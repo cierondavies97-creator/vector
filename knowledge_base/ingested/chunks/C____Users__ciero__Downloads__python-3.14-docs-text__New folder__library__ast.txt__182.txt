@@ -1,0 +1,11 @@
+the previous one.
+      >>> print(ast.dump(ast.parse("""
+      ... if x:
+      ...    ...
+      ... elif y:
+      ...    ...
+      ... else:
+      ...    ...
+      ... """), indent=4))
+      Module(
+          body=[

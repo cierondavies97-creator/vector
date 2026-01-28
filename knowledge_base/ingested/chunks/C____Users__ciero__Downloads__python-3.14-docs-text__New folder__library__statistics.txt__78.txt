@@ -1,0 +1,4 @@
+returning the first mode encountered. Formerly, it raised
+   "StatisticsError" when more than one mode was found.
+statistics.multimode(data)
+   Return a list of the most frequently occurring values in the order

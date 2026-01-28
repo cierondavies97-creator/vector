@@ -1,0 +1,2 @@
+| as "python" or "py"                                | and check that your "pythonw.exe" and "pyw.exe"    |
+|                                                    | aliases are consistent with your others.           |

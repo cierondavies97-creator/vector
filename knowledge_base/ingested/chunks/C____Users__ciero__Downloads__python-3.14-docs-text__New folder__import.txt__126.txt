@@ -1,0 +1,4 @@
+("PathEntryFinder") for the path entry.  Because this can be an
+expensive operation (e.g. there may be "stat()" call overheads for
+this search), the path based finder maintains a cache mapping path
+entries to path entry finders.  This cache is maintained in

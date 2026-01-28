@@ -1,0 +1,6 @@
+for b in iterator:
+              yield a, b
+              a = b
+   Added in version 3.10.
+itertools.permutations(iterable, r=None)
+   Return successive *r* length permutations of elements from the

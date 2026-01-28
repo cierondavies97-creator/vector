@@ -1,0 +1,4 @@
+file object's "name" attribute is used if it exists.
+   *mode* is either "'r'" to read from an existing archive, "'a'" to
+   append data to an existing file, "'w'" to create a new file
+   overwriting an existing one, or "'x'" to create a new file only if

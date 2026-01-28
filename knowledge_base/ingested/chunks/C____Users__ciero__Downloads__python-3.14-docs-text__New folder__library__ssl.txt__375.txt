@@ -1,0 +1,3 @@
+* Most "SSLSocket" methods will raise either "SSLWantWriteError" or
+  "SSLWantReadError" instead of "BlockingIOError" if an I/O operation
+  would block. "SSLWantReadError" will be raised if a read operation

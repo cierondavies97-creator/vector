@@ -1,0 +1,5 @@
+"ArgumentParser" objects line-wrap the description and epilog texts in
+command-line help messages:
+   >>> parser = argparse.ArgumentParser(
+   ...     prog='PROG',
+   ...     description='''this description

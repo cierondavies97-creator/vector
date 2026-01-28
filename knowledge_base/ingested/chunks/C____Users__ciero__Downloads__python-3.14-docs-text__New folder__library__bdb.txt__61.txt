@@ -1,0 +1,5 @@
+runcall(func, /, *args, **kwds)
+      Debug a single function call, and return its result.
+Finally, the module defines the following functions:
+bdb.checkfuncname(b, frame)
+   Return "True" if we should break here, depending on the way the

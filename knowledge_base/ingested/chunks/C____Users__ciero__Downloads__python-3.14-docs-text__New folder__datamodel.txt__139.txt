@@ -1,0 +1,5 @@
+most attributes must be manually set on the module object after it has
+been created when using this approach.
+Caution:
+  With the exception of "__name__", it is **strongly** recommended
+  that you rely on "__spec__" and its attributes instead of any of the

@@ -1,0 +1,6 @@
+while pq:
+           priority, count, task = heappop(pq)
+           if task is not REMOVED:
+               del entry_finder[task]
+               return task
+       raise KeyError('pop from an empty priority queue')

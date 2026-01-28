@@ -1,0 +1,3 @@
+be created using the "wrap_bio()" method. This method will create
+   the "SSLObject" instance and bind it to a pair of BIOs. The
+   *incoming* BIO is used to pass data from Python to the SSL protocol

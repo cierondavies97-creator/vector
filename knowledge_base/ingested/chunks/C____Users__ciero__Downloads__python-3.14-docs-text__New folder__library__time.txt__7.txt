@@ -1,0 +1,4 @@
+not a mistake but conforms to an earlier, language-agnostic naming
+  scheme for time standards such as UT0, UT1, and UT2.
+* DST is Daylight Saving Time, an adjustment of the timezone by
+  (usually) one hour during part of the year.  DST rules are magic

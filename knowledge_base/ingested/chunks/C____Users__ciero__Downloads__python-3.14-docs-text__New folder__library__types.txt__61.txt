@@ -1,0 +1,7 @@
+virtual attributes on the class with the same name (see "enum.Enum"
+   for an example).
+   Added in version 3.4.
+Coroutine Utility Functions
+===========================
+types.coroutine(gen_func)
+   This function transforms a *generator* function into a *coroutine

@@ -1,0 +1,5 @@
+*node* (including *node* itself), in no specified order.  This is
+   useful if you only want to modify nodes in place and don't care
+   about the context.
+class ast.NodeVisitor
+   A node visitor base class that walks the abstract syntax tree and

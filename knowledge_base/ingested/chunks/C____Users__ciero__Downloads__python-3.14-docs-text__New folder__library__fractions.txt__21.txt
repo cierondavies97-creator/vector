@@ -1,0 +1,5 @@
+Note:
+        From Python 3.2 onwards, you can also construct a "Fraction"
+        instance directly from a "float".
+   classmethod from_decimal(dec)
+      Alternative constructor which only accepts instances of

@@ -1,0 +1,5 @@
+if value == 42:
+                  break
+   This pattern ensures that the generator's async exit code is
+   executed in the same context as its iterations (so that exceptions
+   and context variables work as expected, and the exit code isn't run

@@ -1,0 +1,6 @@
+"randrange(Fraction(10, 1))" now raise a "TypeError".
+random.randint(a, b)
+   Return a random integer *N* such that "a <= N <= b".  Alias for
+   "randrange(a, b+1)".
+random.getrandbits(k)
+   Returns a non-negative Python integer with *k* random bits. This

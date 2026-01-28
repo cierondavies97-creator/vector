@@ -1,0 +1,5 @@
+The DOM Level 2 recommendation defines one method and one attribute
+for these objects:
+NodeList.item(i)
+   Return the *i*'th item from the sequence, if there is one, or
+   "None".  The index *i* is not allowed to be less than zero or

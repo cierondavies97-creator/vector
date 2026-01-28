@@ -1,0 +1,3 @@
+names must be valid Python identifiers, and in "bytes" patterns
+   they can only contain bytes in the ASCII range.  Each group name
+   must be defined only once within a regular expression.  A symbolic

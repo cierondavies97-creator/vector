@@ -1,0 +1,6 @@
+if line:
+               print('    %s' % line)
+       other = top_stats[limit:]
+       if other:
+           size = sum(stat.size for stat in other)
+           print("%s other: %.1f KiB" % (len(other), size / 1024))

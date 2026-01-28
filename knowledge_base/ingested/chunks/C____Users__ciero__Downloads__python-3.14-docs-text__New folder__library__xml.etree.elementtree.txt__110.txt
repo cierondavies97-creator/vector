@@ -1,0 +1,4 @@
+will only contain processing instruction nodes if they have been
+   inserted into to the tree using one of the "Element" methods.
+xml.etree.ElementTree.register_namespace(prefix, uri)
+   Registers a namespace prefix.  The registry is global, and any

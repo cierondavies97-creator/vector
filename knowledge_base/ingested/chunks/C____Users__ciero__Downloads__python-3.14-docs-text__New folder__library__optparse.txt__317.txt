@@ -1,0 +1,5 @@
+Option.TYPED_ACTIONS
+   "typed" actions are additionally listed here.
+Option.ALWAYS_TYPED_ACTIONS
+   Actions that always take a type (i.e. whose options always take a
+   value) are additionally listed here.  The only effect of this is

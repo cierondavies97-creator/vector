@@ -1,0 +1,3 @@
+|           | formatted with presentation type "'e'" and precision       |
+   |           | "p-1". In both cases insignificant trailing zeros are      |
+   |           | removed from the significand, and the decimal point is     |

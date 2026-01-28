@@ -1,0 +1,7 @@
+...     try:
+   ...         while True:
+   ...             try:
+   ...                 value = (yield value)
+   ...             except Exception as e:
+   ...                 value = e
+   ...     finally:

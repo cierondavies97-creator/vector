@@ -1,0 +1,4 @@
+* The attributes "Color.RED", "Color.GREEN", etc., are *enumeration
+    members* (or *members*) and are functionally constants.
+  * The enum members have *names* and *values* (the name of
+    "Color.RED" is "RED", the value of "Color.BLUE" is "3", etc.)

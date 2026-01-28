@@ -1,0 +1,4 @@
+"False" will be returned if the path is invalid, inaccessible or
+   missing. Use "Path.stat()" to distinguish between these cases.
+   This method normally follows symlinks; to check if a symlink
+   exists, add the argument "follow_symlinks=False".

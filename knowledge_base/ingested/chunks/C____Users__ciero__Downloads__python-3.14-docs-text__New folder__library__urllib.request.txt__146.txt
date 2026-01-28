@@ -1,0 +1,6 @@
+Added in version 3.11.
+HTTPCookieProcessor Objects
+===========================
+"HTTPCookieProcessor" instances have one attribute:
+HTTPCookieProcessor.cookiejar
+   The "http.cookiejar.CookieJar" in which cookies are stored.

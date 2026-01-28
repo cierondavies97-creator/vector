@@ -1,0 +1,5 @@
+get_stack(f, t)
+      Return a list of (frame, lineno) tuples in a stack trace, and a
+      size.
+      The most recently called frame is last in the list. The size is
+      the number of frames below the frame where the debugger was

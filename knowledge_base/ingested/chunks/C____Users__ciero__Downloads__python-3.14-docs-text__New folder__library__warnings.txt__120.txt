@@ -1,0 +1,4 @@
+If the flag is true, "catch_warnings" will not modify global
+attributes and will instead use a "ContextVar" to store the newly
+established warning filtering state.  A context variable provides
+thread-local storage and it makes the use of "catch_warnings" thread-

@@ -1,0 +1,5 @@
+Startup and Code Execution
+==========================
+Upon startup with the "-s" option, IDLE will execute the file
+referenced by the environment variables "IDLESTARTUP" or
+"PYTHONSTARTUP". IDLE first checks for "IDLESTARTUP"; if "IDLESTARTUP"

@@ -1,0 +1,4 @@
+inline style (instead of separate before/after blocks).  The number
+   of context lines is set by *n* which defaults to three.
+   By default, the diff control lines (those with "---", "+++", or
+   "@@") are created with a trailing newline.  This is helpful so that

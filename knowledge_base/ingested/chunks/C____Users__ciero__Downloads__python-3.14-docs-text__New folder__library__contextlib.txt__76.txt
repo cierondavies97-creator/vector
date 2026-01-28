@@ -1,0 +1,4 @@
+of correctly unwinding the stack of exit callbacks. It provides a
+   suitable foundation for higher level context managers that
+   manipulate the exit stack in application specific ways.
+   Added in version 3.3.

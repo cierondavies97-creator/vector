@@ -1,0 +1,4 @@
+ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
+   root.mainloop()
+After the imports, the next line creates an instance of the "Tk"
+class, which initializes Tk and creates its associated Tcl

@@ -1,0 +1,4 @@
+directory. (Note that it will not be detected inside a ZIP file, but
+  a correctly named ZIP file will be detected instead.)
+These will ensure that the files in a system-wide installation will
+not take precedence over the copy of the standard library bundled with

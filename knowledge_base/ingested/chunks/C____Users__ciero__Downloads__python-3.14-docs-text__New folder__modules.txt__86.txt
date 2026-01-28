@@ -1,0 +1,3 @@
+finds which submodules are present in the package, and imports them
+all.  This could take a long time and importing sub-modules might have
+unwanted side-effects that should only happen when the sub-module is

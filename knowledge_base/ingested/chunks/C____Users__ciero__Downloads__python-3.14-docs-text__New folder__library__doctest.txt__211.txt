@@ -1,0 +1,4 @@
+name will be used to construct names for the returned
+      "DocTest"s.  If *name* is not specified, then "obj.__name__" is
+      used.
+      The optional parameter *module* is the module that contains the

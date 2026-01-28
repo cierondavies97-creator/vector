@@ -1,0 +1,3 @@
+once, but to feed chunks of the document as they get available.
+   Note that the reader will normally not read the entire file, but
+   read it in chunks as well; still "parse()" won't return until the

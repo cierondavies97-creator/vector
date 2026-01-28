@@ -1,0 +1,7 @@
+... else:
+      ...    turtle.pensize(3)
+turtle.fill()
+   Fill the shape drawn in the "with turtle.fill():" block.
+      >>> turtle.color("black", "red")
+      >>> with turtle.fill():
+      ...     turtle.circle(80)

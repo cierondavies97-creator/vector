@@ -1,0 +1,6 @@
+an HTML or an XML document could have specified its encoding
+information.
+For additional information, see the W3C document:
+https://www.w3.org/International/questions/qa-html-encoding-
+declarations.
+As the python.org website uses *utf-8* encoding as specified in its

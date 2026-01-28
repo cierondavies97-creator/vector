@@ -1,0 +1,4 @@
+The number of arguments that the "step()" and "value()"
+           methods must accept is controlled by *num_params*.
+           Set to "None" to remove an existing SQL aggregate window
+           function.

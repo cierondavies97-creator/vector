@@ -1,0 +1,3 @@
+arguments (possibly by selecting it from your computer's main
+   menu). It is a very powerful way to test out new ideas or inspect
+   modules and packages (remember "help(x)"). For more on interactive

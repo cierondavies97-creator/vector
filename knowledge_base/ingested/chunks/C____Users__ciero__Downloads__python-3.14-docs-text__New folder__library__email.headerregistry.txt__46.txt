@@ -1,0 +1,7 @@
+header.
+   content_type
+      The content type string, in the form "maintype/subtype".
+   maintype
+   subtype
+class email.headerregistry.ContentDispositionHeader
+   A "ParameterizedMIMEHeader" class that handles the *Content-

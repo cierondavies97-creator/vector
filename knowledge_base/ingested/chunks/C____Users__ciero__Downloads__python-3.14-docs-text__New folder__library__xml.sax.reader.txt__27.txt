@@ -1,0 +1,5 @@
+"xml.sax.handler".
+XMLReader.setProperty(propertyname, value)
+   Set the *propertyname* to *value*. If the property is not
+   recognized, "SAXNotRecognizedException" is raised. If the property
+   or its setting is not supported by the parser,

@@ -1,0 +1,6 @@
+additional resources.
+   Currently, on Linux, this feature is usable only on a file
+   descriptor opened using the "O_DIRECT" flag.
+   Availability: Linux >= 4.6.
+   Added in version 3.7.
+os.ptsname(fd, /)

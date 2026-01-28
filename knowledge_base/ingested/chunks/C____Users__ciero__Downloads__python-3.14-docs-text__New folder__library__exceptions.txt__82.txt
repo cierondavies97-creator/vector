@@ -1,0 +1,6 @@
+attributes.
+exception IndentationError
+   Base class for syntax errors related to incorrect indentation.
+   This is a subclass of "SyntaxError".
+exception TabError
+   Raised when indentation contains an inconsistent use of tabs and

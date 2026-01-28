@@ -1,0 +1,4 @@
+widget, you can call the "_root()" method. This method begins with an
+underscore to denote the fact that this function is part of the
+implementation, and not an interface to Tk functionality.
+Here are some examples of typical usage:

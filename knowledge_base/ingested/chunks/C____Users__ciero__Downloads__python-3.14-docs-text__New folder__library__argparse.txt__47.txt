@@ -1,0 +1,5 @@
+will be wrapped across a couple lines
+Passing "RawDescriptionHelpFormatter" as "formatter_class=" indicates
+that description and epilog are already correctly formatted and should
+not be line-wrapped:
+   >>> parser = argparse.ArgumentParser(

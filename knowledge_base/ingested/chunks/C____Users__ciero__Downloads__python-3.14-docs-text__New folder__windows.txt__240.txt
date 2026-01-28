@@ -1,0 +1,4 @@
+Depending on how transparent it should be (or conversely, how
+professional it should appear), there are two options.
+Using a specialized executable as a launcher requires some coding, but
+provides the most transparent experience for users. With a customized

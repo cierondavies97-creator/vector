@@ -1,0 +1,4 @@
+return f"Person('{self.name}', {self.age})"
+reversed(object, /)
+   Return a reverse *iterator*.  The argument must be an object which
+   has a "__reversed__()" method or supports the sequence protocol

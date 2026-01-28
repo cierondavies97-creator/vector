@@ -1,0 +1,4 @@
+dependencies will be the union of all dependencies passed in.
+      It is possible to add a node with no dependencies
+      (*predecessors* is not provided) or to provide a dependency
+      twice. If a node that has not been provided before is included

@@ -1,0 +1,4 @@
+return map(sumprod, repeat(kernel), windowed_signal)
+   def polynomial_from_roots(roots):
+       """Compute a polynomial's coefficients from its roots.
+          (x - 5) (x + 4) (x - 3)  expands to:   x³ -4x² -17x + 60

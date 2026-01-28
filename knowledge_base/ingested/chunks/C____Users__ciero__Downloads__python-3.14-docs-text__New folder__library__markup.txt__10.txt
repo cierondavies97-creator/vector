@@ -1,0 +1,8 @@
+* InputSource Objects
+  * The "Attributes" Interface
+  * The "AttributesNS" Interface
+* "xml.parsers.expat" --- Fast XML parsing using Expat
+  * XMLParser Objects
+  * ExpatError Exceptions
+  * Example
+  * Content Model Descriptions

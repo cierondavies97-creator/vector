@@ -1,0 +1,3 @@
+socket returned by "accept()" is in blocking or non-blocking mode is
+  operating system-dependent.  If you want to ensure cross-platform
+  behaviour, it is recommended you manually override this setting.

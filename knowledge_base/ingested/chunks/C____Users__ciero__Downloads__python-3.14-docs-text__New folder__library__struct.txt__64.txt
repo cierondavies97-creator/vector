@@ -1,0 +1,4 @@
+for a concrete demonstration of the difference.) If a count is not
+   given, it defaults to 1.  For packing, the string is truncated or
+   padded with null bytes as appropriate to make it fit. For
+   unpacking, the resulting bytes object always has exactly the

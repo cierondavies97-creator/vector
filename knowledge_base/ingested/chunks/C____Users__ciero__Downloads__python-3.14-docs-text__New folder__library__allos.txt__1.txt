@@ -1,0 +1,4 @@
+such as files and a clock.  The interfaces are generally modeled after
+the Unix or C interfaces, but they are available on most other systems
+as well.  Here's an overview:
+* "os" --- Miscellaneous operating system interfaces

@@ -1,0 +1,7 @@
+event loop methods "loop.subprocess_shell()" and
+   "loop.subprocess_exec()".
+Base Transport
+--------------
+BaseTransport.close()
+   Close the transport.
+   If the transport has a buffer for outgoing data, buffered data will

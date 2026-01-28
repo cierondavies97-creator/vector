@@ -1,0 +1,4 @@
+specified, do not add the header.  The only valid values for
+      *disposition* are "attachment" and "inline".
+      If *filename* is specified, use it as the value of the
+      "filename" parameter of the *Content-Disposition* header.

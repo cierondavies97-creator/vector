@@ -1,0 +1,6 @@
+about how to catch this signal and do something useful, e.g. flush
+   open files to disk.)
+resource.RLIMIT_FSIZE
+   The maximum size of a file which the process may create.
+resource.RLIMIT_DATA
+   The maximum size (in bytes) of the process's heap.

@@ -1,0 +1,7 @@
+classes used by "import". Some subclasses of the core abstract base
+classes are also provided to help in implementing the core ABCs.
+ABC hierarchy:
+   object
+    +-- MetaPathFinder
+    +-- PathEntryFinder
+    +-- Loader

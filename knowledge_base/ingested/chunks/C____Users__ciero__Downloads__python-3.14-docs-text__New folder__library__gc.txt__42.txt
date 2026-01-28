@@ -1,0 +1,4 @@
+"__del__()" method don't end up in "gc.garbage" anymore.
+gc.callbacks
+   A list of callbacks that will be invoked by the garbage collector
+   before and after collection.  The callbacks will be called with two

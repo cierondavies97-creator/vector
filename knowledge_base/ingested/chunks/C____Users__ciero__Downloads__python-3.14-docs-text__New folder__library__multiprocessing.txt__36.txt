@@ -1,0 +1,4 @@
+context.  Using a specific context of your own within a library can
+lead to incompatibilities with the rest of the library user's
+application.  Always document if your library requires a specific
+start method.

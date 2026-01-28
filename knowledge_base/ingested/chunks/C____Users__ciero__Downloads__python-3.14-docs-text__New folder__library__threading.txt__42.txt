@@ -1,0 +1,3 @@
+The maximum value allowed for the *timeout* parameter of blocking
+   functions ("Lock.acquire()", "RLock.acquire()", "Condition.wait()",
+   etc.). Specifying a timeout greater than this value will raise an

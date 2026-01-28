@@ -1,0 +1,5 @@
+cm = nullcontext(session)
+          async with cm as session:
+              # Send http requests with session
+   Added in version 3.7.
+   Changed in version 3.10: *asynchronous context manager* support was

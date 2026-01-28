@@ -1,0 +1,4 @@
+package and its data file(s) are stored e.g. in a zip file versus
+   on the file system.
+   For any of methods of this class, a *resource* argument is expected
+   to be a *path-like object* which represents conceptually just a

@@ -1,0 +1,4 @@
+body=Constant(value=Ellipsis)))])
+class ast.arguments(posonlyargs, args, vararg, kwonlyargs, kw_defaults, kwarg, defaults)
+   The arguments for a function.
+   * "posonlyargs", "args" and "kwonlyargs" are lists of "arg" nodes.

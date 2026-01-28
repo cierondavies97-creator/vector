@@ -1,0 +1,4 @@
+of this exception, it is not required to actually raise the
+   exception --- it is also useful as a container for information.
+   When instantiated, *msg* should be a human-readable description of
+   the error. The optional *exception* parameter, if given, should be

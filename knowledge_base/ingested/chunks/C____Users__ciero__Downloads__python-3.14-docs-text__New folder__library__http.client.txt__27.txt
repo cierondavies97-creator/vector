@@ -1,0 +1,4 @@
+response results in no data read from the connection, indicating
+   that the remote end has closed the connection.
+   Added in version 3.5: Previously, "BadStatusLine""('')" was raised.
+The constants defined in this module are:

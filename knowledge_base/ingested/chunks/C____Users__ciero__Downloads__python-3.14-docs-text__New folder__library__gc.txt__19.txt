@@ -1,0 +1,3 @@
+also checked before running the collector.  If the memory usage has
+   not increased by 10% since the last collection and the net number
+   of object allocations has not exceeded 40 times *threshold0*, the

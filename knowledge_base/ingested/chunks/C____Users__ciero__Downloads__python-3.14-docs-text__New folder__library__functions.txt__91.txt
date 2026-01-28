@@ -1,0 +1,6 @@
+* **globals** ("dict" | "None") -- The global namespace
+        (default: "None").
+      * **locals** (*mapping* | "None") -- The local namespace
+        (default: "None").
+   Returns:
+      The result of the evaluated expression.

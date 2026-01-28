@@ -1,0 +1,6 @@
+the context managers, and "body" is the indented block inside the
+   context.
+   type_comment
+      "type_comment" is an optional string with the type annotation as
+      a comment.
+class ast.withitem(context_expr, optional_vars)

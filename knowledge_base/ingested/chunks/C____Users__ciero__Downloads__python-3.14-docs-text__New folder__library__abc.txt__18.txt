@@ -1,0 +1,7 @@
+def __iter__(self):
+              while False:
+                  yield None
+          def get_iterator(self):
+              return self.__iter__()
+          @classmethod
+          def __subclasshook__(cls, C):

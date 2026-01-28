@@ -1,0 +1,4 @@
+are not interchangeable with the year and week number directives
+above. Calling "strptime()" with incomplete or ambiguous ISO 8601
+directives will raise a "ValueError".
+The full set of format codes supported varies across platforms,

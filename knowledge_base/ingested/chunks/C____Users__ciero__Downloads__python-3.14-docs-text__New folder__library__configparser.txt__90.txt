@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+     # -*- coding: utf-8 -*-
+     >>> print(parser['hashes']['extensions'])
+     enabled_extension
+     another_extension
+     yet_another_extension
+     >>> print(parser['hashes']['interpolation not necessary'])

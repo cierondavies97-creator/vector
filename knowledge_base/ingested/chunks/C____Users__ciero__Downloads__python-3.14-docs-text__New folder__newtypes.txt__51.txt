@@ -1,0 +1,4 @@
+stored.
+When "PyType_Ready()" is called, it uses three tables referenced by
+the type object to create *descriptor*s which are placed in the
+dictionary of the type object.  Each descriptor controls access to one

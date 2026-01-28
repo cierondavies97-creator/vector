@@ -1,0 +1,5 @@
+If EOF is received and the internal buffer is empty, return an
+      empty "bytes" object.
+   async readexactly(n)
+      Read exactly *n* bytes.
+      Raise an "IncompleteReadError" if EOF is reached before *n* can

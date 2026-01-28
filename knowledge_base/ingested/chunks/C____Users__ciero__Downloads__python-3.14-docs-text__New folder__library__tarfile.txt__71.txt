@@ -1,0 +1,4 @@
+Note:
+     *fileobj* is not closed, when "TarFile" is closed.
+   *format* controls the archive format for writing. It must be one of
+   the constants "USTAR_FORMAT", "GNU_FORMAT" or "PAX_FORMAT" that are

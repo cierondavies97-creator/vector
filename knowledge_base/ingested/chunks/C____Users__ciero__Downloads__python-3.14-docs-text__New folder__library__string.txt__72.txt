@@ -1,0 +1,4 @@
+point character, even if no digits follow it. Normally, a decimal-
+point character appears in the result of these conversions only if a
+digit follows it. In addition, for "'g'" and "'G'" conversions,
+trailing zeros are not removed from the result.

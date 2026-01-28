@@ -1,0 +1,3 @@
+If an implementation wishes to retain compatibility with the
+      existing email package policies, the *name* and *value* should
+      be strings or string subclasses that do not change the content

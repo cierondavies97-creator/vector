@@ -1,0 +1,7 @@
+raised an exception then that exception will be reraised by
+      "get()".
+   wait([timeout])
+      Wait until the result is available or until *timeout* seconds
+      pass.
+   ready()
+      Return whether the call has completed.

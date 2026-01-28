@@ -1,0 +1,4 @@
+module provides tools to create, read, write, append, and list a ZIP
+file.  Any advanced use of this module will require an understanding
+of the format, as defined in PKZIP Application Note.
+This module does not handle multipart ZIP files. It can handle ZIP

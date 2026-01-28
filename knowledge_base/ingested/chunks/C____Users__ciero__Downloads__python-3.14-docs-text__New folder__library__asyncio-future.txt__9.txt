@@ -1,0 +1,4 @@
+objects until they either have a result or an exception set, or
+   until they are cancelled. A Future can be awaited multiple times
+   and the result is same.
+   Typically Futures are used to enable low-level callback-based code

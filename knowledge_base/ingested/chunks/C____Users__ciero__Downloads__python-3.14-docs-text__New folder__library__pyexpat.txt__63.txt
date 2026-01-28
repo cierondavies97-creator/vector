@@ -1,0 +1,5 @@
+1.2 or newer.
+xmlparser.EndDoctypeDeclHandler()
+   Called when Expat is done parsing the document type declaration.
+   This requires Expat version 1.2 or newer.
+xmlparser.ElementDeclHandler(name, model)

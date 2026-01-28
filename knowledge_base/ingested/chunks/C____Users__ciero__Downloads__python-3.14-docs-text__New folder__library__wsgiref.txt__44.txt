@@ -1,0 +1,4 @@
+header value parameters in the form "name="value"". If it is
+      "None", only the parameter name is added. (This is used for MIME
+      parameters without a value.)  Example usage:
+         h.add_header('content-disposition', 'attachment', filename='bud.gif')

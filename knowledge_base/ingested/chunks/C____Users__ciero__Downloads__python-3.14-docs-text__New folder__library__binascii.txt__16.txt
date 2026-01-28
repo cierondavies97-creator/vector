@@ -1,0 +1,4 @@
+binascii.crc32(data[, value])
+   Compute CRC-32, the unsigned 32-bit checksum of *data*, starting
+   with an initial CRC of *value*.  The default initial CRC is zero.
+   The algorithm is consistent with the ZIP file checksum.  Since the

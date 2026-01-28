@@ -1,0 +1,3 @@
+is simply because doctest makes writing prose a little easier than
+writing code, while writing comments in code is a little harder.  I
+think it goes deeper than just that: the natural attitude when writing

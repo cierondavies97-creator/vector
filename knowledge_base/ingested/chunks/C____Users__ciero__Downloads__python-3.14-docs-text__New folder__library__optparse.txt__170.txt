@@ -1,0 +1,5 @@
+conventionally called "options", which is an instance of
+"optparse.Values".
+class optparse.Values
+   An object holding parsed argument names and values as attributes.
+   Normally created by calling when calling

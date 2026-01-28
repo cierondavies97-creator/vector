@@ -1,0 +1,4 @@
+Original)" will make the static type checker treat "Derived" as a
+  *subclass* of "Original", which means a value of type "Original"
+  cannot be used in places where a value of type "Derived" is
+  expected. This is useful when you want to prevent logic errors with

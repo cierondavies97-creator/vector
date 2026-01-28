@@ -1,0 +1,4 @@
+Parameters:
+      * *sslcontext*: a configured instance of "SSLContext".
+      * *server_hostname*: sets or overrides the host name that the
+        target server's certificate will be matched against.

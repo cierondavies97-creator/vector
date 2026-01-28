@@ -1,0 +1,4 @@
+available in the third-party "bsddb" module from pybsddb but not in
+   other database modules.  The *dict* object passed to the
+   constructor must support those methods.  This is generally
+   accomplished by calling one of "bsddb.hashopen()", "bsddb.btopen()"

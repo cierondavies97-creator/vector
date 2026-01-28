@@ -1,0 +1,4 @@
+create the new module itself.
+Added in version 3.4: The "create_module()" method of loaders.
+Changed in version 3.4: The "load_module()" method was replaced by
+"exec_module()" and the import machinery assumed all the boilerplate

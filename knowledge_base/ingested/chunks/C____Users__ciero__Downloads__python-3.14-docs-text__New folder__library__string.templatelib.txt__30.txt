@@ -1,0 +1,4 @@
+['Ah! We do have ', Interpolation('Camembert', 'cheese', None, '')]
+class string.templatelib.Interpolation
+   The "Interpolation" type represents an expression inside a template
+   string. It is immutable, meaning that attributes of an

@@ -1,0 +1,4 @@
+and a header object created.
+* Fetching a header value from a "Message" results in that header
+  being parsed and a header object created and returned.
+* Any header object, or any header that is refolded due to the policy

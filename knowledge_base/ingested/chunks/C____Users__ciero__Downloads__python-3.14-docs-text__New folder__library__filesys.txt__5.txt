@@ -1,0 +1,6 @@
+* Examples
+  * Deprecated functions and variables
+* "glob" --- Unix style pathname pattern expansion
+  * Examples
+* "fnmatch" --- Unix filename pattern matching
+* "linecache" --- Random access to text lines

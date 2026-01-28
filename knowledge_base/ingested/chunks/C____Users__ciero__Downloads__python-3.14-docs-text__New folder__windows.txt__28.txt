@@ -1,0 +1,4 @@
+option. This option must be specified before any others. The tag is
+part or all of the identifier for the runtime; for those from the
+CPython team, it looks like the version, potentially with the
+platform. For compatibility, the "V:" may be omitted in cases where

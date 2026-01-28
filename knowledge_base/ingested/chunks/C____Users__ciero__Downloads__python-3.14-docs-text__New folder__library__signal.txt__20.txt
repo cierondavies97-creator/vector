@@ -1,0 +1,7 @@
+signal.SIGCONT
+   Continue the process if it is currently stopped
+   Availability: Unix.
+signal.SIGFPE
+   Floating-point exception. For example, division by zero.
+   See also:
+     "ZeroDivisionError" is raised when the second argument of a

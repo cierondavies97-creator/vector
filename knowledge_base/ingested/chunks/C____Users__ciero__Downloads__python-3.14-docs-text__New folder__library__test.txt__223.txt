@@ -1,0 +1,4 @@
+Context manager to check that no "ResourceWarning" was raised.  You
+   must remove the object which may emit "ResourceWarning" before the
+   end of the context manager.
+test.support.warnings_helper.check_syntax_warning(testcase, statement, errtext='', *, lineno=1, offset=None)

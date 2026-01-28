@@ -1,0 +1,8 @@
+object:
+      >>> p = Path('my_binary_file')
+      >>> p.write_bytes(b'Binary file contents')
+      20
+      >>> p.read_bytes()
+      b'Binary file contents'
+   Added in version 3.5.
+Path.write_text(data, encoding=None, errors=None, newline=None)

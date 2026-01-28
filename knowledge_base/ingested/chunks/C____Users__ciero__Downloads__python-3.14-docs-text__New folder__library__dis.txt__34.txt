@@ -1,0 +1,4 @@
+function disassembles the last traceback.
+   The disassembly is written as text to the supplied *file* argument
+   if provided and to "sys.stdout" otherwise.
+   The maximal depth of recursion is limited by *depth* unless it is

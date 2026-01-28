@@ -1,0 +1,6 @@
+sys.monitoring.events.C_RETURN
+   Return from any callable, except for Python functions (event occurs
+   after the return).
+sys.monitoring.events.EXCEPTION_HANDLED
+   An exception is handled.
+sys.monitoring.events.INSTRUCTION

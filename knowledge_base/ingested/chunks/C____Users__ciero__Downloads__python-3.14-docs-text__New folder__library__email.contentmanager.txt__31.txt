@@ -1,0 +1,4 @@
+If *disposition* is set, use it as the value of the *Content-
+      Disposition* header.  If not specified, and *filename* is
+      specified, add the header with the value "attachment". If
+      *disposition* is not specified and *filename* is also not

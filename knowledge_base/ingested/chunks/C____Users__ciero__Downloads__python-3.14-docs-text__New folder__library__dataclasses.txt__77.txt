@@ -1,0 +1,8 @@
+namespace={'add_one': lambda self: self.x + 1})
+   Is equivalent to:
+      @dataclass
+      class C:
+          x: int
+          y: 'typing.Any'
+          z: int = 5
+          def add_one(self):

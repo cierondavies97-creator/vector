@@ -1,0 +1,4 @@
+value is "None" an empty (unquoted) string is written.
+   Instructs "reader" objects to interpret an empty (unquoted) field
+   as "None" and to otherwise behave as "QUOTE_ALL".
+   Added in version 3.12.

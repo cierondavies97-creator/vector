@@ -1,0 +1,4 @@
+correct interpreter without the environment needing to be activated or
+on the "PATH".
+When a virtual environment has been activated, the "VIRTUAL_ENV"
+environment variable is set to the path of the environment. Since

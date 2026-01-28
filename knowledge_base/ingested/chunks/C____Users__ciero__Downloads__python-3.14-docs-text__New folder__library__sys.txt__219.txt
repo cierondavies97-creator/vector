@@ -1,0 +1,5 @@
+int_info.str_digits_check_threshold
+      The minimum non-zero value for "sys.set_int_max_str_digits()",
+      "PYTHONINTMAXSTRDIGITS", or "-X int_max_str_digits".
+   Added in version 3.1.
+   Changed in version 3.11: Added "default_max_str_digits" and

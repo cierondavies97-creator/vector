@@ -1,0 +1,4 @@
+determine the availability of particular features in the DOM they are
+using. DOM Level 2 added the ability to create new "Document" and
+"DocumentType" objects using the "DOMImplementation" as well.
+DOMImplementation.hasFeature(feature, version)

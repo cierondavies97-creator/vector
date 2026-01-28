@@ -1,0 +1,6 @@
+Widget.tk.deletefilehandler(file)
+   Unregisters a file handler.
+_tkinter.READABLE
+_tkinter.WRITABLE
+_tkinter.EXCEPTION
+   Constants used in the *mask* arguments.

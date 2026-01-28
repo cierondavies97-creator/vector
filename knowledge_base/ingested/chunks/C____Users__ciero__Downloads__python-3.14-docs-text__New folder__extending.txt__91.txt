@@ -1,0 +1,4 @@
+dwell on how to call the Python parser with a particular string as
+input --- if you're interested, have a look at the implementation of
+the "-c" command line option in "Modules/main.c" from the Python
+source code.)

@@ -1,0 +1,4 @@
+multiprocessing.get_start_method(allow_none=False)
+   Return the name of start method used for starting processes.
+   If the global start method is not set and *allow_none* is "False",
+   the global start method is set to the default, and its name is

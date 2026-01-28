@@ -1,0 +1,4 @@
+to the right is the object hierarchy within that package. Only one
+   import is needed in this form. If it ends with the colon, then a
+   module object is returned.
+   The function will return an object (which might be a module), or

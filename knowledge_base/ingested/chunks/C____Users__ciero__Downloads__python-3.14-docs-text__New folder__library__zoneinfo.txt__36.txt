@@ -1,0 +1,6 @@
+that you need to.
+The class has one attribute:
+ZoneInfo.key
+   This is a read-only *attribute* that returns the value of "key"
+   passed to the constructor, which should be a lookup key in the IANA
+   time zone database (e.g. "America/New_York", "Europe/Paris" or

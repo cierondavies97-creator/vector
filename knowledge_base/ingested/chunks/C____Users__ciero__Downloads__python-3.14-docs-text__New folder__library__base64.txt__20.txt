@@ -1,0 +1,4 @@
+be mapped to (when *map01* is not "None", the digit 0 is always
+   mapped to the letter O).  For security purposes the default is
+   "None", so that 0 and 1 are not allowed in the input.
+   A "binascii.Error" is raised if *s* is incorrectly padded or if

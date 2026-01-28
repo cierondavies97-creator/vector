@@ -1,0 +1,4 @@
+The "uuid" module can be executed as a script from the command line.
+   python -m uuid [-h] [-u {uuid1,uuid3,uuid4,uuid5,uuid6,uuid7,uuid8}] [-n NAMESPACE] [-N NAME]
+The following options are accepted:
+-h, --help

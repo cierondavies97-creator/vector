@@ -1,0 +1,3 @@
+Compile and run some source in the interpreter. Arguments are the
+   same as for "compile_command()"; the default for *filename* is
+   "'<input>'", and for *symbol* is "'single'".  One of several things

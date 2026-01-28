@@ -1,0 +1,5 @@
+every object has a type.  An object's type is accessible as its
+   "__class__" attribute or can be retrieved with "type(obj)".
+type alias
+   A synonym for a type, created by assigning the type to an
+   identifier.

@@ -1,0 +1,3 @@
+is replaced by "'_'.join(type(obj).__name__.split())". Dispatch to
+   these methods is handled by "repr1()". Type-specific methods which
+   need to recursively format a value should call "self.repr1(subobj,

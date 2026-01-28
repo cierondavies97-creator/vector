@@ -1,0 +1,3 @@
+| "'r:xz'"           | Open for reading with lzma compression.       |
+   +--------------------+-----------------------------------------------+
+   | "'r:zst'"          | Open for reading with Zstandard compression.  |

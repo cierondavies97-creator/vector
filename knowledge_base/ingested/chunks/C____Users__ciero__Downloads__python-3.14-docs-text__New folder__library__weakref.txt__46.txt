@@ -1,0 +1,4 @@
+"None".
+   Exceptions raised by finalizer callbacks during garbage collection
+   will be shown on the standard error output, but cannot be
+   propagated.  They are handled in the same way as exceptions raised

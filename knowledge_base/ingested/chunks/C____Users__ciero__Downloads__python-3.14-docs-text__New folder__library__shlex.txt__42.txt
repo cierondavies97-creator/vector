@@ -1,0 +1,4 @@
+getting tokens in a similar way to shell arguments.  When used in
+   combination with "punctuation_chars", tokens will be split on
+   whitespace in addition to those characters.
+   Changed in version 3.8: The "punctuation_chars" attribute was made

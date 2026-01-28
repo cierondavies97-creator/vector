@@ -1,0 +1,5 @@
+It should be noted that not all jumps are allowed -- for instance
+   it is not possible to jump into the middle of a "for" loop or out
+   of a "finally" clause.
+l(ist) [first[, last]]
+   List source code for the current file.  Without arguments, list 11

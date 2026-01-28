@@ -1,0 +1,8 @@
+│    └── ModuleNotFoundError
+         ├── LookupError
+         │    ├── IndexError
+         │    └── KeyError
+         ├── MemoryError
+         ├── NameError
+         │    └── UnboundLocalError
+         ├── OSError

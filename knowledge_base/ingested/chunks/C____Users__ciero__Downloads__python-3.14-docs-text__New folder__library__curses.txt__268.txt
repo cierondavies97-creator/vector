@@ -1,0 +1,3 @@
+| curses.KEY_SREPLACE       | Shifted Replace                              |
++---------------------------+----------------------------------------------+
+| curses.KEY_SRIGHT         | Shifted Right arrow                          |

@@ -1,0 +1,4 @@
+stored and an additional one in the current working directory.  The
+latter will override the settings of the first one.
+The "Lib/turtledemo" directory contains a "turtle.cfg" file.  You can
+study it as an example and see its effects when running the demos

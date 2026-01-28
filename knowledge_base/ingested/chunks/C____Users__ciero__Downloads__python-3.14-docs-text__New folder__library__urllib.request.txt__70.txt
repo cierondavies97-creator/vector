@@ -1,0 +1,3 @@
+and then if a "401" response is received the request is re-sent
+   with the authentication credentials.  If authentication succeeds,
+   "update_authenticated" is called to set "is_authenticated" "True"

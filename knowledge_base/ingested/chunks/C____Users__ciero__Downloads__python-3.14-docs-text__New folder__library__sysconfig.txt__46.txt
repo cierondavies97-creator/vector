@@ -1,0 +1,4 @@
+rather than the more traditional "/usr/local".  This is entirely
+appropriate, since in those cases Python is part of "the system"
+rather than a local add-on. However, if you are installing Python
+modules from source, you probably want them to go in

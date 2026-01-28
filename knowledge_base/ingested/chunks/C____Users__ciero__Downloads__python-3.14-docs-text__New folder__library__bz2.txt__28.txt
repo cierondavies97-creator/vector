@@ -1,0 +1,6 @@
+in internal buffers.
+      The compressor object may not be used after this method has been
+      called.
+class bz2.BZ2Decompressor
+   Create a new decompressor object. This object may be used to
+   decompress data incrementally. For one-shot compression, use the

@@ -1,0 +1,5 @@
+"Screen.setup" method.
+* Line 5 and 6 correspond to the arguments of the method
+  "Screen.screensize".
+* *shape* can be any of the built-in shapes, e.g: arrow, turtle, etc.
+  For more info try "help(shape)".

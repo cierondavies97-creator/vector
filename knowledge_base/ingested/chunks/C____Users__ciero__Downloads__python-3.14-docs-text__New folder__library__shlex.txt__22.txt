@@ -1,0 +1,3 @@
+pop a token off the stack.  Otherwise, read one from the input
+   stream.  If reading encounters an immediate end-of-file, "eof" is
+   returned (the empty string ("''") in non-POSIX mode, and "None" in

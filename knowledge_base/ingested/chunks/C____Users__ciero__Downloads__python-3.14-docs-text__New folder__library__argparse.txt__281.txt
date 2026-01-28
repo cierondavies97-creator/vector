@@ -1,0 +1,5 @@
+which allows to deprecate the subparser.
+   >>> import argparse
+   >>> parser = argparse.ArgumentParser(prog='chicken.py')
+   >>> subparsers = parser.add_subparsers()
+   >>> run = subparsers.add_parser('run')

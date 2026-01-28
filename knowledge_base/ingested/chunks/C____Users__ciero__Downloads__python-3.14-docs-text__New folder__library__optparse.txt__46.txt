@@ -1,0 +1,4 @@
+another option entirely, how do we interpret "-ab"?  Because of
+   this ambiguity, "optparse" does not support this feature.
+positional argument
+   something leftover in the argument list after options have been

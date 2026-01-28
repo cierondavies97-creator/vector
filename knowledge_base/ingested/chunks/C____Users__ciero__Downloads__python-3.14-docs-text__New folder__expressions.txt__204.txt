@@ -1,0 +1,4 @@
+result.  Division by zero raises the "ZeroDivisionError" exception.
+The division operation can be customized using the special
+"__truediv__()" and "__rtruediv__()" methods. The floor division
+operation can be customized using the special "__floordiv__()" and

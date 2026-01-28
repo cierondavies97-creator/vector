@@ -1,0 +1,6 @@
+is bound directly to the imported module.
+   >>> import fibo as fib
+   >>> fib.fib(500)
+   0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+This is effectively importing the module in the same way that "import
+fibo" will do, with the only difference of it being available as

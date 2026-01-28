@@ -1,0 +1,4 @@
+loop, and "context" is a "dict" object containing the details of
+   the exception (see "call_exception_handler()" documentation for
+   details about context).
+   If the handler is called on behalf of a "Task" or "Handle", it is

@@ -1,0 +1,4 @@
+"cProfile.Profile"
+   "your_time_func" should return a single number.  If it returns
+   integers, you can also invoke the class constructor with a second
+   argument specifying the real duration of one unit of time.  For

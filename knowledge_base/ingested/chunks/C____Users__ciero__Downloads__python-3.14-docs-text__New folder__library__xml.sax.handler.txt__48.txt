@@ -1,0 +1,5 @@
+module always produces strings.
+   Note:
+     The earlier SAX 1 interface provided by the Python XML Special
+     Interest Group used a more Java-like interface for this method.
+     Since most parsers used from Python did not take advantage of the

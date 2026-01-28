@@ -1,0 +1,3 @@
+*file_name* is the name of the file to save registry data to.  This
+   file cannot already exist. If this filename includes an extension,
+   it cannot be used on file allocation table (FAT) file systems by

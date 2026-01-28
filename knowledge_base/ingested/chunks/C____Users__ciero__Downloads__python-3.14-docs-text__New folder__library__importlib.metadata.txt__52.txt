@@ -1,0 +1,4 @@
+Return a "Distribution" instance describing the named distribution
+   package.
+   Raises "PackageNotFoundError" if the named distribution package is
+   not installed in the current Python environment.

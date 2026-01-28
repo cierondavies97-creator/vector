@@ -1,0 +1,4 @@
+Returns "True" if *fd* was previously being monitored for reads.
+loop.add_writer(fd, callback, *args)
+   Start monitoring the *fd* file descriptor for write availability
+   and invoke *callback* with the specified arguments once *fd* is

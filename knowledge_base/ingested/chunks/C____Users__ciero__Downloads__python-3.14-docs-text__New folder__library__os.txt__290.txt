@@ -1,0 +1,4 @@
+it if changing the mode of symbolic links is supported.
+   Raises an auditing event "os.chmod" with arguments "path", "mode",
+   "dir_fd".
+   Availability: Unix, Windows, not Linux, FreeBSD >= 1.3, NetBSD >=

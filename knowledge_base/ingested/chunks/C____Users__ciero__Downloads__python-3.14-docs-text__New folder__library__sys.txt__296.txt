@@ -1,0 +1,4 @@
+raised if the new limit is too low at the current recursion depth.
+sys.setswitchinterval(interval)
+   Set the interpreter's thread switch interval (in seconds).  This
+   floating-point value determines the ideal duration of the

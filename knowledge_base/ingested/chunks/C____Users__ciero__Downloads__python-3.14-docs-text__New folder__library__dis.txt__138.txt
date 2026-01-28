@@ -1,0 +1,5 @@
+Added in version 3.9.
+LOAD_ATTR(namei)
+   If the low bit of "namei" is not set, this replaces "STACK[-1]"
+   with "getattr(STACK[-1], co_names[namei>>1])".
+   If the low bit of "namei" is set, this will attempt to load a

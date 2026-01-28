@@ -1,0 +1,4 @@
+Return an iterator of the collapsed "IPv4Network" or "IPv6Network"
+   objects.  *addresses* is an *iterable* of "IPv4Network" or
+   "IPv6Network" objects.  A "TypeError" is raised if *addresses*
+   contains mixed version objects.

@@ -1,0 +1,5 @@
+"STACK[-2]" is an exception matching "STACK[-1]". Pops "STACK[-1]"
+   and pushes the boolean result of the test.
+   Added in version 3.11.
+CHECK_EG_MATCH
+   Performs exception matching for "except*". Applies

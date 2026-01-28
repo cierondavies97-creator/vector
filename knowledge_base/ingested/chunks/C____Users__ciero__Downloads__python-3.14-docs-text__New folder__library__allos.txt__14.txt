@@ -1,0 +1,5 @@
+* Calling functions with your own custom data types
+    * Specifying the required argument types (function prototypes)
+    * Return types
+    * Passing pointers (or: passing parameters by reference)
+    * Structures and unions

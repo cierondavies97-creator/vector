@@ -1,0 +1,4 @@
+decrement it is zero, reset the lock to unlocked (not owned by
+      any thread), and if any other threads are blocked waiting for
+      the lock to become unlocked, allow exactly one of them to
+      proceed.  If after the decrement the recursion level is still

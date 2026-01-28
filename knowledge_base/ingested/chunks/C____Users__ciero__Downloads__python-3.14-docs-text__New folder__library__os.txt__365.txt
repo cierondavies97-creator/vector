@@ -1,0 +1,5 @@
+*dst*.
+os.rmdir(path, *, dir_fd=None)
+   Remove (delete) the directory *path*.  If the directory does not
+   exist or is not empty, a "FileNotFoundError" or an "OSError" is
+   raised respectively.  In order to remove whole directory trees,

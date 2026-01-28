@@ -1,0 +1,6 @@
+used.
+   If *initializer* is not "None" then each worker process will call
+   "initializer(*initargs)" when it starts.
+   Unlike "Pool", *maxtasksperchild* and *context* cannot be provided.
+   Note:
+     A "ThreadPool" shares the same interface as "Pool", which is

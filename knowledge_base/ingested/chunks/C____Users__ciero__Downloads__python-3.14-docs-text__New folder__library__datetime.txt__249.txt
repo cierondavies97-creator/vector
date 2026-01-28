@@ -1,0 +1,5 @@
+class KabulTz(tzinfo):
+       # Kabul used +4 until 1945, when they moved to +4:30
+       UTC_MOVE_DATE = datetime(1944, 12, 31, 20, tzinfo=timezone.utc)
+       def utcoffset(self, dt):
+           if dt.year < 1945:

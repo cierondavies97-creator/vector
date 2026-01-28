@@ -1,0 +1,6 @@
+created by the "Tcl()" object can have a Toplevel window created
+   (and the Tk subsystem initialized) by calling its "loadtk()"
+   method.
+The modules that provide Tk support include:
+"tkinter"
+   Main Tkinter module.

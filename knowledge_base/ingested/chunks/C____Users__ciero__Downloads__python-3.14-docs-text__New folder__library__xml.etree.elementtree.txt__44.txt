@@ -1,0 +1,4 @@
+Here is an XML example that incorporates two namespaces, one with the
+prefix "fictional" and the other serving as the default namespace:
+   <?xml version="1.0"?>
+   <actors xmlns:fictional="http://characters.example.com"

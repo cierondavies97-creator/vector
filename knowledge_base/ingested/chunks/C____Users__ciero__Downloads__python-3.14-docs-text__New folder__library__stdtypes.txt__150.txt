@@ -1,0 +1,5 @@
+terminates only when an "IndexError" or a "StopIteration" is
+encountered (or when the index drops below zero).
+Notes:
+1. While the "in" and "not in" operations are used only for simple
+   containment testing in the general case, some specialised sequences

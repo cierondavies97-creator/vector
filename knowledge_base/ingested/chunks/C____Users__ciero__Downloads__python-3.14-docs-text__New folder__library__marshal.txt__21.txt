@@ -1,0 +1,4 @@
+marshal.loads(bytes, /, *, allow_code=True)
+   Convert the *bytes-like object* to a value.  If no valid value is
+   found, raise "EOFError", "ValueError" or "TypeError". Code objects
+   are only supported if *allow_code* is true. Extra bytes in the

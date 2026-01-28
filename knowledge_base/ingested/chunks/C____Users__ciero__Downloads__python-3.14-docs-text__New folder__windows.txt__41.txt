@@ -1,0 +1,4 @@
+specifier), and each may include a "<", "<=", ">=" or ">" prefix to
+restrict to a range.
+A range of formats are supported, and can be passed as the "--
+format=<FMT>" or "-f <FMT>" option. Formats include "table" (a user

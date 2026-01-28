@@ -1,0 +1,5 @@
+A "conditional" breakpoint always counts a "hit".
+   "Breakpoint" instances have the following methods:
+   deleteMe()
+      Delete the breakpoint from the list associated to a file/line.
+      If it is the last breakpoint in that position, it also deletes

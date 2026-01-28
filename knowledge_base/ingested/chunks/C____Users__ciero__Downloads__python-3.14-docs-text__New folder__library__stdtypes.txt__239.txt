@@ -1,0 +1,4 @@
+Changed in version 3.3: Define '==' and '!=' to compare range objects
+based on the sequence of values they define (instead of comparing
+based on object identity).Added the "start", "stop" and "step"
+attributes.

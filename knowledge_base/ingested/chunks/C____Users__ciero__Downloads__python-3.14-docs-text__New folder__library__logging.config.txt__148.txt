@@ -1,0 +1,7 @@
+configuration file.
+For loggers other than the root logger, some additional information is
+required. This is illustrated by the following example.
+   [logger_parser]
+   level=DEBUG
+   handlers=hand01
+   propagate=1

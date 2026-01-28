@@ -1,0 +1,7 @@
+order of insertion.
+      If any cycle is detected, "CycleError" will be raised.
+   Added in version 3.9.
+Exceptions
+==========
+The "graphlib" module defines the following exception classes:
+exception graphlib.CycleError

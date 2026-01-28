@@ -1,0 +1,4 @@
+methods and attributes, plus the "get_stdin()", "get_stderr()",
+      and "add_cgi_vars()" methods and the "wsgi_file_wrapper"
+      attribute.  It also inserts a "SERVER_SOFTWARE" key if not
+      present, as long as the "origin_server" attribute is a true

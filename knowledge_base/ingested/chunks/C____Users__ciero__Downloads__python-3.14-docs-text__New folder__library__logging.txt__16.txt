@@ -1,0 +1,3 @@
+descendants of the root logger. The logger name hierarchy is analogous
+to the Python package hierarchy, and identical to it if you organise
+your loggers on a per-module basis using the recommended construction

@@ -1,0 +1,4 @@
+is_private
+      "True" if the address is defined as not globally reachable by
+      iana-ipv4-special-registry (for IPv4) or iana-ipv6-special-
+      registry (for IPv6) with the following exceptions:

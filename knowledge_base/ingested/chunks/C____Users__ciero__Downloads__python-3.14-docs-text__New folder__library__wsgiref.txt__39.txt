@@ -1,0 +1,4 @@
+In addition to their mapping interface and formatting features,
+   "Headers" objects also have the following methods for querying and
+   adding multi-valued headers, and for adding headers with MIME
+   parameters:

@@ -1,0 +1,5 @@
+settings when the context ends.
+   Note that *all* "sys.path" modifications in the body of the context
+   manager, including replacement of the object, will be reverted at
+   the end of the block.
+"test.support.warnings_helper" --- Utilities for warnings tests

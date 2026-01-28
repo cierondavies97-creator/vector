@@ -1,0 +1,5 @@
+"ReprEnum" uses the "repr()" of "Enum", but the "str()" of the
+   mixed-in data type:
+   * "int.__str__()" for "IntEnum" and "IntFlag"
+   * "str.__str__()" for "StrEnum"
+   Inherit from "ReprEnum" to keep the "str()" / "format()" of the

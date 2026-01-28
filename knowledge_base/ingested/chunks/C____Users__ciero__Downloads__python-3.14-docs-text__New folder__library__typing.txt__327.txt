@@ -1,0 +1,6 @@
+annotations. Their intended purpose is to be building blocks for
+creating and declaring types.
+class typing.NamedTuple
+   Typed version of "collections.namedtuple()".
+   Usage:
+      class Employee(NamedTuple):

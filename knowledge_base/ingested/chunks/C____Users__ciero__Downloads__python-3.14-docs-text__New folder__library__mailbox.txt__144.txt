@@ -1,0 +1,5 @@
++--------+-----------+----------------------------------+
+   "MaildirMessage" instances offer the following methods:
+   get_subdir()
+      Return either "new" (if the message should be stored in the
+      "new" subdirectory) or "cur" (if the message should be stored in

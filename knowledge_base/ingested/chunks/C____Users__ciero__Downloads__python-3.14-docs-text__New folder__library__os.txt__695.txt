@@ -1,0 +1,5 @@
+"operation", "arguments", "cwd", "show_cmd".
+   Availability: Windows.
+   Changed in version 3.10: Added the *arguments*, *cwd* and
+   *show_cmd* arguments, and the "os.startfile/2" audit event.
+os.system(command)

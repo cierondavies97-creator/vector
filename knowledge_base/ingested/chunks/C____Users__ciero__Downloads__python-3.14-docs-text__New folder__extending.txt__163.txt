@@ -1,0 +1,4 @@
+are no further references to the cycle itself.
+The cycle detector is able to detect garbage cycles and can reclaim
+them. The "gc" module exposes a way to run the detector (the
+"collect()" function), as well as configuration interfaces and the

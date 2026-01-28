@@ -1,0 +1,4 @@
+*top_down* is false, the triple for a directory is generated after
+   the triples for all of its subdirectories (directories are walked
+   bottom-up). No matter the value of *top_down*, the list of
+   subdirectories is retrieved before the triples for the directory

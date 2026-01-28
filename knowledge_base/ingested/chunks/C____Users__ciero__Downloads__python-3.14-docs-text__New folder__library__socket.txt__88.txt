@@ -1,0 +1,10 @@
+socket.SOL_ALG
+ALG_*
+   Constants for Linux Kernel cryptography.
+   Availability: Linux >= 2.6.38.
+   Added in version 3.6.
+socket.AF_VSOCK
+socket.IOCTL_VM_SOCKETS_GET_LOCAL_CID
+VMADDR*
+SO_VM*
+   Constants for Linux host/guest communication.

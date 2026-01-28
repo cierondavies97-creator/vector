@@ -1,0 +1,3 @@
+As noted earlier, interpreters do not provide any concurrency on their
+own.  They strictly represent the isolated execution context the
+runtime will use *in the current thread*.  That isolation makes them

@@ -1,0 +1,6 @@
+the docstring for *voltage* to "Get the current voltage."
+   @getter
+   @setter
+   @deleter
+      A property object has "getter", "setter", and "deleter" methods
+      usable as decorators that create a copy of the property with the

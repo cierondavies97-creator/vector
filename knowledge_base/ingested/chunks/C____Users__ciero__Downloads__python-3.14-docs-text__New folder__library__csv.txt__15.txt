@@ -1,0 +1,3 @@
+into delimited strings on the given file-like object.  *csvfile*
+   can be any object with a "write()" method.  If *csvfile* is a file
+   object, it should be opened with "newline=''" [1].  An optional

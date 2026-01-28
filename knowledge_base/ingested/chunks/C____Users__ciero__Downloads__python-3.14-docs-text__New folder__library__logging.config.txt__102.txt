@@ -1,0 +1,5 @@
+handler "foo", and not its configuration dictionary.
+Access to external objects
+--------------------------
+There are times where a configuration needs to refer to objects
+external to the configuration, for example "sys.stderr".  If the

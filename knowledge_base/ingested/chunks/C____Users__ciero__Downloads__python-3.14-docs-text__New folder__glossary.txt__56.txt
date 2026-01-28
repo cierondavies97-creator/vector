@@ -1,0 +1,4 @@
+used. Some common meanings:
+   * The temporary state or environment established by a *context
+     manager* via a "with" statement.
+   * The collection of key­value bindings associated with a particular

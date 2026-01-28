@@ -1,0 +1,4 @@
+Even better is convincing yourself that using locale settings is okay.
+Only as a last resort should you document that your module is not
+compatible with non-"C" locale settings.
+The only way to perform numeric operations according to the locale is

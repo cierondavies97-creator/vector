@@ -1,0 +1,5 @@
+"flatten" to control the message generation.  See "email.policy"
+   for details on what *policy* controls.
+   Added in version 3.2.
+   Changed in version 3.3: Added the *policy* keyword.
+   Changed in version 3.6: The default behavior of the *mangle_from_*

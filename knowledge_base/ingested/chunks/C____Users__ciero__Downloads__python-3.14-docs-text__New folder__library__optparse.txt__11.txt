@@ -1,0 +1,4 @@
+These considerations also mean that "optparse" is likely to provide a
+better foundation for library authors writing third party command line
+argument processing libraries.
+As a concrete example, consider the following two command line

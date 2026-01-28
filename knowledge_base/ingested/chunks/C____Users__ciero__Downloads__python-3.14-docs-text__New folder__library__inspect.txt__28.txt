@@ -1,0 +1,3 @@
+| traceback         | tb_frame            | frame object at this level  |
++-------------------+---------------------+-----------------------------+
+|                   | tb_lasti            | index of last attempted     |

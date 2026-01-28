@@ -1,0 +1,3 @@
+To specify the use of a secure protocol (TLS), pass in a tuple to
+   the *secure* argument. This will only be used when authentication
+   credentials are supplied. The tuple should be either an empty

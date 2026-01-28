@@ -1,0 +1,6 @@
+if name in globals():
+               obj = globals()[name]
+           else:
+               obj = __test__[name]
+           doctest.run_docstring_examples(obj, globals(), name=name,
+                                          optionflags=flags)

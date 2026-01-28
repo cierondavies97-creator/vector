@@ -1,0 +1,4 @@
+parsing text files formatted in HTML (HyperText Mark-up Language) and
+XHTML.
+class html.parser.HTMLParser(*, convert_charrefs=True, scripting=False)
+   Create a parser instance able to parse invalid markup.

@@ -1,0 +1,4 @@
+queue instance, such as "my.module.queue_factory()".
+* A dict with a "'()'" key which is constructed in the usual way as
+  discussed in User-defined objects. The result of this construction
+  should be a "queue.Queue" instance.

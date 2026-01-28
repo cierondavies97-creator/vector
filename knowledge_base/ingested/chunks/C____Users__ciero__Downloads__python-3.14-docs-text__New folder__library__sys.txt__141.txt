@@ -1,0 +1,2 @@
+|                                   |                                   | infinity  All other values for    |
+   |                                   |                                   | "FLT_ROUNDS" characterize         |

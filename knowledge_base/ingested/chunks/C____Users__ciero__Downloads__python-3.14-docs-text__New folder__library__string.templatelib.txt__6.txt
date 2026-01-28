@@ -1,0 +1,5 @@
+>>> type(template)
+   <class 'string.templatelib.Template'>
+   Templates are stored as sequences of literal "strings" and dynamic
+   "interpolations". A "values" attribute holds the values of the
+   interpolations:

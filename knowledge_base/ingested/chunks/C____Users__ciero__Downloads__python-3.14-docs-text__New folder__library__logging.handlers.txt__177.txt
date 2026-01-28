@@ -1,0 +1,4 @@
+emit(record)
+      Enqueues the result of preparing the LogRecord. Should an
+      exception occur (e.g. because a bounded queue has filled up),
+      the "handleError()" method is called to handle the error. This

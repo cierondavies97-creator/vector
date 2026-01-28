@@ -1,0 +1,3 @@
+Changed in version 3.5: Introduced the RuntimeError transformation
+   via "from __future__ import generator_stop", see **PEP 479**.
+   Changed in version 3.7: Enable **PEP 479** for all code by default:

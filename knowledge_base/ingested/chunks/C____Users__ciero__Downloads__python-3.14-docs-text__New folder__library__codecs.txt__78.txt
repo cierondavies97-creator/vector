@@ -1,0 +1,4 @@
+encoding, use the hexadecimal form of Unicode code point with
+   formats "\x*hh*" "\u*xxxx*" "\U*xxxxxxxx*". On decoding, use the
+   hexadecimal form of byte value with format "\x*hh*".
+   Changed in version 3.5: Works with decoding and translating.

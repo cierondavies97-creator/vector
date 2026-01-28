@@ -1,0 +1,4 @@
+given searching criteria using the *charset* argument for the
+   interpretation of strings in the searching criteria. It then
+   returns the matching messages threaded according to the specified
+   threading algorithm.

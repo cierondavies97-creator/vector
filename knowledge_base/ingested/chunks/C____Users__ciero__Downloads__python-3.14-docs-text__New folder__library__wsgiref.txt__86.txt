@@ -1,0 +1,4 @@
+"app" is the WSGI application object you wish to invoke.
+   Added in version 3.2.
+class wsgiref.handlers.BaseCGIHandler(stdin, stdout, stderr, environ, multithread=True, multiprocess=False)
+   Similar to "CGIHandler", but instead of using the "sys" and "os"

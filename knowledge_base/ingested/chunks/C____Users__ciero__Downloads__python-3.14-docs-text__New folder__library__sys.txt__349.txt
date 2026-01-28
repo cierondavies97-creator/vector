@@ -1,0 +1,4 @@
+stream no matter if the "sys.std*" object has been redirected.
+   It can also be used to restore the actual files to known working
+   file objects in case they have been overwritten with a broken
+   object.  However, the preferred way to do this is to explicitly

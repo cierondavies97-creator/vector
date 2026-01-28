@@ -1,0 +1,3 @@
++---------------------+--------------------------------------------+
+   Registering a file descriptor that's already registered is not an
+   error, and has the same effect as registering the descriptor

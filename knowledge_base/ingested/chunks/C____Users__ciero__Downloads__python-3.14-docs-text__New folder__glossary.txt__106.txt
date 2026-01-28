@@ -1,0 +1,5 @@
+also be passed zero or more *arguments* which may be used in the
+   execution of the body. See also *parameter*, *method*, and the
+   Function definitions section.
+function annotation
+   An *annotation* of a function parameter or return value.

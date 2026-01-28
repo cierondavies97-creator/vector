@@ -1,0 +1,3 @@
+|           | "float". For "Decimal", the coefficient of the result is   |
+   |           | formed from the coefficient digits of the value;           |
+   |           | scientific notation is used for values smaller than "1e-6" |

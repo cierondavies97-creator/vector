@@ -1,0 +1,4 @@
+Added in version 3.3.
+   Changed in version 3.6: The default value for the "namespace"
+   element of the returned tuple has changed.  Now an insertion-order-
+   preserving mapping is used when the metaclass does not have a

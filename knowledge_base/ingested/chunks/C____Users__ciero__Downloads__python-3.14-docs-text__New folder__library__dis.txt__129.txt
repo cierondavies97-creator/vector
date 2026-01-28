@@ -1,0 +1,4 @@
+source expression and pushes the resulting object onto the stack.
+   If no conversion or format specification is present, "format" is
+   set to "2".
+   If the low bit of "format" is set, it indicates that the

@@ -1,0 +1,6 @@
+"log()".
+Trigonometric functions
+=======================
+cmath.acos(z)
+   Return the arc cosine of *z*. There are two branch cuts: One
+   extends right from 1 along the real axis to ∞. The other extends

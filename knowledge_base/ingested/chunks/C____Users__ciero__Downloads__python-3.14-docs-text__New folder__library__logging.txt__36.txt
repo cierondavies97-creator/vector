@@ -1,0 +1,4 @@
+messages will be processed. Otherwise, the root's level will be
+      used as the effective level.
+      See Logging Levels for a list of levels.
+      Changed in version 3.2: The *level* parameter now accepts a

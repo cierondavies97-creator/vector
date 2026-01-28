@@ -1,0 +1,5 @@
+command line option can be used to start tracing at startup.
+   See also "stop()", "is_tracing()" and "get_traceback_limit()"
+   functions.
+tracemalloc.stop()
+   Stop tracing Python memory allocations: uninstall hooks on Python

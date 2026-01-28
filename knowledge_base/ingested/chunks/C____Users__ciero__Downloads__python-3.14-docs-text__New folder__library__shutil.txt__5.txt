@@ -1,0 +1,3 @@
+without looping over the source data in chunks; by default the data
+   is read in chunks to avoid uncontrolled memory consumption. Note
+   that if the current file position of the *fsrc* object is not 0,

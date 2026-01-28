@@ -1,0 +1,8 @@
+"value" member.  Otherwise, re-raise "STACK[-1]".
+   Added in version 3.12.
+**Miscellaneous opcodes**
+SET_ADD(i)
+   Implements:
+      item = STACK.pop()
+      set.add(STACK[-i], item)
+   Used to implement set comprehensions.

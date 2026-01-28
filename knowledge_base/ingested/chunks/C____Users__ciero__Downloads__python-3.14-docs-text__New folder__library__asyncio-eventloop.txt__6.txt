@@ -1,0 +1,4 @@
+Because this function has rather complex behavior (especially when
+   custom event loop policies are in use), using the
+   "get_running_loop()" function is preferred to "get_event_loop()" in
+   coroutines and callbacks.

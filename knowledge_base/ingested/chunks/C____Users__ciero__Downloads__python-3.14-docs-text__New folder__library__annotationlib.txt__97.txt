@@ -1,0 +1,6 @@
+source code; others are unsupported, meaning that they may result in
+incorrect output or an error.
+The following are supported (sometimes with caveats):
+* "ast.BinOp"
+* "ast.UnaryOp"
+  * "ast.Invert" ("~"), "ast.UAdd" ("+"), and "ast.USub" ("-") are

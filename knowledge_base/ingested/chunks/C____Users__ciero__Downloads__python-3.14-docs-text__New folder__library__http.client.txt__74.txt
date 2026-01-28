@@ -1,0 +1,6 @@
+HTTPResponse.msg
+   A "http.client.HTTPMessage" instance containing the response
+   headers.  "http.client.HTTPMessage" is a subclass of
+   "email.message.Message".
+HTTPResponse.version
+   HTTP protocol version used by server.  10 for HTTP/1.0, 11 for

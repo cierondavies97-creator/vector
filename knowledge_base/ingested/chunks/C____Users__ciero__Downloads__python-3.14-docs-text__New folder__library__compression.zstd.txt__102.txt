@@ -1,0 +1,3 @@
+Size of the multi-probe search table, as a power of two. The
+      resulting memory usage is "1 << (chain_log+2)" bytes. Larger
+      tables result in better and slower compression. This parameter

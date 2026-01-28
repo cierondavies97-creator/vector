@@ -1,0 +1,4 @@
+package.
+"importlib.metadata" operates on third-party *distribution packages*
+installed into Python's "site-packages" directory via tools such as
+pip. Specifically, it works with distributions with discoverable

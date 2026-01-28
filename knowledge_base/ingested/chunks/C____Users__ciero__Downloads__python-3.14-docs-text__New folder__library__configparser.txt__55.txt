@@ -1,0 +1,4 @@
+Added in version 3.2.
+Mapping protocol access is a generic name for functionality that
+enables using custom objects as if they were dictionaries.  In case of
+"configparser", the mapping interface implementation is using the

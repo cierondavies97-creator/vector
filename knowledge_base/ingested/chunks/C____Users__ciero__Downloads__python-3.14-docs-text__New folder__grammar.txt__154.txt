@@ -1,0 +1,2 @@
+CHECK_VERSION(arguments_ty, 8, "Positional-only parameters are", _PyPegen_make_arguments(p, a, NULL, b, c, d)) }
+       | a=lambda_slash_with_default b=lambda_param_with_default* c=[lambda_star_etc] {

@@ -1,0 +1,4 @@
+*section* to an integer.  See "get()" for explanation of *raw*,
+      *vars* and *fallback*.
+   getfloat(section, option, *, raw=False, vars=None[, fallback])
+      A convenience method which coerces the *option* in the specified

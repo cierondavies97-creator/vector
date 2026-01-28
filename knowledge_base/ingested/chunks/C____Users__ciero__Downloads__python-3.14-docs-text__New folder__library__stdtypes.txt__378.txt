@@ -1,0 +1,6 @@
+'eggs, spam, spam'
+   Changed in version 3.13: *count* is now supported as a keyword
+   argument.
+str.rfind(sub[, start[, end]])
+   Return the highest index in the string where substring *sub* is
+   found, such that *sub* is contained within "s[start:end]".

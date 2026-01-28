@@ -1,0 +1,4 @@
+the declared type as the converter dictionary key. For example:
+      CREATE TABLE test(
+         i integer primary key,  ! will look up a converter named "integer"
+         p point,                ! will look up a converter named "point"

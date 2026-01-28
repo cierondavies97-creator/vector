@@ -1,0 +1,5 @@
+starting *max_workers* worker threads too.
+   Changed in version 3.13: Default value of *max_workers* is changed
+   to "min(32, (os.process_cpu_count() or 1) + 4)".
+ThreadPoolExecutor Example
+--------------------------

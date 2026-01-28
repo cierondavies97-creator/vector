@@ -1,0 +1,5 @@
+the same path.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.isjunction(path)
+   Return "True" if *path* refers to an "existing" directory entry
+   that is a junction.  Always return "False" if junctions are not

@@ -1,0 +1,5 @@
+content (payload) of the message.
+   walk()
+      The "walk()" method is an all-purpose generator which can be
+      used to iterate over all the parts and subparts of a message
+      object tree, in depth-first traversal order.  You will typically

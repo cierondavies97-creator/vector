@@ -1,0 +1,4 @@
++----------------------------------------------------+----------------------------------------------------+
+The following non-token constants are provided:
+token.N_TOKENS
+   The number of token types defined in this module.

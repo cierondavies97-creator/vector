@@ -1,0 +1,4 @@
+objects ("__new__()" to create it, and "__init__()" to customize
+   it), no non-"None" value may be returned by "__init__()"; doing so
+   will cause a "TypeError" to be raised at runtime.
+object.__del__(self)

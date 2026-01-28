@@ -1,0 +1,4 @@
+*title*
+         Specifies a string to display as the title of the message
+         box. This option is ignored on macOS, where platform
+         guidelines forbid the use of a title on this kind of dialog.

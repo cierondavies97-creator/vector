@@ -1,0 +1,4 @@
+how you start IDLE.  Thereafter, use the File menu.  There can be only
+one open editor window for a given file.
+The title bar contains the name of the file, the full path, and the
+version of Python and IDLE running the window.  The status bar

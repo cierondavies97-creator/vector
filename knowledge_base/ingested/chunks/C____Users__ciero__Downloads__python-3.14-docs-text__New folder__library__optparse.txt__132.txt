@@ -1,0 +1,7 @@
+undefined.
+OptionParser.get_version()
+   Same as "print_version()" but returns the version string instead of
+   printing it.
+How "optparse" handles errors
+-----------------------------
+There are two broad classes of errors that "optparse" has to worry

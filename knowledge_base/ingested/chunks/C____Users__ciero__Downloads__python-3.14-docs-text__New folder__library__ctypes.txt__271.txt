@@ -1,0 +1,4 @@
+callable(result, func, arguments)
+         *result* is what the foreign function returns, as specified
+         by the "restype" attribute.
+         *func* is the foreign function object itself, this allows

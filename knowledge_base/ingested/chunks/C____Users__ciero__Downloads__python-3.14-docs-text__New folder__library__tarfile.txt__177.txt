@@ -1,0 +1,5 @@
+my_tarfile.extractall()
+Stateful extraction filter example
+----------------------------------
+While *tarfile*'s extraction methods take a simple *filter* callable,
+custom filters may be more complex objects with an internal state. It

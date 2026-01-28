@@ -1,0 +1,4 @@
+"endPrefixMapping()" events supply the information to the
+   application to expand prefixes in those contexts itself, if
+   necessary.
+   Note that "startPrefixMapping()" and "endPrefixMapping()" events

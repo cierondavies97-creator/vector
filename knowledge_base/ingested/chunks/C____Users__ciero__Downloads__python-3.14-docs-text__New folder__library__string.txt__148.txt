@@ -1,0 +1,6 @@
+Template strings ($-strings)
+============================
+Note:
+  The feature described here was introduced in Python 2.4; a simple
+  templating method based upon regular expressions. It predates
+  "str.format()", formatted string literals, and template string

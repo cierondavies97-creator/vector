@@ -1,0 +1,3 @@
+advantage that there are no restrictions imposed by external standards
+such as JSON (which can't represent pointer sharing); however it means
+that non-Python programs may not be able to reconstruct pickled Python

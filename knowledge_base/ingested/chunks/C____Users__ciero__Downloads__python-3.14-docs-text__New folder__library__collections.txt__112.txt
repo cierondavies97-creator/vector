@@ -1,0 +1,5 @@
+the standard "dict" operations:
+   __missing__(key)
+      If the "default_factory" attribute is "None", this raises a
+      "KeyError" exception with the *key* as argument.
+      If "default_factory" is not "None", it is called without

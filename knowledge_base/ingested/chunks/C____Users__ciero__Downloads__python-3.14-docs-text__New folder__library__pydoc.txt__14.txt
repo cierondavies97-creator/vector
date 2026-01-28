@@ -1,0 +1,4 @@
+change the host name that the server responds to.  During development
+this is especially useful if you want to run pydoc from within a
+container.
+**python -m pydoc -b** will start the server and additionally open a

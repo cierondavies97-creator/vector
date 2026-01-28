@@ -1,0 +1,4 @@
+imported in an interpreter with its own GIL.
+   Note that this function is meant to accommodate an unusual case;
+   one which is likely to eventually go away.  There's is a pretty
+   good chance this is not what you were looking for.

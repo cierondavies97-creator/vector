@@ -1,0 +1,4 @@
+>>> optlist, args = getopt.getopt(args, 'x', [
+   ...     'condition=', 'output-file=', 'testing'])
+   >>> optlist
+   [('--condition', 'foo'), ('--testing', ''), ('--output-file', 'abc.def'), ('-x', '')]

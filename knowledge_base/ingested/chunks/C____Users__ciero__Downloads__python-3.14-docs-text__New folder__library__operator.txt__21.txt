@@ -1,0 +1,6 @@
+operator.setitem(a, b, c)
+operator.__setitem__(a, b, c)
+   Set the value of *a* at index *b* to *c*.
+operator.length_hint(obj, default=0)
+   Return an estimated length for the object *obj*. First try to
+   return its actual length, then an estimate using

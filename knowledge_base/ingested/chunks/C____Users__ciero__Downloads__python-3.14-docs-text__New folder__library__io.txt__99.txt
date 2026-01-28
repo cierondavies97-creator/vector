@@ -1,0 +1,6 @@
+The caller may release or mutate *b* after this method returns,
+      so the implementation should only access *b* during the method
+      call.
+Raw File I/O
+------------
+class io.FileIO(name, mode='r', closefd=True, opener=None)

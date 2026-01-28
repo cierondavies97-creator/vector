@@ -1,0 +1,7 @@
+the Sorting HOW TO for examples of how to create and use key
+   functions.
+keyword argument
+   See *argument*.
+lambda
+   An anonymous inline function consisting of a single *expression*
+   which is evaluated when the function is called.  The syntax to

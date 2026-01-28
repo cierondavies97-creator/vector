@@ -1,0 +1,4 @@
+*O*(*number of file descriptors*).
+poll.register(fd[, eventmask])
+   Register a file descriptor with the polling object.  Future calls
+   to the "poll()" method will then check whether the file descriptor

@@ -1,0 +1,5 @@
+# Close object and discard memory buffer --
+      # .getvalue() will now raise an exception.
+      output.close()
+class io.IncrementalNewlineDecoder
+   A helper codec that decodes newlines for *universal newlines* mode.

@@ -1,0 +1,7 @@
+* Set Types --- "set", "frozenset"
+  * Mapping Types --- "dict"
+  * Context Manager Types
+  * Type Annotation Types --- *Generic Alias*, *Union*
+  * Other Built-in Types
+  * Special Attributes
+  * Integer string conversion length limitation

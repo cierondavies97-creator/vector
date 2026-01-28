@@ -1,0 +1,3 @@
+| compound       | Specifies how to display the image relative to the text, in |
+|                | the case both text and images options are present. Valid    |
+|                | values are:  * text: display text only  * image: display    |

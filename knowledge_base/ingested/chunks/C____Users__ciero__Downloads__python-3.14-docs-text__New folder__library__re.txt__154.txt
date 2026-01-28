@@ -1,0 +1,4 @@
+['0', '3', '9']
+   If there are capturing groups in the separator and it matches at
+   the start of the string, the result will start with an empty
+   string.  The same holds for the end of the string:

@@ -1,0 +1,5 @@
+Availability: Windows, macOS, iOS, glibc, BSD libc, musl
+   Added in version 3.14.
+ctypes.FormatError([code])
+   Returns a textual description of the error code *code*.  If no
+   error code is specified, the last error code is used by calling the

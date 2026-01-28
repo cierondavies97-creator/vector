@@ -1,0 +1,4 @@
+be consulted to determine if the current directory should be
+   prepended to *path*. To avoid consulting the current working
+   directory for executables: set the environment variable
+   "NoDefaultCurrentDirectoryInExePath".

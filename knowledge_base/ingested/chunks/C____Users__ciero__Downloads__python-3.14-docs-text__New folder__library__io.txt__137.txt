@@ -1,0 +1,5 @@
+the concept of an underlying buffer and calling this method will
+      raise "UnsupportedOperation".
+      Added in version 3.1.
+   read(size=-1, /)
+      Read and return at most *size* characters from the stream as a

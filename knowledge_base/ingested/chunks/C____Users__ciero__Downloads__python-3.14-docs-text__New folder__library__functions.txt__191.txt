@@ -1,0 +1,4 @@
+is exhausted.  If *strict* is "True" and one of the iterables is
+   exhausted before the others, a "ValueError" is raised. For cases
+   where the function inputs are already arranged into argument
+   tuples, see "itertools.starmap()".

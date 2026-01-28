@@ -1,0 +1,3 @@
+calendar in Dershowitz and Reingold's book "Calendrical Calculations",
+where it's the base calendar for all computations.  Zero and negative
+years are interpreted as prescribed by the ISO 8601 standard.  Year 0

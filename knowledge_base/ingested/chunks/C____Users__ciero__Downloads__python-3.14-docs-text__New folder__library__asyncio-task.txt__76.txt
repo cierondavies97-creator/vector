@@ -1,0 +1,9 @@
+factorial("A", 2),
+              factorial("B", 3),
+              factorial("C", 4),
+          )
+          print(L)
+      asyncio.run(main())
+      # Expected output:
+      #
+      #     Task A: Compute factorial(2), currently i=2...

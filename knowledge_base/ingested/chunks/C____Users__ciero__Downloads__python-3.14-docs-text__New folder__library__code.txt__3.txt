@@ -1,0 +1,3 @@
+The optional *locals* argument specifies a mapping to use as the
+   namespace in which code will be executed; it defaults to a newly
+   created dictionary with key "'__name__'" set to "'__console__'" and

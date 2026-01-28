@@ -1,0 +1,7 @@
+Added in version 3.4.
+ssl.VERIFY_ALLOW_PROXY_CERTS
+   Possible value for "SSLContext.verify_flags" to enables proxy
+   certificate verification.
+   Added in version 3.10.
+ssl.VERIFY_X509_TRUSTED_FIRST
+   Possible value for "SSLContext.verify_flags". It instructs OpenSSL

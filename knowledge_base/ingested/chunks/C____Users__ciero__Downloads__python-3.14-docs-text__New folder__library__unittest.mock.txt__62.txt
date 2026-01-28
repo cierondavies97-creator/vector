@@ -1,0 +1,4 @@
+<Mock name='mock()' id='...'>
+      Note that "reset_mock()" *doesn't* clear the "return_value",
+      "side_effect" or any child attributes you have set using normal
+      assignment by default.

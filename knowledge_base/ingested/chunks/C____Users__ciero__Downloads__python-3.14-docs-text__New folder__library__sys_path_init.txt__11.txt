@@ -1,0 +1,4 @@
+value, see "sys.platlibdir" and "PYTHONPLATLIBDIR".
+Once found, "prefix" and "exec_prefix" are available at
+"sys.base_prefix" and "sys.base_exec_prefix" respectively.
+If "PYTHONHOME" is not set, and a "pyvenv.cfg" file is found alongside

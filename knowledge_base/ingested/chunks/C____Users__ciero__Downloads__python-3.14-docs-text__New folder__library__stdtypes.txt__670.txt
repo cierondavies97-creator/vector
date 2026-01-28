@@ -1,0 +1,4 @@
+4. The alternate form causes the result to always contain a decimal
+   point, and trailing zeroes are not removed as they would otherwise
+   be.
+   The precision determines the number of significant digits before

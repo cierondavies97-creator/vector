@@ -1,0 +1,4 @@
+guidelines. One is to name the test module by starting it with "test_"
+and end it with the name of the module being tested. The test methods
+in the test module should start with "test_" and end with a
+description of what the method is testing. This is needed so that the

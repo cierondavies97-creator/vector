@@ -1,0 +1,6 @@
+print('Ordered results using pool.apply_async():')
+           for r in results:
+               print('\t', r.get())
+           print()
+           print('Ordered results using pool.imap():')
+           for x in imap_it:

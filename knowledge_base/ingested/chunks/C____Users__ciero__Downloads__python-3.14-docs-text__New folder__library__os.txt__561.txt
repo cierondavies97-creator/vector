@@ -1,0 +1,4 @@
+A flag for the "timerfd_create()" function, If "TFD_CLOEXEC" is set
+   as a flag, set close-on-exec flag for new file descriptor.
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.

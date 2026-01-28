@@ -1,0 +1,6 @@
+Decimal('31.01875')
+      >>> from fractions import Fraction as F
+      >>> variance([F(1, 6), F(1, 2), F(5, 3)])
+      Fraction(67, 108)
+   Note:
+     This is the sample variance s² with Bessel's correction, also

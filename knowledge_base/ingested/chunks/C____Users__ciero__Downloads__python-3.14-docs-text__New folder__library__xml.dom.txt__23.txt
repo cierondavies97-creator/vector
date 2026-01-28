@@ -1,0 +1,5 @@
+constants used for the "nodeType" attribute on concrete "Node"
+objects; they are located within the class rather than at the module
+level to conform with the DOM specifications.
+Objects in the DOM
+==================

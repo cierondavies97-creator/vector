@@ -1,0 +1,4 @@
+opportunities are only recognized by CPython for a limited set of
+(case insensitive) aliases: utf-8, utf8, latin-1, latin1, iso-8859-1,
+iso8859-1, mbcs (Windows only), ascii, us-ascii, utf-16, utf16,
+utf-32, utf32, and the same using underscores instead of dashes. Using

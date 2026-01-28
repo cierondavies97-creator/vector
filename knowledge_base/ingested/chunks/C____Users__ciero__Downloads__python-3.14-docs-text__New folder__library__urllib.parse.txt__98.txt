@@ -1,0 +1,6 @@
+of the individual URL quoting functions.
+Changed in version 3.2: URL parsing functions now accept ASCII encoded
+byte sequences
+Structured Parse Results
+========================
+The result objects from the "urlparse()", "urlsplit()"  and

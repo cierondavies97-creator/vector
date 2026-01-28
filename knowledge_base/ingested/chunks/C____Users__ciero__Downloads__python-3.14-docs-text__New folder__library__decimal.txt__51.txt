@@ -1,0 +1,5 @@
+"Decimal" with a single cast inside a loop.  With context set and
+decimals created, the bulk of the program manipulates the data no
+differently than with other Python numeric types.
+Decimal objects
+===============

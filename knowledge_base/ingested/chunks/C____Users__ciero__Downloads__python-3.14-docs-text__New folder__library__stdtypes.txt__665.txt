@@ -1,0 +1,3 @@
+| "'a'"        | Bytes (converts any Python object using               | (5)     |
+|              | "repr(obj).encode('ascii', 'backslashreplace')").     |         |
++--------------+-------------------------------------------------------+---------+

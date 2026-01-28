@@ -1,0 +1,9 @@
+and similar. Their behavior in these contexts is deliberately left
+  unspecified.
+   # PEG grammar for Python
+   @trailer '''
+   void *
+   _PyPegen_parse(Parser *p)
+   {
+       // Initialize keywords
+       p->keywords = reserved_keywords;

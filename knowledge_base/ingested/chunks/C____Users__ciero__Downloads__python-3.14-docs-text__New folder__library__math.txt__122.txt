@@ -1,0 +1,4 @@
+* Otherwise (*x* is a positive finite number), return the value of
+     the least significant bit of *x*, such that the first float
+     bigger than *x* is "x + ulp(x)".
+   ULP stands for "Unit in the Last Place".

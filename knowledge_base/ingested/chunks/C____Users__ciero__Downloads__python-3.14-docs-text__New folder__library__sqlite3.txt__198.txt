@@ -1,0 +1,4 @@
+bind to placeholders in *sql*. A "dict" if named
+           placeholders are used. A *sequence* if unnamed placeholders
+           are used. See How to use placeholders to bind values in SQL
+           queries.

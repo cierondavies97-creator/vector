@@ -1,0 +1,6 @@
+'system site-packages dir.')
+       if os.name == 'nt':
+           use_symlinks = False
+       else:
+           use_symlinks = True
+       parser.add_argument('--symlinks', default=use_symlinks,

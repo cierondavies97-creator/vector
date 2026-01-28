@@ -1,0 +1,5 @@
+Added in version 3.4.
+   Changed in version 3.4.4: RC4 was dropped from the default cipher
+   string.
+   Changed in version 3.6: ChaCha20/Poly1305 was added to the default
+   cipher string.3DES was dropped from the default cipher string.

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+Changed in version 3.3.
+Decimals interact well with much of the rest of Python.  Here is a

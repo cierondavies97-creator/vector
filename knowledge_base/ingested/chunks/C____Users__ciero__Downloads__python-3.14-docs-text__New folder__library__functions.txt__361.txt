@@ -1,0 +1,3 @@
+"builtins.__import__") in order to change semantics of the "import"
+   statement, but doing so is **strongly** discouraged as it is
+   usually simpler to use import hooks (see **PEP 302**) to attain the

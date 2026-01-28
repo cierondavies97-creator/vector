@@ -1,0 +1,3 @@
+"SymbolTableType" enumeration.The exact values of the returned
+      string may change in the future, and thus, it is recommended to
+      use "SymbolTableType" members instead of hard-coded strings.

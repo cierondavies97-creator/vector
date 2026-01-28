@@ -1,0 +1,3 @@
+wildcards. Broken symlinks are included in the results (as in the
+   shell). Whether or not the results are sorted depends on the file
+   system.  If a file that satisfies conditions is removed or added

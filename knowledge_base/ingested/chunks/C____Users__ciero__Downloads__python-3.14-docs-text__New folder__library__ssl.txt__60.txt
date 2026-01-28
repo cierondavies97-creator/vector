@@ -1,0 +1,5 @@
+*named tuple* "DefaultVerifyPaths":
+   * "cafile" - resolved path to cafile or "None" if the file doesn't
+     exist,
+   * "capath" - resolved path to capath or "None" if the directory
+     doesn't exist,

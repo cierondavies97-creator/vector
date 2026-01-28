@@ -1,0 +1,5 @@
+transformed to "From " when reading the message.
+   Some "Mailbox" methods implemented by "mbox" deserve special
+   remarks:
+   get_bytes(key, from_=False)
+      Note: This method has an extra parameter (*from_*) compared with

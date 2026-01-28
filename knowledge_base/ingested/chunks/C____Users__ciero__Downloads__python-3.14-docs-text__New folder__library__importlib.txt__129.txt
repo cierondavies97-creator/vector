@@ -1,0 +1,4 @@
+*Finder* for modules declared in the Windows registry.  This class
+   implements the "importlib.abc.MetaPathFinder" ABC.
+   Only class methods are defined by this class to alleviate the need
+   for instantiation.

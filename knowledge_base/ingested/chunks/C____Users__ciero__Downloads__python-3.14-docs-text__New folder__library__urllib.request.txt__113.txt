@@ -1,0 +1,4 @@
+special case which uses the HTTP response code to determine the
+   specific error handler; refer to the "http_error_<type>()" methods
+   of the handler classes.
+   Return values and exceptions raised are the same as those of

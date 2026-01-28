@@ -1,0 +1,6 @@
+and f-strings.
+   >>> format(ipaddress.IPv4Address('192.168.0.1'))
+   '192.168.0.1'
+   >>> '{:#b}'.format(ipaddress.IPv4Address('192.168.0.1'))
+   '0b11000000101010000000000000000001'
+   >>> f'{ipaddress.IPv6Address("2001:db8::1000"):s}'

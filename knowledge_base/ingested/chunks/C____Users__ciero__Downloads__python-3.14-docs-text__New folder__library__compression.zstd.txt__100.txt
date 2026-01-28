@@ -1,0 +1,5 @@
+better compression values.
+      A value of zero causes the value to be selected automatically.
+   hash_log
+      Size of the initial probe table, as a power of two. The
+      resulting memory usage is "1 << (hash_log+2)" bytes. Larger

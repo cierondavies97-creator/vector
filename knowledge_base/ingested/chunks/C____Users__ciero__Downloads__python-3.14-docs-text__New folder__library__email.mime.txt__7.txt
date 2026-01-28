@@ -1,0 +1,4 @@
+*plain* or *gif*).  *_params* is a parameter key/value dictionary
+   and is passed directly to "Message.add_header".
+   If *policy* is specified, (defaults to the "compat32" policy) it
+   will be passed to "Message".

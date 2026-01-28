@@ -1,0 +1,4 @@
+will be dispatched the same as "["foo", "bar", "baz"]". The
+     annotation provided in this example is for static type checkers
+     only and has no runtime impact.
+   To enable registering *lambdas* and pre-existing functions, the

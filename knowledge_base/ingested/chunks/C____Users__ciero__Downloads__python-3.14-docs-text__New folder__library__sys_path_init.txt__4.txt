@@ -1,0 +1,3 @@
+modules as well as any *extension module*s that these modules depend
+on. Extension modules are ".pyd" files on Windows and ".so" files on
+other platforms. The directory with the platform-independent Python

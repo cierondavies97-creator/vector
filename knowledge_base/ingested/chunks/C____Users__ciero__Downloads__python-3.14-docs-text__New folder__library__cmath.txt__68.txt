@@ -1,0 +1,8 @@
+"-inf" are only considered close to themselves.
+   Added in version 3.5.
+   See also:
+     **PEP 485** -- A function for testing approximate equality
+Constants
+=========
+cmath.pi
+   The mathematical constant *π*, as a float.

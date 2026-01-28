@@ -1,0 +1,4 @@
+# (to break a reference cycle)
+   Added in version 3.8.
+test.support.load_package_tests(pkg_dir, loader, standard_tests, pattern)
+   Generic implementation of the "unittest" "load_tests" protocol for

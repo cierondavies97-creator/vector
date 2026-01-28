@@ -1,0 +1,5 @@
+FeedParser API
+==============
+The "BytesFeedParser", imported from the "email.feedparser" module,
+provides an API that is conducive to incremental parsing of email
+messages, such as would be necessary when reading the text of an email

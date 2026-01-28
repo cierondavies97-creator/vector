@@ -1,0 +1,6 @@
+>>> parser.feed('<img src="python-logo.png" alt="The Python logo">')
+   Start tag: img
+        attr: ('src', 'python-logo.png')
+        attr: ('alt', 'The Python logo')
+   >>>
+   >>> parser.feed('<h1>Python</h1>')

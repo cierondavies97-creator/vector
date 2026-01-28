@@ -1,0 +1,4 @@
+One way to open a box is to type a key character and wait for a
+predefined interval.  This defaults to 2 seconds; customize it in the
+settings dialog.  (To prevent auto popups, set the delay to a large
+number of milliseconds, such as 100000000.) For imported module names

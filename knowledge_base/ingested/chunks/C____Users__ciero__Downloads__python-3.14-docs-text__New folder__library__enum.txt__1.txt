@@ -1,0 +1,7 @@
+* Basic Tutorial
+* Advanced Tutorial
+* Enum Cookbook
+======================================================================
+An enumeration:
+* is a set of symbolic names (members) bound to unique values
+* can be iterated over to return its canonical (i.e. non-alias)

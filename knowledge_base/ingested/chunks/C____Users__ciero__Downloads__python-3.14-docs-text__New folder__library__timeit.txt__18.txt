@@ -1,0 +1,5 @@
+the timing overhead is a little larger in this case because of the
+   extra function calls.
+   Changed in version 3.5: The optional *globals* parameter was added.
+   timeit(number=1000000)
+      Time *number* executions of the main statement.  This executes

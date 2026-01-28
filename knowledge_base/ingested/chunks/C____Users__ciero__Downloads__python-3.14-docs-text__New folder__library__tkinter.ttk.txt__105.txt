@@ -1,0 +1,8 @@
+a new tab is selected.
+ttk.Notebook
+------------
+class tkinter.ttk.Notebook
+   add(child, **kw)
+      Adds a new tab to the notebook.
+      If window is currently managed by the notebook but hidden, it is
+      restored to its previous position.

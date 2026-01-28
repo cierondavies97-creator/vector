@@ -1,0 +1,4 @@
+Return *base* to the power *exp*; if *mod* is present, return
+   *base* to the power *exp*, modulo *mod* (computed more efficiently
+   than "pow(base, exp) % mod"). The two-argument form "pow(base,
+   exp)" is equivalent to using the power operator: "base**exp".

@@ -1,0 +1,5 @@
+""")
+         for row in con.execute("SELECT rowid, name, ingredients FROM recipe WHERE name MATCH 'pie'"):
+             print(row)
+   load_extension(path, /, *, entrypoint=None)
+      Load an SQLite extension from a shared library. Enable extension

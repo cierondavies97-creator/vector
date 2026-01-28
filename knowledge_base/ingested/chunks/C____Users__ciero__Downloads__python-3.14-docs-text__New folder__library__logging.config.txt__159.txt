@@ -1,0 +1,7 @@
+formatter=form05
+   args=(('localhost', handlers.SYSLOG_UDP_PORT), handlers.SysLogHandler.LOG_USER)
+   [handler_hand06]
+   class=handlers.NTEventLogHandler
+   level=CRITICAL
+   formatter=form06
+   args=('Python Application', '', 'Application')

@@ -1,0 +1,4 @@
+used portably to restore it, that is not very useful (except perhaps
+to find out whether or not the locale is "C").
+When Python code uses the "locale" module to change the locale, this
+also affects the embedding application.  If the embedding application

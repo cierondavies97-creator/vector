@@ -1,0 +1,3 @@
+The functions and classes defined in this module use an idealized
+calendar, the current Gregorian calendar extended indefinitely in both
+directions.  This matches the definition of the "proleptic Gregorian"

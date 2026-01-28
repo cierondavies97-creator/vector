@@ -1,0 +1,7 @@
+key-press-event if no key is given. Remark: in order to be able to
+   register key-events, TurtleScreen must have focus. (See method
+   "listen()".)
+      >>> def f():
+      ...     fd(50)
+      ...
+      >>> screen.onkey(f, "Up")

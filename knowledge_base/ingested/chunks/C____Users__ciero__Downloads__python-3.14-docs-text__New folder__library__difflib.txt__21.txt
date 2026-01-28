@@ -1,0 +1,4 @@
+table showing line by line differences with inter-line and
+      intra-line changes highlighted.
+      *fromdesc* and *todesc* are optional keyword arguments to
+      specify from/to file column header strings (both default to an

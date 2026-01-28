@@ -1,0 +1,6 @@
+line-wrapped, but this behavior can be adjusted with the
+formatter_class argument to "ArgumentParser".
+parents
+-------
+Sometimes, several parsers share a common set of arguments. Rather
+than repeating the definitions of these arguments, a single parser

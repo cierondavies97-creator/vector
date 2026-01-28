@@ -1,0 +1,6 @@
+The code object is optimized, using fast locals.
+inspect.CO_NEWLOCALS
+   If set, a new dict will be created for the frame's "f_locals" when
+   the code object is executed.
+inspect.CO_VARARGS
+   The code object has a variable positional parameter ("*args"-like).

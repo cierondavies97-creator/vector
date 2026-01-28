@@ -1,0 +1,4 @@
++----------------------------------------------------+----------------------------------------------------+
+-[ Examples ]-
+* Handling CancelledError to run code on cancellation request.
+* See also the full list of asyncio-specific exceptions.

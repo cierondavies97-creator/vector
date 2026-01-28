@@ -1,0 +1,4 @@
+If a test module defines "load_tests" it will be called by
+"TestLoader.loadTestsFromModule()" with the following arguments:
+   load_tests(loader, standard_tests, pattern)
+where *pattern* is passed straight through from "loadTestsFromModule".

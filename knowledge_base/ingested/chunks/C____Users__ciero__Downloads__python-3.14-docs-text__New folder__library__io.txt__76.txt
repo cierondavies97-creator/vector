@@ -1,0 +1,5 @@
+multiple calls to the stream if necessary.
+   readinto(b, /)
+      Read bytes into a pre-allocated, writable *bytes-like object*
+      *b*, and return the number of bytes read.  For example, *b*
+      might be a "bytearray". If the object is in non-blocking mode

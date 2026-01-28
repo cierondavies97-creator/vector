@@ -1,0 +1,4 @@
+are returned. Otherwise, only one system call is ever made.
+      Fewer than *size* bytes may be returned if the operating system
+      call returns fewer than *size* bytes.
+      If 0 bytes are returned, and *size* was not 0, this indicates

@@ -1,0 +1,4 @@
+this role). Nevertheless Unicode software still must be able to handle
+"U+FEFF" in both roles: as a BOM it's a device to determine the
+storage layout of the encoded bytes, and vanishes once the byte
+sequence has been decoded into a string; as a "ZERO WIDTH NO-BREAK

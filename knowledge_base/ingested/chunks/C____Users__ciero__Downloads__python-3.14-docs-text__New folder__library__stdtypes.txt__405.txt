@@ -1,0 +1,4 @@
+Unlike "split()" when a delimiter string *sep* is given, this
+   method returns an empty list for the empty string, and a terminal
+   line break does not result in an extra line:
+      >>> "".splitlines()

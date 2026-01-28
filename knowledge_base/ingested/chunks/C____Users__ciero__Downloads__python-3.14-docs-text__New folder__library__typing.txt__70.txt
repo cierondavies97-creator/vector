@@ -1,0 +1,6 @@
+User-defined generic types
+==========================
+A user-defined class can be defined as a generic class.
+   from logging import Logger
+   class LoggedVar[T]:
+       def __init__(self, value: T, name: str, logger: Logger) -> None:

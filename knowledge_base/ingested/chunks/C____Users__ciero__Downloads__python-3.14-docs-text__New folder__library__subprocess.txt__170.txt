@@ -1,0 +1,6 @@
+contain additional information.
+subprocess.STARTF_USESHOWWINDOW
+   Specifies that the "STARTUPINFO.wShowWindow" attribute contains
+   additional information.
+subprocess.STARTF_FORCEONFEEDBACK
+   A "STARTUPINFO.dwFlags" parameter to specify that the *Working in

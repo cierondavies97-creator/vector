@@ -1,0 +1,4 @@
+Since Python 3.10, instead of passing *value* and *tb*, an
+   exception object can be passed as the first argument. If *value*
+   and *tb* are provided, the first argument is ignored in order to
+   provide backwards compatibility.

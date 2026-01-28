@@ -1,0 +1,4 @@
+counter; it defaults to "1". If the *value* given is less than 0,
+   "ValueError" is raised.
+   Changed in version 3.3: changed from a factory function to a class.
+   acquire(blocking=True, timeout=None)

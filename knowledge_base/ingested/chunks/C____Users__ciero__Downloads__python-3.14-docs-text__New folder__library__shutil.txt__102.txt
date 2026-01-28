@@ -1,0 +1,4 @@
+"bztar" (if the "bz2" module is available), "xztar" (if the "lzma"
+   module is available), or "zstdtar" (if the "compression.zstd"
+   module is available).
+   *root_dir* is a directory that will be the root directory of the

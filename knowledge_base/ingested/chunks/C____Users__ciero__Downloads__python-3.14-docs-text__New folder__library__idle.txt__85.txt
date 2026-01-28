@@ -1,0 +1,4 @@
+Clicking on a line in the context pane will move that line to the top
+of the editor.
+The text and background colors for the context pane can be configured
+under the Highlights tab in the Configure IDLE dialog.

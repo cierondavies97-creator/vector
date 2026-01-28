@@ -1,0 +1,5 @@
+Truth Value Testing
+===================
+Any object can be tested for truth value, for use in an "if" or
+"while" condition or as operand of the Boolean operations below.
+By default, an object is considered true unless its class defines

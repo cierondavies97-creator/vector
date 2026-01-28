@@ -1,0 +1,3 @@
+|                   | "readonly" state, the value may not be edited directly,  |
+|                   | and the user can only selection of the values from the   |
+|                   | dropdown list. In the "normal" state, the text field is  |

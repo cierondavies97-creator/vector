@@ -1,0 +1,4 @@
+An "SMTP_SSL" instance behaves exactly the same as instances of
+   "SMTP". "SMTP_SSL" should be used for situations where SSL is
+   required from the beginning of the connection and using
+   "starttls()" is not appropriate. If *host* is not specified, the

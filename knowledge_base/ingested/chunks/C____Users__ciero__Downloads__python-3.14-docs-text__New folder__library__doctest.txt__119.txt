@@ -1,0 +1,6 @@
+across platforms, because Python defers to the platform C library for
+some floating-point calculations, and C libraries vary widely in
+quality here.
+   >>> 1000**0.1  # risky
+   1.9952623149688797
+   >>> round(1000**0.1, 9) # safer

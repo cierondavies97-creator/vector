@@ -1,0 +1,3 @@
+send failures caused by writing too many packets.The socket always
+  appears 'ready' and excess packets are dropped. An "OSError" with
+  "errno" set to "errno.ENOBUFS" may or may not be raised; if it is

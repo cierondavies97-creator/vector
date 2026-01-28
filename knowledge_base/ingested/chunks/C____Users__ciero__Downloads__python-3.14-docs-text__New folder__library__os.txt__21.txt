@@ -1,0 +1,4 @@
+default. However, they still use the strict error handler by default
+  so that attempting to open a binary file in text mode is likely to
+  raise an exception rather than producing nonsense data.
+The Python UTF-8 Mode is enabled if the LC_CTYPE locale is "C" or

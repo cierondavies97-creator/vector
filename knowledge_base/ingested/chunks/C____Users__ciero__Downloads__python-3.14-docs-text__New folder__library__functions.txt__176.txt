@@ -1,0 +1,5 @@
+block-reader. For example, reading fixed-width blocks from a binary
+   database file until the end of file is reached:
+      from functools import partial
+      with open('mydata.db', 'rb') as f:
+          for block in iter(partial(f.read, 64), b''):

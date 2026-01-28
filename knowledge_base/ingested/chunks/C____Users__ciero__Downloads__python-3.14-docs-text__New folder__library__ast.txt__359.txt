@@ -1,0 +1,4 @@
+calls a visitor function for every node found.  This function may
+   return a value which is forwarded by the "visit()" method.
+   This class is meant to be subclassed, with the subclass adding
+   visitor methods.

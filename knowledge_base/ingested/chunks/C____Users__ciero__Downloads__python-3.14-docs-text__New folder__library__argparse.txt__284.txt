@@ -1,0 +1,8 @@
+>>> def foo(args):
+      ...     print(args.x * args.y)
+      ...
+      >>> def bar(args):
+      ...     print('((%s))' % args.z)
+      ...
+      >>> # create the top-level parser
+      >>> parser = argparse.ArgumentParser()

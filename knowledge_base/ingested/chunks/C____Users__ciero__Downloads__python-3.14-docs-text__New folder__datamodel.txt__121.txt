@@ -1,0 +1,5 @@
+executes a "return" statement or falls off the end, a "StopIteration"
+exception is raised and the iterator will have reached the end of the
+set of values to be returned.
+3.2.8.4. Coroutine functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~

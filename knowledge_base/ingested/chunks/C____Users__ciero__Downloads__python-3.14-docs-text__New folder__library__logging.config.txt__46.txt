@@ -1,0 +1,6 @@
+* "datefmt"
+  * "style"
+  * "validate" (since version >=3.8)
+  * "defaults" (since version >=3.12)
+  An optional "class" key indicates the name of the formatter's class
+  (as a dotted module and class name).  The instantiation arguments

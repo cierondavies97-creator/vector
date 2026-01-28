@@ -1,0 +1,6 @@
+with a non-zero real part are also surrounded by parentheses),
+possibly altered by other format modifiers.
+Format examples
+---------------
+This section contains examples of the "str.format()" syntax and
+comparison with the old "%"-formatting.

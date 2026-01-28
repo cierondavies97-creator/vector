@@ -1,0 +1,5 @@
+with the name of the widget pathname, with the first parameter to that
+command being the name of a method to call).
+   .frm.btn invoke
+   .frm.lbl configure -text "Goodbye"
+In the official Tcl/Tk reference documentation, you'll find most

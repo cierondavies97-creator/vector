@@ -1,0 +1,4 @@
+This method splits on the following line boundaries.  In
+   particular, the boundaries are a superset of *universal newlines*.
+   +-------------------------+-------------------------------+
+   | Representation          | Description                   |

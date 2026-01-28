@@ -1,0 +1,6 @@
+(section 12); it's recommended to review the security section for any
+code deployed to production.
+See also:
+  Module "binascii"
+     Support module containing ASCII-to-binary and binary-to-ASCII
+     conversions.

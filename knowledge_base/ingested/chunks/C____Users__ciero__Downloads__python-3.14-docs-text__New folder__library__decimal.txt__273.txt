@@ -1,0 +1,4 @@
+to the current thread.
+If "setcontext()" has not been called before "getcontext()", then
+"getcontext()" will automatically create a new context for use in the
+current thread.  New context objects have default values set from the

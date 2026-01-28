@@ -1,0 +1,6 @@
+generator has already exited due to an exception or normal exit,
+   then further calls to "aclose()" will return an awaitable that does
+   nothing.
+6.3. Primaries
+==============
+Primaries represent the most tightly bound operations of the language.

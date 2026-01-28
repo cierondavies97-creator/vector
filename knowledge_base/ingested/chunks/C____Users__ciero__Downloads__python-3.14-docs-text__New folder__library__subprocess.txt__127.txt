@@ -1,0 +1,4 @@
+vulnerabilities. On some platforms, it is possible to use
+"shlex.quote()" for this escaping.
+On Windows, batch files ("*.bat" or "*.cmd") may be launched by the
+operating system in a system shell regardless of the arguments passed

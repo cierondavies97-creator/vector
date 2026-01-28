@@ -1,0 +1,9 @@
+{
+       return system(command);
+   }
+The function "spam_system()" is modified in a trivial way:
+   static PyObject *
+   spam_system(PyObject *self, PyObject *args)
+   {
+       const char *command;
+       int sts;

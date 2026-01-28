@@ -1,0 +1,4 @@
+REMOVED = '<removed-task>'      # placeholder for a removed task
+   counter = itertools.count()     # unique sequence count
+   def add_task(task, priority=0):
+       'Add a new task or update the priority of an existing task'

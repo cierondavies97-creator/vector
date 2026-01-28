@@ -1,0 +1,3 @@
+this is done simply open e.g. "encodings/cp1252.py" (which is an
+encoding that is used primarily on Windows). There's a string constant
+with 256 characters that shows you which character is mapped to which

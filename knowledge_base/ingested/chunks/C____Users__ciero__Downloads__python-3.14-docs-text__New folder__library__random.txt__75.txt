@@ -1,0 +1,4 @@
+>>> choices(['red', 'black', 'green'], [18, 18, 2], k=6)
+   ['red', 'green', 'black', 'black', 'red', 'black']
+   >>> # Deal 20 cards without replacement from a deck
+   >>> # of 52 playing cards, and determine the proportion of cards

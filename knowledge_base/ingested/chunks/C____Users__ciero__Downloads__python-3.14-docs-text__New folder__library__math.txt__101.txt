@@ -1,0 +1,4 @@
+Special cases follow IEEE 754: in particular, "remainder(x,
+   math.inf)" is *x* for any finite *x*, and "remainder(x, 0)" and
+   "remainder(math.inf, x)" raise "ValueError" for any non-NaN *x*. If
+   the result of the remainder operation is zero, that zero will have

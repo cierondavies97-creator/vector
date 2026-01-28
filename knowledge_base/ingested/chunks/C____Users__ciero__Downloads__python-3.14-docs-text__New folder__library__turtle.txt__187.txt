@@ -1,0 +1,6 @@
+3. Now add the Shape to the Screen's shapelist and use it:
+      >>> register_shape("myshape", s)
+      >>> shape("myshape")
+Note:
+  The "Shape" class is used internally by the "register_shape()"
+  method in different ways.  The application programmer has to deal

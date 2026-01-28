@@ -1,0 +1,7 @@
+and "False" otherwise:
+      >>> (-2.0).is_integer()
+      True
+      >>> (3.2).is_integer()
+      False
+Two methods support conversion to and from hexadecimal strings.  Since
+Python's floats are stored internally as binary numbers, converting a

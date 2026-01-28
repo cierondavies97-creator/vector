@@ -1,0 +1,4 @@
+quoted-printable, "charset.BASE64" for base64 encoding,
+   "charset.SHORTEST" for the shortest of quoted-printable or base64
+   encoding, or "None" for no encoding.  "SHORTEST" is only valid for
+   *header_enc*. The default is "None" for no encoding.

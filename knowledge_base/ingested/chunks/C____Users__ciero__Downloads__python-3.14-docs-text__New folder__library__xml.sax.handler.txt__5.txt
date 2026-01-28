@@ -1,0 +1,5 @@
+implementing this interface, then register the object with your
+   Parser, the parser will call the method in your object to resolve
+   all external entities.
+class xml.sax.handler.ErrorHandler
+   Interface used by the parser to present error and warning messages

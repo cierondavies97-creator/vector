@@ -1,0 +1,4 @@
+support for negative indices and slicing occurs in the object's
+"__getitem__()" method, subclasses overriding this method will need to
+explicitly add that support.
+A "string" is a special kind of sequence whose items are *characters*.

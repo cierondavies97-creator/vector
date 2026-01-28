@@ -1,0 +1,4 @@
+Most built-in types implement the following options for format
+specifications, although some of the formatting options are only
+supported by the numeric types.
+A general convention is that an empty format specification produces

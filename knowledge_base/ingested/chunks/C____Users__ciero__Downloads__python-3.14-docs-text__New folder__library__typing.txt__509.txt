@@ -1,0 +1,6 @@
+or newer.
+Aliases to built-in types
+~~~~~~~~~~~~~~~~~~~~~~~~~
+class typing.Dict(dict, MutableMapping[KT, VT])
+   Deprecated alias to "dict".
+   Note that to annotate arguments, it is preferred to use an abstract

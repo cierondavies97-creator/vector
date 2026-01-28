@@ -1,0 +1,5 @@
+different error handling schemes by accepting the *errors* string
+argument:
+>>> 'German ß, ♬'.encode(encoding='ascii', errors='backslashreplace')
+b'German \\xdf, \\u266c'
+>>> 'German ß, ♬'.encode(encoding='ascii', errors='xmlcharrefreplace')

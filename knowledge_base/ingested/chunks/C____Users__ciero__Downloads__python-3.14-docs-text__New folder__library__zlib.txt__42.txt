@@ -1,0 +1,5 @@
+that contains compression data is available.  If the whole
+   bytestring turned out to contain compressed data, this is "b""", an
+   empty bytes object.
+Decompress.unconsumed_tail
+   A bytes object that contains any data that was not consumed by the

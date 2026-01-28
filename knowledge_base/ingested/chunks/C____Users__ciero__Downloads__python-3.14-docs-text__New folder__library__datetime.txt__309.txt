@@ -1,0 +1,4 @@
+object or "None" if DST information isn't known.
+   Return "timedelta(0)" if DST is not in effect. If DST is in effect,
+   return the offset as a "timedelta" object (see "utcoffset()" for
+   details). Note that DST offset, if applicable, has already been

@@ -1,0 +1,3 @@
+For example, an example expecting "ValueError: 42" will pass if the
+   actual exception raised is "ValueError: 3*14", but will fail if,
+   say, a "TypeError" is raised instead. It will also ignore any fully

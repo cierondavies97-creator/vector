@@ -1,0 +1,5 @@
+Changed in version 3.12: setuptools is no longer a core venv
+      dependency.
+   post_setup(context)
+      A placeholder method which can be overridden in third party
+      implementations to pre-install packages in the virtual

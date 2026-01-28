@@ -1,0 +1,4 @@
+clients that are compatible to both IPv4 and IPv6.
+   Passing the optional *timeout* parameter will set the timeout on
+   the socket instance before attempting to connect.  If no *timeout*
+   is supplied, the global default timeout setting returned by

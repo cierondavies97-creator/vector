@@ -1,0 +1,6 @@
+computers over a network. They are, however, slower than using
+   shared memory.
+Using a pool of workers
+-----------------------
+The "Pool" class represents a pool of worker processes.  It has
+methods which allows tasks to be offloaded to the worker processes in

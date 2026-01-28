@@ -1,0 +1,5 @@
+Added in version 3.5.
+exception SyntaxError(message, details)
+   Raised when the parser encounters a syntax error.  This may occur
+   in an "import" statement, in a call to the built-in functions
+   "compile()", "exec()", or "eval()", or when reading the initial

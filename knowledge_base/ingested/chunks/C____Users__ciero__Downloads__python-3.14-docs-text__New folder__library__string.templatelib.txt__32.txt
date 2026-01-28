@@ -1,0 +1,5 @@
+>>> interpolation = t'{1. + 2.:.2f}'.interpolations[0]
+   >>> interpolation
+   Interpolation(3.0, '1. + 2.', None, '.2f')
+   >>> match interpolation:
+   ...     case Interpolation(value, expression, conversion, format_spec):

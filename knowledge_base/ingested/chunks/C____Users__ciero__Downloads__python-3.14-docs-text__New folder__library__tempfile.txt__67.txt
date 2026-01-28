@@ -1,0 +1,4 @@
+Note:
+     Beware that if you set "tempdir" to a bytes value, there is a
+     nasty side effect: The global default return type of "mkstemp()"
+     and "mkdtemp()" changes to bytes when no explicit "prefix",

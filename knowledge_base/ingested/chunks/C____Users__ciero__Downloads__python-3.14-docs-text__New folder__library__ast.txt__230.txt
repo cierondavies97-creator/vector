@@ -1,0 +1,5 @@
+singleton to be compared against: "None", "True", or "False". This
+   pattern succeeds if the match subject is the given constant.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case None:

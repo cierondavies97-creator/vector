@@ -1,0 +1,4 @@
+dictionary information varies for each compression level, so tuning
+   for the proper compression level can make compression more
+   efficient.
+class compression.zstd.ZstdDict(dict_content, /, *, is_raw=False)

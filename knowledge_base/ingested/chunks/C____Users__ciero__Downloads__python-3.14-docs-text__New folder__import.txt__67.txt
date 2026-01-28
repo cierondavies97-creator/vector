@@ -1,0 +1,4 @@
+-- gets removed from "sys.modules".  Any module already in the
+  "sys.modules" cache, and any module that was successfully loaded as
+  a side-effect, must remain in the cache.  This contrasts with
+  reloading where even the failing module is left in "sys.modules".

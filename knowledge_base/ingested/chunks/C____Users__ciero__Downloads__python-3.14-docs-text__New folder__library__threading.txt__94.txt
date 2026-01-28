@@ -1,0 +1,6 @@
+Availability: Windows, FreeBSD, Linux, macOS, OpenBSD, NetBSD,
+      AIX, DragonFlyBSD.
+      Added in version 3.8.
+   is_alive()
+      Return whether the thread is alive.
+      This method returns "True" just before the "run()" method starts

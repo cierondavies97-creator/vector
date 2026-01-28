@@ -1,0 +1,7 @@
+recreate the bound method until either the object or the original
+   function dies:
+      >>> class C:
+      ...     def method(self):
+      ...         print("method called!")
+      ...
+      >>> c = C()

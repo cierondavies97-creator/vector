@@ -1,0 +1,5 @@
+does not exist or is inaccessible.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.isabs(path, /)
+   Return "True" if *path* is an absolute pathname.  On Unix, that
+   means it begins with a slash, on Windows that it begins with two

@@ -1,0 +1,4 @@
+the dialog window, prompt is a text mostly describing what
+   numerical information to input. default: default value, minval:
+   minimum value for input, maxval: maximum value for input. The
+   number input must be in the range minval .. maxval if these are

@@ -1,0 +1,5 @@
+shared address space ("100.64.0.0/10" range) where they are both
+      "False".
+      Changed in version 3.13: Fixed some false positives and false
+      negatives.
+      * "192.0.0.0/24" is considered private with the exception of

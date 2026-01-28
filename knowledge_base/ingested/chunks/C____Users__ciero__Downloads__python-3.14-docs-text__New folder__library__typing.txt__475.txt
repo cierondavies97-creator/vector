@@ -1,0 +1,3 @@
+combining "__annotations__" dictionaries. Annotations on classes
+     appearing earlier in the *method resolution order* always take
+     precedence over annotations on classes appearing later in the

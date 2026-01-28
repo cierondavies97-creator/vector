@@ -1,0 +1,8 @@
+can take, see the man pages and page 183 of John Ousterhout's book.
+anchor
+   Anchor type.  Denotes where the packer is to place each slave in
+   its parcel.
+expand
+   Boolean, "0" or "1".
+fill
+   Legal values: "'x'", "'y'", "'both'", "'none'".

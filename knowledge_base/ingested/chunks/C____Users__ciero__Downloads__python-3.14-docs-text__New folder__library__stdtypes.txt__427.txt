@@ -1,0 +1,3 @@
+literal that is prefixed with "f" or "F". This type of string literal
+allows embedding the results of arbitrary Python expressions within
+*replacement fields*, which are delimited by curly brackets ("{}").

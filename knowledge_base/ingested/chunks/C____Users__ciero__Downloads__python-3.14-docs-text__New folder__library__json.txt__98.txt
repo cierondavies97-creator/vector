@@ -1,0 +1,4 @@
+strings", and thus does not otherwise directly address the issue of
+character encodings.
+The RFC prohibits adding a byte order mark (BOM) to the start of a
+JSON text, and this module's serializer does not add a BOM to its

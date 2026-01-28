@@ -1,0 +1,4 @@
+*example* is the example about to be processed.  *test* is the
+      test containing *example*.  *out* is the output function that
+      was passed to "DocTestRunner.run()".
+   report_success(out, test, example, got)

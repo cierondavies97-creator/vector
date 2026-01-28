@@ -1,0 +1,6 @@
+parameter, the list of files is taken from standard input.
+-q, --quiet
+   Suppress errors output.
+Changed in version 3.2: Added support for "-".
+Changed in version 3.10: Added support for "-q".
+See also:

@@ -1,0 +1,3 @@
+Python level warnings from their users by default, and only display
+them when running tests or otherwise working on the application. The
+"sys.warnoptions" attribute used to pass filter configurations to the

@@ -1,0 +1,5 @@
+example "myproject.subpackage.test", as the start directory. The
+package name you supply will then be imported and its location on the
+filesystem will be used as the start directory.
+Caution:
+  Test discovery loads tests by importing them. Once test discovery

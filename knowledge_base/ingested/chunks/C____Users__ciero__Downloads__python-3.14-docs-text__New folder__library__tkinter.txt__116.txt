@@ -1,0 +1,5 @@
+Coupling Widget Variables
+-------------------------
+The current-value setting of some widgets (like text entry widgets)
+can be connected directly to application variables by using special
+options.  These options are "variable", "textvariable", "onvalue",

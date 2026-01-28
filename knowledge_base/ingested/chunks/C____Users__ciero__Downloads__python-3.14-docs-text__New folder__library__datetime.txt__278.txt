@@ -1,0 +1,4 @@
+this is equivalent to:
+      time(*(time.strptime(date_string, format)[3:6]))
+   "ValueError" is raised if the *date_string* and *format* cannot be
+   parsed by "time.strptime()" or if it returns a value which is not a

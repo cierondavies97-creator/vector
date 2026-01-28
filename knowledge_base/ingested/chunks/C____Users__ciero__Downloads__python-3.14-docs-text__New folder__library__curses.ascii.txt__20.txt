@@ -1,0 +1,3 @@
+| curses.ascii.D  | Device control 2, block-mode flow control      |
+| C2              |                                                |
++-----------------+------------------------------------------------+

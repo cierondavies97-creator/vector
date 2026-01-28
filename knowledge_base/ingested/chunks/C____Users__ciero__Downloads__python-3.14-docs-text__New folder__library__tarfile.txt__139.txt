@@ -1,0 +1,8 @@
+TarInfo.islnk()
+   Return "True" if it is a hard link.
+TarInfo.ischr()
+   Return "True" if it is a character device.
+TarInfo.isblk()
+   Return "True" if it is a block device.
+TarInfo.isfifo()
+   Return "True" if it is a FIFO.

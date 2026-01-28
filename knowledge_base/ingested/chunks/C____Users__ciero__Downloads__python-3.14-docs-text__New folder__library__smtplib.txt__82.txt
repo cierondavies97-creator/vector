@@ -1,0 +1,4 @@
+*to_addrs* combines the values (if any) of the *To*, *Cc*, and
+   *Bcc* fields from *msg*.  If exactly one set of *Resent-** headers
+   appear in the message, the regular headers are ignored and the
+   *Resent-** headers are used instead. If the message contains more

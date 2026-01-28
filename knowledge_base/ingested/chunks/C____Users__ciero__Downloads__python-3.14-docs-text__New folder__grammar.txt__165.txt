@@ -1,0 +1,4 @@
+_PyPegen_formatted_value(p, a, debug_expr, conversion, format, rbrace, EXTRA) }
+       | invalid_fstring_replacement_field
+   fstring_conversion[ResultTokenWithMetadata*]:
+       | conv_token="!" conv=NAME { _PyPegen_check_fstring_conversion(p, conv_token, conv) }

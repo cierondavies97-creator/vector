@@ -1,0 +1,4 @@
+Union[int] == int  # The constructor actually returns int
+   * Redundant arguments are skipped, e.g.:
+        Union[int, str, int] == Union[int, str] == int | str
+   * When comparing unions, the argument order is ignored, e.g.:

@@ -1,0 +1,4 @@
+by a connection. Adding new certificates to the internal trust
+     store is allowed, but changing ciphers, verification settings, or
+     mTLS certificates may result in surprising behavior.
+   Note:

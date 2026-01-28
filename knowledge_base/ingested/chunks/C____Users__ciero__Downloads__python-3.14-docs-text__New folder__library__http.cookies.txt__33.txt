@@ -1,0 +1,7 @@
+>>> print(C.output()) # same thing
+   Set-Cookie: fig=newton
+   Set-Cookie: sugar=wafer
+   >>> C = cookies.SimpleCookie()
+   >>> C["rocky"] = "road"
+   >>> C["rocky"]["path"] = "/cookie"
+   >>> print(C.output(header="Cookie:"))

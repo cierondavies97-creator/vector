@@ -1,0 +1,5 @@
+Raises an auditing event "socket.sethostname" with argument "name".
+   Availability: Unix, not Android.
+   Added in version 3.3.
+socket.if_nameindex()
+   Return a list of network interface information (index int, name

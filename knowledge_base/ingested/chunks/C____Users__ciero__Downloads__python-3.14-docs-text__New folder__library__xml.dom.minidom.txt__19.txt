@@ -1,0 +1,4 @@
+available sooner, so calling this on DOM objects as soon as they
+   are no longer needed is good practice.  This only needs to be
+   called on the "Document" object, but may be called on child nodes
+   to discard children of that node.

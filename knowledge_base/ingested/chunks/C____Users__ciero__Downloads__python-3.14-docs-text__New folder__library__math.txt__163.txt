@@ -1,0 +1,4 @@
+Annex F recommends signaling invalid operation or divide-by-zero), and
+"OverflowError" for results that overflow (for example,
+"exp(1000.0)").  A NaN will not be returned from any of the functions
+above unless one or more of the input arguments was a NaN; in that

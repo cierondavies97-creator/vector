@@ -1,0 +1,4 @@
+Added in version 3.7.
+SSLContext.set_servername_callback(server_name_callback)
+   This is a legacy API retained for backwards compatibility. When
+   possible, you should use "sni_callback" instead. The given

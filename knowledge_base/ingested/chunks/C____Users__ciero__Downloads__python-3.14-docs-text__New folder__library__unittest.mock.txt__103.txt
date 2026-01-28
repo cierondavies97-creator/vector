@@ -1,0 +1,6 @@
+>>> mock.mock_calls
+        [call.top(a=3), call.top().bottom()]
+        >>> mock.mock_calls[-1] == call.top(a=-1).bottom()
+        True
+   __class__
+      Normally the "__class__" attribute of an object will return its

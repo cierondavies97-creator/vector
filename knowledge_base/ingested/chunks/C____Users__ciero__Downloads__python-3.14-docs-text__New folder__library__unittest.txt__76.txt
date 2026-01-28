@@ -1,0 +1,4 @@
+"expected failure," a test that is broken and will fail, but shouldn't
+be counted as a failure on a "TestResult".
+Skipping a test is simply a matter of using the "skip()" *decorator*
+or one of its conditional variants, calling "TestCase.skipTest()"

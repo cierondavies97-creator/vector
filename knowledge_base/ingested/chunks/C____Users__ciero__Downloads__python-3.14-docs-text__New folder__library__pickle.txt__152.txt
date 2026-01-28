@@ -1,0 +1,7 @@
+f = io.BytesIO()
+   p = pickle.Pickler(f)
+modifies the global dispatch table shared by all users of the
+"copyreg" module.
+Handling Stateful Objects
+-------------------------
+Here's an example that shows how to modify pickling behavior for a

@@ -1,0 +1,6 @@
+object*.
+TarFile.close()
+   Close the "TarFile". In write mode, two finishing zero blocks are
+   appended to the archive.
+TarFile.pax_headers: dict
+   A dictionary containing key-value pairs of pax global headers.

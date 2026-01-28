@@ -1,0 +1,4 @@
+defined at module level. When reading, format will be automatically
+   detected, even if different formats are present in a single
+   archive.
+   The *tarinfo* argument can be used to replace the default "TarInfo"

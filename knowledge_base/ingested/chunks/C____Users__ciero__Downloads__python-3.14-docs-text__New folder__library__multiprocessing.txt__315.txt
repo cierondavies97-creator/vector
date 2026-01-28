@@ -1,0 +1,6 @@
+Barrier(parties[, action[, timeout]])
+      Create a shared "threading.Barrier" object and return a proxy
+      for it.
+      Added in version 3.3.
+   BoundedSemaphore([value])
+      Create a shared "threading.BoundedSemaphore" object and return a

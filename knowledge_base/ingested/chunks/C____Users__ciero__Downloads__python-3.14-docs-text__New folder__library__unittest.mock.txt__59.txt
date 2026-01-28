@@ -1,0 +1,6 @@
+>>> mock.called
+         False
+      This can be useful where you want to make a series of assertions
+      that reuse the same object.
+      *return_value* parameter when set to "True" resets
+      "return_value":

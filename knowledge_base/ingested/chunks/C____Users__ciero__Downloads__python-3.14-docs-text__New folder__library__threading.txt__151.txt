@@ -1,0 +1,5 @@
+Changed in version 3.2: Previously, the method always returned
+      "None".
+   wait_for(predicate, timeout=None)
+      Wait until a condition evaluates to true.  *predicate* should be
+      a callable which result will be interpreted as a boolean value.

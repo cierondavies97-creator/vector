@@ -1,0 +1,4 @@
+singleton the call to the mock will then return whatever the
+      function returns. If the function returns "DEFAULT" then the
+      mock will return its normal value (from the "return_value").
+      If you pass in an iterable, it is used to retrieve an iterator

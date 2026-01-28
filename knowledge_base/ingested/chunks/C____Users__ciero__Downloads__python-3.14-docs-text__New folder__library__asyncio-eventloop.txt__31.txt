@@ -1,0 +1,4 @@
+Unlike "call_soon_threadsafe()", this method is not thread-safe.
+loop.call_soon_threadsafe(callback, *args, context=None)
+   A thread-safe variant of "call_soon()". When scheduling callbacks
+   from another thread, this function *must* be used, since

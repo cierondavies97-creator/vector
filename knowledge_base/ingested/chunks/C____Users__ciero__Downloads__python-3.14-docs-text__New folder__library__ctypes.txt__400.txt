@@ -1,0 +1,4 @@
+one of these types, and at least define a "_fields_" class
+   variable. "ctypes" will create *descriptor*s which allow reading
+   and writing the fields by direct attribute accesses.  These are the
+   _fields_

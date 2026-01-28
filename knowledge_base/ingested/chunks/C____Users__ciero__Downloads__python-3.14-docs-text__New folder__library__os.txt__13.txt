@@ -1,0 +1,4 @@
+and "filesystem_errors" members of "PyConfig".
+Changed in version 3.1: On some systems, conversion using the file
+system encoding may fail. In this case, Python uses the
+surrogateescape encoding error handler, which means that undecodable

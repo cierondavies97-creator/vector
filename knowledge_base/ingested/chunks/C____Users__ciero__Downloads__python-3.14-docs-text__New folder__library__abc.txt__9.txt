@@ -1,0 +1,4 @@
+"issubclass()" function, but the registering ABC won't show up in
+   their MRO (Method Resolution Order) nor will method implementations
+   defined by the registering ABC be callable (not even via
+   "super()"). [1]

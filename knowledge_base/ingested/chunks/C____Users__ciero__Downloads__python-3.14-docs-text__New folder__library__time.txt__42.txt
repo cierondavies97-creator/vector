@@ -1,0 +1,6 @@
+calls is valid.
+   Clock:
+   * On Windows, call "QueryPerformanceCounter()" and
+     "QueryPerformanceFrequency()".
+   * On macOS, call "mach_absolute_time()" and "mach_timebase_info()".
+   * On HP-UX, call "gethrtime()".

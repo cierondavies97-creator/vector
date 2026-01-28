@@ -1,0 +1,5 @@
+error, but the result is undefined. The appropriate action is to
+     unregister or modify it first. This is an important difference
+     compared with "poll()".
+devpoll.modify(fd[, eventmask])
+   This method does an "unregister()" followed by a "register()". It

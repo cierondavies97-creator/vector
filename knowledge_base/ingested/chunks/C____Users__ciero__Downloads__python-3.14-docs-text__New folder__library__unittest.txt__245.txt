@@ -1,0 +1,4 @@
+enterContext(cm)
+      Enter the supplied *context manager*.  If successful, also add
+      its "__exit__()" method as a cleanup function by "addCleanup()"
+      and return the result of the "__enter__()" method.

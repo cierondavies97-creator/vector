@@ -1,0 +1,4 @@
+facilities may keep objects alive that would normally be collectable.
+Also note that catching an exception with a "try"..."except" statement
+may keep objects alive.
+Some objects contain references to "external" resources such as open

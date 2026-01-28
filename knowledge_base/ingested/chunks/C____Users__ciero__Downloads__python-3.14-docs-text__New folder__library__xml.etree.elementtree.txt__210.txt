@@ -1,0 +1,3 @@
+can be fed XML data incrementally with the "feed()" method, and
+   parsing events are translated to a push API - by invoking callbacks
+   on the *target* object.  If *target* is omitted, the standard

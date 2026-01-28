@@ -1,0 +1,4 @@
+a data corruption or a security violation.  It inherits from
+   "PickleError".
+   Note that other exceptions may also be raised during unpickling,
+   including (but not necessarily limited to) AttributeError,

@@ -1,0 +1,6 @@
+or <a href="http://example.com/">example.com</a>.</p>
+       </body>
+   </html>
+Example of changing the attribute "target" of every link in first
+paragraph:
+   >>> from xml.etree.ElementTree import ElementTree

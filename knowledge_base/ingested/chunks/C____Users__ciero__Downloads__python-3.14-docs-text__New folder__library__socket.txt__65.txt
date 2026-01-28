@@ -1,0 +1,3 @@
+module. They are generally used in arguments to the "setsockopt()"
+   and "getsockopt()" methods of socket objects.  In most cases, only
+   those symbols that are defined in the Unix header files are

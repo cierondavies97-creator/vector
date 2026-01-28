@@ -1,0 +1,4 @@
+con = sqlite3.connect(":memory:")
+      con.execute("CREATE TABLE test(blob_col blob)")
+      con.execute("INSERT INTO test(blob_col) VALUES(zeroblob(13))")
+      # Write to our blob, using two write operations:

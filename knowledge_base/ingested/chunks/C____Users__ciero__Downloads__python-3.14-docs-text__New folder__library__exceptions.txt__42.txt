@@ -1,0 +1,4 @@
+(See Note on Signal Handlers and Exceptions.)
+exception MemoryError
+   Raised when an operation runs out of memory but the situation may
+   still be rescued (by deleting some objects).  The associated value

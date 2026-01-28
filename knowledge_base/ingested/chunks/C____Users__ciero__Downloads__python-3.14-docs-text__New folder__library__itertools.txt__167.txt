@@ -1,0 +1,5 @@
+# Algorithm credited to George Sakkis
+       iterators = map(iter, iterables)
+       for num_active in range(len(iterables), 0, -1):
+           iterators = cycle(islice(iterators, num_active))
+           yield from map(next, iterators)

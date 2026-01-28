@@ -1,0 +1,3 @@
+shutil.register_unpack_format(name, extensions, function[, extra_args[, description]])
+   Registers an unpack format. *name* is the name of the format and
+   *extensions* is a list of extensions corresponding to the format,

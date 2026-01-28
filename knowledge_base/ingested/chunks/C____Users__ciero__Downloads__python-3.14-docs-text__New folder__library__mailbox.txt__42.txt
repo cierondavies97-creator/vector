@@ -1,0 +1,5 @@
+incorrect for *arg* to be a "Mailbox" instance.
+      Note:
+        Unlike with dictionaries, keyword arguments are not supported.
+   flush()
+      Write any pending changes to the filesystem. For some "Mailbox"

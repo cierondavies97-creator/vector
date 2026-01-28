@@ -1,0 +1,3 @@
+variable or by using the "-X" "faulthandler" command line option.
+The fault handler is compatible with system fault handlers like Apport
+or the Windows fault handler. The module uses an alternative stack for

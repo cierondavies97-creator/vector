@@ -1,0 +1,5 @@
+See also:
+     rmtree example for an example of handling the removal of a
+     directory tree that contains read-only files.
+   Raises an auditing event "shutil.rmtree" with arguments "path",
+   "dir_fd".

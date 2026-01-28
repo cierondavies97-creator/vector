@@ -1,0 +1,4 @@
+Examples:
+   * "math.nextafter(x, math.inf)" goes up: towards positive infinity.
+   * "math.nextafter(x, -math.inf)" goes down: towards minus infinity.
+   * "math.nextafter(x, 0.0)" goes towards zero.

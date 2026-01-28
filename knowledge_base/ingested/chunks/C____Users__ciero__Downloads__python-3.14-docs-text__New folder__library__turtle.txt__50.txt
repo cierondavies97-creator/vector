@@ -1,0 +1,8 @@
+(-50.00,0.00)
+turtle.back(distance)
+turtle.bk(distance)
+turtle.backward(distance)
+   Parameters:
+      **distance** -- a number
+   Move the turtle backward by *distance*, opposite to the direction
+   the turtle is headed.  Do not change the turtle's heading.

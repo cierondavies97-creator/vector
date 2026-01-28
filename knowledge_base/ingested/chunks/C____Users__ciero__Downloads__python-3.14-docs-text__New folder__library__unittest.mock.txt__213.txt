@@ -1,0 +1,5 @@
+...     assert Class().method() == 'foo'
+   ...
+If you use *spec* or *spec_set* and "patch()" is replacing a *class*,
+then the return value of the created mock will have the same spec.
+   >>> Original = Class

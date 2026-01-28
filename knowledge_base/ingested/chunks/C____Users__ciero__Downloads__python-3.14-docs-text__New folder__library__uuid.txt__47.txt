@@ -1,0 +1,5 @@
+Added in version 3.14.
+uuid.uuid8(a=None, b=None, c=None)
+   Generate a pseudo-random UUID according to **RFC 9562, §5.8**.
+   When specified, the parameters *a*, *b* and *c* are expected to be
+   positive integers of 48, 12 and 62 bits respectively. If they

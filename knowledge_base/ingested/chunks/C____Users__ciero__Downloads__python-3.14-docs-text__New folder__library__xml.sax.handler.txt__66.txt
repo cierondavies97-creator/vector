@@ -1,0 +1,3 @@
+document encoding used and XML comments embedded in the document, as
+well as section boundaries for the DTD and for any CDATA sections. The
+lexical handlers are used in the same manner as content handlers.

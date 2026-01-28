@@ -1,0 +1,6 @@
+...    raise e
+         ... except Exception as e:
+         ...    exc = e
+         ...
+         >>> match, rest = exc.split(ValueError)
+         >>> exc, exc.__context__, exc.__cause__, exc.__notes__

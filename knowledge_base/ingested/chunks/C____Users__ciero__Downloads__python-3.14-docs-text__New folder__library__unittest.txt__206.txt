@@ -1,0 +1,4 @@
+assertCountEqual(first, second, msg=None)
+      Test that sequence *first* contains the same elements as
+      *second*, regardless of their order. When they don't, an error
+      message listing the differences between the sequences will be

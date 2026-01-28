@@ -1,0 +1,6 @@
+...
+* Python code passed to the Python interpreter with the "-c" argument:
+     $ python -c "import this"
+     The Zen of Python, by Tim Peters
+     Beautiful is better than ugly.
+     Explicit is better than implicit.

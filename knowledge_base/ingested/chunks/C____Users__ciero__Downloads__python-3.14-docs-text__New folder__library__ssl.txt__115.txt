@@ -1,0 +1,6 @@
+ssl.HAS_ALPN
+   Whether the OpenSSL library has built-in support for the
+   *Application-Layer Protocol Negotiation* TLS extension as described
+   in **RFC 7301**.
+   Added in version 3.5.
+ssl.HAS_NEVER_CHECK_COMMON_NAME

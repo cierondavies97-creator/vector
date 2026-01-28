@@ -1,0 +1,5 @@
+value=Name(id='meta', ctx=Load()))],
+                  body=[
+                      Pass()],
+                  decorator_list=[
+                      Name(id='decorator1', ctx=Load()),

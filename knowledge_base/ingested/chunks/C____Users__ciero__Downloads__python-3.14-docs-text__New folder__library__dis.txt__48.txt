@@ -1,0 +1,4 @@
+giving the details of each operation in the supplied code.
+   If *first_line* is not "None", it indicates the line number that
+   should be reported for the first source line in the disassembled
+   code.  Otherwise, the source line information (if any) is taken

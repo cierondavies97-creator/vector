@@ -1,0 +1,6 @@
+with untrusted sources
+* "ssl": SSL/TLS security considerations
+* "subprocess": Subprocess security considerations
+* "tempfile": mktemp is deprecated due to vulnerability to race
+  conditions
+* "xml": XML security

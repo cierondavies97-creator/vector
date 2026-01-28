@@ -1,0 +1,7 @@
+suffix.
+PurePath.stem
+   The final path component, without its suffix:
+      >>> PurePosixPath('my/library.tar.gz').stem
+      'library.tar'
+      >>> PurePosixPath('my/library.tar').stem
+      'library'

@@ -1,0 +1,4 @@
+("Pytype_Check()") don't check for "NULL" pointers --- again, there is
+much code that calls several of these in a row to test an object
+against various different expected types, and this would generate
+redundant tests.  There are no variants with "NULL" checking.

@@ -1,0 +1,4 @@
+__main__ in the import system's reference for details on how this
+works.
+The Python REPL is another example of a "top-level environment", so
+anything defined in the REPL becomes part of the "__main__" scope:

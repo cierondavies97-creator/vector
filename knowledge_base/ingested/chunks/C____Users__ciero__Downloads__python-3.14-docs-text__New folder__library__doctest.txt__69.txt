@@ -1,0 +1,4 @@
+traceback header line, so this doesn't create real problems.
+* Each line of the traceback stack (if present) must be indented
+  further than the first line of the example, *or* start with a non-
+  alphanumeric character. The first line following the traceback

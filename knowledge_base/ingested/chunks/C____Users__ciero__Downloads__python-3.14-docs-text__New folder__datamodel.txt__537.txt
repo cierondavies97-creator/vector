@@ -1,0 +1,6 @@
+same as if the "__length_hint__" method didn't exist at all. This
+   method is purely an optimization and is never required for
+   correctness.
+   Added in version 3.4.
+Note:
+  Slicing is done exclusively with the following three methods.  A

@@ -1,0 +1,5 @@
++----------------------------------------+-----------------------------------+
+Conformance
+===========
+This section describes the conformance requirements and relationships
+between the Python DOM API, the W3C DOM recommendations, and the OMG

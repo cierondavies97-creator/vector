@@ -1,0 +1,4 @@
+omitted and the following conversions take place:
++--------------------+------------------------------------------------+
+| Resulting state    | "mboxMessage" or "MMDFMessage" state           |
+|====================|================================================|

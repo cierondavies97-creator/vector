@@ -1,0 +1,3 @@
+Send mail.  The required arguments are an **RFC 822** from-address
+   string, a list of **RFC 822** to-address strings (a bare string
+   will be treated as a list with 1 address), and a message string.

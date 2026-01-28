@@ -1,0 +1,4 @@
+programming concepts and interaction with software, as it provides
+instant, visible feedback. It also provides convenient access to
+graphical output in general.
+Turtle drawing was originally created as an educational tool, to be

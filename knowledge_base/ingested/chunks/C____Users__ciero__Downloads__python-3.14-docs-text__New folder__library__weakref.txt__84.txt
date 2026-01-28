@@ -1,0 +1,4 @@
+object never gets garbage collected the finalizer will still be called
+at exit.
+The other advantage of weakref based finalizers is that they can be
+used to register finalizers for classes where the definition is

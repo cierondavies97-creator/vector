@@ -1,0 +1,4 @@
+Raw binary streams typically provide low-level access to an
+   underlying OS device or API, and do not try to encapsulate it in
+   high-level primitives (this functionality is done at a higher-level
+   in buffered binary streams and text streams, described later in

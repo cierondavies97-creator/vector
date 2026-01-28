@@ -1,0 +1,4 @@
+The Billion Laughs attack -- also known as exponential entity
+   expansion -- uses multiple levels of nested entities. Each entity
+   refers to another entity several times, and the final entity
+   definition contains a small string. The exponential expansion

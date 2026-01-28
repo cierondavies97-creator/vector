@@ -1,0 +1,8 @@
+leading components of the path are preserved.
+   >>> import glob
+   >>> glob.glob('./[0-9].*')
+   ['./1.gif', './2.txt']
+   >>> glob.glob('*.gif')
+   ['1.gif', 'card.gif']
+   >>> glob.glob('?.gif')
+   ['1.gif']

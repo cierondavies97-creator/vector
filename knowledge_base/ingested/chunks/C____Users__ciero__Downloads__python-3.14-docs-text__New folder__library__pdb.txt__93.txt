@@ -1,0 +1,8 @@
+evaluation is modified in place by "lst.append(1)" before being
+   compared:
+      > example.py(3)<module>()
+      -> pass
+      (Pdb) display lst
+      display lst: []
+      (Pdb) n
+      > example.py(4)<module>()

@@ -1,0 +1,3 @@
+Force processing of all buffered data as if it were followed by an
+   end-of-file mark.  This method may be redefined by a derived class
+   to define additional processing at the end of the input, but the

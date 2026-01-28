@@ -1,0 +1,3 @@
+translating all recognized line separators into "'\n'"
+         characters.  Returns "None" if no source is available (e.g. a
+         built-in module). Raises "ImportError" if the loader cannot

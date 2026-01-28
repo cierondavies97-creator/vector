@@ -1,0 +1,3 @@
+the certificate was not validated, the dict is empty.  If the
+   certificate was validated, it returns a dict with several keys,
+   amongst them "subject" (the principal for which the certificate was

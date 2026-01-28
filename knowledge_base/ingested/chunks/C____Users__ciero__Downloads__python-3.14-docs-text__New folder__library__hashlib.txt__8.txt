@@ -1,0 +1,5 @@
+installations and will only be accessible by name via "new()".  See
+"algorithms_available".
+Warning:
+  Some algorithms have known hash collision weaknesses (including MD5
+  and SHA1). Refer to Attacks on cryptographic hash algorithms and the

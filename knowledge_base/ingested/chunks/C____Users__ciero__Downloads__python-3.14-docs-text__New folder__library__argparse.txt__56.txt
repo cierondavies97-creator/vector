@@ -1,0 +1,9 @@
+usage: PROG [-h] [--foo int] float
+   positional arguments:
+     float
+   options:
+     -h, --help  show this help message and exit
+     --foo int
+prefix_chars
+------------
+Most command-line options will use "-" as the prefix, e.g. "-f/--foo".

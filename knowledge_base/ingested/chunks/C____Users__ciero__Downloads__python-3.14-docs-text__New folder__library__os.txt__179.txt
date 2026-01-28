@@ -1,0 +1,3 @@
+argument is used to set file status flags and file access modes as
+   specified in the manual page of "posix_openpt()" of your system.
+   The returned file descriptor is non-inheritable. If the value

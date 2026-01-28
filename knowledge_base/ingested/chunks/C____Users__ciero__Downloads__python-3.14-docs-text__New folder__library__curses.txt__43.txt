@@ -1,0 +1,3 @@
+be changed followed by three RGB values (for the amounts of red,
+   green, and blue components).  The value of *color_number* must be
+   between "0" and "COLORS - 1".  Each of *r*, *g*, *b*, must be a

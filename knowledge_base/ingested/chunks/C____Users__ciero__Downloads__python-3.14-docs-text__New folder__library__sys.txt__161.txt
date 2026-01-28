@@ -1,0 +1,4 @@
+the correct encoding and errors mode are used.
+   The *filesystem encoding and error handler* are configured at
+   Python startup by the "PyConfig_Read()" function: see
+   "filesystem_encoding" and "filesystem_errors" members of

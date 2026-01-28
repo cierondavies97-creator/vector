@@ -1,0 +1,6 @@
+lines
+      Height of the terminal window in characters.
+Inheritance of File Descriptors
+-------------------------------
+Added in version 3.4.
+A file descriptor has an "inheritable" flag which indicates if the

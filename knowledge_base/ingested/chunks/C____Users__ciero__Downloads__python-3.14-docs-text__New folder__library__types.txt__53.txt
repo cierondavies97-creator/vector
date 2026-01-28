@@ -1,0 +1,4 @@
+those are directly added to the underlying namespace.
+   Alternatively, when initialized with a positional argument, the
+   underlying namespace will be updated with key-value pairs from that
+   argument (either a mapping object or an *iterable* object producing

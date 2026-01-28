@@ -1,0 +1,4 @@
+interact
+   Start an interactive interpreter (using the "code" module) in a new
+   global namespace initialised from the local and global namespaces
+   for the current scope. Use "exit()" or "quit()" to exit the

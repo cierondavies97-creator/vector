@@ -1,0 +1,4 @@
+other integer formats fits your application.
+4. For the "'f'", "'d'" and "'e'" conversion codes, the packed
+   representation uses the IEEE 754 binary32, binary64 or binary16
+   format (for "'f'", "'d'" or "'e'" respectively), regardless of the

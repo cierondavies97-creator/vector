@@ -1,0 +1,5 @@
+tests are executed by "test.regrtest".
+test.support.sortdict(dict)
+   Return a repr of *dict* with keys sorted.
+test.support.findfile(filename, subdir=None)
+   Return the path to the file named *filename*. If no match is found

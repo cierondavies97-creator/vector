@@ -1,0 +1,4 @@
+"sha256", "hmac(sha256)", "cbc(aes)" or "drbg_nopr_ctr_aes256".
+  * *feat* and *mask* are unsigned 32bit integers.
+  Availability: Linux >= 2.6.38.
+  Some algorithm types require more recent Kernels.

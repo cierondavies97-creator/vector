@@ -1,0 +1,4 @@
+special characters such as *delimiter*, *quotechar*, "'\r'", "'\n'"
+   or any of the characters in *lineterminator*.
+csv.QUOTE_NONNUMERIC
+   Instructs "writer" objects to quote all non-numeric fields.

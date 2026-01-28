@@ -1,0 +1,3 @@
+parameter specifies which version of the SSL protocol to use.
+   Typically, the server chooses a particular protocol version, and
+   the client must adapt to the server's choice.  Most of the versions

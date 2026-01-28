@@ -1,0 +1,3 @@
+|               | with transparent compression.                |
+   +---------------+----------------------------------------------+
+   | "'r|'"        | Open a *stream* of uncompressed tar blocks   |

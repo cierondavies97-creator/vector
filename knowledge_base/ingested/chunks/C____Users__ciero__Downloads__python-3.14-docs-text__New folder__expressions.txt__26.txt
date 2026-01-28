@@ -1,0 +1,4 @@
+expression list.
+An empty pair of parentheses yields an empty tuple object.  Since
+tuples are immutable, the same rules as for literals apply (i.e., two
+occurrences of the empty tuple may or may not yield the same object).

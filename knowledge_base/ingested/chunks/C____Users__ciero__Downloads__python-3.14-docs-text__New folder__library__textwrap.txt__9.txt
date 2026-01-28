@@ -1,0 +1,4 @@
+>>> textwrap.shorten("Hello world", width=10, placeholder="...")
+      'Hello...'
+   Optional keyword arguments correspond to the instance attributes of
+   "TextWrapper", documented below.  Note that the whitespace is

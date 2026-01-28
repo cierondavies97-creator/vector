@@ -1,0 +1,3 @@
+sequence is "U+FFFE", the bytes have to be swapped on decoding.
+Unfortunately the character "U+FEFF" had a second purpose as a "ZERO
+WIDTH NO-BREAK SPACE": a character that has no width and doesn't allow

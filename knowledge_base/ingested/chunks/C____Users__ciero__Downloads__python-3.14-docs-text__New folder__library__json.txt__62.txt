@@ -1,0 +1,4 @@
+equivalent to "int(num_str)".  This can be used to use another
+   datatype or parser for JSON integers (e.g. "float").
+   *parse_constant* is an optional function that will be called with
+   one of the following strings: "'-Infinity'", "'Infinity'", "'NaN'".

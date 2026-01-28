@@ -1,0 +1,3 @@
+read a file leads to a 550 error (meaning the URL cannot be found or
+  is not accessible, often for permission reasons), then the path is
+  treated as a directory in order to handle the case when a directory

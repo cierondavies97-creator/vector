@@ -1,0 +1,4 @@
+properties, such as not requiring quoting when passed to external
+   commands via "os.popen()".
+   If any of *suffix*, *prefix*, and *dir* are not "None", they must
+   be the same type. If they are bytes, the returned name will be

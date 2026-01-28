@@ -1,0 +1,4 @@
+that are subsequences of the *iterable*.  The length of the output
+   is given by "math.comb()" which computes "n! / r! / (n - r)!" when
+   "0 ≤ r ≤ n" or zero when "r > n".
+   The combination tuples are emitted in lexicographic order according

@@ -1,0 +1,4 @@
+is ever printed.
+      If *linesep* is not "None", use it as the separator character
+      between all the lines of the flattened message.  If *linesep* is
+      "None" (the default), use the value specified in the *policy*.

@@ -1,0 +1,3 @@
+*master_read* callback is passed the pseudoterminal’s master file
+   descriptor to read output from the child process, and *stdin_read*
+   is passed file descriptor 0, to read from the parent process's

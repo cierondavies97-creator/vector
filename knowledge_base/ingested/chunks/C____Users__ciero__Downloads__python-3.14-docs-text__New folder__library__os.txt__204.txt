@@ -1,0 +1,4 @@
+interrupted by a signal, unless the signal handler raises an
+   exception. Other errors will not be retried and an error will be
+   raised.
+   Returns 0 if *fd* is at end of file or if the provided *buffer* has

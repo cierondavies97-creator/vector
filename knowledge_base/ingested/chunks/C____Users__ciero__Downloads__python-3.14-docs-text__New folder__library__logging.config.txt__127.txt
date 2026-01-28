@@ -1,0 +1,3 @@
+and that in turn will be available to you using "getHandlerByName()"
+and passing the name you have used for the "QueueHandler" in your
+configuration. The dictionary schema for configuring the pair is shown

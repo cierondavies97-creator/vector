@@ -1,0 +1,3 @@
+Flattening the message may trigger changes to the "Message" if
+      defaults need to be filled in to complete the transformation to
+      a string (for example, MIME boundaries may be generated or

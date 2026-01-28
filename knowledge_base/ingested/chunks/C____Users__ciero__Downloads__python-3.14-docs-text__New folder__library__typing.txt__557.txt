@@ -1,0 +1,5 @@
+annotations.
+   Deprecated since version 3.9: "collections.abc.Callable" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias
+   Type.
+   Changed in version 3.10: "Callable" now supports "ParamSpec" and

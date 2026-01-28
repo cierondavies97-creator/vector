@@ -1,0 +1,6 @@
+call.MockClass1().foo(),
+   call.MockClass2(),
+   call.MockClass2().bar()]
+If many calls have been made, but you're only interested in a
+particular sequence of them then an alternative is to use the
+"assert_has_calls()" method. This takes a list of calls (constructed

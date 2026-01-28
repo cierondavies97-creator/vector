@@ -1,0 +1,4 @@
+------------------------------------------------------------------
+When using a class name in a pattern, positional arguments in the
+pattern are not allowed by default, i.e. "case MyClass(x, y)" is
+typically invalid without special support in "MyClass". To be able to

@@ -1,0 +1,7 @@
+option that takes an integer:
+   $ /usr/bin/foo -n 4x
+   Usage: foo [options]
+   foo: error: option -n: invalid integer value: '4x'
+Or, where the user fails to pass a value at all:
+   $ /usr/bin/foo -n
+   Usage: foo [options]

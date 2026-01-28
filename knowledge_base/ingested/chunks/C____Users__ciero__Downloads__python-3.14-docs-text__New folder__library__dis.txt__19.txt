@@ -1,0 +1,4 @@
+entries used by the interpreter to specialize the bytecode.
+   If *adaptive* is "True", "dis()" will display specialized bytecode
+   that may be different from the original bytecode.
+   If *show_offsets* is "True", "dis()" will include instruction

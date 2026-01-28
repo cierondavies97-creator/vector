@@ -1,0 +1,3 @@
+NFKC normalization will now raise "ValueError".
+urllib.parse.parse_qs(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace', max_num_fields=None, separator='&')
+   Parse a query string given as a string argument (data of type

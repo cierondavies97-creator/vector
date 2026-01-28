@@ -1,0 +1,4 @@
+*elem* is an element tree or an individual element.
+   Changed in version 3.8: The "dump()" function now preserves the
+   attribute order specified by the user.
+xml.etree.ElementTree.fromstring(text, parser=None)

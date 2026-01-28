@@ -1,0 +1,4 @@
+be a string, "bytes", or "bytearray" instance representing an
+   integer in radix *base*.  Optionally, the string can be preceded by
+   "+" or "-" (with no space in between), have leading zeros, be
+   surrounded by whitespace, and have single underscores interspersed

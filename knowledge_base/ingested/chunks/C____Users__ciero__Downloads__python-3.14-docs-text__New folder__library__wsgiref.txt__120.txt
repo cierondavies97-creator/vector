@@ -1,0 +1,5 @@
+described in **PEP 3333**.  The default list just sets the
+      content type to "text/plain".
+   error_body
+      The error response body.  This should be an HTTP response body
+      bytestring. It defaults to the plain text, "A server error

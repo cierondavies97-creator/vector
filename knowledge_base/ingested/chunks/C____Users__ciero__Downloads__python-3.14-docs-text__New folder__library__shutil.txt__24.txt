@@ -1,0 +1,4 @@
+of a symbolic link.
+     * If "os.chflags in os.supports_follow_symlinks" is "True",
+       "copystat()" can modify the flags of a symbolic link.
+       ("os.chflags" is not available on all platforms.)

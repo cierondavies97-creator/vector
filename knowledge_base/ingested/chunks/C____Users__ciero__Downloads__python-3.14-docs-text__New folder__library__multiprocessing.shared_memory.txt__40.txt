@@ -1,0 +1,3 @@
+that process and then stops the process itself.  By creating
+   "SharedMemory" instances through a "SharedMemoryManager", we avoid
+   the need to manually track and trigger the freeing of shared memory

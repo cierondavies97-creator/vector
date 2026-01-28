@@ -1,0 +1,4 @@
+rather than specific types, well-designed code improves its
+   flexibility by allowing polymorphic substitution.  Duck-typing
+   avoids tests using "type()" or "isinstance()".  (Note, however,
+   that duck-typing can be complemented with *abstract base classes*.)

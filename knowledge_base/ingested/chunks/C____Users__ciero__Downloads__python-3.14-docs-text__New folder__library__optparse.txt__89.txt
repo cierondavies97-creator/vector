@@ -1,0 +1,4 @@
+is parsed.
+First, consider the verbose/quiet example.  If we want "optparse" to
+set "verbose" to "True" unless "-q" is seen, then we can do this:
+   parser.add_option("-v", action="store_true", dest="verbose", default=True)

@@ -1,0 +1,5 @@
+which handles the "SomeClass" class specially.  Alternatively, the
+code
+   class MyPickler(pickle.Pickler):
+       dispatch_table = copyreg.dispatch_table.copy()
+       dispatch_table[SomeClass] = reduce_SomeClass

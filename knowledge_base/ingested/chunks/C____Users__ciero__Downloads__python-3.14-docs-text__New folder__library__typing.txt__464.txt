@@ -1,0 +1,8 @@
+equivalent change to a child class.
+   For example:
+      class Base:
+          def log_status(self) -> None:
+              ...
+      class Sub(Base):
+          @override
+          def log_status(self) -> None:  # Okay: overrides Base.log_status

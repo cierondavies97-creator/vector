@@ -1,0 +1,4 @@
+socket first, and attempts to *read* from the SSL socket may require
+  a prior *write* to the underlying socket.
+  Changed in version 3.5: In earlier Python versions, the
+  "SSLSocket.send()" method returned zero instead of raising

@@ -1,0 +1,4 @@
+handshake.
+   When enabled on client-side sockets, the client signals the server
+   that it supports post-handshake authentication.
+   When enabled on server-side sockets, "SSLContext.verify_mode" must

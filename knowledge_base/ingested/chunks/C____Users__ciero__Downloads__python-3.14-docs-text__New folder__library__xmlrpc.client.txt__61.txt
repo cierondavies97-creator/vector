@@ -1,0 +1,6 @@
+handle.write(proxy.python_logo().data)
+Fault Objects
+=============
+class xmlrpc.client.Fault
+   A "Fault" object encapsulates the content of an XML-RPC fault tag.
+   Fault objects have the following attributes:

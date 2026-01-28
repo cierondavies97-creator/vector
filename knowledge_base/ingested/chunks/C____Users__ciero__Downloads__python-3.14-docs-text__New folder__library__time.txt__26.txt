@@ -1,0 +1,5 @@
+Similar to "clock_gettime()" but return time as nanoseconds.
+   Availability: Unix.
+   Added in version 3.7.
+time.clock_settime(clk_id, time: float)
+   Set the time of the specified clock *clk_id*.  Currently,

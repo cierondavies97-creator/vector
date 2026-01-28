@@ -1,0 +1,6 @@
+ignored and the order of precedence moves to the successor to obtain
+the value to return.
+>>> from unittest.mock import DEFAULT
+>>> order_mock.get_value.side_effect = [DEFAULT]
+>>> order_mock.get_value()
+'second'

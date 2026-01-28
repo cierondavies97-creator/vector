@@ -1,0 +1,8 @@
+@contextmanager
+      def closing(thing):
+          try:
+              yield thing
+          finally:
+              thing.close()
+   And lets you write code like this:
+      from contextlib import closing

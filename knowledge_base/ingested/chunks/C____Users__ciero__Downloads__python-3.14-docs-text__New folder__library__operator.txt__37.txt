@@ -1,0 +1,6 @@
+"b.name()".
+   * After "f = methodcaller('name', 'foo', bar=1)", the call "f(b)"
+     returns "b.name('foo', bar=1)".
+   Equivalent to:
+      def methodcaller(name, /, *args, **kwargs):
+          def caller(obj):

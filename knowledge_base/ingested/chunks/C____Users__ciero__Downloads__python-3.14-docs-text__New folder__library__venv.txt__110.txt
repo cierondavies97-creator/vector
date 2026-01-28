@@ -1,0 +1,6 @@
+"""
+           url = 'https://bootstrap.pypa.io/get-pip.py'
+           self.install_script(context, 'pip', url)
+   def main(args=None):
+       import argparse
+       parser = argparse.ArgumentParser(prog=__name__,

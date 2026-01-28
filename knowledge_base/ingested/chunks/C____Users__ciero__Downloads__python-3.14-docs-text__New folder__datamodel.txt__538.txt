@@ -1,0 +1,7 @@
+call like
+     a[1:2] = b
+  is translated to
+     a[slice(1, 2, None)] = b
+  and so forth.  Missing slice items are always filled in with "None".
+object.__getitem__(self, key)
+   Called to implement evaluation of "self[key]". For *sequence*

@@ -1,0 +1,6 @@
+and the Lynx and Netscape browsers).
+   Note:
+     This loses information about **RFC 2965** cookies, and also about
+     newer or non-standard cookie-attributes such as "port".
+   Warning:
+     Back up your cookies before saving if you have cookies whose loss

@@ -1,0 +1,5 @@
+set to the "pyvenv.cfg" directory during the path initialization. This
+was previously done by "site", therefore affected by "-S".
+Virtual Environments
+====================
+Virtual environments place a "pyvenv.cfg" file in their prefix, which

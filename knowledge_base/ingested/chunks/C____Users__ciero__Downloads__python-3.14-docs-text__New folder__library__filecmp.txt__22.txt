@@ -1,0 +1,5 @@
+Here is a simplified example of using the "subdirs" attribute to
+search recursively through two directories to show common different
+files:
+   >>> from filecmp import dircmp
+   >>> def print_diff_files(dcmp):

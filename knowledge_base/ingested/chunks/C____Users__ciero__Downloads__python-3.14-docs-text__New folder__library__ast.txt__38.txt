@@ -1,0 +1,4 @@
+"ast.expr".
+      If these attributes are marked as optional in the grammar (using
+      a question mark), the value might be "None".  If the attributes
+      can have zero-or-more values (marked with an asterisk), the

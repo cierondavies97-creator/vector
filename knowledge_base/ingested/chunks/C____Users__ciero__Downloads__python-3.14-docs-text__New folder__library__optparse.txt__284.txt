@@ -1,0 +1,6 @@
+% opt_str)
+       setattr(parser.values, option.dest, 1)
+   ...
+   parser.add_option("--foo",
+                     action="callback", callback=check_moon, dest="foo")
+(The definition of "is_moon_full()" is left as an exercise for the

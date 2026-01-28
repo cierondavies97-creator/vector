@@ -1,0 +1,6 @@
+For example, the configuration specified above with basic
+   interpolation, would look like this with extended interpolation:
+      [Paths]
+      home_dir: /Users
+      my_dir: ${home_dir}/lumberjack
+      my_pictures: ${my_dir}/Pictures

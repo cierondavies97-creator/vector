@@ -1,0 +1,5 @@
+4.1.13. Troubleshooting
+-----------------------
+If your Python install manager does not seem to be working correctly,
+please work through these tests and fixes to see if it helps. If not,
+please report an issue at our bug tracker, including any relevant log

@@ -1,0 +1,5 @@
+* SSL socket:
+     * "'compression'": the compression algorithm being used as a
+       string, or "None" if the connection isn't compressed; result of
+       "ssl.SSLSocket.compression()"
+     * "'cipher'": a three-value tuple containing the name of the

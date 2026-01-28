@@ -1,0 +1,4 @@
+]
+      The "_fields_" class variable can only be set once. Later
+      assignments will raise an "AttributeError".
+      Additionally, the "_fields_" class variable must be defined

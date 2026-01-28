@@ -1,0 +1,4 @@
+*buffer*.
+   The *buffer* should be mutable and *bytes-like*. On success,
+   returns the number of bytes read. Less bytes may be read than the
+   size of the buffer. The underlying system call will be retried when

@@ -1,0 +1,3 @@
+The "tzinfo" of the result will be set to a "timezone" instance.
+7. When used with the "strptime()" method, "%U" and "%W" are only used
+   in calculations when the day of the week and the calendar year

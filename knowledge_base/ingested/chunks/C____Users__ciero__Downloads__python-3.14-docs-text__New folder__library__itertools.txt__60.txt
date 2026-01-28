@@ -1,0 +1,4 @@
+yield tuple(pool[i] for i in indices)
+itertools.combinations_with_replacement(iterable, r)
+   Return *r* length subsequences of elements from the input
+   *iterable* allowing individual elements to be repeated more than

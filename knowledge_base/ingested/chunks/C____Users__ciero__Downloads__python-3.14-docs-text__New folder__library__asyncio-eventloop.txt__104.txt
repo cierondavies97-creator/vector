@@ -1,0 +1,5 @@
+Create a TCP server (socket type "SOCK_STREAM") listening on *port*
+   of the *host* address.
+   Returns a "Server" object.
+   Arguments:
+   * *protocol_factory* must be a callable returning a protocol

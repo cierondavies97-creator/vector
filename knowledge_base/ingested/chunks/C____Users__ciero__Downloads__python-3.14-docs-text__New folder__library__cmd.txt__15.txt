@@ -1,0 +1,4 @@
+all returned matches must begin with it. *line* is the current
+   input line with leading whitespace removed, *begidx* and *endidx*
+   are the beginning and ending indexes of the prefix text, which
+   could be used to provide different completion depending upon which

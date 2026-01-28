@@ -1,0 +1,5 @@
+# A bare print(cfg.get('Section1', 'monster')) would raise NoOptionError
+   # but we can also use:
+   print(cfg.get('Section1', 'monster', fallback=None))
+         # -> None
+Default values are available in both types of ConfigParsers.  They are

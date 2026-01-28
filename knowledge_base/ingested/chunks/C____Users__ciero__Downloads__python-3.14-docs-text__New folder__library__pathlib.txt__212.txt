@@ -1,0 +1,3 @@
+exists and is a file, it will be replaced silently if the user has
+   permission. On Windows, if *target* exists, "FileExistsError" will
+   be raised. *target* can be either a string or another path object:

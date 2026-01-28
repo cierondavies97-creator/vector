@@ -1,0 +1,3 @@
+The returned iterator raises a "TimeoutError" if "__next__()" is
+      called and the result isn't available after *timeout* seconds
+      from the original call to "Executor.map()". *timeout* can be an

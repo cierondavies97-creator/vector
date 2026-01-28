@@ -1,0 +1,4 @@
+example, "logging.Formatter('%(asctime)s - %(message)s',
+        style='{')".
+      * **defaults** (*dict**[**str**, **Any**]*) -- A dictionary with
+        default values to use in custom fields. For example,

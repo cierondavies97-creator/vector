@@ -1,0 +1,7 @@
+class XY(X, Y): pass  # OK
+      class XZ(X, Z): pass  # raises TypeError
+   A "TypedDict" can be generic:
+      class Group[T](TypedDict):
+          key: T
+          group: list[T]
+   To create a generic "TypedDict" that is compatible with Python 3.11

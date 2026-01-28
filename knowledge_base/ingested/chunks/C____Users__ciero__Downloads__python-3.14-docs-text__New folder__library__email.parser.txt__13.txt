@@ -1,0 +1,4 @@
+message object's "defects" attribute with a list of any problems it
+found in a message.  See the "email.errors" module for the list of
+defects that it can find.
+Here is the API for the "BytesFeedParser":

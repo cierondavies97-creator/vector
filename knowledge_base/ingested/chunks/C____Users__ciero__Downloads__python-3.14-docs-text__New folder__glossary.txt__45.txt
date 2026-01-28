@@ -1,0 +1,4 @@
+closure variable
+   A *free variable* referenced from a *nested scope* that is defined
+   in an outer scope rather than being resolved at runtime from the
+   globals or builtin namespaces. May be explicitly defined with the

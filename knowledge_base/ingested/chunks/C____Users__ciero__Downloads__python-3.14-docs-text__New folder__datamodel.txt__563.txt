@@ -1,0 +1,4 @@
+operands.  These functions are only called if the operands are of
+   different types, when the left operand does not support the
+   corresponding operation [3], or the right operand's class is
+   derived from the left operand's class. [4] For instance, to

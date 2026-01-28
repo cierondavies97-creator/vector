@@ -1,0 +1,4 @@
+If *lock* is specified then it should be a "Lock" or "RLock" object
+   from "multiprocessing".
+   Instantiating this class may set the global start method. See
+   Global start method for more details.

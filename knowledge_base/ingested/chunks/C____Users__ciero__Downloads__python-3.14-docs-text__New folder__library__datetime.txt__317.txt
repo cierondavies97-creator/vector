@@ -1,0 +1,5 @@
+return timedelta(0)
+   The default implementation of "dst()" raises "NotImplementedError".
+   Changed in version 3.7: The DST offset is not restricted to a whole
+   number of minutes.
+tzinfo.tzname(dt)

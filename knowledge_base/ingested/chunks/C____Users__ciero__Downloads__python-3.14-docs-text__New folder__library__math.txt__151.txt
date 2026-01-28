@@ -1,0 +1,9 @@
+math.sinh(x)
+   Return the hyperbolic sine of *x*.
+math.tanh(x)
+   Return the hyperbolic tangent of *x*.
+Special functions
+=================
+math.erf(x)
+   Return the error function at *x*.
+   The "erf()" function can be used to compute traditional statistical

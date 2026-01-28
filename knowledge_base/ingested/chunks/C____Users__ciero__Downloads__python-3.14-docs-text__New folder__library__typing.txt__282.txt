@@ -1,0 +1,6 @@
+def get_shape(self) -> tuple[*Shape]: ...
+   Type variable tuples can be happily combined with normal type
+   variables:
+      class Array[DType, *Shape]:  # This is fine
+          pass
+      class Array2[*Shape, DType]:  # This would also be fine

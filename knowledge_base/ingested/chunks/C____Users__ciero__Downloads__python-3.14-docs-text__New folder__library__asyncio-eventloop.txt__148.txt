@@ -1,0 +1,5 @@
+documented as a coroutine method, releases before Python 3.7
+   returned a "Future". Since Python 3.7 this is an "async def"
+   method.
+async loop.sock_recv_into(sock, buf)
+   Receive data from *sock* into the *buf* buffer.  Modeled after the

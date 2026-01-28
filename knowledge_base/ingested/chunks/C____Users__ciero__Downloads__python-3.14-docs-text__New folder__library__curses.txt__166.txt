@@ -1,0 +1,4 @@
+not force an update of the physical screen.  To accomplish that,
+   call  "doupdate()".
+window.overlay(destwin[, sminrow, smincol, dminrow, dmincol, dmaxrow, dmaxcol])
+   Overlay the window on top of *destwin*. The windows need not be the

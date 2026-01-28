@@ -1,0 +1,4 @@
+to value "n ** 2". See Displays for lists, sets and dictionaries.
+dictionary view
+   The objects returned from "dict.keys()", "dict.values()", and
+   "dict.items()" are called dictionary views. They provide a dynamic

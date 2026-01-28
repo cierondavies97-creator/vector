@@ -1,0 +1,6 @@
+as appropriate, based on the payload data.
+email.encoders.encode_noop(msg)
+   This does nothing; it doesn't even set the *Content-Transfer-
+   Encoding* header.
+-[ Footnotes ]-
+[1] Note that encoding with "encode_quopri()" also encodes all tabs

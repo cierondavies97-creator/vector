@@ -1,0 +1,4 @@
+the operating system and font.  (Moving the text cursor through such
+output with arrow keys may exhibit some surprising spacing behavior.)
+   >>> s = 'a\tb\a<\x02><\r>\bc\nd'  # Enter 22 chars.
+   >>> len(s)

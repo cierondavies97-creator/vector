@@ -1,0 +1,5 @@
+curses.panel.bottom_panel()
+   Returns the bottom panel in the panel stack.
+curses.panel.new_panel(win)
+   Returns a panel object, associating it with the given window *win*.
+   Be aware that you need to keep the returned panel object referenced

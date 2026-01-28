@@ -1,0 +1,3 @@
+best to gather information from the object's "__dict__" attribute,
+   if defined, and from its type object.  The resulting list is not
+   necessarily complete and may be inaccurate when the object has a

@@ -1,0 +1,3 @@
+"__le__()", "__gt__()", and "__ge__()" methods will be generated.
+     These compare the class as if it were a tuple of its fields, in
+     order.  Both instances in the comparison must be of the identical

@@ -1,0 +1,3 @@
+A call to "start()" on a "SharedMemoryManager" instance causes a
+   new process to be started. This new process's sole purpose is to
+   manage the life cycle of all shared memory blocks created through

@@ -1,0 +1,4 @@
+"Control"-"B" moves the cursor to the left non-destructively,
+   etc.).
+   An end-of-file on input is passed back as the string "'EOF'".
+   An interpreter instance will recognize a command name "foo" if and

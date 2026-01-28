@@ -1,0 +1,5 @@
+This constructor should always be called with keyword arguments.
+   Arguments are:
+   *group* should be "None"; reserved for future extension when a
+   "ThreadGroup" class is implemented.
+   *target* is the callable object to be invoked by the "run()"

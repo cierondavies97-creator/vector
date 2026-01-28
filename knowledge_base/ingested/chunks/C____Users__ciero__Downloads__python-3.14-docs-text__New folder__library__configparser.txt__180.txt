@@ -1,0 +1,3 @@
+"'off'", which cause it to return "False".  These string values
+      are checked in a case-insensitive manner.  Any other value will
+      cause it to raise "ValueError".  See "get()" for explanation of

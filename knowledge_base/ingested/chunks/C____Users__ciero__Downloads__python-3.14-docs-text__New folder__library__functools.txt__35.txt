@@ -1,0 +1,4 @@
+*hits*, *misses*, *maxsize* and *currsize*.
+   The decorator also provides a "cache_clear()" function for clearing
+   or invalidating the cache.
+   The original underlying function is accessible through the

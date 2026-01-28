@@ -1,0 +1,4 @@
+is called. If a thread is not currently handling an exception, it
+   is not included in the result dictionary.
+   This is most useful for statistical profiling.
+   This function should be used for internal and specialized purposes

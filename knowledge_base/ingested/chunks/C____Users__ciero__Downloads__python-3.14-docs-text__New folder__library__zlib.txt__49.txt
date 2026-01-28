@@ -1,0 +1,5 @@
+Changed in version 3.6: *max_length* can be used as a keyword
+   argument.
+Decompress.flush([length])
+   All pending input is processed, and a bytes object containing the
+   remaining uncompressed output is returned.  After calling

@@ -1,0 +1,8 @@
+"turtle".
+Turtle motion
+-------------
+turtle.forward(distance)
+turtle.fd(distance)
+   Parameters:
+      **distance** -- a number (integer or float)
+   Move the turtle forward by the specified *distance*, in the

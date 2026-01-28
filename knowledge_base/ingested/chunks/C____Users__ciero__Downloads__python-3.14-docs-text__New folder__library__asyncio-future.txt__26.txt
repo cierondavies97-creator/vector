@@ -1,0 +1,5 @@
+get_loop()
+      Return the event loop the Future object is bound to.
+      Added in version 3.7.
+This example creates a Future object, creates and schedules an
+asynchronous Task to set result for the Future, and waits until the

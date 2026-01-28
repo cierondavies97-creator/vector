@@ -1,0 +1,3 @@
+See "__getattr__()" for details.
+class unittest.mock.AsyncMock(spec=None, side_effect=None, return_value=DEFAULT, wraps=None, name=None, spec_set=None, unsafe=False, **kwargs)
+   An asynchronous version of "MagicMock". The "AsyncMock" object will

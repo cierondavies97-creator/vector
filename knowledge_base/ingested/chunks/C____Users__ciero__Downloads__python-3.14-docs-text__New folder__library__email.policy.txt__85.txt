@@ -1,0 +1,4 @@
+converted into a header object by passing the *name* and the
+      *value* with any CR and LF characters removed to the
+      "header_factory".  Folding of a header object is done by calling
+      its "fold" method with the current policy.

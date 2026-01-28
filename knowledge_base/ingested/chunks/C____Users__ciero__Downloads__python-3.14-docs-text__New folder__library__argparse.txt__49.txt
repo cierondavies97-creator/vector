@@ -1,0 +1,8 @@
+...             I have indented it
+   ...             exactly the way
+   ...             I want it
+   ...         '''))
+   >>> parser.print_help()
+   usage: PROG [-h]
+   Please do not mess up this text!
+   --------------------------------

@@ -1,0 +1,5 @@
+expansion of internal entities. The entity reference will not be
+   passed to the default handler.
+xmlparser.NotStandaloneHandler()
+   Called if the XML document hasn't been declared as being a
+   standalone document. This happens when there is an external subset

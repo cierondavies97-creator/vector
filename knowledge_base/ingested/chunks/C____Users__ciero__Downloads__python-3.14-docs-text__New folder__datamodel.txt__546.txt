@@ -1,0 +1,5 @@
+object.__missing__(self, key)
+   Called by "dict"."__getitem__()" to implement "self[key]" for dict
+   subclasses when key is not in the dictionary.
+object.__iter__(self)
+   This method is called when an *iterator* is required for a

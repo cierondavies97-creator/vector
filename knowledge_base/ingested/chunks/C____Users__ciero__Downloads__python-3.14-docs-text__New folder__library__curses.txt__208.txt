@@ -1,0 +1,4 @@
+Several constants are available to extract corresponding attributes
+returned by some methods.
++---------------------------+---------------------------------+
+| Bit-mask                  | Meaning                         |

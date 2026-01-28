@@ -1,0 +1,4 @@
+Requirements for optional modules.
+zlib's functions have many options and often need to be used in a
+particular order.  This documentation doesn't attempt to cover all of
+the permutations; consult the zlib manual for authoritative

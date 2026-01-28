@@ -1,0 +1,5 @@
+guaranteed not to change:
+* If a new seeding method is added, then a backward compatible seeder
+  will be offered.
+* The generator's "random()" method will continue to produce the same
+  sequence when the compatible seeder is given the same seed.

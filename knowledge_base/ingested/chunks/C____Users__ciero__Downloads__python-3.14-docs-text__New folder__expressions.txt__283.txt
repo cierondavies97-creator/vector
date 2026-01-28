@@ -1,0 +1,4 @@
+is the number of expressions in the list.  The expressions are
+evaluated from left to right.
+An asterisk "*" denotes *iterable unpacking*.  Its operand must be an
+*iterable*.  The iterable is expanded into a sequence of items, which

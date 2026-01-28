@@ -1,0 +1,5 @@
+value = fillvalue
+                  values.append(value)
+              yield tuple(values)
+   If one of the iterables is potentially infinite, then the
+   "zip_longest()" function should be wrapped with something that

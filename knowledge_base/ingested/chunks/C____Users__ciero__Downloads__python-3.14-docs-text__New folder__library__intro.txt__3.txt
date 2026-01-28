@@ -1,0 +1,4 @@
+described here.
+The bulk of the library, however, consists of a collection of modules.
+There are many ways to dissect this collection.  Some modules are
+written in C and built in to the Python interpreter; others are

@@ -1,0 +1,4 @@
+"sys.path_importer_cache" (despite the name, this cache actually
+stores finder objects rather than being limited to *importer*
+objects). In this way, the expensive search for a particular *path
+entry* location's *path entry finder* need only be done once.  User

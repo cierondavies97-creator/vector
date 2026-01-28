@@ -1,0 +1,3 @@
+frequency, in hertz, of the sound, and must be in the range 37
+   through 32,767. The *duration* parameter specifies the number of
+   milliseconds the sound should last.  If the system is not able to

@@ -1,0 +1,4 @@
+const char *tp_doc;
+Here you can put a string (or its address) that you want returned when
+the Python script references "obj.__doc__" to retrieve the doc string.
+Now we come to the basic type methods -- the ones most extension types

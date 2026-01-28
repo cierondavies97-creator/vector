@@ -1,0 +1,5 @@
+list of archivers.  Defaults to an empty string.
+   Changed in version 3.12: Added support for functions supporting the
+   *root_dir* argument.
+shutil.unregister_archive_format(name)
+   Remove the archive format *name* from the list of supported

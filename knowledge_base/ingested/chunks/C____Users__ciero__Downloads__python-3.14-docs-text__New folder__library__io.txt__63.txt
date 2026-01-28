@@ -1,0 +1,4 @@
+interpreted relative to the position indicated by *whence*, and
+      return the new absolute position. Values for *whence* are:
+      * "os.SEEK_SET" or "0" -- start of the stream (the default);
+        *offset* should be zero or positive

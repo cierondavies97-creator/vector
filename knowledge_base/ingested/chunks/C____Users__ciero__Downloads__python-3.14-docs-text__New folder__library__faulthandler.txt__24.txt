@@ -1,0 +1,4 @@
+Dumping the traceback on a user signal
+======================================
+faulthandler.register(signum, file=sys.stderr, all_threads=True, chain=False)
+   Register a user signal: install a handler for the *signum* signal

@@ -1,0 +1,4 @@
+Used for "__VENV_PROMPT__" in activation scripts (see
+        "install_scripts()").
+      * "executable" - The underlying Python executable used by the
+        virtual environment. This takes into account the case where a

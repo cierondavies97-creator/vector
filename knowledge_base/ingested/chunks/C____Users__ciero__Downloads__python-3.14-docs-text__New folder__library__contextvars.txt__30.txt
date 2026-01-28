@@ -1,0 +1,6 @@
+print(var.get())  # 'spam'
+   copy()
+      Return a shallow copy of the context object.
+   var in context
+      Return "True" if the *context* has a value for *var* set; return
+      "False" otherwise.

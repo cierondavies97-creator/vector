@@ -1,0 +1,4 @@
+a directory", or "bad argument to internal function". Thus, the
+   resulting path may be missing or inaccessible, may still contain
+   links or loops, and may traverse non-directories.
+   This behavior can be modified by keyword arguments:

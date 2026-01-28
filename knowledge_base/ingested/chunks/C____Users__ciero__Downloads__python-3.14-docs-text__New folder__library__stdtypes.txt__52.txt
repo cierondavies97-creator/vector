@@ -1,0 +1,3 @@
+| "round(x[, n])"      | *x* rounded to *n* digits, rounding half to   |
+|                      | even. If *n* is omitted, it defaults to 0.    |
++----------------------+-----------------------------------------------+

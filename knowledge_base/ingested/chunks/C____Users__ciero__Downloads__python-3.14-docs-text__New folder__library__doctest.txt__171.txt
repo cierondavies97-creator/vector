@@ -1,0 +1,4 @@
+drop-in replacement) that is used to extract doctests from the
+   module.
+   Optional arguments *setUp*, *tearDown*, and *optionflags* are the
+   same as for function "DocFileSuite()" above, but they are called

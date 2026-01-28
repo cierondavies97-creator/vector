@@ -1,0 +1,3 @@
+Decimal floating-point objects share many properties with the other
+   built-in numeric types such as "float" and "int".  All of the usual
+   math operations and special methods apply.  Likewise, decimal

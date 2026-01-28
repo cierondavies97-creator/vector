@@ -1,0 +1,3 @@
+objects*.  It only supports the Base64 standard alphabet, and it adds
+newlines every 76 characters as per **RFC 2045**.  Note that if you
+are looking for **RFC 2045** support you probably want to be looking

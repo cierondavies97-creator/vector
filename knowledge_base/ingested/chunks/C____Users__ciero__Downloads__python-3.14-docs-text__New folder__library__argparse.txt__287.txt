@@ -1,0 +1,5 @@
+>>> parser_bar.add_argument('z')
+      >>> parser_bar.set_defaults(func=bar)
+      >>>
+      >>> # parse the args and call whatever function was selected
+      >>> args = parser.parse_args('foo 1 -x 2'.split())

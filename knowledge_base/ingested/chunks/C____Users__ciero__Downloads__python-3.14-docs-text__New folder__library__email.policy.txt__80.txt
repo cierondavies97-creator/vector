@@ -1,0 +1,4 @@
+header_store_parse(name, value)
+      The name is returned unchanged.  If the input value has a "name"
+      attribute and it matches *name* ignoring case, the value is
+      returned unchanged.  Otherwise the *name* and *value* are passed

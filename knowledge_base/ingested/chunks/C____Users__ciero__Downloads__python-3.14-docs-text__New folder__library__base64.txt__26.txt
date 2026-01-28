@@ -1,0 +1,5 @@
+Base85 Encodings
+================
+Base85 encoding is not formally specified but rather a de facto
+standard, thus different systems perform the encoding differently.
+The "a85encode()" and "b85encode()" functions in this module are two

@@ -1,0 +1,5 @@
+document.
+The original specification for "sys.meta_path" was **PEP 302**, with
+subsequent extension in **PEP 420**.
+**PEP 420** introduced *namespace packages* for Python 3.3.  **PEP
+420** also introduced the "find_loader()" protocol as an alternative

@@ -1,0 +1,5 @@
+this function.
+curses.curs_set(visibility)
+   Set the cursor state.  *visibility* can be set to "0", "1", or "2",
+   for invisible, normal, or very visible.  If the terminal supports
+   the visibility requested, return the previous cursor state;

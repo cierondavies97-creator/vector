@@ -1,0 +1,4 @@
+useful when a library or network protocol returns an object of type
+   "in_addr" (similar to "inet_ntoa()") or "in6_addr".
+   Supported values for *address_family* are currently "AF_INET" and
+   "AF_INET6". If the bytes object *packed_ip* is not the correct

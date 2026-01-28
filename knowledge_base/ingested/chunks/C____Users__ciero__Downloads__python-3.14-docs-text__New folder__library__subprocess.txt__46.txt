@@ -1,0 +1,4 @@
+and *stderr*, all line endings in the output will be converted to
+   "'\n'".  For more information see the documentation of the
+   "io.TextIOWrapper" class when the *newline* argument to its
+   constructor is "None".

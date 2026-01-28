@@ -1,0 +1,5 @@
+RAISE_VARARGS(argc)
+   Raises an exception using one of the 3 forms of the "raise"
+   statement, depending on the value of *argc*:
+   * 0: "raise" (re-raise previous exception)
+   * 1: "raise STACK[-1]" (raise exception instance or type at

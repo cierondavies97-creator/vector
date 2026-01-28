@@ -1,0 +1,8 @@
+Returns "b''" if the file is at EOF.
+      Added in version 3.3.
+   readinto(b)
+      Read bytes into *b*.
+      Returns the number of bytes read (0 for EOF).
+      Added in version 3.3.
+   mode
+      "'rb'" for reading and "'wb'" for writing.

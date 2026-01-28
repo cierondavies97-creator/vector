@@ -1,0 +1,4 @@
+class ast.MatchSequence(patterns)
+   A match sequence pattern. "patterns" contains the patterns to be
+   matched against the subject elements if the subject is a sequence.
+   Matches a variable length sequence if one of the subpatterns is a

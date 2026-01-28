@@ -1,0 +1,4 @@
+'file:///C:/Program%20Files'
+   Changed in version 3.14: Windows drive letters are no longer
+   converted to uppercase, and ":" characters not following a drive
+   letter no longer cause an "OSError" exception to be raised on

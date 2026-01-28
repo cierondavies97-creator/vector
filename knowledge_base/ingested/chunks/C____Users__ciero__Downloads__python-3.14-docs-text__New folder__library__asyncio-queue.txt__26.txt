@@ -1,0 +1,6 @@
+tasks.append(task)
+       # Wait until the queue is fully processed.
+       started_at = time.monotonic()
+       await queue.join()
+       total_slept_for = time.monotonic() - started_at
+       # Cancel our worker tasks.

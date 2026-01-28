@@ -1,0 +1,3 @@
+relative to the current working directory) of the file to be opened
+   or an integer file descriptor of the file to be wrapped.  (If a
+   file descriptor is given, it is closed when the returned I/O object

@@ -1,0 +1,3 @@
+Hitting "Tab" after a prefix usually has the same effect as Show
+Completions.  (With no prefix, it indents.)  However, if there is only
+one match to the prefix, that match is immediately added to the editor

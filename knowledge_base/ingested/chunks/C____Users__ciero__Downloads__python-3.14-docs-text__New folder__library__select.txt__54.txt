@@ -1,0 +1,4 @@
++---------------------------+-------------------------------------------------+
+   Added in version 3.6: "EPOLLEXCLUSIVE" was added.  It's only
+   supported by Linux Kernel 4.5 or later.
+   Added in version 3.14: "EPOLLWAKEUP" was added. It's only supported

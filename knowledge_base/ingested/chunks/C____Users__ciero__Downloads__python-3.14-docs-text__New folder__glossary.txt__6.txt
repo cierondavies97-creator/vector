@@ -1,0 +1,5 @@
+of *evaluate functions*.
+annotation
+   A label associated with a variable, a class attribute or a function
+   parameter or return value, used by convention as a *type hint*.
+   Annotations of local variables cannot be accessed at runtime, but

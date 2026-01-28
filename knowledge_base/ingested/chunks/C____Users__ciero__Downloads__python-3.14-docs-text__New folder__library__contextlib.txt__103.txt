@@ -1,0 +1,3 @@
+API should be providing a direct resource management interface for use
+with "try"/"except"/"finally" statements, but not all APIs are well
+designed in that regard. When a context manager is the only resource

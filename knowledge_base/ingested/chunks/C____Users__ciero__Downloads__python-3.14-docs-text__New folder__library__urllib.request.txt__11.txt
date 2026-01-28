@@ -1,0 +1,4 @@
+(though the default installed global "OpenerDirector" uses
+   "UnknownHandler" to ensure this never happens).
+   In addition, if proxy settings are detected (for example, when a
+   "*_proxy" environment variable like "http_proxy" is set),

@@ -1,0 +1,7 @@
+>>> print(ast.dump(
+      ...     ast.parse('{x for x in numbers}', mode='eval'),
+      ...     indent=4,
+      ... ))
+      Expression(
+          body=SetComp(
+              elt=Name(id='x', ctx=Load()),

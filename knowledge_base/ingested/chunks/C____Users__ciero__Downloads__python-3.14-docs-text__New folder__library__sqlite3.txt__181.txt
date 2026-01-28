@@ -1,0 +1,6 @@
+SQLite database.
+         * **OverflowError** -- If "len(data)" is larger than "2**63 -
+           1".
+      Note:
+        This method is only available if the underlying SQLite library
+        has the deserialize API.

@@ -1,0 +1,7 @@
+characters ("#" and ";" by default [1]).  Comments may appear on their
+own on an otherwise empty line, possibly indented. [1]
+For example:
+   [Simple Values]
+   key=value
+   spaces in keys=allowed
+   spaces in values=allowed as well

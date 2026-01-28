@@ -1,0 +1,3 @@
+completer function is called as "function(text, state)", for
+   *state* in "0", "1", "2", ..., until it returns a non-string value.
+   It should return the next possible completion starting with *text*.

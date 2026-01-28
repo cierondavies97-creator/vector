@@ -1,0 +1,4 @@
+susceptible to a symlink attack: given proper timing and
+     circumstances, attackers can manipulate symlinks on the
+     filesystem to delete files they wouldn't be able to access
+     otherwise.  Applications can use the

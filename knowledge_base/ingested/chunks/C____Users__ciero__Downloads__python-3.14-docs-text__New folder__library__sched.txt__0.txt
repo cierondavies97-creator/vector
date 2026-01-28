@@ -1,0 +1,5 @@
+"sched" --- Event scheduler
+***************************
+**Source code:** Lib/sched.py
+======================================================================
+The "sched" module defines a class which implements a general purpose

@@ -1,0 +1,5 @@
+Same as "Element.findtext()", starting at the root of the tree.
+   getroot()
+      Returns the root element for this tree.
+   iter(tag=None)
+      Creates and returns a tree iterator for the root element.  The

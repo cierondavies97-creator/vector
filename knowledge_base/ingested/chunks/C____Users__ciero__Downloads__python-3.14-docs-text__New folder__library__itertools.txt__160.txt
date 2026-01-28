@@ -1,0 +1,6 @@
+k = key(element)
+               if k not in seen:
+                   seen.add(k)
+                   yield element
+   def unique(iterable, key=None, reverse=False):
+      "Yield unique elements in sorted order. Supports unhashable inputs."

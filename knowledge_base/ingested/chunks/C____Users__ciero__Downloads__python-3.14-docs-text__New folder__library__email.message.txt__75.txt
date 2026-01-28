@@ -1,0 +1,4 @@
+boundary via "add_header()", because "set_boundary()" preserves
+      the order of the *Content-Type* header in the list of headers.
+   get_content_charset(failobj=None)
+      Return the "charset" parameter of the *Content-Type* header,

@@ -1,0 +1,4 @@
+is a good encoding to use when most of your payload is normal
+   printable data, but contains a few unprintable characters.
+email.encoders.encode_base64(msg)
+   Encodes the payload into base64 form and sets the *Content-

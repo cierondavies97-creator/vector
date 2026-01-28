@@ -1,0 +1,3 @@
+Create and return an attribute node.  This method does not
+   associate the attribute node with any particular element.  You must
+   use "setAttributeNode()" on the appropriate "Element" object to use

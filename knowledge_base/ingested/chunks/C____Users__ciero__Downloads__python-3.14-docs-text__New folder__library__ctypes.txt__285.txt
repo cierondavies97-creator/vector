@@ -1,0 +1,3 @@
+*func_spec* must be a 2-tuple "(name_or_ordinal, library)". The
+   first item is the name of the exported function as string, or the
+   ordinal of the exported function as small integer.  The second item

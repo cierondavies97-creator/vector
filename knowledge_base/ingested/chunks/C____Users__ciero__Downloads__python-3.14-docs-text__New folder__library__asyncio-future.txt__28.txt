@@ -1,0 +1,6 @@
+async def main():
+       # Get the current event loop.
+       loop = asyncio.get_running_loop()
+       # Create a new Future object.
+       fut = loop.create_future()
+       # Run "set_after()" coroutine in a parallel Task.

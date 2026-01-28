@@ -1,0 +1,5 @@
+"ssl" --- TLS/SSL wrapper for socket objects
+********************************************
+**Source code:** Lib/ssl.py
+======================================================================
+This module provides access to Transport Layer Security (often known

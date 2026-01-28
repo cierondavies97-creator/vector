@@ -1,0 +1,7 @@
+required using "Required":
+      class Point2D(TypedDict, total=False):
+          x: Required[int]
+          y: Required[int]
+          label: str
+      # Alternative syntax
+      Point2D = TypedDict('Point2D', {

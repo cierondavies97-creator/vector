@@ -1,0 +1,3 @@
+It is also possible to embed Python in a C++ program; precisely how
+this is done will depend on the details of the C++ system used; in
+general you will need to write the main program in C++, and use the

@@ -1,0 +1,6 @@
+release()
+      Release the lock.
+      When the lock is *locked*, reset it to *unlocked* and return.
+      If the lock is *unlocked*, a "RuntimeError" is raised.
+   locked()
+      Return "True" if the lock is *locked*.

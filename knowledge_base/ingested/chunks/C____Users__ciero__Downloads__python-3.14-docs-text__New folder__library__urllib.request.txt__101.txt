@@ -1,0 +1,5 @@
+Return the value of the given header. If the header is not present,
+   return the default value.
+Request.header_items()
+   Return a list of tuples (header_name, header_value) of the Request
+   headers.

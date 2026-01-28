@@ -1,0 +1,3 @@
+either be a "Charset" instance (see "email.charset"), a string
+      naming a character set, or "None".  If it is a string, it will
+      be converted to a "Charset" instance.  If *charset* is "None",

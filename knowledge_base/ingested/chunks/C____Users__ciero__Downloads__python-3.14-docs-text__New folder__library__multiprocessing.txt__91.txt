@@ -1,0 +1,8 @@
+>>> p = Process(target=print, args=[1])
+         >>> p.run()
+         1
+         >>> p = Process(target=print, args=(1,))
+         >>> p.run()
+         1
+   start()
+      Start the process's activity.

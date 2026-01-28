@@ -1,0 +1,7 @@
+Module(
+          body=[
+              AugAssign(
+                  target=Name(id='x', ctx=Store()),
+                  op=Add(),
+                  value=Constant(value=2))])
+class ast.Raise(exc, cause)

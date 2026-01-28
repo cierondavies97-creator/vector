@@ -1,0 +1,6 @@
+tests under a debugger.
+   countTestCases()
+      Return the number of tests represented by this test object,
+      including all individual tests and sub-suites.
+   __iter__()
+      Tests grouped by a "TestSuite" are always accessed by iteration.

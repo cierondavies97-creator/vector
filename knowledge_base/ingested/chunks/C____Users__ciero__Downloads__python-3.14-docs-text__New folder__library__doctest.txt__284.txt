@@ -1,0 +1,8 @@
+returned by "sys.exc_info()".
+Soapbox
+=======
+As mentioned in the introduction, "doctest" has grown to have three
+primary uses:
+1. Checking examples in docstrings.
+2. Regression testing.
+3. Executable documentation / literate testing.

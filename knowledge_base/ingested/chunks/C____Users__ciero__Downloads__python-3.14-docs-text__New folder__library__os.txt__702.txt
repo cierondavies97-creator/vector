@@ -1,0 +1,4 @@
+Raises an auditing event "os.system" with argument "command".
+   Availability: Unix, Windows, not WASI, not Android, not iOS.
+os.times()
+   Returns the current global process times. The return value is an

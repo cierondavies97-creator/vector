@@ -1,0 +1,5 @@
+the pickled state must be a dictionary and its items are assigned
+   to the new instance's dictionary.
+   Note:
+     If "__reduce__()" returns a state with value "None" at pickling,
+     the "__setstate__()" method will not be called upon unpickling.

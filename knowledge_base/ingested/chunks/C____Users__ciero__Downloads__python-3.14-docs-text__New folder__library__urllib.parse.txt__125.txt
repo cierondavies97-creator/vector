@@ -1,0 +1,4 @@
+*string* may be either a "str" or a "bytes" object.
+   If it is a "str", unescaped non-ASCII characters in *string* are
+   encoded into UTF-8 bytes.
+   Example: "unquote_to_bytes('a%26%EF')" yields "b'a&\xef'".

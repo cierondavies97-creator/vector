@@ -1,0 +1,3 @@
+Aliases may be nested and can contain anything that can be legally
+   typed at the pdb prompt.  Note that internal pdb commands *can* be
+   overridden by aliases.  Such a command is then hidden until the

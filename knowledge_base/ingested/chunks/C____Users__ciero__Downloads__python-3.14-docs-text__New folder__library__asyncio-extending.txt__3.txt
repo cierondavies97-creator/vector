@@ -1,0 +1,4 @@
+declared but not implemented in "asyncio.BaseEventLoop".
+For example, "loop.create_connection()" checks arguments, resolves DNS
+addresses, and calls "loop._make_socket_transport()" that should be
+implemented by inherited class. The "_make_socket_transport()" method

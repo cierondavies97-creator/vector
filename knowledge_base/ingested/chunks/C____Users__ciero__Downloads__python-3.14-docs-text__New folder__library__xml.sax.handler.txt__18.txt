@@ -1,0 +1,4 @@
+xml.sax.handler.property_lexical_handler
+      value: ""http://xml.org/sax/properties/lexical-handler""
+      data type: xml.sax.handler.LexicalHandler (not supported in Python 2)
+      description: An optional extension handler for lexical events like

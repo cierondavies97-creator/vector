@@ -1,0 +1,4 @@
+file does not exist at all, it is created. If *mode* is "'r'" or
+   "'a'", the file should be seekable.
+   *compression* is the ZIP compression method to use when writing the
+   archive, and should be "ZIP_STORED", "ZIP_DEFLATED", "ZIP_BZIP2",

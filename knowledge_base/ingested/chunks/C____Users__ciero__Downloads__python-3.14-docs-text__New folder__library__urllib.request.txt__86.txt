@@ -1,0 +1,5 @@
+all may be overridden in subclasses.  It also defines several public
+attributes that can be used by clients to inspect the parsed request.
+Request.full_url
+   The original URL passed to the constructor.
+   Changed in version 3.4.

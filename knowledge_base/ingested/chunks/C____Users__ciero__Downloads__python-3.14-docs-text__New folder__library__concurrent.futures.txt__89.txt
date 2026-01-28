@@ -1,0 +1,6 @@
+the wait time.
+      If the future is cancelled before completing then
+      "CancelledError" will be raised.
+      If the call raised an exception, this method will raise the same
+      exception.
+   exception(timeout=None)

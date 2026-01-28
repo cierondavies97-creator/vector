@@ -1,0 +1,4 @@
+monotonically increasing clock is used. Even if the system clock is
+   changed, the timer setting will not be affected.
+   If *clockid* is "time.CLOCK_BOOTTIME", same as
+   "time.CLOCK_MONOTONIC" except it includes any time that the system

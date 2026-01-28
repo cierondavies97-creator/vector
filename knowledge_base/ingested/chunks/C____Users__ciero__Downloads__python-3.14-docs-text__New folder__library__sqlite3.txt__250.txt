@@ -1,0 +1,5 @@
+For example, the database path is not found, or a transaction could
+   not be processed. "OperationalError" is a subclass of
+   "DatabaseError".
+exception sqlite3.IntegrityError
+   Exception raised when the relational integrity of the database is

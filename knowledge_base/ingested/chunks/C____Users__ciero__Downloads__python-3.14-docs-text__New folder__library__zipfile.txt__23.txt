@@ -1,0 +1,3 @@
+it.  If *file* does not refer to a ZIP file, then a new ZIP archive
+   is appended to the file.  This is meant for adding a ZIP archive to
+   another file (such as "python.exe").  If *mode* is "'a'" and the

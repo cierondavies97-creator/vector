@@ -1,0 +1,5 @@
+p = Process(target=foo)
+      p.start()
+   Instead one should protect the "entry point" of the program by
+   using "if __name__ == '__main__':" as follows:
+      from multiprocessing import Process, freeze_support, set_start_method

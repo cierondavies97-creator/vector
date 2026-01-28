@@ -1,0 +1,4 @@
+callable(object, /)
+   Return "True" if the *object* argument appears callable, "False" if
+   not.  If this returns "True", it is still possible that a call
+   fails, but if it is "False", calling *object* will never succeed.

@@ -1,0 +1,4 @@
+must support the methods "get_full_url()", "has_header()",
+   "get_header()", "header_items()", "add_unredirected_header()" and
+   the attributes "host", "type", "unverifiable" and "origin_req_host"
+   as documented by "urllib.request".

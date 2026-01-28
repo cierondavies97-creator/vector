@@ -1,0 +1,5 @@
+preserved in Python 3.
+inspect.getargvalues(frame)
+   Get information about arguments passed into a particular frame.  A
+   *named tuple* "ArgInfo(args, varargs, keywords, locals)" is
+   returned. *args* is a list of the argument names.  *varargs* and

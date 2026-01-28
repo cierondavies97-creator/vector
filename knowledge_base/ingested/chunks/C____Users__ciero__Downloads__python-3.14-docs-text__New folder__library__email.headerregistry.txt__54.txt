@@ -1,0 +1,10 @@
+AddressHeader
+      from:
+         UniqueAddressHeader
+      resent-from:
+         AddressHeader
+      reply-to:
+         UniqueAddressHeader
+      mime-version:
+         MIMEVersionHeader
+      content-type:

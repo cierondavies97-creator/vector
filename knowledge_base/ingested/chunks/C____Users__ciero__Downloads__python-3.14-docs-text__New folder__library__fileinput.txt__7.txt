@@ -1,0 +1,4 @@
+Lines are returned with any newlines intact, which means that the last
+line in a file may not have one.
+You can control how files are opened by providing an opening hook via
+the *openhook* parameter to "fileinput.input()" or "FileInput()". The

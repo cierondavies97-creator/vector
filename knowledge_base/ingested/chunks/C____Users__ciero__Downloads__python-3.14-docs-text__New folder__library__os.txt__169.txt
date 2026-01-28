@@ -1,0 +1,6 @@
+portable approach, use the "pty" module.
+   Availability: Unix, not WASI.
+   Changed in version 3.4: The new file descriptors are now non-
+   inheritable.
+os.pipe()
+   Create a pipe.  Return a pair of file descriptors "(r, w)" usable

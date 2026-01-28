@@ -1,0 +1,5 @@
+"OptionConflictError"
+   ""resolve""
+      resolve option conflicts intelligently (see below)
+As an example, let's define an "OptionParser" that resolves conflicts
+intelligently and add conflicting options to it:

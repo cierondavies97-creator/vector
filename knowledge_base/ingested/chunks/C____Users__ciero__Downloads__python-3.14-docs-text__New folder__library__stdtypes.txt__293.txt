@@ -1,0 +1,3 @@
+method, then "str()" falls back to returning "repr(object)".
+   If at least one of *encoding* or *errors* is given, *object* should
+   be a *bytes-like object* (e.g. "bytes" or "bytearray").  In this

@@ -1,0 +1,4 @@
+"OutputChecker" to verify their output.
+* "OutputChecker": Compares the actual output from a doctest example
+  with the expected output, and decides whether they match.
+The relationships among these processing classes are summarized in the

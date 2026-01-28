@@ -1,0 +1,3 @@
+children of the current element.  "Element.find()" finds the *first*
+child with a particular tag, and "Element.text" accesses the element's
+text content.  "Element.get()" accesses the element's attributes:

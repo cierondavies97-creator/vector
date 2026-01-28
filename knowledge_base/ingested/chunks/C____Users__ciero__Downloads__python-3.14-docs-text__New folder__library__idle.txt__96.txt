@@ -1,0 +1,4 @@
+occasionally visible.  To change the color scheme, use the Configure
+IDLE dialog Highlighting tab.  The marking of debugger breakpoint
+lines in the editor and text in popups and dialogs is not user-
+configurable.

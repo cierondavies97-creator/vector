@@ -1,0 +1,3 @@
+related errors, i.e. for functions that use *h_errno* in the POSIX
+   C API, including "gethostbyname_ex()" and "gethostbyaddr()". The
+   accompanying value is a pair "(h_errno, string)" representing an

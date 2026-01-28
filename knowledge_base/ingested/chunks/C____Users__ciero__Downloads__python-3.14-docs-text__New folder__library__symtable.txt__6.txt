@@ -1,0 +1,5 @@
+TYPE_PARAMETERS = "type parameters"
+      Used for the symbol table of generic functions or generic
+      classes.
+   TYPE_VARIABLE = "type variable"
+      Used for the symbol table of the bound, the constraint tuple or

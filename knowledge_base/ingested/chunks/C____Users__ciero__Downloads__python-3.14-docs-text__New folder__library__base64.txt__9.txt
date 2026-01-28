@@ -1,0 +1,5 @@
+Base64 alphabet is used.
+   May assert or raise a "ValueError" if the length of *altchars* is
+   not 2.  Raises a "TypeError" if *altchars* is not a *bytes-like
+   object*.
+base64.b64decode(s, altchars=None, validate=False)

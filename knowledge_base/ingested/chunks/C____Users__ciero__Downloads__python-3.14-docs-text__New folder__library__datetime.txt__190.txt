@@ -1,0 +1,4 @@
+different "tzinfo" attributes, the comparison acts as comparands
+   were first converted to UTC datetimes except that the
+   implementation never overflows.
+Changed in version 3.3: Equality comparisons between aware and naive

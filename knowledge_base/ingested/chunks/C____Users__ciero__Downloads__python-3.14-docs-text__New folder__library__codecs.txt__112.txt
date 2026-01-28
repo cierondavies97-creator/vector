@@ -1,0 +1,6 @@
+setstate(state)
+      Set the state of the decoder to *state*. *state* must be a
+      decoder state returned by "getstate()".
+Stream Encoding and Decoding
+----------------------------
+The "StreamWriter" and "StreamReader" classes provide generic working

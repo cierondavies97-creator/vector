@@ -1,0 +1,5 @@
+different packages.
+6.4.2. Intra-package References
+-------------------------------
+When packages are structured into subpackages (as with the "sound"
+package in the example), you can use absolute imports to refer to

@@ -1,0 +1,3 @@
+Multiple arguments can be used to pass non-standard options to
+      the "LIST" command.  If the last argument is a function, it is
+      used as a *callback* function as for "retrlines()"; the default

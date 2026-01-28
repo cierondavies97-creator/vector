@@ -1,0 +1,5 @@
+side.
+   Added in version 3.4.
+SSLContext.load_verify_locations(cafile=None, capath=None, cadata=None)
+   Load a set of "certification authority" (CA) certificates used to
+   validate other peers' certificates when "verify_mode" is other than

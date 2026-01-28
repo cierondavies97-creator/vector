@@ -1,0 +1,4 @@
+Previously it would not be above 64 bits, and larger file
+   identifiers would be arbitrarily packed.On Windows, "st_rdev" no
+   longer returns a value. Previously it would contain the same as
+   "st_dev", which was incorrect.Added the "st_birthtime" member on

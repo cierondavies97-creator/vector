@@ -1,0 +1,4 @@
+is not checked, only one field can be accessed when names are
+      repeated.
+      It is possible to define the "_fields_" class variable *after*
+      the class statement that defines the Structure subclass, this

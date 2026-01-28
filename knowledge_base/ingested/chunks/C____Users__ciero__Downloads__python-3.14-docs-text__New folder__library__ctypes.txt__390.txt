@@ -1,0 +1,5 @@
+class ctypes.c_void_p
+   Represents the C void* type.  The value is represented as integer.
+   The constructor accepts an optional integer initializer.
+class ctypes.c_wchar
+   Represents the C "wchar_t" datatype, and interprets the value as a

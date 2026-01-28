@@ -1,0 +1,7 @@
+>>> print(a, b)
+   [<ListProxy object, typeid 'list' at ...>] []
+   >>> b.append('hello')
+   >>> print(a[0], b)
+   ['hello'] ['hello']
+Similarly, dict and list proxies may be nested inside one another:
+   >>> l_outer = manager.list([ manager.dict() for i in range(2) ])

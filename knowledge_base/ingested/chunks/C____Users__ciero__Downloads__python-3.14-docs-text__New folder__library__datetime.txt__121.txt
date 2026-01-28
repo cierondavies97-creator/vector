@@ -1,0 +1,6 @@
+'The day is 11, the month is March.'
+   >>> # Methods for to extracting 'components' under different calendars
+   >>> t = d.timetuple()
+   >>> for i in t:
+   ...     print(i)
+   2002                # year

@@ -1,0 +1,4 @@
+encoded parts, but should correctly handle all valid unicode
+   characters as well so that it can parse un-encoded header values.
+   "BaseHeader"'s "__new__" then creates the header instance, and
+   calls its "init" method.  The specialized class only needs to

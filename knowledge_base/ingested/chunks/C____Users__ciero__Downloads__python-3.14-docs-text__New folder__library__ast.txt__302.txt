@@ -1,0 +1,5 @@
+required.
+   * "defaults" is a list of default values for arguments that can be
+     passed positionally. If there are fewer defaults, they correspond
+     to the last n arguments.
+class ast.arg(arg, annotation, type_comment)

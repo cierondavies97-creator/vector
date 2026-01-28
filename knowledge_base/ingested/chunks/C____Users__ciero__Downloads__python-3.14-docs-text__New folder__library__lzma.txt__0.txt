@@ -1,0 +1,5 @@
+"lzma" --- Compression using the LZMA algorithm
+***********************************************
+Added in version 3.3.
+**Source code:** Lib/lzma.py
+======================================================================

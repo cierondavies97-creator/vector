@@ -1,0 +1,4 @@
+*text encoding* only).
+   The unencodable character is replaced by a "\N{...}" escape
+   sequence. The set of characters that appear in the braces is the
+   Name property from Unicode Character Database. For example, the

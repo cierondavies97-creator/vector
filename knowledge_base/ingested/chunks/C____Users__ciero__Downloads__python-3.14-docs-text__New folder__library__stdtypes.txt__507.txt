@@ -1,0 +1,4 @@
+operations in addition to the common bytes and bytearray operations
+   described in Bytes and Bytearray Operations.
+   Also see the bytearray built-in.
+   Since 2 hexadecimal digits correspond precisely to a single byte,

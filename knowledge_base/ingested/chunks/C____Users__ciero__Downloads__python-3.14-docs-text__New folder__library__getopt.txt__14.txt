@@ -1,0 +1,3 @@
+options (e.g., "'-x'") or two hyphens for long options (e.g., "'--
+   long-option'"), and the option argument as its second element, or
+   an empty string if the option has no argument.  The options occur

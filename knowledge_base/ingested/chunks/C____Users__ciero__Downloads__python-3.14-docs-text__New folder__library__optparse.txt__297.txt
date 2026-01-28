@@ -1,0 +1,6 @@
+...
+   parser.add_option("-c", "--callback", dest="vararg_attr",
+                     action="callback", callback=vararg_callback)
+Extending "optparse"
+====================
+Since the two major controlling factors in how "optparse" interprets

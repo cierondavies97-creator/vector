@@ -1,0 +1,3 @@
+as given in the Microsoft documentation followed by an optional
+      sequence of tuples of ttk states and the corresponding Visual
+      Styles API state value. *kw* may have the following options:

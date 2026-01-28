@@ -1,0 +1,4 @@
+thus will not automatically resolve to "list[SomeClass]".
+   Added in version 3.7.4.
+   Changed in version 3.14: This is now an alias for
+   "annotationlib.ForwardRef". Several undocumented behaviors of this

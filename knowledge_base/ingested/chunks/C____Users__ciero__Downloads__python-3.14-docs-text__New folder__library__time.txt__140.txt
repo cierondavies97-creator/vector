@@ -1,0 +1,5 @@
+>>> time.tzset()
+      >>> time.strftime('%X %x %Z')
+      '16:08:12 05/08/03 AEST'
+   On many Unix systems (including *BSD, Linux, Solaris, and Darwin),
+   it is more convenient to use the system's zoneinfo (*tzfile(5)*)

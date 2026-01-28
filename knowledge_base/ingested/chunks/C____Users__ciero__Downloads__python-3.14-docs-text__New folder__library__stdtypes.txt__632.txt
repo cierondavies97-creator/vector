@@ -1,0 +1,6 @@
+Note:
+     The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.
+bytes.zfill(width, /)
+bytearray.zfill(width, /)
+   Return a copy of the sequence left filled with ASCII "b'0'" digits

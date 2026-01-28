@@ -1,0 +1,5 @@
+built-in method.
+inspect.ismethodwrapper(object)
+   Return "True" if the type of object is a "MethodWrapperType".
+   These are instances of "MethodWrapperType", such as "__str__()",
+   "__eq__()" and "__repr__()".

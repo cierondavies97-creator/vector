@@ -1,0 +1,5 @@
+...     print(row)
+         ('acbd18db4cc2f85cedef654fccc4a4d8',)
+         >>> con.close()
+      Changed in version 3.13: Passing *name*, *narg*, and *func* as
+      keyword arguments is deprecated. These parameters will become

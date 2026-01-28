@@ -1,0 +1,3 @@
+operations that work on the built-in "complex" type. These are:
+   conversions to "complex" and "bool", "real", "imag", "+", "-", "*",
+   "/", "**", "abs()", "conjugate()", "==", and "!=". All except "-"

@@ -1,0 +1,6 @@
+>>> from hashlib import blake2b
+   >>> h = blake2b(key=b'pseudorandom key', digest_size=16)
+   >>> h.update(b'message data')
+   >>> h.hexdigest()
+   '3d363ff7401e02026f4a4687d4863ced'
+As a practical example, a web application can symmetrically sign

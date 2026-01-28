@@ -1,0 +1,4 @@
+this utility can significantly improve memory management.
+The module uses traceback objects --- these are objects of type
+"types.TracebackType", which are assigned to the "__traceback__" field
+of "BaseException" instances.

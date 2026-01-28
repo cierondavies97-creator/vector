@@ -1,0 +1,4 @@
+"decimal.Decimal" can be compared within and across their types,
+  with the restriction that complex numbers do not support order
+  comparison.  Within the limits of the types involved, they compare
+  mathematically (algorithmically) correct without loss of precision.

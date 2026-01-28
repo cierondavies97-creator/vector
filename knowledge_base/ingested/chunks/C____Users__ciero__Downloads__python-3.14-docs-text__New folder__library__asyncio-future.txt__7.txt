@@ -1,0 +1,4 @@
+Wrap a "concurrent.futures.Future" object in a "asyncio.Future"
+   object.
+   Deprecated since version 3.10: Deprecation warning is emitted if
+   *future* is not a Future-like object and *loop* is not specified

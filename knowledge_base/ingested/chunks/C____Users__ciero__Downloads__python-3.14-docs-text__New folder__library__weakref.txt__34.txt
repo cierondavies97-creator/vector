@@ -1,0 +1,6 @@
+>>> del d[k1]
+      >>> d[k2] = 2   # d = {k2: 2}
+      >>> del k1      # d = {k2: 2}
+   Changed in version 3.9: Added support for "|" and "|=" operators,
+   as specified in **PEP 584**.
+"WeakKeyDictionary" objects have an additional method that exposes the

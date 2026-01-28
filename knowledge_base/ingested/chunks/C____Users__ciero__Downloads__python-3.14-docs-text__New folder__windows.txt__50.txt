@@ -1,0 +1,3 @@
+Passing "--update" will replace existing installs if the new version
+is newer. Otherwise, they will be left. If no tags are provided with "
+--update", all installs managed by the Python install manager will be

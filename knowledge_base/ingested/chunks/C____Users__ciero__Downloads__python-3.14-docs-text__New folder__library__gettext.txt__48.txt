@@ -1,0 +1,4 @@
+the translation for the empty string. This metadata is in **RFC
+822**-style "key: value" pairs, and should contain the "Project-Id-
+Version" key.  If the key "Content-Type" is found, then the "charset"
+property is used to initialize the "protected" "_charset" instance

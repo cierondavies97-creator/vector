@@ -1,0 +1,4 @@
+*Content-Type* or whose *Content-Type* header is invalid will be
+      treated as if they are of type "text/plain", which may
+      occasionally cause "get_body" to return unexpected results.
+   iter_attachments()

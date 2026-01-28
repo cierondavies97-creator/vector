@@ -1,0 +1,9 @@
+API
+===
+Functions
+---------
+tracemalloc.clear_traces()
+   Clear traces of memory blocks allocated by Python.
+   See also "stop()".
+tracemalloc.get_object_traceback(obj)
+   Get the traceback where the Python object *obj* was allocated.

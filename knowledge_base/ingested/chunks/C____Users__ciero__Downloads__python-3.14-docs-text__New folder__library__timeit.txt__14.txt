@@ -1,0 +1,4 @@
+statement used for setup, and a timer function.  Both statements
+   default to "'pass'"; the timer function is platform-dependent (see
+   the module doc string). *stmt* and *setup* may also contain
+   multiple statements separated by ";" or newlines, as long as they

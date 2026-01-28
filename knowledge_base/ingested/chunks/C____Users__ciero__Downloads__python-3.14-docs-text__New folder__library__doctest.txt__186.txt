@@ -1,0 +1,5 @@
+"DocTestParser" to create a "DocTest" from every docstring that
+  contains interactive examples.
+* "DocTestParser": Creates a "DocTest" object from a string (such as
+  an object's docstring).
+* "DocTestRunner": Executes the examples in a "DocTest", and uses an

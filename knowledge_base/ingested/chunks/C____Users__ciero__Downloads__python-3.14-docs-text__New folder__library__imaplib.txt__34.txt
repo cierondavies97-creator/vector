@@ -1,0 +1,6 @@
+IMAP4.check()
+   Checkpoint mailbox on server.
+IMAP4.close()
+   Close currently selected mailbox. Deleted messages are removed from
+   writable mailbox. This is the recommended command before "LOGOUT".
+IMAP4.copy(message_set, new_mailbox)

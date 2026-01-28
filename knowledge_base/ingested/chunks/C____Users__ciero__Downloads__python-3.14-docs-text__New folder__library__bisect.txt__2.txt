@@ -1,0 +1,3 @@
+algorithm to do its work.  Unlike other bisection tools that search
+for a specific value, the functions in this module are designed to
+locate an insertion point. Accordingly, the functions never call an

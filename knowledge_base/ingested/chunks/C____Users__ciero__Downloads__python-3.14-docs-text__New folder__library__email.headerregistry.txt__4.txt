@@ -1,0 +1,3 @@
+their last base class.  Each header class has an additional base class
+that is determined by the type of the header.  For example, many
+headers have the class "UnstructuredHeader" as their other base class.

@@ -1,0 +1,5 @@
+Added in version 3.13.
+"xmlparser" objects have the following methods to mitigate some common
+XML vulnerabilities.
+xmlparser.SetAllocTrackerActivationThreshold(threshold, /)
+   Sets the number of allocated bytes of dynamic memory needed to

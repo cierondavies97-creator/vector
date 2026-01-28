@@ -1,0 +1,4 @@
+to search anew for the named module upon its next import. The key can
+also be assigned to "None", forcing the next import of the module to
+result in a "ModuleNotFoundError".
+Beware though, as if you keep a reference to the module object,

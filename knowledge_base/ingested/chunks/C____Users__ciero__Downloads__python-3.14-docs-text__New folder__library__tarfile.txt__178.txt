@@ -1,0 +1,5 @@
+may be useful to write these as context managers, to be used like
+this:
+   with StatefulFilter() as filter_func:
+       tar.extractall(path, filter=filter_func)
+Such a filter can be written as, for example:

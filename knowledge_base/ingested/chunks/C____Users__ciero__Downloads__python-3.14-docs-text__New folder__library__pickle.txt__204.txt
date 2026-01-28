@@ -1,0 +1,5 @@
+pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+The following example reads the resulting pickled data.
+   import pickle
+   with open('data.pickle', 'rb') as f:
+       # The protocol version used is detected automatically, so we do not

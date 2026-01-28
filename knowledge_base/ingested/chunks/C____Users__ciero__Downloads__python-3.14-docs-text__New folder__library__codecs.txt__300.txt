@@ -1,0 +1,4 @@
+defines a valid "getregentry()" function that returns a
+   "codecs.CodecInfo" object, the codec is cached and returned.
+   If the codec module defines a "getaliases()" function any returned
+   aliases are registered for future use.

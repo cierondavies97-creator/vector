@@ -1,0 +1,4 @@
+| curses.A_REVERSE         | Reverse background and          |
+|                          | foreground colors               |
++--------------------------+---------------------------------+
+| curses.A_STANDOUT        | Standout mode                   |

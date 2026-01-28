@@ -1,0 +1,3 @@
+values under "HKEY_LOCAL_MACHINE\Software\Policies\Python\PyManager",
+where the value name matches the configuration key and the value type
+is "REG_SZ". Note that this key can itself be customized, but only by

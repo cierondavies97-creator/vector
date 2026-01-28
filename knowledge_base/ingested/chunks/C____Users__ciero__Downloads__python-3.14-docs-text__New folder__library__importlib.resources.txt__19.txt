@@ -1,0 +1,3 @@
+importlib.resources.read_binary(my_module, "pics", "painting.png")
+  For backward compatibility reasons, functions that read text require
+  an explicit *encoding* argument if multiple *path_names* are given.

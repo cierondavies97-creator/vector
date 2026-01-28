@@ -1,0 +1,4 @@
+abstract grammar (for example, "ast.stmt" or "ast.expr").  In
+   addition, there is one class defined for each constructor on the
+   right-hand side; these classes inherit from the classes for the
+   left-hand side trees.  For example, "ast.BinOp" inherits from

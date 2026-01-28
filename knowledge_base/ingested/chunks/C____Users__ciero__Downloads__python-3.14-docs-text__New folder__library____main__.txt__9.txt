@@ -1,0 +1,5 @@
+* Python code read by the Python interpreter from standard input:
+     $ echo "import this" | python
+     The Zen of Python, by Tim Peters
+     Beautiful is better than ugly.
+     Explicit is better than implicit.

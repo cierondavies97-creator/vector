@@ -1,0 +1,5 @@
+world compatibility.
+IMAP4.subscribe(mailbox)
+   Subscribe to new mailbox.
+IMAP4.thread(threading_algorithm, charset, search_criterion[, ...])
+   The "thread" command is a variant of "search" with threading

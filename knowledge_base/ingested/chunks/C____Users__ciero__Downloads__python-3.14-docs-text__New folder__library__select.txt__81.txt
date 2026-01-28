@@ -1,0 +1,5 @@
+signal handler raises an exception (see **PEP 475** for the
+   rationale), instead of raising "InterruptedError".
+Kevent Objects
+==============
+https://man.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2

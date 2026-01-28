@@ -1,0 +1,4 @@
+more information about the various handlers.  We won't go in the order
+they are defined in the structure, because there is a lot of
+historical baggage that impacts the ordering of the fields.  It's
+often easiest to find an example that includes the fields you need and

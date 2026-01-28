@@ -1,0 +1,5 @@
+requested facts.
+      Added in version 3.3.
+   nlst(argument[, ...])
+      Return a list of file names as returned by the "NLST" command.
+      The optional *argument* is a directory to list (default is the

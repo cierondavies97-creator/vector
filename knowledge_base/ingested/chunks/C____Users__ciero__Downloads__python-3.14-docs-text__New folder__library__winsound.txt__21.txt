@@ -1,0 +1,7 @@
+Added in version 3.14.
+winsound.SND_SYSTEM
+   Assign the sound to the audio session for system notification
+   sounds.
+   Added in version 3.14.
+winsound.MB_ICONASTERISK
+   Play the "SystemDefault" sound.

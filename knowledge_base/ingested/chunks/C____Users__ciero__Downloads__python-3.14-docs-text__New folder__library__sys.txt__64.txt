@@ -1,0 +1,4 @@
+suppressed. Otherwise, the audit hook exception will be reported as
+   unraisable and "sys.excepthook" will be called.
+   See also:
+     The "sys.unraisablehook()" function handles unraisable exceptions

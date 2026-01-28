@@ -1,0 +1,3 @@
+this is executed *before* any exit handlers added using "atexit".
+   This means exceptions in the main thread must be caught and handled
+   in order to signal threads to exit gracefully. For this reason, it

@@ -1,0 +1,4 @@
+in the user interface process that runs the shell and editor.  In the
+execution process, it replaces "sys.stdin", "sys.stdout", and
+"sys.stderr" with objects that get input from and send output to the
+Shell window. The original values stored in "sys.__stdin__",

@@ -1,0 +1,3 @@
+than the average case. However, there are other representations which
+are more efficient overall, yet the worst cases might be terrible.
+Heaps are also very useful in big disk sorts.  You most probably all

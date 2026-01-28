@@ -1,0 +1,5 @@
+See "FILTER_DIR" for what this filtering does, and how to switch
+      it off.
+   _get_child_mock(**kw)
+      Create the child mocks for attributes and return value. By
+      default child mocks will be the same type as the parent.

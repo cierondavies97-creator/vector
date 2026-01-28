@@ -1,0 +1,6 @@
+Python VMs or Python releases.
+   Added in version 3.2.
+   Changed in version 3.7: This can now handle coroutine and
+   asynchronous generator objects.
+dis.show_code(x, *, file=None)
+   Print detailed code object information for the supplied function,

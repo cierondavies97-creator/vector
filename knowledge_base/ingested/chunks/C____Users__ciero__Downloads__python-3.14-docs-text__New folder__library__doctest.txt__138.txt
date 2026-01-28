@@ -1,0 +1,4 @@
+All arguments are optional, and all except for *m* should be
+   specified in keyword form.
+   Test examples in docstrings in functions and classes reachable from
+   module *m* (or module "__main__" if *m* is not supplied or is

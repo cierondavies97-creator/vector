@@ -1,0 +1,5 @@
+if (!PyArg_ParseTuple(args, "sss:call", &arg1, &arg2, &arg3)) {
+           return NULL;
+       }
+       result = PyUnicode_FromFormat(
+           "Returning -- value: [%d] arg1: [%s] arg2: [%s] arg3: [%s]\n",

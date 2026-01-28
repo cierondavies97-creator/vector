@@ -1,0 +1,5 @@
+"gc.set_debug(gc.DEBUG_LEAK)". Notice that this includes
+"gc.DEBUG_SAVEALL", causing garbage-collected objects to be saved in
+gc.garbage for inspection.
+The "gc" module provides the following functions:
+gc.enable()

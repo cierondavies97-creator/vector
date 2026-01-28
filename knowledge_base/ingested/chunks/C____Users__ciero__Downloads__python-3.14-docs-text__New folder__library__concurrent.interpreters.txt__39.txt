@@ -1,0 +1,4 @@
+This exception, a subclass of "InterpreterError", is raised when
+   the targeted interpreter no longer exists.
+exception concurrent.interpreters.ExecutionFailed
+   This exception, a subclass of "InterpreterError", is raised when

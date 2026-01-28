@@ -1,0 +1,7 @@
+| &('class' | '@') class_def
+       | &('with' | 'async') with_stmt
+       | &('for' | 'async') for_stmt
+       | &'try' try_stmt
+       | &'while' while_stmt
+       | match_stmt
+   # SIMPLE STATEMENTS

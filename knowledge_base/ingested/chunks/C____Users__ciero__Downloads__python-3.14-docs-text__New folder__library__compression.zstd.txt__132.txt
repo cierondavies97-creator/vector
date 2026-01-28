@@ -1,0 +1,5 @@
+attribute you wish to retrieve the bounds of.
+      Both the lower and upper bounds are inclusive.
+   window_log_max
+      The base-two logarithm of the maximum size of the window used
+      during decompression. This can be useful to limit the amount of

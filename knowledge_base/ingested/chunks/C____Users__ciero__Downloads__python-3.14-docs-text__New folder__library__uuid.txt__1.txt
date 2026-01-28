@@ -1,0 +1,3 @@
+functions for generating UUIDs corresponding to a specific UUID
+version as specified in **RFC 9562** (which supersedes **RFC 4122**),
+for example, "uuid1()" for UUID version 1, "uuid3()" for UUID version

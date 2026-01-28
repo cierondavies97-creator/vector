@@ -1,0 +1,3 @@
+|                | opening the output file.                      |
+   +----------------+-----------------------------------------------+
+   | *errors*       | If this keyword argument is specified along   |

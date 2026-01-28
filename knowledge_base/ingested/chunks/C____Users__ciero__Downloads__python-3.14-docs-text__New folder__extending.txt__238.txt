@@ -1,0 +1,12 @@
+*/
+   static int
+   import_spam(void)
+   {
+       PySpam_API = (void **)PyCapsule_Import("spam._C_API", 0);
+       return (PySpam_API != NULL) ? 0 : -1;
+   }
+   #endif
+   #ifdef __cplusplus
+   }
+   #endif
+   #endif /* !defined(Py_SPAMMODULE_H) */

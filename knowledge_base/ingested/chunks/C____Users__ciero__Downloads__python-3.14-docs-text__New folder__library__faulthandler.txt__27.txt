@@ -1,0 +1,6 @@
+signal installed by "register()". Return "True" if the signal was
+   registered, "False" otherwise.
+   Not available on Windows.
+Issue with file descriptors
+===========================
+"enable()", "dump_traceback_later()" and "register()" keep the file

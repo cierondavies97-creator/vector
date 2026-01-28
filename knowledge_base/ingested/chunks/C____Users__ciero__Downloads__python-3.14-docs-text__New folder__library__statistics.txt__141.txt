@@ -1,0 +1,4 @@
+Generates *n* random samples for a given mean and standard
+      deviation. Returns a "list" of "float" values.
+      If *seed* is given, creates a new instance of the underlying
+      random number generator.  This is useful for creating

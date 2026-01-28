@@ -1,0 +1,6 @@
+method.  The socket is assumed to be in blocking mode.
+   Availability: Windows.
+   Added in version 3.3.
+socket.SocketType
+   This is a Python type object that represents the socket object
+   type. It is the same as "type(socket(...))".

@@ -1,0 +1,4 @@
+names known to the host operating system are given in the
+   "pathconf_names" dictionary.  For configuration variables not
+   included in that mapping, passing an integer for *name* is also
+   accepted.

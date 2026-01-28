@@ -1,0 +1,3 @@
+Connect to a TCP service listening on the internet *address* (a
+   2-tuple "(host, port)"), and return the socket object.  This is a
+   higher-level function than "socket.connect()": if *host* is a non-

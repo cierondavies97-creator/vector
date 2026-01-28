@@ -1,0 +1,5 @@
+('/', 'usr', 'bin', 'python3')
+      >>> p = PureWindowsPath('c:/Program Files/PSF')
+      >>> p.parts
+      ('c:\\', 'Program Files', 'PSF')
+   (note how the drive and local root are regrouped in a single part)

@@ -1,0 +1,4 @@
+accidental clashes with a user's global variables. On the other hand,
+if you know what you are doing you can touch a module's global
+variables with the same notation used to refer to its functions,
+"modname.itemname".

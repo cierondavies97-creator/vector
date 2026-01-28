@@ -1,0 +1,4 @@
+"__format__()", however most classes will either delegate
+   formatting to one of the built-in types, or use a similar
+   formatting option syntax.
+   See Format Specification Mini-Language for a description of the

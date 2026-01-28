@@ -1,0 +1,5 @@
+"xmlrpc.client" --- XML-RPC client access
+*****************************************
+**Source code:** Lib/xmlrpc/client.py
+======================================================================
+XML-RPC is a Remote Procedure Call method that uses XML passed via

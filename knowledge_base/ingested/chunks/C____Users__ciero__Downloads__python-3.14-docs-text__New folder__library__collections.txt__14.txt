@@ -1,0 +1,4 @@
+list should always contain at least one mapping.
+   new_child(m=None, **kwargs)
+      Returns a new "ChainMap" containing a new map followed by all of
+      the maps in the current instance.  If "m" is specified, it

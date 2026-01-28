@@ -1,0 +1,4 @@
+Changed in version 3.14: Frame information will not be displayed if
+   a command that resumes execution is present in the command list.
+s(tep)
+   Execute the current line, stop at the first possible occasion

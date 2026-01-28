@@ -1,0 +1,3 @@
+Deprecated since version 3.13, will be removed in version 3.18:
+   Deprecated in favor of the new type parameter syntax. Use "class
+   A[T: (str, bytes)]: ..." instead of importing "AnyStr". See **PEP

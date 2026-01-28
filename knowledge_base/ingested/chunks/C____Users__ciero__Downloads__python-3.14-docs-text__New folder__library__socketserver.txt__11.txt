@@ -1,0 +1,5 @@
+call the "handle_request()" or "serve_forever()" method of the server
+object to process one or many requests.  Finally, call
+"server_close()" to close the socket (unless you used a "with"
+statement).
+When inheriting from "ThreadingMixIn" for threaded connection

@@ -1,0 +1,5 @@
+>>> c | d                       # union:  max(c[x], d[x])
+   Counter({'a': 3, 'b': 2})
+   >>> c == d                      # equality:  c[x] == d[x]
+   False
+   >>> c <= d                      # inclusion:  c[x] <= d[x]

@@ -1,0 +1,4 @@
+this class is to prevent the use of the "attach()" method, which
+   only makes sense for *multipart* messages.  If "attach()" is
+   called, a "MultipartConversionError" exception is raised.
+class email.mime.multipart.MIMEMultipart(_subtype='mixed', boundary=None, _subparts=None, *, policy=compat32, **_params)

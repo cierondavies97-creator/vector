@@ -1,0 +1,4 @@
+instances and then apply arithmetic operations which take place
+   within the current context for the active thread.  An alternative
+   approach is to use context methods for calculating within a
+   specific context.  The methods are similar to those for the

@@ -1,0 +1,3 @@
+in domain names. A domain name containing non-ASCII characters (such
+as "www.Alliancefrançaise.nu") is converted into an ASCII-compatible
+encoding (ACE, such as "www.xn--alliancefranaise-npb.nu"). The ACE

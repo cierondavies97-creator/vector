@@ -1,0 +1,4 @@
+indicate the byte order, size and alignment of the packed data,
+according to the following table:
++-------------+--------------------------+------------+-------------+
+| Character   | Byte order               | Size       | Alignment   |

@@ -1,0 +1,4 @@
+the base64 alphabet were encountered.  The characters are ignored,
+   but the resulting decoded bytes may be invalid.
+exception email.errors.InvalidBase64LengthDefect
+   When decoding a block of base64 encoded bytes, the number of non-

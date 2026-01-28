@@ -1,0 +1,9 @@
+Example:
+      def out():
+          try:
+              middle()
+          except Exception as e:
+              raise ValueError("reraise middle() error") from e
+      def middle():
+          try:
+              return inner(0)

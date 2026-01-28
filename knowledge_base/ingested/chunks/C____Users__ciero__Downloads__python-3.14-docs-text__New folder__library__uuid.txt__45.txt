@@ -1,0 +1,5 @@
+If *node* or *clock_seq* exceed their expected bit count, only
+   their least significant bits are kept.
+   Added in version 3.14.
+uuid.uuid7()
+   Generate a time-based UUID according to **RFC 9562, §5.7**.

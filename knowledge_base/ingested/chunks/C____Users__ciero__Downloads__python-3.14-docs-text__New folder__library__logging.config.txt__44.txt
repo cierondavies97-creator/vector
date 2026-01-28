@@ -1,0 +1,4 @@
+User-defined objects below is used to create an instance; otherwise,
+the context is used to determine what to instantiate.
+* *formatters* - the corresponding value will be a dict in which each
+  key is a formatter id and each value is a dict describing how to

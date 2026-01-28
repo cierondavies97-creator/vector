@@ -1,0 +1,7 @@
+* "collections.abc.AsyncIterator"
+* "collections.abc.AsyncGenerator"
+* "collections.abc.Iterable"
+* "collections.abc.Iterator"
+* "collections.abc.Generator"
+* "collections.abc.Reversible"
+* "collections.abc.Container"

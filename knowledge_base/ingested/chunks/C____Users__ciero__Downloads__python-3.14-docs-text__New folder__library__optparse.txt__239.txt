@@ -1,0 +1,4 @@
+already using the "-n" option string.  Since "conflict_handler" is
+""resolve"", it resolves the situation by removing "-n" from the
+earlier option's list of option strings.  Now "--dry-run" is the only
+way for the user to activate that option.  If the user asks for help,

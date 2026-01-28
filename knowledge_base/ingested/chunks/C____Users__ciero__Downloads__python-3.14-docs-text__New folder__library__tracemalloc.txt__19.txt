@@ -1,0 +1,5 @@
+using the "Snapshot.dump()" method to analyze the snapshot offline.
+Then use the "Snapshot.load()" method reload the snapshot.
+Get the traceback of a memory block
+-----------------------------------
+Code to display the traceback of the biggest memory block:

@@ -1,0 +1,6 @@
+>>> mock = ThreadingMock()
+      >>> thread = threading.Thread(target=mock)
+      >>> thread.start()
+      >>> mock.wait_until_called(timeout=1)
+      >>> thread.join()
+   wait_until_any_call_with(*args, **kwargs)

@@ -1,0 +1,5 @@
+members in definition order
+* uses *call* syntax to return members by value
+* uses *index* syntax to return members by name
+Enumerations are created either by using "class" syntax, or by using
+function-call syntax:

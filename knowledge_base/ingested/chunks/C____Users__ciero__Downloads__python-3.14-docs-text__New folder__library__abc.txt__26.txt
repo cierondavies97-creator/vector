@@ -1,0 +1,4 @@
+Dynamically adding abstract methods to a class, or attempting to
+   modify the abstraction status of a method or class once it is
+   created, are only supported using the "update_abstractmethods()"
+   function.  The "abstractmethod()" only affects subclasses derived

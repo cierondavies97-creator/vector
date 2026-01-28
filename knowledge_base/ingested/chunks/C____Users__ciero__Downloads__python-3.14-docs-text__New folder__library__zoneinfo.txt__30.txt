@@ -1,0 +1,3 @@
+An alternate constructor that bypasses the constructor's cache. It
+   is identical to the primary constructor, but returns a new object
+   on each call. This is most likely to be useful for testing or

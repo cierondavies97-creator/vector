@@ -1,0 +1,7 @@
+simple code building on "SequenceMatcher" can be used to do useful
+    work.
+  * Simple version control recipe for a small application built with
+    "SequenceMatcher".
+Differ Objects
+==============
+Note that "Differ"-generated deltas make no claim to be **minimal**

@@ -1,0 +1,4 @@
+list of types, a "ParamSpec", "Concatenate", or an ellipsis ("...").
+The return type must be a single type.
+If a literal ellipsis "..." is given as the argument list, it
+indicates that a callable with any arbitrary parameter list would be

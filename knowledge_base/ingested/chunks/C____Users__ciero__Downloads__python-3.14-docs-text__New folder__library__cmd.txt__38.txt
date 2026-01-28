@@ -1,0 +1,4 @@
+used in the help utility provided by the shell.
+The example also includes a basic record and playback facility
+implemented with the "precmd()" method which is responsible for
+converting the input to lowercase and writing the commands to a file.

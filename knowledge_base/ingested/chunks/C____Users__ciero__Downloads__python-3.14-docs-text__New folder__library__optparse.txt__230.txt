@@ -1,0 +1,5 @@
+options don't get confused.  For example, each command might have a
+   different set of options.
+OptionParser.enable_interspersed_args()
+   Set parsing to not stop on the first non-option, allowing
+   interspersing switches with command arguments.  This is the default

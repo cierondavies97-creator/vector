@@ -1,0 +1,6 @@
+# not a variable assignment to a string.
+      BoxOfStrings: TypeAlias = "Box[str]"
+      class Box(Generic[T]):
+          @classmethod
+          def make_box_of_strings(cls) -> BoxOfStrings: ...
+   See **PEP 613** for more details.

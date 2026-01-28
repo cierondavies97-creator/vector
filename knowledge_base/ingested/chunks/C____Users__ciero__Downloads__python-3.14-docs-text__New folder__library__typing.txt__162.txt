@@ -1,0 +1,5 @@
+# We don't need to pass in the lock ourselves thanks to the decorator.
+      sum_threadsafe([1.1, 2.2, 3.3])
+   Added in version 3.10.
+   See also:
+     * **PEP 612** -- Parameter Specification Variables (the PEP which

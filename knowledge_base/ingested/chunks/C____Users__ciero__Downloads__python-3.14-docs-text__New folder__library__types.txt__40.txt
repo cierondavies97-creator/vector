@@ -1,0 +1,4 @@
+"array.array.typecode". This type is used as descriptor for object
+   attributes; it has the same purpose as the "property" type, but for
+   classes defined in extension modules.
+types.MemberDescriptorType

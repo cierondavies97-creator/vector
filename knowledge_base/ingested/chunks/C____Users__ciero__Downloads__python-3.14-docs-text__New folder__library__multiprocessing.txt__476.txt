@@ -1,0 +1,3 @@
+Which solves the fundamental issue of processes colliding with each
+   other resulting in a bad file descriptor error, but introduces a
+   potential danger to applications which replace "sys.stdin()" with a

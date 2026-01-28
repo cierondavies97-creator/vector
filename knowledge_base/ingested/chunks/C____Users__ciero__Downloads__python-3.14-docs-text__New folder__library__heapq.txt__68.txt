@@ -1,0 +1,4 @@
+seeking capabilities of the disks. On devices which cannot seek,
+    like big tape drives, the story was quite different, and one had
+    to be very clever to ensure (far in advance) that each tape
+    movement will be the most effective possible (that is, will best

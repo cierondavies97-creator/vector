@@ -1,0 +1,4 @@
+print(arr)                          # => array('i', [42, 1729, 0, 0, 0])
+The following code uses "wait()" to wait for messages from multiple
+processes at once:
+   from multiprocessing import Process, Pipe, current_process

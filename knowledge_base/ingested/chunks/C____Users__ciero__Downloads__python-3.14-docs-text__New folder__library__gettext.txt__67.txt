@@ -1,0 +1,5 @@
+1. prepare your program or module by specially marking translatable
+   strings
+2. run a suite of tools over your marked files to generate raw
+   messages catalogs
+3. create language-specific translations of the message catalogs

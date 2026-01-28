@@ -1,0 +1,6 @@
+"a = iconcat(a, b)" is equivalent to "a += b" for *a* and *b*
+   sequences.
+operator.ifloordiv(a, b)
+operator.__ifloordiv__(a, b)
+   "a = ifloordiv(a, b)" is equivalent to "a //= b".
+operator.ilshift(a, b)

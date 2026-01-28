@@ -1,0 +1,4 @@
+"addCleanup()". If you need cleanup functions to be called
+      *prior* to "tearDown()" then you can call "doCleanups()"
+      yourself.
+      "doCleanups()" pops methods off the stack of cleanup functions

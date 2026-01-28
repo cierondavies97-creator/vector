@@ -1,0 +1,6 @@
+"FlagBoundary" setting
+   The "repr()" of unnamed zero-valued flags has changed.  It is now:
+      >>> Color(0)
+      <Color: 0>
+   Note:
+     Using "auto" with "IntFlag" results in integers that are powers

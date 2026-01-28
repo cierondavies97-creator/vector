@@ -1,0 +1,7 @@
+SIGWINCH handler).
+curses.savetty()
+   Save the current state of the terminal modes in a buffer, usable by
+   "resetty()".
+curses.get_escdelay()
+   Retrieves the value set by "set_escdelay()".
+   Added in version 3.9.

@@ -1,0 +1,4 @@
+os.supports_follow_symlinks
+   A "set" object indicating which functions in the "os" module accept
+   "False" for their *follow_symlinks* parameter on the local
+   platform. Different platforms provide different features, and the

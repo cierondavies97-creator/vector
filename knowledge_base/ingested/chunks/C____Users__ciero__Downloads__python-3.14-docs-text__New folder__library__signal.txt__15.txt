@@ -1,0 +1,6 @@
+class signal.Sigmasks
+   "enum.IntEnum" collection the constants "SIG_BLOCK", "SIG_UNBLOCK"
+   and "SIG_SETMASK".
+   Availability: Unix.
+   See the man page *sigprocmask(2)* and *pthread_sigmask(3)* for
+   further information.

@@ -1,0 +1,4 @@
+instances to acquire behaviors that differ from other instances of the
+same class.
+The "property()" function is implemented as a data descriptor.
+Accordingly, instances cannot override the behavior of a property.

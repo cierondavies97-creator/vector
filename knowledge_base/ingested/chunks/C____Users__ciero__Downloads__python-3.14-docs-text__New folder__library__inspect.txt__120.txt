@@ -1,0 +1,5 @@
+"__set__()", as being method descriptors (such objects are data
+   descriptors, not method descriptors).
+inspect.isdatadescriptor(object)
+   Return "True" if the object is a data descriptor.
+   Data descriptors have a "__set__" or a "__delete__" method.

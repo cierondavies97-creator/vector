@@ -1,0 +1,5 @@
+errors.txt").
+Added in version 3.14.
+The add_argument() method
+=========================
+ArgumentParser.add_argument(name or flags..., *[, action][, nargs][, const][, default][, type][, choices][, required][, help][, metavar][, dest][, deprecated])

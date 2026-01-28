@@ -1,0 +1,4 @@
+the same functionality using only one header.  Note that headers
+   added using this method are also added to redirected requests.
+Request.add_unredirected_header(key, header)
+   Add a header that will not be added to a redirected request.
