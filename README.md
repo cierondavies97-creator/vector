@@ -8,7 +8,7 @@ Layer	Technology
 GUI	Python + Tkinter
 Embedding Engine	sentence-transformers (MiniLM)
 Vector DB	FAISS (local)
-LLM API	OpenAI gpt-4-turbo or gpt-5.2
+LLM API	OpenAI gpt-5.2
 File Ingestion	.txt, .pdf, .md, .py (comments only)
 Code Indexing	Full directory scan (multi-subfolder)
 File Editing	GPT-assisted editing with rollback
@@ -51,7 +51,7 @@ Supported formats:
 
 Save all to knowledge_base/
 
-Chunk files into overlapping 500-token blocks
+Chunk files into overlapping =
 
 Embed chunks using MiniLM and store with path metadata in FAISS
 
@@ -168,7 +168,7 @@ Folder selector ([ Choose Directory ])
 
 Checkbox: [✓] Use Memory
 
-Buttons: Reindex, Cycle Memory, Save Chat, Clear Output
+Buttons: Reindex, Cycle Memory, Save Chat, Clear Output, clear chat, save chat, pin, unpin, ask, toggles for debugging, 
 
 Main Window:
 Section	Function
@@ -192,9 +192,7 @@ No files or full docs ever leave your machine.
 🚦 6. Deployment Options
 Method	Tools
 Run from source	python app.py
-Standalone .exe	Use pyinstaller with --onefile flag
-GitHub Repo	Structured with README, license, versioned releases
-🛠 7. Dependencies (requirements.txt)
+
 openai
 sentence-transformers
 faiss-cpu
