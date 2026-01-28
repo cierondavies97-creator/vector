@@ -1,0 +1,4 @@
+performance monitoring. For example, a program can be run under a
+debugger with no overhead if the debugger disables all monitoring
+except for a few breakpoints.
+If "DISABLE" is returned by a callback for a global event,

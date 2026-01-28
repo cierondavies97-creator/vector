@@ -1,0 +1,4 @@
+instance of "timezone" with the zone name and offset obtained from
+   the OS.
+   If "self.tzinfo" is *tz*, "self.astimezone(tz)" is equal to *self*:
+   no adjustment of date or time data is performed. Else the result is

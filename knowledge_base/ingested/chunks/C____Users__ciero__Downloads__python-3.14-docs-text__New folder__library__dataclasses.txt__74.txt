@@ -1,0 +1,4 @@
+the caller.
+   The *decorator* parameter is a callable that will be used to create
+   the dataclass. It should take the class object as a first argument
+   and the same keyword arguments as "@dataclass". By default, the

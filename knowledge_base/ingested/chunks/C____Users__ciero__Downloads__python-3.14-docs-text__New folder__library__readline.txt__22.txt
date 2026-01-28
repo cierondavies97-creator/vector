@@ -1,0 +1,7 @@
+file size.
+History list
+============
+The following functions operate on a global history list:
+readline.clear_history()
+   Clear the current history.  This calls "clear_history()" in the
+   underlying library.  The Python function only exists if Python was

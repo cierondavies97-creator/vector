@@ -1,0 +1,3 @@
+|                                    | classes.  It is a subclass of "Exception".      |
++------------------------------------+-------------------------------------------------+
+| "UserWarning"                      | The default category for "warn()".              |

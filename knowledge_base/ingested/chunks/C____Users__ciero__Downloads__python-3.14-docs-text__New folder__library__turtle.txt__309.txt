@@ -1,0 +1,2 @@
+| "bytedesign"             | complex classical turtle       | "tracer()", "delay()", "update()"      |
+|                          | graphics pattern               |                                        |

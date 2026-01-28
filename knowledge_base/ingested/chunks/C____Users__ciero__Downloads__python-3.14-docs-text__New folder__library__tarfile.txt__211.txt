@@ -1,0 +1,4 @@
+The default scheme is "'surrogateescape'" which Python also uses for
+its file system calls, see File Names, Command Line Arguments, and
+Environment Variables.
+For "PAX_FORMAT" archives (the default), *encoding* is generally not

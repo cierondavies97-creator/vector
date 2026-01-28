@@ -1,0 +1,4 @@
+that opener; otherwise, simply call "OpenerDirector.open()" instead
+   of "urlopen()".  The code does not check for a real
+   "OpenerDirector", and any class with the appropriate interface will
+   work.

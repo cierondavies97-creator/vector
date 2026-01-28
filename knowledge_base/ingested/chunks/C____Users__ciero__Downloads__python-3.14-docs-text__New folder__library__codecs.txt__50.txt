@@ -1,0 +1,3 @@
++---------------------------+-------------------------------------------------+
+| "'ignore'"                | Ignore the malformed data and continue without  |
+|                           | further notice. Implemented in                  |

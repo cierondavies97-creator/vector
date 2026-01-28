@@ -1,0 +1,2 @@
+|                                                    | are enabled. If they already are, try disabling    |
+|                                                    | and re-enabling to refresh the command. The        |

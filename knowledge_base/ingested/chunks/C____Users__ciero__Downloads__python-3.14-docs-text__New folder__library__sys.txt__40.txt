@@ -1,0 +1,4 @@
+"PYTHONBREAKPOINT".  If that is set to ""0"" then this function
+   returns immediately; i.e. it is a no-op.  If the environment
+   variable is not set, or is set to the empty string,
+   "pdb.set_trace()" is called. Otherwise this variable should name a

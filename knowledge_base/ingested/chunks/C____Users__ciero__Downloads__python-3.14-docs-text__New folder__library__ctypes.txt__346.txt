@@ -1,0 +1,3 @@
+This function is similar to "string_at()" with the key difference
+   of not making a copy of the specified memory. It is a semantically
+   equivalent (but more efficient) alternative to "memoryview((c_byte

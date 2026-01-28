@@ -1,0 +1,6 @@
+<_FuncPtr object at 0x...>
+   >>>
+On Windows, some dlls export functions not by name but by ordinal.
+These functions can be accessed by indexing the dll object with the
+ordinal number:
+   >>> cdll.kernel32[1]

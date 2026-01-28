@@ -1,0 +1,8 @@
+now.
+      Added in version 3.14.
+Note:
+  On macOS, "sem_timedwait" is unsupported, so calling "acquire()"
+  with a timeout will emulate that function's behavior using a
+  sleeping loop.
+Note:
+  Some of this package's functionality requires a functioning shared

@@ -1,0 +1,8 @@
+events, TurtleScreen must have the focus. (See method "listen()".)
+      >>> def f():
+      ...     fd(50)
+      ...     lt(60)
+      ...
+      >>> screen.onkey(f, "Up")
+      >>> screen.listen()
+turtle.onkeypress(fun, key=None)

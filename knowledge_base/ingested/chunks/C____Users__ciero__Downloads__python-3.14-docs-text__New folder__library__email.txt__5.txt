@@ -1,0 +1,4 @@
+an existing email, to construct a new email, or to add or remove email
+subcomponents that themselves use the same object model interface.
+That is, following the nature of email messages and their MIME
+subcomponents, the email object model is a tree structure of objects

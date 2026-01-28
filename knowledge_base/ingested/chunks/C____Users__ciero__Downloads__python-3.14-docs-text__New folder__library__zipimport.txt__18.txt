@@ -1,0 +1,6 @@
+it.
+   is_package(fullname)
+      Return "True" if the module specified by *fullname* is a
+      package. Raise "ZipImportError" if the module couldn't be found.
+   load_module(fullname)
+      Load the module specified by *fullname*. *fullname* must be the

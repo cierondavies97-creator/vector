@@ -1,0 +1,3 @@
+Typically, a mail user agent application moves all of the messages
+   in the "new" subdirectory to the "cur" subdirectory after the first
+   time the user opens and closes the mailbox, recording that the

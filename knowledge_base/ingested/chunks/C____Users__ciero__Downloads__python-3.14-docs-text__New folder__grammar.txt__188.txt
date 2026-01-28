@@ -1,0 +1,5 @@
+| a=starred_expression { _PyPegen_keyword_or_starred(p, a, 0) }
+   kwarg_or_double_starred[KeywordOrStarred*]:
+       | invalid_kwarg
+       | a=NAME '=' b=expression {
+           _PyPegen_keyword_or_starred(p, CHECK(keyword_ty, _PyAST_keyword(a->v.Name.id, b, EXTRA)), 1) }

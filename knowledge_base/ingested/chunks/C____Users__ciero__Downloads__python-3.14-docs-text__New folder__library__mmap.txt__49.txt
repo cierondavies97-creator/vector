@@ -1,0 +1,4 @@
+seek(pos[, whence])
+      Set the file's current position.  *whence* argument is optional
+      and defaults to "os.SEEK_SET" or "0" (absolute file
+      positioning); other values are "os.SEEK_CUR" or "1" (seek

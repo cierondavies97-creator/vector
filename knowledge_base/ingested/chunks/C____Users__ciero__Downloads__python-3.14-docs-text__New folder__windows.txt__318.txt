@@ -1,0 +1,3 @@
+| /quiet                | to install/uninstall without displaying any UI           |
++-----------------------+----------------------------------------------------------+
+| /simple               | to prevent user customization                            |

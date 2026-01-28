@@ -1,0 +1,4 @@
+5322** compatible mechanism for encoding non-ASCII text as ASCII
+   characters within a header value.  When a *value* containing
+   encoded words is passed to the constructor, the
+   "UnstructuredHeader" parser converts such encoded words into

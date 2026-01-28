@@ -1,0 +1,6 @@
+converting a tab character to spaces as it adds the tab to a
+   window.
+   Added in version 3.9.
+curses.setsyx(y, x)
+   Set the virtual screen cursor to *y*, *x*. If *y* and *x* are both
+   "-1", then "leaveok" is set "True".

@@ -1,0 +1,3 @@
+programs treat the program specified by *args* as the command name,
+   which can then be different from the program actually executed.  On
+   POSIX, the *args* name becomes the display name for the executable

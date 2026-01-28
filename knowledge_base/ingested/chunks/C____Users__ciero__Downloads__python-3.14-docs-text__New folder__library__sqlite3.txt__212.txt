@@ -1,0 +1,3 @@
+The number of rows to fetch per call is specified by the *size*
+      parameter. If *size* is not given, "arraysize" determines the
+      number of rows to be fetched. If fewer than *size* rows are

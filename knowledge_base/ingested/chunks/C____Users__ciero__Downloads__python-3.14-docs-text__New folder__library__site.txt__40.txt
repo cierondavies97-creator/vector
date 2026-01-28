@@ -1,0 +1,6 @@
+"USER_BASE" and whether the directory exists, then the same thing for
+"USER_SITE", and finally the value of "ENABLE_USER_SITE".
+--user-base
+   Print the path to the user base directory.
+--user-site
+   Print the path to the user site-packages directory.

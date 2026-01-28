@@ -1,0 +1,4 @@
+and are deemed to delimit empty subsequences (for example,
+   "b'1,,2'.split(b',')" returns "[b'1', b'', b'2']").  The *sep*
+   argument may consist of a multibyte sequence as a single delimiter.
+   Splitting an empty sequence with a specified separator returns

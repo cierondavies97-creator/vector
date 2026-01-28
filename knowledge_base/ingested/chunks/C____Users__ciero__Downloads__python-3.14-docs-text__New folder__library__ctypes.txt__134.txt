@@ -1,0 +1,7 @@
+...                 ("b", c_float),
+   ...                 ("point_array", POINT * 4)]
+   >>>
+   >>> print(len(MyStruct().point_array))
+   4
+   >>>
+Instances are created in the usual way, by calling the class:

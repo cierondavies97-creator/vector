@@ -1,0 +1,4 @@
+Called when a previous send or receive operation raises an
+   "OSError".  *exc* is the "OSError" instance.
+   This method is called in rare conditions, when the transport (e.g.
+   UDP) detects that a datagram could not be delivered to its

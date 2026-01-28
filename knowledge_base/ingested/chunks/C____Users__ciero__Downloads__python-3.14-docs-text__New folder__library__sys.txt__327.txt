@@ -1,0 +1,4 @@
+Executes *script*, a file containing Python code in the remote
+   process with the given *pid*.
+   This function returns immediately, and the code will be executed by
+   the target process's main thread at the next available opportunity,

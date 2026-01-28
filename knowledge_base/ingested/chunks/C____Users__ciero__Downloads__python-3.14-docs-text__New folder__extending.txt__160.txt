@@ -1,0 +1,4 @@
+for C. Until then, we'll have to live with reference counts.
+While Python uses the traditional reference counting implementation,
+it also offers a cycle detector that works to detect reference cycles.
+This allows applications to not worry about creating direct or

@@ -1,0 +1,4 @@
+understandable alias of *universal_newlines*. Added the
+   *capture_output* parameter.
+   Changed in version 3.12: Changed Windows shell search order for
+   "shell=True". The current directory and "%PATH%" are replaced with

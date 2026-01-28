@@ -1,0 +1,4 @@
+"OptionParser.add_option()" rather than directly, and can be
+   overridden by a custom class via the *option_class* argument to
+   "OptionParser".
+The following option attributes may be passed as keyword arguments to

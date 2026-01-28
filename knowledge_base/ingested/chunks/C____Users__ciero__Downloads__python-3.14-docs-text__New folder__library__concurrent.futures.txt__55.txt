@@ -1,0 +1,4 @@
+with "ExecutionFailed".
+   Other caveats from parent "ThreadPoolExecutor" apply here.
+"submit()" and "map()" work like normal, except the worker serializes
+the callable and arguments using "pickle" when sending them to its

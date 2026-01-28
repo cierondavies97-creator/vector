@@ -1,0 +1,4 @@
+must be importable from the environment you are calling "patch()"
+   from. The target is imported when the decorated function is
+   executed, not at decoration time.
+   The *spec* and *spec_set* keyword arguments are passed to the

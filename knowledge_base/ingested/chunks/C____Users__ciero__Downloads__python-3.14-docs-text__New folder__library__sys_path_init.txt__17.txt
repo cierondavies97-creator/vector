@@ -1,0 +1,4 @@
+As well as being used as a marker to identify virtual environments,
+"pyvenv.cfg" may also be used to configure the "site" initialization.
+Please refer to "site"'s virtual environments documentation.
+Note:

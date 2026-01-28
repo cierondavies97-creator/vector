@@ -1,0 +1,6 @@
+added.
+   defaults()
+      Return a dictionary containing the instance-wide defaults.
+   sections()
+      Return a list of the sections available; the *default section*
+      is not included in the list.

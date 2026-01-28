@@ -1,0 +1,4 @@
+longer supported ("RuntimeError" is raised).
+   Changed in version 3.12: If Python is able to detect that your
+   process has multiple threads, "os.fork()" now raises a
+   "DeprecationWarning".We chose to surface this as a warning, when

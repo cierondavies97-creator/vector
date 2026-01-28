@@ -1,0 +1,4 @@
+>>> sorted(turtle.pen().items())
+      [('fillcolor', 'black'), ('outline', 1), ('pencolor', 'red'),
+       ('pendown', True), ('pensize', 10), ('resizemode', 'noresize'),
+       ('shearfactor', 0.0), ('shown', True), ('speed', 9),

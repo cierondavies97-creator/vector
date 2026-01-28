@@ -1,0 +1,3 @@
+In this case all warnings are caught and no errors are raised.
+   On entry to the context manager, a "WarningRecorder" instance is
+   returned. The underlying warnings list from "catch_warnings()" is

@@ -1,0 +1,4 @@
+====================
+Objects with this interface are used to receive error and warning
+information from the "XMLReader".  If you create an object that
+implements this interface, then register the object with your

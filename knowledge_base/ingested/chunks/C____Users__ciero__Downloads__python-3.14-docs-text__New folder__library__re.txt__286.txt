@@ -1,0 +1,4 @@
+>>> re.match("\\W(.)\\1\\W", " ff ")
+   <re.Match object; span=(0, 4), match=' ff '>
+When one wants to match a literal backslash, it must be escaped in the
+regular expression.  With raw string notation, this means "r"\\"".

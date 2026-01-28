@@ -1,0 +1,4 @@
+will default to *sys.stdout*. *encoding* is the encoding of the
+   output stream which defaults to "'iso-8859-1'".
+   *short_empty_elements* controls the formatting of elements that
+   contain no content:  if "False" (the default) they are emitted as a

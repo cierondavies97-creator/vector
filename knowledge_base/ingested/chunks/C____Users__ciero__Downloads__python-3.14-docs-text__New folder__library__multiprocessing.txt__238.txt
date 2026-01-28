@@ -1,0 +1,4 @@
+resulting in a return value of "True".
+      Use and behaviors of the *timeout* argument are the same as in
+      "Lock.acquire()".  Note that some of these behaviors of
+      *timeout* differ from the implemented behaviors in

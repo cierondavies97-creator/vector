@@ -1,0 +1,4 @@
+widget is represented as a Python object, instantiated from classes
+   like "ttk.Frame", "ttk.Label", and "ttk.Button".
+widget hierarchy
+   Widgets are arranged in a *hierarchy*. The label and button were

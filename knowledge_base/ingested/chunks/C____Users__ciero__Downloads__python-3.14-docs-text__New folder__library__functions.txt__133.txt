@@ -1,0 +1,4 @@
+reaches "object" and the *format_spec* is non-empty, or if either
+   the *format_spec* or the return value are not strings.
+   Changed in version 3.4: "object().__format__(format_spec)" raises
+   "TypeError" if *format_spec* is not an empty string.

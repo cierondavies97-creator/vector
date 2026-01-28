@@ -1,0 +1,4 @@
+certificate and hostname checks by default. To revert to the
+   previous, unverified, behavior "ssl._create_unverified_context()"
+   can be passed to the *context* parameter.
+   Changed in version 3.8: This class now enables TLS 1.3

@@ -1,0 +1,4 @@
+tuple containing the language code and encoding. *category* may be
+   one of the "LC_*" values except "LC_ALL".  It defaults to
+   "LC_CTYPE".
+   The language code has the same format as a locale name, but without

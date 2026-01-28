@@ -1,0 +1,6 @@
+the "xml.etree.ElementTree" module:
+   from xml.etree import ElementTree, ElementInclude
+   tree = ElementTree.parse("document.xml")
+   root = tree.getroot()
+   ElementInclude.include(root)
+The ElementInclude module replaces the

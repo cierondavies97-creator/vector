@@ -1,0 +1,6 @@
+2. Extended date representations are not currently supported
+      ("±YYYYYY-MM-DD").
+   3. Ordinal dates are not currently supported ("YYYY-OOO").
+   Examples:
+      >>> from datetime import date
+      >>> date.fromisoformat('2019-12-04')

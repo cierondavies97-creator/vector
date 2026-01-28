@@ -1,0 +1,6 @@
+for streams.
+class tarfile.TarFile
+   Class for reading and writing tar archives. Do not use this class
+   directly: use "tarfile.open()" instead. See TarFile Objects.
+tarfile.is_tarfile(name)
+   Return "True" if *name* is a tar archive file, that the "tarfile"

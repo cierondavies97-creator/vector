@@ -1,0 +1,7 @@
+struct.calcsize(format)
+   Return the size of the struct (and hence of the bytes object
+   produced by "pack(format, ...)") corresponding to the format string
+   *format*.
+Format Strings
+==============
+Format strings describe the data layout when packing and unpacking

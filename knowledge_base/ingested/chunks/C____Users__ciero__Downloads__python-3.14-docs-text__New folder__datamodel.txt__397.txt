@@ -1,0 +1,3 @@
+exception. The "object" class itself does not provide this method.
+   Note that if the attribute is found through the normal mechanism,
+   "__getattr__()" is not called.  (This is an intentional asymmetry

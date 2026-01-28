@@ -1,0 +1,4 @@
+through trial and error, and has proven to be the least error prone
+  way of handling them.  It is possible to use a different algorithm
+  for handling tabs by writing a custom "DocTestParser" class.
+* Output to stdout is captured, but not output to stderr (exception

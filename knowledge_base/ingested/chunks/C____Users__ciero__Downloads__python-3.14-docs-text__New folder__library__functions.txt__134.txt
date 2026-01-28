@@ -1,0 +1,4 @@
+class frozenset(iterable=(), /)
+   Return a new "frozenset" object, optionally with elements taken
+   from *iterable*.  "frozenset" is a built-in class.  See "frozenset"
+   and Set Types --- set, frozenset for documentation about this

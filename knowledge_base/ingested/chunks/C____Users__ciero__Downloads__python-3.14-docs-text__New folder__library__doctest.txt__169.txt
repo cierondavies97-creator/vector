@@ -1,0 +1,4 @@
+Optional argument *globs* is a dictionary containing the initial
+   global variables for the tests.  A new copy of this dictionary is
+   created for each test.  By default, *globs* is the module's
+   "__dict__".

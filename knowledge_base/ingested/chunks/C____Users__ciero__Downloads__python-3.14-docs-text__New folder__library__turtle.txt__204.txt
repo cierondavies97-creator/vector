@@ -1,0 +1,6 @@
+Parameters:
+      * **llx** -- a number, x-coordinate of lower left corner of
+        canvas
+      * **lly** -- a number, y-coordinate of lower left corner of
+        canvas
+      * **urx** -- a number, x-coordinate of upper right corner of

@@ -1,0 +1,5 @@
+are also recognized.
+   Changed in version 3.8: Added support for *url* being a *path-like
+   object*.
+   Deprecated since version 3.13: Passing a file path instead of URL
+   is *soft deprecated*. Use "guess_file_type()" for this.

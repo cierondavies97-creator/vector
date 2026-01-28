@@ -1,0 +1,4 @@
+| O      | Old        | Previously detected by MUA       |
+   +--------+------------+----------------------------------+
+   | D      | Deleted    | Marked for subsequent deletion   |
+   +--------+------------+----------------------------------+

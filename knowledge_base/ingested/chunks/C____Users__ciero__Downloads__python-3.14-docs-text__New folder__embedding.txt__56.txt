@@ -1,0 +1,4 @@
+modules implemented as C dynamic extensions (".so" files) linked
+against it.
+To find out the required compiler and linker flags, you can execute
+the "python*X.Y*-config" script which is generated as part of the

@@ -1,0 +1,5 @@
+'z'])])
+class ast.ClassDef(name, bases, keywords, body, decorator_list, type_params)
+   A class definition.
+   * "name" is a raw string for the class name
+   * "bases" is a list of nodes for explicitly specified base classes.

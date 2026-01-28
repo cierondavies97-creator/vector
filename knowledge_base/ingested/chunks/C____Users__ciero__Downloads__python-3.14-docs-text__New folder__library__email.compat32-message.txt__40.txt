@@ -1,0 +1,4 @@
+"InvalidBase64CharactersDefect", respectively).
+      When *decode* is "False" (the default) the body is returned as a
+      string without decoding the *Content-Transfer-Encoding*.
+      However, for a *Content-Transfer-Encoding* of 8bit, an attempt

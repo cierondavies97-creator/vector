@@ -1,0 +1,5 @@
+were run or skipped.
+   The *testLoader* argument has to be a "TestLoader" instance, and
+   defaults to "defaultTestLoader".
+   "main" supports being used from the interactive interpreter by
+   passing in the argument "exit=False". This displays the result on

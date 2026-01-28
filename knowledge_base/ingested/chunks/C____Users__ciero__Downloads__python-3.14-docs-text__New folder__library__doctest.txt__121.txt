@@ -1,0 +1,7 @@
+0.75
+Simple fractions are also easier for people to understand, and that
+makes for better documentation.
+Basic API
+=========
+The functions "testmod()" and "testfile()" provide a simple interface
+to doctest that should be sufficient for most basic uses.  For a less

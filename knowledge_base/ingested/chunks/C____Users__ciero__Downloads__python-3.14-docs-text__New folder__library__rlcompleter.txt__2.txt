@@ -1,0 +1,6 @@
+automatically created and its "complete()" method is set as the
+readline completer. The method provides completion of valid Python
+identifiers and keywords.
+Example:
+   >>> import rlcompleter
+   >>> import readline

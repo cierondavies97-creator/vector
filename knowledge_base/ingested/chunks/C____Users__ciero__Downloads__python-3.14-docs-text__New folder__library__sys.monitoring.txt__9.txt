@@ -1,0 +1,8 @@
+sys.monitoring.PROFILER_ID = 2
+   sys.monitoring.OPTIMIZER_ID = 5
+Events
+======
+The following events are supported:
+sys.monitoring.events.BRANCH_LEFT
+   A conditional branch goes left.
+   It is up to the tool to determine how to present "left" and "right"

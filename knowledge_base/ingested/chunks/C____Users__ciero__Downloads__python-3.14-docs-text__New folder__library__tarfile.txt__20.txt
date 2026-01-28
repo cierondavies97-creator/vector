@@ -1,0 +1,3 @@
+|                    | exists.                                       |
+   +--------------------+-----------------------------------------------+
+   | "'x:zst'"          | Create a tarfile with Zstandard compression.  |

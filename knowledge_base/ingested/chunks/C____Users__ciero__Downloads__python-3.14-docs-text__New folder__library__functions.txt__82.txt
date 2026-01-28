@@ -1,0 +1,7 @@
+'_clearcache', 'calcsize', 'error', 'pack', 'pack_into',
+    'unpack', 'unpack_from']
+   >>> class Shape:
+   ...     def __dir__(self):
+   ...         return ['area', 'perimeter', 'location']
+   ...
+   >>> s = Shape()

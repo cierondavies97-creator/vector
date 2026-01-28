@@ -1,0 +1,4 @@
+binascii.hexlify(data[, sep[, bytes_per_sep=1]])
+   Return the hexadecimal representation of the binary *data*.  Every
+   byte of *data* is converted into the corresponding 2-digit hex
+   representation.  The returned bytes object is therefore twice as

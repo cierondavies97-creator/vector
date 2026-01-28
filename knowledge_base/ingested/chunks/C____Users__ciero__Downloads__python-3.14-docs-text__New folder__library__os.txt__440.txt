@@ -1,0 +1,4 @@
+module.
+   The standard module "stat" defines functions and constants that are
+   useful for extracting information from a "stat" structure. (On
+   Windows, some items are filled with dummy values.)

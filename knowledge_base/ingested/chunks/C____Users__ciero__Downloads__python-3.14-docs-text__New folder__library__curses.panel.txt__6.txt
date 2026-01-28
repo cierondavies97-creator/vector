@@ -1,0 +1,7 @@
+Panel.below()
+   Returns the panel below the current panel.
+Panel.bottom()
+   Push the panel to the bottom of the stack.
+Panel.hidden()
+   Returns "True" if the panel is hidden (not visible), "False"
+   otherwise.

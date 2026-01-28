@@ -1,0 +1,5 @@
+would thus fail to match.
+   Added in version 3.11.
+"(?P<name>...)"
+   Similar to regular parentheses, but the substring matched by the
+   group is accessible via the symbolic group name *name*.  Group

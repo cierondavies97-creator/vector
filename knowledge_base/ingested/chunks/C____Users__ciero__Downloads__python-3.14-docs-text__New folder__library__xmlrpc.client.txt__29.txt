@@ -1,0 +1,3 @@
+XML-RPC server errors, or "ProtocolError" used to signal an error
+   in the HTTP/HTTPS transport layer. Both "Fault" and "ProtocolError"
+   derive from a base class called "Error".  Note that the xmlrpc

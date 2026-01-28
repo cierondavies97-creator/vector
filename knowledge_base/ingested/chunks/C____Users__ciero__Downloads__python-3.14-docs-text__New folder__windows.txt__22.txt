@@ -1,0 +1,3 @@
+Because the "py" command may already be taken by the previous version,
+there is also an unambiguous "pymanager" command. Scripted installs
+that are intending to use Python install manager should consider using

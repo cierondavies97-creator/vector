@@ -1,0 +1,6 @@
+information
+  * "builtins" --- Built-in objects
+  * "__main__" --- Top-level code environment
+  * "warnings" --- Warning control
+  * "dataclasses" --- Data Classes
+  * "contextlib" --- Utilities for "with"-statement contexts

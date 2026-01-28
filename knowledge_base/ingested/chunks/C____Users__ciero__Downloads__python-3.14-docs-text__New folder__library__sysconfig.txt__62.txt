@@ -1,0 +1,6 @@
+"sysconfig" provides some functions to determine these installation
+paths.
+sysconfig.get_scheme_names()
+   Return a tuple containing all schemes currently supported in
+   "sysconfig".
+sysconfig.get_default_scheme()

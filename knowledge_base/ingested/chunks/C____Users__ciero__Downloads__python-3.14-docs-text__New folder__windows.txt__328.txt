@@ -1,0 +1,2 @@
+| DefaultJustForMeTargetDir   | The default install directory for      | "%LocalAppData%\Programs\  |
+|                             | just-for-me installs                   | Python\PythonXY" or "%Loc  |

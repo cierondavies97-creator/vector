@@ -1,0 +1,5 @@
+forward slashes to backward slashes. To normalize case, use
+   "normcase()".
+   Note:
+     On POSIX systems, in accordance with IEEE Std 1003.1 2013
+     Edition; 4.13 Pathname Resolution, if a pathname begins with

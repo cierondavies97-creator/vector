@@ -1,0 +1,5 @@
+literals is allowed.
+   Changed in version 3.7: The first parameter is now positional-only.
+   Changed in version 3.8: Falls back to "__index__()" if "__int__()"
+   is not defined.
+   Changed in version 3.11: "int" string inputs and string

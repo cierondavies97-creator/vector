@@ -1,0 +1,4 @@
+should be reported for the first source line in the disassembled
+   code.  Otherwise, the source line information (if any) is taken
+   directly from the disassembled code object.
+   If *current_offset* is not "None", it refers to an instruction

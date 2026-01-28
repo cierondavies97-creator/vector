@@ -1,0 +1,5 @@
+-[ Sequence Methods ]-
+Sequence types also support the following methods:
+sequence.count(value, /)
+   Return the total number of occurrences of *value* in *sequence*.
+sequence.index(value[, start[, stop])

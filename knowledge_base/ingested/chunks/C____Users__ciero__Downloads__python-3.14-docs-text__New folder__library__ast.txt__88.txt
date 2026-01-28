@@ -1,0 +1,5 @@
+Constant(value=1),
+                  Constant(value=2),
+                  Constant(value=3)]))
+class ast.Dict(keys, values)
+   A dictionary. "keys" and "values" hold lists of nodes representing

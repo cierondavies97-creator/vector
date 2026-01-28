@@ -1,0 +1,4 @@
+to stop the walk. Note that the filename is available as the
+   "filename" attribute of the exception object.
+   By default, "Path.walk()" does not follow symbolic links, and
+   instead adds them to the *filenames* list. Set *follow_symlinks* to

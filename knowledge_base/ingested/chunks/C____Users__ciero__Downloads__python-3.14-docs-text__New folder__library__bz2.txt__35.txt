@@ -1,0 +1,6 @@
+Changed in version 3.5: Added the *max_length* parameter.
+   eof
+      "True" if the end-of-stream marker has been reached.
+      Added in version 3.3.
+   unused_data
+      Data found after the end of the compressed stream.

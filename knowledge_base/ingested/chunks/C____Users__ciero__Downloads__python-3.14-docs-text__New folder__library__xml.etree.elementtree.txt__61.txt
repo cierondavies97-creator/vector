@@ -1,0 +1,3 @@
+| "*"                     | Selects all child elements, including comments and     |
+|                         | processing instructions.  For example, "*/egg" selects |
+|                         | all grandchildren named "egg".                         |

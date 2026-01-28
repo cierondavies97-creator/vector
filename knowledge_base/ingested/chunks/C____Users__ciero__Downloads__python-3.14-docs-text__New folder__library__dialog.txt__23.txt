@@ -1,0 +1,3 @@
+======================================================================
+The "tkinter.commondialog" module provides the "Dialog" class that is
+the base class for dialogs defined in other supporting modules.

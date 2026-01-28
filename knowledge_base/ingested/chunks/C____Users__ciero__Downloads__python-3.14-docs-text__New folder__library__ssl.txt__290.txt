@@ -1,0 +1,5 @@
+not be able to establish a TLS 1.2 connection.
+   Added in version 3.7.
+SSLContext.minimum_version
+   Like "SSLContext.maximum_version" except it is the lowest supported
+   version or "TLSVersion.MINIMUM_SUPPORTED".

@@ -1,0 +1,5 @@
+connections. The protocol enables "CERT_REQUIRED" and
+   "check_hostname" by default.
+   Added in version 3.6.
+ssl.PROTOCOL_TLS_SERVER
+   Auto-negotiate the highest protocol version that both the client

@@ -1,0 +1,3 @@
+A method for invalidating the cache on the "ZoneInfo" class. If no
+   arguments are passed, all caches are invalidated and the next call
+   to the primary constructor for each key will return a new instance.

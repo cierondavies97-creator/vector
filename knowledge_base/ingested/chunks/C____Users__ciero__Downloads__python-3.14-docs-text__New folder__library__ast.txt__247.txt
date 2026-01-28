@@ -1,0 +1,9 @@
+successful.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case {1: _, 2: _}:
+      ...         ...
+      ...     case {**rest}:
+      ...         ...
+      ... """), indent=4))
+      Module(

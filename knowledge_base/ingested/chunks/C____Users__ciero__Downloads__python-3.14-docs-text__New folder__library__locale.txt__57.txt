@@ -1,0 +1,6 @@
+locale.THOUSEP
+      Get the separator character for thousands (groups of three
+      digits).
+   locale.YESEXPR
+      Get a regular expression that can be used with the regex
+      function to recognize a positive response to a yes/no question.

@@ -1,0 +1,4 @@
+as soon as possible.
+         After this method has been called, any further operation on
+         the view raises a "ValueError" (except "release()" itself
+         which can be called multiple times):

@@ -1,0 +1,7 @@
+the help message will reflect that:
+   Options:
+     --dry-run     do no harm
+     ...
+     -n, --noisy   be noisy
+It's possible to whittle away the option strings for a previously
+added option until there are none left, and the user has no way of

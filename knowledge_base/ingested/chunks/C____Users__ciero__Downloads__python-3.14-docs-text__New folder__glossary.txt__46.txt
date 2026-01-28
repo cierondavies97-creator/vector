@@ -1,0 +1,4 @@
+"nonlocal" keyword to allow write access, or implicitly defined if
+   the variable is only being read.
+   For example, in the "inner" function in the following code, both
+   "x" and "print" are *free variables*, but only "x" is a *closure

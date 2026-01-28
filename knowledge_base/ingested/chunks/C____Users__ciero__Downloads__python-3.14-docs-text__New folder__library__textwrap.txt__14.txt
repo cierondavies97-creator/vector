@@ -1,0 +1,7 @@
+s = '''\
+          hello
+            world
+          '''
+          print(repr(s))          # prints '    hello\n      world\n    '
+          print(repr(dedent(s)))  # prints 'hello\n  world\n'
+   Changed in version 3.14: The "dedent()" function now correctly

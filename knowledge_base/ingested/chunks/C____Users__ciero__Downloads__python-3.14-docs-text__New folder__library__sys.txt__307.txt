@@ -1,0 +1,4 @@
+returned, or "None" if the event is caused by an exception being
+      raised.  The trace function's return value is ignored.
+   "'exception'"
+      An exception has occurred.  The local trace function is called;

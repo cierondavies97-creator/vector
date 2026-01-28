@@ -1,0 +1,2 @@
+|                        | "'mon_decimal_point'"                 | Decimal point used for monetary  |
+   |                        |                                       | values.                          |

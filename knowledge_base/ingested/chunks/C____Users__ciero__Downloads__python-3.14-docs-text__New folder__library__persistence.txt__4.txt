@@ -1,0 +1,9 @@
+* Example
+  * Restricting Globals
+  * Performance
+  * Examples
+  * Command-line interface
+* "copyreg" --- Register "pickle" support functions
+  * Example
+* "shelve" --- Python object persistence
+  * Restrictions

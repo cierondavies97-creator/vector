@@ -1,0 +1,4 @@
+The timeout is long enough to prevent test failure: it takes into
+   account that the client and the server can run in different threads
+   or even different processes.
+   The timeout should be long enough for "connect()", "recv()" and

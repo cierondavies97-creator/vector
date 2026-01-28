@@ -1,0 +1,4 @@
+the initializer is passed to the "fromunicode()" method; otherwise,
+   the initializer's iterator is passed to the "extend()" method to
+   add initial items to the array.
+   Array objects support the ordinary mutable *sequence* operations of

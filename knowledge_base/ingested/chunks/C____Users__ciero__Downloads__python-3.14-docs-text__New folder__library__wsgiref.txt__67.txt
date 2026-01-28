@@ -1,0 +1,5 @@
+application is not 100% compliant.
+This module is based on the "paste.lint" module from Ian Bicking's
+"Python Paste" library.
+wsgiref.validate.validator(application)
+   Wrap *application* and return a new WSGI application object.  The

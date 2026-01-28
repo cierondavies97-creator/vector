@@ -1,0 +1,4 @@
+which shouldn't be reached via proxy; if set, it should be a comma-
+   separated list of hostname suffixes, optionally with ":port"
+   appended, for example "cern.ch,ncsa.uiuc.edu,some.host:8080".
+   Note:

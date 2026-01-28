@@ -1,0 +1,6 @@
+exception UnicodeWarning
+   Base class for warnings related to Unicode.
+exception EncodingWarning
+   Base class for warnings related to encodings.
+   See Opt-in EncodingWarning for details.
+   Added in version 3.10.

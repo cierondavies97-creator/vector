@@ -1,0 +1,5 @@
+out of "os.environ" directly.
+   Added in version 3.2.
+"wsgiref.types" -- WSGI types for static type checking
+======================================================
+This module provides various types for static type checking as

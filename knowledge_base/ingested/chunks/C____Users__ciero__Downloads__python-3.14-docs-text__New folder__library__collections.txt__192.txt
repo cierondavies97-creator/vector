@@ -1,0 +1,4 @@
+class collections.UserDict([initialdata])
+   Class that simulates a dictionary.  The instance's contents are
+   kept in a regular dictionary, which is accessible via the "data"
+   attribute of "UserDict" instances.  If *initialdata* is provided,

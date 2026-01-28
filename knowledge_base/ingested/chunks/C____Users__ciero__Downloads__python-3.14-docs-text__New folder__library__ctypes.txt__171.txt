@@ -1,0 +1,4 @@
+Both of these factory functions are called with the result type as
+first argument, and the callback functions expected argument types as
+the remaining arguments.
+I will present an example here which uses the standard C library's

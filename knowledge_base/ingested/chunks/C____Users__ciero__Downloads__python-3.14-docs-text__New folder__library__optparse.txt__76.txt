@@ -1,0 +1,3 @@
+argument, "foo.txt", and stores it in "options.filename".  So, after
+this call to "parse_args()", "options.filename" is ""foo.txt"".
+Some other option types supported by "optparse" are "int" and "float".

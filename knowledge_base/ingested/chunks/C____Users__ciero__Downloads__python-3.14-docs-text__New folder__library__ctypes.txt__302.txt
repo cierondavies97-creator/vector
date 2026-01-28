@@ -1,0 +1,6 @@
+...
+   >>> GetWindowRect.errcheck = errcheck
+   >>>
+If the "errcheck" function returns the argument tuple it receives
+unchanged, "ctypes" continues the normal processing it does on the
+output parameters.  If you want to return a tuple of window

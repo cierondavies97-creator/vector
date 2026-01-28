@@ -1,0 +1,5 @@
+only raised by "UseForeignDTD()".
+xml.parsers.expat.errors.XML_ERROR_UNBOUND_PREFIX
+   An undeclared prefix was found when namespace processing was
+   enabled.
+xml.parsers.expat.errors.XML_ERROR_UNDECLARING_PREFIX

@@ -1,0 +1,4 @@
+documented and tested, but will not be enhanced further.
+   Soft deprecation, unlike normal deprecation, does not plan on
+   removing the API and will not emit warnings.
+   See PEP 387: Soft Deprecation.

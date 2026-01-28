@@ -1,0 +1,5 @@
++--------------------+----------------------------+
+"MMDFMessage" objects
+---------------------
+class mailbox.MMDFMessage(message=None)
+   A message with MMDF-specific behaviors. Parameter *message* has the

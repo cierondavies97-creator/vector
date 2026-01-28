@@ -1,0 +1,3 @@
++--------------+-------------------------------------------------------------+
+| image        | Specifies the item image, in case the item's image option   |
+|              | is empty.                                                   |

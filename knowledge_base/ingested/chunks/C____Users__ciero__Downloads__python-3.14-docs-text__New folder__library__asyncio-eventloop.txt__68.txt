@@ -1,0 +1,4 @@
+and you must pass a value for *server_hostname*.  If
+     *server_hostname* is an empty string, hostname matching is
+     disabled (which is a serious security risk, allowing for
+     potential man-in-the-middle attacks).

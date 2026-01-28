@@ -1,0 +1,7 @@
+created.
+   In either case, the context manager can be rescheduled after
+   creation using "Timeout.reschedule()".
+   Example:
+      async def main():
+          async with asyncio.timeout(10):
+              await long_running_task()

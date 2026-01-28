@@ -1,0 +1,5 @@
+Resources limitations
+---------------------
+The lack of memory or disk volume would lead to decompression failed.
+For example, decompression bombs (aka ZIP bomb) apply to zipfile
+library that can cause disk volume exhaustion.

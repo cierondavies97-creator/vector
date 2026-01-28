@@ -1,0 +1,5 @@
+return x + y
+   Without "ParamSpec", the simplest way to annotate this previously
+   was to use a "TypeVar" with upper bound "Callable[..., Any]".
+   However this causes two problems:
+   1. The type checker can't type check the "inner" function because

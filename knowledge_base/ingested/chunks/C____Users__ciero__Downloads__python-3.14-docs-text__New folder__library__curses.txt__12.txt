@@ -1,0 +1,5 @@
+Included for historical reasons; in former times, it was used to
+   write output loops for time delays and occasionally to change
+   interfaces depending on the line speed.
+curses.beep()
+   Emit a short attention sound.

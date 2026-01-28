@@ -1,0 +1,4 @@
+The "sort()" method is guaranteed to be stable.  A sort is
+      stable if it guarantees not to change the relative order of
+      elements that compare equal --- this is helpful for sorting in
+      multiple passes (for example, sort by department, then by salary

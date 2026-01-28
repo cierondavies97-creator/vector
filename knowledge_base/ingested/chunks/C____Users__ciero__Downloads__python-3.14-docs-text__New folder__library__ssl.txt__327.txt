@@ -1,0 +1,5 @@
+take place.
+Python uses files to contain certificates.  They should be formatted
+as "PEM" (see **RFC 1422**), which is a base-64 encoded form wrapped
+with a header line and a footer line:
+   -----BEGIN CERTIFICATE-----

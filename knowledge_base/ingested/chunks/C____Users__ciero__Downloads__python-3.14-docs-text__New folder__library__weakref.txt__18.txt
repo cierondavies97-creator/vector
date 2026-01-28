@@ -1,0 +1,4 @@
+the callback; the referent will no longer be available.
+   It is allowable for many weak references to be constructed for the
+   same object. Callbacks registered for each weak reference will be
+   called from the most recently registered callback to the oldest

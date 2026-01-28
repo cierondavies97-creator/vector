@@ -1,0 +1,5 @@
+as well as recognizing a number of variant forms that are sometimes
+   found "in the wild".
+   This header type provides the following additional attributes:
+   datetime
+      If the header value can be recognized as a valid date of one

@@ -1,0 +1,6 @@
+(to raise a "TypeError").
+      For example, to support arbitrary iterators, you could implement
+      "default()" like this:
+         def default(self, o):
+            try:
+                iterable = iter(o)

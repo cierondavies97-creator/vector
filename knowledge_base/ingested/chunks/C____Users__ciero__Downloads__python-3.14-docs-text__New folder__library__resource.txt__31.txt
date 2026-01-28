@@ -1,0 +1,6 @@
+Availability: FreeBSD >= 8.
+   Added in version 3.4.
+resource.RLIMIT_KQUEUES
+   The maximum number of kqueues this user id is allowed to create.
+   Availability: FreeBSD >= 11.
+   Added in version 3.10.

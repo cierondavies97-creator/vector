@@ -1,0 +1,3 @@
+| curses.KEY_CLOSE          | Close                                        |
++---------------------------+----------------------------------------------+
+| curses.KEY_COMMAND        | Cmd (command)                                |

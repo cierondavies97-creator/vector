@@ -1,0 +1,5 @@
+blob[-1] = ord("!")
+      # Read the contents of our blob
+      with con.blobopen("test", "blob_col", 1) as blob:
+          greeting = blob.read()
+      print(greeting)  # outputs "b'Hello, world!'"

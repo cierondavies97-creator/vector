@@ -1,0 +1,4 @@
+"patch.multiple()" is used as a context manager.
+   "patch.multiple()" can be used as a decorator, class decorator or a
+   context manager. The arguments *spec*, *spec_set*, *create*,
+   *autospec* and *new_callable* have the same meaning as for

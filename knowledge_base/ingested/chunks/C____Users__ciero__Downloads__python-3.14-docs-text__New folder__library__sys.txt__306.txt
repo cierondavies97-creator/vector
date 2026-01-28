@@ -1,0 +1,5 @@
+disabled for a frame by setting "f_trace_lines" to "False" on
+      that frame.
+   "'return'"
+      A function (or other code block) is about to return.  The local
+      trace function is called; *arg* is the value that will be

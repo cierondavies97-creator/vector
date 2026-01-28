@@ -1,0 +1,6 @@
+option of type ""string"", the command line
+   --names=foo,bar --names blah --names ding,dong
+would result in a list
+   ["foo", "bar", "blah", "ding", "dong"]
+Again we define a subclass of Option:
+   class MyOption(Option):

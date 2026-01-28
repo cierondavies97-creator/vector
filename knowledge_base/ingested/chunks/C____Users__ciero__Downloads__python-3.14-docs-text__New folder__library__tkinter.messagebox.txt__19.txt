@@ -1,0 +1,5 @@
+tkinter.messagebox.ABORTRETRYIGNORE = 'abortretryignore'
+   Displays three buttons whose symbolic names are "ABORT", "RETRY"
+   and "IGNORE".
+tkinter.messagebox.OK = 'ok'
+   Displays one button whose symbolic name is "OK".

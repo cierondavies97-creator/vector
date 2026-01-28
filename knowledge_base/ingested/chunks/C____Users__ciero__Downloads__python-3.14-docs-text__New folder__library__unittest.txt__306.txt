@@ -1,0 +1,4 @@
+loaded.
+      All test modules must be importable from the top level of the
+      project. If the start directory is not the top level directory
+      then *top_level_dir* must be specified separately.

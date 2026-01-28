@@ -1,0 +1,3 @@
+The first file can be recovered by retaining only lines that begin with
+   "  " or "- ", and deleting those 2-character prefixes; use ndiff with -r1.
+   The second file can be recovered similarly, but by retaining only "  " and

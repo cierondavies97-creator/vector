@@ -1,0 +1,7 @@
+return self
+          def __exit__(self, *exc):
+              print('Finishing')
+              return False
+   The class can then be used like this:
+      >>> @mycontext()
+      ... def function():

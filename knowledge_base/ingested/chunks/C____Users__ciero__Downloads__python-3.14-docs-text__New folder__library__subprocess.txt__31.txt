@@ -1,0 +1,4 @@
+"check_output()".  Otherwise, "None".  This is always "bytes"
+      when any output was captured regardless of the "text=True"
+      setting.  It may remain "None" instead of "b''" when no output
+      was observed.

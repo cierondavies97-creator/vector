@@ -1,0 +1,5 @@
+checked).
+   *flags* is deprecated and completely ignored.  However, when
+   supplied, its value must be "0" or "select.EPOLL_CLOEXEC",
+   otherwise "OSError" is raised.
+   See the Edge and Level Trigger Polling (epoll) Objects section

@@ -1,0 +1,3 @@
+unrelated concrete classes (even built-in classes) and unrelated
+   ABCs as "virtual subclasses" -- these and their descendants will be
+   considered subclasses of the registering ABC by the built-in

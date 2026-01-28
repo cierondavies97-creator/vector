@@ -1,0 +1,6 @@
+Added in version 3.5.
+   See also:
+     **PEP 485** -- A function for testing approximate equality
+math.isfinite(x)
+   Return "True" if *x* is neither an infinity nor a NaN, and "False"
+   otherwise.  (Note that "0.0" *is* considered finite.)

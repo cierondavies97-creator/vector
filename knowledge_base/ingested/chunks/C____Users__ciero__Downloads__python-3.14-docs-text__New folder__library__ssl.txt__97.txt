@@ -1,0 +1,6 @@
+choosing SSLv3 as the protocol version.
+   Added in version 3.2.
+   Deprecated since version 3.6: SSLv3 is deprecated
+ssl.OP_NO_TLSv1
+   Prevents a TLSv1 connection.  This option is only applicable in
+   conjunction with "PROTOCOL_TLS".  It prevents the peers from

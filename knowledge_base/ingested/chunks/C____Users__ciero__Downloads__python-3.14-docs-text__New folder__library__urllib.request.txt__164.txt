@@ -1,0 +1,5 @@
+=============================
+HTTPDigestAuthHandler.http_error_401(req, fp, code, msg, hdrs)
+   Retry the request with authentication information, if available.
+ProxyDigestAuthHandler Objects
+==============================

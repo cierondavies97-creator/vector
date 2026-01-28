@@ -1,0 +1,6 @@
+aliases
+   __reversed__(cls)
+      Returns each member in *cls* in reverse definition order:
+         >>> list(reversed(Color))
+         [<Color.BLUE: 3>, <Color.GREEN: 2>, <Color.RED: 1>]
+class enum.Enum

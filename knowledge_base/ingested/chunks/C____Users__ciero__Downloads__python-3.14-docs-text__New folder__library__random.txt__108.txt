@@ -1,0 +1,6 @@
+python -m random [-h] [-c CHOICE [CHOICE ...] | -i N | -f N] [input ...]
+The following options are accepted:
+-h, --help
+   Show the help message and exit.
+-c CHOICE [CHOICE ...]
+--choice CHOICE [CHOICE ...]

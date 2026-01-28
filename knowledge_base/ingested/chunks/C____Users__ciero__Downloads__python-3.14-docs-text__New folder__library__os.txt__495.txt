@@ -1,0 +1,3 @@
+will only recurse into the subdirectories whose names remain in
+   *dirnames*; this can be used to prune the search, impose a specific
+   order of visiting, or even to inform "walk()" about directories the

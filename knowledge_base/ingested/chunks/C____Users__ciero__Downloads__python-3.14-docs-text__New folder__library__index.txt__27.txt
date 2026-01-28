@@ -1,0 +1,5 @@
+* "io" --- Core tools for working with streams
+  * "time" --- Time access and conversions
+  * "logging" --- Logging facility for Python
+  * "logging.config" --- Logging configuration
+  * "logging.handlers" --- Logging handlers

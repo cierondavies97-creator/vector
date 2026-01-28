@@ -1,0 +1,6 @@
+print("It's an int")
+              case str():
+                  print("It's a str")
+              case _ as unreachable:
+                  assert_never(unreachable)
+   Here, the annotations allow the type checker to infer that the last

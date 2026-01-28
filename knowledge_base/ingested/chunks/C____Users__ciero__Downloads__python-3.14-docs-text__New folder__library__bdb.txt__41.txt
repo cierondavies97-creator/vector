@@ -1,0 +1,5 @@
+set_until(frame, lineno=None)
+      Stop when the line with the *lineno* greater than the current
+      one is reached or when returning from current frame.
+   set_trace([frame])
+      Start debugging from *frame*.  If *frame* is not specified,

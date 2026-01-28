@@ -1,0 +1,10 @@
+syslog.LOG_UUCP
+syslog.LOG_LOCAL0
+syslog.LOG_LOCAL1
+syslog.LOG_LOCAL2
+syslog.LOG_LOCAL3
+syslog.LOG_LOCAL4
+syslog.LOG_LOCAL5
+syslog.LOG_LOCAL6
+syslog.LOG_LOCAL7
+   Facilities, depending on availability in "<syslog.h>" for

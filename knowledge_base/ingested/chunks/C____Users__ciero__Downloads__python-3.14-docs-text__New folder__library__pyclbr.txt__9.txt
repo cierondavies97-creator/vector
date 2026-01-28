@@ -1,0 +1,8 @@
+these classes.
+Function Objects
+================
+class pyclbr.Function
+   Class "Function" instances describe functions defined by def
+   statements.  They have the following attributes:
+   file
+      Name of the file in which the function is defined.

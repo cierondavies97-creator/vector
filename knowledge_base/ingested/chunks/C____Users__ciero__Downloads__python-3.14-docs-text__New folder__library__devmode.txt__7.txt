@@ -1,0 +1,4 @@
+To enable the Python Development Mode without installing debug hooks
+  on memory allocators, set the "PYTHONMALLOC" environment variable to
+  "default".
+* Call "faulthandler.enable()" at Python startup to install handlers

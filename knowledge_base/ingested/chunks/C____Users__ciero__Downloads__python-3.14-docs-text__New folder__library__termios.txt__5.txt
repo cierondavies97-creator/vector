@@ -1,0 +1,4 @@
+cc]" where *cc* is a list of the tty special characters (each a
+   string of length 1, except the items with indices "VMIN" and
+   "VTIME", which are integers when these fields are defined).  The
+   interpretation of the flags and the speeds as well as the indexing

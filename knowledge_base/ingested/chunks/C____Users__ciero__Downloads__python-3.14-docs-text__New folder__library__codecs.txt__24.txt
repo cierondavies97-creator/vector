@@ -1,0 +1,4 @@
+Added in version 3.10.
+While the builtin "open()" and the associated "io" module are the
+recommended approach for working with encoded text files, this module
+provides additional utility functions and classes that allow the use

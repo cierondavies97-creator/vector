@@ -1,0 +1,4 @@
+for its own use.  (This could change.)  Enter "turtle.write(" and
+nothing appears. Idle does not itself import turtle.  The menu entry
+and shortcut also do nothing.  Enter "import turtle".  Thereafter,
+"turtle.write(" will display a calltip.

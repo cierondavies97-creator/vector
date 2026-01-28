@@ -1,0 +1,6 @@
+Exceptions
+----------
+exception concurrent.interpreters.InterpreterError
+   This exception, a subclass of "Exception", is raised when an
+   interpreter-related error happens.
+exception concurrent.interpreters.InterpreterNotFoundError

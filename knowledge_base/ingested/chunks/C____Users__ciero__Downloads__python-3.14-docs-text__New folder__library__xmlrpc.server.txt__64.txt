@@ -1,0 +1,4 @@
+Set the title used in the generated HTML documentation. This title
+   will be used inside the HTML "title" element.
+DocCGIXMLRPCRequestHandler.set_server_name(server_name)
+   Set the name used in the generated HTML documentation. This name

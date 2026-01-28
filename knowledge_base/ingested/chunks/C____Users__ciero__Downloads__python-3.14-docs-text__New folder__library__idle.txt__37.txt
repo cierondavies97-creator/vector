@@ -1,0 +1,6 @@
+somewhat experimental.
+Stack Viewer
+   Show the stack traceback of the last exception in a tree widget,
+   with access to locals and globals.
+Auto-open Stack Viewer
+   Toggle automatically opening the stack viewer on an unhandled

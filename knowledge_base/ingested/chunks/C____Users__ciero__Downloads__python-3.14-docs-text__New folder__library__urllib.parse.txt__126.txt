@@ -1,0 +1,3 @@
+urllib.parse.urlencode(query, doseq=False, safe='', encoding=None, errors=None, quote_via=quote_plus)
+   Convert a mapping object or a sequence of two-element tuples, which
+   may contain "str" or "bytes" objects, to a percent-encoded ASCII

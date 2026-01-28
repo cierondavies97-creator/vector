@@ -1,0 +1,4 @@
+Start a Unix socket server.
+   Similar to "start_server()" but works with Unix sockets.
+   If *cleanup_socket* is true then the Unix socket will automatically
+   be removed from the filesystem when the server is closed, unless

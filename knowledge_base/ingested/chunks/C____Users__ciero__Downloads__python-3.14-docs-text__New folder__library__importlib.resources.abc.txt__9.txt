@@ -1,0 +1,5 @@
+abstractmethod resource_path(resource)
+      Returns the file system path to the *resource*.
+      If the resource does not concretely exist on the file system,
+      raise "FileNotFoundError".
+   abstractmethod is_resource(path)

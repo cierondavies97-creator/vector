@@ -1,0 +1,5 @@
+...     print(arg.real, arg.imag)
+      ...
+   For code that dispatches on a collections type (e.g., "list"), but
+   wants to typehint the items of the collection (e.g., "list[int]"),
+   the dispatch type should be passed explicitly to the decorator

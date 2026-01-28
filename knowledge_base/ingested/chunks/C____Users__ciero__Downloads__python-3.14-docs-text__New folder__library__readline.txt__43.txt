@@ -1,0 +1,4 @@
+specified, it will be used as the new completion display function;
+   if omitted or "None", any completion display function already
+   installed is removed.  This sets or clears the
+   "rl_completion_display_matches_hook" callback in the underlying

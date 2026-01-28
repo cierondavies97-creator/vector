@@ -1,0 +1,4 @@
+Note that the audited arguments may not match the names or
+   positions required by the initializer.  The audit event only occurs
+   for direct instantiation of code objects, and is not raised for
+   normal compilation.

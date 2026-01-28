@@ -1,0 +1,4 @@
+a form like that returned by "winfo_id()").
+      Note that on some platforms this will only work correctly if
+      *id* refers to a Tk frame or toplevel that has its -container
+      option enabled.

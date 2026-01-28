@@ -1,0 +1,7 @@
+class ssl.MemoryBIO
+   A memory buffer that can be used to pass data between Python and an
+   SSL protocol instance.
+   pending
+      Return the number of bytes currently in the memory buffer.
+   eof
+      A boolean indicating whether the memory BIO is current at the

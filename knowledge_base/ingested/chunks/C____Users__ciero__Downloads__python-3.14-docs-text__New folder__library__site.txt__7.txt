@@ -1,0 +1,4 @@
+installations are identified by the "t" suffix in the version-specific
+directory name, such as "lib/python3.13t/".
+Changed in version 3.14: "site" is no longer responsible for updating
+"sys.prefix" and "sys.exec_prefix" on Virtual Environments. This is

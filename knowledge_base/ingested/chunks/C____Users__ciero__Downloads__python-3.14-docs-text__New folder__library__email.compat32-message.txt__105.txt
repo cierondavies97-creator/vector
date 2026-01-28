@@ -1,0 +1,4 @@
+is missing, or has no "boundary" parameter.  The returned string
+      will always be unquoted as per "email.utils.unquote()".
+   set_boundary(boundary)
+      Set the "boundary" parameter of the *Content-Type* header to

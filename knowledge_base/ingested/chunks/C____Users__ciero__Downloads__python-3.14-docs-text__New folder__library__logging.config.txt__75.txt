@@ -1,0 +1,6 @@
+loggers:
+     foo.bar.baz:
+       # other configuration for logger 'foo.bar.baz'
+       handlers: [h1, h2]
+(Note: YAML used here because it's a little more readable than the
+equivalent Python source form for the dictionary.)

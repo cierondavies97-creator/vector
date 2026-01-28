@@ -1,0 +1,6 @@
+"self.date().toordinal()".
+datetime.timestamp()
+   Return POSIX timestamp corresponding to the "datetime" instance.
+   The return value is a "float" similar to that returned by
+   "time.time()".
+   Naive "datetime" instances are assumed to represent local time and

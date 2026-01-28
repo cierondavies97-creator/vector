@@ -1,0 +1,4 @@
+makes the following changes to the annotations dictionary:
+   * Forward references encoded as string literals or "ForwardRef"
+     objects are handled by evaluating them in *globalns*, *localns*,
+     and (where applicable) *obj*'s type parameter namespace. If

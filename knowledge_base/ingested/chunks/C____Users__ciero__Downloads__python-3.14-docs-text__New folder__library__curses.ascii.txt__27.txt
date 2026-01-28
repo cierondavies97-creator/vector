@@ -1,0 +1,3 @@
+| curses.ascii.EM | End of medium                                  |
++-----------------+------------------------------------------------+
+| curses.ascii.S  | Substitute                                     |

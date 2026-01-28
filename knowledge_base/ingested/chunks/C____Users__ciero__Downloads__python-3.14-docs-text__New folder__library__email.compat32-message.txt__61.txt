@@ -1,0 +1,4 @@
+*val*.  The field is appended to the end of the message's
+      existing fields.
+      Note that this does *not* overwrite or delete any existing
+      header with the same name.  If you want to ensure that the new

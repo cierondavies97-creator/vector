@@ -1,0 +1,5 @@
+"ftplib" --- FTP protocol client
+********************************
+**Source code:** Lib/ftplib.py
+======================================================================
+This module defines the class "FTP" and a few related items. The "FTP"

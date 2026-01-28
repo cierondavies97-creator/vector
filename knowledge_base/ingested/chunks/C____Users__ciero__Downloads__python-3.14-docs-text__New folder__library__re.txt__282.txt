@@ -1,0 +1,3 @@
+matched text, "finditer()" is useful as it provides "Match" objects
+instead of strings.  Continuing with the previous example, if a writer
+wanted to find all of the adverbs *and their positions* in some text,

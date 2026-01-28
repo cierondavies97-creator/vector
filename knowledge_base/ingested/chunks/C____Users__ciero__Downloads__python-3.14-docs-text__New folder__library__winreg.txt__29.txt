@@ -1,0 +1,4 @@
+| "1"     | An object that holds the value data, and     |
+   |         | whose type depends on the underlying         |
+   |         | registry type                                |
+   +---------+----------------------------------------------+

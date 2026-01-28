@@ -1,0 +1,9 @@
+* "http" --- HTTP modules
+  * HTTP status codes
+  * HTTP status category
+  * HTTP methods
+* "http.client" --- HTTP protocol client
+  * HTTPConnection Objects
+  * HTTPResponse Objects
+  * Examples
+  * HTTPMessage Objects

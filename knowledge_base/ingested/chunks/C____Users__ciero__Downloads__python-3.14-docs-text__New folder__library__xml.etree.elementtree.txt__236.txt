@@ -1,0 +1,4 @@
+element children; they may or may not be present.If you need a
+     fully populated element, look for "end" events instead.
+   Added in version 3.4.
+   Changed in version 3.8: The "comment" and "pi" events were added.

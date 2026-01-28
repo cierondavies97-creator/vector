@@ -1,0 +1,5 @@
+names.
+   Changed in version 3.6: Removed support of "mode='U'".  Use
+   "io.TextIOWrapper" for reading compressed text files in *universal
+   newlines* mode.
+   Changed in version 3.6: "ZipFile.open()" can now be used to write

@@ -1,0 +1,4 @@
+this).
+In less ideal cases, applications can be checked for use of deprecated
+interfaces by passing "-Wd" to the Python interpreter (this is
+shorthand for "-W default") or setting "PYTHONWARNINGS=default" in the

@@ -1,0 +1,5 @@
+spam spammodule.o -lX11
+1.6. Calling Python Functions from C
+====================================
+So far we have concentrated on making C functions callable from
+Python.  The reverse is also useful: calling Python functions from C.

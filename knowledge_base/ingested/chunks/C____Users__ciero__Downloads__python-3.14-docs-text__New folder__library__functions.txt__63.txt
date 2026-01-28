@@ -1,0 +1,4 @@
+and the round parentheses "'('" and "')'", which are ignored. The
+   string must not contain whitespace between "'+'", "'-'", the "'j'"
+   or "'J'" suffix, and the decimal number. For example,
+   "complex('1+2j')" is fine, but "complex('1 + 2j')" raises

@@ -1,0 +1,5 @@
+"email.charset": Representing character sets
+********************************************
+**Source code:** Lib/email/charset.py
+======================================================================
+This module is part of the legacy ("Compat32") email API.  In the new

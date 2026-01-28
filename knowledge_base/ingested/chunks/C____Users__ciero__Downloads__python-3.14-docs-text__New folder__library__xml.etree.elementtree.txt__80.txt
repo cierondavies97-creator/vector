@@ -1,0 +1,3 @@
+the freedom that XML serializers have and instead generates a more
+   constrained XML representation.  The main restrictions regard the
+   placement of namespace declarations, the ordering of attributes,

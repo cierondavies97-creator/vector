@@ -1,0 +1,5 @@
+See also: The Single UNIX Specification, Version 2, Other
+   Environment Variables.
+   Added in version 3.3.
+   Changed in version 3.11: The "fallback" values are also used if
+   "os.get_terminal_size()" returns zeroes.

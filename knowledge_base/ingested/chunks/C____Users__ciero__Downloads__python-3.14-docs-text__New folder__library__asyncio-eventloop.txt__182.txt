@@ -1,0 +1,5 @@
+# event loop: run them in a thread pool.
+          with open('/dev/urandom', 'rb') as f:
+              return f.read(100)
+      def cpu_bound():
+          # CPU-bound operations will block the event loop:

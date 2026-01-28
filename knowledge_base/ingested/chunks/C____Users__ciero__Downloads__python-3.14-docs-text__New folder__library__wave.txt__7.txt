@@ -1,0 +1,8 @@
+Wave_read Objects
+=================
+class wave.Wave_read
+   Read a WAV file.
+   Wave_read objects, as returned by "open()", have the following
+   methods:
+   close()
+      Close the stream if it was opened by "wave", and make the

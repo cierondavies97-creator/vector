@@ -1,0 +1,4 @@
+The free lists maintained for a number of built-in types are
+   cleared whenever a full collection or collection of the highest
+   generation (2) is run.  Not all items in some free lists may be
+   freed due to the particular implementation, in particular "float".

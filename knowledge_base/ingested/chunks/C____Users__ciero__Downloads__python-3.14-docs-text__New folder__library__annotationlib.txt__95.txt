@@ -1,0 +1,7 @@
+...
+   >>> annotationlib.get_annotations(f, format=annotationlib.Format.STRING)
+   Hello world
+   {'x': 'None'}
+Note:
+  This particular example works as of the time of writing, but it
+  relies on implementation details and is not guaranteed to work in

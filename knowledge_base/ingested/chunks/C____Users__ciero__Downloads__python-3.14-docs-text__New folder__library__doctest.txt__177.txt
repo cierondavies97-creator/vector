@@ -1,0 +1,4 @@
+specified by command line options), but there's no way to pass options
+through "unittest" to "doctest" test runners.
+For this reason, "doctest" also supports a notion of "doctest"
+reporting flags specific to "unittest" support, via this function:

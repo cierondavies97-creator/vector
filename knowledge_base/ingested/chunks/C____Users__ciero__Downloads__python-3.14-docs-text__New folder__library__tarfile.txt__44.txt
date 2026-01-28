@@ -1,0 +1,3 @@
+|               | writing.                                     |
+   +---------------+----------------------------------------------+
+   | "'w|zst'"     | Open a Zstandard compressed *stream* for     |

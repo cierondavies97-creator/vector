@@ -1,0 +1,3 @@
+|          | state bit. This is a write-only option: setting it changes the   |
+|          | widget state, but the "Widget.state()" method does not affect    |
+|          | this option.                                                     |

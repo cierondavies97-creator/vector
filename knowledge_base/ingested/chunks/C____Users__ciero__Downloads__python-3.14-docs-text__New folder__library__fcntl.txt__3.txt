@@ -1,0 +1,5 @@
+file descriptor.
+Changed in version 3.3: Operations in this module used to raise an
+"IOError" where they now raise an "OSError".
+Changed in version 3.8: The "fcntl" module now contains "F_ADD_SEALS",
+"F_GET_SEALS", and "F_SEAL_*" constants for sealing of

@@ -1,0 +1,4 @@
+LETTER C WITH CEDILLA".
+    To compare strings at the level of abstract characters (that is,
+    in a way intuitive to humans), use "unicodedata.normalize()".
+[4] Due to automatic garbage-collection, free lists, and the dynamic

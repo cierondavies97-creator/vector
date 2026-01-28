@@ -1,0 +1,5 @@
+======================
+The following function generates a discrete distribution.
+random.binomialvariate(n=1, p=0.5)
+   Binomial distribution. Return the number of successes for *n*
+   independent trials with the probability of success in each trial

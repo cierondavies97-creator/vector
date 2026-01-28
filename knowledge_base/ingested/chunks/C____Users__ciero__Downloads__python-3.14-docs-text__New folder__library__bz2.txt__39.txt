@@ -1,0 +1,5 @@
+decompress all of the streams.
+   For incremental decompression, use a "BZ2Decompressor" instead.
+   Changed in version 3.3: Support for multi-stream inputs was added.
+Examples of usage
+=================

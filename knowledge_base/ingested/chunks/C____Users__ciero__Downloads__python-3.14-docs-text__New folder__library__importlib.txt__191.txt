@@ -1,0 +1,4 @@
+"importlib.abc.SourceLoader".
+   Added in version 3.4.
+importlib.util.cache_from_source(path, debug_override=None, *, optimization=None)
+   Return the **PEP 3147**/**PEP 488** path to the byte-compiled file

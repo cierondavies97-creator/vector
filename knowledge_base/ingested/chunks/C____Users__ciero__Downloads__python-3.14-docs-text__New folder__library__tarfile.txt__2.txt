@@ -1,0 +1,4 @@
+compressed archives if the respective modules are available.
+  If any of these *optional modules* are missing from your copy of
+  CPython, look for documentation from your distributor (that is,
+  whoever provided Python to you). If you are the distributor, see

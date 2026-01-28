@@ -1,0 +1,4 @@
+>>> parser = argparse.ArgumentParser(prog='PROG', add_help=False)
+      >>> group = parser.add_argument_group('group')
+      >>> group.add_argument('--foo', help='foo help')
+      >>> group.add_argument('bar', help='bar help')

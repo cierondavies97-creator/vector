@@ -1,0 +1,6 @@
+allows creating data types that directly or indirectly reference
+      themselves:
+         class List(Structure):
+             pass
+         List._fields_ = [("pnext", POINTER(List)),
+                          ...

@@ -1,0 +1,4 @@
+Raises an auditing event "ctypes.get_errno" with no arguments.
+ctypes.get_last_error()
+   Returns the current value of the ctypes-private copy of the system
+   "LastError" variable in the calling thread.

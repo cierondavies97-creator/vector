@@ -1,0 +1,4 @@
+the value passed in to that method.
+If an asynchronous generator happens to exit early by "break", the
+caller task being cancelled, or other exceptions, the generator's
+async cleanup code will run and possibly raise exceptions or access

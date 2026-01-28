@@ -1,0 +1,6 @@
+indent
+      The example's indentation in the containing string, i.e., the
+      number of space characters that precede the example's first
+      prompt.
+   options
+      A dictionary mapping from option flags to "True" or "False",

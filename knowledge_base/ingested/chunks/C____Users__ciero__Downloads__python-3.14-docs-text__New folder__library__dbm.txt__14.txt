@@ -1,0 +1,4 @@
+Changed in version 3.13: "clear()" methods are now available for all
+"dbm" backends.
+The following example records some hostnames and a corresponding
+title,  and then prints out the contents of the database:

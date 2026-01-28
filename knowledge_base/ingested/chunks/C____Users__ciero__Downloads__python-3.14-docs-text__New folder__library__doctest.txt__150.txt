@@ -1,0 +1,4 @@
+return tests
+There are two main functions for creating "unittest.TestSuite"
+instances from text files and modules with doctests:
+doctest.DocFileSuite(*paths, module_relative=True, package=None, setUp=None, tearDown=None, globs=None, optionflags=0, parser=DocTestParser(), encoding=None)

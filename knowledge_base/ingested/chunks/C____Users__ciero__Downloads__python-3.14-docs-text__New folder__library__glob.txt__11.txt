@@ -1,0 +1,5 @@
+Raises an auditing event "glob.glob/2" with arguments "pathname",
+   "recursive", "root_dir", "dir_fd".
+   Note:
+     Using the ""**"" pattern in large directory trees may consume an
+     inordinate amount of time.

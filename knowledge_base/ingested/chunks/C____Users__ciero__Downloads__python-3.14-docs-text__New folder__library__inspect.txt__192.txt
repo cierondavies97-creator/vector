@@ -1,0 +1,4 @@
+"POSITIONAL_ONLY". This is no longer permitted.
+class inspect.BoundArguments
+   Result of a "Signature.bind()" or "Signature.bind_partial()" call.
+   Holds the mapping of arguments to the function's parameters.

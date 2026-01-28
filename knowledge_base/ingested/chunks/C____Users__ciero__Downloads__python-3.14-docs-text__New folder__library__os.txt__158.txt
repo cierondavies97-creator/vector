@@ -1,0 +1,4 @@
+documentation; flag constants (like "O_RDONLY" and "O_WRONLY") are
+   defined in the "os" module.  In particular, on Windows adding
+   "O_BINARY" is needed to open files in binary mode.
+   This function can support paths relative to directory descriptors

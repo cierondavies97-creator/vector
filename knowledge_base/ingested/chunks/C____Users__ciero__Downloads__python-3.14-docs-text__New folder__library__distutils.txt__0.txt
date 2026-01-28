@@ -1,0 +1,4 @@
+"distutils" --- Building and installing Python modules
+******************************************************
+Deprecated since version 3.10, removed in version 3.12.
+This module is no longer part of the Python standard library. It was

@@ -1,0 +1,5 @@
+Raises "HeaderError" if the buffer is invalid.
+classmethod TarInfo.fromtarfile(tarfile)
+   Read the next member from the "TarFile" object *tarfile* and return
+   it as a "TarInfo" object.
+TarInfo.tobuf(format=DEFAULT_FORMAT, encoding=ENCODING, errors='surrogateescape')

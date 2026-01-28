@@ -1,0 +1,4 @@
+"method()"? Specifically, we want to test that the code section "#
+more code" uses the response object in the correct way.
+As this chain of calls is made from an instance attribute we can
+monkey patch the "backend" attribute on a "Something" instance. In

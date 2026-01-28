@@ -1,0 +1,4 @@
+are carried out. The *message* attribute of the record is
+      computed using *msg* % *args*. If the formatting string contains
+      "'(asctime)'", "formatTime()" is called to format the event
+      time. If there is exception information, it is formatted using

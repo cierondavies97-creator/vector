@@ -1,0 +1,2 @@
+| type.__base__                                      | **CPython implementation detail:** The single base |
+|                                                    | class in the inheritance chain that is responsible |

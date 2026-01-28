@@ -1,0 +1,6 @@
+startTest(test)
+      Called when the test case *test* is about to be run.
+   stopTest(test)
+      Called after the test case *test* has been executed, regardless
+      of the outcome.
+   startTestRun()

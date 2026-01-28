@@ -1,0 +1,5 @@
+MatchValue(
+                                      value=Constant(value=2)),
+                                  MatchStar(name='rest')]),
+                          body=[
+                              Expr(

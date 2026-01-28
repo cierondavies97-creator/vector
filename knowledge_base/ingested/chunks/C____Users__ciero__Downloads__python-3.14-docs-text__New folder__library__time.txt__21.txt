@@ -1,0 +1,6 @@
+"asctime()".
+   Note:
+     Unlike the C function of the same name, "asctime()" does not add
+     a trailing newline.
+time.pthread_getcpuclockid(thread_id)
+   Return the *clk_id* of the thread-specific CPU-time clock for the

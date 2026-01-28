@@ -1,0 +1,4 @@
+"''" is always allowed, and is automatically converted to "b''" if
+   appropriate.
+   If the *allow_fragments* argument is false, fragment identifiers
+   are not recognized.  Instead, they are parsed as part of the path,

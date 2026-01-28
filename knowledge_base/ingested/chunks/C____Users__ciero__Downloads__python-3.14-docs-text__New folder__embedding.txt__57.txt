@@ -1,0 +1,4 @@
+installation process (a "python3-config" script may also be
+available).  This script has several options, of which the following
+will be directly useful to you:
+* "pythonX.Y-config --cflags" will give you the recommended flags when

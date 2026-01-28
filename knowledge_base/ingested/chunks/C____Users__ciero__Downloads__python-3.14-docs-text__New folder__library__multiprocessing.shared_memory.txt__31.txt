@@ -1,0 +1,5 @@
+>>> # Now create a NumPy array backed by shared memory
+   >>> b = np.ndarray(a.shape, dtype=a.dtype, buffer=shm.buf)
+   >>> b[:] = a[:]  # Copy the original data into shared memory
+   >>> b
+   array([1, 1, 2, 3, 5, 8])

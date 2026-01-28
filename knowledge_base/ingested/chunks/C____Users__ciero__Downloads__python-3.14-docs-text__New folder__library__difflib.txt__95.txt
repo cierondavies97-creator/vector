@@ -1,0 +1,5 @@
+may want to try "quick_ratio()" or "real_quick_ratio()" first to
+      get an upper bound.
+      Note:
+        Caution: The result of a "ratio()" call may depend on the
+        order of the arguments. For instance:

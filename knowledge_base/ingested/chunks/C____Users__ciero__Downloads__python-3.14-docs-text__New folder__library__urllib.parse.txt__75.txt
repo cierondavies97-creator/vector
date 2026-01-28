@@ -1,0 +1,4 @@
+If *url* is an absolute URL (that is, it starts with "//" or
+     "scheme://"), the *url*'s hostname and/or scheme will be present
+     in the result.  For example:
+        >>> urljoin('http://www.cwi.nl/%7Eguido/Python.html',

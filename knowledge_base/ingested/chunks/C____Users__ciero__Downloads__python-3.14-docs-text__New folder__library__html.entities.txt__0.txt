@@ -1,0 +1,4 @@
+"html.entities" --- Definitions of HTML general entities
+********************************************************
+**Source code:** Lib/html/entities.py
+======================================================================

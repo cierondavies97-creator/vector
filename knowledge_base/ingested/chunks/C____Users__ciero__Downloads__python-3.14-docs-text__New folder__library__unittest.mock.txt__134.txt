@@ -1,0 +1,8 @@
+keyword must be used:
+      >>> mock = AsyncMock()
+      >>> async def main(coroutine_mock):
+      ...     await coroutine_mock
+      ...
+      >>> coroutine_mock = mock()
+      >>> mock.called
+      True

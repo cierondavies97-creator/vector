@@ -1,0 +1,9 @@
+* Module Contents
+  * Dialects and Formatting Parameters
+  * Reader Objects
+  * Writer Objects
+  * Examples
+* "configparser" --- Configuration file parser
+  * Quick Start
+  * Supported Datatypes
+  * Fallback Values

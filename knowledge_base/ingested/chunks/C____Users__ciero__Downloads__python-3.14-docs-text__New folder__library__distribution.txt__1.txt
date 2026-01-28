@@ -1,0 +1,5 @@
+the Python Package Index, they can also be used with a local index
+server, or without any index server at all.
+* "ensurepip" --- Bootstrapping the "pip" installer
+  * Command-line interface
+  * Module API

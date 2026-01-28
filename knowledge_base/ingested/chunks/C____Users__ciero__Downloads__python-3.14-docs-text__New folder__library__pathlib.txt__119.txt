@@ -1,0 +1,4 @@
+>>> p.resolve()
+      PosixPath('/home/antoine/pathlib/setup.py')
+   If a path doesn't exist or a symlink loop is encountered, and
+   *strict* is "True", "OSError" is raised.  If *strict* is "False",

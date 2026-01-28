@@ -1,0 +1,5 @@
+Added in version 3.9.
+   Changed in version 3.13: Raises "UnsupportedOperation" if
+   "os.readlink()" is not available. In previous versions,
+   "NotImplementedError" was raised.
+Querying file type and status

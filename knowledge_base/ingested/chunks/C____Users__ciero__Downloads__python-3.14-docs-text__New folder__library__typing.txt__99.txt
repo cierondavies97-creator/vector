@@ -1,0 +1,5 @@
+...
+       return data
+This behavior allows "Any" to be used as an *escape hatch* when you
+need to mix dynamically and statically typed code.
+Contrast the behavior of "Any" with the behavior of "object". Similar

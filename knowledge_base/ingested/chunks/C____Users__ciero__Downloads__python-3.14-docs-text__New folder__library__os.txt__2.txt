@@ -1,0 +1,4 @@
+line see the "fileinput" module.  For creating temporary files and
+directories see the "tempfile" module, and for high-level file and
+directory handling see the "shutil" module.
+Notes on the availability of these functions:

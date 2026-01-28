@@ -1,0 +1,4 @@
+get_ready()
+      Returns a "tuple" with all the nodes that are ready. Initially
+      it returns all nodes with no predecessors, and once those are
+      marked as processed by calling "TopologicalSorter.done()",

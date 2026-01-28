@@ -1,0 +1,4 @@
+available on POSIX platforms that support "fork()".
+   block_on_close
+      "ForkingMixIn.server_close" waits until all child processes
+      complete, except if "block_on_close" attribute is "False".

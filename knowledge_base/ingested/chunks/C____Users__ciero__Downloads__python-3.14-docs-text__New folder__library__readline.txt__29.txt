@@ -1,0 +1,7 @@
+default, and changes to this do not persist across multiple
+   sessions.
+Startup hooks
+=============
+readline.set_startup_hook([function])
+   Set or remove the function invoked by the "rl_startup_hook"
+   callback of the underlying library.  If *function* is specified, it

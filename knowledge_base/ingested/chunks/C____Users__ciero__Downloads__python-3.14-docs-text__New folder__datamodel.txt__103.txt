@@ -1,0 +1,4 @@
+attributes on built-in functions may be supported in the future.
+Additional information about a function's definition can be retrieved
+from its code object (accessible via the "__code__" attribute).
+3.2.8.2. Instance methods

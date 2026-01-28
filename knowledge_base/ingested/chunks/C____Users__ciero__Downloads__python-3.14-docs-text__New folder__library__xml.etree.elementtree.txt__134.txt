@@ -1,0 +1,9 @@
+<document xmlns:xi="http://www.w3.org/2001/XInclude">
+     Copyright (c) 2003.
+   </document>
+Reference
+=========
+Functions
+---------
+xml.etree.ElementInclude.default_loader(href, parse, encoding=None)
+   Default loader. This default loader reads an included resource from

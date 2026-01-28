@@ -1,0 +1,6 @@
+next_minus(x, /)
+      Returns the largest representable number smaller than *x*.
+   next_plus(x, /)
+      Returns the smallest representable number larger than *x*.
+   next_toward(x, y, /)
+      Returns the number closest to *x*, in direction towards *y*.

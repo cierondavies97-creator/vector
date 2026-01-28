@@ -1,0 +1,5 @@
+string "--version".  The substring "%prog" is expanded the same
+      as for "usage".
+   "conflict_handler" (default: ""error"")
+      Specifies what to do when options with conflicting option
+      strings are added to the parser; see section Conflicts between

@@ -1,0 +1,6 @@
+The "spam.error" exception can be raised in your extension module
+using a call to "PyErr_SetString()" as shown below:
+   static PyObject *
+   spam_system(PyObject *self, PyObject *args)
+   {
+       const char *command;

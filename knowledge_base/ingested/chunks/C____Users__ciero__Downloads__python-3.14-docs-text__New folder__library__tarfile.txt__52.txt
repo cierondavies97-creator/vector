@@ -1,0 +1,6 @@
+exception tarfile.FilterError
+   Base class for members refused by filters.
+   tarinfo
+      Information about the member that the filter refused to extract,
+      as TarInfo.
+exception tarfile.AbsolutePathError

@@ -1,0 +1,6 @@
+*path-like object*.
+      Changed in version 3.7: Recursion sorts directory entries.
+ZipInfo objects
+===============
+Instances of the "ZipInfo" class are returned by the "getinfo()" and
+"infolist()" methods of "ZipFile" objects.  Each object stores

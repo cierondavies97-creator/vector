@@ -1,0 +1,4 @@
+function will receive up to *maxfds* file descriptors, returning
+   the message data and a list containing the descriptors (while
+   ignoring unexpected conditions such as unrelated control messages
+   being received).  See also "sendmsg()".

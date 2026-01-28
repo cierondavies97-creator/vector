@@ -1,0 +1,4 @@
+the decimal arithmetic specification.
+The module design is centered around three concepts:  the decimal
+number, the context for arithmetic, and signals.
+A decimal number is immutable.  It has a sign, coefficient digits, and

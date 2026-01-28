@@ -1,0 +1,4 @@
+which disallows some dangerous features such as links to absolute
+paths or paths outside of the destination. Previously, the filter
+strategy was equivalent to "fully_trusted".
+Changed in version 3.14: Added support for Zstandard compression using

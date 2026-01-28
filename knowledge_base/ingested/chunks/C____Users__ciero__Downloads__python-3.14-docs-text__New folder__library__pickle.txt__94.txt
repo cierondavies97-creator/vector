@@ -1,0 +1,5 @@
+to put a version number in the objects so that suitable conversions
+can be made by the class's "__setstate__()" method.
+Pickling Class Instances
+========================
+In this section, we describe the general mechanisms available to you

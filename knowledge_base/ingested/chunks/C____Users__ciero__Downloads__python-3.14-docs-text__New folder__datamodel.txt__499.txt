@@ -1,0 +1,5 @@
+type.__subclasscheck__(self, subclass)
+   Return true if *subclass* should be considered a (direct or
+   indirect) subclass of *class*.  If defined, called to implement
+   "issubclass(subclass, class)".
+Note that these methods are looked up on the type (metaclass) of a

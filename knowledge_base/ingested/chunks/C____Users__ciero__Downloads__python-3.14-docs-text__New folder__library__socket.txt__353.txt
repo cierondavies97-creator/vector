@@ -1,0 +1,8 @@
+try:
+           s.send(cf)
+       except OSError:
+           print('Error sending CAN frame')
+       try:
+           s.send(build_can_frame(0x01, b'\x01\x02\x03'))
+       except OSError:
+           print('Error sending CAN frame')

@@ -1,0 +1,4 @@
+*x* is not a float, delegates to "x.__trunc__", which should return
+   an "Integral" value.
+For the "ceil()", "floor()", and "modf()" functions, note that *all*
+floating-point numbers of sufficiently large magnitude are exact

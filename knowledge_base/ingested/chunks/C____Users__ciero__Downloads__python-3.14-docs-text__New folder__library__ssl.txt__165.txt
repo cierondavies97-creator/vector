@@ -1,0 +1,4 @@
+certificate, regardless of whether validation was required;
+   * for a server SSL socket, the client will only provide a
+     certificate when requested by the server; therefore
+     "getpeercert()" will return "None" if you used "CERT_NONE"

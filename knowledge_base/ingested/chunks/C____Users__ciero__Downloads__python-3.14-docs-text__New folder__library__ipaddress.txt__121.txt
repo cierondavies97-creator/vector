@@ -1,0 +1,6 @@
+supernet_of(other)
+   compare_networks(other)
+      Refer to the corresponding attribute documentation in
+      "IPv4Network".
+   is_site_local
+      This attribute is true for the network as a whole if it is true

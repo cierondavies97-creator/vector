@@ -1,0 +1,4 @@
+The removal notice includes guidance for migrating code from "imp" to
+"importlib".
+The last version of Python that provided the "imp" module was Python
+3.11.

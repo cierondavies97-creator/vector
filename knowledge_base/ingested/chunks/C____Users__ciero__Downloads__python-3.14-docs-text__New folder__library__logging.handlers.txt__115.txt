@@ -1,0 +1,4 @@
+dictionaries are used to convert them to integers.
+      The symbolic "LOG_" values are defined in "SysLogHandler" and
+      mirror the values defined in the "sys/syslog.h" header file.
+      **Priorities**

@@ -1,0 +1,5 @@
+Return a tuple containing names of locals in this function.
+   get_globals()
+      Return a tuple containing names of globals in this function.
+   get_nonlocals()
+      Return a tuple containing names of explicitly declared nonlocals

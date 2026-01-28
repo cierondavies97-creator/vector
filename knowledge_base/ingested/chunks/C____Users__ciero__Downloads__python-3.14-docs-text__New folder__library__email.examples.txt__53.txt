@@ -1,0 +1,7 @@
+for line in richest.get_content().splitlines():
+               print(line)
+           sys.exit()
+       elif richest['content-type'].subtype == 'html':
+           body = richest
+       else:
+           print("Don't know how to display {}".format(richest.get_content_type()))

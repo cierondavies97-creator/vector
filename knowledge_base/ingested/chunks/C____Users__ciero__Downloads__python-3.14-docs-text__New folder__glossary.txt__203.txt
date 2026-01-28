@@ -1,0 +1,6 @@
+given platform.
+   See Requirements for optional modules for a list of optional
+   modules that require third-party libraries.
+package
+   A Python *module* which can contain submodules or recursively,
+   subpackages.  Technically, a package is a Python module with a

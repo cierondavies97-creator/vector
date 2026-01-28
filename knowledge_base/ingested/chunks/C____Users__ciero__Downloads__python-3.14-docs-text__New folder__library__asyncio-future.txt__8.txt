@@ -1,0 +1,7 @@
+and there is no running event loop.
+Future Object
+=============
+class asyncio.Future(*, loop=None)
+   A Future represents an eventual result of an asynchronous
+   operation.  Not thread-safe.
+   Future is an *awaitable* object.  Coroutines can await on Future

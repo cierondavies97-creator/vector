@@ -1,0 +1,4 @@
+"None". It should raise "URLError", unless a truly exceptional
+   thing happens (for example, "MemoryError" should not be mapped to
+   "URLError").
+   This method will be called before any protocol-specific open

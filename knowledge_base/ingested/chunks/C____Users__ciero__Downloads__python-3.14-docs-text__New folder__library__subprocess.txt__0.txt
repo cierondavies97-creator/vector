@@ -1,0 +1,5 @@
+"subprocess" --- Subprocess management
+**************************************
+**Source code:** Lib/subprocess.py
+======================================================================
+The "subprocess" module allows you to spawn new processes, connect to

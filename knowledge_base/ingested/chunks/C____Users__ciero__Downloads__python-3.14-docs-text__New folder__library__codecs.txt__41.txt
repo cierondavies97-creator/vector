@@ -1,0 +1,11 @@
+codecs.BOM
+codecs.BOM_BE
+codecs.BOM_LE
+codecs.BOM_UTF8
+codecs.BOM_UTF16
+codecs.BOM_UTF16_BE
+codecs.BOM_UTF16_LE
+codecs.BOM_UTF32
+codecs.BOM_UTF32_BE
+codecs.BOM_UTF32_LE
+   These constants define various byte sequences, being Unicode byte

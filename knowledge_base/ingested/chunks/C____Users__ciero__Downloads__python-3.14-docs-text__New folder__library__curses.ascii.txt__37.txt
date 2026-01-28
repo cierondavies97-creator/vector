@@ -1,0 +1,6 @@
+curses.ascii.iscntrl(c)
+   Checks for an ASCII control character (in the range 0x00 to 0x1f or
+   0x7f).
+curses.ascii.isdigit(c)
+   Checks for an ASCII decimal digit, "'0'" through "'9'".  This is
+   equivalent to "c in string.digits".

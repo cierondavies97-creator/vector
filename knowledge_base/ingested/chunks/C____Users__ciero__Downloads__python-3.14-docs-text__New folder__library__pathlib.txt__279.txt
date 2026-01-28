@@ -1,0 +1,4 @@
+operation that raises "ValueError" when its inputs' anchors differ
+    (e.g. if one path is absolute and the other relative.)
+[2] "os.path.expanduser()" returns the path unchanged if the home
+    directory can't be resolved, whereas "Path.expanduser()" raises

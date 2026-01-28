@@ -1,0 +1,4 @@
+For more information on the "str" class and its methods, see Text
+   Sequence Type --- str and the String Methods section below.  To
+   output formatted strings, see the f-strings and Format String
+   Syntax sections.  In addition, see the Text Processing Services

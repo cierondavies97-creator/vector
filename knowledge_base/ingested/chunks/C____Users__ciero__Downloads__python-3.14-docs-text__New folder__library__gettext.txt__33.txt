@@ -1,0 +1,4 @@
+original source file message strings to translated message strings.
+The base class used by all translation classes is "NullTranslations";
+this provides the basic interface you can use to write your own
+specialized translation classes.  Here are the methods of

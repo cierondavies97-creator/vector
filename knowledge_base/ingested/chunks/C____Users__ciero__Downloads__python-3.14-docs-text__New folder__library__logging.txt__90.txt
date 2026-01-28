@@ -1,0 +1,3 @@
++-------------------------+-----------------+---------------------------------------+
+| logging.WARNING         | 30              | An indication that something          |
+|                         |                 | unexpected happened, or that a        |

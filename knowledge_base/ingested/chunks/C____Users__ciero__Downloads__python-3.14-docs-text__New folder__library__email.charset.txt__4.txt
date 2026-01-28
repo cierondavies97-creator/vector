@@ -1,0 +1,4 @@
+routines for converting between character sets, given the
+   availability of the applicable codecs.  Given a character set, it
+   will do its best to provide information on how to use that
+   character set in an email message in an RFC-compliant way.

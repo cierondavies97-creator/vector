@@ -1,0 +1,4 @@
+collection statistics since interpreter start.  The number of keys
+   may change in the future, but currently each dictionary will
+   contain the following items:
+   * "collections" is the number of times this generation was

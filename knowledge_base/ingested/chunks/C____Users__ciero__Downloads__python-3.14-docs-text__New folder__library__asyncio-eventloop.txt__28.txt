@@ -1,0 +1,6 @@
+Added in version 3.9.
+   Changed in version 3.12: Added the *timeout* parameter.
+Scheduling callbacks
+--------------------
+loop.call_soon(callback, *args, context=None)
+   Schedule the *callback* *callback* to be called with *args*

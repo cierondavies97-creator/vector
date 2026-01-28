@@ -1,0 +1,5 @@
+os.CLONE_NEWPID)". The caller's memberships in unspecified
+   namespaces are left unchanged.
+   *fd* can be any object with a "fileno()" method, or a raw file
+   descriptor.
+   This example reassociates the thread with the "init" process's

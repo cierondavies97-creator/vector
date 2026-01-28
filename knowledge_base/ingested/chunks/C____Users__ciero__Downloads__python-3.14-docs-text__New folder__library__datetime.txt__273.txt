@@ -1,0 +1,6 @@
+4. Fractional hours and minutes are not supported.
+   Examples:
+      >>> from datetime import time
+      >>> time.fromisoformat('04:23:01')
+      datetime.time(4, 23, 1)
+      >>> time.fromisoformat('T04:23:01')

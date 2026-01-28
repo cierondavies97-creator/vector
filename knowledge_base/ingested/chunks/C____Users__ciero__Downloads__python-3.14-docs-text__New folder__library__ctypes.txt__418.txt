@@ -1,0 +1,4 @@
+support, or when a difference between similar platforms is
+      found). Currently the default will be:
+      * On Windows: ""ms""
+      * When "_pack_" is specified: ""ms"". (This is deprecated; see

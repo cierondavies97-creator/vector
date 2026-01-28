@@ -1,0 +1,8 @@
+>>> d = Counter(a=1, b=2, c=3, d=4)
+      >>> c.subtract(d)
+      >>> c
+      Counter({'a': 3, 'b': 0, 'c': -3, 'd': -6})
+      Added in version 3.2.
+   total()
+      Compute the sum of the counts.
+      >>> c = Counter(a=10, b=5, c=0)

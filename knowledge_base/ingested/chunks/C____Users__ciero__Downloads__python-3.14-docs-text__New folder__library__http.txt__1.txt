@@ -1,0 +1,5 @@
+HyperText Transfer Protocol:
+* "http.client" is a low-level HTTP protocol client; for high-level
+  URL opening use "urllib.request"
+* "http.server" contains basic HTTP server classes based on
+  "socketserver"

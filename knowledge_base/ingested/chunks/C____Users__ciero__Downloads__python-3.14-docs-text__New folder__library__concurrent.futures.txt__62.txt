@@ -1,0 +1,3 @@
+An "Executor" subclass that executes calls asynchronously using a
+   pool of at most *max_workers* processes.  If *max_workers* is
+   "None" or not given, it will default to "os.process_cpu_count()".

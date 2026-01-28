@@ -1,0 +1,4 @@
+interpreter session.  Therefore, if you change your modules, you
+  must restart the interpreter -- or, if it's just one module you want
+  to test interactively, use "importlib.reload()", e.g. "import
+  importlib; importlib.reload(modulename)".

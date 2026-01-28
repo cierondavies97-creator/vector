@@ -1,0 +1,3 @@
+If exception(s) occur, an "Error" is raised with a list of reasons.
+   If *copy_function* is given, it must be a callable that will be
+   used to copy each file. It will be called with the source path and

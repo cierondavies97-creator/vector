@@ -1,0 +1,5 @@
+contains a top-level function "f()", then
+      import a, doctest
+      print(doctest.testsource(a, "a.f"))
+   prints a script version of function "f()"'s docstring, with
+   doctests converted to code, and the rest placed in comments.

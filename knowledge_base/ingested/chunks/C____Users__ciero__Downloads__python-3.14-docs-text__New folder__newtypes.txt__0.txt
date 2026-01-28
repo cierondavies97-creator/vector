@@ -1,0 +1,5 @@
+3. Defining Extension Types: Assorted Topics
+********************************************
+This section aims to give a quick fly-by on the various type methods
+you can implement and what they do.
+Here is the definition of "PyTypeObject", with some fields only used

@@ -1,0 +1,3 @@
+| image       | Specifies an image to display in the tab. See the option image |
+|             | described in "Widget".                                         |
++-------------+----------------------------------------------------------------+

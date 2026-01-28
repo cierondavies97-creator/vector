@@ -1,0 +1,4 @@
+base class, which defines this abstract method:
+   @abc.abstractmethod
+   def find_distributions(context=DistributionFinder.Context()) -> Iterable[Distribution]:
+       """Return an iterable of all Distribution instances capable of

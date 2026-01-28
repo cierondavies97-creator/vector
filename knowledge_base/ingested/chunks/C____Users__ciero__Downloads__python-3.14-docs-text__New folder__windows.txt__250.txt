@@ -1,0 +1,4 @@
+system-wide install of Python. While nuget is "the package manager for
+.NET", it also works perfectly fine for packages containing build-time
+tools.
+Visit nuget.org for the most up-to-date information on using nuget.

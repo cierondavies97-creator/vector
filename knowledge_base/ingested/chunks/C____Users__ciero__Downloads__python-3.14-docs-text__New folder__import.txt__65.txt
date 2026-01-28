@@ -1,0 +1,4 @@
+* If there is an existing module object with the given name in
+  "sys.modules", import will have already returned it.
+* The module will exist in "sys.modules" before the loader executes
+  the module code.  This is crucial because the module code may

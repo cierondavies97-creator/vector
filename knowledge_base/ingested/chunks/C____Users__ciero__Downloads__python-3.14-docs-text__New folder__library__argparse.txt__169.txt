@@ -1,0 +1,5 @@
+parser.add_argument('street', type=ascii)
+   parser.add_argument('code_point', type=ord)
+   parser.add_argument('datapath', type=pathlib.Path)
+User defined functions can be used as well:
+   >>> def hyphenated(string):

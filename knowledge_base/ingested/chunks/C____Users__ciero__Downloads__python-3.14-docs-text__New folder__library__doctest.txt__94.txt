@@ -1,0 +1,6 @@
+examples.
+doctest.COMPARISON_FLAGS
+   A bitmask or'ing together all the comparison flags above.
+The second group of options controls how test failures are reported:
+doctest.REPORT_UDIFF
+   When specified, failures that involve multi-line expected and

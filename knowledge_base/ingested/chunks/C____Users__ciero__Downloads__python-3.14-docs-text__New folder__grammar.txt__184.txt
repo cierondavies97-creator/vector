@@ -1,0 +1,3 @@
+_PyPegen_collect_call_seqs(p, a, b, EXTRA) }
+       | a=kwargs { _PyAST_Call(_PyPegen_dummy_name(p),
+                             CHECK_NULL_ALLOWED(asdl_expr_seq*, _PyPegen_seq_extract_starred_exprs(p, a)),

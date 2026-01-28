@@ -1,0 +1,6 @@
+exception is raised, it is as if "in" raised that exception).
+The operator "not in" is defined to have the inverse truth value of
+"in".
+6.10.3. Identity comparisons
+----------------------------
+The operators "is" and "is not" test for an object's identity: "x is

@@ -1,0 +1,4 @@
+cases, a custom launcher should simply be able to call "Py_Main" with
+a hard-coded command line.
+The simpler approach is to provide a batch file or generated shortcut
+that directly calls the "python.exe" or "pythonw.exe" with the

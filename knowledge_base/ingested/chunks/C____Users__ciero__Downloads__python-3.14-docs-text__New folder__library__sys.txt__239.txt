@@ -1,0 +1,4 @@
+future versions, and vice versa for mortal objects.
+   Added in version 3.14.
+   **CPython implementation detail:** This function should be used for
+   specialized purposes only. It is not guaranteed to exist in all

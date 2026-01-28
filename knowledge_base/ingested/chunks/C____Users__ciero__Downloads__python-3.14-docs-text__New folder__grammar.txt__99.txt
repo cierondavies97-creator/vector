@@ -1,0 +1,5 @@
+pattern_capture_target[expr_ty]:
+       | !"_" name=NAME !('.' | '(' | '=') {
+           _PyPegen_set_expr_context(p, name, Store) }
+   wildcard_pattern[pattern_ty]:
+       | "_" { _PyAST_MatchAs(NULL, NULL, EXTRA) }

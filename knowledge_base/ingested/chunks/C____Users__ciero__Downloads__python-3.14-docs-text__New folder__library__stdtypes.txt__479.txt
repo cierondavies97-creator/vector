@@ -1,0 +1,5 @@
+whether the "'x'" or "'X'" format was used) to be inserted before
+   the first digit.
+3. The alternate form causes the result to always contain a decimal
+   point, even if no digits follow it.
+   The precision determines the number of digits after the decimal

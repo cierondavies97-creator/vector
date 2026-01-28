@@ -1,0 +1,6 @@
+if (!PyArg_ParseTuple(args, "s", &command))
+           return NULL;
+       sts = PySpam_System(command);
+       return PyLong_FromLong(sts);
+   }
+In the beginning of the module, right after the line

@@ -1,0 +1,4 @@
+number: total size, number and average size of allocated memory
+  blocks
+* Compute the differences between two snapshots to detect memory leaks
+To trace most memory blocks allocated by Python, the module should be

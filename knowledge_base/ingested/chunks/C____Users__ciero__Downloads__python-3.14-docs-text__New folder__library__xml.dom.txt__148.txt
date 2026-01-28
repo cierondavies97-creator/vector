@@ -1,0 +1,5 @@
+| "null"             | "None"                                      |
++--------------------+---------------------------------------------+
+Accessor Methods
+----------------
+The mapping from OMG IDL to Python defines accessor functions for IDL

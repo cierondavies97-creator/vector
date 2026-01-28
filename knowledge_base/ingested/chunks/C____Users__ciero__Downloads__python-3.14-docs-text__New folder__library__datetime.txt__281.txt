@@ -1,0 +1,5 @@
+"time" objects are also supported by generic function
+   "copy.replace()".
+   Changed in version 3.6: Added the *fold* parameter.
+time.isoformat(timespec='auto')
+   Return a string representing the time in ISO 8601 format, one of:

@@ -1,0 +1,4 @@
+The basic classes defined by the module, together with their
+attributes and methods, are listed in the sections below.
+* Loggers expose the interface that application code directly uses.
+* Handlers send the log records (created by loggers) to the

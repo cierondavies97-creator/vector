@@ -1,0 +1,4 @@
+standard built-in module). The number and type of the arguments are
+determined by the C function. Special read-only attributes:
+* "__doc__" is the function's documentation string, or "None" if
+  unavailable. See "function.__doc__".

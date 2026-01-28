@@ -1,0 +1,6 @@
+--width WIDTH, -w WIDTH
+   The width of the date column in terminal columns. The date is
+   printed centred in the column. Any value lower than 2 is ignored.
+   Defaults to 2.
+--lines LINES, -l LINES
+   The number of lines for each week in terminal rows. The date is

@@ -1,0 +1,5 @@
+-------------------
+class ctypes.Array(*args)
+   Abstract base class for arrays.
+   The recommended way to create concrete array types is by
+   multiplying any "ctypes" data type with a non-negative integer.

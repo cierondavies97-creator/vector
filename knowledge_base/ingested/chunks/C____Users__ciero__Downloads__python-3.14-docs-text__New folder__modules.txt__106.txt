@@ -1,0 +1,1 @@
+adds the function name to the module's global namespace.

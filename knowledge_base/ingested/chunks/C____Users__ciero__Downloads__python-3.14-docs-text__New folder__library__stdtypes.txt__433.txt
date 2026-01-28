@@ -1,0 +1,7 @@
+>>> f'{one_third}'
+   '1/3'
+When a debug specifier but no format specifier is used, the default
+conversion instead uses "repr()":
+   >>> f'{one_third = }'
+   'one_third = Fraction(1, 3)'
+The conversion can be specified explicitly using one of these

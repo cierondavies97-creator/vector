@@ -1,0 +1,3 @@
+>>> res = new_cur.execute("SELECT title, year FROM movie ORDER BY score DESC")
+   >>> title, year = res.fetchone()
+   >>> print(f'The highest scoring Monty Python movie is {title!r}, released in {year}')

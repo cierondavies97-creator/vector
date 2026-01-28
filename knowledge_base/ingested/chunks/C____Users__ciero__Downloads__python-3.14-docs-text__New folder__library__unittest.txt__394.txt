@@ -1,0 +1,7 @@
+------------------------------
+These should be implemented as functions:
+   def setUpModule():
+       createConnection()
+   def tearDownModule():
+       closeConnection()
+If an exception is raised in a "setUpModule" then none of the tests in

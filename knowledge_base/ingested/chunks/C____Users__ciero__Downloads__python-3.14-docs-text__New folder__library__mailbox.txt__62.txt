@@ -1,0 +1,4 @@
+the keys to determine which messages are interesting to get.
+      If you do have a "MaildirMessage" object, use its "get_flags()"
+      method instead, because changes made by the message's
+      "set_flags()", "add_flag()" and "remove_flag()" methods are not

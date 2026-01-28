@@ -1,0 +1,4 @@
+and its arguments are documented in section Extracting Parameters in
+Extension Functions.
+The macros "Py_XINCREF()" and "Py_XDECREF()" increment/decrement the
+reference count of an object and are safe in the presence of "NULL"

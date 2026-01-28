@@ -1,0 +1,6 @@
+resized or closed.
+      Added in version 3.2.
+   getvalue()
+      Return "bytes" containing the entire contents of the buffer.
+   read1(size=-1, /)
+      In "BytesIO", this is the same as "read()".

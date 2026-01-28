@@ -1,0 +1,3 @@
++--------------------+-----------------------------------------------+
+   Note that "'a:gz'", "'a:bz2'" or "'a:xz'" is not possible. If
+   *mode* is not suitable to open a certain (compressed) file for

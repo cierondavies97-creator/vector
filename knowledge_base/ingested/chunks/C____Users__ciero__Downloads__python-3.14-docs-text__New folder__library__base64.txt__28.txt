@@ -1,0 +1,6 @@
+following:
+* Whether to include enclosing "<~" and "~>" markers
+* Whether to include newline characters
+* The set of ASCII characters used for encoding
+* Handling of null bytes
+Refer to the documentation of the individual functions for more

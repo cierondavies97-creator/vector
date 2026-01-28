@@ -1,0 +1,7 @@
+>>> args
+   ['a1', 'a2']
+Using long option names is equally easy:
+   >>> s = '--condition=foo --testing --output-file abc.def -x a1 a2'
+   >>> args = s.split()
+   >>> args
+   ['--condition=foo', '--testing', '--output-file', 'abc.def', '-x', 'a1', 'a2']

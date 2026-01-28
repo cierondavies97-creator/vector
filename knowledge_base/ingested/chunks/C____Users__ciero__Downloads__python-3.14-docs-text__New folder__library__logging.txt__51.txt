@@ -1,0 +1,4 @@
+bottom of the stack up to the logging call in the current
+      thread, whereas the latter is information about stack frames
+      which have been unwound, following an exception, while searching
+      for exception handlers.

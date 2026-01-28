@@ -1,0 +1,4 @@
+the concatenation of *path* and all members of **paths*, with
+   exactly one directory separator following each non-empty part,
+   except the last. That is, the result will only end in a separator
+   if the last part is either empty or ends in a separator.

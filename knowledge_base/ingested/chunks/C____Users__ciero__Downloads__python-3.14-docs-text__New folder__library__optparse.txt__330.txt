@@ -1,0 +1,6 @@
+default as "None" and "ensure_value()" will take care of getting it
+  right when it's needed.
+Exceptions
+==========
+exception optparse.OptionError
+   Raised if an "Option" instance is created with invalid or

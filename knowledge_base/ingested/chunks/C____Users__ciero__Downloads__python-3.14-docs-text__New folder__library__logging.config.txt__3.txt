@@ -1,0 +1,4 @@
+to the main API (defined in "logging" itself) and defining handlers
+which are declared either in "logging" or "logging.handlers".
+logging.config.dictConfig(config)
+   Takes the logging configuration from a dictionary.  The contents of

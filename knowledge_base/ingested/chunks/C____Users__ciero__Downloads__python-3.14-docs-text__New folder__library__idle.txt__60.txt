@@ -1,0 +1,5 @@
+* "Backspace" and "Del" (or "C"-"d") delete the previous or next
+  character.
+* "C"-"Backspace" and "C"-"Del" delete one word left or right.
+* "C"-"k" deletes ('kills') everything to the right.
+Standard keybindings (like "C"-"c" to copy and "C"-"v" to paste) may

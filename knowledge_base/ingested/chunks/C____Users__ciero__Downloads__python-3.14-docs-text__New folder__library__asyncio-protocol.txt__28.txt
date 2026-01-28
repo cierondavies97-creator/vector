@@ -1,0 +1,5 @@
+* "'subprocess'": "subprocess.Popen" instance
+BaseTransport.set_protocol(protocol)
+   Set a new protocol.
+   Switching protocol should only be done when both protocols are
+   documented to support the switch.

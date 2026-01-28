@@ -1,0 +1,4 @@
+the "LoadKey()" method.
+   If *key* represents a key on a remote computer, the path described
+   by *file_name* is relative to the remote computer. The caller of
+   this method must possess the **SeBackupPrivilege** security

@@ -1,0 +1,5 @@
+inspect.isgenerator(object)
+   Return "True" if the object is a generator.
+inspect.iscoroutinefunction(object)
+   Return "True" if the object is a *coroutine function* (a function
+   defined with an "async def" syntax), a "functools.partial()"

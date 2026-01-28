@@ -1,0 +1,4 @@
+Once created, an "Element" object may be manipulated by directly
+changing its fields (such as "Element.text"), adding and modifying
+attributes ("Element.set()" method), as well as adding new children
+(for example with "Element.append()").

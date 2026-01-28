@@ -1,0 +1,6 @@
+Added in version 3.14.
+Functions
+=========
+annotationlib.annotations_to_string(annotations)
+   Convert an annotations dict containing runtime values to a dict
+   containing only strings. If the values are not already strings,

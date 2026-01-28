@@ -1,0 +1,5 @@
+After changing the above option, no further configuration is required.
+Changed in version 3.6: Support for long paths was enabled in Python.
+4.11.3. Installing without UI
+-----------------------------
+All of the options available in the installer UI can also be specified

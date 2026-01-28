@@ -1,0 +1,6 @@
+07-16: carefully
+   40-47: quickly
+Raw String Notation
+-------------------
+Raw string notation ("r"text"") keeps regular expressions sane.
+Without it, every backslash ("'\'") in a regular expression would have

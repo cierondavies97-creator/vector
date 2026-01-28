@@ -1,0 +1,6 @@
+ensure that *all* warnings are displayed by default for the code under
+test, using code like:
+   import sys
+   if not sys.warnoptions:
+       import os, warnings
+       warnings.simplefilter("default") # Change the filter in this process

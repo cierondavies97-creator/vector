@@ -1,0 +1,3 @@
+Providing a *seed* allows reproducible selections. In the future,
+   the values may change slightly as more accurate kernel inverse CDF
+   estimates are implemented.  The seed may be an integer, float, str,

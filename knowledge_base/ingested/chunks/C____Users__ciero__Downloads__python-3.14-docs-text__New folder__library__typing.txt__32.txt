@@ -1,0 +1,4 @@
+take a variadic number of arguments, overloaded functions, or
+functions that have keyword-only parameters. However, these signatures
+can be expressed by defining a "Protocol" class with a "__call__()"
+method:

@@ -1,0 +1,6 @@
+Nesting Patches
+---------------
+Using patch as a context manager is nice, but if you do multiple
+patches you can end up with nested with statements indenting further
+and further to the right:
+   >>> class MyTest(unittest.TestCase):

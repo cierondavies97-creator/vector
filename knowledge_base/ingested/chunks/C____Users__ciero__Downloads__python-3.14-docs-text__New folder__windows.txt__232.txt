@@ -1,0 +1,4 @@
+environment. It is intended for acting as part of another application,
+rather than being directly accessed by end-users.
+To install an embedded distribution, we recommend using "py install"
+with the "--target" option:

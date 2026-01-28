@@ -1,0 +1,6 @@
+====================================
+The following script shows how to extend "EnvBuilder" by implementing
+a subclass which installs setuptools and pip into a created virtual
+environment:
+   import os
+   import os.path

@@ -1,0 +1,4 @@
+"set" in which all the elements are of type "bytes".
+For a class which defines "__class_getitem__()" but is not a
+container, the argument(s) supplied to a subscription of the class
+will often indicate the return type(s) of one or more methods defined

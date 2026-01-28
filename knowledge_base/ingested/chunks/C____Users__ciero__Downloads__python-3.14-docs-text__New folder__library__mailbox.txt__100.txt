@@ -1,0 +1,4 @@
+Return a dictionary of sequence names mapped to key lists. If
+      there are no sequences, the empty dictionary is returned.
+   set_sequences(sequences)
+      Re-define the sequences that exist in the mailbox based upon

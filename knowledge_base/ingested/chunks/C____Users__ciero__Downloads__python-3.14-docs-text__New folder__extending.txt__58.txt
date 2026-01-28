@@ -1,0 +1,4 @@
+which it points (so in Standard C, the variable "command" should
+properly be declared as "const char *command").
+The next statement is a call to the Unix function "system()", passing
+it the string we just got from "PyArg_ParseTuple()":

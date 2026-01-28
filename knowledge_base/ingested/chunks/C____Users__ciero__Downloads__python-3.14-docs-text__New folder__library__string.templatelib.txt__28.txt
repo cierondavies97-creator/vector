@@ -1,0 +1,4 @@
+string) or use an "Interpolation" (to treat it as dynamic):
+      >>> from string.templatelib import Interpolation, Template
+      >>> template = t'Ah! '
+      >>> # Treat 'We do have ' as a static string

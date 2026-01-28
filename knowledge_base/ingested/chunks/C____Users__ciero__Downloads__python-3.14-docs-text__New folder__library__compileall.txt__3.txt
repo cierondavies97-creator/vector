@@ -1,0 +1,7 @@
+Command-line use
+================
+This module can work as a script (using **python -m compileall**) to
+compile Python sources.
+directory ...
+file ...
+   Positional arguments are files to compile or directories that

@@ -1,0 +1,3 @@
+from the command line, allowing scripted installers to replicate an
+installation on many machines without user interaction.  These options
+may also be set without suppressing the UI in order to change some of

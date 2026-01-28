@@ -1,0 +1,6 @@
+Reassigning them to new values is unsupported:
+Popen.args
+   The *args* argument as it was passed to "Popen" -- a sequence of
+   program arguments or else a single string.
+   Added in version 3.3.
+Popen.stdin

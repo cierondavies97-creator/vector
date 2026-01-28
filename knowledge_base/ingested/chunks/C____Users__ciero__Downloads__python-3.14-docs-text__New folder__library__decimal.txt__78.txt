@@ -1,0 +1,4 @@
+a > b            ==> Decimal('1')
+   compare_signal(other, context=None)
+      This operation is identical to the "compare()" method, except
+      that all NaNs signal.  That is, if neither operand is a

@@ -1,0 +1,3 @@
+representation of an IPv4/v6 address or "None". *port* is a string
+   service name such as "'http'", a numeric port number or "None".  By
+   passing "None" as the value of *host* and *port*, you can pass

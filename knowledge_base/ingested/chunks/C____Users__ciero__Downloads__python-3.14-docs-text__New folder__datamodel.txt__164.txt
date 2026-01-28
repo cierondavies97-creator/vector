@@ -1,0 +1,4 @@
+that atypical scenario may be appropriate.
+   It is **strongly** recommended that you use
+   "module.__spec__.cached" instead of "module.__cached__".
+   Deprecated since version 3.13, will be removed in version 3.15:

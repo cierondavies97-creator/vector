@@ -1,0 +1,4 @@
+method name and the parameters from the request.  Its API is "def
+   _dispatch(self, method, params)" (note that *params* does not
+   represent a variable argument list).  If it calls an underlying
+   function to perform its task, that function is called as

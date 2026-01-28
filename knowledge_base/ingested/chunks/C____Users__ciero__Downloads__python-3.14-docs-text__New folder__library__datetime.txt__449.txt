@@ -1,0 +1,6 @@
+replaced by empty strings.
+   For an aware object:
+   "%z"
+      "utcoffset()" is transformed into a string of the form
+      "±HHMM[SS[.ffffff]]", where "HH" is a 2-digit string giving the
+      number of UTC offset hours, "MM" is a 2-digit string giving the

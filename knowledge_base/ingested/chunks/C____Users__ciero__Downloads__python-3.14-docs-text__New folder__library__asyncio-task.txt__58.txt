@@ -1,0 +1,5 @@
+raising task to the task group and ignoring the raised exception:
+   import asyncio
+   from asyncio import TaskGroup
+   class TerminateTaskGroup(Exception):
+       """Exception raised to terminate a task group."""

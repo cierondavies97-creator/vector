@@ -1,0 +1,4 @@
+the source of the "PATH" variable.  The other variants, "spawnl()",
+   "spawnle()", "spawnv()", and "spawnve()", will not use the "PATH"
+   variable to locate the executable; *path* must contain an
+   appropriate absolute or relative path.

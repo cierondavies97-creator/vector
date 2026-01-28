@@ -1,0 +1,5 @@
+| "KQ_NOTE_LINKINV"            | link state is invalid                        |
+   +------------------------------+----------------------------------------------+
+kevent.data
+   Filter specific data.
+kevent.udata

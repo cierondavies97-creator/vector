@@ -1,0 +1,4 @@
+This section will describe the defaults, but be aware that modified or
+overridden installs may resolve settings differently.
+A global configuration file may be configured by an administrator, and
+would be read first. The user configuration file is stored at

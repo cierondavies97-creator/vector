@@ -1,0 +1,5 @@
+and if we are on its first executable line.
+bdb.effective(file, line, frame)
+   Return "(active breakpoint, delete temporary flag)" or "(None,
+   None)" as the breakpoint to act upon.
+   The *active breakpoint* is the first entry in "bplist" for the

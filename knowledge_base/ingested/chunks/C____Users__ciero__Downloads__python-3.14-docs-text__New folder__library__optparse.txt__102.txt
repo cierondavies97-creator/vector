@@ -1,0 +1,4 @@
+expert [default: intermediate]
+(If the help output is triggered by a help option, "optparse" exits
+after printing the help text.)
+There's a lot going on here to help "optparse" generate the best

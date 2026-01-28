@@ -1,0 +1,9 @@
+decorators.
+Special typing primitives
+-------------------------
+Special types
+~~~~~~~~~~~~~
+These can be used as types in annotations. They do not support
+subscription using "[]".
+typing.Any
+   Special type indicating an unconstrained type.

@@ -1,0 +1,4 @@
+replaced. Special files such as character or block devices and
+   pipes cannot be copied with this function.
+   If *follow_symlinks* is false and *src* is a symbolic link, a new
+   symbolic link will be created instead of copying the file *src*

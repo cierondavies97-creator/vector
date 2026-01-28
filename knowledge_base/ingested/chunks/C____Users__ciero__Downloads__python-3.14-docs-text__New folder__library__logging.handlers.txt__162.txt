@@ -1,0 +1,4 @@
+or "POST" semantics.
+class logging.handlers.HTTPHandler(host, url, method='GET', secure=False, credentials=None, context=None)
+   Returns a new instance of the "HTTPHandler" class. The *host* can
+   be of the form "host:port", should you need to use a specific port

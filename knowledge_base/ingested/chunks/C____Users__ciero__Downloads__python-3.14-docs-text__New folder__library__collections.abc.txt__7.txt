@@ -1,0 +1,4 @@
+determine whether the full interface is supported.  The exception
+   to this rule is for methods that are automatically inferred from
+   the rest of the API:
+      class D:                                 # No inheritance

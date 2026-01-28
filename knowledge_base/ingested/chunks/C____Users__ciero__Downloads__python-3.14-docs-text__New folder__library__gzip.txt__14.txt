@@ -1,0 +1,4 @@
+original filename of the uncompressed file.  It defaults to the
+   filename of *fileobj*, if discernible; otherwise, it defaults to
+   the empty string, and in this case the original filename is not
+   included in the header.

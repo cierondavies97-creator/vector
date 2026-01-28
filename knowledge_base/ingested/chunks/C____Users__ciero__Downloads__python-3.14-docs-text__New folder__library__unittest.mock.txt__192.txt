@@ -1,0 +1,4 @@
+context manager. Inside the body of the function or with statement,
+   the *target* is patched with a *new* object. When the function/with
+   statement exits the patch is undone.
+   If *new* is omitted, then the target is replaced with an

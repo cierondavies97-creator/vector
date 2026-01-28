@@ -1,0 +1,5 @@
+of the current real user id.
+   Availability: Unix, Windows, not WASI.
+os.getpgid(pid)
+   Return the process group id of the process with process id *pid*.
+   If *pid* is 0, the process group id of the current process is

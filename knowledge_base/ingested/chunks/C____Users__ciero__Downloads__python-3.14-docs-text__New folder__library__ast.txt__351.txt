@@ -1,0 +1,4 @@
+Changed in version 3.5: "AsyncFunctionDef" is now supported.
+ast.get_source_segment(source, node, *, padded=False)
+   Get source code segment of the *source* that generated *node*. If
+   some location information ("lineno", "end_lineno", "col_offset", or

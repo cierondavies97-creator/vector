@@ -1,0 +1,4 @@
+logical-or ("LOG_INFO | LOG_USER"), the value given in the
+   "openlog()" call is used.
+   If "openlog()" has not been called prior to the call to "syslog()",
+   "openlog()" will be called with no arguments.

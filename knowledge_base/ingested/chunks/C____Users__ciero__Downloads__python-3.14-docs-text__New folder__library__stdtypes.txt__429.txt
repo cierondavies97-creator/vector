@@ -1,0 +1,6 @@
+See the Lexical Analysis section on f-strings for details on the
+syntax of these fields.
+Debug specifier
+~~~~~~~~~~~~~~~
+Added in version 3.8.
+If a debug specifier -- an equal sign ("=") -- appears after the

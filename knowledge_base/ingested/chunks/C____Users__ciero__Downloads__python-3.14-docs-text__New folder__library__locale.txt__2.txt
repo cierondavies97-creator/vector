@@ -1,0 +1,4 @@
+The "locale" module is implemented on top of the "_locale" module,
+which in turn uses an ANSI C locale implementation if available.
+The "locale" module defines the following exception and functions:
+exception locale.Error

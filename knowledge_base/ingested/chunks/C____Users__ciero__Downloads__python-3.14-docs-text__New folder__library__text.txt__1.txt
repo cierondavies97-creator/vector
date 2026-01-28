@@ -1,0 +1,5 @@
+highly relevant to text processing. In addition, see the documentation
+for Python's built-in string type in Text Sequence Type --- str.
+* "string" --- Common string operations
+  * String constants
+  * Custom String Formatting

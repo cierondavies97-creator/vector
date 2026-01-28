@@ -1,0 +1,5 @@
+"xml.sax".  These interfaces are described below.
+In addition to these classes, "xml.sax" provides the following
+exception classes.
+exception xml.sax.SAXException(msg, exception=None)
+   Encapsulate an XML error or warning.  This class can contain basic

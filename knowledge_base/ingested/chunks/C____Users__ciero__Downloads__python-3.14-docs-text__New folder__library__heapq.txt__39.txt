@@ -1,0 +1,4 @@
+be returned in the order they were originally added?
+* Tuple comparison breaks for (priority, task) pairs if the priorities
+  are equal and the tasks do not have a default comparison order.
+* If the priority of a task changes, how do you move it to a new

@@ -1,0 +1,4 @@
+do_something()
+      When used as a context manager, "assertRaises()" accepts the
+      additional keyword argument *msg*.
+      The context manager will store the caught exception object in

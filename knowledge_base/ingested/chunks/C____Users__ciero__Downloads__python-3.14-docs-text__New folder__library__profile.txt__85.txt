@@ -1,0 +1,5 @@
+contrast, the command:
+         print_stats('foo:', .1)
+      would limit the list to all functions having file names
+      ".*foo:", and then proceed to only print the first 10% of them.
+   print_callers(*restrictions)

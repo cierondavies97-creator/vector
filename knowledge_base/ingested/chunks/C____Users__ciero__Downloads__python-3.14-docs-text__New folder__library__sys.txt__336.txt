@@ -1,0 +1,6 @@
+Deprecated since version 3.13, will be removed in version 3.16: Use
+   "PYTHONLEGACYWINDOWSFSENCODING" instead.
+sys.stdin
+sys.stdout
+sys.stderr
+   *File objects* used by the interpreter for standard input, output

@@ -1,0 +1,3 @@
+an attempt is made to assign a value to such a header when one
+      already exists.  This behavior is intentional for consistency's
+      sake, but do not depend on it as we may choose to make such

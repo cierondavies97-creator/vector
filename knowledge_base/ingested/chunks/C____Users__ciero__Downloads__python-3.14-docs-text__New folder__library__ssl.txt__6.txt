@@ -1,0 +1,4 @@
+bottom.
+This module provides a class, "ssl.SSLSocket", which is derived from
+the "socket.socket" type, and provides a socket-like wrapper that also
+encrypts and decrypts the data going over the socket with SSL.  It

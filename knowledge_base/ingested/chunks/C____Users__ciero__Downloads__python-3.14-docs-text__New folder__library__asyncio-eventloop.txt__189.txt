@@ -1,0 +1,4 @@
+importing of main module.
+   This method returns a "asyncio.Future" object.
+   Use "functools.partial()" to pass keyword arguments to *func*.
+   Changed in version 3.5.3: "loop.run_in_executor()" no longer

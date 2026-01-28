@@ -1,0 +1,4 @@
+module, such as "test_widget.py":
+* The test module can be run standalone from the command line.
+* The test code can more easily be separated from shipped code.
+* There is less temptation to change test code to fit the code it

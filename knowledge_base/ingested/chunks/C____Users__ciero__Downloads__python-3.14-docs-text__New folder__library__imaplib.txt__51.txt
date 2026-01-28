@@ -1,0 +1,6 @@
+...
+         processing 3 responses...
+         [('EXPUNGE', [b'2']), ('EXPUNGE', [b'1']), ('RECENT', [b'0'])]
+      Tip:
+        The "IDLE" context's maximum duration, as passed to
+        "IMAP4.idle()", is respected when waiting for the first

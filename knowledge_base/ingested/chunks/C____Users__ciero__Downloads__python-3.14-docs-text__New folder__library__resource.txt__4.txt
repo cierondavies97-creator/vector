@@ -1,0 +1,4 @@
+may be lowered or raised by a process over time. The soft limit can
+never exceed the hard limit. The hard limit can be lowered to any
+value greater than the soft limit, but not raised. (Only processes
+with the effective UID of the super-user can raise a hard limit.)

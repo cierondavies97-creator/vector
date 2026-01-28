@@ -1,0 +1,3 @@
+recommended to use "CERT_REQUIRED" for client-side sockets instead.
+   In server mode, a client certificate request is sent to the client.
+   The client may either ignore the request or send a certificate in

@@ -1,0 +1,6 @@
+the running code raised an uncaught exception.
+   excinfo
+      A basic snapshot of the exception raised in the other
+      interpreter.
+exception concurrent.interpreters.NotShareableError
+   This exception, a subclass of "TypeError", is raised when an object

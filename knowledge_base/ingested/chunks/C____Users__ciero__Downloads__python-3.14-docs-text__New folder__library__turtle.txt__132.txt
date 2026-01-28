@@ -1,0 +1,9 @@
+regions.
+      >>> turtle.color("black", "red")
+      >>> turtle.begin_fill()
+      >>> turtle.circle(80)
+      >>> turtle.end_fill()
+More drawing control
+~~~~~~~~~~~~~~~~~~~~
+turtle.reset()
+   Delete the turtle's drawings from the screen, re-center the turtle

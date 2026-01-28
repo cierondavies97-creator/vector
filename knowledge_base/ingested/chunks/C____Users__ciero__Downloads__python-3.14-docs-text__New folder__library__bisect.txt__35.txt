@@ -1,0 +1,5 @@
+>>> insort(movies, romance, key=by_year)
+   >>> pprint(movies)
+   [Movie(name='The Birds', released=1963, director='Hitchcock'),
+    Movie(name='Love Story', released=1970, director='Hiller'),
+    Movie(name='Jaws', released=1975, director='Spielberg'),

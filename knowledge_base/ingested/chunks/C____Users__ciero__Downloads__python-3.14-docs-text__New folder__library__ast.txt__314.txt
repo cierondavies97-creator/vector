@@ -1,0 +1,8 @@
+strings.
+      >>> print(ast.dump(ast.parse('global x,y,z'), indent=4))
+      Module(
+          body=[
+              Global(
+                  names=[
+                      'x',
+                      'y',

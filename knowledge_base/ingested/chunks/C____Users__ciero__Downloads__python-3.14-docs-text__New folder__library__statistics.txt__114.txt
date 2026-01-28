@@ -1,0 +1,9 @@
+>>> y = [1, 2, 3, 1, 2, 3, 1, 2, 3]
+      >>> covariance(x, y)
+      0.75
+      >>> z = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+      >>> covariance(x, z)
+      -7.5
+      >>> covariance(z, x)
+      -7.5
+   Added in version 3.10.

@@ -1,0 +1,4 @@
+SMTP.login(user, password, *, initial_response_ok=True)
+   Log in on an SMTP server that requires authentication. The
+   arguments are the username and the password to authenticate with.
+   If there has been no previous "EHLO" or "HELO" command this

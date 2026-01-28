@@ -1,0 +1,5 @@
+request domain is ""www.example.com"".  The same goes for
+   "path_return_ok()".
+   The *request* argument is as documented for "return_ok()".
+CookiePolicy.path_return_ok(path, request)
+   Return "False" if cookies should not be returned, given cookie

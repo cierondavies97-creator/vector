@@ -1,0 +1,3 @@
+which must be a string containing a path specification. *pathname*
+   can be either absolute (like "/usr/src/Python-1.5/Makefile") or
+   relative (like "../../Tools/*/*.gif"), and can contain shell-style

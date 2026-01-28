@@ -1,0 +1,5 @@
+the document, the document's "doctype" attribute will be set to "None"
+instead of an instance of this interface.
+"DocumentType" is a specialization of "Node", and adds the following
+attributes:
+DocumentType.publicId

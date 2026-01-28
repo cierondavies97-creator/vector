@@ -1,0 +1,4 @@
+The function temporarily sets the "LC_CTYPE" locale to the locale
+   of the category that determines the requested value ("LC_TIME",
+   "LC_NUMERIC", "LC_MONETARY" or "LC_MESSAGES") if locales are
+   different and the resulting string is non-ASCII. This temporary

@@ -1,0 +1,3 @@
+|                   |                     | Python source code          |
++-------------------+---------------------+-----------------------------+
+|                   | tb_next             | next inner traceback object |

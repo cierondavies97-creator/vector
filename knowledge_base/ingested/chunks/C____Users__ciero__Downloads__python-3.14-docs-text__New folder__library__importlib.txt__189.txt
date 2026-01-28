@@ -1,0 +1,6 @@
+path
+      Path to the ".fwork" file for the extension module.
+"importlib.util" -- Utility code for importers
+==============================================
+**Source code:** Lib/importlib/util.py
+======================================================================

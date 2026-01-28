@@ -1,0 +1,5 @@
+function "train_dict()" can be used to generate a Zstandard
+   dictionary.
+   compress(data, mode=ZstdCompressor.CONTINUE)
+      Compress *data* (a *bytes-like object*), returning a "bytes"
+      object with compressed data if possible, or otherwise an empty

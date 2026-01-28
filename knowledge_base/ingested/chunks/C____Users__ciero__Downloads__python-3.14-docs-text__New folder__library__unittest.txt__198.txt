@@ -1,0 +1,3 @@
+the given number of decimal *places* (default 7), and comparing
+      to zero.  Note that these methods round the values to the given
+      number of *decimal places* (i.e. like the "round()" function)

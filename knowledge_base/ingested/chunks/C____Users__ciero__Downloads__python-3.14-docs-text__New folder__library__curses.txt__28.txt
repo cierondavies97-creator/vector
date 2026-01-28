@@ -1,0 +1,4 @@
+to "1"; the capabilities "clear", "cup", "cud", "cud1", "cuu1",
+   "cuu", "vpa" are disabled; and the "home" string is set to the
+   value of "cr". The effect is that the cursor is confined to the
+   current line, and so are screen updates.  This may be used for

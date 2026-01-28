@@ -1,0 +1,10 @@
+* Template strings
+  * Types
+  * Helper functions
+* "re" --- Regular expression operations
+  * Regular Expression Syntax
+  * Module Contents
+    * Flags
+    * Functions
+    * Exceptions
+  * Regular Expression Objects

@@ -1,0 +1,5 @@
+tuple of *r*, *g*, and *b*. Each of *r*, *g*, and *b* must be in
+      the range 0..colormode, where colormode is either 1.0 or 255
+      (see "colormode()").
+   "bgcolor(r, g, b)"
+      Set the background color to the RGB color represented by *r*,

@@ -1,0 +1,4 @@
+is raised.  Otherwise, the list of filled slots is used as the
+argument list for the call.
+**CPython implementation detail:** An implementation may provide
+built-in functions whose positional parameters do not have names, even

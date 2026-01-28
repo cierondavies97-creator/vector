@@ -1,0 +1,7 @@
+}
+           else {
+               if (PyErr_Occurred())
+                   PyErr_Print();
+               fprintf(stderr, "Cannot find function \"%s\"\n", argv[2]);
+           }
+           Py_XDECREF(pFunc);

@@ -1,0 +1,7 @@
+attention.
+msvcrt.CRT_ASSERT
+   Assertion failures.
+msvcrt.CRTDBG_MODE_DEBUG
+   Writes the message to the debugger's output window.
+msvcrt.CRTDBG_MODE_FILE
+   Writes the message to a user-supplied file handle.

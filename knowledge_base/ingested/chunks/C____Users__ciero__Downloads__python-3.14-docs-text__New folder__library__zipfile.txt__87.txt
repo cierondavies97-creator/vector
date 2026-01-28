@@ -1,0 +1,4 @@
+archive. Unlike the "ZipFile.extract()" and
+     "ZipFile.extractall()" methods, it is the caller's responsibility
+     to validate or sanitize filenames to prevent path traversal
+     vulnerabilities (e.g., filenames containing ".." or absolute

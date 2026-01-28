@@ -1,0 +1,5 @@
+the standard error handle for the process. Otherwise, this
+      attribute is ignored and the default for standard error is the
+      console window's buffer.
+   wShowWindow
+      If "dwFlags" specifies "STARTF_USESHOWWINDOW", this attribute

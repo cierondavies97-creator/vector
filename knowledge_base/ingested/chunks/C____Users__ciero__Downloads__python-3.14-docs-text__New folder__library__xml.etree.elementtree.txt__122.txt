@@ -1,0 +1,5 @@
+*default_namespace* parameters.
+   Changed in version 3.8: The "tostringlist()" function now preserves
+   the attribute order specified by the user.
+xml.etree.ElementTree.XML(text, parser=None)
+   Parses an XML section from a string constant.  This function can be

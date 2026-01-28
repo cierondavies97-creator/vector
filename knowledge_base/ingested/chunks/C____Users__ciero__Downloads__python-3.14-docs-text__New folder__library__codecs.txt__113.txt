@@ -1,0 +1,5 @@
+interfaces which can be used to implement new encoding submodules very
+easily. See "encodings.utf_8" for an example of how this is done.
+StreamWriter Objects
+~~~~~~~~~~~~~~~~~~~~
+The "StreamWriter" class is a subclass of "Codec" and defines the

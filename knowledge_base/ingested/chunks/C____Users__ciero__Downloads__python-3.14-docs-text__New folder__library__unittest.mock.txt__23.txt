@@ -1,0 +1,4 @@
+"create_autospec()" function. Auto-speccing creates mock objects that
+have the same attributes and methods as the objects they are
+replacing, and any functions and methods (including constructors) have
+the same call signature as the real object.

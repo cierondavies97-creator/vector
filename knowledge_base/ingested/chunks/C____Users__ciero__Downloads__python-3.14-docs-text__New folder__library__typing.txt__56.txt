@@ -1,0 +1,6 @@
+# ...
+       return user_class()
+   make_new_user(User)      # OK
+   make_new_user(ProUser)   # Also OK: ``type[ProUser]`` is a subtype of ``type[User]``
+   make_new_user(TeamUser)  # Still fine
+   make_new_user(User())    # Error: expected ``type[User]`` but got ``User``

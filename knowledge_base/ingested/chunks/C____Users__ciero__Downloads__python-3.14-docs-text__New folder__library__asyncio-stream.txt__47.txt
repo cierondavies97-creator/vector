@@ -1,0 +1,7 @@
+connection is closed, ensuring that all data has been flushed
+      before e.g. exiting the program.
+      Added in version 3.7.
+Examples
+========
+TCP echo client using streams
+-----------------------------

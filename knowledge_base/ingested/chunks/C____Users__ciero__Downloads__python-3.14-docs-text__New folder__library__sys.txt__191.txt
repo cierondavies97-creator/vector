@@ -1,0 +1,4 @@
+This function wraps the Win32 "GetVersionEx()" function; see the
+   Microsoft documentation on "OSVERSIONINFOEX()" for more information
+   about these fields.
+   *platform_version* returns the major version, minor version and

@@ -1,0 +1,4 @@
+| "CHAR_MAX"     | Nothing is specified in this locale.      |
+   +----------------+-------------------------------------------+
+   The function temporarily sets the "LC_CTYPE" locale to the
+   "LC_NUMERIC" locale or the "LC_MONETARY" locale if locales are

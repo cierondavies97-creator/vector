@@ -1,0 +1,4 @@
+option multiple times.
+There is no command-line option to control the optimization level used
+by the "compile()" function, because the Python interpreter itself
+already provides the option: **python -O -m compileall**.

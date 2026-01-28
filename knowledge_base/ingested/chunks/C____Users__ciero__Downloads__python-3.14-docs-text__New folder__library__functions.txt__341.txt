@@ -1,0 +1,5 @@
+in the same way that keywords in a class definition (besides
+   *metaclass*) would.
+   See also Customizing class creation.
+   Changed in version 3.6: Subclasses of "type" which don't override
+   "type.__new__" may no longer use the one-argument form to get the

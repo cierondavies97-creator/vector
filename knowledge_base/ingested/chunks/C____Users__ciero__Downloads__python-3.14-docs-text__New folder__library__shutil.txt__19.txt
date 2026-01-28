@@ -1,0 +1,5 @@
+"dst".
+   Changed in version 3.3: Added *follow_symlinks* argument.
+shutil.copystat(src, dst, *, follow_symlinks=True)
+   Copy the permission bits, last access time, last modification time,
+   and flags from *src* to *dst*.  On Linux, "copystat()" also copies

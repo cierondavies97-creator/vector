@@ -1,0 +1,6 @@
+Added in version 3.5: Support for internationalized addresses
+   ("SMTPUTF8").
+SMTP.quit()
+   Terminate the SMTP session and close the connection.  Return the
+   result of the SMTP "QUIT" command.
+Low-level methods corresponding to the standard SMTP/ESMTP commands

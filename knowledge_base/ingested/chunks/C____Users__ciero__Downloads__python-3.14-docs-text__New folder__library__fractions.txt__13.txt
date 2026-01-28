@@ -1,0 +1,4 @@
+Changed in version 3.2: The "Fraction" constructor now accepts
+   "float" and "decimal.Decimal" instances.
+   Changed in version 3.9: The "math.gcd()" function is now used to
+   normalize the *numerator* and *denominator*. "math.gcd()" always

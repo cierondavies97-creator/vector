@@ -1,0 +1,4 @@
+Return a new "partialmethod" descriptor which behaves like
+   "partial" except that it is designed to be used as a method
+   definition rather than being directly callable.
+   *func* must be a *descriptor* or a callable (objects which are

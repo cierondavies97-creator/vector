@@ -1,0 +1,5 @@
+"preamble", if there is no epilog text this attribute will be
+      "None".
+   defects
+      The *defects* attribute contains a list of all the problems
+      found when parsing this message.  See "email.errors" for a

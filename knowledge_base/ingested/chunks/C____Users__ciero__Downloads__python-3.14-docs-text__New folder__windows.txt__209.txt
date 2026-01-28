@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "pythonw" or "pyw" don't launch the same runtime   | Click Start, open "Manage app execution aliases",  |

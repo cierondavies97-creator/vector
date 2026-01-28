@@ -1,0 +1,4 @@
+are *soft deprecated* and their use is actively discouraged in new
+projects. With the removal of various obsolete modules through **PEP
+594**, there are currently no modules in this latter category.
+* "getopt" --- C-style parser for command line options

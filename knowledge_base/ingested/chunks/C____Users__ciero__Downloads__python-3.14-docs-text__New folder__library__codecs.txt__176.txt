@@ -1,0 +1,4 @@
+aliases nor the list of languages is meant to be exhaustive. Notice
+that spelling alternatives that only differ in case or use a hyphen
+instead of an underscore are also valid aliases because they are
+equivalent when normalized by "normalize_encoding()". For example,

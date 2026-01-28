@@ -1,0 +1,4 @@
+Bind *fun* to mouse-move events on this turtle.  If *fun* is
+   "None", existing bindings are removed.
+   Remark: Every sequence of mouse-move-events on a turtle is preceded
+   by a mouse-click event on that turtle.

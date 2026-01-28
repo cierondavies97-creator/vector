@@ -1,0 +1,4 @@
+"_clear_internal_caches()" function instead.
+sys._clear_internal_caches()
+   Clear all internal performance-related caches. Use this function
+   *only* to release unnecessary references and memory blocks when

@@ -1,0 +1,3 @@
+This is a shorthand for "print_exception(sys.last_exc, limit=limit,
+   file=file, chain=chain)".  In general it will work only after an
+   exception has reached an interactive prompt (see "sys.last_exc").

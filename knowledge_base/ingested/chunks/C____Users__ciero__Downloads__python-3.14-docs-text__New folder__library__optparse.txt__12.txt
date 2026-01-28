@@ -1,0 +1,6 @@
+argument parsing configurations, the first using "optparse", and the
+second using "argparse":
+   import optparse
+   if __name__ == '__main__':
+       parser = optparse.OptionParser()
+       parser.add_option('-o', '--output')

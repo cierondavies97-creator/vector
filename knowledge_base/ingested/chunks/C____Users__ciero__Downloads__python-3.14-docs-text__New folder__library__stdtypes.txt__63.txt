@@ -1,0 +1,5 @@
+more) is sufficient to get the same result as if there were an
+   infinite number of sign bits.
+Additional Methods on Integer Types
+-----------------------------------
+The int type implements the "numbers.Integral" *abstract base class*.

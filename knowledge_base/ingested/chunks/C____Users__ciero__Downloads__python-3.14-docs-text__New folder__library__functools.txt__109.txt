@@ -1,0 +1,7 @@
+@classmethod
+          def neg(cls, arg):
+              raise NotImplementedError("Cannot negate a")
+          @neg.register
+          @classmethod
+          def _(cls, arg: int):
+              return -arg

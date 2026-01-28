@@ -1,0 +1,6 @@
+A dictionary that maps HTML4 entity names to the Unicode code
+   points.
+html.entities.codepoint2name
+   A dictionary that maps Unicode code points to HTML4 entity names.
+-[ Footnotes ]-
+[1] See https://html.spec.whatwg.org/multipage/named-characters.html

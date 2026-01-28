@@ -1,0 +1,4 @@
+the desired security access for the key.  Default is "KEY_READ".
+   See Access Rights for other allowed values.
+   The result is a new handle to the specified key.
+   If the function fails, "OSError" is raised.

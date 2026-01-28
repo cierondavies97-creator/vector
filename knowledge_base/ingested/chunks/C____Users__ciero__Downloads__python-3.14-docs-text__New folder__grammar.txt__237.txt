@@ -1,0 +1,3 @@
+RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, PyPegen_last_item(b, expr_ty),
+           "did you forget parentheses around the comprehension target?") }
+       | ('[' | '{') a=star_named_expression b=',' for_if_clauses {

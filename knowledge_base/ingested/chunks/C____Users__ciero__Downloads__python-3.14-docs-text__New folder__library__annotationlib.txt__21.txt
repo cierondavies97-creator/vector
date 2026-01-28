@@ -1,0 +1,5 @@
+can be passed to "get_annotations()" and other functions in this
+   module, as well as to "__annotate__" functions.
+   VALUE = 1
+      Values are the result of evaluating the annotation expressions.
+   VALUE_WITH_FAKE_GLOBALS = 2

@@ -1,0 +1,4 @@
+Return "True" if the OS supports xattr, "False" otherwise.
+test.support.os_helper.change_cwd(path, quiet=False)
+   A context manager that temporarily changes the current working
+   directory to *path* and yields the directory.

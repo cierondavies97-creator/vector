@@ -1,0 +1,4 @@
+Keys are referred to by integer constants with names starting with
+"KEY_". The exact keycaps available are system dependent.
++---------------------------+----------------------------------------------+
+| Key constant              | Key                                          |

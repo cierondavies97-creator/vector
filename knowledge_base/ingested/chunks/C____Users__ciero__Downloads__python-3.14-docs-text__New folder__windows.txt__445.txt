@@ -1,0 +1,3 @@
+value), and the requested Python version is not installed but is
+available on the Microsoft Store, the launcher will attempt to install
+it. This may require user interaction to complete, and you may need to

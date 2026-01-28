@@ -1,0 +1,10 @@
+particular order, so a test like
+   >>> foo()
+   {"spam", "eggs"}
+is vulnerable!  One workaround is to do
+   >>> foo() == {"spam", "eggs"}
+   True
+instead.  Another is to do
+   >>> d = sorted(foo())
+   >>> d
+   ['eggs', 'spam']

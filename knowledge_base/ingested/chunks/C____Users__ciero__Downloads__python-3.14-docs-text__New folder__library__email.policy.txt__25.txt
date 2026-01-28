@@ -1,0 +1,4 @@
+"clone()" method, and the constructor semantics.
+   The constructor of a policy class can be passed various keyword
+   arguments. The arguments that may be specified are any non-method
+   properties on this class, plus any additional non-method properties

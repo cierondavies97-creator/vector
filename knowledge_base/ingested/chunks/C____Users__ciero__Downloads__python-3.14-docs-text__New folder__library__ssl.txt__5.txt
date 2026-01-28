@@ -1,0 +1,4 @@
+WebAssembly platforms for more information.
+This section documents the objects and functions in the "ssl" module;
+for more general information about TLS, SSL, and certificates, the
+reader is referred to the documents in the "See Also" section at the

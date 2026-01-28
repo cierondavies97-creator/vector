@@ -1,0 +1,4 @@
+usage the getter function was guaranteed to run only once per
+   instance. However, the lock was per-property, not per-instance,
+   which could result in unacceptably high lock contention. In Python
+   3.12+ this locking is removed.

@@ -1,0 +1,4 @@
+well as on your system setup; details are given in later chapters.
+Note:
+  The C extension interface is specific to CPython, and extension
+  modules do not work on other Python implementations.  In many cases,

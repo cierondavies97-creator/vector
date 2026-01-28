@@ -1,0 +1,4 @@
+itself. It should be avoided for any other purpose.
+      Note:
+        Due to the nature of tracing JIT compilers, repeated calls to
+        this function may give surprising results. For example,

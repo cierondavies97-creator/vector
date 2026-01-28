@@ -1,0 +1,4 @@
+functionality that needs to partially evaluate annotations while a
+   class is being constructed.
+   *owner* is the object that owns the annotation function, usually a
+   function, class, or module. If provided, it is used in the

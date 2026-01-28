@@ -1,0 +1,3 @@
+Creates a class object dynamically using the appropriate metaclass.
+   The first three arguments are the components that make up a class
+   definition header: the class name, the base classes (in order), the

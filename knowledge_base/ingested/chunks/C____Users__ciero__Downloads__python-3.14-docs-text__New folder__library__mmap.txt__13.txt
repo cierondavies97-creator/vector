@@ -1,0 +1,3 @@
+existing tag, that tag is opened, otherwise a new tag of this name
+   is created.  If this parameter is omitted or "None", the mapping is
+   created without a name.  Avoiding the use of the *tagname*

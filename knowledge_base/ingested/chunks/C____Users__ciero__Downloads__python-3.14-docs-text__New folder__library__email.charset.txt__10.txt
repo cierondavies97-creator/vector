@@ -1,0 +1,4 @@
+converted to "iso-8859-1").  Defaults to 7-bit "us-ascii".
+   header_encoding
+      If the character set must be encoded before it can be used in an
+      email header, this attribute will be set to "charset.QP" (for

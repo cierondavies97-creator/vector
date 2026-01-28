@@ -1,0 +1,4 @@
+list of known MIME types is limited to only the official types
+   registered with IANA. However, the behavior of this module also
+   depends on the underlying operating system. Only file types
+   recognized by the OS or explicitly registered with Python's

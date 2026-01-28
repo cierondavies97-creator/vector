@@ -1,0 +1,4 @@
+to be executed without specifying any arguments.
+   *stdin*, *stdout* and *stderr* specify the executed program's
+   standard input, standard output and standard error file handles,
+   respectively.  Valid values are "None", "PIPE", "DEVNULL", an

@@ -1,0 +1,4 @@
+gc.garbage
+   A list of objects which the collector found to be unreachable but
+   could not be freed (uncollectable objects).  Starting with Python
+   3.4, this list should be empty most of the time, except when using

@@ -1,0 +1,5 @@
+See Compound shapes.
+class turtle.Vec2D(x, y)
+   A two-dimensional vector class, used as a helper class for
+   implementing turtle graphics.  May be useful for turtle graphics
+   programs too.  Derived from tuple, so a vector is a tuple!

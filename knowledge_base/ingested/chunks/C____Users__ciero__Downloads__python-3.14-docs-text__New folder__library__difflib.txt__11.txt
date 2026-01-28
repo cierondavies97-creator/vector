@@ -1,0 +1,4 @@
+"SequenceMatcher" both to compare sequences of lines, and to
+   compare sequences of characters within similar (near-matching)
+   lines.
+   Each line of a "Differ" delta begins with a two-letter code:

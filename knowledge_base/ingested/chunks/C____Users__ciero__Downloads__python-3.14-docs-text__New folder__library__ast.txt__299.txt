@@ -1,0 +1,8 @@
+Module(
+          body=[
+              Expr(
+                  value=Lambda(
+                      args=arguments(
+                          args=[
+                              arg(arg='x'),
+                              arg(arg='y')]),

@@ -1,0 +1,3 @@
+a buffer rather than creating a new bytestring.  If *nbytes* is not
+   specified (or 0), receive up to the size available in the given
+   buffer.  Returns the number of bytes received.  See the Unix manual

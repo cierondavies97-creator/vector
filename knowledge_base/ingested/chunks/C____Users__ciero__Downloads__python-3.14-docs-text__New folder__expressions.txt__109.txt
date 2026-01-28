@@ -1,0 +1,3 @@
+The value of the yield expression after resuming depends on the method
+which resumed the execution.  If "__anext__()" is used then the result
+is "None". Otherwise, if "asend()" is used, then the result will be

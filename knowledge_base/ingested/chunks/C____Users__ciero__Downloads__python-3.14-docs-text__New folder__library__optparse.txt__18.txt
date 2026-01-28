@@ -1,0 +1,4 @@
+value has been supplied for "-o/--output", since "-v" is interpreted
+  as meaning the verbosity flag)
+* similarly, supplying "-o --" gives "output="--"" and "args=()" when
+  using "optparse", but a usage error with "argparse" (also

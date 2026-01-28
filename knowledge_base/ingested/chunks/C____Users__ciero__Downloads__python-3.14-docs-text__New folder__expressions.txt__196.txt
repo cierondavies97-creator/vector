@@ -1,0 +1,5 @@
+that override the "__invert__()" special method.
+In all three cases, if the argument does not have the proper type, a
+"TypeError" exception is raised.
+6.7. Binary arithmetic operations
+=================================

@@ -1,0 +1,4 @@
+"urllib"'s default user agent string is ""Python-urllib/2.6"" (on
+   Python 2.6). All header keys are sent in camel case.
+   An appropriate "Content-Type" header should be included if the
+   *data* argument is present.  If this header has not been provided

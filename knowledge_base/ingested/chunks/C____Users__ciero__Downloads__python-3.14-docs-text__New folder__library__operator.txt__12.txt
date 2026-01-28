@@ -1,0 +1,6 @@
+Return "a // b".
+operator.index(a)
+operator.__index__(a)
+   Return *a* converted to an integer.  Equivalent to "a.__index__()".
+   Changed in version 3.10: The result always has exact type "int".
+   Previously, the result could have been an instance of a subclass of

@@ -1,0 +1,5 @@
+usage message.
+OptionParser.print_usage(file=None)
+   Print the usage message for the current program ("self.usage") to
+   *file* (default stdout).  Any occurrence of the string "%prog" in
+   "self.usage" is replaced with the name of the current program.

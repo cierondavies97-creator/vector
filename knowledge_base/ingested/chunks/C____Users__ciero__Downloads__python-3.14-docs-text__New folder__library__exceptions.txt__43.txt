@@ -1,0 +1,3 @@
+is a string indicating what kind of (internal) operation ran out of
+   memory. Note that because of the underlying memory management
+   architecture (C's "malloc()" function), the interpreter may not

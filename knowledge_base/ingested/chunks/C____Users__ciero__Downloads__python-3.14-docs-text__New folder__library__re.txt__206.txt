@@ -1,0 +1,5 @@
+Added in version 3.4.
+Pattern.split(string, maxsplit=0)
+   Identical to the "split()" function, using the compiled pattern.
+Pattern.findall(string[, pos[, endpos]])
+   Similar to the "findall()" function, using the compiled pattern,

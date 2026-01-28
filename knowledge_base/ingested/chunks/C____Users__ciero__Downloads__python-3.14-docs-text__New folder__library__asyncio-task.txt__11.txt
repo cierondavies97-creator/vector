@@ -1,0 +1,7 @@
+faster than before:
+     started at 17:14:32
+     hello
+     world
+     finished at 17:14:34
+* The "asyncio.TaskGroup" class provides a more modern alternative to
+  "create_task()". Using this API, the last example becomes:

@@ -1,0 +1,5 @@
+elif 1966 < year < 1987:
+           dststart, dstend = DSTSTART_1967_1986, DSTEND_1967_1986
+       else:
+           return (datetime(year, 1, 1), ) * 2
+       start = first_sunday_on_or_after(dststart.replace(year=year))

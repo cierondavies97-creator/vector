@@ -1,0 +1,5 @@
+A function is called (or some other code block entered).  The
+      global trace function is called; *arg* is "None"; the return
+      value specifies the local trace function.
+   "'line'"
+      The interpreter is about to execute a new line of code or re-

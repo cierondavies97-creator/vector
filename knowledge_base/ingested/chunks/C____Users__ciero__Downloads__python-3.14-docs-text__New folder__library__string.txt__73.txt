@@ -1,0 +1,4 @@
+The *width* is a decimal integer defining the minimum total field
+width, including any prefixes, separators, and other formatting
+characters. If not specified, then the field width will be determined
+by the content.

@@ -1,0 +1,3 @@
+of a wider range of codecs when working with binary files:
+codecs.open(filename, mode='r', encoding=None, errors='strict', buffering=-1)
+   Open an encoded file using the given *mode* and return an instance

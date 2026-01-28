@@ -1,0 +1,5 @@
+(this assumes you have your project requirements in a
+   "requirements.txt" file - if not, you can just list the
+   dependencies manually on the pip command line).
+3. Package the application using:
+      $ python -m zipapp -p "interpreter" myapp

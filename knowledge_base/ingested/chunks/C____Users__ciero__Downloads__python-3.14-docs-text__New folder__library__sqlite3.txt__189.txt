@@ -1,0 +1,5 @@
+If not overridden by the *isolation_level* parameter of
+      "connect()", the default is """", which is an alias for
+      ""DEFERRED"".
+      Note:
+        Using "autocommit" to control transaction handling is

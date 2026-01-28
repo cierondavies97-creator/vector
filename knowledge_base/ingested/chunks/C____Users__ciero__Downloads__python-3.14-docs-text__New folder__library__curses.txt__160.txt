@@ -1,0 +1,5 @@
+(keypad,  function keys) will be interpreted by "curses". If *flag*
+   is "False", escape sequences will be left as is in the input
+   stream.
+window.leaveok(flag)
+   If *flag* is "True", cursor is left where it is on update, instead

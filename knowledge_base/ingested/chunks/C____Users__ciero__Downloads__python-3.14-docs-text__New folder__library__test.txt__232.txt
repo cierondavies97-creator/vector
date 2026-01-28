@@ -1,0 +1,3 @@
+available via the recorder object's "warnings" attribute.  As a
+   convenience, the attributes of the object representing the most
+   recent warning can also be accessed directly through the recorder

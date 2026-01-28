@@ -1,0 +1,5 @@
+Create a new "Interpolation" object from component parts.
+      Parameters:
+         * **value** -- The evaluated, in-scope result of the
+           interpolation.
+         * **expression** -- The text of a valid Python expression, or

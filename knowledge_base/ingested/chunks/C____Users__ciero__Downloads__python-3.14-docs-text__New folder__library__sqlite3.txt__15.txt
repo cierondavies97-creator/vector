@@ -1,0 +1,6 @@
+>>> res.fetchone() is None
+   True
+Now, add two rows of data supplied as SQL literals by executing an
+"INSERT" statement, once again by calling "cur.execute(...)":
+   cur.execute("""
+       INSERT INTO movie VALUES

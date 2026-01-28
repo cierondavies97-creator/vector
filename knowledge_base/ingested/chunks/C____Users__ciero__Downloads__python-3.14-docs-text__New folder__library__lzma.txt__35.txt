@@ -1,0 +1,4 @@
+compress(data)
+      Compress *data* (a "bytes" object), returning a "bytes" object
+      containing compressed data for at least part of the input. Some
+      of *data* may be buffered internally, for use in later calls to

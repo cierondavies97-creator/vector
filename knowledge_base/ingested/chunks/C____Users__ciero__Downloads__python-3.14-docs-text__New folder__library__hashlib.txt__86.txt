@@ -1,0 +1,3 @@
+Randomized hashing is designed for situations where one party, the
+   message preparer, generates all or part of a message to be signed
+   by a second party, the message signer. If the message preparer is

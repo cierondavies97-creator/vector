@@ -1,0 +1,4 @@
+Default "True".
+      * **allow_nan** (*bool*) -- If "False", serialization of out-of-
+        range "float" values ("nan", "inf", "-inf") will result in a
+        "ValueError", in strict compliance with the JSON

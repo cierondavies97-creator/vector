@@ -1,0 +1,3 @@
+("copyfile()", "copy()", "copy2()", "copytree()", and "move()") may
+use platform-specific "fast-copy" syscalls in order to copy the file
+more efficiently (see bpo-33671). "fast-copy" means that the copying

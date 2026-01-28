@@ -1,0 +1,4 @@
+cookies are *never* blocked on the basis of verifiability
+Netscape protocol strictness switches:
+DefaultCookiePolicy.strict_ns_unverifiable
+   Apply **RFC 2965** rules on unverifiable transactions even to

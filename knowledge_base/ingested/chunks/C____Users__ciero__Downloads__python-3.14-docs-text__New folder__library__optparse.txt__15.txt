@@ -1,0 +1,3 @@
+process(args.rest, output=args.output, verbose=args.verbose)
+The most obvious difference is that in the "optparse" version, the
+non-option arguments are processed separately by the application after

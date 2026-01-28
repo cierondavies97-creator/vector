@@ -1,0 +1,11 @@
+Standard Generic Classes
+~~~~~~~~~~~~~~~~~~~~~~~~
+The following standard library classes support parameterized generics.
+This list is non-exhaustive.
+* "tuple"
+* "list"
+* "dict"
+* "set"
+* "frozenset"
+* "type"
+* "asyncio.Future"

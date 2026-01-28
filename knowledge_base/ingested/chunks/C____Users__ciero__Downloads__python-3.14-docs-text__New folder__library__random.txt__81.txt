@@ -1,0 +1,4 @@
+Example of a resampling permutation test to determine the statistical
+significance or p-value of an observed difference between the effects
+of a drug versus a placebo:
+   # Example from "Statistics is Easy" by Dennis Shasha and Manda Wilson

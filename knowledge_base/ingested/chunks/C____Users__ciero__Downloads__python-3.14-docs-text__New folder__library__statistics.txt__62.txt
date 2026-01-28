@@ -1,0 +1,4 @@
+Use the low median when your data are discrete and you prefer the
+   median to be an actual data point rather than interpolated.
+statistics.median_high(data)
+   Return the high median of data.  If *data* is empty,

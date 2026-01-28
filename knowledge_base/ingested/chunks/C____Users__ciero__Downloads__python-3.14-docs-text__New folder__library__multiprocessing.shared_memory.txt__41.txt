@@ -1,0 +1,5 @@
+resources.
+   This class provides methods for creating and returning
+   "SharedMemory" instances and for creating a list-like object
+   ("ShareableList") backed by shared memory.
+   Refer to "BaseManager" for a description of the inherited *address*

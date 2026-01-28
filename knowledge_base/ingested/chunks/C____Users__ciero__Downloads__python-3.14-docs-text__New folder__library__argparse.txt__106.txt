@@ -1,0 +1,5 @@
+by the "-" prefix, and the remaining arguments will be assumed to be
+positional:
+   >>> parser = argparse.ArgumentParser(prog='PROG')
+   >>> parser.add_argument('-f', '--foo')
+   >>> parser.add_argument('bar')

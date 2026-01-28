@@ -1,0 +1,4 @@
+represented by more than one node in the document tree.  There is no
+  way to determine whether two adjacent "CDATASection" nodes represent
+  different CDATA marked sections.
+ProcessingInstruction Objects

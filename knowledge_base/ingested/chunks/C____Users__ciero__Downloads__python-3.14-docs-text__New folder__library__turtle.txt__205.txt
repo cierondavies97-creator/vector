@@ -1,0 +1,5 @@
+canvas
+      * **ury** -- a number, y-coordinate of upper right corner of
+        canvas
+   Set up user-defined coordinate system and switch to mode "world" if
+   necessary.  This performs a "screen.reset()".  If mode "world" is

@@ -1,0 +1,5 @@
+encrypted files as a "bytes" object.
+   Returns the normalized path created (a directory or new file).
+   Note:
+     If a member filename is an absolute path, a drive/UNC sharepoint
+     and leading (back)slashes will be stripped, e.g.: "///foo/bar"

@@ -1,0 +1,4 @@
+vadis?.txt')" returns "'//?/c:/Quo vadis[?].txt'".
+   Added in version 3.4.
+glob.translate(pathname, *, recursive=False, include_hidden=False, seps=None)
+   Convert the given path specification to a regular expression for

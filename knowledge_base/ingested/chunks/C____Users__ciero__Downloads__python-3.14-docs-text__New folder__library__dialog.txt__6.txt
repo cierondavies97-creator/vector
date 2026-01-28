@@ -1,0 +1,4 @@
+combine a native look-and-feel with configuration options to customize
+behaviour. The following keyword arguments are applicable to the
+classes and functions listed below:
+      *parent* - the window to place the dialog on top of

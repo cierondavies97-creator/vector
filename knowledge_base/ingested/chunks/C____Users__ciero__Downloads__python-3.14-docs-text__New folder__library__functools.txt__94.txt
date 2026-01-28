@@ -1,0 +1,5 @@
+enables decorator stacking, "pickling", and the creation of unit
+   tests for each variant independently:
+      >>> @fun.register(float)
+      ... @fun.register(Decimal)
+      ... def fun_num(arg, verbose=False):

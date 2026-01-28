@@ -1,0 +1,5 @@
+object from a "GenericAlias", the elements in the container are not
+checked against their type. For example, the following code is
+discouraged, but will run without errors:
+   >>> t = list[str]
+   >>> t([1, 2, 3])

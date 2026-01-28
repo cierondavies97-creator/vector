@@ -1,0 +1,4 @@
+"_tkinter"
+   A binary module that contains the low-level interface to Tcl/Tk. It
+   is automatically imported by the main "tkinter" module, and should
+   never be used directly by application programmers. It is usually a

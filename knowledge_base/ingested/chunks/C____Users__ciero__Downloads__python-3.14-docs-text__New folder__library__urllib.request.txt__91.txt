@@ -1,0 +1,4 @@
+which means that "get_method()" will do its normal computation of
+   the method to be used.  Its value can be set (thus overriding the
+   default computation in "get_method()") either by providing a
+   default value by setting it at the class level in a "Request"

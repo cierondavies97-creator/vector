@@ -1,0 +1,4 @@
+Stores data in the value field of an open registry key.
+   *key* is an already open key, or one of the predefined HKEY_*
+   constants.
+   *value_name* is a string that names the subkey with which the value

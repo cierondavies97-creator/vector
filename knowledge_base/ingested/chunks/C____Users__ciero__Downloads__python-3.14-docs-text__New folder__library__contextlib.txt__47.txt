@@ -1,0 +1,4 @@
+output is hardwired to stdout.
+   For example, the output of "help()" normally is sent to
+   *sys.stdout*. You can capture that output in a string by
+   redirecting the output to an "io.StringIO" object. The replacement

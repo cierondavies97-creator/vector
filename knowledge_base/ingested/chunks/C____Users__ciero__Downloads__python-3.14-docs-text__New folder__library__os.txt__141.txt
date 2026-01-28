@@ -1,0 +1,4 @@
+"O_NONBLOCK" flag is set, "True" if the flag is cleared.
+   See also "set_blocking()" and "socket.socket.setblocking()".
+   Availability: Unix, Windows.
+   The function is limited on WASI, see WebAssembly platforms for more

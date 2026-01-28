@@ -1,0 +1,3 @@
+"safe" because it always tries to return a usable string instead
+      of raising an exception.  In another sense, "safe_substitute()"
+      may be anything other than safe, since it will silently ignore

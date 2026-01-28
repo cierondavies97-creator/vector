@@ -1,0 +1,3 @@
+Delete the message corresponding to *key* from the mailbox.
+      If no such message exists, a "KeyError" exception is raised if
+      the method was called as "remove()" or "__delitem__()" but no

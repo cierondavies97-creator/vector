@@ -1,0 +1,4 @@
+If the wrapped coroutine is not done, this returns the stack
+      where it is suspended.  If the coroutine has completed
+      successfully or was cancelled, this returns an empty list. If
+      the coroutine was terminated by an exception, this returns the

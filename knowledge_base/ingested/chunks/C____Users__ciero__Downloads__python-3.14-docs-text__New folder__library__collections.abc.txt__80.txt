@@ -1,0 +1,5 @@
+"AsyncGenerator" in type annotations.
+   Added in version 3.6.
+class collections.abc.Buffer
+   ABC for classes that provide the "__buffer__()" method,
+   implementing the buffer protocol. See **PEP 688**.

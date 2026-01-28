@@ -1,0 +1,3 @@
+representing the relevant zones and not necessarily user-facing
+     elements.  Projects like CLDR (the Unicode Common Locale Data
+     Repository) can be used to get more user-friendly strings from

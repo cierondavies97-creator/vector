@@ -1,0 +1,4 @@
+This matches Linux and macOS "stty cbreak" behavior and what
+   "setcbreak()" historically did.
+tty.setraw(fd, when=termios.TCSAFLUSH)
+   Change the mode of the file descriptor *fd* to raw. If *when* is

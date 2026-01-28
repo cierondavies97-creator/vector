@@ -1,0 +1,7 @@
+been called, it is illegal to call "write()". The attribute
+      "eof" will become true after all data currently in the buffer
+      has been read.
+SSL session
+===========
+Added in version 3.6.
+class ssl.SSLSession

@@ -1,0 +1,3 @@
+Furthermore, there is not a compelling case for arbitrarily altering
+the object graph of loggers, handlers, filters, formatters at run-
+time, once a configuration is set up; the verbosity of loggers and

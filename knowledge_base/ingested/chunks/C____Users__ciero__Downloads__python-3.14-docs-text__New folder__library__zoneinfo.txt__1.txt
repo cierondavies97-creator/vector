@@ -1,0 +1,3 @@
+support the IANA time zone database as originally specified in **PEP
+615**. By default, "zoneinfo" uses the system's time zone data if
+available; if no system time zone data is available, the library will

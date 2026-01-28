@@ -1,0 +1,6 @@
+>>> p.value = b"Hi"
+   >>> print(sizeof(p), repr(p.raw))
+   10 b'Hi\x00lo\x00\x00\x00\x00\x00'
+   >>>
+The "create_string_buffer()" function replaces the old "c_buffer()"
+function (which is still available as an alias).  To create a mutable

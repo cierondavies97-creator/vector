@@ -1,0 +1,4 @@
+handler class.
+  * "level" (optional).  The level of the handler.
+  * "formatter" (optional).  The id of the formatter for this handler.
+  * "filters" (optional).  A list of ids of the filters for this

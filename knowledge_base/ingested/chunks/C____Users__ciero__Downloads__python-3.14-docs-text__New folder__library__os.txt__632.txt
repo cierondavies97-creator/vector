@@ -1,0 +1,4 @@
+Availability: Unix, not WASI, not iOS.
+os.popen(cmd, mode='r', buffering=-1)
+   Open a pipe to or from command *cmd*. The return value is an open
+   file object connected to the pipe, which can be read or written

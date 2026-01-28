@@ -1,0 +1,4 @@
+to be placed in "sys.modules").
+   When "reload()" is executed:
+   * Python module's code is recompiled and the module-level code re-
+     executed, defining a new set of objects which are bound to names

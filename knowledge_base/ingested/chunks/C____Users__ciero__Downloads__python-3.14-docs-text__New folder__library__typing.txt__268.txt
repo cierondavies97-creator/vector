@@ -1,0 +1,4 @@
+"__default__" attribute directly, but the method object can be
+      passed to "annotationlib.call_evaluate_function()" to evaluate
+      the value in a different format.
+      Added in version 3.14.

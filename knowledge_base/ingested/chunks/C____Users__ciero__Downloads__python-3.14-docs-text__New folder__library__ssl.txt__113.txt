@@ -1,0 +1,4 @@
+performed by the kernel directly and not via any available OpenSSL
+   Providers. This might be undesirable if, for example, the
+   application requires all cryptographic operations to be performed
+   by the FIPS provider.

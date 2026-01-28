@@ -1,0 +1,8 @@
+) }
+   # Function parameters
+   # -------------------
+   params[arguments_ty]:
+       | invalid_parameters
+       | parameters
+   parameters[arguments_ty]:
+       | a=slash_no_default b[asdl_arg_seq*]=param_no_default* c=param_with_default* d=[star_etc] {

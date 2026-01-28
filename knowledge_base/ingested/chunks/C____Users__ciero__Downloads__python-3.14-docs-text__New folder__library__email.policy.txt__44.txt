@@ -1,0 +1,4 @@
+will always be a subclass of "MessageDefect".
+      The default implementation calls the "append" method of the
+      "defects" attribute of *obj*.  When the email package calls
+      "handle_defect", *obj* will normally have a "defects" attribute

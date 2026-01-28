@@ -1,0 +1,4 @@
+doctest.debug(module, name, pm=False)
+   Debug the doctests for an object.
+   The *module* and *name* arguments are the same as for function
+   "testsource()" above.  The synthesized Python script for the named

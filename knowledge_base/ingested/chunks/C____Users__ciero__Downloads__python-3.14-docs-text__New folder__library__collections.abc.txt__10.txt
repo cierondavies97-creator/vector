@@ -1,0 +1,6 @@
+True
+      >>> isinstance(D(), Sequence)
+      True
+   In this example, class "D" does not need to define "__contains__",
+   "__iter__", and "__reversed__" because the in-operator, the
+   *iteration* logic, and the "reversed()" function automatically fall

@@ -1,0 +1,5 @@
+bytes to access each element for each dimension of the array.
+         Changed in version 3.3: An empty tuple instead of "None" when
+         ndim = 0.
+      suboffsets
+         Used internally for PIL-style arrays. The value is

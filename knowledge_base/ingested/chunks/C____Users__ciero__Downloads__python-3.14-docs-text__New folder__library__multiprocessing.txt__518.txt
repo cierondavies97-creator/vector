@@ -1,0 +1,7 @@
+return '%s says that %s%s = %s' % \
+           (current_process().name, func.__name__, args, result)
+   #
+   # Functions referenced by tasks
+   #
+   def mul(a, b):
+       time.sleep(0.5*random.random())

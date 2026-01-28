@@ -1,0 +1,4 @@
+same in IDLE and a tk window appears.  In standard Python, one must
+also enter "root.update()" to see the window.  IDLE does the
+equivalent in the background, about 20 times a second, which is about
+every 50 milliseconds. Next enter "b = tk.Button(root, text='button');

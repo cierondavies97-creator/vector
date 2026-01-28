@@ -1,0 +1,3 @@
+header has a certain value, described under the class for that
+   header.  Some can also take a list of supplemental parameters,
+   which have a common format. This class serves as a base for all the

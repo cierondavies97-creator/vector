@@ -1,0 +1,4 @@
+the "name" parameter on the *Content-Type* header.  If neither
+      is found, or the header is missing, then *failobj* is returned.
+      The returned string will always be unquoted as per
+      "email.utils.unquote()".

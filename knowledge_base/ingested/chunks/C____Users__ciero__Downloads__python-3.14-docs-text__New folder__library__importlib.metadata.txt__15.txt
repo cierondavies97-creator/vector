@@ -1,0 +1,4 @@
+"select()" method for comparison to the attributes of the
+   individual entry point definitions.
+   Note: it is not currently possible to query for entry points based
+   on their "EntryPoint.dist" attribute (as different "Distribution"

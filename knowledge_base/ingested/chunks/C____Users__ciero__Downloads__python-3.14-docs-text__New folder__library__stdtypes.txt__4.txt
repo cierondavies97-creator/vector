@@ -1,0 +1,4 @@
+either a "__bool__()" method that returns "False" or a "__len__()"
+method that returns zero, when called with the object. [1] If one of
+the methods raises an exception when called, the exception is
+propagated and the object does not have a truth value (for example,

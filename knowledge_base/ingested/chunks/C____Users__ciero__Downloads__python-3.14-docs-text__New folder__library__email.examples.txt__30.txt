@@ -1,0 +1,4 @@
+""")
+       parser.add_argument('-d', '--directory', required=True,
+                           help="""Unpack the MIME message into the named
+                           directory, which will be created if it doesn't already

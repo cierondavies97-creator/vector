@@ -1,0 +1,5 @@
+The namespace associated with the element name.  This will be a
+   string or "None".  This is a read-only attribute.
+Node.nodeName
+   This has a different meaning for each node type; see the DOM
+   specification for details.  You can always get the information you

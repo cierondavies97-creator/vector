@@ -1,0 +1,8 @@
+'2.68'
+   >>> f"{Decimal('2.675'):.2f}"
+   '2.68'
+   >>> format(Decimal('2.675'), ".2e")
+   '2.68e+0'
+   >>> with localcontext() as ctx:
+   ...     ctx.rounding = ROUND_DOWN
+   ...     print(format(Decimal('2.675'), ".2f"))

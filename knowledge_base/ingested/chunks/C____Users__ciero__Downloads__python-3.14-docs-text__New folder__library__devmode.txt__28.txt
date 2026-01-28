@@ -1,0 +1,4 @@
+with the "Bad file descriptor" error. A file descriptor must be closed
+only once. In the worst case scenario, closing it twice can lead to a
+crash (see bpo-18748 for an example).
+The fix is to remove the "os.close(fp.fileno())" line, or open the

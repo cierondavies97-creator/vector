@@ -1,0 +1,4 @@
+Corresponds to "errno" "ENOTDIR".
+exception PermissionError
+   Raised when trying to run an operation without the adequate access
+   rights - for example filesystem permissions. Corresponds to "errno"

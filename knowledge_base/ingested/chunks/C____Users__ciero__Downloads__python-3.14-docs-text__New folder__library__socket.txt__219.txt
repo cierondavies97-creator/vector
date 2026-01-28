@@ -1,0 +1,6 @@
+Raises an auditing event "socket.bind" with arguments "self",
+   "address".
+   Availability: not WASI.
+socket.close()
+   Mark the socket closed.  The underlying system resource (e.g. a
+   file descriptor) is also closed when all file objects from

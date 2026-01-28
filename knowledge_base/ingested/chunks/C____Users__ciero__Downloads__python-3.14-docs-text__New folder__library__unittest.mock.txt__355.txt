@@ -1,0 +1,4 @@
+handles.
+   *read_data* is a string for the "read()", "readline()", and
+   "readlines()" methods of the file handle to return.  Calls to those
+   methods will take data from *read_data* until it is depleted.  The

@@ -1,0 +1,8 @@
+$ python -m tarfile -l monty.tar
+Command-line options
+--------------------
+-l <tarfile>
+--list <tarfile>
+   List files in a tarfile.
+-c <tarfile> <source1> ... <sourceN>
+--create <tarfile> <source1> ... <sourceN>

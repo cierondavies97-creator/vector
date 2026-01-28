@@ -1,0 +1,4 @@
+For positional arguments with nargs equal to "?" or "*", the "default"
+value is used when no command-line argument was present:
+   >>> parser = argparse.ArgumentParser()
+   >>> parser.add_argument('foo', nargs='?', default=42)

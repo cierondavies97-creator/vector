@@ -1,0 +1,9 @@
+"uuid5()" functions.
+-N <name>
+--name <name>
+   The name used as part of generating the uuid. Only required for
+   "uuid3()" / "uuid5()" functions.
+-C <num>
+--count <num>
+   Generate *num* fresh UUIDs.
+   Added in version 3.14.

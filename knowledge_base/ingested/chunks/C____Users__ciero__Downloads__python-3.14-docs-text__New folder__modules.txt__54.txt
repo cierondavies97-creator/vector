@@ -1,0 +1,3 @@
+'getrecursionlimit', 'getrefcount', 'getsizeof', 'getswitchinterval',
+    'gettrace', 'hash_info', 'hexversion', 'implementation', 'int_info',
+    'intern', 'is_finalizing', 'last_traceback', 'last_type', 'last_value',

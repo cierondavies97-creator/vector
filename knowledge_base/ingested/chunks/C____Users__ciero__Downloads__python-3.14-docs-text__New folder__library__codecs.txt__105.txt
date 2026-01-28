@@ -1,0 +1,4 @@
+between different error handling strategies during the lifetime of
+   the "IncrementalDecoder" object.
+   decode(object, final=False)
+      Decodes *object* (taking the current state of the decoder into

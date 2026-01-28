@@ -1,0 +1,5 @@
+by the *key* parameter. This value must not be "None", and the key
+   may not have subkeys.
+   *reserved* is a reserved integer, and must be zero. The default is
+   zero.
+   *access* is an integer that specifies an access mask that describes

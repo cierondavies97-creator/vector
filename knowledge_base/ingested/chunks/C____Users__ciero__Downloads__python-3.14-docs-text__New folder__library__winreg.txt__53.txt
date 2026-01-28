@@ -1,0 +1,4 @@
+*value_name* is a string indicating the value to query.
+   The result is a tuple of 2 items:
+   +---------+-------------------------------------------+
+   | Index   | Meaning                                   |

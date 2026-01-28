@@ -1,0 +1,5 @@
+-h, --help
+   print a short usage message and exit
+A multi-line statement may be given by specifying each line as a
+separate statement argument; indented lines are possible by enclosing
+an argument in quotes and using leading spaces.  Multiple "-s" options

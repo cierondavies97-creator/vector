@@ -1,0 +1,4 @@
+candidate) then the local and remote interpreters must be the same
+   exact version.
+   When the code is executed in the remote process, an auditing event
+   "sys.remote_exec" is raised with the *pid* and the path to the

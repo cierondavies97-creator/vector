@@ -1,0 +1,4 @@
+_PyAST_match_case(pattern, guard, body, p->arena) }
+   guard[expr_ty]: 'if' guard=named_expression { guard }
+   patterns[pattern_ty]:
+       | patterns[asdl_pattern_seq*]=open_sequence_pattern {

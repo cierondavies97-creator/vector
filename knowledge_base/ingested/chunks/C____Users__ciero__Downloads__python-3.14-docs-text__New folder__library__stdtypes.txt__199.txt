@@ -1,0 +1,4 @@
+2.x style *cmp* function to a *key* function.
+      *reverse* is a boolean value.  If set to "True", then the list
+      elements are sorted as if each comparison were reversed.
+      This method modifies the sequence in place for economy of space

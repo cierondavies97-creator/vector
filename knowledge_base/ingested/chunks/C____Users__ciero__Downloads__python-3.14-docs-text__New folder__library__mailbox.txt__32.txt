@@ -1,0 +1,5 @@
+representation.
+   get_file(key)
+      Return a *file-like* representation of the message corresponding
+      to *key*, or raise a "KeyError" exception if no such message
+      exists.  The file-like object behaves as if open in binary mode.

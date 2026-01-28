@@ -1,0 +1,4 @@
+supports or requires them; yet others are available only when a
+particular configuration option was chosen at the time when Python was
+compiled and installed.
+This manual is organized "from the inside out:" it first describes the

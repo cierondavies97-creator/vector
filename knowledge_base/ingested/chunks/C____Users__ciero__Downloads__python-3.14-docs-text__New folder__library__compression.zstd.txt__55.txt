@@ -1,0 +1,4 @@
+decompression parameters. The valid keys and values for compression
+   parameters are documented as part of the "DecompressionParameter"
+   documentation.
+   The *zstd_dict* argument is an instance of "ZstdDict" containing

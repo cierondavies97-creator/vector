@@ -1,0 +1,6 @@
+Otherwise, tokenization is performed on stdin.
+Examples
+========
+Example of a script rewriter that transforms float literals into
+Decimal objects:
+   from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP

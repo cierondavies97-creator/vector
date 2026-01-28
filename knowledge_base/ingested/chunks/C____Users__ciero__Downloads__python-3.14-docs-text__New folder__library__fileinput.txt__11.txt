@@ -1,0 +1,3 @@
+will be passed along to the constructor of the "FileInput" class.
+   The "FileInput" instance can be used as a context manager in the
+   "with" statement.  In this example, *input* is closed after the

@@ -1,0 +1,5 @@
+these fields do not need to be updated by "derive()".
+         >>> class MyGroup(ExceptionGroup):
+         ...     def derive(self, excs):
+         ...         return MyGroup(self.message, excs)
+         ...

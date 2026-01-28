@@ -1,0 +1,6 @@
+locale name, but without encoding and "@"-modifier. The language
+   code and encoding can be "None".
+   If *locale* is omitted or "None", the current setting for
+   *category* is returned.
+   Example:
+      >>> import locale

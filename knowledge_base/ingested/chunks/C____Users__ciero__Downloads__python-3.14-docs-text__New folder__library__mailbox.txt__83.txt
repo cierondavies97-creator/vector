@@ -1,0 +1,3 @@
+Several variations of the mbox format exist to address perceived
+   shortcomings in the original. In the interest of compatibility,
+   "mbox" implements the original format, which is sometimes referred

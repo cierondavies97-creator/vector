@@ -1,0 +1,7 @@
+single suffix string rather than all of a set of characters.  For
+   example:
+      >>> b'Monty Python'.rstrip(b' Python')
+      b'M'
+      >>> b'Monty Python'.removesuffix(b' Python')
+      b'Monty'
+   Note:

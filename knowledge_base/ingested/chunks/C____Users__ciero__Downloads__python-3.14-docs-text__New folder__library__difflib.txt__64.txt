@@ -1,0 +1,5 @@
+other words, no elements are ignored. For example, pass:
+      lambda x: x in " \t"
+   if you're comparing lines as sequences of characters, and don't
+   want to synch up on blanks or hard tabs.
+   The optional arguments *a* and *b* are sequences to be compared;

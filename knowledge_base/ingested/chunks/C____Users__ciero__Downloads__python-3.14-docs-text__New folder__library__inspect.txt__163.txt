@@ -1,0 +1,4 @@
+"copy.replace()".
+   format(*, max_width=None, quote_annotation_strings=True)
+      Create a string representation of the "Signature" object.
+      If *max_width* is passed, the method will attempt to fit the

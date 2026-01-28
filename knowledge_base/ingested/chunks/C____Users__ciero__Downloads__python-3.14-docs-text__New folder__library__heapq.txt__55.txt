@@ -1,0 +1,4 @@
+it by something else at a lower level, and the rule becomes that a
+cell and the two cells it tops contain three different items, but the
+top cell "wins" over the two topped cells.
+If this heap invariant is protected at all time, index 0 is clearly

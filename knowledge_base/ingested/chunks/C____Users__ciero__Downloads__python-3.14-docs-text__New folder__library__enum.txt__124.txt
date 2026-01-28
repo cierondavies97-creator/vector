@@ -1,0 +1,5 @@
+for enumerations.  It allows member attributes to have the same
+   names as members themselves.
+   Note:
+     the *property* and the member must be defined in separate
+     classes; for example, the *value* and *name* attributes are

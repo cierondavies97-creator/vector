@@ -1,0 +1,6 @@
+the cancellation request:
+         async def cancel_me():
+             print('cancel_me(): before sleep')
+             try:
+                 # Wait for 1 hour
+                 await asyncio.sleep(3600)

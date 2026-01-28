@@ -1,0 +1,3 @@
+be translated into XML; the default behaviour is for "None" to
+   raise a "TypeError". This is a commonly used extension to the XML-
+   RPC specification, but isn't supported by all clients and servers;

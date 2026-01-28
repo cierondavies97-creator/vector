@@ -1,0 +1,5 @@
+may be disabled by the "shebang_can_run_anything" configuration
+option.
+Shebang lines that do not match any of patterns are treated as
+*Windows* executable paths that are absolute or relative to the
+directory containing the script file. This is a convenience for

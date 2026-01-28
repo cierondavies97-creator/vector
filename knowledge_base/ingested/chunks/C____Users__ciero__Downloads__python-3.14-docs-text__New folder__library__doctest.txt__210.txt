@@ -1,0 +1,4 @@
+find(obj[, name][, module][, globs][, extraglobs])
+      Return a list of the "DocTest"s that are defined by *obj*'s
+      docstring, or by any of its contained objects' docstrings.
+      The optional argument *name* specifies the object's name; this

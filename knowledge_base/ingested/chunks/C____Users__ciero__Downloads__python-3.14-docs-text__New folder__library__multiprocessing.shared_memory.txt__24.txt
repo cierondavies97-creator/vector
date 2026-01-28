@@ -1,0 +1,5 @@
+name
+      Read-only access to the unique name of the shared memory block.
+   size
+      Read-only access to size in bytes of the shared memory block.
+The following example demonstrates low-level use of "SharedMemory"

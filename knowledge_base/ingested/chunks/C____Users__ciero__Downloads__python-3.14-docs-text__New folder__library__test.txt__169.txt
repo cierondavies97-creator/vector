@@ -1,0 +1,4 @@
+"AssertionError".
+BytecodeTestCase.assertNotInBytecode(x, opname, argval=_UNSPECIFIED)
+   Throws "AssertionError" if *opname* is found.
+"test.support.threading_helper" --- Utilities for threading tests

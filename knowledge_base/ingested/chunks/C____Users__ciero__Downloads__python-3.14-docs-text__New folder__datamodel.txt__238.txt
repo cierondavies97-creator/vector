@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| codeobject.co_nlocals                              | The number of local variables used by the function |

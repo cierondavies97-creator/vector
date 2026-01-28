@@ -1,0 +1,3 @@
+The heuristic counts how many times each individual item appears in
+   the sequence. If an item's duplicates (after the first one) account
+   for more than 1% of the sequence and the sequence is at least 200

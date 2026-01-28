@@ -1,0 +1,5 @@
+config.set('Section1', 'bar', 'Python')
+   config.set('Section1', 'foo', '%(bar)s is %(baz)s!')
+   # Writing our configuration file to 'example.cfg'
+   with open('example.cfg', 'w') as configfile:
+       config.write(configfile)

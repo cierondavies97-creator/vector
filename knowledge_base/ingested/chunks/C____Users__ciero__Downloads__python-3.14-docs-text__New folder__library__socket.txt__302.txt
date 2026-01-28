@@ -1,0 +1,3 @@
+regular file "send()" will be used instead. *offset* tells from
+   where to start reading the file. If specified, *count* is the total
+   number of bytes to transmit as opposed to sending the file until

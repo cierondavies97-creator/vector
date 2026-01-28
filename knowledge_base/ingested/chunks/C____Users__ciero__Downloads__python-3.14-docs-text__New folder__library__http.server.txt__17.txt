@@ -1,0 +1,6 @@
+"__init__()" method.
+   "BaseHTTPRequestHandler" has the following instance variables:
+   client_address
+      Contains a tuple of the form "(host, port)" referring to the
+      client's address.
+   server

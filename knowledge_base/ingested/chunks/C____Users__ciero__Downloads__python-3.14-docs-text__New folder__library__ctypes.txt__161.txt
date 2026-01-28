@@ -1,0 +1,7 @@
+<ctypes.LP_c_long object at ...>
+   >>>
+So, "cast()" can be used to assign to the "values" field of "Bar" the
+structure:
+   >>> bar = Bar()
+   >>> bar.values = cast((c_byte * 4)(), POINTER(c_int))
+   >>> print(bar.values[0])

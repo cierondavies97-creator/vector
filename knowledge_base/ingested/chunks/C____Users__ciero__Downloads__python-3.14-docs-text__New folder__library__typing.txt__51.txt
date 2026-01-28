@@ -1,0 +1,5 @@
+"tuple[T, ...]". To denote an empty tuple, use "tuple[()]". Using
+plain "tuple" as an annotation is equivalent to using "tuple[Any,
+...]":
+   x: tuple[int, ...] = (1, 2)
+   # These reassignments are OK: ``tuple[int, ...]`` indicates x can be of any length

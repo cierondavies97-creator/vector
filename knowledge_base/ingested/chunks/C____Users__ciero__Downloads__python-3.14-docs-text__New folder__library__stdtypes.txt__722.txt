@@ -1,0 +1,10 @@
+>>> y.format
+            'i'
+            >>> y.itemsize
+            4
+            >>> len(y)
+            2
+            >>> y.nbytes
+            48
+            >>> z = y.cast('b')
+            >>> z.format

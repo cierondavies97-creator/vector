@@ -1,0 +1,5 @@
+used.
+Each scheme is itself composed of a series of paths and each path has
+a unique identifier.  Python currently uses eight paths:
+* *stdlib*: directory containing the standard Python library files
+  that are not platform-specific.

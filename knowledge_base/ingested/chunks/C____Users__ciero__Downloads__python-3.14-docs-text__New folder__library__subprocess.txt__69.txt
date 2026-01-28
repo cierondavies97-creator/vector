@@ -1,0 +1,5 @@
+"CreateProcess()" operates on strings.
+   Changed in version 3.6: *args* parameter accepts a *path-like
+   object* if *shell* is "False" and a sequence containing path-like
+   objects on POSIX.
+   Changed in version 3.8: *args* parameter accepts a *path-like

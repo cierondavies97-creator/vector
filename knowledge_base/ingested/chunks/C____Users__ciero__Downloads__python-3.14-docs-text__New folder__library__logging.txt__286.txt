@@ -1,0 +1,4 @@
+logging.lastResort
+   A "handler of last resort" is available through this attribute.
+   This is a "StreamHandler" writing to "sys.stderr" with a level of
+   "WARNING", and is used to handle logging events in the absence of

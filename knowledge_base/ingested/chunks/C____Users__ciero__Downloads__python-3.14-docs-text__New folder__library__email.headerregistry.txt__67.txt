@@ -1,0 +1,4 @@
+if "username" and "domain" are both the empty string (or "None"),
+   then the string value of the "Address" is "<>".
+class email.headerregistry.Group(display_name=None, addresses=None)
+   The class used to represent an address group.  The general form of

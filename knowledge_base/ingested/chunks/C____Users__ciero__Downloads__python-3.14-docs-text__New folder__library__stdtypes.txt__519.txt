@@ -1,0 +1,4 @@
+("bytearray(b'...')") since it is often more useful than e.g.
+"bytearray([46, 46, 46])".  You can always convert a bytearray object
+into a list of integers using "list(b)".
+Bytes and Bytearray Operations

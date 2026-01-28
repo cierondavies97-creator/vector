@@ -1,0 +1,4 @@
+an error is reported but the file is not automatically closed.  In
+this case, it would be better to wait until after the parser has run
+and then use the "with"-statement to manage the files.
+For type checkers that simply check against a fixed set of values,

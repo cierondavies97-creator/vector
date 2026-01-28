@@ -1,0 +1,4 @@
+*ident* and other "openlog()" parameters are reset to defaults.
+   Raises an auditing event "syslog.closelog" with no arguments.
+   Changed in version 3.12: This function is restricted in
+   subinterpreters. (Only code that runs in multiple interpreters is

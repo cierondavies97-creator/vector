@@ -1,0 +1,3 @@
+dictionary displays by the lack of colons separating keys and values:
+   set_display: "{" (flexible_expression_list | comprehension) "}"
+A set display yields a new mutable set object, the contents being

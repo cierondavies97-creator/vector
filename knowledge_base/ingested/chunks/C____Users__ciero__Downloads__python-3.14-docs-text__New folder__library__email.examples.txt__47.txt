@@ -1,0 +1,4 @@
+Rewrite the href="cid:...." attributes to point to the filenames in partfiles.
+       Though not trivial, this should be possible using html.parser.
+       """
+       raise NotImplementedError("Add the magic needed")

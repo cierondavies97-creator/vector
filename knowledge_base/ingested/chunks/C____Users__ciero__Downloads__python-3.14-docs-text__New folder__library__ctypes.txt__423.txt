@@ -1,0 +1,5 @@
+_anonymous_ = ("u",)
+             _fields_ = [("u", _U),
+                         ("vt", VARTYPE)]
+      The "TYPEDESC" structure describes a COM data type, the "vt"
+      field specifies which one of the union fields is valid.  Since

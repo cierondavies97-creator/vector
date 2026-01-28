@@ -1,0 +1,5 @@
+as "GetModuleHandle" depending on whether UNICODE is defined or not:
+   /* ANSI version */
+   HMODULE GetModuleHandleA(LPCSTR lpModuleName);
+   /* UNICODE version */
+   HMODULE GetModuleHandleW(LPCWSTR lpModuleName);

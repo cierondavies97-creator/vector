@@ -1,0 +1,4 @@
+"sqlite3" should internally cache for this connection, to
+        avoid parsing overhead. By default, 128 statements.
+      * **uri** (*bool*) -- If set to "True", *database* is
+        interpreted as a URI (Uniform Resource Identifier) with a file

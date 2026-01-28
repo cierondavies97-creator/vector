@@ -1,0 +1,4 @@
+method should return a string that represents that header
+      "folded" correctly (according to the policy settings) by
+      composing the *name* with the *value* and inserting "linesep"
+      characters at the appropriate places.  See **RFC 5322** for a

@@ -1,0 +1,4 @@
+"parse_args()" returns two values:
+* "options", an object containing values for all of your options---
+  e.g. if "--file" takes a single string argument, then "options.file"
+  will be the filename supplied by the user, or "None" if the user did

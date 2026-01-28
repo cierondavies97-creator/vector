@@ -1,0 +1,4 @@
+This function can support specifying *src_dir_fd* and/or
+   *dst_dir_fd* to supply paths relative to directory descriptors, and
+   not following symlinks. The default value of *follow_symlinks* is
+   "False" on Windows.

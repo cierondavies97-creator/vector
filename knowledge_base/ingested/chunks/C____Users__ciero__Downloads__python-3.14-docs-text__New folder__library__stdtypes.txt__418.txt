@@ -1,0 +1,3 @@
+through the given translation table.  The table must be an object
+   that implements indexing via "__getitem__()", typically a *mapping*
+   or *sequence*.  When indexed by a Unicode ordinal (an integer), the

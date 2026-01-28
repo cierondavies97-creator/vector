@@ -1,0 +1,6 @@
+$ python -m venv example
+   $ source example/bin/activate
+   (example) $ python -m pip install wheel
+You can get the version string for "wheel" by running the following:
+   (example) $ python
+   >>> from importlib.metadata import version

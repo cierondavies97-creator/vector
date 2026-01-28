@@ -1,0 +1,3 @@
+also let empty lines to be parts of values.  At the same time, keys
+  can be arbitrarily indented themselves to improve readability.  In
+  consequence, when configuration files get big and complex, it is

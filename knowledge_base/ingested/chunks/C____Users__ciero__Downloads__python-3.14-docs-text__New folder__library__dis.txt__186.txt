@@ -1,0 +1,6 @@
+MAKE_FUNCTION
+   Pushes a new function object on the stack built from the code
+   object at "STACK[-1]".
+   Changed in version 3.10: Flag value "0x04" is a tuple of strings
+   instead of dictionary
+   Changed in version 3.11: Qualified name at "STACK[-1]" was removed.

@@ -1,0 +1,4 @@
+type of an object, because it takes subclasses into account.
+   With three arguments, return a new type object.  This is
+   essentially a dynamic form of the "class" statement. The *name*
+   string is the class name and becomes the "__name__" attribute. The

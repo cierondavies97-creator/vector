@@ -1,0 +1,6 @@
+inspect.isframe(object)
+   Return "True" if the object is a frame.
+inspect.iscode(object)
+   Return "True" if the object is a code.
+inspect.isbuiltin(object)
+   Return "True" if the object is a built-in function or a bound

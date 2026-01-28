@@ -1,0 +1,4 @@
+checks using the effective uid/gid instead of the real uid/gid.
+   *effective_ids* may not be supported on your platform; you can
+   check whether or not it is available using
+   "os.supports_effective_ids".  If it is unavailable, using it will

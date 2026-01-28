@@ -1,0 +1,4 @@
+The same as "RawArray()" except that depending on the value of
+   *lock* a process-safe synchronization wrapper may be returned
+   instead of a raw ctypes array.
+   If *lock* is "True" (the default) then a new lock object is created

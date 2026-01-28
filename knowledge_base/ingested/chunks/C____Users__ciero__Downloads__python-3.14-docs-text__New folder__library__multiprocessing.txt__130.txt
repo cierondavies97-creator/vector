@@ -1,0 +1,4 @@
+"False" and "get_nowait()" can return without raising
+     "queue.Empty".
+  2. If multiple processes are enqueuing objects, it is possible for
+     the objects to be received at the other end out-of-order.

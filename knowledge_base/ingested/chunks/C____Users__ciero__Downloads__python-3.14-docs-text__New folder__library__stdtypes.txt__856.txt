@@ -1,0 +1,6 @@
+exception to disallow mistakes like "dict[str][str]":
+   >>> dict[str][str]
+   Traceback (most recent call last):
+     ...
+   TypeError: dict[str] is not a generic class
+However, such expressions are valid when type variables are used.  The

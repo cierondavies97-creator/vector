@@ -1,0 +1,5 @@
+"pty" --- Pseudo-terminal utilities
+***********************************
+**Source code:** Lib/pty.py
+======================================================================
+The "pty" module defines operations for handling the pseudo-terminal

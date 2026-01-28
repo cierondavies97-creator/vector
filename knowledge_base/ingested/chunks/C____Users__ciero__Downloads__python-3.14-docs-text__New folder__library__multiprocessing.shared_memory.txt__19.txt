@@ -1,0 +1,5 @@
+its own tracking and automatically deletes shared memory when
+        all handles to it have been closed.
+   Changed in version 3.13: Added the *track* parameter.
+   close()
+      Close the file descriptor/handle to the shared memory from this

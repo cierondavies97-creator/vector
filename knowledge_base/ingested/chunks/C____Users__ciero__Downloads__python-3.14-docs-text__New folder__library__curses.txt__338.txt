@@ -1,0 +1,3 @@
+|                    | appropriate.                                |
+      +--------------------+---------------------------------------------+
+      | "Control"-"G"      | Terminate, returning the window contents.   |

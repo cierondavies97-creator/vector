@@ -1,0 +1,4 @@
+to stop the test framework when the user signals an interrupt
+      from the keyboard.  Interactive tools which provide "TestRunner"
+      implementations can use this in a similar manner.
+   The following methods of the "TestResult" class are used to

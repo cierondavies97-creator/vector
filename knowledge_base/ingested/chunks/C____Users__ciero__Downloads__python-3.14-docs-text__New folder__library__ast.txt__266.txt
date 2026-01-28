@@ -1,0 +1,9 @@
+...         ...
+      ...     case _:
+      ...         ...
+      ... """), indent=4))
+      Module(
+          body=[
+              Match(
+                  subject=Name(id='x', ctx=Load()),
+                  cases=[

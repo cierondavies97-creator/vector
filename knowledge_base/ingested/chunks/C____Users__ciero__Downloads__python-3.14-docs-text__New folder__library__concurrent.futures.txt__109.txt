@@ -1,0 +1,2 @@
+|                                                    | by raising an exception. If no future raises an    |
+   |                                                    | exception then it is equivalent to                 |

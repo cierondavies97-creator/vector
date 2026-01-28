@@ -1,0 +1,5 @@
+| Await(expr value)
+            | Yield(expr? value)
+            | YieldFrom(expr value)
+            -- need sequences for compare to distinguish between
+            -- x < 4 < 3 and (x < 4) < 3

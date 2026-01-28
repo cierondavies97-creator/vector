@@ -1,0 +1,9 @@
+Added in version 3.12.
+STORE_SLICE
+   Implements:
+      end = STACK.pop()
+      start = STACK.pop()
+      container = STACK.pop()
+      value = STACK.pop()
+      container[start:end] = value
+   Added in version 3.12.

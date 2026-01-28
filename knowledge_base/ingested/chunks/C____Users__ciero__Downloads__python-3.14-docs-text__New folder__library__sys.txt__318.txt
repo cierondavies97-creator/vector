@@ -1,0 +1,5 @@
+Raises an auditing event "sys.set_asyncgen_hooks_firstiter" with no
+   arguments.
+   Raises an auditing event "sys.set_asyncgen_hooks_finalizer" with no
+   arguments.
+   Two auditing events are raised because the underlying API consists

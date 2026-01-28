@@ -1,0 +1,4 @@
+URL opening with automatic cookie handling.
+  Module "http.cookies"
+     HTTP cookie classes, principally useful for server-side code.
+     The "http.cookiejar" and "http.cookies" modules do not depend on

@@ -1,0 +1,4 @@
+be created.
+   Changed in version 3.11: Accepts *path-like object* for filename.
+   "ndbm" objects behave similar to mutable *mappings*, but methods
+   "items()", "values()", "pop()", "popitem()", and "update()" are not

@@ -1,0 +1,5 @@
+I/O thread lock.
+   handleError(record)
+      This method should be called from handlers when an exception is
+      encountered during an "emit()" call. If the module-level
+      attribute "raiseExceptions" is "False", exceptions get silently

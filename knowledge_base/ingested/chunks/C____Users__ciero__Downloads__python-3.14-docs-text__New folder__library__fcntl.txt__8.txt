@@ -1,0 +1,4 @@
+(e.g., btrfs, OCFS2, and XFS). This behavior is commonly referred to
+as "copy-on-write".
+Changed in version 3.13: On Linux >= 2.6.32, the "fcntl" module
+exposes the "F_GETOWN_EX", "F_SETOWN_EX", "F_OWNER_TID",

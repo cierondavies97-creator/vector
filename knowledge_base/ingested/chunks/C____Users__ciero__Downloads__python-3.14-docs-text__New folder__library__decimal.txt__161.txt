@@ -1,0 +1,5 @@
+restores the previous context:
+      from decimal import localcontext
+      with localcontext() as ctx:
+          ctx.prec = 42   # Perform a high precision calculation
+          s = calculate_something()

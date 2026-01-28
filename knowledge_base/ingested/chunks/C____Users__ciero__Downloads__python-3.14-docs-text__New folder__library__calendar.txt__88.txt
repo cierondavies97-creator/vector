@@ -1,0 +1,5 @@
+month
+   The month of the specified "year" to print the calendar for. Must
+   be a number between 1 and 12, and may only be used in text mode.
+   Defaults to printing a calendar for the full year.
+*Text-mode options:*

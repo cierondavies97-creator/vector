@@ -1,0 +1,4 @@
+The following code computes two sums like "0 + 1 + 2 + ..."
+inefficiently, by creating a list of those numbers. This list consumes
+a lot of memory temporarily. We can use "get_traced_memory()" and
+"reset_peak()" to observe the small memory usage after the sum is

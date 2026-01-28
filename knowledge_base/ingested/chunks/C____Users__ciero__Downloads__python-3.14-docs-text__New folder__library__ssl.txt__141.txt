@@ -1,0 +1,4 @@
+wrap a socket.
+   Changed in version 3.7: "SSLSocket" instances must to created with
+   "wrap_socket()". In earlier versions, it was possible to create
+   instances directly. This was never documented or officially

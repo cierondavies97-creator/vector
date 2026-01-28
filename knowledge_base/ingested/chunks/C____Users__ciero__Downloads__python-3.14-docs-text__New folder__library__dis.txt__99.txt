@@ -1,0 +1,4 @@
+Changed in version 3.13: oparg is "1" if this instruction is part
+   of a yield-from or await, and "0" otherwise.
+SETUP_ANNOTATIONS
+   Checks whether "__annotations__" is defined in "locals()", if not

@@ -1,0 +1,4 @@
+# Convert from UTC to tz's local time.
+          return tz.fromutc(utc)
+   Changed in version 3.3: *tz* now can be omitted.
+   Changed in version 3.6: The "astimezone()" method can now be called

@@ -1,0 +1,6 @@
+curses.ascii.isgraph(c)
+   Checks for ASCII any printable character except space.
+curses.ascii.islower(c)
+   Checks for an ASCII lower-case character.
+curses.ascii.isprint(c)
+   Checks for any ASCII printable character including space.

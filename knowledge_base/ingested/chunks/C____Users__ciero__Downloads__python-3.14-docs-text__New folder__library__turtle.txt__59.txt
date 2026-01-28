@@ -1,0 +1,4 @@
+not be drawn. The turtle's orientation does not change. If
+   currently filling, the polygon(s) teleported from will be filled
+   after leaving, and filling will begin again after teleporting. This
+   can be disabled with fill_gap=True, which makes the imaginary line

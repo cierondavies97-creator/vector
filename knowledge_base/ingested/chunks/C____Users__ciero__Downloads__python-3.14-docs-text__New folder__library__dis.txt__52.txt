@@ -1,0 +1,4 @@
+source code.  They are generated as "(offset, lineno)" pairs.
+   Changed in version 3.6: Line numbers can be decreasing. Before,
+   they were always increasing.
+   Changed in version 3.10: The **PEP 626** "co_lines()" method is

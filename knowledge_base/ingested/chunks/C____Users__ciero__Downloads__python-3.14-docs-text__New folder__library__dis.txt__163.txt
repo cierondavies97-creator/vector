@@ -1,0 +1,5 @@
+"co_varnames[var_nums & 15]" onto the stack.
+   Added in version 3.13.
+LOAD_FAST_BORROW_LOAD_FAST_BORROW(var_nums)
+   Pushes borrowed references to "co_varnames[var_nums >> 4]" and
+   "co_varnames[var_nums & 15]" onto the stack.

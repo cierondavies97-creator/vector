@@ -1,0 +1,7 @@
+main module.
+Examples
+========
+Demonstration of how to create and use customized managers and
+proxies:
+   from multiprocessing import freeze_support
+   from multiprocessing.managers import BaseManager, BaseProxy

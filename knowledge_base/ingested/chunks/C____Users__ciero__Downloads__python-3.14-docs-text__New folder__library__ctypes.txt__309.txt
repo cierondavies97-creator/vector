@@ -1,0 +1,4 @@
+the reference count.
+   In contrast, the reference count of *dst* will not be decremented
+   before assigning the new value. Unless *dst* is "NULL", the caller
+   is responsible for decrementing the reference count by calling its

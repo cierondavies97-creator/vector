@@ -1,0 +1,4 @@
+gives "output="foo"" with "argparse" (since "=" is special cased as
+  an alternative separator for option parameter values)
+Whether these differing behaviors in the "argparse" version are
+considered desirable or a problem will depend on the specific command

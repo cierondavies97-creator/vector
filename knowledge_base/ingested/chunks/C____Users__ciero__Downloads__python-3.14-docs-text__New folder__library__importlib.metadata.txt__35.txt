@@ -1,0 +1,5 @@
+---------------------
+importlib.metadata.version(distribution_name)
+   Return the installed distribution package version for the named
+   distribution package.
+   Raises "PackageNotFoundError" if the named distribution package is

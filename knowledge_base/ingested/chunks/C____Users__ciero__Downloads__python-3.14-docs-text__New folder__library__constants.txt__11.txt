@@ -1,0 +1,5 @@
+"SyntaxError"), so they can be considered "true" constants.
+Constants added by the "site" module
+====================================
+The "site" module (which is imported automatically during startup,
+except if the "-S" command-line option is given) adds several

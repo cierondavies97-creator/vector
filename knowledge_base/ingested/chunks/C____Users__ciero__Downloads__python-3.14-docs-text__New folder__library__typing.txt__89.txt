@@ -1,0 +1,6 @@
+P = ParamSpec('P')
+   class Z(Generic[P]):
+       ...
+Another difference between "TypeVar" and "ParamSpec" is that a generic
+with only one parameter specification variable will accept parameter
+lists in the forms "X[[Type1, Type2, ...]]" and also "X[Type1, Type2,

@@ -1,0 +1,4 @@
+operators are evaluated from right to left (this does not constrain
+the evaluation order for the operands): "-1**2" results in "-1".
+The power operator has the same semantics as the built-in "pow()"
+function, when called with two arguments: it yields its left argument

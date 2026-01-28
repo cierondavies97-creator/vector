@@ -1,0 +1,4 @@
+reparse points. If the operating system reaches a reparse point
+   that it is not able to follow, *stat* now returns the information
+   for the original path as if "follow_symlinks=False" had been
+   specified instead of raising an error.

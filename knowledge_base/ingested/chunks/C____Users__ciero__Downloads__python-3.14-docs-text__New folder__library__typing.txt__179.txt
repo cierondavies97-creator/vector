@@ -1,0 +1,5 @@
+This is mainly useful for "total=False" TypedDicts. See "TypedDict"
+   and **PEP 655** for more details.
+   Added in version 3.11.
+typing.NotRequired
+   Special typing construct to mark a "TypedDict" key as potentially

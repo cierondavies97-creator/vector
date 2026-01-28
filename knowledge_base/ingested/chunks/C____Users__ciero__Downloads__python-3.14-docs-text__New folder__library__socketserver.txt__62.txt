@@ -1,0 +1,4 @@
+desired address. May be overridden.
+   verify_request(request, client_address)
+      Must return a Boolean value; if the value is "True", the request
+      will be processed, and if it's "False", the request will be

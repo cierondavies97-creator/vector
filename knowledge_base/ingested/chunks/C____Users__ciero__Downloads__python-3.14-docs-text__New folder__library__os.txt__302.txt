@@ -1,0 +1,4 @@
+os.listdrives()
+   Return a list containing the names of drives on a Windows system.
+   A drive name typically looks like "'C:\\'". Not every drive name
+   will be associated with a volume, and some may be inaccessible for

@@ -1,0 +1,4 @@
+importlib.resources.read_binary(anchor, *path_names)
+   Read and return the contents of the named resource as "bytes".
+   See the introduction for details on *anchor* and *path_names*.
+   This function is roughly equivalent to:

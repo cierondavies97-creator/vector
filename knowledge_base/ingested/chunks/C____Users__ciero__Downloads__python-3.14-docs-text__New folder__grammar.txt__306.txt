@@ -1,0 +1,3 @@
+PyErr_Occurred() ? NULL : RAISE_SYNTAX_ERROR_ON_NEXT_TOKEN("t-string: expecting '!', or ':', or '}'") }
+       | '{' annotated_rhs '='? invalid_tstring_conversion_character
+       | '{' annotated_rhs '='? ['!' NAME] !(':' | '}') {

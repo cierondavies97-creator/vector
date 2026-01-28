@@ -1,0 +1,4 @@
+experiment with "TestCase" from the interactive interpreter.
+   "TestCase" instances provide three groups of methods: one group
+   used to run the test, another used by the test implementation to
+   check conditions and report failures, and some inquiry methods

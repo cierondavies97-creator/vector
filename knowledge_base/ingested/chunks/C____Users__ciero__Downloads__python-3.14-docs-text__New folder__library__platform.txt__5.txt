@@ -1,0 +1,5 @@
+Python interpreter.  Reasonable defaults are used when the above
+   needs are not met.
+   Note:
+     On macOS (and perhaps other platforms), executable files may be
+     universal files containing multiple architectures.To get at the

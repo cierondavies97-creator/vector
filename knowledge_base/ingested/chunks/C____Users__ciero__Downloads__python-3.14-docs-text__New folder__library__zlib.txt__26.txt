@@ -1,0 +1,4 @@
+is similar to the parameter for "compressobj()", but accepts more
+   ranges of values:
+   * +8 to +15: The base-two logarithm of the window size.  The input
+     must include a zlib header and trailer.

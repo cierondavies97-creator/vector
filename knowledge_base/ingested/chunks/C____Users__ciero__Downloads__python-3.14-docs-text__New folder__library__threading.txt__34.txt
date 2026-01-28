@@ -1,0 +1,4 @@
+module. The *func* will be passed to  "sys.setprofile()" for each
+   thread, before its "run()" method is called.
+threading.setprofile_all_threads(func)
+   Set a profile function for all threads started from the "threading"

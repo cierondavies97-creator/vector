@@ -1,0 +1,6 @@
+ASCII bytes) are never converted or considered part of a character
+class such as letter or whitespace.
+Locale names
+============
+The format of the locale name is platform dependent, and the set of
+supported locales can depend on the system configuration.

@@ -1,0 +1,5 @@
+how they were called.
+The starting point for descriptor invocation is a binding, "a.x". How
+the arguments are assembled depends on "a":
+Direct Call
+   The simplest and least common call is when user code directly

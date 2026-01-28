@@ -1,0 +1,3 @@
+int, and the callable will be called with this integer, allowing
+      further processing or error checking.  Using this is deprecated,
+      for more flexible post processing or error checking use a ctypes

@@ -1,0 +1,4 @@
+The main configuration parser.  When *defaults* is given, it is
+   initialized into the dictionary of intrinsic defaults.  When
+   *dict_type* is given, it will be used to create the dictionary
+   objects for the list of sections, for the options within a section,

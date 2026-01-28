@@ -1,0 +1,3 @@
+"import" ..., calling "reload()" for the other module does not
+   redefine the objects imported from it --- one way around this is to
+   re-execute the "from" statement, another is to use "import" and

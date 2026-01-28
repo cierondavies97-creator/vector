@@ -1,0 +1,4 @@
+executed, and so that a debugger can execute a script without
+   running the risk of losing control.  The "os._exit()" function can
+   be used if it is absolutely positively necessary to exit
+   immediately (for example, in the child process after a call to

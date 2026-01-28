@@ -1,0 +1,6 @@
+set.issuperset(other, /)
+set >= other
+   Test whether every element in *other* is in the set.
+set > other
+   Test whether the set is a proper superset of *other*, that is, "set
+   >= other and set != other".

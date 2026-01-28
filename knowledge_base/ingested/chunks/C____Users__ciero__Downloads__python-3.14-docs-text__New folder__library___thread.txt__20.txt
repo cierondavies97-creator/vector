@@ -1,0 +1,5 @@
+approach in the absence of more specific information).
+   Availability: Windows, pthreads.
+   Unix platforms with POSIX threads support.
+_thread.TIMEOUT_MAX
+   The maximum value allowed for the *timeout* parameter of

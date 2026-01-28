@@ -1,0 +1,5 @@
+*domain*.
+gettext.ngettext(singular, plural, n)
+   Like "gettext()", but consider plural forms. If a translation is
+   found, apply the plural formula to *n*, and return the resulting
+   message (some languages have more than two plural forms). If no

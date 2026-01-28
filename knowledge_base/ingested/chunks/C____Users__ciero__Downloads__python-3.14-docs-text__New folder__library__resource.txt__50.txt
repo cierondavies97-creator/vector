@@ -1,0 +1,5 @@
+This function will raise a "ValueError" if an invalid *who*
+   parameter is specified. It may also raise "error" exception in
+   unusual circumstances.
+resource.getpagesize()
+   Returns the number of bytes in a system page. (This need not be the

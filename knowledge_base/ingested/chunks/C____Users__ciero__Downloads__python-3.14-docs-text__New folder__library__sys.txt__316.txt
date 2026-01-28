@@ -1,0 +1,4 @@
+"f_trace_lines" and "f_trace_opcodes" attributes added to frames
+sys.set_asyncgen_hooks([firstiter] [, finalizer])
+   Accepts two optional keyword arguments which are callables that
+   accept an *asynchronous generator iterator* as an argument. The

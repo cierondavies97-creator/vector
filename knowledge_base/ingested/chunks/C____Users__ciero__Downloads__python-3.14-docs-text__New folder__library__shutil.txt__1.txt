@@ -1,0 +1,5 @@
+and collections of files.  In particular, functions are provided
+which support file copying and removal. For operations on individual
+files, see also the "os" module.
+Warning:
+  Even the higher-level file copying functions ("shutil.copy()",

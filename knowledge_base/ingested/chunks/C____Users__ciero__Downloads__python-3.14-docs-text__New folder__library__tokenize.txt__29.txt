@@ -1,0 +1,6 @@
+(OP, ')')
+               ])
+           else:
+               result.append((toknum, tokval))
+       return untokenize(result).decode('utf-8')
+Example of tokenizing from the command line.  The script:

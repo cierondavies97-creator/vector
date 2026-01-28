@@ -1,0 +1,3 @@
+C; they describe a function (return type, argument types, calling
+convention) without defining an implementation.  The factory functions
+must be called with the desired result type and the argument types of

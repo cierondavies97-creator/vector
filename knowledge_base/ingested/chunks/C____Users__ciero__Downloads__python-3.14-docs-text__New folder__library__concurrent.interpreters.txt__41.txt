@@ -1,0 +1,5 @@
+cannot be sent to another interpreter.
+Communicating Between Interpreters
+----------------------------------
+class concurrent.interpreters.Queue(id)
+   A wrapper around a low-level, cross-interpreter queue, which

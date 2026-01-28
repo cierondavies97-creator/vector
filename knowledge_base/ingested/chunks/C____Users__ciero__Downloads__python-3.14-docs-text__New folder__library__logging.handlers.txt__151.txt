@@ -1,0 +1,3 @@
+supports buffering of logging records in memory, periodically flushing
+them to a *target* handler. Flushing occurs whenever the buffer is
+full, or when an event of a certain severity or greater is seen.

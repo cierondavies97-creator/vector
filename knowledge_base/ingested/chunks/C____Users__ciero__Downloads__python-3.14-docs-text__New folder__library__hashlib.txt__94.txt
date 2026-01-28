@@ -1,0 +1,6 @@
+>>> # Calculate the first hash with a random salt.
+>>> salt1 = os.urandom(blake2b.SALT_SIZE)
+>>> h1 = blake2b(salt=salt1)
+>>> h1.update(msg)
+>>> # Calculate the second hash with a different random salt.
+>>> salt2 = os.urandom(blake2b.SALT_SIZE)

@@ -1,0 +1,3 @@
+with the element.  Their values are usually strings but may be
+      any application-specific object.  If the element is created from
+      an XML file, the *text* attribute holds either the text between

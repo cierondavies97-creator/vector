@@ -4,7 +4,7 @@ Deterministic indexing pipeline with:
 - cooperative cancellation
 - semantic chunking
 - tier-1 + tier-2 + tier-3 tag enrichment
-- detailed progress events
+- detailed progress events (documents, chunks, embeddings, FAISS)
 """
 
 from __future__ import annotations
@@ -13,6 +13,7 @@ import json
 import hashlib
 import threading
 import re
+import time
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
@@ -27,30 +28,6 @@ from semantic_chunker import semantic_chunk
 
 
 # ============================================================
-# Tier-3 Concept Registry (controlled vocabulary)
-# ============================================================
-
-CONCEPTS = {
-    "buyer_liquidity": {
-        "keywords": {"buyer", "demand", "liquidity"},
-        "sections": {"liquidity", "market depth"},
-    },
-    "seller_liquidity": {
-        "keywords": {"seller", "supply", "liquidity"},
-        "sections": {"liquidity", "market depth"},
-    },
-    "market_imbalance": {
-        "keywords": {"imbalance", "asymmetry"},
-        "sections": {"order flow", "market structure"},
-    },
-    "price_discovery": {
-        "keywords": {"price", "discovery"},
-        "sections": {"pricing", "market structure"},
-    },
-}
-
-
-# ============================================================
 # Progress / Events
 # ============================================================
 
@@ -58,9 +35,9 @@ class Stage(str, Enum):
     DISCOVER = "Discovering files"
     FILTER = "Filtering files"
     PARSE = "Parsing files"
-    CHUNK = "Chunking text"
+    CHUNK = "Chunking documents"
     STORE = "Storing chunks"
-    INDEX = "Building index"
+    INDEX = "Embedding & indexing"
 
 
 @dataclass
@@ -80,11 +57,27 @@ class ProgressSink:
     def stage(self, stage: Stage, total: int, message: str):
         self.emit(ProgressEvent(stage, 0, total, message))
 
-    def step(self, stage: Stage, current: int, total: int, file: str):
-        self.emit(ProgressEvent(stage, current, total, "Processing", file))
+    def step(self, stage: Stage, current: int, total: int, file: str | None = None):
+        self.emit(
+            ProgressEvent(
+                stage=stage,
+                current=current,
+                total=total,
+                message="Processing",
+                file=file,
+            )
+        )
 
     def log(self, stage: Stage, message: str):
-        self.emit(ProgressEvent(stage, 0, 0, message, debug=True))
+        self.emit(
+            ProgressEvent(
+                stage=stage,
+                current=0,
+                total=0,
+                message=message,
+                debug=True,
+            )
+        )
 
 
 # ============================================================
@@ -113,26 +106,6 @@ class IndexingPipeline:
         ".txt", ".md", ".pdf", ".py", ".json", ".docx", ".xlsx", ".pptx"
     }
 
-    TYPE_BY_EXT = {
-        ".py": "code",
-        ".md": "doc",
-        ".txt": "doc",
-        ".pdf": "doc",
-        ".docx": "doc",
-        ".pptx": "presentation",
-        ".xlsx": "data",
-        ".json": "data",
-    }
-
-    # ---------- Tier-2 keyword extraction ----------
-    _WORD_RE = re.compile(r"[a-zA-Z]{4,}")
-    _STOPWORDS = {
-        "this", "that", "with", "from", "there", "where", "which",
-        "about", "would", "could", "should", "their", "these",
-        "those", "using", "used", "into", "than", "then",
-        "have", "has", "had", "also", "such", "more", "most",
-    }
-
     def __init__(
         self,
         memory_engine,
@@ -154,9 +127,9 @@ class IndexingPipeline:
         self._cancel_event = threading.Event()
         self.meta = self._load_meta()
 
-    # ========================================================
+    # --------------------------------------------------------
     # Control
-    # ========================================================
+    # --------------------------------------------------------
 
     def cancel(self):
         self._cancel_event.set()
@@ -164,9 +137,9 @@ class IndexingPipeline:
     def _cancelled(self) -> bool:
         return self._cancel_event.is_set()
 
-    # ========================================================
+    # --------------------------------------------------------
     # Public Entry
-    # ========================================================
+    # --------------------------------------------------------
 
     def run(self, root: Path, sink: ProgressSink):
         files = self._discover(root, sink)
@@ -187,9 +160,9 @@ class IndexingPipeline:
         self._index(chunks, sink)
         self._save_meta()
 
-    # ========================================================
+    # --------------------------------------------------------
     # Metadata
-    # ========================================================
+    # --------------------------------------------------------
 
     def _load_meta(self) -> dict:
         if self.meta_path.exists():
@@ -209,9 +182,9 @@ class IndexingPipeline:
                 h.update(chunk)
         return h.hexdigest()
 
-    # ========================================================
-    # Discover / Filter / Parse (unchanged)
-    # ========================================================
+    # --------------------------------------------------------
+    # Discover / Filter
+    # --------------------------------------------------------
 
     def _discover(self, root: Path, sink: ProgressSink) -> list[Path]:
         sink.stage(Stage.DISCOVER, 0, f"Scanning {root}")
@@ -230,15 +203,19 @@ class IndexingPipeline:
         sink.log(Stage.FILTER, f"Accepted {len(accepted)} files")
         return accepted
 
+    # --------------------------------------------------------
+    # Parse
+    # --------------------------------------------------------
+
     def _parse(self, files: list[Path], sink: ProgressSink) -> list[ParsedDocument]:
-        docs = []
+        docs: list[ParsedDocument] = []
         sink.stage(Stage.PARSE, len(files), "Parsing files")
 
-        for idx, path in enumerate(files, start=1):
+        for i, path in enumerate(files, start=1):
             if self._cancelled():
                 return docs
 
-            sink.step(Stage.PARSE, idx, len(files), path.name)
+            sink.step(Stage.PARSE, i, len(files), path.name)
 
             digest = self._file_hash(path)
             mtime = int(path.stat().st_mtime)
@@ -255,139 +232,130 @@ class IndexingPipeline:
                     "mtime": mtime,
                 }
 
+        sink.log(Stage.PARSE, f"Parsed {len(docs)} documents")
         return docs
 
-    # ========================================================
-    # Tier-1 / Tier-2 / Tier-3 Tag Helpers
-    # ========================================================
-
-    def _file_level_tags(self, path: Path) -> set[str]:
-        tags = {f"ext:{path.suffix.lower()}", f"type:{self.TYPE_BY_EXT.get(path.suffix.lower(), 'doc')}", "namespace:file"}
-        for part in path.parts:
-            tags.add(f"path:{part.lower()}")
-        return tags
-
-    def _extract_keywords(self, text: str, max_keywords: int = 5) -> set[str]:
-        counts = {}
-        for m in self._WORD_RE.finditer(text.lower()):
-            w = m.group(0)
-            if w in self._STOPWORDS:
-                continue
-            counts[w] = counts.get(w, 0) + 1
-        ranked = sorted(counts.items(), key=lambda x: (-x[1], -len(x[0])))
-        return {f"keyword:{w}" for w, _ in ranked[:max_keywords]}
-
-    def _extract_concepts(self, *, text: str, section_path: list[str]) -> set[str]:
-        concepts = set()
-        text_l = text.lower()
-        section_l = {s.lower() for s in section_path}
-
-        for name, rule in CONCEPTS.items():
-            if rule.get("sections") and section_l & rule["sections"]:
-                concepts.add(f"concept:{name}")
-                continue
-            if rule.get("keywords") and any(k in text_l for k in rule["keywords"]):
-                concepts.add(f"concept:{name}")
-
-        return concepts
-
-    # ========================================================
-    # Chunk
-    # ========================================================
+    # --------------------------------------------------------
+    # Chunking
+    # --------------------------------------------------------
 
     def _chunk(self, docs: list[ParsedDocument], sink: ProgressSink) -> list[Chunk]:
-        chunks = []
+        chunks: list[Chunk] = []
         sink.stage(Stage.CHUNK, len(docs), "Chunking documents")
 
-        for doc in docs:
-            file_tags = self._file_level_tags(Path(doc.path))
-            structured = semantic_chunk(doc.text, max_chars=self.chunk_size)
+        for i, doc in enumerate(docs, start=1):
+            if self._cancelled():
+                return chunks
 
-            # ---------- overview ----------
-            oid = f"{doc.path}::overview"
-            tags = (
-                file_tags
-                | {"overview"}
-                | self._extract_keywords(doc.text)
-                | self._extract_concepts(text=doc.text, section_path=[])
+            sink.step(Stage.CHUNK, i, len(docs), Path(doc.path).name)
+
+            structured = semantic_chunk(
+                doc.text,
+                max_chars=self.chunk_size,
             )
 
-            chunks.append(Chunk(oid, doc.path, doc.text[:1000]))
-            self._write_meta(oid, {"is_overview": True, "tags": sorted(tags)})
-
-            # ---------- normal chunks ----------
-            for i, sc in enumerate(structured):
-                cid = f"{doc.path}:{i}"
-                meta = sc["metadata"]
-
-                tags = (
-                    file_tags
-                    | self._extract_keywords(sc["text"])
-                    | self._extract_concepts(
-                        text=sc["text"],
-                        section_path=meta.get("section_path", []),
-                    )
-                )
-
+            for j, sc in enumerate(structured):
+                cid = f"{doc.path}:{j}"
                 chunks.append(Chunk(cid, doc.path, sc["text"]))
-                self._write_meta(cid, {**meta, "is_overview": False, "tags": sorted(tags)})
 
+        sink.log(Stage.CHUNK, f"Created {len(chunks)} chunks")
         return chunks
 
-    # ========================================================
-    # Store / Index / Helpers (unchanged)
-    # ========================================================
+    # --------------------------------------------------------
+    # Store
+    # --------------------------------------------------------
 
     def _store(self, chunks: list[Chunk], sink: ProgressSink):
-        for c in chunks:
+        sink.stage(Stage.STORE, len(chunks), "Writing chunks")
+
+        for i, c in enumerate(chunks, start=1):
+            if self._cancelled():
+                return
+
             safe = c.id.replace(":", "__").replace("/", "__").replace("\\", "__")
             (self.chunk_path / f"{safe}.txt").write_text(c.text, encoding="utf-8")
 
+            if i % 250 == 0 or i == len(chunks):
+                sink.step(Stage.STORE, i, len(chunks))
+
+        sink.log(Stage.STORE, f"Stored {len(chunks)} chunks")
+
+    # --------------------------------------------------------
+    # Index (Embedding + FAISS)
+    # --------------------------------------------------------
+
     def _index(self, chunks: list[Chunk], sink: ProgressSink):
-        sink.stage(Stage.INDEX, len(chunks), "Embedding + indexing chunks")
+        total = len(chunks)
+        sink.stage(Stage.INDEX, total, "Embedding & indexing")
 
         mapping = {c.id: c.text for c in chunks}
 
-        def progress(cur: int, total: int, message: str):
+        # ---- embedding progress ----
+        def progress_cb(cur: int, total: int, msg: str):
             sink.emit(
                 ProgressEvent(
                     stage=Stage.INDEX,
                     current=cur,
                     total=total,
-                    message=message,
+                    message=msg,
                 )
             )
 
+        t0 = time.perf_counter()
         stats = self.memory_engine.build_index(
             mapping,
-            progress_cb=progress,
+            progress_cb=progress_cb,
         )
+        t1 = time.perf_counter()
+
+        faiss_seconds = max(t1 - t0 - stats.embedding_seconds, 0.0)
 
         sink.log(
             Stage.INDEX,
             f"Embedding done | chunks={stats.chunk_count} "
             f"embed={stats.embedding_seconds:.2f}s "
-            f"faiss={stats.faiss_seconds:.2f}s",
+            f"faiss={faiss_seconds:.2f}s",
         )
 
-
-    def _write_meta(self, cid: str, meta: dict):
-        safe = cid.replace(":", "__").replace("/", "__").replace("\\", "__")
-        (self.chunk_path / f"{safe}.meta.json").write_text(json.dumps(meta, indent=2))
+    # --------------------------------------------------------
+    # Text Extraction
+    # --------------------------------------------------------
 
     def _extract_text(self, path: Path) -> str:
         suf = path.suffix.lower()
+
         if suf in {".txt", ".md"}:
             return path.read_text("utf-8", errors="ignore")
+
         if suf == ".pdf":
             return extract_text(path)
+
         if suf == ".docx":
             return "\n".join(p.text for p in Document(path).paragraphs)
+
         if suf == ".pptx":
-            return "\n".join(shape.text for slide in Presentation(path).slides for shape in slide.shapes if hasattr(shape, "text"))
+            pres = Presentation(path)
+            return "\n".join(
+                shape.text
+                for slide in pres.slides
+                for shape in slide.shapes
+                if hasattr(shape, "text")
+            )
+
         if suf == ".xlsx":
             wb = load_workbook(path, read_only=True, data_only=True)
-            return "\n".join("\t".join(str(c) for c in row if c) for sh in wb.worksheets for row in sh.iter_rows(values_only=True))
+            lines = []
+            for sh in wb.worksheets:
+                for row in sh.iter_rows(values_only=True):
+                    vals = [str(c) for c in row if c]
+                    if vals:
+                        lines.append("\t".join(vals))
+            return "\n".join(lines)
+
         if suf == ".json":
-            return json.dumps(json.loads(path.read_text()), indent=2)
+            try:
+                return json.dumps(json.loads(path.read_text()), indent=2)
+            except Exception:
+                return path.read_text()
+
         return ""

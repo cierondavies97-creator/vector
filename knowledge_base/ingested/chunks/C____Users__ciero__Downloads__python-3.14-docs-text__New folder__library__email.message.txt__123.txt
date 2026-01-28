@@ -1,0 +1,4 @@
+the headers but before the first boundary string, it assigns
+      this text to the message's *preamble* attribute.  When the
+      "Generator" is writing out the plain text representation of a
+      MIME message, and it finds the message has a *preamble*

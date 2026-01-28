@@ -1,0 +1,5 @@
+-- see Managers.
+Note:
+  "multiprocessing" uses the usual "queue.Empty" and "queue.Full"
+  exceptions to signal a timeout.  They are not available in the
+  "multiprocessing" namespace so you need to import them from "queue".

@@ -1,0 +1,4 @@
+*groupN* arguments may also be strings identifying groups by their
+   group name.  If a string argument is not used as a group name in
+   the pattern, an "IndexError" exception is raised.
+   A moderately complicated example:

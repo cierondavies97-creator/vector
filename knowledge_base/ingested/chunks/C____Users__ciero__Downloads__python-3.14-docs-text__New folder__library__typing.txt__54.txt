@@ -1,0 +1,4 @@
+contrast, a variable annotated with "type[C]" (or deprecated
+"typing.Type[C]") may accept values that are classes themselves --
+specifically, it will accept the *class object* of "C". For example:
+   a = 3         # Has type ``int``

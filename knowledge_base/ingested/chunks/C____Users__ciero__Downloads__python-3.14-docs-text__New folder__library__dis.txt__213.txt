@@ -1,0 +1,3 @@
++-------------------------------------+-------------------------------------+
+   | "INTRINSIC_IMPORT_STAR"             | Performs "import *" for the named   |
+   |                                     | module.                             |

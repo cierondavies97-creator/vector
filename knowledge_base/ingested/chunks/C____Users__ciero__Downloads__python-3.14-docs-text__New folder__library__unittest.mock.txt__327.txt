@@ -1,0 +1,6 @@
+constructing the sequence of calls can be tedious.
+"call_list()" can construct the sequence of calls from the same
+chained call:
+>>> m = MagicMock()
+>>> m(1).method(arg='foo').other('bar')(2.0)
+<MagicMock name='mock().method().other()()' id='...'>

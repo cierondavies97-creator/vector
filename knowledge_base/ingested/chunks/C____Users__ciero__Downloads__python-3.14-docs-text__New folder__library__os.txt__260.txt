@@ -1,0 +1,4 @@
+*access(2)* for more information.
+   This function can support specifying paths relative to directory
+   descriptors and not following symlinks.
+   If *effective_ids* is "True", "access()" will perform its access

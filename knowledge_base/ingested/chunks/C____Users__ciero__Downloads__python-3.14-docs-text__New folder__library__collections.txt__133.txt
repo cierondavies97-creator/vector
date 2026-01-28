@@ -1,0 +1,4 @@
+with positional names.  For example, "['abc', 'def', 'ghi', 'abc']"
+   is converted to "['abc', '_1', 'ghi', '_3']", eliminating the
+   keyword "def" and the duplicate fieldname "abc".
+   *defaults* can be "None" or an *iterable* of default values. Since

@@ -1,0 +1,4 @@
+"TypeGuard" works similarly to "TypeIs", but has subtly different
+   effects on type checking behavior (see below).
+   Using  "-> TypeGuard" tells the static type checker that for a
+   given function:

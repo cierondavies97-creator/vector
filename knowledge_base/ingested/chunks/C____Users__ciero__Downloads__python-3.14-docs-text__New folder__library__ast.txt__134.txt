@@ -1,0 +1,8 @@
+... ))
+      Expression(
+          body=DictComp(
+              key=Name(id='x', ctx=Load()),
+              value=BinOp(
+                  left=Name(id='x', ctx=Load()),
+                  op=Pow(),
+                  right=Constant(value=2)),

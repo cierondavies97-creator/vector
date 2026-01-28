@@ -1,0 +1,7 @@
+multipart message structure:
+         >>> for part in msg.walk():
+         ...     print(part.get_content_type())
+         multipart/report
+         text/plain
+         message/delivery-status
+         text/plain

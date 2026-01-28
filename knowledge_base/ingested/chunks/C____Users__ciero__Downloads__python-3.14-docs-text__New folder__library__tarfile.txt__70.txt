@@ -1,0 +1,4 @@
+it does not already exist.
+   If *fileobj* is given, it is used for reading or writing data. If
+   it can be determined, *mode* is overridden by *fileobj*'s mode.
+   *fileobj* will be used from position 0.

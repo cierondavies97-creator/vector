@@ -1,0 +1,5 @@
+* "'c'": Open database for reading and writing, creating it if
+          it doesn't exist.
+        * "'n'": Always create a new, empty database, open for reading
+          and writing.
+      * **mode** -- The Unix file access mode of the file (default:

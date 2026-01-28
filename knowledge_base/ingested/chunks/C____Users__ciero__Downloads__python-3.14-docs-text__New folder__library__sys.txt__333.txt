@@ -1,0 +1,4 @@
+Changes the *filesystem encoding and error handler* to 'mbcs' and
+   'replace' respectively, for consistency with versions of Python
+   prior to 3.6.
+   This is equivalent to defining the "PYTHONLEGACYWINDOWSFSENCODING"

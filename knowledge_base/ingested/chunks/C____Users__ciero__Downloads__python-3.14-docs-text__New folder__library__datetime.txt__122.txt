@@ -1,0 +1,10 @@
+3                   # month
+   11                  # day
+   0
+   0
+   0
+   0                   # weekday (0 = Monday)
+   70                  # 70th day in the year
+   -1
+   >>> ic = d.isocalendar()
+   >>> for i in ic:

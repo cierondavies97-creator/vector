@@ -1,0 +1,5 @@
+...         was indented weird
+   ...             but that is okay''',
+   ...     epilog='''
+   ...             likewise for this epilog whose whitespace will
+   ...         be cleaned up and whose words will be wrapped

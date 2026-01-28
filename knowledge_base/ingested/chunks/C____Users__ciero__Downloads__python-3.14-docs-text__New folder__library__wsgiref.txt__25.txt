@@ -1,0 +1,4 @@
+Return "True" if 'header_name' is an HTTP/1.1 "Hop-by-Hop" header,
+   as defined by **RFC 2616**.
+class wsgiref.util.FileWrapper(filelike, blksize=8192)
+   A concrete implementation of the "wsgiref.types.FileWrapper"

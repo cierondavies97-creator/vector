@@ -1,0 +1,7 @@
+#  changed in the past.)
+   import time as _time
+   STDOFFSET = timedelta(seconds = -_time.timezone)
+   if _time.daylight:
+       DSTOFFSET = timedelta(seconds = -_time.altzone)
+   else:
+       DSTOFFSET = STDOFFSET

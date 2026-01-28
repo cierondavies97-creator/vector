@@ -1,0 +1,5 @@
+...     print(n, len(pep))
+      >>> get_pep.cache_info()
+      CacheInfo(hits=3, misses=8, maxsize=32, currsize=8)
+   Example of efficiently computing Fibonacci numbers using a cache to
+   implement a dynamic programming technique:

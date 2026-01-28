@@ -1,0 +1,4 @@
+damage your system.
+For this reason, you may want to control what gets unpickled by
+customizing "Unpickler.find_class()".  Unlike its name suggests,
+"Unpickler.find_class()" is called whenever a global (i.e., a class or

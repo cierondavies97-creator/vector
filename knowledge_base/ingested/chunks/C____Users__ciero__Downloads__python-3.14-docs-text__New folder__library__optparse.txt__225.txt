@@ -1,0 +1,4 @@
+destination) and returned by "parse_args()".
+If "parse_args()" encounters any errors in the argument list, it calls
+the OptionParser's "error()" method with an appropriate end-user error
+message. This ultimately terminates your process with an exit status

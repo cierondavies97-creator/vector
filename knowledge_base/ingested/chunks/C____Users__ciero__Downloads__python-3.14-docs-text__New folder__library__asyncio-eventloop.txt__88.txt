@@ -1,0 +1,5 @@
+used to bind the socket locally.  The *local_host* and
+     *local_port* are looked up using "getaddrinfo()".
+     Note:
+       On Windows, when using the proactor event loop with
+       "local_addr=None", an "OSError" with "errno.WSAEINVAL" will be

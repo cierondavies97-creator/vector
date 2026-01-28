@@ -1,0 +1,4 @@
+combination differently from the way the "optparse" version would
+handle them. For example (amongst other differences):
+* supplying "-o -v" gives "output="-v"" and "verbose=False" when using
+  "optparse", but a usage error with "argparse" (complaining that no

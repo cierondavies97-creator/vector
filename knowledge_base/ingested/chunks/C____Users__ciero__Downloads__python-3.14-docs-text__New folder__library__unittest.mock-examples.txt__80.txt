@@ -1,0 +1,5 @@
+method to directly set the return value for us:
+   >>> something = Something()
+   >>> mock_response = Mock(spec=open)
+   >>> mock_backend = Mock()
+   >>> config = {'get_endpoint.return_value.create_call.return_value.start_call.return_value': mock_response}

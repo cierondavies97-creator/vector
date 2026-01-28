@@ -1,0 +1,4 @@
+to be used in the same call, so in practice this confusion does not
+often arise.
+If the syntax "**expression" appears in the function call,
+"expression" must evaluate to a *mapping*, the contents of which are

@@ -1,0 +1,4 @@
+Alternatives in the command syntax are separated by a vertical bar
+("|").
+Entering a blank line repeats the last command entered.  Exception: if
+the last command was a "list" command, the next 11 lines are listed.

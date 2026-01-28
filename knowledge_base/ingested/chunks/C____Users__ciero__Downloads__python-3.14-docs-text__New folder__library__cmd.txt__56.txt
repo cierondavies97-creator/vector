@@ -1,0 +1,10 @@
+(turtle)
+   (turtle) right 90
+   (turtle) forward 400
+   (turtle) right 90
+   (turtle) forward 500
+   (turtle) right 90
+   (turtle) forward 400
+   (turtle) right 90
+   (turtle) forward 300
+   (turtle) playback spiral.cmd

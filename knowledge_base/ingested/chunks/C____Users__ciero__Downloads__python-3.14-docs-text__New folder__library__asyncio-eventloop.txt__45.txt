@@ -1,0 +1,3 @@
+Changed in version 3.8: In Python 3.7 and earlier with the default
+   event loop implementation, the difference between *when* and the
+   current time could not exceed one day.  This has been fixed in

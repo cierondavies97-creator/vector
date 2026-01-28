@@ -1,0 +1,5 @@
+Thread-local data is data whose values are thread specific. If you
+have data that you want to be local to a thread, create a "local"
+object and use its attributes:
+   >>> mydata = local()
+   >>> mydata.number = 42

@@ -1,0 +1,4 @@
+| A      | Answered   | Replied to                       |
+   +--------+------------+----------------------------------+
+   The "R" and "O" flags are stored in the *Status* header, and the
+   "D", "F", and "A" flags are stored in the *X-Status* header. The

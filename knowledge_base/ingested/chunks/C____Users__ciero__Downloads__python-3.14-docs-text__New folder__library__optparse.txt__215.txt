@@ -1,0 +1,5 @@
+---------------------
+"optparse" has five built-in option types: ""string"", ""int"",
+""choice"", ""float"" and ""complex"".  If you need to add new option
+types, see section Extending optparse.
+Arguments to string options are not checked or converted in any way:

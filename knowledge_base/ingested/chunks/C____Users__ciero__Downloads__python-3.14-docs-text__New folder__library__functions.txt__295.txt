@@ -1,0 +1,5 @@
+leading underscores) name in order to set it with "setattr()".
+class slice(stop, /)
+class slice(start, stop, step=None, /)
+   Return a *slice* object representing the set of indices specified
+   by "range(start, stop, step)".  The *start* and *step* arguments

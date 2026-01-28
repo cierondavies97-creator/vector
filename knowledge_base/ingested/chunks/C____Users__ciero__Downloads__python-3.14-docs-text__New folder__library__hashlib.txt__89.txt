@@ -1,0 +1,4 @@
+attacking cryptographic hash functions may result in a given
+   cryptographic hash function providing less collision resistance
+   than expected. Randomized hashing offers the signer additional
+   protection by reducing the likelihood that a preparer can generate

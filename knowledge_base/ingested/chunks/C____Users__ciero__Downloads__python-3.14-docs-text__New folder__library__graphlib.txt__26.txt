@@ -1,0 +1,4 @@
+further calls will return all new nodes that have all their
+      predecessors already processed. Once no more progress can be
+      made, empty tuples are returned.
+      Raises "ValueError" if called without calling "prepare()"

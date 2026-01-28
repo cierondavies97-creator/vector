@@ -1,0 +1,5 @@
+>>> harmonic_mean([40, 60], weights=[5, 30])
+      56.0
+   "StatisticsError" is raised if *data* is empty, any element is less
+   than zero, or if the weighted sum isn't positive.
+   The current algorithm has an early-out when it encounters a zero in

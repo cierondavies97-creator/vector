@@ -1,0 +1,7 @@
+* Angular conversion
+  * Trigonometric functions
+  * Hyperbolic functions
+  * Special functions
+  * Constants
+* "cmath" --- Mathematical functions for complex numbers
+  * Conversions to and from polar coordinates

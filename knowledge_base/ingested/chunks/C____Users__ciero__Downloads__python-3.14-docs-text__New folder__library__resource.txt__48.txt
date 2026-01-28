@@ -1,0 +1,3 @@
+| "13"     | "ru_nsignals"          | signals received                        |
+   +----------+------------------------+-----------------------------------------+
+   | "14"     | "ru_nvcsw"             | voluntary context switches              |

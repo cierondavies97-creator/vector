@@ -1,0 +1,6 @@
+'file:///etc/passwd'
+      >>> p = WindowsPath('c:/Windows')
+      >>> p.as_uri()
+      'file:///c:/Windows'
+   Deprecated since version 3.14, will be removed in version 3.19:
+   Calling this method from "PurePath" rather than "Path" is possible

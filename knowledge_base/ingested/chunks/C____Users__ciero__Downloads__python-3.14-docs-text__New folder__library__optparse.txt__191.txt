@@ -1,0 +1,6 @@
+parser.add_option("-f")
+     parser.add_option("-p", type="float", nargs=3, dest="point")
+  As it parses the command line
+     -f foo.txt -p 1 -3.5 4 -fbar.txt
+  "optparse" will set
+     options.f = "foo.txt"

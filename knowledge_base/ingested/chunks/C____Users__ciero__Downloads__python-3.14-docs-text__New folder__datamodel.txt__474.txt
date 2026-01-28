@@ -1,0 +1,6 @@
+Dynamically resolve bases that are not instances of "type".
+  "types.get_original_bases()"
+     Retrieve a class's "original bases" prior to modifications by
+     "__mro_entries__()".
+  **PEP 560**
+     Core support for typing module and generic types.

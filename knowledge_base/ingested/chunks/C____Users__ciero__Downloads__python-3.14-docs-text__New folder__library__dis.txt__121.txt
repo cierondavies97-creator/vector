@@ -1,0 +1,8 @@
+*b, c = d" will be stored after execution as "STACK.extend((a, b,
+   c))".
+STORE_ATTR(namei)
+   Implements:
+      obj = STACK.pop()
+      value = STACK.pop()
+      obj.name = value
+   where *namei* is the index of name in "co_names" of the code

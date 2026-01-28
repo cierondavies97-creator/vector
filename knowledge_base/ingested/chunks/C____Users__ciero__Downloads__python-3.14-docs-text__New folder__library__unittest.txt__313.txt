@@ -1,0 +1,4 @@
+*namespace packages*.Paths are sorted before being imported so
+      that execution order is the same even if the underlying file
+      system's ordering is not dependent on file name.
+      Changed in version 3.5: Found packages are now checked for

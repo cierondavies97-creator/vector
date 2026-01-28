@@ -1,0 +1,4 @@
+keys. Note that numeric types obey the normal rules for numeric
+comparison: if two numbers compare equal (e.g., "1" and "1.0"), only
+one of them can be contained in a set.
+There are currently two intrinsic set types:

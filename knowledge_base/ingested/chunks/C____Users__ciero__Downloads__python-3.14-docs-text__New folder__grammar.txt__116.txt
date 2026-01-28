@@ -1,0 +1,4 @@
+CHECK_VERSION(stmt_ty, 12, "Type statement is",
+           _PyAST_TypeAlias(CHECK(expr_ty, _PyPegen_set_expr_context(p, n, Store)), t, b, EXTRA)) }
+   # Type parameter declaration
+   # --------------------------

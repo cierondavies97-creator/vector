@@ -1,0 +1,3 @@
+freedom.If you somehow know the true population mean μ, you may
+     use this function to calculate the variance of a sample, giving
+     the known population mean as the second argument.  Provided the

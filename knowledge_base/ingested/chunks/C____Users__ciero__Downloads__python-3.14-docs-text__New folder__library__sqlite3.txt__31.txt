@@ -1,0 +1,5 @@
+Open a connection to an SQLite database.
+   Parameters:
+      * **database** (*path-like object*) -- The path to the database
+        file to be opened. You can pass "":memory:"" to create an
+        SQLite database existing only in memory, and open a connection

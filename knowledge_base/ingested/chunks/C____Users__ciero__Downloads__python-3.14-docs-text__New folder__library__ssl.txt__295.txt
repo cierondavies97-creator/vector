@@ -1,0 +1,3 @@
+auth is disabled by default and a server can only request a TLS
+   client certificate during the initial handshake. When enabled, a
+   server may request a TLS client certificate at any time after the

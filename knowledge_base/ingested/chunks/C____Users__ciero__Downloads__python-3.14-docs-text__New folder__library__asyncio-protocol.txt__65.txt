@@ -1,0 +1,5 @@
+closed by this side of the connection.
+-[ Flow Control Callbacks ]-
+Flow control callbacks can be called by transports to pause or resume
+writing performed by the protocol.
+See the documentation of the "set_write_buffer_limits()" method for

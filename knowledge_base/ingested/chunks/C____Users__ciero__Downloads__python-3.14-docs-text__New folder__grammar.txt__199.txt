@@ -1,0 +1,5 @@
+_PyAST_Call(a,
+                    (b) ? ((expr_ty) b)->v.Call.args : NULL,
+                    (b) ? ((expr_ty) b)->v.Call.keywords : NULL,
+                    EXTRA) }
+       | a=atom &t_lookahead { a }

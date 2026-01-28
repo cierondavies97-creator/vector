@@ -1,0 +1,5 @@
+The method should be used along with the "drain()" method:
+         stream.write(data)
+         await stream.drain()
+   writelines(data)
+      The method writes a list (or any iterable) of bytes to the

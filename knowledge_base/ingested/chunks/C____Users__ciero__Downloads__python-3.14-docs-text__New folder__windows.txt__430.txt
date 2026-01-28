@@ -1,0 +1,3 @@
+If no such option is found, the launcher will enumerate the installed
+Python versions and use the latest minor release found for the major
+version, which is likely, although not guaranteed, to be the most

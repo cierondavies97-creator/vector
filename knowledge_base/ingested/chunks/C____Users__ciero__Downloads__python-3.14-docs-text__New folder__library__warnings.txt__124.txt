@@ -1,0 +1,5 @@
+"PYTHON_CONTEXT_AWARE_WARNINGS" environment variable.
+   Note:
+     It is likely that most programs that desire thread-safe behaviour
+     of the warnings module will also want to set the
+     "thread_inherit_context" flag to true.  That flag causes threads

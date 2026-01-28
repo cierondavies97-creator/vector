@@ -1,0 +1,5 @@
+this list despite some upstream vendors offering an odd "FIPS
+   compliant" Python build that excludes it.
+   Added in version 3.2.
+hashlib.algorithms_available
+   A set containing the names of the hash algorithms that are

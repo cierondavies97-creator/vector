@@ -1,0 +1,10 @@
+>>> class Color(IntFlag):
+   ...     RED = auto()
+   ...     GREEN = auto()
+   ...     BLUE = auto()
+   ...
+   >>> Color.RED & 2
+   <Color: 0>
+   >>> Color.RED | 2
+   <Color.RED|GREEN: 3>
+   If any integer operation is performed with an *IntFlag* member, the

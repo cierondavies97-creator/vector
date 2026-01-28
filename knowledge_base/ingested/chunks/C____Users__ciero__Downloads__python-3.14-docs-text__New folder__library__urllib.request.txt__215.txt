@@ -1,0 +1,3 @@
+This can occur, for example, when the  download is interrupted.
+   The *Content-Length* is treated as a lower bound: if there's more
+   data  to read, urlretrieve reads more data, but if less data is

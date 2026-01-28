@@ -1,0 +1,4 @@
+the destination path as arguments. By default, "copy2()" is used,
+   but any function that supports the same signature (like "copy()")
+   can be used.
+   If *dirs_exist_ok* is false (the default) and *dst* already exists,

@@ -1,0 +1,4 @@
+reassigning, or deleting local variables will immediately affect
+   the contents of the returned mapping object.
+   In an *optimized scope* (including functions, generators, and
+   coroutines), each call to "locals()" instead returns a fresh

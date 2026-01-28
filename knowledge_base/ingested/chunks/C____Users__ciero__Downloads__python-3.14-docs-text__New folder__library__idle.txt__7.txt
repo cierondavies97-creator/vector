@@ -1,0 +1,8 @@
+some entries described below are moved around to conform to Apple
+guidelines.
+File menu (Shell and Editor)
+----------------------------
+New File
+   Create a new file editing window.
+Open...
+   Open an existing file with an Open dialog.

@@ -1,0 +1,6 @@
+[(8.2,), (7.5,)]
+The result is a "list" of two "tuple"s, one per row, each containing
+that row's "score" value.
+Now, insert three more rows by calling "cur.executemany(...)":
+   data = [
+       ("Monty Python Live at the Hollywood Bowl", 1982, 7.9),

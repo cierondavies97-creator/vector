@@ -1,0 +1,4 @@
+-------------------------------
+Not knowing the default extraction behaviors can cause unexpected
+decompression results. For example, when extracting the same archive
+twice, it overwrites files without asking.

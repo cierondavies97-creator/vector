@@ -1,0 +1,4 @@
+will be stored in the attribute "unconsumed_tail". This bytestring
+   must be passed to a subsequent call to "decompress()" if
+   decompression is to continue.  If *max_length* is zero then the
+   whole input is decompressed, and "unconsumed_tail" is empty.

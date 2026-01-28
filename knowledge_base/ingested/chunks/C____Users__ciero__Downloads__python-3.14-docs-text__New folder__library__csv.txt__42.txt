@@ -1,0 +1,4 @@
+classes through their initializer ("__init__") functions like this:
+      import csv
+      with open('students.csv', 'w', newline='') as csvfile:
+          writer = csv.writer(csvfile, dialect='unix')

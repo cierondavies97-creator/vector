@@ -1,0 +1,3 @@
+and conversions (if any) are passed to a new "Interpolation" object
+  that is created for each evaluated expression. It is up to code that
+  processes the resulting "Template" object to decide how to handle

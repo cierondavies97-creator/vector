@@ -1,0 +1,5 @@
+"PyMethodDef" structures.  Each entry in the table is an instance of
+this structure:
+   typedef struct PyMethodDef {
+       const char  *ml_name;       /* method name */
+       PyCFunction  ml_meth;       /* implementation function */

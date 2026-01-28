@@ -1,0 +1,6 @@
+Access Rights
+-------------
+For more information, see Registry Key Security and Access.
+winreg.KEY_ALL_ACCESS
+   Combines the STANDARD_RIGHTS_REQUIRED, "KEY_QUERY_VALUE",
+   "KEY_SET_VALUE", "KEY_CREATE_SUB_KEY", "KEY_ENUMERATE_SUB_KEYS",

@@ -1,0 +1,4 @@
+a CGI and reading the data it returns to us. Note that this example
+will only work when the Python installation supports SSL.
+   >>> import urllib.request
+   >>> req = urllib.request.Request(url='https://localhost/cgi-bin/test.cgi',

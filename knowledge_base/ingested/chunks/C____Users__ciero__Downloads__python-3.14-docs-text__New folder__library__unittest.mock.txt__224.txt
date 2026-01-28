@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+     ...
+   AttributeError: <module 'sys' (built-in)> does not have the attribute 'non_existing_attribute'
+but adding "create=True" in the call to "patch()" will make the

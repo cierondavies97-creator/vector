@@ -1,0 +1,6 @@
+using **PEP 526** type annotations.  For example, this code:
+   from dataclasses import dataclass
+   @dataclass
+   class InventoryItem:
+       """Class for keeping track of an item in inventory."""
+       name: str

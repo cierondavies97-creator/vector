@@ -1,0 +1,5 @@
+method is called, a "RuntimeError" is raised.
+      The method "notifyAll" is a deprecated alias for this method.
+Semaphore objects
+-----------------
+This is one of the oldest synchronization primitives in the history of

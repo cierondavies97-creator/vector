@@ -1,0 +1,4 @@
+data.  They are built up from format characters, which specify the
+type of data being packed/unpacked.  In addition, special characters
+control the byte order, size and alignment. Each format string
+consists of an optional prefix character which describes the overall

@@ -1,0 +1,3 @@
+['Ah! We do have ', Interpolation('Camembert', 'cheese', None, ''), '.']
+      Concatenating a "Template" and a "str" is **not** supported.
+      This is because it is unclear whether the string should be

@@ -1,0 +1,5 @@
+padding, even when the item will be the last in the buffer.  Raises
+   "OverflowError" if *length* is outside the permissible range of
+   values.
+   Availability: Unix, not WASI.
+   Most Unix platforms.

@@ -1,0 +1,4 @@
+infinity:      "Infinity" | "inf"
+      nan:           "nan"
+      digit:         <a Unicode decimal digit, i.e. characters in Unicode general category Nd>
+      digitpart:     digit (["_"] digit)*

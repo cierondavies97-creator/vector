@@ -1,0 +1,4 @@
+pool.
+   Changed in version 3.12: On POSIX systems, if your application has
+   multiple threads and the "multiprocessing" context uses the
+   ""fork"" start method: The "os.fork()" function called internally

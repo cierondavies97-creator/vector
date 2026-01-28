@@ -1,0 +1,4 @@
+function expecting a "list" containing "float" elements:
+      def average(values: list[float]) -> float:
+          return sum(values) / len(values)
+   Another example for *mapping* objects, using a "dict", which is a

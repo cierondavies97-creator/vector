@@ -1,0 +1,5 @@
+returns a pseudo-random integer:
+   >>> print(libc.rand())
+   1804289383
+On Windows, you can call the "GetModuleHandleA()" function, which
+returns a win32 module handle (passing "None" as single argument to

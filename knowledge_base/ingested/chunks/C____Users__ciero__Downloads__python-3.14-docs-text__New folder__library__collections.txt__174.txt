@@ -1,0 +1,8 @@
+>>> d.move_to_end('b')
+         >>> ''.join(d)
+         'acdeb'
+         >>> d.move_to_end('b', last=False)
+         >>> ''.join(d)
+         'bacde'
+      Added in version 3.2.
+In addition to the usual mapping methods, ordered dictionaries also

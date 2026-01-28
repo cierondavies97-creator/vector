@@ -1,0 +1,4 @@
+zero mask which is treated as a *net mask*.  If no mask is
+      provided, it's considered to be "/32".
+      For example, the following *address* specifications are
+      equivalent: "192.168.1.0/24", "192.168.1.0/255.255.255.0" and

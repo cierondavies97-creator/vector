@@ -1,0 +1,4 @@
+-------------------------------
+IDLE is intentionally different from standard Python in order to
+facilitate development of tkinter programs.  Enter "import tkinter as
+tk; root = tk.Tk()" in standard Python and nothing appears.  Enter the

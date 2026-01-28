@@ -1,0 +1,8 @@
+>>> parser.add_argument('--foo', help=argparse.SUPPRESS)
+   >>> parser.print_help()
+   usage: frobble [-h]
+   options:
+     -h, --help  show this help message and exit
+metavar
+-------
+When "ArgumentParser" generates help messages, it needs some way to

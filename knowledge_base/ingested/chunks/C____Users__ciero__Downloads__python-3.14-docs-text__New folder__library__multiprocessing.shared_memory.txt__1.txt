@@ -1,0 +1,4 @@
+Added in version 3.8.
+======================================================================
+This module provides a class, "SharedMemory", for the allocation and
+management of shared memory to be accessed by one or more processes on

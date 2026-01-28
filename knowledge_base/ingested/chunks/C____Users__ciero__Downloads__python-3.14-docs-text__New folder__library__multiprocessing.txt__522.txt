@@ -1,0 +1,6 @@
+for i in range(len(TASKS1)):
+           print('\t', done_queue.get())
+       # Add more tasks using `put()`
+       for task in TASKS2:
+           task_queue.put(task)
+       # Get and print some more results

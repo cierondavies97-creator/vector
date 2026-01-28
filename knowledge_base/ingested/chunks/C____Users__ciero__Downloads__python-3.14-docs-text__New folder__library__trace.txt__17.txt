@@ -1,0 +1,4 @@
+in which to write updated count information.  *timing* enables a
+   timestamp relative to when tracing was started to be displayed.
+   run(cmd)
+      Execute the command and gather statistics from the execution

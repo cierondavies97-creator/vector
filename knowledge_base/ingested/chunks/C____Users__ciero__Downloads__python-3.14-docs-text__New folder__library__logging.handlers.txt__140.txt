@@ -1,0 +1,4 @@
+getEventType(record)
+      Returns the event type for the record. Override this if you want
+      to specify your own types. This version does a mapping using the
+      handler's typemap attribute, which is set up in "__init__()" to

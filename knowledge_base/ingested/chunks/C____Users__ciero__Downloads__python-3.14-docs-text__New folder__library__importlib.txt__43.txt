@@ -1,0 +1,3 @@
+module.  The finder will search for the module only within the
+      *path entry* to which it is assigned.  If a spec cannot be
+      found, "None" is returned.  When passed in, "target" is a module

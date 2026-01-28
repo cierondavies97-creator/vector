@@ -1,0 +1,3 @@
+time, a "304", "'Not Modified'" response is sent. Otherwise, the
+      content type is guessed by calling the "guess_type()" method,
+      which in turn uses the *extensions_map* variable, and the file

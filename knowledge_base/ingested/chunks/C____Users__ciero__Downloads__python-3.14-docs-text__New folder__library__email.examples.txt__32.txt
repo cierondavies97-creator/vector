@@ -1,0 +1,8 @@
+try:
+           os.mkdir(args.directory)
+       except FileExistsError:
+           pass
+       counter = 1
+       for part in msg.walk():
+           # multipart/* are just containers
+           if part.get_content_maintype() == 'multipart':

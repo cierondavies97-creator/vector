@@ -1,0 +1,4 @@
+leftmost iterable. For example: "[x*y for x in range(10) for y in
+range(x, x+10)]".
+To ensure the comprehension always results in a container of the
+appropriate type, "yield" and "yield from" expressions are prohibited

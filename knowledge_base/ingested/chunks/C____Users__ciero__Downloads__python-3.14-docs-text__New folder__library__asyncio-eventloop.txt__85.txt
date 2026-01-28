@@ -1,0 +1,5 @@
+See also:
+     The "open_connection()" function is a high-level alternative API.
+     It returns a pair of ("StreamReader", "StreamWriter") that can be
+     used directly in async/await code.
+async loop.create_datagram_endpoint(protocol_factory, local_addr=None, remote_addr=None, *, family=0, proto=0, flags=0, reuse_port=None, allow_broadcast=None, sock=None)

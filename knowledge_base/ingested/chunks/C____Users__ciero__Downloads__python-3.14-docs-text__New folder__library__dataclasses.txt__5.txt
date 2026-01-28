@@ -1,0 +1,5 @@
+directly specified in the "InventoryItem" definition shown above.
+Added in version 3.7.
+Module contents
+===============
+@dataclasses.dataclass(*, init=True, repr=True, eq=True, order=False, unsafe_hash=False, frozen=False, match_args=True, kw_only=False, slots=False, weakref_slot=False)

@@ -1,0 +1,4 @@
+*flags*; it defaults to zero.  (The format of *address* depends on
+   the address family --- see above.)
+socket.recv_into(buffer[, nbytes[, flags]])
+   Receive up to *nbytes* bytes from the socket, storing the data into

@@ -1,0 +1,4 @@
+possessive version of the quantifier above. For example, on the
+   6-character string "'aaaaaa'", "a{3,5}+aa" attempt to match 5 "'a'"
+   characters, then, requiring 2 more "'a'"s, will need more
+   characters than available and thus fail, while "a{3,5}aa" will

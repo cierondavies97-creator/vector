@@ -1,0 +1,5 @@
+the millisecond value).
+      Changed in version 3.9: The "default_msec_format" can be "None".
+   formatException(exc_info)
+      Formats the specified exception information (a standard
+      exception tuple as returned by "sys.exc_info()") as a string.

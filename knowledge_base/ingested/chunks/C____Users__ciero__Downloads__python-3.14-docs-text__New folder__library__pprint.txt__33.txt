@@ -1,0 +1,4 @@
+flag indicating whether recursion was detected.  The first argument
+   is the object to be presented.  The second is a dictionary which
+   contains the "id()" of objects that are part of the current
+   presentation context (direct and indirect containers for *object*

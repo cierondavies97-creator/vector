@@ -1,0 +1,6 @@
+bar: baz
+         spam: 99.9
+         answer: 42
+The above YAML snippet defines three formatters.  The first, with id
+"brief", is a standard "logging.Formatter" instance with the specified
+format string.  The second, with id "default", has a longer format and

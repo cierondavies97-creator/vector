@@ -1,0 +1,10 @@
+>>> mock = Mock(some_attribute='eggs', **attrs)
+>>> mock.some_attribute
+'eggs'
+>>> mock.method()
+3
+>>> mock.other()
+Traceback (most recent call last):
+  ...
+KeyError
+A callable mock which was created with a *spec* (or a *spec_set*) will

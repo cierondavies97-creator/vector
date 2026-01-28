@@ -1,0 +1,5 @@
+class selectors.DefaultSelector
+   The default selector class, using the most efficient implementation
+   available on the current platform. This should be the default
+   choice for most users.
+class selectors.SelectSelector

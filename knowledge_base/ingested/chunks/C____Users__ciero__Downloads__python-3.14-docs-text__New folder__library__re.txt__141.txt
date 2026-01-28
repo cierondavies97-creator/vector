@@ -1,0 +1,7 @@
+The sequence
+      prog = re.compile(pattern)
+      result = prog.match(string)
+   is equivalent to
+      result = re.match(pattern, string)
+   but using "re.compile()" and saving the resulting regular
+   expression object for reuse is more efficient when the expression

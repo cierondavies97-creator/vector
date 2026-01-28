@@ -1,0 +1,4 @@
+3, and so on. Note that UUID version 2 is deliberately omitted as it
+is outside the scope of the RFC.
+If all you want is a unique ID, you should probably call "uuid1()" or
+"uuid4()".  Note that "uuid1()" may compromise privacy since it

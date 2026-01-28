@@ -1,0 +1,5 @@
+yield tuple(pool[i] for i in indices)
+   Added in version 3.1.
+itertools.compress(data, selectors)
+   Make an iterator that returns elements from *data* where the
+   corresponding element in *selectors* is true.  Stops when either

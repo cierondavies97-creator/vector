@@ -1,0 +1,4 @@
+the netmask is either an integer representing the prefix length
+      (e.g. "24") or a string representing the prefix mask (e.g.
+      "255.255.255.0").
+   An "AddressValueError" is raised if *address* is not a valid IPv4

@@ -1,0 +1,5 @@
+the global variable "__name__".  For instance, use your favorite text
+editor to create a file called "fibo.py" in the current directory with
+the following contents:
+   # Fibonacci numbers module
+   def fib(n):

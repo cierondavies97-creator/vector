@@ -1,0 +1,4 @@
+provided, or if its validation fails. This mode is **not**
+   sufficient to verify a certificate in client mode as it does not
+   match hostnames.  "check_hostname" must be enabled as well to
+   verify the authenticity of a cert. "PROTOCOL_TLS_CLIENT" uses

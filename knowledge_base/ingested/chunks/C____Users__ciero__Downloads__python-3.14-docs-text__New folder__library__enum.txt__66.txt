@@ -1,0 +1,12 @@
+...     THREE = 3
+   ...
+   >>> Number.THREE
+   <Number.THREE: 3>
+   >>> Number.ONE + Number.TWO
+   3
+   >>> Number.THREE + 5
+   8
+   >>> Number.THREE == 3
+   True
+   Note:
+     Using "auto" with "IntEnum" results in integers of increasing

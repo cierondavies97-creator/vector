@@ -1,0 +1,5 @@
+have priority over "obj"'s "__setstate__()".
+     Added in version 3.8: The optional sixth tuple item, "(obj,
+     state)", was added.
+object.__reduce_ex__(protocol)
+   Alternatively, a "__reduce_ex__()" method may be defined.  The only

@@ -1,0 +1,5 @@
+if hasattr(sys.stdout, 'buffer'):
+                  sys.stdout.buffer.write(bytes)
+              else:
+                  text = bytes.decode(sys.stdout.encoding, 'strict')
+                  sys.stdout.write(text)

@@ -1,0 +1,3 @@
+>>> d['lion'] = 'orange'         # update an existing key two levels down
+   >>> d['snake'] = 'red'           # new keys get added to the topmost dict
+   >>> del d['elephant']            # remove an existing key one level down

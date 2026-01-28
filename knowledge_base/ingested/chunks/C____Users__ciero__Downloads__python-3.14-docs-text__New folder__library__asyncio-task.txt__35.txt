@@ -1,0 +1,6 @@
+passing on all *kwargs*.
+Task Cancellation
+=================
+Tasks can easily and safely be cancelled. When a task is cancelled,
+"asyncio.CancelledError" will be raised in the task at the next
+opportunity.

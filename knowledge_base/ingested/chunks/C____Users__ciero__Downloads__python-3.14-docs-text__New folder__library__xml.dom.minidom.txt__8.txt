@@ -1,0 +1,5 @@
+creates an "io.StringIO" object for the string and passes that on
+   to "parse()".
+Both functions return a "Document" object representing the content of
+the document.
+What the "parse()" and "parseString()" functions do is connect an XML

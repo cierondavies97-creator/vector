@@ -1,0 +1,4 @@
+"POSIX_SPAWN_RESETIDS" flag.
+   If the *setsid* argument is "True", it will create a new session ID
+   for "posix_spawn". *setsid* requires "POSIX_SPAWN_SETSID" or
+   "POSIX_SPAWN_SETSID_NP" flag. Otherwise, "NotImplementedError" is

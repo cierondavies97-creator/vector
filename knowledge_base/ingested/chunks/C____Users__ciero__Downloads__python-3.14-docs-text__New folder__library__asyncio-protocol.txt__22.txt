@@ -1,0 +1,5 @@
+the given third-party event loop implementation or on the current
+   platform.
+   For example, the following code attempts to get the underlying
+   socket object of the transport:
+      sock = transport.get_extra_info('socket')

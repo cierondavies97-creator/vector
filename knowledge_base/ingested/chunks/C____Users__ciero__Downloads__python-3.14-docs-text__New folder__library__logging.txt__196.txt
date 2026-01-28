@@ -1,0 +1,3 @@
+|                  |                           | "message", or an arbitrary object (see Using    |
+|                  |                           | arbitrary objects as messages).                 |
++------------------+---------------------------+-------------------------------------------------+

@@ -1,0 +1,6 @@
+Return the set of members defined in a "Protocol".
+      >>> from typing import Protocol, get_protocol_members
+      >>> class P(Protocol):
+      ...     def a(self) -> str: ...
+      ...     b: int
+      >>> get_protocol_members(P) == frozenset({'a', 'b'})

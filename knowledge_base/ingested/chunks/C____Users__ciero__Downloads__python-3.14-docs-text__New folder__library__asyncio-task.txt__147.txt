@@ -1,0 +1,5 @@
+run time. Instead, by using "asyncio.to_thread()", we can run it in
+   a separate thread without blocking the event loop.
+   Note:
+     Due to the *GIL*, "asyncio.to_thread()" can typically only be
+     used to make IO-bound functions non-blocking. However, for

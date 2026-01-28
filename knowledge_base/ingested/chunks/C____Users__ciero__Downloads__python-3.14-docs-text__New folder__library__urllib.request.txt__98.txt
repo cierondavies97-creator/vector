@@ -1,0 +1,5 @@
+Request.has_header(header)
+   Return whether the instance has the named header (checks both
+   regular and unredirected).
+Request.remove_header(header)
+   Remove named header from the request instance (both from regular

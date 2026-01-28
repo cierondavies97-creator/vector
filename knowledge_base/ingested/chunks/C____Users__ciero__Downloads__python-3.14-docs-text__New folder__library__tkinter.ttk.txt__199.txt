@@ -1,0 +1,5 @@
+it is moved to the end. If *item* was detached it is reattached.
+   next(item)
+      Returns the identifier of *item*'s next sibling, or '' if *item*
+      is the last child of its parent.
+   parent(item)

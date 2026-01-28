@@ -1,0 +1,4 @@
+(because technically they are not there).  If they are overridden in
+  the section, deleting causes the default value to be visible again.
+  Trying to delete a default value causes a "KeyError".
+* "DEFAULTSECT" cannot be removed from the parser:

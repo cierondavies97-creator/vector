@@ -1,0 +1,4 @@
+than 1 second. While this function normally returns non-decreasing
+   values, it can return a lower value than a previous call if the
+   system clock has been set back between the two calls.
+   The number returned by "time()" may be converted into a more common

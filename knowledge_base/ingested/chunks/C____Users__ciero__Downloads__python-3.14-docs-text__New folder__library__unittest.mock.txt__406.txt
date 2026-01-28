@@ -1,0 +1,8 @@
+>>> from unittest.mock import Mock
+>>> class Order:
+...     @staticmethod
+...     def get_value():
+...         return "third"
+...
+>>> order_mock = Mock(spec=Order, wraps=Order)
+>>> order_mock.get_value.side_effect = ["first"]

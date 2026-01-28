@@ -1,0 +1,4 @@
+internal buffer (consumed). Returned data will include the
+      separator at the end.
+      If the amount of data read exceeds the configured stream limit,
+      a "LimitOverrunError" exception is raised, and the data is left

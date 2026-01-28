@@ -1,0 +1,3 @@
+both IPv4 and IPv6 formats means that error messages provide minimal
+information on the precise error, as the functions don't know whether
+the IPv4 or IPv6 format was intended. More detailed error reporting

@@ -1,0 +1,3 @@
+consider using the "argparse" module instead. Users who are familiar
+with the Unix "getopt()" function, but would like to get equivalent
+behavior while writing less code and getting better help and error

@@ -1,0 +1,4 @@
+which depend on several handler routines from the type implementation,
+the older protocols have been defined as optional blocks of handlers
+referenced by the type object.  For newer protocols there are
+additional slots in the main type object, with a flag bit being set to

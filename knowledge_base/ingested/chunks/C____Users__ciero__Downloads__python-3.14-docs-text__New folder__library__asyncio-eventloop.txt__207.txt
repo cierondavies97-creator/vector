@@ -1,0 +1,6 @@
+Create a subprocess from one or more string arguments specified by
+   *args*.
+   *args* must be a list of strings represented by:
+   * "str";
+   * or "bytes", encoded to the filesystem encoding.
+   The first string specifies the program executable, and the

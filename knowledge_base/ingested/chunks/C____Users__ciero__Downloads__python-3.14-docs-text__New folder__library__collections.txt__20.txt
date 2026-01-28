@@ -1,0 +1,4 @@
+>>> adjustments = {'art': 'van gogh', 'opera': 'carmen'}
+      >>> list(ChainMap(adjustments, baseline))
+      ['music', 'art', 'opera']
+   This gives the same ordering as a series of "dict.update()" calls

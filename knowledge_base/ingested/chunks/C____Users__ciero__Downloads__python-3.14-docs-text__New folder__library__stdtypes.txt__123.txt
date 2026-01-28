@@ -1,0 +1,5 @@
+integers 0 and 1, respectively. However, relying on this is
+discouraged; explicitly convert using "int()" instead.
+Iterator Types
+==============
+Python supports a concept of iteration over containers.  This is

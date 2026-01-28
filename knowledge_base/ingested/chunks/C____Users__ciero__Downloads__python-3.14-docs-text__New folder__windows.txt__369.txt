@@ -1,0 +1,4 @@
+installations are going to be performed it is very useful to have a
+locally cached copy.
+Execute the following command from Command Prompt to download all
+possible required files.  Remember to substitute "python-3.9.0.exe"

@@ -1,0 +1,2 @@
+| frame.f_generator                                  | The *generator* or *coroutine* object that owns    |
+|                                                    | this frame, or "None" if the frame is a normal     |

@@ -1,0 +1,4 @@
+filenames up to a length of at best 256 characters and linknames up
+  to 100 characters. The maximum file size is 8 GiB. This is an old
+  and limited but widely supported format.
+* The GNU tar format ("GNU_FORMAT"). It supports long filenames and

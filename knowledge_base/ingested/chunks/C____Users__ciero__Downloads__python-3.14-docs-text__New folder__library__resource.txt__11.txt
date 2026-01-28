@@ -1,0 +1,5 @@
+the system imposed limit.
+   "setrlimit" may also raise "error" if the underlying system call
+   fails.
+   VxWorks only supports setting "RLIMIT_NOFILE".
+   Raises an auditing event "resource.setrlimit" with arguments

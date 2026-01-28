@@ -1,0 +1,3 @@
+| curses.ACS_DIAMOND       | diamond                                    |
++--------------------------+--------------------------------------------+
+| curses.ACS_GEQUAL        | greater-than-or-equal-to                   |

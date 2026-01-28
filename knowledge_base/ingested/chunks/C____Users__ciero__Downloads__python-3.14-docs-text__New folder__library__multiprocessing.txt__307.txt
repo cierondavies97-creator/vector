@@ -1,0 +1,3 @@
+case where no exposed list is specified, all "public methods" of
+      the shared object will be accessible.  (Here a "public method"
+      means any attribute which has a "__call__()" method and whose

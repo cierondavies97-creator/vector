@@ -1,0 +1,6 @@
+"'62'" or "'x3E'". This method is only called if *convert_charrefs*
+   is false.
+HTMLParser.handle_comment(data)
+   This method is called when a comment is encountered (e.g. "<!--
+   comment-->").
+   For example, the comment "<!-- comment -->" will cause this method

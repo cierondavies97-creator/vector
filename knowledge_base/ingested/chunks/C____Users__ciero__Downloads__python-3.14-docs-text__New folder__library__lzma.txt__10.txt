@@ -1,0 +1,3 @@
+constructor: "LZMAFile(filename, mode, ...)". In this case, the
+   *encoding*, *errors* and *newline* arguments must not be provided.
+   For text mode, a "LZMAFile" object is created, and wrapped in an

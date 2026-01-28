@@ -1,0 +1,3 @@
+| space     | Indicates that a leading space should be used on positive  |
+|           | numbers, and a minus sign on negative numbers.             |
++-----------+------------------------------------------------------------+

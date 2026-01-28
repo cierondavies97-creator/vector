@@ -1,0 +1,5 @@
+returned by "termios.tcgetattr()", to that of a tty in raw mode.
+   Added in version 3.12.
+tty.cfmakecbreak(mode)
+   Convert the tty attribute list *mode*, which is a list like the one
+   returned by "termios.tcgetattr()", to that of a tty in cbreak mode.

@@ -1,0 +1,5 @@
+under Help and preferences.
+Most configuration options apply to all windows or all future windows.
+The option items below only apply to the active window.
+Show/Hide Code Context (Editor Window only)
+   Open a pane at the top of the edit window which shows the block

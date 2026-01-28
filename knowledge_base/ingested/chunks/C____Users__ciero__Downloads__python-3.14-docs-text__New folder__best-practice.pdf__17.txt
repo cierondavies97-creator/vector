@@ -1,0 +1,7 @@
+Development Methodologies
+Finding Bugs with Pylint
+Example
+def current_rotation(beta, iota, phi, sigma):
+""" calculate current rotation """
+return np.cos(beta)*np.cos(phi)*np.cos(sigma)
++np.sin(beta)*np.cos(phi)*np.sin(sigma)*np.cos(iota)

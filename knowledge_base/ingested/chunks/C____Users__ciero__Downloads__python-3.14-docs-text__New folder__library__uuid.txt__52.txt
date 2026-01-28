@@ -1,0 +1,6 @@
+The "uuid" module defines the following constants for the possible
+values of the "variant" attribute:
+uuid.RESERVED_NCS
+   Reserved for NCS compatibility.
+uuid.RFC_4122
+   Specifies the UUID layout given in **RFC 4122**. This constant is

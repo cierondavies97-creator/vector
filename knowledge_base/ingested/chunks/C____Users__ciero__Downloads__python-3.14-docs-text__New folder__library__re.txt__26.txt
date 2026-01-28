@@ -1,0 +1,5 @@
+the quantifier makes it perform the match in *non-greedy* or
+   *minimal* fashion; as *few* characters as possible will be matched.
+   Using the RE "<.*?>" will match only "'<a>'".
+"*+", "++", "?+"
+   Like the "'*'", "'+'", and "'?'" quantifiers, those where "'+'" is

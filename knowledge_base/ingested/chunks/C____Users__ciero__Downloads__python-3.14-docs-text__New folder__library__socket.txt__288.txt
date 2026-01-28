@@ -1,0 +1,5 @@
+the system call instead of raising an "InterruptedError" exception
+   (see **PEP 475** for the rationale).
+socket.sendto(bytes, address)
+socket.sendto(bytes, flags, address)
+   Send data to the socket.  The socket should not be connected to a

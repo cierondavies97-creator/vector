@@ -1,0 +1,8 @@
+>>> string = "¡kočka 😸!"
+   >>> ascii(string)
+   "'\\xa1ko\\u010dka \\U0001f638!'"
+   >>> f'{string = !a}'
+   "string = '\\xa1ko\\u010dka \\U0001f638!'"
+Format specifier
+~~~~~~~~~~~~~~~~
+After the expression has been evaluated, and possibly converted using

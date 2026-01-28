@@ -1,0 +1,4 @@
+>>> '{:*^30}'.format('centered')  # use '*' as a fill char
+   '***********centered***********'
+Replacing "%+f", "%-f", and "% f" and specifying a sign:
+   >>> '{:+f}; {:+f}'.format(3.14, -3.14)  # show it always

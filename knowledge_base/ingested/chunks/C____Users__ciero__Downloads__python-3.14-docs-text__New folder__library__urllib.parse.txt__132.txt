@@ -1,0 +1,3 @@
+that case, if the optional parameter *doseq* evaluates to "True",
+   individual "key=value" pairs separated by "'&'" are generated for
+   each element of the value sequence for the key.  The order of

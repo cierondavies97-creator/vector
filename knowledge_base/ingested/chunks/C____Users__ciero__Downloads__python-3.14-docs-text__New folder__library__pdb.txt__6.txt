@@ -1,0 +1,7 @@
+command.
+Changed in version 3.7: The built-in "breakpoint()", when called with
+defaults, can be used instead of "import pdb; pdb.set_trace()".
+   def double(x):
+      breakpoint()
+      return x * 2
+   val = 3

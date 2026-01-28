@@ -1,0 +1,6 @@
+| bitwise_xor
+   bitwise_xor[expr_ty]:
+       | a=bitwise_xor '^' b=bitwise_and { _PyAST_BinOp(a, BitXor, b, EXTRA) }
+       | bitwise_and
+   bitwise_and[expr_ty]:
+       | a=bitwise_and '&' b=shift_expr { _PyAST_BinOp(a, BitAnd, b, EXTRA) }

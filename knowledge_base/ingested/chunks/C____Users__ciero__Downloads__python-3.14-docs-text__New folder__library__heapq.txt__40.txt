@@ -1,0 +1,5 @@
+position in the heap?
+* Or if a pending task needs to be deleted, how do you find it and
+  remove it from the queue?
+A solution to the first two challenges is to store entries as
+3-element list including the priority, an entry count, and the task.

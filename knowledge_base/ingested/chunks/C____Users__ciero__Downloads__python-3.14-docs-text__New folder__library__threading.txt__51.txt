@@ -1,0 +1,7 @@
+they came from.
+You can create custom "local" objects by subclassing the "local"
+class:
+   >>> class MyLocal(local):
+   ...     number = 2
+   ...     def __init__(self, /, **kw):
+   ...         self.__dict__.update(kw)

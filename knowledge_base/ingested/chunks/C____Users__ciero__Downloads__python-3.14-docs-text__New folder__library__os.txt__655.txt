@@ -1,0 +1,5 @@
+argument is a combination of the C library
+   "POSIX_SPAWN_SETSCHEDPARAM" and "POSIX_SPAWN_SETSCHEDULER" flags.
+   Raises an auditing event "os.posix_spawn" with arguments "path",
+   "argv", "env".
+   Added in version 3.8.

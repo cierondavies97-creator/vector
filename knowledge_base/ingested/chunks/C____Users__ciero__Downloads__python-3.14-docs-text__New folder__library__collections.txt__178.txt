@@ -1,0 +1,6 @@
+and its "update()" method.
+Changed in version 3.9: Added merge ("|") and update ("|=") operators,
+specified in **PEP 584**.
+"OrderedDict" Examples and Recipes
+----------------------------------
+It is straightforward to create an ordered dictionary variant that

@@ -1,0 +1,4 @@
+displays the parser's help message. If "-h" or "--help" is supplied at
+the command line, the "ArgumentParser" help will be printed.
+Occasionally, it may be useful to disable the addition of this help
+option. This can be achieved by passing "False" as the "add_help="

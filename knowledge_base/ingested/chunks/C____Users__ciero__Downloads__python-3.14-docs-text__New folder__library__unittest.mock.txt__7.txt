@@ -1,0 +1,5 @@
+>>> thing.method = MagicMock(return_value=3)
+>>> thing.method(3, 4, 5, key='value')
+3
+>>> thing.method.assert_called_with(3, 4, 5, key='value')
+"side_effect" allows you to perform side effects, including raising an

@@ -1,0 +1,5 @@
+and which returns the instantiated object. This is signalled by an
+absolute import path to the factory being made available under the
+special key "'()'".  Here's a concrete example:
+   formatters:
+     brief:

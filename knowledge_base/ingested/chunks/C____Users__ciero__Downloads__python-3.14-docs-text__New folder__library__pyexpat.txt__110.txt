@@ -1,0 +1,5 @@
+The "errors" module has the following attributes:
+xml.parsers.expat.errors.codes
+   A dictionary mapping string descriptions to their error codes.
+   Added in version 3.2.
+xml.parsers.expat.errors.messages

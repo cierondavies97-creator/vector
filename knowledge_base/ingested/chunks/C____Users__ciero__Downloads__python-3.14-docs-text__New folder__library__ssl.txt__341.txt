@@ -1,0 +1,6 @@
+Generating a 1024 bit RSA private key
+   .......++++++
+   .............................++++++
+   writing new private key to 'cert.pem'
+   -----
+   You are about to be asked to enter information that will be incorporated

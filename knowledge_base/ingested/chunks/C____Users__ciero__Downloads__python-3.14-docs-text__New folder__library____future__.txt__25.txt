@@ -1,0 +1,5 @@
+and both are 5-tuples of the same form as "sys.version_info":
+      (PY_MAJOR_VERSION, # the 2 in 2.1.0a3; an int
+       PY_MINOR_VERSION, # the 1; an int
+       PY_MICRO_VERSION, # the 0; an int
+       PY_RELEASE_LEVEL, # "alpha", "beta", "candidate" or "final"; string

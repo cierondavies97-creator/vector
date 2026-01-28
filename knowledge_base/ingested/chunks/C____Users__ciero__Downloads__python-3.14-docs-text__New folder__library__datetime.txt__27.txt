@@ -1,0 +1,6 @@
+*seconds* and *microseconds* are "merged" and normalized into those
+   three resulting attributes:
+      >>> from datetime import timedelta
+      >>> delta = timedelta(
+      ...     days=50,
+      ...     seconds=27,

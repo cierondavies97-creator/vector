@@ -1,0 +1,4 @@
+supports XML-RPC POST requests, documentation GET requests, and
+   modifies logging so that the *logRequests* parameter to the
+   "DocXMLRPCServer" constructor parameter is honored.
+DocXMLRPCServer Objects

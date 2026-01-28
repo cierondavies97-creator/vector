@@ -1,0 +1,5 @@
+calls "task_done()" to indicate that the item was retrieved and
+      all work on it is complete.  When the count of unfinished tasks
+      drops to zero, "join()" unblocks.
+   async put(item)
+      Put an item into the queue. If the queue is full, wait until a

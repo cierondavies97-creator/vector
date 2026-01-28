@@ -1,0 +1,4 @@
+string is then printed before the detailed option help.
+  If you don't supply a usage string, "optparse" uses a bland but
+  sensible default: ""Usage: %prog [options]"", which is fine if your
+  script doesn't take any positional arguments.

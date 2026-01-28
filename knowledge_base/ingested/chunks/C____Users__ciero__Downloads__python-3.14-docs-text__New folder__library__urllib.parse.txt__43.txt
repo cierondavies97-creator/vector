@@ -1,0 +1,4 @@
+Changed in version 3.8: Added *max_num_fields* parameter.
+   Changed in version 3.10: Added *separator* parameter with the
+   default value of "&". Python versions earlier than Python 3.10
+   allowed using both ";" and "&" as query parameter separator. This

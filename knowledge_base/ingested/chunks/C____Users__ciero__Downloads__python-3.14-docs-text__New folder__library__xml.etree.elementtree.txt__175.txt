@@ -1,0 +1,6 @@
+attribs = sorted(attrib.items())
+                  attrib.clear()
+                  attrib.update(attribs)
+ElementTree Objects
+-------------------
+class xml.etree.ElementTree.ElementTree(element=None, file=None)

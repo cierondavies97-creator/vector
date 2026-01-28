@@ -1,0 +1,8 @@
+the test ends:
+>>> foo = {'key': 'value'}
+>>> original = foo.copy()
+>>> with patch.dict(foo, {'newkey': 'newvalue'}, clear=True):
+...     assert foo == {'newkey': 'newvalue'}
+...
+>>> assert foo == original
+Mock supports the mocking of Python magic methods. The easiest way of

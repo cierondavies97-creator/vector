@@ -1,0 +1,4 @@
+the concatenation in the following order of zero or one
+      occurrence of each of "'R'", "'O'", "'D'", "'F'", and "'A'".
+   set_flags(flags)
+      Set the flags specified by *flags* and unset all others.

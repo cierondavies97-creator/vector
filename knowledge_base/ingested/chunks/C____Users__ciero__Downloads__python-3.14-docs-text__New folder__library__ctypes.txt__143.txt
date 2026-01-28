@@ -1,0 +1,4 @@
+points to an array instead of a single item.
+Behind the scenes, the "pointer()" function does more than simply
+create pointer instances, it has to create pointer *types* first. This
+is done with the "POINTER()" function, which accepts any "ctypes"

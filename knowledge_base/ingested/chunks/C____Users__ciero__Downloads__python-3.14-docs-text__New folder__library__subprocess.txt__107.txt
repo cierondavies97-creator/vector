@@ -1,0 +1,4 @@
+Added in version 3.9.
+   If *env* is not "None", it must be a mapping that defines the
+   environment variables for the new process; these are used instead
+   of the default behavior of inheriting the current process'

@@ -1,0 +1,4 @@
+"sys.__stdout__", and "sys.__stderr__" are not touched, but may be
+"None".
+Sending print output from one process to a text widget in another is
+slower than printing to a system terminal in the same process. This

@@ -1,0 +1,5 @@
+Writing and reading a bzip2-compressed file in binary mode:
+>>> import bz2
+>>> data = b"""\
+... Donec rhoncus quis sapien sit amet molestie. Fusce scelerisque vel augue
+... nec ullamcorper. Nam rutrum pretium placerat. Aliquam vel tristique lorem,

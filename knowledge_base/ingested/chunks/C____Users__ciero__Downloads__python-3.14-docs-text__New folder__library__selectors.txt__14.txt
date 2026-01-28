@@ -1,0 +1,4 @@
+use an implementation, and your platform supports it.
+   "BaseSelector" and its concrete implementations support the
+   *context manager* protocol.
+   abstractmethod register(fileobj, events, data=None)

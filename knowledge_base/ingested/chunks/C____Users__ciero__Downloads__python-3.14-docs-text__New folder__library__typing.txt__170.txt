@@ -1,0 +1,4 @@
+Added in version 3.8.
+   Changed in version 3.9.1: "Literal" now de-duplicates parameters.
+   Equality comparisons of "Literal" objects are no longer order
+   dependent. "Literal" objects will now raise a "TypeError" exception

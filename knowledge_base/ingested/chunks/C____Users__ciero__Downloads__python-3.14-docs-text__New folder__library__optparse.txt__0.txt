@@ -1,0 +1,5 @@
+"optparse" --- Parser for command line options
+**********************************************
+**Source code:** Lib/optparse.py
+======================================================================
+Choosing an argument parsing library

@@ -1,0 +1,4 @@
+rfc2965=True, strict_ns_domain=Policy.DomainStrict,
+       blocked_domains=["ads.net", ".ads.net"])
+   cj = CookieJar(policy)
+   opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))

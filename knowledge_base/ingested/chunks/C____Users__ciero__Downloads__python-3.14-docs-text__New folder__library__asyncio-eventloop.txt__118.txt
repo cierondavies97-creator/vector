@@ -1,0 +1,6 @@
+*start_serving* parameters. The socket option socket.TCP_NODELAY is
+   set by default for all TCP connections.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*
+   parameter.
+   See also:
+     The "start_server()" function is a higher-level alternative API

@@ -1,0 +1,6 @@
+▶ Change method/function signature
+▶ Organise imports (remove unused and sort)
+▶ Always refactor one step at a time, and ensure code still works
+▶ version control
+▶ unit tests
+Nicola Chiapolini, 8 July 2024

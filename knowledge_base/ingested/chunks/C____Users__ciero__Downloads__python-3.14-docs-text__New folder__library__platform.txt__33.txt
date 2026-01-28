@@ -1,0 +1,5 @@
+but are not limited to "'Enterprise'", "'IoTUAP'",
+   "'ServerStandard'", and "'nanoserver'".
+   Added in version 3.8.
+platform.win32_is_iot()
+   Return "True" if the Windows edition returned by "win32_edition()"

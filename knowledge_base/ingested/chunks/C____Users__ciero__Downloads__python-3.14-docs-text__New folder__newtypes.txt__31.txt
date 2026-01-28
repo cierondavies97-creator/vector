@@ -1,0 +1,7 @@
+if (cbresult == NULL) {
+              PyErr_WriteUnraisable(self->my_callback);
+           }
+           else {
+               Py_DECREF(cbresult);
+           }
+           /* This restores the saved exception state */

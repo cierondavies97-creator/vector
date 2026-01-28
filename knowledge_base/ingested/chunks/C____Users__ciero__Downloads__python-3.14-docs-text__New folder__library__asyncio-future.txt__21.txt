@@ -1,0 +1,4 @@
+# Call 'print("Future:", fut)' when "fut" is done.
+         fut.add_done_callback(
+             functools.partial(print, "Future:"))
+      Changed in version 3.7: The *context* keyword-only parameter was

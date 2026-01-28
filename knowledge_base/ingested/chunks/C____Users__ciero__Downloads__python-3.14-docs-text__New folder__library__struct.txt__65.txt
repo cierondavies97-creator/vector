@@ -1,0 +1,4 @@
+specified number of bytes.  As a special case, "'0s'" means a
+   single, empty string (while "'0c'" means 0 characters).
+10. For the "'F'" and "'D'" format characters, the packed
+    representation uses the IEEE 754 binary32 and binary64 format for

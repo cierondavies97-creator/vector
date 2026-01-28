@@ -1,0 +1,5 @@
+visits them itself.
+   visit_Constant(node)
+      Handles all constant nodes.
+   Don't use the "NodeVisitor" if you want to apply changes to nodes
+   during traversal.  For this a special visitor exists

@@ -1,0 +1,6 @@
+QueueListener
+=============
+Added in version 3.2.
+The "QueueListener" class, located in the "logging.handlers" module,
+supports receiving logging messages from a queue, such as those
+implemented in the "queue" or "multiprocessing" modules. The messages

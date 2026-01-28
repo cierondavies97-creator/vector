@@ -1,0 +1,4 @@
+garbage collector implementation.
+A more robust alternative can be to define a finalizer which only
+references the specific functions and objects that it needs, rather
+than having access to the full state of the object:

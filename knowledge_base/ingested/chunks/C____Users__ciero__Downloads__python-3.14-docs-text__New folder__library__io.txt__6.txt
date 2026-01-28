@@ -1,0 +1,4 @@
+the backing store is natively made of bytes (such as in the case of a
+file), encoding and decoding of data is made transparently as well as
+optional translation of platform-specific newline characters.
+The easiest way to create a text stream is with "open()", optionally

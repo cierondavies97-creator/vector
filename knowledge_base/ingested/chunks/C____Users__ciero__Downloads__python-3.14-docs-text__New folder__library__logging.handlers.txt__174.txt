@@ -1,0 +1,5 @@
+which needs to know how to send messages to it. The queue is not
+   *required* to have the task tracking API, which means that you can
+   use "SimpleQueue" instances for *queue*.
+   Note:
+     If you are using "multiprocessing", you should avoid using

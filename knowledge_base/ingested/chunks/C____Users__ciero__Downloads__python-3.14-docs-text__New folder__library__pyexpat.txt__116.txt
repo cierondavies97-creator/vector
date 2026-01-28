@@ -1,0 +1,6 @@
+element.
+xml.parsers.expat.errors.XML_ERROR_MISPLACED_XML_PI
+   An XML declaration was found somewhere other than the start of the
+   input data.
+xml.parsers.expat.errors.XML_ERROR_NO_ELEMENTS
+   The document contains no elements (XML requires all documents to

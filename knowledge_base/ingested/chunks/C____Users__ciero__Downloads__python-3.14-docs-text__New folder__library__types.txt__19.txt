@@ -1,0 +1,7 @@
+checks.
+If you instantiate any of these types, note that signatures may vary
+between Python versions.
+Standard names are defined for the following types:
+types.NoneType
+   The type of "None".
+   Added in version 3.10.

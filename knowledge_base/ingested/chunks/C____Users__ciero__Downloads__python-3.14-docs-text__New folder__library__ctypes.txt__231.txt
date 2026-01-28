@@ -1,0 +1,5 @@
+automatically raised.
+   Availability: Windows
+   Changed in version 3.3: "WindowsError" used to be raised, which is
+   now an alias of "OSError".
+   Changed in version 3.12: The *name* parameter can now be a *path-

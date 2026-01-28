@@ -1,0 +1,5 @@
++----------------------------------------------------+----------------------------------------------------+
+UUID.hex
+   The UUID as a 32-character lowercase hexadecimal string.
+UUID.int
+   The UUID as a 128-bit integer.

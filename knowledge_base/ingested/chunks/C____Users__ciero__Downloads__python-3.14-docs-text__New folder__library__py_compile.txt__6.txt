@@ -1,0 +1,4 @@
+raised when an error is encountered while compiling *file*. If
+   *doraise* is false (the default), an error string is written to
+   "sys.stderr", but no exception is raised.  This function returns
+   the path to byte-compiled file, i.e. whatever *cfile* value was

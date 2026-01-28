@@ -1,0 +1,4 @@
+Called (if present) by the "reversed()" built-in to implement
+   reverse iteration.  It should return a new iterator object that
+   iterates over all the objects in the container in reverse order.
+   If the "__reversed__()" method is not provided, the "reversed()"

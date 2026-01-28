@@ -1,0 +1,6 @@
+"compat32" API
+* "email.mime": Creating email and MIME objects from scratch
+* "email.header": Internationalized headers
+* "email.charset": Representing character sets
+* "email.encoders": Encoders
+* "email.utils": Miscellaneous utilities

@@ -1,0 +1,5 @@
+self.contents = tk.StringVar()
+           # Set it to some value.
+           self.contents.set("this is a variable")
+           # Tell the entry widget to watch this variable.
+           self.entrythingy["textvariable"] = self.contents

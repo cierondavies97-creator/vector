@@ -1,0 +1,4 @@
+contains a definition for a function "f()", and "x" is an instance of
+"C", calling "x.f(1)" is equivalent to calling "C.f(x, 1)".
+When an instance method object is derived from a "classmethod" object,
+the "class instance" stored in "__self__" will actually be the class

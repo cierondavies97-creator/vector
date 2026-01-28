@@ -1,0 +1,3 @@
+|                         |                 | problem might occur in the near       |
+|                         |                 | future (e.g. 'disk space low'). The   |
+|                         |                 | software is still working as          |

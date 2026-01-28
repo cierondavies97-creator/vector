@@ -1,0 +1,5 @@
+use the appropriate address (you may need to do this check at
+   runtime if your application needs to run on several platforms). On
+   Windows, you pretty much have to use the UDP option.
+   Note:
+     On macOS 12.x (Monterey), Apple has changed the behaviour of

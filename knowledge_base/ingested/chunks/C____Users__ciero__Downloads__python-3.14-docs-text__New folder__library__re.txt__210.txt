@@ -1,0 +1,6 @@
+implicit flags such as "UNICODE" if the pattern is a Unicode
+   string.
+Pattern.groups
+   The number of capturing groups in the pattern.
+Pattern.groupindex
+   A dictionary mapping any symbolic group names defined by "(?P<id>)"

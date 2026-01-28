@@ -1,0 +1,5 @@
+exception http.client.BadStatusLine
+   A subclass of "HTTPException".  Raised if a server responds with a
+   HTTP status code that we don't understand.
+exception http.client.LineTooLong
+   A subclass of "HTTPException".  Raised if an excessively long line

@@ -1,0 +1,6 @@
+17
+str.encode(encoding='utf-8', errors='strict')
+   Return the string encoded to "bytes".
+   *encoding* defaults to "'utf-8'"; see Standard Encodings for
+   possible values.
+   *errors* controls how encoding errors are handled. If "'strict'"

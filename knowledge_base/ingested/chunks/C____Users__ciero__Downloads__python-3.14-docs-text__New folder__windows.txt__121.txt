@@ -1,0 +1,5 @@
+the script and any additional arguments will be appended. This
+functionality may be disabled by the "shebang_can_run_anything"
+configuration option.
+Note:
+  The behaviour of shebangs in the Python install manager is subtly

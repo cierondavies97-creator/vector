@@ -1,0 +1,5 @@
+gdbm.close()
+      Close the GDBM database.
+   gdbm.firstkey()
+      It's possible to loop over every key in the database using this
+      method  and the "nextkey()" method.  The traversal is ordered by

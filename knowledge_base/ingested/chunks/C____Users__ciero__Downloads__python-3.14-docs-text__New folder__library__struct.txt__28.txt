@@ -1,0 +1,4 @@
+the Format Characters section.
+Note the difference between "'@'" and "'='": both use native byte
+order, but the size and alignment of the latter is standardized.
+The form "'!'" represents the network byte order which is always big-

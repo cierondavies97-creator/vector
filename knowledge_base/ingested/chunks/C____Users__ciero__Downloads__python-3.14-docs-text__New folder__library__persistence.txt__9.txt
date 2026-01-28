@@ -1,0 +1,5 @@
+* Adapter and converter recipes
+    * How to use connection shortcut methods
+    * How to use the connection context manager
+    * How to work with SQLite URIs
+    * How to create and use row factories

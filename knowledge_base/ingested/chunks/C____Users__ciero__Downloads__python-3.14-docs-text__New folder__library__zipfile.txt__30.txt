@@ -1,0 +1,4 @@
+The *strict_timestamps* argument, when set to "False", allows to
+   zip files older than 1980-01-01 at the cost of setting the
+   timestamp to 1980-01-01. Similar behavior occurs with files newer
+   than 2107-12-31, the timestamp is also set to the limit.

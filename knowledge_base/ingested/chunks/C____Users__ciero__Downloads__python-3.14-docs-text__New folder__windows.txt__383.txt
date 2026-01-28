@@ -1,0 +1,4 @@
+and executing of different Python versions.  It allows scripts (or the
+command-line) to indicate a preference for a specific Python version,
+and will locate and execute that version.
+Unlike the "PATH" variable, the launcher will correctly select the

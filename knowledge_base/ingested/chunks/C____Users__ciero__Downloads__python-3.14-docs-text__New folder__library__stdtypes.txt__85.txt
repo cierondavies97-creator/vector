@@ -1,0 +1,5 @@
+Changed in version 3.11: Added default argument value for
+   "byteorder".
+int.as_integer_ratio()
+   Return a pair of integers whose ratio is equal to the original
+   integer and has a positive denominator.  The integer ratio of

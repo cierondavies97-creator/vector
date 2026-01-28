@@ -1,0 +1,7 @@
+returned by "format()".
+      Added in version 3.11.
+   format(*, chain=True)
+      Format the exception.
+      If *chain* is not "True", "__cause__" and "__context__" will not
+      be formatted.
+      The return value is a generator of strings, each ending in a

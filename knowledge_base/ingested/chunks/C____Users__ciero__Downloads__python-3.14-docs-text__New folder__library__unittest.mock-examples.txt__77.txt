@@ -1,0 +1,3 @@
+this particular case we are only interested in the return value from
+the final call to "start_call" so we don't have much configuration to
+do. Let's assume the object it returns is 'file-like', so we'll ensure

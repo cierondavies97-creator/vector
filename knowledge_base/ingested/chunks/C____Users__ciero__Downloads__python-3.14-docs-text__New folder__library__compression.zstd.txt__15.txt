@@ -1,0 +1,5 @@
+provided.
+   In text mode, a "ZstdFile" object is created, and wrapped in an
+   "io.TextIOWrapper" instance with the specified encoding, error
+   handling behavior, and line endings.
+class compression.zstd.ZstdFile(file, /, mode='rb', *, level=None, options=None, zstd_dict=None)

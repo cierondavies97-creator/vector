@@ -1,0 +1,4 @@
+-- use "Array()" instead to make sure that access is automatically
+   synchronized using a lock.
+multiprocessing.sharedctypes.RawValue(typecode_or_type, *args)
+   Return a ctypes object allocated from shared memory.

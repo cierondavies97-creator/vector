@@ -1,0 +1,4 @@
+module, if called as "sys.setdlopenflags(0)".  To share symbols
+   across extension modules, call as
+   "sys.setdlopenflags(os.RTLD_GLOBAL)".  Symbolic names for the flag
+   values can be found in the "os" module ("RTLD_*xxx*" constants,

@@ -1,0 +1,5 @@
+Like a "date" object, "datetime" assumes the current Gregorian
+calendar extended in both directions; like a "time" object, "datetime"
+assumes there are exactly 3600*24 seconds in every day.
+Constructor:
+class datetime.datetime(year, month, day, hour=0, minute=0, second=0, microsecond=0, tzinfo=None, *, fold=0)

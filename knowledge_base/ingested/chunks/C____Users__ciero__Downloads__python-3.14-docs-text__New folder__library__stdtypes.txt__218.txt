@@ -1,0 +1,5 @@
+of homogeneous data is needed (such as allowing storage in a "set" or
+"dict" instance).
+class tuple(iterable=(), /)
+   Tuples may be constructed in a number of ways:
+   * Using a pair of parentheses to denote the empty tuple: "()"

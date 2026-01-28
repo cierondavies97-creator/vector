@@ -1,0 +1,5 @@
+"tearDown" is not called. "unittest.TestCase.addCleanup()" makes
+  this easier:
+     >>> class MyTest(unittest.TestCase):
+     ...     def setUp(self):
+     ...         patcher = patch('package.module.Class')

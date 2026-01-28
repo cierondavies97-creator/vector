@@ -1,0 +1,7 @@
+effects/                  Subpackage for sound effects
+                 __init__.py
+                 echo.py
+                 surround.py
+                 reverse.py
+                 ...
+         filters/                  Subpackage for filters

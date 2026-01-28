@@ -1,0 +1,4 @@
+Create a new "Cursor" object and call "executemany()" on it with
+      the given *sql* and *parameters*. Return the new cursor object.
+   executescript(sql_script, /)
+      Create a new "Cursor" object and call "executescript()" on it

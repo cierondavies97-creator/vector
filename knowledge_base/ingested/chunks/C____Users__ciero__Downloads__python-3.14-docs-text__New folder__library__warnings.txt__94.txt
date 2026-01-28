@@ -1,0 +1,3 @@
+warnings.showwarning(message, category, filename, lineno, file=None, line=None)
+   Write a warning to a file.  The default implementation calls
+   "formatwarning(message, category, filename, lineno, line)" and

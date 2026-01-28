@@ -1,0 +1,4 @@
+to the Python "__iter__()" method, while "tp_iternext" corresponds to
+the Python "__next__()" method.
+Any *iterable* object must implement the "tp_iter" handler, which must
+return an *iterator* object.  Here the same guidelines apply as for

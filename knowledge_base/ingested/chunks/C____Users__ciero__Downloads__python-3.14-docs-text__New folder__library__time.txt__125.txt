@@ -1,0 +1,3 @@
+and user CPU time of the current thread.  It does not include time
+   elapsed during sleep.  It is thread-specific by definition.  The
+   reference point of the returned value is undefined, so that only

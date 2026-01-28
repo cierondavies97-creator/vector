@@ -1,0 +1,4 @@
+('you', 554),  ('a', 546), ('my', 514), ('hamlet', 471), ('in', 451)]
+class collections.Counter([iterable-or-mapping])
+   A "Counter" is a "dict" subclass for counting *hashable* objects.
+   It is a collection where elements are stored as dictionary keys and

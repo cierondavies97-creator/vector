@@ -1,0 +1,5 @@
+pattern=MatchOr(
+                              patterns=[
+                                  MatchSequence(
+                                      patterns=[
+                                          MatchAs(name='x')]),

@@ -1,0 +1,4 @@
+those is desired instead, use "min(multimode(data))" or
+   "max(multimode(data))". If the input *data* is empty,
+   "StatisticsError" is raised.
+   "mode" assumes discrete data and returns a single value. This is

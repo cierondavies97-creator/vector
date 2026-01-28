@@ -1,0 +1,4 @@
+# evaluate "f(20)" asynchronously
+           res = pool.apply_async(f, (20,))      # runs in *only* one process
+           print(res.get(timeout=1))             # prints "400"
+           # evaluate "os.getpid()" asynchronously

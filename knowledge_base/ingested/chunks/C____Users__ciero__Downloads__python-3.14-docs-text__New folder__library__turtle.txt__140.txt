@@ -1,0 +1,11 @@
+>>> turtle.hideturtle()
+   >>> turtle.isvisible()
+   False
+   >>> turtle.showturtle()
+   >>> turtle.isvisible()
+   True
+Appearance
+~~~~~~~~~~
+turtle.shape(name=None)
+   Parameters:
+      **name** -- a string which is a valid shapename

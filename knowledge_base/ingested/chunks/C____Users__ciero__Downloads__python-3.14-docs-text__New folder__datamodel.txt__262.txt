@@ -1,0 +1,5 @@
+object was compiled with a particular feature enabled. See
+"compiler_flag".
+Other bits in "co_flags" are reserved for internal use.
+If a code object represents a function and has a docstring, the
+"CO_HAS_DOCSTRING" bit is set in "co_flags" and the first item in

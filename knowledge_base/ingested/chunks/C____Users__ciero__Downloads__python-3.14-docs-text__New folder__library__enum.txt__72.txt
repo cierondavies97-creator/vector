@@ -1,0 +1,5 @@
+name as the value.
+   Note:
+     "__str__()" is "str.__str__()" to better support the *replacement
+     of existing constants* use-case.  "__format__()" is likewise
+     "str.__format__()" for that same reason.

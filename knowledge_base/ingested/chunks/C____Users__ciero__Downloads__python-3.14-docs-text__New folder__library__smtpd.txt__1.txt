@@ -1,0 +1,4 @@
+removal was decided in **PEP 594**.
+A possible replacement is the third-party aiosmtpd library. This
+library is not maintained or supported by the Python core team.
+The last version of Python that provided the "smtpd" module was Python

@@ -1,0 +1,5 @@
+Added in version 3.1: The "'surrogateescape'" and "'surrogatepass'"
+error handlers.
+Changed in version 3.4: The "'surrogatepass'" error handler now works
+with utf-16* and utf-32* codecs.
+Added in version 3.5: The "'namereplace'" error handler.

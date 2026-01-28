@@ -1,0 +1,5 @@
+any contained objects.
+   If the optional argument *exclude_empty* is false, then
+   "DocTestFinder.find()" will include tests for objects with empty
+   docstrings.
+   "DocTestFinder" defines the following method:

@@ -1,0 +1,4 @@
+changed by the server.  This is a sub-class of "IMAP4.error".  Some
+   other client now has write permission, and the mailbox will need to
+   be re-opened to re-obtain write permission.
+There's also a subclass for secure connections:

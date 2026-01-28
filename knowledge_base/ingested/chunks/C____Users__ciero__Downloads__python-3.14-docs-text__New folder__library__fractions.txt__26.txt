@@ -1,0 +1,6 @@
+or for recovering a rational number that's represented as a
+      float:
+      >>> from math import pi, cos
+      >>> Fraction(cos(pi/3))
+      Fraction(4503599627370497, 9007199254740992)
+      >>> Fraction(cos(pi/3)).limit_denominator()

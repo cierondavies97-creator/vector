@@ -1,0 +1,5 @@
+values, is removed. If the method fails, an "OSError" exception is
+   raised.
+   Raises an auditing event "winreg.DeleteKey" with arguments "key",
+   "sub_key", "access".
+   Changed in version 3.3: See above.

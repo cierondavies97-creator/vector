@@ -1,0 +1,4 @@
+we will frequently refer to *encountering an option* on the command
+line; in reality, "optparse" encounters *option strings* and looks up
+options from them.
+Once all of your options are defined, instruct "optparse" to parse

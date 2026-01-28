@@ -1,0 +1,5 @@
+| '>>=' { _PyPegen_augoperator(p, RShift) }
+       | '**=' { _PyPegen_augoperator(p, Pow) }
+       | '//=' { _PyPegen_augoperator(p, FloorDiv) }
+   return_stmt[stmt_ty]:
+       | 'return' a=[star_expressions] { _PyAST_Return(a, EXTRA) }

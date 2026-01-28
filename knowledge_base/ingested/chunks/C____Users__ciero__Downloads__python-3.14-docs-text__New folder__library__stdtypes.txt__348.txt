@@ -1,0 +1,5 @@
+lowercase and there is at least one cased character, "False"
+   otherwise.
+str.isnumeric()
+   Return "True" if all characters in the string are numeric
+   characters, and there is at least one character, "False" otherwise.

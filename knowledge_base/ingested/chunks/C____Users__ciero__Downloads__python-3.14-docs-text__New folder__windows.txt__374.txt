@@ -1,0 +1,5 @@
+"Uninstall" will remove Python entirely, with the exception of the
+Python install manager, which has its own entry in Programs and
+Features.
+4.11.6. Installing free-threaded binaries
+-----------------------------------------

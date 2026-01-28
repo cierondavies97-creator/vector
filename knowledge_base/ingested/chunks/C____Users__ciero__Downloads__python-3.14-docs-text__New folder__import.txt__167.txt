@@ -1,0 +1,5 @@
+of loaders back onto the import machinery.  These changes allow the
+deprecation of several APIs in the import system and also addition of
+new methods to finders and loaders.
+-[ Footnotes ]-
+[1] See "types.ModuleType".

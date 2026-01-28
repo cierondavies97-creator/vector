@@ -1,0 +1,3 @@
+encoded and sent to the web server. The default implementation
+      just returns "record.__dict__". This method can be overridden if
+      e.g. only a subset of "LogRecord" is to be sent to the web

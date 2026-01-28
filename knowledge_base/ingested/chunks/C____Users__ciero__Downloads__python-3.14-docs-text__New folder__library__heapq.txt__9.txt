@@ -1,0 +1,5 @@
+existing list into a min-heap or max-heap using the "heapify()" or
+"heapify_max()" functions, respectively.
+The following functions are provided for min-heaps:
+heapq.heapify(x)
+   Transform list *x* into a min-heap, in-place, in linear time.

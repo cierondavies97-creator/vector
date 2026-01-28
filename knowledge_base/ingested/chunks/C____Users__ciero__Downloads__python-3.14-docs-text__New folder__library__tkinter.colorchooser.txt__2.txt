@@ -1,0 +1,5 @@
+the "Dialog" class.
+class tkinter.colorchooser.Chooser(master=None, **options)
+tkinter.colorchooser.askcolor(color=None, **options)
+   Create a color choosing dialog. A call to this method will show the
+   window, wait for the user to make a selection, and return the

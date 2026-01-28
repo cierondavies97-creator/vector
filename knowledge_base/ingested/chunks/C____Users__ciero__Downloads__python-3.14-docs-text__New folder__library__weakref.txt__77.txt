@@ -1,0 +1,7 @@
+* the object is garbage collected,
+* the object's "remove()" method is called, or
+* the program exits.
+We might try to implement the class using a "__del__()" method as
+follows:
+   class TempDir:
+       def __init__(self):

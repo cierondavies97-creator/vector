@@ -1,0 +1,3 @@
+object that accepts two arguments. For that purpose, we're going to
+   use a function (note that you're not limited to a function, you can
+   use a class for example). The first argument passed to the function

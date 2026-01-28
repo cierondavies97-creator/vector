@@ -1,0 +1,8 @@
+>>> regex
+   '(?s:.*\\.txt)\\z'
+   >>> reobj = re.compile(regex)
+   >>> reobj.match('foobar.txt')
+   <re.Match object; span=(0, 10), match='foobar.txt'>
+See also:
+  Module "glob"
+     Unix shell-style path expansion.

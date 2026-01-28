@@ -1,0 +1,3 @@
+set_break(filename, lineno, temporary=False, cond=None, funcname=None)
+      Set a new breakpoint.  If the *lineno* line doesn't exist for
+      the *filename* passed as argument, return an error message.  The

@@ -1,0 +1,7 @@
+module's "mod_exec" function must take care of initializing the C API
+pointer array:
+   static int
+   spam_module_exec(PyObject *m)
+   {
+       static void *PySpam_API[PySpam_API_pointers];
+       PyObject *c_api_object;

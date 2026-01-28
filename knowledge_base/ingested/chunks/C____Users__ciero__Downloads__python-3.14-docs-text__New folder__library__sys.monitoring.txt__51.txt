@@ -1,0 +1,5 @@
+* "LINE":
+     func(code: CodeType, line_number: int) -> object
+* "BRANCH_LEFT", "BRANCH_RIGHT" and "JUMP":
+     func(code: CodeType, instruction_offset: int, destination_offset: int) -> object
+  Note that the *destination_offset* is where the code will next

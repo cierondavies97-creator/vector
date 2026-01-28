@@ -1,0 +1,4 @@
+}
+This is a true story.  An older version of Python contained variants
+of this bug and someone spent a considerable amount of time in a C
+debugger to figure out why his "__del__()" methods would fail...

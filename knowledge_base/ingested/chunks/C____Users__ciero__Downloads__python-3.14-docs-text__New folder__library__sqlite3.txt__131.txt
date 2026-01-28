@@ -1,0 +1,4 @@
+trigger or view that is responsible for the access attempt or
+      "None" if this access attempt is directly from input SQL code.
+      Please consult the SQLite documentation about the possible
+      values for the first argument and the meaning of the second and

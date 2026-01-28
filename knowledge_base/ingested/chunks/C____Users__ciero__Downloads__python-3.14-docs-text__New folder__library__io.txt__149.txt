@@ -1,0 +1,4 @@
+with "\N{...}" escape sequences) can be used.  Any other error
+   handling name that has been registered with
+   "codecs.register_error()" is also valid.
+   *newline* controls how line endings are handled.  It can be "None",

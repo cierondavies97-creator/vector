@@ -1,0 +1,4 @@
+This function is a *decorator* that is used to add generated
+   *special methods* to classes, as described below.
+   The "@dataclass" decorator examines the class to find "field"s.  A
+   "field" is defined as a class variable that has a *type

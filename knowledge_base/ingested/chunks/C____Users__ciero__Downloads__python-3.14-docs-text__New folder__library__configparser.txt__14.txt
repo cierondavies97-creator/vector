@@ -1,0 +1,4 @@
+'yes'
+As we can see above, the API is pretty straightforward.  The only bit
+of magic involves the "DEFAULT" section which provides default values
+for all other sections [1].  Note also that keys in sections are case-

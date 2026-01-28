@@ -1,0 +1,7 @@
+body=List(
+              elts=[
+                  Constant(value=1),
+                  Constant(value=2),
+                  Constant(value=3)],
+              ctx=Load()))
+      >>> print(ast.dump(ast.parse('(1, 2, 3)', mode='eval'), indent=4))

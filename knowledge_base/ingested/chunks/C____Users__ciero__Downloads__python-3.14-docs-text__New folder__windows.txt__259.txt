@@ -1,0 +1,5 @@
+4.3.1. Free-threaded packages
+-----------------------------
+Added in version 3.13.
+Packages containing free-threaded binaries are named python-
+freethreaded for the 64-bit version, pythonx86-freethreaded for the

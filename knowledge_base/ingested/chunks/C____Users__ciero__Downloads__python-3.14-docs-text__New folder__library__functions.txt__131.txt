@@ -1,0 +1,4 @@
+formatting syntax that is used by most built-in types: Format
+   Specification Mini-Language.
+   The default *format_spec* is an empty string which usually gives
+   the same effect as calling "str(value)".

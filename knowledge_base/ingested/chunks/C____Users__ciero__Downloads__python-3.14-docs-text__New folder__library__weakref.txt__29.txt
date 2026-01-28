@@ -1,0 +1,5 @@
+to *object*.
+class weakref.WeakKeyDictionary([dict])
+   Mapping class that references keys weakly.  Entries in the
+   dictionary will be discarded when there is no longer a strong
+   reference to the key.  This can be used to associate additional

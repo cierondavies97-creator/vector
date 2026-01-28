@@ -1,0 +1,7 @@
+Return type:
+         Blob
+      Note:
+        The blob size cannot be changed using the "Blob" class. Use
+        the SQL function "zeroblob" to create a blob with a fixed
+        size.
+      Added in version 3.11.

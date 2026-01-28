@@ -1,0 +1,7 @@
+@C.x.setter
+          def x(self, val):
+              ...
+The "abc" module also provides the following functions:
+abc.get_cache_token()
+   Returns the current abstract base class cache token.
+   The token is an opaque object (that supports equality testing)

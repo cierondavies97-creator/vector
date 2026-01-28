@@ -1,0 +1,3 @@
+Each event is represented as a power-of-2 integer constant. To define
+a set of events, simply bitwise OR the individual events together. For
+example, to specify both "PY_RETURN" and "PY_START" events, use the

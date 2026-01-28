@@ -1,0 +1,5 @@
+parser.add_option('-v', dest='verbose', action='store_true')
+       opts, args = parser.parse_args()
+       process(args, output=opts.output, verbose=opts.verbose)
+   import argparse
+   if __name__ == '__main__':

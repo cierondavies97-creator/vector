@@ -1,0 +1,4 @@
+string intact.  Also, unlike with "substitute()", any other
+      appearances of the "$" will simply return "$" instead of raising
+      "ValueError".
+      While other exceptions may still occur, this method is called

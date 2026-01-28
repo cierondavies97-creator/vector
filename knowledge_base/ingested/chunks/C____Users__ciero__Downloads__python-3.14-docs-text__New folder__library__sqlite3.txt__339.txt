@@ -1,0 +1,4 @@
+the autocommit attribute is recommended, while Transaction control via
+the isolation_level attribute retains the pre-Python 3.12 behaviour.
+Transaction control via the "autocommit" attribute
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

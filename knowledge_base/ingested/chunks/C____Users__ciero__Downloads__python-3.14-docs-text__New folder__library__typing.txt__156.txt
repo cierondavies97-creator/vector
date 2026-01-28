@@ -1,0 +1,4 @@
+argument to a Callable. The last parameter to "Concatenate" must be
+   a "ParamSpec" or ellipsis ("...").
+   For example, to annotate a decorator "with_lock" which provides a
+   "threading.Lock" to the decorated function,  "Concatenate" can be

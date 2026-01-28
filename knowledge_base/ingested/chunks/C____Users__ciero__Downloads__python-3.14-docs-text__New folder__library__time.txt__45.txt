@@ -1,0 +1,5 @@
+Similar to "monotonic()", but return time as nanoseconds.
+   Added in version 3.7.
+time.perf_counter() -> float
+   Return the value (in fractional seconds) of a performance counter,
+   i.e. a clock with the highest available resolution to measure a

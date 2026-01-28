@@ -1,0 +1,6 @@
+recalculation:
+      >>> m = mean(data)
+      >>> variance(data, m)
+      1.3720238095238095
+   This function does not attempt to verify that you have passed the
+   actual mean as *xbar*.  Using arbitrary values for *xbar* can lead

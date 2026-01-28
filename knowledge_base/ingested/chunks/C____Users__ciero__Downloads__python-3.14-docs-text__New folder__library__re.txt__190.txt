@@ -1,0 +1,5 @@
+compilation or matching.  It is never an error if a string contains
+   no match for a pattern.  The "PatternError" instance has the
+   following additional attributes:
+   msg
+      The unformatted error message.

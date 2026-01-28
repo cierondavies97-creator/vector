@@ -1,0 +1,4 @@
+"call_soon()" is not thread-safe.
+   This function is safe to be called from a reentrant context or
+   signal handler, however, it is not safe or fruitful to use the
+   returned handle in such contexts.

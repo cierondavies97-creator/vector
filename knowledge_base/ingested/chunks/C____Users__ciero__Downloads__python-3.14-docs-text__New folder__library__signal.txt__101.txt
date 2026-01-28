@@ -1,0 +1,4 @@
+Note on Signal Handlers and Exceptions
+======================================
+If a signal handler raises an exception, the exception will be
+propagated to the main thread and may be raised after any *bytecode*

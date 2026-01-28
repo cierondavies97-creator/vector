@@ -1,0 +1,4 @@
+>>> assert not isinstance(mymock.foo, Subclass)
+>>> assert not isinstance(mymock(), Subclass)
+[2] An exception to this rule are the non-callable mocks. Attributes
+    use the callable variant because otherwise non-callable mocks

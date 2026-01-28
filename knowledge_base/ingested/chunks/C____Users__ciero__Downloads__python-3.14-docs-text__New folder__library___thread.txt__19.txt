@@ -1,0 +1,3 @@
+multiples of the system memory page size - platform documentation
+   should be referred to for more information (4 KiB pages are common;
+   using multiples of 4096 for the stack size is the suggested

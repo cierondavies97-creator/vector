@@ -1,0 +1,5 @@
+returning the value of the "expression".
+One common use case is when handling matched regular expressions:
+   if matching := pattern.search(data):
+       do_something(matching)
+Or, when processing a file stream in chunks:

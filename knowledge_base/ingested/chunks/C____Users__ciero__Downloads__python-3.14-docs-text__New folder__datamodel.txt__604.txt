@@ -1,0 +1,5 @@
+when called with this format.
+   When called with  "VALUE" format, an annotate function may raise
+   "NameError"; it must not raise "NameError" when called requesting
+   any other format.
+   If an object does not have any annotations, "__annotate__" should

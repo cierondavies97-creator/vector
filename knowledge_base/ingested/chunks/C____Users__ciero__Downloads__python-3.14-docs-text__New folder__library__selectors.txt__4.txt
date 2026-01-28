@@ -1,0 +1,5 @@
+for most users.
+Note:
+  The type of file objects supported depends on the platform: on
+  Windows, sockets are supported, but not pipes, whereas on Unix, both
+  are supported (some other types may be supported as well, such as

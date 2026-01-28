@@ -1,0 +1,3 @@
+the "socket()" function.  This is usually only needed for sockets
+   opened in "raw" mode ("SOCK_RAW"); for the normal socket modes, the
+   correct protocol is chosen automatically if the protocol is omitted

@@ -1,0 +1,5 @@
+Similar to "'%d.%d' % sys.version_info[:2]".
+sysconfig.get_platform()
+   Return a string that identifies the current platform.
+   This is used mainly to distinguish platform-specific build
+   directories and platform-specific built distributions.  Typically

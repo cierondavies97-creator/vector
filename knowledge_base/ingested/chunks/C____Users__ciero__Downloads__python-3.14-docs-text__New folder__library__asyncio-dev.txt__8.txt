@@ -1,0 +1,4 @@
+"loop.call_soon_threadsafe()" method should be used. Example:
+   loop.call_soon_threadsafe(callback, *args)
+Almost all asyncio objects are not thread safe, which is typically not
+a problem unless there is code that works with them from outside of a

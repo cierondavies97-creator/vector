@@ -1,0 +1,4 @@
+False
+   This function may be useful during command-line input to determine
+   if the entered text seems to form a complete SQL statement, or if
+   additional input is needed before calling "execute()".

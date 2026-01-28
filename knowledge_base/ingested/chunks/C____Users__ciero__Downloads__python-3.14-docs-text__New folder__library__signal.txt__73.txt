@@ -1,0 +1,4 @@
+Changed in version 3.7: Added "warn_on_full_buffer" parameter.
+signal.siginterrupt(signalnum, flag)
+   Change system call restart behaviour: if *flag* is "False", system
+   calls will be restarted when interrupted by signal *signalnum*,

@@ -1,0 +1,3 @@
+|           | and is zero if the value is zero.                          |
+   +-----------+------------------------------------------------------------+
+   | "'E'"     | Scientific notation. Same as "'e'" except it uses an upper |

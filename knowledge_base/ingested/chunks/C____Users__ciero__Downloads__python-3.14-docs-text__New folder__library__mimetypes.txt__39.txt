@@ -1,0 +1,6 @@
+as part of the object.
+   guess_file_type(path, *, strict=True)
+      Similar to the "guess_file_type()" function, using the tables
+      stored as part of the object.
+      Added in version 3.13.
+   guess_all_extensions(type, strict=True)

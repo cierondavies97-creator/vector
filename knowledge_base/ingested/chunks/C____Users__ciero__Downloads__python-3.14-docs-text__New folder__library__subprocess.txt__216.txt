@@ -1,0 +1,7 @@
+retcode = os.spawnlp(os.P_WAIT, "/bin/mycmd", "mycmd", "myarg")
+   ==>
+   retcode = call(["/bin/mycmd", "myarg"])
+Vector example:
+   os.spawnvp(os.P_NOWAIT, path, args)
+   ==>
+   Popen([path] + args[1:])

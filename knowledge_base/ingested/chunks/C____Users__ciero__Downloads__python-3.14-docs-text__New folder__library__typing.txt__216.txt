@@ -1,0 +1,4 @@
+an error.  An incorrectly written "TypeIs" function can lead to
+   unsound behavior in the type system; it is the user's
+   responsibility to write such functions in a type-safe manner.
+   If a "TypeIs" function is a class or instance method, then the type

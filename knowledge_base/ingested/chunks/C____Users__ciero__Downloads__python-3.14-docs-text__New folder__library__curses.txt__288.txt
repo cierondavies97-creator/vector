@@ -1,0 +1,3 @@
+| curses.ACS_CKBOARD       | checker board (stipple)                    |
++--------------------------+--------------------------------------------+
+| curses.ACS_DARROW        | arrow pointing down                        |

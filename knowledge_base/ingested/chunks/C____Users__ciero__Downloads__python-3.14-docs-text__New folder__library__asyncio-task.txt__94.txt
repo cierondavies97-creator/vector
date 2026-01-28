@@ -1,0 +1,7 @@
+try:
+          res = await shield(task)
+      except CancelledError:
+          res = None
+   Important:
+     Save a reference to tasks passed to this function, to avoid a
+     task disappearing mid-execution. The event loop only keeps weak

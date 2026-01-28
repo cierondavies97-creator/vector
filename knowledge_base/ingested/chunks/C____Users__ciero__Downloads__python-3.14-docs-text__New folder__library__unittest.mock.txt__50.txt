@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+        ...
+      AssertionError: Expected 'mock' to be called once. Called 2 times.
+      Calls: [call('foo', bar='baz'), call('other', bar='values')].
+   assert_any_call(*args, **kwargs)

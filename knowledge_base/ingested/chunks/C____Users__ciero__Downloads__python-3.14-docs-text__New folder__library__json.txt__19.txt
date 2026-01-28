@@ -1,0 +1,5 @@
+".write()"-supporting *file-like object*) using this Python-to-JSON
+   conversion table.
+   Note:
+     Unlike "pickle" and "marshal", JSON is not a framed protocol, so
+     trying to serialize multiple objects with repeated calls to

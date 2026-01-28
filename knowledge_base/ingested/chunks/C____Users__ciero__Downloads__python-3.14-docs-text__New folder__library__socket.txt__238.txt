@@ -1,0 +1,4 @@
+bytes object.  It is up to the caller to decode the contents of the
+   buffer (see the optional built-in module "struct" for a way to
+   decode C structures encoded as byte strings).
+   Availability: not WASI.

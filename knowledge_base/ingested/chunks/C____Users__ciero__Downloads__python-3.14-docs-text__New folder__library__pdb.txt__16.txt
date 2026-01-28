@@ -1,0 +1,8 @@
+The typical usage to inspect a crashed program is:
+   >>> import pdb
+   >>> def f(x):
+   ...     print(1 / x)
+   ...
+   >>> f(0)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

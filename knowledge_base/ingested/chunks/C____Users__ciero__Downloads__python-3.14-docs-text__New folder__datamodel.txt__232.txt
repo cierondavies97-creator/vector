@@ -1,0 +1,2 @@
+| codeobject.co_argcount                             | The total number of positional *parameters*        |
+|                                                    | (including positional-only parameters and          |

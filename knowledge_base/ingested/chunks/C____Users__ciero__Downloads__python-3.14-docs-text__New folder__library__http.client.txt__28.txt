@@ -1,0 +1,6 @@
+http.client.HTTP_PORT
+   The default port for the HTTP protocol (always "80").
+http.client.HTTPS_PORT
+   The default port for the HTTPS protocol (always "443").
+http.client.responses
+   This dictionary maps the HTTP 1.1 status codes to the W3C names.

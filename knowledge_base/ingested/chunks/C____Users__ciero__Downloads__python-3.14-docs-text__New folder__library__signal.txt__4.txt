@@ -1,0 +1,5 @@
+On WebAssembly platforms, signals are emulated and therefore behave
+differently. Several functions and signals are not available on these
+platforms.
+Execution of Python signal handlers
+-----------------------------------

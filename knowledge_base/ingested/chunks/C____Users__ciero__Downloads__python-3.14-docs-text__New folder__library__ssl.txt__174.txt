@@ -1,0 +1,5 @@
+mechanism, you can use "OP_NO_COMPRESSION" to disable SSL-level
+   compression.
+   Added in version 3.3.
+SSLSocket.get_channel_binding(cb_type='tls-unique')
+   Get channel binding data for current connection, as a bytes object.

@@ -1,0 +1,4 @@
+This clears the "ECHO" and "ICANON" local mode flags in *mode* as
+   well as setting the minimum input to 1 byte with no delay.
+   Added in version 3.12.
+   Changed in version 3.12.2: The "ICRNL" flag is no longer cleared.

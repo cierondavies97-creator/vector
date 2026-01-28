@@ -1,0 +1,3 @@
+example in any file fails, then the synthesized unit test fails,
+   and a "failureException" exception is raised showing the name of
+   the file containing the test and a (sometimes approximate) line

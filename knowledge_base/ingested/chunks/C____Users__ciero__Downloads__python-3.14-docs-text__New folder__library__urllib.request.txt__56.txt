@@ -1,0 +1,4 @@
+bytes object. Fall back to use chunked transfer encoding instead.
+class urllib.request.OpenerDirector
+   The "OpenerDirector" class opens URLs via "BaseHandler"s chained
+   together. It manages the chaining of handlers, and recovery from

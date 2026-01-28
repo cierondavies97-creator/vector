@@ -1,0 +1,4 @@
+True
+   Note that "BaseExceptionGroup" defines "__new__()", so subclasses
+   that need a different constructor signature need to override that
+   rather than "__init__()". For example, the following defines an

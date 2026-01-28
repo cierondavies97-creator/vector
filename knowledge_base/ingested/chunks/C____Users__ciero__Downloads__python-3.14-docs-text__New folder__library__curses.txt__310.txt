@@ -1,0 +1,3 @@
+| curses.ACS_URCORNER      | upper right corner                         |
++--------------------------+--------------------------------------------+
+| curses.ACS_VLINE         | vertical line                              |

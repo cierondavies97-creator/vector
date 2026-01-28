@@ -1,0 +1,3 @@
+"StopIteration" exception raised by the completing coroutine.  If
+   the asynchronous generator exits without yielding another value,
+   the awaitable instead raises a "StopAsyncIteration" exception,

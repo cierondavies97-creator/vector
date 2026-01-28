@@ -1,0 +1,6 @@
+all encoding and decoding functions in this module.  Ascii85/Base85
+support added.
+RFC 4648 Encodings
+==================
+The **RFC 4648** encodings are suitable for encoding binary data so
+that it can be safely sent by email, used as parts of URLs, or

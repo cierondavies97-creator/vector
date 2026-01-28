@@ -1,0 +1,3 @@
+out as a floating-point number in seconds. When the *timeout*
+   argument is omitted or "None", the function blocks until at least
+   one file descriptor is ready.  A time-out value of zero specifies a

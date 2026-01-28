@@ -1,0 +1,5 @@
+db['eggs'] = 'eggs'
+Warning:
+  Because the "shelve" module is backed by "pickle", it is insecure to
+  load a shelf from an untrusted source.  Like with pickle, loading a
+  shelf can execute arbitrary code.

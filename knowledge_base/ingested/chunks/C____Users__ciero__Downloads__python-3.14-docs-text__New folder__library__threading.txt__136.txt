@@ -1,0 +1,4 @@
+to synchronize access to some shared state; threads that are
+interested in a particular change of state call "wait()" repeatedly
+until they see the desired state, while threads that modify the state
+call "notify()" or "notify_all()" when they change the state in such a

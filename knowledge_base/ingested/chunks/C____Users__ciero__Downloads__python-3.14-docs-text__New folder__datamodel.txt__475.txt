@@ -1,0 +1,5 @@
+3.3.3.3. Determining the appropriate metaclass
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The appropriate metaclass for a class definition is determined as
+follows:
+* if no bases and no explicit metaclass are given, then "type()" is

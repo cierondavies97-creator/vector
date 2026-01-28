@@ -1,0 +1,4 @@
+without network access.
+Note that the MSIX downloadable from the Store and from the Python
+website are subtly different and cannot be installed at the same time.
+Wherever possible, we suggest using the above WinGet commands to

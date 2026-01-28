@@ -1,0 +1,5 @@
+"__rpow__()" if necessary. Previously it was only called in two-
+   argument "pow()" and the binary power operator.
+   Note:
+     If the right operand's type is a subclass of the left operand's
+     type and that subclass provides a different implementation of the

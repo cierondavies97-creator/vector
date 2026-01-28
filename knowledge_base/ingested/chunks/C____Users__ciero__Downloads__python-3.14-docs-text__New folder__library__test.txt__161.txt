@@ -1,0 +1,4 @@
+return stdout.
+test.support.script_helper.make_script(script_dir, script_basename, source, omit_suffix=False)
+   Create script containing *source* in path *script_dir* and
+   *script_basename*. If *omit_suffix* is "False", append ".py" to the

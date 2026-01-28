@@ -1,0 +1,7 @@
+Implements the binary and in-place operators (depending on the
+   value of *op*):
+      rhs = STACK.pop()
+      lhs = STACK.pop()
+      STACK.append(lhs op rhs)
+   Added in version 3.11.
+   Changed in version 3.14: With oparg :"NB_SUBSCR", implements binary

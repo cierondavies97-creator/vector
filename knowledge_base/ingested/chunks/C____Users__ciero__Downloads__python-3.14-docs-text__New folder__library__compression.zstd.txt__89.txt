@@ -1,0 +1,6 @@
+"__init__" method. It can be used with other programs, such
+         as the "zstd" CLI program.
+      dict_id
+         Identifier of the Zstandard dictionary, a non-negative int
+         value.
+         Non-zero means the dictionary is ordinary, created by

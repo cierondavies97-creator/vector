@@ -1,0 +1,6 @@
+files_double_event(event)
+      Event handler for double-click event on file.
+   files_select_event(event)
+      Event handler for single-click event on file.
+   filter_command(event=None)
+      Filter the files by directory.

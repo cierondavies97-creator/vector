@@ -1,0 +1,5 @@
+"STACK[-1]")
+   * 2: "raise STACK[-2] from STACK[-1]" (raise exception instance or
+     type at "STACK[-2]" with "__cause__" set to "STACK[-1]")
+CALL(argc)
+   Calls a callable object with the number of arguments specified by

@@ -1,0 +1,3 @@
+"catchbreak" parameter to "unittest.main()", provide more friendly
+handling of control-C during a test run. With catch break behavior
+enabled control-C will allow the currently running test to complete,

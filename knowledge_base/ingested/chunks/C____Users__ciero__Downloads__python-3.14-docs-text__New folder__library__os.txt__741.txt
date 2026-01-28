@@ -1,0 +1,4 @@
+return the process exit status (return "WEXITSTATUS(status)"):
+     result greater than or equal to 0.
+   * If the process was terminated by a signal (if
+     "WIFSIGNALED(status)" is true), return "-signum" where *signum*

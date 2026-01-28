@@ -1,0 +1,2 @@
+| "confirm"                         | "PYTHON_MANAGER_CONFIRM"          | True to confirm certain actions   |
+|                                   |                                   | before taking them (such as       |

@@ -1,0 +1,4 @@
+Python 2 compatible).
+* There is no way to say "python X.Y or later", so be careful of using
+  an exact version like "/usr/bin/env python3.4" as you will need to
+  change your shebang line for users of Python 3.5, for example.

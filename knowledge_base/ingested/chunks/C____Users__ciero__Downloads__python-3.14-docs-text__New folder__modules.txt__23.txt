@@ -1,0 +1,5 @@
+6.1.1. Executing modules as scripts
+-----------------------------------
+When you run a Python module with
+   python fibo.py <arguments>
+the code in the module will be executed, just as if you imported it,

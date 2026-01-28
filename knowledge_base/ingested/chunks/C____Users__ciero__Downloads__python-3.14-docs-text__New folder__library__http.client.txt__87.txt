@@ -1,0 +1,3 @@
+The difference lies only on the server side where HTTP servers will
+allow resources to be created via "PUT" requests. It should be noted
+that custom HTTP methods are also handled in "urllib.request.Request"

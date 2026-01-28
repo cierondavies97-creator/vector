@@ -1,0 +1,6 @@
+'1 + 2'
+   conversion: Literal['a', 'r', 's'] | None
+      The conversion to apply to the value, or "None".
+      The "conversion" is the optional conversion to apply to the
+      value:
+      >>> t'{1 + 2!a}'.interpolations[0].conversion

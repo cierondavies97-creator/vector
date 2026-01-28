@@ -1,0 +1,2 @@
+|                                                    | the class's namespace. See also: "__dict__         |
+|                                                    | attributes".                                       |

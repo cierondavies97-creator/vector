@@ -1,0 +1,4 @@
+"Path.rglob()" differ slightly from those by the "glob" module:
+1. Files beginning with a dot are not special in pathlib. This is like
+   passing "include_hidden=True" to "glob.glob()".
+2. ""**"" pattern components are always recursive in pathlib. This is

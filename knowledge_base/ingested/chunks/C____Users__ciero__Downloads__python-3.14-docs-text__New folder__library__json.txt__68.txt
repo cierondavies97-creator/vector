@@ -1,0 +1,4 @@
+Extensible JSON encoder for Python data structures.
+   Supports the following objects and types by default:
+   +------------------------------------------+-----------------+
+   | Python                                   | JSON            |

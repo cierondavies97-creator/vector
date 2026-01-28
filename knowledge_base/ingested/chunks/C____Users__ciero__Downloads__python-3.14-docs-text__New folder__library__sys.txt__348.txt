@@ -1,0 +1,4 @@
+sys.__stderr__
+   These objects contain the original values of "stdin", "stderr" and
+   "stdout" at the start of the program.  They are used during
+   finalization, and could be useful to print to the actual standard

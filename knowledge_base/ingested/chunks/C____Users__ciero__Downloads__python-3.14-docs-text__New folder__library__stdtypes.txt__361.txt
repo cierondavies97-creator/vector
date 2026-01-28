@@ -1,0 +1,5 @@
+string values in *iterable*, including "bytes" objects.  The
+   separator between elements is the string providing this method. For
+   example:
+      >>> ', '.join(['spam', 'spam', 'spam'])
+      'spam, spam, spam'

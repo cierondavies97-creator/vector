@@ -1,0 +1,7 @@
+the entry for the file/line.
+   enable()
+      Mark the breakpoint as enabled.
+   disable()
+      Mark the breakpoint as disabled.
+   bpformat()
+      Return a string with all the information about the breakpoint,

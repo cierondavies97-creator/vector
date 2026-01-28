@@ -1,0 +1,4 @@
+Raises an auditing event "syslog.syslog" with arguments "priority",
+   "message".
+   Changed in version 3.2: In previous versions, "openlog()" would not
+   be called automatically if it wasn't called prior to the call to

@@ -1,0 +1,3 @@
+|           | current locale setting to insert the appropriate digit     |
+   |           | group separators for the integral part of a number.        |
+   +-----------+------------------------------------------------------------+

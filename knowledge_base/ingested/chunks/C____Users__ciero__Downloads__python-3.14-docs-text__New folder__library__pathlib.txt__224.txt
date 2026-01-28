@@ -1,0 +1,4 @@
+This method normally follows symlinks; to get the owner of the
+   symlink, add the argument "follow_symlinks=False".
+   Changed in version 3.13: Raises "UnsupportedOperation" if the "pwd"
+   module is not available. In earlier versions, "NotImplementedError"

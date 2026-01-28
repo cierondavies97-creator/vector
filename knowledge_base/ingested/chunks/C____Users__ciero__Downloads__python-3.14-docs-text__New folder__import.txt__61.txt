@@ -1,0 +1,5 @@
+# It is assumed 'exec_module' will also be defined on the loader.
+       module = spec.loader.create_module(spec)
+   if module is None:
+       module = ModuleType(spec.name)
+   # The import-related module attributes get set here:

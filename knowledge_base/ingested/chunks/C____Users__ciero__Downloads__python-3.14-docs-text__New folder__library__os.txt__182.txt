@@ -1,0 +1,7 @@
+the data.
+   The flags argument contains a bitwise OR of zero or more of the
+   following flags:
+   * "RWF_HIPRI"
+   * "RWF_NOWAIT"
+   Return the total number of bytes actually read which can be less
+   than the total capacity of all the objects.

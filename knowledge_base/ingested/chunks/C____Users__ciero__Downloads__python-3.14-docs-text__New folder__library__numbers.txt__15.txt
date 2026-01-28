@@ -1,0 +1,5 @@
+and do the operation there. For subtypes of "Integral", this means
+that "__add__()" and "__radd__()" should be defined as:
+   class MyIntegral(Integral):
+       def __add__(self, other):
+           if isinstance(other, MyIntegral):

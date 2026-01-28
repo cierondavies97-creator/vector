@@ -1,0 +1,3 @@
+Return a context manager which executes the enclosed code block
+      as a subtest.  *msg* and *params* are optional, arbitrary values
+      which are displayed whenever a subtest fails, allowing you to

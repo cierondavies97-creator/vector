@@ -1,0 +1,4 @@
+Path.is_dir(*, follow_symlinks=True)
+   Return "True" if the path points to a directory. "False" will be
+   returned if the path is invalid, inaccessible or missing, or if it
+   points to something other than a directory. Use "Path.stat()" to

@@ -1,0 +1,4 @@
+AttributeError). It can also return descriptors objects instead of
+   instance members.
+   If the instance "__dict__" is shadowed by another member (for
+   example a property) then this function will be unable to find

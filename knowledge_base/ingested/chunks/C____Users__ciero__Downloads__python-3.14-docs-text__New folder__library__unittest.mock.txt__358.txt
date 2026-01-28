@@ -1,0 +1,5 @@
+support. The mock of "read()" changed to consume *read_data* rather
+   than returning it on each call.
+   Changed in version 3.5: *read_data* is now reset on each call to
+   the *mock*.
+   Changed in version 3.8: Added "__iter__()" to implementation so

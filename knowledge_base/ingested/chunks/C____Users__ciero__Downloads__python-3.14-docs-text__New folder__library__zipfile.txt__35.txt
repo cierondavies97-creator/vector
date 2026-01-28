@@ -1,0 +1,3 @@
+produce archives with names in the current locale encoding or
+     code page (mostly on Windows).  According to the .ZIP standard,
+     the encoding of metadata may be specified to be either IBM code

@@ -1,0 +1,6 @@
+[5.0, 7.0, 5.0, 7.0, 8.0, 8.5]
+Priority Queue Implementation Notes
+===================================
+A priority queue is common use for a heap, and it presents several
+implementation challenges:
+* Sort stability:  how do you get two tasks with equal priorities to

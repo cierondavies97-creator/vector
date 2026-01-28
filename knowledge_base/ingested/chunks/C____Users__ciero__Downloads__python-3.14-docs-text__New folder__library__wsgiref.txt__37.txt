@@ -1,0 +1,4 @@
+list.  In fact, the "items()" method just returns a copy of the
+   wrapped header list.
+   Calling "bytes()" on a "Headers" object returns a formatted
+   bytestring suitable for transmission as HTTP response headers.

@@ -1,0 +1,3 @@
+mutable *bytes-like objects* *buffers*, leaving the file offset
+   unchanged.  Transfer data into each buffer until it is full and
+   then move on to the next buffer in the sequence to hold the rest of

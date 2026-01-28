@@ -1,0 +1,6 @@
+supports it.
+      Changed in version 3.14: Lock acquisition can now be interrupted
+      by signals on Windows.
+   release()
+      Release a lock.  This can be called from any thread, not only
+      the thread which has acquired the lock.

@@ -1,0 +1,4 @@
+included is unspecified.
+   Using "scandir()" instead of "listdir()" can significantly increase
+   the performance of code that also needs file type or file attribute
+   information, because "os.DirEntry" objects expose this information

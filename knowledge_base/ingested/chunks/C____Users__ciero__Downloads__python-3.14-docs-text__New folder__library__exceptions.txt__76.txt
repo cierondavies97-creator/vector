@@ -1,0 +1,4 @@
+script or standard input (also interactively).
+   The "str()" of the exception instance returns only the error
+   message. Details is a tuple whose members are also available as
+   separate attributes.

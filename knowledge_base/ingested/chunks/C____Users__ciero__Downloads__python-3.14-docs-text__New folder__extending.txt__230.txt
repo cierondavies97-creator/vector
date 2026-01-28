@@ -1,0 +1,6 @@
+#include <Python.h>
+two more lines must be added:
+   #define SPAM_MODULE
+   #include "spammodule.h"
+The "#define" is used to tell the header file that it is being
+included in the exporting module, not a client module. Finally, the

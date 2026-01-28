@@ -1,0 +1,4 @@
+| value=strings { _PyAST_MatchValue(value, EXTRA) }
+       | 'None' { _PyAST_MatchSingleton(Py_None, EXTRA) }
+       | 'True' { _PyAST_MatchSingleton(Py_True, EXTRA) }
+       | 'False' { _PyAST_MatchSingleton(Py_False, EXTRA) }

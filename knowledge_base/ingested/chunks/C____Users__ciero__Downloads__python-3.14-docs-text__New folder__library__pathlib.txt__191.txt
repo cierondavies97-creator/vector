@@ -1,0 +1,4 @@
+This next example is a simple implementation of "shutil.rmtree()".
+   Walking the tree bottom-up is essential as "rmdir()" doesn't allow
+   deleting a directory before it is empty:
+      # Delete everything reachable from the directory "top".

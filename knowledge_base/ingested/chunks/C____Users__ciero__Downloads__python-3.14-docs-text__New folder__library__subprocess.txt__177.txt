@@ -1,0 +1,6 @@
+subprocess.NORMAL_PRIORITY_CLASS
+   A "Popen" "creationflags" parameter to specify that a new process
+   will have a normal priority. (default)
+   Added in version 3.7.
+subprocess.REALTIME_PRIORITY_CLASS
+   A "Popen" "creationflags" parameter to specify that a new process

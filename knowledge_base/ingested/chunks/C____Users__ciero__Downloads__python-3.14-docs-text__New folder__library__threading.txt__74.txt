@@ -1,0 +1,4 @@
+context.  To explicitly start with an empty context, pass a new
+   instance of "Context()".  To explicitly start with a copy of the
+   current context, pass the value from "copy_context()". The flag
+   defaults true on free-threaded builds and false otherwise.

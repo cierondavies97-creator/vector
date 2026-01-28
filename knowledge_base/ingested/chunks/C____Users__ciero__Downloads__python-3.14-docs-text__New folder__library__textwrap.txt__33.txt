@@ -1,0 +1,4 @@
+fix_sentence_endings
+      (default: "False") If true, "TextWrapper" attempts to detect
+      sentence endings and ensure that sentences are always separated
+      by exactly two spaces.  This is generally desired for text in a

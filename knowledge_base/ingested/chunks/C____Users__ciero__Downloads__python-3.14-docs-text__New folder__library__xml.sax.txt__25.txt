@@ -1,0 +1,6 @@
+Definitions of the interfaces for parser-provided objects.
+SAXException Objects
+====================
+The "SAXException" exception class supports the following methods:
+SAXException.getMessage()
+   Return a human-readable message describing the error condition.

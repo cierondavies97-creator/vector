@@ -1,0 +1,5 @@
+signals the end of the chunk-encoded data immediately after
+   *message_body*.
+   Note:
+     Due to the chunked encoding specification, empty chunks yielded
+     by an iterator body will be ignored by the chunk-encoder. This is

@@ -1,0 +1,4 @@
+"version" 5), "slice". It should be understood that these are
+  supported only if the values contained therein are themselves
+  supported. Recursive containers are supported since "version" 3.
+* The singletons "None", "Ellipsis" and "StopIteration".

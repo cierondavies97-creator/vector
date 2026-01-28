@@ -1,0 +1,7 @@
+class Leaf:
+          ...
+      class Other(Leaf):  # Error reported by type checker
+          ...
+   There is no runtime checking of these properties. See **PEP 591**
+   for more details.
+   Added in version 3.8.

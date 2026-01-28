@@ -1,0 +1,5 @@
+==========================
+asyncio ships with two different event loop implementations:
+"SelectorEventLoop" and "ProactorEventLoop".
+By default asyncio is configured to use "EventLoop".
+class asyncio.SelectorEventLoop

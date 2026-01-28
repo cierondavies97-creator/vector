@@ -1,0 +1,4 @@
+to perform a case-sensitive comparison, regardless of whether
+   that's standard for the operating system.
+   This example will print all file names in the current directory
+   with the extension ".txt":

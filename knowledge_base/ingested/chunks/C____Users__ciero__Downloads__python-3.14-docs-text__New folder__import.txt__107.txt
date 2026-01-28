@@ -1,0 +1,4 @@
+validation behavior may be overridden with the "--check-hash-based-
+pycs" flag.
+Changed in version 3.7: Added hash-based ".pyc" files. Previously,
+Python only supported timestamp-based invalidation of bytecode caches.

@@ -1,0 +1,4 @@
+the key then a welcome message is sent to the other end of the
+   connection.  Otherwise "AuthenticationError" is raised.
+multiprocessing.connection.answer_challenge(connection, authkey)
+   Receive a message, calculate the digest of the message using

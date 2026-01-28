@@ -1,0 +1,4 @@
+the option processing is complete. In the "argparse" version,
+positional arguments are declared and processed in the same way as the
+named options.
+However, the "argparse" version will also handle some parameter

@@ -1,0 +1,4 @@
+assertWarnsRegex(warning, regex, *, msg=None)
+      Like "assertWarns()" but also tests that *regex* matches on the
+      message of the triggered warning.  *regex* may be a regular
+      expression object or a string containing a regular expression

@@ -1,0 +1,3 @@
+**CPython implementation detail:** getsets are attributes defined
+   in extension modules via "PyGetSetDef" structures.  For Python
+   implementations without such types, this method will always return

@@ -1,0 +1,4 @@
+window.
+Editor windows also have breakpoint functions.  Lines with a
+breakpoint set are specially marked.  Breakpoints only have an effect
+when running under the debugger.  Breakpoints for a file are saved in

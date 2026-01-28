@@ -1,0 +1,4 @@
+lexical scoping, while the class or instance that was used to make the
+current call is identified based on the first argument passed to the
+method.
+**CPython implementation detail:** In CPython 3.6 and later, the

@@ -1,0 +1,4 @@
+is unspecified, or "None", then verbose output is used iff the
+   command-line switch "-v" is used.
+   The optional keyword argument *optionflags* can be used to control
+   how the test runner compares expected output to actual output, and

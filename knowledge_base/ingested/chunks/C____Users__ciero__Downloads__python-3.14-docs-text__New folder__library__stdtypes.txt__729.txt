@@ -1,0 +1,6 @@
+in a contiguous representation. It is not necessarily equal
+         to "len(m)":
+            >>> import array
+            >>> a = array.array('i', [1,2,3,4,5])
+            >>> m = memoryview(a)
+            >>> len(m)

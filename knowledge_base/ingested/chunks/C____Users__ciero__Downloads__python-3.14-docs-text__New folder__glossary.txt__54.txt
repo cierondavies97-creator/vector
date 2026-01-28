@@ -1,0 +1,5 @@
+to operating system processes. Multi-core processors can execute
+   threads and processes on different CPU cores at the same time (see
+   *parallelism*).
+concurrent modification
+   When multiple threads modify shared data at the same time.

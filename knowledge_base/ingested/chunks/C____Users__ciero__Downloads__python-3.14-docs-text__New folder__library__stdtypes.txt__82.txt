@@ -1,0 +1,5 @@
+The *signed* argument indicates whether two's complement is used to
+   represent the integer.
+   Equivalent to:
+      def from_bytes(bytes, byteorder='big', signed=False):
+          if byteorder == 'little':

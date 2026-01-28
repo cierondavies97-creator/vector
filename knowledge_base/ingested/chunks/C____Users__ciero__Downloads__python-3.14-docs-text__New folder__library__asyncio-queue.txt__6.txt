@@ -1,0 +1,5 @@
+wait until an item is available.
+      Raises "QueueShutDown" if the queue has been shut down and is
+      empty, or if the queue has been shut down immediately.
+   get_nowait()
+      Return an item if one is immediately available, else raise

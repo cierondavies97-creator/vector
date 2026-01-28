@@ -1,0 +1,5 @@
+Under Windows the small integer returned by this method cannot be
+   used where a file descriptor can be used (such as "os.fdopen()").
+   Unix does not have this limitation.
+socket.get_inheritable()
+   Get the inheritable flag of the socket's file descriptor or

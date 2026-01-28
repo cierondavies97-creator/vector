@@ -1,0 +1,4 @@
+the adaptation of your program, once internationalized, to the local
+language and cultural habits. In order to provide multilingual
+messages for your Python programs, you need to take the following
+steps:

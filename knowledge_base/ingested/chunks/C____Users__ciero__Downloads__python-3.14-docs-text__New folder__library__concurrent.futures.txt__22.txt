@@ -1,0 +1,6 @@
+threads to execute calls asynchronously.
+Deadlocks can occur when the callable associated with a "Future" waits
+on the results of another "Future".  For example:
+   import time
+   def wait_on_b():
+       time.sleep(5)

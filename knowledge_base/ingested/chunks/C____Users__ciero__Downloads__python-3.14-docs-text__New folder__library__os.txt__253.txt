@@ -1,0 +1,3 @@
+relative to that directory.  If the path is absolute, *dir_fd* is
+  ignored.  For POSIX systems, Python will call the variant of the
+  function with an "at" suffix and possibly prefixed with "f" (e.g.

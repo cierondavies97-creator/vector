@@ -1,0 +1,4 @@
+By default, or if "None", a new empty dict is used.
+   Optional argument *extraglobs* gives a dict merged into the globals
+   used to execute examples.  This works like "dict.update()":  if
+   *globs* and *extraglobs* have a common key, the associated value in

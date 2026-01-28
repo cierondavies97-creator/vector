@@ -1,0 +1,4 @@
+indexes also applies to negative slice positions.
+Some sequences also support "extended slicing" with a third "step"
+parameter: "a[i:j:k]" selects all items of *a* with index *x* where "x
+= i + n*k", *n* ">=" "0" and *i* "<=" *x* "<" *j*.

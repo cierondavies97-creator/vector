@@ -1,0 +1,5 @@
+importlib.machinery.SOURCE_SUFFIXES)
+   # Setting up a meta path finder.
+   # Make sure to put the finder in the proper location in the list in terms of
+   # priority.
+   sys.meta_path.append(SpamMetaPathFinder)

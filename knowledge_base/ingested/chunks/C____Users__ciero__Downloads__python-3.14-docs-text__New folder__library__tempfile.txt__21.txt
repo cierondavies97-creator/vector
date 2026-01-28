@@ -1,0 +1,4 @@
+Opening the temporary file again by its name while it is still open
+   works as follows:
+   * On POSIX the file can always be opened again.
+   * On Windows, make sure that at least one of the following

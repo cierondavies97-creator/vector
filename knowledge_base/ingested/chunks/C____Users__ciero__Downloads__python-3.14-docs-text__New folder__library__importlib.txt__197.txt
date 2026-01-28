@@ -1,0 +1,5 @@
+value is the same as setting *optimization* to "1". If both
+   *debug_override* an *optimization* are not "None" then "TypeError"
+   is raised.
+   Added in version 3.4.
+   Changed in version 3.5: The *optimization* parameter was added and

@@ -1,0 +1,5 @@
+>>> MyTest('test_two').test_two()
+   >>> MyTest('test_two').not_a_test()
+   'something'
+An alternative way of managing patches is to use the patch methods:
+start and stop. These allow you to move the patching into your "setUp"

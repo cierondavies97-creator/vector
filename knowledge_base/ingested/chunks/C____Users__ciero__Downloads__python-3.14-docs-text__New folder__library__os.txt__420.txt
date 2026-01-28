@@ -1,0 +1,9 @@
+* the file index on Windows
+   st_dev
+      Identifier of the device on which this file resides.
+   st_nlink
+      Number of hard links.
+   st_uid
+      User identifier of the file owner.
+   st_gid
+      Group identifier of the file owner.

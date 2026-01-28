@@ -1,0 +1,4 @@
+However, if you really do need to use some shared data then
+"multiprocessing" provides a couple of ways of doing so.
+**Shared memory**
+   Data can be stored in a shared memory map using "Value" or "Array".

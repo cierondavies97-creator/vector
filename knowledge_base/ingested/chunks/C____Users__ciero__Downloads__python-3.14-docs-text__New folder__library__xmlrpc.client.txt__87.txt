@@ -1,0 +1,5 @@
+self.proxy = host, port
+           self.proxy_headers = headers
+       def make_connection(self, host):
+           connection = http.client.HTTPConnection(*self.proxy)
+           connection.set_tunnel(host, headers=self.proxy_headers)

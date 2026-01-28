@@ -1,0 +1,4 @@
+If *message* is omitted, the new instance is created in a default,
+   empty state. If *message* is an "email.message.Message" instance,
+   its contents are copied; furthermore, any format-specific
+   information is converted insofar as possible if *message* is a

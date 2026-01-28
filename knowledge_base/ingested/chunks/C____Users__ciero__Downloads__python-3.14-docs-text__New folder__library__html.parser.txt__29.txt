@@ -1,0 +1,4 @@
+inside the "<!...>" markup (e.g. "'DOCTYPE html'").
+HTMLParser.handle_pi(data)
+   Method called when a processing instruction is encountered.  The
+   *data* parameter will contain the entire processing instruction.

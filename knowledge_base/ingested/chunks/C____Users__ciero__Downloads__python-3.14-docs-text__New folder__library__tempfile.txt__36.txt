@@ -1,0 +1,3 @@
+"cleanup()" method. If *ignore_cleanup_errors* is true, any
+      unhandled exceptions during explicit or implicit cleanup (such
+      as a "PermissionError" removing open files on Windows) will be

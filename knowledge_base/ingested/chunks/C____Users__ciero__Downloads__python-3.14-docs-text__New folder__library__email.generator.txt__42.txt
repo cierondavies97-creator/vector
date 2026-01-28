@@ -1,0 +1,4 @@
+function.
+As a convenience, "EmailMessage" provides the methods "as_string()"
+and "str(aMessage)" (a.k.a. "__str__()"), which simplify the
+generation of a formatted string representation of a message object.

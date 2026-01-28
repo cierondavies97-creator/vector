@@ -1,0 +1,4 @@
+have an explicit notion of interface, they are formally introduced as
+classes, but applications may use implementations which do not inherit
+from the provided classes.  The "InputSource", "Locator",
+"Attributes", "AttributesNS", and "XMLReader" interfaces are defined

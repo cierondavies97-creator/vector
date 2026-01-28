@@ -1,0 +1,5 @@
+exception BytesWarning
+   Base class for warnings related to "bytes" and "bytearray".
+exception ResourceWarning
+   Base class for warnings related to resource usage.
+   Ignored by the default warning filters. Enabling the Python

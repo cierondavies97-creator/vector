@@ -1,0 +1,4 @@
+that must be supported.  If *passwd_mgr* also provides
+   "is_authenticated" and "update_authenticated" methods (see
+   HTTPPasswordMgrWithPriorAuth Objects), then the handler will use
+   the "is_authenticated" result for a given URI to determine whether

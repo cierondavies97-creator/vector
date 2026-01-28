@@ -1,0 +1,5 @@
+# and that type might have a 'bar' method
+       item.bar()
+       ...
+Notice that no type checking is performed when assigning a value of
+type "Any" to a more precise type. For example, the static type

@@ -1,0 +1,7 @@
+"options.verbose" to "True"; when it encounters "-q",
+"options.verbose" is set to "False".
+Other actions
+-------------
+Some other actions supported by "optparse" are:
+""store_const""
+   store a constant value, pre-set via "Option.const"

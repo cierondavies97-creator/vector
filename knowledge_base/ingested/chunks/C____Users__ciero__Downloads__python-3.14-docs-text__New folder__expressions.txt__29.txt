@@ -1,0 +1,4 @@
+syntax called "displays", each of them in two flavors:
+* either the container contents are listed explicitly, or
+* they are computed via a set of looping and filtering instructions,
+  called a *comprehension*.

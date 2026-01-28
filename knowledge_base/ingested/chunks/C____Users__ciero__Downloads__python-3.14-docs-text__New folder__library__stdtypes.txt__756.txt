@@ -1,0 +1,7 @@
+set ^ other
+   Return a new set with elements in either the set or *other* but not
+   both.
+frozenset.copy()
+set.copy()
+   Return a shallow copy of the set.
+Note, the non-operator versions of "union()", "intersection()",

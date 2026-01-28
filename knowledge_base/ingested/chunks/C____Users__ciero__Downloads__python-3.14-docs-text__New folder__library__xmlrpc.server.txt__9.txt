@@ -1,0 +1,4 @@
+Create a new instance to handle XML-RPC requests in a CGI
+   environment.  The *allow_none* and *encoding* parameters are passed
+   on to "xmlrpc.client" and control the XML-RPC responses that will
+   be returned from the server. The *use_builtin_types* parameter is

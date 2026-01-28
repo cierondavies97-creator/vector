@@ -1,0 +1,10 @@
+code should use the following idiom:
+   try:
+       import ssl
+   except ImportError:
+       pass
+   else:
+       ...  # do something that requires SSL support
+Client-side operation
+---------------------
+This example creates a SSL context with the recommended security

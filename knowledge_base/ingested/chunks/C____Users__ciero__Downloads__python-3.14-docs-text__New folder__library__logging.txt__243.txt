@@ -1,0 +1,4 @@
+numeric value corresponding to one of the defined levels is passed
+   in, the corresponding string representation is returned.
+   The *level* parameter also accepts a string representation of the
+   level such as 'INFO'. In such cases, this functions returns the

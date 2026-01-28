@@ -1,0 +1,6 @@
+*sock* must be a non-blocking socket.
+   Added in version 3.11.
+async loop.sock_connect(sock, address)
+   Connect *sock* to a remote socket at *address*.
+   Asynchronous version of "socket.connect()".
+   *sock* must be a non-blocking socket.

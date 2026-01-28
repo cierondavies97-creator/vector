@@ -1,0 +1,4 @@
+using the current timezone offset.
+class email.headerregistry.AddressHeader
+   Address headers are one of the most complex structured header
+   types. The "AddressHeader" class provides a generic interface to

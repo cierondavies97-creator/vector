@@ -1,0 +1,4 @@
+"Spinbox". The other six are new: "Combobox", "Notebook",
+"Progressbar", "Separator", "Sizegrip" and "Treeview". And all them
+are subclasses of "Widget".
+Using the Ttk widgets gives the application an improved look and feel.

@@ -1,0 +1,5 @@
+"memoryview" has several methods:
+      __eq__(exporter)
+         A memoryview and a **PEP 3118** exporter are equal if their
+         shapes are equivalent and if all corresponding values are
+         equal when the operands' respective format codes are

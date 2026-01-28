@@ -1,0 +1,3 @@
+part, and find matches for the rest via the "dir()" function.
+      Any exception raised during the evaluation of the expression is
+      caught, silenced and "None" is returned.

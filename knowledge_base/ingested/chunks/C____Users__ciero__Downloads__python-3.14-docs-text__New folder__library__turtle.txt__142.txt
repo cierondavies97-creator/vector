@@ -1,0 +1,5 @@
+following polygon shapes: "arrow", "turtle", "circle", "square",
+   "triangle", "classic".  To learn about how to deal with shapes see
+   Screen method "register_shape()".
+      >>> turtle.shape()
+      'classic'

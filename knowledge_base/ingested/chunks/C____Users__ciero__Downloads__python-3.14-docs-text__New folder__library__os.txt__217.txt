@@ -1,0 +1,3 @@
+os.splice(src, dst, count, offset_src=None, offset_dst=None, flags=0)
+   Transfer *count* bytes from file descriptor *src*, starting from
+   offset *offset_src*, to file descriptor *dst*, starting from offset

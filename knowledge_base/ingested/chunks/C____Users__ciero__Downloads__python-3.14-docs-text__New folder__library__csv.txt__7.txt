@@ -1,0 +1,7 @@
+**PEP 305** - CSV File API
+     The Python Enhancement Proposal which proposed this addition to
+     Python.
+Module Contents
+===============
+The "csv" module defines the following functions:
+csv.reader(csvfile, /, dialect='excel', **fmtparams)

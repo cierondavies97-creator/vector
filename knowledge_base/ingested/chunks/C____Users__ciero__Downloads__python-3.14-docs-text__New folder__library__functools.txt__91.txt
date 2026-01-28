@@ -1,0 +1,5 @@
+...     for i, elem in enumerate(arg):
+      ...         print(i, elem)
+   Note:
+     At runtime the function will dispatch on an instance of a list
+     regardless of the type contained within the list i.e. "[1,2,3]"

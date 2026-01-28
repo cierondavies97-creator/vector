@@ -1,0 +1,4 @@
+Return a tuple "(y, x)" of the height and width of the window.
+window.getparyx()
+   Return the beginning coordinates of this window relative to its
+   parent window as a tuple "(y, x)".  Return "(-1, -1)" if this

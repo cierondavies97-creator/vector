@@ -1,0 +1,5 @@
+the context of adding Abstract Base Classes (see the "abc"
+     module) to the language.
+3.3.5. Emulating generic types
+------------------------------
+When using *type annotations*, it is often useful to *parameterize* a

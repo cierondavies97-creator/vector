@@ -1,0 +1,4 @@
+>>> # of a biased coin that settles on heads 60% of the time.
+   >>> sum(binomialvariate(n=7, p=0.6) >= 5 for i in range(10_000)) / 10_000
+   0.4169
+   >>> # Probability of the median of 5 samples being in middle two quartiles

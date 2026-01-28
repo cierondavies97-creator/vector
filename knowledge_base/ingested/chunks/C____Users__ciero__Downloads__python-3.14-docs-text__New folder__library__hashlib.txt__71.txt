@@ -1,0 +1,7 @@
+You can call "hash.update()" as many times as you need to iteratively
+update the hash:
+>>> from hashlib import blake2b
+>>> items = [b'Hello', b' ', b'world']
+>>> h = blake2b()
+>>> for item in items:
+...     h.update(item)

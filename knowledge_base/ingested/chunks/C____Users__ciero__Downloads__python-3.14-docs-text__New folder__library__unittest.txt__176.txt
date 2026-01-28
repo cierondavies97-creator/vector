@@ -1,0 +1,4 @@
+*level*.
+      If given, *logger* should be a "logging.Logger" object or a
+      "str" giving the name of a logger.  The default is the root
+      logger, which will catch all messages that were not blocked by a

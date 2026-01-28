@@ -1,0 +1,4 @@
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0) as sock:
+       with context.wrap_socket(sock, server_hostname=hostname) as ssock:
+           print(ssock.version())
+Server socket example listening on localhost IPv4:

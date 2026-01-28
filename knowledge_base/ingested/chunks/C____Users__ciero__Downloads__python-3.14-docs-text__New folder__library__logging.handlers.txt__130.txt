@@ -1,0 +1,4 @@
+default algorithm is not suitable for your needs. The default
+      algorithm maps "DEBUG", "INFO", "WARNING", "ERROR" and
+      "CRITICAL" to the equivalent syslog names, and all other level
+      names to 'warning'.

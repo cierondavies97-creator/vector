@@ -1,0 +1,4 @@
+container (like a tuple) contains a reference to a mutable object, its
+value changes if that mutable object is changed.
+Types affect almost all aspects of object behavior.  Even the
+importance of object identity is affected in some sense: for immutable

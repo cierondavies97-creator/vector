@@ -1,0 +1,4 @@
+of storing this information by avoiding holding references to
+traceback and frame objects. In addition, they expose more options to
+configure the output compared to the module-level functions described
+above.

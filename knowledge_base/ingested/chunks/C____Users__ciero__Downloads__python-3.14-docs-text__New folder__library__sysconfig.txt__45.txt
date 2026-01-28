@@ -1,0 +1,3 @@
+is---that's why the user and home schemes come before.  However, there
+are at least two known cases where the prefix scheme will be useful.
+First, consider that many Linux distributions put Python in "/usr",

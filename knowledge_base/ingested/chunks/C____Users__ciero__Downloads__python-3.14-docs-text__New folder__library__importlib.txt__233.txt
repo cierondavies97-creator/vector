@@ -1,0 +1,4 @@
+than "sys.path" being searched. Alternatives should first be
+considered first, such as modifying "sys.path" when a proper module is
+required, or using "runpy.run_path()" when the global namespace
+resulting from running a Python file is appropriate.

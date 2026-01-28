@@ -1,0 +1,4 @@
+calls to "compress()".
+      The *mode* argument is a "ZstdCompressor" attribute, either
+      "CONTINUE", "FLUSH_BLOCK", or "FLUSH_FRAME".
+      When all data has been provided to the compressor, call the

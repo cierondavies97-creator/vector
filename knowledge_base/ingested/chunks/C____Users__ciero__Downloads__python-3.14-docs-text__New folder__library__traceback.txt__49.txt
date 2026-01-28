@@ -1,0 +1,4 @@
+__notes__
+      The "__notes__" value from the original exception, or "None" if
+      the exception does not have any notes. If it is not "None" is it
+      formatted in the traceback after the exception string.

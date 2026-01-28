@@ -1,0 +1,3 @@
+changed when the message is serialized using a "generator". This
+allows, for example, a generic email message to be parsed from disk,
+but to serialize it using standard SMTP settings when sending it to an

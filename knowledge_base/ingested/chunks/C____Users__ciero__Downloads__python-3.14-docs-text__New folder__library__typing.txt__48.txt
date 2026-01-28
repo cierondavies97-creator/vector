@@ -1,0 +1,3 @@
+the same type. For this reason, tuples are special-cased in Python's
+typing system. "tuple" accepts *any number* of type arguments:
+   # OK: ``x`` is assigned to a tuple of length 1 where the sole element is an int

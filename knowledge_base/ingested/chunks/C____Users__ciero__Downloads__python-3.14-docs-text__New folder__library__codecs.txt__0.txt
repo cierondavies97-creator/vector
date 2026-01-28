@@ -1,0 +1,5 @@
+"codecs" --- Codec registry and base classes
+********************************************
+**Source code:** Lib/codecs.py
+======================================================================
+This module defines base classes for standard Python codecs (encoders

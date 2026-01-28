@@ -1,0 +1,6 @@
+Added in version 3.8.
+curses.COLORS
+   The maximum number of colors the terminal can support. It is
+   defined only after the call to "start_color()".
+curses.COLOR_PAIRS
+   The maximum number of color pairs the terminal can support. It is

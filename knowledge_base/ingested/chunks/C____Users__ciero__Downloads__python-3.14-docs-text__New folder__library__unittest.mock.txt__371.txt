@@ -1,0 +1,6 @@
+...
+AttributeError: Mock object has no attribute 'assret_called_with'
+The spec only applies to the mock itself, so we still have the same
+issue with any methods on the mock:
+   >>> mock.header_items()
+   <mock.Mock object at 0x...>

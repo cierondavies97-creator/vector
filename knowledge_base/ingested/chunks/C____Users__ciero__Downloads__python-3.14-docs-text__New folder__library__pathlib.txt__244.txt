@@ -1,0 +1,4 @@
+like passing "recursive=True" to "glob.glob()".
+3. ""**"" pattern components do not follow symlinks by default in
+   pathlib. This behaviour has no equivalent in "glob.glob()", but you
+   can pass "recurse_symlinks=True" to "Path.glob()" for compatible

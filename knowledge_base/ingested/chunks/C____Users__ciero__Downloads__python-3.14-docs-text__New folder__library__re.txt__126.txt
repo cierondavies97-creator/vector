@@ -1,0 +1,6 @@
+patterns.
+   Corresponds to the inline flag "(?L)".
+   Warning:
+     This flag is discouraged; consider Unicode matching instead. The
+     locale mechanism is very unreliable as it only handles one
+     "culture" at a time and only works with 8-bit locales. Unicode

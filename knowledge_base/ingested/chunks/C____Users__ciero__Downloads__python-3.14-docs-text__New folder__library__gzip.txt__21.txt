@@ -1,0 +1,3 @@
+memory buffer using the "io.BytesIO" object's "getvalue()" method.
+   "GzipFile" supports the "io.BufferedIOBase" interface, including
+   iteration and the "with" statement.  Only the "truncate()" method

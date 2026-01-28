@@ -1,0 +1,5 @@
+Note:
+     The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.
+bytes.rjust(width, fillbyte=b' ', /)
+bytearray.rjust(width, fillbyte=b' ', /)

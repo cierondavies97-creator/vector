@@ -1,0 +1,6 @@
+* "dbm.sqlite3"
+* "dbm.gnu"
+* "dbm.ndbm"
+If none of these modules are installed, the slow-but-simple
+implementation in module "dbm.dumb" will be used.  There is a third
+party interface to the Oracle Berkeley DB.

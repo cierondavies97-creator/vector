@@ -1,0 +1,3 @@
+When you compile a node tree with "compile()", the compiler expects
+   "lineno" and "col_offset" attributes for every node that supports
+   them.  This is rather tedious to fill in for generated nodes, so

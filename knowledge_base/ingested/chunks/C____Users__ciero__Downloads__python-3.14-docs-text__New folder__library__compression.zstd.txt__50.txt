@@ -1,0 +1,4 @@
+output immediately. This mode optimizes the compression ratio by
+      maximizing the amount of data per block and frame.
+   FLUSH_BLOCK
+      Complete and write a block to the data stream. The data returned

@@ -1,0 +1,5 @@
+parsed, i.e. after options and their arguments have been parsed and
+   removed from the argument list.
+required option
+   an option that must be supplied on the command-line; note that the
+   phrase "required option" is self-contradictory in English.

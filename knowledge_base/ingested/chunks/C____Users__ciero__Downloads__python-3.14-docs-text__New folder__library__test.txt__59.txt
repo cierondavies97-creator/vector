@@ -1,0 +1,4 @@
+iteration, but not at the first iteration. The sleep delay is
+   doubled at each iteration (up to *max_delay* seconds).
+   See "busy_retry()" documentation for the parameters usage.
+   Example raising an exception after SHORT_TIMEOUT seconds:

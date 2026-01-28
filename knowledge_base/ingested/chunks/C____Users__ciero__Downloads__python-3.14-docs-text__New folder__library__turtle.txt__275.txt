@@ -1,0 +1,4 @@
+created for it. The *canvas* can be a "tkinter.Canvas",
+"ScrolledCanvas" or "TurtleScreen".
+"TurtleScreen" is the basic drawing surface for a turtle. "Screen" is
+a subclass of "TurtleScreen", and includes some additional methods for

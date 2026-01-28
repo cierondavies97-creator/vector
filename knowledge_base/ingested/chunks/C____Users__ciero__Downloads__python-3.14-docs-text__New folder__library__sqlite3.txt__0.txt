@@ -1,0 +1,4 @@
+"sqlite3" --- DB-API 2.0 interface for SQLite databases
+*******************************************************
+**Source code:** Lib/sqlite3/
+SQLite is a C library that provides a lightweight disk-based database

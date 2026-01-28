@@ -1,0 +1,4 @@
+As programs execute, events occur that might be of interest to tools
+that monitor execution. The "sys.monitoring" namespace provides means
+to receive callbacks when events of interest occur.
+The monitoring API consists of three components:

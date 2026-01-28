@@ -1,0 +1,6 @@
+set.difference_update(*others)
+set -= other | ...
+   Update the set, removing elements found in others.
+set.symmetric_difference_update(other, /)
+set ^= other
+   Update the set, keeping only elements found in either set, but not

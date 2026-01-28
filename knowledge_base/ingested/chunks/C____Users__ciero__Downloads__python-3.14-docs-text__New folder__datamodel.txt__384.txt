@@ -1,0 +1,4 @@
+compare unequal (except with themselves) and "x.__hash__()" returns
+   an appropriate value such that "x == y" implies both that "x is y"
+   and "hash(x) == hash(y)".
+   A class that overrides "__eq__()" and does not define "__hash__()"

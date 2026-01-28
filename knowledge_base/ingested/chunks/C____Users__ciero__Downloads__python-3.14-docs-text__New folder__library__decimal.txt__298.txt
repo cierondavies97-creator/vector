@@ -1,0 +1,7 @@
+getcontext().prec -= 2
+       return +s
+Decimal FAQ
+===========
+Q: It is cumbersome to type "decimal.Decimal('1234.5')".  Is there a
+way to minimize typing when using the interactive interpreter?
+A: Some users abbreviate the constructor to just a single letter:

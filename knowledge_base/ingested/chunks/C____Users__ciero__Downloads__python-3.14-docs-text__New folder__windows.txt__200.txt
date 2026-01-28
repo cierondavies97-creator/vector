@@ -1,0 +1,2 @@
+|                                                    | and check that your "python.exe" alias is set to   |
+|                                                    | "Python (default)"                                 |

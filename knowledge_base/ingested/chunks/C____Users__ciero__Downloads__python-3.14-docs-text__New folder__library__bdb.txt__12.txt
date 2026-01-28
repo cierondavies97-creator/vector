@@ -1,0 +1,4 @@
+class bdb.Bdb(skip=None, backend='settrace')
+   The "Bdb" class acts as a generic Python debugger base class.
+   This class takes care of the details of the trace facility; a
+   derived class should implement user interaction.  The standard

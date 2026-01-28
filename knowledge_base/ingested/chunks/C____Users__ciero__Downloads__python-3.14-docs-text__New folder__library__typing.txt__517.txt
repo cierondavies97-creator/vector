@@ -1,0 +1,5 @@
+"typing.Type" in type annotations.
+   Added in version 3.5.2.
+   Deprecated since version 3.9: "builtins.type" now supports
+   subscripting ("[]"). See **PEP 585** and Generic Alias Type.
+Aliases to types in "collections"

@@ -1,0 +1,4 @@
+discovering the standard offset.
+When a "datetime" object is passed in response to a "datetime" method,
+"dt.tzinfo" is the same object as *self*. "tzinfo" methods can rely on
+this, unless user code calls "tzinfo" methods directly. The intent is

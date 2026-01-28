@@ -1,0 +1,4 @@
+When a description of an arithmetic operator below uses the phrase
+"the numeric arguments are converted to a common real type", this
+means that the operator implementation for built-in types works as
+follows:

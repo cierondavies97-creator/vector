@@ -1,0 +1,4 @@
+Changed in version 3.4: The __format__ method of "object" itself
+   raises a "TypeError" if passed any non-empty string.
+   Changed in version 3.7: "object.__format__(x, '')" is now
+   equivalent to "str(x)" rather than "format(str(x), '')".

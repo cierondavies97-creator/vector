@@ -1,0 +1,5 @@
+Rather than being a function, "range" is actually an immutable
+   sequence type, as documented in Ranges and Sequence Types --- list,
+   tuple, range.
+repr(object, /)
+   Return a string containing a printable representation of an object.

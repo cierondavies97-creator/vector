@@ -1,0 +1,3 @@
+iterable and may be used in most places where other iterables are
+   accepted.  One notable exception is code which attempts multiple
+   iteration passes.  A container object (such as a "list") produces a

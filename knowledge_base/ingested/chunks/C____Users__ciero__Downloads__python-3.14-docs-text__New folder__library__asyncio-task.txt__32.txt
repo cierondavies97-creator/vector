@@ -1,0 +1,5 @@
+collection:
+        background_tasks = set()
+        for i in range(10):
+            task = asyncio.create_task(some_coro(param=i))
+            # Add task to the set. This creates a strong reference.

@@ -1,0 +1,4 @@
+calling "m.__func__(m.__self__, arg-1, arg-2, ..., arg-n)".
+Like function objects, bound method objects support getting arbitrary
+attributes.  However, since method attributes are actually stored on
+the underlying function object ("method.__func__"), setting method

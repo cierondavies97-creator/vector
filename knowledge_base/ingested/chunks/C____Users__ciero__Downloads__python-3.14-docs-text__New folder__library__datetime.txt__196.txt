@@ -1,0 +1,4 @@
+specified parameters updated. Note that "tzinfo=None" can be
+   specified to create a naive datetime from an aware datetime with no
+   conversion of date and time data.
+   "datetime" objects are also supported by generic function

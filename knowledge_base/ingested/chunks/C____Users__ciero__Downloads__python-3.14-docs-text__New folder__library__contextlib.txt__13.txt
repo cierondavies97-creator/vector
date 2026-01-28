@@ -1,0 +1,3 @@
+takes place. If an exception is trapped merely in order to log it
+   or to perform some action (rather than to suppress it entirely),
+   the generator must reraise that exception. Otherwise the generator

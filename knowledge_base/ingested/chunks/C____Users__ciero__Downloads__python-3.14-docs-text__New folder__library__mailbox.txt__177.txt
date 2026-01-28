@@ -1,0 +1,4 @@
+"time.strftime()", or "True" (to use "time.gmtime()").
+   get_flags()
+      Return a string specifying the flags that are currently set. If
+      the message complies with the conventional format, the result is

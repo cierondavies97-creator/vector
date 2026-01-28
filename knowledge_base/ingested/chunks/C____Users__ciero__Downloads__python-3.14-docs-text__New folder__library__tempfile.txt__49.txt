@@ -1,0 +1,4 @@
+"mkstemp()" returns a tuple containing an OS-level handle to an
+   open file (as would be returned by "os.open()") and the absolute
+   pathname of that file, in that order.
+   Raises an auditing event "tempfile.mkstemp" with argument

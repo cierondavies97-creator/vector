@@ -1,0 +1,3 @@
+central directory. The central directory timestamp format in ZIP
+     files does not support timestamps before 1980. While some extra
+     field formats (such as UNIX timestamps) can represent earlier

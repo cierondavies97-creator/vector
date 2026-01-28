@@ -1,0 +1,6 @@
+Added in version 3.8.
+Floating point arithmetic
+=========================
+math.ceil(x)
+   Return the ceiling of *x*, the smallest integer greater than or
+   equal to *x*. If *x* is not a float, delegates to "x.__ceil__",

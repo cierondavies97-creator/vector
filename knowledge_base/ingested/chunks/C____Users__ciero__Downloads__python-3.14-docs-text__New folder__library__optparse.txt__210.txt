@@ -1,0 +1,4 @@
+parser.add_option("--file", dest="filename",
+                       help="Input file to read data from")
+     parser.add_option("--secret", help=SUPPRESS_HELP)
+  If "optparse" sees either "-h" or "--help" on the command line, it

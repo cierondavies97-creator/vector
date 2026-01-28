@@ -1,0 +1,5 @@
+The first index of invalid data in "object".
+      This value should not be negative as it is interpreted as an
+      absolute offset but this constraint is not enforced at runtime.
+   end
+      The index after the last invalid data in "object".

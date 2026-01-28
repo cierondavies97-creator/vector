@@ -1,0 +1,5 @@
+Failing to lock the mailbox runs the risk of losing messages or
+     corrupting the entire mailbox.
+   "Mailbox" instances have the following methods:
+   add(message)
+      Add *message* to the mailbox and return the key that has been

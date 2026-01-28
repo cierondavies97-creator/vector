@@ -1,0 +1,5 @@
+"'[if IE 9]>IE9-specific content<![endif]'".
+HTMLParser.handle_decl(decl)
+   This method is called to handle an HTML doctype declaration (e.g.
+   "<!DOCTYPE html>").
+   The *decl* parameter will be the entire contents of the declaration

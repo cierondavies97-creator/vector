@@ -1,0 +1,3 @@
+normally used in conjunction with a "QueueListener", you can configure
+both together. After the configuration, the "QueueListener" instance
+will be available as the "listener" attribute of the created handler,

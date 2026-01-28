@@ -1,0 +1,5 @@
+contexts (all names are examples):
+     * UUID: "{FB605B73-AAC2-49A6-9A2F-25416AEA0573}"
+     * name: "ethernet_32770"
+     * friendly name: "vEthernet (nat)"
+     * description: "Hyper-V Virtual Ethernet Adapter"

@@ -1,0 +1,3 @@
+The specific resources that can be limited are system dependent. They
+are described in the *getrlimit(2)* man page.  The resources listed
+below are supported when the underlying operating system supports

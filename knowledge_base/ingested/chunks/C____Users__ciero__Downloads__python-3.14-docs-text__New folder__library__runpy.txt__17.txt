@@ -1,0 +1,4 @@
+alternatives.
+runpy.run_path(path_name, init_globals=None, run_name=None)
+   Execute the code at the named filesystem location and return the
+   resulting module's globals dictionary. As with a script name

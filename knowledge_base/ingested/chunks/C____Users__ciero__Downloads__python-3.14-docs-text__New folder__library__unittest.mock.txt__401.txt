@@ -1,0 +1,4 @@
+are already mocks recursively.
+   If a mock instance with a name or a spec is assigned to an
+   attribute it won't be considered in the sealing chain. This allows
+   one to prevent seal from fixing part of the mock object.

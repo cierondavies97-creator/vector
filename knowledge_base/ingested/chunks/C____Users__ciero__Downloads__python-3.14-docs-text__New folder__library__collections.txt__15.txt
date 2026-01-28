@@ -1,0 +1,4 @@
+becomes the new map at the front of the list of mappings; if not
+      specified, an empty dict is used, so that a call to
+      "d.new_child()" is equivalent to: "ChainMap({}, *d.maps)". If
+      any keyword arguments are specified, they update passed map or

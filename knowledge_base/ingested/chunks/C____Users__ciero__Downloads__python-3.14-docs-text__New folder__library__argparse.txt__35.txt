@@ -1,0 +1,6 @@
+usage: argparse.py [-h]
+   A foo that bars
+   options:
+    -h, --help  show this help message and exit
+   And that's how you'd foo a bar
+As with the description argument, the "epilog=" text is by default

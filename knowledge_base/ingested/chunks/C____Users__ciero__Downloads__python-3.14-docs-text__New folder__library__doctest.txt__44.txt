@@ -1,0 +1,13 @@
+12
+   >>> if x == 13:
+   ...     print("yes")
+   ... else:
+   ...     print("no")
+   ...     print("NO")
+   ...     print("NO!!!")
+   ...
+   no
+   NO
+   NO!!!
+   >>>
+Any expected output must immediately follow the final "'>>> '" or

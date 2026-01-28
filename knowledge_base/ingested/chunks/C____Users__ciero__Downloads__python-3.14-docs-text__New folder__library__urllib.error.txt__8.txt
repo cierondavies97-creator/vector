@@ -1,0 +1,5 @@
+This exception is raised when the "urlretrieve()" function detects
+   that the amount of the downloaded data is less than the expected
+   amount (given by the *Content-Length* header).
+   content
+      The downloaded (and supposedly truncated) data.

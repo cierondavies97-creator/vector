@@ -1,0 +1,9 @@
+>>> p.symlink_to('setup.py')
+      >>> p.resolve()
+      PosixPath('/home/antoine/pathlib/setup.py')
+      >>> p.stat().st_size
+      956
+      >>> p.lstat().st_size
+      8
+   Note:
+     The order of arguments (link, target) is the reverse of

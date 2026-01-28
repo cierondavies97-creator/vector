@@ -1,0 +1,6 @@
+['example.ini', 'override.ini']
+      >>> print(config_override.get('DEFAULT', 'ServerAliveInterval'))
+      -1
+   Changed in version 3.1: The default *dict_type* is
+   "collections.OrderedDict".
+   Changed in version 3.2: *allow_no_value*, *delimiters*,

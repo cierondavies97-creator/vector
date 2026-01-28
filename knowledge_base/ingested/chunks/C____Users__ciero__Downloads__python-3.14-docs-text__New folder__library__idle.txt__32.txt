@@ -1,0 +1,6 @@
+Shell menu (Shell window only)
+------------------------------
+View Last Restart
+   Scroll the shell window to the last Shell restart.
+Restart Shell
+   Restart the shell to clean the environment and reset display and

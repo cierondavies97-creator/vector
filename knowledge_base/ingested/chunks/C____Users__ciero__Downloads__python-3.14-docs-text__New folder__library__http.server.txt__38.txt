@@ -1,0 +1,4 @@
+optional, short, human readable description of the error.  The
+      *explain* argument can be used to provide more detailed
+      information about the error; it will be formatted using the
+      "error_message_format" attribute and emitted, after a complete

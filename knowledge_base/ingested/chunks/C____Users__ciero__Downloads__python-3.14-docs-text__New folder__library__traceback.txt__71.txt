@@ -1,0 +1,2 @@
+A "FrameSummary" object represents a single frame in a traceback.
+class traceback.FrameSummary(filename, lineno, name, *, lookup_line=True, locals=None, line=None, end_lineno=None, colno=None, end_colno=None)

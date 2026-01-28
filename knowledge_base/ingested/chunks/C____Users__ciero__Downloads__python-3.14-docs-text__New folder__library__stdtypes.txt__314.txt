@@ -1,0 +1,4 @@
+checked in Python Development Mode and in debug mode.
+str.endswith(suffix[, start[, end]])
+   Return "True" if the string ends with the specified *suffix*,
+   otherwise return "False".  *suffix* can also be a tuple of suffixes

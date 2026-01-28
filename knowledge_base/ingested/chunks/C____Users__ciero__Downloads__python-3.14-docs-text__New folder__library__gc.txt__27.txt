@@ -1,0 +1,4 @@
+Return a list of objects directly referred to by any of the
+   arguments. The referents returned are those objects visited by the
+   arguments' C-level "tp_traverse" methods (if any), and may not be
+   all objects actually directly reachable.  "tp_traverse" methods are

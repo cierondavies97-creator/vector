@@ -1,0 +1,6 @@
+always returns integers.
+   Changed in version 3.5: Windows now returns the file index as
+   "st_ino" when available.
+   Changed in version 3.7: Added the "st_fstype" member to
+   Solaris/derivatives.
+   Changed in version 3.8: Added the "st_reparse_tag" member on

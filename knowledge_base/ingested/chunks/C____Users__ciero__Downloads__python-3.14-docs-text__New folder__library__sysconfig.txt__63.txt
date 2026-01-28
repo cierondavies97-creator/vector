@@ -1,0 +1,4 @@
+Return the default scheme name for the current platform.
+   Added in version 3.10: This function was previously named
+   "_get_default_scheme()" and considered an implementation detail.
+   Changed in version 3.11: When Python runs from a virtual

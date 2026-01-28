@@ -1,0 +1,4 @@
+* **height** -- if an integer, the height in pixels, if a float,
+        a fraction of the screen; default is 75% of screen
+      * **startx** -- if positive, starting position in pixels from
+        the left edge of the screen, if negative from the right edge,

@@ -1,0 +1,5 @@
+the system.
+   Availability: Unix.
+os.readlink(path, *, dir_fd=None)
+   Return a string representing the path to which the symbolic link
+   points.  The result may be either an absolute or relative pathname;

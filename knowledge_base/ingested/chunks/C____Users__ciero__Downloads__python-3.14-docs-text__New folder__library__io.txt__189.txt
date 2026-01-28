@@ -1,0 +1,4 @@
+different thread from entering the buffered object.
+The above implicitly extends to text files, since the "open()"
+function will wrap a buffered object inside a "TextIOWrapper".  This
+includes standard streams and therefore affects the built-in "print()"

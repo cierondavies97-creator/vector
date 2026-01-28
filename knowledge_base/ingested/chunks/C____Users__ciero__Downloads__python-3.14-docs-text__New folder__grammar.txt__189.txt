@@ -1,0 +1,5 @@
+| '**' a=expression { _PyPegen_keyword_or_starred(p, CHECK(keyword_ty, _PyAST_keyword(NULL, a, EXTRA)), 1) }
+   # ASSIGNMENT TARGETS
+   # ==================
+   # Generic targets
+   # ---------------

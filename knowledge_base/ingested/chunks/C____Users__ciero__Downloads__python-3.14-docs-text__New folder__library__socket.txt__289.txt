@@ -1,0 +1,4 @@
+remote socket, since the destination socket is specified by
+   *address*.  The optional *flags* argument has the same meaning as
+   for "recv()" above.  Return the number of bytes sent. (The format
+   of *address* depends on the address family --- see above.)

@@ -1,0 +1,4 @@
+only acceptable value) for "FORMAT_ALONE" and "FORMAT_RAW".
+   * "CHECK_CRC32": 32-bit Cyclic Redundancy Check.
+   * "CHECK_CRC64": 64-bit Cyclic Redundancy Check. This is the
+     default for "FORMAT_XZ".

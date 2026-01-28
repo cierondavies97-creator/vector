@@ -1,0 +1,4 @@
+Paint character *ch* at "(y, x)" with attributes *attr*, moving the
+   line from position *x* right by one character.
+window.insdelln(nlines)
+   Insert *nlines* lines into the specified window above the current

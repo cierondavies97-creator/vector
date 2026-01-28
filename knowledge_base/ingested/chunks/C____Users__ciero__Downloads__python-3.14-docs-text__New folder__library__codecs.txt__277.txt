@@ -1,0 +1,2 @@
+|                        |                    | version 3.4: accepts any       |                                |
+|                        |                    | *bytes-like object* as input   |                                |

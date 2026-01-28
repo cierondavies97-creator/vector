@@ -1,0 +1,6 @@
+translated messages for running under different natural languages.
+Some hints on localizing your Python modules and applications are also
+given.
+GNU **gettext** API
+===================
+The "gettext" module defines the following API, which is very similar

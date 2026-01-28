@@ -1,0 +1,5 @@
+print("*** print_exception:")
+       traceback.print_exception(exc, limit=2, file=sys.stdout)
+       print("*** print_exc:")
+       traceback.print_exc(limit=2, file=sys.stdout)
+       print("*** format_exc, first and last line:")

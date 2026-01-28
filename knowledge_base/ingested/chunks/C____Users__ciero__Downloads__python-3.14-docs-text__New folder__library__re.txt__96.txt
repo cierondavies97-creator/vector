@@ -1,0 +1,4 @@
+"\b"
+   Matches the empty string, but only at the beginning or end of a
+   word. A word is defined as a sequence of word characters. Note that
+   formally, "\b" is defined as the boundary between a "\w" and a "\W"

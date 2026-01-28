@@ -1,0 +1,4 @@
+class importlib.machinery.AppleFrameworkLoader(name, path)
+   A specialization of "importlib.machinery.ExtensionFileLoader" that
+   is able to load extension modules in Framework format.
+   For compatibility with the iOS App Store, *all* binary modules in

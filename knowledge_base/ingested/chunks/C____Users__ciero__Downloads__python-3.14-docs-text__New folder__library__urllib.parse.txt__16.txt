@@ -1,0 +1,4 @@
+ParseResult(scheme='', netloc='', path='www.cwi.nl/%7Eguido/Python.html',
+                  params='', query='', fragment='')
+      >>> urlparse('help/Python.html')
+      ParseResult(scheme='', netloc='', path='help/Python.html', params='',

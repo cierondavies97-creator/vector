@@ -1,0 +1,2 @@
+|                        | quotedprintable,   | quoted printable.              | "quotetabs=True" /             |
+|                        | quoted_printable   |                                | "quopri.decode()"              |

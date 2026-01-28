@@ -1,0 +1,4 @@
+If you do have a "MaildirMessage" object, use its "set_flags()"
+      method instead, because changes made with this mailbox method
+      will not be visible to the message object's method,
+      "get_flags()".

@@ -1,0 +1,10 @@
+ignored.
+Value Types
+-----------
+For more information, see Registry Value Types.
+winreg.REG_BINARY
+   Binary data in any form.
+winreg.REG_DWORD
+   32-bit number.
+winreg.REG_DWORD_LITTLE_ENDIAN
+   A 32-bit number in little-endian format. Equivalent to "REG_DWORD".

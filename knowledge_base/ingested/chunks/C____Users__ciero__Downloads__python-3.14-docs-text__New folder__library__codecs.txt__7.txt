@@ -1,0 +1,4 @@
+encoding. Given a "str" *string* of up to 256 characters
+   representing a decoding table, returns either a compact internal
+   mapping object "EncodingMap" or a "dictionary" mapping character
+   ordinals to byte values. Raises a "TypeError" on invalid input.

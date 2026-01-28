@@ -1,0 +1,4 @@
+----------------
+If using this module as part of a multi-processed application (using,
+for example the "multiprocessing" or "concurrent.futures" modules), be
+aware that OpenSSL's internal random number generator does not

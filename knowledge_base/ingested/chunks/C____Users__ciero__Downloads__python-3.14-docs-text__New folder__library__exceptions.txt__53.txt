@@ -1,0 +1,4 @@
+described in OS exceptions below.  The particular subclass depends
+   on the final "errno" value.  This behaviour only occurs when
+   constructing "OSError" directly or via an alias, and is not
+   inherited when subclassing.

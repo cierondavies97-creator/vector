@@ -1,0 +1,6 @@
+>>> mock.assert_any_await('foo', bar='bar')
+      >>> mock.assert_any_await('other')
+      Traceback (most recent call last):
+      ...
+      AssertionError: mock('other') await not found
+   assert_has_awaits(calls, any_order=False)

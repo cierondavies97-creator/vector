@@ -1,0 +1,5 @@
+"CancelledError" exception.
+      If the Future's result isn't yet available, this method raises
+      an "InvalidStateError" exception.
+   set_result(result)
+      Mark the Future as *done* and set its result.

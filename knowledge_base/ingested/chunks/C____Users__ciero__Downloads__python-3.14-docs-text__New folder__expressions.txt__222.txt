@@ -1,0 +1,4 @@
+interpretation that is conventional in mathematics:
+   comparison:    or_expr (comp_operator or_expr)*
+   comp_operator: "<" | ">" | "==" | ">=" | "<=" | "!="
+                  | "is" ["not"] | ["not"] "in"

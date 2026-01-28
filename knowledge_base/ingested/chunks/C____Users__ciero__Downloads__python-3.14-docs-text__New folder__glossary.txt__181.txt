@@ -1,0 +1,7 @@
+See also *package*.
+module spec
+   A namespace containing the import-related information used to load
+   a module. An instance of "importlib.machinery.ModuleSpec".
+   See also Module specs.
+MRO
+   See *method resolution order*.

@@ -1,0 +1,7 @@
+print('Close the connection')
+       writer.close()
+       await writer.wait_closed()
+   asyncio.run(tcp_echo_client('Hello World!'))
+See also the Examples section below.
+-[ Stream Functions ]-
+The following top-level asyncio functions can be used to create and

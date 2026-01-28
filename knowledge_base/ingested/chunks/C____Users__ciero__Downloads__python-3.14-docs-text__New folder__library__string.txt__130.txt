@@ -1,0 +1,6 @@
+'c, b, a'
+   >>> '{2}, {1}, {0}'.format(*'abc')      # unpacking argument sequence
+   'c, b, a'
+   >>> '{0}{1}{0}'.format('abra', 'cad')   # arguments' indices can be repeated
+   'abracadabra'
+Accessing arguments by name:

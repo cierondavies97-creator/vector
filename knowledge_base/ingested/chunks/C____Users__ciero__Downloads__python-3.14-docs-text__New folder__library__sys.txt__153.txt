@@ -1,0 +1,5 @@
+Return "'utf-8'". This is the name of the default string encoding,
+   used in methods like "str.encode()".
+sys.getdlopenflags()
+   Return the current value of the flags that are used for "dlopen()"
+   calls.  Symbolic names for the flag values can be found in the "os"

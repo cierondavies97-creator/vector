@@ -1,0 +1,3 @@
+source is a directory, "copytree()" is called, passing it the
+   *copy_function*. The default *copy_function* is "copy2()".  Using
+   "copy()" as the *copy_function* allows the move to succeed when it

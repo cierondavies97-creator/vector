@@ -1,0 +1,4 @@
+was used previously. Return an integer (no fractions of a second in
+   the input format)
+ssl.get_server_certificate(addr, ssl_version=PROTOCOL_TLS_CLIENT, ca_certs=None[, timeout])
+   Given the address "addr" of an SSL-protected server, as a

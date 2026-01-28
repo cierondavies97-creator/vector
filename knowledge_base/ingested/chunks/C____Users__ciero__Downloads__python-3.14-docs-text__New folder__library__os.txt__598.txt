@@ -1,0 +1,5 @@
+Changed in version 3.3: Added support for specifying *path* as an
+   open file descriptor for "execve()".
+   Changed in version 3.6: Accepts a *path-like object*.
+os._exit(n)
+   Exit the process with status *n*, without calling cleanup handlers,

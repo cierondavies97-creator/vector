@@ -1,0 +1,4 @@
+Python 1.0 release.
+* "optparse": a declarative replacement for "getopt" that provides
+  equivalent functionality without requiring each application to
+  implement its own procedural option parsing logic. Included in the

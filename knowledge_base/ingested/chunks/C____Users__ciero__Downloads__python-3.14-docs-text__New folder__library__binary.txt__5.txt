@@ -1,0 +1,8 @@
+* StreamWriter Objects
+      * StreamReader Objects
+      * StreamReaderWriter Objects
+      * StreamRecoder Objects
+  * Encodings and Unicode
+  * Standard Encodings
+  * Python Specific Encodings
+    * Text Encodings

@@ -1,0 +1,6 @@
+results in items being skipped.
+   Roughly equivalent to:
+      def islice(iterable, *args):
+          # islice('ABCDEFG', 2) → A B
+          # islice('ABCDEFG', 2, 4) → C D
+          # islice('ABCDEFG', 2, None) → C D E F G

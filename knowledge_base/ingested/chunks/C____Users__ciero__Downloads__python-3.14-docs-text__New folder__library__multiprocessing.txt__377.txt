@@ -1,0 +1,3 @@
+supports only one *iterable* argument though, for multiple
+      iterables see "starmap()"). It blocks until the result is ready.
+      This method chops the iterable into a number of chunks which it

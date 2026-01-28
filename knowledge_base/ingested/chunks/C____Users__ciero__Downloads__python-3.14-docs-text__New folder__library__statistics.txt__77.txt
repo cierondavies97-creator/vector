@@ -1,0 +1,4 @@
+"tuple".  For mixed or nested inputs, consider using this slower
+   quadratic algorithm that only depends on equality tests: "max(data,
+   key=data.count)".
+   Changed in version 3.8: Now handles multimodal datasets by

@@ -1,0 +1,5 @@
+"ssl.SSLContext.check_hostname" and *Server Name Indication* (see
+   "ssl.HAS_SNI").
+   Added in version 3.4.
+Instances of "POP3_SSL" have no additional methods. The interface of
+this subclass is identical to its parent.

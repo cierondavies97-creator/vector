@@ -1,0 +1,6 @@
+given graph are as follows:
+   * Create an instance of the "TopologicalSorter" with an optional
+     initial graph.
+   * Add additional nodes to the graph.
+   * Call "prepare()" on the graph.
+   * While "is_active()" is "True", iterate over the nodes returned by

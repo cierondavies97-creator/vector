@@ -1,0 +1,4 @@
+creates a "lib/pythonX.Y/site-packages" subdirectory (on Windows, this
+is "Lib\site-packages"). If an existing directory is specified, it
+will be re-used.
+Changed in version 3.5: The use of "venv" is now recommended for

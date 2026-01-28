@@ -1,0 +1,4 @@
+"*" and "?" patterns.
+Unless stated otherwise, "filename string" and "pattern string" either
+refer to "str" or "ISO-8859-1" encoded "bytes" objects. Note that the
+functions documented below do not allow to mix a "bytes" pattern with

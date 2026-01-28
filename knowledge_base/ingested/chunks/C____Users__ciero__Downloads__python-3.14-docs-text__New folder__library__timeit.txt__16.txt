@@ -1,0 +1,4 @@
+"timeit()" method.  The "repeat()" and "autorange()" methods are
+   convenience methods to call "timeit()" multiple times.
+   The execution time of *setup* is excluded from the overall timed
+   execution run.

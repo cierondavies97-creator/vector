@@ -1,0 +1,5 @@
+commonly called Expat, for parsing XML.
+By default, Expat itself does not access local files or create network
+connections.
+Expat versions lower than 2.7.2 may be vulnerable to the "billion
+laughs", "quadratic blowup" and "large tokens" vulnerabilities, or to

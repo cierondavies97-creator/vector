@@ -1,0 +1,6 @@
+comments on the internal structure of the data contained in this
+   "bytes" object.
+ZipInfo.create_system
+   System which created ZIP archive.
+ZipInfo.create_version
+   PKZIP version which created ZIP archive.

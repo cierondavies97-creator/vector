@@ -1,0 +1,4 @@
+Changed in version 3.5: Previously, "TypeError" was raised when
+   null bytes were encountered in *source*.
+   Added in version 3.8: "ast.PyCF_ALLOW_TOP_LEVEL_AWAIT" can now be
+   passed in flags to enable support for top-level "await", "async

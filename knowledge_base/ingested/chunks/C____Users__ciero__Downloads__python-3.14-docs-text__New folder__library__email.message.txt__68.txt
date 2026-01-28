@@ -1,0 +1,4 @@
+Changed in version 3.4: "replace" keyword was added.
+   del_param(param, header='content-type', requote=True)
+      Remove the given parameter completely from the *Content-Type*
+      header.  The header will be re-written in place without the

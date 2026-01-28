@@ -1,0 +1,4 @@
+you may also have to provide an argument list to
+"PyObject_CallObject()".  In some cases the argument list is also
+provided by the Python program, through the same interface that
+specified the callback function.  It can then be saved and used in the

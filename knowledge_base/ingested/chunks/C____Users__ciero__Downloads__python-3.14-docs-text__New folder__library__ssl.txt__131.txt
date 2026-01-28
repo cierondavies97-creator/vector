@@ -1,0 +1,5 @@
+context may be used to authenticate web clients (therefore, it will
+   be used to create server-side sockets).
+   Added in version 3.4.
+class ssl.SSLErrorNumber
+   "enum.IntEnum" collection of SSL_ERROR_* constants.

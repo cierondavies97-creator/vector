@@ -1,0 +1,3 @@
+set of headers, as the response body.  The "responses" attribute
+      holds the default values for *message* and *explain* that will
+      be used if no value is provided; for unknown codes the default

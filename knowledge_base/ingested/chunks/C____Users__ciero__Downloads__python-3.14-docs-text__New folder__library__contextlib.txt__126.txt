@@ -1,0 +1,4 @@
+logging.info('Exiting: %s', self.name)
+Instances of this class can be used as both a context manager:
+   with track_entry_and_exit('widget loader'):
+       print('Some time consuming activity goes here')

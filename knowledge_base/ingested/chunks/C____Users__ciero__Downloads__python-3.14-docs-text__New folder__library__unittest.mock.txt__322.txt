@@ -1,0 +1,9 @@
+>>> real.method.return_value = sentinel.some_object
+>>> result = real.method()
+>>> assert result is sentinel.some_object
+>>> result
+sentinel.some_object
+DEFAULT
+-------
+unittest.mock.DEFAULT
+   The "DEFAULT" object is a pre-created sentinel (actually

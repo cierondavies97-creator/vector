@@ -1,0 +1,6 @@
+to "byte_size * 8".
+   is_anonymous
+      True if this field is anonymous, that is, it contains nested
+      sub-fields that should be merged into a containing structure or
+      union.
+Arrays and pointers

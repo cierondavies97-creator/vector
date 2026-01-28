@@ -1,0 +1,4 @@
+specific; for a debugger to support multiple threads, it must
+   register a trace function using "settrace()" for each thread being
+   debugged or use "threading.settrace()".
+   Trace functions should have three arguments: *frame*, *event*, and

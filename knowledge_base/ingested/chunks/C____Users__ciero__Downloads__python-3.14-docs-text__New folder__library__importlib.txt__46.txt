@@ -1,0 +1,5 @@
+class importlib.abc.Loader
+   An abstract base class for a *loader*. See **PEP 302** for the
+   exact definition for a loader.
+   Loaders that wish to support resource reading should implement a
+   "get_resource_reader()" method as specified by

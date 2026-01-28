@@ -1,0 +1,6 @@
+if byteorder == 'little':
+              order = range(length)
+          elif byteorder == 'big':
+              order = reversed(range(length))
+          else:
+              raise ValueError("byteorder must be either 'little' or 'big'")

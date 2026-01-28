@@ -1,0 +1,3 @@
+|                   |                     | is bound, or "None"         |
++-------------------+---------------------+-----------------------------+
+Changed in version 3.5: Add "__qualname__" and "gi_yieldfrom"

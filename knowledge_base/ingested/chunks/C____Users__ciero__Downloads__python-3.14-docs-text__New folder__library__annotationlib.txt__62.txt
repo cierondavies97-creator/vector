@@ -1,0 +1,4 @@
+globals environment. If neither of these formats are supported,
+       it will fall back to using "VALUE". If "VALUE" fails, the error
+       from this call will be raised.
+   * STRING: If "object.__annotate__" exists, it is called first;

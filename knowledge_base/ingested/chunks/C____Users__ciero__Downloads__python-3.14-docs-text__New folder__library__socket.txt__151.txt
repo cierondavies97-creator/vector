@@ -1,0 +1,4 @@
+until a connection succeeds (possibly tried in parallel, for
+     example, using a Happy Eyeballs algorithm). In these cases,
+     limiting the *type* and/or *proto* can help eliminate
+     unsuccessful or unusable connection attempts.Some systems will,

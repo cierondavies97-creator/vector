@@ -1,0 +1,3 @@
+you can extend and customize the types of searchable path entries.
+For example, if you wanted to support path entries as network URLs,
+you could write a hook that implements HTTP semantics to find modules

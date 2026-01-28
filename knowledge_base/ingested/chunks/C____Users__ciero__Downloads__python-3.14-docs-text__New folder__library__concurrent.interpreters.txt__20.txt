@@ -1,0 +1,3 @@
+switching back and forth between interpreters, Stackless-style.
+However, this model is more useful when you combine interpreters with
+multiple threads.  This mostly involves starting a new thread, where

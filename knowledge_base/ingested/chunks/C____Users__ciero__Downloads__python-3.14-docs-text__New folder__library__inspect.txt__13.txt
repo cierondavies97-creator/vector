@@ -1,0 +1,3 @@
+|                   | __func__            | function object containing  |
+|                   |                     | implementation of method    |
++-------------------+---------------------+-----------------------------+

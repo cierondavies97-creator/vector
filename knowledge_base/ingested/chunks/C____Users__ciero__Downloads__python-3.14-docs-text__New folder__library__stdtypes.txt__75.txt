@@ -1,0 +1,5 @@
+b'A'
+   However, when using the default arguments, don't try to convert a
+   value greater than 255 or you'll get an "OverflowError".
+   Equivalent to:
+      def to_bytes(n, length=1, byteorder='big', signed=False):

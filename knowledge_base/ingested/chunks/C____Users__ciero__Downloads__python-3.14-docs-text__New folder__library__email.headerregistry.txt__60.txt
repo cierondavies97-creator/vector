@@ -1,0 +1,3 @@
+program to construct structured values to assign to specific headers.
+class email.headerregistry.Address(display_name='', username='', domain='', addr_spec=None)
+   The class used to represent an email address.  The general form of

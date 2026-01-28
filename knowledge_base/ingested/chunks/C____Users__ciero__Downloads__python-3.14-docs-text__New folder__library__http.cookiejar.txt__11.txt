@@ -1,0 +1,4 @@
+corresponding attributes.
+   A "CookieJar" which can load cookies from, and perhaps save cookies
+   to, a file on disk.  Cookies are **NOT** loaded from the named file
+   until either the "load()" or "revert()" method is called.

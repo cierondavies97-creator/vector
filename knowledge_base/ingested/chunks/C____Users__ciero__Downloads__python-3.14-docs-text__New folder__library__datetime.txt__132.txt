@@ -1,0 +1,5 @@
+time zone.
+   This function is preferred over "today()" and "utcnow()".
+   Note:
+     Subsequent calls to "datetime.now()" may return the same instant
+     depending on the precision of the underlying clock.

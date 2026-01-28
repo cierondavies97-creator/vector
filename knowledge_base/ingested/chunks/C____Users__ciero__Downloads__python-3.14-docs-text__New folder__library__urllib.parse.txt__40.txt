@@ -1,0 +1,4 @@
+silently ignored.  If true, errors raise a "ValueError" exception.
+   The optional *encoding* and *errors* parameters specify how to
+   decode percent-encoded sequences into Unicode characters, as
+   accepted by the "bytes.decode()" method.

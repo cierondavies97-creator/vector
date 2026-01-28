@@ -1,0 +1,3 @@
+class have been changed; for example, after a "ForwardRef" has been
+   evaluated, the evaluated value is no longer cached.
+typing.evaluate_forward_ref(forward_ref, *, owner=None, globals=None, locals=None, type_params=None, format=annotationlib.Format.VALUE)

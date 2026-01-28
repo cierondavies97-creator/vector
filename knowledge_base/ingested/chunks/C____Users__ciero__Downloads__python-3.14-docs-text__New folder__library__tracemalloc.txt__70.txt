@@ -1,0 +1,6 @@
+line number "lineno".
+      If *inclusive* is "False" (exclude), ignore memory blocks
+      allocated in a file with a name matching "filename_pattern" at
+      line number "lineno".
+   lineno
+      Line number ("int") of the filter. If *lineno* is "None", the

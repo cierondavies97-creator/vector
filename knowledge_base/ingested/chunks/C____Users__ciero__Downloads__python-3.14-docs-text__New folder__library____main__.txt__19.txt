@@ -1,0 +1,4 @@
+Note that if the module didn't encapsulate code inside the "main"
+function but instead put it directly within the "if __name__ ==
+'__main__'" block, the "phrase" variable would be global to the entire
+module.  This is error-prone as other functions within the module

@@ -1,0 +1,3 @@
+If *typed* is set to true, function arguments of different types
+   will be cached separately.  If *typed* is false, the implementation
+   will usually regard them as equivalent calls and only cache a

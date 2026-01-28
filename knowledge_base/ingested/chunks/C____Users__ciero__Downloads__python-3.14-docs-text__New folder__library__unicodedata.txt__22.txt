@@ -1,0 +1,4 @@
+then composes pre-combined characters again.
+   In addition to these two forms, there are two additional normal
+   forms based on compatibility equivalence. In Unicode, certain
+   characters are supported which normally would be unified with other

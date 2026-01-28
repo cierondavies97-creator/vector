@@ -1,0 +1,5 @@
+"__len__", and "__iter__" is insufficient for distinguishing a
+   "Sequence" from a "Mapping".
+Added in version 3.9: These abstract classes now support "[]". See
+Generic Alias Type and **PEP 585**.
+Collections Abstract Base Classes

@@ -1,0 +1,3 @@
++--------------------+-----------------------------------------------+
+   | "'x:xz'"           | Create a tarfile with lzma compression. Raise |
+   |                    | a "FileExistsError" exception if it already   |

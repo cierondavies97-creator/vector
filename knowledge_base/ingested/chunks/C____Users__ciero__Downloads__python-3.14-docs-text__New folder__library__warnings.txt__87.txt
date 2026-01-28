@@ -1,0 +1,6 @@
+# example/higher.py
+      from . import lower
+      def another_way(**kw):
+          lower.one_way(**kw)
+   This makes the warning refer to both the "example.lower.one_way()"
+   and "example.higher.another_way()" call sites only from calling

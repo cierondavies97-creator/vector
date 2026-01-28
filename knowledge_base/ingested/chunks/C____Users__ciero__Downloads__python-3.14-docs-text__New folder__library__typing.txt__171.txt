@@ -1,0 +1,5 @@
+during equality comparisons if one of their parameters are not
+   *hashable*.
+typing.ClassVar
+   Special type construct to mark class variables.
+   As introduced in **PEP 526**, a variable annotation wrapped in

@@ -1,0 +1,4 @@
+Changed in version 3.8: Leading zeros are tolerated, even in
+   ambiguous cases that look like octal notation.
+   Changed in version 3.9.5: Leading zeros are no longer tolerated and
+   are treated as an error. IPv4 address strings are now parsed as

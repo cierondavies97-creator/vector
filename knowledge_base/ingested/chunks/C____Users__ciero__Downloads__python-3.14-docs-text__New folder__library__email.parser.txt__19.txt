@@ -1,0 +1,3 @@
+object* containing one or more lines.  The lines can be partial
+      and the parser will stitch such partial lines together properly.
+      The lines can have any of the three common line endings:

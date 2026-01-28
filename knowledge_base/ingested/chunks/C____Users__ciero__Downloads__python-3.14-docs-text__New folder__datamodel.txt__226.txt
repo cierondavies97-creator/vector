@@ -1,0 +1,5 @@
+interpreter, but they are mentioned here for completeness.
+3.2.13.1. Code objects
+~~~~~~~~~~~~~~~~~~~~~~
+Code objects represent *byte-compiled* executable Python code, or
+*bytecode*. The difference between a code object and a function object

@@ -1,0 +1,3 @@
+When *aware_datetime* is true, fields with type "datetime.datetime"
+   will be created as aware object, with "tzinfo" as "datetime.UTC".
+   XML data for the "FMT_XML" format is parsed using the Expat parser

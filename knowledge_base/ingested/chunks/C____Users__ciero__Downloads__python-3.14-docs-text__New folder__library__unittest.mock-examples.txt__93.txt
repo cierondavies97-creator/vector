@@ -1,0 +1,10 @@
+generator:
+>>> class Foo:
+...     def iter(self):
+...         for i in [1, 2, 3]:
+...             yield i
+...
+>>> foo = Foo()
+>>> list(foo.iter())
+[1, 2, 3]
+How would we mock this class, and in particular its "iter" method?

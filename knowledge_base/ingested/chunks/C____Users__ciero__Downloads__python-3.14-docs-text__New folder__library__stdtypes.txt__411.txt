@@ -1,0 +1,4 @@
+set of characters in *chars*. A similar action takes place on the
+   trailing end. For example:
+      >>> comment_string = '#....... Section 3.2.1 Issue #32 .......'
+      >>> comment_string.strip('.#! ')

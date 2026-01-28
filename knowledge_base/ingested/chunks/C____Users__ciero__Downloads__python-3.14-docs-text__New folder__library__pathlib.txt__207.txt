@@ -1,0 +1,4 @@
+symlink is recreated at the destination.
+   If *preserve_metadata* is false (the default), only directory
+   structures and file data are guaranteed to be copied. Set
+   *preserve_metadata* to true to ensure that file and directory

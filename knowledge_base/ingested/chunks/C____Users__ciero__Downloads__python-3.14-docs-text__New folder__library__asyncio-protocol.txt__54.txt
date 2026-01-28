@@ -1,0 +1,6 @@
+SubprocessTransport.send_signal(signal)
+   Send the *signal* number to the subprocess, as in
+   "subprocess.Popen.send_signal()".
+SubprocessTransport.terminate()
+   Stop the subprocess.
+   On POSIX systems, this method sends "SIGTERM" to the subprocess. On

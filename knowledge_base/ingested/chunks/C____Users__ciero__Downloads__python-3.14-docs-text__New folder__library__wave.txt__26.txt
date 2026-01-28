@@ -1,0 +1,4 @@
+raise an error if the output stream is not seekable and the
+      total number of frames that have been written after *data* has
+      been written does not match the previously set value for
+      *nframes*.

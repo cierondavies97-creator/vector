@@ -1,0 +1,6 @@
+See Choosing an argument parsing library for details on how the
+"argparse" version of this code differs in behaviour from the
+"optparse" (and "getopt") version.
+See also:
+  Module "optparse"
+     Declarative command line option parsing.

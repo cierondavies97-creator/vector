@@ -1,0 +1,3 @@
+which behaves correctly even in the presence of 'diamond' inheritance
+structures where there are multiple inheritance paths leading back to
+a common ancestor. Additional details on the C3 MRO used by Python can

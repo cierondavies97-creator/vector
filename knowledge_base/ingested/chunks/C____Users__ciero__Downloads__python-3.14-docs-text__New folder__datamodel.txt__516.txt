@@ -1,0 +1,4 @@
+f"'{class_of_obj.__name__}' object is not subscriptable"
+           )
+In Python, all classes are themselves instances of other classes. The
+class of a class is known as that class's *metaclass*, and most

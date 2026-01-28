@@ -1,0 +1,4 @@
+Maximum allowed back-reference distance the compressor can use
+      when compressing data, expressed as power of two, "1 <<
+      window_log" bytes. This parameter greatly influences the memory
+      usage of compression. Higher values require more memory but gain

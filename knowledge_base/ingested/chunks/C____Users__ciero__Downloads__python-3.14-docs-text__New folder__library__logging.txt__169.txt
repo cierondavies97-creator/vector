@@ -1,0 +1,4 @@
+getMessage()
+      Returns the message for this "LogRecord" instance after merging
+      any user-supplied arguments with the message. If the user-
+      supplied message argument to the logging call is not a string,

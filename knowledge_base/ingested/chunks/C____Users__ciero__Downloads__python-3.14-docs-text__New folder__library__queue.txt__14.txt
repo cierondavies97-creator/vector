@@ -1,0 +1,5 @@
+exception queue.Full
+   Exception raised when non-blocking "put()" (or "put_nowait()") is
+   called on a "Queue" object which is full.
+exception queue.ShutDown
+   Exception raised when "put()" or "get()" is called on a "Queue"

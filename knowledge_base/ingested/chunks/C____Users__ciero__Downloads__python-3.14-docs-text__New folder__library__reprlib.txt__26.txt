@@ -1,0 +1,6 @@
+level - 1)".
+Subclassing Repr Objects
+========================
+The use of dynamic dispatching by "Repr.repr1()" allows subclasses of
+"Repr" to add support for additional built-in object types or to
+modify the handling of types already supported. This example shows how

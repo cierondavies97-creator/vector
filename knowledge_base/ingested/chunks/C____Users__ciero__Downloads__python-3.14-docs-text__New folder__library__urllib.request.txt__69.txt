@@ -1,0 +1,3 @@
+or not to send authentication credentials with the request.  If
+   "is_authenticated" returns "True" for the URI, credentials are
+   sent.  If "is_authenticated" is "False", credentials are not sent,

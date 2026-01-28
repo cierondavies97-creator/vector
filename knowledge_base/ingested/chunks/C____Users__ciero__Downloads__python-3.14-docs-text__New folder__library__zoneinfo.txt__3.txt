@@ -1,0 +1,5 @@
+Package tzdata
+     First-party package maintained by the CPython core developers to
+     supply time zone data via PyPI.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

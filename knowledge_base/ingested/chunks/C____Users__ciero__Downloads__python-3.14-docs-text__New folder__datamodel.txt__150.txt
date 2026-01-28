@@ -1,0 +1,4 @@
+resolution falls back to "__package__" instead of
+   "__spec__.parent".
+   Changed in version 3.12: Raise "DeprecationWarning" instead of
+   "ImportWarning" when falling back to "__package__" during import

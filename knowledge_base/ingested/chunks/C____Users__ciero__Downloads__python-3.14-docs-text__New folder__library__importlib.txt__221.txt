@@ -1,0 +1,4 @@
+required. For those same reasons, the loader's "create_module()"
+   method must return "None" or a type for which its "__class__"
+   attribute can be mutated along with not using *slots*. Finally,
+   modules which substitute the object placed into "sys.modules" will

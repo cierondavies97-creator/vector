@@ -1,0 +1,5 @@
+scope, even when running inside an *optimized scope*.
+The module defines the following functions; each enters the debugger
+in a slightly different way:
+pdb.run(statement, globals=None, locals=None)
+   Execute the *statement* (given as a string or a code object) under

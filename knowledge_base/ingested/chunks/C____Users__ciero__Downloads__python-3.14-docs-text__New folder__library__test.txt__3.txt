@@ -1,0 +1,3 @@
+Each module in the "test" package whose name starts with "test_" is a
+testing suite for a specific module or feature. All new tests should
+be written using the "unittest" or "doctest" module.  Some older tests

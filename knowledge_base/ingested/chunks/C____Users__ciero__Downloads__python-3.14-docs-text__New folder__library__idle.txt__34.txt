@@ -1,0 +1,7 @@
+Interrupt Execution
+   Stop a running program.
+Debug menu (Shell window only)
+------------------------------
+Go to File/Line
+   Look on the current line. with the cursor, and the line above for a
+   filename and line number.  If found, open the file if not already

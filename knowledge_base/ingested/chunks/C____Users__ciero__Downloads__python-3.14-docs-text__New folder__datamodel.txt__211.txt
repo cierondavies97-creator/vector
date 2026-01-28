@@ -1,0 +1,2 @@
+| type.__mro__                                       | The "tuple" of classes that are considered when    |
+|                                                    | looking for base classes during method resolution. |

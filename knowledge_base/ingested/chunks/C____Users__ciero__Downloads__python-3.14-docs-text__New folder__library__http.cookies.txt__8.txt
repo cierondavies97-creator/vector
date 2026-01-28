@@ -1,0 +1,6 @@
+values. When setting the value, "SimpleCookie" calls the builtin
+   "str()" to convert the value to a string. Values received from HTTP
+   are kept as strings.
+See also:
+  Module "http.cookiejar"
+     HTTP cookie handling for web *clients*.  The "http.cookiejar" and

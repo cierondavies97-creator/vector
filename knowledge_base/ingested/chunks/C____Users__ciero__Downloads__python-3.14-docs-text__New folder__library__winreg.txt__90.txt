@@ -1,0 +1,6 @@
+winreg.REG_MULTI_SZ
+   A sequence of null-terminated strings, terminated by two null
+   characters. (Python handles this termination automatically.)
+winreg.REG_NONE
+   No defined value type.
+winreg.REG_QWORD

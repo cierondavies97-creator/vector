@@ -1,0 +1,6 @@
+assignment:
+   Vector = list[float]
+Or marked with "TypeAlias" to make it explicit that this is a type
+alias, not a normal variable assignment:
+   from typing import TypeAlias
+   Vector: TypeAlias = list[float]

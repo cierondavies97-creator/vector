@@ -1,0 +1,4 @@
+code, a "CalledProcessError" exception will be raised. Attributes
+   of that exception hold the arguments, the exit code, and stdout and
+   stderr if they were captured.
+   If *encoding* or *errors* are specified, or *text* is true, file

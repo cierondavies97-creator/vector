@@ -1,0 +1,5 @@
+WebAssembly platforms for more information.
+Using "ZoneInfo"
+================
+"ZoneInfo" is a concrete implementation of the "datetime.tzinfo"
+abstract base class, and is intended to be attached to "tzinfo",

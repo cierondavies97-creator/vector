@@ -1,0 +1,6 @@
+print('Creating pool with %d processes\n' % PROCESSES)
+       with multiprocessing.Pool(PROCESSES) as pool:
+           #
+           # Tests
+           #
+           TASKS = [(mul, (i, 7)) for i in range(10)] + \

@@ -1,0 +1,5 @@
+return {key: value for key, value in zip(fields, row)}
+Using it, queries now return a "dict" instead of a "tuple":
+   >>> con = sqlite3.connect(":memory:")
+   >>> con.row_factory = dict_factory
+   >>> for row in con.execute("SELECT 1 AS a, 2 AS b"):

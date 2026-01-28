@@ -1,0 +1,3 @@
+source being parsed.  The first line includes the field header
+      name and separator. All whitespace in the source is preserved.
+      The method should return the "(name, value)" tuple that is to be

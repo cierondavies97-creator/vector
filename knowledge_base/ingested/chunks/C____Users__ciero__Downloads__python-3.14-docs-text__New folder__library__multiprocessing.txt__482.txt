@@ -1,0 +1,4 @@
+global variable, then the value it sees (if any) may not be the
+   same as the value in the parent process at the time that
+   "Process.start" was called.
+   However, global variables which are just module level constants

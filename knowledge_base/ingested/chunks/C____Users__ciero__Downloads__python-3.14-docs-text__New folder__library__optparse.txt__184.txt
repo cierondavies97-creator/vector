@@ -1,0 +1,3 @@
+Help text to print for this option when listing all available
+   options after the user supplies a "help" option (such as "--help").
+   If no help text is supplied, the option will be listed without help

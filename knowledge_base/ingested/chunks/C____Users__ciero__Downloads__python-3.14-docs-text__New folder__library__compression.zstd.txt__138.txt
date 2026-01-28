@@ -1,0 +1,4 @@
+decompressing the frame. "0" means the dictionary ID was not
+      recorded in the frame header. This may mean that a Zstandard
+      dictionary is not needed, or that the ID of a required
+      dictionary was not recorded.

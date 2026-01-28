@@ -1,0 +1,3 @@
+normal form D. Normal form D (NFD) is also known as canonical
+   decomposition, and translates each character into its decomposed
+   form. Normal form C (NFC) first applies a canonical decomposition,

@@ -1,0 +1,6 @@
+setting *current_offset* to the instruction responsible for the
+      exception.
+   codeobj
+      The compiled code object.
+   first_line
+      The first source line of the code object (if available)

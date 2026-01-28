@@ -1,0 +1,5 @@
+interpreter.
+The text categories are specified with regular expressions.  The
+technique is to combine those into a single master regular expression
+and to loop over successive matches:
+   from typing import NamedTuple

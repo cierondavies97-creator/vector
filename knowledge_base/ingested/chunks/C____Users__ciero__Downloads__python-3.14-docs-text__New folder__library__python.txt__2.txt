@@ -1,0 +1,8 @@
+* Ancillary events
+    * Other events
+    * The STOP_ITERATION event
+  * Turning events on and off
+    * Setting events globally
+    * Per code object events
+    * Disabling events
+  * Registering callback functions

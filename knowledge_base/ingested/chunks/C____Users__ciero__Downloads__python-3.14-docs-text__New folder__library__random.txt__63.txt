@@ -1,0 +1,5 @@
+seed(a=None, version=2)
+      Override this method in subclasses to customise the "seed()"
+      behaviour of "Random" instances.
+   getstate()
+      Override this method in subclasses to customise the "getstate()"

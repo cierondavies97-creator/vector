@@ -1,0 +1,5 @@
+_PyAST_Tuple(CHECK(asdl_expr_seq*, _PyPegen_seq_insert_in_front(p, value, values)), Load, EXTRA) }
+       | named_expression
+   case_block[match_case_ty]:
+       | invalid_case_block
+       | "case" pattern=patterns guard=guard? ':' body=block {

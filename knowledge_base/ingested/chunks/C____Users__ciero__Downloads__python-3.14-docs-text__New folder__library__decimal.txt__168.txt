@@ -1,0 +1,5 @@
+debugging.
+decimal.ExtendedContext
+   This is a standard context defined by the General Decimal
+   Arithmetic Specification.  Precision is set to nine.  Rounding is
+   set to "ROUND_HALF_EVEN".  All flags are cleared.  No traps are

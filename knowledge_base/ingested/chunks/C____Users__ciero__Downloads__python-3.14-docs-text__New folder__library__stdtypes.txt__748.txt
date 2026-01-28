@@ -1,0 +1,4 @@
+*iterable*.  The elements of a set must be *hashable*.  To
+   represent sets of sets, the inner sets must be "frozenset" objects.
+   If *iterable* is not specified, a new empty set is returned.
+Sets can be created by several means:

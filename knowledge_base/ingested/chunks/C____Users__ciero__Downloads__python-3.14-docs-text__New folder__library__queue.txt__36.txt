@@ -1,0 +1,6 @@
+loaded.
+   And if "task_done()" is called for each remaining task, a pending
+   "join()" will be unblocked normally.
+   Once the queue is empty, future calls to "get()" will raise
+   "ShutDown".
+   If *immediate* is true, the queue is terminated immediately. The

@@ -1,0 +1,5 @@
+with the given *sql_script*. Return the new cursor object.
+   create_function(name, narg, func, *, deterministic=False)
+      Create or remove a user-defined SQL function.
+      Parameters:
+         * **name** (*str*) -- The name of the SQL function.

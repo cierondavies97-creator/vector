@@ -1,0 +1,4 @@
+be integers or one of them must be a custom object overriding
+"__and__()" or "__rand__()" special methods.
+The "^" operator yields the bitwise XOR (exclusive OR) of its
+arguments, which must be integers or one of them must be a custom

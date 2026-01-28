@@ -1,0 +1,6 @@
+>>> pow(38, -1, mod=97)
+      23
+      >>> 23 * 38 % 97 == 1
+      True
+   Changed in version 3.8: For "int" operands, the three-argument form
+   of "pow" now allows the second argument to be negative, permitting

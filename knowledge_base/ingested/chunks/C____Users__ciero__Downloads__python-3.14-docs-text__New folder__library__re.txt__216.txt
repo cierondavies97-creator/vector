@@ -1,0 +1,6 @@
+corresponding group. The backreference "\g<0>" will be replaced by
+   the entire match.
+   Changed in version 3.5: Unmatched groups are replaced with an empty
+   string.
+Match.group([group1, ...])
+   Returns one or more subgroups of the match.  If there is a single

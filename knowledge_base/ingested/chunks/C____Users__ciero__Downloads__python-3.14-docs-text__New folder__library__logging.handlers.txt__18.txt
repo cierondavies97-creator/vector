@@ -1,0 +1,6 @@
+use "NullHandler".
+WatchedFileHandler
+==================
+The "WatchedFileHandler" class, located in the "logging.handlers"
+module, is a "FileHandler" which watches the file it is logging to. If
+the file changes, it is closed and reopened using the file name.

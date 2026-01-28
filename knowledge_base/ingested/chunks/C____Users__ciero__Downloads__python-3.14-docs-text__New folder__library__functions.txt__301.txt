@@ -1,0 +1,4 @@
+Use "functools.cmp_to_key()" to convert an old-style *cmp* function
+   to a *key* function.
+   The built-in "sorted()" function is guaranteed to be stable. A sort
+   is stable if it guarantees not to change the relative order of

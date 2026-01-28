@@ -1,0 +1,4 @@
+all C API pointers could be stored in an array whose address is
+published in a Capsule. And the various tasks of storing and
+retrieving the pointers can be distributed in different ways between
+the module providing the code and the client modules.

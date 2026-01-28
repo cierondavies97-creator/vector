@@ -1,0 +1,5 @@
+Add *items* to the selection.
+      Changed in version 3.6: *items* can be passed as separate
+      arguments, not just as a single tuple.
+   selection_remove(*items)
+      Remove *items* from the selection.

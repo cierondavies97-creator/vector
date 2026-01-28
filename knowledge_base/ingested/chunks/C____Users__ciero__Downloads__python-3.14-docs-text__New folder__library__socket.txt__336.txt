@@ -1,0 +1,6 @@
+returned as a result of the name resolution, and sends traffic to the
+first one connected successfully.
+   # Echo server program
+   import socket
+   import sys
+   HOST = None               # Symbolic name meaning all available interfaces

@@ -1,0 +1,3 @@
+caller creates or renames before it resumes "walk()" again.
+   Modifying *dirnames* when *topdown* is "False" has no effect on the
+   behavior of the walk, because in bottom-up mode the directories in

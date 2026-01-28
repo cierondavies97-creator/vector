@@ -1,0 +1,4 @@
+code in indented form.
+   Note that tabs and spaces are both treated as whitespace, but they
+   are not equal: the lines ""  hello"" and ""\thello"" are considered
+   to have no common leading whitespace.

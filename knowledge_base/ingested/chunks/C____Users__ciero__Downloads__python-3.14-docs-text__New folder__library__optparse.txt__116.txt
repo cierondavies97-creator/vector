@@ -1,0 +1,6 @@
+parser.add_option_group(group)
+This would result in the following help output:
+   Usage: <yourscript> [options] arg1 arg2
+   Options:
+     -h, --help            show this help message and exit
+     -v, --verbose         make lots of noise [default]

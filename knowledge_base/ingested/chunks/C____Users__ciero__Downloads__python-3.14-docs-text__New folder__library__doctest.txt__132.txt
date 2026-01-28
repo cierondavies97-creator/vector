@@ -1,0 +1,4 @@
+class, then reused to test any number of subclasses by passing an
+   *extraglobs* dict mapping the generic name to the subclass to be
+   tested.
+   Optional argument *verbose* prints lots of stuff if true, and

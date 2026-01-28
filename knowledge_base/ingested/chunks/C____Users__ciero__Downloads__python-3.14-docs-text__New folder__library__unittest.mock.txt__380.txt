@@ -1,0 +1,4 @@
+AttributeError: Mock object has no attribute 'assret_called_with'
+   >>> req.add_header.assert_called_with('spam', 'eggs')
+In many cases you will just be able to add "autospec=True" to your
+existing "patch()" calls and then be protected against bugs due to

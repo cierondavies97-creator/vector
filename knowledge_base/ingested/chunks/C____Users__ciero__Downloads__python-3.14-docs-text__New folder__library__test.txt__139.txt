@@ -1,0 +1,3 @@
+Returns an unused port that should be suitable for binding.  This
+   is achieved by creating a temporary socket with the same family and
+   type as the "sock" parameter (default is "AF_INET", "SOCK_STREAM"),

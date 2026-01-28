@@ -1,0 +1,4 @@
+between "1" and "9" specifying the level of compression: "1"
+   produces the least compression, and "9" (default) produces the most
+   compression.
+   If *mode* is "'r'", the input file may be the concatenation of

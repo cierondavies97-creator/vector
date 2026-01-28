@@ -1,0 +1,8 @@
+"int".
+      >>> from enum import Flag, EJECT, auto
+      >>> class EjectFlag(Flag, boundary=EJECT):
+      ...     RED = auto()
+      ...     GREEN = auto()
+      ...     BLUE = auto()
+      ...
+      >>> EjectFlag(2**2 + 2**4)

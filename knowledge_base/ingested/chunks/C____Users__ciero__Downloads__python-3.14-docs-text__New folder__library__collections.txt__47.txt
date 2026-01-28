@@ -1,0 +1,5 @@
+operand and then by the order encountered in the right operand.
+   Counter objects support additional methods beyond those available
+   for all dictionaries:
+   elements()
+      Return an iterator over elements repeating each as many times as

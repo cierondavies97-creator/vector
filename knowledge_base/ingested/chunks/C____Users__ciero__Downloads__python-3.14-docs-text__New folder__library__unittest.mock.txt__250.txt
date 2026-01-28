@@ -1,0 +1,3 @@
+Use "DEFAULT" as the value if you want "patch.multiple()" to create
+   mocks for you. In this case the created mocks are passed into a
+   decorated function by keyword, and a dictionary is returned when

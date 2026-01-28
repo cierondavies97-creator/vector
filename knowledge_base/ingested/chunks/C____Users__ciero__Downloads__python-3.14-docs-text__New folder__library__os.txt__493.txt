@@ -1,0 +1,3 @@
+*topdown* is "False", the triple for a directory is generated after
+   the triples for all of its subdirectories (directories are
+   generated bottom-up). No matter the value of *topdown*, the list of

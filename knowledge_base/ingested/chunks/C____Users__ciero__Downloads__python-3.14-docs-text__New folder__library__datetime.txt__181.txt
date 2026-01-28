@@ -1,0 +1,4 @@
+adjustments are done even if the input is an aware object.
+2. Computes the "datetime2" such that "datetime2 + timedelta ==
+   datetime1". As for addition, the result has the same "tzinfo"
+   attribute as the input datetime, and no time zone adjustments are

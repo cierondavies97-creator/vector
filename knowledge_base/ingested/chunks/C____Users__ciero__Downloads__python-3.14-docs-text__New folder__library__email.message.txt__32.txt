@@ -1,0 +1,4 @@
+always returned in the order they appeared in the original message,
+   or in which they were added to the message later.  Any header
+   deleted and then re-added is always appended to the end of the
+   header list.

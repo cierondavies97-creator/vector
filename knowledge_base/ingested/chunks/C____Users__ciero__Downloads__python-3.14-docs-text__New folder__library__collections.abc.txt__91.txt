@@ -1,0 +1,5 @@
+sets are *hashable* or immutable.  To add set hashability using
+   mixins, inherit from both "Set()" and "Hashable()", then define
+   "__hash__ = Set._hash".
+See also:
+  * OrderedSet recipe for an example built on "MutableSet".

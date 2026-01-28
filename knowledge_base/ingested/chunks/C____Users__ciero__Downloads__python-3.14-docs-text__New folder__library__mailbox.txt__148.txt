@@ -1,0 +1,5 @@
+"'T'". The empty string is returned if no flags are set or if
+      "info" contains experimental semantics.
+   set_flags(flags)
+      Set the flags specified by *flags* and unset all others.
+   add_flag(flag)

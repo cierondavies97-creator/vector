@@ -1,0 +1,3 @@
+| RC_INTERNAL_ERROR   | 109     | Unexpected error. Please report a bug.          |
++---------------------+---------+-------------------------------------------------+
+| RC_NO_COMMANDLINE   | 108     | Unable to obtain command line from the          |

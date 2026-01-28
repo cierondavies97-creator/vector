@@ -1,0 +1,4 @@
+and "Separate");
+* If "whitespace_split" is "False", any character not declared to be a
+  word character, whitespace, or a quote will be returned as a single-
+  character token. If it is "True", "shlex" will only split words in

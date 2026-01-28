@@ -1,0 +1,5 @@
+Instructs "reader" objects to convert all non-quoted fields to type
+   "float".
+   Note:
+     Some numeric types, such as "bool", "Fraction", or "IntEnum",
+     have a string representation that cannot be converted to "float".

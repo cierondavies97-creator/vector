@@ -1,0 +1,4 @@
+the operation can be overridden with the "__pos__()" special method.
+The unary "~" (invert) operator yields the bitwise inversion of its
+integer argument.  The bitwise inversion of "x" is defined as
+"-(x+1)".  It only applies to integral numbers or to custom objects

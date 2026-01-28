@@ -1,0 +1,7 @@
+title: str
+          year: int
+      assert is_typeddict(Film)
+      assert not is_typeddict(list | str)
+      # TypedDict is a factory for creating typed dicts,
+      # not a typed dict itself
+      assert not is_typeddict(TypedDict)

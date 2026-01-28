@@ -1,0 +1,4 @@
+a class. It can still be used as a class base, as described above.
+   Changed in version 3.11: Added support for generic namedtuples.
+   Changed in version 3.14: Using "super()" (and the "__class__"
+   *closure variable*) in methods of "NamedTuple" subclasses is

@@ -1,0 +1,4 @@
+Return "True" if the feature identified by the pair of strings
+   *feature* and *version* is implemented.
+DOMImplementation.createDocument(namespaceUri, qualifiedName, doctype)
+   Return a new "Document" object (the root of the DOM), with a child

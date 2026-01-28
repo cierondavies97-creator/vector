@@ -1,0 +1,6 @@
+@neg.register
+          @classmethod
+          def _(cls, arg: bool):
+              return not arg
+   The same pattern can be used for other similar decorators:
+   "@staticmethod", "@~abc.abstractmethod", and others.

@@ -1,0 +1,3 @@
+binary and various ASCII-encoded binary representations. Normally, you
+will not use these functions directly but use wrapper modules like
+"base64" instead. The "binascii" module contains low-level functions

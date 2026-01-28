@@ -1,0 +1,3 @@
+| pressed      | Widget is being pressed                                       |
++--------------+---------------------------------------------------------------+
+| selected     | "On", "true", or "current" for things like Checkbuttons and   |

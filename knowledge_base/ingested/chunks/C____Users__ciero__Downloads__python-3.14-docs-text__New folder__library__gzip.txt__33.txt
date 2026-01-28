@@ -1,0 +1,3 @@
+at once instead of in a streamed fashion. Calls with *mtime* set to
+   "0" are delegated to "zlib.compress()" for better speed. In this
+   situation the output may contain a gzip header "OS" byte value

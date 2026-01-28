@@ -1,0 +1,4 @@
+"dump(value, file)".  The value must be a supported type.  Raise a
+   "ValueError" exception if value has (or contains an object that
+   has) an unsupported type. Code objects are only supported if
+   *allow_code* is true.

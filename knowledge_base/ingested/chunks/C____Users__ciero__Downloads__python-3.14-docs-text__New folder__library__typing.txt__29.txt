@@ -1,0 +1,5 @@
+async def on_update(value: str) -> None:
+       ...  # Body
+   callback: Callable[[str], Awaitable[None]] = on_update
+The subscription syntax must always be used with exactly two values:
+the argument list and the return type.  The argument list must be a

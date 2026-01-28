@@ -1,0 +1,9 @@
+>>> pi = 3.14
+   >>> t't-strings are new in Python {pi!s}!'
+   Template(
+      strings=('t-strings are new in Python ', '!'),
+      interpolations=(Interpolation(3.14, 'pi', 's', ''),)
+   )
+Types
+=====
+class string.templatelib.Template

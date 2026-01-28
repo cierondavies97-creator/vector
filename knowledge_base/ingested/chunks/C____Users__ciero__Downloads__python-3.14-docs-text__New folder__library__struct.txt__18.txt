@@ -1,0 +1,3 @@
+byte order, and properly aligned by skipping pad bytes if necessary
+(according to the rules used by the C compiler). This behavior is
+chosen so that the bytes of a packed struct correspond exactly to the

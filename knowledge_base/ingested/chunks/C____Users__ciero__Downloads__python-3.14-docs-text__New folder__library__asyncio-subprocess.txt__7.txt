@@ -1,0 +1,4 @@
+The *limit* argument sets the buffer limit for "StreamReader"
+   wrappers for "stdout" and "stderr" (if "subprocess.PIPE" is passed
+   to *stdout* and *stderr* arguments).
+   Return a "Process" instance.

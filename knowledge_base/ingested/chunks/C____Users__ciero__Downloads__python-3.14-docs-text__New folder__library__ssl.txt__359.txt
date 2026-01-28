@@ -1,0 +1,5 @@
+('DNS', 'python.org'),
+                       ('DNS', 'pypi.org'),
+                       ('DNS', 'docs.python.org'),
+                       ('DNS', 'testpypi.org'),
+                       ('DNS', 'bugs.python.org'),

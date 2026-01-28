@@ -1,0 +1,7 @@
+A "TypedDict" cannot inherit from a non-"TypedDict" class, except
+   for "Generic". For example:
+      class X(TypedDict):
+          x: int
+      class Y(TypedDict):
+          y: int
+      class Z(object): pass  # A non-TypedDict class

@@ -1,0 +1,4 @@
+number, a floating-point number with the same value (within
+   Python's floating-point precision) is returned.  If the argument is
+   outside the range of a Python float, an "OverflowError" will be
+   raised.

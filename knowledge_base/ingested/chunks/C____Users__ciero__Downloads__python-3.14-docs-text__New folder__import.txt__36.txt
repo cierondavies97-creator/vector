@@ -1,0 +1,6 @@
+code.
+5.3.2. Finders and loaders
+--------------------------
+If the named module is not found in "sys.modules", then Python's
+import protocol is invoked to find and load the module.  This protocol
+consists of two conceptual objects, *finders* and *loaders*. A

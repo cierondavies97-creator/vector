@@ -1,0 +1,5 @@
+"pathlib" --- Object-oriented filesystem paths
+**********************************************
+Added in version 3.4.
+**Source code:** Lib/pathlib/
+======================================================================

@@ -1,0 +1,4 @@
+insecure, especially in client mode where most of the time you would
+like to ensure the authenticity of the server you're talking to.
+Therefore, when in client mode, it is highly recommended to use
+"CERT_REQUIRED".  However, it is in itself not sufficient; you also

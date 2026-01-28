@@ -1,0 +1,7 @@
+body=[
+              Expr(
+                  value=YieldFrom(
+                      value=Name(id='x', ctx=Load())))])
+class ast.Global(names)
+class ast.Nonlocal(names)
+   "global" and "nonlocal" statements. "names" is a list of raw

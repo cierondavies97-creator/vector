@@ -1,0 +1,5 @@
+added.
+   Note:
+     Consider using "ConfigParser" instead which checks types of the
+     values to be stored internally.  If you don't want interpolation,
+     you can use "ConfigParser(interpolation=None)".

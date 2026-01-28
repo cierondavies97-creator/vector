@@ -1,0 +1,4 @@
+-q, --quiet           be vewwy quiet (I'm hunting wabbits)
+     -f FILE, --filename=FILE
+                           write output to FILE
+     -m MODE, --mode=MODE  interaction mode: novice, intermediate, or

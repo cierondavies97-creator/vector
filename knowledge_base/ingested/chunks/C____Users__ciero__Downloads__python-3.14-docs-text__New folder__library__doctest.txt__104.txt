@@ -1,0 +1,6 @@
+Directives
+----------
+Doctest directives may be used to modify the option flags for an
+individual example.  Doctest directives are special Python comments
+following an example's source code:
+   directive:             "#" "doctest:" directive_options

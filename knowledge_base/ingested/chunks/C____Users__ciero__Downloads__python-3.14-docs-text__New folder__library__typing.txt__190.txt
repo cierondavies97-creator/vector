@@ -1,0 +1,6 @@
+matters for equality checks:
+      @dataclass
+      class ctype:
+           kind: str
+      a1 = Annotated[int, ValueRange(3, 10), ctype("char")]
+      a2 = Annotated[int, ctype("char"), ValueRange(3, 10)]

@@ -1,0 +1,4 @@
+frame, is one way to do that.
+   print(set(btn.configure().keys()) - set(frm.configure().keys()))
+Similarly, you can find the available methods for a widget object
+using the standard "dir()" function. If you try it, you'll see there

@@ -1,0 +1,4 @@
+expression to be expanded goes in the "values" list, with a "None"
+   at the corresponding position in "keys".
+      >>> print(ast.dump(ast.parse('{"a":1, **d}', mode='eval'), indent=4))
+      Expression(

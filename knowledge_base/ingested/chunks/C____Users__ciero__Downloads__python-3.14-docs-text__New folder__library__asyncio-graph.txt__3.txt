@@ -1,0 +1,4 @@
+down towards the invocation point.
+   The function receives an optional *future* argument. If not passed,
+   the current running task will be used.
+   If the function is called on *the current task*, the optional

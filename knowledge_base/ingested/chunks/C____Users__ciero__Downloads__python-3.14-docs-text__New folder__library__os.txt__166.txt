@@ -1,0 +1,11 @@
+Changed in version 3.10: Add "O_EVTONLY", "O_FSYNC", "O_SYMLINK"
+   and "O_NOFOLLOW_ANY" constants.
+os.O_ASYNC
+os.O_DIRECT
+os.O_DIRECTORY
+os.O_NOFOLLOW
+os.O_NOATIME
+os.O_PATH
+os.O_TMPFILE
+os.O_SHLOCK
+os.O_EXLOCK

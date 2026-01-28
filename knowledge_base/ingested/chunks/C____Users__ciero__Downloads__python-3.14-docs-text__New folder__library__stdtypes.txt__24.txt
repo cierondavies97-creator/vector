@@ -1,0 +1,3 @@
+numbers*, and *complex numbers*.  In addition, Booleans are a subtype
+of integers.  Integers have unlimited precision.  Floating-point
+numbers are usually implemented using double in C; information about

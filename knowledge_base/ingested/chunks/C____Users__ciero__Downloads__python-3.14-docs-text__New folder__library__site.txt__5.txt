@@ -1,0 +1,3 @@
+suffix "t" indicates the *free threading* build, and is appended if
+""t"" is present in the "sys.abiflags" constant.) For each of the
+distinct head-tail combinations, it sees if it refers to an existing

@@ -1,0 +1,4 @@
+Write the file named *filename* to the archive, giving it the
+   archive name *arcname* (by default, this will be the same as
+   *filename*, but without a drive letter and with leading path
+   separators removed).  If given, *compress_type* overrides the value

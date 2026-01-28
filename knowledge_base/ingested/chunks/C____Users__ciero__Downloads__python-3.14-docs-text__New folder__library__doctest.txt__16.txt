@@ -1,0 +1,4 @@
+Simple Usage: Checking Examples in Docstrings
+=============================================
+The simplest way to start using doctest (but not necessarily the way
+you'll continue to do it) is to end each module "M" with:

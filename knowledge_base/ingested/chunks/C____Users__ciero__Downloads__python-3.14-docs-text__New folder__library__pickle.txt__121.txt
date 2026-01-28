@@ -1,0 +1,4 @@
+* Optionally, an iterator (and not a sequence) yielding successive
+     items. These items will be appended to the object either using
+     "obj.append(item)" or, in batch, using
+     "obj.extend(list_of_items)". This is primarily used for list

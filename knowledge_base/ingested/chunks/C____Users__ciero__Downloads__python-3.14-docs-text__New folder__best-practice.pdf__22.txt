@@ -1,0 +1,13 @@
+def my_product(numbers):
+""" Compute the product of a sequence of numbers.
+Parameters
+----------
+numbers : sequence
+list of numbers to multiply
+Returns
+-------
+product : number
+the final product
+Raises
+------
+TypeError

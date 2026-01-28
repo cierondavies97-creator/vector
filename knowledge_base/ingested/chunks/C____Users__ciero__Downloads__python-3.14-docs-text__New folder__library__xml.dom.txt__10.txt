@@ -1,0 +1,4 @@
+describes the interpretation of the specification in Python.
+The specification provided by the W3C defines the DOM API for Java,
+ECMAScript, and OMG IDL.  The Python mapping defined here is based in
+large part on the IDL version of the specification, but strict

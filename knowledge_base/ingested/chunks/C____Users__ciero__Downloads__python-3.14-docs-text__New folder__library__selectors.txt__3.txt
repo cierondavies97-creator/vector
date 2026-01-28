@@ -1,0 +1,4 @@
+objects. In the following, "file object" refers to any object with a
+"fileno()" method, or a raw file descriptor. See *file object*.
+"DefaultSelector" is an alias to the most efficient implementation
+available on the current platform: this should be the default choice

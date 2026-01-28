@@ -1,0 +1,6 @@
+attributes are the same as for "Try" but the "ExceptHandler" nodes
+   in "handlers" are interpreted as "except*" blocks rather then
+   "except".
+      >>> print(ast.dump(ast.parse("""
+      ... try:
+      ...    ...

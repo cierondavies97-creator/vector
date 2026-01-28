@@ -1,0 +1,6 @@
+can be used to determine the set of names known to the system.
+   Availability: Unix.
+os.cpu_count()
+   Return the number of logical CPUs in the **system**. Returns "None"
+   if undetermined.
+   The "process_cpu_count()" function can be used to get the number of

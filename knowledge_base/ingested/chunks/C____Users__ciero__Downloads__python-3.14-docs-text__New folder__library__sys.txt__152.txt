@@ -1,0 +1,6 @@
+represents the minimum version of Android this build of Python can
+   run on. For runtime version information, see
+   "platform.android_ver()".
+   Availability: Android.
+   Added in version 3.7.
+sys.getdefaultencoding()

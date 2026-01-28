@@ -1,0 +1,7 @@
+>>> # Fill the available precision with nines:
+   >>> x = Decimal(0).logical_invert() * 9
+   >>> sys.getsizeof(x)
+   524288112
+   >>> x + 2
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

@@ -1,0 +1,5 @@
+the value returned by "persistent_id()" cannot itself have a
+      persistent ID.
+      See Persistence of External Objects for details and examples of
+      uses.
+      Changed in version 3.13: Add the default implementation of this

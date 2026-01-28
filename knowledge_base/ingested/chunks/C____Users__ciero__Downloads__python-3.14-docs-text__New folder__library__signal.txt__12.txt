@@ -1,0 +1,4 @@
+===============
+Changed in version 3.5: signal (SIG*), handler ("SIG_DFL", "SIG_IGN")
+and sigmask ("SIG_BLOCK", "SIG_UNBLOCK", "SIG_SETMASK") related
+constants listed below were turned into "enums" ("Signals", "Handlers"

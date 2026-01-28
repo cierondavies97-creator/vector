@@ -1,0 +1,3 @@
+duration of the Pool's work queue. A frequent pattern found in
+     other systems (such as Apache, mod_wsgi, etc) to free resources
+     held by workers is to allow a worker within a pool to complete

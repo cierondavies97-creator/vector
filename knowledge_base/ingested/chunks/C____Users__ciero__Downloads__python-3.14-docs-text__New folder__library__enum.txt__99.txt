@@ -1,0 +1,7 @@
+valued members.
+   Added in version 3.11.
+class enum.FlagBoundary
+   "FlagBoundary" controls how out-of-range values are handled in
+   "Flag" and its subclasses.
+   STRICT
+      Out-of-range values cause a "ValueError" to be raised. This is

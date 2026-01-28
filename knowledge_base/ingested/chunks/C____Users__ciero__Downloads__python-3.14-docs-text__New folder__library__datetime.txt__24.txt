@@ -1,0 +1,4 @@
+All arguments are optional and default to 0. Arguments may be
+   integers or floats, and may be positive or negative.
+   Only *days*, *seconds* and *microseconds* are stored internally.
+   Arguments are converted to those units:

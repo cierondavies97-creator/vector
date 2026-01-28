@@ -1,0 +1,6 @@
+"send()" methods of "socket.socket".
+   Its default value is 5 seconds.
+   See also "INTERNET_TIMEOUT".
+test.support.INTERNET_TIMEOUT
+   Timeout in seconds for network requests going to the internet.
+   The timeout is short enough to prevent a test to wait for too long

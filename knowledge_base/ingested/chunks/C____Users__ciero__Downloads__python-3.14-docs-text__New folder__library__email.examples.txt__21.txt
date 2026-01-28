@@ -1,0 +1,6 @@
+if not directory:
+           directory = '.'
+       # Create the message
+       msg = EmailMessage()
+       msg['Subject'] = f'Contents of directory {os.path.abspath(directory)}'
+       msg['To'] = ', '.join(args.recipients)

@@ -1,0 +1,4 @@
+Specifies a minimum height for the element. If less than
+         zero, the base image's height is used as a default.
+      padding=padding
+         Specifies the element's interior padding. Defaults to

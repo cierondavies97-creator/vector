@@ -1,0 +1,4 @@
+"OSError" with an error number of "EINTR", whereas "wait()" will
+   not.
+   **Windows**: An item in *object_list* must either be an integer
+   handle which is waitable (according to the definition used by the

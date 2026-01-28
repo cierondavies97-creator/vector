@@ -1,0 +1,3 @@
+typically produces a different sequence than repeated calls to
+   "choice()".  The algorithm used by "choices()" uses floating-point
+   arithmetic for internal consistency and speed.  The algorithm used

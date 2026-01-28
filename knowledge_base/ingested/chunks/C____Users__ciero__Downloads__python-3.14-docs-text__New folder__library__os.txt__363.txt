@@ -1,0 +1,4 @@
+The operation may fail if *src* and *dst* are on different
+   filesystems.  If successful, the renaming will be an atomic
+   operation (this is a POSIX requirement).
+   This function can support specifying *src_dir_fd* and/or

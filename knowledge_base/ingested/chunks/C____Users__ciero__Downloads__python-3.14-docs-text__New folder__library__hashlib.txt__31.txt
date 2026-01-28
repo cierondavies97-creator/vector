@@ -1,0 +1,5 @@
+such, their digest methods require a length. Maximum length is not
+limited by the SHAKE algorithm.
+shake.digest(length)
+   Return the digest of the data passed to the "update()" method so
+   far. This is a bytes object of size *length* which may contain

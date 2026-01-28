@@ -1,0 +1,5 @@
+interpretation of many format specifiers in "strftime()" and
+     "strptime()".
+  Module "calendar"
+     General calendar-related functions.   "timegm()" is the inverse
+     of "gmtime()" from this module.

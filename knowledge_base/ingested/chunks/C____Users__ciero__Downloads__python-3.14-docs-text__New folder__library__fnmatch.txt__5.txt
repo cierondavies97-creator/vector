@@ -1,0 +1,3 @@
+this module.  See module "glob" for pathname expansion ("glob" uses
+"filter()" to match pathname segments).  Similarly, filenames starting
+with a period are not special for this module, and are matched by the

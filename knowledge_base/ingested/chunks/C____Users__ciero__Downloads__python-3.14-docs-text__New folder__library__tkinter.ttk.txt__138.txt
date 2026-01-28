@@ -1,0 +1,4 @@
+names listed in the widget option columns. See Column Identifiers.
+Each item is identified by a unique name. The widget will generate
+item IDs if they are not supplied by the caller. There is a
+distinguished root item, named "{}". The root item itself is not

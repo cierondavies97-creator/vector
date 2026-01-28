@@ -1,0 +1,7 @@
+...         rt(90)
+   Added in version 3.14.
+turtle.delay(delay=None)
+   Parameters:
+      **delay** -- positive integer
+   Set or return the drawing *delay* in milliseconds.  (This is
+   approximately the time interval between two consecutive canvas

@@ -1,0 +1,5 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~
+An instance method object combines a class, a class instance and any
+callable object (normally a user-defined function).
+Special read-only attributes:
++----------------------------------------------------+----------------------------------------------------+

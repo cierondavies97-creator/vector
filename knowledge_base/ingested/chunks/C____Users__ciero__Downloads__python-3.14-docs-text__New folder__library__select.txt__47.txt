@@ -1,0 +1,3 @@
+|                           | pulled out, the fd is internally disabled       |
+   +---------------------------+-------------------------------------------------+
+   | "EPOLLEXCLUSIVE"          | Wake only one epoll object when the associated  |

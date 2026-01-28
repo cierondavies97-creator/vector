@@ -1,0 +1,4 @@
+tools introduced in Logo, developed by Wally Feurzeig, Seymour Papert
+and Cynthia Solomon in 1967.
+This is an *optional module*. If it is missing from your copy of
+CPython, look for documentation from your distributor (that is,

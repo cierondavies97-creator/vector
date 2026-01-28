@@ -1,0 +1,3 @@
+"os.sendfile" and return the total number of bytes which were sent.
+   *file* must be a regular file object opened in binary mode. If
+   "os.sendfile" is not available (e.g. Windows) or *file* is not a

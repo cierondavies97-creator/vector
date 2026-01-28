@@ -1,0 +1,5 @@
+lambda_param_no_default[arg_ty]:
+       | a=lambda_param ',' { a }
+       | a=lambda_param &':' { a }
+   lambda_param_with_default[NameDefaultPair*]:
+       | a=lambda_param c=default ',' { _PyPegen_name_default_pair(p, a, c, NULL) }

@@ -1,0 +1,5 @@
+* args - List of strings to parse.  The default is taken from
+     "sys.argv".
+   * namespace - An object to take the attributes.  The default is a
+     new empty "Namespace" object.
+Option value syntax

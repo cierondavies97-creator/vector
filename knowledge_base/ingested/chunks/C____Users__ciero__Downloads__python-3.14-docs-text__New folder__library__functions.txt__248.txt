@@ -1,0 +1,4 @@
+is disabled, the raw stream, a subclass of "io.RawIOBase",
+   "io.FileIO", is returned.
+   See also the file handling modules, such as "fileinput", "io"
+   (where "open()" is declared), "os", "os.path", "tempfile", and

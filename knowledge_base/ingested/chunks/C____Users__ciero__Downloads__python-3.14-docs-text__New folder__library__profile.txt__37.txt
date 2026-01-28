@@ -1,0 +1,4 @@
+This class is normally only used if more precise control over
+   profiling is needed than what the "cProfile.run()" function
+   provides.
+   A custom timer can be supplied for measuring how long code takes to

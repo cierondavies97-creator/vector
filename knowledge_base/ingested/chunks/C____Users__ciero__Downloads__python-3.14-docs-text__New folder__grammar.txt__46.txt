@@ -1,0 +1,7 @@
+# Class definitions
+   # -----------------
+   class_def[stmt_ty]:
+       | a=decorators b=class_def_raw { _PyPegen_class_def_decorators(p, a, b) }
+       | class_def_raw
+   class_def_raw[stmt_ty]:
+       | invalid_class_def_raw

@@ -1,0 +1,3 @@
+registry (using *default_class* if *name* does not appear in the
+      registry) and composes it with *base_class* to produce a class,
+      calls the constructed class's constructor, passing it the same

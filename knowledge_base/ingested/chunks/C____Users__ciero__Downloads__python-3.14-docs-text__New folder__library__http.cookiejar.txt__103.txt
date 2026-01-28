@@ -1,0 +1,5 @@
+be accessed using the following methods:
+Cookie.has_nonstandard_attr(name)
+   Return "True" if cookie has the named cookie-attribute.
+Cookie.get_nonstandard_attr(name, default=None)
+   If cookie has the named cookie-attribute, return its value.

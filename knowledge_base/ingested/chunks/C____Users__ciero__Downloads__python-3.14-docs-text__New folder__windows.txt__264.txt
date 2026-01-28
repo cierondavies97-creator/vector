@@ -1,0 +1,5 @@
+tools for building packages.
+Note that these packages may not include the latest versions of Python
+or other libraries, and are not maintained or supported by the core
+Python team.
+4.5. Supported Windows versions

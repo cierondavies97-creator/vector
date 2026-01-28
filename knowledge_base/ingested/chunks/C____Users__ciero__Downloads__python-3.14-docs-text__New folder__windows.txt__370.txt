@@ -1,0 +1,4 @@
+for the actual name of your installer, and to create layouts in their
+own directories to avoid collisions between files with the same name.
+   python-3.9.0.exe /layout [optional target directory]
+You may also specify the "/quiet" option to hide the progress display.

@@ -1,0 +1,7 @@
+>>> heappush(h, (3, 'create tests'))
+   >>> heappop(h)
+   (1, 'write spec')
+Other Applications
+==================
+Medians are a measure of central tendency for a set of numbers.  In
+distributions skewed by outliers, the median provides a more stable

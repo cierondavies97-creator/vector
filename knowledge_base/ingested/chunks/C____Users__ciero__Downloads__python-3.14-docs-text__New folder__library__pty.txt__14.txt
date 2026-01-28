@@ -1,0 +1,6 @@
+Raises an auditing event "pty.spawn" with argument "argv".
+   Changed in version 3.4: "spawn()" now returns the status value from
+   "os.waitpid()" on the child process.
+Example
+=======
+The following program acts like the Unix command *script(1)*, using a

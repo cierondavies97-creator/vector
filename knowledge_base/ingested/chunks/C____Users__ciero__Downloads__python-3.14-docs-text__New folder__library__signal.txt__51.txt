@@ -1,0 +1,4 @@
+Python thread would be to force a running system call to fail with
+   "InterruptedError".
+   Use "threading.get_ident()" or the "ident" attribute of
+   "threading.Thread" objects to get a suitable value for *thread_id*.

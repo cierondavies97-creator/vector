@@ -1,0 +1,4 @@
+passed to "fileConfig".
+   Changed in version 3.10: Added the *encoding* parameter.
+   Changed in version 3.12: An exception will be thrown if the
+   provided file doesn't exist or is invalid or empty.

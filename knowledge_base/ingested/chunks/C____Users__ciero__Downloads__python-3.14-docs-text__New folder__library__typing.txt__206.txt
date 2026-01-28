@@ -1,0 +1,3 @@
+static type checkers to determine a more precise type of an
+   expression within a program's code flow.  Usually type narrowing is
+   done by analyzing conditional code flow and applying the narrowing

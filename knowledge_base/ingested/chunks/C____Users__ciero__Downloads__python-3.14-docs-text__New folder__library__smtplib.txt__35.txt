@@ -1,0 +1,4 @@
+SMTP.connect(host='localhost', port=0)
+   Connect to a host on a given port.  The defaults are to connect to
+   the local host at the standard SMTP port (25). If the hostname ends
+   with a colon ("':'") followed by a number, that suffix will be

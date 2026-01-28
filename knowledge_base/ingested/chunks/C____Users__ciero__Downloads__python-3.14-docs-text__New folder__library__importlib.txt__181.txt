@@ -1,0 +1,4 @@
+expected to contain a ".origin" file that contains the location of
+   the ".fwork" file, relative to the app bundle.
+   For example, consider the case of an import "from foo.bar import
+   _whiz", where "_whiz" is implemented with the binary module

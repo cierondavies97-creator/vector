@@ -1,0 +1,6 @@
+>>> from enum import auto, StrEnum
+         >>> class Build(StrEnum):
+         ...     DEBUG = auto()
+         ...     OPTIMIZED = auto()
+         ...     @classmethod
+         ...     def _missing_(cls, value):

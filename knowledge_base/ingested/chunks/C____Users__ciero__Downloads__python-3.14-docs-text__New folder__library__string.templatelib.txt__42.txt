@@ -1,0 +1,4 @@
+values in interpolations can be arbitrary strings, including
+        those that do not conform to the "format()" protocol.
+   -[ Methods ]-
+   __new__(value: object, expression: str, conversion: Literal['a', 'r', 's'] | None = None, format_spec: str = '')

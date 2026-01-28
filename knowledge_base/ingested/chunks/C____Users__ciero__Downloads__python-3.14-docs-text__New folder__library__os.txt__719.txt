@@ -1,0 +1,4 @@
+is returned.  Otherwise, if there are no matching children that
+   could be waited for, "ChildProcessError" is raised.  Other options
+   that can be used are "WUNTRACED" and "WCONTINUED".
+   On Windows: Wait for completion of a process given by process

@@ -1,0 +1,5 @@
+| expression
+   expression[expr_ty] (memo):
+       | invalid_expression
+       | invalid_legacy_expression
+       | a=disjunction 'if' b=disjunction 'else' c=expression { _PyAST_IfExp(b, a, c, EXTRA) }

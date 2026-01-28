@@ -1,0 +1,5 @@
+>>>
+Windows appends the usual ".dll" file suffix automatically.
+Note:
+  Accessing the standard C library through "cdll.msvcrt" will use an
+  outdated version of the library that may be incompatible with the

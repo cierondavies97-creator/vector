@@ -1,0 +1,4 @@
+How to use connection shortcut methods
+--------------------------------------
+Using the "execute()", "executemany()", and "executescript()" methods
+of the "Connection" class, your code can be written more concisely

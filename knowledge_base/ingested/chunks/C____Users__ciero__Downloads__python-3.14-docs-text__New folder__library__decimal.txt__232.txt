@@ -1,0 +1,5 @@
+Round to nearest with ties going towards zero.
+decimal.ROUND_HALF_EVEN
+   Round to nearest with ties going to nearest even integer.
+decimal.ROUND_HALF_UP
+   Round to nearest with ties going away from zero.

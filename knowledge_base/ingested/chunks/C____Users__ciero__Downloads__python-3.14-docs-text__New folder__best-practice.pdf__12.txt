@@ -1,0 +1,11 @@
+▶ naming
+▶ . . .
+▶ OR use a consistent style (especially when collaborating)
+Nicola Chiapolini, 8 July 2024
+7 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies

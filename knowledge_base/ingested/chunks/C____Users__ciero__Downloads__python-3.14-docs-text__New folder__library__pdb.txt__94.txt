@@ -1,0 +1,8 @@
+-> lst.append(1)
+      (Pdb) n
+      > example.py(5)<module>()
+      -> print(lst)
+      (Pdb)
+   You can do some tricks with copy mechanism to make it work:
+      > example.py(3)<module>()
+      -> pass

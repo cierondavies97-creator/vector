@@ -1,0 +1,8 @@
+>>> for item in zip(range(3), ['fee', 'fi', 'fo', 'fum'], strict=True):
+     ...     print(item)
+     ...
+     (0, 'fee')
+     (1, 'fi')
+     (2, 'fo')
+     Traceback (most recent call last):
+       ...

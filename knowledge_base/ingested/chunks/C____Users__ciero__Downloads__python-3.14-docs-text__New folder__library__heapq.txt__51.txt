@@ -1,0 +1,5 @@
+property of a heap is that "a[0]" is always its smallest element.
+The strange invariant above is meant to be an efficient memory
+representation for a tournament.  The numbers below are *k*, not
+"a[k]":
+                                  0

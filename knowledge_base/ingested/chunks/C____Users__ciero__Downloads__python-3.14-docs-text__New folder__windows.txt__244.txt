@@ -1,0 +1,3 @@
+With the latter approach, packages should be installed as directories
+alongside the Python executable to ensure they are available on the
+path. With the specialized launcher, packages can be located in other

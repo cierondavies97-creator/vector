@@ -1,0 +1,4 @@
+caller is still cancelled, so the "await" expression still raises a
+   "CancelledError".
+   If "something()" is cancelled by other means (i.e. from within
+   itself) that would also cancel "shield()".

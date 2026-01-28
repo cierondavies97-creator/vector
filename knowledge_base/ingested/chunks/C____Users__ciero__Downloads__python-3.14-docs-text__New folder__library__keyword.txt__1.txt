@@ -1,0 +1,6 @@
+keyword or soft keyword.
+keyword.iskeyword(s)
+   Return "True" if *s* is a Python keyword.
+keyword.kwlist
+   Sequence containing all the keywords defined for the interpreter.
+   If any keywords are defined to only be active when particular

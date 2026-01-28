@@ -1,0 +1,4 @@
+but subclasses can override specific methods to modify the event
+   stream or the configuration requests as they pass through.
+xml.sax.saxutils.prepare_input_source(source, base='')
+   This function takes an input source and an optional base URL and

@@ -1,0 +1,7 @@
+The Python Development Mode calls "faulthandler.enable()" at Python
+startup.
+See also:
+  Module "pdb"
+     Interactive source code debugger for Python programs.
+  Module "traceback"
+     Standard interface to extract, format and print stack traces of

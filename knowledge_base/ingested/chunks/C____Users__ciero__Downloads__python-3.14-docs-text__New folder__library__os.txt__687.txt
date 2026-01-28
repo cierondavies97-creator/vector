@@ -1,0 +1,4 @@
+the file in Windows Explorer, or giving the file name as an
+   argument to the **start** command from the interactive command
+   shell: the file is opened with whatever application (if any) its
+   extension is associated.

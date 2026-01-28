@@ -1,0 +1,6 @@
+IPv4Address('192.0.2.13')
+   IPv4Address('192.0.2.14')
+   IPv4Address('192.0.2.15')
+Networks as containers of addresses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Network objects can act as containers of addresses.  Some examples:

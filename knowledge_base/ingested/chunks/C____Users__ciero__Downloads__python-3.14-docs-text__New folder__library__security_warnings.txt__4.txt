@@ -1,0 +1,4 @@
+* "zipfile": maliciously prepared .zip files can cause disk volume
+  exhaustion
+The "-I" command line option can be used to run Python in isolated
+mode. When it cannot be used, the "-P" option or the "PYTHONSAFEPATH"

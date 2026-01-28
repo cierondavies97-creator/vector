@@ -1,0 +1,3 @@
+type instances are read-only proxies for the class namespace), and
+   those that specify "__slots__" without including "__dict__" as one
+   of the defined slots (as such classes don't provide a "__dict__"

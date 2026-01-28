@@ -1,0 +1,4 @@
+provides a reference implementation of this interface.
+   The element name, attribute names, and attribute values can be
+   either bytestrings or Unicode strings.  *tag* is the element name.
+   *attrib* is an optional dictionary, containing element attributes.

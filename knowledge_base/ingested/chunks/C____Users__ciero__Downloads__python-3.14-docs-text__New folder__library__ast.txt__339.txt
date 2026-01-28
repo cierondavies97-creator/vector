@@ -1,0 +1,5 @@
+sufficiently large/complex string due to stack depth limitations
+     in Python's AST compiler.
+   Changed in version 3.8: Added "type_comments", "mode='func_type'"
+   and "feature_version".
+   Changed in version 3.13: The minimum supported version for

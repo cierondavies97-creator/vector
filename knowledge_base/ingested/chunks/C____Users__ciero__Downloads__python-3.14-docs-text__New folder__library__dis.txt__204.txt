@@ -1,0 +1,6 @@
+mentioned callables. Clear the current frame and return the newly
+   created generator.
+   Added in version 3.11.
+SEND(delta)
+   Equivalent to "STACK[-1] = STACK[-2].send(STACK[-1])". Used in
+   "yield from" and "await" statements.

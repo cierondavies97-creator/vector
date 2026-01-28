@@ -1,0 +1,6 @@
+pattern must be smaller than or equal to the number of elements in
+*__match_args__*; if it is larger, the pattern match attempt will
+raise a "TypeError".
+Added in version 3.10.
+See also:
+  **PEP 634** - Structural Pattern Matching

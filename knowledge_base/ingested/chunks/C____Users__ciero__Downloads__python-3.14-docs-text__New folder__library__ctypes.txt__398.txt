@@ -1,0 +1,4 @@
+Abstract base class for structures in *big endian* byte order.
+class ctypes.LittleEndianStructure(*args, **kw)
+   Abstract base class for structures in *little endian* byte order.
+Structures and unions with non-native byte order cannot contain

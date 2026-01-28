@@ -1,0 +1,5 @@
+===========================
+Note:
+  Some HTTP redirections require action from this module's client
+  code.  If this is the case, "HTTPError" is raised.  See **RFC 2616**
+  for details of the precise meanings of the various redirection

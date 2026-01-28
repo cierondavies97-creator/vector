@@ -1,0 +1,4 @@
+Start looking for candidate matches with the object on which the
+      "get_body" method is called.
+      If "related" is not included in *preferencelist*, consider the
+      root part (or subpart of the root part) of any related

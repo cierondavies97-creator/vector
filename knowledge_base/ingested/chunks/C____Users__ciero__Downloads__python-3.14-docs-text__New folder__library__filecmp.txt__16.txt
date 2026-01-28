@@ -1,0 +1,8 @@
+*ignore*.
+   right_list
+      Files and subdirectories in *b*, filtered by *hide* and
+      *ignore*.
+   common
+      Files and subdirectories in both *a* and *b*.
+   left_only
+      Files and subdirectories only in *a*.

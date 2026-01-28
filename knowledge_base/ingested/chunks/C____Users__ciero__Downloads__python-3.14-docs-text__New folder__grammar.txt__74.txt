@@ -1,0 +1,3 @@
+_PyAST_With(a, b, NEW_TYPE_COMMENT(p, tc), EXTRA) }
+       | 'with' a[asdl_withitem_seq*]=','.with_item+ ':' tc=[TYPE_COMMENT] b=block {
+           _PyAST_With(a, b, NEW_TYPE_COMMENT(p, tc), EXTRA) }

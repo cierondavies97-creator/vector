@@ -1,0 +1,7 @@
+print("-"*60)
+   envdir = {}
+   while True:
+       run_user_code(envdir)
+The following example demonstrates the different ways to print and
+format the exception and traceback:
+   import sys, traceback

@@ -1,0 +1,3 @@
+attributes of an instance via introspection. When a class instance is
+unpickled, its "__init__()" method is usually *not* invoked.  The
+default behaviour first creates an uninitialized instance and then

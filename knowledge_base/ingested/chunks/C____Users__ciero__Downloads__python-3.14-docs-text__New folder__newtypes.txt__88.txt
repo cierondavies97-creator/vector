@@ -1,0 +1,5 @@
+invoked.
+This function takes three arguments:
+1. *self* is the instance of the data type which is the subject of the
+   call. If the call is "obj1('hello')", then *self* is "obj1".
+2. *args* is a tuple containing the arguments to the call.  You can

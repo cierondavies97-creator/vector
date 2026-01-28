@@ -1,0 +1,3 @@
+corresponding to each key matches the corresponding subpattern. If
+   "rest" is not "None", a dict containing the remaining mapping
+   elements is bound to that name if the overall mapping pattern is

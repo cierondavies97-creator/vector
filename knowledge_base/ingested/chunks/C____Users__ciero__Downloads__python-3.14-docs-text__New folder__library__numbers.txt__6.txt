@@ -1,0 +1,5 @@
+"<", "<=", ">", and ">=".
+   Real also provides defaults for "complex()", "real", "imag", and
+   "conjugate()".
+class numbers.Rational
+   Subtypes "Real" and adds "numerator" and "denominator" properties.

@@ -1,0 +1,5 @@
+* three.
+        */
+       {"parrot", (PyCFunction)(void(*)(void))keywdarg_parrot, METH_VARARGS | METH_KEYWORDS,
+        "Print a lovely skit to standard output."},
+       {NULL, NULL, 0, NULL}   /* sentinel */

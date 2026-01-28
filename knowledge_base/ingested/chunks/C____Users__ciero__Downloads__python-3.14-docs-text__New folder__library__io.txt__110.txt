@@ -1,0 +1,5 @@
+"BufferedIOBase".  The buffer is discarded when the "close()"
+   method is called.
+   The optional argument *initial_bytes* is a *bytes-like object* that
+   contains initial data.
+   "BytesIO" provides or overrides these methods in addition to those

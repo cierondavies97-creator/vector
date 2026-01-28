@@ -1,0 +1,7 @@
+PyErr_Print();
+           fprintf(stderr, "Error: could not import module 'spam'\n");
+       }
+       // ... use Python C API here ...
+       return 0;
+     exception:
+        PyConfig_Clear(&config);

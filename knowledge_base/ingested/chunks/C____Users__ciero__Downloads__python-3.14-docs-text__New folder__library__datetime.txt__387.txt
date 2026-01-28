@@ -1,0 +1,4 @@
+representing the time and a corresponding format string.
+The table below provides a high-level comparison of "strftime()"
+versus "strptime()":
++------------------+----------------------------------------------------------+--------------------------------------------------------------+

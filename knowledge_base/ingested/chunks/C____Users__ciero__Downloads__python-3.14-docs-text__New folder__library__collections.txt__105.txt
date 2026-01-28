@@ -1,0 +1,7 @@
+while iterators:
+           try:
+               while True:
+                   yield next(iterators[0])
+                   iterators.rotate(-1)
+           except StopIteration:
+               # Remove an exhausted iterator.

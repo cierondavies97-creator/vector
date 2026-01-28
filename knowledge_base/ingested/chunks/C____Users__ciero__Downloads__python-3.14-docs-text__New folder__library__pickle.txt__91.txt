@@ -1,0 +1,5 @@
+class attribute "attr" is not restored in the unpickling environment:
+   class Foo:
+       attr = 'A class attribute'
+   picklestring = pickle.dumps(Foo)
+These restrictions are why picklable functions and classes must be

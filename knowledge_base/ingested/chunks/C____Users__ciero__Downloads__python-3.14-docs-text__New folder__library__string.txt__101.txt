@@ -1,0 +1,3 @@
+|           | coefficient digits for "Decimal".  If "p=0", the decimal   |
+   |           | point is omitted unless the "#" option is used.  For       |
+   |           | "float", the exponent always contains at least two digits, |

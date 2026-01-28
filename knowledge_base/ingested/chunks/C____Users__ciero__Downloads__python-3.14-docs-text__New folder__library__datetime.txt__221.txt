@@ -1,0 +1,4 @@
+application uses this convention and your system time zone is not
+     set to UTC, you can obtain the POSIX timestamp by supplying
+     "tzinfo=timezone.utc":
+        timestamp = dt.replace(tzinfo=timezone.utc).timestamp()

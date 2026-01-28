@@ -1,0 +1,4 @@
+* "filename" -- Filename of the non-*text* part
+   * "description" -- Description associated with the non-*text* part
+   * "encoding" -- Content transfer encoding of the non-*text* part
+   If *fmt* is "None", use the following default *fmt*:

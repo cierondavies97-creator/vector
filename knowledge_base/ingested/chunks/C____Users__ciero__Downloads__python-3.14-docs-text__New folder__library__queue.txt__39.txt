@@ -1,0 +1,6 @@
+violating the usual invariant for joining a queue.
+   Added in version 3.13.
+SimpleQueue Objects
+===================
+"SimpleQueue" objects provide the public methods described below.
+SimpleQueue.qsize()

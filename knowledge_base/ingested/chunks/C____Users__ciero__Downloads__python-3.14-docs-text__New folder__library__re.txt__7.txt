@@ -1,0 +1,4 @@
+string containing "'\'" and "'n'", while ""\n"" is a one-character
+string containing a newline.  Usually patterns will be expressed in
+Python code using this raw string notation.
+It is important to note that most regular expression operations are

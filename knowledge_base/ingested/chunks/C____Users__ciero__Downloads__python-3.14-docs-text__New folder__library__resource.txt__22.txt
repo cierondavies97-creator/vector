@@ -1,0 +1,7 @@
+process.
+resource.RLIMIT_NPROC
+   The maximum number of processes the current process may create.
+resource.RLIMIT_NOFILE
+   The maximum number of open file descriptors for the current
+   process.
+resource.RLIMIT_OFILE

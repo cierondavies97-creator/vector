@@ -1,0 +1,5 @@
+in concert, and not by actually invoking a subshell.
+Note:
+  The pathnames are returned in no particular order.  If you need a
+  specific order, sort the results.
+Files beginning with a dot (".") can only be matched by patterns that

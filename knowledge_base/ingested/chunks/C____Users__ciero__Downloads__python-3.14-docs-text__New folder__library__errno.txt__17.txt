@@ -1,0 +1,12 @@
+errno.ENONET
+   Machine is not on the network
+errno.ENOPKG
+   Package not installed
+errno.EREMOTE
+   Object is remote
+errno.ENOLINK
+   Link has been severed
+errno.EADV
+   Advertise error
+errno.ESRMNT
+   Srmount error

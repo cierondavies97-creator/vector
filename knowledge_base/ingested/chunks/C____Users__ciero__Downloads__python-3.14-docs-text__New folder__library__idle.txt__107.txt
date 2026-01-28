@@ -1,0 +1,3 @@
+whenever the Shell starts or restarts.  (The latter is indicated by a
+divider line that says 'RESTART'). If the user process fails to
+connect to the GUI process, it usually displays a "Tk" error box with

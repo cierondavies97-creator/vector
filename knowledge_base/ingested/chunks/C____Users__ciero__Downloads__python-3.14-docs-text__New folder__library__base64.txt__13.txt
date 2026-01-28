@@ -1,0 +1,6 @@
+"binascii.a2b_base64()"
+   May assert or raise a "ValueError" if the length of *altchars* is
+   not 2.
+base64.standard_b64encode(s)
+   Encode *bytes-like object* *s* using the standard Base64 alphabet
+   and return the encoded "bytes".

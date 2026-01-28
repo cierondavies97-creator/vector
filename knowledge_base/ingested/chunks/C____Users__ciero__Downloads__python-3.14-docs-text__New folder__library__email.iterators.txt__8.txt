@@ -1,0 +1,8 @@
+text/plain
+          text/plain
+          multipart/digest
+              message/rfc822
+                  text/plain
+              message/rfc822
+                  text/plain
+              message/rfc822

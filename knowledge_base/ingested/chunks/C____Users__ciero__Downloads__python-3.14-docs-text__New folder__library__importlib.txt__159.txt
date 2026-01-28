@@ -1,0 +1,6 @@
+Initializes the given module object in accordance with **PEP
+      489**.
+      Added in version 3.5.
+   is_package(fullname)
+      Returns "True" if the file path points to a package's "__init__"
+      module based on "EXTENSION_SUFFIXES".

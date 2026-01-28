@@ -1,0 +1,5 @@
+Changed in version 3.3: The "wait_for()" method was added.
+class multiprocessing.Event
+   A clone of "threading.Event".
+   Instantiating this class may set the global start method. See
+   Global start method for more details.

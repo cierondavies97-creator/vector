@@ -1,0 +1,3 @@
+"acquire()" and "release()".  When the state is unlocked, "acquire()"
+changes the state to locked and returns immediately.  When the state
+is locked, "acquire()" blocks until a call to "release()" in another

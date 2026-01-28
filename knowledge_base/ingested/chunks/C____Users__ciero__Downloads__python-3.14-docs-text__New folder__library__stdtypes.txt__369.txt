@@ -1,0 +1,5 @@
+static str.maketrans(from, to, remove='', /)
+   This static method returns a translation table usable for
+   "str.translate()".
+   If there is only one argument, it must be a dictionary mapping
+   Unicode ordinals (integers) or characters (strings of length 1) to

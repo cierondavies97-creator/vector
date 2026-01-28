@@ -1,0 +1,4 @@
+"data" is initialized with its contents; note that a reference to
+   *initialdata* will not be kept, allowing it to be used for other
+   purposes.
+   In addition to supporting the methods and operations of mappings,

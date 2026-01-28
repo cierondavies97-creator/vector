@@ -1,0 +1,4 @@
+because "wait()" can return after an arbitrary long time, and the
+condition which prompted the "notify()" call may no longer hold true.
+This is inherent to multi-threaded programming.  The "wait_for()"
+method can be used to automate the condition checking, and eases the

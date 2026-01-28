@@ -1,0 +1,6 @@
+Added in version 3.13.
+PurePath.drive
+   A string representing the drive letter or name, if any:
+      >>> PureWindowsPath('c:/Program Files/').drive
+      'c:'
+      >>> PureWindowsPath('/Program Files/').drive

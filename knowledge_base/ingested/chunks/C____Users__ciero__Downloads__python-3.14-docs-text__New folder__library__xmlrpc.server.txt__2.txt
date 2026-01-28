@@ -1,0 +1,5 @@
+constructed data.  If you need to parse untrusted or unauthenticated
+  data, see XML security.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.

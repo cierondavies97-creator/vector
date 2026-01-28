@@ -1,0 +1,4 @@
+"encoding="locale"" can be used to specify the current locale's
+   encoding explicitly. See Text Encoding for more information.
+   *errors* is an optional string that specifies how encoding and
+   decoding errors are to be handled.  Pass "'strict'" to raise a

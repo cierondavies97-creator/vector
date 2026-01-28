@@ -1,0 +1,4 @@
+addressing, with the aim of increasing the redundancy that can be
+exploited by the compressor. These filters support one option,
+"start_offset". This specifies the address that should be mapped to
+the beginning of the input data. The default is 0.

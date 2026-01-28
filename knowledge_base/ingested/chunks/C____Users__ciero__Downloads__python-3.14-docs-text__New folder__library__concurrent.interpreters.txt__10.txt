@@ -1,0 +1,4 @@
+effectively isolated from the others (with a limited number of
+carefully managed process-global exceptions to the rule).
+That isolation is primarily useful as a strong separation between
+distinct logical components of a program, where you want to have

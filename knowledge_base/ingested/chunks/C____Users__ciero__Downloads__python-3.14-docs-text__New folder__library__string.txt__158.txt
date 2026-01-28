@@ -1,0 +1,3 @@
+Like "substitute()", except that if placeholders are missing
+      from *mapping* and *kwds*, instead of raising a "KeyError"
+      exception, the original placeholder will appear in the resulting

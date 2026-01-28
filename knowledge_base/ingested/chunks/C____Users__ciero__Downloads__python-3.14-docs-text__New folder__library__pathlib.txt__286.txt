@@ -1,0 +1,4 @@
+the path is any other kind of file, or if it doesn't exist.
+   is_file(*, follow_symlinks=True)
+      Return "True" if the path is a file, or a symbolic link pointing
+      to a file; return "False" if the path is (or points to) a

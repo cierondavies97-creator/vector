@@ -1,0 +1,4 @@
+Otherwise, return a list of *name*, *value* pairs for the
+      options in the given *section*.  Optional arguments have the
+      same meaning as for the "get()" method.
+      Changed in version 3.8: Items present in *vars* no longer appear

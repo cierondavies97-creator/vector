@@ -1,0 +1,5 @@
+"/usr/local/bin/python" might search for modules in
+"/usr/local/lib/python2.*X*", but those modules would have to be
+installed to, say, "/mnt/*@server*/export/lib/python2.*X*".
+"posix_prefix"
+--------------

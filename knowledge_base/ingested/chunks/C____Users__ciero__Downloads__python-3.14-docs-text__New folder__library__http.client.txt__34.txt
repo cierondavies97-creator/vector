@@ -1,0 +1,3 @@
+instance of "io.TextIOBase", the data returned by the "read()"
+   method will be encoded as ISO-8859-1, otherwise the data returned
+   by "read()" is sent as is.  If *body* is an iterable, the elements

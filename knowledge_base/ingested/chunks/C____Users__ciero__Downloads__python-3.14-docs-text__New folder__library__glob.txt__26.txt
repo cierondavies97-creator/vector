@@ -1,0 +1,6 @@
+>>> glob.glob('**/*.txt', recursive=True)
+   ['2.txt', 'sub/3.txt']
+   >>> glob.glob('./**/', recursive=True)
+   ['./', './sub/']
+If the directory contains files starting with "." they won't be
+matched by default. For example, consider a directory containing

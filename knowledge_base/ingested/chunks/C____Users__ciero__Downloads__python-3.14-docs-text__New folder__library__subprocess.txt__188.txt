@@ -1,0 +1,5 @@
+read from.
+   Changed in version 3.3: *timeout* was added.
+   Changed in version 3.12: Changed Windows shell search order for
+   "shell=True". The current directory and "%PATH%" are replaced with
+   "%COMSPEC%" and "%SystemRoot%\System32\cmd.exe". As a result,

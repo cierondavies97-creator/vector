@@ -1,0 +1,5 @@
+immediately.
+   If given, *signum* is the number of the signal to simulate. If
+   *signum* is not given, "signal.SIGINT" is simulated.
+   If the given signal isn't handled by Python (it was set to
+   "signal.SIG_DFL" or "signal.SIG_IGN"), this function does nothing.

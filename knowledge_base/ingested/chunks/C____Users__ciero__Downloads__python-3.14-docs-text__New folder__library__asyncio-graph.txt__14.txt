@@ -1,0 +1,5 @@
+"awaited_by" is a tuple of "FutureCallGraph" objects.
+   * "FrameCallGraphEntry(frame)"
+        Where *frame* is a frame object of a regular Python function
+        in the call stack.
+Low level utility functions

@@ -1,0 +1,6 @@
+"resources" from Python packages.
+See also:
+  The import statement
+     The language reference for the "import" statement.
+  Packages specification
+     Original specification of packages. Some semantics have changed

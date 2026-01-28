@@ -1,0 +1,6 @@
+Exception raised on incomplete data. These are usually not
+   programming errors, but may be handled by reading a little more
+   data and trying again.
+See also:
+  Module "base64"
+     Support for RFC compliant base64-style encoding in base 16, 32,

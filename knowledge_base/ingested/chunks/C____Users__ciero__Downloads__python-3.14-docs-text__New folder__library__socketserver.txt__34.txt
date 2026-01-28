@@ -1,0 +1,3 @@
+environment that supports neither threads nor "fork()" (or where these
+are too expensive or inappropriate for the service) is to maintain an
+explicit table of partially finished requests and to use "selectors"

@@ -1,0 +1,3 @@
+| exc_text         | You shouldn't need to     | Exception information formatted as a string.    |
+|                  | format this yourself.     | This is set when "Formatter.format()" is        |
+|                  |                           | invoked, or "None" if no exception has          |

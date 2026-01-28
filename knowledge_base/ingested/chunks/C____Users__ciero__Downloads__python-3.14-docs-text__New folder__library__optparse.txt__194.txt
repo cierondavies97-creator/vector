@@ -1,0 +1,5 @@
+action="store_const", const=2, dest="verbose")
+  If "--noisy" is seen, "optparse" will set
+     options.verbose = 2
+* ""store_true"" [relevant: "dest"]
+  A special case of ""store_const"" that stores "True" to "dest".

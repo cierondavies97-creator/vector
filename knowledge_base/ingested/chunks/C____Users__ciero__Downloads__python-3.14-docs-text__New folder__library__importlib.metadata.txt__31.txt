@@ -1,0 +1,4 @@
+extract using the "metadata()" function:
+   >>> wheel_metadata = metadata('wheel')
+The keys of the returned data structure name the metadata keywords,
+and the values are returned unparsed from the distribution metadata:

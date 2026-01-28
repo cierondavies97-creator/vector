@@ -1,0 +1,5 @@
+"compress()" method.  Some input may be kept in internal buffers
+   for later processing.
+Compress.flush([mode])
+   All pending input is processed, and a bytes object containing the
+   remaining compressed output is returned.  *mode* can be selected

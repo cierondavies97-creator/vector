@@ -1,0 +1,4 @@
+*i*-th tuple contains the *i*-th element from each of the argument
+   iterables.
+   Another way to think of "zip()" is that it turns rows into columns,
+   and columns into rows.  This is similar to transposing a matrix.

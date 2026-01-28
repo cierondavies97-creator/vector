@@ -1,0 +1,4 @@
+return tuple(pool[i] for i in indices)
+   def random_combination_with_replacement(iterable, r):
+       "Choose r elements with replacement.  Order the result to match the iterable."
+       # Result will be in set(itertools.combinations_with_replacement(iterable, r)).

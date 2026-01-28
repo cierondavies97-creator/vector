@@ -1,0 +1,4 @@
+that package is imported and the "__main__" submodule within that
+   package is then executed and the resulting module globals
+   dictionary returned.
+   The optional dictionary argument *init_globals* may be used to pre-

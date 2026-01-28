@@ -1,0 +1,3 @@
+then the start method is set to "None".  If *method* is "None" and
+   *force* is "False" then the context is set to the default context.
+   Note that this should be called at most once, and it should be

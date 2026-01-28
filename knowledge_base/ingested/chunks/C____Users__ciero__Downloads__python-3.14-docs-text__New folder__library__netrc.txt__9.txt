@@ -1,0 +1,5 @@
+exception netrc.NetrcParseError
+   Exception raised by the "netrc" class when syntactical errors are
+   encountered in source text.  Instances of this exception provide
+   three interesting attributes:
+   msg

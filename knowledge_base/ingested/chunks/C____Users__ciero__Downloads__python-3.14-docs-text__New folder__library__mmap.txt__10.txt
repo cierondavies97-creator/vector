@@ -1,0 +1,4 @@
+the length.
+class mmap.mmap(fileno, length, tagname=None, access=ACCESS_DEFAULT, offset=0)
+   **(Windows version)** Maps *length* bytes from the file specified
+   by the file handle *fileno*, and creates a mmap object.  If

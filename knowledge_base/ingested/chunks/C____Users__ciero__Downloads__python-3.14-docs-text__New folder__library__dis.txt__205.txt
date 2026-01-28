@@ -1,0 +1,5 @@
+If the call raises "StopIteration", pop the top value from the
+   stack, push the exception's "value" attribute, and increment the
+   bytecode counter by *delta*.
+   Added in version 3.11.
+HAVE_ARGUMENT

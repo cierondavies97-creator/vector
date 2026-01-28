@@ -1,0 +1,4 @@
+writeable file-like object. The value of the "mode" attribute for
+   the readable file-like object was changed from "'r'" to "'rb'".
+ZipFile.extract(member, path=None, pwd=None)
+   Extract a member from the archive to the current working directory;

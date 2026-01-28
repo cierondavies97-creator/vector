@@ -1,0 +1,7 @@
+* DOMEventStream Objects
+* "xml.sax" --- Support for SAX2 parsers
+  * SAXException Objects
+* "xml.sax.handler" --- Base classes for SAX handlers
+  * ContentHandler Objects
+  * DTDHandler Objects
+  * EntityResolver Objects

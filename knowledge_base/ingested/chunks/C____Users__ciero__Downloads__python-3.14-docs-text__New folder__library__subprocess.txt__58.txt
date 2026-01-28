@@ -1,0 +1,5 @@
+is recommended to pass *args* as a sequence.
+   Warning:
+     For maximum reliability, use a fully qualified path for the
+     executable. To search for an unqualified name on "PATH", use
+     "shutil.which()". On all platforms, passing "sys.executable" is

@@ -1,0 +1,4 @@
+raised. Parse errors will raise "NetrcParseError" with diagnostic
+   information including the file name, line number, and terminating
+   token.
+   If no argument is specified on a POSIX system, the presence of

@@ -1,0 +1,5 @@
+set. This can be called by a custom exception handler that wants to
+   defer to the default handler behavior.
+   *context* parameter has the same meaning as in
+   "call_exception_handler()".
+loop.call_exception_handler(context)

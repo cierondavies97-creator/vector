@@ -1,0 +1,4 @@
+inspect.stack(context=1)
+   Return a list of "FrameInfo" objects for the caller's stack.  The
+   first entry in the returned list represents the caller; the last
+   entry represents the outermost call on the stack.

@@ -1,0 +1,5 @@
+* "DocTest": A collection of "Example"s, typically extracted from a
+  single docstring or text file.
+Additional processing classes are defined to find, parse, and run, and
+check doctest examples:
+* "DocTestFinder": Finds all docstrings in a given module, and uses a

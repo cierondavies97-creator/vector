@@ -1,0 +1,4 @@
+is raised.
+Path.glob(pattern, *, case_sensitive=None, recurse_symlinks=False)
+   Glob the given relative *pattern* in the directory represented by
+   this path, yielding all matching files (of any kind):

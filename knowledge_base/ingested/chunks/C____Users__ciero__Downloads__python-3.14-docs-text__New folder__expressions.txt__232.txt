@@ -1,0 +1,4 @@
+comparison of instances with different identities results in
+inequality.  A motivation for this default behavior is the desire that
+all objects should be reflexive (i.e. "x is y" implies "x == y").
+A default order comparison ("<", ">", "<=", and ">=") is not provided;

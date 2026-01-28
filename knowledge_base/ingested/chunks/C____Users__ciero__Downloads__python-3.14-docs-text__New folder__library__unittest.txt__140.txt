@@ -1,0 +1,5 @@
+Test that *first* and *second* are (or are not) the same object.
+      Added in version 3.1.
+   assertIsNone(expr, msg=None)
+   assertIsNotNone(expr, msg=None)
+      Test that *expr* is (or is not) "None".

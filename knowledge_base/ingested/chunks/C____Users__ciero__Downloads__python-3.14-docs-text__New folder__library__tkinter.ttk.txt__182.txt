@@ -1,0 +1,4 @@
+Returns "True" if the specified *item* is present in the tree.
+   focus(item=None)
+      If *item* is specified, sets the focus item to *item*.
+      Otherwise, returns the current focus item, or '' if there is

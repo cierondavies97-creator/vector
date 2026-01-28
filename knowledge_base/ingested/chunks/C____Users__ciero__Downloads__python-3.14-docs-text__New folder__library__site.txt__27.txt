@@ -1,0 +1,8 @@
+Changed in version 3.4: Activation of rlcompleter and history was made
+automatic.
+Module contents
+===============
+site.PREFIXES
+   A list of prefixes for site-packages directories.
+site.ENABLE_USER_SITE
+   Flag showing the status of the user site-packages directory.

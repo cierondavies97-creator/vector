@@ -1,0 +1,4 @@
+*interval* is zero, the timer only fires once, on the initial
+   expiration. If *interval* is greater than zero, the timer fires
+   every time *interval* seconds have elapsed since the previous
+   expiration. If *interval* is less than zero, it raises "OSError"

@@ -1,0 +1,4 @@
+"text" part and *errors* is specified, use it as the error
+      handler when decoding the payload to unicode.  The default error
+      handler is "replace".
+   email.contentmanager.set_content(msg, <'str'>, subtype="plain", charset='utf-8', cte=None, disposition=None, filename=None, cid=None, params=None, headers=None)

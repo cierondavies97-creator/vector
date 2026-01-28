@@ -1,0 +1,4 @@
+entries are present. If *limit* is "0", the call stack is not
+   printed at all, only "awaited by" information is printed.
+   If *file* is omitted or "None", the function will print to
+   "sys.stdout".

@@ -1,0 +1,5 @@
+"release()" method to unlock it.
+Note:
+  Reentrant locks support the context management protocol, so it is
+  recommended to use "with" instead of manually calling "acquire()"
+  and "release()" to handle acquiring and releasing the lock for a

@@ -1,0 +1,4 @@
+use the object-oriented approach to turtle graphics. For example, this
+allows multiple turtles on screen at once.
+In this approach, the various turtle commands are methods of objects
+(mostly of "Turtle" objects). You *can* use the object-oriented

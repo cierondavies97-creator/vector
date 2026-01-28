@@ -1,0 +1,4 @@
+checking the flags, be sure to clear all flags before starting the
+next computation.
+If the context's trap enabler is set for the signal, then the
+condition causes a Python exception to be raised.  For example, if the

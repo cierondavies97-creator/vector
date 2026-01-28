@@ -1,0 +1,4 @@
+builds.  An easy way to do this is with "python -c "import sys;
+     print(sys.hash_info.width)"".
+   If a class does not define an "__eq__()" method it should not
+   define a "__hash__()" operation either; if it defines "__eq__()"

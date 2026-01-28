@@ -1,0 +1,8 @@
+archive.
+Examples
+========
+Pack up a directory into an archive, and run it.
+   $ python -m zipapp myapp
+   $ python myapp.pyz
+   <output from myapp>
+The same can be done using the "create_archive()" function:

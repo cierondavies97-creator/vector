@@ -1,0 +1,4 @@
+login(user='anonymous', passwd='', acct='')
+      Log on to the connected FTP server. This function should be
+      called only once for each instance, after a connection has been
+      established; it should not be called if the *host* and *user*

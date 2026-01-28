@@ -1,0 +1,4 @@
+This module provides an interface for reading and writing the
+"property list" files used by Apple, primarily on macOS and iOS. This
+module supports both binary and XML plist files.
+The property list (".plist") file format is a simple serialization

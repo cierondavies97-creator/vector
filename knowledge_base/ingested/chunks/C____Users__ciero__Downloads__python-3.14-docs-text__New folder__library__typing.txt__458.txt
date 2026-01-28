@@ -1,0 +1,3 @@
+runtime to determine whether an object "obj" has been marked as
+   final. If the decorated object does not support setting attributes,
+   the decorator returns the object unchanged without raising an

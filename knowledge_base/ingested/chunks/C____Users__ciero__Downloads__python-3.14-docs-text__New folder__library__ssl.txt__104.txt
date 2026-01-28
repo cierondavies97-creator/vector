@@ -1,0 +1,5 @@
+OpenSSL 1.1.0. It was added to 2.7.15 and 3.6.3 for backwards
+   compatibility with OpenSSL 1.0.2.
+ssl.OP_NO_RENEGOTIATION
+   Disable all renegotiation in TLSv1.2 and earlier. Do not send
+   HelloRequest messages, and ignore renegotiation requests via

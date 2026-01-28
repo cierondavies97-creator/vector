@@ -1,0 +1,4 @@
+*data* that will be base64 encoded and sent to the server.
+   The "SMTP" class provides "authobjects" for the "CRAM-MD5",
+   "PLAIN", and "LOGIN" mechanisms; they are named
+   "SMTP.auth_cram_md5", "SMTP.auth_plain", and "SMTP.auth_login"

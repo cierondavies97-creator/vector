@@ -1,0 +1,3 @@
+just needs to be the object id of the relevant target handler, and the
+system will resolve to the handler from the id.  If, however, a user
+defines a "my.package.MyHandler" which has an "alternate" handler, the

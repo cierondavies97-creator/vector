@@ -1,0 +1,6 @@
+This constant is documented in the Linux documentation.
+   Availability: Linux >= 4.1.
+   Added in version 3.9.
+socket.CAN_ISOTP
+   CAN_ISOTP, in the CAN protocol family, is the ISO-TP (ISO 15765-2)
+   protocol. ISO-TP constants, documented in the Linux documentation.

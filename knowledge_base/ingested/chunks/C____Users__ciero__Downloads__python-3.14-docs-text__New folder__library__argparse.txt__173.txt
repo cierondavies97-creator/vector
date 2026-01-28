@@ -1,0 +1,4 @@
+resource management should be done downstream after the arguments are
+parsed.
+For example, JSON or YAML conversions have complex error cases that
+require better reporting than can be given by the "type" keyword.  A

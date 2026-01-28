@@ -1,0 +1,7 @@
+and "tearDown" methods.
+   >>> class MyTest(unittest.TestCase):
+   ...     def setUp(self):
+   ...         self.patcher = patch('mymodule.foo')
+   ...         self.mock_foo = self.patcher.start()
+   ...
+   ...     def test_foo(self):

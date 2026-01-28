@@ -1,0 +1,4 @@
+effects of iteration, such as file objects) can implement "tp_iter"
+  by returning a new reference to themselves -- and should also
+  therefore implement the "tp_iternext"  handler.
+Any *iterator* object should implement both "tp_iter" and

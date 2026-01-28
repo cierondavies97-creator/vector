@@ -1,0 +1,4 @@
+contained within a frame, which in turn was contained within the
+   root window. When creating each *child* widget, its *parent* widget
+   is passed as the first argument to the widget constructor.
+configuration options

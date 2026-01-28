@@ -1,0 +1,4 @@
+same size, only the overlapping region is copied. This copy is non-
+   destructive, which means that the current background character does
+   not overwrite the old contents of *destwin*.
+   To get fine-grained control over the copied region, the second form

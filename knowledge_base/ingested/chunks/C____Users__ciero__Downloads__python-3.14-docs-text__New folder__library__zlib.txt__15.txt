@@ -1,0 +1,4 @@
+streams that won't fit into memory at once.
+   *level* is the compression level -- an integer from "0" to "9" or
+   "-1". See "Z_BEST_SPEED" ("1"), "Z_BEST_COMPRESSION" ("9"),
+   "Z_NO_COMPRESSION" ("0"), and the default, "Z_DEFAULT_COMPRESSION"

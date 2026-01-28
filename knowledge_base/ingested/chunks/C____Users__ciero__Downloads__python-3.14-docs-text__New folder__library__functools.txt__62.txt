@@ -1,0 +1,5 @@
+arguments can be pre-filled.
+   If any "Placeholder" sentinels are present, all must be filled at
+   call time:
+      >>> say_to_world = partial(print, Placeholder, Placeholder, "world!")
+      >>> say_to_world('Hello', 'dear')

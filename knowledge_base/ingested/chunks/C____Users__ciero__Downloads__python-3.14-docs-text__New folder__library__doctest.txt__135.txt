@@ -1,0 +1,3 @@
+Optional argument *raise_on_error* defaults to false.  If true, an
+   exception is raised upon the first failure or unexpected exception
+   in an example.  This allows failures to be post-mortem debugged.

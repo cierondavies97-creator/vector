@@ -1,0 +1,4 @@
+only if "__cause__" is "None" and "__suppress_context__" is false.
+   Note that when locals are captured, they are also shown in the
+   traceback.
+   *max_group_width* and *max_group_depth* control the formatting of

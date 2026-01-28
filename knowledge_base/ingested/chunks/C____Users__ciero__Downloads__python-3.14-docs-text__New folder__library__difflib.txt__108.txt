@@ -1,0 +1,4 @@
+string of length 1), and returns true if the character is junk. The
+   default is "None", meaning that no character is considered junk.
+   These junk-filtering functions speed up matching to find
+   differences and do not cause any differing lines or characters to

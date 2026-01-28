@@ -1,0 +1,4 @@
+was supplied to the class constructor.
+      The return value is an integer in the range 0 to *parties* -- 1,
+      different for each thread.  This can be used to select a thread
+      to do some special housekeeping, e.g.:

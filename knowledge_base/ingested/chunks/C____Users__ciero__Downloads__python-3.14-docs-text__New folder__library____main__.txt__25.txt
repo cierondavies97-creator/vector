@@ -1,0 +1,4 @@
+pip-installable package.
+In particular, be careful about returning strings from your "main"
+function. "sys.exit()" will interpret a string argument as a failure
+message, so your program will have an exit code of "1", indicating

@@ -1,0 +1,4 @@
+...
+         ValueError: invalid Flag 'Color': aliases WHITE and NEON are missing combined values of 0x18 [use enum.show_flag_values(value) for details]
+   Note:
+     CONTINUOUS and NAMED_FLAGS are designed to work with integer-

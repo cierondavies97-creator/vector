@@ -1,0 +1,4 @@
+detached explicitly by the user through the C API, or implicitly by
+   the runtime, including during blocking C calls and by the bytecode
+   interpreter in between calls.
+   On most builds of Python, having an attached thread state implies

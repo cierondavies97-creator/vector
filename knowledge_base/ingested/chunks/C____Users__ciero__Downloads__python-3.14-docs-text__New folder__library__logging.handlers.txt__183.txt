@@ -1,0 +1,3 @@
+"None" to allow pickling and to prevent further attempts at
+        formatting. This means that a handler on the "QueueListener"
+        side won't have the information to do custom formatting, e.g.

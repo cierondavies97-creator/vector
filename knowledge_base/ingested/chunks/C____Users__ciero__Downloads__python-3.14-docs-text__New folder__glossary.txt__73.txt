@@ -1,0 +1,5 @@
+locks in conflicting orders or from circular join/await
+   dependencies.  Deadlocks can be avoided by always acquiring
+   multiple *locks* in a consistent order.  See also *lock* and
+   *reentrant*.
+decorator

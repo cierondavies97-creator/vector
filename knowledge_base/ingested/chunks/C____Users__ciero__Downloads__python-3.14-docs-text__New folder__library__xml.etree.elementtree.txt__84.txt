@@ -1,0 +1,4 @@
+canonicalize(from_file="inputfile.xml", out=out_file)
+   The configuration *options* are as follows:
+   * *with_comments*: set to true to include comments (default: false)
+   * *strip_text*: set to true to strip whitespace before and after

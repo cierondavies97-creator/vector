@@ -1,0 +1,3 @@
+argument to "Fraction(1.1)" is not exactly equal to 11/10, and so
+   "Fraction(1.1)" does *not* return "Fraction(11, 10)" as one might
+   expect. (But see the documentation for the "limit_denominator()"

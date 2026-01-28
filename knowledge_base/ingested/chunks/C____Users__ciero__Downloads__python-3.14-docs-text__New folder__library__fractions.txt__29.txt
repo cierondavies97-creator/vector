@@ -1,0 +1,5 @@
+__round__()
+   __round__(ndigits)
+      The first version returns the nearest "int" to "self", rounding
+      half to even. The second version rounds "self" to the nearest
+      multiple of "Fraction(1, 10**ndigits)" (logically, if "ndigits"

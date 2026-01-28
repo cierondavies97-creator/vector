@@ -1,0 +1,5 @@
+walrus operator
+   A light-hearted way to refer to the assignment expression operator
+   ":=" because it looks a bit like a walrus if you turn your head.
+Zen of Python
+   Listing of Python design principles and philosophies that are

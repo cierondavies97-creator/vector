@@ -1,0 +1,5 @@
+annotations. See Security implications of introspecting
+     annotations for more information.
+   Note:
+     If any forward references in the annotations of *obj* are not
+     resolvable or are not valid Python code, this function will raise

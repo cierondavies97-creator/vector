@@ -1,0 +1,3 @@
+URI, the namespace separator character, and the local part of the
+   name.  If the namespace separator is a zero byte ("chr(0)") then
+   the namespace URI and the local part will be concatenated without

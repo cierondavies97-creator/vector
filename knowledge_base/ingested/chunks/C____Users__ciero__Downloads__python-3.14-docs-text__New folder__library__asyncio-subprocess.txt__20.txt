@@ -1,0 +1,4 @@
+"subprocess.Popen" class, but there are some notable differences:
+   * unlike Popen, Process instances do not have an equivalent to the
+     "poll()" method;
+   * the "communicate()" and "wait()" methods don't have a *timeout*

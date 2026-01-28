@@ -1,0 +1,6 @@
+if __name__ == "__main__":
+       import doctest
+       doctest.testmod()
+"doctest" then examines docstrings in module "M".
+Running the module as a script causes the examples in the docstrings
+to get executed and verified:

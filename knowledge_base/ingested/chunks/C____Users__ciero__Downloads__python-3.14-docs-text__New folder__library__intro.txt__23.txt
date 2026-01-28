@@ -1,0 +1,5 @@
+For example, WASI does not permit symlinks with absolute file names.
+Mobile platforms
+----------------
+Android and iOS are, in most respects, POSIX operating systems. File
+I/O, socket handling, and threading all behave as they would on any

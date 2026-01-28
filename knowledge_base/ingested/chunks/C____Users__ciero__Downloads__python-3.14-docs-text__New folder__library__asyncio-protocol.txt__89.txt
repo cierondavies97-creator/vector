@@ -1,0 +1,5 @@
+"loop.subprocess_shell()" methods.
+SubprocessProtocol.pipe_data_received(fd, data)
+   Called when the child process writes data into its stdout or stderr
+   pipe.
+   *fd* is the integer file descriptor of the pipe.

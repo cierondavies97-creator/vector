@@ -1,0 +1,4 @@
+concatenation with a "bytearray" object.  "bytearray" objects are
+     mutable and have an efficient overallocation mechanism
+   * if concatenating "tuple" objects, extend a "list" instead
+   * for other types, investigate the relevant class documentation

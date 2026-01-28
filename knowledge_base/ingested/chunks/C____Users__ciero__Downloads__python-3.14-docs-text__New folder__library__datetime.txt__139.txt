@@ -1,0 +1,4 @@
+restricted to years in 1970 through 2038. Note that on non-POSIX
+   systems that include leap seconds in their notion of a timestamp,
+   leap seconds are ignored by "fromtimestamp()", and then it's
+   possible to have two timestamps differing by a second that yield

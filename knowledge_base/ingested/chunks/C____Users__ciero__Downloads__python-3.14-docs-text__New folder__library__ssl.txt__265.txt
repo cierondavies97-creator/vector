@@ -1,0 +1,3 @@
+For client-side sockets, the context construction is lazy; if the
+   underlying socket isn't connected yet, the context construction
+   will be performed after "connect()" is called on the socket.  For

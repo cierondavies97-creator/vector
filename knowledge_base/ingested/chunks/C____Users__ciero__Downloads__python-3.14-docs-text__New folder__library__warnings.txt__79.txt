@@ -1,0 +1,3 @@
+Issue a warning, or maybe ignore it or raise an exception.  The
+   *category* argument, if given, must be a warning category class; it
+   defaults to "UserWarning".  Alternatively, *message* can be a

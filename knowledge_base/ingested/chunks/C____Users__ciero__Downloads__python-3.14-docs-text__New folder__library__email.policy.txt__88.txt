@@ -1,0 +1,5 @@
+charset.
+   fold_binary(name, value)
+      The same as "fold()" if "cte_type" is "7bit", except that the
+      returned value is bytes.
+      If "cte_type" is "8bit", non-ASCII binary data is converted back

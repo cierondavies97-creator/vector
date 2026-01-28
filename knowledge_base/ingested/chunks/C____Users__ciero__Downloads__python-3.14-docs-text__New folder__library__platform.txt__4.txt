@@ -1,0 +1,4 @@
+for the supported pointer size.
+   The function relies on the system's "file" command to do the actual
+   work. This is available on most if not all Unix  platforms and some
+   non-Unix platforms and then only if the executable points to the

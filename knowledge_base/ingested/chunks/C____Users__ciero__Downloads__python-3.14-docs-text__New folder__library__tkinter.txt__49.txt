@@ -1,0 +1,4 @@
+interpreter. It also creates a toplevel window, known as the root
+window, which serves as the main window of the application.
+The following line creates a frame widget, which in this case will
+contain a label and a button we'll create next. The frame is fit

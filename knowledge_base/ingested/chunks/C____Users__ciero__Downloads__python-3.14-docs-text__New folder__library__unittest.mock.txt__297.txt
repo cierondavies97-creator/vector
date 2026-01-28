@@ -1,0 +1,4 @@
+"__aexit__"
+* Unary numeric methods: "__neg__", "__pos__" and "__invert__"
+* The numeric methods (including right hand and in-place variants):
+  "__add__", "__sub__", "__mul__", "__matmul__", "__truediv__",

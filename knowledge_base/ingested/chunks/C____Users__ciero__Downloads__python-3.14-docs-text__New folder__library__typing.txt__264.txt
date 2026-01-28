@@ -1,0 +1,5 @@
+parameter syntax, the constraints are evaluated only when the
+      attribute is accessed, not when the type variable is created
+      (see Lazy evaluation).
+   evaluate_constraints()
+      An *evaluate function* corresponding to the "__constraints__"

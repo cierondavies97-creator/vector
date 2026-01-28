@@ -1,0 +1,7 @@
+Mutually exclusive options for whitespace control.
+   Added in version 3.9.
+-h, --help
+   Show the help message.
+-[ Footnotes ]-
+[1] As noted in the errata for RFC 7159, JSON permits literal U+2028
+    (LINE SEPARATOR) and U+2029 (PARAGRAPH SEPARATOR) characters in

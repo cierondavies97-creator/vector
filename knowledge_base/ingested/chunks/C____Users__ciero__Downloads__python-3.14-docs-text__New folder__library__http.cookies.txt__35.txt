@@ -1,0 +1,7 @@
+>>> print(C)
+   Set-Cookie: chips=ahoy
+   Set-Cookie: vienna=finger
+   >>> C = cookies.SimpleCookie()
+   >>> C.load('keebler="E=everybody; L=\\"Loves\\"; fudge=\\012;";')
+   >>> print(C)
+   Set-Cookie: keebler="E=everybody; L=\"Loves\"; fudge=\012;"

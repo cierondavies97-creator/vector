@@ -1,0 +1,4 @@
+is called.  Note, *eval()* will only have access to the *nested
+   scopes* (non-locals) in the enclosing environment if they are
+   already referenced in the scope that is calling "eval()" (e.g. via
+   a "nonlocal" statement).

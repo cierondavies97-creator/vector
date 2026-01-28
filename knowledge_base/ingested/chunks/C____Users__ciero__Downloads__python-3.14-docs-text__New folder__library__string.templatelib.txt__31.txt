@@ -1,0 +1,4 @@
+interpolation cannot be reassigned.
+   Interpolations support pattern matching, allowing you to match
+   against their attributes with the match statement:
+   >>> from string.templatelib import Interpolation

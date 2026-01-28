@@ -1,0 +1,4 @@
+variable is tested, but a list of variables given as envvars
+   parameter.  The first found to be defined will be used.  *envvars*
+   defaults to the search path used in GNU gettext; it must always
+   contain the variable name "'LANG'".  The GNU gettext search path

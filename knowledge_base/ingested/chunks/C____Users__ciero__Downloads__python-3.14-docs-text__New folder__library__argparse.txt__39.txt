@@ -1,0 +1,5 @@
+>>> foo_parser = argparse.ArgumentParser(parents=[parent_parser])
+   >>> foo_parser.add_argument('foo')
+   >>> foo_parser.parse_args(['--parent', '2', 'XXX'])
+   Namespace(foo='XXX', parent=2)
+   >>> bar_parser = argparse.ArgumentParser(parents=[parent_parser])

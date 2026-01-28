@@ -1,0 +1,4 @@
+is the shared library instance.
+prototype(vtbl_index, name[, paramflags[, iid]])
+   Returns a foreign function that will call a COM method.
+   *vtbl_index* is the index into the virtual function table, a small

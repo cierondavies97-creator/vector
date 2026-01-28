@@ -1,0 +1,6 @@
+shouldRollover(record)
+      See if enough time has passed for a rollover to occur and if it
+      has, compute the next rollover time.
+SocketHandler
+=============
+The "SocketHandler" class, located in the "logging.handlers" module,

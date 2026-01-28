@@ -1,0 +1,4 @@
+"functools.singledispatch()" decorator, and **PEP 443**.
+generic type
+   A *type* that can be parameterized; typically a container class
+   such as "list" or "dict". Used for *type hints* and *annotations*.

@@ -1,0 +1,7 @@
+con = sqlite3.connect(":memory:")
+   cur = con.cursor()
+   cur.execute("SELECT ?", (Point(4.0, -3.2),))
+   print(cur.fetchone()[0])
+   con.close()
+How to register adapter callables
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

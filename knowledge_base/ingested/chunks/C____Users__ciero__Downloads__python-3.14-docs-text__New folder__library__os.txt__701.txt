@@ -1,0 +1,4 @@
+"subprocess" documentation for some helpful recipes.
+   On Unix, "waitstatus_to_exitcode()" can be used to convert the
+   result (exit status) into an exit code. On Windows, the result is
+   directly the exit code.

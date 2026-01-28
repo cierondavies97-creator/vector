@@ -1,0 +1,4 @@
+it.
+The pack() method can be called with keyword-option/value pairs that
+control where the widget is to appear within its container, and how it
+is to behave when the main application window is resized.  Here are

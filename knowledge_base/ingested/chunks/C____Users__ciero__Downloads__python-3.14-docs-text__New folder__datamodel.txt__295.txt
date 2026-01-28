@@ -1,0 +1,2 @@
+| frame.f_trace_lines                                | Set this attribute to "False" to disable           |
+|                                                    | triggering a tracing event for each source line.   |

@@ -1,0 +1,3 @@
+directory may be changed from ".", and the package will be installed
+into a subdirectory. By default, the subdirectory is named the same as
+the package, and without the "-ExcludeVersion" option this name will

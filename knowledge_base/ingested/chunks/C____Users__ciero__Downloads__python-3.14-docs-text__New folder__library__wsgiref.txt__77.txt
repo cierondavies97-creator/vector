@@ -1,0 +1,3 @@
+servers and gateways.  These base classes handle most of the work of
+communicating with a WSGI application, as long as they are given a
+CGI-like environment, along with input, output, and error streams.

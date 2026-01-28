@@ -1,0 +1,3 @@
+*mangle_from_* defaults to the value of the "mangle_from_" setting
+   of the *policy* (which is "True" for the "compat32" policy and
+   "False" for all others). *mangle_from_* is intended for use when

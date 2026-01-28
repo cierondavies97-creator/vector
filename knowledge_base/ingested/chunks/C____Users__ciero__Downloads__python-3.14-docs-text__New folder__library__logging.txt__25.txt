@@ -1,0 +1,5 @@
+whose handlers are offered the event to handle, and propagation
+      stops at that point.
+      The constructor sets this attribute to "True".
+      Note:
+        If you attach a handler to a logger *and* one or more of its

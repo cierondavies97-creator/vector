@@ -1,0 +1,5 @@
+be set to "CERT_OPTIONAL" or "CERT_REQUIRED", too. The actual
+   client cert exchange is delayed until
+   "SSLSocket.verify_client_post_handshake()" is called and some I/O
+   is performed.
+   Added in version 3.8.

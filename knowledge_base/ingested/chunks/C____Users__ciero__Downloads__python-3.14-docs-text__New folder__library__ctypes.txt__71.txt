@@ -1,0 +1,7 @@
+to, *not the contents* of the memory block (of course not, because
+Python string objects are immutable):
+   >>> s = "Hello, World"
+   >>> c_s = c_wchar_p(s)
+   >>> print(c_s)
+   c_wchar_p(139966785747344)
+   >>> print(c_s.value)

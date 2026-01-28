@@ -1,0 +1,5 @@
+signal.alarm(0)          # Disable the alarm
+Note on SIGPIPE
+===============
+Piping output of your program to tools like *head(1)* will cause a
+"SIGPIPE" signal to be sent to your process when the receiver of its

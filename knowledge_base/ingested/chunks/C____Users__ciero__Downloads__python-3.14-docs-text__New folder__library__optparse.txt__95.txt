@@ -1,0 +1,5 @@
+Generating help
+---------------
+"optparse"'s ability to generate help and usage text automatically is
+useful for creating user-friendly command-line interfaces.  All you
+have to do is supply a "help" value for each option, and optionally a

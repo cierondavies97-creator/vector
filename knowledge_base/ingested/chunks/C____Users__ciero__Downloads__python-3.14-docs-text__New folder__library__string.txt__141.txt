@@ -1,0 +1,7 @@
+Using the comma or the underscore as a digit group separator:
+   >>> '{:,}'.format(1234567890)
+   '1,234,567,890'
+   >>> '{:_}'.format(1234567890)
+   '1_234_567_890'
+   >>> '{:_b}'.format(1234567890)
+   '100_1001_1001_0110_0000_0010_1101_0010'

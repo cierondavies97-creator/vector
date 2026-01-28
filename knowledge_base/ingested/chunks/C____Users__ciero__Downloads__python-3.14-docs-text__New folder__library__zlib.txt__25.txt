@@ -1,0 +1,4 @@
+is given, it is used as the initial size of the output buffer.
+   Raises the "error" exception if any error occurs.
+   The *wbits* parameter controls the size of the history buffer (or
+   "window size"), and what header and trailer format is expected. It

@@ -1,0 +1,6 @@
+class DBUnpickler(pickle.Unpickler):
+       def __init__(self, file, connection):
+           super().__init__(file)
+           self.connection = connection
+       def persistent_load(self, pid):
+           # This method is invoked whenever a persistent ID is encountered.

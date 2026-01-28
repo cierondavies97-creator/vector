@@ -1,0 +1,4 @@
+The optional *value* argument gives the initial value for the
+   internal counter ("1" by default). If the given value is less than
+   "0" a "ValueError" is raised.
+   Changed in version 3.10: Removed the *loop* parameter.

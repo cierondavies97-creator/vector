@@ -1,0 +1,6 @@
+false), return an item if one is immediately available, else raise
+   the "Empty" exception (*timeout* is ignored in that case).
+SimpleQueue.get_nowait()
+   Equivalent to "get(False)".
+See also:
+  Class "multiprocessing.Queue"

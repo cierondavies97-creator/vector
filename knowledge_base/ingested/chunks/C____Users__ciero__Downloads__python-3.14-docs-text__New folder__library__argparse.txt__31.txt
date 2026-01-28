@@ -1,0 +1,6 @@
+"add_parser()", to ensure consistent command prefixes and usage
+information across subparsers.
+description
+-----------
+Most calls to the "ArgumentParser" constructor will use the
+"description=" keyword argument.  This argument gives a brief

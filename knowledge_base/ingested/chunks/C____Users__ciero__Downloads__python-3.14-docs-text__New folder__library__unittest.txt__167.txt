@@ -1,0 +1,4 @@
+passed as *warnings*.
+      If only the *warning* and possibly the *msg* arguments are
+      given, return a context manager so that the code under test can
+      be written inline rather than as a function:

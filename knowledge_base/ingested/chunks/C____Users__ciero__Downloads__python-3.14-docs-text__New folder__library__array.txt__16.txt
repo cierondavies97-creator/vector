@@ -1,0 +1,6 @@
+array.typecodes
+   A string with all available type codes.
+The module defines the following type:
+class array.array(typecode[, initializer])
+   A new array whose items are restricted by *typecode*, and
+   initialized from the optional *initializer* value, which must be a

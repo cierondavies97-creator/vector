@@ -1,0 +1,4 @@
+an SSL socket where it returns the underlying socket.
+   * The *server_name_callback* callback passed to
+     "SSLContext.set_servername_callback()" will get an "SSLObject"
+     instance instead of a "SSLSocket" instance as its first

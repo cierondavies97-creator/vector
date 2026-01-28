@@ -1,0 +1,7 @@
+"wait()" until the predicate evaluates to *true*. The final
+      value is the return value.
+Semaphore
+=========
+class asyncio.Semaphore(value=1)
+   A Semaphore object.  Not thread-safe.
+   A semaphore manages an internal counter which is decremented by

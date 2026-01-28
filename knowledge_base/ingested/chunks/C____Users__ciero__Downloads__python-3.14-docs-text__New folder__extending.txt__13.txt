@@ -1,0 +1,9 @@
+the limited C API version 3.13 or newer, the implicit includes are:
+  * "<assert.h>"
+  * "<intrin.h>" (on Windows)
+  * "<inttypes.h>"
+  * "<limits.h>"
+  * "<math.h>"
+  * "<stdarg.h>"
+  * "<wchar.h>"
+  * "<sys/types.h>" (if present)

@@ -1,0 +1,5 @@
+this by providing an object as a "spec" for a mock, but that isn't
+always convenient.
+You "block" attributes by deleting them. Once deleted, accessing an
+attribute will raise an "AttributeError".
+>>> mock = MagicMock()

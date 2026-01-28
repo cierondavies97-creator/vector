@@ -1,0 +1,4 @@
+example a new tuple was created to serve as the argument list, which
+is "Py_DECREF()"-ed immediately after the "PyObject_CallObject()"
+call.
+The return value of "PyObject_CallObject()" is "new": either it is a

@@ -1,0 +1,5 @@
+thread communication.  You can use the synchronization primitives from
+the "threading" module instead.
+Besides, only the main thread of the main interpreter is allowed to
+set a new signal handler.
+Module contents

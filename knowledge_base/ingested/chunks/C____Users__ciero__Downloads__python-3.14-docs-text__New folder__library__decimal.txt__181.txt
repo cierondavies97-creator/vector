@@ -1,0 +1,4 @@
+have its exponent reduced and a corresponding number of zeros
+      added to its coefficient, in order to fit the exponent
+      constraints; this preserves the value of the number but loses
+      information about significant trailing zeros.  For example:

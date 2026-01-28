@@ -1,0 +1,4 @@
+printed as does "print_exception()".
+   Changed in version 3.5: The *etype* argument is ignored and
+   inferred from the type of *value*.
+   Changed in version 3.10: This function's behavior and signature

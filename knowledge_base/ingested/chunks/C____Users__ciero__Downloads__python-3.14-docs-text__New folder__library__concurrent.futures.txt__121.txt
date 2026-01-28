@@ -1,0 +1,5 @@
+initializing.
+   Added in version 3.14.
+exception concurrent.futures.process.BrokenProcessPool
+   Derived from "BrokenExecutor" (formerly "RuntimeError"), this
+   exception class is raised when one of the workers of a

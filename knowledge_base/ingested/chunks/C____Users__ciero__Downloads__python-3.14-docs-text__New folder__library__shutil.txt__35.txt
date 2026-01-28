@@ -1,0 +1,4 @@
+"copy2()" uses "copystat()" to copy the file metadata. Please see
+   "copystat()" for more information about platform support for
+   modifying symbolic link metadata.
+   Raises an auditing event "shutil.copyfile" with arguments "src",

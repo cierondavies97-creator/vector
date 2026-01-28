@@ -1,0 +1,3 @@
+value according to "type" and stored in "dest".  If "nargs" > 1,
+  multiple arguments will be consumed from the command line; all will
+  be converted according to "type" and stored to "dest" as a tuple.

@@ -1,0 +1,4 @@
+The optional *limit* argument has the same meaning as for
+   "print_tb()". If *chain* is true (the default), then chained
+   exceptions (the "__cause__" or "__context__" attributes of the
+   exception) will be printed as well, like the interpreter itself

@@ -1,0 +1,6 @@
+if os.path.splitext(tarinfo.name)[1] == ".py":
+               yield tarinfo
+   tar = tarfile.open("sample.tar.gz")
+   tar.extractall(members=py_files(tar))
+   tar.close()
+How to read a gzip compressed tar archive and display some member

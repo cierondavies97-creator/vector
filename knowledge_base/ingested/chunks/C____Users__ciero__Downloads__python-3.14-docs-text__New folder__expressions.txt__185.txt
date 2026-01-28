@@ -1,0 +1,5 @@
+a class object:
+   A new instance of that class is returned.
+a class instance method:
+   The corresponding user-defined function is called, with an argument
+   list that is one longer than the argument list of the call: the

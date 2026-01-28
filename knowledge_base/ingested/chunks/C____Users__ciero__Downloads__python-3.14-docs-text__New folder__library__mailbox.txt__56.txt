@@ -1,0 +1,5 @@
+specify another character to use instead. The exclamation point
+      ("'!'") is a popular choice. For example:
+         import mailbox
+         mailbox.Maildir.colon = '!'
+      The "colon" attribute may also be set on a per-instance basis.

@@ -1,0 +1,4 @@
+A (possibly empty) *sequence* of strings enumerating the
+      locations in which a package's submodules will be found (see
+      "module.__path__"). Most of the time there will only be a single
+      directory in this list.

@@ -1,0 +1,6 @@
+Python programs.
+Dumping the traceback
+=====================
+faulthandler.dump_traceback(file=sys.stderr, all_threads=True)
+   Dump the tracebacks of all threads into *file*. If *all_threads* is
+   "False", dump only the current thread.

@@ -1,0 +1,6 @@
+resource.RLIMIT_STACK
+   The maximum size (in bytes) of the call stack for the current
+   process.  This only affects the stack of the main thread in a
+   multi-threaded process.
+resource.RLIMIT_RSS
+   The maximum resident set size that should be made available to the

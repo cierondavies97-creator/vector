@@ -1,0 +1,6 @@
+compare(x, y, /)
+      Compares *x* and *y* numerically.
+   compare_signal(x, y, /)
+      Compares the values of the two operands numerically.
+   compare_total(x, y, /)
+      Compares two operands using their abstract representation.

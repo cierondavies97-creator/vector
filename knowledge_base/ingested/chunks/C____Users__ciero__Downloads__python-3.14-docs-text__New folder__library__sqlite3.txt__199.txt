@@ -1,0 +1,5 @@
+Raises:
+         **ProgrammingError** -- When *sql* contains more than one SQL
+         statement. When named placeholders are used and *parameters*
+         is a sequence instead of a "dict".
+      If "autocommit" is "LEGACY_TRANSACTION_CONTROL",

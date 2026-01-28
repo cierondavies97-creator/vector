@@ -1,0 +1,5 @@
+See also:
+  Module "struct"
+     Packing and unpacking of heterogeneous binary data.
+  NumPy
+     The NumPy package defines another array type.

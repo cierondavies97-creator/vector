@@ -1,0 +1,3 @@
+"file-like object" with output buffering.  This danger is that if
+   multiple processes call "close()" on this file-like object, it
+   could result in the same data being flushed to the object multiple

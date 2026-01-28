@@ -1,0 +1,3 @@
+function, in order to avoid name clashes with other extension modules
+(as discussed in section The Module's Method Table and Initialization
+Function). And it means that symbols that *should* be accessible from

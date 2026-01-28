@@ -1,0 +1,3 @@
+mandatory.  There is also a "uid sort" command which corresponds to
+   "sort" the way that "uid search" corresponds to "search".  The
+   "sort" command first searches the mailbox for messages that match

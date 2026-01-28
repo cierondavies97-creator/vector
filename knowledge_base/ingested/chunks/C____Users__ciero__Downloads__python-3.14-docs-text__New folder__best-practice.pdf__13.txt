@@ -1,0 +1,7 @@
+Formatting Code: Tools
+Checker
+▶ pylint (e.g. pylint my_product.py)
+▶ pycodestyle (e.g. pycodestyle my_product.py)
+▶ pydocstyle (e.g. pydocstyle my_product.py)
+▶ flake8 (e.g. flake8 my_product.py)
+Formatter

@@ -1,0 +1,4 @@
+Changed in version 3.3: "float" arguments raise an exception if the
+   "FloatOperation" trap is set. By default the trap is off.
+   Changed in version 3.6: Underscores are allowed for grouping, as
+   with integral and floating-point literals in code.

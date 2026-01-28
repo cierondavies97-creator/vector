@@ -1,0 +1,5 @@
+it's also possible to register new methods using
+   "addTypeEqualityFunc()":
+   addTypeEqualityFunc(typeobj, function)
+      Registers a type-specific method called by "assertEqual()" to
+      check if two objects of exactly the same *typeobj* (not

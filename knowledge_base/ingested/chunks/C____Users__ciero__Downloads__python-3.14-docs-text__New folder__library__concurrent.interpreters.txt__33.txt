@@ -1,0 +1,6 @@
+A single interpreter in the current process.
+   Generally, "Interpreter" shouldn't be called directly. Instead, use
+   "create()" or one of the other module functions.
+   id
+      (read-only)
+      The underlying interpreter's ID.

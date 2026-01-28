@@ -1,0 +1,4 @@
+returned is undefined.  Use the "get_all()" method to get the
+      values of all the extant named headers.
+   __setitem__(name, val)
+      Add a header to the message with field name *name* and value

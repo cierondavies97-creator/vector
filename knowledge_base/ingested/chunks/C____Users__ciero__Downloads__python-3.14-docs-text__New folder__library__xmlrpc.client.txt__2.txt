@@ -1,0 +1,5 @@
+Python objects and XML on the wire.
+Warning:
+  The "xmlrpc.client" module is not secure against maliciously
+  constructed data.  If you need to parse untrusted or unauthenticated
+  data, see XML security.

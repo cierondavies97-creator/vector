@@ -1,0 +1,4 @@
+the **RFC 2109** and **RFC 2068** specifications.  It has since been
+discovered that MSIE 3.0x didn't follow the character rules outlined
+in those specs; many current-day browsers and servers have also
+relaxed parsing rules when it comes to cookie handling.  As a result,

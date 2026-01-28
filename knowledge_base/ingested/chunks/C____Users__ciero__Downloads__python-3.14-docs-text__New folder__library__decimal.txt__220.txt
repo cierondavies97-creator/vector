@@ -1,0 +1,7 @@
+sign of *x*).
+   rotate(x, y, /)
+      Returns a rotated copy of *x*, *y* times.
+   same_quantum(x, y, /)
+      Returns "True" if the two operands have the same exponent.
+   scaleb(x, y, /)
+      Returns the first operand after adding the second value its exp.

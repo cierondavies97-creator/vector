@@ -1,0 +1,4 @@
+Changed in version 3.12: In "bytes" patterns, group *name* can only
+   contain bytes in the ASCII range ("b'\x00'"-"b'\x7f'").
+"(?P=name)"
+   A backreference to a named group; it matches whatever text was

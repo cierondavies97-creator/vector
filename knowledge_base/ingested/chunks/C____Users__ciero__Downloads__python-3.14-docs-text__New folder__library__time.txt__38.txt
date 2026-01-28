@@ -1,0 +1,5 @@
+restricted to years between 1970 and 2038.
+time.mktime(t)
+   This is the inverse function of "localtime()".  Its argument is the
+   "struct_time" or full 9-tuple (since the dst flag is needed; use
+   "-1" as the dst flag if it is unknown) which expresses the time in

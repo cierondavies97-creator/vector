@@ -1,0 +1,5 @@
+double) == sizeof(double)" it is an alias to "c_double".
+class ctypes.c_float
+   Represents the C float datatype.  The constructor accepts an
+   optional float initializer.
+class ctypes.c_double_complex

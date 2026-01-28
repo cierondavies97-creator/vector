@@ -1,0 +1,6 @@
+suffix string rather than all of a set of characters.  For example:
+      >>> 'Monty Python'.rstrip(' Python')
+      'M'
+      >>> 'Monty Python'.removesuffix(' Python')
+      'Monty'
+str.split(sep=None, maxsplit=-1)

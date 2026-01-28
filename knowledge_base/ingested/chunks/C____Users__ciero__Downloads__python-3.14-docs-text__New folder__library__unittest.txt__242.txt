@@ -1,0 +1,4 @@
+docstring.  This caused compatibility issues with unittest
+      extensions and adding the test name was moved to the
+      "TextTestResult" in Python 3.2.
+   addCleanup(function, /, *args, **kwargs)

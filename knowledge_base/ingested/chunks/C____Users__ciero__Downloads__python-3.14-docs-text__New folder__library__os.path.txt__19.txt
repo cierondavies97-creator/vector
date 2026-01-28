@@ -1,0 +1,5 @@
+broken symbolic links.   Equivalent to "exists()" on platforms
+   lacking "os.lstat()".
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.expanduser(path)
+   On Unix and Windows, return the argument with an initial component

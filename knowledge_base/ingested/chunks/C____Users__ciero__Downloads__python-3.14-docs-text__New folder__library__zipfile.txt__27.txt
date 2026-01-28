@@ -1,0 +1,4 @@
+4 GiB. If it is "false" "zipfile" will raise an exception when the
+   ZIP file would require ZIP64 extensions.
+   The *compresslevel* parameter controls the compression level to use
+   when writing files to the archive. When using "ZIP_STORED" or

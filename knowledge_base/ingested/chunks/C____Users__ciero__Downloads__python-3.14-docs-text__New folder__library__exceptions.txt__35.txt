@@ -1,0 +1,6 @@
+module.  Also raised when the "from list" in "from ... import" has
+   a name that cannot be found.
+   The optional *name* and *path* keyword-only arguments set the
+   corresponding attributes:
+   name
+      The name of the module that was attempted to be imported.

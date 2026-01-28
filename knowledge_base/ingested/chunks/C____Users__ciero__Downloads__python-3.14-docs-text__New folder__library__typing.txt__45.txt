@@ -1,0 +1,5 @@
+# Type checker will infer that all elements in ``x`` are meant to be ints
+   x: list[int] = []
+   # Type checker error: ``list`` only accepts a single type argument:
+   y: list[int, str] = [1, 'foo']
+   # Type checker will infer that all keys in ``z`` are meant to be strings,

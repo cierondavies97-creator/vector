@@ -1,0 +1,4 @@
+from filters to replace the log record rather than modifying it in
+place. This allows filters attached to a "Handler" to modify the log
+record before it is emitted, without having side effects on other
+handlers.

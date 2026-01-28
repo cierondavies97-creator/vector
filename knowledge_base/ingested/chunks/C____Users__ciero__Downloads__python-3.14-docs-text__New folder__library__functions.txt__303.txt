@@ -1,0 +1,3 @@
+defining an "__lt__()" method will suffice for sorting, **PEP 8**
+   recommends that all six rich comparisons be implemented.  This will
+   help avoid bugs when using the same data with other ordering tools

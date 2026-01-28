@@ -1,0 +1,4 @@
+Return a new "time" with the same values, but with specified
+   parameters updated. Note that "tzinfo=None" can be specified to
+   create a naive "time" from an aware "time", without conversion of
+   the time data.

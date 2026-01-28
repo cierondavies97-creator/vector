@@ -1,0 +1,4 @@
+only "setup_python()" does nothing unless running from a build in
+   the source tree.
+   Changed in version 3.7.3: Windows copies the redirector scripts as
+   part of "setup_python()" instead of "setup_scripts()". This was not

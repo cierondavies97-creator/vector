@@ -1,0 +1,7 @@
+Added in version 3.14.
+os.chdir(path)
+os.fchdir(fd)
+os.getcwd()
+   These functions are described in Files and Directories.
+os.fsencode(filename)
+   Encode *path-like* *filename* to the *filesystem encoding and error

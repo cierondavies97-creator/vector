@@ -1,0 +1,6 @@
+Underflow(Inexact, Rounded, Subnormal)
+           InvalidOperation
+           Rounded
+           Subnormal
+           FloatOperation(DecimalException, exceptions.TypeError)
+Floating-point notes

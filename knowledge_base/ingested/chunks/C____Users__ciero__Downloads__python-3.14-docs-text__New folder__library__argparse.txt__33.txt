@@ -1,0 +1,6 @@
+within the given space.  To change this behavior, see the
+formatter_class argument.
+epilog
+------
+Some programs like to display additional description of the program
+after the description of the arguments.  Such text can be specified

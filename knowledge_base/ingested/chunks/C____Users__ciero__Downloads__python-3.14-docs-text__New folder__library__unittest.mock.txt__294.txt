@@ -1,0 +1,5 @@
+Note:
+  If you use the *spec* keyword argument to create a mock then
+  attempting to set a magic method that isn't in the spec will raise
+  an "AttributeError".
+The full list of supported magic methods is:

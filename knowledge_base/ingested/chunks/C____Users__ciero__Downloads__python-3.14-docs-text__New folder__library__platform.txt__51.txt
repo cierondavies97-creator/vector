@@ -1,0 +1,5 @@
+==================
+"platform" can also be invoked directly using the "-m" switch of the
+interpreter:
+   python -m platform [--terse] [--nonaliased] [{nonaliased,terse} ...]
+The following options are accepted:

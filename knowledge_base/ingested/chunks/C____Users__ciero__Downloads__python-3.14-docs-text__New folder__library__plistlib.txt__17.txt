@@ -1,0 +1,3 @@
+plistlib.dumps(value, *, fmt=FMT_XML, sort_keys=True, skipkeys=False, aware_datetime=False)
+   Return *value* as a plist-formatted bytes object. See the
+   documentation for "dump()" for an explanation of the keyword

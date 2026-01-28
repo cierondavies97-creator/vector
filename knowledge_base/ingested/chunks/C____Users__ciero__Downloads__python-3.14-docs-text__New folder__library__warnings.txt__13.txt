@@ -1,0 +1,3 @@
++------------------------------------+-------------------------------------------------+
+| "DeprecationWarning"               | Base category for warnings about deprecated     |
+|                                    | features when those warnings are intended for   |

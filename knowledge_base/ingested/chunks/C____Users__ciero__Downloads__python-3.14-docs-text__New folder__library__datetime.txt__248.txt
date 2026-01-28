@@ -1,0 +1,4 @@
+The example below defines a "tzinfo" subclass capturing time zone
+information for Kabul, Afghanistan, which used +4 UTC until 1945 and
+then +4:30 UTC thereafter:
+   from datetime import timedelta, datetime, tzinfo, timezone

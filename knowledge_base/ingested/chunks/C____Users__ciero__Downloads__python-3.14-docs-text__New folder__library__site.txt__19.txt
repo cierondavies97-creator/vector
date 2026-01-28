@@ -1,0 +1,5 @@
+"sitecustomize"
+===============
+After these path manipulations, an attempt is made to import a module
+named "sitecustomize", which can perform arbitrary site-specific
+customizations. It is typically created by a system administrator in

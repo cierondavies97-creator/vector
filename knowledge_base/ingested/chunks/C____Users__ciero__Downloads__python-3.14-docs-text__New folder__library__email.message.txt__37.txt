@@ -1,0 +1,4 @@
+returned is undefined.  Use the "get_all()" method to get the
+      values of all the extant headers named *name*.
+      Using the standard (non-"compat32") policies, the returned value
+      is an instance of a subclass of

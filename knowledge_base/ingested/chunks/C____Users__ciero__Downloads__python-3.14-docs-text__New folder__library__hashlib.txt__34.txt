@@ -1,0 +1,6 @@
+File hashing
+============
+The hashlib module provides a helper function for efficient hashing of
+a file or file-like object.
+hashlib.file_digest(fileobj, digest, /)
+   Return a digest object that has been updated with contents of file

@@ -1,0 +1,6 @@
+async def main():
+         async with asyncio.TaskGroup() as tg:
+             task1 = tg.create_task(
+                 say_after(1, 'hello'))
+             task2 = tg.create_task(
+                 say_after(2, 'world'))

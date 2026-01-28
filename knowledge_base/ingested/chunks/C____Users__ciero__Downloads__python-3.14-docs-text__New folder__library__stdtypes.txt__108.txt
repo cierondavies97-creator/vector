@@ -1,0 +1,4 @@
+"invmod(n, P)" gives the inverse of "n" modulo "P".
+* If "x = m / n" is a nonnegative rational number and "n" is divisible
+  by "P" (but "m" is not) then "n" has no inverse modulo "P" and the
+  rule above doesn't apply; in this case define "hash(x)" to be the

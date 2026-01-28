@@ -1,0 +1,5 @@
+warnings list.
+   The context manager is designed to be used like this:
+      with check_warnings(("assertion is always true", SyntaxWarning),
+                          ("", UserWarning)):
+          exec('assert(False, "Hey!")')

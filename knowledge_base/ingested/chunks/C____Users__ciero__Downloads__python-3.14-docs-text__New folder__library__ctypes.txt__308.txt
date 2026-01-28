@@ -1,0 +1,5 @@
+construction is a lot faster.
+ctypes.CopyComPointer(src, dst)
+   Copies a COM pointer from *src* to *dst* and returns the Windows
+   specific "HRESULT" value.
+   If *src* is not "NULL", its "AddRef" method is called, incrementing

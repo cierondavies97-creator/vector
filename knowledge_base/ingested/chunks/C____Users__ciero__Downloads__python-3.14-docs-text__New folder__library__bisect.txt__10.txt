@@ -1,0 +1,5 @@
+to the *x* value.
+   If *key* is "None", the elements are compared directly and no key
+   function is called.
+   Changed in version 3.10: Added the *key* parameter.
+bisect.bisect_right(a, x, lo=0, hi=len(a), *, key=None)

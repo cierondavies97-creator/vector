@@ -1,0 +1,2 @@
+| type.__static_attributes__                         | A "tuple" containing names of attributes of this   |
+|                                                    | class which are assigned through "self.X" from any |

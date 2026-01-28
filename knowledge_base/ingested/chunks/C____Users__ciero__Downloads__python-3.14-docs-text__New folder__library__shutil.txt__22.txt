@@ -1,0 +1,5 @@
+Note:
+     Not all platforms provide the ability to examine and modify
+     symbolic links.  Python itself can tell you what functionality is
+     locally available.
+     * If "os.chmod in os.supports_follow_symlinks" is "True",

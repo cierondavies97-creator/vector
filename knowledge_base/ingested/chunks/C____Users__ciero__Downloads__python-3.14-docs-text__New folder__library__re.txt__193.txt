@@ -1,0 +1,5 @@
+==========================
+class re.Pattern
+   Compiled regular expression object returned by "re.compile()".
+   Changed in version 3.9: "re.Pattern" supports "[]" to indicate a
+   Unicode (str) or bytes pattern. See Generic Alias Type.

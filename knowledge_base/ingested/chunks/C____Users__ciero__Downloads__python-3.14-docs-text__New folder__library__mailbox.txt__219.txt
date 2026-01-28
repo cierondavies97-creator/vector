@@ -1,0 +1,4 @@
+visible headers and whose body is empty.
+   set_visible(visible)
+      Set the message's visible headers to be the same as the headers
+      in *message*.  Parameter *visible* should be a "Message"

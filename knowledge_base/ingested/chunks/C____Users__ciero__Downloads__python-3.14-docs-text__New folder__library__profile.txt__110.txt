@@ -1,0 +1,6 @@
+0. The following procedure can be used to obtain a better constant for
+a given platform (see Limitations).
+   import profile
+   pr = profile.Profile()
+   for i in range(5):
+       print(pr.calibrate(10000))

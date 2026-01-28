@@ -1,0 +1,4 @@
+"__name__" and "__doc__" attributes (properties, getsets, and
+   members have both of these attributes), but this is not guaranteed.
+inspect.isgetsetdescriptor(object)
+   Return "True" if the object is a getset descriptor.

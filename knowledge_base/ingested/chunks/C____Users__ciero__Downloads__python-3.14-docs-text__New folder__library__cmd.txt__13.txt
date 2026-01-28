@@ -1,0 +1,4 @@
+method is defined).
+   This method will return when the "postcmd()" method returns a true
+   value. The *stop* argument to "postcmd()" is the return value from
+   the command's corresponding "do_*()" method.

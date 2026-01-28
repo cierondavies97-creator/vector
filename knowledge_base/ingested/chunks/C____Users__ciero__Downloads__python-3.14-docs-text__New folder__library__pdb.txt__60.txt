@@ -1,0 +1,5 @@
+indicates the current frame, which determines the context of most
+   commands.
+   Changed in version 3.14: *count* argument is added.
+d(own) [count]
+   Move the current frame *count* (default one) levels down in the

@@ -1,0 +1,7 @@
+print('hello')
+      with asyncio.Runner() as runner:
+          runner.run(main())
+   Added in version 3.11.
+   run(coro, *, context=None)
+      Execute *coro* in the embedded event loop.
+      The argument can be any awaitable object.

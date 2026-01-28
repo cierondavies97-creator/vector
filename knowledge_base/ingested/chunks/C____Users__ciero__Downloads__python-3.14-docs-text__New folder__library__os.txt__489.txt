@@ -1,0 +1,4 @@
+"(dirpath, dirnames, filenames)".
+   *dirpath* is a string, the path to the directory.  *dirnames* is a
+   list of the names of the subdirectories in *dirpath* (including
+   symlinks to directories, and excluding "'.'" and "'..'").

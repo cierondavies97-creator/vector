@@ -1,0 +1,5 @@
+Added in version 3.13.
+STORE_FAST_LOAD_FAST(var_nums)
+   Stores "STACK.pop()" into the local "co_varnames[var_nums >> 4]"
+   and pushes a reference to the local "co_varnames[var_nums & 15]"
+   onto the stack.

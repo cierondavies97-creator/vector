@@ -1,0 +1,5 @@
+freed even if all handles to it have been closed.  To ensure
+      proper cleanup, use the "unlink()" method.
+   unlink()
+      Delete the underlying shared memory block.  This should be
+      called only once per shared memory block regardless of the

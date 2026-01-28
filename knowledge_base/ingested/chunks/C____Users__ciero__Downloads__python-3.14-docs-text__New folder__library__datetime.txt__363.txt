@@ -1,0 +1,3 @@
+1:59 to 3:00. A wall time of the form 2:MM doesn't really make sense
+on that day, so "astimezone(Eastern)" won't deliver a result with
+"hour == 2" on the day DST begins. For example, at the Spring forward

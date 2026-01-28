@@ -1,0 +1,6 @@
+-h, --help  show this help message and exit
+    --foo-bar FOO-BAR
+action
+------
+"ArgumentParser" objects associate command-line arguments with
+actions.  These actions can do just about anything with the command-

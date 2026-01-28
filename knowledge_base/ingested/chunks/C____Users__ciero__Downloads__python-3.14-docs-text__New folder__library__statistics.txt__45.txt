@@ -1,0 +1,4 @@
+statistics.kde(data, h, kernel='normal', *, cumulative=False)
+   Kernel Density Estimation (KDE): Create a continuous probability
+   density function or cumulative distribution function from discrete
+   samples.

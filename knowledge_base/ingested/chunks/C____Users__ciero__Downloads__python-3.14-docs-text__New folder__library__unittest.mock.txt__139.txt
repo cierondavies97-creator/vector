@@ -1,0 +1,6 @@
+>>> mock.assert_awaited_with('foo', bar='bar')
+      >>> mock.assert_awaited_with('other')
+      Traceback (most recent call last):
+      ...
+      AssertionError: expected await not found.
+      Expected: mock('other')

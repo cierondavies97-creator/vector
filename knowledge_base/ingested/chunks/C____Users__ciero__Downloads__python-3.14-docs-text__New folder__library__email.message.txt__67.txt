@@ -1,0 +1,4 @@
+deprecated.
+      Note that existing parameter values of headers may be accessed
+      through the "params" attribute of the header value (for example,
+      "msg['Content-Type'].params['charset']").

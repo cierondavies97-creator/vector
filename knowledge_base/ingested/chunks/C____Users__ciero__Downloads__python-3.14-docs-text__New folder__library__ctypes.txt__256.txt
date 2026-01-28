@@ -1,0 +1,4 @@
+int, which is of course not always the truth, so you have to assign
+   the correct "restype" attribute to use these functions.
+Loading a library through any of these objects raises an auditing
+event "ctypes.dlopen" with string argument "name", the name used to

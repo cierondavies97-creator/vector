@@ -1,0 +1,7 @@
+"a = imul(a, b)" is equivalent to "a *= b".
+operator.imatmul(a, b)
+operator.__imatmul__(a, b)
+   "a = imatmul(a, b)" is equivalent to "a @= b".
+   Added in version 3.5.
+operator.ior(a, b)
+operator.__ior__(a, b)

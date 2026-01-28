@@ -1,0 +1,4 @@
+another exception instance.
+   Changed in version 3.3: "URLError" used to be a subtype of
+   "IOError", which is now an alias of "OSError".
+exception urllib.error.HTTPError(url, code, msg, hdrs, fp)

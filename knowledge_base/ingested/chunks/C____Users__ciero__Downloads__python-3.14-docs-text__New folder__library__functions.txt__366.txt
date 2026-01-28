@@ -1,0 +1,4 @@
+relative to the directory of the module calling "__import__()" (see
+   **PEP 328** for the details).
+   When the *name* variable is of the form "package.module", normally,
+   the top-level package (the name up till the first dot) is returned,

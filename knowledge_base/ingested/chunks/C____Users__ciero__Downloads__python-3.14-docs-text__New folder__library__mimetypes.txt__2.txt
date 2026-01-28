@@ -1,0 +1,4 @@
+The functions are the normal interface to this module, but some
+applications may be interested in the class as well.
+The functions described below provide the primary interface for this
+module.  If the module has not been initialized, they will call

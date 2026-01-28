@@ -1,0 +1,5 @@
+Changed in version 3.10: The *signum* argument is added to
+   customize the signal number.
+   Note:
+     This does not emit the corresponding signal but schedules a call
+     to the associated handler (if it exists). If you want to truly

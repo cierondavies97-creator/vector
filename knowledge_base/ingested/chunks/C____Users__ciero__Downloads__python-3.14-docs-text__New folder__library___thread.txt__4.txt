@@ -1,0 +1,3 @@
+Start a new thread and return its identifier.  The thread executes
+   the function *function* with the argument list *args* (which must
+   be a tuple). The optional *kwargs* argument specifies a dictionary

@@ -1,0 +1,4 @@
+A regular "dict" can emulate the order sensitive equality test with
+  "p == q and all(k1 == k2 for k1, k2 in zip(p, q))".
+* The "popitem()" method of "OrderedDict" has a different signature.
+  It accepts an optional argument to specify which item is popped.

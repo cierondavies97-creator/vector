@@ -1,0 +1,4 @@
+reasonable for most applications. If your application requires a
+different limit, set it from your main entry point using Python
+version agnostic code as these APIs were added in security patch
+releases in versions before 3.12.

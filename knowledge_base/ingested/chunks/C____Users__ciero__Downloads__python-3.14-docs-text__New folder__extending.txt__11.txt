@@ -1,0 +1,4 @@
+instead of "int". It is not necessary since Python 3.13, but we keep
+  it here for backward compatibility. See Strings and buffers for a
+  description of this macro.
+All user-visible symbols defined by "Python.h" have a prefix of "Py"

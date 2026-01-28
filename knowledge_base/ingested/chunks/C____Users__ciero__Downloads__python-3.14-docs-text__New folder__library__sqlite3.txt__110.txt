@@ -1,0 +1,4 @@
+* **name** (*str*) -- The name of the SQL aggregate window
+           function to create or remove.
+         * **num_params** (*int*) -- The number of arguments the SQL
+           aggregate window function can accept. If "-1", it may take

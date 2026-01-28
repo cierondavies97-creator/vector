@@ -1,0 +1,5 @@
+def is_parent(val: object) -> TypeIs[Parent]:
+          return isinstance(val, Parent)
+      def run(arg: Child | Unrelated):
+          if is_parent(arg):
+              # Type of ``arg`` is narrowed to the intersection

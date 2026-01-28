@@ -1,0 +1,7 @@
+allowed.
+Dialect.strict
+   When "True", raise exception "Error" on bad CSV input. The default
+   is "False".
+Reader Objects
+==============
+Reader objects ("DictReader" instances and objects returned by the

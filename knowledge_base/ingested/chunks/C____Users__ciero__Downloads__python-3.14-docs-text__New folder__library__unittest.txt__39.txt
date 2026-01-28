@@ -1,0 +1,5 @@
+python -m unittest discover
+Note:
+  As a shortcut, "python -m unittest" is the equivalent of "python -m
+  unittest discover". If you want to pass arguments to test discovery
+  the "discover" sub-command must be used explicitly.

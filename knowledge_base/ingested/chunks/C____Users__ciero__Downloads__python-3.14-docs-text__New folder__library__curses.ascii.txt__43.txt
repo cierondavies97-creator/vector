@@ -1,0 +1,5 @@
+anything about the host machine's character encoding.
+The following two functions take either a single-character string or
+integer byte value; they return a value of the same type.
+curses.ascii.ascii(c)
+   Return the ASCII value corresponding to the low 7 bits of *c*.

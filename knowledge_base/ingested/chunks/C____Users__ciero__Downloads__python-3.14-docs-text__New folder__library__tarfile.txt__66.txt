@@ -1,0 +1,3 @@
+completed. Please note that in the event of an exception an archive
+opened for writing will not be finalized; only the internally used
+file object will be closed. See the Examples section for a use case.

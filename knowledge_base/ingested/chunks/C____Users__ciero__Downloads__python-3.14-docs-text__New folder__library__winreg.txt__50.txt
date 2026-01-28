@@ -1,0 +1,4 @@
+function retrieves the value set by the "SetValue()" method for the
+   key identified by *key*.
+   Values in the registry have name, type, and data components. This
+   method retrieves the data for a key's first value that has a "NULL"

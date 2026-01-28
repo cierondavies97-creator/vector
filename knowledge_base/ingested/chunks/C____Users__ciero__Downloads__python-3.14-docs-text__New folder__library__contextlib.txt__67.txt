@@ -1,0 +1,9 @@
+>>> @mycontext()
+      ... async def function():
+      ...     print('The bit in the middle')
+      ...
+      >>> run(function())
+      Starting
+      The bit in the middle
+      Finishing
+      >>> async def function():

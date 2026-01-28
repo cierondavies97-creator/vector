@@ -1,0 +1,5 @@
+x: tuple[int] = (5,)
+   # OK: ``y`` is assigned to a tuple of length 2;
+   # element 1 is an int, element 2 is a str
+   y: tuple[int, str] = (5, "foo")
+   # Error: the type annotation indicates a tuple of length 1,

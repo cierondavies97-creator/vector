@@ -1,0 +1,4 @@
+found. The *path* is expected to be constructed using a
+            module's "__file__" attribute or an item from a package's
+            "__path__".
+            Changed in version 3.4: Raises "OSError" instead of

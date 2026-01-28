@@ -1,0 +1,4 @@
+relevant CGI environment variables as specified in **PEP 3333**.
+   get_stderr()
+      Return the object that should be used as the "wsgi.errors"
+      stream. The default implementation just returns "sys.stderr".

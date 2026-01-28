@@ -1,0 +1,4 @@
+the configuration dictionary in code.
+* A string that resolves to a callable which, when called with no
+  arguments, returns the queue instance to use. That callable could be
+  a "queue.Queue" subclass or a function which returns a suitable

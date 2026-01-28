@@ -1,0 +1,4 @@
+*header* specifies an alternative to *Content-Type*.
+   set_type(type, header='Content-Type', requote=True)
+      Set the main type and subtype for the *Content-Type* header.
+      *type* must be a string in the form *maintype/subtype*,

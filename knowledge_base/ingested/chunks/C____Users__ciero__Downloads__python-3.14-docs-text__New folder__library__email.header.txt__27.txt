@@ -1,0 +1,5 @@
+being split.  Splitchars does not affect **RFC 2047** encoded
+      lines.
+      *maxlinelen*, if given, overrides the instance's value for the
+      maximum line length.
+      *linesep* specifies the characters used to separate the lines of

@@ -1,0 +1,4 @@
+"pointer", "size", "offset".
+   from_buffer_copy(source[, offset])
+      This method creates a ctypes instance, copying the buffer from
+      the *source* object buffer which must be readable.  The optional

@@ -1,0 +1,4 @@
+*Content-Transfer-Encoding* header. The mappings are table driven.
+   Encoding suffixes are case sensitive; type suffixes are first tried
+   case sensitively, then case insensitively.
+   The optional *strict* argument is a flag specifying whether the

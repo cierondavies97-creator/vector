@@ -1,0 +1,5 @@
+====================================
+The "captureWarnings()" function can be used to integrate "logging"
+with the "warnings" module.
+logging.captureWarnings(capture)
+   This function is used to turn the capture of warnings by logging on

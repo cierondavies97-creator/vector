@@ -1,0 +1,6 @@
+entry*.
+   See "importlib.abc.PathEntryFinder" for the methods that path entry
+   finders implement.
+path entry hook
+   A callable on the "sys.path_hooks" list which returns a *path entry
+   finder* if it knows how to find modules on a specific *path entry*.

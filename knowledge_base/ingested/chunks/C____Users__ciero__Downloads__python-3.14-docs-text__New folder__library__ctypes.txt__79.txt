@@ -1,0 +1,7 @@
+"sys.stdout", so these examples will only work at the console prompt,
+not from within *IDLE* or *PythonWin*:
+   >>> printf = libc.printf
+   >>> printf(b"Hello, %s\n", b"World!")
+   Hello, World!
+   14
+   >>> printf(b"Hello, %S\n", "World!")

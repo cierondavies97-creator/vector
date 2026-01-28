@@ -1,0 +1,4 @@
+following methods which every stream writer must define in order to be
+compatible with the Python codec registry.
+class codecs.StreamWriter(stream, errors='strict')
+   Constructor for a "StreamWriter" instance.

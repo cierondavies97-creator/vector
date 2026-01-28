@@ -1,0 +1,5 @@
+handler are made after the corresponding "EndElementHandler" for
+   the end of the element.
+xmlparser.CommentHandler(data)
+   Called for comments.  *data* is the text of the comment, excluding
+   the leading "'<!-""-'" and trailing "'-""->'".

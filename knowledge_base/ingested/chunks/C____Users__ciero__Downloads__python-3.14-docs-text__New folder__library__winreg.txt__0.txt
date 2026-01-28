@@ -1,0 +1,4 @@
+"winreg" --- Windows registry access
+************************************
+======================================================================
+These functions expose the Windows registry API to Python.  Instead of

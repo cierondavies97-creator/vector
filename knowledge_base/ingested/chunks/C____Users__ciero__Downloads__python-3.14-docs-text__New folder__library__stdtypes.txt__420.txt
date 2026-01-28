@@ -1,0 +1,4 @@
+raise a "LookupError" exception, to map the character to itself.
+   You can use "str.maketrans()" to create a translation map from
+   character-to-character mappings in different formats.
+   See also the "codecs" module for a more flexible approach to custom

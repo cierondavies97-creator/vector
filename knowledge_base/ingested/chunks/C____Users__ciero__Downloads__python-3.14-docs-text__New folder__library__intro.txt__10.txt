@@ -1,0 +1,6 @@
+the sections of this manual, it helps to start with chapter Built-in
+Functions, as the remainder of the manual assumes familiarity with
+this material.
+Let the show begin!
+Notes on availability
+=====================

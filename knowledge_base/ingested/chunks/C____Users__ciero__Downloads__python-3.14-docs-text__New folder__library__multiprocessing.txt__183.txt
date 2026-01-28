@@ -1,0 +1,4 @@
+Changed in version 3.4: Now supported on POSIX when the "'spawn'"
+   start method is used.
+   Changed in version 3.11: Accepts a *path-like object*.
+multiprocessing.set_forkserver_preload(module_names)

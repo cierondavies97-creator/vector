@@ -1,0 +1,3 @@
+provides also a legacy API with explicit "get"/"set" methods.  While
+there are valid use cases for the methods outlined below, mapping
+protocol access is preferred for new projects.  The legacy API is at

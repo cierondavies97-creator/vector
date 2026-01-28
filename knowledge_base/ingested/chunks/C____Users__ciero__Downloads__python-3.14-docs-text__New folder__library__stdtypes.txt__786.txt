@@ -1,0 +1,5 @@
+CPython from 3.6.
+   These are the operations that dictionaries support (and therefore,
+   custom mapping types should support too):
+   list(d)
+      Return a list of all the keys used in the dictionary *d*.

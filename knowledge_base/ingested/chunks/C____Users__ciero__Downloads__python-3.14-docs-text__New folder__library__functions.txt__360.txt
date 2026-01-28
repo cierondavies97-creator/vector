@@ -1,0 +1,5 @@
+Note:
+     This is an advanced function that is not needed in everyday
+     Python programming, unlike "importlib.import_module()".
+   This function is invoked by the "import" statement.  It can be
+   replaced (by importing the "builtins" module and assigning to

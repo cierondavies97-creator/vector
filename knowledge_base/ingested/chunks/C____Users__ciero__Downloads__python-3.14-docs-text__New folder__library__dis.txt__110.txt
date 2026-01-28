@@ -1,0 +1,6 @@
+called to construct a class.
+GET_LEN
+   Perform "STACK.append(len(STACK[-1]))". Used in "match" statements
+   where comparison with structure of pattern is needed.
+   Added in version 3.10.
+MATCH_MAPPING

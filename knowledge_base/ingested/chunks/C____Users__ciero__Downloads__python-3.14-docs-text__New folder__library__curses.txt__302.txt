@@ -1,0 +1,3 @@
+| curses.ACS_S9            | scan line 9                                |
++--------------------------+--------------------------------------------+
+| curses.ACS_SBBS          | alternate name for lower right corner      |

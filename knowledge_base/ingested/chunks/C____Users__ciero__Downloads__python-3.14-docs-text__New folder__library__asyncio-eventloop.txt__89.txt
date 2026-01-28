@@ -1,0 +1,4 @@
+raised when running it.
+   * *remote_addr*, if given, is a "(remote_host, remote_port)" tuple
+     used to connect the socket to a remote address.  The
+     *remote_host* and *remote_port* are looked up using

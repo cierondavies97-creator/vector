@@ -1,0 +1,4 @@
+tracebacks are captured via a different means).
+* If you continue a line via backslashing in an interactive session,
+  or for any other reason use a backslash, you should use a raw
+  docstring, which will preserve your backslashes exactly as you type

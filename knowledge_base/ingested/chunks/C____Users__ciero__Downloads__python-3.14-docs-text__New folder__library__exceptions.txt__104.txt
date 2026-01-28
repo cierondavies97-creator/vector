@@ -1,0 +1,8 @@
+versions; starting from Python 3.3, they are aliases of "OSError".
+exception EnvironmentError
+exception IOError
+exception WindowsError
+   Only available on Windows.
+OS exceptions
+-------------
+The following exceptions are subclasses of "OSError", they get raised

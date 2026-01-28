@@ -1,0 +1,5 @@
+supported by the Python runtime.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.ismount(path)
+   Return "True" if pathname *path* is a *mount point*: a point in a
+   file system where a different file system has been mounted.  On

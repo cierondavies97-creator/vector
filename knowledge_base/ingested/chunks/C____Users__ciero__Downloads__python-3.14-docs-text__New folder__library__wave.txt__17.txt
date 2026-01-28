@@ -1,0 +1,3 @@
+achieved either by calling "setnframes()" or "setparams()" with the
+   number of frames that will be written before "close()" is called
+   and then using "writeframesraw()" to write the frame data, or by

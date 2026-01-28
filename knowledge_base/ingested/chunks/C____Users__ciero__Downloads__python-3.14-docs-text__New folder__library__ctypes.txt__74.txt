@@ -1,0 +1,4 @@
+these in various ways.  The current memory block contents can be
+accessed (or changed) with the "raw" property; if you want to access
+it as NUL terminated string, use the "value" property:
+   >>> from ctypes import *

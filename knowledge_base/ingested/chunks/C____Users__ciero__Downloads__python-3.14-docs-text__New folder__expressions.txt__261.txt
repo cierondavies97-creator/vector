@@ -1,0 +1,4 @@
+the expression "x is z or x == z" is true, is produced while iterating
+over "y". If an exception is raised during the iteration, it is as if
+"in" raised that exception.
+Lastly, the old-style iteration protocol is tried: if a class defines

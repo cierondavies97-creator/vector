@@ -1,0 +1,4 @@
+would do no good since "bool('False')" is still "True".  This is why
+config parsers also provide "getboolean()".  This method is case-
+insensitive and recognizes Boolean values from "'yes'"/"'no'",
+"'on'"/"'off'", "'true'"/"'false'" and "'1'"/"'0'" [1].  For example:

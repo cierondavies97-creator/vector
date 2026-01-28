@@ -1,0 +1,5 @@
+Raised to refuse extracting a symbolic link pointing outside the
+   destination directory.
+exception tarfile.LinkFallbackError
+   Raised to refuse emulating a link (hard or symbolic) by extracting
+   another archive member, when that member would be rejected by the

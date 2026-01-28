@@ -1,0 +1,5 @@
+Versioning.
+sys.implementation
+   An object containing information about the implementation of the
+   currently running Python interpreter.  The following attributes are
+   required to exist in all Python implementations.

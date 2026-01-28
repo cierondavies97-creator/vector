@@ -1,0 +1,4 @@
+--------------------------
+On a lot of platforms calling variadic functions through ctypes is
+exactly the same as calling functions with a fixed number of
+parameters. On some platforms, and in particular ARM64 for Apple

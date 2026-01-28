@@ -1,0 +1,4 @@
+algorithm that gives higher accuracy and better commutativity on
+   most builds.
+   Changed in version 3.14: Added specialization for summation of
+   complexes, using same algorithm as for summation of floats.

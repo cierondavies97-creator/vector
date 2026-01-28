@@ -1,0 +1,4 @@
+interpreter that doesn't have an obvious home with Python's current
+   home finding logic.
+   Setting "PYTHONHOME" is one way to get most of the testsuite to run
+   in that situation.  "PYTHONPATH" or "PYTHONUSERSITE" are other

@@ -1,0 +1,4 @@
+backing stores can be used for each of them.  A concrete object
+belonging to any of these categories is called a *file object*.  Other
+common terms are *stream* and *file-like object*.
+Independent of its category, each concrete stream object will also

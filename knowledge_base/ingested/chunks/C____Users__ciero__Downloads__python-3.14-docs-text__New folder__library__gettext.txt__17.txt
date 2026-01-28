@@ -1,0 +1,5 @@
+Class-based API
+===============
+The class-based API of the "gettext" module gives you more flexibility
+and greater convenience than the GNU **gettext** API.  It is the
+recommended way of localizing your Python applications and modules.

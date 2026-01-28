@@ -1,0 +1,3 @@
+type, a "ValueError" exception is raised --- but garbage data will
+   also be written to the file.  The object will not be properly read
+   back by "load()". Code objects are only supported if *allow_code*

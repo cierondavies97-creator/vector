@@ -1,0 +1,6 @@
+the arguments passed to the callable.
+Option.callback_args
+Option.callback_kwargs
+   Additional positional and keyword arguments to pass to "callback"
+   after the four standard callback arguments.
+Option.help

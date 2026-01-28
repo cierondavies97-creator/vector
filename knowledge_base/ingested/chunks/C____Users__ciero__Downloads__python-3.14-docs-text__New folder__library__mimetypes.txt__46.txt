@@ -1,0 +1,6 @@
+Deprecated since version 3.14, will be removed in version 3.16:
+      Invalid, undotted extensions will raise a "ValueError" in Python
+      3.16.
+Command-line usage
+==================
+The "mimetypes" module can be executed as a script from the command

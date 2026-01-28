@@ -1,0 +1,7 @@
+6.2.2. Literals
+---------------
+Python supports string and bytes literals and various numeric
+literals:
+   literal: strings | NUMBER
+Evaluation of a literal yields an object of the given type (string,
+bytes, integer, floating-point number, complex number) with the given

@@ -1,0 +1,3 @@
++-------------------------+--------------------------------------------------------+
+| "[.='text']"            | Selects all elements whose complete text content,      |
+|                         | including descendants, equals the given "text".  Added |

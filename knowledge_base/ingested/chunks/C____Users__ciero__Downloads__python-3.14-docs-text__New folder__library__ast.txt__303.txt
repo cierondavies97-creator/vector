@@ -1,0 +1,4 @@
+A single argument in a list. "arg" is a raw string of the argument
+   name; "annotation" is its annotation, such as a "Name" node.
+   type_comment
+      "type_comment" is an optional string with the type annotation as

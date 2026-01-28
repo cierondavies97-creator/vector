@@ -1,0 +1,4 @@
+get the source. You can download either the latest release's source or
+just grab a fresh checkout.
+The source tree contains a build solution and project files for
+Microsoft Visual Studio, which is the compiler used to build the

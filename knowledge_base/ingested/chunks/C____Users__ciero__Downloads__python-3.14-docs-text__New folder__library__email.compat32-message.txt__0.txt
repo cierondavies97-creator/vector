@@ -1,0 +1,3 @@
+"email.message.Message": Representing an email message using the "compat32" API
+*******************************************************************************
+The "Message" class is very similar to the "EmailMessage" class,

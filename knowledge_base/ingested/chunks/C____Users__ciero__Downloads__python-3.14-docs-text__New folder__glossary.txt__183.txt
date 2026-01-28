@@ -1,0 +1,5 @@
+*race conditions*.  See also *immutable*, *thread-safe*, and
+   *concurrent modification*.
+named tuple
+   The term "named tuple" applies to any type or class that inherits
+   from tuple and whose indexable elements are also accessible using

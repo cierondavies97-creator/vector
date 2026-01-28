@@ -1,0 +1,3 @@
+the source code is not looked up until the "FrameSummary" has the
+   "line" attribute accessed (which also happens when casting it to a
+   "tuple"). "line" may be directly provided, and will prevent line

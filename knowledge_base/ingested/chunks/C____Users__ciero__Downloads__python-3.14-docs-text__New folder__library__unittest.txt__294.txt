@@ -1,0 +1,4 @@
+to load the tests. This allows modules to customize test
+      loading. This is the load_tests protocol.  The *pattern*
+      argument is passed as the third argument to "load_tests".
+      Changed in version 3.2: Support for "load_tests" added.

@@ -1,0 +1,9 @@
+TestResults objects
+-------------------
+class doctest.TestResults(failed, attempted)
+   failed
+      Number of failed tests.
+   attempted
+      Number of attempted tests.
+   skipped
+      Number of skipped tests.

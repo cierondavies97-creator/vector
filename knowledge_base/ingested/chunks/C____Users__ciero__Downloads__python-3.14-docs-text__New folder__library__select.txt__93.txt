@@ -1,0 +1,3 @@
+| "KQ_EV_DELETE"              | Removes an event from the queue               |
+   +-----------------------------+-----------------------------------------------+
+   | "KQ_EV_ENABLE"              | Permitscontrol() to returns the event         |

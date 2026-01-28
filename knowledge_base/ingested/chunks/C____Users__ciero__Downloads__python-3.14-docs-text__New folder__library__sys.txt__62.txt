@@ -1,0 +1,4 @@
+program exits.  The handling of such top-level exceptions can be
+   customized by assigning another three-argument function to
+   "sys.excepthook".
+   Raise an auditing event "sys.excepthook" with arguments "hook",

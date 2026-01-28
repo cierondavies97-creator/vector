@@ -1,0 +1,4 @@
+not modify its contents between the call to "decompressobj()" and
+     the first call to the decompressor's "decompress()" method.
+   Changed in version 3.3: Added the *zdict* parameter.
+Compression objects support the following methods:

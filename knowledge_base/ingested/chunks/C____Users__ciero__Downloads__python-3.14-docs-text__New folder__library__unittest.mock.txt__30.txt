@@ -1,0 +1,4 @@
+in a particular module with a "Mock" object. By default "patch()" will
+create a "MagicMock" for you. You can specify an alternative class of
+"Mock" using the *new_callable* argument to "patch()".
+class unittest.mock.Mock(spec=None, side_effect=None, return_value=DEFAULT, wraps=None, name=None, spec_set=None, unsafe=False, **kwargs)

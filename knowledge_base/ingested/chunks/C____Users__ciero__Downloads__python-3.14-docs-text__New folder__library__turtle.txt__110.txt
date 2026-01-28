@@ -1,0 +1,5 @@
+Return or set the pencolor.
+   Four input formats are allowed:
+   "pencolor()"
+      Return the current pencolor as color specification string or as
+      a tuple (see example).  May be used as input to another

@@ -1,0 +1,5 @@
+Compute the annotations dict for an object.
+   This is an alias for "annotationlib.get_annotations()"; see the
+   documentation of that function for more information.
+   Caution:
+     This function may execute arbitrary code contained in

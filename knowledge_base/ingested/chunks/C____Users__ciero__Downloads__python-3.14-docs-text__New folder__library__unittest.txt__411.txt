@@ -1,0 +1,4 @@
+is being executed:
+      @unittest.removeHandler
+      def test_signal_handling(self):
+          ...

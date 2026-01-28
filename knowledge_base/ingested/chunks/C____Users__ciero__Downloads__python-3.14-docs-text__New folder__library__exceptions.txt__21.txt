@@ -1,0 +1,4 @@
+the exception chaining features of **PEP 3134** became
+      available.  The following example shows how we can convert an
+      instance of "SomeException" into an instance of "OtherException"
+      while preserving the traceback.  Once raised, the current frame

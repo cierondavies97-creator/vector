@@ -1,0 +1,3 @@
+in the "curses" module, "COLORS" and "COLOR_PAIRS", containing the
+   maximum number of colors and color-pairs the terminal can support.
+   It also restores the colors on the terminal to the values they had

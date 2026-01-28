@@ -1,0 +1,3 @@
+Although filters are used primarily to filter records based on more
+sophisticated criteria than levels, they get to see every record which
+is processed by the handler or logger they're attached to: this can be

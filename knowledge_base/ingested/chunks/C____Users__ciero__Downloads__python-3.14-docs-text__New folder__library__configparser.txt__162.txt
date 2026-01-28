@@ -1,0 +1,4 @@
+is designed so that you can specify an iterable of potential
+      configuration file locations (for example, the current
+      directory, the user's home directory, and some system-wide
+      directory), and all existing configuration files in the iterable

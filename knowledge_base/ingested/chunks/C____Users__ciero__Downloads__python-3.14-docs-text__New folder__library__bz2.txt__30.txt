@@ -1,0 +1,5 @@
+"BZ2Decompressor", you must use a new decompressor for each
+     stream.
+   decompress(data, max_length=-1)
+      Decompress *data* (a *bytes-like object*), returning
+      uncompressed data as bytes. Some of *data* may be buffered

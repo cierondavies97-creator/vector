@@ -1,0 +1,4 @@
+Elements are counted from an *iterable* or initialized from another
+   *mapping* (or counter):
+   >>> c = Counter()                           # a new, empty counter
+   >>> c = Counter('gallahad')                 # a new counter from an iterable

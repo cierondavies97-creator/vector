@@ -1,0 +1,4 @@
+type argument of "ArgumentParser.add_argument()".  Arguments that
+   have "FileType" objects as their type will open command-line
+   arguments as files with the requested modes, buffer sizes,
+   encodings and error handling (see the "open()" function for more

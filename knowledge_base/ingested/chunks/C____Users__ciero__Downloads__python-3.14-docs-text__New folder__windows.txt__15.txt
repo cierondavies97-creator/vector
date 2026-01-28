@@ -1,0 +1,3 @@
+be "%LocalAppData%\Python\bin" by default, but may be customized by an
+administrator. Click Start and search for "Edit environment variables
+for your account" for the system settings page to add the path.

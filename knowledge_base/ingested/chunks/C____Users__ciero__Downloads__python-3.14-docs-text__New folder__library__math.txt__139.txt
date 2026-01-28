@@ -1,0 +1,4 @@
+computing the hypotenuse of a right triangle using the Pythagorean
+   theorem, "sqrt(x*x + y*y)".
+   Changed in version 3.8: Added support for n-dimensional points.
+   Formerly, only the two dimensional case was supported.

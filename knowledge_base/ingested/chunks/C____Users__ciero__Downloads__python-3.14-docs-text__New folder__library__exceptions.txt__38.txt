@@ -1,0 +1,5 @@
+are silently truncated to fall in the allowed range; if an index is
+   not an integer, "TypeError" is raised.)
+exception KeyError
+   Raised when a mapping (dictionary) key is not found in the set of
+   existing keys.

@@ -1,0 +1,5 @@
+"StreamReader" instance.  By default the *limit* is set to 64 KiB.
+   The rest of the arguments are passed directly to
+   "loop.create_server()".
+   Note:
+     The *sock* argument transfers ownership of the socket to the

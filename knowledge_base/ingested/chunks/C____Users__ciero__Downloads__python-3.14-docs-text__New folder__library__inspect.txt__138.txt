@@ -1,0 +1,5 @@
+Introspecting callables with the Signature object
+=================================================
+Added in version 3.3.
+The "Signature" object represents the call signature of a callable
+object and its return annotation. To retrieve a "Signature" object,

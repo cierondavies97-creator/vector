@@ -1,0 +1,5 @@
+"__getstate__()" and "__setstate__()") whenever possible.  We will
+show, however, cases where using "__reduce__()" is the only option or
+leads to more efficient pickling or both.
+object.__reduce__()
+   The interface is currently defined as follows.  The "__reduce__()"

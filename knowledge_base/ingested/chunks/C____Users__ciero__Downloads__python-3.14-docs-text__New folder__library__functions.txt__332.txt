@@ -1,0 +1,4 @@
+"super()" is undefined for implicit lookups using statements or
+   operators such as "super()[name]".
+   Also note that, aside from the zero argument form, "super()" is not
+   limited to use inside methods.  The two argument form specifies the

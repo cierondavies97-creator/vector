@@ -1,0 +1,2 @@
+|                                                    | accessing this attribute directly.  Warning:       |
+|                                                    | Accessing the "__annotations__" attribute directly |

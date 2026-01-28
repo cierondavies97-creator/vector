@@ -1,0 +1,6 @@
+shows the amount completed relative to the total amount of work to be
+done and 2) the indeterminate mode which provides an animated display
+to let the user know that work is progressing.
+Options
+-------
+This widget accepts the following specific options:

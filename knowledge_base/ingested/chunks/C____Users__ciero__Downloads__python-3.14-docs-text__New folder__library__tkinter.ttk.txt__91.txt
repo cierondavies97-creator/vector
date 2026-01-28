@@ -1,0 +1,3 @@
+| width     | If present and greater than zero, specified the desired width of |
+|           | the pane area (not including internal padding). Otherwise, the   |
+|           | maximum width of all panes is used.                              |

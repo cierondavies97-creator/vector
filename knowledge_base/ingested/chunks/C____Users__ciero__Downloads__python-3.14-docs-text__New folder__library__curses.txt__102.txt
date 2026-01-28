@@ -1,0 +1,4 @@
+Initialize curses and call another callable object, *func*, which
+   should be the rest of your curses-using application.  If the
+   application raises an exception, this function will restore the
+   terminal to a sane state before re-raising the exception and

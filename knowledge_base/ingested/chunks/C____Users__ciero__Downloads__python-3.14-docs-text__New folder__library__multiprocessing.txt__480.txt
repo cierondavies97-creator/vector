@@ -1,0 +1,6 @@
+The *spawn* and *forkserver* start methods
+------------------------------------------
+There are a few extra restrictions which don't apply to the *fork*
+start method.
+More picklability
+   Ensure that all arguments to "Process" are picklable.  Also, if you

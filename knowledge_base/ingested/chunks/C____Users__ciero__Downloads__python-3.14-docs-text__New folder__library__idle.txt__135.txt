@@ -1,0 +1,3 @@
+Which characters are displayed with a proper glyph and which with a
+replacement box depends on the operating system and installed fonts.
+Tab characters cause the following text to begin after the next tab

@@ -1,0 +1,4 @@
+"timezone.utc" attribute (a UTC "timezone" instance).
+        "zoneinfo" brings the *IANA time zone database* (also known as
+        the Olson database) to Python, and its usage is recommended.
+  IANA time zone database

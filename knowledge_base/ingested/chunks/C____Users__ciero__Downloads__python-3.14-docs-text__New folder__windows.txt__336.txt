@@ -1,0 +1,2 @@
+|                             | directories  to "PATH" and add ".PY"   |                            |
+|                             | to "PATHEXT"                           |                            |

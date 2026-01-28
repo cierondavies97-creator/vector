@@ -1,0 +1,4 @@
+an integer or a one-integer tuple.  Multi-dimensional
+      memoryviews can be indexed with tuples of exactly *ndim*
+      integers where *ndim* is the number of dimensions.  Zero-
+      dimensional memoryviews can be indexed with the empty tuple.

@@ -1,0 +1,7 @@
+Added in version 3.4.
+   format
+      The format string used to construct this Struct object.
+      Changed in version 3.7: The format string type is now "str"
+      instead of "bytes".
+   size
+      The calculated size of the struct (and hence of the bytes object

@@ -1,0 +1,4 @@
+aimed at professional statisticians such as Minitab, SAS and Matlab.
+It is aimed at the level of graphing and scientific calculators.
+Unless explicitly noted, these functions support "int", "float",
+"Decimal" and "Fraction". Behaviour with other types (whether in the

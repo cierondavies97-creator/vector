@@ -1,0 +1,4 @@
+macro that takes care of importing the module and retrieving its C API
+pointers; client modules only have to call this macro before accessing
+the C API.
+The exporting module is a modification of the "spam" module from

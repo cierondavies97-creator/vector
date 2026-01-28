@@ -1,0 +1,6 @@
+The subprocess is created by the "loop.subprocess_exec()" method:
+   import asyncio
+   import sys
+   class DateProtocol(asyncio.SubprocessProtocol):
+       def __init__(self, exit_future):
+           self.exit_future = exit_future

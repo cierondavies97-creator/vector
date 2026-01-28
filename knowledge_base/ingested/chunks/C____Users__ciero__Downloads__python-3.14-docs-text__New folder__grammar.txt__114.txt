@@ -1,0 +1,6 @@
+EXTRA) }
+       | invalid_class_pattern
+   positional_patterns[asdl_pattern_seq*]:
+       | args[asdl_pattern_seq*]=','.pattern+ { args }
+   keyword_patterns[asdl_seq*]:
+       | ','.keyword_pattern+

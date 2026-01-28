@@ -1,0 +1,4 @@
+The "__dir__" function should accept no arguments, and return an
+iterable of strings that represents the names accessible on module. If
+present, this function overrides the standard "dir()" search on a
+module.

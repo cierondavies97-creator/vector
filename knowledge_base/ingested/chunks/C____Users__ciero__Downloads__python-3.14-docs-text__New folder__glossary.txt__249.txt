@@ -1,0 +1,3 @@
+"__reversed__()". Types that implement this expanded interface can
+   be registered explicitly using "register()". For more documentation
+   on sequence methods generally, see Common Sequence Operations.

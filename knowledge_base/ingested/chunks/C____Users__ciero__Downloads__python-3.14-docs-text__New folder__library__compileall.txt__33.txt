@@ -1,0 +1,4 @@
+The *stripdir*, *prependdir* and *limit_sl_dest* arguments
+   correspond to the "-s", "-p" and "-e" options described above. They
+   may be specified as "str" or "os.PathLike".
+   If *hardlink_dupes* is true and two ".pyc" files with different

@@ -1,0 +1,4 @@
+characters or ASCII decimal digits and the sequence is not empty,
+   "False" otherwise. Alphabetic ASCII characters are those byte
+   values in the sequence
+   "b'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'". ASCII

@@ -1,0 +1,6 @@
+available. "WSGIServer" also provides these WSGI-specific methods:
+   set_app(application)
+      Sets the callable *application* as the WSGI application that
+      will receive requests.
+   get_app()
+      Returns the currently set application callable.

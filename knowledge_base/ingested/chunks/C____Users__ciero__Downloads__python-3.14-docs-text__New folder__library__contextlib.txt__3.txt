@@ -1,0 +1,5 @@
+"self" while "object.__exit__()" is an abstract method which by
+   default returns "None". See also the definition of Context Manager
+   Types.
+   Added in version 3.6.
+class contextlib.AbstractAsyncContextManager

@@ -1,0 +1,6 @@
+-----------------------
+SQLite natively supports the following types: "NULL", "INTEGER",
+"REAL", "TEXT", "BLOB".
+The following Python types can thus be sent to SQLite without any
+problem:
++---------------------------------+---------------+

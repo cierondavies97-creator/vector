@@ -1,0 +1,5 @@
+longer raise an exception on errors like missing program, but the
+   child process fails with a non-zero "returncode".
+Exceptions
+----------
+Exceptions raised in the child process, before the new program has

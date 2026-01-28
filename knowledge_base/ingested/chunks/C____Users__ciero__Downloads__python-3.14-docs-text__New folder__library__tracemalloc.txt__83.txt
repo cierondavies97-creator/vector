@@ -1,0 +1,3 @@
+If *cumulative* is "True", cumulate size and count of memory
+      blocks of all frames of the traceback of a trace, not only the
+      most recent frame. The cumulative mode can only be used with

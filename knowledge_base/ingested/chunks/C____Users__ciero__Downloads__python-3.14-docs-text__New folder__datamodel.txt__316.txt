@@ -1,0 +1,5 @@
+"try" statement with no matching except clause or with a "finally"
+clause.
+traceback.tb_next
+   The special writable attribute "tb_next" is the next level in the
+   stack trace (towards the frame where the exception occurred), or

@@ -1,0 +1,4 @@
+value and digital signature, but with different results (e.g.,
+   transferring $1,000,000 to an account, rather than $10).
+   Cryptographic hash functions have been designed with collision
+   resistance as a major goal, but the current concentration on

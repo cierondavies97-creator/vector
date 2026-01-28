@@ -1,0 +1,4 @@
+The following list describes the comparison behavior of the most
+important built-in types.
+* Numbers of built-in numeric types (Numeric Types --- int, float,
+  complex) and of the standard library types "fractions.Fraction" and

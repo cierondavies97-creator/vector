@@ -1,0 +1,5 @@
+usage of the UTF-8 encoding:
+* Use UTF-8 as the *filesystem encoding*.
+* "sys.getfilesystemencoding()" returns "'utf-8'".
+* "locale.getpreferredencoding()" returns "'utf-8'" (the
+  *do_setlocale* argument has no effect).

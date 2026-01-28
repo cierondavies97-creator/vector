@@ -1,0 +1,11 @@
+* Overview
+    * Text I/O
+    * Binary I/O
+    * Raw I/O
+  * Text Encoding
+    * Opt-in EncodingWarning
+  * High-level Module Interface
+  * Class hierarchy
+    * I/O Base Classes
+    * Raw File I/O
+    * Buffered Streams

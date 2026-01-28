@@ -1,0 +1,6 @@
+adjustment across the world are more political than rational, change
+frequently, and there is no standard suitable for every application
+aside from UTC.
+Constants
+=========
+The "datetime" module exports the following constants:

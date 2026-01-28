@@ -1,0 +1,1 @@
+If the conversion flag is "None", *obj* is returned unchanged.

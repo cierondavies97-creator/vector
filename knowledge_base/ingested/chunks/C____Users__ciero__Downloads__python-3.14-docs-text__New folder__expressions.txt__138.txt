@@ -1,0 +1,4 @@
+class* will generally return a GenericAlias object.
+   subscription: primary "[" flexible_expression_list "]"
+When an object is subscripted, the interpreter will evaluate the
+primary and the expression list.

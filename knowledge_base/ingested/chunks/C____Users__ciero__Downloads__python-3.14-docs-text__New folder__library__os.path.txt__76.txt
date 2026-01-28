@@ -1,0 +1,4 @@
+Changed in version 3.6: Accepts a *path-like object*.
+os.path.splitdrive(path, /)
+   Split the pathname *path* into a pair "(drive, tail)" where *drive*
+   is either a mount point or the empty string.  On systems which do

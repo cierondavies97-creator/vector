@@ -1,0 +1,5 @@
+those default values:
+     >>> parser.add_option("--files", action="append", default=['~/.mypkg/defaults'])
+     >>> opts, args = parser.parse_args(['--files', 'overrides.mypkg'])
+     >>> opts.files
+     ['~/.mypkg/defaults', 'overrides.mypkg']

@@ -1,0 +1,3 @@
+variable. The interpreter saves the arguments for all supplied entries
+without interpretation in "sys.warnoptions"; the "warnings" module
+parses these when it is first imported (invalid options are ignored,

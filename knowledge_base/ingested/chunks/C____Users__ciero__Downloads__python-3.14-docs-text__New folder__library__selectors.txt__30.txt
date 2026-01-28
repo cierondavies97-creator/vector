@@ -1,0 +1,7 @@
+"select.select()"-based selector.
+class selectors.PollSelector
+   "select.poll()"-based selector.
+class selectors.EpollSelector
+   "select.epoll()"-based selector.
+   fileno()
+      This returns the file descriptor used by the underlying

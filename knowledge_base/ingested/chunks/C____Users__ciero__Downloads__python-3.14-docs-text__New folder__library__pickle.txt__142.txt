@@ -1,0 +1,6 @@
+import io
+       import pprint
+       # Initialize and populate our database.
+       conn = sqlite3.connect(":memory:")
+       cursor = conn.cursor()
+       cursor.execute("CREATE TABLE memos(key INTEGER PRIMARY KEY, task TEXT)")

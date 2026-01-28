@@ -1,0 +1,6 @@
+message: str,
+       servers: Sequence[tuple[tuple[str, int], dict[str, str]]]
+   ) -> None:
+       ...
+The "type" statement is new in Python 3.12. For backwards
+compatibility, type aliases can also be created through simple

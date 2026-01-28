@@ -1,0 +1,3 @@
+opened by "wave".  This method is called upon object collection.
+      It will raise an exception if the output stream is not seekable
+      and *nframes* does not match the number of frames actually

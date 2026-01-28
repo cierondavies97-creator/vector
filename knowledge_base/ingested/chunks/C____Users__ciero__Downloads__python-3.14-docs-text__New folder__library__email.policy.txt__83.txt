@@ -1,0 +1,4 @@
+bytes get turned into the unicode unknown-character glyph.
+   fold(name, value)
+      Header folding is controlled by the "refold_source" policy
+      setting. A value is considered to be a 'source value' if and

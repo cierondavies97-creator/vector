@@ -1,0 +1,5 @@
+"SSLObject". The attribute can be overridden on instance of class
+   in order to return a custom subclass of "SSLObject".
+   Added in version 3.7.
+SSLContext.session_stats()
+   Get statistics about the SSL sessions created or managed by this

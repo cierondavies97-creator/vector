@@ -1,0 +1,7 @@
+is changed.
+Errors are reported as exceptions; the usual exceptions are given for
+type errors, while errors reported by the system calls raise
+"OSError".
+Large File Support
+==================
+Several operating systems (including AIX and Solaris) provide support

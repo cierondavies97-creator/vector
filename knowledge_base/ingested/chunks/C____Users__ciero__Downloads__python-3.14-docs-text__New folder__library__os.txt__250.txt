@@ -1,0 +1,4 @@
+systems, Python will call the variant of the function prefixed with
+  "f" (e.g. call "fchdir" instead of "chdir").
+  You can check whether or not *path* can be specified as a file
+  descriptor for a particular function on your platform using

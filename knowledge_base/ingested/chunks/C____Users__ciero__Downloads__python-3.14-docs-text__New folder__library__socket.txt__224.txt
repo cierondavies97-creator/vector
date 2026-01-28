@@ -1,0 +1,3 @@
+until the connection completes, or raise a "TimeoutError" on
+   timeout, if the signal handler doesn't raise an exception and the
+   socket is blocking or has a timeout. For non-blocking sockets, the

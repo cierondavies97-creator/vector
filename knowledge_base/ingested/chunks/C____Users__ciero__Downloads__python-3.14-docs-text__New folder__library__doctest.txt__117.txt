@@ -1,0 +1,6 @@
+There are others, but you get the idea.
+Another bad idea is to print things that embed an object address, like
+   >>> id(1.0)  # certain to fail some of the time
+   7948648
+   >>> class C: pass
+   >>> C()  # the default repr() for instances embeds an address

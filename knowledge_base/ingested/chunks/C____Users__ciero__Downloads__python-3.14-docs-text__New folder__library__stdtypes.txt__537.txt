@@ -1,0 +1,3 @@
+Return "True" if the binary data ends with the specified *suffix*,
+   otherwise return "False".  *suffix* can also be a tuple of suffixes
+   to look for.  With optional *start*, test beginning at that

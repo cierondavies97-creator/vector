@@ -1,0 +1,4 @@
+parser = OptionParser(add_help_option=False)
+     parser.add_option("-h", "--help", action="help")
+     parser.add_option("-v", action="store_true", dest="verbose",
+                       help="Be moderately verbose")

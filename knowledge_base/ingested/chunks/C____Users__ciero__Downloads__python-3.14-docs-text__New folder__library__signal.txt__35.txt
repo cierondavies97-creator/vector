@@ -1,0 +1,5 @@
+indicating that signals are to be unblocked.
+   Added in version 3.3.
+signal.SIG_SETMASK
+   A possible value for the *how* parameter to "pthread_sigmask()"
+   indicating that the signal mask is to be replaced.

@@ -1,0 +1,4 @@
+creates a mapping that's shared with all other processes mapping
+   the same areas of the file.  The default value is "MAP_SHARED".
+   Some systems have additional possible flags with the full list
+   specified in MAP_* constants.

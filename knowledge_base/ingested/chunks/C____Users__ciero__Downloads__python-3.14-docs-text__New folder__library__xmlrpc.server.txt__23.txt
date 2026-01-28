@@ -1,0 +1,4 @@
+SimpleXMLRPCServer.register_multicall_functions()
+   Registers the XML-RPC multicall function system.multicall.
+SimpleXMLRPCRequestHandler.rpc_paths
+   An attribute value that must be a tuple listing valid path portions

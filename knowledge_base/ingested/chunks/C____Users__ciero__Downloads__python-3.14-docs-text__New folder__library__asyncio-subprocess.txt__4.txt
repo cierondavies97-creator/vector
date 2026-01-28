@@ -1,0 +1,3 @@
+Because all asyncio subprocess functions are asynchronous and asyncio
+provides many tools to work with such functions, it is easy to execute
+and monitor multiple subprocesses in parallel.  It is indeed trivial

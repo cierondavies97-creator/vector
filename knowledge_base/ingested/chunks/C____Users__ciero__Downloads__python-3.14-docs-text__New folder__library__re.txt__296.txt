@@ -1,0 +1,5 @@
+continue
+           elif kind == 'MISMATCH':
+               raise RuntimeError(f'{value!r} unexpected on line {line_num}')
+           yield Token(kind, value, line_num, column)
+   statements = '''

@@ -1,0 +1,7 @@
+Return the inverse hyperbolic cosine of *x*.
+math.asinh(x)
+   Return the inverse hyperbolic sine of *x*.
+math.atanh(x)
+   Return the inverse hyperbolic tangent of *x*.
+math.cosh(x)
+   Return the hyperbolic cosine of *x*.

@@ -1,0 +1,4 @@
+Essentially, the file consists of sections, each of which contains
+keys with values. "configparser" classes can read and write such
+files.  Let's start by creating the above configuration file
+programmatically.

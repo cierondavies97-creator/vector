@@ -1,0 +1,7 @@
+to type annotations if you were doing range analysis:
+      @dataclass
+      class ValueRange:
+          lo: int
+          hi: int
+      T1 = Annotated[int, ValueRange(-10, 5)]
+      T2 = Annotated[T1, ValueRange(-20, 3)]

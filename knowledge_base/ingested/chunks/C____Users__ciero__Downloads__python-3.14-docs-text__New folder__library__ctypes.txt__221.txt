@@ -1,0 +1,4 @@
+the different APIs provided by the various platforms to help determine
+which shared libraries have already been loaded into the current
+process.
+The exact output of this function will be system dependent. On most

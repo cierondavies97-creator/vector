@@ -1,0 +1,4 @@
+A C14N 2.0 writer.  Arguments are the same as for the
+   "canonicalize()" function.  This class does not build a tree but
+   translates the callback events directly into a serialised form
+   using the *write* function.

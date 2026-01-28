@@ -1,0 +1,4 @@
+"SimpleQueue" and instead use "multiprocessing.Queue".
+   If "respect_handler_level" is "True", a handler's level is
+   respected (compared with the level for the message) when deciding
+   whether to pass messages to that handler; otherwise, the behaviour

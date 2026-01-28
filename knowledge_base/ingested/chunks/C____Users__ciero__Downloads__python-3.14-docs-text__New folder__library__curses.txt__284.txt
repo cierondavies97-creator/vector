@@ -1,0 +1,3 @@
+| curses.ACS_BOARD         | board of squares                           |
++--------------------------+--------------------------------------------+
+| curses.ACS_BSBS          | alternate name for horizontal line         |

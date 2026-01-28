@@ -1,0 +1,6 @@
+Cancel the drag-and-drop process.
+   finish(event, commit=0)
+      Execute end of drag-and-drop functions.
+   on_motion(event)
+      Inspect area below mouse for target objects while drag is
+      performed.

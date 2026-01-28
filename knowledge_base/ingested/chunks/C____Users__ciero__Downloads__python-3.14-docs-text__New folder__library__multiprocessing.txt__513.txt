@@ -1,0 +1,6 @@
+except multiprocessing.TimeoutError:
+                   sys.stdout.write('.')
+           print()
+           print()
+           print('Testing IMapIterator.next() with timeout:', end=' ')
+           it = pool.imap(calculatestar, TASKS)

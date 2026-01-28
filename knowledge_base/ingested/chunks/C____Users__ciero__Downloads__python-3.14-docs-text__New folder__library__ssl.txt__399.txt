@@ -1,0 +1,5 @@
+parameter.
+   Some notes related to the use of "SSLObject":
+   * All IO on an "SSLObject" is non-blocking. This means that for
+     example "read()" will raise an "SSLWantReadError" if it needs
+     more data than the incoming BIO has available.

@@ -1,0 +1,6 @@
+* "str" to "decimal.Decimal".
+Configuring the limit
+---------------------
+Before Python starts up you can use an environment variable or an
+interpreter command line flag to configure the limit:
+* "PYTHONINTMAXSTRDIGITS", e.g. "PYTHONINTMAXSTRDIGITS=640 python3" to

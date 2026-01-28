@@ -1,0 +1,6 @@
+window.getbkgd()
+   Return the given window's current background character/attribute
+   pair.
+window.getch([y, x])
+   Get a character. Note that the integer returned does *not* have to
+   be in ASCII range: function keys, keypad keys and so on are

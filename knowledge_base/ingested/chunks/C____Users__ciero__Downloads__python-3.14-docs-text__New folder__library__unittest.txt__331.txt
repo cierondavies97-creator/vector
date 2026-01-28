@@ -1,0 +1,3 @@
+in between "startTest()" and "stopTest()" being called.
+      Collected output will only be echoed onto the real "sys.stdout"
+      and "sys.stderr" if the test fails or errors. Any output is also

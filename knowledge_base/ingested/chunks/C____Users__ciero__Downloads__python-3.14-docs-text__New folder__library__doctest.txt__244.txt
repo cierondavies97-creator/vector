@@ -1,0 +1,4 @@
+cleared after the test runs, to help with garbage collection. If
+      you would like to examine the namespace after the test
+      completes, then use *clear_globs=False*.
+      *compileflags* gives the set of flags that should be used by the

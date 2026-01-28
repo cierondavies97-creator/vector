@@ -1,0 +1,4 @@
+================
+This module provides limited support for XInclude directives, via the
+"xml.etree.ElementInclude" helper module.  This module can be used to
+insert subtrees and text strings into element trees, based on

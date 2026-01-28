@@ -1,0 +1,5 @@
+This module contains the various objects that help in the construction
+of an *importer*.
+importlib.util.MAGIC_NUMBER
+   The bytes which represent the bytecode version number. If you need
+   help with loading/writing bytecode then consider

@@ -1,0 +1,4 @@
+sys.audit(event, *args)
+   Raise an auditing event and trigger any active auditing hooks.
+   *event* is a string identifying the event, and *args* may contain
+   optional arguments with more information about the event.  The

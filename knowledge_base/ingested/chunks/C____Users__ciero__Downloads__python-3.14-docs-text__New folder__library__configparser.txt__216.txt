@@ -1,0 +1,5 @@
+Ex: Writing a key beginning with the "ConfigParser.SECTCRE" pattern
+   would parse as a section header when read. Attempting to write this
+   will raise this exception.
+   Added in version 3.14.
+-[ Footnotes ]-

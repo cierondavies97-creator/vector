@@ -1,0 +1,5 @@
+the narrow inline group, and the original matching mode is restored
+   outside of the group.
+   Added in version 3.6.
+   Changed in version 3.7: The letters "'a'", "'L'" and "'u'" also can
+   be used in a group.

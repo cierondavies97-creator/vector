@@ -1,0 +1,3 @@
+"module_globals['__file__']" if *module_globals* is not "None".
+   If a file named *filename* is not found, the function first checks
+   for a **PEP 302** "__loader__" in *module_globals*. If there is

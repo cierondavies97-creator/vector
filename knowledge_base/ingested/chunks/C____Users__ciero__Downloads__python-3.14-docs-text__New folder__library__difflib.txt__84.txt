@@ -1,0 +1,4 @@
+to the *i2* from the preceding tuple, and, likewise, *j1* equal
+      to the previous *j2*.
+      The *tag* values are strings, with these meanings:
+      +-----------------+-----------------------------------------------+

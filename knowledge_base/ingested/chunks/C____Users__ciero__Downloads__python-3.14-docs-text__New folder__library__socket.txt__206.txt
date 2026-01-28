@@ -1,0 +1,4 @@
+This function returns names of the second form from the list,
+     "ethernet_32770" in this example case.
+socket.if_nametoindex(if_name)
+   Return a network interface index number corresponding to an

@@ -1,0 +1,3 @@
+or after "setUpClass()" if "setUpClass()" raises an exception.
+      It is responsible for calling all the cleanup functions added by
+      "addClassCleanup()". If you need cleanup functions to be called

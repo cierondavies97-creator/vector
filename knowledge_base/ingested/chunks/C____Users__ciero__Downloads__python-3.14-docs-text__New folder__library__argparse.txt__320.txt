@@ -1,0 +1,7 @@
+options:
+        -h, --help  show this help message and exit
+      Group title:
+        Group description
+        --foo FOO   foo help
+        --bar BAR   bar help
+   Deprecated since version 3.11, removed in version 3.14: Calling

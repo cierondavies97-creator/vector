@@ -1,0 +1,5 @@
+3.2.8.7. Built-in methods
+~~~~~~~~~~~~~~~~~~~~~~~~~
+This is really a different disguise of a built-in function, this time
+containing an object passed to the C function as an implicit extra
+argument.  An example of a built-in method is "alist.append()",

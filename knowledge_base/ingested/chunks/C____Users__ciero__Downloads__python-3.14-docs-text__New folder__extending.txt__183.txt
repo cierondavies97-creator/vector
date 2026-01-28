@@ -1,0 +1,4 @@
+returns.  Only when such a borrowed reference must be stored or passed
+on, it must be turned into an owned reference by calling
+"Py_INCREF()".
+The object reference returned from a C function that is called from

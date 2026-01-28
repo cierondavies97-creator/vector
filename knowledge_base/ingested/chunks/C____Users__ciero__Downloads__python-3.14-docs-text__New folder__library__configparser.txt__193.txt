@@ -1,0 +1,5 @@
+configparser.UNNAMED_SECTION
+   A special object representing a section name used to reference the
+   unnamed section (see Unnamed Sections).
+configparser.MAX_INTERPOLATION_DEPTH
+   The maximum depth for recursive interpolation for "get()" when the

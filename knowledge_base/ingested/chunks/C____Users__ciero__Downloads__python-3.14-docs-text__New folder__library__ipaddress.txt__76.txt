@@ -1,0 +1,3 @@
+If it's the latter, the mask is interpreted as a *net mask* if
+      it starts with a non-zero field, or as a *host mask* if it
+      starts with a zero field, with the single exception of an all-

@@ -1,0 +1,4 @@
+*comment_prefixes*, *strict*, *empty_lines_in_values*,
+   *default_section* and *interpolation* were added.
+   Changed in version 3.5: The *converters* argument was added.
+   Changed in version 3.7: The *defaults* argument is read with

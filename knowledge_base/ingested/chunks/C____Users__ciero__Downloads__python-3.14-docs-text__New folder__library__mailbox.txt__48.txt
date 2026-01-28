@@ -1,0 +1,4 @@
+If *create* is "True" and the *dirname* path exists, it will be
+   treated as an existing maildir without attempting to verify its
+   directory layout.
+   It is for historical reasons that *dirname* is named as such rather

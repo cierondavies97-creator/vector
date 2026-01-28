@@ -1,0 +1,5 @@
+s.sendall(b'Hello, world')
+       data = s.recv(1024)
+   print('Received', repr(data))
+The next two examples are identical to the above two, but support both
+IPv4 and IPv6. The server side will listen to the first address family

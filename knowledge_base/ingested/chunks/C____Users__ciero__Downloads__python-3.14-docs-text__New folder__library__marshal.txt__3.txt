@@ -1,0 +1,3 @@
+"pickle" and "shelve".  The "marshal" module exists mainly to support
+reading and writing the "pseudo-compiled" code for Python modules of
+".pyc" files. Therefore, the Python maintainers reserve the right to

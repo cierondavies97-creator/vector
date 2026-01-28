@@ -1,0 +1,2 @@
+| a=expression b=for_if_clauses ',' [args | expression for_if_clauses] {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, _PyPegen_get_last_comprehension_item(PyPegen_last_item(b, comprehension_ty)), "Generator expression must be parenthesized") }

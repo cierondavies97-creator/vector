@@ -1,0 +1,4 @@
+example, if "your_integer_time_func" returns times measured in
+   thousands of seconds, you would construct the "Profile" instance as
+   follows:
+      pr = cProfile.Profile(your_integer_time_func, 0.001)

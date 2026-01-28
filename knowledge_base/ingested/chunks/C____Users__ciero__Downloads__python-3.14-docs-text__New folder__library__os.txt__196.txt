@@ -1,0 +1,6 @@
+os.RWF_SYNC
+   Provide a per-write equivalent of the "O_SYNC" "os.open()" flag.
+   This flag effect applies only to the data range written by the
+   system call.
+   Availability: Linux >= 4.7.
+   Added in version 3.7.

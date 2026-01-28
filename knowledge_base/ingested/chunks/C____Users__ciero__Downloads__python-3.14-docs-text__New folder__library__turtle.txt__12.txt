@@ -1,0 +1,6 @@
+pen: "up()" before moving. To start drawing again, use "down()".
+The turtle's position
+~~~~~~~~~~~~~~~~~~~~~
+Send your turtle back to its starting-point (useful if it has
+disappeared off-screen):
+   home()

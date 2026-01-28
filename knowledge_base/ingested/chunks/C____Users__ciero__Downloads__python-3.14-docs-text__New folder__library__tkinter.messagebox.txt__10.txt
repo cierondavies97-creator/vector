@@ -1,0 +1,5 @@
+*type*
+         Arranges for a predefined set of buttons to be displayed.
+   show(**options)
+      Display a message window and wait for the user to select one of
+      the buttons. Then return the symbolic name of the selected

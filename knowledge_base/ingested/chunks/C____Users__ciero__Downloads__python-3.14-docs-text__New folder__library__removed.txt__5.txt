@@ -1,0 +1,2 @@
+* "uu" --- Encode and decode uuencode files
+* "xdrlib" --- Encode and decode XDR data

@@ -1,0 +1,3 @@
+""unicode"", the output is a string; otherwise, it's binary.
+      Note that this may conflict with the type of *file* if it's an
+      open *file object*; make sure you do not try to write a string

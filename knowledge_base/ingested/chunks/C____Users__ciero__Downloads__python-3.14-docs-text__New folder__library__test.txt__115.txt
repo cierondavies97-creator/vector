@@ -1,0 +1,4 @@
+use in test packages.  *pkg_dir* is the root directory of the
+   package; *loader*, *standard_tests*, and *pattern* are the
+   arguments expected by "load_tests".  In simple cases, the test
+   package's "__init__.py" can be the following:

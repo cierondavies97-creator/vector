@@ -1,0 +1,7 @@
+anInt = 728,
+       aDict = dict(
+           anotherString = "<hello & hi there!>",
+           aThirdString = "M\xe4ssig, Ma\xdf",
+           aTrueValue = True,
+           aFalseValue = False,
+       ),

@@ -1,0 +1,4 @@
+prompted using the string *prompt*, which defaults to "'Password:
+   '".  On Unix, the prompt is written to the file-like object
+   *stream* using the replace error handler if needed.  *stream*
+   defaults to the controlling terminal ("/dev/tty") or if that is

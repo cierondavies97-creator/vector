@@ -1,0 +1,5 @@
+============================
+The "get_instructions()" function and "Bytecode" class provide details
+of bytecode instructions as "Instruction" instances:
+class dis.Instruction
+   Details for a bytecode operation

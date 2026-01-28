@@ -1,0 +1,6 @@
+lists) to denote a network mask.  The host mask equivalent to "/24" in
+IPv4 is "0.0.0.255".
+Network objects
+---------------
+All attributes implemented by address objects are implemented by
+network objects as well.  In addition, network objects implement

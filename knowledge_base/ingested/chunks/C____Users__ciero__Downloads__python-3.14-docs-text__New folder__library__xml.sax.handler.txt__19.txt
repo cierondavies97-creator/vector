@@ -1,0 +1,5 @@
+comments.
+      access: read/write
+xml.sax.handler.property_declaration_handler
+      value: ""http://xml.org/sax/properties/declaration-handler""
+      data type: xml.sax.sax2lib.DeclHandler (not supported in Python 2)

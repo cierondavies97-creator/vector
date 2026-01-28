@@ -1,0 +1,4 @@
+If *filename* is a file object (rather than an actual file name), a
+   mode of "'w'" does not truncate the file, and is instead equivalent
+   to "'a'".
+   If *mode* is "'w'" or "'a'", *compresslevel* can be an integer

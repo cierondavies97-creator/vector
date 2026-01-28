@@ -1,0 +1,5 @@
+A special class-level marker to specify absence of a return
+      annotation.
+   parameters
+      An ordered mapping of parameters' names to the corresponding
+      "Parameter" objects.  Parameters appear in strict definition

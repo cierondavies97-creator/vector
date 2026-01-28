@@ -1,0 +1,4 @@
+argument. If the minor type could not be guessed and *_subtype* was
+   not given, then "TypeError" is raised.
+   Optional *_encoder* is a callable (i.e. function) which will
+   perform the actual encoding of the image data for transport.  This

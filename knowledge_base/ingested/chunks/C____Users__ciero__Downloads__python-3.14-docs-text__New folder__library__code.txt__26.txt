@@ -1,0 +1,6 @@
+handling as needed.
+Interactive Console Objects
+===========================
+The "InteractiveConsole" class is a subclass of
+"InteractiveInterpreter", and so offers all the methods of the
+interpreter objects as well as the following additions.

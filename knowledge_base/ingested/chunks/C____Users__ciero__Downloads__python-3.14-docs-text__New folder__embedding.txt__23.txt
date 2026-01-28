@@ -1,0 +1,4 @@
+The only difference is the routine that you call between both data
+conversions. When extending, you call a C routine, when embedding, you
+call a Python routine.
+This chapter will not discuss how to convert data from Python to C and

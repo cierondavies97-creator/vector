@@ -1,0 +1,3 @@
+Added in version 3.14.
+turtle.setup(width=_CFG['width'], height=_CFG['height'], startx=_CFG['leftright'], starty=_CFG['topbottom'])
+   Set the size and position of the main window.  Default values of

@@ -1,0 +1,4 @@
+3.12) transaction control behaviour. See Transaction control via
+   the isolation_level attribute for more information.
+sqlite3.PARSE_DECLTYPES
+   Pass this flag value to the *detect_types* parameter of "connect()"

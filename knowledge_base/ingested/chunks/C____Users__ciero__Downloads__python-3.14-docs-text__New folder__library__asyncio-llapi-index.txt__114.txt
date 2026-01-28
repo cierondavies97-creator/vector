@@ -1,0 +1,2 @@
+| "callback" "buffer_updated()"                      | Called when the buffer was updated with the        |
+|                                                    | received data.                                     |

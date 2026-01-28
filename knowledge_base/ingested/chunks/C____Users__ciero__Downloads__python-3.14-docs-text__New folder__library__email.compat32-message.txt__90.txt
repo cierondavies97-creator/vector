@@ -1,0 +1,4 @@
+by calling "email.utils.collapse_rfc2231_value()", passing in
+      the return value from "get_param()".  This will return a
+      suitably decoded Unicode string when the value is a tuple, or
+      the original string unquoted if it isn't.  For example:

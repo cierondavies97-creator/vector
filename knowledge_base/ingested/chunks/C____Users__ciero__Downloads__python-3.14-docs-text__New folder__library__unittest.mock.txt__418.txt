@@ -1,0 +1,4 @@
+>>> order_mock.get_value.side_effect = ["first side effect value",
+...                                     "another side effect value"]
+>>> order_mock.get_value.return_value = "second"
+>>> order_mock.get_value()

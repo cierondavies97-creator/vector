@@ -1,0 +1,3 @@
+each "acquire()" call and incremented by each "release()" call. The
+   counter can never go below zero; when "acquire()" finds that it is
+   zero, it blocks, waiting until some task calls "release()".

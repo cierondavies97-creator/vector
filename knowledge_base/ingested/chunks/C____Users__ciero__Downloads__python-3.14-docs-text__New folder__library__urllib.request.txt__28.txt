@@ -1,0 +1,4 @@
+omit a "file:" scheme prefix. If *require_scheme* is set to true,
+   the given value should include the prefix; a "URLError" is raised
+   if it doesn't.
+   The URL authority is discarded if it is empty, "localhost", or the

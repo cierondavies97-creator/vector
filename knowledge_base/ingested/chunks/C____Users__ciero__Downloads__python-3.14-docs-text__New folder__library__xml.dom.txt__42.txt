@@ -1,0 +1,5 @@
+An additional section describes the exceptions defined for working
+with the DOM in Python.
+DOMImplementation Objects
+-------------------------
+The "DOMImplementation" interface provides a way for applications to

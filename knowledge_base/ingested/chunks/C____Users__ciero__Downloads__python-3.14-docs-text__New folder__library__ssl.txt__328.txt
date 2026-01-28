@@ -1,0 +1,6 @@
+... (certificate in base64 PEM encoding) ...
+   -----END CERTIFICATE-----
+Certificate chains
+------------------
+The Python files which contain certificates can contain a sequence of
+certificates, sometimes called a *certificate chain*.  This chain

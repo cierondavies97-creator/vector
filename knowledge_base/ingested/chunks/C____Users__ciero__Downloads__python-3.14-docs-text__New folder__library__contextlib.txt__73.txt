@@ -1,0 +1,4 @@
+that callbacks are *not* invoked implicitly when the context stack
+   instance is garbage collected.
+   This stack model is used so that context managers that acquire
+   their resources in their "__init__" method (such as file objects)

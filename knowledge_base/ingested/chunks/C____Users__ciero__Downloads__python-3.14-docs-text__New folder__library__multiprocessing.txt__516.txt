@@ -1,0 +1,8 @@
+worker processes and collect the results:
+   import time
+   import random
+   from multiprocessing import Process, Queue, current_process, freeze_support
+   #
+   # Function run by worker processes
+   #
+   def worker(input, output):

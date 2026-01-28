@@ -1,0 +1,4 @@
+* "$_frame": the current frame you are debugging
+* "$_retval": the return value if the frame is returning
+* "$_exception": the exception if the frame is raising an exception
+* "$_asynctask": the asyncio task if pdb stops in an async function

@@ -1,0 +1,4 @@
+The "multiprocessing.sharedctypes" module
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The "multiprocessing.sharedctypes" module provides functions for
+allocating "ctypes" objects from shared memory which can be inherited

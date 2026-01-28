@@ -1,0 +1,4 @@
+conversion flag and format specification, but deeper nesting is not
+allowed.  The replacement fields within the format_spec are
+substituted before the *format_spec* string is interpreted. This
+allows the formatting of a value to be dynamically specified.

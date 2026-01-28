@@ -1,0 +1,5 @@
+customize the default behaviors of the decorated class, metaclass,
+   or function:
+   Parameters:
+      * **eq_default** (*bool*) -- Indicates whether the "eq"
+        parameter is assumed to be "True" or "False" if it is omitted

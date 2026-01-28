@@ -1,0 +1,5 @@
+*start* defaults to "os.curdir".
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.samefile(path1, path2, /)
+   Return "True" if both pathname arguments refer to the same file or
+   directory. This is determined by the device number and i-node

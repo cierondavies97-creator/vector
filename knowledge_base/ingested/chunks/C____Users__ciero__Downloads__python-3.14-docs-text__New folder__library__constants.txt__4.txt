@@ -1,0 +1,5 @@
+"NotImplemented" is the sole instance of the
+   "types.NotImplementedType" type.
+   Note:
+     When a binary (or in-place) method returns "NotImplemented" the
+     interpreter will try the reflected operation on the other type

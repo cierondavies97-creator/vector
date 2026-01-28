@@ -1,0 +1,5 @@
+In the YIQ space, the Y coordinate is between 0 and 1, but the I and Q
+coordinates can be positive or negative.  In all other spaces, the
+coordinates are all between 0 and 1.
+See also:
+  More information about color spaces can be found at

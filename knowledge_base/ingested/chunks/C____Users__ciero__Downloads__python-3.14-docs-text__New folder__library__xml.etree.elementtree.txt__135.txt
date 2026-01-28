@@ -1,0 +1,3 @@
+disk. *href* is a URL.  *parse* is for parse mode either "xml" or
+   "text". *encoding* is an optional text encoding.  If not given,
+   encoding is "utf-8". Returns the expanded resource. If the parse

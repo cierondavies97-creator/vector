@@ -1,0 +1,9 @@
+* Asynchronous Mixins
+* "http.server" --- HTTP servers
+  * Command-line interface
+  * Security considerations
+* "http.cookies" --- HTTP state management
+  * Cookie Objects
+  * Morsel Objects
+  * Example
+* "http.cookiejar" --- Cookie handling for HTTP clients

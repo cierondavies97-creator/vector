@@ -1,0 +1,4 @@
+Changed in version 3.3: Negative values for *level* are no longer
+   supported (which also changes the default value to 0).
+   Changed in version 3.9: When the command line options "-E" or "-I"
+   are being used, the environment variable "PYTHONCASEOK" is now

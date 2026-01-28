@@ -1,0 +1,3 @@
+*finder*, distinguishing between them by using the terms *meta path
+finder* and *path entry finder*.  These two types of finders are very
+similar, support similar protocols, and function in similar ways

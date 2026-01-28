@@ -1,0 +1,4 @@
+"(?P<name>...)" syntax. "\g<number>" uses the corresponding group
+   number; "\g<2>" is therefore equivalent to "\2", but isn't
+   ambiguous in a replacement such as "\g<2>0".  "\20" would be
+   interpreted as a reference to group 20, not a reference to group 2

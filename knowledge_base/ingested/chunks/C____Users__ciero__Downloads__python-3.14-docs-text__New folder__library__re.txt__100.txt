@@ -1,0 +1,4 @@
+beginning or end of a word. This means that "r'at\B'" matches
+   "'athens'", "'atom'", "'attorney'", but not "'at'", "'at.'", or
+   "'at!'". "\B" is the opposite of "\b", so word characters in
+   Unicode (str) patterns are Unicode alphanumerics or the underscore,

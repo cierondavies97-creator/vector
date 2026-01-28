@@ -1,0 +1,4 @@
+CPU core, while code in another interpreter runs unblocked on a
+different core.
+The tradeoff is that writing concurrent code for use with multiple
+interpreters can take extra effort.  However, this is because it

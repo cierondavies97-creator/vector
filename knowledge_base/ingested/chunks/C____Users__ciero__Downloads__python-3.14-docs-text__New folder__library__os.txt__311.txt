@@ -1,0 +1,6 @@
+for "stat()".
+   As of Python 3.3, this is equivalent to "os.stat(path,
+   dir_fd=dir_fd, follow_symlinks=False)".
+   This function can also support paths relative to directory
+   descriptors.
+   See also: The "stat()" function.

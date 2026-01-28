@@ -1,0 +1,5 @@
+"normpath(join(os.getcwd(), path))".
+   See also: "os.path.join()" and "os.path.normpath()".
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.basename(path, /)
+   Return the base name of pathname *path*.  This is the second

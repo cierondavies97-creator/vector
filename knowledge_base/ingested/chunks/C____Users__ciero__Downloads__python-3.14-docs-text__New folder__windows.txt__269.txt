@@ -1,0 +1,6 @@
+functionality to accept and return paths longer than 260 characters.
+After changing the above option and rebooting, no further
+configuration is required.
+4.7. UTF-8 mode
+===============
+Added in version 3.7.

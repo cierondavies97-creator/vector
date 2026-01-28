@@ -1,0 +1,3 @@
+"normalize_encoding()", then looks for a corresponding alias. It
+   attempts to import a codec module from the encodings package using
+   either the alias or the normalized name. If the module is found and

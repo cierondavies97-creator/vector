@@ -1,0 +1,4 @@
+...     @patch('package.module.ClassName2')
+   ...     def test_something(self, MockClass2, MockClass1):
+   ...         self.assertIs(package.module.ClassName1, MockClass1)
+   ...         self.assertIs(package.module.ClassName2, MockClass2)

@@ -1,0 +1,6 @@
+identifier (see "setattr()").
+class dict(**kwargs)
+class dict(mapping, /, **kwargs)
+class dict(iterable, /, **kwargs)
+   Create a new dictionary.  The "dict" object is the dictionary
+   class. See "dict" and Mapping Types --- dict for documentation

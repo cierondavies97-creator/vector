@@ -1,0 +1,4 @@
+"http.cookiejar") only bears a passing resemblance to the one
+     sketched out in "cookie_spec.html".
+  **RFC 2109** - HTTP State Management Mechanism
+     Obsoleted by **RFC 2965**. Uses *Set-Cookie* with version=1.

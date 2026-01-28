@@ -1,0 +1,4 @@
+directory with name *name* before temporarily changing the current
+   working directory.  If *name* is "None", the temporary directory is
+   created using "tempfile.mkdtemp()".
+   If *quiet* is "False" and it is not possible to create or change

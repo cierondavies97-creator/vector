@@ -1,0 +1,7 @@
+is_closing()
+      Return "True" if the stream is closed or in the process of being
+      closed.
+      Added in version 3.7.
+   async wait_closed()
+      Wait until the stream is closed.
+      Should be called after "close()" to wait until the underlying

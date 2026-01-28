@@ -1,0 +1,4 @@
+spamwriter.writerow(['Spam'] * 5 + ['Baked Beans'])
+          spamwriter.writerow(['Spam', 'Lovely Spam', 'Wonderful Spam'])
+csv.register_dialect(name, /, dialect='excel', **fmtparams)
+   Associate *dialect* with *name*.  *name* must be a string. The

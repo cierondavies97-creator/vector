@@ -1,0 +1,3 @@
+os.utime(path, times=None, *, [ns, ]dir_fd=None, follow_symlinks=True)
+   Set the access and modified times of the file specified by *path*.
+   "utime()" takes two optional parameters, *times* and *ns*. These

@@ -1,0 +1,3 @@
+A *timeout* may be specified in seconds, it is internally passed on
+   to "Popen.communicate()". If the timeout expires, the child process
+   will be killed and waited for. The "TimeoutExpired" exception will

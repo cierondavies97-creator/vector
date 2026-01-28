@@ -1,0 +1,4 @@
+>>> cur.execute(sql)
+Instead, use the DB-API's parameter substitution. To insert a variable
+into a query string, use a placeholder in the string, and substitute
+the actual values into the query by providing them as a "tuple" of

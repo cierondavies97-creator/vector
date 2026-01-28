@@ -1,0 +1,6 @@
+prefix string rather than all of a set of characters.  For example:
+      >>> 'Arthur: three!'.lstrip('Arthur: ')
+      'ee!'
+      >>> 'Arthur: three!'.removeprefix('Arthur: ')
+      'three!'
+static str.maketrans(dict, /)

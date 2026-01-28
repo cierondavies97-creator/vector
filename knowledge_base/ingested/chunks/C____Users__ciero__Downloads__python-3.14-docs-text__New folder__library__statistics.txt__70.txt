@@ -1,0 +1,5 @@
+assumption is that the 484 members of that age group are evenly
+   distributed between 30 and 40.  For that, we use
+   "median_grouped()":
+      >>> data = list(demographics.elements())
+      >>> median(data)

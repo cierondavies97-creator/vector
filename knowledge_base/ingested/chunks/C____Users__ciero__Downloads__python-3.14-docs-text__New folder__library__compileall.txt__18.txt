@@ -1,0 +1,4 @@
+Changed in version 3.2: Added the "-i", "-b" and "-h" options.
+Changed in version 3.5: Added the  "-j", "-r", and "-qq" options.
+"-q" option was changed to a multilevel value.  "-b" will always
+produce a byte-code file ending in ".pyc", never ".pyo".

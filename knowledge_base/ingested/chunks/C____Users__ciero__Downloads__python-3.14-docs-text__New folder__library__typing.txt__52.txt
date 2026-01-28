@@ -1,0 +1,7 @@
+x = (1, 2, 3)
+   x = ()
+   # This reassignment is an error: all elements in ``x`` must be ints
+   x = ("foo", "bar")
+   # ``y`` can only ever be assigned to an empty tuple
+   y: tuple[()] = ()
+   z: tuple = ("foo", "bar")

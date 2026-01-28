@@ -1,0 +1,4 @@
+_log
+      Delegates to the underlying "_log()" method on *logger*.
+   In addition to the above, "LoggerAdapter" supports the following
+   methods of "Logger": "debug()", "info()", "warning()", "error()",

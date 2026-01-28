@@ -1,0 +1,4 @@
+Compare the files named *f1* and *f2*, returning "True" if they
+   seem equal, "False" otherwise.
+   If *shallow* is true and the "os.stat()" signatures (file type,
+   size, and modification time) of both files are identical, the files

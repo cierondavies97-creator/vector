@@ -1,0 +1,6 @@
+class collections.abc.Reversible
+   ABC for iterable classes that also provide the "__reversed__()"
+   method.
+   Added in version 3.6.
+class collections.abc.Generator
+   ABC for *generator* classes that implement the protocol defined in

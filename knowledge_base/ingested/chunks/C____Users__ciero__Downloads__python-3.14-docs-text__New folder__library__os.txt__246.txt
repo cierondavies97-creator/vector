@@ -1,0 +1,5 @@
+Get the "inheritable" flag of the specified file descriptor (a
+   boolean).
+os.set_inheritable(fd, inheritable, /)
+   Set the "inheritable" flag of the specified file descriptor.
+os.get_handle_inheritable(handle, /)

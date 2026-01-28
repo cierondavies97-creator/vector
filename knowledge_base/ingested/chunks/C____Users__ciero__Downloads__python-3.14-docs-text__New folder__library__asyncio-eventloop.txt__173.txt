@@ -1,0 +1,6 @@
+by the *protocol_factory*.
+   With "SelectorEventLoop" event loop, the *pipe* is set to non-
+   blocking mode.
+Note:
+  "SelectorEventLoop" does not support the above methods on Windows.
+  Use "ProactorEventLoop" instead for Windows.

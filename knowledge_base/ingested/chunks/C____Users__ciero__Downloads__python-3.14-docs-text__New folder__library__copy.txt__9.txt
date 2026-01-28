@@ -1,0 +1,4 @@
+original object unchanged; this is compatible with the way these are
+treated by the "pickle" module.
+Shallow copies of dictionaries can be made using "dict.copy()", and of
+lists by assigning a slice of the entire list, for example,

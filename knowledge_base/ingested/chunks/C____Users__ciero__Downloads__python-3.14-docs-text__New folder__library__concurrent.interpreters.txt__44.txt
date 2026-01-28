@@ -1,0 +1,6 @@
+exception concurrent.interpreters.QueueFullError
+   This exception, a subclass of "queue.Full", is raised from
+   "Queue.put()" and "Queue.put_nowait()" when the queue is full.
+Basic usage
+===========
+Creating an interpreter and running code in it:

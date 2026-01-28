@@ -1,0 +1,5 @@
+def response(query: str) -> Response[str]:
+       ...
+   type Vec[T] = Iterable[tuple[T, T]]
+   def inproduct[T: (int, float, complex)](v: Vec[T]) -> T: # Same as Iterable[tuple[T, T]]
+       return sum(x*y for x, y in v)

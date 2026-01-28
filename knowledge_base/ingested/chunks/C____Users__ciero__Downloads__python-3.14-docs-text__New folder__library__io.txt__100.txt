@@ -1,0 +1,4 @@
+A raw binary stream representing an OS-level file containing bytes
+   data.  It inherits from "RawIOBase".
+   The *name* can be one of two things:
+   * a character string or "bytes" object representing the path to the

@@ -1,0 +1,5 @@
+match.
+Match.pos
+   The value of *pos* which was passed to the "search()" or "match()"
+   method of a regex object.  This is the index into the string at
+   which the RE engine started looking for a match.

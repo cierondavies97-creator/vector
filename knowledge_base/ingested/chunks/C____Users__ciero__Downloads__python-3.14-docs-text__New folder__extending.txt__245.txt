@@ -1,0 +1,3 @@
+thus be reused for another object!
+[4] These guarantees don't hold when you use the "old" style calling
+    convention --- this is still found in much existing code.

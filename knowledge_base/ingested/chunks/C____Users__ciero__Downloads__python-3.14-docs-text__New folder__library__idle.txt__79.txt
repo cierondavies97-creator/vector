@@ -1,0 +1,5 @@
+imported into the user process, including those imported by Idle
+itself, and which definitions have been run, all since the last
+restart.
+For example, restart the Shell and enter "itertools.count(".  A
+calltip appears because Idle imports itertools into the user process

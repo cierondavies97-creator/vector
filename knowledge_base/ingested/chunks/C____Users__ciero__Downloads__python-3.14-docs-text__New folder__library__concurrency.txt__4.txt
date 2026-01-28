@@ -1,0 +1,8 @@
+* Synchronization between processes
+    * Sharing state between processes
+    * Using a pool of workers
+  * Reference
+    * Global start method
+    * "Process" and exceptions
+    * Pipes and Queues
+    * Miscellaneous

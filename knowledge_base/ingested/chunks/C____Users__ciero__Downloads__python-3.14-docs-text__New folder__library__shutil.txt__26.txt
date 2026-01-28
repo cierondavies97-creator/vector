@@ -1,0 +1,6 @@
+information.
+   Raises an auditing event "shutil.copystat" with arguments "src",
+   "dst".
+   Changed in version 3.3: Added *follow_symlinks* argument and
+   support for Linux extended attributes.
+shutil.copy(src, dst, *, follow_symlinks=True)

@@ -1,0 +1,6 @@
+base type to handle attributes.
+The tables are declared as three fields of the type object:
+   struct PyMethodDef *tp_methods;
+   struct PyMemberDef *tp_members;
+   struct PyGetSetDef *tp_getset;
+If "tp_methods" is not "NULL", it must refer to an array of

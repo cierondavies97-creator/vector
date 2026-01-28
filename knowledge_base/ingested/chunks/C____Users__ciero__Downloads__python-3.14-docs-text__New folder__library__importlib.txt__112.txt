@@ -1,0 +1,5 @@
+abstractmethod joinpath(child)
+      Return Traversable child in "self".
+   abstractmethod __truediv__(child)
+      Return "Traversable" child in "self".
+   abstractmethod open(mode='r', *args, **kwargs)

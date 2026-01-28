@@ -1,0 +1,3 @@
+methods such as "__hash__()" and "__repr__()" that are implemented by
+all objects, including type objects. If the implicit lookup of these
+methods used the conventional lookup process, they would fail when

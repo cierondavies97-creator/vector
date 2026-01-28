@@ -1,0 +1,4 @@
+Namespace(cmd='doit', foo='bar', rest=[1, 2, 3])
+   "parse_known_intermixed_args()" returns a two item tuple containing
+   the populated namespace and the list of remaining argument strings.
+   "parse_intermixed_args()" raises an error if there are any

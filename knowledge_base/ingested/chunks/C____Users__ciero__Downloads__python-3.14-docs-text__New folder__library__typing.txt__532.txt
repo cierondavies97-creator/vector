@@ -1,0 +1,4 @@
+memoryview").
+   "ByteString" was originally intended to be an abstract class that
+   would serve as a supertype of both "bytes" and "bytearray".
+   However, since the ABC never had any methods, knowing that an

@@ -1,0 +1,3 @@
+the generator on an "EmailMessage" constructed by program may result
+in changes to the "EmailMessage" object as defaults are filled in.)
+The "Generator" class can be used to flatten a message into a text (as

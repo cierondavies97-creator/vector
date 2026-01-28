@@ -1,0 +1,4 @@
+file.  The zip application format uses this ability to prepend a
+standard POSIX "shebang" line to the file ("#!/path/to/interpreter").
+Formally, the Python zip application format is therefore:
+1. An optional shebang line, containing the characters "b'#!'"

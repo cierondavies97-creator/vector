@@ -1,0 +1,4 @@
+returns the first line of the test method's docstring, if
+      available, or "None".
+      Changed in version 3.1: In 3.1 this was changed to add the test
+      name to the short description even in the presence of a

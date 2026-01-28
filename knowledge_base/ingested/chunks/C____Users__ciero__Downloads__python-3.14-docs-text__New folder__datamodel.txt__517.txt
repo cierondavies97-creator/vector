@@ -1,0 +1,4 @@
+classes have the "type" class as their metaclass. "type" does not
+define "__getitem__()", meaning that expressions such as "list[int]",
+"dict[str, float]" and "tuple[str, bytes]" all result in
+"__class_getitem__()" being called:

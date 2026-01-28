@@ -1,0 +1,3 @@
+The chosen method is called *reference counting*.  The principle is
+simple: every object contains a counter, which is incremented when a
+reference to the object is stored somewhere, and which is decremented

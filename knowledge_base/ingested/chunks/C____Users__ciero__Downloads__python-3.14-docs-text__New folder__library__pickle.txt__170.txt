@@ -1,0 +1,6 @@
+Out-of-band Buffers
+===================
+Added in version 3.8.
+In some contexts, the "pickle" module is used to transfer massive
+amounts of data.  Therefore, it can be important to minimize the
+number of memory copies, to preserve performance and resource

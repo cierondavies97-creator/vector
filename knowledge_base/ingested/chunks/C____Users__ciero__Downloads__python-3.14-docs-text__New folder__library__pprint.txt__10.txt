@@ -1,0 +1,3 @@
+formatted. If "False" (the default), each item of a sequence
+        will be formatted on a separate line, otherwise as many items
+        as will fit within the *width* will be formatted on each

@@ -1,0 +1,4 @@
+The "R" and "O" flags are stored in the *Status* header, and the
+   "D", "F", and "A" flags are stored in the *X-Status* header. The
+   flags and headers typically appear in the order mentioned.
+   "MMDFMessage" instances offer the following methods, which are

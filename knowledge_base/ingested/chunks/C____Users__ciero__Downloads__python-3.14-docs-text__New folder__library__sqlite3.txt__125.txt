@@ -1,0 +1,4 @@
+cur = con.execute("CREATE TABLE test(x)")
+         cur.executemany("INSERT INTO test(x) VALUES(?)", [("a",), ("b",)])
+         cur.execute("SELECT x FROM test ORDER BY x COLLATE reverse")
+         for row in cur:

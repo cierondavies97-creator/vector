@@ -1,0 +1,3 @@
+value is the first value associated with that header name.  Setting
+   a header deletes any existing values for that header, then adds a
+   new value at the end of the wrapped header list.  Headers' existing

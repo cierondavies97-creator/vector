@@ -1,0 +1,3 @@
+duplicate keys, but here there may be duplicate message headers.
+   Also, in dictionaries there is no guaranteed order to the keys
+   returned by "keys()", but in an "EmailMessage" object, headers are

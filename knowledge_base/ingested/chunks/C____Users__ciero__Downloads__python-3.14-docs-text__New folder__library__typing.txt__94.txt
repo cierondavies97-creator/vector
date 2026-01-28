@@ -1,0 +1,4 @@
+every type as being compatible with "Any" and "Any" as being
+compatible with every type.
+This means that it is possible to perform any operation or method call
+on a value of type "Any" and assign it to any variable:

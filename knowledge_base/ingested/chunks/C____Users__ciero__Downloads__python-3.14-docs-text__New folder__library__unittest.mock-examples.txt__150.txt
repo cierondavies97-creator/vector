@@ -1,0 +1,5 @@
+>>> mock = MagicMock(spec_set=dict)
+  >>> mock.__getitem__.side_effect = getitem
+  >>> mock.__setitem__.side_effect = setitem
+With these side effect functions in place, the "mock" will behave like
+a normal dictionary but recording the access. It even raises a

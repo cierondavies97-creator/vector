@@ -1,0 +1,5 @@
+long enough to slow down scrolling.
+Squeezed output is expanded in place by double-clicking the label. It
+can also be sent to the clipboard or a separate view window by right-
+clicking the label.
+Developing tkinter applications

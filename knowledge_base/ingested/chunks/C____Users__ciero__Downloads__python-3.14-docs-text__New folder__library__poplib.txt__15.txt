@@ -1,0 +1,6 @@
+passed to the constructor as a string.
+See also:
+  Module "imaplib"
+     The standard Python IMAP module.
+  Frequently Asked Questions About Fetchmail
+     The FAQ for the **fetchmail** POP/IMAP client collects

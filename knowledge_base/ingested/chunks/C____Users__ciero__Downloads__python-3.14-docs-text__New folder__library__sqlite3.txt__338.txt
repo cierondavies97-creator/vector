@@ -1,0 +1,8 @@
+surrogates.
+See also: Unicode HOWTO
+Explanation
+===========
+Transaction control
+-------------------
+"sqlite3" offers multiple methods of controlling whether, when and how
+database transactions are opened and closed. Transaction control via

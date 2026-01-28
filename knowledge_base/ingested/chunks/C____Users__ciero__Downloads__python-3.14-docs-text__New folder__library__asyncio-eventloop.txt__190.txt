@@ -1,0 +1,4 @@
+configures the "max_workers" of the thread pool executor it
+   creates, instead leaving it up to the thread pool executor
+   ("ThreadPoolExecutor") to set the default.
+loop.set_default_executor(executor)

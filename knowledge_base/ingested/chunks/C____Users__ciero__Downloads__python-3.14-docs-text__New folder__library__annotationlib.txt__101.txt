@@ -1,0 +1,8 @@
+* "ast.Starred" ("*" unpacking)
+* "ast.Name"
+* "ast.List"
+* "ast.Tuple"
+* "ast.Slice"
+The following are unsupported, but throw an informative error when
+encountered by the stringifier:
+* "ast.FormattedValue" (f-strings; error is not detected if conversion

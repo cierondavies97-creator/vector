@@ -1,0 +1,4 @@
+appended also match as many times as possible. However, unlike the
+   true greedy quantifiers, these do not allow back-tracking when the
+   expression following it fails to match. These are known as
+   *possessive* quantifiers. For example, "a*a" will match "'aaaa'"

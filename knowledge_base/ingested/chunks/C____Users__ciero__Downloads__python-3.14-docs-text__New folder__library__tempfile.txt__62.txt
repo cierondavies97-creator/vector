@@ -1,0 +1,5 @@
+Return the filename prefix used to create temporary files.  This
+   does not contain the directory component.
+tempfile.gettempprefixb()
+   Same as "gettempprefix()" but the return value is in bytes.
+   Added in version 3.5.

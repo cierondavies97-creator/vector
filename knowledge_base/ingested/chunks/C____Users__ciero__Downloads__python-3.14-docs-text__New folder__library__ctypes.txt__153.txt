@@ -1,0 +1,4 @@
+the same type are accepted.  There are some exceptions to this rule,
+where ctypes accepts other objects.  For example, you can pass
+compatible array instances instead of pointer types.  So, for
+"POINTER(c_int)", ctypes accepts an array of c_int:

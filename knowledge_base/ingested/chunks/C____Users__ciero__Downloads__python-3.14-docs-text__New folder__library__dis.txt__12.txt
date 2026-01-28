@@ -1,0 +1,7 @@
+Show offsets of instructions.
+   Added in version 3.13.
+-P, --show-positions
+   Show positions of instructions in the source code.
+   Added in version 3.14.
+-S, --specialized
+   Show specialized bytecode.

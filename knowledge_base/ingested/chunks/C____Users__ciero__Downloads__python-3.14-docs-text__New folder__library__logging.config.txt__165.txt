@@ -1,0 +1,3 @@
+security risks which result from using the "listen()" to send and
+  receive configurations via sockets. The risks are limited to where
+  multiple users with no mutual trust run code on the same machine;

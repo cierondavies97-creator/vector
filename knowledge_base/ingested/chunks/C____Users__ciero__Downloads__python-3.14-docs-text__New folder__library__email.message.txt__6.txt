@@ -1,0 +1,3 @@
+of sub-"EmailMessage" objects.  In addition to the normal dictionary
+methods for accessing the header names and values, there are methods
+for accessing specialized information from the headers (for example

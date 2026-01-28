@@ -1,0 +1,2 @@
+tempfile.NamedTemporaryFile(mode='w+b', buffering=-1, encoding=None, newline=None, suffix=None, prefix=None, dir=None, delete=True, *, errors=None, delete_on_close=True)
+   This function operates exactly as "TemporaryFile()" does, except

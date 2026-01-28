@@ -1,0 +1,3 @@
+sense to use a forking server if the service contains state in memory
+that can be modified by different requests, since the modifications in
+the child process would never reach the initial state kept in the

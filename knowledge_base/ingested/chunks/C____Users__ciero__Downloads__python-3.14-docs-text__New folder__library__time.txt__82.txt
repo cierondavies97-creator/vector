@@ -1,0 +1,3 @@
+|             | negative time difference from UTC/GMT of the     |         |
+   |             | form +HHMM or -HHMM, where H represents decimal  |         |
+   |             | hour digits and M represents decimal minute      |         |

@@ -1,0 +1,3 @@
+Store to your Downloads directory (add "-d <location>" to customize
+the output location). This also generates a YAML file that appears to
+be unnecessary, as the downloaded MSIX can be installed by launching

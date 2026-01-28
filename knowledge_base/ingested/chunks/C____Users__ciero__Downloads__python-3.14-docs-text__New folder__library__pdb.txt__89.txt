@@ -1,0 +1,6 @@
+this executes the Python "print()" function.
+pp expression
+   Like the "p" command, except the value of *expression* is pretty-
+   printed using the "pprint" module.
+whatis expression
+   Print the type of *expression*.

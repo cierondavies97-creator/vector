@@ -1,0 +1,4 @@
+also called by "PyObject_RichCompare()" and
+"PyObject_RichCompareBool()".
+This function is called with two Python objects and the operator as
+arguments, where the operator is one of "Py_EQ", "Py_NE", "Py_LE",

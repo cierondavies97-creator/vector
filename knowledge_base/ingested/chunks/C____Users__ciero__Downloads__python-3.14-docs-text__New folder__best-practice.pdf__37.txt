@@ -1,0 +1,9 @@
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+assert
+▶ Not intended for checks needed in production.
+Example
+def withdraw(balance,amount):
+assert balance > amount, "Balance too small"
+return balance - amount

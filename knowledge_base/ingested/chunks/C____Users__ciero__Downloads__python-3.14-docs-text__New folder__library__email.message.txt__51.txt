@@ -1,0 +1,4 @@
+is the string value containing non-ASCII code points.  If a
+      three tuple is not passed and the value contains non-ASCII
+      characters, it is automatically encoded in **RFC 2231** format
+      using a "CHARSET" of "utf-8" and a "LANGUAGE" of "None".

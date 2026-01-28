@@ -1,0 +1,3 @@
+"LogRecord". If these are missing, the message will not be
+      logged because a string formatting exception will occur. So in
+      this case, you always need to pass the *extra* dictionary with

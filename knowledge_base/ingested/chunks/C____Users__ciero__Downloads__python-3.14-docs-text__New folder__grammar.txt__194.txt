@@ -1,0 +1,5 @@
+| star_atom
+   star_atom[expr_ty]:
+       | a=NAME { _PyPegen_set_expr_context(p, a, Store) }
+       | '(' a=target_with_star_atom ')' { _PyPegen_set_expr_context(p, a, Store) }
+       | '(' a=[star_targets_tuple_seq] ')' { _PyAST_Tuple(a, Store, EXTRA) }

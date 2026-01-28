@@ -1,0 +1,3 @@
+-- if the keys in a dictionary are interned, and the lookup key is
+   interned, the key comparisons (after hashing) can be done by a
+   pointer compare instead of a string compare.  Normally, the names

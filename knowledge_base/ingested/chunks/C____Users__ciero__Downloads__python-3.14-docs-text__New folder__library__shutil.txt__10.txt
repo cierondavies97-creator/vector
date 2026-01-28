@@ -1,0 +1,4 @@
+copy that accepts a target directory path.  If *src* and *dst*
+   specify the same file, "SameFileError" is raised.
+   The destination location must be writable; otherwise, an "OSError"
+   exception will be raised. If *dst* already exists, it will be

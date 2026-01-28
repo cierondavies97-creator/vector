@@ -1,0 +1,4 @@
+self.requests = OrderedDict()   # { uncached_key : request_count }
+           self.cache = OrderedDict()      # { cached_key : function_result }
+           self.func = func
+           self.maxrequests = maxrequests  # max number of uncached requests

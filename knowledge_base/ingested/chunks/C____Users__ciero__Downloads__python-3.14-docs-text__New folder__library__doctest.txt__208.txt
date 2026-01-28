@@ -1,0 +1,4 @@
+(or a drop-in replacement) that is used to extract doctests from
+   docstrings.
+   If the optional argument *recurse* is false, then
+   "DocTestFinder.find()" will only examine the given object, and not

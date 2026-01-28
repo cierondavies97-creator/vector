@@ -1,0 +1,5 @@
+assignment expressions.
+6.13. Conditional expressions
+=============================
+   conditional_expression: or_test ["if" or_test "else" expression]
+   expression:             conditional_expression | lambda_expr

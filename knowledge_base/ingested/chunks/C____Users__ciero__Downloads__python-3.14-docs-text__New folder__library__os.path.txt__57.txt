@@ -1,0 +1,4 @@
+Changed in version 3.6: Accepts a *path-like object*.
+os.path.realpath(path, /, *, strict=False)
+   Return the canonical path of the specified filename, eliminating
+   any symbolic links encountered in the path (if they are supported

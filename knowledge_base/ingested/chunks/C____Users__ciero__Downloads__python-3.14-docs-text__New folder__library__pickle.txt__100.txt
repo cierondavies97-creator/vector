@@ -1,0 +1,4 @@
+and *kwargs* a dictionary of named arguments for constructing the
+   object.  Those will be passed to the "__new__()" method upon
+   unpickling.
+   You should implement this method if the "__new__()" method of your

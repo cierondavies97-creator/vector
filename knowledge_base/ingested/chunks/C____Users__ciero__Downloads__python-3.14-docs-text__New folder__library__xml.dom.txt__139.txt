@@ -1,0 +1,3 @@
+| "NOT_SUPPORTED_ERR"                    | "NotSupportedErr"                 |
++----------------------------------------+-----------------------------------+
+| "NO_DATA_ALLOWED_ERR"                  | "NoDataAllowedErr"                |

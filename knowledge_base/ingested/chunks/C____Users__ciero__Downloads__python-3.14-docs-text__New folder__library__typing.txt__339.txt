@@ -1,0 +1,4 @@
+disallowed in 3.15. Use the class-based syntax or the functional
+   syntax instead.
+   Deprecated since version 3.13, will be removed in version 3.15:
+   When using the functional syntax to create a NamedTuple class,

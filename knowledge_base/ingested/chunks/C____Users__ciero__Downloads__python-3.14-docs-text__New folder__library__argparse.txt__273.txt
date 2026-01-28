@@ -1,0 +1,7 @@
+a     a help
+          b     b help
+      options:
+        -h, --help  show this help message and exit
+        --foo   foo help
+      >>> parser.parse_args(['a', '--help'])
+      usage: PROG a [-h] bar

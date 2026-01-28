@@ -1,0 +1,4 @@
+creates a UUID containing the computer's network address.  "uuid4()"
+creates a random UUID.
+Depending on support from the underlying platform, "uuid1()" may or
+may not return a "safe" UUID.  A safe UUID is one which is generated

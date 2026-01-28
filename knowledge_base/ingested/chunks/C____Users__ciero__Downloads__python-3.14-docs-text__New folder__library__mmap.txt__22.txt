@@ -1,0 +1,4 @@
+"ALLOCATIONGRANULARITY" which is equal to "PAGESIZE" on Unix
+   systems.
+   If *trackfd* is "False", the file descriptor specified by *fileno*
+   will not be duplicated, and the resulting "mmap" object will not be

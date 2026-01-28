@@ -1,0 +1,4 @@
+object which can be converted into a string using the built-in
+   "str()" function.
+   In addition to supporting the methods and operations of strings,
+   "UserString" instances provide the following attribute:

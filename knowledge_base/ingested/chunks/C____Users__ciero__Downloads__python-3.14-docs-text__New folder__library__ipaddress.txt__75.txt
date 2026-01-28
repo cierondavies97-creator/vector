@@ -1,0 +1,3 @@
+separated by a slash ("/").  The IP address is the network
+      address, and the mask can be either a single number, which means
+      it's a *prefix*, or a string representation of an IPv4 address.

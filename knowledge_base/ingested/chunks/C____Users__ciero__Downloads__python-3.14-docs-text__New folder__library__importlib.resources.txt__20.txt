@@ -1,0 +1,4 @@
+For example, to get the text of "info/chapter1.txt", use:
+     importlib.resources.read_text(my_module, "info", "chapter1.txt",
+                                   encoding='utf-8')
+importlib.resources.open_binary(anchor, *path_names)

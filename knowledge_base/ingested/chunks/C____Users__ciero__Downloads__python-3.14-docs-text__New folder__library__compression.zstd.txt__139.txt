@@ -1,0 +1,5 @@
+compression.zstd.COMPRESSION_LEVEL_DEFAULT
+   The default compression level for Zstandard: "3".
+compression.zstd.zstd_version_info
+   Version number of the runtime zstd library as a tuple of integers
+   (major, minor, release).

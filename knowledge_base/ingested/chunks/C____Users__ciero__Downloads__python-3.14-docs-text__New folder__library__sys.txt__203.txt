@@ -1,0 +1,4 @@
+to increase with each version, including proper support for non-
+   production releases.  For example, to test that the Python
+   interpreter is at least version 1.5.2, use:
+      if sys.hexversion >= 0x010502F0:

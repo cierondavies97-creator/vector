@@ -1,0 +1,5 @@
+"CDATASection" objects. These two interfaces are identical, but
+provide different values for the "nodeType" attribute.
+These interfaces extend the "Node" interface.  They cannot have child
+nodes.
+Text.data

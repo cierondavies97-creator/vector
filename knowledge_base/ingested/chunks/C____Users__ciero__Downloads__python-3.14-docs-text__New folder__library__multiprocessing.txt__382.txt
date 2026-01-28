@@ -1,0 +1,5 @@
+Callbacks should complete immediately since otherwise the thread
+      which handles the results will get blocked.
+   imap(func, iterable[, chunksize])
+      A lazier version of "map()".
+      The *chunksize* argument is the same as the one used by the

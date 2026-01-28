@@ -1,0 +1,4 @@
+With no *bpnumber* argument, "commands" refers to the last
+   breakpoint set.
+   You can use breakpoint commands to start your program up again.
+   Simply use the "continue" command, or "step", or any other command

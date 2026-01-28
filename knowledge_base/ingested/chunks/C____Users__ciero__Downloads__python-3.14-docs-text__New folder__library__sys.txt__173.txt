@@ -1,0 +1,4 @@
+"ValueError" is raised.  The default for *depth* is zero, returning
+   the frame at the top of the call stack.
+   Raises an auditing event "sys._getframe" with argument "frame".
+   **CPython implementation detail:** This function should be used for

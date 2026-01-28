@@ -1,0 +1,8 @@
+from multiprocessing.connection import wait
+   def foo(w):
+       for i in range(10):
+           w.send((i, current_process().name))
+       w.close()
+   if __name__ == '__main__':
+       readers = []
+       for i in range(4):

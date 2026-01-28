@@ -1,0 +1,4 @@
+min_match
+      Minimum size of searched matches. Larger values increase
+      compression and decompression speed, but decrease ratio. Note
+      that Zstandard can still find matches of smaller size, it just

@@ -1,0 +1,6 @@
+# Can't install pip without setuptools
+           if not self.nopip and not self.nodist:
+               self.install_pip(context)
+       def reader(self, stream, context):
+           """
+           Read lines from a subprocess' output stream and either pass to a progress

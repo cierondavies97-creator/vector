@@ -1,0 +1,6 @@
+same type and the same or similar message is raised. For example:
+      >>> from inspect import getcallargs
+      >>> def f(a, b=1, *pos, **named):
+      ...     pass
+      ...
+      >>> getcallargs(f, 1, 2, 3) == {'a': 1, 'named': {}, 'b': 2, 'pos': (3,)}

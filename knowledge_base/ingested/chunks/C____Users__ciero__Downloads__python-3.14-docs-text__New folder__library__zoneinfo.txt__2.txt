@@ -1,0 +1,5 @@
+fall back to using the first-party tzdata package available on PyPI.
+See also:
+  Module: "datetime"
+     Provides the "time" and "datetime" types with which the
+     "ZoneInfo" class is designed to be used.

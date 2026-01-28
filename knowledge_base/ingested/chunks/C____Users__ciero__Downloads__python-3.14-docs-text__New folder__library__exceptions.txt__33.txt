@@ -1,0 +1,6 @@
+"io.IOBase.readline()" methods return an empty string when they hit
+   EOF.)
+exception FloatingPointError
+   Not currently used.
+exception GeneratorExit
+   Raised when a *generator* or *coroutine* is closed; see

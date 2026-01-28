@@ -1,0 +1,4 @@
+includes all magic methods, i.e. those starting and ending in '__'.
+   Added in version 3.5.
+test.support.patch(test_instance, object_to_patch, attr_name, new_value)
+   Override *object_to_patch.attr_name* with *new_value*.  Also add

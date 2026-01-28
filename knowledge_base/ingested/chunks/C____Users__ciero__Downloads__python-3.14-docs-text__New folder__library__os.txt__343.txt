@@ -1,0 +1,4 @@
+When trying to resolve a path that may contain links, use
+   "realpath()" to properly handle recursion and platform differences.
+   Availability: Unix, Windows.
+   Changed in version 3.2: Added support for Windows 6.0 (Vista)

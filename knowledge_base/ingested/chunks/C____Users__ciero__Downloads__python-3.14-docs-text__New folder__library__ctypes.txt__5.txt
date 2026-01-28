@@ -1,0 +1,4 @@
+objects, for loading dynamic link libraries.
+You load libraries by accessing them as attributes of these objects.
+*cdll* loads libraries which export functions using the standard
+"cdecl" calling convention, while *windll* libraries call functions

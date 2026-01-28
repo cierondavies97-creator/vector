@@ -1,0 +1,4 @@
+As the output from the example shows, reusing a single stack object
+across multiple with statements works correctly, but attempting to
+nest them will cause the stack to be cleared at the end of the
+innermost with statement, which is unlikely to be desirable behaviour.

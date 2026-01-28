@@ -1,0 +1,4 @@
+The following methods work on the element's children (subelements).
+   append(subelement)
+      Adds the element *subelement* to the end of this element's
+      internal list of subelements.  Raises "TypeError" if

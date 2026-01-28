@@ -1,0 +1,5 @@
+disjunction[expr_ty] (memo):
+       | a=conjunction b=('or' c=conjunction { c })+ { _PyAST_BoolOp(
+           Or,
+           CHECK(asdl_expr_seq*, _PyPegen_seq_insert_in_front(p, a, b)),
+           EXTRA) }

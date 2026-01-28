@@ -1,0 +1,4 @@
+"ValueError" in case of invalid event mask or file descriptor,
+      or "KeyError" if the file object is not registered.
+   abstractmethod select(timeout=None)
+      Wait until some registered file objects become ready, or the

@@ -1,0 +1,4 @@
+The definitive documentation for the DOM is the DOM specification from
+the W3C.
+Note that DOM attributes may also be manipulated as nodes instead of
+as simple strings.  It is fairly rare that you must do this, however,

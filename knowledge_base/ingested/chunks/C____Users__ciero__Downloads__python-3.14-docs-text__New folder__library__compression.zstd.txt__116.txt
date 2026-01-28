@@ -1,0 +1,4 @@
+matcher hash table. Larger values improve compression speed.
+      Deviating far from the default value will likely result in a
+      compression ratio decrease.
+      A value of zero causes the value to be selected automatically.

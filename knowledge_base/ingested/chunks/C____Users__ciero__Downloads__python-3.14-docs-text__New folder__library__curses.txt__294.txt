@@ -1,0 +1,3 @@
+| curses.ACS_LLCORNER      | lower left-hand corner                     |
++--------------------------+--------------------------------------------+
+| curses.ACS_LRCORNER      | lower right-hand corner                    |

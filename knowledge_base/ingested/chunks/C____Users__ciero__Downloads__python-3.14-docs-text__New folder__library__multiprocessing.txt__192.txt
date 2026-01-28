@@ -1,0 +1,6 @@
+be read using "recv()".
+      The object must be picklable.  Very large pickles (approximately
+      32 MiB+, though it depends on the OS) may raise a "ValueError"
+      exception.
+   recv()
+      Return an object sent from the other end of the connection using

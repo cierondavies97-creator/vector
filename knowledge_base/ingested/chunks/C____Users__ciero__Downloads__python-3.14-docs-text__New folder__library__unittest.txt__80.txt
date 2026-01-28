@@ -1,0 +1,5 @@
+if not external_resource_available():
+               self.skipTest("external resource not available")
+           # test code that depends on the external resource
+           pass
+This is the output of running the example above in verbose mode:

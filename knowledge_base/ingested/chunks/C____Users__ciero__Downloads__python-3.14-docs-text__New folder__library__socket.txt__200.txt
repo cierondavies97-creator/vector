@@ -1,0 +1,6 @@
+Availability: Unix, not WASI.
+   most Unix platforms.
+   Added in version 3.3.
+socket.getdefaulttimeout()
+   Return the default timeout in seconds (float) for new socket
+   objects. A value of "None" indicates that new socket objects have

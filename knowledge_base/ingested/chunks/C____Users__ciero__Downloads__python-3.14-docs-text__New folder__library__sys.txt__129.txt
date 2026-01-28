@@ -1,0 +1,2 @@
+|                                   |                                   | positive *normalized* float.  Use |
+   |                                   |                                   | "math.ulp(0.0)" to get the        |

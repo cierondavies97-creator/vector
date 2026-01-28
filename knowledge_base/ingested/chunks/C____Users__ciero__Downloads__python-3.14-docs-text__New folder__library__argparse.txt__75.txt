@@ -1,0 +1,4 @@
+Sometimes (e.g. when using parents) it may be useful to simply
+override any older arguments with the same option string.  To get this
+behavior, the value "'resolve'" can be supplied to the
+"conflict_handler=" argument of "ArgumentParser":

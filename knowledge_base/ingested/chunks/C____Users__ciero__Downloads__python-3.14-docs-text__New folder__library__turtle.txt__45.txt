@@ -1,0 +1,9 @@
+"onkeypress()"
+      "onclick()" | "onscreenclick()"
+      "ontimer()"
+      "mainloop()" | "done()"
+Settings and special methods
+      "mode()"
+      "colormode()"
+      "getcanvas()"
+      "getshapes()"

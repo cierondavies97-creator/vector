@@ -1,0 +1,5 @@
+Roughly equivalent to:
+      def zip_longest(*iterables, fillvalue=None):
+          # zip_longest('ABCD', 'xy', fillvalue='-') → Ax By C- D-
+          iterators = list(map(iter, iterables))
+          num_active = len(iterators)

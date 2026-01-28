@@ -1,0 +1,4 @@
+* Shortcuts will only be visible for the current user
+Selecting "Customize installation" will allow you to select the
+features to install, the installation location and other options or
+post-install actions. To install debugging symbols or binaries, you

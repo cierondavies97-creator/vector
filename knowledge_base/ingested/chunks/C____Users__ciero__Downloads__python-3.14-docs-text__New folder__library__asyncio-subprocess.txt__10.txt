@@ -1,0 +1,5 @@
+to *stdout* and *stderr* arguments).
+   Return a "Process" instance.
+   See the documentation of "loop.subprocess_shell()" for other
+   parameters.
+   If the process object is garbage collected while the process is

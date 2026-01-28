@@ -1,0 +1,4 @@
+Changed in version 3.5.3: Updated to support linking with OpenSSL
+1.1.0
+Changed in version 3.6: OpenSSL 0.9.8, 1.0.0 and 1.0.1 are deprecated
+and no longer supported. In the future the ssl module will require at

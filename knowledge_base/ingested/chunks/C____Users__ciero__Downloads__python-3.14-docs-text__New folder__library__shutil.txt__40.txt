@@ -1,0 +1,4 @@
+directory named *dst* and return the destination directory.  All
+   intermediate directories needed to contain *dst* will also be
+   created by default.
+   Permissions and times of directories are copied with "copystat()",

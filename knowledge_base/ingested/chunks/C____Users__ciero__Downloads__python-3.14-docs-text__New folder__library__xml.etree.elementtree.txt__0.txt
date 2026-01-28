@@ -1,0 +1,4 @@
+"xml.etree.ElementTree" --- The ElementTree XML API
+***************************************************
+**Source code:** Lib/xml/etree/ElementTree.py
+======================================================================

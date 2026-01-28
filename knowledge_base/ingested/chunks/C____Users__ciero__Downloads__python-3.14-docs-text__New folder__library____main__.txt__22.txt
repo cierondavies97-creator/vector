@@ -1,0 +1,4 @@
+specifying them as entry points for console scripts.  When this is
+done, pip inserts the function call into a template script, where the
+return value of "main" is passed into "sys.exit()". For example:
+   sys.exit(main())

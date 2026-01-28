@@ -1,0 +1,5 @@
+3. At runtime, the search path can be manipulated using the
+   "reset_tzpath()" function.
+Compile-time configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+The default "TZPATH" includes several common deployment locations for

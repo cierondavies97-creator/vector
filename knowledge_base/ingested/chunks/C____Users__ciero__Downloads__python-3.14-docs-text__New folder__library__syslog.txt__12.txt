@@ -1,0 +1,5 @@
+affected and the restriction is not relevant for most users.) This
+   may only be called in the main interpreter. It will raise
+   "RuntimeError" if called in a subinterpreter.
+syslog.closelog()
+   Reset the syslog module values and call the system library

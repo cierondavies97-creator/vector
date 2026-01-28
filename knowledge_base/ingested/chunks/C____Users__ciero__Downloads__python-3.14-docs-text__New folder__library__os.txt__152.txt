@@ -1,0 +1,7 @@
+indicator.
+   "SEEK_SET"
+      Adjust the file position relative to the beginning of the file.
+   "SEEK_CUR"
+      Adjust the file position relative to the current file position.
+   "SEEK_END"
+      Adjust the file position relative to the end of the file.

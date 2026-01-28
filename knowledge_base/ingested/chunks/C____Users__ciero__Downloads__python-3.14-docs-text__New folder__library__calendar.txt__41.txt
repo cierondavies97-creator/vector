@@ -1,0 +1,5 @@
+The CSS class for a weekday occurring in the previous or coming
+      month.
+      Added in version 3.7.
+   cssclasses_weekday_head
+      A list of CSS classes used for weekday names in the header row.

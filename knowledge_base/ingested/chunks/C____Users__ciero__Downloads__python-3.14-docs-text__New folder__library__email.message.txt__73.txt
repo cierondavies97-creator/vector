@@ -1,0 +1,4 @@
+will always be unquoted as per "email.utils.unquote()".
+   set_boundary(boundary)
+      Set the "boundary" parameter of the *Content-Type* header to
+      *boundary*.  "set_boundary()" will always quote *boundary* if

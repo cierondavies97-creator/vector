@@ -1,0 +1,4 @@
+found, and the object's class has a "__getattr__()" method, that is
+called to satisfy the lookup.
+Attribute assignments and deletions update the instance's dictionary,
+never a class's dictionary.  If the class has a "__setattr__()" or

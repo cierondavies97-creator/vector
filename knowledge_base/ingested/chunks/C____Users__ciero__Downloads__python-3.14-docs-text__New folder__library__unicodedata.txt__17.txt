@@ -1,0 +1,4 @@
+Returns the character decomposition mapping assigned to the
+   character *chr* as string. An empty string is returned in case no
+   such mapping is defined. For example:
+      >>> unicodedata.decomposition('Ã')

@@ -1,0 +1,6 @@
+"copy.replace()".
+   Added in version 3.8.
+3.2.13.2. Frame objects
+~~~~~~~~~~~~~~~~~~~~~~~
+Frame objects represent execution frames.  They may occur in traceback
+objects, and are also passed to registered trace functions.

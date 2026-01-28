@@ -1,0 +1,5 @@
+the key and the value.
+   If *input* is given, it is passed to the "load()" method.
+class http.cookies.SimpleCookie([input])
+   This class derives from "BaseCookie" and overrides "value_decode()"
+   and "value_encode()". "SimpleCookie" supports strings as cookie

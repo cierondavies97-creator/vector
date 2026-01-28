@@ -1,0 +1,5 @@
+"close()" in the Shell window also closes Shell.  If this is the
+   only window, also exit IDLE.
+Exit IDLE
+   Close all windows and quit IDLE (ask to save unsaved edit windows).
+Edit menu (Shell and Editor)

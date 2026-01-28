@@ -1,0 +1,4 @@
+On some systems, it is necessary to invoke "setlocale()" to obtain
+   the user preferences, so this function is not thread-safe. If
+   invoking setlocale is not necessary or desired, *do_setlocale*
+   should be set to "False".

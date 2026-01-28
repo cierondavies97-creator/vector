@@ -1,0 +1,9 @@
+"card.gif" and ".card.gif":
+   >>> import glob
+   >>> glob.glob('*.gif')
+   ['card.gif']
+   >>> glob.glob('.c*')
+   ['.card.gif']
+See also:
+  The "fnmatch" module offers shell-style filename (not path)
+  expansion.

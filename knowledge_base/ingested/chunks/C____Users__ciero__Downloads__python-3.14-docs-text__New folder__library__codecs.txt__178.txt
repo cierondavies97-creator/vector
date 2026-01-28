@@ -1,0 +1,4 @@
+codecs listed in the following table are guarantead to exist on other
+platforms.
+**CPython implementation detail:** Some common encodings can bypass
+the codecs lookup machinery to improve performance. These optimization

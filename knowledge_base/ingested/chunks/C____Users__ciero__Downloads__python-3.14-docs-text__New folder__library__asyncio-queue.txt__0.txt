@@ -1,0 +1,6 @@
+Queues
+******
+**Source code:** Lib/asyncio/queues.py
+======================================================================
+asyncio queues are designed to be similar to classes of the "queue"
+module.  Although asyncio queues are not thread-safe, they are

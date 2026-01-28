@@ -1,0 +1,4 @@
+as an argument.  This is especially fast and space efficient for
+   sampling from a large population:  "sample(range(10000000), k=60)".
+   If the sample size is larger than the population size, a
+   "ValueError" is raised.

@@ -1,0 +1,6 @@
+and Windows, this launcher supports a number of 'virtual' commands to
+specify which interpreter to use.  The supported virtual commands are:
+* "/usr/bin/env"
+* "/usr/bin/python"
+* "/usr/local/bin/python"
+* "python"

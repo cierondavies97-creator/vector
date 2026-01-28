@@ -1,0 +1,4 @@
+synchronous versions through the loop's default thread pool
+  executor. When this executor is saturated, these methods may
+  experience delays, which higher-level networking libraries may
+  report as increased timeouts. To mitigate this, consider using a

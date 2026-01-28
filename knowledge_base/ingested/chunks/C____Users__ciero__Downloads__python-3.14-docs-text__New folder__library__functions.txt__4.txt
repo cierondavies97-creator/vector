@@ -1,0 +1,2 @@
+| "bytearray()" "bytes()"   | "frozenset()"  **G**    | **N** "next()"  **O**   | "staticmethod()" "str()"  |
+| **C** "callable()"        | "getattr()" "globals()" | "object()" "oct()"      | "sum()" "super()"  **T**  |

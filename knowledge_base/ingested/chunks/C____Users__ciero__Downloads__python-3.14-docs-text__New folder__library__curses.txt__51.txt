@@ -1,0 +1,4 @@
+bytes object consisting of a caret ("b'^'") followed by the
+   corresponding printable ASCII character.  The name of an alt-key
+   combination (128--255) is a bytes object consisting of the prefix
+   "b'M-'" followed by the name of the corresponding ASCII character.

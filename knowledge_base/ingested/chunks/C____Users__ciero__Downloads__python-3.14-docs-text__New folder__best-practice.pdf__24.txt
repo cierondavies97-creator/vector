@@ -1,0 +1,14 @@
+Documenting Your Project
+▶ tools generate website
+from docstrings
+▶ pydoc
+▶ sphinx
+▶ Overview List
+▶ when project gets bigger
+▶ how-to
+▶ FAQ
+▶ quick-start
+Nicola Chiapolini, 8 July 2024
+12 / 34
+Introduction
+Style & Documentation

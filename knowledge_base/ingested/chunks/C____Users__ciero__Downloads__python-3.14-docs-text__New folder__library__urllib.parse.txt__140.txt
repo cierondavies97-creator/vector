@@ -1,0 +1,5 @@
+Uniform Resource Names (URNs) and Uniform Resource Locators
+     (URLs).
+  **RFC 2368** - The mailto URL scheme.
+     Parsing requirements for mailto URL schemes.
+  **RFC 1808** - Relative Uniform Resource Locators

@@ -1,0 +1,4 @@
+for some methods and functions. These are deprecated as of Python
+  3.10, but they are still supported for compatibility with Python 2.5
+  and lower.
+**CPython implementation detail:** In CPython, due to the *Global

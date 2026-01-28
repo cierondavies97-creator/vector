@@ -1,0 +1,6 @@
++----------------------------------------------------+----------------------------------------------------+
+-[ Examples ]-
+* Using asyncio.get_running_loop().
+Event Loop Methods
+==================
+See also the main documentation section about the Event Loop Methods.

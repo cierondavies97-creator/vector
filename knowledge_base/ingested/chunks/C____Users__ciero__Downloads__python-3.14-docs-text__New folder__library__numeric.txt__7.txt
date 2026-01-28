@@ -1,0 +1,8 @@
+* Working with threads
+  * Recipes
+  * Decimal FAQ
+* "fractions" --- Rational numbers
+* "random" --- Generate pseudo-random numbers
+  * Bookkeeping functions
+  * Functions for bytes
+  * Functions for integers

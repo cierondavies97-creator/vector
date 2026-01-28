@@ -1,0 +1,9 @@
+Added in version 3.13.
+stat.UF_NODUMP
+   Do not dump the file.
+stat.UF_IMMUTABLE
+   The file may not be changed.
+stat.UF_APPEND
+   The file may only be appended to.
+stat.UF_OPAQUE
+   The directory is opaque when viewed through a union stack.

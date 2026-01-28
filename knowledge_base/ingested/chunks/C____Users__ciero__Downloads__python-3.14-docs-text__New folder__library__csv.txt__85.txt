@@ -1,0 +1,9 @@
+Examples
+========
+The simplest example of reading a CSV file:
+   import csv
+   with open('some.csv', newline='') as f:
+       reader = csv.reader(f)
+       for row in reader:
+           print(row)
+Reading a file with an alternate format:

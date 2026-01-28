@@ -1,0 +1,4 @@
+"m.x = 1" is equivalent to "m.__dict__["x"] = 1".
+3.2.9.1. Import-related attributes on module objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Module objects have the following attributes that relate to the import

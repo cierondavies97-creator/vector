@@ -1,0 +1,6 @@
+Changed in version 3.9: This method now accepts zero for *k*.
+Functions for sequences
+=======================
+random.choice(seq)
+   Return a random element from the non-empty sequence *seq*. If *seq*
+   is empty, raises "IndexError".

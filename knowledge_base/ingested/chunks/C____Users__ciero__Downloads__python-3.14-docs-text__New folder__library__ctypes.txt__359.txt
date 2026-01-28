@@ -1,0 +1,5 @@
+library. *name* is the name of the symbol that exports the data,
+      *library* is the loaded shared library.
+   Common class variables of ctypes data types:
+   __pointer_type__
+      The pointer type that was created by calling "POINTER()" for

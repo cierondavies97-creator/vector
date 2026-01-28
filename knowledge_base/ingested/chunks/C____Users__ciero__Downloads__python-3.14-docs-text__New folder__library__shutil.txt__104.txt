@@ -1,0 +1,3 @@
+*base_dir* will be the common prefix of all files and directories
+   in the archive.  *base_dir* must be given relative to *root_dir*.
+   See Archiving example with base_dir for how to use *base_dir* and

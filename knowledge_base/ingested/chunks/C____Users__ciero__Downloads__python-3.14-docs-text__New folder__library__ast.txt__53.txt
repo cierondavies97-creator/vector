@@ -1,0 +1,3 @@
+were missing required fields. Similarly, AST node constructors allowed
+arbitrary keyword arguments that were set as attributes of the AST
+node, even if they did not match any of the fields of the AST node.

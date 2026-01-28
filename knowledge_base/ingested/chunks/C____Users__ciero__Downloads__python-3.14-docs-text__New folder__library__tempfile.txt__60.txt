@@ -1,0 +1,4 @@
+5. As a last resort, the current working directory.
+   The result of this search is cached, see the description of
+   "tempdir" below.
+   Changed in version 3.10: Always returns a str.  Previously it would

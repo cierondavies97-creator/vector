@@ -1,0 +1,5 @@
+the custom hook completes to avoid resurrecting objects.
+   See also: "sys.excepthook()" handles uncaught exceptions.
+   Added in version 3.8.
+threading.__excepthook__
+   Holds the original value of "threading.excepthook()". It is saved

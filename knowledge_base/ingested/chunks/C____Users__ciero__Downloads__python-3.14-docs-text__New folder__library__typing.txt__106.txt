@@ -1,0 +1,4 @@
+unlike what one would normally do in idiomatic dynamically typed
+Python code. For example, this conforms to **PEP 484**:
+   from collections.abc import Sized, Iterable, Iterator
+   class Bucket(Sized, Iterable[int]):

@@ -1,0 +1,6 @@
+versions must pass all "io.TextIOWrapper" arguments, "encoding"
+   included, as keywords.
+Path.read_bytes()
+   Read the current file as bytes.
+Path.joinpath(*other)
+   Return a new Path object with each of the *other* arguments joined.

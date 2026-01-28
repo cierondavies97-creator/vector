@@ -1,0 +1,5 @@
+func=Name(id='sin', ctx=Load()),
+                          args=[
+                              Name(id='a', ctx=Load())]),
+                      conversion=-1,
+                      format_spec=JoinedStr(

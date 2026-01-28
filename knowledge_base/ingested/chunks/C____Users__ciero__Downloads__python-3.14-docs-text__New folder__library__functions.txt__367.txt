@@ -1,0 +1,4 @@
+*not* the module named by *name*.  However, when a non-empty
+   *fromlist* argument is given, the module named by *name* is
+   returned.
+   For example, the statement "import spam" results in bytecode

@@ -1,0 +1,5 @@
+names of its class's attributes, and recursively of the
+     attributes of its class's base classes.
+   The resulting list is sorted alphabetically.  For example:
+   >>> import struct
+   >>> dir()   # show the names in the module namespace

@@ -1,0 +1,7 @@
+>>> print(p, p.is_alive())
+      <...Process ... initial> False
+      >>> p.start()
+      >>> print(p, p.is_alive())
+      <...Process ... started> True
+      >>> p.terminate()
+      >>> time.sleep(0.1)

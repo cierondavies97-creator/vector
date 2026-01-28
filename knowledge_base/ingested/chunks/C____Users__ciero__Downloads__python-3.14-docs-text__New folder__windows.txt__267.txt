@@ -1,0 +1,4 @@
+meant that paths longer than this would not resolve and errors would
+result.
+In the latest versions of Windows, this limitation can be expanded to
+over 32,000 characters. Your administrator will need to activate the

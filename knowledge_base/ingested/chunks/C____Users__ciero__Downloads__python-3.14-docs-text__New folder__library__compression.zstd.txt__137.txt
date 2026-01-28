@@ -1,0 +1,7 @@
+hold.
+class compression.zstd.FrameInfo
+   Metadata related to a Zstandard frame.
+   decompressed_size
+      The size of the decompressed contents of the frame.
+   dictionary_id
+      An integer representing the Zstandard dictionary ID needed for

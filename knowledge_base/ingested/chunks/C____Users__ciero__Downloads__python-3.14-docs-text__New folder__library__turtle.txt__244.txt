@@ -1,0 +1,5 @@
+image file (PNG, GIF, PGM, and PPM): Install the corresponding
+      image shape.
+         >>> screen.register_shape("turtle", "turtle.gif")
+      Note:
+        Image shapes *do not* rotate when turning the turtle, so they

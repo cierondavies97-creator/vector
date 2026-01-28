@@ -1,0 +1,3 @@
+modify and is not affected by the "context" or ".mh_profile" files
+   that are used by **mh** to store its state and configuration.
+   "MH" instances have all of the methods of "Mailbox" in addition to

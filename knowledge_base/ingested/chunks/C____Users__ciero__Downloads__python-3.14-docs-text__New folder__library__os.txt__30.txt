@@ -1,0 +1,5 @@
+mapping is modified.
+   On Unix, keys and values use "sys.getfilesystemencoding()" and
+   "'surrogateescape'" error handler. Use "environb" if you would like
+   to use a different encoding.
+   On Windows, the keys are converted to uppercase. This also applies

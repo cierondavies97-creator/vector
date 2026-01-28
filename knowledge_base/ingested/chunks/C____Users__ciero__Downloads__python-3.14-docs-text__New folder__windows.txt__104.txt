@@ -1,0 +1,2 @@
+|                                   |                                   | global commands (such as          |
+|                                   |                                   | "python3.14.exe") are stored.     |

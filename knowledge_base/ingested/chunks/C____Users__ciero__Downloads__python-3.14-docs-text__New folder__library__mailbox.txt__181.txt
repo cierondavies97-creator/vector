@@ -1,0 +1,4 @@
+string of more than one character.
+When an "mboxMessage" instance is created based upon a
+"MaildirMessage" instance, a "From " line is generated based upon the
+"MaildirMessage" instance's delivery date, and the following

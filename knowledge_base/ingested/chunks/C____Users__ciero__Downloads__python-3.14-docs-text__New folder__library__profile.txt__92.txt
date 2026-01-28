@@ -1,0 +1,4 @@
+Each FunctionProfile instance holds information related to the
+      function's profile such as how long the function took to run,
+      how many times it was called, etc...
+      Added in version 3.9: Added the following dataclasses:

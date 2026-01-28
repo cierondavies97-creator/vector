@@ -1,0 +1,4 @@
+these system dependent defaults; instead its default is
+    "*sys.base_prefix*/share/locale" (see "sys.base_prefix"). For this
+    reason, it is always best to call "bindtextdomain()" with an
+    explicit absolute path at the start of your application.

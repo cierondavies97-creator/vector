@@ -1,0 +1,3 @@
+file name with the "mktemp()" function and then create a file using
+this name. Unfortunately this is not secure, because a different
+process may create a file with this name in the time between the call

@@ -1,0 +1,3 @@
+instead call the "login()" method, which will try each of the above
+   mechanisms in turn, in the order listed.  "auth" is exposed to
+   facilitate the implementation of authentication methods not (or not

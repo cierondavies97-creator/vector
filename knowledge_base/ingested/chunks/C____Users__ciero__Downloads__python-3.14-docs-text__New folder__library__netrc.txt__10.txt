@@ -1,0 +1,8 @@
+Textual explanation of the error.
+   filename
+      The name of the source file.
+   lineno
+      The line number on which the error was found.
+netrc Objects
+=============
+A "netrc" instance has the following methods:

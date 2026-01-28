@@ -1,0 +1,4 @@
+"exception()", "critical()", "log()", "isEnabledFor()",
+   "getEffectiveLevel()", "setLevel()" and "hasHandlers()". These
+   methods have the same signatures as their counterparts in "Logger",
+   so you can use the two types of instances interchangeably.

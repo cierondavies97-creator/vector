@@ -1,0 +1,5 @@
+You don't need to wrap with "staticmethod()" if you're setting the
+import callable on a configurator *instance*.
+Configuring QueueHandler and QueueListener
+------------------------------------------
+If you want to configure a "QueueHandler", noting that this is

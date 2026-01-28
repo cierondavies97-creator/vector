@@ -1,0 +1,5 @@
+calls.
+   cancelled()
+      Return "True" if the Future was *cancelled*.
+      The method is usually used to check if a Future is not
+      *cancelled* before setting a result or an exception for it:

@@ -1,0 +1,5 @@
+"co_consts" is the docstring of the function.
+3.2.13.1.2. Methods on code objects
+"""""""""""""""""""""""""""""""""""
+codeobject.co_positions()
+   Returns an iterable over the source code positions of each

@@ -1,0 +1,6 @@
+development (event driven cooperative multitasking vs preemptive
+multitasking). Here's an overview:
+* "threading" --- Thread-based parallelism
+  * Introduction
+  * GIL and performance considerations
+  * Reference

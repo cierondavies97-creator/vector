@@ -1,0 +1,4 @@
+cast one type into another type.  "ctypes" provides a "cast()"
+function which can be used in the same way.  The "Bar" structure
+defined above accepts "POINTER(c_int)" pointers or "c_int" arrays for
+its "values" field, but not instances of other types:

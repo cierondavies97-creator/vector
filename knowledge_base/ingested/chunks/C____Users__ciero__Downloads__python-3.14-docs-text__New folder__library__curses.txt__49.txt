@@ -1,0 +1,5 @@
+curses.is_term_resized(nlines, ncols)
+   Return "True" if "resize_term()" would modify the window structure,
+   "False" otherwise.
+curses.isendwin()
+   Return "True" if "endwin()" has been called (that is, the  curses

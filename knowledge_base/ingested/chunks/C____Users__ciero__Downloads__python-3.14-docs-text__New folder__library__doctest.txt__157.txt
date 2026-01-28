@@ -1,0 +1,4 @@
+relative; relative paths are resolved with respect to the current
+     working directory.
+   Optional argument *package* is a Python package or the name of a
+   Python package whose directory should be used as the base directory

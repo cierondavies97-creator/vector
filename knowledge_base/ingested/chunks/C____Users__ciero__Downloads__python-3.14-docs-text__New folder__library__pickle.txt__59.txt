@@ -1,0 +1,4 @@
+whose values are reduction functions.  A reduction function
+      takes a single argument of the associated class and should
+      conform to the same interface as a "__reduce__()" method.
+      By default, a pickler object will not have a "dispatch_table"

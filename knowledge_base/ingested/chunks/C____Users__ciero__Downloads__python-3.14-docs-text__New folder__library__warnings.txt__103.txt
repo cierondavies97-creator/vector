@@ -1,0 +1,4 @@
+@warnings.deprecated(msg, *, category=DeprecationWarning, stacklevel=1)
+   Decorator to indicate that a class, function or overload is
+   deprecated.
+   When this decorator is applied to an object, deprecation warnings

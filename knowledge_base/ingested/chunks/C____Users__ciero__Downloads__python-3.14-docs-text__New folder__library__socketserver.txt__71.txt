@@ -1,0 +1,4 @@
+class socketserver.StreamRequestHandler
+class socketserver.DatagramRequestHandler
+   These "BaseRequestHandler" subclasses override the "setup()" and
+   "finish()" methods, and provide "rfile" and "wfile" attributes.

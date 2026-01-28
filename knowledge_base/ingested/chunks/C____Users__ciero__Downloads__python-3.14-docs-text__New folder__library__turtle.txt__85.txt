@@ -1,0 +1,8 @@
+* "fastest":  0
+   * "fast":  10
+   * "normal":  6
+   * "slow":  3
+   * "slowest":  1
+   Speeds from 1 to 10 enforce increasingly faster animation of line
+   drawing and turtle turning.
+   Attention: *speed* = 0 means that *no* animation takes place.

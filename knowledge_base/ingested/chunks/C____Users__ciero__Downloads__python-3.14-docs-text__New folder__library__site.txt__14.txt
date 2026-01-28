@@ -1,0 +1,4 @@
+chunk to a single line is a deliberate measure to discourage putting
+  anything more complex here.
+Changed in version 3.13: The ".pth" files are now decoded by UTF-8 at
+first and then by the *locale encoding* if it fails.

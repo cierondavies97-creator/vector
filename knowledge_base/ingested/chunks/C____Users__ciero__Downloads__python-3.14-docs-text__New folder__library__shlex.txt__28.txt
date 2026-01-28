@@ -1,0 +1,4 @@
+returned as the first component of the tuple, with "open()" called
+   on it to yield the second component. (Note: this is the reverse of
+   the order of arguments in instance initialization!)
+   This hook is exposed so that you can use it to implement directory

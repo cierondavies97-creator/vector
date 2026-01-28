@@ -1,0 +1,7 @@
+somenamedtuple._asdict()
+   Return a new "dict" which maps field names to their corresponding
+   values:
+      >>> p = Point(x=11, y=22)
+      >>> p._asdict()
+      {'x': 11, 'y': 22}
+   Changed in version 3.1: Returns an "OrderedDict" instead of a

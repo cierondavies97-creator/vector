@@ -1,0 +1,7 @@
+which will be read at import time and modify the configuration
+according to its settings.
+The built in configuration would correspond to the following
+"turtle.cfg":
+   width = 0.5
+   height = 0.75
+   leftright = None

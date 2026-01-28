@@ -1,0 +1,4 @@
+guaranteed to be "correct".)
+   starmap(func, iterable[, chunksize])
+      Like "map()" except that the elements of the *iterable* are
+      expected to be iterables that are unpacked as arguments.

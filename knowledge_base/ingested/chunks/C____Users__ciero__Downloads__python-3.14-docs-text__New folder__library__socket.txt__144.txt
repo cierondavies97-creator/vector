@@ -1,0 +1,4 @@
+0, respectively) to not limit the results. See the note below for
+   details.
+   The *flags* argument can be one or several of the "AI_*" constants,
+   and will influence how results are computed and returned. For

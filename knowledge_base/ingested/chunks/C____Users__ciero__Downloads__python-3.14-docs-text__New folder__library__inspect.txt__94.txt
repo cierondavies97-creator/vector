@@ -1,0 +1,5 @@
+only return members that satisfy a given predicate.
+   Note:
+     "getmembers_static()" may not be able to retrieve all members
+     that getmembers can fetch (like dynamically created attributes)
+     and may find members that getmembers can't (like descriptors that

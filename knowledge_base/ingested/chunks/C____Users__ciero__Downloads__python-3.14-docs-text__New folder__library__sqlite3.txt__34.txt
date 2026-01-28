@@ -1,0 +1,4 @@
+to Python types, using the converters registered with
+        "register_converter()". Set it to any combination (using "|",
+        bitwise or) of "PARSE_DECLTYPES" and "PARSE_COLNAMES" to
+        enable this. Column names takes precedence over declared types

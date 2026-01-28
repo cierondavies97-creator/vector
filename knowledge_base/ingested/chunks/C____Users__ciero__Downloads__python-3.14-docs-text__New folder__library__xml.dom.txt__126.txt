@@ -1,0 +1,5 @@
+or is no longer usable.
+exception xml.dom.NamespaceErr
+   If an attempt is made to change any object in a way that is not
+   permitted with regard to the Namespaces in XML recommendation, this
+   exception is raised.

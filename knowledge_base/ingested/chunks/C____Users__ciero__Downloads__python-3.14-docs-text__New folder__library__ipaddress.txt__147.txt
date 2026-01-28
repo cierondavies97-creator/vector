@@ -1,0 +1,4 @@
+...    ipaddress.IPv4Address('192.0.2.0'),
+   ...    ipaddress.IPv4Address('192.0.2.130'))]
+   [IPv4Network('192.0.2.0/25'), IPv4Network('192.0.2.128/31'), IPv4Network('192.0.2.130/32')]
+ipaddress.collapse_addresses(addresses)

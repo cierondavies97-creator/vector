@@ -1,0 +1,4 @@
+arguments contain the exception type, value and traceback
+   information. Otherwise, all three arguments are "None".
+   Returning a true value from this method will cause the "with"
+   statement to suppress the exception and continue execution with the

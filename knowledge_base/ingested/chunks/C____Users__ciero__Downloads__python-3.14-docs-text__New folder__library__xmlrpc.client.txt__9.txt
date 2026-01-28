@@ -1,0 +1,3 @@
+see http://ontosys.com/xml-rpc/extensions.php for a description.
+   The *use_builtin_types* flag can be used to cause date/time values
+   to be presented as "datetime.datetime" objects and binary data to

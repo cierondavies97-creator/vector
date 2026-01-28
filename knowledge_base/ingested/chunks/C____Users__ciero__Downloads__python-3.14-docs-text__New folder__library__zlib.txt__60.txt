@@ -1,0 +1,7 @@
+a byte boundary.
+zlib.Z_FULL_FLUSH
+   Flush mode "3". All output is flushed and the compression state is
+   reset.
+zlib.Z_FINISH
+   Flush mode "4". All pending input is processed, no more input is
+   expected.

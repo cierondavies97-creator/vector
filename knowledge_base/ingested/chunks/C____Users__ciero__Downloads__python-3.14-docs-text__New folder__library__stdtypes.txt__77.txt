@@ -1,0 +1,5 @@
+return bytes((n >> i*8) & 0xff for i in order)
+   Added in version 3.2.
+   Changed in version 3.11: Added default argument values for "length"
+   and "byteorder".
+classmethod int.from_bytes(bytes, byteorder='big', *, signed=False)

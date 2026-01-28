@@ -1,0 +1,4 @@
+argument.  In this case the value from const will be produced.  Some
+  examples to illustrate this:
+     >>> parser = argparse.ArgumentParser()
+     >>> parser.add_argument('--foo', nargs='?', const='c', default='d')

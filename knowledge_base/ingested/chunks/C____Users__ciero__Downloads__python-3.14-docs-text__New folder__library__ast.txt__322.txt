@@ -1,0 +1,5 @@
+Name(id='decorator2', ctx=Load())])])
+   Changed in version 3.12: Added "type_params".
+Async and await
+---------------
+class ast.AsyncFunctionDef(name, args, body, decorator_list, returns, type_comment, type_params)

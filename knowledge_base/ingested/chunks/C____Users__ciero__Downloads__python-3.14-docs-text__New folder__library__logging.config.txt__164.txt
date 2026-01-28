@@ -1,0 +1,5 @@
+The "defaults" entry, when evaluated in the context of the "logging"
+package's namespace, is a dictionary of default values for custom
+formatting fields. If not provided, it defaults to "None".
+Note:
+  Due to the use of "eval()" as described above, there are potential

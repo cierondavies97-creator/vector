@@ -1,0 +1,4 @@
+"AuthenticationError" is raised if authentication fails. See
+   Authentication keys.
+class multiprocessing.connection.Listener([address[, family[, backlog[, authkey]]]])
+   A wrapper for a bound socket or Windows named pipe which is

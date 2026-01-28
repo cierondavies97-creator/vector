@@ -1,0 +1,3 @@
+| curses.KEY_EOL            | Clear to end of line                         |
++---------------------------+----------------------------------------------+
+| curses.KEY_SF             | Scroll 1 line forward                        |

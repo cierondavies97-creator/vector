@@ -1,0 +1,4 @@
+Here are some notes on the parsing semantics:
+* Most non-*multipart* type messages are parsed as a single message
+  object with a string payload.  These objects will return "False" for
+  "is_multipart()", and "iter_parts()" will yield an empty list.

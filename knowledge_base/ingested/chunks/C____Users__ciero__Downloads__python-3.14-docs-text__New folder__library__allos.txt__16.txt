@@ -1,0 +1,8 @@
+* Callback functions
+    * Accessing values exported from dlls
+    * Surprises
+    * Variable-sized data types
+  * ctypes reference
+    * Finding shared libraries
+    * Listing loaded shared libraries
+    * Loading shared libraries

@@ -1,0 +1,6 @@
+* Setting up an importer
+    * Approximating "importlib.import_module()"
+* "importlib.resources" -- Package resource reading, opening and
+  access
+  * Functional API
+* "importlib.resources.abc" -- Abstract base classes for resources

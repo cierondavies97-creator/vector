@@ -1,0 +1,4 @@
+same non-transforming "policy" is used for both.  That is, parsing the
+serialized byte stream via the "BytesParser" class and then
+regenerating the serialized byte stream using "BytesGenerator" should
+produce output identical to the input [1].  (On the other hand, using

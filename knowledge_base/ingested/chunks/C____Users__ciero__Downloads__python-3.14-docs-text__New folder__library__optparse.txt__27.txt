@@ -1,0 +1,5 @@
+(options, args) = parser.parse_args()
+With these few lines of code, users of your script can now do the
+"usual thing" on the command-line, for example:
+   <yourscript> --file=outfile -q
+As it parses the command line, "optparse" sets attributes of the

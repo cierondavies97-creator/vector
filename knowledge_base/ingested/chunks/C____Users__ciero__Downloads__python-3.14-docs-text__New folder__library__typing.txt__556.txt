@@ -1,0 +1,6 @@
+supports subscripting ("[]"). See **PEP 585** and Generic Alias
+   Type.
+typing.Callable
+   Deprecated alias to "collections.abc.Callable".
+   See Annotating callable objects for details on how to use
+   "collections.abc.Callable" and "typing.Callable" in type

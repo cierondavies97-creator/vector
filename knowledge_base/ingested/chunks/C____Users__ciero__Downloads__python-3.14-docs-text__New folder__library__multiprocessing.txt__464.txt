@@ -1,0 +1,5 @@
+"Process.terminate" on processes which never use any shared
+   resources.
+Joining processes that use queues
+   Bear in mind that a process that has put items in a queue will wait
+   before terminating until all the buffered items are fed by the

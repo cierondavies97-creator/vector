@@ -1,0 +1,4 @@
+like object* representing the pre-shared key. Return a zero length
+   PSK to reject the connection.
+   Setting "callback" to "None" removes any existing callback.
+   The parameter "identity_hint" is an optional identity hint string

@@ -1,0 +1,3 @@
+from "multiprocessing" need to be picklable so that child processes
+   can use them.  However, one should generally avoid sending shared
+   objects to other processes using pipes or queues. Instead you

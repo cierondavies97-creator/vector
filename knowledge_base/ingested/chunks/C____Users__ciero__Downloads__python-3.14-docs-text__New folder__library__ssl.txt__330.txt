@@ -1,0 +1,4 @@
+certificate, and so on up the chain till you get to a certificate
+which is *self-signed*, that is, a certificate which has the same
+subject and issuer, sometimes called a *root certificate*.  The
+certificates should just be concatenated together in the certificate

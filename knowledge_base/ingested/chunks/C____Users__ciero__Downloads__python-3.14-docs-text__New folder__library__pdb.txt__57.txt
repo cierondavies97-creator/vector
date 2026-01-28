@@ -1,0 +1,4 @@
+Previously, it was read with the system locale encoding.
+h(elp) [command]
+   Without argument, print the list of available commands.  With a
+   *command* as argument, print help about that command.  "help pdb"

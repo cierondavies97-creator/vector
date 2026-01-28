@@ -1,0 +1,5 @@
+>>> sig = signature(test)
+         >>> new_sig = sig.replace(return_annotation="new return anno")
+         >>> str(new_sig)
+         "(a, b) -> 'new return anno'"
+      "Signature" objects are also supported by the generic function

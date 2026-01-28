@@ -1,0 +1,6 @@
+qsize()
+      Return the number of items in the queue.
+   shutdown(immediate=False)
+      Put a "Queue" instance into a shutdown mode.
+      The queue can no longer grow. Future calls to "put()" raise
+      "QueueShutDown". Currently blocked callers of "put()" will be

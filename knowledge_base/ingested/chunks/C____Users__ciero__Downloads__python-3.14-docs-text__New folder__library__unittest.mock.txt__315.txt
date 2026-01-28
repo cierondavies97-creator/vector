@@ -1,0 +1,7 @@
+"MagicMock" are:
+* "__subclasses__"
+* "__dir__"
+* "__format__"
+* "__get__", "__set__" and "__delete__"
+* "__reversed__" and "__missing__"
+* "__reduce__", "__reduce_ex__", "__getinitargs__", "__getnewargs__",

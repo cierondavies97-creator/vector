@@ -1,0 +1,5 @@
+The "decoded" value of the header is determined by formatting the
+   "datetime" according to the **RFC 5322** rules; that is, it is set
+   to:
+      email.utils.format_datetime(self.datetime)
+   When creating a "DateHeader", *value* may be "datetime" instance.

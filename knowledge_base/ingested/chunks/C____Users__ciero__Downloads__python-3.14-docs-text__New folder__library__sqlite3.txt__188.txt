@@ -1,0 +1,4 @@
+set to "None", transactions are never implicitly opened. If set
+      to one of ""DEFERRED"", ""IMMEDIATE"", or ""EXCLUSIVE"",
+      corresponding to the underlying SQLite transaction behaviour,
+      implicit transaction management is performed.

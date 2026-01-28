@@ -1,0 +1,4 @@
+to be called only once the buffer is empty. Use of zero for either
+   limit is generally sub-optimal as it reduces opportunities for
+   doing I/O and computation concurrently.
+   Use "get_write_buffer_limits()" to get the limits.

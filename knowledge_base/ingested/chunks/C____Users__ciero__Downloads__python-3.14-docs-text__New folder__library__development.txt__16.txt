@@ -1,0 +1,8 @@
+* "unittest.mock" --- getting started
+  * Using Mock
+    * Mock Patching Methods
+    * Mock for Method Calls on an Object
+    * Mocking Classes
+    * Naming your mocks
+    * Tracking all Calls
+    * Setting Return Values and Attributes

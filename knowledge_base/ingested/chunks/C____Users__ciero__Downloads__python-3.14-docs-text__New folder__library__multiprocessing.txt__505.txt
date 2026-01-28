@@ -1,0 +1,8 @@
+for x in pool.map(calculatestar, TASKS):
+               print('\t', x)
+           print()
+           #
+           # Test error handling
+           #
+           print('Testing error handling:')
+           try:

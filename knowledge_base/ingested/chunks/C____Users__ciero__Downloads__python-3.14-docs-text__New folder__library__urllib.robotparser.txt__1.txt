@@ -1,0 +1,3 @@
+This module provides a single class, "RobotFileParser", which answers
+questions about whether or not a particular user agent can fetch a URL
+on the website that published the "robots.txt" file.  For more details

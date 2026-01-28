@@ -1,0 +1,4 @@
+creates a TCP socket ("socket.SOCK_STREAM").
+   makePickle(record)
+      Pickles the record's attribute dictionary in binary format with
+      a length prefix, and returns it ready for transmission across

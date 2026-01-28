@@ -1,0 +1,4 @@
+The optional *parameters* argument is a sequence of "Parameter"
+   objects, which is validated to check that there are no parameters
+   with duplicate names, and that the parameters are in the right
+   order, i.e. positional-only first, then positional-or-keyword, and

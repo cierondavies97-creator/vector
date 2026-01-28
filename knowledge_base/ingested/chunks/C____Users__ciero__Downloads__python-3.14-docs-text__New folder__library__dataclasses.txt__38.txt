@@ -1,0 +1,6 @@
+Python syntax:
+      @dataclass
+      class C:
+          a: int       # 'a' has no default value
+          b: int = 0   # assign a default value for 'b'
+   In this example, both "a" and "b" will be included in the added

@@ -1,0 +1,4 @@
+that packages can continue discovery themselves.
+      *top_level_dir* is stored internally, and used as a default to
+      any nested calls to "discover()". That is, if a package's
+      "load_tests" calls "loader.discover()", it does not need to pass

@@ -1,0 +1,4 @@
+symbolic links.
+   Changed in version 3.3: Added the *dir_fd* parameter.
+   Changed in version 3.6: Accepts a *path-like object* on Unix.
+   Changed in version 3.8: Accepts a *path-like object* and a bytes

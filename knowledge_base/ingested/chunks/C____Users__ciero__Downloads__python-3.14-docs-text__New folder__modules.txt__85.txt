@@ -1,0 +1,5 @@
+defined in the previous item.
+6.4.1. Importing * From a Package
+---------------------------------
+Now what happens when the user writes "from sound.effects import *"?
+Ideally, one would hope that this somehow goes out to the filesystem,

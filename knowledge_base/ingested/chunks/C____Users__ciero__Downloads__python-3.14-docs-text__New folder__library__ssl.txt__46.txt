@@ -1,0 +1,5 @@
+Read the Wikipedia article, Cryptographically secure pseudorandom
+   number generator (CSPRNG), to get the requirements of a
+   cryptographically strong generator.
+   Added in version 3.3.
+ssl.RAND_status()

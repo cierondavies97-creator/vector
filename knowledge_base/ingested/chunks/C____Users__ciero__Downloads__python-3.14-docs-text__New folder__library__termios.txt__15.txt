@@ -1,0 +1,5 @@
+Example
+=======
+Here's a function that prompts for a password with echoing turned off.
+Note the technique using a separate "tcgetattr()" call and a "try" ...
+"finally" statement to ensure that the old tty attributes are restored

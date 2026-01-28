@@ -1,0 +1,3 @@
+floating-point precision) is returned.  If the argument is outside
+   the range of a Python float, an "OverflowError" will be raised.
+   For a general Python object "x", "float.from_number(x)" delegates

@@ -1,0 +1,5 @@
+to "sys.stdin" and "sys.stdout".
+   If you want a given *stdin* to be used, make sure to set the
+   instance's "use_rawinput" attribute to "False", otherwise *stdin*
+   will be ignored.
+   Changed in version 3.13: "completekey='tab'" is replaced by "'^I'"

@@ -1,0 +1,3 @@
+Raise a "BdbQuit" exception if the "quitting" flag is set (which
+      can be set from "user_call()").  Return a reference to the
+      "trace_dispatch()" method for further tracing in that scope.

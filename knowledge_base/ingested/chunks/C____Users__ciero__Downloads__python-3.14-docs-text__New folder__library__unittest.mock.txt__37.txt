@@ -1,0 +1,5 @@
+is called.
+     If *side_effect* is an iterable then each call to the mock will
+     return the next value from the iterable.
+     A *side_effect* can be cleared by setting it to "None".
+   * *return_value*: The value returned when the mock is called. By

@@ -1,0 +1,5 @@
+Note:
+  On Windows, the default event loop "ProactorEventLoop" supports
+  subprocesses, whereas "SelectorEventLoop" does not. See Subprocess
+  Support on Windows for details.
+async loop.subprocess_exec(protocol_factory, *args, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs)

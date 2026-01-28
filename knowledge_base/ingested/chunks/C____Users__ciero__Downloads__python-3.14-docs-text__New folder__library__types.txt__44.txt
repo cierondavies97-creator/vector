@@ -1,0 +1,5 @@
+mapping's entries, which means that when the mapping changes, the
+   view reflects these changes.
+   Added in version 3.3.
+   Changed in version 3.9: Updated to support the new union ("|")
+   operator from **PEP 584**, which simply delegates to the underlying

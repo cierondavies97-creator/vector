@@ -1,0 +1,4 @@
+Path entries need not be limited to file system locations.  They can
+refer to URLs, database queries, or any other location that can be
+specified as a string.
+The path based finder provides additional hooks and protocols so that

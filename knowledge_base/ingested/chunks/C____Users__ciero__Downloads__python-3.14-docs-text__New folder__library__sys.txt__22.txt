@@ -1,0 +1,6 @@
+installation. Refer to Virtual Environments for more information.
+   Added in version 3.3.
+sys.base_prefix
+   Equivalent to "prefix", but referring to the base Python
+   installation.
+   When running under virtual environment, "prefix" gets overwritten

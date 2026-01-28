@@ -1,0 +1,4 @@
+class enum.auto
+   *auto* can be used in place of a value.  If used, the *Enum*
+   machinery will call an "Enum"'s "_generate_next_value_()" to get an
+   appropriate value. For "Enum" and "IntEnum" that appropriate value

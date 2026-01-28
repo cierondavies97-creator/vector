@@ -1,0 +1,6 @@
+all signals.
+   For example, "signal.pthread_sigmask(signal.SIG_BLOCK, [])" reads
+   the signal mask of the calling thread.
+   "SIGKILL" and "SIGSTOP" cannot be blocked.
+   Availability: Unix.
+   See the man page *sigprocmask(2)* and *pthread_sigmask(3)* for

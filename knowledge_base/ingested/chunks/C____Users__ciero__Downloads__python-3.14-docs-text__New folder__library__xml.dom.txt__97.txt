@@ -1,0 +1,5 @@
+attribute had no value.
+Element.getAttributeNode(attrname)
+   Return the "Attr" node for the attribute named by *attrname*.
+Element.getAttributeNS(namespaceURI, localName)
+   Return the value of the attribute named by *namespaceURI* and

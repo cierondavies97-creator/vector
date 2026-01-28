@@ -1,0 +1,3 @@
+in the output stream by a string derived from a template filled in
+with information about the part.
+class email.generator.DecodedGenerator(outfp, mangle_from_=None, maxheaderlen=None, fmt=None, *, policy=None)

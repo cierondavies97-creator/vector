@@ -1,0 +1,4 @@
+about each other's global variable names, the use of dotted module
+names saves the authors of multi-module packages like NumPy or Pillow
+from having to worry about each other's module names.
+Suppose you want to design a collection of modules (a "package") for

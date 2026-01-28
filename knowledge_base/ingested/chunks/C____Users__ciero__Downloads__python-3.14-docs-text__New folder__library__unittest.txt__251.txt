@@ -1,0 +1,6 @@
+its "__exit__()" method as a cleanup function by
+      "addClassCleanup()" and return the result of the "__enter__()"
+      method.
+      Added in version 3.11.
+   classmethod doClassCleanups()
+      This method is called unconditionally after "tearDownClass()",

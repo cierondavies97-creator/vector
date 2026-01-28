@@ -1,0 +1,6 @@
+b'b901 ef'
+   Changed in version 3.8: The *sep* and *bytes_per_sep* parameters
+   were added.
+binascii.a2b_hex(hexstr)
+binascii.unhexlify(hexstr)
+   Return the binary data represented by the hexadecimal string

@@ -1,0 +1,4 @@
+called in reverse order of creation.
+   A finalizer will never invoke its callback during the later part of
+   the *interpreter shutdown* when module globals are liable to have
+   been replaced by "None".

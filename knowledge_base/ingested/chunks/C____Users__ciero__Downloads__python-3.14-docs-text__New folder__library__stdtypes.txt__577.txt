@@ -1,0 +1,4 @@
+set of byte values to be removed.  If omitted or "None", the
+   *bytes* argument defaults to removing ASCII whitespace.  The
+   *bytes* argument is not a suffix; rather, all combinations of its
+   values are stripped:

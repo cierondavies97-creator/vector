@@ -1,0 +1,4 @@
+and *limit* arguments have the same meaning as for "print_stack()".
+traceback.print_list(extracted_list, file=None)
+   Print the list of tuples as returned by "extract_tb()" or
+   "extract_stack()" as a formatted stack trace to the given file. If

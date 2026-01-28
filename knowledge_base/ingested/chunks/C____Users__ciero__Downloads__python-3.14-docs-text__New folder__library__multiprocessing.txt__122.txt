@@ -1,0 +1,6 @@
+Pipes and Queues
+----------------
+When using multiple processes, one generally uses message passing for
+communication between processes and avoids having to use any
+synchronization primitives like locks.
+For passing messages one can use "Pipe()" (for a connection between

@@ -1,0 +1,10 @@
+|--> Lancelot
+    |--> Archie Leach
+   Eric Idle
+    |--> Sir Robin
+    |--> Gunther
+    |--> Commander Clement
+XPath support
+=============
+This module provides limited support for XPath expressions for
+locating elements in a tree.  The goal is to support a small subset of

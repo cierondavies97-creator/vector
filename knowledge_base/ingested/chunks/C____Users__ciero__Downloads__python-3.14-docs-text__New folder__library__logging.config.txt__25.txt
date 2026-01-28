@@ -1,0 +1,3 @@
+and should be processed. This could be done by encrypting and/or
+   signing what is sent across the socket, such that the "verify"
+   callable can perform signature verification and/or decryption. The

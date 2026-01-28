@@ -1,0 +1,9 @@
+...     if item.name is None:
+   ...         break
+   ...     print(item.name.decode("ascii"), item.size)
+   ...
+   _frozen_importlib 31764
+   _frozen_importlib_external 41499
+   zipimport 12345
+   >>>
+The fact that standard Python has a frozen module and a frozen package

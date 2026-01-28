@@ -1,0 +1,4 @@
+problem may be either a firewall blocking the connection or
+misconfiguration of a particular system.  Until the problem is fixed,
+one can run Idle with the -n command line switch.
+If IDLE is started with the -n command line switch it will run in a

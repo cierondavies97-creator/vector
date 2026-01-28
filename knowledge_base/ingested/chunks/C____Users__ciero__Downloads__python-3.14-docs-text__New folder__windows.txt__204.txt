@@ -1,0 +1,2 @@
+|                                                    | Installs that are managed by the Python install    |
+|                                                    | manager will be chosen ahead of unmanaged          |

@@ -1,0 +1,4 @@
+exception to the caller, therefore, calling "gather.cancel()"
+     after catching an exception (raised by one of the awaitables)
+     from gather won't cancel any other awaitables.
+   Changed in version 3.7: If the *gather* itself is cancelled, the

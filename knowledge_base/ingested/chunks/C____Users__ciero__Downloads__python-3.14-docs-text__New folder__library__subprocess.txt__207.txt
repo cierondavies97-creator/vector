@@ -1,0 +1,4 @@
+still available as the "output" attribute of the raised exception.
+In the following examples, we assume that the relevant functions have
+already been imported from the "subprocess" module.
+Replacing **/bin/sh** shell command substitution

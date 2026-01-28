@@ -1,0 +1,5 @@
+depend on the locale settings and are padded to the specified
+      width.
+   formatmonth(theyear, themonth, w=0, l=0)
+      Return a month's calendar in a multi-line string. If *w* is
+      provided, it specifies the width of the date columns, which are

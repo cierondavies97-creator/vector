@@ -1,0 +1,5 @@
+methods and attributes from the underlying stream.
+Encodings and Unicode
+=====================
+Strings are stored internally as sequences of code points in range
+"U+0000"--"U+10FFFF". (See **PEP 393** for more details about the

@@ -1,0 +1,3 @@
+the handler-level lock, whereas this thread tries to acquire
+          the module-level lock *after* the handler-level lock
+          (because in this method, the handler-level lock has already

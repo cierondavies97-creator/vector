@@ -1,0 +1,5 @@
+...
+The builtin functions "isinstance()" and "issubclass()" do not accept
+"GenericAlias" types for their second argument:
+   >>> isinstance([1, 2], list[str])
+   Traceback (most recent call last):

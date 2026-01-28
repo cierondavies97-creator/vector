@@ -1,0 +1,4 @@
+In Python, file names, command line arguments, and environment
+variables are represented using the string type. On some systems,
+decoding these strings to and from bytes is necessary before passing
+them to the operating system. Python uses the *filesystem encoding and

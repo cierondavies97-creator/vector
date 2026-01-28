@@ -1,0 +1,5 @@
+>>> Decimal.from_number(Decimal('3.14'))
+         Decimal('3.14')
+      Added in version 3.14.
+   fma(other, third, context=None)
+      Fused multiply-add.  Return self*other+third with no rounding of

@@ -1,0 +1,5 @@
+creation
+      fred.config(fg="red", bg="blue")
+For a complete explanation of a given option and its behavior, see the
+Tk man pages for the widget in question.
+Note that the man pages list "STANDARD OPTIONS" and "WIDGET SPECIFIC

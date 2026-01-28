@@ -1,0 +1,4 @@
+The *year*, *month* and *day* arguments are required. *tzinfo* may
+   be "None", or an instance of a "tzinfo" subclass. The remaining
+   arguments must be integers in the following ranges:
+   * "MINYEAR <= year <= MAXYEAR",

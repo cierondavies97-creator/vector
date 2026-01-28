@@ -1,0 +1,4 @@
+equivalent to "float(num_str)".  This can be used to use another
+   datatype or parser for JSON floats (e.g. "decimal.Decimal").
+   *parse_int* is an optional function that will be called with the
+   string of every JSON int to be decoded.  By default, this is

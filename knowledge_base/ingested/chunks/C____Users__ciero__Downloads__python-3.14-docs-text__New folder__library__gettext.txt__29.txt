@@ -1,0 +1,4 @@
+Changed in version 3.11: *codeset* parameter is removed.
+gettext.install(domain, localedir=None, *, names=None)
+   This installs the function "_()" in Python's builtins namespace,
+   based on *domain* and *localedir* which are passed to the function

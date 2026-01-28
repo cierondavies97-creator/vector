@@ -1,0 +1,5 @@
+Return "True" if the element has an attribute named by
+   *namespaceURI* and *localName*.
+Element.getAttribute(name)
+   Return the value of the attribute named by *name* as a string. If
+   no such attribute exists, an empty string is returned, as if the

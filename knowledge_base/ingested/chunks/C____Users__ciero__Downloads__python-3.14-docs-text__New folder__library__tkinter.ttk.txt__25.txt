@@ -1,0 +1,6 @@
+Label Options
+-------------
+The following options are supported by labels, buttons and other
+button-like widgets.
++----------------+-------------------------------------------------------------+
+| Option         | Description                                                 |

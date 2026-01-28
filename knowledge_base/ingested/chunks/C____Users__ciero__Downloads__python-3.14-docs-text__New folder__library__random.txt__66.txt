@@ -1,0 +1,5 @@
+randbytes(n)
+      Override this method in subclasses to customise the
+      "randbytes()" behaviour of "Random" instances.
+class random.SystemRandom([seed])
+   Class that uses the "os.urandom()" function for generating random

@@ -1,0 +1,4 @@
+attribute to "None") after a formatter has done its formatting,
+      so that the next formatter to handle the event doesn't use the
+      cached value, but recalculates it afresh.
+      If stack information is available, it's appended after the

@@ -1,0 +1,4 @@
+is a logger name and each value is a dict describing how to
+  configure the corresponding Logger instance.
+  The configuring dict is searched for the following keys:
+  * "level" (optional).  The level of the logger.

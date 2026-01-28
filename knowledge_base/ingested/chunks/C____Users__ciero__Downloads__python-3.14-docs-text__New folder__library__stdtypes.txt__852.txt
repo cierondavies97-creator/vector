@@ -1,0 +1,4 @@
+File "<stdin>", line 1, in <module>
+   TypeError: isinstance() argument 2 cannot be a parameterized generic
+The Python runtime does not enforce *type annotations*. This extends
+to generic types and their type parameters. When creating a container

@@ -1,0 +1,5 @@
+Python's newer, versatile features like "__slots__", descriptors,
+   properties, "__getattribute__()", class methods, and static
+   methods.
+non-deterministic
+   Behavior where the outcome of a program can vary between executions

@@ -1,0 +1,4 @@
+The "'z'" option coerces negative zero floating-point values to
+positive zero after rounding to the format precision.  This option is
+only valid for floating-point presentation types.
+Changed in version 3.11: Added the "'z'" option (see also **PEP

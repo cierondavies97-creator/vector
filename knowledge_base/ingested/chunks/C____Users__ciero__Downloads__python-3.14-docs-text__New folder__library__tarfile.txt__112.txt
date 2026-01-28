@@ -1,0 +1,5 @@
+it and added to the archive.  You can create "TarInfo" objects
+   directly, or by using "gettarinfo()".
+   Changed in version 3.13: *fileobj* must be given for non-zero-sized
+   regular files.
+TarFile.gettarinfo(name=None, arcname=None, fileobj=None)

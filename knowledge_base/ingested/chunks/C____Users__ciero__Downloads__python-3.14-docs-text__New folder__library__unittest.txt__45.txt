@@ -1,0 +1,3 @@
+copy of the package then the import *could* happen from the wrong
+  place. If this happens test discovery will warn you and exit.If you
+  supply the start directory as a package name rather than a path to a

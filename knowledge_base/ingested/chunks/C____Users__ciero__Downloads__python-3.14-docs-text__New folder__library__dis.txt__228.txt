@@ -1,0 +1,3 @@
++------------------------------------------+-------------------------------------+
+   | "INTRINSIC_SET_FUNCTION_TYPE_PARAMS"     | Sets the "__type_params__"          |
+   |                                          | attribute of a function.            |

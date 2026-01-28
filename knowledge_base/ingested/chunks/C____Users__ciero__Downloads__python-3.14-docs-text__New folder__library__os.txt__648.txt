@@ -1,0 +1,4 @@
+the value specified. If the value specified is 0, the child's
+   process group ID will be made the same as its process ID. If the
+   value of *setpgroup* is not set, the child will inherit the
+   parent's process group ID. This argument corresponds to the C

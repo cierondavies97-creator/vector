@@ -1,0 +1,4 @@
+(such as paths) for use by the other methods.  If the
+      "EnvBuilder" is created with the arg "clear=True", contents of
+      the environment directory will be cleared and then all necessary
+      subdirectories will be recreated.

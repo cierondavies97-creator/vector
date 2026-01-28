@@ -1,0 +1,4 @@
+In either case, the exception itself is always shown after any
+   chained exceptions so that the final line of the traceback always
+   shows the last exception that was raised.
+Inheriting from built-in exceptions

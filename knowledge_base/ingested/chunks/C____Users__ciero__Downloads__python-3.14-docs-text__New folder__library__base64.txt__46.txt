@@ -1,0 +1,8 @@
+>>> encoded
+b'ZGF0YSB0byBiZSBlbmNvZGVk'
+>>> data = base64.b64decode(encoded)
+>>> data
+b'data to be encoded'
+Security Considerations
+=======================
+A new security considerations section was added to **RFC 4648**

@@ -1,0 +1,4 @@
+For example, the following calls all create instances that connect
+   to the server at the same host and port:
+      >>> h1 = http.client.HTTPConnection('www.python.org')
+      >>> h2 = http.client.HTTPConnection('www.python.org:80')

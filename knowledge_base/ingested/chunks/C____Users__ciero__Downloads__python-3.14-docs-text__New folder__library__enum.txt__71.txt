@@ -1,0 +1,5 @@
+instead of a "str" subclass (i.e. "type(unknown) == str" instead
+     of "isinstance(unknown, str)"), and in those locations you will
+     need to use "str(MyStrEnum.MY_MEMBER)".
+   Note:
+     Using "auto" with "StrEnum" results in the lower-cased member

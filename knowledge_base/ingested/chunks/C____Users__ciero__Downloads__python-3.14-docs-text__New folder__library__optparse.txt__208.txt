@@ -1,0 +1,5 @@
+so you do not normally need to create one.
+  Example:
+     from optparse import OptionParser, SUPPRESS_HELP
+     # usually, a help option is added automatically, but that can
+     # be suppressed using the add_help_option argument

@@ -1,0 +1,6 @@
+annotation[expr_ty]: ':' a=expression { a }
+   star_annotation[expr_ty]: ':' a=star_expression { a }
+   default[expr_ty]: '=' a=expression { a } | invalid_default
+   # If statement
+   # ------------
+   if_stmt[stmt_ty]:

@@ -1,0 +1,3 @@
+At runtime, the statement "Derived = NewType('Derived', Base)" will
+make "Derived" a callable that immediately returns whatever parameter
+you pass it. That means the expression "Derived(some_value)" does not

@@ -1,0 +1,3 @@
+to "startElementNS()". It is derived from "AttributesImpl", but
+   understands attribute names as two-tuples of *namespaceURI* and
+   *localname*. In addition, it provides a number of methods expecting

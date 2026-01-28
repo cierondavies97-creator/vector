@@ -1,0 +1,5 @@
+Turn *all* tabs into the correct number of spaces.
+Toggle Tabs
+   Open a dialog to switch between indenting with spaces and tabs.
+New Indent Width
+   Open a dialog to change indent width. The accepted default by the

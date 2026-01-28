@@ -1,0 +1,4 @@
+pop_all()
+      Transfers the callback stack to a fresh "ExitStack" instance and
+      returns it. No callbacks are invoked by this operation -
+      instead, they will now be invoked when the new stack is closed

@@ -1,0 +1,4 @@
+future = asyncio.run_coroutine_threadsafe(coro, loop)
+          # Wait for the result with an optional timeout argument
+          assert future.result(timeout=2) == 3
+      async def amain() -> None:

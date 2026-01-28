@@ -1,0 +1,4 @@
+implementing the interface defined by the documentation for
+   "CookieJar.extract_cookies()".
+CookiePolicy.return_ok(cookie, request)
+   Return boolean value indicating whether cookie should be returned

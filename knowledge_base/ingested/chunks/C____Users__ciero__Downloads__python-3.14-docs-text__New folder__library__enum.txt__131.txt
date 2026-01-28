@@ -1,0 +1,6 @@
+global namespace (see "re.RegexFlag" for an example).
+   Added in version 3.11.
+enum.show_flag_values(value)
+   Return a list of all power-of-two integers contained in a flag
+   *value*.
+   Added in version 3.11.

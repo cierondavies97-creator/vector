@@ -1,0 +1,3 @@
+built-in sequence types are "list", "str", "tuple", and "bytes".
+   Note that "dict" also supports "__getitem__()" and "__len__()", but
+   is considered a mapping rather than a sequence because the lookups

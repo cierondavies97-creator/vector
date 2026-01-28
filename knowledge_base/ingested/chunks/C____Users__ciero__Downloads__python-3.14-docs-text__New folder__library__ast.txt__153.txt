@@ -1,0 +1,7 @@
+>>> print(ast.dump(ast.parse('a,b = c'), indent=4)) # Unpacking
+      Module(
+          body=[
+              Assign(
+                  targets=[
+                      Tuple(
+                          elts=[

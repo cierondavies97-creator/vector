@@ -1,0 +1,3 @@
+"__getnewargs_ex__()" method can dictate the values passed to the
+   "__new__()" method upon unpickling.  The method must return a pair
+   "(args, kwargs)" where *args* is a tuple of positional arguments

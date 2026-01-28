@@ -1,0 +1,4 @@
+=================================================
+**Source code:** Lib/importlib/machinery.py
+======================================================================
+This module contains the various objects that help "import" find and

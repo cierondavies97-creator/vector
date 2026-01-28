@@ -1,0 +1,4 @@
+"rel_tol=0.05".  The default tolerance is "1e-09", which assures
+   that the two values are the same within about 9 decimal digits.
+   *rel_tol* must be nonnegative and less than "1.0".
+   *abs_tol* is the absolute tolerance; it defaults to "0.0" and it

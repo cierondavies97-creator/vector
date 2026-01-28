@@ -1,0 +1,3 @@
+| a='except' expression ['as' NAME ] NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }
+       | a='except' NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }
+       | 'except' expression 'as' a=expression ':' block {

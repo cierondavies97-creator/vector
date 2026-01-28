@@ -1,0 +1,4 @@
+requirement for Pearson's correlation coefficient.
+   Both inputs must be of the same length (no less than two), and need
+   not to be constant, otherwise "StatisticsError" is raised.
+   Example with Kepler's laws of planetary motion:

@@ -1,0 +1,4 @@
+filename = f'part-{counter:03d}{ext}'
+           counter += 1
+           with open(os.path.join(args.directory, filename), 'wb') as fp:
+               fp.write(part.get_payload(decode=True))

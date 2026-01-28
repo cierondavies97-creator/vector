@@ -1,0 +1,5 @@
+timeout.
+   The suspension time may be longer than requested by an arbitrary
+   amount, because of the scheduling of other activity in the system.
+   -[ Windows implementation ]-
+   On Windows, if *secs* is zero, the thread relinquishes the

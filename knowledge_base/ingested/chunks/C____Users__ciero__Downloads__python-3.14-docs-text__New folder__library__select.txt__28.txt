@@ -1,0 +1,4 @@
+*O*(*highest file descriptor*) and "poll()" is *O*(*number of file
+descriptors*), "/dev/poll" is *O*(*active file descriptors*).
+"/dev/poll" behaviour is very close to the standard "poll()" object.
+devpoll.close()

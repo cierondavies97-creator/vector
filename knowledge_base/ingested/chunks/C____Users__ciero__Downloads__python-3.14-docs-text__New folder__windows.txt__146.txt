@@ -1,0 +1,4 @@
+Registry key overrides will replace any other configured setting,
+while "base_config" allows users to further modify settings they may
+need.
+Note that most settings with environment variables support those

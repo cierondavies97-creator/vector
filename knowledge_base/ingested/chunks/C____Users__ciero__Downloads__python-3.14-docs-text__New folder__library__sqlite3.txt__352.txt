@@ -1,0 +1,4 @@
+the value of "isolation_level".
+Changed in version 3.6: "sqlite3" used to implicitly commit an open
+transaction before DDL statements.  This is no longer the case.
+Changed in version 3.12: The recommended way of controlling

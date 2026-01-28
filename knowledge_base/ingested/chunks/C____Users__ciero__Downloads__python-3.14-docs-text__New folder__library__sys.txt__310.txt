@@ -1,0 +1,4 @@
+the frame.
+   Note that as an exception is propagated down the chain of callers,
+   an "'exception'" event is generated at each level.
+   For more fine-grained usage, it's possible to set a trace function

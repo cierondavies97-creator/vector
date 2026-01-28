@@ -1,0 +1,4 @@
+as unstructured.  The classic example of an unstructured header is
+   the *Subject* header.
+   In **RFC 5322**, an unstructured header is a run of arbitrary text
+   in the ASCII character set.  **RFC 2047**, however, has an **RFC

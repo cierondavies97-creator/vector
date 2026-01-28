@@ -1,0 +1,5 @@
+must be *file objects*. *input* will be read until
+   "input.readline()" returns an empty bytes object.
+base64.decodebytes(s)
+   Decode the *bytes-like object* *s*, which must contain one or more
+   lines of base64 encoded data, and return the decoded "bytes".

@@ -1,0 +1,2 @@
+|======================|==================================================================================|
+   | "init"               | Indicates whether the field should be included in the synthesized "__init__"     |

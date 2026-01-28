@@ -1,0 +1,5 @@
+its code will be executed), be aware that the standard streams
+     may be replaced with file-like objects like "io.StringIO" which
+     do not support the "buffer" attribute.
+sys.__stdin__
+sys.__stdout__

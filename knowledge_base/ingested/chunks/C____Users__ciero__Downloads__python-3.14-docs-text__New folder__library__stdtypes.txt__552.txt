@@ -1,0 +1,4 @@
+notation. Return "-1" on failure.
+   The subsequence to search for may be any *bytes-like object* or an
+   integer in the range 0 to 255.
+   Changed in version 3.3: Also accept an integer in the range 0 to

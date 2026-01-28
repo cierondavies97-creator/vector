@@ -1,0 +1,4 @@
+be the most useful way to serialize messages in your
+      application, especially if you are dealing with multiple
+      messages.  See "email.generator.Generator" for a more flexible
+      API for serializing messages.  Note also that this method is

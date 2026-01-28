@@ -1,0 +1,4 @@
+* "is_private" is "False" for the shared address space
+        ("100.64.0.0/10")
+      * For IPv4-mapped IPv6-addresses the "is_private" value is
+        determined by the semantics of the underlying IPv4 addresses

@@ -1,0 +1,4 @@
+The *handler* is called with two arguments: the signal number and
+   the current stack frame ("None" or a frame object; for a
+   description of frame objects, see the description in the type
+   hierarchy or see the attribute descriptions in the "inspect"

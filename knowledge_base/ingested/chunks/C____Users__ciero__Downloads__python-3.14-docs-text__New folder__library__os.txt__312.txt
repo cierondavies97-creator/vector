@@ -1,0 +1,5 @@
+Changed in version 3.2: Added support for Windows 6.0 (Vista)
+   symbolic links.
+   Changed in version 3.3: Added the *dir_fd* parameter.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.8: On Windows, now opens reparse points that

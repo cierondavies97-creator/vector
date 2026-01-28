@@ -1,0 +1,2 @@
+| **A** "abs()" "aiter()"   | **E** "enumerate()"     | **L** "len()" "list()"  | **R** "range()" "repr()"  |
+| "all()" "anext()" "any()" | "eval()" "exec()"       | "locals()"  **M**       | "reversed()" "round()"    |

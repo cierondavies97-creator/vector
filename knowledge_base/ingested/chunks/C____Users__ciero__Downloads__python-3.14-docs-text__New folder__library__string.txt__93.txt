@@ -1,0 +1,3 @@
+|           | case letters for the digits above 9. In case "'#'" is      |
+   |           | specified, the prefix "'0x'" will be upper-cased to "'0X'" |
+   |           | as well.                                                   |

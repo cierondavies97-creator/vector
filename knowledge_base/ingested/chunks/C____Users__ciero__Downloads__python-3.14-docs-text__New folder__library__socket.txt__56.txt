@@ -1,0 +1,5 @@
+Changed in version 3.3: This class was made a subclass of
+   "OSError".
+exception socket.timeout
+   A deprecated alias of "TimeoutError".
+   A subclass of "OSError", this exception is raised when a timeout

@@ -1,0 +1,6 @@
+for x in iterable:
+              if not predicate(x):
+                  break
+              yield x
+   Note, the element that first fails the predicate condition is
+   consumed from the input iterator and there is no way to access it.

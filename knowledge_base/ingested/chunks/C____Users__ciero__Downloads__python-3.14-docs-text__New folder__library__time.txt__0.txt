@@ -1,0 +1,4 @@
+"time" --- Time access and conversions
+**************************************
+======================================================================
+This module provides various time-related functions. For related

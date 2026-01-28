@@ -1,0 +1,3 @@
+need to exercise some care. In the above example, for instance,
+      the "Formatter" has been set up with a format string which
+      expects 'clientip' and 'user' in the attribute dictionary of the

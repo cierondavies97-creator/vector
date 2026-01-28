@@ -1,0 +1,6 @@
+the callee's frame will be on the stack).
+sys.monitoring.events.RAISE
+   An exception is raised, except those that cause a "STOP_ITERATION"
+   event.
+sys.monitoring.events.RERAISE
+   An exception is re-raised, for example at the end of a "finally"

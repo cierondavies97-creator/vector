@@ -1,0 +1,4 @@
+official Python releases. These files are in the "PCbuild" directory.
+Check "PCbuild/readme.txt" for general information on the build
+process.
+For extension modules, consult Building C and C++ Extensions on

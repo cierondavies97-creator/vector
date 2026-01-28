@@ -1,0 +1,6 @@
+is one of the hours straddling the moment the standard offset
+   changes.
+   Skipping code for error cases, the default "fromutc()"
+   implementation acts like:
+      def fromutc(self, dt):
+          # raise ValueError error if dt.tzinfo is not self

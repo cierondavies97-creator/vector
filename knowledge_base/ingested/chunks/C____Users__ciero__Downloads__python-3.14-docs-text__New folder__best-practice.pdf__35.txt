@@ -1,0 +1,12 @@
+Nicola Chiapolini, 8 July 2024
+16 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+assert
+▶ Not intended for checks needed in production.
+Example
+def withdraw(balance,amount):

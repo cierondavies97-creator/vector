@@ -1,0 +1,5 @@
+implementations of Python.
+sys._is_interned(string)
+   Return "True" if the given string is "interned", "False" otherwise.
+   Added in version 3.13.
+   **CPython implementation detail:** It is not guaranteed to exist in

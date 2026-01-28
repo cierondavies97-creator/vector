@@ -1,0 +1,5 @@
+"False", "None", "OK", "CANCEL", "YES", "NO") based on the user's
+selection. Common message box styles and layouts include but are not
+limited to:
+   [image]
+class tkinter.messagebox.Message(master=None, **options)

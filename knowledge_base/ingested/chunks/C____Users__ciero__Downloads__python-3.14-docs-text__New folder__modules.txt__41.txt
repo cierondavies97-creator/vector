@@ -1,0 +1,4 @@
+than when it is read from a ".py" file; the only thing that's faster
+  about ".pyc" files is the speed with which they are loaded.
+* The module "compileall" can create .pyc files for all modules in a
+  directory.

@@ -1,0 +1,5 @@
+special "os.devnull" file will be used
+   * *stderr* can be any of these:
+     * a file-like object
+     * the "subprocess.PIPE" constant (default) which will create a
+       new pipe and connect it,

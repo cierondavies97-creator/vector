@@ -1,0 +1,3 @@
+"PyErr_Clear()".  The only time C code should call "PyErr_Clear()" is
+if it doesn't want to pass the error on to the interpreter but wants
+to handle it completely by itself (possibly by trying something else,

@@ -1,0 +1,4 @@
+facilities to send events to it and process them. Unlike Python,
+   Tcl's execution model is designed around cooperative multitasking,
+   and Tkinter bridges this difference (see Threading model for
+   details).

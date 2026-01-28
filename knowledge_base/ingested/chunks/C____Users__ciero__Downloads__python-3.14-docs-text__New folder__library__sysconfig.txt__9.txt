@@ -1,0 +1,5 @@
+installed.
+* *posix_home*: scheme for POSIX platforms, when the *home* option is
+  used. This scheme defines paths located under a specific home
+  prefix.
+* *posix_user*: scheme for POSIX platforms, when the *user* option is

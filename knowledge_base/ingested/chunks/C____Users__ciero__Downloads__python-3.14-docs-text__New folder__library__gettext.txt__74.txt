@@ -1,0 +1,4 @@
+but only understands Python source code and cannot handle other
+programming languages such as C or C++. **pygettext.py** supports a
+command-line interface similar to **xgettext**; for details on its
+use, run "pygettext.py --help".  **msgfmt.py** is binary compatible

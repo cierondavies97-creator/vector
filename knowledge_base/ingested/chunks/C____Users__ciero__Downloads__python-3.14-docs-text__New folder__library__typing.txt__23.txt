@@ -1,0 +1,3 @@
+to "Original" in all cases. This is useful when you want to simplify
+  complex type signatures.In contrast, "NewType" declares one type to
+  be a *subtype* of another. Doing "Derived = NewType('Derived',

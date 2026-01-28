@@ -1,0 +1,3 @@
+For "time" objects, the format codes for year, month, and day should
+not be used, as "time" objects have no such values. If they're used
+anyway, 1900 is substituted for the year, and 1 for the month and day.

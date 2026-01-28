@@ -1,0 +1,6 @@
+attributes:
+   pack(v1, v2, ...)
+      Identical to the "pack()" function, using the compiled format.
+      ("len(result)" will equal "size".)
+   pack_into(buffer, offset, v1, v2, ...)
+      Identical to the "pack_into()" function, using the compiled

@@ -1,0 +1,5 @@
+"os.devnull" will be used.
+   Added in version 3.3.
+subprocess.PIPE
+   Special value that can be used as the *stdin*, *stdout* or *stderr*
+   argument to "Popen" and indicates that a pipe to the standard

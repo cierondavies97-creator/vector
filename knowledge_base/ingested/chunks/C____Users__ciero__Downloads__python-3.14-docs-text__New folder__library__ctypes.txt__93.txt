@@ -1,0 +1,4 @@
+>>> printf(b"%d %d %d", 1, 2, 3)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   ctypes.ArgumentError: argument 2: TypeError: 'int' object cannot be interpreted as ctypes.c_char_p

@@ -1,0 +1,5 @@
+it doesn't exist.
+        * "'n'": Always create a new, empty database, open for reading
+          and writing.
+      * **mode** (*int*) -- The Unix file access mode of the file
+        (default: octal "0o666"), used only when the database has to

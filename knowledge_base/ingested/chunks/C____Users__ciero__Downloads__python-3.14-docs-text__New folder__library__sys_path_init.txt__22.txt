@@ -1,0 +1,3 @@
+ignored, isolated mode is enabled, and "site" is not imported unless
+one line in the file specifies "import site". Blank paths and lines
+starting with "#" are ignored. Each path may be absolute or relative

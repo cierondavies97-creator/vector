@@ -1,0 +1,4 @@
+not contain a "__main__.py" file, as otherwise the resulting
+   archive would not be executable.
+   The optional *filter* argument specifies a callback function that
+   is passed a Path object representing the path to the file being

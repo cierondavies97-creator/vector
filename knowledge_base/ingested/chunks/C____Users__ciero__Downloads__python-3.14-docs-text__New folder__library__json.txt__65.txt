@@ -1,0 +1,5 @@
+Changed in version 3.6: All parameters are now keyword-only.
+   decode(s)
+      Return the Python representation of *s* (a "str" instance
+      containing a JSON document).
+      "JSONDecodeError" will be raised if the given JSON document is

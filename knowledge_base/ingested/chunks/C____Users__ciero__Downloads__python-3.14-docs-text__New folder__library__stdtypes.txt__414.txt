@@ -1,0 +1,4 @@
+The algorithm uses a simple language-independent definition of a
+   word as groups of consecutive letters.  The definition works in
+   many contexts but it means that apostrophes in contractions and
+   possessives form word boundaries, which may not be the desired

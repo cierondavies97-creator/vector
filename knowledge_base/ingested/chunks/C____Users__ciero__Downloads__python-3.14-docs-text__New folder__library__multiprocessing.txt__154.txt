@@ -1,0 +1,4 @@
+prevents the background thread from being joined automatically
+      when the process exits -- see "join_thread()".
+      A better name for this method might be
+      "allow_exit_without_flush()".  It is likely to cause enqueued

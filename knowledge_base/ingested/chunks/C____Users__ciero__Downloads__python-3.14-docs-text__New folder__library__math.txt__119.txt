@@ -1,0 +1,7 @@
+* "math.nextafter(x, math.copysign(math.inf, x))" goes away from
+     zero.
+   See also "math.ulp()".
+   Added in version 3.9.
+   Changed in version 3.12: Added the *steps* argument.
+math.ulp(x)
+   Return the value of the least significant bit of the float *x*:

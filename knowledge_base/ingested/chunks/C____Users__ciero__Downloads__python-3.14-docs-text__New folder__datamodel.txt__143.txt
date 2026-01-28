@@ -1,0 +1,5 @@
+module. It is expected to match the value of
+   "module.__spec__.name".
+module.__spec__
+   A record of the module's import-system-related state.
+   Set to the "module spec" that was used when importing the module.

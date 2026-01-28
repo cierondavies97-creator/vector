@@ -1,0 +1,5 @@
+PrettyPrinter.pprint(object)
+   Print the formatted representation of *object* on the configured
+   stream, followed by a newline.
+The following methods provide the implementations for the
+corresponding functions of the same names.  Using these methods on an

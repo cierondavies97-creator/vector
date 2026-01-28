@@ -1,0 +1,4 @@
+The "Template" class describes the contents of a template string.
+   It is immutable, meaning that attributes of a template cannot be
+   reassigned.
+   The most common way to create a "Template" instance is to use the

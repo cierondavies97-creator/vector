@@ -1,0 +1,5 @@
+The socket type will be "SOCK_STREAM".
+   *protocol_factory* must be a callable returning an asyncio protocol
+   implementation.
+   This method will try to establish the connection in the background.
+   When successful, it returns a "(transport, protocol)" pair.

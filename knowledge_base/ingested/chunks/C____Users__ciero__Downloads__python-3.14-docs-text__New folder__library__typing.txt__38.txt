@@ -1,0 +1,7 @@
+"Concatenate". See **PEP 612** for more details.
+See also:
+  The documentation for "ParamSpec" and "Concatenate" provides
+  examples of usage in "Callable".
+Generics
+========
+Since type information about objects kept in containers cannot be

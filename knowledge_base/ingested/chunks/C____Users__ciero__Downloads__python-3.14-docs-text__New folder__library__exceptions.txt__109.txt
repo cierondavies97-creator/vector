@@ -1,0 +1,5 @@
+pipe while the other end has been closed, or trying to write on a
+   socket which has been shutdown for writing. Corresponds to "errno"
+   "EPIPE" and "ESHUTDOWN".
+exception ConnectionAbortedError
+   A subclass of "ConnectionError", raised when a connection attempt

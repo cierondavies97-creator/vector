@@ -1,0 +1,4 @@
+strings for *fromfile*, *tofile*, *fromfiledate*, and *tofiledate*.
+   The modification times are normally expressed in the ISO 8601
+   format. If not specified, the strings default to blanks.
+   >>> s1 = ['bacon\n', 'eggs\n', 'ham\n', 'guido\n']

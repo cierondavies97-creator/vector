@@ -1,0 +1,5 @@
+"date.fromordinal(d.toordinal()) == d".
+date.weekday()
+   Return the day of the week as an integer, where Monday is 0 and
+   Sunday is 6. For example, "date(2002, 12, 4).weekday() == 2", a
+   Wednesday. See also "isoweekday()".

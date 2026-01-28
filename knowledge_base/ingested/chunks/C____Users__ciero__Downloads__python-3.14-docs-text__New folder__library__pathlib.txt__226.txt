@@ -1,0 +1,4 @@
+database.
+   This method normally follows symlinks; to get the group of the
+   symlink, add the argument "follow_symlinks=False".
+   Changed in version 3.13: Raises "UnsupportedOperation" if the "grp"

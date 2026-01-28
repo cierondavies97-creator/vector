@@ -1,0 +1,5 @@
+default does not require the "Optional" qualifier on its type
+   annotation just because it is optional. For example:
+      def foo(arg: int = 0) -> None:
+          ...
+   On the other hand, if an explicit value of "None" is allowed, the

@@ -1,0 +1,4 @@
+An example that will remove *remove_this* from email addresses:
+      >>> email = "tony@tiremove_thisger.net"
+      >>> m = re.search("remove_this", email)
+      >>> email[:m.start()] + email[m.end():]

@@ -1,0 +1,4 @@
+*pathsegments* is specified similarly to "PurePath".
+   Changed in version 3.13: Raises "UnsupportedOperation" on Windows.
+   In previous versions, "NotImplementedError" was raised instead.
+class pathlib.WindowsPath(*pathsegments)

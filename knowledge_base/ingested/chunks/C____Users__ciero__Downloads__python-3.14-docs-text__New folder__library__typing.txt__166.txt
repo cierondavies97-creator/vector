@@ -1,0 +1,5 @@
+is allowed as type argument to "Literal[...]", but type checkers
+   may impose restrictions. See **PEP 586** for more details about
+   literal types.
+   Additional details:
+   * The arguments must be literal values and there must be at least

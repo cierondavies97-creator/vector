@@ -1,0 +1,4 @@
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.
+The Python interface is a straightforward transliteration of the Unix
+system call and library interface for sockets to Python's object-

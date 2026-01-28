@@ -1,0 +1,5 @@
+client(ip, port, "Hello World 3")
+           server.shutdown()
+The output of the example should look something like this:
+   $ python ThreadedTCPServer.py
+   Server loop running in thread: Thread-1

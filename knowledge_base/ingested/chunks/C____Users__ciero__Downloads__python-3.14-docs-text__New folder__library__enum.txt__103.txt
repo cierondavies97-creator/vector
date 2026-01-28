@@ -1,0 +1,8 @@
+...     RED = auto()
+         ...     GREEN = auto()
+         ...     BLUE = auto()
+         ...
+         >>> ConformFlag(2**2 + 2**4)
+         <ConformFlag.BLUE: 4>
+   EJECT
+      Out-of-range values lose their "Flag" membership and revert to

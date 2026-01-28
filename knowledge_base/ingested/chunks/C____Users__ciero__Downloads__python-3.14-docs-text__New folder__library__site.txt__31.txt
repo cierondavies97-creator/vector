@@ -1,0 +1,5 @@
+a site directory, which means that ".pth" files in it will be
+   processed.
+site.USER_BASE
+   Path to the base directory for the user site-packages.  Can be
+   "None" if "getuserbase()" hasn't been called yet.  Default value is

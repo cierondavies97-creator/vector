@@ -1,0 +1,5 @@
+Added in version 3.2.
+   read_dict(dictionary, source='<dict>')
+      Load configuration from any object that provides a dict-like
+      "items()" method.  Keys are section names, values are
+      dictionaries with keys and values that should be present in the

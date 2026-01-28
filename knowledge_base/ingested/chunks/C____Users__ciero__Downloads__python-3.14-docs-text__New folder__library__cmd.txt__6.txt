@@ -1,0 +1,4 @@
+only work with a specific backend.
+   The optional arguments *stdin* and *stdout* specify the  input and
+   output file objects that the Cmd instance or subclass  instance
+   will use for input and output. If not specified, they will default

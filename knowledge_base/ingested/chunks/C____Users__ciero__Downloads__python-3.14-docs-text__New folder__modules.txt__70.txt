@@ -1,0 +1,3 @@
+the uniform handling of sound files and sound data.  There are many
+different sound file formats (usually recognized by their extension,
+for example: ".wav", ".aiff", ".au"), so you may need to create and

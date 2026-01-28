@@ -1,0 +1,3 @@
+used as the main program for the archive.  It can only be specified
+   if the source is a directory, and the source does not already
+   contain a "__main__.py" file.  The *main* argument should take the

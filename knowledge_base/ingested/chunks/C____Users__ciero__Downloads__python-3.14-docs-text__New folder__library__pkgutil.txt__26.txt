@@ -1,0 +1,5 @@
+"get_data".
+pkgutil.resolve_name(name)
+   Resolve a name to an object.
+   This functionality is used in numerous places in the standard
+   library (see bpo-12915) - and equivalent functionality is also in

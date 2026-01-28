@@ -1,0 +1,4 @@
+value to be assigned to it.
+   If "__setattr__()" wants to assign to an instance attribute, it
+   should call the base class method with the same name, for example,
+   "object.__setattr__(self, name, value)".

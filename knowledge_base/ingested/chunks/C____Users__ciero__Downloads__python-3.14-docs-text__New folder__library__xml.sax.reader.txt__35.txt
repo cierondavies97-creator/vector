@@ -1,0 +1,4 @@
+declaration (see section 4.3.3 of the XML recommendation).
+   The encoding attribute of the "InputSource" is ignored if the
+   "InputSource" also contains a character stream.
+InputSource.getEncoding()

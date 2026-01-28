@@ -1,0 +1,5 @@
+CFLAGS='-D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64' OPT="-g -O2 $CFLAGS" \
+           ./configure
+Notable Module Contents
+=======================
+In addition to many functions described in the "os" module

@@ -1,0 +1,5 @@
+function.  When the code object is executed it returns an
+   asynchronous generator object.  See **PEP 525** for more details.
+   Added in version 3.6.
+inspect.CO_HAS_DOCSTRING
+   The flag is set when there is a docstring for the code object in

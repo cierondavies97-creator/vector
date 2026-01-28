@@ -1,0 +1,3 @@
+value, "StopIteration", or other exception) is the same as when
+   iterating over the "__await__()" return value, described above.  If
+   the exception is not caught in the coroutine, it propagates back to

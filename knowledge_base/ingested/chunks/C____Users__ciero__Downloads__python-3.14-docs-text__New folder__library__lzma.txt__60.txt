@@ -1,0 +1,6 @@
+and 1.5 GiB (inclusive).
+* "lc": Number of literal context bits.
+* "lp": Number of literal position bits. The sum "lc + lp" must be at
+  most 4.
+* "pb": Number of position bits; must be at most 4.
+* "mode": "MODE_FAST" or "MODE_NORMAL".

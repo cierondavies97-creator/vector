@@ -1,0 +1,5 @@
+For example, using the *spawn* or *forkserver* start method running
+   the following module would fail with a "RuntimeError":
+      from multiprocessing import Process
+      def foo():
+          print('hello')

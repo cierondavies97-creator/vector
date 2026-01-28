@@ -1,0 +1,4 @@
+"persistent_load()" respectively.
+To pickle objects that have an external persistent ID, the pickler
+must have a custom "persistent_id()" method that takes an object as an
+argument and returns either "None" or the persistent ID for that

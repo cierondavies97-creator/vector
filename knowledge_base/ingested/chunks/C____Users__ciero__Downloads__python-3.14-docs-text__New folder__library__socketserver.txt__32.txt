@@ -1,0 +1,4 @@
+to receive all the data it has requested.  Here a threading or forking
+server is appropriate.
+In some cases, it may be appropriate to process part of a request
+synchronously, but to finish processing in a forked child depending on

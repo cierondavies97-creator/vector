@@ -1,0 +1,5 @@
+This method is deprecated; use "os.path.isreserved()" to detect
+   reserved paths on Windows.
+PurePath.joinpath(*pathsegments)
+   Calling this method is equivalent to combining the path with each
+   of the given *pathsegments* in turn:

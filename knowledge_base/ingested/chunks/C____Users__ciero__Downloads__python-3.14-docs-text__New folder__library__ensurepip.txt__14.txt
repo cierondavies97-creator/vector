@@ -1,0 +1,3 @@
+be installed when bootstrapping an environment.
+ensurepip.bootstrap(root=None, upgrade=False, user=False, altinstall=False, default_pip=False, verbosity=0)
+   Bootstraps "pip" into the current or designated environment.

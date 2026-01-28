@@ -1,0 +1,5 @@
+"add_option_group()" the group is added to the previously defined
+parser.
+Continuing with the parser defined in the previous section, adding an
+"OptionGroup" to a parser is easy:
+   group = OptionGroup(parser, "Dangerous Options",

@@ -1,0 +1,5 @@
+match_args=True, kw_only=False, slots=False, weakref_slot=False)
+      class C:
+          ...
+   The parameters to "@dataclass" are:
+   * *init*: If true (the default), a "__init__()" method will be

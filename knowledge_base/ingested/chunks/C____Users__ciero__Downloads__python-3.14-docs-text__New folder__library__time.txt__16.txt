@@ -1,0 +1,3 @@
++---------------------------+---------------------------+---------------------------+
+  | seconds since the epoch   | "struct_time" in local    | "localtime()"             |
+  |                           | time                      |                           |

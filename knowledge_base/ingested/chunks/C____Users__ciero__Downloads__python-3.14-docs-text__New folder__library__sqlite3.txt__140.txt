@@ -1,0 +1,5 @@
+Note:
+        Exceptions raised in the trace callback are not propagated. As
+        a development and debugging aid, use
+        "enable_callback_tracebacks()" to enable printing tracebacks
+        from exceptions raised in the trace callback.

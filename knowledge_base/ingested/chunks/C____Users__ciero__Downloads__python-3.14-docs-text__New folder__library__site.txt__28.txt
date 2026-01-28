@@ -1,0 +1,4 @@
+"True" means that it is enabled and was added to "sys.path".
+   "False" means that it was disabled by user request (with "-s" or
+   "PYTHONNOUSERSITE").  "None" means it was disabled for security
+   reasons (mismatch between user or group id and effective id) or by

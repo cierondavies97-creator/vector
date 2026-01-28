@@ -1,0 +1,7 @@
+'NFKD'.
+   Added in version 3.8.
+In addition, the module exposes the following constant:
+unicodedata.unidata_version
+   The version of the Unicode database used in this module.
+unicodedata.ucd_3_2_0
+   This is an object that has the same methods as the entire module,

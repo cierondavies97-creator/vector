@@ -1,0 +1,4 @@
+8 bytes for BLAKE2s).
+The following table shows limits for general parameters (in bytes):
++---------+-------------+----------+-----------+-------------+
+| Hash    | digest_size | len(key) | len(salt) | len(person) |

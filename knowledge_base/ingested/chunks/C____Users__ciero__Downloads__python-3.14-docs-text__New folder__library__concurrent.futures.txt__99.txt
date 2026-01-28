@@ -1,0 +1,5 @@
+Sets the result of the work associated with the "Future" to
+      *result*.
+      This method should only be used by "Executor" implementations
+      and unit tests.
+      Changed in version 3.8: This method raises

@@ -1,0 +1,7 @@
+* Example of Client and Server Usage
+* "xmlrpc.server" --- Basic XML-RPC servers
+  * SimpleXMLRPCServer Objects
+    * SimpleXMLRPCServer Example
+  * CGIXMLRPCRequestHandler
+  * Documenting XMLRPC server
+  * DocXMLRPCServer Objects

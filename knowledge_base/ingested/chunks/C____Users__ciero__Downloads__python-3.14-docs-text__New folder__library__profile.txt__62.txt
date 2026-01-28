@@ -1,0 +1,4 @@
+used as secondary criteria when there is equality in all keys
+      selected before them.  For example, "sort_stats(SortKey.NAME,
+      SortKey.FILE)" will sort all the entries according to their
+      function name, and resolve all ties (identical function names)

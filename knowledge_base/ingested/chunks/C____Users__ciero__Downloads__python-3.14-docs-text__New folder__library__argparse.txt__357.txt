@@ -1,0 +1,7 @@
+Exceptions
+==========
+exception argparse.ArgumentError
+   An error from creating or using an argument (optional or
+   positional).
+   The string value of this exception is the message, augmented with
+   information about the argument that caused it.

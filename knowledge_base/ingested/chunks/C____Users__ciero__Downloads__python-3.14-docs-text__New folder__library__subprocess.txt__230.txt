@@ -1,0 +1,3 @@
+exception until at least after however long process creation takes.
+2. **Extremely Small Timeout Values**: Setting very small timeout
+   values (such as a few milliseconds) may result in almost immediate

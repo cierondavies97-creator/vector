@@ -1,0 +1,7 @@
+self.reprname = reprname
+           self.stdname = stdname
+           self.dstname = dstname
+       def __repr__(self):
+           return self.reprname
+       def tzname(self, dt):
+           if self.dst(dt):

@@ -1,0 +1,4 @@
+Run awaitable objects in the *aws* iterable concurrently. The
+   returned object can be iterated to obtain the results of the
+   awaitables as they finish.
+   The object returned by "as_completed()" can be iterated as an

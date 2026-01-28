@@ -1,0 +1,6 @@
+"quote()" lets you plug the security hole:
+   >>> from shlex import quote
+   >>> command = 'ls -l {}'.format(quote(filename))
+   >>> print(command)
+   ls -l 'somefile; rm -rf ~'
+   >>> remote_command = 'ssh home {}'.format(quote(command))

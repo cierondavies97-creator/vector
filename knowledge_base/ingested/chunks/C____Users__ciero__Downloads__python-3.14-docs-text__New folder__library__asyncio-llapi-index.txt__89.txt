@@ -1,0 +1,2 @@
+| "transport.get_write_buffer_size()"                | Return the current size of the output buffer.      |
++----------------------------------------------------+----------------------------------------------------+

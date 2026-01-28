@@ -1,0 +1,6 @@
+when the time of the underlying clock changes discontinuously.
+   Availability: Linux >= 2.6.27 with glibc >= 2.8
+   Added in version 3.13.
+Linux extended attributes
+-------------------------
+Added in version 3.3.

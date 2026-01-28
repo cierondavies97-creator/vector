@@ -1,0 +1,4 @@
+stdout=b'crw-rw-rw- 1 root root 1, 3 Jan 23 16:23 /dev/null\n', stderr=b'')
+   Added in version 3.5.
+   Changed in version 3.6: Added *encoding* and *errors* parameters
+   Changed in version 3.7: Added the *text* parameter, as a more

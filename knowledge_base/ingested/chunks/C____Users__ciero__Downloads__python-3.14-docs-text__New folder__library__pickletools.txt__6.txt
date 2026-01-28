@@ -1,0 +1,8 @@
+9: .    STOP
+   highest protocol among opcodes = 2
+Command-line options
+--------------------
+-a, --annotate
+   Annotate each line with a short opcode description.
+-o, --output=<file>
+   Name of a file where the output should be written.

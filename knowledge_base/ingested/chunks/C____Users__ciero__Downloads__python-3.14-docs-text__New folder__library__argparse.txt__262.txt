@@ -1,0 +1,4 @@
+help, by default the name of the program and any positional
+     arguments before the subparser argument
+   * *parser_class* - class which will be used to create sub-parser
+     instances, by default the class of the current parser (e.g.

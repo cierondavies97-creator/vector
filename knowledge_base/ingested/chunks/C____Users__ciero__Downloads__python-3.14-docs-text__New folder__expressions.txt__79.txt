@@ -1,0 +1,4 @@
+passed in exception immediately.
+When the underlying iterator is complete, the "value" attribute of the
+raised "StopIteration" instance becomes the value of the yield
+expression. It can be either set explicitly when raising

@@ -1,0 +1,4 @@
+A "Calendar" object provides several methods that can be used for
+   preparing the calendar data for formatting. This class doesn't do
+   any formatting itself. This is the job of subclasses.
+   "Calendar" instances have the following methods and attributes:

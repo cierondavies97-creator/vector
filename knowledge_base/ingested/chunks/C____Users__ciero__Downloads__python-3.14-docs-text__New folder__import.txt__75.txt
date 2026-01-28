@@ -1,0 +1,3 @@
+module spec, and returns the new module object to use during loading.
+"create_module()" does not need to set any attributes on the module
+object.  If the method returns "None", the import machinery will

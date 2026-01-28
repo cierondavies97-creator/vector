@@ -1,0 +1,7 @@
+permission-bit model.
+   Changed in version 3.3: Added the *dir_fd*, *effective_ids*, and
+   *follow_symlinks* parameters.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.F_OK
+os.R_OK
+os.W_OK

@@ -1,0 +1,6 @@
+archive.
+   "--compress" has no effect when copying an archive.
+   Added in version 3.7.
+--info
+   Display the interpreter embedded in the archive, for diagnostic
+   purposes.  In this case, any other options are ignored and SOURCE

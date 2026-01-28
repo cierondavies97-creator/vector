@@ -1,0 +1,4 @@
+comparisons for singletons should always be done with "is" or "is
+  not", never the equality operators.
+* Binary sequences (instances of "bytes" or "bytearray") can be
+  compared within and across their types.  They compare

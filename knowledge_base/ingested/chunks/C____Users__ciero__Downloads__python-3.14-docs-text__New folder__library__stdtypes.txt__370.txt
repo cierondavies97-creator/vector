@@ -1,0 +1,4 @@
+Unicode ordinals, strings (of arbitrary lengths) or "None".
+   Character keys will then be converted to ordinals.
+   If there are two arguments, they must be strings of equal length,
+   and in the resulting dictionary, each character in *from* will be

@@ -1,0 +1,3 @@
+If "isolation_level" is set to "None", no transactions are implicitly
+opened at all. This leaves the underlying SQLite library in autocommit
+mode, but also allows the user to perform their own transaction

@@ -1,0 +1,4 @@
+The named module and any modules named in the *fresh* and *blocked*
+   parameters are saved before starting the import and then reinserted
+   into "sys.modules" when the fresh import is complete.
+   Module and package deprecation messages are suppressed during this

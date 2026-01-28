@@ -1,0 +1,4 @@
+"Message.walk" method.  The "email.iterators" module provides some
+useful higher level iterations over message object trees.
+email.iterators.body_line_iterator(msg, decode=False)
+   This iterates over all the payloads in all the subparts of *msg*,

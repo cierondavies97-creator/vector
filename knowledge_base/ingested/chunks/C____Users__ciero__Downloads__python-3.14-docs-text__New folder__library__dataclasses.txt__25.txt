@@ -1,0 +1,4 @@
+result in a "TypeError".
+     If *eq* and *frozen* are both true, by default "@dataclass" will
+     generate a "__hash__()" method for you.  If *eq* is true and
+     *frozen* is false, "__hash__()" will be set to "None", marking it

@@ -1,0 +1,5 @@
+_PyPegen_star_etc(p, NULL, b, c) }
+       | a=lambda_kwds { _PyPegen_star_etc(p, NULL, NULL, a) }
+   lambda_kwds[arg_ty]:
+       | invalid_lambda_kwds
+       | '**' a=lambda_param_no_default { a }

@@ -1,0 +1,4 @@
+* Remove the group & other executable permission ("S_IXGRP" |
+       "S_IXOTH") if the owner doesn’t have it ("S_IXUSR").
+   * For other files (directories), set "mode" to "None", so that
+     extraction methods skip applying permission bits.

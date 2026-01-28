@@ -1,0 +1,10 @@
+while True:
+       try:
+           line = input()
+       except EOFError:
+           break
+       else:
+           lines.append(line)
+   msg = "\r\n".join(lines)
+   print("Message length is", len(msg))
+   server = smtplib.SMTP("localhost")

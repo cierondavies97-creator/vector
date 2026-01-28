@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+   | flags.int_max_str_digits                           | "-X int_max_str_digits" (integer string conversion |

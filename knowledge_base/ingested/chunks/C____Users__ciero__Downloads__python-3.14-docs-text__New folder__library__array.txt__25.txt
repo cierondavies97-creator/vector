@@ -1,0 +1,4 @@
+only way to effectively make use of this information), it
+        makes more sense to use the buffer interface supported by
+        array objects.  This method is maintained for backward
+        compatibility and should be avoided in new code.  The buffer

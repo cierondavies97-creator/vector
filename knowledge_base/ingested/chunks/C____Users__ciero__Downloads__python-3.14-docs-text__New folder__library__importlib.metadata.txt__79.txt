@@ -1,0 +1,6 @@
+class DatabaseDistribution(importlib.metadata.Distribution):
+       def __init__(self, record):
+           self.record = record
+       def read_text(self, filename):
+           """
+           Read a file like "METADATA" for the current distribution.

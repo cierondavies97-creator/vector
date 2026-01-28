@@ -1,0 +1,5 @@
+Added in version 3.6: "Flag", "IntFlag", "auto"
+Added in version 3.11: "StrEnum", "EnumCheck", "ReprEnum",
+"FlagBoundary", "property", "member", "nonmember", "global_enum",
+"show_flag_values"
+Added in version 3.13: "EnumDict"

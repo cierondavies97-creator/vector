@@ -1,0 +1,6 @@
+connections is defined in Object connections below.
+Dictionary Schema Details
+-------------------------
+The dictionary passed to "dictConfig()" must contain the following
+keys:
+* *version* - to be set to an integer value representing the schema

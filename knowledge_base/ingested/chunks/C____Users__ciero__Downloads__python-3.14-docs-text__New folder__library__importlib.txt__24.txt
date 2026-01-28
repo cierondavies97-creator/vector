@@ -1,0 +1,4 @@
+the module) are not rebound to refer to the new objects and must
+     be updated in each namespace where they occur if that is desired.
+   There are a number of other caveats:
+   When a module is reloaded, its dictionary (containing the module's

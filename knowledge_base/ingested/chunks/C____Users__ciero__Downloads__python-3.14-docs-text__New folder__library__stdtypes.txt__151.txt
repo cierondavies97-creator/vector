@@ -1,0 +1,6 @@
+(such as "str", "bytes" and "bytearray") also use them for
+   subsequence testing:
+      >>> "gg" in "eggs"
+      True
+2. Values of *n* less than "0" are treated as "0" (which yields an
+   empty sequence of the same type as *s*).  Note that items in the

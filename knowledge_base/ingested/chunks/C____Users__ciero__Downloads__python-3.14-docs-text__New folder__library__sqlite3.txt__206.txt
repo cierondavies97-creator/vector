@@ -1,0 +1,5 @@
+cur.executemany("INSERT INTO data VALUES(?)", rows)
+      Note:
+        Any resulting rows are discarded, including DML statements
+        with RETURNING clauses.
+      Changed in version 3.14: "ProgrammingError" is emitted if named

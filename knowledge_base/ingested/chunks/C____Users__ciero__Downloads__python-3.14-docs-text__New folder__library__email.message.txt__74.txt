@@ -1,0 +1,4 @@
+necessary.  A "HeaderParseError" is raised if the message object
+      has no *Content-Type* header.
+      Note that using this method is subtly different from deleting
+      the old *Content-Type* header and adding a new one with the new

@@ -1,0 +1,6 @@
+descriptor to a "data descriptor".  See Invoking Descriptors for
+   more details.
+object.__delete__(self, instance)
+   Called to delete the attribute on an instance *instance* of the
+   owner class.
+Instances of descriptors may also have the "__objclass__" attribute

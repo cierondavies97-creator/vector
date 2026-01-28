@@ -1,0 +1,4 @@
+"None" is returned.
+   If *name* is a string and is not known, "ValueError" is raised.  If
+   a specific value for *name* is not supported by the host system,
+   even if it is included in "confstr_names", an "OSError" is raised

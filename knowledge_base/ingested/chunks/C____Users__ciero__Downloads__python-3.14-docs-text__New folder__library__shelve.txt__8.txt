@@ -1,0 +1,5 @@
+accessed entries are mutable, nor which ones were actually
+   mutated).
+   Changed in version 3.10: "pickle.DEFAULT_PROTOCOL" is now used as
+   the default pickle protocol.
+   Changed in version 3.11: Accepts *path-like object* for filename.

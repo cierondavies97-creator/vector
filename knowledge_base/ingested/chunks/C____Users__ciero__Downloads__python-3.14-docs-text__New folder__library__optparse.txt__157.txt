@@ -1,0 +1,3 @@
+* pass it an Option instance (as returned by "make_option()")
+* pass it any combination of positional and keyword arguments that are
+  acceptable to "make_option()" (i.e., to the Option constructor), and

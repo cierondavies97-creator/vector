@@ -1,0 +1,5 @@
+pass
+   This context manager is reentrant.
+   If the code within the "with" block raises a "BaseExceptionGroup",
+   suppressed exceptions are removed from the group.  Any exceptions
+   of the group which are not suppressed are re-raised in a new group

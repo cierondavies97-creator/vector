@@ -1,0 +1,6 @@
+Changed in version 3.10: Use of "load_module()" will raise
+"ImportWarning".
+5.4.2. Submodules
+-----------------
+When a submodule is loaded using any mechanism (e.g. "importlib" APIs,
+the "import" or "import-from" statements, or built-in "__import__()")

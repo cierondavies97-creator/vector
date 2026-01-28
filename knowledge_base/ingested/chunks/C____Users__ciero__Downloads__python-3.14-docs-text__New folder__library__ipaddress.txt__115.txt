@@ -1,0 +1,4 @@
+An "AddressValueError" is raised if *address* is not a valid IPv6
+   address.  A "NetmaskValueError" is raised if the mask is not valid
+   for an IPv6 address.
+   If *strict* is "True" and host bits are set in the supplied

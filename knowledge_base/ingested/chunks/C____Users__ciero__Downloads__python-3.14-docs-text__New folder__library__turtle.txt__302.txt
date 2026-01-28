@@ -1,0 +1,5 @@
+from the docstrings.
+* *using_IDLE*: Set this to "True" if you regularly work with IDLE and
+  its "-n" switch ("no subprocess").  This will prevent
+  "exitonclick()" to enter the mainloop.
+There can be a "turtle.cfg" file in the directory where "turtle" is

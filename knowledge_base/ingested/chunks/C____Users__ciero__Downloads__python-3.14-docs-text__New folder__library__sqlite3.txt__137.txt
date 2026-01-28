@@ -1,0 +1,3 @@
+Register *callable* *trace_callback* to be invoked for each SQL
+      statement that is actually executed by the SQLite backend.
+      The only argument passed to the callback is the statement (as

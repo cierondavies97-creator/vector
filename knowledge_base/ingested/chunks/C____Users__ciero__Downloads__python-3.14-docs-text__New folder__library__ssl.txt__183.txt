@@ -1,0 +1,4 @@
+on both sides, see "SSLContext.post_handshake_auth".
+   The method does not perform a cert exchange immediately. The
+   server-side sends a CertificateRequest during the next write event
+   and expects the client to respond with a certificate on the next

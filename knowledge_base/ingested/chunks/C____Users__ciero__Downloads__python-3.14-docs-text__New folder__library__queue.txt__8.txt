@@ -1,0 +1,4 @@
+has been reached, until queue items are consumed.  If *maxsize* is
+   less than or equal to zero, the queue size is infinite.
+class queue.PriorityQueue(maxsize=0)
+   Constructor for a priority queue.  *maxsize* is an integer that

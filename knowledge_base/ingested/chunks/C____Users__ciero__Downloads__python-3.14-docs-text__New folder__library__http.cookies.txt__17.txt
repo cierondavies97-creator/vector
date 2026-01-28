@@ -1,0 +1,12 @@
+--- the valid **RFC 2109** attributes, which are:
+      expires
+      path
+      comment
+      domain
+      max-age
+      secure
+      version
+      httponly
+      samesite
+      partitioned
+   The attribute "httponly" specifies that the cookie is only

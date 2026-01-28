@@ -1,0 +1,4 @@
+"list", "set" and "frozenset", and "tuple".  The "str" class is used
+to hold Unicode strings, and the "bytes" and "bytearray" classes are
+used to hold binary data.
+The following modules are documented in this chapter:

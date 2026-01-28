@@ -1,0 +1,4 @@
+SSL/TLS handshake. It should be a list of strings, like
+   "['http/1.1', 'spdy/2']", ordered by preference. The selection of a
+   protocol will happen during the handshake, and will play out
+   according to the Application Layer Protocol Negotiation. After a

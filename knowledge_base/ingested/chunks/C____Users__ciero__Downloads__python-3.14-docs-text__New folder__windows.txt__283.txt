@@ -1,0 +1,4 @@
+If a "pyvenv.cfg" file is found alongside the main executable or in
+the directory one level above the executable, the following variations
+apply:
+* If "home" is an absolute path and "PYTHONHOME" is not set, this path

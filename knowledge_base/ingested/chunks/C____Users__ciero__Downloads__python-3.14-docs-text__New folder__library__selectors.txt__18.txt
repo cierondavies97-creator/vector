@@ -1,0 +1,4 @@
+closed.
+      *fileobj* must be a file object previously registered.
+      This returns the associated "SelectorKey" instance, or raises a
+      "KeyError" if *fileobj* is not registered.  It will raise

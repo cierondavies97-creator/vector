@@ -1,0 +1,4 @@
+Create and return a processing instruction node containing the
+   *target* and *data* passed as parameters.  As with the other
+   creation methods, this one does not insert the node into the tree.
+Document.createAttribute(name)

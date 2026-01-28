@@ -1,0 +1,3 @@
+are not guaranteed to work correctly after a "runpy" function has
+returned. If that limitation is not acceptable for a given use case,
+"importlib" is likely to be a more suitable choice than this module.

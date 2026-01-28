@@ -1,0 +1,4 @@
+paths but also provide I/O operations.
+[image: Inheritance diagram showing the classes available in pathlib.
+The most basic class is PurePath, which has three direct subclasses:
+PurePosixPath, PureWindowsPath, and Path. Further to these four

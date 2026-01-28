@@ -1,0 +1,5 @@
+class types.ModuleType(name, doc=None)
+   The type of *modules*. The constructor takes the name of the module
+   to be created and optionally its *docstring*.
+   See also:
+     Documentation on module objects

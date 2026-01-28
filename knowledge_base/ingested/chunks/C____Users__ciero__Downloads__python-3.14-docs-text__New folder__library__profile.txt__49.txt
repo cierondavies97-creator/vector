@@ -1,0 +1,4 @@
+This class constructor creates an instance of a "statistics object"
+   from a *filename* (or list of filenames) or from a "Profile"
+   instance. Output will be printed to the stream specified by
+   *stream*.

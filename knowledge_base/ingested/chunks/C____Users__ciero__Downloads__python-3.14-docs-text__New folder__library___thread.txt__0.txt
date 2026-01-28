@@ -1,0 +1,4 @@
+"_thread" --- Low-level threading API
+*************************************
+======================================================================
+This module provides low-level primitives for working with multiple

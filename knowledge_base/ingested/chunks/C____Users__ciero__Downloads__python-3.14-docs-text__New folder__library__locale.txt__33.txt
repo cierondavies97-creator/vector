@@ -1,0 +1,2 @@
+|                        | "'mon_grouping'"                      | Equivalent to "'grouping'", used |
+   |                        |                                       | for monetary values.             |

@@ -1,0 +1,4 @@
+attributes to generators.The "__name__" attribute of generators is now
+set from the function name, instead of the code name, and it can now
+be modified.
+Changed in version 3.7: Add "cr_origin" attribute to coroutines.

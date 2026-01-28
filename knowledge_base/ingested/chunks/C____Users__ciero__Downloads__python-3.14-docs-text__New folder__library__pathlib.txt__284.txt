@@ -1,0 +1,5 @@
+exist.
+      If *follow_symlinks* is "False", return "True" for symlinks
+      without checking if their targets exist.
+   is_dir(*, follow_symlinks=True)
+      Return "True" if the path is a directory, or a symbolic link

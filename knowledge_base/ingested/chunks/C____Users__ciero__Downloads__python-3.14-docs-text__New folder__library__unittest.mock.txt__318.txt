@@ -1,0 +1,4 @@
+The "sentinel" object provides a convenient way of providing unique
+   objects for your tests.
+   Attributes are created on demand when you access them by name.
+   Accessing the same attribute will always return the same object.

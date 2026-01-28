@@ -1,0 +1,5 @@
+"sysconfig".
+sysconfig.get_path(name[, scheme[, vars[, expand]]])
+   Return an installation path corresponding to the path *name*, from
+   the install scheme named *scheme*.
+   *name* has to be a value from the list returned by

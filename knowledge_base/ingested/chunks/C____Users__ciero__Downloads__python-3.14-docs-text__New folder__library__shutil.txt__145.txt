@@ -1,0 +1,4 @@
+the terminal connected to "sys.__stdout__" is queried by invoking
+   "os.get_terminal_size()".
+   If the terminal size cannot be successfully queried, either because
+   the system doesn't support querying, or because we are not

@@ -1,0 +1,9 @@
+the international convention (ISO 8601) that Monday is the
+        first day of the week.
+   locale.ABDAY_1
+   locale.ABDAY_2
+   locale.ABDAY_3
+   locale.ABDAY_4
+   locale.ABDAY_5
+   locale.ABDAY_6
+   locale.ABDAY_7

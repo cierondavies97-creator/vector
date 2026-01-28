@@ -1,0 +1,6 @@
+try:
+          cache
+      except NameError:
+          cache = {}
+   It is generally not very useful to reload built-in or dynamically
+   loaded modules.  Reloading "sys", "__main__", "builtins" and other

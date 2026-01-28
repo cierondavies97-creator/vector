@@ -1,0 +1,7 @@
+"action", but "action" is the only one that makes sense for *all*
+options.
+Option attributes
+-----------------
+class optparse.Option
+   A single command line argument, with various attributes passed by
+   keyword to the constructor. Normally created with

@@ -1,0 +1,4 @@
+"F_OFD_GETLK", "F_OFD_SETLK" and "F_OFD_SETLKW" constants, which are
+used when working with open file description locks.
+Changed in version 3.10: On Linux >= 2.6.11, the "fcntl" module
+exposes the "F_GETPIPE_SZ" and "F_SETPIPE_SZ" constants, which allow

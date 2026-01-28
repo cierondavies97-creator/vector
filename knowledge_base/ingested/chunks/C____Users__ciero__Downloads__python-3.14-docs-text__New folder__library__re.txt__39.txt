@@ -1,0 +1,5 @@
+"\"
+   Either escapes special characters (permitting you to match
+   characters like "'*'", "'?'", and so forth), or signals a special
+   sequence; special sequences are discussed below.
+   If you're not using a raw string to express the pattern, remember

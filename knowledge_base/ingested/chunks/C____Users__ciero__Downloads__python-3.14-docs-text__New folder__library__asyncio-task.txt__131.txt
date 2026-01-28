@@ -1,0 +1,4 @@
+ipv4_connect = create_task(open_connection("127.0.0.1", 80))
+      ipv6_connect = create_task(open_connection("::1", 80))
+      tasks = [ipv4_connect, ipv6_connect]
+      async for earliest_connect in as_completed(tasks):

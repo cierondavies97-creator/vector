@@ -1,0 +1,3 @@
+raised in an "Error" exception at the end of the copy process. You
+   can set the optional *ignore_dangling_symlinks* flag to true if you
+   want to silence this exception. Notice that this option has no

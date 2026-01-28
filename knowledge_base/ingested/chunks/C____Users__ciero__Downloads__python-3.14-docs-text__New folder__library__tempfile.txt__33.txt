@@ -1,0 +1,4 @@
+This class securely creates a temporary directory using the same
+   rules as "mkdtemp()". The resulting object can be used as a
+   *context manager* (see Examples).  On completion of the context or
+   destruction of the temporary directory object, the newly created

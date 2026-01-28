@@ -1,0 +1,4 @@
+"__cause__" also implicitly sets the "__suppress_context__"
+   attribute to "True", so that using "raise new_exc from None"
+   effectively replaces the old exception with the new one for display
+   purposes (e.g. converting "KeyError" to "AttributeError"), while

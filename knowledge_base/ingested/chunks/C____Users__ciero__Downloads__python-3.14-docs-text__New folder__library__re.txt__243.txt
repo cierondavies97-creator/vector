@@ -1,0 +1,6 @@
+"copy.deepcopy()".  Match objects are considered atomic.
+Regular Expression Examples
+===========================
+Checking for a Pair
+-------------------
+In this example, we'll use the following helper function to display

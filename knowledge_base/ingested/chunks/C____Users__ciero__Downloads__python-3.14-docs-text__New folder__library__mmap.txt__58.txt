@@ -1,0 +1,8 @@
+mmap.MADV_NOCORE
+mmap.MADV_CORE
+mmap.MADV_PROTECT
+mmap.MADV_FREE_REUSABLE
+mmap.MADV_FREE_REUSE
+   These options can be passed to "mmap.madvise()".  Not every option
+   will be present on every system.
+   Availability: Systems with the madvise() system call.

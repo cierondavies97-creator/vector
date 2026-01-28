@@ -1,0 +1,4 @@
+custom message is appended to the end of the standard failure
+      message. When set to "False", the custom message replaces the
+      standard message.
+      The class setting can be overridden in individual test methods

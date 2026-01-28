@@ -1,0 +1,5 @@
+to ""1.0"".
+wsgiref.handlers.read_environ()
+   Transcode CGI variables from "os.environ" to **PEP 3333** "bytes in
+   unicode" strings, returning a new dictionary.  This function is
+   used by "CGIHandler" and "IISCGIHandler" in place of directly using

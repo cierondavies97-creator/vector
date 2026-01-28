@@ -1,0 +1,8 @@
+first argument:
+      >>> fun("Hello, world.")
+      Hello, world.
+      >>> fun("test.", verbose=True)
+      Let me just say, test.
+      >>> fun(42, verbose=True)
+      Strength in numbers, eh? 42
+      >>> fun(['spam', 'spam', 'eggs', 'spam'], verbose=True)

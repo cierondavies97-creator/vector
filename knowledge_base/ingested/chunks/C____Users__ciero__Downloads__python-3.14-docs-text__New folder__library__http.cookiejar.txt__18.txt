@@ -1,0 +1,5 @@
+"version" attribute of the "Cookie" instance to 0.
+   "DefaultCookiePolicy" also provides some parameters to allow some
+   fine-tuning of policy.
+class http.cookiejar.Cookie
+   This class represents Netscape, **RFC 2109** and **RFC 2965**

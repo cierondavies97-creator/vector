@@ -1,0 +1,5 @@
+current column is incremented by one regardless of how the
+   character is represented when printed. For example:
+      >>> '01\t012\t0123\t01234'.expandtabs()
+      '01      012     0123    01234'
+      >>> '01\t012\t0123\t01234'.expandtabs(4)

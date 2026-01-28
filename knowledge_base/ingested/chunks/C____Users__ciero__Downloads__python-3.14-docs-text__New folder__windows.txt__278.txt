@@ -1,0 +1,4 @@
+etc.).
+* Additional "application paths" can be added in the registry as
+  subkeys of "\SOFTWARE\Python\PythonCore{version}\PythonPath" under
+  both the "HKEY_CURRENT_USER" and "HKEY_LOCAL_MACHINE" hives.

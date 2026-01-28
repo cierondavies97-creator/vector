@@ -1,0 +1,3 @@
+"abs(limit)" entries. If *limit* is positive, the entries left are
+   the closest to the invocation point. If *limit* is negative, the
+   topmost entries are left. If *limit* is omitted or "None", all

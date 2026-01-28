@@ -1,0 +1,4 @@
+The *cafile* string, if present, is the path to a file of
+   concatenated CA certificates in PEM format. See the discussion of
+   Certificates for more information about how to arrange the
+   certificates in this file.

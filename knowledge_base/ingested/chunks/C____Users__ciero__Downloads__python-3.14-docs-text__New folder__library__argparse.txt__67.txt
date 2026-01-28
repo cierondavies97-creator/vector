@@ -1,0 +1,5 @@
+argument_default
+----------------
+Generally, argument defaults are specified either by passing a default
+to "add_argument()" or by calling the "set_defaults()" methods with a
+specific set of name-value pairs.  Sometimes however, it may be useful

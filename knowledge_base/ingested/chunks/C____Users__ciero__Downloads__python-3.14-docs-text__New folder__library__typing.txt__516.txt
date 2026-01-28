@@ -1,0 +1,5 @@
+Deprecated since version 3.9: "builtins.tuple" now supports
+   subscripting ("[]"). See **PEP 585** and Generic Alias Type.
+class typing.Type(Generic[CT_co])
+   Deprecated alias to "type".
+   See The type of class objects for details on using "type" or

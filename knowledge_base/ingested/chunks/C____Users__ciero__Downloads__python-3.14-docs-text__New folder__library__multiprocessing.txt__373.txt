@@ -1,0 +1,4 @@
+parallel. Additionally, *func* is only executed in one of the
+      workers of the pool.
+   apply_async(func[, args[, kwds[, callback[, error_callback]]]])
+      A variant of the "apply()" method which returns a "AsyncResult"

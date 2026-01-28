@@ -1,0 +1,4 @@
+"match_args", "kw_only", and "slots". It must be possible for the
+   value of these arguments ("True" or "False") to be statically
+   evaluated.
+   The arguments to the "dataclass_transform" decorator can be used to

@@ -1,0 +1,4 @@
+DocTestFinder objects
+---------------------
+class doctest.DocTestFinder(verbose=False, parser=DocTestParser(), recurse=True, exclude_empty=True)
+   A processing class used to extract the "DocTest"s that are relevant

@@ -1,0 +1,7 @@
+"'US/Eastern'", "'Australia/Melbourne'", "'Egypt'" or
+   "'Europe/Amsterdam'".
+      >>> os.environ['TZ'] = 'US/Eastern'
+      >>> time.tzset()
+      >>> time.tzname
+      ('EST', 'EDT')
+      >>> os.environ['TZ'] = 'Egypt'

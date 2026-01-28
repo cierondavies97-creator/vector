@@ -1,0 +1,3 @@
+"Action" objects are used by an "ArgumentParser" to represent the
+   information needed to parse a single argument from one or more
+   strings from the command line. The "Action" class must accept the

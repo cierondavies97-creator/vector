@@ -1,0 +1,9 @@
+for example be used to perform some operation on a file.
+   #define PY_SSIZE_T_CLEAN
+   #include <Python.h>
+   int
+   main(int argc, char *argv[])
+   {
+       PyStatus status;
+       PyConfig config;
+       PyConfig_InitPythonConfig(&config);

@@ -1,0 +1,5 @@
+"queue" --- A synchronized queue class
+**************************************
+**Source code:** Lib/queue.py
+======================================================================
+The "queue" module implements multi-producer, multi-consumer queues.

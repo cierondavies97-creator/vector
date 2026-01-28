@@ -1,0 +1,4 @@
+demonstration purposes, but it can also be used to create a system
+   with a different cache invalidation strategy.
+   Objects created via this constructor will also bypass the cache of
+   a deserializing process when unpickled.

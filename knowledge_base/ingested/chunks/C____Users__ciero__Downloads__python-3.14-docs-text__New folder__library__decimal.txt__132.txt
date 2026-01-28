@@ -1,0 +1,4 @@
+the return value is "self - n * other" where "n" is the integer
+      nearest to the exact value of "self / other", and if two
+      integers are equally near then the even one is chosen.
+      If the result is zero then its sign will be the sign of *self*.

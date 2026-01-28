@@ -1,0 +1,3 @@
+expression that will match either *A* or *B*.  An arbitrary number
+   of REs can be separated by the "'|'" in this way.  This can be used
+   inside groups (see below) as well.  As the target string is

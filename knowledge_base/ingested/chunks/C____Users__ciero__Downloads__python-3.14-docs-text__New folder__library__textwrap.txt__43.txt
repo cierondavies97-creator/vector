@@ -1,0 +1,5 @@
+module-level convenience functions:
+   wrap(text)
+      Wraps the single paragraph in *text* (a string) so every line is
+      at most "width" characters long.  All wrapping options are taken
+      from instance attributes of the "TextWrapper" instance.  Returns

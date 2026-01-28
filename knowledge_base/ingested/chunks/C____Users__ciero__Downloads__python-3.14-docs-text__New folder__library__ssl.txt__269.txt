@@ -1,0 +1,4 @@
+SSL handshake automatically after doing a "socket.connect()", or
+   whether the application program will call it explicitly, by
+   invoking the "SSLSocket.do_handshake()" method.  Calling
+   "SSLSocket.do_handshake()" explicitly gives the program control

@@ -1,0 +1,5 @@
+If the name is used as the target of a function or class
+      statement, this will be true.
+      For example:
+         >>> table = symtable.symtable("def some_func(): pass", "string", "exec")
+         >>> table.lookup("some_func").is_namespace()

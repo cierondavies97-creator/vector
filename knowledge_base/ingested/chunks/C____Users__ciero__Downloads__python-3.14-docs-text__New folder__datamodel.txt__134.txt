@@ -1,0 +1,4 @@
+and built-in "__import__()".  A module object has a namespace
+implemented by a "dictionary" object (this is the dictionary
+referenced by the "__globals__" attribute of functions defined in the
+module).  Attribute references are translated to lookups in this

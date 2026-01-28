@@ -1,0 +1,4 @@
+Changed in version 3.4: Added support for unseekable files.
+exception wave.Error
+   An error raised when something is impossible because it violates
+   the WAV specification or hits an implementation deficiency.

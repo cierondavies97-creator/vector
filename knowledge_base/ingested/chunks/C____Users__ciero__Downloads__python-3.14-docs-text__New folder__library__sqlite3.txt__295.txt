@@ -1,0 +1,6 @@
+return Point(x, y)
+   # Register the adapter and converter
+   sqlite3.register_adapter(Point, adapt_point)
+   sqlite3.register_converter("point", convert_point)
+   # 1) Parse using declared types
+   p = Point(4.0, -3.2)

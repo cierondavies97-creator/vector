@@ -1,0 +1,6 @@
+Text I/O
+--------
+class io.TextIOBase
+   Base class for text streams.  This class provides a character and
+   line based interface to stream I/O.  It inherits from "IOBase".
+   "TextIOBase" provides or overrides these data attributes and

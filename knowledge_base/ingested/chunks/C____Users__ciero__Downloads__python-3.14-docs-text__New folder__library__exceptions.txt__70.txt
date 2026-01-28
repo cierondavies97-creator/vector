@@ -1,0 +1,4 @@
+The exception object has a single attribute "value", which is
+      given as an argument when constructing the exception, and
+      defaults to "None".
+   When a *generator* or *coroutine* function returns, a new

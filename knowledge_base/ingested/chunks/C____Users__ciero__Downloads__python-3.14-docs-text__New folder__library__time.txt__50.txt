@@ -1,0 +1,4 @@
+elapsed during sleep.  It is process-wide by definition.  The
+   reference point of the returned value is undefined, so that only
+   the difference between the results of two calls is valid.
+   Use "process_time_ns()" to avoid the precision loss caused by the

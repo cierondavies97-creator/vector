@@ -1,0 +1,4 @@
+IMAP4.search(charset, criterion[, ...])
+   Search mailbox for matching messages.  *charset* may be "None", in
+   which case no "CHARSET" will be specified in the request to the
+   server.  The IMAP protocol requires that at least one criterion be

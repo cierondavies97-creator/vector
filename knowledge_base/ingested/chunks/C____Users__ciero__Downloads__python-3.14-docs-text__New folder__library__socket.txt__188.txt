@@ -1,0 +1,3 @@
+Convert an IP address from its family-specific string format to a
+   packed, binary format. "inet_pton()" is useful when a library or
+   network protocol calls for an object of type "in_addr" (similar to

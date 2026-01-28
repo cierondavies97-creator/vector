@@ -1,0 +1,3 @@
+types, it is a single character bytes object or string, for
+      character pointer types it is a Python bytes object or string.
+      When the "value" attribute is retrieved from a ctypes instance,

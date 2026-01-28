@@ -1,0 +1,4 @@
+similar to "itermonthdates()", but not restricted by the
+      "datetime.date" range. Days returned will be tuples consisting
+      of a day of the month number and a week day number.
+   itermonthdays3(year, month)

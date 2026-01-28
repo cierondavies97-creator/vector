@@ -1,0 +1,4 @@
+method.
+   Weak references are *hashable* if the *object* is hashable.  They
+   will maintain their hash value even after the *object* was deleted.
+   If "hash()" is called the first time only after the *object* was

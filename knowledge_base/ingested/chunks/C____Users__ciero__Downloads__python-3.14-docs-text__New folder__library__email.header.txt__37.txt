@@ -1,0 +1,6 @@
+>>> decode_header('unencoded_string')
+   [('unencoded_string', None)]
+   >>> decode_header('bar =?utf-8?B?ZsOzbw==?=')
+   [(b'bar ', None), (b'f\xc3\xb3o', 'utf-8')]
+   Note:
+     This function exists for backwards compatibility only. For new

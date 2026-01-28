@@ -1,0 +1,6 @@
+single prefix string rather than all of a set of characters.  For
+   example:
+      >>> b'Arthur: three!'.lstrip(b'Arthur: ')
+      b'ee!'
+      >>> b'Arthur: three!'.removeprefix(b'Arthur: ')
+      b'three!'

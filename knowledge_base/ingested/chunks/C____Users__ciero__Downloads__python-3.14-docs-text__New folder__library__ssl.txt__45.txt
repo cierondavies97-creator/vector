@@ -1,0 +1,4 @@
+if the operation is not supported by the current RAND method.
+   "RAND_status()" can be used to check the status of the PRNG and
+   "RAND_add()" can be used to seed the PRNG.
+   For almost all applications "os.urandom()" is preferable.

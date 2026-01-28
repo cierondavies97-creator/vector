@@ -1,0 +1,5 @@
+Added in version 3.3.
+      Changed in version 3.13: Passing *trace_callback* as a keyword
+      argument is deprecated. The parameter will become positional-
+      only in Python 3.15.
+   enable_load_extension(enabled, /)

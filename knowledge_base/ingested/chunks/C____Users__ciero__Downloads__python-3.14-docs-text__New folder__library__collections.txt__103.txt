@@ -1,0 +1,5 @@
+d.append(elem)
+           yield s / n
+A round-robin scheduler can be implemented with input iterators stored
+in a "deque".  Values are yielded from the active iterator in position
+zero.  If that iterator is exhausted, it can be removed with

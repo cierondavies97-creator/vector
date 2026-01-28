@@ -1,0 +1,5 @@
++---------+-----------------------------------+----------------+
+Example:
+   >>> print(fred.config())
+   {'relief': ('relief', 'relief', 'Relief', 'raised', 'groove')}
+Of course, the dictionary printed will include all the options

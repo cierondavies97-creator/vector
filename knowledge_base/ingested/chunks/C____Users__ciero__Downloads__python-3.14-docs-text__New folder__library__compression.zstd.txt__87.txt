@@ -1,0 +1,4 @@
+|            |                | object.    |
+      +------------+----------------+------------+
+   If passing a "ZstdDict" without any attribute, an undigested
+   dictionary is passed by default when compressing and a digested

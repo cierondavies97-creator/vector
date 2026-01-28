@@ -1,0 +1,3 @@
+consequence, the global variables it needs to access (including
+       other modules) may already have been deleted or set to "None".
+       Python guarantees that globals whose name begins with a single

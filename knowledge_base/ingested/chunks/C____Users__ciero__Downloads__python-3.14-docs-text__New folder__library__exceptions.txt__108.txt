@@ -1,0 +1,4 @@
+Subclasses are "BrokenPipeError", "ConnectionAbortedError",
+   "ConnectionRefusedError" and "ConnectionResetError".
+exception BrokenPipeError
+   A subclass of "ConnectionError", raised when trying to write on a

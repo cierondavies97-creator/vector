@@ -1,0 +1,5 @@
+return ("MemoRecord", obj.key)
+           else:
+               # If obj does not have a persistent ID, return None. This means obj
+               # needs to be pickled as usual.
+               return None

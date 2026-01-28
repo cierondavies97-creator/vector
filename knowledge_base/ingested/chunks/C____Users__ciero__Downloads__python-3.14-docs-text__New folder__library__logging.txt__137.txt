@@ -1,0 +1,3 @@
+which can be overridden at the instance level when desired. The
+      names of the attributes are "default_time_format" (for the
+      strptime format string) and "default_msec_format" (for appending

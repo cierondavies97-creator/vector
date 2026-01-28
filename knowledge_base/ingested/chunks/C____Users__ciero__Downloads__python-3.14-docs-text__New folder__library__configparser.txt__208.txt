@@ -1,0 +1,5 @@
+dictionary may have two keys representing the same case-insensitive
+   configuration key.
+exception configparser.NoOptionError
+   Exception raised when a specified option is not found in the
+   specified section.

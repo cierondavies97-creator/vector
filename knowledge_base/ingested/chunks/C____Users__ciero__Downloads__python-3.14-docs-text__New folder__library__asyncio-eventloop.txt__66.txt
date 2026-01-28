@@ -1,0 +1,4 @@
+"ssl.SSLContext" object, this context is used to create the
+     transport; if *ssl* is "True", a default context returned from
+     "ssl.create_default_context()" is used.
+     See also: SSL/TLS security considerations

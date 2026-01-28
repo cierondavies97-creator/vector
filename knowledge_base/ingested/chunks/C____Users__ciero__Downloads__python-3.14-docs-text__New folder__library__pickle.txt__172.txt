@@ -1,0 +1,5 @@
+stream.
+This constraint can be eschewed if both the *provider* (the
+implementation of the object types to be transferred) and the
+*consumer* (the implementation of the communications system) support
+the out-of-band transfer facilities provided by pickle protocol 5 and

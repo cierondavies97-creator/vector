@@ -1,0 +1,5 @@
+value may be recycled by the OS).
+      Note:
+        Similar to Process IDs, Thread IDs are only valid (guaranteed
+        unique system-wide) from the time the thread is created until
+        the thread has been terminated.

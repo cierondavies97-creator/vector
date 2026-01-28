@@ -1,0 +1,4 @@
+portion of the logged output. If not specified, the default
+        described in "formatTime()" is used.
+      * **style** (*str*) -- Can be one of "'%'", "'{'" or "'$'" and
+        determines how the format string will be merged with its data:

@@ -1,0 +1,4 @@
+whether a message has been read by the user or marked as important
+   is retained, because it applies to the message itself.
+   There is no requirement that "Message" instances be used to
+   represent messages retrieved using "Mailbox" instances. In some

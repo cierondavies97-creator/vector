@@ -1,0 +1,5 @@
+*format* can be used to control the format in which the value is
+   returned:
+      >>> type Alias = undefined
+      >>> call_evaluate_function(Alias.evaluate_value, Format.VALUE)
+      Traceback (most recent call last):

@@ -1,0 +1,3 @@
+external editor and want to try out the new version without leaving
+   the Python interpreter.  The return value is the module object
+   (which can be different if re-importing causes a different object

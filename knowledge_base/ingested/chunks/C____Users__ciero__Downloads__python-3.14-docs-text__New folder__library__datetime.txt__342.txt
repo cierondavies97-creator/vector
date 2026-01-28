@@ -1,0 +1,4 @@
+# DST start and end times. For a complete and up-to-date set of DST rules
+   # and timezone definitions, visit the Olson Database (or try pytz):
+   # http://www.twinsun.com/tz/tz-link.htm
+   # https://sourceforge.net/projects/pytz/ (might not be up-to-date)

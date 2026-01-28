@@ -1,0 +1,6 @@
+parameter.
+Transferring files
+------------------
+async loop.sendfile(transport, file, offset=0, count=None, *, fallback=True)
+   Send a *file* over a *transport*.  Return the total number of bytes
+   sent.

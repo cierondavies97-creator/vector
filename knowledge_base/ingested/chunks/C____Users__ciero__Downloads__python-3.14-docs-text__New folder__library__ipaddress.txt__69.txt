@@ -1,0 +1,4 @@
+(binary AND) with the mask.  For example, a network definition with
+the mask "255.255.255.0" and the network address "192.168.1.0"
+consists of IP addresses in the inclusive range "192.168.1.0" to
+"192.168.1.255".

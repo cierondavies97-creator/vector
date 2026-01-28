@@ -1,0 +1,3 @@
+like "add()" and "remove()". Since it is mutable, it has no hash value
+and cannot be used as either a dictionary key or as an element of
+another set. The "frozenset" type is immutable and *hashable* --- its

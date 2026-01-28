@@ -1,0 +1,4 @@
+handles (e.g. pipe file descriptors are not supported).
+* Pipes are not supported, so the "loop.connect_read_pipe()" and
+  "loop.connect_write_pipe()" methods are not implemented.
+* Subprocesses are not supported, i.e. "loop.subprocess_exec()" and

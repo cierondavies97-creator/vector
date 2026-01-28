@@ -1,0 +1,3 @@
+behind crumbs that accidentally allow another test to work.  This
+means examples can freely use any names defined at top-level in "M",
+and names defined earlier in the docstring being run. Examples cannot

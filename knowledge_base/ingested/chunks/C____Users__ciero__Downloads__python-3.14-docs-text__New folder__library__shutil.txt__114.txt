@@ -1,0 +1,4 @@
+Register an archiver for the format *name*.
+   *function* is the callable that will be used to unpack archives.
+   The callable will receive the *base_name* of the file to create,
+   followed by the *base_dir* (which defaults to "os.curdir") to start

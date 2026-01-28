@@ -1,0 +1,9 @@
+resources.
+   size
+      Size of the memory block in bytes ("int").
+   traceback
+      Traceback where the memory block was allocated, "Traceback"
+      instance.
+Traceback
+---------
+class tracemalloc.Traceback

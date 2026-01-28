@@ -1,0 +1,4 @@
+===========================
+To introspect an async call graph asyncio requires cooperation from
+control flow structures, such as "shield()" or "TaskGroup". Any time
+an intermediate "Future" object with low-level APIs like

@@ -1,0 +1,9 @@
+the body of an "AsyncFunctionDef".
+   >>> print(ast.dump(ast.parse("""\
+   ... async def f():
+   ...     await other_func()
+   ... """), indent=4))
+   Module(
+       body=[
+           AsyncFunctionDef(
+               name='f',

@@ -1,0 +1,7 @@
+received = str(sock.recv(1024), "utf-8")
+   print("Sent:    ", data)
+   print("Received:", received)
+The output of the example should look exactly like for the TCP server
+example.
+Asynchronous Mixins
+-------------------

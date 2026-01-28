@@ -1,0 +1,5 @@
+Changed in version 3.11: Passing coroutine objects to "wait()"
+   directly is forbidden.
+   Changed in version 3.12: Added support for generators yielding
+   tasks.
+asyncio.as_completed(aws, *, timeout=None)

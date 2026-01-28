@@ -1,0 +1,5 @@
+combinatoric iterators in the "itertools" module:
+   import random
+   def random_product(*iterables, repeat=1):
+       "Random selection from itertools.product(*iterables, repeat=repeat)"
+       pools = tuple(map(tuple, iterables)) * repeat

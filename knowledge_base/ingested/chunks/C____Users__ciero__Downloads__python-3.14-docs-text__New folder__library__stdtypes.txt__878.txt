@@ -1,0 +1,6 @@
+type(int | str) is typing.Union
+   * Optional types can be spelled as a union with "None":
+        str | None == typing.Optional[str]
+isinstance(obj, union_object)
+issubclass(obj, union_object)
+   Calls to "isinstance()" and "issubclass()" are also supported with

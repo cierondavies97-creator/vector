@@ -1,0 +1,6 @@
+result is not an *IntFlag*:
+      >>> Color.RED + 2
+      3
+   If a "Flag" operation is performed with an *IntFlag* member and:
+   * the result is a valid *IntFlag*: an *IntFlag* is returned
+   * the result is not a valid *IntFlag*: the result depends on the

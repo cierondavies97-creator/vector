@@ -1,0 +1,4 @@
+it's not guaranteed by the library to work in the general case.
+  Unions and structures with bit-fields should always be passed to
+  functions by pointer.
+Structure/union layout, alignment and byte order

@@ -1,0 +1,4 @@
+will have its "__hash__()" implicitly set to "None".  When the
+   "__hash__()" method of a class is "None", instances of the class
+   will raise an appropriate "TypeError" when a program attempts to
+   retrieve their hash value, and will also be correctly identified as

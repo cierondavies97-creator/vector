@@ -1,0 +1,5 @@
+* "sock.setblocking(False)" is equivalent to "sock.settimeout(0.0)"
+   Changed in version 3.7: The method no longer applies
+   "SOCK_NONBLOCK" flag on "socket.type".
+socket.settimeout(value)
+   Set a timeout on blocking socket operations.  The *value* argument

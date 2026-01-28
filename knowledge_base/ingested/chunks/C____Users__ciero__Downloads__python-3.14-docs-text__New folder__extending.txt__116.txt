@@ -1,0 +1,4 @@
+The "PyArg_ParseTuple()" function is declared as follows:
+   int PyArg_ParseTuple(PyObject *arg, const char *format, ...);
+The *arg* argument must be a tuple object containing an argument list
+passed from Python to a C function.  The *format* argument must be a

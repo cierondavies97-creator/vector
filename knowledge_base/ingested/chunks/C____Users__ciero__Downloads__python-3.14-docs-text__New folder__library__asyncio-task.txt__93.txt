@@ -1,0 +1,4 @@
+If it is desired to completely ignore cancellation (not
+   recommended) the "shield()" function should be combined with a
+   try/except clause, as follows:
+      task = asyncio.create_task(something())

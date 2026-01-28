@@ -1,0 +1,4 @@
+Other third party libraries, such as typer or msgspec-click, allow
+  command line interfaces to be specified in ways that more
+  effectively integrate with static checking of Python type
+  annotations.

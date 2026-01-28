@@ -1,0 +1,4 @@
+object* if *shell* is "False" and a sequence containing bytes and
+   path-like objects on Windows.
+   The *shell* argument (which defaults to "False") specifies whether
+   to use the shell as the program to execute.  If *shell* is "True",

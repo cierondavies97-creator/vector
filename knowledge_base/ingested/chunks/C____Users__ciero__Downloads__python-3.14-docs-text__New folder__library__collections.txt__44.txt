@@ -1,0 +1,5 @@
+a zero count for missing items instead of raising a "KeyError":
+   >>> c = Counter(['eggs', 'ham'])
+   >>> c['bacon']                              # count of a missing element is zero
+   0
+   Setting a count to zero does not remove an element from a counter.

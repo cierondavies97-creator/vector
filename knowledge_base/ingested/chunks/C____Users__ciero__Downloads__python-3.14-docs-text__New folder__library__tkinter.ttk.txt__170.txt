@@ -1,0 +1,3 @@
+| <<TreeviewClose>>    | Generated just after setting the focus item to     |
+|                      | open=False.                                        |
++----------------------+----------------------------------------------------+

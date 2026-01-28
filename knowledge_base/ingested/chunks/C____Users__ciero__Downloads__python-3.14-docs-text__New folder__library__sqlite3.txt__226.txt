@@ -1,0 +1,5 @@
+in order for "rowcount" to be updated.
+   row_factory
+      Control how a row fetched from this "Cursor" is represented. If
+      "None", a row is represented as a "tuple". Can be set to the
+      included "sqlite3.Row"; or a *callable* that accepts two

@@ -1,0 +1,4 @@
+invalidate its cache entry in "sys.modules", and then re-import the
+named module, the two module objects will *not* be the same. By
+contrast, "importlib.reload()" will reuse the *same* module object,
+and simply reinitialise the module contents by rerunning the module's

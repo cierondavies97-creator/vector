@@ -1,0 +1,11 @@
+"BlockingIOError".
+errno.ESTALE
+   Stale NFS file handle
+errno.EUCLEAN
+   Structure needs cleaning
+errno.ENOTNAM
+   Not a XENIX named type file
+errno.ENAVAIL
+   No XENIX semaphores available
+errno.EISNAM
+   Is a named type file

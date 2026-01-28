@@ -1,0 +1,6 @@
+"1", "1.0", and "True") can be used interchangeably to index the same
+dictionary entry.
+class dict(**kwargs)
+class dict(mapping, /, **kwargs)
+class dict(iterable, /, **kwargs)
+   Return a new dictionary initialized from an optional positional

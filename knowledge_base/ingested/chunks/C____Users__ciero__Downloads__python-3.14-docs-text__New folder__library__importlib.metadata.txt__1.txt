@@ -1,0 +1,3 @@
+"importlib.metadata" is a library that provides access to the metadata
+of an installed Distribution Package, such as its entry points or its
+top-level names (Import Packages, modules, if any). Built in part on

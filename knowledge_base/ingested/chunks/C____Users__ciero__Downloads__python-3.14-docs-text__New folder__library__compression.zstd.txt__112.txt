@@ -1,0 +1,4 @@
+is enabled by default if "window_log" >= 128 MiB and the
+      compression strategy >= "btopt" (compression level 16+).
+   ldm_hash_log
+      Size of the table for long distance matching, as a power of two.

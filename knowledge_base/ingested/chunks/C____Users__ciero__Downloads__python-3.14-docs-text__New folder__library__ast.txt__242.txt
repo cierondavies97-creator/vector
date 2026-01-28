@@ -1,0 +1,5 @@
+value=Constant(value=Ellipsis))]),
+                      match_case(
+                          pattern=MatchSequence(
+                              patterns=[
+                                  MatchStar()]),

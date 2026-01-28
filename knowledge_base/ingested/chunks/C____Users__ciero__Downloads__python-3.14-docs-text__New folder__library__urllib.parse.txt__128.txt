@@ -1,0 +1,3 @@
+The resulting string is a series of "key=value" pairs separated by
+   "'&'" characters, where both *key* and *value* are quoted using the
+   *quote_via* function.  By default, "quote_plus()" is used to quote

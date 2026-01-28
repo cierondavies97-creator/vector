@@ -1,0 +1,5 @@
+*convert_charrefs* is now "True".
+   Changed in version 3.14.1: Added the *scripting* parameter.
+Example HTML Parser Application
+===============================
+As a basic example, below is a simple HTML parser that uses the

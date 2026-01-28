@@ -1,0 +1,4 @@
+seconds) the executor will be given to finish joining. With the
+   default, "None", the executor is allowed an unlimited amount of
+   time.
+   If the *timeout* is reached, a "RuntimeWarning" is emitted and the

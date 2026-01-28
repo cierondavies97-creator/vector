@@ -1,0 +1,4 @@
+Use the "-W error" command line option or set the "PYTHONWARNINGS"
+  environment variable to "error" to treat warnings as errors.
+* Install debug hooks on memory allocators to check for:
+  * Buffer underflow

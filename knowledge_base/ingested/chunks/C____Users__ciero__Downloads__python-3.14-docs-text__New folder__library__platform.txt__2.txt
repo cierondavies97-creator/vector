@@ -1,0 +1,4 @@
+binary) for various architecture information.
+   Returns a tuple "(bits, linkage)" which contain information about
+   the bit architecture and the linkage format used for the
+   executable. Both values are returned as strings.

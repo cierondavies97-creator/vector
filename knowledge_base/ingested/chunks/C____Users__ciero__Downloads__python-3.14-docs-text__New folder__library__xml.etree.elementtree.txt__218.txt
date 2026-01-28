@@ -1,0 +1,4 @@
+example of counting the maximum depth of an XML file:
+      >>> from xml.etree.ElementTree import XMLParser
+      >>> class MaxDepth:                     # The target object of the parser
+      ...     maxDepth = 0

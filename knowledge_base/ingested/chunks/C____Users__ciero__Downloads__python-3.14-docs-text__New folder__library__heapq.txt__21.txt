@@ -1,0 +1,4 @@
+example, merge timestamped entries from multiple log files).
+   Returns an *iterator* over the sorted values.
+   Similar to "sorted(itertools.chain(*iterables))" but returns an
+   iterable, does not pull the data into memory all at once, and

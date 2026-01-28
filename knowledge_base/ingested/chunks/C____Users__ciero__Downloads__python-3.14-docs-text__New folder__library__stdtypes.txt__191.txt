@@ -1,0 +1,5 @@
+application).
+class list(iterable=(), /)
+   Lists may be constructed in several ways:
+   * Using a pair of square brackets to denote the empty list: "[]"
+   * Using square brackets, separating items with commas: "[a]", "[a,

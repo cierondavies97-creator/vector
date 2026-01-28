@@ -1,0 +1,6 @@
+previous "EHLO" or "HELO" command this session.  It tries ESMTP
+   "EHLO" first.
+   "SMTPHeloError"
+      The server didn't reply properly to the "HELO" greeting.
+SMTP.has_extn(name)
+   Return "True" if *name* is in the set of SMTP service extensions

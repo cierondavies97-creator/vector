@@ -1,0 +1,6 @@
+*delay* or absolute *when*) should not exceed one day.  This has
+  been fixed in Python 3.8.
+See also: The "asyncio.sleep()" function.
+Creating Futures and Tasks
+--------------------------
+loop.create_future()

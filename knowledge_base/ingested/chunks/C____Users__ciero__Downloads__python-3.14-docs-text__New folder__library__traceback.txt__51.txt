@@ -1,0 +1,7 @@
+Added in version 3.13.
+   filename
+      For syntax errors - the file name where the error occurred.
+   lineno
+      For syntax errors - the line number where the error occurred.
+   end_lineno
+      For syntax errors - the end line number where the error

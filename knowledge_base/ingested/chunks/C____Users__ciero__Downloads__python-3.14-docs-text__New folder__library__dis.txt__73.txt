@@ -1,0 +1,7 @@
+Added in version 3.12.
+END_SEND
+   Implements "del STACK[-2]". Used to clean up when a generator
+   exits.
+   Added in version 3.12.
+COPY(i)
+   Push the i-th item to the top of the stack without removing it from

@@ -1,0 +1,6 @@
+so gives a result on the negative imaginary axis:
+     >>> cmath.sqrt(-2-0j)
+     -1.4142135623730951j
+  But an argument of "-2+0j" is treated as though it lies above the
+  branch cut:
+     >>> cmath.sqrt(-2+0j)

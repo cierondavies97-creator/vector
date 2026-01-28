@@ -1,0 +1,8 @@
+mutable, display may not be able to pick up the changes.
+   Example:
+      lst = []
+      breakpoint()
+      pass
+      lst.append(1)
+      print(lst)
+   Display won't realize "lst" has been changed because the result of

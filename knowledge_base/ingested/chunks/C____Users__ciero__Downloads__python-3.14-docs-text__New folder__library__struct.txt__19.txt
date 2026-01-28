@@ -1,0 +1,4 @@
+memory layout of the corresponding C struct. Whether to use native
+byte ordering and padding or standard formats depends on the
+application.
+Alternatively, the first character of the format string can be used to

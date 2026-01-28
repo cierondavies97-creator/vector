@@ -1,0 +1,5 @@
+and "Sigmasks" respectively). "getsignal()", "pthread_sigmask()",
+"sigpending()" and "sigwait()" functions return human-readable "enums"
+as "Signals" objects.
+The signal module defines three enums:
+class signal.Signals

@@ -1,0 +1,6 @@
+>>> Color(0)
+   <Color: 0>
+class enum.IntFlag
+   "IntFlag" is the same as "Flag", but its members are also integers
+   and can be used anywhere that an integer can be used.
+   >>> from enum import IntFlag, auto

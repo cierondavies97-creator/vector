@@ -1,0 +1,5 @@
+>>> con.close()
+Note:
+  The "FROM" clause can be omitted in the "SELECT" statement, as in
+  the above example. In such cases, SQLite returns a single row with
+  columns defined by expressions, e.g. literals, with the given

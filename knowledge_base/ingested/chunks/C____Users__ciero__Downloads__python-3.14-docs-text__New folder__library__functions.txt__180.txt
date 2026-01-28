@@ -1,0 +1,5 @@
+references as the values.
+   At module scope, as well as when using "exec()" or "eval()" with a
+   single namespace, this function returns the same namespace as
+   "globals()".
+   At class scope, it returns the namespace that will be passed to the

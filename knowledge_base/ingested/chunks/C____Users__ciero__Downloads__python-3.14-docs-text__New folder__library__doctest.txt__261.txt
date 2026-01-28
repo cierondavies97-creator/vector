@@ -1,0 +1,11 @@
+[EOF]
+     (Pdb) p x
+     3
+     (Pdb) step
+     --Return--
+     > <doctest a[2]>(1)?()->None
+     -> f(3)
+     (Pdb) cont
+     (0, 3)
+     >>>
+Functions that convert doctests to Python code, and possibly run the

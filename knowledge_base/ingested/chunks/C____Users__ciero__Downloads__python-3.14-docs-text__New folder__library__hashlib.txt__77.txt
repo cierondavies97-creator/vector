@@ -1,0 +1,7 @@
+'1bf21a98c78a1c376ae9'
+>>> blake2s(digest_size=11).hexdigest()
+'567004bf96e4a25773ebf4'
+Keyed hashing
+~~~~~~~~~~~~~
+Keyed hashing can be used for authentication as a faster and simpler
+replacement for Hash-based message authentication code (HMAC). BLAKE2

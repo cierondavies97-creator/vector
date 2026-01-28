@@ -1,0 +1,9 @@
+creating temporary files.  The full list of modules in this chapter
+is:
+* "pathlib" --- Object-oriented filesystem paths
+  * Basic use
+  * Exceptions
+  * Pure paths
+    * General properties
+    * Operators
+    * Accessing individual parts

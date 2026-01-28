@@ -1,0 +1,6 @@
+Return a "Signature" (or its subclass) object for a given
+      callable *obj*.
+      This method simplifies subclassing of "Signature":
+         class MySignature(Signature):
+             pass
+         sig = MySignature.from_callable(sum)

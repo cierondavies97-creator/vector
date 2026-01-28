@@ -1,0 +1,4 @@
+Dump the tracebacks of all threads, after a timeout of *timeout*
+   seconds, or every *timeout* seconds if *repeat* is "True".  If
+   *exit* is "True", call "_exit()" with status=1 after dumping the
+   tracebacks.  (Note "_exit()" exits the process immediately, which

@@ -1,0 +1,4 @@
+store a file in a tar archive several times. Each archive member is
+represented by a "TarInfo" object, see TarInfo Objects for details.
+A "TarFile" object can be used as a context manager in a "with"
+statement. It will automatically be closed when the block is

@@ -1,0 +1,4 @@
+internal detail), but studying its code can answer questions about the
+exact details of "unittest" integration.
+Similarly, "DocFileSuite()" creates a "unittest.TestSuite" out of
+"doctest.DocFileCase" instances, and "DocFileCase" is a subclass of

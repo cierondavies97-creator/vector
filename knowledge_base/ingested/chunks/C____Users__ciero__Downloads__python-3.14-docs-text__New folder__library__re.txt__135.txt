@@ -1,0 +1,6 @@
+is only kept for backward compatibility.
+   See "ASCII" to restrict matching to ASCII characters instead.
+re.X
+re.VERBOSE
+   This flag allows you to write regular expressions that look nicer
+   and are more readable by allowing you to visually separate logical

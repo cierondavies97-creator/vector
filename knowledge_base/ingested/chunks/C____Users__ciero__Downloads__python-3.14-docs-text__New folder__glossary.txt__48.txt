@@ -1,0 +1,4 @@
+name, only includes the names of closure variables rather than
+   listing all referenced free variables), the more general *free
+   variable* term is sometimes used even when the intended meaning is
+   to refer specifically to closure variables.

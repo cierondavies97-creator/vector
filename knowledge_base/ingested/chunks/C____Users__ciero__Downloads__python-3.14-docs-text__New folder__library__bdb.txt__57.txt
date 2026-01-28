@@ -1,0 +1,5 @@
+invoked.
+   format_stack_entry(frame_lineno, lprefix=': ')
+      Return a string with information about a stack entry, which is a
+      "(frame, lineno)" tuple.  The return string contains:
+      * The canonical filename which contains the frame.

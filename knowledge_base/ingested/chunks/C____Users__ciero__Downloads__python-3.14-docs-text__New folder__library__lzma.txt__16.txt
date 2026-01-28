@@ -1,0 +1,5 @@
+to ""a"".
+   When opening a file for reading, the input file may be the
+   concatenation of multiple separate compressed streams. These are
+   transparently decoded as a single logical stream.
+   When opening a file for reading, the *format* and *filters*

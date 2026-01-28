@@ -1,0 +1,5 @@
+(when present in the original "str") code points for such sequences.
+Infinite and NaN Number Values
+------------------------------
+The RFC does not permit the representation of infinite or NaN number
+values. Despite that, by default, this module accepts and outputs

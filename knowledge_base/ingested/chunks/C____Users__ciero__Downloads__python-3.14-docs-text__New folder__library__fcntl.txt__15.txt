@@ -1,0 +1,3 @@
+constants in the "fcntl" module, using the same names as used in
+   the relevant C header files. The argument *arg* can either be an
+   integer value, a *bytes-like object*, or a string. The type and

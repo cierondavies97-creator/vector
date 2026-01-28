@@ -1,0 +1,3 @@
+| curses.ascii.CR | Carriage return                                |
++-----------------+------------------------------------------------+
+| curses.ascii.SO | Shift-out, begin alternate character set       |

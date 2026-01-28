@@ -1,0 +1,7 @@
+Called example function
+      >>> example.__name__
+      'example'
+      >>> example.__doc__
+      'Docstring'
+   Without the use of this decorator factory, the name of the example
+   function would have been "'wrapper'", and the docstring of the

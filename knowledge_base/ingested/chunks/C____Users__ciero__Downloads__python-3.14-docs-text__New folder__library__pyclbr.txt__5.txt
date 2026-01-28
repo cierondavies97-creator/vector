@@ -1,0 +1,4 @@
+pyclbr.readmodule_ex(module, path=None)
+   Return a dictionary-based tree containing a function or class
+   descriptors for each function and class defined in the module with
+   a "def" or "class" statement.  The returned dictionary maps module-

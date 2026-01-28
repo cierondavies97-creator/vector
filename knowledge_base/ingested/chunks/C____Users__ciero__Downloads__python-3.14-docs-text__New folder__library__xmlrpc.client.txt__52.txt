@@ -1,0 +1,6 @@
+server.register_function(today, "today")
+   server.serve_forever()
+The client code for the preceding server:
+   import xmlrpc.client
+   import datetime
+   proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")

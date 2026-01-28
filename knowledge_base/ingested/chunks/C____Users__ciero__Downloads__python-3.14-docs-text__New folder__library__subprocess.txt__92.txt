@@ -1,0 +1,4 @@
+flag as described in Inheritance of File Descriptors.
+   On Windows, if *close_fds* is true then no handles will be
+   inherited by the child process unless explicitly passed in the
+   "handle_list" element of "STARTUPINFO.lpAttributeList", or by

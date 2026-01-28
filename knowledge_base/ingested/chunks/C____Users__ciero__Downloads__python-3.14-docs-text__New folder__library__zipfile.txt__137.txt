@@ -1,0 +1,6 @@
+Specify encoding of member names for "-l", "-e" and "-t".
+   Added in version 3.11.
+Decompression pitfalls
+======================
+The extraction in zipfile module might fail due to some pitfalls
+listed below.

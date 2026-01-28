@@ -1,0 +1,5 @@
+is truncated when either limit is exceeded.
+   Changed in version 3.10: Added the *compact* parameter.
+   Changed in version 3.11: Added the *max_group_width* and
+   *max_group_depth* parameters.
+   __cause__

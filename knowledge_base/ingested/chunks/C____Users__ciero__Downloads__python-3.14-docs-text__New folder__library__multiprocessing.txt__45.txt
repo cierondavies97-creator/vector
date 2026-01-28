@@ -1,0 +1,5 @@
+no risk of corruption from processes using different ends of the
+   pipe at the same time.
+   The "send()" method serializes the object and "recv()" re-creates
+   the object.
+Synchronization between processes

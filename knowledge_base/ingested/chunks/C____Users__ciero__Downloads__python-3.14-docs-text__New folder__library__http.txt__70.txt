@@ -1,0 +1,4 @@
+name is equal to the constant name (i.e. "http.HTTPStatus.OK" is also
+available as "http.client.OK").
+Changed in version 3.7: Added "421 MISDIRECTED_REQUEST" status code.
+Added in version 3.8: Added "451 UNAVAILABLE_FOR_LEGAL_REASONS" status

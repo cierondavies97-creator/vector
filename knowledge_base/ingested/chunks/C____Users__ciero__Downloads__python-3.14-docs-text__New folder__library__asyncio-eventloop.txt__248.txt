@@ -1,0 +1,6 @@
+import asyncio
+      import selectors
+      async def main():
+         ...
+      loop_factory = lambda: asyncio.SelectorEventLoop(selectors.SelectSelector())
+      asyncio.run(main(), loop_factory=loop_factory)

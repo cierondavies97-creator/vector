@@ -1,0 +1,5 @@
+See "settimeout()" for possible values and their respective
+   meanings.
+socket.sethostname(name)
+   Set the machine's hostname to *name*.  This will raise an "OSError"
+   if you don't have enough rights.

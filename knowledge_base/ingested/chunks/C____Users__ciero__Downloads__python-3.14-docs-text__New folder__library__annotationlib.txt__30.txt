@@ -1,0 +1,4 @@
+may throw an exception, such as "NameError", if the forward
+      reference refers to a name that cannot be resolved. The
+      arguments to this method can be used to provide bindings for
+      names that would otherwise be undefined. If the *format*

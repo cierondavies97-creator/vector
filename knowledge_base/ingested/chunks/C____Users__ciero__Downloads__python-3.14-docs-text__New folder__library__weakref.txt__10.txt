@@ -1,0 +1,3 @@
+Most programs should find that using one of these weak container types
+or "finalize" is all they need -- it's not usually necessary to create
+your own weak references directly.  The low-level machinery is exposed

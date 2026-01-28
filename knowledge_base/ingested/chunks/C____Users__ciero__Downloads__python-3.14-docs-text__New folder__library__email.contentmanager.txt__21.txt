@@ -1,0 +1,4 @@
+not.
+      * For "bytes", use the specified *maintype* and *subtype*, or
+        raise a "TypeError" if they are not specified.
+      * For "EmailMessage" objects, set the maintype to "message", and

@@ -1,0 +1,6 @@
+else:
+          s = socket.create_server(addr)
+   Note:
+     On POSIX platforms the "SO_REUSEADDR" socket option is set in
+     order to immediately reuse previous sockets which were bound on
+     the same *address* and remained in TIME_WAIT state.

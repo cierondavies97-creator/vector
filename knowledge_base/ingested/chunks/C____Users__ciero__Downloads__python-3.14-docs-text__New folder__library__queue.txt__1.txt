@@ -1,0 +1,4 @@
+It is especially useful in threaded programming when information must
+be exchanged safely between multiple threads.  The "Queue" class in
+this module implements all the required locking semantics.
+The module implements three types of queue, which differ only in the

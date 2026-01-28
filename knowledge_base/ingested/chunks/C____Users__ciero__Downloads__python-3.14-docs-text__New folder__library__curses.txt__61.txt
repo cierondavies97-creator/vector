@@ -1,0 +1,3 @@
+*sminrow*, *smincol*, *smaxrow*, *smaxcol*; the *p* arguments refer
+   to the upper left corner of the pad region to be displayed and the
+   *s* arguments define a clipping box on the screen within which the

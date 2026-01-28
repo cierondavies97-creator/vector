@@ -1,0 +1,4 @@
+in the implicitly nested scope.
+Since Python 3.6, in an "async def" function, an "async for" clause
+may be used to iterate over a *asynchronous iterator*. A comprehension
+in an "async def" function may consist of either a "for" or "async

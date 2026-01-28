@@ -1,0 +1,5 @@
+Changed in version 3.3: See above.
+winreg.CreateKey(key, sub_key)
+   Creates or opens the specified key, returning a handle object.
+   *key* is an already open key, or one of the predefined HKEY_*
+   constants.

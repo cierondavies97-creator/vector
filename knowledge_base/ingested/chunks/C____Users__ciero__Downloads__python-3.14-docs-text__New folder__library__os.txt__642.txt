@@ -1,0 +1,4 @@
+process' environment is used.
+   The *path* parameter is the path to the executable file.  The
+   *path* should contain a directory.  Use "posix_spawnp()" to pass an
+   executable file without directory.

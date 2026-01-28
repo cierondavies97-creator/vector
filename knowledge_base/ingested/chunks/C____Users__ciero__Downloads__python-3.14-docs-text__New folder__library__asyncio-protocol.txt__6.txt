@@ -1,0 +1,5 @@
+connection, represented by a *Transport* object. Such methods usually
+return a tuple of "(transport, protocol)".
+-[ Contents ]-
+This documentation page contains the following sections:
+* The Transports section documents asyncio "BaseTransport",

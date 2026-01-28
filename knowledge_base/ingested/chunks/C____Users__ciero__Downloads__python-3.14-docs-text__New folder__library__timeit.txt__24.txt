@@ -1,0 +1,3 @@
+(number of loops, time taken for that number of loops). It calls
+      "timeit()" with increasing numbers from the sequence 1, 2, 5,
+      10, 20, 50, ... until the time taken is at least 0.2 seconds.

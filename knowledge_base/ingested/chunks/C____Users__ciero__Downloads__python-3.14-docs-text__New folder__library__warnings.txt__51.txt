@@ -1,0 +1,5 @@
+environment variable and calls to "filterwarnings()".
+In regular release builds, the default warning filter has the
+following entries (in order of precedence):
+   default::DeprecationWarning:__main__
+   ignore::DeprecationWarning

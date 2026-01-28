@@ -1,0 +1,4 @@
+On Posix platforms, it usually has the format [1]:
+     language ["_" territory] ["." charset] ["@" modifier]
+where *language* is a two- or three-letter language code from ISO 639,
+*territory* is a two-letter country or region code from ISO 3166,

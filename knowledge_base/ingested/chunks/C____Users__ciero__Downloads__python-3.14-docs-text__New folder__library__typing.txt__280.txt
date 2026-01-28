@@ -1,0 +1,5 @@
+distinguish type variable tuples from normal type variables:
+      x: Ts          # Not valid
+      x: tuple[Ts]   # Not valid
+      x: tuple[*Ts]  # The correct way to do it
+   Type variable tuples can be used in the same contexts as normal

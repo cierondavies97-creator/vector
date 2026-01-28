@@ -1,0 +1,4 @@
+"socket.close()" has been called on the socket object.
+   Note:
+     On Windows, the file-like object created by "makefile()" cannot
+     be used where a file object with a file descriptor is expected,

@@ -1,0 +1,4 @@
+file object to read from or write to.
+   The *mode* argument can be any of "'r'", "'rb'", "'w'", "'wb'",
+   "'x'", "'xb'", "'a'" or "'ab'" for binary mode, or "'rt'", "'wt'",
+   "'xt'", or "'at'" for text mode. The default is "'rb'".

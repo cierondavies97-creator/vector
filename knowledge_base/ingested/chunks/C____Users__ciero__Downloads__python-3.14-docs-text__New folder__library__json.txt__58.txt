@@ -1,0 +1,3 @@
+used in place of the given "dict".  This can be used to provide
+   custom deserializations (e.g. to support JSON-RPC class hinting).
+   *object_pairs_hook* is an optional function that will be called

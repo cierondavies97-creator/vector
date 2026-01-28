@@ -1,0 +1,4 @@
+decimal integer with an optional leading sign.  Case is not
+significant, and there must be at least one hexadecimal digit in
+either the integer or the fraction.  This syntax is similar to the
+syntax specified in section 6.4.4.2 of the C99 standard, and also to

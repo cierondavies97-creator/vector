@@ -1,0 +1,3 @@
+Alternatively, you can subclass this type and define "_length_" and
+   "_type_" class variables. Array elements can be read and written
+   using standard subscript and slice accesses; for slice reads, the

@@ -1,0 +1,3 @@
+stop. (They occur every 8 'characters').  Newline characters cause
+following text to appear on a new line.  Other control characters are
+ignored or displayed as a space, box, or something else, depending on

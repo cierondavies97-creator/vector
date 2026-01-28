@@ -1,0 +1,3 @@
+copied to a buffer whose address is passed to the C "fcntl()" call.
+   The return value after a successful call is the contents of the
+   buffer, converted to a "bytes" object. The length of the returned

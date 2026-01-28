@@ -1,0 +1,7 @@
+Namespace(bar='BAR', foo='1')
+   >>> parser.parse_args([])
+   Namespace()
+allow_abbrev
+------------
+Normally, when you pass an argument list to the "parse_args()" method
+of an "ArgumentParser", it recognizes abbreviations of long options.

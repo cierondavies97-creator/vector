@@ -1,0 +1,4 @@
+discussion of the rules for folding email headers.
+      *value* may contain surrogateescaped binary data.  There should
+      be no surrogateescaped binary data in the string returned by the
+      method.

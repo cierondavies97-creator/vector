@@ -1,0 +1,6 @@
+# These reassignments are OK: plain ``tuple`` is equivalent to ``tuple[Any, ...]``
+   z = (1, 2, 3)
+   z = ()
+The type of class objects
+=========================
+A variable annotated with "C" may accept a value of type "C". In

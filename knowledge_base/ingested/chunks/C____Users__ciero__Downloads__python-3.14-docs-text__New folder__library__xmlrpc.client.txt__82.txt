@@ -1,0 +1,4 @@
+the packet. If the XML-RPC packet represents a fault condition,
+   this function will raise a "Fault" exception. The
+   *use_builtin_types* flag can be used to cause date/time values to
+   be presented as "datetime.datetime" objects and binary data to be

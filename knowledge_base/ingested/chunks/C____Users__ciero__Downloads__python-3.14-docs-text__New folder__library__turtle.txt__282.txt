@@ -1,0 +1,7 @@
+>>> screen.bgcolor()
+         "orange"
+         >>> screen.bgcolor(0.5,0,0.5)
+         >>> screen.bgcolor()
+         "#800080"
+     >>> help(Turtle.penup)
+     Help on method penup in module turtle:

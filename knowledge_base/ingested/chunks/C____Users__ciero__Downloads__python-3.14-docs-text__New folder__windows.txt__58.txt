@@ -1,0 +1,4 @@
+directly referencing the executables in the extracted directory, but
+it is sometimes a preferable approach in cases where installing the
+Python install manager is not possible or convenient.
+In this way, Python runtimes can be installed and managed on a machine

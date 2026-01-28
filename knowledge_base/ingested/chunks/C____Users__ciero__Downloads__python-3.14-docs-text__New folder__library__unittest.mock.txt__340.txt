@@ -1,0 +1,7 @@
+Changed in version 3.8: "create_autospec()" now returns an "AsyncMock"
+if the target is an async function.
+ANY
+---
+unittest.mock.ANY
+Sometimes you may need to make assertions about *some* of the
+arguments in a call to mock, but either not care about some of the

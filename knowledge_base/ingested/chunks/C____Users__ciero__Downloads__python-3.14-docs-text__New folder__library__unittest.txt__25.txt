@@ -1,0 +1,4 @@
+Test modules can be specified by file path as well:
+   python -m unittest tests/test_something.py
+This allows you to use the shell filename completion to specify the
+test module. The file specified must still be importable as a module.

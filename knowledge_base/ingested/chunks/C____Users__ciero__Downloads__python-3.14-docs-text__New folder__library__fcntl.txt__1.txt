@@ -1,0 +1,4 @@
+an interface to the "fcntl()" and "ioctl()" Unix routines. See the
+*fcntl(2)* and *ioctl(2)* Unix manual pages for full details.
+Availability: Unix, not WASI.
+All functions in this module take a file descriptor *fd* as their

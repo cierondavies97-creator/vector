@@ -1,0 +1,4 @@
+and off.
+   If *capture* is "True", warnings issued by the "warnings" module
+   will be redirected to the logging system. Specifically, a warning
+   will be formatted using "warnings.formatwarning()" and the

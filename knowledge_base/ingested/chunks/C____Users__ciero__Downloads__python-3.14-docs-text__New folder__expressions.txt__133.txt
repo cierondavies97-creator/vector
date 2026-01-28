@@ -1,0 +1,5 @@
+Their syntax is:
+   primary: atom | attributeref | subscription | slicing | call
+6.3.1. Attribute references
+---------------------------
+An attribute reference is a primary followed by a period and a name:

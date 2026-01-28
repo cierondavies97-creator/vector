@@ -1,0 +1,3 @@
+advantage is an improvement in speed or memory usage --- this is no
+hard fact however.)  The disadvantage is that for C, there is no truly
+portable automatic garbage collector, while reference counting can be

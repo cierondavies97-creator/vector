@@ -1,0 +1,4 @@
+about backward jumps.
+Changed in version 3.13: The output shows logical labels rather than
+instruction offsets for jump targets and exception handlers. The "-O"
+command line option and the "show_offsets" argument were added.

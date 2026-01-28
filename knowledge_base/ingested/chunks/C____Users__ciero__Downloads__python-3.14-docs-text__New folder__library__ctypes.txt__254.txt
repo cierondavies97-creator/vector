@@ -1,0 +1,10 @@
+ctypes.cdll
+   Creates "CDLL" instances.
+ctypes.windll
+   Creates "WinDLL" instances.
+   Availability: Windows
+ctypes.oledll
+   Creates "OleDLL" instances.
+   Availability: Windows
+ctypes.pydll
+   Creates "PyDLL" instances.

@@ -1,0 +1,5 @@
+Server classes have the same external methods and attributes, no
+matter what network protocol they use.
+Server Creation Notes
+=====================
+There are five classes in an inheritance diagram, four of which

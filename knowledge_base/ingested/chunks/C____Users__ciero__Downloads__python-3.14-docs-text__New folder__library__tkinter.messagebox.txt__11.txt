@@ -1,0 +1,5 @@
+button. Keyword arguments can override options specified in the
+      constructor.
+**Information message box**
+tkinter.messagebox.showinfo(title=None, message=None, **options)
+   Creates and displays an information message box with the specified

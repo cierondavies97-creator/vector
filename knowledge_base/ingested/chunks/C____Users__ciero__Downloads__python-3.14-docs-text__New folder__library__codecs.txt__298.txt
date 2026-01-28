@@ -1,0 +1,5 @@
+testing purposes; "codecs.lookup()" should be used instead.
+encodings.search_function(encoding)
+   Search for the codec module corresponding to the given encoding
+   name *encoding*.
+   This function first normalizes the *encoding* using

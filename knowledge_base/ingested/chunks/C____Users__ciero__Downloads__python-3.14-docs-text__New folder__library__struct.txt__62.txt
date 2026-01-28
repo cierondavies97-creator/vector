@@ -1,0 +1,4 @@
+than 255 bytes.
+9. For the "'s'" format character, the count is interpreted as the
+   length of the bytes, not a repeat count like for the other format
+   characters; for example, "'10s'" means a single 10-byte string

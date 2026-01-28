@@ -1,0 +1,6 @@
+are also accepted for the *filename* argument.
+   Changed in version 3.9: The *errors* parameter was added.
+   doRollover()
+      Does a rollover, as described above.
+   emit(record)
+      Outputs the record to the file, catering for rollover as

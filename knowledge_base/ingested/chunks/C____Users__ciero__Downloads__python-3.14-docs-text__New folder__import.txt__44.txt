@@ -1,0 +1,3 @@
+Meta hooks are called at the start of import processing, before any
+other import processing has occurred, other than "sys.modules" cache
+look up. This allows meta hooks to override "sys.path" processing,

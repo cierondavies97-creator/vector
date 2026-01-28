@@ -1,0 +1,4 @@
+class mimetypes.MimeTypes(filenames=(), strict=True)
+   This class represents a MIME-types database.  By default, it
+   provides access to the same database as the rest of this module.
+   The initial database is a copy of that provided by the module, and

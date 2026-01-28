@@ -1,0 +1,8 @@
+the parent process somehow.)
+Reference
+=========
+The "multiprocessing" package mostly replicates the API of the
+"threading" module.
+Global start method
+-------------------
+Python supports several ways to create and initialize a process. The

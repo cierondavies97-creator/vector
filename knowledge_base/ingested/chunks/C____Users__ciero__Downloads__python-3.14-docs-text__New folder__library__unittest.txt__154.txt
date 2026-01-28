@@ -1,0 +1,3 @@
++-----------------------------------------------------------+----------------------------------------+--------------+
+   assertRaises(exception, callable, *args, **kwds)
+   assertRaises(exception, *, msg=None)

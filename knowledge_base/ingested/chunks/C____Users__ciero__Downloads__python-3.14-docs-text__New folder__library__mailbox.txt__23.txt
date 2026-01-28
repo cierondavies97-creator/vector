@@ -1,0 +1,6 @@
+rather than an *iterator*
+   itervalues()
+   __iter__()
+      Return an *iterator* over representations of all messages. The
+      messages are represented as instances of the appropriate format-
+      specific "Message" subclass unless a custom message factory was

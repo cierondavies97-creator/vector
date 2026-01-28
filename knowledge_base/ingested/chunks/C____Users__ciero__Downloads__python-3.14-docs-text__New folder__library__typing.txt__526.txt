@@ -1,0 +1,5 @@
+"re" now support "[]". See **PEP 585** and Generic Alias Type.
+class typing.Text
+   Deprecated alias for "str".
+   "Text" is provided to supply a forward compatible path for Python 2
+   code: in Python 2, "Text" is an alias for "unicode".

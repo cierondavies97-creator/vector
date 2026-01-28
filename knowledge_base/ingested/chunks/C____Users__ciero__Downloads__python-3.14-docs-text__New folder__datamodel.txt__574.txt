@@ -1,0 +1,8 @@
+model.
+object.__neg__(self)
+object.__pos__(self)
+object.__abs__(self)
+object.__invert__(self)
+   Called to implement the unary arithmetic operations ("-", "+",
+   "abs()" and "~").
+object.__complex__(self)

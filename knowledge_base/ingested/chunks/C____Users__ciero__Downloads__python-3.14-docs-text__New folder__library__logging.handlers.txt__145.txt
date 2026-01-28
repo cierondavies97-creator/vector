@@ -1,0 +1,3 @@
+initialized with the from and to addresses and subject line of the
+   email. The *toaddrs* should be a list of strings. To specify a non-
+   standard SMTP port, use the (host, port) tuple format for the

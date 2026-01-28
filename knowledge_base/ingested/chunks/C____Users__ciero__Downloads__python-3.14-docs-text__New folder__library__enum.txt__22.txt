@@ -1,0 +1,7 @@
+This method is called in two different ways:
+      * to look up an existing member:
+           cls:
+              The enum class being called.
+           value:
+              The value to lookup.
+      * to use the "cls" enum to create a new enum (only if the

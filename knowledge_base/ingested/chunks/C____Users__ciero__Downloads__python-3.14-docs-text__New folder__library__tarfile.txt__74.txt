@@ -1,0 +1,4 @@
+symbolic links.
+   If *ignore_zeros* is "False", treat an empty block as the end of
+   the archive. If it is "True", skip empty (and invalid) blocks and
+   try to get as many members as possible. This is only useful for

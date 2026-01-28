@@ -1,0 +1,6 @@
+handling of unsupported format specifiers.
+Added in version 3.6: "%G", "%u" and "%V" were added.
+Added in version 3.12: "%:z" was added.
+Technical Detail
+----------------
+Broadly speaking, "d.strftime(fmt)" acts like the "time" module's

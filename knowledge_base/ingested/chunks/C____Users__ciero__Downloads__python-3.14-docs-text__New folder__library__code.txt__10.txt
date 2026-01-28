@@ -1,0 +1,4 @@
+banner and exit message to use, if provided.  The console object is
+   discarded after use.
+   Changed in version 3.6: Added *exitmsg* parameter.
+   Changed in version 3.13: Added *local_exit* parameter.

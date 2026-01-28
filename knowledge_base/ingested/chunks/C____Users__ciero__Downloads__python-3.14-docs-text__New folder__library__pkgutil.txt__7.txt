@@ -1,0 +1,4 @@
+that are not strings referring to existing directories are ignored.
+   Unicode items on "sys.path" that cause errors when used as
+   filenames may cause this function to raise an exception (in line
+   with "os.path.isdir()" behavior).

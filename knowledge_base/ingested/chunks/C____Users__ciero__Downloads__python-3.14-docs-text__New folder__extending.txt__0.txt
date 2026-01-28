@@ -1,0 +1,4 @@
+1. Extending Python with C or C++
+*********************************
+It is quite easy to add new built-in modules to Python, if you know
+how to program in C.  Such *extension modules* can do two things that

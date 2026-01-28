@@ -1,0 +1,5 @@
+withitem(
+                          context_expr=Name(id='a', ctx=Load()),
+                          optional_vars=Name(id='b', ctx=Store())),
+                      withitem(
+                          context_expr=Name(id='c', ctx=Load()),

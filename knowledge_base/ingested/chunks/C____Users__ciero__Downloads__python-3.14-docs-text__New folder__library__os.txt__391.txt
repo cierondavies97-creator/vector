@@ -1,0 +1,4 @@
+The result is cached on the "os.DirEntry" object, with a
+      separate cache for *follow_symlinks* "True" and "False". Call
+      "os.stat()" along with "stat.S_ISDIR()" to fetch up-to-date
+      information.

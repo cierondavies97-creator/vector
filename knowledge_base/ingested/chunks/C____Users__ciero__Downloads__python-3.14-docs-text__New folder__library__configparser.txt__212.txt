@@ -1,0 +1,6 @@
+"InterpolationError".
+exception configparser.MissingSectionHeaderError
+   Exception raised when attempting to parse a file which has no
+   section headers.
+exception configparser.ParsingError
+   Exception raised when errors occur attempting to parse a file.

@@ -1,0 +1,4 @@
+class namespace that define a "__set_name__()" method;
+2. Those "__set_name__" methods are called with the class being
+   defined and the assigned name of that particular attribute;
+3. The "__init_subclass__()" hook is called on the immediate parent of

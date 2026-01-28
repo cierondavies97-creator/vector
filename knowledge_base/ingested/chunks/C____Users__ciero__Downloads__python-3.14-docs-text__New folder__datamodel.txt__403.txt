@@ -1,0 +1,4 @@
+built-in functions. See Special method lookup.
+   For certain sensitive attribute accesses, raises an auditing event
+   "object.__getattr__" with arguments "obj" and "name".
+object.__setattr__(self, name, value)

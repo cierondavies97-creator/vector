@@ -1,0 +1,4 @@
+Convenience Functions
+=====================
+xmlrpc.client.dumps(params, methodname=None, methodresponse=None, encoding=None, allow_none=False)
+   Convert *params* into an XML-RPC request, or into a response if

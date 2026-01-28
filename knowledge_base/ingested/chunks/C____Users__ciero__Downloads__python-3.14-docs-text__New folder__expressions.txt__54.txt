@@ -1,0 +1,4 @@
+between duplicate keys are not detected; the last value (textually
+rightmost in the display) stored for a given key value prevails.
+Changed in version 3.8: Prior to Python 3.8, in dict comprehensions,
+the evaluation order of key and value was not well-defined.  In

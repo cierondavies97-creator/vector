@@ -1,0 +1,6 @@
+Unix.  If you are unfamiliar with these conventions, reading this
+section will allow you to acquaint yourself with them.
+Terminology
+-----------
+argument
+   a string entered on the command-line, and passed by the shell to

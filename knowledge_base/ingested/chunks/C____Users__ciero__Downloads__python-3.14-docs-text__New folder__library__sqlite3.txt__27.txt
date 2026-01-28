@@ -1,0 +1,4 @@
+The highest scoring Monty Python movie is 'Monty Python and the Holy Grail', released in 1975
+   >>> new_con.close()
+You've now created an SQLite database using the "sqlite3" module,
+inserted data and retrieved values from it in multiple ways.

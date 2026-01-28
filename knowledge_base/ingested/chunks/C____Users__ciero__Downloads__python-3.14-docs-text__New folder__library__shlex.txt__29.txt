@@ -1,0 +1,3 @@
+search paths, addition of file extensions, and other namespace
+   hacks. There is no corresponding 'close' hook, but a shlex instance
+   will call the "close()" method of the sourced input stream when it

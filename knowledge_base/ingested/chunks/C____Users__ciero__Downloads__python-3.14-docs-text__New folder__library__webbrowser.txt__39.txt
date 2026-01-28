@@ -1,0 +1,6 @@
+the best strategy for running Konqueror.
+2. Only on Windows platforms.
+3. Only on macOS.
+4. Only on iOS.
+Added in version 3.2: A new "MacOSXOSAScript" class has been added and
+is used on Mac instead of the previous "MacOSX" class. This adds

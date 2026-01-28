@@ -1,0 +1,5 @@
+Awaitable)" for them will return "False". Use
+     "inspect.isawaitable()" to detect them.
+   Added in version 3.5.
+class collections.abc.Coroutine
+   ABC for *coroutine* compatible classes.  These implement the

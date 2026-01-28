@@ -1,0 +1,8 @@
+Example:
+      async def eternity():
+          # Sleep for one hour
+          await asyncio.sleep(3600)
+          print('yay!')
+      async def main():
+          # Wait for at most 1 second
+          try:

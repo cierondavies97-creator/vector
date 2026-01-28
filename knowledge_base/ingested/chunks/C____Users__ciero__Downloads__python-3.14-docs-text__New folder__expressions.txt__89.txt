@@ -1,0 +1,4 @@
+yielded by the generator, or raises "StopIteration" if the
+   generator exits without yielding another value.  When "send()" is
+   called to start the generator, it must be called with "None" as the
+   argument, because there is no yield expression that could receive

@@ -1,0 +1,4 @@
+"__wrapped__" attribute.  This is useful for introspection, for
+   bypassing the cache, or for rewrapping the function with a
+   different cache.
+   The cache keeps references to the arguments and return values until

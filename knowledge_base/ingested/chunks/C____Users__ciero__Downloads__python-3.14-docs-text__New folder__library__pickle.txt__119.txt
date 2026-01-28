@@ -1,0 +1,4 @@
+version of the object.
+   * A tuple of arguments for the callable object.  An empty tuple
+     must be given if the callable does not accept any argument.
+   * Optionally, the object's state, which will be passed to the

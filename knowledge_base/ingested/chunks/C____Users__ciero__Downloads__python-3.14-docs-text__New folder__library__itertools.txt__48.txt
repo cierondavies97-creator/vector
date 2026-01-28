@@ -1,0 +1,5 @@
+>>> unflattened
+      [('roses', 'red'), ('violets', 'blue'), ('sugar', 'sweet')]
+   Roughly equivalent to:
+      def batched(iterable, n, *, strict=False):
+          # batched('ABCDEFG', 3) → ABC DEF G

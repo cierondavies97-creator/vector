@@ -1,0 +1,6 @@
+Process Parameters
+==================
+These functions and data items provide information and operate on the
+current process and user.
+os.ctermid()
+   Return the filename corresponding to the controlling terminal of

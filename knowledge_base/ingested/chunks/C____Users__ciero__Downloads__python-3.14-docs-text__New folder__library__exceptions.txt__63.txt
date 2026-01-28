@@ -1,0 +1,5 @@
+operations are not checked.
+exception PythonFinalizationError
+   This exception is derived from "RuntimeError".  It is raised when
+   an operation is blocked during interpreter shutdown also known as
+   *Python finalization*.

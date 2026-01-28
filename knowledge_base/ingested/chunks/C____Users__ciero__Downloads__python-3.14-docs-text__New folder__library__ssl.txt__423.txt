@@ -1,0 +1,4 @@
+properly handle forked processes.  Applications must change the PRNG
+state of the parent process if they use any SSL feature with
+"os.fork()".  Any successful call of "RAND_add()" or "RAND_bytes()" is
+sufficient.

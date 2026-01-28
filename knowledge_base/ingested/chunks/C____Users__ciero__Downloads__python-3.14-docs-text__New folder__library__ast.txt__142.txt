@@ -1,0 +1,5 @@
+is_async=0),
+                  comprehension(
+                      target=Name(id='c', ctx=Store()),
+                      iter=Name(id='line', ctx=Load()),
+                      is_async=0)]))

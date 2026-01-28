@@ -1,0 +1,4 @@
+get_scheme()
+      Return the URL scheme being used for the current request.  The
+      default implementation uses the "guess_scheme()" function from
+      "wsgiref.util" to guess whether the scheme should be "http" or

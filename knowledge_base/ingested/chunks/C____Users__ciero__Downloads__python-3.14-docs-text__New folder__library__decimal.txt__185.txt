@@ -1,0 +1,6 @@
+"Context" method accepts a Python integer (an instance of "int")
+   anywhere that a Decimal instance is accepted.
+   clear_flags()
+      Resets all of the flags to "0".
+   clear_traps()
+      Resets all of the traps to "0".

@@ -1,0 +1,5 @@
+The specification, background, and examples for the Python "with"
+     statement.
+Single use, reusable and reentrant context managers
+===================================================
+Most context managers are written in a way that means they can only be

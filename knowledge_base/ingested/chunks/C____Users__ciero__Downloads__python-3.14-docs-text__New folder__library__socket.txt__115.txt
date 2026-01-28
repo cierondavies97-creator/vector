@@ -1,0 +1,3 @@
+Changed in version 3.7: When "SOCK_NONBLOCK" or "SOCK_CLOEXEC" bit
+   flags are applied to *type* they are cleared, and "socket.type"
+   will not reflect them.  They are still passed to the underlying

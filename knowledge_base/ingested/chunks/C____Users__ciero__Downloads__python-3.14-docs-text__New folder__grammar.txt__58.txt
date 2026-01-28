@@ -1,0 +1,4 @@
+| a=param_no_default* b=param_with_default+ '/' &')' { _PyPegen_slash_with_default(p, (asdl_arg_seq *)a, b) }
+   star_etc[StarEtc*]:
+       | invalid_star_etc
+       | '*' a=param_no_default b=param_maybe_default* c=[kwds] {

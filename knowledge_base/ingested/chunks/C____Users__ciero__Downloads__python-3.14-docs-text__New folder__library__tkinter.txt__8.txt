@@ -1,0 +1,6 @@
+* Tkinter 8.5 reference: a GUI for Python
+       Reference documentation for Tkinter 8.5 detailing available
+       classes, methods, and options.
+  Tcl/Tk Resources:
+  * Tk commands
+       Comprehensive reference to each of the underlying Tcl/Tk

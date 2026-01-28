@@ -1,0 +1,4 @@
+when called, always returns an *iterator* object which can be used to
+execute the body of the function:  calling the iterator's
+"iterator.__next__()" method will cause the function to execute until
+it provides a value using the "yield" statement.  When the function

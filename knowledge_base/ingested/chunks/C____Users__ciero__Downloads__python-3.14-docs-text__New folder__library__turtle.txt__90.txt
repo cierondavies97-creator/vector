@@ -1,0 +1,9 @@
+225.0
+turtle.xcor()
+   Return the turtle's x coordinate.
+      >>> turtle.home()
+      >>> turtle.left(50)
+      >>> turtle.forward(100)
+      >>> turtle.pos()
+      (64.28,76.60)
+      >>> print(round(turtle.xcor(), 5))

@@ -1,0 +1,3 @@
+leave out the geometry specification, and then be surprised when the
+widget is created but nothing appears.  A widget will appear only
+after it has had, for example, the packer's "pack()" method applied to

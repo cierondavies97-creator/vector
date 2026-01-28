@@ -1,0 +1,4 @@
+platform but optional for others, set *required_on* to an iterable
+   of platform prefixes which will be compared against "sys.platform".
+   Added in version 3.1.
+test.support.import_helper.modules_setup()

@@ -1,0 +1,5 @@
+will not be interpreted, and will be left in the input stream as
+   is.
+window.noutrefresh()
+   Mark for refresh but wait.  This function updates the data
+   structure representing the desired state of the window, but does

@@ -1,0 +1,6 @@
+remain alive, but the objects can still be retrieved by ID if they do.
+   import weakref
+   _id2obj_dict = weakref.WeakValueDictionary()
+   def remember(obj):
+       oid = id(obj)
+       _id2obj_dict[oid] = obj

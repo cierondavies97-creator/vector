@@ -1,0 +1,4 @@
+default reasonable value is chosen. *reuse_port* dictates whether
+   to set the "SO_REUSEPORT" socket option.
+   If *dualstack_ipv6* is true, *family* is "AF_INET6" and the
+   platform supports it the socket will be able to accept both IPv4

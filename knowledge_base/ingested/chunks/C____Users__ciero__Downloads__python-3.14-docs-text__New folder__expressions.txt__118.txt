@@ -1,0 +1,5 @@
+asynchronous generator function.
+6.2.9.4. Asynchronous generator-iterator methods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This subsection describes the methods of an asynchronous generator
+iterator, which are used to control the execution of a generator

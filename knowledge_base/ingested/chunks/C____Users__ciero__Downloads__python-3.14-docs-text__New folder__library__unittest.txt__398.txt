@@ -1,0 +1,5 @@
+called, then any cleanup functions added will still be called.
+   Added in version 3.8.
+unittest.enterModuleContext(cm)
+   Enter the supplied *context manager*.  If successful, also add its
+   "__exit__()" method as a cleanup function by "addModuleCleanup()"

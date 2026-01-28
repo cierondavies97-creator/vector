@@ -1,0 +1,5 @@
+reliable.
+   put(obj[, block[, timeout]])
+      Put obj into the queue.  If the optional argument *block* is
+      "True" (the default) and *timeout* is "None" (the default),
+      block if necessary until a free slot is available.  If *timeout*

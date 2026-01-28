@@ -1,0 +1,4 @@
+This module creates temporary files and directories.  It works on all
+supported platforms. "TemporaryFile", "NamedTemporaryFile",
+"TemporaryDirectory", and "SpooledTemporaryFile" are high-level
+interfaces which provide automatic cleanup and can be used as *context

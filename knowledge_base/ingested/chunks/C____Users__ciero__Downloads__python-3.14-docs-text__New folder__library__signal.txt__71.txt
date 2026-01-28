@@ -1,0 +1,3 @@
+and ignore the actual byte values. In this case, all we care about
+   is whether the fd's buffer is empty or non-empty; a full buffer
+   doesn't indicate a problem at all. If you use this approach, then

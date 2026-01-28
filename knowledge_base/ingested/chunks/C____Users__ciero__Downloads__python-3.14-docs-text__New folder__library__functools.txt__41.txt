@@ -1,0 +1,5 @@
+def get_pep(num):
+          'Retrieve text of a Python Enhancement Proposal'
+          resource = f'https://peps.python.org/pep-{num:04d}'
+          try:
+              with urllib.request.urlopen(resource) as s:

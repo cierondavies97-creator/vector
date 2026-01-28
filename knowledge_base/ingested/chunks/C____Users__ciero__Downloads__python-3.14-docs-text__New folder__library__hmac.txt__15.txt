@@ -1,0 +1,6 @@
+The internal block size of the hash algorithm in bytes.
+   Added in version 3.4.
+HMAC.name
+   The canonical name of this HMAC, always lowercase, e.g. "hmac-md5".
+   Added in version 3.4.
+Changed in version 3.10: Removed the undocumented attributes

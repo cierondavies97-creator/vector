@@ -1,0 +1,4 @@
+connection can also be required to produce a certificate, and that
+certificate can be validated to the satisfaction of the client or
+server that requires such validation.  The connection attempt can be
+set to raise an exception if the validation fails. Validation is done

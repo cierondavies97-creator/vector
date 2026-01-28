@@ -1,0 +1,7 @@
+Providing both of the script selection options will trigger an
+exception.
+Module API
+==========
+"ensurepip" exposes two functions for programmatic use:
+ensurepip.version()
+   Returns a string specifying the available version of pip that will

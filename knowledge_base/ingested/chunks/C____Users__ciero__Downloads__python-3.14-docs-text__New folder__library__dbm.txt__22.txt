@@ -1,0 +1,6 @@
+Parameters:
+      * **filename** (*path-like object*) -- The path to the database
+        to be opened.
+      * **flag** (*str*) --
+        * "'r'" (default): Open existing database for reading only.
+        * "'w'": Open existing database for reading and writing.

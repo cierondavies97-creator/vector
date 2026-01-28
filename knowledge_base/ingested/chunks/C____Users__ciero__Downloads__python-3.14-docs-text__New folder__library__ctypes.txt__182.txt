@@ -1,0 +1,3 @@
+made.Also, note that if the callback function is called in a thread
+  created outside of Python's control (e.g. by the foreign code that
+  calls the callback), ctypes creates a new dummy Python thread on

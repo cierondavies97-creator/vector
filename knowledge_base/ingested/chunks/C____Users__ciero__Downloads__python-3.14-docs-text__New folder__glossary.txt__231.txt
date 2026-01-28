@@ -1,0 +1,8 @@
+instead:
+      for i in range(len(food)):
+          print(food[i])
+   As opposed to the cleaner, Pythonic method:
+      for piece in food:
+          print(piece)
+qualified name
+   A dotted name showing the "path" from a module's global scope to a

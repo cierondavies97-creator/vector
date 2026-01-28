@@ -1,0 +1,3 @@
+string and appends a trailing slash to "SCRIPT_NAME", even though
+   empty path segments are normally ignored, and "SCRIPT_NAME" doesn't
+   normally end in a slash.  This is intentional behavior, to ensure

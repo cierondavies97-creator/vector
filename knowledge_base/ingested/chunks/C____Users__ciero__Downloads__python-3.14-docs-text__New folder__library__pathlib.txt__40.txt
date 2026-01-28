@@ -1,0 +1,8 @@
+>>> PureWindowsPath('c:/Program Files/').root
+      '\\'
+      >>> PureWindowsPath('c:Program Files/').root
+      ''
+      >>> PurePosixPath('/etc').root
+      '/'
+   UNC shares always have a root:
+      >>> PureWindowsPath('//host/share').root

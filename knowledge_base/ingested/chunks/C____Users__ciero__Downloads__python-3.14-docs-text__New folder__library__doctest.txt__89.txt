@@ -1,0 +1,6 @@
+>>> raise Exception('message')
+      Traceback (most recent call last):
+      Exception: message
+      >>> raise Exception('message')
+      Traceback (most recent call last):
+      builtins.Exception: message

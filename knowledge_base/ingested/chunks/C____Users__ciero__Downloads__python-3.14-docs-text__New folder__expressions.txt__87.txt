@@ -1,0 +1,4 @@
+the value of the "yield_list" is returned to "__next__()"'s caller.
+   If the generator exits without yielding another value, a
+   "StopIteration" exception is raised.
+   This method is normally called implicitly, e.g. by a "for" loop, or

@@ -1,0 +1,4 @@
+* The interpreter's own prompts and its error messages go to
+     "stderr".
+   These streams are regular *text files* like those returned by the
+   "open()" function.  Their parameters are chosen as follows:

@@ -1,0 +1,5 @@
+self.assertEqual(self.widget.size(), (100,150),
+                            'wrong size after resize')
+Note:
+  The order in which the various tests will be run is determined by
+  sorting the test method names with respect to the built-in ordering

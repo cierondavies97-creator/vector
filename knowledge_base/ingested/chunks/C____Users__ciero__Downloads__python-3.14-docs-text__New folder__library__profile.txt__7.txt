@@ -1,0 +1,5 @@
+manual." It provides a very brief overview, and allows a user to
+rapidly perform profiling on an existing application.
+To profile a function that takes a single argument, you can do:
+   import cProfile
+   import re

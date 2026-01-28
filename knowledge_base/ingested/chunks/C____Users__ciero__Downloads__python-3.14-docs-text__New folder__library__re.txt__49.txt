@@ -1,0 +1,3 @@
+"'^'", all the characters that are *not* in the set will be
+     matched.  For example, "[^5]" will match any character except
+     "'5'", and "[^^]" will match any character except "'^'".  "^" has

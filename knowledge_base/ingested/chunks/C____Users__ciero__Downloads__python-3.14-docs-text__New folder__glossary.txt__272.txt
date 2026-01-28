@@ -1,0 +1,4 @@
+interpreter only runs under an attached thread state.
+   Each thread state belongs to a single interpreter, but each
+   interpreter may have many thread states, including multiple for the
+   same OS thread. Thread states from multiple interpreters may be

@@ -1,0 +1,5 @@
+All arguments are required. Arguments must be integers, in the
+   following ranges:
+   * "MINYEAR <= year <= MAXYEAR"
+   * "1 <= month <= 12"
+   * "1 <= day <= number of days in the given month and year"

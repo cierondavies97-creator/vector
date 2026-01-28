@@ -1,0 +1,6 @@
+String 'Hi', Int 10, Double 2.200000
+   37
+   >>>
+Specifying a format protects against incompatible argument types (just
+as a prototype for a C function), and tries to convert the arguments
+to valid types:

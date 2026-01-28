@@ -1,0 +1,5 @@
+and instead make your parsing generic and flexible. However, data
+   is always received in the correct order.
+   The method can be called an arbitrary number of times while a
+   connection is open.
+   However, "protocol.eof_received()" is called at most once.  Once

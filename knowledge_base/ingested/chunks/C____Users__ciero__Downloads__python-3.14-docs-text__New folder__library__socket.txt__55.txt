@@ -1,0 +1,4 @@
+error returned by a library call.  *string* represents the
+   description of *error*, as returned by the "gai_strerror()" C
+   function.  The numeric *error* value will match one of the "EAI_*"
+   constants defined in this module.

@@ -1,0 +1,6 @@
+Changed in version 3.9: Result changed from a tuple to a *named
+   tuple*.
+date.isoformat()
+   Return a string representing the date in ISO 8601 format, "YYYY-MM-
+   DD":
+      >>> from datetime import date

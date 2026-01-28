@@ -1,0 +1,3 @@
+This is a module-global setting, and affects all future doctests
+   run by module "unittest":  the "runTest()" method of "DocTestCase"
+   looks at the option flags specified for the test case when the

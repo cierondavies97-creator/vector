@@ -1,0 +1,4 @@
+by "PYTHONIOENCODING" (just as they can be in the default locale-aware
+mode).
+As a consequence of the changes in those lower level APIs, other
+higher level APIs also exhibit different default behaviours:

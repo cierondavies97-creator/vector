@@ -1,0 +1,4 @@
+numeric-string ::=  [sign] numeric-value | [sign] nan
+   Other Unicode decimal digits are also permitted where "digit"
+   appears above.  These include decimal digits from various other
+   alphabets (for example, Arabic-Indic and Devanāgarī digits) along

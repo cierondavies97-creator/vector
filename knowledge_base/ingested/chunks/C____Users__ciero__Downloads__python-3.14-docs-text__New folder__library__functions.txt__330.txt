@@ -1,0 +1,4 @@
+In addition to method lookups, "super()" also works for attribute
+   lookups.  One possible use case for this is calling *descriptors*
+   in a parent or sibling class.
+   Note that "super()" is implemented as part of the binding process

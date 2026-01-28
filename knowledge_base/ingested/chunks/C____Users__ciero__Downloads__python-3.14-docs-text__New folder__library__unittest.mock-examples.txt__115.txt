@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+    ...
+AssertionError: Expected 'foo_bar' to be called once. Called 2 times.
+Calls: [call('baz', spam='eggs'), call()].
+Both "assert_called_with" and "assert_called_once_with" make

@@ -1,0 +1,6 @@
+source expression
+   Try to get source code of *expression* and display it.
+   Added in version 3.2.
+display [expression]
+   Display the value of *expression* if it changed, each time
+   execution stops in the current frame.

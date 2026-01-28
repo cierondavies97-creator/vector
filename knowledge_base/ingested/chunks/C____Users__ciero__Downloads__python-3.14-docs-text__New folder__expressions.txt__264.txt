@@ -1,0 +1,5 @@
+y" is true if and only if *x* and *y* are the same object.  An
+Object's identity is determined using the "id()" function.  "x is not
+y" yields the inverse truth value. [4]
+6.11. Boolean operations
+========================

@@ -1,0 +1,3 @@
+This string is displayed when the interactive interpreter is
+   started.  Do not extract version information out of it, rather, use
+   "version_info" and the functions provided by the "platform" module.

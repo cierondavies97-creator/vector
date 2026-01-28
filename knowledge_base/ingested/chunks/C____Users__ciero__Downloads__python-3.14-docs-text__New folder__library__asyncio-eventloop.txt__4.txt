@@ -1,0 +1,5 @@
+This function can only be called from a coroutine or a callback.
+   Added in version 3.7.
+asyncio.get_event_loop()
+   Get the current event loop.
+   When called from a coroutine or a callback (e.g. scheduled with

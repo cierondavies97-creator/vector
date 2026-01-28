@@ -1,0 +1,5 @@
+supports subscripting ("[]"). See **PEP 585** and Generic Alias
+   Type.
+class typing.OrderedDict(collections.OrderedDict, MutableMapping[KT, VT])
+   Deprecated alias to "collections.OrderedDict".
+   Added in version 3.7.2.

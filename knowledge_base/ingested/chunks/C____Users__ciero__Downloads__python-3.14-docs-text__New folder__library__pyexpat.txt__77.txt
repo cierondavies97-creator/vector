@@ -1,0 +1,4 @@
+starting with version 1.95.0 of the Expat library.
+xmlparser.NotationDeclHandler(notationName, base, systemId, publicId)
+   Called for notation declarations.  *notationName*, *base*, and
+   *systemId*, and *publicId* are strings if given.  If the public

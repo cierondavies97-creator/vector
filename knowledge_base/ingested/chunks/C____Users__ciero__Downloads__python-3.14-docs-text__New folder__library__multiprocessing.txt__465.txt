@@ -1,0 +1,4 @@
+"feeder" thread to the underlying pipe.  (The child process can
+   call the "Queue.cancel_join_thread" method of the queue to avoid
+   this behaviour.)
+   This means that whenever you use a queue you need to make sure that

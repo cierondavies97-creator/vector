@@ -1,0 +1,4 @@
+| a='elif' named_expression ':' NEWLINE !INDENT {
+           RAISE_INDENTATION_ERROR("expected an indented block after 'elif' statement on line %d", a->lineno) }
+   invalid_else_stmt:
+       | a='else' ':' NEWLINE !INDENT {

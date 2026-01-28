@@ -1,0 +1,5 @@
+...         self.MockClass = patcher.start()
+     ...         self.addCleanup(patcher.stop)
+     ...
+     ...     def test_something(self):
+     ...         assert package.module.Class is self.MockClass

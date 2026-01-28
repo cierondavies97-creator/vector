@@ -1,0 +1,6 @@
+with two asterisks ("**"):
+      type IntFunc[**P] = Callable[P, int]
+   For compatibility with Python 3.11 and earlier, "ParamSpec" objects
+   can also be created as follows:
+      P = ParamSpec('P')
+   Parameter specification variables exist primarily for the benefit

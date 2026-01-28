@@ -1,0 +1,5 @@
+"LittleEndianUnion" base classes.  These classes cannot contain
+pointer fields.
+Bit fields in structures and unions
+-----------------------------------
+It is possible to create structures and unions containing bit fields.

@@ -1,0 +1,6 @@
+it).
+Running the following commands creates a server for a single shared
+queue which remote clients can access:
+   >>> from multiprocessing.managers import BaseManager
+   >>> from queue import Queue
+   >>> queue = Queue()

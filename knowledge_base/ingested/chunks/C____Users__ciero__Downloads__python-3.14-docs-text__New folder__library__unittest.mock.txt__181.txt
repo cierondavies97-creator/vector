@@ -1,0 +1,3 @@
+are recorded in the "method_calls" and "mock_calls" attributes of the
+parent. This is useful for configuring child mocks and then attaching
+them to the parent, or for attaching mocks to a parent that records

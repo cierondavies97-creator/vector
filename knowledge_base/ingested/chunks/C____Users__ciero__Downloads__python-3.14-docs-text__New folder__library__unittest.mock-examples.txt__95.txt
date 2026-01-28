@@ -1,0 +1,5 @@
+>>> list(mock_foo.iter())
+[1, 2, 3]
+[1] There are also generator expressions and more advanced uses of
+    generators, but we aren't concerned about them here. A very good
+    introduction to generators and how powerful they are is: Generator

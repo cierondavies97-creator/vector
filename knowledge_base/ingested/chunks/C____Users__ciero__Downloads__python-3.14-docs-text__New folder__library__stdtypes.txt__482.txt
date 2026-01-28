@@ -1,0 +1,4 @@
+assume that "'\0'" is the end of the string.
+Changed in version 3.1: "%f" conversions for numbers whose absolute
+value is over 1e50 are no longer replaced by "%g" conversions.
+Binary Sequence Types --- "bytes", "bytearray", "memoryview"

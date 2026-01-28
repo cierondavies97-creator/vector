@@ -1,0 +1,5 @@
+methods and attributes of the "Process" object will raise
+      "ValueError".
+      Added in version 3.7.
+   Note that the "start()", "join()", "is_alive()", "terminate()" and
+   "exitcode" methods should only be called by the process that

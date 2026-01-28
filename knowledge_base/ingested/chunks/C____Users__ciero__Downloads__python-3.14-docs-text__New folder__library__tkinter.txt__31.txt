@@ -1,0 +1,5 @@
+attached the same instance of "Tk" has the same value for its
+      "tk" attribute.
+   master
+      The widget object that contains this widget.  For "Tk", the
+      *master* is "None" because it is the main window.  The terms

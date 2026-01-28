@@ -1,0 +1,4 @@
+sequences which do not match a single character such as "\A" and
+     "\z" are not allowed.
+   * Characters that are not within a range can be matched by
+     *complementing* the set.  If the first character of the set is

@@ -1,0 +1,7 @@
+========
+Here is a simple echo server implementation:
+   import selectors
+   import socket
+   sel = selectors.DefaultSelector()
+   def accept(sock, mask):
+       conn, addr = sock.accept()  # Should be ready

@@ -1,0 +1,6 @@
+Py_CLEAR(self->other_obj);
+       ...
+       Py_TYPE(self)->tp_free(self);
+   }
+One important requirement of the deallocator function is that it
+leaves any pending exceptions alone.  This is important since

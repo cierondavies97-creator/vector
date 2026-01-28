@@ -1,0 +1,4 @@
+and ignorable whitespace.
+   This function takes an XML data string (*xml_data*) or a file path
+   or file-like object (*from_file*) as input, converts it to the
+   canonical form, and writes it out using the *out* file(-like)

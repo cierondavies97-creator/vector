@@ -1,0 +1,6 @@
+from contextlib import ExitStack
+   class Callback(ExitStack):
+       def __init__(self, callback, /, *args, **kwds):
+           super().__init__()
+           self.callback(callback, *args, **kwds)
+       def cancel(self):

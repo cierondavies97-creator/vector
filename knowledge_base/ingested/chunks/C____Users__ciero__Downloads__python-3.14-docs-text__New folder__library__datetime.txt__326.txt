@@ -1,0 +1,4 @@
+This is called from the default "datetime.astimezone()"
+   implementation. When called from that, "dt.tzinfo" is *self*, and
+   *dt*'s date and time data are to be viewed as expressing a UTC
+   time. The purpose of "fromutc()" is to adjust the date and time

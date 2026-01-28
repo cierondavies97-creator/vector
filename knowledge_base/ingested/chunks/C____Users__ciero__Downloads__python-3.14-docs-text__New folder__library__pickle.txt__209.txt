@@ -1,0 +1,5 @@
+High-performance serialization of built-in types.
+-[ Footnotes ]-
+[1] Don't confuse this with the "marshal" module
+[2] This is why "lambda" functions cannot be pickled:  all "lambda"
+    functions share the same name:  "<lambda>".

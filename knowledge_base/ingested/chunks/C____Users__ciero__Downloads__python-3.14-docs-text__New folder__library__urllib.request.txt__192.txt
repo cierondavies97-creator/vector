@@ -1,0 +1,4 @@
+involved.  For example, the "http_proxy" environment variable is read
+to obtain the HTTP proxy's URL.
+This example replaces the default "ProxyHandler" with one that uses
+programmatically supplied proxy URLs, and adds proxy authorization

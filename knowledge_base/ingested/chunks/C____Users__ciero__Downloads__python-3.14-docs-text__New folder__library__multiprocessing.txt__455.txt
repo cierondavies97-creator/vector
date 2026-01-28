@@ -1,0 +1,7 @@
+======================
+There are certain guidelines and idioms which should be adhered to
+when using "multiprocessing".
+All start methods
+-----------------
+The following applies to all start methods.
+Avoid shared state

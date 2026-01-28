@@ -1,0 +1,4 @@
+"ssl.HAS_SNI" is true).*data* can be an iterable object.
+   Changed in version 3.3: *cadefault* was added.
+   Changed in version 3.4.3: *context* was added.
+   Changed in version 3.10: HTTPS connection now send an ALPN

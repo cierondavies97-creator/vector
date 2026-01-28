@@ -1,0 +1,5 @@
+bytes for IPv4 and 16 bytes for IPv6.
+   reverse_pointer
+      The name of the reverse DNS PTR record for the IP address, e.g.:
+         >>> ipaddress.ip_address("127.0.0.1").reverse_pointer
+         '1.0.0.127.in-addr.arpa'

@@ -1,0 +1,4 @@
+paths). When handling untrusted archives, consider resolving
+     filenames using "os.path.abspath()" and checking against the
+     target directory with "os.path.commonpath()".
+Path objects expose the following features of "pathlib.Path" objects:

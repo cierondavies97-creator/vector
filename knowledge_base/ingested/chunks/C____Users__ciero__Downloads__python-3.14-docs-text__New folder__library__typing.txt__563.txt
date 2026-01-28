@@ -1,0 +1,4 @@
+class typing.ContextManager(Generic[T_co, ExitT_co])
+   Deprecated alias to "contextlib.AbstractContextManager".
+   The first type parameter, "T_co", represents the type returned by
+   the "__enter__()" method. The optional second type parameter,

@@ -1,0 +1,4 @@
+python M.py
+This won't display anything unless an example fails, in which case the
+failing example(s) and the cause(s) of the failure(s) are printed to
+stdout, and the final line of output is "***Test Failed*** N

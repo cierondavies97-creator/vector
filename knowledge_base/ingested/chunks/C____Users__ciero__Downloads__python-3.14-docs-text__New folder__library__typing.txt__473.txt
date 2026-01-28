@@ -1,0 +1,4 @@
+*globalns* or *localns* is not given, appropriate namespace
+     dictionaries are inferred from *obj*.
+   * "None" is replaced with "types.NoneType".
+   * If "@no_type_check" has been applied to *obj*, an empty

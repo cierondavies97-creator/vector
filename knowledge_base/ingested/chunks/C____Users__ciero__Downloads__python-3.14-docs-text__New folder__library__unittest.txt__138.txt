@@ -1,0 +1,3 @@
+Note that this is equivalent to "bool(expr) is True" and not to
+      "expr is True" (use "assertIs(expr, True)" for the latter).
+      This method should also be avoided when more specific methods

@@ -1,0 +1,4 @@
+"LOCK_EX" can only be used if the file descriptor refers to a file
+   opened for writing.
+   *len* is the number of bytes to lock, *start* is the byte offset at
+   which the lock starts, relative to *whence*, and *whence* is as

@@ -1,0 +1,4 @@
+preferred schemes to the "_INSTALL_SCHEMES" module-level global
+   value, and modify this function to return those scheme names, to
+   e.g. provide different schemes for system and language package
+   managers to use, so packages installed by either do not mix with

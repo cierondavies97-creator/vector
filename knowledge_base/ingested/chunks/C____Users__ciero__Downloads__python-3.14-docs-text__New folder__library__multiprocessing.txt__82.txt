@@ -1,0 +1,5 @@
+If a subclass overrides the constructor, it must make sure it
+   invokes the base class constructor ("super().__init__()") before
+   doing anything else to the process.
+   Note:
+     In general, all arguments to "Process" must be picklable.  This

@@ -1,0 +1,5 @@
+ranges are used for lines that are present in the source code, but
+   have been eliminated by the *bytecode* compiler.
+   Added in version 3.10.
+   See also:
+     **PEP 626** - Precise line numbers for debugging and other tools.

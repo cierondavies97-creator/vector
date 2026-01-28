@@ -1,0 +1,3 @@
+The *chars* argument indicates the number of decoded code points
+      or bytes to return. The "read()" method will never return more
+      data than requested, but it might return less, if there is not

@@ -1,0 +1,1 @@
+response.  It is implemented using the "email.message.Message" class.

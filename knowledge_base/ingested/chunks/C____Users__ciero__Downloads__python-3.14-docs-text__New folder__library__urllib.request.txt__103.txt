@@ -1,0 +1,5 @@
+======================
+"OpenerDirector" instances have the following methods:
+OpenerDirector.add_handler(handler)
+   *handler* should be an instance of "BaseHandler".  The following
+   methods are searched, and added to the possible chains (note that

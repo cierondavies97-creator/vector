@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "python" and "py" don't launch the runtime I       | Check your "PYTHON_MANAGER_DEFAULT" environment    |

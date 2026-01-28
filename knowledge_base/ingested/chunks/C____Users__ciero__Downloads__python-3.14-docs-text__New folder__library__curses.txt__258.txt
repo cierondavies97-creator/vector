@@ -1,0 +1,3 @@
+| curses.KEY_SEND           | Shifted End                                  |
++---------------------------+----------------------------------------------+
+| curses.KEY_SEOL           | Shifted Clear line                           |

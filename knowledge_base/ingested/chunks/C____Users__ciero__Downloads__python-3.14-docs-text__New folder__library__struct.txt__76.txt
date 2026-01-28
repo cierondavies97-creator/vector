@@ -1,0 +1,4 @@
+>>> name, serialnum, school, gradelevel = unpack('<10sHHb', record)
+   >>> from collections import namedtuple
+   >>> Student = namedtuple('Student', 'name serialnum school gradelevel')
+   >>> Student._make(unpack('<10sHHb', record))

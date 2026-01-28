@@ -1,0 +1,6 @@
+"setUp()", which the testing framework will automatically call for
+every single test we run:
+   import unittest
+   class WidgetTestCase(unittest.TestCase):
+       def setUp(self):
+           self.widget = Widget('The widget')

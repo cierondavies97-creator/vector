@@ -1,0 +1,5 @@
+width_with_grouping:     [width][grouping]
+   precision_with_grouping: "." [precision][grouping] | "." grouping
+   width:                   digit+
+   precision:               digit+
+   grouping:                "," | "_"

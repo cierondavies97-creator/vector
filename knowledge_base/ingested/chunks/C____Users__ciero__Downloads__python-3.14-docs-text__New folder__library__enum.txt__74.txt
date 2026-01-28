@@ -1,0 +1,7 @@
+enumeration.
+   __contains__(self, value)
+      Returns *True* if value is in self:
+         >>> from enum import Flag, auto
+         >>> class Color(Flag):
+         ...     RED = auto()
+         ...     GREEN = auto()

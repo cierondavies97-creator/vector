@@ -1,0 +1,4 @@
+but is essentially very simple.  Graphical applications which run
+   test suites should provide alternate implementations. Such
+   implementations should accept "**kwargs" as the interface to
+   construct runners changes when features are added to unittest.

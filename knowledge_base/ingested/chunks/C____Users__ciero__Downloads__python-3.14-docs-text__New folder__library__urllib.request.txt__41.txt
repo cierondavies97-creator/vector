@@ -1,0 +1,3 @@
+field has been provided, "HTTPHandler" will set these headers
+   according to the type of *data*.  "Content-Length" will be used to
+   send bytes objects, while "Transfer-Encoding: chunked" as specified

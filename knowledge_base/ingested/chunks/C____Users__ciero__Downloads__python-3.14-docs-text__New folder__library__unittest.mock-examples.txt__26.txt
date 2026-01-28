@@ -1,0 +1,6 @@
+the nested call.
+We can use "call" to construct the set of calls in a "chained call"
+like this for easy assertion afterwards:
+>>> mock = Mock()
+>>> cursor = mock.connection.cursor.return_value
+>>> cursor.execute.return_value = ['foo']

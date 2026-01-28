@@ -1,0 +1,5 @@
+1.3, not OpenBSD
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.13: Added support on Windows.
+os.lchown(path, uid, gid)
+   Change the owner and group id of *path* to the numeric *uid* and

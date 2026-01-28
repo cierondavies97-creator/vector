@@ -1,0 +1,6 @@
+See Module specs for more details.
+   Added in version 3.4.
+module.__package__
+   The *package* a module belongs to.
+   If the module is top-level (that is, not a part of any specific
+   package) then the attribute should be set to "''" (the empty

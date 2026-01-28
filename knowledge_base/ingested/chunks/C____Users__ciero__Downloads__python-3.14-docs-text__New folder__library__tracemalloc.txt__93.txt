@@ -1,0 +1,7 @@
+instance.
+Trace
+-----
+class tracemalloc.Trace
+   Trace of a memory block.
+   The "Snapshot.traces" attribute is a sequence of "Trace" instances.
+   Changed in version 3.6: Added the "domain" attribute.

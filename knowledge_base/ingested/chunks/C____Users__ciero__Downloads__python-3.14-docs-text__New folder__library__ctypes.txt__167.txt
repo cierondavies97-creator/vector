@@ -1,0 +1,8 @@
+each other, and finally follow the pointer chain a few times:
+   >>> c1 = cell()
+   >>> c1.name = b"foo"
+   >>> c2 = cell()
+   >>> c2.name = b"bar"
+   >>> c1.next = pointer(c2)
+   >>> c2.next = pointer(c1)
+   >>> p = c1

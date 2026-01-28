@@ -1,0 +1,4 @@
+This ".rstrip(b'\x00')" behavior is considered a bug and may go
+     away in the future. See gh-106939.
+   For applications where rstripping of trailing nulls is a problem,
+   work around it by always unconditionally appending an extra non-0

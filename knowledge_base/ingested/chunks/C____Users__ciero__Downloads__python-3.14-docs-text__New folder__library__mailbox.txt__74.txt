@@ -1,0 +1,5 @@
+method instead, because changes made with this mailbox method
+      will not be visible to the message object's method,
+      "get_info()".
+      Added in version 3.13.
+   Some "Mailbox" methods implemented by "Maildir" deserve special

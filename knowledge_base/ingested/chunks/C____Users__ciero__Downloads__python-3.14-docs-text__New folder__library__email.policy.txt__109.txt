@@ -1,0 +1,5 @@
+the behavior of the email package in Python 3.2.
+   Note:
+     The "compat32" policy should not be used as a policy for
+     "EmailMessage" objects, and should only be used to serialize
+     messages that were created using the "compat32" policy.

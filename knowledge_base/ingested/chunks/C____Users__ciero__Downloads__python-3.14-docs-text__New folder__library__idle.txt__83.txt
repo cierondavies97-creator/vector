@@ -1,0 +1,3 @@
+as those beginning with "class", "def", or "if" keywords, that would
+have otherwise scrolled out of view.  The size of the pane will be
+expanded and contracted as needed to show the all current levels of

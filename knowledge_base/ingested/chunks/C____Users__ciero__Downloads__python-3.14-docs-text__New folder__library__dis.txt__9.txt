@@ -1,0 +1,6 @@
+the following command can be used to display the disassembly of
+"myfunc()":
+   >>> dis.dis(myfunc)
+     2           RESUME                   0
+     3           LOAD_GLOBAL              1 (len + NULL)
+                 LOAD_FAST_BORROW         0 (alist)

@@ -1,0 +1,3 @@
+applying an equalizer function, creating an artificial stereo effect),
+so in addition you will be writing a never-ending stream of modules to
+perform these operations.  Here's a possible structure for your

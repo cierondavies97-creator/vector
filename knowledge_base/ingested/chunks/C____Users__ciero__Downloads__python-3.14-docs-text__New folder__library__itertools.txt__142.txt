@@ -1,0 +1,5 @@
+installed from the more-itertools project found on the Python Package
+Index:
+   python -m pip install more-itertools
+Many of the recipes offer the same high performance as the underlying
+toolset. Superior memory performance is kept by processing elements

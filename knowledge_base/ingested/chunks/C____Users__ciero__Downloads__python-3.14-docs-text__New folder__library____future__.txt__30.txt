@@ -1,0 +1,4 @@
+"_Feature.compiler_flag" attribute on "_Feature" instances.
+[1] "from __future__ import annotations" was previously scheduled to
+    become mandatory in Python 3.10, but the change was delayed and
+    ultimately canceled. This feature will eventually be deprecated

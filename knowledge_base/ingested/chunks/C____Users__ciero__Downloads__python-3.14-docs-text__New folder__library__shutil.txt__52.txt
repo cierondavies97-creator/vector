@@ -1,0 +1,3 @@
+Platform-dependent efficient copy operations section.
+   Changed in version 3.8: Added the *dirs_exist_ok* parameter.
+shutil.rmtree(path, ignore_errors=False, onerror=None, *, onexc=None, dir_fd=None)

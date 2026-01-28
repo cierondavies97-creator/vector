@@ -1,0 +1,4 @@
+*numlines* defaults to "5".  When *context* is "True" *numlines*
+      controls the number of context lines which surround the
+      difference highlights.  When *context* is "False" *numlines*
+      controls the number of lines which are shown before a difference

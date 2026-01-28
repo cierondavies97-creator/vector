@@ -1,0 +1,4 @@
+as a replacement for similar functionality. With *reuse_port*,
+   socket.SO_REUSEPORT is used instead, which specifically prevents
+   processes with differing UIDs from assigning sockets to the same
+   socket address.

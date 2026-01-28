@@ -1,0 +1,4 @@
+("=" or ":" by default [1]).  By default, section names are case
+sensitive but keys are not [1].  Leading and trailing whitespace is
+removed from keys and values. Values can be omitted if the parser is
+configured to allow it [1], in which case the key/value delimiter may

@@ -1,0 +1,5 @@
+res = pool.apply_async(time.sleep, (10,))
+           try:
+               print(res.get(timeout=1))
+           except TimeoutError:
+               print("We lacked patience and got a multiprocessing.TimeoutError")

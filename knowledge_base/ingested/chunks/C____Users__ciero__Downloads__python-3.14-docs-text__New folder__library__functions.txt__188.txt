@@ -1,0 +1,4 @@
+comprehension has been updated as described in **PEP 709**.
+   Changed in version 3.13: As part of **PEP 667**, the semantics of
+   mutating the mapping objects returned from this function are now
+   defined. The behavior in *optimized scopes* is now as described

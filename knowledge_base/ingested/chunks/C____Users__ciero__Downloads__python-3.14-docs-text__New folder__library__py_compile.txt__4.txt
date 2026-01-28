@@ -1,0 +1,4 @@
+The byte-code is written to *cfile*, which defaults to the **PEP
+   3147**/**PEP 488** path, ending in ".pyc". For example, if *file*
+   is "/foo/bar/baz.py" *cfile* will default to
+   "/foo/bar/__pycache__/baz.cpython-32.pyc" for Python 3.2.  If

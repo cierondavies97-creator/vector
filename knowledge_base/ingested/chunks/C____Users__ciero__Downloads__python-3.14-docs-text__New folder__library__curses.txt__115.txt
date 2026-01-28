@@ -1,0 +1,4 @@
+* Wherever  the  former background character appears, it is changed
+     to the new background character.
+window.bkgdset(ch[, attr])
+   Set the window's background.  A window's background consists of a

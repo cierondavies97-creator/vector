@@ -1,0 +1,4 @@
+Transports are classes provided by "asyncio" in order to abstract
+various kinds of communication channels.
+Transport objects are always instantiated by an asyncio event loop.
+asyncio implements transports for TCP, UDP, SSL, and subprocess pipes.

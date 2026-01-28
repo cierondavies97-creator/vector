@@ -1,0 +1,5 @@
+"copy.replace()".
+   Changed in version 3.6: Added the *fold* parameter.
+datetime.astimezone(tz=None)
+   Return a "datetime" object with new "tzinfo" attribute *tz*,
+   adjusting the date and time data so the result is the same UTC time

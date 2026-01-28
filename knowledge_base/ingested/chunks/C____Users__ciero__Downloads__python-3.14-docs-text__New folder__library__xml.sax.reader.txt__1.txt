@@ -1,0 +1,3 @@
+SAX parsers implement the "XMLReader" interface. They are implemented
+in a Python module, which must provide a function "create_parser()".
+This function is invoked by  "xml.sax.make_parser()" with no arguments

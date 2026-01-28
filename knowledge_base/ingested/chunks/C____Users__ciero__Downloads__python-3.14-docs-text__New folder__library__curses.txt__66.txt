@@ -1,0 +1,3 @@
+"addch('\n')", which always does the equivalent of return and line
+   feed on the virtual screen).  With translation off, curses can
+   sometimes speed up vertical motion a little; also, it will be able

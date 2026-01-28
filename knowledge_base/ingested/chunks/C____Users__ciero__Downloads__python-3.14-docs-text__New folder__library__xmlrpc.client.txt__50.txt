@@ -1,0 +1,6 @@
+stream object.
+   It also supports certain of Python's built-in operators through
+   "rich comparison" and "__repr__()" methods.
+A working example follows. The server code:
+   import datetime
+   from xmlrpc.server import SimpleXMLRPCServer

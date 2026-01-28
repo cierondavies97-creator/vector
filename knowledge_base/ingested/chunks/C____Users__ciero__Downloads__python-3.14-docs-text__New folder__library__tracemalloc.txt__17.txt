@@ -1,0 +1,3 @@
+/usr/lib/python3.4/contextlib.py:38: size=67.2 KiB (+67.2 KiB), count=126 (+126), average=546 B
+We can see that Python has loaded "8173 KiB" of module data (bytecode
+and constants), and that this is "4428 KiB" more than had been loaded

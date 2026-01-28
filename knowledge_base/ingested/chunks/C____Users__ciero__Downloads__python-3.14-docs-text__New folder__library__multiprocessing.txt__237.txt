@@ -1,0 +1,4 @@
+not take ownership and the recursion level within the lock is
+      not changed, resulting in a return value of "False".  If the
+      lock is in an unlocked state, the current process or thread
+      takes ownership and the recursion level is incremented,

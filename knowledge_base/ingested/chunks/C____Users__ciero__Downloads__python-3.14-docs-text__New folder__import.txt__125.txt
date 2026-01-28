@@ -1,0 +1,4 @@
+import within that package.  If the "path" argument is "None", this
+indicates a top level import and "sys.path" is used.
+The path based finder iterates over every entry in the search path,
+and for each of these, looks for an appropriate *path entry finder*

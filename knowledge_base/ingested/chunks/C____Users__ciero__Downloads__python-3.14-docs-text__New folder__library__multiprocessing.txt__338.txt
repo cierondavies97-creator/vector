@@ -1,0 +1,6 @@
+>>> s = m.get_server()
+   >>> s.serve_forever()
+Proxy Objects
+-------------
+A proxy is an object which *refers* to a shared object which lives
+(presumably) in a different process.  The shared object is said to be

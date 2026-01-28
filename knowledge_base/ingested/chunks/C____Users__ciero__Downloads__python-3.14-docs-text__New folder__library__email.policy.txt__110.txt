@@ -1,0 +1,2 @@
+-[ Footnotes ]-
+[1] Originally added in 3.3 as a *provisional feature*.

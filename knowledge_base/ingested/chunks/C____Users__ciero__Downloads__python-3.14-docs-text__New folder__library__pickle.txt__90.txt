@@ -1,0 +1,3 @@
+Similarly, classes are pickled by fully qualified name, so the same
+restrictions in the unpickling environment apply.  Note that none of
+the class's code or data is pickled, so in the following example the

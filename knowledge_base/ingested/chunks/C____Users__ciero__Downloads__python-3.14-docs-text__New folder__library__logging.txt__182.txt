@@ -1,0 +1,3 @@
++------------------+---------------------------+-------------------------------------------------+
+| asctime          | "%(asctime)s"             | Human-readable time when the "LogRecord" was    |
+|                  |                           | created.  By default this is of the form        |

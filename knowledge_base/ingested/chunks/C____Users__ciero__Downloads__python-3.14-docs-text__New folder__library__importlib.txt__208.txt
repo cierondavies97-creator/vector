@@ -1,0 +1,5 @@
+"AttributeError" if **package** is in fact not a package (i.e.
+   lacks a "__path__" attribute).
+importlib.util.module_from_spec(spec)
+   Create a new module based on **spec** and
+   "spec.loader.create_module".

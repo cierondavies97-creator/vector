@@ -1,0 +1,4 @@
+a "str" filename, and vice-versa.
+Finally, note that "functools.lru_cache()" with a *maxsize* of 32768
+is used to cache the (typed) compiled regex patterns in the following
+functions: "fnmatch()", "fnmatchcase()", "filter()", "filterfalse()".

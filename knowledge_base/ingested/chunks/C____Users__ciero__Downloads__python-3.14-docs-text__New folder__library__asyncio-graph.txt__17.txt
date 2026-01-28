@@ -1,0 +1,4 @@
+asyncio.future_add_to_awaited_by(future, waiter, /)
+   Record that *future* is awaited on by *waiter*.
+   Both *future* and *waiter* must be instances of "Future" or "Task"
+   or their subclasses, otherwise the call would have no effect.

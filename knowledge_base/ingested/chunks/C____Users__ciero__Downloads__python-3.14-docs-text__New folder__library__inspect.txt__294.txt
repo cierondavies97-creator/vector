@@ -1,0 +1,12 @@
+STRIDED
+   STRIDED_RO
+   RECORDS
+   RECORDS_RO
+   FULL
+   FULL_RO
+   READ
+   WRITE
+   Added in version 3.12.
+Command-line interface
+======================
+The "inspect" module also provides a basic introspection capability

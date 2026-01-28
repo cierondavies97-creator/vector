@@ -1,0 +1,5 @@
+and may include multiple arguments, after which the path to the script
+and any additional arguments will be appended.
+4.12.3. Arguments in shebang lines
+----------------------------------
+The shebang lines can also specify additional options to be passed to

@@ -1,0 +1,5 @@
+register *function* under *name*.  If no *name* is given,
+   "function.__name__" will be used.
+   Changed in version 3.7: "register_function()" can be used as a
+   decorator.
+SimpleXMLRPCServer.register_instance(instance, allow_dotted_names=False)

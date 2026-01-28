@@ -1,0 +1,5 @@
+invalidate the saved height.  This toggle has no effect when a
+   window is maximized.
+Window menu (Shell and Editor)
+------------------------------
+Lists the names of all open windows; select one to bring it to the

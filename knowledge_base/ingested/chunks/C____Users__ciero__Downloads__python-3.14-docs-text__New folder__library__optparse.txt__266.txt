@@ -1,0 +1,4 @@
+"optparse" will only expect an argument if "type" is set; the type
+   of "value" will be the type implied by the option's type.  If
+   "type" for this option is "None" (no argument expected), then
+   "value" will be "None".  If "nargs" > 1, "value" will be a tuple of

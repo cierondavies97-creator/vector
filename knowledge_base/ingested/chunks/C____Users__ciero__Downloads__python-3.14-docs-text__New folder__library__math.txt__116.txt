@@ -1,0 +1,7 @@
+Added in version 3.2.
+math.isinf(x)
+   Return "True" if *x* is a positive or negative infinity, and
+   "False" otherwise.
+math.isnan(x)
+   Return "True" if *x* is a NaN (not a number), and "False"
+   otherwise.

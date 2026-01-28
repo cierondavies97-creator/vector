@@ -1,0 +1,5 @@
+custom:
+       (): my.package.MyHandler
+       alternate: cfg://handlers.file
+The literal string "'cfg://handlers.file'" will be resolved in an
+analogous way to strings with the "ext://" prefix, but looking in the

@@ -1,0 +1,4 @@
+{'c': 3, 'z': 26}
+If standard (non-proxy) "list" or "dict" objects are contained in a
+referent, modifications to those mutable values will not be propagated
+through the manager because the proxy has no way of knowing when the

@@ -1,0 +1,7 @@
+...    from fooble import blob
+...    blob.blip()
+...
+<Mock name='mock.blob.blip()' id='...'>
+>>> mock.blob.blip.assert_called_once_with()
+With slightly more work you can also mock package imports:
+>>> mock = Mock()

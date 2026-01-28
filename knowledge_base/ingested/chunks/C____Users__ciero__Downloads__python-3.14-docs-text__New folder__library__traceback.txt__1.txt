@@ -1,0 +1,4 @@
+This module provides a standard interface to extract, format and print
+stack traces of Python programs. It is more flexible than the
+interpreter's default traceback display, and therefore makes it
+possible to configure certain aspects of the output. Finally, it

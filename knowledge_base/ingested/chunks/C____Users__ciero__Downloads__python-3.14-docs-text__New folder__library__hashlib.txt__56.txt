@@ -1,0 +1,4 @@
+BLAKE2b or BLAKE2s. They optionally take these general parameters:
+* *data*: initial chunk of data to hash, which must be *bytes-like
+  object*.  It can be passed only as positional argument.
+* *digest_size*: size of output digest in bytes.

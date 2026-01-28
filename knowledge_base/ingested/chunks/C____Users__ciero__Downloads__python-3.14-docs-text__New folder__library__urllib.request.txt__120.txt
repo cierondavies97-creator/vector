@@ -1,0 +1,5 @@
+derived from "BaseHandler".
+Note:
+  The convention has been adopted that subclasses defining
+  "<protocol>_request()" or "<protocol>_response()" methods are named
+  "*Processor"; all others are named "*Handler".

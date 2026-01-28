@@ -1,0 +1,3 @@
+Set the entire message object's payload to *payload*.  It is the
+      client's responsibility to ensure the payload invariants.
+      Optional *charset* sets the message's default character set; see

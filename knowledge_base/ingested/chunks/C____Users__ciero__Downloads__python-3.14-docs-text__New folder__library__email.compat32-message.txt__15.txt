@@ -1,0 +1,4 @@
+This can be used to control some of the formatting produced by
+      the method, since the specified *policy* will be passed to the
+      "Generator".
+      Flattening the message may trigger changes to the "Message" if

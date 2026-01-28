@@ -1,0 +1,4 @@
+"os.environ", which is not necessarily WSGI-compliant on all
+   platforms and web servers using Python 3 -- specifically, ones
+   where the OS's actual environment is Unicode (i.e. Windows), or
+   ones where the environment is bytes, but the system encoding used

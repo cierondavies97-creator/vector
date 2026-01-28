@@ -1,0 +1,6 @@
+"type_ignores" is a "list" of the module's type ignore comments;
+   see "ast.parse()" for more details.
+      >>> print(ast.dump(ast.parse('x = 1'), indent=4))
+      Module(
+          body=[
+              Assign(

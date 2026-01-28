@@ -1,0 +1,4 @@
+pointing to a directory; return "False" if the path is (or
+      points to) any other kind of file, or if it doesn't exist.
+      If *follow_symlinks* is "False", return "True" only if the path
+      is a directory (without following symlinks); return "False" if

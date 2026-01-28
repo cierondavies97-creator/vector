@@ -1,0 +1,4 @@
+"FileNotFoundError".
+   If *exist_ok* is false (the default), "FileExistsError" is raised
+   if the target directory already exists.
+   If *exist_ok* is true, "FileExistsError" will not be raised unless

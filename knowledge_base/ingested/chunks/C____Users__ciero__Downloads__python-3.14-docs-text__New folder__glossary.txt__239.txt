@@ -1,0 +1,4 @@
+particular object.
+   In *CPython*, reference counts are not considered to be stable or
+   well-defined values; the number of references to an object, and how
+   that number is affected by Python code, may be different between

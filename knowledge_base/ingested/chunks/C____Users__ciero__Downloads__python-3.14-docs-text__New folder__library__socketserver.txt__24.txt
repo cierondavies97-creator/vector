@@ -1,0 +1,5 @@
+and non-daemonic threads complete. Add a new
+   "ForkingMixIn.block_on_close" class attribute to opt-in for the
+   pre-3.7 behaviour.
+class socketserver.ForkingTCPServer
+class socketserver.ForkingUDPServer

@@ -1,0 +1,5 @@
+reset()
+      Reset the decoder to the initial state.
+   getstate()
+      Return the current state of the decoder. This must be a tuple
+      with two items, the first must be the buffer containing the

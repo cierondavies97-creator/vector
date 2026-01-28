@@ -1,0 +1,3 @@
+|           | also removed if there are no remaining digits following    |
+   |           | it, unless the "'#'" option is used.  With no precision    |
+   |           | given, uses a precision of "6" significant digits for      |

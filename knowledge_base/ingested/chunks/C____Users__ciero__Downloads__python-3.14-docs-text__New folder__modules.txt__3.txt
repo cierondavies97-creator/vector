@@ -1,0 +1,4 @@
+Such a file is called a *module*; definitions from a module can be
+*imported* into other modules or into the *main* module (the
+collection of variables that you have access to in a script executed
+at the top level and in calculator mode).

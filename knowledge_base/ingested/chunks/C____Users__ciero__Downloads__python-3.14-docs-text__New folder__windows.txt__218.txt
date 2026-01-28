@@ -1,0 +1,2 @@
+| Typing "script-name.py" in the terminal opens in a | This is a known limitation of the operating        |
+| new window.                                        | system. Either specify "py" before the script      |

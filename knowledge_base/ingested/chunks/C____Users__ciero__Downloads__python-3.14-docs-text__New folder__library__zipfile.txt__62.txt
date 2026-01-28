@@ -1,0 +1,7 @@
+raised.
+   Changed in version 3.6.2: The *path* parameter accepts a *path-like
+   object*.
+ZipFile.printdir()
+   Print a table of contents for the archive to "sys.stdout".
+ZipFile.setpassword(pwd)
+   Set *pwd* (a "bytes" object) as default password to extract

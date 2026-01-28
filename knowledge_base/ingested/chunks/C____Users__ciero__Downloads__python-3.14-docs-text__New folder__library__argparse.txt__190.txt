@@ -1,0 +1,7 @@
+>>> parser.print_help()
+   usage: frobble [-h] [bar]
+   positional arguments:
+    bar     the bar to frobble (default: 42)
+   options:
+    -h, --help  show this help message and exit
+As the help string supports %-formatting, if you want a literal "%" to

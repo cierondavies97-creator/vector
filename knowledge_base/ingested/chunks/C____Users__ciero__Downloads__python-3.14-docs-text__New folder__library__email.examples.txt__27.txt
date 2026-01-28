@@ -1,0 +1,6 @@
+with open(args.output, 'wb') as fp:
+               fp.write(msg.as_bytes(policy=SMTP))
+       else:
+           with smtplib.SMTP('localhost') as s:
+               s.send_message(msg)
+   if __name__ == '__main__':

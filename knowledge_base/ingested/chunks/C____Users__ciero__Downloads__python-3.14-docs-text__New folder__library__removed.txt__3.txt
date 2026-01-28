@@ -1,0 +1,5 @@
+* "mailcap" --- Mailcap file handling
+* "msilib" --- Read and write Microsoft Installer files
+* "nis" --- Interface to Sun’s NIS (Yellow Pages)
+* "nntplib" --- NNTP protocol client
+* "ossaudiodev" --- Access to OSS-compatible audio devices

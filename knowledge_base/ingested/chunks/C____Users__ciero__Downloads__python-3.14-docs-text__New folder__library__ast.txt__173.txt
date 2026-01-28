@@ -1,0 +1,5 @@
+TypeAlias(
+                  name=Name(id='Alias', ctx=Store()),
+                  value=Name(id='int', ctx=Load()))])
+   Added in version 3.12.
+Other statements which are only applicable inside functions or loops

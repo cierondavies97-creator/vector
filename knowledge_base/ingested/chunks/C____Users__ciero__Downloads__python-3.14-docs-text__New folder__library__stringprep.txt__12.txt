@@ -1,0 +1,5 @@
+Determine whether *code* is in tableC.2.2  (Non-ASCII control
+   characters).
+stringprep.in_table_c21_c22(code)
+   Determine whether *code* is in tableC.2  (Control characters, union
+   of C.2.1 and C.2.2).

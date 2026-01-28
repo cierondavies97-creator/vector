@@ -1,0 +1,3 @@
+of iterables include all sequence types (such as "list", "str", and
+   "tuple") and some non-sequence types like "dict", *file objects*,
+   and objects of any classes you define with an "__iter__()" method

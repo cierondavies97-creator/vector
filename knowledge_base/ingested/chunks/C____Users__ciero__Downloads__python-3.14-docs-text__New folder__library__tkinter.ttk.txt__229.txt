@@ -1,0 +1,5 @@
+mbtn = ttk.Menubutton(text='Text')
+         mbtn.pack()
+         root.mainloop()
+   element_create(elementname, etype, *args, **kw)
+      Create a new element in the current theme, of the given *etype*

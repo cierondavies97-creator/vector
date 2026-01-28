@@ -1,0 +1,4 @@
+value for both is the string "???". The body will be empty if
+      the method is HEAD or the response code is one of the following:
+      "1*xx*", "204 No Content", "205 Reset Content", "304 Not
+      Modified".

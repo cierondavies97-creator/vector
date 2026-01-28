@@ -1,0 +1,9 @@
+embeddable IDE with a built-in debugger.
+See also:
+  Win32 How Do I...?
+     by Tim Golden
+  Python and COM
+     by David and Paul Boddie
+4.9.2. cx_Freeze
+----------------
+cx_Freeze wraps Python scripts into executable Windows programs

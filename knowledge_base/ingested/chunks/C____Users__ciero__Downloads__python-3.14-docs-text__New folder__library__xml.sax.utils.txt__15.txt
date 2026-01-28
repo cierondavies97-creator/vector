@@ -1,0 +1,4 @@
+returns a fully resolved "InputSource" object ready for reading.
+   The input source can be given as a string, a file-like object, or
+   an "InputSource" object; parsers will use this function to
+   implement the polymorphic *source* argument to their "parse()"

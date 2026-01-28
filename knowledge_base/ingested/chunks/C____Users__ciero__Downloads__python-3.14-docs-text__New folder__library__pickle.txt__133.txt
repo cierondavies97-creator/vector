@@ -1,0 +1,5 @@
+recognize it as a persistent ID.
+To unpickle external objects, the unpickler must have a custom
+"persistent_load()" method that takes a persistent ID object and
+returns the referenced object.
+Here is a comprehensive example presenting how persistent ID can be

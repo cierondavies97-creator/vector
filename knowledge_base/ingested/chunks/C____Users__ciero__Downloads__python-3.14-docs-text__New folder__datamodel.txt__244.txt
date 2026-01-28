@@ -1,0 +1,2 @@
+| codeobject.co_freevars                             | A "tuple" containing the names of *free (closure)  |
+|                                                    | variables* that a *nested scope* references in an  |

@@ -1,0 +1,5 @@
+if toknum == NUMBER and '.' in tokval:  # replace NUMBER tokens
+               result.extend([
+                   (NAME, 'Decimal'),
+                   (OP, '('),
+                   (STRING, repr(tokval)),

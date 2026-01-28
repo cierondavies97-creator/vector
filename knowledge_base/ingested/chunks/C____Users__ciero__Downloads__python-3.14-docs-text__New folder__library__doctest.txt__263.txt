@@ -1,0 +1,5 @@
+converted to regular code, and everything else is converted to
+   Python comments.  The generated script is returned as a string. For
+   example,
+      import doctest
+      print(doctest.script_from_examples(r"""

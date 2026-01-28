@@ -1,0 +1,5 @@
+Create a compressor object, which can be used to compress data
+   incrementally.
+   For a more convenient way of compressing a single chunk of data,
+   see "compress()".
+   The *format* argument specifies what container format should be

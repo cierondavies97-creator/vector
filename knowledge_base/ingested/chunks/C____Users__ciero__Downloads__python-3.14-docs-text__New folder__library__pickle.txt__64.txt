@@ -1,0 +1,5 @@
+Functions, and Other Objects.
+      Added in version 3.8.
+   fast
+      Deprecated. Enable fast mode if set to a true value.  The fast
+      mode disables the usage of memo, therefore speeding the pickling

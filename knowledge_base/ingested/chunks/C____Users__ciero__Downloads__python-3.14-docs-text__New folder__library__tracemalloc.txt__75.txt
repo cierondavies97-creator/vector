@@ -1,0 +1,5 @@
+a sorted list of "StatisticDiff" instances grouped by
+      *key_type*.
+      See the "Snapshot.statistics()" method for *key_type* and
+      *cumulative* parameters.
+      The result is sorted from the biggest to the smallest by:

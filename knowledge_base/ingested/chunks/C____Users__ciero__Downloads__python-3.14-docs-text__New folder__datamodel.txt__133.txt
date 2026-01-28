@@ -1,0 +1,5 @@
+3.2.9. Modules
+--------------
+Modules are a basic organizational unit of Python code, and are
+created by the import system as invoked either by the "import"
+statement, or by calling functions such as "importlib.import_module()"

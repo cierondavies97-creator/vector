@@ -1,0 +1,6 @@
+pairs.  The attributes are returned in an arbitrary order.
+   keys()
+      Returns the elements attribute names as a list.  The names are
+      returned in an arbitrary order.
+   set(key, value)
+      Set the attribute *key* on the element to *value*.

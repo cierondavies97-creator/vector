@@ -1,0 +1,5 @@
+delimiters should be set.
+readline.set_completer([function])
+   Set or remove the completer function.  If *function* is specified,
+   it will be used as the new completer function; if omitted or
+   "None", any completer function already installed is removed.  The

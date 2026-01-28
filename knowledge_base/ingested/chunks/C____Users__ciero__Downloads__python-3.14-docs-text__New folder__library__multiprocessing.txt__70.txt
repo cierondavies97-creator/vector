@@ -1,0 +1,5 @@
+some examples, such as the "multiprocessing.pool.Pool" examples will
+  not work in the interactive interpreter. For example:
+     >>> from multiprocessing import Pool
+     >>> p = Pool(5)
+     >>> def f(x):

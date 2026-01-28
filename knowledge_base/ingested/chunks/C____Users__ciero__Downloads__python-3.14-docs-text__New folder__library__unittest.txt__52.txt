@@ -1,0 +1,4 @@
+combination with any number of other test cases.
+The simplest "TestCase" subclass will simply implement a test method
+(i.e. a method whose name starts with "test") in order to perform
+specific testing code:

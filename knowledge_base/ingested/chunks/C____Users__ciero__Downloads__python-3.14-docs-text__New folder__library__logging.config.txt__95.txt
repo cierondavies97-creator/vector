@@ -1,0 +1,12 @@
+following configuration:
+   {
+     '()' : 'my.package.customFormatterFactory',
+     'bar' : 'baz',
+     'spam' : 99.9,
+     'answer' : 42,
+     '.' {
+       'foo': 'bar',
+       'baz': 'bozz'
+     }
+   }
+the returned formatter will have attribute "foo" set to "'bar'" and

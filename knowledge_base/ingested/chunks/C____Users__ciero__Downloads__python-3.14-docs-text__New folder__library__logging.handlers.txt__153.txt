@@ -1,0 +1,4 @@
+should, then "flush()" is expected to do the flushing.
+class logging.handlers.BufferingHandler(capacity)
+   Initializes the handler with a buffer of the specified capacity.
+   Here, *capacity* means the number of logging records buffered.

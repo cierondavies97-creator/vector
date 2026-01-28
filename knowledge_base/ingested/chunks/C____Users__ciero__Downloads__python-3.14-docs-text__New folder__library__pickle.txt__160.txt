@@ -1,0 +1,6 @@
+file = open(self.filename)
+           for _ in range(self.lineno):
+               file.readline()
+           # Finally, save the file.
+           self.file = file
+A sample usage might be something like this:

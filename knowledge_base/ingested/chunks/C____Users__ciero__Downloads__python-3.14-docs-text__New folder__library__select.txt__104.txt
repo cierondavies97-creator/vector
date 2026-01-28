@@ -1,0 +1,3 @@
+| "KQ_NOTE_ATTRIB"             | an attribute was changed                     |
+   +------------------------------+----------------------------------------------+
+   | "KQ_NOTE_LINK"               | the link count has changed                   |

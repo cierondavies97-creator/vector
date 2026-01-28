@@ -1,0 +1,8 @@
+>>> 'ASCII characters'.isascii()
+      True
+      >>> 'µ'.isascii()
+      False
+   Added in version 3.7.
+str.isdecimal()
+   Return "True" if all characters in the string are decimal
+   characters and there is at least one character, "False" otherwise.

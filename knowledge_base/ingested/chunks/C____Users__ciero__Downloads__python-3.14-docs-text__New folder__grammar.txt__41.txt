@@ -1,0 +1,4 @@
+| import_from_as_names !','
+       | '*' { (asdl_alias_seq*)_PyPegen_singleton_seq(p, CHECK(alias_ty, _PyPegen_alias_for_star(p, EXTRA))) }
+       | invalid_import_from_targets
+   import_from_as_names[asdl_alias_seq*]:

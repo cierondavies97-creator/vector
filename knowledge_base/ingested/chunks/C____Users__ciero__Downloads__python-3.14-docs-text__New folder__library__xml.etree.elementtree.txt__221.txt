@@ -1,0 +1,6 @@
+...     def close(self):    # Called when all data has been parsed.
+      ...         return self.maxDepth
+      ...
+      >>> target = MaxDepth()
+      >>> parser = XMLParser(target=target)
+      >>> exampleXml = """

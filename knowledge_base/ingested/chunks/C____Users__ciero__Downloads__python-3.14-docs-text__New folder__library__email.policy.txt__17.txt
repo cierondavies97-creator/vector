@@ -1,0 +1,6 @@
+...
+   >>> p = Popen(['sendmail', msg['To'].addresses[0]], stdin=PIPE)
+   >>> g = BytesGenerator(p.stdin, policy=msg.policy.clone(linesep='\r\n'))
+   >>> g.flatten(msg)
+   >>> p.stdin.close()
+   >>> rc = p.wait()

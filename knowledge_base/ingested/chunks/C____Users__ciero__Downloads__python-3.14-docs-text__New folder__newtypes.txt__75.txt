@@ -1,0 +1,6 @@
+PyObject *result;
+       int c, size1, size2;
+       /* code to make sure that both arguments are of type
+          newdatatype omitted */
+       size1 = obj1->obj_UnderlyingDatatypePtr->size;
+       size2 = obj2->obj_UnderlyingDatatypePtr->size;

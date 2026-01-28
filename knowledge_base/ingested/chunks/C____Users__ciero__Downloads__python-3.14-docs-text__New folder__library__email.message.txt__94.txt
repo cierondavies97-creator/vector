@@ -1,0 +1,4 @@
+part a candidate match if the value of the header is "inline".
+      If none of the candidates matches any of the preferences in
+      *preferencelist*, return "None".
+      Notes: (1) For most applications the only *preferencelist*

@@ -1,0 +1,4 @@
+>>> operators = ['+', '-', '*', '/', '**']
+      >>> print('|'.join(map(re.escape, sorted(operators, reverse=True))))
+      /|\-|\+|\*\*|\*
+   This function must not be used for the replacement string in

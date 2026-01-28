@@ -1,0 +1,4 @@
+sums.
+   The algorithm's accuracy depends on IEEE-754 arithmetic guarantees
+   and the typical case where the rounding mode is half-even.  On some
+   non-Windows builds, the underlying C library uses extended

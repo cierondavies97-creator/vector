@@ -1,0 +1,8 @@
+Return the hyperbolic cosine of *z*.
+cmath.sinh(z)
+   Return the hyperbolic sine of *z*.
+cmath.tanh(z)
+   Return the hyperbolic tangent of *z*.
+Classification functions
+========================
+cmath.isfinite(z)

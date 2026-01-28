@@ -1,0 +1,4 @@
+parameters are optional and keyword-only. Each specifies a
+   different call point.
+   * *before* is a function called before forking a child process.
+   * *after_in_parent* is a function called from the parent process

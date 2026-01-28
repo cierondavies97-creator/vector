@@ -1,0 +1,3 @@
+"OverflowError" or "ValueError" if there is an invalid literal.
+   The *symbol* argument determines whether *source* is compiled as a
+   statement ("'single'", the default), as a sequence of *statement*

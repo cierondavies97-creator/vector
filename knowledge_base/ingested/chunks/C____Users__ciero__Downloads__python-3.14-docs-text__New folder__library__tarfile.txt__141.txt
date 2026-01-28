@@ -1,0 +1,3 @@
+filesystem, which makes it very powerful. Unfortunately, the features
+make it easy to create tar files that have unintended -- and possibly
+malicious -- effects when extracted. For example, extracting a tar

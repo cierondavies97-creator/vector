@@ -1,0 +1,4 @@
+The final prediction goes to the largest posterior. This is known as
+the maximum a posteriori or MAP:
+   >>> 'male' if posterior_male > posterior_female else 'female'
+   'female'

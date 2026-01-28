@@ -1,0 +1,4 @@
+This should not be reported to Python applications.
+xml.parsers.expat.errors.XML_ERROR_AMPLIFICATION_LIMIT_BREACH
+   The limit on input amplification factor (from DTD and entities) has
+   been breached.

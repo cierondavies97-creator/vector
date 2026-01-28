@@ -1,0 +1,4 @@
+% (cls.__name__,))
+   UnsupportedOperation: cannot instantiate 'WindowsPath' on your system
+Some concrete path methods can raise an "OSError" if a system call
+fails (for example because the path doesn't exist).

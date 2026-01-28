@@ -1,0 +1,4 @@
+digit group separator for the integral and fractional parts of a
+number respectively. It can be one of the following:
++-----------+------------------------------------------------------------+
+| Option    | Meaning                                                    |

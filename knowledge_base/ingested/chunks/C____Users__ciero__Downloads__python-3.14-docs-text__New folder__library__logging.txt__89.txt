@@ -1,0 +1,3 @@
++-------------------------+-----------------+---------------------------------------+
+| logging.INFO            | 20              | Confirmation that things are working  |
+|                         |                 | as expected.                          |

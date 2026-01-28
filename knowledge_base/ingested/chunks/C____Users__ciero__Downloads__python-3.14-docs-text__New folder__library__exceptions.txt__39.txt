@@ -1,0 +1,4 @@
+exception KeyboardInterrupt
+   Raised when the user hits the interrupt key (normally "Control"-"C"
+   or "Delete").  During execution, a check for interrupts is made
+   regularly. The exception inherits from "BaseException" so as to not

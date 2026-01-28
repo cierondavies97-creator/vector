@@ -1,0 +1,4 @@
+set appropriately or to "None".
+When Python is started with the "-m" option, "__spec__" is set to the
+module spec of the corresponding module or package. "__spec__" is also
+populated when the "__main__" module is loaded as part of executing a

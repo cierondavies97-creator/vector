@@ -1,0 +1,4 @@
+*title* - the title of the window
+      *initialdir* - the directory that the dialog starts in
+      *initialfile* - the file selected upon opening of the dialog
+      *filetypes* - a sequence of (label, pattern) tuples, '*' wildcard is allowed

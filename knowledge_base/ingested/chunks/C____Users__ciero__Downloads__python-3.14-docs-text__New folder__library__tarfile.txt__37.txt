@@ -1,0 +1,3 @@
+|               | for reading.                                 |
+   +---------------+----------------------------------------------+
+   | "'r|gz'"      | Open a gzip compressed *stream* for reading. |

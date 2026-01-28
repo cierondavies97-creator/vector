@@ -1,0 +1,4 @@
+length "n".
+Sequences also support slicing: "a[i:j]" selects all items with index
+*k* such that *i* "<=" *k* "<" *j*.  When used as an expression, a
+slice is a sequence of the same type. The comment above about negative

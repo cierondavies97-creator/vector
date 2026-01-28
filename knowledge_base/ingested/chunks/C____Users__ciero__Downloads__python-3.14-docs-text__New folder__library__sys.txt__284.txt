@@ -1,0 +1,5 @@
+Added in version 3.11.
+sys.setprofile(profilefunc)
+   Set the system's profile function, which allows you to implement a
+   Python source code profiler in Python.  See chapter The Python
+   Profilers for more information on the Python profiler.  The

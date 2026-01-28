@@ -1,0 +1,5 @@
+restricted.
+os.sched_getaffinity(pid, /)
+   Return the set of CPUs the process with PID *pid* is restricted to.
+   If *pid* is zero, return the set of CPUs the calling thread of the
+   current process is restricted to.

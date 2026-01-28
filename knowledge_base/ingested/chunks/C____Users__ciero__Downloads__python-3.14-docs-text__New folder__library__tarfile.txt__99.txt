@@ -1,0 +1,4 @@
+Changed in version 3.13: The returned "io.BufferedReader" object
+   has the "mode" attribute which is always equal to "'rb'".
+TarFile.errorlevel: int
+   If *errorlevel* is "0", errors are ignored when using

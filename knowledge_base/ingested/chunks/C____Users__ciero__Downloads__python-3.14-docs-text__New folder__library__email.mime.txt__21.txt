@@ -1,0 +1,4 @@
+Module: "email.mime.audio"
+   A subclass of "MIMENonMultipart", the "MIMEAudio" class is used to
+   create MIME message objects of major type *audio*. *_audiodata*
+   contains the bytes for the raw audio data.  If this data can be

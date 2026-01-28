@@ -1,0 +1,5 @@
+character mappings.
+str.upper()
+   Return a copy of the string with all the cased characters [4]
+   converted to uppercase.  Note that "s.upper().isupper()" might be
+   "False" if "s" contains uncased characters or if the Unicode

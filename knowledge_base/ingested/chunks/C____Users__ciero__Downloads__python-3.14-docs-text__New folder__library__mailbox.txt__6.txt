@@ -1,0 +1,4 @@
+method "add()" and removed using a "del" statement or the set-like
+   methods "remove()" and "discard()".
+   "Mailbox" interface semantics differ from dictionary semantics in
+   some noteworthy ways. Each time a message is requested, a new

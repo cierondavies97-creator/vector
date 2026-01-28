@@ -1,0 +1,7 @@
+evaluated (we'll see shortly how it ends up being called):
+   static PyObject *
+   spam_system(PyObject *self, PyObject *args)
+   {
+       const char *command;
+       int sts;
+       if (!PyArg_ParseTuple(args, "s", &command))

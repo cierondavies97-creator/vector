@@ -1,0 +1,4 @@
+executable documentation, and can be inspected programmatically via
+  importing "__future__" and examining its contents.
+* To ensure that future statements run under releases prior to Python
+  2.1 at least yield runtime exceptions (the import of "__future__"

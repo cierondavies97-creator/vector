@@ -1,0 +1,3 @@
+Class implementing bounded semaphore objects.  A bounded semaphore
+   checks to make sure its current value doesn't exceed its initial
+   value.  If it does, "ValueError" is raised. In most situations

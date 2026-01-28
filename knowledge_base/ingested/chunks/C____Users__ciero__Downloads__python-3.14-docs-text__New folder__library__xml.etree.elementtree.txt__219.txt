@@ -1,0 +1,5 @@
+...     depth = 0
+      ...     def start(self, tag, attrib):   # Called for each opening tag.
+      ...         self.depth += 1
+      ...         if self.depth > self.maxDepth:
+      ...             self.maxDepth = self.depth

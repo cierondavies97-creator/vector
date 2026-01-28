@@ -1,0 +1,5 @@
+**parse** attribute to ""xml"", and use the **href** attribute to
+specify the document to include.
+   <?xml version="1.0"?>
+   <document xmlns:xi="http://www.w3.org/2001/XInclude">
+     <xi:include href="source.xml" parse="xml" />

@@ -1,0 +1,3 @@
+Windows.
+class subprocess.STARTUPINFO(*, dwFlags=0, hStdInput=None, hStdOutput=None, hStdError=None, wShowWindow=0, lpAttributeList=None)
+   Partial support of the Windows STARTUPINFO structure is used for

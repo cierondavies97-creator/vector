@@ -1,0 +1,5 @@
+for reproducible output.
+   Added in version 3.2.
+   Changed in version 3.8: Added the *mtime* parameter for
+   reproducible output.
+   Changed in version 3.11: Speed is improved by compressing all data

@@ -1,0 +1,4 @@
+method. Defaults to "None", meaning nothing is called.
+   *name* is the thread name. By default, a unique name is constructed
+   of the form "Thread-*N*" where *N* is a small decimal number, or
+   "Thread-*N* (target)" where "target" is "target.__name__" if the

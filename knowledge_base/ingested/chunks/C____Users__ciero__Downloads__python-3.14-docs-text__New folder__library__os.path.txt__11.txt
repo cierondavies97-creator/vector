@@ -1,0 +1,4 @@
+*paths*.  Raise "ValueError" if *paths* contain both absolute and
+   relative pathnames, if *paths* are on different drives, or if
+   *paths* is empty.  Unlike "commonprefix()", this returns a valid
+   path.

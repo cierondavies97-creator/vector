@@ -1,0 +1,3 @@
+reproduced as in the original, and preserve the non-ASCII
+      *Content-Transfer-Encoding* of any body parts that have them. If
+      "cte_type" is "7bit", convert the bytes with the high bit set as

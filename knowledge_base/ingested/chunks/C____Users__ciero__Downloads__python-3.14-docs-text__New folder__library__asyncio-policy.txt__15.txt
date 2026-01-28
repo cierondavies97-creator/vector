@@ -1,0 +1,6 @@
+Availability: Windows.
+   Deprecated since version 3.14: The "WindowsProactorEventLoopPolicy"
+   class is deprecated and will be removed in Python 3.16.
+Custom Policies
+===============
+To implement a new event loop policy, it is recommended to subclass

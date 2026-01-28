@@ -1,0 +1,6 @@
+Getting and Setting the Policy
+==============================
+The following functions can be used to get and set the policy for the
+current process:
+asyncio.get_event_loop_policy()
+   Return the current process-wide policy.

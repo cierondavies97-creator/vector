@@ -1,0 +1,6 @@
+>>> TracebackException.from_exception(chained_exc).print()
+   Traceback (most recent call last):
+     File "<python-input-19>", line 4, in <module>
+       lumberjack()
+       ~~~~~~~~~~^^
+     File "<python-input-8>", line 7, in lumberjack

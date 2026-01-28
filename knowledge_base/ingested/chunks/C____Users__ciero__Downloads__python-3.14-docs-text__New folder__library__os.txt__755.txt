@@ -1,0 +1,7 @@
+Added in version 3.3.
+The following scheduling policies are exposed if they are supported by
+the operating system.
+os.SCHED_OTHER
+   The default scheduling policy.
+os.SCHED_BATCH
+   Scheduling policy for CPU-intensive processes that tries to

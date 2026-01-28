@@ -1,0 +1,4 @@
+(*stdout*), or "None" if the subprocess was not created with
+     "stdout=PIPE"
+   * "2": readable streaming transport of the standard error
+     (*stderr*), or "None" if the subprocess was not created with

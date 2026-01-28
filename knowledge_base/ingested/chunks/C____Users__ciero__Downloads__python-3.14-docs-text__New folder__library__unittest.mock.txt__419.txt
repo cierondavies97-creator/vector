@@ -1,0 +1,7 @@
+'first side effect value'
+>>> order_mock.get_value()
+'another side effect value'
+>>> order_mock.get_value()
+Traceback (most recent call last):
+ ...
+StopIteration

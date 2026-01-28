@@ -1,0 +1,4 @@
+signal handler raises an exception (see **PEP 475** for the
+   rationale), instead of raising "InterruptedError".
+Edge and Level Trigger Polling (epoll) Objects
+==============================================

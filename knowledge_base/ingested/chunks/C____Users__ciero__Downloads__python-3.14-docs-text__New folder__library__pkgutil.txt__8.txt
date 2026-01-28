@@ -1,0 +1,5 @@
+pkgutil.get_importer(path_item)
+   Retrieve a *finder* for the given *path_item*.
+   The returned finder is cached in "sys.path_importer_cache" if it
+   was newly created by a path hook.
+   The cache (or part of it) can be cleared manually if a rescan of

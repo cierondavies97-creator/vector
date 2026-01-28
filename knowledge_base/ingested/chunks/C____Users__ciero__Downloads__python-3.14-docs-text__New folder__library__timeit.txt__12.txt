@@ -1,0 +1,6 @@
+5.
+timeit.default_timer()
+   The default timer, which is always time.perf_counter(), returns
+   float seconds. An alternative, time.perf_counter_ns, returns
+   integer nanoseconds.
+   Changed in version 3.3: "time.perf_counter()" is now the default

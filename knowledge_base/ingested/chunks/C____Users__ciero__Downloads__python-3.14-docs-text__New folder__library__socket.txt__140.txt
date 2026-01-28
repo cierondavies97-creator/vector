@@ -1,0 +1,4 @@
+does not work for socket file descriptors.
+   Added in version 3.7.
+socket.getaddrinfo(host, port, family=AF_UNSPEC, type=0, proto=0, flags=0)
+   This function wraps the C function "getaddrinfo" of the underlying

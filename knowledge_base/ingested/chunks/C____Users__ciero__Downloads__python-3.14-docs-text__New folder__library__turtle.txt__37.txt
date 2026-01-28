@@ -1,0 +1,10 @@
+"circle()"
+         "dot()"
+         "stamp()"
+         "clearstamp()"
+         "clearstamps()"
+         "undo()"
+         "speed()"
+   Tell Turtle's state
+         "position()" | "pos()"
+         "towards()"

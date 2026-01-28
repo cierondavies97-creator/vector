@@ -1,0 +1,7 @@
+methods.
+   Changed in version 3.13: Added the "clear()" method.
+   The following method is also provided:
+   ndbm.close()
+      Close the NDBM database.
+"dbm.dumb" --- Portable DBM implementation
+==========================================

@@ -1,0 +1,5 @@
+and call "exit(your_code)".
+      Added in version 3.14.
+   terminate()
+      Terminate the process.  On POSIX this is done using the
+      "SIGTERM" signal; on Windows "TerminateProcess()" is used.  Note

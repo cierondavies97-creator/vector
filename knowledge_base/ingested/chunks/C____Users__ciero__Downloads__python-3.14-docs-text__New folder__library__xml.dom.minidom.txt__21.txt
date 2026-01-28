@@ -1,0 +1,4 @@
+... # Work with dom.
+Node.writexml(writer, indent='', addindent='', newl='', encoding=None, standalone=None)
+   Write XML to the writer object.  The writer receives texts but not
+   bytes as input, it should have a "write()" method which matches

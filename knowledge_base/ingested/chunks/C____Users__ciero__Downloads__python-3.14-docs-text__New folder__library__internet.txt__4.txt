@@ -1,0 +1,7 @@
+* "urllib.request" --- Extensible library for opening URLs
+  * Request Objects
+  * OpenerDirector Objects
+  * BaseHandler Objects
+  * HTTPRedirectHandler Objects
+  * HTTPCookieProcessor Objects
+  * ProxyHandler Objects

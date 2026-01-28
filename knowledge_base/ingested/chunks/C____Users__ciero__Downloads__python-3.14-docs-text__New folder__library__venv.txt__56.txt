@@ -1,0 +1,5 @@
+Changed in version 3.13: Added the "scm_ignore_files" parameter
+   "EnvBuilder" may be used as a base class.
+   create(env_dir)
+      Create a virtual environment by specifying the target directory
+      (absolute or relative to the current directory) which is to

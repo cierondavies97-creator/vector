@@ -1,0 +1,4 @@
+identifier is omitted, *publicId* will be "None".
+xmlparser.StartNamespaceDeclHandler(prefix, uri)
+   Called when an element contains a namespace declaration.  Namespace
+   declarations are processed before the "StartElementHandler" is

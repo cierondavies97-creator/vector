@@ -1,0 +1,4 @@
+is pushed onto the traceback of the "OtherException", as would
+      have happened to the traceback of the original "SomeException"
+      had we allowed it to propagate to the caller.
+         try:

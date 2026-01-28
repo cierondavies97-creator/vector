@@ -1,0 +1,4 @@
+methods defined inside the class still cannot see names defined at the
+class scope. Class variables must be accessed through the first
+parameter of instance or class methods, or through the implicit
+lexically scoped "__class__" reference described in the next section.

@@ -1,0 +1,7 @@
+older, the headers below are also included:
+  * "<errno.h>"
+  * "<stdio.h>"
+  * "<stdlib.h>"
+  * "<string.h>"
+The next thing we add to our module file is the C function that will
+be called when the Python expression "spam.system(string)" is

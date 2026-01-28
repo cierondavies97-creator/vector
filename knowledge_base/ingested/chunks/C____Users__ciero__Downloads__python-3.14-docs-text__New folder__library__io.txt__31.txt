@@ -1,0 +1,8 @@
+when an unsupported operation is called on a stream.
+See also:
+  "sys"
+     contains the standard IO streams: "sys.stdin", "sys.stdout", and
+     "sys.stderr".
+Class hierarchy
+===============
+The implementation of I/O streams is organized as a hierarchy of

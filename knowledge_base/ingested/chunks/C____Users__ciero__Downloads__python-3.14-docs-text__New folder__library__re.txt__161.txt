@@ -1,0 +1,4 @@
+and matches are returned in the order found.  Empty matches are
+   included in the result.
+   The result depends on the number of capturing groups in the
+   pattern. If there are no groups, return a list of strings matching

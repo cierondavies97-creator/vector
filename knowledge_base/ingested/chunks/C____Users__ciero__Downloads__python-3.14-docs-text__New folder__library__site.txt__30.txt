@@ -1,0 +1,4 @@
+non-framework macOS builds, "~/Library/Python/*X.Y*/lib/python
+   /site-packages" for macOS framework builds, and
+   "*%APPDATA%*\Python\Python*XY*\site-packages" on Windows.  The
+   optional "t" indicates the free-threaded build.  This directory is

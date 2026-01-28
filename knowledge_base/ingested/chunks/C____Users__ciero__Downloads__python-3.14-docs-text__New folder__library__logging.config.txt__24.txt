@@ -1,0 +1,4 @@
+"start()" to start the server, and which you can "join()" when
+   appropriate. To stop the server, call "stopListening()".
+   The "verify" argument, if specified, should be a callable which
+   should verify whether bytes received across the socket are valid

@@ -1,0 +1,5 @@
+math.perm(n, k=None)
+   Return the number of ways to choose *k* items from *n* items
+   without repetition and with order.
+   Evaluates to "n! / (n - k)!" when "k <= n" and evaluates to zero
+   when "k > n".

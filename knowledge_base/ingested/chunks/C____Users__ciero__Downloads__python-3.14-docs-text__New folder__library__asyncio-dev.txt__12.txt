@@ -1,0 +1,4 @@
+"concurrent.futures.ThreadPoolExecutor" or "InterpreterPoolExecutor"
+to execute blocking code in a different OS thread without blocking the
+OS thread that the event loop runs in.
+There is currently no way to schedule coroutines or callbacks directly

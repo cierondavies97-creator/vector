@@ -1,0 +1,4 @@
+On Unix, if the process is being traced or if "waitpid()" was
+   called with "WUNTRACED" option, the caller must first check if
+   "WIFSTOPPED(status)" is true. This function must not be called if
+   "WIFSTOPPED(status)" is true.

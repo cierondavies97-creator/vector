@@ -1,0 +1,5 @@
+"code" --- Interpreter base classes
+***********************************
+**Source code:** Lib/code.py
+======================================================================
+The "code" module provides facilities to implement read-eval-print

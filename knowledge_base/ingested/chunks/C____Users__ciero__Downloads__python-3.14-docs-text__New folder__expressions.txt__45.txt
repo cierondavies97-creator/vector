@@ -1,0 +1,3 @@
+specified by either a sequence of expressions or a comprehension.
+When a comma-separated list of expressions is supplied, its elements
+are evaluated from left to right and added to the set object.  When a

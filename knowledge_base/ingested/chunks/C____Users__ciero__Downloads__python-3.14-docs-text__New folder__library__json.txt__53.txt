@@ -1,0 +1,5 @@
+Performs the following translations in decoding by default:
+   +-----------------+---------------------+
+   | JSON            | Python              |
+   |=================|=====================|
+   | object          | dict                |

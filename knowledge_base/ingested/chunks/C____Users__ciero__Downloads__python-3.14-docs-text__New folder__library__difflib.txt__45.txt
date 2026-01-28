@@ -1,0 +1,12 @@
+...              'ore\ntree\nemu\n'.splitlines(keepends=True))
+   >>> print(''.join(diff), end="")
+   - one
+   ?  ^
+   + ore
+   ?  ^
+   - two
+   - three
+   ?  -
+   + tree
+   + emu
+difflib.restore(sequence, which)

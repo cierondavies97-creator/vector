@@ -1,0 +1,5 @@
+following keys are currently defined:
+      "generation": The oldest generation being collected.
+      "collected": When *phase* is "stop", the number of objects
+      successfully collected.
+      "uncollectable": When *phase* is "stop", the number of objects

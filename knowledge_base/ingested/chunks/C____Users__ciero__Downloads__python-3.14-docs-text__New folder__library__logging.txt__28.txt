@@ -1,0 +1,6 @@
+to attach handlers only to the root logger, and to let
+        propagation take care of the rest.
+   handlers
+      The list of handlers directly attached to this logger instance.
+      Note:
+        This attribute should be treated as read-only; it is normally

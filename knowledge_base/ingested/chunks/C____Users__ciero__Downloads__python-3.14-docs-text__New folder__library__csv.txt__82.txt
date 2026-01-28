@@ -1,0 +1,5 @@
+described above) to the writer's file object, formatted according
+   to the current dialect.
+Writer objects have the following public attribute:
+csvwriter.dialect
+   A read-only description of the dialect in use by the writer.

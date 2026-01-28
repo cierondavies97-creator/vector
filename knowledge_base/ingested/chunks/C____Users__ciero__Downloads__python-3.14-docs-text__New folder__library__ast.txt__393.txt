@@ -1,0 +1,4 @@
+nodes.
+  LibCST parses code as a Concrete Syntax Tree that looks like an ast
+  tree and keeps all formatting details. It's useful for building
+  automated refactoring (codemod) applications and linters.

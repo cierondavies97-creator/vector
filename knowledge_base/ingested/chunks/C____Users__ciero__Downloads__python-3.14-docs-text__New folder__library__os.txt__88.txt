@@ -1,0 +1,5 @@
+*priority* is a value in the range -20 to 19. The default priority
+   is 0; lower priorities cause more favorable scheduling.
+   Availability: Unix, not WASI.
+   Added in version 3.3.
+os.setregid(rgid, egid, /)

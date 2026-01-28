@@ -1,0 +1,4 @@
+writing.
+class http.cookiejar.MozillaCookieJar(filename=None, delayload=None, policy=None)
+   A "FileCookieJar" that can load from and save cookies to disk in
+   the Mozilla "cookies.txt" file format (which is also used by curl

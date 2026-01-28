@@ -1,0 +1,4 @@
+to make the "_()" function available to your application.
+      Because it affects the entire application globally, and
+      specifically the built-in namespace, localized modules should
+      never install "_()". Instead, they should use this code to make

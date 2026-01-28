@@ -1,0 +1,7 @@
+nanoseconds as an integer.
+      Added in version 3.3.
+   st_ctime_ns
+      Time of most recent metadata change expressed in nanoseconds as
+      an integer.
+      Added in version 3.3.
+      Changed in version 3.12: "st_ctime_ns" is deprecated on Windows.

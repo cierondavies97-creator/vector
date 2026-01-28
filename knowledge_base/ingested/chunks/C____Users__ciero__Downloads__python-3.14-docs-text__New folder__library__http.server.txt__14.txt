@@ -1,0 +1,3 @@
+This class is used to handle the HTTP requests that arrive at the
+   server.  By itself, it cannot respond to any actual HTTP requests;
+   it must be subclassed to handle each request method (e.g. GET or

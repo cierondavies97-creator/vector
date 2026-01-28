@@ -1,0 +1,4 @@
+up in the OptionValues instance returned by
+   "OptionParser.parse_args()", or be passed to a callback as the
+   "value" parameter.
+   Your type-checking function should raise "OptionValueError" if it

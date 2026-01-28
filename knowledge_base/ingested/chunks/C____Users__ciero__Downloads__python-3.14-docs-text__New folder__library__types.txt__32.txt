@@ -1,0 +1,3 @@
+with many of their special attributes unset or set to default
+        values. "module_from_spec()" provides a more robust way of
+        creating "ModuleType" instances which ensures the various

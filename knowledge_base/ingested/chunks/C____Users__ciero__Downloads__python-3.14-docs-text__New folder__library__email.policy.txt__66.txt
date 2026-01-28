@@ -1,0 +1,4 @@
+attributes that depend on the type of the field.  The parsing and
+   folding algorithm fully implement **RFC 2047** and **RFC 5322**.
+   The default value for the "message_factory" attribute is
+   "EmailMessage".

@@ -1,0 +1,4 @@
+usually represent a higher security level than when calling the
+   "SSLContext" constructor directly.
+   *cafile*, *capath*, *cadata* represent optional CA certificates to
+   trust for certificate verification, as in

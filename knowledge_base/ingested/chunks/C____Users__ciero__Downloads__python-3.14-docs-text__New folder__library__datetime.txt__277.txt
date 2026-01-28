@@ -1,0 +1,5 @@
+formats that could be emitted by "time.isoformat()".
+classmethod time.strptime(date_string, format)
+   Return a "time" corresponding to *date_string*, parsed according to
+   *format*.
+   If *format* does not contain microseconds or timezone information,

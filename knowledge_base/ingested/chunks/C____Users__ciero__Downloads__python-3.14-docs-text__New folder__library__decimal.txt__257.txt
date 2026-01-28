@@ -1,0 +1,4 @@
+The "decimal" module makes it possible to restore the identities by
+expanding the precision sufficiently to avoid loss of significance:
+   >>> getcontext().prec = 20
+   >>> u, v, w = Decimal(11111113), Decimal(-11111111), Decimal('7.51111111')

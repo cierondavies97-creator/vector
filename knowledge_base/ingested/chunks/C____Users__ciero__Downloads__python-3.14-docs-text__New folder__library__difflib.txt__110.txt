@@ -1,0 +1,4 @@
+Compare two sequences of lines, and generate the delta (a
+      sequence of lines).
+      Each sequence must contain individual single-line strings ending
+      with newlines.  Such sequences can be obtained from the

@@ -1,0 +1,8 @@
+significance.
+   Added in version 3.2.
+math.gamma(x)
+   Return the Gamma function at *x*.
+   Added in version 3.2.
+math.lgamma(x)
+   Return the natural logarithm of the absolute value of the Gamma
+   function at *x*.

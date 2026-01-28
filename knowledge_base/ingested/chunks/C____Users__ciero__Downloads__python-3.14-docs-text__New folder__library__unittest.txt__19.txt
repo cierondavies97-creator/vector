@@ -1,0 +1,7 @@
+this:
+   ...
+   ----------------------------------------------------------------------
+   Ran 3 tests in 0.000s
+   OK
+Passing the "-v" option to your test script will instruct
+"unittest.main()" to enable a higher level of verbosity, and produce

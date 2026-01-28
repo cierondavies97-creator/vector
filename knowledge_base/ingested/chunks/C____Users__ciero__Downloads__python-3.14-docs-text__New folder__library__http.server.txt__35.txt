@@ -1,0 +1,5 @@
+appropriate "do_*()" method.  You should never need to override
+      it.
+   handle_expect_100()
+      When an HTTP/1.1 conformant server receives an "Expect:
+      100-continue" request header it responds back with a "100

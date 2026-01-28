@@ -1,0 +1,4 @@
+"NULL" to the underlying C API.
+   The *family*, *type* and *proto* arguments can be optionally
+   specified in order to provide options and limit the list of
+   addresses returned. Pass their default values ("AF_UNSPEC", 0, and

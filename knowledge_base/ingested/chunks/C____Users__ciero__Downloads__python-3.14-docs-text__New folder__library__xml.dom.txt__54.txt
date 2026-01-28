@@ -1,0 +1,7 @@
+parent, this attribute will be "None". This is a read-only
+   attribute.
+Node.childNodes
+   A list of nodes contained within this node. This is a read-only
+   attribute.
+Node.firstChild
+   The first child of the node, if there are any, or "None". This is a

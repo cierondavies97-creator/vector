@@ -1,0 +1,4 @@
+implementations act differently and CPython may change. Do not depend
+on immediate finalization of objects when they become unreachable (so
+you should always close files explicitly).
+Note that the use of the implementation's tracing or debugging

@@ -1,0 +1,4 @@
+target_length
+      The impact of this field depends on the selected "Strategy".
+      For strategies "btopt", "btultra" and "btultra2", the value is
+      the length of a match considered "good enough" to stop

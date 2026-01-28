@@ -1,0 +1,4 @@
+the underlying descriptor, and an appropriate partial object
+   returned as the result.
+   When *func* is a non-descriptor callable, an appropriate bound
+   method is created dynamically. This behaves like a normal Python

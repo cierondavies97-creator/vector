@@ -1,0 +1,4 @@
+An entity reference in an attribute value referred to an external
+   entity instead of an internal entity.
+xml.parsers.expat.errors.XML_ERROR_BAD_CHAR_REF
+   A character reference referred to a character which is illegal in

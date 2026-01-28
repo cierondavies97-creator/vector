@@ -1,0 +1,3 @@
+value of the "infile" attribute.  If the *instream* argument is
+   omitted or equal to "sys.stdin", this second argument defaults to
+   "stdin".  The *posix* argument defines the operational mode: when

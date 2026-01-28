@@ -1,0 +1,7 @@
+in the map.
+   key in d
+      Return "True" if *d* has a key *key*, else "False".
+   key not in d
+      Equivalent to "not key in d".
+   iter(d)
+      Return an iterator over the keys of the dictionary.  This is a

@@ -1,0 +1,4 @@
+with input-output examples.  Depending on whether the examples or
+  the expository text are emphasized, this has the flavor of "literate
+  testing" or "executable documentation".
+Here's a complete but small example module:

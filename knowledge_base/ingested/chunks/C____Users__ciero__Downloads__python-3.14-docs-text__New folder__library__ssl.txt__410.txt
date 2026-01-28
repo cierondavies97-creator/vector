@@ -1,0 +1,3 @@
+By contrast, if you create the SSL context by calling the "SSLContext"
+constructor yourself, it will not have certificate validation nor
+hostname checking enabled by default.  If you do so, please read the

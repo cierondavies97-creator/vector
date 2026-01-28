@@ -1,0 +1,5 @@
+"con.close()" to close the existing connection, opening a new one,
+creating a new cursor, then querying the database:
+   >>> con.close()
+   >>> new_con = sqlite3.connect("tutorial.db")
+   >>> new_cur = new_con.cursor()

@@ -1,0 +1,4 @@
+implementation (to raise "TypeError").
+   If *skipkeys* is false (the default), a "TypeError" will be raised
+   when trying to encode keys that are not "str", "int", "float",
+   "bool" or "None".  If *skipkeys* is true, such items are simply

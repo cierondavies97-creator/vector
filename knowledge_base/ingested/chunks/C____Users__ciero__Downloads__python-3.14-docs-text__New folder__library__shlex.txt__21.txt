@@ -1,0 +1,8 @@
+Module "configparser"
+     Parser for configuration files similar to the Windows ".ini"
+     files.
+shlex Objects
+=============
+A "shlex" instance has the following methods:
+shlex.get_token()
+   Return a token.  If tokens have been stacked using "push_token()",

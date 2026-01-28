@@ -1,0 +1,4 @@
+appear distorted if "x/y" unit-ratio doesn't equal 1.
+   +--------------+---------------------------+---------------------+
+   | Mode         | Initial turtle heading    | positive angles     |
+   |==============|===========================|=====================|

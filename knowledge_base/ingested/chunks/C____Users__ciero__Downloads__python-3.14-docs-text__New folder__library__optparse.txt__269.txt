@@ -1,0 +1,5 @@
+it.  (This list will become "args", the second return value of
+      "parse_args()".)
+   "parser.rargs"
+      the current list of remaining arguments, ie. with "opt_str" and
+      "value" (if applicable) removed, and only the arguments

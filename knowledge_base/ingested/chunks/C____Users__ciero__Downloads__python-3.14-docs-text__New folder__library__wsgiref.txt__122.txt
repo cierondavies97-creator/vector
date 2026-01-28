@@ -1,0 +1,4 @@
+"wsgiref.types.FileWrapper", or "None".  The default value of
+      this attribute is the "wsgiref.util.FileWrapper" class.
+   sendfile()
+      Override to implement platform-specific file transmission.  This

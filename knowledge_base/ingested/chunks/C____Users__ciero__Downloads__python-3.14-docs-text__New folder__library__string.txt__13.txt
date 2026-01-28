@@ -1,0 +1,4 @@
+Loop over the format_string and return an iterable of tuples
+      (*literal_text*, *field_name*, *format_spec*, *conversion*).
+      This is used by "vformat()" to break the string into either
+      literal text, or replacement fields.

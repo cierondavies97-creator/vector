@@ -1,0 +1,4 @@
+loaded. The default settings "Purpose.SERVER_AUTH" loads
+   certificates, that are flagged and trusted for TLS web server
+   authentication (client side sockets). "Purpose.CLIENT_AUTH" loads
+   CA certificates for client certificate verification on the server

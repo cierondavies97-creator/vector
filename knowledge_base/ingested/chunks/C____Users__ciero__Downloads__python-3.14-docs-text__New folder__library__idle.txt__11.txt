@@ -1,0 +1,3 @@
+becomes the new associated file for the window. (If your file
+   manager is set to hide extensions, the current extension will be
+   omitted in the file name box. If the new filename has no '.', '.py'

@@ -1,0 +1,6 @@
+frames):
+   903 memory blocks: 870.1 KiB
+     File "<frozen importlib._bootstrap>", line 716
+     File "<frozen importlib._bootstrap>", line 1036
+     File "<frozen importlib._bootstrap>", line 934
+     File "<frozen importlib._bootstrap>", line 1068

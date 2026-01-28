@@ -1,0 +1,3 @@
+| *handlers*     | If specified, this should be an iterable of   |
+   |                | already created handlers to add to the root   |
+   |                | logger. Any handlers which don't already have |

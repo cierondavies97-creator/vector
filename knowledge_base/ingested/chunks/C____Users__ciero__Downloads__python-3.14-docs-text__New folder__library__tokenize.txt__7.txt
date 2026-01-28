@@ -1,0 +1,4 @@
+line.  The 5 tuple is returned as a *named tuple* with the field
+   names: "type string start end line".
+   The returned *named tuple* has an additional property named
+   "exact_type" that contains the exact operator type for "OP" tokens.

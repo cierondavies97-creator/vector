@@ -1,0 +1,9 @@
+...           part.is_multipart())
+         True True
+         False False
+         False True
+         False False
+         False False
+         False True
+         False False
+         >>> _structure(msg)

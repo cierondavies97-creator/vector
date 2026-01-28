@@ -1,0 +1,4 @@
+objects are order-insensitive like regular dictionaries.  This allows
+"OrderedDict" objects to be substituted anywhere a regular dictionary
+is used.
+Changed in version 3.5: The items, keys, and values *views* of

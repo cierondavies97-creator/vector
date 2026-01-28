@@ -1,0 +1,3 @@
+*bases* tuple contains the base classes and becomes the "__bases__"
+   attribute; if empty, "object", the ultimate base of all classes, is
+   added.  The *dict* dictionary contains attribute and method

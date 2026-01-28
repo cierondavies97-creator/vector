@@ -1,0 +1,6 @@
+handlers=[
+                      ExceptHandler(
+                          type=Name(id='Exception', ctx=Load()),
+                          body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])

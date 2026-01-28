@@ -1,0 +1,4 @@
+transfercmd(cmd, rest=None)
+      Initiate a transfer over the data connection.  If the transfer
+      is active, send an "EPRT" or  "PORT" command and the transfer
+      command specified by *cmd*, and accept the connection.  If the

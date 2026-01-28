@@ -1,0 +1,4 @@
+to commands typed in advance. This function allows specifying a
+   different file descriptor for typeahead checking.
+curses.unctrl(ch)
+   Return a bytes object which is a printable representation of the

@@ -1,0 +1,5 @@
+won't be processed.
+   enqueue_sentinel()
+      Writes a sentinel to the queue to tell the listener to quit.
+      This implementation uses "put_nowait()".  You may want to
+      override this method if you want to use timeouts or work with

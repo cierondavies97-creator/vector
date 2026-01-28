@@ -1,0 +1,7 @@
+... class Color(Enum):
+         ...     RED = 1
+         ...     GREEN = 2
+         ...     BLUE = 5
+         Traceback (most recent call last):
+         ...
+         ValueError: invalid enum 'Color': missing values 3, 4

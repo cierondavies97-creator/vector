@@ -1,0 +1,4 @@
+class dataclasses.InitVar
+   "InitVar[T]" type annotations describe variables that are init-
+   only. Fields annotated with "InitVar" are considered pseudo-fields,
+   and thus are neither returned by the "fields()" function nor used

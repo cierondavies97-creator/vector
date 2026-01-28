@@ -1,0 +1,5 @@
+A timeout can be specified for communication with the SMTP server
+   using the *timeout* argument.
+   Changed in version 3.3: Added the *timeout* parameter.
+   emit(record)
+      Formats the record and sends it to the specified addressees.

@@ -1,0 +1,3 @@
+"unixfrom", and that there are no "email.policy" settings calling
+    for automatic adjustments (for example, "refold_source" must be
+    "none", which is *not* the default).  It is also not 100% true,

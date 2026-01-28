@@ -1,0 +1,5 @@
+The key identified by the *key* parameter must have been opened
+   with "KEY_SET_VALUE" access.
+   Raises an auditing event "winreg.SetValue" with arguments "key",
+   "sub_key", "type", "value".
+winreg.SetValueEx(key, value_name, reserved, type, value)

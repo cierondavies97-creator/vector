@@ -1,0 +1,8 @@
+weekday
+      The invalid weekday number.
+See also:
+  Module "datetime"
+     Object-oriented interface to dates and times with similar
+     functionality to the "time" module.
+  Module "time"
+     Low-level time related functions.

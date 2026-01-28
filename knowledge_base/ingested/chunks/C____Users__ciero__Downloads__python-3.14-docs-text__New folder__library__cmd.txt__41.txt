@@ -1,0 +1,5 @@
+def do_right(self, arg):
+           'Turn turtle right by given number of degrees:  RIGHT 20'
+           right(*parse(arg))
+       def do_left(self, arg):
+           'Turn turtle left by given number of degrees:  LEFT 90'

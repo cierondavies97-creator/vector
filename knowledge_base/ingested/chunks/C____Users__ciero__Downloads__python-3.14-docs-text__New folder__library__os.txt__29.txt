@@ -1,0 +1,4 @@
+reflected in "os.environ", except for changes made by modifying
+   "os.environ" directly.
+   This mapping may be used to modify the environment as well as query
+   the environment.  "putenv()" will be called automatically when the

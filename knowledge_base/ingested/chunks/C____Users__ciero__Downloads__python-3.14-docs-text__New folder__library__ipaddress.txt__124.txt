@@ -1,0 +1,5 @@
+Iteration
+~~~~~~~~~
+Network objects can be iterated to list all the addresses belonging to
+the network.  For iteration, *all* hosts are returned, including
+unusable hosts (for usable hosts, use the "hosts()" method).  An

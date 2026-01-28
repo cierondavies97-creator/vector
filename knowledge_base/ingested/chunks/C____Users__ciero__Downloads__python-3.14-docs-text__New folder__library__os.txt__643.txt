@@ -1,0 +1,3 @@
+The *file_actions* argument may be a sequence of tuples describing
+   actions to take on specific file descriptors in the child process
+   between the C library implementation's "fork()" and "exec()" steps.

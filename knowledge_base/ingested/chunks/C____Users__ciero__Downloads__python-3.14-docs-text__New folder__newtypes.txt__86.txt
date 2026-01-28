@@ -1,0 +1,7 @@
+result = -2;
+       }
+       return result;
+   }
+"Py_hash_t" is a signed integer type with a platform-varying width.
+Returning "-1" from "tp_hash" indicates an error, which is why you
+should be careful to avoid returning it when hash computation is

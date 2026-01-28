@@ -1,0 +1,5 @@
+be parameterised at runtime (e.g. "LoggedVar[int]" below):
+   from collections.abc import Iterable
+   def zero_all_vars(vars: Iterable[LoggedVar[int]]) -> None:
+       for var in vars:
+           var.set(0)

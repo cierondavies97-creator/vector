@@ -1,0 +1,4 @@
+callables on "sys.path_hooks", then the following protocol is used to
+ask the finder for a module spec, which is then used when loading the
+module.
+The current working directory -- denoted by an empty string -- is

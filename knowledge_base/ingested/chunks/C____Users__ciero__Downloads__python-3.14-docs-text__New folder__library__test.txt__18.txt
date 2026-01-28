@@ -1,0 +1,4 @@
+system then verify the condition already exists before attempting
+  the test.
+* Import as few modules as possible and do it as soon as possible.
+  This minimizes external dependencies of tests and also minimizes

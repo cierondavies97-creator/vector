@@ -1,0 +1,4 @@
+String of ASCII characters which are considered punctuation
+   characters in the "C" locale: "!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~".
+string.printable
+   String of ASCII characters which are considered printable by

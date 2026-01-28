@@ -1,0 +1,2 @@
+| "loop.remove_writer()"                             | Stop watching a file descriptor for write          |
+|                                                    | availability.                                      |

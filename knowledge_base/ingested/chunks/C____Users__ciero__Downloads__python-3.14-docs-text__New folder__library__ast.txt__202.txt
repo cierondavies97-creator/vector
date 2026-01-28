@@ -1,0 +1,4 @@
+Expr(
+                          value=Constant(value=Ellipsis))])])
+class ast.TryStar(body, handlers, orelse, finalbody)
+   "try" blocks which are followed by "except*" clauses. The

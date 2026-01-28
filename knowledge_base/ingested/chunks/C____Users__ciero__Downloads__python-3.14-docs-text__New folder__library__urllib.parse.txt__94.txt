@@ -1,0 +1,4 @@
+"bytes", all return values from URL parsing functions provide either
+an "encode()" method (when the result contains "str" data) or a
+"decode()" method (when the result contains "bytes" data). The
+signatures of these methods match those of the corresponding "str" and

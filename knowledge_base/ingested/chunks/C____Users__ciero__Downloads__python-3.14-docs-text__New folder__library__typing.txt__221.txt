@@ -1,0 +1,4 @@
+1. The return value is a boolean.
+   2. If the return value is "True", the type of its argument is the
+      type inside "TypeGuard".
+   "TypeGuard" also works with type variables.  See **PEP 647** for

@@ -1,0 +1,4 @@
+If *value* is a string, it should conform to the decimal numeric
+   string syntax after leading and trailing whitespace characters, as
+   well as underscores throughout, are removed:
+      sign           ::=  '+' | '-'

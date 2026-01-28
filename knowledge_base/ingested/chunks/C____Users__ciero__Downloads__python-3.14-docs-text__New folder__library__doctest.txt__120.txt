@@ -1,0 +1,6 @@
+1.995262315
+   >>> print(f'{1000**0.1:.4f}') # much safer
+   1.9953
+Numbers of the form "I/2.**J" are safe across all platforms, and I
+often contrive doctest examples to produce numbers of that form:
+   >>> 3./4  # utterly safe

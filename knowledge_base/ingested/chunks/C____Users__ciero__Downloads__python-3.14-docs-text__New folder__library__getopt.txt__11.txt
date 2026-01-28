@@ -1,0 +1,3 @@
+options on the command line can be recognized so long as they
+   provide a prefix of the option name that matches exactly one of the
+   accepted options.  For example, if *longopts* is "['foo', 'frob']",

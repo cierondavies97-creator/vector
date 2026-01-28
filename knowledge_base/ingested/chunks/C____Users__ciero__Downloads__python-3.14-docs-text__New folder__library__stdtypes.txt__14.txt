@@ -1,0 +1,5 @@
+once (but in both cases *z* is not evaluated at all when "x < y" is
+found to be false).
+This table summarizes the comparison operations:
++--------------+---------------------------+
+| Operation    | Meaning                   |

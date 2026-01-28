@@ -1,0 +1,7 @@
+manager.
+   var
+      A read-only property.  Points to the "ContextVar" object that
+      created the token.
+   old_value
+      A read-only property.  Set to the value the variable had before
+      the "ContextVar.set()" method call that created the token. It

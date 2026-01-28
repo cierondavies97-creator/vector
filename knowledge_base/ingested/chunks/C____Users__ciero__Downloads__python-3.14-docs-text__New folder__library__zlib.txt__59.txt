@@ -1,0 +1,6 @@
+Flush mode "0". No special flushing behavior.
+   Added in version 3.6.
+zlib.Z_PARTIAL_FLUSH
+   Flush mode "1". Flush as much output as possible.
+zlib.Z_SYNC_FLUSH
+   Flush mode "2". All output is flushed and the output is aligned to

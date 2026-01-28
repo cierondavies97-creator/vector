@@ -1,0 +1,6 @@
+specify an application-defined sound alias.
+winsound.SND_SENTRY
+   Triggers a SoundSentry event when the sound is played.
+   Added in version 3.14.
+winsound.SND_SYNC
+   The sound is played synchronously.  This is the default behavior.

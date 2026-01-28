@@ -1,0 +1,2 @@
+|                                   |                                   | uninstall), or false to skip the  |
+|                                   |                                   | confirmation. By default, true.   |

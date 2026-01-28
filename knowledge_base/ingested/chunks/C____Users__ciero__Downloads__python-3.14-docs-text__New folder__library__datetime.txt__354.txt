@@ -1,0 +1,6 @@
+# dt first.
+           dt = dt.replace(tzinfo=None)
+           if start + HOUR <= dt < end - HOUR:
+               # DST is in effect.
+               return HOUR
+           if end - HOUR <= dt < end:

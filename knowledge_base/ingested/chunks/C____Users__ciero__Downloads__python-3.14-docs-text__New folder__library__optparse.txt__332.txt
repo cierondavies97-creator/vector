@@ -1,0 +1,5 @@
+line.
+exception optparse.BadOptionError
+   Raised if an invalid option is passed on the command line.
+exception optparse.AmbiguousOptionError
+   Raised if an ambiguous option is passed on the command line.

@@ -1,0 +1,5 @@
+namespace and the declared namespace prefix name otherwise.
+      *uri* is the namespace URI.
+      Added in version 3.8.
+   end_ns(prefix)
+      Is called after the "end()" callback of an element that declared

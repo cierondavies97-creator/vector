@@ -1,0 +1,4 @@
+"'()'", the instantiation is inferred from the context: as a result,
+standard "logging.Formatter" instances are created.  The configuration
+sub-dictionary for the third formatter, with id "custom", is:
+   {

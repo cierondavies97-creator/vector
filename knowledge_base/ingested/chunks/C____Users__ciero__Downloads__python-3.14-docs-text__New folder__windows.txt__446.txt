@@ -1,0 +1,4 @@
+run the command again.
+An additional "PYLAUNCHER_ALWAYS_INSTALL" variable causes the launcher
+to always try to install Python, even if it is detected. This is
+mainly intended for testing (and should be used with

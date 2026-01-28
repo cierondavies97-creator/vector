@@ -1,0 +1,3 @@
+| "'name'"           | SortKey.NAME          | function name          |
+      +--------------------+-----------------------+------------------------+
+      | "'nfl'"            | SortKey.NFL           | name/file/line         |

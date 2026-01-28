@@ -1,0 +1,5 @@
+mappings, all these characters are included in the Extended Hex
+   Alphabet and are not interchangeable.
+   Added in version 3.10.
+base64.b16encode(s)
+   Encode the *bytes-like object* *s* using Base16 and return the

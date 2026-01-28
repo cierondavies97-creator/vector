@@ -1,0 +1,4 @@
+use. "Policy" instances can be passed to various classes and methods
+in the email package to alter the default behavior.  The settable
+values and their defaults are described below.
+There is a default policy used by all classes in the email package.

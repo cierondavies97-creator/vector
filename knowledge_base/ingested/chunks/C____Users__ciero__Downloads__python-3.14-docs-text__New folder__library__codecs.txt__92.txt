@@ -1,0 +1,4 @@
+The joined output of calls to the "encode()"/"decode()" method is the
+same as if all the single inputs were joined into one, and this input
+was encoded/decoded with the stateless encoder/decoder.
+IncrementalEncoder Objects

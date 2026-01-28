@@ -1,0 +1,3 @@
+group).  This special sequence can only be used to match one of the
+   first 99 groups.  If the first digit of *number* is 0, or *number*
+   is 3 octal digits long, it will not be interpreted as a group

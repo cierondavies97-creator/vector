@@ -1,0 +1,3 @@
+arguments are passed directly through to that interface. One API
+   deviation from "run()" behavior exists: passing "input=None" will
+   behave the same as "input=b''" (or "input=''", depending on other

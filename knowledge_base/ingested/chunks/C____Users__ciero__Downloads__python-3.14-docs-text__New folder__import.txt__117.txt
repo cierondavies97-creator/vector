@@ -1,0 +1,4 @@
+traversal.
+By contrast, path entry finders are in a sense an implementation
+detail of the path based finder, and in fact, if the path based finder
+were to be removed from "sys.meta_path", none of the path entry finder

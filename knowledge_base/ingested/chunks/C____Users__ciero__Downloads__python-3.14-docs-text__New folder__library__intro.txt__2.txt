@@ -1,0 +1,4 @@
+The library also contains built-in functions and exceptions ---
+objects that can be used by all Python code without the need of an
+"import" statement. Some of these are defined by the core language,
+but many are not essential for the core semantics and are only

@@ -1,0 +1,4 @@
+Popen objects are supported as context managers via the "with"
+   statement: on exit, standard file descriptors are closed, and the
+   process is waited for.
+      with Popen(["ifconfig"], stdout=PIPE) as proc:

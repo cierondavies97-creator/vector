@@ -1,0 +1,4 @@
+True
+      Note that a single name can be bound to multiple objects.  If
+      the result is "True", the name may also be bound to other
+      objects, like an int or list, that does not introduce a new

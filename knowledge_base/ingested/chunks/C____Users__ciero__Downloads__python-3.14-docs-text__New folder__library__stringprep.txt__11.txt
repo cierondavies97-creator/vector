@@ -1,0 +1,6 @@
+Determine whether *code* is in tableC.1  (Space characters, union
+   of C.1.1 and C.1.2).
+stringprep.in_table_c21(code)
+   Determine whether *code* is in tableC.2.1  (ASCII control
+   characters).
+stringprep.in_table_c22(code)

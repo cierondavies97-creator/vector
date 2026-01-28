@@ -1,0 +1,7 @@
+immediately obvious that the following calculation returns a value
+equal to zero:
+>>> 1 / Decimal('Infinity')
+Decimal('0E-1000026')
+Working with threads
+====================
+The "getcontext()" function accesses a different "Context" object for

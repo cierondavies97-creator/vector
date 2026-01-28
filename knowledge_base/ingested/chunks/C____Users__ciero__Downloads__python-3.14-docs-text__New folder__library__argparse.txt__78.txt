@@ -1,0 +1,6 @@
+option strings are overridden.  So, in the example above, the old
+"-f/--foo" action is retained as the "-f" action, because only the "--
+foo" option string was overridden.
+add_help
+--------
+By default, "ArgumentParser" objects add an option which simply

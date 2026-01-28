@@ -1,0 +1,7 @@
+will cause a deadlock.
+   See also *lock* and *deadlock*.
+REPL
+   An acronym for the "read–eval–print loop", another name for the
+   *interactive* interpreter shell.
+__slots__
+   A declaration inside a class that saves memory by pre-declaring

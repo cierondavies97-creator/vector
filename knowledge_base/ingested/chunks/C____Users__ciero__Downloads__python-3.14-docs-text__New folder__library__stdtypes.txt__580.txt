@@ -1,0 +1,4 @@
+The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.
+bytes.split(sep=None, maxsplit=-1)
+bytearray.split(sep=None, maxsplit=-1)

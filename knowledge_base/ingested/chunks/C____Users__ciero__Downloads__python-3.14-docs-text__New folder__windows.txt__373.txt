@@ -1,0 +1,4 @@
+directory; to modify these, you will need to remove and then reinstall
+Python completely.
+"Repair" will verify all the files that should be installed using the
+current settings and replace any that have been removed or modified.

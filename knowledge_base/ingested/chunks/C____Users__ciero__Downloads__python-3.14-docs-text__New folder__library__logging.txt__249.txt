@@ -1,0 +1,4 @@
+defined by *attrdict*. This function is useful for taking a pickled
+   "LogRecord" attribute dictionary, sent over a socket, and
+   reconstituting it as a "LogRecord" instance at the receiving end.
+logging.basicConfig(**kwargs)

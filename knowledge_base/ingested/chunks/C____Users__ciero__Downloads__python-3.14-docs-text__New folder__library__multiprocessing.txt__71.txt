@@ -1,0 +1,9 @@
+...     return x*x
+     ...
+     >>> with p:
+     ...     p.map(f, [1,2,3])
+     Process PoolWorker-1:
+     Process PoolWorker-2:
+     Process PoolWorker-3:
+     Traceback (most recent call last):
+     Traceback (most recent call last):

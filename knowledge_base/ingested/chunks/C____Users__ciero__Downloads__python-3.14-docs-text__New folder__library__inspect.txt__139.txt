@@ -1,0 +1,3 @@
+use the "signature()" function.
+inspect.signature(callable, *, follow_wrapped=True, globals=None, locals=None, eval_str=False, annotation_format=Format.VALUE)
+   Return a "Signature" object for the given *callable*:

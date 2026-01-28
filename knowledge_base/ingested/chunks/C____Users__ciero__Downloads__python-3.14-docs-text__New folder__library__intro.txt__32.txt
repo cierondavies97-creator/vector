@@ -1,0 +1,4 @@
+your app provides their app logs as a diagnostic aid, they will
+    not include any detail written to "stdout" or "stderr".
+  * Mobile apps have no usable "stdin" at all. While apps can display
+    an on-screen keyboard, this is a software feature, not something

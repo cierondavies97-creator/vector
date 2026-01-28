@@ -1,0 +1,4 @@
+proxy server or using the "OPTIONS" or "CONNECT" methods).
+   If *headers* contains neither Content-Length nor Transfer-Encoding,
+   but there is a request body, one of those header fields will be
+   added automatically.  If *body* is "None", the Content-Length

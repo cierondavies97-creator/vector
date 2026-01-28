@@ -1,0 +1,4 @@
+available, as many rows as are available are returned.
+      Note there are performance considerations involved with the
+      *size* parameter. For optimal performance, it is usually best to
+      use the arraysize attribute. If the *size* parameter is used,

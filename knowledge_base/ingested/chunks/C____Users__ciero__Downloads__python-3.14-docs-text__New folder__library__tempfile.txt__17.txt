@@ -1,0 +1,4 @@
+immediately after the file creation.
+   If *delete* is true (the default) and *delete_on_close* is true
+   (the default), the file is deleted as soon as it is closed. If
+   *delete* is true and *delete_on_close* is false, the file is

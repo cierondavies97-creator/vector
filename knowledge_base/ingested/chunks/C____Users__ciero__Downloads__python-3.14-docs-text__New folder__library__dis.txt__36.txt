@@ -1,0 +1,4 @@
+bytecode that may be different from the original bytecode.
+   Changed in version 3.4: Added *file* parameter.
+   Changed in version 3.7: Implemented recursive disassembling and
+   added *depth* parameter.

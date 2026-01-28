@@ -1,0 +1,3 @@
+The *cached_property* decorator only runs on lookups and only when
+   an attribute of the same name doesn't exist.  When it does run, the
+   *cached_property* writes to the attribute with the same name.

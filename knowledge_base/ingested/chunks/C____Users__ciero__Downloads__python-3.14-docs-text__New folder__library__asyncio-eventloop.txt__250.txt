@@ -1,0 +1,5 @@
+class asyncio.EventLoop
+      An alias to the most efficient available subclass of
+      "AbstractEventLoop" for the given platform.
+      It is an alias to "SelectorEventLoop" on Unix and
+      "ProactorEventLoop" on Windows.

@@ -1,0 +1,5 @@
+*_fallback*, which is set through "add_fallback()".  It then calls
+   "self._parse(fp)" if *fp* is not "None".
+   _parse(fp)
+      No-op in the base class, this method takes file object *fp*, and
+      reads the data from the file, initializing its message catalog.

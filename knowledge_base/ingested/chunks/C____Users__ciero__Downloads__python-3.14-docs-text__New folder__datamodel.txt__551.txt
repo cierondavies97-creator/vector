@@ -1,0 +1,4 @@
+objects can supply the following special method with a more efficient
+implementation, which also does not require the object be iterable.
+object.__contains__(self, item)
+   Called to implement membership test operators.  Should return true

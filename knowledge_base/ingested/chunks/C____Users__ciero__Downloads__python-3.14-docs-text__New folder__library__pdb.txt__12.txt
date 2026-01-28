@@ -1,0 +1,5 @@
+-m <module>
+   To execute modules similar to the way "python -m" does. As with a
+   script, the debugger will pause execution just before the first
+   line of the module.
+   Changed in version 3.7: Added the "-m" option.

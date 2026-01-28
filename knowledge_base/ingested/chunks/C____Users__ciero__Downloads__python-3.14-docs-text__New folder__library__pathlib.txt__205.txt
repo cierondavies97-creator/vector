@@ -1,0 +1,5 @@
+"NotImplementedError" was raised.
+Copying, moving and deleting
+----------------------------
+Path.copy(target, *, follow_symlinks=True, preserve_metadata=False)
+   Copy this file or directory tree to the given *target*, and return

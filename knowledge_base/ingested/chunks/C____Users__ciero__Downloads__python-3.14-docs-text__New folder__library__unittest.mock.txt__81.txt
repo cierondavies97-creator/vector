@@ -1,0 +1,6 @@
+the function case).
+      An example of a mock that raises an exception (to test exception
+      handling of an API):
+      >>> mock = Mock()
+      >>> mock.side_effect = Exception('Boom!')
+      >>> mock()

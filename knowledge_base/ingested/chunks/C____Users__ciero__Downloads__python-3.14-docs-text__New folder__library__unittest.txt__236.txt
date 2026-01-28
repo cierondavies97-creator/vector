@@ -1,0 +1,4 @@
+"assertSequenceEqual()" (including all the sequence comparison
+      methods that delegate to it), "assertDictEqual()" and
+      "assertMultiLineEqual()".
+      Setting "maxDiff" to "None" means that there is no maximum

@@ -1,0 +1,5 @@
+document type declaration may be accessed by passing a custom
+  "TreeBuilder" instance to the "XMLParser" constructor.
+Pull API for non-blocking parsing
+---------------------------------
+Most parsing functions provided by this module require the whole

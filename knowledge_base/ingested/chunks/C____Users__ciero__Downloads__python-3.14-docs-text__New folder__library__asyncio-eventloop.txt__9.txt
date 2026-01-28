@@ -1,0 +1,6 @@
+"set_event_loop()".
+asyncio.set_event_loop(loop)
+   Set *loop* as the current event loop for the current OS thread.
+asyncio.new_event_loop()
+   Create and return a new event loop object.
+Note that the behaviour of "get_event_loop()", "set_event_loop()", and

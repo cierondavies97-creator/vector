@@ -1,0 +1,6 @@
+"PyObject_GC_UnTrack()" before clearing any member fields:
+   static void
+   newdatatype_dealloc(PyObject *op)
+   {
+       newdatatypeobject *self = (newdatatypeobject *) op;
+       PyObject_GC_UnTrack(op);

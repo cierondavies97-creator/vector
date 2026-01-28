@@ -1,0 +1,3 @@
+which is highest in the logger hierarchy, then it will see all
+        events logged by all descendant loggers, provided that their
+        propagate setting is left set to "True". A common scenario is

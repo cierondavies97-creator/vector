@@ -1,0 +1,3 @@
+* The entries *exampleturtle* and *examplescreen* define the names of
+  these objects as they occur in the docstrings.  The transformation
+  of method-docstrings to function-docstrings will delete these names

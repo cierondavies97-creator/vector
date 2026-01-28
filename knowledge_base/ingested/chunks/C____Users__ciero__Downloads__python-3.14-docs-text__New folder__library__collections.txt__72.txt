@@ -1,0 +1,4 @@
+* Wikipedia entry for Multisets.
+  * C++ multisets tutorial with examples.
+  * For mathematical operations on multisets and their use cases, see
+    *Knuth, Donald. The Art of Computer Programming Volume II, Section

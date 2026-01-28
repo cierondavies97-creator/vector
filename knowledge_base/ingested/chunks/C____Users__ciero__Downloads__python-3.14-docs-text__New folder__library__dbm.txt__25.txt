@@ -1,0 +1,6 @@
+"closing" context manager via the "with" keyword.
+   The following method is also provided:
+   sqlite3.close()
+      Close the SQLite database.
+"dbm.gnu" --- GNU database manager
+==================================

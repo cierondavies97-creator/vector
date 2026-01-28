@@ -1,0 +1,3 @@
+| relativeCreated  | "%(relativeCreated)d"     | Time in milliseconds when the LogRecord was     |
+|                  |                           | created, relative to the time the logging       |
+|                  |                           | module was loaded.                              |

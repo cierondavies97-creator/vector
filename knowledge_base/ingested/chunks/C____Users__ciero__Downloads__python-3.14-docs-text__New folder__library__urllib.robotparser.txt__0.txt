@@ -1,0 +1,4 @@
+"urllib.robotparser" ---  Parser for robots.txt
+***********************************************
+**Source code:** Lib/urllib/robotparser.py
+======================================================================

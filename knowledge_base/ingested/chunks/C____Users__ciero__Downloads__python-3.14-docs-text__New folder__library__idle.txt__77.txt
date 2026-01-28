@@ -1,0 +1,4 @@
+Tip" on the menu or enter its shortcut to display a calltip.
+The calltip consists of the function's signature and docstring up to
+the latter's first blank line or the fifth non-blank line.  (Some
+builtin functions lack an accessible signature.)  A '/' or '*' in the

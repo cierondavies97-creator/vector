@@ -1,0 +1,5 @@
+readable string representation. If you prefer to have dict-like
+   view of the attributes, you can use the standard Python idiom,
+   "vars()":
+      >>> parser = argparse.ArgumentParser()
+      >>> parser.add_argument('--foo')

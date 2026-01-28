@@ -1,0 +1,4 @@
+the "name" attribute has the same meaning, as do the "is_dir()",
+   "is_file()", "is_symlink()", "is_junction()", and "stat()" methods.
+   Added in version 3.5.
+   Changed in version 3.6: Added support for the "PathLike" interface.

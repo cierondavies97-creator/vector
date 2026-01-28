@@ -1,0 +1,4 @@
+compression.
+   In binary mode, this function is equivalent to the "ZstdFile"
+   constructor: "ZstdFile(file, mode, ...)". In this case, the
+   *encoding*, *errors*, and *newline* parameters must not be

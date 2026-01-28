@@ -1,0 +1,6 @@
+in this set under different names (thanks to OpenSSL).
+   Added in version 3.2.
+Hash Objects
+============
+The following values are provided as constant attributes of the hash
+objects returned by the constructors:

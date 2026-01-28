@@ -1,0 +1,5 @@
+If the path contains a drive letter, drive will contain everything
+   up to and including the colon:
+      >>> splitdrive("c:/dir")
+      ("c:", "/dir")
+   If the path contains a UNC path, drive will contain the host name

@@ -1,0 +1,7 @@
+...     Interpolation('.', 'punctuation'),
+      ... )
+      >>> template.strings
+      ('', '', '')
+   iter(template)
+      Iterate over the template, yielding each non-empty string and
+      "Interpolation" in the correct order:

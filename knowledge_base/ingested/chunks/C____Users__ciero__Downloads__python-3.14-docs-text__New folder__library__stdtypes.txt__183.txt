@@ -1,0 +1,3 @@
+"__index__()".  Zero and negative values of *n* clear the sequence.
+   Items in the sequence are not copied; they are referenced multiple
+   times, as explained for "s * n" under Common Sequence Operations.

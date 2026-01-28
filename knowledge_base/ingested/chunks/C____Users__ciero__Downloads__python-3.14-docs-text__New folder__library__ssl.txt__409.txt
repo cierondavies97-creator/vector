@@ -1,0 +1,5 @@
+>>> context = ssl.create_default_context()
+   >>> smtp.starttls(context=context)
+   (220, b'2.0.0 Ready to start TLS')
+If a client certificate is needed for the connection, it can be added
+with "SSLContext.load_cert_chain()".

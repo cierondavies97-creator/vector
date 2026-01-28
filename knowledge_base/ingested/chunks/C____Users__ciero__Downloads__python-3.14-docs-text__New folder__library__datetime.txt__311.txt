@@ -1,0 +1,4 @@
+"tzinfo" attribute's "dst()" method to determine how the "tm_isdst"
+   flag should be set, and "tzinfo.fromutc()" calls "dst()" to account
+   for DST changes when crossing time zones.
+   An instance *tz* of a "tzinfo" subclass that models both standard

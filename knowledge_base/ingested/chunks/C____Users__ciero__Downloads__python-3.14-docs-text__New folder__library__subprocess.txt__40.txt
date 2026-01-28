@@ -1,0 +1,3 @@
+required escaping and quoting of arguments (e.g. to permit spaces
+   in file names). If passing a single string, either *shell* must be
+   "True" (see below) or else the string must simply name the program

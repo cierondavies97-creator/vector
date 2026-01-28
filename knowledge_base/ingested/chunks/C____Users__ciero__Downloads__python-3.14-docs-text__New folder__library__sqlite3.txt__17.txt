@@ -1,0 +1,5 @@
+be committed before changes are saved in the database (see Transaction
+control for details). Call "con.commit()" on the connection object to
+commit the transaction:
+   con.commit()
+We can verify that the data was inserted correctly by executing a

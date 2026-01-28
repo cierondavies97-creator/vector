@@ -1,0 +1,3 @@
+the launcher will output the command it would have run, but will not
+actually launch Python. This may be useful for tools that want to use
+the launcher to detect and then launch Python directly. Note that the

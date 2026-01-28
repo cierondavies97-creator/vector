@@ -1,0 +1,6 @@
+consider using the choices keyword instead.
+choices
+-------
+Some command-line arguments should be selected from a restricted set
+of values. These can be handled by passing a sequence object as the
+*choices* keyword argument to "add_argument()".  When the command line

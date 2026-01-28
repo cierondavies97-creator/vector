@@ -1,0 +1,6 @@
+"breakpointhook".
+   Added in version 3.7.
+class bytearray(source=b'')
+class bytearray(source, encoding, errors='strict')
+   Return a new array of bytes.  The "bytearray" class is a mutable
+   sequence of integers in the range 0 <= x < 256.  It has most of the

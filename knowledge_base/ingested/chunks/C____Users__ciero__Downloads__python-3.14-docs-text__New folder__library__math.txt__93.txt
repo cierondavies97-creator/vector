@@ -1,0 +1,3 @@
+platform C library function "fmod(x, y)". Note that the Python
+   expression "x % y" may not return the same result.  The intent of
+   the C standard is that "fmod(x, y)" be exactly (mathematically; to

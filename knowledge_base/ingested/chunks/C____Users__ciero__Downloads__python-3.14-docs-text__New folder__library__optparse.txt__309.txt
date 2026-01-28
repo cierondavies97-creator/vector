@@ -1,0 +1,4 @@
+good manners and common sense.)
+That's it!  Now you can write a script that uses the new option type
+just like any other "optparse"-based script, except you have to
+instruct your OptionParser to use MyOption instead of Option:

@@ -1,0 +1,6 @@
+>>> pprint.pp(project_info, depth=1, width=60)
+   {'author': 'The Python Packaging Authority',
+    'author_email': 'pypa-dev@googlegroups.com',
+    'bugtrack_url': None,
+    'classifiers': [...],
+    'description': 'A sample Python project\n'

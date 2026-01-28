@@ -1,0 +1,6 @@
+26
+   >>> choice(['win', 'lose', 'draw'])   # Single random element from a sequence
+   'draw'
+   >>> deck = 'ace two three four'.split()
+   >>> shuffle(deck)                     # Shuffle a list
+   >>> deck

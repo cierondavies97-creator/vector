@@ -1,0 +1,4 @@
+can be used on a version specifier to change this behaviour.
+Examples:
+* If no relevant options are set, the commands "python" and "python2"
+  will use the latest Python 2.x version installed and the command

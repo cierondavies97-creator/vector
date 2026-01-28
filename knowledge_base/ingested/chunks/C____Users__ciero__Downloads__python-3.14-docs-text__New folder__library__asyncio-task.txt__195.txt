@@ -1,0 +1,5 @@
+exception.
+      Changed in version 3.9: Added the *msg* parameter.
+      Changed in version 3.11: The "msg" parameter is propagated from
+      cancelled task to its awaiter.
+      The following example illustrates how coroutines can intercept

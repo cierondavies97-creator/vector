@@ -1,0 +1,3 @@
+application. Parsing is expected to continue when this method
+   returns, and document information will continue to be passed to the
+   application. Raising an exception in this method will cause parsing

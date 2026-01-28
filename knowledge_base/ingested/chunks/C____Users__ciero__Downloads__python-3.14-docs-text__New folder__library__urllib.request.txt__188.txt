@@ -1,0 +1,5 @@
+print(f.reason)
+Use of Basic HTTP Authentication:
+   import urllib.request
+   # Create an OpenerDirector with support for Basic HTTP Authentication...
+   auth_handler = urllib.request.HTTPBasicAuthHandler()

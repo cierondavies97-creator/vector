@@ -1,0 +1,3 @@
+serialize the representation of the message.  If *policy* is not
+   set, use the "default" policy, which follows the rules of the email
+   RFCs except for line endings (instead of the RFC mandated "\r\n",

@@ -1,0 +1,8 @@
+avoid infinite waiting tasks.
+   parties
+      The number of tasks required to pass the barrier.
+   n_waiting
+      The number of tasks currently waiting in the barrier while
+      filling.
+   broken
+      A boolean that is "True" if the barrier is in the broken state.

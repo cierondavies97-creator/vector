@@ -1,0 +1,4 @@
+the operand may be flipped
+  * "ast.Is", "ast.IsNot", "ast.In", and "ast.NotIn" are not supported
+* "ast.Call" (except when using "**" unpacking)
+* "ast.Constant" (though not the exact representation of the constant;

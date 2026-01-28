@@ -1,0 +1,8 @@
+try:
+           await protocol.on_con_lost
+       finally:
+           transport.close()
+           wsock.close()
+   asyncio.run(main())
+See also:
+  The watch a file descriptor for read events example uses the low-

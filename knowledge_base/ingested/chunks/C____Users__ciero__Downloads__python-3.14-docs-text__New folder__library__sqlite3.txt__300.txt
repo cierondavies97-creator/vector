@@ -1,0 +1,5 @@
+return val.isoformat()
+   def adapt_datetime_iso(val):
+       """Adapt datetime.datetime to timezone-naive ISO 8601 date."""
+       return val.replace(tzinfo=None).isoformat()
+   def adapt_datetime_epoch(val):

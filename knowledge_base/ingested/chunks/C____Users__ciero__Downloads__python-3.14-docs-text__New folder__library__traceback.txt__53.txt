@@ -1,0 +1,7 @@
+occurred.
+   end_offset
+      For syntax errors - the end offset into the text where the error
+      occurred. Can be "None" if not present.
+      Added in version 3.10.
+   msg
+      For syntax errors - the compiler error message.

@@ -1,0 +1,3 @@
++-----------+------------------------------------------------------------+
+   | "'F'"     | Fixed-point notation. Same as "'f'", but converts "nan" to |
+   |           | "NAN" and "inf" to "INF".                                  |

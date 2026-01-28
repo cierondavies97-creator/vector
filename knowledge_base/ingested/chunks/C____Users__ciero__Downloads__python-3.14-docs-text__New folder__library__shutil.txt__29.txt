@@ -1,0 +1,4 @@
+will be created as a symbolic link.  If *follow_symlinks* is true
+   and *src* is a symbolic link, *dst* will be a copy of the file
+   *src* refers to.
+   "copy()" copies the file data and the file's permission mode (see

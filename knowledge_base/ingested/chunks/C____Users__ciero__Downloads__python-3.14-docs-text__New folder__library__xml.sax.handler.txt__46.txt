@@ -1,0 +1,3 @@
+The Parser will call this method to report each chunk of character
+   data. SAX parsers may return all contiguous character data in a
+   single chunk, or they may split it into several chunks; however,

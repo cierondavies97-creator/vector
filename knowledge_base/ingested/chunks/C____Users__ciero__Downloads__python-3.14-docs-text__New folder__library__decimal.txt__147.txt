@@ -1,0 +1,5 @@
+round(number)
+   round(number, ndigits)
+      If *ndigits* is not given or "None", returns the nearest "int"
+      to *number*, rounding ties to even, and ignoring the rounding
+      mode of the "Decimal" context.  Raises "OverflowError" if

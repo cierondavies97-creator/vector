@@ -1,0 +1,5 @@
+* GEN_CLOSED: Execution has completed.
+   Added in version 3.2.
+inspect.getcoroutinestate(coroutine)
+   Get current state of a coroutine object.  The function is intended
+   to be used with coroutine objects created by "async def" functions,

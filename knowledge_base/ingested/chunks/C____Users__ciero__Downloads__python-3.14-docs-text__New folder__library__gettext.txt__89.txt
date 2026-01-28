@@ -1,0 +1,7 @@
+'penguin',
+              'python', ]
+   # ...
+   for a in animals:
+       print(a)
+Here, you want to mark the strings in the "animals" list as being
+translatable, but you don't actually want to translate them until they

@@ -1,0 +1,6 @@
+interface.
+Note:
+  HTTPS support is only available if Python was compiled with SSL
+  support (through the "ssl" module).
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

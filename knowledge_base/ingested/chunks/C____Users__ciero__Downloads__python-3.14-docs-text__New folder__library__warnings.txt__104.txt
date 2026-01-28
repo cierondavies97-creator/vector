@@ -1,0 +1,6 @@
+may be emitted at runtime when the object is used. *static type
+   checkers* will also generate a diagnostic on usage of the
+   deprecated object.
+   Usage:
+      from warnings import deprecated
+      from typing import overload

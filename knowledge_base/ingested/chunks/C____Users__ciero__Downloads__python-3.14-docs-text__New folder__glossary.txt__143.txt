@@ -1,0 +1,4 @@
+interpreter shutdown
+   When asked to shut down, the Python interpreter enters a special
+   phase where it gradually releases all allocated resources, such as
+   modules and various critical internal structures.  It also makes

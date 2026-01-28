@@ -1,0 +1,10 @@
+instead of "is" or "==". Example:
+   >>> import math
+   >>> math.nan == math.nan
+   False
+   >>> float('nan') == float('nan')
+   False
+   >>> math.isnan(math.nan)
+   True
+   >>> math.isnan(float('nan'))
+   True

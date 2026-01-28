@@ -1,0 +1,4 @@
+error or warning information from either the XML parser or the
+   application: it can be subclassed to provide additional
+   functionality or to add localization.  Note that although the
+   handlers defined in the "ErrorHandler" interface receive instances

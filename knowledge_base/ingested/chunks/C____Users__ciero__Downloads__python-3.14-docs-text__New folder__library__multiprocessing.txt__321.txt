@@ -1,0 +1,7 @@
+list(sequence)
+      Create a shared "list" object and return a proxy for it.
+   set()
+   set(sequence)
+   set(mapping)
+      Create a shared "set" object and return a proxy for it.
+      Added in version 3.14: "set" support was added.

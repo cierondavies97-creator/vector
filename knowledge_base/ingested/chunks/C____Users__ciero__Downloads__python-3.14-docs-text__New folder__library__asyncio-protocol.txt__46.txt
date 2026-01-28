@@ -1,0 +1,4 @@
+is sent to the target address given on transport creation.
+   This method does not block; it buffers the data and arranges for it
+   to be sent out asynchronously.
+   Changed in version 3.13: This method can be called with an empty

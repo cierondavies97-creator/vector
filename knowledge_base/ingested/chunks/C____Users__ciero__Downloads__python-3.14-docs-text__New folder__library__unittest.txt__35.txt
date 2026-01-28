@@ -1,0 +1,6 @@
+--durations N
+   Show the N slowest test cases (N=0 for all).
+Added in version 3.2: The command-line options "-b", "-c" and "-f"
+were added.
+Added in version 3.5: The command-line option "--locals".
+Added in version 3.7: The command-line option "-k".

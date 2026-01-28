@@ -1,0 +1,3 @@
+In this simple case, "optparse" doesn't even know if "-c" takes any
+arguments, which usually means that the option takes no arguments---
+the mere presence of "-c" on the command-line is all it needs to know.

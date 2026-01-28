@@ -1,0 +1,4 @@
+*"magic methods"*. This allows mock objects to replace containers or
+other objects that implement Python protocols.
+Because magic methods are looked up differently from normal methods
+[2], this support has been specially implemented. This means that only

@@ -1,0 +1,4 @@
+The interpretation is similar to an integer *address*.
+   4. A two-tuple of an address description and a netmask, where the
+      address description is either a string, a 32-bits integer, a
+      4-bytes packed integer, or an existing "IPv4Address" object; and

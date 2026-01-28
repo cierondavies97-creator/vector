@@ -1,0 +1,5 @@
+This is a subclass derived from "IMAP4" that connects to the
+   "stdin/stdout" file descriptors created by passing *command* to
+   "subprocess.Popen()".
+The following utility functions are defined:
+imaplib.Internaldate2tuple(datestr)

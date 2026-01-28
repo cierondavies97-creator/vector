@@ -1,0 +1,3 @@
+any loggers are instantiated by applications which need to use
+   custom logger behavior. After this call, as at any other time, do
+   not instantiate loggers directly using the subclass: continue to

@@ -1,0 +1,5 @@
+built-in constant.
+exception OSError([arg])
+exception OSError(errno, strerror[, filename[, winerror[, filename2]]])
+   This exception is raised when a system function returns a system-
+   related error, including I/O failures such as "file not found" or

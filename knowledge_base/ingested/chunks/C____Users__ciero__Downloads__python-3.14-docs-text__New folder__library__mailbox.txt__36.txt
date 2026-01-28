@@ -1,0 +1,7 @@
+otherwise.
+   __len__()
+      Return a count of messages in the mailbox.
+   clear()
+      Delete all messages from the mailbox.
+   pop(key, default=None)
+      Return a representation of the message corresponding to *key*

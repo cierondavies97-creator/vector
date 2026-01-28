@@ -1,0 +1,4 @@
+method *method* and the request URI *url*. The provided *url* must
+   be an absolute path to conform with **RFC 2616 §5.1.2** (unless
+   connecting to an HTTP proxy server or using the "OPTIONS" or
+   "CONNECT" methods).

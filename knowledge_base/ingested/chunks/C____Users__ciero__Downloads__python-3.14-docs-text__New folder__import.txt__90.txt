@@ -1,0 +1,4 @@
+allows the import machinery to perform the boilerplate operations of
+loading, whereas without a module spec the loader had that
+responsibility.
+The module's spec is exposed as "module.__spec__". Setting "__spec__"

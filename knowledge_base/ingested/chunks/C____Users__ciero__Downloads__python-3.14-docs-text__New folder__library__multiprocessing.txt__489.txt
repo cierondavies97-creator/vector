@@ -1,0 +1,9 @@
+import operator
+   ##
+   class Foo:
+       def f(self):
+           print('you called Foo.f()')
+       def g(self):
+           print('you called Foo.g()')
+       def _h(self):
+           print('you called Foo._h()')

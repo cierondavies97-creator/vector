@@ -1,0 +1,4 @@
+necessary, and can cause information about the cause of the error to
+be lost: most operations can fail for a variety of reasons.)
+To ignore an exception set by a function call that failed, the
+exception condition must be cleared explicitly by calling

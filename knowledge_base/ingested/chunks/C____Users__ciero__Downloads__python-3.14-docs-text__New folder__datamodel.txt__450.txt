@@ -1,0 +1,3 @@
+* If a class defines a slot also defined in a base class, the instance
+  variable defined by the base class slot is inaccessible (except by
+  retrieving its descriptor directly from the base class). This

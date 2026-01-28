@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "transport.can_write_eof()"                        | Return "True" if the transport supports sending    |

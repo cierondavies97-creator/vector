@@ -1,0 +1,6 @@
+To configure the tree column, call this with column = "#0"
+   delete(*items)
+      Delete all specified *items* and all their descendants.
+      The root item may not be deleted.
+   detach(*items)
+      Unlinks all of the specified *items* from the tree.

@@ -1,0 +1,5 @@
+xml.sax.handler.feature_external_ges
+   Warning:
+     Enabling opens a vulnerability to external entity attacks if the
+     parser is used with user-provided XML content. Please reflect on
+     your threat model before enabling this feature.

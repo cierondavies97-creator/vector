@@ -1,0 +1,4 @@
+raw stream, unless the latter is interactive.
+      A "BlockingIOError" is raised if the underlying raw stream is in
+      non blocking-mode, and has no data available at the moment.
+   readinto1(b, /)

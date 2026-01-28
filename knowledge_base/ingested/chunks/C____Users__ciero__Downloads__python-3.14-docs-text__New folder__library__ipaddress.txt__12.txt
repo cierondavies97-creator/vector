@@ -1,0 +1,7 @@
+can be obtained by calling the appropriate version specific class
+constructors directly.
+IP Addresses
+============
+Address objects
+---------------
+The "IPv4Address" and "IPv6Address" objects share a lot of common

@@ -1,0 +1,3 @@
+""choice"" options are a subtype of ""string"" options.  The "choices"
+option attribute (a sequence of strings) defines the set of allowed
+option arguments.  "optparse.check_choice()" compares user-supplied

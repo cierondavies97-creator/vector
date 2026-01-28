@@ -1,0 +1,4 @@
+controlled using environment variables.
+"test.support" --- Utilities for the Python test suite
+******************************************************
+The "test.support" module provides support for Python's regression

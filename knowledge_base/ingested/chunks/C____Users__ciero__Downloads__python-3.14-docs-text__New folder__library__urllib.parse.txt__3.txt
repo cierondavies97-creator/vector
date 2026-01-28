@@ -1,0 +1,4 @@
+"rtsp", "rtsps", "rtspu", "sftp", "shttp", "sip", "sips", "snews",
+"svn", "svn+ssh", "telnet", "wais", "ws", "wss".
+**CPython implementation detail:** The inclusion of the "itms-
+services" URL scheme can prevent an app from passing Apple's App Store

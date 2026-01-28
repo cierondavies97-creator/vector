@@ -1,0 +1,5 @@
+changed.
+   If *exist_ok* is "False" (the default), a "FileExistsError" is
+   raised if the target directory already exists.
+   Note:
+     "makedirs()" will become confused if the path elements to create

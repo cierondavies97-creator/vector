@@ -1,0 +1,3 @@
+Note that the object returned by "parse_args()" will only contain
+   attributes for the main parser and the subparser that was selected
+   by the command line (and not any other subparsers).  So in the

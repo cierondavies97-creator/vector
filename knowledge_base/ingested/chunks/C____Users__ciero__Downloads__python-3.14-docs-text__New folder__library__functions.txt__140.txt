@@ -1,0 +1,4 @@
+if not. (This is implemented by calling "getattr(object, name)" and
+   seeing whether it raises an "AttributeError" or not.)
+hash(object, /)
+   Return the hash value of the object (if it has one).  Hash values

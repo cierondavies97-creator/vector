@@ -1,0 +1,3 @@
+variable called "__test__" and uses it to locate other tests. If
+"M.__test__" exists, it must be a dict, and each entry maps a (string)
+name to a function object, class object, or string. Function and class

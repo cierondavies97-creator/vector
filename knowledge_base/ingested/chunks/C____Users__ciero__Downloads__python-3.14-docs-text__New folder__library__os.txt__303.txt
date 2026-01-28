@@ -1,0 +1,4 @@
+a variety of reasons, including permissions, network connectivity
+   or missing media. This function does not test for access.
+   May raise "OSError" if an error occurs collecting the drive names.
+   Raises an auditing event "os.listdrives" with no arguments.

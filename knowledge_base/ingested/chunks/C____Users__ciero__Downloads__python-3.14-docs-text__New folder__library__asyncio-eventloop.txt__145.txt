@@ -1,0 +1,4 @@
+Working with socket objects directly
+------------------------------------
+In general, protocol implementations that use transport-based APIs
+such as "loop.create_connection()" and "loop.create_server()" are

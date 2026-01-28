@@ -1,0 +1,5 @@
+*iterable*.
+   If *r* is not specified or is "None", then *r* defaults to the
+   length of the *iterable* and all possible full-length permutations
+   are generated.
+   The output is a subsequence of "product()" where entries with

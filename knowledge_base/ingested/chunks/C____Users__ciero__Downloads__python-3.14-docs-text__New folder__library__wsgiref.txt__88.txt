@@ -1,0 +1,3 @@
+This class is a subclass of "SimpleHandler" intended for use with
+   software other than HTTP "origin servers".  If you are writing a
+   gateway protocol implementation (such as CGI, FastCGI, SCGI, etc.)

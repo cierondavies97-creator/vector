@@ -1,0 +1,3 @@
+|                        | *use_datetime* flags.                                   |
+   +------------------------+---------------------------------------------------------+
+   | "base64"               | "Binary", "bytes" or "bytearray".  Returned type        |

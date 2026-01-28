@@ -1,0 +1,3 @@
+concurrency-safety of the "catch_warnings" context manager when
+     used in programs using multiple threads or async functions.
+   Changed in version 3.11: Added the *action*, *category*, *lineno*,

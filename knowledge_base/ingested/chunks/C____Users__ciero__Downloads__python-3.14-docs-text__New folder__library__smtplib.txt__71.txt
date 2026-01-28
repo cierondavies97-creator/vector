@@ -1,0 +1,4 @@
+and lone "\r" and "\n" characters are converted to "\r\n"
+   characters.  A byte string is not modified.
+   If there has been no previous "EHLO" or "HELO" command this
+   session, this method tries ESMTP "EHLO" first. If the server does

@@ -1,0 +1,5 @@
+def astimezone(self, tz):
+          if self.tzinfo is tz:
+              return self
+          # Convert self to UTC, and attach the new timezone object.
+          utc = (self - self.utcoffset()).replace(tzinfo=tz)

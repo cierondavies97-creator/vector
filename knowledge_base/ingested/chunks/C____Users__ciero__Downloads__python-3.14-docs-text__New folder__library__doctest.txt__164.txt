@@ -1,0 +1,4 @@
+Optional argument *parser* specifies a "DocTestParser" (or
+   subclass) that should be used to extract tests from the files.  It
+   defaults to a normal parser (i.e., "DocTestParser()").
+   Optional argument *encoding* specifies an encoding that should be

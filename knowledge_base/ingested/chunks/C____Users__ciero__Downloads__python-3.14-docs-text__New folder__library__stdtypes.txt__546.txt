@@ -1,0 +1,6 @@
+character at the same position in *to*; *from* and *to* must both
+   be *bytes-like objects* and have the same length.
+   Added in version 3.1.
+bytes.partition(sep, /)
+bytearray.partition(sep, /)
+   Split the sequence at the first occurrence of *sep*, and return a

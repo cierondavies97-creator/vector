@@ -1,0 +1,7 @@
+FunctionType(
+          argtypes=[
+              Name(id='int', ctx=Load()),
+              Name(id='str', ctx=Load())],
+          returns=Subscript(
+              value=Name(id='List', ctx=Load()),
+              slice=Name(id='int', ctx=Load()),

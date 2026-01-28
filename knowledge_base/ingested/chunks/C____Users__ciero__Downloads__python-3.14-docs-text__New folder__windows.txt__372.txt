@@ -1,0 +1,4 @@
+maintenance mode.
+"Modify" allows you to add or remove features by modifying the
+checkboxes - unchanged checkboxes will not install or remove anything.
+Some options cannot be changed in this mode, such as the install

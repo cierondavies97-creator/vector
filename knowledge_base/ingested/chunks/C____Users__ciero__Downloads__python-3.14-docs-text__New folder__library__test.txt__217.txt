@@ -1,0 +1,4 @@
+This is useful for testing module-level behaviors, such as the
+   emission of a "DeprecationWarning" on import.  Example usage:
+      with CleanImport('foo'):
+          importlib.import_module('foo')  # New reference.

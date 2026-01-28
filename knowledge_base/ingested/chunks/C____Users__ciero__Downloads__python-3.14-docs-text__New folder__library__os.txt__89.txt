@@ -1,0 +1,4 @@
+Set the current process's real and effective group ids.
+   Availability: Unix, not WASI, not Android.
+os.setresgid(rgid, egid, sgid, /)
+   Set the current process's real, effective, and saved group ids.

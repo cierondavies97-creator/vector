@@ -1,0 +1,4 @@
+e.parents             # Enclosing context chain -- like Python's nonlocals
+   d['x'] = 1            # Set value in current context
+   d['x']                # Get first key in the chain of contexts
+   del d['x']            # Delete from current context

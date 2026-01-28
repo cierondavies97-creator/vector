@@ -1,0 +1,7 @@
+Predicates (expressions within square brackets) must be preceded by a
+tag name, an asterisk, or another predicate.  "position" predicates
+must be preceded by a tag name.
+Reference
+=========
+Functions
+---------

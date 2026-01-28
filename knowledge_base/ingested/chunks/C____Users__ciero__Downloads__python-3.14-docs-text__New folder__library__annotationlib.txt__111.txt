@@ -1,0 +1,3 @@
+importing code that may contain untrusted annotations: importing code
+can always cause arbitrary operations to be performed. However, it is
+unsafe to accept strings or other input from an untrusted source and

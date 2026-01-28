@@ -1,0 +1,4 @@
+will filter out packets which cover too little of their data. In
+  both cases "length" should be in "range(8, 2**16, 8)".
+  Such a socket should be constructed with "socket(AF_INET,
+  SOCK_DGRAM, IPPROTO_UDPLITE)" for IPv4 or "socket(AF_INET6,

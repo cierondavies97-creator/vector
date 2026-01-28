@@ -1,0 +1,5 @@
+Added in version 3.3.
+         Changed in version 3.5: The source format is no longer
+         restricted when casting to a byte view.
+      count(value, /)
+         Count the number of occurrences of *value*.

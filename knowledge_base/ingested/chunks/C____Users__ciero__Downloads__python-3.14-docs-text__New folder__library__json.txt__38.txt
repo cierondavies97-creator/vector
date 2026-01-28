@@ -1,0 +1,4 @@
+decoder. Additional keyword arguments to "load()" will be
+        passed to the constructor of *cls*. If "None" (the default),
+        "JSONDecoder" is used.
+      * **object_hook** (*callable* | None) -- If set, a function that

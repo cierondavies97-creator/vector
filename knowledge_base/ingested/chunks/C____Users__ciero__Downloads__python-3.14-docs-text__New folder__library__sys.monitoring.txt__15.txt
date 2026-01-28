@@ -1,0 +1,4 @@
+Return from a Python function (occurs immediately before the
+   return, the callee's frame will be on the stack).
+sys.monitoring.events.PY_START
+   Start of a Python function (occurs immediately after the call, the

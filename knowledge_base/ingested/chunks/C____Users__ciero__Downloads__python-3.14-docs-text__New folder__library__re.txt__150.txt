@@ -1,0 +1,5 @@
+value. Values can be any of the flags variables, combined using
+   bitwise OR (the "|" operator).
+   Added in version 3.4.
+re.split(pattern, string, maxsplit=0, flags=0)
+   Split *string* by the occurrences of *pattern*.  If capturing

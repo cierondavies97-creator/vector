@@ -1,0 +1,3 @@
+*dialect* parameter can be given which is used to define a set of
+   parameters specific to a particular CSV dialect.  It may be an
+   instance of a subclass of the "Dialect" class or one of the strings

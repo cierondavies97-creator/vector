@@ -1,0 +1,4 @@
+The central class in the "email" package is the "EmailMessage" class,
+imported from the "email.message" module.  It is the base class for
+the "email" object model.  "EmailMessage" provides the core
+functionality for setting and querying header fields, for accessing

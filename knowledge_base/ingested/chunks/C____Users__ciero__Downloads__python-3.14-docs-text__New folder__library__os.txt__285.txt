@@ -1,0 +1,7 @@
+equivalent to "os.chdir(fd)".
+   Raises an auditing event "os.chdir" with argument "path".
+   Availability: Unix.
+os.getcwd()
+   Return a string representing the current working directory.
+os.getcwdb()
+   Return a bytestring representing the current working directory.

@@ -1,0 +1,3 @@
+defined by *iterable*.  *key*, if provided, specifies a function of
+   one argument that is used to extract a comparison key from each
+   element in *iterable* (for example, "key=str.lower").  Equivalent

@@ -1,0 +1,3 @@
+| "max(s)"                   | largest item of *s*              |            |
++----------------------------+----------------------------------+------------+
+Sequences of the same type also support comparisons.  In particular,

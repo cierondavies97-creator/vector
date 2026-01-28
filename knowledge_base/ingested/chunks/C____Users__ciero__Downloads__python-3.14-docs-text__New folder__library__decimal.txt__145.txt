@@ -1,0 +1,4 @@
+given "context".  If neither parameter is given then the
+      rounding mode of the current context is used.
+   to_integral_value(rounding=None, context=None)
+      Round to the nearest integer without signaling "Inexact" or

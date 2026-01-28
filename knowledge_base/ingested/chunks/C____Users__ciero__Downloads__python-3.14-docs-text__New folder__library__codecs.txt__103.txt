@@ -1,0 +1,4 @@
+All incremental decoders must provide this constructor interface.
+   They are free to add additional keyword arguments, but only the
+   ones defined here are used by the Python codec registry.
+   The "IncrementalDecoder" may implement different error handling

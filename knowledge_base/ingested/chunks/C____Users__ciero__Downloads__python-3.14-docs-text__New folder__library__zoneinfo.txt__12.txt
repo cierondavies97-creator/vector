@@ -1,0 +1,3 @@
+instead pulls time zone information from the system time zone database
+or the first-party PyPI package tzdata, if available. Some systems,
+including notably Windows systems, do not have an IANA database

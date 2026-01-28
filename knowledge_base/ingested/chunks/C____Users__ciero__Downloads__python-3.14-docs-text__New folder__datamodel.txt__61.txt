@@ -1,0 +1,6 @@
+Sets
+   These represent a mutable set. They are created by the built-in
+   "set()" constructor and can be modified afterwards by several
+   methods, such as "add()".
+Frozen sets
+   These represent an immutable set.  They are created by the built-in

@@ -1,0 +1,5 @@
+should arrange the program so that a process which needs access to
+   a shared resource created elsewhere can inherit it from an ancestor
+   process.
+Avoid terminating processes
+   Using the "Process.terminate" method to stop a process is liable to

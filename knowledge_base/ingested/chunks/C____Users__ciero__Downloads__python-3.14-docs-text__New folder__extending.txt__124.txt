@@ -1,0 +1,8 @@
+f('spam')
+          f('spam', 'w')
+          f('spam', 'wb', 100000) */
+   }
+   {
+       int left, top, right, bottom, h, v;
+       ok = PyArg_ParseTuple(args, "((ii)(ii))(ii)",
+                &left, &top, &right, &bottom, &h, &v);

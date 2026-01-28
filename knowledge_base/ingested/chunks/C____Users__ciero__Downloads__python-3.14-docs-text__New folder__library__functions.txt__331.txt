@@ -1,0 +1,4 @@
+for explicit dotted attribute lookups such as
+   "super().__getitem__(name)". It does so by implementing its own
+   "__getattribute__()" method for searching classes in a predictable
+   order that supports cooperative multiple inheritance. Accordingly,

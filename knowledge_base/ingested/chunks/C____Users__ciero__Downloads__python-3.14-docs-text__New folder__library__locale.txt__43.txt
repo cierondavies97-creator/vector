@@ -1,0 +1,4 @@
+|                | currency symbol.                          |
+   +----------------+-------------------------------------------+
+   | "3"            | The sign should immediately precede the   |
+   |                | value.                                    |

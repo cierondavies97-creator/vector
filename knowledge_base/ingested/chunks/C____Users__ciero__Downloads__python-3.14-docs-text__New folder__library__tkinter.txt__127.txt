@@ -1,0 +1,3 @@
+often just refer to the widget's master.  Of course if the widget has
+been packed inside of a frame, the master won't represent a toplevel
+window.  To get at the toplevel window that contains an arbitrary

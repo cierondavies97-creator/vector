@@ -1,0 +1,3 @@
+When the "timeout" parameter is not "None", then (on POSIX) the
+     function is implemented using a busy loop (non-blocking call and
+     short sleeps). Use the "asyncio" module for an asynchronous wait:

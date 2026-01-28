@@ -1,0 +1,5 @@
+examples section below).
+See also:
+  * Sorted Collections is a high performance module that uses *bisect*
+    to managed sorted collections of data.
+  * The SortedCollection recipe uses bisect to build a full-featured

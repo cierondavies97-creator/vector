@@ -1,0 +1,3 @@
+*product_type* may be one of the following values:
+   +-----------------------------------------+-----------------------------------+
+   | Constant                                | Meaning                           |

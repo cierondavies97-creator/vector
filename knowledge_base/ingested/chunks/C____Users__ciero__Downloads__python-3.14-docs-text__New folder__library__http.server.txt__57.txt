@@ -1,0 +1,4 @@
+This class serves files from the directory *directory* and below,
+   or the current directory if *directory* is not provided, directly
+   mapping the directory structure to HTTP requests.
+   Changed in version 3.7: Added the *directory* parameter.

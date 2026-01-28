@@ -1,0 +1,5 @@
+"getopt" --- C-style parser for command line options
+****************************************************
+**Source code:** Lib/getopt.py
+Note:
+  This module is considered feature complete. A more declarative and

@@ -1,0 +1,5 @@
+with only a single data point. This allows quantile estimates to be
+   built up one sample point at a time becoming gradually more refined
+   with each new data point.
+statistics.covariance(x, y, /)
+   Return the sample covariance of two inputs *x* and *y*. Covariance

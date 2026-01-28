@@ -1,0 +1,6 @@
+or using it in a "with" statement.
+   See the Microsoft documentation for more information about how DLLs
+   are loaded.
+   Raises an auditing event "os.add_dll_directory" with argument
+   "path".
+   Availability: Windows.

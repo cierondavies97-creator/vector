@@ -1,0 +1,5 @@
+created the process object.
+   Example usage of some of the methods of "Process":
+      >>> import multiprocessing, time, signal
+      >>> mp_context = multiprocessing.get_context('spawn')
+      >>> p = mp_context.Process(target=time.sleep, args=(1000,))

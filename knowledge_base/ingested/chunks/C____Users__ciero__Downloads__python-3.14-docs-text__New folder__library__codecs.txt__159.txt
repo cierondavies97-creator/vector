@@ -1,0 +1,3 @@
+a word to be split. It can e.g. be used to give hints to a ligature
+algorithm. With Unicode 4.0 using "U+FEFF" as a "ZERO WIDTH NO-BREAK
+SPACE" has been deprecated (with "U+2060" ("WORD JOINER") assuming

@@ -1,0 +1,4 @@
+reverse order to the order they are added (LIFO (last-in, first-
+   out)). They are called with any arguments and keyword arguments
+   passed into "addModuleCleanup()" when they are added.
+   If "setUpModule()" fails, meaning that "tearDownModule()" is not

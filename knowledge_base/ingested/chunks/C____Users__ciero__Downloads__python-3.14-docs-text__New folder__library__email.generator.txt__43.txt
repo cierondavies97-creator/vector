@@ -1,0 +1,4 @@
+For more detail, see "email.message".
+The "email.generator" module also provides a derived class,
+"DecodedGenerator", which is like the "Generator" base class, except
+that non-*text* parts are not serialized, but are instead represented

@@ -1,0 +1,2 @@
+| type commands in my terminal.                      | installed and it has priority over the Python      |
+|                                                    | install manager. To remove, click Start, open      |

@@ -1,0 +1,4 @@
+single "str".  If *size* is negative or "None", reads until EOF.
+   readline(size=-1, /)
+      Read until newline or EOF and return a single "str".  If the
+      stream is already at EOF, an empty string is returned.

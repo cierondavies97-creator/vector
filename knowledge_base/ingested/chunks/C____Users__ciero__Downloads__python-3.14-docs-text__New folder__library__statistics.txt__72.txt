@@ -1,0 +1,6 @@
+getting a correct result.  The function does not check this
+   precondition.
+   Inputs may be any numeric type that can be coerced to a float
+   during the interpolation step.
+statistics.mode(data)
+   Return the single most common data point from discrete or nominal

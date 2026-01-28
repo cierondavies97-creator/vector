@@ -1,0 +1,4 @@
+Returns a new tuple subclass named *typename*.  The new subclass is
+   used to create tuple-like objects that have fields accessible by
+   attribute lookup as well as being indexable and iterable.
+   Instances of the subclass also have a helpful docstring (with

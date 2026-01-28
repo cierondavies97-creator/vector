@@ -1,0 +1,4 @@
+"compression.zstd".
+tarfile.open(name=None, mode='r', fileobj=None, bufsize=10240, **kwargs)
+   Return a "TarFile" object for the pathname *name*. For detailed
+   information on "TarFile" objects and the keyword arguments that are

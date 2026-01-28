@@ -1,0 +1,3 @@
+callable will be used. If it is an actual callable it will be used
+directly - otherwise, if you specify a string (as in the example) the
+actual callable will be located using normal import mechanisms. The

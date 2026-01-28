@@ -1,0 +1,3 @@
+"copytree()" is called recursively, the *ignore* callable will be
+   called once for each directory that is copied.  The callable must
+   return a sequence of directory and file names relative to the

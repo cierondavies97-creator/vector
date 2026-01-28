@@ -1,0 +1,4 @@
+"math" --- Mathematical functions
+*********************************
+======================================================================
+This module provides access to common mathematical functions and

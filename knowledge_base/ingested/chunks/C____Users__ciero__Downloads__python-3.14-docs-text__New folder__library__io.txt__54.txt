@@ -1,0 +1,4 @@
+"with" statement's suite is finished---even if an exception occurs:
+      with open('spam.txt', 'w') as file:
+          file.write('Spam and eggs!')
+   "IOBase" provides these data attributes and methods:

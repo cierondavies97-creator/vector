@@ -1,0 +1,4 @@
+component *real* and the imaginary component *imag*. If both
+   arguments are complex numbers, return a complex number with the
+   real component "real.real-imag.imag" and the imaginary component
+   "real.imag+imag.real". If one of arguments is a real number, only

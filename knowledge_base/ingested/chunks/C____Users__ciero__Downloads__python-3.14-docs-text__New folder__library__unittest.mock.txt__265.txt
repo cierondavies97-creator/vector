@@ -1,0 +1,6 @@
+...         self.patcher1.stop()
+   ...         self.patcher2.stop()
+   ...
+   ...     def test_something(self):
+   ...         assert package.module.Class1 is self.MockClass1
+   ...         assert package.module.Class2 is self.MockClass2

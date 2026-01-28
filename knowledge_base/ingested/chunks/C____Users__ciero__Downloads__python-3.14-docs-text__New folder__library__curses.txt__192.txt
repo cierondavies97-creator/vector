@@ -1,0 +1,7 @@
+=========
+The "curses" module defines the following data members:
+curses.ERR
+   Some curses routines  that  return  an integer, such as "getch()",
+   return "ERR" upon failure.
+curses.OK
+   Some curses routines  that  return  an integer, such as  "napms()",

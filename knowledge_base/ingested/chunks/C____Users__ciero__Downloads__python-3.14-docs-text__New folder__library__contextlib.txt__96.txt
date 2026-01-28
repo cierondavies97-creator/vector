@@ -1,0 +1,4 @@
+------------------------------------------------
+The primary use case for "ExitStack" is the one given in the class
+documentation: supporting a variable number of context managers and
+other cleanup operations in a single "with" statement. The variability

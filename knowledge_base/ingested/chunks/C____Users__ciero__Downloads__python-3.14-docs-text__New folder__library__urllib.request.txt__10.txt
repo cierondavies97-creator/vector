@@ -1,0 +1,4 @@
+For FTP, file, and data URLs, this function returns a
+   "urllib.response.addinfourl" object.
+   Raises "URLError" on protocol errors.
+   Note that "None" may be returned if no handler handles the request

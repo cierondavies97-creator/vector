@@ -1,0 +1,4 @@
+*generator* is not a Python generator object.
+   **CPython implementation detail:** This function relies on the
+   generator exposing a Python stack frame for introspection, which
+   isn't guaranteed to be the case in all implementations of Python.

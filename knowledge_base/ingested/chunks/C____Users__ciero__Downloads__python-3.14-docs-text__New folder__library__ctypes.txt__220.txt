@@ -1,0 +1,4 @@
+When writing code that relies on code loaded from shared libraries, it
+can be useful to know which shared libraries have already been loaded
+into the current process.
+The "ctypes.util" module provides the "dllist()" function, which calls

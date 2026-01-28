@@ -1,0 +1,4 @@
+mutable
+   An *object* with state that is allowed to change during the course
+   of the program.  In multi-threaded programs, mutable objects that
+   are shared between threads require careful synchronization to avoid

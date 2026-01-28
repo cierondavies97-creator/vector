@@ -1,0 +1,3 @@
+--foo") and "nargs='?'".  This creates an optional argument that can
+  be followed by zero or one command-line arguments. When parsing the
+  command line, if the option string is encountered with no command-

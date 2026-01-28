@@ -1,0 +1,5 @@
+less than 224 bits are prohibited. "PROTOCOL_TLS",
+   "PROTOCOL_TLS_CLIENT", and "PROTOCOL_TLS_SERVER" use TLS 1.2 as
+   minimum TLS version.
+   Note:
+     "SSLContext" only supports limited mutation once it has been used

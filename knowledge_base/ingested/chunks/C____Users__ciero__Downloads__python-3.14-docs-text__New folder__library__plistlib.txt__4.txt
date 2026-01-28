@@ -1,0 +1,5 @@
+"datetime.datetime" objects.
+Changed in version 3.4: New API, old API deprecated.  Support for
+binary format plists added.
+Changed in version 3.8: Support added for reading and writing "UID"
+tokens in binary plists as used by NSKeyedArchiver and

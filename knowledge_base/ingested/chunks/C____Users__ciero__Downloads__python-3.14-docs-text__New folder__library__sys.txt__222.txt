@@ -1,0 +1,4 @@
+sys.intern(string)
+   Enter *string* in the table of "interned" strings and return the
+   interned string -- which is *string* itself or a copy. Interning
+   strings is useful to gain a little performance on dictionary lookup

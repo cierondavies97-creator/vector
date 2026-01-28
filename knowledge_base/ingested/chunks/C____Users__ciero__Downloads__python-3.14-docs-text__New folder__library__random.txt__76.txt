@@ -1,0 +1,5 @@
+>>> # with a ten-value:  ten, jack, queen, or king.
+   >>> deal = sample(['tens', 'low cards'], counts=[16, 36], k=20)
+   >>> deal.count('tens') / 20
+   0.15
+   >>> # Estimate the probability of getting 5 or more heads from 7 spins

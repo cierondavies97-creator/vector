@@ -1,0 +1,4 @@
+If the file descriptor is not connected to a terminal, an "OSError"
+   is raised.
+   "shutil.get_terminal_size()" is the high-level function which
+   should normally be used, "os.get_terminal_size" is the low-level

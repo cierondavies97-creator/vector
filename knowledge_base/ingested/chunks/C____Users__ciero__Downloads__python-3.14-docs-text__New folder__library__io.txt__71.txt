@@ -1,0 +1,5 @@
+Prepare for object destruction. "IOBase" provides a default
+      implementation of this method that calls the instance's
+      "close()" method.
+class io.RawIOBase
+   Base class for raw binary streams.  It inherits from "IOBase".

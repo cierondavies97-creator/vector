@@ -1,0 +1,7 @@
+method names.
+3.2.11.1. Special attributes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+object.__class__
+   The class to which a class instance belongs.
+object.__dict__
+   A dictionary or other mapping object used to store an object's

@@ -1,0 +1,4 @@
+"noqiflush()". If *flag* is "True", or no argument is provided, the
+   queues will be flushed when these control characters are read.
+curses.raw()
+   Enter raw mode.  In raw mode, normal line buffering and  processing

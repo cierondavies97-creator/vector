@@ -1,0 +1,5 @@
+contents of the XML *file* if given.
+   _setroot(element)
+      Replaces the root element for this tree.  This discards the
+      current contents of the tree, and replaces it with the given
+      element.  Use with care.  *element* is an element instance.

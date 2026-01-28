@@ -1,0 +1,4 @@
+using the "setrlimit()" and "getrlimit()" functions described below.
+The values of these symbols are exactly the constants used by C
+programs.
+The Unix man page for *getrlimit(2)* lists the available resources.

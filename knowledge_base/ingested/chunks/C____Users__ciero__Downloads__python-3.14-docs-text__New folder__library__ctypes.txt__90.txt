@@ -1,0 +1,4 @@
+exported from DLLs by setting the "argtypes" attribute.
+"argtypes" must be a sequence of C data types (the "printf()" function
+is probably not a good example here, because it takes a variable
+number and different types of parameters depending on the format

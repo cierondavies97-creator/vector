@@ -1,0 +1,5 @@
+and *data race*.
+attached thread state
+   A *thread state* that is active for the current OS thread.
+   When a *thread state* is attached, the OS thread has access to the
+   full Python C API and can safely invoke the bytecode interpreter.

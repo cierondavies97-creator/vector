@@ -1,0 +1,4 @@
+*languages* is a list of strings, where each string is a language
+   code.
+   If *localedir* is not given, then the default system locale
+   directory is used. [2]  If *languages* is not given, then the

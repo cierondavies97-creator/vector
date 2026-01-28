@@ -1,0 +1,6 @@
+>>> type(encoded_str_to_bytes)
+      <class 'bytes'>
+      >>> encoded_str_to_bytes
+      b'Python'
+   Changed in version 3.1: Added support for keyword arguments.
+   Changed in version 3.9: The value of the *errors* argument is now

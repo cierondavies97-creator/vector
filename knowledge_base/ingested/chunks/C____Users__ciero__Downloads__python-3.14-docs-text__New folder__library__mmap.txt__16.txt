@@ -1,0 +1,3 @@
+**(Unix version)** Maps *length* bytes from the file specified by
+   the file descriptor *fileno*, and returns a mmap object.  If
+   *length* is "0", the maximum length of the map will be the current

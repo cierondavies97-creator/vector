@@ -1,0 +1,4 @@
+The default for *start* is 0, which means to start at the beginning
+   of the file. The default for *len* is 0 which means to lock to the
+   end of the file.  The default for *whence* is also 0.
+   Raises an auditing event "fcntl.lockf" with arguments "fd", "cmd",

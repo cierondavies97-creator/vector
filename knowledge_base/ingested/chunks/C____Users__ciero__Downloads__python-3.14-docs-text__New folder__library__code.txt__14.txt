@@ -1,0 +1,4 @@
+(the default), "'eval'" or "'exec'".
+   Returns a code object (the same as "compile(source, filename,
+   symbol)") if the command is complete and valid; "None" if the
+   command is incomplete; raises "SyntaxError" if the command is

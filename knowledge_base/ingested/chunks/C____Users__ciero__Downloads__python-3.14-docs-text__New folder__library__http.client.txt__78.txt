@@ -1,0 +1,7 @@
+HTTPResponse.getcode()
+   Deprecated since version 3.9: Deprecated in favor of "status".
+Examples
+========
+Here is an example session that uses the "GET" method:
+   >>> import http.client
+   >>> conn = http.client.HTTPSConnection("www.python.org")

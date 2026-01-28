@@ -1,0 +1,3 @@
+typeahead periodically while updating the screen.  If input is
+   found, and it is coming from a tty, the current update is postponed
+   until refresh or doupdate is called again, allowing faster response

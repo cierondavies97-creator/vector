@@ -1,0 +1,4 @@
+base64.a85decode(b, *, foldspaces=False, adobe=False, ignorechars=b' \t\n\r\x0b')
+   Decode the Ascii85 encoded *bytes-like object* or ASCII string *b*
+   and return the decoded "bytes".
+   *foldspaces* is a flag that specifies whether the 'y' short

@@ -1,0 +1,10 @@
+>>> HTTPStatus.OK
+      HTTPStatus.OK
+      >>> HTTPStatus.OK == 200
+      True
+      >>> HTTPStatus.OK.value
+      200
+      >>> HTTPStatus.OK.phrase
+      'OK'
+      >>> HTTPStatus.OK.description
+      'Request fulfilled, document follows'

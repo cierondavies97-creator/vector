@@ -1,0 +1,5 @@
+now preserves insertion order.
+   Changed in version 3.13: Raise a "MultilineContinuationError" when
+   *allow_no_value* is "True", and a key without a value is continued
+   with an indented line.
+   Changed in version 3.13: The *allow_unnamed_section* argument was

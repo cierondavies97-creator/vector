@@ -1,0 +1,4 @@
+Unix "gettimeofday()" where available), and "sleep()" will accept a
+  time with a nonzero fraction (Unix "select()" is used to implement
+  this, where available).
+* The time value as returned by "gmtime()", "localtime()", and

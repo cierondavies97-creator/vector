@@ -1,0 +1,7 @@
+system (allowing system calls on non-compatible path flavours could
+lead to bugs or failures in your application):
+   >>> import os
+   >>> os.name
+   'posix'
+   >>> Path('setup.py')
+   PosixPath('setup.py')

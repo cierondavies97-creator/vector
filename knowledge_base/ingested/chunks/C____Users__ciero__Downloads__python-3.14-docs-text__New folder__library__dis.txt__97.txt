@@ -1,0 +1,5 @@
+while the added value or key/value pair is popped off, the container
+object remains on the stack so that it is available for further
+iterations of the loop.
+RETURN_VALUE
+   Returns with "STACK[-1]" to the caller of the function.

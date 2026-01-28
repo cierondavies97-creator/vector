@@ -1,0 +1,4 @@
+limited number of named semaphores, and shared memory segments occupy
+some space in the main memory.)
+To select a start method you use the "set_start_method()" in the "if
+__name__ == '__main__'" clause of the main module.  For example:

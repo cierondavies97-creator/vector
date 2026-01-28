@@ -1,0 +1,3 @@
+pickling specific objects.  The "pickle" and "copy" modules use those
+functions when pickling/copying those objects.  The module provides
+configuration information about object constructors which are not

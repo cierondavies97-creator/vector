@@ -1,0 +1,6 @@
+>>> PureWindowsPath('c:/Windows', '/Program Files')
+   PureWindowsPath('c:/Program Files')
+A path object can be used anywhere an object implementing
+"os.PathLike" is accepted:
+   >>> import os
+   >>> p = PurePath('/etc')

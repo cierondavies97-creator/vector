@@ -1,0 +1,4 @@
+below for the methods supported by epolling objects.
+   "epoll" objects support the context management protocol: when used
+   in a "with" statement, the new file descriptor is automatically
+   closed at the end of the block.

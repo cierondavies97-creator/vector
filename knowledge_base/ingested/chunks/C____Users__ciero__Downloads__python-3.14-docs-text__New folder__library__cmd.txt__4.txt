@@ -1,0 +1,4 @@
+completion key; it defaults to "Tab". If *completekey* is not
+   "None" and "readline" is available, command completion is done
+   automatically.
+   The default, "'tab'", is treated specially, so that it refers to

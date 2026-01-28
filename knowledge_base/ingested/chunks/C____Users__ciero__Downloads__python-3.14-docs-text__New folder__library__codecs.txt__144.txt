@@ -1,0 +1,4 @@
+Error handling is done in the same way as defined for the stream
+   readers and writers.
+"StreamRecoder" instances define the combined interfaces of
+"StreamReader" and "StreamWriter" classes. They inherit all other

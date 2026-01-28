@@ -1,0 +1,6 @@
+time.sleep(1)
+          print(f"blocking_io complete at {time.strftime('%X')}")
+      async def main():
+          print(f"started main at {time.strftime('%X')}")
+          await asyncio.gather(
+              asyncio.to_thread(blocking_io),

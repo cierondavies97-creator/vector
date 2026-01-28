@@ -1,0 +1,6 @@
+from io import BytesIO
+   def decistmt(s):
+       """Substitute Decimals for floats in a string of statements.
+       >>> from decimal import Decimal
+       >>> s = 'print(+21.3e-5*-.1234/81.7)'
+       >>> decistmt(s)

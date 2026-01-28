@@ -1,0 +1,5 @@
+additional information about an object and affect the value that's
+returned when the referent is accessed:
+   import weakref
+   class ExtendedRef(weakref.ref):
+       def __init__(self, ob, callback=None, /, **annotations):

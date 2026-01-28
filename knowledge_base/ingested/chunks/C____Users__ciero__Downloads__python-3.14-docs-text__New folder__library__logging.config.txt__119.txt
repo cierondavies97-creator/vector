@@ -1,0 +1,4 @@
+note that the characters "[" and "]" are not allowed in the keys. If
+an index value consists only of decimal digits, access will be
+attempted using the corresponding integer value, falling back to the
+string value if needed.

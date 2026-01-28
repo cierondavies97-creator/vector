@@ -1,0 +1,5 @@
+print('Send:', self.message)
+           self.transport.sendto(self.message.encode())
+       def datagram_received(self, data, addr):
+           print("Received:", data.decode())
+           print("Close the socket")

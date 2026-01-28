@@ -1,0 +1,6 @@
+parameters have been removed.
+   "SMTPHeloError"
+      The server didn't reply properly to the "HELO" greeting.
+   "SMTPNotSupportedError"
+      The server does not support the STARTTLS extension.
+   "RuntimeError"

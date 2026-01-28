@@ -1,0 +1,4 @@
+valid in one way or another.)
+The control component is the "policy" module.  Every "EmailMessage",
+every "generator", and every "parser" has an associated "policy"
+object that controls its behavior.  Usually an application only needs

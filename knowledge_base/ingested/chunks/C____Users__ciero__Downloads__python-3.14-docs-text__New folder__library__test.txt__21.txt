@@ -1,0 +1,5 @@
+arg = [1, 2, 3]
+     class AcceptStrings(TestFuncAcceptsSequencesMixin, unittest.TestCase):
+         arg = 'abc'
+     class AcceptTuples(TestFuncAcceptsSequencesMixin, unittest.TestCase):
+         arg = (1, 2, 3)

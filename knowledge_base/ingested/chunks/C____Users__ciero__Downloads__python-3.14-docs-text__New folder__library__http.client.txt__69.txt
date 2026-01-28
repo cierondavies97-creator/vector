@@ -1,0 +1,6 @@
+"data".
+HTTPResponse Objects
+====================
+An "HTTPResponse" instance wraps the HTTP response from the server.
+It provides access to the request headers and the entity body.  The
+response is an iterable object and can be used in a with statement.

@@ -1,0 +1,5 @@
+following:
+        def func(foo, bar=None): ...
+   * *positional-only*: specifies an argument that can be supplied
+     only by position. Positional-only parameters can be defined by
+     including a "/" character in the parameter list of the function

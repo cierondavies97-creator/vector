@@ -1,0 +1,5 @@
+classes also have the following two methods available:
+type.mro()
+   This method can be overridden by a metaclass to customize the
+   method resolution order for its instances.  It is called at class
+   instantiation, and its result is stored in "__mro__".

@@ -1,0 +1,6 @@
+framework for extending SMTP with new commands, supporting
+     dynamic discovery of the commands provided by the server, and
+     defines a few additional commands.
+SMTP Objects
+============
+An "SMTP" instance has the following methods:

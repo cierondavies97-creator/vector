@@ -1,0 +1,5 @@
+Added in version 3.8.
+os.eventfd(initval[, flags=os.EFD_CLOEXEC])
+   Create and return an event file descriptor. The file descriptors
+   supports raw "read()" and "write()" with a buffer size of 8,
+   "select()", "poll()" and similar. See man page *eventfd(2)* for

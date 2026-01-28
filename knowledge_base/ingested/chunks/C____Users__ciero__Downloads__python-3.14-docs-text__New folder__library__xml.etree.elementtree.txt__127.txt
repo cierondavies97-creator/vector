@@ -1,0 +1,6 @@
+information in the tree.
+Example
+-------
+Here's an example that demonstrates use of the XInclude module. To
+include an XML document in the current document, use the
+"{http://www.w3.org/2001/XInclude}include" element and set the

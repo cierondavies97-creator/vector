@@ -1,0 +1,4 @@
+-[ Footnotes ]-
+[1] While "abs(x%y) < abs(y)" is true mathematically, for floats it
+    may not be true numerically due to roundoff.  For example, and
+    assuming a platform on which a Python float is an IEEE 754 double-

@@ -1,0 +1,7 @@
+entire dotted path to the module, including any parent packages,
+   e.g. "email.mime.text":
+      >>> import email.mime.text
+      >>> email.mime.text.__name__
+      'email.mime.text'
+race condition
+   A condition of a program where the its behavior depends on the

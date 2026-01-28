@@ -1,0 +1,4 @@
+"__len__()" and "__getitem__()").  Note that this will not make
+   "get_iterator" available as a method of "Foo", so it is provided
+   separately.
+The "abc" module also provides the following decorator:

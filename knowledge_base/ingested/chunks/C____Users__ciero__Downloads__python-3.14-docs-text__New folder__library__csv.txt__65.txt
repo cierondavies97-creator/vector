@@ -1,0 +1,4 @@
+On output, if *doublequote* is "False" and no *escapechar* is set,
+   "Error" is raised if a *quotechar* is found in a field.
+Dialect.escapechar
+   A one-character string used by the writer to escape characters that

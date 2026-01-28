@@ -1,0 +1,5 @@
+get(key, default=None)
+   __getitem__(key)
+      Return a representation of the message corresponding to *key*.
+      If no such message exists, *default* is returned if the method
+      was called as "get()" and a "KeyError" exception is raised if

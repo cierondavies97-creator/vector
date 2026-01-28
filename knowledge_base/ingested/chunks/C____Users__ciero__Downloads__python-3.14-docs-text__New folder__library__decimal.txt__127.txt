@@ -1,0 +1,3 @@
+the quantize operation would be greater than precision, then an
+      "InvalidOperation" is signaled. This guarantees that, unless
+      there is an error condition, the quantized exponent is always

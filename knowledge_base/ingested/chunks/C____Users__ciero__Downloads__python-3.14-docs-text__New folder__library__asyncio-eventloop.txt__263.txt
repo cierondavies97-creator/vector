@@ -1,0 +1,6 @@
+loop.remove_reader(rsock)
+       # Stop the event loop
+       loop.stop()
+   # Register the file descriptor for read event
+   loop.add_reader(rsock, reader)
+   # Simulate the reception of data from the network

@@ -1,0 +1,5 @@
+event "open" with the file name if given and ""~/.history""
+   otherwise.
+   Changed in version 3.14: The auditing event was added.
+readline.append_history_file(nelements[, filename])
+   Append the last *nelements* items of history to a file.  The

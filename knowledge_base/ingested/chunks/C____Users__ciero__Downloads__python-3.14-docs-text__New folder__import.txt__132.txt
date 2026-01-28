@@ -1,0 +1,4 @@
+UTF-8, or something else), and if the hook cannot decode the argument,
+it should raise "ImportError".
+If "sys.path_hooks" iteration ends with no *path entry finder* being
+returned, then the path based finder's "find_spec()" method will store

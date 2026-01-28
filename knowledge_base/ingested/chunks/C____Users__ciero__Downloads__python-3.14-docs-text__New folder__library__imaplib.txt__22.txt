@@ -1,0 +1,4 @@
+Note that IMAP4 message numbers change as the mailbox changes; in
+particular, after an "EXPUNGE" command performs deletions the
+remaining messages are renumbered. So it is highly advisable to use
+UIDs instead, with the UID command.

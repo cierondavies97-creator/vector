@@ -1,0 +1,9 @@
+@deprecated("Use B instead")
+      class A:
+          pass
+      @deprecated("Use g instead")
+      def f():
+          pass
+      @overload
+      @deprecated("int support is deprecated")
+      def g(x: int) -> int: ...

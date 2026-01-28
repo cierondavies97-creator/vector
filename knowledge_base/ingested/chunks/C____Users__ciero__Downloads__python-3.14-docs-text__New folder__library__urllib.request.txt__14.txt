@@ -1,0 +1,4 @@
+arguments "fullurl", "data", "headers", "method" taken from the
+   request object.
+   Changed in version 3.2: *cafile* and *capath* were added.HTTPS
+   virtual hosts are now supported if possible (that is, if

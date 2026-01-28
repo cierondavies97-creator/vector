@@ -1,0 +1,3 @@
+|                   | of "left", "center", or "right".                         |
++-------------------+----------------------------------------------------------+
+| height            | Specifies the height of the pop-down listbox, in rows.   |

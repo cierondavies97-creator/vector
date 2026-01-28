@@ -1,0 +1,4 @@
+exhausted. It will ignore the remaining items in the longer
+     iterables, cutting off the result to the length of the shortest
+     iterable:
+        >>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))

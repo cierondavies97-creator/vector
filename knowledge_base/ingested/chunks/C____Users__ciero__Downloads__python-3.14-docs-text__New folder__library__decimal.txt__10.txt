@@ -1,0 +1,3 @@
+* Both binary and decimal floating point are implemented in terms of
+  published standards.  While the built-in float type exposes only a
+  modest portion of its capabilities, the decimal module exposes all

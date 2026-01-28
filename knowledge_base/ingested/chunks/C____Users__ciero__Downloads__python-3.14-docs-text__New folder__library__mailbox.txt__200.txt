@@ -1,0 +1,6 @@
+get_sequences()
+      Return a list of the names of sequences that include this
+      message.
+   set_sequences(sequences)
+      Set the list of sequences that include this message.
+   add_sequence(sequence)

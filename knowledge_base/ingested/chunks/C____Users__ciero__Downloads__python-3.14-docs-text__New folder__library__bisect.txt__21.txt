@@ -1,0 +1,4 @@
+same array elements. If the key function isn't fast, consider
+  wrapping it with "functools.cache()" to avoid duplicate
+  computations.  Alternatively, consider searching an array of
+  precomputed keys to locate the insertion point (as shown in the

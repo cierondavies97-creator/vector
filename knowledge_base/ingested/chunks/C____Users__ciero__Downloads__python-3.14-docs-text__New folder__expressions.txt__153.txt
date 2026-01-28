@@ -1,0 +1,3 @@
+(using the same "__getitem__()" method as normal subscription) with a
+key that is constructed from the slice list, as follows.  If the slice
+list contains at least one comma, the key is a tuple containing the

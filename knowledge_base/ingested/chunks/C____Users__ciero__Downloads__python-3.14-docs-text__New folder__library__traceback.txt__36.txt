@@ -1,0 +1,5 @@
+A shorthand for "format_list(extract_tb(tb, limit))".
+traceback.format_stack(f=None, limit=None)
+   A shorthand for "format_list(extract_stack(f, limit))".
+traceback.clear_frames(tb)
+   Clears the local variables of all the stack frames in a traceback

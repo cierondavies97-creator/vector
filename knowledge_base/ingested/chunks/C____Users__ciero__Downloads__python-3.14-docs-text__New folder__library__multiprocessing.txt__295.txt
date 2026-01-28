@@ -1,0 +1,4 @@
+*authkey* is "None" then "current_process().authkey" is used.
+   Otherwise *authkey* is used and it must be a byte string.
+   *serializer* must be "'pickle'" (use "pickle" serialization) or
+   "'xmlrpclib'" (use "xmlrpc.client" serialization).

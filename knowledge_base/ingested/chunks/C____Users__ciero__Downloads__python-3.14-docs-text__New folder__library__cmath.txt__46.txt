@@ -1,0 +1,4 @@
+angle, measured in radians, from the positive x-axis to the line
+segment that joins the origin to *z*.
+The following functions can be used to convert from the native
+rectangular coordinates to polar coordinates and back.

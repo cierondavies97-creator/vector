@@ -1,0 +1,8 @@
+├── BaseExceptionGroup
+    ├── GeneratorExit
+    ├── KeyboardInterrupt
+    ├── SystemExit
+    └── Exception
+         ├── ArithmeticError
+         │    ├── FloatingPointError
+         │    ├── OverflowError

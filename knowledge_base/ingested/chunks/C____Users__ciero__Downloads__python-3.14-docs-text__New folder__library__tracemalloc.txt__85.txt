@@ -1,0 +1,5 @@
+Maximum number of frames stored in the traceback of "traces":
+      result of the "get_traceback_limit()" when the snapshot was
+      taken.
+   traces
+      Traces of all memory blocks allocated by Python: sequence of

@@ -1,0 +1,3 @@
+The *timeout* argument has no practical implications if the
+      *block* argument is set to "False" and is thus ignored.  Returns
+      "True" if the lock has been acquired or "False" if the timeout

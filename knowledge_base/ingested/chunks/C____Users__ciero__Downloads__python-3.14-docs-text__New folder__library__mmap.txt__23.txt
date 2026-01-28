@@ -1,0 +1,4 @@
+associated with the map's underlying file. This means that the
+   "size()" and "resize()" methods will fail. This mode is useful to
+   limit the number of open file descriptors.
+   To ensure validity of the created memory mapping the file specified

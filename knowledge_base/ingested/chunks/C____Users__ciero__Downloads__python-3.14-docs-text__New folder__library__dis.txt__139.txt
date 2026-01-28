@@ -1,0 +1,3 @@
+method named "co_names[namei>>1]" from the "STACK[-1]" object.
+   "STACK[-1]" is popped. This bytecode distinguishes two cases: if
+   "STACK[-1]" has a method with the correct name, the bytecode pushes

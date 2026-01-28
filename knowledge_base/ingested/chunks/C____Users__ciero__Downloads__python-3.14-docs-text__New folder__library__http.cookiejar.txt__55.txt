@@ -1,0 +1,6 @@
+Objects implementing the "CookiePolicy" interface have the following
+methods:
+CookiePolicy.set_ok(cookie, request)
+   Return boolean value indicating whether cookie should be accepted
+   from server.
+   *cookie* is a "Cookie" instance.  *request* is an object

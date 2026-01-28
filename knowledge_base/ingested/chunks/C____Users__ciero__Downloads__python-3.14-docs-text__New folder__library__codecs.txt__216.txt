@@ -1,0 +1,3 @@
+| euc_kr            | euckr, korean, ksc5601,          | Korean                           |
+|                   | ks_c-5601, ks_c-5601-1987,       |                                  |
+|                   | ksx1001, ks_x-1001               |                                  |

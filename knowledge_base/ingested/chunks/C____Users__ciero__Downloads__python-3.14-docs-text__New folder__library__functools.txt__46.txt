@@ -1,0 +1,4 @@
+Changed in version 3.9: Added the function "cache_parameters()"
+@functools.total_ordering
+   Given a class defining one or more rich comparison ordering
+   methods, this class decorator supplies the rest.  This simplifies

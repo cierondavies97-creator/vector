@@ -1,0 +1,3 @@
+is simply creating a module level logger with "getLogger(__name__)",
+and using that logger to do any needed logging. This is concise, while
+allowing downstream code fine-grained control if needed. Logged

@@ -1,0 +1,6 @@
+fred = Button(self, fg="red", bg="blue")
+After object creation, treating the option name like a dictionary
+index
+      fred["fg"] = "red"
+      fred["bg"] = "blue"
+Use the config() method to update multiple attrs subsequent to object

@@ -1,0 +1,4 @@
+"__wrapped__" attribute. (see bpo-17482)
+   Changed in version 3.12: The "__type_params__" attribute is now
+   copied by default.
+@functools.wraps(wrapped, assigned=WRAPPER_ASSIGNMENTS, updated=WRAPPER_UPDATES)

@@ -1,0 +1,6 @@
+Return a string object containing two hexadecimal digits for
+      each byte in the instance.
+      >>> bytearray(b'\xf0\xf1\xf2').hex()
+      'f0f1f2'
+      Added in version 3.5.
+      Changed in version 3.8: Similar to "bytes.hex()",

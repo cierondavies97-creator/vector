@@ -1,0 +1,5 @@
+data which is intended to be shared between copies.
+The "deepcopy()" function avoids these problems by:
+* keeping a "memo" dictionary of objects already copied during the
+  current copying pass; and
+* letting user-defined classes override the copying operation or the

@@ -1,0 +1,3 @@
+a multicore or symmetric multiprocessor (SMP) machine.  To assist with
+the life-cycle management of shared memory especially across distinct
+processes, a "BaseManager" subclass, "SharedMemoryManager", is also

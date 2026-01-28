@@ -1,0 +1,4 @@
+process by not generating superfluous PUT opcodes.  It should
+      not be used with self-referential objects, doing otherwise will
+      cause "Pickler" to recurse infinitely.
+      Use "pickletools.optimize()" if you need more compact pickles.

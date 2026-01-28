@@ -1,0 +1,4 @@
+individual characters (e.g. whether the EURO SIGN is supported or
+not), and in the assignment of characters to code positions. For the
+European languages in particular, the following variants typically
+exist:

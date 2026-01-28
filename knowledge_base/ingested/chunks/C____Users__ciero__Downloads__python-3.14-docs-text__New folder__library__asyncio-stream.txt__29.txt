@@ -1,0 +1,4 @@
+in the internal buffer and can be read again.
+      If EOF is reached before the complete separator is found, an
+      "IncompleteReadError" exception is raised, and the internal
+      buffer is reset.  The "IncompleteReadError.partial" attribute

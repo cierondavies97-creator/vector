@@ -1,0 +1,5 @@
+the class used to instantiate headers that match *name*.
+   __getitem__(name)
+      Construct and return a class to handle creating a *name* header.
+   __call__(name, value)
+      Retrieves the specialized header associated with *name* from the

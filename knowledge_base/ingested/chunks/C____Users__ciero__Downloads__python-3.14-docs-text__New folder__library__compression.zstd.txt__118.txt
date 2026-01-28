@@ -1,0 +1,4 @@
+* Calling "compress()" for one-shot compression
+      * Providing all of the data to be compressed in the frame in a
+        single "ZstdCompressor.compress()" call, with the
+        "ZstdCompressor.FLUSH_FRAME" mode.

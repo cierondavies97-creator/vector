@@ -1,0 +1,5 @@
+instance of the most efficient version of the concrete RLock class
+   that is supported by the platform.
+   acquire(blocking=True, timeout=-1)
+      Acquire a lock, blocking or non-blocking.
+      See also:

@@ -1,0 +1,3 @@
+Any attributes named in *assigned* or *updated* that are missing
+   from the object being wrapped are ignored (i.e. this function will
+   not attempt to set them on the wrapper function). "AttributeError"

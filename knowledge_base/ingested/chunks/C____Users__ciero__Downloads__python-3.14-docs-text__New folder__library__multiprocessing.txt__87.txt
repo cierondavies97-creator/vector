@@ -1,0 +1,4 @@
+>>> process
+        <SpawnProcess name='SpawnProcess-1' pid=379473 parent=378707 stopped exitcode=1>
+     See The spawn and forkserver start methods.  While this
+     restriction is not true if using the ""fork"" start method, as of

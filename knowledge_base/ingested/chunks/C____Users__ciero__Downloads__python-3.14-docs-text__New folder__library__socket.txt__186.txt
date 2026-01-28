@@ -1,0 +1,4 @@
+type "in_addr", which is the C type for the 32-bit packed binary
+   data this function takes as an argument.
+   If the byte sequence passed to this function is not exactly 4 bytes
+   in length, "OSError" will be raised. "inet_ntoa()" does not support

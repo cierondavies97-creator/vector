@@ -1,0 +1,4 @@
+is that the function object contains an explicit reference to the
+function's globals (the module in which it was defined), while a code
+object contains no context; also the default argument values are
+stored in the function object, not in the code object (because they

@@ -1,0 +1,4 @@
+action="store_true", dest="verbose", default=True,
+                     help="make lots of noise [default]")
+   parser.add_option("-q", "--quiet",
+                     action="store_false", dest="verbose",

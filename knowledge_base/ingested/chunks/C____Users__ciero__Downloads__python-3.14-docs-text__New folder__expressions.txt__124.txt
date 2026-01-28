@@ -1,0 +1,3 @@
+method will return the next value yielded by the generator as the
+   value of the raised "StopIteration", or raises "StopAsyncIteration"
+   if the asynchronous generator exits without yielding another value.

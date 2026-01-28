@@ -1,0 +1,6 @@
+Changed in version 3.9: The *errors* parameter was added.
+   close()
+      Closes the file.
+   emit(record)
+      Outputs the record to the file.
+      Note that if the file was closed due to logging shutdown at exit

@@ -1,0 +1,4 @@
+but before the list of options).
+   "formatter" (default: a new "IndentedHelpFormatter")
+      An instance of optparse.HelpFormatter that will be used for
+      printing help text.  "optparse" provides two concrete classes

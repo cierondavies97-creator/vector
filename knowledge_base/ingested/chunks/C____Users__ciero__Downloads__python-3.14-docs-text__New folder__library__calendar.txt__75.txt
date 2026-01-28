@@ -1,0 +1,4 @@
+[-w WIDTH] [-l LINES] [-s SPACING] [-m MONTHS] [-c CSS]
+                      [-f FIRST_WEEKDAY] [year] [month]
+For example, to print a calendar for the year 2000:
+   $ python -m calendar 2000

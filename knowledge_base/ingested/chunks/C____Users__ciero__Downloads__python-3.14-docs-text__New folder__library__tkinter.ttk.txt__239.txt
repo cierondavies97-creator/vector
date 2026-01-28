@@ -1,0 +1,3 @@
+appearance is drawn using the Microsoft Visual Styles API which
+      is responsible for the themed styles on Windows XP and Vista.
+      *args* is expected to contain the Visual Styles class and part

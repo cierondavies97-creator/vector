@@ -1,0 +1,3 @@
+in "'abcdef'", since the lookbehind will back up 3 characters and
+   check if the contained pattern matches. The contained pattern must
+   only match strings of some fixed length, meaning that "abc" or

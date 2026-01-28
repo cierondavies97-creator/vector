@@ -1,0 +1,5 @@
+value somewhere, so it goes in both "STORE_ACTIONS" and
+  "TYPED_ACTIONS".
+* to ensure that "optparse" assigns the default type of ""string"" to
+  ""extend"" actions, we put the ""extend"" action in
+  "ALWAYS_TYPED_ACTIONS" as well.

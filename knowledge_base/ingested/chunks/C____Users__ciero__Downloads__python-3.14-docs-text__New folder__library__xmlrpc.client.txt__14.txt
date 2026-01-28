@@ -1,0 +1,4 @@
+'Authorization' header, and sent to the remote server as part of
+   the connection process when invoking an XML-RPC method.  You only
+   need to use this if the remote server requires a Basic
+   Authentication user and password.

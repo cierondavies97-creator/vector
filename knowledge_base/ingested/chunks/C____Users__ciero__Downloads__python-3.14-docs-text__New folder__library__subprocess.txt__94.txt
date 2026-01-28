@@ -1,0 +1,4 @@
+changed from "False" to "True" when redirecting the standard
+   handles. It's now possible to set *close_fds* to "True" when
+   redirecting the standard handles.
+   *pass_fds* is an optional sequence of file descriptors to keep open

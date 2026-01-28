@@ -1,0 +1,4 @@
+by so-called experimental information. Standard flags for Maildir
+   messages are as follows:
+   +--------+-----------+----------------------------------+
+   | Flag   | Meaning   | Explanation                      |

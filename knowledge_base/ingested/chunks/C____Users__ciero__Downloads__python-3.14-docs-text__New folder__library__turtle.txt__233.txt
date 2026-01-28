@@ -1,0 +1,6 @@
+Settings and special methods
+----------------------------
+turtle.mode(mode=None)
+   Parameters:
+      **mode** -- one of the strings "standard", "logo" or "world"
+   Set turtle mode ("standard", "logo" or "world") and perform reset.

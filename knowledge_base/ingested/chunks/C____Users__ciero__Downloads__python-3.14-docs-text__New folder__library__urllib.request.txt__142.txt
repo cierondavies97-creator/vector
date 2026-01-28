@@ -1,0 +1,4 @@
+Redirect to the "Location:" or "URI:" URL.  This method is called
+   by the parent "OpenerDirector" when getting an HTTP 'moved
+   permanently' response.
+HTTPRedirectHandler.http_error_302(req, fp, code, msg, hdrs)

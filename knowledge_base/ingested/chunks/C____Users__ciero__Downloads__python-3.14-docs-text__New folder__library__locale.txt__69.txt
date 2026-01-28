@@ -1,0 +1,4 @@
+defined by the "LANG" variable.  Since we do not want to interfere
+   with the current locale setting we thus emulate the behavior in the
+   way described above.
+   To maintain compatibility with other platforms, not only the "LANG"

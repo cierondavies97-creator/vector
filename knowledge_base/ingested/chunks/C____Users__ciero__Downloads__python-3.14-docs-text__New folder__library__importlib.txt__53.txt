@@ -1,0 +1,4 @@
+by the loader from "sys.modules"; modules already in
+      "sys.modules" before the loader began execution should be left
+      alone.
+      The loader should set several attributes on the module (note

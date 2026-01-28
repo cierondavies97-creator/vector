@@ -1,0 +1,3 @@
+See the documentation of the "protocol.eof_received()" method.
+"get_buffer()" can be called an arbitrary number of times during a
+connection.  However, "protocol.eof_received()" is called at most once

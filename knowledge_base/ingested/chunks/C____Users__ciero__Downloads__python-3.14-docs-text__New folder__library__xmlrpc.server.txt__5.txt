@@ -1,0 +1,4 @@
+parameters are passed to the "socketserver.TCPServer" constructor.
+   If *logRequests* is true (the default), requests will be logged;
+   setting this parameter to false will turn off logging.   The
+   *allow_none* and *encoding* parameters are passed on to

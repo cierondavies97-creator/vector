@@ -1,0 +1,4 @@
+Register a file object for selection, monitoring it for I/O
+      events.
+      *fileobj* is the file object to monitor.  It may either be an
+      integer file descriptor or an object with a "fileno()" method.

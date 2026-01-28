@@ -1,0 +1,4 @@
+method modifies the object, and the stripped information is
+      lost.  After performing a strip operation, the object is
+      considered to have its entries in a "random" order, as it was
+      just after object initialization and loading. If "strip_dirs()"

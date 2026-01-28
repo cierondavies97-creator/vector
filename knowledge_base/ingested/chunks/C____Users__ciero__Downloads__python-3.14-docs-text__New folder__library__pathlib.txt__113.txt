@@ -1,0 +1,5 @@
+returned by "os.path.expanduser()" with "~" construct). If the home
+   directory can't be resolved, "RuntimeError" is raised.
+      >>> Path.home()
+      PosixPath('/home/antoine')
+   Added in version 3.5.

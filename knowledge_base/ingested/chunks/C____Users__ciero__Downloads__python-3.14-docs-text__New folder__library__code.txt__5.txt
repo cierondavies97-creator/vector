@@ -1,0 +1,4 @@
+namespace of an existing module.
+class code.InteractiveConsole(locals=None, filename='<console>', local_exit=False)
+   Closely emulate the behavior of the interactive Python interpreter.
+   This class builds on "InteractiveInterpreter" and adds prompting

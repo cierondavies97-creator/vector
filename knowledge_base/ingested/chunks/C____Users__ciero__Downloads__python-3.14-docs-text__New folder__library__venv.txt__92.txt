@@ -1,0 +1,3 @@
+itself, and 'stdout' and 'stderr', which are obtained
+                        by reading lines from the output streams of a subprocess
+                        which is used to install the app.

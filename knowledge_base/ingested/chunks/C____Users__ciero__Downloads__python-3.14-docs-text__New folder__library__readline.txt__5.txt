@@ -1,0 +1,5 @@
+Requirements for optional modules.
+Note:
+  The underlying Readline library API may be implemented by the
+  "editline" ("libedit") library instead of GNU readline. On macOS the
+  "readline" module detects which library is being used at run

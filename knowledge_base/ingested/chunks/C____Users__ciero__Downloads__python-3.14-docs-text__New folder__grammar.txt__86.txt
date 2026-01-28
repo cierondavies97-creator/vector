@@ -1,0 +1,4 @@
+CHECK_VERSION(stmt_ty, 10, "Pattern matching is", _PyAST_Match(subject, cases, EXTRA)) }
+       | invalid_match_stmt
+   subject_expr[expr_ty]:
+       | value=star_named_expression ',' values=star_named_expressions? {

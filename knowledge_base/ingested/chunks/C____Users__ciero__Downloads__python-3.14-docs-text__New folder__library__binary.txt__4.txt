@@ -1,0 +1,7 @@
+* Codec Base Classes
+    * Error Handlers
+    * Stateless Encoding and Decoding
+    * Incremental Encoding and Decoding
+      * IncrementalEncoder Objects
+      * IncrementalDecoder Objects
+    * Stream Encoding and Decoding

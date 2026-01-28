@@ -1,0 +1,4 @@
+4. use the "gettext" module so that message strings are properly
+   translated
+In order to prepare your code for I18N, you need to look at all the
+strings in your files.  Any string that needs to be translated should

@@ -1,0 +1,4 @@
+are day numbers. Day numbers outside this month are zero.
+class calendar.TextCalendar(firstweekday=0)
+   This class can be used to generate plain text calendars.
+   "TextCalendar" instances have the following methods:

@@ -1,0 +1,6 @@
+argument of any type).  Also, you can call "OptionParser.error()" to
+signal an application-defined error condition:
+   (options, args) = parser.parse_args()
+   ...
+   if options.a and options.b:
+       parser.error("options -a and -b are mutually exclusive")

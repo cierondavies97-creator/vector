@@ -1,0 +1,3 @@
+"<scheme>_proxy", in a case insensitive approach, for all operating
+   systems first, and when it cannot find it, looks for proxy
+   information from System Configuration for macOS and Windows Systems

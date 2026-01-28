@@ -1,0 +1,5 @@
+hardware-based time that is not subject to NTP adjustments.
+   Availability: Linux >= 2.6.28, macOS >= 10.12.
+   Added in version 3.3.
+time.CLOCK_MONOTONIC_RAW_APPROX
+   Similar to "CLOCK_MONOTONIC_RAW", but reads a value cached by the

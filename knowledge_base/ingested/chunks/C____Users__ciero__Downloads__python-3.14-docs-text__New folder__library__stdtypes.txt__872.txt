@@ -1,0 +1,6 @@
+parameterized at runtime and understood by static type-checkers.
+Added in version 3.9.
+Union Type
+----------
+A union object holds the value of the "|" (bitwise or) operation on
+multiple type objects.  These types are intended primarily for *type

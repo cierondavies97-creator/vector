@@ -1,0 +1,4 @@
+of the attributes of the object returned by "parse_args()". See the
+  action description for examples. If "const" is not provided to
+  "add_argument()", it will receive a default value of "None".
+* When "add_argument()" is called with option strings (like "-f" or "

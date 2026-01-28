@@ -1,0 +1,3 @@
+interactive[mod_ty]: a=statement_newline { _PyAST_Interactive(a, p->arena) }
+   eval[mod_ty]: a=expressions NEWLINE* ENDMARKER { _PyAST_Expression(a, p->arena) }
+   func_type[mod_ty]: '(' a=[type_expressions] ')' '->' b=expression NEWLINE* ENDMARKER { _PyAST_FunctionType(a, b, p->arena) }

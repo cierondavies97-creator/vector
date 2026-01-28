@@ -1,0 +1,7 @@
+* "tracemalloc" --- Trace memory allocations
+  * Examples
+    * Display the top 10
+    * Compute differences
+    * Get the traceback of a memory block
+    * Pretty top
+      * Record the current and peak size of all traced memory blocks

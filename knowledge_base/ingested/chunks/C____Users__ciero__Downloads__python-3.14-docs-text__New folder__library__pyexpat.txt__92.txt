@@ -1,0 +1,6 @@
+continue.
+   If this handler is not provided, external entities are reported by
+   the "DefaultHandler" callback, if provided.
+ExpatError Exceptions
+=====================
+"ExpatError" exceptions have a number of interesting attributes:

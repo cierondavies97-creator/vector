@@ -1,0 +1,6 @@
+is flushed.
+   transport
+      Return the underlying asyncio transport.
+   get_extra_info(name, default=None)
+      Access optional transport information; see
+      "BaseTransport.get_extra_info()" for details.

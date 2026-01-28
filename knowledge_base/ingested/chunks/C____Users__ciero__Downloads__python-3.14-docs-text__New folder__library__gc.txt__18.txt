@@ -1,0 +1,4 @@
+deallocations exceeds *threshold0*, collection starts. For each
+   collection, all the objects in the young generation and some
+   fraction of the old generation is collected.
+   In the free-threaded build, the increase in process memory usage is

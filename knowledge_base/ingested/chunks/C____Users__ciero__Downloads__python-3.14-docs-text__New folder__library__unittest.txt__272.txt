@@ -1,0 +1,4 @@
+test suites. The class presents the interface needed by the test
+   runner to allow it to be run as any other test case.  Running a
+   "TestSuite" instance is the same as iterating over the suite,
+   running each test individually.

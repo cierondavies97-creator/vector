@@ -1,0 +1,3 @@
+implementation which is reentrant.  That is, a "put()" or "get()"
+   call can be interrupted by another "put()" call in the same thread
+   without deadlocking or corrupting internal state inside the queue.

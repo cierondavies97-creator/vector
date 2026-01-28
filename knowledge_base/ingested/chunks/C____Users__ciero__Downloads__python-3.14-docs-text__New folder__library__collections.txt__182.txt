@@ -1,0 +1,6 @@
+self.cache = OrderedDict()      # { args : (timestamp, result)}
+           self.func = func
+           self.maxsize = maxsize
+           self.maxage = maxage
+       def __call__(self, *args):
+           if args in self.cache:

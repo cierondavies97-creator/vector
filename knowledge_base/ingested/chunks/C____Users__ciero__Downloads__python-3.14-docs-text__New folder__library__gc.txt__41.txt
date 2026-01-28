@@ -1,0 +1,4 @@
+shutdown*, a "ResourceWarning" is emitted, which is silent by
+   default.  If "DEBUG_UNCOLLECTABLE" is set, in addition all
+   uncollectable objects are printed.
+   Changed in version 3.4: Following **PEP 442**, objects with a

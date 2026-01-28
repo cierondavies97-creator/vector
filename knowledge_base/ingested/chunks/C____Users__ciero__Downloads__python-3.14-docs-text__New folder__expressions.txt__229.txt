@@ -1,0 +1,3 @@
+comprised of all its data attributes. Comparison operators implement a
+particular notion of what the value of an object is.  One can think of
+them as defining the value of an object indirectly, by means of their

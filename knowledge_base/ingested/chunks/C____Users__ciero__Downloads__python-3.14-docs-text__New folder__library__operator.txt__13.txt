@@ -1,0 +1,9 @@
+"int".
+operator.inv(obj)
+operator.invert(obj)
+operator.__inv__(obj)
+operator.__invert__(obj)
+   Return the bitwise inverse of the number *obj*.  This is equivalent
+   to "~obj".
+operator.lshift(a, b)
+operator.__lshift__(a, b)

@@ -1,0 +1,3 @@
+b = concatenate(StringSubclass('one'), StringSubclass('two'))
+      reveal_type(b)  # revealed type is str, despite StringSubclass being passed in
+      c = concatenate('one', b'two')  # error: type variable 'A' can be either str or bytes in a function call, but not both

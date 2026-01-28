@@ -1,0 +1,6 @@
+another_function()
+     File "<doctest>", line 3, in another_function
+       lumberstack()
+     File "<doctest>", line 6, in lumberstack
+       traceback.print_stack()
+   [('<doctest>', 10, '<module>', 'another_function()'),

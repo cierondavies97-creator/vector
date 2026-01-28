@@ -1,0 +1,5 @@
+been implemented (see **PEP 420**).
+5.1. "importlib"
+================
+The "importlib" module provides a rich API for interacting with the
+import system.  For example "importlib.import_module()" provides a

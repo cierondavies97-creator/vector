@@ -1,0 +1,6 @@
+<HTTPMethod.PUT>,
+       <HTTPMethod.TRACE>]
+HTTP methods
+============
+Supported, IANA-registered methods available in "http.HTTPMethod" are:
++-------------+-------------------------------------+--------------------------------------------------------------------+

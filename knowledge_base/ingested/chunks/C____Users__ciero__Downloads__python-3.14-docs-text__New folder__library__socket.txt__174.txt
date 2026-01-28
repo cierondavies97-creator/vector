@@ -1,0 +1,5 @@
+should be "'tcp'" or "'udp'", otherwise any protocol will match.
+   Raises an auditing event "socket.getservbyname" with arguments
+   "servicename", "protocolname".
+   Availability: not WASI.
+socket.getservbyport(port[, protocolname])

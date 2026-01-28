@@ -1,0 +1,5 @@
+Signals and threads
+-------------------
+Python signal handlers are always executed in the main Python thread
+of the main interpreter, even if the signal was received in another
+thread.  This means that signals can't be used as a means of inter-

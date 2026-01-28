@@ -1,0 +1,5 @@
+target is an async function.
+patch.object
+------------
+patch.object(target, attribute, new=DEFAULT, spec=None, create=False, spec_set=None, autospec=None, new_callable=None, **kwargs)
+   patch the named member (*attribute*) on an object (*target*) with a

@@ -1,0 +1,3 @@
+contain embedded newlines and ends in a newline.  *line* is a line
+   of source code to be included in the warning message; if *line* is
+   not supplied, "formatwarning()" will try to read the line specified

@@ -1,0 +1,4 @@
+# This function expects two keyword arguments - `name` of type `str`
+      # and `year` of type `int`.
+      def foo(**kwargs: Unpack[Movie]): ...
+   See **PEP 692** for more details on using "Unpack" for "**kwargs"

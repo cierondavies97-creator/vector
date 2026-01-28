@@ -1,0 +1,9 @@
+The initialization of "sys.path".
+  **PEP 235**
+     Import on Case-Insensitive Platforms
+  **PEP 263**
+     Defining Python Source Code Encodings
+  **PEP 302**
+     New Import Hooks
+  **PEP 328**
+     Imports: Multi-Line and Absolute/Relative

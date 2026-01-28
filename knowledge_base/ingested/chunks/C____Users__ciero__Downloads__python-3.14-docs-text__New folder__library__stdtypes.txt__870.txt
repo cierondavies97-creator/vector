@@ -1,0 +1,6 @@
+Added in version 3.11.
+See also:
+  **PEP 484** - Type Hints
+     Introducing Python's framework for type annotations.
+  **PEP 585** - Type Hinting Generics In Standard Collections
+     Introducing the ability to natively parameterize standard-library

@@ -1,0 +1,7 @@
+"Interpreter" object for it.
+concurrent.interpreters.create_queue()
+   Initialize a new cross-interpreter queue and return a "Queue"
+   object for it.
+Interpreter objects
+-------------------
+class concurrent.interpreters.Interpreter(id)

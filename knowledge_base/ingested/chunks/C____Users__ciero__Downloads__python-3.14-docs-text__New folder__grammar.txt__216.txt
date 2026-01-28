@@ -1,0 +1,3 @@
+| a='**' expression '=' b=expression {
+           RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "cannot assign to keyword argument unpacking") }
+   # IMPORTANT: Note that the "_without_invalid" suffix causes the rule to not call invalid rules under it

@@ -1,0 +1,3 @@
+current process, and any side effects (such as cached imports of other
+modules) will remain in place after the functions have returned.
+Furthermore, any functions and classes defined by the executed code

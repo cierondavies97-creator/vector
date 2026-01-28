@@ -1,0 +1,4 @@
+instance of "bytes", then *charset* is the encoding of that byte
+      string, and a "UnicodeError" will be raised if the string cannot
+      be decoded with that character set.
+      If *s* is an instance of "str", then *charset* is a hint

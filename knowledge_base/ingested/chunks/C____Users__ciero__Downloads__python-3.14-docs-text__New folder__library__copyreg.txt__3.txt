@@ -1,0 +1,4 @@
+"TypeError".
+copyreg.pickle(type, function, constructor_ob=None)
+   Declares that *function* should be used as a "reduction" function
+   for objects of type *type*.  *function* must return either a string

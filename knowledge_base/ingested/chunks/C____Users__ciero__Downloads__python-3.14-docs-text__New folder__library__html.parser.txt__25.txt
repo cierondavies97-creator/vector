@@ -1,0 +1,3 @@
+character references of the form "&#*NNN*;" and "&#x*NNN*;".  For
+   example, the decimal equivalent for "&gt;" is "&#62;", whereas the
+   hexadecimal is "&#x3E;"; in this case the method will receive

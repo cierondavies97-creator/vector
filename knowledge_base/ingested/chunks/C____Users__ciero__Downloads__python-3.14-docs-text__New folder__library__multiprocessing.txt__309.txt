@@ -1,0 +1,3 @@
+"None" then "proxytype._method_to_typeid_" is used instead if it
+      exists.)  If a method's name is not a key of this mapping or if
+      the mapping is "None" then the object returned by the method

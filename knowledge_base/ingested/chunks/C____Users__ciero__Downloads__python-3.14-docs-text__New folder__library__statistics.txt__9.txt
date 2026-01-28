@@ -1,0 +1,4 @@
+=========================================
+These functions calculate an average or typical value from a
+population or sample.
++-------------------------+-----------------------------------------------------------------+

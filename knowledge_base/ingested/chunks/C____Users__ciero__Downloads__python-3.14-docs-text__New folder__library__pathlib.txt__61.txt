@@ -1,0 +1,6 @@
+>>> u = PurePath('/usr')
+   >>> u == p or u in p.parents
+   False
+   Added in version 3.9.
+   Deprecated since version 3.12, removed in version 3.14: Passing
+   additional arguments is deprecated; if supplied, they are joined

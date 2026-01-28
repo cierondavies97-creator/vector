@@ -1,0 +1,5 @@
+becomes a synonym for the extended version.  The main use for this
+   method is to provide backwards-compatible reduce values for older
+   Python releases.
+Persistence of External Objects
+-------------------------------

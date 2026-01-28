@@ -1,0 +1,3 @@
+collection* during the timing.  The advantage of this approach
+        is that it makes independent timings more comparable.  The
+        disadvantage is that GC may be an important component of the

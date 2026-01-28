@@ -1,0 +1,4 @@
+signal.set_wakeup_fd(fd, *, warn_on_full_buffer=True)
+   Set the wakeup file descriptor to *fd*.  When a signal your program
+   has registered a signal handler for is received, the signal number
+   is written as a single byte into the fd.  If you haven't registered

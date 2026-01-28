@@ -1,0 +1,4 @@
+"loggers" can take filter instances in addition to ids.
+You can also specify a special key "'.'" whose value is a mapping of
+attribute names to values. If found, the specified attributes will be
+set on the user-defined object before it is returned. Thus, with the

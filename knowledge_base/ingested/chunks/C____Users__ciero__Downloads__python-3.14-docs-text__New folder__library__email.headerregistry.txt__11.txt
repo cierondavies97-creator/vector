@@ -1,0 +1,4 @@
+same "name".  A value of "None" means unlimited.  The
+      "BaseHeader" value for this attribute is "None"; it is expected
+      that specialized header classes will override this value as
+      needed.

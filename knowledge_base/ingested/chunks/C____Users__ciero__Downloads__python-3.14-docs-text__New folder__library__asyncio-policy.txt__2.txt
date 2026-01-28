@@ -1,0 +1,4 @@
+event loop implementations, or substituted by a custom policy that can
+override these behaviors.
+The policy object gets and sets a separate event loop per *context*.
+This is per-thread by default, though custom policies could define

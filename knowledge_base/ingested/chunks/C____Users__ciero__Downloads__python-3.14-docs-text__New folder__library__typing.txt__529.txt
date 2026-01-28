@@ -1,0 +1,5 @@
+encouraged to use "str" instead of "Text".
+Aliases to container ABCs in "collections.abc"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class typing.AbstractSet(Collection[T_co])
+   Deprecated alias to "collections.abc.Set".

@@ -1,0 +1,4 @@
+"charset" parameter in the *Content-Type* header for the
+      represented subpart.  If the subpart has no *Content-Type*
+      header, no "charset" parameter, or is not of the *text* main
+      MIME type, then that item in the returned list will be

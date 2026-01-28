@@ -1,0 +1,4 @@
+prevent the code under test from creating new date objects.
+Unfortunately "datetime.date" is written in C, so you cannot just
+monkey-patch out the static "datetime.date.today()" method.
+Instead, you can effectively wrap the date class with a mock, while

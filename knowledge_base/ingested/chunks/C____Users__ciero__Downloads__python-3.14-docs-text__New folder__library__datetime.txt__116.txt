@@ -1,0 +1,6 @@
+when using "str.format()". See also strftime() and strptime()
+   Behavior and "date.isoformat()".
+Examples of Usage: "date"
+-------------------------
+Example of counting days to an event:
+   >>> import time

@@ -1,0 +1,3 @@
+returns "'module'"). For type parameter scopes (which are used
+      for generic classes, functions, and type aliases), it is the
+      name of the underlying class, function, or type alias. For type

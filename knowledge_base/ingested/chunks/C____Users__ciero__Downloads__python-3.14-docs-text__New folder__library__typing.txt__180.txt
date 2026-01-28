@@ -1,0 +1,8 @@
+missing.
+   See "TypedDict" and **PEP 655** for more details.
+   Added in version 3.11.
+typing.ReadOnly
+   A special typing construct to mark an item of a "TypedDict" as
+   read-only.
+   For example:
+      class Movie(TypedDict):

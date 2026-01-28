@@ -1,0 +1,7 @@
+window has no parent.
+window.getstr()
+window.getstr(n)
+window.getstr(y, x)
+window.getstr(y, x, n)
+   Read a bytes object from the user, with primitive line editing
+   capacity. The maximum value for *n* is 2047.

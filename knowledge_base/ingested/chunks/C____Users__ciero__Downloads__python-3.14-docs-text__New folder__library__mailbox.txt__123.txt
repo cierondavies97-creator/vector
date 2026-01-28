@@ -1,0 +1,3 @@
+is indicated by a line whose first five characters are "From ", but
+   additional occurrences of "From " are not transformed to ">From "
+   when storing messages because the extra message separator lines

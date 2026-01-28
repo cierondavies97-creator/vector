@@ -1,0 +1,7 @@
+* ndiff example
+* "textwrap" --- Text wrapping and filling
+* "unicodedata" --- Unicode Database
+* "stringprep" --- Internet String Preparation
+* "readline" --- GNU readline interface
+  * Init file
+  * Line buffer

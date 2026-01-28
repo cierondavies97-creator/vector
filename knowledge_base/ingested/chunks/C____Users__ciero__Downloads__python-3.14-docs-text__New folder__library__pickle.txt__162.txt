@@ -1,0 +1,5 @@
+'3: Goodbye!'
+Custom Reduction for Types, Functions, and Other Objects
+========================================================
+Added in version 3.8.
+Sometimes, "dispatch_table" may not be flexible enough. In particular

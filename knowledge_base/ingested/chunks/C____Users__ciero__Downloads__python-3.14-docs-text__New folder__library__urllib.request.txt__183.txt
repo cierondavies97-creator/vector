@@ -1,0 +1,7 @@
+... finally:
+   ...     f.close()
+   ...
+   <!doctype html>
+   <!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->
+   <!--
+In the following example, we are sending a data-stream to the stdin of

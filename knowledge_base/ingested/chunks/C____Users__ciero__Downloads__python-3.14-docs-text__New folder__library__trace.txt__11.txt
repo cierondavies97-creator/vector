@@ -1,0 +1,5 @@
+to make several runs with "--count", and then produce a single set
+   of annotated listings at the end.
+-g, --timing
+   Prefix each line with the time since the program started.  Only
+   used while tracing.

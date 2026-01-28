@@ -1,0 +1,5 @@
+>>>              # sets window to 75% of screen by 50% of screen and centers
+turtle.title(titlestring)
+   Parameters:
+      **titlestring** -- a string that is shown in the titlebar of the
+      turtle graphics window

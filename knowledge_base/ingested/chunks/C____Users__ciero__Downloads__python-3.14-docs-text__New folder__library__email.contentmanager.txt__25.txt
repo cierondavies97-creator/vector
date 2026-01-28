@@ -1,0 +1,3 @@
+header to that value.  Possible values for *cte* are "quoted-
+      printable", "base64", "7bit", "8bit", and "binary".  If the
+      input cannot be encoded in the specified encoding (for example,

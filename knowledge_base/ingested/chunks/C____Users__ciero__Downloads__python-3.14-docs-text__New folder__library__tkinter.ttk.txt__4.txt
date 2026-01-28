@@ -1,0 +1,4 @@
+"Checkbutton", "Entry", "Frame", "Label", "LabelFrame", "Menubutton",
+"PanedWindow", "Radiobutton", "Scale" and "Scrollbar") to
+automatically replace the Tk widgets.
+This has the direct benefit of using the new widgets which gives a

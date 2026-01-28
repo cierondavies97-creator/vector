@@ -1,0 +1,4 @@
+can take the current state of the disk into account. It can:
+  * return a "TarInfo" object which will be used instead of the
+    metadata in the archive, or
+  * return "None", in which case the member will be skipped, or

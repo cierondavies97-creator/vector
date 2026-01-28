@@ -1,0 +1,7 @@
+and the file mode is 'w', the record will not be emitted (see
+      bpo-42378).
+NullHandler
+===========
+Added in version 3.1.
+The "NullHandler" class, located in the core "logging" package, does
+not do any formatting or output. It is essentially a 'no-op' handler

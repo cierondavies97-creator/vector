@@ -1,0 +1,3 @@
+with "threading.Thread".  *target* is the callable object to be
+   invoked by the "run()" method.  It defaults to "None", meaning
+   nothing is called. *name* is the process name (see "name" for more

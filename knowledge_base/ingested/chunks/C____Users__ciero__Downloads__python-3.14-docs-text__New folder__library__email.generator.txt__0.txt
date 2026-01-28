@@ -1,0 +1,5 @@
+"email.generator": Generating MIME documents
+********************************************
+**Source code:** Lib/email/generator.py
+======================================================================
+One of the most common tasks is to generate the flat (serialized)

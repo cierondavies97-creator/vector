@@ -1,0 +1,3 @@
+addresses are passed.  It returns false (zero) if an invalid argument
+list was passed.  In the latter case it also raises an appropriate
+exception so the calling function can return "NULL" immediately (as we

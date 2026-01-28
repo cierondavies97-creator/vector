@@ -1,0 +1,6 @@
+>>> Decimal('10').ln()
+Decimal('2.302585092994045684017991455')
+>>> Decimal('10').log10()
+Decimal('1')
+The "quantize()" method rounds a number to a fixed exponent.  This
+method is useful for monetary applications that often round results to

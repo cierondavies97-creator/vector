@@ -1,0 +1,5 @@
+CPython, look for documentation from your distributor (that is,
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+Note:
+  Some behavior may be platform dependent, since calls are made to the

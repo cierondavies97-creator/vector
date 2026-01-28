@@ -1,0 +1,4 @@
+return it as a dict. The "os-release" file is a freedesktop.org
+   standard and is available in most Linux distributions. A noticeable
+   exception is Android and Android-based distributions.
+   Raises "OSError" or subclass when neither "/etc/os-release" nor

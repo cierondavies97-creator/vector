@@ -1,0 +1,4 @@
+standard library since the Python 2.3 release.
+* "argparse": a more opinionated alternative to "optparse" that
+  provides more functionality by default, at the expense of reduced
+  application flexibility in controlling exactly how arguments are

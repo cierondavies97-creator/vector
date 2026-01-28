@@ -1,0 +1,4 @@
+overridden.
+   In general, it should be the case that "value_encode()" and
+   "value_decode()" are inverses on the range of *value_decode*.
+BaseCookie.output(attrs=None, header='Set-Cookie:', sep='\r\n')

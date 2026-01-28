@@ -1,0 +1,3 @@
+If *charset* is provided (which is valid only for "str"), encode
+      the string to bytes using the specified character set.  The
+      default is "utf-8".  If the specified *charset* is a known alias

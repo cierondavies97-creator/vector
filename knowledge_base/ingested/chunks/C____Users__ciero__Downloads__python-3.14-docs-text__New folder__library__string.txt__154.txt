@@ -1,0 +1,4 @@
+valid identifier characters follow the placeholder but are not part
+  of the placeholder, such as ""${noun}ification"".
+Any other appearance of "$" in the string will result in a
+"ValueError" being raised.

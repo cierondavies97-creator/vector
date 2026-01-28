@@ -1,0 +1,4 @@
+RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "did you forget parentheses around the comprehension target?") }
+   invalid_dict_comprehension:
+       | '{' a='**' bitwise_or for_if_clauses '}' {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "dict unpacking cannot be used in dict comprehension") }

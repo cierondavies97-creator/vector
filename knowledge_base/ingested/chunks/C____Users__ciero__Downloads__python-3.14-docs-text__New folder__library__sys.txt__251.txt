@@ -1,0 +1,5 @@
+"tuple(sys.modules)" to avoid exceptions as its size may change
+   during iteration as a side effect of code or activity in other
+   threads.
+sys.orig_argv
+   The list of the original command line arguments passed to the

@@ -1,0 +1,3 @@
+| "os.path.splitext()"                  | "PurePath.stem", "PurePath.suffix"             |
++---------------------------------------+------------------------------------------------+
+| "os.path.join()"                      | "PurePath.joinpath()"                          |

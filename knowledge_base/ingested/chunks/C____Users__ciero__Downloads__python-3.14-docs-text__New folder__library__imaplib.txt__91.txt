@@ -1,0 +1,4 @@
+This is an "IMAP4rev1" extension command.
+IMAP4.uid(command, arg[, ...])
+   Execute command args with messages identified by UID, rather than
+   message number.  Returns response appropriate to command.  At least

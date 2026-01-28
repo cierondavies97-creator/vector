@@ -1,0 +1,5 @@
+(""") and ("'") are not translated.
+   Added in version 3.2.
+html.unescape(s)
+   Convert all named and numeric character references (e.g. "&gt;",
+   "&#62;", "&#x3e;") in the string *s* to the corresponding Unicode

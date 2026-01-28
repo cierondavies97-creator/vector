@@ -1,0 +1,3 @@
+argument must be an *iterable* object.  Each item in the iterable
+   must itself be an iterable with exactly two elements.  The first
+   element of each item becomes a key in the new dictionary, and the

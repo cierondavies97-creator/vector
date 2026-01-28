@@ -1,0 +1,4 @@
+functionality is not available on all platforms. On platforms where
+   some or all of this functionality is unavailable, "copy2()" will
+   preserve all the metadata it can; "copy2()" never raises an
+   exception because it cannot preserve file metadata.

@@ -1,0 +1,5 @@
+within the *path* directories. For example, on Windows:
+      >>> shutil.which("python")
+      'C:\\Python33\\python.EXE'
+   This is also applied when *cmd* is a path that contains a directory
+   component:

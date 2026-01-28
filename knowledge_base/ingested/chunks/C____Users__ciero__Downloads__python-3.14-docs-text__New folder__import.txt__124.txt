@@ -1,0 +1,3 @@
+finder's "find_spec()" method as described previously.  When the
+"path" argument to "find_spec()" is given, it will be a list of string
+paths to traverse - typically a package's "__path__" attribute for an

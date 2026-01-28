@@ -1,0 +1,5 @@
+*kwargs* arguments, respectively.
+      Using a list or tuple as the *args* argument passed to "Process"
+      achieves the same effect.
+      Example:
+         >>> from multiprocessing import Process

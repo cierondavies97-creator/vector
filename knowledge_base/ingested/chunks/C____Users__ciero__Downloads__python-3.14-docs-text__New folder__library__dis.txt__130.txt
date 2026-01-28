@@ -1,0 +1,4 @@
+interpolation contains a format specification.
+   If "format >> 2" is non-zero, it indicates that the interpolation
+   contains a conversion. The value of "format >> 2" is the conversion
+   type ("0" for no conversion, "1" for "!s", "2" for "!r", and "3"

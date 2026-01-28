@@ -1,0 +1,4 @@
+logger.warning('Protocol problem: %s', 'connection reset', extra=d)
+      would print something like
+         2006-02-08 22:20:02,165 192.168.0.1 fbloggs  Protocol problem: connection reset
+      The keys in the dictionary passed in *extra* should not clash

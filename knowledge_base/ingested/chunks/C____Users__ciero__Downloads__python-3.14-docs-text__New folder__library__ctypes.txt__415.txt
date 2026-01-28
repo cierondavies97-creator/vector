@@ -1,0 +1,6 @@
+otherwise it will have no effect.
+      Added in version 3.13.
+   _layout_
+      An optional string naming the struct/union layout. It can
+      currently be set to:
+      * ""ms"": the layout used by the Microsoft compiler (MSVC). On

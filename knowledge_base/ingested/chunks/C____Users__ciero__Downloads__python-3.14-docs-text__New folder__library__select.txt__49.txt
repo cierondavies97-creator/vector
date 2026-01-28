@@ -1,0 +1,3 @@
++---------------------------+-------------------------------------------------+
+   | "EPOLLRDHUP"              | Stream socket peer closed connection or shut    |
+   |                           | down writing half of connection.                |

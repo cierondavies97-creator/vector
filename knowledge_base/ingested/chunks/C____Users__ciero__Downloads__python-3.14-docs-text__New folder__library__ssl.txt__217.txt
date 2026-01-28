@@ -1,0 +1,3 @@
+be called with no arguments, and it should return a string, bytes,
+   or bytearray.  If the return value is a string it will be encoded
+   as UTF-8 before using it to decrypt the key. Alternatively a

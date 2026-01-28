@@ -1,0 +1,8 @@
+def enumerate(iterable, start=0):
+          n = start
+          for elem in iterable:
+              yield n, elem
+              n += 1
+eval(source, /, globals=None, locals=None)
+   Parameters:
+      * **source** ("str" | code object) -- A Python expression.

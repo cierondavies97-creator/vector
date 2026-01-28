@@ -1,0 +1,5 @@
+"email.parser": Parsing email messages
+**************************************
+**Source code:** Lib/email/parser.py
+======================================================================
+Message object structures can be created in one of two ways: they can

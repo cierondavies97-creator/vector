@@ -1,0 +1,4 @@
+left hand corner of the rectangle to be drawn; the fourth and fifth
+   arguments are the y and x coordinates of the lower right hand
+   corner. The rectangle will be drawn using VT100/IBM PC forms
+   characters on terminals that make this possible (including xterm

@@ -1,0 +1,5 @@
+and returns the signal number.
+   Availability: Unix.
+   See the man page *sigwait(3)* for further information.
+   See also "pause()", "pthread_sigmask()", "sigpending()",
+   "sigwaitinfo()" and "sigtimedwait()".

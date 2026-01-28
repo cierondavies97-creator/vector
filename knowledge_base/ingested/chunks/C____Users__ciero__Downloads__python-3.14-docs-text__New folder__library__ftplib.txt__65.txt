@@ -1,0 +1,4 @@
+FTP_TLS objects
+---------------
+class ftplib.FTP_TLS(host='', user='', passwd='', acct='', *, context=None, timeout=None, source_address=None, encoding='utf-8')
+   An "FTP" subclass which adds TLS support to FTP as described in

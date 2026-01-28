@@ -1,0 +1,7 @@
+instances:
+   >>> from multiprocessing import shared_memory
+   >>> shm_a = shared_memory.SharedMemory(create=True, size=10)
+   >>> type(shm_a.buf)
+   <class 'memoryview'>
+   >>> buffer = shm_a.buf
+   >>> len(buffer)

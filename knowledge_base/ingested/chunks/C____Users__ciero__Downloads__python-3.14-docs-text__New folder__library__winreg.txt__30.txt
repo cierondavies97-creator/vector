@@ -1,0 +1,4 @@
+| "2"     | An integer that identifies the type of the   |
+   |         | value data (see table in docs for            |
+   |         | "SetValueEx()")                              |
+   +---------+----------------------------------------------+

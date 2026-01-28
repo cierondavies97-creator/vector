@@ -1,0 +1,6 @@
+were stopped.
+   This option is not available for "waitid()".
+   Availability: Unix, not WASI, not Android, not iOS.
+os.WNOHANG
+   This *options* flag causes "waitpid()", "wait3()", "wait4()", and
+   "waitid()" to return right away if no child process status is

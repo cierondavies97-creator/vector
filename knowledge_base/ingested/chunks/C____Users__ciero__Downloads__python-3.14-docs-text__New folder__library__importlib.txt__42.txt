@@ -1,0 +1,5 @@
+provided by "importlib.machinery.PathFinder".
+   Added in version 3.3.
+   Changed in version 3.10: No longer a subclass of "Finder".
+   find_spec(fullname, target=None)
+      An abstract method for finding a *spec* for the specified

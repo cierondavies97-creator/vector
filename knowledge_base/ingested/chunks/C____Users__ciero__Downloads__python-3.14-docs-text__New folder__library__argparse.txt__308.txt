@@ -1,0 +1,3 @@
+conflict_handler allow for finer-grained control of the behavior of
+   the argument group. These parameters have the same meaning as in
+   the "ArgumentParser" constructor, but apply specifically to the

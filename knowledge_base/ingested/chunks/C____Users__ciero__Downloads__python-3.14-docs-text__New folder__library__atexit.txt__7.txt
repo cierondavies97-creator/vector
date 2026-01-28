@@ -1,0 +1,3 @@
+exception information is saved.  After all exit handlers have had a
+   chance to run, the last exception to be raised is re-raised.
+   This function returns *func*, which makes it possible to use it as

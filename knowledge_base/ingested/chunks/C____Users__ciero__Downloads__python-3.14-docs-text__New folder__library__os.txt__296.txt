@@ -1,0 +1,6 @@
+*follow_symlinks* parameters.
+   Changed in version 3.6: Accepts a *path-like object* for *src* and
+   *dst*.
+os.listdir(path='.')
+   Return a list containing the names of the entries in the directory
+   given by *path*.  The list is in arbitrary order, and does not

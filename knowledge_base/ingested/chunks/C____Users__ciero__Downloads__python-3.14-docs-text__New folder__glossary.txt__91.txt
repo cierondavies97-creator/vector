@@ -1,0 +1,4 @@
+literals, names, attribute access, operators or function calls
+   which all return a value.  In contrast to many other languages, not
+   all language constructs are expressions.  There are also
+   *statement*s which cannot be used as expressions, such as "while".

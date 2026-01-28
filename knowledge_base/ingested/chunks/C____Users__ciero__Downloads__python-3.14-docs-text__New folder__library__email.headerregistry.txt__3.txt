@@ -1,0 +1,4 @@
+various header types, but also provides an extension mechanism for
+applications to add their own custom header types.
+When using any of the policy objects derived from "EmailPolicy", all
+headers are produced by "HeaderRegistry" and have "BaseHeader" as

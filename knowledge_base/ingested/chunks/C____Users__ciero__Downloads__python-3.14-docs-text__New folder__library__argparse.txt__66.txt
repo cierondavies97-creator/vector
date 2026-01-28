@@ -1,0 +1,4 @@
+to read arguments files from default (e.g.
+"locale.getpreferredencoding(False)" and ""strict"") to the
+*filesystem encoding and error handler*. Arguments file should be
+encoded in UTF-8 instead of ANSI Codepage on Windows.

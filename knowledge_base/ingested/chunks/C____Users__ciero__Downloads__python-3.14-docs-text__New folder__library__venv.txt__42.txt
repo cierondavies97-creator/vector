@@ -1,0 +1,3 @@
+environment to be activated, their shebang lines contain the
+  absolute paths to their environment's interpreters. Because of this,
+  environments are inherently non-portable, in the general case. You

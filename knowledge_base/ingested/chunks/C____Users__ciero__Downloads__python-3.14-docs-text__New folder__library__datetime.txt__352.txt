@@ -1,0 +1,3 @@
+# An exception may be sensible here, in one or both cases.
+               # It depends on how you want to treat them.  The default
+               # fromutc() implementation (called by the default astimezone()

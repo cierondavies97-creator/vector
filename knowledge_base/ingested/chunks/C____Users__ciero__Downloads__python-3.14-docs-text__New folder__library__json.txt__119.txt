@@ -1,0 +1,7 @@
+outfile
+   Write the output of the *infile* to the given *outfile*. Otherwise,
+   write it to "sys.stdout".
+--sort-keys
+   Sort the output of dictionaries alphabetically by key.
+   Added in version 3.5.
+--no-ensure-ascii

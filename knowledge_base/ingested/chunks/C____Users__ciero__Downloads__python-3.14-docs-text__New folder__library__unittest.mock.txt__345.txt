@@ -1,0 +1,4 @@
+unittest.mock.FILTER_DIR
+"FILTER_DIR" is a module level variable that controls the way mock
+objects respond to "dir()". The default is "True", which uses the
+filtering described below, to only show useful members. If you dislike

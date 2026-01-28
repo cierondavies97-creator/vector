@@ -1,0 +1,4 @@
+* Catching exceptions from "__enter__" methods
+    * Cleaning up in an "__enter__" implementation
+    * Replacing any use of "try-finally" and flag variables
+    * Using a context manager as a function decorator

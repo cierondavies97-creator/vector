@@ -1,0 +1,4 @@
+object, or an "InputSource" object. When "parse()" returns, the
+   input is completely processed, and the parser object can be
+   discarded or reset.
+   Changed in version 3.5: Added support of character streams.

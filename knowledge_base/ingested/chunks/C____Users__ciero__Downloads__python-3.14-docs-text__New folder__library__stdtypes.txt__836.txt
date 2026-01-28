@@ -1,0 +1,4 @@
+context management protocol. See the "contextlib" module for some
+examples.
+Python's *generator*s and the "contextlib.contextmanager" decorator
+provide a convenient way to implement these protocols.  If a generator

@@ -1,0 +1,4 @@
+A "TimeoutError" is raised if the timeout occurs before all
+   awaitables are done. This is raised by the "async for" loop during
+   asynchronous iteration or by the coroutines yielded during plain
+   iteration.

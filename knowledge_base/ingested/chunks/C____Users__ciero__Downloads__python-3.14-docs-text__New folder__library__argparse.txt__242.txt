@@ -1,0 +1,5 @@
+>>> # negative number options present, so both -1s are options
+   >>> parser.parse_args(['-1', '-1'])
+   usage: PROG [-h] [-1 ONE] [foo]
+   PROG: error: argument -1: expected one argument
+If you have positional arguments that must begin with "-" and don't

@@ -1,0 +1,3 @@
+The exact semantics are an implementation detail and are subject to
+   unannounced changes. Consult the source code for current semantics.
+class inspect.Signature(parameters=None, *, return_annotation=Signature.empty)

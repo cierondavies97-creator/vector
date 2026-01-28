@@ -1,0 +1,3 @@
+both added, Digest Authentication is always tried first. If the
+   Digest Authentication returns a 40x response again, it is sent to
+   Basic Authentication handler to Handle.  This Handler method will

@@ -1,0 +1,4 @@
+semantics and results of the two parser APIs are identical.
+The "BytesFeedParser"'s API is simple; you create an instance, feed it
+a bunch of bytes until there's no more to feed it, then close the
+parser to retrieve the root message object.  The "BytesFeedParser" is

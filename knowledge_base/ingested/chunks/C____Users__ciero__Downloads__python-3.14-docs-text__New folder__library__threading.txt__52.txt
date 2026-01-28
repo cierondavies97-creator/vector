@@ -1,0 +1,5 @@
+...     def squared(self):
+   ...         return self.number ** 2
+This can be useful to support default values, methods and
+initialization.  Note that if you define an "__init__()" method, it
+will be called each time the "local" object is used in a separate

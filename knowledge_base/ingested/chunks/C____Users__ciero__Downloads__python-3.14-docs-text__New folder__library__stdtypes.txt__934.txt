@@ -1,0 +1,6 @@
+limit.
+* "sys.int_info.str_digits_check_threshold" is the lowest accepted
+  value for the limit (other than 0 which disables it).
+Added in version 3.11.
+Caution:
+  Setting a low limit *can* lead to problems. While rare, code exists

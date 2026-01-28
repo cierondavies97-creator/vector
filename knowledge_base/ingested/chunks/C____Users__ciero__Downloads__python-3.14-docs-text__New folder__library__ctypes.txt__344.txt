@@ -1,0 +1,5 @@
+otherwise the string is assumed to be zero-terminated.
+   Raises an auditing event "ctypes.wstring_at" with arguments "ptr",
+   "size".
+ctypes.memoryview_at(ptr, size, readonly=False)
+   Return a "memoryview" object of length *size* that references

@@ -1,0 +1,5 @@
+recommended over using "isolation_level". "isolation_level"
+        has no effect unless "autocommit" is set to
+        "LEGACY_TRANSACTION_CONTROL" (the default).
+   row_factory
+      The initial "row_factory" for "Cursor" objects created from this

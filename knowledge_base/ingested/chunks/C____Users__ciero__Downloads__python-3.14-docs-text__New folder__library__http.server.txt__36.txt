@@ -1,0 +1,4 @@
+Continue" followed by "200 OK" headers. This method can be
+      overridden to raise an error if the server does not want the
+      client to continue.  For e.g. server can choose to send "417
+      Expectation Failed" as a response header and "return False".

@@ -1,0 +1,8 @@
+unique parser instances.
+See also:
+  The Expat XML Parser
+     Home page of the Expat project.
+XMLParser Objects
+=================
+"xmlparser" objects have the following methods:
+xmlparser.Parse(data[, isfinal])

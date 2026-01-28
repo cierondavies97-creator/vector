@@ -1,0 +1,5 @@
+can be isolated otherwise it appears in "JoinedStr".
+   * "value" is any expression node (such as a literal, a variable, or
+     a function call).
+   * "conversion" is an integer:
+     * -1: no formatting

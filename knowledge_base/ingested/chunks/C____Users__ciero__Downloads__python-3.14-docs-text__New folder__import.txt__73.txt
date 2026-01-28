@@ -1,0 +1,4 @@
+* If the loader cannot execute the module, it should raise an
+  "ImportError", although any other exception raised during
+  "exec_module()" will be propagated.
+In many cases, the finder and loader can be the same object; in such

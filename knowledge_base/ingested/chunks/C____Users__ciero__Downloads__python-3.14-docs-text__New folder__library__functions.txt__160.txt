@@ -1,0 +1,3 @@
+(or "A" to "Z"). The default *base* is 10. The allowed bases are 0
+   and 2--36. Base-2, -8, and -16 strings can be optionally prefixed
+   with "0b"/"0B", "0o"/"0O", or "0x"/"0X", as with integer literals

@@ -1,0 +1,3 @@
+interpreter defaults to using the current locale settings, *unless*
+the current locale is identified as a legacy ASCII-based locale (as
+described for "PYTHONCOERCECLOCALE"), and locale coercion is either

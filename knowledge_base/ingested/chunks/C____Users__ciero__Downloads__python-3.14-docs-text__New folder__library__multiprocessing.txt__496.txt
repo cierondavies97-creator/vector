@@ -1,0 +1,8 @@
+print('-' * 20)
+       it = manager.baz()
+       for i in it:
+           print('<%d>' % i, end=' ')
+       print()
+       print('-' * 20)
+       op = manager.operator()
+       print('op.add(23, 45) =', op.add(23, 45))

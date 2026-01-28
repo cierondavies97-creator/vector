@@ -1,0 +1,4 @@
+module or not.
+If the meta path finder knows how to handle the named module, it
+returns a spec object.  If it cannot handle the named module, it
+returns "None".  If "sys.meta_path" processing reaches the end of its

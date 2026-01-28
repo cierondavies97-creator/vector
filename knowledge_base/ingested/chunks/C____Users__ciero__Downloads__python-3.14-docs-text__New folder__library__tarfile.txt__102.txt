@@ -1,0 +1,4 @@
+Custom extraction filters should raise "FilterError" for *fatal*
+   errors and "ExtractError" for *non-fatal* ones.
+   Note that when an exception is raised, the archive may be partially
+   extracted. It is the user’s responsibility to clean up.

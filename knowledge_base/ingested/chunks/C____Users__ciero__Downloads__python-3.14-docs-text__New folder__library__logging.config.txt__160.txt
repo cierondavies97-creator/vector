@@ -1,0 +1,7 @@
+[handler_hand07]
+   class=handlers.SMTPHandler
+   level=WARN
+   formatter=form07
+   args=('localhost', 'from@abc', ['user1@abc', 'user2@xyz'], 'Logger Subject')
+   kwargs={'timeout': 10.0}
+   [handler_hand08]

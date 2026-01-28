@@ -1,0 +1,3 @@
+When passing a "ZstdDict" to a function, the "as_digested_dict" and
+   "as_undigested_dict" attributes can control how the dictionary is
+   loaded by passing them as the "zstd_dict" argument, for example,

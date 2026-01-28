@@ -1,0 +1,3 @@
+first traversal.)  This method corresponds to the "tp_iter" slot of
+   the type structure for Python objects in the Python/C API.
+The iterator objects themselves are required to support the following

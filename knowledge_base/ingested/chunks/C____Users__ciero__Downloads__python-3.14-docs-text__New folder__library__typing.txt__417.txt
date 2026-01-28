@@ -1,0 +1,3 @@
+Added in version 3.11.
+@typing.dataclass_transform(*, eq_default=True, order_default=False, kw_only_default=False, frozen_default=False, field_specifiers=(), **kwargs)
+   Decorator to mark an object as providing "dataclass"-like behavior.

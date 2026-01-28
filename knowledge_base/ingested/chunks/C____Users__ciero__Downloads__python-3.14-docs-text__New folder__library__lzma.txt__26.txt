@@ -1,0 +1,4 @@
+integrity checks or multiple filters.
+   * "FORMAT_RAW": A raw data stream, not using any container format.
+        This format specifier does not support integrity checks, and
+        requires that you always specify a custom filter chain (for

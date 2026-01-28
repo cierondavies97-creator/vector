@@ -1,0 +1,4 @@
+"www.foo.bar.com" can't set a cookie for ".bar.com", because
+   "www.foo" contains a dot).
+DefaultCookiePolicy.DomainStrictNonDomain
+   Cookies that did not explicitly specify a "domain" cookie-attribute

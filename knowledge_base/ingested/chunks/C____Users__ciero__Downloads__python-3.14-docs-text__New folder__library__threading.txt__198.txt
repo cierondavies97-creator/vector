@@ -1,0 +1,4 @@
+threads will have called it prior to being released.  Should
+      this call raise an error, the barrier is put into the broken
+      state.
+      If the call times out, the barrier is put into the broken state.

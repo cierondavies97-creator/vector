@@ -1,0 +1,4 @@
+although this can be changed by using the "ASCII" flag. Word
+   boundaries are determined by the current locale if the "LOCALE"
+   flag is used.
+   Changed in version 3.14: "\B" now matches empty input string.

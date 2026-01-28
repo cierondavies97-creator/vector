@@ -1,0 +1,4 @@
+the *env* dictionary must be strings; invalid keys or values will
+   cause the function to fail, with a return value of "127".
+   As an example, the following calls to "spawnlp()" and "spawnvpe()"
+   are equivalent:

@@ -1,0 +1,4 @@
+mapping, and the subscription selects the value in the mapping that
+   corresponds to that key. An example of a builtin mapping class is
+   the "dict" class.
+2. Sequences. If the primary is a *sequence*, the expression list must

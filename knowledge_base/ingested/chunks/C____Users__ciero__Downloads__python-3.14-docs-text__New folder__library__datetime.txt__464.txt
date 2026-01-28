@@ -1,0 +1,3 @@
+in Dershowitz and Reingold's book *Calendrical Calculations*,
+    where it's the base calendar for all computations. See the book
+    for algorithms for converting between proleptic Gregorian ordinals

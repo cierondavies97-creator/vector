@@ -1,0 +1,5 @@
+but it is guaranteed not to be a valid "ZoneInfo" key.
+Pickle serialization
+--------------------
+Rather than serializing all transition data, "ZoneInfo" objects are
+serialized by key, and "ZoneInfo" objects constructed from files (even

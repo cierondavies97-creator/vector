@@ -1,0 +1,3 @@
+protocol used to convert a file-like object to an *iterator*. The
+   resulting objects are *iterable*s. As the object is iterated over,
+   the optional *blksize* parameter will be repeatedly passed to the

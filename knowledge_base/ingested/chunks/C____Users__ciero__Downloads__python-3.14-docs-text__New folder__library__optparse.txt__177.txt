@@ -1,0 +1,5 @@
+"OptionParser.add_option()".  If you pass an option attribute that is
+not relevant to a particular option, or fail to pass a required option
+attribute, "optparse" raises "OptionError".
+Option.action
+   (default: ""store"")

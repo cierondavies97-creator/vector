@@ -1,0 +1,4 @@
+descriptors as *path* arguments is not available on all platforms
+   Python supports.
+   To determine whether a particular function permits specifying an
+   open file descriptor for its *path* parameter, use the "in"

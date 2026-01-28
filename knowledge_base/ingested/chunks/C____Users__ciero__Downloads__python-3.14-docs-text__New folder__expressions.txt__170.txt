@@ -1,0 +1,4 @@
+parameter receives a tuple containing the excess positional arguments
+(or an empty tuple if there were no excess positional arguments).
+If any keyword argument does not correspond to a formal parameter
+name, a "TypeError" exception is raised, unless a formal parameter

@@ -1,0 +1,5 @@
+currently in the queue, this method will raise a "ValueError".
+scheduler.empty()
+   Return "True" if the event queue is empty.
+scheduler.run(blocking=True)
+   Run all scheduled events. This method will wait  (using the

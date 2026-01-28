@@ -1,0 +1,5 @@
+limits on disk, memory and CPU usage.
+* Check filenames against an allow-list of characters (to filter out
+  control characters, confusables, foreign path separators, and so
+  on).
+* Check that filenames have expected extensions (discouraging files

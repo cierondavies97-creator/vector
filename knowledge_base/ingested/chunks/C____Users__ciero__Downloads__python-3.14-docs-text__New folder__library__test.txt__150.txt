@@ -1,0 +1,4 @@
+*************************************************************************
+The "test.support.script_helper" module provides support for Python's
+script execution tests.
+test.support.script_helper.interpreter_requires_environment()

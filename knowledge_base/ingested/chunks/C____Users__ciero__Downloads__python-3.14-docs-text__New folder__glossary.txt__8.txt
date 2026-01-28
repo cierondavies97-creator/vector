@@ -1,0 +1,5 @@
+**PEP 526**, and **PEP 649**, which describe this functionality.
+   Also see Annotations Best Practices for best practices on working
+   with annotations.
+argument
+   A value passed to a *function* (or *method*) when calling the

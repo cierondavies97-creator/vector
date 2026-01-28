@@ -1,0 +1,4 @@
+Create a "TarInfo" object from the result of "os.stat()" or
+   equivalent on an existing file.  The file is either named by
+   *name*, or specified as a *file object* *fileobj* with a file
+   descriptor. *name* may be a *path-like object*.  If given,

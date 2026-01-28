@@ -1,0 +1,5 @@
+toreadonly()
+         Return a readonly version of the memoryview object.  The
+         original memoryview object is unchanged.
+            >>> m = memoryview(bytearray(b'abc'))
+            >>> mm = m.toreadonly()

@@ -1,0 +1,5 @@
+parse the hour.
+4. Unlike the "time" module, the "datetime" module does not support
+   leap seconds.
+5. When used with the "strptime()" method, the "%f" directive accepts
+   from one to six digits and zero pads on the right. "%f" is an

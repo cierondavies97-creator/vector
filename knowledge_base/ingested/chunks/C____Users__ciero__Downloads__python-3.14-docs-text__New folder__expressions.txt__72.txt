@@ -1,0 +1,4 @@
+handling. When the execution is resumed by calling one of the
+generator's methods, the function can proceed exactly as if the yield
+expression were just another external call.  The value of the yield
+expression after resuming depends on the method which resumed the

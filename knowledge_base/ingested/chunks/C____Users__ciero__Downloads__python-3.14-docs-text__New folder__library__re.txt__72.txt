@@ -1,0 +1,4 @@
+anything because first the ".*" would match all characters
+   possible, then, having nothing left to match, the final "." would
+   fail to match. Since there are no stack points saved in the Atomic
+   Group, and there is no stack point before it, the entire expression

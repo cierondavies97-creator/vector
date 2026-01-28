@@ -1,0 +1,3 @@
+|                     | shut down writing half of connection       |
+   +---------------------+--------------------------------------------+
+   | "POLLNVAL"          | Invalid request: descriptor not open       |

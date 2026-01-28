@@ -1,0 +1,4 @@
+Returns a pair of "(transport, protocol)", where *transport*
+   conforms to the "SubprocessTransport" base class and *protocol* is
+   an object instantiated by the *protocol_factory*.
+   If the transport is closed or is garbage collected, the child

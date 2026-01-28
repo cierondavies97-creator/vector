@@ -1,0 +1,8 @@
+from contextlib import asynccontextmanager
+      @asynccontextmanager
+      async def timeit():
+          now = time.monotonic()
+          try:
+              yield
+          finally:
+              print(f'it took {time.monotonic() - now}s to run')

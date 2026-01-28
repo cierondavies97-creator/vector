@@ -1,0 +1,4 @@
+executing those commands in the Tcl interpreter attached to your
+application's "Tk" instance.
+Whether it's trying to navigate reference documentation, trying to
+find the right method or option, adapting some existing code, or

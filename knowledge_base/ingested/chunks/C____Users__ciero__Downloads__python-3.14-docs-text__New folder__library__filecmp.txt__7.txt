@@ -1,0 +1,4 @@
+they don't exist in one of the directories, the user lacks
+   permission to read them or if the comparison could not be done for
+   some other reason.
+   The *shallow* parameter has the same meaning and default value as

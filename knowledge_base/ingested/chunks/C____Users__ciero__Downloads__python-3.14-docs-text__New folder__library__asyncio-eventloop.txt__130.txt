@@ -1,0 +1,4 @@
+The method uses high-performance "os.sendfile()" if available.
+   *file* must be a regular file object opened in binary mode.
+   *offset* tells from where to start reading the file. If specified,
+   *count* is the total number of bytes to transmit as opposed to

@@ -1,0 +1,3 @@
+Test for syntax errors in *statement* by attempting to compile
+   *statement*. *testcase* is the "unittest" instance for the test.
+   *errtext* is the regular expression which should match the string

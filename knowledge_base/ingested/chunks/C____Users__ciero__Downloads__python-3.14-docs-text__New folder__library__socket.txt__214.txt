@@ -1,0 +1,4 @@
+these correspond to Unix system calls applicable to sockets.
+Changed in version 3.2: Support for the *context manager* protocol was
+added.  Exiting the context manager is equivalent to calling
+"close()".

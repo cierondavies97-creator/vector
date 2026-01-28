@@ -1,0 +1,4 @@
+* "P_PID" - wait for the child whose PID is *id*.
+   * "P_PGID" - wait for any child whose progress group ID is *id*.
+   * "P_ALL" - wait for any child; *id* is ignored.
+   * "P_PIDFD" - wait for the child identified by the file descriptor

@@ -1,0 +1,5 @@
+The *filesystem encoding and error handler* are configured at
+   Python startup by the "PyConfig_Read()" function: see
+   "filesystem_encoding" and "filesystem_errors" members of
+   "PyConfig".
+   See also the *locale encoding*.

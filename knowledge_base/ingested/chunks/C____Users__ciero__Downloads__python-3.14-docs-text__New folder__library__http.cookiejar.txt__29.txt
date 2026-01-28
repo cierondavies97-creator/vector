@@ -1,0 +1,4 @@
+Extract cookies from HTTP *response* and store them in the
+   "CookieJar", where allowed by policy.
+   The "CookieJar" will look for allowable *Set-Cookie* and *Set-
+   Cookie2* headers in the *response* argument, and store cookies as

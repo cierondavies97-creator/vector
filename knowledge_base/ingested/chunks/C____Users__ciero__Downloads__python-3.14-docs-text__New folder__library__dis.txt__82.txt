@@ -1,0 +1,4 @@
+In-place operations are like binary operations, but the operation is
+done in-place when "STACK[-2]" supports it, and the resulting
+"STACK[-1]" may be (but does not have to be) the original "STACK[-2]".
+BINARY_OP(op)

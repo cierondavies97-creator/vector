@@ -1,0 +1,5 @@
+underlying *file object*.
+      Added in version 3.13.
+   Changed in version 3.4: Added support for the ""x"" and ""xb""
+   modes.
+   Changed in version 3.5: The "read()" method now accepts an argument

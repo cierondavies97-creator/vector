@@ -1,0 +1,4 @@
+Path.is_file(*, follow_symlinks=True)
+   Return "True" if the path points to a regular file. "False" will be
+   returned if the path is invalid, inaccessible or missing, or if it
+   points to something other than a regular file. Use "Path.stat()" to

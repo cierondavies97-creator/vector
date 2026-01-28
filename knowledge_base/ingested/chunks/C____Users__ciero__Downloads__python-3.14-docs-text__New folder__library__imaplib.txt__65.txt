@@ -1,0 +1,6 @@
+message part envelope and data.
+IMAP4.proxyauth(user)
+   Assume authentication as *user*. Allows an authorised administrator
+   to proxy into any user's mailbox.
+IMAP4.read(size)
+   Reads *size* bytes from the remote server. You may override this

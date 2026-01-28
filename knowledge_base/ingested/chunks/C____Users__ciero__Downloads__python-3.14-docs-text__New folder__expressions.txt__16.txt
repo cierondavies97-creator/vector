@@ -1,0 +1,3 @@
+value.  The value may be approximated in the case of floating-point
+and imaginary (complex) literals. See section Literals for details.
+See section String literal concatenation for details on "strings".

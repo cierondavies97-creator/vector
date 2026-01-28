@@ -1,0 +1,3 @@
+| "'time'"           | SortKey.TIME          | internal time          |
+      +--------------------+-----------------------+------------------------+
+      | "'tottime'"        | N/A                   | internal time          |

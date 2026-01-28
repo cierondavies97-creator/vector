@@ -1,0 +1,4 @@
+Python, as described in the "__hash__()" documentation.
+     If "__hash__()" is not explicitly defined, or if it is set to
+     "None", then "@dataclass" *may* add an implicit "__hash__()"
+     method. Although not recommended, you can force "@dataclass" to

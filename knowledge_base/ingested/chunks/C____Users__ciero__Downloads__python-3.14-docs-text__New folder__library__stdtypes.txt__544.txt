@@ -1,0 +1,3 @@
+raised if there are any values in *iterable* that are not *bytes-
+   like objects*, including "str" objects.  The separator between
+   elements is the contents of the bytes or bytearray object providing

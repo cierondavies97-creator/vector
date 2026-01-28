@@ -1,0 +1,3 @@
+reference created by the compiler if any methods in a class body refer
+to either "__class__" or "super". This allows the zero argument form
+of "super()" to correctly identify the class being defined based on

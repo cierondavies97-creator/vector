@@ -1,0 +1,4 @@
+type V = Vec[int]
+   "Annotated" cannot be used with an unpacked "TypeVarTuple":
+      type Variadic[*Ts] = Annotated[*Ts, Ann1] = Annotated[T1, T2, T3, ..., Ann1]  # NOT valid
+   where "T1", "T2", ... are "TypeVars". This is invalid as only one

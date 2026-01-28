@@ -1,0 +1,3 @@
+Prints the formatted representation of *object*, followed by a
+   newline. This function may be used in the interactive interpreter
+   instead of the "print()" function for inspecting values. Tip: you

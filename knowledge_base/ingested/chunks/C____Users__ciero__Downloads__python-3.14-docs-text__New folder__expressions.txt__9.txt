@@ -1,0 +1,4 @@
+See also: The class specifications.
+More precisely, private names are transformed to a longer form before
+code is generated for them.  If the transformed name is longer than
+255 characters, implementation-defined truncation may happen.

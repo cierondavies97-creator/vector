@@ -1,0 +1,8 @@
+pattern
+      The regular expression pattern.
+   pos
+      The index in *pattern* where compilation failed (may be "None").
+   lineno
+      The line corresponding to *pos* (may be "None").
+   colno
+      The column corresponding to *pos* (may be "None").

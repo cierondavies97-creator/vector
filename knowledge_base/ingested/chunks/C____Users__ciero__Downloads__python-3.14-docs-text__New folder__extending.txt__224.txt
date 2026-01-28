@@ -1,0 +1,3 @@
+commonly used library modules. It stores all C API pointers (just one
+in the example!) in an array of void pointers which becomes the value
+of a Capsule. The header file corresponding to the module provides a

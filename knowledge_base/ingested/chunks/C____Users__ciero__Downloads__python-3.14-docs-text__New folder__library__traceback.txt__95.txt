@@ -1,0 +1,8 @@
+*** tb_lineno: 10
+The following example shows the different ways to print and format the
+stack:
+   >>> import traceback
+   >>> def another_function():
+   ...     lumberstack()
+   ...
+   >>> def lumberstack():

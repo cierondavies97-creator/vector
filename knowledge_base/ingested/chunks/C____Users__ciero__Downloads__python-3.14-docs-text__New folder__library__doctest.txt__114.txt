@@ -1,0 +1,6 @@
+different defaults.  In such cases, disabling an option via "-" in a
+directive can be useful.
+Warnings
+--------
+"doctest" is serious about requiring exact matches in expected output.
+If even a single character doesn't match, the test fails.  This will

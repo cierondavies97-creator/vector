@@ -1,0 +1,4 @@
+used to store flags which control how the attribute can be accessed:
+you can set it to "Py_READONLY" to prevent Python code from setting
+it.
+An interesting advantage of using the "tp_members" table to build

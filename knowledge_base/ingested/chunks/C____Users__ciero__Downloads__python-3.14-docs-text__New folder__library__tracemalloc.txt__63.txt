@@ -1,0 +1,6 @@
+a snapshot, see the "start()" function.
+   See also the "get_object_traceback()" function.
+DomainFilter
+------------
+class tracemalloc.DomainFilter(inclusive: bool, domain: int)
+   Filter traces of memory blocks by their address space (domain).

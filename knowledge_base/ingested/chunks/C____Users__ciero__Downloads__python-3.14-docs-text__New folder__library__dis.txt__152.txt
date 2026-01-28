@@ -1,0 +1,5 @@
+POP_JUMP_IF_TRUE(delta)
+   If "STACK[-1]" is true, increments the bytecode counter by *delta*.
+   "STACK[-1]" is popped.
+   Changed in version 3.11: The oparg is now a relative delta rather
+   than an absolute target. This opcode is a pseudo-instruction,

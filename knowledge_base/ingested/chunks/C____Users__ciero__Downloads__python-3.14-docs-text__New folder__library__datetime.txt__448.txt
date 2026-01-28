@@ -1,0 +1,4 @@
+extension to the set of format characters in the C standard (but
+   implemented separately in datetime objects, and therefore always
+   available).
+6. For a naive object, the "%z", "%:z" and "%Z" format codes are

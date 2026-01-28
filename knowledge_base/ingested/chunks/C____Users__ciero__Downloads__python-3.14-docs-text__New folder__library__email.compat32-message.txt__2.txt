@@ -1,0 +1,3 @@
+are not recommended unless you are dealing with legacy code.
+The philosophy and structure of the two classes is otherwise the same.
+This document describes the behavior under the default (for "Message")

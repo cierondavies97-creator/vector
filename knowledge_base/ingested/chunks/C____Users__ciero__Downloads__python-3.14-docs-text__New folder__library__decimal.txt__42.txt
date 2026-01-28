@@ -1,0 +1,5 @@
+traps are enabled:
+   >>> myothercontext = Context(prec=60, rounding=ROUND_HALF_DOWN)
+   >>> setcontext(myothercontext)
+   >>> Decimal(1) / Decimal(7)
+   Decimal('0.142857142857142857142857142857142857142857142857142857142857')

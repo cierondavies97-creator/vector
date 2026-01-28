@@ -1,0 +1,5 @@
+Added in version 3.12: The command-line option "--durations".
+The command line can also be used for test discovery, for running all
+of the tests in a project or just a subset.
+Test Discovery
+==============

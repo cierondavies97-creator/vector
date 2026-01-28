@@ -1,0 +1,5 @@
+Unfinished errata to **RFC 2965**.
+  **RFC 2964** - Use of HTTP State Management
+CookieJar and FileCookieJar Objects
+===================================
+"CookieJar" objects support the *iterator* protocol for iterating over

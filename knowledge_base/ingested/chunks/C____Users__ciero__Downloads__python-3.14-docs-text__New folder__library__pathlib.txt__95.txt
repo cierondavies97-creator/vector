@@ -1,0 +1,5 @@
+to operations provided by the latter, they also provide methods to do
+system calls on path objects.  There are three ways to instantiate
+concrete paths:
+class pathlib.Path(*pathsegments)
+   A subclass of "PurePath", this class represents concrete paths of

@@ -1,0 +1,3 @@
+can often be used as the buffer size for "recvmsg()" to receive a
+   single item of ancillary data, but **RFC 3542** requires portable
+   applications to use "CMSG_SPACE()" and thus include space for

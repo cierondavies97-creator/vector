@@ -1,0 +1,5 @@
+Treeview
+========
+The "ttk.Treeview" widget displays a hierarchical collection of items.
+Each item has a textual label, an optional image, and an optional list
+of data values. The data values are displayed in successive columns

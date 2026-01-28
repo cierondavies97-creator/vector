@@ -1,0 +1,5 @@
+created pointing to that executable, unless files with those
+      names already exist.
+   setup_scripts(context)
+      Installs activation scripts appropriate to the platform into the
+      virtual environment.

@@ -1,0 +1,5 @@
+tuple, while others are usually called only with a single string
+      giving an error message.
+   with_traceback(tb)
+      This method sets *tb* as the new traceback for the exception and
+      returns the exception object.  It was more commonly used before

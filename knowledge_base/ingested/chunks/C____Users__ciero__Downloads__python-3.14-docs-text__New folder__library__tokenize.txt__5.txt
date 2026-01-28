@@ -1,0 +1,4 @@
+"io.IOBase.readline()" method of file objects.  Each call to the
+   function should return one line of input as bytes.
+   The generator produces 5-tuples with these members: the token type;
+   the token string; a 2-tuple "(srow, scol)" of ints specifying the

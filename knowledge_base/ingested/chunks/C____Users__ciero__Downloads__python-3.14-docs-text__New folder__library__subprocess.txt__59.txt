@@ -1,0 +1,4 @@
+the recommended way to launch the current Python interpreter
+     again, and use the "-m" command-line format to launch an
+     installed module.Resolving the path of *executable* (or the first
+     item of *args*) is platform dependent. For POSIX, see

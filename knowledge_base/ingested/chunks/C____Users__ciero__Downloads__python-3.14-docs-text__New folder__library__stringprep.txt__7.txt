@@ -1,0 +1,5 @@
+part of the set. For mappings, it provides the mapping function: given
+the key, it returns the associated value. Below is a list of all
+functions available in the module.
+stringprep.in_table_a1(code)
+   Determine whether *code* is in tableA.1 (Unassigned code points in

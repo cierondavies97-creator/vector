@@ -1,0 +1,6 @@
+Some editable installs, do not supply top-level names, and thus this
+function is not reliable with such installs.
+Added in version 3.10.
+Distributions
+=============
+importlib.metadata.distribution(distribution_name)

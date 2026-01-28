@@ -1,0 +1,6 @@
+>>> conn = http.client.HTTPSConnection("docs.python.org")
+   >>> conn.request("GET", "/parrot.spam")
+   >>> r2 = conn.getresponse()
+   >>> print(r2.status, r2.reason)
+   404 Not Found
+   >>> data2 = r2.read()

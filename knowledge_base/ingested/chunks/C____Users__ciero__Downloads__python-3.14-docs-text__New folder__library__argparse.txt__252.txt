@@ -1,0 +1,5 @@
+--------------------
+class argparse.Namespace
+   Simple class used by default by "parse_args()" to create an object
+   holding attributes and return it.
+   This class is deliberately simple, just an "object" subclass with a

@@ -1,0 +1,5 @@
+in-place multiset operations.
+Note:
+  Counters were primarily designed to work with positive integers to
+  represent running counts; however, care was taken to not
+  unnecessarily preclude use cases needing other types or negative

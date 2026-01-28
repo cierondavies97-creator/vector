@@ -1,0 +1,4 @@
+non-blocking and require additional JavaScript code and helpers on
+  the server to proxy TCP through WebSockets; see Emscripten
+  Networking for more information. WASI snapshot preview 1 only
+  permits sockets from an existing file descriptor.

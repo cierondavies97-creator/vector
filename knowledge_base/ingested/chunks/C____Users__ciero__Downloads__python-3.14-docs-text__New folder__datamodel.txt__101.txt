@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+Function objects also support getting and setting arbitrary
+attributes, which can be used, for example, to attach metadata to

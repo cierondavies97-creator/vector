@@ -1,0 +1,5 @@
+'alg_bits': 128,
+        'auth': 'auth-rsa',
+        'description': 'ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2 Kx=ECDH     Au=RSA  '
+                       'Enc=AESGCM(128) Mac=AEAD',
+        'digest': None,

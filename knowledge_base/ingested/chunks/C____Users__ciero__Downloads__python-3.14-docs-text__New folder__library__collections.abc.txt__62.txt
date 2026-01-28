@@ -1,0 +1,4 @@
+"__iter__()", "__reversed__()", and "index()" make repeated calls
+   to the underlying "__getitem__()" method. Consequently, if
+   "__getitem__()" is implemented with constant access speed, the
+   mixin methods will have linear performance; however, if the

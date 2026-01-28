@@ -1,0 +1,4 @@
+4.6.3, Exercise 19*.
+  * To enumerate all distinct multisets of a given size over a given
+    set of elements, see "itertools.combinations_with_replacement()":
+       map(Counter, combinations_with_replacement('ABC', 2)) # --> AA AB AC BB BC CC

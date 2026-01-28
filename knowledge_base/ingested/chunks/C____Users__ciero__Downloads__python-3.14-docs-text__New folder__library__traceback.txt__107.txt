@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+     File "<python-input-1>", line 6, in lumberjack
+       bright_side_of_life()
+       ~~~~~~~~~~~~~~~~~~~^^
+     File "<python-input-1>", line 10, in bright_side_of_life

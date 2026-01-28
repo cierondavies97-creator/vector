@@ -1,0 +1,5 @@
+Added in version 3.10.
+class ast.MatchValue(value)
+   A match literal or value pattern that compares by equality. "value"
+   is an expression node. Permitted value nodes are restricted as
+   described in the match statement documentation. This pattern

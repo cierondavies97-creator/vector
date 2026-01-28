@@ -1,0 +1,4 @@
+parser.add_option("-f", "--file", dest="filename")
+If you don't supply a destination, "optparse" figures out a sensible
+default from the option strings: if the first long option string is "
+--foo-bar", then the default destination is "foo_bar".  If there are

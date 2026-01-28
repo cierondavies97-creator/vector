@@ -1,0 +1,8 @@
+type, and returns a new type:
+   >>> PI = POINTER(c_int)
+   >>> PI
+   <class 'ctypes.LP_c_long'>
+   >>> PI(42)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   TypeError: expected c_long instead of int

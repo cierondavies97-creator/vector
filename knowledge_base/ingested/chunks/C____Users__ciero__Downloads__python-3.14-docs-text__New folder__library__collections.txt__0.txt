@@ -1,0 +1,5 @@
+"collections" --- Container datatypes
+*************************************
+**Source code:** Lib/collections/__init__.py
+======================================================================
+This module implements specialized container datatypes providing

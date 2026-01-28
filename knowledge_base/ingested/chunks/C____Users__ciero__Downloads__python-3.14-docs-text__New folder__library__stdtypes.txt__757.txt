@@ -1,0 +1,4 @@
+"difference()", "symmetric_difference()", "issubset()", and
+"issuperset()" methods will accept any iterable as an argument.  In
+contrast, their operator based counterparts require their arguments to
+be sets.  This precludes error-prone constructions like "set('abc') &

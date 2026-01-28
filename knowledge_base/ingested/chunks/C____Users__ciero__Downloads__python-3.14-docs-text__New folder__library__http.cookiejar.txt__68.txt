@@ -1,0 +1,5 @@
+your own additional checks:
+   import http.cookiejar
+   class MyCookiePolicy(http.cookiejar.DefaultCookiePolicy):
+       def set_ok(self, cookie, request):
+           if not http.cookiejar.DefaultCookiePolicy.set_ok(self, cookie, request):

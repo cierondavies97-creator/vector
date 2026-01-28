@@ -1,0 +1,4 @@
+arguments or want to pull them individually out of "call_args" and
+make more complex assertions on them.
+To ignore certain arguments you can pass in objects that compare equal
+to *everything*. Calls to "assert_called_with()" and

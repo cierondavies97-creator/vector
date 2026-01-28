@@ -1,0 +1,5 @@
+The "domain" portion of the address.
+   addr_spec
+      The "username@domain" portion of the address, correctly quoted
+      for use as a bare address (the second form shown above).  This
+      attribute is not mutable.

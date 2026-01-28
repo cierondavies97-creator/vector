@@ -1,0 +1,5 @@
+# Literal expressions are used to restrict permitted mapping pattern keys
+   literal_expr[expr_ty]:
+       | signed_number !('+' | '-')
+       | complex_number
+       | &(STRING|FSTRING_START|TSTRING_START) strings

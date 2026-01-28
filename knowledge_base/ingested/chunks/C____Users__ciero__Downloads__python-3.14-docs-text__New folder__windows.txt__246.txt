@@ -1,0 +1,3 @@
+scripting language, and the embedded Python distribution can be used
+for this purpose. In general, the majority of the application is in
+native code, and some part will either invoke "python.exe" or directly

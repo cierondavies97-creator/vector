@@ -1,0 +1,5 @@
+*autospec* doesn't allow you to fetch attributes that don't exist on
+the spec it doesn't prevent you setting them:
+   >>> with patch('__main__.Something', autospec=True):
+   ...   thing = Something()
+   ...   thing.a = 33

@@ -1,0 +1,4 @@
+----------------------------------
+To interoperate with networking interfaces such as the socket module,
+addresses must be converted to strings or integers. This is handled
+using the "str()" and "int()" builtin functions:

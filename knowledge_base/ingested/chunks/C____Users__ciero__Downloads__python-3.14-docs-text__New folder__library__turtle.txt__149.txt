@@ -1,0 +1,3 @@
+its stretchfactors: *stretch_wid* is stretchfactor perpendicular to
+   its orientation, *stretch_len* is stretchfactor in direction of its
+   orientation, *outline* determines the width of the shape's outline.

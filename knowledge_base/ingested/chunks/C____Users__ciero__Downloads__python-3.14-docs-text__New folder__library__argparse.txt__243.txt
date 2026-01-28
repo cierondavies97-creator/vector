@@ -1,0 +1,5 @@
+look like negative numbers, you can insert the pseudo-argument "'--'"
+which tells "parse_args()" that everything after that is a positional
+argument:
+   >>> parser.parse_args(['--', '-f'])
+   Namespace(foo='-f', one=None)

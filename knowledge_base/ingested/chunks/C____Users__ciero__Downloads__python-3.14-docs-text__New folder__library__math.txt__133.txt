@@ -1,0 +1,6 @@
+"pow(-0.0, -inf)" were changed to return "inf" instead of raising
+   "ValueError", for consistency with IEEE 754.
+math.sqrt(x)
+   Return the square root of *x*.
+Summation and product functions
+===============================

@@ -1,0 +1,8 @@
+(200.00,-0.00)
+      >>> turtle.clearstamp(astamp)
+      >>> turtle.position()
+      (200.00,-0.00)
+turtle.clearstamps(n=None)
+   Parameters:
+      **n** -- an integer (or "None")
+   Delete all or first/last *n* of turtle's stamps.  If *n* is "None",

@@ -1,0 +1,7 @@
+TASKS2 = [(plus, (i, 8)) for i in range(10)]
+       # Create queues
+       task_queue = Queue()
+       done_queue = Queue()
+       # Submit tasks
+       for task in TASKS1:
+           task_queue.put(task)

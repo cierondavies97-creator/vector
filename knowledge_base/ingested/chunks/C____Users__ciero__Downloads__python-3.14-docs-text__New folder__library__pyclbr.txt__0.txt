@@ -1,0 +1,5 @@
+"pyclbr" --- Python module browser support
+******************************************
+**Source code:** Lib/pyclbr.py
+======================================================================
+The "pyclbr" module provides limited information about the functions,

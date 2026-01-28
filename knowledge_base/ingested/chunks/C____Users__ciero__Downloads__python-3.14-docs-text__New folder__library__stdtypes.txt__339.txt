@@ -1,0 +1,7 @@
+'Letters, Alphabetic, and Ideographic' of the Unicode Standard. For
+   example:
+      >>> 'Letters and spaces'.isalpha()
+      False
+      >>> 'LettersOnly'.isalpha()
+      True
+      >>> 'µ'.isalpha()  # non-ASCII characters can be considered alphabetical too

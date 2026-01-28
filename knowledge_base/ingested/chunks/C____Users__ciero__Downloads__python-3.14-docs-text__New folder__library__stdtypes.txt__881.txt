@@ -1,0 +1,7 @@
+"typing.Union" and used for "isinstance()" checks:
+   >>> import typing
+   >>> isinstance(int | str, typing.Union)
+   True
+   >>> typing.Union()
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

@@ -1,0 +1,5 @@
+Get the profiler function as set by "setprofile()".
+   Added in version 3.10.
+threading.stack_size([size])
+   Return the thread stack size used when creating new threads.  The
+   optional *size* argument specifies the stack size to be used for

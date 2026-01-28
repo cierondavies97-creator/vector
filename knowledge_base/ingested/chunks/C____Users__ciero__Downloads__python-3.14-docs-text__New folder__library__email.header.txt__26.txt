@@ -1,0 +1,3 @@
+string.  Space and tab may be included in the string to indicate
+      whether preference should be given to one over the other as a
+      split point when other split chars do not appear in the line

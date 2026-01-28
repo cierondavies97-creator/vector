@@ -1,0 +1,3 @@
+|                   | co_filename         | name of file in which this  |
+|                   |                     | code object was created     |
++-------------------+---------------------+-----------------------------+

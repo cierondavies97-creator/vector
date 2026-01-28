@@ -1,0 +1,4 @@
+This is how SQLite types are converted to Python types by default:
++---------------+------------------------------------------------+
+| SQLite type   | Python type                                    |
+|===============|================================================|

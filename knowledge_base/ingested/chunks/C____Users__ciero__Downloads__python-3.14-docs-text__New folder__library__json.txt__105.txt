@@ -1,0 +1,3 @@
+unique, but does not mandate how repeated names in JSON objects should
+be handled.  By default, this module does not raise an exception;
+instead, it ignores all but the last name-value pair for a given name:

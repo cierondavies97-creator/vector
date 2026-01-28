@@ -1,0 +1,4 @@
+*annotate*, each opcode in the output is annotated with a short
+   description.  The value of *annotate* is used as a hint for the
+   column where annotation should start.
+   Changed in version 3.2: Added the *annotate* parameter.

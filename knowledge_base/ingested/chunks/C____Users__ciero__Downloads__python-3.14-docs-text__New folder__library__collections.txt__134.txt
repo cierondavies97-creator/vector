@@ -1,0 +1,4 @@
+fields with a default value must come after any fields without a
+   default, the *defaults* are applied to the rightmost parameters.
+   For example, if the fieldnames are "['x', 'y', 'z']" and the
+   defaults are "(1, 2)", then "x" will be a required argument, "y"

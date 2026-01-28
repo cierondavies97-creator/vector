@@ -1,0 +1,4 @@
+With version 2 (the default), a "str", "bytes", or "bytearray"
+   object gets converted to an "int" and all of its bits are used.
+   With version 1 (provided for reproducing random sequences from
+   older versions of Python), the algorithm for "str" and "bytes"

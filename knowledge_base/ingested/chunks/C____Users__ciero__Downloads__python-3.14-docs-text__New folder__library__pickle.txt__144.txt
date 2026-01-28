@@ -1,0 +1,4 @@
+# Fetch the records to be pickled.
+       cursor.execute("SELECT * FROM memos")
+       memos = [MemoRecord(key, task) for key, task in cursor]
+       # Save the records using our custom DBPickler.

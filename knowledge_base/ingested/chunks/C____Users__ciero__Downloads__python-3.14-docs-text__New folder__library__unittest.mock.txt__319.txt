@@ -1,0 +1,4 @@
+The objects returned have a sensible repr so that test failure
+   messages are readable.
+   Changed in version 3.7: The "sentinel" attributes now preserve
+   their identity when they are "copied" or "pickled".

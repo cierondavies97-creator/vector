@@ -1,0 +1,6 @@
+server.
+exception smtplib.SMTPHeloError
+   The server refused our "HELO" message.
+exception smtplib.SMTPNotSupportedError
+   The command or option attempted is not supported by the server.
+   Added in version 3.5.

@@ -1,0 +1,6 @@
+def tearDown(self):
+           ... code to execute to clean up after tests ...
+       def test_feature_one(self):
+           # Test feature one.
+           ... testing code ...
+       def test_feature_two(self):

@@ -1,0 +1,7 @@
+1
+      Specifies an input parameter to the function.
+   2
+      Output parameter.  The foreign function fills in a value.
+   4
+      Input parameter which defaults to the integer zero.
+The optional second item is the parameter name as string.  If this is

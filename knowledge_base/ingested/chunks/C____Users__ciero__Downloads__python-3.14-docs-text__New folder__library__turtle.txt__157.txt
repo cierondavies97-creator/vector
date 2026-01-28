@@ -1,0 +1,5 @@
+current tilt-angle, i. e. the angle between the orientation of the
+   turtleshape and the heading of the turtle (its direction of
+   movement).
+      >>> turtle.reset()
+      >>> turtle.shape("circle")

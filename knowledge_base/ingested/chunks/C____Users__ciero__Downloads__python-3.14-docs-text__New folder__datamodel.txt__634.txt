@@ -1,0 +1,5 @@
+The "object" class itself does not provide these methods.
+object.__aiter__(self)
+   Must return an *asynchronous iterator* object.
+object.__anext__(self)
+   Must return an *awaitable* resulting in a next value of the

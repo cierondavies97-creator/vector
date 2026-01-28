@@ -1,0 +1,3 @@
+matched by the final "'a'". However, when "a*+a" is used to match
+   "'aaaa'", the "a*+" will match all 4 "'a'", but when the final
+   "'a'" fails to find any more characters to match, the expression

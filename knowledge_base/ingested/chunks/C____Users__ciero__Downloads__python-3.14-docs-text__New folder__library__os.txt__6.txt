@@ -1,0 +1,4 @@
+supported.
+* On WebAssembly platforms, Android and iOS, large parts of the "os"
+  module are not available or behave differently. APIs related to
+  processes (e.g. "fork()", "execve()") and resources (e.g. "nice()")

@@ -1,0 +1,5 @@
+identifying the current version of the abstract base class cache
+   for virtual subclasses. The token changes with every call to
+   "ABCMeta.register()" on any ABC.
+   Added in version 3.4.
+abc.update_abstractmethods(cls)

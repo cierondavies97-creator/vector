@@ -1,0 +1,4 @@
+| deleted     | Marked for subsequent deletion             |
+   +-------------+--------------------------------------------+
+   | filed       | Copied to another file or mailbox          |
+   +-------------+--------------------------------------------+

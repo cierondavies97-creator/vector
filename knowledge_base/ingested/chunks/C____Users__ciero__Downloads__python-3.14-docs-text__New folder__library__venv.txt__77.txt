@@ -1,0 +1,4 @@
+contents of "common" and the directory corresponding to
+      "os.name" are copied after some text replacement of
+      placeholders:
+      * "__VENV_DIR__" is replaced with the absolute path of the

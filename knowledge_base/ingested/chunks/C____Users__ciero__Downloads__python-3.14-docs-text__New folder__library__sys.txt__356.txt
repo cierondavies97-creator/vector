@@ -1,0 +1,5 @@
+* ""solaris"": Solaris threads
+   thread_info.lock
+      The name of the lock implementation:
+      * ""semaphore"": a lock uses a semaphore
+      * ""mutex+cond"": a lock uses a mutex and a condition variable

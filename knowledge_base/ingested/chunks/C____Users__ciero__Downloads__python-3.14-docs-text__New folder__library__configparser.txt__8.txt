@@ -1,0 +1,5 @@
+>>> config['forge.example'] = {}
+   >>> config['forge.example']['User'] = 'hg'
+   >>> config['topsecret.server.example'] = {}
+   >>> topsecret = config['topsecret.server.example']
+   >>> topsecret['Port'] = '50022'     # mutates the parser

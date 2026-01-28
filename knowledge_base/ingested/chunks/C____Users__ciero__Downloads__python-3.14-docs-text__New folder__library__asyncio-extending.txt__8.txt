@@ -1,0 +1,6 @@
+Task lifetime support
+=====================
+A third party task implementation should call the following functions
+to keep a task visible by "asyncio.all_tasks()" and
+"asyncio.current_task()":
+asyncio._register_task(task)

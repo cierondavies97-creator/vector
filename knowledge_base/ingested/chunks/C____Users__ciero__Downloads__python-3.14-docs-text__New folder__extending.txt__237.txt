@@ -1,0 +1,5 @@
+static void **PySpam_API;
+   #define PySpam_System \
+    (*(PySpam_System_RETURN (*)PySpam_System_PROTO) PySpam_API[PySpam_System_NUM])
+   /* Return -1 on error, 0 on success.
+    * PyCapsule_Import will set an exception if there's an error.

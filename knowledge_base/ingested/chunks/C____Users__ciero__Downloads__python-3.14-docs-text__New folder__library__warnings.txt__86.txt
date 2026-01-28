@@ -1,0 +1,4 @@
+def one_way(r_luxury_yacht=None, t_wobbler_mangrove=None):
+          if r_luxury_yacht:
+              warnings.warn("Please migrate to t_wobbler_mangrove=.",
+                            skip_file_prefixes=_warn_skips)

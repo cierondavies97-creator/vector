@@ -1,0 +1,4 @@
+"os.stat(entry.path)" to fetch up-to-date information.
+   Because the "os.DirEntry" methods can make operating system calls,
+   they may also raise "OSError". If you need very fine-grained
+   control over errors, you can catch "OSError" when calling one of

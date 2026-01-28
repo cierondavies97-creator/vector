@@ -1,0 +1,5 @@
+basic concepts of the module.
+XML tree and elements
+---------------------
+XML is an inherently hierarchical data format, and the most natural
+way to represent it is with a tree.  "ET" has two classes for this

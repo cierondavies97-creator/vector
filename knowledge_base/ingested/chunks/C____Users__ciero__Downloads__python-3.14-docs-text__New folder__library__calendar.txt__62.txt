@@ -1,0 +1,5 @@
+>>> import calendar
+   >>> list(calendar.day_name)
+   ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+calendar.day_abbr
+   A sequence that represents the abbreviated days of the week in the

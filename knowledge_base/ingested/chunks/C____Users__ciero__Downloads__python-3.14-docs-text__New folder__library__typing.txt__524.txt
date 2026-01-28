@@ -1,0 +1,7 @@
+Aliases to other concrete types
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class typing.Pattern
+class typing.Match
+   Deprecated aliases corresponding to the return types from
+   "re.compile()" and "re.match()".
+   These types (and the corresponding functions) are generic over

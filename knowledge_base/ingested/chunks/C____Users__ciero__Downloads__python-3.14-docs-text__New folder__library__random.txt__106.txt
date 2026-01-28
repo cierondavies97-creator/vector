@@ -1,0 +1,4 @@
+the nearest representable Python float.  (The value 2⁻¹⁰⁷⁴ is the
+smallest positive unnormalized float and is equal to "math.ulp(0.0)".)
+See also:
+  Generating Pseudo-random Floating-Point Values a paper by Allen B.

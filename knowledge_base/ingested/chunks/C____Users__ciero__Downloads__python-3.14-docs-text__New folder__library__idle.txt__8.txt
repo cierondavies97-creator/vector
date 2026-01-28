@@ -1,0 +1,6 @@
+Open Module...
+   Open an existing module (searches sys.path).
+Recent Files
+   Open a list of recent files.  Click one to open it.
+Module Browser
+   Show functions, classes, and methods in the current Editor file in

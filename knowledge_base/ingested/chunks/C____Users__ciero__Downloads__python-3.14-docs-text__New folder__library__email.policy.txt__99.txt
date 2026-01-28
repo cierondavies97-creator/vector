@@ -1,0 +1,4 @@
+the "EmailMessage" is a header object with extra attributes, whose
+string value is the fully decoded unicode value of the header.
+Likewise, a header may be assigned a new value, or a new header
+created, using a unicode string, and the policy will take care of

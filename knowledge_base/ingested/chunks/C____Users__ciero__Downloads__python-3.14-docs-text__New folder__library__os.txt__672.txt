@@ -1,0 +1,4 @@
+parameter.  In either case, the arguments to the child process must
+   start with the name of the command being run.
+   The variants which include a second "p" near the end ("spawnlp()",
+   "spawnlpe()", "spawnvp()", and "spawnvpe()") will use the "PATH"

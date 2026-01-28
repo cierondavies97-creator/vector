@@ -1,0 +1,5 @@
+print("There were some errors")
+Legacy Shell Invocation Functions
+=================================
+This module also provides the following legacy functions from the 2.x
+"commands" module. These operations implicitly invoke the system shell

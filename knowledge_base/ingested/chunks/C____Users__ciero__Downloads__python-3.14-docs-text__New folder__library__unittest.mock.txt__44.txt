@@ -1,0 +1,6 @@
+>>> mock.method()
+      <Mock name='mock.method()' id='...'>
+      >>> mock.method.assert_called()
+      Added in version 3.6.
+   assert_called_once()
+      Assert that the mock was called exactly once.

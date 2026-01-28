@@ -1,0 +1,4 @@
+example, if it is *hashable* or if it is a *mapping*.
+This module provides the metaclass "ABCMeta" for defining ABCs and a
+helper class "ABC" to alternatively define ABCs through inheritance:
+class abc.ABC

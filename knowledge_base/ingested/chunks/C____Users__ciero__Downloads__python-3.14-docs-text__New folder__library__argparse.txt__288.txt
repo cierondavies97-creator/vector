@@ -1,0 +1,7 @@
+>>> args.func(args)
+      2.0
+      >>>
+      >>> # parse the args and call whatever function was selected
+      >>> args = parser.parse_args('bar XYZYX'.split())
+      >>> args.func(args)
+      ((XYZYX))

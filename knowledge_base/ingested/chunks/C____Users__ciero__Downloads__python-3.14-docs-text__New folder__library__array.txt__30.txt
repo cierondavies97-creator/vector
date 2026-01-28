@@ -1,0 +1,5 @@
+from a file using the "fromfile()" method).
+      Added in version 3.2: "fromstring()" is renamed to "frombytes()"
+      for clarity.
+   fromfile(f, n)
+      Read *n* items (as machine values) from the *file object* *f*

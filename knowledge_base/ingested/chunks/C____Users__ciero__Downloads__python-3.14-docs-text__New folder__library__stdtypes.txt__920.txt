@@ -1,0 +1,4 @@
+output string when a non-linear conversion algorithm would be
+involved.  Underscores and the sign are not counted towards the limit.
+When an operation would exceed the limit, a "ValueError" is raised:
+   >>> import sys

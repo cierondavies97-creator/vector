@@ -1,0 +1,6 @@
+exception.
+Options menu (Shell and Editor)
+-------------------------------
+Configure IDLE
+   Open a configuration dialog and change preferences for the
+   following: fonts, indentation, keybindings, text color themes,

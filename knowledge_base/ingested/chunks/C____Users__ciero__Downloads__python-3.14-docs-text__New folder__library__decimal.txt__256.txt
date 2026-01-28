@@ -1,0 +1,9 @@
+>>> (u + v) + w
+   Decimal('9.5111111')
+   >>> u + (v + w)
+   Decimal('10')
+   >>> u, v, w = Decimal(20000), Decimal(-6), Decimal('6.0000003')
+   >>> (u*v) + (u*w)
+   Decimal('0.01')
+   >>> u * (v+w)
+   Decimal('0.0060000')

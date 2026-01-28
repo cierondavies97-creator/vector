@@ -1,0 +1,4 @@
+If *follow_symlinks* is "False", return "True" only if this
+      entry is a directory (without following symlinks); return
+      "False" if the entry is any other kind of file or if it doesn't
+      exist anymore.

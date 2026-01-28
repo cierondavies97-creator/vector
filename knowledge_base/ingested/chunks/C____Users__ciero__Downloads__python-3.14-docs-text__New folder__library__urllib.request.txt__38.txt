@@ -1,0 +1,5 @@
+proxy in a CGI environment, either use "ProxyHandler" explicitly,
+     or make sure the variable name is in lowercase (or at least the
+     "_proxy" suffix).
+The following classes are provided:
+class urllib.request.Request(url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None)

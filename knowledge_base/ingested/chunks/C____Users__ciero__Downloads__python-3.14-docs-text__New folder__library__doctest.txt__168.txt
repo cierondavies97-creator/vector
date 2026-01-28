@@ -1,0 +1,4 @@
+skipped, then the
+   Optional argument *module* provides the module to be tested.  It
+   can be a module object or a (possibly dotted) module name.  If not
+   specified, the module calling this function is used.

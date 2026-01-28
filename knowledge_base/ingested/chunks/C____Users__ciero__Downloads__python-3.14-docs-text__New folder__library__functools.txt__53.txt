@@ -1,0 +1,3 @@
+been declared in the class *or its superclasses*. Meaning that if
+     a superclass defines a comparison operator, *total_ordering* will
+     not implement it again, even if the original method is abstract.

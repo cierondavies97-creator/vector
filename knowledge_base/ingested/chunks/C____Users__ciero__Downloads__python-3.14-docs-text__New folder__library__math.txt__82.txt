@@ -1,0 +1,4 @@
+arguments. Formerly, only two arguments were supported.
+math.isqrt(n)
+   Return the integer square root of the nonnegative integer *n*. This
+   is the floor of the exact square root of *n*, or equivalently the

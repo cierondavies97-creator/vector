@@ -1,0 +1,5 @@
+"bgcolor()"
+      Return the current background color as color specification
+      string or as a tuple (see example).  May be used as input to
+      another color/pencolor/fillcolor/bgcolor call.
+   "bgcolor(colorstring)"

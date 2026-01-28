@@ -1,0 +1,4 @@
+packages) it is returned unchanged.  The input path is not
+   modified; an extended copy is returned.  Items are only appended to
+   the copy at the end.
+   It is assumed that "sys.path" is a sequence.  Items of "sys.path"

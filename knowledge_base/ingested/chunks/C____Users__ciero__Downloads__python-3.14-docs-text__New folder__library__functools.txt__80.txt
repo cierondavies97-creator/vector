@@ -1,0 +1,5 @@
+argument.
+@functools.singledispatch
+   Transform a function into a *single-dispatch* *generic function*.
+   To define a generic function, decorate it with the
+   "@singledispatch" decorator. When defining a function using

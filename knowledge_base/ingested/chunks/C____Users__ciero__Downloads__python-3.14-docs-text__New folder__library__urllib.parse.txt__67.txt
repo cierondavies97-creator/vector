@@ -1,0 +1,3 @@
+Following some of the WHATWG spec that updates RFC 3986, leading C0
+   control and space characters are stripped from the URL. "\n", "\r"
+   and tab "\t" characters are removed from the URL at any position.

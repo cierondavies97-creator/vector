@@ -1,0 +1,4 @@
+with some additional clarification:
+* If there is an existing module object with the given name in
+  "sys.modules", the loader must use that existing module. (Otherwise,
+  "importlib.reload()" will not work correctly.)  If the named module

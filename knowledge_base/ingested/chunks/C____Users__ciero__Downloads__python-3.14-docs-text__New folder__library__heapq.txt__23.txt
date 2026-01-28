@@ -1,0 +1,4 @@
+extract a comparison key from each input element.  The default
+   value is "None" (compare the elements directly).
+   *reverse* is a boolean value.  If set to "True", then the input
+   elements are merged as if each comparison were reversed. To achieve

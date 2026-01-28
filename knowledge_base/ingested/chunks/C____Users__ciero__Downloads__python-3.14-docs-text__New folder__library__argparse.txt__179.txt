@@ -1,0 +1,4 @@
+'paper', 'scissors')
+Any sequence can be passed as the *choices* value, so "list" objects,
+"tuple" objects, and custom sequences are all supported.
+Use of "enum.Enum" is not recommended because it is difficult to

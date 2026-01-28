@@ -1,0 +1,4 @@
+are treated similarly.
+If "-n" is not given, a suitable number of loops is calculated by
+trying increasing numbers from the sequence 1, 2, 5, 10, 20, 50, ...
+until the total time is at least 0.2 seconds.

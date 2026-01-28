@@ -1,0 +1,4 @@
+==================================================
+The high level interface gives you the ability to execute arbitrary
+pieces of Python code from your application, but exchanging data
+values is quite cumbersome to say the least. If you want that, you

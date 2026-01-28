@@ -1,0 +1,6 @@
+Example:
+         # cur is an sqlite3.Cursor object
+         cur.executescript("""
+             BEGIN;
+             CREATE TABLE person(firstname, lastname, age);
+             CREATE TABLE book(title, author, published);

@@ -1,0 +1,4 @@
+"OptionGroup" inherits from "OptionContainer" (like "OptionParser")
+and so the "add_option()" method can be used to add an option to the
+group.
+Once all the options are declared, using the "OptionParser" method

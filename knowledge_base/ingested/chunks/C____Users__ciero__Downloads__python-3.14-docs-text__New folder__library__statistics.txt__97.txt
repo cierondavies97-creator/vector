@@ -1,0 +1,4 @@
+to invalid or impossible results.
+   Decimal and Fraction values are supported:
+      >>> from decimal import Decimal as D
+      >>> variance([D("27.5"), D("30.25"), D("30.25"), D("34.5"), D("41.75")])

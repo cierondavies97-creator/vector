@@ -1,0 +1,3 @@
+element tuples containing a short and long message. For example,
+      "{code: (shortmessage, longmessage)}". The *shortmessage* is
+      usually used as the *message* key in an error response, and

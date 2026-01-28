@@ -1,0 +1,3 @@
+The *request* parameter is limited to values that can fit in
+   32-bits or 64-bits, depending on the platform. Additional constants
+   of interest for use as the *request* argument can be found in the

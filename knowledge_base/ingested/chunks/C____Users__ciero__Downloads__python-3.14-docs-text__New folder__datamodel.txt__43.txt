@@ -1,0 +1,4 @@
+the numbers 0, 1, ..., *n*-1.  Item *i* of sequence *a* is selected by
+"a[i]". Some sequences, including built-in sequences, interpret
+negative subscripts by adding the sequence length. For example,
+"a[-2]" equals "a[n-2]", the second to last item of sequence a with

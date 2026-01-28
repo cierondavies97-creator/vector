@@ -1,0 +1,5 @@
+Added in version 3.7.
+   Note:
+     This function has been added on a provisional basis (see **PEP
+     411** for details.)  Use it only for debugging purposes.
+sys.activate_stack_trampoline(backend, /)

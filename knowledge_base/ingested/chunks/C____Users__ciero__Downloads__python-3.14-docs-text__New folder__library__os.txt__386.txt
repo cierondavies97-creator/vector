@@ -1,0 +1,4 @@
+the "scandir()" *path* argument was absolute.  If the
+      "scandir()" *path* argument was a file descriptor, the "path"
+      attribute is the same as the "name" attribute.
+      The "path" attribute will be "bytes" if the "scandir()" *path*

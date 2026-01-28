@@ -1,0 +1,5 @@
+brackets. (Note that there are no special cases needed to form
+   lists of length 0 or 1.)
+Byte Arrays
+   A bytearray object is a mutable array. They are created by the
+   built-in "bytearray()" constructor.  Aside from being mutable (and

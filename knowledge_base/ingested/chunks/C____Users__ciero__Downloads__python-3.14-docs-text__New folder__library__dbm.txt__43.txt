@@ -1,0 +1,5 @@
+The "dbm.ndbm" module provides an interface to the NDBM (New Database
+Manager) library. This module can be used with the "classic" NDBM
+interface or the GDBM (GNU dbm) compatibility interface.
+Note:
+  The file formats created by "dbm.gnu" and "dbm.ndbm" are

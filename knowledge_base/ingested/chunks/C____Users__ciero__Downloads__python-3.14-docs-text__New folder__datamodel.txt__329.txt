@@ -1,0 +1,4 @@
+operation is not available.  For example, if a class sets "__iter__()"
+to "None", the class is not iterable, so calling "iter()" on its
+instances will raise a "TypeError" (without falling back to
+"__getitem__()"). [2]

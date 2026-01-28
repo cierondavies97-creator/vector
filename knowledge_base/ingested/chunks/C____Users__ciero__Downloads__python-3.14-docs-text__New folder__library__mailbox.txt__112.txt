@@ -1,0 +1,4 @@
+headers and so-called visible headers. Visible headers are
+   typically a subset of the original headers that have been
+   reformatted or abridged to be more attractive. Each message in a
+   Babyl mailbox also has an accompanying list of *labels*, or short

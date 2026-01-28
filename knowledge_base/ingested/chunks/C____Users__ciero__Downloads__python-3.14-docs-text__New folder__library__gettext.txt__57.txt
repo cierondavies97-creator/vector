@@ -1,0 +1,5 @@
+'There are %(num)d files in this directory',
+             n) % {'num': n}
+   pgettext(context, message)
+      Look up the *context* and *message* id in the catalog and return
+      the corresponding message string, as a Unicode string.  If there

@@ -1,0 +1,7 @@
+friendly string representation for other objects that contain
+   values that are commonly encountered in annotations.
+   Added in version 3.14.
+Recipes
+=======
+Using annotations in a metaclass
+--------------------------------

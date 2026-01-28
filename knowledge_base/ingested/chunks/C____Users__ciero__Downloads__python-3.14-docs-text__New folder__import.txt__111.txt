@@ -1,0 +1,4 @@
+and shared libraries (e.g. ".so" files). When supported by the
+"zipimport" module in the standard library, the default path entry
+finders also handle loading all of these file types (other than shared
+libraries) from zipfiles.

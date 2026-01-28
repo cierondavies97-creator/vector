@@ -1,0 +1,6 @@
+Added in version 3.9.
+IMAP4.xatom(name[, ...])
+   Allow simple extension commands notified by server in "CAPABILITY"
+   response.
+The following attributes are defined on instances of "IMAP4":
+IMAP4.PROTOCOL_VERSION

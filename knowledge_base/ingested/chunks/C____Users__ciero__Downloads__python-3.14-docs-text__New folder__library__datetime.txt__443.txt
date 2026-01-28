@@ -1,0 +1,3 @@
+code points that can't be represented in the charset of the current
+locale is also platform-dependent. On some platforms such code points
+are preserved intact in the output, while on others "strftime" may

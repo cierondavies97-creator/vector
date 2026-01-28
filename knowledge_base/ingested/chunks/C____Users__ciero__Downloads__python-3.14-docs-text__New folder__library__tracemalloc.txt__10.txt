@@ -1,0 +1,4 @@
+We can see that Python loaded "4855 KiB" data (bytecode and constants)
+from modules and that the "collections" module allocated "244 KiB" to
+build "namedtuple" types.
+See "Snapshot.statistics()" for more options.

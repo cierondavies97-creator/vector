@@ -1,0 +1,5 @@
+* *pkttype* - Optional integer specifying the packet type:
+    * "PACKET_HOST" (the default) - Packet addressed to the local
+      host.
+    * "PACKET_BROADCAST" - Physical-layer broadcast packet.
+    * "PACKET_MULTICAST" - Packet sent to a physical-layer multicast

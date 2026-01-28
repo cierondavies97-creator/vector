@@ -1,0 +1,7 @@
+though it may not be recognised as such by shells.
+   Added in version 3.6.
+Parsing Rules
+=============
+When operating in non-POSIX mode, "shlex" will try to obey to the
+following rules.
+* Quote characters are not recognized within words ("Do"Not"Separate"

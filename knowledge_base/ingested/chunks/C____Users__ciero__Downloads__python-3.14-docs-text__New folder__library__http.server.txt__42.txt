@@ -1,0 +1,4 @@
+accepted request. The HTTP response line is written to the
+      internal buffer, followed by *Server* and *Date* headers. The
+      values for these two headers are picked up from the
+      "version_string()" and "date_time_string()" methods,

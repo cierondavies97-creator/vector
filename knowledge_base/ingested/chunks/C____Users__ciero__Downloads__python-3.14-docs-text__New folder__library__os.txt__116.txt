@@ -1,0 +1,4 @@
+*offset_dst*. If *offset_src* is "None", then *src* is read from
+   the current position; respectively for *offset_dst*.
+   In Linux kernel older than 5.3, the files pointed to by *src* and
+   *dst* must reside in the same filesystem, otherwise an "OSError" is

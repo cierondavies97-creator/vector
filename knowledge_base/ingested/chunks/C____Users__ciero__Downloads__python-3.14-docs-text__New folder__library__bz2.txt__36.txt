@@ -1,0 +1,5 @@
+If this attribute is accessed before the end of the stream has
+      been reached, its value will be "b''".
+   needs_input
+      "False" if the "decompress()" method can provide more
+      decompressed data before requiring new uncompressed input.

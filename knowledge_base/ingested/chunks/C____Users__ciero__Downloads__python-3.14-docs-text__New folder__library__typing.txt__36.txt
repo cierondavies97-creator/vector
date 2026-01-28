@@ -1,0 +1,3 @@
+their parameter types are dependent on each other using "ParamSpec".
+Additionally, if that callable adds or removes arguments from other
+callables, the "Concatenate" operator may be used.  They take the form

@@ -1,0 +1,4 @@
+The space saved over using "__dict__" can be significant. Attribute
+lookup speed can be significantly improved as well.
+object.__slots__
+   This class variable can be assigned a string, iterable, or sequence

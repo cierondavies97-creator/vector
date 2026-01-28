@@ -1,0 +1,3 @@
+possible to use "RawConfigParser" (or "ConfigParser" with *raw*
+      parameters set to true) for *internal* storage of non-string
+      values, full functionality (including interpolation and output

@@ -1,0 +1,6 @@
+subscription results in "__class_getitem__()" being called
+     instead of "__getitem__()"
+3.3.6. Emulating callable objects
+---------------------------------
+object.__call__(self[, args...])
+   Called when the instance is "called" as a function; if this method

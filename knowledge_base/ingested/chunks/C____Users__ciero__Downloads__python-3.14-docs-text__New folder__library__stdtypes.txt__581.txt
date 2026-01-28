@@ -1,0 +1,3 @@
+Split the binary sequence into subsequences of the same type, using
+   *sep* as the delimiter string. If *maxsplit* is given and non-
+   negative, at most *maxsplit* splits are done (thus, the list will

@@ -1,0 +1,4 @@
+the new file descriptor is non-inheritable.
+   The name supplied in *name* is used as a filename and will be
+   displayed as the target of the corresponding symbolic link in the
+   directory "/proc/self/fd/". The displayed name is always prefixed

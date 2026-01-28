@@ -1,0 +1,4 @@
+what filters are set the warning will not be seen again unless the
+warnings registry related to the warning has been cleared.
+Once the context manager exits, the warnings filter is restored to its
+state when the context was entered. This prevents tests from changing

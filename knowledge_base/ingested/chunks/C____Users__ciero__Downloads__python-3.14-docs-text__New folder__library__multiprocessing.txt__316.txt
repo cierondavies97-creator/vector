@@ -1,0 +1,6 @@
+proxy for it.
+   Condition([lock])
+      Create a shared "threading.Condition" object and return a proxy
+      for it.
+      If *lock* is supplied then it should be a proxy for a
+      "threading.Lock" or "threading.RLock" object.

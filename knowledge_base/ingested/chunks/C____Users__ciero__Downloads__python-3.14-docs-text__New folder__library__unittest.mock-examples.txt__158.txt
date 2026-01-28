@@ -1,0 +1,4 @@
+mock to created a Twisted adaptor. Having this applied to attributes
+too actually causes errors.
+"Mock" (in all its flavours) uses a method called "_get_child_mock" to
+create these "sub-mocks" for attributes and return values. You can

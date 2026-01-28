@@ -1,0 +1,4 @@
+|                                  | canonical attribute values.                     |
++----------------------------------+-------------------------------------------------+
+Notes:
+1. This is exact but may overflow.

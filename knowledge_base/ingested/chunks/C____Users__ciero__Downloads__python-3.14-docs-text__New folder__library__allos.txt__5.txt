@@ -1,0 +1,11 @@
+* Text I/O
+  * Static Typing
+  * Performance
+    * Binary I/O
+    * Text I/O
+    * Multi-threading
+    * Reentrancy
+* "time" --- Time access and conversions
+  * Functions
+  * Clock ID Constants
+  * Timezone Constants

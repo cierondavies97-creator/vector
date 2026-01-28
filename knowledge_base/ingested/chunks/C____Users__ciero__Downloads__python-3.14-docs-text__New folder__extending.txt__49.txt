@@ -1,0 +1,4 @@
+The "PyErr_NewException()" function may create a class with the base
+class being "Exception" (unless another class is passed in instead of
+"NULL"), described in Built-in Exceptions.
+Note also that the "SpamError" variable retains a reference to the

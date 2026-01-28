@@ -1,0 +1,4 @@
+("-1") for more information about these values.
+   *method* is the compression algorithm. Currently, the only
+   supported value is "DEFLATED".
+   The *wbits* parameter controls the size of the history buffer (or

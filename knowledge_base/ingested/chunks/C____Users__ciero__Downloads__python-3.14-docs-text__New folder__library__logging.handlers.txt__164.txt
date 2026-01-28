@@ -1,0 +1,4 @@
+used for the HTTPS connection. If *credentials* is specified, it
+   should be a 2-tuple consisting of userid and password, which will
+   be placed in a HTTP 'Authorization' header using Basic
+   authentication. If you specify credentials, you should also specify

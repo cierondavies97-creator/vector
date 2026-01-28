@@ -1,0 +1,4 @@
+See "BaseHandler.http_error_<nnn>()" for more information.
+   * "<protocol>_error()" --- signal that the handler knows how to
+     handle errors from (non-"http") *protocol*.
+   * "<protocol>_request()" --- signal that the handler knows how to

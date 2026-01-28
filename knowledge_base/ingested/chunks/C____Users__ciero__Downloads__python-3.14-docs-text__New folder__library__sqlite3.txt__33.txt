@@ -1,0 +1,4 @@
+a table, that table will be locked until the transaction is
+        committed. Default five seconds.
+      * **detect_types** (*int*) -- Control whether and how data types
+        not natively supported by SQLite are looked up to be converted

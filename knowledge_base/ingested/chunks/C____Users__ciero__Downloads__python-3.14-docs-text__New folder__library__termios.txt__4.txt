@@ -1,0 +1,5 @@
+information on using these terminal control interfaces.
+The module defines the following functions:
+termios.tcgetattr(fd)
+   Return a list containing the tty attributes for file descriptor
+   *fd*, as follows: "[iflag, oflag, cflag, lflag, ispeed, ospeed,

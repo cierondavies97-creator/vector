@@ -1,0 +1,3 @@
+Specifying "-v" or "--verbose" will increase the amount of output
+shown, and "-vv" will increase it further for debugging purposes.
+Passing "-q" or "--quiet" will reduce output, and "-qq" will reduce it

@@ -1,0 +1,4 @@
+by the XML-RPC server. It returns an array of possible signatures
+   for this method. A signature is an array of types. The first of
+   these types is the return type of the method, the rest are
+   parameters.

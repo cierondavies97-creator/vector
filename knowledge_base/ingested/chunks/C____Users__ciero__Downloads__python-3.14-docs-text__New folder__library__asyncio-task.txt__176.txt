@@ -1,0 +1,5 @@
+result()
+      Return the result of the Task.
+      If the Task is *done*, the result of the wrapped coroutine is
+      returned (or if the coroutine raised an exception, that
+      exception is re-raised.)

@@ -1,0 +1,4 @@
+regular "dict".
+   Changed in version 3.8: Returns a regular "dict" instead of an
+   "OrderedDict". As of Python 3.7, regular dicts are guaranteed to be
+   ordered.  If the extra features of "OrderedDict" are required, the

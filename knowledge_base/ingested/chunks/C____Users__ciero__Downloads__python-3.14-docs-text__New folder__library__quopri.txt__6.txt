@@ -1,0 +1,3 @@
+must be *binary file objects*. *quotetabs*, a non-optional flag
+   which controls whether to encode embedded spaces and tabs; when
+   true it encodes such embedded whitespace, and when false it leaves

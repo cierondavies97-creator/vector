@@ -1,0 +1,3 @@
+to specify the policy when an "EmailMessage" is created, either by
+directly instantiating an "EmailMessage"  to create a new email, or by
+parsing an input stream using a "parser".  But the policy can be

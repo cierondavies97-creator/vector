@@ -1,0 +1,7 @@
+-e <zipfile> <output_dir>
+--extract <zipfile> <output_dir>
+   Extract zipfile into target directory.
+-t <zipfile>
+--test <zipfile>
+   Test whether the zipfile is valid or not.
+--metadata-encoding <encoding>

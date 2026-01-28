@@ -1,0 +1,4 @@
+action, you may also supply "type" and "dest" option attributes;
+   see Standard option actions.)
+As you can see, most actions involve storing or updating a value
+somewhere. "optparse" always creates a special object for this,

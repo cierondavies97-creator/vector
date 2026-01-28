@@ -1,0 +1,4 @@
+equivalent to "getenv("HOME")" in C.
+   This mapping is captured the first time the "os" module is
+   imported, typically during Python startup as part of processing
+   "site.py".  Changes to the environment made after this time are not

@@ -1,0 +1,4 @@
+completely and must flush all buffers. If this isn't possible
+      (e.g. because of incomplete byte sequences at the end of the
+      input) it must initiate error handling just like in the
+      stateless case (which might raise an exception).

@@ -1,0 +1,6 @@
+con.close()
+   close()
+      Close the blob.
+      The blob will be unusable from this point onward.  An "Error"
+      (or subclass) exception will be raised if any further operation
+      is attempted with the blob.

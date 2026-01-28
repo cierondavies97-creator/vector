@@ -1,0 +1,4 @@
+...         '//www.python.org/%7Eguido')
+        'http://www.python.org/%7Eguido'
+     If you do not want that behavior, preprocess the *url* with
+     "urlsplit()" and "urlunsplit()", removing possible *scheme* and

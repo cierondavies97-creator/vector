@@ -1,0 +1,6 @@
+unable to start the process it will propagate the exception that
+   was raised.
+   Code needing to capture stdout or stderr should use "run()"
+   instead:
+      run(..., check=True)
+   To suppress stdout or stderr, supply a value of "DEVNULL".

@@ -1,0 +1,4 @@
+building the module if zlib-ng was used. When present, the
+   "ZLIB_VERSION" and "ZLIB_RUNTIME_VERSION" constants reflect the
+   version of the zlib API provided by zlib-ng.
+   If zlib-ng was not used to build the module, this constant will be

@@ -1,0 +1,4 @@
+are inherited by the child process.  Note that safely forking a
+      multithreaded process is problematic.
+      Available on POSIX systems.
+      Changed in version 3.14: This is no longer the default start

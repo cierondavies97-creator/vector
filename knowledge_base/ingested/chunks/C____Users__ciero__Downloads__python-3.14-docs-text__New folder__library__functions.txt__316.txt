@@ -1,0 +1,4 @@
+iterables, consider using "itertools.chain()".
+   Changed in version 3.8: The *start* parameter can be specified as a
+   keyword argument.
+   Changed in version 3.12: Summation of floats switched to an

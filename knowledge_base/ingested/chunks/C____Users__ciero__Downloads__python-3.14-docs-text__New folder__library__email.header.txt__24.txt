@@ -1,0 +1,3 @@
+Optional *splitchars* is a string containing characters which
+      should be given extra weight by the splitting algorithm during
+      normal header wrapping.  This is in very rough support of **RFC

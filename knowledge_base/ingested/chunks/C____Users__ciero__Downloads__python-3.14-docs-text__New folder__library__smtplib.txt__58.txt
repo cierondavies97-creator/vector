@@ -1,0 +1,3 @@
+respectively.  They all require that the "user" and "password"
+   properties of the "SMTP" instance are set to appropriate values.
+   User code does not normally need to call "auth" directly, but can

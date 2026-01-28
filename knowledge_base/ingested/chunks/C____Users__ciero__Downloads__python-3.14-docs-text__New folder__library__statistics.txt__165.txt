@@ -1,0 +1,4 @@
+>>> k = 500             # Room capacity
+   >>> # Approximation using the cumulative normal distribution
+   >>> from math import sqrt
+   >>> round(NormalDist(mu=n*p, sigma=sqrt(n*p*q)).cdf(k + 0.5), 4)

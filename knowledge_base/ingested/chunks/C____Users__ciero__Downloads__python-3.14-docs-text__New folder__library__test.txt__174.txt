@@ -1,0 +1,4 @@
+Cleanup up threads not specified in *original_values*.  Designed to
+   emit a warning if a test leaves running threads in the background.
+test.support.threading_helper.threading_setup()
+   Return current thread count and copy of dangling threads.

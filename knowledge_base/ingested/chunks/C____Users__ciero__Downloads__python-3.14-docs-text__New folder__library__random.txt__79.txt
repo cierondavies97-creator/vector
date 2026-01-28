@@ -1,0 +1,5 @@
+to estimate a confidence interval for the mean of a sample:
+   # https://www.thoughtco.com/example-of-bootstrapping-3126155
+   from statistics import fmean as mean
+   from random import choices
+   data = [41, 50, 29, 37, 81, 30, 73, 63, 20, 35, 68, 22, 60, 31, 95]

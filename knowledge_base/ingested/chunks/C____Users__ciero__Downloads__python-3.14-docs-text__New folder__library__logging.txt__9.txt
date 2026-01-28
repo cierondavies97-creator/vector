@@ -1,0 +1,4 @@
+root logger needs to be so configured, since all the lower level
+loggers at module level eventually forward their messages to its
+handlers.  "basicConfig()" provides a quick way to configure the root
+logger that handles many use cases.

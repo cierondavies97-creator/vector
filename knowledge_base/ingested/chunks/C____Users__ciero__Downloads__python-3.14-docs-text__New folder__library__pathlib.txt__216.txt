@@ -1,0 +1,5 @@
+replaced.
+   The target path may be absolute or relative. Relative paths are
+   interpreted relative to the current working directory, *not* the
+   directory of the "Path" object.
+   Changed in version 3.8: Added return value, return the new "Path"

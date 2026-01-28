@@ -1,0 +1,7 @@
+encoding
+      The name of the encoding that raised the error.
+   reason
+      A string describing the specific codec error.
+   object
+      The object the codec was attempting to encode or decode.
+   start

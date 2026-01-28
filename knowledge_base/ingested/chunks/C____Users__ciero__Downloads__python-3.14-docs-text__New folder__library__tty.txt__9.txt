@@ -1,0 +1,6 @@
+This restores the behavior of Python 3.11 and earlier as well as
+   matching what Linux, macOS, & BSDs describe in their "stty(1)" man
+   pages regarding cbreak mode.
+See also:
+  Module "termios"
+     Low-level terminal control interface.

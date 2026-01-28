@@ -1,0 +1,5 @@
+Polling Objects
+===============
+The "poll()" system call, supported on most Unix systems, provides
+better scalability for network servers that service many, many clients
+at the same time. "poll()" scales better because the system call only

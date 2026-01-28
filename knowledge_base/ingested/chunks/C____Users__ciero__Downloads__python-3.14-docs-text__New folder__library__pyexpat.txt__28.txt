@@ -1,0 +1,4 @@
+passed a true value, but otherwise has no effect.
+   This method can only be called before the "Parse()" or
+   "ParseFile()" methods are called; calling it after either of those
+   have been called causes "ExpatError" to be raised with the "code"

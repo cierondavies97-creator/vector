@@ -1,0 +1,4 @@
+os.chflags(path, flags, *, follow_symlinks=True)
+   Set the flags of *path* to the numeric *flags*. *flags* may take a
+   combination (bitwise OR) of the following values (as defined in the
+   "stat" module):

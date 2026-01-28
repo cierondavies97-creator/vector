@@ -1,0 +1,4 @@
+"authobject()" does not support an initial response (e.g. because
+   it requires a challenge), it should return "None" when called with
+   "challenge=None".  If *initial_response_ok* is false, then
+   "authobject()" will not be called first with "None".

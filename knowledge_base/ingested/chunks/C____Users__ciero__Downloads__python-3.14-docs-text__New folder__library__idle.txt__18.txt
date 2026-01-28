@@ -1,0 +1,6 @@
+Find in Files...
+   Open a file search dialog.  Put results in a new output window.
+Replace...
+   Open a search-and-replace dialog.
+Go to Line
+   Move the cursor to the beginning of the line requested and make

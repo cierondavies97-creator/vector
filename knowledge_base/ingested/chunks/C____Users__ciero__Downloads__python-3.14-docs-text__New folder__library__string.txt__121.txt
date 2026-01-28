@@ -1,0 +1,3 @@
+|           | and switches to the scientific notation when "exp >= p -   |
+   |           | 1".  When the precision is not specified, the latter will  |
+   |           | be as large as needed to represent the given value         |

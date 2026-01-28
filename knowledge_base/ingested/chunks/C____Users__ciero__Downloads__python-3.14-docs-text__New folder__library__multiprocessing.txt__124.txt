@@ -1,0 +1,4 @@
+the "queue.Queue" class in the standard library.  They differ in that
+"Queue" lacks the "task_done()" and "join()" methods introduced into
+Python 2.5's "queue.Queue" class.
+If you use "JoinableQueue" then you **must** call

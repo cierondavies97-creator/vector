@@ -1,0 +1,7 @@
+same "id()" value.
+   **CPython implementation detail:** This is the address of the
+   object in memory.
+   Raises an auditing event "builtins.id" with argument "id".
+input()
+input(prompt, /)
+   If the *prompt* argument is present, it is written to standard

@@ -1,0 +1,4 @@
+return type, declares any special linkage declarations required by the
+platform, and for C++ declares the function as "extern "C"".
+"PyInit_spam()" is called when each interpreter imports its module
+"spam" for the first time.  (See below for comments about embedding

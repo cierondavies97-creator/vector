@@ -1,0 +1,5 @@
+* Replacing Older Functions with the "subprocess" Module
+    * Replacing **/bin/sh** shell command substitution
+    * Replacing shell pipeline
+    * Replacing "os.system()"
+    * Replacing the "os.spawn" family

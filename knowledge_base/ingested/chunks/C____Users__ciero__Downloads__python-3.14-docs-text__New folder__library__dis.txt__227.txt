@@ -1,0 +1,3 @@
++------------------------------------------+-------------------------------------+
+   | "INTRINSIC_TYPEVAR_WITH_CONSTRAINTS"     | Creates a "typing.TypeVar" with     |
+   |                                          | constraints.                        |

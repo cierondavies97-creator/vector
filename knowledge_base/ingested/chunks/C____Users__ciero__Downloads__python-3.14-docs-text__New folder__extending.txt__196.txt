@@ -1,0 +1,4 @@
+The second case of problems with a borrowed reference is a variant
+involving threads.  Normally, multiple threads in the Python
+interpreter can't get in each other's way, because there is a *global
+lock* protecting Python's entire object space. However, it is possible

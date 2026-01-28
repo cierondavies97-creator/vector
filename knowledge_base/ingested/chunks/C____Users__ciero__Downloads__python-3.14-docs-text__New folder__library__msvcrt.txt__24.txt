@@ -1,0 +1,7 @@
+the file handle your want specified. Only available in debug build
+   of Python.
+msvcrt.CRT_WARN
+   Warnings, messages, and information that doesn't need immediate
+   attention.
+msvcrt.CRT_ERROR
+   Errors, unrecoverable problems, and issues that require immediate

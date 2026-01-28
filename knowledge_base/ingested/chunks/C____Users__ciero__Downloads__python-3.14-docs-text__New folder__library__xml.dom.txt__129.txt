@@ -1,0 +1,6 @@
+support data.
+exception xml.dom.NoModificationAllowedErr
+   Raised on attempts to modify an object where modifications are not
+   allowed (such as for read-only nodes).
+exception xml.dom.SyntaxErr
+   Raised when an invalid or illegal string is specified.

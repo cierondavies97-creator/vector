@@ -1,0 +1,5 @@
+and "Ellipsis" are returned using the generic "OP" token type.  The
+exact type can be determined by checking the "exact_type" property on
+the *named tuple* returned from "tokenize.tokenize()".
+Warning:
+  Note that the functions in this module are only designed to parse

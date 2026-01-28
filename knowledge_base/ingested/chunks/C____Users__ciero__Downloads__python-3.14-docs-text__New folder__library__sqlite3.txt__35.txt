@@ -1,0 +1,5 @@
+if both flags are set. By default ("0"), type detection is
+        disabled.
+      * **isolation_level** (*str** | **None*) -- Control legacy
+        transaction handling behaviour. See
+        "Connection.isolation_level" and Transaction control via the

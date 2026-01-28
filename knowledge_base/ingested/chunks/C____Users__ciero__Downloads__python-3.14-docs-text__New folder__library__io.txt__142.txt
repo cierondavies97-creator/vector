@@ -1,0 +1,5 @@
+must be zero (all other values are unsupported).
+      Return the new absolute position as an opaque number.
+      Added in version 3.1: The "SEEK_*" constants.
+   tell()
+      Return the current stream position as an opaque number.  The

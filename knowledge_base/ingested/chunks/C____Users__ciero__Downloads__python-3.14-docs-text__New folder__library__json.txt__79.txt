@@ -1,0 +1,4 @@
+to encode such floats.
+   If *sort_keys* is true (default: "False"), then the output of
+   dictionaries will be sorted by key; this is useful for regression
+   tests to ensure that JSON serializations can be compared on a day-

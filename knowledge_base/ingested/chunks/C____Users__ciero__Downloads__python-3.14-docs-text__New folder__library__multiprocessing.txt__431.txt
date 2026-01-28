@@ -1,0 +1,5 @@
+# ensures that when p closes its handle for the writable end,
+           # wait() will promptly report the readable end as being ready.
+           w.close()
+       while readers:
+           for r in wait(readers):

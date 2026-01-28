@@ -1,0 +1,4 @@
+declaration.
+* Without a *__weakref__* variable for each instance, classes defining
+  *__slots__* do not support "weak references" to its instances. If
+  weak reference support is needed, then add "'__weakref__'" to the

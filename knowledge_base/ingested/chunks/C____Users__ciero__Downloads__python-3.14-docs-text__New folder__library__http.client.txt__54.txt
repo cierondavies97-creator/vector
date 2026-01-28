@@ -1,0 +1,4 @@
+Added in version 3.2.
+   Changed in version 3.12: HTTP CONNECT tunnelling requests use
+   protocol HTTP/1.1, upgraded from protocol HTTP/1.0. "Host:" HTTP
+   headers are mandatory for HTTP/1.1, so one will be automatically

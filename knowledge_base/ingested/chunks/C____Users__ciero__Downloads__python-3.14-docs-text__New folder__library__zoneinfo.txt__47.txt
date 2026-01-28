@@ -1,0 +1,5 @@
+bypassing constructor. If "europe_berlin_pkl_nc" is a string
+   containing a pickle constructed from
+   "ZoneInfo.no_cache("Europe/Berlin")", one would expect the
+   following behavior:
+      >>> a = ZoneInfo("Europe/Berlin")

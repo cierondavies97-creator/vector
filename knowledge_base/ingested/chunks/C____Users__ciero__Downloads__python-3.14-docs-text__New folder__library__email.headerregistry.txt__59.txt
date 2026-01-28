@@ -1,0 +1,4 @@
+argument list, and finally returns the class instance created
+      thereby.
+The following classes are the classes used to represent data parsed
+from structured headers and can, in general, be used by an application

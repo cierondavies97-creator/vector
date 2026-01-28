@@ -1,0 +1,5 @@
+values represent a fair balance between compatibility and
+     security.If your application needs specific settings, you should
+     create a "SSLContext" and apply the settings yourself.
+   Note:
+     If you find that when certain older clients or servers attempt to

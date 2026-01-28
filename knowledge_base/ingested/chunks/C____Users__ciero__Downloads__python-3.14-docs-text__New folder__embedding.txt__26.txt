@@ -1,0 +1,8 @@
+will change in the next section).
+The code to run a function defined in a Python script is:
+   #define PY_SSIZE_T_CLEAN
+   #include <Python.h>
+   int
+   main(int argc, char *argv[])
+   {
+       PyObject *pName, *pModule, *pFunc;

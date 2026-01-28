@@ -1,0 +1,3 @@
+"fromstring()" parses XML from a string directly into an "Element",
+which is the root element of the parsed tree.  Other parsing functions
+may create an "ElementTree".  Check the documentation to be sure.

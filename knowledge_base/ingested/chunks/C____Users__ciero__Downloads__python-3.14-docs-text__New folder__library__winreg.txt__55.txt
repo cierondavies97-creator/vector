@@ -1,0 +1,4 @@
+|         | this value (see table in docs for         |
+   |         | "SetValueEx()")                           |
+   +---------+-------------------------------------------+
+   Raises an auditing event "winreg.QueryValue" with arguments "key",

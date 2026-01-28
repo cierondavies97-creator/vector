@@ -1,0 +1,5 @@
+"register_defect()" method.
+   mangle_from_
+      If "True", lines starting with *"From "* in the body are escaped
+      by putting a ">" in front of them. This parameter is used when
+      the message is being serialized by a generator. Default:

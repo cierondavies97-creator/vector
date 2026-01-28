@@ -1,0 +1,3 @@
+using synchronization methods that ensure no two processes can obtain
+the same UUID.  All instances of "UUID" have an "is_safe" attribute
+which relays any information about the UUID's safety, using this

@@ -1,0 +1,4 @@
+Note that "bletch" is omitted because it doesn't exist; the "bar"
+directory precedes the "foo" directory because "bar.pth" comes
+alphabetically before "foo.pth"; and "spam" is omitted because it is
+not mentioned in either path configuration file.

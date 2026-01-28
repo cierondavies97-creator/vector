@@ -1,0 +1,4 @@
+There's no output!  That's normal, and it means all the examples
+worked.  Pass "-v" to the script, and "doctest" prints a detailed log
+of what it's trying, and prints a summary at the end:
+   $ python example.py -v

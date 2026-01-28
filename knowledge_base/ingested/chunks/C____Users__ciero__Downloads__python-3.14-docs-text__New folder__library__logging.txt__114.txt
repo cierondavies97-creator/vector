@@ -1,0 +1,3 @@
+is called from this method, it could cause a deadlock if a
+          configuration call is made on another thread, because that
+          thread will try to acquire the module-level lock *before*

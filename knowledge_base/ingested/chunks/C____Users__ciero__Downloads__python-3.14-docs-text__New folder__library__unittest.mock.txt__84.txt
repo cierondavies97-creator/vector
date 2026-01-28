@@ -1,0 +1,6 @@
+3
+      "side_effect" can be set in the constructor. Here's an example
+      that adds one to the value the mock is called with and returns
+      it:
+      >>> side_effect = lambda value: value + 1
+      >>> mock = Mock(side_effect=side_effect)

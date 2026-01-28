@@ -1,0 +1,5 @@
+for historical reasons.
+   4. When used with the "strptime()" function, "%U" and "%W" are only
+      used in calculations when the day of the week and the year are
+      specified.
+   Here is an example, a format for dates compatible with that

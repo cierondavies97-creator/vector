@@ -1,0 +1,4 @@
+called Variable, defined in "tkinter".
+There are many useful subclasses of Variable already defined:
+"StringVar", "IntVar", "DoubleVar", and "BooleanVar".  To read the
+current value of such a variable, call the "get()" method on it, and

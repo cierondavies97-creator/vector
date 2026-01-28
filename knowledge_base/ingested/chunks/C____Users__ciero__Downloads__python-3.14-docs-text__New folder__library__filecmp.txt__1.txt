@@ -1,0 +1,4 @@
+directories, with various optional time/correctness trade-offs. For
+comparing files, see also the "difflib" module.
+The "filecmp" module defines the following functions:
+filecmp.cmp(f1, f2, shallow=True)

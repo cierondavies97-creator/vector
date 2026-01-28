@@ -1,0 +1,6 @@
+performed. For client sockets the session can be set before
+   "do_handshake()" has been called to reuse a session.
+   Added in version 3.6.
+SSLSocket.session_reused
+   Added in version 3.6.
+SSL Contexts

@@ -1,0 +1,8 @@
+$ # Random integer
+   $ python -m random 6
+   6
+   $ # Random floating-point number
+   $ python -m random 1.8
+   1.7080016272295635
+   $ # With explicit arguments
+   $ python  -m random --choice egg bacon sausage spam "Lobster Thermidor aux crevettes with a Mornay sauce"

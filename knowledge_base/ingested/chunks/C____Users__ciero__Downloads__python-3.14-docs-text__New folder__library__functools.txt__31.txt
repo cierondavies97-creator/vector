@@ -1,0 +1,4 @@
+single result. (Some types such as *str* and *int* may be cached
+   separately even when *typed* is false.)
+   Note, type specificity applies only to the function's immediate
+   arguments rather than their contents.  The scalar arguments,

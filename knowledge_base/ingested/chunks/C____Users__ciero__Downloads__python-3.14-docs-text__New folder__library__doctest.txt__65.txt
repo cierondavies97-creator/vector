@@ -1,0 +1,6 @@
+significant documentation value to the example.  So the last example
+is probably better as:
+   >>> raise ValueError('multi\n    line\ndetail')
+   Traceback (most recent call last):
+       ...
+   ValueError: multi

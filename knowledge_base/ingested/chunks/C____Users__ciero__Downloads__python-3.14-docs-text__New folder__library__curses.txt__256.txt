@@ -1,0 +1,3 @@
+| curses.KEY_SDC            | Shifted Delete char                          |
++---------------------------+----------------------------------------------+
+| curses.KEY_SDL            | Shifted Delete line                          |

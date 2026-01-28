@@ -1,0 +1,5 @@
+While this feature is not often needed, it can be used to extend the
+set of modules found in a package.
+-[ Footnotes ]-
+[1] In fact function definitions are also 'statements' that are
+    'executed'; the execution of a module-level function definition

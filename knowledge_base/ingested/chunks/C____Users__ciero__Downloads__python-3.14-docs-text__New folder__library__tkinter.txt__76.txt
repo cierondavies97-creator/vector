@@ -1,0 +1,5 @@
+by optional parameters, e.g.
+   destroy .
+   grid .frm.btn -column 0 -row 0
+Others, however, look more like methods called on a widget object (in
+fact, when you create a widget in Tcl/Tk, it creates a Tcl command

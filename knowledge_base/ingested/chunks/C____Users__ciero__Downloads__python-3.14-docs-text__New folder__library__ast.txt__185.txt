@@ -1,0 +1,5 @@
+orelse=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])
+class ast.For(target, iter, body, orelse, type_comment)
+   A "for" loop. "target" holds the variable(s) the loop assigns to,

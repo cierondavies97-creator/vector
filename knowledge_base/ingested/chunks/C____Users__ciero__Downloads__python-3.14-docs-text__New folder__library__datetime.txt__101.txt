@@ -1,0 +1,6 @@
+Instance methods:
+date.replace(year=self.year, month=self.month, day=self.day)
+   Return a new "date" object with the same values, but with specified
+   parameters updated.
+   Example:
+      >>> from datetime import date

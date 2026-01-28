@@ -1,0 +1,5 @@
+encoding instead of the user preferred encoding.
+   Changed in version 3.10: The *encoding* argument now supports the
+   ""locale"" dummy encoding name.
+   Note:
+     When the underlying raw stream is non-blocking, a

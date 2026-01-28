@@ -1,0 +1,4 @@
+individual tests are defined with methods whose names start with the
+letters "test".  This naming convention informs the test runner about
+which methods represent tests.
+The crux of each test is a call to "assertEqual()" to check for an

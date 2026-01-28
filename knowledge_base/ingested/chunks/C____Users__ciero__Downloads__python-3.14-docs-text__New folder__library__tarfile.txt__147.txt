@@ -1,0 +1,4 @@
+like filesystems. Intended for extracting cross-platform data
+  archives. See "data_filter()" for details.
+* "None" (default): Use "TarFile.extraction_filter".
+  If that is also "None" (the default), the "'data'" filter will be

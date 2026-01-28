@@ -1,0 +1,5 @@
+arguments.
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.13: Added support for a file descriptor and
+   the *follow_symlinks* argument on Windows.
+os.chown(path, uid, gid, *, dir_fd=None, follow_symlinks=True)

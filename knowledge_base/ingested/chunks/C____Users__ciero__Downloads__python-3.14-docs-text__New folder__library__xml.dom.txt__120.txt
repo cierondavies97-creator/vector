@@ -1,0 +1,4 @@
+exception class cannot be directly instantiated.
+exception xml.dom.DomstringSizeErr
+   Raised when a specified range of text does not fit into a string.
+   This is not known to be used in the Python DOM implementations, but

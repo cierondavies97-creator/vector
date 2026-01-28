@@ -1,0 +1,3 @@
+a "_dispatch()" method, it is searched for an attribute matching
+   the name of the requested method; if  the requested method name
+   contains periods, each  component of the method name is searched

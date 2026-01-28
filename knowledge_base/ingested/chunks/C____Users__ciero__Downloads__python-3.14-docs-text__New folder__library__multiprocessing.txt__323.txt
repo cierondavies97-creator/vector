@@ -1,0 +1,4 @@
+class multiprocessing.managers.Namespace
+   A type that can register with "SyncManager".
+   A namespace object has no public methods, but does have writable
+   attributes. Its representation shows the values of its attributes.

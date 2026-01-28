@@ -1,0 +1,4 @@
+all_recipients = getaddresses(tos + ccs + resent_tos + resent_ccs)
+   Changed in version 3.13: Add *strict* optional parameter and reject
+   malformed inputs by default.
+email.utils.parsedate(date)

@@ -1,0 +1,5 @@
+# This is because we are using a RawConfigParser().
+   if config.getboolean('Section1', 'a_bool'):
+       print(config.get('Section1', 'foo'))
+To get interpolation, use "ConfigParser":
+   import configparser

@@ -1,0 +1,5 @@
+'2002-12-25T00:00'
+      >>> dt = datetime(2015, 1, 1, 12, 30, 59, 0)
+      >>> dt.isoformat(timespec='microseconds')
+      '2015-01-01T12:30:59.000000'
+   Changed in version 3.6: Added the *timespec* parameter.

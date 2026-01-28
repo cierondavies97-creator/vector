@@ -1,0 +1,5 @@
+Add *label* to the list of labels on the message.
+   remove_label(label)
+      Remove *label* from the list of labels on the message.
+   get_visible()
+      Return a "Message" instance whose headers are the message's

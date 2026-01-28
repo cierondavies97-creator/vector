@@ -1,0 +1,4 @@
+an art to this that needs to be learned---it may not be natural at
+first.  Examples should add genuine value to the documentation.  A
+good example can often be worth many words. If done with care, the
+examples will be invaluable for your users, and will pay back the time

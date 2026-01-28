@@ -1,0 +1,4 @@
+@test.support.socket_helper.skip_unless_bind_unix_socket
+   A decorator for running tests that require a functional "bind()"
+   for Unix sockets.
+test.support.socket_helper.transient_internet(resource_name, *, timeout=30.0, errnos=())

@@ -1,0 +1,4 @@
+"""Compute the hash of a complex number z."""
+       hash_value = hash_float(z.real) + sys.hash_info.imag * hash_float(z.imag)
+       # do a signed reduction modulo 2**sys.hash_info.width
+       M = 2**(sys.hash_info.width - 1)

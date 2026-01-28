@@ -1,0 +1,5 @@
+use "walk()" as the iterator in a "for" loop; each iteration
+      returns the next subpart.
+      Here's an example that prints the MIME type of every part of a
+      multipart message structure:
+         >>> for part in msg.walk():

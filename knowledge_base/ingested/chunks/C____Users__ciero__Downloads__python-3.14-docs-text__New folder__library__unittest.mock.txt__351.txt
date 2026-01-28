@@ -1,0 +1,7 @@
+level switch "FILTER_DIR":
+   >>> from unittest import mock
+   >>> mock.FILTER_DIR = False
+   >>> dir(mock.Mock())
+   ['_NonCallableMock__get_return_value',
+    '_NonCallableMock__get_side_effect',
+    '_NonCallableMock__return_value_doc',

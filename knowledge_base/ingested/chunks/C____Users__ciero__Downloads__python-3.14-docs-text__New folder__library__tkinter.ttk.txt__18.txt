@@ -1,0 +1,3 @@
+|             | viewable. And an empty string means that the traversal scripts |
+|             | make the decision about whether or not to focus on the window. |
++-------------+----------------------------------------------------------------+

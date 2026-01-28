@@ -1,0 +1,5 @@
+Note:
+     There is an obsolete function "warn" which is functionally
+     identical to "warning". As "warn" is deprecated, please do not
+     use it - use "warning" instead.
+logging.error(msg, *args, **kwargs)

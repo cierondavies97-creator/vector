@@ -1,0 +1,3 @@
+|                  | generate a Tcl command based on the scrollcommand.        |
+|                  | Usually this option consists of the method                |
+|                  | "Scrollbar.set()" of some scrollbar. This will cause the  |

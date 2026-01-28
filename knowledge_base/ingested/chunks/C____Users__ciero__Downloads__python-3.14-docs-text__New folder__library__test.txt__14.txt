@@ -1,0 +1,4 @@
+presented to the outside world but also "private" code.
+* Whitebox testing (examining the code being tested when the tests are
+  being written) is preferred. Blackbox testing (testing only the
+  published user interface) is not complete enough to make sure all

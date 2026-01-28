@@ -1,0 +1,3 @@
+is done by looking for handlers in this logger and its parents
+      in the logger hierarchy. Returns "True" if a handler was found,
+      else "False". The method stops searching up the hierarchy

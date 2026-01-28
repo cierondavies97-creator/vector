@@ -1,0 +1,3 @@
+containing them. Only test files that match *pattern* will be
+      loaded. (Using shell style pattern matching.) Only module names
+      that are importable (i.e. are valid Python identifiers) will be

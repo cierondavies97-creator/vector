@@ -1,0 +1,6 @@
+This module provides utilities for common tasks involving the "with"
+statement. For more information see also Context Manager Types and
+With Statement Context Managers.
+Utilities
+=========
+Functions and classes provided:

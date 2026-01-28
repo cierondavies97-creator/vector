@@ -1,0 +1,4 @@
+interact with tar archives.
+If you want to create a new tar archive, specify its name after the
+"-c" option and then list the filename(s) that should be included:
+   $ python -m tarfile -c monty.tar  spam.txt eggs.txt

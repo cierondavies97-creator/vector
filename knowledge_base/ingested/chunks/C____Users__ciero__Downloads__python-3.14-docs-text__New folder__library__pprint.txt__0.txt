@@ -1,0 +1,5 @@
+"pprint" --- Data pretty printer
+********************************
+**Source code:** Lib/pprint.py
+======================================================================
+The "pprint" module provides a capability to "pretty-print" arbitrary

@@ -1,0 +1,7 @@
+Return a hash of the underlying mapping.
+      Added in version 3.12.
+class types.CapsuleType
+   The type of capsule objects.
+   Added in version 3.13.
+Additional Utility Classes and Functions
+========================================

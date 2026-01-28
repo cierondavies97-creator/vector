@@ -1,0 +1,4 @@
+module.__dict__
+   The module's namespace as a dictionary object. Uniquely among the
+   attributes listed here, "__dict__" cannot be accessed as a global
+   variable from within a module; it can only be accessed as an

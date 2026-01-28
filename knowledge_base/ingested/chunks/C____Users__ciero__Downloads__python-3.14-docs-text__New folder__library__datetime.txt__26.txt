@@ -1,0 +1,5 @@
+representation is unique, with
+   * "0 <= microseconds < 1000000"
+   * "0 <= seconds < 3600*24" (the number of seconds in one day)
+   * "-999999999 <= days <= 999999999"
+   The following example illustrates how any arguments besides *days*,

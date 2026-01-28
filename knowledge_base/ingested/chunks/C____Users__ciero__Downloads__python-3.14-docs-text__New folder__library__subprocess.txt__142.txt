@@ -1,0 +1,5 @@
+handling pipes and populate the "returncode" attribute.
+   Note:
+     The data read is buffered in memory, so do not use this method if
+     the data size is large or unlimited.
+   Changed in version 3.3: *timeout* was added.

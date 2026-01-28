@@ -1,0 +1,4 @@
+class for your own list-like classes which can inherit from them and
+override existing methods or add new ones.  In this way, one can add
+new behaviors to lists.
+The need for this class has been partially supplanted by the ability

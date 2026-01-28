@@ -1,0 +1,5 @@
+if found more than once in a single input file, string or
+   dictionary.
+   Changed in version 3.2: Added the optional *source* and *lineno*
+   attributes and parameters to "__init__()".
+exception configparser.DuplicateOptionError

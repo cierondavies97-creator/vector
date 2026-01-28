@@ -1,0 +1,4 @@
+may re-write the command or simply return *line* unchanged.
+Cmd.postcmd(stop, line)
+   Hook method executed just after a command dispatch is finished.
+   This method is a stub in "Cmd"; it exists to be overridden by

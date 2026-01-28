@@ -1,0 +1,7 @@
+can change at any point.
+Tokenizing Input
+================
+The primary entry point is a *generator*:
+tokenize.tokenize(readline)
+   The "tokenize()" generator requires one argument, *readline*, which
+   must be a callable object which provides the same interface as the

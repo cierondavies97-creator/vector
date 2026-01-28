@@ -1,0 +1,4 @@
+-- unless explicitly desired, you should not yield when this
+   context manager is active.
+   This is a simple wrapper around "chdir()", it changes the current
+   working directory upon entering and restores the old one on exit.

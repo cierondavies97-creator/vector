@@ -1,0 +1,4 @@
+Notes on using *__slots__*:
+* When inheriting from a class without *__slots__*, the "__dict__" and
+  *__weakref__* attribute of the instances will always be accessible.
+* Without a "__dict__" variable, instances cannot be assigned new

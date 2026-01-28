@@ -1,0 +1,4 @@
+represent times in UTC. As such, the recommended way to create an
+     object representing the current time in UTC is by calling
+     "datetime.now(timezone.utc)".
+   Deprecated since version 3.12: Use "datetime.now()" with "UTC"

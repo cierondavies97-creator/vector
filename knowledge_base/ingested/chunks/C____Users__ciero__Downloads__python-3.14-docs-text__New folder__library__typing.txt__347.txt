@@ -1,0 +1,3 @@
+runtime protocols that check only the presence of given attributes,
+   ignoring their type signatures. Protocol classes without this
+   decorator cannot be used as the second argument to "isinstance()"

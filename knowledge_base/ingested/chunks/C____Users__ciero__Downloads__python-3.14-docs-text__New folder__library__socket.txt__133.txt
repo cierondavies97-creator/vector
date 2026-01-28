@@ -1,0 +1,6 @@
+Added in version 3.8.
+socket.has_dualstack_ipv6()
+   Return "True" if the platform supports creating a TCP socket which
+   can handle both IPv4 and IPv6 connections.
+   Added in version 3.8.
+socket.fromfd(fd, family, type, proto=0)

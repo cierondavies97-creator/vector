@@ -1,0 +1,4 @@
+this dictionary are described in Configuration dictionary schema
+   below.
+   If an error is encountered during configuration, this function will
+   raise a "ValueError", "TypeError", "AttributeError" or

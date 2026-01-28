@@ -1,0 +1,8 @@
+exact.
+   quantize(x, y, /)
+      Returns a value equal to *x* (rounded), having the exponent of
+      *y*.
+   radix()
+      Just returns 10, as this is Decimal, :)
+   remainder(x, y, /)
+      Returns the remainder from integer division.

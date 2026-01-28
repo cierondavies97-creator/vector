@@ -1,0 +1,5 @@
+Binary Data Services
+********************
+The modules described in this chapter provide some basic services
+operations for manipulation of binary data. Other operations on binary
+data, specifically in relation to file formats and network protocols,

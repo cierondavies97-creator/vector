@@ -1,0 +1,5 @@
+"codeop" --- Compile Python code
+********************************
+**Source code:** Lib/codeop.py
+======================================================================
+The "codeop" module provides utilities upon which the Python read-

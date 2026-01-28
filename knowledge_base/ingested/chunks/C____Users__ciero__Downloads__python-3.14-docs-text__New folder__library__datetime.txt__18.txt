@@ -1,0 +1,11 @@
+offset from the UTC.
+   Added in version 3.2.
+Objects of these types are immutable.
+Subclass relationships:
+   object
+       timedelta
+       tzinfo
+           timezone
+       time
+       date
+           datetime

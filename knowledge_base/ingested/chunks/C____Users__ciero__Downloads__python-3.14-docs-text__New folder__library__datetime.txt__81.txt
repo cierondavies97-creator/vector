@@ -1,0 +1,5 @@
+year, week and day. This is the inverse of the function
+   "date.isocalendar()".
+   Added in version 3.8.
+classmethod date.strptime(date_string, format)
+   Return a "date" corresponding to *date_string*, parsed according to

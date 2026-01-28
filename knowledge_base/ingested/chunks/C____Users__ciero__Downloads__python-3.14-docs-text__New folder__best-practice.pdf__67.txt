@@ -1,0 +1,8 @@
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Refactoring Example
+from numpy import prod, sum
+def product_minus_sum(numbers):
+""" Subtract sum of numbers from product of numbers. """
+sum_value = sum(numbers)

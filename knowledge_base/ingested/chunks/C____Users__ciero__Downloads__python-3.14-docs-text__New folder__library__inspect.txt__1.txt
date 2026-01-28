@@ -1,0 +1,3 @@
+information about live objects such as modules, classes, methods,
+functions, tracebacks, frame objects, and code objects.  For example,
+it can help you examine the contents of a class, retrieve the source

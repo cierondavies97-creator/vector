@@ -1,0 +1,5 @@
+Here's an example that just emulates the standard ""store"" action:
+   def store_value(option, opt_str, value, parser):
+       setattr(parser.values, option.dest, value)
+   ...
+   parser.add_option("--foo",

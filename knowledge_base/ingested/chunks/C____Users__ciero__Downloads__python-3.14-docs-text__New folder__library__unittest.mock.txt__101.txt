@@ -1,0 +1,6 @@
+True
+      Members of "mock_calls" are "call" objects. These can be
+      unpacked as tuples to get at the individual arguments. See calls
+      as tuples.
+      Note:
+        The way "mock_calls" are recorded means that where nested

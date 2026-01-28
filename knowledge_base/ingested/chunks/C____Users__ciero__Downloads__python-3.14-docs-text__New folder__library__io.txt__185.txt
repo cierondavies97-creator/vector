@@ -1,0 +1,6 @@
+to the reconstruction algorithm used.
+"StringIO", however, is a native in-memory unicode container and will
+exhibit similar speed to "BytesIO".
+Multi-threading
+---------------
+"FileIO" objects are thread-safe to the extent that the operating

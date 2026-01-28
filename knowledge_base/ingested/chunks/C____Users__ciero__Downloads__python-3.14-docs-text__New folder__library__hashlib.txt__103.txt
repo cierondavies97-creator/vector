@@ -1,0 +1,7 @@
+>>> print(b64encode(enc_key).decode('utf-8'))
+rbPb15S/Z9t+agffno5wuhB77VbRi6F9Iv2qIxU7WHw=
+>>> print(b64encode(mac_key).decode('utf-8'))
+G9GtHFE1YluXY1zWPlYk1e/nWfu0WSEb0KRcjhDeP/o=
+Tree mode
+~~~~~~~~~
+Here's an example of hashing a minimal tree with two leaf nodes:

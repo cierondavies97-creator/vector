@@ -1,0 +1,7 @@
+...
+See also:
+  For a more detailed look at how "__name__" is set in all situations,
+  see the tutorial section Modules.
+Idiomatic Usage
+---------------
+Some modules contain code that is intended for script use only, like

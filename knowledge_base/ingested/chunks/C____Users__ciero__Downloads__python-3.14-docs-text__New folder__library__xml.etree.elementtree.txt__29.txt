@@ -1,0 +1,6 @@
+More sophisticated specification of which elements to look for is
+possible by using XPath.
+Modifying an XML File
+---------------------
+"ElementTree" provides a simple way to build XML documents and write
+them to files. The "ElementTree.write()" method serves this purpose.

@@ -1,0 +1,3 @@
+"free()" for a block and then continues to use the block, it creates a
+conflict with reuse of the block through another "malloc()" call.
+This is called *using freed memory*. It has the same bad consequences

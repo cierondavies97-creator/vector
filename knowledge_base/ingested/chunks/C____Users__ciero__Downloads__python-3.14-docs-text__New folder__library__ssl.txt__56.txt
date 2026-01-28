@@ -1,0 +1,4 @@
+certificates, and will fail if the validation attempt fails.  A
+   timeout can be specified with the "timeout" parameter.
+   Changed in version 3.3: This function is now IPv6-compatible.
+   Changed in version 3.5: The default *ssl_version* is changed from

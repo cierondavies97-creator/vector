@@ -1,0 +1,4 @@
+you should use "Self" as the return annotation. If
+   "Foo.return_self" was annotated as returning ""Foo"", then the type
+   checker would infer the object returned from
+   "SubclassOfFoo.return_self" as being of type "Foo" rather than

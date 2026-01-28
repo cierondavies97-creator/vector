@@ -1,0 +1,4 @@
+available/enabled, the *SeCreateSymbolicLinkPrivilege* privilege
+     is required, or the process must be run as an
+     administrator."OSError" is raised when the function is called by
+     an unprivileged user.

@@ -1,0 +1,4 @@
+that's available from simple commands - it's an excellent way to
+introduce children to programming ideas, with a minimum of overhead
+(not just children, of course).
+The turtle module makes this possible by exposing all its basic

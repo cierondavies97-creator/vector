@@ -1,0 +1,4 @@
+accept the *timeout* argument.
+  * "asyncio.Future.result()" and "asyncio.Future.exception()" raise
+    an "InvalidStateError" exception when the Future is not *done*.
+  * Callbacks registered with "asyncio.Future.add_done_callback()" are

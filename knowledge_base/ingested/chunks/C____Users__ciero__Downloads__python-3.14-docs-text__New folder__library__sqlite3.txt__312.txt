@@ -1,0 +1,4 @@
+"False", a new transaction is implicitly opened after committing or
+rolling back.
+If there is no open transaction upon leaving the body of the "with"
+statement, or if "autocommit" is "True", the context manager does

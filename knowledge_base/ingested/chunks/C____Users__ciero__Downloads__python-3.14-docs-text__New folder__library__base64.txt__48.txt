@@ -1,0 +1,4 @@
+**RFC 1521** - MIME (Multipurpose Internet Mail Extensions) Part
+  One: Mechanisms for Specifying and Describing the Format of Internet
+  Message Bodies
+     Section 5.2, "Base64 Content-Transfer-Encoding," provides the

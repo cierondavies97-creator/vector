@@ -1,0 +1,5 @@
+"run()". Otherwise, "None".
+   Changed in version 3.5: *stdout* and *stderr* attributes added
+Frequently Used Arguments
+-------------------------
+To support a wide variety of use cases, the "Popen" constructor (and

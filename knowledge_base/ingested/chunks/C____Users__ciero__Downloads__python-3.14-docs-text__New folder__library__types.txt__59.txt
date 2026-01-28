@@ -1,0 +1,5 @@
+argument.
+types.DynamicClassAttribute(fget=None, fset=None, fdel=None, doc=None)
+   Route attribute access on a class to __getattr__.
+   This is a descriptor, used to define attributes that act
+   differently when accessed through an instance and through a class.

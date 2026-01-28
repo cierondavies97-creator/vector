@@ -1,0 +1,4 @@
+the start, via passing an appropriate "exec()" call to "pdb.run()".
+doctest.debug_src(src, pm=False, globs=None)
+   Debug the doctests in a string.
+   This is like function "debug()" above, except that a string

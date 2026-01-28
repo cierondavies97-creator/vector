@@ -1,0 +1,3 @@
+| curses.ACS_SSSB          | alternate name for left tee                |
++--------------------------+--------------------------------------------+
+| curses.ACS_SSSS          | alternate name for crossover or big plus   |

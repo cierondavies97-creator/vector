@@ -1,0 +1,4 @@
+operators or indexing.
+   This function had been documented as "safe" in the past without
+   defining what that meant. That was misleading. This is specifically
+   designed not to execute Python code, unlike the more general

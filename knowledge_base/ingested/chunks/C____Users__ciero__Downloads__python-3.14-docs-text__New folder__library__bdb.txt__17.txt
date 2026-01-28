@@ -1,0 +1,5 @@
+Changed in version 3.1: Added the *skip* parameter.
+   Changed in version 3.14: Added the *backend* parameter.
+   The following methods of "Bdb" normally don't need to be
+   overridden.
+   canonic(filename)

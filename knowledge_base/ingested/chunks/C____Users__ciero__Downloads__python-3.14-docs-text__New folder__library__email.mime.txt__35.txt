@@ -1,0 +1,4 @@
+class email.mime.text.MIMEText(_text, _subtype='plain', _charset=None, *, policy=compat32)
+   Module: "email.mime.text"
+   A subclass of "MIMENonMultipart", the "MIMEText" class is used to
+   create MIME objects of major type *text*. *_text* is the string for

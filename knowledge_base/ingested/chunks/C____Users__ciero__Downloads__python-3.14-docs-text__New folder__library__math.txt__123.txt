@@ -1,0 +1,6 @@
+See also "math.nextafter()" and "sys.float_info.epsilon".
+   Added in version 3.9.
+Power, exponential and logarithmic functions
+============================================
+math.cbrt(x)
+   Return the cube root of *x*.

@@ -1,0 +1,4 @@
+Changed in version 3.4: An instance of a subclass of
+   "RawConfigParser" is   now accepted as a value for "fname". This
+   facilitates:
+      * Use of a configuration file where logging configuration is

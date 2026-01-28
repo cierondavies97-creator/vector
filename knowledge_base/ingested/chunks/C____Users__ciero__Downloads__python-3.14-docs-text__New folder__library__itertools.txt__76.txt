@@ -1,0 +1,4 @@
+becomes false, so this itertool may have a lengthy start-up time.
+itertools.filterfalse(predicate, iterable)
+   Make an iterator that filters elements from the *iterable*
+   returning only those for which the *predicate* returns a false

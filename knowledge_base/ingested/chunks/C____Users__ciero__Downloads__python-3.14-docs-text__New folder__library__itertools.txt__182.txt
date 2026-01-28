@@ -1,0 +1,4 @@
+def convolve(signal, kernel):
+       """Discrete linear convolution of two iterables.
+       Equivalent to polynomial multiplication.
+       Convolutions are mathematically commutative; however, the inputs are

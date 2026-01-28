@@ -1,0 +1,6 @@
+those by the other.
+   End users should not use this function, but "get_default_scheme()"
+   and "get_preferred_scheme()" instead.
+   Added in version 3.10.
+sysconfig.get_path_names()
+   Return a tuple containing all path names currently supported in

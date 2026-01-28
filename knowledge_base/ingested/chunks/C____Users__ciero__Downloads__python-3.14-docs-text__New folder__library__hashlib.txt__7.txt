@@ -1,0 +1,4 @@
+"algorithms_guaranteed".
+Additional algorithms may also be available if your Python
+distribution's "hashlib" was linked against a build of OpenSSL that
+provides others. Others *are not guaranteed available* on all

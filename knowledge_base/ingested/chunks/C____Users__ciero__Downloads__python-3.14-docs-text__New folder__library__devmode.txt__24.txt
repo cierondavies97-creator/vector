@@ -1,0 +1,7 @@
+os.close(fp.fileno())
+       # The file is closed implicitly
+   main()
+By default, Python does not emit any warning:
+   $ python script.py
+   import os
+The Python Development Mode shows a "ResourceWarning" and logs a "Bad

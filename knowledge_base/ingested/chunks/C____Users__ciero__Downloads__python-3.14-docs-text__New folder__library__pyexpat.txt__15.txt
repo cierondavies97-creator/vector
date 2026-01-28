@@ -1,0 +1,5 @@
+http://www.python.org/ns/ elem1
+      elem2
+   Due to limitations in the "Expat" library used by "pyexpat", the
+   "xmlparser" instance returned can only be used to parse a single
+   XML document.  Call "ParserCreate" for each document to provide

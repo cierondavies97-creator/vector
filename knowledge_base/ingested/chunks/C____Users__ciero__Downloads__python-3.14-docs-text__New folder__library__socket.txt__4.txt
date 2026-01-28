@@ -1,0 +1,7 @@
+on receive operations is automatic, and buffer length is implicit on
+send operations.
+See also:
+  Module "socketserver"
+     Classes that simplify writing network servers.
+  Module "ssl"
+     A TLS/SSL wrapper for socket objects.

@@ -1,0 +1,7 @@
+which keeps tracks of the matching log messages.  It has two
+      attributes:
+      records
+         A list of "logging.LogRecord" objects of the matching log
+         messages.
+      output
+         A list of "str" objects with the formatted output of matching

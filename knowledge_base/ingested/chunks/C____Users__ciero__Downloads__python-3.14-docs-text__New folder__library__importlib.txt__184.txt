@@ -1,0 +1,3 @@
+"sources/foo/bar/_whiz.abi3.fwork" marker file, containing the path
+   "Frameworks/foo.bar._whiz/foo.bar._whiz". The framework would also
+   contain "Frameworks/foo.bar._whiz.framework/foo.bar._whiz.origin",

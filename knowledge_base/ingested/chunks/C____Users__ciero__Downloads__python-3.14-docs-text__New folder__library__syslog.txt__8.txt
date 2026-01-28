@@ -1,0 +1,4 @@
+syslog.openlog([ident[, logoption[, facility]]])
+   Logging options of subsequent "syslog()" calls can be set by
+   calling "openlog()".  "syslog()" will call "openlog()" with no
+   arguments if the log is not currently open.

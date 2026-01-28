@@ -1,0 +1,7 @@
+You killed Kenny!
+The finalizer can be called directly as well.  However the finalizer
+will invoke the callback at most once.
+>>> def callback(x, y, z):
+...     print("CALLBACK")
+...     return x + y + z
+...

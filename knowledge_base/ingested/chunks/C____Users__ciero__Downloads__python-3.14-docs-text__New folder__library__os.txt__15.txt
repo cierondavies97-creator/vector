@@ -1,0 +1,6 @@
+guarantee, API functions can raise "UnicodeError".
+See also the *locale encoding*.
+Python UTF-8 Mode
+=================
+Added in version 3.7: See **PEP 540** for more details.
+The Python UTF-8 Mode ignores the *locale encoding* and forces the

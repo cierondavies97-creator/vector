@@ -1,0 +1,5 @@
+zeros: "int('010', 0)" is not legal, while "int('010')" and
+   "int('010', 8)" are.
+   The integer type is described in Numeric Types --- int, float,
+   complex.
+   Changed in version 3.4: If *base* is not an instance of "int" and

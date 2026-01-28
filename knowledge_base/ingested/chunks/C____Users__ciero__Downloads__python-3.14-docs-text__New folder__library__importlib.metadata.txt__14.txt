@@ -1,0 +1,5 @@
+Entry points
+------------
+importlib.metadata.entry_points(**select_params)
+   Returns a "EntryPoints" instance describing entry points for the
+   current environment. Any given keyword parameters are passed to the

@@ -1,0 +1,3 @@
+The "xml.dom.pulldom" module provides a "pull parser" which can also
+be asked to produce DOM-accessible fragments of the document where
+necessary. The basic concept involves pulling "events" from a stream

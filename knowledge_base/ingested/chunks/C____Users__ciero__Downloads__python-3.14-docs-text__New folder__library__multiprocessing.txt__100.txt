@@ -1,0 +1,4 @@
+Additionally, these are **not** Unix daemons or services, they
+      are normal processes that will be terminated (and not joined) if
+      non-daemonic processes have exited.
+   In addition to the  "threading.Thread" API, "Process" objects also

@@ -1,0 +1,5 @@
+For more information about descriptors' methods, see Implementing
+   Descriptors or the Descriptor How To Guide.
+dictionary
+   An associative array, where arbitrary keys are mapped to values.
+   The keys can be any object with "__hash__()" and "__eq__()"

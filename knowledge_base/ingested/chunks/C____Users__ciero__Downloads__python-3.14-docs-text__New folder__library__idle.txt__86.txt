@@ -1,0 +1,6 @@
+Shell window
+------------
+In IDLE's Shell, enter, edit, and recall complete statements. (Most
+consoles and terminals only work with a single physical line at a
+time).
+Submit a single-line statement for execution by hitting "Return" with

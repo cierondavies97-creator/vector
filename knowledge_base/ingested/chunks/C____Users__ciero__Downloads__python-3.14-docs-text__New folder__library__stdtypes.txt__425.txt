@@ -1,0 +1,6 @@
+Formatted String Literals (f-strings)
+-------------------------------------
+Added in version 3.6.
+Changed in version 3.7: The "await" and "async for" can be used in
+expressions within f-strings.
+Changed in version 3.8: Added the debug specifier ("=")

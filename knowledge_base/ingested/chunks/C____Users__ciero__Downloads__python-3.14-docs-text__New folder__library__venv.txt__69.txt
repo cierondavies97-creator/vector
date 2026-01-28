@@ -1,0 +1,4 @@
+into account filesystem redirections. This can be used to run
+        Python in the virtual environment.
+      Changed in version 3.11: The *venv* sysconfig installation
+      scheme is used to construct the paths of the created

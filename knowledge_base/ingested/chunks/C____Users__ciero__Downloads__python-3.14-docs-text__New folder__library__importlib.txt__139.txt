@@ -1,0 +1,4 @@
+The *path* argument is the directory for which the finder is in
+   charge of searching.
+   The *loader_details* argument is a variable number of 2-item tuples
+   each containing a loader and a sequence of file suffixes the loader

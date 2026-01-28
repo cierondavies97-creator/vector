@@ -1,0 +1,3 @@
+and intra-line differences are noted.  In the second form, recreate file1
+   (-r1) or file2 (-r2) on stdout, from an ndiff report on stdin.
+   In the first form, if -q ("quiet") is not specified, the first two lines

@@ -1,0 +1,3 @@
++--------------------------+------------------------------------------------+
+      | *VAR_POSITIONAL*         | A tuple of positional arguments that aren't    |
+      |                          | bound to any other parameter. This corresponds |

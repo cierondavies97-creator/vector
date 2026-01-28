@@ -1,0 +1,5 @@
+and prevent deletion.
+test.support.os_helper.rmtree(path)
+   Call "shutil.rmtree()" on *path* or call "os.lstat()" and
+   "os.rmdir()" to remove a path and its contents.  As with "rmdir()",
+   on Windows platforms this is wrapped with a wait loop that checks

@@ -1,0 +1,3 @@
+The obvious use case is applications that operate in a non-blocking
+fashion where the XML data is being received from a socket or read
+incrementally from some storage device.  In such cases, blocking reads

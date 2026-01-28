@@ -1,0 +1,4 @@
+API the functionality is provided by the *cte* parameter of the
+"set_content()" method.
+This module is deprecated in Python 3.  The functions provided here
+should not be called explicitly since the "MIMEText" class sets the

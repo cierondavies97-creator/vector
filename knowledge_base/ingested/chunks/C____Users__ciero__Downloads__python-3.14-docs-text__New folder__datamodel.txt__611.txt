@@ -1,0 +1,4 @@
+Incorrectly attempting to invoke an unbound method of a class in this
+way is sometimes referred to as 'metaclass confusion', and is avoided
+by bypassing the instance when looking up special methods:
+   >>> type(1).__hash__(1) == hash(1)

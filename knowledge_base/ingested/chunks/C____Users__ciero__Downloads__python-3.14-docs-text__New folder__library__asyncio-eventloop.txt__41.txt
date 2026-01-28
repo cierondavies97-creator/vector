@@ -1,0 +1,4 @@
+Changed in version 3.7: The *context* keyword-only parameter was
+   added. See **PEP 567** for more details.
+   Changed in version 3.8: In Python 3.7 and earlier with the default
+   event loop implementation, the *delay* could not exceed one day.

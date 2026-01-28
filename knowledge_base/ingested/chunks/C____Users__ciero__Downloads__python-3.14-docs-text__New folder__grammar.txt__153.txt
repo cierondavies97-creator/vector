@@ -1,0 +1,5 @@
+# or type comments, and if there's no comma after a parameter, we expect
+   # a colon, not a close parenthesis.  (For more, see parameters above.)
+   #
+   lambda_parameters[arguments_ty]:
+       | a=lambda_slash_no_default b[asdl_arg_seq*]=lambda_param_no_default* c=lambda_param_with_default* d=[lambda_star_etc] {

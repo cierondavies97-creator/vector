@@ -1,0 +1,3 @@
+passed into "bug()" is accessible to the "__del__()" method, it could
+execute a statement to the effect of "del list[0]", and assuming this
+was the last reference to that object, it would free the memory

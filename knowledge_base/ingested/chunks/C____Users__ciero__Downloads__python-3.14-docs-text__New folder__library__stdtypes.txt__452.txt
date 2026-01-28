@@ -1,0 +1,5 @@
+2. Mapping key (optional), consisting of a parenthesised sequence of
+   characters (for example, "(somename)").
+3. Conversion flags (optional), which affect the result of some
+   conversion types.
+4. Minimum field width (optional).  If specified as an "'*'"

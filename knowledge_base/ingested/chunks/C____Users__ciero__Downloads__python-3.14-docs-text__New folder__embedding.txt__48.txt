@@ -1,0 +1,5 @@
+return PyLong_FromLong(numargs);
+   }
+   static PyMethodDef emb_module_methods[] = {
+       {"numargs", emb_numargs, METH_VARARGS,
+        "Return the number of arguments received by the process."},

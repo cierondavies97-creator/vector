@@ -1,0 +1,4 @@
+When there is nothing to wait for, the "drain()" returns
+      immediately.
+   async start_tls(sslcontext, *, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None)
+      Upgrade an existing stream-based connection to TLS.

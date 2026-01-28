@@ -1,0 +1,5 @@
+*sql*.
+      Changed in version 3.14: "ProgrammingError" is emitted if named
+      placeholders are used and *parameters* is a sequence instead of
+      a "dict".
+      Use "executescript()" to execute multiple SQL statements.

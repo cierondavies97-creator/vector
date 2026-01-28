@@ -1,0 +1,5 @@
+accepted by the "Fraction" constructor.  In either form the input
+   string may also have leading and/or trailing whitespace. Here are
+   some examples:
+      >>> from fractions import Fraction
+      >>> Fraction(16, -10)

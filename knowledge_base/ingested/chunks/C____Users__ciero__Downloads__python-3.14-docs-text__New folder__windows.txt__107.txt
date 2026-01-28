@@ -1,0 +1,2 @@
+| "download_dir"                    | (none)                            | Specify the directory where       |
+|                                   |                                   | downloaded files are stored. This |

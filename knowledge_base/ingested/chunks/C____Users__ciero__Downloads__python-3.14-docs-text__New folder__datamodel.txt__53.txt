@@ -1,0 +1,5 @@
+(like "b'abc'") and the built-in "bytes()" constructor can be used
+   to create bytes objects.  Also, bytes objects can be decoded to
+   strings via the "decode()" method.
+3.2.5.2. Mutable sequences
+~~~~~~~~~~~~~~~~~~~~~~~~~~

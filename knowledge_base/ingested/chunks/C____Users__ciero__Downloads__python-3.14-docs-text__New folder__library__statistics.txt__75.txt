@@ -1,0 +1,5 @@
+the standard treatment of the mode as commonly taught in schools:
+      >>> mode([1, 1, 2, 3, 3, 3, 3, 4])
+      3
+   The mode is unique in that it is the only statistic in this package
+   that also applies to nominal (non-numeric) data:

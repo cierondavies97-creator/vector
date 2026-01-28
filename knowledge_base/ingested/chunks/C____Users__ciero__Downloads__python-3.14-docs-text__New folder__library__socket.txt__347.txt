@@ -1,0 +1,4 @@
+# disabled promiscuous mode
+   s.ioctl(socket.SIO_RCVALL, socket.RCVALL_OFF)
+The next example shows how to use the socket interface to communicate
+to a CAN network using the raw socket protocol. To use CAN with the

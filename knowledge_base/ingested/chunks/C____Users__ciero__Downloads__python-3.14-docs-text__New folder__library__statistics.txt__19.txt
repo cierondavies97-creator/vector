@@ -1,0 +1,4 @@
+==================
+These functions calculate a measure of how much the population or
+sample tends to deviate from the typical or average values.
++-------------------------+-----------------------------------------------+

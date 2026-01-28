@@ -1,0 +1,4 @@
+maxheap[k]" for all *k* for which the compared elements exist. The
+root, "maxheap[0]", contains the *largest* element;
+"heap.sort(reverse=True)" maintains the max-heap invariant.
+The "heapq" API differs from textbook heap algorithms in two aspects:

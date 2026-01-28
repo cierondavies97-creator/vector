@@ -1,0 +1,4 @@
+classes and functions only exist when an outer function is called,
+  they cannot be discovered. Define them outside to make them visible.
+How are Docstring Examples Recognized?
+--------------------------------------

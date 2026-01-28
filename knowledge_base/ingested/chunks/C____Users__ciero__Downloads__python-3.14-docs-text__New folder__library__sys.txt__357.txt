@@ -1,0 +1,5 @@
+* "None" if this information is unknown
+   thread_info.version
+      The name and version of the thread library. It is a string, or
+      "None" if this information is unknown.
+   Added in version 3.3.

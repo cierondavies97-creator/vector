@@ -1,0 +1,3 @@
+commands will be removed. Reinstalling the Python install manager will
+allow you to manage these runtimes again. To completely clean up all
+Python runtimes, run with "--purge" before uninstalling the Python

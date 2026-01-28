@@ -1,0 +1,3 @@
+>>> rest, rest.__context__, rest.__cause__, rest.__notes__
+         (MyGroup('eg', [TypeError(2)]), Exception('context'), Exception('cause'), ['a note'])
+         >>> exc.__traceback__ is match.__traceback__ is rest.__traceback__

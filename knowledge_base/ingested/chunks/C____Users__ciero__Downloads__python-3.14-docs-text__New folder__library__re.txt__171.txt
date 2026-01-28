@@ -1,0 +1,4 @@
+'static PyObject*\npy_myfunc(void)\n{'
+   If *repl* is a function, it is called for every non-overlapping
+   occurrence of *pattern*.  The function takes a single "Match"
+   argument, and returns the replacement string.  For example:

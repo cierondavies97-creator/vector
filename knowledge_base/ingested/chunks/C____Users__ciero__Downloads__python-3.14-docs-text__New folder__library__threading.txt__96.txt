@@ -1,0 +1,4 @@
+thread ("True") or not ("False").  This must be set before
+      "start()" is called, otherwise "RuntimeError" is raised.  Its
+      initial value is inherited from the creating thread; the main
+      thread is not a daemon thread and therefore all threads created

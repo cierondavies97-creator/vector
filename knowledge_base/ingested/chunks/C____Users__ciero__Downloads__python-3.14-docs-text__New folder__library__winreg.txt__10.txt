@@ -1,0 +1,5 @@
+*key* is an already open key, or one of the predefined HKEY_*
+   constants.
+   *sub_key* is a string that names the key this method opens or
+   creates.
+   *reserved* is a reserved integer, and must be zero. The default is

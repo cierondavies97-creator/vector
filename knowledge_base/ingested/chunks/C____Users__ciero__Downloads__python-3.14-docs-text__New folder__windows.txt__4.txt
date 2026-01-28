@@ -1,0 +1,3 @@
+Manager from python.org/downloads or through the Microsoft Store app.
+Once you have installed the Python Install Manager, the global
+"python" command can be used from any terminal to launch your current

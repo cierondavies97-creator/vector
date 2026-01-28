@@ -1,0 +1,5 @@
+--------------------
+A list display is a possibly empty series of expressions enclosed in
+square brackets:
+   list_display: "[" [flexible_expression_list | comprehension] "]"
+A list display yields a new list object, the contents being specified

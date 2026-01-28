@@ -1,0 +1,3 @@
+server.  The optional second argument is a transport factory
+   instance; by default it is an internal "SafeTransport" instance for
+   https: URLs and an internal HTTP "Transport" instance otherwise.

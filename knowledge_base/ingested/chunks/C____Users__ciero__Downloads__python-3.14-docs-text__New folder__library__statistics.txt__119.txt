@@ -1,0 +1,3 @@
+>>> # Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and  Neptune
+      >>> orbital_period = [88, 225, 365, 687, 4331, 10_756, 30_687, 60_190]    # days
+      >>> dist_from_sun = [58, 108, 150, 228, 778, 1_400, 2_900, 4_500] # million km

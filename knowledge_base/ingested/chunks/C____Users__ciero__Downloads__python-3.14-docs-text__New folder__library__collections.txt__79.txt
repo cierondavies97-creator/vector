@@ -1,0 +1,4 @@
+the opposite end.  Bounded length deques provide functionality
+   similar to the "tail" filter in Unix. They are also useful for
+   tracking transactions and other pools of data where only the most
+   recent activity is of interest.

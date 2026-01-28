@@ -1,0 +1,5 @@
+assert Eggs.__bases__ == (tuple,)
+      assert get_original_bases(Eggs) == (NamedTuple,)
+      assert Spam.__bases__ == (dict,)
+      assert get_original_bases(Spam) == (TypedDict,)
+      assert int.__bases__ == (object,)

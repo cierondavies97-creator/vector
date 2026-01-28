@@ -1,0 +1,4 @@
+"WindowsError", "socket.error", "select.error" and "mmap.error"
+   have been merged into "OSError", and the constructor may return a
+   subclass.
+   Changed in version 3.4: The "filename" attribute is now the

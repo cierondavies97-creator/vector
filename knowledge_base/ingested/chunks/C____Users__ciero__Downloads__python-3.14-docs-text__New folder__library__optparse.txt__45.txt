@@ -1,0 +1,3 @@
+that some options will take an argument if they see it, and won't
+   if they don't.  This is somewhat controversial, because it makes
+   parsing ambiguous: if "-a" takes an optional argument and "-b" is

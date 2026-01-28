@@ -1,0 +1,10 @@
+socket.SHUT_WR
+socket.SHUT_RDWR
+   These constants are used by the "shutdown()" method of socket
+   objects.
+   Availability: not WASI.
+Functions
+---------
+Creating sockets
+~~~~~~~~~~~~~~~~
+The following functions all create socket objects.

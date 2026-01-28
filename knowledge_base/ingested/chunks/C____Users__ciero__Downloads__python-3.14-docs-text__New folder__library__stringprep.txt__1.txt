@@ -1,0 +1,3 @@
+often necessary to compare such identifications for "equality".
+Exactly how this comparison is executed may depend on the application
+domain, e.g. whether it should be case-insensitive or not. It may be

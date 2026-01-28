@@ -1,0 +1,4 @@
+Traverse directories according to *pathsegments* and return the
+      result as "Traversable".
+      Each *pathsegments* argument may contain multiple names
+      separated by forward slashes ("/", "posixpath.sep" ). For

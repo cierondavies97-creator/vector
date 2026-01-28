@@ -1,0 +1,5 @@
+compression ratio.
+      A value of zero causes the value to be selected automatically.
+   strategy
+      The higher the value of selected strategy, the more complex the
+      compression technique used by zstd, resulting in higher

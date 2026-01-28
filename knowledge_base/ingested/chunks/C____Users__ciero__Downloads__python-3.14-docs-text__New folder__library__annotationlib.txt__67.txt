@@ -1,0 +1,4 @@
+annotations ("from __future__ import annotations"). It is an
+     error to set *eval_str* to true with formats other than
+     "Format.VALUE".
+   * If *obj* doesn't have an annotations dict, returns an empty dict.

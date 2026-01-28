@@ -1,0 +1,3 @@
+When "DONT_ACCEPT_TRUE_FOR_1" is specified, neither substitution is
+   allowed.  The default behavior caters to that Python changed the
+   return type of many functions from integer to boolean; doctests

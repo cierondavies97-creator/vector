@@ -1,0 +1,4 @@
+correctly resetting it after it has finished.
+@test.support.requires_freebsd_version(*min_version)
+   Decorator for the minimum version when running test on FreeBSD.  If
+   the FreeBSD version is less than the minimum, the test is skipped.

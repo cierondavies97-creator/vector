@@ -1,0 +1,6 @@
+"BabylMessage" instances offer the following methods:
+   get_labels()
+      Return a list of labels on the message.
+   set_labels(labels)
+      Set the list of labels on the message to *labels*.
+   add_label(label)

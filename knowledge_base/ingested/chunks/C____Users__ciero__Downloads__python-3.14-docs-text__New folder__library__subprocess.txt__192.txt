@@ -1,0 +1,3 @@
+The arguments shown above are merely some common ones. The full
+   function signature is the same as that of the "Popen" constructor -
+   this function passes all supplied arguments other than *timeout*

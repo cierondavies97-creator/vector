@@ -1,0 +1,5 @@
+other individual attributes listed in this subsection. Note that
+  updating an attribute on "__spec__" will not update the
+  corresponding attribute on the module itself:
+     >>> import typing
+     >>> typing.__name__, typing.__spec__.name

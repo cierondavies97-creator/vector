@@ -1,0 +1,7 @@
+Changed in version 3.13: This instruction now requires an exact
+   "bool" operand.
+UNARY_INVERT
+   Implements "STACK[-1] = ~STACK[-1]".
+GET_ITER
+   Implements "STACK[-1] = iter(STACK[-1])".
+GET_YIELD_FROM_ITER

@@ -1,0 +1,6 @@
+│    │    └── ConnectionResetError
+         │    ├── FileExistsError
+         │    ├── FileNotFoundError
+         │    ├── InterruptedError
+         │    ├── IsADirectoryError
+         │    ├── NotADirectoryError

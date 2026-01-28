@@ -1,0 +1,5 @@
+return fp.read()
+   Note:
+     I/O operations may fail even when "access()" indicates that they
+     would succeed, particularly for operations on network filesystems
+     which may have permissions semantics beyond the usual POSIX

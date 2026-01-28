@@ -1,0 +1,3 @@
+# non-string values to keys internally, but will receive an error when
+   # attempting to write to a file or when you get it in non-raw mode. Setting
+   # values using the mapping protocol or ConfigParser's set() does not allow

@@ -1,0 +1,4 @@
+argument is "FORWARDREF", the method will never throw an
+      exception, but may return a "ForwardRef" instance. For example,
+      if the forward reference object contains the code
+      "list[undefined]", where "undefined" is a name that is not

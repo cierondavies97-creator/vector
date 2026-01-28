@@ -1,0 +1,4 @@
+Provides details on the special attributes that can be found
+        on instances of "ModuleType".
+     "importlib.util.module_from_spec()"
+        Modules created using the "ModuleType" constructor are created

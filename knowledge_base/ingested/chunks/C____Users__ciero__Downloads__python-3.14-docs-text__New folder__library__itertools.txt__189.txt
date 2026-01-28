@@ -1,0 +1,6 @@
+n = len(coefficients)
+       if not n:
+           return type(x)(0)
+       powers = map(pow, repeat(x), reversed(range(n)))
+       return sumprod(coefficients, powers)
+   def polynomial_derivative(coefficients):

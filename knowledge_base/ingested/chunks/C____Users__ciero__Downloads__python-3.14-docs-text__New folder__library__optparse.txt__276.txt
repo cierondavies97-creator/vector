@@ -1,0 +1,4 @@
+parser.add_option("--foo", action="callback", callback=record_foo_seen)
+Of course, you could do that with the ""store_true"" action.
+Callback example 2: check option order
+--------------------------------------

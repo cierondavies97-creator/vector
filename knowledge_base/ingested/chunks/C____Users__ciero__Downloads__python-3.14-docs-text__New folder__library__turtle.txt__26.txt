@@ -1,0 +1,4 @@
+where other modules might be imported).
+The solution is to use "import turtle" - "fd()" becomes "turtle.fd()",
+"width()" becomes "turtle.width()" and so on. (If typing "turtle" over
+and over again becomes tedious, use for example "import turtle as t"

@@ -1,0 +1,5 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+module.__getattr__()
+module.__dir__()
+Special names "__getattr__" and "__dir__" can be also used to
+customize access to module attributes. The "__getattr__" function at

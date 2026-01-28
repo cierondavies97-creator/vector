@@ -1,0 +1,4 @@
+Changed in version 3.3: Windows errors used to raise "WindowsError",
+which is now an alias of "OSError".
+Here are some examples for Windows. Note that "msvcrt" is the MS
+standard C library containing most standard C functions, and uses the

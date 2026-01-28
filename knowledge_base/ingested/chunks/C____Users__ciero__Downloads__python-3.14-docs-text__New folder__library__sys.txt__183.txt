@@ -1,0 +1,3 @@
+intended only for implementing debuggers, profilers, coverage tools
+   and the like.  Its behavior is part of the implementation platform,
+   rather than part of the language definition, and thus may not be

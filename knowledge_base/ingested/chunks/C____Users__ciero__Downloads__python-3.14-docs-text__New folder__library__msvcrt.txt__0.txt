@@ -1,0 +1,4 @@
+"msvcrt" --- Useful routines from the MS VC++ runtime
+*****************************************************
+======================================================================
+These functions provide access to some useful capabilities on Windows

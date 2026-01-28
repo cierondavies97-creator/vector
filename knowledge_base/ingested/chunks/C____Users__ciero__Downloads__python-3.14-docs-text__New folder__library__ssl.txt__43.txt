@@ -1,0 +1,5 @@
+verify_message
+      A human readable string of the verification error.
+exception ssl.CertificateError
+   An alias for "SSLCertVerificationError".
+   Changed in version 3.7: The exception is now an alias for

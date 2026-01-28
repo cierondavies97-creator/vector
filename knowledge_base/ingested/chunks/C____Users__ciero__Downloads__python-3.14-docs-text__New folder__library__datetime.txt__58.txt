@@ -1,0 +1,4 @@
+similarly to their internal representation. This leads to somewhat
+   unusual results for negative timedeltas. For example:
+      >>> timedelta(hours=-5)
+      datetime.timedelta(days=-1, seconds=68400)

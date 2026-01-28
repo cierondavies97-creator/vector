@@ -1,0 +1,4 @@
+For example, suppose "sys.prefix" and "sys.exec_prefix" are set to
+"/usr/local".  The Python X.Y library is then installed in
+"/usr/local/lib/python*X.Y*".  Suppose this has a subdirectory
+"/usr/local/lib/python*X.Y*/site-packages" with three

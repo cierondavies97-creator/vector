@@ -1,0 +1,5 @@
+have visible consequences if e.g. you decide to use the "fileno()"
+  of a socket.
+Timeouts and the "connect" method
+---------------------------------
+The "connect()" operation is also subject to the timeout setting, and

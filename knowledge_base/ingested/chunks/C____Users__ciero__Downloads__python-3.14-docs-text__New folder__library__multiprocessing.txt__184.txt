@@ -1,0 +1,3 @@
+Set a list of module names for the forkserver main process to
+   attempt to import so that their already imported state is inherited
+   by forked processes. Any "ImportError" when doing so is silently

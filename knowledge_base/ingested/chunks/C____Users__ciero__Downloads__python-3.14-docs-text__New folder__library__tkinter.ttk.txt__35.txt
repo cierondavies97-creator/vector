@@ -1,0 +1,3 @@
+|                | character widths, to allocate for the text label, if less   |
+|                | than zero, specifies a minimum width. If zero or            |
+|                | unspecified, the natural width of the text label is used.   |

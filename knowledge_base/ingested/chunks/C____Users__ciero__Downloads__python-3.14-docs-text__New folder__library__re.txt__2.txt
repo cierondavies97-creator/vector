@@ -1,0 +1,4 @@
+string with a bytes pattern or vice-versa; similarly, when asking for
+a substitution, the replacement string must be of the same type as
+both the pattern and the search string.
+Regular expressions use the backslash character ("'\'") to indicate

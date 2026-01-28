@@ -1,0 +1,4 @@
+class zipimport.zipimporter(archivepath)
+   Create a new zipimporter instance. *archivepath* must be a path to
+   a ZIP file, or to a specific path within a ZIP file.  For example,
+   an *archivepath* of "foo/bar.zip/lib" will look for modules in the

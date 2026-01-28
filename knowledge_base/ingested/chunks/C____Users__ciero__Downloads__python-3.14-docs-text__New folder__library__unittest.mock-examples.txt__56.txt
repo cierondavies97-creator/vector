@@ -1,0 +1,7 @@
+>>> @patch('package.module.attribute', sentinel.attribute)
+   ... def test():
+   ...     from package.module import attribute
+   ...     assert attribute is sentinel.attribute
+   ...
+   >>> test()
+If you are patching a module (including "builtins") then use "patch()"

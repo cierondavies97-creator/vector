@@ -1,0 +1,4 @@
+located at the target URI. For example, if there is a WSGI
+   application at "/foo", and the request URI path is "/foo/bar/baz",
+   and the WSGI application at "/foo" calls "shift_path_info()", it
+   will receive the string "bar", and the environment will be updated

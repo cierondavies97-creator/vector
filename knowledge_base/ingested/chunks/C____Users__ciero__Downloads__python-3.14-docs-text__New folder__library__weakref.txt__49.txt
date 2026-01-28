@@ -1,0 +1,6 @@
+__call__()
+      If *self* is alive then mark it as dead and return the result of
+      calling "func(*args, **kwargs)".  If *self* is dead then return
+      "None".
+   detach()
+      If *self* is alive then mark it as dead and return the tuple

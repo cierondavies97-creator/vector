@@ -1,0 +1,5 @@
+# - No comma, optional type comment, must be followed by close paren
+   # The latter form is for a final parameter without trailing comma.
+   #
+   param_no_default[arg_ty]:
+       | a=param ',' tc=TYPE_COMMENT? { _PyPegen_add_type_comment_to_arg(p, a, tc) }

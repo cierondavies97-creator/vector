@@ -1,0 +1,5 @@
+if len(self.requests) > self.maxrequests:
+                   self.requests.popitem(last=False)
+           else:
+               self.requests.pop(args, None)
+               self.cache[args] = result

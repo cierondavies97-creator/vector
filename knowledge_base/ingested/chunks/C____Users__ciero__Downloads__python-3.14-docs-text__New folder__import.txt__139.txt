@@ -1,0 +1,4 @@
+will always have "loader" set (with one exception).
+To indicate to the import machinery that the spec represents a
+namespace *portion*, the path entry finder sets
+"submodule_search_locations" to a list containing the portion.

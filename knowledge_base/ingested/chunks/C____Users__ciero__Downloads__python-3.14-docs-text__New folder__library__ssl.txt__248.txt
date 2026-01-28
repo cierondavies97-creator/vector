@@ -1,0 +1,4 @@
+first being the "ssl.SSLSocket", the second is a string that
+   represents the server name that the client is intending to
+   communicate (or "None" if the TLS Client Hello does not contain a
+   server name) and the third argument is the original "SSLContext".

@@ -1,0 +1,5 @@
+dealt with in some way (this is the same as "runsource()").
+InteractiveConsole.resetbuffer()
+   Remove any unhandled source text from the input buffer.
+InteractiveConsole.raw_input(prompt='')
+   Write a prompt and read a line.  The returned line does not include

@@ -1,0 +1,4 @@
+return open(fname)
+       except IOError as detail:
+           return fail("couldn't open " + fname + ": " + str(detail))
+   # open two files & spray the diff to stdout; return false iff a problem

@@ -1,0 +1,5 @@
+Namespace(x=10, y='hello')
+Customized managers
+~~~~~~~~~~~~~~~~~~~
+To create one's own manager, one creates a subclass of "BaseManager"
+and uses the "register()" classmethod to register new types or

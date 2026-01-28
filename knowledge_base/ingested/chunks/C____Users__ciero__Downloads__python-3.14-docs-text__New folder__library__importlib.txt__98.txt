@@ -1,0 +1,3 @@
+file name. This means that no subdirectory paths should be included
+   in the *resource* argument. This is because the location of the
+   package the reader is for, acts as the "directory". Hence the

@@ -1,0 +1,4 @@
+(<OtherStyle.ALTERNATE: 1>, 'ALTERNATE', 'ALTERNATE')
+   __format__(self)
+      Returns the string used for *format()* and *f-string* calls.  By
+      default, returns "__str__()" return value, but can be

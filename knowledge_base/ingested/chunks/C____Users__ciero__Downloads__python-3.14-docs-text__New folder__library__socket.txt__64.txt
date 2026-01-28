@@ -1,0 +1,15 @@
+socket.SOMAXCONN
+MSG_*
+SOL_*
+SCM_*
+IPPROTO_*
+IPPORT_*
+INADDR_*
+IP_*
+IPV6_*
+EAI_*
+AI_*
+NI_*
+TCP_*
+   Many constants of these forms, documented in the Unix documentation
+   on sockets and/or the IP protocol, are also defined in the socket

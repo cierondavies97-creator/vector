@@ -1,0 +1,5 @@
+is raised. If "sys.implementation.cache_tag" is not defined,
+   "NotImplementedError" is raised.
+   Added in version 3.4.
+   Changed in version 3.6: Accepts a *path-like object*.
+importlib.util.decode_source(source_bytes)

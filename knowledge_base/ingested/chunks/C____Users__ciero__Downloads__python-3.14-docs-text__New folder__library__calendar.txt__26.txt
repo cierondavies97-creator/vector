@@ -1,0 +1,5 @@
+an integer representing the day of the week, where "0" is Monday
+      and "6" is Sunday.
+   formatweekheader(width)
+      Return a string containing the header row of weekday names,
+      formatted with the given *width* for each column. The names

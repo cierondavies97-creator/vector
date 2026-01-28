@@ -1,0 +1,6 @@
+discontinuous system clock change.
+   Discontinuous system clock change will be caused by the following
+   events:
+   * "settimeofday"
+   * "clock_settime"
+   * set the system date and time by "date" command

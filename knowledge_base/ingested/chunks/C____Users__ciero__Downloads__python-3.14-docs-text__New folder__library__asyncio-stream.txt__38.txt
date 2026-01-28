@@ -1,0 +1,6 @@
+await stream.wait_closed()
+   can_write_eof()
+      Return "True" if the underlying transport supports the
+      "write_eof()" method, "False" otherwise.
+   write_eof()
+      Close the write end of the stream after the buffered write data

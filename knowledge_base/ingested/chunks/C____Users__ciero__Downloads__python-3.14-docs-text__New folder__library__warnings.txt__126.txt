@@ -1,0 +1,3 @@
+new threads started by it.  If false, new threads will start with
+     an empty warnings context variable, meaning that any filtering
+     that was established by a "catch_warnings" context manager will

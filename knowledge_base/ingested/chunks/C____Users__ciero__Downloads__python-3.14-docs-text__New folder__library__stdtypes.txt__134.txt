@@ -1,0 +1,4 @@
+found in the documentation for the yield expression.
+Sequence Types --- "list", "tuple", "range"
+===========================================
+There are three basic sequence types: lists, tuples, and range

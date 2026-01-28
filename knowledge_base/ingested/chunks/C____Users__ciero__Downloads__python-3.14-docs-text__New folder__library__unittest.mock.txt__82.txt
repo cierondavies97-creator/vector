@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+        ...
+      Exception: Boom!
+      Using "side_effect" to return a sequence of values:
+      >>> mock = Mock()
+      >>> mock.side_effect = [3, 2, 1]
+      >>> mock(), mock(), mock()

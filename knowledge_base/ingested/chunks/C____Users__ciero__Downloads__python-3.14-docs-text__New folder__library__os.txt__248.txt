@@ -1,0 +1,6 @@
+Files and Directories
+=====================
+On some Unix platforms, many of these functions support one or more of
+these features:
+* **specifying a file descriptor:** Normally the *path* argument
+  provided to functions in the "os" module must be a string specifying

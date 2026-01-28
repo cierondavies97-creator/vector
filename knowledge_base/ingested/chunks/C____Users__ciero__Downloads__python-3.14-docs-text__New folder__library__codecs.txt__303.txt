@@ -1,0 +1,3 @@
+===================================================================
+This module implements **RFC 3490** (Internationalized Domain Names in
+Applications) and **RFC 3492** (Nameprep: A Stringprep Profile for

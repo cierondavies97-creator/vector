@@ -1,0 +1,4 @@
+| invalid_if_stmt
+       | 'if' a=named_expression ':' b=block c=elif_stmt {
+           _PyAST_If(a, b, CHECK(asdl_stmt_seq*, _PyPegen_singleton_seq(p, c)), EXTRA) }
+       | 'if' a=named_expression ':' b=block c=[else_block] { _PyAST_If(a, b, c, EXTRA) }

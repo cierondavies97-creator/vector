@@ -1,0 +1,4 @@
+greatest integer *a* such that *a*² ≤ *n*.
+   For some applications, it may be more convenient to have the least
+   integer *a* such that *n* ≤ *a*², or in other words the ceiling of
+   the exact square root of *n*. For positive *n*, this can be

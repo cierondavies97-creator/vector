@@ -1,0 +1,4 @@
+module, is the base class for the rotating file handlers,
+"RotatingFileHandler" and "TimedRotatingFileHandler". You should not
+need to instantiate this class, but it has attributes and methods you
+may need to override.

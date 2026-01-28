@@ -1,0 +1,5 @@
+"typing.ParamSpec" is intended primarily for static type
+     checking.
+genericalias.__unpacked__
+   A boolean that is true if the alias has been unpacked using the "*"
+   operator (see "TypeVarTuple").

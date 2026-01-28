@@ -1,0 +1,3 @@
+"os.execvpe()", and note that when resolving or searching for the
+     executable path, *cwd* overrides the current working directory
+     and *env* can override the "PATH" environment variable. For

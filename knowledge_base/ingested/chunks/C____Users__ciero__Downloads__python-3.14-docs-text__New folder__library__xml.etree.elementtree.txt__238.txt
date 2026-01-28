@@ -1,0 +1,5 @@
+message.  In addition, it will have the following attributes
+   available:
+   code
+      A numeric error code from the expat parser. See the
+      documentation of "xml.parsers.expat" for the list of error codes

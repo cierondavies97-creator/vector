@@ -1,0 +1,4 @@
+returned (defaults to "None").
+      Optional *header* if given, specifies the message header to use
+      instead of *Content-Type*.
+      Parameter keys are always compared case insensitively.  The

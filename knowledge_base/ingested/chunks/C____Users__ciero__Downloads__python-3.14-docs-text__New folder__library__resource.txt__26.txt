@@ -1,0 +1,8 @@
+rlim_cur).
+   Availability: Linux >= 2.6.12.
+   Added in version 3.4.
+resource.RLIMIT_RTPRIO
+   The ceiling of the real-time priority.
+   Availability: Linux >= 2.6.12.
+   Added in version 3.4.
+resource.RLIMIT_RTTIME

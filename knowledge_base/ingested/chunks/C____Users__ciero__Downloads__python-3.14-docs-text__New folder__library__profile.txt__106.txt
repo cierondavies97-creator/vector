@@ -1,0 +1,4 @@
+The problem is more important with "profile" than with the lower-
+overhead "cProfile".  For this reason, "profile" provides a means of
+calibrating itself for a given platform so that this error can be
+probabilistically (on the average) removed. After the profiler is

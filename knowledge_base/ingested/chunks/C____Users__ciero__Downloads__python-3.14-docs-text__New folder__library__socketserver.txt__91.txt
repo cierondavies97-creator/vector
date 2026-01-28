@@ -1,0 +1,6 @@
+there is no connection the client address must be given explicitly
+       when sending data back via sendto().
+       """
+       def handle(self):
+           data = self.request[0].strip()
+           socket = self.request[1]

@@ -1,0 +1,4 @@
+cheap. *type* must be a ctypes type.
+   **CPython implementation detail:** The resulting pointer type is
+   cached in the "__pointer_type__" attribute of *type*. It is
+   possible to set this attribute before the first call to "POINTER"

@@ -1,0 +1,8 @@
+window.
+The clipboard functions are also available in context menus.
+Find...
+   Open a search dialog with many options
+Find Again
+   Repeat the last search, if there is one.
+Find Selection
+   Search for the currently selected string, if there is one.

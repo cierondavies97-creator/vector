@@ -1,0 +1,4 @@
+the attribute from an object's dictionary. For instance, "a.x" has a
+lookup chain starting with "a.__dict__['x']", then
+"type(a).__dict__['x']", and continuing through the base classes of
+"type(a)" excluding metaclasses.

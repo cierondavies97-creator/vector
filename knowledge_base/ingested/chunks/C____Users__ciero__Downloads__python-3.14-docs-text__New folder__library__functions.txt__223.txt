@@ -1,0 +1,3 @@
+mode), 1 to select line buffering (only usable when writing in text
+   mode), and an integer > 1 to indicate the size in bytes of a fixed-
+   size chunk buffer. Note that specifying a buffer size this way

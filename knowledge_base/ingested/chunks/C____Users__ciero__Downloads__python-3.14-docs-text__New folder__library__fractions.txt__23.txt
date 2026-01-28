@@ -1,0 +1,4 @@
+Alternative constructor which only accepts instances of
+      "numbers.Integral", "numbers.Rational", "float" or
+      "decimal.Decimal", and objects with the "as_integer_ratio()"
+      method, but not strings.

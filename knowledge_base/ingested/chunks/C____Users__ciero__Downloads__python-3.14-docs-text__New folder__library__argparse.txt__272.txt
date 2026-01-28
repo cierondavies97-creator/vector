@@ -1,0 +1,5 @@
+by supplying the "help=" argument to "add_parser()" as above.)
+      >>> parser.parse_args(['--help'])
+      usage: PROG [-h] [--foo] {a,b} ...
+      positional arguments:
+        {a,b}   subcommand help

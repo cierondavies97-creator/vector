@@ -1,0 +1,4 @@
+elements that compare equal --- this is helpful for sorting in
+   multiple passes (for example, sort by department, then by salary
+   grade).
+   The sort algorithm uses only "<" comparisons between items.  While

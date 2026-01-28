@@ -1,0 +1,3 @@
+this may result in the original link being returned instead of the
+   non-link that prevented full traversal. To obtain stat results for
+   the final path in this case, use the "os.path.realpath()" function

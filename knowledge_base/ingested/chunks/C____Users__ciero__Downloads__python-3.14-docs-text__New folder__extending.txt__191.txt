@@ -1,0 +1,4 @@
+synchronously within the "PyList_SetItem()" call.
+Since it is written in Python, the "__del__()" method can execute
+arbitrary Python code.  Could it perhaps do something to invalidate
+the reference to "item" in "bug()"?  You bet!  Assuming that the list

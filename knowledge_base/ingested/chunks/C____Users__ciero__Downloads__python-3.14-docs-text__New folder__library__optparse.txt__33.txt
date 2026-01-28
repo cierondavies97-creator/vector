@@ -1,0 +1,4 @@
+programs with straightforward command-line interfaces that follow the
+conventions established by the "getopt()" family of functions
+available to C developers. To that end, it supports only the most
+common command-line syntax and semantics conventionally used under

@@ -1,0 +1,4 @@
+"gethostbyname()" does not support IPv6 name resolution, and
+   "getaddrinfo()" should be used instead for IPv4/v6 dual stack
+   support.
+   Raises an auditing event "socket.gethostbyname" with argument

@@ -1,0 +1,5 @@
+recursively to find the size of containers and all their contents.
+sys.getswitchinterval()
+   Return the interpreter's "thread switch interval" in seconds; see
+   "setswitchinterval()".
+   Added in version 3.2.

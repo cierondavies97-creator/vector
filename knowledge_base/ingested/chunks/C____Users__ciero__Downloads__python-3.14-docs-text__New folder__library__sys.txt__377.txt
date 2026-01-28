@@ -1,0 +1,5 @@
+of accessing options passed through "-X".  Other implementations
+   may export them through other means, or not at all.
+   Added in version 3.2.
+-[ Citations ]-
+[C99] ISO/IEC 9899:1999.  "Programming languages -- C."  A public

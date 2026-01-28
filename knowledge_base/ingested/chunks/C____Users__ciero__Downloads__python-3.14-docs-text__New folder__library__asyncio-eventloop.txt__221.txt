@@ -1,0 +1,4 @@
+Create a subprocess from *cmd*, which can be a "str" or a "bytes"
+   string encoded to the filesystem encoding, using the platform's
+   "shell" syntax.
+   This is similar to the standard library "subprocess.Popen" class

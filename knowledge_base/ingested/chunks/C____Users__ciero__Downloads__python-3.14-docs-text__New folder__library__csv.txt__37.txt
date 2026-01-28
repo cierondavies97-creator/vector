@@ -1,0 +1,5 @@
+optional or keyword arguments are passed to the underlying "writer"
+   instance.
+   Note that unlike the "DictReader" class, the *fieldnames* parameter
+   of the "DictWriter" class is not optional.
+   If the argument passed to *fieldnames* is an iterator, it will be

@@ -1,0 +1,4 @@
+factory.
+"Row" provides indexed and case-insensitive named access to columns,
+with minimal memory overhead and performance impact over a "tuple". To
+use "Row" as a row factory, assign it to the "row_factory" attribute:

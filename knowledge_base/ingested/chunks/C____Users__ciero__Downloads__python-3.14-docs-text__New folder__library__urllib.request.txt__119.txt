@@ -1,0 +1,7 @@
+useful, and others that are meant to be used by derived classes.
+These are intended for direct use:
+BaseHandler.add_parent(director)
+   Add a director as parent.
+BaseHandler.close()
+   Remove any parents.
+The following attribute and methods should only be used by classes

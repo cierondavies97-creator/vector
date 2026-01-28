@@ -1,0 +1,6 @@
+...
+   >>> test_function()
+"patch.multiple()" can be nested with other "patch" decorators, but
+put arguments passed by keyword *after* any of the standard arguments
+created by "patch()":
+   >>> @patch('sys.exit')

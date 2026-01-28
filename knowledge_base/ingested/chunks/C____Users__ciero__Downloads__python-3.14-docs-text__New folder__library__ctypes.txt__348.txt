@@ -1,0 +1,7 @@
+"address", "size", "readonly".
+   Added in version 3.14.
+Data types
+----------
+class ctypes._CData
+   This non-public class is the common base class of all ctypes data
+   types. Among other things, all ctypes type instances contain a

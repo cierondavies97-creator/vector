@@ -1,0 +1,4 @@
+nodes can be added using "add()".
+      A "ValueError" will be raised if the sort has been started by
+      "static_order()" or "get_ready()".
+      Changed in version 3.14: "prepare()" can now be called more than

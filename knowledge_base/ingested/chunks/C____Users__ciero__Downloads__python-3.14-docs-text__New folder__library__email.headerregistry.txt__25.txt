@@ -1,0 +1,5 @@
+encoded words or the non-encoded text.
+   This header type provides no additional attributes.
+class email.headerregistry.DateHeader
+   **RFC 5322** specifies a very specific format for dates within
+   email headers. The "DateHeader" parser recognizes that date format,

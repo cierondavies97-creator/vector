@@ -1,0 +1,6 @@
+Changed in version 3.8: Previously, ZIP archives with an archive
+comment were not supported.
+See also:
+  PKZIP Application Note
+     Documentation on the ZIP file format by Phil Katz, the creator of
+     the format and algorithms used.

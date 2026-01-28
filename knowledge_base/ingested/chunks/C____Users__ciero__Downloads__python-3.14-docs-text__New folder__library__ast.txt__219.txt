@@ -1,0 +1,4 @@
+that the "AST" nodes produced for patterns differ from those
+   produced for expressions, even when they share the same syntax.
+   The "guard" attribute contains an expression that will be evaluated
+   if the pattern matches the subject.

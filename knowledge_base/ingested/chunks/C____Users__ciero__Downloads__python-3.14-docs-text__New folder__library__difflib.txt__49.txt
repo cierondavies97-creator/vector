@@ -1,0 +1,4 @@
+Compare *a* and *b* (lists of strings); return a delta (a
+   *generator* generating the delta lines) in unified diff format.
+   Unified diffs are a compact way of showing just the lines that have
+   changed plus a few lines of context.  The changes are shown in an

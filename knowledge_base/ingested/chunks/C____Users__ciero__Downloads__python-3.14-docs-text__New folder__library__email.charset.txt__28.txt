@@ -1,0 +1,4 @@
+the input.
+   Both *input_charset* and *output_charset* must have Unicode codec
+   entries in the module's character set-to-codec mapping; use
+   "add_codec()" to add codecs the module does not know about.  See

@@ -1,0 +1,5 @@
+Added in version 3.14.
+   index(value, start=0, stop=sys.maxsize, /)
+         Return the index of the first occurrence of *value* (at or
+         after index *start* and before index *stop*).
+         Raises a "ValueError" if *value* cannot be found.

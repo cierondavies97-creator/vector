@@ -1,0 +1,6 @@
+p = ctx.Process(target=foo, args=(q,))
+       p.start()
+       print(q.get())
+       p.join()
+Note that objects related to one context may not be compatible with
+processes for a different context.  In particular, locks created using

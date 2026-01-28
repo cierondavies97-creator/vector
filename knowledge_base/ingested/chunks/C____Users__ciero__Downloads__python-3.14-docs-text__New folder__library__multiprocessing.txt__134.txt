@@ -1,0 +1,4 @@
+been put on the queue have been consumed.  Similarly, if the child
+  process is non-daemonic then the parent process may hang on exit
+  when it tries to join all its non-daemonic children.Note that a
+  queue created using a manager does not have this issue.  See

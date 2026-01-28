@@ -1,0 +1,4 @@
+rules for assigning default values, because the "max-age" and
+"expires" cookie-attributes contain equivalent information, and
+because **RFC 2109** cookies may be 'downgraded' by "http.cookiejar"
+from version 1 to version 0 (Netscape) cookies.

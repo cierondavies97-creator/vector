@@ -1,0 +1,4 @@
+"copied_list = original_list[:]".
+Classes can use the same interfaces to control copying that they use
+to control pickling.  See the description of module "pickle" for
+information on these methods.  In fact, the "copy" module uses the

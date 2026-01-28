@@ -1,0 +1,4 @@
+inherit from a standard library class that already implements
+"__class_getitem__()", or inherit from "typing.Generic", which has its
+own implementation of "__class_getitem__()".
+Custom implementations of "__class_getitem__()" on classes defined

@@ -1,0 +1,7 @@
+operator.is_not_none(a)
+   Return "a is not None".  Tests object identity.
+   Added in version 3.14.
+The mathematical and bitwise operations are the most numerous:
+operator.abs(obj)
+operator.__abs__(obj)
+   Return the absolute value of *obj*.

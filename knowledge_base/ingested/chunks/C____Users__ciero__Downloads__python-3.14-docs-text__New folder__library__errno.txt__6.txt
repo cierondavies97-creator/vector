@@ -1,0 +1,8 @@
+Exec format error
+errno.EBADF
+   Bad file number
+errno.ECHILD
+   No child processes. This error is mapped to the exception
+   "ChildProcessError".
+errno.EAGAIN
+   Try again. This error is mapped to the exception "BlockingIOError".

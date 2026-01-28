@@ -1,0 +1,4 @@
+method.  At any point you can ask it for the *digest* of the
+concatenation of the data fed to it so far using the "digest()" or
+"hexdigest()" methods.
+To allow multithreading, the Python *GIL* is released while computing

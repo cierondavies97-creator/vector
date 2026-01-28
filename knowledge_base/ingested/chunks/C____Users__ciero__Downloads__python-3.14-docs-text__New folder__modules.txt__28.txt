@@ -1,0 +1,4 @@
+named "spam.py" in a list of directories given by the variable
+"sys.path".  "sys.path" is initialized from these locations:
+* The directory containing the input script (or the current directory
+  when no file is specified).

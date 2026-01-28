@@ -1,0 +1,4 @@
+in the descriptor protocol:  "__get__()", "__set__()", and
+"__delete__()". If any of those methods are defined for an object, it
+is said to be a descriptor.
+The default behavior for attribute access is to get, set, or delete

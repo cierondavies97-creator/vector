@@ -1,0 +1,4 @@
+* Special characters except backslash lose their special meaning
+     inside sets. For example, "[(+*)]" will match any of the literal
+     characters "'('", "'+'", "'*'", or "')'".
+   * Backslash either escapes characters which have special meaning in

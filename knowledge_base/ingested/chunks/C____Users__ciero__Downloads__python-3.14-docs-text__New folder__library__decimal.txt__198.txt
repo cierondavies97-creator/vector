@@ -1,0 +1,6 @@
+compare_total_mag(x, y, /)
+      Compares two operands using their abstract representation,
+      ignoring sign.
+   copy_abs(x, /)
+      Returns a copy of *x* with the sign set to 0.
+   copy_negate(x, /)

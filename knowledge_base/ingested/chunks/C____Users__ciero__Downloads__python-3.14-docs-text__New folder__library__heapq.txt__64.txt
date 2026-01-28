@@ -1,0 +1,4 @@
+current run, you'll produce runs which are twice the size of the
+memory for random input, and much better for input fuzzily ordered.
+Moreover, if you output the 0'th item on disk and get an input which
+may not fit in the current tournament (because the value "wins" over

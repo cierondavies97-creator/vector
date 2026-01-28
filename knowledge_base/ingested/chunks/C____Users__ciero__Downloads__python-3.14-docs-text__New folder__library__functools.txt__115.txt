@@ -1,0 +1,3 @@
+attribute to the wrapper that refers to the function being wrapped.
+   The main intended use for this function is in *decorator* functions
+   which wrap the decorated function and return the wrapper. If the

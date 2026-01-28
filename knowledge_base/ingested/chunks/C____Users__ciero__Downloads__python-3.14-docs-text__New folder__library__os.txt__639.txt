@@ -1,0 +1,4 @@
+Use "subprocess.Popen" or "subprocess.run()" to control options
+     like encodings.
+   Deprecated since version 3.14: The function is *soft deprecated*
+   and should no longer be used to write new code. The "subprocess"

@@ -1,0 +1,6 @@
+(respectively) the calling process, the process group of the
+   calling process, or the real user ID of the calling process.
+   Availability: Unix, not WASI.
+   Added in version 3.3.
+os.PRIO_PROCESS
+os.PRIO_PGRP

@@ -1,0 +1,4 @@
+spacing between tokens (column positions) may change.
+   It returns bytes, encoded using the "ENCODING" token, which is the
+   first token sequence output by "tokenize()". If there is no
+   encoding token in the input, it returns a str instead.

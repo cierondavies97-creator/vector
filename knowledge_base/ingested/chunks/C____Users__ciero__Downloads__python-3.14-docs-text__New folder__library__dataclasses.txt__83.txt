@@ -1,0 +1,4 @@
+judiciously used.  If they are used, it might be wise to have
+   alternate class constructors, or perhaps a custom "replace()" (or
+   similarly named) method which handles instance copying.
+   Dataclass instances are also supported by generic function

@@ -1,0 +1,5 @@
+matched; fewer matches cause the entire RE not to match.  For
+   example, "a{6}" will match exactly six "'a'" characters, but not
+   five.
+"{m,n}"
+   Causes the resulting RE to match from *m* to *n* repetitions of the

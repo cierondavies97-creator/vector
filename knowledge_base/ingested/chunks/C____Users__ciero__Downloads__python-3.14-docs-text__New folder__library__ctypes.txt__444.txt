@@ -1,0 +1,4 @@
+Concrete pointer types are created by calling "POINTER()" with the
+   type that will be pointed to; this is done automatically by
+   "pointer()".
+   If a pointer points to an array, its elements can be read and

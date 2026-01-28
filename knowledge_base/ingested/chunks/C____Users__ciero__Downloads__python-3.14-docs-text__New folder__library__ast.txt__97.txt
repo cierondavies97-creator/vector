@@ -1,0 +1,8 @@
+Module(
+          body=[
+              Assign(
+                  targets=[
+                      Tuple(
+                          elts=[
+                              Name(id='a', ctx=Store()),
+                              Starred(

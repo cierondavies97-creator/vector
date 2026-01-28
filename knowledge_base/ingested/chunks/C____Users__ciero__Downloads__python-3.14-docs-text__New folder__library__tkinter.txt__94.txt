@@ -1,0 +1,7 @@
+Handy Reference
+===============
+Setting Options
+---------------
+Options control things like the color and border width of a widget.
+Options can be set in three ways:
+At object creation time, using keyword arguments

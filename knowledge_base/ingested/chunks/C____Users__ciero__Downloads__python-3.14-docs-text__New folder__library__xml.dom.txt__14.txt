@@ -1,0 +1,4 @@
+function should return an object which implements the
+   "DOMImplementation" interface.  The factory function can return the
+   same object every time, or a new one for each call, as appropriate
+   for the specific implementation (e.g. if that implementation

@@ -1,0 +1,4 @@
+The newly created socket is non-inheritable.
+   Raises an auditing event "socket.__new__" with arguments "self",
+   "family", "type", "protocol".
+   Changed in version 3.3: The AF_CAN family was added. The AF_RDS

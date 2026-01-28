@@ -1,0 +1,3 @@
+Modules can import other modules.  It is customary but not required to
+place all "import" statements at the beginning of a module (or script,
+for that matter).  The imported module names, if placed at the top

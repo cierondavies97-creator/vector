@@ -1,0 +1,3 @@
+system's profile function is called similarly to the system's trace
+   function (see "settrace()"), but it is called with different
+   events, for example it isn't called for each executed line of code

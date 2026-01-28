@@ -1,0 +1,4 @@
+execute the condition of a loop.  The local trace function is
+      called; *arg* is "None"; the return value specifies the new
+      local trace function.  See "Objects/lnotab_notes.txt" for a
+      detailed explanation of how this works. Per-line events may be

@@ -1,0 +1,6 @@
+options.
+   Please read Security considerations for more information on best
+   practices.
+   Changed in version 3.2: *source_address*, *context* and
+   *check_hostname* were added.
+   Changed in version 3.2: This class now supports HTTPS virtual hosts

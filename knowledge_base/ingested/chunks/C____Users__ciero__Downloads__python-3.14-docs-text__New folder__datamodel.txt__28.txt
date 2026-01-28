@@ -1,0 +1,5 @@
+value. This object is accessed through the literal "..." or the built-
+in name "Ellipsis".  Its truth value is true.
+3.2.4. "numbers.Number"
+-----------------------
+These are created by numeric literals and returned as results by

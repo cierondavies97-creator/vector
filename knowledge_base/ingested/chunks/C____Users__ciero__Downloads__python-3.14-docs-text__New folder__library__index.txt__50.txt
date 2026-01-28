@@ -1,0 +1,5 @@
+* "test.support.script_helper" --- Utilities for the Python
+    execution tests
+  * "test.support.bytecode_helper" --- Support tools for testing
+    correct bytecode generation
+  * "test.support.threading_helper" --- Utilities for threading tests

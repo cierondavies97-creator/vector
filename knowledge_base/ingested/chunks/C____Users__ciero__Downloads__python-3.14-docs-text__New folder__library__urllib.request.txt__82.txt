@@ -1,0 +1,4 @@
+class urllib.request.HTTPHandler
+   A class to handle opening of HTTP URLs.
+class urllib.request.HTTPSHandler(debuglevel=0, context=None, check_hostname=None)
+   A class to handle opening of HTTPS URLs.  *context* and

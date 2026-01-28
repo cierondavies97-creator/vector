@@ -1,0 +1,5 @@
+PurePosixPath('/etc/init.d/apache2')
+      >>> PureWindowsPath('c:').joinpath('/Program Files')
+      PureWindowsPath('c:/Program Files')
+PurePath.full_match(pattern, *, case_sensitive=None)
+   Match this path against the provided glob-style pattern.  Return

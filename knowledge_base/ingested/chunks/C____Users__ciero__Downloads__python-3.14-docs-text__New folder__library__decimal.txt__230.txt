@@ -1,0 +1,3 @@
+--without-decimal-contextvar option", the C version uses a thread-
+   local rather than a coroutine-local context and the value is
+   "False".  This is slightly faster in some nested context scenarios.

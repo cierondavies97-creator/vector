@@ -1,0 +1,4 @@
+* "vararg" and "kwarg" are single "arg" nodes, referring to the
+     "*args, **kwargs" parameters.
+   * "kw_defaults" is a list of default values for keyword-only
+     arguments. If one is "None", the corresponding argument is

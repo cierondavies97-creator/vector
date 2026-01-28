@@ -1,0 +1,4 @@
+section A Simple Example. The function "spam.system()" does not call
+the C library function "system()" directly, but a function
+"PySpam_System()", which would of course do something more complicated
+in reality (such as adding "spam" to every command). This function

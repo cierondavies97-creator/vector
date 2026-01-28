@@ -1,0 +1,3 @@
+from the parameters to the constructor. (Note that the names do not
+always correspond exactly between the LogRecord constructor parameters
+and the LogRecord attributes.) These attributes can be used to merge

@@ -1,0 +1,4 @@
+7. Conversion type.
+When the right argument is a dictionary (or other mapping type), then
+the formats in the string *must* include a parenthesised mapping key
+into that dictionary inserted immediately after the "'%'" character.

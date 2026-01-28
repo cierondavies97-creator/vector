@@ -1,0 +1,5 @@
+locale.T_FMT
+      Get a string that can be used as a format string for
+      "time.strftime()" to represent a time in a locale-specific way.
+   locale.T_FMT_AMPM
+      Get a format string for "time.strftime()" to represent time in

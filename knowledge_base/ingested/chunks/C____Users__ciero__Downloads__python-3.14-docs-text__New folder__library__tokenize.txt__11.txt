@@ -1,0 +1,4 @@
+All constants from the "token" module are also exported from
+"tokenize".
+Another function is provided to reverse the tokenization process. This
+is useful for creating tools that tokenize a script, modify the token

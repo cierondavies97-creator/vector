@@ -1,0 +1,3 @@
+"%AppData%\Python\pymanager.json" (note that this location is under
+"Roaming", not "Local") and is read next, overwriting any settings
+from earlier files. An additional configuration file may be specified

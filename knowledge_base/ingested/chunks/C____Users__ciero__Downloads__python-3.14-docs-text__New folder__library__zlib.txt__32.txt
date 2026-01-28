@@ -1,0 +1,5 @@
+Changed in version 3.6: *wbits* and *bufsize* can be used as
+   keyword arguments.
+zlib.decompressobj(wbits=MAX_WBITS[, zdict])
+   Returns a decompression object, to be used for decompressing data
+   streams that won't fit into memory at once.

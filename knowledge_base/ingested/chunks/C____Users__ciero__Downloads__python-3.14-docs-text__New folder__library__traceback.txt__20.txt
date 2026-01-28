@@ -1,0 +1,4 @@
+entries are printed. The optional *f* argument can be used to
+   specify an alternate stack frame to start.  The optional *file*
+   argument has the same meaning as for "print_tb()".
+   Changed in version 3.5: Added negative *limit* support.

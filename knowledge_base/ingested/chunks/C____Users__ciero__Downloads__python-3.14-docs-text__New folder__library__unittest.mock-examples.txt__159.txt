@@ -1,0 +1,4 @@
+prevent your subclass being used for attributes by overriding this
+method. The signature is that it takes arbitrary keyword arguments
+("**kwargs") which are then passed onto the mock constructor:
+>>> class Subclass(MagicMock):

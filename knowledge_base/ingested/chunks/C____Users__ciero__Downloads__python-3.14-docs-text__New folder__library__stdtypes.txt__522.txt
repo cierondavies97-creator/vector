@@ -1,0 +1,7 @@
+as their arguments.  For example, you have to write:
+     a = "abc"
+     b = a.replace("a", "f")
+  and:
+     a = b"abc"
+     b = a.replace(b"a", b"f")
+Some bytes and bytearray operations assume the use of ASCII compatible

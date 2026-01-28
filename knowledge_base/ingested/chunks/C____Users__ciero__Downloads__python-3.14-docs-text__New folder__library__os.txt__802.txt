@@ -1,0 +1,4 @@
+on reading "/dev/urandom".
+   Changed in version 3.6: On Linux, "getrandom()" is now used in
+   blocking mode to increase the security.
+   Changed in version 3.11: On Windows, "BCryptGenRandom()" is used

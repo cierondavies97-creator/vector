@@ -1,0 +1,7 @@
+method.
+   Changed in version 3.10: Removed the *loop* parameter.
+   This class is not thread safe.
+   maxsize
+      Number of items allowed in the queue.
+   empty()
+      Return "True" if the queue is empty, "False" otherwise.

@@ -1,0 +1,4 @@
+*master* and *parent* are similar and sometimes used
+      interchangeably as argument names; however, calling
+      "winfo_parent()" returns a string of the widget name whereas
+      "master" returns the object. *parent*/*child* reflects the tree-

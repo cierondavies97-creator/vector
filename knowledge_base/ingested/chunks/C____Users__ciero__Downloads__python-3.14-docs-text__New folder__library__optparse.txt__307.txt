@@ -1,0 +1,5 @@
+"option %s: invalid complex value: %r" % (opt, value))
+Finally, the Option subclass:
+   class MyOption (Option):
+       TYPES = Option.TYPES + ("complex",)
+       TYPE_CHECKER = copy(Option.TYPE_CHECKER)

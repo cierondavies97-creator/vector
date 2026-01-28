@@ -1,0 +1,7 @@
+which use the "yield" statement.
+   Added in version 3.12.
+Code Objects Bit Flags
+======================
+Python code objects have a "co_flags" attribute, which is a bitmap of
+the following flags:
+inspect.CO_OPTIMIZED

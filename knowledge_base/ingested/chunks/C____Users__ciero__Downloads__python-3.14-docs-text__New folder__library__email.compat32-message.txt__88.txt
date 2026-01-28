@@ -1,0 +1,4 @@
+return value can either be a string, or a 3-tuple if the
+      parameter was **RFC 2231** encoded.  When it's a 3-tuple, the
+      elements of the value are of the form "(CHARSET, LANGUAGE,
+      VALUE)".  Note that both "CHARSET" and "LANGUAGE" can be "None",

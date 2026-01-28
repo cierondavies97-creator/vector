@@ -1,0 +1,4 @@
+Open the named resource for text reading. By default, the contents
+   are read as strict UTF-8.
+   See the introduction for details on *anchor* and *path_names*.
+   *encoding* and *errors* have the same meaning as in built-in

@@ -1,0 +1,6 @@
+Availability: macOS >= 10.12.
+   Added in version 3.13.
+The following constant is the only parameter that can be sent to
+"clock_settime()".
+time.CLOCK_REALTIME
+   Real-time clock.  Setting this clock requires appropriate

@@ -1,0 +1,4 @@
+iteration pass, making it appear like an empty container.
+   More information can be found in Iterator Types.
+   **CPython implementation detail:** CPython does not consistently
+   apply the requirement that an iterator define "__iter__()". And

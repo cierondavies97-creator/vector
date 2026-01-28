@@ -1,0 +1,4 @@
+SegFaults when resizing windows. This is fixed in
+       ncurses-6.1-20190511.  If you are stuck with an earlier
+       ncurses, you can avoid triggering this if you do not call
+       "addstr()" with a *str* that has embedded newlines.  Instead,

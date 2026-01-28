@@ -1,0 +1,5 @@
+whole socket API, rather than a subset.
+   Changed in version 3.4: The returned sockets are now non-
+   inheritable.
+   Changed in version 3.5: Windows support added.
+socket.create_connection(address, timeout=GLOBAL_DEFAULT, source_address=None, *, all_errors=False)

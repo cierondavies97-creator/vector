@@ -1,0 +1,4 @@
++----------------------------------------------------+----------------------------------------------------+
+3.2.8.1.2. Special writable attributes
+""""""""""""""""""""""""""""""""""""""
+Most of these attributes check the type of the assigned value:

@@ -1,0 +1,4 @@
+is raised. *data* can be a sequence or iterable.
+   The median is a robust measure of central location and is less
+   affected by the presence of outliers.  When the number of data
+   points is odd, the middle data point is returned:

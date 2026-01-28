@@ -1,0 +1,7 @@
+...         return 'Point({self.x}, {self.y})'.format(self=self)
+   ...
+   >>> str(Point(4, 2))
+   'Point(4, 2)'
+Accessing arguments' items:
+   >>> coord = (3, 5)
+   >>> 'X: {0[0]};  Y: {0[1]}'.format(coord)

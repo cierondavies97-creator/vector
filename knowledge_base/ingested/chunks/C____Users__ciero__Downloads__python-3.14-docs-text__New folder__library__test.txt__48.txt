@@ -1,0 +1,6 @@
+is, if Python was built in debug mode.
+   Added in version 3.12.
+test.support.SOCK_MAX_SIZE
+   A constant that is likely larger than the underlying OS socket
+   buffer size, to make writes blocking.
+test.support.TEST_SUPPORT_DIR

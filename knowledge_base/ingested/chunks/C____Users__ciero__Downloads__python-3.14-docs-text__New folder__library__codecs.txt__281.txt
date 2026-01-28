@@ -1,0 +1,2 @@
+|                        |                    | hexadecimal representation,    | "binascii.a2b_hex()"           |
+|                        |                    | with two digits per byte.      |                                |

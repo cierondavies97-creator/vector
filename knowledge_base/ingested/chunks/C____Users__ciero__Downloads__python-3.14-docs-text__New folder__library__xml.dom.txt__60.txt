@@ -1,0 +1,6 @@
+Node.hasAttributes()
+   Return "True" if the node has any attributes.
+Node.hasChildNodes()
+   Return "True" if the node has any child nodes.
+Node.isSameNode(other)
+   Return "True" if *other* refers to the same node as this node. This

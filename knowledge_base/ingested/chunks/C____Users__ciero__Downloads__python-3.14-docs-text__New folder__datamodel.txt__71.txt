@@ -1,0 +1,4 @@
+A user-defined function object is created by a function definition
+(see section Function definitions).  It should be called with an
+argument list containing the same number of items as the function's
+formal parameter list.

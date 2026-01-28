@@ -1,0 +1,5 @@
+"cancel()" and the wrapped coroutine propagated the
+      "CancelledError" exception thrown into it.
+   uncancel()
+      Decrement the count of cancellation requests to this Task.
+      Returns the remaining number of cancellation requests.

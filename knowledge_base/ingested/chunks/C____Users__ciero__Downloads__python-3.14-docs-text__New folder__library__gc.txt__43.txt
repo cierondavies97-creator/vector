@@ -1,0 +1,5 @@
+arguments, *phase* and *info*.
+   *phase* can be one of two values:
+      "start": The garbage collection is about to start.
+      "stop": The garbage collection has finished.
+   *info* is a dict providing more information for the callback.  The

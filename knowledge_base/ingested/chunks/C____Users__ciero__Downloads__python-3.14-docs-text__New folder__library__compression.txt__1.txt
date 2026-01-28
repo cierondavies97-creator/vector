@@ -1,0 +1,4 @@
+Some of these modules have historically been available as separate
+modules; those will continue to be available under their original
+names for compatibility reasons, and will not be removed without a
+deprecation cycle. The use of modules in "compression" is encouraged

@@ -1,0 +1,4 @@
+"return" statement, the return value is "None".
+a built-in function or method:
+   The result is up to the interpreter; see Built-in Functions for the
+   descriptions of built-in functions and methods.

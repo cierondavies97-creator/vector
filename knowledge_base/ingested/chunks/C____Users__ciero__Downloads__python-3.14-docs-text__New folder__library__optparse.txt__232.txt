@@ -1,0 +1,4 @@
+*opt_str* (e.g., "-q" or "--verbose").
+OptionParser.remove_option(opt_str)
+   If the "OptionParser" has an option corresponding to *opt_str*,
+   that option is removed.  If that option provided any other option

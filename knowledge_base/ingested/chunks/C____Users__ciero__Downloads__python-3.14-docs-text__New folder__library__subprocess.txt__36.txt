@@ -1,0 +1,6 @@
+Output of the child process if it was captured by "run()" or
+      "check_output()".  Otherwise, "None".
+   stdout
+      Alias for output, for symmetry with "stderr".
+   stderr
+      Stderr output of the child process if it was captured by

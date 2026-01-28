@@ -1,0 +1,4 @@
+section, as well as an additional method:
+urllib.parse.SplitResult.geturl()
+   Return the re-combined version of the original URL as a string.
+   This may differ from the original URL in that the scheme may be

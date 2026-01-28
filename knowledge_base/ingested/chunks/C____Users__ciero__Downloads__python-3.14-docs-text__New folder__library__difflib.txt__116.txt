@@ -1,0 +1,7 @@
+constructor for details.
+Finally, we compare the two:
+>>> result = list(d.compare(text1, text2))
+"result" is a list of strings, so let's pretty-print it:
+>>> from pprint import pprint
+>>> pprint(result)
+['    1. Beautiful is better than ugly.\n',

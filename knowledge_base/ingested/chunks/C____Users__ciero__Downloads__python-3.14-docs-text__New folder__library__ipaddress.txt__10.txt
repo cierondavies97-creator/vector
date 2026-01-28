@@ -1,0 +1,4 @@
+may be supplied; integers less than "2**32" will be considered to
+   be IPv4 by default.  A "ValueError" is raised if *address* does not
+   represent a valid IPv4 or IPv6 address.
+One downside of these convenience functions is that the need to handle

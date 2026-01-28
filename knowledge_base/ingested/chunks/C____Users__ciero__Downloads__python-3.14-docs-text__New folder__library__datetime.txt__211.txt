@@ -1,0 +1,4 @@
+d.weekday(), yday, dst))
+   where "yday = d.toordinal() - date(d.year, 1, 1).toordinal() + 1"
+   is the day number within the current year starting with 1 for
+   January 1st. The "tm_isdst" flag of the result is set according to

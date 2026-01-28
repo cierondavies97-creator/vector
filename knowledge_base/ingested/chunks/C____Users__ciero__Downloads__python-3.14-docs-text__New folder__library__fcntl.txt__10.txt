@@ -1,0 +1,4 @@
+"F_SET_RW_HINT", "F_GET_FILE_RW_HINT", "F_SET_FILE_RW_HINT", and
+"RWH_WRITE_LIFE_*" constants, which allow to inform the kernel about
+the relative expected lifetime of writes on a given inode or via a
+particular open file description. On Linux >= 5.1 and NetBSD, the

@@ -1,0 +1,5 @@
+N-th child of its parent.
+   is_alive()
+      Return whether the process is alive.
+      Roughly, a process object is alive from the moment the "start()"
+      method returns until the child process terminates.

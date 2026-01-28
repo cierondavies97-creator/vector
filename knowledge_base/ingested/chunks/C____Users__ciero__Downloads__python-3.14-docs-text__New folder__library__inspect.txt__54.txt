@@ -1,0 +1,3 @@
+|                   | co_freevars         | tuple of names of free      |
+|                   |                     | variables (referenced via a |
+|                   |                     | function's closure)         |

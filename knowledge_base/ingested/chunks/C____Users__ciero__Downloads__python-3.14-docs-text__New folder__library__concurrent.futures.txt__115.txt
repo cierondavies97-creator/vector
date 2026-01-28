@@ -1,0 +1,5 @@
+"None", there is no limit to the wait time.
+See also:
+  **PEP 3148** -- futures - execute computations asynchronously
+     The proposal which described this feature for inclusion in the
+     Python standard library.

@@ -1,0 +1,5 @@
+in these messages being timestamped.
+   Changed in version 3.5: Added debuglevel 2.
+SMTP.docmd(cmd, args='')
+   Send a command *cmd* to the server.  The optional argument *args*
+   is simply concatenated to the command, separated by a space.

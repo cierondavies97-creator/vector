@@ -1,0 +1,6 @@
+contents.
+   unlock()
+      Release the lock on the mailbox, if any.
+   close()
+      Flush the mailbox, unlock it if necessary, and close any open
+      files. For some "Mailbox" subclasses, this method does nothing.

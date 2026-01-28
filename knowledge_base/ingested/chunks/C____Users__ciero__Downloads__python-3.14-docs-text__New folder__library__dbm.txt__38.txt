@@ -1,0 +1,4 @@
+GDBM's internal hash values, and won't be sorted by the key
+      values.  This method returns the starting key.
+   gdbm.nextkey(key)
+      Returns the key that follows *key* in the traversal.  The

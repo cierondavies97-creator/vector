@@ -1,0 +1,4 @@
+before encoding. Note that the "btoa" implementation always pads.
+   *adobe* controls whether the encoded byte sequence is framed with
+   "<~" and "~>", which is used by the Adobe implementation.
+   Added in version 3.4.

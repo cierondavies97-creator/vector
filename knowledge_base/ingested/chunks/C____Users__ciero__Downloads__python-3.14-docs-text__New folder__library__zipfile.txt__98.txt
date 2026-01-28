@@ -1,0 +1,4 @@
+"buffer", which is implied by the context).
+   Changed in version 3.11.2: The "encoding" parameter can be supplied
+   as a positional argument without causing a "TypeError". As it could
+   in 3.9. Code needing to be compatible with unpatched 3.10 and 3.11

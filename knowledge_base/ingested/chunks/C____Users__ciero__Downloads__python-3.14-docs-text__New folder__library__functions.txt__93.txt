@@ -1,0 +1,3 @@
+expression (technically speaking, a condition list) using the
+   *globals* and *locals* mappings as global and local namespace.  If
+   the *globals* dictionary is present and does not contain a value

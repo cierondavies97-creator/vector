@@ -1,0 +1,6 @@
+callable (if specified) or write progress information to sys.stderr.
+           """
+           progress = self.progress
+           while True:
+               s = stream.readline()
+               if not s:

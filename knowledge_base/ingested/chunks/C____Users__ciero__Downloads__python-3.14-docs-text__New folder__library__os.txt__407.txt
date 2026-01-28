@@ -1,0 +1,4 @@
+Added support for "bytes" paths on Windows.
+   Changed in version 3.12: The "st_ctime" attribute of a stat result
+   is deprecated on Windows. The file creation time is properly
+   available as "st_birthtime", and in the future "st_ctime" may be

@@ -1,0 +1,5 @@
+couldn't have callable methods.
+Mocking imports with patch.dict
+-------------------------------
+One situation where mocking can be hard is where you have a local
+import inside a function. These are harder to mock because they aren't

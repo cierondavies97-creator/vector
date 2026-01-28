@@ -1,0 +1,5 @@
+API.
+   dir(argument[, ...])
+      Produce a directory listing as returned by the "LIST" command,
+      printing it to standard output.  The optional *argument* is a
+      directory to list (default is the current server directory).

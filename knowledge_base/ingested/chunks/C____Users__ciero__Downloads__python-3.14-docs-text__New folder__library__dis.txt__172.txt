@@ -1,0 +1,6 @@
+STORE_DEREF(i)
+   Stores "STACK.pop()" into the cell contained in slot "i" of the
+   "fast locals" storage.
+   Changed in version 3.11: "i" is no longer offset by the length of
+   "co_varnames".
+DELETE_DEREF(i)

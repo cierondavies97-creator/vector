@@ -1,0 +1,4 @@
+PROG: error: the following arguments are required: bar
+By default, "argparse" automatically handles the internal naming and
+display names of arguments, simplifying the process without requiring
+additional configuration. As such, you do not need to specify the dest

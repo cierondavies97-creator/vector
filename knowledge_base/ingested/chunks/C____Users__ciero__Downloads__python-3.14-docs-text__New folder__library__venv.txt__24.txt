@@ -1,0 +1,3 @@
+"Activate.ps1" script by setting the execution policy for the user.
+  You can do this by issuing the following PowerShell command:
+     PS C:\> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser

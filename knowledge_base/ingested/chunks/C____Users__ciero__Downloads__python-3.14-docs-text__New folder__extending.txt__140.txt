@@ -1,0 +1,3 @@
+always represented as tuples internally), "Py_BuildValue()" does not
+always build a tuple.  It builds a tuple only if its format string
+contains two or more format units. If the format string is empty, it

@@ -1,0 +1,4 @@
+runtime (i.e. to convert files from one format to another).
+* *interpolation*, default value: "configparser.BasicInterpolation"
+  Interpolation behaviour may be customized by providing a custom
+  handler through the *interpolation* argument. "None" can be used to

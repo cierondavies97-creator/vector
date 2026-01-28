@@ -1,0 +1,5 @@
+to particular events: they can merely log the event or abort the
+   operation by raising an exception.
+   Hooks are added using the "sys.addaudithook()" or
+   "PySys_AddAuditHook()" functions.
+   The native equivalent of this function is "PySys_Audit()". Using

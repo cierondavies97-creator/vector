@@ -1,0 +1,5 @@
+created through the "threading" module, a dummy thread object with
+   limited functionality is returned.
+   The function "currentThread" is a deprecated alias for this
+   function.
+threading.excepthook(args, /)

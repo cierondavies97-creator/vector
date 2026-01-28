@@ -1,0 +1,5 @@
+files found in the ".ssh" directory of the user:
+   >>> from shutil import make_archive
+   >>> import os
+   >>> archive_name = os.path.expanduser(os.path.join('~', 'myarchive'))
+   >>> root_dir = os.path.expanduser(os.path.join('~', '.ssh'))

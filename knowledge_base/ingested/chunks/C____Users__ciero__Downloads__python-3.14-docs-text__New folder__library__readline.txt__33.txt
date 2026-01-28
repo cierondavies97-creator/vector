@@ -1,0 +1,6 @@
+exists if Python was compiled for a version of the library that
+   supports it.
+Completion
+==========
+The following functions relate to implementing a custom word
+completion function.  This is typically operated by the Tab key, and

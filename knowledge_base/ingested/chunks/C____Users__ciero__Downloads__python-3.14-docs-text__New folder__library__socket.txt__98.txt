@@ -1,0 +1,7 @@
+socket.HCI_DEV_NONE
+   The "device_id" value used to create an HCI socket that isn't
+   specific to a single Bluetooth adapter.
+   Availability: Linux
+   Added in version 3.14.
+socket.HCI_CHANNEL_RAW
+socket.HCI_CHANNEL_USER

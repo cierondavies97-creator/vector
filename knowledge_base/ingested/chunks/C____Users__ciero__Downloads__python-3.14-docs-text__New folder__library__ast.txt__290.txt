@@ -1,0 +1,4 @@
+Changed in version 3.13: Added the *default_value* parameter.
+class ast.TypeVarTuple(name, default_value)
+   A "typing.TypeVarTuple". "name" is the name of the type variable
+   tuple. "default_value" is the default value; if the "TypeVarTuple"

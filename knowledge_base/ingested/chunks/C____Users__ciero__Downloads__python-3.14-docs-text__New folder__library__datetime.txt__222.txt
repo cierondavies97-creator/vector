@@ -1,0 +1,4 @@
+or by calculating the timestamp directly:
+        timestamp = (dt - datetime(1970, 1, 1)) / timedelta(seconds=1)
+datetime.weekday()
+   Return the day of the week as an integer, where Monday is 0 and

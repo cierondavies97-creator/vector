@@ -1,0 +1,4 @@
+===============
+The module defines several functions, constants, and an exception.
+Some of the functions are simplified versions of the full featured
+methods for compiled regular expressions.  Most non-trivial

@@ -1,0 +1,3 @@
+from an object's "__del__()" method or a weak reference's callback.
+   When the program exits, each remaining live finalizer is called
+   unless its "atexit" attribute has been set to false.  They are

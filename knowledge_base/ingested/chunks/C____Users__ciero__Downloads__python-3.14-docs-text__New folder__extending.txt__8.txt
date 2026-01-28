@@ -1,0 +1,4 @@
+is called "spam", the C file containing its implementation is called
+"spammodule.c"; if the module name is very long, like "spammify", the
+module name can be just "spammify.c".)
+The first two lines of our file can be:

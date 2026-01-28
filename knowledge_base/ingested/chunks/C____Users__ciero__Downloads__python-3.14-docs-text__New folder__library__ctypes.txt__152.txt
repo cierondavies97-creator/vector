@@ -1,0 +1,4 @@
+----------------
+Usually, ctypes does strict type checking.  This means, if you have
+"POINTER(c_int)" in the "argtypes" list of a function or as the type
+of a member field in a structure definition, only instances of exactly

@@ -1,0 +1,5 @@
+* "str(integer)".
+* "repr(integer)".
+* any other string conversion to base 10, for example "f"{integer}"",
+  ""{}".format(integer)", or "b"%d" % integer".
+The limitations do not apply to functions with a linear algorithm:

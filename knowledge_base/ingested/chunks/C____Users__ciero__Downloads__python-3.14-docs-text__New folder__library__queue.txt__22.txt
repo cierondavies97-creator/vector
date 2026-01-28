@@ -1,0 +1,4 @@
+Equivalent to "put(item, block=False)".
+Queue.get(block=True, timeout=None)
+   Remove and return an item from the queue.  If optional args *block*
+   is true and *timeout* is "None" (the default), block if necessary

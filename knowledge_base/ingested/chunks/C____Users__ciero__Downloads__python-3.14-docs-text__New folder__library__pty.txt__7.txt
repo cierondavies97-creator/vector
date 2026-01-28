@@ -1,0 +1,4 @@
+is expected that the process spawned behind the pty will eventually
+   terminate, and when it does *spawn* will return.
+   A loop copies STDIN of the current process to the child and data
+   received from the child to STDOUT of the current process. It is not

@@ -1,0 +1,5 @@
+IMAP4.status(mailbox, names)
+   Request named status conditions for *mailbox*.
+IMAP4.store(message_set, command, flag_list)
+   Alters flag dispositions for messages in mailbox.  *command* is
+   specified by section 6.4.6 of **RFC 2060** as being one of "FLAGS",

@@ -1,0 +1,5 @@
+@property
+       def removed(self):
+           return not self._finalizer.alive
+Defined like this, our finalizer only receives a reference to the
+details it needs to clean up the directory appropriately. If the

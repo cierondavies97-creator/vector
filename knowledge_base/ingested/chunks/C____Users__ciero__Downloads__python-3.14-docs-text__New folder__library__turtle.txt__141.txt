@@ -1,0 +1,3 @@
+Set turtle shape to shape with given *name* or, if name is not
+   given, return name of current shape.  Shape with *name* must exist
+   in the TurtleScreen's shape dictionary.  Initially there are the

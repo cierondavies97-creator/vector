@@ -1,0 +1,7 @@
+>>> list[int]
+   list[int]
+   >>> # list.__class_getitem__ returns a GenericAlias object:
+   >>> type(list[int])
+   <class 'types.GenericAlias'>
+However, if a class has a custom metaclass that defines
+"__getitem__()", subscribing the class may result in different

@@ -1,0 +1,4 @@
+may differ on your system if IPv6 isn't enabled):
+      >>> socket.getaddrinfo("example.org", 80, proto=socket.IPPROTO_TCP)
+      [(socket.AF_INET6, socket.SOCK_STREAM,
+       6, '', ('2606:2800:220:1:248:1893:25c8:1946', 80, 0, 0)),

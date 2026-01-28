@@ -1,0 +1,4 @@
+it is converted into a "RuntimeError" (retaining the
+   "StopIteration" as the new exception's cause).
+   Changed in version 3.3: Added "value" attribute and the ability for
+   generator functions to use it to return a value.

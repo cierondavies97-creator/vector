@@ -1,0 +1,5 @@
+file, or else the current time, is used to compute when the next
+   rotation will occur.
+   If the *utc* argument is true, times in UTC will be used; otherwise
+   local time is used.
+   If *backupCount* is nonzero, at most *backupCount* files will be

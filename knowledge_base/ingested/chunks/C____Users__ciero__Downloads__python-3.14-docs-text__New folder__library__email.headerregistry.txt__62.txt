@@ -1,0 +1,3 @@
+and *domain*, in which case *username* and *domain* will be parsed
+   from the *addr_spec*.  An *addr_spec* must be a properly RFC quoted
+   string; if it is not "Address" will raise an error.  Unicode

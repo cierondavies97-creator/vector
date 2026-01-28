@@ -1,0 +1,4 @@
+used as a context manager.
+   assertLogs(logger=None, level=None)
+      A context manager to test that at least one message is logged on
+      the *logger* or one of its children, with at least the given

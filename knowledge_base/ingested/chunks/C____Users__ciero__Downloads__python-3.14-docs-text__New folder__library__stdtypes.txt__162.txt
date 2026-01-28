@@ -1,0 +1,4 @@
+"str.join()" at the end or else write to an "io.StringIO"
+     instance and retrieve its value when complete
+   * if concatenating "bytes" objects, you can similarly use
+     "bytes.join()" or "io.BytesIO", or you can do in-place

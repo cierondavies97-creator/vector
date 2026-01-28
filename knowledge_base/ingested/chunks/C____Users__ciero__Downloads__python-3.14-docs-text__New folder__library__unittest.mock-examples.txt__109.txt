@@ -1,0 +1,3 @@
+the one it is replacing, but delegates to a mock under the hood. You
+still get your mock auto-created in exactly the same way as before.
+What it means though, is that if you use it to patch out an unbound

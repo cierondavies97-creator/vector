@@ -1,0 +1,4 @@
+the exception "Error" is raised. If successful, the new locale
+   setting is returned.
+   If *locale* is a pair, it is converted to a locale name using the
+   locale aliasing engine. The language code has the same format as a

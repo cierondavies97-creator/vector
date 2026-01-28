@@ -1,0 +1,4 @@
+*_subtype* specifies the MIME subtype and defaults to *octet-
+   stream*.
+   Optional *_encoder* is a callable (i.e. function) which will
+   perform the actual encoding of the data for transport.  This

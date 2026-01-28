@@ -1,0 +1,5 @@
+name
+      The entry's base filename, relative to the "scandir()" *path*
+      argument.
+      The "name" attribute will be "bytes" if the "scandir()" *path*
+      argument is of type "bytes" and "str" otherwise.  Use

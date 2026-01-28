@@ -1,0 +1,5 @@
+Installer with multi-platform compatibility, documentation, PyWin32
+Anaconda
+   Popular scientific modules (such as numpy, scipy and pandas) and
+   the "conda" package manager.
+Enthought Deployment Manager

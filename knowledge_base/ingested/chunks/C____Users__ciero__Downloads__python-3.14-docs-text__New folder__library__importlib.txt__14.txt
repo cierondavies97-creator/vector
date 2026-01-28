@@ -1,0 +1,4 @@
+difference between these two functions is that "import_module()"
+   returns the specified package or module (e.g. "pkg.mod"), while
+   "__import__()" returns the top-level package or module (e.g.
+   "pkg").

@@ -1,0 +1,5 @@
+also Tim Peters' introduction to the "Algorithms" chapter in the
+second edition of *Python Cookbook*, published by O'Reilly.
+Basic Examples
+==============
+The following example shows how the Command-Line Interface can be used

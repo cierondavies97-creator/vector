@@ -1,0 +1,4 @@
+"wsgi.multiprocess" to true, and always uses "sys" and "os" to
+   obtain the necessary CGI streams and environment.
+class wsgiref.handlers.IISCGIHandler
+   A specialized alternative to "CGIHandler", for use when deploying

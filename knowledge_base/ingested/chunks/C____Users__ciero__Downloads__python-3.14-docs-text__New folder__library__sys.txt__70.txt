@@ -1,0 +1,4 @@
+"(type(e), e, e.__traceback__)". That is, a tuple containing the
+   type of the exception (a subclass of "BaseException"), the
+   exception itself, and a traceback object which typically
+   encapsulates the call stack at the point where the exception last

@@ -1,0 +1,5 @@
+objects will be reflected in the original namespaces as usual.
+   Added in version 3.2.
+   Changed in version 3.13: "exit()" and "quit()" can be used to exit
+   the "interact" command.
+   Changed in version 3.13: "interact" directs its output to the

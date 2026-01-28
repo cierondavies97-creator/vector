@@ -1,0 +1,4 @@
+allows one a certain level of adaptability to the context under
+examination.
+Multiple commands may be entered on a single line, separated by ";;".
+(A single ";" is not used as it is the separator for multiple commands

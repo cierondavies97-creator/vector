@@ -1,0 +1,5 @@
+added.
+   Changed in version 3.3: The default *encoding* is now
+   "locale.getpreferredencoding(False)" instead of
+   "locale.getpreferredencoding()". Don't change temporary the locale
+   encoding using "locale.setlocale()", use the current locale

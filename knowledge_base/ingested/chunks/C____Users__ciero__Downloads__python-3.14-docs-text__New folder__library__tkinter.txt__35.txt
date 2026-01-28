@@ -1,0 +1,4 @@
+initialize the Tk subsystem.  This is most often useful when
+   driving the Tcl interpreter in an environment where one doesn't
+   want to create extraneous toplevel windows, or where one cannot
+   (such as Unix/Linux systems without an X server).  An object

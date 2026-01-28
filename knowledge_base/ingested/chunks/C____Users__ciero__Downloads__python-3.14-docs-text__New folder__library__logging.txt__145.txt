@@ -1,0 +1,3 @@
+implementation just returns the empty string if there are no
+      records; otherwise, it returns the concatenation of the header,
+      each record formatted with the line formatter, and the footer.

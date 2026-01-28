@@ -1,0 +1,4 @@
+names of all child nodes.
+      Each instance of a concrete class has one attribute for each
+      child node, of the type as defined in the grammar.  For example,
+      "ast.BinOp" instances have an attribute "left" of type

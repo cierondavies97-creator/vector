@@ -1,0 +1,5 @@
+debugging, since examples after the first failure won't even
+   produce debugging output.
+doctest.REPORTING_FLAGS
+   A bitmask or'ing together all the reporting flags above.
+There is also a way to register new option flag names, though this

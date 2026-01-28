@@ -1,0 +1,6 @@
+then popping off the smallest values one at a time:
+   >>> def heapsort(iterable):
+   ...     h = []
+   ...     for value in iterable:
+   ...         heappush(h, value)
+   ...     return [heappop(h) for i in range(len(h))]

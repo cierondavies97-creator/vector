@@ -1,0 +1,3 @@
+that may consume your JSON.  In particular, it is common for JSON
+numbers to be deserialized into IEEE 754 double precision numbers and
+thus subject to that representation's range and precision limitations.

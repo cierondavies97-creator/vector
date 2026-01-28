@@ -1,0 +1,6 @@
+process.
+      On Windows the Win32 API function "TerminateProcess()" is called
+      to stop the child process.
+   kill()
+      Kill the child process.
+      On POSIX systems this method sends "SIGKILL" to the child

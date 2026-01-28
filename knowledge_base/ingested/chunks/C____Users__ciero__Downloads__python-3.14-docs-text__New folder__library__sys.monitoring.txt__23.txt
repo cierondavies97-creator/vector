@@ -1,0 +1,13 @@
+* "PY_RETURN"
+* "PY_YIELD"
+* "CALL"
+* "LINE"
+* "INSTRUCTION"
+* "JUMP"
+* "BRANCH_LEFT"
+* "BRANCH_RIGHT"
+* "STOP_ITERATION"
+Deprecated event
+----------------
+* "BRANCH"
+The "BRANCH" event is deprecated in 3.14. Using "BRANCH_LEFT" and

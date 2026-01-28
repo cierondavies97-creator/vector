@@ -1,0 +1,4 @@
+-----------------------------
+When a module named "spam" is imported, the interpreter first searches
+for a built-in module with that name. These module names are listed in
+"sys.builtin_module_names". If not found, it then searches for a file

@@ -1,0 +1,5 @@
+'http://www.Python.org/doc/'
+The following classes provide the implementations of the structured
+parse results when operating on "str" objects:
+class urllib.parse.DefragResult(url, fragment)
+   Concrete class for "urldefrag()" results containing "str" data. The

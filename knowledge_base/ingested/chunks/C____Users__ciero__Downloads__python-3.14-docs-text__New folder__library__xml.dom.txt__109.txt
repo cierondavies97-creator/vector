@@ -1,0 +1,5 @@
+behavior. You can use them or you can use the standardized
+"getAttribute*()" family of methods on the "Element" objects.
+Comment Objects
+---------------
+"Comment" represents a comment in the XML document.  It is a subclass

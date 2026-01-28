@@ -1,0 +1,4 @@
+Some meta path finders only support top level imports. These importers
+will always return "None" when anything other than "None" is passed as
+the second argument.
+Python's default "sys.meta_path" has three meta path finders, one that

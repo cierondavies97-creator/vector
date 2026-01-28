@@ -1,0 +1,6 @@
+locale if the "LOCALE" flag is used.
+   Note:
+     Inside a character range, "\b" represents the backspace
+     character, for compatibility with Python's string literals.
+"\B"
+   Matches the empty string, but only when it is *not* at the

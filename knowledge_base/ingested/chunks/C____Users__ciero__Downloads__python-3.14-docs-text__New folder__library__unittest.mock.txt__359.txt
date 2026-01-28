@@ -1,0 +1,5 @@
+that iteration (such as in for loops) correctly consumes
+   *read_data*.
+Using "open()" as a context manager is a great way to ensure your file
+handles are closed properly and is becoming common:
+   with open('/some/path', 'w') as f:

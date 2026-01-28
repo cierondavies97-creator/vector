@@ -1,0 +1,5 @@
+of the mixed-in type.
+   "EnumCheck"
+      An enumeration with the values "CONTINUOUS", "NAMED_FLAGS", and
+      "UNIQUE", for use with "verify()" to ensure various constraints
+      are met by a given enumeration.

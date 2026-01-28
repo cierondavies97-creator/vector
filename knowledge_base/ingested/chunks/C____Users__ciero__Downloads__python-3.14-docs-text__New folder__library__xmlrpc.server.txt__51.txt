@@ -1,0 +1,4 @@
+Register the XML-RPC multicall function "system.multicall".
+CGIXMLRPCRequestHandler.handle_request(request_text=None)
+   Handle an XML-RPC request. If *request_text* is given, it should be
+   the POST data provided by the HTTP server,  otherwise the contents

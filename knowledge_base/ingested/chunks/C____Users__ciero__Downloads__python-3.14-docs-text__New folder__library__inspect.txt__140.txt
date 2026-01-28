@@ -1,0 +1,7 @@
+>>> from inspect import signature
+      >>> def foo(a, *, b:int, **kwargs):
+      ...     pass
+      >>> sig = signature(foo)
+      >>> str(sig)
+      '(a, *, b: int, **kwargs)'
+      >>> str(sig.parameters['b'])

@@ -1,0 +1,6 @@
+be printed by "StackSummary.format()". If it returns "None", the
+      frame is omitted from the output.
+      Added in version 3.11.
+"FrameSummary" Objects
+======================
+Added in version 3.5.

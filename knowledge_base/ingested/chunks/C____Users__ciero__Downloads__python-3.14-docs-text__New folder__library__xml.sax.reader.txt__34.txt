@@ -1,0 +1,5 @@
+InputSource.getSystemId()
+   Returns the system identifier of this "InputSource".
+InputSource.setEncoding(encoding)
+   Sets the character encoding of this "InputSource".
+   The encoding must be a string acceptable for an XML encoding

@@ -1,0 +1,4 @@
+can't be done directly in Python: they can implement new built-in
+object types, and they can call C library functions and system calls.
+To support extensions, the Python API (Application Programmers
+Interface) defines a set of functions, macros and variables that

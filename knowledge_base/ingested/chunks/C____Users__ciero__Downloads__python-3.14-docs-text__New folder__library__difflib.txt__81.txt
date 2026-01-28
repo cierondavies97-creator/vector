@@ -1,0 +1,3 @@
+0)".  It is the only triple with "n == 0".  If "(i, j, n)" and
+      "(i', j', n')" are adjacent triples in the list, and the second
+      is not the last triple in the list, then "i+n < i'" or "j+n <

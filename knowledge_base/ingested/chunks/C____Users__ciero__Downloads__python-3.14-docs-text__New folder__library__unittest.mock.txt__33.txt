@@ -1,0 +1,4 @@
+this list will raise an "AttributeError".
+     If *spec* is an object (rather than a list of strings) then
+     "__class__" returns the class of the spec object. This allows
+     mocks to pass "isinstance()" tests.

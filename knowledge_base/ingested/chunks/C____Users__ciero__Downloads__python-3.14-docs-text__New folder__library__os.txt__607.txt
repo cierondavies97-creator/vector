@@ -1,0 +1,7 @@
+opened, or had some other kind of error.
+   Availability: Unix, not WASI.
+os.EX_CANTCREAT
+   Exit code that means a user specified output file could not be
+   created.
+   Availability: Unix, not WASI.
+os.EX_IOERR

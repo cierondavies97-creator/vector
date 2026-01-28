@@ -1,0 +1,4 @@
+Protocol definition for SMTP.  This document covers the model,
+     operating procedure, and protocol details for SMTP.
+  **RFC 1869** - SMTP Service Extensions
+     Definition of the ESMTP extensions for SMTP.  This describes a

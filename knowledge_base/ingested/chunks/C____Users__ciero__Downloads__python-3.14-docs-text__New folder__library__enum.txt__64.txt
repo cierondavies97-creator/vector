@@ -1,0 +1,5 @@
+different member.
+      Added in version 3.13.
+class enum.IntEnum
+   *IntEnum* is the same as "Enum", but its members are also integers
+   and can be used anywhere that an integer can be used.  If any

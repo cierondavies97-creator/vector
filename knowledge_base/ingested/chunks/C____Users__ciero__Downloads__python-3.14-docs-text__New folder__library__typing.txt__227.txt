@@ -1,0 +1,4 @@
+with the "TypeIs" type. (Technically, this is known as an
+     intersection type.)
+   * When a "TypeGuard" function returns "False", type checkers cannot
+     narrow the type of the variable at all. When a "TypeIs" function

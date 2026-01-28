@@ -1,0 +1,4 @@
+supports that does not support MSIX. For Windows Server 2019, you
+  should use the MSI.
+Be aware that the MSI package does not bundle any runtimes, and so is
+not suitable for installs into offline environments without also

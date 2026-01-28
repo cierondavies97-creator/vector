@@ -1,0 +1,3 @@
+* if *type(value)* is "SyntaxError" and *value* has the appropriate
+     format, it prints the line where the syntax error occurred with a
+     caret indicating the approximate position of the error.

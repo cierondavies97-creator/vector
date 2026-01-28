@@ -1,0 +1,5 @@
+'Coordinates: 37.24N, -115.81W'
+Accessing arguments' attributes:
+   >>> c = 3-5j
+   >>> ('The complex number {0} is formed from the real part {0.real} '
+   ...  'and the imaginary part {0.imag}.').format(c)

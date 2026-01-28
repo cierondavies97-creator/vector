@@ -1,0 +1,3 @@
+Rename the file or directory *src* to *dst*.  If *dst* is a non-
+   empty directory, "OSError" will be raised.  If *dst* exists and is
+   a file, it will be replaced silently if the user has permission.

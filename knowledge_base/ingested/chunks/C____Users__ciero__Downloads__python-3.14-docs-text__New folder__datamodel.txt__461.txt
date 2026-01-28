@@ -1,0 +1,5 @@
+cls.default_name = default_name
+      class AustralianPhilosopher(Philosopher, default_name="Bruce"):
+          pass
+   The default implementation "object.__init_subclass__" does nothing,
+   but raises an error if it is called with any arguments.

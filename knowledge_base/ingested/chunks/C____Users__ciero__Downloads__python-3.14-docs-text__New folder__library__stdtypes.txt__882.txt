@@ -1,0 +1,5 @@
+TypeError: cannot create 'typing.Union' instances
+Note:
+  The "__or__()" method for type objects was added to support the
+  syntax "X | Y".  If a metaclass implements "__or__()", the Union may
+  override it:

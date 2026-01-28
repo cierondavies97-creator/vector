@@ -1,0 +1,6 @@
+s.send_message(msg)
+   s.quit()
+Parsing **RFC 822** headers can easily be done by the using the
+classes from the "parser" module:
+   # Import the email modules we'll need
+   #from email.parser import BytesParser

@@ -1,0 +1,4 @@
+AbstractDigestAuthHandler Objects
+=================================
+AbstractDigestAuthHandler.http_error_auth_reqed(authreq, host, req, headers)
+   *authreq* should be the name of the header where the information

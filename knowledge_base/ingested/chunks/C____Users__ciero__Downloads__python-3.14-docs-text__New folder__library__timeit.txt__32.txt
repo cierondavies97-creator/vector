@@ -1,0 +1,6 @@
+argument directs where the traceback is sent; it defaults to
+      "sys.stderr".
+Command-Line Interface
+======================
+When called as a program from the command line, the following form is
+used:

@@ -1,0 +1,5 @@
+Changed in version 3.7: "register_function()" can be used as a
+   decorator.
+CGIXMLRPCRequestHandler.register_instance(instance)
+   Register an object which is used to expose method names  which have
+   not been registered using "register_function()". If  instance

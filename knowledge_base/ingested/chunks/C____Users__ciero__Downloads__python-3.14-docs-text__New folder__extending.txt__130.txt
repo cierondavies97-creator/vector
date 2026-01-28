@@ -1,0 +1,4 @@
+Keyword parameters passed in which are not present in the *kwlist*
+  will cause "TypeError" to be raised.
+Here is an example module which uses keywords, based on an example by
+Geoff Philbrick (philbrick@hks.com):

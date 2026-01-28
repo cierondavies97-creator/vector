@@ -1,0 +1,6 @@
+Added in version 3.3.
+      contiguous
+         A bool indicating whether the memory is *contiguous*.
+         Added in version 3.3.
+Set Types --- "set", "frozenset"
+================================

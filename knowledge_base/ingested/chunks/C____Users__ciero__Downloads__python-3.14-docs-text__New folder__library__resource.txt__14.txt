@@ -1,0 +1,4 @@
+limit of the process is set and the former resource limit is
+   returned.
+   Raises "ProcessLookupError" when *pid* can't be found and
+   "PermissionError" when the user doesn't have "CAP_SYS_RESOURCE" for

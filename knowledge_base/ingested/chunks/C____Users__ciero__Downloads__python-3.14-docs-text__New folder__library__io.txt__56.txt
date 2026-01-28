@@ -1,0 +1,6 @@
+As a convenience, it is allowed to call this method more than
+      once; only the first call, however, will have an effect.
+   closed
+      "True" if the stream is closed.
+   fileno()
+      Return the underlying file descriptor (an integer) of the stream

@@ -1,0 +1,4 @@
+Raises an auditing event "poplib.connect" with arguments "self",
+   "host", "port".
+   All commands will raise an auditing event "poplib.putline" with
+   arguments "self" and "line", where "line" is the bytes about to be

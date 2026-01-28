@@ -1,0 +1,3 @@
+734**.  One less efficient alternative is to serialize with "pickle"
+and then send the bytes over a shared "socket" or "pipe".
+class concurrent.futures.InterpreterPoolExecutor(max_workers=None, thread_name_prefix='', initializer=None, initargs=())

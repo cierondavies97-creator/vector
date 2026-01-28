@@ -1,0 +1,4 @@
+interactive mode.
+The variable "sys.path" is a list of strings that determines the
+interpreter's search path for modules. It is initialized to a default
+path taken from the environment variable "PYTHONPATH", or from a

@@ -1,0 +1,5 @@
+}
+                   /* pValue reference stolen here: */
+                   PyTuple_SetItem(pArgs, i, pValue);
+               }
+               pValue = PyObject_CallObject(pFunc, pArgs);

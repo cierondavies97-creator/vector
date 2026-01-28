@@ -1,0 +1,5 @@
+"True" if a domain was explicitly specified by the server.
+Cookie.domain_initial_dot
+   "True" if the domain explicitly specified by the server began with
+   a dot ("'.'").
+Cookies may have additional non-standard cookie-attributes.  These may

@@ -1,0 +1,3 @@
+error indication to its Python caller, so the interpreter can print a
+stack trace, or the calling Python code can handle the exception. If
+this is not possible or desirable, the exception should be cleared by

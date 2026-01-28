@@ -1,0 +1,3 @@
+(such as open files, database transactions, etc.) may not be
+  released properly. If you want your threads to stop gracefully, make
+  them non-daemonic and use a suitable signalling mechanism such as an

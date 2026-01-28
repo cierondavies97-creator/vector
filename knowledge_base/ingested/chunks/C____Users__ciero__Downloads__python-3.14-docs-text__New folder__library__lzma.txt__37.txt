@@ -1,0 +1,3 @@
+containing any data stored in the compressor's internal buffers.
+      The compressor cannot be used after this method has been called.
+class lzma.LZMADecompressor(format=FORMAT_AUTO, memlimit=None, filters=None)

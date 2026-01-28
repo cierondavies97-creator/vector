@@ -1,0 +1,7 @@
+await task
+             except asyncio.CancelledError:
+                 print("main(): cancel_me is cancelled now")
+         asyncio.run(main())
+         # Expected output:
+         #
+         #     cancel_me(): before sleep

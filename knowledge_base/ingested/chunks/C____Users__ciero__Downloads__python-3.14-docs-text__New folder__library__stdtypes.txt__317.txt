@@ -1,0 +1,5 @@
+True
+   See also "startswith()" and "removesuffix()".
+str.expandtabs(tabsize=8)
+   Return a copy of the string where all tab characters are replaced
+   by one or more spaces, depending on the current column and the

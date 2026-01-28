@@ -1,0 +1,4 @@
+"fullpath".
+   Changed in version 3.5: *suffix*, *prefix*, and *dir* may now be
+   supplied in bytes in order to obtain a bytes return value.  Prior
+   to this, only str was allowed. *suffix* and *prefix* now accept and

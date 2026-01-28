@@ -1,0 +1,4 @@
+move_first_element_to_last(tup=())
+   Note the use of the unpacking operator "*" in "tuple[T, *Ts]".
+   Conceptually, you can think of "Ts" as a tuple of type variables
+   "(T1, T2, ...)". "tuple[T, *Ts]" would then become "tuple[T, *(T1,

@@ -1,0 +1,5 @@
+>>> raise Exception('message')
+      Traceback (most recent call last):
+      __main__.Exception: message
+   Note that "ELLIPSIS" can also be used to ignore the details of the
+   exception message, but such a test may still fail based on whether

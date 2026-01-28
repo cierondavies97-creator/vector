@@ -1,0 +1,9 @@
+this signature.  That is, these three uses of "@dataclass" are
+   equivalent:
+      @dataclass
+      class C:
+          ...
+      @dataclass()
+      class C:
+          ...
+      @dataclass(init=True, repr=True, eq=True, order=False, unsafe_hash=False, frozen=False,

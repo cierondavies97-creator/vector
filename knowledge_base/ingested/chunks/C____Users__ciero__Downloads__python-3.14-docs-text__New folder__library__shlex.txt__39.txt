@@ -1,0 +1,6 @@
+linefeed and carriage-return.
+shlex.escape
+   Characters that will be considered as escape. This will be only
+   used in POSIX mode, and includes just "'\'" by default.
+shlex.quotes
+   Characters that will be considered string quotes.  The token

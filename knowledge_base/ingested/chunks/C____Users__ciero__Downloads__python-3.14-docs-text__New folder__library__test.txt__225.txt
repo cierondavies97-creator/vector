@@ -1,0 +1,4 @@
+into error. *testcase* is the "unittest" instance for the test.
+   *errtext* is the regular expression which should match the string
+   representation of the emitted "SyntaxWarning" and raised
+   "SyntaxError".  If *lineno* is not "None", compares to the line of

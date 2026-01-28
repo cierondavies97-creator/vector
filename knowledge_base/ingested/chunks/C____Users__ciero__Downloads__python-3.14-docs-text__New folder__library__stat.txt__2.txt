@@ -1,0 +1,7 @@
+implementation.
+The "stat" module defines the following functions to test for specific
+file types:
+stat.S_ISDIR(mode)
+   Return non-zero if the mode is from a directory.
+stat.S_ISCHR(mode)
+   Return non-zero if the mode is from a character special device

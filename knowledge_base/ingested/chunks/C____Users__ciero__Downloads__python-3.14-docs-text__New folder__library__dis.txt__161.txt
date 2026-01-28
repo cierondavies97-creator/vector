@@ -1,0 +1,5 @@
+LOAD_FAST(var_num)
+   Pushes a reference to the local "co_varnames[var_num]" onto the
+   stack.
+   Changed in version 3.12: This opcode is now only used in situations
+   where the local variable is guaranteed to be initialized. It cannot

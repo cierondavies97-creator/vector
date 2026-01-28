@@ -1,0 +1,2 @@
+| "timeout()"                                        | Run with a timeout. Useful in cases when           |
+|                                                    | "wait_for" is not suitable.                        |

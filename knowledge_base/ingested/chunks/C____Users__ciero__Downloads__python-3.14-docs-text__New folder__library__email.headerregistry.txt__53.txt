@@ -1,0 +1,11 @@
+to:
+         UniqueAddressHeader
+      resent-to:
+         AddressHeader
+      cc:
+         UniqueAddressHeader
+      resent-cc:
+         AddressHeader
+      bcc:
+         UniqueAddressHeader
+      resent-bcc:

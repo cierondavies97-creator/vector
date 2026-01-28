@@ -1,0 +1,5 @@
+"""Compute the hash of a rational number m / n.
+       Assumes m and n are integers, with n positive.
+       Equivalent to hash(fractions.Fraction(m, n)).
+       """
+       P = sys.hash_info.modulus

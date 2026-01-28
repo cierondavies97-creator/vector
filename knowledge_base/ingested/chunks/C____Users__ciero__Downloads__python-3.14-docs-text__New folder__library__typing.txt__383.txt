@@ -1,0 +1,4 @@
+always appear in "__optional_keys__".
+      For backwards compatibility with Python 3.10 and below, it is
+      also possible to use inheritance to declare both required and
+      non-required keys in the same "TypedDict" . This is done by

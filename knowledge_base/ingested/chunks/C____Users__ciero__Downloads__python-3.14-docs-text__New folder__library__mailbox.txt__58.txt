@@ -1,0 +1,5 @@
+get_folder(folder)
+      Return a "Maildir" instance representing the folder whose name
+      is *folder*. A "NoSuchMailboxError" exception is raised if the
+      folder does not exist.
+   add_folder(folder)

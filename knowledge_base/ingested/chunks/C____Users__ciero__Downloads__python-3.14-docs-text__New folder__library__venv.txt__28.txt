@@ -1,0 +1,4 @@
+"sys.base_exec_prefix" point to those of the base Python used to
+create the environment. It is sufficient to check "sys.prefix !=
+sys.base_prefix" to determine if the current interpreter is running
+from a virtual environment.

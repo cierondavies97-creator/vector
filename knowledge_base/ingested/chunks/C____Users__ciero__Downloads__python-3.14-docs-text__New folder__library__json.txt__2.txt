@@ -1,0 +1,5 @@
+ambiguous. All values in Python are objects. In JSON, an object
+  refers to any data wrapped in curly braces, similar to a Python
+  dictionary.
+Warning:
+  Be cautious when parsing JSON data from untrusted sources. A

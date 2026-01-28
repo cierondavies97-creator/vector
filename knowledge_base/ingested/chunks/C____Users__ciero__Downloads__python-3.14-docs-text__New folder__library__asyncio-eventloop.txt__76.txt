@@ -1,0 +1,4 @@
+"close()" method.
+   * *local_addr*, if given, is a "(local_host, local_port)" tuple
+     used to bind the socket locally.  The *local_host* and
+     *local_port* are looked up using "getaddrinfo()", similarly to

@@ -1,0 +1,5 @@
+returned. See Global start method for more details.
+   The return value can be "'fork'", "'spawn'", "'forkserver'" or
+   "None".  See Contexts and start methods.
+   Added in version 3.4.
+   Changed in version 3.8: On macOS, the *spawn* start method is now

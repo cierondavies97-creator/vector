@@ -1,0 +1,4 @@
+simultaneously within the same interpreter.  This is in contrast to
+   the *global interpreter lock* which allows only one thread to
+   execute Python bytecode at a time.  See **PEP 703**.
+free variable

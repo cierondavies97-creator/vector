@@ -1,0 +1,4 @@
+file descriptor must refer to a directory.
+   Raises an auditing event "os.scandir" with argument "path".
+   The "scandir()" iterator supports the *context manager* protocol
+   and has the following method:

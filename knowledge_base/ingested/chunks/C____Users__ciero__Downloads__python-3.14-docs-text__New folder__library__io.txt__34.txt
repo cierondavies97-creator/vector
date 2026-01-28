@@ -1,0 +1,4 @@
+It defines the basic interface to a stream.  Note, however, that there
+is no separation between reading and writing to streams;
+implementations are allowed to raise "UnsupportedOperation" if they do
+not support a given operation.

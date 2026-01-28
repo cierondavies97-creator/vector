@@ -1,0 +1,5 @@
+"drop", "swap", "over", "pick", "rot", and "roll".
+"defaultdict" objects
+=====================
+class collections.defaultdict(default_factory=None, /[, ...])
+   Return a new dictionary-like object.  "defaultdict" is a subclass

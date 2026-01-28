@@ -1,0 +1,4 @@
+was not given, then "TypeError" is raised.
+   Optional *_encoder* is a callable (i.e. function) which will
+   perform the actual encoding of the audio data for transport.  This
+   callable takes one argument, which is the "MIMEAudio" instance. It

@@ -1,0 +1,5 @@
+that column.
+      Twenty-one rows after the header are sampled; if more than half
+      of the columns + rows meet the criteria, "True" is returned.
+   Note:
+     This method is a rough heuristic and may produce both false

@@ -1,0 +1,5 @@
+cleanup procedure to *test_instance* to restore *object_to_patch*
+   for *attr_name*.  The *attr_name* should be a valid attribute for
+   *object_to_patch*.
+test.support.run_in_subinterp(code)
+   Run *code* in subinterpreter.  Raise "unittest.SkipTest" if

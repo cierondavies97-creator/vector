@@ -1,0 +1,4 @@
+asynchronous generator iterator
+   An object created by an *asynchronous generator* function.
+   This is an *asynchronous iterator* which when called using the
+   "__anext__()" method returns an awaitable object which will execute

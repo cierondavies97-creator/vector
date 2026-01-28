@@ -1,0 +1,3 @@
+make_file(fromlines, tolines, fromdesc='', todesc='', context=False, numlines=5, *, charset='utf-8')
+      Compares *fromlines* and *tolines* (lists of strings) and
+      returns a string which is a complete HTML file containing a

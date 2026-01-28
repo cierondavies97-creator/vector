@@ -1,0 +1,6 @@
+you could use a dictionary lookup to get the message ID. This
+      version returns 1, which is the base message ID in
+      "win32service.pyd".
+SMTPHandler
+===========
+The "SMTPHandler" class, located in the "logging.handlers" module,

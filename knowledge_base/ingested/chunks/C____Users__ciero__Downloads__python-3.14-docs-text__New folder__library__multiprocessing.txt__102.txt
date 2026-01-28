@@ -1,0 +1,4 @@
+not yet terminated.
+      If the child's "run()" method returned normally, the exit code
+      will be 0.  If it terminated via "sys.exit()" with an integer
+      argument *N*, the exit code will be *N*.

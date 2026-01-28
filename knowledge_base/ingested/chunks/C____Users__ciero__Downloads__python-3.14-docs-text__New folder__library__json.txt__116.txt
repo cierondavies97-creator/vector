@@ -1,0 +1,4 @@
+alphabetically by key.
+Changed in version 3.14: The "json" module may now be directly
+executed as "python -m json". For backwards compatibility, invoking
+the CLI as "python -m json.tool" remains supported.

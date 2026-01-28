@@ -1,0 +1,5 @@
+turtle.register_shape(name, shape=None)
+turtle.addshape(name, shape=None)
+   There are four different ways to call this function:
+   1. *name* is the name of an image file (PNG, GIF, PGM, and PPM) and
+      *shape* is "None": Install the corresponding image shape.

@@ -1,0 +1,4 @@
+use "PyArg_ParseTuple()" to extract the arguments.
+3. *kwds* is a dictionary of keyword arguments that were passed. If
+   this is non-"NULL" and you support keyword arguments, use
+   "PyArg_ParseTupleAndKeywords()" to extract the arguments.  If you

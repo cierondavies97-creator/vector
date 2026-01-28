@@ -1,0 +1,4 @@
+# earliest_connect is done. The result can be obtained by
+          # awaiting it or calling earliest_connect.result()
+          reader, writer = await earliest_connect
+          if earliest_connect is ipv6_connect:

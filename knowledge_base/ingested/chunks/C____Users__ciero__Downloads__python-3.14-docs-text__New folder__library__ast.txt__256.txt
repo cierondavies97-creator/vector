@@ -1,0 +1,7 @@
+statement documentation.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case Point2D(0, 0):
+      ...         ...
+      ...     case Point3D(x=0, y=0, z=0):
+      ...         ...

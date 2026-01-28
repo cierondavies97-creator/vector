@@ -1,0 +1,4 @@
+group: list[T]
+      # A functional syntax is also supported
+      Employee = NamedTuple('Employee', [('name', str), ('id', int)])
+   Changed in version 3.6: Added support for **PEP 526** variable

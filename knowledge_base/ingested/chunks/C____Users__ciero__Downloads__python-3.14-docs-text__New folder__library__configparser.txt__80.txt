@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+       ...
+     KeyError: 'does-not-exist'
+* *delimiters*, default value: "('=', ':')"
+  Delimiters are substrings that delimit keys from values within a
+  section. The first occurrence of a delimiting substring on a line is

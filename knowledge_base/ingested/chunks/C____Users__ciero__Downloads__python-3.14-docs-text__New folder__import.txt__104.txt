@@ -1,0 +1,4 @@
+timestamp and size in the cache file when writing it. At runtime, the
+import system then validates the cache file by checking the stored
+metadata in the cache file against the source's metadata.
+Python also supports "hash-based" cache files, which store a hash of

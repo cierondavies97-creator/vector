@@ -1,0 +1,4 @@
+"StopIteration", or automatically when the subiterator is a generator
+(by returning a value from the subgenerator).
+Changed in version 3.3: Added "yield from <expr>" to delegate control
+flow to a subiterator.

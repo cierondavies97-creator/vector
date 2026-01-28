@@ -1,0 +1,6 @@
+arg2 = STACK.pop()
+      arg1 = STACK.pop()
+      result = intrinsic2(arg1, arg2)
+      STACK.append(result)
+   The operand determines which intrinsic function is called:
+   +------------------------------------------+-------------------------------------+

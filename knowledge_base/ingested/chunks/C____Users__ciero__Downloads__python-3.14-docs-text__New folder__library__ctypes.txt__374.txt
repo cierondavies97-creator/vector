@@ -1,0 +1,5 @@
+Represents the C double datatype.  The constructor accepts an
+   optional float initializer.
+class ctypes.c_longdouble
+   Represents the C long double datatype.  The constructor accepts an
+   optional float initializer.  On platforms where "sizeof(long

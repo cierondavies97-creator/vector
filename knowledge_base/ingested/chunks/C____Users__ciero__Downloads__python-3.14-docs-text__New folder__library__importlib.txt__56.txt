@@ -1,0 +1,4 @@
+of "NotImplementedError".  Functionality provided when
+      "exec_module()" is available.
+      Deprecated since version 3.4, will be removed in version 3.15:
+      The recommended API for loading a module is "exec_module()" (and

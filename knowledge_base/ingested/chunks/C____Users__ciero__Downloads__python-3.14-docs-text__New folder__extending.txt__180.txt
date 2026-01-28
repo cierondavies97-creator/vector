@@ -1,0 +1,3 @@
+the function borrows the reference from you --- if it needs to store
+it, it will use "Py_INCREF()" to become an independent owner.  There
+are exactly two important exceptions to this rule: "PyTuple_SetItem()"

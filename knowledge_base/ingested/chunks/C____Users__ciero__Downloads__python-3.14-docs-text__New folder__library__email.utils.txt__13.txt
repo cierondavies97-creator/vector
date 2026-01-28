@@ -1,0 +1,5 @@
+"parseaddr()". *fieldvalues* is a sequence of header field values
+   as might be returned by "Message.get_all".
+   If *strict* is true, use a strict parser which rejects malformed
+   inputs.
+   Here's a simple example that gets all the recipients of a message:

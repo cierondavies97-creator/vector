@@ -1,0 +1,4 @@
+are: ""raised"", ""sunken"", ""flat"", ""groove"", and ""ridge"".
+scrollcommand
+   This is almost always the "set()" method of some scrollbar widget,
+   but can be any widget method that takes a single argument.

@@ -1,0 +1,6 @@
+['ar', 'g++']
+Installation paths
+==================
+Python uses an installation scheme that differs depending on the
+platform and on the installation options.  These schemes are stored in
+"sysconfig" under unique identifiers based on the value returned by

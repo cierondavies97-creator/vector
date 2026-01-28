@@ -1,0 +1,3 @@
+of incoming XML and processing them. In contrast to SAX which also
+employs an event-driven processing model together with callbacks, the
+user of a pull parser is responsible for explicitly pulling events

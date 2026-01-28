@@ -1,0 +1,4 @@
+you should set "warn_on_full_buffer=False", so that your users are
+   not confused by spurious warning messages.
+   Changed in version 3.5: On Windows, the function now also supports
+   socket handles.

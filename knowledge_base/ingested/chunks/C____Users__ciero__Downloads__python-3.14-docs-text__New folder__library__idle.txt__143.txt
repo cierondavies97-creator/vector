@@ -1,0 +1,3 @@
+lines (N = 50 by default). N can be changed in the PyShell section of
+the General page of the Settings dialog.  Output with fewer lines can
+be squeezed by right clicking on the output.  This can be useful lines

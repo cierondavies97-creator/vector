@@ -1,0 +1,5 @@
+IMAP4.getannotation(mailbox, entry, attribute)
+   Retrieve the specified "ANNOTATION"s for *mailbox*. The method is
+   non-standard, but is supported by the "Cyrus" server.
+IMAP4.getquota(root)
+   Get the "quota" *root*'s resource usage and limits. This method is

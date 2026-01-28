@@ -1,0 +1,5 @@
+False
+Supported INI File Structure
+============================
+A configuration file consists of sections, each led by a "[section]"
+header, followed by key/value entries separated by a specific string

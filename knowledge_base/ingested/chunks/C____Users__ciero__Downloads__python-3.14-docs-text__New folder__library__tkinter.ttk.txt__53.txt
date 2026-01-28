@@ -1,0 +1,6 @@
+Combobox
+========
+The "ttk.Combobox" widget combines a text field with a pop-down list
+of values. This widget is a subclass of "Entry".
+Besides the methods inherited from "Widget": "Widget.cget()",
+"Widget.configure()", "Widget.identify()", "Widget.instate()" and

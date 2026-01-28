@@ -1,0 +1,5 @@
+[formatters]
+   keys=form01,form02,form03,form04,form05,form06,form07,form08,form09
+The root logger must specify a level and a list of handlers. An
+example of a root logger section is given below.
+   [logger_root]

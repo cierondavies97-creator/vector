@@ -1,0 +1,6 @@
+Disabling events
+----------------
+sys.monitoring.DISABLE
+   A special value that can be returned from a callback function to
+   disable events for the current code location.
+Local events can be disabled for a specific code location by returning

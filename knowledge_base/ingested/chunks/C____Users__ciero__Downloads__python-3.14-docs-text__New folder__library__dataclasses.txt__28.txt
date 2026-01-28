@@ -1,0 +1,4 @@
+*frozen* is true, then "TypeError" is raised.
+   * *match_args*: If true (the default is "True"), the
+     "__match_args__" tuple will be created from the list of non
+     keyword-only parameters to the generated "__init__()" method

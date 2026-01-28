@@ -1,0 +1,5 @@
+termios.TCSAFLUSH
+      Change attributes after transmitting all queued output and
+      discarding all queued input.
+termios.tcsendbreak(fd, duration)
+   Send a break on file descriptor *fd*.  A zero *duration* sends a

@@ -1,0 +1,4 @@
+argument is "False" then this can be left as "None".
+      *proxytype* is a subclass of "BaseProxy" which is used to create
+      proxies for shared objects with this *typeid*.  If "None" then a
+      proxy class is created automatically.

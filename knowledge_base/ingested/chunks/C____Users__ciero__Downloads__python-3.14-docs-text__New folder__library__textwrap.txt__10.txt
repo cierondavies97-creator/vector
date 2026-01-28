@@ -1,0 +1,4 @@
+collapsed before the text is passed to the "TextWrapper" "fill()"
+   function, so changing the value of "tabsize", "expand_tabs",
+   "drop_whitespace", and "replace_whitespace" will have no effect.
+   Added in version 3.4.

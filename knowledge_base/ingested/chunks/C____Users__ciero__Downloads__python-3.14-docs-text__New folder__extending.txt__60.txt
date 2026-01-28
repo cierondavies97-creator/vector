@@ -1,0 +1,4 @@
+are objects on the heap in Python!)
+If you have a C function that returns no useful argument (a function
+returning void), the corresponding Python function must return "None".
+You need this idiom to do so (which is implemented by the

@@ -1,0 +1,6 @@
+function.
+   makeSocket()
+      The factory method of "SocketHandler" is here overridden to
+      create a UDP socket ("socket.SOCK_DGRAM").
+   send(s)
+      Send a pickled byte-string to a socket. The format of the sent

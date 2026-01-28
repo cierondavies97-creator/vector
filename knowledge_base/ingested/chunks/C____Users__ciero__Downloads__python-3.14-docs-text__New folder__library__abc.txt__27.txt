@@ -1,0 +1,4 @@
+using regular inheritance; "virtual subclasses" registered with the
+   ABC's "register()" method are not affected.
+   When "abstractmethod()" is applied in combination with other method
+   descriptors, it should be applied as the innermost decorator, as

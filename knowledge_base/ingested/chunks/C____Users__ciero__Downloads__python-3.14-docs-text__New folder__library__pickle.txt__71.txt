@@ -1,0 +1,4 @@
+instances pickled by Python 2; these default to 'ASCII' and
+   'strict', respectively.  The *encoding* can be 'bytes' to read
+   these 8-bit string instances as bytes objects. Using
+   "encoding='latin1'" is required for unpickling NumPy arrays and

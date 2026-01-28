@@ -1,0 +1,5 @@
+Push a "KEY_MOUSE" event onto the input queue, associating the
+   given state data with it.
+curses.use_env(flag)
+   If used, this function should be called before "initscr()" or
+   newterm are called.  When *flag* is "False", the values of lines

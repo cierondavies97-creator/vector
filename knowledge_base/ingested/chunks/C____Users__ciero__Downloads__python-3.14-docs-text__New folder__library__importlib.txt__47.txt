@@ -1,0 +1,5 @@
+"importlib.resources.abc.ResourceReader".
+   Changed in version 3.7: Introduced the optional
+   "get_resource_reader()" method.
+   create_module(spec)
+      A method that returns the module object to use when importing a

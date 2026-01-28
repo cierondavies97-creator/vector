@@ -1,0 +1,6 @@
+it is possible to suppress the warning using the "catch_warnings"
+context manager:
+   import warnings
+   def fxn():
+       warnings.warn("deprecated", DeprecationWarning)
+   with warnings.catch_warnings():

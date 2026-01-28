@@ -1,0 +1,3 @@
+Changed in version 3.8: Popen can use "os.posix_spawn()" in some
+   cases for better performance. On Windows Subsystem for Linux and
+   QEMU User Emulation, Popen constructor using "os.posix_spawn()" no

@@ -1,0 +1,5 @@
+or zero.
+   Availability: not WASI.
+socket.getservbyname(servicename[, protocolname])
+   Translate an internet service name and protocol name to a port
+   number for that service.  The optional protocol name, if given,

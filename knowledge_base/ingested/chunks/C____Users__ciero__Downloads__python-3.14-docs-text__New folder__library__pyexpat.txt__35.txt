@@ -1,0 +1,5 @@
+used in code running across a variety of Python versions.
+   Added in version 3.13.
+xmlparser.GetReparseDeferralEnabled()
+   Returns whether reparse deferral is currently enabled for the given
+   Expat parser instance.

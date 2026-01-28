@@ -1,0 +1,6 @@
+finally:
+                          loop.call_soon_threadsafe(stop_event.set)
+                  else:
+                      fut.result()
+      # Create a loop in another thread
+      with loop_in_thread() as loop:

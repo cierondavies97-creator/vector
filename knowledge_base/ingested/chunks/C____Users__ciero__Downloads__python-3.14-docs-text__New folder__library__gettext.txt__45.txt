@@ -1,0 +1,6 @@
+"_()" available to their module:
+         import gettext
+         t = gettext.translation('mymodule', ...)
+         _ = t.gettext
+      This puts "_()" only in the module's global namespace and so
+      only affects calls within this module.

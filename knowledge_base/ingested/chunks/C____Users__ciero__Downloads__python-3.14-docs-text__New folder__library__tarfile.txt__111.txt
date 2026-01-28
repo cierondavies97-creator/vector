@@ -1,0 +1,4 @@
+TarFile.addfile(tarinfo, fileobj=None)
+   Add the "TarInfo" object *tarinfo* to the archive. If *tarinfo*
+   represents a non zero-size regular file, the *fileobj* argument
+   should be a *binary file*, and "tarinfo.size" bytes are read from

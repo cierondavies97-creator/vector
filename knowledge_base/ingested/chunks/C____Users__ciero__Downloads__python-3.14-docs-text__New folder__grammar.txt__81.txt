@@ -1,0 +1,6 @@
+| 'except' e=expressions ':' b=block {
+           CHECK_VERSION(
+               excepthandler_ty,
+               14,
+               "except expressions without parentheses are",
+               _PyAST_ExceptHandler(e, NULL, b, EXTRA)) }

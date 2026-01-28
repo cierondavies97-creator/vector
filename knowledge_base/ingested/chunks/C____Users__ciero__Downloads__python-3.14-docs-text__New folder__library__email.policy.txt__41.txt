@@ -1,0 +1,4 @@
+are given new values by the keyword arguments.
+   The remaining "Policy" methods are called by the email package
+   code, and are not intended to be called by an application using the
+   email package. A custom policy must implement all of these methods.

@@ -1,0 +1,4 @@
+namespace mapping.
+      * "end-ns": "None" (this may change in a future version)
+      Events provided in a previous call to "read_events()" will not
+      be yielded again.  Events are consumed from the internal queue

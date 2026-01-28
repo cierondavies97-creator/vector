@@ -1,0 +1,4 @@
+not "None", imports the corresponding module and returns a
+   "DOMImplementation" object if the import succeeds.  If no name is
+   given, and if the environment variable "PYTHON_DOM" is set, this
+   variable is used to find the implementation.

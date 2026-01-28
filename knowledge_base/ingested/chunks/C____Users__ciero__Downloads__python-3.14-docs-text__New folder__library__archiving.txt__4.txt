@@ -1,0 +1,7 @@
+* Reading and writing compressed files
+  * Compressing and decompressing data in memory
+  * Miscellaneous
+  * Specifying custom filter chains
+  * Examples
+* "zipfile" --- Work with ZIP archives
+  * ZipFile objects

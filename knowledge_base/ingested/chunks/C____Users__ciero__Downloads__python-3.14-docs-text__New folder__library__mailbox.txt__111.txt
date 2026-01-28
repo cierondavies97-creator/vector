@@ -1,0 +1,4 @@
+indicated by the start of the next message or, in the case of the
+   last message, a line containing a Control-Underscore ("'\037'")
+   character.
+   Messages in a Babyl mailbox have two sets of headers, original

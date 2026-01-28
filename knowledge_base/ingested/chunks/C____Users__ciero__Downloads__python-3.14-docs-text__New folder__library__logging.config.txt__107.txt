@@ -1,0 +1,5 @@
+string value.  If the prefix is not recognised, then the string value
+will be left as-is.
+Access to internal objects
+--------------------------
+As well as external objects, there is sometimes also a need to refer

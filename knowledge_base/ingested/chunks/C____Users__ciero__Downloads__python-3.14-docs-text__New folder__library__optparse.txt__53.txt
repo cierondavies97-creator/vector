@@ -1,0 +1,4 @@
+run successfully, that's what positional arguments are for.
+As an example of good command-line interface design, consider the
+humble "cp" utility, for copying files.  It doesn't make much sense to
+try to copy files without supplying a destination and at least one

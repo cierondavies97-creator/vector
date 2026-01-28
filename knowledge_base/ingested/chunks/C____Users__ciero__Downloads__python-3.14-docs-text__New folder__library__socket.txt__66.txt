@@ -1,0 +1,4 @@
+defined; for a few symbols, default values are provided.
+   Changed in version 3.6: "SO_DOMAIN", "SO_PROTOCOL", "SO_PEERSEC",
+   "SO_PASSSEC", "TCP_USER_TIMEOUT", "TCP_CONGESTION" were added.
+   Changed in version 3.6.5: Added support for "TCP_FASTOPEN",

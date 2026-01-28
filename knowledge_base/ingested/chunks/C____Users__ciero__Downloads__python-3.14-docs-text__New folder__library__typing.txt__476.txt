@@ -1,0 +1,4 @@
+method resolution order.
+   * The function recursively replaces all occurrences of
+     "Annotated[T, ...]", "Required[T]", "NotRequired[T]", and
+     "ReadOnly[T]" with "T", unless *include_extras* is set to "True"

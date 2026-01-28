@@ -1,0 +1,5 @@
+applies during startup and even during any installation step that
+  may invoke Python to precompile ".py" sources to ".pyc" files.
+Recommended configuration
+-------------------------
+The default "sys.int_info.default_max_str_digits" is expected to be

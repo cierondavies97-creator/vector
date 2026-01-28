@@ -1,0 +1,4 @@
+A fix here would be to swap the last two lines (or simply remove
+   the "p.join()" line).
+Explicitly pass resources to child processes
+   On POSIX using the *fork* start method, a child process can make

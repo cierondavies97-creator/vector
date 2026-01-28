@@ -1,0 +1,6 @@
+escape them with a backslash.
+   Changed in version 3.7: "FutureWarning" is raised if a character
+   set contains constructs that will change semantically in the
+   future.
+"|"
+   "A|B", where *A* and *B* can be arbitrary REs, creates a regular

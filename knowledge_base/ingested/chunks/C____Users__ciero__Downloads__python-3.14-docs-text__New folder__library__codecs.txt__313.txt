@@ -1,0 +1,4 @@
+characters. The nameprep functions can be used directly if desired.
+encodings.idna.nameprep(label)
+   Return the nameprepped version of *label*. The implementation
+   currently assumes query strings, so "AllowUnassigned" is true.

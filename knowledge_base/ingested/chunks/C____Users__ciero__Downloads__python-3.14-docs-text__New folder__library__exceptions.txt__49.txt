@@ -1,0 +1,4 @@
+Caution:
+     "NotImplementedError" and "NotImplemented" are not
+     interchangeable. This exception should only be used as described
+     above; see "NotImplemented" for details on correct usage of the

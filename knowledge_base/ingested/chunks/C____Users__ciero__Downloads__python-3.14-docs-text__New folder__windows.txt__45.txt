@@ -1,0 +1,3 @@
+runtimes may be updated or uninstalled through the "py" command.
+The "--online" option is short for passing "--source=<URL>" with the
+default source. Passing either of these options will search the online

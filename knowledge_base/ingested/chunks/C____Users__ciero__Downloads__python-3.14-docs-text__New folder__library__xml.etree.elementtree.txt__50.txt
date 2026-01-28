@@ -1,0 +1,6 @@
+name = actor.find('real_person:name', ns)
+       print(name.text)
+       for char in actor.findall('role:character', ns):
+           print(' |-->', char.text)
+These two approaches both output:
+   John Cleese

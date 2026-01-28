@@ -1,0 +1,4 @@
+* "FMT_BINARY": Binary formatted plist file
+   When *sort_keys* is true (the default) the keys for dictionaries
+   will be written to the plist in sorted order, otherwise they will
+   be written in the iteration order of the dictionary.

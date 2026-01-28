@@ -1,0 +1,5 @@
+previously returned.
+os.remove(path, *, dir_fd=None)
+   Remove (delete) the file *path*.  If *path* is a directory, an
+   "OSError" is raised.  Use "rmdir()" to remove directories. If the
+   file does not exist, a "FileNotFoundError" is raised.

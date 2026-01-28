@@ -1,0 +1,4 @@
+using these functions without using threads.
+* The data returned by "urlopen()" or "urlretrieve()" is the raw data
+  returned by the server.  This may be binary data (such as an image),
+  plain text or (for example) HTML.  The HTTP protocol provides type

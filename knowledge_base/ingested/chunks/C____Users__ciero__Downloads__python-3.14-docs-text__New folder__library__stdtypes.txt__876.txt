@@ -1,0 +1,7 @@
+| Foo"".
+union_object == other
+   Union objects can be tested for equality with other union objects.
+   Details:
+   * Unions of unions are flattened:
+        (int | str) | float == int | str | float
+   * Redundant types are removed:

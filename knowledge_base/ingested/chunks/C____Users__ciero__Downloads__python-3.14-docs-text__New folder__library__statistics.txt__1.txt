@@ -1,0 +1,4 @@
+This module provides functions for calculating mathematical statistics
+of numeric ("Real"-valued) data.
+The module is not intended to be a competitor to third-party libraries
+such as NumPy, SciPy, or proprietary full-featured statistics packages

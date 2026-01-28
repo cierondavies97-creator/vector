@@ -1,0 +1,4 @@
+* Infinite and NaN number values are accepted and output;
+* Repeated names within an object are accepted, and only the value of
+  the last name-value pair is used.
+Since the RFC permits RFC-compliant parsers to accept input texts that

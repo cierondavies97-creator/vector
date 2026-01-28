@@ -1,0 +1,5 @@
+Added in version 3.7.
+   super
+      A list of "Class" objects which describe the immediate base
+      classes of the class being described.  Classes which are named
+      as superclasses but which are not discoverable by

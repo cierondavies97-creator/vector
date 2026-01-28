@@ -1,0 +1,7 @@
+False
+Interface objects
+=================
+Interface objects are *hashable*, so they can be used as keys in
+dictionaries.
+class ipaddress.IPv4Interface(address)
+   Construct an IPv4 interface.  The meaning of *address* is as in the

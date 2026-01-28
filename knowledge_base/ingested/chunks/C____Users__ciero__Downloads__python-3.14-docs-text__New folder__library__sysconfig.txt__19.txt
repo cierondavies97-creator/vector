@@ -1,0 +1,3 @@
+| *stdlib*       | "*userbase*/lib/python*X.Y*"                                |
++----------------+-------------------------------------------------------------+
+| *platstdlib*   | "*userbase*/lib/python*X.Y*"                                |

@@ -1,0 +1,3 @@
+a corresponding original header is removed, and any of *Date*,
+      *From*, *Reply-To*, *To*, *CC*, and *Subject* that are present
+      in the original headers but not the visible headers are added to

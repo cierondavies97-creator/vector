@@ -1,0 +1,4 @@
+and a buffer overflow error logs the traceback where the memory block
+was allocated.
+The Python Development Mode does not prevent the "-O" command line
+option from removing "assert" statements nor from setting "__debug__"

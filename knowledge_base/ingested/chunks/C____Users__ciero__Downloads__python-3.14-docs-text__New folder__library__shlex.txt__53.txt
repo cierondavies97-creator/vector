@@ -1,0 +1,5 @@
+whitespaces;
+* EOF is signaled with an empty string ("''");
+* It's not possible to parse empty strings, even if quoted.
+When operating in POSIX mode, "shlex" will try to obey to the
+following parsing rules.

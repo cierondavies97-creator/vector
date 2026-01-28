@@ -1,0 +1,5 @@
+Similar to "ContextDecorator" but only for asynchronous functions.
+   Example of "AsyncContextDecorator":
+      from asyncio import run
+      from contextlib import AsyncContextDecorator
+      class mycontext(AsyncContextDecorator):

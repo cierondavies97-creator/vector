@@ -1,0 +1,3 @@
+Creates a "StreamRecoder" instance which implements a two-way
+   conversion: *encode* and *decode* work on the frontend — the data
+   visible to code calling "read()" and "write()", while *Reader* and

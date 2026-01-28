@@ -1,0 +1,4 @@
+more styles can be added for each day:
+         cssclasses = ["mon text-bold", "tue", "wed", "thu", "fri", "sat", "sun red"]
+      Note that the length of this list must be seven items.
+   cssclass_noday

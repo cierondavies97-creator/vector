@@ -1,0 +1,4 @@
+the *base* object has a "base.__index__" method, that method is
+   called to obtain an integer for the base.  Previous versions used
+   "base.__int__" instead of "base.__index__".
+   Changed in version 3.6: Grouping digits with underscores as in code

@@ -1,0 +1,7 @@
+will raise "RuntimeError".
+winsound.SND_PURGE
+   Stop playing all instances of the specified sound.
+   Note:
+     This flag is not supported on modern Windows platforms.
+winsound.SND_ASYNC
+   Return immediately, allowing sounds to play asynchronously.

@@ -1,0 +1,8 @@
+* "/usr/bin/env <ALIAS>"
+* "/usr/bin/env -S <ALIAS>"
+* "/usr/bin/<ALIAS>"
+* "/usr/local/bin/<ALIAS>"
+* "<ALIAS>"
+For example, if the first line of your script starts with
+   #! /usr/bin/python
+The default Python or an active virtual environment will be located

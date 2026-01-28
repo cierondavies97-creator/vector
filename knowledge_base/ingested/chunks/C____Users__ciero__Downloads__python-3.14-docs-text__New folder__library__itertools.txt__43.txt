@@ -1,0 +1,3 @@
+# Amortize a 5% loan of 1000 with 10 annual payments of 90
+      >>> update = lambda balance, payment: round(balance * 1.05) - payment
+      >>> list(accumulate(repeat(90, 10), update, initial=1_000))

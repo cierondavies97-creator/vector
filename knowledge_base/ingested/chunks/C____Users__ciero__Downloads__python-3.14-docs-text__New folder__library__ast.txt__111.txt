@@ -1,0 +1,11 @@
+comparators=[
+                  Name(id='a', ctx=Load()),
+                  Constant(value=10)]))
+class ast.Eq
+class ast.NotEq
+class ast.Lt
+class ast.LtE
+class ast.Gt
+class ast.GtE
+class ast.Is
+class ast.IsNot

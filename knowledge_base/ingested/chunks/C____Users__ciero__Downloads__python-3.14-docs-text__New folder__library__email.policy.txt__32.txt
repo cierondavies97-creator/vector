@@ -1,0 +1,3 @@
+|          | "fold_binary()" and "utf8" below for exceptions), but body      |
+      |          | parts may use the "8bit" CTE.                                   |
+      +----------+-----------------------------------------------------------------+

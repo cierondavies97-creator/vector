@@ -1,0 +1,5 @@
+Added in version 3.10.
+locale.atof(string, func=float)
+   Converts a string to a number, following the "LC_NUMERIC" settings,
+   by calling *func* on the result of calling "delocalize()" on
+   *string*.

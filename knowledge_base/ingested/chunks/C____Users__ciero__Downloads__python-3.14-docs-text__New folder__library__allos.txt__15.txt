@@ -1,0 +1,7 @@
+* Structure/union layout, alignment and byte order
+    * Bit fields in structures and unions
+    * Arrays
+    * Pointers
+    * Thread safety without the GIL
+    * Type conversions
+    * Incomplete Types

@@ -1,0 +1,4 @@
+>>> MessageBox(flags=2, text="foo bar")
+A second example demonstrates output parameters.  The win32
+"GetWindowRect" function retrieves the dimensions of a specified
+window by copying them into "RECT" structure that the caller has to

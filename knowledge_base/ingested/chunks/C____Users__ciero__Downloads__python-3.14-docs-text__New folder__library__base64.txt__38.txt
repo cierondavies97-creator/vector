@@ -1,0 +1,6 @@
+and return the decoded "bytes".  Padding is implicitly removed, if
+   necessary.
+   Added in version 3.4.
+base64.z85encode(s)
+   Encode the *bytes-like object* *s* using Z85 (as used in ZeroMQ)
+   and return the encoded "bytes".  See Z85  specification for more

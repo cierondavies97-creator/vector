@@ -1,0 +1,7 @@
+False
+      >>> c.set_alive()
+      >>> c.alive
+      True
+   Added in version 3.4.
+functools.reduce(function, iterable, /[, initial])
+   Apply *function* of two arguments cumulatively to the items of

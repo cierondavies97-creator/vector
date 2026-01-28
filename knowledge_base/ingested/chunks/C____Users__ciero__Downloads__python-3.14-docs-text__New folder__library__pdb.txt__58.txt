@@ -1,0 +1,4 @@
+displays the full documentation (the docstring of the "pdb"
+   module).  Since the *command* argument must be an identifier, "help
+   exec" must be entered to get help on the "!" command.
+w(here) [count]

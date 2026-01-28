@@ -1,0 +1,4 @@
+Each of the authentication methods supported by "smtplib" are tried
+   in turn if they are advertised as supported by the server.  See
+   "auth()" for a list of supported authentication methods.
+   *initial_response_ok* is passed through to "auth()".

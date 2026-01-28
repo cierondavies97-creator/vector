@@ -1,0 +1,3 @@
+"'surrogateescape'" error handler (see **PEP 383**).  An address in
+  Linux's abstract namespace is returned as a *bytes-like object* with
+  an initial null byte; note that sockets in this namespace can

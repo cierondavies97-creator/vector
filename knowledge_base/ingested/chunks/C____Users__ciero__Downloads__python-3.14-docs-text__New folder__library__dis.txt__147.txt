@@ -1,0 +1,7 @@
+IS_OP(invert)
+   Performs "is" comparison, or "is not" if "invert" is 1.
+   Added in version 3.9.
+CONTAINS_OP(invert)
+   Performs "in" comparison, or "not in" if "invert" is 1.
+   Added in version 3.9.
+IMPORT_NAME(namei)

@@ -1,0 +1,5 @@
+characters are those byte values in the sequence "b' \t\n\r\x0b\f'"
+   (space, tab, newline, carriage return, vertical tab, form feed).
+bytes.istitle()
+bytearray.istitle()
+   Return "True" if the sequence is ASCII titlecase and the sequence

@@ -1,0 +1,3 @@
+"__get__()" method.  Data descriptors with "__get__()" and "__set__()"
+(and/or "__delete__()") defined always override a redefinition in an
+instance dictionary.  In contrast, non-data descriptors can be

@@ -1,0 +1,4 @@
+object then controls the execution of the generator function. An
+asynchronous generator object is typically used in an "async for"
+statement in a coroutine function analogously to how a generator
+object would be used in a "for" statement.

@@ -1,0 +1,8 @@
+patterns. "UNICODE" and the inline flag "(?u)" are similarly
+     redundant.
+re.DEBUG
+   Display debug information about compiled expression.
+   No corresponding inline flag.
+re.I
+re.IGNORECASE
+   Perform case-insensitive matching; expressions like "[A-Z]" will

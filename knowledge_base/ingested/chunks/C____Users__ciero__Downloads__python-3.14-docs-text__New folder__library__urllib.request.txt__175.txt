@@ -1,0 +1,6 @@
+Process HTTPS error responses.
+   The behavior is same as "http_response()".
+Examples
+========
+In addition to the examples below, more examples are given in HOWTO
+Fetch Internet Resources Using The urllib Package.

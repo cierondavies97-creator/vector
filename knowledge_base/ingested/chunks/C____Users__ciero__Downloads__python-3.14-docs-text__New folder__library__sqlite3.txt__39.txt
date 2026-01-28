@@ -1,0 +1,4 @@
+* **factory** (*Connection*) -- A custom subclass of
+        "Connection" to create the connection with, if not the default
+        "Connection" class.
+      * **cached_statements** (*int*) -- The number of statements that

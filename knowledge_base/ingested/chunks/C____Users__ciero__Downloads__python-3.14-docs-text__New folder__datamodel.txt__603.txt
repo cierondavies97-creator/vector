@@ -1,0 +1,4 @@
+corresponding to a member of the enum.
+   If an annotate function doesn't support the requested format, it
+   must raise "NotImplementedError". Annotate functions must always
+   support "VALUE" format; they must not raise "NotImplementedError()"

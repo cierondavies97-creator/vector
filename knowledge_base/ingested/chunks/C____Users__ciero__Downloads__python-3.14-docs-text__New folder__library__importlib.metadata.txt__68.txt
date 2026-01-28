@@ -1,0 +1,4 @@
+loading the metadata for packages for the indicated ``context``.
+       """
+The "DistributionFinder.Context" object provides ".path" and ".name"
+properties indicating the path to search and name to match and may

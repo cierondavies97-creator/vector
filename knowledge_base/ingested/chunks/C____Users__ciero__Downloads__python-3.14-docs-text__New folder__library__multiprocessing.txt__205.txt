@@ -1,0 +1,7 @@
+returns the connection object, and "__exit__()" calls "close()".
+For example:
+   >>> from multiprocessing import Pipe
+   >>> a, b = Pipe()
+   >>> a.send([1, 'hello', None])
+   >>> b.recv()
+   [1, 'hello', None]

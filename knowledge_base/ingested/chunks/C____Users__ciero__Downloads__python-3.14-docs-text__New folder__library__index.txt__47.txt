@@ -1,0 +1,5 @@
+* "tkinter.scrolledtext" --- Scrolled Text Widget
+  * "tkinter.dnd" --- Drag and drop support
+  * "tkinter.ttk" --- Tk themed widgets
+  * IDLE --- Python editor and shell
+  * "turtle" --- Turtle graphics

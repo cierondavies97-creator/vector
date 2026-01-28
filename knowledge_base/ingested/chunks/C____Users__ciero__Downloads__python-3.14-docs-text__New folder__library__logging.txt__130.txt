@@ -1,0 +1,4 @@
+overridden in formatters to provide for any specific
+      requirement, but the basic behavior is as follows: if *datefmt*
+      (a string) is specified, it is used with "time.strftime()" to
+      format the creation time of the record. Otherwise, the format

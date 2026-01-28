@@ -1,0 +1,5 @@
+the warnings filter in unexpected ways between tests and leading to
+indeterminate test results.
+   Note:
+     See Concurrent safety of Context Managers for details on the
+     concurrency-safety of the "catch_warnings" context manager when

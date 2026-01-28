@@ -1,0 +1,8 @@
+color('red')
+   fillcolor('yellow')
+Just as "up()" and "down()" determine whether lines will be drawn,
+filling can be turned on and off:
+   begin_fill()
+Next we'll create a loop:
+   while True:
+       forward(200)

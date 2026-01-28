@@ -1,0 +1,10 @@
+stat.S_IXUSR
+   Owner has execute permission.
+stat.S_IRWXG
+   Mask for group permissions.
+stat.S_IRGRP
+   Group has read permission.
+stat.S_IWGRP
+   Group has write permission.
+stat.S_IXGRP
+   Group has execute permission.

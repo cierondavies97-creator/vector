@@ -1,0 +1,4 @@
+From the directory in which hello.py lives, execute the command:
+   py hello.py
+You should notice the version number of your latest Python 2.x
+installation is printed.  Now try changing the first line to be:

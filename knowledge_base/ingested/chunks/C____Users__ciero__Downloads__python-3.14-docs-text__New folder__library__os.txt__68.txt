@@ -1,0 +1,6 @@
+Availability: Unix, not WASI.
+   Added in version 3.2.
+os.getresgid()
+   Return a tuple (rgid, egid, sgid) denoting the current process's
+   real, effective, and saved group ids.
+   Availability: Unix, not WASI.

@@ -1,0 +1,5 @@
++----------------------------------------------------+----------------------------------------------------+
+-[ Examples ]-
+* Executing a shell command.
+* See also the subprocess APIs documentation.
+Streams

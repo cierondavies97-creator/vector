@@ -1,0 +1,4 @@
+In fact, each module imported in an interpreter is a completely
+separate object from the same module in a different interpreter,
+including "sys", "builtins", and even "__main__".
+Isolation means a mutable object, or other data, cannot be used by

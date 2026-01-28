@@ -1,0 +1,4 @@
+"http_error_<type>()" handler methods, via
+   "OpenerDirector.error()". Eventually, "HTTPDefaultErrorHandler"
+   will raise an "HTTPError" if no other handler handles the error.
+HTTPErrorProcessor.https_response(request, response)

@@ -1,0 +1,3 @@
+than "NOTSET" has been set using "setLevel()", it is returned.
+      Otherwise, the hierarchy is traversed towards the root until a
+      value other than "NOTSET" is found, and that value is returned.

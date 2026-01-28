@@ -1,0 +1,3 @@
+and the result recorded.  This is called even if the test method
+      raised an exception, so the implementation in subclasses may
+      need to be particularly careful about checking internal state.

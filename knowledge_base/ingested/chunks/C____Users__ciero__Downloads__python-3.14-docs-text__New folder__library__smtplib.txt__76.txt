@@ -1,0 +1,5 @@
+All recipients were refused.  Nobody got the mail.
+   "SMTPHeloError"
+      The server didn't reply properly to the "HELO" greeting.
+   "SMTPSenderRefused"
+      The server didn't accept the *from_addr*.

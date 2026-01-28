@@ -1,0 +1,3 @@
+When specified, differences are computed by "difflib.Differ", using
+   the same algorithm as the popular "ndiff.py" utility. This is the
+   only method that marks differences within lines as well as across

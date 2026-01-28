@@ -1,0 +1,3 @@
+path, with no other normalization, resolution or expansion.
+   Changed in version 3.1: Support for the "with" statement was added,
+   along with the *mtime* constructor argument and "mtime" attribute.

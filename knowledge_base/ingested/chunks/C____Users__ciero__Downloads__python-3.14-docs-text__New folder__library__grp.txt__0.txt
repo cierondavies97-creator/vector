@@ -1,0 +1,5 @@
+"grp" --- The group database
+****************************
+======================================================================
+This module provides access to the Unix group database. It is
+available on all Unix versions.

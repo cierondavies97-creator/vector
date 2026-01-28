@@ -1,0 +1,6 @@
+FROM test ORDER BY x
+         """)
+         print(cur.fetchall())
+         con.close()
+   create_collation(name, callable, /)
+      Create a collation named *name* using the collating function

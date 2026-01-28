@@ -1,0 +1,7 @@
+"x == y" and "y == x"
+     "x != y" and "y != x"
+     "x < y" and "y > x"
+     "x <= y" and "y >= x"
+* Comparison should be transitive. The following (non-exhaustive)
+  examples illustrate that:
+     "x > y and y > z" implies "x > z"

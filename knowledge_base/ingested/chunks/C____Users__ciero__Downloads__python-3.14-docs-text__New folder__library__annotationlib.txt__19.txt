@@ -1,0 +1,3 @@
+649**, introduced the third execution model, deferred evaluation, and
+was implemented in Python 3.14. Stringified annotations are still used
+if "from __future__ import annotations" is present, but this behavior

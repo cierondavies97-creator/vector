@@ -1,0 +1,3 @@
+an empty string.  All the tokens and their values now can contain
+   arbitrary characters, like whitespace and non-ASCII characters. If
+   the login name is anonymous, it won't trigger the security check.

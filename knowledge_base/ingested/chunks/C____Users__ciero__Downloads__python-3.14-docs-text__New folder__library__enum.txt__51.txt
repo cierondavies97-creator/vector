@@ -1,0 +1,5 @@
+class definition or in a mixin class (such as "int"), all values
+      given in the member assignment will be passed; e.g.
+      >>> from enum import Enum
+      >>> class MyIntEnum(int, Enum):
+      ...     TWENTYSIX = '1a', 16

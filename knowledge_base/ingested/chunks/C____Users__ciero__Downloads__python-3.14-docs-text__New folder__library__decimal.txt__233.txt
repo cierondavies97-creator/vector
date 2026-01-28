@@ -1,0 +1,8 @@
+decimal.ROUND_UP
+   Round away from zero.
+decimal.ROUND_05UP
+   Round away from zero if last digit after rounding towards zero
+   would have been 0 or 5; otherwise round towards zero.
+Signals
+=======
+Signals represent conditions that arise during computation. Each

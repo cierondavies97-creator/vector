@@ -1,0 +1,3 @@
+threads concurrently use "bisect" functions on the same sequence,
+  this may result in undefined behaviour. Likewise, if the provided
+  sequence is mutated by a different thread while a "bisect" function

@@ -1,0 +1,5 @@
+with a *suffix*. *suffix* can also be a tuple of strings to try.
+      Added in version 3.14.
+   assertHasAttr(obj, name, msg=None)
+   assertNotHasAttr(obj, name, msg=None)
+      Test that the object *obj* has (or has not) an attribute *name*.

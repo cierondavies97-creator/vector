@@ -1,0 +1,6 @@
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+Exceptions
+==========
+exception compression.zstd.ZstdError
+   This exception is raised when an error occurs during compression or

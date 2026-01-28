@@ -1,0 +1,4 @@
+"__call__()" method are callable).  All argument expressions are
+evaluated before the call is attempted.  Please refer to section
+Function definitions for the syntax of formal *parameter* lists.
+If keyword arguments are present, they are first converted to

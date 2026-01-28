@@ -1,0 +1,4 @@
+be converted to a "Charset" instance.  A value of "None" (the
+      default) means that the *charset* given in the constructor is
+      used.
+      *s* may be an instance of "bytes" or "str".  If it is an

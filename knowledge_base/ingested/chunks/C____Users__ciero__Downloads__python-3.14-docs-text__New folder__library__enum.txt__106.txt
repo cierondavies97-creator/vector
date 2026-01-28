@@ -1,0 +1,8 @@
+...     RED = auto()
+         ...     GREEN = auto()
+         ...     BLUE = auto()
+         ...
+         >>> KeepFlag(2**2 + 2**4)
+         <KeepFlag.BLUE|16: 20>
+   Added in version 3.11.
+class enum.EnumDict

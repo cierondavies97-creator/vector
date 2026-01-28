@@ -1,0 +1,5 @@
+def convert_datetime(val):
+       """Convert ISO 8601 datetime to datetime.datetime object."""
+       return datetime.datetime.fromisoformat(val.decode())
+   def convert_timestamp(val):
+       """Convert Unix epoch timestamp to datetime.datetime object."""

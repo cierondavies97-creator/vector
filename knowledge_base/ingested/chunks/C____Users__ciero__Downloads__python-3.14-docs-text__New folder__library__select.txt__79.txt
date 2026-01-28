@@ -1,0 +1,5 @@
+kqueue.fromfd(fd)
+   Create a kqueue object from a given file descriptor.
+kqueue.control(changelist, max_events[, timeout]) -> eventlist
+   Low level interface to kevent
+   * changelist must be an iterable of kevent objects or "None"

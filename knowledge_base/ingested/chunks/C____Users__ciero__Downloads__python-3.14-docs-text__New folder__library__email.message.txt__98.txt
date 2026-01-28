@@ -1,0 +1,4 @@
+Return an iterator over all of the immediate sub-parts of the
+      message that are not candidate "body" parts.  That is, skip the
+      first occurrence of each of "text/plain", "text/html",
+      "multipart/related", or "multipart/alternative" (unless they are

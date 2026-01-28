@@ -1,0 +1,4 @@
+"SSLSocket". The attribute can be assigned to on instances of
+   "SSLContext" in order to return a custom subclass of "SSLSocket".
+   Added in version 3.7.
+SSLContext.wrap_bio(incoming, outgoing, server_side=False, server_hostname=None, session=None)

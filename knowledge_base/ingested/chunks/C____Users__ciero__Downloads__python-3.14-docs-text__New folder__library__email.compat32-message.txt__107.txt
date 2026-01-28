@@ -1,0 +1,3 @@
+the old *Content-Type* header and adding a new one with the new
+      boundary via "add_header()", because "set_boundary()" preserves
+      the order of the *Content-Type* header in the list of headers.

@@ -1,0 +1,4 @@
+given by "get_default_type()" will be returned.  Since according
+      to **RFC 2045**, messages always have a default type,
+      "get_content_type()" will always return a value.
+      **RFC 2045** defines a message's default type to be *text/plain*

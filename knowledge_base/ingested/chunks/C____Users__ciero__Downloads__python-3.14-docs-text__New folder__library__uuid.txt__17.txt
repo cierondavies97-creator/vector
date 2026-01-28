@@ -1,0 +1,2 @@
+| UUID.time_low                                      | The first 32 bits of the UUID. Only relevant to    |
+|                                                    | version 1.                                         |

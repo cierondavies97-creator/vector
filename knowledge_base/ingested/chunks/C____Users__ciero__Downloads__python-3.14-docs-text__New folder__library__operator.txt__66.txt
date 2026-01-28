@@ -1,0 +1,4 @@
+equivalent to "x = operator.iadd(x, y)".  Another way to put it is to
+say that "z = operator.iadd(x, y)" is equivalent to the compound
+statement "z = x; z += y".
+In those examples, note that when an in-place method is called, the

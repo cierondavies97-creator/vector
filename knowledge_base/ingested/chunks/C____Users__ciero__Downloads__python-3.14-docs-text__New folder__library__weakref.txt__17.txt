@@ -1,0 +1,3 @@
+and not "None", and the returned weakref object is still alive, the
+   callback will be called when the object is about to be finalized;
+   the weak reference object will be passed as the only parameter to

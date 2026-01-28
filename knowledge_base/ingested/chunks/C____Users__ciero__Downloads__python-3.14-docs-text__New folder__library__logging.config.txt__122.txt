@@ -1,0 +1,4 @@
+--------------------------------------
+Import resolution, by default, uses the builtin "__import__()"
+function to do its importing. You may want to replace this with your
+own importing mechanism: if so, you can replace the "importer"

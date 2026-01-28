@@ -1,0 +1,4 @@
+operators, set-like views accept any iterable as the other operand,
+unlike sets which only accept sets as the input.
+An example of dictionary view usage:
+   >>> dishes = {'eggs': 2, 'sausage': 1, 'bacon': 1, 'spam': 500}

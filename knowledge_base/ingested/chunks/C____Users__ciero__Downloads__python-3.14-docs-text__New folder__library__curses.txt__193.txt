@@ -1,0 +1,6 @@
+return "OK" upon success.
+curses.version
+   A bytes object representing the current version of the module.
+curses.ncurses_version
+   A named tuple containing the three components of the ncurses
+   library version: *major*, *minor*, and *patch*.  All values are

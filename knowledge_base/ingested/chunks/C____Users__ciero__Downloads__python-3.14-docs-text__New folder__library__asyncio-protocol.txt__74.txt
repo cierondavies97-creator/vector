@@ -1,0 +1,4 @@
+the transport. Since the default implementation returns "None", it
+   implicitly closes the connection.
+   Some transports, including SSL, don't support half-closed
+   connections, in which case returning true from this method will

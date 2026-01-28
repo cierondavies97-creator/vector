@@ -1,0 +1,4 @@
+return map(getitem, repeat(seq), slices)
+   def derangements(iterable, r=None):
+       "Produce r length permutations without fixed points."
+       # derangements('ABCD') → BADC BCDA BDAC CADB CDAB CDBA DABC DCAB DCBA

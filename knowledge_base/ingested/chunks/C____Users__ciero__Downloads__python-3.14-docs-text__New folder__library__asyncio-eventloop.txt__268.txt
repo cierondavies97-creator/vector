@@ -1,0 +1,5 @@
+for signame in {'SIGINT', 'SIGTERM'}:
+           loop.add_signal_handler(
+               getattr(signal, signame),
+               functools.partial(ask_exit, signame, loop))
+       await asyncio.sleep(3600)

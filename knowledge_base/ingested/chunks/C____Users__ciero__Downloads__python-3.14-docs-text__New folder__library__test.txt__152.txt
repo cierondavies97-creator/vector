@@ -1,0 +1,4 @@
+isolated mode ("-I") or no environment mode ("-E") sub-interpreter
+   process.
+   A normal build & test does not run into this situation but it can
+   happen when trying to run the standard library test suite from an

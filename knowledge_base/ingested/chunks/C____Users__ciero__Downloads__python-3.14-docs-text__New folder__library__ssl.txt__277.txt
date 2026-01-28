@@ -1,0 +1,4 @@
+Changed in version 3.7: The method returns an instance of
+   "SSLContext.sslobject_class" instead of hard-coded "SSLObject".
+SSLContext.sslobject_class
+   The return type of "SSLContext.wrap_bio()", defaults to

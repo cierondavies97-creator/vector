@@ -1,0 +1,4 @@
+algorithm is designed for use as a checksum algorithm, it is not
+   suitable for use as a general hash algorithm.  Use as follows:
+      print(binascii.crc32(b"hello world"))
+      # Or, in two pieces:

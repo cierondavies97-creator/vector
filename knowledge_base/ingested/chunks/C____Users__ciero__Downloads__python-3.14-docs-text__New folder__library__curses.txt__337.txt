@@ -1,0 +1,3 @@
+|                    | of line (stripspaces on).                   |
+      +--------------------+---------------------------------------------+
+      | "Control"-"F"      | Cursor right, wrapping to next line when    |

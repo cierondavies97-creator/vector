@@ -1,0 +1,4 @@
+Assert that running the interpreter with *args* and optional
+   environment variables *env_vars* succeeds ("rc == 0") and return a
+   "(return code, stdout, stderr)" tuple.
+   If the *__cleanenv* keyword-only parameter is set, *env_vars* is

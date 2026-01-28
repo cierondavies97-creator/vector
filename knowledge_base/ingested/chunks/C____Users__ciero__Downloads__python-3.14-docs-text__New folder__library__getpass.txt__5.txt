@@ -1,0 +1,5 @@
+a warning message to *stream* and reading from "sys.stdin" and
+   issuing a "GetPassWarning".
+   Note:
+     If you call getpass from within IDLE, the input may be done in
+     the terminal you launched IDLE from rather than the idle window

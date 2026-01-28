@@ -1,0 +1,9 @@
+...                   )
+...
+>>> order_mock.get_value()
+'first'
+>>> order_mock.get_value.side_effect = None
+>>> order_mock.get_value()
+'second'
+>>> order_mock.get_value.return_value = DEFAULT
+>>> order_mock.get_value()

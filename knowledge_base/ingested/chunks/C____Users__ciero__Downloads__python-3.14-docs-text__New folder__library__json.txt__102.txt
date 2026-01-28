@@ -1,0 +1,4 @@
+"Infinity", "-Infinity", and "NaN" as if they were valid JSON number
+literal values:
+   >>> # Neither of these calls raises an exception, but the results are not valid JSON
+   >>> json.dumps(float('-inf'))

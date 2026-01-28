@@ -1,0 +1,5 @@
+infinity.
+      * ""NaN"", indicating that the operand is a quiet NaN (Not a
+        Number).
+      * ""sNaN"", indicating that the operand is a signaling NaN.
+   quantize(exp, rounding=None, context=None)

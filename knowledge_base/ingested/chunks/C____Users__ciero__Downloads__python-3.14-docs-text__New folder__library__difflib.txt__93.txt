@@ -1,0 +1,5 @@
+ratio()
+      Return a measure of the sequences' similarity as a float in the
+      range [0, 1].
+      Where T is the total number of elements in both sequences, and M
+      is the number of matches, this is 2.0*M / T. Note that this is

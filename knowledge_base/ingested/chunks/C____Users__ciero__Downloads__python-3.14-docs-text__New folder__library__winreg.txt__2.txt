@@ -1,0 +1,7 @@
+a "WindowsError", which is now an alias of "OSError".
+Functions
+=========
+This module offers the following functions:
+winreg.CloseKey(hkey)
+   Closes a previously opened registry key.  The *hkey* argument
+   specifies a previously opened key.

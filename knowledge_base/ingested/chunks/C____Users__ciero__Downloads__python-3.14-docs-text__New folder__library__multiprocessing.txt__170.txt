@@ -1,0 +1,4 @@
+Return the "Process" object corresponding to the current process.
+   An analogue of "threading.current_thread()".
+multiprocessing.parent_process()
+   Return the "Process" object corresponding to the parent process of

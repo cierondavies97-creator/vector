@@ -1,0 +1,5 @@
+subclasses. By default, does nothing.
+   _missing_(cls, value)
+      A *classmethod* for looking up values not found in *cls*.  By
+      default it does nothing, but can be overridden to implement
+      custom search behavior:

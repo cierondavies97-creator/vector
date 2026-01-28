@@ -1,0 +1,4 @@
+unicode, following the **RFC 2047** rules for unstructured text.
+   The parser uses heuristics to attempt to decode certain non-
+   compliant encoded words.  Defects are registered in such cases, as
+   well as defects for issues such as invalid characters within the

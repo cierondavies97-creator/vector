@@ -1,0 +1,5 @@
+Three conversion flags are currently supported: "'!s'" which calls
+"str()" on the value, "'!r'" which calls "repr()" and "'!a'" which
+calls "ascii()".
+Some examples:
+   "Harold's a clever {0!s}"        # Calls str() on the argument first

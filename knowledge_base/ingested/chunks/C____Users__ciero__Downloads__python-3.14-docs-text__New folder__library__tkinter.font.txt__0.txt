@@ -1,0 +1,5 @@
+"tkinter.font" --- Tkinter font wrapper
+***************************************
+**Source code:** Lib/tkinter/font.py
+======================================================================
+The "tkinter.font" module provides the "Font" class for creating and

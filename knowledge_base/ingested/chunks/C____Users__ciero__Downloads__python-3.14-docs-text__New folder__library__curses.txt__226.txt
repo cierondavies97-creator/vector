@@ -1,0 +1,3 @@
+| curses.KEY_NPAGE          | Next page                                    |
++---------------------------+----------------------------------------------+
+| curses.KEY_PPAGE          | Previous page                                |

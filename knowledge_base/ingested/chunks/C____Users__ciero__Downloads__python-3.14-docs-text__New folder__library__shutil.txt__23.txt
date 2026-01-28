@@ -1,0 +1,3 @@
+"copystat()" can modify the permission bits of a symbolic link.
+     * If "os.utime in os.supports_follow_symlinks" is "True",
+       "copystat()" can modify the last access and modification times

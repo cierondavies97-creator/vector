@@ -1,0 +1,6 @@
+file paths and line numbers), this is one case where doctest works
+hard to be flexible in what it accepts.
+Simple example:
+   >>> [1, 2, 3].remove(42)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

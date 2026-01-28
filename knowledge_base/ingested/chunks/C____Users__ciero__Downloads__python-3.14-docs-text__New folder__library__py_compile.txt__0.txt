@@ -1,0 +1,5 @@
+"py_compile" --- Compile Python source files
+********************************************
+**Source code:** Lib/py_compile.py
+======================================================================
+The "py_compile" module provides a function to generate a byte-code

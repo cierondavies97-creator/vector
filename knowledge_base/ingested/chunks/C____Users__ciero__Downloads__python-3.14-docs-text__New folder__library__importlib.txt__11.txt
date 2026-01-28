@@ -1,0 +1,4 @@
+instead of this function.
+importlib.import_module(name, package=None)
+   Import a module. The *name* argument specifies what module to
+   import in absolute or relative terms (e.g. either "pkg.mod" or

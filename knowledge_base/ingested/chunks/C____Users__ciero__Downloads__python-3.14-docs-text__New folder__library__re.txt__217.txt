@@ -1,0 +1,4 @@
+argument, the result is a single string; if there are multiple
+   arguments, the result is a tuple with one item per argument.
+   Without arguments, *group1* defaults to zero (the whole match is
+   returned). If a *groupN* argument is zero, the corresponding return

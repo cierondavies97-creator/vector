@@ -1,0 +1,5 @@
+type, string-value)".
+-[ Footnotes ]-
+[1] Note that the sign of the timezone offset is the opposite of the
+    sign of the "time.timezone" variable for the same timezone; the
+    latter variable follows the POSIX standard while this module

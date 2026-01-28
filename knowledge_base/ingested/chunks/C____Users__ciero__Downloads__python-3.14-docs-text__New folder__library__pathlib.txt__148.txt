@@ -1,0 +1,6 @@
+reduce the number of system calls needed when switching on file
+   type. For example:
+      >>> p = Path('src')
+      >>> if p.info.is_symlink():
+      ...     print('symlink')
+      ... elif p.info.is_dir():

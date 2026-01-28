@@ -1,0 +1,4 @@
+returned.
+   Among the acceptable object types in the iterables are Python *file
+   objects* (e.g. "sys.stdin", or objects returned by "open()" or
+   "os.popen()"), socket objects returned by "socket.socket()".  You

@@ -1,0 +1,6 @@
+added.
+   Changed in version 3.6: The *name* parameter accepts a *path-like
+   object*.
+   Changed in version 3.12: The *compresslevel* keyword argument also
+   works for streams.
+   Changed in version 3.14: The *preset* keyword argument also works

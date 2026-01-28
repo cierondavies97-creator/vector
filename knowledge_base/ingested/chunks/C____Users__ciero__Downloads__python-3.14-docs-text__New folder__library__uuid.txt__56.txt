@@ -1,0 +1,6 @@
+This specification defines a Uniform Resource Name namespace for
+     UUIDs, the internal format of UUIDs, and methods of generating
+     UUIDs.
+Command-Line Usage
+==================
+Added in version 3.12.

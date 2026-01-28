@@ -1,0 +1,4 @@
+basic generator of your own devising: see the documentation on that
+class for more details.
+The "random" module also provides the "SystemRandom" class which uses
+the system function "os.urandom()" to generate random numbers from

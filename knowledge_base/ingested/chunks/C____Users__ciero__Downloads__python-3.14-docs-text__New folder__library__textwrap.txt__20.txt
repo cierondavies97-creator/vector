@@ -1,0 +1,4 @@
+Text is preferably wrapped on whitespaces and right after the hyphens
+in hyphenated words; only then will long words be broken if necessary,
+unless "TextWrapper.break_long_words" is set to false.
+class textwrap.TextWrapper(**kwargs)

@@ -1,0 +1,5 @@
+>>> from decimal import Decimal as D
+      >>> pvariance([D("27.5"), D("30.25"), D("30.25"), D("34.5"), D("41.75")])
+      Decimal('24.815')
+      >>> from fractions import Fraction as F
+      >>> pvariance([F(1, 4), F(5, 4), F(1, 2)])

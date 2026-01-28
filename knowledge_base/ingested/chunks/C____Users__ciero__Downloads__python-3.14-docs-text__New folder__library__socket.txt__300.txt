@@ -1,0 +1,5 @@
+IV, AEAD associated data length and flags for "AF_ALG" socket.
+   Availability: Linux >= 2.6.38.
+   Added in version 3.6.
+socket.sendfile(file, offset=0, count=None)
+   Send a file until EOF is reached by using high-performance

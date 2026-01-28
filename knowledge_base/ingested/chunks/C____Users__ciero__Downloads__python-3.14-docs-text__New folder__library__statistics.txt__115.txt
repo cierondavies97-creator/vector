@@ -1,0 +1,4 @@
+statistics.correlation(x, y, /, *, method='linear')
+   Return the Pearson's correlation coefficient for two inputs.
+   Pearson's correlation coefficient *r* takes values between -1 and
+   +1. It measures the strength and direction of a linear

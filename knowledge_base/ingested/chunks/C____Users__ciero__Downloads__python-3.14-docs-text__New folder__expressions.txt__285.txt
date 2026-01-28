@@ -1,0 +1,4 @@
+See **PEP 646**.
+A trailing comma is required only to create a one-item tuple, such as
+"1,"; it is optional in all other cases. A single expression without a
+trailing comma doesn't create a tuple, but rather yields the value of

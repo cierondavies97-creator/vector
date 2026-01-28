@@ -1,0 +1,5 @@
+of each symbol is the corresponding integer value. The names and
+descriptions are borrowed from "linux/include/errno.h", which should
+be all-inclusive.
+errno.errorcode
+   Dictionary providing a mapping from the errno value to the string

@@ -1,0 +1,4 @@
+In Python's C API, a borrowed reference is a reference to an
+   object, where the code using the object does not own the reference.
+   It becomes a dangling pointer if the object is destroyed. For
+   example, a garbage collection can remove the last *strong

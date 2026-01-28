@@ -1,0 +1,4 @@
+returning the logger created by get_logger, it adds a handler which
+   sends output to "sys.stderr" using format
+   "'[%(levelname)s/%(processName)s] %(message)s'". You can modify
+   "levelname" of the logger by passing a "level" argument.

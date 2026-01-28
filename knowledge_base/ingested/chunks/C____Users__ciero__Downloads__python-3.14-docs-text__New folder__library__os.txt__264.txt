@@ -1,0 +1,8 @@
+return "some default data"
+     is better written as:
+        try:
+            fp = open("myfile")
+        except PermissionError:
+            return "some default data"
+        else:
+            with fp:

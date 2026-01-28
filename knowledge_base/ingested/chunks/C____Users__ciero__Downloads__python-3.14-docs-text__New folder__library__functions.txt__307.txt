@@ -1,0 +1,3 @@
+A static method can be called either on the class (such as "C.f()")
+   or on an instance (such as "C().f()"). Moreover, the static method
+   *descriptor* is also callable, so it can be used in the class

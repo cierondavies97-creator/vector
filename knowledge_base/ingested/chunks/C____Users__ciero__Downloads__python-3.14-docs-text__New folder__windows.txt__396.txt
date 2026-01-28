@@ -1,0 +1,4 @@
+module or the external "virtualenv" tool) active, the launcher will
+run the virtual environment's interpreter rather than the global one.
+To run the global interpreter, either deactivate the virtual
+environment, or explicitly specify the global Python version.

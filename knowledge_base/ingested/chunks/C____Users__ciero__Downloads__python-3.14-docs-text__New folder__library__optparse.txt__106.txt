@@ -1,0 +1,4 @@
+generated help message, e.g. for the "mode" option:
+     -m MODE, --mode=MODE
+  Here, "MODE" is called the meta-variable: it stands for the argument
+  that the user is expected to supply to "-m"/"--mode".  By default,

@@ -1,0 +1,4 @@
+display as "3.3000000000000003" as it does with binary floating
+  point.
+* The exactness carries over into arithmetic.  In decimal floating
+  point, "0.1 + 0.1 + 0.1 - 0.3" is exactly equal to zero.  In binary

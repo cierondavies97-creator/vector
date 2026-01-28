@@ -1,0 +1,4 @@
+file and a directory.  This can lead to unexpected behavior when
+  attempting to read a URL that points to a file that is not
+  accessible.  If the URL ends in a "/", it is assumed to refer to a
+  directory and will be handled accordingly.  But if an attempt to

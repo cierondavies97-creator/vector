@@ -1,0 +1,4 @@
+the path is resolved as far as possible and any remainder is
+   appended without checking whether it exists.
+   Changed in version 3.6: The *strict* parameter was added (pre-3.6
+   behavior is strict).

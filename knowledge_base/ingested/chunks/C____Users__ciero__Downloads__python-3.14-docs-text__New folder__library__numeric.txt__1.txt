@@ -1,0 +1,4 @@
+hierarchy of numeric types. The "math" and "cmath" modules contain
+various mathematical functions for floating-point and complex numbers.
+The "decimal" module supports exact representations of decimal
+numbers, using arbitrary precision arithmetic.

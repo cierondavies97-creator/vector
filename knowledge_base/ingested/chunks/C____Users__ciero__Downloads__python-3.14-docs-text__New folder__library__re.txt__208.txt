@@ -1,0 +1,4 @@
+but also accepts optional *pos* and *endpos* parameters that limit
+   the search region like for "search()".
+Pattern.sub(repl, string, count=0)
+   Identical to the "sub()" function, using the compiled pattern.

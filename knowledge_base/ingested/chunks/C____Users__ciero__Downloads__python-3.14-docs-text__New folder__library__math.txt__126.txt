@@ -1,0 +1,5 @@
+"exp(x) - 1" can result in a significant loss of precision; the
+   "expm1()" function provides a way to compute this quantity to full
+   precision:
+   >>> from math import exp, expm1
+   >>> exp(1e-5) - 1  # gives result accurate to 11 places

@@ -1,0 +1,3 @@
+executed in the current scope.  If only *globals* is provided, it
+   must be a dictionary (and not a subclass of dictionary), which will
+   be used for both the global and the local variables.  If *globals*

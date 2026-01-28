@@ -1,0 +1,4 @@
+by catching "CancelledError", it needs to call this method to
+      remove the cancellation state.
+      When this method decrements the cancellation count to zero, the
+      method checks if a previous "cancel()" call had arranged for

@@ -1,0 +1,3 @@
+the last output value), it cannot fit in the heap, so the size of the
+heap decreases.  The freed memory could be cleverly reused immediately
+for progressively building a second heap, which grows at exactly the

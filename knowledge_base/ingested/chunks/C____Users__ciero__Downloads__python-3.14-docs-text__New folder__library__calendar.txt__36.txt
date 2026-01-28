@@ -1,0 +1,3 @@
+Return a year's calendar as a complete HTML page. *width*
+      (defaulting to 3) specifies the number of months per row. *css*
+      is the name for the cascading style sheet to be used. "None" can

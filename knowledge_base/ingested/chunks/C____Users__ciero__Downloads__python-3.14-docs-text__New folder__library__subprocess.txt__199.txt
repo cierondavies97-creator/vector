@@ -1,0 +1,4 @@
+arguments) rather than using the parent's standard input file
+   handle.
+   By default, this function will return the data as encoded bytes.
+   The actual encoding of the output data may depend on the command

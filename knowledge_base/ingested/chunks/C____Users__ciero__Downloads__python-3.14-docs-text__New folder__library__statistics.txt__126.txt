@@ -1,0 +1,5 @@
+variable).
+   Both inputs must be of the same length (no less than two), and the
+   independent variable *x* cannot be constant; otherwise a
+   "StatisticsError" is raised.
+   For example, we can use the release dates of the Monty Python films

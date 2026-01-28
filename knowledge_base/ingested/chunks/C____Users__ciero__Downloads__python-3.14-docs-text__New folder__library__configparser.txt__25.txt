@@ -1,0 +1,9 @@
+provide fallback values:
+   >>> topsecret.get('Port')
+   '50022'
+   >>> topsecret.get('CompressionLevel')
+   '9'
+   >>> topsecret.get('Cipher')
+   >>> topsecret.get('Cipher', '3des-cbc')
+   '3des-cbc'
+Please note that default values have precedence over fallback values.

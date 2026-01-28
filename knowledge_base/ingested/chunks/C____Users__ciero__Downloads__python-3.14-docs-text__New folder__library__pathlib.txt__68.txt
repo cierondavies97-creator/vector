@@ -1,0 +1,6 @@
+True
+      >>> PurePath('/a/b/c.py').full_match('**/*.py')
+      True
+   See also: Pattern language documentation.
+   As with other methods, case-sensitivity follows platform defaults:
+      >>> PurePosixPath('b.py').full_match('*.PY')

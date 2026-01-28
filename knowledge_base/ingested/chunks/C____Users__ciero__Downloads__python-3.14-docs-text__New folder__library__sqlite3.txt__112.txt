@@ -1,0 +1,4 @@
+* "value()": Return the current value of the aggregate.
+           * "inverse()": Remove a row from the current window.
+           * "finalize()": Return the final result of the aggregate as
+             a type natively supported by SQLite.

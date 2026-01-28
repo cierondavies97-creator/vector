@@ -1,0 +1,4 @@
+Whitespace is not allowed between the "+" or "-" and the directive
+option name.  The directive option name can be any of the option flag
+names explained above.
+An example's doctest directives modify doctest's behavior for that

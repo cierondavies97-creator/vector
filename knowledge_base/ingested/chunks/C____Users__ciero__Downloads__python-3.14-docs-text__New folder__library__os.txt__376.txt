@@ -1,0 +1,5 @@
+don't start with "'.'". The "entry.is_file()" call will generally
+   not make an additional system call:
+      with os.scandir(path) as it:
+          for entry in it:
+              if not entry.name.startswith('.') and entry.is_file():

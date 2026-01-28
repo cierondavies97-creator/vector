@@ -1,0 +1,5 @@
+otherwise.
+      Changed in version 3.2: The *timeout* parameter is new.
+   release(n=1)
+      Release a semaphore, incrementing the internal counter by *n*.
+      When it was zero on entry and other threads are waiting for it

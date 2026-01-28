@@ -1,0 +1,6 @@
+date.isocalendar()
+   Return a *named tuple* object with three components: "year", "week"
+   and "weekday".
+   The ISO calendar is a widely used variant of the Gregorian
+   calendar. [3]
+   The ISO year consists of 52 or 53 full weeks, and where a week

@@ -1,0 +1,4 @@
+introduced.
+Changed in version 3.7: Prior to Python 3.7, asynchronous generator
+expressions could only appear in "async def" coroutines.  Starting
+with 3.7, any function can use asynchronous generator expressions.

@@ -1,0 +1,6 @@
+namespace.
+   get_namespaces()
+      Return a list of namespaces bound to this name.
+   get_namespace()
+      Return the namespace bound to this name. If more than one or no
+      namespace is bound to this name, a "ValueError" is raised.

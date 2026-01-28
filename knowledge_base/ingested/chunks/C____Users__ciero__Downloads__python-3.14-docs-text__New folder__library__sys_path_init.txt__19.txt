@@ -1,0 +1,5 @@
+implementations follow the model set by "venv", but there may be
+  exotic implementations that diverge from it.
+_pth files
+==========
+To completely override "sys.path" create a "._pth" file with the same

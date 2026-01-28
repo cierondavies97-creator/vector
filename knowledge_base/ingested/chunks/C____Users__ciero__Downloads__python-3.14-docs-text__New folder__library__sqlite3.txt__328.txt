@@ -1,0 +1,5 @@
+aliases "expr AS alias".
+You can create a custom "row_factory" that returns each row as a
+"dict", with column names mapped to values:
+   def dict_factory(cursor, row):
+       fields = [column[0] for column in cursor.description]

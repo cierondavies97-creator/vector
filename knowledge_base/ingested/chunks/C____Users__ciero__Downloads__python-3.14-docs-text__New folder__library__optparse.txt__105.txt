@@ -1,0 +1,4 @@
+* every option defines a help string, and doesn't worry about line-
+  wrapping---"optparse" takes care of wrapping lines and making the
+  help output look good.
+* options that take a value indicate this fact in their automatically

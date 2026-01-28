@@ -1,0 +1,6 @@
+3. "not" has a lower priority than non-Boolean operators, so "not a ==
+   b" is interpreted as "not (a == b)", and "a == not b" is a syntax
+   error.
+Comparisons
+===========
+There are eight comparison operations in Python.  They all have the

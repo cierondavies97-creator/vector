@@ -1,0 +1,10 @@
+lazy2
+   btlazy2
+   btopt
+   btultra
+   btultra2
+Miscellaneous
+=============
+compression.zstd.get_frame_info(frame_buffer)
+   Retrieve a "FrameInfo" object containing metadata about a Zstandard
+   frame. Frames contain metadata related to the compressed data they

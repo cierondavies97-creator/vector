@@ -1,0 +1,4 @@
+For certain sensitive attribute assignments, raises an auditing
+   event "object.__setattr__" with arguments "obj", "name", "value".
+object.__delattr__(self, name)
+   Like "__setattr__()" but for attribute deletion instead of

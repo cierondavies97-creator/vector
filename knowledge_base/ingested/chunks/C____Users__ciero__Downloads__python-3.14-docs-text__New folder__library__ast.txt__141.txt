@@ -1,0 +1,5 @@
+Name(id='c', ctx=Load())]),
+              generators=[
+                  comprehension(
+                      target=Name(id='line', ctx=Store()),
+                      iter=Name(id='file', ctx=Load()),

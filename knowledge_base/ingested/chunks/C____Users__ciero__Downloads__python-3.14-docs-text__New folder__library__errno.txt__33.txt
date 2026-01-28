@@ -1,0 +1,10 @@
+errno.ELOCKUNMAPPED
+   Locked lock was unmapped
+errno.ENOTACTIVE
+   Facility is not active
+errno.EAUTH
+   Authentication error
+   Added in version 3.2.
+errno.EBADARCH
+   Bad CPU type in executable
+   Added in version 3.2.

@@ -1,0 +1,4 @@
+process. The "Process" class has equivalents of all the methods of
+   "threading.Thread".
+   The constructor should always be called with keyword arguments.
+   *group* should always be "None"; it exists solely for compatibility

@@ -1,0 +1,7 @@
+-l, --indentlevel=<num>
+   The number of blanks by which to indent a new MARK level.
+-m, --memo
+   When multiple objects are disassembled, preserve memo between
+   disassemblies.
+-p, --preamble=<preamble>
+   When more than one pickle file is specified, print given preamble

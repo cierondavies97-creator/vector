@@ -1,0 +1,3 @@
+because strings cannot represent non-ASCII bytes.) Convert any
+      bytes with the high bit set as needed using an ASCII-compatible
+      *Content-Transfer-Encoding*.  That is, transform parts with non-

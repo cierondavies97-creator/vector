@@ -1,0 +1,3 @@
+| curses.ACS_LANTERN       | lantern symbol                             |
++--------------------------+--------------------------------------------+
+| curses.ACS_LARROW        | left arrow                                 |

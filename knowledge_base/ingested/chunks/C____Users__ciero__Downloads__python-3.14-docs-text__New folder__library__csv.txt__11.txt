@@ -1,0 +1,4 @@
+in the current dialect.  For full details about the dialect and
+   formatting parameters, see section Dialects and Formatting
+   Parameters.
+   Each row read from the csv file is returned as a list of strings.

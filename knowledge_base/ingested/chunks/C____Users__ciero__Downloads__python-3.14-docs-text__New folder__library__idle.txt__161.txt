@@ -1,0 +1,3 @@
+On the Font tab, see the text sample for the effect of font face and
+size on multiple characters in multiple languages.  Edit the sample to
+add other characters of personal interest.  Use the sample to select

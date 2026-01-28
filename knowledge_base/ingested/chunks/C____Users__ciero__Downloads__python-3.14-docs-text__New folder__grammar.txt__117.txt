@@ -1,0 +1,5 @@
+type_params[asdl_type_param_seq*]:
+       | invalid_type_params
+       | '[' t=type_param_seq ']' {
+           CHECK_VERSION(asdl_type_param_seq *, 12, "Type parameter lists are", t) }
+   type_param_seq[asdl_type_param_seq*]: a[asdl_type_param_seq*]=','.type_param+ [','] { a }

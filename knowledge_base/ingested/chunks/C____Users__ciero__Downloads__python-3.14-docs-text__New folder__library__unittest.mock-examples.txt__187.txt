@@ -1,0 +1,5 @@
+the attributes of this object then we can create a matcher that will
+check these attributes for us.
+You can see in this example how a 'standard' call to
+"assert_called_with" isn't sufficient:
+>>> class Foo:

@@ -1,0 +1,6 @@
+# Did I mention we can indent comments, too?
+Unnamed Sections
+================
+The name of the first section (or unique) may be omitted and values
+retrieved by the "UNNAMED_SECTION" attribute.
+   >>> config = """

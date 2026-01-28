@@ -1,0 +1,5 @@
+Added in version 3.14.
+faulthandler.dump_c_stack(file=sys.stderr)
+   Dump the C stack trace of the current thread into *file*.
+   If the Python build does not support it or the operating system
+   does not provide a stack trace, then this prints an error in place

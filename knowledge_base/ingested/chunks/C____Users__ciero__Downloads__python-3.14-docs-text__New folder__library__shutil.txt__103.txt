@@ -1,0 +1,4 @@
+archive, all paths in the archive will be relative to it; for
+   example, we typically chdir into *root_dir* before creating the
+   archive.
+   *base_dir* is the directory where we start archiving from; i.e.

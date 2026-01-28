@@ -1,0 +1,6 @@
+"Process").
+   Only meaningful when using the "'forkserver'" start method. See
+   Contexts and start methods.
+   Added in version 3.4.
+multiprocessing.set_start_method(method, force=False)
+   Set the method which should be used to start child processes. The

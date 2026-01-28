@@ -1,0 +1,4 @@
+class concurrent.futures.Future
+   Encapsulates the asynchronous execution of a callable.  "Future"
+   instances are created by "Executor.submit()" and should not be
+   created directly except for testing.

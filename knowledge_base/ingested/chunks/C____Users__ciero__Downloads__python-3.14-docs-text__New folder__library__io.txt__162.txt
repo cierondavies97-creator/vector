@@ -1,0 +1,6 @@
+This method does an implicit stream flush before setting the new
+      parameters.
+      Added in version 3.7.
+      Changed in version 3.11: The method supports "encoding="locale""
+      option.
+   seek(cookie, whence=os.SEEK_SET, /)

@@ -1,0 +1,4 @@
+elapsed before the operation has completed.  If zero is given, the
+   socket is put in non-blocking mode. If "None" is given, the socket
+   is put in blocking mode.
+   For further information, please consult the notes on socket

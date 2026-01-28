@@ -1,0 +1,6 @@
+level; recursive calls should be passed a value less than that of
+   the current call.
+Example
+=======
+To demonstrate several uses of the "pp()" function and its parameters,
+let's fetch information about a project from PyPI:

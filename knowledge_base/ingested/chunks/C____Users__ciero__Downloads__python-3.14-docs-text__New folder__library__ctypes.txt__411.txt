@@ -1,0 +1,4 @@
+For historical reasons, if "_pack_" is non-zero, the MSVC-
+      compatible layout will be used by default. On non-Windows
+      platforms, this default is deprecated and is slated to become an
+      error in Python 3.19. If it is intended, set "_layout_" to

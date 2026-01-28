@@ -1,0 +1,4 @@
+* The *opener* parameter was added.
+   * The "'x'" mode was added.
+   * "IOError" used to be raised, it is now an alias of "OSError".
+   * "FileExistsError" is now raised if the file opened in exclusive

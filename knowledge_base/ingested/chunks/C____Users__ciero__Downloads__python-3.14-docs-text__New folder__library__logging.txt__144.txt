@@ -1,0 +1,5 @@
+just returns the empty string. You will need to override this
+      method if you want specific behaviour, e.g. to show the count of
+      records or a separator line.
+   format(records)
+      Return formatted text for a list of *records*. The base

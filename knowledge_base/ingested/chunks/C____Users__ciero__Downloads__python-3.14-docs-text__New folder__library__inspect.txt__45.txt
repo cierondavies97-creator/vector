@@ -1,0 +1,3 @@
++-------------------+---------------------+-----------------------------+
+| code              | co_argcount         | number of arguments (not    |
+|                   |                     | including keyword only      |

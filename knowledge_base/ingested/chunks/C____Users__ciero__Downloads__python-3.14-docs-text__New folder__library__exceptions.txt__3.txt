@@ -1,0 +1,3 @@
+This may be a string or a tuple of several items of information (e.g.,
+an error code and a string explaining the code).  The associated value
+is usually passed as arguments to the exception class's constructor.

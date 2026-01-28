@@ -1,0 +1,5 @@
+Changed in version 3.11: The performance of calling "NewType" has been
+restored to its level in Python 3.9.
+Annotating callable objects
+===========================
+Functions -- or other *callable* objects -- can be annotated using

@@ -1,0 +1,3 @@
+descriptor of their *file* argument. If the file is closed and its
+file descriptor is reused by a new file, or if "os.dup2()" is used to
+replace the file descriptor, the traceback will be written into a

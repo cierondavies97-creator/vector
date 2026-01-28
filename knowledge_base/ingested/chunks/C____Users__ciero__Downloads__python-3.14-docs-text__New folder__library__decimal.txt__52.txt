@@ -1,0 +1,4 @@
+class decimal.Decimal(value='0', context=None)
+   Construct a new "Decimal" object based from *value*.
+   *value* can be an integer, string, tuple, "float", or another
+   "Decimal" object. If no *value* is given, returns "Decimal('0')".

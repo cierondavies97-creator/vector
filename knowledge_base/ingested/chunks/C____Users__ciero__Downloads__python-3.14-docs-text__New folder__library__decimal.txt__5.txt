@@ -1,0 +1,3 @@
+floating point, the result is "5.5511151231257827e-017".  While near
+  to zero, the differences prevent reliable equality testing and
+  differences can accumulate. For this reason, decimal is preferred in

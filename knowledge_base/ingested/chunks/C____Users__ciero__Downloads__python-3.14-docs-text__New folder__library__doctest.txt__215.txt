@@ -1,0 +1,4 @@
+if *module* is "False", or is "None" but cannot be found
+      automatically, then all objects are considered to belong to the
+      (non-existent) module, so all contained objects will
+      (recursively) be searched for doctests.

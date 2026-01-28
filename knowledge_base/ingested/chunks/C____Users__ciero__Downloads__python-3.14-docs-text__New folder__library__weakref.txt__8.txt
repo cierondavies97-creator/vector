@@ -1,0 +1,4 @@
+been reclaimed by garbage collection.  "WeakSet" implements the "set"
+interface, but keeps weak references to its elements, just like a
+"WeakKeyDictionary" does.
+"finalize" provides a straight forward way to register a cleanup

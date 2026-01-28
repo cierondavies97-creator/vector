@@ -1,0 +1,4 @@
+If not "None", *daemon* explicitly sets whether the thread is
+   daemonic. If "None" (the default), the daemonic property is
+   inherited from the current thread.
+   *context* is the "Context" value to use when starting the thread.

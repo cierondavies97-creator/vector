@@ -1,0 +1,3 @@
+distribution, though with some care it may be possible to include and
+use pip for automatic updates. In general, third-party packages should
+be treated as part of the application ("vendoring") so that the

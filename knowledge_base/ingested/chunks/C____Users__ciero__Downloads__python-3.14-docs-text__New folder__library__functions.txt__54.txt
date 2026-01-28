@@ -1,0 +1,5 @@
+This function raises "SyntaxError" or "ValueError" if the compiled
+   source is invalid.
+   If you want to parse Python code into its AST representation, see
+   "ast.parse()".
+   Raises an auditing event "compile" with arguments "source" and

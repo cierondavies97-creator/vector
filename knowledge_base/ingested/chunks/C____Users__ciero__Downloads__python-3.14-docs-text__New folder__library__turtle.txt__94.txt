@@ -1,0 +1,8 @@
+the given other turtle, in turtle step units.
+      >>> turtle.home()
+      >>> turtle.distance(30,40)
+      50.0
+      >>> turtle.distance((30,40))
+      50.0
+      >>> joe = Turtle()
+      >>> joe.forward(77)

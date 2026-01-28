@@ -1,0 +1,8 @@
+>>> from ctypes import *
+   >>> class cell(Structure):
+   ...     pass
+   ...
+   >>> cell._fields_ = [("name", c_char_p),
+   ...                  ("next", POINTER(cell))]
+   >>>
+Let's try it. We create two instances of "cell", and let them point to

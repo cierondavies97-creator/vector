@@ -1,0 +1,5 @@
+Changed in version 3.6: *cwd* parameter accepts a *path-like
+   object* on POSIX.
+   Changed in version 3.7: *cwd* parameter accepts a *path-like
+   object* on Windows.
+   Changed in version 3.8: *cwd* parameter accepts a bytes object on

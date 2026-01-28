@@ -1,0 +1,5 @@
+HTMLParser.handle_data(data)
+   This method is called to process arbitrary data (e.g. text nodes
+   and the content of elements like "script" and "style").
+HTMLParser.handle_entityref(name)
+   This method is called to process a named character reference of the

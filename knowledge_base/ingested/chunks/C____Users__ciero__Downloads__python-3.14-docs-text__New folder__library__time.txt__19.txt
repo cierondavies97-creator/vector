@@ -1,0 +1,6 @@
+Functions
+=========
+time.asctime([t])
+   Convert a tuple or "struct_time" representing a time as returned by
+   "gmtime()" or "localtime()" to a string of the following form:
+   "'Sun Jun 20 23:21:05 1993'". The day field is two characters long

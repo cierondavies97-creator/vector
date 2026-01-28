@@ -1,0 +1,2 @@
+| frame.f_lasti                                      | The "precise instruction" of the frame object      |
+|                                                    | (this is an index into the *bytecode* string of    |

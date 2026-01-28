@@ -1,0 +1,4 @@
+argument disabling known insecure and blocked algorithms
+* "http.server" is not suitable for production use, only implementing
+  basic security checks. See the security considerations.
+* "logging": Logging configuration uses eval()

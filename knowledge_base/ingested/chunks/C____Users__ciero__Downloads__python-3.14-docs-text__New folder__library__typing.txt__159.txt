@@ -1,0 +1,4 @@
+# Use this lock to ensure that only one thread is executing a function
+      # at any time.
+      my_lock = Lock()
+      def with_lock[**P, R](f: Callable[Concatenate[Lock, P], R]) -> Callable[P, R]:

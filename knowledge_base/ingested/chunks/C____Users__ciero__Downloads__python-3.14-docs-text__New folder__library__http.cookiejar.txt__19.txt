@@ -1,0 +1,5 @@
+cookies.  It is not expected that users of "http.cookiejar"
+   construct their own "Cookie" instances.  Instead, if necessary,
+   call "make_cookies()" on a "CookieJar" instance.
+See also:
+  Module "urllib.request"

@@ -1,0 +1,5 @@
+binary formats, and hence should be avoided when working with
+arbitrary binary data. These restrictions are covered below.
+Note:
+  Using these ASCII based operations to manipulate binary data that is
+  not stored in an ASCII based format may lead to data corruption.

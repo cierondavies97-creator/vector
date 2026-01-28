@@ -1,0 +1,3 @@
+"lambda" is a minimal function definition that can be used inside
+   an expression. Unlike "FunctionDef", "body" holds a single node.
+      >>> print(ast.dump(ast.parse('lambda x,y: ...'), indent=4))

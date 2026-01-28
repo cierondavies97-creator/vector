@@ -1,0 +1,4 @@
+run should be aborted by setting the "shouldStop" attribute to
+      "True". "TestRunner" objects should respect this flag and return
+      without running any additional tests.
+      For example, this feature is used by the "TextTestRunner" class

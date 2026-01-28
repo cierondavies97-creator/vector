@@ -1,0 +1,6 @@
+files.
+* Check for files that would be shadowed on case-insensitive
+  filesystems.
+Also note that:
+* Tar files may contain multiple versions of the same file. Later ones
+  are expected to overwrite any earlier ones. This feature is crucial

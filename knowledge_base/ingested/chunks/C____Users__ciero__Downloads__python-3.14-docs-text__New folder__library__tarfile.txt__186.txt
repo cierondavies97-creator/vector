@@ -1,0 +1,6 @@
+Test whether the tarfile is valid or not.
+-v, --verbose
+   Verbose output.
+--filter <filtername>
+   Specifies the *filter* for "--extract". See Extraction filters for
+   details. Only string names are accepted (that is, "fully_trusted",

@@ -1,0 +1,5 @@
+Availability: Unix, not WASI, not Android, not iOS.
+os.WIFSTOPPED(status)
+   Return "True" if the process was stopped by delivery of a signal,
+   otherwise return "False".
+   "WIFSTOPPED()" only returns "True" if the "waitpid()" call was done

@@ -1,0 +1,6 @@
+meta tag, we will use the same for decoding the bytes object:
+   >>> with urllib.request.urlopen('http://www.python.org/') as f:
+   ...     print(f.read(100).decode('utf-8'))
+   ...
+   <!doctype html>
+   <!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->

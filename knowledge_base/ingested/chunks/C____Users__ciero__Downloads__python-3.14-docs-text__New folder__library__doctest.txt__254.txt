@@ -1,0 +1,6 @@
+(*got*).  *optionflags* is the set of option flags used to
+      compare *want* and *got*.
+Debugging
+=========
+Doctest provides several mechanisms for debugging doctest examples:
+* Several functions convert doctests to executable Python programs,

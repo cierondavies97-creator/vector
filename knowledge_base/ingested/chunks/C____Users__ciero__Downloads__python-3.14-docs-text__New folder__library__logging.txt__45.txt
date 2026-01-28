@@ -1,0 +1,5 @@
+include one named "foo.bar.baz".
+      Added in version 3.12.
+   debug(msg, *args, **kwargs)
+      Logs a message with level "DEBUG" on this logger. The *msg* is
+      the message format string, and the *args* are the arguments

@@ -1,0 +1,6 @@
+methods".)
+3.2.8.8. Classes
+~~~~~~~~~~~~~~~~
+Classes are callable.  These objects normally act as factories for new
+instances of themselves, but variations are possible for class types
+that override "__new__()".  The arguments of the call are passed to

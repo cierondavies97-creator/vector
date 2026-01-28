@@ -1,0 +1,4 @@
+"ExecutionLoader", providing concrete implementations of
+   "ResourceLoader.get_data()" and "ExecutionLoader.get_filename()".
+   The *fullname* argument is a fully resolved name of the module the
+   loader is to handle. The *path* argument is the path to the file

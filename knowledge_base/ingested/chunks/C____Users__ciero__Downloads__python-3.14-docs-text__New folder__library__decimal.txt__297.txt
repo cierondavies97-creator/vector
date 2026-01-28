@@ -1,0 +1,8 @@
+i, lasts, s, fact, num, sign = 1, 0, x, 1, x, 1
+       while s != lasts:
+           lasts = s
+           i += 2
+           fact *= i * (i-1)
+           num *= x * x
+           sign *= -1
+           s += num / fact * sign

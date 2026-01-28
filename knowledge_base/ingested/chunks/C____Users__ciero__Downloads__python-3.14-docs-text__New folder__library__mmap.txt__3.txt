@@ -1,0 +1,4 @@
+to different positions.
+A memory-mapped file is created by the "mmap" constructor, which is
+different on Unix and on Windows.  In either case you must provide a
+file descriptor for a file opened for update. If you wish to map an

@@ -1,0 +1,4 @@
+2. Call to *<old_target>.dnd_leave(source, event)*
+3. Call to *<new_target>.dnd_enter(source, event)*
+4. Call to *<target>.dnd_commit(source, event)* to notify of drop
+5. Call to *<source>.dnd_end(target, event)* to signal end of drag-

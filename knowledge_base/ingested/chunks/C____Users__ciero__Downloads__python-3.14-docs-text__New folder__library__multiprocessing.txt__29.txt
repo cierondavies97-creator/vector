@@ -1,0 +1,3 @@
+may be some "leaked" resources.  (Neither leaked semaphores nor shared
+memory segments will be automatically unlinked until the next reboot.
+This is problematic for both objects because the system allows only a

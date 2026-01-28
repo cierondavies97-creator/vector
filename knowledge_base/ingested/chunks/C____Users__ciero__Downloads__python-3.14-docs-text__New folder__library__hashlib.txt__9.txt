@@ -1,0 +1,4 @@
+hashlib-seealso section at the end of this document.
+Added in version 3.6: SHA3 (Keccak) and SHAKE constructors
+"sha3_224()", "sha3_256()", "sha3_384()", "sha3_512()", "shake_128()",
+"shake_256()" were added. "blake2b()" and "blake2s()" were added.

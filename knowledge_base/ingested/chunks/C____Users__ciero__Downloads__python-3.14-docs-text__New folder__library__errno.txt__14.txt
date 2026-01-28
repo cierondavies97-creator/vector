@@ -1,0 +1,12 @@
+errno.EL2NSYNC
+   Level 2 not synchronized
+errno.EL3HLT
+   Level 3 halted
+errno.EL3RST
+   Level 3 reset
+errno.ELNRNG
+   Link number out of range
+errno.EUNATCH
+   Protocol driver not attached
+errno.ENOCSI
+   No CSI structure available

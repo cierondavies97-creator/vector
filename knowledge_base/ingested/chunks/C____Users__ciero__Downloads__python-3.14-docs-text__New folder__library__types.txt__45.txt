@@ -1,0 +1,7 @@
+mapping.
+   key in proxy
+      Return "True" if the underlying mapping has a key *key*, else
+      "False".
+   proxy[key]
+      Return the item of the underlying mapping with key *key*.
+      Raises a "KeyError" if *key* is not in the underlying mapping.

@@ -1,0 +1,4 @@
+submodules of siblings packages.  For example, if the module
+"sound.filters.vocoder" needs to use the "echo" module in the
+"sound.effects" package, it can use "from sound.effects import echo".
+You can also write relative imports, with the "from module import

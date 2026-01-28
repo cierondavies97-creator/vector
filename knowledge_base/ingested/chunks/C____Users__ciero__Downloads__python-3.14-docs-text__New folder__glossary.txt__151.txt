@@ -1,0 +1,3 @@
+function "next()") return successive items in the stream.  When no
+   more data are available a "StopIteration" exception is raised
+   instead.  At this point, the iterator object is exhausted and any

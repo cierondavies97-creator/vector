@@ -1,0 +1,3 @@
+Return a string specifying the flags that are currently set. If
+      the message complies with the conventional format, the result is
+      the concatenation in the following order of zero or one

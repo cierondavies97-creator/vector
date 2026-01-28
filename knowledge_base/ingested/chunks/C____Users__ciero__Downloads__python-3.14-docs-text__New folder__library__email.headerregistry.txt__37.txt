@@ -1,0 +1,4 @@
+of the elements of the "groups" attribute with "', '".
+   A list of "Address" and "Group" objects in any combination may be
+   used to set the value of an address header.  "Group" objects whose
+   "display_name" is "None" will be interpreted as single addresses,

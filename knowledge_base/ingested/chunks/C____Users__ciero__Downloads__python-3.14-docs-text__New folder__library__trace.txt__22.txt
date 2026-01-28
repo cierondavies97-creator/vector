@@ -1,0 +1,4 @@
+Should not be created directly by the user.
+   update(other)
+      Merge in data from another "CoverageResults" object.
+   write_results(show_missing=True, summary=False, coverdir=None, *, ignore_missing_files=False)

@@ -1,0 +1,3 @@
+In the ideal case, the code will have a suitable test suite, and the
+test runner will take care of implicitly enabling all warnings when
+running tests (the test runner provided by the "unittest" module does

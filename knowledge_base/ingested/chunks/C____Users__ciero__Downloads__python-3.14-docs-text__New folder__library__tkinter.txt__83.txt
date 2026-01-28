@@ -1,0 +1,3 @@
+multiple threads can be created, but each thread has a separate Tcl
+interpreter instance associated with it. Threads can also create more
+than one interpreter instance, though each interpreter instance can be

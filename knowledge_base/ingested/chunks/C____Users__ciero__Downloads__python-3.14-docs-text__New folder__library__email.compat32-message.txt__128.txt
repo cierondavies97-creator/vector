@@ -1,0 +1,4 @@
+for the "Generator" to print a newline at the end of the file.
+   defects
+      The *defects* attribute contains a list of all the problems
+      found when parsing this message.  See "email.errors" for a

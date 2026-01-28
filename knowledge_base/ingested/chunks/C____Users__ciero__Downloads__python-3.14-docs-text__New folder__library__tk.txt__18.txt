@@ -1,0 +1,6 @@
+* How to...
+    * Get started as quickly as possible
+    * Automatically begin and end filling
+    * Use the "turtle" module namespace
+    * Use turtle graphics in a script
+    * Use object-oriented turtle graphics

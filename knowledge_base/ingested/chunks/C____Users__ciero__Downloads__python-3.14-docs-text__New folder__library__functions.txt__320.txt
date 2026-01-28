@@ -1,0 +1,4 @@
+-> object" and the value of *type* is "B", then "super()" searches
+   "C -> A -> object".
+   The "__mro__" attribute of the class corresponding to
+   *object_or_type* lists the method resolution search order used by

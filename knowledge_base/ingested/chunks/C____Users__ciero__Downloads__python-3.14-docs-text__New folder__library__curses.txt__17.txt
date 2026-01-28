@@ -1,0 +1,3 @@
+color pair. Only the first 256 color pairs are supported. This
+   attribute value can be combined with "A_STANDOUT", "A_REVERSE", and
+   the other "A_*" attributes.  "pair_number()" is the counterpart to

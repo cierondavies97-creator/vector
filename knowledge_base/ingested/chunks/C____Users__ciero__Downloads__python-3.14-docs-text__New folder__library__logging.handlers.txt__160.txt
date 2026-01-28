@@ -1,0 +1,5 @@
+buffered records to the target, if there is one. The buffer is
+      also cleared when buffered records are sent to the target.
+      Override if you want different behavior.
+   setTarget(target)
+      Sets the target handler for this handler.

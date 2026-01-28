@@ -1,0 +1,7 @@
+asyncio.run(main())
+   will print:
+      * Task(name='test', id=0x1039f0fe0)
+      + Call stack:
+      |   File 't2.py', line 4, in async test()
+      + Awaited by:
+         * Task(name='Task-1', id=0x103a5e060)

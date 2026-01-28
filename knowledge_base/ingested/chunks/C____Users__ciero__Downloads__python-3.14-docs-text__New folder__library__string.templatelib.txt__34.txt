@@ -1,0 +1,5 @@
+3
+   expression: str
+      For interpolations created by t-string literals, "expression" is
+      the expression text found inside the curly brackets ("{" & "}"),
+      including any whitespace, excluding the curly brackets

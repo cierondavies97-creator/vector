@@ -1,0 +1,4 @@
+The file is overwritten if it already exists, thus wiping all the
+   cookies it contains.  Saved cookies can be restored later using the
+   "load()" or "revert()" methods.
+FileCookieJar.load(filename=None, ignore_discard=False, ignore_expires=False)

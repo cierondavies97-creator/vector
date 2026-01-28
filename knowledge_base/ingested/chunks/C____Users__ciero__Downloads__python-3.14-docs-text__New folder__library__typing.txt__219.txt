@@ -1,0 +1,5 @@
+typing.TypeGuard
+   Special typing construct for marking user-defined type predicate
+   functions.
+   Type predicate functions are user-defined functions that return
+   whether their argument is an instance of a particular type.

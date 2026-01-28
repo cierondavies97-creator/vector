@@ -1,0 +1,4 @@
+xml.parsers.expat.model.XML_CTYPE_SEQ
+   Models which represent a series of models which follow one after
+   the other are indicated with this model type.  This is used for
+   models such as "(A, B, C)".

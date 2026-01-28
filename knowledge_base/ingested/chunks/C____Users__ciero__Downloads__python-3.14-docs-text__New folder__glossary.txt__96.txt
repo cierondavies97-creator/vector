@@ -1,0 +1,6 @@
+are defined in the "io" module.  The canonical way to create a file
+   object is by using the "open()" function.
+file-like object
+   A synonym for *file object*.
+filesystem encoding and error handler
+   Encoding and error handler used by Python to decode bytes from the

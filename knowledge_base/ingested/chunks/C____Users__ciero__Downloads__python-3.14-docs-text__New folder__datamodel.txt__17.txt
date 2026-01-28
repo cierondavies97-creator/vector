@@ -1,0 +1,3 @@
+types, operations that compute new values may actually return a
+reference to any existing object with the same type and value, while
+for mutable objects this is not allowed. For example, after "a = 1; b

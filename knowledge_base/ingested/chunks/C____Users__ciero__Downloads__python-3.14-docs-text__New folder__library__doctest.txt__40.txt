@@ -1,0 +1,4 @@
+note that the value can be mapped to a function, class object, or
+module; if so, "doctest" searches them recursively for docstrings,
+which are then scanned for tests.
+Any classes found are recursively searched similarly, to test

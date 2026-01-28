@@ -1,0 +1,6 @@
+cutoff)".
+   Added in version 3.2.
+   Changed in version 3.4: Added *algorithm*, *hash_bits*,
+   *seed_bits*, and *cutoff*.
+sys.hexversion
+   The version number encoded as a single integer.  This is guaranteed

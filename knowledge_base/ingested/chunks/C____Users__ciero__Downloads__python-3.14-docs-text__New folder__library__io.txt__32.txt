@@ -1,0 +1,5 @@
+classes.  First *abstract base classes* (ABCs), which are used to
+specify the various categories of streams, then concrete classes
+providing the standard stream implementations.
+Note:
+  The abstract base classes also provide default implementations of

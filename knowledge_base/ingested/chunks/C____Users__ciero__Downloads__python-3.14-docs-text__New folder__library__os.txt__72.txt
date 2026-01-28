@@ -1,0 +1,4 @@
+Assignments to items in "os.environ" are automatically translated
+   into corresponding calls to "putenv()"; however, calls to
+   "putenv()" don't update "os.environ", so it is actually preferable
+   to assign to items of "os.environ". This also applies to "getenv()"

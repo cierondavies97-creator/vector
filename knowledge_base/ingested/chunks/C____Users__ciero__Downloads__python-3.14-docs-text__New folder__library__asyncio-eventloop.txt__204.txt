@@ -1,0 +1,6 @@
+seconds that is considered "slow". When debug mode is enabled,
+   "slow" callbacks are logged.
+   Default value is 100 milliseconds.
+See also: The debug mode of asyncio.
+Running Subprocesses
+--------------------

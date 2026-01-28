@@ -1,0 +1,3 @@
+| Version | Available since | New features                                         |
+   |=========|=================|======================================================|
+   | 1       | Python 2.4      | Sharing interned strings                             |

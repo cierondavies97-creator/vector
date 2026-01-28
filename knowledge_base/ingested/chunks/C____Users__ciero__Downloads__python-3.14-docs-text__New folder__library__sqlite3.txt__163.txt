@@ -1,0 +1,4 @@
+between successive attempts to back up remaining pages.
+      Example 1, copy an existing database into another:
+         def progress(status, remaining, total):
+             print(f'Copied {total-remaining} of {total} pages...')

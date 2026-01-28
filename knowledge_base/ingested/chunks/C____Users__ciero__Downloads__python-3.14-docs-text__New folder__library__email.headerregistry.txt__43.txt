@@ -1,0 +1,6 @@
+major
+      The major version number as an integer
+   minor
+      The minor version number as an integer
+class email.headerregistry.ParameterizedMIMEHeader
+   MIME headers all start with the prefix 'Content-'.  Each specific

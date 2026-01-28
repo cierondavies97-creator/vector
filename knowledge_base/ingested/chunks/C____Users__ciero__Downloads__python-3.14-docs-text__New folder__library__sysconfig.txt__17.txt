@@ -1,0 +1,4 @@
+Files will be installed into subdirectories of "site.USER_BASE"
+(written as "*userbase*" hereafter).  This scheme installs pure Python
+modules and extension modules in the same location (also known as
+"site.USER_SITE").

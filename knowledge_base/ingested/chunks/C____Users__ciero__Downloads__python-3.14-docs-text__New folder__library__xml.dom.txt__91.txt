@@ -1,0 +1,4 @@
+attribute node with any particular element.  You must use
+   "setAttributeNode()" on the appropriate "Element" object to use the
+   newly created attribute instance.
+Document.getElementsByTagName(tagName)

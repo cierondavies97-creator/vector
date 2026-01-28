@@ -1,0 +1,7 @@
+Timestamps:
+   st_atime
+      Time of most recent access expressed in seconds.
+   st_mtime
+      Time of most recent content modification expressed in seconds.
+   st_ctime
+      Time of most recent metadata change expressed in seconds.

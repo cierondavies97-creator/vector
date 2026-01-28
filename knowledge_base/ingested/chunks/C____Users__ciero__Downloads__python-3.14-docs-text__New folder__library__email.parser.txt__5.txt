@@ -1,0 +1,4 @@
+"Parser" API and the incremental "FeedParser" API.  The "Parser" API
+is most useful if you have the entire text of the message in memory,
+or if the entire message lives in a file on the file system.
+"FeedParser" is more appropriate when you are reading the message from

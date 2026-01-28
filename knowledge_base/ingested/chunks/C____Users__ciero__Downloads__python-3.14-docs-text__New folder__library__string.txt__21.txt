@@ -1,0 +1,3 @@
+For compound field names, these functions are only called for
+      the first component of the field name; subsequent components are
+      handled through normal attribute and indexing operations.

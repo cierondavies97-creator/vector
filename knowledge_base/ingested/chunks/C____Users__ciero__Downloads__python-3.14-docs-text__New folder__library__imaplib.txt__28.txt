@@ -1,0 +1,4 @@
+either a "bytes", or a tuple. If a tuple, then the first part is the
+header of the response, and the second part contains the data (ie:
+'literal' value).
+The *message_set* options to commands below is a string specifying one

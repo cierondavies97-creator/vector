@@ -1,0 +1,3 @@
+using the familiar "sys.ps1" and "sys.ps2", and input buffering. If
+   *local_exit* is true, "exit()" and "quit()" in the console will not
+   raise "SystemExit", but instead return to the calling code.

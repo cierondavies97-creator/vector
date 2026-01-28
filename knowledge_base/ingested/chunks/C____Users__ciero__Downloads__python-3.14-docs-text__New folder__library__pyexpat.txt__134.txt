@@ -1,0 +1,4 @@
+prefixes "xml" and "xmlns" to another namespace prefix.
+xml.parsers.expat.errors.XML_ERROR_INVALID_ARGUMENT
+   This should not be reported to Python applications.
+xml.parsers.expat.errors.XML_ERROR_NO_BUFFER

@@ -1,0 +1,4 @@
+parameter must be a string or "None". Underscores in parameter
+      names are converted to dashes, since dashes are illegal in
+      Python identifiers, but many MIME parameter names include
+      dashes.  If the parameter value is a string, it is added to the

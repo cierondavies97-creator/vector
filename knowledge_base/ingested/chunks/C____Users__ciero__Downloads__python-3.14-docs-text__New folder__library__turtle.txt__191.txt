@@ -1,0 +1,5 @@
+Set the background color to *colorstring*, which is a Tk color
+      specification string, such as ""red"", ""yellow"", or
+      ""#33cc8c"".
+   "bgcolor((r, g, b))"
+      Set the background color to the RGB color represented by the

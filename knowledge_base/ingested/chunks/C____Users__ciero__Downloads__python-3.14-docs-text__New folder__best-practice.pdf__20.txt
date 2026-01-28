@@ -1,0 +1,6 @@
+▶ at least a single line
+▶ also for yourself
+▶ is on-line help too
+▶ Document arguments and return objects, including types
+▶ For complex algorithms, document every line,
+and include equations in docstring

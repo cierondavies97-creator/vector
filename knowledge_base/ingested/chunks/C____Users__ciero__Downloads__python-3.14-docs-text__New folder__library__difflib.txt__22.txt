@@ -1,0 +1,4 @@
+empty string).
+      *context* and *numlines* are both optional keyword arguments.
+      Set *context* to "True" when contextual differences are to be
+      shown, else the default is "False" to show the full files.

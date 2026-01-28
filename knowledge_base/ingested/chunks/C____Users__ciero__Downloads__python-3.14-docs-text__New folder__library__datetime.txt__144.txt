@@ -1,0 +1,4 @@
+datetime.fromtimestamp(timestamp, timezone.utc)
+   On the POSIX compliant platforms, it is equivalent to the following
+   expression:
+      datetime(1970, 1, 1, tzinfo=timezone.utc) + timedelta(seconds=timestamp)

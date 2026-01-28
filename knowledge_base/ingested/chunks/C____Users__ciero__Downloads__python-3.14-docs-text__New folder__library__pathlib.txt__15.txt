@@ -1,0 +1,5 @@
+PurePosixPath('foo/some/path/bar')
+      >>> PurePath(Path('foo'), Path('bar'))
+      PurePosixPath('foo/bar')
+   When *pathsegments* is empty, the current directory is assumed:
+      >>> PurePath()

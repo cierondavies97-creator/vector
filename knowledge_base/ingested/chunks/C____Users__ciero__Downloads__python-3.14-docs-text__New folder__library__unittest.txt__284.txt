@@ -1,0 +1,4 @@
+"TestSuite._removeTestAtIndex()".
+   In the typical usage of a "TestSuite" object, the "run()" method is
+   invoked by a "TestRunner" rather than by the end-user test harness.
+Loading and running tests

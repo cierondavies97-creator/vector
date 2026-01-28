@@ -1,0 +1,8 @@
+i = bisect_right(a, x)
+       if i:
+           return a[i-1]
+       raise ValueError
+   def find_gt(a, x):
+       'Find leftmost value greater than x'
+       i = bisect_right(a, x)
+       if i != len(a):

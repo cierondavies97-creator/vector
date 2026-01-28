@@ -1,0 +1,4 @@
+more sophisticated interface.
+class cmd.Cmd(completekey='tab', stdin=None, stdout=None)
+   A "Cmd" instance or subclass instance is a line-oriented
+   interpreter framework.  There is no good reason to instantiate

@@ -1,0 +1,5 @@
+their own man page (e.g., grid).
+You'll find many common options and methods in the options or
+ttk::widget man pages, while others are found in the man page for a
+specific widget class.
+You'll also find that many Tkinter methods have compound names, e.g.,

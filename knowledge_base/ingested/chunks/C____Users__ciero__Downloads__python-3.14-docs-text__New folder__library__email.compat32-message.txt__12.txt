@@ -1,0 +1,4 @@
+the "policy" documentation.
+   Changed in version 3.3: The *policy* keyword argument was added.
+   as_string(unixfrom=False, maxheaderlen=0, policy=None)
+      Return the entire message flattened as a string.  When optional

@@ -1,0 +1,4 @@
+bdaddr_type]])" where:
+    * "bdaddr" is a string specifying the Bluetooth address.
+    * "psm" is an integer specifying the Protocol/Service Multiplexer.
+    * "cid" is an optional integer specifying the Channel Identifier.

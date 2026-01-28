@@ -1,0 +1,3 @@
+'cbs'" in favor of the more readable "set('abc').intersection('cbs')".
+Both "set" and "frozenset" support set to set comparisons. Two sets
+are equal if and only if every element of each set is contained in the

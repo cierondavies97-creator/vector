@@ -1,0 +1,5 @@
+Example use with output streams:
+      with captured_stdout() as stdout, captured_stderr() as stderr:
+          print("hello")
+          print("error", file=sys.stderr)
+      assert stdout.getvalue() == "hello\n"

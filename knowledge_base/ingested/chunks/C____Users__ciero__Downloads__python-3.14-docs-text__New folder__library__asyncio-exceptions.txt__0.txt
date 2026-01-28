@@ -1,0 +1,6 @@
+Exceptions
+**********
+**Source code:** Lib/asyncio/exceptions.py
+======================================================================
+exception asyncio.TimeoutError
+   A deprecated alias of "TimeoutError", raised when the operation has

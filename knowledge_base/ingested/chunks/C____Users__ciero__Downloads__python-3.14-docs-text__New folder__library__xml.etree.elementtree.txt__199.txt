@@ -1,0 +1,5 @@
+and/or *insert_pis* is true, comments/pis will be inserted into the
+   tree if they appear within the root element (but not outside of
+   it).
+   close()
+      Flushes the builder buffers, and returns the toplevel document

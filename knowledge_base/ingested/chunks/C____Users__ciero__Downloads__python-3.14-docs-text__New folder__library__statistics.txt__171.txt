@@ -1,0 +1,6 @@
+Next, we encounter a new person whose feature measurements are known
+but whose gender is unknown:
+   >>> ht = 6.0        # height
+   >>> wt = 130        # weight
+   >>> fs = 8          # foot size
+Starting with a 50% prior probability of being male or female, we

@@ -1,0 +1,3 @@
+human translators who write translations for every supported natural
+language.  They send back the completed language-specific versions as
+a "<language-name>.po" file that's compiled into a machine-readable

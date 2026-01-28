@@ -1,0 +1,5 @@
+through the loop, defaulting to one million.  The main
+      statement, the setup statement and the timer function to be used
+      are passed to the constructor.
+      Note:
+        By default, "timeit()" temporarily turns off *garbage

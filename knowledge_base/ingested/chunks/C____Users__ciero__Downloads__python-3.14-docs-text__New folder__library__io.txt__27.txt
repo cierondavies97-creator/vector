@@ -1,0 +1,4 @@
+This function returns *encoding* if it is not "None". Otherwise, it
+   returns ""locale"" or ""utf-8"" depending on UTF-8 Mode.
+   This function emits an "EncodingWarning" if
+   "sys.flags.warn_default_encoding" is true and *encoding* is "None".

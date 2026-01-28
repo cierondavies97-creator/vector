@@ -1,0 +1,5 @@
+is stored with the certificate, it should come before the first
+certificate in the certificate chain:
+   -----BEGIN RSA PRIVATE KEY-----
+   ... (private key in base64 encoding) ...
+   -----END RSA PRIVATE KEY-----

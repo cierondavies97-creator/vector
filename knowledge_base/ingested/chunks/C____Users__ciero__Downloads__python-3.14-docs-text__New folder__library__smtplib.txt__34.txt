@@ -1,0 +1,4 @@
+explicitly. It is used to implement other methods and may be useful
+   for testing private extensions.
+   If the connection to the server is lost while waiting for the
+   reply, "SMTPServerDisconnected" will be raised.

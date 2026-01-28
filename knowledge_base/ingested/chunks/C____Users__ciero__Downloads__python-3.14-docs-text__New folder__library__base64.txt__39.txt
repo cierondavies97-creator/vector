@@ -1,0 +1,6 @@
+information.
+   Added in version 3.13.
+base64.z85decode(s)
+   Decode the Z85-encoded *bytes-like object* or ASCII string *s* and
+   return the decoded "bytes".  See Z85  specification for more
+   information.

@@ -1,0 +1,4 @@
+Similar to the corresponding functions without the "p" in the
+   prefix (that is, "gettext()", "dgettext()", "ngettext()",
+   "dngettext()"), but the translation is restricted to the given
+   message *context*.

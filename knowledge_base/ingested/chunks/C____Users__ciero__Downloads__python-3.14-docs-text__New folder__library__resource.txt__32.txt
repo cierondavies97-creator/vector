@@ -1,0 +1,6 @@
+Resource Usage
+==============
+These functions are used to retrieve resource usage information:
+resource.getrusage(who)
+   This function returns an object that describes the resources
+   consumed by either the current process or its children, as

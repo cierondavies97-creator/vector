@@ -1,0 +1,4 @@
+------------------------------
+Both bytes and bytearray objects support the common sequence
+operations. They interoperate not just with operands of the same type,
+but with any *bytes-like object*. Due to this flexibility, they can be

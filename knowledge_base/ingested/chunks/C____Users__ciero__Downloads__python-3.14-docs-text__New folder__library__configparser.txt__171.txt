@@ -1,0 +1,4 @@
+section.  If the used dictionary type preserves order, sections
+      and their keys will be added in order. Values are automatically
+      converted to strings.
+      Optional argument *source* specifies a context-specific name of

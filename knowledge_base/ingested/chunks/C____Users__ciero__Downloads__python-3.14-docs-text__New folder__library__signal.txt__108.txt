@@ -1,0 +1,4 @@
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+   interrupt_read, interrupt_write = socket.socketpair()
+   def handler(signum, frame):
+       print('Signal handler called with signal', signum)

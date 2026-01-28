@@ -1,0 +1,3 @@
+| "KQ_EV_FLAG1"               | internal event                                |
+   +-----------------------------+-----------------------------------------------+
+   | "KQ_EV_EOF"                 | Filter specific EOF condition                 |

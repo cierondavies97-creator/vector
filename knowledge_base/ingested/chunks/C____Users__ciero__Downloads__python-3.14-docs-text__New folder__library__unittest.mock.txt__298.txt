@@ -1,0 +1,4 @@
+"__floordiv__", "__mod__", "__divmod__", "__lshift__", "__rshift__",
+  "__and__", "__xor__", "__or__", and "__pow__"
+* Numeric conversion methods: "__complex__", "__int__", "__float__"
+  and "__index__"

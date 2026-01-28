@@ -1,0 +1,7 @@
+PureWindowsPath('c:/foo')
+      >>> p.parents[2]
+      PureWindowsPath('c:/')
+   Changed in version 3.10: The parents sequence now supports *slices*
+   and negative index values.
+PurePath.parent
+   The logical parent of the path:

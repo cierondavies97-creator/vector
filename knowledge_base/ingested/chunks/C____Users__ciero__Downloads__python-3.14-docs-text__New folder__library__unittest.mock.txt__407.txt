@@ -1,0 +1,5 @@
+>>> order_mock.get_value.return_value = "second"
+>>> order_mock.get_value()
+'first'
+As "None" is the default value of "side_effect", if you reassign its
+value back to "None", the order of precedence will be checked between

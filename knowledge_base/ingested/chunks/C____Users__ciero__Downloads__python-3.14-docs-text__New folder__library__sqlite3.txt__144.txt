@@ -1,0 +1,3 @@
+have SQLite libraries which are compiled without this feature.
+        To get loadable extension support, you must pass the "--
+        enable-loadable-sqlite-extensions" option to **configure**.

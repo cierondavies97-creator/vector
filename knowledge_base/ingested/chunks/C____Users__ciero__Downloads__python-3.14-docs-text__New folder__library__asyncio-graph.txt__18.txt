@@ -1,0 +1,4 @@
+A call to "future_add_to_awaited_by()" must be followed by an
+   eventual call to the "future_discard_from_awaited_by()" function
+   with the same arguments.
+asyncio.future_discard_from_awaited_by(future, waiter, /)

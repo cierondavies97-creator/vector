@@ -1,0 +1,4 @@
+*option* for the specified *tagname*. Otherwise, sets the
+      options to the corresponding values for the given *tagname*.
+   tag_has(tagname, item=None)
+      If *item* is specified, returns 1 or 0 depending on whether the

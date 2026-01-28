@@ -1,0 +1,3 @@
++-------------------------------------------------+---------------------------------------+
+| "x[index]", "x[index:index]",                   | Subscription, slicing, call,          |
+| "x(arguments...)", "x.attribute"                | attribute reference                   |

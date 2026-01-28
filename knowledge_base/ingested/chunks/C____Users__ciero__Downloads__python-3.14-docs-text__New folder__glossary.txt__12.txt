@@ -1,0 +1,4 @@
+Arguments are assigned to the named local variables in a function
+   body. See the Calls section for the rules governing this
+   assignment. Syntactically, any expression can be used to represent
+   an argument; the evaluated value is assigned to the local variable.

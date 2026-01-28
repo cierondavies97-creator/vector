@@ -1,0 +1,5 @@
+isn't implemented.
+   "GzipFile" also provides the following method and attribute:
+   peek(n)
+      Read *n* uncompressed bytes without advancing the file position.
+      The number of bytes returned may be more or less than requested.

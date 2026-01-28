@@ -1,0 +1,5 @@
+"terminate()" will be called immediately.
+   join()
+      Wait for the worker processes to exit.  One must call "close()"
+      or "terminate()" before using "join()".
+   Changed in version 3.3: Pool objects now support the context

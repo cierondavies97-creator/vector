@@ -1,0 +1,3 @@
+No problem, provided that the traceback is the only output produced by
+the example:  just paste in the traceback. [1] Since tracebacks
+contain details that are likely to change rapidly (for example, exact

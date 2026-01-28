@@ -1,0 +1,5 @@
+cmdlets are recommended:
+   $> Add-AppxPackage C:\Downloads\python-manager-25.0.msix
+   ...
+   $> Get-AppxPackage PythonSoftwareFoundation.PythonManager | Remove-AppxPackage
+The latest release can be downloaded and installed by Windows by

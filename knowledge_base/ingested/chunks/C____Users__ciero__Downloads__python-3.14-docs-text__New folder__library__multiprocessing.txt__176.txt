@@ -1,0 +1,5 @@
+and "'forkserver'".  Not all platforms support all methods.  See
+   Contexts and start methods.
+   Added in version 3.4.
+multiprocessing.get_context(method=None)
+   Return a context object which has the same attributes as the

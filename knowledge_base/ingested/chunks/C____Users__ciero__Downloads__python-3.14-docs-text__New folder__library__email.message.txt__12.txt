@@ -1,0 +1,4 @@
+it uses the Python standard "\n" line endings).  For more
+   information see the "policy" documentation. [2]
+   as_string(unixfrom=False, maxheaderlen=None, policy=None)
+      Return the entire message flattened as a string.  When optional

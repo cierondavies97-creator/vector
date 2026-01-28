@@ -1,0 +1,4 @@
+This method is used by "subgroup()" and "split()", which are
+      used in various contexts to break up an exception group. A
+      subclass needs to override it in order to make "subgroup()" and
+      "split()" return instances of the subclass rather than

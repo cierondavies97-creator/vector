@@ -1,0 +1,4 @@
+the basis of all other formats) is that there is no concept of
+supporting different character encodings. For example, an ordinary tar
+archive created on a *UTF-8* system cannot be read correctly on a
+*Latin-1* system if it contains non-*ASCII* characters. Textual

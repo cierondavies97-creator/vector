@@ -1,0 +1,5 @@
+use with the event loop.
+   See the constructor of the "subprocess.Popen" class for
+   documentation on other arguments.
+   Returns a pair of "(transport, protocol)", where *transport*
+   conforms to the "asyncio.SubprocessTransport" base class and

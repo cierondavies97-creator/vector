@@ -1,0 +1,8 @@
+subkeys of a registry key.
+winreg.KEY_CREATE_LINK
+   Reserved for system use.
+64-bit Specific
+~~~~~~~~~~~~~~~
+For more information, see Accessing an Alternate Registry View.
+winreg.KEY_WOW64_64KEY
+   Indicates that an application on 64-bit Windows should operate on

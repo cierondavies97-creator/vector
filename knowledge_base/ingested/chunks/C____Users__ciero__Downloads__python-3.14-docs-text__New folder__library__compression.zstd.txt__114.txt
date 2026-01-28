@@ -1,0 +1,4 @@
+small values can often decrease the compression ratio.
+      A value of zero causes the value to be selected automatically.
+   ldm_bucket_size_log
+      Log size of each bucket in the long distance matcher hash table

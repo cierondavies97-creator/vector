@@ -1,0 +1,4 @@
+example, the following are equivalent:
+         files.joinpath('subdir', 'subsuddir', 'file.txt')
+         files.joinpath('subdir/subsuddir/file.txt')
+      Note that some "Traversable" implementations might not be

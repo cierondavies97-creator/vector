@@ -1,0 +1,6 @@
+a modified form:
+     >>> help(bgcolor)
+     Help on function bgcolor in module turtle:
+     bgcolor(*args)
+         Set or return backgroundcolor of the TurtleScreen.
+         Arguments (if given): a color string or three numbers

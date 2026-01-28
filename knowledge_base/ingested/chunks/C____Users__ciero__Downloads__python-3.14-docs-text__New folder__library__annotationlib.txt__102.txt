@@ -1,0 +1,8 @@
+specifiers like "!r" are used)
+* "ast.JoinedStr" (f-strings)
+The following are unsupported and result in incorrect output:
+* "ast.BoolOp" ("and" and "or")
+* "ast.IfExp"
+* "ast.Lambda"
+* "ast.ListComp"
+* "ast.SetComp"

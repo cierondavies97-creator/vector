@@ -1,0 +1,4 @@
+* "urllib.response" --- Response classes used by urllib
+  * "urllib.parse" --- Parse URLs into components
+  * "urllib.error" --- Exception classes raised by urllib.request
+  * "urllib.robotparser" ---  Parser for robots.txt

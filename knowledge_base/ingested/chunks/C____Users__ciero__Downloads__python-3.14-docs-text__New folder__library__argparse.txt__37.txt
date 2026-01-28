@@ -1,0 +1,3 @@
+with all the shared arguments and passed to "parents=" argument to
+"ArgumentParser" can be used.  The "parents=" argument takes a list of
+"ArgumentParser" objects, collects all the positional and optional

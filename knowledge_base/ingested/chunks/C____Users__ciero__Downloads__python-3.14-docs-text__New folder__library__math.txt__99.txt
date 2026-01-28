@@ -1,0 +1,3 @@
+Return the IEEE 754-style remainder of *x* with respect to *y*.
+   For finite *x* and finite nonzero *y*, this is the difference "x -
+   n*y", where "n" is the closest integer to the exact value of the

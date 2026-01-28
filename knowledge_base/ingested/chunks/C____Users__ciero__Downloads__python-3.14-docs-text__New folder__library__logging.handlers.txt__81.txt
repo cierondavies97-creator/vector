@@ -1,0 +1,5 @@
+the socket. The details of this operation are equivalent to:
+         data = pickle.dumps(record_attr_dict, 1)
+         datalen = struct.pack('>L', len(data))
+         return datalen + data
+      Note that pickles aren't completely secure. If you are concerned

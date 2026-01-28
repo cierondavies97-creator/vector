@@ -1,0 +1,7 @@
+using named fonts.
+The different font weights and slants are:
+tkinter.font.NORMAL
+tkinter.font.BOLD
+tkinter.font.ITALIC
+tkinter.font.ROMAN
+class tkinter.font.Font(root=None, font=None, name=None, exists=False, **options)

@@ -1,0 +1,4 @@
+have different lengths; sometimes by design, and sometimes because
+   of a bug in the code that prepared these iterables.  Python offers
+   three different approaches to dealing with this issue:
+   * By default, "zip()" stops when the shortest iterable is

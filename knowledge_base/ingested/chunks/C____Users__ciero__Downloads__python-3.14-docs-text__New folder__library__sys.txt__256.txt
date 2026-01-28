@@ -1,0 +1,4 @@
+* "python -c code" and "python" (REPL) command lines: prepend an
+     empty string, which means the current working directory.
+   To not prepend this potentially unsafe path, use the "-P" command
+   line option or the "PYTHONSAFEPATH" environment variable.

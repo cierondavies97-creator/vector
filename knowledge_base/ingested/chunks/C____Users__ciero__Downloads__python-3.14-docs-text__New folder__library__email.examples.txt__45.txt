@@ -1,0 +1,8 @@
+with smtplib.SMTP('localhost') as s:
+       s.send_message(msg)
+If we were sent the message from the last example, here is one way we
+could process it:
+   import os
+   import sys
+   import tempfile
+   import mimetypes

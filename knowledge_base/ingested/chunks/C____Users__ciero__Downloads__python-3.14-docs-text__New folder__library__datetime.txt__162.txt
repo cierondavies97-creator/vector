@@ -1,0 +1,5 @@
+Added in version 3.8.
+classmethod datetime.strptime(date_string, format)
+   Return a "datetime" corresponding to *date_string*, parsed
+   according to *format*.
+   If *format* does not contain microseconds or time zone information,

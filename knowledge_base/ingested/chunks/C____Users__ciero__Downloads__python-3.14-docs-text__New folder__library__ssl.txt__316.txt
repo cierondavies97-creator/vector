@@ -1,0 +1,5 @@
+context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+      context.maximum_version = ssl.TLSVersion.TLSv1_2
+      context.set_ciphers('PSK')
+      # A simple lambda:
+      psk = bytes.fromhex('c0ffee')

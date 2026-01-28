@@ -1,0 +1,7 @@
+"None".
+   get(key, default=None)
+      Gets the element attribute named *key*.
+      Returns the attribute value, or *default* if the attribute was
+      not found.
+   items()
+      Returns the element attributes as a sequence of (name, value)

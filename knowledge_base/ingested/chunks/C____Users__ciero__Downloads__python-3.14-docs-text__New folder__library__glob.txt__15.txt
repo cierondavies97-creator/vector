@@ -1,0 +1,5 @@
+"recursive", "root_dir", "dir_fd".
+   Note:
+     This function may return duplicate path names if *pathname*
+     contains multiple ""**"" patterns and *recursive* is true.
+   Changed in version 3.5: Support for recursive globs using ""**"".

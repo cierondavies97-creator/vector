@@ -1,0 +1,4 @@
+distance between two sample values, "100" and "112", the cut-point
+   will evaluate to "104".
+   The *method* for computing quantiles can be varied depending on
+   whether the *data* includes or excludes the lowest and highest

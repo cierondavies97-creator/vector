@@ -1,0 +1,4 @@
+use directly, by passing option flags to "doctest" functions.
+However, if you're writing a "unittest" framework, "unittest"
+ultimately controls when and how tests get run.  The framework author
+typically wants to control "doctest" reporting options (perhaps, e.g.,

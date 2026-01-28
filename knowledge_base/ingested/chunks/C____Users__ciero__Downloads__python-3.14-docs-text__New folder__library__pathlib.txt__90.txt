@@ -1,0 +1,5 @@
+PureWindowsPath('README.txt')
+      >>> p = PureWindowsPath('README.txt')
+      >>> p.with_suffix('')
+      PureWindowsPath('README')
+   Changed in version 3.14: A single dot (""."") is considered a valid

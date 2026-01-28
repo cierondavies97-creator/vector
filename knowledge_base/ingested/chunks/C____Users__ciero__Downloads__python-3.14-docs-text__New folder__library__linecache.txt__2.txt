@@ -1,0 +1,4 @@
+in  the formatted traceback.
+The "tokenize.open()" function is used to open files. This function
+uses "tokenize.detect_encoding()" to get the encoding of the file; in
+the absence of an encoding token, the file encoding defaults to UTF-8.

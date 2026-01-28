@@ -1,0 +1,4 @@
+Note:
+  The constructor, "formatweekday()" and "formatmonthname()" methods
+  of these two classes temporarily change the "LC_TIME" locale to the
+  given *locale*. Because the current locale is a process-wide

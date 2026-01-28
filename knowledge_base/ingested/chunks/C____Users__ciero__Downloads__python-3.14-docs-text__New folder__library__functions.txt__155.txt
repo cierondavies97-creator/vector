@@ -1,0 +1,7 @@
+class int(string, /, base=10)
+   Return an integer object constructed from a number or a string, or
+   return "0" if no arguments are given.
+   Examples:
+      >>> int(123.45)
+      123
+      >>> int('123')

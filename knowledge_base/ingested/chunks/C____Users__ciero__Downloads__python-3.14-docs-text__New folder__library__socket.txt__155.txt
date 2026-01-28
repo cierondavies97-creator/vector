@@ -1,0 +1,5 @@
+(socket.AF_INET, socket.SOCK_STREAM,
+       6, '', ('93.184.216.34', 80))]
+   Changed in version 3.2: parameters can now be passed using keyword
+   arguments.
+   Changed in version 3.7: for IPv6 multicast addresses, string

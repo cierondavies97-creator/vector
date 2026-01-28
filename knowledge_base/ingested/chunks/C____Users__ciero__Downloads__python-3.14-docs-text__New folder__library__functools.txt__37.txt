@@ -1,0 +1,4 @@
+they age out of the cache or until the cache is cleared.
+   If a method is cached, the "self" instance argument is included in
+   the cache.  See How do I cache method calls?
+   An LRU (least recently used) cache works best when the most recent

@@ -1,0 +1,5 @@
+passed to every option.
+  If no "help" string is supplied for an option, it will still be
+  listed in the help message.  To omit an option entirely, use the
+  special value "optparse.SUPPRESS_HELP".
+  "optparse" automatically adds a "help" option to all OptionParsers,

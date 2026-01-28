@@ -1,0 +1,4 @@
+------------------------------------
+An *t-string* (formally a *template string literal*) is a string
+literal that is prefixed with "t" or "T".
+These strings follow the same syntax and evaluation rules as formatted

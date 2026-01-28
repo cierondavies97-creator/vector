@@ -1,0 +1,5 @@
+in the "multiprocessing.Process._bootstrap()" method --- this
+   resulted in issues with processes-in-processes. This has been
+   changed to:
+      sys.stdin.close()
+      sys.stdin = open(os.open(os.devnull, os.O_RDONLY), closefd=False)

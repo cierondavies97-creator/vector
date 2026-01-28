@@ -1,0 +1,4 @@
+expire. If not specified will automatically be set to "True" on
+     Unix.
+   * *reuse_port* tells the kernel to allow this endpoint to be bound
+     to the same port as other existing endpoints are bound to, so

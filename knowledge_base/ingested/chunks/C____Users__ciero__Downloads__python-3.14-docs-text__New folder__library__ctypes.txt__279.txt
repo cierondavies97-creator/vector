@@ -1,0 +1,3 @@
+The returned function prototype creates functions that use the
+   standard C calling convention.  The function will release the GIL
+   during the call.  If *use_errno* is set to true, the ctypes private

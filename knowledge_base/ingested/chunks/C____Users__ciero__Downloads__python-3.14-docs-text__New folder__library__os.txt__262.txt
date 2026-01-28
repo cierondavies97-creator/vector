@@ -1,0 +1,5 @@
+raise a "NotImplementedError".
+   Note:
+     Using "access()" to check if a user is authorized to e.g. open a
+     file before actually doing so using "open()" creates a security
+     hole, because the user might exploit the short time interval

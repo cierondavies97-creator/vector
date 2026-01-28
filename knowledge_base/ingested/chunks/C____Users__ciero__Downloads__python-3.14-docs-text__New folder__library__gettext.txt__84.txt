@@ -1,0 +1,6 @@
+gettext.install('myapplication')
+If you need to set the locale directory, you can pass it into the
+"install()" function:
+   import gettext
+   gettext.install('myapplication', '/usr/share/locale')
+Changing languages on the fly

@@ -1,0 +1,3 @@
+|                  | Note: the requested width is determined from the sum of  |
+|                  | the column widths.                                       |
++------------------+----------------------------------------------------------+

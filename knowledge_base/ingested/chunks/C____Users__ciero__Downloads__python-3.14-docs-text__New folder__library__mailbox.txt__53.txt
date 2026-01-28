@@ -1,0 +1,4 @@
+are also supported. Any subdirectory of the main mailbox is
+   considered a folder if "'.'" is the first character in its name.
+   Folder names are represented by "Maildir" without the leading
+   "'.'". Each folder is itself a Maildir mailbox but should not

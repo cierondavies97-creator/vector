@@ -1,0 +1,4 @@
+warnings; if they cannot support the requested locale, however,
+   they must raise a SAX exception.  Applications may request a locale
+   change in the middle of a parse.
+XMLReader.getFeature(featurename)

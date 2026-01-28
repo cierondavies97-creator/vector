@@ -1,0 +1,4 @@
+lzma.decompress(data, format=FORMAT_AUTO, memlimit=None, filters=None)
+   Decompress *data* (a "bytes" object), returning the uncompressed
+   data as a "bytes" object.
+   If *data* is the concatenation of multiple distinct compressed

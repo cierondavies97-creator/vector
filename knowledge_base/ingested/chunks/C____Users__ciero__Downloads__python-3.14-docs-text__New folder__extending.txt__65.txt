@@ -1,0 +1,3 @@
+When using only "METH_VARARGS", the function should expect the Python-
+level parameters to be passed in as a tuple acceptable for parsing via
+"PyArg_ParseTuple()"; more information on this function is provided

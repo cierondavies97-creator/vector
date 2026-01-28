@@ -1,0 +1,4 @@
+decoding operations. Examples: "open()", "str.encode()" and
+  "bytes.decode()".
+  By default, for best performance, the *errors* argument is only
+  checked at the first encoding/decoding error and the *encoding*

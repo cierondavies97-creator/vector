@@ -1,0 +1,5 @@
+standard library "marshal" and "pickle" modules.
+See also:
+  The TOML Kit package is a style-preserving TOML library with both
+  read and write capability. It is a recommended replacement for this
+  module for editing already existing TOML files.

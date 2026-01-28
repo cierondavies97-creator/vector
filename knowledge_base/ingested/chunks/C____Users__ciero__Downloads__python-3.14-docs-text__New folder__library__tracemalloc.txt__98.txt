@@ -1,0 +1,5 @@
+"Traceback.total_nframe" attribute. That allows to know if a
+   traceback has been truncated by the traceback limit.
+   The "Trace.traceback" attribute is an instance of "Traceback"
+   instance.
+   Changed in version 3.7: Frames are now sorted from the oldest to

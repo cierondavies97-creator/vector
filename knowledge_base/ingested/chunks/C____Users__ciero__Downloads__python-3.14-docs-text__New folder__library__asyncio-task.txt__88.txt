@@ -1,0 +1,4 @@
+*custom_task_constructor* must be a *callable* with the signature
+   matching the signature of "Task.__init__". The callable must return
+   a "asyncio.Task"-compatible object.
+   This function returns a *callable* intended to be used as a task

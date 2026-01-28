@@ -1,0 +1,9 @@
+used.
+      >>> print(ast.dump(ast.parse("""\
+      ... with a as b, c as d:
+      ...    something(b, d)
+      ... """), indent=4))
+      Module(
+          body=[
+              With(
+                  items=[

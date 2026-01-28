@@ -1,0 +1,5 @@
+instance.
+class optparse.OptionParser(...)
+   The OptionParser constructor has no required arguments, but a
+   number of optional keyword arguments.  You should always pass them
+   as keyword arguments, i.e. do not rely on the order in which the

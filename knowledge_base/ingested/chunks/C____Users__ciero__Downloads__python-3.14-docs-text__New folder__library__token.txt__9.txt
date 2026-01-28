@@ -1,0 +1,8 @@
+types instead.
+token.COMMENT
+   Token value used to indicate a comment. The parser ignores
+   "COMMENT" tokens.
+token.NEWLINE
+   Token value that indicates the end of a logical line.
+token.NL
+   Token value used to indicate a non-terminating newline. "NL" tokens

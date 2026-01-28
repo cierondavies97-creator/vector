@@ -1,0 +1,6 @@
+closely related concepts:
+  * a *coroutine function*: an "async def" function;
+  * a *coroutine object*: an object returned by calling a *coroutine
+    function*.
+-[ Tasks ]-
+*Tasks* are used to schedule coroutines *concurrently*.

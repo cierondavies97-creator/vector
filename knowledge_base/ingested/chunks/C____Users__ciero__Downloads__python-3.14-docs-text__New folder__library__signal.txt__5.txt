@@ -1,0 +1,3 @@
+A Python signal handler does not get executed inside the low-level (C)
+signal handler.  Instead, the low-level signal handler sets a flag
+which tells the *virtual machine* to execute the corresponding Python

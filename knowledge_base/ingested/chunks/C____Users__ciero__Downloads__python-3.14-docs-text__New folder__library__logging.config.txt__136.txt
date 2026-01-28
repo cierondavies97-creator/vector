@@ -1,0 +1,5 @@
+initializer.
+If the "listener" key is absent, "logging.handlers.QueueListener" is
+used.
+The values under the "handlers" key are the names of other handlers in
+the configuration (not shown in the above snippet) which will be

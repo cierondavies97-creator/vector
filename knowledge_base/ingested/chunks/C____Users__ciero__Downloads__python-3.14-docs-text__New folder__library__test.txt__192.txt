@@ -1,0 +1,4 @@
+If *quiet* is "False", the context manager raises an exception on
+   error.  Otherwise, it issues only a warning and keeps the current
+   working directory the same.
+test.support.os_helper.create_empty_file(filename)

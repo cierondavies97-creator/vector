@@ -1,0 +1,5 @@
+been removed.
+   getEvent()
+      Return a tuple containing *event* and the current *node* as
+      "xml.dom.minidom.Document" if event equals "START_DOCUMENT",
+      "xml.dom.minidom.Element" if event equals "START_ELEMENT" or

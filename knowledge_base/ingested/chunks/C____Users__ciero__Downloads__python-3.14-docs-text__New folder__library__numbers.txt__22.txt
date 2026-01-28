@@ -1,0 +1,5 @@
+"NotImplemented" from "__add__()". (Or "A" may not implement
+   "__add__()" at all.)
+3. Then "B"'s "__radd__()" gets a chance. If it accepts "a", all is
+   well.
+4. If it falls back to the boilerplate, there are no more possible

@@ -1,0 +1,3 @@
+In the Python DOM API, accessor functions are not required.  If
+provided, they should take the form defined by the Python IDL mapping,
+but these methods are considered unnecessary since the attributes are

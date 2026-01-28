@@ -1,0 +1,7 @@
+>>> class A: pass
+      >>> class B(A): pass
+      >>> A.__subclasses__()
+      [<class 'B'>]
+3.2.11. Class instances
+-----------------------
+A class instance is created by calling a class object (see above).  A

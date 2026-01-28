@@ -1,0 +1,3 @@
+seeing that an exception has already been set.  Any actions which a
+deallocator performs which may cause additional Python code to be
+executed may detect that an exception has been set.  This can lead to

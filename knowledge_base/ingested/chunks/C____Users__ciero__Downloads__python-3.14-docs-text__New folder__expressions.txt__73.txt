@@ -1,0 +1,3 @@
+execution.  If "__next__()" is used (typically via either a "for" or
+the "next()" builtin) then the result is "None".  Otherwise, if
+"send()" is used, then the result will be the value passed in to that

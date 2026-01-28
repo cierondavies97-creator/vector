@@ -1,0 +1,4 @@
+* "__hash__", "__sizeof__", "__repr__" and "__str__"
+* "__dir__", "__format__" and "__subclasses__"
+* "__round__", "__floor__", "__trunc__" and "__ceil__"
+* Comparisons: "__lt__", "__gt__", "__le__", "__ge__", "__eq__" and

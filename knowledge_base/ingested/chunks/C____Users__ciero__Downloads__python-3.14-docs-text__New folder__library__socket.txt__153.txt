@@ -1,0 +1,5 @@
+is usable.
+   Raises an auditing event "socket.getaddrinfo" with arguments
+   "host", "port", "family", "type", "protocol".
+   The following example fetches address information for a
+   hypothetical TCP connection to "example.org" on port 80 (results

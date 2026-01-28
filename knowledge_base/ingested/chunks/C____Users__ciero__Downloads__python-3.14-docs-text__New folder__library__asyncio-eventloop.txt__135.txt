@@ -1,0 +1,4 @@
+*protocol* must stop using the original *transport* and communicate
+   with the returned object only because the coder caches
+   *protocol*-side data and sporadically exchanges extra TLS session
+   packets with *transport*.

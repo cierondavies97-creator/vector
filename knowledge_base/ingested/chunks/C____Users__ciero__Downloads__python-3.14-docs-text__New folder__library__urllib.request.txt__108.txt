@@ -1,0 +1,4 @@
+pre-process *protocol* requests.
+     See "BaseHandler.<protocol>_request()" for more information.
+   * "<protocol>_response()" --- signal that the handler knows how to
+     post-process *protocol* responses.

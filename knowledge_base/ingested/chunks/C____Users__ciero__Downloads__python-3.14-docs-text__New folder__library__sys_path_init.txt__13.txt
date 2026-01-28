@@ -1,0 +1,5 @@
+Environments.
+Finally, the "site" module is processed and "site-packages"
+directories are added to the module search path. A common way to
+customize the search path is to create "sitecustomize" or
+"usercustomize" modules as described in the "site" module

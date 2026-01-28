@@ -1,0 +1,4 @@
+requirements. Setting it to 0 or 1 has no effect.
+      Using values that are not powers of two is discouraged and may
+      lead to surprising behavior.
+      "_align_" must already be defined when "_fields_" is assigned,

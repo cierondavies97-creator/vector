@@ -1,0 +1,4 @@
+attribute is available to read. Despite the name, a true value does
+not indicate the corresponding function will be used, only that it may
+be.
+Please file issues any time you have to use these private knobs with a

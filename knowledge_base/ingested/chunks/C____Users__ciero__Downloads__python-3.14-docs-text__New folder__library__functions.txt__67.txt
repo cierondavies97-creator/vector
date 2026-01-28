@@ -1,0 +1,4 @@
+is not defined then it falls back to "__index__()".
+   If two arguments are provided or keyword arguments are used, each
+   argument may be any numeric type (including complex). If both
+   arguments are real numbers, return a complex number with the real

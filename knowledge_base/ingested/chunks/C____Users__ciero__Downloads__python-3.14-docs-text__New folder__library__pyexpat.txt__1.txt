@@ -1,0 +1,4 @@
+security.
+The "xml.parsers.expat" module is a Python interface to the Expat non-
+validating XML parser. The module provides a single extension type,
+"xmlparser", that represents the current state of an XML parser.

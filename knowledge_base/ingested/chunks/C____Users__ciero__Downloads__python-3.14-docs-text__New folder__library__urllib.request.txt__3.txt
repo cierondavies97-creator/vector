@@ -1,0 +1,4 @@
+to "*" to avoid this problem (e.g. "os.environ["no_proxy"] = "*"").
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.

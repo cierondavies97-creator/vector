@@ -1,0 +1,3 @@
+Formally, as defined in the language execution model, a free
+   variable is any variable used in a namespace which is not a local
+   variable in that namespace. See *closure variable* for an example.

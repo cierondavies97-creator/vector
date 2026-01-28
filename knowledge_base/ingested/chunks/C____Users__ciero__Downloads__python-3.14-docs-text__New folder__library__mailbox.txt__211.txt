@@ -1,0 +1,4 @@
+the same meaning as with the "Message" constructor.
+   Certain message labels, called *attributes*, are defined by
+   convention to have special meanings. The attributes are as follows:
+   +-------------+--------------------------------------------+

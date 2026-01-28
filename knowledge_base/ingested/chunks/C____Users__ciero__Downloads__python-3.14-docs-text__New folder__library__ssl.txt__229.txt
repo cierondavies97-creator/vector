@@ -1,0 +1,3 @@
+like the output of "SSLSocket.getpeercert()". Otherwise the method
+   returns a list of DER-encoded certificates. The returned list does
+   not contain certificates from *capath* unless a certificate was

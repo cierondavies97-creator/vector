@@ -1,0 +1,5 @@
+raise OptionValueError("can't use -a after -b")
+       parser.values.a = 1
+   ...
+   parser.add_option("-a", action="callback", callback=check_order)
+   parser.add_option("-b", action="store_true", dest="b")

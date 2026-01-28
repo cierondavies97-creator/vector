@@ -1,0 +1,3 @@
+When programming in a compiled language, shared libraries are accessed
+when compiling/linking a program, and when the program is run.
+The purpose of the "find_library()" function is to locate a library in

@@ -1,0 +1,5 @@
+[forked_iterator] = tee(tee_iterator, 1)
+           return next(forked_iterator)
+      >>> iterator = iter('abcdef')
+      >>> [iterator] = tee(iterator, 1)   # Make the input peekable
+      >>> next(iterator)                  # Move the iterator forward

@@ -1,0 +1,3 @@
+"collections.abc.Iterable", each iteration of *message_body* will
+   result in a chunk.  If *message_body* is a *file object*, each call
+   to ".read()" will result in a chunk. The method automatically

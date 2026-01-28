@@ -1,0 +1,5 @@
+argument.
+   If no argument is given, "0.0" is returned.
+   The float type is described in Numeric Types --- int, float,
+   complex.
+   Changed in version 3.6: Grouping digits with underscores as in code

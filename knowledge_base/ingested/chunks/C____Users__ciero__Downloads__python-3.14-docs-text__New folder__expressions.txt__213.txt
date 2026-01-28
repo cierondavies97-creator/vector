@@ -1,0 +1,4 @@
+other operand is converted to a floating-point number.
+The "-" (subtraction) operator yields the difference of its arguments.
+The numeric arguments are first converted to a common real type.
+This operation can be customized using the special "__sub__()" and

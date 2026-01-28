@@ -1,0 +1,6 @@
+(Pdb)
+   Added in version 3.2.
+undisplay [expression]
+   Do not display *expression* anymore in the current frame.  Without
+   *expression*, clear all display expressions for the current frame.
+   Added in version 3.2.

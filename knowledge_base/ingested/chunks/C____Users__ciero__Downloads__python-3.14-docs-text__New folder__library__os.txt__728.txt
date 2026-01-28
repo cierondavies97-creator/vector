@@ -1,0 +1,8 @@
+into an exitcode.
+   Availability: Unix, not WASI, not Android, not iOS.
+os.P_PID
+os.P_PGID
+os.P_ALL
+os.P_PIDFD
+   These are the possible values for *idtype* in "waitid()". They
+   affect how *id* is interpreted:

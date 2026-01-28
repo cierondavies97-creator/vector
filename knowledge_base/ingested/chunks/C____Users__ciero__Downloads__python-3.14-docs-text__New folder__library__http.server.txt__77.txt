@@ -1,0 +1,4 @@
+request leads to somewhere below the "cgi_directories" path.
+   The "CGIHTTPRequestHandler" defines the following data member:
+   cgi_directories
+      This defaults to "['/cgi-bin', '/htbin']" and describes

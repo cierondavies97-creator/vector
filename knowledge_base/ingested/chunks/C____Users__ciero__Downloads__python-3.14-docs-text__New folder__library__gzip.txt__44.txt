@@ -1,0 +1,8 @@
+--fast
+   Indicates the fastest compression method (less compression).
+--best
+   Indicates the slowest compression method (best compression).
+-d, --decompress
+   Decompress the given file.
+-h, --help
+   Show the help message.

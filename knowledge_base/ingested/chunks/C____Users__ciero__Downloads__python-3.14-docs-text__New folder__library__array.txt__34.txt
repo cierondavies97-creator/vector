@@ -1,0 +1,4 @@
+index(x[, start[, stop]])
+      Return the smallest *i* such that *i* is the index of the first
+      occurrence of *x* in the array.  The optional arguments *start*
+      and *stop* can be specified to search for *x* within a

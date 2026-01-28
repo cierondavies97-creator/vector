@@ -1,0 +1,6 @@
+mounted filesystems.
+   Added in version 3.3.
+   Changed in version 3.8: On Windows, *path* can now be a file or
+   directory.
+   Availability: Unix, Windows.
+shutil.chown(path, user=None, group=None, *, dir_fd=None, follow_symlinks=True)

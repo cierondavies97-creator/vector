@@ -1,0 +1,4 @@
+removing the cycle in a "finally" clause.  This is also important if
+  the cycle detector was disabled when Python was compiled or using
+  "gc.disable()".  For example:
+     def handle_stackframe_without_leak():

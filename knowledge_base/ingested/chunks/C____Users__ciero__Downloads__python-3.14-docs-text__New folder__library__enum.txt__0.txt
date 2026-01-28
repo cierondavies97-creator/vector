@@ -1,0 +1,8 @@
+"enum" --- Support for enumerations
+***********************************
+Added in version 3.4.
+**Source code:** Lib/enum.py
+Important
+^^^^^^^^^
+This page contains the API reference information. For tutorial
+information and discussion of more advanced topics, see

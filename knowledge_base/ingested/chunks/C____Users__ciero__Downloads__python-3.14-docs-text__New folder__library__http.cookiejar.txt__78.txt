@@ -1,0 +1,5 @@
+DefaultCookiePolicy.is_not_allowed(domain)
+   Return "True" if *domain* is not on the allowlist for setting or
+   receiving cookies.
+"DefaultCookiePolicy" instances have the following attributes, which
+are all initialised from the constructor arguments of the same name,

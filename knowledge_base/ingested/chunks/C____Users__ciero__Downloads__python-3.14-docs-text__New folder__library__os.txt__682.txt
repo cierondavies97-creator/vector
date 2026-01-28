@@ -1,0 +1,5 @@
+functions will return as soon as the new process has been created,
+   with the process id as the return value.
+   Availability: Unix, Windows.
+os.P_WAIT
+   Possible value for the *mode* parameter to the "spawn*" family of

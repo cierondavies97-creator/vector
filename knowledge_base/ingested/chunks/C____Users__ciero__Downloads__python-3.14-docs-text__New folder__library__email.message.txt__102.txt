@@ -1,0 +1,5 @@
+"walk()".)
+   get_content(*args, content_manager=None, **kw)
+      Call the "get_content()" method of the *content_manager*,
+      passing self as the message object, and passing along any other
+      arguments or keywords as additional arguments.  If

@@ -1,0 +1,5 @@
+"is_file()" and "is_symlink()" rather than methods of this
+   attribute. There is no way to reset the cache; instead you can
+   create a new path object with an empty info cache via "p =
+   Path(p)".
+   Added in version 3.14.

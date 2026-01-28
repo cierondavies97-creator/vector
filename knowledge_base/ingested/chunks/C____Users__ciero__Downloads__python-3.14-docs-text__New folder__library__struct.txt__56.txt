@@ -1,0 +1,4 @@
+or big-endian ordering based on the host system. The struct module
+   does not interpret this as native ordering, so the "'P'" format is
+   not available.
+6. The IEEE 754 binary16 "half precision" type was introduced in the

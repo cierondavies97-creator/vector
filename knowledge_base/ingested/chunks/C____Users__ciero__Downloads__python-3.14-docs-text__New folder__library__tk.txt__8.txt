@@ -1,0 +1,5 @@
+* "tkinter.filedialog" --- File selection dialogs
+    * Native Load/Save Dialogs
+  * "tkinter.commondialog" --- Dialog window templates
+* "tkinter.messagebox" --- Tkinter message prompts
+* "tkinter.scrolledtext" --- Scrolled Text Widget

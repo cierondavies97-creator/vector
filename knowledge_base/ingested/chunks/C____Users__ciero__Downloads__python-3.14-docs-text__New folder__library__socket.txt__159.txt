@@ -1,0 +1,4 @@
+Translate a host name to IPv4 address format.  The IPv4 address is
+   returned as a string, such as  "'100.50.200.5'".  If the host name
+   is an IPv4 address itself it is returned unchanged.  See
+   "gethostbyname_ex()" for a more complete interface.

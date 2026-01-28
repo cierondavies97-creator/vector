@@ -1,0 +1,4 @@
+* If *host* is a sequence of strings, the TCP server is bound to
+       all network interfaces specified by the sequence.
+     * If *host* is an empty string or "None", all interfaces are
+       assumed and a list of multiple sockets will be returned (most

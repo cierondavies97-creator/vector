@@ -1,0 +1,5 @@
+'lower method example'
+   The lowercasing algorithm used is described in section 3.13
+   'Default Case Folding' of the Unicode Standard.
+str.lstrip(chars=None, /)
+   Return a copy of the string with leading characters removed.  The

@@ -1,0 +1,4 @@
+The item is moved to the right end if *last* is true (the
+      default) or to the beginning if *last* is false.  Raises
+      "KeyError" if the *key* does not exist:
+         >>> d = OrderedDict.fromkeys('abcde')

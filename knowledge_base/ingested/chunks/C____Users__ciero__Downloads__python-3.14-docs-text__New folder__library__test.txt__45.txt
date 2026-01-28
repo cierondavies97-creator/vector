@@ -1,0 +1,3 @@
+It is long enough to reduce the risk of test failure on the slowest
+   Python buildbots. It should not be used to mark a test as failed if
+   the test takes "too long".  The timeout value depends on the

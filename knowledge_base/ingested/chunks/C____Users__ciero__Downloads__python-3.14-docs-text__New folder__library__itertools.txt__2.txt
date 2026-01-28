@@ -1,0 +1,4 @@
+that are useful by themselves or in combination.  Together, they form
+an "iterator algebra" making it possible to construct specialized
+tools succinctly and efficiently in pure Python.
+For instance, SML provides a tabulation tool: "tabulate(f)" which

@@ -1,0 +1,6 @@
+object, accessing a function raises an auditing event
+"ctypes.dlsym/handle" with arguments "handle" (the raw library handle)
+and "name".
+Foreign functions
+-----------------
+As explained in the previous section, foreign functions can be

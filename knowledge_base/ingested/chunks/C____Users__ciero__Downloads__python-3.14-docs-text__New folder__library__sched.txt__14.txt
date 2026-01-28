@@ -1,0 +1,4 @@
+Changed in version 3.3: *argument* parameter is optional.
+   Changed in version 3.3: *kwargs* parameter was added.
+scheduler.cancel(event)
+   Remove the event from the queue. If *event* is not an event

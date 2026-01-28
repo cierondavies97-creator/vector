@@ -1,0 +1,3 @@
+"x not in s" returns the negation of "x in s".  All built-in sequences
+and set types support this as well as dictionary, for which "in" tests
+whether the dictionary has a given key. For container types such as

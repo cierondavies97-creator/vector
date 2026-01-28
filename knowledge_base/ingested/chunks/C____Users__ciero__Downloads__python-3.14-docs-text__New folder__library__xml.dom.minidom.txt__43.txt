@@ -1,0 +1,4 @@
+parameters, the arguments are passed in normal order (from left to
+  right). There are no optional arguments. "void" operations return
+  "None".
+* IDL attributes map to instance attributes. For compatibility with

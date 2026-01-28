@@ -1,0 +1,5 @@
+"StreamWriter" classes.
+   *client_connected_cb* can be a plain callable or a coroutine
+   function; if it is a coroutine function, it will be automatically
+   scheduled as a "Task".
+   *limit* determines the buffer size limit used by the returned

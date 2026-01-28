@@ -1,0 +1,5 @@
+...
+   However, if desired, reusable type variables can also be
+   constructed manually, like so:
+      T = TypeVar('T')  # Can be anything
+      S = TypeVar('S', bound=str)  # Can be any subtype of str

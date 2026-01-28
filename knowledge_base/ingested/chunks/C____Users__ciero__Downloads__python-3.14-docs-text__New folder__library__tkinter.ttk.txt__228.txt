@@ -1,0 +1,6 @@
+[("Menubutton.padding", {"children":
+                        [("Menubutton.label", {"side": "left", "expand": 1})]
+                    })]
+                })]
+            }),
+         ])

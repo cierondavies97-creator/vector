@@ -1,0 +1,10 @@
+containing only atomic keys and values):
+      >>> gc.is_tracked(0)
+      False
+      >>> gc.is_tracked("a")
+      False
+      >>> gc.is_tracked([])
+      True
+      >>> gc.is_tracked({})
+      False
+      >>> gc.is_tracked({"a": 1})

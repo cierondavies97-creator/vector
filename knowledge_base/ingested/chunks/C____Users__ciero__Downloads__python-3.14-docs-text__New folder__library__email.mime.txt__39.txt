@@ -1,0 +1,4 @@
+an encoded payload, even if a charset is passed in the
+   "set_payload" command.  You can "reset" this behavior by deleting
+   the "Content-Transfer-Encoding" header, after which a "set_payload"
+   call will automatically encode the new payload (and add a new

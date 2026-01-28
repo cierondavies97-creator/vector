@@ -1,0 +1,4 @@
+point values).  If you want to substitute a better timer in the
+   cleanest fashion, derive a class and hardwire a replacement
+   dispatch method that best handles your timer call, along with the
+   appropriate calibration constant.

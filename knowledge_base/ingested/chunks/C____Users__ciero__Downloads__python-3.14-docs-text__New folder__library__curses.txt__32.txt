@@ -1,0 +1,3 @@
+value used to distinguish multiple devices, and *x*, *y*, *z* are
+   the event's coordinates.  (*z* is currently unused.)  *bstate* is
+   an integer value whose bits will be set to indicate the type of

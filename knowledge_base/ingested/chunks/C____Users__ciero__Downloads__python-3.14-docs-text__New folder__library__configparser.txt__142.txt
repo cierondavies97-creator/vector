@@ -1,0 +1,4 @@
+these is "None" and they are serialized without the trailing
+   delimiter.
+   When *default_section* is given, it specifies the name for the
+   special section holding default values for other sections and

@@ -1,0 +1,5 @@
+[1000, 960, 918, 874, 828, 779, 728, 674, 618, 559, 497]
+   See "functools.reduce()" for a similar function that returns only
+   the final accumulated value.
+   Added in version 3.2.
+   Changed in version 3.3: Added the optional *function* parameter.

@@ -1,0 +1,5 @@
+program.
+curses.getmouse()
+   After "getch()" returns "KEY_MOUSE" to signal a mouse event, this
+   method should be called to retrieve the queued mouse event,
+   represented as a 5-tuple "(id, x, y, z, bstate)". *id* is an ID

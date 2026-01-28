@@ -1,0 +1,4 @@
+HMAC.digest()
+   Return the digest of the bytes passed to the "update()" method so
+   far. This bytes object will be the same length as the *digest_size*
+   of the digest given to the constructor.  It may contain non-ASCII

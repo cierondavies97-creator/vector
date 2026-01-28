@@ -1,0 +1,5 @@
+elements is *O*(1).
+list comprehension
+   A compact way to process all or part of the elements in a sequence
+   and return a list with the results.  "result = ['{:#04x}'.format(x)
+   for x in range(256) if x % 2 == 0]" generates a list of strings

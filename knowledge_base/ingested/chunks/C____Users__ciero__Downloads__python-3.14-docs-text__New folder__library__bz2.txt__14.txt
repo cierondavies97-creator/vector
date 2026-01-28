@@ -1,0 +1,4 @@
+"BZ2File" also provides the following methods and attributes:
+   peek([n])
+      Return buffered data without advancing the file position. At
+      least one byte of data will be returned (unless at EOF). The

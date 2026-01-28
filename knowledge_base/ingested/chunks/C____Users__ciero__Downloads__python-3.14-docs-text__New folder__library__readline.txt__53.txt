@@ -1,0 +1,5 @@
+code.InteractiveConsole.__init__(self, locals, filename)
+           self.init_history(histfile)
+       def init_history(self, histfile):
+           readline.parse_and_bind("tab: complete")
+           if hasattr(readline, "read_history_file"):

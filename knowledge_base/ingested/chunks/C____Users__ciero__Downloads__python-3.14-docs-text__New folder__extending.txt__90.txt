@@ -1,0 +1,3 @@
+callback functions from a C callback.  Other uses are also imaginable.
+Fortunately, the Python interpreter is easily called recursively, and
+there is a standard interface to call a Python function.  (I won't

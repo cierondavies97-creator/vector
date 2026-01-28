@@ -1,0 +1,6 @@
+directory, while ignoring "__pycache__" directories:
+      from pathlib import Path
+      for root, dirs, files in Path("cpython/Lib/concurrent").walk(on_error=print):
+        print(
+            root,
+            "consumes",

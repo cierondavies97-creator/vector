@@ -1,0 +1,3 @@
+imported, there is *no* performance penalty in using it instead of
+"posix".  In addition, "os" provides some additional functionality,
+such as automatically calling "putenv()" when an entry in "os.environ"

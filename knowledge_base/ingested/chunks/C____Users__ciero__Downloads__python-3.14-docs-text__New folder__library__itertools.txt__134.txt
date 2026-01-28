@@ -1,0 +1,7 @@
+if not num_active:
+              return
+          while True:
+              values = []
+              for i, iterator in enumerate(iterators):
+                  try:
+                      value = next(iterator)

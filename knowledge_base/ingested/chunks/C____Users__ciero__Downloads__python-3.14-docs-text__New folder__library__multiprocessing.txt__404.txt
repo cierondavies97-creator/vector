@@ -1,0 +1,4 @@
+address *address*, returning a "Connection".
+   The type of the connection is determined by *family* argument, but
+   this can generally be omitted since it can usually be inferred from
+   the format of *address*. (See Address Formats)

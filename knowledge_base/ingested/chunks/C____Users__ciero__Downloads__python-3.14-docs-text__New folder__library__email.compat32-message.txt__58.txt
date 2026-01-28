@@ -1,0 +1,5 @@
+include the trailing colon. Used for the "in" operator, e.g.:
+         if 'message-id' in myMessage:
+            print('Message-ID:', myMessage['message-id'])
+   __getitem__(name)
+      Return the value of the named header field.  *name* should not

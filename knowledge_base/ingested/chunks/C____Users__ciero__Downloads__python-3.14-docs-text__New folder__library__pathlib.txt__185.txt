@@ -1,0 +1,5 @@
+true to resolve symlinks and place them in *dirnames* and
+   *filenames* as appropriate for their targets, and consequently
+   visit directories pointed to by symlinks (where supported).
+   Note:
+     Be aware that setting *follow_symlinks* to true can lead to

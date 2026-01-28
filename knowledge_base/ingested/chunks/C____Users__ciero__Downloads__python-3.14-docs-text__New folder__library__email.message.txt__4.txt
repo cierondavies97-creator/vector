@@ -1,0 +1,4 @@
+a binary object, or a structured sequence of sub-messages each with
+their own set of headers and their own payload.  The latter type of
+payload is indicated by the message having a MIME type such as
+*multipart/** or *message/rfc822*.

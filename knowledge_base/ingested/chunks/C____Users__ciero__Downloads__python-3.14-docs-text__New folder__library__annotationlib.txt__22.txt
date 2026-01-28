@@ -1,0 +1,3 @@
+Special value used to signal that an annotate function is being
+      evaluated in a special environment with fake globals. When
+      passed this value, annotate functions should either return the

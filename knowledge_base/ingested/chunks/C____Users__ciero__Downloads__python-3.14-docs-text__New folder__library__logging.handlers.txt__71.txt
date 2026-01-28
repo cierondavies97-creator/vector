@@ -1,0 +1,4 @@
+gaps in the file times corresponding to the minutes where no
+     output (and hence no rollover) occurred.
+   Changed in version 3.4: *atTime* parameter was added.
+   Changed in version 3.6: As well as string values, "Path" objects

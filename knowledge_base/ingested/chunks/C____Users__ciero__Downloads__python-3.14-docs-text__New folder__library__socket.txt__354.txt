@@ -1,0 +1,4 @@
+Running an example several times with too small delay between
+executions, could lead to this error:
+   OSError: [Errno 98] Address already in use
+This is because the previous execution has left the socket in a

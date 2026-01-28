@@ -1,0 +1,6 @@
+logger.info('Doing something')
+If you run *myapp.py*, you should see this in *myapp.log*:
+   INFO:__main__:Started
+   INFO:mylib:Doing something
+   INFO:__main__:Finished
+The key feature of this idiomatic usage is that the majority of code

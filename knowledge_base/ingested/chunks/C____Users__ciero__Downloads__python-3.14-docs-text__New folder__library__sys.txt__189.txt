@@ -1,0 +1,3 @@
+| "2" (VER_NT_DOMAIN_CONTROLLER)          | The system is a domain            |
+   |                                         | controller.                       |
+   +-----------------------------------------+-----------------------------------+

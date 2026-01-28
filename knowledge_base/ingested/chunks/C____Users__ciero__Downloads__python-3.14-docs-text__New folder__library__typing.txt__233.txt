@@ -1,0 +1,6 @@
+"Unpack" can also be used along with "typing.TypedDict" for typing
+   "**kwargs" in a function signature:
+      from typing import TypedDict, Unpack
+      class Movie(TypedDict):
+          name: str
+          year: int

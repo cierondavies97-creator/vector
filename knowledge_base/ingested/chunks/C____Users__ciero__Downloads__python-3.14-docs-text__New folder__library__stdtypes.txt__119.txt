@@ -1,0 +1,7 @@
+hash_value = (hash_value & (M - 1)) - (hash_value & M)
+       if hash_value == -1:
+           hash_value = -2
+       return hash_value
+Boolean Type - "bool"
+=====================
+Booleans represent truth values. The "bool" type has exactly two

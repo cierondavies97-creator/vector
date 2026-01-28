@@ -1,0 +1,5 @@
+Windows that have been changed since being opened or last saved
+   have a * before and after the window title.  If there is no
+   associated file, do Save As instead.
+Save As...
+   Save the current window with a Save As dialog.  The file saved

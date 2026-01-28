@@ -1,0 +1,5 @@
+require escaping:
+      * the *delimiter*, the *quotechar*, "'\r'", "'\n'" and any of
+        the characters in *lineterminator* are escaped if *quoting* is
+        set to "QUOTE_NONE";
+      * the *quotechar* is escaped if *doublequote* is "False";

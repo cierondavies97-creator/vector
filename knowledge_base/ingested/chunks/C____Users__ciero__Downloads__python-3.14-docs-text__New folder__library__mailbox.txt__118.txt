@@ -1,0 +1,7 @@
+lock()
+   unlock()
+      Three locking mechanisms are used---dot locking and, if
+      available, the "flock()" and "lockf()" system calls.
+See also:
+  Format of Version 5 Babyl Files
+     A specification of the Babyl format.

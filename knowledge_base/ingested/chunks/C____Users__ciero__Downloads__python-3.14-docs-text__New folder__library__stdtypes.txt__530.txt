@@ -1,0 +1,5 @@
+is not empty, return "bytes[:-len(suffix)]".  Otherwise, return a
+   copy of the original binary data:
+      >>> b'MiscTests'.removesuffix(b'Tests')
+      b'Misc'
+      >>> b'TmpDirMixin'.removesuffix(b'Tests')

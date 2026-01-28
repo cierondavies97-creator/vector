@@ -1,0 +1,3 @@
+in the module "xml.sax.xmlreader".  The handler interfaces are defined
+in "xml.sax.handler".  For convenience, "InputSource" (which is often
+instantiated directly) and the handler classes are also available from

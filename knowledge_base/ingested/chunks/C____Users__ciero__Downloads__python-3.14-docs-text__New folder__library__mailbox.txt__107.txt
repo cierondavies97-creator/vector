@@ -1,0 +1,5 @@
+See also:
+  nmh - Message Handling System
+     Home page of **nmh**, an updated version of the original **mh**.
+  MH & nmh: Email for Users & Programmers
+     A GPL-licensed book on **mh** and **nmh**, with some information

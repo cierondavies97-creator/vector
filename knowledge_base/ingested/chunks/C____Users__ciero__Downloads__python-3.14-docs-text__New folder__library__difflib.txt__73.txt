@@ -1,0 +1,3 @@
+conditions "k >= k'", "i <= i'", and if "i == i'", "j <= j'" are
+      also met. In other words, of all maximal matching blocks, return
+      one that starts earliest in *a*, and of all those maximal

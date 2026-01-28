@@ -1,0 +1,4 @@
+More importantly we can use the "assert_called_with()" or
+"assert_called_once_with()" method to check that it was called with
+the correct arguments.
+This example tests that calling "ProductionClass().method" results in

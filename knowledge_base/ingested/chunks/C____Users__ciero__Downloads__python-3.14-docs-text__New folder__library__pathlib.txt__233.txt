@@ -1,0 +1,6 @@
+combined: "[a-zA-Z0-9_]" matches any ASCII letter, digit, or
+   underscore.
+"[!seq]"
+   Matches one character not in *seq*, where *seq* follows the same
+   rules as above.
+For a literal match, wrap the meta-characters in brackets. For

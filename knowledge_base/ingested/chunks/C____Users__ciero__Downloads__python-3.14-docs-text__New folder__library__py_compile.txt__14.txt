@@ -1,0 +1,3 @@
+Changed in version 3.4: Changed code to use "importlib" for the
+   byte-code cache file writing. This means file creation/writing
+   semantics now match what "importlib" does, e.g. permissions, write-

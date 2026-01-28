@@ -1,0 +1,5 @@
+prec
+      An integer in the range ["1", "MAX_PREC"] that sets the
+      precision for arithmetic operations in the context.
+   rounding
+      One of the constants listed in the section Rounding Modes.

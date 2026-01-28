@@ -1,0 +1,5 @@
+| a[asdl_alias_seq*]=','.import_from_as_name+ { a }
+   import_from_as_name[alias_ty]:
+       | invalid_import_from_as_name
+       | a=NAME b=['as' z=NAME { z }] { _PyAST_alias(
+           a->v.Name.id, (b) ? ((expr_ty) b)->v.Name.id : NULL, EXTRA) }

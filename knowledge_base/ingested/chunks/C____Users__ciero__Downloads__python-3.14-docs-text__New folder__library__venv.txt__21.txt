@@ -1,0 +1,5 @@
+already existed, an error was raised, unless the "--clear" or "--
+upgrade" option was provided.
+Changed in version 3.9: Add "--upgrade-deps" option to upgrade pip +
+setuptools to the latest on PyPI.
+Changed in version 3.12: "setuptools" is no longer a core venv

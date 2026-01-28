@@ -1,0 +1,6 @@
+Add *sequence* to the list of sequences that include this
+      message.
+   remove_sequence(sequence)
+      Remove *sequence* from the list of sequences that include this
+      message.
+When an "MHMessage" instance is created based upon a "MaildirMessage"

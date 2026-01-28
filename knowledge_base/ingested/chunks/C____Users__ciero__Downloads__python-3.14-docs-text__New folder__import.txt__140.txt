@@ -1,0 +1,3 @@
+Changed in version 3.4: "find_spec()" replaced "find_loader()" and
+"find_module()", both of which are now deprecated, but will be used if
+"find_spec()" is not defined.Older path entry finders may implement

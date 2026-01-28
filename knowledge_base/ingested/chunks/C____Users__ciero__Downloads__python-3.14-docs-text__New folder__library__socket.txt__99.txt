@@ -1,0 +1,7 @@
+socket.HCI_CHANNEL_MONITOR
+socket.HCI_CHANNEL_CONTROL
+socket.HCI_CHANNEL_LOGGING
+   Possible values for "channel" field in the "BTPROTO_HCI" address.
+   Availability: Linux
+   Added in version 3.14.
+socket.AF_QIPCRTR

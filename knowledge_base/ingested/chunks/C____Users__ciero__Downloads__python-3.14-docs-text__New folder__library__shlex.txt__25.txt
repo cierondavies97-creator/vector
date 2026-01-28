@@ -1,0 +1,4 @@
+return a tuple consisting of a filename and an open file-like
+   object.
+   Normally, this method first strips any quotes off the argument.  If
+   the result is an absolute pathname, or there was no previous source

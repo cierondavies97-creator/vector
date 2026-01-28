@@ -1,0 +1,4 @@
+Using "Annotated[T, x]" as an annotation still allows for static
+   typechecking of "T", as type checkers will simply ignore the
+   metadata "x". In this way, "Annotated" differs from the
+   "@no_type_check" decorator, which can also be used for adding

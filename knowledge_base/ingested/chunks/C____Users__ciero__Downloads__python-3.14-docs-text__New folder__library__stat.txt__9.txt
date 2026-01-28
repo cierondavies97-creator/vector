@@ -1,0 +1,5 @@
+"stat()" system call for each test.  These are also useful when
+checking for information about a file that isn't handled by "os.path",
+like the tests for block and character devices.
+Example:
+   import os, sys

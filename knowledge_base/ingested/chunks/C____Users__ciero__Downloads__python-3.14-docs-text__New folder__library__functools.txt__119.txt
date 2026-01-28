@@ -1,0 +1,4 @@
+by default. Missing attributes no longer trigger an
+   "AttributeError".
+   Changed in version 3.4: The "__wrapped__" attribute now always
+   refers to the wrapped function, even if that function defined a

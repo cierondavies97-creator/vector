@@ -1,0 +1,5 @@
+# while inside this try block.
+           sys.stdout.flush()
+       except BrokenPipeError:
+           # Python flushes standard streams on exit; redirect remaining output
+           # to devnull to avoid another BrokenPipeError at shutdown

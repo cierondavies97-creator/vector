@@ -1,0 +1,10 @@
+123
+      >>> int('   -12_345\n')
+      -12345
+      >>> int('FACE', 16)
+      64206
+      >>> int('0xface', 0)
+      64206
+      >>> int('01110011', base=2)
+      115
+   If the argument defines "__int__()", "int(x)" returns

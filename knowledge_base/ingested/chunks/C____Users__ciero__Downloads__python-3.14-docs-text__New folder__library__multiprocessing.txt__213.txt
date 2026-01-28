@@ -1,0 +1,4 @@
+"threading.BoundedSemaphore".
+   Instantiating this class may set the global start method. See
+   Global start method for more details.
+   A solitary difference from its close analog exists: its "acquire"

@@ -1,0 +1,4 @@
+the handler class raises an exception, the server's
+      "handle_error()" method will be called.  If no request is
+      received within "timeout" seconds, "handle_timeout()" will be
+      called and "handle_request()" will return.

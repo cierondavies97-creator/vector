@@ -1,0 +1,6 @@
+Exit code that means that an error occurred while doing I/O on some
+   file.
+   Availability: Unix, not WASI.
+os.EX_TEMPFAIL
+   Exit code that means a temporary failure occurred.  This indicates
+   something that may not really be an error, such as a network

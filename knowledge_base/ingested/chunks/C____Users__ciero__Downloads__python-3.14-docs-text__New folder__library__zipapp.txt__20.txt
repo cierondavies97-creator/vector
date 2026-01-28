@@ -1,0 +1,4 @@
+shebang line being written.  If an interpreter is specified, and
+   the target is a filename, the executable bit of the target file
+   will be set.
+   The *main* argument specifies the name of a callable which will be

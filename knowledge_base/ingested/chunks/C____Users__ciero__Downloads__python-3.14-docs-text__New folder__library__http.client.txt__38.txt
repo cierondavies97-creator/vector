@@ -1,0 +1,4 @@
+Any other type of *body* (files and iterables in general) will be
+   chunk-encoded, and the Transfer-Encoding header will automatically
+   be set instead of Content-Length.
+   The *encode_chunked* argument is only relevant if Transfer-Encoding

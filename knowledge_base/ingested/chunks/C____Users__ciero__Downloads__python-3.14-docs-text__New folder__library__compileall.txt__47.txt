@@ -1,0 +1,5 @@
+If *hardlink_dupes* is true and two ".pyc" files with different
+   optimization level have the same content, use hard links to
+   consolidate duplicate files.
+   Added in version 3.2.
+   Changed in version 3.5: *quiet* parameter was changed to a

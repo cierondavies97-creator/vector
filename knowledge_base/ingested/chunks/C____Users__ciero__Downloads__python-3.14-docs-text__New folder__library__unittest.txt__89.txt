@@ -1,0 +1,5 @@
+*test fixture* methods) then it will be considered a success.  If
+   the test passes, it will be considered a failure.
+exception unittest.SkipTest(reason)
+   This exception is raised to skip a test.
+   Usually you can use "TestCase.skipTest()" or one of the skipping

@@ -1,0 +1,4 @@
+attribute on module objects.
+   **CPython implementation detail:** Because of the way CPython
+   clears module dictionaries, the module dictionary will be cleared
+   when the module falls out of scope even if the dictionary still has

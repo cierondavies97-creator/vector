@@ -1,0 +1,6 @@
+be opened instead.
+Selected URLs can be added or removed from the help menu at any time
+using the General tab of the Configure IDLE dialog.
+Setting preferences
+-------------------
+The font preferences, highlighting, keys, and general preferences can

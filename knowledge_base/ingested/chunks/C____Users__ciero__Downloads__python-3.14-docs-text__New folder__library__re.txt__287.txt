@@ -1,0 +1,5 @@
+Without raw string notation, one must use ""\\\\"", making the
+following lines of code functionally identical:
+   >>> re.match(r"\\", r"\\")
+   <re.Match object; span=(0, 1), match='\\'>
+   >>> re.match("\\\\", r"\\")

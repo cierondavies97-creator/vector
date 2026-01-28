@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   TypeError: '<' not supported between instances of 'PureWindowsPath' and 'PurePosixPath'
+Operators
+---------
+The slash operator helps create child paths, like "os.path.join()". If

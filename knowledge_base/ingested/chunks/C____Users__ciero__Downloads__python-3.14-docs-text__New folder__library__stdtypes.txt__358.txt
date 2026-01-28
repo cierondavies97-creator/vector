@@ -1,0 +1,9 @@
+Return "False" otherwise.
+   For example:
+      >>> 'Spam, Spam, Spam'.istitle()
+      True
+      >>> 'spam, spam, spam'.istitle()
+      False
+      >>> 'SPAM, SPAM, SPAM'.istitle()
+      False
+   See also "title()".

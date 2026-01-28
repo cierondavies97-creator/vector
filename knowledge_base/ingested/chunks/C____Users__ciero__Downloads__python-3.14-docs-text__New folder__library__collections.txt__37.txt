@@ -1,0 +1,5 @@
+>>> d                            # display result
+   DeepChainMap({'zebra': 'black', 'snake': 'red'}, {}, {'lion': 'orange'})
+"Counter" objects
+=================
+A counter tool is provided to support convenient and rapid tallies.

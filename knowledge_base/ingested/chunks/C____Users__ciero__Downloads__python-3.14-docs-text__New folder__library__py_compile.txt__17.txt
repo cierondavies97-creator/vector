@@ -1,0 +1,4 @@
+variable no longer overrides the value of the *invalidation_mode*
+   argument, and determines its default value instead.
+   Changed in version 3.8: The *quiet* parameter was added.
+class py_compile.PycInvalidationMode

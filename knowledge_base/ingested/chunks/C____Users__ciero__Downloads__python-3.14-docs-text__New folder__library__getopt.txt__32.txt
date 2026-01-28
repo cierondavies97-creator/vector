@@ -1,0 +1,6 @@
+elif o in ("-o", "--output"):
+               output = a
+           else:
+               assert False, "unhandled option"
+       process(args, output=output, verbose=verbose)
+   if __name__ == "__main__":

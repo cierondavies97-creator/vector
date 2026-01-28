@@ -1,0 +1,4 @@
+become a dangling pointer, C code which raises the exception could
+cause a core dump or other unintended side effects.
+For now, the "Py_DECREF()" call to remove this reference is missing.
+Even when the Python interpreter shuts down, the global "SpamError"

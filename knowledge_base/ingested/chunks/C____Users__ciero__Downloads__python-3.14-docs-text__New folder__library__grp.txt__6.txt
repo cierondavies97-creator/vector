@@ -1,0 +1,4 @@
+database.  Check both databases to get complete membership
+information.  Also note that a "gr_name" that starts with a "+" or "-"
+is likely to be a YP/NIS reference and may not be accessible via
+"getgrnam()" or "getgrgid()".)

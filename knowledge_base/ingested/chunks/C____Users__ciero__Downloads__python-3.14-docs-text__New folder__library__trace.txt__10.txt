@@ -1,0 +1,6 @@
+executed with ">>>>>>".
+-s, --summary
+   When using "--count" or "--report", write a brief summary to stdout
+   for each file processed.
+-R, --no-report
+   Do not generate annotated listings.  This is useful if you intend

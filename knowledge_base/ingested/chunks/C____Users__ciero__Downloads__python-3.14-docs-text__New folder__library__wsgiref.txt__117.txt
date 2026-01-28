@@ -1,0 +1,4 @@
+output page.  Subclasses can override this to produce more
+      dynamic error output.
+      Note, however, that it's not recommended from a security
+      perspective to spit out diagnostics to any old user; ideally,

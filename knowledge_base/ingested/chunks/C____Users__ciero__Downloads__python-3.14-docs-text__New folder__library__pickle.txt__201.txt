@@ -1,0 +1,6 @@
+consider alternatives such as the marshalling API in "xmlrpc.client"
+or third-party solutions.
+Performance
+===========
+Recent versions of the pickle protocol (from protocol 2 and upwards)
+feature efficient binary encodings for several common features and

@@ -1,0 +1,3 @@
+(the default) set the timeout period to infinite.  Note that the
+      treatment of negative or "None" values for *timeout* differs
+      from the implemented behavior in "threading.Lock.acquire()".

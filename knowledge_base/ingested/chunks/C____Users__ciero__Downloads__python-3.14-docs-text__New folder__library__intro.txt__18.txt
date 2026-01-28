@@ -1,0 +1,4 @@
+PyScript is built on top of Pyodide, which itself is built on top of
+CPython and Emscripten. Pyodide provides access to browsers'
+JavaScript and DOM APIs as well as limited networking capabilities
+with JavaScript's "XMLHttpRequest" and "Fetch" APIs.

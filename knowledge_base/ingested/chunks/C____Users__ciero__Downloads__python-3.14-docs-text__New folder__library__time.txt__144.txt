@@ -1,0 +1,4 @@
+Identical to "CLOCK_MONOTONIC", except it also includes any time
+   that the system is suspended.
+   This allows applications to get a suspend-aware monotonic  clock
+   without having to deal with the complications of "CLOCK_REALTIME",

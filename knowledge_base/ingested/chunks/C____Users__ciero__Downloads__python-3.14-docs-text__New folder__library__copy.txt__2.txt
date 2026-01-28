@@ -1,0 +1,7 @@
+generic shallow and deep copy operations (explained below).
+Interface summary:
+copy.copy(obj)
+   Return a shallow copy of *obj*.
+copy.deepcopy(obj[, memo])
+   Return a deep copy of *obj*.
+copy.replace(obj, /, **changes)

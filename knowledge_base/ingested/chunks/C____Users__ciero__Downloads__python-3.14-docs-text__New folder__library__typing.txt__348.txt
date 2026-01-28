@@ -1,0 +1,6 @@
+or "issubclass()".
+   Protocol classes can be generic, for example:
+      class GenProto[T](Protocol):
+          def meth(self) -> T:
+              ...
+   In code that needs to be compatible with Python 3.11 or older,

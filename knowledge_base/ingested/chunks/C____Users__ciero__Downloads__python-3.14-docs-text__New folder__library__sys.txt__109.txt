@@ -1,0 +1,4 @@
+Changed in version 3.4: Added "isolated" attribute for "-I"
+   "isolated" flag.
+   Changed in version 3.7: Added the "dev_mode" attribute for the new
+   Python Development Mode and the "utf8_mode" attribute for the new

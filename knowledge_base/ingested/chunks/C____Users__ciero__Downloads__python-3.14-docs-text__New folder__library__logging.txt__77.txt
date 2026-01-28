@@ -1,0 +1,4 @@
+to skip stack frames before determining the values to be
+      returned. This will generally be useful when calling logging
+      APIs from helper/wrapper code, so that the information in the
+      event log refers not to the helper/wrapper code, but to the code

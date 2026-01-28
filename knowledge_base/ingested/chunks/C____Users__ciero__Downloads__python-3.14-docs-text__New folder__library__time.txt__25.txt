@@ -1,0 +1,6 @@
+Constants for a list of accepted values for *clk_id*.
+   Use "clock_gettime_ns()" to avoid the precision loss caused by the
+   "float" type.
+   Availability: Unix.
+   Added in version 3.3.
+time.clock_gettime_ns(clk_id) -> int

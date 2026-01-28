@@ -1,0 +1,4 @@
+platforms, the first entry of this list represents the current process
+itself, which may be an empty string. For example, on glibc-based
+Linux, the return may look like:
+   >>> from ctypes.util import dllist

@@ -1,0 +1,4 @@
+"URLError").  Exceptions are allowed to propagate.
+   In fact, the above algorithm is first tried for methods named
+   "default_open()".  If all such methods return "None", the algorithm
+   is repeated for methods named like "<protocol>_open()".  If all

@@ -1,0 +1,4 @@
+implementations of the de facto standard. You should call the function
+with the Base85 implementation used by the software you intend to work
+with.
+The two functions present in this module differ in how they handle the

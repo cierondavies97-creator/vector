@@ -1,0 +1,4 @@
+*localName* as a string. If no such attribute exists, an empty
+   string is returned, as if the attribute had no value.
+Element.getAttributeNodeNS(namespaceURI, localName)
+   Return an attribute value as a node, given a *namespaceURI* and

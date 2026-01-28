@@ -1,0 +1,4 @@
+Exceptions
+==========
++----------------------------------------------------+----------------------------------------------------+
+| "asyncio.CancelledError"                           | Raised when a Task is cancelled. See also          |

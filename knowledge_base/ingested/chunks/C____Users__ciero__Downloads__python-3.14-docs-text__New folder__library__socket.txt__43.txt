@@ -1,0 +1,5 @@
+SOCK_DGRAM, IPPROTO_UDPLITE)" for IPv6.
+  Availability: Linux >= 2.6.20, FreeBSD >= 10.1
+  Added in version 3.9.
+* "AF_HYPERV" is a Windows-only socket based interface for
+  communicating with Hyper-V hosts and guests. The address family is

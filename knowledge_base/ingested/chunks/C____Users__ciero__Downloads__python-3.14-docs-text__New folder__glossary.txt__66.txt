@@ -1,0 +1,4 @@
+by "ContextVar" objects to access (get or set) the values of
+   *context variables*.  Each thread has its own current context.
+   Frameworks for executing asynchronous tasks (see "asyncio")
+   associate each task with a context which becomes the current

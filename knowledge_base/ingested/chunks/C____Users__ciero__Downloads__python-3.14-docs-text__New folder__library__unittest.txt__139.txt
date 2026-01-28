@@ -1,0 +1,5 @@
+are available (e.g. "assertEqual(a, b)" instead of "assertTrue(a
+      == b)"), because they provide a better error message in case of
+      failure.
+   assertIs(first, second, msg=None)
+   assertIsNot(first, second, msg=None)

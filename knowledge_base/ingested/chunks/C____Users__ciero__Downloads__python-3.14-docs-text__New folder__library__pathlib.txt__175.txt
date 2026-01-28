@@ -1,0 +1,5 @@
+like object*.
+Path.walk(top_down=True, on_error=None, follow_symlinks=False)
+   Generate the file names in a directory tree by walking the tree
+   either top-down or bottom-up.
+   For each directory in the directory tree rooted at *self*

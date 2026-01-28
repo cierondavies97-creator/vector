@@ -1,0 +1,7 @@
+Class attributes:
+date.min
+   The earliest representable date, "date(MINYEAR, 1, 1)".
+date.max
+   The latest representable date, "date(MAXYEAR, 12, 31)".
+date.resolution
+   The smallest possible difference between non-equal date objects,

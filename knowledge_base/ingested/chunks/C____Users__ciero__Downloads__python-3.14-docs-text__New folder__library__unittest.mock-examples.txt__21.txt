@@ -1,0 +1,5 @@
+>>> mock.mock_calls == expected
+True
+However, parameters to calls that return mocks are not recorded, which
+means it is not possible to track nested calls where the parameters
+used to create ancestors are important:

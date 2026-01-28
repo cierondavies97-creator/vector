@@ -1,0 +1,4 @@
+statically inferred in a generic way, many container classes in the
+standard library support subscription to denote the expected types of
+container elements.
+   from collections.abc import Mapping, Sequence

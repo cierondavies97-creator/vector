@@ -1,0 +1,3 @@
+terminal can no longer communicate with the parent process OR the
+   child process. Unless the child process will quit without any
+   input, *spawn* will then loop forever. If *master_read* signals EOF

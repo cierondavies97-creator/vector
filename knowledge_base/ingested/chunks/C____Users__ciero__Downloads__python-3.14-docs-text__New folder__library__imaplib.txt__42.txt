@@ -1,0 +1,4 @@
+IMAP4.idle(duration=None)
+   Return an "Idler": an iterable context manager implementing the
+   IMAP4 "IDLE" command as defined in **RFC 2177**.
+   The returned object sends the "IDLE" command when activated by the

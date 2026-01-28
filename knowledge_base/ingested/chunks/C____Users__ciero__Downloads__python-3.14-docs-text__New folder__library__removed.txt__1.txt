@@ -1,0 +1,5 @@
+* "asynchat" --- Asynchronous socket command/response handler
+* "asyncore" --- Asynchronous socket handler
+* "audioop" --- Manipulate raw audio data
+* "cgi" --- Common Gateway Interface support
+* "cgitb" --- Traceback manager for CGI scripts

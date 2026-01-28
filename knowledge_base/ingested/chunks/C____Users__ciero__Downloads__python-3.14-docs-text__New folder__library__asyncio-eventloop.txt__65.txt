@@ -1,0 +1,5 @@
+The created transport is an implementation-dependent bidirectional
+   stream.
+   Other arguments:
+   * *ssl*: if given and not false, a SSL/TLS transport is created (by
+     default a plain TCP transport is created).  If *ssl* is a

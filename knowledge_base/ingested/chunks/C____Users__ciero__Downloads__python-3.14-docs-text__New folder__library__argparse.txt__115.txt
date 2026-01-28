@@ -1,0 +1,5 @@
+>>> parser.parse_args(['--foo'])
+     Namespace(foo=42)
+* "'store_true'" and "'store_false'" - These are special cases of
+  "'store_const'" that respectively store the values "True" and
+  "False" with default values of "False" and "True":

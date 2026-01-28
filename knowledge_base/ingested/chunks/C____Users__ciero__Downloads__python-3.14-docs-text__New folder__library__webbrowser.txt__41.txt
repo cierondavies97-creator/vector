@@ -1,0 +1,5 @@
+Galeon, Skipstone, Iceape, and Firefox versions 35 and below.
+Changed in version 3.13: Support for iOS has been added.
+Here are some simple examples:
+   url = 'https://docs.python.org/'
+   # Open URL in a new tab, if a browser window is already open.

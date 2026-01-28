@@ -1,0 +1,4 @@
+to specifying "ns=(atime_ns, mtime_ns)" where both times are the
+     current time.
+   It is an error to specify tuples for both *times* and *ns*.
+   Note that the exact times you set here may not be returned by a

@@ -1,0 +1,5 @@
+as "bytes", "bytearray" and other objects that support the buffer
+  protocol).
+  Changed in version 3.3: ASCII-only unicode strings are now accepted
+  by the "a2b_*" functions.
+The "binascii" module defines the following functions:

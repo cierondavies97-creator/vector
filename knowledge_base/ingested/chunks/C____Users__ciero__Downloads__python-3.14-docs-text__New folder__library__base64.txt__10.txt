@@ -1,0 +1,4 @@
+Decode the Base64 encoded *bytes-like object* or ASCII string *s*
+   and return the decoded "bytes".
+   Optional *altchars* must be a *bytes-like object* or ASCII string
+   of length 2 which specifies the alternative alphabet used instead

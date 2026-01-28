@@ -1,0 +1,5 @@
+Changed in version 3.7: Dictionary order is guaranteed to be
+   insertion order.
+x in dictview
+   Return "True" if *x* is in the underlying dictionary's keys, values
+   or items (in the latter case, *x* should be a "(key, value)"

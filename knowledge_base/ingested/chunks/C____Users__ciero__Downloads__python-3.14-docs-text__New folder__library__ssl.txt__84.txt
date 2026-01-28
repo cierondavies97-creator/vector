@@ -1,0 +1,6 @@
+Added in version 3.10.
+class ssl.VerifyFlags
+   "enum.IntFlag" collection of VERIFY_* constants.
+   Added in version 3.6.
+ssl.PROTOCOL_TLS
+   Selects the highest protocol version that both the client and

@@ -1,0 +1,6 @@
+"sys.platlibdir"): Third-party modules
+   * "/usr/lib64/pythonX.Y/site-packages/": C extension modules of
+     third-party packages
+   Added in version 3.9.
+sys.prefix
+   A string giving the site-specific directory prefix where the

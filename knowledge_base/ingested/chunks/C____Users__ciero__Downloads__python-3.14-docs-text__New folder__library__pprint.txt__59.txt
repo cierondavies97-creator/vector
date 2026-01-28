@@ -1,0 +1,6 @@
+'=======================\n'
+                   '\n'
+                   'This is the description file for the '
+                   'project.\n'
+                   '\n'
+                   'The file should use UTF-8 encoding and be '

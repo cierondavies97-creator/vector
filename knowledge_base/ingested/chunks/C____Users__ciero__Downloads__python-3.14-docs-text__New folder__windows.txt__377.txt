@@ -1,0 +1,4 @@
+suffix or a full ABI suffix. Python source files and bundled third-
+party dependencies are shared with the main install.
+The free-threaded version is registered as a regular Python install
+with the tag "3.13t" (with a "-32" or "-arm64" suffix as normal for

@@ -1,0 +1,5 @@
+[directory]".
+  See "runpy" for more details on the "-m" flag to the interpreter
+  executable.
+  See "zipapp" for how to run applications packaged as *.zip* files.
+  In this case Python looks for a "__main__.py" file in the root

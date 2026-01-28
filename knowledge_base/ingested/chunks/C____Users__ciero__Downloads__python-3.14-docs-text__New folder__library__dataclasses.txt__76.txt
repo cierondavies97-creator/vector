@@ -1,0 +1,6 @@
+dataclass.  This function is provided as a convenience.  For
+   example:
+      C = make_dataclass('C',
+                         [('x', int),
+                           'y',
+                          ('z', int, field(default=5))],

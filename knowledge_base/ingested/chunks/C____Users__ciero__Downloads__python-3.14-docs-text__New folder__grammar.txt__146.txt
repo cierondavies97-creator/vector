@@ -1,0 +1,4 @@
+| a=primary b=genexp { _PyAST_Call(a, CHECK(asdl_expr_seq*, (asdl_expr_seq*)_PyPegen_singleton_seq(p, b)), NULL, EXTRA) }
+       | a=primary '(' b=[arguments] ')' {
+           _PyAST_Call(a,
+                    (b) ? ((expr_ty) b)->v.Call.args : NULL,

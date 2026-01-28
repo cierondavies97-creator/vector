@@ -1,0 +1,6 @@
+>>> float.hex(3740.0)
+   '0x1.d380000000000p+11'
+Additional Methods on Complex
+-----------------------------
+The "complex" type implements the "numbers.Complex" *abstract base
+class*. "complex" also has the following additional methods.

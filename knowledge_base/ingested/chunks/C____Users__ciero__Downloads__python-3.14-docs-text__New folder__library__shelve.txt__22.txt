@@ -1,0 +1,4 @@
+before they are used with the underlying dict.
+   A "Shelf" object can also be used as a context manager, in which
+   case it will be automatically closed when the "with" block ends.
+   Changed in version 3.2: Added the *keyencoding* parameter;

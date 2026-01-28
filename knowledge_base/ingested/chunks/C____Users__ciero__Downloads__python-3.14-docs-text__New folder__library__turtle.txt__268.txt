@@ -1,0 +1,3 @@
+| "compound"  | "None" (a compound shape has to be constructed using the   |
+   |             | "addcomponent()" method)                                   |
+   +-------------+------------------------------------------------------------+

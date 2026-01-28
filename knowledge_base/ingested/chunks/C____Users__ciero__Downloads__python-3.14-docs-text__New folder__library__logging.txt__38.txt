@@ -1,0 +1,4 @@
+will return/expect to be passed integers.
+   isEnabledFor(level)
+      Indicates if a message of severity *level* would be processed by
+      this logger. This method checks first the module-level level set

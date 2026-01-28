@@ -1,0 +1,3 @@
+on the queue if a free slot is immediately available, else raise
+      the "queue.Full" exception (*timeout* is ignored in that case).
+      Changed in version 3.8: If the queue is closed, "ValueError" is

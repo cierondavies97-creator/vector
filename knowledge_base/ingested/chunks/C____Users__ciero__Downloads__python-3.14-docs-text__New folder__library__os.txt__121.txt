@@ -1,0 +1,5 @@
+was empty because of a known Linux kernel issue.
+   Availability: Linux >= 4.5 with glibc >= 2.27.
+   Added in version 3.8.
+os.device_encoding(fd)
+   Return a string describing the encoding of the device associated

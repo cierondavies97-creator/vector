@@ -1,0 +1,4 @@
+the terminal, it is also necessary to call "idlok()".
+window.setscrreg(top, bottom)
+   Set the scrolling region from line *top* to line *bottom*. All
+   scrolling actions will take place in this region.

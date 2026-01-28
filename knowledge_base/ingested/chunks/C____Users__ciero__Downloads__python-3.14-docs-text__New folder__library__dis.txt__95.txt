@@ -1,0 +1,10 @@
+LIST_APPEND(i)
+   Implements:
+      item = STACK.pop()
+      list.append(STACK[-i], item)
+   Used to implement list comprehensions.
+MAP_ADD(i)
+   Implements:
+      value = STACK.pop()
+      key = STACK.pop()
+      dict.__setitem__(STACK[-i], key, value)

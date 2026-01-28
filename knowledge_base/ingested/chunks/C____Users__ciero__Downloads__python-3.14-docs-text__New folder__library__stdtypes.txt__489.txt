@@ -1,0 +1,4 @@
+to disable processing of escape sequences. See String and Bytes
+   literals for more about the various forms of bytes literal,
+   including supported escape sequences.
+   While bytes literals and representations are based on ASCII text,

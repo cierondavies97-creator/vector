@@ -1,0 +1,5 @@
+*generic type* using Python's square-brackets notation. For example,
+the annotation "list[int]" might be used to signify a "list" in which
+all the elements are of type "int".
+See also:
+  **PEP 484** - Type Hints

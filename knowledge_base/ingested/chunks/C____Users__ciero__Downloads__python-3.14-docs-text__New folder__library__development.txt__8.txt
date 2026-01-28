@@ -1,0 +1,8 @@
+* Command-line Usage
+  * How It Works
+    * Which Docstrings Are Examined?
+    * How are Docstring Examples Recognized?
+    * What's the Execution Context?
+    * What About Exceptions?
+    * Option Flags
+    * Directives

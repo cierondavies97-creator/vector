@@ -1,0 +1,5 @@
+*protocol_factory* must be a callable returning an asyncio protocol
+   implementation.
+   *pipe* is *file-like object*.
+   Return pair "(transport, protocol)", where *transport* supports
+   "WriteTransport" interface and *protocol* is an object instantiated

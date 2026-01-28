@@ -1,0 +1,3 @@
+* *happy_eyeballs_delay*, if given, enables Happy Eyeballs for this
+     connection. It should be a floating-point number representing the
+     amount of time in seconds to wait for a connection attempt to

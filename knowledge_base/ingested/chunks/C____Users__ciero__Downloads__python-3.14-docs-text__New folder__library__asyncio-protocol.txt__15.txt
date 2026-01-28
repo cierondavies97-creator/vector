@@ -1,0 +1,4 @@
+Instances of the *Transport* class are returned from or used by
+   event loop methods like "loop.create_connection()",
+   "loop.create_unix_connection()", "loop.create_server()",
+   "loop.sendfile()", etc.

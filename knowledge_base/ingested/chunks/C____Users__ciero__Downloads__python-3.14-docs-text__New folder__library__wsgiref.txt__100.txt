@@ -1,0 +1,4 @@
+include every method that can be overridden.  You should consult
+   the docstrings and source code for additional information before
+   attempting to create a customized "BaseHandler" subclass.
+   Attributes and methods for customizing the WSGI environment:

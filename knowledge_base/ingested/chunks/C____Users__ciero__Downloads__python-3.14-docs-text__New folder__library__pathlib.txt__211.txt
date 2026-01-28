@@ -1,0 +1,6 @@
+identically to "Path.copy()". Returns a new "Path" instance
+   pointing to the copy.
+   Added in version 3.14.
+Path.rename(target)
+   Rename this file or directory to the given *target*, and return a
+   new "Path" instance pointing to *target*.  On Unix, if *target*

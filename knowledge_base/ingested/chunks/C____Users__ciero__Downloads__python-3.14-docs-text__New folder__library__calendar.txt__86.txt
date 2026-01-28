@@ -1,0 +1,5 @@
+--encoding ENCODING, -e ENCODING
+   The encoding to use for output. "--encoding" is required if "--
+   locale" is set.
+--type {text,html}, -t {text,html}
+   Print the calendar to the terminal as text, or as an HTML document.

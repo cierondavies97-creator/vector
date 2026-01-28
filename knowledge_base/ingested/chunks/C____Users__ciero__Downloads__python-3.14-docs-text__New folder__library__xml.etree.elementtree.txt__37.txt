@@ -1,0 +1,6 @@
+...     if rank > 50:
+   ...         root.remove(country)
+   ...
+   >>> tree.write('output.xml')
+Note that concurrent modification while iterating can lead to
+problems, just like when iterating and modifying Python lists or

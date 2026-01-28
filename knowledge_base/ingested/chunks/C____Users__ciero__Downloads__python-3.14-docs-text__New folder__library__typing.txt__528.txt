@@ -1,0 +1,4 @@
+Added in version 3.5.2.
+   Deprecated since version 3.11: Python 2 is no longer supported, and
+   most type checkers also no longer support type checking Python 2
+   code. Removal of the alias is not currently planned, but users are

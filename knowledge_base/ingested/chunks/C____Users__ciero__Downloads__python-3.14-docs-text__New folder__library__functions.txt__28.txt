@@ -1,0 +1,4 @@
+in a few different ways:
+   * If it is a *string*, you must also give the *encoding* (and
+     optionally, *errors*) parameters; "bytearray()" then converts the
+     string to bytes using "str.encode()".

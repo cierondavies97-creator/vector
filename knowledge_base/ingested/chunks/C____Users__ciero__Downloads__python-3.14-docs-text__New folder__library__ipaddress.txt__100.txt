@@ -1,0 +1,4 @@
+IPv4Network('192.0.2.128/26'), IPv4Network('192.0.2.192/26')]
+      >>> list(ip_network('192.0.2.0/24').subnets(new_prefix=23))
+      Traceback (most recent call last):
+        File "<stdin>", line 1, in <module>

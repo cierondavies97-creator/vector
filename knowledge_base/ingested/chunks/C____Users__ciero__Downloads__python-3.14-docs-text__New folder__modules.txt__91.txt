@@ -1,0 +1,4 @@
+names. For example, if you added a "reverse" function to the
+"sound/effects/__init__.py" file, the "from sound.effects import *"
+would only import the two submodules "echo" and "surround", but *not*
+the "reverse" submodule, because it is shadowed by the locally defined

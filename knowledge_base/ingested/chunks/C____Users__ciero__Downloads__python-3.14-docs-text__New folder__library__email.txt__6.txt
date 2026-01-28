@@ -1,0 +1,4 @@
+that all provide the "EmailMessage" API.
+The other two major components of the package are the "parser" and the
+"generator".  The parser takes the serialized version of an email
+message (a stream of bytes) and converts it into a tree of

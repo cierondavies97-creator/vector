@@ -1,0 +1,5 @@
+>>> shm_b = shared_memory.SharedMemory(shm_a.name)
+   >>> import array
+   >>> array.array('b', shm_b.buf[:5])  # Copy the data into a new array.array
+   array('b', [22, 33, 44, 55, 100])
+   >>> shm_b.buf[:5] = b'howdy'  # Modify via shm_b using bytes

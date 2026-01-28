@@ -1,0 +1,4 @@
+All arguments to commands are converted to strings, except for
+"AUTHENTICATE", and the last argument to "APPEND" which is passed as
+an IMAP4 literal.  If necessary (the string contains IMAP4 protocol-
+sensitive characters and isn't enclosed with either parentheses or

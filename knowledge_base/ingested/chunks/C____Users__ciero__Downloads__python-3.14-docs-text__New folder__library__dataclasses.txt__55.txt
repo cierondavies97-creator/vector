@@ -1,0 +1,3 @@
+"field()", then the class attribute for this field will be replaced
+   by the specified *default* value.  If *default* is not provided,
+   then the class attribute will be deleted.  The intent is that after

@@ -1,0 +1,12 @@
+line.
+   python -m mimetypes [-h] [-e] [-l] type [type ...]
+The following options are accepted:
+-h
+--help
+   Show the help message and exit.
+-e
+--extension
+   Guess extension instead of type.
+-l
+--lenient
+   Additionally search for some common, but non-standard types.

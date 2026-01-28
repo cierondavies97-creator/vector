@@ -1,0 +1,4 @@
+used?
+A: The "quantize()" method rounds to a fixed number of decimal places.
+If the "Inexact" trap is set, it is also useful for validation:
+>>> TWOPLACES = Decimal(10) ** -2       # same as Decimal('0.01')

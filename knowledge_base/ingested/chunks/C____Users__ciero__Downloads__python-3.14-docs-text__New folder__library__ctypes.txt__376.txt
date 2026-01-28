@@ -1,0 +1,5 @@
+Represents the C double complex datatype, if available.  The
+   constructor accepts an optional "complex" initializer.
+   Added in version 3.14.
+class ctypes.c_float_complex
+   Represents the C float complex datatype, if available.  The

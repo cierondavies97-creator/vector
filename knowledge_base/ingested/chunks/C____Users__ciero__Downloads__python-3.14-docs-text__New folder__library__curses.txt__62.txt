@@ -1,0 +1,5 @@
+pad region is to be displayed.
+curses.newwin(nlines, ncols)
+curses.newwin(nlines, ncols, begin_y, begin_x)
+   Return a new window, whose left-upper corner is at  "(begin_y,
+   begin_x)", and whose height/width is  *nlines*/*ncols*.

@@ -1,0 +1,6 @@
+than just checking whether or not they occurred, code like this can
+   be used:
+      with check_warnings(quiet=True) as w:
+          warnings.warn("foo")
+          assert str(w.args[0]) == "foo"
+          warnings.warn("bar")

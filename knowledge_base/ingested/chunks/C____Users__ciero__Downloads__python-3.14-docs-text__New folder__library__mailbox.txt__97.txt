@@ -1,0 +1,7 @@
+the following:
+   Changed in version 3.13: Supported folders that don't contain a
+   ".mh_sequences" file.
+   list_folders()
+      Return a list of the names of all folders.
+   get_folder(folder)
+      Return an "MH" instance representing the folder whose name is

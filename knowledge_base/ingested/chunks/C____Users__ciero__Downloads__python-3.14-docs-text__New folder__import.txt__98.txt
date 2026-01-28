@@ -1,0 +1,4 @@
+explicitly control the repr of module objects.
+If the module has a spec ("__spec__"), the import machinery will try
+to generate a repr from it.  If that fails or there is no spec, the
+import system will craft a default repr using whatever information is

@@ -1,0 +1,3 @@
+their counts are stored as dictionary values.  Counts are allowed
+   to be any integer value including zero or negative counts.  The
+   "Counter" class is similar to bags or multisets in other languages.

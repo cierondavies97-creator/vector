@@ -1,0 +1,3 @@
+callable allows the user to programmatically control the state-
+     updating behavior of a specific object, instead of using "obj"'s
+     static "__setstate__()" method. If not "None", this callable will

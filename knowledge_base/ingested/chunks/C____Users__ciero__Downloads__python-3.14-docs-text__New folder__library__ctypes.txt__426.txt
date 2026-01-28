@@ -1,0 +1,3 @@
+It is possible to define sub-subclasses of structures, they inherit
+   the fields of the base class.  If the subclass definition has a
+   separate "_fields_" variable, the fields specified in this are

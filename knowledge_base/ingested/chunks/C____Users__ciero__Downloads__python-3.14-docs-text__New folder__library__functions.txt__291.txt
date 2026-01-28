@@ -1,0 +1,4 @@
+For other containers see the built-in "frozenset", "list", "tuple",
+   and "dict" classes, as well as the "collections" module.
+setattr(object, name, value, /)
+   This is the counterpart of "getattr()".  The arguments are an

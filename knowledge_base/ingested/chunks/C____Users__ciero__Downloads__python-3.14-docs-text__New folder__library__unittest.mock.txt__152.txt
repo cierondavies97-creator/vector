@@ -1,0 +1,8 @@
+same as "Mock.call_args".
+      >>> mock = AsyncMock()
+      >>> async def main(*args):
+      ...     await mock(*args)
+      ...
+      >>> mock.await_args
+      >>> asyncio.run(main('foo'))
+      >>> mock.await_args

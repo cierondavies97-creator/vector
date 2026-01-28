@@ -1,0 +1,4 @@
+"get_default_type()".  If the *Content-Type* header is invalid,
+      return "text/plain".
+      (According to **RFC 2045**, messages always have a default type,
+      "get_content_type()" will always return a value.  **RFC 2045**

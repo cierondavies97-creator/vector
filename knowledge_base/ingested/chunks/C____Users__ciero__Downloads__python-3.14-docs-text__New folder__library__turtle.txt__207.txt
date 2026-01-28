@@ -1,0 +1,9 @@
+>>> for _ in range(72):
+      ...     left(10)
+      ...
+      >>> for _ in range(8):
+      ...     left(45); fd(2)   # a regular octagon
+Animation control
+-----------------
+turtle.no_animation()
+   Temporarily disable turtle animation. The code written inside the

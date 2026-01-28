@@ -1,0 +1,4 @@
+constructor of "IPv6Network", except that arbitrary host addresses
+   are always accepted.
+   "IPv6Interface" is a subclass of "IPv6Address", so it inherits all
+   the attributes from that class.  In addition, the following

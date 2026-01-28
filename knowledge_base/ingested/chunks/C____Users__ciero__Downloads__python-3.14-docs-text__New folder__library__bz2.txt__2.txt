@@ -1,0 +1,5 @@
+(de)compression.
+* The "compress()" and "decompress()" functions for one-shot
+  (de)compression.
+This is an *optional module*. If it is missing from your copy of
+CPython, look for documentation from your distributor (that is,

@@ -1,0 +1,5 @@
+"bool" operand.
+POP_JUMP_IF_FALSE(delta)
+   If "STACK[-1]" is false, increments the bytecode counter by
+   *delta*. "STACK[-1]" is popped.
+   Changed in version 3.11: The oparg is now a relative delta rather

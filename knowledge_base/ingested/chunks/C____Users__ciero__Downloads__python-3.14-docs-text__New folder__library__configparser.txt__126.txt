@@ -1,0 +1,5 @@
+An example of reading the configuration file again:
+   import configparser
+   config = configparser.RawConfigParser()
+   config.read('example.cfg')
+   # getfloat() raises an exception if the value is not a float

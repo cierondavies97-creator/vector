@@ -1,0 +1,1 @@
+XML. The issue is known as **CVE 2023-52425**.

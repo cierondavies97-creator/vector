@@ -1,0 +1,5 @@
+"urlopen()".
+OpenerDirector objects open URLs in three stages:
+The order in which these methods are called within each stage is
+determined by sorting the handler instances.
+1. Every handler with a method named like "<protocol>_request()" has

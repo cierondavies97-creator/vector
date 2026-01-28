@@ -1,0 +1,5 @@
+from stat import *
+   def walktree(top, callback):
+       '''recursively descend the directory tree rooted at top,
+          calling the callback function for each regular file'''
+       for f in os.listdir(top):

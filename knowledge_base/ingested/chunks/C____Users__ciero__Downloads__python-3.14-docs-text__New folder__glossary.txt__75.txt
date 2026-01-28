@@ -1,0 +1,8 @@
+function definitions are semantically equivalent:
+      def f(arg):
+          ...
+      f = staticmethod(f)
+      @staticmethod
+      def f(arg):
+          ...
+   The same concept exists for classes, but is less commonly used

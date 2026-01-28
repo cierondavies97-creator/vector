@@ -1,0 +1,3 @@
+Numbers are created by numeric literals or as the result of built-in
+functions and operators.  Unadorned integer literals (including hex,
+octal and binary numbers) yield integers.  Numeric literals containing

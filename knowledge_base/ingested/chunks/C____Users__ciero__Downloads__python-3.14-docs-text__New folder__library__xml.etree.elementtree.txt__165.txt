@@ -1,0 +1,5 @@
+remove(subelement)
+      Removes *subelement* from the element.  Unlike the find* methods
+      this method compares elements based on the instance identity,
+      not on tag value or contents.
+   "Element" objects also support the following sequence type methods

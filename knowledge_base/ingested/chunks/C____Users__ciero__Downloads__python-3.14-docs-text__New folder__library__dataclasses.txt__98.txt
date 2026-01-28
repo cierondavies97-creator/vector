@@ -1,0 +1,5 @@
+"replace()" handles "init=False" fields.
+Class variables
+===============
+One of the few places where "@dataclass" actually inspects the type of
+a field is to determine if a field is a class variable as defined in

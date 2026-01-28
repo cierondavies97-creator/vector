@@ -1,0 +1,3 @@
+documentation of the Win32 function "WaitForMultipleObjects()") or
+   it can be an object with a "fileno()" method which returns a socket
+   handle or pipe handle.  (Note that pipe handles and socket handles

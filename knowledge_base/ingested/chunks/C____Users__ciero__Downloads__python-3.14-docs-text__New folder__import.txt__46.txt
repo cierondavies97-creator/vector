@@ -1,0 +1,5 @@
+path item is encountered.  Import path hooks are registered by adding
+new callables to "sys.path_hooks" as described below.
+5.3.4. The meta path
+--------------------
+When the named module is not found in "sys.modules", Python next

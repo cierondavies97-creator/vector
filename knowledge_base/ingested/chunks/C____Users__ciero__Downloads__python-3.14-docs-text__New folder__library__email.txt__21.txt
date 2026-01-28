@@ -1,0 +1,3 @@
+does *not* hide the details of the RFCs from the application, but for
+applications that need to operate at that level, they can be useful
+tools.  This documentation is also relevant for applications that are

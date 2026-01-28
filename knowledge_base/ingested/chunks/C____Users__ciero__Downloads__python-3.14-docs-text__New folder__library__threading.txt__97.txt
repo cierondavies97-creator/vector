@@ -1,0 +1,6 @@
+in the main thread default to "daemon" = "False".
+      The entire Python program exits when no alive non-daemon threads
+      are left.
+   isDaemon()
+   setDaemon()
+      Deprecated getter/setter API for "daemon"; use it directly as a

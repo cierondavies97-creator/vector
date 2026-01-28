@@ -1,0 +1,6 @@
+objects
+  * "operator" --- Standard operators as functions
+* File and Directory Access
+  * "pathlib" --- Object-oriented filesystem paths
+  * "os.path" --- Common pathname manipulations
+  * "stat" --- Interpreting "stat()" results

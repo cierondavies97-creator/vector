@@ -1,0 +1,5 @@
+with self.assertWarns(SomeWarning):
+             do_something()
+      When used as a context manager, "assertWarns()" accepts the
+      additional keyword argument *msg*.
+      The context manager will store the caught warning object in its

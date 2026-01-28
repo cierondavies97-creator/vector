@@ -1,0 +1,11 @@
+>>> turtle.penup()
+      >>> turtle.isdown()
+      False
+      >>> turtle.pendown()
+      >>> turtle.isdown()
+      True
+Color control
+~~~~~~~~~~~~~
+turtle.pencolor()
+turtle.pencolor(color, /)
+turtle.pencolor(r, g, b, /)

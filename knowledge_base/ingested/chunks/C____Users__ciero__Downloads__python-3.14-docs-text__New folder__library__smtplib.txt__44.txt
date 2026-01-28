@@ -1,0 +1,4 @@
+returned by the server, "False" otherwise. Case is ignored.
+SMTP.verify(address)
+   Check the validity of an address on this server using SMTP "VRFY".
+   Returns a tuple consisting of code 250 and a full **RFC 822**

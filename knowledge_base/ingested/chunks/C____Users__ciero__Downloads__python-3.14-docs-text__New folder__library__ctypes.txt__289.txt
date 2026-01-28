@@ -1,0 +1,4 @@
+Availability: Windows
+The optional *paramflags* parameter creates foreign function wrappers
+with much more functionality than the features described above.
+*paramflags* must be a tuple of the same length as "argtypes".

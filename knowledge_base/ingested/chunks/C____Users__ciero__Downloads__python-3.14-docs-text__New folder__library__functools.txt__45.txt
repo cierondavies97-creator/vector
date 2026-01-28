@@ -1,0 +1,5 @@
+>>> fib.cache_info()
+      CacheInfo(hits=28, misses=16, maxsize=None, currsize=16)
+   Added in version 3.2.
+   Changed in version 3.3: Added the *typed* option.
+   Changed in version 3.8: Added the *user_function* option.

@@ -1,0 +1,3 @@
+starts the server process (if it has not already started) and then
+   returns the manager object.  "__exit__()" calls "shutdown()".In
+   previous versions "__enter__()" did not start the manager's server

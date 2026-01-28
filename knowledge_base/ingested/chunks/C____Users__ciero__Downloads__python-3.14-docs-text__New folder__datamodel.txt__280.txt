@@ -1,0 +1,2 @@
+|                                                    | Accessing this attribute raises an auditing event  |
+|                                                    | "object.__getattr__" with arguments "obj" and      |

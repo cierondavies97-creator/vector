@@ -1,0 +1,3 @@
+server, passing *rest* as an argument.  *rest* is usually a byte
+      offset into the requested file, telling the server to restart
+      sending the file's bytes at the requested offset, skipping over

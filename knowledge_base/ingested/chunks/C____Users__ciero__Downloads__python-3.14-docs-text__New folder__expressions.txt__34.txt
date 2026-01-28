@@ -1,0 +1,4 @@
+directly in the enclosing scope and then passed as an argument to the
+implicitly nested scope. Subsequent "for" clauses and any filter
+condition in the leftmost "for" clause cannot be evaluated in the
+enclosing scope as they may depend on the values obtained from the

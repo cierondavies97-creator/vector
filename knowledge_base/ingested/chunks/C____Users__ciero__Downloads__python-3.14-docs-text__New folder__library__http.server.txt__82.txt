@@ -1,0 +1,6 @@
+the interpreter.  The following example illustrates how to serve files
+relative to the current directory:
+   python -m http.server [OPTIONS] [port]
+The following options are accepted:
+port
+   The server listens to port 8000 by default. The default can be

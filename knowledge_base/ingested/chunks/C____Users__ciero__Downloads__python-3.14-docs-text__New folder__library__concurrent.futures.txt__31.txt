@@ -1,0 +1,4 @@
+than the number of workers for "ProcessPoolExecutor".
+   Changed in version 3.6: Added the *thread_name_prefix* parameter to
+   allow users to control the "threading.Thread" names for worker
+   threads created by the pool for easier debugging.

@@ -1,0 +1,7 @@
+and *flags* arguments.
+   Availability: Unix, not WASI.
+   Note:
+     For a higher-level wrapper of "sendfile()", see
+     "socket.socket.sendfile()".
+   Added in version 3.3.
+   Changed in version 3.9: Parameters *out* and *in* was renamed to

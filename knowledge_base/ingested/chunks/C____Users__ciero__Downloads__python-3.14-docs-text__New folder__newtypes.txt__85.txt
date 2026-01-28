@@ -1,0 +1,7 @@
+static Py_hash_t
+   newdatatype_hash(PyObject *op)
+   {
+       newdatatypeobject *self = (newdatatypeobject *) op;
+       Py_hash_t result;
+       result = self->some_size + 32767 * self->some_number;
+       if (result == -1) {

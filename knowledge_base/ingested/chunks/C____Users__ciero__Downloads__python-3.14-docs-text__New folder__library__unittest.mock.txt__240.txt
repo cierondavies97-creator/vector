@@ -1,0 +1,5 @@
+let a test change a dictionary, and ensure the dictionary is restored
+when the test ends.
+>>> foo = {}
+>>> with patch.dict(foo, {'newkey': 'newvalue'}) as patched_foo:
+...     assert foo == {'newkey': 'newvalue'}

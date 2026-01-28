@@ -1,0 +1,3 @@
+Optional argument *pm* controls whether post-mortem debugging is
+   used.  If *pm* has a true value, the script file is run directly,
+   and the debugger gets involved only if the script terminates via

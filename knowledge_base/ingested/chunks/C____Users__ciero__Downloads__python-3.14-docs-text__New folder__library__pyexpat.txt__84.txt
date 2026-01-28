@@ -1,0 +1,4 @@
+are part of a construct which could be reported, but for which no
+   handler has been supplied.
+xmlparser.DefaultHandlerExpand(data)
+   This is the same as the "DefaultHandler()",  but doesn't inhibit

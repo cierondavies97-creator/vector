@@ -1,0 +1,3 @@
+| AugAssign(expr target, operator op, expr value)
+             -- 'simple' indicates that we annotate simple name without parens
+             | AnnAssign(expr target, expr annotation, expr? value, int simple)

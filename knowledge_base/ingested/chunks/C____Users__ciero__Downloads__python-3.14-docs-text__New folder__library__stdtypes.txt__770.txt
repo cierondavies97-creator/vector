@@ -1,0 +1,3 @@
+mapping type, the *dictionary*.  (For other containers see the built-
+in "list", "set", and "tuple" classes, and the "collections" module.)
+A dictionary's keys are *almost* arbitrary values.  Values that are

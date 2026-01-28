@@ -1,0 +1,5 @@
+this case "make_archive()" is not thread-safe.
+   If given, *extra_args* is a sequence of "(name, value)" pairs that
+   will be used as extra keywords arguments when the archiver callable
+   is used.
+   *description* is used by "get_archive_formats()" which returns the

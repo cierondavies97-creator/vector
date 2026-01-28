@@ -1,0 +1,4 @@
+setLevel(level)
+      Sets the threshold for this handler to *level*. Logging messages
+      which are less severe than *level* will be ignored. When a
+      handler is created, the level is set to "NOTSET" (which causes

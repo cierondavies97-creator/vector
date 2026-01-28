@@ -1,0 +1,4 @@
+tracebacks and other messages in cases where the source file does
+   not exist at the time the byte-code file is executed.
+   If *force* is true, modules are re-compiled even if the timestamps
+   are up to date.

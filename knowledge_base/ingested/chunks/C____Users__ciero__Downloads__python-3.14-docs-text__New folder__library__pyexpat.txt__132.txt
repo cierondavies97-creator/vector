@@ -1,0 +1,4 @@
+xml.parsers.expat.errors.XML_ERROR_SUSPEND_PE
+xml.parsers.expat.errors.XML_ERROR_RESERVED_PREFIX_XML
+   An attempt was made to undeclare reserved namespace prefix "xml" or
+   to bind it to another namespace URI.

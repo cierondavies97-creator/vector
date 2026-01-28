@@ -1,0 +1,5 @@
+raise ValueError
+          indices = count() if stop is None else range(max(start, stop))
+          next_i = start
+          for i, element in zip(indices, iterable):
+              if i == next_i:

@@ -1,0 +1,5 @@
+must be an integer identifying a group. This operation is typically
+   available only to the superuser.
+   Availability: Unix, not WASI.
+   Note:
+     On macOS, the length of *groups* may not exceed the system-

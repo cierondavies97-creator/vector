@@ -1,0 +1,5 @@
+by a custom usage message in the main parser.
+FileType objects
+----------------
+class argparse.FileType(mode='r', bufsize=-1, encoding=None, errors=None)
+   The "FileType" factory creates objects that can be passed to the

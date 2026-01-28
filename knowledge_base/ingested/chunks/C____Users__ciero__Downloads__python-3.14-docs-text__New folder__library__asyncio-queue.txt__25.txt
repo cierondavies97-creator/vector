@@ -1,0 +1,5 @@
+queue.put_nowait(sleep_for)
+       # Create three worker tasks to process the queue concurrently.
+       tasks = []
+       for i in range(3):
+           task = asyncio.create_task(worker(f'worker-{i}', queue))

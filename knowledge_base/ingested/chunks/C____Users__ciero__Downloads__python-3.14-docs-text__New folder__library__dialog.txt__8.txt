@@ -1,0 +1,4 @@
+*defaultextension* - default extension to append to file (save dialogs)
+      *multiple* - when true, selection of multiple items is allowed
+**Static factory functions**
+The below functions when called create a modal, native look-and-feel

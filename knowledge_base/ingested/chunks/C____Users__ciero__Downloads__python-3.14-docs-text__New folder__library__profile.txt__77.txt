@@ -1,0 +1,3 @@
+the line numbers. In fact, "sort_stats(SortKey.NFL)" is the same
+      as "sort_stats(SortKey.NAME, SortKey.FILENAME, SortKey.LINE)".
+      For backward-compatibility reasons, the numeric arguments "-1",

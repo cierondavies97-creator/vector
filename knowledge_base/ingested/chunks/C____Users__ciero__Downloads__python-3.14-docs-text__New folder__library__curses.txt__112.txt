@@ -1,0 +1,6 @@
+call "addstr()" separately for each line.
+window.attroff(attr)
+   Remove attribute *attr* from the "background" set applied to all
+   writes to the current window.
+window.attron(attr)
+   Add attribute *attr* to the "background" set applied to all writes

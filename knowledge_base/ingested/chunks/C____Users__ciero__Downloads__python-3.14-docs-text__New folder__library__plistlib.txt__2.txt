@@ -1,0 +1,4 @@
+supporting basic object types, like dictionaries, lists, numbers and
+strings.  Usually the top level object is a dictionary.
+To write out and to parse a plist file, use the "dump()" and "load()"
+functions.

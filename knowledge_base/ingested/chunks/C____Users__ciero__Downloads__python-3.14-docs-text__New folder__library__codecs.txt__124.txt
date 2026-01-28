@@ -1,0 +1,4 @@
+The "StreamReader" may implement different error handling schemes
+   by providing the *errors* keyword argument. See Error Handlers for
+   the standard error handlers the underlying stream codec may
+   support.

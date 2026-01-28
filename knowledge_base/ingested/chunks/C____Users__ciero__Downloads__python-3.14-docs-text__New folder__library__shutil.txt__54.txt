@@ -1,0 +1,4 @@
+false or omitted, such errors are handled by calling a handler
+   specified by *onexc* or *onerror* or, if both are omitted,
+   exceptions are propagated to the caller.
+   This function can support paths relative to directory descriptors.

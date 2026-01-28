@@ -1,0 +1,5 @@
+Run the command described by *args*.  Wait for command to complete,
+   then return the "returncode" attribute.
+   Code needing to capture stdout or stderr should use "run()"
+   instead:
+      run(...).returncode

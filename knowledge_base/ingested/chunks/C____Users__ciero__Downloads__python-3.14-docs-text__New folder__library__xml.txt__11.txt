@@ -1,0 +1,3 @@
+one large entity with a couple of thousand chars over and over
+   again. The attack isn't as efficient as the exponential case but it
+   avoids triggering parser countermeasures that forbid deeply nested

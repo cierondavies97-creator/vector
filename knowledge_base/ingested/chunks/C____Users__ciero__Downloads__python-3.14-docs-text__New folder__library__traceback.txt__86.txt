@@ -1,0 +1,5 @@
+print("*** extract_tb:")
+       print(repr(traceback.extract_tb(exc.__traceback__)))
+       print("*** format_tb:")
+       print(repr(traceback.format_tb(exc.__traceback__)))
+       print("*** tb_lineno:", exc.__traceback__.tb_lineno)

@@ -1,0 +1,5 @@
+Ctrl-D (i.e. EOF) to exit", and when accessed directly in the
+   interactive interpreter or called as functions, raise "SystemExit"
+   with the specified exit code.
+help
+   Object that when printed, prints the message "Type help() for

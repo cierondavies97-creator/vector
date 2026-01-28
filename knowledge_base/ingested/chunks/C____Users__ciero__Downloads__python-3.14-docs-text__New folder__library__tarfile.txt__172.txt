@@ -1,0 +1,4 @@
+available, use e.g. "hasattr(tarfile, 'data_filter')" rather than
+checking the Python version.
+The following examples show how to support Python versions with and
+without the feature. Note that setting "extraction_filter" will affect

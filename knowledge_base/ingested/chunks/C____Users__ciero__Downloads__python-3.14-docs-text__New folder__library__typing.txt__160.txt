@@ -1,0 +1,4 @@
+'''A type-safe decorator which provides a lock.'''
+          def inner(*args: P.args, **kwargs: P.kwargs) -> R:
+              # Provide the lock as the first argument.
+              return f(my_lock, *args, **kwargs)

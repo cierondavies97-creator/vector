@@ -1,0 +1,6 @@
+argument to "add_argument()":
+   >>> parser = argparse.ArgumentParser()
+   >>> parser.add_argument('bar')
+   >>> parser.parse_args(['XXX'])
+   Namespace(bar='XXX')
+For optional argument actions, the value of "dest" is normally

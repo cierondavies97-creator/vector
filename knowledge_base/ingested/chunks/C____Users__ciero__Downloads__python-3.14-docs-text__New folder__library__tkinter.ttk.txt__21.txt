@@ -1,0 +1,3 @@
+|==================|===========================================================|
+| xscrollcommand   | Used to communicate with horizontal scrollbars.  When the |
+|                  | view in the widget's window change, the widget will       |

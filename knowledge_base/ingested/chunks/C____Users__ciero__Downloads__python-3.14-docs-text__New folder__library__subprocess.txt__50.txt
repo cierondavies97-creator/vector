@@ -1,0 +1,4 @@
+shells and still want convenient access to other shell features
+   such as shell pipes, filename wildcards, environment variable
+   expansion, and expansion of "~" to a user's home directory.
+   However, note that Python itself offers implementations of many

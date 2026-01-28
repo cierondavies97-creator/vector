@@ -1,0 +1,4 @@
+entry*.  Most path entries name locations in the file system, but they
+need not be limited to this.
+As a meta path finder, the *path based finder* implements the
+"find_spec()" protocol previously described, however it exposes

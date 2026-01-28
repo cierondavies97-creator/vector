@@ -1,0 +1,5 @@
+instance members.
+   Added in version 3.2.
+"getattr_static()" does not resolve descriptors, for example slot
+descriptors or getset descriptors on objects implemented in C. The
+descriptor object is returned instead of the underlying attribute.

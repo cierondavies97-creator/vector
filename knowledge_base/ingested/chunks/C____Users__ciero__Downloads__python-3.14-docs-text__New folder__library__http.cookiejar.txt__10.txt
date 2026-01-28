@@ -1,0 +1,4 @@
+from a file or database.
+class http.cookiejar.FileCookieJar(filename=None, delayload=None, policy=None)
+   *policy* is an object implementing the "CookiePolicy" interface.
+   For the other arguments, see the documentation for the

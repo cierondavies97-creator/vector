@@ -1,0 +1,3 @@
+overloaded function. For example, given the definition of "process"
+   in the documentation for "@overload", "get_overloads(process)" will
+   return a sequence of three function objects for the three defined

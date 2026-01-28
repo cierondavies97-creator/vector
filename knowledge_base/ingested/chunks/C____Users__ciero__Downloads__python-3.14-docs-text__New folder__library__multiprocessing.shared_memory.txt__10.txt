@@ -1,0 +1,5 @@
+any process, the "unlink()" method should be called to ensure
+   proper cleanup.
+   Parameters:
+      * **name** (*str** | **None*) -- The unique name for the
+        requested shared memory, specified as a string. When creating

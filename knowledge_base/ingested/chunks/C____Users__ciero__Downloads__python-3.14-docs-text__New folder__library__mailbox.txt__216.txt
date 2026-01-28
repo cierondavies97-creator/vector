@@ -1,0 +1,3 @@
+By default, Rmail displays only visible headers. The "BabylMessage"
+   class, though, uses the original headers because they are more
+   complete. Visible headers may be accessed explicitly if desired.

@@ -1,0 +1,5 @@
+>>> del m
+   [INFO/MainProcess] sending shutdown message to manager
+   [INFO/SyncManager-...] manager exiting with exitcode 0
+For a full table of logging levels, see the "logging" module.
+The "multiprocessing.dummy" module

@@ -1,0 +1,4 @@
+The *dict_content* argument (a *bytes-like object*), is the already
+   trained dictionary information.
+   The *is_raw* argument, a boolean, is an advanced parameter
+   controlling the meaning of *dict_content*. "True" means

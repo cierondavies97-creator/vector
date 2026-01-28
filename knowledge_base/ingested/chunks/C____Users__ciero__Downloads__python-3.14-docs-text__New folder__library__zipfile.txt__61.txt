@@ -1,0 +1,4 @@
+""/"" or filenames with two dots "".."".  This module attempts to
+     prevent that. See "extract()" note.
+   Changed in version 3.6: Calling "extractall()" on a closed ZipFile
+   will raise a "ValueError".  Previously, a "RuntimeError" was

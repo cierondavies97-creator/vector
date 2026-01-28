@@ -1,0 +1,4 @@
+"email.headerregistry": Custom Header Objects
+*********************************************
+**Source code:** Lib/email/headerregistry.py
+======================================================================

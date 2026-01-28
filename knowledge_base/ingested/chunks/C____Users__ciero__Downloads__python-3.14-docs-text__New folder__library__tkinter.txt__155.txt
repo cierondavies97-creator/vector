@@ -1,0 +1,5 @@
+Text widget indexes
+   The index notation for Text widgets is very rich and is best
+   described in the Tk man pages.
+Menu indexes (menu.invoke(), menu.entryconfig(), etc.)
+   Some options and methods for menus manipulate specific menu

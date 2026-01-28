@@ -1,0 +1,4 @@
+encounters any problems.  "OptionValueError" takes a single string
+   argument, which is passed as-is to "OptionParser"'s "error()"
+   method, which in turn prepends the program name and the string
+   ""error:"" and prints everything to stderr before terminating the

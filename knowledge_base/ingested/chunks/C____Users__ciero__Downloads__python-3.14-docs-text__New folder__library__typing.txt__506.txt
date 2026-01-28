@@ -1,0 +1,3 @@
+The redundant types are deprecated as of Python 3.9. However, while
+the aliases may be removed at some point, removal of these aliases is
+not currently planned. As such, no deprecation warnings are currently

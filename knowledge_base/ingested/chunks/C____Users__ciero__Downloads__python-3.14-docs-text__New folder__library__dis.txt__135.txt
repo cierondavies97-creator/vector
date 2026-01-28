@@ -1,0 +1,6 @@
+instead of creating an empty dictionary pre-sized to hold *count*
+   items.
+BUILD_STRING(count)
+   Concatenates *count* strings from the stack and pushes the
+   resulting string onto the stack.
+   Added in version 3.6.

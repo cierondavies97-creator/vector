@@ -1,0 +1,5 @@
+of files and directories to compile.  If "list" is "-", read lines
+   from "stdin".
+-b
+   Write the byte-code files to their legacy locations and names,
+   which may overwrite byte-code files created by another version of

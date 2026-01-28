@@ -1,0 +1,5 @@
+future = asyncio.run_coroutine_threadsafe(coro_func(), loop)
+   # Wait for the result:
+   result = future.result()
+To handle signals the event loop must be run in the main thread.
+The "loop.run_in_executor()" method can be used with a

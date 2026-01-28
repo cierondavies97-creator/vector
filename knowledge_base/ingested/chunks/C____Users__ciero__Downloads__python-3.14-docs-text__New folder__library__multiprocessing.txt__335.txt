@@ -1,0 +1,6 @@
+>>> queue.get()
+   'hello'
+Local processes can also access that queue, using the code from above
+on the client to access it remotely:
+   >>> from multiprocessing import Process, Queue
+   >>> from multiprocessing.managers import BaseManager

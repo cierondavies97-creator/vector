@@ -1,0 +1,6 @@
+getvalue()
+      Return a "str" containing the entire contents of the buffer.
+      Newlines are decoded as if by "read()", although the stream
+      position is not changed.
+   Example usage:
+      import io

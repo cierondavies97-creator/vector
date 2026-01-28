@@ -1,0 +1,4 @@
+other error stream.
+   This wrapper may also generate output using the "warnings" module
+   to indicate behaviors that are questionable but which may not
+   actually be prohibited by **PEP 3333**.  Unless they are suppressed

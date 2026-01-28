@@ -1,0 +1,4 @@
+two separate cache entries.
+   If *user_function* is specified, it must be a callable. This allows
+   the *lru_cache* decorator to be applied directly to a user
+   function, leaving the *maxsize* at its default value of 128:

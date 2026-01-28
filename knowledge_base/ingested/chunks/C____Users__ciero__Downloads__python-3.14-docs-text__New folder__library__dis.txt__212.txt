@@ -1,0 +1,3 @@
++-------------------------------------+-------------------------------------+
+   | "INTRINSIC_PRINT"                   | Prints the argument to standard     |
+   |                                     | out. Used in the REPL.              |

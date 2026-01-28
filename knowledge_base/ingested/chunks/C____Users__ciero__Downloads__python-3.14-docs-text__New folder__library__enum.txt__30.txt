@@ -1,0 +1,8 @@
+>>> list(Color)
+         [<Color.RED: 1>, <Color.GREEN: 2>, <Color.BLUE: 3>]
+   __len__(cls)
+      Returns the number of member in *cls*:
+         >>> len(Color)
+         3
+   __members__
+      Returns a mapping of every enum name to its member, including

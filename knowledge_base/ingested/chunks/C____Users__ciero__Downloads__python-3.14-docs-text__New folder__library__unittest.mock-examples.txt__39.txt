@@ -1,0 +1,7 @@
+...         pass
+...
+>>> asyncio.run(main())
+>>> mock_instance.__aenter__.assert_awaited_once()
+>>> mock_instance.__aexit__.assert_awaited_once()
+Creating a Mock from an Existing Object
+---------------------------------------

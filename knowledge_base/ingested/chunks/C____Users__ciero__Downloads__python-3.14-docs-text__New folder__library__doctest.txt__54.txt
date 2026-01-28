@@ -1,0 +1,5 @@
+and as many leading whitespace characters are stripped from the
+  expected output as appeared in the initial "'>>> '" line that
+  started the example.
+What's the Execution Context?
+-----------------------------

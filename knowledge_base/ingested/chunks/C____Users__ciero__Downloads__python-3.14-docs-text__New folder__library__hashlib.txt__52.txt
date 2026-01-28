@@ -1,0 +1,5 @@
+comes in two flavors:
+* **BLAKE2b**, optimized for 64-bit platforms and produces digests of
+  any size between 1 and 64 bytes,
+* **BLAKE2s**, optimized for 8- to 32-bit platforms and produces
+  digests of any size between 1 and 32 bytes.

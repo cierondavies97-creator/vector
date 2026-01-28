@@ -1,0 +1,4 @@
+present, the associated value is the module satisfying the import, and
+the process completes.  However, if the value is "None", then a
+"ModuleNotFoundError" is raised.  If the module name is missing,
+Python will continue searching for the module.

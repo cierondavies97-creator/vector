@@ -1,0 +1,5 @@
+like relationship while *master*/*slave* reflects the container
+      structure.
+   children
+      The immediate descendants of this widget as a "dict" with the
+      child widget names as the keys and the child instance objects as

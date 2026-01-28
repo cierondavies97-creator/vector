@@ -1,0 +1,9 @@
+>>> mock()
+4
+>>> mock()
+5
+>>> mock()
+6
+For more advanced use cases, like dynamically varying the return
+values depending on what the mock is called with, "side_effect" can be
+a function. The function will be called with the same arguments as the

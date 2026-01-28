@@ -1,0 +1,5 @@
+two parameters is detected -- possibly providing useful
+      information and explaining the inequalities in details in the
+      error message.
+      Added in version 3.1.
+   The list of type-specific methods automatically used by

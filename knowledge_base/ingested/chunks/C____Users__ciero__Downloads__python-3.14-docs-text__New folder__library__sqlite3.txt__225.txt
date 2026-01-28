@@ -1,0 +1,4 @@
+"-1" for other statements, including CTE (Common Table
+      Expression) queries. It is only updated by the "execute()" and
+      "executemany()" methods, after the statement has run to
+      completion. This means that any resulting rows must be fetched

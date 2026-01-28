@@ -1,0 +1,4 @@
+that do not match any of the specified filters the test fails.  To
+   disable the first of these checks, set *quiet* to "True".
+   If no arguments are specified, it defaults to:
+      check_warnings(("", Warning), quiet=True)

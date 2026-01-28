@@ -1,0 +1,4 @@
+information is shown if *show_positions* is true. Otherwise (the
+      default) only the line number is displayed.
+   2. the current instruction, indicated as "-->",
+   3. a labelled instruction, indicated with ">>",

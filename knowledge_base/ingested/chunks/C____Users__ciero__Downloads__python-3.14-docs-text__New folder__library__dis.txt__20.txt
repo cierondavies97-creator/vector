@@ -1,0 +1,5 @@
+offsets in the output.
+   If *show_positions* is "True", "dis()" will include instruction
+   source code positions in the output.
+   classmethod from_traceback(tb, *, show_caches=False)
+      Construct a "Bytecode" instance from the given traceback,

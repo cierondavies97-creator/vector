@@ -1,0 +1,6 @@
+>>> m[-1]
+         44444444
+         >>> m[::2].tolist()
+         [-11111111, -33333333]
+      If the underlying object is writable, the memoryview supports
+      one-dimensional slice assignment. Resizing is not allowed:

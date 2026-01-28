@@ -1,0 +1,3 @@
+compatible format, by converting them to an ASCII compatible *Content-
+Transfer_Encoding*.  Using the terminology of the email RFCs, you can
+think of this as "Generator" serializing to an I/O stream that is not

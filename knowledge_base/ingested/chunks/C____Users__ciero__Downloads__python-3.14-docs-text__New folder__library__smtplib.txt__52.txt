@@ -1,0 +1,3 @@
+Issue an "SMTP" "AUTH" command for the specified authentication
+   *mechanism*, and handle the challenge response via *authobject*.
+   *mechanism* specifies which authentication mechanism is to be used

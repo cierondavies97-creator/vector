@@ -1,0 +1,3 @@
+for skipping the first map in the search.  Use cases are similar
+      to those for the "nonlocal" keyword used in *nested scopes*.
+      The use cases also parallel those for the built-in "super()"

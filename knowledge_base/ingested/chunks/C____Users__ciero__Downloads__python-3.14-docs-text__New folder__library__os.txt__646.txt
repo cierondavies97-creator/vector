@@ -1,0 +1,6 @@
+Performs "os.dup2(fd, new_fd)".
+   os.POSIX_SPAWN_CLOSEFROM
+      ("os.POSIX_SPAWN_CLOSEFROM", *fd*)
+      Performs "os.closerange(fd, INF)".
+   These tuples correspond to the C library
+   "posix_spawn_file_actions_addopen()",

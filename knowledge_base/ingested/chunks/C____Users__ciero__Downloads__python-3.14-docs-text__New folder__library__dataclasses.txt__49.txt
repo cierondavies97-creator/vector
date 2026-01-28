@@ -1,0 +1,4 @@
+other than "None" is discouraged.
+     One possible reason to set "hash=False" but "compare=True" would
+     be if a field is expensive to compute a hash value for, that
+     field is needed for equality testing, and there are other fields

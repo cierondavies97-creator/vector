@@ -1,0 +1,4 @@
+* ""exception"": An exception has occurred.
+      * ""c_call"": A C function is about to be called.
+      * ""c_return"": A C function has returned.
+      * ""c_exception"": A C function has raised an exception.

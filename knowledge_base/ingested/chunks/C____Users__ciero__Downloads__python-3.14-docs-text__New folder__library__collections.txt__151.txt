@@ -1,0 +1,5 @@
+>>> Pixel(11, 22, 128, 255, 0)
+      Pixel(x=11, y=22, red=128, green=255, blue=0)
+somenamedtuple._field_defaults
+   Dictionary mapping field names to default values.
+      >>> Account = namedtuple('Account', ['type', 'balance'], defaults=[0])

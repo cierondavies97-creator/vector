@@ -1,0 +1,4 @@
+will always receive a Python bytes object, *not* a "c_char_p"
+instance.
+Subclasses of fundamental data types do *not* inherit this behavior.
+So, if a foreign functions "restype" is a subclass of "c_void_p", you

@@ -1,0 +1,5 @@
+dictionary of keywords. Use "PyArg_ParseTupleAndKeywords()" to parse
+the arguments to such a function.
+The method table must be referenced in the module definition
+structure:
+   static struct PyModuleDef spam_module = {

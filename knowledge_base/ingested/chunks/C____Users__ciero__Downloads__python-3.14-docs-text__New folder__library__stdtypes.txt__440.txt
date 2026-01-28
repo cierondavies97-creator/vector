@@ -1,0 +1,4 @@
+string literals, with for the following differences:
+* Rather than evaluating to a "str" object, template string literals
+  evaluate to a "string.templatelib.Template" object.
+* The "format()" protocol is not used. Instead, the format specifier

@@ -1,0 +1,5 @@
+'hello'
+This REPL provides limited compatibility with "PYTHON_BASIC_REPL". It
+is recommended that the default REPL is used for full functionality
+and the latest features.
+Raises an auditing event "cpython.run_stdin" with no arguments.

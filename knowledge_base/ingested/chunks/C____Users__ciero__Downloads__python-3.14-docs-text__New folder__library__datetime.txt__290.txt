@@ -1,0 +1,5 @@
+format string for a "time" object in formatted string literals and
+   when using "str.format()". See also strftime() and strptime()
+   Behavior and "time.isoformat()".
+time.utcoffset()
+   If "tzinfo" is "None", returns "None", else returns

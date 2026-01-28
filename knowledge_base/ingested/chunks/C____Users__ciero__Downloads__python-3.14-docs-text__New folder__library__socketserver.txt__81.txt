@@ -1,0 +1,4 @@
+# We limit ourselves to 10000 bytes to avoid abuse by the sender.
+           self.data = self.rfile.readline(10000).rstrip()
+           print(f"{self.client_address[0]} wrote:")
+           print(self.data.decode("utf-8"))

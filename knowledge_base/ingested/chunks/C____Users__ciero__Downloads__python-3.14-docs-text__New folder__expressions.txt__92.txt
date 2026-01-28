@@ -1,0 +1,4 @@
+In typical use, this is called with a single exception instance
+   similar to the way the "raise" keyword is used.
+   For backwards compatibility, however, the second signature is
+   supported, following a convention from older versions of Python.

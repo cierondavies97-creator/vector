@@ -1,0 +1,5 @@
+to "x.__float__()". If "__float__()" is not defined then it falls
+   back to "__index__()".
+   Added in version 3.14.
+float.as_integer_ratio()
+   Return a pair of integers whose ratio is exactly equal to the

@@ -1,0 +1,6 @@
+using only a single call on the "Connection" object.
+   # Create and fill the table.
+   con = sqlite3.connect(":memory:")
+   con.execute("CREATE TABLE lang(name, first_appeared)")
+   data = [
+       ("C++", 1985),

@@ -1,0 +1,4 @@
+address.  A "ValueError" is raised if the integer is negative or
+   too large to be an IPv6 IP address.
+ipaddress.summarize_address_range(first, last)
+   Return an iterator of the summarized network range given the first

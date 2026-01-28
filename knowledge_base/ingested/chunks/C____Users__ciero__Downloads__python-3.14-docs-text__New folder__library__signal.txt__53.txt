@@ -1,0 +1,7 @@
+"thread_id", "signalnum".
+   Availability: Unix.
+   See the man page *pthread_kill(3)* for further  information.
+   See also "os.kill()".
+   Added in version 3.3.
+signal.pthread_sigmask(how, mask)
+   Fetch and/or change the signal mask of the calling thread.  The

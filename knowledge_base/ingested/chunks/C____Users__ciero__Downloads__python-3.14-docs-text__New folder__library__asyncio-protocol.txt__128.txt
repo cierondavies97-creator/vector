@@ -1,0 +1,4 @@
+# Create the subprocess controlled by DateProtocol;
+       # redirect the standard output into a pipe.
+       transport, protocol = await loop.subprocess_exec(
+           lambda: DateProtocol(exit_future),

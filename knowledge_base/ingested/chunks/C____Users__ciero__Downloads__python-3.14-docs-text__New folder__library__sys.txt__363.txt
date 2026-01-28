@@ -1,0 +1,5 @@
+exceptions are handled.
+   See also: "excepthook()" which handles uncaught exceptions.
+   Warning:
+     Storing "exc_value" using a custom hook can create a reference
+     cycle. It should be cleared explicitly to break the reference

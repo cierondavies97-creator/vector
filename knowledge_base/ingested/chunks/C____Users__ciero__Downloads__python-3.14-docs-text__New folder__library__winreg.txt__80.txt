@@ -1,0 +1,4 @@
+winreg.HKEY_PERFORMANCE_DATA
+   Registry entries subordinate to this key allow you to access
+   performance data. The data is not actually stored in the registry;
+   the registry functions cause the system to collect the data from

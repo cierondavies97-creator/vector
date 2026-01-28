@@ -1,0 +1,5 @@
+default filter list and is instead configured via "sys.warnoptions"
+when "-b" is specified twice.
+Overriding the default filter
+-----------------------------
+Developers of applications written in Python may wish to hide *all*

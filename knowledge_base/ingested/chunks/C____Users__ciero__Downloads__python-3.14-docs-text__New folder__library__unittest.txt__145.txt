@@ -1,0 +1,3 @@
+warnings, and log messages using the following methods:
+   +-----------------------------------------------------------+----------------------------------------+--------------+
+   | Method                                                    | Checks that                            | New in       |

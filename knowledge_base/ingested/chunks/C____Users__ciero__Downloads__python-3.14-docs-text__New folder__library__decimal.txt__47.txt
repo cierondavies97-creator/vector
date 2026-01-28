@@ -1,0 +1,3 @@
+Context(prec=9, rounding=ROUND_HALF_EVEN, Emin=-999999, Emax=999999,
+           capitals=1, clamp=0, flags=[Inexact, Rounded], traps=[])
+The *flags* entry shows that the rational approximation to pi was

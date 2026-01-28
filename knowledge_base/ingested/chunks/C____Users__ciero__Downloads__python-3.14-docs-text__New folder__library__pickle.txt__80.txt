@@ -1,0 +1,5 @@
+Raises an auditing event "pickle.find_class" with arguments
+      "module", "name".
+class pickle.PickleBuffer(buffer)
+   A wrapper for a buffer representing picklable data.  *buffer* must
+   be a buffer-providing object, such as a *bytes-like object* or a

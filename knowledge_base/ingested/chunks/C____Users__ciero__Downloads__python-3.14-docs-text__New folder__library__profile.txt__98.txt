@@ -1,0 +1,4 @@
+not that expensive, yet provides extensive run time statistics about
+the execution of a Python program.
+Call count statistics can be used to identify bugs in code (surprising
+counts), and to identify possible inline-expansion points (high call

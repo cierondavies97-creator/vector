@@ -1,0 +1,4 @@
+directory; see the mkdir() description for how it is interpreted.
+   To set the file permission bits of any newly created parent
+   directories you can set the umask before invoking "makedirs()".
+   The file permission bits of existing parent directories are not

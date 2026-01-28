@@ -1,0 +1,7 @@
+Note:
+  Specific platforms listed alphabetically, with Linux included in the
+  Unix section.
+Cross platform
+==============
+platform.architecture(executable=sys.executable, bits='', linkage='')
+   Queries the given executable (defaults to the Python interpreter

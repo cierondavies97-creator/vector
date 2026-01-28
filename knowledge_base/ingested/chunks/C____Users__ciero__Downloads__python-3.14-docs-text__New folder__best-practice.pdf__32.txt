@@ -1,0 +1,7 @@
+except TypeError as e:
+raise TypeError("'my_product' expects a sequence") from e
+▶ don’t use special return values:
+1, 0, False, None
+▶ Fail early, fail often
+▶ use built-in Exceptions
+Nicola Chiapolini, 8 July 2024

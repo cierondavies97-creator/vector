@@ -1,0 +1,2 @@
+"/dev/random" pool instead of the "/dev/urandom" pool.
+   Added in version 3.6.

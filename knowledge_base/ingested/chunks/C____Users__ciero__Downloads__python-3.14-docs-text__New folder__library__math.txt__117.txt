@@ -1,0 +1,7 @@
+math.ldexp(x, i)
+   Return "x * (2**i)".  This is essentially the inverse of function
+   "frexp()".
+math.nextafter(x, y, steps=1)
+   Return the floating-point value *steps* steps after *x* towards
+   *y*.
+   If *x* is equal to *y*, return *y*, unless *steps* is zero.

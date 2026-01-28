@@ -1,0 +1,4 @@
+methods.
+The behaviour described in this section applies only to the URL
+parsing functions. The URL quoting functions use their own rules when
+producing or consuming byte sequences as detailed in the documentation

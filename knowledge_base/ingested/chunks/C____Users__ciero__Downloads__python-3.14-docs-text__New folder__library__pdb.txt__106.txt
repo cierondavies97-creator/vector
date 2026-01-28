@@ -1,0 +1,5 @@
+(Pdb) ! n=42
+      (Pdb)
+   To set a global variable, you can prefix the assignment command
+   with a "global" statement on the same line, e.g.:
+      (Pdb) global list_options; list_options = ['-l']

@@ -1,0 +1,5 @@
+will have reached the end of the set of values to be yielded.
+3.2.8.6. Built-in functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A built-in function object is a wrapper around a C function.  Examples
+of built-in functions are "len()" and "math.sin()" ("math" is a

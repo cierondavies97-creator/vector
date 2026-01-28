@@ -1,0 +1,5 @@
+returned.
+      Added in version 3.8.
+   npgettext(context, singular, plural, n)
+      Do a plural-forms lookup of a message id.  *singular* is used as
+      the message id for purposes of lookup in the catalog, while *n*

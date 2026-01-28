@@ -1,0 +1,4 @@
+"_parse()" to enable reading GNU **gettext** format ".mo" files in
+both big-endian and little-endian format.
+"GNUTranslations" parses optional metadata out of the translation
+catalog. It is convention with GNU **gettext** to include metadata as

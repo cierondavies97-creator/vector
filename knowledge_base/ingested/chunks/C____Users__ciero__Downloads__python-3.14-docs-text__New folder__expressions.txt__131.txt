@@ -1,0 +1,4 @@
+"StopAsyncIteration" exception.  If the asynchronous generator
+   yields a value, a "RuntimeError" is raised by the awaitable.  If
+   the asynchronous generator raises any other exception, it is
+   propagated to the caller of the awaitable.  If the asynchronous

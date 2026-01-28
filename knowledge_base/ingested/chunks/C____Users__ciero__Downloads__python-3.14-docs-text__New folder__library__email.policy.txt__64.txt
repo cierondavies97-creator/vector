@@ -1,0 +1,4 @@
+be converted back into binary data in the returned bytes object.
+class email.policy.EmailPolicy(**kw)
+   This concrete "Policy" provides behavior that is intended to be
+   fully compliant with the current email RFCs.  These include (but

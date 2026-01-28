@@ -1,0 +1,4 @@
+Changed in version 3.12: The *case_sensitive* parameter was added.
+PurePath.relative_to(other, walk_up=False)
+   Compute a version of this path relative to the path represented by
+   *other*.  If it's impossible, "ValueError" is raised:

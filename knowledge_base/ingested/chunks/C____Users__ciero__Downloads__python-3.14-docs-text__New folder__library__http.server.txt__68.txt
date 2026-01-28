@@ -1,0 +1,4 @@
+contents are returned.
+      A "'Content-type:'" header with the guessed content type is
+      output, followed by a "'Content-Length:'" header with the file's
+      size and a "'Last-Modified:'" header with the file's

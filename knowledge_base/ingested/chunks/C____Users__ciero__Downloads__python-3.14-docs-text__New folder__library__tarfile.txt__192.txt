@@ -1,0 +1,8 @@
+import tarfile
+   tar = tarfile.open("sample.tar", "w")
+   for name in ["foo", "bar", "quux"]:
+       tar.add(name)
+   tar.close()
+The same example using the "with" statement:
+   import tarfile
+   with tarfile.open("sample.tar", "w") as tar:

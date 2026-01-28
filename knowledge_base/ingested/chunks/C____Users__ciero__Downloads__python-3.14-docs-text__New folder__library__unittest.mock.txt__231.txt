@@ -1,0 +1,8 @@
+...     mock_method.assert_called_with(3)
+...
+>>> test()
+*spec*, *create* and the other arguments to "patch.object()" have the
+same meaning as they do for "patch()".
+patch.dict
+----------
+patch.dict(in_dict, values=(), clear=False, **kwargs)

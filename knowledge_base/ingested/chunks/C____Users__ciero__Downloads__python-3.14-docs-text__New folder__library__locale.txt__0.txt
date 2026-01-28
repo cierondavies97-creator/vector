@@ -1,0 +1,5 @@
+"locale" --- Internationalization services
+******************************************
+**Source code:** Lib/locale.py
+======================================================================
+The "locale" module opens access to the POSIX locale database and

@@ -1,0 +1,6 @@
+>>> Path.cwd()
+      PosixPath('/home/antoine/pathlib')
+Path.absolute()
+   Make the path absolute, without normalization or resolving
+   symlinks. Returns a new path object:
+      >>> p = Path('tests')

@@ -1,0 +1,5 @@
+Temporarily Suppressing Warnings
+================================
+If you are using code that you know will raise a warning, such as a
+deprecated function, but do not want to see the warning (even when
+warnings have been explicitly configured via the command line), then

@@ -1,0 +1,5 @@
+considered a delimiter.  This means values (but not keys) can
+  contain the delimiters.
+  See also the *space_around_delimiters* argument to
+  "ConfigParser.write()".
+* *comment_prefixes*, default value: "('#', ';')"

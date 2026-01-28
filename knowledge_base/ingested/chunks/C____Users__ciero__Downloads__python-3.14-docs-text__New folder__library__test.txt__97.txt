@@ -1,0 +1,5 @@
+@test.support.requires_resource(resource)
+   Decorator for skipping tests if *resource* is not available.
+@test.support.requires_docstrings
+   Decorator for only running the test if "HAVE_DOCSTRINGS".
+@test.support.requires_limited_api

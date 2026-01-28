@@ -1,0 +1,5 @@
+"DictReader" instance), parsed according to the current "Dialect".
+   Usually you should call this as "next(reader)".
+Reader objects have the following public attributes:
+csvreader.dialect
+   A read-only description of the dialect in use by the parser.

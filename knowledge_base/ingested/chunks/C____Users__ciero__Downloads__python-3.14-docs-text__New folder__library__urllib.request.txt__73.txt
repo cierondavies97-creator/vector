@@ -1,0 +1,4 @@
+information on the interface that must be supported.
+   HTTPBasicAuthHandler will raise a "ValueError" when presented with
+   a wrong Authentication scheme.
+class urllib.request.ProxyBasicAuthHandler(password_mgr=None)

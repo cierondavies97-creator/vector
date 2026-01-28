@@ -1,0 +1,6 @@
+Note:
+     The bytearray version of this method does *not* operate in place
+     - it always produces a new object, even if no changes were made.
+bytes.isalnum()
+bytearray.isalnum()
+   Return "True" if all bytes in the sequence are alphabetical ASCII

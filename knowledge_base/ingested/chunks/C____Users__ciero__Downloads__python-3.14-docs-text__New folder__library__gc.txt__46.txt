@@ -1,0 +1,5 @@
+various generations are collected, and how long the collection
+      takes.
+      Allowing applications to identify and clear their own
+      uncollectable types when they appear in "garbage".
+   Added in version 3.3.

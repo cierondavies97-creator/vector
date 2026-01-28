@@ -1,0 +1,4 @@
+the query column name, as the converter dictionary key. The query
+   column name must be wrapped in double quotes (""") and the type
+   name must be wrapped in square brackets ("[]").
+      SELECT MAX(p) as "p [point]" FROM test;  ! will look up converter "point"

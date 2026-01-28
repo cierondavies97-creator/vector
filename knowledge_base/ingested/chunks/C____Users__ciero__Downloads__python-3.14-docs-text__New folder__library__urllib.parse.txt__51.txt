@@ -1,0 +1,4 @@
+Use the "urllib.parse.urlencode()" function to convert such lists
+   of pairs into query strings.
+   Changed in version 3.2: Add *encoding* and *errors* parameters.
+   Changed in version 3.8: Added *max_num_fields* parameter.

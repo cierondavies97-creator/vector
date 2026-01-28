@@ -1,0 +1,4 @@
+various arguments to the "import" statement, or from the parameters to
+the "importlib.import_module()" or "__import__()" functions.
+This name will be used in various phases of the import search, and it
+may be the dotted path to a submodule, e.g. "foo.bar.baz".  In this

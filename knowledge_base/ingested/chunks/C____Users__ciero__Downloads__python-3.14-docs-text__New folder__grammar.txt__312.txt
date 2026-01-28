@@ -1,0 +1,5 @@
+invalid_type_params:
+       | '[' token=']' {
+           RAISE_SYNTAX_ERROR_STARTING_FROM(
+               token,
+               "Type parameter list cannot be empty")}

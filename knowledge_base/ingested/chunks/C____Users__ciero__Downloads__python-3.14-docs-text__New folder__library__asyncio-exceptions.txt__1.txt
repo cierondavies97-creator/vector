@@ -1,0 +1,6 @@
+exceeded the given deadline.
+   Changed in version 3.11: This class was made an alias of
+   "TimeoutError".
+exception asyncio.CancelledError
+   The operation has been cancelled.
+   This exception can be caught to perform custom operations when

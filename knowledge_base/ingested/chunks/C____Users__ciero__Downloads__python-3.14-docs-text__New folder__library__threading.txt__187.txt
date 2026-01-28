@@ -1,0 +1,3 @@
+class threading.Timer(interval, function, args=None, kwargs=None)
+   Create a timer that will run *function* with arguments *args* and
+   keyword arguments *kwargs*, after *interval* seconds have passed.

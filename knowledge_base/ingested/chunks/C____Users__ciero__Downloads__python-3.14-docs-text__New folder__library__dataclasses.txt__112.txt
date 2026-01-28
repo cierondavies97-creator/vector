@@ -1,0 +1,4 @@
+keyword-only parameters are moved to come after all regular (non-
+keyword-only) parameters.  This is a requirement of how keyword-only
+parameters are implemented in Python: they must come after non-
+keyword-only parameters.

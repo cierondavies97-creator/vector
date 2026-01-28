@@ -1,0 +1,4 @@
+encoded string version of the same certificate.
+ssl.PEM_cert_to_DER_cert(pem_cert_string)
+   Given a certificate as an ASCII PEM string, returns a DER-encoded
+   sequence of bytes for that same certificate.

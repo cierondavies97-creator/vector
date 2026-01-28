@@ -1,0 +1,4 @@
+returns an instance of "ThreadPool", which is a subclass of "Pool"
+that supports all the same method calls but uses a pool of worker
+threads rather than worker processes.
+class multiprocessing.pool.ThreadPool([processes[, initializer[, initargs]]])

@@ -1,0 +1,6 @@
+return HOUR if dt.fold else ZERO
+           # DST is off.
+           return ZERO
+       def fromutc(self, dt):
+           assert dt.tzinfo is self
+           start, end = us_dst_range(dt.year)

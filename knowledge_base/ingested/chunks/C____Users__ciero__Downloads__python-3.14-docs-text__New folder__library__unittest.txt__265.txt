@@ -1,0 +1,6 @@
+from unittest import IsolatedAsyncioTestCase
+      events = []
+      class Test(IsolatedAsyncioTestCase):
+          def setUp(self):
+              events.append("setUp")
+          async def asyncSetUp(self):

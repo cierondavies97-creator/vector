@@ -1,0 +1,4 @@
+os.memfd_create(name[, flags=os.MFD_CLOEXEC])
+   Create an anonymous file and return a file descriptor that refers
+   to it. *flags* must be one of the "os.MFD_*" constants available on
+   the system (or a bitwise ORed combination of them).  By default,

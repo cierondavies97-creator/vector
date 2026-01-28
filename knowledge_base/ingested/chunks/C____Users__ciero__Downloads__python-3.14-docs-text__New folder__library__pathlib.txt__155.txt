@@ -1,0 +1,5 @@
+the same meaning as in "open()".
+   Added in version 3.5.
+   Changed in version 3.13: The *newline* parameter was added.
+Path.read_bytes()
+   Return the binary contents of the pointed-to file as a bytes

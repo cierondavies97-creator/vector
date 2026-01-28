@@ -1,0 +1,2 @@
++----------------------+----------------------------------------------------------------------------------+
+   | "factory"            | An alias for the "default_factory" parameter on field specifiers.                |

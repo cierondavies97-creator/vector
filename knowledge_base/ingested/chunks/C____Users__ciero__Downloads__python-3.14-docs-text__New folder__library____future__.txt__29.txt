@@ -1,0 +1,4 @@
+_Feature.compiler_flag
+   *CompilerFlag* is the (bitfield) flag that should be passed in the
+   fourth argument to the built-in function "compile()" to enable the
+   feature in dynamically compiled code.  This flag is stored in the

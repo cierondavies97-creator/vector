@@ -1,0 +1,4 @@
+for things like narrowing "list[object]" to "list[str]" even
+     though the latter is not a subtype of the former, since "list" is
+     invariant.
+   * When a "TypeGuard" function returns "True", type checkers narrow

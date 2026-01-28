@@ -1,0 +1,5 @@
+creates a template with empty placeholders in the "strings"
+      attribute:
+      >>> from string.templatelib import Interpolation, Template
+      >>> template = Template(
+      ...     Interpolation('Camembert', 'cheese'),

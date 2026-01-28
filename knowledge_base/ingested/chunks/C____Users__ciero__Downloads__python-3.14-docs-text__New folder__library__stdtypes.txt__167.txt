@@ -1,0 +1,5 @@
+*stop*. This is roughly equivalent to "start +
+   sequence[start:stop].index(value)", only without copying any data.
+   Caution:
+     Not all sequence types support passing the *start* and *stop*
+     arguments.

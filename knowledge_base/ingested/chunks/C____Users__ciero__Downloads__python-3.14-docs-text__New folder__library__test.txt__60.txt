@@ -1,0 +1,5 @@
+for _ in support.sleeping_retry(support.SHORT_TIMEOUT):
+          if check():
+              break
+   Example of error=False usage:
+      for _ in support.sleeping_retry(support.SHORT_TIMEOUT, error=False):

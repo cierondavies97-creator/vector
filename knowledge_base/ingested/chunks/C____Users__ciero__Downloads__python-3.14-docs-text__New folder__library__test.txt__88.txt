@@ -1,0 +1,5 @@
+test.support.checksizeof(test, o, size)
+   For testcase *test*, assert that the "sys.getsizeof" for *o* plus
+   the GC header size equals *size*.
+@test.support.anticipate_failure(condition)
+   A decorator to conditionally mark tests with

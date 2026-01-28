@@ -1,0 +1,6 @@
+>>> b'   spacious   '.rstrip()
+      b'   spacious'
+      >>> b'mississippi'.rstrip(b'ipz')
+      b'mississ'
+   The binary sequence of byte values to remove may be any *bytes-like
+   object*. See "removesuffix()" for a method that will remove a

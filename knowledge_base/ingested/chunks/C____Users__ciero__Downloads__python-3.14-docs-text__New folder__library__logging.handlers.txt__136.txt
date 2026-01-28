@@ -1,0 +1,4 @@
+own .dll or .exe which contains the message definitions you want to
+   use in the event log). The *logtype* is one of "'Application'",
+   "'System'" or "'Security'", and defaults to "'Application'".
+   close()

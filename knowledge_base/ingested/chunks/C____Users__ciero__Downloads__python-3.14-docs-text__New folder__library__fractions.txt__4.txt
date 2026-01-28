@@ -1,0 +1,4 @@
+instance with exactly the same value. Assumed, that the
+   "as_integer_ratio()" method returns a pair of coprime integers and
+   last one is positive. Note that due to the usual issues with binary
+   point (see Floating-Point Arithmetic:  Issues and Limitations), the

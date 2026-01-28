@@ -1,0 +1,8 @@
+* "compression()"
+   * "pending()"
+   * "do_handshake()"
+   * "verify_client_post_handshake()"
+   * "unwrap()"
+   * "get_channel_binding()"
+   * "version()"
+   When compared to "SSLSocket", this object lacks the following

@@ -1,0 +1,4 @@
+attributes only needs to implement the functions for one pair.  The
+difference is that one pair takes the name of the attribute as a
+char*, while the other accepts a PyObject*.  Each type can use
+whichever pair makes more sense for the implementation's convenience.

@@ -1,0 +1,5 @@
+Pure path objects implement the "os.PathLike" interface, allowing
+   them to be used anywhere the interface is accepted.
+   Changed in version 3.6: Added support for the "os.PathLike"
+   interface.
+class pathlib.PurePosixPath(*pathsegments)

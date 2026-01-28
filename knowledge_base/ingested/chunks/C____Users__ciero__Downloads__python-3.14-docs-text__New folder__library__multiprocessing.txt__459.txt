@@ -1,0 +1,4 @@
+a zombie. There should never be very many because each time a new
+   process starts (or "active_children()" is called) all completed
+   processes which have not yet been joined will be joined.  Also
+   calling a finished process's "Process.is_alive" will join the

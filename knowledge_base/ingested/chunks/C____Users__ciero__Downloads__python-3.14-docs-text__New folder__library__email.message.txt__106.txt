@@ -1,0 +1,4 @@
+specified, use it as the boundary string in the multipart,
+      otherwise leave the boundary to be automatically created when it
+      is needed (for example, when the message is serialized).
+   make_alternative(boundary=None)

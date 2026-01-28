@@ -1,0 +1,4 @@
+means that the function recursed.  The second value is the number of
+primitive calls and the former is the total number of calls.  Note
+that when the function does not recurse, these two values are the
+same, and only the single figure is printed.

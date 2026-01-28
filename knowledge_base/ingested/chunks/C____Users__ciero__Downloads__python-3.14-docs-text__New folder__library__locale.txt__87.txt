@@ -1,0 +1,4 @@
+If *monetary* is true, the conversion uses monetary thousands
+   separator and grouping strings.
+   Processes formatting specifiers as in "format % val", but takes the
+   current locale settings into account.

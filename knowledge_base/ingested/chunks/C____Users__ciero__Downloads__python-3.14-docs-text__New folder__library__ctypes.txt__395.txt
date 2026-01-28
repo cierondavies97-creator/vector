@@ -1,0 +1,6 @@
+specific data types, for example "HWND", "WPARAM", or "DWORD". Some
+useful structures like "MSG" or "RECT" are also defined.
+Structured data types
+---------------------
+class ctypes.Union(*args, **kw)
+   Abstract base class for unions in native byte order.

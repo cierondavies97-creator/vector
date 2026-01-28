@@ -1,0 +1,3 @@
+|                  | scrollbar to be updated whenever the view in the window   |
+|                  | changes.                                                  |
++------------------+-----------------------------------------------------------+

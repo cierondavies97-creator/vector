@@ -1,0 +1,4 @@
+there is at least one character, "False" otherwise.  A character
+   "c" is alphanumeric if one of the following returns "True":
+   "c.isalpha()", "c.isdecimal()", "c.isdigit()", or "c.isnumeric()".
+str.isalpha()

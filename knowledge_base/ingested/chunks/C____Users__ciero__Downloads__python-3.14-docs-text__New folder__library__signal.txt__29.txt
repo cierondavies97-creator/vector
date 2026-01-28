@@ -1,0 +1,5 @@
+signal names; only those names defined by the system are defined by
+   this module.
+signal.CTRL_C_EVENT
+   The signal corresponding to the "Ctrl"+"C" keystroke event. This
+   signal can only be used with "os.kill()".

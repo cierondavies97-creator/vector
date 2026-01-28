@@ -1,0 +1,4 @@
+"list.sort()". The *default* argument specifies an object to return
+   if the provided iterable is empty. If the iterable is empty and
+   *default* is not provided, a "ValueError" is raised.
+   If multiple items are minimal, the function returns the first one

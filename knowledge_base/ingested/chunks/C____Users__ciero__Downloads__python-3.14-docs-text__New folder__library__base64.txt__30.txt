@@ -1,0 +1,4 @@
+sequence 'y' instead of 4 consecutive spaces (ASCII 0x20) as
+   supported by 'btoa'. This feature is not supported by the
+   "standard" Ascii85 encoding.
+   *wrapcol* controls whether the output should have newline ("b'\n'")

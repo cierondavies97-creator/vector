@@ -1,0 +1,3 @@
+Delete an entire directory tree; *path* must point to a directory
+   (but not a symbolic link to a directory).  If *ignore_errors* is
+   true, errors resulting from failed removals will be ignored; if

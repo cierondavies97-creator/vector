@@ -1,0 +1,4 @@
+(if any).
+   Note that "signature()" and Signature Object provide the
+   recommended API for callable introspection, and support additional
+   behaviours (like positional-only arguments) that are sometimes

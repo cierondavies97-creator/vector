@@ -1,0 +1,5 @@
+is not allowed)
+   * "send()", "sendall()" (with the same limitation)
+   * "sendfile()" (but "os.sendfile" will be used for plain-text
+     sockets only, else "send()" will be used)
+   * "shutdown()"

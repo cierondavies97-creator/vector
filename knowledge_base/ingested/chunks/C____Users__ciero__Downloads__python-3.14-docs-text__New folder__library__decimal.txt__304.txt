@@ -1,0 +1,5 @@
+the number of decimal places and need to be followed-up with a
+"quantize()" step:
+>>> a = Decimal('102.72')           # Initial fixed-point values
+>>> b = Decimal('3.17')
+>>> a + b                           # Addition preserves fixed-point

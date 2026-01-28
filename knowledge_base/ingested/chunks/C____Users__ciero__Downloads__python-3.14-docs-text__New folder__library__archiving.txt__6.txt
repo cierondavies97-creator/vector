@@ -1,0 +1,8 @@
+* Interruption
+    * Default behaviors of extraction
+* "tarfile" --- Read and write tar archive files
+  * TarFile Objects
+  * TarInfo Objects
+  * Extraction filters
+    * Default named filters
+    * Filter errors

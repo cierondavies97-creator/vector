@@ -1,0 +1,4 @@
+""text"" (default is ""xml""). *xml_declaration*,
+   *default_namespace* and *short_empty_elements* has the same meaning
+   as in "ElementTree.write()". Returns an (optionally) encoded string
+   containing the XML data.

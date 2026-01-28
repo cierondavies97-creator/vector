@@ -1,0 +1,7 @@
+call('foo')
+      >>> asyncio.run(main('bar'))
+      >>> mock.await_args
+      call('bar')
+   await_args_list
+      This is a list of all the awaits made to the mock object in
+      sequence (so the length of the list is the number of times it

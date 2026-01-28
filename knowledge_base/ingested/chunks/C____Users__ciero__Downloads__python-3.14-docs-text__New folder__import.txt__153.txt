@@ -1,0 +1,6 @@
+moduleA.py
+In either "subpackage1/moduleX.py" or "subpackage1/__init__.py", the
+following are valid relative imports:
+   from .moduleY import spam
+   from .moduleY import spam as ham
+   from . import moduleY

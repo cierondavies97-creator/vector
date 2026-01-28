@@ -1,0 +1,6 @@
+handler.register_introspection_functions()
+   handler.register_instance(MyFuncs())
+   handler.handle_request()
+Documenting XMLRPC server
+=========================
+These classes extend the above classes to serve HTML documentation in

@@ -1,0 +1,5 @@
+are a getter and setter for the interpreter-wide limit.
+  Subinterpreters have their own limit.
+Information about the default and minimum can be found in
+"sys.int_info":
+* "sys.int_info.default_max_str_digits" is the compiled-in default

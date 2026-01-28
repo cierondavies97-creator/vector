@@ -1,0 +1,5 @@
+page *recv(2)* for the meaning of the optional argument *flags*; it
+   defaults to zero.
+socket.send(bytes[, flags])
+   Send data to the socket.  The socket must be connected to a remote
+   socket.  The optional *flags* argument has the same meaning as for

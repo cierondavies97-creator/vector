@@ -1,0 +1,3 @@
+"devpoll()" objects are linked to the number of file descriptors
+   allowed at the time of instantiation. If your program reduces this
+   value, "devpoll()" will fail. If your program increases this value,

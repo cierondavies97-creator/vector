@@ -1,0 +1,3 @@
+The global dispatch table managed by the "copyreg" module is available
+as "copyreg.dispatch_table".  Therefore, one may choose to use a
+modified copy of "copyreg.dispatch_table" as a private dispatch table.

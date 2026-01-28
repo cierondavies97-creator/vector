@@ -1,0 +1,3 @@
+| "timedelta = datetime1 - datetime2"     | (3)                              |
++-----------------------------------------+----------------------------------+
+| "datetime1 == datetime2" "datetime1 !=  | Equality comparison. (4)         |

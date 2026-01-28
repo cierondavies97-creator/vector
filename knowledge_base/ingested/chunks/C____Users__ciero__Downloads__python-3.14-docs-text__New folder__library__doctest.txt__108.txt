@@ -1,0 +1,4 @@
+10,  11, 12, 13, 14, 15, 16, 17, 18, 19]
+Without the directive it would fail, both because the actual output
+doesn't have two blanks before the single-digit list elements, and
+because the actual output is on a single line.  This test also passes,

@@ -1,0 +1,4 @@
+| Return(expr? value)
+             | Delete(expr* targets)
+             | Assign(expr* targets, expr value, string? type_comment)
+             | TypeAlias(expr name, type_param* type_params, expr value)

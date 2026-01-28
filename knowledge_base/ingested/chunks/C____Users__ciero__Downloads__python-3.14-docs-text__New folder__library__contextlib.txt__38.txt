@@ -1,0 +1,5 @@
+if not session:
+              # If no http session, create it with aiohttp
+              cm = aiohttp.ClientSession()
+          else:
+              # Caller is responsible for closing the session

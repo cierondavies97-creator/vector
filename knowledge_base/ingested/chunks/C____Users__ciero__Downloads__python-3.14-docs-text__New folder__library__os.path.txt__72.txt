@@ -1,0 +1,4 @@
+"os.lstat()", or "os.stat()".  This function implements the
+   underlying comparison used by "samefile()" and "sameopenfile()".
+   Changed in version 3.4: Added Windows support.
+os.path.split(path, /)

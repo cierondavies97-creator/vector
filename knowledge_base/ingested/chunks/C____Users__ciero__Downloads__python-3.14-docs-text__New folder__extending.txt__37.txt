@@ -1,0 +1,4 @@
+object-creating functions (for example, "PyLong_FromLong()") already
+do this, so this note is only relevant to those who call "malloc()"
+directly.
+Also note that, with the important exception of "PyArg_ParseTuple()"

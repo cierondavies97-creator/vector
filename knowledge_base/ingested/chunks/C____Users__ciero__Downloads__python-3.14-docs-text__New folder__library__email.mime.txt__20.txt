@@ -1,0 +1,3 @@
+constructor.
+   Changed in version 3.6: Added *policy* keyword-only parameter.
+class email.mime.audio.MIMEAudio(_audiodata, _subtype=None, _encoder=email.encoders.encode_base64, *, policy=compat32, **_params)

@@ -1,0 +1,4 @@
+contents of any existing target directory, before creating the
+     environment.
+   * *symlinks* -- a boolean value indicating whether to attempt to
+     symlink the Python binary rather than copying.

@@ -1,0 +1,4 @@
+verbose than the default if the code is correct; new warnings are only
+emitted when an issue is detected.
+It can be enabled using the "-X dev" command line option or by setting
+the "PYTHONDEVMODE" environment variable to "1".

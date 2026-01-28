@@ -1,0 +1,5 @@
+when getting, setting, or deleting an item. For example,
+   "environ['monty'] = 'python'" maps the key "'MONTY'" to the value
+   "'python'".
+   Note:
+     Calling "putenv()" directly does not change "os.environ", so it's

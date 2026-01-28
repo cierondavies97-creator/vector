@@ -1,0 +1,4 @@
+*_params* are passed straight through to the "MIMEBase"
+   constructor.
+   Changed in version 3.6: Added *policy* keyword-only parameter.
+class email.mime.message.MIMEMessage(_msg, _subtype='rfc822', *, policy=compat32)

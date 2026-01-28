@@ -1,0 +1,6 @@
+traversal only works properly if all panes have the notebook
+      they are in as master.
+Progressbar
+===========
+The "ttk.Progressbar" widget shows the status of a long-running
+operation. It can operate in two modes:  1) the determinate mode which

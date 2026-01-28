@@ -1,0 +1,3 @@
+section where to patch.
+unittest.mock.patch(target, new=DEFAULT, spec=None, create=False, spec_set=None, autospec=None, new_callable=None, **kwargs)
+   "patch()" acts as a function decorator, class decorator or a

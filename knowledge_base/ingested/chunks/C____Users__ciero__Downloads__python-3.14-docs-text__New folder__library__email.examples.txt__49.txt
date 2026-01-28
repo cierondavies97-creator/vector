@@ -1,0 +1,5 @@
+# be converted to unicode:
+   print('To:', msg['to'])
+   print('From:', msg['from'])
+   print('Subject:', msg['subject'])
+   # If we want to print a preview of the message content, we can extract whatever

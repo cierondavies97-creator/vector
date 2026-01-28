@@ -1,0 +1,3 @@
+"{attrname}" as the placeholder in the format string. If you are using
+$-formatting ("string.Template"), use the form "${attrname}". In both
+cases, of course, replace "attrname" with the actual attribute name

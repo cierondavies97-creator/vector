@@ -1,0 +1,4 @@
+"webbrowser" --- Convenient web-browser controller
+**************************************************
+**Source code:** Lib/webbrowser.py
+======================================================================

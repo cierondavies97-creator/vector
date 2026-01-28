@@ -1,0 +1,3 @@
+| "string"               | "str"                                                   |
+   +------------------------+---------------------------------------------------------+
+   | "array"                | "list" or "tuple" containing conformable elements.      |

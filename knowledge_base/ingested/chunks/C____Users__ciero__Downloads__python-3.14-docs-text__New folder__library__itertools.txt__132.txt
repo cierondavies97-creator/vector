@@ -1,0 +1,5 @@
+*iterables*.
+   If the iterables are of uneven length, missing values are filled-in
+   with *fillvalue*.  If not specified, *fillvalue* defaults to
+   "None".
+   Iteration continues until the longest iterable is exhausted.

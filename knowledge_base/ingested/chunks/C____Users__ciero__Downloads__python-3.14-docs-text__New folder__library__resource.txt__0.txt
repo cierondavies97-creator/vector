@@ -1,0 +1,4 @@
+"resource" --- Resource usage information
+*****************************************
+======================================================================
+This module provides basic mechanisms for measuring and controlling

@@ -1,0 +1,4 @@
+You can specify *encoding* and *errors* that is passed to "open()"
+   or *openhook*.
+   A "FileInput" instance can be used as a context manager in the
+   "with" statement.  In this example, *input* is closed after the

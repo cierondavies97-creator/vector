@@ -1,0 +1,3 @@
+| a=term '%' b=factor { _PyAST_BinOp(a, Mod, b, EXTRA) }
+       | a=term '@' b=factor { CHECK_VERSION(expr_ty, 5, "The '@' operator is", _PyAST_BinOp(a, MatMult, b, EXTRA)) }
+       | invalid_factor

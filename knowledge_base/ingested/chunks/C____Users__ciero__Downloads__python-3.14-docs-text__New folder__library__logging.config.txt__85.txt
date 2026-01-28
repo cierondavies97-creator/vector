@@ -1,0 +1,4 @@
+also defines the time format explicitly, and will result in a
+"logging.Formatter" initialized with those two format strings.  Shown
+in Python source form, the "brief" and "default" formatters have
+configuration sub-dictionaries:

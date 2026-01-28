@@ -1,0 +1,5 @@
+limitations still apply, use of this function in threaded code
+   should be either serialised with the import lock or delegated to a
+   separate process.
+   See also:
+     Interface options for equivalent functionality on the command

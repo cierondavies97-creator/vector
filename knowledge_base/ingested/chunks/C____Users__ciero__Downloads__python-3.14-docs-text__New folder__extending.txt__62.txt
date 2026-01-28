@@ -1,0 +1,4 @@
+1.4. The Module's Method Table and Initialization Function
+==========================================================
+I promised to show how "spam_system()" is called from Python programs.
+First, we need to list its name and address in a "method table":

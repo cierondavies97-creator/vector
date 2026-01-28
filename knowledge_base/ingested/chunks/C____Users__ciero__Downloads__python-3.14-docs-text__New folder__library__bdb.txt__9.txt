@@ -1,0 +1,8 @@
+file
+      File name of the "Breakpoint".
+   line
+      Line number of the "Breakpoint" within "file".
+   temporary
+      "True" if a "Breakpoint" at (file, line) is temporary.
+   cond
+      Condition for evaluating a "Breakpoint" at (file, line).

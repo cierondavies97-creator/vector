@@ -1,0 +1,5 @@
+"pkgutil" --- Package extension utility
+***************************************
+**Source code:** Lib/pkgutil.py
+======================================================================
+This module provides utilities for the import system, in particular

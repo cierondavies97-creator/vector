@@ -1,0 +1,4 @@
+below.
+HTTPConnection.putrequest(method, url, skip_host=False, skip_accept_encoding=False)
+   This should be the first call after the connection to the server
+   has been made. It sends a line to the server consisting of the

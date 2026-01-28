@@ -1,0 +1,6 @@
+>>> turtle.clearstamps(2)
+      >>> turtle.clearstamps(-2)
+      >>> turtle.clearstamps()
+turtle.undo()
+   Undo (repeatedly) the last turtle action(s).  Number of available
+   undo actions is determined by the size of the undobuffer.

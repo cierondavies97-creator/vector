@@ -1,0 +1,4 @@
+as specified in **PEP 552**. If the "SOURCE_DATE_EPOCH" environment
+   variable is set, *invalidation_mode* will be forced to
+   "PycInvalidationMode.CHECKED_HASH".
+   Changed in version 3.7.2: The "SOURCE_DATE_EPOCH" environment

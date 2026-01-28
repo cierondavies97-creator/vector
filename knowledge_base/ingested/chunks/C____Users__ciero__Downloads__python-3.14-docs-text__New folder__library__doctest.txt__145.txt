@@ -1,0 +1,5 @@
+A shallow copy of dictionary argument *globs* is used for the
+   execution context.
+   Optional argument *name* is used in failure messages, and defaults
+   to ""NoName"".
+   If optional argument *verbose* is true, output is generated even if

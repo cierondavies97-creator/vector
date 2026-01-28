@@ -1,0 +1,5 @@
+To configure the values returned from the iteration (implicit in the
+call to "list"), we need to configure the object returned by the call
+to "foo.iter()".
+>>> mock_foo = MagicMock()
+>>> mock_foo.iter.return_value = iter([1, 2, 3])

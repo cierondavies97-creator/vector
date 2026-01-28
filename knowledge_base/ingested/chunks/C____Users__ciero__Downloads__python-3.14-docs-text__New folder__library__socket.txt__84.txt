@@ -1,0 +1,5 @@
+socket.ETH_P_ALL
+   "ETH_P_ALL" can be used in the "socket" constructor as *proto* for
+   the "AF_PACKET" family in order to capture every packet, regardless
+   of protocol.
+   For more information, see the *packet(7)* manpage.

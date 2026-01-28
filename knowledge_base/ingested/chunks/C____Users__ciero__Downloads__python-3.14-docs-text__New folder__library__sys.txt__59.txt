@@ -1,0 +1,5 @@
+"pycache_prefix=PATH" command-line option or the
+   "PYTHONPYCACHEPREFIX" environment variable (command-line takes
+   precedence). If neither are set, it is "None".
+   Added in version 3.8.
+sys.excepthook(type, value, traceback)

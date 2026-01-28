@@ -1,0 +1,5 @@
+return the same value as for "machine()".  NetBSD does this.
+platform.python_build()
+   Returns a tuple "(buildno, builddate)" stating the Python build
+   number and date as strings.
+platform.python_compiler()

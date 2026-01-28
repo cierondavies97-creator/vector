@@ -1,0 +1,5 @@
+or with HTTPS:
+   python example.py https://example.com/path/page.html
+Register an open socket to wait for data using streams
+------------------------------------------------------
+Coroutine waiting until a socket receives data using the

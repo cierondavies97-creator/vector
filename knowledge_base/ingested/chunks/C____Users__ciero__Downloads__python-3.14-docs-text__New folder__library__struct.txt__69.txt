@@ -1,0 +1,4 @@
+"'B'", "'h'", "'H'", "'i'", "'I'", "'l'", "'L'", "'q'", "'Q'"), if "x"
+is outside the valid range for that format then "struct.error" is
+raised.
+Changed in version 3.1: Previously, some of the integer formats

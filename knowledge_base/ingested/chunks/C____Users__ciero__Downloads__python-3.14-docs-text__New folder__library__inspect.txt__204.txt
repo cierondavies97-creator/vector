@@ -1,0 +1,5 @@
+A *named tuple* is returned:
+   "FullArgSpec(args, varargs, varkw, defaults, kwonlyargs,
+   kwonlydefaults, annotations)"
+   *args* is a list of the positional parameter names. *varargs* is
+   the name of the "*" parameter or "None" if arbitrary positional

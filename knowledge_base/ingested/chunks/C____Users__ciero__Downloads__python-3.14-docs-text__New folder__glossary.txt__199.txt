@@ -1,0 +1,5 @@
+primitives* helps ensure deterministic behavior.
+object
+   Any data with state (attributes or value) and defined behavior
+   (methods).  Also the ultimate base class of any *new-style class*.
+optimized scope

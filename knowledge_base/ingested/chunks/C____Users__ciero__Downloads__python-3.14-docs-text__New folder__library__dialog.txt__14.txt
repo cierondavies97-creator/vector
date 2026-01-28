@@ -1,0 +1,5 @@
+The below classes are used for creating file/directory windows from
+scratch. These do not emulate the native look-and-feel of the
+platform.
+class tkinter.filedialog.Directory(master=None, **options)
+   Create a dialog prompting the user to select a directory.

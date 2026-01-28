@@ -1,0 +1,4 @@
+exception email.errors.MissingHeaderBodySeparatorDefect
+   A line was found while parsing headers that had no leading white
+   space but contained no ':'.  Parsing continues assuming that the
+   line represents the first line of the body.

@@ -1,0 +1,4 @@
+position or order of insertion.  Accordingly, sets do not support
+indexing, slicing, or other sequence-like behavior.
+There are currently two built-in set types, "set" and "frozenset". The
+"set" type is mutable --- the contents can be changed using methods

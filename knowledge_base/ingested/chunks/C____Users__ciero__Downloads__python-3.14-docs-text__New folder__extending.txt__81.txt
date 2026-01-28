@@ -1,0 +1,4 @@
+module as having no support for subinterpreters (via
+  "Py_MOD_MULTIPLE_INTERPRETERS_NOT_SUPPORTED").
+A more substantial example module is included in the Python source
+distribution as "Modules/xxlimited.c".  This file may be used as a

@@ -1,0 +1,2 @@
+| "default_platform"                | "PYTHON_MANAGER_DEFAULT_PLATFORM" | The preferred default platform to |
+|                                   |                                   | launch or install. This is        |

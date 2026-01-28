@@ -1,0 +1,5 @@
+@enum.verify
+   A "class" decorator specifically for enumerations.  Members from
+   "EnumCheck" are used to specify which constraints should be checked
+   on the decorated enumeration.
+   Added in version 3.11.

@@ -1,0 +1,4 @@
+other than those explicitly mentioned, are not considered.
+This module does not comply with the RFC in a strict fashion,
+implementing some extensions that are valid JavaScript but not valid
+JSON.  In particular:

@@ -1,0 +1,4 @@
+"train_dict()" can be used to generate a Zstandard dictionary.
+compression.zstd.decompress(data, zstd_dict=None, options=None)
+   Decompress *data* (a *bytes-like object*), returning the
+   uncompressed data as a "bytes" object.

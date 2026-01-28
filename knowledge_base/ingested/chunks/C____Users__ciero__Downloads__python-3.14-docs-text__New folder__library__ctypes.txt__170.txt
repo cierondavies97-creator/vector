@@ -1,0 +1,4 @@
+The "CFUNCTYPE()" factory function creates types for callback
+functions using the "cdecl" calling convention. On Windows, the
+"WINFUNCTYPE()" factory function creates types for callback functions
+using the "stdcall" calling convention.

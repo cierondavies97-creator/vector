@@ -1,0 +1,6 @@
+may be a *path-like object*. File attributes (owner, mtime, mode)
+   are set unless *set_attrs* is false.
+   The *numeric_owner* and *filter* arguments are the same as for
+   "extractall()".
+   Note:
+     The "extract()" method does not take care of several extraction

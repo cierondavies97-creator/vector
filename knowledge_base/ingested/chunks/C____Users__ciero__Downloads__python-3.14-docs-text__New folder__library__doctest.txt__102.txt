@@ -1,0 +1,5 @@
+isn't useful unless you intend to extend "doctest" internals via
+subclassing:
+doctest.register_optionflag(name)
+   Create a new option flag with a given name, and return the new
+   flag's integer value.  "register_optionflag()" can be used when

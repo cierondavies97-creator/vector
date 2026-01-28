@@ -1,0 +1,3 @@
+be used for the character set.  For example, if *input_charset* is
+   "iso-8859-1", then headers and bodies will be encoded using quoted-
+   printable and no output conversion codec is necessary.  If

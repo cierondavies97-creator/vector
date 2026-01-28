@@ -1,0 +1,4 @@
+*filterfunc*, if given, must be a function taking a single
+      string argument.  It will be passed each path (including each
+      individual full file path) before it is added to the archive.
+      If *filterfunc* returns a false value, the path will not be

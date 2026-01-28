@@ -1,0 +1,4 @@
+("'::'"); i.e., the same format that Unix "getopt()" uses.
+   Note:
+     Unlike GNU "getopt()", after a non-option argument, all further
+     arguments are considered also non-options. This is similar to the

@@ -1,0 +1,5 @@
+sys._emscripten_info
+   A *named tuple* holding information about the environment on the
+   *wasm32-emscripten* platform. The named tuple is provisional and
+   may change in the future.
+   _emscripten_info.emscripten_version

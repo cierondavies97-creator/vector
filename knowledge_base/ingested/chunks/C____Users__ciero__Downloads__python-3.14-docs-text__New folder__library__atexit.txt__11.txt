@@ -1,0 +1,3 @@
+once, every occurrence of that function in the "atexit" call stack
+   will be removed.  Equality comparisons ("==") are used internally
+   during unregistration, so function references do not need to have

@@ -1,0 +1,3 @@
+certainty that the Capsule they load contains the correct C API.
+The following example demonstrates an approach that puts most of the
+burden on the writer of the exporting module, which is appropriate for

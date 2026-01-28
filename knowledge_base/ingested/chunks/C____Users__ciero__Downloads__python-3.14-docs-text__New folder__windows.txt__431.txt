@@ -1,0 +1,4 @@
+recently installed version in that family.
+On 64-bit Windows with both 32-bit and 64-bit implementations of the
+same (major.minor) Python version installed, the 64-bit version will
+always be preferred. This will be true for both 32-bit and 64-bit

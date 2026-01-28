@@ -1,0 +1,5 @@
+argument is specified it will later be available for use in error
+   messages.  This is the same method used internally by the
+   "sourcehook()" method.
+shlex.pop_source()
+   Pop the last-pushed input source from the input stack. This is the

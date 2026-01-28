@@ -1,0 +1,7 @@
+* "Barrier"
+======================================================================
+Lock
+====
+class asyncio.Lock
+   Implements a mutex lock for asyncio tasks.  Not thread-safe.
+   An asyncio lock can be used to guarantee exclusive access to a

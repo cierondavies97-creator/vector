@@ -1,0 +1,4 @@
+class pathlib.PureWindowsPath(*pathsegments)
+   A subclass of "PurePath", this path flavour represents Windows
+   filesystem paths, including UNC paths:
+      >>> PureWindowsPath('c:/', 'Users', 'Ximénez')

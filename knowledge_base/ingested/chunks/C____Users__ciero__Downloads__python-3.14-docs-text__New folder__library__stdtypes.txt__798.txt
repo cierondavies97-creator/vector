@@ -1,0 +1,5 @@
+else return *default*.  If *default* is not given and *key* is
+      not in the dictionary, a "KeyError" is raised.
+   popitem()
+      Remove and return a "(key, value)" pair from the dictionary.
+      Pairs are returned in LIFO (last-in, first-out) order.

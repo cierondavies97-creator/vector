@@ -1,0 +1,5 @@
+kind = mo.lastgroup
+           value = mo.group()
+           column = mo.start() - line_start
+           if kind == 'NUMBER':
+               value = float(value) if '.' in value else int(value)

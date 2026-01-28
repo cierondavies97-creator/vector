@@ -1,0 +1,4 @@
+point, causing the coroutine to immediately clean itself up.
+   Finally, the coroutine is marked as having finished executing, even
+   if it was never started.
+   Coroutine objects are automatically closed using the above process

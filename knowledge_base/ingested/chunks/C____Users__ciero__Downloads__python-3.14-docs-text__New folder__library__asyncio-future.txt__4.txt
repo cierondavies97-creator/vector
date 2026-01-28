@@ -1,0 +1,4 @@
+If *obj* is neither of the above a "TypeError" is raised.
+   Important:
+     Save a reference to the result of this function, to avoid a task
+     disappearing mid-execution.See also the "create_task()" function

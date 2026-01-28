@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "py" gives me a "command not found" error when I   | Did you install the Python install manager?        |

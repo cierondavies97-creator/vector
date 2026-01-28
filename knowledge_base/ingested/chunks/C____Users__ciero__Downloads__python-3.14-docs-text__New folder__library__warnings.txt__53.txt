@@ -1,0 +1,4 @@
+in addition to "PendingDeprecationWarning".
+Changed in version 3.7: "DeprecationWarning" is once again shown by
+default when triggered directly by code in "__main__".
+Changed in version 3.7: "BytesWarning" no longer appears in the

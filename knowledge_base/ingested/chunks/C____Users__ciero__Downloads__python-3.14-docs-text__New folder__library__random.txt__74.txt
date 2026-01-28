@@ -1,0 +1,5 @@
+['four', 'two', 'ace', 'three']
+   >>> sample([10, 20, 30, 40, 50], k=4) # Four samples without replacement
+   [40, 10, 50, 30]
+Simulations:
+   >>> # Six roulette wheel spins (weighted sampling with replacement)

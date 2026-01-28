@@ -1,0 +1,6 @@
+The methods available on a transport depend on the transport's kind.
+The transport classes are not thread safe.
+Transports Hierarchy
+--------------------
+class asyncio.BaseTransport
+   Base class for all transports.  Contains methods that all asyncio

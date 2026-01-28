@@ -1,0 +1,4 @@
+correct. Enough padding is added to perform the decode, but the
+   resulting decoded bytes may be invalid.
+exception email.errors.InvalidBase64CharactersDefect
+   When decoding a block of base64 encoded bytes, characters outside

@@ -1,0 +1,10 @@
+errno.ENOTUNIQ
+   Name not unique on network
+errno.EBADFD
+   File descriptor in bad state
+errno.EREMCHG
+   Remote address changed
+errno.ELIBACC
+   Can not access a needed shared library
+errno.ELIBBAD
+   Accessing a corrupted shared library

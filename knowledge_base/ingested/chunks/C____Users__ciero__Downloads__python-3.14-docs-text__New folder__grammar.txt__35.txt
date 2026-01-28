@@ -1,0 +1,6 @@
+break_stmt[stmt_ty]:
+       | 'break' { _PyAST_Break(EXTRA) }
+   continue_stmt[stmt_ty]:
+       | 'continue' { _PyAST_Continue(EXTRA) }
+   global_stmt[stmt_ty]: 'global' a[asdl_expr_seq*]=','.NAME+ {
+       _PyAST_Global(CHECK(asdl_identifier_seq*, _PyPegen_map_names_to_ids(p, a)), EXTRA) }

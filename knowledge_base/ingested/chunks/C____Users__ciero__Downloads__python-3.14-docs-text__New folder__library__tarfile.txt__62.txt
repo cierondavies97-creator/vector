@@ -1,0 +1,6 @@
+Changed in version 3.8: The default format for new archives was
+   changed to "PAX_FORMAT" from "GNU_FORMAT".
+See also:
+  Module "zipfile"
+     Documentation of the "zipfile" standard module.
+  Archiving operations

@@ -1,0 +1,7 @@
+>>> from random import seed, binomialvariate
+   >>> seed(8675309)
+   >>> mean(binomialvariate(n, p) <= k for i in range(10_000))
+   0.8406
+Naive bayesian classifier
+-------------------------
+Normal distributions commonly arise in machine learning problems.

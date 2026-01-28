@@ -1,0 +1,4 @@
+subelements.  *element* is an "Element" instance.  *encoding* [1]
+   is the output encoding (default is US-ASCII).  Use
+   "encoding="unicode"" to generate a Unicode string (otherwise, a
+   bytestring is generated).  *method* is either ""xml"", ""html"" or

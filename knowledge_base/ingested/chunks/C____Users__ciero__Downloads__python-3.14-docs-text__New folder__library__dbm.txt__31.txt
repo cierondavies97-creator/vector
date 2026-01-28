@@ -1,0 +1,5 @@
+it doesn't exist.
+        * "'n'": Always create a new, empty database, open for reading
+          and writing.
+        The following additional characters may be appended to control
+        how the database is opened:

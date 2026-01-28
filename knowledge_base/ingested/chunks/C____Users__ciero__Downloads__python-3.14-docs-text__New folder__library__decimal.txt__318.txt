@@ -1,0 +1,4 @@
+Q: Within a complex calculation, how can I make sure that I haven't
+gotten a spurious result because of insufficient precision or rounding
+anomalies.
+A: The decimal module makes it easy to test results.  A best practice

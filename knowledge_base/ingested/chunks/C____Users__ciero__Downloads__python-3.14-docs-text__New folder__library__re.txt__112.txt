@@ -1,0 +1,6 @@
+also accepted by the regular expression parser:
+   \a      \b      \f      \n
+   \N      \r      \t      \u
+   \U      \v      \x      \\
+(Note that "\b" is used to represent word boundaries, and means
+"backspace" only inside character classes.)

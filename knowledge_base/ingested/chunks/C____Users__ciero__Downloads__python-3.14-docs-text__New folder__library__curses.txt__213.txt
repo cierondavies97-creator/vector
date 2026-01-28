@@ -1,0 +1,3 @@
+| curses.KEY_BREAK          | Break key (unreliable)                       |
++---------------------------+----------------------------------------------+
+| curses.KEY_DOWN           | Down-arrow                                   |

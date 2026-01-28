@@ -1,0 +1,6 @@
+main()
+Dispatch Tables
+---------------
+If one wants to customize pickling of some classes without disturbing
+any other code which depends on pickling, then one can create a
+pickler with a private dispatch table.

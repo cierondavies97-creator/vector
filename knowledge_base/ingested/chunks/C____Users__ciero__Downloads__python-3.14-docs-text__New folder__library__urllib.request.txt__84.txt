@@ -1,0 +1,7 @@
+class urllib.request.DataHandler
+   Open data URLs.
+   Added in version 3.4.
+class urllib.request.FTPHandler
+   Open FTP URLs.
+class urllib.request.CacheFTPHandler
+   Open FTP URLs, keeping a cache of open FTP connections to minimize

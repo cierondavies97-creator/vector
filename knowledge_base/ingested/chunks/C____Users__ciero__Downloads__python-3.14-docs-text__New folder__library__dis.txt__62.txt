@@ -1,0 +1,6 @@
+otherwise an empty string.
+   offset
+      start index of operation within bytecode sequence
+   start_offset
+      start index of operation within bytecode sequence, including
+      prefixed "EXTENDED_ARG" operations if present; otherwise equal

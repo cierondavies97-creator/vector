@@ -1,0 +1,8 @@
+pos
+      The start index of *doc* where parsing failed.
+   lineno
+      The line corresponding to *pos*.
+   colno
+      The column corresponding to *pos*.
+   Added in version 3.5.
+Standard Compliance and Interoperability

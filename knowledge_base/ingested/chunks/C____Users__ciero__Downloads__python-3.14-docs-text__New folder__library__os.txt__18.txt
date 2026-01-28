@@ -1,0 +1,4 @@
+use "backslashreplace" as it does in the default locale-aware mode)
+* On Unix, "os.device_encoding()" returns "'utf-8'" rather than the
+  device encoding.
+Note that the standard stream settings in UTF-8 mode can be overridden

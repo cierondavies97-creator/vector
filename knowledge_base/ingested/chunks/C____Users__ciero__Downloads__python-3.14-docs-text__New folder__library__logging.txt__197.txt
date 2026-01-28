@@ -1,0 +1,3 @@
+| name             | "%(name)s"                | Name of the logger used to log the call.        |
++------------------+---------------------------+-------------------------------------------------+
+| pathname         | "%(pathname)s"            | Full pathname of the source file where the      |

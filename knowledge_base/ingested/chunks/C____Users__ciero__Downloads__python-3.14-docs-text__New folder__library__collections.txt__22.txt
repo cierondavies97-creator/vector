@@ -1,0 +1,5 @@
+specified in **PEP 584**.
+See also:
+  * The MultiContext class in the Enthought CodeTools package has
+    options to support writing to any mapping in the chain.
+  * Django's Context class for templating is a read-only chain of

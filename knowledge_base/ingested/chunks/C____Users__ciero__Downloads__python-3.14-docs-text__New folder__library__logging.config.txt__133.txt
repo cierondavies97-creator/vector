@@ -1,0 +1,5 @@
+If the  "queue" key is absent, a standard unbounded "queue.Queue"
+instance is created and used.
+If the "listener" key is present, the corresponding value can be one
+of the following:
+* A subclass of "logging.handlers.QueueListener". This is of course

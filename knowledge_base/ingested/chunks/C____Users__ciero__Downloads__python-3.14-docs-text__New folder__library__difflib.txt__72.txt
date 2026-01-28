@@ -1,0 +1,3 @@
+returns "(i, j, k)" such that "a[i:i+k]" is equal to "b[j:j+k]",
+      where "alo <= i <= i+k <= ahi" and "blo <= j <= j+k <= bhi". For
+      all "(i', j', k')" meeting those conditions, the additional

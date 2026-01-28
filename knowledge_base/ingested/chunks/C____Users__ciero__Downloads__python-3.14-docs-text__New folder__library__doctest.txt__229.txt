@@ -1,0 +1,4 @@
+The optional keyword argument *checker* specifies the
+   "OutputChecker" object (or drop-in replacement) that should be used
+   to compare the expected outputs to the actual outputs of doctest
+   examples.

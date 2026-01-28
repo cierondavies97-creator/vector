@@ -1,0 +1,6 @@
+and "-b" are both simple options that take no arguments, "optparse"
+   normally accepts this syntax:
+      prog -a arg1 -b arg2
+   and treats it as equivalent to
+      prog -a -b arg1 arg2
+   To disable this feature, call "disable_interspersed_args()".  This

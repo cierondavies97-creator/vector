@@ -1,0 +1,3 @@
+header.  The header will be re-written in place without the
+      parameter or its value.  All values will be quoted as necessary
+      unless *requote* is "False" (the default is "True").  Optional

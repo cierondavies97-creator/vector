@@ -1,0 +1,5 @@
+Changed in version 3.13: Added the optional second type parameter,
+   "AExitT_co".
+Deprecation Timeline of Major Features
+======================================
+Certain features in "typing" are deprecated and may be removed in a

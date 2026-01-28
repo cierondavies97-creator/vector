@@ -1,0 +1,5 @@
+Changed in version 3.9: The *standalone* parameter was added.
+Node.toxml(encoding=None, standalone=None)
+   Return a string or byte string containing the XML represented by
+   the DOM node.
+   With an explicit *encoding* [1] argument, the result is a byte

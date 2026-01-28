@@ -1,0 +1,5 @@
+Pattern.subn(repl, string, count=0)
+   Identical to the "subn()" function, using the compiled pattern.
+Pattern.flags
+   The regex matching flags.  This is a combination of the flags given
+   to "compile()", any "(?...)" inline flags in the pattern, and

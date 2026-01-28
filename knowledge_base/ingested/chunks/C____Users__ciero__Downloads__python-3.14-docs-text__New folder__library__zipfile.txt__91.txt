@@ -1,0 +1,4 @@
+is the "pwd" parameter to "ZipFile.open()".
+   Changed in version 3.9: Added support for text and binary modes for
+   open. Default mode is now text.
+   Changed in version 3.11.2: The "encoding" parameter can be supplied

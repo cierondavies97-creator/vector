@@ -1,0 +1,6 @@
+exists).  This makes it possible to create read-only properties
+   easily using "property()" as a *decorator*:
+      class Parrot:
+          def __init__(self):
+              self._voltage = 100000
+          @property

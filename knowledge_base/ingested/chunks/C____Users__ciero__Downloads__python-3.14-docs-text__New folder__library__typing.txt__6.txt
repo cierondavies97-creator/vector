@@ -1,0 +1,4 @@
+(Some parts may still be specific to mypy.)
+  Static Typing with Python
+     Type-checker-agnostic documentation written by the community
+     detailing type system features, useful typing related tools and

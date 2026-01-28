@@ -1,0 +1,4 @@
+"PyErr_*", and so on --- the most detailed cause of the error was
+already reported by the function that first detected it.  Once the
+error reaches the Python interpreter's main loop, this aborts the
+currently executing Python code and tries to find an exception handler

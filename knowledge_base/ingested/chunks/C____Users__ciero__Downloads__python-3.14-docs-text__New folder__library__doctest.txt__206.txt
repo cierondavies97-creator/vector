@@ -1,0 +1,4 @@
+to a given object, from its docstring and the docstrings of its
+   contained objects. "DocTest"s can be extracted from modules,
+   classes, functions, methods, staticmethods, classmethods, and
+   properties.

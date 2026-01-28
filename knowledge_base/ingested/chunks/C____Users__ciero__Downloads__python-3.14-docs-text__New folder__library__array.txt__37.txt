@@ -1,0 +1,7 @@
+the last item is removed and returned.
+   remove(x)
+      Remove the first occurrence of *x* from the array.
+   clear()
+      Remove all elements from the array.
+      Added in version 3.13.
+   reverse()

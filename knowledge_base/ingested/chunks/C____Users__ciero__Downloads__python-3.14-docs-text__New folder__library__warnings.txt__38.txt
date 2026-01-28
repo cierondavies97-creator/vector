@@ -1,0 +1,3 @@
+of the fully qualified module name must match, case-sensitively.  In
+  "-W" and "PYTHONWARNINGS", *module* is a literal string that the
+  fully qualified module name must be equal to (case-sensitively),

@@ -1,0 +1,5 @@
+distributor (that is, whoever provided Python to you). If you are the
+distributor, see Requirements for optional modules.
+The module defines the following items:
+exception zipfile.BadZipFile
+   The error raised for bad ZIP files.

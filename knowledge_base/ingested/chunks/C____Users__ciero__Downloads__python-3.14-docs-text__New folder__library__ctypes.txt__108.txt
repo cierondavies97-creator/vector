@@ -1,0 +1,4 @@
+>>>
+"WinError" is a function which will call Windows "FormatMessage()" api
+to get the string representation of an error code, and *returns* an
+exception. "WinError" takes an optional error code parameter, if no

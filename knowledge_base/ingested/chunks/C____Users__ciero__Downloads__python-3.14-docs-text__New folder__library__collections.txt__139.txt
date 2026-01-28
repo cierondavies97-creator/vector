@@ -1,0 +1,6 @@
+>>> p[0] + p[1]             # indexable like the plain tuple (11, 22)
+   33
+   >>> x, y = p                # unpack like a regular tuple
+   >>> x, y
+   (11, 22)
+   >>> p.x + p.y               # fields also accessible by name

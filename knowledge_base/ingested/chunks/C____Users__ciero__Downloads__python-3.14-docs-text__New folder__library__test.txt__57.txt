@@ -1,0 +1,8 @@
+if check():
+              break
+   Example of error=False usage:
+      for _ in support.busy_retry(support.SHORT_TIMEOUT, error=False):
+          if check():
+              break
+      else:
+          raise RuntimeError('my custom error')

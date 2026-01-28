@@ -1,0 +1,3 @@
+| "int", "i1", "i2",     | "int" in range from -2147483648 to 2147483647. Values   |
+   | "i4", "i8" or          | get the "<int>" tag.                                    |
+   | "biginteger"           |                                                         |

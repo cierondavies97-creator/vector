@@ -1,0 +1,4 @@
+groups of warnings.
+While these are technically built-in exceptions, they are documented
+here, because conceptually they belong to the warnings mechanism.
+User code can define additional warning categories by subclassing one

@@ -1,0 +1,5 @@
+is fake!
+   Example usage (see also "demo_app()" for another example):
+      from wsgiref.util import setup_testing_defaults
+      from wsgiref.simple_server import make_server
+      # A relatively simple WSGI application. It's going to print out the

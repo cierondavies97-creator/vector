@@ -1,0 +1,5 @@
+numeric code for the base operation if operation is specialized;
+      otherwise equal to "opcode"
+   baseopname
+      human readable name for the base operation if operation is
+      specialized; otherwise equal to "opname"

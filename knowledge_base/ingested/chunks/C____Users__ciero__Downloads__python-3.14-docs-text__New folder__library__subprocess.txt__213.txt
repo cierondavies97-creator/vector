@@ -1,0 +1,5 @@
+the command is running, but the caller must do this separately when
+  using the "subprocess" module.
+A more realistic example would look like this:
+   try:
+       retcode = call("mycmd" + " myarg", shell=True)

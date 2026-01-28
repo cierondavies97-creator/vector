@@ -1,0 +1,4 @@
+optional argument *header* is present and true, underscores will be
+   decoded as spaces.
+binascii.b2a_qp(data, quotetabs=False, istext=True, header=False)
+   Convert binary data to a line(s) of ASCII characters in quoted-

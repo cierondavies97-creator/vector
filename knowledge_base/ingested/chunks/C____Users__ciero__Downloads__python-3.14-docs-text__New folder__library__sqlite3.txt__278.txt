@@ -1,0 +1,7 @@
+# This is the qmark style used in a SELECT query:
+   params = (1972,)
+   cur.execute("SELECT * FROM lang WHERE first_appeared = ?", params)
+   print(cur.fetchall())
+   con.close()
+Note:
+  **PEP 249** numeric placeholders are *not* supported. If used, they

@@ -1,0 +1,7 @@
+del _
+   # ...
+   for a in animals:
+       print(_(a))
+This works because the dummy definition of "_()" simply returns the
+string unchanged.  And this dummy definition will temporarily override
+any definition of "_()" in the built-in namespace (until the "del"

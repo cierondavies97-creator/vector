@@ -1,0 +1,6 @@
+remaining unparsed argument strings.
+   Added in version 3.7.
+Registering custom types or actions
+-----------------------------------
+ArgumentParser.register(registry_name, value, object)
+   Sometimes it's desirable to use a custom string in error messages

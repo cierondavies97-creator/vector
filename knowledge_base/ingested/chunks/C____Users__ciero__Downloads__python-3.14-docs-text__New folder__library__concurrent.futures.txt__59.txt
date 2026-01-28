@@ -1,0 +1,4 @@
+"ProcessPoolExecutor" uses the "multiprocessing" module, which allows
+it to side-step the *Global Interpreter Lock* but also means that only
+picklable objects can be executed and returned.
+The "__main__" module must be importable by worker subprocesses. This

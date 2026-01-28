@@ -1,0 +1,5 @@
+* There is more detail on this process, including a flow chart of the
+  decisions, in **PEP 3147**.
+6.2. Standard Modules
+=====================
+Python comes with a library of standard modules, described in a

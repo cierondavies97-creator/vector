@@ -1,0 +1,5 @@
+will be used several times in a single program.
+   Note:
+     The compiled versions of the most recent patterns passed to
+     "re.compile()" and the module-level matching functions are
+     cached, so programs that use only a few regular expressions at a

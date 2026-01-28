@@ -1,0 +1,4 @@
+|            | parameters.    |            |
+      +------------+----------------+------------+
+      | "ZstdDict" | Yes. It's      | No. If you |
+      | internally | faster when    | wish to    |

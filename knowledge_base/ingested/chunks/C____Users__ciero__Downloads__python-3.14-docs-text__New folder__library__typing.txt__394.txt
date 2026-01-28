@@ -1,0 +1,7 @@
+0 fields, use "class TD(TypedDict): pass" or "TD = TypedDict("TD",
+   {})".
+Protocols
+---------
+The following protocols are provided by the "typing" module. All are
+decorated with "@runtime_checkable".
+class typing.SupportsAbs

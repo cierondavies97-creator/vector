@@ -1,0 +1,5 @@
+search starting point. The Python executable location is called
+"home".
+Once "home" is determined, the "prefix" directory is found by first
+looking for "python*majorversion**minorversion*.zip"
+("python311.zip"). On Windows the zip archive is searched for in

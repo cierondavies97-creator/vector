@@ -1,0 +1,3 @@
+|                   | __kwdefaults__      | mapping of any default      |
+|                   |                     | values for keyword-only     |
+|                   |                     | parameters                  |

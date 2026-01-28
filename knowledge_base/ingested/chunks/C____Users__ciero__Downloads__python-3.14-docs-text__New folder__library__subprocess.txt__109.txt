@@ -1,0 +1,4 @@
+program to execute.  On Windows, in order to run a side-by-side
+     assembly the specified *env* **must** include a valid
+     "%SystemRoot%".
+   If *encoding* or *errors* are specified, or *text* is true, the

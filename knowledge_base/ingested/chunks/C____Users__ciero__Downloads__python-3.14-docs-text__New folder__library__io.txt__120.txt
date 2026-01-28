@@ -1,0 +1,4 @@
+"io.BufferedIOBase.read1()"
+      Changed in version 3.7: The *size* argument is now optional.
+class io.BufferedWriter(raw, buffer_size=DEFAULT_BUFFER_SIZE)
+   A buffered binary stream providing higher-level access to a

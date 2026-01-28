@@ -1,0 +1,5 @@
+problems for other programs which read CSV files (assuming they
+support complex numbers at all).
+csvwriter.writerow(row, /)
+   Write the *row* parameter to the writer's file object, formatted
+   according to the current "Dialect". Return the return value of the

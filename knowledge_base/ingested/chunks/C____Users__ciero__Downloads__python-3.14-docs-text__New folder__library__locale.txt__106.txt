@@ -1,0 +1,4 @@
+locale encoding to the user's preferred locale encoding. The program
+must explicitly say that it wants the user's preferred locale settings
+for other categories by calling "setlocale(LC_ALL, '')".
+It is generally a bad idea to call "setlocale()" in some library

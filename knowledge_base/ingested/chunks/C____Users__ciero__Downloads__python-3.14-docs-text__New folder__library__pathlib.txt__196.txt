@@ -1,0 +1,4 @@
+is combined with the process's "umask" value to determine the file
+   mode and access flags.  If the path already exists,
+   "FileExistsError" is raised.
+   If *parents* is true, any missing parents of this path are created

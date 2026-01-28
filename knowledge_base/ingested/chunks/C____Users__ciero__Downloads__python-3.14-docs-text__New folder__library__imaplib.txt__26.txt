@@ -1,0 +1,3 @@
+double quotes) each string is quoted. However, the *password* argument
+to the "LOGIN" command is always quoted. If you want to avoid having
+an argument string quoted (eg: the *flags* argument to "STORE") then

@@ -1,0 +1,4 @@
+pending transaction is implicitly rolled back. If "autocommit"
+      is "True" or "LEGACY_TRANSACTION_CONTROL", no implicit
+      transaction control is executed. Make sure to "commit()" before
+      closing to avoid losing pending changes.

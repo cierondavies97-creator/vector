@@ -1,0 +1,4 @@
+enabled (so that exceptions are not raised during computations).
+   Because the traps are disabled, this context is useful for
+   applications that prefer to have result value of "NaN" or
+   "Infinity" instead of raising exceptions.  This allows an

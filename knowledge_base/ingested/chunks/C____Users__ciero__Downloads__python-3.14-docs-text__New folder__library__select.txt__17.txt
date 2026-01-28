@@ -1,0 +1,5 @@
+objects.
+select.select(rlist, wlist, xlist, timeout=None)
+   This is a straightforward interface to the Unix "select()" system
+   call. The first three arguments are iterables of 'waitable
+   objects': either integers representing file descriptors or objects

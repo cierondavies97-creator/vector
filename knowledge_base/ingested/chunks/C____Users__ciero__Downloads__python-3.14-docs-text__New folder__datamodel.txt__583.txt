@@ -1,0 +1,6 @@
+files, etc.
+For more information on context managers, see Context Manager Types.
+The "object" class itself does not provide the context manager
+methods.
+object.__enter__(self)
+   Enter the runtime context related to this object. The "with"

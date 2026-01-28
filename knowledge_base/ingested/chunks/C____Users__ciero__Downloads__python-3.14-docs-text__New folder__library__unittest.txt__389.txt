@@ -1,0 +1,4 @@
+functions the test is reported as an error. Because there is no
+corresponding test instance an "_ErrorHolder" object (that has the
+same interface as a "TestCase") is created to represent the error. If
+you are just using the standard unittest test runner then this detail

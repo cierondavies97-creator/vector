@@ -1,0 +1,4 @@
+is able to run a simple WSGI application correctly.
+   The *start_response* callable should follow the "StartResponse"
+   protocol.
+class wsgiref.simple_server.WSGIServer(server_address, RequestHandlerClass)

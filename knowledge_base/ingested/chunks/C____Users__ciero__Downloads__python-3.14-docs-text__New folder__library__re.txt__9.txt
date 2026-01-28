@@ -1,0 +1,5 @@
+See also:
+  The third-party regex module, which has an API compatible with the
+  standard library "re" module, but offers additional functionality
+  and a more thorough Unicode support.
+Regular Expression Syntax

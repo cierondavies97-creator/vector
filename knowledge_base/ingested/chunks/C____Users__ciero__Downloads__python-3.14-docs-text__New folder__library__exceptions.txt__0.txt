@@ -1,0 +1,5 @@
+Built-in Exceptions
+*******************
+In Python, all exceptions must be instances of a class that derives
+from "BaseException".  In a "try" statement with an "except" clause
+that mentions a particular class, that clause also handles any

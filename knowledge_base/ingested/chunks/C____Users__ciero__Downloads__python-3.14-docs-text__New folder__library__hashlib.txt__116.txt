@@ -1,0 +1,5 @@
+The FIPS 180-4 publication on Secure Hash Algorithms.
+  https://csrc.nist.gov/pubs/fips/202/final
+     The FIPS 202 publication on the SHA-3 Standard.
+  https://www.blake2.net/
+     Official BLAKE2 website.

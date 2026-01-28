@@ -1,0 +1,5 @@
+to cleanup properly a well-behaved application should kill the
+   child process and finish communication:
+      proc = subprocess.Popen(...)
+      try:
+          outs, errs = proc.communicate(timeout=15)

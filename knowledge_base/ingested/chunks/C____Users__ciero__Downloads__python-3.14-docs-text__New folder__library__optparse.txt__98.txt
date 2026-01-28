@@ -1,0 +1,4 @@
+help="be vewwy quiet (I'm hunting wabbits)")
+   parser.add_option("-f", "--filename",
+                     metavar="FILE", help="write output to FILE")
+   parser.add_option("-m", "--mode",

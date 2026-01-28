@@ -1,0 +1,4 @@
+constructor will always return objects that compare identically;
+   put another way, barring cache invalidation via
+   "ZoneInfo.clear_cache()", for all values of "key", the following
+   assertion will always be true:

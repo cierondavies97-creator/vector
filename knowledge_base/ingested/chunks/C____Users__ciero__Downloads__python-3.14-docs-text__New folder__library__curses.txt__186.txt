@@ -1,0 +1,5 @@
+window.syncok(flag)
+   If *flag* is "True", then "syncup()" is called automatically
+   whenever there is a change in the window.
+window.syncup()
+   Touch all locations in ancestors of the window that have been

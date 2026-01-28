@@ -1,0 +1,5 @@
+handler*; return "bytes" unchanged.
+   "fsdecode()" is the reverse function.
+   Added in version 3.2.
+   Changed in version 3.6: Support added to accept objects
+   implementing the "os.PathLike" interface.

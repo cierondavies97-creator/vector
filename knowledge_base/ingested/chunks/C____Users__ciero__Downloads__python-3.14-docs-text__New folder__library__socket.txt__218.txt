@@ -1,0 +1,5 @@
+(see **PEP 475** for the rationale).
+socket.bind(address)
+   Bind the socket to *address*.  The socket must not already be
+   bound. (The format of *address* depends on the address family ---
+   see above.)

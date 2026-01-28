@@ -1,0 +1,2 @@
+|                        |                                       | If the sequence is terminated    |
+   |                        |                                       | with "CHAR_MAX", no further      |

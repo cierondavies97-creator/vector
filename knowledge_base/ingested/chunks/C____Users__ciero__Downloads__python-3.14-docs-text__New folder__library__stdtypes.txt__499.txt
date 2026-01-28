@@ -1,0 +1,3 @@
+specify a single character separator *sep* parameter to include
+      in the output. By default, this separator will be included
+      between each byte. A second optional *bytes_per_sep* parameter

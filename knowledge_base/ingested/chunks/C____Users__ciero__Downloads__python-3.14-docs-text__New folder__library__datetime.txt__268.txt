@@ -1,0 +1,3 @@
+the "tzinfo" and "fold" attributes are ignored and the base times are
+compared. If both comparands are aware and have different "tzinfo"
+attributes, the comparands are first adjusted by subtracting their UTC

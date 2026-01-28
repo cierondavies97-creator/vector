@@ -1,0 +1,9 @@
+...     parser.feed(chunk)
+   ...
+   Start tag: span
+   Data     : buff
+   Data     : ered
+   Data     :  text
+   End tag  : span
+Parsing invalid HTML (e.g. unquoted attributes) also works:
+   >>> parser.feed('<p><a class=link href=#main>tag soup</p ></a>')

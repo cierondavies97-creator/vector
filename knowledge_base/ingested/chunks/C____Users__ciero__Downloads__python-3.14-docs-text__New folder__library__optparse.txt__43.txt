@@ -1,0 +1,4 @@
+option argument
+   an argument that follows an option, is closely associated with that
+   option, and is consumed from the argument list when that option is.
+   With "optparse", option arguments may either be in a separate

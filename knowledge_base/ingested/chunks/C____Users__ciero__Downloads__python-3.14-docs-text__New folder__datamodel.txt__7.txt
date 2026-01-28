@@ -1,0 +1,4 @@
+Objects are never explicitly destroyed; however, when they become
+unreachable they may be garbage-collected.  An implementation is
+allowed to postpone garbage collection or omit it altogether --- it is
+a matter of implementation quality how garbage collection is

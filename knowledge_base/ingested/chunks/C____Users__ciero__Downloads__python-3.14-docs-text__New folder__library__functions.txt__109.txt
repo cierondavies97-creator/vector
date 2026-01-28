@@ -1,0 +1,4 @@
+executed code will not be able to access variables assigned at
+     the top level (as the "top level" variables are treated as class
+     variables in a class definition).
+   If the *globals* dictionary does not contain a value for the key

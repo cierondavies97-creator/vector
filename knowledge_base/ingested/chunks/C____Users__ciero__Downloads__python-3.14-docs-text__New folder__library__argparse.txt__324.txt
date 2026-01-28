@@ -1,0 +1,4 @@
+>>> parser.parse_args(['736'])
+      Namespace(bar=42, baz='badger', foo=736)
+   Note that defaults can be set at both the parser level using
+   "set_defaults()" and at the argument level using "add_argument()".

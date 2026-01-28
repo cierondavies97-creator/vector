@@ -1,0 +1,4 @@
+"sys.modules[name].__spec__" is returned (unless the spec would be
+   "None" or is not set, in which case "ValueError" is raised).
+   Otherwise a search using "sys.meta_path" is done. "None" is
+   returned if no spec is found.

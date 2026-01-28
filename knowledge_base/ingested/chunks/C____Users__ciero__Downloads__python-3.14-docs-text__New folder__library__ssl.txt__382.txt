@@ -1,0 +1,6 @@
+"SSLSocket.do_handshake()" method has to be retried until it returns
+  successfully.  Here is a synopsis using "select()" to wait for the
+  socket's readiness:
+     while True:
+         try:
+             sock.do_handshake()

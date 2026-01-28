@@ -1,0 +1,3 @@
+|           | the number as a decimal number with exactly "p" digits     |
+   |           | following the decimal point. With no precision given, uses |
+   |           | a precision of "6" digits after the decimal point for      |

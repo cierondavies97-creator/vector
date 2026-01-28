@@ -1,0 +1,4 @@
+malformed templates containing dangling delimiters, unmatched
+      braces, or placeholders that are not valid Python identifiers.
+   is_valid()
+      Returns "False" if the template has invalid placeholders that

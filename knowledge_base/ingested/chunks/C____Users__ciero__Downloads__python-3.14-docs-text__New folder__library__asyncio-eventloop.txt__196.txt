@@ -1,0 +1,6 @@
+Return the current exception handler, or "None" if no custom
+   exception handler was set.
+   Added in version 3.5.2.
+loop.default_exception_handler(context)
+   Default exception handler.
+   This is called when an exception occurs and no exception handler is

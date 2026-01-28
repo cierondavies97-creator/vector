@@ -1,0 +1,7 @@
+* "email.errors": Exception and Defect classes
+* "email.headerregistry": Custom Header Objects
+* "email.contentmanager": Managing MIME Content
+  * Content Manager Instances
+* "email": Examples
+Legacy API:
+* "email.message.Message": Representing an email message using the

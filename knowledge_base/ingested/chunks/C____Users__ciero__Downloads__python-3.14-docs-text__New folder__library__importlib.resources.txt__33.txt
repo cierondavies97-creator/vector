@@ -1,0 +1,5 @@
+result = fspath.stat()
+   See the introduction for details on *anchor* and *path_names*.
+   This function is roughly equivalent to:
+      as_file(files(anchor).joinpath(*path_names))
+   Changed in version 3.13: Multiple *path_names* are accepted.

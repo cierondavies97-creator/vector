@@ -1,0 +1,3 @@
+package, within a subdirectory contained in that package, or adjacent
+to modules outside a package. Resources may be text or binary. As a
+result, a package's Python module sources (.py), compilation artifacts

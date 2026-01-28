@@ -1,0 +1,5 @@
+python -m doctest [-v] [-o OPTION] [-f] file [file ...]
+-v, --verbose
+   Detailed report of all examples tried is printed to standard
+   output, along with assorted summaries at the end:
+      python -m doctest -v example.py

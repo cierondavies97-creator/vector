@@ -1,0 +1,2 @@
+* "binascii" --- Convert between binary and ASCII
+* "quopri" --- Encode and decode MIME quoted-printable data

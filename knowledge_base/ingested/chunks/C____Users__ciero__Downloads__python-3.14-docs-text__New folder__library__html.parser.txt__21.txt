@@ -1,0 +1,5 @@
+This method is called to handle the end tag of an element (e.g.
+   "</div>").
+   The *tag* argument is the name of the tag converted to lower case.
+HTMLParser.handle_startendtag(tag, attrs)
+   Similar to "handle_starttag()", but called when the parser

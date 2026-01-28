@@ -1,0 +1,7 @@
+* "stat.SF_APPEND"
+   * "stat.SF_NOUNLINK"
+   * "stat.SF_SNAPSHOT"
+   This function can support not following symlinks.
+   Raises an auditing event "os.chflags" with arguments "path",
+   "flags".
+   Availability: Unix, not WASI.

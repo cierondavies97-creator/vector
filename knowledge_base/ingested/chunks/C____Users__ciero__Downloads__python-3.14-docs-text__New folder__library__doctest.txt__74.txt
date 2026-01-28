@@ -1,0 +1,3 @@
+Since the lines showing the position of the error come before the
+  exception type and detail, they are not checked by doctest.  For
+  example, the following test would pass, even though it puts the "^"

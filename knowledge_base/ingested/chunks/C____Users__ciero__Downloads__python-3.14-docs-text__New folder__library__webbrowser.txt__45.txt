@@ -1,0 +1,5 @@
+controller, if possible, otherwise, open *url* in the only browser
+   window.  Alias "open_new()".
+controller.open_new_tab(url)
+   Open *url* in a new page ("tab") of the browser handled by this
+   controller, if possible, otherwise equivalent to "open_new()".

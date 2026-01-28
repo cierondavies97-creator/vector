@@ -1,0 +1,3 @@
+| "%Y"        | Year with century as a decimal number.           |         |
+   +-------------+--------------------------------------------------+---------+
+   | "%z"        | Time zone offset indicating a positive or        |         |

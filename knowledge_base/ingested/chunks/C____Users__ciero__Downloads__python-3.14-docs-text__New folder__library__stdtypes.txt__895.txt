@@ -1,0 +1,4 @@
+argument to the argument list.  Bound methods have two special read-
+only attributes: "m.__self__" is the object on which the method
+operates, and "m.__func__" is the function implementing the method.
+Calling "m(arg-1, arg-2, ..., arg-n)" is completely equivalent to

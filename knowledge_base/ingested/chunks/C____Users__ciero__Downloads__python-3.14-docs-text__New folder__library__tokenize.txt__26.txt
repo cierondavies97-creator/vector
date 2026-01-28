@@ -1,0 +1,5 @@
+we're only showing 12 digits, and the 13th isn't close to 5, the
+       rest of the output should be platform-independent.
+       >>> exec(s)  #doctest: +ELLIPSIS
+       -3.21716034272e-0...7
+       Output from calculations with Decimal should be identical across all

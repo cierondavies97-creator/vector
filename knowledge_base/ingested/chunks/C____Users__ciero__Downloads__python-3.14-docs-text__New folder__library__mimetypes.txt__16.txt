@@ -1,0 +1,5 @@
+"guess_type()" function.
+Some additional functions and data items are available for controlling
+the behavior of the module.
+mimetypes.init(files=None)
+   Initialize the internal data structures.  If given, *files* must be

@@ -1,0 +1,5 @@
+characters are allowed and will be property encoded when
+   serialized.  However, per the RFCs, unicode is *not* allowed in the
+   username portion of the address.
+   display_name
+      The display name portion of the address, if any, with all

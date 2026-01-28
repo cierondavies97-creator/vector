@@ -1,0 +1,6 @@
+* "math" --- Mathematical functions
+  * Number-theoretic functions
+  * Floating point arithmetic
+  * Floating point manipulation functions
+  * Power, exponential and logarithmic functions
+  * Summation and product functions

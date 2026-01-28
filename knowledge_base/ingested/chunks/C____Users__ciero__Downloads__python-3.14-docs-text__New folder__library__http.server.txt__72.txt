@@ -1,0 +1,5 @@
+print("serving at port", PORT)
+       httpd.serve_forever()
+"SimpleHTTPRequestHandler" can also be subclassed to enhance behavior,
+such as using different index file names by overriding the class
+attribute "index_pages".

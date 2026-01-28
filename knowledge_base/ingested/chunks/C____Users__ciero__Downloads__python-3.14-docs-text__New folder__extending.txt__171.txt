@@ -1,0 +1,3 @@
+need to take care of disposing of the reference on all possible paths
+through the code --- in other words, with a borrowed reference you
+don't run the risk of leaking when a premature exit is taken.  The

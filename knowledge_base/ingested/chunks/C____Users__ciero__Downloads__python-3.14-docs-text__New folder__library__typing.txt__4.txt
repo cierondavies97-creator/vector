@@ -1,0 +1,6 @@
+more advanced type hints.
+New features are frequently added to the "typing" module. The
+typing_extensions package provides backports of these new features to
+older versions of Python.
+See also:
+  Typing cheat sheet

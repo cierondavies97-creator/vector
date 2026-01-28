@@ -1,0 +1,5 @@
+The function is a stub on WASI, see WebAssembly platforms for more
+   information.
+os.uname()
+   Returns information identifying the current operating system. The
+   return value is an object with five attributes:

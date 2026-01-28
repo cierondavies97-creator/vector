@@ -1,0 +1,4 @@
+and what other optional parts of the "stringprep" procedure are part
+of the profile. One example of a "stringprep" profile is "nameprep",
+which is used for internationalized domain names.
+The module "stringprep" only exposes the tables from **RFC 3454**. As

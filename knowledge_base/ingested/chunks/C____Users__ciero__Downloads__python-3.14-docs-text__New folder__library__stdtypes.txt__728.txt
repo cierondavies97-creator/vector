@@ -1,0 +1,6 @@
+>>> m.obj is b
+            True
+         Added in version 3.3.
+      nbytes
+         "nbytes == product(shape) * itemsize == len(m.tobytes())".
+         This is the amount of space in bytes that the array would use

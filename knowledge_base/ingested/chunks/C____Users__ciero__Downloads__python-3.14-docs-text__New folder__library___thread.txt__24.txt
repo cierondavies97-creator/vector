@@ -1,0 +1,4 @@
+it specifies the maximum wait time in seconds before returning.  A
+   negative *timeout* argument specifies an unbounded wait.  You
+   cannot specify a *timeout* if *blocking* is false.
+   The return value is "True" if the lock is acquired successfully,

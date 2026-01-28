@@ -1,0 +1,5 @@
+"BaseHandler" instances have only one method intended for external
+   use:
+   run(app)
+      Run the specified WSGI application, *app*.
+   All of the other "BaseHandler" methods are invoked by this method

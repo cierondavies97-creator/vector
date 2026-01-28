@@ -1,0 +1,5 @@
+"reprlib" --- Alternate "repr()" implementation
+***********************************************
+**Source code:** Lib/reprlib.py
+======================================================================
+The "reprlib" module provides a means for producing object

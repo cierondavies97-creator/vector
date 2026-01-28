@@ -1,0 +1,5 @@
+satisfy yourself that nothing bad can happen if you load them, before
+actually loading them.
+Configuration dictionary schema
+===============================
+Describing a logging configuration requires listing the various

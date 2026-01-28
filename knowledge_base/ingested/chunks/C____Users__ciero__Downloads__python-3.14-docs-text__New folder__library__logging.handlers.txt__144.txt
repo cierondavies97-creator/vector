@@ -1,0 +1,3 @@
+supports sending logging messages to an email address via SMTP.
+class logging.handlers.SMTPHandler(mailhost, fromaddr, toaddrs, subject, credentials=None, secure=None, timeout=1.0)
+   Returns a new instance of the "SMTPHandler" class. The instance is

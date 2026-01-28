@@ -1,0 +1,7 @@
+return member
+       def __exit__(self, *exc_info):
+           print(f'{self.file_count} files extracted')
+Command-Line Interface
+======================
+Added in version 3.4.
+The "tarfile" module provides a simple command-line interface to

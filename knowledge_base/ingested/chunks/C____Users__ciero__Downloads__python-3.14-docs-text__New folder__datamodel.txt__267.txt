@@ -1,0 +1,5 @@
+When this occurs, some or all of the tuple elements can be "None".
+   Added in version 3.11.
+   Note:
+     This feature requires storing column positions in code objects
+     which may result in a small increase of disk usage of compiled

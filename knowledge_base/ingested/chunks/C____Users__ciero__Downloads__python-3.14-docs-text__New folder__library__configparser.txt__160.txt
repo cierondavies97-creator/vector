@@ -1,0 +1,4 @@
+return "True"; otherwise return "False".  If the specified
+      *section* is "None" or an empty string, DEFAULT is assumed.
+   read(filenames, encoding=None)
+      Attempt to read and parse an iterable of filenames, returning a

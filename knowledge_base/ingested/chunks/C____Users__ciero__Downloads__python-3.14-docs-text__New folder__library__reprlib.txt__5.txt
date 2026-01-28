@@ -1,0 +1,6 @@
+See section Repr Objects for more information about "Repr"
+   attributes.
+   Changed in version 3.12: Allow attributes to be set via keyword
+   arguments.
+reprlib.aRepr
+   This is an instance of "Repr" which is used to provide the "repr()"

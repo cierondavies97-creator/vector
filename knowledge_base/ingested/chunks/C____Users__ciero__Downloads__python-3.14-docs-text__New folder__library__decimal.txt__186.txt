@@ -1,0 +1,7 @@
+Added in version 3.3.
+   copy()
+      Return a duplicate of the context.
+   copy_decimal(num, /)
+      Return a copy of the Decimal instance num.
+   create_decimal(num='0', /)
+      Creates a new Decimal instance from *num* but using *self* as

@@ -1,0 +1,4 @@
+signal handlers if the "sigaltstack()" function is available. This
+allows it to dump the traceback even on a stack overflow.
+The fault handler is called on catastrophic cases and therefore can
+only use signal-safe functions (e.g. it cannot allocate memory on the

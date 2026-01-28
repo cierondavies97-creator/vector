@@ -1,0 +1,6 @@
+'home_page': 'https://github.com/pypa/sampleproject',
+    'keywords': 'sample setuptools development',
+    'license': 'MIT',
+    'maintainer': None,
+    'maintainer_email': None,
+    'name': 'sampleproject',

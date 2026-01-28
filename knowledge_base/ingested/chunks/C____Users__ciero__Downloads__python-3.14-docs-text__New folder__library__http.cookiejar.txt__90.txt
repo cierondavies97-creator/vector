@@ -1,0 +1,4 @@
+When setting cookies, require a full **RFC 2965** domain-match.
+The following attributes are provided for convenience, and are the
+most useful combinations of the above flags:
+DefaultCookiePolicy.DomainLiberal

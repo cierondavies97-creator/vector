@@ -1,0 +1,6 @@
+special support for file objects could be added:
+   import reprlib
+   import sys
+   class MyRepr(reprlib.Repr):
+       def repr_TextIOWrapper(self, obj, level):
+           if obj.name in {'<stdin>', '<stdout>', '<stderr>'}:

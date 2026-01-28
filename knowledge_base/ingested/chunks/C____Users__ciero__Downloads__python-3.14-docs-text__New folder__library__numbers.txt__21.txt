@@ -1,0 +1,3 @@
+2. If "A" falls back to the boilerplate code, and it were to return a
+   value from "__add__()", we'd miss the possibility that "B" defines
+   a more intelligent "__radd__()", so the boilerplate should return

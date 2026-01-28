@@ -1,0 +1,5 @@
+The number of arguments that the "step()" method must
+           accept is controlled by *n_arg*.
+           Set to "None" to remove an existing SQL aggregate function.
+      Example:
+         class MySum:

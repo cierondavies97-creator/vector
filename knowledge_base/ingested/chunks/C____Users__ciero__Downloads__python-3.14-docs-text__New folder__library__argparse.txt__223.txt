@@ -1,0 +1,7 @@
+>>> parser.parse_args(['--no-foo'])
+      Namespace(foo=False)
+   Added in version 3.9.
+The parse_args() method
+=======================
+ArgumentParser.parse_args(args=None, namespace=None)
+   Convert argument strings to objects and assign them as attributes

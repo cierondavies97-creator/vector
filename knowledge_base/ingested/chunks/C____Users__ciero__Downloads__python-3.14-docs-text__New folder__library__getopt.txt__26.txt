@@ -1,0 +1,7 @@
+>>> args
+   ['a1', 'a2']
+Optional arguments should be specified explicitly:
+   >>> s = '-Con -C --color=off --color a1 a2'
+   >>> args = s.split()
+   >>> args
+   ['-Con', '-C', '--color=off', '--color', 'a1', 'a2']

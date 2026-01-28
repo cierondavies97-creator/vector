@@ -1,0 +1,5 @@
+suite.addTests(tests)
+       return suite
+If discovery is started in a directory containing a package, either
+from the command line or by calling "TestLoader.discover()", then the
+package "__init__.py" will be checked for "load_tests".  If that

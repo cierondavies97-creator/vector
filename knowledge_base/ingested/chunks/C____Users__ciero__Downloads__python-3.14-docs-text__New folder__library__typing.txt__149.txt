@@ -1,0 +1,4 @@
+Changed in version 3.10: Unions can now be written as "X | Y". See
+   union type expressions.
+   Changed in version 3.14: "types.UnionType" is now an alias for
+   "Union", and both "Union[int, str]" and "int | str" create

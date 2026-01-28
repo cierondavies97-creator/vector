@@ -1,0 +1,4 @@
+assuming that *a* is already sorted.
+   The returned insertion point *ip* partitions the array *a* into two
+   slices such that "all(elem < x for elem in a[lo : ip])" is true for
+   the left slice and "all(elem >= x for elem in a[ip : hi])" is true

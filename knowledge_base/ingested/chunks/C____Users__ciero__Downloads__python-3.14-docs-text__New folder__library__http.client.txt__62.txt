@@ -1,0 +1,4 @@
+first argument.  If more arguments are given, continuation lines
+   are sent, each consisting of a tab and an argument.
+HTTPConnection.endheaders(message_body=None, *, encode_chunked=False)
+   Send a blank line to the server, signalling the end of the headers.

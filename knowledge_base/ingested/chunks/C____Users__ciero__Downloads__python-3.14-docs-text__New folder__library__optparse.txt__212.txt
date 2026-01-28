@@ -1,0 +1,5 @@
+-v                Be moderately verbose
+       --file=FILENAME   Input file to read data from
+  After printing the help message, "optparse" terminates your process
+  with "sys.exit(0)".
+* ""version""

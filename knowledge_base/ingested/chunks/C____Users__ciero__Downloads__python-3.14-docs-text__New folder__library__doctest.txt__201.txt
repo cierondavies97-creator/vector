@@ -1,0 +1,4 @@
+expected to generate an exception.  This exception message is
+      compared against the return value of
+      "traceback.format_exception_only()".  "exc_msg" ends with a
+      newline unless it's "None".  The constructor adds a newline if

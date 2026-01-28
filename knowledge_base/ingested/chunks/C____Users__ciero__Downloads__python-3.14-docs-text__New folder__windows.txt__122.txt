@@ -1,0 +1,4 @@
+different from the previous "py.exe" launcher, and the old
+  configuration options no longer apply. If you are specifically
+  reliant on the old behaviour or configuration, we recommend
+  installing the legacy launcher. The legacy launcher's "py" command

@@ -1,0 +1,4 @@
+WebAssembly platforms for more information.
+Memory-mapped file objects behave like both "bytearray" and like *file
+objects*.  You can use mmap objects in most places where "bytearray"
+are expected; for example, you can use the "re" module to search

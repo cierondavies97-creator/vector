@@ -1,0 +1,8 @@
+>>> @verify(NAMED_FLAGS)
+         ... class Color(Flag):
+         ...     RED = 1
+         ...     GREEN = 2
+         ...     BLUE = 4
+         ...     WHITE = 15
+         ...     NEON = 31
+         Traceback (most recent call last):

@@ -1,0 +1,7 @@
+Parameters:
+         **op** (*int*) -- A SQLITE_DBCONFIG code.
+      Return type:
+         bool
+      Added in version 3.12.
+   setconfig(op, enable=True, /)
+      Set a boolean connection configuration option.

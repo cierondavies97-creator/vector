@@ -1,0 +1,4 @@
+review process for the macOS and iOS App Stores. Handling for the
+"itms-services" scheme is always removed on iOS; on macOS, it *may* be
+removed if CPython has been built with the "--with-app-store-
+compliance" option.

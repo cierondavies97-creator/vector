@@ -1,0 +1,4 @@
+current directory (i.e. a subset of the items in its second
+   argument); these names will then be ignored in the copy process.
+   "ignore_patterns()" can be used to create such a callable that
+   ignores names based on glob-style patterns.

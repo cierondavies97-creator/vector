@@ -1,0 +1,4 @@
+seconds and both the "ffffff" and the "SS" part is omitted when
+      the offset is a whole number of minutes. For example, if
+      "utcoffset()" returns "timedelta(hours=-3, minutes=-30)", "%z"
+      is replaced with the string "'-0330'".

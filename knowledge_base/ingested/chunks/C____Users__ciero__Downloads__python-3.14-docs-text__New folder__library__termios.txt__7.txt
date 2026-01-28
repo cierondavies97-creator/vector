@@ -1,0 +1,6 @@
+"tcgetattr()".  The *when* argument determines when the attributes
+   are changed:
+   termios.TCSANOW
+      Change attributes immediately.
+   termios.TCSADRAIN
+      Change attributes after transmitting all queued output.

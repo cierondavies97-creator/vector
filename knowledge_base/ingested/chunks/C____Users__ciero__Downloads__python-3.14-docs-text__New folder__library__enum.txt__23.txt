@@ -1,0 +1,7 @@
+existing enum does not have any members):
+           cls:
+              The enum class being called.
+           value:
+              The name of the new Enum to create.
+           names:
+              The names/values of the members for the new Enum.

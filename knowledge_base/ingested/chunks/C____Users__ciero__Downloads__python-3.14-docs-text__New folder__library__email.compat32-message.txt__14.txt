@@ -1,0 +1,4 @@
+want a different value you must override it explicitly (the
+      value specified for *max_line_length* in the policy will be
+      ignored by this method).  The *policy* argument may be used to
+      override the default policy obtained from the message instance.

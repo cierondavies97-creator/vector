@@ -1,0 +1,5 @@
+Added in version 3.2.
+   add_type(type, ext, strict=True)
+      Add a mapping from the MIME type *type* to the extension *ext*.
+      Valid extensions start with a '.' or are empty. When the
+      extension is already known, the new type will replace the old

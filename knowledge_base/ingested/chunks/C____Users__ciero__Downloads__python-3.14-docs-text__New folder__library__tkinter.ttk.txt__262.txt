@@ -1,0 +1,4 @@
+et al. It's used for things like scrollbar thumbs with grips.
+*children*: [sublayout... ]
+   Specifies a list of elements to place inside the element. Each
+   element is a tuple (or other sequence type) where the first item is

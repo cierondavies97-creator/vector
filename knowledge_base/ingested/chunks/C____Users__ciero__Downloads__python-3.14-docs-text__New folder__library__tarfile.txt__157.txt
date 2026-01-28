@@ -1,0 +1,4 @@
+"os.path.normpath()". Note that this removes internal ".."
+     components, which may change the meaning of the link if the path
+     in "TarInfo.linkname" traverses symbolic links.
+   * Refuse to extract links (hard or soft) that link to absolute

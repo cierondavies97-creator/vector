@@ -1,0 +1,5 @@
+>>> manager = MagicMock()
+   >>> with patch('mymodule.Class1') as MockClass1:
+   ...     with patch('mymodule.Class2') as MockClass2:
+   ...         manager.attach_mock(MockClass1, 'MockClass1')
+   ...         manager.attach_mock(MockClass2, 'MockClass2')

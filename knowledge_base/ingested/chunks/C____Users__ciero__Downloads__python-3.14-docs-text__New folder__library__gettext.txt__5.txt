@@ -1,0 +1,4 @@
+a Python module, or if your application needs to switch languages on
+the fly, you probably want to use the class-based API instead.
+gettext.bindtextdomain(domain, localedir=None)
+   Bind the *domain* to the locale directory *localedir*.  More

@@ -1,0 +1,4 @@
+"True") use line buffering.  Other text files use the policy
+     described above for binary files.
+   *encoding* is the name of the encoding used to decode or encode the
+   file. This should only be used in text mode.  The default encoding

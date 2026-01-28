@@ -1,0 +1,5 @@
+Added in version 3.2.
+   bpprint(out=None)
+      Print the output of "bpformat()" to the file *out*, or if it is
+      "None", to standard output.
+   "Breakpoint" instances have the following attributes:

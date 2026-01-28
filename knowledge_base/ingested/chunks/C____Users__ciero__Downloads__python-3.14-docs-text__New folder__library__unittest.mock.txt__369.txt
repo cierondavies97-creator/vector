@@ -1,0 +1,4 @@
+dandy, but if you don't test how your units are "wired together" there
+is still lots of room for bugs that tests might have caught.
+"unittest.mock" already provides a feature to help with this, called
+speccing. If you use a class or instance as the "spec" for a mock then

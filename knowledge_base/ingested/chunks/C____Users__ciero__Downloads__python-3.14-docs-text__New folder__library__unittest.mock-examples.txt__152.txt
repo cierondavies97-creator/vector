@@ -1,0 +1,7 @@
+'fish'
+>>> mock['d']
+'eggs'
+After it has been used you can make assertions about the access using
+the normal mock methods and attributes:
+>>> mock.__getitem__.call_args_list
+[call('a'), call('c'), call('d'), call('b'), call('d')]

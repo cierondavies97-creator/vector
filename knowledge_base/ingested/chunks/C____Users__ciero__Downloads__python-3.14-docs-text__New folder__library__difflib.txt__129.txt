@@ -1,0 +1,7 @@
+todate = file_mtime(tofile)
+       with open(fromfile) as ff:
+           fromlines = ff.readlines()
+       with open(tofile) as tf:
+           tolines = tf.readlines()
+       if options.u:
+           diff = difflib.unified_diff(fromlines, tolines, fromfile, tofile, fromdate, todate, n=n)

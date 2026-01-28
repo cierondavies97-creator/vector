@@ -1,0 +1,4 @@
+"sources/foo/bar/_whiz.abi3.so", with "sources" being the location
+   registered on "sys.path", relative to the application bundle. This
+   module *must* be distributed as
+   "Frameworks/foo.bar._whiz.framework/foo.bar._whiz" (creating the

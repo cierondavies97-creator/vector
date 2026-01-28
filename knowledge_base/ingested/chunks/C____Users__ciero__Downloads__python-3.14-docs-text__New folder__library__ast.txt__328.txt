@@ -1,0 +1,6 @@
+to one will be reflected in all other occurrences of the same value
+  (for example, "ast.Add").
+"ast" helpers
+=============
+Apart from the node classes, the "ast" module defines these utility
+functions and classes for traversing abstract syntax trees:

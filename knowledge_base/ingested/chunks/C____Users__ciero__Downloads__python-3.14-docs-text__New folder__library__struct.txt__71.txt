@@ -1,0 +1,6 @@
+Either 0 or 1 in the native or standard bool representation will be
+packed, and any non-zero value will be "True" when unpacking.
+Examples
+--------
+Note:
+  Native byte order examples (designated by the "'@'" format prefix or

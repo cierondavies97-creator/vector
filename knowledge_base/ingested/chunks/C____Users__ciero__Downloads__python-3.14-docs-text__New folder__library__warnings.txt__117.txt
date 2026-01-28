@@ -1,0 +1,3 @@
+context manager behaves in a concurrent-safe fashion and otherwise
+not. Concurrent-safe means that it is both thread-safe and safe to use
+within asyncio coroutines and tasks.  Being thread-safe means that

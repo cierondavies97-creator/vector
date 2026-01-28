@@ -1,0 +1,5 @@
+be held when called and is re-acquired on return.  The predicate
+      is evaluated with the lock held.
+      Added in version 3.2.
+   notify(n=1)
+      By default, wake up one thread waiting on this condition, if

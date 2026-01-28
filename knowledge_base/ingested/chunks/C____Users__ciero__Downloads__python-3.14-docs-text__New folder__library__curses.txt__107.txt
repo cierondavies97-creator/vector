@@ -1,0 +1,4 @@
+Note:
+     Writing outside the window, subwindow, or pad raises a
+     "curses.error". Attempting to write to the lower right corner of
+     a window, subwindow, or pad will cause an exception to be raised

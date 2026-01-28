@@ -1,0 +1,5 @@
+implementation.
+   * The *host* parameter can be set to several types which determine
+     where the server would be listening:
+     * If *host* is a string, the TCP server is bound to a single
+       network interface specified by *host*.

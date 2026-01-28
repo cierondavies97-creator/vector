@@ -1,0 +1,6 @@
+allocated files.
+   "SEEK_DATA"
+      Adjust the file offset to the next location containing data,
+      relative to the seek position.
+   "SEEK_HOLE"
+      Adjust the file offset to the next location containing a hole,

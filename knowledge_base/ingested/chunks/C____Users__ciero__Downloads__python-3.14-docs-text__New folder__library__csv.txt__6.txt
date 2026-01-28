@@ -1,0 +1,5 @@
+CSV formats.
+The "csv" module's "reader" and "writer" objects read and write
+sequences.  Programmers can also read and write data in dictionary
+form using the "DictReader" and "DictWriter" classes.
+See also:

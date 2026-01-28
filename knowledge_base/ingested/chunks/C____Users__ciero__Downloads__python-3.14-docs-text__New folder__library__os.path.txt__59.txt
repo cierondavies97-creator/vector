@@ -1,0 +1,4 @@
+does not exist, is a symlink loop, or whose evaluation raises
+   "OSError". All such components are appended unchanged to the
+   existing part of the path.
+   Some errors that are handled this way include "access denied", "not

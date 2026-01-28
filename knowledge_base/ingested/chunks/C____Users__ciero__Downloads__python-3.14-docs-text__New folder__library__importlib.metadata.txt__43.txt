@@ -1,0 +1,6 @@
+return s
+You can also use the "locate()" method to get the absolute path to the
+file:
+   >>> util.locate()
+   PosixPath('/home/gustav/example/lib/site-packages/wheel/util.py')
+In the case where the metadata file listing files ("RECORD" or

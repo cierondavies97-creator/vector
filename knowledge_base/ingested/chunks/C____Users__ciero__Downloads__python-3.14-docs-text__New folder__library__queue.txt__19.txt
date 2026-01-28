@@ -1,0 +1,4 @@
+guarantee that a subsequent call to put() will not block.
+Queue.put(item, block=True, timeout=None)
+   Put *item* into the queue.  If optional args *block* is true and
+   *timeout* is "None" (the default), block if necessary until a free

@@ -1,0 +1,3 @@
+printable characters escaped. If "False", all characters will
+        be outputted as-is, except for the characters that must be
+        escaped: quotation mark, reverse solidus, and the control

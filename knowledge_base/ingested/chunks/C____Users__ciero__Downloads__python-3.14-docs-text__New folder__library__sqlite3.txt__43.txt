@@ -1,0 +1,6 @@
+information. *autocommit* currently defaults to
+        "LEGACY_TRANSACTION_CONTROL". The default will change to
+        "False" in a future Python release.
+   Return type:
+      *Connection*
+   Raises an auditing event "sqlite3.connect" with argument

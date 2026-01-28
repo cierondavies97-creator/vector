@@ -1,0 +1,7 @@
+(130, 3813)
+        >>> duration.total_seconds()
+        11235813.0
+timedelta.microseconds
+   Between 0 and 999,999 inclusive.
+Supported operations:
++----------------------------------+-------------------------------------------------+

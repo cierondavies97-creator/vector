@@ -1,0 +1,5 @@
+* Call "clock_gettime(CLOCK_HIGHRES)" if available.
+   * Otherwise, call "clock_gettime(CLOCK_MONOTONIC)".
+   Use "monotonic_ns()" to avoid the precision loss caused by the
+   "float" type.
+   Added in version 3.3.

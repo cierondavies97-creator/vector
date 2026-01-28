@@ -1,0 +1,4 @@
+following:
+   1. A string consisting of an IP address and an optional prefix
+      length, separated by a slash ("/").  The IP address is the
+      network address, and the prefix length must be a single number,

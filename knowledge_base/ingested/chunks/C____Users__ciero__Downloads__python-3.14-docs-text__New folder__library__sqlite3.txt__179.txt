@@ -1,0 +1,5 @@
+database *name*, and reopen *name* as an in-memory database
+      based on the serialization contained in *data*.
+      Parameters:
+         * **data** (*bytes*) -- A serialized database.
+         * **name** (*str*) -- The database name to deserialize into.

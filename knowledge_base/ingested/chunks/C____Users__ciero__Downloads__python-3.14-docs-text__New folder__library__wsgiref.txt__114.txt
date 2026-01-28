@@ -1,0 +1,5 @@
+included.
+   error_output(environ, start_response)
+      This method is a WSGI application to generate an error page for
+      the user.  It is only invoked if an error occurs before headers
+      are sent to the client.

@@ -1,0 +1,4 @@
+The first item in each tuple must be one of the three type
+   indicator listed below describing the remaining tuple elements:
+   os.POSIX_SPAWN_OPEN
+      ("os.POSIX_SPAWN_OPEN", *fd*, *path*, *flags*, *mode*)

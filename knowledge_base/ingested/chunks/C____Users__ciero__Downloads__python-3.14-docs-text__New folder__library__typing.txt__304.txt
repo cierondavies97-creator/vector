@@ -1,0 +1,3 @@
+be only be used to annotate "**kwargs".  Both attributes require
+      the annotated parameter to be in scope. At runtime, "P.args" and
+      "P.kwargs" are instances respectively of "ParamSpecArgs" and

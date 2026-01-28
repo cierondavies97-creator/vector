@@ -1,0 +1,4 @@
+now done during the path initialization. As a result, under Virtual
+Environments, "sys.prefix" and "sys.exec_prefix" no longer depend on
+the "site" initialization, and are therefore unaffected by "-S".
+When running under a virtual environment, the "pyvenv.cfg" file in

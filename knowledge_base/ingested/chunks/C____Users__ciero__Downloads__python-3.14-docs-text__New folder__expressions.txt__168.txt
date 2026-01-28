@@ -1,0 +1,3 @@
+if they are 'named' for the purpose of documentation, and which
+therefore cannot be supplied by keyword.  In CPython, this is the case
+for functions implemented in C that use "PyArg_ParseTuple()" to parse

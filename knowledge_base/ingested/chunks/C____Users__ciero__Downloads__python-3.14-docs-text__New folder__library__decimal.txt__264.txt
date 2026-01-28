@@ -1,0 +1,4 @@
+specific results as invalid.
+A variant is "sNaN" which signals rather than remaining quiet after
+every operation.  This is a useful return value when an invalid result
+needs to interrupt a calculation for special handling.

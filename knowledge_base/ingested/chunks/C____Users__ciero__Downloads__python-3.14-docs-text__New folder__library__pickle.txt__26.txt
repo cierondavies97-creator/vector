@@ -1,0 +1,4 @@
+brought by protocol 4.
+* Protocol version 5 was added in Python 3.8.  It adds support for
+  out-of-band data and speedup for in-band data.  It is the default
+  protocol starting with Python 3.14.  Refer to **PEP 574** for

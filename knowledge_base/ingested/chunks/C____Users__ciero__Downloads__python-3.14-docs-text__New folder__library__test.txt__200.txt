@@ -1,0 +1,4 @@
+the CWD, an error is raised.  Otherwise, only a warning is raised
+   and the original CWD is used.
+test.support.os_helper.temp_dir(path=None, quiet=False)
+   A context manager that creates a temporary directory at *path* and

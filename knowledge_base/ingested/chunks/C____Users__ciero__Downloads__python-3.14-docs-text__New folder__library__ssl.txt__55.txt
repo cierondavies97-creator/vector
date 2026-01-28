@@ -1,0 +1,4 @@
+file containing a list of root certificates, the same format as
+   used for the *cafile* parameter in
+   "SSLContext.load_verify_locations()".  The call will attempt to
+   validate the server certificate against that set of root

@@ -1,0 +1,4 @@
+is documented here only for the sake of completeness.)
+shlex.sourcehook(filename)
+   When "shlex" detects a source request (see "source" below) this
+   method is given the following token as argument, and expected to

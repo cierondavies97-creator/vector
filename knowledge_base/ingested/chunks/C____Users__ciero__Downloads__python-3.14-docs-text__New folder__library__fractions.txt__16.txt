@@ -1,0 +1,4 @@
+Changed in version 3.12: "Fraction" instances now support float-
+   style formatting, with presentation types ""e"", ""E"", ""f"",
+   ""F"", ""g"", ""G"" and ""%""".
+   Changed in version 3.13: Formatting of "Fraction" instances without

@@ -1,0 +1,4 @@
+# Outer code not affected by the timeout:
+             await unrelated_code()
+      While the block with "make_request()" and
+      "make_another_request()" might get cancelled due to the timeout,

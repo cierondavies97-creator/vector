@@ -1,0 +1,8 @@
+intervention:
+   >>> dt_add = dt + timedelta(days=1)
+   >>> print(dt_add)
+   2020-11-01 12:00:00-08:00
+   >>> dt_add.tzname()
+   'PST'
+These time zones also support the "fold" attribute introduced in **PEP
+495**.  During offset transitions which induce ambiguous times (such

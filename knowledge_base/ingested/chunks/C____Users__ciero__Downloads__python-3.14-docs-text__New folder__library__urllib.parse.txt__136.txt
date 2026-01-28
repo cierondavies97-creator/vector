@@ -1,0 +1,5 @@
+Deprecated since version 3.14: Accepting objects with false values
+   (like "0" and "[]") except empty strings and byte-like objects and
+   "None" is now deprecated.
+See also:
+  WHATWG -  URL Living standard

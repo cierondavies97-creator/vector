@@ -1,0 +1,8 @@
+class ast.While(test, body, orelse)
+   A "while" loop. "test" holds the condition, such as a "Compare"
+   node.
+      >>> print(ast.dump(ast.parse("""
+      ... while x:
+      ...    ...
+      ... else:
+      ...    ...

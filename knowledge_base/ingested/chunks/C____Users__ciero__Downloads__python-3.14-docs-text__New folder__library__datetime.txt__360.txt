@@ -1,0 +1,4 @@
+Pacific  = USTimeZone(-8, "Pacific",  "PST", "PDT")
+Note that there are unavoidable subtleties twice per year in a
+"tzinfo" subclass accounting for both standard and daylight time, at
+the DST transition points. For concreteness, consider US Eastern (UTC

@@ -1,0 +1,4 @@
+"bindtextdomain()", and "bind_textdomain_codeset()".  These are
+similar to the same functions in the "gettext" module, but use the C
+library's binary format for message catalogs, and the C library's
+search algorithms for locating message catalogs.

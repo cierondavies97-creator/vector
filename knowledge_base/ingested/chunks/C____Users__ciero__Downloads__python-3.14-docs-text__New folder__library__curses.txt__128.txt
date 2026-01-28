@@ -1,0 +1,3 @@
+given or is "-1", the attribute will be set on all the characters
+   to the end of the line.  This function moves cursor to position
+   "(y, x)" if supplied. The changed line will be touched using the

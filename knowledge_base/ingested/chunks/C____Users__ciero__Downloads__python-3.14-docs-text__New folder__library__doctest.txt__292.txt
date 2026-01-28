@@ -1,0 +1,3 @@
+narrative is the result, instead of a collection of isolated functions
+that test isolated bits of functionality seemingly at random.  It's a
+different attitude, and produces different results, blurring the

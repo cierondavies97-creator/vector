@@ -1,0 +1,3 @@
+the internal structures.  The default implementation returns a
+      lower-case version of *option*; subclasses may override this or
+      client code can set an attribute of this name on instances to

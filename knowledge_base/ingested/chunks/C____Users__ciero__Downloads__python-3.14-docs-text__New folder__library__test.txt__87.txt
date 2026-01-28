@@ -1,0 +1,5 @@
+Python object header and alignment.
+test.support.calcvobjsize(fmt)
+   Return the size of the "PyVarObject" whose structure members are
+   defined by *fmt*. The returned value includes the size of the
+   Python object header and alignment.

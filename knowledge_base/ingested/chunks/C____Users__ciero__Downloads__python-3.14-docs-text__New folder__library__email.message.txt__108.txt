@@ -1,0 +1,5 @@
+multipart, otherwise leave the boundary to be automatically
+      created when it is needed (for example, when the message is
+      serialized).
+   make_mixed(boundary=None)
+      Convert a non-"multipart", a "multipart/related", or a

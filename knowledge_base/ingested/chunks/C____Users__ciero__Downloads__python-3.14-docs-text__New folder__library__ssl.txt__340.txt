@@ -1,0 +1,4 @@
+practice is to generate a self-signed certificate.  The simplest way
+to do this is with the OpenSSL package, using something like the
+following:
+   % openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout cert.pem

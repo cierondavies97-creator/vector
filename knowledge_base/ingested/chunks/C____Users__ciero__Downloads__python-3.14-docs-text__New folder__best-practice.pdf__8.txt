@@ -1,0 +1,14 @@
+▶ See also: Ottinger’s Rules for Naming
+Example
+def fun(n):
+""" no comment """
+r = 1
+for i in n:
+r *= i
+return r
+Nicola Chiapolini, 8 July 2024
+5 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY

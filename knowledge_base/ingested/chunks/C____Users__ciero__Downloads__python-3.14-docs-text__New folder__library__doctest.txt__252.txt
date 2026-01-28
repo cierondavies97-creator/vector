@@ -1,0 +1,3 @@
+considered to match if they are identical; but depending on what
+      option flags the test runner is using, several non-exact match
+      types are also possible.  See section Option Flags for more

@@ -1,0 +1,4 @@
+This method is *not* defined in "BaseHandler", but subclasses
+   should override it if they intend to provide a catch-all for
+   otherwise unhandled HTTP errors.  It will be called automatically
+   by the  "OpenerDirector" getting the error, and should not normally

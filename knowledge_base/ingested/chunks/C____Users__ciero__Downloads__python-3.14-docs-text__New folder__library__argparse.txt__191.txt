@@ -1,0 +1,4 @@
+appear in the help string, you must escape it as "%%".
+"argparse" supports silencing the help entry for certain options, by
+setting the "help" value to "argparse.SUPPRESS":
+   >>> parser = argparse.ArgumentParser(prog='frobble')

@@ -1,0 +1,4 @@
+runner.run(suite())
+You can place the definitions of test cases and test suites in the
+same modules as the code they are to test (such as "widget.py"), but
+there are several advantages to placing the test code in a separate

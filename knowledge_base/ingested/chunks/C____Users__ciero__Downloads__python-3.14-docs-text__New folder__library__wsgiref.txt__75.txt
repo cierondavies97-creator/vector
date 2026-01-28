@@ -1,0 +1,5 @@
+# the validator is going to inform us
+          return b"Hello World"
+      # This is the application wrapped in a validator
+      validator_app = validator(simple_app)
+      with make_server('', 8000, validator_app) as httpd:

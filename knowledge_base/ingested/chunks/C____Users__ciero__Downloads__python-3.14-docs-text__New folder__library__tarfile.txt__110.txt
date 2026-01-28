@@ -1,0 +1,4 @@
+If it instead returns "None" the "TarInfo" object will be excluded
+   from the archive. See Examples for an example.
+   Changed in version 3.2: Added the *filter* parameter.
+   Changed in version 3.7: Recursion adds entries in sorted order.

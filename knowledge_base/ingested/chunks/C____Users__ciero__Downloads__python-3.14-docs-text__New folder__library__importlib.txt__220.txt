@@ -1,0 +1,4 @@
+A class which postpones the execution of the loader of a module
+   until the module has an attribute accessed.
+   This class **only** works with loaders that define "exec_module()"
+   as control over what module type is used for the module is

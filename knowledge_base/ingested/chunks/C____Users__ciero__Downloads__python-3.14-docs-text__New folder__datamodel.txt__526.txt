@@ -1,0 +1,4 @@
+(like *dictionaries*), but can represent other containers as well.
+The first set of methods is used either to emulate a sequence or to
+emulate a mapping; the difference is that for a sequence, the
+allowable keys should be the integers *k* for which "0 <= k < N" where

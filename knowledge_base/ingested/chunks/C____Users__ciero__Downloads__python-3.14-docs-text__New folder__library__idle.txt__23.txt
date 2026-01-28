@@ -1,0 +1,7 @@
+defaults to 72.
+Indent Region
+   Shift selected lines right by the indent width (default 4 spaces).
+Dedent Region
+   Shift selected lines left by the indent width (default 4 spaces).
+Comment Out Region
+   Insert ## in front of selected lines.

@@ -1,0 +1,4 @@
+by "open()".
+codecs.EncodedFile(file, data_encoding, file_encoding=None, errors='strict')
+   Return a "StreamRecoder" instance, a wrapped version of *file*
+   which provides transparent transcoding. The original file is closed

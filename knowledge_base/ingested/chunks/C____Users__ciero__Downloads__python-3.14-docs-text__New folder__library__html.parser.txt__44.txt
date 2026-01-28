@@ -1,0 +1,8 @@
+"'>'"):
+   >>> parser = MyHTMLParser()
+   >>> parser.feed('&gt;&#62;&#x3E;')
+   Data     : >>>
+   >>> parser = MyHTMLParser(convert_charrefs=False)
+   >>> parser.feed('&gt;&#62;&#x3E;')
+   Named ent: >
+   Num ent  : >

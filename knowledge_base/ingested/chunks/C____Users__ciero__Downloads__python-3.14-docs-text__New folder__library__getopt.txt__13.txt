@@ -1,0 +1,3 @@
+arguments left after the option list was stripped (this is a
+   trailing slice of *args*).  Each option-and-value pair returned has
+   the option as its first element, prefixed with a hyphen for short

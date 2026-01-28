@@ -1,0 +1,4 @@
+is the value passed to the constructor, if any); if "self.filename"
+   is "None", "ValueError" is raised.
+   *ignore_discard*: save even cookies set to be discarded.
+   *ignore_expires*: save even cookies that have expired

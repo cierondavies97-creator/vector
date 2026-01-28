@@ -1,0 +1,4 @@
+parser.add_option("-q", action="store_false", dest="verbose")
+Since default values apply to the *destination* rather than to any
+particular option, and these two options happen to have the same
+destination, this is exactly equivalent:

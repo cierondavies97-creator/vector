@@ -1,0 +1,4 @@
+be the same as "__spec__.parent". "__package__" is now only used as
+   a fallback during import resolution if "__spec__.parent" is not
+   defined.
+   Changed in version 3.10: "ImportWarning" is raised if an import

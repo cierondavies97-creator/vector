@@ -1,0 +1,4 @@
+"ArgumentParser".  When an argument is added to the group, the
+   parser treats it just like a normal argument, but displays the
+   argument in a separate group for help messages.  The
+   "add_argument_group()" method accepts *title* and *description*

@@ -1,0 +1,13 @@
+syslog.LOG_DAEMON
+syslog.LOG_FTP
+syslog.LOG_INSTALL
+syslog.LOG_KERN
+syslog.LOG_LAUNCHD
+syslog.LOG_LPR
+syslog.LOG_MAIL
+syslog.LOG_NETINFO
+syslog.LOG_NEWS
+syslog.LOG_RAS
+syslog.LOG_REMOTEAUTH
+syslog.LOG_SYSLOG
+syslog.LOG_USER

@@ -1,0 +1,3 @@
+access). The optional *owner* argument is the owner class, while
+   *instance* is the instance that the attribute was accessed through,
+   or "None" when the attribute is accessed through the *owner*.

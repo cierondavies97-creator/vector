@@ -1,0 +1,5 @@
+simulator.
+   * "is_simulator" is a boolean describing if the app is running on a
+     simulator or a physical device.
+   Entries which cannot be determined are set to the defaults given as
+   parameters.

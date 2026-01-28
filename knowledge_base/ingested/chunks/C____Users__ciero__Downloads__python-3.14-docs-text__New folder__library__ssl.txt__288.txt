@@ -1,0 +1,4 @@
+version. The value defaults to "TLSVersion.MAXIMUM_SUPPORTED". The
+   attribute is read-only for protocols other than "PROTOCOL_TLS",
+   "PROTOCOL_TLS_CLIENT", and "PROTOCOL_TLS_SERVER".
+   The attributes "maximum_version", "minimum_version" and

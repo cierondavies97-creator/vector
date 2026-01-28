@@ -1,0 +1,5 @@
+the corresponding Filter instance.
+  The configuring dict is searched for the key "name" (defaulting to
+  the empty string) and this is used to construct a "logging.Filter"
+  instance.
+* *handlers* - the corresponding value will be a dict in which each

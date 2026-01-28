@@ -1,0 +1,4 @@
+context of any stack frame.  It also supports post-mortem debugging
+and can be called under program control.
+The debugger is extensible -- it is actually defined as the class
+"Pdb". This is currently undocumented but easily understood by reading

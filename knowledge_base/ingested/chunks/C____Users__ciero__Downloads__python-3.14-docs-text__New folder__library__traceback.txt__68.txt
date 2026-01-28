@@ -1,0 +1,4 @@
+newlines as well, for those items with source text lines.
+      For long sequences of the same frame and line, the first few
+      repetitions are shown, followed by a summary line stating the
+      exact number of further repetitions.

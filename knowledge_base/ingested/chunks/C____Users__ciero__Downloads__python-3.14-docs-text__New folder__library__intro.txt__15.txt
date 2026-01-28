@@ -1,0 +1,3 @@
+inter-process communication (IPC), is either not available or may not
+work as on other Unix-like systems. File I/O, file system, and Unix
+permission-related functions are restricted, too. Emscripten does not

@@ -1,0 +1,4 @@
+"xml.sax.xmlreader" --- Interface for XML parsers
+*************************************************
+**Source code:** Lib/xml/sax/xmlreader.py
+======================================================================

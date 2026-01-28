@@ -1,0 +1,6 @@
+See also:
+  Module "hmac"
+     A module to generate message authentication codes using hashes.
+  Module "base64"
+     Another way to encode binary hashes for non-binary environments.
+  https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.180-4.pdf

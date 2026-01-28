@@ -1,0 +1,4 @@
+This default implementation just uses
+      "traceback.print_exception()". The resulting string is returned.
+   formatStack(stack_info)
+      Formats the specified stack information (a string as returned by

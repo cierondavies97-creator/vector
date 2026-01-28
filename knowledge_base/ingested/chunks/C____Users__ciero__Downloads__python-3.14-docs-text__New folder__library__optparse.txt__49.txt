@@ -1,0 +1,5 @@
+"-v" and "--report" are both options.  Assuming that "--report" takes
+one argument, "report.txt" is an option argument.  "foo" and "bar" are
+positional arguments.
+What are options for?
+---------------------

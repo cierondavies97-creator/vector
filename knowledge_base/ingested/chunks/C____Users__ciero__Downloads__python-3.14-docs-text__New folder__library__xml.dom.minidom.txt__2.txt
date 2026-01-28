@@ -1,0 +1,5 @@
+smaller.  Users who are not already proficient with the DOM should
+consider using the "xml.etree.ElementTree" module for their XML
+processing instead.
+Note:
+  If you need to parse untrusted or unauthenticated data, see XML

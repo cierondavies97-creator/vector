@@ -1,0 +1,4 @@
+hostname. This common check is automatically performed when
+"SSLContext.check_hostname" is enabled.
+Changed in version 3.7: Hostname matchings is now performed by
+OpenSSL. Python no longer uses "match_hostname()".

@@ -1,0 +1,6 @@
+leap year.  Always add a default leap year to partial date strings
+  before parsing.
+   >>> from datetime import datetime
+   >>> value = "2/29"
+   >>> datetime.strptime(value, "%m/%d")
+   Traceback (most recent call last):

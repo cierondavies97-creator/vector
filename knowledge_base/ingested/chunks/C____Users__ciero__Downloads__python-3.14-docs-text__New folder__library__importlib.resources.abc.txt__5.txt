@@ -1,0 +1,3 @@
+metaphor for directories and file names is packages and resources,
+   respectively. This is also why instances of this class are expected
+   to directly correlate to a specific package (instead of potentially

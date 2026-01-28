@@ -1,0 +1,5 @@
+optimized scopes.
+optional module
+   An *extension module* that is part of the *standard library*, but
+   may be absent in some builds of *CPython*, usually due to missing
+   third-party libraries or because the module is not available for a

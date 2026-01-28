@@ -1,0 +1,8 @@
+following.
+   [handler_hand01]
+   class=StreamHandler
+   level=NOTSET
+   formatter=form01
+   args=(sys.stdout,)
+The "class" entry indicates the handler's class (as determined by
+"eval()" in the "logging" package's namespace). The "level" is

@@ -1,0 +1,5 @@
+using type annotations.
+   Changed in version 3.11: The "register()" attribute now supports
+   "typing.Union" as a type annotation.
+class functools.singledispatchmethod(func)
+   Transform a method into a *single-dispatch* *generic function*.

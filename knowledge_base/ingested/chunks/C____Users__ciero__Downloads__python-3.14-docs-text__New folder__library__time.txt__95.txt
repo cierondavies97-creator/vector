@@ -1,0 +1,4 @@
+field width is normally 2 except for "%j" where it is 3.
+time.strptime(string[, format])
+   Parse a string representing a time according to a format.  The
+   return value is a "struct_time" as returned by "gmtime()" or

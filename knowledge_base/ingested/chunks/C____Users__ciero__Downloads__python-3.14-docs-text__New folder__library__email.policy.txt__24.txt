@@ -1,0 +1,6 @@
+>>> apolicy.max_line_length
+   100
+class email.policy.Policy(**kw)
+   This is the *abstract base class* for all policy classes.  It
+   provides default implementations for a couple of trivial methods,
+   as well as the implementation of the immutability property, the

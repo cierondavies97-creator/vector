@@ -1,0 +1,6 @@
+PyDLL._handle
+   The system handle used to access the library.
+PyDLL._name
+   The name of the library passed in the constructor.
+Shared libraries can also be loaded by using one of the prefabricated
+objects, which are instances of the "LibraryLoader" class, either by

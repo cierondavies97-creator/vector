@@ -1,0 +1,4 @@
+3107** and **PEP 526**): Annotations are evaluated eagerly, as they
+  are encountered in the source code.
+* *Stringified annotations* (used with "from __future__ import
+  annotations" in Python 3.7 and newer; see **PEP 563**): Annotations

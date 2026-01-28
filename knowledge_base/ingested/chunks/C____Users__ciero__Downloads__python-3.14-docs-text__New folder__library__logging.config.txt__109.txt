@@ -1,0 +1,4 @@
+automatically be converted to the value "logging.DEBUG", and the
+"handlers", "filters" and "formatter" entries will take an object id
+and resolve to the appropriate destination object.
+However, a more generic mechanism is needed for user-defined objects

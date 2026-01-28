@@ -1,0 +1,4 @@
+a limit ("sysconf()" value "SC_IOV_MAX") on the number of buffers
+   that can be used.  The *ancbufsize* and *flags* arguments have the
+   same meaning as for "recvmsg()".
+   The return value is a 4-tuple: "(nbytes, ancdata, msg_flags,

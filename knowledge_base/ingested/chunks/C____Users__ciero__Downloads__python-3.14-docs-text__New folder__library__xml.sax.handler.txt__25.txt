@@ -1,0 +1,4 @@
+the origin of document events.
+   SAX parsers are strongly encouraged (though not absolutely
+   required) to supply a locator: if it does so, it must supply the
+   locator to the application by invoking this method before invoking

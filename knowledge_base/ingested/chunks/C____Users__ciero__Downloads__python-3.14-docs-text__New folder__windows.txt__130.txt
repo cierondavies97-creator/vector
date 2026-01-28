@@ -1,0 +1,4 @@
+pw1km" or "%LocalAppData%\Microsoft\WindowsApps\PythonSoftwareFoundat
+ion.PythonManager_qbz5n2kfra8p0", depending on whether it was
+installed from python.org or through the Windows Store. Attempting to
+run the executable directly from Program Files is not recommended.

@@ -1,0 +1,7 @@
+and unredirected headers).
+   Added in version 3.4.
+Request.get_full_url()
+   Return the URL given in the constructor.
+   Changed in version 3.4.
+   Returns "Request.full_url"
+Request.set_proxy(host, type)

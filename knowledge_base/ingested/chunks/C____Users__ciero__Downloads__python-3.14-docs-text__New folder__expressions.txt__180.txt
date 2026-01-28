@@ -1,0 +1,5 @@
+is not, a "TypeError" exception is raised.
+Formal parameters using the syntax "*identifier" or "**identifier"
+cannot be used as positional argument slots or as keyword argument
+names.
+Changed in version 3.5: Function calls accept any number of "*" and

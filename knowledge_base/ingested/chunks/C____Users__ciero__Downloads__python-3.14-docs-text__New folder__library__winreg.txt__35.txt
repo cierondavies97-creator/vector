@@ -1,0 +1,6 @@
+only call "FlushKey()" if it requires absolute certainty that
+   registry changes are on disk.
+   Note:
+     If you don't know whether a "FlushKey()" call is required, it
+     probably isn't.
+winreg.LoadKey(key, sub_key, file_name)

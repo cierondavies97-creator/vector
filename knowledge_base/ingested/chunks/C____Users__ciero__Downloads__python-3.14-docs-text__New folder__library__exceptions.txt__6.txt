@@ -1,0 +1,5 @@
+"BaseException".  More information on defining exceptions is available
+in the Python Tutorial under User-defined Exceptions.
+Exception context
+=================
+Three attributes on exception objects provide information about the

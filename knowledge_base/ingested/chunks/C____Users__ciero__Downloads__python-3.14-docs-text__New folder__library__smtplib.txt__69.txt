@@ -1,0 +1,5 @@
+options to different recipients you have to use the low-level
+   methods such as "mail()", "rcpt()" and "data()" to send the
+   message.)
+   Note:
+     The *from_addr* and *to_addrs* parameters are used to construct

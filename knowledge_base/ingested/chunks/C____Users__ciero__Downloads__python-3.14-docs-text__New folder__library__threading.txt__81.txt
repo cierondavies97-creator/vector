@@ -1,0 +1,8 @@
+>>> t = Thread(target=print, args=[1])
+         >>> t.run()
+         1
+         >>> t = Thread(target=print, args=(1,))
+         >>> t.run()
+         1
+   join(timeout=None)
+      Wait until the thread terminates. This blocks the calling thread

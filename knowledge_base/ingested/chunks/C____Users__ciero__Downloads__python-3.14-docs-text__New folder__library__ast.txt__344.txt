@@ -1,0 +1,4 @@
+"Ellipsis".
+   This can be used for evaluating strings containing Python values
+   without the need to parse the values oneself.  It is not capable of
+   evaluating arbitrarily complex expressions, for example involving

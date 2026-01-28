@@ -1,0 +1,6 @@
+>>> parser.parse_args([])
+     Namespace(bar='d', foo='d')
+  One of the more common uses of "nargs='?'" is to allow optional
+  input and output files:
+     >>> parser = argparse.ArgumentParser()
+     >>> parser.add_argument('infile', nargs='?')

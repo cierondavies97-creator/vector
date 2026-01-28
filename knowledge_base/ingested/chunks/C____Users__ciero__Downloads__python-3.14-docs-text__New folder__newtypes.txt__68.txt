@@ -1,0 +1,3 @@
+"__delattr__()" method of a class instance would be called.  When an
+attribute should be deleted, the third parameter will be "NULL".  Here
+is an example that simply raises an exception; if this were really all

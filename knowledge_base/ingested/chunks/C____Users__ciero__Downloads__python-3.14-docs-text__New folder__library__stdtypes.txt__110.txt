@@ -1,0 +1,4 @@
+are used as hash values for positive infinity or negative infinity
+  (respectively).
+* For a "complex" number "z", the hash values of the real and
+  imaginary parts are combined by computing "hash(z.real) +

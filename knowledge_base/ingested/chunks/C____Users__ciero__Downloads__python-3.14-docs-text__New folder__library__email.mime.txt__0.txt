@@ -1,0 +1,4 @@
+"email.mime": Creating email and MIME objects from scratch
+**********************************************************
+**Source code:** Lib/email/mime/
+======================================================================

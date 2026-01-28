@@ -1,0 +1,4 @@
+cls=Name(id='Point2D', ctx=Load()),
+                              patterns=[
+                                  MatchValue(
+                                      value=Constant(value=0)),

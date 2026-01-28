@@ -1,0 +1,3 @@
+in general it is recommended to call "settimeout()" before calling
+"connect()" or pass a timeout parameter to "create_connection()".
+However, the system network stack may also return a connection timeout

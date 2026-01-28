@@ -1,0 +1,4 @@
+results of "os.stat()", "os.fstat()" and "os.lstat()" (if they exist).
+For complete details about the "stat()", "fstat()" and "lstat()"
+calls, consult the documentation for your system.
+Changed in version 3.4: The stat module is backed by a C

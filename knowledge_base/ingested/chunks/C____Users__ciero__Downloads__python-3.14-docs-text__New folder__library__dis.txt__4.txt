@@ -1,0 +1,5 @@
+offset.
+Changed in version 3.11: Some instructions are accompanied by one or
+more inline cache entries, which take the form of "CACHE"
+instructions. These instructions are hidden by default, but can be
+shown by passing "show_caches=True" to any "dis" utility. Furthermore,

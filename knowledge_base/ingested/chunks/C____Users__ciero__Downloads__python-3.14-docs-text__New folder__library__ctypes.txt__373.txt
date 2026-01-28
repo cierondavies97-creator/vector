@@ -1,0 +1,4 @@
+string.  For a general character pointer that may also point to
+   binary data, "POINTER(c_char)" must be used.  The constructor
+   accepts an integer address, or a bytes object.
+class ctypes.c_double

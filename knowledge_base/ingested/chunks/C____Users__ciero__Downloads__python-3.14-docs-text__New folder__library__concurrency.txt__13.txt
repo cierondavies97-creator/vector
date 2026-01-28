@@ -1,0 +1,7 @@
+* Replacing "os.popen()"
+  * Legacy Shell Invocation Functions
+  * Notes
+    * Timeout Behavior
+    * Converting an argument sequence to a string on Windows
+    * Disable use of "posix_spawn()"
+* "sched" --- Event scheduler

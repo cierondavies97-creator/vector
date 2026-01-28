@@ -1,0 +1,5 @@
+and cannot be created, only a warning is issued.
+test.support.os_helper.temp_umask(umask)
+   A context manager that temporarily sets the process umask.
+test.support.os_helper.unlink(filename)
+   Call "os.unlink()" on *filename*.  As with "rmdir()", on Windows

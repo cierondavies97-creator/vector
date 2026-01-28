@@ -1,0 +1,4 @@
+without "CMSG_SPACE()") might support sending only one control
+   message per call.  The *flags* argument defaults to 0 and has the
+   same meaning as for "send()".  If *address* is supplied and not
+   "None", it sets a destination address for the message.  The return

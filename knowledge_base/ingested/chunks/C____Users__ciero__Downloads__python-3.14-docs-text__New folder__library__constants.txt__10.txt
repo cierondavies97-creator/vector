@@ -1,0 +1,5 @@
+This constant is true if Python was not started with an "-O"
+   option. See also the "assert" statement.
+Note:
+  The names "None", "False", "True" and "__debug__" cannot be
+  reassigned (assignments to them, even as an attribute name, raise

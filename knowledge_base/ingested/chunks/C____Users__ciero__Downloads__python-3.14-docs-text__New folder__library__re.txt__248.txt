@@ -1,0 +1,5 @@
+cards. To match this with a regular expression, one could use
+backreferences as such:
+   >>> pair = re.compile(r".*(.).*\1")
+   >>> displaymatch(pair.match("717ak"))     # Pair of 7s.
+   "<Match: '717', groups=('7',)>"

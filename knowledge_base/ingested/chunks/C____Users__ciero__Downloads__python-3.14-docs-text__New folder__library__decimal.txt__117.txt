@@ -1,0 +1,5 @@
+both operands are numerically equal, return a copy of the first
+      operand with the sign set to be the same as the sign of the
+      second operand.
+   normalize(context=None)
+      Used for producing canonical values of an equivalence class

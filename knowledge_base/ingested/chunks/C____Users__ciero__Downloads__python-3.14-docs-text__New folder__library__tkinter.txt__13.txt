@@ -1,0 +1,4 @@
+Python. Though it can be used on its own as a general-purpose
+   programming language, it is most commonly embedded into C
+   applications as a scripting engine or an interface to the Tk
+   toolkit. The Tcl library has a C interface to create and manage one

@@ -1,0 +1,5 @@
+for strings.
+If the "setUp()" method raises an exception while the test is running,
+the framework will consider the test to have suffered an error, and
+the test method will not be executed.
+Similarly, we can provide a "tearDown()" method that tidies up after

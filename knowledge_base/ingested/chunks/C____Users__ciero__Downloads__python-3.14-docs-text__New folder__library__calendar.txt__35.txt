@@ -1,0 +1,5 @@
+month name will be used.
+   formatyear(theyear, width=3)
+      Return a year's calendar as an HTML table. *width* (defaulting
+      to 3) specifies the number of months per row.
+   formatyearpage(theyear, width=3, css='calendar.css', encoding=None)

@@ -1,0 +1,4 @@
+define an abstract interface for using network I/O and interprocess
+I/O.
+There is always a 1:1 relationship between transport and protocol
+objects: the protocol calls transport methods to send data, while the

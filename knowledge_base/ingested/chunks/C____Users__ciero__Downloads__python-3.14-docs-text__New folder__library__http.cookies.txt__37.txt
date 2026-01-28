@@ -1,0 +1,8 @@
+>>> C["twix"].value
+   'none for you'
+   >>> C = cookies.SimpleCookie()
+   >>> C["number"] = 7 # equivalent to C["number"] = str(7)
+   >>> C["string"] = "seven"
+   >>> C["number"].value
+   '7'
+   >>> C["string"].value

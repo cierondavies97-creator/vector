@@ -1,0 +1,3 @@
+Source values are split into lines using "splitlines()".  If the
+      value is not to be refolded, the lines are rejoined using the
+      "linesep" from the policy and returned.  The exception is lines

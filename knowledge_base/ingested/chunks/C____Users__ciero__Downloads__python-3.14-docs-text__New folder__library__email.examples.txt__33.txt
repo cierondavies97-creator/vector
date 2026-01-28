@@ -1,0 +1,4 @@
+continue
+           # Applications should really sanitize the given filename so that an
+           # email message can't be used to overwrite important files
+           filename = part.get_filename()

@@ -1,0 +1,5 @@
+Windows.
+   Changed in version 3.14: Paths beginning with a slash are converted
+   to URLs with authority sections. For example, the path "/etc/hosts"
+   is converted to the URL "///etc/hosts".
+   Changed in version 3.14: The *add_scheme* parameter was added.

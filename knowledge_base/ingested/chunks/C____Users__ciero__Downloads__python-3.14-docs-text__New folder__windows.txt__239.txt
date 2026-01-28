@@ -1,0 +1,3 @@
+An application written in Python does not necessarily require users to
+be aware of that fact. The embedded distribution may be used in this
+case to include a private version of Python in an install package.

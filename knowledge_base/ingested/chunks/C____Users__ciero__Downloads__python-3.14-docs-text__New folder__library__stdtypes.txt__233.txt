@@ -1,0 +1,5 @@
+step
+      The value of the *step* parameter (or "1" if the parameter was
+      not supplied)
+The advantage of the "range" type over a regular "list" or "tuple" is
+that a "range" object will always take the same (small) amount of

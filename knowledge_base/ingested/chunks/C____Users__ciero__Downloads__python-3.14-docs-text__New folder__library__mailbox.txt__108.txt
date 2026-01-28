@@ -1,0 +1,6 @@
+on the mailbox format.
+"Babyl" objects
+---------------
+class mailbox.Babyl(path, factory=None, create=True)
+   A subclass of "Mailbox" for mailboxes in Babyl format. Parameter
+   *factory* is a callable object that accepts a file-like message

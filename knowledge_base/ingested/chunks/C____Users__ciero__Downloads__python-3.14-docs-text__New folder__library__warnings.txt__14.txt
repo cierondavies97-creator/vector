@@ -1,0 +1,3 @@
+|                                    | other Python developers (ignored by default,    |
+|                                    | unless triggered by code in "__main__").        |
++------------------------------------+-------------------------------------------------+

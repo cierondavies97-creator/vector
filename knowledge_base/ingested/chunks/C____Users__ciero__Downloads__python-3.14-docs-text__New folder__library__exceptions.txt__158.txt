@@ -1,0 +1,7 @@
+│    ├── PermissionError
+         │    ├── ProcessLookupError
+         │    └── TimeoutError
+         ├── ReferenceError
+         ├── RuntimeError
+         │    ├── NotImplementedError
+         │    ├── PythonFinalizationError

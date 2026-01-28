@@ -1,0 +1,4 @@
+"wait_for" waits for *aw* to be cancelled.  Previously, it raised
+   "TimeoutError" immediately.
+   Changed in version 3.10: Removed the *loop* parameter.
+   Changed in version 3.11: Raises "TimeoutError" instead of

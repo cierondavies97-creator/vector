@@ -1,0 +1,4 @@
+BaseHandler.http_error_<nnn>(req, fp, code, msg, hdrs)
+   *nnn* should be a three-digit HTTP error code.  This method is also
+   not defined in "BaseHandler", but will be called, if it exists, on
+   an instance of a subclass, when an HTTP error with code *nnn*

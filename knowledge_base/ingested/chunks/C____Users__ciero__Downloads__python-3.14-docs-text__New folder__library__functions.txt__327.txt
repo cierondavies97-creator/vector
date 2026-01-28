@@ -1,0 +1,4 @@
+languages that only support single inheritance.  This makes it
+   possible to implement "diamond diagrams" where multiple base
+   classes implement the same method.  Good design dictates that such
+   implementations have the same calling signature in every case

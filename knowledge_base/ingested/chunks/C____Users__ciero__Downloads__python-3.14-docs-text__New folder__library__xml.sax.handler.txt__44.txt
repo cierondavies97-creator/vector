@@ -1,0 +1,4 @@
+Parsers may set the *qname* parameter to "None", unless the
+   "feature_namespace_prefixes" feature is activated.
+ContentHandler.endElementNS(name, qname)
+   Signals the end of an element in namespace mode.

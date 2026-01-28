@@ -1,0 +1,4 @@
+Python Path Configuration.
+See also:
+  * Finding modules for detailed Windows notes.
+  * Using Python on Unix platforms for Unix details.

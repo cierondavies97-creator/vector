@@ -1,0 +1,7 @@
+the exception.
+   Note:
+     This method should not be overloaded in subclassed event loops.
+     For custom exception handling, use the "set_exception_handler()"
+     method.
+Enabling debug mode
+-------------------

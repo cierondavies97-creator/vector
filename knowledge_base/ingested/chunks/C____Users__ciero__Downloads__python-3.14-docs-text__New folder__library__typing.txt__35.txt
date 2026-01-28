@@ -1,0 +1,3 @@
+batch_proc([], bad_cb)   # Error! Argument 2 has incompatible type because of
+                            # different name and kind in the callback
+Callables which take other callables as arguments may indicate that

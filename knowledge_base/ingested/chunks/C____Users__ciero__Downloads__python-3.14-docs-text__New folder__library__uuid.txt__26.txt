@@ -1,0 +1,2 @@
+| UUID.time                                          | The 60-bit timestamp as a count of 100-nanosecond  |
+|                                                    | intervals since Gregorian epoch (1582-10-15        |

@@ -1,0 +1,4 @@
+contain at least two elements, raises "StatisticsError" because
+      it takes at least one point to estimate a central value and at
+      least two points to estimate dispersion.
+   samples(n, *, seed=None)

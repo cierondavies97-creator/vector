@@ -1,0 +1,6 @@
+Superseded Modules
+******************
+The modules described in this chapter have been superseded by other
+modules for most use cases, and are retained primarily to preserve
+backwards compatibility.
+Modules may appear in this chapter because they only cover a limited

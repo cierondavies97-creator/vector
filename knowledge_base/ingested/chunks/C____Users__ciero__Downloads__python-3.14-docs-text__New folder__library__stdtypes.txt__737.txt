@@ -1,0 +1,5 @@
+ndim
+         An integer indicating how many dimensions of a multi-
+         dimensional array the memory represents.
+      shape
+         A tuple of integers the length of "ndim" giving the shape of

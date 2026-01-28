@@ -1,0 +1,3 @@
+specifications; any specific warning is matched against each filter
+specification in the list in turn until a match is found; the filter
+determines the disposition of the match.  Each entry is a tuple of the

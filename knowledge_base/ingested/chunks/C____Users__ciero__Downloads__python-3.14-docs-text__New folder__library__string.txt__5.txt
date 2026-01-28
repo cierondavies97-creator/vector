@@ -1,0 +1,5 @@
+Python. This is a combination of "digits", "ascii_letters",
+   "punctuation", and "whitespace".
+   Note:
+     By design, "string.printable.isprintable()" returns "False". In
+     particular, "string.printable" is not printable in the POSIX

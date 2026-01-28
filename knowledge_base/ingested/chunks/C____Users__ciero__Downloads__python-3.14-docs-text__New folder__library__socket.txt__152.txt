@@ -1,0 +1,3 @@
+however, only return a single address. (For example, this was
+     reported on Solaris and AIX configurations.) On these systems,
+     limiting the *type* and/or *proto* helps ensure that this address

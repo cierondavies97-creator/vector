@@ -1,0 +1,2 @@
+|                        |                                       | which relative positions the     |
+   |                        |                                       | "'thousands_sep'" is expected.   |

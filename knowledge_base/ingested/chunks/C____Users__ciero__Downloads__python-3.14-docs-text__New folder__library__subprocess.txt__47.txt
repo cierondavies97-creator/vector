@@ -1,0 +1,4 @@
+If text mode is not used, *stdin*, *stdout* and *stderr* will be
+   opened as binary streams. No encoding or line ending conversion is
+   performed.
+   Changed in version 3.6: Added the *encoding* and *errors*

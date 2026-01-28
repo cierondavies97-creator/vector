@@ -1,0 +1,6 @@
+character in "prefix_chars" is used to prefix the help options:
+   >>> parser = argparse.ArgumentParser(prog='PROG', prefix_chars='+/')
+   >>> parser.print_help()
+   usage: PROG [+h]
+   options:
+     +h, ++help  show this help message and exit

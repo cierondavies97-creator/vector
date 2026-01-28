@@ -1,0 +1,6 @@
+?            ^                     ---- ^
++   4. Complicated is better than complex.
+?           ++++ ^                      ^
++   5. Flat is better than nested.
+A command-line interface to difflib
+===================================

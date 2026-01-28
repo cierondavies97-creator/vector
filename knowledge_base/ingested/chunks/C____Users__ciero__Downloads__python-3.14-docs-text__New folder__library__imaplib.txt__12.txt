@@ -1,0 +1,3 @@
+was compiled with SSL support).  If *host* is not specified, "''"
+   (the local host) is used. If *port* is omitted, the standard IMAP4
+   -over-SSL port (993) is used. *ssl_context* is a "ssl.SSLContext"

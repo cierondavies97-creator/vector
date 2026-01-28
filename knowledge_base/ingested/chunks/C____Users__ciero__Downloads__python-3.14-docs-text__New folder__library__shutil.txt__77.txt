@@ -1,0 +1,6 @@
+Raises an auditing event "shutil.chown" with arguments "path",
+   "user", "group".
+   Availability: Unix.
+   Added in version 3.3.
+   Changed in version 3.13: Added *dir_fd* and *follow_symlinks*
+   parameters.

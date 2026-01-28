@@ -1,0 +1,7 @@
+>>>
+Pointer instances have a "contents" attribute which returns the object
+to which the pointer points, the "i" object above:
+   >>> pi.contents
+   c_long(42)
+   >>>
+Note that "ctypes" does not have OOR (original object return), it

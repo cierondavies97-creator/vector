@@ -1,0 +1,4 @@
+If *replace* is "False" (the default) the header is moved to the
+      end of the list of headers.  If *replace* is "True", the header
+      will be updated in place.
+      Use of the *requote* parameter with "EmailMessage" objects is

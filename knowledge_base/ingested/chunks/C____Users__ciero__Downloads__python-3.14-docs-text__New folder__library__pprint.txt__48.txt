@@ -1,0 +1,6 @@
+'release_url': 'https://pypi.org/project/sampleproject/1.2.0/',
+    'requires_dist': None,
+    'requires_python': None,
+    'summary': 'A sample Python project',
+    'version': '1.2.0'}
+The result can be limited to a certain *depth* (ellipsis is used for

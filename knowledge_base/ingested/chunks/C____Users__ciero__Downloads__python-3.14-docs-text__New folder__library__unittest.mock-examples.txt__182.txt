@@ -1,0 +1,5 @@
+<MagicMock name='mock.one().two().three()' id='...'>
+>>> calls = call.one().two().three().call_list()
+>>> m.assert_has_calls(calls)
+Even though the chained call "m.one().two().three()" aren't the only
+calls that have been made to the mock, the assert still succeeds.

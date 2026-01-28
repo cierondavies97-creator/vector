@@ -1,0 +1,4 @@
+"False"; otherwise set the lock to a locked state and return
+      "True".
+      When invoked with a positive, floating-point value for
+      *timeout*, block for at most the number of seconds specified by

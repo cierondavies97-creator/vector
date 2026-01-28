@@ -1,0 +1,4 @@
+more tuples "(cmsg_level, cmsg_type, cmsg_data)" representing the
+   ancillary data (control messages) received: *cmsg_level* and
+   *cmsg_type* are integers specifying the protocol level and
+   protocol-specific type respectively, and *cmsg_data* is a "bytes"

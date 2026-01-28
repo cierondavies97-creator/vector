@@ -1,0 +1,4 @@
+open a TCP socket (for use with the newer syslog daemons such as
+   rsyslog), specify a value of "socket.SOCK_STREAM". If *timeout* is
+   specified, it sets a timeout (in seconds) for the socket
+   operations. This can help prevent the program from hanging

@@ -1,0 +1,3 @@
+"'-'", it is also replaced by "sys.stdin" and the optional arguments
+*mode* and *openhook* are ignored.  To specify an alternative list of
+filenames, pass it as the first argument to "input()".  A single file

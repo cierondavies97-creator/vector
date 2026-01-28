@@ -1,0 +1,5 @@
+are taken to be equal.
+   Otherwise, the files are treated as different if their sizes or
+   contents differ.
+   Note that no external programs are called from this function,
+   giving it portability and efficiency.

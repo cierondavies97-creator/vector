@@ -1,0 +1,9 @@
+...     bright_side_of_life()
+   ...
+   >>> def bright_side_of_life():
+   ...     t = "bright", "side", "of", "life"
+   ...     return t[5]
+   ...
+   >>> try:
+   ...     lumberjack()
+   ... except IndexError as e:

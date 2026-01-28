@@ -1,0 +1,6 @@
+...
+>>> d = defaultdict(constant_factory('<missing>'))
+>>> d.update(name='John', action='ran')
+>>> '%(name)s %(action)s to %(object)s' % d
+'John ran to <missing>'
+Setting the "default_factory" to "set" makes the "defaultdict" useful

@@ -1,0 +1,4 @@
+installation-dependent default.
+   By default, as initialized upon program startup, a potentially
+   unsafe path is prepended to "sys.path" (*before* the entries
+   inserted as a result of "PYTHONPATH"):

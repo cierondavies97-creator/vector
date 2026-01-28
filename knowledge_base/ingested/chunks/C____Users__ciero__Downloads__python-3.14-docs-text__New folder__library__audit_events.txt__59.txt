@@ -1,0 +1,2 @@
+| import                         | "module", "filename", "sys.path", "sys.meta_path",      | [1]             |
+|                                | "sys.path_hooks"                                        |                 |

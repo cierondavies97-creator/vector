@@ -1,0 +1,5 @@
+Returns the data column identifier of the cell at position *x*.
+      The tree column has ID #0.
+   identify_region(x, y)
+      Returns one of:
+      +-------------+----------------------------------------+

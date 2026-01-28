@@ -1,0 +1,5 @@
+environment, the *venv* scheme is returned.
+sysconfig.get_preferred_scheme(key)
+   Return a preferred scheme name for an installation layout specified
+   by *key*.
+   *key* must be either ""prefix"", ""home"", or ""user"".

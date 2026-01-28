@@ -1,0 +1,4 @@
+*tenths* must be a number between "1" and "255".  Use "nocbreak()"
+   to leave half-delay mode.
+curses.init_color(color_number, r, g, b)
+   Change the definition of a color, taking the number of the color to

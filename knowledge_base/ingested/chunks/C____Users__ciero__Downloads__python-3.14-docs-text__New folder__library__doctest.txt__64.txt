@@ -1,0 +1,6 @@
+ValueError: multi
+       line
+   detail
+The last three lines (starting with "ValueError") are compared against
+the exception's type and detail, and the rest are ignored.
+Best practice is to omit the traceback stack, unless it adds

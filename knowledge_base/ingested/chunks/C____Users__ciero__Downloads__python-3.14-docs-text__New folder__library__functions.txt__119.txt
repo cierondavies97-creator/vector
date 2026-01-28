@@ -1,0 +1,9 @@
+class float(string, /)
+   Return a floating-point number constructed from a number or a
+   string.
+   Examples:
+      >>> float('+1.23')
+      1.23
+      >>> float('   -12345\n')
+      -12345.0
+      >>> float('1e-003')

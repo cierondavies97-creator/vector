@@ -1,0 +1,4 @@
+frame is considered to originate in a certain module is determined
+   by the "__name__" in the frame globals.
+   The *backend* argument specifies the backend to use for "Bdb". It
+   can be either "'settrace'" or "'monitoring'". "'settrace'" uses

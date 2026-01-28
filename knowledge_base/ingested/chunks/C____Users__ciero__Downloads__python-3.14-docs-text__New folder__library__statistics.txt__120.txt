@@ -1,0 +1,5 @@
+>>> # Show that a perfect monotonic relationship exists
+      >>> correlation(orbital_period, dist_from_sun, method='ranked')
+      1.0
+      >>> # Observe that a linear relationship is imperfect
+      >>> round(correlation(orbital_period, dist_from_sun), 4)

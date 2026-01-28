@@ -1,0 +1,6 @@
+Added in version 3.8.
+XMLParser Objects
+-----------------
+class xml.etree.ElementTree.XMLParser(*, target=None, encoding=None)
+   This class is the low-level building block of the module.  It uses
+   "xml.parsers.expat" for efficient, event-based parsing of XML.  It

@@ -1,0 +1,3 @@
+invalid_for_stmt:
+       | ['async'] 'for' star_targets 'in' star_expressions NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }
+       | ['async'] a='for' star_targets 'in' star_expressions ':' NEWLINE !INDENT {

@@ -1,0 +1,7 @@
+*Enum* is the base class for all *enum* enumerations.
+   name
+      The name used to define the "Enum" member:
+         >>> Color.BLUE.name
+         'BLUE'
+   value
+      The value given to the "Enum" member:

@@ -1,0 +1,4 @@
+class unittest.mock.PropertyMock(*args, **kwargs)
+   A mock intended to be used as a "property", or other *descriptor*,
+   on a class. "PropertyMock" provides "__get__()" and "__set__()"
+   methods so you can specify a return value when it is fetched.

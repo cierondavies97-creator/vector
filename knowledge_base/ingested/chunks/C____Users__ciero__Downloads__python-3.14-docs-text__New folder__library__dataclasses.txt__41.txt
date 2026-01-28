@@ -1,0 +1,4 @@
+For common and simple use cases, no other functionality is
+   required.  There are, however, some dataclass features that require
+   additional per-field information.  To satisfy this need for
+   additional information, you can replace the default field value

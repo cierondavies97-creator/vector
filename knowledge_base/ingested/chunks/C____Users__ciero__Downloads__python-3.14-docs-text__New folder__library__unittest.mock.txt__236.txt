@@ -1,0 +1,8 @@
+"patch.dict()" can be used as a context manager, decorator or class
+decorator:
+>>> foo = {}
+>>> @patch.dict(foo, {'newkey': 'newvalue'})
+... def test():
+...     assert foo == {'newkey': 'newvalue'}
+...
+>>> test()

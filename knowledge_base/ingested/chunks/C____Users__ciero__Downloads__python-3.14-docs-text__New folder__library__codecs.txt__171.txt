@@ -1,0 +1,4 @@
+written. As it's rather improbable that any charmap encoded file
+starts with these byte values (which would e.g. map to
+      LATIN SMALL LETTER I WITH DIAERESIS
+      RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK

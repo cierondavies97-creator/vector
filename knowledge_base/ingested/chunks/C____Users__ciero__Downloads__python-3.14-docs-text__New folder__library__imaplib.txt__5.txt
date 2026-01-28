@@ -1,0 +1,4 @@
+port (143) is used. The optional *timeout* parameter specifies a
+   timeout in seconds for the connection attempt. If timeout is not
+   given or is "None", the global default socket timeout is used.
+   The "IMAP4" class supports the "with" statement.  When used like

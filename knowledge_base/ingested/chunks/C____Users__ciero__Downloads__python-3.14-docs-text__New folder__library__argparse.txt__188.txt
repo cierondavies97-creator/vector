@@ -1,0 +1,3 @@
+repetition of things like the program name or the argument default.
+The available specifiers include the program name, "%(prog)s" and most
+keyword arguments to "add_argument()", e.g. "%(default)s", "%(type)s",

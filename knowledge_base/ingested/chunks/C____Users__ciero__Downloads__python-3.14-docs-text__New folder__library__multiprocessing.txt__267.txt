@@ -1,0 +1,4 @@
+Note that setting and getting the value is potentially non-atomic
+   -- use "Value()" instead to make sure that access is automatically
+   synchronized using a lock.
+   Note that an array of "ctypes.c_char" has "value" and "raw"

@@ -1,0 +1,4 @@
+lock is part of the condition object: you don't have to track it
+separately.
+A condition variable obeys the context management protocol: using the
+"with" statement acquires the associated lock for the duration of the

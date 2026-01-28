@@ -1,0 +1,4 @@
+if wrapped_annotate is not None:
+            # Wrap the original __annotate__ with a wrapper that removes ClassVars
+            typ.__annotate__ = wrapped_annotate
+         typ.classvars = classvars  # Store the ClassVars in a separate attribute

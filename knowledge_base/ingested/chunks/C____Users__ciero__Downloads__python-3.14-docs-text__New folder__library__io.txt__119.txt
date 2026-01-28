@@ -1,0 +1,6 @@
+would block, returns empty bytes.
+   read(size=-1, /)
+      In "BufferedReader" this is the same as
+      "io.BufferedIOBase.read()"
+   read1(size=-1, /)
+      In "BufferedReader" this is the same as

@@ -1,0 +1,4 @@
+The ids for loggers are the logger names which would be used
+programmatically to obtain a reference to those loggers, e.g.
+"foo.bar.baz".  The ids for Formatters and Filters can be any string
+value (such as "brief", "precise" above) and they are transient, in

@@ -1,0 +1,5 @@
+same exceptions should be raised for improper *key* values as for
+   the "__getitem__()" method.
+object.__delitem__(self, key)
+   Called to implement deletion of "self[key]".  Same note as for
+   "__getitem__()".  This should only be implemented for mappings if

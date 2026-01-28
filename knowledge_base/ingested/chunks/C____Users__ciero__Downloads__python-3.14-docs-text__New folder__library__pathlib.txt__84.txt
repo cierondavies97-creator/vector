@@ -1,0 +1,5 @@
+ValueError: PureWindowsPath('c:/') has an empty name
+PurePath.with_stem(stem)
+   Return a new path with the "stem" changed.  If the original path
+   doesn't have a name, ValueError is raised:
+      >>> p = PureWindowsPath('c:/Downloads/draft.txt')

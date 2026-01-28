@@ -1,0 +1,4 @@
+The optional argument *sep* (default "'T'") is a one-character
+   separator, placed between the date and time portions of the result.
+   For example:
+      >>> from datetime import tzinfo, timedelta, datetime

@@ -1,0 +1,4 @@
+them using proxies.
+   A manager returned by "Manager()" will support types "list",
+   "dict", "set", "Namespace", "Lock", "RLock", "Semaphore",
+   "BoundedSemaphore", "Condition", "Event", "Barrier", "Queue",

@@ -1,0 +1,7 @@
+os.EX_CONFIG
+   Exit code that means that some kind of configuration error
+   occurred.
+   Availability: Unix, not WASI.
+os.EX_NOTFOUND
+   Exit code that means something like "an entry was not found".
+   Availability: Unix, not WASI.

@@ -1,0 +1,5 @@
+15.6 milliseconds.  The best resolution is 0.5 milliseconds. The
+resolution depends on the hardware (availability of HPET) and on the
+Windows configuration.
+Subprocess Support on Windows
+-----------------------------

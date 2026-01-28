@@ -1,0 +1,4 @@
+'Secure Digital Certificate Signing'),),
+                  (('commonName',
+                    'StartCom Class 2 Primary Intermediate Server CA'),)),
+       'notAfter': 'Nov 22 08:15:19 2013 GMT',

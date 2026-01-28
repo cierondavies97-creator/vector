@@ -1,0 +1,4 @@
+commands can be passed as *rcpt_options*. Each option should be
+   passed as a string containing the full text of the option,
+   including any potential key (for instance,
+   ""NOTIFY=SUCCESS,FAILURE""). (If you need to use different ESMTP

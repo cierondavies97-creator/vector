@@ -1,0 +1,5 @@
+this *only* happens when the function is an attribute of the class.
+3.2.8.3. Generator functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A function or method which uses the "yield" statement (see section The
+yield statement) is called a *generator function*.  Such a function,

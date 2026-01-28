@@ -1,0 +1,3 @@
+formatted string literals. The token string is not interpreted: it
+   includes the surrounding quotation marks and the prefix (if given);
+   backslashes are included literally, without processing escape

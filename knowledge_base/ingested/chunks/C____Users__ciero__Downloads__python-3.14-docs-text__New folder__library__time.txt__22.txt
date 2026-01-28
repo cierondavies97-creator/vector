@@ -1,0 +1,5 @@
+specified *thread_id*.
+   Use "threading.get_ident()" or the "ident" attribute of
+   "threading.Thread" objects to get a suitable value for *thread_id*.
+   Warning:
+     Passing an invalid or expired *thread_id* may result in undefined

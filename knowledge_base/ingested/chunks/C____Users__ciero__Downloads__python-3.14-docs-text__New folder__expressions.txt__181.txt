@@ -1,0 +1,4 @@
+"**" unpackings, positional arguments may follow iterable unpackings
+("*"), and keyword arguments may follow dictionary unpackings ("**").
+Originally proposed by **PEP 448**.
+A call always returns some value, possibly "None", unless it raises an

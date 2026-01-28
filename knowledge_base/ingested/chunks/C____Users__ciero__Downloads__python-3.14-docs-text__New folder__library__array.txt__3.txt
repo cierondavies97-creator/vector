@@ -1,0 +1,3 @@
+| Type code   | C Type               | Python Type         | Minimum size in bytes   | Notes   |
+|=============|======================|=====================|=========================|=========|
+| "'b'"       | signed char          | int                 | 1                       |         |

@@ -1,0 +1,6 @@
+>>> s = 'a1 -x a2 a3 a4 --long a5 a6'
+   >>> args = s.split()
+   >>> args
+   ['a1', '-x', 'a2', 'a3', 'a4', '--long', 'a5', 'a6']
+   >>> optlist, args = getopt.gnu_getopt(args, '-x:', ['long='])
+   >>> optlist

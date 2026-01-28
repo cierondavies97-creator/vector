@@ -1,0 +1,5 @@
+incurring the overhead on performance-critical objects (such as
+numbers).
+See also: Documentation for the "weakref" module.
+For an object to be weakly referenceable, the extension type must set
+the "Py_TPFLAGS_MANAGED_WEAKREF" bit of the "tp_flags" field. The

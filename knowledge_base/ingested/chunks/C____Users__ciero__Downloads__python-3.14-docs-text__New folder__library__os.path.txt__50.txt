@@ -1,0 +1,5 @@
+drive or is an absolute path, all previous segments are ignored and
+   the drive is reset. For example:
+      >>> os.path.join('c:\\', 'foo')
+      'c:\\foo'
+      >>> os.path.join('c:\\foo', 'd:\\bar')

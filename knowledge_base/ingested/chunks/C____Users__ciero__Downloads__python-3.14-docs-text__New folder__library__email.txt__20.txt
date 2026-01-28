@@ -1,0 +1,3 @@
+package. The remaining sections, starting with the "Message" class,
+cover the legacy "compat32" API that deals much more directly with the
+details of how email messages are represented.  The "compat32" API

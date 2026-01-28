@@ -1,0 +1,4 @@
+the *interpreter* argument).  The file name should include the
+     ".pyz" extension, if required.
+   * A file object open for reading in bytes mode.  The content of the
+     file should be an application archive, and the file object is

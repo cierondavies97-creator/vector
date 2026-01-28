@@ -1,0 +1,5 @@
+* The commands used to create widgets (like "ttk::frame") correspond
+  to widget classes in Tkinter.
+* Tcl widget options (like "-text") correspond to keyword arguments in
+  Tkinter.
+* Widgets are referred to by a *pathname* in Tcl (like ".frm.btn"),

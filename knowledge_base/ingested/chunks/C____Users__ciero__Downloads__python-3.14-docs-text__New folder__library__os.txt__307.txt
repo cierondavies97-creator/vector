@@ -1,0 +1,6 @@
+Raises an auditing event "os.listmounts" with argument "volume".
+   Availability: Windows
+   Added in version 3.12.
+os.listvolumes()
+   Return a list containing the volumes in the system.
+   Volumes are typically represented as a GUID path that looks like

@@ -1,0 +1,4 @@
+* *zip*: ZIP file (unpacking compressed files works only if the
+     corresponding module is available).
+   * *tar*: uncompressed tar file.
+   * *gztar*: gzip'ed tar-file (if the "zlib" module is available).

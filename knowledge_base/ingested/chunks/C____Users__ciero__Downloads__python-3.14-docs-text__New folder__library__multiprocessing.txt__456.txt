@@ -1,0 +1,4 @@
+As far as possible one should try to avoid shifting large amounts
+   of data between processes.
+   It is probably best to stick to using queues or pipes for
+   communication between processes rather than using the lower level

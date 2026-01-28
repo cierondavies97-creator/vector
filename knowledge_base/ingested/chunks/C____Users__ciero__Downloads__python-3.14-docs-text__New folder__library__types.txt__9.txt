@@ -1,0 +1,7 @@
+"__prepare__" method.
+See also:
+  Metaclasses
+     Full details of the class creation process supported by these
+     functions
+  **PEP 3115** - Metaclasses in Python 3000
+     Introduced the "__prepare__" namespace hook

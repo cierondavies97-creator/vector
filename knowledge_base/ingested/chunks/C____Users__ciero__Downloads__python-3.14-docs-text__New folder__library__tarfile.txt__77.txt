@@ -1,0 +1,4 @@
+most users. See section Unicode issues for in-depth information.
+   The *pax_headers* argument is an optional dictionary of strings
+   which will be added as a pax global header if *format* is
+   "PAX_FORMAT".

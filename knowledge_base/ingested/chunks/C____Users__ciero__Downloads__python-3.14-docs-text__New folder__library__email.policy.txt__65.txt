@@ -1,0 +1,4 @@
+are not limited to) **RFC 5322**, **RFC 2047**, and the current
+   MIME RFCs.
+   This policy adds new header parsing and folding algorithms.
+   Instead of simple strings, headers are "str" subclasses with

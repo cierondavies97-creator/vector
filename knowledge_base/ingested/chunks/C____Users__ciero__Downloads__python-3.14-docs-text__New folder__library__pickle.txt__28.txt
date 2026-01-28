@@ -1,0 +1,3 @@
+of concurrent access to persistent objects.  The "pickle" module can
+  transform a complex object into a byte stream and it can transform
+  the byte stream into an object with the same internal structure.

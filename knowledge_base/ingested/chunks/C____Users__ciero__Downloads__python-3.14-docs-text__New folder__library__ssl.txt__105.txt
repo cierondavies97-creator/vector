@@ -1,0 +1,6 @@
+ClientHello.
+   This option is only available with OpenSSL 1.1.0h and later.
+   Added in version 3.7.
+ssl.OP_CIPHER_SERVER_PREFERENCE
+   Use the server's cipher ordering preference, rather than the
+   client's. This option has no effect on client sockets and SSLv2

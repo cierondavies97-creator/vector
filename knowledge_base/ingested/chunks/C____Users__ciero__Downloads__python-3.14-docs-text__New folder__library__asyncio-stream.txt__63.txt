@@ -1,0 +1,5 @@
+# Simulate the reception of data from the network
+       loop.call_soon(wsock.send, 'abc'.encode())
+       # Wait for data
+       data = await reader.read(100)
+       # Got data, we are done: close the socket

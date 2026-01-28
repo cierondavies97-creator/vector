@@ -1,0 +1,11 @@
+...
+IndexError
+>>> m.mock_calls
+[call(1, 2, 3)]
+>>> m.side_effect = KeyError('Bang!')
+>>> m('two', 'three', 'four')
+Traceback (most recent call last):
+  ...
+KeyError: 'Bang!'
+>>> m.mock_calls
+[call(1, 2, 3), call('two', 'three', 'four')]

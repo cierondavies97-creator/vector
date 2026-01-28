@@ -1,0 +1,6 @@
+"replace()".
+   Raises an auditing event "os.rename" with arguments "src", "dst",
+   "src_dir_fd", "dst_dir_fd".
+   Changed in version 3.3: Added the *src_dir_fd* and *dst_dir_fd*
+   parameters.
+   Changed in version 3.6: Accepts a *path-like object* for *src* and

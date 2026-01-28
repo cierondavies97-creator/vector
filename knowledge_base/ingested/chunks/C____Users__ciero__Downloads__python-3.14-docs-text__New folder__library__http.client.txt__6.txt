@@ -1,0 +1,4 @@
+*source_address* parameter may be a tuple of a (host, port) to use
+   as the source address the HTTP connection is made from. The
+   optional *blocksize* parameter sets the buffer size in bytes for
+   sending a file-like message body.

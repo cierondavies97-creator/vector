@@ -1,0 +1,5 @@
+typing.ParamSpecArgs
+typing.ParamSpecKwargs
+   Arguments and keyword arguments attributes of a "ParamSpec". The
+   "P.args" attribute of a "ParamSpec" is an instance of
+   "ParamSpecArgs", and "P.kwargs" is an instance of

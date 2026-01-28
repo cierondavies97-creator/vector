@@ -1,0 +1,6 @@
+*attribute*.
+os.XATTR_SIZE_MAX
+   The maximum size the value of an extended attribute can be.
+   Currently, this is 64 KiB on Linux.
+os.XATTR_CREATE
+   This is a possible value for the flags argument in "setxattr()". It

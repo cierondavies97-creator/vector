@@ -1,0 +1,6 @@
+Added in version 3.11: - added to "__all__"
+re.A
+re.ASCII
+   Make "\w", "\W", "\b", "\B", "\d", "\D", "\s" and "\S" perform
+   ASCII-only matching instead of full Unicode matching.  This is only
+   meaningful for Unicode (str) patterns, and is ignored for bytes

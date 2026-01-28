@@ -1,0 +1,5 @@
+Changed in version 3.2: Allow giving an explicit line number.
+r(eturn)
+   Continue execution until the current function returns.
+c(ont(inue))
+   Continue execution, only stop when a breakpoint is encountered.

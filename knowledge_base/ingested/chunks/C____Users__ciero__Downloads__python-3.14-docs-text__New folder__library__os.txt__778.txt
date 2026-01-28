@@ -1,0 +1,5 @@
+See also the "sched_getaffinity()" function.
+   Added in version 3.13.
+os.sysconf(name, /)
+   Return integer-valued system configuration values. If the
+   configuration value specified by *name* isn't defined, "-1" is

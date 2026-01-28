@@ -1,0 +1,5 @@
+tuple where the *node* and *port* are non-negative integers.
+  Availability: Linux >= 4.7.
+  Added in version 3.8.
+* "IPPROTO_UDPLITE" is a variant of UDP which allows you to specify
+  what portion of a packet is covered with the checksum. It adds two

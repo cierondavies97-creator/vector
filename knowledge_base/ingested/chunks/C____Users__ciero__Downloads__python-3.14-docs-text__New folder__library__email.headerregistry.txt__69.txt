@@ -1,0 +1,5 @@
+setting *display_name* to "None" and providing a list of the single
+   address as *addresses*.
+   display_name
+      The "display_name" of the group.  If it is "None" and there is
+      exactly one "Address" in "addresses", then the "Group"

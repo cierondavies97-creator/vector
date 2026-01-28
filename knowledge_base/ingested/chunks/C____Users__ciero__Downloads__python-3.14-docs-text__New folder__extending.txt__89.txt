@@ -1,0 +1,4 @@
+This is especially the case for libraries that support so-called
+"callback" functions.  If a C interface makes use of callbacks, the
+equivalent Python often needs to provide a callback mechanism to the
+Python programmer; the implementation will require calling the Python

@@ -1,0 +1,5 @@
+The following methods on bytes and bytearray objects can be used with
+arbitrary binary data.
+bytes.count(sub[, start[, end]])
+bytearray.count(sub[, start[, end]])
+   Return the number of non-overlapping occurrences of subsequence

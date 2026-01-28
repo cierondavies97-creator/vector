@@ -1,0 +1,3 @@
+| "POLLPRI"           | There is urgent data to read               |
+   +---------------------+--------------------------------------------+
+   | "POLLOUT"           | Ready for output: writing will not block   |

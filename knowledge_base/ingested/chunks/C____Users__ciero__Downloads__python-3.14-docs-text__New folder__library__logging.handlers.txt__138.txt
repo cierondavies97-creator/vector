@@ -1,0 +1,5 @@
+the Event Log Viewer - it needs to be able to access the
+      registry to get the .dll name. The current version does not do
+      this.
+   emit(record)
+      Determines the message ID, event category and event type, and

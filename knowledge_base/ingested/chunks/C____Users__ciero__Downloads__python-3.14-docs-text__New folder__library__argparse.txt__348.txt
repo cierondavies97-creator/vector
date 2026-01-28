@@ -1,0 +1,5 @@
+returns "['2', '3']" as unparsed arguments, while the latter
+   collects all the positionals into "rest".
+      >>> parser = argparse.ArgumentParser()
+      >>> parser.add_argument('--foo')
+      >>> parser.add_argument('cmd')

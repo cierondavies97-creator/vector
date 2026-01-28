@@ -1,0 +1,3 @@
+adjustments, such as time zone and daylight saving time information,
+an **aware** object can locate itself relative to other aware objects.
+An aware object represents a specific moment in time that is not open

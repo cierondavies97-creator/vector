@@ -1,0 +1,4 @@
+them; resources which cannot be checked or controlled by the operating
+system are not defined in this module for those platforms.
+resource.RLIM_INFINITY
+   Constant used to represent the limit for an unlimited resource.

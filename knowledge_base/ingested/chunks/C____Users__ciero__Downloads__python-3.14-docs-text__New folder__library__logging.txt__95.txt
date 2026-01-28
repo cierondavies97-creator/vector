@@ -1,0 +1,5 @@
++-------------------------+-----------------+---------------------------------------+
+Handler Objects
+===============
+Handlers have the following attributes and methods. Note that
+"Handler" is never instantiated directly; this class acts as a base

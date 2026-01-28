@@ -1,0 +1,8 @@
+>>> for i in range(4):
+      ...     turtle.fd(50); turtle.lt(80)
+      ...
+      >>> for i in range(8):
+      ...     turtle.undo()
+turtle.speed(speed=None)
+   Parameters:
+      **speed** -- an integer in the range 0..10 or a speedstring (see

@@ -1,0 +1,5 @@
+did in Python 3.3.3 and earlier.  exitcode has the same value as
+   "returncode".
+   Changed in version 3.11: Added the *encoding* and *errors*
+   parameters.
+subprocess.getoutput(cmd, *, encoding=None, errors=None)

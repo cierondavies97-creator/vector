@@ -1,0 +1,5 @@
+{'my_attribute': obj.my_attribute})
+           else:
+               # For any other object, fallback to usual reduction
+               return NotImplemented
+   f = io.BytesIO()

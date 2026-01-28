@@ -1,0 +1,4 @@
+the indentation string and defaults to a tabulator; *newl*
+   specifies the string emitted at the end of each line and defaults
+   to "\n".
+   The *encoding* argument behaves like the corresponding argument of

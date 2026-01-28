@@ -1,0 +1,5 @@
+point given by *x* and *y*, or the empty string if no such
+      *component* is present at that position.
+   identify_row(y)
+      Returns the item ID of the item at position *y*.
+   identify_column(x)

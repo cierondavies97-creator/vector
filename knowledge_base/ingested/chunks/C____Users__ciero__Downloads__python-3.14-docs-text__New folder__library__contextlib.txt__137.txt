@@ -1,0 +1,6 @@
+example of reentrant use:
+   >>> from contextlib import redirect_stdout
+   >>> from io import StringIO
+   >>> stream = StringIO()
+   >>> write_to_stream = redirect_stdout(stream)
+   >>> with write_to_stream:

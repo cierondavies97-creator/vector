@@ -1,0 +1,5 @@
+Raises an auditing event "imaplib.open" with arguments "self",
+   "host", "port".
+   Changed in version 3.9: The *timeout* parameter was added.
+IMAP4.partial(message_num, message_part, start, length)
+   Fetch truncated part of a message. Returned data is a tuple of

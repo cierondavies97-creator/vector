@@ -1,0 +1,7 @@
+**RFC 3927**.
+   ipv6_mapped
+      "IPv4Address" object representing the IPv4-mapped IPv6 address.
+      See **RFC 4291**.
+      Added in version 3.13.
+IPv4Address.__format__(fmt)
+   Returns a string representation of the IP address, controlled by an

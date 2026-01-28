@@ -1,0 +1,6 @@
+will eventually be removed.
+Classes
+=======
+class annotationlib.Format
+   An "IntEnum" describing the formats in which annotations can be
+   returned. Members of the enum, or their equivalent integer values,

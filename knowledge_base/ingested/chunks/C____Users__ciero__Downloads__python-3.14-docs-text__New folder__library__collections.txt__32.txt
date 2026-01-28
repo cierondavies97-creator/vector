@@ -1,0 +1,3 @@
+The "ChainMap" class only makes updates (writes and deletions) to the
+first mapping in the chain while lookups will search the full chain.
+However, if deep writes and deletions are desired, it is easy to make

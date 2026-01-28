@@ -1,0 +1,4 @@
+Create a MIME-compliant header that can contain strings in
+   different character sets.
+   Optional *s* is the initial header value.  If "None" (the default),
+   the initial header value is not set.  You can later append to the

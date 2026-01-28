@@ -1,0 +1,4 @@
+decode the returned bytes object to string once it determines or
+guesses the appropriate encoding.
+The following HTML spec document,
+https://html.spec.whatwg.org/#charset, lists the various ways in which

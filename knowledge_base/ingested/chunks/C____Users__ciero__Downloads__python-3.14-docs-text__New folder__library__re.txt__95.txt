@@ -1,0 +1,5 @@
+match, but as the character with octal value *number*. Inside the
+   "'['" and "']'" of a character class, all numeric escapes are
+   treated as characters.
+"\A"
+   Matches only at the start of the string.

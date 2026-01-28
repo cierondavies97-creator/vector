@@ -1,0 +1,4 @@
+Changed in version 3.11: A list of "FrameInfo" objects is returned.
+inspect.currentframe()
+   Return the frame object for the caller's stack frame.
+   **CPython implementation detail:** This function relies on Python

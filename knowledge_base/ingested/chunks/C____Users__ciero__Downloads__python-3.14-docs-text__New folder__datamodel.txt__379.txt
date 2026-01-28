@@ -1,0 +1,6 @@
+Example:
+      def __hash__(self):
+          return hash((self.name, self.nick, self.color))
+   Note:
+     "hash()" truncates the value returned from an object's custom
+     "__hash__()" method to the size of a "Py_ssize_t".  This is

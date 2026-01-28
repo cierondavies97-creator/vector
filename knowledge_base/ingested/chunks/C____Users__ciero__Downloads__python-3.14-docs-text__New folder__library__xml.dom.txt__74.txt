@@ -1,0 +1,4 @@
+(including the external subset if the parser uses it and can provide
+the information) is available from a "DocumentType" object.  The
+"DocumentType" for a document is available from the "Document"
+object's "doctype" attribute; if there is no "DOCTYPE" declaration for

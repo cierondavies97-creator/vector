@@ -1,0 +1,6 @@
+Type annotations
+----------------
+class ast.TypeIgnore(lineno, tag)
+   A "# type: ignore" comment located at *lineno*. *tag* is the
+   optional tag specified by the form "# type: ignore <tag>".
+      >>> print(ast.dump(ast.parse('x = 1 # type: ignore', type_comments=True), indent=4))

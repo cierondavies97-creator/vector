@@ -1,0 +1,5 @@
+StreamReaderWriter Objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+The "StreamReaderWriter" is a convenience class that allows wrapping
+streams which work in both read and write modes.
+The design is such that one can use the factory functions returned by

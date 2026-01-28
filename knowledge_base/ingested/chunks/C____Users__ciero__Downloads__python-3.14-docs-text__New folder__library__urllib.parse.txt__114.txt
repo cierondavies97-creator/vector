@@ -1,0 +1,4 @@
+*string* may be either a "str" or a "bytes" object.
+   Changed in version 3.7: Moved from **RFC 2396** to **RFC 3986** for
+   quoting URL strings. "~" is now included in the set of unreserved
+   characters.

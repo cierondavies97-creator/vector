@@ -1,0 +1,3 @@
+mock of these methods is pretty simplistic: every time the *mock*
+   is called, the *read_data* is rewound to the start.  If you need
+   more control over the data that you are feeding to the tested code

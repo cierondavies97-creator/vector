@@ -1,0 +1,4 @@
+"DOMException", and a number of constants that allow applications to
+determine what sort of error occurred. "DOMException" instances carry
+a "code" attribute that provides the appropriate value for the
+specific exception.

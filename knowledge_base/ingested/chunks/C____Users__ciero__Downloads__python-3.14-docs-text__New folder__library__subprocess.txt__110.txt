@@ -1,0 +1,3 @@
+file objects *stdin*, *stdout* and *stderr* are opened in text mode
+   with the specified *encoding* and *errors*, as described above in
+   Frequently Used Arguments. The *universal_newlines* argument is

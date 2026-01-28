@@ -1,0 +1,4 @@
+on macOS where the platform defaults do not refer to command-line
+tools on "PATH".
+For non-Unix platforms, or when a remote browser is available on Unix,
+the controlling process will not wait for the user to finish with the

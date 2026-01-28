@@ -1,0 +1,10 @@
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+mypy: Summary
+Cons
+▶ additional work for programmer
+▶ defining correct types can be tricky
+(type hints cheat sheet)
+▶ code gets more verbose and maybe confusing

@@ -1,0 +1,4 @@
+__subclasshook__(subclass)
+      (Must be defined as a class method.)
+      Check whether *subclass* is considered a subclass of this ABC.
+      This means that you can customize the behavior of "issubclass()"

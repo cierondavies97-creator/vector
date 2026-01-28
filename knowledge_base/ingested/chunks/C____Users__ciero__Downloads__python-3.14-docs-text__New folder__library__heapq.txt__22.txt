@@ -1,0 +1,5 @@
+assumes that each of the input streams is already sorted (smallest
+   to largest).
+   Has two optional arguments which must be specified as keyword
+   arguments.
+   *key* specifies a *key function* of one argument that is used to

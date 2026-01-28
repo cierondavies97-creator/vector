@@ -1,0 +1,5 @@
+Background* mouse cursor will be displayed while a process is
+   launching. This is the default behavior for GUI processes.
+   Added in version 3.13.
+subprocess.STARTF_FORCEOFFFEEDBACK
+   A "STARTUPINFO.dwFlags" parameter to specify that the mouse cursor

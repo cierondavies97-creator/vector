@@ -1,0 +1,9 @@
+0.9138244460009446
+   >>> s = "if hasattr(str, '__bool__'): pass"
+   >>> timeit.timeit(stmt=s, number=100000)
+   0.5829014980008651
+   >>>
+   >>> # attribute is present
+   >>> s = """\
+   ... try:
+   ...     int.__bool__

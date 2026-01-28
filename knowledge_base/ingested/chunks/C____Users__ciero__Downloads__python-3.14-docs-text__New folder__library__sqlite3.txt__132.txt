@@ -1,0 +1,5 @@
+third argument depending on the first one. All necessary
+      constants are available in the "sqlite3" module.
+      Passing "None" as *authorizer_callback* will disable the
+      authorizer.
+      Changed in version 3.11: Added support for disabling the

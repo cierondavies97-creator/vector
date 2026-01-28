@@ -1,0 +1,6 @@
+annotated object has a value equivalent to one of the provided
+   literals.
+   For example:
+      def validate_simple(data: Any) -> Literal[True]:  # always returns True
+          ...
+      type Mode = Literal['r', 'rb', 'w', 'wb']

@@ -1,0 +1,5 @@
+you wanted, the "tp_setattr" handler should be set to "NULL".
+   static int
+   newdatatype_setattr(PyObject *op, char *name, PyObject *v)
+   {
+       PyErr_Format(PyExc_RuntimeError, "Read-only attribute: %s", name);

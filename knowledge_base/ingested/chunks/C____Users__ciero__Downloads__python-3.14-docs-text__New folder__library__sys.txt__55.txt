@@ -1,0 +1,5 @@
+_emscripten_info.pthreads
+      "True" if Python is compiled with Emscripten pthreads support.
+   _emscripten_info.shared_memory
+      "True" if Python is compiled with shared memory support.
+   Availability: Emscripten.

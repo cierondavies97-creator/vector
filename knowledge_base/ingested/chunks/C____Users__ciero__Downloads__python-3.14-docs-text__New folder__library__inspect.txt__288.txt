@@ -1,0 +1,5 @@
+"await" expression, and can "yield from" coroutine objects. See
+   **PEP 492** for more details.
+   Added in version 3.5.
+inspect.CO_ASYNC_GENERATOR
+   The flag is set when the code object is an asynchronous generator

@@ -1,0 +1,5 @@
+the last call to "encode()" *final* must be true (the default is
+      false).
+   reset()
+      Reset the encoder to the initial state. The output is discarded:
+      call ".encode(object, final=True)", passing an empty byte or

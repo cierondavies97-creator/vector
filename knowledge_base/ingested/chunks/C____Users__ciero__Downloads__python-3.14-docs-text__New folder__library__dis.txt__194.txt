@@ -1,0 +1,7 @@
+CONVERT_VALUE(oparg)
+   Convert value to a string, depending on "oparg":
+      value = STACK.pop()
+      result = func(value)
+      STACK.append(result)
+   * "oparg == 1": call "str()" on *value*
+   * "oparg == 2": call "repr()" on *value*

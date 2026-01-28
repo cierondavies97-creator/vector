@@ -1,0 +1,4 @@
+"winsound" --- Sound-playing interface for Windows
+**************************************************
+======================================================================
+The "winsound" module provides access to the basic sound-playing

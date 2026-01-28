@@ -1,0 +1,4 @@
+differ in how they determine *which* signal or signals have
+   arrived.
+   In the first approach, we read the data out of the fd's buffer, and
+   the byte values give you the signal numbers. This is simple, but in

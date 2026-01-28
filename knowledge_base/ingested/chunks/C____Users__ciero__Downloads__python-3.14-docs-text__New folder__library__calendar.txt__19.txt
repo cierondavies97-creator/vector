@@ -1,0 +1,3 @@
+Return the data for the specified year ready for formatting. The
+      return value is a list of month rows. Each month row contains up
+      to *width* months (defaulting to 3). Each month contains between

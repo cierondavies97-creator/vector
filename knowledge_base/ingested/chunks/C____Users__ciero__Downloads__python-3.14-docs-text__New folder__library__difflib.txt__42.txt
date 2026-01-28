@@ -1,0 +1,4 @@
+"None". There is also a module-level function "IS_LINE_JUNK()",
+   which filters out lines without visible characters, except for at
+   most one hash character ("'#'") -- however the underlying
+   "SequenceMatcher" class does a dynamic analysis of which lines are

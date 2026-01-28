@@ -1,0 +1,4 @@
+the Unix manual page *inet(3)* for details.
+   If the IPv4 address string passed to this function is invalid,
+   "OSError" will be raised. Note that exactly what is valid depends
+   on the underlying C implementation of "inet_aton()".

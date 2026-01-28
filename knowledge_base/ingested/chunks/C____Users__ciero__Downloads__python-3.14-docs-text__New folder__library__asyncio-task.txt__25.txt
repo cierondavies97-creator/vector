@@ -1,0 +1,5 @@
+Creating Tasks
+==============
+**Source code:** Lib/asyncio/tasks.py
+======================================================================
+asyncio.create_task(coro, *, name=None, context=None, eager_start=None, **kwargs)

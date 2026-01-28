@@ -1,0 +1,6 @@
+---------------------------
+See Objects, values and types and Class definitions for these.
+Functions
+---------
+Function objects are created by function definitions.  The only
+operation on a function object is to call it: "func(argument-list)".

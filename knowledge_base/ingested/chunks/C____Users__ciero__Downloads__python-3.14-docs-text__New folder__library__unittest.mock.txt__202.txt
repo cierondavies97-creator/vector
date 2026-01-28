@@ -1,0 +1,3 @@
+has exited. This is useful for writing tests against attributes
+   that your production code creates at runtime. It is off by default
+   because it can be dangerous. With it switched on you can write

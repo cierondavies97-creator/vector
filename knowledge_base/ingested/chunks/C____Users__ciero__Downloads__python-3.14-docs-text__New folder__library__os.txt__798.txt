@@ -1,0 +1,4 @@
+(using the "GRND_NONBLOCK" flag) or to poll until the system
+   urandom entropy pool is initialized.
+   On a Unix-like system, random bytes are read from the
+   "/dev/urandom" device. If the "/dev/urandom" device is not

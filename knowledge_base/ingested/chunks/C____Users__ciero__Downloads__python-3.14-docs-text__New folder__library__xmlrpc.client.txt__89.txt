@@ -1,0 +1,6 @@
+print(server.examples.getStateName(41))
+Example of Client and Server Usage
+==================================
+See SimpleXMLRPCServer Example.
+-[ Footnotes ]-
+[1] This approach has been first presented in a discussion on

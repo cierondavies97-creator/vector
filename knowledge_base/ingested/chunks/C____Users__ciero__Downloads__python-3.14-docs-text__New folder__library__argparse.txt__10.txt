@@ -1,0 +1,5 @@
+the extracted data in a "argparse.Namespace" object:
+   args = parser.parse_args()
+   print(args.filename, args.count, args.verbose)
+Note:
+  If you're looking for a guide about how to upgrade "optparse" code

@@ -1,0 +1,4 @@
+equal to that of the right-hand operand.
+      Also unlike other operations, quantize never signals Underflow,
+      even if the result is subnormal and inexact.
+      If the exponent of the second operand is larger than that of the

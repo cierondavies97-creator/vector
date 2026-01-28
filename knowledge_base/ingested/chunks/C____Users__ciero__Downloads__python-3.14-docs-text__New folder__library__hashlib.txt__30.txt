@@ -1,0 +1,5 @@
+=============================
+hashlib.shake_128([data, ]*, usedforsecurity=True)
+hashlib.shake_256([data, ]*, usedforsecurity=True)
+The "shake_128()" and "shake_256()" algorithms provide variable length
+digests with length_in_bits//2 up to 128 or 256 bits of security. As

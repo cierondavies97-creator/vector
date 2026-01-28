@@ -1,0 +1,4 @@
+integer specifying which generation to collect (from 0 to 2).  A
+   "ValueError" is raised if the generation number is invalid. The sum
+   of collected objects and uncollectable objects is returned.
+   Calling "gc.collect(0)" will perform a GC collection on the young

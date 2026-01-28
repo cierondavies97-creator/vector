@@ -1,0 +1,3 @@
+the same meaning of "Mock", with the exception of *return_value*
+   and *side_effect* which have no meaning on a non-callable mock.
+Mock objects that use a class or an instance as a "spec" or "spec_set"

@@ -1,0 +1,3 @@
+specifying their *path* parameter as an open file descriptor on the
+   local platform.  Different platforms provide different features,
+   and the underlying functionality Python uses to accept open file

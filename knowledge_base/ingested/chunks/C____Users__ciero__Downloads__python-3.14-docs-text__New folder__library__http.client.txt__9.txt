@@ -1,0 +1,3 @@
+0.9-style "Simple Responses" are no longer supported.
+   Changed in version 3.7: *blocksize* parameter was added.
+class http.client.HTTPSConnection(host, port=None, *, [timeout, ]source_address=None, context=None, blocksize=8192)

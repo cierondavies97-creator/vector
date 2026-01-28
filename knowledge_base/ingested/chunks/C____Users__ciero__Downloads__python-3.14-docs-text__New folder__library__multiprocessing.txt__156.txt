@@ -1,0 +1,5 @@
+underlying pipe, and you don't care about lost data.
+   Note:
+     This class's functionality requires a functioning shared
+     semaphore implementation on the host operating system. Without
+     one, the functionality in this class will be disabled, and

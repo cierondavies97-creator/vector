@@ -1,0 +1,5 @@
+ignored.
+   Raises an auditing event "_thread.start_new_thread" with arguments
+   "function", "args", "kwargs".
+   Changed in version 3.8: "sys.unraisablehook()" is now used to
+   handle unhandled exceptions.

@@ -1,0 +1,4 @@
+definition (such as "f()").
+   Static methods in Python are similar to those found in Java or C++.
+   Also, see "classmethod()" for a variant that is useful for creating
+   alternate class constructors.

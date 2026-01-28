@@ -1,0 +1,5 @@
+underlying method is linear (as it would be with a linked list),
+   the mixins will have quadratic performance and will likely need to
+   be overridden.
+   index(value, start=0, stop=None)
+      Return first index of *value*.

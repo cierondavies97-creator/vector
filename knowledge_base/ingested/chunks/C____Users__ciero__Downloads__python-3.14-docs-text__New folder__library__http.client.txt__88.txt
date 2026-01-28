@@ -1,0 +1,5 @@
+by setting the appropriate method attribute. Here is an example
+session that uses the "PUT" method:
+   >>> # This creates an HTTP request
+   >>> # with the content of BODY as the enclosed representation
+   >>> # for the resource http://localhost:8080/file

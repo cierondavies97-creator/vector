@@ -1,0 +1,4 @@
+You can also use the "with" statement and the "localcontext()"
+function to temporarily change the active context.
+decimal.localcontext(ctx=None, **kwargs)
+   Return a context manager that will set the current context for the

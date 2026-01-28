@@ -1,0 +1,6 @@
+"OverflowError".
+   Added in version 3.2.
+This module defines a number of classes, which are detailed in the
+sections below.
+The design of this module is loosely based on Java's threading model.
+However, where Java makes locks and condition variables basic behavior

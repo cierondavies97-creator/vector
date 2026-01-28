@@ -1,0 +1,5 @@
+See the documentation for "annotationlib.ForwardRef.evaluate()" for
+   the meaning of the *owner*, *globals*, *locals*, *type_params*, and
+   *format* parameters.
+   Caution:
+     This function may execute arbitrary code contained in

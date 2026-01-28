@@ -1,0 +1,2 @@
+|                                   |                                   | environment variables are         |
+|                                   |                                   | boolean, and may produce          |

@@ -1,0 +1,4 @@
+"PyInterpreterConfig.use_main_obmalloc" set to 1 or using
+   "Py_NewInterpreter()", and the main interpreter). Mixing objects
+   from different interpreters may lead to crashes or other unexpected
+   behavior.

@@ -1,0 +1,5 @@
+path for the profile files is the "HOME" environment variable or,
+   if that isn't defined, then "os.curdir".
+   tk
+      The Tk application object created by instantiating "Tk".  This
+      provides access to the Tcl interpreter.  Each widget that is

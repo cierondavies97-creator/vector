@@ -1,0 +1,4 @@
+The "clear()" method is also *atomic*. Other threads cannot observe
+elements being removed.The "sort()" method is not *atomic*. Other
+threads cannot observe intermediate states during sorting, but the
+list appears empty for the duration of the sort.The following

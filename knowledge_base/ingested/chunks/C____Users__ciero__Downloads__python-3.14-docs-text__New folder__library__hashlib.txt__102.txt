@@ -1,0 +1,4 @@
+>>> from base64 import b64decode, b64encode
+>>> orig_key = b64decode(b'Rm5EPJai72qcK3RGBpW3vPNfZy5OZothY+kHY6h21KM=')
+>>> enc_key = blake2s(key=orig_key, person=b'kEncrypt').digest()
+>>> mac_key = blake2s(key=orig_key, person=b'kMAC').digest()

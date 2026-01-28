@@ -1,0 +1,4 @@
+not safe if used within a concurrent program (using multiple threads
+or using asyncio coroutines).  For example, if two or more threads use
+the "catch_warnings" class at the same time, the behavior is
+undefined.

@@ -1,0 +1,3 @@
+recognizes. The loaders are expected to be callables which accept
+   two arguments of the module's name and the path to the file found.
+   The finder will cache the directory contents as necessary, making

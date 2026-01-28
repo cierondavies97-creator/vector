@@ -1,0 +1,3 @@
+in a binary format.  The format is specific to Python, but independent
+of machine architecture issues (e.g., you can write a Python value to
+a file on a PC, transport the file to a Mac, and read it back there).

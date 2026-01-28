@@ -1,0 +1,3 @@
+The following methods can be defined to implement container objects.
+None of them are provided by the "object" class itself. Containers
+usually are *sequences* (such as "lists" or "tuples") or *mappings*

@@ -1,0 +1,8 @@
+'C0A80001'
+   >>> int(_, 16)
+   3232235521
+   >>>
+   >>> width = 5
+   >>> for num in range(5,12):
+   ...     for base in 'dXob':
+   ...         print('{0:{width}{base}}'.format(num, base=base, width=width), end=' ')

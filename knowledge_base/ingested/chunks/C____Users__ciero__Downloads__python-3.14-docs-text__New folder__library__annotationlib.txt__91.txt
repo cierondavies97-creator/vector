@@ -1,0 +1,5 @@
+return typ
+Limitations of the "STRING" format
+==================================
+The "STRING" format is meant to approximate the source code of the
+annotation, but the implementation strategy used means that it is not

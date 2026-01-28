@@ -1,0 +1,5 @@
+overridden by setting the "PYTHONDOCS" environment variable to a
+different URL or to a local directory containing the Library Reference
+Manual pages.
+Changed in version 3.2: Added the "-b" option.
+Changed in version 3.3: The "-g" command line option was removed.

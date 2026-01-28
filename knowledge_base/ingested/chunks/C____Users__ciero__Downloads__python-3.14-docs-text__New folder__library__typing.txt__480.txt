@@ -1,0 +1,4 @@
+**PEP 593**. See the documentation on "Annotated" for more
+   information.
+   Changed in version 3.11: Previously, "Optional[t]" was added for
+   function and method annotations if a default value equal to "None"

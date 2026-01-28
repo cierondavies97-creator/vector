@@ -1,0 +1,4 @@
+$> py install 3.14-embed --target=<directory>
+When extracted, the embedded distribution is (almost) fully isolated
+from the user's system, including environment variables, system
+registry settings, and installed packages. The standard library is

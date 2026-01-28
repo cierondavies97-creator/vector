@@ -1,0 +1,4 @@
+As we shall see, pickle does not use directly the methods described
+above.  In fact, these methods are part of the copy protocol which
+implements the "__reduce__()" special method.  The copy protocol
+provides a unified interface for retrieving the data necessary for

@@ -1,0 +1,5 @@
+the standard logging infrastructure.
+Warning Categories
+==================
+There are a number of built-in exceptions that represent warning
+categories. This categorization is useful to be able to filter out

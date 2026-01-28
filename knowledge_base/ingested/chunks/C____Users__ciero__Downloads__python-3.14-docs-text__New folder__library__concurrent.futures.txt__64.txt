@@ -1,0 +1,3 @@
+*max_workers* is "None", then the default chosen will be at most
+   "61", even if more processors are available. *mp_context* can be a
+   "multiprocessing" context or "None". It will be used to launch the

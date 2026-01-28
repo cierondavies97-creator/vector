@@ -1,0 +1,4 @@
+and select "Install", or run "Add-AppxPackage <path to MSIX>" in
+Windows Powershell.
+After installation, the "python", "py", and "pymanager" commands
+should be available. If you have existing installations of Python, or

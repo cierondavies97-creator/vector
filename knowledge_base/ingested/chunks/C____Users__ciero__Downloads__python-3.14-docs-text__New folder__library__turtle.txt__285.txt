@@ -1,0 +1,7 @@
+in the range 0..colormode or a 3-tuple of such numbers.
+         Example::
+           >>> bgcolor("orange")
+           >>> bgcolor()
+           "orange"
+           >>> bgcolor(0.5,0,0.5)
+           >>> bgcolor()

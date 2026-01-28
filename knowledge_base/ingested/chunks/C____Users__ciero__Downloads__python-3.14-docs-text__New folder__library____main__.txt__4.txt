@@ -1,0 +1,6 @@
+>>> configparser.__name__
+   'configparser'
+If the file is part of a package, "__name__" will also include the
+parent package's path:
+   >>> from concurrent.futures import process
+   >>> process.__name__

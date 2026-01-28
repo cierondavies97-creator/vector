@@ -1,0 +1,4 @@
+*cmd* and *rest* means the same thing as in "transfercmd()".
+   mlsd(path='', facts=[])
+      List a directory in a standardized format by using "MLSD"
+      command (**RFC 3659**).  If *path* is omitted the current

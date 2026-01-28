@@ -1,0 +1,4 @@
+===================================
+User code can create subclasses that inherit from an exception type.
+It's recommended to only subclass one exception type at a time to
+avoid any possible conflicts between how the bases handle the "args"

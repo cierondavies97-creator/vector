@@ -1,0 +1,5 @@
+"configparser".  The *allow_no_value* parameter to the constructor
+  can be used to indicate that such values should be accepted:
+     >>> import configparser
+     >>> sample_config = """
+     ... [mysqld]

@@ -1,0 +1,5 @@
+greater or equal to "1".
+   You can still read the original number of total frames that
+   composed the traceback by looking at the "Traceback.total_nframe"
+   attribute.
+   Storing more than "1" frame is only useful to compute statistics

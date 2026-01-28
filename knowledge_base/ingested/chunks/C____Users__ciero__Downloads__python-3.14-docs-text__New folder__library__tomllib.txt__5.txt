@@ -1,0 +1,4 @@
+(e.g. "decimal.Decimal"). The callable must not return a "dict" or
+   a "list", else a "ValueError" is raised.
+   A "TOMLDecodeError" will be raised on an invalid TOML document.
+tomllib.loads(s, /, *, parse_float=float)

@@ -1,0 +1,3 @@
+input. Nevertheless, trees built using this module's API rather than
+  parsing from XML text can have comments and processing instructions
+  in them; they will be included when generating XML output. A

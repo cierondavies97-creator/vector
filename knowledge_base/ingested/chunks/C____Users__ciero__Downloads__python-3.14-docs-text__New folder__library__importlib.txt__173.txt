@@ -1,0 +1,5 @@
+Otherwise it should be set to "None".
+   cached
+      The filename of a compiled version of the module's code (see
+      "module.__cached__"). The *finder* should always set this
+      attribute but it may be "None" for modules that do not need

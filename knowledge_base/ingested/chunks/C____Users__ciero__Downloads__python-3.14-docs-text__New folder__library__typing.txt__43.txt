@@ -1,0 +1,5 @@
+from typing import TypeVar
+   U = TypeVar('U')                  # Declare type variable "U"
+   def second(l: Sequence[U]) -> U:  # Function is generic over the TypeVar "U"
+       return l[1]
+Changed in version 3.12: Syntactic support for generics is new in

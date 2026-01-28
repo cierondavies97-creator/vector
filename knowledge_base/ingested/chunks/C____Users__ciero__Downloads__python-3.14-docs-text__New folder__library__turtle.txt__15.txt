@@ -1,0 +1,6 @@
+color(c)
+           forward(steps)
+           right(30)
+- which of course, are limited only by the imagination!
+Let's draw the star shape at the top of this page. We want red lines,
+filled in with yellow:

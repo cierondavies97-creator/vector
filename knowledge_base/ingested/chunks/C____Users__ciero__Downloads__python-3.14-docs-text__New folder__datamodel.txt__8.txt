@@ -1,0 +1,4 @@
+implemented, as long as no objects are collected that are still
+reachable.
+**CPython implementation detail:** CPython currently uses a reference-
+counting scheme with (optional) delayed detection of cyclically linked

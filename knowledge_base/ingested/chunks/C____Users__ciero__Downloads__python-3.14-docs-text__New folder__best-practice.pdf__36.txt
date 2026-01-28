@@ -1,0 +1,9 @@
+assert balance > amount, "Balance too small"
+return balance - amount
+print(withdraw(50, 100))
+running: python3 -O withdraw.py
+Nicola Chiapolini, 8 July 2024
+16 / 34
+Introduction
+Style & Documentation
+Special Statements

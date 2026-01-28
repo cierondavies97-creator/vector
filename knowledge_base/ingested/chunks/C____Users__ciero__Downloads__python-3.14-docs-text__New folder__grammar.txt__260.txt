@@ -1,0 +1,3 @@
+RAISE_SYNTAX_ERROR_STARTING_FROM(a, "Did you mean to use 'from ... import ...' instead?") }
+       | 'import' token=NEWLINE {
+           RAISE_SYNTAX_ERROR_STARTING_FROM(token, "Expected one or more names after 'import'") }

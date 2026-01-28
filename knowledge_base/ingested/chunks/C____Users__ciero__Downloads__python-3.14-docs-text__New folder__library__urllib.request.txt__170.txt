@@ -1,0 +1,6 @@
+implementation will raise a "ValueError" in that case.
+FTPHandler Objects
+==================
+FTPHandler.ftp_open(req)
+   Open the FTP file indicated by *req*. The login is always done with
+   empty username and password.

@@ -1,0 +1,3 @@
+because the "a*" will match all 4 "'a'"s, but, when the final "'a'"
+   is encountered, the expression is backtracked so that in the end
+   the "a*" ends up matching 3 "'a'"s total, and the fourth "'a'" is

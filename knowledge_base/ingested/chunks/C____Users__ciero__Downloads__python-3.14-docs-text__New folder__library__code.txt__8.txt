@@ -1,0 +1,3 @@
+new instance of "InteractiveConsole" and sets *readfunc* to be used
+   as the "InteractiveConsole.raw_input()" method, if provided.  If
+   *local* is provided, it is passed to the "InteractiveConsole"

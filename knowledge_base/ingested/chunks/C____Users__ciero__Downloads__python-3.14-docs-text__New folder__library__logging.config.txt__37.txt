@@ -1,0 +1,4 @@
+same mechanisms (importing callables from user-defined modules and
+calling them with parameters from the configuration) could be used to
+invoke any code you like, and for this reason you should treat
+configuration files from untrusted sources with *extreme caution* and

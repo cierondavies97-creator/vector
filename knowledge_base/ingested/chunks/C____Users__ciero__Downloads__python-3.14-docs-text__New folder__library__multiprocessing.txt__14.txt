@@ -1,0 +1,5 @@
+trying to locate the *f* function in the "__main__" module.
+Contexts and start methods
+--------------------------
+Depending on the platform, "multiprocessing" supports three ways to
+start a process.  These *start methods* are

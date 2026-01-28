@@ -1,0 +1,6 @@
+virtue of the fact that the Python interpreter registers the ".pyz"
+and ".pyzw" file extensions when installed.
+Caveats
+-------
+If your application depends on a package that includes a C extension,
+that package cannot be run from a zip file (this is an OS limitation,

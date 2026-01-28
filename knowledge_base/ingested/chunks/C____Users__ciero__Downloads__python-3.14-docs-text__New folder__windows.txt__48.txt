@@ -1,0 +1,4 @@
+New runtime versions may be added using "py install". One or more tags
+may be specified, and the special tag "default" may be used to select
+the default. Ranges are not supported for installation.
+The "--source=<URL>" option allows overriding the online index that is

@@ -1,0 +1,4 @@
+each thread.  Having separate thread contexts means that threads may
+make changes (such as "getcontext().prec=10") without interfering with
+other threads.
+Likewise, the "setcontext()" function automatically assigns its target

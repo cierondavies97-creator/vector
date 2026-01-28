@@ -1,0 +1,7 @@
+* ErrorHandler Objects
+  * LexicalHandler Objects
+* "xml.sax.saxutils" --- SAX Utilities
+* "xml.sax.xmlreader" --- Interface for XML parsers
+  * XMLReader Objects
+  * IncrementalParser Objects
+  * Locator Objects

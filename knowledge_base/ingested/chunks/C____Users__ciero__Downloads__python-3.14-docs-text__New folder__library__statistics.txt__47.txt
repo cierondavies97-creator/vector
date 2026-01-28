@@ -1,0 +1,4 @@
+features while larger values give smoother results.
+   The *kernel* determines the relative weights of the sample data
+   points.  Generally, the choice of kernel shape does not matter as
+   much as the more influential bandwidth smoothing parameter.

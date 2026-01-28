@@ -1,0 +1,4 @@
+"root + ext == path", and the extension, *ext*, is empty or begins
+   with a period and contains at most one period.
+   If the path contains no extension, *ext* will be "''":
+      >>> splitext('bar')

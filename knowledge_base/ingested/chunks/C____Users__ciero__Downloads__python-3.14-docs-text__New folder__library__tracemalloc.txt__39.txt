@@ -1,0 +1,6 @@
+#8: <string>:5: 62.0 KiB
+   #9: Lib/_weakrefset.py:37: 60.0 KiB
+       self.data = set()
+   #10: Lib/base64.py:142: 59.8 KiB
+       _b32tab2 = [a + b for a in _b32tab for b in _b32tab]
+   6220 other: 3602.8 KiB

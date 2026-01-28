@@ -1,0 +1,4 @@
+indicate that no "Element" child is to be created.
+DOMImplementation.createDocumentType(qualifiedName, publicId, systemId)
+   Return a new "DocumentType" object that encapsulates the given
+   *qualifiedName*, *publicId*, and *systemId* strings, representing

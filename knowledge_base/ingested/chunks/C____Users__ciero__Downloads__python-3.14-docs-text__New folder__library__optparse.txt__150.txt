@@ -1,0 +1,5 @@
+"add_option()".
+   "version" (default: "None")
+      A version string to print when the user supplies a version
+      option. If you supply a true value for "version", "optparse"
+      automatically adds a version option with the single option

@@ -1,0 +1,5 @@
+effect. Note that SQLite's autocommit mode is distinct from the **PEP
+249**-compliant "Connection.autocommit" attribute; use
+"Connection.in_transaction" to query the low-level SQLite autocommit
+mode.
+Set *autocommit* to "LEGACY_TRANSACTION_CONTROL" to leave transaction

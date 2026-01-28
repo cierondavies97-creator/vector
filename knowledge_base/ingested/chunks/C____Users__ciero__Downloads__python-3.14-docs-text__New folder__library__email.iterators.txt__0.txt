@@ -1,0 +1,5 @@
+"email.iterators": Iterators
+****************************
+**Source code:** Lib/email/iterators.py
+======================================================================
+Iterating over a message object tree is fairly easy with the

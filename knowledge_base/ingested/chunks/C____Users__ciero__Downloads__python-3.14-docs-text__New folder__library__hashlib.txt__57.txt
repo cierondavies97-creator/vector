@@ -1,0 +1,5 @@
+* *key*: key for keyed hashing (up to 64 bytes for BLAKE2b, up to 32
+  bytes for BLAKE2s).
+* *salt*: salt for randomized hashing (up to 16 bytes for BLAKE2b, up
+  to 8 bytes for BLAKE2s).
+* *person*: personalization string (up to 16 bytes for BLAKE2b, up to

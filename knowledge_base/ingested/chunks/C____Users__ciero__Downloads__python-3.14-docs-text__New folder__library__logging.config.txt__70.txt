@@ -1,0 +1,3 @@
+objects.  For example, say that, once configured, a particular logger
+has attached to it a particular handler.  For the purposes of this
+discussion, we can say that the logger represents the source, and the

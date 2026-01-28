@@ -1,0 +1,5 @@
+saw in the example).
+1.2. Intermezzo: Errors and Exceptions
+======================================
+An important convention throughout the Python interpreter is the
+following: when a function fails, it should set an exception condition

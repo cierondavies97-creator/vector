@@ -1,0 +1,6 @@
+C), and out-of-range subscripts will probably crash with an access
+   violation (if you're lucky).
+   _type_
+      Specifies the type pointed to.
+   contents
+      Returns the object to which to pointer points.  Assigning to

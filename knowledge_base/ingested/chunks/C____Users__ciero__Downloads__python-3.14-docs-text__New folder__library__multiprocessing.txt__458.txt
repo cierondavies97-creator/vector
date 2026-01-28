@@ -1,0 +1,5 @@
+protect it with a lock.
+   (There is never a problem with different processes using the *same*
+   proxy.)
+Joining zombie processes
+   On POSIX when a process finishes but has not been joined it becomes

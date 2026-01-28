@@ -1,0 +1,4 @@
+"asyncio.CancelledError" directly subclasses "BaseException" so most
+code will not need to be aware of it.
+The asyncio components that enable structured concurrency, like
+"asyncio.TaskGroup" and "asyncio.timeout()", are implemented using

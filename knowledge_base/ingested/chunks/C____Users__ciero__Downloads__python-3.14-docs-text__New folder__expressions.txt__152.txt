@@ -1,0 +1,4 @@
+interpretation as a subscription takes priority over the
+interpretation as a slicing (this is the case if the slice list
+contains no proper slice).
+The semantics for a slicing are as follows.  The primary is indexed

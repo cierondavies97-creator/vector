@@ -1,0 +1,4 @@
+largest representable number.
+The infinities are signed (affine) and can be used in arithmetic
+operations where they get treated as very large, indeterminate
+numbers.  For instance, adding a constant to infinity gives another

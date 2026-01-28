@@ -1,0 +1,5 @@
+specified by (x,y), the vector or the other turtle.  This depends
+   on the turtle's start orientation which depends on the mode -
+   "standard"/"world" or "logo".
+      >>> turtle.goto(10, 10)
+      >>> turtle.towards(0,0)

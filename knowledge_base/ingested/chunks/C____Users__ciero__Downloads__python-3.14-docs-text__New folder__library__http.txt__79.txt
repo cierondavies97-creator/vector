@@ -1,0 +1,6 @@
++----------------------+--------------------------+----------------------------------------+
+   Usage:
+      >>> from http import HTTPStatus
+      >>> HTTPStatus.OK.is_success
+      True
+      >>> HTTPStatus.OK.is_client_error

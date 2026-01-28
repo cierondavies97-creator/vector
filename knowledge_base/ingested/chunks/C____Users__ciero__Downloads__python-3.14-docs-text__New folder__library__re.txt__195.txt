@@ -1,0 +1,4 @@
+pattern; note that this is different from finding a zero-length
+   match at some point in the string.
+   The optional second parameter *pos* gives an index in the string
+   where the search is to start; it defaults to "0".  This is not

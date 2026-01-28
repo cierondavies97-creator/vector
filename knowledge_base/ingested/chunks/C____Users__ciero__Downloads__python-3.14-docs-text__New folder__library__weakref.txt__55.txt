@@ -1,0 +1,5 @@
+make it simpler to test if an object is a proxy without being
+   dependent on naming both proxy types.
+See also:
+  **PEP 205** - Weak References
+     The proposal and rationale for this feature, including links to

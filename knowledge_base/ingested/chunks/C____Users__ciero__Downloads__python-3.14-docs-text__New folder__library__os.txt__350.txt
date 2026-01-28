@@ -1,0 +1,4 @@
+if the leaf directory is successfully removed, "removedirs()"
+   tries to successively remove every parent directory mentioned in
+   *path* until an error is raised (which is ignored, because it
+   generally means that a parent directory is not empty). For example,

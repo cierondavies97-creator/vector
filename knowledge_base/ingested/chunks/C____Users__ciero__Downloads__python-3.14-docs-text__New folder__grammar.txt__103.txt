@@ -1,0 +1,5 @@
+_PyPegen_seq_insert_in_front(p, pattern, patterns) }
+   maybe_sequence_pattern[asdl_seq*]:
+       | patterns=','.maybe_star_pattern+ ','? { patterns }
+   maybe_star_pattern[pattern_ty]:
+       | star_pattern

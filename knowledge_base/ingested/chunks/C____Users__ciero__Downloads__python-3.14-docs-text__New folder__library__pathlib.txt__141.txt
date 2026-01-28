@@ -1,0 +1,4 @@
+Path.is_socket()
+   Return "True" if the path points to a Unix socket. "False" will be
+   returned if the path is invalid, inaccessible or missing, or if it
+   points to something other than a Unix socket. Use "Path.stat()" to

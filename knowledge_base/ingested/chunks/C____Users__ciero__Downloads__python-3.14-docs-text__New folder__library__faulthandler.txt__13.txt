@@ -1,0 +1,7 @@
+stacks.
+Note:
+  Dumping C stacks can be arbitrarily slow, depending on the DWARF
+  level of the binaries in the call stack.
+Fault handler state
+===================
+faulthandler.enable(file=sys.stderr, all_threads=True, c_stack=True)

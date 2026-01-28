@@ -1,0 +1,4 @@
+>>> parser.add_argument('--foo', action='append', default=['0'])
+     >>> parser.parse_args('--foo 1 --foo 2'.split())
+     Namespace(foo=['0', '1', '2'])
+* "'append_const'" - This appends the value specified by the const

@@ -1,0 +1,5 @@
+* "uuid" --- UUID objects according to **RFC 9562**
+  * "socketserver" --- A framework for network servers
+  * "http.server" --- HTTP servers
+  * "http.cookies" --- HTTP state management
+  * "http.cookiejar" --- Cookie handling for HTTP clients

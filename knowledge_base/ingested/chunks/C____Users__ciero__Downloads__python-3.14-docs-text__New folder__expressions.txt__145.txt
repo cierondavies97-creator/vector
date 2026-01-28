@@ -1,0 +1,3 @@
+*sequences*. However, built-in sequences all provide a "__getitem__()"
+method that interprets negative indices by adding the length of the
+sequence to the index so that, for example, "x[-1]" selects the last

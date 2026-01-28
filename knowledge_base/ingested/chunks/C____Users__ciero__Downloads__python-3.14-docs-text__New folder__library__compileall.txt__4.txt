@@ -1,0 +1,5 @@
+contain source files, traversed recursively.  If no argument is
+   given, behave as if the command line was "-l *<directories from
+   sys.path>*".
+-l
+   Do not recurse into subdirectories, only compile source code files

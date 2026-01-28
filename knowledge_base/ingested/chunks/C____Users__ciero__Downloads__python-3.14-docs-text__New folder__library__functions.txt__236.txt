@@ -1,0 +1,4 @@
+* When reading input from the stream, if *newline* is "None",
+     universal newlines mode is enabled.  Lines in the input can end
+     in "'\n'", "'\r'", or "'\r\n'", and these are translated into
+     "'\n'" before being returned to the caller.  If it is "''",

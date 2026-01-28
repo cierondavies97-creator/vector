@@ -1,0 +1,4 @@
++---------------------------------+----------------------------+
+When a "MaildirMessage" instance is created based upon a
+"BabylMessage" instance, the following conversions take place:
++---------------------------------+---------------------------------+

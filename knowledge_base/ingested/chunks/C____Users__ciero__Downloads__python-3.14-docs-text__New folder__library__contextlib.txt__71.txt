@@ -1,0 +1,4 @@
+# All opened files will automatically be closed at the end of
+          # the with statement, even if attempts to open files later
+          # in the list raise an exception
+   The "__enter__()" method returns the "ExitStack" instance, and

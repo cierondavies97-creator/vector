@@ -1,0 +1,4 @@
+one being used by Python. Where possible, use native Python
+  functionality, or else import and use the "msvcrt" module.
+On Linux, it is required to specify the filename *including* the
+extension to load a library, so attribute access can not be used to

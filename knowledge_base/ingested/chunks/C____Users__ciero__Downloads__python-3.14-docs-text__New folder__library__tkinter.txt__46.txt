@@ -1,0 +1,5 @@
+official Tcl/Tk reference manual.
+A Hello World Program
+---------------------
+We'll start by walking through a "Hello World" application in Tkinter.
+This isn't the smallest one we could write, but has enough to

@@ -1,0 +1,7 @@
+reason might be to add helper methods. Here's a silly example:
+>>> class MyMock(MagicMock):
+...     def has_been_called(self):
+...         return self.called
+...
+>>> mymock = MyMock(return_value=None)
+>>> mymock

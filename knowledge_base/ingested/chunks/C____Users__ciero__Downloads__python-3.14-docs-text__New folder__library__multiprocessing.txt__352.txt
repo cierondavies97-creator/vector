@@ -1,0 +1,5 @@
+_callmethod(methodname[, args[, kwds]])
+      Call and return the result of a method of the proxy's referent.
+      If "proxy" is a proxy whose referent is "obj" then the
+      expression
+         proxy._callmethod(methodname, args, kwds)

@@ -1,0 +1,10 @@
+Modules command-line interface (CLI)
+************************************
+The following modules have a command-line interface.
+* ast
+* asyncio
+* "base64"
+* calendar
+* "code"
+* compileall
+* "cProfile": see profile

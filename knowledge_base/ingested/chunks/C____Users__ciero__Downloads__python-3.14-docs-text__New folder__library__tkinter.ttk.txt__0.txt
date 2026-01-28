@@ -1,0 +1,5 @@
+"tkinter.ttk" --- Tk themed widgets
+***********************************
+**Source code:** Lib/tkinter/ttk.py
+======================================================================
+The "tkinter.ttk" module provides access to the Tk themed widget set,

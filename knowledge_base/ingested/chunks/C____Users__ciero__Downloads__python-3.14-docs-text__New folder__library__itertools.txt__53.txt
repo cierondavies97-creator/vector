@@ -1,0 +1,5 @@
+single iterable argument that is evaluated lazily.  Roughly
+   equivalent to:
+      def from_iterable(iterables):
+          # chain.from_iterable(['ABC', 'DEF']) → A B C D E F
+          for iterable in iterables:

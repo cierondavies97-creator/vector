@@ -1,0 +1,3 @@
+headers to send with each request, expressed as a sequence of
+   2-tuples representing the header name and value. (e.g. "[('Header-
+   Name', 'value')]"). If an HTTPS URL is provided, *context* may be

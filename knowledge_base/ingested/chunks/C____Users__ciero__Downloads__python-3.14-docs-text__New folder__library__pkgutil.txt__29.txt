@@ -1,0 +1,3 @@
+rest is an object somewhere within that package, possibly nested
+   inside other objects. Because the place where the package stops and
+   the object hierarchy starts can't be inferred by inspection,

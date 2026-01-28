@@ -1,0 +1,5 @@
+module "socket", which is currently supported on most popular
+platforms.  Here is an overview:
+* "webbrowser" --- Convenient web-browser controller
+  * Command-line interface
+  * Browser controller objects

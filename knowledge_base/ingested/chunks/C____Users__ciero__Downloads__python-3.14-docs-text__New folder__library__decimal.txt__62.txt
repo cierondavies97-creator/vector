@@ -1,0 +1,4 @@
+constructor returns a new Decimal with the value of "NaN".
+   Once constructed, "Decimal" objects are immutable.
+   Changed in version 3.2: The argument to the constructor is now
+   permitted to be a "float" instance.

@@ -1,0 +1,5 @@
+cursor.execute("SELECT * FROM memos WHERE key=?", (str(key_id),))
+               key, task = cursor.fetchone()
+               return MemoRecord(key, task)
+           else:
+               # Always raises an error if you cannot return the correct object.

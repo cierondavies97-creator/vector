@@ -1,0 +1,3 @@
+is no entry in the catalog for the *message* id and *context*,
+      and a fallback has been set, the look up is forwarded to the
+      fallback's "pgettext()" method.  Otherwise, the *message* id is

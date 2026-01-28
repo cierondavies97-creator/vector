@@ -1,0 +1,4 @@
+methods that exist in the spec will be created.
+class unittest.mock.NonCallableMagicMock(*args, **kw)
+   A non-callable version of "MagicMock".
+   The constructor parameters have the same meaning as for

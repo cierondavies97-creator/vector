@@ -1,0 +1,6 @@
+options.point = (1.0, -3.5, 4.0)
+     options.f = "bar.txt"
+* ""store_const"" [required: "const"; relevant: "dest"]
+  The value "const" is stored in "dest".
+  Example:
+     parser.add_option("-q", "--quiet",

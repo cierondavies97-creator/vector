@@ -1,0 +1,6 @@
+buffer, "CONIN$".
+subprocess.STD_OUTPUT_HANDLE
+   The standard output device. Initially, this is the active console
+   screen buffer, "CONOUT$".
+subprocess.STD_ERROR_HANDLE
+   The standard error device. Initially, this is the active console

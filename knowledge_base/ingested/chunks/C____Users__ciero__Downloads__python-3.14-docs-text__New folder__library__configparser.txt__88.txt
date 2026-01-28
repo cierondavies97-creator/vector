@@ -1,0 +1,9 @@
+... [hashes]
+     ... shebang =
+     ...   ${hash}!/usr/bin/env python
+     ...   ${hash} -*- coding: utf-8 -*-
+     ...
+     ... extensions =
+     ...   enabled_extension
+     ...   another_extension
+     ...   #disabled_by_comment

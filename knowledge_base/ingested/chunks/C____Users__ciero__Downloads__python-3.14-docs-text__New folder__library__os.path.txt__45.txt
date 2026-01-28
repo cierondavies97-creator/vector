@@ -1,0 +1,5 @@
+"LPT1".
+   Note:
+     This function approximates rules for reserved paths on most
+     Windows systems. These rules change over time in various Windows
+     releases. This function may be updated in future Python releases

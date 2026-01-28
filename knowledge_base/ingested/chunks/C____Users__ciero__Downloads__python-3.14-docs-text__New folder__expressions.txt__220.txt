@@ -1,0 +1,4 @@
+object overriding "__xor__()" or "__rxor__()" special methods.
+The "|" operator yields the bitwise (inclusive) OR of its arguments,
+which must be integers or one of them must be a custom object
+overriding "__or__()" or "__ror__()" special methods.

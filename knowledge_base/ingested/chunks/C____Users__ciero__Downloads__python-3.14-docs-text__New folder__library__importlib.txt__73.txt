@@ -1,0 +1,4 @@
+Deprecated since version 3.4, will be removed in version 3.15:
+      use "exec_module()" instead.
+class importlib.abc.ExecutionLoader
+   An abstract base class which inherits from "InspectLoader" that,

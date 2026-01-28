@@ -1,0 +1,4 @@
+"resource.getrusage()" for details on resource usage information.
+   The *options* argument is the same as that provided to "waitpid()"
+   and "wait4()".
+   "waitstatus_to_exitcode()" can be used to convert the exit status

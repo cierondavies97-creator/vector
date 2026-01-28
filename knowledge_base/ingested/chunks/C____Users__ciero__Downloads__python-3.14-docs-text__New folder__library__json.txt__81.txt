@@ -1,0 +1,4 @@
+newlines.  "None" (the default) selects the most compact
+   representation. Using a positive integer indent indents that many
+   spaces per level.  If *indent* is a string (such as ""\t""), that
+   string is used to indent each level.

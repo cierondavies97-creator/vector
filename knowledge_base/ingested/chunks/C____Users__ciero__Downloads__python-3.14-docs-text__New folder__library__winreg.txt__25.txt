@@ -1,0 +1,5 @@
+Raises an auditing event "winreg.EnumKey" with arguments "key",
+   "index".
+   Changed in version 3.3: See above.
+winreg.EnumValue(key, index)
+   Enumerates values of an open registry key, returning a tuple.

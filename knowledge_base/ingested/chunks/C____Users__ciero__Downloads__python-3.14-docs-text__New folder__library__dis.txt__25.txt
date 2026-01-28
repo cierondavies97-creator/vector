@@ -1,0 +1,10 @@
+...     print(instr.opname)
+   ...
+   RESUME
+   LOAD_GLOBAL
+   LOAD_FAST_BORROW
+   CALL
+   RETURN_VALUE
+Analysis functions
+==================
+The "dis" module also defines the following analysis functions that

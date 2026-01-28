@@ -1,0 +1,4 @@
+move_first_element_to_last(tup=(1, 'spam', 3.0))
+      # This fails to type check (and fails at runtime)
+      # because tuple[()] is not compatible with tuple[T, *Ts]
+      # (at least one element is required)

@@ -1,0 +1,6 @@
+epoll.unregister(fd)
+   Remove a registered file descriptor from the epoll object.
+   Changed in version 3.9: The method no longer ignores the "EBADF"
+   error.
+epoll.poll(timeout=None, maxevents=-1)
+   Wait for events. timeout in seconds (float)

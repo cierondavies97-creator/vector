@@ -1,0 +1,9 @@
+Return "a @ b".
+   Added in version 3.5.
+operator.neg(obj)
+operator.__neg__(obj)
+   Return *obj* negated ("-obj").
+operator.or_(a, b)
+operator.__or__(a, b)
+   Return the bitwise or of *a* and *b*.
+operator.pos(obj)

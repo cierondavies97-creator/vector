@@ -1,0 +1,4 @@
+May raise an "OSError" on closed queues. (not guaranteed)
+   full()
+      Return "True" if the queue is full, "False" otherwise.  Because
+      of multithreading/multiprocessing semantics, this is not

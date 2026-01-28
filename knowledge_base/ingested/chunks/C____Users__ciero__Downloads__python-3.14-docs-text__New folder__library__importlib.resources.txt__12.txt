@@ -1,0 +1,4 @@
+for compatibility but will raise a "DeprecationWarning". Consider
+   passing the anchor positionally or using "importlib_resources >=
+   5.10" for a compatible interface on older Pythons.
+importlib.resources.as_file(traversable)

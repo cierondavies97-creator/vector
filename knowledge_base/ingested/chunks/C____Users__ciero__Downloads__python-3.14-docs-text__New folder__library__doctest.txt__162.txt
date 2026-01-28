@@ -1,0 +1,4 @@
+global variables for the tests.  A new copy of this dictionary is
+   created for each test.  By default, *globs* is a new empty
+   dictionary.
+   Optional argument *optionflags* specifies the default doctest

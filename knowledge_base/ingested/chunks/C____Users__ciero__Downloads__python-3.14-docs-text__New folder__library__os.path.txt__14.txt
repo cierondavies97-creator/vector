@@ -1,0 +1,4 @@
+character at a time.  To obtain a valid path, see "commonpath()".
+        >>> os.path.commonprefix(['/usr/lib', '/usr/local/lib'])
+        '/usr/l'
+        >>> os.path.commonpath(['/usr/lib', '/usr/local/lib'])

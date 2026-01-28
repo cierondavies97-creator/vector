@@ -1,0 +1,5 @@
+typos and api changes.
+As well as using *autospec* through "patch()" there is a
+"create_autospec()" for creating autospecced mocks directly:
+>>> from urllib import request
+>>> mock_request = create_autospec(request)

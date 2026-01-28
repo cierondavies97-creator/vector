@@ -1,0 +1,4 @@
+like object*.
+class ctypes.WinDLL(name, mode=DEFAULT_MODE, handle=None, use_errno=False, use_last_error=False, winmode=None)
+   Instances of this class represent loaded shared libraries,
+   functions in these libraries use the "stdcall" calling convention,

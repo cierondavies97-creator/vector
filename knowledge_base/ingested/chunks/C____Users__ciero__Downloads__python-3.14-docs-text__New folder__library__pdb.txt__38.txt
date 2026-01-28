@@ -1,0 +1,4 @@
+See "set_default_backend()". Otherwise the supported backends are
+   "'settrace'" and "'monitoring'".
+   The *colorize* argument, if set to "True", will enable colorized
+   output in the debugger, if color is supported. This will highlight

@@ -1,0 +1,3 @@
+the standard "XMLParser" parser is used.  *parser* must be a
+   subclass of "XMLParser" and can only use the default "TreeBuilder"
+   as a target. Returns an *iterator* providing "(event, elem)" pairs;

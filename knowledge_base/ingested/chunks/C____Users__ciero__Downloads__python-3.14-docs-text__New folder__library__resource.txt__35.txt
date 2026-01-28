@@ -1,0 +1,3 @@
+system resource has been used, e.g. amount of time spent running is
+   user mode or number of times the process was swapped out of main
+   memory. Some values are dependent on the clock tick internal, e.g.

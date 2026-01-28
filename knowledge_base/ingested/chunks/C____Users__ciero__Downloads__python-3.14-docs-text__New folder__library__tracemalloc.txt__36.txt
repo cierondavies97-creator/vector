@@ -1,0 +1,6 @@
+display_top(snapshot)
+Example of output of the Python test suite:
+   Top 10 lines
+   #1: Lib/base64.py:414: 419.8 KiB
+       _b85chars2 = [(a + b) for a in _b85chars for b in _b85chars]
+   #2: Lib/base64.py:306: 419.8 KiB

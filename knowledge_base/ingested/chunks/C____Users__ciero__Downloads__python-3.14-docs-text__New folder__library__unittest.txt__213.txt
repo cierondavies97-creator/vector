@@ -1,0 +1,4 @@
+subclasses) compare equal.  *function* must take two positional
+      arguments and a third msg=None keyword argument just as
+      "assertEqual()" does.  It must raise
+      "self.failureException(msg)" when inequality between the first

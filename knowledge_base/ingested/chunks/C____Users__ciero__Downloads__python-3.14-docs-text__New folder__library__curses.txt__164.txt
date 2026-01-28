@@ -1,0 +1,4 @@
+If *flag* is "True", "getch()" will be non-blocking.
+window.notimeout(flag)
+   If *flag* is "True", escape sequences will not be timed out.
+   If *flag* is "False", after a few milliseconds, an escape sequence

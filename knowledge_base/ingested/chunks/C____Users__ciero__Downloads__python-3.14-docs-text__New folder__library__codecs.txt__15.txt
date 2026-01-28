@@ -1,0 +1,4 @@
+"StreamWriter" and "StreamReader", respectively. Stream codecs
+      can maintain state.
+To simplify access to the various codec components, the module
+provides these additional functions which use "lookup()" for the codec

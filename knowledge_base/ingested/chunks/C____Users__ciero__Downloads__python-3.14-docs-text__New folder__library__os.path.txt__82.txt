@@ -1,0 +1,6 @@
+Std 1003.1-2017; 4.13 Pathname Resolution.) For example:
+      >>> splitroot('/home/sam')
+      ('', '/', 'home/sam')
+      >>> splitroot('//home/sam')
+      ('', '//', 'home/sam')
+      >>> splitroot('///home/sam')

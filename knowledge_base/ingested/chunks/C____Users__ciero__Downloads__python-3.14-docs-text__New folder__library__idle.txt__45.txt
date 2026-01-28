@@ -1,0 +1,7 @@
+foreground (deiconifying it if necessary).
+Help menu (Shell and Editor)
+----------------------------
+About IDLE
+   Display version, copyright, license, credits, and more.
+IDLE Help
+   Display this IDLE document, detailing the menu options, basic

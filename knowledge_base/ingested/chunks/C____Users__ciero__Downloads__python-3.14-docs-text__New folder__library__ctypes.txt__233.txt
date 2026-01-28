@@ -1,0 +1,5 @@
+and are assumed to return int by default.
+   Availability: Windows
+   Changed in version 3.12: The *name* parameter can now be a *path-
+   like object*.
+The Python *global interpreter lock* is released before calling any

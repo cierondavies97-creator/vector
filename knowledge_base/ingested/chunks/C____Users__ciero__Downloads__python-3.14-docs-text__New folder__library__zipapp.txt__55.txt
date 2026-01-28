@@ -1,0 +1,4 @@
+must be in the "root" of the zipfile - i.e., it cannot be in a
+   subdirectory).  The zipfile data can be compressed or uncompressed.
+If an application archive has a shebang line, it may have the
+executable bit set on POSIX systems, to allow it to be executed

@@ -1,0 +1,5 @@
+See the documentation of "loop.subprocess_exec()" for other
+   parameters.
+   If the process object is garbage collected while the process is
+   still running, the child process will be killed.
+   Changed in version 3.10: Removed the *loop* parameter.

@@ -1,0 +1,5 @@
+are always left as strings. This example file sets the same options as
+the previous example:
+   <Options>
+       <Option Name="InstallAllUsers" Value="no" />
+       <Option Name="Include_launcher" Value="0" />

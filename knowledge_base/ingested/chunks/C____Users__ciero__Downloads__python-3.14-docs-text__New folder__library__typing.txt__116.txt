@@ -1,0 +1,5 @@
+use cases:
+      # Invalid use of AnyStr:
+      # The type variable is used only once in the function signature,
+      # so cannot be "solved" by the type checker
+      def greet_bad(cond: bool) -> AnyStr:

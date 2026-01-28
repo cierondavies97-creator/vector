@@ -1,0 +1,3 @@
+If *spec_set* is "True" then attempting to set attributes that
+   don't exist on the spec object will raise an "AttributeError".
+   If a class is used as a spec then the return value of the mock (the

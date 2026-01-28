@@ -1,0 +1,5 @@
+<VerifyMode.CERT_REQUIRED: 2>
+SSLContext.set_psk_client_callback(callback)
+   Enables TLS-PSK (pre-shared key) authentication on a client-side
+   connection.
+   In general, certificate based authentication should be preferred

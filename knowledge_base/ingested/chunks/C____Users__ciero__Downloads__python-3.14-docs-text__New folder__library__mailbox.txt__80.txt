@@ -1,0 +1,6 @@
+creation scheme and details on "info" semantics.
+"mbox" objects
+--------------
+class mailbox.mbox(path, factory=None, create=True)
+   A subclass of "Mailbox" for mailboxes in mbox format. Parameter
+   *factory* is a callable object that accepts a file-like message

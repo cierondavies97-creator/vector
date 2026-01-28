@@ -1,0 +1,4 @@
+module directly (as "pip" should be bootstrapped by default), but it
+may be needed if installing "pip" was skipped when installing Python
+(or when creating a virtual environment) or after explicitly
+uninstalling "pip".

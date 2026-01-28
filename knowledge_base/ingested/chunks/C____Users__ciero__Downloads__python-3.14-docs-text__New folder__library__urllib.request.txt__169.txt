@@ -1,0 +1,4 @@
+This implementation ignores white spaces in base64 encoded data
+   URLs so the URL may be wrapped in whatever source file it comes
+   from. But even though some browsers don't mind about a missing
+   padding at the end of a base64 encoded data URL, this

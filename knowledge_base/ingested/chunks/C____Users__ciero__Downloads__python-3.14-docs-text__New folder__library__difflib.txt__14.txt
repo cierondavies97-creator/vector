@@ -1,0 +1,4 @@
++------------+---------------------------------------------+
+   | "'? '"     | line not present in either input sequence   |
+   +------------+---------------------------------------------+
+   Lines beginning with '"?"' attempt to guide the eye to intraline

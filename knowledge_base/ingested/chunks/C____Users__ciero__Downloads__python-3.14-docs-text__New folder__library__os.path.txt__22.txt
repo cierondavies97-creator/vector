@@ -1,0 +1,4 @@
+"~user" is handled by checking that the last directory component of
+   the current user's home directory matches "USERNAME", and replacing
+   it if so.
+   If the expansion fails or if the path does not begin with a tilde,

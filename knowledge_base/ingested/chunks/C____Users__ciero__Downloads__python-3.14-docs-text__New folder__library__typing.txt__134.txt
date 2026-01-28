@@ -1,0 +1,5 @@
+"SubclassOfFoo".
+   Other common use cases include:
+   * "classmethod"s that are used as alternative constructors and
+     return instances of the "cls" parameter.
+   * Annotating an "__enter__()" method which returns self.

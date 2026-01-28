@@ -1,0 +1,5 @@
+Bit fields are only possible for integer fields, the bit width is
+specified as the third item in the "_fields_" tuples:
+   >>> class Int(Structure):
+   ...     _fields_ = [("first_16", c_int, 16),
+   ...                 ("second_16", c_int, 16)]

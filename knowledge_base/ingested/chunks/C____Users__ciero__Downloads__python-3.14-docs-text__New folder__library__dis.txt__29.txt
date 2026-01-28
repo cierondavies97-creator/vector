@@ -1,0 +1,4 @@
+method, source code string or code object to *file* (or
+   "sys.stdout" if *file* is not specified).
+   This is a convenient shorthand for "print(code_info(x),
+   file=file)", intended for interactive exploration at the

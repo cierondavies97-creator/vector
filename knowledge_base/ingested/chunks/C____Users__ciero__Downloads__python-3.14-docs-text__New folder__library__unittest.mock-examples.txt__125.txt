@@ -1,0 +1,3 @@
+copy the arguments and store them for later assertions. In this
+example I'm using *another* mock to store the arguments so that I can
+use the mock methods for doing the assertion. Again a helper function

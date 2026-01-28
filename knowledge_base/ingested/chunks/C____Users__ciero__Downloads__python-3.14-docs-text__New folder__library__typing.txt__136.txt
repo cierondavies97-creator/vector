@@ -1,0 +1,5 @@
+# as the object returned is always an instance of Eggs,
+          # even in subclasses
+          def returns_eggs(self) -> "Eggs":
+              return Eggs()
+   See **PEP 673** for more details.

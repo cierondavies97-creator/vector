@@ -1,0 +1,4 @@
+ones defined here are used by the Python codec registry.
+   The "IncrementalEncoder" may implement different error handling
+   schemes by providing the *errors* keyword argument. See Error
+   Handlers for possible values.

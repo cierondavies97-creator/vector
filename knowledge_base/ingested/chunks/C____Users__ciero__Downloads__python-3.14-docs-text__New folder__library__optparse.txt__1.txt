@@ -1,0 +1,4 @@
+====================================
+The standard library includes three argument parsing libraries:
+* "getopt": a module that closely mirrors the procedural C "getopt"
+  API. Included in the standard library since before the initial

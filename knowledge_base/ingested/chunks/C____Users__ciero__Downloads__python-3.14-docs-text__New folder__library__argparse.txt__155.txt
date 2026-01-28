@@ -1,0 +1,5 @@
+default
+-------
+All optional arguments and some positional arguments may be omitted at
+the command line.  The "default" keyword argument of "add_argument()",
+whose value defaults to "None", specifies what value should be used if

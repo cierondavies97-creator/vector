@@ -1,0 +1,4 @@
+decimal.Inexact: [<class 'decimal.Inexact'>]
+In general (and especially on systems without overallocation), it is
+recommended to estimate even tighter bounds and set the "Inexact" trap
+if all calculations are expected to be exact.

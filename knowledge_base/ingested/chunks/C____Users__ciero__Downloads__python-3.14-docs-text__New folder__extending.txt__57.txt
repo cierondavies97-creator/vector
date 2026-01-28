@@ -1,0 +1,3 @@
+exception set by "PyArg_ParseTuple()".  Otherwise the string value of
+the argument has been copied to the local variable "command".  This is
+a pointer assignment and you are not supposed to modify the string to

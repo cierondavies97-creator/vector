@@ -1,0 +1,4 @@
+together with additional information often including the name and
+   address of the object.  A class can control what this function
+   returns for its instances by defining a "__repr__()" method. If
+   "sys.displayhook()" is not accessible, this function will raise

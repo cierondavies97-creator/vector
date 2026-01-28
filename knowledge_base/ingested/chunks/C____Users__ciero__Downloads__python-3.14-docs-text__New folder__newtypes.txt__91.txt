@@ -1,0 +1,7 @@
+newdatatype_call(PyObject *op, PyObject *args, PyObject *kwds)
+   {
+       newdatatypeobject *self = (newdatatypeobject *) op;
+       PyObject *result;
+       const char *arg1;
+       const char *arg2;
+       const char *arg3;

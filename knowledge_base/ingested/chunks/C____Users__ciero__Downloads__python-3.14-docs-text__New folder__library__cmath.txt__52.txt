@@ -1,0 +1,6 @@
+cmath.exp(z)
+   Return *e* raised to the power *z*, where *e* is the base of
+   natural logarithms.
+cmath.log(z[, base])
+   Return the logarithm of *z* to the given *base*. If the *base* is
+   not specified, returns the natural logarithm of *z*. There is one

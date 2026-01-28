@@ -1,0 +1,4 @@
+[1.1, 2.2, 3.3]
+         Changed in version 3.3: "tolist()" now supports all single
+         character native formats in "struct" module syntax as well as
+         multi-dimensional representations.

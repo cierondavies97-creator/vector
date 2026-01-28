@@ -1,0 +1,5 @@
+Write the snapshot into a file.
+      Use "load()" to reload the snapshot.
+   filter_traces(filters)
+      Create a new "Snapshot" instance with a filtered "traces"
+      sequence, *filters* is a list of "DomainFilter" and "Filter"

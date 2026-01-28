@@ -1,0 +1,6 @@
+the "StreamWriter" object.
+   write(object)
+      Writes the object's contents encoded to the stream.
+   writelines(list)
+      Writes the concatenated iterable of strings to the stream
+      (possibly by reusing the "write()" method). Infinite or very

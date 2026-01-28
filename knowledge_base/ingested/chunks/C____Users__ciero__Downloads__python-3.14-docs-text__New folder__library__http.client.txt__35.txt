@@ -1,0 +1,4 @@
+of the iterable are sent as is until the iterable is exhausted.
+   The *headers* argument should be a mapping of extra HTTP headers to
+   send with the request. A **Host header** must be provided to
+   conform with **RFC 2616 §5.1.2** (unless connecting to an HTTP

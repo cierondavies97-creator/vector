@@ -1,0 +1,4 @@
+client module currently does not marshal instances of subclasses of
+   built-in types.
+   When passing strings, characters special to XML such as "<", ">",
+   and "&" will be automatically escaped.  However, it's the caller's

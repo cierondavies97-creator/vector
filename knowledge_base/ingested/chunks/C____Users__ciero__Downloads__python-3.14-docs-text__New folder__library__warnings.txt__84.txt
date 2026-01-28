@@ -1,0 +1,3 @@
+outside of a package when a constant *stacklevel* does not fit all
+   call paths or is otherwise challenging to maintain. If supplied, it
+   must be a tuple of strings. When prefixes are supplied, stacklevel

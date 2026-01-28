@@ -1,0 +1,5 @@
+automatic import can be suppressed using the interpreter's "-S"
+option.
+Importing this module normally appends site-specific paths to the
+module search path and adds callables, including "help()" to the
+built-in namespace. However, Python startup option "-S" blocks this

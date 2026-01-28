@@ -1,0 +1,5 @@
+management without races and signals.
+   See the *pidfd_open(2)* man page for more details.
+   Availability: Linux >= 5.3, Android >= "build-time" API level 31
+   Added in version 3.9.
+   os.PIDFD_NONBLOCK

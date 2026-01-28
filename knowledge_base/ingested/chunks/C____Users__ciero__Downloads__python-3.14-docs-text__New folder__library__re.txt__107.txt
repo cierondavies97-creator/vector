@@ -1,0 +1,5 @@
+Matches "[^ \t\n\r\f\v]" if the "ASCII" flag is used.
+"\w"
+   For Unicode (str) patterns:
+      Matches Unicode word characters; this includes all Unicode
+      alphanumeric characters (as defined by "str.isalnum()"), as well

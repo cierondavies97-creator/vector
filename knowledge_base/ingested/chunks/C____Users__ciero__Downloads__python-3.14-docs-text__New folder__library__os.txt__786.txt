@@ -1,0 +1,6 @@
+backslash. Also available via "os.path".
+os.extsep
+   The character which separates the base filename from the extension;
+   for example, the "'.'" in "os.py". Also available via "os.path".
+os.pathsep
+   The character conventionally used by the operating system to

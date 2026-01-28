@@ -1,0 +1,5 @@
+"encodings.mbcs" --- Windows ANSI codepage
+==========================================
+This module implements the ANSI codepage (CP_ACP).
+Availability: Windows.
+Changed in version 3.2: Before 3.2, the *errors* argument was ignored;

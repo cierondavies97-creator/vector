@@ -1,0 +1,6 @@
+resource management:
+      from contextlib import contextmanager
+      @contextmanager
+      def managed_resource(*args, **kwds):
+          # Code to acquire resource, e.g.:
+          resource = acquire_resource(*args, **kwds)

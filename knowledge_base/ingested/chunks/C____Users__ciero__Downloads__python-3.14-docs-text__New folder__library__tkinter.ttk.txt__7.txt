@@ -1,0 +1,5 @@
+Ttk Widgets
+===========
+Ttk comes with 18 widgets, twelve of which already existed in tkinter:
+"Button", "Checkbutton", "Entry", "Frame", "Label", "LabelFrame",
+"Menubutton", "PanedWindow", "Radiobutton", "Scale", "Scrollbar", and

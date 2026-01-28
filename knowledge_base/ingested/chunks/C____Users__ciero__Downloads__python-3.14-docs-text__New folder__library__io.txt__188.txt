@@ -1,0 +1,4 @@
+reentrant.  While reentrant calls will not happen in normal
+situations, they can arise from doing I/O in a "signal" handler.  If a
+thread tries to re-enter a buffered object which it is already
+accessing, a "RuntimeError" is raised.  Note this doesn't prohibit a

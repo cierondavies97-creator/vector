@@ -1,0 +1,3 @@
+By default, each time "doctest" finds a docstring to test, it uses a
+*shallow copy* of "M"'s globals, so that running tests doesn't change
+the module's real globals, and so that one test in "M" can't leave

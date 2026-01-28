@@ -1,0 +1,4 @@
+the active decimal context to a copy of the original decimal
+   context and then return the copy. This allows changes to be made to
+   the current decimal context in the body of the "with" statement
+   without affecting code outside the "with" statement.

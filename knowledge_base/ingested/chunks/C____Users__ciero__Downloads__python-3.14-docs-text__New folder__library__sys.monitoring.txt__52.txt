@@ -1,0 +1,3 @@
+execute.
+* "INSTRUCTION":
+     func(code: CodeType, instruction_offset: int) -> object

@@ -1,0 +1,5 @@
+"compress()" will be written into a new frame and *cannot*
+      reference past data.
+   last_mode
+      The last mode passed to either "compress()" or "flush()". The
+      value can be one of "CONTINUE", "FLUSH_BLOCK", or "FLUSH_FRAME".

@@ -1,0 +1,3 @@
+logging.config.listen(port=DEFAULT_LOGGING_CONFIG_PORT, verify=None)
+   Starts up a socket server on the specified port, and listens for
+   new configurations. If no port is specified, the module's default

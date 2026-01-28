@@ -1,0 +1,4 @@
+* *interleave* controls address reordering when a host name
+     resolves to multiple IP addresses. If "0" or unspecified, no
+     reordering is done, and addresses are tried in the order returned
+     by "getaddrinfo()". If a positive integer is specified, the

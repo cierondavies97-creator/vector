@@ -1,0 +1,3 @@
+Added in version 3.8: Previous versions of CPython would resolve
+   DLLs using the default behavior for the current process. This led
+   to inconsistencies, such as only sometimes searching "PATH" or the

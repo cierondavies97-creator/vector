@@ -1,0 +1,5 @@
+file object. *events* is a bitmask of events ready on this file
+      object.
+      Note:
+        This method can return before any file object becomes ready or
+        the timeout has elapsed if the current process receives a

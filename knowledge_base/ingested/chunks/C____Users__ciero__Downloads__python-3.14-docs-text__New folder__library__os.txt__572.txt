@@ -1,0 +1,3 @@
+Set the extended filesystem attribute *attribute* on *path* to
+   *value*. *attribute* must be a bytes or str with no embedded NULs
+   (directly or indirectly through the "PathLike" interface). If it is

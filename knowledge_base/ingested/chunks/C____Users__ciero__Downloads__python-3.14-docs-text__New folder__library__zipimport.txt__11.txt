@@ -1,0 +1,5 @@
+"lib" directory inside the ZIP file "foo/bar.zip" (provided that it
+   exists).
+   "ZipImportError" is raised if *archivepath* doesn't point to a
+   valid ZIP archive.
+   Changed in version 3.12: Methods "find_loader()" and

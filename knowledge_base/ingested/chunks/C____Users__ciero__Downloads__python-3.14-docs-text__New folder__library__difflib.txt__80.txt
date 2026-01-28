@@ -1,0 +1,4 @@
+subsequences. Each triple is of the form "(i, j, n)", and means
+      that "a[i:i+n] == b[j:j+n]".  The triples are monotonically
+      increasing in *i* and *j*.
+      The last triple is a dummy, and has the value "(len(a), len(b),

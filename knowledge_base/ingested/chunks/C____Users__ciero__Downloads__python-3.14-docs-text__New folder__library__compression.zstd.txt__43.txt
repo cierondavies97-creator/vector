@@ -1,0 +1,4 @@
+"flush()" method to finish the compression process. If
+      "compress()" is called with *mode* set to "FLUSH_FRAME",
+      "flush()" should not be called, as it would write out a new
+      empty frame.

@@ -1,0 +1,4 @@
+the site-packages directory.  If this import fails with an
+"ImportError" or its subclass exception, and the exception's "name"
+attribute equals to "'sitecustomize'", it is silently ignored.  If
+Python is started without output streams available, as with

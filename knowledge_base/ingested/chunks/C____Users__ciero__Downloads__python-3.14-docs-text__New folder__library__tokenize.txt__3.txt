@@ -1,0 +1,3 @@
+syntactically valid Python code (code that does not raise when
+  parsed using "ast.parse()").  The behavior of the functions in this
+  module is **undefined** when providing invalid Python code and it

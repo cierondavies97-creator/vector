@@ -1,0 +1,4 @@
+class collections.abc.AsyncGenerator
+   ABC for *asynchronous generator* classes that implement the
+   protocol defined in **PEP 525** and **PEP 492**.
+   See Annotating generators and coroutines for details on using

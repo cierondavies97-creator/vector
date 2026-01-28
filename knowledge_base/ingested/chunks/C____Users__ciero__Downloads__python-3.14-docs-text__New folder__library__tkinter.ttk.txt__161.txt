@@ -1,0 +1,3 @@
+| background   | Specifies the cell or item background color.                |
++--------------+-------------------------------------------------------------+
+| font         | Specifies the font to use when drawing text.                |

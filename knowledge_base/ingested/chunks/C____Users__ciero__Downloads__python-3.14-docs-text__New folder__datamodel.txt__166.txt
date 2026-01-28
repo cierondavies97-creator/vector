@@ -1,0 +1,4 @@
+3.2.9.2. Other writable attributes on module objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+As well as the import-related attributes listed above, module objects
+also have the following writable attributes:

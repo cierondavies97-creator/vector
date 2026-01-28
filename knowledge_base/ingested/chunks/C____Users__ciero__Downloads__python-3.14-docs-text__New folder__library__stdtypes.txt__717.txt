@@ -1,0 +1,8 @@
+>>> import array
+            >>> a = array.array('l', [1,2,3])
+            >>> x = memoryview(a)
+            >>> x.format
+            'l'
+            >>> x.itemsize
+            8
+            >>> len(x)

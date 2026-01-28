@@ -1,0 +1,4 @@
+lists are sorted is file system-dependent.
+   If the optional argument *top_down* is true (which is the default),
+   the triple for a directory is generated before the triples for any
+   of its subdirectories (directories are walked top-down).  If

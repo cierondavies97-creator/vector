@@ -1,0 +1,4 @@
+returns).  If the function returns a single time number, or the
+   list of returned numbers has length 2, then you will get an
+   especially fast version of the dispatch routine.
+   Be warned that you should calibrate the profiler class for the

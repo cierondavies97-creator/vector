@@ -1,0 +1,5 @@
+# tail(3, 'ABCDEFG') → E F G
+       return iter(deque(iterable, maxlen=n))
+   def consume(iterator, n=None):
+       "Advance the iterator n-steps ahead. If n is None, consume entirely."
+       # Use functions that consume iterators at C speed.

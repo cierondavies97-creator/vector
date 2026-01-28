@@ -1,0 +1,4 @@
+assigned to it.
+      Parameter *message* may be a "Message" instance, an
+      "email.message.Message" instance, a string, a byte string, or a
+      file-like object (which should be open in binary mode). If

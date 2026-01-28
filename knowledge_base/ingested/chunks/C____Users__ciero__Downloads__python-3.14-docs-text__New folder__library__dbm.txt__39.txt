@@ -1,0 +1,5 @@
+following code prints every key in the database "db", without
+      having to create a list in memory that contains them all:
+         k = db.firstkey()
+         while k is not None:
+             print(k)

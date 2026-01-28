@@ -1,0 +1,3 @@
+"True" on the decorated object. Thus, a check like "if getattr(obj,
+   "__override__", False)" can be used at runtime to determine whether
+   an object "obj" has been marked as an override.  If the decorated

@@ -1,0 +1,4 @@
+environment proxy information is retrieved from the System
+   Configuration Framework.
+   To disable autodetected proxy pass an empty dictionary.
+   The "no_proxy" environment variable can be used to specify hosts

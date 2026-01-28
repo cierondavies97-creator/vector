@@ -1,0 +1,4 @@
+Examples are properties (defined in Python), getsets, and members.
+   The latter two are defined in C and there are more specific tests
+   available for those types, which is robust across Python
+   implementations.  Typically, data descriptors will also have

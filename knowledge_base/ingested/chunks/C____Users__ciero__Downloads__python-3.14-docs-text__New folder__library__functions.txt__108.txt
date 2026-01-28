@@ -1,0 +1,5 @@
+the same dictionary.
+   Note:
+     When "exec" gets two separate objects as *globals* and *locals*,
+     the code will be executed as if it were embedded in a class
+     definition. This means functions and classes defined in the

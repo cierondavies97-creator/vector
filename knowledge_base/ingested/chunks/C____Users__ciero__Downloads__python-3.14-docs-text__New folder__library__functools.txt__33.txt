@@ -1,0 +1,4 @@
+equivalent.
+   The wrapped function is instrumented with a "cache_parameters()"
+   function that returns a new "dict" showing the values for *maxsize*
+   and *typed*.  This is for information purposes only.  Mutating the

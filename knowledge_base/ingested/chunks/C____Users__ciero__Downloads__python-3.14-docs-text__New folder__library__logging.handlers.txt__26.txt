@@ -1,0 +1,7 @@
+Added in version 3.6.
+   emit(record)
+      Outputs the record to the file, but first calls
+      "reopenIfNeeded()" to reopen the file if it has changed.
+BaseRotatingHandler
+===================
+The "BaseRotatingHandler" class, located in the "logging.handlers"

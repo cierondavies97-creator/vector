@@ -1,0 +1,6 @@
+LexicalHandler.startCDATA()
+   Reports the start of a CDATA marked section.
+   The contents of the CDATA marked section will be reported through
+   the characters handler.
+LexicalHandler.endCDATA()
+   Reports the end of a CDATA marked section.

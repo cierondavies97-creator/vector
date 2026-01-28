@@ -1,0 +1,4 @@
+argument must be an iterable of objects that export writable
+   buffers (e.g. "bytearray" objects); these will be filled with
+   successive chunks of the non-ancillary data until it has all been
+   written or there are no more buffers.  The operating system may set

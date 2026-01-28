@@ -1,0 +1,4 @@
+C++ compiler to compile and link your program.  There is no need to
+recompile Python itself using C++.
+1.6. Compiling and Linking under Unix-like systems
+==================================================

@@ -1,0 +1,5 @@
+...
+The default runtime can be overridden with the
+"PYTHON_MANAGER_DEFAULT" environment variable, or a configuration
+file. See Configuration for information about configuration settings.
+To launch a specific runtime, the "py" command accepts a "-V:<TAG>"

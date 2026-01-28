@@ -1,0 +1,8 @@
+>>> turtle.degrees(400.0)
+      >>> turtle.heading()
+      100.0
+      >>> turtle.degrees(360)
+      >>> turtle.heading()
+      90.0
+turtle.radians()
+   Set the angle measurement units to radians.  Equivalent to

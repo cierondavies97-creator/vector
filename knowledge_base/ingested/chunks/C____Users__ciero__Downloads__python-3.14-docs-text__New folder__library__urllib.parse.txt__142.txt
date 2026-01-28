@@ -1,0 +1,1 @@
+This specifies the formal syntax and semantics of absolute URLs.

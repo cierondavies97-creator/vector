@@ -1,0 +1,5 @@
+for num in range(10):
+           Process(target=f, args=(lock, num)).start()
+Without using the lock output from the different processes is liable
+to get all mixed up.
+Sharing state between processes

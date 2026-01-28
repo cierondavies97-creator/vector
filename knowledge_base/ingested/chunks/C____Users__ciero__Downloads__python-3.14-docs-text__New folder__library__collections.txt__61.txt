@@ -1,0 +1,4 @@
+zero). Addition and subtraction combine counters by adding or
+subtracting the counts of corresponding elements.  Intersection and
+union return the minimum and maximum of corresponding counts.
+Equality and inclusion compare corresponding counts.  Each operation

@@ -1,0 +1,5 @@
+timer which provides resolution of 100 nanoseconds. If *secs* is
+   zero, "Sleep(0)" is used.
+   -[ Unix implementation ]-
+   * Use "clock_nanosleep()" if available (resolution: 1 nanosecond);
+   * Or use "nanosleep()" if available (resolution: 1 nanosecond);

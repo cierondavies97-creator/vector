@@ -1,0 +1,7 @@
+context was created:
+      >>> stats = context.session_stats()
+      >>> stats['hits'], stats['misses']
+      (0, 0)
+SSLContext.check_hostname
+   Whether to match the peer cert's hostname in
+   "SSLSocket.do_handshake()". The context's "verify_mode" must be set

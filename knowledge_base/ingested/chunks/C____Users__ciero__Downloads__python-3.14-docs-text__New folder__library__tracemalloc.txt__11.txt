@@ -1,0 +1,7 @@
+Compute differences
+-------------------
+Take two snapshots and display the differences:
+   import tracemalloc
+   tracemalloc.start()
+   # ... start your application ...
+   snapshot1 = tracemalloc.take_snapshot()

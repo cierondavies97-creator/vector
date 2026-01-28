@@ -1,0 +1,4 @@
+"bpbynumber" and by "(file, line)" pairs through "bplist".  The
+   former points to a single instance of class "Breakpoint".  The
+   latter points to a list of such instances since there may be more
+   than one breakpoint per line.

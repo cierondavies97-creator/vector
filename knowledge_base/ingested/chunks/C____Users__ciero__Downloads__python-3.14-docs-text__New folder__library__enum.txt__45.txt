@@ -1,0 +1,5 @@
+By default, does nothing.  If multiple values are given in the
+      member assignment, those values become separate arguments to
+      "__init__"; e.g.
+      >>> from enum import Enum
+      >>> class Weekday(Enum):

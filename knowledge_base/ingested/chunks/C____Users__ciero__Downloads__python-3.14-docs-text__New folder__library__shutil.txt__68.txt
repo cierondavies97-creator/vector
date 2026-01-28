@@ -1,0 +1,4 @@
+destination and *src* will be removed.
+   If *copy_function* is given, it must be a callable that takes two
+   arguments, *src* and the destination, and will be used to copy
+   *src* to the destination if "os.rename()" cannot be used.  If the

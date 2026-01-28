@@ -1,0 +1,4 @@
+/ corruption would be inconvenient (there are some subtleties
+     which may lead to slight changes in the file over a load / save
+     round-trip).
+   Also note that cookies saved while Mozilla is running will get

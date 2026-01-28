@@ -1,0 +1,2 @@
+dumped to stdout. If no input file is specified, the content is read
+from stdin.

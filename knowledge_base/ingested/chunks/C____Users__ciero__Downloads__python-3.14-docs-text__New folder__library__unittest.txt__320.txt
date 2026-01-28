@@ -1,0 +1,4 @@
+methods have to match to be included in test suites (see "-k"
+      option).
+      If this attribute is not "None" (the default), all test methods
+      to be included in test suites must match one of the patterns in

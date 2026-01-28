@@ -1,0 +1,4 @@
+the keyword arguments, or passed into the *_params* argument, which
+   is a keyword dictionary.
+   Changed in version 3.6: Added *policy* keyword-only parameter.
+class email.mime.application.MIMEApplication(_data, _subtype='octet-stream', _encoder=email.encoders.encode_base64, *, policy=compat32, **_params)

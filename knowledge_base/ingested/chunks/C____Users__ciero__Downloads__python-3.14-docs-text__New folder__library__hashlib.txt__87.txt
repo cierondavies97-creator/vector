@@ -1,0 +1,3 @@
+able to find cryptographic hash function collisions (i.e., two
+   messages producing the same hash value), then they might prepare
+   meaningful versions of the message that would produce the same hash

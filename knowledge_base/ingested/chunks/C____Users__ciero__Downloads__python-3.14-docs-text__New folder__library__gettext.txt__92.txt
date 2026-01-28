@@ -1,0 +1,4 @@
+command). Take care, though if you have a previous definition of "_()"
+in the local namespace.
+Note that the second use of "_()" will not identify "a" as being
+translatable to the **gettext** program, because the parameter is not

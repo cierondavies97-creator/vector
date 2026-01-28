@@ -1,0 +1,4 @@
+Changed in version 3.11: Previously, this method only supported
+   formats that could be emitted by "date.isoformat()" or
+   "datetime.isoformat()".
+classmethod datetime.fromisocalendar(year, week, day)

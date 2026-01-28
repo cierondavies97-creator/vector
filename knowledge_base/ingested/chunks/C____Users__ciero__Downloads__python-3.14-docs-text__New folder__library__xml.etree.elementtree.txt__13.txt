@@ -1,0 +1,4 @@
+Note:
+  Not all elements of the XML input will end up as elements of the
+  parsed tree. Currently, this module skips over any XML comments,
+  processing instructions, and document type declarations in the

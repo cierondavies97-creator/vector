@@ -1,0 +1,4 @@
+"Mock" allows you to provide an object as a specification for the
+mock, using the *spec* keyword argument. Accessing methods /
+attributes on the mock that don't exist on your specification object
+will immediately raise an attribute error. If you change the

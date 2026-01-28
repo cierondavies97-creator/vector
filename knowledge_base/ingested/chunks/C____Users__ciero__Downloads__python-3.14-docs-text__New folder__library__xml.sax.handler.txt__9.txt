@@ -1,0 +1,4 @@
+xml.sax.handler.feature_namespace_prefixes
+      value: ""http://xml.org/sax/features/namespace-prefixes""
+      true: Report the original prefixed names and attributes used for Namespace
+      declarations.

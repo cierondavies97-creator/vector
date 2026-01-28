@@ -1,0 +1,6 @@
+is used for loading global variables in annotation scopes within
+   class bodies.
+   Added in version 3.12.
+BUILD_TEMPLATE
+   Constructs a new "Template" instance from a tuple of strings and a
+   tuple of interpolations and pushes the resulting object onto the

@@ -1,0 +1,4 @@
+Py_BuildValue("y", "hello")              b'hello'
+   Py_BuildValue("ss", "hello", "world")    ('hello', 'world')
+   Py_BuildValue("s#", "hello", 4)          'hell'
+   Py_BuildValue("y#", "hello", 4)          b'hell'

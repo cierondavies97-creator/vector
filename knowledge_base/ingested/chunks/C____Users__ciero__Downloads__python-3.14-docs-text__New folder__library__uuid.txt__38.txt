@@ -1,0 +1,4 @@
+uuid.uuid1(node=None, clock_seq=None)
+   Generate a UUID from a host ID, sequence number, and the current
+   time according to **RFC 9562, §5.1**.
+   When *node* is not specified, "getnode()" is used to obtain the

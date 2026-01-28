@@ -1,0 +1,5 @@
+Added in version 3.7.
+This module leverages Python's import system to provide access to
+*resources* within *packages*.
+"Resources" are file-like resources associated with a module or
+package in Python. The resources may be contained directly in a

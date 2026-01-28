@@ -1,0 +1,3 @@
+multiple threads concurrently.  Thread-safe code uses appropriate
+   *synchronization primitives* like *locks* to protect shared mutable
+   state, or is designed to avoid shared mutable state entirely.  In

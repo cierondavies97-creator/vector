@@ -1,0 +1,4 @@
+search instead of *Content-Type*.
+      This is a legacy method.  On the "EmailMessage" class its
+      functionality is replaced by the *params* property of the
+      individual header objects returned by the header access methods.

@@ -1,0 +1,3 @@
+| *purelib*      | "*prefix*/lib/python*X.Y*/site-packages"                   |
++----------------+------------------------------------------------------------+
+| *include*      | "*prefix*/include/python*X.Y*"                             |

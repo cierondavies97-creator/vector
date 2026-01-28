@@ -1,0 +1,6 @@
+window.hline(ch, n)
+window.hline(y, x, ch, n)
+   Display a horizontal line starting at "(y, x)" with length *n*
+   consisting of the character *ch*.
+window.idcok(flag)
+   If *flag* is "False", curses no longer considers using the hardware

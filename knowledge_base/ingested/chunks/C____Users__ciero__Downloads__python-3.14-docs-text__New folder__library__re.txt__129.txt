@@ -1,0 +1,5 @@
+re.M
+re.MULTILINE
+   When specified, the pattern character "'^'" matches at the
+   beginning of the string and at the beginning of each line
+   (immediately following each newline); and the pattern character

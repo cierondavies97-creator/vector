@@ -1,0 +1,4 @@
+This method can also set additional value and type information for
+   the specified key.  The key identified by the key parameter must
+   have been opened with "KEY_SET_VALUE" access.
+   To open the key, use the "CreateKey()" or "OpenKey()" methods.

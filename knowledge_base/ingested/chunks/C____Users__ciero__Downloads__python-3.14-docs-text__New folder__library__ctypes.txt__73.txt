@@ -1,0 +1,5 @@
+Hello, World
+   >>>
+You should be careful, however, not to pass them to functions
+expecting pointers to mutable memory. If you need mutable memory
+blocks, ctypes has a "create_string_buffer()" function which creates

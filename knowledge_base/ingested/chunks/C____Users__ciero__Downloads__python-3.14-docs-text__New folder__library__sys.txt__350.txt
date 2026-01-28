@@ -1,0 +1,5 @@
+save the previous stream before replacing it, and restore the saved
+   object.
+   Note:
+     Under some conditions "stdin", "stdout" and "stderr" as well as
+     the original values "__stdin__", "__stdout__" and "__stderr__"

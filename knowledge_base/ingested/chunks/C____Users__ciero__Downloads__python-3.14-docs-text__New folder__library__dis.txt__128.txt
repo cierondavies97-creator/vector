@@ -1,0 +1,7 @@
+stack:
+      interpolations = STACK.pop()
+      strings = STACK.pop()
+      STACK.append(_build_template(strings, interpolations))
+   Added in version 3.14.
+BUILD_INTERPOLATION(format)
+   Constructs a new "Interpolation" instance from a value and its

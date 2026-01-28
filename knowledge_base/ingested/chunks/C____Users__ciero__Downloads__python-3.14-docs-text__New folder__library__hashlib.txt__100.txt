@@ -1,0 +1,5 @@
+>>> h.hexdigest()
+   '20d9cd024d4fb086aae819a1432dd2466de12947831b75c5a30cf2676095d3b4'
+   >>> h = blake2b(digest_size=32, person=BLOCK_HASH_PERSON)
+   >>> h.update(b'the same content')
+   >>> h.hexdigest()

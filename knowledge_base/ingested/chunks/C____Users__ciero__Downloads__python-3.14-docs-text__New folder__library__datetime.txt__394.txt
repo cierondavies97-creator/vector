@@ -1,0 +1,4 @@
+standard requires, and these work on all platforms with a standard C
+implementation.
++-------------+----------------------------------+--------------------------+---------+
+| Directive   | Meaning                          | Example                  | Notes   |

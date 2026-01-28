@@ -1,0 +1,12 @@
+print(withdraw(50, 100))
+running: python3 -O withdraw.py
+-50
+Nicola Chiapolini, 8 July 2024
+17 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+mypy: Type Hints and Static Checking

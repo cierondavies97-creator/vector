@@ -1,0 +1,4 @@
+Patterns that contain a wildcard character ("*") are matched
+   against the test name using "fnmatch.fnmatchcase()"; otherwise
+   simple case-sensitive substring matching is used.
+   Patterns are matched against the fully qualified test method name

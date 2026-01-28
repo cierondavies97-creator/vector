@@ -1,0 +1,7 @@
+writeable.
+   __name__
+      Attribute holding the name of the property. The name of the
+      property can be changed at runtime.
+      Added in version 3.13.
+class range(stop, /)
+class range(start, stop, step=1, /)

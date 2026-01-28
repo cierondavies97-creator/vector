@@ -1,0 +1,6 @@
+get_code(fullname)
+      Returns the code object for "name" created from "path".
+   get_source(fullname)
+      Returns "None" as bytecode files have no source when this loader
+      is used.
+   load_module(name=None)

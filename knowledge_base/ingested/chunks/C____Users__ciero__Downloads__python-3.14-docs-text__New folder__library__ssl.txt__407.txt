@@ -1,0 +1,4 @@
+your security policy, it is highly recommended that you use the
+"create_default_context()" function to create your SSL context. It
+will load the system's trusted CA certificates, enable certificate
+validation and hostname checking, and try to choose reasonably secure

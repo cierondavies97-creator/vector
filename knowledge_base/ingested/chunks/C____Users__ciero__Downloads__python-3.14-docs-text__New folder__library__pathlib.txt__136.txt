@@ -1,0 +1,4 @@
+Path.is_symlink()
+   Return "True" if the path points to a symbolic link, even if that
+   symlink is broken. "False" will be returned if the path is invalid,
+   inaccessible or missing, or if it points to something other than a

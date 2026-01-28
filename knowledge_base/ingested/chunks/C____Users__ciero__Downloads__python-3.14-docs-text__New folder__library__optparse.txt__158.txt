@@ -1,0 +1,5 @@
+it will create the Option instance for you
+The other alternative is to pass a list of pre-constructed Option
+instances to the OptionParser constructor, as in:
+   option_list = [
+       make_option("-f", "--filename",

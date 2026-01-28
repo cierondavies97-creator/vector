@@ -1,0 +1,5 @@
+Code Objects
+------------
+Code objects are used by the implementation to represent "pseudo-
+compiled" executable Python code such as a function body. They differ
+from function objects because they don't contain a reference to their

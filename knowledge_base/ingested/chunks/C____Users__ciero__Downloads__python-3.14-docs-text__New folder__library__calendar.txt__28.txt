@@ -1,0 +1,3 @@
+centered. If *l* is given, it specifies the number of lines that
+      each week will use. Depends on the first weekday as specified in
+      the constructor or set by the "setfirstweekday()" method.

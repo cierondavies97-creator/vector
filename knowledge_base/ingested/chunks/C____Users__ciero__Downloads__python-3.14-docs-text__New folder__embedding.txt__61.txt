@@ -1,0 +1,3 @@
+for all Unix-like platforms; however, we welcome bug reports) you will
+have to read your system's documentation about dynamic linking and/or
+examine Python's "Makefile" (use "sysconfig.get_makefile_filename()"

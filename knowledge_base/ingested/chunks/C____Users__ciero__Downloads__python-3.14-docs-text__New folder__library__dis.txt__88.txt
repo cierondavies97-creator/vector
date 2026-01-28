@@ -1,0 +1,6 @@
+"o.__await__".
+      If the "where" operand is nonzero, it indicates where the
+      instruction occurs:
+      * "1": After a call to "__aenter__"
+      * "2": After a call to "__aexit__"
+   Added in version 3.5.

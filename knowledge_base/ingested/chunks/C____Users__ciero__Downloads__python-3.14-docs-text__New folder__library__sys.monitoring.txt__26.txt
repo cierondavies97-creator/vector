@@ -1,0 +1,6 @@
+------------
+Other events are not necessarily tied to a specific location in the
+program and cannot be individually disabled via "DISABLE".
+The other events that can be monitored are:
+* "PY_THROW"
+* "PY_UNWIND"

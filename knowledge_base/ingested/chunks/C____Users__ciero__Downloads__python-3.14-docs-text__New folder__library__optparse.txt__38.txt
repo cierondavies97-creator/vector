@@ -1,0 +1,3 @@
+allows multiple options to be merged into a single argument, e.g.
+   "-x -F" is equivalent to "-xF".  The GNU project introduced "--"
+   followed by a series of hyphen-separated words, e.g. "--file" or "

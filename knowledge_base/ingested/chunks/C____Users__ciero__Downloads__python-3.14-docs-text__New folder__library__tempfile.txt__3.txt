@@ -1,0 +1,3 @@
+temporary files and directories. Files names used by this module
+include a string of random characters which allows those files to be
+securely created in shared temporary directories. To maintain backward

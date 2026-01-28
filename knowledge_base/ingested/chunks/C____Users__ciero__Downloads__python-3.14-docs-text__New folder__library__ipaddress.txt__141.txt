@@ -1,0 +1,6 @@
+are the same, then by their IP addresses.
+Other Module Level Functions
+============================
+The module also provides the following module level functions:
+ipaddress.v4_int_to_packed(address)
+   Represent an address as 4 packed bytes in network (big-endian)

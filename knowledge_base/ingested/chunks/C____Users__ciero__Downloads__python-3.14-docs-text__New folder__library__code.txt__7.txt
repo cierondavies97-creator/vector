@@ -1,0 +1,3 @@
+Changed in version 3.13: Added *local_exit* parameter.
+code.interact(banner=None, readfunc=None, local=None, exitmsg=None, local_exit=False)
+   Convenience function to run a read-eval-print loop.  This creates a

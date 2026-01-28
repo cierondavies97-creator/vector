@@ -1,0 +1,5 @@
+...                                    help='additional help')
+      >>> subparsers.add_parser('foo')
+      >>> subparsers.add_parser('bar')
+      >>> parser.parse_args(['-h'])
+      usage:  [-h] {foo,bar} ...

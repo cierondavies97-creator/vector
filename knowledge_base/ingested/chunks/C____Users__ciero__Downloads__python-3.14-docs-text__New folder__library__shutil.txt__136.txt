@@ -1,0 +1,5 @@
+>>> make_archive(archive_name, 'gztar', root_dir)
+   '/Users/tarek/myarchive.tar.gz'
+The resulting archive contains:
+   $ tar -tzvf /Users/tarek/myarchive.tar.gz
+   drwx------ tarek/staff       0 2010-02-01 16:23:40 ./

@@ -1,0 +1,7 @@
+action.
+  Example:
+     parser.add_option("-t", "--tracks", action="append", type="int")
+  If "-t3" is seen on the command-line, "optparse" does the equivalent
+  of:
+     options.tracks = []
+     options.tracks.append(int("3"))

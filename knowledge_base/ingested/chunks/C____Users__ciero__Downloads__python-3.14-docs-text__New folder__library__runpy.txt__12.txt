@@ -1,0 +1,4 @@
+"sys.modules[__name__]" is updated with a temporary module object
+   for the module being executed. Both "sys.argv[0]" and
+   "sys.modules[__name__]" are restored to their original values
+   before the function returns.

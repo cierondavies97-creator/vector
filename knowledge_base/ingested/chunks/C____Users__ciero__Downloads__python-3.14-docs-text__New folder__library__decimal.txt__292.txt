@@ -1,0 +1,6 @@
+getcontext().prec -= 2
+       return +s
+   def cos(x):
+       """Return the cosine of x as measured in radians.
+       The Taylor series approximation works best for a small value of x.
+       For larger values, first compute x = x % (2 * pi).

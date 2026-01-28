@@ -1,0 +1,4 @@
+messages should consider using the "optparse" module. See Choosing an
+argument parsing library for additional details.
+This module provides two functions and an exception:
+getopt.getopt(args, shortopts, longopts=[])

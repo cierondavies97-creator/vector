@@ -1,0 +1,3 @@
+| curses.KEY_SFIND          | Shifted Find                                 |
++---------------------------+----------------------------------------------+
+| curses.KEY_SHELP          | Shifted Help                                 |

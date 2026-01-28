@@ -1,0 +1,4 @@
+constructor or set by the "setfirstweekday()" method.
+   formatweekday(weekday, width)
+      Return a string representing the name of a single weekday
+      formatted to the specified *width*. The *weekday* parameter is

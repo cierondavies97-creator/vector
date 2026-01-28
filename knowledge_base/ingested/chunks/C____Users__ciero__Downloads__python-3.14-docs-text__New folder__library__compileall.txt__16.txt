@@ -1,0 +1,5 @@
+"SOURCE_DATE_EPOCH" environment variable is set.
+-o level
+   Compile with the given optimization level. May be used multiple
+   times to compile for multiple levels at a time (for example,
+   "compileall -o 1 -o 2").

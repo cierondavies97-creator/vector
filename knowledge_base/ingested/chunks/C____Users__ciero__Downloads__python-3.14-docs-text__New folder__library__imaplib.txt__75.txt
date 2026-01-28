@@ -1,0 +1,4 @@
+Returns socket instance used to connect to server.
+IMAP4.sort(sort_criteria, charset, search_criterion[, ...])
+   The "sort" command is a variant of "search" with sorting semantics
+   for the results.  Returned data contains a space separated list of

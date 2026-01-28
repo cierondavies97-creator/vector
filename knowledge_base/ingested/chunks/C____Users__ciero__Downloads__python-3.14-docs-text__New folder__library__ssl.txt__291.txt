@@ -1,0 +1,6 @@
+Added in version 3.7.
+SSLContext.num_tickets
+   Control the number of TLS 1.3 session tickets of a
+   "PROTOCOL_TLS_SERVER" context. The setting has no impact on TLS 1.0
+   to 1.2 connections.
+   Added in version 3.8.

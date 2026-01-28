@@ -1,0 +1,4 @@
+support the buffer protocol.  Built-in objects that support the
+      buffer protocol include "bytes" and "bytearray".
+      A "memoryview" has the notion of an *element*, which is the
+      atomic memory unit handled by the originating *object*.  For

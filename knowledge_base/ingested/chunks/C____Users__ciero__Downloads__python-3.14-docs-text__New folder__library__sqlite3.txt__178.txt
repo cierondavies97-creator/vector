@@ -1,0 +1,5 @@
+has the serialize API.
+      Added in version 3.11.
+   deserialize(data, /, *, name='main')
+      Deserialize a "serialized" database into a "Connection". This
+      method causes the database connection to disconnect from

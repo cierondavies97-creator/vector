@@ -1,0 +1,8 @@
+Interactive(
+          body=[
+              Assign(
+                  targets=[
+                      Name(id='x', ctx=Store())],
+                  value=Constant(value=1)),
+              Assign(
+                  targets=[

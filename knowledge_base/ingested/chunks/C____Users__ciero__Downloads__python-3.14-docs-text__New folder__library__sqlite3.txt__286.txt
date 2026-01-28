@@ -1,0 +1,5 @@
+The other possibility is to create a function that converts the Python
+object to an SQLite-compatible type. This function can then be
+registered using "register_adapter()".
+   class Point:
+       def __init__(self, x, y):

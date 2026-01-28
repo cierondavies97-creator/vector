@@ -1,0 +1,4 @@
+>>> pointer_a = pointer(number)
+      >>> pointer_b = pointer(number)
+In the above, it's only safe for one object to read and write to the
+address at once if the GIL is disabled. So, "pointer_a" can be shared

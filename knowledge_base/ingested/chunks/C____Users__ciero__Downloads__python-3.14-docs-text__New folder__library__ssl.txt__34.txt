@@ -1,0 +1,4 @@
+error is a subtype of "OSError".  The error code and message of
+   "SSLError" instances are provided by the OpenSSL library.
+   Changed in version 3.3: "SSLError" used to be a subtype of
+   "socket.error".

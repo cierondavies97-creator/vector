@@ -1,0 +1,2 @@
+| "default_tag"                     | PYTHON_MANAGER_DEFAULT            | The preferred default version to  |
+|                                   |                                   | launch or install. By default,    |

@@ -1,0 +1,3 @@
+The "*" (multiplication) operator yields the product of its arguments.
+The arguments must either both be numbers, or one argument must be an
+integer and the other must be a sequence. In the former case, the

@@ -1,0 +1,5 @@
+and errors:
+   * "stdin" is used for all interactive input (including calls to
+     "input()");
+   * "stdout" is used for the output of "print()" and *expression*
+     statements and for the prompts of "input()";

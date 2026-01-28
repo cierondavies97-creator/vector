@@ -1,0 +1,5 @@
+determines the content, while the panel methods are responsible for
+the window's depth in the panel stack.
+Panel objects have the following methods:
+Panel.above()
+   Returns the panel above the current panel.

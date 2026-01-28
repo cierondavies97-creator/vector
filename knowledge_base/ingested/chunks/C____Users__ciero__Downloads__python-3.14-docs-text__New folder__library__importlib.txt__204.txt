@@ -1,0 +1,5 @@
+containing package (e.g. requesting "..bacon" from within the
+   "spam" package).
+   Added in version 3.3.
+   Changed in version 3.9: To improve consistency with import
+   statements, raise "ImportError" instead of "ValueError" for invalid

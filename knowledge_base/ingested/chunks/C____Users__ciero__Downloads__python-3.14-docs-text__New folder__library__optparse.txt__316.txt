@@ -1,0 +1,6 @@
+least one of the following class attributes of Option (all are lists
+of strings):
+Option.ACTIONS
+   All actions must be listed in ACTIONS.
+Option.STORE_ACTIONS
+   "store" actions are additionally listed here.

@@ -1,0 +1,5 @@
+Objects section.
+3.2.8.5. Asynchronous generator functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A function or method which is defined using "async def" and which uses
+the "yield" statement is called a *asynchronous generator function*.

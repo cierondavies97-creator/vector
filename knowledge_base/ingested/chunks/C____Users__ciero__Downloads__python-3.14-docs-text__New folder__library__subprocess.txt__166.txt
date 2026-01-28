@@ -1,0 +1,3 @@
+feature with concurrent calls to other process creation
+           functions that inherit all handles such as "os.system()".
+           This also applies to standard handle redirection, which

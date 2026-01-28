@@ -1,0 +1,4 @@
+context.set_psk_server_callback(lambda identity: psk)
+      # A table using the identity of the client:
+      psk_table = { 'ClientId_1': bytes.fromhex('c0ffee'),
+                    'ClientId_2': bytes.fromhex('facade')

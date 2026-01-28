@@ -1,0 +1,8 @@
+All super-user changeable flags
+   Added in version 3.13.
+stat.SF_SUPPORTED
+   All super-user supported flags
+   Availability: macOS
+   Added in version 3.13.
+stat.SF_SYNTHETIC
+   All super-user read-only synthetic flags

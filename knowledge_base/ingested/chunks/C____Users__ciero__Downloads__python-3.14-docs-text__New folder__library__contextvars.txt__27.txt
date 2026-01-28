@@ -1,0 +1,5 @@
+# 'var' was set to 'spam' before
+             # calling 'copy_context()' and 'ctx.run(main)', so:
+             print(var.get())  # 'spam'
+             print(ctx[var])  # 'spam'
+             var.set('ham')

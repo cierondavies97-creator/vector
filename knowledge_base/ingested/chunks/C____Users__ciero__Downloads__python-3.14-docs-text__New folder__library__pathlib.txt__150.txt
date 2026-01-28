@@ -1,0 +1,4 @@
+is initialized with some information about the file type gleaned
+   from scanning the parent directory. Merely accessing "Path.info"
+   does not perform any filesystem queries.
+   To fetch up-to-date information, it's best to call "Path.is_dir()",

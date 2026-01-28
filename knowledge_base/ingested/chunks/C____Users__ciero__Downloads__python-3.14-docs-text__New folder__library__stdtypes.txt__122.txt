@@ -1,0 +1,4 @@
+Deprecated since version 3.12: The use of the bitwise inversion
+operator "~" is deprecated and will raise an error in Python 3.16.
+"bool" is a subclass of "int" (see Numeric Types --- int, float,
+complex). In many numeric contexts, "False" and "True" behave like the

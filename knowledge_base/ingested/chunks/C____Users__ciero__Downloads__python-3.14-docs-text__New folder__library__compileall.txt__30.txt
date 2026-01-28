@@ -1,0 +1,4 @@
+sequence of optimization levels which lead to multiple compilations
+   of one ".py" file in one call.
+   The argument *workers* specifies how many workers are used to
+   compile files in parallel. The default is to not use multiple

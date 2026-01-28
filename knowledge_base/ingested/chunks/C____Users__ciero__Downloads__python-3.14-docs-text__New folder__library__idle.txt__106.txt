@@ -1,0 +1,5 @@
+and "sys.argv" reflects the arguments passed to IDLE itself.
+Startup failure
+---------------
+IDLE uses a socket to communicate between the IDLE GUI process and the
+user code execution process.  A connection must be established

@@ -1,0 +1,5 @@
+Run the loop body until "break" stops the loop.
+   After *timeout* seconds, raise an "AssertionError" if *error* is
+   true, or just stop the loop if *error* is false.
+   Example:
+      for _ in support.busy_retry(support.SHORT_TIMEOUT):

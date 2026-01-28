@@ -1,0 +1,5 @@
+def x(self):
+                 del self._x
+      This code is exactly equivalent to the first example.  Be sure
+      to give the additional functions the same name as the original
+      property ("x" in this case.)

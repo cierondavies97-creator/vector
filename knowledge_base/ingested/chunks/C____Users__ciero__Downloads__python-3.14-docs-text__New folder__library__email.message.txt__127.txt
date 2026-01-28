@@ -1,0 +1,4 @@
+detailed description of the possible parsing defects.
+class email.message.MIMEPart(policy=default)
+   This class represents a subpart of a MIME message.  It is identical
+   to "EmailMessage", except that no *MIME-Version* headers are added

@@ -1,0 +1,4 @@
+received and *address* is the address of the socket sending the
+   data.  See the Unix manual page *recv(2)* for the meaning of the
+   optional argument *flags*; it defaults to zero. (The format of
+   *address* depends on the address family --- see above.)

@@ -1,0 +1,7 @@
+>>> print(bool(null_ptr))
+   False
+   >>>
+"ctypes" checks for "NULL" when dereferencing pointers (but
+dereferencing invalid non-"NULL" pointers would crash Python):
+   >>> null_ptr[0]
+   Traceback (most recent call last):

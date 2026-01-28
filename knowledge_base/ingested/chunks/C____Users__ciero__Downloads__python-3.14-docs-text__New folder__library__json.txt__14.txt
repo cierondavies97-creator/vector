@@ -1,0 +1,8 @@
+...
+   >>> json.dumps(2 + 1j, cls=ComplexEncoder)
+   '[2.0, 1.0]'
+   >>> ComplexEncoder().encode(2 + 1j)
+   '[2.0, 1.0]'
+   >>> list(ComplexEncoder().iterencode(2 + 1j))
+   ['[2.0', ', 1.0', ']']
+Using "json" from the shell to validate and pretty-print:

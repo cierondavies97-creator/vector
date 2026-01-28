@@ -1,0 +1,4 @@
+* An "Availability: Unix" note means that this function is commonly
+  found on Unix systems.  It does not make any claims about its
+  existence on a specific operating system.
+* If not separately noted, all functions that claim "Availability:

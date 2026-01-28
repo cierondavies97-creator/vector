@@ -1,0 +1,4 @@
+of the array, and the array will be initially zeroed. Otherwise
+   *size_or_initializer* is a sequence which is used to initialize the
+   array and whose length determines the length of the array.
+   Note that setting and getting an element is potentially non-atomic

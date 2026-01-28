@@ -1,0 +1,4 @@
+and remains the same regardless of where the function is called.
+hasattr(object, name, /)
+   The arguments are an object and a string.  The result is "True" if
+   the string is the name of one of the object's attributes, "False"

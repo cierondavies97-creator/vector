@@ -1,0 +1,3 @@
+"Mock" is a flexible mock object intended to replace the use of stubs
+and test doubles throughout your code. Mocks are callable and create
+attributes as new mocks when you access them [1]. Accessing the same

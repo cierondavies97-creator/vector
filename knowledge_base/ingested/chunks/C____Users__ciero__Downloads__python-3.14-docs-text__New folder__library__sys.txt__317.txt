@@ -1,0 +1,3 @@
+*firstiter* callable will be called when an asynchronous generator
+   is iterated for the first time. The *finalizer* will be called when
+   an asynchronous generator is about to be garbage collected.

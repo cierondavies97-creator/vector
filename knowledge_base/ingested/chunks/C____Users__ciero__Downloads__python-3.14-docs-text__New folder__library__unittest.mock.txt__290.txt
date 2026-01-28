@@ -1,0 +1,7 @@
+a function or a mock instance. If you are using a function then it
+*must* take "self" as the first argument [3].
+>>> def __str__(self):
+...     return 'fooble'
+...
+>>> mock = Mock()
+>>> mock.__str__ = __str__

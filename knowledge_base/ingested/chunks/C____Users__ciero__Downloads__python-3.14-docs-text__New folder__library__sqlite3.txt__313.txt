@@ -1,0 +1,6 @@
+nothing.
+Note:
+  The context manager neither implicitly opens a new transaction nor
+  closes the connection. If you need a closing context manager,
+  consider using "contextlib.closing()".
+   con = sqlite3.connect(":memory:")

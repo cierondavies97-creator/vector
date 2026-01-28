@@ -1,0 +1,5 @@
+internal and specialized purposes only. It is not guaranteed to
+   exist in all implementations of Python.
+   Added in version 3.12.
+sys.getobjects(limit[, type])
+   This function only exists if CPython was built using the

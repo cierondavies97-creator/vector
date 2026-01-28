@@ -1,0 +1,4 @@
+behaviour was undefined but operations on the executor or its
+   futures would often freeze or deadlock.
+   Changed in version 3.7: The *mp_context* argument was added to
+   allow users to control the start_method for worker processes

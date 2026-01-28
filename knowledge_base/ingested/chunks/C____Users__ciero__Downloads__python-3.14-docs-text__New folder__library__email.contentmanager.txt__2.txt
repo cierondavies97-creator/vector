@@ -1,0 +1,5 @@
+representations, as well as the "get_content" and "set_content"
+   dispatch methods.
+   get_content(msg, *args, **kw)
+      Look up a handler function based on the "mimetype" of *msg* (see
+      next paragraph), call it, passing through all arguments, and

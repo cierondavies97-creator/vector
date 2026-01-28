@@ -1,0 +1,7 @@
+pFunc = PyObject_GetAttrString(pModule, argv[2]);
+   /* pFunc is a new reference */
+   if (pFunc && PyCallable_Check(pFunc)) {
+       ...
+   }
+   Py_XDECREF(pFunc);
+Once the script is loaded, the name we're looking for is retrieved

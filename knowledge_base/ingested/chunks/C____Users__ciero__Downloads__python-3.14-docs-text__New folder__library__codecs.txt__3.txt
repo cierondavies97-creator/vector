@@ -1,0 +1,5 @@
+The module defines the following functions for encoding and decoding
+with any codec:
+codecs.encode(obj, encoding='utf-8', errors='strict')
+   Encodes *obj* using the codec registered for *encoding*.
+   *Errors* may be given to set the desired error handling scheme. The

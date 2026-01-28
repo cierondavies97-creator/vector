@@ -1,0 +1,4 @@
+important is that when values are changed on a section proxy, they are
+actually mutated in the original parser.
+"configparser" objects behave as close to actual dictionaries as
+possible. The mapping interface is complete and adheres to the

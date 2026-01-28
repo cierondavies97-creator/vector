@@ -1,0 +1,7 @@
+>>> issubclass(lib._FuncPtr, ctypes._CFuncPtr)
+   True
+   >>> lib._FuncPtr is ctypes._CFuncPtr
+   False
+class ctypes._CFuncPtr
+   Base class for C callable foreign functions.
+   Instances of foreign functions are also C compatible data types;

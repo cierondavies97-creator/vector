@@ -1,0 +1,8 @@
+'\\'
+   If the path starts with more than two successive slashes,
+   "PurePosixPath" collapses them:
+      >>> PurePosixPath('//etc').root
+      '//'
+      >>> PurePosixPath('///etc').root
+      '/'
+      >>> PurePosixPath('////etc').root

@@ -1,0 +1,4 @@
+file pointed to by the link.  For POSIX systems, Python will call
+  the "l..." variant of the function.
+  You can check whether or not *follow_symlinks* is supported for a
+  particular function on your platform using

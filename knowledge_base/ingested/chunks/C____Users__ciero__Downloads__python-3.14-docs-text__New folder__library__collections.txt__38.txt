@@ -1,0 +1,8 @@
+For example:
+   >>> # Tally occurrences of words in a list
+   >>> cnt = Counter()
+   >>> for word in ['red', 'blue', 'red', 'green', 'blue', 'blue']:
+   ...     cnt[word] += 1
+   ...
+   >>> cnt
+   Counter({'blue': 3, 'red': 2, 'green': 1})

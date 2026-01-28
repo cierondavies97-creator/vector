@@ -1,0 +1,3 @@
+generated "__slots__" to prevent overriding them. Therefore, do
+      not use "__slots__" to retrieve the field names of a dataclass.
+      Use "fields()" instead. To be able to determine inherited slots,

@@ -1,0 +1,3 @@
+matching a regular expression, given as a re.Pattern object.
+   If *quiet* is "False" or "0" (the default), the filenames and other
+   information are printed to standard out. Set to "1", only errors

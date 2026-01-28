@@ -1,0 +1,4 @@
+RFC, a HTTP "Host:" header must be provided, matching the
+   authority-form of the request target provided as the destination
+   for the CONNECT request. If a HTTP "Host:" header is not provided
+   via the headers argument, one is generated and transmitted

@@ -1,0 +1,4 @@
+process ID in logged messages, and write the messages to the
+destination facility used for mail logging:
+   syslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)
+   syslog.syslog('E-mail processing initiated...')

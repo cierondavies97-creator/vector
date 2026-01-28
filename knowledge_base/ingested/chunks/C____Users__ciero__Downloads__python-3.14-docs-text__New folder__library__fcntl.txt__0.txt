@@ -1,0 +1,4 @@
+"fcntl" --- The "fcntl" and "ioctl" system calls
+************************************************
+======================================================================
+This module performs file and I/O control on file descriptors. It is

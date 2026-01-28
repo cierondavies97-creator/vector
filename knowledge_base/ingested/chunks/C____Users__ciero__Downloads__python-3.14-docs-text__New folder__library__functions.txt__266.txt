@@ -1,0 +1,3 @@
+method; if it is not present or "None", "sys.stdout" will be used.
+   Since printed arguments are converted to text strings, "print()"
+   cannot be used with binary mode file objects.  For these, use

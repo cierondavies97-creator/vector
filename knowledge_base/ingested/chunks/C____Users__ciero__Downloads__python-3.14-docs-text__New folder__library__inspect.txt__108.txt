@@ -1,0 +1,6 @@
+Return "True" if the object can be used in "await" expression.
+   Can also be used to distinguish generator-based coroutines from
+   regular generators:
+      import types
+      def gen():
+          yield

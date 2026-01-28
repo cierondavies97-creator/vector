@@ -1,0 +1,6 @@
+separate attribute:
+   import annotationlib
+   import typing
+   class ClassVarSeparator(type):
+      def __new__(mcls, name, bases, ns):
+         if "__annotations__" in ns:  # from __future__ import annotations

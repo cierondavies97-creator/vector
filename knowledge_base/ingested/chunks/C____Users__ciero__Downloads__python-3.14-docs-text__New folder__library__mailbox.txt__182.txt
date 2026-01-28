@@ -1,0 +1,5 @@
+conversions take place:
++-------------------+---------------------------------+
+| Resulting state   | "MaildirMessage" state          |
+|===================|=================================|
+| R flag            | S flag                          |

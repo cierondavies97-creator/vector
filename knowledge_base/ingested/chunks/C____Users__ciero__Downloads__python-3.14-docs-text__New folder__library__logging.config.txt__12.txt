@@ -1,0 +1,4 @@
+Reads the logging configuration from a "configparser"-format file.
+   The format of the file should be as described in Configuration file
+   format. This function can be called several times from an
+   application, allowing an end user to select from various pre-canned

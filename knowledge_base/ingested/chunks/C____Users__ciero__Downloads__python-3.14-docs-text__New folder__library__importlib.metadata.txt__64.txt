@@ -1,0 +1,3 @@
+"sys.path" searches, or package loaders directly, the metadata for a
+distribution is found through import system finders. To find a
+distribution package's metadata, "importlib.metadata" queries the list

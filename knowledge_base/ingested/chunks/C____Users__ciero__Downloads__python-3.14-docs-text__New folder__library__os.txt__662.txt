@@ -1,0 +1,4 @@
+after forking a child process.
+   * *after_in_child* is a function called from the child process.
+   These calls are only made if control is expected to return to the
+   Python interpreter.  A typical "subprocess" launch will not trigger

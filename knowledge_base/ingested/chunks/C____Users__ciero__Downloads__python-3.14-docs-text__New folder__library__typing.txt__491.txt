@@ -1,0 +1,6 @@
+Added in version 3.10.
+class typing.ForwardRef
+   Class used for internal typing representation of string forward
+   references.
+   For example, "List["SomeClass"]" is implicitly transformed into
+   "List[ForwardRef("SomeClass")]".  "ForwardRef" should not be

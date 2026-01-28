@@ -1,0 +1,6 @@
+Standard Annex #44, "Unicode Character Database".  It defines the
+following functions:
+See also:
+  The Unicode HOWTO for more information about Unicode and how to use
+  this module.
+unicodedata.lookup(name)

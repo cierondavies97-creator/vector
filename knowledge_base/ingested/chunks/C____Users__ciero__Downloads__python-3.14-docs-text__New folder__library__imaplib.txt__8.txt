@@ -1,0 +1,5 @@
+exception IMAP4.error
+   Exception raised on any errors.  The reason for the exception is
+   passed to the constructor as a string.
+exception IMAP4.abort
+   IMAP4 server errors cause this exception to be raised.  This is a

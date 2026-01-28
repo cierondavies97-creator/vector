@@ -1,0 +1,3 @@
+In Babyl mailboxes, the headers of a message are not stored
+      contiguously with the body of the message. To generate a file-
+      like representation, the headers and body are copied together

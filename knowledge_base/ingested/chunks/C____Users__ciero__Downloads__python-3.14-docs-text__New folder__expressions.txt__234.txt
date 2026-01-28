@@ -1,0 +1,4 @@
+types will need that have a sensible definition of object value and
+value-based equality.  Such types will need to customize their
+comparison behavior, and in fact, a number of built-in types have done
+that.

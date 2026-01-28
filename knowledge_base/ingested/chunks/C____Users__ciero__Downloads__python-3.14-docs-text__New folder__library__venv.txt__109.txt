@@ -1,0 +1,6 @@
+os.unlink(f)
+       def install_pip(self, context):
+           """
+           Install pip in the virtual environment.
+           :param context: The information for the virtual environment
+                           creation request being processed.

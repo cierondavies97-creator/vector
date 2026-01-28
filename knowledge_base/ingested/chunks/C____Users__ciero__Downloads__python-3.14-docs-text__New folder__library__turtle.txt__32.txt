@@ -1,0 +1,8 @@
+approach in the shell, but it would be more typical in a Python
+script.
+The example above then becomes:
+   from turtle import Turtle
+   from random import random
+   t = Turtle()
+   for i in range(100):
+       steps = int(random() * 100)

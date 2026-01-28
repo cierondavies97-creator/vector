@@ -1,0 +1,5 @@
+modules of your application.
+   Changed in version 3.11: *names* is now a keyword-only parameter.
+The "NullTranslations" class
+----------------------------
+Translation classes are what actually implement the translation of

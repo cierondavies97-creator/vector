@@ -1,0 +1,5 @@
+Note:
+  If you create a finalizer object in a daemonic thread just as the
+  program exits then there is the possibility that the finalizer does
+  not get called at exit.  However, in a daemonic thread
+  "atexit.register()", "try: ... finally: ..." and "with: ..." do not

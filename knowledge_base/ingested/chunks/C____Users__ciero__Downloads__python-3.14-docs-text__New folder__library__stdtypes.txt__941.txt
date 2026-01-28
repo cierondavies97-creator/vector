@@ -1,0 +1,4 @@
+...         sys.set_int_max_str_digits(upper_bound)
+   ...     elif current_limit < lower_bound:
+   ...         sys.set_int_max_str_digits(lower_bound)
+If you need to disable it entirely, set it to "0".

@@ -1,0 +1,5 @@
+old "aifc" module, and don't do anything interesting.
+   getmarkers()
+      Returns "None".
+      Deprecated since version 3.13, will be removed in version 3.15:
+      The method only existed for compatibility with the "aifc" module

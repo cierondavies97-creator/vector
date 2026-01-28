@@ -1,0 +1,4 @@
+Disassemble a code object, indicating the last instruction if
+   *lasti* was provided.  The output is divided in the following
+   columns:
+   1. the source code location of the instruction. Complete location

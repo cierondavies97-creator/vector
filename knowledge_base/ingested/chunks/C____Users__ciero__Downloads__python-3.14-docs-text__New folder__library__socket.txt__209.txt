@@ -1,0 +1,6 @@
+Availability: Unix, Windows, not WASI.
+   Added in version 3.3.
+   Changed in version 3.8: Windows support was added.
+   See also:
+     "Interface name" is a name as documented in "if_nameindex()".
+socket.send_fds(sock, buffers, fds[, flags[, address]])

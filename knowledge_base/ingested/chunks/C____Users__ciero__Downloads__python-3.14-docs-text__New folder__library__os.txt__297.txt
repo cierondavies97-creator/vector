@@ -1,0 +1,3 @@
+include the special entries "'.'" and "'..'" even if they are
+   present in the directory. If a file is removed from or added to the
+   directory during the call of this function, whether a name for that

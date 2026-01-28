@@ -1,0 +1,4 @@
+A function composed of multiple functions implementing the same
+   operation for different types. Which implementation should be used
+   during a call is determined by the dispatch algorithm.
+   See also the *single dispatch* glossary entry, the

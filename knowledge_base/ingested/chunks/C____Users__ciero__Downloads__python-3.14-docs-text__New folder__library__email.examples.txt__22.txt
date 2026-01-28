@@ -1,0 +1,4 @@
+msg['From'] = args.sender
+       msg.preamble = 'You will not see this in a MIME-aware mail reader.\n'
+       for filename in os.listdir(directory):
+           path = os.path.join(directory, filename)

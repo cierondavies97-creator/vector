@@ -1,0 +1,5 @@
+as well.
+This is where using the "if __name__ == '__main__'" code block comes
+in handy. Code within this block won't run unless the module is
+executed in the top-level environment.
+Putting as few statements as possible in the block below "if __name__

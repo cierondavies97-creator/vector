@@ -1,0 +1,5 @@
+more information on annotations best practices.
+      >>> def f(a: int, b: str) -> float:
+      ...     pass
+      >>> get_annotations(f)
+      {'a': <class 'int'>, 'b': <class 'str'>, 'return': <class 'float'>}

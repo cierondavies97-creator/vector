@@ -1,0 +1,5 @@
+Tkinter script above.
+   ttk::frame .frm -padding 10
+   grid .frm
+   grid [ttk::label .frm.lbl -text "Hello World!"] -column 0 -row 0
+   grid [ttk::button .frm.btn -text "Quit" -command "destroy ."] -column 1 -row 0

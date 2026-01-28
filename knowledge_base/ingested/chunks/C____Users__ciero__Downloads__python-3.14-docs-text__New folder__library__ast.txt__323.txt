@@ -1,0 +1,5 @@
+An "async def" function definition. Has the same fields as
+   "FunctionDef".
+   Changed in version 3.12: Added "type_params".
+class ast.Await(value)
+   An "await" expression. "value" is what it waits for. Only valid in

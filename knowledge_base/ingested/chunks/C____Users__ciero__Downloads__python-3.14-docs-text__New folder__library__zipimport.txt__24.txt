@@ -1,0 +1,6 @@
+8467                   1 file
+   >>> import sys
+   >>> # Add the archive to the front of the module search path
+   >>> sys.path.insert(0, 'example_archive.zip')
+   >>> import example
+   >>> example.__file__

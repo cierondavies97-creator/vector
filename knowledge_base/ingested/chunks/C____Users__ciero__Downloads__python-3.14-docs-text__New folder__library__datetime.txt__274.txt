@@ -1,0 +1,6 @@
+datetime.time(4, 23, 1)
+      >>> time.fromisoformat('T042301')
+      datetime.time(4, 23, 1)
+      >>> time.fromisoformat('04:23:01.000384')
+      datetime.time(4, 23, 1, 384)
+      >>> time.fromisoformat('04:23:01,000384')

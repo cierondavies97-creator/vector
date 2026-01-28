@@ -1,0 +1,4 @@
+appended to *from_*. If *time_* is specified, it should be a
+      "time.struct_time" instance, a tuple suitable for passing to
+      "time.strftime()", or "True" (to use "time.gmtime()").
+   get_flags()

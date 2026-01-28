@@ -1,0 +1,7 @@
+Attempting to pass an invalid interval timer will cause an
+   "ItimerError".
+   Availability: Unix.
+signal.getitimer(which)
+   Returns current value of a given interval timer specified by
+   *which*.
+   Availability: Unix.

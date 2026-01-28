@@ -1,0 +1,5 @@
+"Pool.map_async()".
+   get([timeout])
+      Return the result when it arrives.  If *timeout* is not "None"
+      and the result does not arrive within *timeout* seconds then
+      "multiprocessing.TimeoutError" is raised.  If the remote call

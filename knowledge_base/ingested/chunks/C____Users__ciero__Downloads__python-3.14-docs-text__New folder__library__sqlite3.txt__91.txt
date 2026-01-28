@@ -1,0 +1,5 @@
+implicitly opened if a pending transaction was committed by this
+      method.
+   rollback()
+      Roll back to the start of any pending transaction. If
+      "autocommit" is "True", or there is no open transaction, this

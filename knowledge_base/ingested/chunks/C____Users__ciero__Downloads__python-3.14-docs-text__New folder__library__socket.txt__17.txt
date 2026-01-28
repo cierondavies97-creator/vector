@@ -1,0 +1,6 @@
+where:
+  * *addr_type* is one of "TIPC_ADDR_NAMESEQ", "TIPC_ADDR_NAME", or
+    "TIPC_ADDR_ID".
+  * *scope* is one of "TIPC_ZONE_SCOPE", "TIPC_CLUSTER_SCOPE", and
+    "TIPC_NODE_SCOPE".
+  * If *addr_type* is "TIPC_ADDR_NAME", then *v1* is the server type,

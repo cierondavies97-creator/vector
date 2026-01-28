@@ -1,0 +1,2 @@
+for box in boxes.itervalues():
+       box.close()

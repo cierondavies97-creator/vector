@@ -1,0 +1,4 @@
+used to provide per-attribute docstrings that will be recognised by
+  "inspect.getdoc()" and displayed in the output of "help()".
+* "__class__" assignment works only if both classes have the same
+  *__slots__*.

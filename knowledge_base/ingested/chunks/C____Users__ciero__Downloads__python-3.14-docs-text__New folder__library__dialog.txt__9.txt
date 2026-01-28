@@ -1,0 +1,5 @@
+dialog, wait for the user's selection, then return the selected
+value(s) or "None" to the caller.
+tkinter.filedialog.askopenfile(mode='r', **options)
+tkinter.filedialog.askopenfiles(mode='r', **options)
+   The above two functions create an "Open" dialog and return the

@@ -1,0 +1,5 @@
+not a directory. Confirmation is required if an already existing
+      file is selected.
+"tkinter.commondialog" --- Dialog window templates
+==================================================
+**Source code:** Lib/tkinter/commondialog.py

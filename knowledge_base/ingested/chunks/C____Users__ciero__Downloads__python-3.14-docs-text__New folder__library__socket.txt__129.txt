@@ -1,0 +1,4 @@
+and IPv6 connections, else it will raise "ValueError". Most POSIX
+   platforms and Windows are supposed to support this functionality.
+   When this functionality is enabled the address returned by
+   "socket.getpeername()" when an IPv4 connection occurs will be an

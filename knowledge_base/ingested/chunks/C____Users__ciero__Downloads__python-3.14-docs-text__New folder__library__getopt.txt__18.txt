@@ -1,0 +1,3 @@
+arguments that are followed by options are added to the list of
+   option-and-value pairs as a pair that has "None" as its first
+   element and the list of non-option arguments as its second element.

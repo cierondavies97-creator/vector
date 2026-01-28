@@ -1,0 +1,5 @@
+loading with "enable_load_extension()" before calling this
+      method.
+      Parameters:
+         * **path** (*str*) -- The path to the SQLite extension.
+         * **entrypoint** (*str** | **None*) -- Entry point name. If

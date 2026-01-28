@@ -1,0 +1,4 @@
+and *standalone* will be "1" if the document is declared
+   standalone, "0" if it is declared not to be standalone, or "-1" if
+   the standalone clause was omitted. This is only available with
+   Expat version 1.95.0 or newer.

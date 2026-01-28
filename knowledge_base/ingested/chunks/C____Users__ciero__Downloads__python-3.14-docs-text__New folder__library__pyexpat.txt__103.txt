@@ -1,0 +1,5 @@
+xml.parsers.expat.model.XML_CTYPE_ANY
+   The element named by the model name was declared to have a content
+   model of "ANY".
+xml.parsers.expat.model.XML_CTYPE_CHOICE
+   The named element allows a choice from a number of options; this is

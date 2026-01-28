@@ -1,0 +1,5 @@
+text.  To hide this option, use the special value
+   "optparse.SUPPRESS_HELP".
+Option.metavar
+   (default: derived from option strings)
+   Stand-in for the option argument(s) to use when printing help text.

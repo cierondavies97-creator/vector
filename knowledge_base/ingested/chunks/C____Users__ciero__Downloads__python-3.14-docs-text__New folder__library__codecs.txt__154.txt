@@ -1,0 +1,4 @@
+if, for example, you use "UTF-32-BE" on a little endian machine you
+will always have to swap bytes on encoding and decoding. Python's
+"UTF-16" and "UTF-32" codecs avoid this problem by using the
+platform's native byte order when no BOM is present. Python follows

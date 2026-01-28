@@ -1,0 +1,4 @@
+the function is passed to an API that requires
+   "iscoroutinefunction()".
+   When possible, using an "async def" function is preferred. Also
+   acceptable is calling the function and testing the return with

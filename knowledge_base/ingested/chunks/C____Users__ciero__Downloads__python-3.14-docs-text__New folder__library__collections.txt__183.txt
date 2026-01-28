@@ -1,0 +1,5 @@
+self.cache.move_to_end(args)
+               timestamp, result = self.cache[args]
+               if time() - timestamp <= self.maxage:
+                   return result
+           result = self.func(*args)

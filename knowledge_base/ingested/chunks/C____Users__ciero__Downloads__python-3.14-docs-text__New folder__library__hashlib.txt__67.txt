@@ -1,0 +1,10 @@
+blake2s.MAX_KEY_SIZE
+Maximum key size.
+blake2b.MAX_DIGEST_SIZE
+blake2s.MAX_DIGEST_SIZE
+Maximum digest size that the hash function can output.
+Examples
+--------
+Simple hashing
+~~~~~~~~~~~~~~
+To calculate hash of some data, you should first construct a hash

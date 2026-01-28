@@ -1,0 +1,4 @@
+the window size logarithm, and automatically accepts either the
+     zlib or gzip format.
+   When decompressing a stream, the window size must not be smaller
+   than the size originally used to compress the stream; using a too-

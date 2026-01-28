@@ -1,0 +1,10 @@
+18
+   >>> pack('@llh', 1, 2, 3) == pack('<qqh', 1, 2, 3)
+   True
+   >>> calcsize('<qqh6x')
+   24
+   >>> calcsize('@llh0l')
+   24
+   >>> pack('@llh0l', 1, 2, 3) == pack('<qqh6x', 1, 2, 3)
+   True
+The above results (executed on a 64-bit machine) aren't guaranteed to

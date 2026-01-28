@@ -1,0 +1,5 @@
+See Annotating generators and coroutines for details on using
+   "collections.abc.Coroutine" and "typing.Coroutine" in type
+   annotations.
+   Added in version 3.5.3.
+   Deprecated since version 3.9: "collections.abc.Coroutine" now

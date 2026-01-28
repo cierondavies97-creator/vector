@@ -1,0 +1,5 @@
+by this function.
+   The mount points return by this function will be absolute paths,
+   and may be longer than the drive name.
+   Raises "OSError" if the volume is not recognized or if an error
+   occurs collecting the paths.

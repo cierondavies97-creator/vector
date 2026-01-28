@@ -1,0 +1,4 @@
+Note:
+     The metaclass hint "metaclass" is consumed by the rest of the
+     type machinery, and is never passed to "__init_subclass__"
+     implementations. The actual metaclass (rather than the explicit

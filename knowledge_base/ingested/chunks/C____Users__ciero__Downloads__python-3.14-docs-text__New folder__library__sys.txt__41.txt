@@ -1,0 +1,4 @@
+function to run, using Python's dotted-import nomenclature, e.g.
+   "package.subpackage.module.function". In this case,
+   "package.subpackage.module" would be imported and the resulting
+   module must have a callable named "function()".  This is run,

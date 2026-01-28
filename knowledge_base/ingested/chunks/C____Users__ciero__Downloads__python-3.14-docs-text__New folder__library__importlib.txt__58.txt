@@ -1,0 +1,4 @@
+class importlib.abc.ResourceLoader
+   *Superseded by TraversableResources*
+      An abstract base class for a *loader* which implements the
+      optional **PEP 302** protocol for loading arbitrary resources

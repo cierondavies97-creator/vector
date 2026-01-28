@@ -1,0 +1,4 @@
+starting Python or by using the new "-X" "utf8" command line
+     option and "PYTHONUTF8" environment variable.  However, for the
+     Windows console, this only applies when
+     "PYTHONLEGACYWINDOWSSTDIO" is also set.

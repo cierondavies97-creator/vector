@@ -1,0 +1,6 @@
+"asyncio.TimeoutError".
+Waiting Primitives
+==================
+async asyncio.wait(aws, *, timeout=None, return_when=ALL_COMPLETED)
+   Run "Future" and "Task" instances in the *aws* iterable
+   concurrently and block until the condition specified by

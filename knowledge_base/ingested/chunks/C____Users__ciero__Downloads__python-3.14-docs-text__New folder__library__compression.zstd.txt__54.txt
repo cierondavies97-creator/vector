@@ -1,0 +1,4 @@
+incrementally.
+   For a more convenient way of decompressing an entire compressed
+   stream at once, see the module-level function "decompress()".
+   The *options* argument is a Python dictionary containing advanced

@@ -1,0 +1,4 @@
+inserts *newChild* at the end of the children's list.
+Node.removeChild(oldChild)
+   Remove a child node.  *oldChild* must be a child of this node; if
+   not, "ValueError" is raised.  *oldChild* is returned on success.

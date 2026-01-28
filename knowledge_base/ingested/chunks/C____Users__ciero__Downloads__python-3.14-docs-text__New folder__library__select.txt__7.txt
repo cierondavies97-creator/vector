@@ -1,0 +1,5 @@
+"devpoll()" may return an incomplete list of active file
+   descriptors.
+   The new file descriptor is non-inheritable.
+   Added in version 3.3.
+   Changed in version 3.4: The new file descriptor is now non-

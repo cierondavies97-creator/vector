@@ -1,0 +1,4 @@
+>>> compat_strict = policy.compat32.clone(raise_on_defect=True)
+   >>> compat_strict_SMTP = compat_SMTP + compat_strict
+This operation is not commutative; that is, the order in which the
+objects are added matters.  To illustrate:

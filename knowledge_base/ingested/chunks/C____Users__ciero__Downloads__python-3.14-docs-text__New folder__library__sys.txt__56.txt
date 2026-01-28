@@ -1,0 +1,5 @@
+Added in version 3.11.
+sys.pycache_prefix
+   If this is set (not "None"), Python will write bytecode-cache
+   ".pyc" files to (and read them from) a parallel directory tree
+   rooted at this directory, rather than from "__pycache__"

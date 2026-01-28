@@ -1,0 +1,8 @@
+"DocTestParser" has the following attributes:
+   tries
+      Number of attempted examples.
+   failures
+      Number of failed examples.
+   skips
+      Number of skipped examples.
+      Added in version 3.13.

@@ -1,0 +1,4 @@
+does not exist in "sys.modules", the loader must create a new module
+  object and add it to "sys.modules".
+* The module *must* exist in "sys.modules" before the loader executes
+  the module code, to prevent unbounded recursion or multiple loading.

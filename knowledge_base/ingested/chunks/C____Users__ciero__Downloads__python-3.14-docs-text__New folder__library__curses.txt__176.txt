@@ -1,0 +1,3 @@
+displayed in the pad is calculated from the screen coordinates,
+   since the rectangles must be the same size.  Both rectangles must
+   be entirely contained within their respective structures.  Negative

@@ -1,0 +1,5 @@
+""int""); the available option types are documented here.
+Option.dest
+   (default: derived from option strings)
+   If the option's action implies writing or modifying a value
+   somewhere, this tells "optparse" where to write it: "dest" names an

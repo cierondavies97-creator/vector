@@ -1,0 +1,6 @@
+Calling "repr()" or "str()" on a generic shows the parameterized type:
+   >>> repr(list[int])
+   'list[int]'
+   >>> str(list[int])
+   'list[int]'
+The "__getitem__()" method of generic containers will raise an

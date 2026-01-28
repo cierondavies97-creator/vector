@@ -1,0 +1,4 @@
+applications. Unlike a normal install, "py" will not be aware of the
+extracted runtime, and no Start menu or other shortcuts will be
+created. To launch the runtime, directly execute the main executable
+(typically "python.exe") in the target directory.

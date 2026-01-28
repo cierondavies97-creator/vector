@@ -1,0 +1,4 @@
+class with asynchronous and synchronous functions will
+   automatically detect the synchronous functions and set them as
+   "MagicMock" (if the parent mock is "AsyncMock" or "MagicMock") or
+   "Mock" (if the parent mock is "Mock"). All asynchronous functions

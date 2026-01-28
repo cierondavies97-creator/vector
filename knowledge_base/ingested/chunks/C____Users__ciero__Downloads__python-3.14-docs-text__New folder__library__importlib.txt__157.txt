@@ -1,0 +1,6 @@
+489**), even if it would otherwise import successfully.
+   Added in version 3.3.
+   Changed in version 3.12: Multi-phase init is now required for use
+   in subinterpreters.
+   name
+      Name of the module the loader supports.

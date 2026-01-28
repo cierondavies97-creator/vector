@@ -1,0 +1,3 @@
+|                           | use "?" (ASCII character). On decoding, use "�" |
+|                           | (U+FFFD, the official REPLACEMENT CHARACTER).   |
+|                           | Implemented in "replace_errors()".              |

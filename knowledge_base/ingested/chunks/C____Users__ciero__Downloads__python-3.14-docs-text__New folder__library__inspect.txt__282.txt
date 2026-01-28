@@ -1,0 +1,5 @@
+coroutine objects created by "async def" functions.
+   Added in version 3.5.
+inspect.getasyncgenlocals(agen)
+   This function is analogous to "getgeneratorlocals()", but works for
+   asynchronous generator objects created by "async def" functions

@@ -1,0 +1,7 @@
+parameters must be declared separately:
+      KT = TypeVar('KT')
+      VT = TypeVar('VT')
+      class Mapping(Generic[KT, VT]):
+          def __getitem__(self, key: KT) -> VT:
+              ...
+              # Etc.

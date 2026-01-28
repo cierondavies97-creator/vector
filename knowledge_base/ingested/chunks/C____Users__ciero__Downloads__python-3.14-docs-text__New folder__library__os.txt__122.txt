@@ -1,0 +1,4 @@
+with *fd* if it is connected to a terminal; else return "None".
+   On Unix, if the Python UTF-8 Mode is enabled, return "'UTF-8'"
+   rather than the device encoding.
+   Changed in version 3.10: On Unix, the function now implements the

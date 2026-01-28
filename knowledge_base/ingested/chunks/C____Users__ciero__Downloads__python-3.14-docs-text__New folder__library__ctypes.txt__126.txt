@@ -1,0 +1,4 @@
+details.
+"ctypes" uses the native byte order for Structures and Unions.  To
+build structures with non-native byte order, you can use one of the
+"BigEndianStructure", "LittleEndianStructure", "BigEndianUnion", and

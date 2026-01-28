@@ -1,0 +1,6 @@
+TLS 1.3
+=======
+Added in version 3.7.
+The TLS 1.3 protocol behaves slightly differently than previous
+version of TLS/SSL. Some new TLS 1.3 features are not yet available.
+* TLS 1.3 uses a disjunct set of cipher suites. All AES-GCM and

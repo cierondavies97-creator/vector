@@ -1,0 +1,6 @@
+res = pool.apply_async(calculate, TASKS[0])
+           while 1:
+               sys.stdout.flush()
+               try:
+                   sys.stdout.write('\n\t%s' % res.get(0.02))
+                   break

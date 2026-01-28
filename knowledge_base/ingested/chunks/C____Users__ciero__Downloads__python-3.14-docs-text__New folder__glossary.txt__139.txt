@@ -1,0 +1,4 @@
+interactive
+   Python has an interactive interpreter which means you can enter
+   statements and expressions at the interpreter prompt, immediately
+   execute them and see their results.  Just launch "python" with no

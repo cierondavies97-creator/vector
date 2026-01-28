@@ -1,0 +1,8 @@
+property, is any keyword arguments (or an empty dictionary).
+      >>> mock = Mock(return_value=None)
+      >>> print(mock.call_args)
+      None
+      >>> mock()
+      >>> mock.call_args
+      call()
+      >>> mock.call_args == ()

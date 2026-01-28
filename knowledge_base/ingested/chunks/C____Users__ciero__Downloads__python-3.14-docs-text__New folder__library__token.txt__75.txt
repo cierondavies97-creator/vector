@@ -1,0 +1,6 @@
+token.EXACT_TOKEN_TYPES
+   A dictionary mapping the string representation of a token to its
+   numeric code.
+   Added in version 3.8.
+Changed in version 3.5: Added "AWAIT" and "ASYNC" tokens.
+Changed in version 3.7: Added "COMMENT", "NL" and "ENCODING" tokens.

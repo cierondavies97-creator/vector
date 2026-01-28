@@ -1,0 +1,4 @@
+due to stack depth limitations in Python's AST compiler.
+   Changed in version 3.2: Allowed use of Windows and Mac newlines.
+   Also, input in "'exec'" mode does not have to end in a newline
+   anymore.  Added the *optimize* parameter.

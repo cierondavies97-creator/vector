@@ -1,0 +1,4 @@
+Parameters:
+         * **op** (*int*) -- A SQLITE_DBCONFIG code.
+         * **enable** (*bool*) -- "True" if the configuration option
+           should be enabled (default); "False" if it should be

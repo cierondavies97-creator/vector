@@ -1,0 +1,4 @@
+The advanced API revolves around two container classes, which are used
+to store the interactive examples extracted from doctest cases:
+* "Example": A single Python *statement*, paired with its expected
+  output.

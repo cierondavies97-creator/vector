@@ -1,0 +1,4 @@
+be created in the "__init__()" method and not to exist on the class at
+all. *autospec* can't know about any dynamically created attributes
+and restricts the api to visible attributes.
+   >>> class Something:

@@ -1,0 +1,3 @@
+Save the current terminal mode as the "shell" mode, the mode when
+   the running program is not using curses.  (Its counterpart is the
+   "program" mode, when the program is using curses capabilities.)

@@ -1,0 +1,5 @@
+Address("Fabrette Pussycat", "fabrette", "example.com"))
+   msg.set_content("""\
+   Salut!
+   Cette recette [1] sera sûrement un très bon repas.
+   [1] http://www.yummly.com/recipe/Roasted-Asparagus-Epicurious-203718

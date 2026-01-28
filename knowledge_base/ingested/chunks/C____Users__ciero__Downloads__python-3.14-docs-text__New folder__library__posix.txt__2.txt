@@ -1,0 +1,3 @@
+the "os" module provides a superset of the "posix" interface.  On non-
+Unix operating systems the "posix" module is not available, but a
+subset is always available through the "os" interface.  Once "os" is

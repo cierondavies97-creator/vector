@@ -1,0 +1,4 @@
+Changed in version 3.7: Added support of splitting on a pattern
+   that could match an empty string.
+   Deprecated since version 3.13: Passing *maxsplit* and *flags* as
+   positional arguments is deprecated. In future Python versions they

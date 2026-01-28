@@ -1,0 +1,5 @@
+Availability: Unix, not WASI, not Android, not iOS.
+os.WEXITED
+   This *options* flag for "waitid()" causes child processes that have
+   terminated to be reported.
+   The other "wait*" functions always report children that have

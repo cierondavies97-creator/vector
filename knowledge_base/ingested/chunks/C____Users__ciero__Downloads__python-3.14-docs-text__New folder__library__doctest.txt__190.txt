@@ -1,0 +1,5 @@
+DocTest Objects
+---------------
+class doctest.DocTest(examples, globs, name, filename, lineno, docstring)
+   A collection of doctest examples that should be run in a single
+   namespace.  The constructor arguments are used to initialize the

@@ -1,0 +1,5 @@
+Field *descriptor*s can be retrieved from the *class*, they are useful
+for debugging because they can provide useful information. See
+"CField":
+   >>> POINT.x
+   <ctypes.CField 'x' type=c_int, ofs=0, size=4>

@@ -1,0 +1,4 @@
+Changed in version 3.2: The *compress_type* argument.
+   Changed in version 3.6: Calling "writestr()" on a ZipFile created
+   with mode "'r'" or a closed ZipFile will raise a "ValueError".
+   Previously, a "RuntimeError" was raised.

@@ -1,0 +1,5 @@
+from "BufferedIOBase" and "IOBase":
+   getbuffer()
+      Return a readable and writable view over the contents of the
+      buffer without copying them.  Also, mutating the view will
+      transparently update the contents of the buffer:

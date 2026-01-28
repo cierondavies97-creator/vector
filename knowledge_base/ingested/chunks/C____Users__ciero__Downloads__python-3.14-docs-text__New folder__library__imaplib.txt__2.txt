@@ -1,0 +1,4 @@
+servers, but note that the "STATUS" command is not supported in IMAP4.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.

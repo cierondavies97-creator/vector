@@ -1,0 +1,6 @@
+proxy, which becomes the "__dict__" attribute of the class object.
+See also:
+  **PEP 3135** - New super
+     Describes the implicit "__class__" closure reference
+3.3.3.7. Uses for metaclasses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

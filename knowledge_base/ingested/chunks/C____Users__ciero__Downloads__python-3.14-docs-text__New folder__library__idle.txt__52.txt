@@ -1,0 +1,5 @@
+Same as in Debug menu.
+The Shell window also has an output squeezing facility explained in
+the *Python Shell window* subsection below.
+Squeeze
+   If the cursor is over an output line, squeeze all the output

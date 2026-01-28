@@ -1,0 +1,6 @@
+_flush()
+      Force buffered data to be transmitted to the client.  It's okay
+      if this method is a no-op (i.e., if "_write()" actually sends
+      the data).
+   get_stdin()
+      Return an object compatible with "InputStream" suitable for use

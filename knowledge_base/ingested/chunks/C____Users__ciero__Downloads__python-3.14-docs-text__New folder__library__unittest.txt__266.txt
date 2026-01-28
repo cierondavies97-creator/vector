@@ -1,0 +1,5 @@
+self._async_connection = await AsyncConnection()
+              events.append("asyncSetUp")
+          async def test_response(self):
+              events.append("test_response")
+              response = await self._async_connection.get("https://example.com")

@@ -1,0 +1,5 @@
+permission to write the byte-code cache files in the directory
+containing the source code.
+exception py_compile.PyCompileError
+   Exception raised when an error occurs while attempting to compile
+   the file.

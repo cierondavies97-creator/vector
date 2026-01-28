@@ -1,0 +1,6 @@
+the correct quadrant for the angle. For example, "atan(1)" and
+   "atan2(1, 1)" are both "pi/4", but "atan2(-1, -1)" is "-3*pi/4".
+math.cos(x)
+   Return the cosine of *x* radians.
+math.sin(x)
+   Return the sine of *x* radians.

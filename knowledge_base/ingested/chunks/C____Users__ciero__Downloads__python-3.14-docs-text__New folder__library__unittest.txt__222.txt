@@ -1,0 +1,5 @@
+method is used by default when comparing strings with
+      "assertEqual()".
+      Added in version 3.1.
+   assertSequenceEqual(first, second, msg=None, seq_type=None)
+      Tests that two sequences are equal.  If a *seq_type* is

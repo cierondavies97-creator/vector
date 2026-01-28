@@ -1,0 +1,6 @@
+captured = input()
+      self.assertEqual(captured, "hello")
+test.support.disable_faulthandler()
+   A context manager that temporary disables "faulthandler".
+test.support.gc_collect()
+   Force as many objects as possible to be collected.  This is needed

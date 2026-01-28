@@ -1,0 +1,6 @@
+set.pop()
+   Remove and return an arbitrary element from the set.  Raises
+   "KeyError" if the set is empty.
+set.clear()
+   Remove all elements from the set.
+Note, the non-operator versions of the "update()",

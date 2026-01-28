@@ -1,0 +1,3 @@
+"staticmethod" object, it is transformed into the object wrapped by
+the static method object. See section Implementing Descriptors for
+another way in which attributes retrieved from a class may differ from

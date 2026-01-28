@@ -1,0 +1,4 @@
+from the heap and replaces it with *item*.
+   The value returned may be larger than the *item* added.  If that
+   isn't desired, consider using "heappushpop()" instead.  Its
+   push/pop combination returns the smaller of the two values, leaving

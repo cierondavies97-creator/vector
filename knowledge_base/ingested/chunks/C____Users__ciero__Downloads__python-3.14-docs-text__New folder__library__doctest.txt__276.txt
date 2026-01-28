@@ -1,0 +1,4 @@
+of most interest to testing framework authors, and will only be
+sketched here.  See the source code, and especially "DebugRunner"'s
+docstring (which is a doctest!) for more details:
+class doctest.DebugRunner(checker=None, verbose=None, optionflags=0)

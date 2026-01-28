@@ -1,0 +1,4 @@
+highlight when using the "next" hyperlinks (setting to zero
+      would cause the "next" hyperlinks to place the next difference
+      highlight at the top of the browser without any leading
+      context).

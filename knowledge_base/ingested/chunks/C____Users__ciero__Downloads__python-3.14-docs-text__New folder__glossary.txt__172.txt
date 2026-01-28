@@ -1,0 +1,5 @@
+On Windows, it is the ANSI code page (ex: ""cp1252"").
+   On Android and VxWorks, Python uses ""utf-8"" as the locale
+   encoding.
+   "locale.getencoding()" can be used to get the locale encoding.
+   See also the *filesystem encoding and error handler*.

@@ -1,0 +1,4 @@
+bytes (e.g. when only verification is done), or they could be
+   completely different (perhaps if decryption were performed).
+   To send a configuration to the socket, read in the configuration
+   file and send it to the socket as a sequence of bytes preceded by a

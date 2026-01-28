@@ -1,0 +1,5 @@
+statement
+   A statement is part of a suite (a "block" of code).  A statement is
+   either an *expression* or one of several constructs with a keyword,
+   such as "if", "while" or "for".
+static type checker

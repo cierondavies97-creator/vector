@@ -1,0 +1,5 @@
+possibly via a different name, and possibly indirectly.
+xml.parsers.expat.errors.XML_ERROR_SYNTAX
+   Some unspecified syntax error was encountered.
+xml.parsers.expat.errors.XML_ERROR_TAG_MISMATCH
+   An end tag did not match the innermost open start tag.

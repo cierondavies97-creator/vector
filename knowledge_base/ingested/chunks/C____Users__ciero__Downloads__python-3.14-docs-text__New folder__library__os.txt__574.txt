@@ -1,0 +1,6 @@
+attribute already exists, the attribute will not be created and
+   "EEXISTS" will be raised.
+   This function can support specifying a file descriptor and not
+   following symlinks.
+   Note:
+     A bug in Linux kernel versions less than 2.6.39 caused the flags

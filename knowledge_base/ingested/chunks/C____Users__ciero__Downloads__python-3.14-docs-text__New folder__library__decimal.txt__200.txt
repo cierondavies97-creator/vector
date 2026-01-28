@@ -1,0 +1,7 @@
+divmod(x, y, /)
+      Divides two numbers and returns the integer part of the result.
+   exp(x, /)
+      Returns "e ** x".
+   fma(x, y, z, /)
+      Returns *x* multiplied by *y*, plus *z*.
+   is_canonical(x, /)

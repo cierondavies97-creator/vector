@@ -1,0 +1,4 @@
+eventually specify for "__package__".
+**PEP 338** defines executing modules as scripts.
+**PEP 451** adds the encapsulation of per-module import state in spec
+objects.  It also off-loads most of the boilerplate responsibilities

@@ -1,0 +1,3 @@
+If both are naive, or both are aware and have the same "tzinfo"
+   attribute, the "tzinfo" attributes are ignored, and the result is a
+   "timedelta" object "t" such that "datetime2 + t == datetime1". No

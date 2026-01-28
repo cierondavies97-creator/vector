@@ -1,0 +1,6 @@
+the right thing and collect all the module's test cases for you and
+execute them.
+However, should you want to customize the building of your test suite,
+you can do it yourself:
+   def suite():
+       suite = unittest.TestSuite()

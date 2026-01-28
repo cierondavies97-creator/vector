@@ -1,0 +1,4 @@
+The "linecache" module defines the following functions:
+linecache.getline(filename, lineno, module_globals=None)
+   Get line *lineno* from file named *filename*. This function will
+   never raise an exception --- it will return "''" on errors (the

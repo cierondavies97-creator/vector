@@ -1,0 +1,5 @@
+"LOCALE" flag is used, matches characters considered
+      alphanumeric in the current locale and the underscore.
+"\W"
+   Matches any character which is not a word character. This is the
+   opposite of "\w". By default, matches non-underscore ("_")

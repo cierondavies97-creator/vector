@@ -1,0 +1,4 @@
+sub-components, which provide tools for doing more detailed
+manipulation of headers and payloads, respectively.  Both of these
+components contain features relevant to consuming and producing non-
+trivial messages, but also document their extensibility APIs, which

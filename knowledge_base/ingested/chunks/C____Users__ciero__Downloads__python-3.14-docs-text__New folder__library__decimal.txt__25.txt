@@ -1,0 +1,7 @@
+>>> Decimal(2) ** Decimal('0.5')
+   Decimal('1.414213562373095048801688724')
+   >>> Decimal('NaN')
+   Decimal('NaN')
+   >>> Decimal('-Infinity')
+   Decimal('-Infinity')
+If the "FloatOperation" signal is trapped, accidental mixing of

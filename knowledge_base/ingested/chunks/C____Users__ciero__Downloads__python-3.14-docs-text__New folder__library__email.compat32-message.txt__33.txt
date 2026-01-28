@@ -1,0 +1,5 @@
+"make" and "add" methods.
+   get_payload(i=None, decode=False)
+      Return the current payload, which will be a list of "Message"
+      objects when "is_multipart()" is "True", or a string when
+      "is_multipart()" is "False".  If the payload is a list and you

@@ -1,0 +1,3 @@
+envelope ('To' and 'From' addresses), and the message to be delivered.
+Note that the headers to be included with the message must be included
+in the message as entered; this example doesn't do any processing of

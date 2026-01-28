@@ -1,0 +1,5 @@
+item should have the format described in Layouts.
+      To understand the format, see the following example (it is not
+      intended to do anything useful):
+         from tkinter import ttk
+         import tkinter

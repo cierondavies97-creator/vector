@@ -1,0 +1,5 @@
+# Run some blocking IO
+          pathlib.Path("example.txt").write_text("hello world", encoding="utf8")
+          # Create a coroutine
+          coro = asyncio.sleep(1, result=3)
+          # Submit the coroutine to a given loop

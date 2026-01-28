@@ -1,0 +1,3 @@
+treated as a static string or an interpolation. If you want to
+      concatenate a "Template" with a string, you should either wrap
+      the string directly in a "Template" (to treat it as a static

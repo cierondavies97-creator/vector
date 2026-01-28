@@ -1,0 +1,6 @@
+"__repr__()" is an alias for "__str__()".
+   __eq__(other)
+      This method allows you to compare two "Charset" instances for
+      equality.
+   __ne__(other)
+      This method allows you to compare two "Charset" instances for

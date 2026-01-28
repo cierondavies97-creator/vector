@@ -1,0 +1,3 @@
+"next_expiration" denotes the relative time until next the timer
+   next fires, regardless of if the "TFD_TIMER_ABSTIME" flag is set.
+   "interval" denotes the timer's interval. If zero, the timer will

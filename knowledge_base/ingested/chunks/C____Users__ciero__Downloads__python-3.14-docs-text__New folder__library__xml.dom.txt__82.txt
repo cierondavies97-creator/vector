@@ -1,0 +1,4 @@
+A "Document" represents an entire XML document, including its
+constituent elements, attributes, processing instructions, comments
+etc.  Remember that it inherits properties from "Node".
+Document.documentElement

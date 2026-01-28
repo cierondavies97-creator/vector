@@ -1,0 +1,4 @@
+casing rules: typically, case-sensitive on POSIX, and case-
+   insensitive on Windows. Set *case_sensitive* to "True" or "False"
+   to override this behaviour.
+   By default, or when the *recurse_symlinks* keyword-only argument is

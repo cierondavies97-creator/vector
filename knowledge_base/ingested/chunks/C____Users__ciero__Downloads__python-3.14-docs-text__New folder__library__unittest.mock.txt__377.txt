@@ -1,0 +1,5 @@
+The spec also applies to instantiated classes (i.e. the return value
+of specced mocks):
+   >>> req = request.Request('foo')
+   >>> req
+   <NonCallableMagicMock name='request.Request()' spec='Request' id='...'>

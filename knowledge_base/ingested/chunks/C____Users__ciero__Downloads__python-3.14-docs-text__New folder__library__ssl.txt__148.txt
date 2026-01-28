@@ -1,0 +1,4 @@
+can also cause read operations.
+   Changed in version 3.5: The socket timeout is no longer reset each
+   time bytes are received or sent. The socket timeout is now the
+   maximum total duration to write *data*.

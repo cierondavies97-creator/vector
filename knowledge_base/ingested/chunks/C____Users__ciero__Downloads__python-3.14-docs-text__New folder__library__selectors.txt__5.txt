@@ -1,0 +1,7 @@
+fifos or special file devices).
+See also:
+  "select"
+     Low-level I/O multiplexing module.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.

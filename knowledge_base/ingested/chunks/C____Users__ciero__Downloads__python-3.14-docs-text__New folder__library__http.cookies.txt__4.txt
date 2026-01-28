@@ -1,0 +1,5 @@
+module in a cookie name (as "key").
+Changed in version 3.3: Allowed ':' as a valid cookie name character.
+Note:
+  On encountering an invalid cookie, "CookieError" is raised, so if
+  your cookie data comes from a browser you should always prepare for

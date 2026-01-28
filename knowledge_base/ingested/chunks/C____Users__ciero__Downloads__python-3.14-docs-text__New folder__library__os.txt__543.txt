@@ -1,0 +1,4 @@
+* "TFD_CLOEXEC"
+   If "TFD_NONBLOCK" is not set as a flag, "read()" blocks until the
+   timer expires. If it is set as a flag, "read()" doesn't block, but
+   If there hasn't been an expiration since the last call to read,

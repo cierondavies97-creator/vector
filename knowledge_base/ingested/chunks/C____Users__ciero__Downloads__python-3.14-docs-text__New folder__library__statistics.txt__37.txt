@@ -1,0 +1,4 @@
+Raises a "StatisticsError" if the input dataset is empty, if it
+   contains a zero, or if it contains a negative value. The *data* may
+   be a sequence or iterable.
+   No special efforts are made to achieve exact results. (However,

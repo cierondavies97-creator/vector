@@ -1,0 +1,6 @@
+been deleted, a "ValueError" is raised.
+      Added in version 3.2.
+   get_break(filename, lineno)
+      Return "True" if there is a breakpoint for *lineno* in
+      *filename*.
+   get_breaks(filename, lineno)

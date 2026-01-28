@@ -1,0 +1,4 @@
+In this example, the string "'writing a log message'" is marked as a
+candidate for translation, while the strings "'mylog.txt'" and "'w'"
+are not.
+There are a few tools to extract the strings meant for translation.

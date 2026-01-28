@@ -1,0 +1,4 @@
+subclass directly from "str"; however, this class can be easier to
+work with because the underlying string is accessible as an attribute.
+class collections.UserString(seq)
+   Class that simulates a string object.  The instance's content is

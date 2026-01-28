@@ -1,0 +1,5 @@
+caches.
+   Added in version 3.4.
+   Changed in version 3.11: Field "positions" is added.
+   Changed in version 3.13: Changed field "starts_line".Added fields
+   "start_offset", "cache_offset", "end_offset", "baseopname",

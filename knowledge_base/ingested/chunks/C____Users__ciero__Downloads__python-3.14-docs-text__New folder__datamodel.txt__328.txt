@@ -1,0 +1,4 @@
+Except where mentioned, attempts to execute an operation raise an
+exception when no appropriate method is defined (typically
+"AttributeError" or "TypeError").
+Setting a special method to "None" indicates that the corresponding

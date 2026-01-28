@@ -1,0 +1,4 @@
+Changed in version 3.12: Many restrictions on expressions within
+f-strings have been removed. Notably, nested strings, comments, and
+backslashes are now permitted.
+An *f-string* (formally a *formatted string literal*) is a string

@@ -1,0 +1,4 @@
+the Darwin or Linux kernel version, use "os.uname()".
+platform.uname()
+   Fairly portable uname interface. Returns a "namedtuple()"
+   containing six attributes: "system", "node", "release", "version",

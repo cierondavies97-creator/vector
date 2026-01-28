@@ -1,0 +1,8 @@
+winsound.MB_ICONEXCLAMATION
+   Play the "SystemExclamation" sound.
+winsound.MB_ICONHAND
+   Play the "SystemHand" sound.
+winsound.MB_ICONQUESTION
+   Play the "SystemQuestion" sound.
+winsound.MB_OK
+   Play the "SystemDefault" sound.

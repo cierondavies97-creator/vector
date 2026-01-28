@@ -1,0 +1,4 @@
+formatday(theday, weekday, width)
+      Return a string representing a single day formatted with the
+      given *width*. If *theday* is "0", return a string of spaces of
+      the specified width, representing an empty day. The *weekday*

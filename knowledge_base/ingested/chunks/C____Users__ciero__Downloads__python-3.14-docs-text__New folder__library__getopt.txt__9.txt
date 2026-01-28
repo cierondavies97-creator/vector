@@ -1,0 +1,4 @@
+way non-GNU Unix systems work.
+   *longopts*, if specified, must be a list of strings with the names
+   of the long options which should be supported.  The leading "'--'"
+   characters should not be included in the option name.  Long options

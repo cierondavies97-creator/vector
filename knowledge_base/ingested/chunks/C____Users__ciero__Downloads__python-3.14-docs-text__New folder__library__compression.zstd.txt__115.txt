@@ -1,0 +1,5 @@
+for collision resolution. Larger values improve collision
+      resolution but decrease compression speed.
+      A value of zero causes the value to be selected automatically.
+   ldm_hash_rate_log
+      Frequency of inserting/looking up entries into the long distance

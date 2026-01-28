@@ -1,0 +1,4 @@
+be patched (either as an object or a string to fetch the object by
+   importing) and keyword arguments for the patches:
+      with patch.multiple(settings, FIRST_PATCH='one', SECOND_PATCH='two'):
+          ...

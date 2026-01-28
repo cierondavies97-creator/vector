@@ -1,0 +1,6 @@
+be added to the list of functions bound to this event type.
+For example:
+   def turn_red(self, event):
+       event.widget["activeforeground"] = "red"
+   self.button.bind("<Enter>", self.turn_red)
+Notice how the widget field of the event is being accessed in the

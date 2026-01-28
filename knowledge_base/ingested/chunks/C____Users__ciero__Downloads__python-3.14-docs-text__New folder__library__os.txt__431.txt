@@ -1,0 +1,3 @@
+precision.  On systems that do provide nanosecond precision, the
+     floating-point object used to store "st_atime", "st_mtime",
+     "st_ctime" and "st_birthtime" cannot preserve all of it, and as

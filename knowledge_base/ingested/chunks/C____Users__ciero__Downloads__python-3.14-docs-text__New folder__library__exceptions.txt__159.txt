@@ -1,0 +1,7 @@
+│    └── RecursionError
+         ├── StopAsyncIteration
+         ├── StopIteration
+         ├── SyntaxError
+         │    └── IndentationError
+         │         └── TabError
+         ├── SystemError

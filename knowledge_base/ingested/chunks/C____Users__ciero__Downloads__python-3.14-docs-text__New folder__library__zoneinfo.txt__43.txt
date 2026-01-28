@@ -1,0 +1,4 @@
+those with a value for "key" specified) cannot be pickled.
+The behavior of a "ZoneInfo" file depends on how it was constructed:
+1. "ZoneInfo(key)": When constructed with the primary constructor, a
+   "ZoneInfo" object is serialized by key, and when deserialized, the

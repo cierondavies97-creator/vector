@@ -1,0 +1,6 @@
+assign a new value to it, or to delete it. Variable references are
+   given a context to distinguish these cases.
+      >>> print(ast.dump(ast.parse('a'), indent=4))
+      Module(
+          body=[
+              Expr(

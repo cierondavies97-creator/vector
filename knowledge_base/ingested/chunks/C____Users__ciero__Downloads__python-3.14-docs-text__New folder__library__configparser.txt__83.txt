@@ -1,0 +1,3 @@
+*inline_comment_prefixes* can be used after every valid value (e.g.
+  section names, options and empty lines as well).  By default inline
+  comments are disabled and "'#'" and "';'" are used as prefixes for

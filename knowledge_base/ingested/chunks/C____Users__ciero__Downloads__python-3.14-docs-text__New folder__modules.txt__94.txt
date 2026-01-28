@@ -1,0 +1,4 @@
+*" does *not* import all submodules from the package "sound.effects"
+into the current namespace; it only ensures that the package
+"sound.effects" has been imported (possibly running any initialization
+code in "__init__.py") and then imports whatever names are defined in

@@ -1,0 +1,4 @@
+example, the format string "'4h'" means exactly the same as "'hhhh'".
+Whitespace characters between formats are ignored; a count and its
+format must not contain whitespace though.
+When packing a value "x" using one of the integer formats ("'b'",

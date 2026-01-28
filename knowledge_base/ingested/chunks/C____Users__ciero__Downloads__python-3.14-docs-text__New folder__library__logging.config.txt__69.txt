@@ -1,0 +1,4 @@
+------------------
+The schema describes a set of logging objects - loggers, handlers,
+formatters, filters - which are connected to each other in an object
+graph.  Thus, the schema needs to represent connections between the

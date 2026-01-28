@@ -1,0 +1,4 @@
+"string.templatelib" --- Support for template string literals
+*************************************************************
+**Source code:** Lib/string/templatelib.py
+======================================================================

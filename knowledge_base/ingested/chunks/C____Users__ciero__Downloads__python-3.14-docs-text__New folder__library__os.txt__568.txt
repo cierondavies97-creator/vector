@@ -1,0 +1,4 @@
+attributes in the list are represented as strings decoded with the
+   filesystem encoding.  If *path* is "None", "listxattr()" will
+   examine the current directory.
+   This function can support specifying a file descriptor and not

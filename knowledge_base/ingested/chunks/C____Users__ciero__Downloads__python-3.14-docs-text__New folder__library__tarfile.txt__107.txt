@@ -1,0 +1,4 @@
+disallows some dangerous features such as links to absolute paths
+   or paths outside of the destination. Previously, the default was
+   equivalent to "fully_trusted".
+TarFile.add(name, arcname=None, recursive=True, *, filter=None)

@@ -1,0 +1,5 @@
+start = start.replace(tzinfo=self)
+           end = end.replace(tzinfo=self)
+           std_time = dt + self.stdoffset
+           dst_time = std_time + HOUR
+           if end <= dst_time < end + HOUR:

@@ -1,0 +1,4 @@
+binding behavior is triggered upon attribute lookup.  Normally,
+   using *a.b* to get, set or delete an attribute looks up the object
+   named *b* in the class dictionary for *a*, but if *b* is a
+   descriptor, the respective descriptor method gets called.

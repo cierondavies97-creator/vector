@@ -1,0 +1,4 @@
+introspect the specification object's signature when matching calls to
+the mock.  Therefore, it can match the actual call's arguments
+regardless of whether they were passed positionally or by name:
+   >>> def f(a, b, c): pass

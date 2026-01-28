@@ -1,0 +1,4 @@
+that knowing this is not sufficient to be able to parse or
+   concatenate pathnames --- use "os.path.split()" and
+   "os.path.join()" --- but it is occasionally useful. Also available
+   via "os.path".

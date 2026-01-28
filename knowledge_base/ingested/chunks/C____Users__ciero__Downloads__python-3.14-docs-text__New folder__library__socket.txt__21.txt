@@ -1,0 +1,4 @@
+* "CAN_J1939" protocol require a tuple "(interface, name, pgn,
+    addr)" where additional parameters are 64-bit unsigned integer
+    representing the ECU name, a 32-bit unsigned integer representing
+    the Parameter Group Number (PGN), and an 8-bit integer

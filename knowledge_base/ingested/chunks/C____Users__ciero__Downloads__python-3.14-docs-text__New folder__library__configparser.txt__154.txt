@@ -1,0 +1,3 @@
+"read_dict()", providing consistent behavior across the parser:
+   non-string keys and values are implicitly converted to strings.
+   Changed in version 3.8: The default *dict_type* is "dict", since it

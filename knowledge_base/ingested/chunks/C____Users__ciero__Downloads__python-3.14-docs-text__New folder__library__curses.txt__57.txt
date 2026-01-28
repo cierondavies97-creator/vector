@@ -1,0 +1,6 @@
+mouse event mask.  If this function is never called, no mouse
+   events are ever reported.
+curses.napms(ms)
+   Sleep for *ms* milliseconds.
+curses.newpad(nlines, ncols)
+   Create and return a pointer to a new pad data structure with the

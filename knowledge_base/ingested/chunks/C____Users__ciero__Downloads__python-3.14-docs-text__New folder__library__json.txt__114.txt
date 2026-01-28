@@ -1,0 +1,6 @@
+implements this interface.
+If the optional "infile" and "outfile" arguments are not specified,
+"sys.stdin" and "sys.stdout" will be used respectively:
+   $ echo '{"json": "obj"}' | python -m json
+   {
+       "json": "obj"

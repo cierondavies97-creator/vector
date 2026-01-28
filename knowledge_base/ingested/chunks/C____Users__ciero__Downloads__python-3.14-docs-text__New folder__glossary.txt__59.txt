@@ -1,0 +1,4 @@
+A variable whose value depends on which context is the *current
+   context*.  Values are accessed via "contextvars.ContextVar"
+   objects.  Context variables are primarily used to isolate state
+   between concurrent asynchronous tasks.

@@ -1,0 +1,4 @@
+"192.0.0.9/32" and "192.0.0.10/32" (previously: only the
+        "192.0.0.0/29" sub-range was considered private).
+      * "64:ff9b:1::/48" is considered private.
+      * "2002::/16" is considered private.

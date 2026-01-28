@@ -1,0 +1,6 @@
+of the message that currently corresponds to *key* is left
+      unchanged.
+   iterkeys()
+      Return an *iterator* over all keys
+   keys()
+      The same as "iterkeys()", except that a "list" is returned

@@ -1,0 +1,4 @@
+sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)
+An alternative way of importing the submodule is:
+   from sound.effects import echo
+This also loads the submodule "echo", and makes it available without

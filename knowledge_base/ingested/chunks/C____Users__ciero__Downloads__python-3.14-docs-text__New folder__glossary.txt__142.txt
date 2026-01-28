@@ -1,0 +1,4 @@
+directly without explicitly creating an executable which is then
+   run. Interpreted languages typically have a shorter
+   development/debug cycle than compiled ones, though their programs
+   generally also run more slowly.  See also *interactive*.

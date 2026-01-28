@@ -1,0 +1,5 @@
+Using this function to disable the check can lead to unexpected
+     behavior and even crashes.  It should only be used during
+     extension module development.
+   Added in version 3.12.
+class importlib.util.LazyLoader(loader)

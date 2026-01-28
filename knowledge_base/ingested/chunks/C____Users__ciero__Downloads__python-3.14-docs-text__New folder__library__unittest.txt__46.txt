@@ -1,0 +1,3 @@
+directory then discover assumes that whichever location it imports
+  from is the location you intended, so you will not get the warning.
+Test modules and packages can customize test loading and discovery by

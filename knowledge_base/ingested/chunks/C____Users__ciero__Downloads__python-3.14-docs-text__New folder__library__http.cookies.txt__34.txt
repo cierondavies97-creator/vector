@@ -1,0 +1,5 @@
+Cookie: rocky=road; Path=/cookie
+   >>> print(C.output(attrs=[], header="Cookie:"))
+   Cookie: rocky=road
+   >>> C = cookies.SimpleCookie()
+   >>> C.load("chips=ahoy; vienna=finger") # load from a string (HTTP header)

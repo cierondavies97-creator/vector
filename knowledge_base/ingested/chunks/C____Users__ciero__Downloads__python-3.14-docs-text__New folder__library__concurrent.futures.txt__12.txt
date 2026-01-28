@@ -1,0 +1,3 @@
+by setting *chunksize* to a positive integer.  For very long
+      iterables, using a large value for *chunksize* can significantly
+      improve performance compared to the default size of 1.  With

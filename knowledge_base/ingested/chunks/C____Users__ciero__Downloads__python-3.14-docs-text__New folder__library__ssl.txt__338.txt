@@ -1,0 +1,6 @@
+-----BEGIN CERTIFICATE-----
+   ... (certificate in base64 PEM encoding) ...
+   -----END CERTIFICATE-----
+Self-signed certificates
+------------------------
+If you are going to create a server that provides SSL-encrypted

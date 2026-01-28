@@ -1,0 +1,5 @@
+parentheses:
+   parenth_form: "(" [starred_expression] ")"
+A parenthesized expression list yields whatever that expression list
+yields: if the list contains at least one comma, it yields a tuple;
+otherwise, it yields the single expression that makes up the

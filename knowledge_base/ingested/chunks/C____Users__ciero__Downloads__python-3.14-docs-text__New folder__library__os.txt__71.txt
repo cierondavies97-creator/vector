@@ -1,0 +1,5 @@
+Added in version 3.2.
+os.putenv(key, value, /)
+   Set the environment variable named *key* to the string *value*.
+   Such changes to the environment affect subprocesses started with
+   "os.system()", "popen()" or "fork()" and "execv()".

@@ -1,0 +1,4 @@
+where the package's submodules will be found. Non-package modules
+   should not have a "__path__" attribute. See __path__ attributes on
+   modules for more details.
+   It is **strongly** recommended that you use

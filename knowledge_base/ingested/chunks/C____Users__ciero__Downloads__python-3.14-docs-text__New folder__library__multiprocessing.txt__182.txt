@@ -1,0 +1,4 @@
+process. (By default "sys.executable" is used).  Embedders will
+   probably need to do some thing like
+      set_executable(os.path.join(sys.exec_prefix, 'pythonw.exe'))
+   before they can create child processes.

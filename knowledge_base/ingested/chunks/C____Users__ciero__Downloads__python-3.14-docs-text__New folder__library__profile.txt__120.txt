@@ -1,0 +1,4 @@
+timer function that you choose (see Calibration).  For most
+   machines, a timer that returns a lone integer value will provide
+   the best results in terms of low overhead during profiling.
+   ("os.times()" is *pretty* bad, as it returns a tuple of floating-

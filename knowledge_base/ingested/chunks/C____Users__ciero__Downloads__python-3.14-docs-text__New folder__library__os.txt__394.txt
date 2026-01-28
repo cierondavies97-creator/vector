@@ -1,0 +1,4 @@
+This method can raise "OSError", such as "PermissionError", but
+      "FileNotFoundError" is caught and not raised.
+   is_file(*, follow_symlinks=True)
+      Return "True" if this entry is a file or a symbolic link

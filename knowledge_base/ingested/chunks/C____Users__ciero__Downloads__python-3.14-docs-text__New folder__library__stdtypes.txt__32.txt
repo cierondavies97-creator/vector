@@ -1,0 +1,3 @@
+(for priorities of the operations, see Operator precedence):
++-----------------------+-----------------------------------+-----------+----------------------+
+| Operation             | Result                            | Notes     | Full documentation   |

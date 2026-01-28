@@ -1,0 +1,5 @@
+end of the mapping. The file position is updated to point after
+      the bytes that were returned.
+      Changed in version 3.3: Argument can be omitted or "None".
+   read_byte()
+      Returns a byte at the current file position as an integer, and

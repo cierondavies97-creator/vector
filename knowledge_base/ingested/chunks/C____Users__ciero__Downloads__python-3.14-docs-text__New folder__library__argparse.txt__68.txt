@@ -1,0 +1,4 @@
+to specify a single parser-wide default for arguments.  This can be
+accomplished by passing the "argument_default=" keyword argument to
+"ArgumentParser".  For example, to globally suppress attribute
+creation on "parse_args()" calls, we supply

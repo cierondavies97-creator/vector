@@ -1,0 +1,4 @@
+symlinks) would end up outside the destination. This raises
+     "OutsideDestinationError".
+   * Clear high mode bits (setuid, setgid, sticky) and group/other
+     write bits ("S_IWGRP" | "S_IWOTH").

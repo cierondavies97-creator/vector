@@ -1,0 +1,6 @@
+string) tuples. "OSError" if the system call fails.
+   Availability: Unix, Windows, not WASI.
+   Added in version 3.3.
+   Changed in version 3.8: Windows support was added.
+   Note:
+     On Windows network interfaces have different names in different

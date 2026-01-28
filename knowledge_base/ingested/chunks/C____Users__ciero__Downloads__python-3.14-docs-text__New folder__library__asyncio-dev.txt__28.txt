@@ -1,0 +1,6 @@
+source_traceback: Object created at (most recent call last):
+     File "../t.py", line 9, in <module>
+       asyncio.run(main(), debug=True)
+   < .. >
+   Traceback (most recent call last):
+     File "../t.py", line 4, in bug

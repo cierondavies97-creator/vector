@@ -1,0 +1,6 @@
+Raises a "ValueError" if called more times than there were items
+      placed in the queue.
+   join()
+      Block until all items in the queue have been gotten and
+      processed.
+      The count of unfinished tasks goes up whenever an item is added

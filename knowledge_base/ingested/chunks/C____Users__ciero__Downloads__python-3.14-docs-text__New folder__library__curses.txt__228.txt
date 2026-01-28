@@ -1,0 +1,3 @@
+| curses.KEY_CTAB           | Clear tab                                    |
++---------------------------+----------------------------------------------+
+| curses.KEY_CATAB          | Clear all tabs                               |

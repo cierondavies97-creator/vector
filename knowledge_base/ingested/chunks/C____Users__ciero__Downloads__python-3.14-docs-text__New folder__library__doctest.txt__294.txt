@@ -1,0 +1,4 @@
+test the files using "testfile()" or "DocFileSuite()".  This is
+  recommended, although is easiest to do for new projects, designed
+  from the start to use doctest.
+* Define functions named "_regrtest_topic" that consist of single

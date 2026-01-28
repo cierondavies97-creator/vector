@@ -1,0 +1,4 @@
+structures, one representing the current physical screen contents
+   and a virtual screen representing the desired next state.  The
+   "doupdate()" ground updates the physical screen to match the
+   virtual screen.

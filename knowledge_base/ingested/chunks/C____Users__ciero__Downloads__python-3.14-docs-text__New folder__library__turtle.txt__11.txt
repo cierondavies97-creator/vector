@@ -1,0 +1,6 @@
+"right()".
+Pen control
+~~~~~~~~~~~
+Try changing the color - for example, "color('blue')" - and width of
+the line - for example, "width(3)" - and then drawing again.
+You can also move the turtle around without drawing, by lifting up the

@@ -1,0 +1,5 @@
+g.flatten(msg)
+         text = fp.getvalue()
+      If the message object contains binary data that is not encoded
+      according to RFC standards, the non-compliant data will be
+      replaced by unicode "unknown character" code points.  (See also

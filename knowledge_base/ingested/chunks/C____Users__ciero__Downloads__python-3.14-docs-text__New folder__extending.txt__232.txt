@@ -1,0 +1,4 @@
+/* Initialize the C API pointer array */
+       PySpam_API[PySpam_System_NUM] = (void *)PySpam_System;
+       /* Create a Capsule containing the API pointer array's address */
+       c_api_object = PyCapsule_New((void *)PySpam_API, "spam._C_API", NULL);

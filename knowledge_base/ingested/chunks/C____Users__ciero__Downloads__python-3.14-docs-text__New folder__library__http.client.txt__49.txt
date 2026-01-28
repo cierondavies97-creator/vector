@@ -1,0 +1,4 @@
+Set the host and the port for HTTP Connect Tunnelling. This allows
+   running the connection through a proxy server.
+   The *host* and *port* arguments specify the endpoint of the
+   tunneled connection (i.e. the address included in the CONNECT

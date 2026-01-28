@@ -1,0 +1,4 @@
+via *argv*, all tests found in *module* are run.
+   The *argv* argument can be a list of options passed to the program,
+   with the first element being the program name.  If not specified or
+   "None", the values of "sys.argv" are used.

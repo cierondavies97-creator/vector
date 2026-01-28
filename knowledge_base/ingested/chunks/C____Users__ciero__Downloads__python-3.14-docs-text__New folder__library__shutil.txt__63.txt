@@ -1,0 +1,3 @@
+Changed in version 3.13: "rmtree()" now ignores "FileNotFoundError"
+   exceptions for all but the top-level path. Exceptions other than
+   "OSError" and subclasses of "OSError" are now always propagated to

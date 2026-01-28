@@ -1,0 +1,4 @@
+"UnicodeEncodeError". *encoding* and *errors* must not be supplied
+   if *string* is a "bytes", or a "TypeError" is raised.
+   Note that "quote(string, safe, encoding, errors)" is equivalent to
+   "quote_from_bytes(string.encode(encoding, errors), safe)".

@@ -1,0 +1,6 @@
+The "DocTest" object that was being run when the example failed.
+DocTestFailure.example
+   The "Example" that failed.
+DocTestFailure.got
+   The example's actual output.
+exception doctest.UnexpectedException(test, example, exc_info)

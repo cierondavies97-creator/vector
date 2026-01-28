@@ -1,0 +1,3 @@
+"foo" would not yet have been configured. However, if the dependent
+handler were named "foobar", it would be configured after "foo", with
+the result that "cfg://handlers.foo" would resolve to configured

@@ -1,0 +1,3 @@
+is present in the foreign function's "argtypes" tuple; it must
+      return an object that can be used as a function call parameter.
+      All ctypes data types have a default implementation of this

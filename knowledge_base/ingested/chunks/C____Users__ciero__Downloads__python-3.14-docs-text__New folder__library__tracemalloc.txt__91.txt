@@ -1,0 +1,6 @@
+allocated in the new snapshot.
+   size
+      Total size of memory blocks in bytes in the new snapshot
+      ("int"): "0" if the memory blocks have been released in the new
+      snapshot.
+   size_diff

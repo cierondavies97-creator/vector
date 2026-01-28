@@ -1,0 +1,6 @@
+'__main__'
+   __type_params__
+      The type parameters of the type alias, or an empty tuple if the
+      alias is not generic:
+         >>> type ListOrSet[T] = list[T] | set[T]
+         >>> ListOrSet.__type_params__

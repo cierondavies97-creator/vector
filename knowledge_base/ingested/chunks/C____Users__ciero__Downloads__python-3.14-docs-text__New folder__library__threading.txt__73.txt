@@ -1,0 +1,4 @@
+The default value is "None" which indicates that the
+   "sys.flags.thread_inherit_context" flag controls the behaviour.  If
+   the flag is true, threads will start with a copy of the context of
+   the caller of "start()".  If false, they will start with an empty

@@ -1,0 +1,4 @@
+be found at The Python 2.3 Method Resolution Order.
+When a class attribute reference (for class "C", say) would yield a
+class method object, it is transformed into an instance method object
+whose "__self__" attribute is "C". When it would yield a

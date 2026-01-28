@@ -1,0 +1,4 @@
+associated with the "Message" or "EmailMessage" object passed to
+   "flatten" to control the message generation.  See "email.policy"
+   for details on what *policy* controls.
+   Changed in version 3.3: Added the *policy* keyword.

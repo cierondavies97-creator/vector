@@ -1,0 +1,5 @@
+a subclass that updates keys found deeper in the chain:
+   class DeepChainMap(ChainMap):
+       'Variant of ChainMap that allows direct updates to inner scopes'
+       def __setitem__(self, key, value):
+           for mapping in self.maps:

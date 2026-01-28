@@ -1,0 +1,4 @@
+(frozen .exe, some very strange installation setup) you get a path
+  with some default, but relative, paths.
+For those who want to bundle Python into their application or
+distribution, the following advice will prevent conflicts with other

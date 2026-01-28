@@ -1,0 +1,5 @@
+kevent.fflags
+   Filter specific flags.
+   "KQ_FILTER_READ" and  "KQ_FILTER_WRITE" filter flags:
+   +------------------------------+----------------------------------------------+
+   | Constant                     | Meaning                                      |

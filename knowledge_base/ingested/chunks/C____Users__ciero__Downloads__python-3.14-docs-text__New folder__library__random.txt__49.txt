@@ -1,0 +1,5 @@
+*low* and *high* bounds default to zero and one.  The *mode*
+   argument defaults to the midpoint between the bounds, giving a
+   symmetric distribution.
+random.betavariate(alpha, beta)
+   Beta distribution.  Conditions on the parameters are "alpha > 0"

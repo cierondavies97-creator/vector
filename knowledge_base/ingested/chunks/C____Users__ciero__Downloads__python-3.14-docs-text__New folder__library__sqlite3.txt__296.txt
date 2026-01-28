@@ -1,0 +1,4 @@
+con = sqlite3.connect(":memory:", detect_types=sqlite3.PARSE_DECLTYPES)
+   cur = con.execute("CREATE TABLE test(p point)")
+   cur.execute("INSERT INTO test(p) VALUES(?)", (p,))
+   cur.execute("SELECT p FROM test")

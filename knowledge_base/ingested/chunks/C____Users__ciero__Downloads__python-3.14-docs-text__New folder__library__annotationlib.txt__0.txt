@@ -1,0 +1,5 @@
+"annotationlib" --- Functionality for introspecting annotations
+***************************************************************
+Added in version 3.14.
+**Source code:** Lib/annotationlib.py
+======================================================================

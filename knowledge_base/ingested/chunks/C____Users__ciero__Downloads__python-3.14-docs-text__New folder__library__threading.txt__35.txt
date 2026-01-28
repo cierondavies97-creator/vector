@@ -1,0 +1,5 @@
+module and all Python threads that are currently executing.
+   The *func* will be passed to  "sys.setprofile()" for each thread,
+   before its "run()" method is called.
+   Added in version 3.12.
+threading.getprofile()

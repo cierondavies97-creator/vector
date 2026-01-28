@@ -1,0 +1,3 @@
+instantiated is *class_* if provided, otherwise "GNUTranslations".
+   The class's constructor must take a single *file object* argument.
+   If multiple files are found, later files are used as fallbacks for

@@ -1,0 +1,5 @@
+Added in version 3.7: "__getattr__" and "__dir__" module attributes.
+See also:
+  **PEP 562** - Module __getattr__ and __dir__
+     Describes the "__getattr__" and "__dir__" functions on modules.
+3.3.2.2. Implementing Descriptors

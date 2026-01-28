@@ -1,0 +1,4 @@
+is, after parse has been called and before it returns.
+   By default, the class also implements the parse method of the
+   XMLReader interface using the feed, close and reset methods of the
+   IncrementalParser interface as a convenience to SAX 2.0 driver

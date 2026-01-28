@@ -1,0 +1,4 @@
+weights before making selections, so supplying the cumulative
+   weights saves work.
+   If neither *weights* nor *cum_weights* are specified, selections
+   are made with equal probability.  If a weights sequence is

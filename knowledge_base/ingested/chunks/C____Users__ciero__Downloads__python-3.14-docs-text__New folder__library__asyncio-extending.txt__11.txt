@@ -1,0 +1,4 @@
+asyncio._leave_task(loop, task)
+   Switch the current task back from *task* to "None".
+   Call the function just after "coroutine.send()" or
+   "coroutine.throw()" execution.

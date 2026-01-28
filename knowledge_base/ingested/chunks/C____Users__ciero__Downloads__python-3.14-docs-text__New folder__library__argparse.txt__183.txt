@@ -1,0 +1,5 @@
+required
+--------
+In general, the "argparse" module assumes that flags like "-f" and "--
+bar" indicate *optional* arguments, which can always be omitted at the
+command line. To make an option *required*, "True" can be specified

@@ -1,0 +1,4 @@
+A string giving the site-specific directory prefix where the
+   platform-dependent Python files are installed; by default, this is
+   also "'/usr/local'".  This can be set at build time with the "--
+   exec-prefix" argument to the **configure** script.  Specifically,

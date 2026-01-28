@@ -1,0 +1,5 @@
+(default: octal "0o666"), used only when the database has to
+        be created.
+   Warning:
+     It is possible to crash the Python interpreter when loading a
+     database with a sufficiently large/complex entry due to stack

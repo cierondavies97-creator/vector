@@ -1,0 +1,6 @@
+guide for existing users of "pkg_resources".
+Overview
+========
+Let's say you wanted to get the version string for a Distribution
+Package you've installed using "pip". We start by creating a virtual
+environment and installing something into it:

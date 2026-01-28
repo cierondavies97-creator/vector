@@ -1,0 +1,3 @@
+Added in version 3.3: Some operating systems could support
+      additional values, like "os.SEEK_HOLE" or "os.SEEK_DATA". The
+      valid values for a file could depend on it being open in text or

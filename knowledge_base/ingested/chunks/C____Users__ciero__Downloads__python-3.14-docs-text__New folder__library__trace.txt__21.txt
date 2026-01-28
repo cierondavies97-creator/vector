@@ -1,0 +1,5 @@
+results of all previous calls to "run", "runctx" and "runfunc"
+      for the given "Trace" instance.  Does not reset the accumulated
+      trace results.
+class trace.CoverageResults
+   A container for coverage results, created by "Trace.results()".

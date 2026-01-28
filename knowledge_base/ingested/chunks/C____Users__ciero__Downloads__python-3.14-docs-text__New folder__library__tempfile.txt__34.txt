@@ -1,0 +1,5 @@
+temporary directory and all its contents are removed from the
+   filesystem.
+   name
+      The directory name can be retrieved from the "name" attribute of
+      the returned object.  When the returned object is used as a

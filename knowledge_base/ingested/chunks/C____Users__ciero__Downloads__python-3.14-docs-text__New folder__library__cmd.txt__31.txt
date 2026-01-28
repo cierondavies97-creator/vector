@@ -1,0 +1,5 @@
+Cmd.intro
+   A string to issue as an intro or banner.  May be overridden by
+   giving the "cmdloop()" method an argument.
+Cmd.doc_header
+   The header to issue if the help output has a section for documented

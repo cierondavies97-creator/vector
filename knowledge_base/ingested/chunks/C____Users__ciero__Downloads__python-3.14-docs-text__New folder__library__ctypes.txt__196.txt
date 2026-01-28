@@ -1,0 +1,8 @@
+...     _fields_ = ("a", POINT), ("b", POINT)
+   ...
+   >>> p1 = POINT(1, 2)
+   >>> p2 = POINT(3, 4)
+   >>> rc = RECT(p1, p2)
+   >>> print(rc.a.x, rc.a.y, rc.b.x, rc.b.y)
+   1 2 3 4
+   >>> # now swap the two points

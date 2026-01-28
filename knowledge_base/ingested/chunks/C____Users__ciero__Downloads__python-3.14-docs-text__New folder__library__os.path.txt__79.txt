@@ -1,0 +1,6 @@
+and share:
+      >>> splitdrive("//host/computer/dir")
+      ("//host/computer", "/dir")
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.splitroot(path, /)
+   Split the pathname *path* into a 3-item tuple "(drive, root, tail)"

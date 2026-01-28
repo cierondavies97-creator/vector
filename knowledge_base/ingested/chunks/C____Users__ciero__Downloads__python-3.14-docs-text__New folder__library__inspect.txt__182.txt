@@ -1,0 +1,3 @@
+|                          | function definition.                           |
+      +--------------------------+------------------------------------------------+
+      | *VAR_KEYWORD*            | A dict of keyword arguments that aren't bound  |

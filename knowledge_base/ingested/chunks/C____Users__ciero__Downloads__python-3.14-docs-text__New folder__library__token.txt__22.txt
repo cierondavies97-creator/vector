@@ -1,0 +1,5 @@
+tokens are produced instead of regular "COMMENT" tokens only with
+   the "PyCF_TYPE_COMMENTS" flag.
+token.SOFT_KEYWORD
+   Token value indicating a soft keyword.
+   The tokenizer never produces this value. To check for a soft

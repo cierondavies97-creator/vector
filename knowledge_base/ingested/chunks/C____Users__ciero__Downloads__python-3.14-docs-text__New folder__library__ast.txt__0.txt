@@ -1,0 +1,5 @@
+"ast" --- Abstract syntax trees
+*******************************
+**Source code:** Lib/ast.py
+======================================================================
+The "ast" module helps Python applications to process trees of the

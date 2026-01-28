@@ -1,0 +1,3 @@
+For objects constructed from a file without specifying a "key"
+parameter, "str" falls back to calling "repr()". "ZoneInfo"'s "repr"
+is implementation-defined and not necessarily stable between versions,

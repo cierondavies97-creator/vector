@@ -1,0 +1,5 @@
+If *errors* is specified, it's used to determine how encoding
+   errors are handled.
+   Note:
+     Calculation of the initial rollover time is done when the handler
+     is initialised. Calculation of subsequent rollover times is done

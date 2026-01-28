@@ -1,0 +1,9 @@
+* "logging" --- Logging facility for Python
+  * Logger Objects
+  * Logging Levels
+  * Handler Objects
+  * Formatter Objects
+  * Filter Objects
+  * LogRecord Objects
+  * LogRecord attributes
+  * LoggerAdapter Objects

@@ -1,0 +1,3 @@
+This function supports dynamic execution of Python code. *source*
+   must be either a string or a code object.  If it is a string, the
+   string is parsed as a suite of Python statements which is then

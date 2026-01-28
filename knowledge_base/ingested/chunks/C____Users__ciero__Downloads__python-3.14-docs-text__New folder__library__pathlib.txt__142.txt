@@ -1,0 +1,5 @@
+distinguish between these cases.
+Path.is_fifo()
+   Return "True" if the path points to a FIFO. "False" will be
+   returned if the path is invalid, inaccessible or missing, or if it
+   points to something other than a FIFO. Use "Path.stat()" to

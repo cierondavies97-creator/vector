@@ -1,0 +1,3 @@
+class logging.handlers.QueueListener(queue, *handlers, respect_handler_level=False)
+   Returns a new instance of the "QueueListener" class. The instance
+   is initialized with the queue to send messages to and a list of

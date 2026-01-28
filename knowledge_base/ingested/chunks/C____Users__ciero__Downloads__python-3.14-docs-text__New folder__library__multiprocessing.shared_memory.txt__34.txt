@@ -1,0 +1,7 @@
+>>> c = np.ndarray((6,), dtype=np.int64, buffer=existing_shm.buf)
+   >>> c
+   array([1, 1, 2, 3, 5, 8])
+   >>> c[-1] = 888
+   >>> c
+   array([  1,   1,   2,   3,   5, 888])
+   >>> # Back in the first Python interactive shell, b reflects this change

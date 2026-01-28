@@ -1,0 +1,4 @@
+the default.  The *fork* start method should be considered unsafe
+   as it can lead to crashes of the subprocess. See bpo-33725.
+multiprocessing.set_executable(executable)
+   Set the path of the Python interpreter to use when starting a child

@@ -1,0 +1,5 @@
+"self", "pattern".
+   Changed in version 3.12: The *case_sensitive* parameter was added.
+   Changed in version 3.13: The *recurse_symlinks* parameter was
+   added.
+   Changed in version 3.13: The *pattern* parameter accepts a *path-

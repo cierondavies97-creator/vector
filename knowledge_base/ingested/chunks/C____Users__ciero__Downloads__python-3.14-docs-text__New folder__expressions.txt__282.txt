@@ -1,0 +1,3 @@
+yield_list:               expression_list | starred_expression "," [starred_expression_list]
+Except when part of a list or set display, an expression list
+containing at least one comma yields a tuple.  The length of the tuple

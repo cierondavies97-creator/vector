@@ -1,0 +1,5 @@
+...     assert result == 'the result'
+Naming your mocks
+-----------------
+It can be useful to give your mocks a name. The name is shown in the
+repr of the mock and can be helpful when the mock appears in test

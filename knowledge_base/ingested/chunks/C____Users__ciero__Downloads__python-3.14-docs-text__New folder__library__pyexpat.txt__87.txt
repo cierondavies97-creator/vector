@@ -1,0 +1,4 @@
+exception is raised by the parser for this condition.
+xmlparser.ExternalEntityRefHandler(context, base, systemId, publicId)
+   Warning:
+     Implementing a handler that accesses local files and/or the

@@ -1,0 +1,3 @@
+an expression list also looks like a slice list, so any subscription
+can be interpreted as a slicing.  Rather than further complicating the
+syntax, this is disambiguated by defining that in this case the

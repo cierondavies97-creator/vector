@@ -1,0 +1,4 @@
+using "annotations_to_string()". If "VALUE" fails, the error
+       from this call will be raised.
+   Returns a dict. "get_annotations()" returns a new dict every time
+   it's called; calling it twice on the same object will return two

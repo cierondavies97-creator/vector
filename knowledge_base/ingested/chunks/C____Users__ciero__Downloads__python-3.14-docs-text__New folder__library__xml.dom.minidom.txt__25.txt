@@ -1,0 +1,4 @@
+added, otherwise it is set to ""no"". Not stating the argument will
+   omit the declaration from the document.
+   Changed in version 3.8: The "writexml()" method now preserves the
+   attribute order specified by the user.

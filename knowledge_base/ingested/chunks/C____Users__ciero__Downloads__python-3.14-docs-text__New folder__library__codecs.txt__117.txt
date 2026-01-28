@@ -1,0 +1,4 @@
+support.
+   The *errors* argument will be assigned to an attribute of the same
+   name. Assigning to this attribute makes it possible to switch
+   between different error handling strategies during the lifetime of

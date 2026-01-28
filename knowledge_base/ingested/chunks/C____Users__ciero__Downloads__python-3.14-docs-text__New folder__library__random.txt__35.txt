@@ -1,0 +1,3 @@
+of *x* can quickly grow larger than the period of most random
+   number generators. This implies that most permutations of a long
+   sequence can never be generated.  For example, a sequence of length

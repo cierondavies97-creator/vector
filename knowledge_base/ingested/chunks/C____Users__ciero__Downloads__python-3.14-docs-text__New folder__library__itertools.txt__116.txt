@@ -1,0 +1,4 @@
+obtained from the *iterable*.  Used instead of "map()" when
+   argument parameters have already been "pre-zipped" into tuples.
+   The difference between "map()" and "starmap()" parallels the
+   distinction between "function(a,b)" and "function(*c)". Roughly

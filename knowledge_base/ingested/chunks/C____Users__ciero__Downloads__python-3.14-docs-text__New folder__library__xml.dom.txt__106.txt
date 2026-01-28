@@ -1,0 +1,6 @@
+entire name. This is a read-only attribute.
+Attr.prefix
+   The part of the name preceding the colon if there is one, else the
+   empty string.
+Attr.value
+   The text value of the attribute.  This is a synonym for the

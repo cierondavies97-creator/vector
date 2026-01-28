@@ -1,0 +1,3 @@
+However, its guarantees depend on the iterable passed to it. If it is
+a "list", a "tuple", a "set", a "frozenset", a "dict" or a dictionary
+view object (but not their subclasses), the "extend" operation is safe

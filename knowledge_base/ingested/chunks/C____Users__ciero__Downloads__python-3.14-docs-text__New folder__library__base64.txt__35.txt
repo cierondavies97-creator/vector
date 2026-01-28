@@ -1,0 +1,4 @@
+format (i.e. is framed with <~ and ~>).
+   *ignorechars* should be a *bytes-like object* or ASCII string
+   containing characters to ignore from the input. This should only
+   contain whitespace characters, and by default contains all

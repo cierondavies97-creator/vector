@@ -1,0 +1,5 @@
+*arg* is a tuple "(exception, value, traceback)"; the return
+      value specifies the new local trace function.
+   "'opcode'"
+      The interpreter is about to execute a new opcode (see "dis" for
+      opcode details).  The local trace function is called; *arg* is

@@ -1,0 +1,5 @@
+Example for a context with one CA cert and one other cert:
+      >>> context.cert_store_stats()
+      {'crl': 0, 'x509_ca': 1, 'x509': 2}
+   Added in version 3.4.
+SSLContext.load_cert_chain(certfile, keyfile=None, password=None)

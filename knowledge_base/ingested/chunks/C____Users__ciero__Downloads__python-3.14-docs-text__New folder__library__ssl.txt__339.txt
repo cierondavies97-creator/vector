@@ -1,0 +1,3 @@
+connection services, you will need to acquire a certificate for that
+service.  There are many ways of acquiring appropriate certificates,
+such as buying one from a certification authority.  Another common

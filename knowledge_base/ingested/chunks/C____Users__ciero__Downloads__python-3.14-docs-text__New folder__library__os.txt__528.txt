@@ -1,0 +1,5 @@
+zero, "eventfd_read()" returns the current event counter value and
+   resets the counter to zero.
+   If the event counter is zero and "EFD_NONBLOCK" is not specified,
+   "eventfd_read()" blocks.
+   "eventfd_write()" increments the event counter. Write blocks if the

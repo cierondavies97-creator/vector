@@ -1,0 +1,4 @@
+is to support. The *path* argument is the path to the extension
+   module's file.
+   Note that, by default, importing an extension module will fail in
+   subinterpreters if it doesn't implement multi-phase init (see **PEP

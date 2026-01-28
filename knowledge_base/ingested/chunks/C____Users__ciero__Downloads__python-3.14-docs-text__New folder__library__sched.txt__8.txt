@@ -1,0 +1,5 @@
+From print_time 1652342830.3643398 first enterabs
+   From print_time 1652342835.3694863 positional
+   From print_time 1652342835.3696074 keyword
+   From print_time 1652342840.369612 default
+   1652342840.3697174

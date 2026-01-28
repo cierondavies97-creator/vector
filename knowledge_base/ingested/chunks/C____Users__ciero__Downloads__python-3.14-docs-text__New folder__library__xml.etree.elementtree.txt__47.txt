@@ -1,0 +1,7 @@
+</actor>
+   </actors>
+One way to search and explore this XML example is to manually add the
+URI to every tag or attribute in the xpath of a "find()" or
+"findall()":
+   root = fromstring(xml_text)
+   for actor in root.findall('{http://people.example.com}actor'):

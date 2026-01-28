@@ -1,0 +1,5 @@
+@warning_helper.ignore_warnings(category=DeprecationWarning)
+      def test_suppress_warning():
+          # do something
+   Added in version 3.8.
+test.support.warnings_helper.check_no_resource_warning(testcase)

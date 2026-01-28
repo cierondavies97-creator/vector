@@ -1,0 +1,10 @@
+return a * b
+   def plus(a, b):
+       time.sleep(0.5*random.random())
+       return a + b
+   #
+   #
+   #
+   def test():
+       NUMBER_OF_PROCESSES = 4
+       TASKS1 = [(mul, (i, 7)) for i in range(20)]

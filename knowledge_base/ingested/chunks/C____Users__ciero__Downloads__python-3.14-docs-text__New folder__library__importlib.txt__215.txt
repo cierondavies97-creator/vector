@@ -1,0 +1,5 @@
+file embeds the "source_hash()" of the corresponding source file's
+   contents in its header.
+   Added in version 3.7.
+importlib.util._incompatible_extension_module_restrictions(*, disable_check)
+   A context manager that can temporarily skip the compatibility check

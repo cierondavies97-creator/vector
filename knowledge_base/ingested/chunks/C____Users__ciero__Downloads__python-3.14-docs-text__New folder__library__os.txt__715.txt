@@ -1,0 +1,3 @@
+On Unix: Wait for completion of a child process given by process id
+   *pid*, and return a tuple containing its process id and exit status
+   indication (encoded as for "wait()").  The semantics of the call

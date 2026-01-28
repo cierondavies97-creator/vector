@@ -1,0 +1,5 @@
+"Maildir" objects
+-----------------
+class mailbox.Maildir(dirname, factory=None, create=True)
+   A subclass of "Mailbox" for mailboxes in Maildir format. Parameter
+   *factory* is a callable object that accepts a file-like message

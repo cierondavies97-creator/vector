@@ -1,0 +1,4 @@
+operation. Cursors are created using "Connection.cursor()", or by
+   using any of the connection shortcut methods.
+   Cursor objects are *iterators*, meaning that if you "execute()" a
+   "SELECT" query, you can simply iterate over the cursor to fetch the

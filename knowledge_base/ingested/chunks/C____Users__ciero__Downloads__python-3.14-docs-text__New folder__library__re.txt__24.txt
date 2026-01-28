@@ -1,0 +1,6 @@
+of 'b's; it will not match just 'a'.
+"?"
+   Causes the resulting RE to match 0 or 1 repetitions of the
+   preceding RE. "ab?" will match either 'a' or 'ab'.
+"*?", "+?", "??"
+   The "'*'", "'+'", and "'?'" quantifiers are all *greedy*; they

@@ -1,0 +1,4 @@
+be a floating-point number specifying a timeout for the
+      operation in seconds (or fractions thereof). As "join()" always
+      returns "None", you must call "is_alive()" after "join()" to
+      decide whether a timeout happened -- if the thread is still

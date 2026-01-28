@@ -1,0 +1,8 @@
+...         return f"{self.__class__.__name__}()"
+   ...
+   >>> t = time(12, 10, 30, tzinfo=TZ1())
+   >>> t
+   datetime.time(12, 10, 30, tzinfo=TZ1())
+   >>> t.isoformat()
+   '12:10:30+01:00'
+   >>> t.dst()

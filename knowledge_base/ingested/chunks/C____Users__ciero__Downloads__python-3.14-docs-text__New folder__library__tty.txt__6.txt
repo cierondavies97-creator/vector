@@ -1,0 +1,4 @@
+attributes, instead of "None".
+tty.setcbreak(fd, when=termios.TCSAFLUSH)
+   Change the mode of file descriptor *fd* to cbreak. If *when* is
+   omitted, it defaults to "termios.TCSAFLUSH", and is passed to

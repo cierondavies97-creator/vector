@@ -1,0 +1,3 @@
+"UTF-16" or "UTF-32" byte sequence. The byte swapped version of this
+character ("0xFFFE") is an illegal character that may not appear in a
+Unicode text. When the first character of a "UTF-16" or "UTF-32" byte

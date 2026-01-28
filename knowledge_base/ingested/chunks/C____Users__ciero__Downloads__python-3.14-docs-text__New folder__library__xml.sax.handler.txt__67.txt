@@ -1,0 +1,5 @@
+Set the LexicalHandler of an XMLReader by using the setProperty method
+with the property identifier "'http://xml.org/sax/properties/lexical-
+handler'".
+LexicalHandler.comment(content)
+   Reports a comment anywhere in the document (including the DTD and

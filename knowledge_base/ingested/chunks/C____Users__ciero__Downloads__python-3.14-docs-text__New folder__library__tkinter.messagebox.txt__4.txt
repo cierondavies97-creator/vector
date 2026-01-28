@@ -1,0 +1,5 @@
+The following options are supported:
+      *command*
+         Specifies the function to invoke when the user closes the
+         dialog. The name of the button clicked by the user to close
+         the dialog is passed as argument. This is only available on

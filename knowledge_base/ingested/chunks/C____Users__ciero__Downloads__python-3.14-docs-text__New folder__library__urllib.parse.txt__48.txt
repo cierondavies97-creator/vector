@@ -1,0 +1,4 @@
+included.
+   The optional argument *strict_parsing* is a flag indicating what to
+   do with parsing errors.  If false (the default), errors are
+   silently ignored.  If true, errors raise a "ValueError" exception.

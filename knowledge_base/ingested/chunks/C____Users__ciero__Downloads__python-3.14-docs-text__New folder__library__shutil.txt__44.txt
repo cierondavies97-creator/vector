@@ -1,0 +1,4 @@
+effect on platforms that don't support "os.symlink()".
+   If *ignore* is given, it must be a callable that will receive as
+   its arguments the directory being visited by "copytree()", and a
+   list of its contents, as returned by "os.listdir()".  Since

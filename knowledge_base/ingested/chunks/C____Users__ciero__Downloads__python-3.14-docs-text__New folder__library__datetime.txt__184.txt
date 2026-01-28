@@ -1,0 +1,4 @@
+time zone adjustments are done in this case.
+   If both are aware and have different "tzinfo" attributes, "a-b"
+   acts as if "a" and "b" were first converted to naive UTC datetimes.
+   The result is "(a.replace(tzinfo=None) - a.utcoffset()) -

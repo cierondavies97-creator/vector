@@ -1,0 +1,2 @@
+| "assertNoLogs(logger, level)"                             | The "with" block does not log on       | 3.10         |
+   |                                                           | *logger* with minimum *level*          |              |

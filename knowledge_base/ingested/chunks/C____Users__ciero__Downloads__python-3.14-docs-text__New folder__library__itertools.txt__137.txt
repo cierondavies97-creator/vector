@@ -1,0 +1,6 @@
+limits the number of calls (for example "islice()" or
+   "takewhile()").
+Itertools Recipes
+=================
+This section shows recipes for creating an extended toolset using the
+existing itertools as building blocks.

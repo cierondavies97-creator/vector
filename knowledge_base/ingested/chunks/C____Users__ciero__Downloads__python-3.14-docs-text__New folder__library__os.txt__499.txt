@@ -1,0 +1,4 @@
+resolve to directories. Set *followlinks* to "True" to visit
+   directories pointed to by symlinks, on systems that support them.
+   Note:
+     Be aware that setting *followlinks* to "True" can lead to

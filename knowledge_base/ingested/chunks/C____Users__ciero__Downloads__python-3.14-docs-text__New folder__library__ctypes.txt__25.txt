@@ -1,0 +1,4 @@
+>>> cdll.kernel32.GetModuleHandleA(None)
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   ValueError: Procedure probably called with not enough arguments (4 bytes missing)

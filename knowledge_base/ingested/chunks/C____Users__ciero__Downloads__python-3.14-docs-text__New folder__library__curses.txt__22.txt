@@ -1,0 +1,5 @@
+Subsequent calls to "reset_shell_mode()" will restore this mode.
+curses.delay_output(ms)
+   Insert an *ms* millisecond pause in output.
+curses.doupdate()
+   Update the physical screen.  The curses library keeps two data

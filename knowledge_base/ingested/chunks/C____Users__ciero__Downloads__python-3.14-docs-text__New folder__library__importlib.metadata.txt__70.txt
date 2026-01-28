@@ -1,0 +1,6 @@
+instances of this derived "Distribution" in the "find_distributions()"
+method.
+Example
+-------
+Imagine a custom finder that loads Python modules from a database:
+   class DatabaseImporter(importlib.abc.MetaPathFinder):

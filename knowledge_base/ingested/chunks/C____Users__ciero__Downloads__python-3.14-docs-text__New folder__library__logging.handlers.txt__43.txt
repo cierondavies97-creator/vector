@@ -1,0 +1,3 @@
+The "RotatingFileHandler" class, located in the "logging.handlers"
+module, supports rotation of disk log files.
+class logging.handlers.RotatingFileHandler(filename, mode='a', maxBytes=0, backupCount=0, encoding=None, delay=False, errors=None)

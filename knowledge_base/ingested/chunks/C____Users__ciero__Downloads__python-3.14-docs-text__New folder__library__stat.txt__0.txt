@@ -1,0 +1,5 @@
+"stat" --- Interpreting "stat()" results
+****************************************
+**Source code:** Lib/stat.py
+======================================================================
+The "stat" module defines constants and functions for interpreting the

@@ -1,0 +1,4 @@
+After all the tests have run the final "tearDownClass" and
+"tearDownModule" are run.
+Note that shared fixtures do not play well with [potential] features
+like test parallelization and they break test isolation. They should

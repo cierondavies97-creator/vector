@@ -1,0 +1,4 @@
+attributes on package objects are also used.  These provide additional
+ways that the import machinery can be customized.
+"sys.path" contains a list of strings providing search locations for
+modules and packages.  It is initialized from the "PYTHONPATH"

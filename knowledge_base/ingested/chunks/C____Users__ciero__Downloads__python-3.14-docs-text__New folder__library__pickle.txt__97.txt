@@ -1,0 +1,6 @@
+restores the saved attributes.  The following code shows an
+implementation of this behaviour:
+   def save(obj):
+       return (obj.__class__, obj.__dict__)
+   def restore(cls, attributes):
+       obj = cls.__new__(cls)

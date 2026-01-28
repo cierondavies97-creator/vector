@@ -1,0 +1,4 @@
+default *maxlinelen* is 78, and the default value for *header_name*
+   is "None", meaning it is not taken into account for the first line
+   of a long, split header.
+   Optional *continuation_ws* must be **RFC 2822**-compliant folding

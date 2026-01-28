@@ -1,0 +1,3 @@
+Allows you to compare data with unknown or inconsistent encoding.
+   All inputs except *n* must be bytes objects, not str. Works by
+   losslessly converting all inputs (except *n*) to str, and calling

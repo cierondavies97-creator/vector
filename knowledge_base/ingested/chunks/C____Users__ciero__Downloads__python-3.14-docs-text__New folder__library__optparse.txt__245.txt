@@ -1,0 +1,4 @@
+OptionParser.set_usage(usage)
+   Set the usage string according to the rules described above for the
+   "usage" constructor keyword argument.  Passing "None" sets the
+   default usage string; use "optparse.SUPPRESS_USAGE" to suppress a

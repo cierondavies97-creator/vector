@@ -1,0 +1,5 @@
+[3] Locale Names
+For extension writers and programs that embed Python
+====================================================
+Extension modules should never call "setlocale()", except to find out
+what the current locale is.  But since the return value can only be

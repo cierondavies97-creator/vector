@@ -1,0 +1,4 @@
+type checker ever added support for "@no_type_check_decorator". It
+   is therefore deprecated, and will be removed in Python 3.15.
+@typing.override
+   Decorator to indicate that a method in a subclass is intended to

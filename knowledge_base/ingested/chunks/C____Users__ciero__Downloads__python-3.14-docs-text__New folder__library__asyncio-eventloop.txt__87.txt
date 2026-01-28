@@ -1,0 +1,5 @@
+*protocol_factory* must be a callable returning a protocol
+   implementation.
+   A tuple of "(transport, protocol)" is returned on success.
+   Other arguments:
+   * *local_addr*, if given, is a "(local_host, local_port)" tuple

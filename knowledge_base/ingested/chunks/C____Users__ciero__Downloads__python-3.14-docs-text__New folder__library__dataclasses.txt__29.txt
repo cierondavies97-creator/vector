@@ -1,0 +1,4 @@
+(even if "__init__()" is not generated, see above).  If false, or
+     if "__match_args__" is already defined in the class, then
+     "__match_args__" will not be generated.
+      Added in version 3.10.

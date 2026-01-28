@@ -1,0 +1,3 @@
+Apply this logger's filters to the record and return "True" if
+      the record is to be processed. The filters are consulted in
+      turn, until one of them returns a false value. If none of them

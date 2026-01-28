@@ -1,0 +1,8 @@
+ipadx and ipady
+   A distance - designating internal padding on each side of the slave
+   widget.
+padx and pady
+   A distance - designating external padding on each side of the slave
+   widget.
+side
+   Legal values are: "'left'", "'right'", "'top'", "'bottom'".

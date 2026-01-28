@@ -1,0 +1,4 @@
+The following "Future" methods are meant for use in unit tests and
+   "Executor" implementations.
+   set_running_or_notify_cancel()
+      This method should only be called by "Executor" implementations

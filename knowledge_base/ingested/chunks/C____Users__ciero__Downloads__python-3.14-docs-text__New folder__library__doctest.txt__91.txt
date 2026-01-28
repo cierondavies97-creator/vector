@@ -1,0 +1,5 @@
+the module name is present or matches exactly.
+   Changed in version 3.2: "IGNORE_EXCEPTION_DETAIL" now also ignores
+   any information relating to the module containing the exception
+   under test.
+doctest.SKIP

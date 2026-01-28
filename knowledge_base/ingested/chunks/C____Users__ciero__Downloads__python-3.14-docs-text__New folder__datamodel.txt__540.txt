@@ -1,0 +1,4 @@
+raised; if *key* is a value outside the set of indexes for the
+   sequence (after any special interpretation of negative values),
+   "IndexError" should be raised. For *mapping* types, if *key* is
+   missing (not in the container), "KeyError" should be raised.

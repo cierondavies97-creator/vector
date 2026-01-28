@@ -1,0 +1,4 @@
+read(length=-1, /)
+      Read *length* bytes of data from the blob at the current offset
+      position. If the end of the blob is reached, the data up to EOF
+      (End of File) will be returned.  When *length* is not specified,

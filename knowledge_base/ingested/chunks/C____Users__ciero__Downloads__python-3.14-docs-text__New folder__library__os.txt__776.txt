@@ -1,0 +1,4 @@
+os.process_cpu_count()
+   Get the number of logical CPUs usable by the calling thread of the
+   **current process**. Returns "None" if undetermined. It can be less
+   than "cpu_count()" depending on the CPU affinity.

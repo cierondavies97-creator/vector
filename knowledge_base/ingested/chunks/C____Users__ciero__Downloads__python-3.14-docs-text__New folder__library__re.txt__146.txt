@@ -1,0 +1,4 @@
+regular expression *pattern*, return a corresponding "Match".
+   Return "None" if the string does not match the pattern; note that
+   this is different from a zero-length match.
+   Note that even in "MULTILINE" mode, "re.match()" will only match at

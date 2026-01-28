@@ -1,0 +1,3 @@
+| class       | Specifies the window class. The class is used when querying    |
+|             | the option database for the window's other options, to         |
+|             | determine the default bindtags for the window, and to select   |

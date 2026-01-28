@@ -1,0 +1,4 @@
+dictionary, e.g., "m.x" is equivalent to "m.__dict__["x"]". A module
+object does not contain the code object used to initialize the module
+(since it isn't needed once the initialization is done).
+Attribute assignment updates the module's namespace dictionary, e.g.,

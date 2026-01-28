@@ -1,0 +1,4 @@
+We recommend using valid Python expressions or the empty string
+      for the "expression" field of manually created "Interpolation"
+      instances, although this is not enforced at runtime.
+      >>> t'{1 + 2}'.interpolations[0].expression

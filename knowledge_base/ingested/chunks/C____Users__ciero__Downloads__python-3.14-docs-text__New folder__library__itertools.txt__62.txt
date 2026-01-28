@@ -1,0 +1,4 @@
+r! / (n - 1)!" when "n > 0".
+   The combination tuples are emitted in lexicographic order according
+   to the order of the input *iterable*. if the input *iterable* is
+   sorted, the output tuples will be produced in sorted order.

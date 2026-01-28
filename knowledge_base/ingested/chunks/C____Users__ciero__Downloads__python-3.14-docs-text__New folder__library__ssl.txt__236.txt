@@ -1,0 +1,4 @@
+SSLContext.set_default_verify_paths()
+   Load a set of default "certification authority" (CA) certificates
+   from a filesystem path defined when building the OpenSSL library.
+   Unfortunately, there's no easy way to know whether this method

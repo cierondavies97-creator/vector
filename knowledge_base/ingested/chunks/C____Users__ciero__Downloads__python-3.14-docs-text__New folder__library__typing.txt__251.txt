@@ -1,0 +1,4 @@
+"covariant=True" or "contravariant=True". By default, manually
+   created type variables are invariant. See **PEP 484** and **PEP
+   695** for more details.
+   Bounded type variables and constrained type variables have

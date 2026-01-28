@@ -1,0 +1,6 @@
+* ""count"" [relevant: "dest"]
+  Increment the integer stored at "dest".  If no default value is
+  supplied, "dest" is set to zero before being incremented the first
+  time.
+  Example:
+     parser.add_option("-v", action="count", dest="verbosity")

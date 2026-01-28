@@ -1,0 +1,3 @@
+exported with an "A" appended to the name. The win32 "GetModuleHandle"
+function, which returns a *module handle* for a given module name, has
+the following C prototype, and a macro is used to expose one of them

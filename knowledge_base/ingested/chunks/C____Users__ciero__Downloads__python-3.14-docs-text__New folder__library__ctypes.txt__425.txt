@@ -1,0 +1,6 @@
+is faster since it does not need to create a temporary union
+      instance:
+         td = TYPEDESC()
+         td.vt = VT_PTR
+         td.lptdesc = POINTER(some_type)
+         td.u.lptdesc = POINTER(some_type)

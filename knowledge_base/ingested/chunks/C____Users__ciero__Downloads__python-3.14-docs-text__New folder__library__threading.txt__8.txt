@@ -1,0 +1,4 @@
+interface to push tasks to a background thread without blocking
+  execution of the calling thread, while still being able to retrieve
+  their results when needed.
+  "queue" provides a thread-safe interface for exchanging data between

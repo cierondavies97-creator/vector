@@ -1,0 +1,4 @@
+value otherwise.
+   If *skip_curdir* is true (the default), the current directory is
+   not included in the search.  All other parameters are passed to the
+   "compile_dir()" function.  Note that unlike the other compile

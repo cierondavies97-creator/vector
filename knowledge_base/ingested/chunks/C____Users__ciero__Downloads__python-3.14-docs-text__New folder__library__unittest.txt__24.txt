@@ -1,0 +1,4 @@
+python -m unittest test_module.TestClass
+   python -m unittest test_module.TestClass.test_method
+You can pass in a list with any combination of module names, and fully
+qualified class or method names.

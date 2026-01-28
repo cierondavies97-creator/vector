@@ -1,0 +1,3 @@
+Save the history list to a readline history file, overwriting any
+   existing file.  The default filename is "~/.history".  This calls
+   "write_history()" in the underlying library and raises an auditing

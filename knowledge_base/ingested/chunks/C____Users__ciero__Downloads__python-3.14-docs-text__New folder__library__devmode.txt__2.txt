@@ -1,0 +1,5 @@
+See also Python debug build.
+Effects of the Python Development Mode
+======================================
+Enabling the Python Development Mode is similar to the following
+command, but with additional effects described below:

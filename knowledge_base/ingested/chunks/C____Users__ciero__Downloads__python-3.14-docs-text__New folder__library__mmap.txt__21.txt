@@ -1,0 +1,3 @@
+*offset* may be specified as a non-negative integer offset. mmap
+   references will be relative to the offset from the beginning of the
+   file. *offset* defaults to 0. *offset* must be a multiple of

@@ -1,0 +1,4 @@
+The *scheduler* argument must be a tuple containing the (optional)
+   scheduler policy and an instance of "sched_param" with the
+   scheduler parameters. A value of "None" in the place of the
+   scheduler policy indicates that is not being provided. This

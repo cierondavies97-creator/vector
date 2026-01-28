@@ -1,0 +1,4 @@
+argument as the *fallback* fallback (especially when using the
+      mapping protocol).
+   getint(section, option, *, raw=False, vars=None[, fallback])
+      A convenience method which coerces the *option* in the specified

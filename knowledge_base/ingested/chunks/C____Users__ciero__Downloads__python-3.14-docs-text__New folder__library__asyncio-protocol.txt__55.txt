@@ -1,0 +1,5 @@
+Windows, the Windows API function "TerminateProcess()" is called to
+   stop the subprocess.
+   See also "subprocess.Popen.terminate()".
+SubprocessTransport.close()
+   Kill the subprocess by calling the "kill()" method.

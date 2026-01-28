@@ -1,0 +1,4 @@
+Changed in version 3.10: "IP_RECVTOS" was added.  Added
+   "TCP_KEEPALIVE". On MacOS this constant can be used in the same
+   way that "TCP_KEEPIDLE" is used on Linux.
+   Changed in version 3.11: Added "TCP_CONNECTION_INFO". On MacOS this

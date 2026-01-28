@@ -1,0 +1,4 @@
+these modules and functions can be found in the following sections.
+See also: **PEP 324** -- PEP proposing the subprocess module
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly

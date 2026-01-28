@@ -1,0 +1,3 @@
+dirs.remove('__pycache__')  # don't visit __pycache__ directories
+   In the next example (simple implementation of "shutil.rmtree()"),
+   walking the tree bottom-up is essential, "rmdir()" doesn't allow

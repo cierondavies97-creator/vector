@@ -1,0 +1,4 @@
+key "'__doc__'" set to "None".
+   Note that functions and classes objects created under an
+   "InteractiveInterpreter" instance will belong to the namespace
+   specified by *locals*. They are only pickleable if *locals* is the

@@ -1,0 +1,5 @@
+Added in version 3.3.
+email.utils.decode_rfc2231(s)
+   Decode the string *s* according to **RFC 2231**.
+email.utils.encode_rfc2231(s, charset=None, language=None)
+   Encode the string *s* according to **RFC 2231**.  Optional

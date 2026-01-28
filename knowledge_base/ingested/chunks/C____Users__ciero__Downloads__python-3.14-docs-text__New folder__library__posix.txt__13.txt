@@ -1,0 +1,3 @@
+updating "os.environ" will render this dictionary obsolete. Use
+     of the "os" module version of this is recommended over direct
+     access to the "posix" module.

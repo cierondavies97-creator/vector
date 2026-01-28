@@ -1,0 +1,4 @@
+The "venv" module supports creating lightweight "virtual
+environments", each with their own independent set of Python packages
+installed in their "site" directories. A virtual environment is
+created on top of an existing Python installation, known as the

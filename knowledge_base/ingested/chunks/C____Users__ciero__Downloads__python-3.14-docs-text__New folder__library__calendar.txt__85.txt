@@ -1,0 +1,7 @@
+23 24 25 26 27 28 29      27 28 29 30               25 26 27 28 29 30 31
+   30 31
+The following options are accepted:
+--help, -h
+   Show the help message and exit.
+--locale LOCALE, -L LOCALE
+   The locale to use for month and weekday names. Defaults to English.

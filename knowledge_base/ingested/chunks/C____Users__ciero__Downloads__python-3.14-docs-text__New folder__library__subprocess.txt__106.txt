@@ -1,0 +1,5 @@
+Availability: POSIX
+   Added in version 3.9.
+   If *umask* is not negative, the umask() system call will be made in
+   the child process prior to the execution of the subprocess.
+   Availability: POSIX

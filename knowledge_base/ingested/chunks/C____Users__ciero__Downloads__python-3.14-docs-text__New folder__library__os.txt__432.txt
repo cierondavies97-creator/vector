@@ -1,0 +1,4 @@
+such will be slightly inexact. If you need the exact timestamps
+     you should always use "st_atime_ns", "st_mtime_ns", "st_ctime_ns"
+     and "st_birthtime_ns".
+   On some Unix systems (such as Linux), the following attributes may

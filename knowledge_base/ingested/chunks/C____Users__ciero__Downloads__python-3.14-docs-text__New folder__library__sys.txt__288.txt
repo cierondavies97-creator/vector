@@ -1,0 +1,5 @@
+cause itself unset.
+   Note:
+     The same tracing mechanism is used for "setprofile()" as
+     "settrace()". To trace calls with "setprofile()" inside a tracing
+     function (e.g. in a debugger breakpoint), see "call_tracing()".

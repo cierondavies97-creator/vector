@@ -1,0 +1,4 @@
+true population variance.If you somehow know the actual
+     population mean μ you should pass it to the "pvariance()"
+     function as the *mu* parameter to get the variance of a sample.
+statistics.quantiles(data, *, n=4, method='exclusive')

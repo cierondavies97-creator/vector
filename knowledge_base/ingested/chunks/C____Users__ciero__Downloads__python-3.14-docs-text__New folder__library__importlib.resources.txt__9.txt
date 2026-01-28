@@ -1,0 +1,4 @@
+importlib.resources.files(anchor: Anchor | None = None)
+   Returns a "Traversable" object representing the resource container
+   (think directory) and its resources (think files). A Traversable
+   may contain other containers (think subdirectories).

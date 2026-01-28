@@ -1,0 +1,7 @@
+file.
+stat.S_ISBLK(mode)
+   Return non-zero if the mode is from a block special device file.
+stat.S_ISREG(mode)
+   Return non-zero if the mode is from a regular file.
+stat.S_ISFIFO(mode)
+   Return non-zero if the mode is from a FIFO (named pipe).

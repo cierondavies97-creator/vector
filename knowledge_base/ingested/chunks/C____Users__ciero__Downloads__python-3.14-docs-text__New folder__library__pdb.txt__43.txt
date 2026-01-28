@@ -1,0 +1,5 @@
+Debugger commands
+=================
+The commands recognized by the debugger are listed below.  Most
+commands can be abbreviated to one or two letters as indicated; e.g.
+"h(elp)" means that either "h" or "help" can be used to enter the help

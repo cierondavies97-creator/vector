@@ -1,0 +1,4 @@
+# Often-used methods of the dict interface work too.
+       print(db.get('python.org', b'not present'))
+       # Storing a non-string key or value will raise an exception (most
+       # likely a TypeError).

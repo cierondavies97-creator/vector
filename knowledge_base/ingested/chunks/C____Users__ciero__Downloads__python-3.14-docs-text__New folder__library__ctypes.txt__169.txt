@@ -1,0 +1,4 @@
+callables. These are sometimes called *callback functions*.
+First, you must create a class for the callback function. The class
+knows the calling convention, the return type, and the number and
+types of arguments this function will receive.

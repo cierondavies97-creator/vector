@@ -1,0 +1,4 @@
+print(i.quantity_on_hand)   # 2
+Note that if a field is annotated with a descriptor type, but is not
+assigned a descriptor object as its default value, the field will act
+like a normal field.

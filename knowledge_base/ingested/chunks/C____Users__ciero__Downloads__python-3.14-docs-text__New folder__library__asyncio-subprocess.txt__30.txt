@@ -1,0 +1,5 @@
+started with a *creationflags* parameter which includes
+        "CREATE_NEW_PROCESS_GROUP".
+   terminate()
+      Stop the child process.
+      On POSIX systems this method sends "SIGTERM" to the child

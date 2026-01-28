@@ -1,0 +1,5 @@
+Return one of the following values:
+   * "None" if the file can't be opened because it's unreadable or
+     doesn't exist
+   * the empty string ("''") if the file's format can't be guessed
+   * a string containing the required module name, such as

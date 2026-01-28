@@ -1,0 +1,4 @@
+Return the *locale encoding* used for text data, according to user
+   preferences.  User preferences are expressed differently on
+   different systems, and might not be available programmatically on
+   some systems, so this function only returns a guess.

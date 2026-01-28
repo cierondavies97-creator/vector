@@ -1,0 +1,6 @@
+...         child2('two')
+   ...
+   >>> parent.mock_calls
+   [call.child1('one'), call.child2('two')]
+[1] The only exceptions are magic methods and attributes (those that
+    have leading and trailing double underscores). Mock doesn't create

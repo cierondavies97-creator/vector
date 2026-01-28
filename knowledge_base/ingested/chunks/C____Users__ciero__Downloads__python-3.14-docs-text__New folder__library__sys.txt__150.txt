@@ -1,0 +1,4 @@
+call; you may have to call "_clear_internal_caches()" and
+   "gc.collect()" to get more predictable results.
+   If a Python build or implementation cannot reasonably compute this
+   information, "getallocatedblocks()" is allowed to return 0 instead.

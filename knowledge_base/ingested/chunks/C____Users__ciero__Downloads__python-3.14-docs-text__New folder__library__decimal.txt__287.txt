@@ -1,0 +1,7 @@
+def pi():
+       """Compute Pi to the current precision.
+       >>> print(pi())
+       3.141592653589793238462643383
+       """
+       getcontext().prec += 2  # extra digits for intermediate steps
+       three = Decimal(3)      # substitute "three=3.0" for regular floats

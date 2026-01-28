@@ -1,0 +1,8 @@
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Agile Methods (late 90’s)
+▶ minimal planning, small development iterations
+▶ frequent input from environment
+▶ very adaptive, since nothing is set in stone

@@ -1,0 +1,9 @@
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+What is a Development Methodology?
+Consists of:
+▶ process used for development
+▶ tools to support this process
+Help answer questions like:

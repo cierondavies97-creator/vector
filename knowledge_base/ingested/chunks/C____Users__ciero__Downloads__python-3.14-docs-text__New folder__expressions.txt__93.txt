@@ -1,0 +1,3 @@
+The *type* argument should be an exception class, and *value*
+   should be an exception instance. If the *value* is not provided,
+   the *type* constructor is called to get an instance. If *traceback*

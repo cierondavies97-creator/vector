@@ -1,0 +1,4 @@
+output, and *dirfd* is a file descriptor referring to the directory
+   *dirpath*.
+   This function always supports paths relative to directory
+   descriptors and not following symlinks.  Note however that, unlike

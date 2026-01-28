@@ -1,0 +1,5 @@
+matched by the group *cannot* be retrieved after performing a match
+   or referenced later in the pattern.
+"(?aiLmsux-imsx:...)"
+   (Zero or more letters from the set "'a'", "'i'", "'L'", "'m'",
+   "'s'", "'u'", "'x'", optionally followed by "'-'" followed by one

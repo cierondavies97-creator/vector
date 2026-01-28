@@ -1,0 +1,5 @@
+"setlocale()" is not thread-safe on most systems. Applications
+   typically start with a call of:
+      import locale
+      locale.setlocale(locale.LC_ALL, '')
+   This sets the locale for all categories to the user's default

@@ -1,0 +1,4 @@
+base class "__slots__" may be any iterable, but *not* an
+      iterator.
+   * *weakref_slot*: If true (the default is "False"), add a slot
+     named "__weakref__", which is required to make an instance

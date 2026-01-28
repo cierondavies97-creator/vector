@@ -1,0 +1,6 @@
+module level functions:
+codecs.strict_errors(exception)
+   Implements the "'strict'" error handling.
+   Each encoding or decoding error raises a "UnicodeError".
+codecs.ignore_errors(exception)
+   Implements the "'ignore'" error handling.

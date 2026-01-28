@@ -1,0 +1,5 @@
+"Signature" objects are *immutable*.  Use "Signature.replace()" or
+   "copy.replace()" to make a modified copy.
+   Changed in version 3.5: "Signature" objects are now picklable and
+   *hashable*.
+   empty

@@ -1,0 +1,2 @@
+policy does not support these methods and should not be used with
+    "EmailMessage".

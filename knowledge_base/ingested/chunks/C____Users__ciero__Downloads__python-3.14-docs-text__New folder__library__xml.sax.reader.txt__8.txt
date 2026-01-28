@@ -1,0 +1,5 @@
+unpredictable. If information is not available, methods may return
+   "None".
+class xml.sax.xmlreader.InputSource(system_id=None)
+   Encapsulation of the information needed by the "XMLReader" to read
+   entities.

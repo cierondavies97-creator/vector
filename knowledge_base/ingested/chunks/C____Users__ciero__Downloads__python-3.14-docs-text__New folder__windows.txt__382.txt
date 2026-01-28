@@ -1,0 +1,4 @@
+have been superseded by the Python Install Manager described above.
+This is preserved temporarily for historical interest.
+Added in version 3.3.
+The Python launcher for Windows is a utility which aids in locating

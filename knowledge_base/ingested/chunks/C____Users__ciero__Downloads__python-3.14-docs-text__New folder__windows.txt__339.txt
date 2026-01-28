@@ -1,0 +1,2 @@
+| Shortcuts                   | Create shortcuts for the interpreter,  | 1                          |
+|                             | documentation and IDLE if installed.   |                            |

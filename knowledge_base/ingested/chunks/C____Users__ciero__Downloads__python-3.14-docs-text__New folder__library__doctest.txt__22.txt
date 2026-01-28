@@ -1,0 +1,5 @@
+==============================================
+Another simple application of doctest is testing interactive examples
+in a text file.  This can be done with the "testfile()" function:
+   import doctest
+   doctest.testfile("example.txt")

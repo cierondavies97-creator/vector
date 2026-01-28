@@ -1,0 +1,3 @@
+2008 revision of the IEEE 754 standard. It has a sign bit, a 5-bit
+   exponent and 11-bit precision (with 10 bits explicitly stored), and
+   can represent numbers between approximately "6.1e-05" and "6.5e+04"

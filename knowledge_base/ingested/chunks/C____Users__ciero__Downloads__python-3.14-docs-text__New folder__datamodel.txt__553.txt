@@ -1,0 +1,5 @@
+first tries iteration via "__iter__()", then the old sequence
+   iteration protocol via "__getitem__()", see this section in the
+   language reference.
+3.3.8. Emulating numeric types
+------------------------------

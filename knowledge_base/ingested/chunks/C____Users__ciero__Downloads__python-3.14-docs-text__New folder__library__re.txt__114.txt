@@ -1,0 +1,3 @@
+Octal escapes are included in a limited form.  If the first digit is a
+0, or if there are three octal digits, it is considered an octal
+escape. Otherwise, it is a group reference.  As for string literals,

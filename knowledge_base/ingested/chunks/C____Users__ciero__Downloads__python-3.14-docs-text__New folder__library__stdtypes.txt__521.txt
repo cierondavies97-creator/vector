@@ -1,0 +1,5 @@
+freely mixed in operations without causing errors. However, the return
+type of the result may depend on the order of operands.
+Note:
+  The methods on bytes and bytearray objects don't accept strings as
+  their arguments, just as the methods on strings don't accept bytes

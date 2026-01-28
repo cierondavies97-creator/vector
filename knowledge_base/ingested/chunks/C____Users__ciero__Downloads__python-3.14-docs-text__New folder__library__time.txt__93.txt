@@ -1,0 +1,3 @@
+Additional directives may be supported on certain platforms, but
+   only the ones listed here have a meaning standardized by ANSI C.
+   To see the full set of format codes supported on your platform,

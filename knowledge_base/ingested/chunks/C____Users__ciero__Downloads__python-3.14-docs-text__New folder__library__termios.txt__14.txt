@@ -1,0 +1,6 @@
+("termios.TIOCGWINSZ", "termios.TIOCSWINSZ"); ("termios.TIOCGSIZE",
+   "termios.TIOCSSIZE") to be defined.
+   Added in version 3.11.
+See also:
+  Module "tty"
+     Convenience functions for common terminal control operations.

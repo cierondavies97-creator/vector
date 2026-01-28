@@ -1,0 +1,5 @@
+Synchronization primitives
+--------------------------
+Generally synchronization primitives are not as necessary in a
+multiprocess program as they are in a multithreaded program.  See the
+documentation for "threading" module.

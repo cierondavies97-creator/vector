@@ -1,0 +1,4 @@
+IDLE's changes are lost and input from the keyboard and output to the
+screen will not work correctly.
+When Shell has the focus, it controls the keyboard and screen.  This
+is normally transparent, but functions that directly access the

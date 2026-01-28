@@ -1,0 +1,4 @@
+A wrapper around Zstandard dictionaries. Dictionaries can be used
+   to improve the compression of many small chunks of data. Use
+   "train_dict()" if you need to train a new dictionary from sample
+   data.

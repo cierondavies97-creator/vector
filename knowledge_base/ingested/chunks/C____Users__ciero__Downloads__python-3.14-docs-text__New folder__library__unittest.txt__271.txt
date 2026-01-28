@@ -1,0 +1,6 @@
+is used to create test cases using legacy test code, allowing it to
+   be integrated into a "unittest"-based test framework.
+Grouping tests
+--------------
+class unittest.TestSuite(tests=())
+   This class represents an aggregation of individual test cases and

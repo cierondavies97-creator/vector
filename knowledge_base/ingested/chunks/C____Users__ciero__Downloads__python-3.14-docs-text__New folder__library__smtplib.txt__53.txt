@@ -1,0 +1,5 @@
+as argument to the "AUTH" command; the valid values are those
+   listed in the "auth" element of "esmtp_features".
+   *authobject* must be a callable object taking an optional single
+   argument:
+      data = authobject(challenge=None)

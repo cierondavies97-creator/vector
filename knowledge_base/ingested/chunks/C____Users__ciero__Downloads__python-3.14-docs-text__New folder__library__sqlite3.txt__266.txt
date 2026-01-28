@@ -1,0 +1,3 @@
+* A converter for declared "date" types to "datetime.date" objects.
+* A converter for declared "timestamp" types to "datetime.datetime"
+  objects. Fractional parts will be truncated to 6 digits (microsecond

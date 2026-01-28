@@ -1,0 +1,4 @@
+process. *resource* and *limits* have the same meaning as in
+   "setrlimit()", except that *limits* is optional.
+   When *limits* is not given the function returns the *resource*
+   limit of the process *pid*. When *limits* is given the *resource*

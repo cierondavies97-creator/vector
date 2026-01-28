@@ -1,0 +1,4 @@
+The "decode()" method returns a "DefragResult" instance.
+   Added in version 3.2.
+class urllib.parse.ParseResultBytes(scheme, netloc, path, params, query, fragment)
+   Concrete class for "urlparse()" results containing "bytes" data.

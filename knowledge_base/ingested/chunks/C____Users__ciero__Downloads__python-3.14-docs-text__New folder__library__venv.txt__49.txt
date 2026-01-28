@@ -1,0 +1,5 @@
+instantiation:
+   * *system_site_packages* -- a boolean value indicating that the
+     system Python site-packages should be available to the
+     environment (defaults to "False").
+   * *clear* -- a boolean value which, if true, will delete the

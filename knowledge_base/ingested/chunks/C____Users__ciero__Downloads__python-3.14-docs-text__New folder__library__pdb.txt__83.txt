@@ -1,0 +1,4 @@
+j(ump) lineno
+   Set the next line that will be executed.  Only available in the
+   bottom-most frame.  This lets you jump back and execute code again,
+   or jump forward to skip code that you don't want to run.

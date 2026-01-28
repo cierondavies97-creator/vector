@@ -1,0 +1,6 @@
+"True" if the running interpreter is Jython.
+test.support.is_android
+   "True" if "sys.platform" is "android".
+test.support.is_emscripten
+   "True" if "sys.platform" is "emscripten".
+test.support.is_wasi

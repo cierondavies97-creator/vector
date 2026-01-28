@@ -1,0 +1,4 @@
+resides in its own file. An MH mailbox may contain other MH
+   mailboxes (called *folders*) in addition to messages. Folders may
+   be nested indefinitely. MH mailboxes also support *sequences*,
+   which are named lists used to logically group messages without

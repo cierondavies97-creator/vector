@@ -1,0 +1,6 @@
+for", and "async with".
+class complex(number=0, /)
+class complex(string, /)
+class complex(real=0, imag=0)
+   Convert a single string or number to a complex number, or create a
+   complex number from real and imaginary parts.

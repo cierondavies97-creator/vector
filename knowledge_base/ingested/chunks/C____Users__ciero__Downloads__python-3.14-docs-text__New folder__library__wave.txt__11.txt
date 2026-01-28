@@ -1,0 +1,7 @@
+"get*()" methods.
+   readframes(n)
+      Reads and returns at most *n* frames of audio, as a "bytes"
+      object.
+   rewind()
+      Rewind the file pointer to the beginning of the audio stream.
+   The following two methods are defined for compatibility with the

@@ -1,0 +1,4 @@
+use of randomized hashing may reduce the amount of security
+   provided by a digital signature when all portions of the message
+   are prepared by the signer.
+   (NIST SP-800-106 "Randomized Hashing for Digital Signatures")

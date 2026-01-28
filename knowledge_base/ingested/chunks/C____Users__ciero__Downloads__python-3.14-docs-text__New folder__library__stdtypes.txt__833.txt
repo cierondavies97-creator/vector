@@ -1,0 +1,4 @@
+exception from the "with" block, the new exception is raised, and
+   the original exception is stored in its "__context__" attribute.
+   The exception passed in should never be reraised explicitly -
+   instead, this method should return a false value to indicate that

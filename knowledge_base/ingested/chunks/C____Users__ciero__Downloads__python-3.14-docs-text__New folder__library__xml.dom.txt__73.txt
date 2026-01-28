@@ -1,0 +1,6 @@
+If a DOM implementation supports modification of the document, the
+"NodeList" implementation must also support the "__setitem__()" and
+"__delitem__()" methods.
+DocumentType Objects
+--------------------
+Information about the notations and entities declared by a document

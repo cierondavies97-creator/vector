@@ -1,0 +1,5 @@
+True
+   Changed in version 3.3: Support for name aliases [1] and named
+   sequences [2] has been added.
+unicodedata.name(chr, default=None, /)
+   Returns the name assigned to the character *chr* as a string. If no

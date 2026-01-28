@@ -1,0 +1,5 @@
+Corresponding tools
+-------------------
+Below is a table mapping various "os" functions to their corresponding
+"PurePath"/"Path" equivalent.
++---------------------------------------+------------------------------------------------+

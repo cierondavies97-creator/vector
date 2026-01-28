@@ -1,0 +1,7 @@
+...     BLUE = auto()
+         ...
+         >>> purple = Color.RED | Color.BLUE
+         >>> white = Color.RED | Color.GREEN | Color.BLUE
+         >>> Color.GREEN in purple
+         False
+         >>> Color.GREEN in white

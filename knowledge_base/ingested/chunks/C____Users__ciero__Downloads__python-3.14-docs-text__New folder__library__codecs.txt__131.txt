@@ -1,0 +1,5 @@
+the encoding and the given size, e.g.  if optional encoding
+      endings or state markers are available on the stream, these
+      should be read too.
+   readline(size=None, keepends=True)
+      Read one line from the input stream and return the decoded data.

@@ -1,0 +1,5 @@
+words, for the non-corner cases:
+      * if *ndigits* is positive, return *number* rounded to *ndigits*
+        decimal places;
+      * if *ndigits* is zero, return *number* rounded to the nearest
+        integer;

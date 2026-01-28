@@ -1,0 +1,5 @@
+callee's frame will be on the stack)
+sys.monitoring.events.PY_THROW
+   A Python function is resumed by a "throw()" call.
+sys.monitoring.events.PY_UNWIND
+   Exit from a Python function during exception unwinding. This

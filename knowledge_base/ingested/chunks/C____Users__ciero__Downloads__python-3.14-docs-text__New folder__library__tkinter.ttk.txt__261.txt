@@ -1,0 +1,6 @@
+entire cavity.
+*sticky*: nswe
+   Specifies where the element is placed inside its allocated parcel.
+*unit*: 0 or 1
+   If set to 1, causes the element and all of its descendants to be
+   treated as a single element for the purposes of "Widget.identify()"

@@ -1,0 +1,6 @@
+path='/3/library/urllib.parse.html', params='',
+                  query='highlight=params', fragment='url-parsing')
+      >>> o.scheme
+      'http'
+      >>> o.netloc
+      'docs.python.org:80'

@@ -1,0 +1,4 @@
+that "Mailbox" instance. A key continues to identify a message even
+   if the corresponding message is modified, such as by replacing it
+   with another message.
+   Messages may be added to a "Mailbox" instance using the set-like

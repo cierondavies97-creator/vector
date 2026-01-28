@@ -1,0 +1,5 @@
+transport calls protocol methods to pass it data that has been
+received.
+Most of connection oriented event loop methods (such as
+"loop.create_connection()") usually accept a *protocol_factory*
+argument used to create a *Protocol* object for an accepted

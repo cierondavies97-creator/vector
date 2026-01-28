@@ -1,0 +1,4 @@
+they will occur only if serious fundamental flaws are uncovered
+   that were missed prior to the inclusion of the API.
+   Even for provisional APIs, backwards incompatible changes are seen
+   as a "solution of last resort" - every attempt will still be made

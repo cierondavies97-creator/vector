@@ -1,0 +1,5 @@
+Changed in version 3.1: Support for file and file-like objects.
+zipfile.ZIP_STORED
+   The numeric constant for an uncompressed archive member.
+zipfile.ZIP_DEFLATED
+   The numeric constant for the usual ZIP compression method.  This

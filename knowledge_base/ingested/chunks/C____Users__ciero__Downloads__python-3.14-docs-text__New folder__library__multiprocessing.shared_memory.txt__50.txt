@@ -1,0 +1,4 @@
+memory blocks created using that manager are all released when the
+"with" statement's code block finishes execution.
+class multiprocessing.shared_memory.ShareableList(sequence=None, *, name=None)
+   Provide a mutable list-like object where all values stored within

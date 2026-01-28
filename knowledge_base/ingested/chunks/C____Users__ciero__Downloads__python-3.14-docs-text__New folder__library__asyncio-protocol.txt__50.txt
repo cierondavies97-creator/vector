@@ -1,0 +1,5 @@
+the integer file descriptor *fd*:
+   * "0": writable streaming transport of the standard input
+     (*stdin*), or "None" if the subprocess was not created with
+     "stdin=PIPE"
+   * "1": readable streaming transport of the standard output

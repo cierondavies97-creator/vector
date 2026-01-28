@@ -1,0 +1,3 @@
+risk. While the function only binds to a socket on "localhost",
+     and so does not accept connections from remote machines, there
+     are scenarios where untrusted code could be run under the account

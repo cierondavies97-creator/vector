@@ -1,0 +1,6 @@
+_PyPegen_star_etc(p, NULL, b, c) }
+       | a=kwds { _PyPegen_star_etc(p, NULL, NULL, a) }
+   kwds[arg_ty]:
+       | invalid_kwds
+       | '**' a=param_no_default { a }
+   # One parameter.  This *includes* a following comma and type comment.

@@ -1,0 +1,5 @@
+II: Certificate-Based Key Management**
+     Steve Kent
+  **RFC 4086: Randomness Requirements for Security**
+     Donald E. Eastlake, Jeffrey I. Schiller, Steve Crocker
+  **RFC 5280: Internet X.509 Public Key Infrastructure Certificate and

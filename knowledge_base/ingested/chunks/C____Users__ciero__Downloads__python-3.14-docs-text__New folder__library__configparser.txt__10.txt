@@ -1,0 +1,4 @@
+There are differences, outlined later, but the behavior is very close
+to what you would expect from a dictionary.
+Now that we have created and saved a configuration file, let's read it
+back and explore the data it holds.

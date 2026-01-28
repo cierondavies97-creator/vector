@@ -1,0 +1,5 @@
+structure/content/please_add.txt
+Querying the size of the output terminal
+========================================
+shutil.get_terminal_size(fallback=(columns, lines))
+   Get the size of the terminal window.

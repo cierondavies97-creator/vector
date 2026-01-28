@@ -1,0 +1,5 @@
+check the size of the data it has downloaded, and just returns it.
+   In this case you just have to assume that the download was
+   successful.
+urllib.request.urlcleanup()
+   Cleans up temporary files that may have been left behind by

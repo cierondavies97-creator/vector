@@ -1,0 +1,3 @@
+iterations of SHA-256 are suggested. For rationale as to why and
+   how to choose what is best for your application, read *Appendix
+   A.2.2* of NIST-SP-800-132. The answers on the stackexchange pbkdf2

@@ -1,0 +1,4 @@
+"SSLContext.load_verify_locations()".  If all three are "None",
+   this function can choose to trust the system's default CA
+   certificates instead.
+   The settings are: "PROTOCOL_TLS_CLIENT" or "PROTOCOL_TLS_SERVER",

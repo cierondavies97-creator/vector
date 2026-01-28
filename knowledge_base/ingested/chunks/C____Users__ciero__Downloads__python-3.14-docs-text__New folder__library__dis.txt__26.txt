@@ -1,0 +1,5 @@
+convert the input directly to the desired output. They can be useful
+if only a single operation is being performed, so the intermediate
+analysis object isn't useful:
+dis.code_info(x)
+   Return a formatted multi-line string with detailed code object

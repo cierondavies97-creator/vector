@@ -1,0 +1,4 @@
+class csv.Dialect
+   The "Dialect" class is a container class whose attributes contain
+   information for how to handle doublequotes, whitespace, delimiters,
+   etc. Due to the lack of a strict CSV specification, different

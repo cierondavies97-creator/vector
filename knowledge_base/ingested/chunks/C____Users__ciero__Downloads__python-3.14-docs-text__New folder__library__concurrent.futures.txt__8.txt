@@ -1,0 +1,4 @@
+the buffer is full, iteration over the *iterables* pauses
+        until a result is yielded from the buffer.
+      * *fn* is executed asynchronously and several calls to *fn* may
+        be made concurrently.

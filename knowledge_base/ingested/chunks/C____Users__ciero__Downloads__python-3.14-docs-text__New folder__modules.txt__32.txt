@@ -1,0 +1,3 @@
+of the search path, ahead of the standard library path. This means
+that scripts in that directory will be loaded instead of modules of
+the same name in the library directory. This is an error unless the

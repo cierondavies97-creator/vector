@@ -1,0 +1,4 @@
+This code is actually automatically run when Python is run in
+interactive mode (see Readline configuration).
+The following example achieves the same goal but supports concurrent
+interactive sessions, by only appending the new history.

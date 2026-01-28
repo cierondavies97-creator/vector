@@ -1,0 +1,5 @@
+The deprecation policy is described in **PEP 387**.
+exception SyntaxWarning
+   Base class for warnings about dubious syntax.
+   This warning is typically emitted when compiling Python source
+   code, and usually won't be reported when running already compiled

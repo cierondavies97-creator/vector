@@ -1,0 +1,5 @@
+typing best practices.
+Specification for the Python Type System
+========================================
+The canonical, up-to-date specification of the Python type system can
+be found at Specification for the Python type system.

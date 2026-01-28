@@ -1,0 +1,5 @@
+"Path" object.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*
+   parameter.
+   Changed in version 3.13: Added the *cleanup_socket* parameter.
+async loop.connect_accepted_socket(protocol_factory, sock, *, ssl=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None)

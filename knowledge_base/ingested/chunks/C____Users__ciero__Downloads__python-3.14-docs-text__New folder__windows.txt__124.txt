@@ -1,0 +1,3 @@
+administrative distribution platforms, there is an MSI available from
+the python.org downloads page. This MSI has no user interface, and can
+only perform per-machine installs to its default location in Program

@@ -1,0 +1,4 @@
+sequence "socket()", "bind()", "listen()", "accept()" (possibly
+repeating the "accept()" to service more than one client), while a
+client only needs the sequence "socket()", "connect()".  Also note
+that the server does not "sendall()"/"recv()" on the socket it is

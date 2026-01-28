@@ -1,0 +1,4 @@
+1000000 loops, best of 5: 0.342 usec per loop
+In the output, there are three fields. The loop count, which tells you
+how many times the statement body was run per timing loop repetition.
+The repetition count ('best of 5') which tells you how many times the

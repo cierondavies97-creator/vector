@@ -1,0 +1,6 @@
+con1.execute("INSERT INTO shared VALUES(28)")
+   res = con2.execute("SELECT data FROM shared")
+   assert res.fetchone() == (28,)
+   con1.close()
+   con2.close()
+More information about this feature, including a list of parameters,

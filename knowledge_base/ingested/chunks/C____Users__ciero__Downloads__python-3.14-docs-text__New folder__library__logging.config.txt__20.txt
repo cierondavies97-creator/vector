@@ -1,0 +1,4 @@
+just part of the overall application configuration.
+      * Use of a configuration read from a file, and then modified by
+        the using application (e.g. based on command-line parameters
+        or other aspects of the runtime environment) before being

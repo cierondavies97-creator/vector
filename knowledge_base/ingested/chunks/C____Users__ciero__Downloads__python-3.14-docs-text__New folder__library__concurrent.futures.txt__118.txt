@@ -1,0 +1,5 @@
+executor is broken for some reason, and cannot be used to submit or
+   execute new tasks.
+   Added in version 3.7.
+exception concurrent.futures.InvalidStateError
+   Raised when an operation is performed on a future that is not

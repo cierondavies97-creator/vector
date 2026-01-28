@@ -1,0 +1,5 @@
+is only meaningful for HTTP requests.
+   Changed in version 3.3: get_method now looks at the value of
+   "Request.method".
+Request.add_header(key, val)
+   Add another header to the request.  Headers are currently ignored

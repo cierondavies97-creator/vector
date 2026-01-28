@@ -1,0 +1,4 @@
+tuples, a "TypeError" exception is raised. "TypeError" may not be
+   raised for an invalid type if an earlier check succeeds.
+   Changed in version 3.10: *classinfo* can be a Union Type.
+issubclass(class, classinfo, /)

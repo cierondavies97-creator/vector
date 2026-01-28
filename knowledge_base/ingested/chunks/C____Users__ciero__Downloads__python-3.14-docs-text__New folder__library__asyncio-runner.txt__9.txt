@@ -1,0 +1,6 @@
+to configure the event loop.
+Runner context manager
+======================
+class asyncio.Runner(*, debug=None, loop_factory=None)
+   A context manager that simplifies *multiple* async function calls
+   in the same context.

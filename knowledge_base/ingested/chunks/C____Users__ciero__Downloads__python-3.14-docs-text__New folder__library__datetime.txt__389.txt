@@ -1,0 +1,2 @@
+| Usage            | Convert object to a string according to a given format   | Parse a string into an object given a corresponding format   |
++------------------+----------------------------------------------------------+--------------------------------------------------------------+

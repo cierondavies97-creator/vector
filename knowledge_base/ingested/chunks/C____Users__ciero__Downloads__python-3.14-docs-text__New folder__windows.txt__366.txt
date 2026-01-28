@@ -1,0 +1,5 @@
+<Option Name="Include_test" Value="no" />
+       <Option Name="SimpleInstall" Value="yes" />
+       <Option Name="SimpleInstallDescription">Just for me, no test suite</Option>
+   </Options>
+4.11.4. Installing without downloading

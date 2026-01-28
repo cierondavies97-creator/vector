@@ -1,0 +1,4 @@
+to use the special functions defined by this module: "atof()",
+"atoi()", "format_string()", "str()".
+There is no way to perform case conversions and character
+classifications according to the locale.  For (Unicode) text strings

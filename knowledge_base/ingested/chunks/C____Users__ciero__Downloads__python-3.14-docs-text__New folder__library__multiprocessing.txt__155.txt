@@ -1,0 +1,3 @@
+data to be lost, and you almost certainly will not need to use
+      it. It is really only there if you need the current process to
+      exit immediately without waiting to flush enqueued data to the

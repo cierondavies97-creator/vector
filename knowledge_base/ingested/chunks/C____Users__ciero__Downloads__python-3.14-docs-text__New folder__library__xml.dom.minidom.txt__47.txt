@@ -1,0 +1,5 @@
+not be changed.
+* "DOMException" is currently not supported in "xml.dom.minidom".
+  Instead, "xml.dom.minidom" uses standard Python exceptions such as
+  "TypeError" and "AttributeError".
+* "NodeList" objects are implemented using Python's built-in list

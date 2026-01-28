@@ -1,0 +1,4 @@
+boundary and edge cases are tested.
+* Make sure all possible values are tested including invalid ones.
+  This makes sure that not only all valid values are acceptable but
+  also that improper values are handled correctly.

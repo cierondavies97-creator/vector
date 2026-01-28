@@ -1,0 +1,4 @@
+for more information). When using "ZIP_ZSTANDARD" integers
+   "-131072" through "22" are commonly accepted (see
+   "CompressionParameter.compression_level" for more on retrieving
+   valid values and their meaning).

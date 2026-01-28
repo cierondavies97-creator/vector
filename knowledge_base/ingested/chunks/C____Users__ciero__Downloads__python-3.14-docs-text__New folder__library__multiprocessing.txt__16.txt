@@ -1,0 +1,4 @@
+unnecessary file descriptors and handles from the parent process
+      will not be inherited.  Starting a process using this method is
+      rather slow compared to using *fork* or *forkserver*.
+      Available on POSIX and Windows platforms.  The default on

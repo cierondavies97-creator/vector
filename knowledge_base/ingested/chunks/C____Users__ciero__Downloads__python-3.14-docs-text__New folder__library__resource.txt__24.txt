@@ -1,0 +1,6 @@
+Usually an alias of "RLIMIT_AS".
+   Availability: Solaris, FreeBSD, NetBSD.
+resource.RLIMIT_AS
+   The maximum area (in bytes) of address space which may be taken by
+   the process.
+resource.RLIMIT_MSGQUEUE

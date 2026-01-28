@@ -1,0 +1,3 @@
+| "'namereplace'"           | Replace with "\N{...}" escape sequences, what   |
+|                           | appears in the braces is the Name property from |
+|                           | Unicode Character Database. Implemented in      |

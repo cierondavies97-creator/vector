@@ -1,0 +1,5 @@
+provided.
+   For text mode, a "GzipFile" object is created, and wrapped in an
+   "io.TextIOWrapper" instance with the specified encoding, error
+   handling behavior, and line ending(s).
+   Changed in version 3.3: Added support for *filename* being a file

@@ -1,0 +1,4 @@
+* "__format__", because it uses "__str__", will also use the value
+     of the enum member instead of its name
+   If you do not need/want those limitations, you can either create
+   your own base class by mixing in the "int" or "str" type yourself:

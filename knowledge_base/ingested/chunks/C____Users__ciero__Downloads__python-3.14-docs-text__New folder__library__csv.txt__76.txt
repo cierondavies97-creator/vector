@@ -1,0 +1,5 @@
+csvreader.line_num
+   The number of lines read from the source iterator. This is not the
+   same as the number of records returned, as records can span
+   multiple lines.
+DictReader objects have the following public attribute:

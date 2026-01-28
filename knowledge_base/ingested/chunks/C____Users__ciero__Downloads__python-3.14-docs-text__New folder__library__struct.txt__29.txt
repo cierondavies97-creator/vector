@@ -1,0 +1,5 @@
+endian as defined in IETF RFC 1700.
+There is no way to indicate non-native byte order (force byte-
+swapping); use the appropriate choice of "'<'" or "'>'".
+Notes:
+1. Padding is only automatically added between successive structure

@@ -1,0 +1,4 @@
+file. Assignment to an "ACCESS_COPY" memory map affects memory but
+does not update the underlying file.
+Changed in version 3.7: Added "ACCESS_DEFAULT" constant.
+To map anonymous memory, -1 should be passed as the fileno along with

@@ -1,0 +1,4 @@
+update([iterable-or-mapping])
+      Elements are counted from an *iterable* or added-in from another
+      *mapping* (or counter).  Like "dict.update()" but adds counts
+      instead of replacing them.  Also, the *iterable* is expected to

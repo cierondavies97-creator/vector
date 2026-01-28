@@ -1,0 +1,9 @@
+...    async with mycontext():
+      ...         print('The bit in the middle')
+      ...
+      >>> run(function())
+      Starting
+      The bit in the middle
+      Finishing
+   Added in version 3.10.
+class contextlib.ExitStack

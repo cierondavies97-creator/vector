@@ -1,0 +1,7 @@
+advanced Windows-specific support.  This includes utilities for:
+* Component Object Model (COM)
+* Win32 API calls
+* Registry
+* Event log
+* Microsoft Foundation Classes (MFC) user interfaces
+PythonWin is a sample MFC application shipped with PyWin32.  It is an

@@ -1,0 +1,5 @@
+If *rmode* is not given, return current resizemode.  Different
+   resizemodes have the following effects:
+   * "auto": adapts the appearance of the turtle corresponding to the
+     value of pensize.
+   * "user": adapts the appearance of the turtle according to the

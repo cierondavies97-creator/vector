@@ -1,0 +1,3 @@
+|===========================|=================================================|
+| "'xmlcharrefreplace'"     | Replace with XML/HTML numeric character         |
+|                           | reference, which is a decimal form of Unicode   |

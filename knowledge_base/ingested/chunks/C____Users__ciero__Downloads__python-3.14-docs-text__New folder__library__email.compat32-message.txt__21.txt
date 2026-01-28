@@ -1,0 +1,4 @@
+as_bytes(unixfrom=False, policy=None)
+      Return the entire message flattened as a bytes object.  When
+      optional *unixfrom* is true, the envelope header is included in
+      the returned string.  *unixfrom* defaults to "False".  The

@@ -1,0 +1,4 @@
+"generic_visit()" method for the node first.
+   For nodes that were part of a collection of statements (that
+   applies to all statement nodes), the visitor may also return a list
+   of nodes rather than just a single node.

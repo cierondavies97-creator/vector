@@ -1,0 +1,4 @@
+the *referent* of the proxy.  Multiple proxy objects may have the same
+referent.
+A proxy object has methods which invoke corresponding methods of its
+referent (although not every method of the referent will necessarily

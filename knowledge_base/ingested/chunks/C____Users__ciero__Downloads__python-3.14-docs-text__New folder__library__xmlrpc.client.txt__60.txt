@@ -1,0 +1,5 @@
+server.serve_forever()
+The client gets the image and saves it to a file:
+   import xmlrpc.client
+   proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")
+   with open("fetched_python_logo.jpg", "wb") as handle:

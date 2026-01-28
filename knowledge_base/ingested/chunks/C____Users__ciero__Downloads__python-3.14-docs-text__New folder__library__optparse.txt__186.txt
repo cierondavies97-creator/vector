@@ -1,0 +1,5 @@
+See section Tutorial for an example.
+Standard option actions
+-----------------------
+The various option actions all have slightly different requirements
+and effects. Most actions have several relevant option attributes

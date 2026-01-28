@@ -1,0 +1,4 @@
+entire document is processed. So these interfaces should be used if
+   the blocking behaviour of "parse()" is not desirable.
+   When the parser is instantiated it is ready to begin accepting data
+   from the feed method immediately. After parsing has been finished

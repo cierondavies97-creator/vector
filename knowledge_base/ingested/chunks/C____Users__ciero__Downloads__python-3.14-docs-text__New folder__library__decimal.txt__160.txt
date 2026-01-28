@@ -1,0 +1,3 @@
+*kwargs* argument is used to set the attributes of the new context.
+   For example, the following code sets the current decimal precision
+   to 42 places, performs a calculation, and then automatically

@@ -1,0 +1,5 @@
+ignore::PendingDeprecationWarning
+   ignore::ImportWarning
+   ignore::ResourceWarning
+In a debug build, the list of default warning filters is empty.
+Changed in version 3.2: "DeprecationWarning" is now ignored by default

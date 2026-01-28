@@ -1,0 +1,7 @@
+object.__lt__(self, other)
+object.__le__(self, other)
+object.__eq__(self, other)
+object.__ne__(self, other)
+object.__gt__(self, other)
+object.__ge__(self, other)
+   These are the so-called "rich comparison" methods. The

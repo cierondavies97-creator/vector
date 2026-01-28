@@ -1,0 +1,4 @@
+"net_loc"), which was introduced in **RFC 1808**. However, this term
+has been obsoleted by **RFC 3986**, which introduced the term
+"authority" as its replacement. The use of "netloc" is continued for
+backward compatibility.

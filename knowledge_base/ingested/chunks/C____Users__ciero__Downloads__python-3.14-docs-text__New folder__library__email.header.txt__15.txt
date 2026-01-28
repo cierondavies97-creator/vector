@@ -1,0 +1,3 @@
+*maxlinelen*.  For splitting the first line to a shorter value (to
+   account for the field header which isn't included in *s*, e.g.
+   *Subject*) pass in the name of the field in *header_name*.  The

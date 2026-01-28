@@ -1,0 +1,4 @@
+for the "SIGSEGV", "SIGFPE", "SIGABRT", "SIGBUS" and "SIGILL"
+  signals to dump the Python traceback on a crash.
+  It behaves as if the "-X faulthandler" command line option is used
+  or if the "PYTHONFAULTHANDLER" environment variable is set to "1".

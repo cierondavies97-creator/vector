@@ -1,0 +1,4 @@
+both, like normal functions, are handled as descriptors).
+   When *func* is a descriptor (such as a normal Python function,
+   "classmethod()", "staticmethod()", "abstractmethod()" or another
+   instance of "partialmethod"), calls to "__get__" are delegated to

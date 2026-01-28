@@ -1,0 +1,7 @@
+subnet_of(other)
+      Return "True" if this network is a subnet of *other*.
+      >>> a = ip_network('192.168.1.0/24')
+      >>> b = ip_network('192.168.1.128/30')
+      >>> b.subnet_of(a)
+      True
+      Added in version 3.7.

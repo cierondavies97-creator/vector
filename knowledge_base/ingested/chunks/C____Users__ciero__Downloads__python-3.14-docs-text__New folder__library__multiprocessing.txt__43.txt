@@ -1,0 +1,5 @@
+p.start()
+          print(parent_conn.recv())   # prints "[42, None, 'hello']"
+          p.join()
+   The two connection objects returned by "Pipe()" represent the two
+   ends of the pipe.  Each connection object has "send()" and "recv()"

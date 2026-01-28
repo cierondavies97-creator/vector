@@ -1,0 +1,4 @@
+socket object was created.  Socket addresses are represented as
+follows:
+* The address of an "AF_UNIX" socket bound to a file system node is
+  represented as a string, using the file system encoding and the

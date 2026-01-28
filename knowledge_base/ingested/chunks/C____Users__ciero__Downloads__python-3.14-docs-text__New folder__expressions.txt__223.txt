@@ -1,0 +1,4 @@
+Comparisons yield boolean values: "True" or "False". Custom *rich
+comparison methods* may return non-boolean values. In this case Python
+will call "bool()" on such value in boolean contexts.
+Comparisons can be chained arbitrarily, e.g., "x < y <= z" is

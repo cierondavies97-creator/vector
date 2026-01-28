@@ -1,0 +1,4 @@
+returned if your function does not have a return statement).
+By proactively following this convention ourselves, our module will
+have the same behavior when run directly (i.e. "python echo.py") as it
+will have if we later package it as a console script entry-point in a

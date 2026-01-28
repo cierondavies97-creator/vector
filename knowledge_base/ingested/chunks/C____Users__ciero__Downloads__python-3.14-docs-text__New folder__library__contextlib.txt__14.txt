@@ -1,0 +1,4 @@
+context manager will indicate to the "with" statement that the
+   exception has been handled, and execution will resume with the
+   statement immediately following the "with" statement.
+   "contextmanager()" uses "ContextDecorator" so the context managers

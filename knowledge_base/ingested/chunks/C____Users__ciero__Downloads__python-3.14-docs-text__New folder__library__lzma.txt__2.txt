@@ -1,0 +1,4 @@
+file formats used by the **xz** utility, as well as raw compressed
+streams.
+The interface provided by this module is very similar to that of the
+"bz2" module. Note that "LZMAFile" and "bz2.BZ2File" are *not* thread-

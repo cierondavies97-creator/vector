@@ -1,0 +1,4 @@
+not be necessary to call this method explicitly.  It will be
+   implicitly called by "sendmail()" when necessary.
+SMTP.ehlo_or_helo_if_needed()
+   This method calls "ehlo()" and/or "helo()" if there has been no

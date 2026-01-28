@@ -1,0 +1,4 @@
+carefully.
+     Here are the rules governing implicit creation of a "__hash__()"
+     method.  Note that you cannot both have an explicit "__hash__()"
+     method in your dataclass and set "unsafe_hash=True"; this will

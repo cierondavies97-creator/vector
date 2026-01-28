@@ -1,0 +1,5 @@
+POP3.getwelcome()
+   Returns the greeting string sent by the POP3 server.
+POP3.capa()
+   Query the server's capabilities as specified in **RFC 2449**.
+   Returns a dictionary in the form "{'name': ['param'...]}".

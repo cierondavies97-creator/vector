@@ -1,0 +1,4 @@
+renders the meaning of the program undefined.  In the future, a
+  check may be added to prevent this.
+* "TypeError" will be raised if nonempty *__slots__* are defined for a
+  class derived from a ""variable-length" built-in type" such as

@@ -1,0 +1,8 @@
+winreg.REG_FULL_RESOURCE_DESCRIPTOR
+   A hardware setting.
+winreg.REG_RESOURCE_REQUIREMENTS_LIST
+   A hardware resource list.
+winreg.REG_SZ
+   A null-terminated string.
+Registry Handle Objects
+=======================

@@ -1,0 +1,4 @@
+of *func*.
+   This coroutine function is primarily intended to be used for
+   executing IO-bound functions/methods that would otherwise block the
+   event loop if they were run in the main thread. For example:

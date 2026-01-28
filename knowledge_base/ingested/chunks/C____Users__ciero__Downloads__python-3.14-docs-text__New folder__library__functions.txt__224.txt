@@ -1,0 +1,3 @@
+applies for binary buffered I/O, but "TextIOWrapper" (i.e., files
+   opened with "mode='r+'") would have another buffering. To disable
+   buffering in "TextIOWrapper", consider using the "write_through"

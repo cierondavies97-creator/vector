@@ -1,0 +1,4 @@
+files (written to your "%TEMP%" directory by default).
+-[ Troubleshooting ]-
++----------------------------------------------------+----------------------------------------------------+
+| Symptom                                            | Things to try                                      |

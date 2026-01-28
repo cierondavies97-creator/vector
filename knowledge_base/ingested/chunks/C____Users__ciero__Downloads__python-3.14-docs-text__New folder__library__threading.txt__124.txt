@@ -1,0 +1,4 @@
+* If another thread owns the lock, return immediately.
+         * If the same thread owns the lock, acquire the lock again
+           and return immediately.
+      In all cases, if the thread was able to acquire the lock, return

@@ -1,0 +1,4 @@
+Here's an option that expects an integer argument:
+   parser.add_option("-n", type="int", dest="num")
+Note that this option has no long option string, which is perfectly
+acceptable. Also, there's no explicit action, since the default is

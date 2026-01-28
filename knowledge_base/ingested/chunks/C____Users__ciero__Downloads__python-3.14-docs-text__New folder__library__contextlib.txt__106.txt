@@ -1,0 +1,3 @@
+resource acquisition and release functions, along with an optional
+validation function, and maps them to the context management protocol:
+   from contextlib import contextmanager, AbstractContextManager, ExitStack

@@ -1,0 +1,4 @@
+An object of type "time" or "datetime" may be aware or naive.
+A "datetime" object "d" is aware if both of the following hold:
+1. "d.tzinfo" is not "None"
+2. "d.tzinfo.utcoffset(d)" does not return "None"

@@ -1,0 +1,3 @@
+arguments to provide a default value for the given *key*, this
+      value is inserted in the dictionary for the *key*, and returned.
+      If calling "default_factory" raises an exception this exception

@@ -1,0 +1,4 @@
+a *sock* parameter is specified.  Abstract Unix sockets, "str",
+   "bytes", and "Path" paths are supported.
+   See the documentation of the "loop.create_connection()" method for
+   information about arguments to this method.

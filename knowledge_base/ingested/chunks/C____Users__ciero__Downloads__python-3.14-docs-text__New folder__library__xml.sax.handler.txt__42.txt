@@ -1,0 +1,3 @@
+holds an instance of the AttributesNS interface containing the
+   attributes of the element.  If no namespace is associated with the
+   element, the *uri* component of *name* will be "None".  The object

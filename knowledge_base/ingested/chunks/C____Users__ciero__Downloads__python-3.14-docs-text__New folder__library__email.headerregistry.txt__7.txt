@@ -1,0 +1,4 @@
+"HeaderRegistry", and finally the support classes used to represent
+the data parsed from structured headers.
+class email.headerregistry.BaseHeader(name, value)
+   *name* and *value* are passed to "BaseHeader" from the

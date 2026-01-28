@@ -1,0 +1,4 @@
+* **port** (*int*) -- The TCP port to connect to (default:
+           "21", as specified by the FTP protocol specification). It
+           is rarely needed to specify a different port number.
+         * **timeout** (*float** | **None*) -- A timeout in seconds

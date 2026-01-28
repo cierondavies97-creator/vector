@@ -1,0 +1,3 @@
++-----------+------------------------------------------------------------+
+In addition to the above presentation types, integers can be formatted
+with the floating-point presentation types listed below (except "'n'"

@@ -1,0 +1,6 @@
+>>> parser.parse_args(['--foo', '2'])
+   Namespace(foo='2')
+   >>> parser.parse_args([])
+   Namespace(foo=42)
+If the target namespace already has an attribute set, the action
+*default* will not overwrite it:

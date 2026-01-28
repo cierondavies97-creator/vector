@@ -1,0 +1,4 @@
+needed using an ASCII-compatible *Content-Transfer-Encoding*.
+      That is, transform parts with non-ASCII *Content-Transfer-
+      Encoding* (*Content-Transfer-Encoding: 8bit*) to an ASCII
+      compatible *Content-Transfer-Encoding*, and encode RFC-invalid

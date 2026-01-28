@@ -1,0 +1,4 @@
+======================================================================
+Submodules in the "html" package are:
+* "html.parser" -- HTML/XHTML parser with lenient parsing mode
+* "html.entities" -- HTML entity definitions

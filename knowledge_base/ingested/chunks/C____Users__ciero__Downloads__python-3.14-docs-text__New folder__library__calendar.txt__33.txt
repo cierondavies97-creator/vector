@@ -1,0 +1,6 @@
+platform-dependent.
+   pryear(theyear, w=2, l=1, c=6, m=3)
+      Print the calendar for an entire year as returned by
+      "formatyear()".
+class calendar.HTMLCalendar(firstweekday=0)
+   This class can be used to generate HTML calendars.

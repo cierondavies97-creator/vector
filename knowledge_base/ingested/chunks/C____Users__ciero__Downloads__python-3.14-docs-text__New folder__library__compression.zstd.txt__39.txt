@@ -1,0 +1,4 @@
+parameters are documented as part of the "CompressionParameter"
+   documentation.
+   The *zstd_dict* argument is an optional instance of "ZstdDict"
+   containing trained data to improve compression efficiency. The

@@ -1,0 +1,4 @@
+Changed in version 3.8: Calling "forkpty()" in a subinterpreter is
+   no longer supported ("RuntimeError" is raised).
+   Changed in version 3.12: If Python is able to detect that your
+   process has multiple threads, this now raises a

@@ -1,0 +1,4 @@
+DSTEND_2007 = datetime(1, 11, 1, 2)
+   # From 1987 to 2006, DST used to start at 2am (standard time) on the first
+   # Sunday in April and to end at 2am (DST time) on the last
+   # Sunday of October, which is the first Sunday on or after Oct 25.

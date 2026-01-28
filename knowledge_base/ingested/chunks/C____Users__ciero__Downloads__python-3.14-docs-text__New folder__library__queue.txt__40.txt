@@ -1,0 +1,4 @@
+Return the approximate size of the queue.  Note, qsize() > 0
+   doesn't guarantee that a subsequent get() will not block.
+SimpleQueue.empty()
+   Return "True" if the queue is empty, "False" otherwise.  If empty()

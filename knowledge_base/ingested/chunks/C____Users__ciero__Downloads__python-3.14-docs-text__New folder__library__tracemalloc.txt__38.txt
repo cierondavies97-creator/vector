@@ -1,0 +1,6 @@
+#5: unittest/case.py:574: 103.1 KiB
+       testMethod()
+   #6: Lib/linecache.py:127: 95.4 KiB
+       lines = fp.readlines()
+   #7: urllib/parse.py:476: 71.8 KiB
+       for a in _hexdig for b in _hexdig}

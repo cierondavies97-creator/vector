@@ -1,0 +1,3 @@
+module names. The "sort_stats()" method sorted all the entries
+according to the standard module/line/name string that is printed. The
+"print_stats()" method printed out all the statistics.  You might try

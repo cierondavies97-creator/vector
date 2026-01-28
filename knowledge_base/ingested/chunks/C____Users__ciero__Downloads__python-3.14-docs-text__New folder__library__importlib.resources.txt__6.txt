@@ -1,0 +1,3 @@
+Resource Access without the performance overhead of that package.
+  This makes reading resources included in packages easier, with more
+  stable and consistent semantics.The standalone backport of this

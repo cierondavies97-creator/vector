@@ -1,0 +1,6 @@
+24
+         Cast 1D/unsigned bytes to 1D/char:
+            >>> b = bytearray(b'zyz')
+            >>> x = memoryview(b)
+            >>> x[0] = b'a'
+            Traceback (most recent call last):

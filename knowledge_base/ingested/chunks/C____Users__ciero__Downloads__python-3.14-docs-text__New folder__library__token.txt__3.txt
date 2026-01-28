@@ -1,0 +1,4 @@
+Note that a token's value may depend on tokenizer options. For
+example, a ""+"" token may be reported as either "PLUS" or "OP", or a
+""match"" token may be either "NAME" or "SOFT_KEYWORD".
+token.tok_name

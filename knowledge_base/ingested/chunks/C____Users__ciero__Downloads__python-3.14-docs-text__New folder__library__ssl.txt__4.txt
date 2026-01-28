@@ -1,0 +1,5 @@
+Doing so may lead to a false sense of security, as the default
+  settings of the ssl module are not necessarily appropriate for your
+  application.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

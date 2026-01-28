@@ -1,0 +1,9 @@
+>>> turtle.pos()
+      (60.00,10.00)
+      >>> turtle.teleport(20, 30)
+      >>> turtle.pos()
+      (20.00,30.00)
+   Added in version 3.12.
+turtle.setx(x)
+   Parameters:
+      **x** -- a number (integer or float)

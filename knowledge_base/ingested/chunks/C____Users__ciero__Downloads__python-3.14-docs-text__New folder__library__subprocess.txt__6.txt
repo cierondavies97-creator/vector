@@ -1,0 +1,4 @@
+keyword-only notation in the abbreviated signature). The full
+   function signature is largely the same as that of the "Popen"
+   constructor - most of the arguments to this function are passed
+   through to that interface. (*timeout*,  *input*, *check*, and

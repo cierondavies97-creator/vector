@@ -1,0 +1,4 @@
+object. It will be inserted in the output after every
+   *bytes_per_sep* input bytes. Separator placement is counted from
+   the right end of the output by default, if you wish to count from
+   the left, supply a negative *bytes_per_sep* value.

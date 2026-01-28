@@ -1,0 +1,4 @@
+parameters were added.
+class inspect.Parameter(name, kind, *, default=Parameter.empty, annotation=Parameter.empty)
+   "Parameter" objects are *immutable*. Instead of modifying a
+   "Parameter" object, you can use "Parameter.replace()" or

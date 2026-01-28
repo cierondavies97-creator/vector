@@ -1,0 +1,7 @@
+in derived classes.
+      Added in version 3.8.
+   info()
+      Return a dictionary containing the metadata found in the message
+      catalog file.
+   charset()
+      Return the encoding of the message catalog file.

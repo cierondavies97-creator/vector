@@ -1,0 +1,4 @@
+you'll drop into the Python debugger when that line is executed.
+  Then you can inspect current values of variables, and so on.  For
+  example, suppose "a.py" contains just this module docstring:
+     """

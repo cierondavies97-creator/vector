@@ -1,0 +1,5 @@
+Added in version 3.14.
+annotationlib.type_repr(value)
+   Convert an arbitrary Python value to a format suitable for use by
+   the "STRING" format. This calls "repr()" for most objects, but has
+   special handling for some objects, such as type objects.

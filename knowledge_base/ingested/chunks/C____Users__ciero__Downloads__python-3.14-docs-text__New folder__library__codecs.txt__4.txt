@@ -1,0 +1,4 @@
+default error handler is "'strict'" meaning that encoding errors
+   raise "ValueError" (or a more codec specific subclass, such as
+   "UnicodeEncodeError"). Refer to Codec Base Classes for more
+   information on codec error handling.

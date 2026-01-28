@@ -1,0 +1,4 @@
+avoiding the need to instead send messages between processes
+containing that data.  Sharing data directly via memory can provide
+significant performance benefits compared to sharing data via disk or
+socket or other communications requiring the

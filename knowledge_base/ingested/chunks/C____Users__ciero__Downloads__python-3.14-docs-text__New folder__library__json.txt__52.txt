@@ -1,0 +1,4 @@
+Encoders and Decoders
+=====================
+class json.JSONDecoder(*, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, strict=True, object_pairs_hook=None)
+   Simple JSON decoder.

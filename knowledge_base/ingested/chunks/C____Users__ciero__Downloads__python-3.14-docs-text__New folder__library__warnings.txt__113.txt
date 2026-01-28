@@ -1,0 +1,4 @@
+the module returned when you import "warnings" whose filter will be
+   protected. This argument exists primarily for testing the
+   "warnings" module itself.
+   If the *action* argument is not "None", the remaining arguments are

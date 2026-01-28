@@ -1,0 +1,4 @@
+*universal_newlines*.
+   If given, *startupinfo* will be a "STARTUPINFO" object, which is
+   passed to the underlying "CreateProcess" function.
+   If given, *creationflags*, can be one or more of the following

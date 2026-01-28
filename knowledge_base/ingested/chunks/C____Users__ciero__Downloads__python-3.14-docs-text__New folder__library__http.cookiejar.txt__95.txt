@@ -1,0 +1,5 @@
+you do that.
+Cookie.version
+   Integer or "None".  Netscape cookies have "version" 0. **RFC 2965**
+   and **RFC 2109** cookies have a "version" cookie-attribute of 1.
+   However, note that "http.cookiejar" may 'downgrade' RFC 2109

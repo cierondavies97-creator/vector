@@ -1,0 +1,4 @@
+use "python3.dll". For either case, extracting the embedded
+distribution to a subdirectory of the application installation is
+sufficient to provide a loadable Python interpreter.
+As with the application use, packages can be installed to any location

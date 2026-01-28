@@ -1,0 +1,5 @@
+systems define the same set of signal names; an "AttributeError"
+   will be raised if a signal name is not defined as "SIG*" module
+   level constant.
+signal.sigpending()
+   Examine the set of signals that are pending for delivery to the

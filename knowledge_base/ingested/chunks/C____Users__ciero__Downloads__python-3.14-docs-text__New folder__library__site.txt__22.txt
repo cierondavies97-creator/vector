@@ -1,0 +1,5 @@
+===============
+After this, an attempt is made to import a module named
+"usercustomize", which can perform arbitrary user-specific
+customizations, if "ENABLE_USER_SITE" is true.  This file is intended
+to be created in the user site-packages directory (see below), which

@@ -1,0 +1,6 @@
+from the program name ("sys.argv[0]").
+   *className*
+      Name of the widget class.  Used as a profile file and also as
+      the name with which Tcl is invoked (*argv0* in *interp*).
+   *useTk*
+      If "True", initialize the Tk subsystem.  The "tkinter.Tcl()"

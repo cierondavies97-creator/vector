@@ -1,0 +1,4 @@
+close the parser.
+Note that the parser can be extended in limited ways, and of course
+you can implement your own parser completely from scratch.  All of the
+logic that connects the "email" package's bundled parser and the

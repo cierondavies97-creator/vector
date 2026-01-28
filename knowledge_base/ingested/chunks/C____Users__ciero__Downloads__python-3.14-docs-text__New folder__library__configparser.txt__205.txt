@@ -1,0 +1,4 @@
+Exception raised when a specified section is not found.
+exception configparser.DuplicateSectionError
+   Exception raised if "add_section()" is called with the name of a
+   section that is already present or in strict parsers when a section

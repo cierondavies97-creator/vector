@@ -1,0 +1,5 @@
+configuration while the previously existing keys are retained. The
+example below reads in an "override.ini" file, which will override any
+conflicting keys from the "example.ini" file.
+   [DEFAULT]
+   ServerAliveInterval = -1

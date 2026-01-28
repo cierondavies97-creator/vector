@@ -1,0 +1,5 @@
+each tab character will be replaced by a single space, which
+        is *not* the same as tab expansion.
+      Note:
+        If "replace_whitespace" is false, newlines may appear in the
+        middle of a line and cause strange output. For this reason,

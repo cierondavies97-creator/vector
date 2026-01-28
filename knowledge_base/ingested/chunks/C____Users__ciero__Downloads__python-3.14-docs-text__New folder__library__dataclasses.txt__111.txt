@@ -1,0 +1,4 @@
+def __init__(self, x: int = 15, y: int = 0, z: int = 10):
+Re-ordering of keyword-only parameters in "__init__()"
+======================================================
+After the parameters needed for "__init__()" are computed, any

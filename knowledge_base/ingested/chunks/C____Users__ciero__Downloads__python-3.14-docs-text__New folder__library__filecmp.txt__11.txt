@@ -1,0 +1,4 @@
+and defaults to "filecmp.DEFAULT_IGNORES".  *hide* is a list of
+   names to hide, and defaults to "[os.curdir, os.pardir]".
+   The "dircmp" class compares files by doing *shallow* comparisons as
+   described for "filecmp.cmp()" by default using the *shallow*

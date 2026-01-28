@@ -1,0 +1,4 @@
+for values above the midpoint.  When the two heaps have the same size,
+the new median is the average of the tops of the two heaps; otherwise,
+the median is at the top of the larger heap:
+   def running_median(iterable):

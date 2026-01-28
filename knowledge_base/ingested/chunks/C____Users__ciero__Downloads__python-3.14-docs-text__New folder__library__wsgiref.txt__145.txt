@@ -1,0 +1,6 @@
+print(f"Serving {path} on port {port}, control-C to stop")
+       try:
+           httpd.serve_forever()
+       except KeyboardInterrupt:
+           print("Shutting down.")
+           httpd.server_close()

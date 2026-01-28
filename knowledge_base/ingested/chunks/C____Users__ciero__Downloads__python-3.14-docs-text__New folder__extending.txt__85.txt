@@ -1,0 +1,4 @@
+very simple on Unix: just place your file ("spammodule.c" for example)
+in the "Modules/" directory of an unpacked source distribution, add a
+line to the file "Modules/Setup.local" describing your file:
+   spam spammodule.o

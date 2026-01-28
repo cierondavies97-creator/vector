@@ -1,0 +1,5 @@
+arguments: "m.update(a); m.update(b)" is equivalent to
+   "m.update(a+b)".
+hash.digest()
+   Return the digest of the data passed to the "update()" method so
+   far. This is a bytes object of size "digest_size" which may contain

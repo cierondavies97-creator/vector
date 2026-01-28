@@ -1,0 +1,5 @@
+using its "__doc__" attribute.
+As with the "tp_methods" table, a sentinel entry with a "ml_name"
+value of "NULL" is required.
+3.3.2. Type-specific Attribute Management
+-----------------------------------------

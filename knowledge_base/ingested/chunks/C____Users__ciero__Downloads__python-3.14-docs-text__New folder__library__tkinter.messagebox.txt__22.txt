@@ -1,0 +1,6 @@
+"CANCEL".
+Icon images:
+tkinter.messagebox.ERROR = 'error'
+tkinter.messagebox.INFO = 'info'
+tkinter.messagebox.QUESTION = 'question'
+tkinter.messagebox.WARNING = 'warning'

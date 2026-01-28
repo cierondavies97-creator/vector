@@ -1,0 +1,5 @@
+2047**, **RFC 2183**, and **RFC 2231**.
+The overall structure of the email package can be divided into three
+major components, plus a fourth component that controls the behavior
+of the other components.
+The central component of the package is an "object model" that

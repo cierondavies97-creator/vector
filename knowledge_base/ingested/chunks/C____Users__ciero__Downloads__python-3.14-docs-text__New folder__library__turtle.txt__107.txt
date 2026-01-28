@@ -1,0 +1,6 @@
+('stretchfactor', (1.0, 1.0)), ('tilt', 0.0)]
+      >>> penstate=turtle.pen()
+      >>> turtle.color("yellow", "")
+      >>> turtle.penup()
+      >>> sorted(turtle.pen().items())[:3]
+      [('fillcolor', ''), ('outline', 1), ('pencolor', 'yellow')]

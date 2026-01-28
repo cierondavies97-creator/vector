@@ -1,0 +1,5 @@
+The same can be done using the "Timer" class and its methods:
+   >>> import timeit
+   >>> t = timeit.Timer('char in text', setup='text = "sample string"; char = "g"')
+   >>> t.timeit()
+   0.3955516149999312

@@ -1,0 +1,3 @@
+function that can be passed as *quote_via* is "quote()", which will
+   encode spaces as "%20" and not encode '/' characters.  For maximum
+   control of what is quoted, use "quote" and specify a value for

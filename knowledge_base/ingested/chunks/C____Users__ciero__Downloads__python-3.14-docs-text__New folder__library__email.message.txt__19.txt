@@ -1,0 +1,4 @@
+to the value of *max_line_length* from the policy.
+   __str__()
+      Equivalent to "as_string(policy=self.policy.clone(utf8=True))".
+      Allows "str(msg)" to produce a string containing the serialized

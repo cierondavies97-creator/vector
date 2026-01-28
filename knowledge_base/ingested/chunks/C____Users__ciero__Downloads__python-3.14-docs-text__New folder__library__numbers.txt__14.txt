@@ -1,0 +1,4 @@
+--------------------------------------
+We want to implement the arithmetic operations so that mixed-mode
+operations either call an implementation whose author knew about the
+types of both arguments, or convert both to the nearest built in type

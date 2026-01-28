@@ -1,0 +1,3 @@
+raised in ambiguous cases for the time being. That includes sets
+     starting with a literal "'['" or containing literal character
+     sequences "'--'", "'&&'", "'~~'", and "'||'".  To avoid a warning

@@ -1,0 +1,6 @@
+"float" type.
+   Added in version 3.3.
+   Changed in version 3.10: On Windows, the clock is now the same for
+   all processes.
+   Changed in version 3.13: Use the same clock as "time.monotonic()".
+time.perf_counter_ns() -> int

@@ -1,0 +1,4 @@
+input and output types are incompatible (e.g., "list[object]" to
+   "list[int]") or when the function does not return "True" for all
+   instances of the narrowed type.
+   Using  "-> TypeIs[NarrowedType]" tells the static type checker that

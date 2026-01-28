@@ -1,0 +1,6 @@
+If *aw* is a coroutine it is automatically scheduled as a Task.
+   The statement:
+      task = asyncio.create_task(something())
+      res = await shield(task)
+   is equivalent to:
+      res = await something()

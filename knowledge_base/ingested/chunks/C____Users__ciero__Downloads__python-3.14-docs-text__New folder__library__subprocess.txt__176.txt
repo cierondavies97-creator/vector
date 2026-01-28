@@ -1,0 +1,6 @@
+will have a high priority.
+   Added in version 3.7.
+subprocess.IDLE_PRIORITY_CLASS
+   A "Popen" "creationflags" parameter to specify that a new process
+   will have an idle (lowest) priority.
+   Added in version 3.7.

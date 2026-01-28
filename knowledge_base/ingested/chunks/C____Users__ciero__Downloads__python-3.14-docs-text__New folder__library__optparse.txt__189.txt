@@ -1,0 +1,5 @@
+See the Standard option types section.
+  If "choices" is supplied (a list or tuple of strings), the type
+  defaults to ""choice"".
+  If "type" is not supplied, it defaults to ""string"".
+  If "dest" is not supplied, "optparse" derives a destination from the

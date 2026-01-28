@@ -1,0 +1,4 @@
+The default hook formats "err_msg" and "object" as: "f'{err_msg}:
+   {object!r}'"; use "Exception ignored in" error message if "err_msg"
+   is "None".
+   "sys.unraisablehook()" can be overridden to control how unraisable

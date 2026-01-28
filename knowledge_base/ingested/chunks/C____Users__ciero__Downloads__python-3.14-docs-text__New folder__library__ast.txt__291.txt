@@ -1,0 +1,6 @@
+has no default, this attribute will be set to "None".
+      >>> print(ast.dump(ast.parse("type Alias[*Ts = ()] = tuple[*Ts]"), indent=4))
+      Module(
+          body=[
+              TypeAlias(
+                  name=Name(id='Alias', ctx=Store()),

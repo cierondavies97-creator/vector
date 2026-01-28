@@ -1,0 +1,2 @@
+|                                                    | managed by the Python install manager may be       |
+|                                                    | chosen ahead of stable releases. Configure your    |

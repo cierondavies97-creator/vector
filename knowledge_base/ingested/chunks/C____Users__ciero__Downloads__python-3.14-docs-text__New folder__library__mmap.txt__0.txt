@@ -1,0 +1,5 @@
+"mmap" --- Memory-mapped file support
+*************************************
+======================================================================
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See

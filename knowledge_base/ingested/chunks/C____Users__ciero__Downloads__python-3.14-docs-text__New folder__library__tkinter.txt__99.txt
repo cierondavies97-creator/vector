@@ -1,0 +1,4 @@
+class of the widget; buttons have a "command" option, labels do not.
+The options supported by a given widget are listed in that widget's
+man page, or can be queried at runtime by calling the "config()"
+method without arguments, or by calling the "keys()" method on that

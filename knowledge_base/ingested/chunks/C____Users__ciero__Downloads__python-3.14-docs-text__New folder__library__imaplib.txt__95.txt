@@ -1,0 +1,5 @@
+The most recent supported protocol in the "CAPABILITY" response
+   from the server.
+IMAP4.debug
+   Integer value to control debugging output.  The initialize value is
+   taken from the module variable "Debug".  Values greater than three

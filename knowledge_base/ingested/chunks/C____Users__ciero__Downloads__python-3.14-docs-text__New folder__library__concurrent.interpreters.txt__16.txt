@@ -1,0 +1,5 @@
+The same is true for functions that aren't associated with any module.
+This is the same as how scripts invoked from the command-line run in
+the "__main__" module.
+Concurrency and Parallelism
+---------------------------

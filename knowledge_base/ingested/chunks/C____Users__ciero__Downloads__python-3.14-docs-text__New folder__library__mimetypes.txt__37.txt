@@ -1,0 +1,4 @@
+of filename extensions: the first dictionary is for the non-
+      standards types and the second one is for the standard types.
+      They are initialized by "common_types" and "types_map".
+   guess_extension(type, strict=True)

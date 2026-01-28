@@ -1,0 +1,3 @@
+are separated by a colon.  The colon is not part of either the field
+name or the field value.  The payload may be a simple text message, or
+a binary object, or a structured sequence of sub-messages each with

@@ -1,0 +1,5 @@
+def main():
+       parser = ArgumentParser(description="""\
+   Send the contents of a directory as a MIME message.
+   Unless the -o option is given, the email is sent by forwarding to your local
+   SMTP server, which then does the normal delivery process.  Your local machine

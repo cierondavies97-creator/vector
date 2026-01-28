@@ -1,0 +1,4 @@
+"begin_fill()" and "end_fill()" have changed slightly: now every
+  filling process must be completed with an "end_fill()" call.
+* A method "Turtle.filling" has been added. It returns a boolean
+  value: "True" if a filling process is under way, "False" otherwise.

@@ -1,0 +1,8 @@
+"Value" and "Array".  For example,
+      from multiprocessing import Process, Manager
+      def f(d, l, s):
+          d[1] = '1'
+          d['2'] = 2
+          d[0.25] = None
+          l.reverse()
+          s.add('a')

@@ -1,0 +1,4 @@
+Otherwise *method* should be "'fork'", "'spawn'", "'forkserver'".
+   "ValueError" is raised if the specified start method is not
+   available.  See Contexts and start methods.
+   Added in version 3.4.

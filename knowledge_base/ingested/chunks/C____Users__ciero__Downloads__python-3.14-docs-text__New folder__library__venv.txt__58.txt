@@ -1,0 +1,5 @@
+hooks available for subclass customization:
+         def create(self, env_dir):
+             """
+             Create a virtualized Python environment in a directory.
+             env_dir is the target directory to create an environment in.

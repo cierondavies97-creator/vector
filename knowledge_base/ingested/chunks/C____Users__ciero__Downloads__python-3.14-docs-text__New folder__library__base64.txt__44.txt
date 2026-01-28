@@ -1,0 +1,5 @@
+**RFC 2045** (MIME).
+base64.encodebytes(s)
+   Encode the *bytes-like object* *s*, which can contain arbitrary
+   binary data, and return "bytes" containing the base64-encoded data,
+   with newlines ("b'\n'") inserted after every 76 bytes of output,

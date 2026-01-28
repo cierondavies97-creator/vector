@@ -1,0 +1,4 @@
+"itertools.groupby()").  This function is primarily used as a
+   transition tool for programs being converted from Python 2 which
+   supported the use of comparison functions.
+   A comparison function is any callable that accepts two arguments,

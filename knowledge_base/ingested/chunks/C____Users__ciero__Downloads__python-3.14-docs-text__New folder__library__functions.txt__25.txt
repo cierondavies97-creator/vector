@@ -1,0 +1,5 @@
+"PYTHONBREAKPOINT" environment variable. See "sys.breakpointhook()"
+   for usage details.
+   Note that this is not guaranteed if "sys.breakpointhook()" has been
+   replaced.
+   Raises an auditing event "builtins.breakpoint" with argument

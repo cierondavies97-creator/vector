@@ -1,0 +1,6 @@
+False
+         >>> class Point3D(Point2D): pass
+         >>> Point3D.__total__
+         True
+      This attribute reflects *only* the value of the "total" argument
+      to the current "TypedDict" class, not whether the class is

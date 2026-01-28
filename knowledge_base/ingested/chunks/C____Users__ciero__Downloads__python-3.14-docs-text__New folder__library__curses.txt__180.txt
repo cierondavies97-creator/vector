@@ -1,0 +1,3 @@
+the last line.  If *flag* is "False", the cursor is left on the
+   bottom line.  If *flag* is "True", the window is scrolled up one
+   line.  Note that in order to get the physical scrolling effect on

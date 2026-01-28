@@ -1,0 +1,5 @@
+tests without a good reason.
+* Test code should be modified much less frequently than the code it
+  tests.
+* Tested code can be refactored more easily.
+* Tests for modules written in C must be in separate modules anyway,

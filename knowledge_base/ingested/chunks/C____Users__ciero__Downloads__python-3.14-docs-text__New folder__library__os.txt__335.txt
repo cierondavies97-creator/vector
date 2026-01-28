@@ -1,0 +1,5 @@
+numbers.
+os.pathconf(path, name)
+   Return system configuration information relevant to a named file.
+   *name* specifies the configuration value to retrieve; it may be a
+   string which is the name of a defined system value; these names are

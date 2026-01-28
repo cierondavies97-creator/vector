@@ -1,0 +1,5 @@
+In BLAKE2 the salt is processed as a one-time input to the hash
+function during initialization, rather than as an input to each
+compression function.
+Warning:
+  *Salted hashing* (or just hashing) with BLAKE2 or any other general-

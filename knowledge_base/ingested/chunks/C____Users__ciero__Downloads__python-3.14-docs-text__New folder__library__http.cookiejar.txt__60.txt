@@ -1,0 +1,4 @@
+"path_return_ok()" and "return_ok()" are never called for that
+   cookie domain.  If "path_return_ok()" returns true, "return_ok()"
+   is called with the "Cookie" object itself for a full check.
+   Otherwise, "return_ok()" is never called for that cookie path.

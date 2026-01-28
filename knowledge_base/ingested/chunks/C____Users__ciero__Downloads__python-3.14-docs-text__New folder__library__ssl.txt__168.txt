@@ -1,0 +1,5 @@
+"OCSP" URIs.
+   Changed in version 3.9: IPv6 address strings no longer have a
+   trailing new line.
+SSLSocket.get_verified_chain()
+   Returns verified certificate chain provided by the other end of the

@@ -1,0 +1,5 @@
+group are represented in this list as single-address "Groups"
+      whose "display_name" is "None".
+   addresses
+      A tuple of "Address" objects encoding all of the individual
+      addresses from the header value.  If the header value contains

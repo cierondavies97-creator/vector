@@ -1,0 +1,5 @@
+Custom String Formatting
+========================
+The built-in string class provides the ability to do complex variable
+substitutions and value formatting via the "format()" method described
+in **PEP 3101**.  The "Formatter" class in the "string" module allows

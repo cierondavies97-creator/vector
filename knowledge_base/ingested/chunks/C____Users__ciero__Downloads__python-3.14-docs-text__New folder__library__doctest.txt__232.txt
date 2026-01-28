@@ -1,0 +1,4 @@
+how it displays failures. For more information, see section Option
+   Flags.
+   The test runner accumulates statistics. The aggregated number of
+   attempted, failed and skipped examples is also available via the

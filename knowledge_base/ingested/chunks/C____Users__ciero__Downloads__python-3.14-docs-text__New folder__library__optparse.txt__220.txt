@@ -1,0 +1,5 @@
+option arguments against this master list and raises
+"OptionValueError" if an invalid string is given.
+Parsing arguments
+-----------------
+The whole point of creating and populating an OptionParser is to call

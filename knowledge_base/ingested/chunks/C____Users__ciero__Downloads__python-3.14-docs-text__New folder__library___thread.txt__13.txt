@@ -1,0 +1,5 @@
+specific data.  Thread identifiers may be recycled when a thread
+   exits and another thread is created.
+_thread.get_native_id()
+   Return the native integral Thread ID of the current thread assigned
+   by the kernel. This is a non-negative integer. Its value may be

@@ -1,0 +1,3 @@
+Any other value causes "Pickler" to emit the returned value as a
+      persistent ID for *obj*.  The meaning of this persistent ID
+      should be defined by "Unpickler.persistent_load()".  Note that

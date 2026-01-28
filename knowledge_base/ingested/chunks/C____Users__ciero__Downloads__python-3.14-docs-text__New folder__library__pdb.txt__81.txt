@@ -1,0 +1,4 @@
+greater than the current one is reached.
+   With *lineno*, continue execution until a line with a number
+   greater or equal to *lineno* is reached.  In both cases, also stop
+   when the current frame returns.

@@ -1,0 +1,4 @@
+Changed in version 3.4: Default "Request.method" may be indicated
+   at the class level.
+   Changed in version 3.6: Do not raise an error if the "Content-
+   Length" has not been provided and *data* is neither "None" nor a

@@ -1,0 +1,4 @@
+name binding operation of the "import" statement.  See the "import"
+statement for the exact details of that name binding operation.
+A direct call to "__import__()" performs only the module search and,
+if found, the module creation operation.  While certain side-effects

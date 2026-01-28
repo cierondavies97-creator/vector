@@ -1,0 +1,4 @@
+methods.  All these methods are callbacks: they are called by
+transports on certain events, for example when some data is received.
+A base protocol method should be called by the corresponding
+transport.

@@ -1,0 +1,4 @@
+debugger control.  The debugger prompt appears before any code is
+   executed; you can set breakpoints and type "continue", or you can
+   step through the statement using "step" or "next" (all these
+   commands are explained below).  The optional *globals* and *locals*

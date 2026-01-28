@@ -1,0 +1,6 @@
+can be used as arguments to "SSLSocket.get_channel_binding()".
+   Added in version 3.3.
+ssl.OPENSSL_VERSION
+   The version string of the OpenSSL library loaded by the
+   interpreter:
+      >>> ssl.OPENSSL_VERSION

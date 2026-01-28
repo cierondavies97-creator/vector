@@ -1,0 +1,4 @@
+expressions are starred, the expression list will evaluate to a
+"tuple" containing the items of the expression list. Otherwise, the
+expression list will evaluate to the value of the list's sole member.
+Changed in version 3.11: Expressions in an expression list may be

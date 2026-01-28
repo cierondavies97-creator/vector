@@ -1,0 +1,4 @@
+for any large data.
+A "PickleBuffer" object *signals* that the underlying buffer is
+eligible for out-of-band data transfer.  Those objects remain
+compatible with normal usage of the "pickle" module.  However,

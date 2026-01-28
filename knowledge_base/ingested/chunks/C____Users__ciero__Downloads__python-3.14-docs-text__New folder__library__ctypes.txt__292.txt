@@ -1,0 +1,4 @@
+specified, the foreign function can be called with named parameters.
+The optional third item is the default value for this parameter.
+The following example demonstrates how to wrap the Windows
+"MessageBoxW" function so that it supports default parameters and

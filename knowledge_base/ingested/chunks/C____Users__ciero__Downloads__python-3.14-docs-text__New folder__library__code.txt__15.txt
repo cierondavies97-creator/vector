@@ -1,0 +1,5 @@
+complete and contains a syntax error, or raises "OverflowError" or
+   "ValueError" if the command contains an invalid literal.
+Interactive Interpreter Objects
+===============================
+InteractiveInterpreter.runsource(source, filename='<input>', symbol='single')

@@ -1,0 +1,3 @@
+The result should be correctly rounded to a given precision "p" of
+digits after the decimal point.  The rounding mode for "float" matches
+that of the "round()" builtin.  For "Decimal", the rounding mode of

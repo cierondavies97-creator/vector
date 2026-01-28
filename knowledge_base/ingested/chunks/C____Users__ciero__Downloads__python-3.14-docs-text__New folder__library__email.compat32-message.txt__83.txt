@@ -1,0 +1,3 @@
+as split on the "'='" sign.  The left hand side of the "'='" is
+      the key, while the right hand side is the value.  If there is no
+      "'='" sign in the parameter the value is the empty string,

@@ -1,0 +1,5 @@
+streams.
+The "compression.zstd" module contains:
+* The "open()" function and "ZstdFile" class for reading and writing
+  compressed files.
+* The "ZstdCompressor" and "ZstdDecompressor" classes for incremental

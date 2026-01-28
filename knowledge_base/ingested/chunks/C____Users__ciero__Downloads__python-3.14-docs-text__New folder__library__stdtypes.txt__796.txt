@@ -1,0 +1,5 @@
+*default*. If *default* is not given, it defaults to "None", so
+      that this method never raises a "KeyError".
+   items()
+      Return a new view of the dictionary's items ("(key, value)"
+      pairs). See the documentation of view objects.

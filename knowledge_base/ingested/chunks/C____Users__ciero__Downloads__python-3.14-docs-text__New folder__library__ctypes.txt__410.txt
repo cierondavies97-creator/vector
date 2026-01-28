@@ -1,0 +1,4 @@
+allow larger *n* than what the compiler accepts.
+      "_pack_" must already be defined when "_fields_" is assigned,
+      otherwise it will have no effect.
+      Deprecated since version 3.14, will be removed in version 3.19:

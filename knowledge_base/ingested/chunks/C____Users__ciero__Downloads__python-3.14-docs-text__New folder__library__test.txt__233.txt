@@ -1,0 +1,4 @@
+object (see example below).  If no warning has been raised, then
+   any of the attributes that would otherwise be expected on an object
+   representing a warning will return "None".
+   The recorder object also has a "reset()" method, which clears the

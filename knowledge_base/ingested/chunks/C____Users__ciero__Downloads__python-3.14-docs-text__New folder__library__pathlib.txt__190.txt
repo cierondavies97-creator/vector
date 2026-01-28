@@ -1,0 +1,7 @@
+sum((root / file).stat().st_size for file in files),
+            "bytes in",
+            len(files),
+            "non-directory files"
+        )
+        if '__pycache__' in dirs:
+              dirs.remove('__pycache__')

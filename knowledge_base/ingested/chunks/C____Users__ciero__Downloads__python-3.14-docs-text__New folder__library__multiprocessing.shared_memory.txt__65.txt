@@ -1,0 +1,4 @@
+access the same "ShareableList" by supplying the name of the shared
+memory block behind it:
+>>> b = shared_memory.ShareableList(range(5))         # In a first process
+>>> c = shared_memory.ShareableList(name=b.shm.name)  # In a second process

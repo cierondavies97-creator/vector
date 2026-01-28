@@ -1,0 +1,4 @@
+attributes.  If a class attribute is found that is a user-defined
+function object, it is transformed into an instance method object
+whose "__self__" attribute is the instance.  Static method and class
+method objects are also transformed; see above under "Classes".  See

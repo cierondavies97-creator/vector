@@ -1,0 +1,3 @@
+* When the main thread exits, it is system defined whether the other
+  threads survive.  On most systems, they are killed without executing
+  "try" ... "finally" clauses or executing object destructors.

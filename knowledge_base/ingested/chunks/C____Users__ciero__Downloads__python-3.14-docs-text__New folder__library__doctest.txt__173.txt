@@ -1,0 +1,4 @@
+raising "ValueError".
+Under the covers, "DocTestSuite()" creates a "unittest.TestSuite" out
+of "doctest.DocTestCase" instances, and "DocTestCase" is a subclass of
+"unittest.TestCase". "DocTestCase" isn't documented here (it's an

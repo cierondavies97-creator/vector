@@ -1,0 +1,4 @@
+nonzero, the lock remains locked and owned by the calling
+      thread.
+      Only call this method when the calling thread owns the lock. A
+      "RuntimeError" is raised if this method is called when the lock

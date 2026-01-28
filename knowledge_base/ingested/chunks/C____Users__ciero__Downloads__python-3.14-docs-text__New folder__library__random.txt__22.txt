@@ -1,0 +1,4 @@
+like "int(random()*n)" which could produce slightly uneven
+   distributions.
+   Changed in version 3.12: Automatic conversion of non-integer types
+   is no longer supported. Calls such as "randrange(10.0)" and

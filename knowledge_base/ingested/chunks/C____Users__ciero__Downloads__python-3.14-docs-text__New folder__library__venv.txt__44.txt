@@ -1,0 +1,3 @@
+"pip" to install all of the packages needed by the environment). If
+  for any reason you need to move the environment to a new location,
+  you should recreate it at the desired location and delete the one at

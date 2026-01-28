@@ -1,0 +1,6 @@
+Added in version 3.10.
+   exec_module(module)
+      Implementation of "importlib.abc.Loader.exec_module()".
+      Added in version 3.10.
+   find_spec(fullname, target=None)
+      An implementation of

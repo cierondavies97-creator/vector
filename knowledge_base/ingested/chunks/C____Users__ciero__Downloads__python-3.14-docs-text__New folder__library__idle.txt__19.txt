@@ -1,0 +1,4 @@
+that line visible.  A request past the end of the file goes to the
+   end. Clear any selection and update the line and column status.
+Show Completions
+   Open a scrollable list allowing selection of existing names. See

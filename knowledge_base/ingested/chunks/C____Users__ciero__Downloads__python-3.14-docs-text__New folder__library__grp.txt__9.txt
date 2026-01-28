@@ -1,0 +1,3 @@
+See also:
+  Module "pwd"
+     An interface to the user database, similar to this.

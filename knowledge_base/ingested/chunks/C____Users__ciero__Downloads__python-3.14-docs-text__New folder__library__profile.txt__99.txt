@@ -1,0 +1,3 @@
+counts).  Internal time statistics can be used to identify "hot loops"
+that should be carefully optimized.  Cumulative time statistics should
+be used to identify high level errors in the selection of algorithms.

@@ -1,0 +1,4 @@
+or bytes.
+   A "StatisticsError" will be raised if the *data* sequence is empty.
+   Continuing the example for "kde()", we can use "kde_random()" to
+   generate new random selections from an estimated probability

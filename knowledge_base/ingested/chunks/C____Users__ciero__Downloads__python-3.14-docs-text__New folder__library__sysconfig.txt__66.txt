@@ -1,0 +1,4 @@
+environment and "key="prefix"", the *venv* scheme is returned.
+sysconfig._get_preferred_schemes()
+   Return a dict containing preferred scheme names on the current
+   platform. Python implementers and redistributors may add their

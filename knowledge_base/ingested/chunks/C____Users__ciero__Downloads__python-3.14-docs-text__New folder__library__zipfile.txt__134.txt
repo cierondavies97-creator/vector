@@ -1,0 +1,5 @@
+If you want to extract a ZIP archive into the specified directory, use
+the "-e" option:
+   $ python -m zipfile -e monty.zip target-dir/
+For a list of the files in a ZIP archive, use the "-l" option:
+   $ python -m zipfile -l monty.zip

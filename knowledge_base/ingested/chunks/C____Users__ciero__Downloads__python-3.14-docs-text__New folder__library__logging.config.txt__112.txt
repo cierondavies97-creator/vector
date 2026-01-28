@@ -1,0 +1,6 @@
+configuration system would not know that the "alternate" referred to a
+handler.  To cater for this, a generic resolution system allows the
+user to specify:
+   handlers:
+     file:
+       # configuration of file handler goes here

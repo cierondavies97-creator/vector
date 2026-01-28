@@ -1,0 +1,5 @@
+if it exists.  An "OSError" is raised if the IO object does not
+      use a file descriptor.
+   flush()
+      Flush the write buffers of the stream if applicable.  This does
+      nothing for read-only and non-blocking streams.

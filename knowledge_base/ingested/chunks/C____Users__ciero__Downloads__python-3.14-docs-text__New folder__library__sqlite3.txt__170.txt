@@ -1,0 +1,5 @@
+* **category** (*int*) -- The SQLite limit category to be
+           set.
+         * **limit** (*int*) -- The value of the new limit. If
+           negative, the current limit is unchanged.
+      Return type:

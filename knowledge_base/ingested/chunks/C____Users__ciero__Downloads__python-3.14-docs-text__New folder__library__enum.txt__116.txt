@@ -1,0 +1,4 @@
+development of the "Enum" class and can not be used, some are
+  explicitly allowed:
+  * "_repr_*" (e.g. "_repr_html_"), as used in IPython's rich display
+Added in version 3.6: "_missing_", "_order_", "_generate_next_value_"

@@ -1,0 +1,3 @@
+"Process").  This value will be automatically inherited by any
+"Process" object that the current process creates. This means that (by
+default) all processes of a multi-process program will share a single

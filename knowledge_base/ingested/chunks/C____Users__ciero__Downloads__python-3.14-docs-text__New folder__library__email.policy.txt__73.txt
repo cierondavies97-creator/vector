@@ -1,0 +1,5 @@
+The default is "long".
+   header_factory
+      A callable that takes two arguments, "name" and "value", where
+      "name" is a header field name and "value" is an unfolded header
+      field value, and returns a string subclass that represents that

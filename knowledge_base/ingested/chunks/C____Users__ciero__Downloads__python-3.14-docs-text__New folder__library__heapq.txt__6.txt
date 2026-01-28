@@ -1,0 +1,4 @@
+(b) Textbooks often focus on max-heaps, due to their suitability for
+in-place sorting. Our implementation favors min-heaps as they better
+correspond to Python "lists".
+These two aspects make it possible to view the heap as a regular

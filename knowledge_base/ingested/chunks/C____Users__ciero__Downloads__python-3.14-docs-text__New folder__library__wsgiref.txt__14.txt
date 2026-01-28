@@ -1,0 +1,3 @@
+request URI path, for example to treat the path as a series of
+   dictionary keys. This routine modifies the passed-in environment to
+   make it suitable for invoking another WSGI application that is

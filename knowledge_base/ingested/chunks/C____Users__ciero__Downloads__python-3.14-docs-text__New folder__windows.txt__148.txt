@@ -1,0 +1,3 @@
+"confirm" is literally "%PYTHON_MANAGER_CONFIRM%", which will resolve
+the variable at load time. If you override the value to "yes", then
+the environment variable will no longer be used. If you override the

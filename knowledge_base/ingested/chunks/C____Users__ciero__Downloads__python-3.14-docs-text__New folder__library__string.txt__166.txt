@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+   ...
+   KeyError: 'what'
+   >>> Template('$who likes $what').safe_substitute(d)
+   'tim likes $what'
+Advanced usage: you can derive subclasses of "Template" to customize

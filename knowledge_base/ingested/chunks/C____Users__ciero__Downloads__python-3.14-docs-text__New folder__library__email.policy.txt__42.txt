@@ -1,0 +1,5 @@
+handle_defect(obj, defect)
+      Handle a *defect* found on *obj*.  When the email package calls
+      this method, *defect* will always be a subclass of
+      "MessageDefect".
+      The default implementation checks the "raise_on_defect" flag.

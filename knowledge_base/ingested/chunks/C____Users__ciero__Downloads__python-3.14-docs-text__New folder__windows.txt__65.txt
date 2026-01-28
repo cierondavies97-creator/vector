@@ -1,0 +1,4 @@
+configure everything, including the location of other configuration
+files, while registry settings are administrator-only and will
+override configuration files. Command-line options override all other
+settings, but not every option is available.

@@ -1,0 +1,2 @@
+| "506"   | "VARIANT_ALSO_NEGOTIATES"           | Transparent Content Negotiation in HTTP **RFC 2295**, Section 8.1               |
+|         |                                     | (Experimental)                                                                  |

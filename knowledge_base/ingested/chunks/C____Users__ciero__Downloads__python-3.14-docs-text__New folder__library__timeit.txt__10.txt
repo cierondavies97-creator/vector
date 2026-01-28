@@ -1,0 +1,3 @@
+Create a "Timer" instance with the given statement, *setup* code
+   and *timer* function and run its "repeat()" method with the given
+   *repeat* count and *number* executions.  The optional *globals*

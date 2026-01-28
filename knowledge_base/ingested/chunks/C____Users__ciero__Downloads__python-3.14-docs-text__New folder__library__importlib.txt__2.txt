@@ -1,0 +1,3 @@
+code. This provides an implementation of "import" which is portable to
+any Python interpreter. This also provides an implementation which is
+easier to comprehend than one implemented in a programming language

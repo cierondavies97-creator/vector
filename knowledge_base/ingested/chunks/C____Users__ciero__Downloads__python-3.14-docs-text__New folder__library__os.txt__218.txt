@@ -1,0 +1,5 @@
+*offset_dst*.
+   The splicing behaviour can be modified by specifying a *flags*
+   value. Any of the following variables may used, combined using
+   bitwise OR (the "|" operator):
+   * If "SPLICE_F_MOVE" is specified, the kernel is asked to move

@@ -1,0 +1,5 @@
+with any other options.
+      margins=padding
+         Specifies the elements exterior padding. *padding* is a list
+         of up to four integers specifying the left, top, right and
+         bottom padding quantities respectively. This option may not

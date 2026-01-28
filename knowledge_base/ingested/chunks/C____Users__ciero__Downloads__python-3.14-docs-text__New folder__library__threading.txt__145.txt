@@ -1,0 +1,6 @@
+locked()
+      Return a boolean indicating whether this object is locked right
+      now.
+      Added in version 3.14.
+   wait(timeout=None)
+      Wait until notified or until a timeout occurs. If the calling

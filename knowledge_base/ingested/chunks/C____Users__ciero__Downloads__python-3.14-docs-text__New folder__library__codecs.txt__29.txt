@@ -1,0 +1,5 @@
+used.
+   *errors* may be given to define the error handling. It defaults to
+   "'strict'" which causes a "ValueError" to be raised in case an
+   encoding error occurs.
+   *buffering* has the same meaning as for the built-in "open()"

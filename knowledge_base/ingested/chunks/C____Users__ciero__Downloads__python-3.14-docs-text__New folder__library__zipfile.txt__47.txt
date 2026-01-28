@@ -1,0 +1,4 @@
+the "write()" method.  While a writable file handle is open,
+   attempting to read or write other files in the ZIP file will raise
+   a "ValueError".
+   In both cases the file-like object has also attributes "name",

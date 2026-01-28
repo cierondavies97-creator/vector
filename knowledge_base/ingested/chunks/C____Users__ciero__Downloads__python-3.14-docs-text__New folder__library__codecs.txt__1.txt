@@ -1,0 +1,4 @@
+and decoders) and provides access to the internal Python codec
+registry, which manages the codec and error handling lookup process.
+Most standard codecs are *text encodings*, which encode text to bytes
+(and decode bytes to text), but there are also codecs provided that

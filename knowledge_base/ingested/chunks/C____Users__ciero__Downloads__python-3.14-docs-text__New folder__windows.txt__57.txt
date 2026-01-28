@@ -1,0 +1,4 @@
+installer and moving it to another machine before installing.
+Alternatively, the ZIP files in an offline index directory can simply
+be transferred to another machine and extracted. This will not
+register the install in any way, and so it must be launched by

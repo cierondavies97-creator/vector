@@ -1,0 +1,5 @@
+raised.
+dbm.whichdb(filename)
+   This function attempts to guess which of the several simple
+   database modules available --- "dbm.sqlite3", "dbm.gnu",
+   "dbm.ndbm", or "dbm.dumb" --- should be used to open a given file.

@@ -1,0 +1,6 @@
+cur.execute("INSERT INTO test(p) VALUES(?)", (p,))
+   cur.execute('SELECT p AS "p [point]" FROM test')
+   print("with column names:", cur.fetchone()[0])
+   cur.close()
+   con.close()
+Adapter and converter recipes

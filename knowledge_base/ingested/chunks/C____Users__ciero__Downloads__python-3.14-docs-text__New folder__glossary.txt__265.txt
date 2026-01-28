@@ -1,0 +1,6 @@
+prevent *race conditions* and coordinate thread execution.  See
+   also *lock*.
+t-string
+t-strings
+   String literals prefixed with "t" or "T" are commonly called
+   "t-strings" which is short for template string literals.

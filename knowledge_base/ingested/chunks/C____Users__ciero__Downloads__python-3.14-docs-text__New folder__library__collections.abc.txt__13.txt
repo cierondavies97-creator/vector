@@ -1,0 +1,4 @@
+interface is more than just the presence of method names.
+   Interfaces specify semantics and relationships between methods that
+   cannot be inferred solely from the presence of specific method
+   names.  For example, knowing that a class supplies "__getitem__",

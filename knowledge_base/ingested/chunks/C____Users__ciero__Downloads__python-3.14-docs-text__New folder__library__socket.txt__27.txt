@@ -1,0 +1,3 @@
+"(device_id, [channel])" where "device_id" specifies the number
+      of the Bluetooth device, and "channel" is an optional integer
+      specifying the HCI channel ("HCI_CHANNEL_RAW" by default).

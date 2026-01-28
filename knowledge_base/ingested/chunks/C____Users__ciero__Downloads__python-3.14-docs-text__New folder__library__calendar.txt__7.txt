@@ -1,0 +1,6 @@
+firstweekday
+      The first weekday as an integer (0--6).
+      This property can also be set and read using "setfirstweekday()"
+      and "getfirstweekday()" respectively.
+   getfirstweekday()
+      Return an "int" for the current first weekday (0--6).

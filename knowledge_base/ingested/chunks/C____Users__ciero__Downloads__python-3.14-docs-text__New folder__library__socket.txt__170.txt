@@ -1,0 +1,5 @@
+*sockaddr* contains meaningful *scope_id*. Usually this happens for
+   multicast addresses.
+   For more information about *flags* you can consult
+   *getnameinfo(3)*.
+   Raises an auditing event "socket.getnameinfo" with argument

@@ -1,0 +1,6 @@
+can be pickled.
+   See also:
+     * **PEP 612** -- Parameter Specification Variables (the PEP which
+       introduced "ParamSpec" and "Concatenate")
+     * "Concatenate"
+     * Annotating callable objects

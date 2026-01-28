@@ -1,0 +1,4 @@
+form of the domain name is then used in all places where arbitrary
+characters are not allowed by the protocol, such as DNS queries, HTTP
+*Host* fields, and so on. This conversion is carried out in the
+application; if possible invisible to the user: The application should

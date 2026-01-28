@@ -1,0 +1,4 @@
+this is converted to *two* attributes of the LogRecord:
+        "levelno" for the numeric value and "levelname" for the
+        corresponding level name.
+      * **pathname** (*str*) -- The full string path of the source

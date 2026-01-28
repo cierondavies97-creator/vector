@@ -1,0 +1,4 @@
+to avoid premature termination of the read of the request by the
+     target server due to malformed encoding.
+   Changed in version 3.6: Added chunked encoding support and the
+   *encode_chunked* parameter.

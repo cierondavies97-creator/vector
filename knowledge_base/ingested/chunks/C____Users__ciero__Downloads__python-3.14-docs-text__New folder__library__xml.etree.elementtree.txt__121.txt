@@ -1,0 +1,5 @@
+sequence, except that "b"".join(tostringlist(element)) ==
+   tostring(element)".
+   Added in version 3.2.
+   Changed in version 3.4: Added the *short_empty_elements* parameter.
+   Changed in version 3.8: Added the *xml_declaration* and

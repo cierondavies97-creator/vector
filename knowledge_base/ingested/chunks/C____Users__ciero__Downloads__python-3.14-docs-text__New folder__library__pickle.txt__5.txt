@@ -1,0 +1,4 @@
+ensure that it has not been tampered with.Safer serialization
+  formats such as "json" may be more appropriate if you are processing
+  untrusted data. See Comparison with json.
+Relationship to other Python modules

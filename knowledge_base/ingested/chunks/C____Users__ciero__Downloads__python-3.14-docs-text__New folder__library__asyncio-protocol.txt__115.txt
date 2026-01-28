@@ -1,0 +1,7 @@
+import asyncio
+   import socket
+   class MyProtocol(asyncio.Protocol):
+       def __init__(self, on_con_lost):
+           self.transport = None
+           self.on_con_lost = on_con_lost
+       def connection_made(self, transport):

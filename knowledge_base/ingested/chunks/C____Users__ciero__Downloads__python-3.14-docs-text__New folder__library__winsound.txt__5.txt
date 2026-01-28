@@ -1,0 +1,5 @@
+stopped. If the system indicates an error, "RuntimeError" is
+   raised.
+winsound.MessageBeep(type=MB_OK)
+   Call the underlying "MessageBeep()" function from the Platform API.
+   This plays a sound as specified in the registry.  The *type*

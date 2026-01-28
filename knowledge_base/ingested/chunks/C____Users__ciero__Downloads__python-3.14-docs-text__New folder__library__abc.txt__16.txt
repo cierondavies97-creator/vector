@@ -1,0 +1,5 @@
+one.  If it returns "NotImplemented", the subclass check is
+      continued with the usual mechanism.
+   For a demonstration of these concepts, look at this example ABC
+   definition:
+      class Foo:

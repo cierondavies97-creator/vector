@@ -1,0 +1,5 @@
+Added in version 3.7.
+Buffered Protocols can be used with any event loop method that
+supports Streaming Protocols.
+"BufferedProtocol" implementations allow explicit manual allocation
+and control of the receive buffer.  Event loops can then use the

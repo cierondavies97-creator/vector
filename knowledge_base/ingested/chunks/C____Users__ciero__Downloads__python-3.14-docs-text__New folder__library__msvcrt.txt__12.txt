@@ -1,0 +1,8 @@
+Console I/O
+===========
+msvcrt.kbhit()
+   Returns a nonzero value if a keypress is waiting to be read.
+   Otherwise, return 0.
+msvcrt.getch()
+   Read a keypress and return the resulting character as a byte
+   string. Nothing is echoed to the console. This call will block if a

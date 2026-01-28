@@ -1,0 +1,4 @@
+usable hosts are all the IP addresses that belong to the
+      network, except the network address itself and the network
+      broadcast address.  For networks with a mask length of 31, the
+      network address and network broadcast address are also included

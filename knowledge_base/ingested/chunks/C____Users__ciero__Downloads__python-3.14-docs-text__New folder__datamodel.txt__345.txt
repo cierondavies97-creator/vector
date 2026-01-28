@@ -1,0 +1,5 @@
+Note:
+     "del x" doesn't directly call "x.__del__()" --- the former
+     decrements the reference count for "x" by one, and the latter is
+     only called when "x"'s reference count reaches zero.
+   **CPython implementation detail:** It is possible for a reference

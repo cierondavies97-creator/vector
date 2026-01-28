@@ -1,0 +1,3 @@
+address you should be using for a domain socket - it's system
+   dependent. For example, on Linux it's usually '/dev/log' but on
+   OS/X it's '/var/run/syslog'. You'll need to check your platform and

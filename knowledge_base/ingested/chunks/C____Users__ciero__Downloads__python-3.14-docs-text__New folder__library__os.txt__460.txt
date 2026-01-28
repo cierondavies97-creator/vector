@@ -1,0 +1,4 @@
+platforms.)  If the local platform supports it, the collection will
+   contain "os.access()"; otherwise it will be empty.
+   This expression evaluates to "True" if "os.access()" supports
+   "effective_ids=True" on the local platform:

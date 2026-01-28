@@ -1,0 +1,6 @@
+*command*: callback
+         A callback to be invoked when the heading label is pressed.
+      To configure the tree column heading, call this with column =
+      "#0".
+   identify(component, x, y)
+      Returns a description of the specified *component* under the

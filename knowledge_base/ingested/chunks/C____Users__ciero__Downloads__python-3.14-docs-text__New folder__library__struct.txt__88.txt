@@ -1,0 +1,4 @@
+storage, be precise.  Specify the exact byte order, size, and
+alignment.  Do not assume they match the native order of a particular
+machine. For example, network byte order is big-endian, while many
+popular CPUs are little-endian.  By defining this explicitly, the user

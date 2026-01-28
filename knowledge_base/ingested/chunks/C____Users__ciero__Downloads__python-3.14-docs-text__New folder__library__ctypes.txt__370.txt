@@ -1,0 +1,5 @@
+will receive an instance of this subclass from the function call. Of
+course, you can get the value of the pointer by accessing the "value"
+attribute.
+These are the fundamental ctypes data types:
+class ctypes.c_byte

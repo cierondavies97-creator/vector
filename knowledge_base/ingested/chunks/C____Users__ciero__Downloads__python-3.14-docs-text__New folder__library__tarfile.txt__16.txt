@@ -1,0 +1,3 @@
+|                    | exception if it already exists.               |
+   +--------------------+-----------------------------------------------+
+   | "'x:gz'"           | Create a tarfile with gzip compression. Raise |

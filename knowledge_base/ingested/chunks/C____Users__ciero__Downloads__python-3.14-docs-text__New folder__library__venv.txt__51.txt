@@ -1,0 +1,4 @@
+* *upgrade* -- a boolean value which, if true, will upgrade an
+     existing environment with the running Python - for use when that
+     Python has been upgraded in-place (defaults to "False").
+   * *with_pip* -- a boolean value which, if true, ensures pip is

@@ -1,0 +1,5 @@
+create distinct mutable objects on each call (such as generators
+   and async functions), or impure functions such as time() or
+   random().
+   Example of an LRU cache for static web content:
+      @lru_cache(maxsize=32)

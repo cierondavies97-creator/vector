@@ -1,0 +1,5 @@
+* "email.headerregistry": Custom Header Objects
+  * "email.contentmanager": Managing MIME Content
+    * Content Manager Instances
+  * "email": Examples
+  * "email.message.Message": Representing an email message using the

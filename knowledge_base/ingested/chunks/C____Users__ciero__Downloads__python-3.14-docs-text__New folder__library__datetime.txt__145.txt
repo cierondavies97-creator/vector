@@ -1,0 +1,5 @@
+except the latter formula always supports the full years range:
+   between "MINYEAR" and "MAXYEAR" inclusive.
+   Warning:
+     Because naive "datetime" objects are treated by many "datetime"
+     methods as local times, it is preferred to use aware datetimes to

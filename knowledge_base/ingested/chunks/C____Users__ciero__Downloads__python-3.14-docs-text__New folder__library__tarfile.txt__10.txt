@@ -1,0 +1,3 @@
+| mode               | action                                        |
+   |====================|===============================================|
+   | "'r'" or "'r:*'"   | Open for reading with transparent compression |

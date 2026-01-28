@@ -1,0 +1,6 @@
+First, you need to import the OptionParser class; then, early in the
+main program, create an OptionParser instance:
+   from optparse import OptionParser
+   ...
+   parser = OptionParser()
+Then you can start defining options.  The basic syntax is:

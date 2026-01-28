@@ -1,0 +1,7 @@
+if (PyModule_Add(m, "_C_API", c_api_object) < 0) {
+           return -1;
+       }
+       return 0;
+   }
+Note that "PySpam_API" is declared "static"; otherwise the pointer
+array would disappear when "PyInit_spam()" terminates!

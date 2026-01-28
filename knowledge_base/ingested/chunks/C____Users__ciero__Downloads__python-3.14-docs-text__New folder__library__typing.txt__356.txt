@@ -1,0 +1,5 @@
+code.
+   Added in version 3.8.
+   Changed in version 3.12: The internal implementation of
+   "isinstance()" checks against runtime-checkable protocols now uses
+   "inspect.getattr_static()" to look up attributes (previously,

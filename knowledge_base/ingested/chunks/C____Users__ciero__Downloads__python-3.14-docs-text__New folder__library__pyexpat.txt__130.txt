@@ -1,0 +1,6 @@
+stop the parser.
+xml.parsers.expat.errors.XML_ERROR_NOT_SUSPENDED
+   An attempt to resume the parser was made when the parser had not
+   been suspended.
+xml.parsers.expat.errors.XML_ERROR_ABORTED
+   This should not be reported to Python applications.

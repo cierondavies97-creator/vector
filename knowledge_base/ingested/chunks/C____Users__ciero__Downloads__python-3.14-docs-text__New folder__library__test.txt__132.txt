@@ -1,0 +1,5 @@
+limit on the number of digits when converting between an integer
+   and string.
+   Added in version 3.11.
+The "test.support" module defines the following classes:
+class test.support.SuppressCrashReport

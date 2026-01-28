@@ -1,0 +1,5 @@
+int | str | int == int | str
+   * When comparing unions, the order is ignored:
+        int | str == str | int
+   * It creates instances of "typing.Union":
+        int | str == typing.Union[int, str]

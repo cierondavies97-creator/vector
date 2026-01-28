@@ -1,0 +1,4 @@
+header, "(decoded_bytes, charset)", where *decoded_bytes* is
+      always an instance of "bytes", and *charset* is either:
+         * A lower case string containing the name of the character
+           set specified.

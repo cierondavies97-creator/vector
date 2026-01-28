@@ -1,0 +1,4 @@
+quopri.decode(input, output, header=False)
+   Decode the contents of the *input* file and write the resulting
+   decoded binary data to the *output* file. *input* and *output* must
+   be *binary file objects*.  If the optional argument *header* is

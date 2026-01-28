@@ -1,0 +1,3 @@
+to objects in the configuration.  This will be done implicitly by the
+configuration system for things that it knows about.  For example, the
+string value "'DEBUG'" for a "level" in a logger or handler will

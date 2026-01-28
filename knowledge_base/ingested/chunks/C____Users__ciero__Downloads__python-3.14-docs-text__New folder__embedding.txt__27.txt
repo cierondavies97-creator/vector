@@ -1,0 +1,8 @@
+PyObject *pArgs, *pValue;
+       int i;
+       if (argc < 3) {
+           fprintf(stderr,"Usage: call pythonfile funcname [args]\n");
+           return 1;
+       }
+       Py_Initialize();
+       pName = PyUnicode_DecodeFSDefault(argv[1]);

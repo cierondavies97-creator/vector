@@ -1,0 +1,3 @@
+mapping to or from a single Python byte string, while "'10c'" means
+   10 separate one byte character elements (e.g., "cccccccccc")
+   mapping to or from ten different Python byte objects. (See Examples

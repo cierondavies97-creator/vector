@@ -1,0 +1,8 @@
+the command line.
+Note:
+  Required options are generally considered bad form because users
+  expect *options* to be *optional*, and thus they should be avoided
+  when possible.
+help
+----
+The "help" value is a string containing a brief description of the

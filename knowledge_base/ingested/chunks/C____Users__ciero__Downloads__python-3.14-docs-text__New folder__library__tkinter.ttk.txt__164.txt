@@ -1,0 +1,5 @@
+* An integer n, specifying the nth data column.
+* A string of the form #n, where n is an integer, specifying the nth
+  display column.
+Notes:
+* Item's option values may be displayed in a different order than the

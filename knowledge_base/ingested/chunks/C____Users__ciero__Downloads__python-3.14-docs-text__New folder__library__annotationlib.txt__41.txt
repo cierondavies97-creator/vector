@@ -1,0 +1,3 @@
+they are converted using "type_repr()". This is meant as a helper
+   for user-provided annotate functions that support the "STRING"
+   format but do not have access to the code creating the annotations.

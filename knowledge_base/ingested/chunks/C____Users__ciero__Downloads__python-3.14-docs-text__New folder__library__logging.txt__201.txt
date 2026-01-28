@@ -1,0 +1,3 @@
++------------------+---------------------------+-------------------------------------------------+
+| stack_info       | You shouldn't need to     | Stack frame information (where available) from  |
+|                  | format this yourself.     | the bottom of the stack in the current thread,  |

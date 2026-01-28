@@ -1,0 +1,4 @@
+*lock* a process-safe synchronization wrapper may be returned
+   instead of a raw ctypes object.
+   If *lock* is "True" (the default) then a new lock object is created
+   to synchronize access to the value.  If *lock* is a "Lock" or

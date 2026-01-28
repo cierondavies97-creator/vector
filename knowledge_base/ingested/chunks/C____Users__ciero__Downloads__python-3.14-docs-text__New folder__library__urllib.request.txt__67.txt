@@ -1,0 +1,3 @@
+the remote host and to a proxy. *password_mgr*, if given, should be
+   something that is compatible with "HTTPPasswordMgr"; refer to
+   section HTTPPasswordMgr Objects for information on the interface

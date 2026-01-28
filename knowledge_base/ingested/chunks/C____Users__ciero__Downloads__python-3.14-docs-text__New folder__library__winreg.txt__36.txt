@@ -1,0 +1,4 @@
+Creates a subkey under the specified key and stores registration
+   information from a specified file into that subkey.
+   *key* is a handle returned by "ConnectRegistry()" or one of the
+   constants "HKEY_USERS" or "HKEY_LOCAL_MACHINE".

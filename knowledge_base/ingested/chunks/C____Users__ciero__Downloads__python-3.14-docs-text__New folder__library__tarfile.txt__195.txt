@@ -1,0 +1,7 @@
+*filter* parameter in "TarFile.add()":
+   import tarfile
+   def reset(tarinfo):
+       tarinfo.uid = tarinfo.gid = 0
+       tarinfo.uname = tarinfo.gname = "root"
+       return tarinfo
+   tar = tarfile.open("sample.tar.gz", "w:gz")

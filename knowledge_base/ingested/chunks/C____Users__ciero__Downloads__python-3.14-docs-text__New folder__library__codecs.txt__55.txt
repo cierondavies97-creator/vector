@@ -1,0 +1,3 @@
+|                           | Implemented in "backslashreplace_errors()".     |
++---------------------------+-------------------------------------------------+
+| "'surrogateescape'"       | On decoding, replace byte with individual       |

@@ -1,0 +1,5 @@
+set, the set-group-ID bit indicates mandatory file/record locking
+   (see also "S_ENFMT").
+stat.S_ISVTX
+   Sticky bit.  When this bit is set on a directory it means that a
+   file in that directory can be renamed or deleted only by the owner

@@ -1,0 +1,5 @@
+Descriptor-typed fields
+=======================
+Fields that are assigned descriptor objects as their default value
+have the following special behaviors:
+* The value for the field passed to the dataclass's "__init__()"

@@ -1,0 +1,5 @@
+before any user code is executed and removes it when exiting from
+   the function.
+2. The "Runner" creates the main task for the passed coroutine for its
+   execution.
+3. When "signal.SIGINT" is raised by "Ctrl"-"C", the custom signal

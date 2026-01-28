@@ -1,0 +1,5 @@
+like ".zip" for Zip files.
+   *function* is the callable that will be used to unpack archives.
+   The callable will receive:
+   * the path of the archive, as a positional argument;
+   * the directory the archive must be extracted to, as a positional

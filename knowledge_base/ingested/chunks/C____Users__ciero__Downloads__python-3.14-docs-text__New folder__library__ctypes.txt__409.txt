@@ -1,0 +1,4 @@
+(see "_layout_").
+      Setting "_pack_" to 0 is the same as not setting it at all.
+      Otherwise, the value must be a positive power of two. The effect
+      is equivalent to "#pragma pack(N)" in C, except "ctypes" may

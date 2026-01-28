@@ -1,0 +1,3 @@
+Python's "with" statement supports the concept of a runtime context
+defined by a context manager.  This is implemented using a pair of
+methods that allow user-defined classes to define a runtime context

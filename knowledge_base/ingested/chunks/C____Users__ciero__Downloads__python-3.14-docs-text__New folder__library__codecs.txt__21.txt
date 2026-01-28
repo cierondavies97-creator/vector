@@ -1,0 +1,5 @@
+Raises a "LookupError" in case the encoding cannot be found.
+Custom codecs are made available by registering a suitable codec
+search function:
+codecs.register(search_function, /)
+   Register a codec search function. Search functions are expected to

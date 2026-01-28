@@ -1,0 +1,8 @@
+* XMLParser Objects
+    * XMLPullParser Objects
+    * Exceptions
+* "xml.dom" --- The Document Object Model API
+  * Module Contents
+  * Objects in the DOM
+    * DOMImplementation Objects
+    * Node Objects

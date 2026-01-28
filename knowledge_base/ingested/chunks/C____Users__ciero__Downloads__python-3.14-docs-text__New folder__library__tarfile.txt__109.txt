@@ -1,0 +1,3 @@
+by setting *recursive* to "False". Recursion adds entries in sorted
+   order. If *filter* is given, it should be a function that takes a
+   "TarInfo" object argument and returns the changed "TarInfo" object.

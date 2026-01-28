@@ -1,0 +1,5 @@
+constructor accepts an optional "complex" initializer.
+   Added in version 3.14.
+class ctypes.c_longdouble_complex
+   Represents the C long double complex datatype, if available.  The
+   constructor accepts an optional "complex" initializer.

@@ -1,0 +1,4 @@
+hook must be a function that takes two arguments, *filename* and
+*mode*, and returns an accordingly opened file-like object. If
+*encoding* and/or *errors* are specified, they will be passed to the
+hook as additional keyword arguments. This module provides a

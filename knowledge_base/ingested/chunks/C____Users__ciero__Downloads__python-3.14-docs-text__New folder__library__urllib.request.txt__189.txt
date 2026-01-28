@@ -1,0 +1,4 @@
+auth_handler.add_password(realm='PDQ Application',
+                             uri='https://mahler:8092/site-updates.py',
+                             user='klem',
+                             passwd='kadidd!ehopper')

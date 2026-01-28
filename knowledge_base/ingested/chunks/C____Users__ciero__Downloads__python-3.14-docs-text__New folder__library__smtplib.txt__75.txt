@@ -1,0 +1,5 @@
+If "SMTPUTF8" is included in *mail_options*, and the server
+   supports it, *from_addr* and *to_addrs* may contain non-ASCII
+   characters.
+   This method may raise the following exceptions:
+   "SMTPRecipientsRefused"

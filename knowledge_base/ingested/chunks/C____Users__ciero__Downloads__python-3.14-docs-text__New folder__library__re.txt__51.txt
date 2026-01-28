@@ -1,0 +1,4 @@
+well as left bracket, braces, and parentheses.
+   * Support of nested sets and set operations as in Unicode Technical
+     Standard #18 might be added in the future.  This would change the
+     syntax, so to facilitate this change a "FutureWarning" will be

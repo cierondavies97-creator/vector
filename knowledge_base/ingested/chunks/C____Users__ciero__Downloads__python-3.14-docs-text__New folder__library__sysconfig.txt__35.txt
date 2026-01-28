@@ -1,0 +1,5 @@
++----------------+-------------------------------------------------------------+
+Home scheme
+===========
+The idea behind the "home scheme" is that you build and maintain a
+personal stash of Python modules.  This scheme's name is derived from

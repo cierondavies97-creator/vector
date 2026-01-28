@@ -1,0 +1,3 @@
+curr:    optional currency symbol before the sign (may be blank)
+       sep:     optional grouping separator (comma, period, space, or blank)
+       dp:      decimal point indicator (comma or period)

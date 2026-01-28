@@ -1,0 +1,5 @@
+clause). "name" is a raw string for the name to hold the exception,
+   or "None" if the clause doesn't have "as foo". "body" is a list of
+   nodes.
+      >>> print(ast.dump(ast.parse("""\
+      ... try:

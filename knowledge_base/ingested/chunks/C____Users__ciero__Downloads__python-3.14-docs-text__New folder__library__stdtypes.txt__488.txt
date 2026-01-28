@@ -1,0 +1,4 @@
+of the declared source code encoding). Any binary values over 127
+   must be entered into bytes literals using the appropriate escape
+   sequence.
+   As with string literals, bytes literals may also use a "r" prefix

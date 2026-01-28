@@ -1,0 +1,5 @@
+the "Nd" property.
+All "numbers.Real" types ("int" and "float") also include the
+following operations:
++----------------------+-----------------------------------------------+
+| Operation            | Result                                        |

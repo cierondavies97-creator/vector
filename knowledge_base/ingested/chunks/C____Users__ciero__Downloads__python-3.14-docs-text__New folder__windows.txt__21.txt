@@ -1,0 +1,4 @@
+older "py.exe" launcher. By default, "py" matches the behaviour of
+"python", but also allows command line options to select a specific
+version as well as subcommands to manage installations. These are
+detailed below.

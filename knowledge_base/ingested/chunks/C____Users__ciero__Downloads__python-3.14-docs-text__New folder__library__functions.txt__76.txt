@@ -1,0 +1,3 @@
+that implement a custom "__getattr__()" or "__getattribute__()"
+   function to customize the way "dir()" reports their attributes.
+   If the object does not provide "__dir__()", the function tries its

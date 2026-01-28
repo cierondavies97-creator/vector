@@ -1,0 +1,9 @@
+about 4 elements, we get errors accessing other elements:
+   >>> short_array[:]
+   [0, 0, 0, 0]
+   >>> short_array[7]
+   Traceback (most recent call last):
+       ...
+   IndexError: invalid index
+   >>>
+Another way to use variable-sized data types with "ctypes" is to use

@@ -1,0 +1,4 @@
+algorithms are taking time, the above line is what you would use.
+If you were looking to see what functions were looping a lot, and
+taking a lot of time, you would do:
+   p.sort_stats(SortKey.TIME).print_stats(10)

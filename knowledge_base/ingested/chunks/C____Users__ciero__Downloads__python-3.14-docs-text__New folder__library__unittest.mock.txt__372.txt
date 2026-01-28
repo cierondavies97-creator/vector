@@ -1,0 +1,4 @@
+>>> mock.header_items.assret_called_with()  # Intentional typo!
+Auto-speccing solves this problem. You can either pass "autospec=True"
+to "patch()" / "patch.object()" or use the "create_autospec()"
+function to create a mock with a spec. If you use the "autospec=True"

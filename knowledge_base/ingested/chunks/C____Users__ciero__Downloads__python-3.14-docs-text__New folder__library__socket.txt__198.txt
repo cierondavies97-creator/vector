@@ -1,0 +1,4 @@
+receive multiple items is the sum of the "CMSG_SPACE()" values for
+   their associated data lengths.  Raises "OverflowError" if *length*
+   is outside the permissible range of values.
+   Note that some systems might support ancillary data without

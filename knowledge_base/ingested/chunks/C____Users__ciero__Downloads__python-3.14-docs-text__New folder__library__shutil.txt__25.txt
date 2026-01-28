@@ -1,0 +1,4 @@
+On platforms where some or all of this functionality is
+     unavailable, when asked to modify a symbolic link, "copystat()"
+     will copy everything it can. "copystat()" never returns
+     failure.Please see "os.supports_follow_symlinks" for more

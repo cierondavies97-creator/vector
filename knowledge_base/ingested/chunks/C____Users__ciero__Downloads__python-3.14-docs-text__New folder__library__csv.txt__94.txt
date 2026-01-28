@@ -1,0 +1,2 @@
+should always be safe to specify "newline=''", since the csv
+    module does its own (*universal*) newline handling.

@@ -1,0 +1,3 @@
+Decompresses the bytes in *data*, returning a bytes object
+   containing the uncompressed data.  The *wbits* parameter depends on
+   the format of *data*, and is discussed further below. If *bufsize*

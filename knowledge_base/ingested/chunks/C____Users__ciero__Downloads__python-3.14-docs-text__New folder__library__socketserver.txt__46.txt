@@ -1,0 +1,5 @@
+"socket.AF_UNIX".  Subclass the TCP or UDP server classes in
+      this module with class attribute "address_family = AF_INET6" set
+      if you want IPv6 server classes.
+   RequestHandlerClass
+      The user-provided request handler class; an instance of this

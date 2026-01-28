@@ -1,0 +1,7 @@
+to copy a named pipe.
+   Added in version 2.7.
+exception shutil.SameFileError
+   This exception is raised if source and destination in "copyfile()"
+   are the same file.
+   Added in version 3.4.
+shutil.copymode(src, dst, *, follow_symlinks=True)

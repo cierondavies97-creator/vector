@@ -1,0 +1,5 @@
+For example, an optional argument could be created like:
+   >>> parser.add_argument('-f', '--foo')
+while a positional argument could be created like:
+   >>> parser.add_argument('bar')
+When "parse_args()" is called, optional arguments will be identified

@@ -1,0 +1,4 @@
+second element the corresponding value.  If a key occurs more than
+   once, the last value for that key becomes the corresponding value
+   in the new dictionary.
+   If keyword arguments are given, the keyword arguments and their

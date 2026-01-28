@@ -1,0 +1,4 @@
+The long form of the address representation, with all leading
+   zeroes and groups consisting entirely of zeroes included.
+   For the following attributes and methods, see the corresponding
+   documentation of the "IPv4Address" class:

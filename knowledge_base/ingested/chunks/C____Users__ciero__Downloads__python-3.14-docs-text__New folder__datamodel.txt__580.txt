@@ -1,0 +1,4 @@
+3.3.9. With Statement Context Managers
+--------------------------------------
+A *context manager* is an object that defines the runtime context to
+be established when executing a "with" statement. The context manager

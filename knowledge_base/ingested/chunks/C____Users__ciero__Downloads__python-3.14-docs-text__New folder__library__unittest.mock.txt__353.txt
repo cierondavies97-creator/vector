@@ -1,0 +1,6 @@
+irrespective of "FILTER_DIR".
+mock_open
+---------
+unittest.mock.mock_open(mock=None, read_data=None)
+   A helper function to create a mock to replace the use of "open()".
+   It works for "open()" called directly or used as a context manager.

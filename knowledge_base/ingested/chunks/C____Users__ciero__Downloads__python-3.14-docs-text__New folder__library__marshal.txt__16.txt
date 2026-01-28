@@ -1,0 +1,5 @@
+"TypeError". Code objects are only supported if *allow_code* is
+   true. The file must be a readable *binary file*.
+   Raises an auditing event "marshal.load" with no arguments.
+   Note:
+     If an object containing an unsupported type was marshalled with

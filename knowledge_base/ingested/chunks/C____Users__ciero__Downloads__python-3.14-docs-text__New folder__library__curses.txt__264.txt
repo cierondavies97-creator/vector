@@ -1,0 +1,3 @@
+| curses.KEY_SMOVE          | Shifted Move                                 |
++---------------------------+----------------------------------------------+
+| curses.KEY_SNEXT          | Shifted Next                                 |

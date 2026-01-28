@@ -1,0 +1,6 @@
+PyErr_Format(PyExc_AttributeError,
+                    "'%.100s' object has no attribute '%.400s'",
+                    Py_TYPE(self)->tp_name, name);
+       return NULL;
+   }
+The "tp_setattr" handler is called when the "__setattr__()" or

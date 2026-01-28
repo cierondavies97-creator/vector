@@ -1,0 +1,3 @@
+in 'precision' digits. The rounding mode of the context is used.
+      Results are always correctly rounded in the Python version.
+      "Decimal(0) ** Decimal(0)" results in "InvalidOperation", and if

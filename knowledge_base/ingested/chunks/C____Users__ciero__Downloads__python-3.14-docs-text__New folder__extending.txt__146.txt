@@ -1,0 +1,5 @@
+1.10. Reference Counts
+======================
+In languages like C or C++, the programmer is responsible for dynamic
+allocation and deallocation of memory on the heap.  In C, this is done
+using the functions "malloc()" and "free()".  In C++, the operators

@@ -1,0 +1,4 @@
+as the "STRING" format: annotations that perform operations on
+literals or that use unsupported expression types may raise exceptions
+when evaluated using the "FORWARDREF" format.
+Below are a few examples of the behavior with unsupported expressions:

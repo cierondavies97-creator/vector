@@ -1,0 +1,5 @@
+ctx=Load()))],
+                  value=Subscript(
+                      value=Name(id='Callable', ctx=Load()),
+                      slice=Tuple(
+                          elts=[

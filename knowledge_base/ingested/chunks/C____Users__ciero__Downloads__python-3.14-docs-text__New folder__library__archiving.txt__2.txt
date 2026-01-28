@@ -1,0 +1,8 @@
+* Zstandard dictionaries
+  * Advanced parameter control
+  * Miscellaneous
+  * Examples
+* "zlib" --- Compression compatible with **gzip**
+* "gzip" --- Support for **gzip** files
+  * Examples of usage
+  * Command-line interface

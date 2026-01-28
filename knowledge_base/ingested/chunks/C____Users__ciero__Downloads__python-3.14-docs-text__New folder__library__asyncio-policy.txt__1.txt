@@ -1,0 +1,4 @@
+implementation.
+An event loop policy is a global object used to get and set the
+current event loop, as well as create new event loops. The default
+policy can be replaced with built-in alternatives to use different

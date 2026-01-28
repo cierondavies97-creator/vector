@@ -1,0 +1,5 @@
+over *iterable* of iterables and calls *func* with the iterables
+      unpacked. Returns a result object.
+      Added in version 3.3.
+   close()
+      Prevents any more tasks from being submitted to the pool.  Once

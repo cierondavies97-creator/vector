@@ -1,0 +1,7 @@
+>>> class Cell:
+      ...     def __init__(self):
+      ...         self._alive = False
+      ...     @property
+      ...     def alive(self):
+      ...         return self._alive
+      ...     def set_state(self, state):

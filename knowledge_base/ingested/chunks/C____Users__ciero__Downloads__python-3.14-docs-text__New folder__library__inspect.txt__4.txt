@@ -1,0 +1,4 @@
+a class or module. The functions whose names begin with "is" are
+mainly provided as convenient choices for the second argument to
+"getmembers()". They also help you determine when you can expect to
+find the following special attributes (see Import-related attributes

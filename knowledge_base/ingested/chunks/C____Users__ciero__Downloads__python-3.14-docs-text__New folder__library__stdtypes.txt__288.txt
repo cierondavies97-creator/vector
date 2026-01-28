@@ -1,0 +1,5 @@
+constructor.
+Since there is no separate "character" type, indexing a string
+produces strings of length 1. That is, for a non-empty string *s*,
+"s[0] == s[0:1]".
+There is also no mutable string type, but "str.join()" or

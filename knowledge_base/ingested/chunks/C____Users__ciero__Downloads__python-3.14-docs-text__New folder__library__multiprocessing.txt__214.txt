@@ -1,0 +1,6 @@
+method's first argument is named *block*, as is consistent with
+   "Lock.acquire()".
+   locked()
+      Return a boolean indicating whether this object is locked right
+      now.
+      Added in version 3.14.

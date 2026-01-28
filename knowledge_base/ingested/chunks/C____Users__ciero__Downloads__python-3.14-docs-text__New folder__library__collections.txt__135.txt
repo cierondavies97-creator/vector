@@ -1,0 +1,4 @@
+will default to "1", and "z" will default to "2".
+   If *module* is defined, the "__module__" attribute of the named
+   tuple is set to that value.
+   Named tuple instances do not have per-instance dictionaries, so

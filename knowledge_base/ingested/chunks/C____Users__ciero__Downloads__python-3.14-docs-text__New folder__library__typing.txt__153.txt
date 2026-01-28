@@ -1,0 +1,5 @@
+use of "Optional" is appropriate, whether the argument is optional
+   or not. For example:
+      def foo(arg: Optional[int] = None) -> None:
+          ...
+   Changed in version 3.10: Optional can now be written as "X | None".

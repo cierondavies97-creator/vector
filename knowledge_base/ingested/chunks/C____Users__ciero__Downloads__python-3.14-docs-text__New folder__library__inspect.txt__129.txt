@@ -1,0 +1,5 @@
+the interactive shell.
+inspect.getfile(object)
+   Return the name of the (text or binary) file in which an object was
+   defined. This will fail with a "TypeError" if the object is a
+   built-in module, class, or function.

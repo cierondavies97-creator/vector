@@ -1,0 +1,4 @@
+for Tuesday, and so on up to 'W6' for Sunday. In this case, the
+   value passed for *interval* isn't used.
+   The system will save old log files by appending extensions to the
+   filename. The extensions are date-and-time based, using the

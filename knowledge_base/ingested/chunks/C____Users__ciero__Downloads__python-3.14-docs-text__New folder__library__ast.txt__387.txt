@@ -1,0 +1,8 @@
+is as simple as:
+   python -m ast [-m <mode>] [-a] [infile]
+The following options are accepted:
+-h, --help
+   Show the help message and exit.
+-m <mode>
+--mode <mode>
+   Specify what kind of code must be compiled, like the *mode*

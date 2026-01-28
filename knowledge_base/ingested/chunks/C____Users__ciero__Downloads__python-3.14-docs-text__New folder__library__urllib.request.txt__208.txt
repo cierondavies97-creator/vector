@@ -1,0 +1,4 @@
+found, and *headers* is whatever the "info()" method of the object
+   returned by "urlopen()" returned (for a remote object). Exceptions
+   are the same as for "urlopen()".
+   The second argument, if present, specifies the file location to

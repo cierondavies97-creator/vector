@@ -1,0 +1,4 @@
+Catching exceptions from "__enter__" methods
+--------------------------------------------
+It is occasionally desirable to catch exceptions from an "__enter__"
+method implementation, *without* inadvertently catching exceptions

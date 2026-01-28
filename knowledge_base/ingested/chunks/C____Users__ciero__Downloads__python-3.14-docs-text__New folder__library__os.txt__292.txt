@@ -1,0 +1,4 @@
+*gid*.  This function will not follow symbolic links.  As of Python
+   3.3, this is equivalent to "os.chown(path, uid, gid,
+   follow_symlinks=False)".
+   Raises an auditing event "os.chown" with arguments "path", "uid",

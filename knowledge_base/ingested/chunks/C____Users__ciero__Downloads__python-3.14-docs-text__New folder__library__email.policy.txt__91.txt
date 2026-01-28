@@ -1,0 +1,4 @@
+conform even more closely to the RFCs relevant to their domains.
+email.policy.default
+   An instance of "EmailPolicy" with all defaults unchanged.  This
+   policy uses the standard Python "\n" line endings rather than the

@@ -1,0 +1,5 @@
+for the "required=" keyword argument to "add_argument()":
+   >>> parser = argparse.ArgumentParser()
+   >>> parser.add_argument('--foo', required=True)
+   >>> parser.parse_args(['--foo', 'BAR'])
+   Namespace(foo='BAR')

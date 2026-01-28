@@ -1,0 +1,5 @@
+cfg = configparser.ConfigParser()
+   cfg.read('example.cfg')
+   # Set the optional *raw* argument of get() to True if you wish to disable
+   # interpolation in a single get operation.
+   print(cfg.get('Section1', 'foo', raw=False))  # -> "Python is fun!"

@@ -1,0 +1,4 @@
+by different "Executor" instances) given by *fs* that yields
+   futures as they complete (finished or cancelled futures). Any
+   futures given by *fs* that are duplicated will be returned once.
+   Any futures that completed before "as_completed()" is called will

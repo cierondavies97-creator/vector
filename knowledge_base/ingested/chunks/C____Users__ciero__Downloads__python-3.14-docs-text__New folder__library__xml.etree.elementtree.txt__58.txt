@@ -1,0 +1,3 @@
+|                         | example, "spam" selects all child elements named       |
+|                         | "spam", and "spam/egg" selects all grandchildren named |
+|                         | "egg" in all children named "spam". "{namespace}*"     |

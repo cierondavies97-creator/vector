@@ -1,0 +1,6 @@
+now raises "ImportWarning".
+Changed in version 3.12: "find_module()" has been removed. Use
+"find_spec()" instead.
+5.4. Loading
+============
+If and when a module spec is found, the import machinery will use it

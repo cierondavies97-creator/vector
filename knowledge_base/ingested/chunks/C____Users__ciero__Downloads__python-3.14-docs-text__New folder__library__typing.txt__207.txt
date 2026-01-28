@@ -1,0 +1,5 @@
+to a block of code.  The conditional expression here is sometimes
+   referred to as a "type predicate":
+      def is_str(val: str | float):
+          # "isinstance" type predicate
+          if isinstance(val, str):

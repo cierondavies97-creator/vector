@@ -1,0 +1,6 @@
+_type_
+      Specifies the type of each element in the array.
+   Array subclass constructors accept positional arguments, used to
+   initialize the elements in order.
+ctypes.ARRAY(type, length)
+   Create an array. Equivalent to "type * length", where *type* is a

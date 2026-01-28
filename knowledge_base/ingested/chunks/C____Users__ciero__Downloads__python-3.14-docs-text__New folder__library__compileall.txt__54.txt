@@ -1,0 +1,5 @@
+default value is updated to "None".
+To force a recompile of all the ".py" files in the "Lib/" subdirectory
+and all its subdirectories:
+   import compileall
+   compileall.compile_dir('Lib/', force=True)

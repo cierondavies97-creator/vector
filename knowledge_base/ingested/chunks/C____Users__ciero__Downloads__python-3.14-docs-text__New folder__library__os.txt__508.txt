@@ -1,0 +1,4 @@
+instead of "os.listdir()", making it faster by reducing the number
+   of calls to "os.stat()".
+   Changed in version 3.6: Accepts a *path-like object*.
+os.fwalk(top='.', topdown=True, onerror=None, *, follow_symlinks=False, dir_fd=None)

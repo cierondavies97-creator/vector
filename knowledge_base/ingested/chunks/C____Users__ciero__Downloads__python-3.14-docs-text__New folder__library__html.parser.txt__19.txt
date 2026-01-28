@@ -1,0 +1,4 @@
+will be translated to lower case, and quotes in the *value* have
+   been removed, and character and entity references have been
+   replaced.
+   For instance, for the tag "<A HREF="https://www.cwi.nl/">", this

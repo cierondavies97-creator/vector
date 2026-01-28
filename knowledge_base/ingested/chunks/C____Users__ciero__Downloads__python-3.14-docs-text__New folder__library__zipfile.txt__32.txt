@@ -1,0 +1,3 @@
+"closed" without adding any files to the archive, the appropriate
+   ZIP structures for an empty archive will be written to the file.
+   ZipFile is also a context manager and therefore supports the "with"

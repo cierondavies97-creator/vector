@@ -1,0 +1,5 @@
+management API provided, then "ExitStack" can make it easier to handle
+various situations that can't be handled directly in a "with"
+statement.
+Cleaning up in an "__enter__" implementation
+--------------------------------------------

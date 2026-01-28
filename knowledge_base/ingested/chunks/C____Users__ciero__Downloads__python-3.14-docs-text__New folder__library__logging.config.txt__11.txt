@@ -1,0 +1,5 @@
+"configure()" call. "dictConfigClass" would be bound to this new
+   subclass, and then "dictConfig()" could be called exactly as in the
+   default, uncustomized state.
+   Added in version 3.2.
+logging.config.fileConfig(fname, defaults=None, disable_existing_loggers=True, encoding=None)

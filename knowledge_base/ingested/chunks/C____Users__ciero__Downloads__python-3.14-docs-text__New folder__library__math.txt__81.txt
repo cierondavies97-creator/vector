@@ -1,0 +1,4 @@
+arguments.  If all arguments are zero, then the returned value is
+   "0".  "gcd()" without arguments returns "0".
+   Added in version 3.5.
+   Changed in version 3.9: Added support for an arbitrary number of

@@ -1,0 +1,3 @@
+"tp_iternext".  An iterator's "tp_iter" handler should return a new
+reference to the iterator.  Its "tp_iternext" handler should return a
+new reference to the next object in the iteration, if there is one. If

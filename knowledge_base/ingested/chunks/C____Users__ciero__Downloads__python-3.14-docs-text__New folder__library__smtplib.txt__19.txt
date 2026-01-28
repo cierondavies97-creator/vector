@@ -1,0 +1,3 @@
+LMTP, so our "connect()" method must support that as well as a
+   regular host:port server. The optional arguments *local_hostname*
+   and *source_address* have the same meaning as they do in the "SMTP"

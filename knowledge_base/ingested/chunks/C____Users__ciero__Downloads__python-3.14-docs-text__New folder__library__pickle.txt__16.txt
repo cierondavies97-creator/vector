@@ -1,0 +1,4 @@
+ecosystem, while pickle is Python-specific;
+* JSON, by default, can only represent a subset of the Python built-in
+  types, and no custom classes; pickle can represent an extremely
+  large number of Python types (many of them automatically, by clever

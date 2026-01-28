@@ -1,0 +1,4 @@
+"TZPATH" may contain only absolute paths, never relative paths,
+   regardless of how it is configured.
+   The object that "zoneinfo.TZPATH" points to may change in response
+   to a call to "reset_tzpath()", so it is recommended to use

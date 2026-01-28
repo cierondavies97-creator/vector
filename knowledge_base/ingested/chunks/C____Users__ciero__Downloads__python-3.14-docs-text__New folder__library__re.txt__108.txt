@@ -1,0 +1,5 @@
+as the underscore ("_").
+      Matches "[a-zA-Z0-9_]" if the "ASCII" flag is used.
+   For 8-bit (bytes) patterns:
+      Matches characters considered alphanumeric in the ASCII
+      character set; this is equivalent to "[a-zA-Z0-9_]". If the

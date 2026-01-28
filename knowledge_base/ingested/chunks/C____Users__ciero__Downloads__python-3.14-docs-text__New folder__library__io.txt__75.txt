@@ -1,0 +1,6 @@
+end of file. If the object is in non-blocking mode and no bytes
+      are available, "None" is returned.
+      The default implementation defers to "readall()" and
+      "readinto()".
+   readall()
+      Read and return all the bytes from the stream until EOF, using

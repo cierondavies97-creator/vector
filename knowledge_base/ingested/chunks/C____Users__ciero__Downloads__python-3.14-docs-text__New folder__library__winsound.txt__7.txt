@@ -1,0 +1,5 @@
+sound cannot be played otherwise.  If the system indicates an
+   error, "RuntimeError" is raised.
+winsound.SND_FILENAME
+   The *sound* parameter is the name of a WAV file. Do not use with
+   "SND_ALIAS".

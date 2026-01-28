@@ -1,0 +1,4 @@
+*spawn*
+      The parent process starts a fresh Python interpreter process.
+      The child process will only inherit those resources necessary to
+      run the process object's "run()" method.  In particular,

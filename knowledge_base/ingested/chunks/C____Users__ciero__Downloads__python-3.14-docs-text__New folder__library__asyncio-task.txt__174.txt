@@ -1,0 +1,4 @@
+Changed in version 3.8: Added the *name* parameter.
+   Deprecated since version 3.10: Deprecation warning is emitted if
+   *loop* is not specified and there is no running event loop.
+   Changed in version 3.11: Added the *context* parameter.

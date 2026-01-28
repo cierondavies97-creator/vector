@@ -1,0 +1,5 @@
+BaseHandler.parent
+   A valid "OpenerDirector", which can be used to open using a
+   different protocol, or handle errors.
+BaseHandler.default_open(req)
+   This method is *not* defined in "BaseHandler", but subclasses

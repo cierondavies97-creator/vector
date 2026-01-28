@@ -1,0 +1,3 @@
+with either single or double quotes):
+   +-----------------------------------------+------------------------------------+
+   | Context of reference to group "quote"   | Ways to reference it               |

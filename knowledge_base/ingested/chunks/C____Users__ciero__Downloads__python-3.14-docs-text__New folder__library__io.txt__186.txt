@@ -1,0 +1,5 @@
+system calls (such as *read(2)* under Unix) they wrap are thread-safe
+too.
+Binary buffered objects (instances of "BufferedReader",
+"BufferedWriter", "BufferedRandom" and "BufferedRWPair") protect their
+internal structures using a lock; it is therefore safe to call them

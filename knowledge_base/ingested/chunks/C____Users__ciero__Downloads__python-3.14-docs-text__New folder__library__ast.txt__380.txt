@@ -1,0 +1,5 @@
+value=Await(
+                              value=Call(
+                                  func=Name(id='other_func', ctx=Load()),
+                                  args=[],
+                                  keywords=[])))],

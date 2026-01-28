@@ -1,0 +1,5 @@
+btn = ttk.Button(frm, ...)
+   print(btn.configure().keys())
+As most widgets have many configuration options in common, it can be
+useful to find out which are specific to a particular widget class.
+Comparing the list of options to that of a simpler widget, like a

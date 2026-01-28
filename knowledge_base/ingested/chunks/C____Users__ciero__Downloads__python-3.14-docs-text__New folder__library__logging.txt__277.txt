@@ -1,0 +1,5 @@
+When the logging module is imported, it registers this function as
+   an exit handler (see "atexit"), so normally there's no need to do
+   that manually.
+logging.setLoggerClass(klass)
+   Tells the logging system to use the class *klass* when

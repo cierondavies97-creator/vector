@@ -1,0 +1,5 @@
+=======================
+These methods are available on "HTTPPasswordMgr" and
+"HTTPPasswordMgrWithDefaultRealm" objects.
+HTTPPasswordMgr.add_password(realm, uri, user, passwd)
+   *uri* can be either a single URI, or a sequence of URIs. *realm*,

@@ -1,0 +1,4 @@
+=============================================
+Suppose we want to create a class whose instances represent temporary
+directories.  The directories should be deleted with their contents
+when the first of the following events occurs:

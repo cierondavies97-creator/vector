@@ -1,0 +1,4 @@
+recursion from causing an overflow of the C stack and crashing
+   Python.  It can be set by "setrecursionlimit()".
+sys.getsizeof(object[, default])
+   Return the size of an object in bytes. The object can be any type

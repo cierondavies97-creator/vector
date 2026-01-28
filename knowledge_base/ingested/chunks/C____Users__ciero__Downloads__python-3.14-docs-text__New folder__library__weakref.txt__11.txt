@@ -1,0 +1,4 @@
+by the "weakref" module for the benefit of advanced uses.
+Not all objects can be weakly referenced. Objects which support weak
+references include class instances, functions written in Python (but
+not in C), instance methods, sets, frozensets, some *file objects*,

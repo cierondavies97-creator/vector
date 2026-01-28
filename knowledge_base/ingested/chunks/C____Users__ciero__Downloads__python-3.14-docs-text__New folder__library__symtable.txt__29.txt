@@ -1,0 +1,7 @@
+assigned to.
+   is_free_class()
+      Return *True* if a class-scoped symbol is free from the
+      perspective of a method.
+      Consider the following example:
+         def f():
+             x = 1  # function-scoped

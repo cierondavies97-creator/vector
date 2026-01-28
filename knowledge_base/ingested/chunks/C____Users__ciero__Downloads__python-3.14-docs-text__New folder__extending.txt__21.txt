@@ -1,0 +1,4 @@
+the arguments as well as the types of the C variables into which to
+store the converted values.  More about this later.
+"PyArg_ParseTuple()" returns true (nonzero) if all arguments have the
+right type and its components have been stored in the variables whose

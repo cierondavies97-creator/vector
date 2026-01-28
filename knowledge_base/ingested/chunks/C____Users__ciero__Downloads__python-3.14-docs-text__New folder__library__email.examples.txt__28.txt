@@ -1,0 +1,6 @@
+main()
+Here's an example of how to unpack a MIME message like the one above,
+into a directory of files:
+   #!/usr/bin/env python3
+   """Unpack a MIME message into a directory of files."""
+   import os

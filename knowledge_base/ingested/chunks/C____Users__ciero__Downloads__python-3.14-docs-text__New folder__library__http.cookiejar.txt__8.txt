@@ -1,0 +1,4 @@
+The following classes are provided:
+class http.cookiejar.CookieJar(policy=None)
+   *policy* is an object implementing the "CookiePolicy" interface.
+   The "CookieJar" class stores HTTP cookies.  It extracts cookies

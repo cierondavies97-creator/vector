@@ -1,0 +1,2 @@
+| bz2_codec              | bz2                | Compress the operand using     | "bz2.compress()" /             |
+|                        |                    | bz2.                           | "bz2.decompress()"             |

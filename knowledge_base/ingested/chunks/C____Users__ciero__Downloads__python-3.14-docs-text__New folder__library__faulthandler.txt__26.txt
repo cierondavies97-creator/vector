@@ -1,0 +1,6 @@
+"unregister()": see issue with file descriptors.
+   Not available on Windows.
+   Changed in version 3.5: Added support for passing file descriptor
+   to this function.
+faulthandler.unregister(signum)
+   Unregister a user signal: uninstall the handler of the *signum*

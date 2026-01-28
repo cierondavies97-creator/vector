@@ -1,0 +1,5 @@
+like the following (where "user_ns" is the module used to execute code
+entered interactively):
+   import warnings
+   warnings.filterwarnings("default", category=DeprecationWarning,
+                                      module=user_ns.get("__name__"))

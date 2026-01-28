@@ -1,0 +1,3 @@
+arguments may be omitted ("zero-argument "super()""). In this case,
+   *type* will be the enclosing class, and *obj* will be the first
+   argument of the immediately enclosing function (typically "self").

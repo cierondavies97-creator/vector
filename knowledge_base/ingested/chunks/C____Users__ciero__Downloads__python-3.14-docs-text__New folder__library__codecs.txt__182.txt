@@ -1,0 +1,6 @@
+* an ISO 8859 codeset
+* a Microsoft Windows code page, which is typically derived from an
+  8859 codeset, but replaces control characters with additional
+  graphic characters
+* an IBM EBCDIC code page
+* an IBM PC code page, which is ASCII compatible

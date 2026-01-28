@@ -1,0 +1,3 @@
+the local scope.  The search operation of the "import" statement is
+defined as a call to the "__import__()" function, with the appropriate
+arguments. The return value of "__import__()" is used to perform the

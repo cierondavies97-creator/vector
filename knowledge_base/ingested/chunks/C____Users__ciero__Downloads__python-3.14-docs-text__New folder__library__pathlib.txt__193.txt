@@ -1,0 +1,7 @@
+for name in dirs:
+              (root / name).rmdir()
+   Added in version 3.12.
+Creating files and directories
+------------------------------
+Path.touch(mode=0o666, exist_ok=True)
+   Create a file at this given path.  If *mode* is given, it is

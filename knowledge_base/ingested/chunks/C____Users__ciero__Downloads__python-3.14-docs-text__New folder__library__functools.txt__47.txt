@@ -1,0 +1,4 @@
+the effort involved in specifying all of the possible rich
+   comparison operations:
+   The class must define one of "__lt__()", "__le__()", "__gt__()", or
+   "__ge__()". In addition, the class should supply an "__eq__()"

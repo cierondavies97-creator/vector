@@ -1,0 +1,4 @@
+system resources utilized by a program.
+Availability: Unix, not WASI.
+Symbolic constants are used to specify particular system resources and
+to request usage information about either the current process or its

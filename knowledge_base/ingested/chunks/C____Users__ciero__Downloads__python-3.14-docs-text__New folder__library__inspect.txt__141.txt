@@ -1,0 +1,6 @@
+'b: int'
+      >>> sig.parameters['b'].annotation
+      <class 'int'>
+   Accepts a wide range of Python callables, from plain functions and
+   classes to "functools.partial()" objects.
+   If some of the annotations are strings (e.g., because "from

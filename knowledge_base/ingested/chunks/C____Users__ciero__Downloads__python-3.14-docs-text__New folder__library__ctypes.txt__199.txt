@@ -1,0 +1,4 @@
+the buffer contents of "temp0" into "rc" 's buffer.  This, in turn,
+changes the contents of "temp1". So, the last assignment "rc.b =
+temp1", doesn't have the expected effect.
+Keep in mind that retrieving sub-objects from Structure, Unions, and

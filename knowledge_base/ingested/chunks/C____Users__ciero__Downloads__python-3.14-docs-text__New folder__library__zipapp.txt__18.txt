@@ -1,0 +1,4 @@
+directory and the target will be a file with the same name as the
+     source, with a ".pyz" extension added.
+   The *interpreter* argument specifies the name of the Python
+   interpreter with which the archive will be executed.  It is written

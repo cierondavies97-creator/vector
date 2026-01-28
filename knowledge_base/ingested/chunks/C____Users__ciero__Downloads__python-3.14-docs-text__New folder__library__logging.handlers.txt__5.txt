@@ -1,0 +1,4 @@
+The record is then written to the stream followed by
+      "terminator". If exception information is present, it is
+      formatted using "traceback.print_exception()" and appended to
+      the stream.

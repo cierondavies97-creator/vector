@@ -1,0 +1,4 @@
+| '[' a=[star_targets_list_seq] ']' { _PyAST_List(a, Store, EXTRA) }
+   single_target[expr_ty]:
+       | single_subscript_attribute_target
+       | a=NAME { _PyPegen_set_expr_context(p, a, Store) }

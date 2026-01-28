@@ -1,0 +1,4 @@
+these areas with appropriate data.  The "resize_term()" function
+   attempts to resize all windows.  However, due to the calling
+   convention of pads, it is not possible to resize these without
+   additional interaction with the application.

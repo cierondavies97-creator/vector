@@ -1,0 +1,5 @@
+client does not send any for client cert authentication.
+   See the discussion of Security considerations below.
+ssl.CERT_OPTIONAL
+   Possible value for "SSLContext.verify_mode". In client mode,
+   "CERT_OPTIONAL" has the same meaning as "CERT_REQUIRED". It is

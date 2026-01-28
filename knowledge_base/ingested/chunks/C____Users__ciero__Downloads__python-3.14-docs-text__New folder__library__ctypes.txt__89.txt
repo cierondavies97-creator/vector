@@ -1,0 +1,4 @@
+attribute available on request.
+Specifying the required argument types (function prototypes)
+------------------------------------------------------------
+It is possible to specify the required argument types of functions

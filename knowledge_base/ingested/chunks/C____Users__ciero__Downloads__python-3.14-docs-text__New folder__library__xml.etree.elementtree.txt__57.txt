@@ -1,0 +1,3 @@
+| Syntax                  | Meaning                                                |
+|=========================|========================================================|
+| "tag"                   | Selects all child elements with the given tag. For     |

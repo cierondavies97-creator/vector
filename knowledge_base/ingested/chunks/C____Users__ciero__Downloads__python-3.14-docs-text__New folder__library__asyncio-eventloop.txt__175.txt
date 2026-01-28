@@ -1,0 +1,3 @@
+The callback will be invoked by *loop*, along with other queued
+   callbacks and runnable coroutines of that event loop. Unlike signal
+   handlers registered using "signal.signal()", a callback registered

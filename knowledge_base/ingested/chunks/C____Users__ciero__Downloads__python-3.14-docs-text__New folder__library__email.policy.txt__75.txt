@@ -1,0 +1,5 @@
+header field stypes.  Support for additional custom parsing will
+      be added in the future.
+   content_manager
+      An object with at least two methods: get_content and
+      set_content.  When the "get_content()" or "set_content()" method

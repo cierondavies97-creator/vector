@@ -1,0 +1,4 @@
+settings.
+   The returned string includes the currency symbol if *symbol* is
+   true, which is the default. If *grouping* is "True" (which is not
+   the default), grouping is done with the value. If *international*

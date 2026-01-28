@@ -1,0 +1,6 @@
+attribute.
+   exceptions
+      A tuple of the exceptions in the "excs" sequence given to the
+      constructor. This is a read-only attribute.
+   subgroup(condition)
+      Returns an exception group that contains only the exceptions

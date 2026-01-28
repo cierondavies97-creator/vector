@@ -1,0 +1,4 @@
+and it will only pass additional arguments if you specify them via
+"callback_args" and "callback_kwargs".  Thus, the minimal callback
+function signature is:
+   def my_callback(option, opt, value, parser):

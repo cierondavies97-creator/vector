@@ -1,0 +1,4 @@
+that it contains "yield" expressions for producing a series of
+   values usable in an "async for" loop.
+   Usually refers to an asynchronous generator function, but may refer
+   to an *asynchronous generator iterator* in some contexts.  In cases

@@ -1,0 +1,4 @@
+around a single type variable "T" . This also makes "T" valid as a
+type within the class body.
+Generic classes implicitly inherit from "Generic". For compatibility
+with Python 3.11 and lower, it is also possible to inherit explicitly

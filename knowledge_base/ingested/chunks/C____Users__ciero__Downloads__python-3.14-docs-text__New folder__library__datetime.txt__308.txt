@@ -1,0 +1,6 @@
+The default implementation of "utcoffset()" raises
+   "NotImplementedError".
+   Changed in version 3.7: The UTC offset is not restricted to a whole
+   number of minutes.
+tzinfo.dst(dt)
+   Return the daylight saving time (DST) adjustment, as a "timedelta"

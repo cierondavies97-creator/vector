@@ -1,0 +1,4 @@
+*N* is the length of the sequence, or "slice" objects, which define a
+range of items.  It is also recommended that mappings provide the
+methods "keys()", "values()", "items()", "get()", "clear()",
+"setdefault()", "pop()", "popitem()", "copy()", and "update()"

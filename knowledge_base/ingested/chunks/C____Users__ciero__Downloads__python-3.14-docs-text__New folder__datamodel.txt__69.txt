@@ -1,0 +1,3 @@
+Changed in version 3.7: Dictionaries did not preserve insertion order
+in versions of Python before 3.6. In CPython 3.6, insertion order was
+preserved, but it was considered an implementation detail at that time

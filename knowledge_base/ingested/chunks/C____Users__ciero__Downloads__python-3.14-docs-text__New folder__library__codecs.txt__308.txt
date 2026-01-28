@@ -1,0 +1,4 @@
+performs conversion between Unicode and ACE, separating an input
+string into labels based on the separator characters defined in
+**section 3.1 of RFC 3490** and converting each label to ACE as
+required, and conversely separating an input byte string into labels

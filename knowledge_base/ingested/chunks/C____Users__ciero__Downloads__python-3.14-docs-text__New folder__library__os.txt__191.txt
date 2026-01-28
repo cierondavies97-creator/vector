@@ -1,0 +1,5 @@
+Availability: Unix.
+   Added in version 3.3.
+os.pwritev(fd, buffers, offset, flags=0, /)
+   Write the *buffers* contents to file descriptor *fd* at an offset
+   *offset*, leaving the file offset unchanged.  *buffers* must be a

@@ -1,0 +1,4 @@
+Note that many of these have little practical significance in modern
+usage.  The mnemonics derive from teleprinter conventions that predate
+digital computers.
+The module supplies the following functions, patterned on those in the

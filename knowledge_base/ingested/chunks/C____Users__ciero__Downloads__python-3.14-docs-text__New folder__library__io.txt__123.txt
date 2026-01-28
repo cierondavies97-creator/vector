@@ -1,0 +1,4 @@
+* when the "BufferedWriter" object is closed or destroyed.
+   The constructor creates a "BufferedWriter" for the given writeable
+   *raw* stream.  If the *buffer_size* is not given, it defaults to
+   "DEFAULT_BUFFER_SIZE".

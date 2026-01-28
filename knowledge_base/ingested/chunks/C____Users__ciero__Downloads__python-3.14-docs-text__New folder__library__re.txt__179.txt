@@ -1,0 +1,4 @@
+"'\'" and an ASCII letter now are errors.
+   Changed in version 3.7: Unknown escapes in *repl* consisting of
+   "'\'" and an ASCII letter now are errors. An empty match can occur
+   immediately after a non-empty match.

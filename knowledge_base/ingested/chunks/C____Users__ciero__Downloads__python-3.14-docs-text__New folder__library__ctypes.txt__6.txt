@@ -1,0 +1,4 @@
+using the "stdcall" calling convention. *oledll* also uses the
+"stdcall" calling convention, and assumes the functions return a
+Windows "HRESULT" error code. The error code is used to automatically
+raise an "OSError" exception when the function call fails.

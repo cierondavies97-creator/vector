@@ -1,0 +1,7 @@
+Availability: Unix, not WASI.
+   Added in version 3.13.
+os.write(fd, str, /)
+   Write the bytestring in *str* to file descriptor *fd*.
+   Return the number of bytes actually written.
+   Note:
+     This function is intended for low-level I/O and must be applied

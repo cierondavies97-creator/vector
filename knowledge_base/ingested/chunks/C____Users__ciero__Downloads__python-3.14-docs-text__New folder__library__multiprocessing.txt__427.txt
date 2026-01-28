@@ -1,0 +1,4 @@
+print(conn.recv())                  # => [2.25, None, 'junk', float]
+       print(conn.recv_bytes())            # => 'hello'
+       arr = array('i', [0, 0, 0, 0, 0])
+       print(conn.recv_bytes_into(arr))    # => 8

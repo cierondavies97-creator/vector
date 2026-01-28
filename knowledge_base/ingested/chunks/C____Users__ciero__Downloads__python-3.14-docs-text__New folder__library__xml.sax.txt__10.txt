@@ -1,0 +1,3 @@
+for parser, i.e. some piece of code that reads the bytes or characters
+from the input source, and produces a sequence of events. The events
+then get distributed to the handler objects, i.e. the reader invokes a

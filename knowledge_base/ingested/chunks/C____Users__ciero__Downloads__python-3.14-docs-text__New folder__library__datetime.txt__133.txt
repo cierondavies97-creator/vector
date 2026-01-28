@@ -1,0 +1,4 @@
+classmethod datetime.utcnow()
+   Return the current UTC date and time, with "tzinfo" "None".
+   This is like "now()", but returns the current UTC date and time, as
+   a naive "datetime" object. An aware current UTC datetime can be

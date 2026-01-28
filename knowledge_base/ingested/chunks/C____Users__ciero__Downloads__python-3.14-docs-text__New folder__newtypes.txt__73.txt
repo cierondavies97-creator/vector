@@ -1,0 +1,4 @@
+comparison is not implemented and the other object's comparison method
+should be tried, or "NULL" if an exception was set.
+Here is a sample implementation, for a datatype that is considered
+equal if the size of an internal pointer is equal:

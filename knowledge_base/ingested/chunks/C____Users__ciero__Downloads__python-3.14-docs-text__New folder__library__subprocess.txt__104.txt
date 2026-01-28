@@ -1,0 +1,5 @@
+via "grp.getgrnam()" and the values in "gr_gid" will be used.
+   Integer values will be passed verbatim. (POSIX only)
+   Availability: POSIX
+   Added in version 3.9.
+   If *user* is not "None", the setreuid() system call will be made in

@@ -1,0 +1,4 @@
+(2, 8, 10, or 16).  If this fails, so will "optparse", although with a
+more useful error message.
+""float"" and ""complex"" option arguments are converted directly with
+"float()" and "complex()", with similar error-handling.

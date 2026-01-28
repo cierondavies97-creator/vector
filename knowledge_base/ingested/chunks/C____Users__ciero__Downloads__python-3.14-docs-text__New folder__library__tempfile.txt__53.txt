@@ -1,0 +1,5 @@
+The user of "mkdtemp()" is responsible for deleting the temporary
+   directory and its contents when done with it.
+   The *prefix*, *suffix*, and *dir* arguments are the same as for
+   "mkstemp()".
+   "mkdtemp()" returns the absolute pathname of the new directory.

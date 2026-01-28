@@ -1,0 +1,4 @@
+a string, and may contain characters not legal in Python
+   identifiers, including the period character.
+   This method can also be used as a decorator.  When used as a
+   decorator, *name* can only be given as a keyword argument to

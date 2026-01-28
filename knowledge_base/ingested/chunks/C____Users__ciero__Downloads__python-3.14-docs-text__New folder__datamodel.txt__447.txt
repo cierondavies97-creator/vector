@@ -1,0 +1,4 @@
+sequence of strings in the *__slots__* declaration.
+* *__slots__* are implemented at the class level by creating
+  descriptors for each variable name.  As a result, class attributes
+  cannot be used to set default values for instance variables defined

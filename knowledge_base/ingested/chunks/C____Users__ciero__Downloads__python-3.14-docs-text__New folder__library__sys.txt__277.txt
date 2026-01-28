@@ -1,0 +1,5 @@
+paths for derived paths.
+   Note:
+     If a virtual environment is in effect, this "prefix" will point
+     to the virtual environment. The value for the Python installation
+     will still be available, via "base_prefix". Refer to Virtual

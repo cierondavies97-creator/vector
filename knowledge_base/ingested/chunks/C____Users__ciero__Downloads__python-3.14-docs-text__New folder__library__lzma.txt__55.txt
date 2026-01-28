@@ -1,0 +1,5 @@
+**liblzma** that was compiled with a limited feature set.
+Specifying custom filter chains
+===============================
+A filter chain specifier is a sequence of dictionaries, where each
+dictionary contains the ID and options for a single filter. Each

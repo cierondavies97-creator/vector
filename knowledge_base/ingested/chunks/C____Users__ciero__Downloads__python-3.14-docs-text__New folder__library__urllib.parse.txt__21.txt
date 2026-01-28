@@ -1,0 +1,3 @@
+| "scheme"           | 0       | URL scheme specifier      | *scheme* parameter       |
+   +--------------------+---------+---------------------------+--------------------------+
+   | "netloc"           | 1       | Network location part     | empty string             |

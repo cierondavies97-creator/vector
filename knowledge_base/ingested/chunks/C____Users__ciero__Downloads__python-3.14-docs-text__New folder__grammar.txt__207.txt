@@ -1,0 +1,4 @@
+| a[asdl_expr_seq*]=','.expression+ {a}
+   func_type_comment[Token*]:
+       | NEWLINE t=TYPE_COMMENT &(NEWLINE INDENT) { t }  # Must be followed by indented block
+       | invalid_double_type_comments

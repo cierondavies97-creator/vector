@@ -1,0 +1,3 @@
+| Identity                | "a is not None"           | "is_not_none(a)"                        |
++-------------------------+---------------------------+-----------------------------------------+
+| Indexed Assignment      | "obj[k] = v"              | "setitem(obj, k, v)"                    |

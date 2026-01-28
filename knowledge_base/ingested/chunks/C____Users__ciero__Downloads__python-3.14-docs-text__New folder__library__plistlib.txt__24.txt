@@ -1,0 +1,8 @@
+plist = b"""<plist version="1.0">
+   <dict>
+       <key>foo</key>
+       <string>bar</string>
+   </dict>
+   </plist>"""
+   pl = plistlib.loads(plist)
+   print(pl["foo"])

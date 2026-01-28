@@ -1,0 +1,4 @@
+*idtype* can be "P_PID", "P_PGID", "P_ALL", or (on Linux)
+   "P_PIDFD". The interpretation of *id* depends on it; see their
+   individual descriptions.
+   *options* is an OR combination of flags.  At least one of

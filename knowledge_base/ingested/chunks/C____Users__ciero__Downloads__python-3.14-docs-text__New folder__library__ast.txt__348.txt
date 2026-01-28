@@ -1,0 +1,4 @@
+limitations in Python's AST compiler.It can raise "ValueError",
+     "TypeError", "SyntaxError", "MemoryError" and "RecursionError"
+     depending on the malformed input.
+   Changed in version 3.2: Now allows bytes and set literals.

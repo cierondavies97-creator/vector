@@ -1,0 +1,6 @@
+it is generally better to use "__required_keys__" and
+      "__optional_keys__" for introspection.
+   __required_keys__
+      Added in version 3.9.
+   __optional_keys__
+      "Point2D.__required_keys__" and "Point2D.__optional_keys__"

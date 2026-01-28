@@ -1,0 +1,5 @@
+feed(data)
+      Feeds data to the parser.  *data* is encoded data.
+   flush()
+      Triggers parsing of any previously fed unparsed data, which can
+      be used to ensure more immediate feedback, in particular with

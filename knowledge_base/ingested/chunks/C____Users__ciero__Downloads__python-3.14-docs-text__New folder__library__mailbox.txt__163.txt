@@ -1,0 +1,3 @@
+| Resulting state                 | "BabylMessage" state            |
+|=================================|=================================|
+| "cur" subdirectory              | "unseen" label                  |

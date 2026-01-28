@@ -1,0 +1,4 @@
+load libraries. Either the "LoadLibrary()" method of the dll loaders
+should be used, or you should load the library by creating an instance
+of CDLL by calling the constructor:
+   >>> cdll.LoadLibrary("libc.so.6")

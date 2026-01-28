@@ -1,0 +1,8 @@
+division or modulo operation is zero.
+signal.SIGHUP
+   Hangup detected on controlling terminal or death of controlling
+   process.
+   Availability: Unix.
+signal.SIGILL
+   Illegal instruction.
+signal.SIGINT

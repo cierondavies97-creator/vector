@@ -1,0 +1,4 @@
+allow an unnamed top level section with "allow_unnamed_section=True".
+In this case, the keys/values may be retrieved by "UNNAMED_SECTION" as
+in "config[UNNAMED_SECTION]".
+Configuration files may include comments, prefixed by specific

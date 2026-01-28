@@ -1,0 +1,3 @@
+together according to the features they test.  "unittest" provides a
+mechanism for this: the *test suite*, represented by "unittest"'s
+"TestSuite" class.  In most cases, calling "unittest.main()" will do

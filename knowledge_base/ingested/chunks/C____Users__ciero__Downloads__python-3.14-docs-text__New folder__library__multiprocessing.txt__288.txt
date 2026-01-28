@@ -1,0 +1,8 @@
+p = Process(target=modify, args=(n, x, s, A))
+       p.start()
+       p.join()
+       print(n.value)
+       print(x.value)
+       print(s.value)
+       print([(a.x, a.y) for a in A])
+The results printed are

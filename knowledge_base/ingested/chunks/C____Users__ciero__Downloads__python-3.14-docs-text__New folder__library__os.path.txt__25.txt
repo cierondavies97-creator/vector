@@ -1,0 +1,5 @@
+"$name" and "${name}".
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.getatime(path, /)
+   Return the time of last access of *path*.  The return value is a
+   floating-point number giving the number of seconds since the epoch

@@ -1,0 +1,5 @@
+failure, and the string will be written to "sys.stderr".  The
+"echo.py" example from earlier exemplifies using the
+"sys.exit(main())" convention.
+See also:
+  Python Packaging User Guide contains a collection of tutorials and

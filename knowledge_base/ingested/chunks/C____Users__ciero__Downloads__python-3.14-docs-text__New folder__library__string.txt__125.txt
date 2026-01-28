@@ -1,0 +1,4 @@
+the current context will be used.
+The available presentation types for "complex" are the same as those
+for "float" ("'%'" is not allowed).  Both the real and imaginary
+components of a complex number are formatted as floating-point

@@ -1,0 +1,4 @@
+started the Python interpreter and typed "import spam".
+Module docs for core modules are assumed to reside in
+"https://docs.python.org/X.Y/library/" where "X" and "Y" are the major
+and minor version numbers of the Python interpreter.  This can be

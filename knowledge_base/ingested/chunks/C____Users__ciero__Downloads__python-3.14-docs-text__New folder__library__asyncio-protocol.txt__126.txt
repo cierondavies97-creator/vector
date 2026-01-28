@@ -1,0 +1,6 @@
+# called.
+           self.check_for_exit()
+       def check_for_exit(self):
+           if self.pipe_closed and self.exited:
+               self.exit_future.set_result(True)
+   async def get_date():

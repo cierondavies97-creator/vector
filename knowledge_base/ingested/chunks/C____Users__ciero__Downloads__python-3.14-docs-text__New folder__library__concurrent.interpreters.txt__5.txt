@@ -1,0 +1,7 @@
+WebAssembly platforms for more information.
+Key details
+===========
+Before we dive in further, there are a small number of details to keep
+in mind about using multiple interpreters:
+* isolated, by default
+* no implicit threads

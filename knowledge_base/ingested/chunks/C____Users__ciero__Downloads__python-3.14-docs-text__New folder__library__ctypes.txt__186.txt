@@ -1,0 +1,6 @@
+Python C api:
+   >>> version = ctypes.c_int.in_dll(ctypes.pythonapi, "Py_Version")
+   >>> print(hex(version.value))
+   0x30c00a0
+An extended example which also demonstrates the use of pointers
+accesses the "PyImport_FrozenModules" pointer exported by Python.

@@ -1,0 +1,4 @@
+PyObject *err_type, *err_value, *err_traceback;
+           /* This saves the current exception state */
+           PyErr_Fetch(&err_type, &err_value, &err_traceback);
+           cbresult = PyObject_CallNoArgs(self->my_callback);

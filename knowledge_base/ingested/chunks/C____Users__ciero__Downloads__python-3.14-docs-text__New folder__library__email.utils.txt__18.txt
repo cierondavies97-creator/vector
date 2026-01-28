@@ -1,0 +1,4 @@
+indexes 6, 7, and 8 of the result tuple are not usable.
+email.utils.parsedate_tz(date)
+   Performs the same function as "parsedate()", but returns either
+   "None" or a 10-tuple; the first 9 elements make up a tuple that can

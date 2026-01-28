@@ -1,0 +1,6 @@
+"False" in the initializer, and only changed by logging
+      configuration code.
+      Note:
+        This attribute should be treated as read-only.
+   setLevel(level)
+      Sets the threshold for this logger to *level*. Logging messages

@@ -1,0 +1,4 @@
+and "beta > 0". Returned values range between 0 and 1.
+random.expovariate(lambd=1.0)
+   Exponential distribution.  *lambd* is 1.0 divided by the desired
+   mean.  It should be nonzero.  (The parameter would be called

@@ -1,0 +1,3 @@
+"Units destroyed: {players[0]}"   # First element of keyword argument 'players'.
+The *conversion* field causes a type coercion before formatting.
+Normally, the job of formatting a value is done by the "__format__()"

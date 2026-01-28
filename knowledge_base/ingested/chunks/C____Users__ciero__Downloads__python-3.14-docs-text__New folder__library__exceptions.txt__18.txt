@@ -1,0 +1,4 @@
+directly inherited by user-defined classes (for that, use
+   "Exception").  If "str()" is called on an instance of this class,
+   the representation of the argument(s) to the instance are returned,
+   or the empty string when there were no arguments.

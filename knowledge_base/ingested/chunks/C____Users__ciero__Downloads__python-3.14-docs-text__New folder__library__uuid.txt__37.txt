@@ -1,0 +1,4 @@
+guarantees.
+   Changed in version 3.7: Universally administered MAC addresses are
+   preferred over locally administered MAC addresses, since the former
+   are guaranteed to be globally unique, while the latter are not.

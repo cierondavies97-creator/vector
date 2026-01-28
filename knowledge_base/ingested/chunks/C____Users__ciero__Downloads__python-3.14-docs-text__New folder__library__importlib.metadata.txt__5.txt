@@ -1,0 +1,4 @@
+code. One *distribution package* can contain multiple *import
+  packages* (and single modules), and one top-level *import package*
+  may map to multiple *distribution packages* if it is a namespace
+  package. You can use packages_distributions() to get a mapping

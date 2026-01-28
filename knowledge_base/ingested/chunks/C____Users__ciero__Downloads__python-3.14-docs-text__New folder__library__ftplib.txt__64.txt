@@ -1,0 +1,3 @@
+to "quit()". After this call the "FTP" instance should not be
+      used any more (after a call to "close()" or "quit()" you cannot
+      reopen the connection by issuing another "login()" method).

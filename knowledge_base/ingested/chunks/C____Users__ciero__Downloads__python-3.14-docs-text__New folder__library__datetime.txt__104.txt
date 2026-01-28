@@ -1,0 +1,5 @@
+is the day number within the current year starting with 1 for
+   January 1st.
+date.toordinal()
+   Return the proleptic Gregorian ordinal of the date, where January 1
+   of year 1 has ordinal 1. For any "date" object "d",

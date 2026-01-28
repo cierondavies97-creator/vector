@@ -1,0 +1,6 @@
+pool = tuple(iterable)
+       n = len(pool)
+       indices = sorted(random.choices(range(n), k=r))
+       return tuple(pool[i] for i in indices)
+   def random_derangement(iterable):
+       "Choose a permutation where no element stays in its original position."

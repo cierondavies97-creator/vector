@@ -1,0 +1,4 @@
+The following classes provide the implementations of the parse results
+when operating on "bytes" or "bytearray" objects:
+class urllib.parse.DefragResultBytes(url, fragment)
+   Concrete class for "urldefrag()" results containing "bytes" data.

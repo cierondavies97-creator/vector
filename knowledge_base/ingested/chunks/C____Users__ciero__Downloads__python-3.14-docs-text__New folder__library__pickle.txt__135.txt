@@ -1,0 +1,5 @@
+# Simple class representing a record in our database.
+   MemoRecord = namedtuple("MemoRecord", "key, task")
+   class DBPickler(pickle.Pickler):
+       def persistent_id(self, obj):
+           # Instead of pickling MemoRecord as a regular class instance, we emit a

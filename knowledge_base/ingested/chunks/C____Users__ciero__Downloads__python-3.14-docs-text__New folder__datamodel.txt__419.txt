@@ -1,0 +1,3 @@
+dictionary or in the class dictionary for one of its parents).  In the
+examples below, "the attribute" refers to the attribute whose name is
+the key of the property in the owner class' "__dict__".  The "object"

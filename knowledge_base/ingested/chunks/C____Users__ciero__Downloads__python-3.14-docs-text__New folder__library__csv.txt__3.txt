@@ -1,0 +1,4 @@
+delimiters and quoting characters vary, the overall format is similar
+enough that it is possible to write a single module which can
+efficiently manipulate such data, hiding the details of reading and
+writing the data from the programmer.

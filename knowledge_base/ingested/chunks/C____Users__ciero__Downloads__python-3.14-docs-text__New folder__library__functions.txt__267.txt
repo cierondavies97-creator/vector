@@ -1,0 +1,4 @@
+"file.write(...)" instead.
+   Output buffering is usually determined by *file*. However, if
+   *flush* is true, the stream is forcibly flushed.
+   Changed in version 3.3: Added the *flush* keyword argument.

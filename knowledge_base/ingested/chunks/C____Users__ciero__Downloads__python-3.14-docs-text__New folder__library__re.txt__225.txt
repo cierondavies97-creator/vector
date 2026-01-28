@@ -1,0 +1,5 @@
+>>> m.group(1)                        # Returns only the last match.
+      'c3'
+Match.__getitem__(g)
+   This is identical to "m.group(g)".  This allows easier access to an
+   individual group from a match:

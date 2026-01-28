@@ -1,0 +1,5 @@
+proxy objects.
+   STRING = 4
+      Values are the text string of the annotation as it appears in
+      the source code, up to modifications including, but not
+      restricted to, whitespace normalizations and constant values

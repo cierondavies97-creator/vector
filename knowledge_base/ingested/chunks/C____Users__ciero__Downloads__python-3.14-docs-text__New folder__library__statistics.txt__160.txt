@@ -1,0 +1,6 @@
+>>> def model(x, y, z):
+   ...     return (3*x + 7*x*y - 5*y) / (11 * z)
+   ...
+   >>> n = 100_000
+   >>> X = NormalDist(10, 2.5).samples(n, seed=3652260728)
+   >>> Y = NormalDist(15, 1.75).samples(n, seed=4582495471)

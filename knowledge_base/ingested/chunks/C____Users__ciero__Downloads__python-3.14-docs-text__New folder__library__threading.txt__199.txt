@@ -1,0 +1,4 @@
+This method may raise a "BrokenBarrierError" exception if the
+      barrier is broken or reset while a thread is waiting.
+   reset()
+      Return the barrier to the default, empty state.  Any threads

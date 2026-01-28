@@ -1,0 +1,4 @@
+first line from the next file (if any); lines not read from the
+   file will not count towards the cumulative line count.  The
+   filename is not changed until after the first line of the next file
+   has been read.  Before the first line has been read, this function

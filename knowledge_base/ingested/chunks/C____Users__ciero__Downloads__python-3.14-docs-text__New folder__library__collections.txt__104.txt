@@ -1,0 +1,5 @@
+"popleft()"; otherwise, it can be cycled back to the end with the
+"rotate()" method:
+   def roundrobin(*iterables):
+       "roundrobin('ABC', 'D', 'EF') --> A D E B F C"
+       iterators = deque(map(iter, iterables))

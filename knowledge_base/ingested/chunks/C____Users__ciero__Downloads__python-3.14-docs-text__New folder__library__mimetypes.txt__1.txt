@@ -1,0 +1,4 @@
+type associated with the filename extension.  Conversions are provided
+from filename to MIME type and from MIME type to filename extension;
+encodings are not supported for the latter conversion.
+The module provides one class and a number of convenience functions.

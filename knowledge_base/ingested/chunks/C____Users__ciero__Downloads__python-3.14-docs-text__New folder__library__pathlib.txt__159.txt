@@ -1,0 +1,7 @@
+Path.write_bytes(data)
+   Open the file pointed to in bytes mode, write *data* to it, and
+   close the file:
+      >>> p = Path('my_binary_file')
+      >>> p.write_bytes(b'Binary file contents')
+      20
+      >>> p.read_bytes()

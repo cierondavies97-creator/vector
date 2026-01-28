@@ -1,0 +1,5 @@
+Interface to the scheduler
+==========================
+These functions control how a process is allocated CPU time by the
+operating system. They are only available on some Unix platforms. For
+more detailed information, consult your Unix manpages.

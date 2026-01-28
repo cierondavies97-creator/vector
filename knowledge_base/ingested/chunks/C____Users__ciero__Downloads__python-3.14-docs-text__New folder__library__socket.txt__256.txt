@@ -1,0 +1,4 @@
+socket.recvmsg(bufsize[, ancbufsize[, flags]])
+   Receive normal data (up to *bufsize* bytes) and ancillary data from
+   the socket.  The *ancbufsize* argument sets the size in bytes of
+   the internal buffer used to receive the ancillary data; it defaults

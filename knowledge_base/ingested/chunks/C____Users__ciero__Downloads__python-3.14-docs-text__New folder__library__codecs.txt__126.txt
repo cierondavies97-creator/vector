@@ -1,0 +1,5 @@
+the "StreamReader" object.
+   The set of allowed values for the *errors* argument can be extended
+   with "register_error()".
+   read(size=-1, chars=-1, firstline=False)
+      Decodes data from the stream and returns the resulting object.

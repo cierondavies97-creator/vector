@@ -1,0 +1,3 @@
+successful comparison. However, these methods can return any value,
+   so if the comparison operator is used in a Boolean context (e.g.,
+   in the condition of an "if" statement), Python will call "bool()"

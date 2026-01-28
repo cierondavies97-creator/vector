@@ -1,0 +1,2 @@
+|                                                    | raised by the trace function escape to the         |
+|                                                    | function being traced.                             |

@@ -1,0 +1,5 @@
+values for this; others provide "None" for this attribute. This is
+   a read-only attribute.
+Node.previousSibling
+   The node that immediately precedes this one with the same parent.
+   For instance the element with an end-tag that comes just before the

@@ -1,0 +1,3 @@
+attribute names that belong to a namespace will be expanded.  The
+   element name passed to the element handlers "StartElementHandler"
+   and "EndElementHandler" will be the concatenation of the namespace

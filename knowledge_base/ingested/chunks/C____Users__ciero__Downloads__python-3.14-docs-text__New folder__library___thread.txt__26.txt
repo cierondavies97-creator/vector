@@ -1,0 +1,6 @@
+signals on Windows.
+lock.release()
+   Releases the lock.  The lock must have been acquired earlier, but
+   not necessarily by the same thread.
+lock.locked()
+   Return the status of the lock: "True" if it has been acquired by

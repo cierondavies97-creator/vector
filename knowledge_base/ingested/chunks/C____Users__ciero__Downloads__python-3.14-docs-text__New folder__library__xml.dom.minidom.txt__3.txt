@@ -1,0 +1,5 @@
+security.
+DOM applications typically start by parsing some XML into a DOM.  With
+"xml.dom.minidom", this is done through the parse functions:
+   from xml.dom.minidom import parse, parseString
+   dom1 = parse('c:\\temp\\mydata.xml')  # parse an XML file by name

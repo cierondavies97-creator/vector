@@ -1,0 +1,4 @@
+of "'0'" with an *alignment* type of "'='".
+Changed in version 3.10: Preceding the *width* field by "'0'" no
+longer affects the default alignment for strings.
+The *precision* is a decimal integer indicating how many digits should

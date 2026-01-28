@@ -1,0 +1,4 @@
+form, with all trailing zeros removed and its sign preserved.
+      That is, while the coefficient is non-zero and a multiple of ten
+      the coefficient is divided by ten and the exponent is
+      incremented by 1. Otherwise (the coefficient is zero) the

@@ -1,0 +1,5 @@
+class for improved styling effects.
+See also:
+  Converting existing applications to use Tile widgets
+     A monograph (using Tcl terminology) about differences typically
+     encountered when moving applications to use the new widgets.

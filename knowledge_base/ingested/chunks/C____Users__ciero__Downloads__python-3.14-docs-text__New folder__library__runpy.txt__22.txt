@@ -1,0 +1,4 @@
+special global variables below are defined in *init_globals*, those
+   definitions are overridden by "run_path()".
+   The special global variables "__name__", "__spec__", "__file__",
+   "__cached__", "__loader__" and "__package__" are set in the globals

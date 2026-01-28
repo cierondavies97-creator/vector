@@ -1,0 +1,4 @@
+Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.8: On Windows, all reparse points that can be
+   resolved by the operating system are now followed, and passing
+   "follow_symlinks=False" disables following all name surrogate

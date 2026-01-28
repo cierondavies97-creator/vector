@@ -1,0 +1,4 @@
+Python documentation are not included.
+A default "._pth" file is included, which further restricts the
+default search paths (as described below in Finding modules). This
+file is intended for embedders to modify as necessary.

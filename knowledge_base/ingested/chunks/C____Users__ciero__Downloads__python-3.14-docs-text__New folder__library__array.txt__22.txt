@@ -1,0 +1,4 @@
+buffer_info()
+      Return a tuple "(address, length)" giving the current memory
+      address and the length in elements of the buffer used to hold
+      array's contents.  The size of the memory buffer in bytes can be

@@ -1,0 +1,7 @@
+... ))
+      Expression(
+          body=ListComp(
+              elt=Name(id='x', ctx=Load()),
+              generators=[
+                  comprehension(
+                      target=Name(id='x', ctx=Store()),

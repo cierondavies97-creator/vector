@@ -1,0 +1,6 @@
+The "pickle" module defines three exceptions:
+exception pickle.PickleError
+   Common base class for the other pickling exceptions.  It inherits
+   from "Exception".
+exception pickle.PicklingError
+   Error raised when an unpicklable object is encountered by

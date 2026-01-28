@@ -1,0 +1,5 @@
+method.
+   append(s, charset=None, errors='strict')
+      Append the string *s* to the MIME header.
+      Optional *charset*, if given, should be a "Charset" instance
+      (see "email.charset") or the name of a character set, which will

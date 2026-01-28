@@ -1,0 +1,3 @@
+which is non-zero.  Typical reference counting implementations are not
+able to reclaim the memory belonging to any objects in a reference
+cycle, or referenced from the objects in the cycle, even though there

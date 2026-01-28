@@ -1,0 +1,5 @@
+Added in version 3.8.
+class unittest.IsolatedAsyncioTestCase(methodName='runTest')
+   This class provides an API similar to "TestCase" and also accepts
+   coroutines as test functions.
+   Added in version 3.8.

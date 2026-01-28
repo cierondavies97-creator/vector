@@ -1,0 +1,3 @@
+|                   | co_names            | tuple of names other than   |
+|                   |                     | arguments and function      |
+|                   |                     | locals                      |

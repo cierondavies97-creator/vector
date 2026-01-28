@@ -1,0 +1,7 @@
+-T, --trackcalls
+   Display the calling relationships exposed by running the program.
+Modifiers
+---------
+-f, --file=<file>
+   Name of a file to accumulate counts over several tracing runs.
+   Should be used with the "--count" option.

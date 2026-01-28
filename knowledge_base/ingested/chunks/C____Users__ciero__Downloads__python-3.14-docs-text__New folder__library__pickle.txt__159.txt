@@ -1,0 +1,4 @@
+# Restore instance attributes (i.e., filename and lineno).
+           self.__dict__.update(state)
+           # Restore the previously opened file's state. To do so, we need to
+           # reopen it and read from it until the line count is restored.

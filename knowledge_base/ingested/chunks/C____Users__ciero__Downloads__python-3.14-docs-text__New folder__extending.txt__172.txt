@@ -1,0 +1,3 @@
+disadvantage of borrowing over owning is that there are some subtle
+situations where in seemingly correct code a borrowed reference can be
+used after the owner from which it was borrowed has in fact disposed

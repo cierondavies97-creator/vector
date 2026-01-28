@@ -1,0 +1,4 @@
+data associated with a loader.
+   "__loader__" defaults to "None" for modules created dynamically
+   using the "types.ModuleType" constructor; use
+   "importlib.util.module_from_spec()" instead to ensure the attribute

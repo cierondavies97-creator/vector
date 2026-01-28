@@ -1,0 +1,4 @@
+are treated as equal.  Any sequence of whitespace within the
+   expected output will match any sequence of whitespace within the
+   actual output. By default, whitespace must match exactly.
+   "NORMALIZE_WHITESPACE" is especially useful when a line of expected

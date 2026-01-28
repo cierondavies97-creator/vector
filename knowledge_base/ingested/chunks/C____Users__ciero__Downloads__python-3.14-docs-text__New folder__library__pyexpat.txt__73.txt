@@ -1,0 +1,3 @@
+Set the "buffer_text" instance attribute to "True" to avoid that.
+xmlparser.UnparsedEntityDeclHandler(entityName, base, systemId, publicId, notationName)
+   Called for unparsed (NDATA) entity declarations.  This is only

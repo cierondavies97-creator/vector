@@ -1,0 +1,6 @@
+Return the width of the turtle window.
+      >>> screen.window_width()
+      640
+Methods specific to Screen, not inherited from TurtleScreen
+-----------------------------------------------------------
+turtle.bye()

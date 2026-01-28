@@ -1,0 +1,5 @@
+CPython, the value was evaluated before the key.  Starting with 3.8,
+the key is evaluated before the value, as proposed by **PEP 572**.
+6.2.8. Generator expressions
+----------------------------
+A generator expression is a compact generator notation in parentheses:

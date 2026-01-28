@@ -1,0 +1,6 @@
+subclasses.
+Instances of "Cmd" subclasses have some public instance variables:
+Cmd.prompt
+   The prompt issued to solicit input.
+Cmd.identchars
+   The string of characters accepted for the command prefix.

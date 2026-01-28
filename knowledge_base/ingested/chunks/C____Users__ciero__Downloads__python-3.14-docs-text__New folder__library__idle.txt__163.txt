@@ -1,0 +1,6 @@
+theme and key set.  To use a newer built-in color theme or key set
+with older IDLEs, save it as a new custom theme or key set and it well
+be accessible to older IDLEs.
+IDLE on macOS
+-------------
+Under System Preferences: Dock, one can set "Prefer tabs when opening

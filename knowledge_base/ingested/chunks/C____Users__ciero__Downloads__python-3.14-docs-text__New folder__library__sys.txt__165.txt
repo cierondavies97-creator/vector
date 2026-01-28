@@ -1,0 +1,4 @@
+on the returned value to be accurate, other than a value of 0 or 1.
+   **CPython implementation detail:** *Immortal* objects with a large
+   reference count can be identified via "_is_immortal()".
+   Changed in version 3.12: Immortal objects have very large refcounts

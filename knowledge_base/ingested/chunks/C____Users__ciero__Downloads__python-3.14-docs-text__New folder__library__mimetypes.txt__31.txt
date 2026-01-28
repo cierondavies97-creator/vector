@@ -1,0 +1,3 @@
+may be extended by loading additional "mime.types"-style files into
+   the database using the "read()" or "readfp()" methods.  The mapping
+   dictionaries may also be cleared before loading additional data if

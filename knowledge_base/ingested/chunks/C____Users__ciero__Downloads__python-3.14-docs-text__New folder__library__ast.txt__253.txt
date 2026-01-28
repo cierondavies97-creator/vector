@@ -1,0 +1,3 @@
+attributes. "kwd_attrs" is a sequence of additional attributes to
+   be matched (specified as keyword arguments in the class pattern),
+   "kwd_patterns" are the corresponding patterns (specified as keyword

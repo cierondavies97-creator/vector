@@ -1,0 +1,3 @@
+First the whitespace in *text* is collapsed (all whitespace is
+   replaced by single spaces).  If the result fits in the *width*, it
+   is returned. Otherwise, enough words are dropped from the end so

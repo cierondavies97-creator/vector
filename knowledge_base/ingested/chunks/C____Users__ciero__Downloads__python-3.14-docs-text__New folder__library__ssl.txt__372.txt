@@ -1,0 +1,6 @@
+while data:
+           if not do_something(connstream, data):
+               # we'll assume do_something returns False
+               # when we're finished with client
+               break
+           data = connstream.recv(1024)

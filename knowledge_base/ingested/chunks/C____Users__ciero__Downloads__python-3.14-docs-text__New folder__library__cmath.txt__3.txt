@@ -1,0 +1,3 @@
+how to define those functions on the cut itself. Following Kahan's
+  "Branch cuts for complex elementary functions" paper, as well as
+  Annex G of C99 and later C standards, we use the sign of zero to

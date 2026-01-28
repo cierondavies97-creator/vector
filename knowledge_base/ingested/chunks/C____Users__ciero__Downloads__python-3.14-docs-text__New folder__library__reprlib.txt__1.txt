@@ -1,0 +1,4 @@
+representations with limits on the size of the resulting strings. This
+is used in the Python debugger and may be useful in other contexts as
+well.
+This module provides a class, an instance, and a function:

@@ -1,0 +1,5 @@
+to provide the "read(nbytes)" method, returning the empty string
+   when there's no more data.
+xmlparser.SetBase(base)
+   Sets the base to be used for resolving relative URIs in system
+   identifiers in declarations.  Resolving relative identifiers is

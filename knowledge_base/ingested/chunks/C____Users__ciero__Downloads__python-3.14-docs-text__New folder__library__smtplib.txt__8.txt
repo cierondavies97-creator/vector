@@ -1,0 +1,3 @@
+"''" and/or "0" respectively) the OS default behavior will be used.
+   For normal use, you should only require the initialization/connect,
+   "sendmail()", and "SMTP.quit()" methods. An example is included

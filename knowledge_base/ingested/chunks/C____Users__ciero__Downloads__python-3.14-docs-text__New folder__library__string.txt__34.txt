@@ -1,0 +1,3 @@
+*field_name* is optionally followed by a  *conversion* field, which is
+preceded by an exclamation point "'!'", and a *format_spec*, which is
+preceded by a colon "':'".  These specify a non-default format for the

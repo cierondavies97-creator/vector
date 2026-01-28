@@ -1,0 +1,4 @@
+"CERT_REQUIRED" and enables "check_hostname" by default.
+   With server socket, this mode provides mandatory TLS client cert
+   authentication.  A client certificate request is sent to the client
+   and the client must provide a valid and trusted certificate.

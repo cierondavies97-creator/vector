@@ -1,0 +1,2 @@
+| "Text"                           | Text and CDATASection Objects       | Nodes containing textual content  |
+|                                  |                                     | from the document.                |

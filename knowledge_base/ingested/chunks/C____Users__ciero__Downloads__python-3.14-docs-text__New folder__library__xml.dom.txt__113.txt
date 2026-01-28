@@ -1,0 +1,5 @@
+The content of the text node as a string.
+Note:
+  The use of a "CDATASection" node does not indicate that the node
+  represents a complete CDATA marked section, only that the content of
+  the node was part of a CDATA section.  A single CDATA section may be

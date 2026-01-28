@@ -1,0 +1,7 @@
+protocol.
+Examples
+========
+This is a working "Hello World" WSGI application, where the
+*start_response* callable should follow the "StartResponse" protocol:
+   """
+   Every WSGI application must have an application object - a callable

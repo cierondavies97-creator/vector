@@ -1,0 +1,4 @@
+(The flags are described in Module Contents.) This is useful if you
+   wish to include the flags as part of the regular expression,
+   instead of passing a *flag* argument to the "re.compile()"
+   function. Flags should be used first in the expression string.

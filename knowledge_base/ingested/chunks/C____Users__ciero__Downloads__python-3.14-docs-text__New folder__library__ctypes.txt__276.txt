@@ -1,0 +1,6 @@
+"ctypes.call_function" with arguments "function pointer" and
+"arguments".
+Function prototypes
+-------------------
+Foreign functions can also be created by instantiating function
+prototypes. Function prototypes are similar to function prototypes in

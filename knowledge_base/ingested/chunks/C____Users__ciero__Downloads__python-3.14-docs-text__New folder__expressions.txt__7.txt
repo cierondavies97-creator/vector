@@ -1,0 +1,4 @@
+and binding for documentation of naming and binding.
+When the name is bound to an object, evaluation of the atom yields
+that object. When a name is not bound, an attempt to evaluate it
+raises a "NameError" exception.

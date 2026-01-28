@@ -1,0 +1,5 @@
+this method to be used as a function decorator.
+   callback(callback, /, *args, **kwds)
+      Accepts an arbitrary callback function and arguments and adds it
+      to the callback stack.
+      Unlike the other methods, callbacks added this way cannot

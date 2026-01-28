@@ -1,0 +1,4 @@
+HOST = 'daring.cwi.nl'    # The remote host
+   PORT = 50007              # The same port as used by the server
+   s = None
+   for res in socket.getaddrinfo(HOST, PORT, socket.AF_UNSPEC, socket.SOCK_STREAM):

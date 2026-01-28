@@ -1,0 +1,5 @@
+Deprecated since version 3.4, will be removed in version 3.15:
+      Use "Loader.exec_module()" instead.
+   abstractmethod get_filename(fullname)
+      Returns "path".
+   abstractmethod get_data(path)

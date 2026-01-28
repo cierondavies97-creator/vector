@@ -1,0 +1,4 @@
+level of a module (outside any functions or classes), are added to the
+module's global namespace.
+There is a variant of the "import" statement that imports names from a
+module directly into the importing module's namespace.  For example:

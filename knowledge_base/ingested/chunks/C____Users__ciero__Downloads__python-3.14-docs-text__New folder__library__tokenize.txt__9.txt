@@ -1,0 +1,4 @@
+for a UTF-8 BOM or encoding cookie, according to **PEP 263**.
+tokenize.generate_tokens(readline)
+   Tokenize a source reading unicode strings instead of bytes.
+   Like "tokenize()", the *readline* argument is a callable returning

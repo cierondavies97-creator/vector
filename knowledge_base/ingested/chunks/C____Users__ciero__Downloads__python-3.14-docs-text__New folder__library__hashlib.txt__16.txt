@@ -1,0 +1,5 @@
+access to the above listed hashes as well as any other algorithms
+   that your OpenSSL library may offer.
+Using "new()" with an algorithm name:
+>>> h = hashlib.new('sha256')
+>>> h.update(b"Nobody inspects the spammish repetition")

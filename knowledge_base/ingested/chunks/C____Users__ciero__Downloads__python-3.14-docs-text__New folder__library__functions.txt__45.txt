@@ -1,0 +1,4 @@
+module documentation for information on how to work with AST
+   objects.
+   The *filename* argument should give the file from which the code
+   was read; pass some recognizable value if it wasn't read from a

@@ -1,0 +1,4 @@
+entries in the persistent dictionary, but, if many entries are
+   accessed, it can consume vast amounts of memory for the cache, and
+   it can make the close operation very slow since all accessed
+   entries are written back (there is no way to determine which

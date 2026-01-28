@@ -1,0 +1,2 @@
+|                                                    | on a class object may return annotations for the   |
+|                                                    | wrong class, specifically in certain cases where   |

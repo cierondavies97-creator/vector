@@ -1,0 +1,4 @@
+files into the archive with the "mode='w'" option.
+   Changed in version 3.6: Calling "open()" on a closed ZipFile will
+   raise a "ValueError". Previously, a "RuntimeError" was raised.
+   Changed in version 3.13: Added attributes "name" and "mode" for the

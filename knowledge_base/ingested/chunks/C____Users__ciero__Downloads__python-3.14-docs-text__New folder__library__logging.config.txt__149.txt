@@ -1,0 +1,4 @@
+qualname=compiler.parser
+The "level" and "handlers" entries are interpreted as for the root
+logger, except that if a non-root logger's level is specified as
+"NOTSET", the system consults loggers higher up the hierarchy to

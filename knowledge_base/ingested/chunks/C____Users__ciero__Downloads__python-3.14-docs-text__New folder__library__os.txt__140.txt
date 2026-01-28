@@ -1,0 +1,6 @@
+Raises an auditing event "os.truncate" with arguments "fd",
+   "length".
+   Availability: Unix, Windows.
+   Changed in version 3.5: Added support for Windows
+os.get_blocking(fd, /)
+   Get the blocking mode of the file descriptor: "False" if the

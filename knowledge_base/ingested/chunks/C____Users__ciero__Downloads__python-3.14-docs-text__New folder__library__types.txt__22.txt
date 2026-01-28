@@ -1,0 +1,6 @@
+Added in version 3.5.
+types.AsyncGeneratorType
+   The type of *asynchronous generator*-iterator objects, created by
+   asynchronous generator functions.
+   Added in version 3.6.
+class types.CodeType(**kwargs)

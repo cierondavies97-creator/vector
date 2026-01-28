@@ -1,0 +1,4 @@
+"syslog()", deferring to the syslog implementation to call
+   "openlog()".
+   Changed in version 3.12: This function is restricted in
+   subinterpreters. (Only code that runs in multiple interpreters is

@@ -1,0 +1,4 @@
+but as individual standalone frameworks. To discover those
+   frameworks, this loader is registered against the ".fwork" file
+   extension, with a ".fwork" file acting as a placeholder in the
+   original location of the binary on "sys.path". The ".fwork" file

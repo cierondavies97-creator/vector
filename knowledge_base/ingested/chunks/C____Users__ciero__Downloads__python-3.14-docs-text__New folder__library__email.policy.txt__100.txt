@@ -1,0 +1,5 @@
+converting the unicode string into the correct RFC encoded form.
+The header objects and their attributes are described in
+"headerregistry".
+class email.policy.Compat32(**kw)
+   This concrete "Policy" is the backward compatibility policy.  It

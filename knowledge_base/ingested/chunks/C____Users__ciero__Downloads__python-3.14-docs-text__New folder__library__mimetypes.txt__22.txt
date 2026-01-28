@@ -1,0 +1,3 @@
+Add a mapping from the MIME type *type* to the extension *ext*.
+   When the extension is already known, the new type will replace the
+   old one. When the type is already known the extension will be added

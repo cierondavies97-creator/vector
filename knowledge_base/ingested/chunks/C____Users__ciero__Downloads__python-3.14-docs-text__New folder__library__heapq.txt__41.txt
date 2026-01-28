@@ -1,0 +1,3 @@
+The entry count serves as a tie-breaker so that two tasks with the
+same priority are returned in the order they were added. And since no
+two entry counts are the same, the tuple comparison will never attempt

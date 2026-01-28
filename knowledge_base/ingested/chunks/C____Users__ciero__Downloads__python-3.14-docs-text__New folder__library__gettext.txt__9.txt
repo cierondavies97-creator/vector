@@ -1,0 +1,5 @@
+global domain, language, and locale directory.  This function is
+   usually aliased as "_()" in the local namespace (see examples
+   below).
+gettext.dgettext(domain, message)
+   Like "gettext()", but look the message up in the specified

@@ -1,0 +1,4 @@
+open, and show the line.  Use this to view source lines referenced
+   in an exception traceback and lines found by Find in Files. Also
+   available in the context menu of the Shell window and Output
+   windows.

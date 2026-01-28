@@ -1,0 +1,5 @@
+The second-low bit of "namei", if set, means that this was a two-
+   argument call to "super()" (unset means zero-argument).
+   Added in version 3.12.
+COMPARE_OP(opname)
+   Performs a Boolean operation.  The operation name can be found in

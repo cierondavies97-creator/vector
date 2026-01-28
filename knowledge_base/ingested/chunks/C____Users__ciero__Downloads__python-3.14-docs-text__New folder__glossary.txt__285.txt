@@ -1,0 +1,4 @@
+universal newlines
+   A manner of interpreting text streams in which all of the following
+   are recognized as ending a line: the Unix end-of-line convention
+   "'\n'", the Windows convention "'\r\n'", and the old Macintosh

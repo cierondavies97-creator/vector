@@ -1,0 +1,4 @@
+network may create a vulnerability to external entity attacks if
+     "xmlparser" is used with user-provided XML content. Please
+     reflect on your threat model before implementing this handler.
+   Called for references to external entities.  *base* is the current

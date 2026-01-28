@@ -1,0 +1,4 @@
+section.)
+   If *mode* is "P_NOWAIT", this function returns the process id of
+   the new process; if *mode* is "P_WAIT", returns the process's exit
+   code if it exits normally, or "-signal", where *signal* is the

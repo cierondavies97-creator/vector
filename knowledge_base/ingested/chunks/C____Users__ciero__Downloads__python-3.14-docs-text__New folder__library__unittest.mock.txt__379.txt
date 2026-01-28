@@ -1,0 +1,5 @@
+>>> req.add_header('spam', 'eggs')
+   <MagicMock name='request.Request().add_header()' id='...'>
+   >>> req.add_header.assret_called_with  # Intentional typo!
+   Traceback (most recent call last):
+    ...

@@ -1,0 +1,6 @@
+raise AssertionError('expected ZeroDivisionError')
+           it = pool.imap(f, list(range(10)))
+           for i in range(10):
+               try:
+                   x = next(it)
+               except ZeroDivisionError:

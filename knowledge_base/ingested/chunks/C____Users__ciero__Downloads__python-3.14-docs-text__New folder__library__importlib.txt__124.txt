@@ -1,0 +1,4 @@
+helper for code which simply needs to know if a filesystem path
+   potentially refers to a module without needing any details on the
+   kind of module (for example, "inspect.getmodulename()").
+   Added in version 3.3.

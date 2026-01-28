@@ -1,0 +1,2 @@
+|                                                    | default tag or uninstall the prerelease runtime    |
+|                                                    | and reinstall it using "py install".               |

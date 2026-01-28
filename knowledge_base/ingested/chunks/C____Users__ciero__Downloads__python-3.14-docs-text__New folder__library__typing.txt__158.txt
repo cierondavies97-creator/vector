@@ -1,0 +1,5 @@
+that the returned callable's parameter types are dependent on the
+   parameter types of the callable being passed in:
+      from collections.abc import Callable
+      from threading import Lock
+      from typing import Concatenate

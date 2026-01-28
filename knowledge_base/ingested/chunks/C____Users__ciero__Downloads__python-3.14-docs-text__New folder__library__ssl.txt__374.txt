@@ -1,0 +1,6 @@
+loop).
+Notes on non-blocking sockets
+=============================
+SSL sockets behave slightly different than regular sockets in non-
+blocking mode. When working with non-blocking sockets, there are thus
+several things you need to be aware of:

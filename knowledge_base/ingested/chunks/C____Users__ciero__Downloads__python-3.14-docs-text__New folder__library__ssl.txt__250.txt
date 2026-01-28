@@ -1,0 +1,4 @@
+"SSLSocket.context" attribute to a new object of type "SSLContext"
+   representing a certificate chain that matches the server name.
+   Due to the early negotiation phase of the TLS connection, only
+   limited methods and attributes are usable like

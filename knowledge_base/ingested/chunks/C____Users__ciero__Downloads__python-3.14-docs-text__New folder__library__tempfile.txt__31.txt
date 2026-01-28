@@ -1,0 +1,5 @@
+file-like object can be used in a "with" statement, just like a
+   normal file.
+   Changed in version 3.3: the truncate method now accepts a *size*
+   argument.
+   Changed in version 3.8: Added *errors* parameter.

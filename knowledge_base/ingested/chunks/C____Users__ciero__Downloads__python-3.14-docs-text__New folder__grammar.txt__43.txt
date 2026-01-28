@@ -1,0 +1,5 @@
+dotted_as_names[asdl_alias_seq*]:
+       | a[asdl_alias_seq*]=','.dotted_as_name+ { a }
+   dotted_as_name[alias_ty]:
+       | invalid_dotted_as_name
+       | a=dotted_name b=['as' z=NAME { z }] { _PyAST_alias(

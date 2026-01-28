@@ -1,0 +1,6 @@
+was created with "stdout=None".
+   stderr
+      Standard error stream ("StreamReader") or "None" if the process
+      was created with "stderr=None".
+   Warning:
+     Use the "communicate()" method rather than

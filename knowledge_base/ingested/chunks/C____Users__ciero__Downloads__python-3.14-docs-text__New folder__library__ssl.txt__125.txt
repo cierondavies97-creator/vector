@@ -1,0 +1,6 @@
+'OpenSSL 1.0.2k  26 Jan 2017'
+   Added in version 3.2.
+ssl.OPENSSL_VERSION_INFO
+   A tuple of five integers representing version information about the
+   OpenSSL library:
+      >>> ssl.OPENSSL_VERSION_INFO

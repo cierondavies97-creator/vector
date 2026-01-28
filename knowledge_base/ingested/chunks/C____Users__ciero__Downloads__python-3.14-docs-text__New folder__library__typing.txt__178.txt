@@ -1,0 +1,6 @@
+for more details.
+   Added in version 3.8.
+   Changed in version 3.13: "Final" can now be nested in "ClassVar"
+   and vice versa.
+typing.Required
+   Special typing construct to mark a "TypedDict" key as required.

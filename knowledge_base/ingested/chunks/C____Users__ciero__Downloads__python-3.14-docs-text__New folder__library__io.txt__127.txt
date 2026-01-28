@@ -1,0 +1,4 @@
+"BufferedReader" and "BufferedWriter".
+   The constructor creates a reader and writer for a seekable raw
+   stream, given in the first argument.  If the *buffer_size* is
+   omitted it defaults to "DEFAULT_BUFFER_SIZE".

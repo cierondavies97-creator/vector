@@ -1,0 +1,3 @@
+for potentially minimizing the cost of loading a module if it is
+     never used. For projects where startup time is not essential then
+     use of this class is **heavily** discouraged due to error

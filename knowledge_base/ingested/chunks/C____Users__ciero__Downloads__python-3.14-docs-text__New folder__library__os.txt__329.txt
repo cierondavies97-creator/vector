@@ -1,0 +1,5 @@
+the FIFO --- it just creates the rendezvous point.
+   Availability: Unix, not WASI.
+   Changed in version 3.3: Added the *dir_fd* parameter.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.mknod(path, mode=0o600, device=0, *, dir_fd=None)

@@ -1,0 +1,7 @@
+True
+   >>> PureWindowsPath('C:') < PureWindowsPath('d:')
+   True
+Paths of a different flavour compare unequal and cannot be ordered:
+   >>> PureWindowsPath('foo') == PurePosixPath('foo')
+   False
+   >>> PureWindowsPath('foo') < PurePosixPath('foo')

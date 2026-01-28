@@ -1,0 +1,9 @@
+* Functions for sequences
+  * Discrete distributions
+  * Real-valued distributions
+  * Alternative Generator
+  * Notes on Reproducibility
+  * Examples
+  * Recipes
+  * Command-line usage
+  * Command-line example

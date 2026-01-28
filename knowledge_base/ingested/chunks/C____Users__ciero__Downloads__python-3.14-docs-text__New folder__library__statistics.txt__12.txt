@@ -1,0 +1,3 @@
+| "harmonic_mean()"       | Harmonic mean of data.                                          |
++-------------------------+-----------------------------------------------------------------+
+| "kde()"                 | Estimate the probability density distribution of the data.      |

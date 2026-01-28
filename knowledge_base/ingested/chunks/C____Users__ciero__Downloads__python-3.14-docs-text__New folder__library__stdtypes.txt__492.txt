@@ -1,0 +1,4 @@
+processing algorithms to binary data formats that are not ASCII
+   compatible will usually lead to data corruption).
+   In addition to the literal forms, bytes objects can be created in a
+   number of other ways:

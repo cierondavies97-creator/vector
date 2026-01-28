@@ -1,0 +1,5 @@
+method "__class_getitem__()" may be called instead.
+"__class_getitem__()" should return a GenericAlias object if it is
+properly defined.
+Presented with the *expression* "obj[x]", the Python interpreter
+follows something like the following process to decide whether

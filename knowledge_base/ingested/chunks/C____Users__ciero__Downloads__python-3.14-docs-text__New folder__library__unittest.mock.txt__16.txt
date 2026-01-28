@@ -1,0 +1,4 @@
+As well as a decorator "patch()" can be used as a context manager in a
+with statement:
+>>> with patch.object(ProductionClass, 'method', return_value=None) as mock_method:
+...     thing = ProductionClass()

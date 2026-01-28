@@ -1,0 +1,6 @@
+each byte in the buffer.
+            >>> m = memoryview(b"abc")
+            >>> m.hex()
+            '616263'
+         Added in version 3.5.
+         Changed in version 3.8: Similar to "bytes.hex()",

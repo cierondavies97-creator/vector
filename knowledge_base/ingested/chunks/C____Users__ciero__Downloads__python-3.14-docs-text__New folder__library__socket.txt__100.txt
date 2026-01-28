@@ -1,0 +1,6 @@
+Constant for Qualcomm's IPC router protocol, used to communicate
+   with service providing remote processors.
+   Availability: Linux >= 4.7.
+socket.SCM_CREDS2
+socket.LOCAL_CREDS
+socket.LOCAL_CREDS_PERSISTENT

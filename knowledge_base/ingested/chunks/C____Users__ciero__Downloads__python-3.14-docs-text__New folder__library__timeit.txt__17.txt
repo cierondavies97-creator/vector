@@ -1,0 +1,3 @@
+The *stmt* and *setup* parameters can also take objects that are
+   callable without arguments.  This will embed calls to them in a
+   timer function that will then be executed by "timeit()".  Note that

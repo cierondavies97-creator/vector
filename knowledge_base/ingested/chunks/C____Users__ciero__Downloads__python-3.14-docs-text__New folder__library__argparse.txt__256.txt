@@ -1,0 +1,8 @@
+>>> parser.parse_args(args=['--foo', 'BAR'], namespace=c)
+      >>> c.foo
+      'BAR'
+Other utilities
+===============
+Subcommands
+-----------
+ArgumentParser.add_subparsers(*[, title][, description][, prog][, parser_class][, action][, dest][, required][, help][, metavar])

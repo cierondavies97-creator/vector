@@ -1,0 +1,5 @@
+The following low-level functions can be used to get, set, or create
+an event loop:
+asyncio.get_running_loop()
+   Return the running event loop in the current OS thread.
+   Raise a "RuntimeError" if there is no running event loop.

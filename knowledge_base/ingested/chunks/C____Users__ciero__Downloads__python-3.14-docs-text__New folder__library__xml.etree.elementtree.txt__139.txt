@@ -1,0 +1,4 @@
+to resolve relative include file references.  *max_depth* is the
+   maximum number of recursive inclusions.  Limited to reduce the risk
+   of malicious content explosion. Pass "None" to disable the
+   limitation.

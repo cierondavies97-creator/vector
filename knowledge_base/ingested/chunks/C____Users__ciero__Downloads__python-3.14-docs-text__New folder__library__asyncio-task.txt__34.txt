@@ -1,0 +1,5 @@
+task.add_done_callback(background_tasks.discard)
+   Added in version 3.7.
+   Changed in version 3.8: Added the *name* parameter.
+   Changed in version 3.11: Added the *context* parameter.
+   Changed in version 3.14: Added the *eager_start* parameter by

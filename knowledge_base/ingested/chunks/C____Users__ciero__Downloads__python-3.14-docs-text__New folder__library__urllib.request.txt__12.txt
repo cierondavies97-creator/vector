@@ -1,0 +1,4 @@
+"ProxyHandler" is default installed and makes sure the requests are
+   handled through the proxy.
+   The legacy "urllib.urlopen" function from Python 2.6 and earlier
+   has been discontinued; "urllib.request.urlopen()" corresponds to

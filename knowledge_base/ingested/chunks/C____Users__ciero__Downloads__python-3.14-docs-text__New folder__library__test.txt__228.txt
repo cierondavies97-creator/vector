@@ -1,0 +1,4 @@
+automatically validate the results that are recorded.
+   "check_warnings" accepts 2-tuples of the form "("message regexp",
+   WarningCategory)" as positional arguments. If one or more *filters*
+   are provided, or if the optional keyword argument *quiet* is

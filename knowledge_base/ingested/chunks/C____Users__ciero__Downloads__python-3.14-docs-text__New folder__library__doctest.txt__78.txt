@@ -1,0 +1,5 @@
+expected output:
+doctest.DONT_ACCEPT_TRUE_FOR_1
+   By default, if an expected output block contains just "1", an
+   actual output block containing just "1" or just "True" is
+   considered to be a match, and similarly for "0" versus "False".

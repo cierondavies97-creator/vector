@@ -1,0 +1,4 @@
+This is used to "pick apart" the internal representation of a float
+   in a portable way.
+   Note that "frexp()" has a different call/return pattern than its C
+   equivalents: it takes a single argument and return a pair of

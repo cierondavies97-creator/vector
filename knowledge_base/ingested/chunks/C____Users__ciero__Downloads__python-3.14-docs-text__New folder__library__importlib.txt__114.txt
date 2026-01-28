@@ -1,0 +1,7 @@
+accepted by "io.TextIOWrapper".
+   read_bytes()
+      Read contents of "self" as bytes.
+   read_text(encoding=None)
+      Read contents of "self" as text.
+class importlib.abc.TraversableResources
+   An abstract base class for resource readers capable of serving the

@@ -1,0 +1,8 @@
+>>> bool(black)
+         False
+   __or__(self, other)
+      Returns current flag binary or'ed with other:
+         >>> Color.RED | Color.GREEN
+         <Color.RED|GREEN: 3>
+   __and__(self, other)
+      Returns current flag binary and'ed with other:

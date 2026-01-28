@@ -1,0 +1,7 @@
+>>> Password.__origin__
+         <class 'str'>
+   Note that using "get_origin()" will return "Annotated" itself:
+         >>> get_origin(Password)
+         typing.Annotated
+   See also:
+     **PEP 593** - Flexible function and variable annotations

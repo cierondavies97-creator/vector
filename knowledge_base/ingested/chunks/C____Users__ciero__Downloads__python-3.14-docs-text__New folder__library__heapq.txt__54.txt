@@ -1,0 +1,3 @@
+see all opponents s/he had.  However, in many computer applications of
+such tournaments, we do not need to trace the history of a winner. To
+be more memory efficient, when a winner is promoted, we try to replace

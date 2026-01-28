@@ -1,0 +1,6 @@
+convenient way of creating and testing the identity of objects like
+this.
+In this example we monkey patch "method" to return
+"sentinel.some_object":
+>>> real = ProductionClass()
+>>> real.method = Mock(name="method")

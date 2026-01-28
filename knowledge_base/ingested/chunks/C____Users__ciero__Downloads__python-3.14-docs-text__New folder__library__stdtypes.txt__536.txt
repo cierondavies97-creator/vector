@@ -1,0 +1,4 @@
+Changed in version 3.9: The value of the *errors* argument is now
+   checked in Python Development Mode and in debug mode.
+bytes.endswith(suffix[, start[, end]])
+bytearray.endswith(suffix[, start[, end]])

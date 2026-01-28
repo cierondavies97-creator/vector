@@ -1,0 +1,5 @@
+"unittest.mock" --- mock object library
+***************************************
+Added in version 3.3.
+**Source code:** Lib/unittest/mock.py
+======================================================================

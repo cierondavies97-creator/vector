@@ -1,0 +1,5 @@
+s = calculate_something()
+      s = +s
+   Raises "TypeError" if *kwargs* supplies an attribute that "Context"
+   doesn't support.  Raises either "TypeError" or "ValueError" if
+   *kwargs* supplies an invalid value for an attribute.

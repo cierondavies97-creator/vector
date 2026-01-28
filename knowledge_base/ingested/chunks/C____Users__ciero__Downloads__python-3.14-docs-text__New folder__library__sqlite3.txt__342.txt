@@ -1,0 +1,4 @@
+for the latter two). "sqlite3" uses "BEGIN DEFERRED" statements when
+  opening transactions.
+* Transactions should be committed explicitly using "commit()".
+* Transactions should be rolled back explicitly using "rollback()".

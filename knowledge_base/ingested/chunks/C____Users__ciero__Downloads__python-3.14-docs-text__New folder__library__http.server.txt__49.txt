@@ -1,0 +1,7 @@
+output stream.
+   flush_headers()
+      Finally send the headers to the output stream and flush the
+      internal headers buffer.
+      Added in version 3.3.
+   log_request(code='-', size='-')
+      Logs an accepted (successful) request. *code* should specify the

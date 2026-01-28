@@ -1,0 +1,4 @@
+| 'from' a=('.' | '...')+ 'import' b=import_from_targets {
+           _PyAST_ImportFrom(NULL, b, _PyPegen_seq_count_dots(a), EXTRA) }
+   import_from_targets[asdl_alias_seq*]:
+       | '(' a=import_from_as_names [','] ')' { a }

@@ -1,0 +1,4 @@
+contents are ignored by doctest.  The traceback stack is typically
+omitted, or copied verbatim from an interactive session.
+The traceback stack is followed by the most interesting part: the
+line(s) containing the exception type and detail.  This is usually the

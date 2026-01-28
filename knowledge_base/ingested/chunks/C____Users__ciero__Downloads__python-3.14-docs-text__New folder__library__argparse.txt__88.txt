@@ -1,0 +1,4 @@
+choices and subparser names, the feature can be enabled by setting
+"suggest_on_error" to "True". Note that this only applies for
+arguments when the choices specified are strings:
+   >>> parser = argparse.ArgumentParser(description='Process some integers.',

@@ -1,0 +1,3 @@
+class io.TextIOWrapper(buffer, encoding=None, errors=None, newline=None, line_buffering=False, write_through=False)
+   A buffered text stream providing higher-level access to a
+   "BufferedIOBase" buffered binary stream.  It inherits from

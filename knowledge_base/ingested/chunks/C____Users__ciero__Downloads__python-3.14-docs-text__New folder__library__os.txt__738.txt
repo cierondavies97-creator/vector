@@ -1,0 +1,6 @@
+retrieve the child status information again.
+   This option is not available for the other "wait*" functions.
+   Availability: Unix, not WASI, not Android, not iOS.
+os.CLD_EXITED
+os.CLD_KILLED
+os.CLD_DUMPED

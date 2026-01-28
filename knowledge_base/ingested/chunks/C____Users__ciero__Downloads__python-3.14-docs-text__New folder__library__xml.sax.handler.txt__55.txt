@@ -1,0 +1,3 @@
+Non-validating processors may skip entities if they have not seen
+   the declarations (because, for example, the entity was declared in
+   an external DTD subset). All processors may skip external entities,

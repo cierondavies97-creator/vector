@@ -1,0 +1,5 @@
+class method. As such, there is no need for it to be decorated with
+   "@classmethod" when it is defined.
+3.3.5.1. The purpose of *__class_getitem__*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The purpose of "__class_getitem__()" is to allow runtime

@@ -1,0 +1,3 @@
+Return the name of the slave pseudo-terminal device associated with
+   the master pseudo-terminal device to which the file descriptor *fd*
+   refers. The file descriptor *fd* is not closed upon failure.

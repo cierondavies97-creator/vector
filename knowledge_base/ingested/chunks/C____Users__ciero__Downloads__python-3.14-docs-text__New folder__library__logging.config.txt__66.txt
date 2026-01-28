@@ -1,0 +1,4 @@
+impossible, the benefits are not worth the complexity it adds to the
+implementation.
+Thus, when the "incremental" key of a configuration dict is present
+and is "True", the system will completely ignore any "formatters" and

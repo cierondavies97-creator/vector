@@ -1,0 +1,5 @@
+sequence.pop(index=-1, /)
+   Retrieve the item at *index* and also removes it from *sequence*.
+   By default, the last item in *sequence* is removed and returned.
+sequence.remove(value, /)
+   Remove the first item from *sequence* where "sequence[i] == value".

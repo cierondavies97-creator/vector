@@ -1,0 +1,4 @@
+Python, each DOM implementation will provide a function
+"getDOMImplementation()". DOM Level 3 adds a Load/Store specification,
+which defines an interface to the reader, but this is not yet
+available in the Python standard library.

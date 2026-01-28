@@ -1,0 +1,3 @@
+"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem".
+This allows the "open()" function, the "os" module and most other path
+functionality to accept and return paths longer than 260 characters.

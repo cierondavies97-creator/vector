@@ -1,0 +1,4 @@
+callable takes one argument, which is the "MIMEApplication"
+   instance. It should use "get_payload()" and "set_payload()" to
+   change the payload to encoded form.  It should also add any
+   *Content-Transfer-Encoding* or other headers to the message object

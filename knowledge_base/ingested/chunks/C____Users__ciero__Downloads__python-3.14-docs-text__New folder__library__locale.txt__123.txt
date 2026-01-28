@@ -1,0 +1,4 @@
+locale.bind_textdomain_codeset(domain, codeset)
+The locale module exposes the C library's gettext interface on systems
+that provide this interface.  It consists of the functions
+"gettext()", "dgettext()", "dcgettext()", "textdomain()",

@@ -1,0 +1,7 @@
+remains open.
+See also:
+  maildir man page from Courier
+     A specification of the format. Describes a common extension for
+     supporting folders.
+  Using maildir format
+     Notes on Maildir by its inventor. Includes an updated name-

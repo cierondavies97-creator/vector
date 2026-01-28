@@ -1,0 +1,6 @@
+the buffered I/O classes from the "io" module.
+exception ChildProcessError
+   Raised when an operation on a child process failed. Corresponds to
+   "errno" "ECHILD".
+exception ConnectionError
+   A base class for connection-related issues.

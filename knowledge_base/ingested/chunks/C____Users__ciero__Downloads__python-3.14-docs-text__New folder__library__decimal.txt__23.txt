@@ -1,0 +1,7 @@
+include special values such as "NaN" which stands for "Not a number",
+positive and negative "Infinity", and "-0":
+   >>> getcontext().prec = 28
+   >>> Decimal(10)
+   Decimal('10')
+   >>> Decimal('3.14')
+   Decimal('3.14')

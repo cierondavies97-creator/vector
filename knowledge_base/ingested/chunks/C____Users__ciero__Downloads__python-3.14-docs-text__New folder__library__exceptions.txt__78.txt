@@ -1,0 +1,6 @@
+offset
+      The column in the line where the error occurred. This is
+      1-indexed: the first character in the line has an "offset" of 1.
+   text
+      The source code text involved in the error.
+   end_lineno

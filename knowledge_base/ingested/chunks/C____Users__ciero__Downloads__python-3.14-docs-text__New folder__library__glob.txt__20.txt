@@ -1,0 +1,6 @@
+>>> regex
+   '(?s:(?:.+/)?[^/]*\\.txt)\\z'
+   >>> reobj = re.compile(regex)
+   >>> reobj.match('foo/bar/baz.txt')
+   <re.Match object; span=(0, 15), match='foo/bar/baz.txt'>
+   Path separators and segments are meaningful to this function,

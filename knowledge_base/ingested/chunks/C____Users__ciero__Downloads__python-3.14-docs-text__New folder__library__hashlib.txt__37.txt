@@ -1,0 +1,4 @@
+unknown state after this function returns or raises. It is up to
+   the caller to close *fileobj*.
+   *digest* must either be a hash algorithm name as a *str*, a hash
+   constructor, or a callable that returns a hash object.

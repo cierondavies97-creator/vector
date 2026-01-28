@@ -1,0 +1,5 @@
+This method will be used by default to compare dictionaries in
+      calls to "assertEqual()".
+      Added in version 3.1.
+   Finally the "TestCase" provides the following methods and
+   attributes:

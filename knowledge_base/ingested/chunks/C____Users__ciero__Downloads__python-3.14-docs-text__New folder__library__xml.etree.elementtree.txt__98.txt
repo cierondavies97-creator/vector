@@ -1,0 +1,5 @@
+xml.etree.ElementTree.iselement(element)
+   Check if an object appears to be a valid element object.  *element*
+   is an element instance.  Return "True" if this is an element
+   object.
+xml.etree.ElementTree.iterparse(source, events=None, parser=None)

@@ -1,0 +1,4 @@
+to a POP3 server and implements the protocol as defined in **RFC
+1939**. The "POP3" class supports both the minimal and optional
+command sets from **RFC 1939**. The "POP3" class also supports the
+"STLS" command introduced in **RFC 2595** to enable encrypted

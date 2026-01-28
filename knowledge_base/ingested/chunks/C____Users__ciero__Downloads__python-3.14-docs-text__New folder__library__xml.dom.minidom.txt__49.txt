@@ -1,0 +1,5 @@
+The following interfaces have no implementation in "xml.dom.minidom":
+* "DOMTimeStamp"
+* "EntityReference"
+Most of these reflect information in the XML document that is not of
+general utility to most DOM users.

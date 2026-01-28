@@ -1,0 +1,4 @@
+also be used *inside* a "with" statement that is already using the
+same context manager.
+"threading.RLock" is an example of a reentrant context manager, as are
+"suppress()", "redirect_stdout()", and "chdir()". Here's a very simple

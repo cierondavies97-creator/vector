@@ -1,0 +1,3 @@
+implementation) can define additional types.  Future versions of
+Python may add types to the type hierarchy (e.g., rational numbers,
+efficiently stored arrays of integers, etc.), although such additions

@@ -1,0 +1,5 @@
+Changed in version 3.7: Return *fd2* on success. Previously, "None"
+   was always returned.
+os.fchmod(fd, mode)
+   Change the mode of the file given by *fd* to the numeric *mode*.
+   See the docs for "chmod()" for possible values of *mode*.  As of

@@ -1,0 +1,5 @@
+class asyncio.WindowsSelectorEventLoopPolicy
+   An alternative event loop policy that uses the "SelectorEventLoop"
+   event loop implementation.
+   Availability: Windows.
+   Deprecated since version 3.14: The "WindowsSelectorEventLoopPolicy"

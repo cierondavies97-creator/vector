@@ -1,0 +1,3 @@
+is suspended, this method first delegates to the "close()" method
+   of the iterator that caused the coroutine to suspend, if it has
+   such a method.  Then it raises "GeneratorExit" at the suspension

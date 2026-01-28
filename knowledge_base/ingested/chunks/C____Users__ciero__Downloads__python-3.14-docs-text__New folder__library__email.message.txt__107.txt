@@ -1,0 +1,4 @@
+Convert a non-"multipart" or a "multipart/related" into a
+      "multipart/alternative", moving any existing *Content-* headers
+      and payload into a (new) first part of the "multipart".  If
+      *boundary* is specified, use it as the boundary string in the

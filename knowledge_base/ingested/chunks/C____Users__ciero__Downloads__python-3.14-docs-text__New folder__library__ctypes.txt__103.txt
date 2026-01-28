@@ -1,0 +1,5 @@
+b'def'
+   >>> strchr(b"abcdef", b"def")
+   Traceback (most recent call last):
+   ctypes.ArgumentError: argument 2: TypeError: one character bytes, bytearray or integer expected
+   >>> print(strchr(b"abcdef", b"x"))

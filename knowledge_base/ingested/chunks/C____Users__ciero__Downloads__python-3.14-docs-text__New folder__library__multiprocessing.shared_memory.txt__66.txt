@@ -1,0 +1,10 @@
+>>> c
+ShareableList([0, 1, 2, 3, 4], name='...')
+>>> c[-1] = -999
+>>> b[-1]
+-999
+>>> b.shm.close()
+>>> c.shm.close()
+>>> c.shm.unlink()
+The following examples demonstrates that "ShareableList" (and
+underlying "SharedMemory") objects can be pickled and unpickled if

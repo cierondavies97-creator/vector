@@ -1,0 +1,5 @@
+a thread exits and another thread is created.  The identifier is
+      available even after the thread has exited.
+   native_id
+      The Thread ID ("TID") of this thread, as assigned by the OS
+      (kernel). This is a non-negative integer, or "None" if the

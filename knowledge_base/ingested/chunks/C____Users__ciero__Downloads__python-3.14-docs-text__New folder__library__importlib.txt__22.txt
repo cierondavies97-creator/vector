@@ -1,0 +1,4 @@
+in the module's dictionary by reusing the *loader* which
+     originally loaded the module.  The "init" function of extension
+     modules is not called a second time.
+   * As with all other objects in Python the old objects are only

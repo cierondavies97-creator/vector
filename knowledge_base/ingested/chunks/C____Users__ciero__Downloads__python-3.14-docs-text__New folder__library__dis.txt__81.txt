@@ -1,0 +1,5 @@
+Added in version 3.13.
+**Binary and in-place operations**
+Binary operations remove the top two items from the stack ("STACK[-1]"
+and "STACK[-2]"). They perform the operation, then put the result back
+on the stack.

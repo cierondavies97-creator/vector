@@ -1,0 +1,7 @@
+'()' : 'my.package.customFormatterFactory',
+     'bar' : 'baz',
+     'spam' : 99.9,
+     'answer' : 42
+   }
+and this contains the special key "'()'", which means that user-
+defined instantiation is wanted.  In this case, the specified factory

@@ -1,0 +1,5 @@
+>>> slope, intercept = linear_regression(year, films_total)
+      >>> round(slope * 2019 + intercept)
+      16
+   If *proportional* is true, the independent variable *x* and the
+   dependent variable *y* are assumed to be directly proportional. The

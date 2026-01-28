@@ -1,0 +1,5 @@
+"rotation_filename()" method delegates to this callable. The
+      parameters passed to the callable are those passed to
+      "rotation_filename()".
+      Note:
+        The namer function is called quite a few times during

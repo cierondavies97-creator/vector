@@ -1,0 +1,4 @@
+Added in version 3.11.
+class ast.ExceptHandler(type, name, body)
+   A single "except" clause. "type" is the exception type it will
+   match, typically a "Name" node (or "None" for a catch-all "except:"

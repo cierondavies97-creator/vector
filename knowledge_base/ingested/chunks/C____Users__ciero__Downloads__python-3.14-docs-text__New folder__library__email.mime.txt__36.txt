@@ -1,0 +1,3 @@
+the payload.  *_subtype* is the minor type and defaults to *plain*.
+   *_charset* is the character set of the text and is passed as an
+   argument to the "MIMENonMultipart" constructor; it defaults to "us-

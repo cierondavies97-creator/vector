@@ -1,0 +1,5 @@
+"S_IFDOOR", "S_IFPORT" or "S_IFWHT" are defined as 0 when the
+  platform does not have support for the file types.
+The following flags can also be used in the *mode* argument of
+"os.chmod()":
+stat.S_ISUID

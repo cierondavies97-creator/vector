@@ -1,0 +1,5 @@
+Python 3.3, this is equivalent to "os.statvfs(fd)".
+   Availability: Unix.
+os.fsync(fd)
+   Force write of file with filedescriptor *fd* to disk.  On Unix,
+   this calls the native "fsync()" function; on Windows, the MS

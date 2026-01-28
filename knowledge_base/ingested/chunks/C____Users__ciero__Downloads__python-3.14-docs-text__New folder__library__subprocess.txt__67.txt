@@ -1,0 +1,4 @@
+(such as *eggs.txt*) that are separated by whitespace in the
+     shell go in separate list elements, while arguments that need
+     quoting or backslash escaping when used in the shell (such as
+     filenames containing spaces or the *echo* command shown above)

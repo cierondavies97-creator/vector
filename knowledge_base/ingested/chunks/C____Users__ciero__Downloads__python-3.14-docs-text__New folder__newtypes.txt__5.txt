@@ -1,0 +1,5 @@
+setattrofunc tp_setattro;
+       /* Functions to access object as input/output buffer */
+       PyBufferProcs *tp_as_buffer;
+       /* Flags to define presence of optional/expanded features */
+       unsigned long tp_flags;

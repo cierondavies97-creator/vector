@@ -1,0 +1,3 @@
+The file selected by the above constructor must have been created
+   by the corresponding version of "profile" or "cProfile".  To be
+   specific, there is *no* file compatibility guaranteed with future

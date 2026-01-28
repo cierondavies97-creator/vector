@@ -1,0 +1,8 @@
+"set()" method is called again.
+   is_set()
+      Return "True" if the event is set.
+Condition
+=========
+class asyncio.Condition(lock=None)
+   A Condition object.  Not thread-safe.
+   An asyncio condition primitive can be used by a task to wait for

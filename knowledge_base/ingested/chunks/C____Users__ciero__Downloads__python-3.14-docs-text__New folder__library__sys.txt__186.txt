@@ -1,0 +1,4 @@
+"sys.getwindowsversion()[0]" is equivalent to
+   "sys.getwindowsversion().major". For compatibility with prior
+   versions, only the first 5 elements are retrievable by indexing.
+   *platform* will be "2" (VER_PLATFORM_WIN32_NT).

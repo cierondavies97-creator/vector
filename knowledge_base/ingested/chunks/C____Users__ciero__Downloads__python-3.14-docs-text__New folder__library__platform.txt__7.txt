@@ -1,0 +1,5 @@
+returned if the value cannot be determined.
+   The output is platform-dependent and may differ in casing and
+   naming conventions.
+platform.node()
+   Returns the computer's network name (may not be fully qualified!).

@@ -1,0 +1,7 @@
+======================================================================
+Module Contents
+===============
+   "EnumType"
+      The "type" for Enum and its subclasses.
+   "Enum"
+      Base class for creating enumerated constants.

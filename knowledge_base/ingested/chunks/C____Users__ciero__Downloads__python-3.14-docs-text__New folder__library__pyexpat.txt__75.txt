@@ -1,0 +1,4 @@
+Called for all entity declarations.  For parameter and internal
+   entities, *value* will be a string giving the declared contents of
+   the entity; this will be "None" for external entities.  The
+   *notationName* parameter will be "None" for parsed entities, and

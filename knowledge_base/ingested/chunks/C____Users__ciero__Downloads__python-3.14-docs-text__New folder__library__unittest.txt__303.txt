@@ -1,0 +1,4 @@
+rather than a single name.  The return value is a test suite
+      which supports all the tests defined for each name.
+   getTestCaseNames(testCaseClass)
+      Return a sorted sequence of method names found within

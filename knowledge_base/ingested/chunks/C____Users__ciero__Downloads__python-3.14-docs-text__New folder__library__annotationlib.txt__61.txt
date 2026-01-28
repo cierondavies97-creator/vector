@@ -1,0 +1,4 @@
+from accessing it is re-raised.
+     * When calling "object.__annotate__" it is first called with
+       "FORWARDREF". If this is not implemented, it will then check if
+       "VALUE_WITH_FAKE_GLOBALS" is supported and use that in the fake

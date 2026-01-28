@@ -1,0 +1,6 @@
+clone(fp)
+      Return an independent clone of this "BytesGenerator" instance
+      with the exact same option settings, and *fp* as the new
+      *outfp*.
+   write(s)
+      Encode *s* using the "ASCII" codec and the "surrogateescape"

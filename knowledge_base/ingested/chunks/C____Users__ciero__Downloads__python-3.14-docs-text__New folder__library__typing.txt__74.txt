@@ -1,0 +1,6 @@
+from "Generic" to indicate a generic class:
+   from typing import TypeVar, Generic
+   T = TypeVar('T')
+   class LoggedVar(Generic[T]):
+       ...
+Generic classes have "__class_getitem__()" methods, meaning they can

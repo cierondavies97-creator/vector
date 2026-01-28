@@ -1,0 +1,3 @@
+"Bring out the holy {name!r}"    # Calls repr() on the argument first
+   "More {!a}"                      # Calls ascii() on the argument first
+The *format_spec* field contains a specification of how the value

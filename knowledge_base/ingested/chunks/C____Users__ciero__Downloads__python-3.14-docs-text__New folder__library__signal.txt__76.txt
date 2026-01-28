@@ -1,0 +1,4 @@
+*handler* can be a callable Python object taking two arguments (see
+   below), or one of the special values "signal.SIG_IGN" or
+   "signal.SIG_DFL".  The previous signal handler will be returned
+   (see the description of "getsignal()" above).  (See the Unix man

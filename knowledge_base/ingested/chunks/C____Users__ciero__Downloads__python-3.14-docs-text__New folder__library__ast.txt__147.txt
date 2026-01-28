@@ -1,0 +1,5 @@
+ops=[
+                                  Lt()],
+                              comparators=[
+                                  Constant(value=10)])],
+                      is_async=0)]))

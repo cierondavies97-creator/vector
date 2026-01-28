@@ -1,0 +1,4 @@
+inaccessible.
+   If *strict* is "os.path.ALLOW_MISSING", errors other than
+   "FileNotFoundError" are re-raised (as with "strict=True"). Thus,
+   the returned path will not contain any symbolic links, but the

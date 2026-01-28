@@ -1,0 +1,4 @@
+properties are specific to a particular mailbox format). For
+   example, file offsets for single-file mailbox formats and file
+   names for directory-based mailbox formats are not retained, because
+   they are only applicable to the original mailbox. But state such as

@@ -1,0 +1,3 @@
+received at once is specified by *bufsize*. A returned empty bytes
+   object indicates that the client has disconnected. See the Unix
+   manual page *recv(2)* for the meaning of the optional argument

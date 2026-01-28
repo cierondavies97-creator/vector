@@ -1,0 +1,9 @@
+...         raise WinError()
+   ...     rc = args[1]
+   ...     return rc.left, rc.top, rc.bottom, rc.right
+   ...
+   >>> GetWindowRect.errcheck = errcheck
+   >>>
+Utility functions
+-----------------
+ctypes.addressof(obj)

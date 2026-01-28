@@ -1,0 +1,4 @@
+value is the entire matching string; if it is in the inclusive
+   range [1..99], it is the string matching the corresponding
+   parenthesized group.  If a group number is negative or larger than
+   the number of groups defined in the pattern, an "IndexError"

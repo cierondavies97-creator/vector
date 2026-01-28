@@ -1,0 +1,8 @@
+* Supported INI File Structure
+  * Unnamed Sections
+  * Interpolation of values
+  * Mapping Protocol Access
+  * Customizing Parser Behaviour
+  * Legacy API Examples
+  * ConfigParser Objects
+  * RawConfigParser Objects

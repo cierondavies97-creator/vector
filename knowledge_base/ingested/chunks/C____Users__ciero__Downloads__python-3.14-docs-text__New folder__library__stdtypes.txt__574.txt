@@ -1,0 +1,4 @@
+bytes.rsplit(sep=None, maxsplit=-1)
+bytearray.rsplit(sep=None, maxsplit=-1)
+   Split the binary sequence into subsequences of the same type, using
+   *sep* as the delimiter string. If *maxsplit* is given, at most

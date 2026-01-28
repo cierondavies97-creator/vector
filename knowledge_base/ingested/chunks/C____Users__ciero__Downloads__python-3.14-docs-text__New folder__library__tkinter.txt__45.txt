@@ -1,0 +1,3 @@
+The remainder of this section will help you to identify the classes,
+methods, and options you'll need in your Tkinter application, and
+where to find more detailed documentation on them, including in the

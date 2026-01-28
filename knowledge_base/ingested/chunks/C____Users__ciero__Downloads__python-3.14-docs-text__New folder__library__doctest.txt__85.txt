@@ -1,0 +1,3 @@
+substrings that span line boundaries, and empty substrings, so it's
+   best to keep usage of this simple. Complicated uses can lead to the
+   same kinds of "oops, it matched too much!" surprises that ".*" is

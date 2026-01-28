@@ -1,0 +1,6 @@
+raised, it will be reported to "DatagramProtocol.error_received()"
+  but otherwise ignored.
+Subprocess Protocols
+--------------------
+Subprocess Protocol instances should be constructed by protocol
+factories passed to the "loop.subprocess_exec()" and

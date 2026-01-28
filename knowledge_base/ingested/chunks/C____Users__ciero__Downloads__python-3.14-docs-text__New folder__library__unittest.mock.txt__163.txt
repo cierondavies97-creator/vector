@@ -1,0 +1,4 @@
+"return_value" attribute. The default return value is a new Mock
+object; it is created the first time the return value is accessed
+(either explicitly or by calling the Mock) - but it is stored and the
+same one returned each time.

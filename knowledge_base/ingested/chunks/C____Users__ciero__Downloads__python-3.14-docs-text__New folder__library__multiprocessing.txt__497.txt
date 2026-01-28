@@ -1,0 +1,9 @@
+print('op.pow(2, 94) =', op.pow(2, 94))
+       print('op._exposed_ =', op._exposed_)
+   ##
+   if __name__ == '__main__':
+       freeze_support()
+       test()
+Using "Pool":
+   import multiprocessing
+   import time

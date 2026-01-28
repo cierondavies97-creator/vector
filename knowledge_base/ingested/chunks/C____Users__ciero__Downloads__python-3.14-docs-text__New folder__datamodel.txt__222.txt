@@ -1,0 +1,4 @@
+(writable) attributes. Not all instances have a "__dict__"
+   attribute; see the section on __slots__ for more details.
+3.2.12. I/O objects (also known as file objects)
+------------------------------------------------

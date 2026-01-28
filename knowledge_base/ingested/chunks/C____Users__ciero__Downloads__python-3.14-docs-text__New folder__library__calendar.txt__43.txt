@@ -1,0 +1,6 @@
+cssclass_month
+      The CSS class for the whole month's table (used by
+      "formatmonth()"). The default value is ""month"".
+      Added in version 3.7.
+   cssclass_year
+      The CSS class for the whole year's table of tables (used by

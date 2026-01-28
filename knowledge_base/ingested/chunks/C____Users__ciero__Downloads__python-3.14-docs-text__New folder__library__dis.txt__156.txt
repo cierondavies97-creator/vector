@@ -1,0 +1,5 @@
+Changed in version 3.13: This instruction now requires an exact
+   "bool" operand.
+POP_JUMP_IF_NOT_NONE(delta)
+   If "STACK[-1]" is not "None", increments the bytecode counter by
+   *delta*. "STACK[-1]" is popped.

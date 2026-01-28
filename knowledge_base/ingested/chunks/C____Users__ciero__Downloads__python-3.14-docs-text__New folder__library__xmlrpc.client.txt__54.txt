@@ -1,0 +1,6 @@
+Binary Objects
+==============
+class xmlrpc.client.Binary
+   This class may be initialized from bytes data (which may include
+   NULs). The primary access to the content of a "Binary" object is
+   provided by an attribute:

@@ -1,0 +1,6 @@
+informational only.
+      c_contiguous
+         A bool indicating whether the memory is C-*contiguous*.
+         Added in version 3.3.
+      f_contiguous
+         A bool indicating whether the memory is Fortran *contiguous*.

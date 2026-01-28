@@ -1,0 +1,7 @@
+'127.0.0.1', 8888)
+       async with server:
+           await server.serve_forever()
+   asyncio.run(main())
+See also:
+  The TCP echo server using streams example uses the high-level
+  "asyncio.start_server()" function.

@@ -1,0 +1,5 @@
+class importlib.abc.MetaPathFinder
+   An abstract base class representing a *meta path finder*.
+   Added in version 3.3.
+   Changed in version 3.10: No longer a subclass of "Finder".
+   find_spec(fullname, path, target=None)

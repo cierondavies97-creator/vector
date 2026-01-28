@@ -1,0 +1,4 @@
+constant can be used in the same way that "TCP_INFO" is used on
+   Linux and BSD.
+   Changed in version 3.12: Added "SO_RTABLE" and "SO_USER_COOKIE". On
+   OpenBSD and FreeBSD respectively those constants can be used in the

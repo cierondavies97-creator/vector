@@ -1,0 +1,5 @@
+are inherently *thread-safe* because their state cannot be modified
+   after creation, eliminating concerns about improperly synchronized
+   *concurrent modification*.
+import path
+   A list of locations (or *path entries*) that are searched by the

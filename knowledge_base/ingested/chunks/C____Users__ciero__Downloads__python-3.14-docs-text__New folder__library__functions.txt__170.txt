@@ -1,0 +1,4 @@
+Return "True" if *class* is a subclass (direct, indirect, or
+   *virtual*) of *classinfo*.  A class is considered a subclass of
+   itself. *classinfo* may be a tuple of class objects (or
+   recursively, other such tuples) or a Union Type, in which case

@@ -1,0 +1,7 @@
+There is no return value.
+   locked()
+      Return "True" if the lock is acquired.
+RLock objects
+-------------
+A reentrant lock is a synchronization primitive that may be acquired
+multiple times by the same thread.  Internally, it uses the concepts

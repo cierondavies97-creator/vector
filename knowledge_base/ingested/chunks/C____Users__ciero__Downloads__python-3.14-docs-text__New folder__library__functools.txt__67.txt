@@ -1,0 +1,5 @@
+"Placeholder" cannot be passed to "partial()" as a keyword
+   argument.
+   Changed in version 3.14: Added support for "Placeholder" in
+   positional arguments.
+class functools.partialmethod(func, /, *args, **keywords)

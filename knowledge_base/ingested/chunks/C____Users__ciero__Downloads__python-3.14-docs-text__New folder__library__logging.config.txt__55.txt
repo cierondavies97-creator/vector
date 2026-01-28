@@ -1,0 +1,4 @@
+stream.  The handler with id "file" is instantiated as a
+  "logging.handlers.RotatingFileHandler" with the keyword arguments
+  "filename='logconfig.log', maxBytes=1024, backupCount=3".
+* *loggers* - the corresponding value will be a dict in which each key

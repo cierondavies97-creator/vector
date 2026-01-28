@@ -1,0 +1,4 @@
+finally,
+   * a text string that is pattern matched against the label of the
+     menu entry, as scanned from the top of the menu to the bottom.
+     Note that this index type is considered after all the others,

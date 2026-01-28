@@ -1,0 +1,4 @@
+is ignored.
+HTTPPasswordMgrWithPriorAuth.find_user_password(realm, authuri)
+   Same as for "HTTPPasswordMgrWithDefaultRealm" objects
+HTTPPasswordMgrWithPriorAuth.update_authenticated(self, uri, is_authenticated=False)

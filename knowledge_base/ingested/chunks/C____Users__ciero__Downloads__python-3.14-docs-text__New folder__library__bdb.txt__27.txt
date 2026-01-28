@@ -1,0 +1,3 @@
+"user_line()" method (which should be overridden in subclasses).
+      Raise a "BdbQuit" exception if the "quitting" flag is set (which
+      can be set from "user_line()").  Return a reference to the

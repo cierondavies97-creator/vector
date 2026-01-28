@@ -1,0 +1,10 @@
+descriptions of their availability and use, consult the *open(2)*
+manual page on Unix or the MSDN on Windows.
+os.O_RDONLY
+os.O_WRONLY
+os.O_RDWR
+os.O_APPEND
+os.O_CREAT
+os.O_EXCL
+os.O_TRUNC
+   The above constants are available on Unix and Windows.

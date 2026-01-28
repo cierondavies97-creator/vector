@@ -1,0 +1,4 @@
+caller's responsibility to close it after calling create_archive.
+   When copying an existing archive, file objects supplied only need
+   "read" and "readline", or "write" methods.  When creating an
+   archive from a directory, if the target is a file object it will be

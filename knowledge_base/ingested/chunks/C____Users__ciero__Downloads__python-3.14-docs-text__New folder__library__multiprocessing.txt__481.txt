@@ -1,0 +1,4 @@
+subclass "Process.__init__", you must make sure that instances will
+   be picklable when the "Process.start" method is called.
+Global variables
+   Bear in mind that if code run in a child process tries to access a

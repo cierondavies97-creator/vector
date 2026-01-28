@@ -1,0 +1,3 @@
+replicates the behavior of the email package in Python 3.2.  The
+   "policy" module also defines an instance of this class, "compat32",
+   that is used as the default policy.  Thus the default behavior of

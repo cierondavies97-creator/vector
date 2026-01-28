@@ -1,0 +1,4 @@
+with "'exec'" as the *mode* argument, "eval()"'s return value will
+   be "None".
+   Hints: dynamic execution of statements is supported by the "exec()"
+   function.  The "globals()" and "locals()" functions return the

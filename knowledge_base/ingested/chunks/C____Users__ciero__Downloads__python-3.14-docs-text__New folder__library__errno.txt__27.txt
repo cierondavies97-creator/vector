@@ -1,0 +1,7 @@
+to the exception "BrokenPipeError".
+errno.ETOOMANYREFS
+   Too many references: cannot splice
+errno.ETIMEDOUT
+   Connection timed out. This error is mapped to the exception
+   "TimeoutError".
+errno.ECONNREFUSED

@@ -1,0 +1,7 @@
+instance, with "tzinfo" set to "self".
+Class attributes:
+timezone.utc
+   The UTC time zone, "timezone(timedelta(0))".
+"strftime()" and "strptime()" Behavior
+======================================
+"date", "datetime", and "time" objects all support a

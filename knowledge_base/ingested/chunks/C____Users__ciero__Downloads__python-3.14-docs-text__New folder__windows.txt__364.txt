@@ -1,0 +1,3 @@
+"unattend.xml" alongside the executable. This file specifies a list of
+options and values. When a value is provided as an attribute, it will
+be converted to a number if possible. Values provided as element text

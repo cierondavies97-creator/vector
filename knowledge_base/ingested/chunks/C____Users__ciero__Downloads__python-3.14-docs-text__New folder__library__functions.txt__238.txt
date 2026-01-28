@@ -1,0 +1,4 @@
+the line ending is returned to the caller untranslated.
+   * When writing output to the stream, if *newline* is "None", any
+     "'\n'" characters written are translated to the system default
+     line separator, "os.linesep".  If *newline* is "''" or "'\n'", no

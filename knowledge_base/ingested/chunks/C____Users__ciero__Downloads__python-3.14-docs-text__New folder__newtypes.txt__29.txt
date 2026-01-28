@@ -1,0 +1,7 @@
+"PyErr_Fetch()" and "PyErr_Restore()" functions:
+   static void
+   my_dealloc(PyObject *obj)
+   {
+       MyObject *self = (MyObject *) obj;
+       PyObject *cbresult;
+       if (self->my_callback != NULL) {

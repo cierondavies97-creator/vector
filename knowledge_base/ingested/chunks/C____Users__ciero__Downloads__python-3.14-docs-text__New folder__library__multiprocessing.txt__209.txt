@@ -1,0 +1,5 @@
+See Authentication keys.
+Warning:
+  If a process is killed while it is trying to read or write to a pipe
+  then the data in the pipe is likely to become corrupted, because it
+  may become impossible to be sure where the message boundaries lie.

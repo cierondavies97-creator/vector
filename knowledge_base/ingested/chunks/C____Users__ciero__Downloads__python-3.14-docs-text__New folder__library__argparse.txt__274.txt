@@ -1,0 +1,6 @@
+positional arguments:
+        bar     bar help
+      options:
+        -h, --help  show this help message and exit
+      >>> parser.parse_args(['b', '--help'])
+      usage: PROG b [-h] [--baz {X,Y,Z}]

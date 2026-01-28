@@ -1,0 +1,4 @@
+"None" if *capname* is not a terminfo "string capability", or is
+   canceled or absent from the terminal description.
+curses.tparm(str[, ...])
+   Instantiate the bytes object *str* with the supplied parameters,

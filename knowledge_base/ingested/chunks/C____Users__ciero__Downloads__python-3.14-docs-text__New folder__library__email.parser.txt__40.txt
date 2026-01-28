@@ -1,0 +1,4 @@
+namespace.
+email.message_from_bytes(s, _class=None, *, policy=policy.compat32)
+   Return a message object structure from a *bytes-like object*.  This
+   is equivalent to "BytesParser().parsebytes(s)".  Optional *_class*

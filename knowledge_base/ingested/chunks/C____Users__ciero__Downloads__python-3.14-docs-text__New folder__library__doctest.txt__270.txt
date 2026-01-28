@@ -1,0 +1,4 @@
+object's docstring is written to a temporary file, and then that
+   file is run under the control of the Python debugger, "pdb".
+   A shallow copy of "module.__dict__" is used for both local and
+   global execution context.

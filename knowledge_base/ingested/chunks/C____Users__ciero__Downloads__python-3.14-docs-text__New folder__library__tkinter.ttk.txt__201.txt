@@ -1,0 +1,6 @@
+reattach(item, parent, index)
+      An alias for "Treeview.move()".
+   see(item)
+      Ensure that *item* is visible.
+      Sets all of *item*'s ancestors open option to "True", and
+      scrolls the widget if necessary so that *item* is within the

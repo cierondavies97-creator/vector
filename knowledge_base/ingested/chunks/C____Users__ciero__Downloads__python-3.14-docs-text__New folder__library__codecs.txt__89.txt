@@ -1,0 +1,4 @@
+"StreamReader" for codecs which have to keep state in order to
+      make decoding efficient.
+      The decoder must be able to handle zero length input and return
+      an empty object of the output object type in this situation.

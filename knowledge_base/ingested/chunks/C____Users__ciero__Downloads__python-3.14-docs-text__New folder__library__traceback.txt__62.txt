@@ -1,0 +1,4 @@
+Added in version 3.5.
+"StackSummary" objects represent a call stack ready for formatting.
+class traceback.StackSummary
+   classmethod extract(frame_gen, *, limit=None, lookup_lines=True, capture_locals=False)

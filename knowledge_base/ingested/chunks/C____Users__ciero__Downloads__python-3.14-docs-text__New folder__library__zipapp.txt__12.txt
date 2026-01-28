@@ -1,0 +1,7 @@
+must be an archive, not a directory.
+-h, --help
+   Print a short usage message and exit.
+Python API
+==========
+The module defines two convenience functions:
+zipapp.create_archive(source, target=None, interpreter=None, main=None, filter=None, compressed=False)

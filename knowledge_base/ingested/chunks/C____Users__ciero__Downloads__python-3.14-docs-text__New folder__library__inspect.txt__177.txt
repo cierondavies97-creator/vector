@@ -1,0 +1,3 @@
+|                          | in a Python function definition.               |
+      +--------------------------+------------------------------------------------+
+      | *POSITIONAL_OR_KEYWORD*  | Value may be supplied as either a keyword or   |

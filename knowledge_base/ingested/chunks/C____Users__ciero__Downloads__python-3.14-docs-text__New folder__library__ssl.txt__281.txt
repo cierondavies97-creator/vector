@@ -1,0 +1,4 @@
+to "CERT_OPTIONAL" or "CERT_REQUIRED", and you must pass
+   *server_hostname* to "wrap_socket()" in order to match the
+   hostname.  Enabling hostname checking automatically sets
+   "verify_mode" from "CERT_NONE" to "CERT_REQUIRED".  It cannot be

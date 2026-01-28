@@ -1,0 +1,4 @@
+Unions share common attributes and behavior with structures; see
+   "Structure" documentation for details.
+class ctypes.BigEndianUnion(*args, **kw)
+   Abstract base class for unions in *big endian* byte order.

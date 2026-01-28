@@ -1,0 +1,3 @@
+careful about checking internal state.  Any exception, other
+      than "AssertionError" or "SkipTest", raised by this method will
+      be considered an additional error rather than a test failure

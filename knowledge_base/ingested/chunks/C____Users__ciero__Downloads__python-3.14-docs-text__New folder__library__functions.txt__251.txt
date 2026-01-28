@@ -1,0 +1,5 @@
+creation mode ("'x'") already exists.
+   Changed in version 3.4:
+   * The file is now non-inheritable.
+   Changed in version 3.5:
+   * If the system call is interrupted and the signal handler does not

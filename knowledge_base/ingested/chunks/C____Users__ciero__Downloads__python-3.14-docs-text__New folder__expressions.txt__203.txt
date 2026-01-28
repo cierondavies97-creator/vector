@@ -1,0 +1,3 @@
+converted to a common type. Division of integers yields a float, while
+floor division of integers results in an integer; the result is that
+of mathematical division with the 'floor' function applied to the

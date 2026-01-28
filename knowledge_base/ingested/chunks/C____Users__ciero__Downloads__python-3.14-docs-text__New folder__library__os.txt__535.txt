@@ -1,0 +1,7 @@
+descriptor. On read the internal counter is decremented by one.
+   Availability: Linux >= 2.6.30
+   Added in version 3.10.
+Timer File Descriptors
+----------------------
+Added in version 3.13.
+These functions provide support for Linux's *timer file descriptor*

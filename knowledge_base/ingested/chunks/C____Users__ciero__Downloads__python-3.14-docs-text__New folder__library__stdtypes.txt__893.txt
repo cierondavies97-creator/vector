@@ -1,0 +1,6 @@
+See Function definitions for more information.
+Methods
+-------
+Methods are functions that are called using the attribute notation.
+There are two flavors: built-in methods (such as "append()" on lists)
+and class instance method. Built-in methods are described with the

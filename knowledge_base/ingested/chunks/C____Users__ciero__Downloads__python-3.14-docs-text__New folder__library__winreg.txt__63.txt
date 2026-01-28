@@ -1,0 +1,4 @@
+Value lengths are limited by available memory. Long values (more
+   than 2048 bytes) should be stored as files with the filenames
+   stored in the configuration registry.  This helps the registry
+   perform efficiently.

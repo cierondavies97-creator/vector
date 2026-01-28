@@ -1,0 +1,3 @@
+way it was created, a file object can mediate access to a real on-
+   disk file or to another type of storage or communication device
+   (for example standard input/output, in-memory buffers, sockets,

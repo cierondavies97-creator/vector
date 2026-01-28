@@ -1,0 +1,5 @@
+exponent of the first operand are unchanged.
+   sqrt(context=None)
+      Return the square root of the argument to full precision.
+   to_eng_string(context=None)
+      Convert to a string, using engineering notation if an exponent

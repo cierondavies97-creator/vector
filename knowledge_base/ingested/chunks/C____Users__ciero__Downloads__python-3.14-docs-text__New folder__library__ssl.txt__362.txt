@@ -1,0 +1,5 @@
+('DNS', 'id.python.org')),
+    'version': 3}
+Now the SSL channel is established and the certificate verified, you
+can proceed to talk with the server:
+   >>> conn.sendall(b"HEAD / HTTP/1.0\r\nHost: linuxfr.org\r\n\r\n")

@@ -1,0 +1,4 @@
+*hostname* is the host's primary host name, *aliaslist* is a
+   (possibly empty) list of alternative host names for the same
+   address, and *ipaddrlist* is a list of IPv4 addresses for the same
+   interface on the same host (often but not always a single address).

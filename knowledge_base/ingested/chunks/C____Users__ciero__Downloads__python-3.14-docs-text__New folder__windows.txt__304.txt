@@ -1,0 +1,3 @@
+is a small initial download, and it will automatically download the
+required components as necessary. The *offline installer* includes the
+components necessary for a default installation and only requires an

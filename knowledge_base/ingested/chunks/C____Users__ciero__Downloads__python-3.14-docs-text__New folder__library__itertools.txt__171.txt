@@ -1,0 +1,4 @@
+return compress(permutations(seq, r=r), valid_derangements)
+   def iter_index(iterable, value, start=0, stop=None):
+       "Return indices where a value occurs in a sequence or iterable."
+       # iter_index('AABCADEAF', 'A') → 0 1 4 7

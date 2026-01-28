@@ -1,0 +1,3 @@
+fresh new iterator each time you pass it to the "iter()" function
+   or use it in a "for" loop.  Attempting this with an iterator will
+   just return the same exhausted iterator object used in the previous

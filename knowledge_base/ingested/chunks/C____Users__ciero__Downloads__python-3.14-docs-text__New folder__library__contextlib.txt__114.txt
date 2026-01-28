@@ -1,0 +1,10 @@
+like this:
+   cleanup_needed = True
+   try:
+       result = perform_operation()
+       if result:
+           cleanup_needed = False
+   finally:
+       if cleanup_needed:
+           cleanup_resources()
+As with any "try" statement based code, this can cause problems for

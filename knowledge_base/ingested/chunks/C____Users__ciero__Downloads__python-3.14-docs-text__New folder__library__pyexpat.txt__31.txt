@@ -1,0 +1,4 @@
+deferral" where instead of causing denial of service through
+   quadratic runtime from reparsing large tokens, reparsing of
+   unfinished tokens is now delayed by default until a sufficient
+   amount of input is reached. Due to this delay, registered handlers

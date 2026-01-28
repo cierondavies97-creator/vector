@@ -1,0 +1,4 @@
+package (expressed in terms of a hierarchical filesystem):
+   sound/                          Top-level package
+         __init__.py               Initialize the sound package
+         formats/                  Subpackage for file format conversions

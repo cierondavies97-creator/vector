@@ -1,0 +1,6 @@
+An exception inheriting "NotImplementedError" that is raised when
+   an unsupported operation is called on a path object.
+   Added in version 3.13.
+Pure paths
+==========
+Pure path objects provide path-handling operations which don't

@@ -1,0 +1,4 @@
+the behaviour of both the interpreter's interactive prompt  and the
+prompts offered by the built-in "input()" function.
+Readline keybindings may be configured via an initialization file,
+typically ".inputrc" in your home directory.  See Readline Init File

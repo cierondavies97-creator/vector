@@ -1,0 +1,3 @@
+When using "ProcessPoolExecutor", this method chops *iterables*
+      into a number of chunks which it submits to the pool as separate
+      tasks.  The (approximate) size of these chunks can be specified

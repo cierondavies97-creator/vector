@@ -1,0 +1,4 @@
+help="read data from FILENAME")
+       parser.add_option("-v", "--verbose",
+                         action="store_true", dest="verbose")
+       parser.add_option("-q", "--quiet",

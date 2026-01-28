@@ -1,0 +1,4 @@
+Deprecated alias to "collections.ChainMap".
+   Added in version 3.6.1.
+   Deprecated since version 3.9: "collections.ChainMap" now supports
+   subscripting ("[]"). See **PEP 585** and Generic Alias Type.

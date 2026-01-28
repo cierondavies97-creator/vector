@@ -1,0 +1,4 @@
+>>> re.split(r'(\W+)', '...words, words...')
+      ['', '...', 'words', ', ', 'words', '...', '']
+   That way, separator components are always found at the same
+   relative indices within the result list.

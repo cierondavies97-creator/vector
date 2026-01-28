@@ -1,0 +1,5 @@
+print(p.map(f, [1, 2, 3]))
+will print to standard output
+   [1, 4, 9]
+The "multiprocessing" module also introduces APIs which do not have
+analogs in the "threading" module, like the ability to "terminate",

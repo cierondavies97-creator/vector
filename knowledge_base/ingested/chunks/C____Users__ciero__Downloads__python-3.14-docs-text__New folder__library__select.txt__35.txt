@@ -1,0 +1,5 @@
+with a "fileno()" method that returns an integer.
+   Attempting to remove a file descriptor that was never registered is
+   safely ignored.
+devpoll.poll([timeout])
+   Polls the set of registered file descriptors, and returns a

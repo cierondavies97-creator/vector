@@ -1,0 +1,5 @@
+"Message" objects
+=================
+class mailbox.Message(message=None)
+   A subclass of the "email.message" module's "Message". Subclasses of
+   "mailbox.Message" add mailbox-format-specific state and behavior.

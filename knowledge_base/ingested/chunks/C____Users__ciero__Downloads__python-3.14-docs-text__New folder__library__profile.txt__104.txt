@@ -1,0 +1,3 @@
+exiting the profiler event handler from the time that the clock's
+value was obtained (and then squirreled away), until the user's code
+is once again executing.  As a result, functions that are called many

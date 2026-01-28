@@ -1,0 +1,6 @@
+context in which the exception was raised:
+BaseException.__context__
+BaseException.__cause__
+BaseException.__suppress_context__
+   When raising a new exception while another exception is already
+   being handled, the new exception's "__context__" attribute is

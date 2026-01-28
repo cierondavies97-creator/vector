@@ -1,0 +1,6 @@
+length of diffs.
+      Added in version 3.2.
+   Testing frameworks can use the following methods to collect
+   information on the test:
+   countTestCases()
+      Return the number of tests represented by this test object.  For

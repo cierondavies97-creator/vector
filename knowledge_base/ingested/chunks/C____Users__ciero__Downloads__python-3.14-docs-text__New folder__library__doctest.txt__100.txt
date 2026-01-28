@@ -1,0 +1,5 @@
+reported; only the output is suppressed.
+doctest.FAIL_FAST
+   When specified, exit after the first failing example and don't
+   attempt to run the remaining examples. Thus, the number of failures
+   reported will be at most 1.  This flag may be useful during

@@ -1,0 +1,4 @@
+with "register_archive_format()" do not support the *root_dir*
+     argument.  In this case it temporarily changes the current
+     working directory of the process to *root_dir* to perform
+     archiving.

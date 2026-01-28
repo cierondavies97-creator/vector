@@ -1,0 +1,4 @@
+(either at runtime or by static type checkers).
+   See **PEP 688** for more details.
+   Deprecated since version 3.9, will be removed in version 3.17.
+class typing.Collection(Sized, Iterable[T_co], Container[T_co])

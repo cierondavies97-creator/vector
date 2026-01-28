@@ -1,0 +1,4 @@
+>>> parser.add_argument('--bar', nargs='*')
+     >>> parser.add_argument('baz', nargs='*')
+     >>> parser.parse_args('a b --foo x y --bar 1 2'.split())
+     Namespace(bar=['1', '2'], baz=['a', 'b'], foo=['x', 'y'])

@@ -1,0 +1,5 @@
+Stop the test run on the first error or failure.
+-k
+   Only run test methods and classes that match the pattern or
+   substring. This option may be used multiple times, in which case
+   all test cases that match any of the given patterns are included.

@@ -1,0 +1,4 @@
+names, constant values, branch targets, and compare operators.
+   The disassembly is written as text to the supplied *file* argument
+   if provided and to "sys.stdout" otherwise.
+   Changed in version 3.4: Added *file* parameter.

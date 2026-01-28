@@ -1,0 +1,13 @@
+* Mocking Magic Methods
+    * Magic Mock
+  * Helpers
+    * sentinel
+    * DEFAULT
+    * call
+    * create_autospec
+    * ANY
+    * FILTER_DIR
+    * mock_open
+    * Autospeccing
+    * Sealing mocks
+  * Order of precedence of "side_effect", "return_value" and *wraps*

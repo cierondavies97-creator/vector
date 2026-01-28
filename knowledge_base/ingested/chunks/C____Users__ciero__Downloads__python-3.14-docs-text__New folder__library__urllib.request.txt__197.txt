@@ -1,0 +1,5 @@
+"OpenerDirector" automatically adds a *User-Agent* header to every
+"Request".  To change this:
+   import urllib.request
+   opener = urllib.request.build_opener()
+   opener.addheaders = [('User-agent', 'Mozilla/5.0')]

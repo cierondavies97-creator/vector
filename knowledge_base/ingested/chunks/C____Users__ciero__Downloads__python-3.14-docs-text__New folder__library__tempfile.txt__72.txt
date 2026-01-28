@@ -1,0 +1,5 @@
+>>> with tempfile.NamedTemporaryFile(delete_on_close=False) as fp:
+   ...     fp.write(b'Hello world!')
+   ...     fp.close()
+   ... # the file is closed, but not removed
+   ... # open the file again by using its name

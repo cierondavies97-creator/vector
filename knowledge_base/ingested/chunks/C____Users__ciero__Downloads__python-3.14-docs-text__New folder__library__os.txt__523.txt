@@ -1,0 +1,8 @@
+os.MFD_HUGE_256MB
+os.MFD_HUGE_512MB
+os.MFD_HUGE_1GB
+os.MFD_HUGE_2GB
+os.MFD_HUGE_16GB
+   These flags can be passed to "memfd_create()".
+   Availability: Linux >= 3.17 with glibc >= 2.27
+   The "MFD_HUGE*" flags are only available since Linux 4.14.

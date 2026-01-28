@@ -1,0 +1,5 @@
+"traceback.print_stack()", but with the last newline removed) as
+      a string. This default implementation just returns the input
+      value.
+class logging.BufferingFormatter(linefmt=None)
+   A base formatter class suitable for subclassing when you want to

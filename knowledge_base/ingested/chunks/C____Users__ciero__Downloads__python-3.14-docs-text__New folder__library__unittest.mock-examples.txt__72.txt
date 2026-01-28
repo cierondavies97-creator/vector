@@ -1,0 +1,4 @@
+understand the "return_value" attribute. When a mock is called for the
+first time, or you fetch its "return_value" before it has been called,
+a new "Mock" is created.
+This means that you can see how the object returned from a call to a

@@ -1,0 +1,4 @@
+the system call instead of raising an "InterruptedError" exception
+   (see **PEP 475** for the rationale).
+socket.sendmsg(buffers[, ancdata[, flags[, address]]])
+   Send normal and ancillary data to the socket, gathering the non-

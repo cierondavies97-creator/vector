@@ -1,0 +1,4 @@
+first long option string (e.g., "--foo-bar" implies "foo_bar"). If
+  there are no long option strings, "optparse" derives a destination
+  from the first short option string (e.g., "-f" implies "f").
+  Example:

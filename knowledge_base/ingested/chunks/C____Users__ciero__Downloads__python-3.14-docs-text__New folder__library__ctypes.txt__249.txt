@@ -1,0 +1,6 @@
+>>> libc.time == libc.time
+   True
+   >>> libc['time'] == libc['time']
+   False
+The following public attributes are available, their name starts with
+an underscore to not clash with exported function names:

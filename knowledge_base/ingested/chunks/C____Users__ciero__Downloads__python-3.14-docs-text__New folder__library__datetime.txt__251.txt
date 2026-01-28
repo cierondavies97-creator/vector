@@ -1,0 +1,4 @@
+# If dt falls in the imaginary range, use fold to decide how
+               # to resolve. See PEP495.
+               return timedelta(hours=4, minutes=(30 if dt.fold else 0))
+           else:

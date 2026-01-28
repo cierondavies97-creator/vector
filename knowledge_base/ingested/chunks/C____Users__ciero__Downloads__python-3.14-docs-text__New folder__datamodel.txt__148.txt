@@ -1,0 +1,4 @@
+Changed in version 3.4: This attribute now defaults to "None" for
+   modules created dynamically using the "types.ModuleType"
+   constructor. Previously the attribute was optional.
+   Changed in version 3.6: The value of "__package__" is expected to

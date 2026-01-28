@@ -1,0 +1,5 @@
+"sys.stdout" if it is "None".
+"PrettyPrinter" instances have the following methods:
+PrettyPrinter.pformat(object)
+   Return the formatted representation of *object*.  This takes into
+   account the options passed to the "PrettyPrinter" constructor.

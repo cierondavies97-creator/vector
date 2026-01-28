@@ -1,0 +1,8 @@
+represent synchronous servers of four types:
+   +------------+
+   | BaseServer |
+   +------------+
+         |
+         v
+   +-----------+        +------------------+
+   | TCPServer |------->| UnixStreamServer |

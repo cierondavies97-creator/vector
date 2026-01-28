@@ -1,0 +1,5 @@
+...
+         >>> OtherStyle.ALTERNATE, str(OtherStyle.ALTERNATE), f"{OtherStyle.ALTERNATE}"
+         (OtherStyle.ALTERNATE, 'OtherStyle.ALTERNATE', 'OtherStyle.ALTERNATE')
+   __str__(self)
+      Returns the string used for *str()* calls.  By default, returns

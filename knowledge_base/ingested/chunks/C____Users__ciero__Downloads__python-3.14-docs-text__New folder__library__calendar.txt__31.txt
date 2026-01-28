@@ -1,0 +1,3 @@
+Return a *m*-column calendar for an entire year as a multi-line
+      string. Optional parameters *w*, *l*, and *c* are for date
+      column width, lines per week, and number of spaces between month

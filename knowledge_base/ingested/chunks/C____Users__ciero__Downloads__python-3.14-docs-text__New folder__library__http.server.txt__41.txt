@@ -1,0 +1,4 @@
+Changed in version 3.4: The error response includes a Content-
+      Length header. Added the *explain* argument.
+   send_response(code, message=None)
+      Adds a response header to the headers buffer and logs the

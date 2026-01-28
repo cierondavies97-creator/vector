@@ -1,0 +1,6 @@
+"rl_completion_type" variable in the underlying library as an
+   integer.
+readline.get_begidx()
+readline.get_endidx()
+   Get the beginning or ending index of the completion scope. These
+   indexes are the *start* and *end* arguments passed to the

@@ -1,0 +1,5 @@
+ensure that all shared memory blocks are released after they are no
+longer needed:
+   >>> with SharedMemoryManager() as smm:
+   ...     sl = smm.ShareableList(range(2000))
+   ...     # Divide the work among two processes, storing partial results in sl

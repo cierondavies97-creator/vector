@@ -1,0 +1,3 @@
+Imports the module "co_names[namei]".  "STACK[-1]" and "STACK[-2]"
+   are popped and provide the *fromlist* and *level* arguments of
+   "__import__()". The module object is pushed onto the stack.  The

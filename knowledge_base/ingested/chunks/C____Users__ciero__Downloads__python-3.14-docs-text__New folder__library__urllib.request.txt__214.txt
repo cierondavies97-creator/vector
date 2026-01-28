@@ -1,0 +1,4 @@
+the "urllib.parse.urlencode()" function.
+   "urlretrieve()" will raise "ContentTooShortError" when it detects
+   that the amount of data available  was less than the expected
+   amount (which is the size reported by a  *Content-Length* header).

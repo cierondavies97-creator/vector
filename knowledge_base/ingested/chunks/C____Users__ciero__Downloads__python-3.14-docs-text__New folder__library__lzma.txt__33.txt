@@ -1,0 +1,3 @@
+presets also requires much more memory (and produces output that
+     needs more memory to decompress). With preset "9" for example,
+     the overhead for an "LZMACompressor" object can be as high as 800

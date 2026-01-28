@@ -1,0 +1,6 @@
+return inner
+      @with_lock
+      def sum_threadsafe(lock: Lock, numbers: list[float]) -> float:
+          '''Add a list of numbers together in a thread-safe manner.'''
+          with lock:
+              return sum(numbers)

@@ -1,0 +1,5 @@
+color/pencolor/fillcolor/bgcolor call.
+   "pencolor(colorstring)"
+      Set pencolor to *colorstring*, which is a Tk color specification
+      string, such as ""red"", ""yellow"", or ""#33cc8c"".
+   "pencolor((r, g, b))"

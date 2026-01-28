@@ -1,0 +1,4 @@
+is used to define the environment variables for the new process
+   (these are used instead of the current process' environment); the
+   functions "execl()", "execlp()", "execv()", and "execvp()" all
+   cause the new process to inherit the environment of the current

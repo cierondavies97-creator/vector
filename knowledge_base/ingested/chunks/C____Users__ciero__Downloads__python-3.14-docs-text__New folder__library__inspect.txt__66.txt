@@ -1,0 +1,3 @@
+|                   |                     | each bytecode instruction   |
++-------------------+---------------------+-----------------------------+
+|                   | replace()           | returns a copy of the code  |

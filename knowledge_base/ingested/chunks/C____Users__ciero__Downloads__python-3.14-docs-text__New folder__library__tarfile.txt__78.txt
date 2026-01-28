@@ -1,0 +1,4 @@
+If *stream* is set to "True" then while reading the archive info
+   about files in the archive are not cached, saving memory.
+   Changed in version 3.2: Use "'surrogateescape'" as the default for
+   the *errors* argument.

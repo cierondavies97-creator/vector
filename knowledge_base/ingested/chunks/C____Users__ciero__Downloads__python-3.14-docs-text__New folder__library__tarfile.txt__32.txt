@@ -1,0 +1,4 @@
+For special purposes, there is a second format for *mode*:
+   "'filemode|[compression]'".  "tarfile.open()" will return a
+   "TarFile" object that processes its data as a stream of blocks.  No
+   random seeking will be done on the file. If given, *fileobj* may be

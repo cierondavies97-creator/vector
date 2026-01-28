@@ -1,0 +1,4 @@
+collection class with straight-forward search methods and support
+    for a key-function.  The keys are precomputed to save unnecessary
+    calls to the key function during searches.
+Searching Sorted Lists

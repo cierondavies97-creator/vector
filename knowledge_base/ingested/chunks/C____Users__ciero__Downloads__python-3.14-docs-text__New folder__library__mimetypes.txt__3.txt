@@ -1,0 +1,4 @@
+"init()" if they rely on the information "init()" sets up.
+mimetypes.guess_type(url, strict=True)
+   Guess the type of a file based on its filename, path or URL, given
+   by *url*. URL can be a string or a *path-like object*.

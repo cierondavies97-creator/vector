@@ -1,0 +1,6 @@
+**CPython implementation detail:** The token string contains the
+   closing quote(s).
+   Added in version 3.14.
+token.ENDMARKER
+   Token value that indicates the end of input. Used in top-level
+   grammar rules.

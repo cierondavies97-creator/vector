@@ -1,0 +1,4 @@
+heavily used as the other database modules.
+======================================================================
+The "dbm.dumb" module provides a persistent "dict"-like interface
+which is written entirely in Python. Unlike other "dbm" backends, such

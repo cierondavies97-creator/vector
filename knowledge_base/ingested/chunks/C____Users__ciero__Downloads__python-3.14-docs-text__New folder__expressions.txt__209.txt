@@ -1,0 +1,4 @@
+operator is also overloaded by string objects to perform old-style
+string formatting (also known as interpolation).  The syntax for
+string formatting is described in the Python Library Reference,
+section printf-style String Formatting.

@@ -1,0 +1,5 @@
+"Message" subclass unless a custom message factory was specified
+      when the "Mailbox" instance was initialized.
+   items()
+      The same as "iteritems()", except that a "list" of pairs is
+      returned rather than an *iterator* of pairs.

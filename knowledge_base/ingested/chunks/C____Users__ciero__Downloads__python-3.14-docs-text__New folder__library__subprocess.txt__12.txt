@@ -1,0 +1,4 @@
+When used, the internal "Popen" object is automatically created
+   with *stdin* set to "PIPE", and the *stdin* argument may not be
+   used as well.
+   If *check* is true, and the process exits with a non-zero exit

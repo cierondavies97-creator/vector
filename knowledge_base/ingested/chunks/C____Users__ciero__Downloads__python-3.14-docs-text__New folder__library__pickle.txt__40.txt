@@ -1,0 +1,4 @@
+Read the pickled representation of an object from the open *file
+   object* *file* and return the reconstituted object hierarchy
+   specified therein. This is equivalent to "Unpickler(file).load()".
+   The protocol version of the pickle is detected automatically, so no

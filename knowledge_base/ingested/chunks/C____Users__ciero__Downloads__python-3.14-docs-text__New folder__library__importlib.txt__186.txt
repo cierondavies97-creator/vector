@@ -1,0 +1,4 @@
+file system traversal. However, the spec origin will reference the
+   location of the *actual* binary in the ".framework" folder.
+   The Xcode project building the app is responsible for converting
+   any ".so" files from wherever they exist in the "PYTHONPATH" into

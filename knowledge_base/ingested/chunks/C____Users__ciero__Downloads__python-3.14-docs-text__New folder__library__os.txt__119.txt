@@ -1,0 +1,4 @@
+NFS).
+   The function copies bytes between two file descriptors. Text
+   options, like the encoding and the line ending, are ignored.
+   The return value is the amount of bytes copied. This could be less

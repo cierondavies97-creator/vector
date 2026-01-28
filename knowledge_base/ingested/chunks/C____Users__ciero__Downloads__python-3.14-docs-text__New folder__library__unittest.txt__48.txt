@@ -1,0 +1,4 @@
+directory and its subdirectories containing tests must be regular
+package that have "__init__.py" file.If the start directory is the
+dotted name of the package, the ancestor packages can be namespace
+packages.

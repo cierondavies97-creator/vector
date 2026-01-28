@@ -1,0 +1,4 @@
+exception (see **PEP 475** for the rationale).
+os.writev(fd, buffers, /)
+   Write the contents of *buffers* to file descriptor *fd*. *buffers*
+   must be a sequence of *bytes-like objects*. Buffers are processed

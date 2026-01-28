@@ -1,0 +1,5 @@
+_a85chars2 = [(a + b) for a in _a85chars for b in _a85chars]
+   #3: collections/__init__.py:368: 293.6 KiB
+       exec(class_definition, namespace)
+   #4: Lib/abc.py:133: 115.2 KiB
+       cls = super().__new__(mcls, name, bases, namespace)

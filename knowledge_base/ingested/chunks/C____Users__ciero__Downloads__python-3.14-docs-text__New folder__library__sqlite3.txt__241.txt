@@ -1,0 +1,5 @@
+PrepareProtocol objects
+-----------------------
+class sqlite3.PrepareProtocol
+   The PrepareProtocol type's single purpose is to act as a **PEP
+   246** style adaption protocol for objects that can adapt themselves

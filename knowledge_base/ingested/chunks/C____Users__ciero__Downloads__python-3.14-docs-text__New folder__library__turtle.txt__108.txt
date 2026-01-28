@@ -1,0 +1,5 @@
+>>> turtle.pen(penstate, fillcolor="green")
+      >>> sorted(turtle.pen().items())[:3]
+      [('fillcolor', 'green'), ('outline', 1), ('pencolor', 'red')]
+turtle.isdown()
+   Return "True" if pen is down, "False" if it's up.

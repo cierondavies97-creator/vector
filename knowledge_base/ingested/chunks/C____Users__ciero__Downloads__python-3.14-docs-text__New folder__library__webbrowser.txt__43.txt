@@ -1,0 +1,5 @@
+three methods which parallel module-level convenience functions:
+controller.name
+   System-dependent name for the browser.
+controller.open(url, new=0, autoraise=True)
+   Display *url* using the browser handled by this controller. If

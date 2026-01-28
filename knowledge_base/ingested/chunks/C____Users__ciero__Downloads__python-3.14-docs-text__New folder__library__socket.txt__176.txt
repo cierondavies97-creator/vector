@@ -1,0 +1,5 @@
+"port", "protocolname".
+   Availability: not WASI.
+socket.ntohl(x)
+   Convert 32-bit positive integers from network to host byte order.
+   On machines where the host byte order is the same as network byte

@@ -1,0 +1,4 @@
+bytestrings of data, while "Z_FINISH" finishes the compressed
+   stream and prevents compressing any more data.  After calling
+   "flush()" with *mode* set to "Z_FINISH", the "compress()" method
+   cannot be called again; the only realistic action is to delete the

@@ -1,0 +1,5 @@
+# could use annotationlib.ForwardRef.evaluate
+               if value.startswith("ClassVar")
+            }
+            classvars = {key: annotations[key] for key in classvar_keys}
+            ns["__annotations__"] = {

@@ -1,0 +1,3 @@
+The "Font" class represents a named font. *Font* instances are
+   given unique names and can be specified by their family, size, and
+   style configuration. Named fonts are Tk's method of creating and

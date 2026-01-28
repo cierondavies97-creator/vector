@@ -1,0 +1,4 @@
+Audio "WAVE" (or "WAV") file format. Only uncompressed PCM encoded
+wave files are supported.
+Changed in version 3.12: Support for "WAVE_FORMAT_EXTENSIBLE" headers
+was added, provided that the extended format is

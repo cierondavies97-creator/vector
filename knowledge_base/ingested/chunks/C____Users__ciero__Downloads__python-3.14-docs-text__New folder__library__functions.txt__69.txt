@@ -1,0 +1,5 @@
+its real component is used in the above expressions.
+   See also "complex.from_number()" which only accepts a single
+   numeric argument.
+   If all arguments are omitted, returns "0j".
+   The complex type is described in Numeric Types --- int, float,

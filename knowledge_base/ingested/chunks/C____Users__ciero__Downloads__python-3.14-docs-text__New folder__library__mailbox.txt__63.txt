@@ -1,0 +1,6 @@
+reflected here until the mailbox's "__setitem__()" method is
+      called.
+      Added in version 3.13.
+   set_flags(key, flags)
+      On the message corresponding to *key*, set the flags specified
+      by *flags* and unset all others. Calling

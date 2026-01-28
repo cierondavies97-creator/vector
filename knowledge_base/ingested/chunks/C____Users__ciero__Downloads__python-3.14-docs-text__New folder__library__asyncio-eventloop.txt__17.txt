@@ -1,0 +1,3 @@
+If "stop()" is called before "run_forever()" is called, the loop
+   will poll the I/O selector once with a timeout of zero, run all
+   callbacks scheduled in response to I/O events (and those that were

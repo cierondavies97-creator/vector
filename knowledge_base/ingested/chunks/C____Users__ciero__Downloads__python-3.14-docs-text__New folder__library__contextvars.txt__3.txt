@@ -1,0 +1,6 @@
+Added in version 3.7.
+Context Variables
+=================
+class contextvars.ContextVar(name[, *, default])
+   This class is used to declare a new Context Variable, e.g.:
+      var: ContextVar[int] = ContextVar('var', default=42)

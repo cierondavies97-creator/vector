@@ -1,0 +1,4 @@
+The following people have helped with development or contributed their
+changes to the project and the public domain according to the Creative
+Commons Public Domain Dedication 1.0 Universal:
+* *Alexandr Sokolovskiy*

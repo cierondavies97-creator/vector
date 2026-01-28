@@ -1,0 +1,4 @@
+namespace package
+   A *package* which serves only as a container for subpackages.
+   Namespace packages may have no physical representation, and
+   specifically are not like a *regular package* because they have no

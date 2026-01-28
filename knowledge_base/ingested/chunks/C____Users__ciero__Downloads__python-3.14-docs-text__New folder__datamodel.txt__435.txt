@@ -1,0 +1,4 @@
+is returned unchanged.
+For instance bindings, the precedence of descriptor invocation depends
+on which descriptor methods are defined.  A descriptor can define any
+combination of "__get__()", "__set__()" and "__delete__()".  If it

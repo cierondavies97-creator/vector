@@ -1,0 +1,5 @@
+Constants
+=========
+The constants in this section are only relevant for the C module. They
+are also included in the pure Python version for compatibility.
++-----------------------------------+-----------------------+---------------------------------+

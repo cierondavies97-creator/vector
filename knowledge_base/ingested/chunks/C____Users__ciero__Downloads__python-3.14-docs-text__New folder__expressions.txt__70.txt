@@ -1,0 +1,3 @@
+generator function.  The execution starts when one of the generator's
+methods is called. At that time, the execution proceeds to the first
+yield expression, where it is suspended again, returning the value of

@@ -1,0 +1,4 @@
+interpreter (in particular, module initialization functions) have to
+be declared using "extern "C"". It is unnecessary to enclose the
+Python header files in "extern "C" {...}" --- they use this form
+already if the symbol "__cplusplus" is defined (all recent C++

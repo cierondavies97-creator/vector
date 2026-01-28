@@ -1,0 +1,4 @@
+Identical to "load()", but instead of a file-like object,
+   deserialize *s* (a "str", "bytes" or "bytearray" instance
+   containing a JSON document) to a Python object using this
+   conversion table.

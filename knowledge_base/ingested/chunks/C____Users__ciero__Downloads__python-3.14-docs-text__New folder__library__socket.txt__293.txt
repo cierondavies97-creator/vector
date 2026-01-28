@@ -1,0 +1,4 @@
+the operating system may set a limit ("sysconf()" value
+   "SC_IOV_MAX") on the number of buffers that can be used.  The
+   *ancdata* argument specifies the ancillary data (control messages)
+   as an iterable of zero or more tuples "(cmsg_level, cmsg_type,

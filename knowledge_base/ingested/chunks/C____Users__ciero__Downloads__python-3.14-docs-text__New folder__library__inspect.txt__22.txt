@@ -1,0 +1,3 @@
++-------------------+---------------------+-----------------------------+
+|                   | __globals__         | global namespace in which   |
+|                   |                     | this function was defined   |

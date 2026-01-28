@@ -1,0 +1,3 @@
+526**. This is equivalent to adding "ast.PyCF_TYPE_COMMENTS" to the
+   flags passed to "compile()".  This will report syntax errors for
+   misplaced type comments.  Without this flag, type comments will be

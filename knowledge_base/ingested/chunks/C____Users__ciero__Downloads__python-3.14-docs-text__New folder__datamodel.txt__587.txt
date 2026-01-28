@@ -1,0 +1,6 @@
+exception; this is the caller's responsibility.
+See also:
+  **PEP 343** - The "with" statement
+     The specification, background, and examples for the Python "with"
+     statement.
+3.3.10. Customizing positional arguments in class pattern matching

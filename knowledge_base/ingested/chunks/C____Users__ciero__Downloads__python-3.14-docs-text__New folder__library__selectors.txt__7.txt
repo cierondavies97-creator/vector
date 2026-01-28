@@ -1,0 +1,4 @@
+events should be waited for on a given file object. It can be a
+combination of the modules constants below:
+   +-------------------------+-------------------------------------------------+
+   | Constant                | Meaning                                         |

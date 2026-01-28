@@ -1,0 +1,6 @@
+only EST (fixed offset -5 hours), or only EDT (fixed offset -4
+hours)).
+See also:
+     "zoneinfo"
+        The "datetime" module has a basic "timezone" class (for
+        handling arbitrary fixed offsets from UTC) and its

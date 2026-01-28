@@ -1,0 +1,4 @@
+attribute of the instance object.  Each of the tables is optional; if
+all three are "NULL", instances of the type will only have attributes
+that are inherited from their base type, and should leave the
+"tp_getattro" and "tp_setattro" fields "NULL" as well, allowing the

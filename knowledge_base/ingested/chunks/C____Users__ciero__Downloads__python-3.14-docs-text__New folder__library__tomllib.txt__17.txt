@@ -1,0 +1,2 @@
++--------------------+----------------------------------------------------------------------------------------+
+| offset date-time   | datetime.datetime ("tzinfo" attribute set to an instance of "datetime.timezone")       |

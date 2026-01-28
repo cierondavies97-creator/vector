@@ -1,0 +1,4 @@
+"ClassName(iterable)". That assumption is factored-out to an
+   internal "classmethod" called "_from_iterable()" which calls
+   "cls(iterable)" to produce a new set. If the "Set" mixin is being
+   used in a class with a different constructor signature, you will

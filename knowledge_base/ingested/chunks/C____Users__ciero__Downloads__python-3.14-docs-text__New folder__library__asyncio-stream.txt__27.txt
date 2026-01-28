@@ -1,0 +1,5 @@
+be read.  Use the "IncompleteReadError.partial" attribute to get
+      the partially read data.
+   async readuntil(separator=b'\n')
+      Read data from the stream until *separator* is found.
+      On success, the data and separator will be removed from the

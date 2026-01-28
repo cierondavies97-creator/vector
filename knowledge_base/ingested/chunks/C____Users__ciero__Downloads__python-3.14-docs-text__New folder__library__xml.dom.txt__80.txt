@@ -1,0 +1,4 @@
+provided by the parser, or if no entities are defined.
+DocumentType.notations
+   This is a "NamedNodeMap" giving the definitions of notations. For
+   notation names defined more than once, only the first definition is

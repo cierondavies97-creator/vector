@@ -1,0 +1,4 @@
+other extension modules must be exported in a different way.
+Python provides a special mechanism to pass C-level information
+(pointers) from one extension module to another one: Capsules. A
+Capsule is a Python data type which stores a pointer (void*).

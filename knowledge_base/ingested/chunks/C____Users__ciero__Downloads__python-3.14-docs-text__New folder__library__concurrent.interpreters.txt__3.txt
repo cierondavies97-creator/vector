@@ -1,0 +1,6 @@
+provide much more than isolation, which on its own isn't useful.
+Actual concurrency is available separately through "threads"  See
+below
+See also:
+  "InterpreterPoolExecutor"
+     Combines threads with interpreters in a familiar interface.

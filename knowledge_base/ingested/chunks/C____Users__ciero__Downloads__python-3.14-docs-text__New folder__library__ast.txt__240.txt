@@ -1,0 +1,6 @@
+cases=[
+                      match_case(
+                          pattern=MatchSequence(
+                              patterns=[
+                                  MatchValue(
+                                      value=Constant(value=1)),

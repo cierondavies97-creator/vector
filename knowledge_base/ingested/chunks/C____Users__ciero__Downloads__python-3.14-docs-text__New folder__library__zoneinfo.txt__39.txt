@@ -1,0 +1,6 @@
+these keys.
+String representations
+----------------------
+The string representation returned when calling "str" on a "ZoneInfo"
+object defaults to using the "ZoneInfo.key" attribute (see the note on
+usage in the attribute documentation):

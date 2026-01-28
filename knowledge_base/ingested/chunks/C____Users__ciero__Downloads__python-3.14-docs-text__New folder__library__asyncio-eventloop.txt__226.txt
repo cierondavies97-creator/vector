@@ -1,0 +1,7 @@
+"loop.call_soon_threadsafe()".
+   get_context()
+      Return the "contextvars.Context" object associated with the
+      handle.
+      Added in version 3.12.
+   cancel()
+      Cancel the callback.  If the callback has already been canceled

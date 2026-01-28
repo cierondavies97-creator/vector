@@ -1,0 +1,4 @@
+in dealing with HTML "as deployed" or for re-generating input with
+   minimal changes (whitespace between attributes can be preserved,
+   etc.).
+The following methods are called when data or markup elements are

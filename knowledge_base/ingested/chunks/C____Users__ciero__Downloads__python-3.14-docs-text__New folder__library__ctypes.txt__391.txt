@@ -1,0 +1,5 @@
+single character unicode string.  The constructor accepts an
+   optional string initializer, the length of the string must be
+   exactly one character.
+class ctypes.c_wchar_p
+   Represents the C wchar_t* datatype, which must be a pointer to a

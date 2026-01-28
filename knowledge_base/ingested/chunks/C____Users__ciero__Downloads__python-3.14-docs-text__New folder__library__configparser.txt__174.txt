@@ -1,0 +1,4 @@
+order.  If the key is not found and *fallback* is provided, it
+      is used as a fallback value.  "None" can be provided as a
+      *fallback* value.
+      All the "'%'" interpolations are expanded in the return values,

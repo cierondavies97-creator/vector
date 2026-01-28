@@ -1,0 +1,5 @@
+"zipimport.zipimporter".
+   Changed in version 3.3: Updated to be based directly on "importlib"
+   rather than relying on the package internal **PEP 302** import
+   emulation.
+pkgutil.get_data(package, resource)

@@ -1,0 +1,5 @@
+'mysql'
+     >>> # Settings without values provide None:
+     >>> config["mysqld"]["skip-bdb"]
+     >>> # Settings which aren't specified still raise an error:
+     >>> config["mysqld"]["does-not-exist"]

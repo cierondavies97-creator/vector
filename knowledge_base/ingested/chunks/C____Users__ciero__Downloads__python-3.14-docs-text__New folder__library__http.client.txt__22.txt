@@ -1,0 +1,6 @@
+either non-numeric or empty.
+exception http.client.UnknownProtocol
+   A subclass of "HTTPException".
+exception http.client.UnknownTransferEncoding
+   A subclass of "HTTPException".
+exception http.client.UnimplementedFileMode

@@ -1,0 +1,4 @@
+Implementations may return cached results from their methods.
+   exists(*, follow_symlinks=True)
+      Return "True" if the path is an existing file or directory, or
+      any other kind of file; return "False" if the path doesn't

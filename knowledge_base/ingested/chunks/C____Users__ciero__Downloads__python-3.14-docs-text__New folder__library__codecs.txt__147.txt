@@ -1,0 +1,4 @@
+bytes is known as *encoding*, and recreating the string from the
+sequence of bytes is known as *decoding*. There are a variety of
+different text serialisation codecs, which are collectivity referred
+to as *text encodings*.

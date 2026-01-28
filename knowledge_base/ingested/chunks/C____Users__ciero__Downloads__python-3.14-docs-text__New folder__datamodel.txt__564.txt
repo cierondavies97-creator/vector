@@ -1,0 +1,4 @@
+evaluate the expression "x - y", where *y* is an instance of a
+   class that has an "__rsub__()" method, "type(y).__rsub__(y, x)" is
+   called if "type(x).__sub__(x, y)" returns "NotImplemented" or
+   "type(y)" is a subclass of "type(x)". [5]

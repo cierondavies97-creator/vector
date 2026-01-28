@@ -1,0 +1,4 @@
+classes, or use other classes with a "filter" method: you can use a
+function (or other callable) as a filter. The filtering logic will
+check to see if the filter object has a "filter" attribute: if it
+does, it's assumed to be a "Filter" and its "filter()" method is

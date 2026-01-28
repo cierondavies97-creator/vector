@@ -1,0 +1,7 @@
+>>> topsecret.getboolean('ForwardX11')
+   False
+   >>> config['forge.example'].getboolean('ForwardX11')
+   True
+   >>> config.getboolean('forge.example', 'Compression')
+   True
+Apart from "getboolean()", config parsers also provide equivalent

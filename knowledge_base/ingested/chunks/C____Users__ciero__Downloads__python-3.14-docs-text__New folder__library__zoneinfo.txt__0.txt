@@ -1,0 +1,6 @@
+"zoneinfo" --- IANA time zone support
+*************************************
+Added in version 3.9.
+**Source code:** Lib/zoneinfo
+======================================================================
+The "zoneinfo" module provides a concrete time zone implementation to

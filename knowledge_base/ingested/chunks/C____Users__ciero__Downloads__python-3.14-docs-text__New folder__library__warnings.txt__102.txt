@@ -1,0 +1,5 @@
+the category and line number match.
+warnings.resetwarnings()
+   Reset the warnings filter.  This discards the effect of all
+   previous calls to "filterwarnings()", including that of the "-W"
+   command line options and calls to "simplefilter()".

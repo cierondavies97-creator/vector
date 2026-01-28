@@ -1,0 +1,5 @@
+* How to handle non-UTF-8 text encodings
+  * Explanation
+    * Transaction control
+      * Transaction control via the "autocommit" attribute
+      * Transaction control via the "isolation_level" attribute

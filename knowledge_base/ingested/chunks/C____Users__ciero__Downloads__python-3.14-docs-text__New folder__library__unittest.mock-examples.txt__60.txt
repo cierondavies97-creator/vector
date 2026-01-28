@@ -1,0 +1,4 @@
+>>> class MyTest(unittest.TestCase):
+...     @patch.object(SomeClass, 'attribute', sentinel.attribute)
+...     def test_something(self):
+...         self.assertEqual(SomeClass.attribute, sentinel.attribute)

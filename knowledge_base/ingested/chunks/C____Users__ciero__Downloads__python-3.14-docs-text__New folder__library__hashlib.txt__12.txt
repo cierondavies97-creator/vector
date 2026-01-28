@@ -1,0 +1,6 @@
+algorithms that the linked OpenSSL does not provide we fall back to a
+verified implementation from the HACL* project.
+Usage
+=====
+To obtain the digest of the byte string "b"Nobody inspects the
+spammish repetition"":

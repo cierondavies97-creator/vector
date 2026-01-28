@@ -1,0 +1,4 @@
+entry is a file (without following symlinks); return "False" if
+      the entry is a directory or other non-file entry, or if it
+      doesn't exist anymore.
+      The result is cached on the "os.DirEntry" object. Caching,

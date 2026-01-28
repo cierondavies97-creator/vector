@@ -1,0 +1,9 @@
+Glossary
+********
+">>>"
+   The default Python prompt of the *interactive* shell.  Often seen
+   for code examples which can be executed interactively in the
+   interpreter.
+"..."
+   Can refer to:
+   * The default Python prompt of the *interactive* shell when

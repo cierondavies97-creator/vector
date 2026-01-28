@@ -1,0 +1,7 @@
+like
+   import emb
+   print("Number of arguments", emb.numargs())
+In a real application, the methods will expose an API of the
+application to Python.
+1.5. Embedding Python in C++
+============================

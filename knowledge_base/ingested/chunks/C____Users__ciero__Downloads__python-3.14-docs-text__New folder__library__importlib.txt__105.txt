@@ -1,0 +1,4 @@
+"FileNotFoundError" is raised if *name* does not exist.
+   abstractmethod contents()
+         Returns an *iterable* of strings over the contents of the
+         package. Do note that it is not required that all names

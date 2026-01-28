@@ -1,0 +1,4 @@
+details
+      The 5-tuple "(descr, source, helpfile, helpcontext, progid)".
+      *descr* is the textual description.  *source* is the language-
+      dependent "ProgID" for the class or application that raised the

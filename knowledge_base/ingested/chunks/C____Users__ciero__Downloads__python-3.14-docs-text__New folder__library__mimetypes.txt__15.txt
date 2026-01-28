@@ -1,0 +1,4 @@
+be mapped to the MIME type *type* by "guess_type()" and
+   "guess_file_type()". If no extension can be guessed for *type*,
+   "None" is returned.
+   The optional *strict* argument has the same meaning as with the

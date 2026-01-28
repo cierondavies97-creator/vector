@@ -1,0 +1,4 @@
+control its appearance in usage, help, and error messages.
+Note that *choices* are checked after any type conversions have been
+performed, so objects in *choices* should match the type specified.
+This can make *choices* appear unfamiliar in usage, help, or error

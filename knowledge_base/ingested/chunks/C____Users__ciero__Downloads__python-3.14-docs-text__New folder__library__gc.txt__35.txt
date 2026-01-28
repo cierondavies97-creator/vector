@@ -1,0 +1,3 @@
+copy-on-write in child processes will maximize memory sharing and
+   reduce overall memory usage. This requires both avoiding creation
+   of freed "holes" in memory pages in the parent process and ensuring

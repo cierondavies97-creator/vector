@@ -1,0 +1,5 @@
+file permission bits of newly created intermediate-level
+   directories.
+os.mkfifo(path, mode=0o666, *, dir_fd=None)
+   Create a FIFO (a named pipe) named *path* with numeric mode *mode*.
+   The current umask value is first masked out from the mode.

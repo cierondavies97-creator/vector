@@ -1,0 +1,9 @@
+#
+   myapp.master.title("My Do-Nothing Application")
+   myapp.master.maxsize(1000, 400)
+   # start the program
+   myapp.mainloop()
+Tk Option Data Types
+--------------------
+anchor
+   Legal values are points of the compass: ""n"", ""ne"", ""e"",

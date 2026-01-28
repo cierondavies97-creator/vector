@@ -1,0 +1,4 @@
+if not os.path.isfile(path):
+               continue
+           # Guess the content type based on the file's extension.  Encoding
+           # will be ignored, although we should check for simple things like

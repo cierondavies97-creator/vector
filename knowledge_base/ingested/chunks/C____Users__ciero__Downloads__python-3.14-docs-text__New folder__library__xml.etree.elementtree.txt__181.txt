@@ -1,0 +1,5 @@
+Added in version 3.2.
+   parse(source, parser=None)
+      Loads an external XML section into this element tree.  *source*
+      is a file name or *file object*.  *parser* is an optional parser
+      instance. If not given, the standard "XMLParser" parser is used.

@@ -1,0 +1,4 @@
+assert would silently pass when they should raise an error. You can
+still achieve this behavior by passing "unsafe=True" to Mock.
+Note that this is another reason why you need integration tests as
+well as unit tests. Testing everything in isolation is all fine and

@@ -1,0 +1,4 @@
+>>>                             # make the turtle move to the clicked point.
+      >>> screen.onclick(None)        # remove event binding again
+   Note:
+     This TurtleScreen method is available as a global function only

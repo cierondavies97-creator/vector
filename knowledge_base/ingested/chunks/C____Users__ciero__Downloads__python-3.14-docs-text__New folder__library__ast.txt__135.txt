@@ -1,0 +1,5 @@
+generators=[
+                  comprehension(
+                      target=Name(id='x', ctx=Store()),
+                      iter=Name(id='numbers', ctx=Load()),
+                      is_async=0)]))

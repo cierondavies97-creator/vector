@@ -1,0 +1,4 @@
+>>> "{1} expects the {0} Inquisition!".format("Spanish", "Nobody")
+      'Nobody expects the Spanish Inquisition!'
+   See Format String Syntax for a description of the various
+   formatting options that can be specified in format strings.

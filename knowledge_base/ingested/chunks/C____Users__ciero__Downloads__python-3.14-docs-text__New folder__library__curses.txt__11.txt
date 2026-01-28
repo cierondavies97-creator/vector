@@ -1,0 +1,5 @@
+* Change the definition of the color-pair "0" to "(fg, bg)".
+   Added in version 3.14.
+curses.baudrate()
+   Return the output speed of the terminal in bits per second.  On
+   software terminal emulators it will have a fixed high value.

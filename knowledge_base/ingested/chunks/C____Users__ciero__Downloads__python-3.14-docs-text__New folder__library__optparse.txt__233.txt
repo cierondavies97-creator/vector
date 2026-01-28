@@ -1,0 +1,5 @@
+strings, all of those option strings become invalid. If *opt_str*
+   does not occur in any option belonging to this "OptionParser",
+   raises "ValueError".
+Conflicts between options
+-------------------------

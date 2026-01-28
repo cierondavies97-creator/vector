@@ -1,0 +1,7 @@
+Added in version 3.6.
+cmath.infj
+   Complex number with zero real part and positive infinity imaginary
+   part. Equivalent to "complex(0.0, float('inf'))".
+   Added in version 3.6.
+cmath.nan
+   A floating-point "not a number" (NaN) value.  Equivalent to

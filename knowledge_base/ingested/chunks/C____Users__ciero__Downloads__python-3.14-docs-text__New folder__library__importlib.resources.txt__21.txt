@@ -1,0 +1,4 @@
+Open the named resource for binary reading.
+   See the introduction for details on *anchor* and *path_names*.
+   This function returns a "BinaryIO" object, that is, a binary stream
+   open for reading.

@@ -1,0 +1,4 @@
+function call will result in a "TypeError" being raised, while
+attempting to pass in non-ASCII byte values will trigger
+"UnicodeDecodeError".
+To support easier conversion of result objects between "str" and

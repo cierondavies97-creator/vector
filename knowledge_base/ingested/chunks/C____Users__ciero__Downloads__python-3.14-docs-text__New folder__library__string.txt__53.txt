@@ -1,0 +1,5 @@
+options:                 [[fill]align][sign]["z"]["#"]["0"]
+   fill:                    <any character>
+   align:                   "<" | ">" | "=" | "^"
+   sign:                    "+" | "-" | " "
+   width_and_precision:     [width_with_grouping][precision_with_grouping]

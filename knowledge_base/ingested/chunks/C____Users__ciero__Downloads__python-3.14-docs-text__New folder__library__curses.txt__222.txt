@@ -1,0 +1,3 @@
+| curses.KEY_EIC            | Exit insert char mode                        |
++---------------------------+----------------------------------------------+
+| curses.KEY_CLEAR          | Clear screen                                 |

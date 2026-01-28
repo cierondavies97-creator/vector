@@ -1,0 +1,5 @@
+"run_coroutine_threadsafe()" function should be used. It returns a
+"concurrent.futures.Future" to access the result:
+   async def coro_func():
+        return await asyncio.sleep(1, 42)
+   # Later in another OS thread:

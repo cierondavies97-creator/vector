@@ -1,0 +1,5 @@
+if typing.get_origin(value) is typing.ClassVar
+            }
+            classvars = {key: annotations[key] for key in classvar_keys}
+            def wrapped_annotate(format):
+               annos = annotationlib.call_annotate_function(annotate, format, owner=typ)

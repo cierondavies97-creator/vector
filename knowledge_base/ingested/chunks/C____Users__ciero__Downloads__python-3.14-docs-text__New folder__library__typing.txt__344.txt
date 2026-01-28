@@ -1,0 +1,6 @@
+Changed in version 3.10: "NewType" is now a class rather than a
+   function.
+class typing.Protocol(Generic)
+   Base class for protocol classes.
+   Protocol classes are defined like this:
+      class Proto(Protocol):

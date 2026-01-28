@@ -1,0 +1,6 @@
+application level code.
+Future objects, sometimes exposed by libraries and some asyncio APIs,
+can be awaited:
+   async def main():
+       await function_that_returns_a_future_object()
+       # this is also valid:

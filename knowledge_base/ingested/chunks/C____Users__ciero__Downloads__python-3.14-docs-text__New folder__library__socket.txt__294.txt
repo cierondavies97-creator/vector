@@ -1,0 +1,4 @@
+cmsg_data)", where *cmsg_level* and *cmsg_type* are integers
+   specifying the protocol level and protocol-specific type
+   respectively, and *cmsg_data* is a bytes-like object holding the
+   associated data.  Note that some systems (in particular, systems

@@ -1,0 +1,3 @@
+object. When "None" is returned, the pickler simply pickles the object
+as normal. When a persistent ID string is returned, the pickler will
+pickle that object, along with a marker so that the unpickler will

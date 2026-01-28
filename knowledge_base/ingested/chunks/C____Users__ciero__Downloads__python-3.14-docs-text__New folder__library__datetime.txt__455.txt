@@ -1,0 +1,4 @@
+"strptime()" only accepts certain values for "%Z":
+      1. any value in "time.tzname" for your machine's locale
+      2. the hard-coded values "UTC" and "GMT"
+      So someone living in Japan may have "JST", "UTC", and "GMT" as

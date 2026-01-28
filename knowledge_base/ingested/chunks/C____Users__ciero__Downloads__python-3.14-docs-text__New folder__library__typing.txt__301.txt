@@ -1,0 +1,4 @@
+"*args" and "**kwargs" have to be typed "Any".
+   2. "cast()" may be required in the body of the "add_logging"
+      decorator when returning the "inner" function, or the static
+      type checker must be told to ignore the "return inner".

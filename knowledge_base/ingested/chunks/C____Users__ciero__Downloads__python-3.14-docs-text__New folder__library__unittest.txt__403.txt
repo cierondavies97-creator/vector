@@ -1,0 +1,3 @@
+and the test run will then end and report all the results so far. A
+second control-c will raise a "KeyboardInterrupt" in the usual way.
+The control-c handling signal handler attempts to remain compatible

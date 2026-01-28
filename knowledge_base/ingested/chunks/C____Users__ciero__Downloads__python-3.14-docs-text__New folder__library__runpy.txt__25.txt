@@ -1,0 +1,4 @@
+"__package__" will all be set to "None".
+   If *file_path* is a reference to a valid "sys.path" entry, then
+   "__spec__" will be set appropriately for the imported "__main__"
+   module (that is, "__spec__.name" will always be "__main__").

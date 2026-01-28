@@ -1,0 +1,5 @@
+Fetching a "PropertyMock" instance from an object calls the mock,
+   with no args. Setting it calls the mock with the value being set.
+      >>> class Foo:
+      ...     @property
+      ...     def foo(self):

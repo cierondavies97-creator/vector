@@ -1,0 +1,4 @@
+defines the default value for the *dir* argument to all functions
+   in this module.
+   Python searches a standard list of directories to find one which
+   the calling user can create files in.  The list is:

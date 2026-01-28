@@ -1,0 +1,6 @@
+I/O Base Classes
+----------------
+class io.IOBase
+   The abstract base class for all I/O classes.
+   This class provides empty abstract implementations for many methods
+   that derived classes can override selectively; the default

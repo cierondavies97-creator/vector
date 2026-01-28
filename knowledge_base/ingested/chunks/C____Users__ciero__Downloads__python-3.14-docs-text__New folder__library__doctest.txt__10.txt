@@ -1,0 +1,8 @@
+return result
+   if __name__ == "__main__":
+       import doctest
+       doctest.testmod()
+If you run "example.py" directly from the command line, "doctest"
+works its magic:
+   $ python example.py
+   $

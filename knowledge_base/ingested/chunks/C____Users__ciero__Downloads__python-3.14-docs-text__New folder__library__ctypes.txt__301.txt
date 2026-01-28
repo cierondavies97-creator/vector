@@ -1,0 +1,6 @@
+failure, so this function could do the error checking, and raises an
+exception when the api call failed:
+   >>> def errcheck(result, func, args):
+   ...     if not result:
+   ...         raise WinError()
+   ...     return args

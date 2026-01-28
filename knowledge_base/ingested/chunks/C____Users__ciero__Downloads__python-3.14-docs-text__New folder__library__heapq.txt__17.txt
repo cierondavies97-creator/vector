@@ -1,0 +1,5 @@
+"IndexError" is raised. To access the largest item without popping
+   it, use "maxheap[0]".
+   Added in version 3.14.
+heapq.heappushpop_max(heap, item)
+   Push *item* on the max-heap *heap*, then pop and return the largest

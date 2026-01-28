@@ -1,0 +1,5 @@
+Construct a "PrettyPrinter" instance.
+   Arguments have the same meaning as for "pp()". Note that they are
+   in a different order, and that *sort_dicts* defaults to "True".
+   >>> import pprint
+   >>> stuff = ['spam', 'eggs', 'lumberjack', 'knights', 'ni']

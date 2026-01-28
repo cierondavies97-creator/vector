@@ -1,0 +1,5 @@
+messages. It is derived from "ValueError".
+exception email.errors.HeaderDefect
+   This is the base class for all defects found when parsing email
+   headers. It is derived from "MessageDefect".
+Here is the list of the defects that the "FeedParser" can find while

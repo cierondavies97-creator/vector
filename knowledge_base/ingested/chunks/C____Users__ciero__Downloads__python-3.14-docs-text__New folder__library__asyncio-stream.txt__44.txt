@@ -1,0 +1,4 @@
+* *ssl_handshake_timeout* is the time in seconds to wait for the
+        TLS handshake to complete before aborting the connection.
+        "60.0" seconds if "None" (default).
+      * *ssl_shutdown_timeout* is the time in seconds to wait for the

@@ -1,0 +1,4 @@
+it returns a normal EOF (an empty bytes object) in response to
+   unexpected EOF errors raised from the underlying socket; if
+   "False", it will raise the exceptions back to the caller.
+   *session*, see "session".

@@ -1,0 +1,4 @@
+"email.contentmanager": Managing MIME Content
+*********************************************
+**Source code:** Lib/email/contentmanager.py
+======================================================================

@@ -1,0 +1,5 @@
+shared library (or DLL), but might in some cases be statically
+   linked with the Python interpreter.
+"idlelib"
+   Python's Integrated Development and Learning Environment (IDLE).
+   Based on "tkinter".

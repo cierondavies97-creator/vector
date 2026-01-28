@@ -1,0 +1,7 @@
+import tracemalloc
+   # Store 25 frames
+   tracemalloc.start(25)
+   # ... run your application ...
+   snapshot = tracemalloc.take_snapshot()
+   top_stats = snapshot.statistics('traceback')
+   # pick the biggest memory block

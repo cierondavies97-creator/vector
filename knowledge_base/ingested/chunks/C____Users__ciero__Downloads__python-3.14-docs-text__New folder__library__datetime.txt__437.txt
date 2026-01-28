@@ -1,0 +1,5 @@
+specified in the format string will be pulled from the default value.
+Note:
+  When used to parse partial dates lacking a year,
+  "datetime.strptime()" and "date.strptime()" will raise when
+  encountering February 29 because the default year of 1900 is *not* a

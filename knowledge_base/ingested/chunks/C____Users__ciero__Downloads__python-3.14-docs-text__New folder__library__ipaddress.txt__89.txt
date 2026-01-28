@@ -1,0 +1,6 @@
+num_addresses
+      The total number of addresses in the network.
+   prefixlen
+      Length of the network prefix, in bits.
+   hosts()
+      Returns an iterator over the usable hosts in the network.  The

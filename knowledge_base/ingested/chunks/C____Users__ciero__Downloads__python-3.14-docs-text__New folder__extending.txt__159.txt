@@ -1,0 +1,3 @@
+implemented portably (as long as the functions "malloc()" and "free()"
+are available --- which the C Standard guarantees). Maybe some day a
+sufficiently portable automatic garbage collector will be available

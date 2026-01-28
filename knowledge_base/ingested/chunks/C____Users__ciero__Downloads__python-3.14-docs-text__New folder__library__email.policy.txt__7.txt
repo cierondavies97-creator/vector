@@ -1,0 +1,3 @@
+for complete backward compatibility (in some cases, including bug
+compatibility) with the pre-Python3.3 version of the email package.
+This default value for the *policy* keyword to "EmailMessage" is the

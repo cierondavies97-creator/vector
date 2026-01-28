@@ -1,0 +1,5 @@
+addAsyncCleanup(function, /, *args, **kwargs)
+      This method accepts a coroutine that can be used as a cleanup
+      function.
+   async enterAsyncContext(cm)
+      Enter the supplied *asynchronous context manager*.  If

@@ -1,0 +1,7 @@
+close()
+      Close the connection.
+      This is called automatically when the connection is garbage
+      collected.
+   poll([timeout])
+      Return whether there is any data available to be read.
+      If *timeout* is not specified then it will return immediately.

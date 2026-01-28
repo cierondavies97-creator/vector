@@ -1,0 +1,4 @@
+The optional *ident* keyword argument is a string which is
+   prepended to every message, and defaults to "sys.argv[0]" with
+   leading path components stripped.  The optional *logoption* keyword
+   argument (default is 0) is a bit field -- see below for possible

@@ -1,0 +1,4 @@
+of the URL for receiving XML-RPC requests.  Requests posted to
+   other paths will result in a 404 "no such page" HTTP error.  If
+   this tuple is empty, all paths will be considered valid. The
+   default value is "('/', '/RPC2')".

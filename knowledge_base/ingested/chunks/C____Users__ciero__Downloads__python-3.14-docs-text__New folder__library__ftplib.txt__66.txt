@@ -1,0 +1,5 @@
+**RFC 4217**. Connect to port 21 implicitly securing the FTP
+   control connection before authenticating.
+   Note:
+     The user must explicitly secure the data connection by calling
+     the "prot_p()" method.

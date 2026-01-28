@@ -1,0 +1,3 @@
+active virtual environment, or the default installed version, which
+will be the latest stable release unless configured otherwise. If no
+version is specifically requested and no runtimes are installed at

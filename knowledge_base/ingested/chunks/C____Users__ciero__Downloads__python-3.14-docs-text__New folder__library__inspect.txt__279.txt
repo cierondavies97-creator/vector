@@ -1,0 +1,4 @@
+names to values. This is the equivalent of calling "locals()" in
+   the body of the generator, and all the same caveats apply.
+   If *generator* is a *generator* with no currently associated frame,
+   then an empty dictionary is returned.  "TypeError" is raised if

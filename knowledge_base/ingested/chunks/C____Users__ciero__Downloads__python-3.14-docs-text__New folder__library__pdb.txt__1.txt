@@ -1,0 +1,3 @@
+Python programs.  It supports setting (conditional) breakpoints and
+single stepping at the source line level, inspection of stack frames,
+source code listing, and evaluation of arbitrary Python code in the

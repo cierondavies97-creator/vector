@@ -1,0 +1,6 @@
+Added in version 3.14.
+Java platform
+=============
+platform.java_ver(release='', vendor='', vminfo=('', '', ''), osinfo=('', '', ''))
+   Version interface for Jython.
+   Returns a tuple "(release, vendor, vminfo, osinfo)" with *vminfo*

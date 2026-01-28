@@ -1,0 +1,2 @@
+print(f"Current date: {date}")
+See also the same example written using low-level APIs.

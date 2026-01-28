@@ -1,0 +1,5 @@
+async def force_terminate_task_group():
+       """Used to force termination of a task group."""
+       raise TerminateTaskGroup()
+   async def job(task_id, sleep_time):
+       print(f'Task {task_id}: start')

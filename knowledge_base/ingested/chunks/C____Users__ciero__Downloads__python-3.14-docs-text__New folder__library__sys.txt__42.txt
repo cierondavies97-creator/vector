@@ -1,0 +1,4 @@
+passing in "*args" and "**kws", and whatever "function()" returns,
+   "sys.breakpointhook()" returns to the built-in "breakpoint()"
+   function.
+   Note that if anything goes wrong while importing the callable named

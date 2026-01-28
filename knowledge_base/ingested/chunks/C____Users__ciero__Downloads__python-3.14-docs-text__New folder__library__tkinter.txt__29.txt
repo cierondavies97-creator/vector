@@ -1,0 +1,3 @@
+"Tk" reads and interprets profile files, named ".*className*.tcl"
+   and ".*baseName*.tcl", into the Tcl interpreter and calls "exec()"
+   on the contents of ".*className*.py" and ".*baseName*.py".  The

@@ -1,0 +1,3 @@
+Return "True" if the string *statement* appears to contain one or
+   more complete SQL statements. No syntactic verification or parsing
+   of any kind is performed, other than checking that there are no

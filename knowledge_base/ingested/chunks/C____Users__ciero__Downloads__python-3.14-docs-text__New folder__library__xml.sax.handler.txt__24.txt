@@ -1,0 +1,4 @@
+application.  The following methods are called by the parser on the
+appropriate events in the input document:
+ContentHandler.setDocumentLocator(locator)
+   Called by the parser to give the application a locator for locating

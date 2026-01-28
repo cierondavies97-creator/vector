@@ -1,0 +1,5 @@
+>>> def func(x: Annotated[int, "metadata"]) -> None: pass
+         ...
+         >>> get_type_hints(func)
+         {'x': <class 'int'>, 'return': <class 'NoneType'>}
+         >>> get_type_hints(func, include_extras=True)

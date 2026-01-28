@@ -1,0 +1,3 @@
+If *handler* is "None", the default exception handler will be set.
+   Otherwise, *handler* must be a callable with the signature matching
+   "(loop, context)", where "loop" is a reference to the active event

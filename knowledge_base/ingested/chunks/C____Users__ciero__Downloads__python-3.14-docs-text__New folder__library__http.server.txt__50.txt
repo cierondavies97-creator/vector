@@ -1,0 +1,5 @@
+numeric HTTP code associated with the response. If a size of the
+      response is available, then it should be passed as the *size*
+      parameter.
+   log_error(...)
+      Logs an error when a request cannot be fulfilled. By default, it

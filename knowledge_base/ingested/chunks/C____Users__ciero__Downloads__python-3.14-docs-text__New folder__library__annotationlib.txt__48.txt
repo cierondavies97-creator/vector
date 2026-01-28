@@ -1,0 +1,3 @@
+annotationlib.call_evaluate_function(evaluate, format, *, owner=None)
+   Call the *evaluate function* *evaluate* with the given *format*, a
+   member of the "Format" enum, and return the value produced by the

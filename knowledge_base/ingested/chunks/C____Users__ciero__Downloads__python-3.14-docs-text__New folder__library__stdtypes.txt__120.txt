@@ -1,0 +1,5 @@
+constant instances: "True" and "False".
+The built-in function "bool()"  converts any value to a boolean, if
+the value can be interpreted as a truth value (see section Truth Value
+Testing above).
+For logical operations, use the boolean operators "and", "or" and

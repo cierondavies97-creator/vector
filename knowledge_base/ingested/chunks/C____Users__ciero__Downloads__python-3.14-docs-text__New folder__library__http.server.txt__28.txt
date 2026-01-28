@@ -1,0 +1,5 @@
+the status code that passed to "send_error()".
+   error_content_type
+      Specifies the Content-Type HTTP header of error responses sent
+      to the client.  The default value is "'text/html'".
+   protocol_version

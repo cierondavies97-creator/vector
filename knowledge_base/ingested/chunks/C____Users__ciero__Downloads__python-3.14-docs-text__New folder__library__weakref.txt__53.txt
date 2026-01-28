@@ -1,0 +1,5 @@
+otherwise *obj* will never be garbage collected.  In particular,
+     *func* should not be a bound method of *obj*.
+   Added in version 3.4.
+weakref.ReferenceType
+   The type object for weak references objects.

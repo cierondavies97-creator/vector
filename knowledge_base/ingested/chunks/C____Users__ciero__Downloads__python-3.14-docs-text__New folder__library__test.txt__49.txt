@@ -1,0 +1,5 @@
+Set to the top level directory that contains "test.support".
+test.support.TEST_HOME_DIR
+   Set to the top level directory for the test package.
+test.support.TEST_DATA_DIR
+   Set to the "data" directory within the test package.

@@ -1,0 +1,4 @@
+-h, --help            show this help message and exit
+     -v, --verbose         make lots of noise [default]
+     -q, --quiet           be vewwy quiet (I'm hunting wabbits)
+     -f FILE, --filename=FILE

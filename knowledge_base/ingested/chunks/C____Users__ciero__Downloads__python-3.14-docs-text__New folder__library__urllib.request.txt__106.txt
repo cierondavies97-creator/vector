@@ -1,0 +1,4 @@
+*protocol* URLs.
+     See "BaseHandler.<protocol>_open()" for more information.
+   * "http_error_<type>()" --- signal that the handler knows how to
+     handle HTTP errors with HTTP error code *type*.

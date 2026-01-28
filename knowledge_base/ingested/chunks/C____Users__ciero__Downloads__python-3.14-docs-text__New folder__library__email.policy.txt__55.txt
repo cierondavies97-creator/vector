@@ -1,0 +1,4 @@
+is modifying a "Message" programmatically (as opposed to a
+      "Message" created by a parser).  The method should return the
+      "(name, value)" tuple that is to be stored in the "Message" to
+      represent the header.

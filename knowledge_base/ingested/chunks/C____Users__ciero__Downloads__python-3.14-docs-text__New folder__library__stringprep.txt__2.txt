@@ -1,0 +1,4 @@
+also necessary to restrict the possible identifications, to allow only
+identifications consisting of "printable" characters.
+**RFC 3454** defines a procedure for "preparing" Unicode strings in
+internet protocols. Before passing strings onto the wire, they are

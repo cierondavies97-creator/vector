@@ -1,0 +1,6 @@
+Policies
+********
+Warning:
+  Policies are deprecated and will be removed in Python 3.16. Users
+  are encouraged to use the "asyncio.run()" function or the
+  "asyncio.Runner" with *loop_factory* to use the desired loop

@@ -1,0 +1,7 @@
+*g*, and *b*.  Each of *r*, *g*, and *b* must be in the range
+      0..colormode.
+      >>> screen.bgcolor("orange")
+      >>> screen.bgcolor()
+      'orange'
+      >>> screen.bgcolor("#800080")
+      >>> screen.bgcolor()

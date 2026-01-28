@@ -1,0 +1,4 @@
+that "optparse" assigns the default type, ""string"", to options
+   with no explicit type whose action is listed in
+   "ALWAYS_TYPED_ACTIONS".
+In order to actually implement your new action, you must override

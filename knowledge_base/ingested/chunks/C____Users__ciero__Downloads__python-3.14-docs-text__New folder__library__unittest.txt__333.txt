@@ -1,0 +1,6 @@
+tb_locals
+      If set to true then local variables will be shown in tracebacks.
+      Added in version 3.5.
+   wasSuccessful()
+      Return "True" if all tests run so far have passed, otherwise
+      returns "False".

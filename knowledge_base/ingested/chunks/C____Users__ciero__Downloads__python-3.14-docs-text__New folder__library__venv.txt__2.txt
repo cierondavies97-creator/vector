@@ -1,0 +1,4 @@
+virtual environment's "base" Python, and by default is isolated from
+the packages in the base environment, so that only those explicitly
+installed in the virtual environment are available. See Virtual
+Environments and "site"'s virtual environments documentation for more

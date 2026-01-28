@@ -1,0 +1,8 @@
+# repeat(10, 3) → 10 10 10
+          if times is None:
+              while True:
+                  yield object
+          else:
+              for i in range(times):
+                  yield object
+   A common use for *repeat* is to supply a stream of constant values

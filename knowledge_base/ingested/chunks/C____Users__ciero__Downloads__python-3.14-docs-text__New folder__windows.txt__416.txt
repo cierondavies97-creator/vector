@@ -1,0 +1,4 @@
+"PYLAUNCHER_NO_SEARCH_PATH" may be set (to any value) to skip this
+search of "PATH".
+Shebang lines that do not match any of these patterns are looked up in
+the "[commands]" section of the launcher's .INI file. This may be used

@@ -1,0 +1,4 @@
+annotations of global variables, class attributes, and functions
+   can be retrieved by calling "annotationlib.get_annotations()" on
+   modules, classes, and functions, respectively.
+   See *variable annotation*, *function annotation*, **PEP 484**,

@@ -1,0 +1,4 @@
+has no effect for the "fast" strategy. It's still useful when
+      using "dfast" strategy, in which case it defines a secondary
+      probe table.
+      A value of zero causes the value to be selected automatically.

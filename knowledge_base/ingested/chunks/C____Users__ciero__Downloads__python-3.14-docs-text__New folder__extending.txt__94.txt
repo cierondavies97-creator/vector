@@ -1,0 +1,7 @@
+static PyObject *my_callback = NULL;
+   static PyObject *
+   my_set_callback(PyObject *dummy, PyObject *args)
+   {
+       PyObject *result = NULL;
+       PyObject *temp;
+       if (PyArg_ParseTuple(args, "O:set_callback", &temp)) {

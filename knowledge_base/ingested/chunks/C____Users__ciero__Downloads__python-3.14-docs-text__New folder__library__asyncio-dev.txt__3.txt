@@ -1,0 +1,5 @@
+example the following snippet of code can be run at startup of the
+  application:
+     logging.basicConfig(level=logging.DEBUG)
+* configuring the "warnings" module to display "ResourceWarning"
+  warnings.  One way of doing that is by using the "-W" "default"

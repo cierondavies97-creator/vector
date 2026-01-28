@@ -1,0 +1,8 @@
+""store_true""
+      store "True"
+   ""store_false""
+      store "False"
+   ""append""
+      append this option's argument to a list
+   ""append_const""
+      append a constant value to a list, pre-set via "Option.const"

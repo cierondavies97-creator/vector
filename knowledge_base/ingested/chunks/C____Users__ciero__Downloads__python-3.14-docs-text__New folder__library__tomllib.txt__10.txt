@@ -1,0 +1,8 @@
+import tomllib
+   with open("pyproject.toml", "rb") as f:
+       data = tomllib.load(f)
+Parsing a TOML string:
+   import tomllib
+   toml_str = """
+   python-version = "3.11.0"
+   python-implementation = "CPython"

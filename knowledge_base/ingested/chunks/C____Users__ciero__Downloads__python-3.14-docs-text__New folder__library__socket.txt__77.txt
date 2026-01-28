@@ -1,0 +1,7 @@
+Availability: Linux >= 2.6.25.
+   Note:
+     The "CAN_BCM_CAN_FD_FRAME" flag is only available on Linux >=
+     4.8.
+   Added in version 3.4.
+socket.CAN_RAW_FD_FRAMES
+   Enables CAN FD support in a CAN_RAW socket. This is disabled by

@@ -1,0 +1,5 @@
+Ask a question. Shows buttons "YES", "NO" and "CANCEL". Return
+   "True" if the answer is yes, "None" if cancelled, and "False"
+   otherwise.
+Symbolic names of buttons:
+tkinter.messagebox.ABORT = 'abort'

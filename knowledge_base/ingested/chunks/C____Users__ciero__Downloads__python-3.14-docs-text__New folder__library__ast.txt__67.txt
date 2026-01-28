@@ -1,0 +1,4 @@
+body=Constant(value=123))
+class ast.FormattedValue(value, conversion, format_spec)
+   Node representing a single formatting field in an f-string. If the
+   string contains a single formatting field and nothing else the node

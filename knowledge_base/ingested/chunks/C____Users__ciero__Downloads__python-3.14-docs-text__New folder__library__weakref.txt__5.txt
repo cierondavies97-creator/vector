@@ -1,0 +1,3 @@
+"WeakValueDictionary" classes supplied by the "weakref" module are an
+alternative, using weak references to construct mappings that don't
+keep objects alive solely because they appear in the mapping objects.

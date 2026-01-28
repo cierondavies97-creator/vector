@@ -1,0 +1,5 @@
+"None".
+   Changed in version 3.14: *name* and *context* are now
+   unconditionally passed on to task factories again.
+loop.get_task_factory()
+   Return a task factory or "None" if the default one is in use.

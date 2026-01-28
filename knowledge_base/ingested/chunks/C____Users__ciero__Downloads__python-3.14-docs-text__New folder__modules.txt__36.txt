@@ -1,0 +1,3 @@
+version to see if it's out of date and needs to be recompiled.  This
+is a completely automatic process.  Also, the compiled modules are
+platform-independent, so the same library can be shared among systems

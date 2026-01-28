@@ -1,0 +1,3 @@
+as far as possible by matching (only) junk elements on both
+      sides. So the resulting block never matches on junk except as
+      identical junk happens to be adjacent to an interesting match.

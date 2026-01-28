@@ -1,0 +1,4 @@
+"loop.create_unix_connection()", "loop.connect_accepted_socket()",
+"loop.connect_read_pipe()", and "loop.connect_write_pipe()" accept
+factories that return streaming protocols.
+Protocol.data_received(data)

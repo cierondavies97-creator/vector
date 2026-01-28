@@ -1,0 +1,5 @@
+"smtpd" --- SMTP Server
+***********************
+Deprecated since version 3.6, removed in version 3.12.
+This module is no longer part of the Python standard library. It was
+removed in Python 3.12 after being deprecated in Python 3.6.  The

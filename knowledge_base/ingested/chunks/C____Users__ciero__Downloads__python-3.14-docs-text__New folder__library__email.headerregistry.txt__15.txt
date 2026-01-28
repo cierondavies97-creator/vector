@@ -1,0 +1,4 @@
+requires that the specialized class provide a "classmethod()" named
+   "parse".  This method is called as follows:
+      parse(string, kwds)
+   "kwds" is a dictionary containing one pre-initialized key,

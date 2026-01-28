@@ -1,0 +1,5 @@
+an empty string.
+         * **conversion** -- The conversion to be used, one of "None",
+           "'a'", "'r'", or "'s'".
+         * **format_spec** -- An optional, arbitrary string used as
+           the format specification to present the value.

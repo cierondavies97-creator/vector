@@ -1,0 +1,5 @@
+Note:
+     Do not rely on the shelf being closed automatically; always call
+     "close()" explicitly when you don't need it any more, or use
+     "shelve.open()" as a context manager:
+        with shelve.open('spam') as db:

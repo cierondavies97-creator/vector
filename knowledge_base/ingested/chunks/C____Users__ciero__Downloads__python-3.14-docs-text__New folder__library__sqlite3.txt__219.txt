@@ -1,0 +1,5 @@
+raising "ValueError".
+   connection
+      Read-only attribute that provides the SQLite database
+      "Connection" belonging to the cursor.  A "Cursor" object created
+      by calling "con.cursor()" will have a "connection" attribute

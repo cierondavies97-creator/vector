@@ -1,0 +1,3 @@
+If you are localizing your application, you can install the "_()"
+function globally into the built-in namespace, usually in the main
+driver file of your application.  This will let all your application-

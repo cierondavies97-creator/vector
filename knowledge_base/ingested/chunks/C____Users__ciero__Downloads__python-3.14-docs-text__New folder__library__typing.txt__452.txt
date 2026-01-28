@@ -1,0 +1,5 @@
+overloads. If called on a function with no overloads,
+   "get_overloads()" returns an empty sequence.
+   "get_overloads()" can be used for introspecting an overloaded
+   function at runtime.
+   Added in version 3.11.

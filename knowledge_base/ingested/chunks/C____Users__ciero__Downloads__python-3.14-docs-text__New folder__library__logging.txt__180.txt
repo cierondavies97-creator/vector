@@ -1,0 +1,3 @@
+| Attribute name   | Format                    | Description                                     |
+|==================|===========================|=================================================|
+| args             | You shouldn't need to     | The tuple of arguments merged into "msg" to     |

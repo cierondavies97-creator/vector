@@ -1,0 +1,6 @@
+represents a single address that is not in a group.
+   addresses
+      A possibly empty tuple of "Address" objects representing the
+      addresses in the group.
+   __str__()
+      The "str" value of a "Group" is formatted according to **RFC

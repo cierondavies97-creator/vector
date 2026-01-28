@@ -1,0 +1,4 @@
+name of a global variable.  It should be the object's local name
+   relative to its module; the pickle module searches the module
+   namespace to determine the object's module.  This behaviour is
+   typically useful for singletons.

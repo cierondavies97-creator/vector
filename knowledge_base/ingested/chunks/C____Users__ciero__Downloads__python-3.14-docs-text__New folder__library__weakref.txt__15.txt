@@ -1,0 +1,5 @@
+is disabled unless a "'__weakref__'" string is also present in the
+sequence of strings in the "__slots__" declaration. See __slots__
+documentation for details.
+class weakref.ref(object[, callback])
+   Return a weak reference to *object*.  The original object can be

@@ -1,0 +1,2 @@
+| frame.f_globals                                    | The dictionary used by the frame to look up global |
+|                                                    | variables                                          |

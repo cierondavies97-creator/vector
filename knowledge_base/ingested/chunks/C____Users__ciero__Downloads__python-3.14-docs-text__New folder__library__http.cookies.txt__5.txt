@@ -1,0 +1,4 @@
+invalid data and catch "CookieError" on parsing.
+exception http.cookies.CookieError
+   Exception failing because of **RFC 2109** invalidity: incorrect
+   attributes, incorrect *Set-Cookie* header, etc.

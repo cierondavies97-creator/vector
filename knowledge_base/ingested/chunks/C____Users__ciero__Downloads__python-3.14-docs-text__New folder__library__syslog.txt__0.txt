@@ -1,0 +1,4 @@
+"syslog" --- Unix syslog library routines
+*****************************************
+======================================================================
+This module provides an interface to the Unix "syslog" library

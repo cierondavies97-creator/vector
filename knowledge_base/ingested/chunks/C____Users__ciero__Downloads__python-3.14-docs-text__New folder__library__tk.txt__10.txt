@@ -1,0 +1,13 @@
+* Widget States
+    * ttk.Widget
+  * Combobox
+    * Options
+    * Virtual events
+    * ttk.Combobox
+  * Spinbox
+    * Options
+    * Virtual events
+    * ttk.Spinbox
+  * Notebook
+    * Options
+    * Tab Options

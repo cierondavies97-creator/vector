@@ -1,0 +1,4 @@
+"TextIOBase".
+   The text buffer is discarded when the "close()" method is called.
+   The initial value of the buffer can be set by providing
+   *initial_value*. If newline translation is enabled, newlines will

@@ -1,0 +1,4 @@
+remaining strings specify the arguments.  Together, string
+   arguments form the "argv" of the program.
+   This is similar to the standard library "subprocess.Popen" class
+   called with "shell=False" and the list of strings passed as the

@@ -1,0 +1,5 @@
+into a single entry.
+   add(*filenames)
+      This method of the "Stats" class accumulates additional
+      profiling information into the current profiling object.  Its
+      arguments should refer to filenames created by the corresponding

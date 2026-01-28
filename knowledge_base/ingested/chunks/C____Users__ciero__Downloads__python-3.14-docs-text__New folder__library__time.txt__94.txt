@@ -1,0 +1,4 @@
+consult the *strftime(3)* documentation.
+   On some platforms, an optional field width and precision
+   specification can immediately follow the initial "'%'" of a
+   directive in the following order; this is also not portable. The

@@ -1,0 +1,4 @@
+that can trigger code execution then you may not be able to use
+autospec. On the other hand it is much better to design your objects
+so that introspection is safe [4].
+A more serious problem is that it is common for instance attributes to

@@ -1,0 +1,5 @@
+*mailbox* ("EXISTS" response).  The default *mailbox* is "'INBOX'".
+   If the *readonly* flag is set, modifications to the mailbox are not
+   allowed.
+IMAP4.send(data)
+   Sends "data" to the remote server. You may override this method.

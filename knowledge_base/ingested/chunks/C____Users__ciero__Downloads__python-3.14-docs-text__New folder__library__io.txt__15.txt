@@ -1,0 +1,4 @@
+most Unix platforms use UTF-8 locale by default. This causes bugs
+because the locale encoding is not UTF-8 for most Windows users. For
+example:
+   # May not work on Windows when non-ASCII characters in the file.

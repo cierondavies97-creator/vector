@@ -1,0 +1,4 @@
+"make_file()" method.
+difflib.context_diff(a, b, fromfile='', tofile='', fromfiledate='', tofiledate='', n=3, lineterm='\n')
+   Compare *a* and *b* (lists of strings); return a delta (a
+   *generator* generating the delta lines) in context diff format.

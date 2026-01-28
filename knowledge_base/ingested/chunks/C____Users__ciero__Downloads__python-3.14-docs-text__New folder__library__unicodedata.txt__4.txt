@@ -1,0 +1,4 @@
+'{'
+   The characters returned by this function are the same as those
+   produced by "\N" escape sequence in string literals. For example:
+      >>> unicodedata.lookup('MIDDLE DOT') == '\N{MIDDLE DOT}'

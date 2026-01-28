@@ -1,0 +1,3 @@
+imported module may replace itself in "sys.modules".  This is
+    implementation-specific behavior that is not guaranteed to work in
+    other Python implementations.

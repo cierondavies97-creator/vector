@@ -1,0 +1,5 @@
+counterparts) on the socket object as usual.
+This last example might require special privileges:
+   import socket
+   import struct
+   # CAN frame packing/unpacking (see 'struct can_frame' in <linux/can.h>)

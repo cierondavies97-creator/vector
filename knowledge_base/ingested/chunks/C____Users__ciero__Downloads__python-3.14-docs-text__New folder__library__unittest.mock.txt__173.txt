@@ -1,0 +1,13 @@
+exhausted and a "StopIteration" is raised):
+>>> m = MagicMock(side_effect=[1, 2, 3])
+>>> m()
+1
+>>> m()
+2
+>>> m()
+3
+>>> m()
+Traceback (most recent call last):
+  ...
+StopIteration
+If any members of the iterable are exceptions they will be raised

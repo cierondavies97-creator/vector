@@ -1,0 +1,5 @@
+compression ratios but slower compression.
+      See also: "Strategy"
+   enable_long_distance_matching
+      Long distance matching can be used to improve compression for
+      large inputs by finding large matches at greater distances. It

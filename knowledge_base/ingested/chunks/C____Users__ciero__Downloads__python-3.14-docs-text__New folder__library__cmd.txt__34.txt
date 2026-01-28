@@ -1,0 +1,4 @@
+headers.  If empty, no ruler line is drawn.  It defaults to "'='".
+Cmd.use_rawinput
+   A flag, defaulting to true.  If true, "cmdloop()" uses "input()" to
+   display a prompt and read the next command; if false,

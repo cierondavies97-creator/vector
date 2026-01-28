@@ -1,0 +1,6 @@
+while True:
+           # Get a "work item" out of the queue.
+           sleep_for = await queue.get()
+           # Sleep for the "sleep_for" seconds.
+           await asyncio.sleep(sleep_for)
+           # Notify the queue that the "work item" has been processed.

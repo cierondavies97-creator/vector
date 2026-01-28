@@ -1,0 +1,5 @@
+supplied; please see **PEP 3333** for a detailed specification and
+"WSGIEnvironment" for a type alias that can be used in type
+annotations.
+wsgiref.util.guess_scheme(environ)
+   Return a guess for whether "wsgi.url_scheme" should be "http" or

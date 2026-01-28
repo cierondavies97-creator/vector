@@ -1,0 +1,4 @@
+the default HTTP port (80) is used.  If the optional *timeout*
+   parameter is given, blocking operations (like connection attempts)
+   will timeout after that many seconds (if it is not given, the
+   global default timeout setting is used). The optional

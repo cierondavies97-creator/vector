@@ -1,0 +1,4 @@
+anything other than "None" in the result tuple, you need to give
+   "stdout=PIPE" and/or "stderr=PIPE" too.
+   If the process does not terminate after *timeout* seconds, a
+   "TimeoutExpired" exception will be raised.  Catching this exception

@@ -1,0 +1,8 @@
+function, for example:
+      >>> async def agen():
+      ...     yield 1
+      ...
+      >>> inspect.isasyncgenfunction(agen)
+      True
+   Added in version 3.6.
+   Changed in version 3.8: Functions wrapped in "functools.partial()"

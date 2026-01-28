@@ -1,0 +1,5 @@
+'Return turtle to the home position:  HOME'
+           home()
+       def do_circle(self, arg):
+           'Draw circle with given radius an options extent and steps:  CIRCLE 50'
+           circle(*parse(arg))

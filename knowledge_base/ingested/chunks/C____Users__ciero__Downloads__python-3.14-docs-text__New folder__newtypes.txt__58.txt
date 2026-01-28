@@ -1,0 +1,7 @@
+int         type;
+       int         offset;
+       int         flags;
+       const char *doc;
+   } PyMemberDef;
+For each entry in the table, a *descriptor* will be constructed and
+added to the type which will be able to extract a value from the

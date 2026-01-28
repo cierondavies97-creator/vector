@@ -1,0 +1,3 @@
+the optional *entities* parameter.  The keys and values must all be
+   strings; each key will be replaced with its corresponding value.
+   "'&amp;'", "'&lt;'", and "'&gt;'" are always unescaped, even if

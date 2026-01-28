@@ -1,0 +1,4 @@
+constant value "sys.hash_info.inf".
+* If "x = m / n" is a negative rational number define "hash(x)" as
+  "-hash(-x)".  If the resulting hash is "-1", replace it with "-2".
+* The particular values "sys.hash_info.inf" and "-sys.hash_info.inf"

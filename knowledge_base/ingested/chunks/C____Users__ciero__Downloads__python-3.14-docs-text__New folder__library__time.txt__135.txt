@@ -1,0 +1,5 @@
+start and end dates are one of the following:
+      "J*n*"
+         The Julian day *n* (1 <= *n* <= 365). Leap days are not
+         counted, so in all years February 28 is day 59 and March 1 is
+         day 60.

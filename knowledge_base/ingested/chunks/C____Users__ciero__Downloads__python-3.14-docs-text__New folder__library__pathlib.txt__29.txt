@@ -1,0 +1,6 @@
+the argument is an absolute path, the previous path is ignored. On
+Windows, the drive is not reset when the argument is a rooted relative
+path (e.g., "r'\foo'"):
+   >>> p = PurePath('/etc')
+   >>> p
+   PurePosixPath('/etc')

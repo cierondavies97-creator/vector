@@ -1,0 +1,5 @@
+be accessible using the dot notation, but is accessible through
+   "getattr()" etc..
+   Note:
+     Since private name mangling happens at compilation time, one must
+     manually mangle a private attribute's (attributes with two

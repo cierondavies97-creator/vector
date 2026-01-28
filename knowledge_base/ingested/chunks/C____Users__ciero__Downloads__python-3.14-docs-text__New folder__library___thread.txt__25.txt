@@ -1,0 +1,5 @@
+"False" if not.
+   Changed in version 3.2: The *timeout* parameter is new.
+   Changed in version 3.2: Lock acquires can now be interrupted by
+   signals on POSIX.
+   Changed in version 3.14: Lock acquires can now be interrupted by

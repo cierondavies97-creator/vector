@@ -1,0 +1,4 @@
+instance, an "email.message.Message" instance, a string, or a
+      file-like object (which should be open in text mode).
+   update_visible()
+      When a "BabylMessage" instance's original headers are modified,

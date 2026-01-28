@@ -1,0 +1,5 @@
+URL Parsing
+===========
+The URL parsing functions focus on splitting a URL string into its
+components, or on combining URL components into a URL string.
+urllib.parse.urlparse(urlstring, scheme='', allow_fragments=True)

@@ -1,0 +1,5 @@
+Example:
+         >>> penup()
+These modified docstrings are created automatically together with the
+function definitions that are derived from the methods at import time.
+Translation of docstrings into different languages

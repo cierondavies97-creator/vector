@@ -1,0 +1,7 @@
+* The index Parameter
+    * Images
+  * File Handlers
+* "tkinter.colorchooser" --- Color choosing dialog
+* "tkinter.font" --- Tkinter font wrapper
+* Tkinter Dialogs
+  * "tkinter.simpledialog" --- Standard Tkinter input dialogs

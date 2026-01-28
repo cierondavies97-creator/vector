@@ -1,0 +1,5 @@
+pattern is successful. If "name" is "None", "pattern" must also be
+   "None" and the node represents the wildcard pattern.
+      >>> print(ast.dump(ast.parse("""
+      ... match x:
+      ...     case [x] as y:

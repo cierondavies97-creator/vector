@@ -1,0 +1,5 @@
+keyfunc = (lambda x: x) if key is None else key
+          iterator = iter(iterable)
+          exhausted = False
+          def _grouper(target_key):
+              nonlocal curr_value, curr_key, exhausted

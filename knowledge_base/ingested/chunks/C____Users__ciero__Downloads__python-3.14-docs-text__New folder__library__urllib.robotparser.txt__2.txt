@@ -1,0 +1,5 @@
+on the structure of "robots.txt" files, see
+http://www.robotstxt.org/orig.html.
+class urllib.robotparser.RobotFileParser(url='')
+   This class provides methods to read, parse and answer questions
+   about the "robots.txt" file at *url*.

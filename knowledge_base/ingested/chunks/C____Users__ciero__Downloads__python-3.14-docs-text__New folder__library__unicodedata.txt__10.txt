@@ -1,0 +1,6 @@
+If no such value is defined, *default* is returned, or, if not
+   given, "ValueError" is raised:
+      >>> unicodedata.numeric('½')
+      0.5
+unicodedata.category(chr)
+   Returns the general category assigned to the character *chr* as

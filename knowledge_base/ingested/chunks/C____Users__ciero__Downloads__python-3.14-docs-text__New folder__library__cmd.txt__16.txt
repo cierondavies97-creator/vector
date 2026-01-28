@@ -1,0 +1,5 @@
+position the argument is in.
+Cmd.do_help(arg)
+   All subclasses of "Cmd" inherit a predefined "do_help()".  This
+   method, called with an argument "'bar'", invokes the corresponding
+   method "help_bar()", and if that is not present, prints the

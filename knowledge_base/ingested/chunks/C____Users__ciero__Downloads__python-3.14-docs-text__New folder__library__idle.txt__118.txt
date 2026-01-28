@@ -1,0 +1,3 @@
+On Unix-based systems with tcl/tk older than "8.6.11" (see "About
+IDLE") certain characters of certain fonts can cause a tk failure with
+a message to the terminal.  This can happen either if one starts IDLE

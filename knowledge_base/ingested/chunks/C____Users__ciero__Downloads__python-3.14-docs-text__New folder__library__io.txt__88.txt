@@ -1,0 +1,4 @@
+are encountered, see "os.read()" and **PEP 475** for more
+      details. Less than size bytes being returned does not imply that
+      EOF is imminent.
+      When reading as much as possible the default implementation will

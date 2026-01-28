@@ -1,0 +1,3 @@
+available, and so for projects targeting cross-platform compatibility
+that require time zone data, it is recommended to declare a dependency
+on tzdata. If neither system data nor tzdata are available, all calls

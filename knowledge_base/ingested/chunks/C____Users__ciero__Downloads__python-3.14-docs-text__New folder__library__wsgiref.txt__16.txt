@@ -1,0 +1,4 @@
+to be suitable for passing to a WSGI application at "/foo/bar".
+   That is, "SCRIPT_NAME" will change from "/foo" to "/foo/bar", and
+   "PATH_INFO" will change from "/bar/baz" to "/baz".
+   When "PATH_INFO" is just a "/", this routine returns an empty

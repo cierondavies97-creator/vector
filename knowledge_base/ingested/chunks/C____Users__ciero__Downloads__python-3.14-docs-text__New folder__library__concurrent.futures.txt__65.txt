@@ -1,0 +1,3 @@
+workers. If *mp_context* is "None" or not given, the default
+   "multiprocessing" context is used. See Contexts and start methods.
+   *initializer* is an optional callable that is called at the start

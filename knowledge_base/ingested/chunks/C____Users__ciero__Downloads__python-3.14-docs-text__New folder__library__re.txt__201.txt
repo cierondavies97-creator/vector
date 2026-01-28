@@ -1,0 +1,5 @@
+different from a zero-length match.
+   The optional *pos* and *endpos* parameters have the same meaning as
+   for the "search()" method.
+      >>> pattern = re.compile("o")
+      >>> pattern.match("dog")      # No match as "o" is not at the start of "dog".

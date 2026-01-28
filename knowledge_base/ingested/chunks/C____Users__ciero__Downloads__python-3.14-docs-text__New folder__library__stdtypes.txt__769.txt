@@ -1,0 +1,5 @@
+equivalent frozenset, a temporary one is created from *elem*.
+Mapping Types --- "dict"
+========================
+A *mapping* object maps *hashable* values to arbitrary objects.
+Mappings are mutable objects.  There is currently only one standard

@@ -1,0 +1,5 @@
+**Source code:** Lib/dbm/dumb.py
+Note:
+  The "dbm.dumb" module is intended as a last resort fallback for the
+  "dbm" module when a more robust module is not available. The
+  "dbm.dumb" module is not written for speed and is not nearly as

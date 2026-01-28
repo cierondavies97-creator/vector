@@ -1,0 +1,1 @@
+do not require locking and also support indexing.

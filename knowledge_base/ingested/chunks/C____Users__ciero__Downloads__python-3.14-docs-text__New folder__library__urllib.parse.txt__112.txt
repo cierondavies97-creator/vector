@@ -1,0 +1,4 @@
+functions above.
+urllib.parse.quote(string, safe='/', encoding=None, errors=None)
+   Replace special characters in *string* using the "%*xx*" escape.
+   Letters, digits, and the characters "'_.-~'" are never quoted. By

@@ -1,0 +1,4 @@
+on Windows. For example, "environ[b'HOME']" ("environ['HOME']" on
+   Windows) is the pathname of your home directory, equivalent to
+   "getenv("HOME")" in C.
+   Modifying this dictionary does not affect the string environment

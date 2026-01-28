@@ -1,0 +1,4 @@
+remembers the order the keys were *last* inserted. If a new entry
+overwrites an existing entry, the original insertion position is
+changed and moved to the end:
+   class LastUpdatedOrderedDict(OrderedDict):

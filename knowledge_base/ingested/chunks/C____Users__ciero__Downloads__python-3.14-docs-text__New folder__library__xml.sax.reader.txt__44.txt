@@ -1,0 +1,5 @@
+The following methods are also available:
+AttributesNS.getValueByQName(name)
+   Return the value for a qualified name.
+AttributesNS.getNameByQName(name)
+   Return the "(namespace, localname)" pair for a qualified *name*.

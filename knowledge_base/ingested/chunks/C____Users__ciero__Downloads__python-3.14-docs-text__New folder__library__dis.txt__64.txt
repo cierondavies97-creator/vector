@@ -1,0 +1,7 @@
+line_number
+      source line number associated with this opcode (if any),
+      otherwise "None"
+   is_jump_target
+      "True" if other code jumps to here, otherwise "False"
+   jump_target
+      bytecode index of the jump target if this is a jump operation,

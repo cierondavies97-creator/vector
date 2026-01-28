@@ -1,0 +1,3 @@
+"8 bit clean".  In other words, most applications will want to be
+using "BytesGenerator", and not "Generator".
+class email.generator.Generator(outfp, mangle_from_=None, maxheaderlen=None, *, policy=None)

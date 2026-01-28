@@ -1,0 +1,6 @@
+module:
+              The name of the module the new Enum is created in.
+           qualname:
+              The actual location in the module where this Enum can be
+              found.
+           type:

@@ -1,0 +1,6 @@
+* Edit menu (Shell and Editor)
+    * Format menu (Editor window only)
+    * Run menu (Editor window only)
+    * Shell menu (Shell window only)
+    * Debug menu (Shell window only)
+    * Options menu (Shell and Editor)

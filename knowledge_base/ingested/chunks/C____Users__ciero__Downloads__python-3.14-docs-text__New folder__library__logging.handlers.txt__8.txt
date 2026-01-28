@@ -1,0 +1,6 @@
+Returns:
+         the old stream, if the stream was changed, or "None" if it
+         wasn't.
+      Added in version 3.7.
+   terminator
+      String used as the terminator when writing a formatted record to

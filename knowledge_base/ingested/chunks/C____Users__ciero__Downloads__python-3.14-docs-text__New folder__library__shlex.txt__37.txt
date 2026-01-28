@@ -1,0 +1,4 @@
+characters "~-./*?=", which can appear in filename specifications
+   and command line parameters, will also be included in this
+   attribute, and any characters which appear in "punctuation_chars"
+   will be removed from "wordchars" if they are present there. If

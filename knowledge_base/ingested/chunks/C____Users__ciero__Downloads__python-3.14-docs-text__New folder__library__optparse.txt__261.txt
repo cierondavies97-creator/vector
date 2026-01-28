@@ -1,0 +1,5 @@
+it instructs "optparse" to consume one argument and convert it to
+   "type".  Rather than storing the converted value(s) anywhere,
+   though, "optparse" passes it to your callback function.
+"nargs"
+   also has its usual meaning: if it is supplied and > 1, "optparse"

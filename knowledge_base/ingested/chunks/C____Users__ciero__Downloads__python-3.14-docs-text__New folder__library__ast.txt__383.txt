@@ -1,0 +1,7 @@
+a compiled code object.
+ast.PyCF_OPTIMIZED_AST
+   The returned AST is optimized according to the *optimize* argument
+   in "compile()" or "ast.parse()".
+   Added in version 3.13.
+ast.PyCF_TYPE_COMMENTS
+   Enables support for **PEP 484** and **PEP 526** style type comments

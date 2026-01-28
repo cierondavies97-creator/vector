@@ -1,0 +1,6 @@
+This flag may be combined with "PARSE_DECLTYPES" using the "|"
+   (bitwise or) operator.
+sqlite3.SQLITE_OK
+sqlite3.SQLITE_DENY
+sqlite3.SQLITE_IGNORE
+   Flags that should be returned by the *authorizer_callback*

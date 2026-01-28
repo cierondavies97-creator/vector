@@ -1,0 +1,4 @@
+>>> mock.module.fooble.assert_called_once_with()
+Tracking order of calls and less verbose call assertions
+--------------------------------------------------------
+The "Mock" class allows you to track the *order* of method calls on

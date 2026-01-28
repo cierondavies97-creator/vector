@@ -1,0 +1,5 @@
+get_info(key)
+      Return a string containing the info for the message
+      corresponding to *key*. This is the same as
+      "get_message(key).get_info()" but much faster, because it does
+      not open the message file. Use this method when iterating over

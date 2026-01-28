@@ -1,0 +1,3 @@
+(Python also includes pure-Python versions of these programs, called
+**pygettext.py** and **msgfmt.py**; some Python distributions will
+install them for you.  **pygettext.py** is similar to **xgettext**,

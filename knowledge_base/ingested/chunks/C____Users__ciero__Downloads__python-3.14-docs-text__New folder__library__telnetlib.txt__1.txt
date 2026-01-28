@@ -1,0 +1,5 @@
+removal was decided in **PEP 594**.
+Possible replacements are third-party libraries from PyPI: telnetlib3
+or Exscript.  These are not supported or maintained by the Python core
+team.
+The last version of Python that provided the "telnetlib" module was

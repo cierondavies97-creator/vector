@@ -1,0 +1,5 @@
+xmlparser.EndElementHandler(name)
+   Called for the end of every element.
+xmlparser.ProcessingInstructionHandler(target, data)
+   Called for every processing instruction.
+xmlparser.CharacterDataHandler(data)

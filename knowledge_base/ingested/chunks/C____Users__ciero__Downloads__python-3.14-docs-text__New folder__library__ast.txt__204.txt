@@ -1,0 +1,9 @@
+... except* Exception:
+      ...    ...
+      ... """), indent=4))
+      Module(
+          body=[
+              TryStar(
+                  body=[
+                      Expr(
+                          value=Constant(value=Ellipsis))],

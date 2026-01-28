@@ -1,0 +1,5 @@
+See also:
+     Generic Alias Types
+        In-depth documentation on instances of "types.GenericAlias"
+     **PEP 585** - Type Hinting Generics In Standard Collections
+        Introducing the "types.GenericAlias" class

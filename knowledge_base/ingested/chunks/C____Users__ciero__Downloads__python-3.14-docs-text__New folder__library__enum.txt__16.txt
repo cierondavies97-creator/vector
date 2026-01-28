@@ -1,0 +1,4 @@
+as belonging to the module instead of its class, and export the
+      enum members to the global namespace.
+   "show_flag_values()"
+      Return a list of all power-of-two integers contained in a flag.

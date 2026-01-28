@@ -1,0 +1,6 @@
+papers:
+  * *An Introductory 4.3BSD Interprocess Communication Tutorial*, by
+    Stuart Sechrest
+  * *An Advanced 4.3BSD Interprocess Communication Tutorial*, by
+    Samuel J.  Leffler et al,
+  both in the UNIX Programmer's Manual, Supplementary Documents 1

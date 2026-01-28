@@ -1,0 +1,4 @@
+supply other relevant context sought by the consumer.
+In practice, to support finding distribution package metadata in
+locations other than the file system, subclass "Distribution" and
+implement the abstract methods. Then from a custom finder, return

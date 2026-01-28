@@ -1,0 +1,5 @@
+# Set applicationwide defaults for all threads about to be launched
+   DefaultContext.prec = 12
+   DefaultContext.rounding = ROUND_DOWN
+   DefaultContext.traps = ExtendedContext.traps.copy()
+   DefaultContext.traps[InvalidOperation] = 1

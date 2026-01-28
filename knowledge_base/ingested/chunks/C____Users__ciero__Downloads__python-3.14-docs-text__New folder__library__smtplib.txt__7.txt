@@ -1,0 +1,3 @@
+interfaces, and/or to some specific source TCP port. It takes a
+   2-tuple "(host, port)", for the socket to bind to as its source
+   address before connecting. If omitted (or if *host* or *port* are

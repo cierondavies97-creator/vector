@@ -1,0 +1,4 @@
+Added in version 3.13.
+   Changed in version 3.14: The URL authority is discarded if it
+   matches the local hostname. Otherwise, if the authority isn't empty
+   or "localhost", then on Windows a UNC path is returned (as before),

@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+   | concurrent.futures.FIRST_EXCEPTION                 | The function will return when any future finishes  |

@@ -1,0 +1,4 @@
+Example: "quote('/El Niño/')" yields "'/El%20Ni%C3%B1o/'".
+urllib.parse.quote_plus(string, safe='', encoding=None, errors=None)
+   Like "quote()", but also replace spaces with plus signs, as
+   required for quoting HTML form values when building up a query

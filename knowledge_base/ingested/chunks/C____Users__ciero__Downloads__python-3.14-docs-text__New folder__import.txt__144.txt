@@ -1,0 +1,3 @@
+finders support. However path entry finder "find_module()" methods are
+never called with a "path" argument (they are expected to record the
+appropriate path information from the initial call to the path

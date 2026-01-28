@@ -1,0 +1,5 @@
+No automatic data type conversion is performed unless the
+   "QUOTE_NONNUMERIC" format option is specified (in which case
+   unquoted fields are transformed into floats).
+   A short usage example:
+      >>> import csv

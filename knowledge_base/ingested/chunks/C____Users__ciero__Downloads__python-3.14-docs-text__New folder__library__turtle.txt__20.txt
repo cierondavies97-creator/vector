@@ -1,0 +1,4 @@
+functionality as functions, available with "from turtle import *". The
+turtle graphics tutorial covers this approach.
+It's worth noting that many of the turtle commands also have even more
+terse equivalents, such as "fd()" for "forward()". These are

@@ -1,0 +1,4 @@
+Update the "is_authenticated" flag for the given *uri* or list of
+   URIs.
+HTTPPasswordMgrWithPriorAuth.is_authenticated(self, authuri)
+   Returns the current state of the "is_authenticated" flag for the

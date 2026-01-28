@@ -1,0 +1,4 @@
+asyncio.create_eager_task_factory(custom_task_constructor)
+   Create an eager task factory, similar to "eager_task_factory()",
+   using the provided *custom_task_constructor* when creating a new
+   task instead of the default "Task".

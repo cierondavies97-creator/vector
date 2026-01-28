@@ -1,0 +1,4 @@
+tuples and dictionaries correctly).  If the value being printed may
+  be a tuple or dictionary, wrap it in a tuple.
+Bytes objects ("bytes"/"bytearray") have one unique built-in
+operation: the "%" operator (modulo). This is also known as the bytes

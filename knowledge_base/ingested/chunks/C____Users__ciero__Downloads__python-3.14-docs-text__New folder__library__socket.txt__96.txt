@@ -1,0 +1,7 @@
+Added in version 3.14.
+socket.HCI_FILTER
+socket.HCI_TIME_STAMP
+socket.HCI_DATA_DIR
+socket.SO_HCI_EVT_FILTER
+socket.SO_HCI_PKT_FILTER
+   Option names for use with "BTPROTO_HCI". Availability and format of

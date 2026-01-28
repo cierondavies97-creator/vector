@@ -1,0 +1,4 @@
+including the leading dot ("'.'"), to strings of the form
+   "'type/subtype'".  If the file *filename* does not exist or cannot
+   be read, "None" is returned.
+mimetypes.add_type(type, ext, strict=True)

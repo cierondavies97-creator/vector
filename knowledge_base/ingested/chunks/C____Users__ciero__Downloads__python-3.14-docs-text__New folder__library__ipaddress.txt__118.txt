@@ -1,0 +1,8 @@
+exploded
+   with_netmask
+   with_hostmask
+   num_addresses
+   prefixlen
+   hosts()
+      Returns an iterator over the usable hosts in the network.  The
+      usable hosts are all the IP addresses that belong to the

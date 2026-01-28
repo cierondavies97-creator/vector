@@ -1,0 +1,5 @@
+d.time(), d.tzinfo)".
+   Changed in version 3.6: Added the *tzinfo* argument.
+classmethod datetime.fromisoformat(date_string)
+   Return a "datetime" corresponding to a *date_string* in any valid
+   ISO 8601 format, with the following exceptions:

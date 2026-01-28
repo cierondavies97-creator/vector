@@ -1,0 +1,6 @@
+Globals
+=======
+zoneinfo.TZPATH
+   A read-only sequence representing the time zone search path -- when
+   constructing a "ZoneInfo" from a key, the key is joined to each
+   entry in the "TZPATH", and the first file found is used.

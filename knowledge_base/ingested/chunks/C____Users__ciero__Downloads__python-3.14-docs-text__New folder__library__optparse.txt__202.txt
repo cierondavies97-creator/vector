@@ -1,0 +1,4 @@
+* ""append_const"" [required: "const"; relevant: "dest"]
+  Like ""store_const"", but the value "const" is appended to "dest";
+  as with ""append"", "dest" defaults to "None", and an empty list is
+  automatically created the first time the option is encountered.

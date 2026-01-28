@@ -1,0 +1,4 @@
+returned if it is an  open file descriptor, "False" otherwise.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.lexists(path)
+   Return "True" if *path* refers to an existing path, including

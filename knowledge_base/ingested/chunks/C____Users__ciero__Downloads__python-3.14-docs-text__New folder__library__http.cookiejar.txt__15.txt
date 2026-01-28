@@ -1,0 +1,4 @@
+accept and return cookies. *secure_protocols* is a sequence of
+   protocols for which secure cookies can be added to. By default
+   *https* and *wss* (secure websocket) are considered secure
+   protocols. For all other arguments, see the documentation for

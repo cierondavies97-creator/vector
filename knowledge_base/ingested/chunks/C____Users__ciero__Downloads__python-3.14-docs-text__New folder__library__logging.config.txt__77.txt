@@ -1,0 +1,4 @@
+that they are only meaningful for processing the configuration
+dictionary and used to determine connections between objects, and are
+not persisted anywhere when the configuration call is complete.
+The above snippet indicates that logger named "foo.bar.baz" should

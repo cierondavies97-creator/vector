@@ -1,0 +1,4 @@
+bytes) the Zstandard dictionary should be. See "train_dict()" for
+   suggestions on the maximum dictionary size.
+   The *level* argument (an integer) is the compression level expected
+   to be passed to the compressors using this dictionary. The

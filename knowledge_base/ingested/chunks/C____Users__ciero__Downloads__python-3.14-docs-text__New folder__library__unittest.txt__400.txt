@@ -1,0 +1,4 @@
+It is responsible for calling all the cleanup functions added by
+   "addModuleCleanup()". If you need cleanup functions to be called
+   *prior* to "tearDownModule()" then you can call
+   "doModuleCleanups()" yourself.

@@ -1,0 +1,4 @@
+attacks, access local files, generate network connections to other
+machines, or circumvent firewalls when attacker-controlled XML is
+being parsed, in Python or elsewhere.
+The built-in XML parsers of Python rely on the library libexpat,

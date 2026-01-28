@@ -1,0 +1,10 @@
+>>> str(mock)
+'fooble'
+>>> mock = Mock()
+>>> mock.__str__ = Mock()
+>>> mock.__str__.return_value = 'fooble'
+>>> str(mock)
+'fooble'
+>>> mock = Mock()
+>>> mock.__iter__ = Mock(return_value=iter([]))
+>>> list(mock)

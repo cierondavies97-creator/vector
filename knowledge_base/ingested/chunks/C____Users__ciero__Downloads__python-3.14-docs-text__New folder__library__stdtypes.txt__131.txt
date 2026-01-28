@@ -1,0 +1,4 @@
+general and specific sequence types, dictionaries, and other more
+specialized forms.  The specific types are not important beyond their
+implementation of the iterator protocol.
+Once an iterator's "__next__()" method raises "StopIteration", it must

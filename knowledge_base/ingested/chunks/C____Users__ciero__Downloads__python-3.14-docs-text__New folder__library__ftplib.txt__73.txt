@@ -1,0 +1,5 @@
+filenames (default: "'utf-8'").
+   Added in version 3.2.
+   Changed in version 3.3: Added the *source_address* parameter.
+   Changed in version 3.4: The class now supports hostname check with
+   "ssl.SSLContext.check_hostname" and *Server Name Indication* (see

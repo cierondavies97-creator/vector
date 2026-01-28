@@ -1,0 +1,4 @@
+list of traceback frames.
+      The frames are always ordered from oldest to newest.
+      Only one stack frame is returned for a suspended coroutine.
+      The optional *limit* argument sets the maximum number of frames

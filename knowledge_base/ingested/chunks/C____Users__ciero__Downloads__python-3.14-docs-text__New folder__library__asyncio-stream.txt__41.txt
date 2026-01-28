@@ -1,0 +1,3 @@
+IO write buffer.  When the size of the buffer reaches the high
+      watermark, *drain()* blocks until the size of the buffer is
+      drained down to the low watermark and writing can be resumed.

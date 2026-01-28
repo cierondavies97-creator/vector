@@ -1,0 +1,4 @@
+"fileinput" --- Iterate over lines from multiple input streams
+**************************************************************
+**Source code:** Lib/fileinput.py
+======================================================================

@@ -1,0 +1,4 @@
+can build the call stack given such a frame.
+   This is most useful for debugging deadlock:  this function does not
+   require the deadlocked threads' cooperation, and such threads' call
+   stacks are frozen for as long as they remain deadlocked.  The frame

@@ -1,0 +1,4 @@
+The left shift operation can be customized using the special
+"__lshift__()" and "__rlshift__()" methods. The right shift operation
+can be customized using the special "__rshift__()" and "__rrshift__()"
+methods.

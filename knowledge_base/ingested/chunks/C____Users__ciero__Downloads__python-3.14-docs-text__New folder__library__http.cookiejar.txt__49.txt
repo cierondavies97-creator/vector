@@ -1,0 +1,4 @@
+loads cookies.
+FileCookieJar subclasses and co-operation with web browsers
+===========================================================
+The following "CookieJar" subclasses are provided for reading and

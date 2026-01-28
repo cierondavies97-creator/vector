@@ -1,0 +1,4 @@
+* empty sequences and collections: "''", "()", "[]", "{}", "set()",
+  "range(0)"
+Operations and built-in functions that have a Boolean result always
+return "0" or "False" for false and "1" or "True" for true, unless

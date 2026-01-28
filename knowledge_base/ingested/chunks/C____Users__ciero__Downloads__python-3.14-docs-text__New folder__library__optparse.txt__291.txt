@@ -1,0 +1,5 @@
+callbacks should implement the conventional rules for bare "--" and
+"-" arguments:
+* either "--" or "-" can be option arguments
+* bare "--" (if not the argument to some option): halt command-line
+  processing and discard the "--"

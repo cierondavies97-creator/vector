@@ -1,0 +1,4 @@
+Note that "__missing__()" is *not* called for any operations
+      besides "__getitem__()". This means that "get()" will, like
+      normal dictionaries, return "None" as a default rather than
+      using "default_factory".

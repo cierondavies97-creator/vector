@@ -1,0 +1,4 @@
+argument.
+The following methods on bytes and bytearray objects have default
+behaviours that assume the use of ASCII compatible binary formats, but
+can still be used with arbitrary binary data by passing appropriate

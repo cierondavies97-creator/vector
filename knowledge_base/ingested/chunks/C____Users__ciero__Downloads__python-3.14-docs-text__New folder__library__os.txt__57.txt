@@ -1,0 +1,4 @@
+than "10.5", "getgroups()" returns the current group access list
+     for the user associated with the effective user id of the
+     process; the group access list may change over the lifetime of
+     the process, it is not affected by calls to "setgroups()", and

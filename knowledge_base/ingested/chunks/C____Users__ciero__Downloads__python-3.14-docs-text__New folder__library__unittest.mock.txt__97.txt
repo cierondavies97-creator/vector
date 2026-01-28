@@ -1,0 +1,5 @@
+>>> mock.property.method.attribute()
+      <Mock name='mock.property.method.attribute()' id='...'>
+      >>> mock.method_calls
+      [call.method(), call.property.method.attribute()]
+      Members of "method_calls" are "call" objects. These can be

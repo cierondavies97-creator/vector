@@ -1,0 +1,4 @@
+The default family is "AF_UNIX" if defined on the platform;
+   otherwise, the default is "AF_INET".
+   The newly created sockets are non-inheritable.
+   Changed in version 3.2: The returned socket objects now support the

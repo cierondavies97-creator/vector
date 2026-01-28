@@ -1,0 +1,2 @@
++-----------------------------------+-----------------------------------+-----------------------------------+
+| "include_unmanaged"               | "PYTHON_MANAGER_INCLUDE_UNMANAGE  | True to allow listing and         |

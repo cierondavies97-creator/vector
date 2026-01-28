@@ -1,0 +1,4 @@
+"'r'". A database is not created if it does not exist if *flag* is
+   "'r'" or "'w'".
+   Changed in version 3.11: *filename* accepts a *path-like object*.
+   The returned database object behaves similar to a mutable

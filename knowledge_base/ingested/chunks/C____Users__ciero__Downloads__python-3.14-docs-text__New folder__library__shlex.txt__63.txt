@@ -1,0 +1,4 @@
+['a', '&&', 'b', ';', 'c', '&&', 'd', '||', 'e', ';', 'f', '>', 'abc', ';',
+   '(', 'def', 'ghi', ')']
+Of course, tokens will be returned which are not valid for shells, and
+you'll need to implement your own error checks on the returned tokens.

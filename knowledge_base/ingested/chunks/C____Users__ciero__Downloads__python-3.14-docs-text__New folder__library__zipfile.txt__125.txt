@@ -1,0 +1,5 @@
++---------+----------------------------+
+   Note:
+     The ZIP format supports multiple timestamp fields in different
+     locations (central directory, extra fields for NTFS/UNIX systems,
+     etc.). This attribute specifically returns the timestamp from the

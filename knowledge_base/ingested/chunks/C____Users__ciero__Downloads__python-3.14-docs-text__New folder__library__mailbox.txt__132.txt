@@ -1,0 +1,4 @@
+mode files are accepted for backward compatibility.
+   The format-specific state and behaviors offered by subclasses vary,
+   but in general it is only the properties that are not specific to a
+   particular mailbox that are supported (although presumably the

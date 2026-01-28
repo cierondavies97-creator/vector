@@ -1,0 +1,4 @@
+rather than the U-label form (""pythön.org"").
+SSLSocket.session
+   The "SSLSession" for this SSL connection. The session is available
+   for client and server side sockets after the TLS handshake has been

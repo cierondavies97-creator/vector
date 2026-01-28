@@ -1,0 +1,4 @@
+Enum classes.
+   To extend this to recognize other objects, subclass and implement a
+   "default()" method with another method that returns a serializable
+   object for "o" if possible, otherwise it should call the superclass

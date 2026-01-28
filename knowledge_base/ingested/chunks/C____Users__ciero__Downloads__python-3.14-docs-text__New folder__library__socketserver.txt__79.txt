@@ -1,0 +1,4 @@
+# interrupt the program with Ctrl-C
+           server.serve_forever()
+An alternative request handler class that makes use of streams (file-
+like objects that simplify communication by providing the standard

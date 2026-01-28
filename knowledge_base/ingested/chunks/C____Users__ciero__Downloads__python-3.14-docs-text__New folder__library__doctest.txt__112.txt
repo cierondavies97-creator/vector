@@ -1,0 +1,4 @@
+>>> print(list(range(5)) + list(range(10, 20)) + list(range(30, 40)))
+   ... # doctest: +ELLIPSIS
+   [0, ..., 4, 10, ..., 19, 30, ..., 39]
+Note that since all options are disabled by default, and directives

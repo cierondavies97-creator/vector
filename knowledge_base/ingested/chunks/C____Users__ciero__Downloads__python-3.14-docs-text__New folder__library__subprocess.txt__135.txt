@@ -1,0 +1,3 @@
+and stderr, until end-of-file is reached.  Wait for process to
+   terminate and set the "returncode" attribute.  The optional *input*
+   argument should be data to be sent to the child process, or "None",

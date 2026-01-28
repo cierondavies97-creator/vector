@@ -1,0 +1,6 @@
+"@=".
+weakref.getweakrefcount(object)
+   Return the number of weak references and proxies which refer to
+   *object*.
+weakref.getweakrefs(object)
+   Return a list of all weak reference and proxy objects which refer

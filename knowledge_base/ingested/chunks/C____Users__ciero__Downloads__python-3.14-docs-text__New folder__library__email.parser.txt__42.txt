@@ -1,0 +1,4 @@
+Return a message object structure tree from an open binary *file
+   object*.  This is equivalent to "BytesParser().parse(fp)".
+   *_class* and *policy* are interpreted as with the "BytesParser"
+   class constructor.

@@ -1,0 +1,4 @@
+*example*.  *out* is the output function that was passed to
+      "DocTestRunner.run()".
+   run(test, compileflags=None, out=None, clear_globs=True)
+      Run the examples in *test* (a "DocTest" object), and display the

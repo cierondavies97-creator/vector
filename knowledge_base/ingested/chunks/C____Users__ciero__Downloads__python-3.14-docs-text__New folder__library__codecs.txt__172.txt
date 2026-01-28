@@ -1,0 +1,4 @@
+INVERTED QUESTION MARK
+in iso-8859-1), this increases the probability that a "utf-8-sig"
+encoding can be correctly guessed from the byte sequence. So here the
+BOM is not used to be able to determine the byte order used for

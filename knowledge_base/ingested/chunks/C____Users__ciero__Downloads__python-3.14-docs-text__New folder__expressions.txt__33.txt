@@ -1,0 +1,4 @@
+clause, the comprehension is executed in a separate implicitly nested
+scope. This ensures that names assigned to in the target list don't
+"leak" into the enclosing scope.
+The iterable expression in the leftmost "for" clause is evaluated

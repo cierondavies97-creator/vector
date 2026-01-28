@@ -1,0 +1,5 @@
+if (!PyCallable_Check(temp)) {
+               PyErr_SetString(PyExc_TypeError, "parameter must be callable");
+               return NULL;
+           }
+           Py_XINCREF(temp);         /* Add a reference to new callback */

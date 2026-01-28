@@ -1,0 +1,3 @@
+will search the executable "PATH" for a Python executable matching the
+name provided as the first argument. This corresponds to the behaviour
+of the Unix "env" program, which performs a "PATH" search. If an

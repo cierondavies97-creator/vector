@@ -1,0 +1,7 @@
+see
+* Basic Tutorial
+* Advanced Tutorial
+* Logging Cookbook
+======================================================================
+This section describes the API for configuring the logging module.
+Configuration functions

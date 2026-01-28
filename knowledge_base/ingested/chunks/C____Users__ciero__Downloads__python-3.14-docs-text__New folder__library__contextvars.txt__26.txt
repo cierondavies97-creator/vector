@@ -1,0 +1,7 @@
+Example:
+         import contextvars
+         var = contextvars.ContextVar('var')
+         var.set('spam')
+         print(var.get())  # 'spam'
+         ctx = contextvars.copy_context()
+         def main():

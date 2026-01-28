@@ -1,0 +1,5 @@
+executable (additional arguments specified in the .INI will be quoted
+as part of the filename).
+   [commands]
+   /bin/xpython=C:\Program Files\XPython\python.exe
+Any commands not found in the .INI file are treated as **Windows**

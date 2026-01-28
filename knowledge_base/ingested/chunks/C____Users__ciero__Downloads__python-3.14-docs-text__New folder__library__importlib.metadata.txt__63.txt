@@ -1,0 +1,4 @@
+users wish to expose metadata through some other mechanism, such as
+alongside a custom importer. Such a use case calls for a *custom
+provider*.
+Because Distribution Package metadata is not available through

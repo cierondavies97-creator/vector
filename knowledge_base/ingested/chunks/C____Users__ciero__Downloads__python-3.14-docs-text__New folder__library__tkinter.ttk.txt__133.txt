@@ -1,0 +1,5 @@
+to resize the containing toplevel window by pressing and dragging the
+grip.
+This widget has neither specific options nor specific methods, besides
+the ones inherited from "ttk.Widget".
+Platform-specific notes

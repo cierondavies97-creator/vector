@@ -1,0 +1,4 @@
+Return a suite of all test cases contained in the given module.
+      This method searches *module* for classes derived from
+      "TestCase" and creates an instance of the class for each test
+      method defined for the class.

@@ -1,0 +1,4 @@
+Some email package methods accept a *policy* keyword argument,
+allowing the policy to be overridden for that method.  For example,
+the following code uses the "as_bytes()" method of the *msg* object
+from the previous example and writes the message to a file using the

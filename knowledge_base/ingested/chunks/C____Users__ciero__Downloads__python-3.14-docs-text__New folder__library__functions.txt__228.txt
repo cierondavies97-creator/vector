@@ -1,0 +1,4 @@
+is platform dependent (whatever "locale.getencoding()" returns),
+   but any *text encoding* supported by Python can be used. See the
+   "codecs" module for the list of supported encodings.
+   *errors* is an optional string that specifies how encoding and

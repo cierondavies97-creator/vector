@@ -1,0 +1,4 @@
+character set registry and several convenience methods for
+manipulating this registry. Instances of "Charset" are used in several
+other modules within the "email" package.
+Import this class from the "email.charset" module.

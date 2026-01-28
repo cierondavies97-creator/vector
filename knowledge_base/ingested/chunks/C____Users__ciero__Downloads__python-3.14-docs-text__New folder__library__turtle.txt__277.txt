@@ -1,0 +1,3 @@
+of "Turtle" and "TurtleScreen"/"Screen". Behind the scenes, a screen
+object is automatically created whenever a function derived from a
+"Screen" method is called. Similarly, a turtle object is automatically

@@ -1,0 +1,5 @@
+All that a client module must do in order to have access to the
+function "PySpam_System()" is to call the function (or rather macro)
+"import_spam()" in its "mod_exec" function:
+   static int
+   client_module_exec(PyObject *m)

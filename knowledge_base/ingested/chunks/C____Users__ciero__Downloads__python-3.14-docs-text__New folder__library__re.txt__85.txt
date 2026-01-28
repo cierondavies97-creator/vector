@@ -1,0 +1,3 @@
+"a|b" are allowed, but "a*" and "a{3,4}" are not.  Note that
+   patterns which start with positive lookbehind assertions will not
+   match at the beginning of the string being searched; you will most

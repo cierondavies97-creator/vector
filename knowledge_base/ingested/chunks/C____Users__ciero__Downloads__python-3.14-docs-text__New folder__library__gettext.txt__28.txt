@@ -1,0 +1,4 @@
+*fallback* is false (which is the default), and returns a
+   "NullTranslations" instance if *fallback* is true.
+   Changed in version 3.3: "IOError" used to be raised, it is now an
+   alias of "OSError".

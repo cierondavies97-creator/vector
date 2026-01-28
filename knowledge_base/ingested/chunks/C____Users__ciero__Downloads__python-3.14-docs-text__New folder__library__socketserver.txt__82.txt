@@ -1,0 +1,4 @@
+# Likewise, self.wfile is a file-like object used to write back
+           # to the client
+           self.wfile.write(self.data.upper())
+The difference is that the "readline()" call in the second handler

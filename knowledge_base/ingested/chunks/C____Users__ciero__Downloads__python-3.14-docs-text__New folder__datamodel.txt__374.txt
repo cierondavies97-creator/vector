@@ -1,0 +1,3 @@
+when the left argument does not support the operation but the right
+   argument does); rather, "__lt__()" and "__gt__()" are each other's
+   reflection, "__le__()" and "__ge__()" are each other's reflection,

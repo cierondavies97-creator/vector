@@ -1,0 +1,3 @@
+| "SyntaxWarning"                    | Base category for warnings about dubious        |
+|                                    | syntactic features (typically emitted when      |
+|                                    | compiling Python source code, and hence may not |

@@ -1,0 +1,4 @@
+one or more members is a forward reference. For example, "int |
+     "Foo"", where ""Foo"" is a reference to a class not yet defined,
+     will fail at runtime. For unions which include forward
+     references, present the whole expression as a string, e.g. ""int

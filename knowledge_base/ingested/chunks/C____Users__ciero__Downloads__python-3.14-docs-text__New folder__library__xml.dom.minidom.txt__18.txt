@@ -1,0 +1,5 @@
+between the API and "xml.dom.minidom".
+Node.unlink()
+   Break internal references within the DOM so that it will be garbage
+   collected on versions of Python without cyclic GC.  Even when
+   cyclic GC is available, using this can make large amounts of memory

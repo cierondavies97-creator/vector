@@ -1,0 +1,5 @@
+Type aliases are useful for simplifying *type hints*. For example:
+      def remove_gray_shades(
+              colors: list[tuple[int, int, int]]) -> list[tuple[int, int, int]]:
+          pass
+   could be made more readable like this:

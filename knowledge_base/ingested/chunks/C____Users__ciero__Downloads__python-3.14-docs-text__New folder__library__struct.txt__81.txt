@@ -1,0 +1,8 @@
+Module "json"
+     JSON encoder and decoder.
+  Module "pickle"
+     Python object serialization.
+Applications
+============
+Two main applications for the "struct" module exist, data interchange
+between Python and C code within an application or another application

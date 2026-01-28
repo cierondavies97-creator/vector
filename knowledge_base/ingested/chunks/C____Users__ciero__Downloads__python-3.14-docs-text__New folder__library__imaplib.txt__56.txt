@@ -1,0 +1,4 @@
+defaults to the top-level mail folder, and *pattern* defaults to
+   match anything.  Returned data contains a list of "LIST" responses.
+IMAP4.login(user, password)
+   Identify the client using a plaintext password. The *password* will

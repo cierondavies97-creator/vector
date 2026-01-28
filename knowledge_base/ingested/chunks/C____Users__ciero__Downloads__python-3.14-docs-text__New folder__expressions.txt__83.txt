@@ -1,0 +1,4 @@
+The proposal to introduce the "yield_from" syntax, making
+     delegation to subgenerators easy.
+  **PEP 525** - Asynchronous Generators
+     The proposal that expanded on **PEP 492** by adding generator

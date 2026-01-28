@@ -1,0 +1,6 @@
+build step in the Xcode project; see the iOS documentation for
+   details on how to construct this build step.
+   Added in version 3.13.
+   Availability: iOS.
+   name
+      Name of the module the loader supports.

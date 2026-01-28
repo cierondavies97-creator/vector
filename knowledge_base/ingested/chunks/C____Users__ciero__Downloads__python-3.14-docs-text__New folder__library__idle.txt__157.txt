@@ -1,0 +1,4 @@
+Navigate through the text with a mousewheel, the scrollbar, or up and
+down arrow keys held down. Or click the TOC (Table of Contents) button
+and select a section header in the opened box.
+Help menu entry "Python Docs" opens the extensive sources of help,

@@ -1,0 +1,4 @@
+"importlib.resources.files()" interface. Subclasses
+   "importlib.resources.abc.ResourceReader" and provides concrete
+   implementations of the "importlib.resources.abc.ResourceReader"'s
+   abstract methods. Therefore, any loader supplying

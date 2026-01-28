@@ -1,0 +1,5 @@
+address before connecting.
+      Raises an auditing event "ftplib.connect" with arguments "self",
+      "host", "port".
+      Changed in version 3.3: *source_address* parameter was added.
+   getwelcome()

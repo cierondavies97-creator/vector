@@ -1,0 +1,4 @@
+minute, second and microsecond of the result are all 0, and
+   "tzinfo" is "None".
+classmethod datetime.combine(date, time, tzinfo=time.tzinfo)
+   Return a new "datetime" object whose date components are equal to

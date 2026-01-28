@@ -1,0 +1,5 @@
+determine the shared library name at development time, and hardcode
+that into the wrapper module instead of using "find_library()" to
+locate the library at runtime.
+Listing loaded shared libraries
+-------------------------------

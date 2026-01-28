@@ -1,0 +1,4 @@
+SimpleXMLRPCServer.register_function(function=None, name=None)
+   Register a function that can respond to XML-RPC requests.  If
+   *name* is given, it will be the method name associated with
+   *function*, otherwise "function.__name__" will be used.  *name* is

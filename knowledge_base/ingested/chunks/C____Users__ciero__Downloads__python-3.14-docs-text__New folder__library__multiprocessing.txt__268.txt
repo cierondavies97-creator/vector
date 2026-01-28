@@ -1,0 +1,3 @@
+attributes which allow one to use it to store and retrieve strings
+   -- see documentation for "ctypes".
+multiprocessing.sharedctypes.Array(typecode_or_type, size_or_initializer, *, lock=True, ctx=None)

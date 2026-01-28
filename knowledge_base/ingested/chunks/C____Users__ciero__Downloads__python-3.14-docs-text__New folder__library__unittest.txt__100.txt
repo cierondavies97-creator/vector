@@ -1,0 +1,4 @@
+and the error would be less easy to diagnose because the value of "i"
+wouldn't be displayed:
+   ======================================================================
+   FAIL: test_even (__main__.NumbersTest.test_even)

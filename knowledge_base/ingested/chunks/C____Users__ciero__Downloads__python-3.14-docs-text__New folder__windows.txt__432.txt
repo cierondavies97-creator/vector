@@ -1,0 +1,4 @@
+implementations of the launcher - a 32-bit launcher will prefer to
+execute a 64-bit Python installation of the specified version if
+available. This is so the behavior of the launcher can be predicted
+knowing only what versions are installed on the PC and without regard

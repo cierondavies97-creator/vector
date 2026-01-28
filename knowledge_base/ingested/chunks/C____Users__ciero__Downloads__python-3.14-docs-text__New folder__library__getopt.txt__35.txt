@@ -1,0 +1,6 @@
+A roughly equivalent command line interface for this case can also be
+produced by using the "argparse" module:
+   import argparse
+   if __name__ == '__main__':
+       parser = argparse.ArgumentParser()
+       parser.add_argument('-o', '--output')

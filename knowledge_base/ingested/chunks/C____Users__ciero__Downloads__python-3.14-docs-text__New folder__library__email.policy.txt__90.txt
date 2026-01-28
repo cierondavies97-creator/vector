@@ -1,0 +1,3 @@
+The following instances of "EmailPolicy" provide defaults suitable for
+specific application domains.  Note that in the future the behavior of
+these instances (in particular the "HTTP" instance) may be adjusted to

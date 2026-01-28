@@ -1,0 +1,4 @@
+provides output from the child process. If the *encoding* or
+   *errors* arguments were specified or the *text* or
+   *universal_newlines* argument was "True", the stream is a text
+   stream, otherwise it is a byte stream. If the *stdout* argument was

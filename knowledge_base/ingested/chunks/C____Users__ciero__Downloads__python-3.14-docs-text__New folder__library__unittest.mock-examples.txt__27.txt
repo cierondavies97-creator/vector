@@ -1,0 +1,5 @@
+>>> mock.connection.cursor().execute("SELECT 1")
+['foo']
+>>> expected = call.connection.cursor().execute("SELECT 1").call_list()
+>>> mock.mock_calls
+[call.connection.cursor(), call.connection.cursor().execute('SELECT 1')]

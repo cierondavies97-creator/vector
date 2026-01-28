@@ -1,0 +1,5 @@
+Added in version 3.11.
+   Changed in version 3.12: This is no longer a pseudo-instruction.
+FOR_ITER(delta)
+   "STACK[-1]" is an *iterator*.  Call its "__next__()" method. If
+   this yields a new value, push it on the stack (leaving the iterator

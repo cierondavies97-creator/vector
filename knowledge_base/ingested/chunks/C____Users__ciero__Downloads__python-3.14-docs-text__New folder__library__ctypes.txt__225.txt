@@ -1,0 +1,4 @@
+Functions in these libraries use the standard C calling convention,
+   and are assumed to return int.
+   On Windows creating a "CDLL" instance may fail even if the DLL name
+   exists. When a dependent DLL of the loaded DLL is not found, a

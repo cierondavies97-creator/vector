@@ -1,0 +1,5 @@
+strings are searched directly, as if they were docstrings.
+   Only docstrings attached to objects belonging to module *m* are
+   searched.
+   Return "(failure_count, test_count)".
+   Optional argument *name* gives the name of the module; by default,

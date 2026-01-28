@@ -1,0 +1,4 @@
+When "asend()" is called to start the asynchronous generator, it
+   must be called with "None" as the argument, because there is no
+   yield expression that could receive the value.
+async agen.athrow(value)

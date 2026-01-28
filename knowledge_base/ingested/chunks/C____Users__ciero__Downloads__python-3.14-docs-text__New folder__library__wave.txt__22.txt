@@ -1,0 +1,5 @@
+rounded to the nearest integer.
+   setnframes(n)
+      Set the number of frames to *n*.  This will be changed later if
+      the number of frames actually written is different (this update
+      attempt will raise an error if the output stream is not

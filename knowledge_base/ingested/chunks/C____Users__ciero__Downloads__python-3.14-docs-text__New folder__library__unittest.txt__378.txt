@@ -1,0 +1,3 @@
+function does not exist, discovery will recurse into the package as
+though it were just another directory.  Otherwise, discovery of the
+package's tests will be left up to "load_tests" which is called with

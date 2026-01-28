@@ -1,0 +1,5 @@
+"collapse_rfc2231_value()" is not a tuple, it should be a string
+   and it is returned unquoted.
+email.utils.decode_params(params)
+   Decode parameters list according to **RFC 2231**.  *params* is a
+   sequence of 2-tuples containing elements of the form "(content-

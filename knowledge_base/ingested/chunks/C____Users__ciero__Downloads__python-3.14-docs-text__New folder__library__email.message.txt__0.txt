@@ -1,0 +1,5 @@
+"email.message": Representing an email message
+**********************************************
+**Source code:** Lib/email/message.py
+======================================================================
+Added in version 3.6: [1]

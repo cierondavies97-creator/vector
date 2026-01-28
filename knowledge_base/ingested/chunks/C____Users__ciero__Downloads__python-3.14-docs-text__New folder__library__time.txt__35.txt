@@ -1,0 +1,4 @@
+*secs* is not provided or "None", the current time as returned by
+   "time()" is used.  Fractions of a second are ignored.  See above
+   for a description of the "struct_time" object. See
+   "calendar.timegm()" for the inverse of this function.

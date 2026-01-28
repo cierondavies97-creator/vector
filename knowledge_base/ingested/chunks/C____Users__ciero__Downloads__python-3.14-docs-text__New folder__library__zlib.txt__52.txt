@@ -1,0 +1,5 @@
+Changed in version 3.8: Added "copy.copy()" and "copy.deepcopy()"
+support to decompression objects.
+The following constants are available to configure compression and
+decompression behavior:
+zlib.DEFLATED

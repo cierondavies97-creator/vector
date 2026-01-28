@@ -1,0 +1,4 @@
+*start_response* callable should follow the "StartResponse"
+      protocol.
+      The default implementation just uses the "error_status",
+      "error_headers", and "error_body" attributes to generate an

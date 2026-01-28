@@ -1,0 +1,3 @@
+| Resulting state      | "mboxMessage" or "MMDFMessage" state           |
+|======================|================================================|
+| "cur" subdirectory   | O flag                                         |

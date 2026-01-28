@@ -1,0 +1,6 @@
+earlier implementations and information about similar features in
+     other languages.
+Weak Reference Objects
+======================
+Weak reference objects have no methods and no attributes besides
+"ref.__callback__". A weak reference object allows the referent to be

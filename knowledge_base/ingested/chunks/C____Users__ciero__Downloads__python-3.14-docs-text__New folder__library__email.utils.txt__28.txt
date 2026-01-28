@@ -1,0 +1,5 @@
+numeric "-0000". This is needed for some protocols (such as HTTP).
+   This only applies when *localtime* is "False".  The default is
+   "False".
+email.utils.format_datetime(dt, usegmt=False)
+   Like "formatdate", but the input is a "datetime" instance.  If it

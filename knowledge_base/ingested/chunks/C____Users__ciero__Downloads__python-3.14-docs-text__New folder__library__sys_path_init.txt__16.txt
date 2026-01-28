@@ -1,0 +1,4 @@
+causes "sys.prefix" and "sys.exec_prefix" to point to them, instead of
+the base installation.
+The "prefix" and "exec_prefix" values of the base installation are
+available at "sys.base_prefix" and "sys.base_exec_prefix".

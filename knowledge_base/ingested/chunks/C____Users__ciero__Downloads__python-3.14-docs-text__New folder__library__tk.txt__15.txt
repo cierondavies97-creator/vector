@@ -1,0 +1,10 @@
+* Completions
+    * Calltips
+    * Code Context
+    * Shell window
+    * Text colors
+  * Startup and Code Execution
+    * Command-line usage
+    * Startup failure
+    * Running user code
+    * User output in Shell

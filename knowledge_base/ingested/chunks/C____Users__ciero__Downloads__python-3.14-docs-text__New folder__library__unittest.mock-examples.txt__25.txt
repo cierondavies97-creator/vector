@@ -1,0 +1,7 @@
+>>> mock = Mock()
+>>> mock.x = 3
+>>> mock.x
+3
+Sometimes you want to mock up a more complex situation, like for
+example "mock.connection.cursor().execute("SELECT 1")". If we wanted
+this call to return a list, then we have to configure the result of

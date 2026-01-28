@@ -1,0 +1,4 @@
+Convert doctest tests for a module to a "unittest.TestSuite".
+   The returned "unittest.TestSuite" is to be run by the unittest
+   framework and runs each doctest in the module. Each docstring is
+   run as a separate unit test. If any of the doctests fail, then the

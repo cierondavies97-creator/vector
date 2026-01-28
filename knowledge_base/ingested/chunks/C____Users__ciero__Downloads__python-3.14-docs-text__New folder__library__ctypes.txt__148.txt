@@ -1,0 +1,4 @@
+From Python 3.13 onward, the *GIL* can be disabled on *free threaded*
+builds. In ctypes, reads and writes to a single object concurrently is
+safe, but not across multiple objects:
+      >>> number = c_int(42)

@@ -1,0 +1,5 @@
+dictionary is generated if necessary and passed by default when
+   decompressing.
+      dict_content
+         The content of the Zstandard dictionary, a "bytes" object.
+         It's the same as the *dict_content* argument in the

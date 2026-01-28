@@ -1,0 +1,6 @@
+and "version_info" constants.
+Connection objects
+------------------
+class sqlite3.Connection
+   Each open SQLite database is represented by a "Connection" object,
+   which is created using "sqlite3.connect()". Their main purpose is

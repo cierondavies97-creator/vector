@@ -1,0 +1,3 @@
+Optionally, the string may also have a scope zone ID, expressed
+      with a suffix "%scope_id". If present, the scope ID must be non-
+      empty, and may not contain "%". See **RFC 4007** for details.

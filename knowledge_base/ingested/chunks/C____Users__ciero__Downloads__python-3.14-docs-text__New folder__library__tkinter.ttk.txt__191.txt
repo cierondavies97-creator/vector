@@ -1,0 +1,5 @@
+| cell        | A data cell.                           |
+      +-------------+----------------------------------------+
+      Availability: Tk 8.6.
+   identify_element(x, y)
+      Returns the element at position *x*, *y*.

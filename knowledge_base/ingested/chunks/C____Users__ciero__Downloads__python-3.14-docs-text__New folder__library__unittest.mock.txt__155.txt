@@ -1,0 +1,8 @@
+[]
+      >>> asyncio.run(main('foo'))
+      >>> mock.await_args_list
+      [call('foo')]
+      >>> asyncio.run(main('bar'))
+      >>> mock.await_args_list
+      [call('foo'), call('bar')]
+class unittest.mock.ThreadingMock(spec=None, side_effect=None, return_value=DEFAULT, wraps=None, name=None, spec_set=None, unsafe=False, *, timeout=UNSET, **kwargs)

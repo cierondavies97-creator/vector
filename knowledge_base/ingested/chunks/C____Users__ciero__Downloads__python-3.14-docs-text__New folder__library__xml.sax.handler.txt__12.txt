@@ -1,0 +1,4 @@
+false: Names are not necessarily interned, although they may be (default).
+      access: (parsing) read-only; (not parsing) read/write
+xml.sax.handler.feature_validation
+      value: ""http://xml.org/sax/features/validation""

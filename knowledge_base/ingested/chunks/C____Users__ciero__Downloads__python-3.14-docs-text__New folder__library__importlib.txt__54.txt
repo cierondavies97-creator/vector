@@ -1,0 +1,7 @@
+that some of these attributes can change when a module is
+      reloaded):
+      * "module.__name__"
+      * "module.__file__"
+      * "module.__cached__" *(deprecated)*
+      * "module.__path__"
+      * "module.__package__" *(deprecated)*

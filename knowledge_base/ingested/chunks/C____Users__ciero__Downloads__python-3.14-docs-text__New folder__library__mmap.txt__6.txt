@@ -1,0 +1,4 @@
+available to the mapping.
+For both the Unix and Windows versions of the constructor, *access*
+may be specified as an optional keyword parameter. *access* accepts
+one of four values: "ACCESS_READ", "ACCESS_WRITE", or "ACCESS_COPY" to

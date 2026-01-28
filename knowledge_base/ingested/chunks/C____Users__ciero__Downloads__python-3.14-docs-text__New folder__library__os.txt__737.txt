@@ -1,0 +1,5 @@
+available immediately.
+   Availability: Unix, not WASI, not Android, not iOS.
+os.WNOWAIT
+   This *options* flag causes "waitid()" to leave the child in a
+   waitable state, so that a later "wait*()" call can be used to

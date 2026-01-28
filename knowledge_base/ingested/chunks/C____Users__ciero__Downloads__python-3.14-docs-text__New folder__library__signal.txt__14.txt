@@ -1,0 +1,6 @@
+"enum.IntEnum" collection of SIG* constants and the CTRL_*
+   constants.
+   Added in version 3.5.
+class signal.Handlers
+   "enum.IntEnum" collection the constants "SIG_DFL" and "SIG_IGN".
+   Added in version 3.5.

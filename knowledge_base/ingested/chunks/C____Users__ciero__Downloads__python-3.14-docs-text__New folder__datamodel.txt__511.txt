@@ -1,0 +1,4 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usually, the subscription of an object using square brackets will call
+the "__getitem__()" instance method defined on the object's class.
+However, if the object being subscribed is itself a class, the class

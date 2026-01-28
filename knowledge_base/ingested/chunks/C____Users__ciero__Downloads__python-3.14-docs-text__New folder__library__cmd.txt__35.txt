@@ -1,0 +1,3 @@
+"sys.stdout.write()" and "sys.stdin.readline()" are used. (This
+   means that by importing "readline", on systems that support it, the
+   interpreter will automatically support **Emacs**-like line editing

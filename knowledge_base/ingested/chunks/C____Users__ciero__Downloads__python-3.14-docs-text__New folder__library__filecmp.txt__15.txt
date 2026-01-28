@@ -1,0 +1,8 @@
+lazily, so there is no speed penalty if only those attributes which
+   are lightweight to compute are used.
+   left
+      The directory *a*.
+   right
+      The directory *b*.
+   left_list
+      Files and subdirectories in *a*, filtered by *hide* and

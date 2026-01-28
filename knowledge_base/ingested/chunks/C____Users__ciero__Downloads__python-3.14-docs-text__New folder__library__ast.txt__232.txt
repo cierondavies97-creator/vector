@@ -1,0 +1,5 @@
+pattern=MatchSingleton(value=None),
+                          body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])
+   Added in version 3.10.

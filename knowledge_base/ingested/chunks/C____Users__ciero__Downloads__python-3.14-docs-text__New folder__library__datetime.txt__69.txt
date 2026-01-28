@@ -1,0 +1,5 @@
+idealized calendar, the current Gregorian calendar indefinitely
+extended in both directions.
+January 1 of year 1 is called day number 1, January 2 of year 1 is
+called day number 2, and so on. [2]
+class datetime.date(year, month, day)

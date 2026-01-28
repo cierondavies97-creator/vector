@@ -1,0 +1,4 @@
+match with some non-ASCII characters. That's why we use the local
+    "a" flag here.
+  Changed in version 3.7: *braceidpattern* can be used to define
+  separate patterns used inside and outside the braces.

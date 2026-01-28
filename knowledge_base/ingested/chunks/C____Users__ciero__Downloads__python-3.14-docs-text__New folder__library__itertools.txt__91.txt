@@ -1,0 +1,4 @@
+exhausted, if at all.  Otherwise, it stops at the specified
+   position.
+   If *step* is "None", the step defaults to one.  Elements are
+   returned consecutively unless *step* is set higher than one which

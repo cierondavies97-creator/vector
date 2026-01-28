@@ -1,0 +1,5 @@
+python -m pdb -p 1234
+Note:
+  Attaching to a process that is blocked in a system call or waiting
+  for I/O will only work once the next bytecode instruction is
+  executed or when the process receives a signal.

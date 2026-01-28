@@ -1,0 +1,3 @@
+created by processes of the program.  When all processes have exited
+the resource tracker unlinks any remaining tracked object. Usually
+there should be none, but if a process was killed by a signal there

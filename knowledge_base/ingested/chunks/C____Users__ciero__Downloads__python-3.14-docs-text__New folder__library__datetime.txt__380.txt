@@ -1,0 +1,5 @@
+Added in version 3.2.
+   Changed in version 3.7: The UTC offset is not restricted to a whole
+   number of minutes.
+timezone.utcoffset(dt)
+   Return the fixed value specified when the "timezone" instance is

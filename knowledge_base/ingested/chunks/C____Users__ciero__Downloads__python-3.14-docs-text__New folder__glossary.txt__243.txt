@@ -1,0 +1,3 @@
+reentrant, meaning a thread that already holds the lock can acquire
+   it again without blocking.  In contrast, "threading.Lock" is not
+   reentrant - attempting to acquire it twice from the same thread

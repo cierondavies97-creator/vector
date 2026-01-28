@@ -1,0 +1,5 @@
+search_log
+      Number of search attempts, as a power of two. More attempts
+      result in better and slower compression. This parameter is
+      useless for "fast" and "dfast" strategies.
+      A value of zero causes the value to be selected automatically.

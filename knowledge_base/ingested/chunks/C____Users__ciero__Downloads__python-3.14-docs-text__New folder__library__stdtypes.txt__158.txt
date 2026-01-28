@@ -1,0 +1,4 @@
+sequence of items with index  "x = i + n*k" such that "0 <= n <
+   (j-i)/k".  In other words, the indices are "i", "i+k", "i+2*k",
+   "i+3*k" and so on, stopping when *j* is reached (but never
+   including *j*).  When *k* is positive, *i* and *j* are reduced to

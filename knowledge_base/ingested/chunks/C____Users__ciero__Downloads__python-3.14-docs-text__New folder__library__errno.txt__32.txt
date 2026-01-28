@@ -1,0 +1,10 @@
+errno.ENOKEY
+   Required key not available
+errno.EKEYEXPIRED
+   Key has expired
+errno.EKEYREVOKED
+   Key has been revoked
+errno.EKEYREJECTED
+   Key was rejected by service
+errno.ERFKILL
+   Operation not possible due to RF-kill

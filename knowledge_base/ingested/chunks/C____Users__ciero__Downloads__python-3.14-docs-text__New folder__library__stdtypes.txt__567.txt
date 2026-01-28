@@ -1,0 +1,5 @@
+bytes.lstrip(bytes=None, /)
+bytearray.lstrip(bytes=None, /)
+   Return a copy of the sequence with specified leading bytes removed.
+   The *bytes* argument is a binary sequence specifying the set of
+   byte values to be removed.  If omitted or "None", the *bytes*

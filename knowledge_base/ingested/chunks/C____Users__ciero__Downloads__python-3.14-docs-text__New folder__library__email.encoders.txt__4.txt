@@ -1,0 +1,4 @@
+"encoders" module.  These encoders are actually used by the
+"MIMEAudio" and "MIMEImage" class constructors to provide default
+encodings.  All encoder functions take exactly one argument, the
+message object to encode.  They usually extract the payload, encode

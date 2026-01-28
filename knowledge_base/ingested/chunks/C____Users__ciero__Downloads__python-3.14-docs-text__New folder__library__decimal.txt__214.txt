@@ -1,0 +1,4 @@
+"InvalidOperation" is not trapped, then results in
+      "Decimal('NaN')".
+      Changed in version 3.3: The C module computes "power()" in terms
+      of the correctly rounded "exp()" and "ln()" functions. The

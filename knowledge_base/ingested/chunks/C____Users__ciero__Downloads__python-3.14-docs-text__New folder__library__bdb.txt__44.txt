@@ -1,0 +1,4 @@
+in the next call to one of the "dispatch_*()" methods.
+   Derived classes and clients can call the following methods to
+   manipulate breakpoints.  These methods return a string containing
+   an error message if something went wrong, or "None" if all is well.

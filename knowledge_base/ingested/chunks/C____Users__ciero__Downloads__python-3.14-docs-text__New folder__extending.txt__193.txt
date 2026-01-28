@@ -1,0 +1,5 @@
+associated with it, thereby invalidating "item".
+The solution, once you know the source of the problem, is easy:
+temporarily increment the reference count.  The correct version of the
+function reads:
+   void

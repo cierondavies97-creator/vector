@@ -1,0 +1,6 @@
+>>> parser.parse_args(['-1', 'X'])
+   Namespace(foo=None, one='X')
+   >>> # negative number options present, so -2 is an option
+   >>> parser.parse_args(['-2'])
+   usage: PROG [-h] [-1 ONE] [foo]
+   PROG: error: no such option: -2

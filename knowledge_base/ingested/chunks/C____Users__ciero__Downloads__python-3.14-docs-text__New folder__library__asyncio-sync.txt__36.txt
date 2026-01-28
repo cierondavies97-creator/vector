@@ -1,0 +1,7 @@
+"ValueError" in "release()" if it increases the internal counter
+   above the initial *value*.
+   Changed in version 3.10: Removed the *loop* parameter.
+Barrier
+=======
+class asyncio.Barrier(parties)
+   A barrier object.  Not thread-safe.

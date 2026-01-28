@@ -1,0 +1,5 @@
+function.  A reference to "d.parents" is equivalent to:
+      "ChainMap(*d.maps[1:])".
+   Note, the iteration order of a "ChainMap" is determined by scanning
+   the mappings last to first:
+      >>> baseline = {'music': 'bach', 'art': 'rembrandt'}

@@ -1,0 +1,4 @@
+Represents the C PyObject* datatype.  Calling this without an
+   argument creates a "NULL" PyObject* pointer.
+   Changed in version 3.14: "py_object" is now a *generic type*.
+The "ctypes.wintypes" module provides quite some other Windows

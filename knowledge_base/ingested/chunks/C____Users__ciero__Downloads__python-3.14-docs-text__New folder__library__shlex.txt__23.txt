@@ -1,0 +1,6 @@
+POSIX mode).
+shlex.push_token(str)
+   Push the argument onto the token stack.
+shlex.read_token()
+   Read a raw token.  Ignore the pushback stack, and do not interpret
+   source requests.  (This is not ordinarily a useful entry point, and

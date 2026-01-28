@@ -1,0 +1,4 @@
+objects which provided well-known interfaces.
+The DOM is extremely useful for random-access applications.  SAX only
+allows you a view of one bit of the document at a time.  If you are
+looking at one SAX element, you have no access to another.  If you are

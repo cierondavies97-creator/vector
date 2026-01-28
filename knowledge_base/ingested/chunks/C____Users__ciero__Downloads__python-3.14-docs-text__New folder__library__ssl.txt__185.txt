@@ -1,0 +1,5 @@
+Added in version 3.8.
+SSLSocket.version()
+   Return the actual SSL protocol version negotiated by the connection
+   as a string, or "None" if no secure connection is established. As
+   of this writing, possible return values include ""SSLv2"",

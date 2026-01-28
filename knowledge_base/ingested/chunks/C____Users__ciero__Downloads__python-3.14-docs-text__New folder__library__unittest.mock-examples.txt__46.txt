@@ -1,0 +1,4 @@
+the mock, you can use auto-speccing.
+If you want a stronger form of specification that prevents the setting
+of arbitrary attributes as well as the getting of them then you can
+use *spec_set* instead of *spec*.

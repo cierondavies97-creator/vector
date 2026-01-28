@@ -1,0 +1,5 @@
+files in each directory under the starting directory, except that
+   it doesn't look under any "__pycache__" subdirectory:
+      import os
+      from os.path import join, getsize
+      for root, dirs, files in os.walk('python/Lib/xml'):

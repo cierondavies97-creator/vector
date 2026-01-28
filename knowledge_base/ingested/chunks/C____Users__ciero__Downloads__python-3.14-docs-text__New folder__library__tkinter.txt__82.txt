@@ -1,0 +1,7 @@
+from).
+Threading model
+===============
+Python and Tcl/Tk have very different threading models, which
+"tkinter" tries to bridge. If you use threads, you may need to be
+aware of this.
+A Python interpreter may have many threads associated with it. In Tcl,

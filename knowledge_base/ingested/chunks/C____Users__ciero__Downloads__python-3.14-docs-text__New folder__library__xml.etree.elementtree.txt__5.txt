@@ -1,0 +1,6 @@
+XML element and its sub-elements are done on the "Element" level.
+Parsing XML
+-----------
+We'll be using the fictive "country_data.xml" XML document as the
+sample data for this section:
+   <?xml version="1.0"?>

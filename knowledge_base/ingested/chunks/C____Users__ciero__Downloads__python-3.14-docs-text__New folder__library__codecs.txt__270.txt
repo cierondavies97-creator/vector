@@ -1,0 +1,4 @@
+|                      |           | literal in ASCII- encoded   |
+|                      |           | Python source code, except  |
+|                      |           | that quotes are not         |
+|                      |           | escaped. Decode from        |

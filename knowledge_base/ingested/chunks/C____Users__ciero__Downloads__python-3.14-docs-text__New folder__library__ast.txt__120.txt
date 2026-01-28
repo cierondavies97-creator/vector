@@ -1,0 +1,5 @@
+and "ctx" is "Load", "Store" or "Del" according to how the
+   attribute is acted on.
+      >>> print(ast.dump(ast.parse('snake.colour', mode='eval'), indent=4))
+      Expression(
+          body=Attribute(

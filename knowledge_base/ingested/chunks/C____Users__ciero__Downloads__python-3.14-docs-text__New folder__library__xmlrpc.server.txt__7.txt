@@ -1,0 +1,4 @@
+false allows code to manipulate the *allow_reuse_address* class
+   variable before the address is bound. The *use_builtin_types*
+   parameter is passed to the "loads()" function and controls which
+   types are processed when date/times values or binary data are

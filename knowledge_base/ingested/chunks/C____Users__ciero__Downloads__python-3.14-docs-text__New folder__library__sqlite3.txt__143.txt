@@ -1,0 +1,5 @@
+well-known extension is the fulltext-search extension
+      distributed with SQLite.
+      Note:
+        The "sqlite3" module is not built with loadable extension
+        support by default, because some platforms (notably macOS)

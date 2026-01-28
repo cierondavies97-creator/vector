@@ -1,0 +1,7 @@
+'knights',
+       'ni']
+   >>> pp = pprint.PrettyPrinter(width=41, compact=True)
+   >>> pp.pprint(stuff)
+   [['spam', 'eggs', 'lumberjack',
+     'knights', 'ni'],
+    'spam', 'eggs', 'lumberjack', 'knights',

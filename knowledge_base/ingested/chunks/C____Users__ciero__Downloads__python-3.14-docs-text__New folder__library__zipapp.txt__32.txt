@@ -1,0 +1,3 @@
+To update the file in place, do the replacement in memory using a
+"BytesIO" object, and then overwrite the source afterwards.  Note that
+there is a risk when overwriting a file in place that an error will

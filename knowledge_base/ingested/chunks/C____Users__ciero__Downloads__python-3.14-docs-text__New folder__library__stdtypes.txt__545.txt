@@ -1,0 +1,5 @@
+this method.
+static bytes.maketrans(from, to, /)
+static bytearray.maketrans(from, to, /)
+   This static method returns a translation table usable for
+   "bytes.translate()" that will map each character in *from* into the

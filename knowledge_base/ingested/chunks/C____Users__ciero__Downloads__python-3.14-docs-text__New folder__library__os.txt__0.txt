@@ -1,0 +1,5 @@
+"os" --- Miscellaneous operating system interfaces
+**************************************************
+**Source code:** Lib/os.py
+======================================================================
+This module provides a portable way of using operating system

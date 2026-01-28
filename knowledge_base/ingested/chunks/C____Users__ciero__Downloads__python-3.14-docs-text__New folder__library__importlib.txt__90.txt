@@ -1,0 +1,4 @@
+file path. Any intermediate directories which do not exist are
+      to be created automatically.
+      When writing to the path fails because the path is read-only
+      ("errno.EACCES"/"PermissionError"), do not propagate the

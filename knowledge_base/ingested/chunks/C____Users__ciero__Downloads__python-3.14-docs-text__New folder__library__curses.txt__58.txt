@@ -1,0 +1,4 @@
+given number of lines and columns.  Return a pad as a window
+   object.
+   A pad is like a window, except that it is not restricted by the
+   screen size, and is not necessarily associated with a particular

@@ -1,0 +1,4 @@
+Usage of the DOM interface in Python is straight-forward.  The
+following mapping rules apply:
+* Interfaces are accessed through instance objects. Applications
+  should not instantiate the classes themselves; they should use the

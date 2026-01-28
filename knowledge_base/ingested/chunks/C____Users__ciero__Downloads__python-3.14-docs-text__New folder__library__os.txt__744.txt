@@ -1,0 +1,5 @@
+See also:
+     "WIFEXITED()", "WEXITSTATUS()", "WIFSIGNALED()", "WTERMSIG()",
+     "WIFSTOPPED()", "WSTOPSIG()" functions.
+   Availability: Unix, Windows, not WASI, not Android, not iOS.
+   Added in version 3.9.

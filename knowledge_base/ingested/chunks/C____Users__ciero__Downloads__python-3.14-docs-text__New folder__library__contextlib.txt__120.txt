@@ -1,0 +1,5 @@
+function, then it is still possible to use the decorator form of
+"ExitStack.callback()" to declare the resource cleanup in advance:
+   from contextlib import ExitStack
+   with ExitStack() as stack:
+       @stack.callback

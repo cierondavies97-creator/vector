@@ -1,0 +1,6 @@
+as this is specific to the implementation of the asynchronous
+     execution framework (e.g. "asyncio") that will be managing the
+     *awaitable* object.
+Added in version 3.5.
+See also:
+  **PEP 492** for additional information about awaitable objects.

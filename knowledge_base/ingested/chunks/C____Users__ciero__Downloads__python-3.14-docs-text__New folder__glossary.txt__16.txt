@@ -1,0 +1,4 @@
+where the intended meaning isn't clear, using the full terms avoids
+   ambiguity.
+   An asynchronous generator function may contain "await" expressions
+   as well as "async for", and "async with" statements.

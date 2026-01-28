@@ -1,0 +1,4 @@
+process used by the manager completes in the "shutdown()" method.
+   If the shutdown times out, the process is terminated. If
+   terminating the process also times out, the process is killed.
+   Changed in version 3.11: Added the *shutdown_timeout* parameter.

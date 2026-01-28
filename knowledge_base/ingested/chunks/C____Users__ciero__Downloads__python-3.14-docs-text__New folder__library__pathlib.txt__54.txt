@@ -1,0 +1,6 @@
+['.tar', '.gar']
+      >>> PurePosixPath('my/library.tar.gz').suffixes
+      ['.tar', '.gz']
+      >>> PurePosixPath('my/library').suffixes
+      []
+   Changed in version 3.14: A single dot (""."") is considered a valid

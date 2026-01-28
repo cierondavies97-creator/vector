@@ -1,0 +1,6 @@
+the module. It accepts a URL as the argument. It accepts the following
+optional parameters:
+-n, --new-window
+   Opens the URL in a new browser window, if possible.
+-t, --new-tab
+   Opens the URL in a new browser tab.

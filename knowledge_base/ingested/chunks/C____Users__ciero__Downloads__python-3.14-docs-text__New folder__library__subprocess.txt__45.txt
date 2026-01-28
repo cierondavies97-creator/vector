@@ -1,0 +1,4 @@
+*errors* specified in the call or the defaults for
+   "io.TextIOWrapper".
+   For *stdin*, line ending characters "'\n'" in the input will be
+   converted to the default line separator "os.linesep". For *stdout*

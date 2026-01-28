@@ -1,0 +1,4 @@
+about internal or otherwise unobservable actions, whether by Python
+   or libraries written in Python. They are not suitable for
+   implementing a "sandbox". In particular, malicious code can
+   trivially disable or bypass hooks added using this function. At a

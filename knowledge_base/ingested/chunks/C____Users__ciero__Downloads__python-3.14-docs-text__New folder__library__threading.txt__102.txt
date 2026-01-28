@@ -1,0 +1,4 @@
+"RuntimeError" will be raised.
+Locks also support the context management protocol.
+When more than one thread is blocked in "acquire()" waiting for the
+state to turn to unlocked, only one thread proceeds when a "release()"

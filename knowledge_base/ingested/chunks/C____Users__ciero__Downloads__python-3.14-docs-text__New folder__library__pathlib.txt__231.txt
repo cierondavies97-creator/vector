@@ -1,0 +1,7 @@
+"glob()" and "rglob()":
+"**" (entire segment)
+   Matches any number of file or directory segments, including zero.
+"*" (entire segment)
+   Matches one file or directory segment.
+"*" (part of a segment)
+   Matches any number of non-separator characters, including zero.

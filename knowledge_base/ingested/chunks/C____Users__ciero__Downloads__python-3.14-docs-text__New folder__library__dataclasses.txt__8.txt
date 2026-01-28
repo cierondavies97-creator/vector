@@ -1,0 +1,4 @@
+order in which they appear in the class definition.
+   The "@dataclass" decorator will add various "dunder" methods to the
+   class, described below.  If any of the added methods already exist
+   in the class, the behavior depends on the parameter, as documented

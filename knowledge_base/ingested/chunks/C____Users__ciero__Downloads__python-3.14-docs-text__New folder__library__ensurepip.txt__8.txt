@@ -1,0 +1,5 @@
+otherwise does nothing. To ensure the installed version of "pip" is at
+least as recent as the one available in "ensurepip", pass the "--
+upgrade" option:
+   python -m ensurepip --upgrade
+By default, "pip" is installed into the current virtual environment

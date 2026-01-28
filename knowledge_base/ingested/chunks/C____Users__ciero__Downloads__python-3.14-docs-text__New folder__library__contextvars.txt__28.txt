@@ -1,0 +1,5 @@
+# Now, after setting 'var' to 'ham':
+             print(var.get())  # 'ham'
+             print(ctx[var])  # 'ham'
+         # Any changes that the 'main' function makes to 'var'
+         # will be contained in 'ctx'.

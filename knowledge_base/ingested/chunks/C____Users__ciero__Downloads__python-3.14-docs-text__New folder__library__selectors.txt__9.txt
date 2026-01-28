@@ -1,0 +1,4 @@
+| selectors.EVENT_WRITE   | Available for write                             |
+   +-------------------------+-------------------------------------------------+
+class selectors.SelectorKey
+   A "SelectorKey" is a "namedtuple" used to associate a file object

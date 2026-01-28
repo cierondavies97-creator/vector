@@ -1,0 +1,8 @@
+return self
+       async def __anext__(self):
+           val = await self.readline()
+           if val == b'':
+               raise StopAsyncIteration
+           return val
+Added in version 3.5.
+Changed in version 3.7: Prior to Python 3.7, "__aiter__()" could

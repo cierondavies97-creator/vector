@@ -1,0 +1,8 @@
+"year": 1971
+          },
+          {
+              "title": "Monty Python and the Holy Grail",
+              "year": 1975
+          }
+      ]
+   If *infile* is not specified, read from "sys.stdin".

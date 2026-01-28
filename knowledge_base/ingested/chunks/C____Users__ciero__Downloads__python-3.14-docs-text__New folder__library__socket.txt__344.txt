@@ -1,0 +1,5 @@
+data = s.recv(1024)
+   print('Received', repr(data))
+The next example shows how to write a very simple network sniffer with
+raw sockets on Windows. The example requires administrator privileges
+to modify the interface:

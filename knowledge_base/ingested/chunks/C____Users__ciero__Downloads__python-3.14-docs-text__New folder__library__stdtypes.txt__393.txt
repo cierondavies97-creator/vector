@@ -1,0 +1,4 @@
+at the start or end if the string has leading or trailing
+   whitespace.  Consequently, splitting an empty string or a string
+   consisting of just whitespace with a "None" separator returns "[]".
+   For example:

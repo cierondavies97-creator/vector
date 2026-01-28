@@ -1,0 +1,4 @@
+statement immediately following the "with" statement. Otherwise the
+   exception continues propagating after this method has finished
+   executing.
+   If this method raises an exception while handling an earlier

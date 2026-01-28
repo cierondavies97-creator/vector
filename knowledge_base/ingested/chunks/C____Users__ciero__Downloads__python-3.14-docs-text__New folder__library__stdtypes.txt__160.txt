@@ -1,0 +1,4 @@
+the sign of *k*).  Note, *k* cannot be zero. If *k* is "None", it
+   is treated like "1".
+6. Concatenating immutable sequences always results in a new object.
+   This means that building up a sequence by repeated concatenation

@@ -1,0 +1,3 @@
+Finds all matching subelements, by tag name or path.  Returns an
+      iterable yielding all matching elements in document order.
+      *namespaces* is an optional mapping from namespace prefix to

@@ -1,0 +1,4 @@
+is parsed, argument values will be checked, and an error message will
+be displayed if the argument was not one of the acceptable values:
+   >>> parser = argparse.ArgumentParser(prog='game.py')
+   >>> parser.add_argument('move', choices=['rock', 'paper', 'scissors'])

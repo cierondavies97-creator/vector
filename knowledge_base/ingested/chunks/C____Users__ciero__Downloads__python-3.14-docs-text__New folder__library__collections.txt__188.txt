@@ -1,0 +1,5 @@
+return self.cache[args]
+           result = self.func(*args)
+           self.requests[args] = self.requests.get(args, 0) + 1
+           if self.requests[args] <= self.cache_after:
+               self.requests.move_to_end(args)

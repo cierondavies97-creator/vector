@@ -1,0 +1,3 @@
+| "Control"-"K"      | If line is blank, delete it, otherwise      |
+      |                    | clear to end of line.                       |
+      +--------------------+---------------------------------------------+

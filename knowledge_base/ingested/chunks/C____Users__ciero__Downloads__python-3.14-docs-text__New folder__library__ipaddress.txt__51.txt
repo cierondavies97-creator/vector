@@ -1,0 +1,4 @@
+in groups omitted and the longest sequence of groups consisting
+   entirely of zeroes collapsed to a single empty group.
+   This is also the value returned by "str(addr)" for IPv6 addresses.
+   exploded

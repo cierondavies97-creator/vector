@@ -1,0 +1,7 @@
+cookies to Netscape cookies, in which case "version" is 0.
+Cookie.name
+   Cookie name (a string).
+Cookie.value
+   Cookie value (a string), or "None".
+Cookie.port
+   String representing a port or a set of ports (eg. '80', or

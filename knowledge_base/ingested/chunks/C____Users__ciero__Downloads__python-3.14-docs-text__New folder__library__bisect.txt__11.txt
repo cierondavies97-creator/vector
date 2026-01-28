@@ -1,0 +1,4 @@
+bisect.bisect(a, x, lo=0, hi=len(a), *, key=None)
+   Similar to "bisect_left()", but returns an insertion point which
+   comes after (to the right of) any existing entries of *x* in *a*.
+   The returned insertion point *ip* partitions the array *a* into two

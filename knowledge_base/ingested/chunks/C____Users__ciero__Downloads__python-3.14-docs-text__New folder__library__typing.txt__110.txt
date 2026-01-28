@@ -1,0 +1,6 @@
+Moreover, by subclassing a special class "Protocol", a user can define
+new custom protocols to fully enjoy structural subtyping (see examples
+below).
+Module contents
+===============
+The "typing" module defines the following classes, functions and

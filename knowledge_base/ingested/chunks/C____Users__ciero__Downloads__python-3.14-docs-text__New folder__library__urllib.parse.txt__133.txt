@@ -1,0 +1,4 @@
+parameters in the encoded string will match the order of parameter
+   tuples in the sequence.
+   The *safe*, *encoding*, and *errors* parameters are passed down to
+   *quote_via* (the *encoding* and *errors* parameters are only passed

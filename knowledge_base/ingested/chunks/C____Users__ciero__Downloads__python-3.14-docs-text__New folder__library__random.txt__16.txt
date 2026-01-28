@@ -1,0 +1,4 @@
+types: "None", "int", "float", "str", "bytes", or "bytearray".
+random.getstate()
+   Return an object capturing the current internal state of the
+   generator.  This object can be passed to "setstate()" to restore

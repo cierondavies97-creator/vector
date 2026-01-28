@@ -1,0 +1,5 @@
+"os.altsep" then files will not match.
+   If *include_hidden* is true, ""**"" pattern will match hidden
+   directories.
+   Raises an auditing event "glob.glob" with arguments "pathname",
+   "recursive".

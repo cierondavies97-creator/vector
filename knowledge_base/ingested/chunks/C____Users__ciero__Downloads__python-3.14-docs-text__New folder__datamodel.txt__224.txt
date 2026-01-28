@@ -1,0 +1,4 @@
+extension modules).
+The objects "sys.stdin", "sys.stdout" and "sys.stderr" are initialized
+to file objects corresponding to the interpreter's standard input,
+output and error streams; they are all open in text mode and therefore

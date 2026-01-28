@@ -1,0 +1,4 @@
+"XMLReader.parse()" method and for returning from
+   EntityResolver.resolveEntity.
+   An "InputSource" belongs to the application, the "XMLReader" is not
+   allowed to modify "InputSource" objects passed to it from the

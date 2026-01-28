@@ -1,0 +1,6 @@
+assert Annotated[int, ValueRange(3, 10)] != Annotated[
+          int, ValueRange(3, 10), ValueRange(3, 10)
+      ]
+   "Annotated" can be used with nested and generic aliases:
+         @dataclass
+         class MaxLen:

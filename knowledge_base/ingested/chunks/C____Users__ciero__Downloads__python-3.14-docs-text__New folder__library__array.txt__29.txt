@@ -1,0 +1,5 @@
+not an array, it must be iterable and its elements must be the
+      right type to be appended to the array.
+   frombytes(buffer)
+      Appends items from the *bytes-like object*, interpreting its
+      content as an array of machine values (as if it had been read

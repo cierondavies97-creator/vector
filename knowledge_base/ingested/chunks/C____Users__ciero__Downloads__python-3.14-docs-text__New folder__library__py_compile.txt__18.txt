@@ -1,0 +1,4 @@
+An enumeration of possible methods the interpreter can use to
+   determine whether a bytecode file is up to date with a source file.
+   The ".pyc" file indicates the desired invalidation mode in its
+   header. See Cached bytecode invalidation for more information on

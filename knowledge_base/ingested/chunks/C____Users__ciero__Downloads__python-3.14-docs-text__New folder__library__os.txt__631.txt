@@ -1,0 +1,6 @@
+"EAGAIN" rather than blocking.
+   Availability: Linux >= 5.10
+   Added in version 3.12.
+os.plock(op, /)
+   Lock program segments into memory.  The value of *op* (defined in
+   "<sys/lock.h>") determines which segments are locked.

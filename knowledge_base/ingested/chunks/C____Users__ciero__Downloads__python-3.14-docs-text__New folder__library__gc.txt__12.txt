@@ -1,0 +1,5 @@
+Changed in version 3.14: Generation 1 is removed
+   Raises an auditing event "gc.get_objects" with argument
+   "generation".
+gc.get_stats()
+   Return a list of three per-generation dictionaries containing

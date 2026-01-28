@@ -1,0 +1,4 @@
+*access* may be specified in lieu of *flags* and *prot* as an
+   optional keyword parameter.  It is an error to specify both
+   *flags*, *prot* and *access*.  See the description of *access*
+   above for information on how to use this parameter.

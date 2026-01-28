@@ -1,0 +1,4 @@
+represent values calculated at run-time).  Unlike function objects,
+code objects are immutable and contain no references (directly or
+indirectly) to mutable objects.
+3.2.13.1.1. Special read-only attributes

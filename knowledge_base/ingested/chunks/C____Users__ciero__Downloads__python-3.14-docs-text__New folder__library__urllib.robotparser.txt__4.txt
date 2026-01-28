@@ -1,0 +1,5 @@
+Returns "True" if the *useragent* is allowed to fetch the *url*
+      according to the rules contained in the parsed "robots.txt"
+      file.
+   mtime()
+      Returns the time the "robots.txt" file was last fetched.  This

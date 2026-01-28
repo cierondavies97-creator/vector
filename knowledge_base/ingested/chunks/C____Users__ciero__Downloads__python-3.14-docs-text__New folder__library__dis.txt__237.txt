@@ -1,0 +1,6 @@
+JUMP_IF_TRUE
+JUMP_IF_FALSE
+   Conditional jumps which do not impact the stack. Replaced by the
+   sequence "COPY 1", "TO_BOOL", "POP_JUMP_IF_TRUE/FALSE".
+LOAD_CLOSURE(i)
+   Pushes a reference to the cell contained in slot "i" of the "fast

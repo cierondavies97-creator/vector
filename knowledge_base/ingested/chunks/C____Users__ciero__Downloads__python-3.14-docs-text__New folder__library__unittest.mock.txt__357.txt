@@ -1,0 +1,4 @@
+you will need to customize this mock for yourself.  When that is
+   insufficient, one of the in-memory filesystem packages on PyPI can
+   offer a realistic filesystem for testing.
+   Changed in version 3.4: Added "readline()" and "readlines()"

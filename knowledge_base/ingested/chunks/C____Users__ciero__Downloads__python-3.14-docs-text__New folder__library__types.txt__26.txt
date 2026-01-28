@@ -1,0 +1,6 @@
+types.BuiltinFunctionType
+types.BuiltinMethodType
+   The type of built-in functions like "len()" or "sys.exit()", and
+   methods of built-in classes.  (Here, the term "built-in" means
+   "written in C".)
+types.WrapperDescriptorType

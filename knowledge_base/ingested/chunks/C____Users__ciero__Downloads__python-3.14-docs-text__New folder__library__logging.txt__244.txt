@@ -1,0 +1,5 @@
+corresponding numeric value of the level.
+   If no matching numeric or string value is passed in, the string
+   'Level %s' % level is returned.
+   Note:
+     Levels are internally integers (as they need to be compared in

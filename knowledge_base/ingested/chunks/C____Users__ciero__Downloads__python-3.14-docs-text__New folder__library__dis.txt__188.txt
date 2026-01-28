@@ -1,0 +1,4 @@
+"STACK[-1]" and the attribute value to set at "STACK[-2]"; consumes
+   both and leaves the function at "STACK[-1]". The flag determines
+   which attribute to set:
+   * "0x01" a tuple of default values for positional-only and

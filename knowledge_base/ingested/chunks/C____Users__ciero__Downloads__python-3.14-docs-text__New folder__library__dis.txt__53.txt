@@ -1,0 +1,5 @@
+used instead of the "co_firstlineno" and "co_lnotab" attributes of
+   the code object.
+   Changed in version 3.13: Line numbers can be "None" for bytecode
+   that does not map to source lines.
+dis.findlabels(code)

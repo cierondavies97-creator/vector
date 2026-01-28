@@ -1,0 +1,6 @@
+* "zipimport" --- Import modules from Zip archives
+  * zipimporter Objects
+  * Examples
+* "pkgutil" --- Package extension utility
+* "modulefinder" --- Find modules used by a script
+  * Example usage of "ModuleFinder"

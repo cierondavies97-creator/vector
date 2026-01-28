@@ -1,0 +1,4 @@
+created from the content of that directory.
+   * The name of an existing application archive file, or a *path-like
+     object* referring to such a file, in which case the file is
+     copied to the target (modifying it to reflect the value given for

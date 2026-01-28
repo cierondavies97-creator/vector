@@ -1,0 +1,9 @@
+* "Message" objects
+    * "MaildirMessage" objects
+    * "mboxMessage" objects
+    * "MHMessage" objects
+    * "BabylMessage" objects
+    * "MMDFMessage" objects
+  * Exceptions
+  * Examples
+* "mimetypes" --- Map filenames to MIME types

@@ -1,0 +1,5 @@
+Added in version 3.11.
+CACHE
+   Rather than being an actual instruction, this opcode is used to
+   mark extra space for the interpreter to cache useful data directly
+   in the bytecode itself. It is automatically hidden by all "dis"

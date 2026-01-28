@@ -1,0 +1,6 @@
+>>> (-7) % 4
+      1
+      >>> Decimal(-7) % Decimal(4)
+      Decimal('-3')
+   The integer division operator "//" behaves analogously, returning
+   the integer part of the true quotient (truncating towards zero)

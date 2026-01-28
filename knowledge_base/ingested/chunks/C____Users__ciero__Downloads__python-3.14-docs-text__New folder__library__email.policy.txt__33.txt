@@ -1,0 +1,3 @@
+A "cte_type" value of "8bit" only works with "BytesGenerator",
+      not "Generator", because strings cannot contain binary data.  If
+      a "Generator" is operating under a policy that specifies

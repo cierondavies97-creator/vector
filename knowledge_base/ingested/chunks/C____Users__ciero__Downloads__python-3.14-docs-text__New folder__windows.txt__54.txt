@@ -1,0 +1,5 @@
+$> py install ... [-t=|--target=<PATH>] <TAG>
+4.1.6. Offline installs
+-----------------------
+To perform offline installs of Python, you will need to first create
+an offline index on a machine that has network access.

@@ -1,0 +1,3 @@
+|            | "indeterminate" mode, it is interpreted as modulo *maximum*;    |
+|            | that is, the progress bar completes one "cycle" when its value  |
+|            | increases by *maximum*.                                         |

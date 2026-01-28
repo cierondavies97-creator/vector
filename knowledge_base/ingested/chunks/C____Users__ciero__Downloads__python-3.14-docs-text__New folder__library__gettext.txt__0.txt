@@ -1,0 +1,4 @@
+"gettext" --- Multilingual internationalization services
+********************************************************
+**Source code:** Lib/gettext.py
+======================================================================

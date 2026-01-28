@@ -1,0 +1,4 @@
+address_exclude(network)
+      Computes the network definitions resulting from removing the
+      given *network* from this one.  Returns an iterator of network
+      objects. Raises "ValueError" if *network* is not completely

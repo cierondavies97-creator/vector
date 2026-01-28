@@ -1,0 +1,6 @@
+If(
+                  test=Name(id='x', ctx=Load()),
+                  body=[
+                      Expr(
+                          value=Constant(value=Ellipsis))],
+                  orelse=[

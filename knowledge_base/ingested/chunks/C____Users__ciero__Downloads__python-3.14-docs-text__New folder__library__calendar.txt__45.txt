@@ -1,0 +1,4 @@
+Added in version 3.7.
+   Note that although the naming for the above described class
+   attributes is singular (e.g. "cssclass_month" "cssclass_noday"),
+   one can replace the single CSS class with a space separated list of

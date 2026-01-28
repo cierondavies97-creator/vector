@@ -1,0 +1,6 @@
+4.1. Python install manager
+===========================
+4.1.1. Installation
+-------------------
+The Python install manager can be installed from the Microsoft Store
+app or downloaded and installed from python.org/downloads. The two

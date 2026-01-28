@@ -1,0 +1,5 @@
+prefixes
+        should be replaced in text content (default: empty)
+   * *qname_aware_attrs*: a set of qname aware attribute names in
+     which prefixes
+        should be replaced in text content (default: empty)

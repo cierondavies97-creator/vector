@@ -1,0 +1,4 @@
+that the *buffer_callback* argument was "None" when a "Pickler" was
+   instantiated (or when "dump()" or "dumps()" was called).
+   If *buffers* is not "None", it should be an iterable of buffer-
+   enabled objects that is consumed each time the pickle stream

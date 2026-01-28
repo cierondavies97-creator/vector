@@ -1,0 +1,6 @@
+bar.
+It has no other methods besides the ones inherited from "ttk.Widget".
+Options
+-------
+This widget accepts the following specific option:
++----------+------------------------------------------------------------------+

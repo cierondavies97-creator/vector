@@ -1,0 +1,4 @@
+"unrelated_code()" should continue running even in case of the
+      timeout.  This is implemented with "uncancel()".  "TaskGroup"
+      context managers use "uncancel()" in a similar fashion.
+      If end-user code is, for some reason, suppressing cancellation

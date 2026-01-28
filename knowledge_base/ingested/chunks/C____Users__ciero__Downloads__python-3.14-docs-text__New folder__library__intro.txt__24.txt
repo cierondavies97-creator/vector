@@ -1,0 +1,3 @@
+POSIX operating system. However, there are several major differences:
+* Mobile platforms can only use Python in "embedded" mode. There is no
+  Python REPL, and no ability to use separate executables such as

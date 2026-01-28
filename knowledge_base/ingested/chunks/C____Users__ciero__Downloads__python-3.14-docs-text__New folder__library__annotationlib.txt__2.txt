@@ -1,0 +1,4 @@
+This module provides a set of low-level tools that can be used to
+retrieve annotations in a reliable way, even in the presence of
+forward references and other edge cases.
+This module supports retrieving annotations in three main formats (see

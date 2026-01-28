@@ -1,0 +1,5 @@
+self.__dict__.update(mapping_or_iterable)
+              self.__dict__.update(kwargs)
+          def __repr__(self):
+              items = (f"{k}={v!r}" for k, v in self.__dict__.items())
+              return "{}({})".format(type(self).__name__, ", ".join(items))

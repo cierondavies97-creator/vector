@@ -1,0 +1,5 @@
+This unblocks the join even when no work has been done on the
+      tasks, violating the usual invariant for joining a queue.
+      Added in version 3.13.
+   task_done()
+      Indicate that a formerly enqueued work item is complete.

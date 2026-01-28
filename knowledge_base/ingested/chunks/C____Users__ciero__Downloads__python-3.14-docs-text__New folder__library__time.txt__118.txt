@@ -1,0 +1,5 @@
+"TypeError" is raised.
+time.time() -> float
+   Return the time in seconds since the epoch as a floating-point
+   number. The handling of leap seconds is platform dependent. On
+   Windows and most Unix systems, the leap seconds are not counted

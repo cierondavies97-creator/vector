@@ -1,0 +1,7 @@
+integer.)
+   setstate(state)
+      Set the state of the encoder to *state*. *state* must be an
+      encoder state returned by "getstate()".
+IncrementalDecoder Objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+The "IncrementalDecoder" class is used for decoding an input in

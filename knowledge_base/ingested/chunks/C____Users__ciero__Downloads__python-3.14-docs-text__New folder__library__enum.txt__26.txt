@@ -1,0 +1,7 @@
+("Flag" only).
+   __contains__(cls, member)
+      Returns "True" if member belongs to the "cls":
+         >>> some_var = Color.RED
+         >>> some_var in Color
+         True
+         >>> Color.RED.value in Color

@@ -1,0 +1,6 @@
+>>> Decimal('3.5') == 3.5
+   True
+Added in version 3.3.
+The significance of a new Decimal is determined solely by the number
+of digits input.  Context precision and rounding only come into play
+during arithmetic operations.

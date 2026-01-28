@@ -1,0 +1,4 @@
+def new_non_team_user(user_class: type[BasicUser | ProUser]): ...
+   new_non_team_user(BasicUser)  # OK
+   new_non_team_user(ProUser)    # OK
+   new_non_team_user(TeamUser)   # Error: ``type[TeamUser]`` is not a subtype

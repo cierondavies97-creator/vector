@@ -1,0 +1,5 @@
+"imaplib" --- IMAP4 protocol client
+***********************************
+**Source code:** Lib/imaplib.py
+======================================================================
+This module defines three classes, "IMAP4", "IMAP4_SSL" and

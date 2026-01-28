@@ -1,0 +1,4 @@
+close any file descriptors received via this mechanism.
+   Some systems do not indicate the truncated length of ancillary data
+   items which have been only partially received.  If an item appears
+   to extend beyond the end of the buffer, "recvmsg()" will issue a

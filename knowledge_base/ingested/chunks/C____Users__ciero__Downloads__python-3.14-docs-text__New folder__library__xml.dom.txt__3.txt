@@ -1,0 +1,4 @@
+looking at a text node, you have no access to a containing element.
+When you write a SAX application, you need to keep track of your
+program's position in the document somewhere in your own code.  SAX
+does not do it for you.  Also, if you need to look ahead in the XML

@@ -1,0 +1,3 @@
+which are merged into *msg* using the string formatting
+      operator. (Note that this means that you can use keywords in the
+      format string, together with a single dictionary argument.) No %

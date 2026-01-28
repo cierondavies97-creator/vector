@@ -1,0 +1,4 @@
+It should return "None" if the client abort response "*" should be
+   sent instead.
+   Changed in version 3.5: string usernames and passwords are now
+   encoded to "utf-8" instead of being limited to ASCII.

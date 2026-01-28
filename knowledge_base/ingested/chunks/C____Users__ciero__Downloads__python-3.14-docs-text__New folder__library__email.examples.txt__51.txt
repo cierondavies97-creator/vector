@@ -1,0 +1,5 @@
+simplest = msg.get_body(preferencelist=('plain', 'html'))
+   print()
+   print(''.join(simplest.get_content().splitlines(keepends=True)[:3]))
+   ans = input("View full message?")
+   if ans.lower()[0] == 'n':

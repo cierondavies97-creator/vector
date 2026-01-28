@@ -1,0 +1,3 @@
+resolution and either there are still nodes ready that haven't
+      yet been returned by "TopologicalSorter.get_ready()" or the
+      number of nodes marked "TopologicalSorter.done()" is less than

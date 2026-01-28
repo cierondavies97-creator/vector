@@ -1,0 +1,4 @@
+restricted to producing messages serialized as "7 bit clean"
+      when "utf8" is "False", which is the default.
+      Changed in version 3.6: the default behavior when *maxheaderlen*
+      is not specified was changed from defaulting to 0 to defaulting

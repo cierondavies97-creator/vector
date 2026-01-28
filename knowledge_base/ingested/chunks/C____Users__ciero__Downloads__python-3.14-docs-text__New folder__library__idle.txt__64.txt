@@ -1,0 +1,5 @@
+with the terminal newline removed.  If "[x] Regular expression" is
+checked, the target is interpreted according to the Python re module.
+Completions
+-----------
+Completions are supplied, when requested and available, for module

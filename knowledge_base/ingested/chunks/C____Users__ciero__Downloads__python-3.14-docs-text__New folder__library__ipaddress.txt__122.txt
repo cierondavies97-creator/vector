@@ -1,0 +1,5 @@
+for both the network address and the broadcast address.
+Operators
+---------
+Network objects support some operators.  Unless stated otherwise,
+operators can only be applied between compatible objects (i.e. IPv4

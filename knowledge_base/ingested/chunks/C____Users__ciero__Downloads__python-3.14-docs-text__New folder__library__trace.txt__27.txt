@@ -1,0 +1,7 @@
+trace=0,
+       count=1)
+   # run the new command using the given tracer
+   tracer.run('main()')
+   # make a report, placing output in the current directory
+   r = tracer.results()
+   r.write_results(show_missing=True, coverdir=".")

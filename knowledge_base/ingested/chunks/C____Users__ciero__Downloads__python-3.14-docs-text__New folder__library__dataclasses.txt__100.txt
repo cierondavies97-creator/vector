@@ -1,0 +1,6 @@
+Such "ClassVar" pseudo-fields are not returned by the module-level
+"fields()" function.
+Init-only variables
+===================
+Another place where "@dataclass" inspects a type annotation is to
+determine if a field is an init-only variable.  It does this by seeing

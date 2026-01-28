@@ -1,0 +1,4 @@
+"TypeError", but may do so by relying on the behavior that "None"
+    is not callable.
+[3] "Does not support" here means that the class has no such method,
+    or the method returns "NotImplemented".  Do not set the method to

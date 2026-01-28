@@ -1,0 +1,7 @@
+sequence.clear()
+   Added in version 3.3.
+   Remove all items from *sequence*. This is equivalent to writing
+   "del sequence[:]".
+sequence.copy()
+   Added in version 3.3.
+   Create a shallow copy of *sequence*. This is equivalent to writing

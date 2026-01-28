@@ -1,0 +1,3 @@
+fully qualified name, the hostname returned by "gethostbyaddr()" is
+   checked, followed by aliases for the host, if available.  The first
+   name which includes a period is selected.  In case no fully

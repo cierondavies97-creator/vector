@@ -1,0 +1,4 @@
+communication on an already established connection.
+Additionally, this module provides a class "POP3_SSL", which provides
+support for connecting to POP3 servers that use SSL as an underlying
+protocol layer.

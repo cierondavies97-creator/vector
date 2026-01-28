@@ -1,0 +1,4 @@
+*action*, when provided, is a callable to be called by one of the
+   threads when they are released.  *timeout* is the default timeout
+   value if none is specified for the "wait()" method.
+   wait(timeout=None)

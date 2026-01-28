@@ -1,0 +1,9 @@
+...     print(bar.values[i])
+   ...
+   1
+   2
+   3
+   >>>
+In addition, if a function argument is explicitly declared to be a
+pointer type (such as "POINTER(c_int)") in "argtypes", an object of
+the pointed type ("c_int" in this case) can be passed to the function.

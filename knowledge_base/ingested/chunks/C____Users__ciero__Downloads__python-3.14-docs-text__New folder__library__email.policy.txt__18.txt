@@ -1,0 +1,4 @@
+Here we are telling "BytesGenerator" to use the RFC correct line
+separator characters when creating the binary string to feed into
+"sendmail's" "stdin", where the default policy would use "\n" line
+separators.

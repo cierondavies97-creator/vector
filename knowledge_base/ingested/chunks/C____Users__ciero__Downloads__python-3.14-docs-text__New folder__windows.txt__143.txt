@@ -1,0 +1,4 @@
+used to provide local caching, disable certain shortcut types,
+override bundled content. All of the above configuration options may
+be set, as well as those below.
+Configuration options may be overridden in the registry by setting

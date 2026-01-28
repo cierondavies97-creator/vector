@@ -1,0 +1,5 @@
+>>> parser.parse_args(['-'])
+      Namespace(infile=<_io.TextIOWrapper name='<stdin>' encoding='UTF-8'>)
+   Note:
+     If one argument uses *FileType* and then a subsequent argument
+     fails, an error is reported but the file is not automatically

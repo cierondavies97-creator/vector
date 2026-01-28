@@ -1,0 +1,7 @@
+Return "False" if the argument is zero, subnormal, infinite or a
+      NaN.
+   is_qnan()
+      Return "True" if the argument is a quiet NaN, and "False"
+      otherwise.
+   is_signed()
+      Return "True" if the argument has a negative sign and "False"

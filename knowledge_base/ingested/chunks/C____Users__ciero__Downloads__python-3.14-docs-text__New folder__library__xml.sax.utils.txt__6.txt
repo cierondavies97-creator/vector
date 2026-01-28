@@ -1,0 +1,4 @@
+*entities* is provided.
+xml.sax.saxutils.quoteattr(data, entities={})
+   Similar to "escape()", but also prepares *data* to be used as an
+   attribute value.  The return value is a quoted version of *data*

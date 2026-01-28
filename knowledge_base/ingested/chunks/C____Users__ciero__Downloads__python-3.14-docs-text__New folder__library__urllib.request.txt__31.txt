@@ -1,0 +1,5 @@
+>>> url = 'file:///C:/Program%20Files'
+      >>> url2pathname(url, require_scheme=True)
+      'C:\\Program Files'
+   Changed in version 3.14: Windows drive letters are no longer
+   converted to uppercase, and ":" characters not following a drive

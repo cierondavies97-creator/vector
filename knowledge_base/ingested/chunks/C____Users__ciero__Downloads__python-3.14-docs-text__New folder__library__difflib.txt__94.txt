@@ -1,0 +1,4 @@
+"1.0" if the sequences are identical, and "0.0" if they have
+      nothing in common.
+      This is expensive to compute if "get_matching_blocks()" or
+      "get_opcodes()" hasn't already been called, in which case you

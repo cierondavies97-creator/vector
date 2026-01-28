@@ -1,0 +1,7 @@
+simple=0)])
+      >>> print(ast.dump(ast.parse('a.b: int'), indent=4)) # Attribute annotation
+      Module(
+          body=[
+              AnnAssign(
+                  target=Attribute(
+                      value=Name(id='a', ctx=Load()),

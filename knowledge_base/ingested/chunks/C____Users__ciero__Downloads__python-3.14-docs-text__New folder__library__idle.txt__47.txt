@@ -1,0 +1,4 @@
+Run the turtledemo module with example Python code and turtle
+   drawings.
+Additional help sources may be added here with the Configure IDLE
+dialog under the General tab. See the Help sources subsection below

@@ -1,0 +1,7 @@
+raise "UnboundLocalError".
+LOAD_FAST_BORROW(var_num)
+   Pushes a borrowed reference to the local "co_varnames[var_num]"
+   onto the stack.
+   Added in version 3.14.
+LOAD_FAST_LOAD_FAST(var_nums)
+   Pushes references to "co_varnames[var_nums >> 4]" and

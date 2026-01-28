@@ -1,0 +1,3 @@
+|                         |                 | all events are logged. When set on a  |
+|                         |                 | handler, all events are handled.      |
++-------------------------+-----------------+---------------------------------------+

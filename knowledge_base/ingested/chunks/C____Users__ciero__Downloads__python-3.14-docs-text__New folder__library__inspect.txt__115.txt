@@ -1,0 +1,6 @@
+Added in version 3.11.
+inspect.isroutine(object)
+   Return "True" if the object is a user-defined or built-in function
+   or method.
+inspect.isabstract(object)
+   Return "True" if the object is an abstract base class.

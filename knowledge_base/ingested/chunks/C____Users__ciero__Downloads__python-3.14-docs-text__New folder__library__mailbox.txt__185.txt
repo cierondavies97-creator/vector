@@ -1,0 +1,4 @@
++-------------------+---------------------------------+
+When an "mboxMessage" instance is created based upon an "MHMessage"
+instance, the following conversions take place:
++---------------------+----------------------------+

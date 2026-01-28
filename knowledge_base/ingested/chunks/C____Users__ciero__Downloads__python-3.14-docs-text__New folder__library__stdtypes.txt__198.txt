@@ -1,0 +1,4 @@
+is calculated once and then used for the entire sorting process.
+      The default value of "None" means that list items are sorted
+      directly without calculating a separate key value.
+      The "functools.cmp_to_key()" utility is available to convert a

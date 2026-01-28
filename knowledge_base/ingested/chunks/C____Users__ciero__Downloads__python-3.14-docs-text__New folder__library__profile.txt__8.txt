@@ -1,0 +1,5 @@
+cProfile.run('re.compile("foo|bar")')
+(Use "profile" instead of "cProfile" if the latter is not available on
+your system.)
+The above action would run "re.compile()" and print profile results
+like the following:

@@ -1,0 +1,4 @@
+lines.  For example, if a line of expected output contains digit
+   "1" where actual output contains letter "l", a line is inserted
+   with a caret marking the mismatching column positions.
+doctest.REPORT_ONLY_FIRST_FAILURE

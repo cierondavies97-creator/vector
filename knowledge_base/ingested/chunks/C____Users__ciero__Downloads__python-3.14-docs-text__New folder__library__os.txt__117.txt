@@ -1,0 +1,4 @@
+raised with "errno" set to "errno.EXDEV".
+   This copy is done without the additional cost of transferring data
+   from the kernel to user space and then back into the kernel.
+   Additionally, some filesystems could implement extra optimizations,

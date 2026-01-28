@@ -1,0 +1,4 @@
+uuid.getnode()
+   Get the hardware address as a 48-bit positive integer.  The first
+   time this runs, it may launch a separate program, which could be
+   quite slow.  If all attempts to obtain the hardware address fail,

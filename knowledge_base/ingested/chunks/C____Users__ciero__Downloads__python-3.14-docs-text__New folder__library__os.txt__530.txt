@@ -1,0 +1,9 @@
+try:
+          # acquire semaphore
+          v = os.eventfd_read(fd)
+          try:
+              do_work()
+          finally:
+              # release semaphore
+              os.eventfd_write(fd, v)
+      finally:

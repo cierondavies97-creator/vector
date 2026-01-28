@@ -1,0 +1,4 @@
+for it to use "os.fork()". No unnecessary resources are
+      inherited.
+      Available on POSIX platforms which support passing file
+      descriptors over Unix pipes such as Linux.  The default on

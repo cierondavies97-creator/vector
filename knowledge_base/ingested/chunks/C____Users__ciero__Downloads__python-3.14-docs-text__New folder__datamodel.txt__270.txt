@@ -1,0 +1,5 @@
+"tuple":
+   * "start" (an "int") represents the offset (inclusive) of the start
+     of the *bytecode* range
+   * "end" (an "int") represents the offset (exclusive) of the end of
+     the *bytecode* range

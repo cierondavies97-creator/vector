@@ -1,0 +1,4 @@
+"ValueError" if the timestamp is out of the range of values
+   supported by the platform C "gmtime()" function. Raise "OSError"
+   instead of "ValueError" on "gmtime()" failure.
+   Deprecated since version 3.12: Use "datetime.fromtimestamp()" with

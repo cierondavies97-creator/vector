@@ -1,0 +1,4 @@
+completion and reading/writing of history files from the Python
+interpreter. This module can be used directly, or via the
+"rlcompleter" module, which supports completion of Python identifiers
+at the interactive prompt.  Settings made using  this module affect

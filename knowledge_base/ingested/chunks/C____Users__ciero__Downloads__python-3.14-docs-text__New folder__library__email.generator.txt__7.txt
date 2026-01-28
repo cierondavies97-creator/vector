@@ -1,0 +1,4 @@
+encoding email messages for transport over channels that are not "8
+bit clean".
+To accommodate reproducible processing of SMIME-signed messages
+"Generator" disables header folding for message parts of type

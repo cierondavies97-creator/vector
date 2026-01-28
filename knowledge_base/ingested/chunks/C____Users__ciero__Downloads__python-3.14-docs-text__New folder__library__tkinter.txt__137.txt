@@ -1,0 +1,5 @@
+strings, with the trailing character denoting units: "c" for
+   centimetres, "i" for inches, "m" for millimetres, "p" for printer's
+   points.  For example, 3.5 inches is expressed as ""3.5i"".
+font
+   Tk uses a list font name format, such as "{courier 10 bold}". Font

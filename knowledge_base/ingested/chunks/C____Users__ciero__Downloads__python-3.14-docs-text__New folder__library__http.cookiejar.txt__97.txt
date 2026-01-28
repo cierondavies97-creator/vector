@@ -1,0 +1,7 @@
+'80,8080'), or "None".
+Cookie.domain
+   Cookie domain (a string).
+Cookie.path
+   Cookie path (a string, eg. "'/acme/rocket_launchers'").
+Cookie.secure
+   "True" if cookie should only be returned over a secure connection.

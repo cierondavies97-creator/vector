@@ -1,0 +1,4 @@
+Changed in version 3.14: Added "channel" field. "device_id" not
+    packed in a tuple is now accepted.
+  * "BTPROTO_SCO" accepts "bdaddr" where "bdaddr" is the Bluetooth
+    address as a string or a "bytes" object. (ex.

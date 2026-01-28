@@ -1,0 +1,4 @@
+this (with x being payload bits, which when concatenated give the
+Unicode character):
++-------------------------------------+------------------------------------------------+
+| Range                               | Encoding                                       |

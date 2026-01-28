@@ -1,0 +1,5 @@
+*size*, if given, is passed as size argument to the stream's
+      "read()" method.
+      If *keepends* is false line-endings will be stripped from the
+      lines returned.
+   readlines(sizehint=None, keepends=True)

@@ -1,0 +1,5 @@
+configuration. The *default section* is not acknowledged.
+   options(section)
+      Return a list of options available in the specified *section*.
+   has_option(section, option)
+      If the given *section* exists, and contains the given *option*,

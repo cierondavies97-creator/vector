@@ -1,0 +1,5 @@
+call "uncancel()" to completely remove the cancellation state.
+Task Groups
+===========
+Task groups combine a task creation API with a convenient and reliable
+way to wait for all tasks in the group to finish.

@@ -1,0 +1,4 @@
+Set or return backgroundcolor of the TurtleScreen.
+         Arguments (if given): a color string or three numbers
+         in the range 0..colormode or a 3-tuple of such numbers.
+         >>> screen.bgcolor("orange")

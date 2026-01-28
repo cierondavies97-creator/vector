@@ -1,0 +1,4 @@
+and to have a single update step rather than a chain of calls.
+   The flattening property makes tee iterators efficiently peekable:
+      def lookahead(tee_iterator):
+           "Return the next value without moving the input forward"

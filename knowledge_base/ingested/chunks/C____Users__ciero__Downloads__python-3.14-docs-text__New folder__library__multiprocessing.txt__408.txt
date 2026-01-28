@@ -1,0 +1,4 @@
+connectable end point on Windows. If you require a connectable
+     end-point, you should use '127.0.0.1'.
+   *family* is the type of socket (or named pipe) to use.  This can be
+   one of the strings "'AF_INET'" (for a TCP socket), "'AF_UNIX'" (for

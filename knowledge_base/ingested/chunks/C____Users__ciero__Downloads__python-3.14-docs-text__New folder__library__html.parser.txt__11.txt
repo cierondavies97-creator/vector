@@ -1,0 +1,7 @@
+Encountered an end tag : h1
+   Encountered an end tag : body
+   Encountered an end tag : html
+"HTMLParser" Methods
+====================
+"HTMLParser" instances have the following methods:
+HTMLParser.feed(data)

@@ -1,0 +1,8 @@
+...
+>>> m.side_effect = side_effect
+>>> m()
+3
+To remove a "side_effect", and return to the default behaviour, set
+the "side_effect" to "None":
+>>> m = MagicMock(return_value=6)
+>>> def side_effect(*args, **kwargs):

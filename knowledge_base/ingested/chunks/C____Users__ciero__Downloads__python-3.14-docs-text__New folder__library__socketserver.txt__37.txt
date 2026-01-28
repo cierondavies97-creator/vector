@@ -1,0 +1,3 @@
+defines the interface, given below, but does not implement most of
+   the methods, which is done in subclasses.  The two parameters are
+   stored in the respective "server_address" and "RequestHandlerClass"

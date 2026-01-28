@@ -1,0 +1,4 @@
+When reading, if the *level* argument is not None, a "TypeError"
+   will be raised.
+   When writing, the *options* argument can be a dictionary providing
+   advanced compression parameters; see "CompressionParameter" for

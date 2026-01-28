@@ -1,0 +1,4 @@
+The *mode* argument can be any of "'r'", "'rb'", "'a'", "'ab'",
+   "'w'", "'wb'", "'x'", or "'xb'", depending on whether the file will
+   be read or written.  The default is the mode of *fileobj* if
+   discernible; otherwise, the default is "'rb'".  In future Python

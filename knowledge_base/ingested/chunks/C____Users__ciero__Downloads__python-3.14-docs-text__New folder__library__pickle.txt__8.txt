@@ -1,0 +1,4 @@
+serialized, so that later references to the same object won't be
+  serialized again. "marshal" doesn't do this.
+  This has implications both for recursive objects and object sharing.
+  Recursive objects are objects that contain references to themselves.

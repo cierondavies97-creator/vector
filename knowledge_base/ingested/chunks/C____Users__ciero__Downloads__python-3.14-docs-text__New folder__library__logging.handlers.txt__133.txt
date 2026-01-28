@@ -1,0 +1,3 @@
+*appname* is used to define the application name as it appears in
+   the event log. An appropriate registry entry is created using this
+   name. The *dllname* should give the fully qualified pathname of a

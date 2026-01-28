@@ -1,0 +1,4 @@
+"d.utcoffset()", and a "time.struct_time" for the normalized time
+   is returned. "tm_isdst" is forced to 0. Note that an
+   "OverflowError" may be raised if "d.year" was "MINYEAR" or
+   "MAXYEAR" and UTC adjustment spills over a year boundary.

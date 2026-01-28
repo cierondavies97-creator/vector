@@ -1,0 +1,6 @@
+is bootstrapped by default).
+--prompt <PROMPT>
+   Provides an alternative prompt prefix for this environment.
+--upgrade-deps
+   Upgrade core dependencies (pip) to the latest version in PyPI.
+--without-scm-ignore-files

@@ -1,0 +1,7 @@
+Added in version 3.14.
+   is_global()
+      Return "True" if the symbol is global.
+   is_nonlocal()
+      Return "True" if the symbol is nonlocal.
+   is_declared_global()
+      Return "True" if the symbol is declared global with a global

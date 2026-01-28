@@ -1,0 +1,2 @@
+|                                                    | classes. On user-defined classes without           |
+|                                                    | "__annotations__", it is an empty dictionary.      |

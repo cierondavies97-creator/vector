@@ -1,0 +1,2 @@
+| "logs_dir"                        | "PYTHON_MANAGER_LOGS"             | The location where log files are  |
+|                                   |                                   | written. By default, "%TEMP%".    |

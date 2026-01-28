@@ -1,0 +1,3 @@
+|          | there are fewer values than columns, the remaining values are   |
+|          | assumed empty. If there are more values than columns, the extra |
+|          | values are ignored.                                             |

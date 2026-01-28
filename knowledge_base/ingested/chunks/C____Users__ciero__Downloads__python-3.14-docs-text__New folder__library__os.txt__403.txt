@@ -1,0 +1,3 @@
+On Unix, this method always requires a system call. On Windows,
+      it only requires a system call if *follow_symlinks* is "True"
+      and the entry is a reparse point (for example, a symbolic link

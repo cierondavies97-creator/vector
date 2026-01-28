@@ -1,0 +1,4 @@
+and using "side_effect" to delegate dictionary access to a real
+underlying dictionary that is under our control.
+When the "__getitem__()" and "__setitem__()" methods of our
+"MagicMock" are called (normal dictionary access) then "side_effect"

@@ -1,0 +1,4 @@
+usual methods of mutable sequences, described in Mutable Sequence
+   Types, as well as most methods that the "bytes" type has, see Bytes
+   and Bytearray Operations.
+   The optional *source* parameter can be used to initialize the array

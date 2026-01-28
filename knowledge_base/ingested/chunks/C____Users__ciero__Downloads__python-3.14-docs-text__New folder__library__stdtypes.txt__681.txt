@@ -1,0 +1,6 @@
+Here is an example with a non-byte format:
+         >>> import array
+         >>> a = array.array('l', [-11111111, 22222222, -33333333, 44444444])
+         >>> m = memoryview(a)
+         >>> m[0]
+         -11111111

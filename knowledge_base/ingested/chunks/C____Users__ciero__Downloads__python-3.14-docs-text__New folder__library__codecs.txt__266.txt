@@ -1,0 +1,4 @@
+|                      |           | "\u*XXXX*" and              |
+|                      |           | "\U*XXXXXXXX*" for other    |
+|                      |           | code points. Existing       |
+|                      |           | backslashes are not escaped |

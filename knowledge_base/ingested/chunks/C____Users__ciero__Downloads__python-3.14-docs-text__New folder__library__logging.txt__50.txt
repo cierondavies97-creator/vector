@@ -1,0 +1,3 @@
+logging message, including the actual logging call. Note that
+      this is not the same stack information as that displayed through
+      specifying *exc_info*: The former is stack frames from the

@@ -1,0 +1,3 @@
+installation can be monitored by passing a progress
+                        callable. If specified, it is called with two
+                        arguments: a string indicating some progress, and a

@@ -1,0 +1,8 @@
+* Specification for the Python Type System
+  * Type aliases
+  * NewType
+  * Annotating callable objects
+  * Generics
+  * Annotating tuples
+  * The type of class objects
+  * Annotating generators and coroutines

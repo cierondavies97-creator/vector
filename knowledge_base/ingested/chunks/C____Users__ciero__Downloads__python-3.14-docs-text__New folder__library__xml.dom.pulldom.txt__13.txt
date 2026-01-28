@@ -1,0 +1,5 @@
+other parser configuration (like setting an entity resolver) must
+   have been done in advance.
+If you have XML in a string, you can use the "parseString()" function
+instead:
+xml.dom.pulldom.parseString(string, parser=None)

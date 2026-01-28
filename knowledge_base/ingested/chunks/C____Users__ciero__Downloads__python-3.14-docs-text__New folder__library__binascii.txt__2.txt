@@ -1,0 +1,5 @@
+written in C for greater speed that are used by the higher-level
+modules.
+Note:
+  "a2b_*" functions accept Unicode strings containing only ASCII
+  characters. Other functions only accept *bytes-like objects* (such

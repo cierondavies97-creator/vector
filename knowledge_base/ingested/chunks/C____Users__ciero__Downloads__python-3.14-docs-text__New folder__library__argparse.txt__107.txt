@@ -1,0 +1,6 @@
+>>> parser.parse_args(['BAR'])
+   Namespace(bar='BAR', foo=None)
+   >>> parser.parse_args(['BAR', '--foo', 'FOO'])
+   Namespace(bar='BAR', foo='FOO')
+   >>> parser.parse_args(['--foo', 'FOO'])
+   usage: PROG [-h] [-f FOO] bar

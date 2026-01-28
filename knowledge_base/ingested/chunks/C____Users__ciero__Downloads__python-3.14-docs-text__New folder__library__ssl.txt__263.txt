@@ -1,0 +1,3 @@
+Wrap an existing Python socket *sock* and return an instance of
+   "SSLContext.sslsocket_class" (default "SSLSocket"). The returned
+   SSL socket is tied to the context, its settings and certificates.

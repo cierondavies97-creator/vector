@@ -1,0 +1,4 @@
+if (!PyArg_ParseTuple(args, "s", &command))
+       return NULL;
+It returns "NULL" (the error indicator for functions returning object
+pointers) if an error is detected in the argument list, relying on the

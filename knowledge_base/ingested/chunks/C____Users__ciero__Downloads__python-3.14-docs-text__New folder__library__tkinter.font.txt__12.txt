@@ -1,0 +1,2 @@
+Return a "Font" representation of a tk named font.
+   Changed in version 3.10: The *root* parameter was added.

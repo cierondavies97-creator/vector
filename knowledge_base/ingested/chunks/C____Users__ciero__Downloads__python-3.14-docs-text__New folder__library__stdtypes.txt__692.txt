@@ -1,0 +1,8 @@
+>>> x == a == y == b
+            True
+            >>> x.tolist() == a.tolist() == y.tolist() == b.tolist()
+            True
+            >>> z = y[::-2]
+            >>> z == c
+            True
+            >>> z.tolist() == c.tolist()

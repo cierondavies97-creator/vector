@@ -1,0 +1,4 @@
+automatically via the "format()" protocol, the expected
+        behavior with t-strings is that code that *processes* the
+        interpolation will decide how to interpret and whether to
+        apply the format specification. As a result, "format_spec"

@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+The following flag bits are defined for "co_flags": bit "0x04" is set
+if the function uses the "*arguments" syntax to accept an arbitrary

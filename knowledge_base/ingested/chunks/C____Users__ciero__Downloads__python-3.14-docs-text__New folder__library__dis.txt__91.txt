@@ -1,0 +1,4 @@
+END_ASYNC_FOR
+   Terminates an "async for" loop.  Handles an exception raised when
+   awaiting a next item. The stack contains the async iterable in
+   "STACK[-2]" and the raised exception in "STACK[-1]". Both are

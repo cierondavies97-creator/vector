@@ -1,0 +1,7 @@
+* "strftime()" and "strptime()" Format Codes
+    * Technical Detail
+* "zoneinfo" --- IANA time zone support
+  * Using "ZoneInfo"
+  * Data sources
+    * Configuring the data sources
+      * Compile-time configuration

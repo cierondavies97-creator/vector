@@ -1,0 +1,5 @@
+10000 loops, best of 5: 27.5 usec per loop
+   $ python -m timeit "'-'.join(map(str, range(100)))"
+   10000 loops, best of 5: 23.2 usec per loop
+This can be achieved from the Python Interface with:
+   >>> import timeit

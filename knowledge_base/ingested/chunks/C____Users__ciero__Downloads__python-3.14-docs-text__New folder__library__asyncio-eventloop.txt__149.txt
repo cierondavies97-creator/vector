@@ -1,0 +1,6 @@
+blocking "socket.recv_into()" method.
+   Return the number of bytes written to the buffer.
+   *sock* must be a non-blocking socket.
+   Added in version 3.7.
+async loop.sock_recvfrom(sock, bufsize)
+   Receive a datagram of up to *bufsize* from *sock*.  Asynchronous

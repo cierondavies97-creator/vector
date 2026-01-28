@@ -1,0 +1,3 @@
+specifying the character set of the characters in the string.
+      In either case, when producing an **RFC 2822**-compliant header
+      using **RFC 2047** rules, the string will be encoded using the

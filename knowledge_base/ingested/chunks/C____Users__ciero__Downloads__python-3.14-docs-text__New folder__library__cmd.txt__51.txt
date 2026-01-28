@@ -1,0 +1,5 @@
+TurtleShell().cmdloop()
+Here is a sample session with the turtle shell showing the help
+functions, using blank lines to repeat commands, and the simple record
+and playback facility:
+   Welcome to the turtle shell.   Type help or ? to list commands.

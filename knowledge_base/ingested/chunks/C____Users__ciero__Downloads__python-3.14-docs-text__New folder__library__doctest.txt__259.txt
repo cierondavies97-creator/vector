@@ -1,0 +1,8 @@
+>>> import a, doctest
+     >>> doctest.testmod(a)
+     --Return--
+     > <doctest a[1]>(3)g()->None
+     -> import pdb; pdb.set_trace()
+     (Pdb) list
+       1     def g(x):
+       2         print(x+3)

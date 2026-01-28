@@ -1,0 +1,4 @@
+float". The function is expected to return an instance of "str", as
+indicated by the "-> str" hint.
+While type hints can be simple classes like "float" or "str", they can
+also be more complex. The "typing" module provides a vocabulary of

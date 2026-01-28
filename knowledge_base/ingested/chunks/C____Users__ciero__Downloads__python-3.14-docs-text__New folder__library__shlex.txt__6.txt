@@ -1,0 +1,4 @@
+shlex.quote(s)
+   Return a shell-escaped version of the string *s*.  The returned
+   value is a string that can safely be used as one token in a shell
+   command line, for cases where you cannot use a list.

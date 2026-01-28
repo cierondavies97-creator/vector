@@ -1,0 +1,5 @@
+stderr
+      Captured stderr from the child process. A bytes sequence, or a
+      string if "run()" was called with an encoding, errors, or
+      text=True. "None" if stderr was not captured.
+   check_returncode()

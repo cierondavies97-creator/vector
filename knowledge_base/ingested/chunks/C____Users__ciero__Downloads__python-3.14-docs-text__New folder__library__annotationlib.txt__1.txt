@@ -1,0 +1,4 @@
+The "annotationlib" module provides tools for introspecting
+*annotations* on modules, classes, and functions.
+Annotations are lazily evaluated and often contain forward references
+to objects that are not yet defined when the annotation is created.

@@ -1,0 +1,5 @@
+"ArgumentParser")
+   * action - the basic type of action to be taken when this argument
+     is encountered at the command line
+   * dest - name of the attribute under which subcommand name will be
+     stored; by default "None" and no value is stored

@@ -1,0 +1,4 @@
+stack. Static type checker behavior is not affected by the
+   *category* and *stacklevel* arguments.
+   The deprecation message passed to the decorator is saved in the
+   "__deprecated__" attribute on the decorated object. If applied to

@@ -1,0 +1,4 @@
+regardless of the value of *cancel_futures*.
+      If both *cancel_futures* and *wait* are "True", all futures that
+      the executor has started running will be completed prior to this
+      method returning. The remaining futures are cancelled.

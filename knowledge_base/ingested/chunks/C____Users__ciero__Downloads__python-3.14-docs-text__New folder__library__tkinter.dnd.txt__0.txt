@@ -1,0 +1,6 @@
+"tkinter.dnd" --- Drag and drop support
+***************************************
+**Source code:** Lib/tkinter/dnd.py
+======================================================================
+Note:
+  This is experimental and due to be deprecated when it is replaced

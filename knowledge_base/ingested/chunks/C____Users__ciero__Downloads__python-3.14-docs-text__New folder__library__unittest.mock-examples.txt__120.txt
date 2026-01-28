@@ -1,0 +1,4 @@
+code under test then you can no longer make assertions about what the
+values were when the mock was called.
+Here's some example code that shows the problem. Imagine the following
+functions defined in 'mymodule':

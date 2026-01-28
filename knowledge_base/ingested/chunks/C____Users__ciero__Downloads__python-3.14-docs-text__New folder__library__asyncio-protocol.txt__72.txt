@@ -1,0 +1,5 @@
+"eof_received()" is called, "data_received()" is not called
+   anymore.
+Protocol.eof_received()
+   Called when the other end signals it won't send any more data (for
+   example by calling "transport.write_eof()", if the other end also

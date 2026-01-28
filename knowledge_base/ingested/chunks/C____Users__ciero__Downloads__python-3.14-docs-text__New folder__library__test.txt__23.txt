@@ -1,0 +1,6 @@
+inherit from "unittest.TestCase".
+See also:
+  Test Driven Development
+     A book by Kent Beck on writing tests before code.
+Running tests using the command-line interface
+==============================================

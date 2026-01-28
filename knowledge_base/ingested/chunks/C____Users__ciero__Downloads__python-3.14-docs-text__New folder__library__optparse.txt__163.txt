@@ -1,0 +1,4 @@
+To define an option with only a short option string:
+      parser.add_option("-f", attr=value, ...)
+   And to define an option with only a long option string:
+      parser.add_option("--foo", attr=value, ...)

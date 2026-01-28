@@ -1,0 +1,4 @@
+*not* imply "v == w" for memoryview objects.
+         Changed in version 3.3: Previous versions compared the raw
+         memory disregarding the item format and the logical array
+         structure.

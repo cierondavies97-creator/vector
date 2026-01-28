@@ -1,0 +1,5 @@
+Added in version 3.13.
+   __mutable_keys__
+      A "frozenset" containing the names of all mutable keys. Keys are
+      mutable if they do not carry the "ReadOnly" qualifier.
+      Added in version 3.13.

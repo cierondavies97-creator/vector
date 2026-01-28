@@ -1,0 +1,6 @@
+parameters.
+   Changed in version 3.13: Added the *show_offsets* parameter
+   Changed in version 3.14: Added the *show_positions* parameter.
+Example:
+   >>> bytecode = dis.Bytecode(myfunc)
+   >>> for instr in bytecode:

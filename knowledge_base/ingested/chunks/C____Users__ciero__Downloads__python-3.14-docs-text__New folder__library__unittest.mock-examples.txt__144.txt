@@ -1,0 +1,4 @@
+You may want to mock a dictionary, or other container object,
+recording all access to it whilst having it still behave like a
+dictionary.
+We can do this with "MagicMock", which will behave like a dictionary,

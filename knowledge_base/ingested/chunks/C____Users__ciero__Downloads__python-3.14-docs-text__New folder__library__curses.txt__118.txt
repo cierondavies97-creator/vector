@@ -1,0 +1,4 @@
+window.border([ls[, rs[, ts[, bs[, tl[, tr[, bl[, br]]]]]]]])
+   Draw a border around the edges of the window. Each parameter
+   specifies  the character to use for a specific part of the border;
+   see the table below for more details.

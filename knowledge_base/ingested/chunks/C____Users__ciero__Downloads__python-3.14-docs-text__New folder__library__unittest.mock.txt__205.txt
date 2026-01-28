@@ -1,0 +1,4 @@
+set. "patch()" finds tests by looking for method names that start
+   with "patch.TEST_PREFIX". By default this is "'test'", which
+   matches the way "unittest" finds tests. You can specify an
+   alternative prefix by setting "patch.TEST_PREFIX".

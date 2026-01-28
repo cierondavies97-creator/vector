@@ -1,0 +1,5 @@
+cannot automatically delete any NamedTemporaryFiles it created.
+   Raises an auditing event "tempfile.mkstemp" with argument
+   "fullpath".
+   Changed in version 3.8: Added *errors* parameter.
+   Changed in version 3.12: Added *delete_on_close* parameter.

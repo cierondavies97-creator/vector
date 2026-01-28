@@ -1,0 +1,6 @@
+Added in version 3.2.
+FileHandler
+===========
+The "FileHandler" class, located in the core "logging" package, sends
+logging output to a disk file.  It inherits the output functionality
+from "StreamHandler".

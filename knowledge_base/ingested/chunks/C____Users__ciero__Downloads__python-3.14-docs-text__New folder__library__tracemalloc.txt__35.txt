@@ -1,0 +1,5 @@
+total = sum(stat.size for stat in top_stats)
+       print("Total allocated size: %.1f KiB" % (total / 1024))
+   tracemalloc.start()
+   # ... run your application ...
+   snapshot = tracemalloc.take_snapshot()

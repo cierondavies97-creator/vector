@@ -1,0 +1,3 @@
+issued) and "issuer" (the principal issuing the certificate).  If a
+   certificate contains an instance of the *Subject Alternative Name*
+   extension (see **RFC 3280**), there will also be a "subjectAltName"

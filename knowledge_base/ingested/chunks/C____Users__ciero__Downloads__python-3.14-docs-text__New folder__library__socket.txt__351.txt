@@ -1,0 +1,4 @@
+def dissect_can_frame(frame):
+       can_id, can_dlc, data = struct.unpack(can_frame_fmt, frame)
+       return (can_id, can_dlc, data[:can_dlc])
+   # create a raw socket and bind it to the 'vcan0' interface

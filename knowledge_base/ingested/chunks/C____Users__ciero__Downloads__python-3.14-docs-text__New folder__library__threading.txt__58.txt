@@ -1,0 +1,8 @@
+>>> mydata.number
+   11
+class threading.local
+   A class that represents thread-local data.
+Thread objects
+--------------
+The "Thread" class represents an activity that is run in a separate
+thread of control.  There are two ways to specify the activity: by

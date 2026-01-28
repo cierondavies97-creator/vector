@@ -1,0 +1,4 @@
+as the argument, and a "time" object passes "None" as the argument. A
+"tzinfo" subclass's methods should therefore be prepared to accept a
+*dt* argument of "None", or of class "datetime".
+When "None" is passed, it's up to the class designer to decide the

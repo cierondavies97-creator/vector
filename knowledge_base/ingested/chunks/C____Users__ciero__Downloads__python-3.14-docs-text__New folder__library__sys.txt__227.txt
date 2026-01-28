@@ -1,0 +1,5 @@
+sys._jit
+   Utilities for observing just-in-time compilation.
+   **CPython implementation detail:** JIT compilation is an
+   *experimental implementation detail* of CPython. "sys._jit" is not
+   guaranteed to exist or behave the same way in all Python

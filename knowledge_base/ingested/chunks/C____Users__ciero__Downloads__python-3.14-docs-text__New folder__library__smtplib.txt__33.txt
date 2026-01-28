@@ -1,0 +1,4 @@
+This returns a 2-tuple composed of a numeric response code and the
+   actual response line (multiline responses are joined into one long
+   line.)
+   In normal operation it should not be necessary to call this method

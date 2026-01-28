@@ -1,0 +1,6 @@
+If you're not careful, it's easy to define options with conflicting
+option strings:
+   parser.add_option("-n", "--dry-run", ...)
+   ...
+   parser.add_option("-n", "--noisy", ...)
+(This is particularly true if you've defined your own OptionParser

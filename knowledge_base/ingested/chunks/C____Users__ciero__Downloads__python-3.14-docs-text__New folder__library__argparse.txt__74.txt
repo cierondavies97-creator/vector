@@ -1,0 +1,5 @@
+>>> parser.add_argument('-f', '--foo', help='old foo help')
+   >>> parser.add_argument('--foo', help='new foo help')
+   Traceback (most recent call last):
+    ..
+   ArgumentError: argument --foo: conflicting option string(s): --foo

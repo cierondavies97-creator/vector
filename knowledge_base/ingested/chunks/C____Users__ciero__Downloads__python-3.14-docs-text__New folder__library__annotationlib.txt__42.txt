@@ -1,0 +1,4 @@
+For example, this is used to implement the "STRING" for
+   "typing.TypedDict" classes created through the functional syntax:
+      >>> from typing import TypedDict
+      >>> Movie = TypedDict("movie", {"name": str, "year": int})

@@ -1,0 +1,4 @@
+the values.
+tkinter.Tcl(screenName=None, baseName=None, className='Tk', useTk=False)
+   The "Tcl()" function is a factory function which creates an object
+   much like that created by the "Tk" class, except that it does not

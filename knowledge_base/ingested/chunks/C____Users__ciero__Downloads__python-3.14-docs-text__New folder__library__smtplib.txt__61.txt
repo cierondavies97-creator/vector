@@ -1,0 +1,5 @@
+call "ehlo()" again.
+   If *keyfile* and *certfile* are provided, they are used to create
+   an "ssl.SSLContext".
+   Optional *context* parameter is an "ssl.SSLContext" object; This is
+   an alternative to using a keyfile and a certfile and if specified

@@ -1,0 +1,4 @@
+cases, that is, itself).
+      The default implementation decides how to dispatch a frame,
+      depending on the type of event (passed as a string) that is
+      about to be executed. *event* can be one of the following:

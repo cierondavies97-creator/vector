@@ -1,0 +1,4 @@
+specific equality function.
+      Changed in version 3.2: "assertMultiLineEqual()" added as the
+      default type equality function for comparing strings.
+   assertNotEqual(first, second, msg=None)

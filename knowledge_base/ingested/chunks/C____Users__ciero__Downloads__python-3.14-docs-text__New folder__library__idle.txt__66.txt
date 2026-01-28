@@ -1,0 +1,4 @@
+deleting characters; by hitting "Up", "Down", "PageUp", "PageDown",
+"Home", and "End" keys; and by a single click within the box.  Close
+the box with "Escape", "Enter", and double "Tab" keys or clicks
+outside the box. A double click within the box selects and closes.

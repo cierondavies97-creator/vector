@@ -1,0 +1,5 @@
+specified attributes values changed.
+As an example, the following code could be used to read an email
+message from a file on disk and pass it to the system "sendmail"
+program on a Unix system:
+   >>> from email import message_from_binary_file

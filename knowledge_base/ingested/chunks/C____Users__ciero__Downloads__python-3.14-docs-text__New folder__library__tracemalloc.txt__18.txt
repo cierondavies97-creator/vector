@@ -1,0 +1,4 @@
+before the tests, when the previous snapshot was taken. Similarly, the
+"linecache" module has cached "940 KiB" of Python source code to
+format tracebacks, all of it since the previous snapshot.
+If the system has little free memory, snapshots can be written on disk

@@ -1,0 +1,4 @@
+example, "module.__spec__.origin == module.__file__".  Note,
+   however, that while the *values* are usually equivalent, they can
+   differ since there is no synchronization between the two objects.
+   For example, it is possible to update the module's "__file__" at

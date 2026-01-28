@@ -1,0 +1,5 @@
+Changed in version 3.6: Added support for the "REPLACE"
+      statement.
+   rowcount
+      Read-only attribute that provides the number of modified rows
+      for "INSERT", "UPDATE", "DELETE", and "REPLACE" statements; is

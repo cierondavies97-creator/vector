@@ -1,0 +1,5 @@
+was initialized.
+   update(arg)
+      Parameter *arg* should be a *key*-to-*message* mapping or an
+      iterable of (*key*, *message*) pairs. Updates the mailbox so
+      that, for each given *key* and *message*, the message

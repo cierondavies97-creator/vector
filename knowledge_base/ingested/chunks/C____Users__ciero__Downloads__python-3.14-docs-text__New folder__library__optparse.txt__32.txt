@@ -1,0 +1,6 @@
+-q, --quiet           don't print status messages to stdout
+where the value of *yourscript* is determined at runtime (normally
+from "sys.argv[0]").
+Background
+==========
+"optparse" was explicitly designed to encourage the creation of

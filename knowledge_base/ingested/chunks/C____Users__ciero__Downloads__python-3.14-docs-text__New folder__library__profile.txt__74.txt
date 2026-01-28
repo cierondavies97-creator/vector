@@ -1,0 +1,3 @@
++--------------------+-----------------------+------------------------+
+      Note that all sorts on statistics are in descending order
+      (placing most time consuming items first), where as name, file,

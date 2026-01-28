@@ -1,0 +1,5 @@
+"object.__length_hint__()", and finally return the default value.
+   Added in version 3.4.
+The following operation works with callables:
+operator.call(obj, /, *args, **kwargs)
+operator.__call__(obj, /, *args, **kwargs)

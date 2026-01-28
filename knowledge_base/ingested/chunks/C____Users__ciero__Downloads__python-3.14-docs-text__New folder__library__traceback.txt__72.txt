@@ -1,0 +1,3 @@
+Represents a single frame in the traceback or stack that is being
+   formatted or printed. It may optionally have a stringified version
+   of the frame's locals included in it. If *lookup_line* is "False",

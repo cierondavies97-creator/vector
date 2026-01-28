@@ -1,0 +1,5 @@
+after *string2* or is equal to it.
+locale.strxfrm(string)
+   Transforms a string to one that can be used in locale-aware
+   comparisons.  For example, "strxfrm(s1) < strxfrm(s2)" is
+   equivalent to "strcoll(s1, s2) < 0".  This function can be used

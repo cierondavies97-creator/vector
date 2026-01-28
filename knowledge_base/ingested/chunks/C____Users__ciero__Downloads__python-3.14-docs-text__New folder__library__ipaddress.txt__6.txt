@@ -1,0 +1,4 @@
+IPv6Address('2001:db8::')
+ipaddress.ip_network(address, strict=True)
+   Return an "IPv4Network" or "IPv6Network" object depending on the IP
+   address passed as argument.  *address* is a string or integer

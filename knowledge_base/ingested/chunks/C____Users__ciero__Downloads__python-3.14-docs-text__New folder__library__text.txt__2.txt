@@ -1,0 +1,6 @@
+* Format String Syntax
+    * Format Specification Mini-Language
+    * Format examples
+  * Template strings ($-strings)
+  * Helper functions
+* "string.templatelib" --- Support for template string literals

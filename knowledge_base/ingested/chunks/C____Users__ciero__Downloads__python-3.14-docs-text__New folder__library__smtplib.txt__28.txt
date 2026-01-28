@@ -1,0 +1,5 @@
+exception smtplib.SMTPAuthenticationError
+   SMTP authentication went wrong.  Most probably the server didn't
+   accept the username/password combination provided.
+See also:
+  **RFC 821** - Simple Mail Transfer Protocol

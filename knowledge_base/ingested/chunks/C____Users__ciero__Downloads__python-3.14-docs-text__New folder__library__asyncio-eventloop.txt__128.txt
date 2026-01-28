@@ -1,0 +1,6 @@
+seconds if "None" (default).
+   Returns a "(transport, protocol)" pair.
+   Added in version 3.5.3.
+   Changed in version 3.7: Added the *ssl_handshake_timeout*
+   parameter.
+   Changed in version 3.11: Added the *ssl_shutdown_timeout*

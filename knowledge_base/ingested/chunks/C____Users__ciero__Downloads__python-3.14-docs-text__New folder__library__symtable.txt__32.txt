@@ -1,0 +1,8 @@
+variable.
+      Added in version 3.14.
+   is_comp_cell()
+      Return "True" if the symbol is a cell in an inlined
+      comprehension.
+      Added in version 3.14.
+   is_namespace()
+      Return "True" if name binding introduces new namespace.

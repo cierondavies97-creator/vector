@@ -1,0 +1,5 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class typing.DefaultDict(collections.defaultdict, MutableMapping[KT, VT])
+   Deprecated alias to "collections.defaultdict".
+   Added in version 3.5.2.
+   Deprecated since version 3.9: "collections.defaultdict" now

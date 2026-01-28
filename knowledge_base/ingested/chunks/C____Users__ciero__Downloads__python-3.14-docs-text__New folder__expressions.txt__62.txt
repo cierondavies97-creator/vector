@@ -1,0 +1,4 @@
+expression*.  An asynchronous generator expression returns a new
+asynchronous generator object, which is an asynchronous iterator (see
+Asynchronous Iterators).
+Added in version 3.6: Asynchronous generator expressions were

@@ -1,0 +1,4 @@
+mock object.
+   "patch.object()" can be used as a decorator, class decorator or a
+   context manager. Arguments *new*, *spec*, *create*, *spec_set*,
+   *autospec* and *new_callable* have the same meaning as for

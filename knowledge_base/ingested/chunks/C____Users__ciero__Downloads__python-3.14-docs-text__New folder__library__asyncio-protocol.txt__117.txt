@@ -1,0 +1,6 @@
+self.transport.close()
+       def connection_lost(self, exc):
+           # The socket has been closed
+           self.on_con_lost.set_result(True)
+   async def main():
+       # Get a reference to the event loop as we plan to use

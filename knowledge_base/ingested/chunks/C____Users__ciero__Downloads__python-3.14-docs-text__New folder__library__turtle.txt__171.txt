@@ -1,0 +1,5 @@
+>>> turtle.onrelease(turtle.unglow) # releasing turns it to transparent.
+turtle.ondrag(fun, btn=1, add=None)
+   Parameters:
+      * **fun** -- a function with two arguments which will be called
+        with the coordinates of the clicked point on the canvas

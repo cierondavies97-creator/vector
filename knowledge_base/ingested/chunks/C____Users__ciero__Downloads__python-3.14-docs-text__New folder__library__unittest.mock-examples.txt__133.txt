@@ -1,0 +1,8 @@
+...         args = deepcopy(args)
+...         kwargs = deepcopy(kwargs)
+...         return super().__call__(*args, **kwargs)
+...
+>>> c = CopyingMock(return_value=None)
+>>> arg = set()
+>>> c(arg)
+>>> arg.add(1)

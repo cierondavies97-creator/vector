@@ -1,0 +1,5 @@
+performance benchmarking indicates this is a bottleneck for a
+     given application, implementing all six rich comparison methods
+     instead is likely to provide an easy speed boost.
+   Note:
+     This decorator makes no attempt to override methods that have

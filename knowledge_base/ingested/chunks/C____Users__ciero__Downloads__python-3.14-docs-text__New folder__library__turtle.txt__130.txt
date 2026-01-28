@@ -1,0 +1,6 @@
+>>> turtle.end_fill()
+   Added in version 3.14.
+turtle.begin_fill()
+   To be called just before drawing a shape to be filled.
+turtle.end_fill()
+   Fill the shape drawn after the last call to "begin_fill()".

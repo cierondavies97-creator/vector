@@ -1,0 +1,8 @@
+heading to its start-orientation (which depends on the mode, see
+   "mode()").
+      >>> turtle.heading()
+      90.0
+      >>> turtle.position()
+      (0.00,-10.00)
+      >>> turtle.home()
+      >>> turtle.position()

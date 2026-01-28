@@ -1,0 +1,7 @@
+>>> clean
+   [20.7, 19.2, 18.3, 14.4]
+   >>> sorted(clean)  # Sorting now works as expected
+   [14.4, 18.3, 19.2, 20.7]
+   >>> median(clean)       # This result is now well defined
+   18.75
+Averages and measures of central location

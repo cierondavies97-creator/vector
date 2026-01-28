@@ -1,0 +1,6 @@
+args=arguments(),
+               body=[
+                   Expr(
+                       value=Await(
+                           value=Call(
+                               func=Name(id='other_func', ctx=Load()))))])])

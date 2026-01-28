@@ -1,0 +1,6 @@
+peer cert's issuer (its direct ancestor CA). If no proper CRL has
+   been loaded with "SSLContext.load_verify_locations", validation
+   will fail.
+   Added in version 3.4.
+ssl.VERIFY_CRL_CHECK_CHAIN
+   Possible value for "SSLContext.verify_flags". In this mode, CRLs of

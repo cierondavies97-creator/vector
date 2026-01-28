@@ -1,0 +1,10 @@
+* re.Pattern
+* re.Match
+* "shelve.BsdDbShelf"
+* "shelve.DbfilenameShelf"
+* "shelve.Shelf"
+* "types.MappingProxyType"
+* "weakref.WeakKeyDictionary"
+* "weakref.WeakMethod"
+* "weakref.WeakSet"
+* "weakref.WeakValueDictionary"

@@ -1,0 +1,9 @@
+>>> mock.some_attribute
+      'eggs'
+      >>> mock.method()
+      3
+      >>> mock.other()
+      Traceback (most recent call last):
+        ...
+      KeyError
+      "configure_mock()" exists to make it easier to do configuration

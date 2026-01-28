@@ -1,0 +1,3 @@
+These four classes process requests *synchronously*; each request must
+be completed before the next request can be started.  This isn't
+suitable if each request takes a long time to complete, because it

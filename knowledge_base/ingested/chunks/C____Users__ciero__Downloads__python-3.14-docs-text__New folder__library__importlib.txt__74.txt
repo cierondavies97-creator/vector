@@ -1,0 +1,4 @@
+when implemented, helps a module to be executed as a script. The
+   ABC represents an optional **PEP 302** protocol.
+   abstractmethod get_filename(fullname)
+         An abstract method that is to return the value of "__file__"

@@ -1,0 +1,8 @@
+67.0
+turtle.goto(x, y=None)
+turtle.setpos(x, y=None)
+turtle.setposition(x, y=None)
+   Parameters:
+      * **x** -- a number or a pair/vector of numbers
+      * **y** -- a number or "None"
+   If *y* is "None", *x* must be a pair of coordinates or a "Vec2D"

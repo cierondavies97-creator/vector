@@ -1,0 +1,5 @@
+all following files. All the data in a pax header is encoded in
+  *UTF-8* for portability reasons.
+There are some more variants of the tar format which can be read, but
+not created:
+* The ancient V7 format. This is the first tar format from Unix

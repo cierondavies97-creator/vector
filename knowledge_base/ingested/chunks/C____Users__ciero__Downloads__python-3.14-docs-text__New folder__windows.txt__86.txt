@@ -1,0 +1,2 @@
++-----------------------------------+-----------------------------------+-----------------------------------+
+| "shebang_can_run_anything"        | "PYTHON_MANAGER_SHEBANG_CAN_RUN_  | True to allow shebangs in ".py"   |

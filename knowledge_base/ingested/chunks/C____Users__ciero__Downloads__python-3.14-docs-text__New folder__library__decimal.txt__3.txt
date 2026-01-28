@@ -1,0 +1,4 @@
+decimal arithmetic specification.
+* Decimal numbers can be represented exactly.  In contrast, numbers
+  like "1.1" and "2.2" do not have exact representations in binary
+  floating point. End users typically would not expect "1.1 + 2.2" to

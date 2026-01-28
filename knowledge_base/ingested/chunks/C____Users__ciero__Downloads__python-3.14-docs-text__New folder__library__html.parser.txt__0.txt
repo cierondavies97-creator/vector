@@ -1,0 +1,5 @@
+"html.parser" --- Simple HTML and XHTML parser
+**********************************************
+**Source code:** Lib/html/parser.py
+======================================================================
+This module defines a class "HTMLParser" which serves as the basis for

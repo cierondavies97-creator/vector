@@ -1,0 +1,4 @@
+file from a source file, and another function used when the module
+source file is invoked as a script.
+Though not often needed, this function can be useful when installing
+modules for shared use, especially if some of the users may not have

@@ -1,0 +1,3 @@
+default), the characters (""") and ("'") are also translated; this
+   helps for inclusion in an HTML attribute value delimited by quotes,
+   as in "<a href="...">". If *quote* is set to false, the characters

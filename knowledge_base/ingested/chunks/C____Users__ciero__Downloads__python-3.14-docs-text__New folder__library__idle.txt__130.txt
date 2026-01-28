@@ -1,0 +1,4 @@
+stack that would not be there otherwise.  IDLE wraps
+"sys.getrecursionlimit" and "sys.setrecursionlimit" to reduce the
+effect of the additional stack frames.
+When user code raises SystemExit either directly or by calling

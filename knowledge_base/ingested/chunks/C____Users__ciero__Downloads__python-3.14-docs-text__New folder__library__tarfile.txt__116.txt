@@ -1,0 +1,4 @@
+"size" may need modifying.  This is the case for objects such as
+   "GzipFile". The "name" may also be modified, in which case
+   *arcname* could be a dummy string.
+   Changed in version 3.6: The *name* parameter accepts a *path-like

@@ -1,0 +1,4 @@
+environment directory.
+      * "__VENV_NAME__" is replaced with the environment name (final
+        path segment of environment directory).
+      * "__VENV_PROMPT__" is replaced with the prompt (the environment

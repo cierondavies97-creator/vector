@@ -1,0 +1,5 @@
+| a=bitwise_or b=compare_op_bitwise_or_pair+ {
+           _PyAST_Compare(
+               a,
+               CHECK(asdl_int_seq*, _PyPegen_get_cmpops(p, b)),
+               CHECK(asdl_expr_seq*, _PyPegen_get_exprs(p, b)),

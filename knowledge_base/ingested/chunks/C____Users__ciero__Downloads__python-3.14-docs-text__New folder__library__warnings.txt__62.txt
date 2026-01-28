@@ -1,0 +1,5 @@
+warnings.simplefilter("ignore")
+       fxn()
+While within the context manager all warnings will simply be ignored.
+This allows you to use known-deprecated code without having to see the
+warning while not suppressing the warning for other code that might

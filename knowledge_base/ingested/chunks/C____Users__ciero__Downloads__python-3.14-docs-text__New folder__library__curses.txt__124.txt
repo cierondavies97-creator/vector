@@ -1,0 +1,3 @@
+| *tr*        | Upper-right corner    | "ACS_URCORNER"          |
+   +-------------+-----------------------+-------------------------+
+   | *bl*        | Bottom-left corner    | "ACS_LLCORNER"          |

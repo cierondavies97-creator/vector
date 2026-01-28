@@ -1,0 +1,8 @@
+("!disabled", "OliveDrab2")]
+                }
+            }
+         })
+         combo = ttk.Combobox().pack()
+         root.mainloop()
+   theme_names()
+      Returns a list of all known themes.

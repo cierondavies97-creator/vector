@@ -1,0 +1,4 @@
+appropriate XML character reference "&#*nnn*;".
+   * "'backslashreplace'" replaces malformed data by Python's
+     backslashed escape sequences.
+   * "'namereplace'" (also only supported when writing) replaces

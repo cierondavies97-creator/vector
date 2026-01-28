@@ -1,0 +1,4 @@
+Each of *r*, *g*, and *b* must be in the range 0..colormode.
+   If turtleshape is a polygon, the interior of that polygon is drawn
+   with the newly set fillcolor.
+      >>> turtle.fillcolor("violet")

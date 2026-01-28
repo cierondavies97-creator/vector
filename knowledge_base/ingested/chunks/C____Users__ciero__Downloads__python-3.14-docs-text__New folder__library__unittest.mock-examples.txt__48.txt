@@ -1,0 +1,6 @@
+different contents per file stored in a dictionary:
+   DEFAULT = "default"
+   data_dict = {"file1": "data1",
+                "file2": "data2"}
+   def open_side_effect(name):
+       return mock_open(read_data=data_dict.get(name, DEFAULT))()

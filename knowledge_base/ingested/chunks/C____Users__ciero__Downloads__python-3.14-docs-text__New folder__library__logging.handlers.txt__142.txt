@@ -1,0 +1,4 @@
+getMessageID(record)
+      Returns the message ID for the record. If you are using your own
+      messages, you could do this by having the *msg* passed to the
+      logger being an ID rather than a format string. Then, in here,

@@ -1,0 +1,5 @@
+Added in version 3.3.
+      Changed in version 3.4: Raise "OSError" instead of
+      "NotImplementedError".
+   path_mtime(path)
+      Optional abstract method which returns the modification time for

@@ -1,0 +1,4 @@
+These arguments are interpreted the same way as by the built-in
+   "open()" function, except the only supported *mode* values are
+   "'r'" (default), "'w'", "'b'", or a combination of those.
+   The socket must be in blocking mode; it can have a timeout, but the

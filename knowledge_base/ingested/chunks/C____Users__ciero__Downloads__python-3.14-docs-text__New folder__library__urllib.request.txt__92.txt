@@ -1,0 +1,5 @@
+subclass, or by passing a value in to the "Request" constructor via
+   the *method* argument.
+   Added in version 3.3.
+   Changed in version 3.4: A default value can now be set in
+   subclasses; previously it could only be set via the constructor

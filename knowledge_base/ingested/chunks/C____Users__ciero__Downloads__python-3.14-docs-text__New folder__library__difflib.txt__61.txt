@@ -1,0 +1,5 @@
+See also:
+  Pattern Matching: The Gestalt Approach
+     Discussion of a similar algorithm by John W. Ratcliff and D. E.
+     Metzener. This was published in Dr. Dobb's Journal in July, 1988.
+SequenceMatcher Objects

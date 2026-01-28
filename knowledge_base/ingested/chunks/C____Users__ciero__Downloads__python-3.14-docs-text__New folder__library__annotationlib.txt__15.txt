@@ -1,0 +1,4 @@
+"{'a': <class 'Cls'>, 'return': None}".
+Stock semantics were used when function annotations were first
+introduced in Python 3.0 (by **PEP 3107**) because this was the
+simplest, most obvious way to implement annotations. The same

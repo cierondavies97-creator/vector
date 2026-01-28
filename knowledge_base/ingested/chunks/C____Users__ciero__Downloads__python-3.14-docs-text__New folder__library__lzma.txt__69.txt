@@ -1,0 +1,6 @@
+f.write(b"Not compressed\n")
+Creating a compressed file using a custom filter chain:
+   import lzma
+   my_filters = [
+       {"id": lzma.FILTER_DELTA, "dist": 5},
+       {"id": lzma.FILTER_LZMA2, "preset": 7 | lzma.PRESET_EXTREME},

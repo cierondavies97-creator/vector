@@ -1,0 +1,4 @@
+supported by the platform C "localtime()" function. Raise "OSError"
+   instead of "ValueError" on "localtime()" failure.
+classmethod date.fromordinal(ordinal)
+   Return the date corresponding to the proleptic Gregorian ordinal,

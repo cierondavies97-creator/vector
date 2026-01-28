@@ -1,0 +1,4 @@
+the specified path.
+      Deprecated since version 3.3: This method is deprecated in
+      favour of "path_stats()".  You don't have to implement it, but
+      it is still available for compatibility purposes. Raise

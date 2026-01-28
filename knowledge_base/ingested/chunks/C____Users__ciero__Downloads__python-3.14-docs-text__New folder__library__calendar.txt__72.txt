@@ -1,0 +1,6 @@
+outside of the range 1-12 (inclusive).
+   month
+      The invalid month number.
+exception calendar.IllegalWeekdayError(weekday)
+   A subclass of "ValueError", raised when the given weekday number is
+   outside of the range 0-6 (inclusive).

@@ -1,0 +1,5 @@
+object once and calling its methods is more efficient than calling
+   module-level functions with the same format since the format string
+   is only compiled once.
+   Note:
+     The compiled versions of the most recent format strings passed to

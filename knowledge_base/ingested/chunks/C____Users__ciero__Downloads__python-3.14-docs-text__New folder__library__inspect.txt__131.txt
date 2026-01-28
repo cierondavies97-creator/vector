@@ -1,0 +1,5 @@
+defined or "None" if no way can be identified to get the source.
+   This will fail with a "TypeError" if the object is a built-in
+   module, class, or function.
+inspect.getsourcelines(object)
+   Return a list of source lines and starting line number for an

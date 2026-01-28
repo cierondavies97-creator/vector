@@ -1,0 +1,6 @@
+case-folding semantics:
+   >>> PurePosixPath('foo') == PurePosixPath('FOO')
+   False
+   >>> PureWindowsPath('foo') == PureWindowsPath('FOO')
+   True
+   >>> PureWindowsPath('FOO') in { PureWindowsPath('foo') }

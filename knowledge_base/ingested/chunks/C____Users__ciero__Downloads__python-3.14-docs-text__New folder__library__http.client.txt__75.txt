@@ -1,0 +1,7 @@
+HTTP/1.1.
+HTTPResponse.url
+   URL of the resource retrieved, commonly used to determine if a
+   redirect was followed.
+HTTPResponse.headers
+   Headers of the response in the form of an
+   "email.message.EmailMessage" instance.

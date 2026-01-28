@@ -1,0 +1,3 @@
+| Attribute          | Index   | Value                     | Value if not present   |
+   |====================|=========|===========================|========================|
+   | "url"              | 0       | URL with no fragment      | empty string           |

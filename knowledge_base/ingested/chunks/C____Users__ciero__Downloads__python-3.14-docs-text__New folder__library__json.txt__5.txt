@@ -1,0 +1,8 @@
+"\"foo\bar"
+   >>> print(json.dumps('\u1234'))
+   "\u1234"
+   >>> print(json.dumps('\\'))
+   "\\"
+   >>> print(json.dumps({"c": 0, "b": 0, "a": 0}, sort_keys=True))
+   {"a": 0, "b": 0, "c": 0}
+   >>> from io import StringIO

@@ -1,0 +1,4 @@
+compiled in to the byte-code file, where it will be used in
+   tracebacks and other messages in cases where the source file does
+   not exist at the time the byte-code file is executed.
+   If *rx* is given, its "search" method is passed the full path name

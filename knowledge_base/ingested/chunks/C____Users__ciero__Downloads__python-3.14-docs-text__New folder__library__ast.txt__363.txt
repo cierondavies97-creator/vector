@@ -1,0 +1,4 @@
+("NodeTransformer") that allows modifications.
+   Deprecated since version 3.8, removed in version 3.14: Methods
+   "visit_Num()", "visit_Str()", "visit_Bytes()",
+   "visit_NameConstant()" and "visit_Ellipsis()" will not be called in

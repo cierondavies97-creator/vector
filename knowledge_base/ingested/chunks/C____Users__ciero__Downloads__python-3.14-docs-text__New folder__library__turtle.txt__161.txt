@@ -1,0 +1,5 @@
+t22 - t12 * t21 must not be zero, otherwise an error is raised.
+   Modify stretchfactor, shearfactor and tiltangle according to the
+   given matrix.
+      >>> turtle = Turtle()
+      >>> turtle.shape("square")

@@ -1,0 +1,4 @@
+data will be strings if streams were opened in text mode;
+   otherwise, bytes.
+   Note that if you want to send data to the process's stdin, you need
+   to create the Popen object with "stdin=PIPE".  Similarly, to get

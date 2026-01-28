@@ -1,0 +1,7 @@
+>>> pack("@ccc", b'1', b'2', b'3')
+   b'123'
+   >>> pack("@3s", b'123')
+   b'123'
+Unpacked fields can be named by assigning them to variables or by
+wrapping the result in a named tuple:
+   >>> record = b'raymond   \x32\x12\x08\x01\x08'

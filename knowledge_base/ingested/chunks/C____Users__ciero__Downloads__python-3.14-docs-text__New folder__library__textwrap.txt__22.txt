@@ -1,0 +1,5 @@
+is the same as
+      wrapper = TextWrapper()
+      wrapper.initial_indent = "* "
+   You can reuse the same "TextWrapper" object many times, and you can
+   change any of its options through direct assignment to instance

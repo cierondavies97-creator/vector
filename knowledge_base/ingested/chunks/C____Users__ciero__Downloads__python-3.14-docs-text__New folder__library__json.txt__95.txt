@@ -1,0 +1,5 @@
+are not RFC-compliant, this module's deserializer is technically RFC-
+compliant under default settings.
+Character Encodings
+-------------------
+The RFC requires that JSON be represented using either UTF-8, UTF-16,

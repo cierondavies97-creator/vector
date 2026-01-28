@@ -1,0 +1,4 @@
+doesn't work with "asyncio" because it can interrupt asyncio internals
+and can hang the program from exiting.
+To mitigate this issue, "asyncio" handles "signal.SIGINT" as follows:
+1. "asyncio.Runner.run()" installs a custom "signal.SIGINT" handler

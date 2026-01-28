@@ -1,0 +1,3 @@
+have to check that the server certificate, which can be obtained by
+calling "SSLSocket.getpeercert()", matches the desired service.  For
+many protocols and applications, the service can be identified by the

@@ -1,0 +1,5 @@
+function to "munge" text, or randomize the order of all the characters
+in each word of a sentence except for the first and last characters:
+   >>> def repl(m):
+   ...     inner_word = list(m.group(2))
+   ...     random.shuffle(inner_word)

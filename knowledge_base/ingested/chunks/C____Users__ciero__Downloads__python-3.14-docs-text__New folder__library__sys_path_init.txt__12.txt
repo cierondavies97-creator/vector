@@ -1,0 +1,4 @@
+the main executable, or in its parent directory, "sys.prefix" and
+"sys.exec_prefix" get set to the directory containing "pyvenv.cfg",
+otherwise they are set to the same value as "sys.base_prefix" and
+"sys.base_exec_prefix", respectively. This is used by Virtual

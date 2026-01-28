@@ -1,0 +1,5 @@
+Added in version 3.2.
+   Deprecated since version 3.6: SSLv2 is deprecated
+ssl.OP_NO_SSLv3
+   Prevents an SSLv3 connection.  This option is only applicable in
+   conjunction with "PROTOCOL_TLS".  It prevents the peers from

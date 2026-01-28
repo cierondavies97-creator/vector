@@ -1,0 +1,5 @@
+active threads.
+      A value of zero causes the value to be selected automatically.
+   overlap_log
+      Sets how much data is reloaded from previous jobs (threads) for
+      new jobs to be used by the look behind window during

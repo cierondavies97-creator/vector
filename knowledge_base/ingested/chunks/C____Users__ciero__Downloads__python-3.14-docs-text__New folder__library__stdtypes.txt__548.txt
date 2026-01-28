@@ -1,0 +1,5 @@
+the original sequence, followed by two empty bytes or bytearray
+   objects.
+   The separator to search for may be any *bytes-like object*.
+bytes.replace(old, new, count=-1, /)
+bytearray.replace(old, new, count=-1, /)

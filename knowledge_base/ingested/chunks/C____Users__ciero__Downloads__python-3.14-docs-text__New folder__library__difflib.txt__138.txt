@@ -1,0 +1,8 @@
+out = sys.stderr.write
+       out(msg + "\n\n")
+       out(__doc__)
+       return 0
+   # open a file & return the file object; gripe and return 0 if it
+   # couldn't be opened
+   def fopen(fname):
+       try:

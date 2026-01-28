@@ -1,0 +1,4 @@
+buffer. These bytes represent UTF-8 encoded text.  This attribute
+   has no meaningful interpretation when "buffer_text" is false.
+xmlparser.ordered_attributes
+   Setting this attribute to a non-zero integer causes the attributes

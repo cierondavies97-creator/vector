@@ -1,0 +1,4 @@
+iterator returned by the "imap()" method has an optional
+      *timeout* parameter: "next(timeout)" will raise
+      "multiprocessing.TimeoutError" if the result cannot be returned
+      within *timeout* seconds.

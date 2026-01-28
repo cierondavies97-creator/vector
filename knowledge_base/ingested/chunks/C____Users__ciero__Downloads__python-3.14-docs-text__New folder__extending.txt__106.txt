@@ -1,0 +1,4 @@
+Before you do this, however, it is important to check that the return
+value isn't "NULL".  If it is, the Python function terminated by
+raising an exception. If the C code that called
+"PyObject_CallObject()" is called from Python, it should now return an

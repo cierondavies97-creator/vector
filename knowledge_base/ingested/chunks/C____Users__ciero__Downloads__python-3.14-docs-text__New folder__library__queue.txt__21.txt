@@ -1,0 +1,5 @@
+put an item on the queue if a free slot is immediately available,
+   else raise the "Full" exception (*timeout* is ignored in that
+   case).
+   Raises "ShutDown" if the queue has been shut down.
+Queue.put_nowait(item)

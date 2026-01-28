@@ -1,0 +1,4 @@
+Recursive directory creation function.  Like "mkdir()", but makes
+   all intermediate-level directories needed to contain the leaf
+   directory.
+   The *mode* parameter is passed to "mkdir()" for creating the leaf

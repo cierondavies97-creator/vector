@@ -1,0 +1,4 @@
+example if the file does not exist.
+   Changed in version 3.3: "IOError" used to be raised, it is now an
+   alias of "OSError".
+FileCookieJar.revert(filename=None, ignore_discard=False, ignore_expires=False)

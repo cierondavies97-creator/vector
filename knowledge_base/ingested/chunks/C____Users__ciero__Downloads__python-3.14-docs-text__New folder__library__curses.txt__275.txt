@@ -1,0 +1,3 @@
++---------------------------+----------------------------------------------+
+On VT100s and their software emulations, such as X terminal emulators,
+there are normally at least four function keys ("KEY_F1", "KEY_F2",

@@ -1,0 +1,5 @@
+"dist-info" or "egg-info" directories, and metadata defined by the
+Core metadata specifications.
+Important:
+  These are *not* necessarily equivalent to or correspond 1:1 with the
+  top-level *import package* names that can be imported inside Python

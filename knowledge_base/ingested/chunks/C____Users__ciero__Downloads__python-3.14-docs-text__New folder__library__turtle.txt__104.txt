@@ -1,0 +1,5 @@
+* "resizemode": "auto" or "user" or "noresize"
+   * "stretchfactor": (positive number, positive number)
+   * "outline": positive number
+   * "tilt": number
+   This dictionary can be used as argument for a subsequent call to

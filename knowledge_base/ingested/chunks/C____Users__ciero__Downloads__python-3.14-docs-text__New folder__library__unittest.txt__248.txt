@@ -1,0 +1,4 @@
+one at a time, so it can be called at any time.
+      Added in version 3.1.
+   classmethod addClassCleanup(function, /, *args, **kwargs)
+      Add a function to be called after "tearDownClass()" to cleanup

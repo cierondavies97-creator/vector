@@ -1,0 +1,4 @@
+errors of all attempts.
+   Changed in version 3.2: *source_address* was added.
+   Changed in version 3.11: *all_errors* was added.
+socket.create_server(address, *, family=AF_INET, backlog=None, reuse_port=False, dualstack_ipv6=False)

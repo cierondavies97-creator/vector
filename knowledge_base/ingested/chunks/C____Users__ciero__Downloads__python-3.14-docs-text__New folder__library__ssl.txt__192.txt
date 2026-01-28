@@ -1,0 +1,5 @@
+============
+Added in version 3.2.
+An SSL context holds various data longer-lived than single SSL
+connections, such as SSL configuration options, certificate(s) and
+private key(s). It also manages a cache of SSL sessions for server-

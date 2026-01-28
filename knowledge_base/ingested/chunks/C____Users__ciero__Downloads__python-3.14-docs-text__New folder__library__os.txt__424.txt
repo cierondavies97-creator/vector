@@ -1,0 +1,7 @@
+change, as for other platforms.
+   st_atime_ns
+      Time of most recent access expressed in nanoseconds as an
+      integer.
+      Added in version 3.3.
+   st_mtime_ns
+      Time of most recent content modification expressed in

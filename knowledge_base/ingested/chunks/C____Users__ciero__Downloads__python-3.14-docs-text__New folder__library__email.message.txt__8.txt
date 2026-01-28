@@ -1,0 +1,3 @@
+names, which must be ASCII values.  The values of the dictionary are
+strings with some extra methods.  Headers are stored and returned in
+case-preserving form, but field names are matched case-insensitively.

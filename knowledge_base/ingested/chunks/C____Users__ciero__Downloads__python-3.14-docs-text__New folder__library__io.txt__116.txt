@@ -1,0 +1,4 @@
+requested from the underlying raw stream, and kept in an internal
+   buffer. The buffered data can then be returned directly on
+   subsequent reads.
+   The constructor creates a "BufferedReader" for the given readable

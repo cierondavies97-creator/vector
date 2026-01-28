@@ -1,0 +1,4 @@
+with "memfd:" and serves only for debugging purposes. Names do not
+   affect the behavior of the file descriptor, and as such multiple
+   files can have the same name without any side effects.
+   Availability: Linux >= 3.17 with glibc >= 2.27.

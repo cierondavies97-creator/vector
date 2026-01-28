@@ -1,0 +1,4 @@
+"disk full" (not for illegal argument types or other incidental
+   errors).
+   The second form of the constructor sets the corresponding
+   attributes, described below.  The attributes default to "None" if

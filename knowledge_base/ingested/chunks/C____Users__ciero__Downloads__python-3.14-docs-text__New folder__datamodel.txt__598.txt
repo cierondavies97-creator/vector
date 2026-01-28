@@ -1,0 +1,6 @@
+that do not need to perform any cleanup are not required to
+   implement this method.
+Added in version 3.12.
+See also:
+  **PEP 688** - Making the buffer protocol accessible in Python
+     Introduces the Python "__buffer__" and "__release_buffer__"

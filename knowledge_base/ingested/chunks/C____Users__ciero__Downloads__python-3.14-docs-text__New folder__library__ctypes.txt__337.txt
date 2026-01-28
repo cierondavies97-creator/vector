@@ -1,0 +1,5 @@
+the buffer smaller than the native size of the objects type, as
+   given by "sizeof(type(obj))", but it is possible to enlarge the
+   buffer.
+ctypes.set_errno(value)
+   Set the current value of the ctypes-private copy of the system

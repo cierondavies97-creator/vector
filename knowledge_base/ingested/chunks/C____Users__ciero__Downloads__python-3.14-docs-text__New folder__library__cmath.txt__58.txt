@@ -1,0 +1,4 @@
+cmath.asinh(z)
+   Return the inverse hyperbolic sine of *z*. There are two branch
+   cuts: One extends from "1j" along the imaginary axis to "∞j".  The
+   other extends from "-1j" along the imaginary axis to "-∞j".

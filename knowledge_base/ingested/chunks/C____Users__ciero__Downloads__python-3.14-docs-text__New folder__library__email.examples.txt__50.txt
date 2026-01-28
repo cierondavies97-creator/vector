@@ -1,0 +1,3 @@
+# the least formatted payload is and print the first three lines.  Of course,
+   # if the message has no plain text part printing the first three lines of html
+   # is probably useless, but this is just a conceptual example.

@@ -1,0 +1,7 @@
+Added in version 3.5.
+Memory Views
+------------
+"memoryview" objects allow Python code to access the internal data of
+an object that supports the buffer protocol without copying.
+class memoryview(object)
+      Create a "memoryview" that references *object*.  *object* must

@@ -1,0 +1,4 @@
+Note:
+     As UDP is not a streaming protocol, there is no persistent
+     connection between an instance of this handler and *host*. For
+     this reason, when using a network socket, a DNS lookup might have

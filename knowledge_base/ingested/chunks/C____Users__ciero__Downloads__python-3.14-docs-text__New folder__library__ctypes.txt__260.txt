@@ -1,0 +1,5 @@
+result type specified by the library loader.
+They are instances of a private local class "_FuncPtr" (not exposed in
+"ctypes") which inherits from the private "_CFuncPtr" class:
+   >>> import ctypes
+   >>> lib = ctypes.CDLL(None)

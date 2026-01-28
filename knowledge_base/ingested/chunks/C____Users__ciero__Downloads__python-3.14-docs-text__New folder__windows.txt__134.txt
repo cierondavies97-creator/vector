@@ -1,0 +1,4 @@
+or using the commands below.
+   $> winget download 9NQ7512CXL7T -e --skip-license --accept-package-agreements --accept-source-agreements
+To programmatically install or uninstall an MSIX using only
+PowerShell, the Add-AppxPackage and Remove-AppxPackage PowerShell

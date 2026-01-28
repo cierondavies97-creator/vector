@@ -1,0 +1,3 @@
+the second sequence, so if you want to compare one sequence against
+   many sequences, use "set_seq2()" to set the commonly used sequence
+   once and call "set_seq1()" repeatedly, once for each of the other

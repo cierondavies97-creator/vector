@@ -1,0 +1,6 @@
+set "f_lasti" of the current frame.
+   Added in version 3.9.
+   Changed in version 3.11: Exception representation on the stack now
+   consist of one, not three, items.
+PUSH_EXC_INFO
+   Pops a value from the stack. Pushes the current exception to the

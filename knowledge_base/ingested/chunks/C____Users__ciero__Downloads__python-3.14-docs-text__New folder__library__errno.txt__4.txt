@@ -1,0 +1,7 @@
+"PermissionError".
+errno.ENOENT
+   No such file or directory. This error is mapped to the exception
+   "FileNotFoundError".
+errno.ESRCH
+   No such process. This error is mapped to the exception
+   "ProcessLookupError".

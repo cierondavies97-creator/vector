@@ -1,0 +1,3 @@
+encoded, if needed, using the specified "Charset", and a header
+      with the appropriate value will be added.  If a *Content-
+      Transfer-Encoding* header already exists, the payload is assumed

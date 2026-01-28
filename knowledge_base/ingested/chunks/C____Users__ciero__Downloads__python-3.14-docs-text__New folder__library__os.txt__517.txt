@@ -1,0 +1,5 @@
+for name in files:
+              os.unlink(name, dir_fd=rootfd)
+          for name in dirs:
+              os.rmdir(name, dir_fd=rootfd)
+   Raises an auditing event "os.fwalk" with arguments "top",

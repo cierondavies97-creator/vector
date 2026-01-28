@@ -1,0 +1,4 @@
+"None" (the default), it is equivalent to "int(num_str)". This
+        can be used to parse JSON integers into custom datatypes, for
+        example "float".
+      * **parse_constant** (*callable* | None) -- If set, a function

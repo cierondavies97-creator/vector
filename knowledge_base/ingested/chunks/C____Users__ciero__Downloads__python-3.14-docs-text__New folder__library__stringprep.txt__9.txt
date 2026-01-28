@@ -1,0 +1,5 @@
+for case-folding used with NFKC).
+stringprep.map_table_b3(code)
+   Return the mapped value for *code* according to tableB.3 (Mapping
+   for case-folding used with no normalization).
+stringprep.in_table_c11(code)

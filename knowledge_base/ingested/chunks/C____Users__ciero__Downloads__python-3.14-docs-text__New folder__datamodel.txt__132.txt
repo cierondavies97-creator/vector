@@ -1,0 +1,6 @@
+"__new__()" and, in the typical case, to "__init__()" to initialize
+the new instance.
+3.2.8.9. Class Instances
+~~~~~~~~~~~~~~~~~~~~~~~~
+Instances of arbitrary classes can be made callable by defining a
+"__call__()" method in their class.

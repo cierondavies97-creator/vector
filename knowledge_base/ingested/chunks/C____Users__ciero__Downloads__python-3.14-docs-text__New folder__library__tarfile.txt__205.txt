@@ -1,0 +1,3 @@
+with the main focus on preserving file system information. Nowadays
+tar archives are commonly used for file distribution and exchanging
+archives over networks. One problem of the original format (which is

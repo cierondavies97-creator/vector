@@ -1,0 +1,5 @@
+Test that *first* and *second* are not equal.  If the values do
+      compare equal, the test will fail.
+   assertTrue(expr, msg=None)
+   assertFalse(expr, msg=None)
+      Test that *expr* is true (or false).

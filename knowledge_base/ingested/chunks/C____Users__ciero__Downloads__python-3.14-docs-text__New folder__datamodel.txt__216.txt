@@ -1,0 +1,4 @@
+class instance has a namespace implemented as a dictionary which is
+the first place in which attribute references are searched.  When an
+attribute is not found there, and the instance's class has an
+attribute by that name, the search continues with the class

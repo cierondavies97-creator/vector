@@ -1,0 +1,5 @@
+Another interesting method, in particular when working
+programmatically with option groups is:
+OptionParser.get_option_group(opt_str)
+   Return the "OptionGroup" to which the short or long option string
+   *opt_str* (e.g. "'-o'" or "'--option'") belongs. If there's no such

@@ -1,0 +1,3 @@
+|                   | __qualname__        | qualified name              |
++-------------------+---------------------+-----------------------------+
+|                   | __self__            | instance to which a method  |

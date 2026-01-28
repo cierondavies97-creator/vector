@@ -1,0 +1,5 @@
+Raises an auditing event "winreg.SaveKey" with arguments "key",
+   "file_name".
+winreg.SetValue(key, sub_key, type, value)
+   Associates a value with a specified key.
+   *key* is an already open key, or one of the predefined HKEY_*

@@ -1,0 +1,4 @@
+of the namespace.  Return the populated namespace.
+   Previous calls to "add_argument()" determine exactly what objects
+   are created and how they are assigned. See the documentation for
+   "add_argument()" for details.

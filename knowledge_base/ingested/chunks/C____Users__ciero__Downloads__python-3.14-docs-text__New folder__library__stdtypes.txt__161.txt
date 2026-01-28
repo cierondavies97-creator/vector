@@ -1,0 +1,4 @@
+will have a quadratic runtime cost in the total sequence length.
+   To get a linear runtime cost, you must switch to one of the
+   alternatives below:
+   * if concatenating "str" objects, you can build a list and use

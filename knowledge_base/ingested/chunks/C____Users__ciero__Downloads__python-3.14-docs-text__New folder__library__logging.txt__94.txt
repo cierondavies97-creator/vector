@@ -1,0 +1,3 @@
+| logging.CRITICAL        | 50              | A serious error, indicating that the  |
+|                         |                 | program itself may be unable to       |
+|                         |                 | continue running.                     |

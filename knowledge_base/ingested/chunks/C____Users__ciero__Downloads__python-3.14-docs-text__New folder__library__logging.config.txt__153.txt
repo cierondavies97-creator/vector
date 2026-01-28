@@ -1,0 +1,4 @@
+interpreted as for loggers, and "NOTSET" is taken to mean 'log
+everything'.
+The "formatter" entry indicates the key name of the formatter for this
+handler. If blank, a default formatter ("logging._defaultFormatter")

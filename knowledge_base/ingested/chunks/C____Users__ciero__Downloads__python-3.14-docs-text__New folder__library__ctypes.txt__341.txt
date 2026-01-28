@@ -1,0 +1,6 @@
+is used as size, otherwise the string is assumed to be zero-
+   terminated.
+   Raises an auditing event "ctypes.string_at" with arguments "ptr",
+   "size".
+ctypes.WinError(code=None, descr=None)
+   Creates an instance of "OSError".  If *code* is not specified,

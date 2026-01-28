@@ -1,0 +1,4 @@
+However, there are other ways to use "{"- and "$"-formatting
+        for log messages.
+      * **validate** (*bool*) -- If "True" (the default), incorrect or
+        mismatched *fmt* and *style* will raise a "ValueError"; for

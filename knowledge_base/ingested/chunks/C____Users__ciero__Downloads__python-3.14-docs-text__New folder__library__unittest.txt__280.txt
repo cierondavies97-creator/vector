@@ -1,0 +1,4 @@
+Subclasses can lazily provide tests by overriding "__iter__()".
+      Note that this method may be called several times on a single
+      suite (for example when counting tests or comparing for
+      equality) so the tests returned by repeated iterations before

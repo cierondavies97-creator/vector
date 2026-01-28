@@ -1,0 +1,5 @@
+reclaim it.  If your type has memory to free or other clean-up to
+perform, you can put it here.  The object itself needs to be freed
+here as well.  Here is an example of this function:
+   static void
+   newdatatype_dealloc(PyObject *op)

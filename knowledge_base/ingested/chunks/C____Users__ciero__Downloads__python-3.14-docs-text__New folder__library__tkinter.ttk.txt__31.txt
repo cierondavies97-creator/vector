@@ -1,0 +1,3 @@
+|                | combination of states. All images in the list should have   |
+|                | the same size.                                              |
++----------------+-------------------------------------------------------------+

@@ -1,0 +1,4 @@
+clauses of "try" statements are honored, and it is possible to
+   intercept the exit attempt at an outer level.
+   Changed in version 3.6: If an error occurs in the cleanup after the
+   Python interpreter has caught "SystemExit" (such as an error

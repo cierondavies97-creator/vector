@@ -1,0 +1,4 @@
+with the given number of bytes.
+   The *byteorder* argument determines the byte order used to
+   represent the integer, and defaults to ""big"".  If *byteorder* is
+   ""big"", the most significant byte is at the beginning of the byte

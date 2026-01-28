@@ -1,0 +1,3 @@
+or from the pipe. A return value of 0 means end of input. If *src*
+   refers to a pipe, then this means that there was no data to
+   transfer, and it would not make sense to block because there are no

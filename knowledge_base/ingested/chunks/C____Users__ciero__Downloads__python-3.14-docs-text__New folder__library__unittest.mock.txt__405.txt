@@ -1,0 +1,4 @@
+ignoring "return_value" and the wrapped object altogether. If any two
+are set, the one with the higher precedence will return the value.
+Regardless of the order of which was set first, the order of
+precedence remains unchanged.

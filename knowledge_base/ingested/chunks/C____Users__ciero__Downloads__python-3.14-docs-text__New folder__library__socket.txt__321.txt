@@ -1,0 +1,5 @@
+* In *timeout mode*, operations fail if they cannot be completed
+  within the timeout specified for the socket (they raise a "timeout"
+  exception) or if the system returns an error.
+Note:
+  At the operating system level, sockets in *timeout mode* are

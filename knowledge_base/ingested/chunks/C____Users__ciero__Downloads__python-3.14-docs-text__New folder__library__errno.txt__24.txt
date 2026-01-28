@@ -1,0 +1,10 @@
+errno.EADDRINUSE
+   Address already in use
+errno.EADDRNOTAVAIL
+   Cannot assign requested address
+errno.ENETDOWN
+   Network is down
+errno.ENETUNREACH
+   Network is unreachable
+errno.ENETRESET
+   Network dropped connection because of reset

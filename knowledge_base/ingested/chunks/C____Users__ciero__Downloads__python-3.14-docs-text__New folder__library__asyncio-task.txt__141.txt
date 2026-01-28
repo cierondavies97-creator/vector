@@ -1,0 +1,4 @@
+passed to *func*. Also, the current "contextvars.Context" is
+   propagated, allowing context variables from the event loop thread
+   to be accessed in the separate thread.
+   Return a coroutine that can be awaited to get the eventual result

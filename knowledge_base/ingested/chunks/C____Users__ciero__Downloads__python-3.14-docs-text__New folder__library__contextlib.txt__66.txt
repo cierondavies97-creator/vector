@@ -1,0 +1,7 @@
+async def __aenter__(self):
+              print('Starting')
+              return self
+          async def __aexit__(self, *exc):
+              print('Finishing')
+              return False
+   The class can then be used like this:

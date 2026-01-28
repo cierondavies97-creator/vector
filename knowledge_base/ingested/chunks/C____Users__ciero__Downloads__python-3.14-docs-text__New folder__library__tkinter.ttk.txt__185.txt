@@ -1,0 +1,5 @@
+Specifies an image to display to the right of the column
+         heading.
+      *anchor*: anchor
+         Specifies how the heading text should be aligned. One of the
+         standard Tk anchor values.

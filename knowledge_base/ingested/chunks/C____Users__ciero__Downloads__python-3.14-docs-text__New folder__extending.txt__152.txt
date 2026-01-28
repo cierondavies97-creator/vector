@@ -1,0 +1,3 @@
+taking this premature exit, especially when it is added later to the
+code.  Such leaks, once introduced, often go undetected for a long
+time: the error exit is taken only in a small fraction of all calls,

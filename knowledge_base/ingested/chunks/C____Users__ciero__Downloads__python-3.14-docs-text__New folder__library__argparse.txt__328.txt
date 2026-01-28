@@ -1,0 +1,6 @@
+>>> parser.get_default('foo')
+      'badger'
+Printing help
+-------------
+In most typical applications, "parse_args()" will take care of
+formatting and printing any usage or error messages.  However, several

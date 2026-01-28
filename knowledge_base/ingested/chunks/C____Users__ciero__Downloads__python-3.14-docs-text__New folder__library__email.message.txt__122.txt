@@ -1,0 +1,4 @@
+when viewing the message in a non-MIME aware reader, this text
+      can become visible.
+      The *preamble* attribute contains this leading extra-armor text
+      for MIME documents.  When the "Parser" discovers some text after

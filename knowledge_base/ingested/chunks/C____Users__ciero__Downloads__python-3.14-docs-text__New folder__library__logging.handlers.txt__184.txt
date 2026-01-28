@@ -1,0 +1,4 @@
+of exceptions. You may wish to subclass "QueueHandler" and
+        override this method to e.g. avoid setting "exc_text" to
+        "None". Note that the "message" / "msg" / "args" changes are
+        related to ensuring the record is pickleable, and you might or

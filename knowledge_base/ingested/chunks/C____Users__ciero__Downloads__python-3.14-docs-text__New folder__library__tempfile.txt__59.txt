@@ -1,0 +1,4 @@
+* On Windows, the directories "C:\TEMP", "C:\TMP", "\TEMP", and
+        "\TMP", in that order.
+      * On all other platforms, the directories "/tmp", "/var/tmp",
+        and "/usr/tmp", in that order.

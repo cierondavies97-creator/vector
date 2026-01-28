@@ -1,0 +1,5 @@
+as *attributes*.  To distinguish them from Python attributes, the
+  documentation for this module uses the term *cookie-attribute*
+  instead.
+The module defines the following exception:
+exception http.cookiejar.LoadError

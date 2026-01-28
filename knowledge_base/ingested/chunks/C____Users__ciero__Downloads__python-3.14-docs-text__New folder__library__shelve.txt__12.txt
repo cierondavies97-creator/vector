@@ -1,0 +1,5 @@
+Two additional methods are supported:
+Shelf.sync()
+   Write back all entries in the cache if the shelf was opened with
+   *writeback* set to "True".  Also empty the cache and synchronize
+   the persistent dictionary on disk, if feasible.  This is called

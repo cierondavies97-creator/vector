@@ -1,0 +1,6 @@
+about exhaustiveness checking with static typing.
+   Added in version 3.11.
+typing.reveal_type(obj, /)
+   Ask a static type checker to reveal the inferred type of an
+   expression.
+   When a static type checker encounters a call to this function, it

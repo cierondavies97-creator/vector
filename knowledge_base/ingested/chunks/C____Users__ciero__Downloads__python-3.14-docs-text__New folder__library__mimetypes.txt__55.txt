@@ -1,0 +1,4 @@
+type: application/x-netcdf encoding: None
+   error: unknown extension of filename.xxx
+   $ # try to feed an unknown MIME type
+   $ python -m mimetypes --extension audio/aac audio/opus audio/future audio/x-wav

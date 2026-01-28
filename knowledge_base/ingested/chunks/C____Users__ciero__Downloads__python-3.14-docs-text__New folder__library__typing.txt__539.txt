@@ -1,0 +1,5 @@
+Type.
+class typing.Mapping(Collection[KT], Generic[KT, VT_co])
+   Deprecated alias to "collections.abc.Mapping".
+   Deprecated since version 3.9: "collections.abc.Mapping" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias

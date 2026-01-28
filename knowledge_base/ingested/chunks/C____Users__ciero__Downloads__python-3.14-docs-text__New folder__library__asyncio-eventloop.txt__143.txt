@@ -1,0 +1,5 @@
+available for writing.
+   Any preexisting callback registered for *fd* is cancelled and
+   replaced by *callback*.
+   Use "functools.partial()" to pass keyword arguments to *callback*.
+loop.remove_writer(fd)

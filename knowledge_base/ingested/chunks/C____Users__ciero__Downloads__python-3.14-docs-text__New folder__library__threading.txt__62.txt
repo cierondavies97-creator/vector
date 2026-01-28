@@ -1,0 +1,5 @@
+calling thread until the thread whose "join()" method is called is
+terminated.
+A thread has a name.  The name can be passed to the constructor, and
+read or changed through the "name" attribute.
+If the "run()" method raises an exception, "threading.excepthook()" is

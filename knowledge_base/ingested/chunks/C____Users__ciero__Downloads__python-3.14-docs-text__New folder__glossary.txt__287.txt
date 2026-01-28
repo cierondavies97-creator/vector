@@ -1,0 +1,7 @@
+optional:
+      class C:
+          field: 'annotation'
+   Variable annotations are usually used for *type hints*: for example
+   this variable is expected to take "int" values:
+      count: int = 0
+   Variable annotation syntax is explained in section Annotated

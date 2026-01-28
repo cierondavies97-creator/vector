@@ -1,0 +1,3 @@
+"sys.exec_prefix"; empty heads are skipped.  For the tail part, it
+uses the empty string and then "lib/site-packages" (on Windows) or
+"lib/python*X.Y[t]*/site-packages" (on Unix and macOS). (The optional

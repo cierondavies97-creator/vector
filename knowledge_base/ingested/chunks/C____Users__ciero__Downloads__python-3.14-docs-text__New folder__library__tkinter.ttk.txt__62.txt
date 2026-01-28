@@ -1,0 +1,3 @@
+|                   | directly editable. In the "disabled" state, no           |
+|                   | interaction is possible.                                 |
++-------------------+----------------------------------------------------------+

@@ -1,0 +1,5 @@
+and
+3. Convert the data values from the call from C to Python.
+When embedding Python, the interface code does:
+1. Convert data values from C to Python,
+2. Perform a function call to a Python interface routine using the

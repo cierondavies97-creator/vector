@@ -1,0 +1,3 @@
+one of these two deprecated methods instead of "find_spec()".  The
+methods are still respected for the sake of backward compatibility.
+However, if "find_spec()" is implemented on the path entry finder, the

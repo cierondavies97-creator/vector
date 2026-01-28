@@ -1,0 +1,5 @@
+@unittest.skipUnless(condition, reason)
+   Skip the decorated test unless *condition* is true.
+@unittest.expectedFailure
+   Mark the test as an expected failure or error.  If the test fails
+   or errors in the test function itself (rather than in one of the

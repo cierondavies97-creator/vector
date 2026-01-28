@@ -1,0 +1,3 @@
+affect visible results.  For instance, "sys.modules" starts with more
+entries, and "threading.active_count()" returns 2 instead of 1.
+By default, IDLE runs user code in a separate OS process rather than

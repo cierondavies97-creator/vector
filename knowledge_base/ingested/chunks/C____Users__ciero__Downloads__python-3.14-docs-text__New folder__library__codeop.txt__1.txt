@@ -1,0 +1,3 @@
+eval-print loop can be emulated, as is done in the "code" module.  As
+a result, you probably don't want to use the module directly; if you
+want to include such a loop in your program you probably want to use

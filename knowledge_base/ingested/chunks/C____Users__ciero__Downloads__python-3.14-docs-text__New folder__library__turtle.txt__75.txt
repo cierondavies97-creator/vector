@@ -1,0 +1,5 @@
+turtle.dot(size, r, g, b, /)
+   Parameters:
+      * **size** -- an integer >= 1 (if given)
+      * **color** -- a colorstring or a numeric color tuple
+   Draw a circular dot with diameter *size*, using *color*.  If *size*

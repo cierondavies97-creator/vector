@@ -1,0 +1,4 @@
+explicit dereferencing used with weak reference objects.  The
+   returned object will have a type of either "ProxyType" or
+   "CallableProxyType", depending on whether *object* is callable.
+   Proxy objects are not *hashable* regardless of the referent; this

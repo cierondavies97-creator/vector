@@ -1,0 +1,4 @@
+the *prefix*.  If no prefix length is provided, it's considered
+      to be "/128".
+      Note that currently expanded netmasks are not supported.  That
+      means "2001:db00::0/24" is a valid argument while

@@ -1,0 +1,4 @@
+example, "get_annotations()" may call an arbitrary *annotate
+function*, and "ForwardRef.evaluate()" may call "eval()" on an
+arbitrary string. Code contained in an annotation might make arbitrary
+system calls, enter an infinite loop, or perform any other operation.

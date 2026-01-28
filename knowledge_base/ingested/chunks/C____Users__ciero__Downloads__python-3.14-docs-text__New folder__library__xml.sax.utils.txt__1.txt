@@ -1,0 +1,4 @@
+functions that are commonly useful when creating SAX applications,
+either in direct use, or as base classes.
+xml.sax.saxutils.escape(data, entities={})
+   Escape "'&'", "'<'", and "'>'" in a string of data.

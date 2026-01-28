@@ -1,0 +1,4 @@
+The following methods exist but are *not* supported as they are either
+in use by mock, can't be set dynamically, or can cause problems:
+* "__getattr__", "__setattr__", "__init__" and "__new__"
+* "__prepare__", "__instancecheck__", "__subclasscheck__", "__del__"

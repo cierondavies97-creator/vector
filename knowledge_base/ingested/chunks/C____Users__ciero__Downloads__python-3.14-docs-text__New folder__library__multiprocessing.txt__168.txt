@@ -1,0 +1,4 @@
+"os.process_cpu_count()" (or "len(os.sched_getaffinity(0))").
+   When the number of CPUs cannot be determined a
+   "NotImplementedError" is raised.
+   See also: "os.cpu_count()" "os.process_cpu_count()"

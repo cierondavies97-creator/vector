@@ -1,0 +1,6 @@
+When a class definition is executed, the following steps occur:
+* MRO entries are resolved;
+* the appropriate metaclass is determined;
+* the class namespace is prepared;
+* the class body is executed;
+* the class object is created.

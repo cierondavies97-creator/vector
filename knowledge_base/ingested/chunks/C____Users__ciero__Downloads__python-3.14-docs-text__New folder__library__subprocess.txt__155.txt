@@ -1,0 +1,5 @@
+A negative value "-N" indicates that the child was terminated by
+   signal "N" (POSIX only).
+Windows Popen Helpers
+=====================
+The "STARTUPINFO" class and following constants are only available on

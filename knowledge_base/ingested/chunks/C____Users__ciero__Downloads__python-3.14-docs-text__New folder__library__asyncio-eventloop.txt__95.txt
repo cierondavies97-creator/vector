@@ -1,0 +1,4 @@
+Changed in version 3.4.4: The *family*, *proto*, *flags*,
+   *reuse_address*, *reuse_port*, *allow_broadcast*, and *sock*
+   parameters were added.
+   Changed in version 3.8: Added support for Windows.

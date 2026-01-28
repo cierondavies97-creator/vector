@@ -1,0 +1,4 @@
+"Py_InitializeFromConfig()" to inform the interpreter about paths to
+Python run-time libraries.  Next, the Python interpreter is
+initialized with "Py_Initialize()", followed by the execution of a
+hard-coded Python script that prints the date and time.  Afterwards,

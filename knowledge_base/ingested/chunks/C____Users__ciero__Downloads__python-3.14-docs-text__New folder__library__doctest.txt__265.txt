@@ -1,0 +1,6 @@
+print(x+y)
+      # Expected:
+      ## 3
+   This function is used internally by other functions (see below),
+   but can also be useful when you want to transform an interactive
+   Python session into a Python script.

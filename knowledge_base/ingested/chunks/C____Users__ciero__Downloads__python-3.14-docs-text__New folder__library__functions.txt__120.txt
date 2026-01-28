@@ -1,0 +1,7 @@
+0.001
+      >>> float('+1E6')
+      1000000.0
+      >>> float('-Infinity')
+      -inf
+   If the argument is a string, it should contain a decimal number,
+   optionally preceded by a sign, and optionally embedded in

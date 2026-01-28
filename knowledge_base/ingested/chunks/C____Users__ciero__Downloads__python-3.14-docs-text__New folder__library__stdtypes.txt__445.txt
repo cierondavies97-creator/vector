@@ -1,0 +1,4 @@
+instance for the expression will be created as normal, except that
+  "conversion" will be set to '"r"' ("repr()") by default. If an
+  explicit conversion or format specifier are provided, this will
+  override the default behaviour.

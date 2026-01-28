@@ -1,0 +1,4 @@
+the default state is "self.__dict__".
+   * For a class that has an instance "__dict__" and "__slots__", the
+     default state is a tuple consisting of two dictionaries:
+     "self.__dict__", and a dictionary mapping slot names to slot

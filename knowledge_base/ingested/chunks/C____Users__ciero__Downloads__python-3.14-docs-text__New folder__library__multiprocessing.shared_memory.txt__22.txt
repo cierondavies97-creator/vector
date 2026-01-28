@@ -1,0 +1,3 @@
+number of handles to it, even in other processes. "unlink()" and
+      "close()" can be called in any order, but trying to access data
+      inside a shared memory block after "unlink()" may result in

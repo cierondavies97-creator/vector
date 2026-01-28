@@ -1,0 +1,5 @@
+above; see "NotImplementedError" for details on correct usage of
+     the exception.
+   Changed in version 3.9: Evaluating "NotImplemented" in a boolean
+   context was deprecated.
+   Changed in version 3.14: Evaluating "NotImplemented" in a boolean

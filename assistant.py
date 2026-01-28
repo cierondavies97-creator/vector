@@ -185,29 +185,50 @@ class Assistant:
 
     def _build_concept_heatmap(
         self, items: List[RetrievedItem]
-    ) -> Dict[str, float]:
-        heatmap = defaultdict(float)
+    ) -> Dict[str, Dict[str, Any]]:
+        """
+        Explainable concept heatmap.
+
+        - Uses explicit concept:* tags only
+        - Weight = 1 / rank (documented, stable)
+        - Normalized by max observed dominance
+        - Contributors are explicit chunk_ids
+        """
+
+        from collections import defaultdict
+
+        raw_scores: Dict[str, float] = defaultdict(float)
+        contributors: Dict[str, list[str]] = defaultdict(list)
 
         for item in items:
-            tags = item.metadata.get("tags", [])
-            weight = 1.0 / max(item.rank or 1, 1)
+            tags = (item.metadata or {}).get("tags", [])
+            rank = item.rank if item.rank and item.rank > 0 else 1
+            weight = 1.0 / rank
 
             for t in tags:
                 if t.startswith("concept:"):
-                    heatmap[t] += weight
+                    raw_scores[t] += weight
+                    contributors[t].append(item.chunk_id)
 
-        if not heatmap:
+        if not raw_scores:
             return {}
 
-        max_val = max(heatmap.values())
-        return {
-            k: round(v / max_val, 3)
-            for k, v in sorted(
-                heatmap.items(),
-                key=lambda x: x[1],
-                reverse=True,
-            )
-        }
+        max_score = max(raw_scores.values()) or 1.0
+
+        heatmap: Dict[str, Dict[str, Any]] = {}
+        for concept, score in sorted(
+            raw_scores.items(), key=lambda x: x[1], reverse=True
+        ):
+            heatmap[concept] = {
+                "normalized_dominance": round(score / max_score, 4),
+                "raw_dominance": round(score, 4),
+                "weighting_rule": "sum(1 / rank)",
+                "contributing_chunks": contributors[concept],
+            }
+
+        return heatmap
+
+
 
     # =====================================================
     # Answer (cycle-free intelligence)
@@ -222,14 +243,14 @@ class Assistant:
     ) -> tuple[str, List[MemoryChunk], TokenStats, Dict[str, Any]]:
 
         # -------------------------------------------------
-        # Query rewrite + concept inference (Tier 3)
+        # Tier 3 — Query rewrite + concept inference
         # -------------------------------------------------
 
         search_query = self._rewrite_query_for_search(query)
         query_concepts = self._infer_query_concepts(search_query)
 
         # -------------------------------------------------
-        # Retrieval (Tier 1 / Tier 2)
+        # Tier 1 / Tier 2 — Retrieval
         # -------------------------------------------------
 
         retrieved: list[RetrievedItem] = []
@@ -251,7 +272,7 @@ class Assistant:
             )
 
         # -------------------------------------------------
-        # Reranking (Tier 3 weighting)
+        # Tier 3 — Reranking / semantic weighting
         # -------------------------------------------------
 
         if self.enable_reranker and retrieved:
@@ -261,7 +282,7 @@ class Assistant:
             )
 
         # -------------------------------------------------
-        # Split by namespace
+        # Namespace split (UI + debug)
         # -------------------------------------------------
 
         file_items = [i for i in retrieved if i.namespace == "file"]
@@ -274,7 +295,7 @@ class Assistant:
         pinned_items = self._all_pinned_items()
 
         # -------------------------------------------------
-        # Concept heatmap (debug)
+        # Concept heatmap (explainable)
         # -------------------------------------------------
 
         concept_heatmap = self._build_concept_heatmap(retrieved)
@@ -313,36 +334,84 @@ class Assistant:
         self.chat_store.append_assistant(output)
 
         # -------------------------------------------------
-        # Debug assembly (FULL FIDELITY)
+        # Debug assembly (FULL FIDELITY + TIERS)
         # -------------------------------------------------
 
         def debug_item(item: RetrievedItem) -> Dict[str, Any]:
+            metadata = item.metadata or {}
+            tags = metadata.get("tags", [])
+
             return {
+                # Identity
                 "namespace": item.namespace,
-                "source_path": item.source_path,
                 "chunk_id": item.chunk_id,
-                "score": item.score,
-                "rank": item.rank,
-                "rerank_delta": item.metadata.get("rerank_delta"),
-                "tags": item.metadata.get("tags", []),
-                "pinned": item.chunk_id
-                in self.context_pins.get(item.namespace, {}),
+                "source_path": item.source_path,
+
+                # -------------------------------------------------
+                # Retrieval (FACTUAL, engine-reported only)
+                # -------------------------------------------------
+                "retrieval": metadata.get("retrieval", {
+                    "score": item.score,
+                    "rank": item.rank,
+                }),
+
+                # -------------------------------------------------
+                # Ranking (post-retrieval ordering only)
+                # -------------------------------------------------
+                "ranking": {
+                    "initial_rank": item.rank,
+                    "rerank_delta": metadata.get("rerank_delta"),
+                    "final_position": item.rank,
+                },
+
+                # -------------------------------------------------
+                # Semantic signals (DECLARED TAGS ONLY)
+                # -------------------------------------------------
+                "semantic_signals": {
+                    "concepts": [
+                        t.split(":", 1)[1]
+                        for t in tags if t.startswith("concept:")
+                    ],
+                    "keywords": [
+                        t.split(":", 1)[1]
+                        for t in tags if t.startswith("keyword:")
+                    ],
+                    "other_tags": [
+                        t for t in tags
+                        if not t.startswith(("concept:", "keyword:", "path:"))
+                    ],
+                },
+
+                # -------------------------------------------------
+                # Pin state (authoritative)
+                # -------------------------------------------------
+                "pin_state": {
+                    "pinned": item.chunk_id in self.context_pins.get(item.namespace, {}),
+                    "pin_scope": "chunk",
+                },
+
+                # Content
                 "text": item.text,
             }
 
+
         debug = {
+            # Query diagnostics
             "query": query,
             "rewritten_query": search_query,
             "query_concepts": query_concepts,
-            # Full retrieval visibility
+
+            # Retrieval visibility
             "file_memory": [debug_item(i) for i in file_items],
             "memory_core": [debug_item(i) for i in core_items],
+
             # Pin state
             "pinned_files": list(self.pinned_files),
             "pinned_chunks": {
                 "file": list(self.context_pins["file"].keys()),
                 "memory_core": list(self.context_pins["memory_core"].keys()),
             },
+
             # Semantic diagnostics
             "concept_heatmap": concept_heatmap,
         }
@@ -350,43 +419,7 @@ class Assistant:
         stats = TokenStats(0, 0, 0.0)
         return output, [], stats, debug
 
-        # =====================================================
-        # Memory Core
-        # =====================================================
 
-    def summarize_chat_to_memory(self) -> str:
-        history = self.chat_store.load()
-        if not history:
-            return ""
-
-        messages = [
-            {
-                "role": "system",
-                "content": (
-                    "Summarize the conversation into stable long-term memory. "
-                    "Extract goals, requirements, preferences, constraints, "
-                    "and decisions. Be concise and factual."
-                ),
-            }
-        ] + history
-
-        try:
-            resp = self.client.responses.create(
-                model=self.model,
-                input=messages,
-                temperature=0.1,
-            )
-            summary = resp.output_text.strip()
-        except Exception:
-            return ""
-
-        if summary:
-            self.memory_engine.add_memory_core_notes(
-                [summary],
-                source="chat",
-            )
-
-        return summary
 
     # =====================================================
     # Chat control

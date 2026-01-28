@@ -1,0 +1,4 @@
+or file object containing XML data.  *parser* is an optional parser
+   instance.  If not given, the standard "XMLParser" parser is used.
+   Returns an "ElementTree" instance.
+xml.etree.ElementTree.ProcessingInstruction(target, text=None)

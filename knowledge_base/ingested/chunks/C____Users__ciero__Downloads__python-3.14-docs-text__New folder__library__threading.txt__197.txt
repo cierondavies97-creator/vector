@@ -1,0 +1,5 @@
+i = barrier.wait()
+         if i == 0:
+             # Only one thread needs to print this
+             print("passed the barrier")
+      If an *action* was provided to the constructor, one of the

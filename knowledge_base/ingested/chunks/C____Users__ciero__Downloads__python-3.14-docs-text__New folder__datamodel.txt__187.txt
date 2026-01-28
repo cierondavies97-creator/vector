@@ -1,0 +1,2 @@
+|                                                    | cases, for a class defined as "class X(A, B, C)",  |
+|                                                    | "X.__bases__" will be exactly equal to "(A, B,     |

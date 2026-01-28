@@ -1,0 +1,3 @@
+must be suitable for Python's "print()" function.  *level* is used
+   internally. *include_default*, if true, prints the default type as
+   well.

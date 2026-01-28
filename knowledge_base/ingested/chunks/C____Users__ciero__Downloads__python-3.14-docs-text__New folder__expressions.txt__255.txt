@@ -1,0 +1,5 @@
+"total_ordering()" decorator.
+* The "hash()" result should be consistent with equality. Objects that
+  are equal should either have the same hash value, or be marked as
+  unhashable.
+Python does not enforce these consistency rules. In fact, the

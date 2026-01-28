@@ -1,0 +1,4 @@
+"byref(obj, offset)" corresponds to this C code:
+      (((char *)&obj) + offset)
+   The returned object can only be used as a foreign function call
+   parameter. It behaves similar to "pointer(obj)", but the

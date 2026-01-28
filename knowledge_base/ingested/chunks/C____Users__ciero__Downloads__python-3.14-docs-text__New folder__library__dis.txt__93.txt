@@ -1,0 +1,4 @@
+CLEANUP_THROW
+   Handles an exception raised during a "throw()" or "close()" call
+   through the current frame.  If "STACK[-1]" is an instance of
+   "StopIteration", pop three values from the stack and push its

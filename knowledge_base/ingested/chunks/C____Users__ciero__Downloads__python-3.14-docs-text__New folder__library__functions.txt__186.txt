@@ -1,0 +1,4 @@
+Calling "locals()" as part of a comprehension in a function,
+   generator, or coroutine is equivalent to calling it in the
+   containing scope, except that the comprehension's initialised
+   iteration variables will be included. In other scopes, it behaves

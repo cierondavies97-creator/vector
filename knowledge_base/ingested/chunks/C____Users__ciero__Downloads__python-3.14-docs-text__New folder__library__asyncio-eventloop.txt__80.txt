@@ -1,0 +1,5 @@
+"ExceptionGroup" will be raised containing all exceptions (even
+     if there is only one).
+   Changed in version 3.5: Added support for SSL/TLS in
+   "ProactorEventLoop".
+   Changed in version 3.6: The socket option socket.TCP_NODELAY is set

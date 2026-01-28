@@ -1,0 +1,3 @@
+argument to "patch()" then the object that is being replaced will be
+used as the spec object. Because the speccing is done "lazily" (the
+spec is created as attributes on the mock are accessed) you can use it

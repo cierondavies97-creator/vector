@@ -1,0 +1,4 @@
+environment variable and various other installation- and
+implementation-specific defaults.  Entries in "sys.path" can name
+directories on the file system, zip files, and potentially other
+"locations" (see the "site" module) that should be searched for

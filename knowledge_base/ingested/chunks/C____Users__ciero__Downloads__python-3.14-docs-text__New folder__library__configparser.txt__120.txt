@@ -1,0 +1,5 @@
+because that would interfere with constructor options
+     *allow_no_value* and *delimiters*.
+Legacy API Examples
+===================
+Mainly because of backwards compatibility concerns, "configparser"

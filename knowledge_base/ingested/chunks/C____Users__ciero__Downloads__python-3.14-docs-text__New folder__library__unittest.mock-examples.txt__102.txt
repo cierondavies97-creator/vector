@@ -1,0 +1,7 @@
+...         self.assertIs(mymodule.foo, self.mock_foo)
+   ...
+   ...     def tearDown(self):
+   ...         self.patcher.stop()
+   ...
+   >>> MyTest('test_foo').run()
+If you use this technique you must ensure that the patching is

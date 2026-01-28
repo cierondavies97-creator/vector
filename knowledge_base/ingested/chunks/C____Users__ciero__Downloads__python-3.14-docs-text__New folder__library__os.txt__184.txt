@@ -1,0 +1,6 @@
+>= 7.1.
+   Using flags requires Linux >= 4.6.
+   Added in version 3.7.
+os.RWF_NOWAIT
+   Do not wait for data which is not immediately available. If this
+   flag is specified, the system call will return instantly if it

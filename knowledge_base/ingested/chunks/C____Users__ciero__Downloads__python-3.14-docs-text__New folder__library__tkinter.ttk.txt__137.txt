@@ -1,0 +1,4 @@
+after the tree label.
+The order in which data values are displayed may be controlled by
+setting the widget option "displaycolumns". The tree widget can also
+display column headings. Columns may be accessed by number or symbolic

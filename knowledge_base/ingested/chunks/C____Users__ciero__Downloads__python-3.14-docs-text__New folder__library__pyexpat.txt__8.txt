@@ -1,0 +1,3 @@
+it will override the implicit or explicit encoding of the document.
+   Parsers created through "ParserCreate()" are called "root" parsers,
+   in the sense that they do not have any parent parser attached. Non-

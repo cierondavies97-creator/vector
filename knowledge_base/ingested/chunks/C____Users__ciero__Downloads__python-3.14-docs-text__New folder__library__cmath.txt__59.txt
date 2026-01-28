@@ -1,0 +1,5 @@
+cmath.atanh(z)
+   Return the inverse hyperbolic tangent of *z*. There are two branch
+   cuts: One extends from "1" along the real axis to "∞". The other
+   extends from "-1" along the real axis to "-∞".
+cmath.cosh(z)

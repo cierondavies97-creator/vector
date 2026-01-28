@@ -1,0 +1,4 @@
+should always be 0 (the default).  Setting "prec" requires some care.
+The easiest approach for trying out bignum arithmetic is to use the
+maximum value for "prec" as well [2]:
+   >>> setcontext(Context(prec=MAX_PREC, Emax=MAX_EMAX, Emin=MIN_EMIN))

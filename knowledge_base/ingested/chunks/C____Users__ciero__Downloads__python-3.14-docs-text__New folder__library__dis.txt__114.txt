@@ -1,0 +1,5 @@
+"STACK[-1]", push a "tuple" containing the corresponding values.
+   Otherwise, push "None".
+   Added in version 3.10.
+   Changed in version 3.11: Previously, this instruction also pushed a
+   boolean value indicating success ("True") or failure ("False").

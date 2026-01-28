@@ -1,0 +1,7 @@
+The "discover" sub-command has the following options:
+-v, --verbose
+   Verbose output
+-s, --start-directory directory
+   Directory to start discovery ("." default)
+-p, --pattern pattern
+   Pattern to match test files ("test*.py" default)

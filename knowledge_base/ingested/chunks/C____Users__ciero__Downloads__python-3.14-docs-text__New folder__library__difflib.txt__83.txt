@@ -1,0 +1,4 @@
+get_opcodes()
+      Return list of 5-tuples describing how to turn *a* into *b*.
+      Each tuple is of the form "(tag, i1, i2, j1, j2)".  The first
+      tuple has "i1 == j1 == 0", and remaining tuples have *i1* equal

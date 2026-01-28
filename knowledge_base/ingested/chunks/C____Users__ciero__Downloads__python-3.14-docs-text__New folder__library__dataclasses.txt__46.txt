@@ -1,0 +1,4 @@
+error to specify both *default* and *default_factory*.
+   * *init*: If true (the default), this field is included as a
+     parameter to the generated "__init__()" method.
+   * *repr*: If true (the default), this field is included in the

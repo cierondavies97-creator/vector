@@ -1,0 +1,4 @@
+Changed in version 3.2: On Unix, keys and values are bytes.
+   Note:
+     The "os" module provides an alternate implementation of "environ"
+     which updates the environment on modification. Note also that

@@ -1,0 +1,5 @@
+is suppressed.
+-d destdir
+   Directory prepended to the path to each file being compiled.  This
+   will appear in compilation time tracebacks, and is also compiled in
+   to the byte-code file, where it will be used in tracebacks and

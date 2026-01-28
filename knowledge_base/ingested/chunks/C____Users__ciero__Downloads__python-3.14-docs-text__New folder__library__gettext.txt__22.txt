@@ -1,0 +1,4 @@
+will be split on the colon to produce the expected list of language
+   code strings.
+   "find()" then expands and normalizes the languages, and then
+   iterates through them, searching for an existing file built of

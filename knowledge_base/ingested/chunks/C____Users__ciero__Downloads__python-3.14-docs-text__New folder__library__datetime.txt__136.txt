@@ -1,0 +1,5 @@
+instead.
+classmethod datetime.fromtimestamp(timestamp, tz=None)
+   Return the local date and time corresponding to the POSIX
+   timestamp, such as is returned by "time.time()". If optional
+   argument *tz* is "None" or not specified, the timestamp is

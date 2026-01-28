@@ -1,0 +1,5 @@
+the match.  For a match object *m*, and a group *g* that did
+   contribute to the match, the substring matched by group *g*
+   (equivalent to "m.group(g)") is
+      m.string[m.start(g):m.end(g)]
+   Note that "m.start(group)" will equal "m.end(group)" if *group*

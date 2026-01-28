@@ -1,0 +1,4 @@
+are fixed), redefine "__le__()" and "__ge__()", then the other
+   operations will automatically follow suit.
+3. The "Set" mixin provides a "_hash()" method to compute a hash value
+   for the set; however, "__hash__()" is not defined because not all

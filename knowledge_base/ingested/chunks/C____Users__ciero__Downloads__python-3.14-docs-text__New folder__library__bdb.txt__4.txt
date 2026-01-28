@@ -1,0 +1,3 @@
+When creating a breakpoint, its associated "file name" should be in
+   canonical form.  If a "funcname" is defined, a breakpoint "hit"
+   will be counted when the first line of that function is executed.

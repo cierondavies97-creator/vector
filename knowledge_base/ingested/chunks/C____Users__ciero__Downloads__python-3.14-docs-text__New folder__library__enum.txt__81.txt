@@ -1,0 +1,7 @@
+<Color.GREEN: 2>
+         >>> purple ^ Color.GREEN
+         <Color.RED|GREEN|BLUE: 7>
+   __invert__(self):
+      Returns all the flags in *type(self)* that are not in *self*:
+         >>> ~white
+         <Color: 0>

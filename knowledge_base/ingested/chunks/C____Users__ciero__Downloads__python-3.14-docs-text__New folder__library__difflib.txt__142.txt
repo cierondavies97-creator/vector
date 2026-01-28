@@ -1,0 +1,7 @@
+try:
+           opts, args = getopt.getopt(args, "qr:")
+       except getopt.error as detail:
+           return fail(str(detail))
+       noisy = 1
+       qseen = rseen = 0
+       for opt, val in opts:

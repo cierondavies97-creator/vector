@@ -1,0 +1,4 @@
+The *globals*, *locals*, and *type_params* parameters provide a
+      more precise mechanism for influencing the names that are
+      available when the "ForwardRef" is evaluated. *globals* and
+      *locals* are passed to "eval()", representing the global and

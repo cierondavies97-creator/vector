@@ -1,0 +1,5 @@
+type and then added together. In the latter case, the sequences are
+concatenated.
+This operation can be customized using the special "__add__()" and
+"__radd__()" methods.
+Changed in version 3.14: If only one operand is a complex number, the

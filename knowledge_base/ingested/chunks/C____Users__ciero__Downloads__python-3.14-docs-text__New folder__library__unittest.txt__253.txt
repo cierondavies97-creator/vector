@@ -1,0 +1,4 @@
+*prior* to "tearDownClass()" then you can call
+      "doClassCleanups()" yourself.
+      "doClassCleanups()" pops methods off the stack of cleanup
+      functions one at a time, so it can be called at any time.

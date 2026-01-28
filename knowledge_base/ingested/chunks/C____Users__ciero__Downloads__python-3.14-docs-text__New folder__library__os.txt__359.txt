@@ -1,0 +1,5 @@
+*dst*.
+os.renames(old, new)
+   Recursive directory or file renaming function. Works like
+   "rename()", except creation of any intermediate directories needed
+   to make the new pathname good is attempted first. After the rename,

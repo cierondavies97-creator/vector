@@ -1,0 +1,3 @@
+Changed in version 3.8: The *buffers* argument was added.
+pickle.loads(data, /, *, fix_imports=True, encoding='ASCII', errors='strict', buffers=None)
+   Return the reconstituted object hierarchy of the pickled

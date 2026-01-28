@@ -1,0 +1,4 @@
+"pattern" contains the match pattern that the subject will be
+   matched against. If the pattern is "None", the node represents a
+   capture pattern (i.e a bare name) and will always succeed.
+   The "name" attribute contains the name that will be bound if the

@@ -1,0 +1,6 @@
+system at context switch and hence has less accuracy.
+   Availability: macOS >= 10.12.
+   Added in version 3.13.
+time.CLOCK_PROCESS_CPUTIME_ID
+   High-resolution per-process timer from the CPU.
+   Availability: Unix.

@@ -1,0 +1,5 @@
+the interpreter and to functions that interact strongly with the
+interpreter. It is always available. Unless explicitly noted
+otherwise, all variables are read-only.
+sys.abiflags
+   On POSIX systems where Python was built with the standard

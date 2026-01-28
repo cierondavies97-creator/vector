@@ -1,0 +1,4 @@
+interpreter.  The worker likewise serializes the return value when
+sending it back.
+When a worker's current task raises an uncaught exception, the worker
+always tries to preserve the exception as-is.  If that is successful

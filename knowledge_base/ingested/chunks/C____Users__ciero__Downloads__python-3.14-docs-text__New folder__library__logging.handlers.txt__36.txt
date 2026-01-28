@@ -1,0 +1,4 @@
+This is provided so that a custom filename can be provided.
+      The default implementation calls the 'namer' attribute of the
+      handler, if it's callable, passing the default name to it. If
+      the attribute isn't callable (the default is "None"), the name

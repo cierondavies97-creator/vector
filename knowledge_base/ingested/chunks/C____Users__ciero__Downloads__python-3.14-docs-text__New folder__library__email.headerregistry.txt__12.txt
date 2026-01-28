@@ -1,0 +1,5 @@
+"BaseHeader" also provides the following method, which is called by
+   the email library code and should not in general be called by
+   application programs:
+   fold(*, policy)
+      Return a string containing "linesep" characters as required to

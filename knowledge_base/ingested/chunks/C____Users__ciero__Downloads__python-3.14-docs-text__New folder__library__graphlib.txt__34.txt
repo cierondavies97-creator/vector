@@ -1,0 +1,4 @@
+the exception.
+   The detected cycle can be accessed via the second element in the
+   "args" attribute of the exception instance and consists in a list
+   of nodes, such that each node is, in the graph, an immediate

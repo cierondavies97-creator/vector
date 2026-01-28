@@ -1,0 +1,5 @@
+def handleSlide(slide):
+       handleSlideTitle(slide.getElementsByTagName("title")[0])
+       handlePoints(slide.getElementsByTagName("point"))
+   def handleSlideshowTitle(title):
+       print(f"<title>{getText(title.childNodes)}</title>")

@@ -1,0 +1,2 @@
+| "callback" "error_received()"                      | Called when a previous send or receive operation   |
+|                                                    | raises an "OSError".                               |

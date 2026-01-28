@@ -1,0 +1,5 @@
+fails, an "OSError" exception is raised.
+   Raises an auditing event "winreg.CreateKey" with arguments "key",
+   "sub_key", "access".
+   Raises an auditing event "winreg.OpenKey/result" with argument
+   "key".

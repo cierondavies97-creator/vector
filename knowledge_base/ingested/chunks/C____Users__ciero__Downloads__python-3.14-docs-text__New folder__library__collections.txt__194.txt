@@ -1,0 +1,7 @@
+"UserDict" instances provide the following attribute:
+   data
+      A real dictionary used to store the contents of the "UserDict"
+      class.
+"UserList" objects
+==================
+This class acts as a wrapper around list objects.  It is a useful base

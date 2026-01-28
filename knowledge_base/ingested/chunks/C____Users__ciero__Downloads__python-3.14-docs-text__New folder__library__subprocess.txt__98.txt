@@ -1,0 +1,4 @@
+Windows.
+   If *restore_signals* is true (the default) all signals that Python
+   has set to SIG_IGN are restored to SIG_DFL in the child process
+   before the exec. Currently this includes the SIGPIPE, SIGXFZ and

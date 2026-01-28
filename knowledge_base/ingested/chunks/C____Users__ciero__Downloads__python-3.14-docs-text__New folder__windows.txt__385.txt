@@ -1,0 +1,7 @@
+4.12.1. Getting started
+-----------------------
+4.12.1.1. From the command-line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Changed in version 3.6.
+System-wide installations of Python 3.3 and later will put the
+launcher on your "PATH". The launcher is compatible with all available

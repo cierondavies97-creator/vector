@@ -1,0 +1,6 @@
+insufficient and an actual file or directory on the file system is
+   required.
+   Added in version 3.9.
+   Changed in version 3.12: Added support for *traversable*
+   representing a directory.
+Functional API

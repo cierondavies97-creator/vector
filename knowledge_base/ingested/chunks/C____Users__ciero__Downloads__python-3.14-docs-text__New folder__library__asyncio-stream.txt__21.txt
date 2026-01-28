@@ -1,0 +1,6 @@
+StreamReader
+============
+class asyncio.StreamReader
+   Represents a reader object that provides APIs to read data from the
+   IO stream. As an *asynchronous iterable*, the object supports the
+   "async for" statement.

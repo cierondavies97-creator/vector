@@ -1,0 +1,4 @@
+or package name if the "-m" option was used.
+This default is almost always desirable because it will make the help
+messages match the string that was used to invoke the program on the
+command line. However, to change this default behavior, another value

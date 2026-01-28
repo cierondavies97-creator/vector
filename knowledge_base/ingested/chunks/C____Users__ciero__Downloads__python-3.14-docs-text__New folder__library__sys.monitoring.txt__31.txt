@@ -1,0 +1,3 @@
+In order to monitor an event, it must be turned on and a corresponding
+callback must be registered. Events can be turned on or off by setting
+the events either globally and/or for a particular code object. An

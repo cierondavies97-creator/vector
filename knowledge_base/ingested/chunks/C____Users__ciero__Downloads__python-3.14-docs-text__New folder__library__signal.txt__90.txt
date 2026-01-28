@@ -1,0 +1,4 @@
+See also "pause()", "sigwait()" and "sigwaitinfo()".
+   Added in version 3.3.
+   Changed in version 3.5: The function is now retried with the
+   recomputed *timeout* if interrupted by a signal not in *sigset* and

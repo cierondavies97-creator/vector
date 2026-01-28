@@ -1,0 +1,9 @@
+Default action is to ignore the signal.
+   Availability: Unix.
+signal.SIGPROF
+   Profiling timer expired.
+   Availability: Unix.
+signal.SIGQUIT
+   Terminal quit signal.
+   Availability: Unix.
+signal.SIGSEGV

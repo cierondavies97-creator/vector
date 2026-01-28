@@ -1,0 +1,3 @@
+|                   | See "tkinter.StringVar".                                 |
++-------------------+----------------------------------------------------------+
+| values            | Specifies the list of values to display in the drop-down |

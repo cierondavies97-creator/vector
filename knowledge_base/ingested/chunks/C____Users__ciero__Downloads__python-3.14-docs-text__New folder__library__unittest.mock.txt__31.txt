@@ -1,0 +1,4 @@
+Create a new "Mock" object. "Mock" takes several optional arguments
+   that specify the behaviour of the Mock object:
+   * *spec*: This can be either a list of strings or an existing
+     object (a class or instance) that acts as the specification for

@@ -1,0 +1,4 @@
+respective signal handler in the child process "signal.signal()"
+      for "SIGINT".
+      Note: if the child process catches and discards
+      "KeyboardInterrupt", the process will not be terminated.

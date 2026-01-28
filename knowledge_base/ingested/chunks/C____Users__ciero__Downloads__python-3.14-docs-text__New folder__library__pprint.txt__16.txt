@@ -1,0 +1,4 @@
+Return the formatted representation of *object* as a string.
+   *indent*, *width*, *depth*, *compact*, *sort_dicts* and
+   *underscore_numbers* are passed to the "PrettyPrinter" constructor
+   as formatting parameters and their meanings are as described in the

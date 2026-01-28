@@ -1,0 +1,3 @@
+most email in a standards-compliant way, should handle MIME and non-
+MIME email messages just fine, and is designed so that the bytes-
+oriented parsing and generation operations are inverses, assuming the

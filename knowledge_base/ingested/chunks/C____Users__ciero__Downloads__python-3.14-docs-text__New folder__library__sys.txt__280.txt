@@ -1,0 +1,4 @@
+interactive mode.  Their initial values in this case are "'>>> '"
+   and "'... '".  If a non-string object is assigned to either
+   variable, its "str()" is re-evaluated each time the interpreter
+   prepares to read a new interactive command; this can be used to

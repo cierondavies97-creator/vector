@@ -1,0 +1,9 @@
+"timedelta(microseconds=1)", although note that arithmetic on
+   "time" objects is not supported.
+Instance attributes (read-only):
+time.hour
+   In "range(24)".
+time.minute
+   In "range(60)".
+time.second
+   In "range(60)".

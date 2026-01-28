@@ -1,0 +1,5 @@
+"/etc/shadow" which is not world readable.  Whether the *pw_passwd*
+  field contains anything useful is system-dependent.
+It defines the following items:
+pwd.getpwuid(uid)
+   Return the password database entry for the given numeric user ID.

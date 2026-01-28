@@ -1,0 +1,5 @@
+The following constants are provided for use with "set_debug()":
+gc.DEBUG_STATS
+   Print statistics during collection.  This information can be useful
+   when tuning the collection frequency.
+gc.DEBUG_COLLECTABLE

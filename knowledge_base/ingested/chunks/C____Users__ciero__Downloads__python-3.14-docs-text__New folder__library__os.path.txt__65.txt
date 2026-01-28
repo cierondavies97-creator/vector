@@ -1,0 +1,4 @@
+Changed in version 3.8: Symbolic links and junctions are now
+   resolved on Windows.
+   Changed in version 3.10: The *strict* parameter was added.
+   Changed in version 3.14: The "ALLOW_MISSING" value for the *strict*

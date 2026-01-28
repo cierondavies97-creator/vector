@@ -1,0 +1,4 @@
+this case the additional opens that do not share delete access
+       (e.g. created via builtin "open()") must be closed before
+       exiting the context manager, else the "os.unlink()" call on
+       context manager exit will fail with a "PermissionError".

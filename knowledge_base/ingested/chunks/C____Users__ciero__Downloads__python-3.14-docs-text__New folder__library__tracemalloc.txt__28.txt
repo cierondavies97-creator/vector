@@ -1,0 +1,5 @@
+regrtest.main_in_temp_cwd()
+     File "/usr/lib/python3.4/runpy.py", line 73
+       exec(code, run_globals)
+     File "/usr/lib/python3.4/runpy.py", line 160
+       "__main__", fname, loader, pkg_name)

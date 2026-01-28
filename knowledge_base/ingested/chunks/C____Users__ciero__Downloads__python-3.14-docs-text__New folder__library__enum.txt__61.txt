@@ -1,0 +1,6 @@
+Note:
+     Using "auto" with "Enum" results in integers of increasing value,
+     starting with "1".
+   Changed in version 3.12: Added Dataclass support
+   _add_alias_()
+      Adds a new name as an alias to an existing member:

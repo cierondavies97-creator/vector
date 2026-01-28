@@ -1,0 +1,5 @@
+std offset [dst [offset [,start[/time], end[/time]]]]
+   Where the components are:
+   "std" and "dst"
+      Three or more alphanumerics giving the timezone abbreviations.
+      These will be propagated into time.tzname

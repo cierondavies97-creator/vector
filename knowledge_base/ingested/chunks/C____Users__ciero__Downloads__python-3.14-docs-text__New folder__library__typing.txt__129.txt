@@ -1,0 +1,6 @@
+static type checkers treat both equivalently.
+   Added in version 3.6.2: Added "NoReturn".
+   Added in version 3.11: Added "Never".
+typing.Self
+   Special type to represent the current enclosed class.
+   For example:

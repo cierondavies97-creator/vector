@@ -1,0 +1,4 @@
+acquired multiple times by the same thread without causing errors
+   or a *deadlock*.
+   For functions, reentrancy means the function can be safely called
+   again before a previous invocation has completed, which is

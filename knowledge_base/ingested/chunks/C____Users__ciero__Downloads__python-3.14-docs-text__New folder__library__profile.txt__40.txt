@@ -1,0 +1,7 @@
+results without writing the profile data to a file:
+      import cProfile, pstats, io
+      from pstats import SortKey
+      pr = cProfile.Profile()
+      pr.enable()
+      # ... do something ...
+      pr.disable()

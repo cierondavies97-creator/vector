@@ -1,0 +1,3 @@
+Support for the "%Z" directive is based on the values contained in
+   "tzname" and whether "daylight" is true.  Because of this, it is
+   platform-specific except for recognizing UTC and GMT which are

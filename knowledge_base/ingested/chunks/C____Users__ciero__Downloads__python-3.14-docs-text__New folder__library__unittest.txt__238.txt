@@ -1,0 +1,4 @@
+"TestCase" instances, this will always be "1".
+   defaultTestResult()
+      Return an instance of the test result class that should be used
+      for this test case class (if no other result instance is

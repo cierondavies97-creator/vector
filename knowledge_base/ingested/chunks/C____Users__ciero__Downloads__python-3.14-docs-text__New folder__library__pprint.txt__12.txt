@@ -1,0 +1,4 @@
+* **underscore_numbers** (*bool*) -- If "True", integers will be
+        formatted with the "_" character for a thousands separator,
+        otherwise underscores are not displayed (the default).
+   >>> import pprint

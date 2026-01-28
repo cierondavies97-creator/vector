@@ -1,0 +1,4 @@
+manager, including cleaning up the Start menu, registry, and any
+download caches. Runtimes that were not installed by the Python
+install manager will not be impacted, and neither will manually
+created configuration files.

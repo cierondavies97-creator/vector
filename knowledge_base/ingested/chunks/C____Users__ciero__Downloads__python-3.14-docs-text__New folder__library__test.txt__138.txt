@@ -1,0 +1,4 @@
+Added in version 3.9.
+test.support.socket_helper.IPV6_ENABLED
+   Set to "True" if IPv6 is enabled on this host, "False" otherwise.
+test.support.socket_helper.find_unused_port(family=socket.AF_INET, socktype=socket.SOCK_STREAM)

@@ -1,0 +1,5 @@
+import sound.effects.echo
+   import sound.effects.surround
+   from sound.effects import *
+In this example, the "echo" and "surround" modules are imported in the
+current namespace because they are defined in the "sound.effects"

@@ -1,0 +1,4 @@
+during creation of standard ".zip" and tar archives.
+shutil.get_archive_formats()
+   Return a list of supported formats for archiving. Each element of
+   the returned sequence is a tuple "(name, description)".

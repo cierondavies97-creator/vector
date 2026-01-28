@@ -1,0 +1,7 @@
+classes. For example it is the type of "object().__str__".
+   Added in version 3.7.
+types.NotImplementedType
+   The type of "NotImplemented".
+   Added in version 3.10.
+types.MethodDescriptorType
+   The type of methods of some built-in data types such as

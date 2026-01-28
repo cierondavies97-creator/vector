@@ -1,0 +1,5 @@
+line ("python path/to/script").
+   Added in version 3.2.
+   Changed in version 3.4: Updated to take advantage of the module
+   spec feature added by **PEP 451**. This allows "__cached__" to be
+   set correctly in the case where "__main__" is imported from a valid

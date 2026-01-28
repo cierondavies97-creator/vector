@@ -1,0 +1,4 @@
+generic type expecting two type parameters representing the key
+   type and the value type.  In this example, the function expects a
+   "dict" with keys of type "str" and values of type "int":
+      def send_post_request(url: str, body: dict[str, int]) -> None:

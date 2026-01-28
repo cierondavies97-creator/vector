@@ -1,0 +1,4 @@
+Set attributes on the mock through keyword arguments.
+      Attributes plus return values and side effects can be set on
+      child mocks using standard dot notation and unpacking a
+      dictionary in the method call:

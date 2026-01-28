@@ -1,0 +1,7 @@
+import tkinter
+         root = tkinter.Tk()
+         style = ttk.Style()
+         style.theme_settings("default", {
+            "TCombobox": {
+                "configure": {"padding": 5},
+                "map": {

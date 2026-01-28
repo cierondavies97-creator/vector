@@ -1,0 +1,4 @@
+relative to other points, its value can be greater than "1.0".
+   cdf(x)
+      Using a cumulative distribution function (cdf), compute the
+      probability that a random variable *X* will be less than or

@@ -1,0 +1,4 @@
+option is returned. Otherwise, sets the options to the
+      corresponding values as given by *kw*.
+   move(item, parent, index)
+      Moves *item* to position *index* in *parent*'s list of children.

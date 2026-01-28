@@ -1,0 +1,4 @@
+that allows something like "cfg://handlers.foo" to be used in
+configuring a handler that depends on handler "foo". If that dependent
+handler were named "bar", problems would result, because the
+configuration of "bar" would be attempted before that of "foo", and

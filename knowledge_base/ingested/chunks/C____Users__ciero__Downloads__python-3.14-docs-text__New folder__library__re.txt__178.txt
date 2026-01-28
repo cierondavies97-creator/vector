@@ -1,0 +1,5 @@
+bitwise OR (the "|" operator).
+   Changed in version 3.1: Added the optional flags argument.
+   Changed in version 3.5: Unmatched groups are replaced with an empty
+   string.
+   Changed in version 3.6: Unknown escapes in *pattern* consisting of

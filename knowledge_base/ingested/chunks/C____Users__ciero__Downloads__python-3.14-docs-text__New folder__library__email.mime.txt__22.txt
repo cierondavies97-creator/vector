@@ -1,0 +1,4 @@
+decoded as au, wav, aiff, or aifc, then the subtype will be
+   automatically included in the *Content-Type* header. Otherwise you
+   can explicitly specify the audio subtype via the *_subtype*
+   argument.  If the minor type could not be guessed and *_subtype*

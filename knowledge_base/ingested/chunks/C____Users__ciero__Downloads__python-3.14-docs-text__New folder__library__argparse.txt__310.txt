@@ -1,0 +1,4 @@
+"add_argument_group()" on an argument group now raises an
+   exception. This nesting was never supported, often failed to work
+   correctly, and was unintentionally exposed through inheritance.
+   Deprecated since version 3.14: Passing prefix_chars to

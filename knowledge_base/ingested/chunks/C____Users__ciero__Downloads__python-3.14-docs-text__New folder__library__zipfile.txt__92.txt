@@ -1,0 +1,3 @@
+as a positional argument without causing a "TypeError". As it could
+   in 3.9. Code needing to be compatible with unpatched 3.10 and 3.11
+   versions must pass all "io.TextIOWrapper" arguments, "encoding"

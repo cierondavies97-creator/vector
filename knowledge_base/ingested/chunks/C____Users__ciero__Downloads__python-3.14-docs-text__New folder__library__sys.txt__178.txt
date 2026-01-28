@@ -1,0 +1,4 @@
+specialized configure option "--with-trace-refs". It is intended
+   only for debugging garbage-collection issues.
+   Return a list of up to *limit* dynamically allocated Python
+   objects. If *type* is given, only objects of that exact type (not

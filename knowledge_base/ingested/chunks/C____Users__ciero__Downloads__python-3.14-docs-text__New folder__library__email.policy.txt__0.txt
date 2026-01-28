@@ -1,0 +1,6 @@
+"email.policy": Policy Objects
+******************************
+Added in version 3.3.
+**Source code:** Lib/email/policy.py
+======================================================================
+The "email" package's prime focus is the handling of email messages as

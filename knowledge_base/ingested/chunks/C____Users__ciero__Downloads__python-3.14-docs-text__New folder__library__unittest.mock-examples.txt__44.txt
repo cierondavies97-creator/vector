@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+   ...
+AttributeError: Mock object has no attribute 'old_method'. Did you mean: 'class_method'?
+Using a specification also enables a smarter matching of calls made to
+the mock, regardless of whether some parameters were passed as

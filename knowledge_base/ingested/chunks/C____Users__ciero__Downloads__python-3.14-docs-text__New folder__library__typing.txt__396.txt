@@ -1,0 +1,7 @@
+class typing.SupportsFloat
+   An ABC with one abstract method "__float__".
+class typing.SupportsIndex
+   An ABC with one abstract method "__index__".
+   Added in version 3.8.
+class typing.SupportsInt
+   An ABC with one abstract method "__int__".

@@ -1,0 +1,3 @@
+"isolation_level" is not "None", *sql* is an "INSERT", "UPDATE",
+      "DELETE", or "REPLACE" statement, and there is no open
+      transaction, a transaction is implicitly opened before executing

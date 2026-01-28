@@ -1,0 +1,4 @@
+Normal distributions can be used to approximate Binomial distributions
+when the sample size is large and when the probability of a successful
+trial is near 50%.
+For example, an open source conference has 750 attendees and two rooms

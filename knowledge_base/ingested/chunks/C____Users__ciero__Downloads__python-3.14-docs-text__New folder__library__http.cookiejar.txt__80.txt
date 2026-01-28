@@ -1,0 +1,3 @@
+a version cookie-attribute of 1) to Netscape cookies by setting the
+   version attribute of the "Cookie" instance to 0.  The default value
+   is "None", in which case RFC 2109 cookies are downgraded if and

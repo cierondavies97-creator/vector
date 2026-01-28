@@ -1,0 +1,4 @@
+returned (defaults to "None").
+   add_header(_name, _value, **_params)
+      Extended header setting.  This method is similar to
+      "__setitem__()" except that additional header parameters can be

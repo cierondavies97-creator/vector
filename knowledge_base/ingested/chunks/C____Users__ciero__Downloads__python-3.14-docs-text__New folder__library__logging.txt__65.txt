@@ -1,0 +1,4 @@
+"Handler"s.
+      If no handler is attached to this logger (or any of its
+      ancestors, taking into account the relevant "Logger.propagate"
+      attributes), the message will be sent to the handler set on

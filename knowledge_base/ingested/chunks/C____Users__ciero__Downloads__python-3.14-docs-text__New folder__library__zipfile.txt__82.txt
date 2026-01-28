@@ -1,0 +1,5 @@
+*zinfo_or_directory* is a "ZipInfo" instance then the *mode*
+   argument is ignored.
+   The archive must be opened with mode "'w'", "'x'" or "'a'".
+   Added in version 3.11.
+The following data attributes are also available:

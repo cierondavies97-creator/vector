@@ -1,0 +1,3 @@
+| "1"      | "ru_stime"             | time in system mode (float seconds)     |
+   +----------+------------------------+-----------------------------------------+
+   | "2"      | "ru_maxrss"            | maximum resident set size               |

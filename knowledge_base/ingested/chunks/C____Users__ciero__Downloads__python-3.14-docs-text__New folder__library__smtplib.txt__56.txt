@@ -1,0 +1,4 @@
+If the initial response check returns "None", or if
+   *initial_response_ok* is false, "authobject()" will be called to
+   process the server's challenge response; the *challenge* argument
+   it is passed will be a "bytes".  It should return ASCII "str"

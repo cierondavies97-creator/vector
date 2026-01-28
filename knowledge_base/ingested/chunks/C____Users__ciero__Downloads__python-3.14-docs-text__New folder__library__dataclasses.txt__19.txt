@@ -1,0 +1,4 @@
+"__hash__()" is used by built-in "hash()", and when objects are
+     added to hashed collections such as dictionaries and sets.
+     Having a "__hash__()" implies that instances of the class are
+     immutable. Mutability is a complicated property that depends on

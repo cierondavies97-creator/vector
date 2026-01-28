@@ -1,0 +1,4 @@
+process, simply by connecting to the victim's "listen()" socket
+     and sending a configuration which runs whatever code the attacker
+     wants to have executed in the victim's process. This is
+     especially easy to do if the default port is used, but not hard

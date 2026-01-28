@@ -1,0 +1,6 @@
+objects (for example when catching an exception and storing its
+   traceback for later use).
+   "RuntimeError" is raised if the frame is currently executing or
+   suspended.
+   Added in version 3.4.
+   Changed in version 3.13: Attempting to clear a suspended frame

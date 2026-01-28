@@ -1,0 +1,6 @@
+Added in version 3.4.
+sys.getunicodeinternedsize()
+   Return the number of unicode objects that have been interned.
+   Added in version 3.12.
+sys.getandroidapilevel()
+   Return the build-time API level of Android as an integer. This

@@ -1,0 +1,3 @@
+maintain a growing collection of modules for the conversion between
+the various file formats. There are also many different operations you
+might want to perform on sound data (such as mixing, adding echo,

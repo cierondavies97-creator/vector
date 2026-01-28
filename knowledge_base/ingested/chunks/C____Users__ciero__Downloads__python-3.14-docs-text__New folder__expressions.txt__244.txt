@@ -1,0 +1,4 @@
+follows:
+  * For two collections to compare equal, they must be of the same
+    type, have the same length, and each pair of corresponding
+    elements must compare equal (for example, "[1,2] == (1,2)" is

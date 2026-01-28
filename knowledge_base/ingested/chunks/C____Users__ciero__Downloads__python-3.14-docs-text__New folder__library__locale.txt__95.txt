@@ -1,0 +1,3 @@
+bytes are interpreted as Unicode codepoints.  See **PEP 538** and
+   **PEP 540** for how this variable might be automatically coerced to
+   "C.UTF-8" to avoid issues created by invalid settings in containers

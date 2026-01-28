@@ -1,0 +1,6 @@
+with the "call" object). If that sequence of calls are in "mock_calls"
+then the assert succeeds.
+>>> m = MagicMock()
+>>> m().foo().bar().baz()
+<MagicMock name='mock().foo().bar().baz()' id='...'>
+>>> m.one().two().three()

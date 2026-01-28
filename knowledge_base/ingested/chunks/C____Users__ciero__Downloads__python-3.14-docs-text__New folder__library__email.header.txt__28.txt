@@ -1,0 +1,3 @@
+the folded header.  It defaults to the most useful value for
+      Python application code ("\n"), but "\r\n" can be specified in
+      order to produce headers with RFC-compliant line separators.

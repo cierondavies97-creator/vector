@@ -1,0 +1,3 @@
+to look up a converter function using the declared types for each
+   column. The types are declared when the database table is created.
+   "sqlite3" will look up a converter function using the first word of

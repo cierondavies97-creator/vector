@@ -1,0 +1,5 @@
+subdirs
+      A dictionary mapping names in "common_dirs" to "dircmp"
+      instances (or MyDirCmp instances if this instance is of type
+      MyDirCmp, a subclass of "dircmp").
+      Changed in version 3.10: Previously entries were always "dircmp"

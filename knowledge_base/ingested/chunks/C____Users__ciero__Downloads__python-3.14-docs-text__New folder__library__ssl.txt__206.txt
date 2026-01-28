@@ -1,0 +1,4 @@
+"OP_CIPHER_SERVER_PREFERENCE", "OP_SINGLE_DH_USE",
+   "OP_SINGLE_ECDH_USE", "OP_NO_SSLv2", and "OP_NO_SSLv3" (except for
+   "PROTOCOL_SSLv3") are set by default. The initial cipher suite list
+   contains only "HIGH" ciphers, no "NULL" ciphers and no "MD5"

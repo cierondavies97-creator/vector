@@ -1,0 +1,7 @@
+* "shutil" --- High-level file operations
+  * Directory and files operations
+    * Platform-dependent efficient copy operations
+    * copytree example
+    * rmtree example
+  * Archiving operations
+    * Archiving example

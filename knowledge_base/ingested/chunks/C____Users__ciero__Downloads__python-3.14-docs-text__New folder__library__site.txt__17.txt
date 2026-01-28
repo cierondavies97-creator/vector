@@ -1,0 +1,6 @@
+# bar package configuration
+   bar
+Then the following version-specific directories are added to
+"sys.path", in this order:
+   /usr/local/lib/pythonX.Y/site-packages/bar
+   /usr/local/lib/pythonX.Y/site-packages/foo

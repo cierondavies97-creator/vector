@@ -1,0 +1,4 @@
+"urljoin("https://website.com/users/", username)", if "username"
+     can contain an absolute URL, the result of "urljoin" will be the
+     absolute URL.
+   Changed in version 3.5: Behavior updated to match the semantics

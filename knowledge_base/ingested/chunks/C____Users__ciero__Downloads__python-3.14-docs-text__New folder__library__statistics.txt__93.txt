@@ -1,0 +1,3 @@
+variance indicates it is clustered closely around the mean.
+   If the optional second argument *xbar* is given, it should be the
+   *sample* mean of *data*.  If it is missing or "None" (the default),

@@ -1,0 +1,3 @@
+accessing an arbitrary attribute of a mock creates a child mock, we
+can create our separate mocks from a parent one. Calls to those child
+mock will then all be recorded, in order, in the "mock_calls" of the

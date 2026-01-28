@@ -1,0 +1,4 @@
+The return value is a tuple in the form (client-identity, psk).
+   Client-identity is an optional string which may be used by the
+   server to select a corresponding PSK for the client. The string
+   must be less than or equal to "256" octets when UTF-8 encoded. PSK

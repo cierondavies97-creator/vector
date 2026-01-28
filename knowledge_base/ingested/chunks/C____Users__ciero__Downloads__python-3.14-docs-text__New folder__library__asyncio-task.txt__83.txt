@@ -1,0 +1,4 @@
+When using this factory (via
+   "loop.set_task_factory(asyncio.eager_task_factory)"), coroutines
+   begin execution synchronously during "Task" construction. Tasks are
+   only scheduled on the event loop if they block. This can be a

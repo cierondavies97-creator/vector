@@ -1,0 +1,3 @@
+Manager. This is a standalone tool that makes Python available as
+global commands on your Windows machine, integrates with the system,
+and supports updates over time. You can download the Python Install

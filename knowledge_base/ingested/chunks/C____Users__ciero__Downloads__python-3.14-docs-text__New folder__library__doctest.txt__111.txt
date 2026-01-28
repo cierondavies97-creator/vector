@@ -1,0 +1,4 @@
+[0,    1, ...,   18,    19]
+As the previous example shows, you can add "..." lines to your example
+containing only directives.  This can be useful when an example is too
+long for a directive to comfortably fit on the same line:

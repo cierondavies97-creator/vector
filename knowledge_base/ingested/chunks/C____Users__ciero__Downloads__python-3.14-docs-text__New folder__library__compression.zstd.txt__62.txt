@@ -1,0 +1,5 @@
+raise a "ZstdError". Any data found after the end of the frame
+      is ignored and saved in the "unused_data" attribute.
+   eof
+      "True" if the end-of-stream marker has been reached.
+   unused_data

@@ -1,0 +1,4 @@
+|            | same           | times,     |
+      |            | compression    | consider   |
+      |            | level.         | reusing a  |
+      |            |                | compressor |

@@ -1,0 +1,4 @@
+* *unsafe_hash*: If true, force "dataclasses" to create a
+     "__hash__()" method, even though it may not be safe to do so.
+     Otherwise, generate a "__hash__()" method according to how *eq*
+     and *frozen* are set. The default value is "False".

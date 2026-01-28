@@ -1,0 +1,4 @@
+"atexit" is true.  They are called in reverse order of creation.
+   Note:
+     It is important to ensure that *func*, *args* and *kwargs* do not
+     own any references to *obj*, either directly or indirectly, since

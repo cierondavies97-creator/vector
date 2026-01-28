@@ -1,0 +1,3 @@
++----------+-----------------------------------------------------------------+
+| values   | The list of values associated with the item.  Each item should  |
+|          | have the same number of values as the widget option columns. If |

@@ -1,0 +1,5 @@
+complete URL.
+   This example shows the function being used on Windows:
+      >>> from urllib.request import pathname2url
+      >>> path = 'C:\\Program Files'
+      >>> pathname2url(path, add_scheme=True)

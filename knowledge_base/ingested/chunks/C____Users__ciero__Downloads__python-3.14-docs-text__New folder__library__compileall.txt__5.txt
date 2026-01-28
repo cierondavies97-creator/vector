@@ -1,0 +1,6 @@
+directly contained in the named or implied directories.
+-f
+   Force rebuild even if timestamps are up-to-date.
+-q
+   Do not print the list of files compiled. If passed once, error
+   messages will still be printed. If passed twice ("-qq"), all output

@@ -1,0 +1,3 @@
+xml.sax.parseString(string, handler, error_handler=handler.ErrorHandler())
+   Similar to "parse()", but parses from a buffer *string* received as
+   a parameter.  *string* must be a "str" instance or a *bytes-like

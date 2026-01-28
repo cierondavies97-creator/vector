@@ -1,0 +1,5 @@
+it should expire.  If *now* is given (in seconds since the epoch),
+   return whether the cookie has expired at the specified time.
+Examples
+========
+The first example shows the most common usage of "http.cookiejar":

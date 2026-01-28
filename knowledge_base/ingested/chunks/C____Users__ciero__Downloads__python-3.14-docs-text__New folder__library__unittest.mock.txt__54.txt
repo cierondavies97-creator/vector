@@ -1,0 +1,4 @@
+If *any_order* is false then the calls must be sequential. There
+      can be extra calls before or after the specified calls.
+      If *any_order* is true then the calls can be in any order, but
+      they must all appear in "mock_calls".

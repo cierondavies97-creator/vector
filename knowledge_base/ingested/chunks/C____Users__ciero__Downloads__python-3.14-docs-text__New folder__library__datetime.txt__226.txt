@@ -1,0 +1,6 @@
+giving the UTC offset:
+   * "YYYY-MM-DDTHH:MM:SS.ffffff+HH:MM[:SS[.ffffff]]", if
+     "microsecond" is not 0
+   * "YYYY-MM-DDTHH:MM:SS+HH:MM[:SS[.ffffff]]",  if "microsecond" is 0
+   Examples:
+      >>> from datetime import datetime, timezone

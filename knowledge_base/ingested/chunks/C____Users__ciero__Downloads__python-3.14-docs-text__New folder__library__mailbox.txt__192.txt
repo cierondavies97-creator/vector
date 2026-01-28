@@ -1,0 +1,5 @@
+instance, the "From " line is copied and all flags directly
+correspond:
++-------------------+------------------------------+
+| Resulting state   | "MMDFMessage" state          |
+|===================|==============================|

@@ -1,0 +1,3 @@
+Binary file "/opt/python/python", at _PyEval_EvalFrameDefault+0x490c [0x5b27f7cbb302]
+     Binary file "/opt/python/python", at +0x2818e6 [0x5b27f7cd98e6]
+     Binary file "/opt/python/python", at +0x281aab [0x5b27f7cd9aab]

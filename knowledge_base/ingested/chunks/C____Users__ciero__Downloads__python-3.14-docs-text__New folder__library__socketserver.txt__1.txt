@@ -1,0 +1,5 @@
+The "socketserver" module simplifies the task of writing network
+servers.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.

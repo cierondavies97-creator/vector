@@ -1,0 +1,4 @@
+losslessly converted to its exact decimal equivalent.  This
+   conversion can often require 53 or more digits of precision.  For
+   example, "Decimal(float('1.1'))" converts to
+   "Decimal('1.100000000000000088817841970012523233890533447265625')".

@@ -1,0 +1,4 @@
+specification. If "True" (the default), their JavaScript
+        equivalents ("NaN", "Infinity", "-Infinity") are used.
+      * **cls** (a "JSONEncoder" subclass) -- If set, a custom JSON
+        encoder with the "default()" method overridden, for

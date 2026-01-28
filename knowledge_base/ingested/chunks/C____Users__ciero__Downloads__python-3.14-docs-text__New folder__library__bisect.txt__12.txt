@@ -1,0 +1,4 @@
+slices such that "all(elem <= x for elem in a[lo : ip])" is true
+   for the left slice and "all(elem > x for elem in a[ip : hi])" is
+   true for the right slice.
+   Changed in version 3.10: Added the *key* parameter.

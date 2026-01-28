@@ -1,0 +1,4 @@
+https://en.wikipedia.org/wiki/Cryptographic_hash_function
+     Wikipedia article with information on which algorithms have known
+     issues and what that means regarding their use.
+  https://www.ietf.org/rfc/rfc8018.txt

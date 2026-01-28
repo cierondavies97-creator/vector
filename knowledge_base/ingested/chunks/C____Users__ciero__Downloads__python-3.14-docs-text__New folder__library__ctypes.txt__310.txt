@@ -1,0 +1,6 @@
+"Release" method when necessary.
+   Availability: Windows
+   Added in version 3.14.
+ctypes.cast(obj, type)
+   This function is similar to the cast operator in C. It returns a
+   new instance of *type* which points to the same memory block as

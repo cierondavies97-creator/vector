@@ -1,0 +1,4 @@
+same meaning as with the "Message" constructor.
+   As with message in an mbox mailbox, MMDF messages are stored with
+   the sender's address and the delivery date in an initial line
+   beginning with "From ".  Likewise, flags that indicate the state of

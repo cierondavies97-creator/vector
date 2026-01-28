@@ -1,0 +1,5 @@
+"abc" --- Abstract Base Classes
+*******************************
+**Source code:** Lib/abc.py
+======================================================================
+This module provides the infrastructure for defining *abstract base

@@ -1,0 +1,7 @@
+hash_value = -hash_value
+       if hash_value == -1:
+           hash_value = -2
+       return hash_value
+   def hash_float(x):
+       """Compute the hash of a float x."""
+       if math.isnan(x):

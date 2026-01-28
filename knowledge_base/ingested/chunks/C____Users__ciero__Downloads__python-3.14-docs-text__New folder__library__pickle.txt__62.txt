@@ -1,0 +1,5 @@
+Added in version 3.3.
+   reducer_override(obj)
+      Special reducer that can be defined in "Pickler" subclasses.
+      This method has priority over any reducer in the
+      "dispatch_table".  It should conform to the same interface as a

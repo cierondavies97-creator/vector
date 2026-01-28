@@ -1,0 +1,5 @@
+Availability: Windows
+   Raises an auditing event "ctypes.get_last_error" with no arguments.
+ctypes.memmove(dst, src, count)
+   Same as the standard C memmove library function: copies *count*
+   bytes from *src* to *dst*. *dst* and *src* must be integers or

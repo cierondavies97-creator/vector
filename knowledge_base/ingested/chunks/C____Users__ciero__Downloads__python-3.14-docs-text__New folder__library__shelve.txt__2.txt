@@ -1,0 +1,4 @@
+types, and objects containing lots of shared  sub-objects.  The keys
+are ordinary strings.
+shelve.open(filename, flag='c', protocol=None, writeback=False)
+   Open a persistent dictionary.  The filename specified is the base

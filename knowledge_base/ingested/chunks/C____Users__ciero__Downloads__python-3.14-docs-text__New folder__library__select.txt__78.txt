@@ -1,0 +1,8 @@
+Kqueue Objects
+==============
+kqueue.close()
+   Close the control file descriptor of the kqueue object.
+kqueue.closed
+   "True" if the kqueue object is closed.
+kqueue.fileno()
+   Return the file descriptor number of the control fd.

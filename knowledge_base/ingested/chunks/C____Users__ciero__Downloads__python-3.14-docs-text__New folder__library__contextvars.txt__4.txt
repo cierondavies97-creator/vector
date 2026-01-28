@@ -1,0 +1,4 @@
+The required *name* parameter is used for introspection and debug
+   purposes.
+   The optional keyword-only *default* parameter is returned by
+   "ContextVar.get()" when no value for the variable is found in the

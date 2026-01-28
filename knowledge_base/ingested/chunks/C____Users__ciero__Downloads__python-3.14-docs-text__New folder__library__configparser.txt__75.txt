@@ -1,0 +1,5 @@
+>>> [option for option in parser['section3']]
+     ['foo', 'bar', 'baz']
+* *allow_no_value*, default value: "False"
+  Some configuration files are known to include settings without
+  values, but which otherwise conform to the syntax supported by

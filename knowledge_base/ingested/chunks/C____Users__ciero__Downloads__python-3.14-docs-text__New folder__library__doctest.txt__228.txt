@@ -1,0 +1,4 @@
+then the display output can be also customized by subclassing
+   DocTestRunner, and overriding the methods "report_start()",
+   "report_success()", "report_unexpected_exception()", and
+   "report_failure()".

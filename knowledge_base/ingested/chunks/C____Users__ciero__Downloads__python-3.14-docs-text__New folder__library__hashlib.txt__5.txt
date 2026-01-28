@@ -1,0 +1,4 @@
+a hash supplied more than 2047 bytes of data at once in its
+constructor or ".update" method.
+Constructors for hash algorithms that are always present in this
+module are "sha1()", "sha224()", "sha256()", "sha384()", "sha512()",

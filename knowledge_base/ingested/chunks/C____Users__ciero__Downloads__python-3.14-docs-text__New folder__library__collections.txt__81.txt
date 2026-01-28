@@ -1,0 +1,8 @@
+copy()
+      Create a shallow copy of the deque.
+      Added in version 3.5.
+   count(x)
+      Count the number of deque elements equal to *x*.
+      Added in version 3.2.
+   extend(iterable)
+      Extend the right side of the deque by appending elements from

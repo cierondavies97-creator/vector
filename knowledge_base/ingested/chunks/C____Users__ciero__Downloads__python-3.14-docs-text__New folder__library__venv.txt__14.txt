@@ -1,0 +1,4 @@
+[--upgrade] [--without-pip] [--prompt PROMPT] [--upgrade-deps]
+               [--without-scm-ignore-files]
+               ENV_DIR [ENV_DIR ...]
+   Creates virtual Python environments in one or more target directories.

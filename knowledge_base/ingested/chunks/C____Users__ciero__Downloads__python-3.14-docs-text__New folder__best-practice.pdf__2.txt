@@ -1,0 +1,11 @@
+Nicola Chiapolini, 8 July 2024
+2 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Introduction
+▶ We write code regularly
+▶ We have not been formally trained

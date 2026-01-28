@@ -1,0 +1,5 @@
+this method exists, "create_module()" must be defined.
+      Added in version 3.4.
+      Changed in version 3.6: "create_module()" must also be defined.
+   load_module(fullname)
+      A legacy method for loading a module.  If the module cannot be

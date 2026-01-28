@@ -1,0 +1,5 @@
+debugger is invoked in "'inline'" mode. After the confirmation, the
+   debugger will call "sys.exit()" immediately, instead of raising
+   "bdb.BdbQuit" in the next trace event.
+debug code
+   Enter a recursive debugger that steps through *code* (which is an

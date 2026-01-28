@@ -1,0 +1,4 @@
+Most users should use "subprocess.run()" instead of
+   "posix_spawn()".
+   The positional-only arguments *path*, *args*, and *env* are similar
+   to "execve()". *env* is allowed to be "None", in which case current

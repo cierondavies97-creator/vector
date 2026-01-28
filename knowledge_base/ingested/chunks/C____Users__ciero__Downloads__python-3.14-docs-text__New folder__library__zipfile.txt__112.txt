@@ -1,0 +1,4 @@
+The "writepy()" method makes archives with file names like this:
+         string.pyc                   # Top level name
+         test/__init__.pyc            # Package directory
+         test/testall.pyc             # Module test.testall

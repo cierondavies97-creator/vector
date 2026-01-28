@@ -1,0 +1,3 @@
+When specified, display the first failing example in each doctest,
+   but suppress output for all remaining examples.  This will prevent
+   doctest from reporting correct examples that break because of

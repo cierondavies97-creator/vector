@@ -1,0 +1,5 @@
+the string and immediately before the newline (if any) at the end
+   of the string.
+   Corresponds to the inline flag "(?m)".
+re.NOFLAG
+   Indicates no flag being applied, the value is "0".  This flag may

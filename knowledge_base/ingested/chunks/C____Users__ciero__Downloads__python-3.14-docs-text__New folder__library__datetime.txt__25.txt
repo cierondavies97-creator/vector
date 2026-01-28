@@ -1,0 +1,5 @@
+* A millisecond is converted to 1000 microseconds.
+   * A minute is converted to 60 seconds.
+   * An hour is converted to 3600 seconds.
+   * A week is converted to 7 days.
+   and days, seconds and microseconds are then normalized so that the

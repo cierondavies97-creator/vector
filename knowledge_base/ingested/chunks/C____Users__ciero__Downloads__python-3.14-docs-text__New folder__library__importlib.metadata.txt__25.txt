@@ -1,0 +1,4 @@
+author and usually a client will wish to resolve all entry points for
+a particular group. Read the setuptools docs for more information on
+entry points, their definition, and usage.
+Changed in version 3.12: The "selectable" entry points were introduced

@@ -1,0 +1,5 @@
+zeros. Each week begins with Monday unless set by
+   "setfirstweekday()".
+calendar.prmonth(theyear, themonth, w=0, l=0)
+   Prints a month's calendar as returned by "month()".
+calendar.month(theyear, themonth, w=0, l=0)

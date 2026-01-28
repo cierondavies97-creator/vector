@@ -1,0 +1,5 @@
+*authkey* as the key, and then send the digest back.
+   If a welcome message is not received, then "AuthenticationError" is
+   raised.
+multiprocessing.connection.Client(address[, family[, authkey]])
+   Attempt to set up a connection to the listener which is using

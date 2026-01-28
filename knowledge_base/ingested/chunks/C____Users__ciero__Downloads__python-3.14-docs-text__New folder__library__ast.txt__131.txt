@@ -1,0 +1,5 @@
+representing the part that will be evaluated for each item.
+   "generators" is a list of "comprehension" nodes.
+      >>> print(ast.dump(
+      ...     ast.parse('[x for x in numbers]', mode='eval'),
+      ...     indent=4,

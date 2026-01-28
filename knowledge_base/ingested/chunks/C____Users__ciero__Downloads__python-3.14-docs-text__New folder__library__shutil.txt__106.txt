@@ -1,0 +1,4 @@
+*owner* and *group* are used when creating a tar archive. By
+   default, uses the current owner and group.
+   *logger* must be an object compatible with **PEP 282**, usually an
+   instance of "logging.Logger".

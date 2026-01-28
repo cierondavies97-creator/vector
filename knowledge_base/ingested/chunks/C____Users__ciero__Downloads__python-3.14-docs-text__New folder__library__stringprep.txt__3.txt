@@ -1,0 +1,3 @@
+processed with the preparation procedure, after which they have a
+certain normalized form. The RFC defines a set of tables, which can be
+combined into profiles. Each profile must define which tables it uses,

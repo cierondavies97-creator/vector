@@ -1,0 +1,4 @@
+"new" and "delete" are used with essentially the same meaning and
+we'll restrict the following discussion to the C case.
+Every block of memory allocated with "malloc()" should eventually be
+returned to the pool of available memory by exactly one call to

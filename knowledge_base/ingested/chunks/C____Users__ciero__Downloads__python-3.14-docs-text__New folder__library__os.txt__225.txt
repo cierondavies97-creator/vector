@@ -1,0 +1,7 @@
+writers connected to the write end of the pipe.
+   See also: The *splice(2)* man page.
+   Availability: Linux >= 2.6.17 with glibc >= 2.5
+   Added in version 3.10.
+os.SPLICE_F_MOVE
+os.SPLICE_F_NONBLOCK
+os.SPLICE_F_MORE

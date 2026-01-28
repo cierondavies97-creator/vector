@@ -1,0 +1,6 @@
+print("Fault string: %s" % err.faultString)
+ProtocolError Objects
+=====================
+class xmlrpc.client.ProtocolError
+   A "ProtocolError" object describes a protocol error in the
+   underlying transport layer (such as a 404 'not found' error if the

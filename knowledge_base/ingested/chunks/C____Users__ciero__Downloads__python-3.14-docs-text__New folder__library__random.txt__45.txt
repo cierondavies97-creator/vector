@@ -1,0 +1,6 @@
+result is an integer in the range "0 <= X <= n".
+   Added in version 3.12.
+Real-valued distributions
+=========================
+The following functions generate specific real-valued distributions.
+Function parameters are named after the corresponding variables in the

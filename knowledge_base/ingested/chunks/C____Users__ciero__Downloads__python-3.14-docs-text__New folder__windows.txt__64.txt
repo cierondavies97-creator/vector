@@ -1,0 +1,6 @@
+install manager.
+4.1.8. Configuration
+--------------------
+Python install manager is configured with a hierarchy of configuration
+files, environment variables, command-line options, and registry
+settings. In general, configuration files have the ability to

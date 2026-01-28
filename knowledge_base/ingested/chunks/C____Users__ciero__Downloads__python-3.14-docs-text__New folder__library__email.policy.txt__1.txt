@@ -1,0 +1,4 @@
+described by the various email and MIME RFCs.  However, the general
+format of email messages (a block of header fields each consisting of
+a name followed by a colon followed by a value, the whole block
+followed by a blank line and an arbitrary 'body'), is a format that

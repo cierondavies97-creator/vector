@@ -1,0 +1,6 @@
+Unicode 3.2).
+stringprep.in_table_b1(code)
+   Determine whether *code* is in tableB.1 (Commonly mapped to
+   nothing).
+stringprep.map_table_b2(code)
+   Return the mapped value for *code* according to tableB.2 (Mapping

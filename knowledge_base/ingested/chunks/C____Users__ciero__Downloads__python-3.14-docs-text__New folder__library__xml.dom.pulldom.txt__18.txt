@@ -1,0 +1,4 @@
+Expands all children of *node* into *node*. Example:
+         from xml.dom import pulldom
+         xml = '<html><title>Foo</title> <p>Some text <div>and more</div></p> </html>'
+         doc = pulldom.parseString(xml)

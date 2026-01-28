@@ -1,0 +1,3 @@
+available in the running Python interpreter.  These names will be
+   recognized when passed to "new()".  "algorithms_guaranteed" will
+   always be a subset.  The same algorithm may appear multiple times

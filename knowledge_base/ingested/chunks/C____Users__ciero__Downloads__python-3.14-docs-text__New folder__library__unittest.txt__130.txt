@@ -1,0 +1,3 @@
+| "assertNotIsInstance(a, b)"               | "not isinstance(a, b)"        | 3.2             |
+   +-------------------------------------------+-------------------------------+-----------------+
+   | "assertIsSubclass(a, b)"                  | "issubclass(a, b)"            | 3.14            |

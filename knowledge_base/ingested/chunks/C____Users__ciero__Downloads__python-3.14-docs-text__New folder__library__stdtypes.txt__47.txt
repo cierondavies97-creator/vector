@@ -1,0 +1,4 @@
+2. Not for complex numbers.  Instead convert to floats using "abs()"
+   if appropriate.
+3. Conversion from "float" to "int" truncates, discarding the
+   fractional part. See functions "math.floor()" and "math.ceil()" for

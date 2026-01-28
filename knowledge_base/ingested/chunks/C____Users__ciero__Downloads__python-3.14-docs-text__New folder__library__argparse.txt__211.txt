@@ -1,0 +1,7 @@
+>>> parser.parse_args(['--legs', '4'])
+   snake.py: warning: option '--legs' is deprecated
+   Namespace(legs=4)
+Added in version 3.13.
+Action classes
+--------------
+"Action" classes implement the Action API, a callable which returns a

@@ -1,0 +1,5 @@
+# GENERAL STATEMENTS
+   # ==================
+   statements[asdl_stmt_seq*]: a=statement+ { (asdl_stmt_seq*)_PyPegen_seq_flatten(p, a) }
+   statement[asdl_stmt_seq*]:
+       | a=compound_stmt { _PyPegen_register_stmts(p ,

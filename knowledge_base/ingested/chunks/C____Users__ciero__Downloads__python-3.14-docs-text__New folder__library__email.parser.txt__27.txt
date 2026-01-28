@@ -1,0 +1,5 @@
+deprecated in 2.4.  Added the *policy* keyword.
+   Changed in version 3.6: *_class* defaults to the policy
+   "message_factory".
+   parse(fp, headersonly=False)
+      Read all the data from the binary file-like object *fp*, parse

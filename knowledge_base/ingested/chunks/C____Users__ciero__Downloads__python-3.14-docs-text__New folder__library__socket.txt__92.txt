@@ -1,0 +1,6 @@
+socket.BDADDR_BREDR
+socket.BDADDR_LE_PUBLIC
+socket.BDADDR_LE_RANDOM
+   These constants describe the Bluetooth address type when binding or
+   connecting a "BTPROTO_L2CAP" socket.
+   Availability: Linux, FreeBSD

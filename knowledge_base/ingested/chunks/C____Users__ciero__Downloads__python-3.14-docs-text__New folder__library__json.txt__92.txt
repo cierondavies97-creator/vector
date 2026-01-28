@@ -1,0 +1,4 @@
+========================================
+The JSON format is specified by **RFC 7159** and by ECMA-404. This
+section details this module's level of compliance with the RFC. For
+simplicity, "JSONEncoder" and "JSONDecoder" subclasses, and parameters

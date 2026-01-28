@@ -1,0 +1,5 @@
+More details are at The initialization of the sys.path module search
+path.
+Note:
+  On file systems which support symlinks, the directory containing the
+  input script is calculated after the symlink is followed. In other

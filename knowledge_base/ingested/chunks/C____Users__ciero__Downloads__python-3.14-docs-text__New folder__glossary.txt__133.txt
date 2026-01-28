@@ -1,0 +1,4 @@
+in **PEP 683**.
+   If an object is immortal, its *reference count* is never modified,
+   and therefore it is never deallocated while the interpreter is
+   running. For example, "True" and "None" are immortal in CPython.

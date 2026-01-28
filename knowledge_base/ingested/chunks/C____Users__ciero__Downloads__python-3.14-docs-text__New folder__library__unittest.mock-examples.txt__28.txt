@@ -1,0 +1,6 @@
+>>> mock.mock_calls == expected
+True
+It is the call to ".call_list()" that turns our call object into a
+list of calls representing the chained calls.
+Raising exceptions with mocks
+-----------------------------

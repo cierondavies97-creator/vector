@@ -1,0 +1,3 @@
+"timezone" (non-DST seconds West of UTC), "altzone" (DST seconds
+   west of UTC) and "daylight" (to 0 if this timezone does not have
+   any daylight saving time rules, or to nonzero if there is a time,

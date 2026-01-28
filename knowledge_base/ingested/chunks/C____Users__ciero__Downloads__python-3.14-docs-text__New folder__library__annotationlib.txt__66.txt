@@ -1,0 +1,4 @@
+different but equivalent dicts.
+   This function handles several details for you:
+   * If *eval_str* is true, values of type "str" will be un-stringized
+     using "eval()". This is intended for use with stringized

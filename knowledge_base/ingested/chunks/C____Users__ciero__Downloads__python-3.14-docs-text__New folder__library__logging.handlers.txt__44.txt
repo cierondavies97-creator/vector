@@ -1,0 +1,4 @@
+Returns a new instance of the "RotatingFileHandler" class. The
+   specified file is opened and used as the stream for logging. If
+   *mode* is not specified, "'a'" is used.  If *encoding* is not
+   "None", it is used to open the file with that encoding.  If *delay*

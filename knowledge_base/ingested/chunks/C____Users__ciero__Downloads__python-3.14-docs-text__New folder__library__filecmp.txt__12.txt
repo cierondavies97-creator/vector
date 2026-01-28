@@ -1,0 +1,6 @@
+parameter.
+   Changed in version 3.13: Added the *shallow* parameter.
+   The "dircmp" class provides the following methods:
+   report()
+      Print (to "sys.stdout") a comparison between *a* and *b*.
+   report_partial_closure()

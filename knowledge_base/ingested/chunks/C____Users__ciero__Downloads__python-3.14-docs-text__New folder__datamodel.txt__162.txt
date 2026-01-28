@@ -1,0 +1,4 @@
+set this attribute; the path can simply point to where the compiled
+   file *would* exist (see **PEP 3147**).
+   Note that "__cached__" may be set even if "__file__" is not set.
+   However, that scenario is quite atypical.  Ultimately, the *loader*

@@ -1,0 +1,4 @@
+create a lambda function is "lambda [parameters]: expression"
+LBYL
+   Look before you leap.  This coding style explicitly tests for pre-
+   conditions before making calls or lookups.  This style contrasts

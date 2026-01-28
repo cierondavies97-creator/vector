@@ -1,0 +1,3 @@
+you're modifying a mailbox, you *must* lock it by calling the
+     "lock()" and "unlock()" methods *before* reading any messages in
+     the file or making any changes by adding or deleting a message.

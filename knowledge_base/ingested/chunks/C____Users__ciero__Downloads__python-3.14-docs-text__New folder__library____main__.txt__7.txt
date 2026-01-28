@@ -1,0 +1,7 @@
+the program needs. Sometimes "top-level code" is called an *entry
+point* to the application.
+The top-level code environment can be:
+* the scope of an interactive prompt:
+     >>> __name__
+     '__main__'
+* the Python module passed to the Python interpreter as a file

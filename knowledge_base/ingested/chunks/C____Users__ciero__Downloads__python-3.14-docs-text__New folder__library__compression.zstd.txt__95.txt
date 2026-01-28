@@ -1,0 +1,5 @@
+compress(b'venezuelan beaver cheese', options=options)
+   bounds()
+      Return the tuple of int bounds, "(lower, upper)", of a
+      compression parameter. This method should be called on the
+      attribute you wish to retrieve the bounds of. For example, to

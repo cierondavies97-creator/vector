@@ -1,0 +1,5 @@
+This function is useful for ensuring the type checker's
+   understanding of a script is in line with the developer's
+   intentions:
+      def complex_function(arg: object):
+          # Do some complex type-narrowing logic,

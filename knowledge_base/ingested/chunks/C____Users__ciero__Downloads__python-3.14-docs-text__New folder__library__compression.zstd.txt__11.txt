@@ -1,0 +1,3 @@
+advanced decompression parameters; see "DecompressionParameter" for
+   detailed information about supported parameters. The *zstd_dict*
+   argument is a "ZstdDict" instance to be used during decompression.

@@ -1,0 +1,5 @@
+Invalid arguments
+-----------------
+While parsing the command line, "parse_args()" checks for a variety of
+errors, including ambiguous options, invalid types, invalid options,
+wrong number of positional arguments, etc.  When it encounters such an

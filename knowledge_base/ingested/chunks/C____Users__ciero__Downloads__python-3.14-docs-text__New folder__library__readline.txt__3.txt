@@ -1,0 +1,5 @@
+in the GNU Readline manual for information about the format and
+allowable constructs of that file, and the capabilities of the
+Readline library in general.
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly

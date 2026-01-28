@@ -1,0 +1,4 @@
+builtins visible from the function body. *unbound* is the set of
+   names referenced in the function that could not be resolved at all
+   given the current module globals and builtins.
+   "TypeError" is raised if *func* is not a Python function or method.

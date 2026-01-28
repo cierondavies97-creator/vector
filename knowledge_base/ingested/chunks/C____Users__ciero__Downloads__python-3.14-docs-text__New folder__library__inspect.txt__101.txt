@@ -1,0 +1,5 @@
+now return "True" if the wrapped function is a Python generator
+   function.
+   Changed in version 3.13: Functions wrapped in
+   "functools.partialmethod()" now return "True" if the wrapped
+   function is a Python generator function.

@@ -1,0 +1,10 @@
+100000 loops, best of 5: 2.23 usec per loop
+   >>> import timeit
+   >>> # attribute is missing
+   >>> s = """\
+   ... try:
+   ...     str.__bool__
+   ... except AttributeError:
+   ...     pass
+   ... """
+   >>> timeit.timeit(stmt=s, number=100000)

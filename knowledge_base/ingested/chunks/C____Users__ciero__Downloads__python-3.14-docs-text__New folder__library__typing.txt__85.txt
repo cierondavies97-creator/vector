@@ -1,0 +1,4 @@
+Changed in version 3.7: "Generic" no longer has a custom metaclass.
+Changed in version 3.12: Syntactic support for generics and type
+aliases is new in version 3.12. Previously, generic classes had to
+explicitly inherit from "Generic" or contain a type variable in one of

@@ -1,0 +1,5 @@
+subprocesses.
+   Availability: not WASI, not Android, not iOS.
+   Note:
+     The Python UTF-8 Mode affects encodings used for *cmd* and pipe
+     contents."popen()" is a simple wrapper around "subprocess.Popen".

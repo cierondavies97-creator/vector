@@ -1,0 +1,5 @@
+Responsible for converting a "LogRecord" to an output string to be
+   interpreted by a human or external system.
+   Parameters:
+      * **fmt** (*str*) -- A format string in the given *style* for
+        the logged output as a whole. The possible mapping keys are

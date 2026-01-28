@@ -1,0 +1,5 @@
+re.compile("[A-Za-z_]"       # letter or underscore
+              "[A-Za-z0-9_]*"   # letter, digit or underscore
+             )
+However, bytes literals may only be combined with other byte literals;
+not with string literals of any kind. Also, template string literals

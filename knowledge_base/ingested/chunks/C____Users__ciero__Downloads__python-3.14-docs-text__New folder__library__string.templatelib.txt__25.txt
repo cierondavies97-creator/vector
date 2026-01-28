@@ -1,0 +1,7 @@
+'.']
+   template + other
+   template += other
+      Concatenate this template with another, returning a new
+      "Template" instance:
+      >>> cheese = 'Camembert'
+      >>> list(t'Ah! ' + t'We do have {cheese}.')

@@ -1,0 +1,3 @@
+as "(a // b, a % b)". For floating-point numbers the result is "(q,
+   a % b)", where *q* is usually "math.floor(a / b)" but may be 1 less
+   than that.  In any case "q * b + a % b" is very close to *a*, if "a

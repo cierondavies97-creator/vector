@@ -1,0 +1,2 @@
+|                                                    | the class, its base class, or a metaclass is       |
+|                                                    | defined under "from __future__ import              |

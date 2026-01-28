@@ -1,0 +1,5 @@
+See also Binary Sequence Types --- bytes, bytearray, memoryview and
+   Bytearray Objects.
+class bytes(source=b'')
+class bytes(source, encoding, errors='strict')
+   Return a new "bytes" object which is an immutable sequence of

@@ -1,0 +1,4 @@
+Added in version 3.13.
+To install pre-built binaries with free-threading enabled (see **PEP
+703**), you should select "Customize installation". The second page of
+options includes the "Download free-threaded binaries" checkbox.

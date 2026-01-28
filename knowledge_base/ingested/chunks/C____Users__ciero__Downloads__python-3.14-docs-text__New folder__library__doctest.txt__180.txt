@@ -1,0 +1,3 @@
+"DocTestCase" instance was constructed.  If no reporting flags were
+   specified (which is the typical and expected case), "doctest"'s
+   "unittest" reporting flags are bitwise ORed into the option flags,

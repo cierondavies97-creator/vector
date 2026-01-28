@@ -1,0 +1,6 @@
+"__aexit__()" methods. It must be applied to an *asynchronous
+   generator* function.
+   A simple example:
+      from contextlib import asynccontextmanager
+      @asynccontextmanager
+      async def get_connection():

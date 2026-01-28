@@ -1,0 +1,5 @@
+objects can be used for two largely distinct applications, data
+exchange with external sources (files or network connections), or data
+transfer between the Python application and the C layer.
+Note:
+  When no prefix character is given, native mode is the default. It

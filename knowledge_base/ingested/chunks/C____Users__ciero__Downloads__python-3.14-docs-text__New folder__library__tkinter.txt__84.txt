@@ -1,0 +1,4 @@
+used only by the one thread that created it.
+Each "Tk" object created by "tkinter" contains a Tcl interpreter. It
+also keeps track of which thread created that interpreter. Calls to
+"tkinter" can be made from any Python thread. Internally, if a call

@@ -1,0 +1,4 @@
+Returns a "Server" object which represents the actual server
+      under the control of the Manager. The "Server" object supports
+      the "serve_forever()" method:
+         >>> from multiprocessing.managers import BaseManager

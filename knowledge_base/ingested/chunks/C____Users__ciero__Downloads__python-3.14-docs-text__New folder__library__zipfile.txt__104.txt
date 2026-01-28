@@ -1,0 +1,4 @@
+Search for files "*.py" and add the corresponding file to the
+      archive.
+      If the *optimize* parameter to "PyZipFile" was not given or
+      "-1", the corresponding file is a "*.pyc" file, compiling if

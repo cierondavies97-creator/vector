@@ -1,0 +1,5 @@
+an administrator.
+site.USER_SITE
+   Path to the user site-packages for the running Python.  Can be
+   "None" if "getusersitepackages()" hasn't been called yet.  Default
+   value is "~/.local/lib/python*X.Y*[t]/site-packages" for UNIX and

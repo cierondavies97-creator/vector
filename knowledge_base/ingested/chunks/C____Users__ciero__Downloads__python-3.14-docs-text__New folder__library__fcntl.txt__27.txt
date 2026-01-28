@@ -1,0 +1,4 @@
+Python, and the buffer's new contents reflect the action of the
+   "ioctl()".  This is a slight simplification, because if the
+   supplied buffer is less than 1024 bytes long it is first copied
+   into a static buffer 1024 bytes long which is then passed to

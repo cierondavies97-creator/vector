@@ -1,0 +1,5 @@
+add_section(section)
+      Add a section named *section* or "UNNAMED_SECTION" to the
+      instance.
+      If the given section already exists, "DuplicateSectionError" is
+      raised. If the *default section* name is passed, "ValueError" is

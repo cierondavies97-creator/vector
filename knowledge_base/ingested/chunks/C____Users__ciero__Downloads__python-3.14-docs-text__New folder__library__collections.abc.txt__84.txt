@@ -1,0 +1,4 @@
+''' Alternate set implementation favoring space over speed
+           and not requiring the set elements to be hashable. '''
+       def __init__(self, iterable):
+           self.elements = lst = []

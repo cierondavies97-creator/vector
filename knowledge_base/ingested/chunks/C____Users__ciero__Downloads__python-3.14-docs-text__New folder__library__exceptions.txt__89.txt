@@ -1,0 +1,4 @@
+stack traceback is printed.  The constructor accepts the same
+   optional argument passed to "sys.exit()". If the value is an
+   integer, it specifies the system exit status (passed to C's
+   "exit()" function); if it is "None", the exit status is zero; if it

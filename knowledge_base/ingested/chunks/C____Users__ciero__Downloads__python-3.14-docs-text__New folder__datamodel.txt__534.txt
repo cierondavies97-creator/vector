@@ -1,0 +1,4 @@
+doesn't define a "__bool__()" method and whose "__len__()" method
+   returns zero is considered to be false in a Boolean context.
+   **CPython implementation detail:** In CPython, the length is
+   required to be at most "sys.maxsize". If the length is larger than

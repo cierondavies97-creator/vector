@@ -1,0 +1,5 @@
+Save cookies to a file.
+   This base class raises "NotImplementedError".  Subclasses may leave
+   this method unimplemented.
+   *filename* is the name of file in which to save cookies.  If
+   *filename* is not specified, "self.filename" is used (whose default

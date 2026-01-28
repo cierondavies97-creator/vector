@@ -1,0 +1,4 @@
+launching "python.exe" from your application.
+* If you cannot use the previous suggestions (for example, you are a
+  distribution that allows people to run "python.exe" directly),
+  ensure that the landmark file ("Lib\os.py") exists in your install

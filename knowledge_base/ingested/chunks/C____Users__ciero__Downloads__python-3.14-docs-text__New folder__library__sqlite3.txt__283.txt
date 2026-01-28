@@ -1,0 +1,4 @@
+will be stored as a text string in the database, using a semicolon to
+separate the coordinates. This can be implemented by adding a
+"__conform__(self, protocol)" method which returns the adapted value.
+The object passed to *protocol* will be of type "PrepareProtocol".

@@ -1,0 +1,4 @@
+If you occasionally need to examine type annotations at runtime
+   which may contain undefined symbols, use
+   "annotationlib.get_annotations()" with a "format" parameter of
+   "annotationlib.Format.STRING" or "annotationlib.Format.FORWARDREF"

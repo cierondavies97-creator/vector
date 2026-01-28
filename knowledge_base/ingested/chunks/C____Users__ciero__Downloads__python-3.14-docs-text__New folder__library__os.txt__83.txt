@@ -1,0 +1,7 @@
+network namespace:
+      fd = os.open("/proc/1/ns/net", os.O_RDONLY)
+      os.setns(fd, os.CLONE_NEWNET)
+      os.close(fd)
+   Availability: Linux >= 3.0 with glibc >= 2.14.
+   Added in version 3.12.
+   See also: The "unshare()" function.

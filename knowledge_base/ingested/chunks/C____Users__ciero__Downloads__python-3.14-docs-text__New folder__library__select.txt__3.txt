@@ -1,0 +1,4 @@
+multiplexing, built upon the "select" module primitives. Users are
+  encouraged to use the "selectors" module instead, unless they want
+  precise control over the OS-level primitives used.
+Availability: not WASI.

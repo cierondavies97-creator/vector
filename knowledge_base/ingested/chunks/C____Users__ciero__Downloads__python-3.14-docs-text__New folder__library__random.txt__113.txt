@@ -1,0 +1,9 @@
+egg
+   $ python -m random --integer 6
+   3
+   $ python -m random --float 1.8
+   1.5666339105010318
+   $ python -m random --integer 6
+   5
+   $ python -m random --float 6
+   3.1942323316565915

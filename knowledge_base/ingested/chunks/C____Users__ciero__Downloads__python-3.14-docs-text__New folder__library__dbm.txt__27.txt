@@ -1,0 +1,6 @@
+functionality like crash tolerance.
+Note:
+  The file formats created by "dbm.gnu" and "dbm.ndbm" are
+  incompatible and can not be used interchangeably.
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly

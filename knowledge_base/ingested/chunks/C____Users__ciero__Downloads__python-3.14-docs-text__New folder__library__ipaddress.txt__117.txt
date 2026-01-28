@@ -1,0 +1,14 @@
+version
+   max_prefixlen
+   is_multicast
+   is_private
+   is_unspecified
+   is_reserved
+   is_loopback
+   is_link_local
+   network_address
+   broadcast_address
+   hostmask
+   netmask
+   with_prefixlen
+   compressed

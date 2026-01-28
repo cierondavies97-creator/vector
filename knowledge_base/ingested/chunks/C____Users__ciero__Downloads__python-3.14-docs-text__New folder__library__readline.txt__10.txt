@@ -1,0 +1,5 @@
+configuration:
+readline.parse_and_bind(string)
+   Execute the init line provided in the *string* argument. This calls
+   "rl_parse_and_bind()" in the underlying library.
+readline.read_init_file([filename])

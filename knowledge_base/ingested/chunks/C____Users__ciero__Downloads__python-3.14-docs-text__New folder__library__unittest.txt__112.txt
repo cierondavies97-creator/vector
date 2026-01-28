@@ -1,0 +1,7 @@
+and must be decorated as a "classmethod()":
+         @classmethod
+         def setUpClass(cls):
+             ...
+      See Class and Module Fixtures for more details.
+      Added in version 3.2.
+   tearDownClass()

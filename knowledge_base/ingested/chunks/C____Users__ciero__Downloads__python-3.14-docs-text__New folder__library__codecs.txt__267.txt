@@ -1,0 +1,4 @@
+|                      |           | in any way. It is used in   |
+|                      |           | the Python pickle protocol. |
++----------------------+-----------+-----------------------------+
+| undefined            |           | This Codec should only be   |

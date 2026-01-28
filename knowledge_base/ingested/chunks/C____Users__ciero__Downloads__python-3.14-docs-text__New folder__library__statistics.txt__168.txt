@@ -1,0 +1,4 @@
+Wikipedia has a nice example of a Naive Bayesian Classifier. The
+challenge is to predict a person's gender from measurements of
+normally distributed features including height, weight, and foot size.
+We're given a training dataset with measurements for eight people.

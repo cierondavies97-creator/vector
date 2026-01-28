@@ -1,0 +1,5 @@
+"AuthenticationError" is raised if authentication fails. See
+   Authentication keys.
+   accept()
+      Accept a connection on the bound socket or named pipe of the
+      listener object and return a "Connection" object. If

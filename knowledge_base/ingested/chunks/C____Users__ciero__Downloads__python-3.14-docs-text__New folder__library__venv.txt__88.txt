@@ -1,0 +1,4 @@
+"""
+       This builder installs setuptools and pip so that you can pip or
+       easy_install other packages into the created virtual environment.
+       :param nodist: If true, setuptools and pip are not installed into the

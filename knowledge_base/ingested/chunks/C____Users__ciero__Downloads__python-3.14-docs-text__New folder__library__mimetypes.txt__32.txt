@@ -1,0 +1,5 @@
+the default data is not desired.
+   The optional *filenames* parameter can be used to cause additional
+   files to be loaded "on top" of the default database.
+   suffix_map
+      Dictionary mapping suffixes to suffixes.  This is used to allow

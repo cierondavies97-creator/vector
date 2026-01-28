@@ -1,0 +1,4 @@
+Get a resource from a package.
+   This is a wrapper for the *loader* "get_data" API.  The *package*
+   argument should be the name of a package, in standard module format
+   ("foo.bar").  The *resource* argument should be in the form of a

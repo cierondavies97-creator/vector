@@ -1,0 +1,6 @@
+directory of the archive.
+"import __main__"
+=================
+Regardless of which module a Python program was started with, other
+modules running within that same program can import the top-level
+environment's scope (*namespace*) by importing the "__main__" module.

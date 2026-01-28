@@ -1,0 +1,7 @@
+...         return self
+...     async def __aexit__(self, exc_type, exc, tb):
+...         pass
+...
+>>> mock_instance = MagicMock(AsyncContextManager())  # AsyncMock also works here
+>>> async def main():
+...     async with mock_instance as result:

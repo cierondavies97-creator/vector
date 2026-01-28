@@ -1,0 +1,6 @@
+infinity, and "False" otherwise.
+cmath.isnan(z)
+   Return "True" if either the real or the imaginary part of *z* is a
+   NaN, and "False" otherwise.
+cmath.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)
+   Return "True" if the values *a* and *b* are close to each other and

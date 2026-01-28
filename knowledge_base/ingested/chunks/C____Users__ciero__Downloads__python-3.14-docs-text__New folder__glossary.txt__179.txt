@@ -1,0 +1,5 @@
+"self"). See *function* and *nested scope*.
+method resolution order
+   Method Resolution Order is the order in which base classes are
+   searched for a member during lookup. See The Python 2.3 Method
+   Resolution Order for details of the algorithm used by the Python

@@ -1,0 +1,5 @@
+The number of months printed per row. Defaults to 3.
+Changed in version 3.14: By default, today's date is highlighted in
+color and can be controlled using environment variables.
+*HTML-mode options:*
+--css CSS, -c CSS

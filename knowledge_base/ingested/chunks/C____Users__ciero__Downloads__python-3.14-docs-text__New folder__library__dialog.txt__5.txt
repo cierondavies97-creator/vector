@@ -1,0 +1,5 @@
+The "tkinter.filedialog" module provides classes and factory functions
+for creating file/directory selection windows.
+Native Load/Save Dialogs
+------------------------
+The following classes and functions provide file dialog windows that

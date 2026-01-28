@@ -1,0 +1,4 @@
+passing through calls to the constructor to the real class (and
+returning real instances).
+The "patch decorator" is used here to mock out the "date" class in the
+module under test. The "side_effect" attribute on the mock date class

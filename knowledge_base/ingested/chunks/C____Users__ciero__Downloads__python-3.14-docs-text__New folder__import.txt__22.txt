@@ -1,0 +1,3 @@
+reside in different locations on the file system.  Portions may also
+be found in zip files, on the network, or anywhere else that Python
+searches during import.  Namespace packages may or may not correspond

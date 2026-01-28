@@ -1,0 +1,6 @@
+* "si_pid" (process ID)
+   * "si_uid" (real user ID of the child)
+   * "si_signo" (always "SIGCHLD")
+   * "si_status" (the exit status or signal number, depending on
+     "si_code")
+   * "si_code" (see "CLD_EXITED" for possible values)

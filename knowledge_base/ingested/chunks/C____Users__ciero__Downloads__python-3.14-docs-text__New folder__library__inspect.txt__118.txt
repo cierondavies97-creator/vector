@@ -1,0 +1,4 @@
+often is.
+   Methods implemented via descriptors that also pass one of the other
+   tests return "False" from the "ismethoddescriptor()" test, simply
+   because the other tests promise more -- you can, e.g., count on

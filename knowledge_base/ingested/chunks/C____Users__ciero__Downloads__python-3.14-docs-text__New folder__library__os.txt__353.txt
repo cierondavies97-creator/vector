@@ -1,0 +1,4 @@
+operation will fail with an "OSError" subclass in a number of
+   cases:
+   On Windows, if *dst* exists a "FileExistsError" is always raised.
+   The operation may fail if *src* and *dst* are on different

@@ -1,0 +1,5 @@
+>>> turtle.ondrag(turtle.goto)
+   Subsequently, clicking and dragging the Turtle will move it across
+   the screen thereby producing handdrawings (if pen is down).
+Special Turtle methods
+----------------------

@@ -1,0 +1,3 @@
++-----------+------------------------------------------------------------+
+   | "'G'"     | General format. Same as "'g'" except switches to "'E'" if  |
+   |           | the number gets too large. The representations of infinity |

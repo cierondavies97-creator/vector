@@ -1,0 +1,5 @@
+The argument can be any awaitable object.
+   This function runs the awaitable, taking care of managing the
+   asyncio event loop, *finalizing asynchronous generators*, and
+   closing the executor.
+   This function cannot be called when another asyncio event loop is

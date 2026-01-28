@@ -1,0 +1,4 @@
+cannot be determined.
+   On iOS and Android, this returns the user-facing OS name (i.e,
+   "'iOS", "'iPadOS'" or "'Android'"). To obtain the kernel name
+   ("'Darwin'" or "'Linux'"), use "os.uname()".

@@ -1,0 +1,4 @@
+recreated there using "fromshare()". Once this method has been
+   called, it is safe to close the socket since the operating system
+   has already duplicated it for the target process.
+   Availability: Windows.

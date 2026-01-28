@@ -1,0 +1,4 @@
+underlying functionality Python uses to implement *follow_symlinks*
+   is not available on all platforms Python supports.  For
+   consistency's sake, functions that may support *follow_symlinks*
+   always allow specifying the parameter, but will throw an exception

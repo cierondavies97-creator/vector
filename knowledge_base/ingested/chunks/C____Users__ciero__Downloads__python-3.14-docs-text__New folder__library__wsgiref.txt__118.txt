@@ -1,0 +1,5 @@
+you should have to do something special to enable diagnostic
+      output, which is why the default implementation doesn't include
+      any.
+   error_status
+      The HTTP status used for error responses.  This should be a

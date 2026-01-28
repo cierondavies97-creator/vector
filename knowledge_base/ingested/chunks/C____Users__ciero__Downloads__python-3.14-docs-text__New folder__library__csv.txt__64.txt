@@ -1,0 +1,4 @@
+Controls how instances of *quotechar* appearing inside a field
+   should themselves be quoted.  When "True", the character is
+   doubled. When "False", the *escapechar* is used as a prefix to the
+   *quotechar*.  It defaults to "True".

@@ -1,0 +1,4 @@
+though it may be emitted by a handler attached to a different
+        (ancestor) logger.
+      * **level** (*int*) -- The numeric level of the logging event
+        (such as "10" for "DEBUG", "20" for "INFO", etc). Note that

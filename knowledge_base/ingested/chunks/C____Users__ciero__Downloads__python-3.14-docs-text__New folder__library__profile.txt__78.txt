@@ -1,0 +1,4 @@
+"0", "1", and "2" are permitted.  They are interpreted as
+      "'stdname'", "'calls'", "'time'", and "'cumulative'"
+      respectively.  If this old style format (numeric) is used, only
+      one sort key (the numeric key) will be used, and additional

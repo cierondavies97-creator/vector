@@ -1,0 +1,2 @@
+| My old "py.ini" settings no longer work.           | The new Python install manager no longer supports  |
+|                                                    | this configuration file or its settings, and so it |

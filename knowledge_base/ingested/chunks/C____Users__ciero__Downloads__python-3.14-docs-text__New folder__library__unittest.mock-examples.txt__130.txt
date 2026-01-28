@@ -1,0 +1,6 @@
+copy.
+Note:
+  If your mock is only going to be used once there is an easier way of
+  checking arguments at the point they are called. You can simply do
+  the checking inside a "side_effect" function.
+  >>> def side_effect(arg):

@@ -1,0 +1,8 @@
+>>> Fraction('1.414213 \t\n')
+      Fraction(1414213, 1000000)
+      >>> Fraction('-.125')
+      Fraction(-1, 8)
+      >>> Fraction('7e-6')
+      Fraction(7, 1000000)
+      >>> Fraction(2.25)
+      Fraction(9, 4)

@@ -1,0 +1,4 @@
+info is added to the logging message. This function should only be
+   called from an exception handler.
+logging.log(level, msg, *args, **kwargs)
+   Logs a message with level *level* on the root logger. The arguments

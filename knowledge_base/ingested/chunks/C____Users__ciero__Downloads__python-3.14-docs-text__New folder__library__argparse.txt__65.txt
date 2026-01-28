@@ -1,0 +1,4 @@
+the file containing arguments.
+The "fromfile_prefix_chars=" argument defaults to "None", meaning that
+arguments will never be treated as file references.
+Changed in version 3.12: "ArgumentParser" changed encoding and errors

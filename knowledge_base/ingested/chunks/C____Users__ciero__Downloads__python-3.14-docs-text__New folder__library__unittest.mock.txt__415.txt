@@ -1,0 +1,4 @@
+order of precedence remains the same:
+>>> order_mock = Mock(spec=Order, wraps=Order,
+...                   **{"get_value.side_effect": ["first"],
+...                      "get_value.return_value": "second"}

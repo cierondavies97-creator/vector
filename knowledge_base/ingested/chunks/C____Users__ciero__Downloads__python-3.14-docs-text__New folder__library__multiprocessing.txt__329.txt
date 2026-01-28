@@ -1,0 +1,5 @@
+print(maths.mul(7, 8))         # prints 56
+Using a remote manager
+~~~~~~~~~~~~~~~~~~~~~~
+It is possible to run a manager server on one machine and have clients
+use it from other machines (assuming that the firewalls involved allow

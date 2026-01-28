@@ -1,0 +1,4 @@
+throughout the application, directly modify the *DefaultContext*
+object. This should be done *before* any threads are started so that
+there won't be a race condition between threads calling
+"getcontext()". For example:

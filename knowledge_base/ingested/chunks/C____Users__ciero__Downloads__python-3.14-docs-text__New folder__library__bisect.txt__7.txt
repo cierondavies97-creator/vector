@@ -1,0 +1,3 @@
+used.  If *x* is already present in *a*, the insertion point will
+   be before (to the left of) any existing entries.  The return value
+   is suitable for use as the first parameter to "list.insert()"

@@ -1,0 +1,3 @@
+.dll or .exe which contains message definitions to hold in the log
+   (if not specified, "'win32service.pyd'" is used - this is installed
+   with the Win32 extensions and contains some basic placeholder

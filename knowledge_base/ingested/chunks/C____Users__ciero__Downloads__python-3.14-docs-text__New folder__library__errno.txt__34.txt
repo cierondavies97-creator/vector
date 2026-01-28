@@ -1,0 +1,10 @@
+errno.EBADEXEC
+   Bad executable (or shared library)
+   Added in version 3.2.
+errno.EBADMACHO
+   Malformed Mach-o file
+   Added in version 3.2.
+errno.EDEVERR
+   Device error
+   Added in version 3.2.
+errno.EFTYPE

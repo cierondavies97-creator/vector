@@ -1,0 +1,4 @@
+Return an iterator over the keys, values or items (represented as
+   tuples of "(key, value)") in the dictionary.
+   Keys and values are iterated over in insertion order. This allows
+   the creation of "(value, key)" pairs using "zip()": "pairs =

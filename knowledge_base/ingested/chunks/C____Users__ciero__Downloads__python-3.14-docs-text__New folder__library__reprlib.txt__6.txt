@@ -1,0 +1,5 @@
+function described below.  Changing the attributes of this object
+   will affect the size limits used by "repr()" and the Python
+   debugger.
+reprlib.repr(obj)
+   This is the "repr()" method of "aRepr".  It returns a string

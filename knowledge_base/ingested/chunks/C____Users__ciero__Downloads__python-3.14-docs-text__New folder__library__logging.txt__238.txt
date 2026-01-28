@@ -1,0 +1,4 @@
+Associates level *level* with text *levelName* in an internal
+   dictionary, which is used to map numeric levels to a textual
+   representation, for example when a "Formatter" formats a message.
+   This function can also be used to define your own levels. The only

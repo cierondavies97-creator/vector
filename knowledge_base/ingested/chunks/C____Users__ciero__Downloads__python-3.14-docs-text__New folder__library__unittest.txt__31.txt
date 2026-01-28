@@ -1,0 +1,5 @@
+and then reports all the results so far. A second "Control"-"C"
+   raises the normal "KeyboardInterrupt" exception.
+   See Signal Handling for the functions that provide this
+   functionality.
+-f, --failfast

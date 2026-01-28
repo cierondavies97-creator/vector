@@ -1,0 +1,4 @@
+valid values, but probably not "EST". It will raise "ValueError"
+      for invalid values.
+   Changed in version 3.2: When the "%z" directive is provided to the
+   "strptime()" method, an aware "datetime" object will be produced.

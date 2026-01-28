@@ -1,0 +1,4 @@
+[2] "SSLContext" disables SSLv3 with "OP_NO_SSLv3" by default.
+   [3] TLS 1.3 protocol will be available with "PROTOCOL_TLS" in
+       OpenSSL >= 1.1.1. There is no dedicated PROTOCOL constant for
+       just TLS 1.3.

@@ -1,0 +1,4 @@
+platform.win32_ver(release='', version='', csd='', ptype='')
+   Get additional version information from the Windows Registry and
+   return a tuple "(release, version, csd, ptype)" referring to OS
+   release, version number, CSD level (service pack) and OS type

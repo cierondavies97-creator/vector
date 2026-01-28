@@ -1,0 +1,6 @@
+statement is completed:
+      srv = await loop.create_server(...)
+      async with srv:
+          # some code
+      # At this point, srv is closed and no longer accepts new connections.
+   Changed in version 3.7: Server object is an asynchronous context

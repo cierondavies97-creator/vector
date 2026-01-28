@@ -1,0 +1,4 @@
+package, or a dotted reference to a class, method, or function within
+a module or module in a package.  If the argument to **pydoc** looks
+like a path (that is, it contains the path separator for your
+operating system, such as a slash in Unix), and refers to an existing

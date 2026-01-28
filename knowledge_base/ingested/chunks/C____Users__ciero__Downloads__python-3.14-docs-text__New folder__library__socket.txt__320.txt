@@ -1,0 +1,4 @@
+* In *non-blocking mode*, operations fail (with an error that is
+  unfortunately system-dependent) if they cannot be completed
+  immediately: functions from the "select" module can be used to know
+  when and whether a socket is available for reading or writing.

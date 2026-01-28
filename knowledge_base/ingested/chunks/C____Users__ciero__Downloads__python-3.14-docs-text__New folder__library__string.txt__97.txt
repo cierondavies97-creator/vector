@@ -1,0 +1,4 @@
+and "None"). When doing so, "float()" is used to convert the integer
+to a floating-point number before formatting.
+The available presentation types for "float" and "Decimal" values are:
+   +-----------+------------------------------------------------------------+

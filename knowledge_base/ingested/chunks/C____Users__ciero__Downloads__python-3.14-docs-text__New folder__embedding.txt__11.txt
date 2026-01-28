@@ -1,0 +1,6 @@
+/* optional but recommended */
+       status = PyConfig_SetBytesString(&config, &config.program_name, argv[0]);
+       if (PyStatus_Exception(status)) {
+           goto exception;
+       }
+       status = Py_InitializeFromConfig(&config);

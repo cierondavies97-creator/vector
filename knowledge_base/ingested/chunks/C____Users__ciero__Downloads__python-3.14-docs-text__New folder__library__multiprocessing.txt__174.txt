@@ -1,0 +1,4 @@
+frozen executable will raise "RuntimeError".
+   Calling "freeze_support()" has no effect when the start method is
+   not *spawn*. In addition, if the module is being run normally by
+   the Python interpreter (the program has not been frozen), then

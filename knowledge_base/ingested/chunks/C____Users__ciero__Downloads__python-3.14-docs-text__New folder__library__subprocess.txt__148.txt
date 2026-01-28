@@ -1,0 +1,5 @@
+stream, otherwise it is a byte stream. If the *stdin* argument was
+   not "PIPE", this attribute is "None".
+Popen.stdout
+   If the *stdout* argument was "PIPE", this attribute is a readable
+   stream object as returned by "open()". Reading from the stream

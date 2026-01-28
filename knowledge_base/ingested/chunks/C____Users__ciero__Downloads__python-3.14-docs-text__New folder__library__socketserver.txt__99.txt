@@ -1,0 +1,5 @@
+sock.connect((ip, port))
+           sock.sendall(bytes(message, 'ascii'))
+           response = str(sock.recv(1024), 'ascii')
+           print("Received: {}".format(response))
+   if __name__ == "__main__":

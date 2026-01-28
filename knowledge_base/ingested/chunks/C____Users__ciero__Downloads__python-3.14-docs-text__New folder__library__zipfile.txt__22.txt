@@ -1,0 +1,4 @@
+existing file, or "'x'" to exclusively create and write a new file.
+   If *mode* is "'x'" and *file* refers to an existing file, a
+   "FileExistsError" will be raised. If *mode* is "'a'" and *file*
+   refers to an existing ZIP file, then additional files are added to

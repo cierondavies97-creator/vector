@@ -1,0 +1,6 @@
+import xmlrpc.client
+   # create a ServerProxy with a URI that doesn't respond to XMLRPC requests
+   proxy = xmlrpc.client.ServerProxy("http://google.com/")
+   try:
+       proxy.some_method()
+   except xmlrpc.client.ProtocolError as err:

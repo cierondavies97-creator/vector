@@ -1,0 +1,4 @@
+but subclasses can either create their own at the class or
+      instance level.  Note that the dictionary should be considered
+      read-only, since the default value is shared between multiple
+      classes and instances.

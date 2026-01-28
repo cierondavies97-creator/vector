@@ -1,0 +1,3 @@
+"replace()".  They are not copied from the source object, but
+   rather are initialized in "__post_init__()", if they're initialized
+   at all.  It is expected that "init=False" fields will be rarely and

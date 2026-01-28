@@ -1,0 +1,8 @@
+>>> from typing import ParamSpec, get_origin
+      >>> P = ParamSpec("P")
+      >>> get_origin(P.args) is P
+      True
+      >>> get_origin(P.kwargs) is P
+      True
+   Added in version 3.10.
+class typing.TypeAliasType(name, value, *, type_params=())

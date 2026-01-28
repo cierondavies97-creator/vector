@@ -1,0 +1,5 @@
+from .. import formats
+   from ..filters import equalizer
+Note that relative imports are based on the name of the current
+module's package. Since the main module does not have a package,
+modules intended for use as the main module of a Python application

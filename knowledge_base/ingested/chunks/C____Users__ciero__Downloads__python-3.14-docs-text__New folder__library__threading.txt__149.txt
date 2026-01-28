@@ -1,0 +1,3 @@
+lock when it was acquired multiple times recursively.  Instead,
+      an internal interface of the "RLock" class is used, which really
+      unlocks it even when it has been recursively acquired several

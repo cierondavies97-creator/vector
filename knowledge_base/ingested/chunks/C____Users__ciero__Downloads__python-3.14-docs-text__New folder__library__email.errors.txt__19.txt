@@ -1,0 +1,4 @@
+padding base64 characters was invalid (1 more than a multiple of
+   4).  The encoded block was kept as-is.
+exception email.errors.InvalidDateDefect
+   When decoding an invalid or unparsable date field.  The original

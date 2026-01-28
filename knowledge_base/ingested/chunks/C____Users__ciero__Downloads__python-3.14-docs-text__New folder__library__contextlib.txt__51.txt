@@ -1,0 +1,6 @@
+subprocesses. However, it is still a useful approach for many
+   utility scripts.
+   This context manager is reentrant.
+   Added in version 3.4.
+contextlib.redirect_stderr(new_target)
+   Similar to "redirect_stdout()" but redirecting "sys.stderr" to

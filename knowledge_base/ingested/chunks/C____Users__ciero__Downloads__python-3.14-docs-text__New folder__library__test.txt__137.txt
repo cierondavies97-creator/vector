@@ -1,0 +1,5 @@
+(*v*).
+"test.support.socket_helper" --- Utilities for socket tests
+***********************************************************
+The "test.support.socket_helper" module provides support for socket
+tests.

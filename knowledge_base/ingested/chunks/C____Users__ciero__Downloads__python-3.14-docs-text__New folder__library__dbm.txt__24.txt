@@ -1,0 +1,4 @@
+octal "0o666"), used only when the database has to be created.
+   The returned database object behaves similar to a mutable
+   *mapping*, but the "keys()" method returns a list, and the
+   "setdefault()" method requires two arguments. It also supports a

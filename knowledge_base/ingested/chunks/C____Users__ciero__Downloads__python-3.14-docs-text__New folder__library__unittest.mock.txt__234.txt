@@ -1,0 +1,4 @@
+dictionary, which will then be fetched by importing it.
+   *values* can be a dictionary of values to set in the dictionary.
+   *values* can also be an iterable of "(key, value)" pairs.
+   If *clear* is true then the dictionary will be cleared before the

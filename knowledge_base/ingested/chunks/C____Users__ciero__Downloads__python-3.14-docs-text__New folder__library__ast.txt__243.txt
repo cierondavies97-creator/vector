@@ -1,0 +1,5 @@
+body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])
+   Added in version 3.10.
+class ast.MatchMapping(keys, patterns, rest)

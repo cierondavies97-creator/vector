@@ -1,0 +1,4 @@
+If *exc_info* does not evaluate as false, it causes exception
+      information to be added to the logging message. If an exception
+      tuple (in the format returned by "sys.exc_info()") or an
+      exception instance is provided, it is used; otherwise,

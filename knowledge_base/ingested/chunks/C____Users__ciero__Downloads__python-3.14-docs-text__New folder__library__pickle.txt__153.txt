@@ -1,0 +1,3 @@
+class. The "TextReader" class below opens a text file, and returns the
+line number and line contents each time its "readline()" method is
+called. If a "TextReader" instance is pickled, all attributes *except*

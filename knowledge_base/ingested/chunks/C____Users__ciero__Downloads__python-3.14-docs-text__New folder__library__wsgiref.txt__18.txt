@@ -1,0 +1,5 @@
+that an application can tell the difference between URIs ending in
+   "/x" from ones ending in "/x/" when using this routine to do object
+   traversal.
+wsgiref.util.setup_testing_defaults(environ)
+   Update *environ* with trivial defaults for testing purposes.

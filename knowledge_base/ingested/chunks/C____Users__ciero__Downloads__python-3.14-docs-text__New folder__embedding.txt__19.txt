@@ -1,0 +1,4 @@
+should use lower level calls. At the cost of having to write more C
+code, you can achieve almost anything.
+It should be noted that extending Python and embedding Python is quite
+the same activity, despite the different intent. Most topics discussed

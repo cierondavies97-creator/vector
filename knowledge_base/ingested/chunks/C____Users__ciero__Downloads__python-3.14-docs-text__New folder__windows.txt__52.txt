@@ -1,0 +1,4 @@
+any installs.
+In addition to the above options, the "--target" option will extract
+the runtime to the specified directory instead of doing a normal
+install. This is useful for embedding runtimes into larger

@@ -1,0 +1,5 @@
+documented in Special method names.
+standard library
+   The collection of *packages*, *modules* and *extension modules*
+   distributed as a part of the official Python interpreter package.
+   The exact membership of the collection may vary based on platform,

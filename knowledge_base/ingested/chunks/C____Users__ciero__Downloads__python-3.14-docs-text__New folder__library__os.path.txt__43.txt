@@ -1,0 +1,6 @@
+platforms, and will always return "False" on those that have no
+   support for Dev Drives
+os.path.isreserved(path)
+   Return "True" if *path* is a reserved pathname on the current
+   system.
+   On Windows, reserved filenames include those that end with a space

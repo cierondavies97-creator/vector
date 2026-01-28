@@ -1,0 +1,4 @@
+The "TextWrapper" constructor accepts a number of optional keyword
+   arguments.  Each keyword argument corresponds to an instance
+   attribute, so for example
+      wrapper = TextWrapper(initial_indent="* ")

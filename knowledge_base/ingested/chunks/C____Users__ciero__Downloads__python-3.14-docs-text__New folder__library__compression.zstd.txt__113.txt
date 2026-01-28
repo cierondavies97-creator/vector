@@ -1,0 +1,5 @@
+Larger values increase memory usage and compression ratio, but
+      decrease compression speed.
+      A value of zero causes the value to be selected automatically.
+   ldm_min_match
+      Minimum match size for long distance matcher. Larger or too

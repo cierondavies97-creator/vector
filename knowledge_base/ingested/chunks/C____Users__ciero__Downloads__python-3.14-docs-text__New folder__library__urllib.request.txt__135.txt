@@ -1,0 +1,4 @@
+be an object implementing the same interface as the return value of
+   "urlopen()".  The return value should implement the same interface
+   as the return value of "urlopen()".
+HTTPRedirectHandler Objects

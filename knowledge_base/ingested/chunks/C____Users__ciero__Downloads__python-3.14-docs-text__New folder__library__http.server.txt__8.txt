@@ -1,0 +1,6 @@
+key.
+   A *password* can be specified for files protected and wrapped with
+   PKCS#8, but beware that this could possibly expose hardcoded
+   passwords in clear.
+   See also:
+     See "ssl.SSLContext.load_cert_chain()" for additional information

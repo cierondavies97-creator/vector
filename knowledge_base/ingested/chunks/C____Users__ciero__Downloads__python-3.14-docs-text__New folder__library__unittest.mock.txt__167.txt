@@ -1,0 +1,3 @@
+If "side_effect" is a function then whatever that function returns is
+what calls to the mock return. The "side_effect" function is called
+with the same arguments as the mock. This allows you to vary the

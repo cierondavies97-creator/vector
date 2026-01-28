@@ -1,0 +1,4 @@
+unspecified.
+   If optional argument *topdown* is "True" or not specified, the
+   triple for a directory is generated before the triples for any of
+   its subdirectories (directories are generated top-down).  If

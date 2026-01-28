@@ -1,0 +1,6 @@
+get_code(fullname)
+      Returns "None" as extension modules lack a code object.
+   get_source(fullname)
+      Returns "None" as extension modules do not have source code.
+   get_filename(fullname)
+      Returns "path".

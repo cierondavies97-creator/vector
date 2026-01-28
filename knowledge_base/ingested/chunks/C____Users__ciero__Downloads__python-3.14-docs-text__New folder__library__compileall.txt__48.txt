@@ -1,0 +1,5 @@
+multilevel value.
+   Changed in version 3.5: The *legacy* parameter only writes out
+   ".pyc" files, not ".pyo" files no matter what the value of
+   *optimize* is.
+   Changed in version 3.7: The *invalidation_mode* parameter was

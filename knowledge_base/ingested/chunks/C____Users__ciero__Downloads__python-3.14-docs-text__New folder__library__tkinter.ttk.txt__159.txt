@@ -1,0 +1,5 @@
+Tag Options
+-----------
+The following options may be specified on tags:
++--------------+-------------------------------------------------------------+
+| Option       | Description                                                 |

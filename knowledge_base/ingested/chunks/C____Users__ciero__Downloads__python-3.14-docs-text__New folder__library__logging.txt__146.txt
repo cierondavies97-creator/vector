@@ -1,0 +1,5 @@
+Filter Objects
+==============
+"Filters" can be used by "Handlers" and "Loggers" for more
+sophisticated filtering than is provided by levels. The base filter
+class only allows events which are below a certain point in the logger

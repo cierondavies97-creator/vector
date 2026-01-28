@@ -1,0 +1,3 @@
+It is important to note that bit field allocation and layout in memory
+are not defined as a C standard; their implementation is compiler-
+specific. By default, Python will attempt to match the behavior of a

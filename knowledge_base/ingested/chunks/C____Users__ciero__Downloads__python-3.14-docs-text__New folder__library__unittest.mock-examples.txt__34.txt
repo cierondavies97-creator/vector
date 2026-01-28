@@ -1,0 +1,7 @@
+1
+>>> mock(2, 3)
+2
+Mocking asynchronous iterators
+------------------------------
+Since Python 3.8, "AsyncMock" and "MagicMock" have support to mock
+Asynchronous Iterators through "__aiter__". The "return_value"

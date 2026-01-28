@@ -1,0 +1,5 @@
+"setUp()" succeeds, regardless of the outcome of the test
+      method. The default implementation does nothing.
+   setUpClass()
+      A class method called before tests in an individual class are
+      run. "setUpClass" is called with the class as the only argument

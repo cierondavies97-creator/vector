@@ -1,0 +1,4 @@
+issued, a determination is made whether a message should be issued or
+not; next, if a message is to be issued, it is formatted and printed
+using a user-settable hook.
+The determination whether to issue a warning message is controlled by

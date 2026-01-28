@@ -1,0 +1,4 @@
+as "sys.path", i.e. providing a list of locations to search for
+modules during import. However, "__path__" is typically much more
+constrained than "sys.path".
+The same rules used for "sys.path" also apply to a package's

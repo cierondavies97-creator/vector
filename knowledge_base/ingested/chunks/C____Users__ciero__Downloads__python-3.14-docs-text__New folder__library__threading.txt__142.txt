@@ -1,0 +1,4 @@
+variable allows one or more threads to wait until they are notified
+   by another thread.
+   If the *lock* argument is given and not "None", it must be a "Lock"
+   or "RLock" object, and it is used as the underlying lock.

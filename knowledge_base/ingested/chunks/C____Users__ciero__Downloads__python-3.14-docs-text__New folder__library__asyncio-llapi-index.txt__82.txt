@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+Transports that can Send data (TCP and Unix connections, pipes, etc).
+Returned from methods like "loop.create_connection()",

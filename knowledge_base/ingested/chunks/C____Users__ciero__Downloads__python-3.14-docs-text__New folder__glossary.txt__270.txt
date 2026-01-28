@@ -1,0 +1,4 @@
+The information used by the *CPython* runtime to run in an OS
+   thread. For example, this includes the current exception, if any,
+   and the state of the bytecode interpreter.
+   Each thread state is bound to a single OS thread, but threads may

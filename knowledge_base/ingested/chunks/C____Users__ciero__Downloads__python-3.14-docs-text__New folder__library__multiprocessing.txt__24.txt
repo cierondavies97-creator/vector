@@ -1,0 +1,5 @@
+those.
+      Changed in version 3.14: This became the default start method on
+      POSIX platforms.
+Changed in version 3.4: *spawn* added on all POSIX platforms, and
+*forkserver* added for some POSIX platforms. Child processes no longer

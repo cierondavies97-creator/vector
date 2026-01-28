@@ -1,0 +1,5 @@
+Handle DTD events.
+   This interface specifies only those DTD events required for basic
+   parsing (unparsed entities and attributes).
+class xml.sax.handler.EntityResolver
+   Basic interface for resolving entities. If you create an object

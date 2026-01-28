@@ -1,0 +1,5 @@
+should be "os.O_BINARY".
+msvcrt.open_osfhandle(handle, flags)
+   Create a C runtime file descriptor from the file handle *handle*.
+   The *flags* parameter should be a bitwise OR of "os.O_APPEND",
+   "os.O_RDONLY", "os.O_TEXT" and "os.O_NOINHERIT". The returned file

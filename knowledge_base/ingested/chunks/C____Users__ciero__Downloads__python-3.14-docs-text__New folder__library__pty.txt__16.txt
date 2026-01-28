@@ -1,0 +1,4 @@
+parser.add_argument('-p', dest='use_python', action='store_true')
+   parser.add_argument('filename', nargs='?', default='typescript')
+   options = parser.parse_args()
+   shell = sys.executable if options.use_python else os.environ.get('SHELL', 'sh')

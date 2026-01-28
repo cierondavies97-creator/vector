@@ -1,0 +1,3 @@
+|                    | (recommended).                                |
+   +--------------------+-----------------------------------------------+
+   | "'r:'"             | Open for reading exclusively without          |

@@ -1,0 +1,4 @@
+"locale.strxfrm()" is used to produce a sort key that is aware of
+   locale specific sort conventions.
+   A number of tools in Python accept key functions to control how
+   elements are ordered or grouped.  They include "min()", "max()",

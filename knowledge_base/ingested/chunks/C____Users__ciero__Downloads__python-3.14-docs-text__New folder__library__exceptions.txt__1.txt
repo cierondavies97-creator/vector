@@ -1,0 +1,4 @@
+exception classes derived from that class (but not exception classes
+from which *it* is derived).  Two exception classes that are not
+related via subclassing are never equivalent, even if they have the
+same name.

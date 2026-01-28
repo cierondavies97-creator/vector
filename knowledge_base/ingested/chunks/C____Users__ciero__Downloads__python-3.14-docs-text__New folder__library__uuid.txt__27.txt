@@ -1,0 +1,2 @@
+|                                                    | 00:00:00) for versions 1 and 6, or the 48-bit      |
+|                                                    | timestamp in milliseconds since Unix epoch         |

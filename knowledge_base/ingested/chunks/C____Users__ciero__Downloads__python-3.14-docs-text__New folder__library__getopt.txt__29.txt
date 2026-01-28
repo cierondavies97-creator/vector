@@ -1,0 +1,8 @@
+[(None, ['a1']), ('-x', 'a2'), (None, ['a3', 'a4']), ('--long', 'a5')]
+   >>> args
+   ['a6']
+In a script, typical usage is something like this:
+   import getopt, sys
+   def main():
+       try:
+           opts, args = getopt.getopt(sys.argv[1:], "ho:v", ["help", "output="])

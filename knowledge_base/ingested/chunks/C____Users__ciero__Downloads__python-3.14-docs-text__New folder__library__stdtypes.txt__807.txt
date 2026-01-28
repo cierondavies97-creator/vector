@@ -1,0 +1,5 @@
+*other* take priority when *d* and *other* share keys.
+      Added in version 3.9.
+   d |= other
+      Update the dictionary *d* with keys and values from *other*,
+      which may be either a *mapping* or an *iterable* of key/value

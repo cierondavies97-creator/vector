@@ -1,0 +1,2 @@
+* "asyncio.Future.cancel()" accepts an optional "msg" argument, but
+    "concurrent.futures.Future.cancel()" does not.

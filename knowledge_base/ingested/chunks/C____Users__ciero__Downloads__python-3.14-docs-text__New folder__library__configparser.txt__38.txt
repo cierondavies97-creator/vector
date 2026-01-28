@@ -1,0 +1,8 @@
+[No Values]
+   key_without_value
+   empty string value here =
+   [You can use comments]
+   # like this
+   ; or this
+   # By default only in an empty line.
+   # Inline comments can be harmful because they prevent users

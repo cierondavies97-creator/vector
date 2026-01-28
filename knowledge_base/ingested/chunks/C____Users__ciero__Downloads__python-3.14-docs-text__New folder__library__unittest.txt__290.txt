@@ -1,0 +1,4 @@
+beginning with "test". If "getTestCaseNames()" returns no
+      methods, but the "runTest()" method is implemented, a single
+      test case is created for that method instead.
+   loadTestsFromModule(module, *, pattern=None)

@@ -1,0 +1,5 @@
+is ignored.
+Loaders must satisfy the following requirements:
+* If the module is a Python module (as opposed to a built-in module or
+  a dynamically loaded extension), the loader should execute the
+  module's code in the module's global name space ("module.__dict__").

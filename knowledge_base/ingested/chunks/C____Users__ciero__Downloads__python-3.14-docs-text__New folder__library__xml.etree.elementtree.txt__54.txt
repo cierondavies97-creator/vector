@@ -1,0 +1,5 @@
+# elements
+   root.findall("./country/neighbor")
+   # Nodes with name='Singapore' that have a 'year' child
+   root.findall(".//year/..[@name='Singapore']")
+   # 'year' nodes that are children of nodes with name='Singapore'

@@ -1,0 +1,4 @@
+*compresslevel* (default "9") to specify the compression level of
+   the file.
+   For modes "'w:xz'", "'x:xz'" and "'w|xz'", "tarfile.open()" accepts
+   the keyword argument *preset* to specify the compression level of

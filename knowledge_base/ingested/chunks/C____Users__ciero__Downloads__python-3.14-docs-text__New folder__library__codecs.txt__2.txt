@@ -1,0 +1,4 @@
+encode text to text, and bytes to bytes. Custom codecs may encode and
+decode between arbitrary types, but some module features are
+restricted to be used specifically with *text encodings* or with
+codecs that encode to "bytes".

@@ -1,0 +1,4 @@
+recursion; it defaults to "sys.getrecursionlimit()".
+   If *ddir* is given, it is prepended to the path to each file being
+   compiled for use in compilation time tracebacks, and is also
+   compiled in to the byte-code file, where it will be used in

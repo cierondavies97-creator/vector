@@ -1,0 +1,6 @@
+CREATE TABLE publisher(name, address);
+             COMMIT;
+         """)
+   fetchone()
+      If "row_factory" is "None", return the next row query result set
+      as a "tuple". Else, pass it to the row factory and return its

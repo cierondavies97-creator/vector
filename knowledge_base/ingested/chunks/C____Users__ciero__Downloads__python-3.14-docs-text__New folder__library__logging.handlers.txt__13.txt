@@ -1,0 +1,4 @@
+the file grows indefinitely. If *errors* is specified, it's used to
+   determine how encoding errors are handled.
+   Changed in version 3.6: As well as string values, "Path" objects
+   are also accepted for the *filename* argument.

@@ -1,0 +1,4 @@
+attribute, it will write this text in the area between the
+      headers and the first boundary.  See "email.parser" and
+      "email.generator" for details.
+      Note that if the message object has no preamble, the *preamble*

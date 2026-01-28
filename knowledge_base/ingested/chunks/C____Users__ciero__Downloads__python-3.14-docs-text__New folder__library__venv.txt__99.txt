@@ -1,0 +1,6 @@
+break
+               if progress is not None:
+                   progress(s, context)
+               else:
+                   if not self.verbose:
+                       sys.stderr.write('.')

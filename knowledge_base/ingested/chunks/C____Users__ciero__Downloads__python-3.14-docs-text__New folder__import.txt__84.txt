@@ -1,0 +1,3 @@
+a binding is placed in the parent module's namespace to the submodule
+object. For example, if package "spam" has a submodule "foo", after
+importing "spam.foo", "spam" will have an attribute "foo" which is

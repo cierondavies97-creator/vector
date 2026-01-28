@@ -1,0 +1,4 @@
+If only the *exception* and possibly the *msg* arguments are
+      given, return a context manager so that the code under test can
+      be written inline rather than as a function:
+         with self.assertRaises(SomeException):

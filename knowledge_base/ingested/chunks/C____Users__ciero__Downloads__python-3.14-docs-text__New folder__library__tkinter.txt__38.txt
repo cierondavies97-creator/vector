@@ -1,0 +1,7 @@
+"tkinter.font"
+   Utilities to help work with fonts.
+"tkinter.messagebox"
+   Access to standard Tk dialog boxes.
+"tkinter.scrolledtext"
+   Text widget with a vertical scroll bar built in.
+"tkinter.simpledialog"

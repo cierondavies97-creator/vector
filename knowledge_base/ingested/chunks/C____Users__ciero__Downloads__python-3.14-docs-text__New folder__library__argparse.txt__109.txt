@@ -1,0 +1,4 @@
+and metavar parameters. The dest parameter defaults to the argument
+name with underscores "_" replacing hyphens "-" . The metavar
+parameter defaults to the upper-cased name. For example:
+   >>> parser = argparse.ArgumentParser(prog='PROG')

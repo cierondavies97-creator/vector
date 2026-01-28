@@ -1,0 +1,5 @@
+construct and use Python objects.
+See also:
+  Python/C API Reference Manual
+     The details of Python's C interface are given in this manual. A
+     great deal of necessary information can be found here.

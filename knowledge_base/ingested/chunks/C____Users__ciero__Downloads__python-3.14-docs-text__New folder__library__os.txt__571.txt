@@ -1,0 +1,6 @@
+following symlinks.
+   Raises an auditing event "os.removexattr" with arguments "path",
+   "attribute".
+   Changed in version 3.6: Accepts a *path-like object* for *path* and
+   *attribute*.
+os.setxattr(path, attribute, value, flags=0, *, follow_symlinks=True)

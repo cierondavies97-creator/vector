@@ -1,0 +1,3 @@
+Register an object which is used to expose method names which have
+   not been registered using "register_function()".  If *instance*
+   contains a "_dispatch()" method, it is called with the requested

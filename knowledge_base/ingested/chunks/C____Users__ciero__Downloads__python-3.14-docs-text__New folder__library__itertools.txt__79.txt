@@ -1,0 +1,3 @@
+*iterable*. The *key* is a function computing a key value for each
+   element.  If not specified or is "None", *key* defaults to an
+   identity function and returns the element unchanged.  Generally,

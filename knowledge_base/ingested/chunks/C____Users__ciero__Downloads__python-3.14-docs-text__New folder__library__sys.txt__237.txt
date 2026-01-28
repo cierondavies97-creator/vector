@@ -1,0 +1,4 @@
+in post-mortem debugging without having to re-execute the command
+   that caused the error.  (Typical use is "import pdb; pdb.pm()" to
+   enter the post-mortem debugger; see "pdb" module for more
+   information.)

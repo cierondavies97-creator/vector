@@ -1,0 +1,5 @@
+line application use case.
+See also:
+  click is a third party argument processing library (originally based
+  on "optparse"), which allows command line applications to be
+  developed as a set of decorated command implementation functions.

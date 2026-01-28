@@ -1,0 +1,3 @@
+|                   | co_varnames         | tuple of names of arguments |
+|                   |                     | and local variables         |
++-------------------+---------------------+-----------------------------+

@@ -1,0 +1,3 @@
+default value from the function definition.  (Default values are
+calculated, once, when the function is defined; thus, a mutable object
+such as a list or dictionary used as default value will be shared by

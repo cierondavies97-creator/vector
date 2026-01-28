@@ -1,0 +1,4 @@
+(rather than "CERT_OPTIONAL" or "CERT_REQUIRED").
+   See also "SSLContext.check_hostname".
+   Changed in version 3.2: The returned dictionary includes additional
+   items such as "issuer" and "notBefore".

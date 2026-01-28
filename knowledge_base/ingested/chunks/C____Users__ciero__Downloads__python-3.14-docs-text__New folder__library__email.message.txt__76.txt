@@ -1,0 +1,5 @@
+coerced to lower case.  If there is no *Content-Type* header, or
+      if that header has no "charset" parameter, *failobj* is
+      returned.
+   get_charsets(failobj=None)
+      Return a list containing the character set names in the message.

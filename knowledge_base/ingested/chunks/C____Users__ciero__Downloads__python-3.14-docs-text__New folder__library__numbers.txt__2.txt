@@ -1,0 +1,6 @@
+argument *x* is a number, without caring what kind, use
+   "isinstance(x, Number)".
+The numeric tower
+=================
+class numbers.Complex
+   Subclasses of this type describe complex numbers and include the

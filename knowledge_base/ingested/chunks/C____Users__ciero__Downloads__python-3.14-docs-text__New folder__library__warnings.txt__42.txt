@@ -1,0 +1,4 @@
+(*message*, *category*, *module*, *lineno*) are all the same.
+* ""module"": A warning is considered a repeat if the (*message*,
+  *category*, *module*) are the same, ignoring the line number.
+* ""once"": A warning is considered a repeat if the (*message*,

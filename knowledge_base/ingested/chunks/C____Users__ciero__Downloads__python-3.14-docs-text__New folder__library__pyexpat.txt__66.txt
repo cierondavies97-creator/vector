@@ -1,0 +1,3 @@
+name of the element to which the declaration applies and *attname*
+   is the name of the attribute declared.  The attribute type is a
+   string passed as *type*; the possible values are "'CDATA'", "'ID'",

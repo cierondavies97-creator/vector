@@ -1,0 +1,4 @@
+doctest.testsource(module, name)
+   Convert the doctest for an object to a script.
+   Argument *module* is a module object, or dotted name of a module,
+   containing the object whose doctests are of interest.  Argument

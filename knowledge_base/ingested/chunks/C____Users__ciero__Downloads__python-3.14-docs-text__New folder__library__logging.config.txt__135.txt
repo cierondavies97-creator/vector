@@ -1,0 +1,3 @@
+* A dict with a "'()'" key which is constructed in the usual way as
+  discussed in User-defined objects. The result of this construction
+  should be a callable with the same signature as the "QueueListener"

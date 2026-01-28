@@ -1,0 +1,4 @@
+Changed in version 3.13: Windows path names that contain a colon,
+   or end with a dot or a space, are considered reserved. UNC paths
+   may be reserved.
+   Deprecated since version 3.13, will be removed in version 3.15:

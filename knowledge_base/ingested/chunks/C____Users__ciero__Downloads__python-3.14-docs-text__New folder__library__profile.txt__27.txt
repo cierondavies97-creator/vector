@@ -1,0 +1,3 @@
+statistics for only the class init methods (since they are spelled
+with "__init__" in them).  As one final example, you could try:
+   p.sort_stats(SortKey.TIME, SortKey.CUMULATIVE).print_stats(.5, 'init')

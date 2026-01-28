@@ -1,0 +1,8 @@
+platforms.
+Command-line interface
+======================
+The command line interface is invoked using the interpreter's "-m"
+switch.
+The simplest possible invocation is:
+   python -m ensurepip
+This invocation will install "pip" if it is not already installed, but

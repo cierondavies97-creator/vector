@@ -1,0 +1,5 @@
+>>> X = Annotated[int, "very", "important", "metadata"]
+         >>> X
+         typing.Annotated[int, 'very', 'important', 'metadata']
+         >>> X.__metadata__
+         ('very', 'important', 'metadata')

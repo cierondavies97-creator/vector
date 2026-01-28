@@ -1,0 +1,6 @@
+p->n_keyword_lists = n_keyword_lists;
+       p->soft_keywords = soft_keywords;
+       // Run parser
+       void *result = NULL;
+       if (p->start_rule == Py_file_input) {
+           result = file_rule(p);

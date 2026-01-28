@@ -1,0 +1,5 @@
+support to compression objects.
+Decompression objects support the following methods and attributes:
+Decompress.unused_data
+   A bytes object which contains any bytes past the end of the
+   compressed data. That is, this remains "b""" until the last byte

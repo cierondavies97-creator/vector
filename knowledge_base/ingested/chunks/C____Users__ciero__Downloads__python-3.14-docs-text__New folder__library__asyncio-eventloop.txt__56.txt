@@ -1,0 +1,4 @@
+*eager_start* parameter works with eager task factories.
+loop.set_task_factory(factory)
+   Set a task factory that will be used by "loop.create_task()".
+   If *factory* is "None" the default task factory will be set.

@@ -1,0 +1,7 @@
+error from the child:
+        >>> import multiprocessing as mp
+        >>> def knigit():
+        ...     print("Ni!")
+        ...
+        >>> process = mp.Process(target=knigit)
+        >>> process.start()

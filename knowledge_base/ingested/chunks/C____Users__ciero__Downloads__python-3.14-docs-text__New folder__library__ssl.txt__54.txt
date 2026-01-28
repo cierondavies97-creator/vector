@@ -1,0 +1,4 @@
+(*hostname*, *port-number*) pair, fetches the server's certificate,
+   and returns it as a PEM-encoded string.  If "ssl_version" is
+   specified, uses that version of the SSL protocol to attempt to
+   connect to the server.  If *ca_certs* is specified, it should be a

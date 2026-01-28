@@ -1,0 +1,5 @@
+updated. It does not update any subclasses.
+   Added in version 3.10.
+-[ Footnotes ]-
+[1] C++ programmers should note that Python's virtual base class
+    concept is not the same as C++'s.

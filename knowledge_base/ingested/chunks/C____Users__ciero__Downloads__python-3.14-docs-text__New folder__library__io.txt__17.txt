@@ -1,0 +1,6 @@
+"encoding="locale"" is supported since Python 3.10.
+See also:
+  Python UTF-8 Mode
+     Python UTF-8 Mode can be used to change the default encoding to
+     UTF-8 from locale-specific encoding.
+  **PEP 686**

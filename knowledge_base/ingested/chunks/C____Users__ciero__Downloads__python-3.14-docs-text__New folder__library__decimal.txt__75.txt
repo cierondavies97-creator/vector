@@ -1,0 +1,7 @@
+ValueError on NaNs.
+   Added in version 3.6.
+   as_tuple()
+      Return a *named tuple* representation of the number:
+      "DecimalTuple(sign, digits, exponent)".
+   canonical()
+      Return the canonical encoding of the argument.  Currently, the

@@ -1,0 +1,5 @@
+subclasses, changes are always written immediately and "flush()"
+      does nothing, but you should still make a habit of calling this
+      method.
+   lock()
+      Acquire an exclusive advisory lock on the mailbox so that other

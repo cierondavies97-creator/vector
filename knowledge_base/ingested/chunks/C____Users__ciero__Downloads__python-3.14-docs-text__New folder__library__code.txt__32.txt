@@ -1,0 +1,3 @@
+buffer is reset; otherwise, the command is incomplete, and the
+   buffer is left as it was after the line was appended.  The return
+   value is "True" if more input is required, "False" if the line was

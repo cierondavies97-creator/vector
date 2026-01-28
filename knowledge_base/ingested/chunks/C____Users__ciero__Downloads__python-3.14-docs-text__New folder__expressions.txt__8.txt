@@ -1,0 +1,5 @@
+6.2.1.1. Private name mangling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When an identifier that textually occurs in a class definition begins
+with two or more underscore characters and does not end in two or more
+underscores, it is considered a *private name* of that class.

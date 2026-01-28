@@ -1,0 +1,6 @@
+* The "GNUTranslations" class
+    * Solaris message catalog support
+    * The Catalog constructor
+  * Internationalizing your programs and modules
+    * Localizing your module
+    * Localizing your application

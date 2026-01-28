@@ -1,0 +1,5 @@
+"OSError" is raised.
+Changed in version 3.3: "IOError" used to be raised; it is now an
+alias of "OSError".
+If "sys.stdin" is used more than once, the second and further use will
+return no lines, except perhaps for interactive use, or if it has been

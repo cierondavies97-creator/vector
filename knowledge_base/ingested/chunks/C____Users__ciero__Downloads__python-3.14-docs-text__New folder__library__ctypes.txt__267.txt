@@ -1,0 +1,4 @@
+well.
+      When a foreign function is called, each actual argument is
+      passed to the "from_param()" class method of the items in the
+      "argtypes" tuple, this method allows adapting the actual

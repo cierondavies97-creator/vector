@@ -1,0 +1,4 @@
+temporarily throttle logging output down across the whole
+   application, this function can be useful. Its effect is to disable
+   all logging calls of severity *level* and below, so that if you
+   call it with a value of INFO, then all INFO and DEBUG events would

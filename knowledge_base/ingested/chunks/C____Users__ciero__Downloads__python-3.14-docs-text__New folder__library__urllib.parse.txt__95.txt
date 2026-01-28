@@ -1,0 +1,3 @@
+"bytes" methods (except that the default encoding is "'ascii'" rather
+than "'utf-8'"). Each produces a value of a corresponding type that
+contains either "bytes" data (for "encode()" methods) or "str" data

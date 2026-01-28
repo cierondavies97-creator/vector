@@ -1,0 +1,4 @@
+an exception group and raised. The exception passed into
+"__aexit__()", unless it is "asyncio.CancelledError", is also included
+in the exception group. The same special case is made for
+"KeyboardInterrupt" and "SystemExit" as in the previous paragraph.

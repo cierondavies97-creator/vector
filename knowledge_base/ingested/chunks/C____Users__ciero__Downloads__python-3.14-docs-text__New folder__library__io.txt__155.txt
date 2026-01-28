@@ -1,0 +1,4 @@
+If *write_through* is "True", calls to "write()" are guaranteed not
+   to be buffered: any data written on the "TextIOWrapper" object is
+   immediately handled to its underlying binary *buffer*.
+   Changed in version 3.3: The *write_through* argument has been

@@ -1,0 +1,4 @@
+The second element of the "gnu_getopt()" result is a list of
+   program arguments after the last option.
+   Changed in version 3.14: Support for returning intermixed options
+   and non-option arguments in order.

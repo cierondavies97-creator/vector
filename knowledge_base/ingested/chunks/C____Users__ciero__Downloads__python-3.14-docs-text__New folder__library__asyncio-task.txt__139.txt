@@ -1,0 +1,4 @@
+Changed in version 3.12: Added support for generators yielding
+   tasks.
+   Changed in version 3.13: The result can now be used as either an
+   *asynchronous iterator* or as a plain *iterator* (previously it was

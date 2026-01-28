@@ -1,0 +1,4 @@
+the language reference.)
+Forward and reversed iterators over mutable sequences access values
+using an index.  That index will continue to march forward (or
+backward) even if the underlying sequence is mutated.  The iterator

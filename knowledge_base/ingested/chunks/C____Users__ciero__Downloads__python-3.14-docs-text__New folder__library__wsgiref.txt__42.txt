@@ -1,0 +1,4 @@
+Add a (possibly multi-valued) header, with optional MIME
+      parameters specified via keyword arguments.
+      *name* is the header field to add.  Keyword arguments can be
+      used to set MIME parameters for the header field.  Each

@@ -1,0 +1,4 @@
+visible all at once.  Python does not guarantee that high-level
+   statements are atomic (for example, "x += 1" performs multiple
+   bytecode operations and is not atomic).  Atomicity is only
+   guaranteed where explicitly documented.  See also *race condition*

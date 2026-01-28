@@ -1,0 +1,9 @@
+tarfile.FIFOTYPE
+   A FIFO special device "type".
+tarfile.CONTTYPE
+   A contiguous file "type".
+tarfile.GNUTYPE_LONGNAME
+   A GNU tar longname "type".
+tarfile.GNUTYPE_LONGLINK
+   A GNU tar longlink "type".
+tarfile.GNUTYPE_SPARSE

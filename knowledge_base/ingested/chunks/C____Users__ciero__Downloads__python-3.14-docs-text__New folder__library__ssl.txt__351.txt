@@ -1,0 +1,4 @@
+server certificate was signed with one of the CA certificates, checks
+the signature for correctness, and verifies other properties like
+validity and identity of the hostname:
+   >>> conn = context.wrap_socket(socket.socket(socket.AF_INET),

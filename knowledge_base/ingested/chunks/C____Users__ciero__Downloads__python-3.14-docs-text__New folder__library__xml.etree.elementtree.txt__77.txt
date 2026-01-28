@@ -1,0 +1,3 @@
+|                         | last position), or a position relative to the last     |
+|                         | position (e.g. "last()-1").                            |
++-------------------------+--------------------------------------------------------+

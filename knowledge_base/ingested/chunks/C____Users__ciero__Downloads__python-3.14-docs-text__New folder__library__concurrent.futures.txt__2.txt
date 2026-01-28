@@ -1,0 +1,4 @@
+The asynchronous execution can be performed with threads, using
+"ThreadPoolExecutor" or "InterpreterPoolExecutor", or separate
+processes, using "ProcessPoolExecutor". Each implements the same
+interface, which is defined by the abstract "Executor" class.

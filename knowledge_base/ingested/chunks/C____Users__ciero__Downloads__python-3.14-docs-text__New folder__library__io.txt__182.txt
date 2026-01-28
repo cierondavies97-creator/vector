@@ -1,0 +1,3 @@
+example, on some modern OSes such as Linux, unbuffered disk I/O can be
+as fast as buffered I/O.  The bottom line, however, is that buffered
+I/O offers predictable performance regardless of the platform and the

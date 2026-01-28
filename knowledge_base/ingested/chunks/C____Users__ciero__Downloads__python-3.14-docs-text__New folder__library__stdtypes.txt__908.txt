@@ -1,0 +1,4 @@
+Python also uses three dots in ways that are not "Ellipsis" objects,
+for instance:
+* Doctest's "ELLIPSIS", as a pattern for missing content.
+* The default Python prompt of the *interactive* shell when partial

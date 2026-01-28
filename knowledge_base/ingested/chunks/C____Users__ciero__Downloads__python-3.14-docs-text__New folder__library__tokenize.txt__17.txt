@@ -1,0 +1,4 @@
+used (as a string) and a list of any lines (not decoded from bytes)
+   it has read in.
+   It detects the encoding from the presence of a UTF-8 BOM or an
+   encoding cookie as specified in **PEP 263**. If both a BOM and a

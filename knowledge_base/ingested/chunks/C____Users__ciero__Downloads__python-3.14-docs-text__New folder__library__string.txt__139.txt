@@ -1,0 +1,4 @@
+'3.140000; -3.140000'
+Replacing "%x" and "%o" and converting the value to different bases:
+   >>> # format also supports binary numbers
+   >>> "int: {0:d};  hex: {0:x};  oct: {0:o};  bin: {0:b}".format(42)

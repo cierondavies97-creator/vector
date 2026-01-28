@@ -1,0 +1,5 @@
+properties of the data and one or more format characters which
+describe the actual data values and padding.
+Byte Order, Size, and Alignment
+-------------------------------
+By default, C types are represented in the machine's native format and

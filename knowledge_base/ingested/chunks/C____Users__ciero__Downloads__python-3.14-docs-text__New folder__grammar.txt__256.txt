@@ -1,0 +1,5 @@
+invalid_double_type_comments:
+       | TYPE_COMMENT NEWLINE TYPE_COMMENT NEWLINE INDENT {
+           RAISE_SYNTAX_ERROR("Cannot have two type comments on def") }
+   invalid_with_item:
+       | expression 'as' a=expression &(',' | ')' | ':') {

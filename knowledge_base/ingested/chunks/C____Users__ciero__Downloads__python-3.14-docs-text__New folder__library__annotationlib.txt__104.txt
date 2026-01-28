@@ -1,0 +1,4 @@
+======================================
+The "FORWARDREF" format aims to produce real values as much as
+possible, with anything that cannot be resolved replaced with
+"ForwardRef" objects. It is affected by broadly the same Limitations

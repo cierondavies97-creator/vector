@@ -1,0 +1,6 @@
+...     stderr=subprocess.STDOUT,
+      ...     shell=True)
+      'ls: non_existent_file: No such file or directory\n'
+   Added in version 3.1.
+   Changed in version 3.3: *timeout* was added.
+   Changed in version 3.4: Support for the *input* keyword argument

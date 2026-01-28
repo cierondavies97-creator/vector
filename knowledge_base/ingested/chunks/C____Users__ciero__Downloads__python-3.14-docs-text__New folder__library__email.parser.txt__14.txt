@@ -1,0 +1,3 @@
+class email.parser.BytesFeedParser(_factory=None, *, policy=policy.compat32)
+   Create a "BytesFeedParser" instance.  Optional *_factory* is a no-
+   argument callable; if not specified use the "message_factory" from

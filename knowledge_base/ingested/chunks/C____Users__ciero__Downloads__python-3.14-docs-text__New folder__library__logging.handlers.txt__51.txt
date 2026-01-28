@@ -1,0 +1,6 @@
+emit(record)
+      Outputs the record to the file, catering for rollover as
+      described previously.
+   shouldRollover(record)
+      See if the supplied record would cause the file to exceed the
+      configured size limit.

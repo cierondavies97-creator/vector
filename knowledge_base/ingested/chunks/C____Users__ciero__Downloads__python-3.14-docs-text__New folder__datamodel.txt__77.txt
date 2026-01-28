@@ -1,0 +1,2 @@
+|                                                    | attribute of the function's "code object".  A cell |
+|                                                    | object has the attribute "cell_contents". This can |

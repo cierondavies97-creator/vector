@@ -1,0 +1,4 @@
+BaseTransport.is_closing()
+   Return "True" if the transport is closing or is closed.
+BaseTransport.get_extra_info(name, default=None)
+   Return information about the transport or underlying resources it

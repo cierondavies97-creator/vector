@@ -1,0 +1,5 @@
+"email.message.EmailMessage.set_content()" method.
+   get_charset()
+      Return the "Charset" instance associated with the message's
+      payload.
+      This is a legacy method.  On the "EmailMessage" class it always

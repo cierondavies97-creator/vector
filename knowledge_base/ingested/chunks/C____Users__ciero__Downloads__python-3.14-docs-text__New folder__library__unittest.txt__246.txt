@@ -1,0 +1,5 @@
+Added in version 3.11.
+   doCleanups()
+      This method is called unconditionally after "tearDown()", or
+      after "setUp()" if "setUp()" raises an exception.
+      It is responsible for calling all the cleanup functions added by

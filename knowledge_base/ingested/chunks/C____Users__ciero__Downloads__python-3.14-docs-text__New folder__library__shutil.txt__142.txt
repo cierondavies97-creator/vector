@@ -1,0 +1,6 @@
+...     base_dir='structure/content',
+   ... )
+   '/Users/tarek/myarchive.tar'
+Listing the files in the resulting archive gives us:
+   $ python -m tarfile -l /Users/tarek/myarchive.tar
+   structure/content/

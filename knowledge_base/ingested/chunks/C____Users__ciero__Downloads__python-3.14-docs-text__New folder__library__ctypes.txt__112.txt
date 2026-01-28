@@ -1,0 +1,5 @@
+it constructs a real pointer object, so it is faster to use "byref()"
+if you don't need the pointer object in Python itself:
+   >>> i = c_int()
+   >>> f = c_float()
+   >>> s = create_string_buffer(b'\000' * 32)

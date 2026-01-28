@@ -1,0 +1,4 @@
+Three classes are provided by the "imaplib" module, "IMAP4" is the
+base class:
+class imaplib.IMAP4(host='', port=IMAP4_PORT, timeout=None)
+   This class implements the actual IMAP4 protocol.  The connection is

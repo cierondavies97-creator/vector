@@ -1,0 +1,4 @@
+it easier to correctly implement these operations on custom sequence
+types.
+In the table *s* is an instance of a mutable sequence type, *t* is any
+iterable object and *x* is an arbitrary object that meets any type and

@@ -1,0 +1,4 @@
+class bdb.Breakpoint(self, file, line, temporary=False, cond=None, funcname=None)
+   This class implements temporary breakpoints, ignore counts,
+   disabling and (re-)enabling, and conditionals.
+   Breakpoints are indexed by number through a list called

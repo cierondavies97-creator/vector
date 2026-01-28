@@ -1,0 +1,4 @@
+For a general Python object "x", "float(x)" delegates to
+   "x.__float__()".  If "__float__()" is not defined then it falls
+   back to "__index__()".
+   See also "float.from_number()" which only accepts a numeric

@@ -1,0 +1,5 @@
+On some systems (including Linux), *start* must be a multiple of
+      the "PAGESIZE".
+      Availability: Systems with the "madvise()" system call.
+      Added in version 3.8.
+   move(dest, src, count)

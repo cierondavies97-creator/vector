@@ -1,0 +1,3 @@
+"sys.stdout" and "sys.stderr" are connected to the display area of
+IDLE's Shell.  Some of its features are inherited from the underlying
+Tk Text widget.  Others are programmed additions.  Where it matters,

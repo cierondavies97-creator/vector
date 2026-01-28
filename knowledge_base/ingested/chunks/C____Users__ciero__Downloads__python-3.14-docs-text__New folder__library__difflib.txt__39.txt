@@ -1,0 +1,6 @@
+>>> get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'])
+   ['apple', 'ape']
+   >>> import keyword
+   >>> get_close_matches('wheel', keyword.kwlist)
+   ['while']
+   >>> get_close_matches('pineapple', keyword.kwlist)

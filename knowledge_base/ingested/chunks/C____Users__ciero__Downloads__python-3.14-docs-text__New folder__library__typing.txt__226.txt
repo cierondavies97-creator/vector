@@ -1,0 +1,3 @@
+the type of the variable to exactly the "TypeGuard" type. When a
+     "TypeIs" function returns "True", type checkers can infer a more
+     precise type combining the previously known type of the variable

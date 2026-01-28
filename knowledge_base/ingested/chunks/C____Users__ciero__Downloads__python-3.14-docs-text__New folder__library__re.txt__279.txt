@@ -1,0 +1,5 @@
+>>> re.sub(r"(\w)(\w+)(\w)", repl, text)
+   'Pofsroser Aodlambelk, plasee reoprt yuor asnebces potlmrpy.'
+Finding all Adverbs
+-------------------
+"findall()" matches *all* occurrences of a pattern, not just the first

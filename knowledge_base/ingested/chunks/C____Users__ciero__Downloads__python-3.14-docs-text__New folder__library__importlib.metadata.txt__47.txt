@@ -1,0 +1,5 @@
+>>> requires('wheel')
+   ["pytest (>=3.0.0) ; extra == 'test'", "pytest-cov ; extra == 'test'"]
+Mapping import to distribution packages
+---------------------------------------
+importlib.metadata.packages_distributions()

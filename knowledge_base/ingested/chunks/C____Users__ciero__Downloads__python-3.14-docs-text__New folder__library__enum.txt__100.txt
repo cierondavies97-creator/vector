@@ -1,0 +1,6 @@
+the default for "Flag":
+         >>> from enum import Flag, STRICT, auto
+         >>> class StrictFlag(Flag, boundary=STRICT):
+         ...     RED = auto()
+         ...     GREEN = auto()
+         ...     BLUE = auto()

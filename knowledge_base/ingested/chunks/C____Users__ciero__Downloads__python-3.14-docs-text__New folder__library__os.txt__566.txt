@@ -1,0 +1,5 @@
+through the "PathLike" interface). If it is str, it is encoded with
+   the filesystem encoding.
+   This function can support specifying a file descriptor and not
+   following symlinks.
+   Raises an auditing event "os.getxattr" with arguments "path",

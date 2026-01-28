@@ -1,0 +1,5 @@
+Changed in version 3.13: The oparg value changed to include
+   information about except-depth
+RETURN_GENERATOR
+   Create a generator, coroutine, or async generator from the current
+   frame. Used as first opcode of in code object for the above

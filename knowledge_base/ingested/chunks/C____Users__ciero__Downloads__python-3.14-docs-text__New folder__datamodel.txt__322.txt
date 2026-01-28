@@ -1,0 +1,4 @@
+object is a wrapper around any other object, usually a user-defined
+method object. When a static method object is retrieved from a class
+or a class instance, the object actually returned is the wrapped
+object, which is not subject to any further transformation. Static

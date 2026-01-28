@@ -1,0 +1,7 @@
+"Decimal" class and are only briefly recounted here.
+   abs(x, /)
+      Returns the absolute value of *x*.
+   add(x, y, /)
+      Return the sum of *x* and *y*.
+   canonical(x, /)
+      Returns the same Decimal object *x*.

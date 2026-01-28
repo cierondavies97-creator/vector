@@ -1,0 +1,11 @@
+raise a "TypeError" exception.
+MADV_* Constants
+================
+mmap.MADV_NORMAL
+mmap.MADV_RANDOM
+mmap.MADV_SEQUENTIAL
+mmap.MADV_WILLNEED
+mmap.MADV_DONTNEED
+mmap.MADV_REMOVE
+mmap.MADV_DONTFORK
+mmap.MADV_DOFORK

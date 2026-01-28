@@ -1,0 +1,3 @@
+**PEP 526**.  It does this by checking if the type of the field is
+"typing.ClassVar".  If a field is a "ClassVar", it is excluded from
+consideration as a field and is ignored by the dataclass mechanisms.

@@ -1,0 +1,4 @@
+type)" must be true.  If the second argument is a type,
+   "issubclass(type2, type)" must be true (this is useful for
+   classmethods).
+   When called directly within an ordinary method of a class, both

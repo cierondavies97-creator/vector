@@ -1,0 +1,5 @@
+convention "'\r'".  See **PEP 278** and **PEP 3116**, as well as
+   "bytes.splitlines()" for an additional use.
+variable annotation
+   An *annotation* of a variable or a class attribute.
+   When annotating a variable or a class attribute, assignment is

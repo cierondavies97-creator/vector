@@ -1,0 +1,4 @@
+incremental to the existing configuration.  This value defaults to
+  "False", which means that the specified configuration replaces the
+  existing configuration with the same semantics as used by the
+  existing "fileConfig()" API.

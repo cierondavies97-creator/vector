@@ -1,0 +1,5 @@
+been acquired).
+For a list of handlers included as standard, see "logging.handlers".
+Formatter Objects
+=================
+class logging.Formatter(fmt=None, datefmt=None, style='%', validate=True, *, defaults=None)

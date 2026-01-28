@@ -1,0 +1,5 @@
+incrementally.
+   For a more convenient way of compressing a single chunk of data,
+   see the module-level function "compress()".
+   The *level* argument is an integer controlling the level of
+   compression. *level* is an alternative to setting

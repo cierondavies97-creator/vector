@@ -1,0 +1,4 @@
+If *manheaderlen* is "None" (the default), wrap headers and other
+   message lines according to the *policy* settings.
+   If *policy* is specified, use that policy to control message
+   generation.  If *policy* is "None" (the default), use the policy

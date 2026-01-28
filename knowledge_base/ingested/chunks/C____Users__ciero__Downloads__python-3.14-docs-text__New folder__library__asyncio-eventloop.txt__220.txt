@@ -1,0 +1,4 @@
+*protocol* is an object instantiated by the *protocol_factory*.
+   If the transport is closed or is garbage collected, the child
+   process is killed if it is still running.
+async loop.subprocess_shell(protocol_factory, cmd, *, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs)

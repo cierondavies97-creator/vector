@@ -1,0 +1,4 @@
+usage: PROG [-h] [-bacon BACON] [-badger BADGER]
+   PROG: error: ambiguous option: -ba could match -badger, -bacon
+An error is produced for arguments that could produce more than one
+options. This feature can be disabled by setting allow_abbrev to

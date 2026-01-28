@@ -1,0 +1,5 @@
+*opener* parameter.
+   Changed in version 3.3: The *opener* parameter was added. The "'x'"
+   mode was added.
+   Changed in version 3.4: The file is now non-inheritable.
+   "FileIO" provides these data attributes in addition to those from

@@ -1,0 +1,4 @@
+are unacceptable.
+Because it's so flexible, "XMLPullParser" can be inconvenient to use
+for simpler use-cases.  If you don't mind your application blocking on
+reading XML data but would still like to have incremental parsing

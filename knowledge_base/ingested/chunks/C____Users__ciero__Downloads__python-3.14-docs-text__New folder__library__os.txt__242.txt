@@ -1,0 +1,5 @@
+file descriptor can be inherited by child processes.  Since Python
+3.4, file descriptors created by Python are non-inheritable by
+default.
+On UNIX, non-inheritable file descriptors are closed in child
+processes at the execution of a new program, other file descriptors

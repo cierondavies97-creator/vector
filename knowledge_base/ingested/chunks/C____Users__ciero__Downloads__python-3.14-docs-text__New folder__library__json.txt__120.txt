@@ -1,0 +1,7 @@
+Disable escaping of non-ascii characters, see "json.dumps()" for
+   more information.
+   Added in version 3.9.
+--json-lines
+   Parse every input line as separate JSON object.
+   Added in version 3.8.
+--indent, --tab, --no-indent, --compact

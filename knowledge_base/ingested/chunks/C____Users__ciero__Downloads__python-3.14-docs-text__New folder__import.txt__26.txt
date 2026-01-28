@@ -1,0 +1,4 @@
+this case, Python will create a namespace package for the top-level
+"parent" package whenever it or one of its subpackages is imported.
+See also **PEP 420** for the namespace package specification.
+5.3. Searching

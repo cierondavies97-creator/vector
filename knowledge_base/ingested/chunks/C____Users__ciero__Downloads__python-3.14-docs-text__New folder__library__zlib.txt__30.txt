@@ -1,0 +1,4 @@
+small value may result in an "error" exception. The default *wbits*
+   value corresponds to the largest window size and requires a zlib
+   header and trailer to be included.
+   *bufsize* is the initial size of the buffer used to hold

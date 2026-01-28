@@ -1,0 +1,7 @@
+Option.nargs
+   (default: 1)
+   How many arguments of type "type" should be consumed when this
+   option is seen.  If > 1, "optparse" will store a tuple of values to
+   "dest".
+Option.const
+   For actions that store a constant value, the constant value to

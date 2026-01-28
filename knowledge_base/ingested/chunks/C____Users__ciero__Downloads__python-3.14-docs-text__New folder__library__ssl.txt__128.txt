@@ -1,0 +1,5 @@
+Registry contains this list and references to the RFCs where their
+   meaning is defined.
+   Used as the return value of the callback function in
+   "SSLContext.set_servername_callback()".
+   Added in version 3.4.

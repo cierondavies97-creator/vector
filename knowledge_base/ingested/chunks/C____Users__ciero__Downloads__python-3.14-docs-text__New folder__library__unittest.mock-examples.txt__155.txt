@@ -1,0 +1,8 @@
+<MyMock id='...'>
+>>> mymock.has_been_called()
+False
+>>> mymock()
+>>> mymock.has_been_called()
+True
+The standard behaviour for "Mock" instances is that attributes and the
+return value mocks are of the same type as the mock they are accessed

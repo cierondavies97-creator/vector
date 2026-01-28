@@ -1,0 +1,5 @@
+following idiom:
+      if sys.platform.startswith('sunos'):
+          # SunOS-specific code here...
+   Changed in version 3.3: On Linux, "sys.platform" doesn't contain
+   the major version anymore. It is always "'linux'", instead of

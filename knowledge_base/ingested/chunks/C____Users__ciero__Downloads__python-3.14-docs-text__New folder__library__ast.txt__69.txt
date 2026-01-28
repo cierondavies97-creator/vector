@@ -1,0 +1,4 @@
+* 97 ("ord('a')"): "!a" "ASCII" formatting
+     * 114 ("ord('r')"): "!r" "repr()" formatting
+     * 115 ("ord('s')"): "!s" "string" formatting
+   * "format_spec" is a "JoinedStr" node representing the formatting

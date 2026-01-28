@@ -1,0 +1,5 @@
+==============================
+Python supports a variety of *abstract* 'protocols;' the specific
+interfaces provided to use these interfaces are documented in Abstract
+Objects Layer.
+A number of these abstract interfaces were defined early in the

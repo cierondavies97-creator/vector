@@ -1,0 +1,4 @@
+When a tuple is returned, it must be between two and six items
+   long. Optional items can either be omitted, or "None" can be
+   provided as their value.  The semantics of each item are in order:
+   * A callable object that will be called to create the initial

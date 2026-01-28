@@ -1,0 +1,5 @@
+Convert the color from HLS coordinates to RGB coordinates.
+colorsys.rgb_to_hsv(r, g, b)
+   Convert the color from RGB coordinates to HSV coordinates.
+colorsys.hsv_to_rgb(h, s, v)
+   Convert the color from HSV coordinates to RGB coordinates.

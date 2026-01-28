@@ -1,0 +1,7 @@
+class MyManager(BaseManager):
+       pass
+   MyManager.register('Maths', MathsClass)
+   if __name__ == '__main__':
+       with MyManager() as manager:
+           maths = manager.Maths()
+           print(maths.add(4, 3))         # prints 7

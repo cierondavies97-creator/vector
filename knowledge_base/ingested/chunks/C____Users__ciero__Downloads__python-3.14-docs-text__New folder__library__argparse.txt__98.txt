@@ -1,0 +1,4 @@
+Define how a single command-line argument should be parsed.  Each
+   parameter has its own more detailed description below, but in short
+   they are:
+   * name or flags - Either a name or a list of option strings, e.g.

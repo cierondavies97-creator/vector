@@ -1,0 +1,3 @@
+If *n* is positive, return at most *n* available "bytes" as soon
+      as at least 1 byte is available in the internal buffer. If EOF
+      is received before any byte is read, return an empty "bytes"

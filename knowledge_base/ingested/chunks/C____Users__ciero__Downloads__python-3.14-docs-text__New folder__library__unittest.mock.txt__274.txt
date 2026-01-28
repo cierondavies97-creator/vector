@@ -1,0 +1,12 @@
+...         print(value)
+   ...     def foo_two(self):
+   ...         print(value)
+   ...
+   >>>
+   >>> Thing().foo_one()
+   not three
+   >>> Thing().foo_two()
+   not three
+   >>> value
+   3
+Nesting Patch Decorators

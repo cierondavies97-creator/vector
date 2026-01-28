@@ -1,0 +1,5 @@
+| conjunction
+   conjunction[expr_ty] (memo):
+       | a=inversion b=('and' c=inversion { c })+ { _PyAST_BoolOp(
+           And,
+           CHECK(asdl_expr_seq*, _PyPegen_seq_insert_in_front(p, a, b)),

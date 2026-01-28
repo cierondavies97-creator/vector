@@ -1,0 +1,4 @@
+and HTTPS protocols.  It is normally not used directly --- the module
+"urllib.request" uses it to handle URLs that use HTTP and HTTPS.
+See also:
+  The Requests package is recommended for a higher-level HTTP client

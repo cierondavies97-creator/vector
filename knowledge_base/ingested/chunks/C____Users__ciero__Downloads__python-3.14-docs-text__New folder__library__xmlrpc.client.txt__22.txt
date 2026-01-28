@@ -1,0 +1,3 @@
+|                        | Arrays are returned as "lists".                         |
+   +------------------------+---------------------------------------------------------+
+   | "struct"               | "dict".  Keys must be strings, values may be any        |

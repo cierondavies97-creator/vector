@@ -1,0 +1,5 @@
+class, to turn a warning into an error we simply raise
+"category(message)".
+If a warning is reported and doesn't match any registered filter then
+the "default" action is applied (hence its name).
+Repeated Warning Suppression Criteria

@@ -1,0 +1,4 @@
+be called for each new frame.
+      All other compression calls may not write the size information
+      into the frame header.
+      "True" or "1" enable the content size flag while "False" or "0"

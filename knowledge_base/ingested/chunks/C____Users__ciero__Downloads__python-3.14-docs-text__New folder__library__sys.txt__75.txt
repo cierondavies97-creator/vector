@@ -1,0 +1,5 @@
+version number of Python, for example "3.2".
+   Note:
+     If a virtual environment is in effect, this "exec_prefix" will
+     point to the virtual environment. The value for the Python
+     installation will still be available, via "base_exec_prefix".

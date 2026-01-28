@@ -1,0 +1,4 @@
+-----------------------------------
+Before Python loads cached bytecode from a ".pyc" file, it checks
+whether the cache is up-to-date with the source ".py" file. By
+default, Python does this by storing the source's last-modified

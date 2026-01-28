@@ -1,0 +1,5 @@
+dictionaries.
+class ipaddress.IPv4Address(address)
+   Construct an IPv4 address.  An "AddressValueError" is raised if
+   *address* is not a valid IPv4 address.
+   The following constitutes a valid IPv4 address:

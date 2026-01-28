@@ -1,0 +1,7 @@
+can always convert a bytes object into a list of integers using
+"list(b)".
+Bytearray Objects
+-----------------
+"bytearray" objects are a mutable counterpart to "bytes" objects.
+class bytearray(source=b'')
+class bytearray(source, encoding, errors='strict')

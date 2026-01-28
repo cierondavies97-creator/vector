@@ -1,0 +1,4 @@
+*source* value is the file system path to the source file.  It does
+   not need to exist, however the PEP 3147/488 pyc file must exist.
+class test.support.import_helper.CleanImport(*module_names)
+   A context manager to force import to return a new module reference.

@@ -1,0 +1,3 @@
+an *abstract base class* that defines the features that are common to
+all policy objects, including "compat32".  This includes certain hook
+methods that are called internally by the email package, which a

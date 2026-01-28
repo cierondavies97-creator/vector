@@ -1,0 +1,4 @@
+*depth* is zero, returning the module at the top of the call stack.
+   Raises an auditing event "sys._getframemodulename" with argument
+   "depth".
+   **CPython implementation detail:** This function should be used for

@@ -1,0 +1,6 @@
+called on the parent mock:
+     >>> m = MagicMock()
+     >>> no_attribute = PropertyMock(side_effect=AttributeError)
+     >>> type(m).my_property = no_attribute
+     >>> m.my_property
+     <MagicMock name='mock.my_property' id='140165240345424'>

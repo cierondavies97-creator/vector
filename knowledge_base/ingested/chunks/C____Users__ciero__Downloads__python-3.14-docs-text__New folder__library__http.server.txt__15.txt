@@ -1,0 +1,4 @@
+POST). "BaseHTTPRequestHandler" provides a number of class and
+   instance variables, and methods for use by subclasses.
+   The handler will parse the request and the headers, then call a
+   method specific to the request type. The method name is constructed

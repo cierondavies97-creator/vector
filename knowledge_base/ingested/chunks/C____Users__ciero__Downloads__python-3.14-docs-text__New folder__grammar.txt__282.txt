@@ -1,0 +1,4 @@
+| [positional_patterns ','] keyword_patterns ',' a=positional_patterns { a }
+   invalid_if_stmt:
+       | 'if' named_expression NEWLINE { RAISE_SYNTAX_ERROR("expected ':'") }
+       | a='if' a=named_expression ':' NEWLINE !INDENT {

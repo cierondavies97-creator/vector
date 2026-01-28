@@ -1,0 +1,3 @@
+("_get_someValue()"), and "get" and "set" methods for "anotherValue"
+("_get_anotherValue()" and "_set_anotherValue()").  The mapping, in
+particular, does not require that the IDL attributes are accessible as

@@ -1,0 +1,6 @@
+attributes are set appropriately.
+types.EllipsisType
+   The type of "Ellipsis".
+   Added in version 3.10.
+class types.GenericAlias(t_origin, t_args)
+   The type of parameterized generics such as "list[int]".

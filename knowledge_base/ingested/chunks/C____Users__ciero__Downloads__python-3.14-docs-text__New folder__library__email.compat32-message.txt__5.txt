@@ -1,0 +1,4 @@
+their own set of headers and their own payload.  The latter type of
+payload is indicated by the message having a MIME type such as
+*multipart/** or *message/rfc822*.
+The conceptual model provided by a "Message" object is that of an

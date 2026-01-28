@@ -1,0 +1,3 @@
+to RFC 5424) pass the NUL byte on as part of the message.To
+      enable easier handling of syslog messages in the face of all
+      these differing daemon behaviours, the appending of the NUL byte

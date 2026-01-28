@@ -1,0 +1,4 @@
+API. Naturally, they are all only available on Linux.
+os.timerfd_create(clockid, /, *, flags=0)
+   Create and return a timer file descriptor (*timerfd*).
+   The file descriptor returned by "timerfd_create()" supports:

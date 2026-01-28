@@ -1,0 +1,5 @@
+"frame.clear()" method.
+The optional *context* argument supported by most of these functions
+specifies the number of lines of context to return, which are centered
+around the current line.
+inspect.getframeinfo(frame, context=1)

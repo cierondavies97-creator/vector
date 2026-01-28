@@ -1,0 +1,4 @@
+competing threads; however, they are not designed to handle reentrancy
+within a thread.
+In addition, the module implements a "simple" FIFO (first-in, first-
+out) queue type, "SimpleQueue", whose specific implementation provides

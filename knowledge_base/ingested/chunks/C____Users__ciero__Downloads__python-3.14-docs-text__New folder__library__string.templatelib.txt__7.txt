@@ -1,0 +1,7 @@
+>>> cheese = 'Camembert'
+   >>> template = t'Ah! We do have {cheese}.'
+   >>> template.strings
+   ('Ah! We do have ', '.')
+   >>> template.interpolations
+   (Interpolation('Camembert', ...),)
+   >>> template.values

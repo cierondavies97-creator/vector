@@ -1,0 +1,5 @@
+print(options.num)
+will print "42".
+If you don't specify a type, "optparse" assumes "string".  Combined
+with the fact that the default action is "store", that means our first
+example can be a lot shorter:

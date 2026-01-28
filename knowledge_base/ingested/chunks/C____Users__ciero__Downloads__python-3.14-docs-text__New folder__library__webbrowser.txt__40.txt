@@ -1,0 +1,4 @@
+support for opening browsers not currently set as the OS default.
+Added in version 3.3: Support for Chrome/Chromium has been added.
+Changed in version 3.12: Support for several obsolete browsers has
+been removed. Removed browsers include Grail, Mosaic, Netscape,

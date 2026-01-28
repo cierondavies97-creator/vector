@@ -1,0 +1,5 @@
+con = sqlite3.connect(":memory:")
+         con.create_aggregate("mysum", 1, MySum)
+         cur = con.execute("CREATE TABLE test(i)")
+         cur.execute("INSERT INTO test(i) VALUES(1)")
+         cur.execute("INSERT INTO test(i) VALUES(2)")

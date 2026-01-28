@@ -1,0 +1,4 @@
+Ordinarily, you get a message object structure by passing a file or
+some text to a parser, which parses the text and returns the root
+message object.  However you can also build a complete message
+structure from scratch, or even individual "Message" objects by hand.

@@ -1,0 +1,4 @@
+compression ratios. Smaller dictionaries lead to faster
+   compression, but reduce the compression ratio.
+compression.zstd.finalize_dict(zstd_dict, /, samples, dict_size, level)
+   An advanced function for converting a "raw content" Zstandard

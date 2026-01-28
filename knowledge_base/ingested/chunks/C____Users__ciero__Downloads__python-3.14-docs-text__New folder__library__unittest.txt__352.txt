@@ -1,0 +1,3 @@
+customization of the "TestLoader" is needed, this instance can be
+   used instead of repeatedly creating new instances.
+class unittest.TextTestRunner(stream=None, descriptions=True, verbosity=1, failfast=False, buffer=False, resultclass=None, warnings=None, *, tb_locals=False, durations=None)

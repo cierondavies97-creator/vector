@@ -1,0 +1,5 @@
+There is currently a single intrinsic mapping type:
+3.2.7.1. Dictionaries
+~~~~~~~~~~~~~~~~~~~~~
+These represent finite sets of objects indexed by nearly arbitrary
+values.  The only types of values not acceptable as keys are values

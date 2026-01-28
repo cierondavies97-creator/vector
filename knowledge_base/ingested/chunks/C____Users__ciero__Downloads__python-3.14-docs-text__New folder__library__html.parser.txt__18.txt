@@ -1,0 +1,4 @@
+"<div id="main">").
+   The *tag* argument is the name of the tag converted to lower case.
+   The *attrs* argument is a list of "(name, value)" pairs containing
+   the attributes found inside the tag's "<>" brackets.  The *name*

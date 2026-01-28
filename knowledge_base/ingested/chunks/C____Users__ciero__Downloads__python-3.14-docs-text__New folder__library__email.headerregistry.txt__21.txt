@@ -1,0 +1,5 @@
+contents of "kw" (and "args") passed to the "BaseHeader" "init"
+   method.
+class email.headerregistry.UnstructuredHeader
+   An "unstructured" header is the default type of header in **RFC
+   5322**. Any header that does not have a specified syntax is treated

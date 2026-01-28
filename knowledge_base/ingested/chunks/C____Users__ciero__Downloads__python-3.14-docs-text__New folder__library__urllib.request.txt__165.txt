@@ -1,0 +1,6 @@
+ProxyDigestAuthHandler.http_error_407(req, fp, code, msg, hdrs)
+   Retry the request with authentication information, if available.
+HTTPHandler Objects
+===================
+HTTPHandler.http_open(req)
+   Send an HTTP request, which can be either GET or POST, depending on

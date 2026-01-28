@@ -1,0 +1,10 @@
+▶ Use docstring conventions: PEP257 and/or numpy
+Nicola Chiapolini, 8 July 2024
+10 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Example Docstring

@@ -1,0 +1,4 @@
+otherwise empty lines. Comments can be indented.  When
+   *inline_comment_prefixes* is given, it will be used as the set of
+   substrings that prefix comments in non-empty lines.
+   When *strict* is "True" (the default), the parser won't allow for

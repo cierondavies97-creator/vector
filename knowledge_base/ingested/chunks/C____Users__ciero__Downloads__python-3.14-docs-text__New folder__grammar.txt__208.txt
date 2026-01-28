@@ -1,0 +1,4 @@
+| TYPE_COMMENT
+   # ========================= END OF THE GRAMMAR ===========================
+   # ========================= START OF INVALID RULES =======================
+   # From here on, there are rules for invalid syntax with specialised error messages

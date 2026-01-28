@@ -1,0 +1,8 @@
+and Eric Raymond.
+Functions
+=========
+The module "curses" defines the following exception:
+exception curses.error
+   Exception raised when a curses library function returns an error.
+Note:
+  Whenever *x* or *y* arguments to a function or a method are

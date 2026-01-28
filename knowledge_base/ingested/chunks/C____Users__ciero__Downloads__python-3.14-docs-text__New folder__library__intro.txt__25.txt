@@ -1,0 +1,5 @@
+**python** or **pip**. To add Python code to your mobile app, you
+  must use the Python embedding API. For more details, see Using
+  Python on Android and Using Python on iOS.
+* Subprocesses:
+  * On Android, creating subprocesses is possible but officially

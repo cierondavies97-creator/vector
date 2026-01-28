@@ -1,0 +1,6 @@
+* Creating files and directories
+    * Copying, moving and deleting
+    * Permissions and ownership
+  * Pattern language
+  * Comparison to the "glob" module
+  * Comparison to the "os" and "os.path" modules

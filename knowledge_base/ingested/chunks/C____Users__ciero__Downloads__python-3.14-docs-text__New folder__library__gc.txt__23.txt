@@ -1,0 +1,4 @@
+gc.get_referrers(*objs)
+   Return the list of objects that directly refer to any of objs. This
+   function will only locate those containers which support garbage
+   collection; extension types which do refer to other objects but do

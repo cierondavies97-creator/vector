@@ -1,0 +1,6 @@
+An immutable sequence providing access to the logical ancestors of
+   the path:
+      >>> p = PureWindowsPath('c:/foo/bar/setup.py')
+      >>> p.parents[0]
+      PureWindowsPath('c:/foo/bar')
+      >>> p.parents[1]

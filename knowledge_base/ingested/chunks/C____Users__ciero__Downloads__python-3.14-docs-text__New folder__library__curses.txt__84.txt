@@ -1,0 +1,4 @@
+any other color manipulation routine is called.  It is good
+   practice to call this routine right after "initscr()".
+   "start_color()" initializes eight basic colors (black, red,  green,
+   yellow, blue, magenta, cyan, and white), and two global variables

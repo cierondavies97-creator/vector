@@ -1,0 +1,3 @@
+The not-a-number values "float('NaN')" and "decimal.Decimal('NaN')"
+  are special.  Any ordered comparison of a number to a not-a-number
+  value is false. A counter-intuitive implication is that not-a-number

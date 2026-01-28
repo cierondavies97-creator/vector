@@ -1,0 +1,4 @@
+argument. When a user requests help (usually by using "-h" or "--help"
+at the command line), these "help" descriptions will be displayed with
+each argument.
+The "help" strings can include various format specifiers to avoid

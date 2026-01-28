@@ -1,0 +1,3 @@
+(the square root of "-1"), often written "i" in mathematics or "j"
+   in engineering.  Python has built-in support for complex numbers,
+   which are written with this latter notation; the imaginary part is

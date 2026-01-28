@@ -1,0 +1,5 @@
+channel as a list of DER-encoded bytes.
+   Added in version 3.13.
+SSLSocket.cipher()
+   Returns a three-value tuple containing the name of the cipher being
+   used, the version of the SSL protocol that defines its use, and the

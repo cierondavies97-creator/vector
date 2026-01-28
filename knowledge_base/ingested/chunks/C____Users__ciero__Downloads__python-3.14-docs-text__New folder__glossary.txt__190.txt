@@ -1,0 +1,4 @@
+and maintainability by making it clear which module implements a
+   function.  For instance, writing "random.seed()" or
+   "itertools.islice()" makes it clear that those functions are
+   implemented by the "random" and "itertools" modules, respectively.

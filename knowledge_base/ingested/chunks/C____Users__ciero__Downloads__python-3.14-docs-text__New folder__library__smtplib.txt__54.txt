@@ -1,0 +1,4 @@
+If optional keyword argument *initial_response_ok* is true,
+   "authobject()" will be called first with no argument.  It can
+   return the **RFC 4954** "initial response" ASCII "str" which will
+   be encoded and sent with the "AUTH" command as below.  If the

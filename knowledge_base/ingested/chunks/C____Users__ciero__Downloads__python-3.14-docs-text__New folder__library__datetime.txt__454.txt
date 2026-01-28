@@ -1,0 +1,5 @@
+hours, minutes and seconds.
+   "%Z"
+      In "strftime()", "%Z" is replaced by an empty string if
+      "tzname()" returns "None"; otherwise "%Z" is replaced by the
+      returned value, which must be a string.

@@ -1,0 +1,5 @@
+attributes between uses.
+   The "TextWrapper" instance attributes (and keyword arguments to the
+   constructor) are as follows:
+   width
+      (default: "70") The maximum length of wrapped lines.  As long as

@@ -1,0 +1,5 @@
+case, Python first tries to import "foo", then "foo.bar", and finally
+"foo.bar.baz". If any of the intermediate imports fail, a
+"ModuleNotFoundError" is raised.
+5.3.1. The module cache
+-----------------------

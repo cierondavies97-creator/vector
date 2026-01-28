@@ -1,0 +1,4 @@
+at full precision. This type is not widely supported by C
+   compilers: on a typical machine, an unsigned short can be used for
+   storage, but not for math operations. See the Wikipedia page on the
+   half-precision floating-point format for more information.

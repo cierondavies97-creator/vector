@@ -1,0 +1,4 @@
+Here the brackets after the function name indicate a generic
+   function.
+   For backwards compatibility, generic classes can also be declared
+   by explicitly inheriting from "Generic". In this case, the type

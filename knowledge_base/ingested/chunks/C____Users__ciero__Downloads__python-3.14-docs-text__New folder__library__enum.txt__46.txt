@@ -1,0 +1,5 @@
+...     MONDAY = 1, 'Mon'
+      "Weekday.__init__()" would be called as "Weekday.__init__(self,
+      1, 'Mon')"
+   __init_subclass__(cls, **kwds)
+      A *classmethod* that is used to further configure subsequent

@@ -1,0 +1,3 @@
+"str") that is being executed. The return value of the callback
+      is ignored. Note that the backend does not only run statements
+      passed to the "Cursor.execute()" methods.  Other sources include

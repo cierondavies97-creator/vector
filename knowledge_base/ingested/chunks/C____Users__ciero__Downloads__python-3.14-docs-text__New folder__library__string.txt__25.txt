@@ -1,0 +1,3 @@
+reference to the *args* and *kwargs* that was passed to vformat.
+      The set of unused args can be calculated from these parameters.
+      "check_unused_args()" is assumed to raise an exception if the

@@ -1,0 +1,4 @@
+Option's "take_action()" method and add a case that recognizes your
+action.
+For example, let's add an ""extend"" action.  This is similar to the
+standard ""append"" action, but instead of taking a single value from

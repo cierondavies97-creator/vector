@@ -1,0 +1,3 @@
+accessing the module globals (whether by code within the module, or
+  via a reference to the module's globals dictionary) is unaffected.
+Changed in version 3.5: "__class__" module attribute is now writable.

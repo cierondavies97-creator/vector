@@ -1,0 +1,5 @@
+incomplete until version 3.12.
+Multiple Interpreters and Isolation
+-----------------------------------
+A Python implementation may support using multiple interpreters in the
+same process.  CPython has this support.  Each interpreter is

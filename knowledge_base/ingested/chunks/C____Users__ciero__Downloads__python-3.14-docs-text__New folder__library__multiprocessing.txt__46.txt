@@ -1,0 +1,4 @@
+---------------------------------
+"multiprocessing" contains equivalents of all the synchronization
+primitives from "threading".  For instance one can use a lock to
+ensure that only one process prints to standard output at a time:

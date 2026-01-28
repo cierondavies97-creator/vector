@@ -1,0 +1,5 @@
+annotation=Name(id='bool', ctx=Load()),
+                  value=Constant(value=1),
+                  simple=1)],
+          type_ignores=[
+              TypeIgnore(lineno=1, tag='[assignment]')])

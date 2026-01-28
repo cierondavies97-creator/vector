@@ -1,0 +1,8 @@
+return balance - amount
+print(withdraw(50, 100))
+running: python3 withdraw.py
+Traceback (most recent call last):
+[...]
+assert balance > amount, "Balance too small"
+^^^^^^^^^^^^^^^^
+AssertionError: Balance too small

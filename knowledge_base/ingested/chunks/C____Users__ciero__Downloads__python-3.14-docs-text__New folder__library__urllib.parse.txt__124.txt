@@ -1,0 +1,5 @@
+*string* must be a "str".
+   Example: "unquote_plus('/El+Ni%C3%B1o/')" yields "'/El Niño/'".
+urllib.parse.unquote_to_bytes(string)
+   Replace "%*xx*" escapes with their single-octet equivalent, and
+   return a "bytes" object.

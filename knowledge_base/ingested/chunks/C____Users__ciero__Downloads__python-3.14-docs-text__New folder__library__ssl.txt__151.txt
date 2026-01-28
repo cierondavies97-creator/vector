@@ -1,0 +1,5 @@
+methods.
+SSLSocket.do_handshake(block=False)
+   Perform the SSL setup handshake.
+   If *block* is true and the timeout obtained by "gettimeout()" is
+   zero, the socket is set in blocking mode until the handshake is

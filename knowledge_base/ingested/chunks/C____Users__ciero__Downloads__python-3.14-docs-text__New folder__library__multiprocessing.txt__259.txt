@@ -1,0 +1,4 @@
+necessarily be "process-safe".
+   Note that *lock* is a keyword only argument.
+   Note that an array of "ctypes.c_char" has *value* and *raw*
+   attributes which allow one to use it to store and retrieve strings.

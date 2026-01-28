@@ -1,0 +1,4 @@
+generation of a serialized binary representation of a message object.
+For more detail, see "email.message".
+Because strings cannot represent binary data, the "Generator" class
+must convert any binary data in any message it flattens to an ASCII

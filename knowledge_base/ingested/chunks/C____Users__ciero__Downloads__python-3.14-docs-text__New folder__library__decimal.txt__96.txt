@@ -1,0 +1,5 @@
+>>> Decimal.from_float(float('-inf'))
+         Decimal('-Infinity')
+      Added in version 3.1.
+   classmethod from_number(number, /)
+      Alternative constructor that only accepts instances of "float",

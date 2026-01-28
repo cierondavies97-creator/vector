@@ -1,0 +1,6 @@
+will be used).
+API
+===
+The high-level method described above makes use of a simple API which
+provides mechanisms for third-party virtual environment creators to
+customize environment creation according to their needs, the

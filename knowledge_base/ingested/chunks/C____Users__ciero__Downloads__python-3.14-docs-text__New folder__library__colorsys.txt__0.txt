@@ -1,0 +1,5 @@
+"colorsys" --- Conversions between color systems
+************************************************
+**Source code:** Lib/colorsys.py
+======================================================================
+The "colorsys" module defines bidirectional conversions of color

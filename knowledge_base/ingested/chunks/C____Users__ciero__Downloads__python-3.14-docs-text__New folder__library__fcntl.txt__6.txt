@@ -1,0 +1,4 @@
+to check and modify a pipe's size respectively.
+Changed in version 3.11: On FreeBSD, the "fcntl" module exposes the
+"F_DUP2FD" and "F_DUP2FD_CLOEXEC" constants, which allow to duplicate
+a file descriptor, the latter setting "FD_CLOEXEC" flag in addition.

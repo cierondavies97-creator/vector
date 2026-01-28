@@ -1,0 +1,4 @@
+*slant* - ROMAN, ITALIC
+            *underline* - font underlining (0 - none, 1 - underline)
+            *overstrike* - font strikeout (0 - none, 1 - strikeout)
+   actual(option=None, displayof=None)

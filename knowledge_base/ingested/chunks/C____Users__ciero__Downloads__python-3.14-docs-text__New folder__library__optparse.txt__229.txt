@@ -1,0 +1,4 @@
+restores traditional Unix syntax, where option parsing stops with
+   the first non-option argument.
+   Use this if you have a command processor which runs another command
+   which has options of its own and you want to make sure these

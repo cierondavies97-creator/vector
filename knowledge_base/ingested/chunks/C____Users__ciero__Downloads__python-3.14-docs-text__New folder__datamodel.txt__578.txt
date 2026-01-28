@@ -1,0 +1,6 @@
+object.__round__(self[, ndigits])
+object.__trunc__(self)
+object.__floor__(self)
+object.__ceil__(self)
+   Called to implement the built-in function "round()" and "math"
+   functions "trunc()", "floor()" and "ceil()". Unless *ndigits* is

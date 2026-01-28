@@ -1,0 +1,5 @@
+All methods take a "SAXParseException" as the only parameter.  Errors
+and warnings may be converted to an exception by raising the passed-in
+exception object.
+ErrorHandler.error(exception)
+   Called when the parser encounters a recoverable error.  If this

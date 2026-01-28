@@ -1,0 +1,7 @@
+shared resource.
+   The preferred way to use a Lock is an "async with" statement:
+      lock = asyncio.Lock()
+      # ... later
+      async with lock:
+          # access shared state
+   which is equivalent to:

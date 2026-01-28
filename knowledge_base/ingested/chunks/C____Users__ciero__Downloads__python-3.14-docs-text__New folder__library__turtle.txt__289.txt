@@ -1,0 +1,5 @@
+turtle.write_docstringdict(filename='turtle_docstringdict')
+   Parameters:
+      **filename** -- a string, used as filename
+   Create and write docstring-dictionary to a Python script with the
+   given filename.  This function has to be called explicitly (it is

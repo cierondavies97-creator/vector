@@ -1,0 +1,4 @@
+framework name from the full import path of the module), with an
+   "Info.plist" file in the ".framework" directory identifying the
+   binary as a framework. The "foo.bar._whiz" module would be
+   represented in the original location with a

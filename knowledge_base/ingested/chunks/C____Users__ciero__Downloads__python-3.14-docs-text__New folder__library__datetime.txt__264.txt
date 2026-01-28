@@ -1,0 +1,7 @@
+time.microsecond
+   In "range(1000000)".
+time.tzinfo
+   The object passed as the tzinfo argument to the "time" constructor,
+   or "None" if none was passed.
+time.fold
+   In "[0, 1]". Used to disambiguate wall times during a repeated

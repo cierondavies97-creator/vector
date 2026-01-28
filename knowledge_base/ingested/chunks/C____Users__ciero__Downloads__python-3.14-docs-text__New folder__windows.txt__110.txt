@@ -1,0 +1,5 @@
+Dotted names should be nested inside JSON objects, for example,
+"list.format" would be specified as "{"list": {"format": "table"}}".
+4.1.9. Shebang lines
+--------------------
+If the first line of a script file starts with "#!", it is known as a

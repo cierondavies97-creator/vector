@@ -1,0 +1,4 @@
+"loop.create_future()".  This way alternative event loop
+   implementations can inject their own optimized implementations of a
+   Future object.
+   Changed in version 3.7: Added support for the "contextvars" module.

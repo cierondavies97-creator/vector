@@ -1,0 +1,5 @@
+to directly compare two tasks.
+Another solution to the problem of non-comparable tasks is to create a
+wrapper class that ignores the task item and only compares the
+priority field:
+   from dataclasses import dataclass, field

@@ -1,0 +1,5 @@
+connections are active).
+   close_clients()
+      Close all existing incoming client connections.
+      Calls "close()" on all associated transports.
+      "close()" should be called before "close_clients()" when closing

@@ -1,0 +1,4 @@
+be easiest to completely remove Python and start over.
+A zombie pythonw.exe process could be a problem.  On Windows, use Task
+Manager to check for one and stop it if there is.  Sometimes a restart
+initiated by a program crash or Keyboard Interrupt (control-C) may

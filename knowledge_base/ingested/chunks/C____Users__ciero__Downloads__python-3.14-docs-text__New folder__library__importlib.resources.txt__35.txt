@@ -1,0 +1,4 @@
+See the introduction for details on *anchor* and *path_names*.
+   This function is roughly equivalent to:
+      files(anchor).joinpath(*path_names).is_file()
+   Changed in version 3.13: Multiple *path_names* are accepted.

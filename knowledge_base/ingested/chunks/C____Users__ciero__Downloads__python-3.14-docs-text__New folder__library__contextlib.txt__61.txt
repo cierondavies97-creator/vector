@@ -1,0 +1,6 @@
+"ContextDecorator" lets you instead write:
+      @cm()
+      def f():
+          # Do stuff
+   It makes it clear that the "cm" applies to the whole function,
+   rather than just a piece of it (and saving an indentation level is

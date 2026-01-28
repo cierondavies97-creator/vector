@@ -1,0 +1,4 @@
+Binary file "/opt/python/python", at +0x32ac1b [0x5b27f7d82c1b]
+     Binary file "/opt/python/python", at Py_RunMain+0x31 [0x5b27f7d82ebe]
+     <truncated rest of calls>
+   Segmentation fault

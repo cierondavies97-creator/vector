@@ -1,0 +1,6 @@
+N_('python'), ]
+   # ...
+   for a in animals:
+       print(_(a))
+In this case, you are marking translatable strings with the function
+"N_()", which won't conflict with any definition of "_()". However,

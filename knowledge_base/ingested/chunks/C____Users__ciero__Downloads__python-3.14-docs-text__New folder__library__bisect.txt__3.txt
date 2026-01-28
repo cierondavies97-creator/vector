@@ -1,0 +1,5 @@
+"__eq__()" method to determine whether a value has been found.
+Instead, the functions only call the "__lt__()" method and will return
+an insertion point between values in an array.
+Note:
+  The functions in this module are not thread-safe. If multiple

@@ -1,0 +1,3 @@
+*timeout* as long as the lock can not be acquired.  Invocations
+      with a negative value for *timeout* are equivalent to a
+      *timeout* of zero.  Invocations with a *timeout* value of "None"

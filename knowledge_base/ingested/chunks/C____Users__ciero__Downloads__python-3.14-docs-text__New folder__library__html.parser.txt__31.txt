@@ -1,0 +1,5 @@
+implementation does nothing.
+   Note:
+     The "HTMLParser" class uses the SGML syntactic rules for
+     processing instructions.  An XHTML processing instruction using
+     the trailing "'?'" will cause the "'?'" to be included in *data*.

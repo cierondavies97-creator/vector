@@ -1,0 +1,7 @@
+sub-module are not listed.
+   See also the "sys.builtin_module_names" list.
+   Added in version 3.10.
+sys.thread_info
+   A *named tuple* holding information about the thread
+   implementation.
+   thread_info.name

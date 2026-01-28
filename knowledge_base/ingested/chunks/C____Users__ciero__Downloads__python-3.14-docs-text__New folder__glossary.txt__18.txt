@@ -1,0 +1,4 @@
+the body of the asynchronous generator function until the next
+   "yield" expression.
+   Each "yield" temporarily suspends processing, remembering the
+   execution state (including local variables and pending try-

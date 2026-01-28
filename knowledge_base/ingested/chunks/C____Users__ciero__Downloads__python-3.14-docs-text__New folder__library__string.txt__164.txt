@@ -1,0 +1,6 @@
+access is not enforced.
+Here is an example of how to use a Template:
+   >>> from string import Template
+   >>> s = Template('$who likes $what')
+   >>> s.substitute(who='tim', what='kung pao')
+   'tim likes kung pao'

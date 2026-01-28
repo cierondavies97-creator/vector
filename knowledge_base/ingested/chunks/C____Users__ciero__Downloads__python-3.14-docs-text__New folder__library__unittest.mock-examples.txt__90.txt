@@ -1,0 +1,5 @@
+attributes ("call_count" and friends) which may also be useful for
+your tests.
+An alternative way of dealing with mocking dates, or other builtin
+classes, is discussed in this blog entry.
+Mocking a Generator Method

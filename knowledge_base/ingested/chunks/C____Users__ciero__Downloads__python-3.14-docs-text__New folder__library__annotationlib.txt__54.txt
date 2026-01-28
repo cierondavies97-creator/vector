@@ -1,0 +1,5 @@
+...
+      NameError: name 'undefined' is not defined
+      >>> call_evaluate_function(Alias.evaluate_value, Format.FORWARDREF)
+      ForwardRef('undefined')
+      >>> call_evaluate_function(Alias.evaluate_value, Format.STRING)

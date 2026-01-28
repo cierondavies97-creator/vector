@@ -1,0 +1,3 @@
+"EmailMessage" class is embodied in the "Policy" class, so a custom
+parser can create message object trees any way it finds necessary by
+implementing custom versions of the appropriate "Policy" methods.

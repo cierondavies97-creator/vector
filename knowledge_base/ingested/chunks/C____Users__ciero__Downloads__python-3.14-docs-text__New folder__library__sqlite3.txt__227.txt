@@ -1,0 +1,4 @@
+arguments, a "Cursor" object and the "tuple" of row values, and
+      returns a custom object representing an SQLite row.
+      Defaults to what "Connection.row_factory" was set to when the
+      "Cursor" was created. Assigning to this attribute does not

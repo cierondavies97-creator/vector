@@ -1,0 +1,4 @@
+Detect never-retrieved exceptions
+=================================
+If a "Future.set_exception()" is called but the Future object is never
+awaited on, the exception would never be propagated to the user code.

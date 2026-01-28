@@ -1,0 +1,4 @@
+The recommended way of controlling transaction behaviour is through
+the "Connection.autocommit" attribute, which should preferably be set
+using the *autocommit* parameter of "connect()".
+It is suggested to set *autocommit* to "False", which implies **PEP

@@ -1,0 +1,3 @@
+byte sequence consists of two parts: marker bits (the most significant
+bits) and payload bits. The marker bits are a sequence of zero to four
+"1" bits followed by a "0" bit. Unicode characters are encoded like

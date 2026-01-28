@@ -1,0 +1,3 @@
+Because dataclasses just use normal Python class creation they also
+share this behavior.  There is no general way for Data Classes to
+detect this condition.  Instead, the "@dataclass" decorator will raise

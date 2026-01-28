@@ -1,0 +1,4 @@
+representation is the job of the generator classes.
+As with the "email.parser" module, you aren't limited to the
+functionality of the bundled generator; you could write one from
+scratch yourself.  However the bundled generator knows how to generate

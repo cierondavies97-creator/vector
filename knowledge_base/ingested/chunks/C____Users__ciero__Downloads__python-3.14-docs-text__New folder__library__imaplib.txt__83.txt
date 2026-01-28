@@ -1,0 +1,5 @@
+M.expunge()
+   Note:
+     Creating flags containing ']' (for example: "[test]") violates
+     **RFC 3501** (the IMAP protocol).  However, imaplib has
+     historically allowed creation of such tags, and popular IMAP

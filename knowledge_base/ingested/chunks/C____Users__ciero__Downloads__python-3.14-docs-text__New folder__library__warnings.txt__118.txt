@@ -1,0 +1,4 @@
+behavior is predictable in a multi-threaded program.  The flag
+defaults to true for free-threaded builds and false otherwise.
+If the "context_aware_warnings" flag is false, then "catch_warnings"
+will modify the global attributes of the "warnings" module.  This is

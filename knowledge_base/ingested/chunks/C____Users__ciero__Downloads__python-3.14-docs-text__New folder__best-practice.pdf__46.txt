@@ -1,0 +1,9 @@
+"int"; expected "str"
+[arg-type]
+Found 2 errors in 1 file (checked 1 source file)
+▶ spots both problems
+▶ must be run separately (ideally automatically)
+Nicola Chiapolini, 8 July 2024
+21 / 34
+Introduction
+Style & Documentation

@@ -1,0 +1,7 @@
+* All start methods
+    * The *spawn* and *forkserver* start methods
+  * Examples
+* "multiprocessing.shared_memory" --- Shared memory for direct access
+  across processes
+* The "concurrent" package
+* "concurrent.futures" --- Launching parallel tasks

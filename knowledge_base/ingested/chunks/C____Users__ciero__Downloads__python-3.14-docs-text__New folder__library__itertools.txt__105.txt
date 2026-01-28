@@ -1,0 +1,5 @@
+cycles[i] = n - i
+                  else:
+                      j = cycles[i]
+                      indices[i], indices[-j] = indices[-j], indices[i]
+                      yield tuple(pool[i] for i in indices[:r])

@@ -1,0 +1,3 @@
+underscore are deleted from their module before other globals
+       are deleted; if no other references to such globals exist, this
+       may help in assuring that imported modules are still available

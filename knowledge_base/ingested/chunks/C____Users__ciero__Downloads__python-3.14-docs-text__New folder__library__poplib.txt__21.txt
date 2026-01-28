@@ -1,0 +1,6 @@
+Note: the mailbox on the server is locked until "quit()" is called.
+POP3.apop(user, secret)
+   Use the more secure APOP authentication to log into the POP3
+   server.
+POP3.rpop(user)
+   Use RPOP authentication (similar to UNIX r-commands) to log into

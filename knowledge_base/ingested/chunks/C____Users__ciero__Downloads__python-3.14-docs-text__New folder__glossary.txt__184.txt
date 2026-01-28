@@ -1,0 +1,4 @@
+named attributes.  The type or class may have other features as
+   well.
+   Several built-in types are named tuples, including the values
+   returned by "time.localtime()" and "os.stat()".  Another example is

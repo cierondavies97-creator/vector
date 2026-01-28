@@ -1,0 +1,4 @@
+class typing.List(list, MutableSequence[T])
+   Deprecated alias to "list".
+   Note that to annotate arguments, it is preferred to use an abstract
+   collection type such as "Sequence" or "Iterable" rather than to use

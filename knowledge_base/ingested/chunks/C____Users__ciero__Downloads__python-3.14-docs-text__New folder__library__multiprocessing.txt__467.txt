@@ -1,0 +1,6 @@
+Remember also that non-daemonic processes will be joined
+   automatically.
+   An example which will deadlock is the following:
+      from multiprocessing import Process, Queue
+      def f(q):
+          q.put('X' * 1000000)

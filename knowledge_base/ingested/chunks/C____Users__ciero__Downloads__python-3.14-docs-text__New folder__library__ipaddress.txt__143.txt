@@ -1,0 +1,6 @@
+IPv4Address('192.0.2.1')
+   >>> ipaddress.v4_int_to_packed(3221225985)
+   b'\xc0\x00\x02\x01'
+ipaddress.v6_int_to_packed(address)
+   Represent an address as 16 packed bytes in network (big-endian)
+   order. *address* is an integer representation of an IPv6 IP

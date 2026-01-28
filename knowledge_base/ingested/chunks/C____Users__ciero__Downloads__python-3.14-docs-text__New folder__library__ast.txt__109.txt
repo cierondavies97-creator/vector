@@ -1,0 +1,4 @@
+class ast.Compare(left, ops, comparators)
+   A comparison of two or more values. "left" is the first value in
+   the comparison, "ops" the list of operators, and "comparators" the
+   list of values after the first element in the comparison.

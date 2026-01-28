@@ -1,0 +1,5 @@
+This option is only available with OpenSSL 1.1.1 and later.
+   Added in version 3.8.
+ssl.OP_NO_COMPRESSION
+   Disable compression on the SSL channel.  This is useful if the
+   application protocol supports its own compression scheme.

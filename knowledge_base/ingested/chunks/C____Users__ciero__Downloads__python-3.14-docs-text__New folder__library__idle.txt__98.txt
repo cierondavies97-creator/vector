@@ -1,0 +1,4 @@
+is present the file referenced is run.  If "IDLESTARTUP" is not
+present, IDLE checks for "PYTHONSTARTUP".  Files referenced by these
+environment variables are convenient places to store functions that
+are used frequently from the IDLE shell, or for executing import

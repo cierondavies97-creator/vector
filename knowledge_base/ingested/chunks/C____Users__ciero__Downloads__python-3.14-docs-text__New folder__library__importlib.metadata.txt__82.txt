@@ -1,0 +1,3 @@
+This basic implementation should provide metadata and entry points for
+packages served by the "DatabaseImporter", assuming that the "record"
+supplies suitable ".name", ".version", and ".entry_points" attributes.

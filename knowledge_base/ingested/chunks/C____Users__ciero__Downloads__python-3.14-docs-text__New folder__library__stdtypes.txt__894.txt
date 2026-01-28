@@ -1,0 +1,4 @@
+types that support them.
+If you access a method (a function defined in a class namespace)
+through an instance, you get a special object: a *bound method* (also
+called instance method) object. When called, it will add the "self"

@@ -1,0 +1,5 @@
+Availability: Windows
+   Changed in version 3.6: "SIO_LOOPBACK_FAST_PATH" was added.
+socket.listen([backlog])
+   Enable a server to accept connections.  If *backlog* is specified,
+   it must be at least 0 (if it is lower, it is set to 0); it

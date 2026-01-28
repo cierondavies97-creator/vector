@@ -1,0 +1,4 @@
+"pow(2, n)".
+4. Performing these calculations with at least one extra sign
+   extension bit in a finite two's complement representation (a
+   working bit-width of "1 + max(x.bit_length(), y.bit_length())" or

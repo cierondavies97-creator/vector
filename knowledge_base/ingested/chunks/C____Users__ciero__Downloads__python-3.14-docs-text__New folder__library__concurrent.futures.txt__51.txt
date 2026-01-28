@@ -1,0 +1,3 @@
+A "ThreadPoolExecutor" subclass that executes calls asynchronously
+   using a pool of at most *max_workers* threads.  Each thread runs
+   tasks in its own interpreter.  The worker interpreters are isolated

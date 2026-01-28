@@ -1,0 +1,5 @@
+if not fut.cancelled():
+             fut.set_result(42)
+   add_done_callback(callback, *, context=None)
+      Add a callback to be run when the Future is *done*.
+      The *callback* is called with the Future object as its only

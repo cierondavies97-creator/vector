@@ -1,0 +1,8 @@
+>>> util
+   PackagePath('wheel/util.py')
+   >>> util.size
+   859
+   >>> util.dist
+   <importlib.metadata._hooks.PathDistribution object at 0x101e0cef0>
+   >>> util.hash
+   <FileHash mode: sha256 value: bYkw5oMccfazVCoYQwKkkemoVyMAFoR34mmKBx8R1NI>

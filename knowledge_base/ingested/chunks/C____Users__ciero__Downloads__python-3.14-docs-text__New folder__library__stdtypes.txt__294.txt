@@ -1,0 +1,4 @@
+case, if *object* is a "bytes" (or "bytearray") object, then
+   "str(bytes, encoding, errors)" is equivalent to
+   "bytes.decode(encoding, errors)".  Otherwise, the bytes object
+   underlying the buffer object is obtained before calling

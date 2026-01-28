@@ -1,0 +1,5 @@
+interchangeable when generating events. Implementations will favor
+"STOP_ITERATION" for performance reasons, but may generate a "RAISE"
+event with a "StopIteration".
+Turning events on and off
+=========================

@@ -1,0 +1,9 @@
+...         return 0
+         ...
+         >>> c = Counter()
+         >>> c['red']
+         0
+         >>> c['red'] += 1
+         >>> c['red']
+         1
+      The example above shows part of the implementation of

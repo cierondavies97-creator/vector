@@ -1,0 +1,4 @@
+to be recognized separately.  This is initially a copy of the
+      global "suffix_map" defined in the module.
+   encodings_map
+      Dictionary mapping filename extensions to encoding types.  This

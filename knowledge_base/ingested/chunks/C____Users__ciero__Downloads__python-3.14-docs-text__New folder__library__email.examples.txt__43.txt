@@ -1,0 +1,4 @@
+# note that we needed to peel the <> off the msgid for use in the html.
+   # Now add the related image to the html part.
+   with open("roasted-asparagus.jpg", 'rb') as img:
+       msg.get_payload()[1].add_related(img.read(), 'image', 'jpeg',

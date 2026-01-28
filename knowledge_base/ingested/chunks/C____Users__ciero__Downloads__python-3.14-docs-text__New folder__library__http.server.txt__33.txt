@@ -1,0 +1,5 @@
+*longmessage* as the *explain* key.  It is used by
+      "send_response_only()" and "send_error()" methods.
+   A "BaseHTTPRequestHandler" instance has the following methods:
+   handle()
+      Calls "handle_one_request()" once (or, if persistent connections

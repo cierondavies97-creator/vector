@@ -1,0 +1,5 @@
+The number of threads required to pass the barrier.
+   n_waiting
+      The number of threads currently waiting in the barrier.
+   broken
+      A boolean that is "True" if the barrier is in the broken state.

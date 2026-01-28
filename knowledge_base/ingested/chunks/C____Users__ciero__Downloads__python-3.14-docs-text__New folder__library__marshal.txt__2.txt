@@ -1,0 +1,4 @@
+Details of the format are undocumented on purpose; it may change
+between Python versions (although it rarely does). [1]
+This is not a general "persistence" module.  For general persistence
+and transfer of Python objects through RPC calls, see the modules

@@ -1,0 +1,4 @@
+"termios" --- POSIX style tty control
+*************************************
+======================================================================
+This module provides an interface to the POSIX calls for tty I/O

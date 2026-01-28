@@ -1,0 +1,4 @@
+Join a *thread* within *timeout*.  Raise an "AssertionError" if
+   thread is still alive after *timeout* seconds.
+@test.support.threading_helper.reap_threads
+   Decorator to ensure the threads are cleaned up even if the test

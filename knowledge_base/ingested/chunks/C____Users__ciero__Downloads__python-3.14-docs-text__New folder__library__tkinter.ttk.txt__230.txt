@@ -1,0 +1,4 @@
+which is expected to be either "image", "from" or "vsapi". The
+      latter is only available in Tk 8.6 on Windows.
+      If "image" is used, *args* should contain the default image name
+      followed by statespec/value pairs (this is the imagespec), and

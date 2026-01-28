@@ -1,0 +1,6 @@
+operable program or batch file.
+The command:
+   py --list
+displays the currently installed version(s) of Python.
+The "-x.y" argument is the short form of the "-V:Company/Tag"
+argument, which allows selecting a specific Python runtime, including

@@ -1,0 +1,3 @@
+attributes on bound methods is disallowed.  Attempting to set an
+attribute on a method results in an "AttributeError" being raised.  In
+order to set a method attribute, you need to explicitly set it on the

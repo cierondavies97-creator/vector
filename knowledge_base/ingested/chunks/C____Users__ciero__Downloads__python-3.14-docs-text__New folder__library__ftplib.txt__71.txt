@@ -1,0 +1,4 @@
+Please read Security considerations for best practices.
+      * **timeout** (*float** | **None*) -- A timeout in seconds for
+        blocking operations like "connect()" (default: the global
+        default timeout setting).

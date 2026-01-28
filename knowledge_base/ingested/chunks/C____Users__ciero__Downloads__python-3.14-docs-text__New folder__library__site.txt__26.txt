@@ -1,0 +1,4 @@
+enable tab-completion and to use "~/.python_history" as the history
+save file.  To disable it, delete (or override) the
+"sys.__interactivehook__" attribute in your "sitecustomize" or
+"usercustomize" module or your "PYTHONSTARTUP" file.

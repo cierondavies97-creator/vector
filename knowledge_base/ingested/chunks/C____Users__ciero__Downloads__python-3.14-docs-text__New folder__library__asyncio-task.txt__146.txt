@@ -1,0 +1,4 @@
+# blocking_io complete at 19:50:54
+      # finished main at 19:50:54
+   Directly calling "blocking_io()" in any coroutine would block the
+   event loop for its duration, resulting in an additional 1 second of

@@ -1,0 +1,5 @@
+quoting removed.  If the address does not have a display name,
+      this attribute will be an empty string.
+   username
+      The "username" portion of the address, with all quoting removed.
+   domain

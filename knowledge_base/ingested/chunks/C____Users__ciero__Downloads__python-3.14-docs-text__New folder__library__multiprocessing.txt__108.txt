@@ -1,0 +1,5 @@
+interrupt()
+      Terminate the process. Works on POSIX using the "SIGINT" signal.
+      Behavior on Windows is undefined.
+      By default, this terminates the child process by raising
+      "KeyboardInterrupt". This behavior can be altered by setting the

@@ -1,0 +1,3 @@
+If *rx* is given, its "search" method is called on the complete
+   path to each file considered for compilation, and if it returns a
+   true value, the file is skipped. This can be used to exclude files

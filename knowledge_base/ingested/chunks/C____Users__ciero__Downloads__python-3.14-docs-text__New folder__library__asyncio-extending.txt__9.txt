@@ -1,0 +1,5 @@
+Register a new *task* as managed by *asyncio*.
+   Call the function from a task constructor.
+asyncio._unregister_task(task)
+   Unregister a *task* from *asyncio* internal structures.
+   The function should be called when a task is about to finish.

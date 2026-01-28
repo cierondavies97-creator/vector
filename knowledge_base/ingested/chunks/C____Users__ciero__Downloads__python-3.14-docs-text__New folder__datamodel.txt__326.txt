@@ -1,0 +1,3 @@
+syntax (such as arithmetic operations or subscripting and slicing) by
+defining methods with special names. This is Python's approach to
+*operator overloading*, allowing classes to define their own behavior

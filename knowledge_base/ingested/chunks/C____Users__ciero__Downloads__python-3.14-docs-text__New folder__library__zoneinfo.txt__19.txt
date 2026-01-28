@@ -1,0 +1,5 @@
+key in "sysconfig.get_config_var()".
+Environment configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~
+When initializing "TZPATH" (either at import time or whenever
+"reset_tzpath()" is called with no arguments), the "zoneinfo" module

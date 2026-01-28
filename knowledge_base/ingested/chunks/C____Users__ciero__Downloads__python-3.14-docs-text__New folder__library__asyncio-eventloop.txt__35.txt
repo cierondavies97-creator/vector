@@ -1,0 +1,5 @@
+# will schedule "print("Hello", flush=True)"
+     loop.call_soon(
+         functools.partial(print, "Hello", flush=True))
+  Using partial objects is usually more convenient than using lambdas,
+  as asyncio can render partial objects better in debug and error

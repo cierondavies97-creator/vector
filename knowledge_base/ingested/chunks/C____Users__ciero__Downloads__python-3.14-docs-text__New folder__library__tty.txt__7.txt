@@ -1,0 +1,3 @@
+"termios.tcsetattr()". The return value of "termios.tcgetattr()" is
+   saved before setting *fd* to cbreak mode; this value is returned.
+   This clears the "ECHO" and "ICANON" local mode flags as well as

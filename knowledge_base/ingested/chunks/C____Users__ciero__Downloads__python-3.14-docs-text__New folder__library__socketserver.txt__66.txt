@@ -1,0 +1,7 @@
+request.
+   setup()
+      Called before the "handle()" method to perform any
+      initialization actions required.  The default implementation
+      does nothing.
+   handle()
+      This function must do all the work required to service a

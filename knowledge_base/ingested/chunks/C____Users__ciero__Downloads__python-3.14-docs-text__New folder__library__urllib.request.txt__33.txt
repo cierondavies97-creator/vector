@@ -1,0 +1,4 @@
+or "localhost", then on Windows a UNC path is returned (as before),
+   and on other platforms a "URLError" is raised.
+   Changed in version 3.14: The URL query and fragment components are
+   discarded if present.

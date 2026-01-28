@@ -1,0 +1,3 @@
+or more PEM-encoded certificates or a *bytes-like object* of DER-
+   encoded certificates. Like with *capath* extra lines around PEM-
+   encoded certificates are ignored but at least one certificate must

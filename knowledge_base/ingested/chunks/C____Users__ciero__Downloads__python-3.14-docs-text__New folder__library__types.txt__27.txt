@@ -1,0 +1,5 @@
+The type of methods of some built-in data types and base classes
+   such as "object.__init__()" or "object.__lt__()".
+   Added in version 3.7.
+types.MethodWrapperType
+   The type of *bound* methods of some built-in data types and base

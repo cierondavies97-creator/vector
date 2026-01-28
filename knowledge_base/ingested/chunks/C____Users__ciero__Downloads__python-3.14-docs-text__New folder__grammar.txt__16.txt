@@ -1,0 +1,7 @@
+# &&e
+   #   Eager parse e. The parser will not backtrack and will immediately
+   #   fail with SyntaxError if e cannot be parsed.
+   #
+   # STARTING RULES
+   # ==============
+   file[mod_ty]: a=[statements] ENDMARKER { _PyPegen_make_module(p, a) }

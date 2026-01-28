@@ -1,0 +1,4 @@
+expected to exist in both the serializing and deserializing
+environments. It also means that no guarantees are made about the
+consistency of results when unpickling a "ZoneInfo" pickled in an
+environment with a different version of the time zone data.

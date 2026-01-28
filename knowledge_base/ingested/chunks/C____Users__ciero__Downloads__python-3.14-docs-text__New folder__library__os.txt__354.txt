@@ -1,0 +1,4 @@
+filesystems. Use "shutil.move()" to support moves to a different
+   filesystem.
+   On Unix, if *src* is a file and *dst* is a directory or vice-versa,
+   an "IsADirectoryError" or a "NotADirectoryError" will be raised

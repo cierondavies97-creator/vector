@@ -1,0 +1,4 @@
+prints only failures if false; by default, or if "None", it's true
+   if and only if "'-v'" is in "sys.argv".
+   Optional argument *report* prints a summary at the end when true,
+   else prints nothing at the end.  In verbose mode, the summary is

@@ -1,0 +1,5 @@
+instance.
+Path.replace(target)
+   Rename this file or directory to the given *target*, and return a
+   new "Path" instance pointing to *target*.  If *target* points to an
+   existing file or empty directory, it will be unconditionally

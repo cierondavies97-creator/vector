@@ -1,0 +1,4 @@
+false because the type is not the same).
+  * Collections that support order comparison are ordered the same as
+    their first unequal elements (for example, "[1,2,x] <= [1,2,y]"
+    has the same value as "x <= y").  If a corresponding element does

@@ -1,0 +1,4 @@
+passed to "__round__()" all these methods should return the value
+   of the object truncated to an "Integral" (typically an "int").
+   Changed in version 3.14: "int()" no longer delegates to the
+   "__trunc__()" method.

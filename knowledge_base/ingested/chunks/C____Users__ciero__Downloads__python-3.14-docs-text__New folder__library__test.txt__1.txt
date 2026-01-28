@@ -1,0 +1,4 @@
+of this package outside of Python's standard library is discouraged
+  as code mentioned here can change or be removed without notice
+  between releases of Python.
+======================================================================

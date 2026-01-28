@@ -1,0 +1,4 @@
+with the double underscores kept. The variants without the double
+underscores are preferred for clarity.
+The functions fall into categories that perform object comparisons,
+logical operations, mathematical operations and sequence operations.

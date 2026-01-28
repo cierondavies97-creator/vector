@@ -1,0 +1,6 @@
+'Isaac'
+      >>> m.group(2)       # The second parenthesized subgroup.
+      'Newton'
+      >>> m.group(1, 2)    # Multiple arguments give us a tuple.
+      ('Isaac', 'Newton')
+   If the regular expression uses the "(?P<name>...)" syntax, the

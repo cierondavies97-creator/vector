@@ -1,0 +1,4 @@
+what information to input. Return the string input. If the dialog
+   is canceled, return "None".
+      >>> screen.textinput("NIM", "Name of first player:")
+turtle.numinput(title, prompt, default=None, minval=None, maxval=None)

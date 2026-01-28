@@ -1,0 +1,4 @@
+Note that not all systems use the same symbol or same value to denote
+the same resource.  This module does not attempt to mask platform
+differences --- symbols not defined for a platform will not be
+available from this module on that platform.

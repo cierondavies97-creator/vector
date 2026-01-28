@@ -1,0 +1,5 @@
+compressed. Those subsequences that are expected to be most common
+   should come at the end of the dictionary.
+   Changed in version 3.3: Added the *zdict* parameter and keyword
+   argument support.
+zlib.crc32(data[, value])

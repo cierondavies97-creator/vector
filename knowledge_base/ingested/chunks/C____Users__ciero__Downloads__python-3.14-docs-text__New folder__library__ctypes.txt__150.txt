@@ -1,0 +1,4 @@
+and written to across multiple threads, but only if "pointer_b" is not
+also attempting to do the same. If this is an issue, consider using a
+"threading.Lock" to synchronize access to memory:
+      >>> import threading

@@ -1,0 +1,3 @@
+normally be the expected behavior by code that replaces an installed
+handler and delegates to it. For individual tests that need "unittest"
+control-c handling disabled the "removeHandler()" decorator can be

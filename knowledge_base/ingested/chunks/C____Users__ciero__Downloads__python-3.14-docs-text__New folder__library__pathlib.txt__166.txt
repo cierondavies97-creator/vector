@@ -1,0 +1,7 @@
+[PosixPath('build/lib/pathlib.py'),
+       PosixPath('docs/conf.py'),
+       PosixPath('pathlib.py'),
+       PosixPath('setup.py'),
+       PosixPath('test_pathlib.py')]
+   Note:
+     The paths are returned in no particular order. If you need a

@@ -1,0 +1,5 @@
+"split()".
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.exists(path)
+   Return "True" if *path* refers to an existing path or an open file
+   descriptor.  Returns "False" for broken symbolic links.  On some

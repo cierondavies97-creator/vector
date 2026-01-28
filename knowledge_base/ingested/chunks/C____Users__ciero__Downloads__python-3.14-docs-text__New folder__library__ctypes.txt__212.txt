@@ -1,0 +1,4 @@
+version number (this is the form used for the posix linker option
+   "-l").  If no library can be found, returns "None".
+The exact functionality is system dependent.
+On Linux, "find_library()" tries to run external programs

@@ -1,0 +1,3 @@
+character?  We did this by creating a "Header" instance and passing in
+the character set that the byte string was encoded in.  When the
+subsequent "Message" instance was flattened, the *Subject* field was

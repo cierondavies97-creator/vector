@@ -1,0 +1,4 @@
+*service_pack_major*, *suite_mask*, *product_type* and
+   *platform_version*. *service_pack* contains a string,
+   *platform_version* a 3-tuple and all other values are integers. The
+   components can also be accessed by name, so

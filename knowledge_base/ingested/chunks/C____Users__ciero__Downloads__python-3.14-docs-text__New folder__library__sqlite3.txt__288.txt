@@ -1,0 +1,5 @@
+print(cur.fetchone()[0])
+   con.close()
+How to convert SQLite values to custom Python types
+---------------------------------------------------
+Writing an adapter lets you convert *from* custom Python types *to*

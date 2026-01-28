@@ -1,0 +1,5 @@
+metrics(*options, **kw)
+      Return font-specific data. Options include:
+      *ascent* - distance between baseline and highest point that a
+         character of the font can occupy
+      *descent* - distance between baseline and lowest point that a

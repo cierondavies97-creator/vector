@@ -1,0 +1,4 @@
+retries the system call instead of raising an "InterruptedError"
+   exception (see **PEP 475** for the rationale).
+os.readinto(fd, buffer, /)
+   Read from a file descriptor *fd* into a mutable buffer object

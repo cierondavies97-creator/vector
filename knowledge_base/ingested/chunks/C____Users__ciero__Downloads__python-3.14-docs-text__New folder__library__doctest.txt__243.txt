@@ -1,0 +1,4 @@
+results using the writer function *out*. Return a "TestResults"
+      instance.
+      The examples are run in the namespace "test.globs".  If
+      *clear_globs* is true (the default), then this namespace will be

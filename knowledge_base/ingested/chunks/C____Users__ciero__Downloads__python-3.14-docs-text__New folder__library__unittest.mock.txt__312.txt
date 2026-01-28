@@ -1,0 +1,7 @@
+>>> mock == 3
+   True
+The return value of "MagicMock.__iter__()" can be any iterable object
+and isn't required to be an iterator:
+>>> mock = MagicMock()
+>>> mock.__iter__.return_value = ['a', 'b', 'c']
+>>> list(mock)

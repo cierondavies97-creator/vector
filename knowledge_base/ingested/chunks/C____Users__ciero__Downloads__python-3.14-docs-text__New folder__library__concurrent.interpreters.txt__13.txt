@@ -1,0 +1,5 @@
+Running in an Interpreter
+-------------------------
+Running in a different interpreter involves switching to it in the
+current thread and then calling some function.  The runtime will
+execute the function using the current interpreter's state.  The

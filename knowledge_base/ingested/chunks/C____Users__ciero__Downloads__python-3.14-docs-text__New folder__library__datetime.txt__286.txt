@@ -1,0 +1,5 @@
+* "'microseconds'": Include full time in "HH:MM:SS.ffffff" format.
+   Note:
+     Excluded time components are truncated, not rounded.
+   "ValueError" will be raised on an invalid *timespec* argument.
+   Example:

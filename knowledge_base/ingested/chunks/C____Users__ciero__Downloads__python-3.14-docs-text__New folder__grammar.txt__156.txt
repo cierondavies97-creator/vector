@@ -1,0 +1,3 @@
+_PyPegen_make_arguments(p, NULL, NULL, a, b, c) }
+       | a=lambda_param_with_default+ b=[lambda_star_etc] { _PyPegen_make_arguments(p, NULL, NULL, NULL, a, b)}
+       | a=lambda_star_etc { _PyPegen_make_arguments(p, NULL, NULL, NULL, NULL, a) }

@@ -1,0 +1,3 @@
+asks for a single byte, buffered I/O hides any inefficiency in calling
+and executing the operating system's unbuffered I/O routines.  The
+gain depends on the OS and the kind of I/O which is performed.  For

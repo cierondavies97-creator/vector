@@ -1,0 +1,5 @@
+>>> bytes(shm_a.buf[:5])      # Access via shm_a
+   b'howdy'
+   >>> shm_b.close()   # Close each SharedMemory instance
+   >>> shm_a.close()
+   >>> shm_a.unlink()  # Call unlink only once to release the shared memory

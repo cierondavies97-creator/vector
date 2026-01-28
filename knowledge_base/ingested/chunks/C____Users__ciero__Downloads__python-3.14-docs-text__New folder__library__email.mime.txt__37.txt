@@ -1,0 +1,4 @@
+ascii" if the string contains only "ascii" code points, and "utf-8"
+   otherwise.  The *_charset* parameter accepts either a string or a
+   "Charset" instance.
+   Unless the *_charset* argument is explicitly set to "None", the

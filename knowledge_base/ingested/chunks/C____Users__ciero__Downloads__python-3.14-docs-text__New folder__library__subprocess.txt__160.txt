@@ -1,0 +1,5 @@
+the standard output handle for the process. Otherwise, this
+      attribute is ignored and the default for standard output is the
+      console window's buffer.
+   hStdError
+      If "dwFlags" specifies "STARTF_USESTDHANDLES", this attribute is

@@ -1,0 +1,5 @@
+Changed in version 3.12: Added *loop_factory* parameter.
+   Changed in version 3.14: *coro* can be any awaitable object.
+   Note:
+     The "asyncio" policy system is deprecated and will be removed in
+     Python 3.16; from there on, an explicit *loop_factory* is needed

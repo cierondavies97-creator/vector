@@ -1,0 +1,5 @@
+whoever provided Python to you). If you are the distributor, see
+Requirements for optional modules.
+exception lzma.LZMAError
+   This exception is raised when an error occurs during compression or
+   decompression, or while initializing the compressor/decompressor

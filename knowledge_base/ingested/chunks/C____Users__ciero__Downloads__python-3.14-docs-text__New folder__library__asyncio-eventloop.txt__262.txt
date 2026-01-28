@@ -1,0 +1,6 @@
+rsock, wsock = socketpair()
+   loop = asyncio.new_event_loop()
+   def reader():
+       data = rsock.recv(100)
+       print("Received:", data.decode())
+       # We are done: unregister the file descriptor

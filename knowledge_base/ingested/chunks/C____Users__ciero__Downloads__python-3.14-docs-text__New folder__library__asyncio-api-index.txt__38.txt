@@ -1,0 +1,3 @@
+Threading-like synchronization primitives that can be used in Tasks.
++----------------------------------------------------+----------------------------------------------------+
+| "Lock"                                             | A mutex lock.                                      |

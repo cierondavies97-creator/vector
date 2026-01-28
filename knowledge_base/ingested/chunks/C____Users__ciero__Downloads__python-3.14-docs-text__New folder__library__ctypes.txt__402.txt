@@ -1,0 +1,5 @@
+ctypes data type.
+      For integer type fields like "c_int", a third optional item can
+      be given.  It must be a small positive integer defining the bit
+      width of the field.
+      Field names must be unique within one structure or union.  This

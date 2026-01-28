@@ -1,0 +1,5 @@
+bindsocket = socket.socket()
+   bindsocket.bind(('myaddr.example.com', 10023))
+   bindsocket.listen(5)
+When a client connects, you'll call "accept()" on the socket to get
+the new socket from the other end, and use the context's

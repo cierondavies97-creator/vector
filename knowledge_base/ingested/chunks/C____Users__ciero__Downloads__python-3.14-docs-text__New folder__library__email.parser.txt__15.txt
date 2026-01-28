@@ -1,0 +1,4 @@
+the *policy*.  Call *_factory* whenever a new message object is
+   needed.
+   If *policy* is specified use the rules it specifies to update the
+   representation of the message.  If *policy* is not set, use the

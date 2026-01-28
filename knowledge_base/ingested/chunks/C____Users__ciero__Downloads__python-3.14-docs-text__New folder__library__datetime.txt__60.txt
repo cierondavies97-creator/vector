@@ -1,0 +1,4 @@
+In addition to the operations listed above, "timedelta" objects
+support certain additions and subtractions with "date" and "datetime"
+objects (see below).
+Changed in version 3.2: Floor division and true division of a

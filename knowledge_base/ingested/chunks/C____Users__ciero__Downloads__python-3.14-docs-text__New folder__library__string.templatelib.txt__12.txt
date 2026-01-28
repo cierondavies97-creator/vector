@@ -1,0 +1,10 @@
+>>> t''.strings
+      ('',)
+      >>> t''.values
+      ()
+      >>> t'{'cheese'}'.strings
+      ('', '')
+      >>> t'{'cheese'}'.values
+      ('cheese',)
+   interpolations: tuple[Interpolation, ...]
+      A "tuple" of the interpolations in the template.

@@ -1,0 +1,6 @@
+end_col_offset
+   Added in version 3.11.
+The Python compiler currently generates the following bytecode
+instructions.
+**General instructions**
+In the following, We will refer to the interpreter stack as "STACK"

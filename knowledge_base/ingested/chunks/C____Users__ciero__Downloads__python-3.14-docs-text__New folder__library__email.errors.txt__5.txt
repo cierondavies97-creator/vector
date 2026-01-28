@@ -1,0 +1,5 @@
+be a continuation line that has no leading whitespace and looks
+   like a header).
+exception email.errors.BoundaryError
+   Deprecated and no longer used.
+exception email.errors.MultipartConversionError

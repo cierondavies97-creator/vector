@@ -1,0 +1,4 @@
+>>> Book.id.__doc__ = '13-digit ISBN'
+>>> Book.title.__doc__ = 'Title of first printing'
+>>> Book.authors.__doc__ = 'List of authors sorted by last name'
+Changed in version 3.5: Property docstrings became writeable.

@@ -1,0 +1,6 @@
+to "None".
+   Added in version 3.2.
+logging.raiseExceptions
+   Used to see if exceptions during handling should be propagated.
+   Default: "True".
+   If "raiseExceptions" is "False", exceptions get silently ignored.

@@ -1,0 +1,5 @@
+>>>
+   >>> windll.msvcrt.printf(b"spam")
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   ValueError: Procedure probably called with too many arguments (4 bytes in excess)

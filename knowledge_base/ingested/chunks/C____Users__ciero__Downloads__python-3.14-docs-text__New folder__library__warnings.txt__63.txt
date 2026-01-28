@@ -1,0 +1,5 @@
+not be aware of its use of deprecated code.
+   Note:
+     See Concurrent safety of Context Managers for details on the
+     concurrency-safety of the "catch_warnings" context manager when
+     used in programs using multiple threads or async functions.

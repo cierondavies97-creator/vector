@@ -1,0 +1,4 @@
+checks occurred. However, this behaviour ensures that the "py" command
+can be used interchangeably.
+When you launch either "python" or "py" but do not have any runtimes
+installed, and the requested version is the default, it will be

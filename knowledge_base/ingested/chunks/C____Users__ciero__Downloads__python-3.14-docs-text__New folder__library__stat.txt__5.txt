@@ -1,0 +1,7 @@
+Added in version 3.4.
+stat.S_ISPORT(mode)
+   Return non-zero if the mode is from an event port.
+   Added in version 3.4.
+stat.S_ISWHT(mode)
+   Return non-zero if the mode is from a whiteout.
+   Added in version 3.4.

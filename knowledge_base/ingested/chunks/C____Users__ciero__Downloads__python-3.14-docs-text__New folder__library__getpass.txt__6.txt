@@ -1,0 +1,5 @@
+itself.
+   Note:
+     On Unix systems, when *echo_char* is set, the terminal will be
+     configured to operate in *noncanonical mode*. In particular, this
+     means that line editing shortcuts such as "Ctrl"+"U" will not

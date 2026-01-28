@@ -1,0 +1,4 @@
+detailed information about supported parameters. The *level*
+   argument is the compression level to use when writing compressed
+   data. Only one of *level* or *options* may be non-None. The
+   *zstd_dict* argument is a "ZstdDict" instance to be used during

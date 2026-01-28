@@ -1,0 +1,5 @@
+returned.
+   Use "open()" to open Python source files: it uses
+   "detect_encoding()" to detect the file encoding.
+tokenize.open(filename)
+   Open a file in read only mode using the encoding detected by

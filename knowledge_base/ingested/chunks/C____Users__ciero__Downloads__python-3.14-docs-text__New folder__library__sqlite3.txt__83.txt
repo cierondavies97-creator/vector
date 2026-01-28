@@ -1,0 +1,5 @@
+creating "Cursor" objects, and Transaction control.
+   See also:
+     * How to use connection shortcut methods
+     * How to use the connection context manager
+   Changed in version 3.13: A "ResourceWarning" is emitted if

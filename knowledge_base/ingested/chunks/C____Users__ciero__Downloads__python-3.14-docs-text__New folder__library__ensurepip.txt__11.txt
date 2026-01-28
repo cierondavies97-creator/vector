@@ -1,0 +1,4 @@
+permitted inside an active virtual environment).
+By default, the scripts "pipX" and "pipX.Y" will be installed (where
+X.Y stands for the version of Python used to invoke "ensurepip"). The
+scripts installed can be controlled through two additional command

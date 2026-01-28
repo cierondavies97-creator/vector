@@ -1,0 +1,4 @@
+>>> h3 = http.client.HTTPConnection('www.python.org', 80)
+      >>> h4 = http.client.HTTPConnection('www.python.org', 80, timeout=10)
+   Changed in version 3.2: *source_address* was added.
+   Changed in version 3.4: The  *strict* parameter was removed. HTTP

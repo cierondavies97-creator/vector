@@ -1,0 +1,4 @@
+string. General category names consist of two letters. See the
+   General Category Values section of the Unicode Character Database
+   documentation for a list of category codes. For example:
+      >>> unicodedata.category('A')  # 'L'etter, 'u'ppercase

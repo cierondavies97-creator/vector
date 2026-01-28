@@ -1,0 +1,6 @@
+CHECK_VERSION(
+               excepthandler_ty,
+               14,
+               "except expressions without parentheses are",
+               _PyAST_ExceptHandler(e,  NULL, b, EXTRA)) }
+       | invalid_except_star_stmt

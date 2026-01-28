@@ -1,0 +1,4 @@
+Changed in version 3.13: Raises "UnsupportedOperation" on non-
+   Windows platforms. In previous versions, "NotImplementedError" was
+   raised instead.
+You can only instantiate the class flavour that corresponds to your

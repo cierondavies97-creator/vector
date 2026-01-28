@@ -1,0 +1,4 @@
+CHECK_NULL_ALLOWED(asdl_keyword_seq*, _PyPegen_seq_delete_starred_exprs(p, a)),
+                             EXTRA) }
+   kwargs[asdl_seq*]:
+       | a=','.kwarg_or_starred+ ',' b=','.kwarg_or_double_starred+ { _PyPegen_join_sequences(p, a, b) }

@@ -1,0 +1,4 @@
+are as for "Formatter", thus this key is most useful for
+  instantiating a customised subclass of "Formatter".  For example,
+  the alternative class might present exception tracebacks in an
+  expanded or condensed format.  If your formatter requires different

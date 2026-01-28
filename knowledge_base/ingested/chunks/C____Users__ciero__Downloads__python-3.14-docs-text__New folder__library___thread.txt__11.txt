@@ -1,0 +1,6 @@
+emit the signal, use "signal.raise_signal()".
+_thread.exit()
+   Raise the "SystemExit" exception.  When not caught, this will cause
+   the thread to exit silently.
+_thread.allocate_lock()
+   Return a new lock object.  Methods of locks are described below.

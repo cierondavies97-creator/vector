@@ -1,0 +1,5 @@
+invalid_parameters_helper: # This is only there to avoid type errors
+       | a=slash_with_default { _PyPegen_singleton_seq(p, a) }
+       | param_with_default+
+   invalid_lambda_parameters:
+       | a="/" ',' {

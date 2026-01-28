@@ -1,0 +1,4 @@
+"datetime" will be a naive "datetime".  If a specific timezone
+      offset is found (including "+0000"), then "datetime" will
+      contain an aware "datetime" that uses "datetime.timezone" to
+      record the timezone offset.

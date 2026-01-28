@@ -1,0 +1,6 @@
+object.__int__(self)
+object.__float__(self)
+   Called to implement the built-in functions "complex()", "int()" and
+   "float()".  Should return a value of the appropriate type.
+object.__index__(self)
+   Called to implement "operator.index()", and whenever Python needs

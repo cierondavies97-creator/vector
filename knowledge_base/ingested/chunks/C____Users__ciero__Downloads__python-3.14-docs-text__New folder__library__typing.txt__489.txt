@@ -1,0 +1,8 @@
+b: int
+      is_protocol(P)    # => True
+      is_protocol(int)  # => False
+   Added in version 3.13.
+typing.is_typeddict(tp)
+   Check if a type is a "TypedDict".
+   For example:
+      class Film(TypedDict):

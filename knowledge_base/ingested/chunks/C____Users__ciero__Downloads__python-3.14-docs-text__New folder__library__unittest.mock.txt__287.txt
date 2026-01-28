@@ -1,0 +1,6 @@
+objects that proxy attribute access, like the django settings object.
+MagicMock and magic method support
+==================================
+Mocking Magic Methods
+---------------------
+"Mock" supports mocking the Python protocol methods, also known as

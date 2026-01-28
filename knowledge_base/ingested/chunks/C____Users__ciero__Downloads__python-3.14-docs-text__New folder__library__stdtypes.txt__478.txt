@@ -1,0 +1,5 @@
++--------------+-------------------------------------------------------+---------+
+Notes:
+1. The alternate form causes a leading octal specifier ("'0o'") to be
+   inserted before the first digit.
+2. The alternate form causes a leading "'0x'" or "'0X'" (depending on

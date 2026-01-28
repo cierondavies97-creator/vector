@@ -1,0 +1,5 @@
+intended for use by untrusted clients and may be vulnerable to
+  exploitation. Always use within a secure environment.
+--tls-cert
+   Specifies a TLS certificate chain for HTTPS connections:
+      python -m http.server --tls-cert fullchain.pem

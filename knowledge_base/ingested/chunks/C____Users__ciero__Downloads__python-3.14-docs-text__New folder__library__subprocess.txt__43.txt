@@ -1,0 +1,4 @@
+indicates that the special file "os.devnull" will be used.
+   Additionally, *stderr* can be "STDOUT", which indicates that the
+   stderr data from the child process should be captured into the same
+   file handle as for *stdout*.

@@ -1,0 +1,4 @@
+custom "contextvars.Context" for the *callback* to run in. The
+      current context is used when no *context* is provided.
+      "functools.partial()" can be used to pass parameters to the
+      callback, e.g.:

@@ -1,0 +1,5 @@
+For all other token types "exact_type" equals the named tuple
+   "type" field.
+   Changed in version 3.1: Added support for named tuples.
+   Changed in version 3.3: Added support for "exact_type".
+   "tokenize()" determines the source encoding of the file by looking

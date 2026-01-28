@@ -1,0 +1,3 @@
+without the methods added by that class, and with the default behavior
+of certain other methods being slightly different.  We also document
+here some methods that, while supported by the "EmailMessage" class,

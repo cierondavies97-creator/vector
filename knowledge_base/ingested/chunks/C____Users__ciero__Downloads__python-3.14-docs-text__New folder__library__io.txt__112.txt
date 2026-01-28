@@ -1,0 +1,7 @@
+>>> b = io.BytesIO(b"abcdef")
+         >>> view = b.getbuffer()
+         >>> view[2:4] = b"56"
+         >>> b.getvalue()
+         b'ab56ef'
+      Note:
+        As long as the view exists, the "BytesIO" object cannot be

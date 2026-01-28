@@ -1,0 +1,8 @@
+* "email.iterators": Iterators
+See also:
+  Module "smtplib"
+     SMTP (Simple Mail Transport Protocol) client
+  Module "poplib"
+     POP (Post Office Protocol) client
+  Module "imaplib"
+     IMAP (Internet Message Access Protocol) client

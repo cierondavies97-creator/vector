@@ -1,0 +1,4 @@
+'blue'), ('pressed', 'red')]" in the foreground option, for
+      example, the result would be a blue foreground when the widget
+      were in active or pressed states.
+   lookup(style, option, state=None, default=None)

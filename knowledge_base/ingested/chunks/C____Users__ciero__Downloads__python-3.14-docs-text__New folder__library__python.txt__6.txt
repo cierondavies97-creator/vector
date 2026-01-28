@@ -1,0 +1,8 @@
+* Idiomatic Usage
+  * "import __main__"
+* "warnings" --- Warning control
+  * Warning Categories
+  * The Warnings Filter
+    * Repeated Warning Suppression Criteria
+    * Describing Warning Filters
+    * Default Warning Filter

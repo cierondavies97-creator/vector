@@ -1,0 +1,4 @@
+messages are **not** propagated to handlers up the hierarchy. The
+"qualname" entry is the hierarchical channel name of the logger, that
+is to say the name used by the application to get the logger.
+Sections which specify handler configuration are exemplified by the

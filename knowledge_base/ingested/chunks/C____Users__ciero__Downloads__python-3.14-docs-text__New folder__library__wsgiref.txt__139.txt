@@ -1,0 +1,5 @@
+optional directory and port number (default: 8000) on the command
+line:
+   """
+   Small wsgiref based web server. Takes a path to serve from and an
+   optional port number (defaults to 8000), then tries to serve files.

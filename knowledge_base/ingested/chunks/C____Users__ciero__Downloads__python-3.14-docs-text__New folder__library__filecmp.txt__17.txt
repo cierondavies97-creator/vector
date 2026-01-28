@@ -1,0 +1,8 @@
+right_only
+      Files and subdirectories only in *b*.
+   common_dirs
+      Subdirectories in both *a* and *b*.
+   common_files
+      Files in both *a* and *b*.
+   common_funny
+      Names in both *a* and *b*, such that the type differs between

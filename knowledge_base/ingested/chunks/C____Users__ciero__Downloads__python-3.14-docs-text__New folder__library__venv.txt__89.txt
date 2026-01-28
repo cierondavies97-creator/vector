@@ -1,0 +1,4 @@
+created virtual environment.
+       :param nopip: If true, pip is not installed into the created
+                     virtual environment.
+       :param progress: If setuptools or pip are installed, the progress of the

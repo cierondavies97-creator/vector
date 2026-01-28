@@ -1,0 +1,4 @@
+have the same meaning as the corresponding arguments to
+   "print_exception()".  The return value is a list of strings, each
+   ending in a newline and some containing internal newlines.  When
+   these lines are concatenated and printed, exactly the same text is

@@ -1,0 +1,5 @@
+# Structured block affected by the timeout:
+                     await make_request()
+                     await make_another_request()
+             except TimeoutError:
+                 log("There was a timeout")

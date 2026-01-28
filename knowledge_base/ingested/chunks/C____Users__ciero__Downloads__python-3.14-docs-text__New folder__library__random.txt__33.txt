@@ -1,0 +1,4 @@
+by "choice()" defaults to integer arithmetic with repeated
+   selections to avoid small biases from round-off error.
+   Added in version 3.6.
+   Changed in version 3.9: Raises a "ValueError" if all weights are

@@ -1,0 +1,6 @@
+('pure' Python).
+* *include*: directory for non-platform-specific header files for the
+  Python C-API.
+* *platinclude*: directory for platform-specific header files for the
+  Python C-API.
+* *scripts*: directory for script files.

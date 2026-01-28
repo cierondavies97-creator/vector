@@ -1,0 +1,5 @@
+compressed stream, and an incomplete or truncated one.
+   Added in version 3.3.
+Decompress.decompress(data, max_length=0)
+   Decompress *data*, returning a bytes object containing the
+   uncompressed data corresponding to at least part of the data in

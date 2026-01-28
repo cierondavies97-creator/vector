@@ -1,0 +1,3 @@
+doesn't want this to happen, it should remove the "_locale" extension
+module (which does all the work) from the table of built-in modules in
+the "config.c" file, and make sure that the "_locale" module is not

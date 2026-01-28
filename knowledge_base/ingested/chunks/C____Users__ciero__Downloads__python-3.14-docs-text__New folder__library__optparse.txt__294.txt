@@ -1,0 +1,8 @@
+arguments:
+   def vararg_callback(option, opt_str, value, parser):
+       assert value is None
+       value = []
+       def floatable(str):
+           try:
+               float(str)
+               return True

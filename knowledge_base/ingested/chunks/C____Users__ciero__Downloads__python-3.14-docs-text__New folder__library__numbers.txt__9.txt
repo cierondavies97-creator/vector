@@ -1,0 +1,5 @@
+abstract methods for "pow()" with modulus and bit-string
+   operations: "<<", ">>", "&", "^", "|", "~".
+Notes for type implementers
+===========================
+Implementers should be careful to make equal numbers equal and hash

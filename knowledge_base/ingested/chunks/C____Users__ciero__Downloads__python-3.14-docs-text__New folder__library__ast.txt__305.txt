@@ -1,0 +1,8 @@
+Module(
+          body=[
+              FunctionDef(
+                  name='f',
+                  args=arguments(
+                      args=[
+                          arg(
+                              arg='a',

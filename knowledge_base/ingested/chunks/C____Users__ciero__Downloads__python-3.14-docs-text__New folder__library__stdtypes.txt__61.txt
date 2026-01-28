@@ -1,0 +1,6 @@
+Notes:
+1. Negative shift counts are illegal and cause a "ValueError" to be
+   raised.
+2. A left shift by *n* bits is equivalent to multiplication by "pow(2,
+   n)".
+3. A right shift by *n* bits is equivalent to floor division by

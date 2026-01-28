@@ -1,0 +1,4 @@
+same meaning as with the "Message" constructor.
+   MH messages do not support marks or flags in the traditional sense,
+   but they do support sequences, which are logical groupings of
+   arbitrary messages. Some mail reading programs (although not the

@@ -1,0 +1,6 @@
+Pushes a slice object on the stack.  *argc* must be 2 or 3.  If it
+   is 2, implements:
+      end = STACK.pop()
+      start = STACK.pop()
+      STACK.append(slice(start, end))
+   if it is 3, implements:

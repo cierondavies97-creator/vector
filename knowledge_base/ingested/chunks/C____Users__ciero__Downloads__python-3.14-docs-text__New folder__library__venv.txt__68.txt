@@ -1,0 +1,4 @@
+* "env_exe" - The name of the Python interpreter in the virtual
+        environment. Used for "__VENV_PYTHON__" in activation scripts
+        (see "install_scripts()").
+      * "env_exec_cmd" - The name of the Python interpreter, taking

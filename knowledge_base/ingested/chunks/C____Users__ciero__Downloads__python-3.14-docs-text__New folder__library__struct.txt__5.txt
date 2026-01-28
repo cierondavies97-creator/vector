@@ -1,0 +1,4 @@
+for details.
+Several "struct" functions (and methods of "Struct") take a *buffer*
+argument.  This refers to objects that implement the Buffer Protocol
+and provide either a readable or read-writable buffer.  The most

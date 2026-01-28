@@ -1,0 +1,5 @@
+Options
+-------
+This widget accepts the following specific options:
++-------------------+----------------------------------------------------------+
+| Option            | Description                                              |

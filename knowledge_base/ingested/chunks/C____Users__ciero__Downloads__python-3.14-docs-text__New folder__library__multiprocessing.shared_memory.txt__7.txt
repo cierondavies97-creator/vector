@@ -1,0 +1,3 @@
+a new shared memory block or attaching to an existing shared memory
+   block.  Each shared memory block is assigned a unique name. In this
+   way, one process can create a shared memory block with a particular

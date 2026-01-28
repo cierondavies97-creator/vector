@@ -1,0 +1,5 @@
+note that "-0" is still "0".
+4. The slice of *s* from *i* to *j* is defined as the sequence of
+   items with index *k* such that "i <= k < j".
+   * If *i* is omitted or "None", use "0".
+   * If *j* is omitted or "None", use "len(s)".

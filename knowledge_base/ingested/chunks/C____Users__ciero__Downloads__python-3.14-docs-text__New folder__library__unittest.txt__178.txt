@@ -1,0 +1,4 @@
+The test passes if at least one message emitted inside the
+      "with" block matches the *logger* and *level* conditions,
+      otherwise it fails.
+      The object returned by the context manager is a recording helper

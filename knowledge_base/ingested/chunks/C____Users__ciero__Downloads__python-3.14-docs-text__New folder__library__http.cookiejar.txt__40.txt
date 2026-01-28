@@ -1,0 +1,4 @@
+unless you ask otherwise by passing a true *ignore_discard*
+   argument.
+"FileCookieJar" implements the following additional methods:
+FileCookieJar.save(filename=None, ignore_discard=False, ignore_expires=False)

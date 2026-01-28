@@ -1,0 +1,4 @@
+'  File "<doctest default[0]>", line 7, in bright_side_of_life\n    return tuple()[0]\n           ~~~~~~~^^^\n',
+    'IndexError: tuple index out of range\n']
+   *** extract_tb:
+   [<FrameSummary file <doctest...>, line 10 in <module>>,

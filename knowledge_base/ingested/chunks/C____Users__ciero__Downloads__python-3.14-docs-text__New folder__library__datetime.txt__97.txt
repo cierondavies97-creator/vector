@@ -1,0 +1,4 @@
+"timedelta.microseconds" are 0, and "date2 + timedelta == date1"
+   after.
+4. "date" objects are equal if they represent the same date.
+   "date" objects that are not also "datetime" instances are never

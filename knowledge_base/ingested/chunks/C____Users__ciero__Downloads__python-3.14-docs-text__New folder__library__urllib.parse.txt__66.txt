@@ -1,0 +1,4 @@
+Characters in the "netloc" attribute that decompose under NFKC
+   normalization (as used by the IDNA encoding) into any of "/", "?",
+   "#", "@", or ":" will raise a "ValueError". If the URL is
+   decomposed before parsing, no error will be raised.

@@ -1,0 +1,4 @@
+bytearray.rfind(sub[, start[, end]])
+   Return the highest index in the sequence where the subsequence
+   *sub* is found, such that *sub* is contained within "s[start:end]".
+   Optional arguments *start* and *end* are interpreted as in slice

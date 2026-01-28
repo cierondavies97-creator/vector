@@ -1,0 +1,4 @@
+class selectors.BaseSelector
+   A "BaseSelector" is used to wait for I/O event readiness on
+   multiple file objects. It supports file stream registration,
+   unregistration, and a method to wait for I/O events on those

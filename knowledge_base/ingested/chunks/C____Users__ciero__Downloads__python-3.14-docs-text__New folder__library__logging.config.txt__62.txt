@@ -1,0 +1,5 @@
+name in "fileConfig()". If absent, this parameter defaults to
+  "True". This value is ignored if *incremental* is "True".
+Incremental Configuration
+-------------------------
+It is difficult to provide complete flexibility for incremental

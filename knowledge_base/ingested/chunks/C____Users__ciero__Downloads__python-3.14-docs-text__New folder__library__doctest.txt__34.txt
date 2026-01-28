@@ -1,0 +1,3 @@
+looks at, how it finds interactive examples, what execution context it
+uses, how it handles exceptions, and how option flags can be used to
+control its behavior. This is the information that you need to know to

@@ -1,0 +1,4 @@
+If *size* is specified, at most *size* characters will be read.
+   seek(offset, whence=SEEK_SET, /)
+      Change the stream position to the given *offset*.  Behaviour
+      depends on the *whence* parameter.  The default value for

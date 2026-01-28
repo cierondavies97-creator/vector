@@ -1,0 +1,7 @@
+------------------------------------------------
+   output=$(mycmd myarg)
+becomes:
+   output = check_output(["mycmd", "myarg"])
+Replacing shell pipeline
+------------------------
+   output=$(dmesg | grep hda)

@@ -1,0 +1,6 @@
+def delete_nth(d, n):
+       d.rotate(-n)
+       d.popleft()
+       d.rotate(n)
+To implement "deque" slicing, use a similar approach applying
+"rotate()" to bring a target element to the left side of the deque.

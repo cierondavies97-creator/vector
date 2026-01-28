@@ -1,0 +1,6 @@
+>>> lists
+      [[3], [5], [7]]
+   Further explanation is available in the FAQ entry How do I create a
+   multidimensional list?.
+3. If *i* or *j* is negative, the index is relative to the end of
+   sequence *s*: "len(s) + i" or "len(s) + j" is substituted.  But

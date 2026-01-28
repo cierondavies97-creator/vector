@@ -1,0 +1,10 @@
+* The Mock Class
+    * Calling
+    * Deleting Attributes
+    * Mock names and the name attribute
+    * Attaching Mocks as Attributes
+  * The patchers
+    * patch
+    * patch.object
+    * patch.dict
+    * patch.multiple

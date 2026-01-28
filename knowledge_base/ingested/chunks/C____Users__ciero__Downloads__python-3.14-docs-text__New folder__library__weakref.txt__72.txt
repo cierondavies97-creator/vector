@@ -1,0 +1,4 @@
+>>> del obj                 # callback not called because finalizer dead
+You can unregister a finalizer using its "detach()" method.  This
+kills the finalizer and returns the arguments passed to the
+constructor when it was created.

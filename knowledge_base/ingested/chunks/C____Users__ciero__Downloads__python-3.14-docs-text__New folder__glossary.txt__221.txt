@@ -1,0 +1,4 @@
+for Python or its processes or environment. PEPs should provide a
+   concise technical specification and a rationale for proposed
+   features.
+   PEPs are intended to be the primary mechanisms for proposing major

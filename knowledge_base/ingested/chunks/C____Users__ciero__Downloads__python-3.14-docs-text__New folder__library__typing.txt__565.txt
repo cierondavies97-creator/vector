@@ -1,0 +1,5 @@
+now supports subscripting ("[]"). See **PEP 585** and Generic Alias
+   Type.
+   Changed in version 3.13: Added the optional second type parameter,
+   "ExitT_co".
+class typing.AsyncContextManager(Generic[T_co, AExitT_co])

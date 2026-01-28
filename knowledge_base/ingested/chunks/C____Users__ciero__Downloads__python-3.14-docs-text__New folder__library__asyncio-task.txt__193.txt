@@ -1,0 +1,4 @@
+request by suppressing the exception with a "try" ... ...
+      "except CancelledError" ... "finally" block. Therefore, unlike
+      "Future.cancel()", "Task.cancel()" does not guarantee that the
+      Task will be cancelled, although suppressing cancellation

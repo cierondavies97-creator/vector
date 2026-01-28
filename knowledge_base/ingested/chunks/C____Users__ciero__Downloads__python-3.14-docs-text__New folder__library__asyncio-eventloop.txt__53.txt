@@ -1,0 +1,4 @@
+if the task should execute eagerly during the call to create_task,
+   or be scheduled later. If *eager_start* is not passed the mode set
+   by "loop.set_task_factory()" will be used.
+   Changed in version 3.8: Added the *name* parameter.

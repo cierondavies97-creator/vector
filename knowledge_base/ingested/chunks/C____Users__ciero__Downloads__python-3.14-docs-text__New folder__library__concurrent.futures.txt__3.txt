@@ -1,0 +1,4 @@
+"concurrent.futures.Future" must not be confused with
+"asyncio.Future", which is designed for use with "asyncio" tasks and
+coroutines. See the asyncio's Future documentation for a detailed
+comparison of the two.

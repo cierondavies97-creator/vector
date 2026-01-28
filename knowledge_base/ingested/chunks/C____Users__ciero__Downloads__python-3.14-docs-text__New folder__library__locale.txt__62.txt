@@ -1,0 +1,4 @@
+corresponding to the then-emperor's reign.
+      Normally it should not be necessary to use this value directly.
+      Specifying the "E" modifier in their format strings causes the
+      "time.strftime()" function to use this information. The format

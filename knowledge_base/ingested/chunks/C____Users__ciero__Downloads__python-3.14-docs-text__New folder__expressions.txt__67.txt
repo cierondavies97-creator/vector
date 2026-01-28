@@ -1,0 +1,5 @@
+yield 123
+   async def agen(): # defines an asynchronous generator function
+       yield 123
+Due to their side effects on the containing scope, "yield" expressions
+are not permitted as part of the implicitly defined scopes used to

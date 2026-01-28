@@ -1,0 +1,7 @@
+Added in version 3.4.
+plistlib.FMT_BINARY
+   The binary format for plist files
+   Added in version 3.4.
+The module defines the following exceptions:
+exception plistlib.InvalidFileException
+   Raised when a file cannot be parsed.

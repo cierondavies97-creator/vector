@@ -1,0 +1,3 @@
+coroutine and waits for the completion of the Future.  When the
+   Future is *done*, the execution of the wrapped coroutine resumes.
+   Event loops use cooperative scheduling: an event loop runs one Task

@@ -1,0 +1,3 @@
+Tries to compile *source*, which should be a string of Python code
+   and return a code object if *source* is valid Python code.  In that
+   case, the filename attribute of the code object will be *filename*,

@@ -1,0 +1,4 @@
+assignment statements.
+   See *function annotation*, **PEP 484** and **PEP 526**, which
+   describe this functionality. Also see Annotations Best Practices
+   for best practices on working with annotations.

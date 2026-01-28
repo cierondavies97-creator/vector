@@ -1,0 +1,6 @@
+canonical value?
+A: The "normalize()" method maps all equivalent values to a single
+representative:
+>>> values = map(Decimal, '200 200.000 2E2 .02E+4'.split())
+>>> [v.normalize() for v in values]
+[Decimal('2E+2'), Decimal('2E+2'), Decimal('2E+2'), Decimal('2E+2')]

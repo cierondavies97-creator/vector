@@ -1,0 +1,5 @@
+"system.multicall" request. The result of this call is a
+   *generator*; iterating over this generator yields the individual
+   results.
+A usage example of this class follows.  The server code:
+   from xmlrpc.server import SimpleXMLRPCServer

@@ -1,0 +1,6 @@
+object, named "None" (a built-in name).  "type(None)()" produces the
+same singleton.
+It is written as "None".
+The Ellipsis Object
+-------------------
+This object is commonly used to indicate that something is omitted. It

@@ -1,0 +1,4 @@
+* "python -m module" command line: prepend the current working
+     directory.
+   * "python script.py" command line: prepend the script's directory.
+     If it's a symbolic link, resolve symbolic links.

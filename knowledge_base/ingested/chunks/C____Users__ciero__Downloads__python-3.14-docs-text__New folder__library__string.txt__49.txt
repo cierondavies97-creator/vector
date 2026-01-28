@@ -1,0 +1,5 @@
+See the Format examples section for some examples.
+Format Specification Mini-Language
+----------------------------------
+"Format specifications" are used within replacement fields contained
+within a format string to define how individual values are presented

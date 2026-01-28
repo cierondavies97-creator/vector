@@ -1,0 +1,5 @@
+@abc.abstractmethod
+   A decorator indicating abstract methods.
+   Using this decorator requires that the class's metaclass is
+   "ABCMeta" or is derived from it.  A class that has a metaclass
+   derived from "ABCMeta" cannot be instantiated unless all of its

@@ -1,0 +1,7 @@
+mock. Whatever the function returns is what the call returns:
+>>> vals = {(1, 2): 1, (2, 3): 2}
+>>> def side_effect(*args):
+...     return vals[args]
+...
+>>> mock = MagicMock(side_effect=side_effect)
+>>> mock(1, 2)

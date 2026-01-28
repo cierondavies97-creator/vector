@@ -1,0 +1,5 @@
+a->v.Name.id, (b) ? ((expr_ty) b)->v.Name.id : NULL, EXTRA) }
+   dotted_name[expr_ty]:
+       | a=dotted_name '.' b=NAME { _PyPegen_join_names_with_dot(p, a, b) }
+       | NAME
+   # COMPOUND STATEMENTS

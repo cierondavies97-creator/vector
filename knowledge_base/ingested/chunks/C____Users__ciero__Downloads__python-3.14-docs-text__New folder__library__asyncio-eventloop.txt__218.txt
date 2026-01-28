@@ -1,0 +1,4 @@
+bytes returned from the stream to text.
+   If a file-like object passed as *stdin*, *stdout* or *stderr*
+   represents a pipe, then the other side of this pipe should be
+   registered with "connect_write_pipe()" or "connect_read_pipe()" for

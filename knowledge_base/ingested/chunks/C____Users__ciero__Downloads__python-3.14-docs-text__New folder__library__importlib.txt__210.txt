@@ -1,0 +1,4 @@
+This function is preferred over using "types.ModuleType" to create
+   a new module as **spec** is used to set as many import-controlled
+   attributes on the module as possible.
+   Added in version 3.5.

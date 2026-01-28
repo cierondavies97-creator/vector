@@ -1,0 +1,4 @@
+----------------------------
+"NormalDist" readily solves classic probability problems.
+For example, given historical data for SAT exams showing that scores
+are normally distributed with a mean of 1060 and a standard deviation

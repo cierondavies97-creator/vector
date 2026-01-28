@@ -1,0 +1,4 @@
+copy of) the "handlers" dictionary in the schema. If you use a
+construct such as "cfg://handlers.foo", then initially
+"handlers['foo']" points to the configuration dictionary for the
+handler named "foo", and later (once that handler has been configured)

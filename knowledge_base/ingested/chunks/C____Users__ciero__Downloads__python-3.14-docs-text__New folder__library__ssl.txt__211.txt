@@ -1,0 +1,4 @@
+"SSLContext" is designed to be shared and used by multiple
+     connections. Thus, it is thread-safe as long as it is not
+     reconfigured after being used by a connection.
+"SSLContext" objects have the following methods and attributes:

@@ -1,0 +1,5 @@
+signature as "getattr()" but avoids executing code when it fetches
+attributes.
+inspect.getattr_static(obj, attr, default=None)
+   Retrieve attributes without triggering dynamic lookup via the
+   descriptor protocol, "__getattr__()" or "__getattribute__()".

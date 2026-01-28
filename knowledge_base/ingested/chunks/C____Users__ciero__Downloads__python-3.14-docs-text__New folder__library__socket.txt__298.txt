@@ -1,0 +1,5 @@
+Raises an auditing event "socket.sendmsg" with arguments "self",
+   "address".
+   Added in version 3.3.
+   Changed in version 3.5: If the system call is interrupted and the
+   signal handler does not raise an exception, the method now retries

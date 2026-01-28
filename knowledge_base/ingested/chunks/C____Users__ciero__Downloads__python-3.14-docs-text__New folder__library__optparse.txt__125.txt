@@ -1,0 +1,6 @@
+of them bite.
+       -g                  Group option.
+     Debug Options:
+       -d, --debug         Print debug information
+       -s, --sql           Print all SQL statements executed
+       -e                  Print every action done

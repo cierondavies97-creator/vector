@@ -1,0 +1,3 @@
+| "'calls'"          | SortKey.CALLS         | call count             |
+      +--------------------+-----------------------+------------------------+
+      | "'cumulative'"     | SortKey.CUMULATIVE    | cumulative time        |

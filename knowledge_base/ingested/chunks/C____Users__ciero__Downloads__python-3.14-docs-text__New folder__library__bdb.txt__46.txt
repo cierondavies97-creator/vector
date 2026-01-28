@@ -1,0 +1,5 @@
+*filename* should be in canonical form, as described in the
+      "canonic()" method.
+   clear_break(filename, lineno)
+      Delete the breakpoints in *filename* and *lineno*.  If none were
+      set, return an error message.

@@ -1,0 +1,4 @@
+the keys to determine which messages are interesting to get.
+      If you do have a "MaildirMessage" object, use its "get_info()"
+      method instead, because changes made by the message's
+      "set_info()" method are not reflected here until the mailbox's

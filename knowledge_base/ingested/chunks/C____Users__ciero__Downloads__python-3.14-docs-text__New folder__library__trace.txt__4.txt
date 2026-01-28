@@ -1,0 +1,9 @@
+--help
+   Display usage and exit.
+--version
+   Display the version of the module and exit.
+Added in version 3.8: Added "--module" option that allows to run an
+executable module.
+Main options
+------------
+At least one of the following options must be specified when invoking

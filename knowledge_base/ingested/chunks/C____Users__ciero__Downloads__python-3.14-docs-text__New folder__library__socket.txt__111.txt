@@ -1,0 +1,4 @@
+*proto* are auto-detected from the specified file descriptor.
+   Auto-detection can be overruled by calling the function with
+   explicit *family*, *type*, or *proto* arguments.  This only affects
+   how Python represents e.g. the return value of

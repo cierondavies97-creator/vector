@@ -1,0 +1,4 @@
+If any Task or Future from the *aws* sequence is *cancelled*, it is
+   treated as if it raised "CancelledError" -- the "gather()" call is
+   **not** cancelled in this case.  This is to prevent the
+   cancellation of one submitted Task/Future to cause other

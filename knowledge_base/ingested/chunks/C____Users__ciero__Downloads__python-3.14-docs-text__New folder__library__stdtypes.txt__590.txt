@@ -1,0 +1,6 @@
+values are stripped:
+      >>> b'   spacious   '.strip()
+      b'spacious'
+      >>> b'www.example.com'.strip(b'cmowz.')
+      b'example'
+   The binary sequence of byte values to remove may be any *bytes-like

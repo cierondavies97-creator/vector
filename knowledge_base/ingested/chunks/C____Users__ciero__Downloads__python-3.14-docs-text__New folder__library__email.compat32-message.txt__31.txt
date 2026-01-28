@@ -1,0 +1,4 @@
+attach(payload)
+      Add the given *payload* to the current payload, which must be
+      "None" or a list of "Message" objects before the call. After the
+      call, the payload will always be a list of "Message" objects.

@@ -1,0 +1,3 @@
+|                   |                     | Python source code          |
++-------------------+---------------------+-----------------------------+
+|                   | f_locals            | local namespace seen by     |

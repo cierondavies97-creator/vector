@@ -1,0 +1,4 @@
+| '*' (param_no_default | ',') param_maybe_default* a='*' (param_no_default | ',') {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "* argument may appear only once") }
+   invalid_kwds:
+       | '**' param a='=' { RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "var-keyword argument cannot have default value") }

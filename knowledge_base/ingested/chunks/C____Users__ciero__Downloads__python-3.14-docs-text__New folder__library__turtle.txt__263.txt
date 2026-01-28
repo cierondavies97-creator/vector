@@ -1,0 +1,6 @@
+described above.
+class turtle.Screen
+   Subclass of TurtleScreen, with four methods added.
+class turtle.ScrolledCanvas(master)
+   Parameters:
+      **master** -- some Tkinter widget to contain the ScrolledCanvas,

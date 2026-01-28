@@ -1,0 +1,5 @@
+defined only after the call to "start_color()".
+curses.COLS
+   The width of the screen, i.e., the number of columns. It is defined
+   only after the call to "initscr()". Updated by
+   "update_lines_cols()", "resizeterm()" and "resize_term()".

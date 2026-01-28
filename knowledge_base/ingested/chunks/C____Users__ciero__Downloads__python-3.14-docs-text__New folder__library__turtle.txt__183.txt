@@ -1,0 +1,4 @@
+undobuffer of given size is installed.  *size* gives the maximum
+   number of turtle actions that can be undone by the "undo()"
+   method/function.  If *size* is "None", the undobuffer is disabled.
+      >>> turtle.setundobuffer(42)

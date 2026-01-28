@@ -1,0 +1,9 @@
+errno.EWOULDBLOCK
+   Operation would block. This error is mapped to the exception
+   "BlockingIOError".
+errno.ENOMSG
+   No message of desired type
+errno.EIDRM
+   Identifier removed
+errno.ECHRNG
+   Channel number out of range

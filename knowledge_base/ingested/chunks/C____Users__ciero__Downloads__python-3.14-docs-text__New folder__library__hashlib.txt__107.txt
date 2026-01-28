@@ -1,0 +1,4 @@
+...               node_offset=1, node_depth=0, last_node=True)
+   >>> # Root node
+   ... h10 = blake2b(digest_size=32, fanout=FANOUT, depth=DEPTH,
+   ...               leaf_size=LEAF_SIZE, inner_size=INNER_SIZE,

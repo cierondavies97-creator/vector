@@ -1,0 +1,4 @@
+attribute; however, other objects may have write restrictions on
+   their "__dict__" attributes (for example, classes use a
+   "types.MappingProxyType" to prevent direct dictionary updates).
+   Without an argument, "vars()" acts like "locals()".

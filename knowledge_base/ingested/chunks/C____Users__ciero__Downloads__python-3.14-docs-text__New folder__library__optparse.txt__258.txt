@@ -1,0 +1,4 @@
+In some circumstances, though, you might want your callback to consume
+an arbitrary number of command-line arguments.  This is where writing
+callbacks gets tricky; it's covered later in this section.
+"optparse" always passes four particular arguments to your callback,

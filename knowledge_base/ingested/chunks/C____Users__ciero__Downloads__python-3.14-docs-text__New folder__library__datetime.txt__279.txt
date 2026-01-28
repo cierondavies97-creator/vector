@@ -1,0 +1,5 @@
+time tuple.  See also strftime() and strptime() Behavior and
+   "time.fromisoformat()".
+   Added in version 3.14.
+Instance methods:
+time.replace(hour=self.hour, minute=self.minute, second=self.second, microsecond=self.microsecond, tzinfo=self.tzinfo, *, fold=0)

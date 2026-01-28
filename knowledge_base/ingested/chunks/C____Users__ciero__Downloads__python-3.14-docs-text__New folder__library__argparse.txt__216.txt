@@ -1,0 +1,4 @@
+"Action" instances should be callable, so subclasses must
+      override the "__call__()" method, which should accept four
+      parameters:
+      * *parser* - The "ArgumentParser" object which contains this

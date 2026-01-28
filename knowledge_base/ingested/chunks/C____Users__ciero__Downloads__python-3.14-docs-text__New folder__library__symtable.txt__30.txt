@@ -1,0 +1,6 @@
+class C:
+                 x = 2  # class-scoped
+                 def method(self):
+                     return x
+      In this example, the class-scoped symbol "x" is considered to be
+      free from the perspective of "C.method", thereby allowing the

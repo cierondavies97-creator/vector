@@ -1,0 +1,10 @@
+Availability: WASI, FreeBSD
+   Added in version 3.11.1.
+errno.ECANCELED
+   Operation canceled
+   Added in version 3.2.
+errno.EOWNERDEAD
+   Owner died
+   Added in version 3.2.
+errno.ENOTRECOVERABLE
+   State not recoverable

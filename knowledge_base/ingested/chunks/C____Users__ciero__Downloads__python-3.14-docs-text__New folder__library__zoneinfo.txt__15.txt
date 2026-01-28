@@ -1,0 +1,5 @@
+failure looks for a match in the tzdata package. This behavior can be
+configured in three ways:
+1. The default "TZPATH" when not otherwise specified can be configured
+   at compile time.
+2. "TZPATH" can be configured using an environment variable.

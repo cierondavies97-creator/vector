@@ -1,0 +1,4 @@
+explicitly imported.
+The only solution is for the package author to provide an explicit
+index of the package.  The "import" statement uses the following
+convention: if a package's "__init__.py" code defines a list named

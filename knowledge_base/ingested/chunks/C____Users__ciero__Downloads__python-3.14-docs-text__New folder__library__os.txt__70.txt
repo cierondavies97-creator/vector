@@ -1,0 +1,4 @@
+Call the system "initgroups()" to initialize the group access list
+   with all of the groups of which the specified username is a member,
+   plus the specified group id.
+   Availability: Unix, not WASI, not Android.

@@ -1,0 +1,4 @@
+constants. On macOS and FreeBSD, the "fcntl" module exposes the
+"F_RDAHEAD" constant. On NetBSD and AIX, the "fcntl" module exposes
+the "F_CLOSEM" constant. On NetBSD, the "fcntl" module exposes the
+"F_MAXFD" constant. On macOS and NetBSD, the "fcntl" module exposes

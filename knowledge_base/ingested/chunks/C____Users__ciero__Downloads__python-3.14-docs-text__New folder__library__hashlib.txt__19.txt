@@ -1,0 +1,6 @@
+hashlib.sha3_384([data, ]*, usedforsecurity=True)
+hashlib.sha3_512([data, ]*, usedforsecurity=True)
+Named constructors such as these are faster than passing an algorithm
+name to "new()".
+Attributes
+==========

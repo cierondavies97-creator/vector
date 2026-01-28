@@ -1,0 +1,9 @@
+the given signal.
+signal.SIGABRT
+   Abort signal from *abort(3)*.
+signal.SIGALRM
+   Timer signal from *alarm(2)*.
+   Availability: Unix.
+signal.SIGBREAK
+   Interrupt from keyboard (CTRL + BREAK).
+   Availability: Windows.

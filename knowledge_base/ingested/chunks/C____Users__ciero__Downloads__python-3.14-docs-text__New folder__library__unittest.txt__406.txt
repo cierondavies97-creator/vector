@@ -1,0 +1,5 @@
+used.
+There are a few utility functions for framework authors to enable
+control-c handling functionality within test frameworks.
+unittest.installHandler()
+   Install the control-c handler. When a "signal.SIGINT" is received

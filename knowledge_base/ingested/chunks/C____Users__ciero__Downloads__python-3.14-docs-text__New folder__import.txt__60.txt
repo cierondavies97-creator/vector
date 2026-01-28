@@ -1,0 +1,4 @@
+(and the loader it contains) when loading the module.  Here is an
+approximation of what happens during the loading portion of import:
+   module = None
+   if spec.loader is not None and hasattr(spec.loader, 'create_module'):

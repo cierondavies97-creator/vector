@@ -1,0 +1,8 @@
+the turtle speeds up the drawing observably.
+      >>> turtle.hideturtle()
+turtle.showturtle()
+turtle.st()
+   Make the turtle visible.
+      >>> turtle.showturtle()
+turtle.isvisible()
+   Return "True" if the Turtle is shown, "False" if it's hidden.

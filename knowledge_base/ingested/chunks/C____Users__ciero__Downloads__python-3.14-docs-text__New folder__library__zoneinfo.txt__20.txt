@@ -1,0 +1,5 @@
+will use the environment variable "PYTHONTZPATH", if it exists, to set
+the search path.
+PYTHONTZPATH
+   This is an "os.pathsep"-separated string containing the time zone
+   search path to use. It must consist of only absolute rather than

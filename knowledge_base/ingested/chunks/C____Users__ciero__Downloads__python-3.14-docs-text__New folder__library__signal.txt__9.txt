@@ -1,0 +1,4 @@
+The Python signal handlers will be called when the calculation
+  finishes.
+* If the handler raises an exception, it will be raised "out of thin
+  air" in the main thread. See the note below for a discussion.

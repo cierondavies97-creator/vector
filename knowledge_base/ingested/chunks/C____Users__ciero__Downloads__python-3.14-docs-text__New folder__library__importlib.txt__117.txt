@@ -1,0 +1,5 @@
+"importlib.resources.abc.TraversableResources" instead.
+   abstractmethod files()
+      Returns a "importlib.resources.abc.Traversable" object for the
+      loaded package.
+"importlib.machinery" -- Importers and path hooks

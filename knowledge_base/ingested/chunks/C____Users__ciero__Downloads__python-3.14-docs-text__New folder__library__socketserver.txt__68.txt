@@ -1,0 +1,4 @@
+per-server information.
+      The type of "request" is different for datagram or stream
+      services.  For stream services, "request" is a socket object;
+      for datagram services, "request" is a pair of string and socket.

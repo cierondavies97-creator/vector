@@ -1,0 +1,6 @@
+does not call "curses.doupdate()", so you'll have to do this
+   yourself.
+Panel Objects
+=============
+Panel objects, as returned by "new_panel()" above, are windows with a
+stacking order. There's always a window associated with a panel which

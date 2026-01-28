@@ -1,0 +1,4 @@
+Otherwise the "Message" is serialized with a clone of its "policy"
+   with the "utf8" attribute set to "True", and "SMTPUTF8" and
+   "BODY=8BITMIME" are added to *mail_options*.
+   Added in version 3.2.

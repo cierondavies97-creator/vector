@@ -1,0 +1,4 @@
+* If *times* is not "None", it must be a 2-tuple of the form
+     "(atime, mtime)" where each member is an int or float expressing
+     seconds.
+   * If *times* is "None" and *ns* is unspecified, this is equivalent

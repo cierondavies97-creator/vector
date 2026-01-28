@@ -1,0 +1,5 @@
+sqlite3.apilevel
+   String constant stating the supported DB-API level. Required by the
+   DB-API. Hard-coded to ""2.0"".
+sqlite3.paramstyle
+   String constant stating the type of parameter marker formatting

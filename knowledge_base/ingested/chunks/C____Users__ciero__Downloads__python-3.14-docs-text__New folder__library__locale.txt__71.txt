@@ -1,0 +1,4 @@
+contains "'LC_ALL'", "'LC_CTYPE'", "'LANG'" and "'LANGUAGE'", in
+   that order.
+   The language code has the same format as a locale name, but without
+   encoding and "@"-modifier. The language code and encoding may be

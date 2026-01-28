@@ -1,0 +1,3 @@
+anywhere in a "try" construct. However, if an asynchronous generator
+is not resumed before it is finalized (by reaching a zero reference
+count or by being garbage collected), then a yield expression within a

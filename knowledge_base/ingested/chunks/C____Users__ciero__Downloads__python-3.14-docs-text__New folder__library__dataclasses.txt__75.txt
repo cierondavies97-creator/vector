@@ -1,0 +1,4 @@
+"@dataclass" function is used.
+   This function is not strictly required, because any Python
+   mechanism for creating a new class with "__annotations__" can then
+   apply the "@dataclass" function to convert that class to a

@@ -1,0 +1,5 @@
+values enforces reflexivity.
+  Order comparisons ("<", ">", "<=", and ">=") raise "TypeError".
+* Sets (instances of "set" or "frozenset") can be compared within and
+  across their types.
+  They define order comparison operators to mean subset and superset

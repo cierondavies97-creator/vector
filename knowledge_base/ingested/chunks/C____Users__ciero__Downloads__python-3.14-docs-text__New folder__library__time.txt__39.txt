@@ -1,0 +1,4 @@
+*local* time, not UTC.  It returns a floating-point number, for
+   compatibility with "time()". If the input value cannot be
+   represented as a valid time, either "OverflowError" or "ValueError"
+   will be raised (which depends on whether the invalid value is

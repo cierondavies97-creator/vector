@@ -1,0 +1,6 @@
+"sequence[:]".
+   Hint:
+     The "copy()" method is not part of the "MutableSequence" "ABC",
+     but most concrete mutable sequence types provide it.
+sequence.extend(iterable, /)
+   Extend *sequence* with the contents of *iterable*. For the most

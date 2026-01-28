@@ -1,0 +1,5 @@
+"ESRCH".
+exception TimeoutError
+   Raised when a system function timed out at the system level.
+   Corresponds to "errno" "ETIMEDOUT".
+Added in version 3.3: All the above "OSError" subclasses were added.

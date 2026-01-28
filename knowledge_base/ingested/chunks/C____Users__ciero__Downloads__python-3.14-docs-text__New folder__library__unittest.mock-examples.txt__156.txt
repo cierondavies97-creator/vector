@@ -1,0 +1,4 @@
+on. This ensures that "Mock" attributes are "Mocks" and "MagicMock"
+attributes are "MagicMocks" [2]. So if you're subclassing to add
+helper methods then they'll also be available on the attributes and
+return value mock of instances of your subclass.

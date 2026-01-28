@@ -1,0 +1,5 @@
+which "width" is exceeded.)
+   break_on_hyphens
+      (default: "True") If true, wrapping will occur preferably on
+      whitespaces and right after hyphens in compound words, as it is
+      customary in English. If false, only whitespaces will be

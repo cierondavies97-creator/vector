@@ -1,0 +1,4 @@
+=====================
+Let's create an extension module called "spam" (the favorite food of
+Monty Python fans...) and let's say we want to create a Python
+interface to the C library function "system()" [1]. This function

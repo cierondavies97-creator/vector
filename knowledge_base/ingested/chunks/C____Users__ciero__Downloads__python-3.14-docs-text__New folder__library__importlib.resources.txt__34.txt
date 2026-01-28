@@ -1,0 +1,4 @@
+*encoding* and *errors* must be given as keyword arguments.
+importlib.resources.is_resource(anchor, *path_names)
+   Return "True" if the named resource exists, otherwise "False". This
+   function does not consider directories to be resources.

@@ -1,0 +1,5 @@
+msg = "Failed validation for {!r}"
+                   raise RuntimeError(msg.format(resource))
+           return resource
+       def __exit__(self, *exc_details):
+           # We don't need to duplicate any of our resource release logic

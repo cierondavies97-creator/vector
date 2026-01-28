@@ -1,0 +1,4 @@
+"socket.getpeername()" but not the actual OS resource.  Unlike
+   "socket.fromfd()", *fileno* will return the same socket and not a
+   duplicate. This may help close a detached socket using
+   "socket.close()".

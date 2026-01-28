@@ -1,0 +1,5 @@
+elif isinstance(other, Integral):
+               return int(other) + int(self)
+           elif isinstance(other, Real):
+               return float(other) + float(self)
+           elif isinstance(other, Complex):

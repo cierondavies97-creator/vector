@@ -1,0 +1,4 @@
+to rely on the garbage collector to destroy the pool as CPython
+     does not assure that the finalizer of the pool will be called
+     (see "object.__del__()" for more information).
+   Changed in version 3.2: Added the *maxtasksperchild* parameter.

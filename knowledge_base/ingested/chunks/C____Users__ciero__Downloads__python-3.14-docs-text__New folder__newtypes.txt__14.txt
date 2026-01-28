@@ -1,0 +1,5 @@
+* disabled for this type (e.g. due to custom MRO entries).
+        * Otherwise, limited to MAX_VERSIONS_PER_CLASS (defined elsewhere).
+        */
+       uint16_t tp_versions_used;
+   } PyTypeObject;

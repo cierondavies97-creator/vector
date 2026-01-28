@@ -1,0 +1,6 @@
+predicate = bool
+          for x in iterable:
+              if not predicate(x):
+                  yield x
+itertools.groupby(iterable, key=None)
+   Make an iterator that returns consecutive keys and groups from the

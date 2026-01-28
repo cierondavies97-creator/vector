@@ -1,0 +1,4 @@
+of the class, option, or method that you're using. Introspection,
+either in an interactive Python shell or with "print()", can help you
+identify what you need.
+To find out what configuration options are available on any widget,

@@ -1,0 +1,4 @@
+which any initialization sequences will be sent; if not supplied or
+   "-1", the file descriptor for "sys.stdout" will be used.
+curses.start_color()
+   Must be called if the programmer wants to use colors, and before

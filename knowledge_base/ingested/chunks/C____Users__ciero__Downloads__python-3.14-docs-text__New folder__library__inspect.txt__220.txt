@@ -1,0 +1,3 @@
+to their values from *args* and *kwds*. In case of invoking *func*
+   incorrectly, i.e. whenever "func(*args, **kwds)" would raise an
+   exception because of incompatible signature, an exception of the

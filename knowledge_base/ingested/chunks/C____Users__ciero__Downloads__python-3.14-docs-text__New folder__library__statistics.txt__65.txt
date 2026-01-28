@@ -1,0 +1,4 @@
+median to be an actual data point rather than interpolated.
+statistics.median_grouped(data, interval=1.0)
+   Estimates the median for numeric data that has been grouped or
+   binned around the midpoints of consecutive, fixed-width intervals.

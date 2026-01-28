@@ -1,0 +1,4 @@
+available, you should only use this option if you know what you're
+  doing.  "Optimized" modules have an "opt-" tag and are usually
+  smaller.  Future releases may change the effects of optimization.
+* A program doesn't run any faster when it is read from a ".pyc" file

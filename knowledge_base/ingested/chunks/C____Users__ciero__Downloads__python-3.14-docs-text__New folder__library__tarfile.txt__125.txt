@@ -1,0 +1,7 @@
+A "TarInfo" object has the following public data attributes:
+TarInfo.name: str
+   Name of the archive member.
+TarInfo.size: int
+   Size in bytes.
+TarInfo.mtime: int | float
+   Time of last modification in seconds since the epoch, as in

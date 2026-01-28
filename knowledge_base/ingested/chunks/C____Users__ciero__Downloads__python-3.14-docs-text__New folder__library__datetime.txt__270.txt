@@ -1,0 +1,4 @@
+Changed in version 3.5: Before Python 3.5, a "time" object was
+considered to be false if it represented midnight in UTC. This
+behavior was considered obscure and error-prone and has been removed
+in Python 3.5. See bpo-13936 for full details.

@@ -1,0 +1,4 @@
+suitable for use by "re.search()".  Example:
+         self.assertWarnsRegex(DeprecationWarning,
+                               r'legacy_function\(\) is deprecated',
+                               legacy_function, 'XYZ')

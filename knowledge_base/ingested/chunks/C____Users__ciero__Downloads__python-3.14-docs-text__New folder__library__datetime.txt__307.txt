@@ -1,0 +1,4 @@
+return CONSTANT                 # fixed-offset class
+      return CONSTANT + self.dst(dt)  # daylight-aware class
+   If "utcoffset()" does not return "None", "dst()" should not return
+   "None" either.

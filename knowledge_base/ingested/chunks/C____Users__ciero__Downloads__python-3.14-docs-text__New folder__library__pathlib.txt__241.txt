@@ -1,0 +1,5 @@
+returns both files and directories. In previous versions, only
+directories were returned.
+In "Path.glob()" and "rglob()", a trailing slash may be added to the
+pattern to match only directories.
+Changed in version 3.11: Globbing with a pattern that ends with a

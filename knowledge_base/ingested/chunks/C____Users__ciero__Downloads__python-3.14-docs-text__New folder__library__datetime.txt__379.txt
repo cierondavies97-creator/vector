@@ -1,0 +1,4 @@
+"timedelta(hours=24)", otherwise "ValueError" is raised.
+   The *name* argument is optional. If specified it must be a string
+   that will be used as the value returned by the "datetime.tzname()"
+   method.

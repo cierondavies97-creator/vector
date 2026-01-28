@@ -1,0 +1,5 @@
+Note:
+     To encode "str" filenames to "bytes", use "fsencode()".
+   See also:
+     The "scandir()" function returns directory entries along with
+     file attribute information, giving better performance for many

@@ -1,0 +1,6 @@
+are signaling or quiet).
+   max_mag(other, context=None)
+      Similar to the "max()" method, but the comparison is done using
+      the absolute values of the operands.
+   min(other, context=None)
+      Like "min(self, other)" except that the context rounding rule is

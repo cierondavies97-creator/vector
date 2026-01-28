@@ -1,0 +1,3 @@
+xml.parsers.expat.ParserCreate(encoding=None, namespace_separator=None)
+   Creates and returns a new "xmlparser" object.   *encoding*, if
+   specified, must be a string naming the encoding  used by the XML

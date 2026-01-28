@@ -1,0 +1,4 @@
+the smallest positive integer that is a multiple of all arguments.
+   If any of the arguments is zero, then the returned value is "0".
+   "lcm()" without arguments returns "1".
+   Added in version 3.9.

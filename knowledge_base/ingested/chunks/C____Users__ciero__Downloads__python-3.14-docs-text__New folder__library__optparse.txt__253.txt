@@ -1,0 +1,4 @@
+your needs, you have two choices: extend "optparse" or define a
+callback option. Extending "optparse" is more general, but overkill
+for a lot of simple cases.  Quite often a simple callback is all you
+need.

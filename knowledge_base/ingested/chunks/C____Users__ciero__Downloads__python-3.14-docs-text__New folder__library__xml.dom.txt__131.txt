@@ -1,0 +1,4 @@
+The exception codes defined in the DOM recommendation map to the
+exceptions described above according to this table:
++----------------------------------------+-----------------------------------+
+| Constant                               | Exception                         |

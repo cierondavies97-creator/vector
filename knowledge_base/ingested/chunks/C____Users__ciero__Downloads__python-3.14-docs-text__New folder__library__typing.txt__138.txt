@@ -1,0 +1,4 @@
+annotating aliases that make use of forward references, as it can
+   be hard for type checkers to distinguish these from normal variable
+   assignments:
+      from typing import Generic, TypeAlias, TypeVar

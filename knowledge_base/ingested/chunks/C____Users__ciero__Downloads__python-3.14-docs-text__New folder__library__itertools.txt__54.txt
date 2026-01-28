@@ -1,0 +1,5 @@
+yield from iterable
+itertools.combinations(iterable, r)
+   Return *r* length subsequences of elements from the input
+   *iterable*.
+   The output is a subsequence of "product()" keeping only entries

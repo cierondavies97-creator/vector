@@ -1,0 +1,3 @@
+*func* called with the positional arguments *args* and keyword
+   arguments *keywords*. If more arguments are supplied to the call,
+   they are appended to *args*. If additional keyword arguments are

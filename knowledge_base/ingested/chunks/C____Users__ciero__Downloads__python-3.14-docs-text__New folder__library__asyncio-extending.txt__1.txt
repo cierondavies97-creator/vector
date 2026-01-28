@@ -1,0 +1,5 @@
+Python version is free to break backward compatibility in *internal*
+  part of API.
+Writing a Custom Event Loop
+===========================
+"asyncio.AbstractEventLoop" declares very many methods.  Implementing

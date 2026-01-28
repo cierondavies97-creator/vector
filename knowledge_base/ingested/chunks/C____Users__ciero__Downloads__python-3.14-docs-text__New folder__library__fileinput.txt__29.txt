@@ -1,0 +1,3 @@
+directed to the input file (if a file of the same name as the backup
+file already exists, it will be replaced silently).  This makes it
+possible to write a filter that rewrites its input file in place.  If

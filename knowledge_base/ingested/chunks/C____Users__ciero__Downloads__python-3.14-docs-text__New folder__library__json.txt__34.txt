@@ -1,0 +1,4 @@
+Serialize *obj* to a JSON formatted "str" using this conversion
+   table.  The arguments have the same meaning as in "dump()".
+   Note:
+     Keys in key/value pairs of JSON are always of the type "str".

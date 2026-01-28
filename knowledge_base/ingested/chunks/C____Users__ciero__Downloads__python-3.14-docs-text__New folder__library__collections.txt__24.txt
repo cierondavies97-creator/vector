@@ -1,0 +1,5 @@
+mapping in the chain.
+  * A greatly simplified read-only version of Chainmap.
+"ChainMap" Examples and Recipes
+-------------------------------
+This section shows various approaches to working with chained maps.

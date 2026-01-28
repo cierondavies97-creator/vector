@@ -1,0 +1,5 @@
+Delete all breakpoints in *filename*.  If none were set, return
+      an error message.
+   clear_all_breaks()
+      Delete all existing breakpoints.  If none were set, return an
+      error message.

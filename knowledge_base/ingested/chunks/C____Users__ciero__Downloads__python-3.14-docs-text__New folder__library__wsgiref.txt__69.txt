@@ -1,0 +1,4 @@
+**RFC 2616**.
+   Any detected nonconformance results in an "AssertionError" being
+   raised; note, however, that how these errors are handled is server-
+   dependent.  For example, "wsgiref.simple_server" and other servers

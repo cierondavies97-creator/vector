@@ -1,0 +1,5 @@
+Added in version 3.10.
+exception dataclasses.FrozenInstanceError
+   Raised when an implicitly defined "__setattr__()" or
+   "__delattr__()" is called on a dataclass which was defined with
+   "frozen=True". It is a subclass of "AttributeError".

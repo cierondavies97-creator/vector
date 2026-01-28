@@ -1,0 +1,3 @@
+...     # despite having higher priority, 'keyword' runs after 'positional' as enter() is relative
+   ...     s.enter(5, 1, print_time, kwargs={'a': 'keyword'})
+   ...     s.enterabs(1_650_000_000, 10, print_time, argument=("first enterabs",))

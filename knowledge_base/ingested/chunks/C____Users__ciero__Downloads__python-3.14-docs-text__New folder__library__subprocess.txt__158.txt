@@ -1,0 +1,5 @@
+attributes are used when the process creates a window.
+         si = subprocess.STARTUPINFO()
+         si.dwFlags = subprocess.STARTF_USESTDHANDLES | subprocess.STARTF_USESHOWWINDOW
+   hStdInput
+      If "dwFlags" specifies "STARTF_USESTDHANDLES", this attribute is

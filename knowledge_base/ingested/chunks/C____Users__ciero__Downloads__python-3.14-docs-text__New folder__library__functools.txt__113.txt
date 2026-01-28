@@ -1,0 +1,4 @@
+the module level constants "WRAPPER_ASSIGNMENTS" (which assigns to
+   the wrapper function's "__module__", "__name__", "__qualname__",
+   "__annotations__", "__type_params__", and "__doc__", the
+   documentation string) and "WRAPPER_UPDATES" (which updates the

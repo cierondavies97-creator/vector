@@ -1,0 +1,4 @@
+be bound to the targets in the "with" statement's "as" clause, if
+   any.
+   At the point where the generator yields, the block nested in the
+   "with" statement is executed.  The generator is then resumed after

@@ -1,0 +1,4 @@
+is not possible.
+   $> Add-AppxPackage -AppInstallerFile https://www.python.org/ftp/python/pymanager/pymanager.appinstaller
+Other tools and APIs may also be used to provision an MSIX package for
+all users on a machine, but Python does not consider this a supported

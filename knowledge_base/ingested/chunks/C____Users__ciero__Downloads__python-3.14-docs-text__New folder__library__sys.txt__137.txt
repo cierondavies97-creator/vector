@@ -1,0 +1,2 @@
+|                                   |                                   | rounding mode for floating-point  |
+   |                                   |                                   | arithmetic. This reflects the     |

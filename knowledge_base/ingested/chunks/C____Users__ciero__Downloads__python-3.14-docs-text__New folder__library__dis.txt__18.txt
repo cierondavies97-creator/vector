@@ -1,0 +1,4 @@
+offset in the disassembled code. Setting this means "dis()" will
+   display a "current instruction" marker against the specified
+   opcode.
+   If *show_caches* is "True", "dis()" will display inline cache

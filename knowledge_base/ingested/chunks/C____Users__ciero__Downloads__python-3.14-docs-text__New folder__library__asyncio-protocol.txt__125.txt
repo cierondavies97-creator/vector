@@ -1,0 +1,6 @@
+def pipe_data_received(self, fd, data):
+           self.output.extend(data)
+       def process_exited(self):
+           self.exited = True
+           # process_exited() method can be called before
+           # pipe_connection_lost() method: wait until both methods are

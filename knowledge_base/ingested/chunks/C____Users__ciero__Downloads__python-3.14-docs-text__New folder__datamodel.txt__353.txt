@@ -1,0 +1,4 @@
+at the time when the "__del__()" method is called.
+object.__repr__(self)
+   Called by the "repr()" built-in function to compute the "official"
+   string representation of an object.  If at all possible, this

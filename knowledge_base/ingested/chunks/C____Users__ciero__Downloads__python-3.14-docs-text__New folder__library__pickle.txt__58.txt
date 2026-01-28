@@ -1,0 +1,5 @@
+method in the C implementation of "Pickler".
+   dispatch_table
+      A pickler object's dispatch table is a registry of *reduction
+      functions* of the kind which can be declared using
+      "copyreg.pickle()".  It is a mapping whose keys are classes and

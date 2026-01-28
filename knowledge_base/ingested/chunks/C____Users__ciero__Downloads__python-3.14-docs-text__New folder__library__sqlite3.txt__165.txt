@@ -1,0 +1,6 @@
+Example 2, copy an existing database into a transient copy:
+         src = sqlite3.connect('example.db')
+         dst = sqlite3.connect(':memory:')
+         src.backup(dst)
+         dst.close()
+         src.close()

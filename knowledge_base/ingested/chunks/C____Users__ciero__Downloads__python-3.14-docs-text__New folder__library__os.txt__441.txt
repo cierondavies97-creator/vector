@@ -1,0 +1,4 @@
+For backward compatibility, a "stat_result" instance is also
+   accessible as a tuple of at least 10 integers giving the most
+   important (and portable) members of the "stat" structure, in the
+   order "st_mode", "st_ino", "st_dev", "st_nlink", "st_uid",

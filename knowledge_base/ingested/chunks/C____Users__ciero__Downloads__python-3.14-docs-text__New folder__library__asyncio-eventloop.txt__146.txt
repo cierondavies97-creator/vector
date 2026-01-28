@@ -1,0 +1,4 @@
+faster than implementations that work with sockets directly. However,
+there are some use cases when performance is not critical, and working
+with "socket" objects directly is more convenient.
+async loop.sock_recv(sock, nbytes)

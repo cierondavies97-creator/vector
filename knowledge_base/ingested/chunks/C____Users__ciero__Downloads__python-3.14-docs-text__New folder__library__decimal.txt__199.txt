@@ -1,0 +1,7 @@
+Returns a copy of *x* with the sign inverted.
+   copy_sign(x, y, /)
+      Copies the sign from *y* to *x*.
+   divide(x, y, /)
+      Return *x* divided by *y*.
+   divide_int(x, y, /)
+      Return *x* divided by *y*, truncated to an integer.

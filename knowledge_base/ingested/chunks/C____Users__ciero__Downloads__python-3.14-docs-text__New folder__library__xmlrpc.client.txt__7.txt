@@ -1,0 +1,4 @@
+The optional third argument is an encoding, by default UTF-8. The
+   optional fourth argument is a debugging flag.
+   The following parameters govern the use of the returned proxy
+   instance. If *allow_none* is true,  the Python constant "None" will

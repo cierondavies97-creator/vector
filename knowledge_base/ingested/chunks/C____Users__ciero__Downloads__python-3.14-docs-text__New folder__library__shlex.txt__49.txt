@@ -1,0 +1,3 @@
+punctuation. Runs of punctuation characters will be returned as a
+   single token. However, note that no semantic validity checking will
+   be performed: for example, '>>>' could be returned as a token, even

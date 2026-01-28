@@ -1,0 +1,6 @@
+module.  This is because the manner in which "__main__" is initialized
+depends on the flags and other options with which the interpreter is
+invoked.
+5.8.1. __main__.__spec__
+------------------------
+Depending on how "__main__" is initialized, "__main__.__spec__" gets

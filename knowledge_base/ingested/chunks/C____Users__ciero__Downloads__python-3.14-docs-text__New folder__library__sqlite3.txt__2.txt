@@ -1,0 +1,4 @@
+possible to prototype an application using SQLite and then port the
+code to a larger database such as PostgreSQL or Oracle.
+The "sqlite3" module was written by Gerhard Häring.  It provides an
+SQL interface compliant with the DB-API 2.0 specification described by

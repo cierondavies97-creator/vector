@@ -1,0 +1,4 @@
+task managers. This name may be truncated to fit in a system-
+      specific limit (for example, 15 bytes on Linux or 63 bytes on
+      macOS).
+      Changes to *name* are only reflected at the OS level when the

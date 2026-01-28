@@ -1,0 +1,4 @@
+could just as well be three (or three hundred) commas or digits, or an
+indented transcript of a Monty Python skit.
+Some details you should read once, but won't need to remember:
+* Doctest can't guess whether your expected output came from an

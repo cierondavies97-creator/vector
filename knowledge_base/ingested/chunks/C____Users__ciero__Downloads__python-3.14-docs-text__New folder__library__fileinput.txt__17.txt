@@ -1,0 +1,5 @@
+has been read, returns "0".  After the last line of the last file
+   has been read, returns the line number of that line within the
+   file.
+fileinput.isfirstline()
+   Return "True" if the line just read is the first line of its file,

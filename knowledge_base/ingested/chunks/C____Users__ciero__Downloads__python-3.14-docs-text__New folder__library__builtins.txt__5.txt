@@ -1,0 +1,7 @@
+"__dict__" attribute. Since this is an implementation detail, it may
+not be used by alternate implementations of Python.
+See also:
+  * Built-in Constants
+  * Built-in Exceptions
+  * Built-in Functions
+  * Built-in Types

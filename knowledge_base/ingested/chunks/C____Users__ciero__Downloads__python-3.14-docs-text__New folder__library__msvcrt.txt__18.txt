@@ -1,0 +1,4 @@
+blocks to the operating system. On failure, this raises "OSError".
+msvcrt.set_error_mode(mode)
+   Changes the location where the C runtime writes an error message
+   for an error that might end the program. *mode* must be one of the

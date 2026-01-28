@@ -1,0 +1,5 @@
+The power operator binds more tightly than unary operators on its
+left; it binds less tightly than unary operators on its right.  The
+syntax is:
+   power: (await_expr | primary) ["**" u_expr]
+Thus, in an unparenthesized sequence of power and unary operators, the

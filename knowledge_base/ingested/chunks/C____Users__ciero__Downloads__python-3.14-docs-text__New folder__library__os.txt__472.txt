@@ -1,0 +1,5 @@
+ignored.
+   This function can support paths relative to directory descriptors.
+   Note:
+     On newer versions of Windows 10, unprivileged accounts can create
+     symlinks if Developer Mode is enabled. When Developer Mode is not

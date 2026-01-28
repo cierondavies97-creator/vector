@@ -1,0 +1,5 @@
+to (but less useful than) the standard Python interactive interpreter
+loop.  For a more complete implementation of the interpreter loop,
+refer to the "code" module.
+   import sys, traceback
+   def run_user_code(envdir):

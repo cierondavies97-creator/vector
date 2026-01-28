@@ -1,0 +1,4 @@
+types and type aliases.
+These objects can be created through special syntax (type parameter
+lists and the "type" statement). For compatibility with Python 3.11
+and earlier, they can also be created without the dedicated syntax, as

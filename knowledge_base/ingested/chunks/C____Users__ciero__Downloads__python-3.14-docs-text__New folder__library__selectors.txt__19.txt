@@ -1,0 +1,4 @@
+"ValueError" if *fileobj* is invalid (e.g. it has no "fileno()"
+      method or its "fileno()" method has an invalid return value).
+   modify(fileobj, events, data=None)
+      Change a registered file object's monitored events or attached

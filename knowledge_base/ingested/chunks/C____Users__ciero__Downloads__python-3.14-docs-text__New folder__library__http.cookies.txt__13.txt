@@ -1,0 +1,3 @@
+Return a string representation suitable to be sent as HTTP headers.
+   *attrs* and *header* are sent to each "Morsel"'s "output()" method.
+   *sep* is used to join the headers together, and is by default the

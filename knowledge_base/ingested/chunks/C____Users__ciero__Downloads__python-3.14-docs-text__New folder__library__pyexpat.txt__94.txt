@@ -1,0 +1,6 @@
+p = ParserCreate()
+      try:
+          p.Parse(some_xml_document)
+      except ExpatError as err:
+          print("Error:", errors.messages[err.code])
+   The "errors" module also provides error message constants and a

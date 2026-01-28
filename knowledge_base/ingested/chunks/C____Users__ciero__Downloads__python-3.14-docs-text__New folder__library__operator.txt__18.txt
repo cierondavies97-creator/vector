@@ -1,0 +1,7 @@
+operator.__xor__(a, b)
+   Return the bitwise exclusive or of *a* and *b*.
+Operations which work with sequences (some of them with mappings too)
+include:
+operator.concat(a, b)
+operator.__concat__(a, b)
+   Return "a + b" for *a* and *b* sequences.

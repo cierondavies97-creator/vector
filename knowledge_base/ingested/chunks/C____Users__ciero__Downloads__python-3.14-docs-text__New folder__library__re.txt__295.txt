@@ -1,0 +1,7 @@
+elif kind == 'ID' and value in keywords:
+               kind = value
+           elif kind == 'NEWLINE':
+               line_start = mo.end()
+               line_num += 1
+               continue
+           elif kind == 'SKIP':

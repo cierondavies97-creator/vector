@@ -1,0 +1,4 @@
+Uses an incremental decoder to iteratively decode the input
+   provided by *iterator*. *iterator* must yield "bytes" objects. This
+   function is a *generator*. The *errors* argument (as well as any
+   other keyword argument) is passed through to the incremental

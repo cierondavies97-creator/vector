@@ -1,0 +1,6 @@
+>>> p.expanduser()
+      PosixPath('/home/eric/films/Monty Python')
+   Added in version 3.5.
+classmethod Path.cwd()
+   Return a new path object representing the current directory (as
+   returned by "os.getcwd()"):

@@ -1,0 +1,6 @@
+left from -1 along the real axis to -∞.
+cmath.asin(z)
+   Return the arc sine of *z*. This has the same branch cuts as
+   "acos()".
+cmath.atan(z)
+   Return the arc tangent of *z*. There are two branch cuts: One

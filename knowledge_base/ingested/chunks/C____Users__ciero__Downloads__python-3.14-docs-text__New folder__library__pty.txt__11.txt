@@ -1,0 +1,4 @@
+standard input.
+   Returning an empty byte string from either callback is interpreted
+   as an end-of-file (EOF) condition, and that callback will not be
+   called after that. If *stdin_read* signals EOF the controlling

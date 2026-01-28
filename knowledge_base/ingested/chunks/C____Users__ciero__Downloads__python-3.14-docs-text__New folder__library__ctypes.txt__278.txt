@@ -1,0 +1,4 @@
+the function, and can be used as decorator factories, and as such, be
+applied to functions through the "@wrapper" syntax. See Callback
+functions for examples.
+ctypes.CFUNCTYPE(restype, *argtypes, use_errno=False, use_last_error=False)

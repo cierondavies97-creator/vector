@@ -1,0 +1,4 @@
+It is **strongly** recommended that you use
+   "module.__spec__.parent" instead of "module.__package__".
+   "__package__" is now only used as a fallback if "__spec__.parent"
+   is not set, and this fallback path is deprecated.

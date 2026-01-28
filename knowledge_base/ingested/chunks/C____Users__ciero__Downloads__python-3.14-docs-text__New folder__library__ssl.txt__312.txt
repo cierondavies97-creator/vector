@@ -1,0 +1,5 @@
+Enables TLS-PSK (pre-shared key) authentication on a server-side
+   connection.
+   In general, certificate based authentication should be preferred
+   over this method.
+   The parameter "callback" is a callable object with the signature:

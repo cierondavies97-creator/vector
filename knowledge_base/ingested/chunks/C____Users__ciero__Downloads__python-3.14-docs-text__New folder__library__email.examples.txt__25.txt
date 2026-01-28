@@ -1,0 +1,5 @@
+# use a generic bag-of-bits type.
+               ctype = 'application/octet-stream'
+           maintype, subtype = ctype.split('/', 1)
+           with open(path, 'rb') as fp:
+               msg.add_attachment(fp.read(),

@@ -1,0 +1,3 @@
+state and allows another thread blocked in "acquire()" to proceed.
+"acquire()"/"release()" must be used in pairs: each acquire must have
+a release in the thread that has acquired the lock. Failing to call

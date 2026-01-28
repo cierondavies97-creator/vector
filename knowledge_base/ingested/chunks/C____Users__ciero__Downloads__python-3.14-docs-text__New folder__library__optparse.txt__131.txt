@@ -1,0 +1,4 @@
+Print the version message for the current program ("self.version")
+   to *file* (default stdout).  As with "print_usage()", any
+   occurrence of "%prog" in "self.version" is replaced with the name
+   of the current program.  Does nothing if "self.version" is empty or

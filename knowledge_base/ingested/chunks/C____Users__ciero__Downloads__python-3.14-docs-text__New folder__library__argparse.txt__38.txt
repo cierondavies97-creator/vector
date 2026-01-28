@@ -1,0 +1,4 @@
+actions from them, and adds these actions to the "ArgumentParser"
+object being constructed:
+   >>> parent_parser = argparse.ArgumentParser(add_help=False)
+   >>> parent_parser.add_argument('--parent', type=int)

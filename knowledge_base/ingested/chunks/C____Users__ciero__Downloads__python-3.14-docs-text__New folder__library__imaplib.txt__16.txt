@@ -1,0 +1,4 @@
+Changed in version 3.12: The deprecated *keyfile* and *certfile*
+   parameters have been removed.
+The second subclass allows for connections created by a child process:
+class imaplib.IMAP4_stream(command)

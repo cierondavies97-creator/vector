@@ -1,0 +1,8 @@
+socket.HV_GUID_BROADCAST
+socket.HV_GUID_CHILDREN
+socket.HV_GUID_LOOPBACK
+socket.HV_GUID_PARENT
+   Constants for Windows Hyper-V sockets for host/guest
+   communications.
+   Availability: Windows.
+   Added in version 3.12.

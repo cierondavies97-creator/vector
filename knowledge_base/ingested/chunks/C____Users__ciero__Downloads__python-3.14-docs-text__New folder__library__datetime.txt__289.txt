@@ -1,0 +1,6 @@
+time.strftime(format)
+   Return a string representing the time, controlled by an explicit
+   format string.  See also strftime() and strptime() Behavior and
+   "time.isoformat()".
+time.__format__(format)
+   Same as "time.strftime()". This makes it possible to specify a

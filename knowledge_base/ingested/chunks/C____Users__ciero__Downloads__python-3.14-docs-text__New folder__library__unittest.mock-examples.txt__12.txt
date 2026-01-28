@@ -1,0 +1,4 @@
+access the "mock instance" by looking at the return value of the
+mocked class.
+In the example below we have a function "some_function" that
+instantiates "Foo" and calls a method on it. The call to "patch()"

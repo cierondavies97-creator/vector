@@ -1,0 +1,3 @@
+"ast.PyCF_ONLY_AST" as a flag to the "compile()" built-in function, or
+using the "parse()" helper provided in this module.  The result will
+be a tree of objects whose classes all inherit from "ast.AST".  An

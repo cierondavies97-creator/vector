@@ -1,0 +1,5 @@
+otherwise raise an exception.  On many terminals, the "visible"
+   mode is an underline cursor and the "very visible" mode is a block
+   cursor.
+curses.def_prog_mode()
+   Save the current terminal mode as the "program" mode, the mode when

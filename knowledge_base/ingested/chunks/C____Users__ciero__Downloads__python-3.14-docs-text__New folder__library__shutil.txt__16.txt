@@ -1,0 +1,3 @@
+Copy the permission bits from *src* to *dst*.  The file contents,
+   owner, and group are unaffected.  *src* and *dst* are *path-like
+   objects* or path names given as strings. If *follow_symlinks* is

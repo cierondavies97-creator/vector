@@ -1,0 +1,6 @@
+and help messages for you.
+Here's an example of using "optparse" in a simple script:
+   from optparse import OptionParser
+   ...
+   parser = OptionParser()
+   parser.add_option("-f", "--file", dest="filename",

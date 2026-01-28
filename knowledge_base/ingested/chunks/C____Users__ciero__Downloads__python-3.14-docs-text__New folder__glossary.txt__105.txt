@@ -1,0 +1,5 @@
+Pragmatically, due to the name of the "codeobject.co_freevars"
+   attribute, the term is also sometimes used as a synonym for
+   *closure variable*.
+function
+   A series of statements which returns some value to a caller. It can

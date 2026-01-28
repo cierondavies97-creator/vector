@@ -1,0 +1,4 @@
+This is a subclass of "POP3" that connects to the server over an
+   SSL encrypted socket.  If *port* is not specified, 995, the
+   standard POP3-over-SSL port is used.  *timeout* works as in the
+   "POP3" constructor. *context* is an optional "ssl.SSLContext"

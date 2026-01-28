@@ -1,0 +1,5 @@
+character (the character bit value is bitwise-ored with 0x80).
+The following function takes either a single-character string or
+integer value; it returns a string.
+curses.ascii.unctrl(c)
+   Return a string representation of the ASCII character *c*.  If *c*

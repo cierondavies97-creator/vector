@@ -1,0 +1,4 @@
+facilities, "debug" and the other module-level functions may be
+   convenient. However, most programs will want to carefully and
+   explicitly control the logging configuration, and should therefore
+   prefer creating a module-level logger and calling "Logger.debug()"

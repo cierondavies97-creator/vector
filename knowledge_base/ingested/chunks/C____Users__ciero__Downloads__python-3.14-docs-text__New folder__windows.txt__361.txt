@@ -1,0 +1,4 @@
+command prompt):
+   python-3.9.0.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+To allow users to easily install a personal copy of Python without the
+test suite, you could provide a shortcut with the following command.

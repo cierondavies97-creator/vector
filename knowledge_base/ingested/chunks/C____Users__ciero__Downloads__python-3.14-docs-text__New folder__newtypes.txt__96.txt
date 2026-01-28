@@ -1,0 +1,5 @@
+Python classes:
+* For collections (such as lists and tuples) which can support
+  multiple independent iterators, a new iterator should be created and
+  returned by each call to "tp_iter".
+* Objects which can only be iterated over once (usually due to side

@@ -1,0 +1,4 @@
+=======================
+The following functions configure the logging module. They are located
+in the "logging.config" module.  Their use is optional --- you can
+configure the logging module using these functions or by making calls

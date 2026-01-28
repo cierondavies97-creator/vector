@@ -1,0 +1,6 @@
+optimizations.
+      The exact values of these strings may change in future versions
+      of Python.
+   Added in version 3.14.
+class annotationlib.ForwardRef
+   A proxy object for forward references in annotations.

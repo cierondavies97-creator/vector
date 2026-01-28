@@ -1,0 +1,4 @@
+are among those already more likely to experience deadlocks running
+   such code.See this discussion on fork being incompatible with
+   threads for technical details of why we're surfacing this
+   longstanding platform compatibility problem to developers.

@@ -1,0 +1,3 @@
+sequences that don't correspond to valid Unicode characters (e.g.
+unpaired UTF-16 surrogates), but it does note that they may cause
+interoperability problems. By default, this module accepts and outputs

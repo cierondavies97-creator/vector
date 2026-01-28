@@ -1,0 +1,5 @@
+(and with the *create* parameter set to "False"), or when opening a
+   folder that does not exist.
+exception mailbox.NotEmptyError
+   Raised when a mailbox is not empty but is expected to be, such as
+   when deleting a folder that contains messages.

@@ -1,0 +1,4 @@
+event scheduler:
+class sched.scheduler(timefunc=time.monotonic, delayfunc=time.sleep)
+   The "scheduler" class defines a generic interface to scheduling
+   events. It needs two functions to actually deal with the "outside

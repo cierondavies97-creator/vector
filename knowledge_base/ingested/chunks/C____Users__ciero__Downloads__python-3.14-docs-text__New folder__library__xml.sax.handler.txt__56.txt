@@ -1,0 +1,6 @@
+depending on the values of the "feature_external_ges" and the
+   "feature_external_pes" properties.
+DTDHandler Objects
+==================
+"DTDHandler" instances provide the following methods:
+DTDHandler.notationDecl(name, publicId, systemId)

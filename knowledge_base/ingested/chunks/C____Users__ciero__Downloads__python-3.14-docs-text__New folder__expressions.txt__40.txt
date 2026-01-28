@@ -1,0 +1,5 @@
+implicitly nested scope.
+Changed in version 3.11: Asynchronous comprehensions are now allowed
+inside comprehensions in asynchronous functions. Outer comprehensions
+implicitly become asynchronous.
+6.2.5. List displays

@@ -1,0 +1,4 @@
+additional entries in the dictionary representing the filter):
+* "preset": A compression preset to use as a source of default values
+  for options that are not specified explicitly.
+* "dict_size": Dictionary size in bytes. This should be between 4 KiB

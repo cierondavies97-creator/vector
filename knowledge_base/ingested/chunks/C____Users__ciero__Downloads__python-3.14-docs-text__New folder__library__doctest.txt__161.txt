@@ -1,0 +1,4 @@
+The *tearDown* function will be passed a "DocTest" object.  The
+   *tearDown* function can access the test globals as the "globs"
+   attribute of the test passed.
+   Optional argument *globs* is a dictionary containing the initial

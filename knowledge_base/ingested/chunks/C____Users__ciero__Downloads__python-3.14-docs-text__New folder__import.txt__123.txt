@@ -1,0 +1,4 @@
+modules, such as URLs, or database queries.  Only strings should be
+present on "sys.path"; all other data types are ignored.
+The *path based finder* is a *meta path finder*, so the import
+machinery begins the *import path* search by calling the path based

@@ -1,0 +1,5 @@
+other functions, the "fwalk()" default value for *follow_symlinks*
+   is "False".
+   Note:
+     Since "fwalk()" yields file descriptors, those are only valid
+     until the next iteration step, so you should duplicate them (e.g.

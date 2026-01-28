@@ -1,0 +1,4 @@
+collection is not run.
+   The fraction of the old generation that is collected is
+   **inversely** proportional to *threshold1*. The larger *threshold1*
+   is, the slower objects in the old generation are collected. For the

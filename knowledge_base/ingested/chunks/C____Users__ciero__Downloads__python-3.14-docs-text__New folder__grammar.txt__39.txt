@@ -1,0 +1,3 @@
+import_from[stmt_ty]:
+       | 'from' a=('.' | '...')* b=dotted_name 'import' c=import_from_targets {
+           _PyPegen_checked_future_import(p, b->v.Name.id, c, _PyPegen_seq_count_dots(a), EXTRA) }

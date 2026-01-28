@@ -1,0 +1,5 @@
+curses.can_change_color()
+   Return "True" or "False", depending on whether the programmer can
+   change the colors displayed by the terminal.
+curses.cbreak()
+   Enter cbreak mode.  In cbreak mode (sometimes called "rare" mode)

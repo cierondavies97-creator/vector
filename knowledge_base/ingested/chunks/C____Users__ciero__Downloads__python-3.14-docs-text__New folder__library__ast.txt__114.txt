@@ -1,0 +1,6 @@
+empty lists.
+      >>> print(ast.dump(ast.parse('func(a, b=c, *d, **e)', mode='eval'), indent=4))
+      Expression(
+          body=Call(
+              func=Name(id='func', ctx=Load()),
+              args=[

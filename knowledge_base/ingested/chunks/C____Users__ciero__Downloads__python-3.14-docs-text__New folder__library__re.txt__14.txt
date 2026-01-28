@@ -1,0 +1,5 @@
+construction.
+A brief explanation of the format of regular expressions follows.  For
+further information and a gentler presentation, consult the Regular
+Expression HOWTO.
+Regular expressions can contain both special and ordinary characters.

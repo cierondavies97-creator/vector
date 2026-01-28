@@ -1,0 +1,3 @@
+|                   | co_firstlineno      | number of first line in     |
+|                   |                     | Python source code          |
++-------------------+---------------------+-----------------------------+

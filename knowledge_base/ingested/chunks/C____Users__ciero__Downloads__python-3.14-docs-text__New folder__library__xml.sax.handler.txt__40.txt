@@ -1,0 +1,4 @@
+The *name* parameter contains the name of the element type, just as
+   with the "startElement()" event.
+ContentHandler.startElementNS(name, qname, attrs)
+   Signals the start of an element in namespace mode.

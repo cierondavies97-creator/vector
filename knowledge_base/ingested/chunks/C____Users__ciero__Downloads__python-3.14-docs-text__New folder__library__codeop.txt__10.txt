@@ -1,0 +1,4 @@
+"__future__" statement, the instance 'remembers' and compiles all
+   subsequent program texts with the statement in force.
+class codeop.CommandCompiler
+   Instances of this class have "__call__()" methods identical in

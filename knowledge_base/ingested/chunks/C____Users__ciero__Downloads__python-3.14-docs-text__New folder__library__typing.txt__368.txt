@@ -1,0 +1,5 @@
+This means that a "Point2D" "TypedDict" can have the "label" key
+   omitted.
+   It is also possible to mark all keys as non-required by default by
+   specifying a totality of "False":
+      class Point2D(TypedDict, total=False):

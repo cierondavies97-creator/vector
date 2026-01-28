@@ -1,0 +1,2 @@
+| "list.format"                     | "PYTHON_MANAGER_LIST_FORMAT"      | Specify the default format used   |
+|                                   |                                   | by the "py list" command. By      |

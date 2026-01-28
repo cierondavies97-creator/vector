@@ -1,0 +1,5 @@
+Without *expression*, list all display expressions for the current
+   frame.
+   Note:
+     Display evaluates *expression* and compares to the result of the
+     previous evaluation of *expression*, so when the result is

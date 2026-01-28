@@ -1,0 +1,5 @@
+It is set automatically later to a special object for namespace
+      packages.
+   loader_state
+      The *finder* may set this attribute to an object containing
+      additional, module-specific data to use when loading the module.

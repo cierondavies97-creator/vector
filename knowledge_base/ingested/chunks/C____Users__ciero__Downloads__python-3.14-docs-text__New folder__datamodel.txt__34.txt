@@ -1,0 +1,5 @@
+meaningful interpretation of shift and mask operations involving
+  negative integers.
+There are two types of integers:
+Integers ("int")
+   These represent numbers in an unlimited range, subject to available

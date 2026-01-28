@@ -1,0 +1,4 @@
+* If the environment variable "PYTHONHOME" is set, it is assumed as
+  "Python Home".  Otherwise, the path of the main Python executable is
+  used to locate a "landmark file" (either "Lib\os.py" or
+  "pythonXY.zip") to deduce the "Python Home".  If a Python home is

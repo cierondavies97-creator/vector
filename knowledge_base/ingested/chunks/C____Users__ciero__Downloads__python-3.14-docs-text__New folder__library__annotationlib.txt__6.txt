@@ -1,0 +1,4 @@
+retrieving annotations. Given a function, class, or module, it returns
+an annotations dictionary in the requested format. This module also
+provides functionality for working directly with the *annotate
+function* that is used to evaluate annotations, such as

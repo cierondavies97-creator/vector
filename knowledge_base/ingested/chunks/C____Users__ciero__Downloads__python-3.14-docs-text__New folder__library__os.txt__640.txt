@@ -1,0 +1,3 @@
+module is recommended instead.
+os.posix_spawn(path, argv, env, *, file_actions=None, setpgroup=None, resetids=False, setsid=False, setsigmask=(), setsigdef=(), scheduler=None)
+   Wraps the "posix_spawn()" C library API for use from Python.

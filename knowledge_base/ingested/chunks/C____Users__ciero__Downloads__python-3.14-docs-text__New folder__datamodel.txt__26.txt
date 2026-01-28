@@ -1,0 +1,5 @@
+should not be evaluated in a boolean context.
+See Implementing the arithmetic operations for more details.
+Changed in version 3.9: Evaluating "NotImplemented" in a boolean
+context was deprecated.
+Changed in version 3.14: Evaluating "NotImplemented" in a boolean

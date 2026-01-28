@@ -1,0 +1,4 @@
+string formatting facilities in Python.  As an example of a library
+built on template strings for i18n, see the flufl.i18n package.
+Template strings support "$"-based substitutions, using the following
+rules:

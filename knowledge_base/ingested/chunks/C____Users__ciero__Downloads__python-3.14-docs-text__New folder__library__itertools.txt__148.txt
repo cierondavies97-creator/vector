@@ -1,0 +1,5 @@
+"Repeat calls to a function with specified arguments."
+       if times is None:
+           return starmap(function, repeat(args))
+       return starmap(function, repeat(args, times))
+   def flatten(list_of_lists):

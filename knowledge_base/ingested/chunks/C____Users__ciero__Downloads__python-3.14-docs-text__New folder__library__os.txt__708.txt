@@ -1,0 +1,5 @@
+"waitstatus_to_exitcode()" can be used to convert the exit status
+   into an exit code.
+   Availability: Unix, not WASI, not Android, not iOS.
+   See also:
+     The other "wait*()" functions documented below can be used to

@@ -1,0 +1,4 @@
+>>> MessageBox = prototype(("MessageBoxW", windll.user32), paramflags)
+The "MessageBox" foreign function can now be called in these ways:
+   >>> MessageBox()
+   >>> MessageBox(text="Spam, spam, spam")

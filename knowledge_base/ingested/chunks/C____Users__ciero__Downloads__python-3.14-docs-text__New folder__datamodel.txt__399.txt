@@ -1,0 +1,4 @@
+least for instance variables, you can take total control by not
+   inserting any values in the instance attribute dictionary (but
+   instead inserting them in another object).  See the
+   "__getattribute__()" method below for a way to actually get total

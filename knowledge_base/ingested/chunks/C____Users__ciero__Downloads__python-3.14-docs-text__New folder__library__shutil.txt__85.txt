@@ -1,0 +1,5 @@
+>>> shutil.which("C:\\Python33\\python")
+      'C:\\Python33\\python.EXE'
+   Added in version 3.3.
+   Changed in version 3.8: The "bytes" type is now accepted.  If *cmd*
+   type is "bytes", the result type is also "bytes".

@@ -1,0 +1,7 @@
+token.NAME
+   Token value that indicates an identifier. Note that keywords are
+   also initially tokenized as "NAME" tokens.
+token.NUMBER
+   Token value that indicates a numeric literal
+token.STRING
+   Token value that indicates a string or byte literal, excluding

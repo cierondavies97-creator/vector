@@ -1,0 +1,3 @@
+bytes objects actually behave like immutable sequences of integers,
+   with each value in the sequence restricted such that "0 <= x < 256"
+   (attempts to violate this restriction will trigger "ValueError").

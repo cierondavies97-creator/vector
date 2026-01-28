@@ -1,0 +1,5 @@
+list. The "call" object can be used for conveniently
+      constructing lists of calls to compare with "call_args_list".
+      >>> mock = Mock(return_value=None)
+      >>> mock()
+      >>> mock(3, 4)

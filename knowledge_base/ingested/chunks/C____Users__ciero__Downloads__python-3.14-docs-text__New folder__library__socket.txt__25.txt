@@ -1,0 +1,5 @@
+If not given, defaults to zero.
+    * "bdaddr_type" is an optional integer specifying the address
+      type; one of "BDADDR_BREDR" (default), "BDADDR_LE_PUBLIC",
+      "BDADDR_LE_RANDOM".
+    Changed in version 3.14: Added "cid" and "bdaddr_type" fields.

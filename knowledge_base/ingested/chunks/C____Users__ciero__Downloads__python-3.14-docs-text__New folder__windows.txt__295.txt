@@ -1,0 +1,5 @@
+"sys.meta_path" in the future.
+4.9. Additional modules
+=======================
+Even though Python aims to be portable among all platforms, there are
+features that are unique to Windows.  A couple of modules, both in the

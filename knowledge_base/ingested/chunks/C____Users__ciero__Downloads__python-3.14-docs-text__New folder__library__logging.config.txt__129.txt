@@ -1,0 +1,6 @@
+- hand_name_2
+         ...
+The "queue" and "listener" keys are optional.
+If the "queue" key is present, the corresponding value can be one of
+the following:
+* An object implementing the "Queue.put_nowait" and "Queue.get" public

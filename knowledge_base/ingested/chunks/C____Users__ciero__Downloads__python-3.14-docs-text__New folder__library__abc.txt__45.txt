@@ -1,0 +1,6 @@
+@abstractmethod
+          def x(self, val):
+              ...
+   If only some components are abstract, only those components need to
+   be updated to create a concrete property in a subclass:
+      class D(C):

@@ -1,0 +1,5 @@
+"request", "arg".
+   Changed in version 3.14: The GIL is always released during a system
+   call. System calls failing with EINTR are automatically retried.
+fcntl.flock(fd, operation, /)
+   Perform the lock operation *operation* on file descriptor *fd*

@@ -1,0 +1,5 @@
+...         103, 107, 101, 81, 109, 104]
+      >>> [round(q, 1) for q in quantiles(data, n=10)]
+      [81.0, 86.2, 89.0, 99.4, 102.5, 103.6, 106.0, 109.8, 111.0]
+   Added in version 3.8.
+   Changed in version 3.13: No longer raises an exception for an input

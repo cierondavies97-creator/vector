@@ -1,0 +1,5 @@
+documentation.
+   The *zstd_dict* argument is an instance of "ZstdDict" containing
+   trained data used during compression. This must be the same
+   Zstandard dictionary used during compression.
+   If *data* is the concatenation of multiple distinct compressed

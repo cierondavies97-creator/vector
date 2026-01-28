@@ -1,0 +1,4 @@
+might want to skip to the list of assert methods.)
+The "unittest" unit testing framework was originally inspired by JUnit
+and has a similar flavor as major unit testing frameworks in other
+languages.  It supports test automation, sharing of setup and shutdown

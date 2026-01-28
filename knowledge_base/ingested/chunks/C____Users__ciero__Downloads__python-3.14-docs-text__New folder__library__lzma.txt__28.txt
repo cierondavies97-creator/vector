@@ -1,0 +1,4 @@
+include in the compressed data. This check is used when
+   decompressing, to ensure that the data has not been corrupted.
+   Possible values are:
+   * "CHECK_NONE": No integrity check. This is the default (and the

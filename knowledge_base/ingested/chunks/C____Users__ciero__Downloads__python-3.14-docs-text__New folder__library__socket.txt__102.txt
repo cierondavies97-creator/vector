@@ -1,0 +1,6 @@
+used for the latter for the message type.
+   Added in version 3.11.
+   Availability: FreeBSD.
+socket.SO_INCOMING_CPU
+   Constant to optimize CPU locality, to be used in conjunction with
+   "SO_REUSEPORT".

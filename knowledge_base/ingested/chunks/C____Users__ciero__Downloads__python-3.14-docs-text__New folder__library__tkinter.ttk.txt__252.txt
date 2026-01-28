@@ -1,0 +1,5 @@
+are expected to have the same syntax used for
+      "theme_settings()".
+   theme_settings(themename, settings)
+      Temporarily sets the current theme to *themename*, apply
+      specified *settings* and then restore the previous theme.

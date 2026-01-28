@@ -1,0 +1,4 @@
+ignored, and the remaining removable items deleted on a "best-
+      effort" basis. Otherwise, errors will be raised in whatever
+      context cleanup occurs (the "cleanup()" call, exiting the
+      context manager, when the object is garbage-collected or during

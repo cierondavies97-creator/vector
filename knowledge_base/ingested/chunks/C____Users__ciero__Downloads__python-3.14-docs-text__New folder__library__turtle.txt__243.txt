@@ -1,0 +1,5 @@
+>>> screen.register_shape("turtle.gif")
+      Note:
+        Image shapes *do not* rotate when turning the turtle, so they
+        do not display the heading of the turtle!
+   2. *name* is an arbitrary string and *shape* is the name of an

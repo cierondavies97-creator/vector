@@ -1,0 +1,5 @@
+the "cur" subdirectory).
+      Note:
+        A message is typically moved from "new" to "cur" after its
+        mailbox has been accessed, whether or not the message has been
+        read. A message "msg" has been read if ""S" in

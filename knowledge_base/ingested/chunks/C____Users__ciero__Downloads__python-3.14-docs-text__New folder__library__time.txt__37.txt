@@ -1,0 +1,5 @@
+time.
+   "localtime()" may raise "OverflowError", if the timestamp is
+   outside the range of values supported by the platform C
+   "localtime()" or "gmtime()" functions, and "OSError" on
+   "localtime()" or "gmtime()" failure. It's common for this to be

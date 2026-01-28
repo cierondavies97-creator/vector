@@ -1,0 +1,4 @@
+True
+         If either format string is not supported by the "struct"
+         module, then the objects will always compare as unequal (even
+         if the format strings and buffer contents are identical):

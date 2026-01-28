@@ -1,0 +1,4 @@
+"OptionParser.parse_args()", and can be overridden by a custom
+   subclass passed to the *values* argument of
+   "OptionParser.parse_args()" (as described in Parsing arguments).
+Option arguments (and various other values) are stored as attributes

@@ -1,0 +1,6 @@
+This special case is deprecated, as the "staticmethod()" decorator
+   is now correctly identified as abstract when applied to an abstract
+   method:
+      class C(ABC):
+          @staticmethod
+          @abstractmethod

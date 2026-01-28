@@ -1,0 +1,6 @@
+* interactive prompt
+* "-c" option
+* running from stdin
+* running directly from a source or bytecode file
+Note that "__main__.__spec__" is always "None" in the last case, *even
+if* the file could technically be imported directly as a module

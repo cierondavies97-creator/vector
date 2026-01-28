@@ -1,0 +1,5 @@
+nice, too).
+   Existing context managers that already have a base class can be
+   extended by using "ContextDecorator" as a mixin class:
+      from contextlib import ContextDecorator
+      class mycontext(ContextBaseClass, ContextDecorator):

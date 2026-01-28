@@ -1,0 +1,3 @@
+| "f = t2 / t3"                    | Division (3) of overall duration "t2" by        |
+|                                  | interval unit "t3". Returns a "float" object.   |
++----------------------------------+-------------------------------------------------+

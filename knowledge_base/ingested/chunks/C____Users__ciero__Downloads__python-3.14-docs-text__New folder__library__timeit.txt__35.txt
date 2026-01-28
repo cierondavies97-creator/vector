@@ -1,0 +1,8 @@
+the default
+   Added in version 3.3.
+-u, --unit=U
+   specify a time unit for timer output; can select "nsec", "usec",
+   "msec", or "sec"
+   Added in version 3.5.
+-v, --verbose
+   print raw timing results; repeat for more digits precision

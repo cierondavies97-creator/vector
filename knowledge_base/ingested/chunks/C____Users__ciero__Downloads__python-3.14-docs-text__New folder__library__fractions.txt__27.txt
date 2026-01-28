@@ -1,0 +1,6 @@
+Fraction(1, 2)
+      >>> Fraction(1.1).limit_denominator()
+      Fraction(11, 10)
+   __floor__()
+      Returns the greatest "int" "<= self".  This method can also be
+      accessed through the "math.floor()" function:

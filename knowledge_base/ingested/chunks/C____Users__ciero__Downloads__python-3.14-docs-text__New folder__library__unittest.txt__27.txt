@@ -1,0 +1,6 @@
+You can run tests with more detail (higher verbosity) by passing in
+the -v flag:
+   python -m unittest -v test_module
+When executed without arguments Test Discovery is started:
+   python -m unittest
+For a list of all the command-line options:

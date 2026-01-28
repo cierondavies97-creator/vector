@@ -1,0 +1,4 @@
+connection's certificate, you need to provide a "CA certs" file,
+filled with the certificate chains for each issuer you are willing to
+trust.  Again, this file just contains these chains concatenated
+together.  For validation, Python will use the first chain it finds in

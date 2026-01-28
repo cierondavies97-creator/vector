@@ -1,0 +1,4 @@
+subparsers, and mutually exclusive groups that include both
+   optionals and positionals are not supported.
+   The following example shows the difference between
+   "parse_known_args()" and "parse_intermixed_args()": the former

@@ -1,0 +1,4 @@
+If a segment is an absolute path (which on Windows requires both a
+   drive and a root), then all previous segments are ignored and
+   joining continues from the absolute path segment. On Linux, for
+   example:

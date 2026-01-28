@@ -1,0 +1,5 @@
++--------------------------------+----------------------------------+-----------------------+
+Notes:
+1. If *k* is not equal to "1", *t* must have the same length as the
+   slice it is replacing.
+2. The value *n* is an integer, or an object implementing

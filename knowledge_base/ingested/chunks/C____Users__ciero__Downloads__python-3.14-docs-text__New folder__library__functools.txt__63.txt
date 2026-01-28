@@ -1,0 +1,5 @@
+Hello dear world!
+   Calling "say_to_world('Hello')" raises a "TypeError", because only
+   one positional argument is provided, but there are two placeholders
+   that must be filled in.
+   If "partial()" is applied to an existing "partial()" object,

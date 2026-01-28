@@ -1,0 +1,4 @@
+passing tests against APIs that don't actually exist!
+   Note:
+     Changed in version 3.5: If you are patching builtins in a module
+     then you don't need to pass "create=True", it will be added by

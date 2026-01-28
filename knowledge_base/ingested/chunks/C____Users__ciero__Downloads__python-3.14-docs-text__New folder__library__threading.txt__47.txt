@@ -1,0 +1,10 @@
+>>> mydata.number
+   42
+You can also access the "local"-object's dictionary:
+   >>> mydata.__dict__
+   {'number': 42}
+   >>> mydata.__dict__.setdefault('widgets', [])
+   []
+   >>> mydata.widgets
+   []
+If we access the data in a different thread:

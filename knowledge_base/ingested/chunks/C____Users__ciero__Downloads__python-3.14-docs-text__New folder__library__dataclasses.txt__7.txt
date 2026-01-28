@@ -1,0 +1,4 @@
+annotation*.  With two exceptions described below, nothing in
+   "@dataclass" examines the type specified in the variable
+   annotation.
+   The order of the fields in all of the generated methods is the

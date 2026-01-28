@@ -1,0 +1,5 @@
+disable it.
+   checksum_flag
+      A four-byte checksum using XXHash64 of the uncompressed content
+      is written at the end of each frame. Zstandard's decompression
+      code verifies the checksum. If there is a mismatch a "ZstdError"

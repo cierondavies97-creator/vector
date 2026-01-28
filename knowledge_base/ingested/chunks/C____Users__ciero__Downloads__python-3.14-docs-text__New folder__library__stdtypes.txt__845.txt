@@ -1,0 +1,4 @@
+on an object. For example, "regular expressions" can be used on both
+the "str" data type and the "bytes" data type:
+* If "x = re.search('foo', 'foo')", "x" will be a re.Match object
+  where the return values of "x.group(0)" and "x[0]" will both be of

@@ -1,0 +1,4 @@
+to define, customize, and control how class instances are pickled and
+unpickled.
+In most cases, no additional code is needed to make instances
+picklable.  By default, pickle will retrieve the class and the

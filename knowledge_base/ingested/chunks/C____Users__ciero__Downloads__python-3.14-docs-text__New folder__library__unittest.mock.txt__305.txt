@@ -1,0 +1,4 @@
+"MagicMock", with the exception of *return_value* and *side_effect*
+   which have no meaning on a non-callable mock.
+The magic methods are setup with "MagicMock" objects, so you can
+configure them and use them in the usual way:

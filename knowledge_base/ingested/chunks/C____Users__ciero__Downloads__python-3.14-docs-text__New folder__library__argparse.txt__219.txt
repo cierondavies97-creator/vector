@@ -1,0 +1,4 @@
+will be absent if the action is associated with a positional
+        argument.
+      The "__call__()" method may perform arbitrary actions, but will
+      typically set attributes on the "namespace" based on "dest" and

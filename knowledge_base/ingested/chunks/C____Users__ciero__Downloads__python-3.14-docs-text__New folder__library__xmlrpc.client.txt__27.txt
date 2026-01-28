@@ -1,0 +1,3 @@
+|                        | *allow_none* is true.                                   |
+   +------------------------+---------------------------------------------------------+
+   | "bigdecimal"           | "decimal.Decimal".  Returned type only.                 |

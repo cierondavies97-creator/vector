@@ -1,0 +1,4 @@
+is being updated as expected:
+inspect.getgeneratorlocals(generator)
+   Get the mapping of live local variables in *generator* to their
+   current values.  A dictionary is returned that maps from variable

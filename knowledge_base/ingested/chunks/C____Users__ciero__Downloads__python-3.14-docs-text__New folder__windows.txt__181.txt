@@ -1,0 +1,2 @@
+|                                                    | "Python (default windowed)" and "Python install    |
+|                                                    | manager" commands may also need refreshing.        |

@@ -1,0 +1,4 @@
+blank line is expected.  When "DONT_ACCEPT_BLANKLINE" is specified,
+   this substitution is not allowed.
+doctest.NORMALIZE_WHITESPACE
+   When specified, all sequences of whitespace (blanks and newlines)

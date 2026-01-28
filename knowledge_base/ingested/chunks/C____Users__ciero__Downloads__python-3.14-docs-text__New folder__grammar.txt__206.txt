@@ -1,0 +1,5 @@
+p,
+               CHECK(asdl_seq*, _PyPegen_singleton_seq(p, a)),
+               b) }
+       | '*' a=expression { (asdl_expr_seq*)_PyPegen_singleton_seq(p, a) }
+       | '**' a=expression { (asdl_expr_seq*)_PyPegen_singleton_seq(p, a) }

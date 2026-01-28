@@ -1,0 +1,3 @@
+copy to (if absent, the location will be a tempfile with a
+   generated name). The third argument, if present, is a callable that
+   will be called once on establishment of the network connection and

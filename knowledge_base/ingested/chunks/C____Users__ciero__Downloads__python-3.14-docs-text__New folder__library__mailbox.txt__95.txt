@@ -1,0 +1,4 @@
+moving them to sub-folders. Sequences are defined in a file called
+   ".mh_sequences" in each folder.
+   The "MH" class manipulates MH mailboxes, but it does not attempt to
+   emulate all of **mh**'s behaviors. In particular, it does not

@@ -1,0 +1,8 @@
+and strings accept an index or a slice:
+   >>> itemgetter(1)('ABCDEFG')
+   'B'
+   >>> itemgetter(1, 3, 5)('ABCDEFG')
+   ('B', 'D', 'F')
+   >>> itemgetter(slice(2, None))('ABCDEFG')
+   'CDEFG'
+   >>> soldier = dict(rank='captain', name='dotterbart')

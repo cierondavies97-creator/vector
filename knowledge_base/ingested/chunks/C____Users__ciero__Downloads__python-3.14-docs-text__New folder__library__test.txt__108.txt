@@ -1,0 +1,4 @@
+representation of the raised "SyntaxError".  If *lineno* is not
+   "None", compares to the line of the exception.  If *offset* is not
+   "None", compares to the offset of the exception.
+test.support.open_urlresource(url, *args, **kw)

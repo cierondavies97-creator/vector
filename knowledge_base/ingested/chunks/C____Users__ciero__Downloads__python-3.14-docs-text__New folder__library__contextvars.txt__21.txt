@@ -1,0 +1,4 @@
+current context to what it was before the context was entered by
+   popping the context off the top of the context stack.
+   Since each thread has its own context stack, "ContextVar" objects
+   behave in a similar fashion to "threading.local()" when values are

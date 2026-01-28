@@ -1,0 +1,5 @@
+are similar to those of "mkstemp()", except that bytes file names,
+   "suffix=None" and "prefix=None" are not supported.
+   Warning:
+     Use of this function may introduce a security hole in your
+     program.  By the time you get around to doing anything with the

@@ -1,0 +1,3 @@
+library. It might be missing for certain types of modules, such as
+   C modules that are statically linked into the interpreter, and the
+   import system may opt to leave it unset if it has no semantic

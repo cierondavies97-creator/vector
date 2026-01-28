@@ -1,0 +1,6 @@
+"sentinel.DEFAULT"). It can be used by "side_effect" functions to
+   indicate that the normal return value should be used.
+call
+----
+unittest.mock.call(*args, **kwargs)
+   "call()" is a helper object for making simpler assertions, for

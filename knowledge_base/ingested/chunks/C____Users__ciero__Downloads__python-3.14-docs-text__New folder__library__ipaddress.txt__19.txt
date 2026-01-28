@@ -1,0 +1,6 @@
+strict as glibc "inet_pton()".
+   version
+      The appropriate version number: "4" for IPv4, "6" for IPv6.
+      Changed in version 3.14: Made available on the class.
+   max_prefixlen
+      The total number of bits in the address representation for this

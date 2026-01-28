@@ -1,0 +1,4 @@
+restoring the module's "showwarning()" function.  That is not
+concurrent-safe.
+When *record* is true and the flag is true, the "showwarning()"
+function is not replaced.  Instead, the recording status is indicated

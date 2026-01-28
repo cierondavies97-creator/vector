@@ -1,0 +1,5 @@
+finally:
+       some_lock.release()
+Currently, "Lock", "RLock", "Condition", "Semaphore", and
+"BoundedSemaphore" objects may be used as "with" statement context
+managers.

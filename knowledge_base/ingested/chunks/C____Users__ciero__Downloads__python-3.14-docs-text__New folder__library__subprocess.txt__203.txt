@@ -1,0 +1,6 @@
+was added.
+   Changed in version 3.6: *encoding* and *errors* were added.  See
+   "run()" for details.
+   Added in version 3.7: *text* was added as a more readable alias for
+   *universal_newlines*.
+   Changed in version 3.12: Changed Windows shell search order for

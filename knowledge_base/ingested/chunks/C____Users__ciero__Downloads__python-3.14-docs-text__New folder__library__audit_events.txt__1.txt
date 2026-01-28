@@ -1,0 +1,4 @@
+See "sys.addaudithook()" and "PySys_AddAuditHook()" for information on
+handling these events.
+**CPython implementation detail:** This table is generated from the
+CPython documentation, and may not represent events raised by other

@@ -1,0 +1,4 @@
+the text on the command line is stored in the destination (or passed
+to the callback) as-is.
+Integer arguments (type ""int"") are parsed as follows:
+* if the number starts with "0x", it is parsed as a hexadecimal number

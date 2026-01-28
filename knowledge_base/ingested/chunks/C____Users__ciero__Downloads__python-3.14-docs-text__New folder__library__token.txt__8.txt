@@ -1,0 +1,5 @@
+sequences.
+token.OP
+   A generic token value that indicates an operator or delimiter.
+   **CPython implementation detail:** This value is only reported by
+   the "tokenize" module. Internally, the tokenizer uses exact token

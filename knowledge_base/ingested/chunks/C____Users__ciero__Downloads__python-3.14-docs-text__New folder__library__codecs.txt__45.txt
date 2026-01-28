@@ -1,0 +1,3 @@
+Each codec has to define four interfaces to make it usable as codec in
+Python: stateless encoder, stateless decoder, stream reader and stream
+writer. The stream reader and writers typically reuse the stateless

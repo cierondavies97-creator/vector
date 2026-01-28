@@ -1,0 +1,4 @@
+os.remove(fn)
+   # Of course, there are lots of email messages that could break this simple
+   # minded program, but it will handle the most common ones.
+Up to the prompt, the output from the above is:

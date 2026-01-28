@@ -1,0 +1,5 @@
+Mutable sequences can be changed after they are created.  The
+subscription and slicing notations can be used as the target of
+assignment and "del" (delete) statements.
+Note:
+  The "collections" and "array" module provide additional examples of

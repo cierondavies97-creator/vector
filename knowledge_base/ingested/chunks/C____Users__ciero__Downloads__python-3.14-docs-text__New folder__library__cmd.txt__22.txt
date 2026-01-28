@@ -1,0 +1,5 @@
+Method called to complete an input line when no command-specific
+   "complete_*()" method is available.  By default, it returns an
+   empty list.
+Cmd.columnize(list, displaywidth=80)
+   Method called to display a list of strings as a compact set of

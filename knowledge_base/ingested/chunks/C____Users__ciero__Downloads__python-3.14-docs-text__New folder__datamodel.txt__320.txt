@@ -1,0 +1,4 @@
+applied to a sequence of *length* items.  It returns a tuple of
+   three integers; respectively these are the *start* and *stop*
+   indices and the *step* or stride length of the slice. Missing or
+   out-of-bounds indices are handled in a manner consistent with

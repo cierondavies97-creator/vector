@@ -1,0 +1,6 @@
+Repr.indent
+   If this attribute is set to "None" (the default), the output is
+   formatted with no line breaks or indentation, like the standard
+   "repr()". For example:
+      >>> example = [
+      ...     1, 'spam', {'a': 2, 'b': 'spam eggs', 'c': {3: 4.5, 6: []}}, 'ham']

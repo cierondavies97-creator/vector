@@ -1,0 +1,4 @@
+for line in fileinput.input(encoding="utf-8"):
+       process(line)
+This iterates over the lines of all files listed in "sys.argv[1:]",
+defaulting to "sys.stdin" if the list is empty.  If a filename is

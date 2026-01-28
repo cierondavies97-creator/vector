@@ -1,0 +1,4 @@
+doesn't make sense.  There are some times however, where you may
+   wish to have "ipaddress" sort these anyway.  If you need to do
+   this, you can use this function as the *key* argument to
+   "sorted()".

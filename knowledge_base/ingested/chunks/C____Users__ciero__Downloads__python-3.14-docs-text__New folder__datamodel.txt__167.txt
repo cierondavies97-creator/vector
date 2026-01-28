@@ -1,0 +1,6 @@
+module.__doc__
+   The module's documentation string, or "None" if unavailable. See
+   also: "__doc__ attributes".
+module.__annotations__
+   A dictionary containing *variable annotations* collected during
+   module body execution.  For best practices on working with

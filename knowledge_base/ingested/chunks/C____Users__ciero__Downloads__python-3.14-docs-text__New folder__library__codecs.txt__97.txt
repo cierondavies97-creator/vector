@@ -1,0 +1,4 @@
+the "IncrementalEncoder" object.
+   encode(object, final=False)
+      Encodes *object* (taking the current state of the encoder into
+      account) and returns the resulting encoded object. If this is

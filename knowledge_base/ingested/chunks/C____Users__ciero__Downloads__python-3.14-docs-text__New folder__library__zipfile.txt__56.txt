@@ -1,0 +1,3 @@
+becomes "foo/bar" on Unix, and "C:\foo\bar" becomes "foo\bar" on
+     Windows. And all "".."" components in a member filename will be
+     removed, e.g.: "../../foo../../ba..r" becomes "foo../ba..r".  On

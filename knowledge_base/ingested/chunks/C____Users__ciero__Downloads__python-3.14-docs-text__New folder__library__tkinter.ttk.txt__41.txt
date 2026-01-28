@@ -1,0 +1,3 @@
+|              | button will cause some action to occur                        |
++--------------+---------------------------------------------------------------+
+| disabled     | Widget is disabled under program control                      |

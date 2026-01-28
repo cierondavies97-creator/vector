@@ -1,0 +1,4 @@
+A quick overview of type hints (hosted at the mypy docs)
+  Type System Reference section of the mypy docs
+     The Python typing system is standardised via PEPs, so this
+     reference should broadly apply to most Python type checkers.

@@ -1,0 +1,2 @@
+| SimpleInstallDescription    | A custom message to display when the   | (empty)                    |
+|                             | simplified install UI is used.         |                            |

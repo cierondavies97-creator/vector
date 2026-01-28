@@ -1,0 +1,3 @@
+difference is this method should take a single integer argument,
+   the protocol version.  When defined, pickle will prefer it over the
+   "__reduce__()" method.  In addition, "__reduce__()" automatically

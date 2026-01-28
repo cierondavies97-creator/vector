@@ -1,0 +1,6 @@
+>>> dist = distribution('wheel')
+   >>> type(dist)
+   <class 'importlib.metadata.PathDistribution'>
+Thus, an alternative way to get the version number is through the
+"Distribution" instance:
+   >>> dist.version

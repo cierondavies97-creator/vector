@@ -1,0 +1,5 @@
+The "ctypes.util" module provides a function which can help to
+determine the library to load.
+ctypes.util.find_library(name)
+   Try to find a library and return a pathname.  *name* is the library
+   name without any prefix like *lib*, suffix like ".so", ".dylib" or

@@ -1,0 +1,5 @@
+"fractions" --- Rational numbers
+********************************
+**Source code:** Lib/fractions.py
+======================================================================
+The "fractions" module provides support for rational number

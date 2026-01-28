@@ -1,0 +1,3 @@
+As such, "closing()" is most useful for third party types that
+     don't support context managers. This example is purely for
+     illustration purposes, as "urlopen()" would normally be used in a

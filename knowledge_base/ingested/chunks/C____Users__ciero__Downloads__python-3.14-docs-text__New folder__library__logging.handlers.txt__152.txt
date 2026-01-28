@@ -1,0 +1,4 @@
+"MemoryHandler" is a subclass of the more general "BufferingHandler",
+which is an abstract class. This buffers logging records in memory.
+Whenever each record is added to the buffer, a check is made by
+calling "shouldFlush()" to see if the buffer should be flushed.  If it

@@ -1,0 +1,5 @@
+find(match, namespaces=None)
+      Same as "Element.find()", starting at the root of the tree.
+   findall(match, namespaces=None)
+      Same as "Element.findall()", starting at the root of the tree.
+   findtext(match, default=None, namespaces=None)

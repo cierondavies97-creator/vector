@@ -1,0 +1,4 @@
+module "urllib.request" to handle URLs that use FTP.  For more
+information on FTP (File Transfer Protocol), see internet **RFC 959**.
+The default encoding is UTF-8, following **RFC 2640**.
+Availability: not WASI.

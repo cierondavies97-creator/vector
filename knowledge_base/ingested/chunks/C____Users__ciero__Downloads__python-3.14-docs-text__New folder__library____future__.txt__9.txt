@@ -1,0 +1,2 @@
+| __future__.generators     | 2.2.0a1                   | 2.3                       | **PEP 255**: *Simple      |
+|                           |                           |                           | Generators*               |

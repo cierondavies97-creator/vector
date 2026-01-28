@@ -1,0 +1,5 @@
+"getint()" and "getfloat()" methods.  You can register your own
+converters and customize the provided ones. [1]
+Fallback Values
+===============
+As with a dictionary, you can use a section's "get()" method to

@@ -1,0 +1,4 @@
+interpreter the calling convention to be used for the C function.  It
+should normally always be "METH_VARARGS" or "METH_VARARGS |
+METH_KEYWORDS"; a value of "0" means that an obsolete variant of
+"PyArg_ParseTuple()" is used.

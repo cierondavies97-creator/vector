@@ -1,0 +1,5 @@
+object.__rxor__(self, other)
+object.__ror__(self, other)
+   These methods are called to implement the binary arithmetic
+   operations ("+", "-", "*", "@", "/", "//", "%", "divmod()",
+   "pow()", "**", "<<", ">>", "&", "^", "|") with reflected (swapped)

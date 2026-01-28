@@ -1,0 +1,6 @@
+>>> obj = Object()
+>>> f = weakref.finalize(obj, callback, 1, 2, z=3)
+>>> f.detach()
+(<...Object object ...>, <function callback ...>, (1, 2), {'z': 3})
+>>> newobj, func, args, kwargs = _
+>>> assert not f.alive

@@ -1,0 +1,2 @@
+| DefaultAllUsersTargetDir    | The default installation directory for | "%ProgramFiles%\Python     |
+|                             | all-user installs                      | X.Y" or "%ProgramFiles(x8  |

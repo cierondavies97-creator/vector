@@ -1,0 +1,3 @@
+useful for debugging purposes.  If *annotate_fields* is true (by
+   default), the returned string will show the names and the values
+   for fields. If *annotate_fields* is false, the result string will

@@ -1,0 +1,5 @@
+must always use absolute imports.
+6.4.3. Packages in Multiple Directories
+---------------------------------------
+Packages support one more special attribute, "__path__".  This is
+initialized to be a *sequence* of strings containing the name of the

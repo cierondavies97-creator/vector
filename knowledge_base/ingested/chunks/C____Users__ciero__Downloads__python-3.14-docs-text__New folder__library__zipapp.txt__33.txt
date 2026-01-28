@@ -1,0 +1,4 @@
+result in the loss of the original file.  This code does not protect
+against such errors, but production code should do so.  Also, this
+method will only work if the archive fits in memory:
+   >>> import zipapp

@@ -1,0 +1,3 @@
+"None" is now deprecated.
+urllib.parse.parse_qsl(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace', max_num_fields=None, separator='&')
+   Parse a query string given as a string argument (data of type

@@ -1,0 +1,2 @@
+|                                                    | "method.__func__.__doc__"). A "string" if the      |
+|                                                    | original function had a docstring, else "None".    |

@@ -1,0 +1,5 @@
+['F', 'A', 'C', 'C', 'B', 'A', 'A']
+The "bisect()" and "insort()" functions also work with lists of
+tuples.  The *key* argument can serve to extract the field used for
+ordering records in a table:
+   >>> from collections import namedtuple

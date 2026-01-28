@@ -1,0 +1,3 @@
+task2 = tg.create_task(another_coro(...))
+       print(f"Both tasks have completed now: {task1.result()}, {task2.result()}")
+The "async with" statement will wait for all tasks in the group to

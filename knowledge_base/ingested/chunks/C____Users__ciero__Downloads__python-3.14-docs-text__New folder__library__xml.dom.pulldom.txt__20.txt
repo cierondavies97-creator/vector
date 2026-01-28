@@ -1,0 +1,3 @@
+# Following statement prints node with all its children '<p>Some text <div>and more</div></p>'
+                 print(node.toxml())
+   reset()

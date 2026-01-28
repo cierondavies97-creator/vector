@@ -1,0 +1,3 @@
+server to start accepting connections immediately.  When set to
+     "False", the user should await on "Server.start_serving()" or
+     "Server.serve_forever()" to make the server to start accepting

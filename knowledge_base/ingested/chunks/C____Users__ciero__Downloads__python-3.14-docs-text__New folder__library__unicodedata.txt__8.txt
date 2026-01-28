@@ -1,0 +1,6 @@
+>>> unicodedata.decimal('\N{ARABIC-INDIC DIGIT NINE}')
+      9
+      >>> unicodedata.decimal('\N{SUPERSCRIPT NINE}', -1)
+      -1
+unicodedata.digit(chr, default=None, /)
+   Returns the digit value assigned to the character *chr* as integer.

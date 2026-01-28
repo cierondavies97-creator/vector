@@ -1,0 +1,8 @@
+MIME types are guessed from the file names, 404 errors are raised
+   if the file is not found.
+   """
+   import mimetypes
+   import os
+   import sys
+   from wsgiref import simple_server, util
+   def app(environ, respond):

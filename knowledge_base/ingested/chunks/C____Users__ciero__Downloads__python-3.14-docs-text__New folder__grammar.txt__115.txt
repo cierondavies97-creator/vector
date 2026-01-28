@@ -1,0 +1,6 @@
+keyword_pattern[KeyPatternPair*]:
+       | arg=NAME '=' value=pattern { _PyPegen_key_pattern_pair(p, arg, value) }
+   # Type statement
+   # ---------------
+   type_alias[stmt_ty]:
+       | "type" n=NAME t=[type_params] '=' b=expression {

@@ -1,0 +1,5 @@
+6. Modules
+**********
+If you quit from the Python interpreter and enter it again, the
+definitions you have made (functions and variables) are lost.
+Therefore, if you want to write a somewhat longer program, you are

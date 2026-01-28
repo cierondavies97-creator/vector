@@ -1,0 +1,5 @@
+threads typically requires synchronization to avoid *race
+   conditions* and *data races*.
+hash-based pyc
+   A bytecode cache file that uses the hash rather than the last-
+   modified time of the corresponding source file to determine its

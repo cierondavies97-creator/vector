@@ -1,0 +1,5 @@
+getpass.getuser()
+   Return the "login name" of the user.
+   This function checks the environment variables "LOGNAME", "USER",
+   "LNAME" and "USERNAME", in order, and returns the value of the
+   first one which is set to a non-empty string.  If none are set, the

@@ -1,0 +1,4 @@
+is west. If no offset follows dst, summer time is assumed to be
+      one hour ahead of standard time.
+   "start[/time], end[/time]"
+      Indicates when to change to and back from DST. The format of the

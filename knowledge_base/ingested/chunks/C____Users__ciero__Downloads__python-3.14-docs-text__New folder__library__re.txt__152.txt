@@ -1,0 +1,5 @@
+remainder of the string is returned as the final element of the
+   list.
+      >>> re.split(r'\W+', 'Words, words, words.')
+      ['Words', 'words', 'words', '']
+      >>> re.split(r'(\W+)', 'Words, words, words.')

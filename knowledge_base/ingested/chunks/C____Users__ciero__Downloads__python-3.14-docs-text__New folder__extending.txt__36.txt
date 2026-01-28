@@ -1,0 +1,4 @@
+or pretending nothing went wrong).
+Every failing "malloc()" call must be turned into an exception --- the
+direct caller of "malloc()" (or "realloc()") must call
+"PyErr_NoMemory()" and return a failure indicator itself.  All the

@@ -1,0 +1,4 @@
+* the string ""active"", which refers to the menu position that is
+     currently under the cursor;
+   * the string ""last"" which refers to the last menu item;
+   * An integer preceded by "@", as in "@6", where the integer is

@@ -1,0 +1,4 @@
+shown in GMT, set the "converter" attribute in the "Formatter"
+      class.
+      Changed in version 3.3: Previously, the default format was hard-
+      coded as in this example: "2010-09-06 22:38:15,292" where the

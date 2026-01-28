@@ -1,0 +1,5 @@
+...     if sys._jit.is_active():
+           ...         # This line is "cold", and is run in the interpreter:
+           ...         assert sys._jit.is_active()
+           ...
+           Traceback (most recent call last):

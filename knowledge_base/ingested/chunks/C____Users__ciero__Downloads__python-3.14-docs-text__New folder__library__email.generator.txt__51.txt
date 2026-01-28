@@ -1,0 +1,4 @@
+since if the message does not conform to the RFC standards
+    occasionally information about the exact original text is lost
+    during parsing error recovery.  It is a goal to fix these latter
+    edge cases when possible.

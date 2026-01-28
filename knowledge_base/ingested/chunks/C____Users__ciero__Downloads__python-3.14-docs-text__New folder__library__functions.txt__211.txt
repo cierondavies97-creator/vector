@@ -1,0 +1,3 @@
+the file if it already exists), "'x'" for exclusive creation, and
+   "'a'" for appending (which on *some* Unix systems, means that *all*
+   writes append to the end of the file regardless of the current seek

@@ -1,0 +1,4 @@
+The based class for all other module-specific exceptions.
+exception mailbox.NoSuchMailboxError
+   Raised when a mailbox is expected but is not found, such as when
+   instantiating a "Mailbox" subclass with a path that does not exist

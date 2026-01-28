@@ -1,0 +1,3 @@
+| "BLOB"        | "bytes"                                        |
++---------------+------------------------------------------------+
+The type system of the "sqlite3" module is extensible in two ways: you

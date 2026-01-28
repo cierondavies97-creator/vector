@@ -1,0 +1,6 @@
+"None".
+   readinto(b, /)
+      Read bytes into a pre-allocated, writable *bytes-like object*
+      *b* and return the number of bytes read. For example, *b* might
+      be a "bytearray".
+      Like "read()", multiple reads may be issued to the underlying

@@ -1,0 +1,5 @@
+| generator_expression | yield_atom
+6.2.1. Identifiers (Names)
+--------------------------
+An identifier occurring as an atom is a name.  See section Names
+(identifiers and keywords) for lexical definition and section Naming

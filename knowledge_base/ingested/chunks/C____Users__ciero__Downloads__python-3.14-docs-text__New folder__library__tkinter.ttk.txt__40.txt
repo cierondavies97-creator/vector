@@ -1,0 +1,3 @@
+| Flag         | Description                                                   |
+|==============|===============================================================|
+| active       | The mouse cursor is over the widget and pressing a mouse      |

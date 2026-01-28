@@ -1,0 +1,5 @@
+executemany(sql, parameters, /)
+      For every item in *parameters*, repeatedly execute the
+      parameterized DML (Data Manipulation Language) SQL statement
+      *sql*.
+      Uses the same implicit transaction handling as "execute()".

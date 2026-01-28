@@ -1,0 +1,6 @@
+"None".
+Timer objects
+-------------
+This class represents an action that should be run only after a
+certain amount of time has passed --- a timer.  "Timer" is a subclass
+of "Thread" and as such also functions as an example of creating

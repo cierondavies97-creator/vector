@@ -1,0 +1,7 @@
+while True:
+           yield start
+           start = await increment(start)
+   async def infinite_stream(start: int) -> AsyncGenerator[int, None]:
+       while True:
+           yield start
+           start = await increment(start)

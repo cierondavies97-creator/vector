@@ -1,0 +1,5 @@
+"PYTHONHASHSEED".
+   Changed in version 3.3: Hash randomization is enabled by default.
+object.__bool__(self)
+   Called to implement truth value testing and the built-in operation
+   "bool()"; should return "False" or "True".  When this method is not

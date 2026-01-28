@@ -1,0 +1,5 @@
+same type.
+The recommended way to create array types is by multiplying a data
+type with a positive integer:
+   TenPointsArrayType = POINT * 10
+Here is an example of a somewhat artificial data type, a structure

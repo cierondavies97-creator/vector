@@ -1,0 +1,2 @@
+| type.__firstlineno__                               | The line number of the first line of the class     |
+|                                                    | definition, including decorators. Setting the      |

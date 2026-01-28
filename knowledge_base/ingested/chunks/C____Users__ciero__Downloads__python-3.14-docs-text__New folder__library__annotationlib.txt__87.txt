@@ -1,0 +1,5 @@
+annotations = annotationlib.call_annotate_function(
+               annotate, format=annotationlib.Format.FORWARDREF
+            )
+            classvar_keys = {
+               key for key, value in annotations.items()

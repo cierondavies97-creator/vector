@@ -1,0 +1,3 @@
+strings. However, quite often the command-line string should instead
+be interpreted as another type, such as a "float" or "int".  The
+"type" keyword for "add_argument()" allows any necessary type-checking

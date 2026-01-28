@@ -1,0 +1,4 @@
+If used, an "if __name__ == '__main__'" block will still work as
+expected for a "__main__.py" file within a package, because its
+"__name__" attribute will include the package's path if imported:
+   >>> import asyncio.__main__

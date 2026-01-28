@@ -1,0 +1,5 @@
+the block.
+   The old value (or "None" if it doesn't exist) will be assigned to
+   the target of the "as" clause, if there is one.
+test.support.swap_item(obj, attr, new_val)
+   Context manager to swap out an item with a new object.

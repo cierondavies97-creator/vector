@@ -1,0 +1,4 @@
+For example, "product(A, B)" returns the same as "((x,y) for x in A
+   for y in B)".
+   The nested loops cycle like an odometer with the rightmost element
+   advancing on every iteration.  This pattern creates a lexicographic

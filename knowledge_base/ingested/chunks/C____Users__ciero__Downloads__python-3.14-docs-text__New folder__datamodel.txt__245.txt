@@ -1,0 +1,2 @@
+|                                                    | outer scope. See also "function.__closure__".      |
+|                                                    | Note: references to global and builtin names are   |

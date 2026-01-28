@@ -1,0 +1,5 @@
+The default is "9".
+   For incremental compression, use a "BZ2Compressor" instead.
+bz2.decompress(data)
+   Decompress *data*, a *bytes-like object*.
+   If *data* is the concatenation of multiple compressed streams,

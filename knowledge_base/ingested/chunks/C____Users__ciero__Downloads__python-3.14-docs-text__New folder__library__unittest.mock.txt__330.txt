@@ -1,0 +1,4 @@
+interesting, but the "call" objects that are in the "Mock.call_args",
+"Mock.call_args_list" and "Mock.mock_calls" attributes can be
+introspected to get at the individual arguments they contain.
+The "call" objects in "Mock.call_args" and "Mock.call_args_list" are

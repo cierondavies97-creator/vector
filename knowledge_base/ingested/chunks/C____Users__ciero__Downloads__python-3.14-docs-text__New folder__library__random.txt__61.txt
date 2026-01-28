@@ -1,0 +1,7 @@
+the shape parameter.
+Alternative Generator
+=====================
+class random.Random([seed])
+   Class that implements the default pseudo-random number generator
+   used by the "random" module.
+   Changed in version 3.11: Formerly the *seed* could be any hashable

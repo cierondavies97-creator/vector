@@ -1,0 +1,6 @@
+write operation would increment the counter to a value larger than
+   2^64-2.
+   Example:
+      import os
+      # semaphore with start value '1'
+      fd = os.eventfd(1, os.EFD_SEMAPHORE | os.EFC_CLOEXEC)

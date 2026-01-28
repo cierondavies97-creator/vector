@@ -1,0 +1,5 @@
+"stringprep" --- Internet String Preparation
+********************************************
+**Source code:** Lib/stringprep.py
+======================================================================
+When identifying things (such as host names) in the internet, it is

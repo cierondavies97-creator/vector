@@ -1,0 +1,4 @@
+option takes arguments is similar to defining a ""store"" or
+""append"" option: if you define "type", then the option takes one
+argument that must be convertible to that type; if you further define
+"nargs", then the option takes "nargs" arguments.

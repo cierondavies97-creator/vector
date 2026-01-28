@@ -1,0 +1,4 @@
+A "Turtle" instance will automatically create a "Screen" instance if
+one is not already present.
+"Turtle" is a subclass of "RawTurtle", which *doesn't* automatically
+create a drawing surface - a *canvas* will need to be provided or

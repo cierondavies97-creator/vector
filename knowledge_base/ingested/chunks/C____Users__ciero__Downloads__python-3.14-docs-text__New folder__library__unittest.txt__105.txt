@@ -1,0 +1,4 @@
+neither change the *methodName* nor reimplement the default
+   "runTest()" method.
+   Changed in version 3.2: "TestCase" can be instantiated successfully
+   without providing a *methodName*. This makes it easier to

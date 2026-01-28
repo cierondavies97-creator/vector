@@ -1,0 +1,5 @@
+Result of this example is:
+      <asyncio.locks.Barrier object at 0x... [filling, waiters:2/3]>
+      <asyncio.locks.Barrier object at 0x... [draining, waiters:0/3]>
+      barrier passed
+      <asyncio.locks.Barrier object at 0x... [filling, waiters:0/3]>

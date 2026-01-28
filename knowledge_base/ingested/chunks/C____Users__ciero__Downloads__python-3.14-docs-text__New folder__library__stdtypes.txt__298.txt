@@ -1,0 +1,6 @@
+section.
+String Methods
+--------------
+Strings implement all of the common sequence operations, along with
+the additional methods described below.
+Strings also support two styles of string formatting, one providing a

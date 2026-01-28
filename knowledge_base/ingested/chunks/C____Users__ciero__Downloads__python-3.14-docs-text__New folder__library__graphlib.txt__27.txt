@@ -1,0 +1,5 @@
+previously.
+   static_order()
+      Returns an iterator object which will iterate over nodes in a
+      topological order. When using this method, "prepare()" and
+      "done()" should not be called. This method is equivalent to:

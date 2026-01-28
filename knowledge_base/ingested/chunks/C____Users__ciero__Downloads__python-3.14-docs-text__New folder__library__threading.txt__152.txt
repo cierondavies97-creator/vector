@@ -1,0 +1,4 @@
+A *timeout* may be provided giving the maximum time to wait.
+      This utility method may call "wait()" repeatedly until the
+      predicate is satisfied, or until a timeout occurs. The return
+      value is the last return value of the predicate and will

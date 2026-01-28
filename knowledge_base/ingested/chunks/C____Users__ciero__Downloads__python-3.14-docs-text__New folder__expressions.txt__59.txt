@@ -1,0 +1,3 @@
+where the first value is retrieved. Subsequent "for" clauses and any
+filter condition in the leftmost "for" clause cannot be evaluated in
+the enclosing scope as they may depend on the values obtained from the

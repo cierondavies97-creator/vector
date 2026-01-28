@@ -1,0 +1,7 @@
+...
+         >>> StrictFlag(2**2 + 2**4)
+         Traceback (most recent call last):
+         ...
+         ValueError: <flag 'StrictFlag'> invalid value 20
+             given 0b0 10100
+           allowed 0b0 00111

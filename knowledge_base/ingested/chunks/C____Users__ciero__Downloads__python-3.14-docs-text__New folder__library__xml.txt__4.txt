@@ -1,0 +1,6 @@
+* "xml.dom.pulldom": support for building partial DOM trees
+* "xml.sax": SAX2 base classes and convenience functions
+* "xml.parsers.expat": the Expat parser binding
+XML security
+============
+An attacker can abuse XML features to carry out denial of service

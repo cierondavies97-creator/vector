@@ -1,0 +1,4 @@
+Note:
+        While calling "peek()" does not change the file position of
+        the "GzipFile", it may change the position of the underlying
+        file object (e.g. if the "GzipFile" was constructed with the

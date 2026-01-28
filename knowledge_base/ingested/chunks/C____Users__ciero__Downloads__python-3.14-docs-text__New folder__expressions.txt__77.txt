@@ -1,0 +1,3 @@
+When "yield from <expr>" is used, the supplied expression must be an
+iterable. The values produced by iterating that iterable are passed
+directly to the caller of the current generator's methods. Any values

@@ -1,0 +1,6 @@
+# accumulate([1,2,3,4,5], operator.mul) → 1 2 6 24 120
+          iterator = iter(iterable)
+          total = initial
+          if initial is None:
+              try:
+                  total = next(iterator)

@@ -1,0 +1,4 @@
+detected as a public API. One case for this is when *module*
+   imports part of its public API from other modules, possibly a C
+   backend (like "csv" and its "_csv").
+   The *extra* argument can be a set of names that wouldn't otherwise

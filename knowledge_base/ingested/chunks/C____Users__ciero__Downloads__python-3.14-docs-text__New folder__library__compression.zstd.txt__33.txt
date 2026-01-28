@@ -1,0 +1,3 @@
+The *options* argument is a Python dictionary containing advanced
+   decompression parameters. The valid keys and values for compression
+   parameters are documented as part of the "DecompressionParameter"

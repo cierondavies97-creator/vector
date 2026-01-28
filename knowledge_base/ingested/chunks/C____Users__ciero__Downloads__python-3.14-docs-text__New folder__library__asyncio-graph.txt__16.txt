@@ -1,0 +1,3 @@
+"Future.add_done_callback()" is involved, the following two functions
+should be used to inform asyncio about how exactly such intermediate
+future objects are connected with the tasks they wrap or control.

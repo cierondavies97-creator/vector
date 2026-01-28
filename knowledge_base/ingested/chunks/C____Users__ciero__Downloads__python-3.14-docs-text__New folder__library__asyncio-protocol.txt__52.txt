@@ -1,0 +1,6 @@
+"stderr=PIPE"
+   * other *fd*: "None"
+SubprocessTransport.get_returncode()
+   Return the subprocess return code as an integer or "None" if it
+   hasn't returned, which is similar to the
+   "subprocess.Popen.returncode" attribute.

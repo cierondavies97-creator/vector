@@ -1,0 +1,5 @@
+transport, protocol = await loop.create_datagram_endpoint(
+           lambda: EchoClientProtocol(message, on_con_lost),
+           remote_addr=('127.0.0.1', 9999))
+       try:
+           await on_con_lost

@@ -1,0 +1,6 @@
+run_script(pathname)
+      Analyze the contents of the *pathname* file, which must contain
+      Python code.
+   modules
+      A dictionary mapping module names to modules. See Example usage
+      of ModuleFinder.

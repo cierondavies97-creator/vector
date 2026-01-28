@@ -1,0 +1,5 @@
+the length of the code object's "co_freevars" attribute.
+   Raises an auditing event "exec" with the code object as the
+   argument. Code compilation events may also be raised.
+   Note:
+     The built-in functions "globals()" and "locals()" return the

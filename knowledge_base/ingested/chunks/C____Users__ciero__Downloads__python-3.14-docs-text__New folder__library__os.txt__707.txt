@@ -1,0 +1,4 @@
+whose high byte is the exit status (if the signal number is zero);
+   the high bit of the low byte is set if a core file was produced.
+   If there are no children that could be waited for,
+   "ChildProcessError" is raised.

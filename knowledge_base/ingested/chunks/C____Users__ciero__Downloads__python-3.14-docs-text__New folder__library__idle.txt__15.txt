@@ -1,0 +1,8 @@
+----------------------------
+Undo
+   Undo the last change to the current window.  A maximum of 1000
+   changes may be undone.
+Redo
+   Redo the last undone change to the current window.
+Select All
+   Select the entire contents of the current window.

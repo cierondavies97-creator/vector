@@ -1,0 +1,5 @@
+a *mp_context* parameter. This feature is incompatible with the
+   "fork" start method.
+   Note:
+     Bugs have been reported when using the *max_tasks_per_child*
+     feature that can result in the "ProcessPoolExecutor" hanging in

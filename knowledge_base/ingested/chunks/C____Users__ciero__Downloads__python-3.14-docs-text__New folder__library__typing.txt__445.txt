@@ -1,0 +1,4 @@
+series of "@overload"-decorated definitions must be followed by
+   exactly one non-"@overload"-decorated definition (for the same
+   function/method).
+   "@overload"-decorated definitions are for the benefit of the type

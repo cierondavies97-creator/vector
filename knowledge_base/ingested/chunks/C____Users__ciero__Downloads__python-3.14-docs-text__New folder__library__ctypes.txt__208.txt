@@ -1,0 +1,6 @@
+the dynamic nature of Python, and (re-)define the data type after the
+required size is already known, on a case by case basis.
+ctypes reference
+================
+Finding shared libraries
+------------------------

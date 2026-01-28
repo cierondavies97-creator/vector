@@ -1,0 +1,5 @@
+instances. Now entries are the same type as *self*, if *self* is
+      a subclass of "dircmp".
+filecmp.DEFAULT_IGNORES
+   Added in version 3.4.
+   List of directories ignored by "dircmp" by default.

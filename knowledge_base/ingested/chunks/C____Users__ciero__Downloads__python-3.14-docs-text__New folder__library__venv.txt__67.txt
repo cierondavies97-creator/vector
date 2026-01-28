@@ -1,0 +1,4 @@
+* "bin_path" - The script path for the virtual environment.
+      * "bin_name" - The name of the script path relative to the
+        virtual environment location. Used for "__VENV_BIN_NAME__" in
+        activation scripts (see "install_scripts()").

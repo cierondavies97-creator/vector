@@ -1,0 +1,3 @@
+| "query"            | 4       | Query component           | empty string             |
+   +--------------------+---------+---------------------------+--------------------------+
+   | "fragment"         | 5       | Fragment identifier       | empty string             |

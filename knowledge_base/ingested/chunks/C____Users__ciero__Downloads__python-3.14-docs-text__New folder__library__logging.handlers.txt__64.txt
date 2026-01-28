@@ -1,0 +1,3 @@
+kept, and if more would be created when rollover occurs, the oldest
+   one is deleted. The deletion logic uses the interval to determine
+   which files to delete, so changing the interval may leave old files

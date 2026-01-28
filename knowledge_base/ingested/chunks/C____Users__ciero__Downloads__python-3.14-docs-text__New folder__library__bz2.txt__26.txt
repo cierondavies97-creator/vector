@@ -1,0 +1,6 @@
+function instead.
+   *compresslevel*, if given, must be an integer between "1" and "9".
+   The default is "9".
+   compress(data)
+      Provide data to the compressor object. Returns a chunk of
+      compressed data if possible, or an empty byte string otherwise.

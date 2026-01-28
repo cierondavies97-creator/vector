@@ -1,0 +1,3 @@
+WSGI environments.  A WSGI environment is a dictionary containing HTTP
+request variables as described in **PEP 3333**.  All of the functions
+taking an *environ* parameter expect a WSGI-compliant dictionary to be

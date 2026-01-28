@@ -1,0 +1,4 @@
+(or some other fallback, depending on the operator).  If all
+     attempts return "NotImplemented", the interpreter will raise an
+     appropriate exception. Incorrectly returning "NotImplemented"
+     will result in a misleading error message or the "NotImplemented"

@@ -1,0 +1,3 @@
+is specified by a URL but the trailing "/" has been left off.  This
+  can cause misleading results when you try to fetch a file whose read
+  permissions make it inaccessible; the FTP code will try to read it,

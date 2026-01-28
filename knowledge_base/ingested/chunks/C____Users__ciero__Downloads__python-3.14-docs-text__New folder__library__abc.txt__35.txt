@@ -1,0 +1,5 @@
+be useful as an end-point for a super-call in a framework that
+     uses cooperative multiple-inheritance.
+The "abc" module also supports the following legacy decorators:
+@abc.abstractclassmethod
+   Added in version 3.2.

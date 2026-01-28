@@ -1,0 +1,4 @@
+parameters: use the *context* parameter instead.
+urllib.request.install_opener(opener)
+   Install an "OpenerDirector" instance as the default global opener.
+   Installing an opener is only necessary if you want urlopen to use

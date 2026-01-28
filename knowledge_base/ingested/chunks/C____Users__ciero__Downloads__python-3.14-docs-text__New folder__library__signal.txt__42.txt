@@ -1,0 +1,3 @@
+"signal.SIG_IGN" means that the signal was previously ignored,
+   "signal.SIG_DFL" means that the default way of handling the signal
+   was previously in use, and "None" means that the previous signal

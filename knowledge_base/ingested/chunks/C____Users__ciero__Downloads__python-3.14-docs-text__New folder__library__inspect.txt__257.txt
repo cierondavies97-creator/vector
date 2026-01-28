@@ -1,0 +1,4 @@
+inspect.trace(context=1)
+   Return a list of "FrameInfo" objects for the stack between the
+   current frame and the frame in which an exception currently being
+   handled was raised in.  The first entry in the list represents the

@@ -1,0 +1,4 @@
+list. Getting a nonexistent header just returns "None", and
+   deleting a nonexistent header does nothing.
+   "Headers" objects also support "keys()", "values()", and "items()"
+   methods.  The lists returned by "keys()" and "items()" can include

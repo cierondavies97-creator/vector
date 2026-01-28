@@ -1,0 +1,8 @@
+return self
+       def __next__(self):
+           return self._callmethod('__next__')
+   # Function to return the operator module
+   def get_operator_module():
+       return operator
+   ##
+   class MyManager(BaseManager):

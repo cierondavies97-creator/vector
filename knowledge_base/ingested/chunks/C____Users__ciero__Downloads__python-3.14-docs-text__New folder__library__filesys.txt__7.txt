@@ -1,0 +1,6 @@
+* Archiving example with *base_dir*
+  * Querying the size of the output terminal
+See also:
+  Module "os"
+     Operating system interfaces, including functions to work with
+     files at a lower level than Python *file objects*.

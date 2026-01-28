@@ -1,0 +1,6 @@
+Functions for integers
+======================
+random.randrange(stop)
+random.randrange(start, stop[, step])
+   Return a randomly selected element from "range(start, stop, step)".
+   This is roughly equivalent to "choice(range(start, stop, step))"

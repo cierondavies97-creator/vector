@@ -1,0 +1,4 @@
+"Py_Version", Python runtime version number encoded in a single
+constant integer.
+"ctypes" can access values like this with the "in_dll()" class methods
+of the type.  *pythonapi* is a predefined symbol giving access to the

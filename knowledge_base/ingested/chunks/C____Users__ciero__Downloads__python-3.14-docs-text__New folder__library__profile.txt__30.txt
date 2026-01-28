@@ -1,0 +1,4 @@
+p.print_callers(.5, 'init')
+and you would get a list of callers for each of the listed functions.
+If you want more functionality, you're going to have to read the
+manual, or guess what the following functions do:

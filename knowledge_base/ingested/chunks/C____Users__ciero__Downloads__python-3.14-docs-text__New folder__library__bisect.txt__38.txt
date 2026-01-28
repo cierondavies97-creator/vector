@@ -1,0 +1,8 @@
+>>> data[bisect_left(keys, 0)]
+   ('black', 0)
+   >>> data[bisect_left(keys, 1)]
+   ('blue', 1)
+   >>> data[bisect_left(keys, 5)]
+   ('red', 5)
+   >>> data[bisect_left(keys, 8)]
+   ('yellow', 8)

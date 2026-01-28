@@ -1,0 +1,6 @@
+| '[' a=[del_targets] ']' { _PyAST_List(a, Del, EXTRA) }
+   # TYPING ELEMENTS
+   # ---------------
+   # type_expressions allow */** but ignore them
+   type_expressions[asdl_expr_seq*]:
+       | a=','.expression+ ',' '*' b=expression ',' '**' c=expression {

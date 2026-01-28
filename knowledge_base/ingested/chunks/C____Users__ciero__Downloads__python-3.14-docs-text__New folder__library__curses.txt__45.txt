@@ -1,0 +1,4 @@
+active only if "can_change_color()" returns "True".
+curses.init_pair(pair_number, fg, bg)
+   Change the definition of a color-pair.  It takes three arguments:
+   the number of the color-pair to be changed, the foreground color

@@ -1,0 +1,5 @@
+*compile_type* is like the *mode* argument to "compile()".
+Examining Symbol Tables
+=======================
+class symtable.SymbolTableType
+   An enumeration indicating the type of a "SymbolTable" object.

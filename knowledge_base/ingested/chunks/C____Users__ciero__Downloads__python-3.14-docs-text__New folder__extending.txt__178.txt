@@ -1,0 +1,4 @@
+are exceptions: "PyTuple_GetItem()", "PyList_GetItem()",
+"PyDict_GetItem()", and "PyDict_GetItemString()" all return references
+that you borrow from the tuple, list or dictionary.
+The function "PyImport_AddModule()" also returns a borrowed reference,

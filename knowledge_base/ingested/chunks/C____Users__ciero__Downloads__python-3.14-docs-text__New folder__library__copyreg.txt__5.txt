@@ -1,0 +1,6 @@
+Note that the "dispatch_table" attribute of a pickler object or
+   subclass of "pickle.Pickler" can also be used for declaring
+   reduction functions.
+Example
+=======
+The example below would like to show how to register a pickle function

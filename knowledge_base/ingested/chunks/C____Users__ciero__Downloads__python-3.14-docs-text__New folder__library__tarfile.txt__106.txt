@@ -1,0 +1,4 @@
+"site configuration". To set a global default this way, a filter
+   function needs to be wrapped in "staticmethod()" to prevent
+   injection of a "self" argument.
+   Changed in version 3.14: The default filter is set to "data", which

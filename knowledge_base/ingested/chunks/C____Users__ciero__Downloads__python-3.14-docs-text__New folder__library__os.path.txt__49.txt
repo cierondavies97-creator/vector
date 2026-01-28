@@ -1,0 +1,6 @@
+>>> os.path.join('/home/foo', 'bar')
+      '/home/foo/bar'
+      >>> os.path.join('/home/foo', '/home/bar')
+      '/home/bar'
+   On Windows, the drive is not reset when a rooted path segment
+   (e.g., "r'\foo'") is encountered. If a segment is on a different

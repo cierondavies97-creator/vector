@@ -1,0 +1,4 @@
+Python's hash for numeric types is based on a single mathematical
+function that's defined for any rational number, and hence applies to
+all instances of "int" and "fractions.Fraction", and all finite
+instances of "float" and "decimal.Decimal".  Essentially, this

@@ -1,0 +1,5 @@
+"STACK[-1]". The resulting object is pushed onto the stack, to be
+   subsequently stored by a "STORE_FAST" instruction.
+JUMP_FORWARD(delta)
+   Increments bytecode counter by *delta*.
+JUMP_BACKWARD(delta)

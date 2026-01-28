@@ -1,0 +1,6 @@
+raises "RuntimeError" (as has always been the case for executing
+   frames).
+3.2.13.3. Traceback objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Traceback objects represent the stack trace of an exception. A
+traceback object is implicitly created when an exception occurs, and

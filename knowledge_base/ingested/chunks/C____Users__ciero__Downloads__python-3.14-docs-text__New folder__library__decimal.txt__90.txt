@@ -1,0 +1,5 @@
+are changed and no rounding is performed.  As an exception, the
+      C version may raise InvalidOperation if the second operand
+      cannot be converted exactly.
+   exp(context=None)
+      Return the value of the (natural) exponential function "e**x" at

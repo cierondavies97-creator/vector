@@ -1,0 +1,6 @@
+break for 0.25--0.5 seconds; a nonzero *duration* has a system
+   dependent meaning.
+termios.tcdrain(fd)
+   Wait until all output written to file descriptor *fd* has been
+   transmitted.
+termios.tcflush(fd, queue)

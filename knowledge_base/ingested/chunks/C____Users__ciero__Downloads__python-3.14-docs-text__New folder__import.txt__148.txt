@@ -1,0 +1,4 @@
+to delete the default contents of "sys.meta_path", replacing them
+entirely with a custom meta path hook.
+If it is acceptable to only alter the behaviour of import statements
+without affecting other APIs that access the import system, then

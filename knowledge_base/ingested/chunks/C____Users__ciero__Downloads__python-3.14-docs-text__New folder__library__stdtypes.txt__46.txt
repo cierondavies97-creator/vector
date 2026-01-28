@@ -1,0 +1,4 @@
+result has type "float".  In general, the result is a whole
+   integer, though the result's type is not necessarily "int".  The
+   result is always rounded towards minus infinity: "1//2" is "0",
+   "(-1)//2" is "-1", "1//(-2)" is "-1", and "(-1)//(-2)" is "0".

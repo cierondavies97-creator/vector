@@ -1,0 +1,3 @@
+The "decoded" value of the header will have all encoded words
+   decoded to unicode.  "idna" encoded domain names are also decoded
+   to unicode.  The "decoded" value is set by joining the "str" value

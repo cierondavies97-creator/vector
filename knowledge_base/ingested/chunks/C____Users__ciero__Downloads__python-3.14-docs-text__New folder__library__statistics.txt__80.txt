@@ -1,0 +1,6 @@
+>>> multimode('')
+      []
+   Added in version 3.8.
+statistics.pstdev(data, mu=None)
+   Return the population standard deviation (the square root of the
+   population variance).  See "pvariance()" for arguments and other

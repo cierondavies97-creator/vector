@@ -1,0 +1,5 @@
+results in the call "int('1a', 16)" and a value of "26" for the
+      member.
+      Note:
+        When writing a custom "__new__", do not use "super().__new__"
+        -- call the appropriate "__new__" instead.

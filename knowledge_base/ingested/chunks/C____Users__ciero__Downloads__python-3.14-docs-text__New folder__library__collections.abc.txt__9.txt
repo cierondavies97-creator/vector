@@ -1,0 +1,4 @@
+def count(self, value): ...          # Mixin method
+          def index(self, value): ...          # Mixin method
+      Sequence.register(D)                     # Register instead of inherit
+      >>> issubclass(D, Sequence)

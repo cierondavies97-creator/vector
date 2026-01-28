@@ -1,0 +1,9 @@
+errno.EOPNOTSUPP
+   Operation not supported on transport endpoint
+errno.ENOTSUP
+   Operation not supported
+   Added in version 3.2.
+errno.EPFNOSUPPORT
+   Protocol family not supported
+errno.EAFNOSUPPORT
+   Address family not supported by protocol

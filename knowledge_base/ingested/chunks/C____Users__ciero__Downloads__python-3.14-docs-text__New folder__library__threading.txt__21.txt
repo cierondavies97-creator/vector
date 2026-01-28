@@ -1,0 +1,4 @@
+to handle it.
+   "threading.excepthook()" can be overridden to control how uncaught
+   exceptions raised by "Thread.run()" are handled.
+   Storing *exc_value* using a custom hook can create a reference

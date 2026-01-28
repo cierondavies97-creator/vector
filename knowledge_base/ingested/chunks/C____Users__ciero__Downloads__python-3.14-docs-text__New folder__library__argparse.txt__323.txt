@@ -1,0 +1,5 @@
+some additional attributes that are determined without any
+   inspection of the command line to be added:
+      >>> parser = argparse.ArgumentParser()
+      >>> parser.add_argument('foo', type=int)
+      >>> parser.set_defaults(bar=42, baz='badger')

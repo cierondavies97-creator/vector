@@ -1,0 +1,4 @@
+This method can also be used as a decorator.  When used as a
+   decorator, *name* can only be given as a keyword argument to
+   register *function* under *name*.  If no *name* is given,
+   "function.__name__" will be used.

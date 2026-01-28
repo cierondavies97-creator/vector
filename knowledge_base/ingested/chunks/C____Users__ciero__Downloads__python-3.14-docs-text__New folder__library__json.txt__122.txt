@@ -1,0 +1,2 @@
+strings, whereas JavaScript (as of ECMAScript Edition 5.1) does
+    not.

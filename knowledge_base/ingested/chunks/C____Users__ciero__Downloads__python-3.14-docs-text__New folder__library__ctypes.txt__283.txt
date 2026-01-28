@@ -1,0 +1,5 @@
+Function prototypes created by these factory functions can be
+instantiated in different ways, depending on the type and number of
+the parameters in the call:
+prototype(address)
+   Returns a foreign function at the specified address which must be

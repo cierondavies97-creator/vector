@@ -1,0 +1,5 @@
++-------------------------------------+-------------------------------------+
+   Added in version 3.12.
+CALL_INTRINSIC_2
+   Calls an intrinsic function with two arguments. Used to implement
+   functionality that is not performance critical:

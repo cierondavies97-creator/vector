@@ -1,0 +1,4 @@
+"filters" entries, and process only the "level" settings in the
+"handlers" entries, and the "level" and "propagate" settings in the
+"loggers" and "root" entries.
+Using a value in the configuration dict lets configurations to be sent

@@ -1,0 +1,8 @@
+...
+          @staticmethod
+          @abstractmethod
+          def my_abstract_staticmethod(arg3):
+              ...
+          @property
+          @abstractmethod
+          def my_abstract_property(self):

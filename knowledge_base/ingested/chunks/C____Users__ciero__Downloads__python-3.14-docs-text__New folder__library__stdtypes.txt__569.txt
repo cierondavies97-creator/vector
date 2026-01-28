@@ -1,0 +1,4 @@
+>>> b'www.example.com'.lstrip(b'cmowz.')
+      b'example.com'
+   The binary sequence of byte values to remove may be any *bytes-like
+   object*. See "removeprefix()" for a method that will remove a

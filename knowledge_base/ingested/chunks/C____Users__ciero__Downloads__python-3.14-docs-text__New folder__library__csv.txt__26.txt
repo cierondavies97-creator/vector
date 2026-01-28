@@ -1,0 +1,3 @@
+The "csv" module defines the following classes:
+class csv.DictReader(f, fieldnames=None, restkey=None, restval=None, dialect='excel', *args, **kwds)
+   Create an object that operates like a regular reader but maps the

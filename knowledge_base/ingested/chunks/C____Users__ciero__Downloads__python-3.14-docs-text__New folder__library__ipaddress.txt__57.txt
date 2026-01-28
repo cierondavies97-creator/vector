@@ -1,0 +1,5 @@
+specified, this property will be "None".
+   sixtofour
+      For addresses that appear to be 6to4 addresses  (starting with
+      "2002::/16") as defined by **RFC 3056**, this property will
+      report the embedded IPv4 address.  For any other address, this

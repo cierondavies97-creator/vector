@@ -1,0 +1,4 @@
+data, returning an equivalent datetime in *self*'s local time.
+   Most "tzinfo" subclasses should be able to inherit the default
+   "fromutc()" implementation without problems. It's strong enough to
+   handle fixed-offset time zones, and time zones accounting for both

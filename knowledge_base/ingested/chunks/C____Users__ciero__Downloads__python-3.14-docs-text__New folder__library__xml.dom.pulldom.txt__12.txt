@@ -1,0 +1,3 @@
+may be either a file name, or a file-like object. *parser*, if
+   given, must be an "XMLReader" object. This function will change the
+   document handler of the parser and activate namespace support;

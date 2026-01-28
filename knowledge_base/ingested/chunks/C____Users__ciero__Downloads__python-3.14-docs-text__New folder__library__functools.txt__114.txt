@@ -1,0 +1,4 @@
+wrapper function's "__dict__", i.e. the instance dictionary).
+   To allow access to the original function for introspection and
+   other purposes (e.g. bypassing a caching decorator such as
+   "lru_cache()"), this function automatically adds a "__wrapped__"

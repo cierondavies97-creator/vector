@@ -1,0 +1,7 @@
+>>> PurePosixPath('my/library/setup.py').suffix
+      '.py'
+      >>> PurePosixPath('my/library.tar.gz').suffix
+      '.gz'
+      >>> PurePosixPath('my/library').suffix
+      ''
+   This is commonly called the file extension.

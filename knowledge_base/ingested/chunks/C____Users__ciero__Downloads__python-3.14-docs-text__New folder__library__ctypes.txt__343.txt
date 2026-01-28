@@ -1,0 +1,4 @@
+created, which is now an alias of "OSError".
+ctypes.wstring_at(ptr, size=-1)
+   Return the wide-character string at *void *ptr*. If *size* is
+   specified, it is used as the number of characters of the string,

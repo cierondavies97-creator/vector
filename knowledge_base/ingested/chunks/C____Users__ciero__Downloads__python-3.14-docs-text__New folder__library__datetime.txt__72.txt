@@ -1,0 +1,4 @@
+classmethod date.fromtimestamp(timestamp)
+   Return the local date corresponding to the POSIX timestamp, such as
+   is returned by "time.time()".
+   This may raise "OverflowError", if the timestamp is out of the

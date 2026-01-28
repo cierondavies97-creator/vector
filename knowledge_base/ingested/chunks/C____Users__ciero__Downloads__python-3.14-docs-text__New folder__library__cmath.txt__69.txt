@@ -1,0 +1,7 @@
+cmath.e
+   The mathematical constant *e*, as a float.
+cmath.tau
+   The mathematical constant *τ*, as a float.
+   Added in version 3.6.
+cmath.inf
+   Floating-point positive infinity. Equivalent to "float('inf')".

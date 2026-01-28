@@ -1,0 +1,4 @@
+sets the widget state according to it and return a new
+      *statespec* indicating which flags were changed. If *statespec*
+      is not specified, returns the currently enabled state flags.
+   *statespec* will usually be a list or a tuple.

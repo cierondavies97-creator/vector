@@ -1,0 +1,4 @@
+class-level attribute, defaulting to """" to preserve existing
+      behaviour, but which can be overridden on a "SysLogHandler"
+      instance in order for that instance to prepend the ident to
+      every message handled. Note that the provided ident must be

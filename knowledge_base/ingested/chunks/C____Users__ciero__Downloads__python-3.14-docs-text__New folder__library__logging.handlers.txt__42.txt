@@ -1,0 +1,6 @@
+If you need to make more significant changes to rotation processing,
+you can override the methods.
+For an example, see Using a rotator and namer to customize log
+rotation processing.
+RotatingFileHandler
+===================

@@ -1,0 +1,4 @@
+there anything strange about that "hostname"?  etc.
+What constitutes a URL is not universally well defined.  Different
+applications have different needs and desired constraints.  For
+instance the living WHATWG spec describes what user facing web clients

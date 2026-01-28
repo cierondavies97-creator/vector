@@ -1,0 +1,6 @@
+period has elapsed.
+   release()
+      Release a lock.  This can be called from any process or thread,
+      not only the process or thread which originally acquired the
+      lock.
+      Behavior is the same as in "threading.Lock.release()" except

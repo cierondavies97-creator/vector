@@ -1,0 +1,4 @@
+| '(' a=single_target ')' { a }
+   single_subscript_attribute_target[expr_ty]:
+       | a=t_primary '.' b=NAME !t_lookahead { _PyAST_Attribute(a, b->v.Name.id, Store, EXTRA) }
+       | a=t_primary '[' b=slices ']' !t_lookahead { _PyAST_Subscript(a, b, Store, EXTRA) }

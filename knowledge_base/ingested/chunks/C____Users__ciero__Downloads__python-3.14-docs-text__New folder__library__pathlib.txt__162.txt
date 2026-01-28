@@ -1,0 +1,5 @@
+PosixPath('docs/_build')
+      PosixPath('docs/_static')
+      PosixPath('docs/Makefile')
+   The children are yielded in arbitrary order, and the special
+   entries "'.'" and "'..'" are not included.  If a file is removed

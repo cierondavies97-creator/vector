@@ -1,0 +1,5 @@
+4. the address of the instruction,
+   5. the operation code name,
+   6. operation parameters, and
+   7. interpretation of the parameters in parentheses.
+   The parameter interpretation recognizes local and global variable

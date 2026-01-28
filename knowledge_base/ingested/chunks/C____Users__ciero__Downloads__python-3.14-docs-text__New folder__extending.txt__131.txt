@@ -1,0 +1,8 @@
+#define PY_SSIZE_T_CLEAN
+   #include <Python.h>
+   static PyObject *
+   keywdarg_parrot(PyObject *self, PyObject *args, PyObject *keywds)
+   {
+       int voltage;
+       const char *state = "a stiff";
+       const char *action = "voom";

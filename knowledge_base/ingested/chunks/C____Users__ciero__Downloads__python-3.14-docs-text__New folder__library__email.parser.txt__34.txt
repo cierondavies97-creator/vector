@@ -1,0 +1,3 @@
+class email.parser.Parser(_class=None, *, policy=policy.compat32)
+   This class is parallel to "BytesParser", but handles string input.
+   Changed in version 3.3: Removed the *strict* argument.  Added the

@@ -1,0 +1,6 @@
+Added in version 3.2.
+os.setreuid(ruid, euid, /)
+   Set the current process's real and effective user ids.
+   Availability: Unix, not WASI, not Android.
+os.getsid(pid, /)
+   Call the system call "getsid()".  See the Unix manual for the

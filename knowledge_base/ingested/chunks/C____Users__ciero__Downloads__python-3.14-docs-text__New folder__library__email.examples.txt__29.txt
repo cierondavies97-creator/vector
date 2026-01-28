@@ -1,0 +1,7 @@
+import email
+   import mimetypes
+   from email.policy import default
+   from argparse import ArgumentParser
+   def main():
+       parser = ArgumentParser(description="""\
+   Unpack a MIME message into a directory of files.

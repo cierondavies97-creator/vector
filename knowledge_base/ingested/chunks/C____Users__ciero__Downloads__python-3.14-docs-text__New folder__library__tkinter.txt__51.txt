@@ -1,0 +1,4 @@
+HTML work.
+A button widget is then created, and placed to the right of the label.
+When pressed, it will call the "destroy()" method of the root window.
+Finally, the "mainloop()" method puts everything on the display, and

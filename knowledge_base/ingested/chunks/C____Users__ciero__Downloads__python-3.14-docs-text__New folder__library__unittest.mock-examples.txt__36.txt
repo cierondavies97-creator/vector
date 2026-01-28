@@ -1,0 +1,7 @@
+...     return [i async for i in mock]
+...
+>>> asyncio.run(main())
+[1, 2, 3]
+Mocking asynchronous context manager
+------------------------------------
+Since Python 3.8, "AsyncMock" and "MagicMock" have support to mock

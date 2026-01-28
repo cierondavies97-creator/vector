@@ -1,0 +1,5 @@
+unacceptable as it permits the unpickler to import and invoke
+arbitrary code.  Just consider what this hand-crafted pickle data
+stream does when loaded:
+   >>> import pickle
+   >>> pickle.loads(b"cos\nsystem\n(S'echo hello world'\ntR.")

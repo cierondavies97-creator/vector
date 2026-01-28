@@ -1,0 +1,5 @@
+mode, either pulling inward to the largest representable finite
+   number or rounding outward to "Infinity".  In either case,
+   "Inexact" and "Rounded" are also signaled.
+class decimal.Rounded
+   Rounding occurred though possibly no information was lost.

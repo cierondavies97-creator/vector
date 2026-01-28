@@ -1,0 +1,5 @@
+fast style is characterized by the presence of many "try" and
+   "except" statements.  The technique contrasts with the *LBYL* style
+   common to many other languages such as C.
+evaluate function
+   A function that can be called to evaluate a lazily evaluated

@@ -1,0 +1,4 @@
+"bytes" or "bytearray" object, a Unicode string, or iterable over
+   elements of the appropriate type.
+   If given a "bytes" or "bytearray" object, the initializer is passed
+   to the new array's "frombytes()" method; if given a Unicode string,

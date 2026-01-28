@@ -1,0 +1,4 @@
+cancellation is propagated regardless of *return_exceptions*.
+   Changed in version 3.10: Removed the *loop* parameter.
+   Deprecated since version 3.10: Deprecation warning is emitted if no
+   positional arguments are provided or not all positional arguments

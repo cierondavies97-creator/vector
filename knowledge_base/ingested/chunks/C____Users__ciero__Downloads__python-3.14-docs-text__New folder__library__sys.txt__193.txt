@@ -1,0 +1,4 @@
+can be of a different version than the OS version. Please use
+     "platform" module for achieving accurate OS version.
+   Availability: Windows.
+   Changed in version 3.2: Changed to a named tuple and added

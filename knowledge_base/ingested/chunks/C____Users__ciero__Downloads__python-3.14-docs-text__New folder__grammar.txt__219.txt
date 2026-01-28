@@ -1,0 +1,4 @@
+| '*' a=NAME colon=':' e=expression {
+               RAISE_SYNTAX_ERROR_STARTING_FROM(colon, e->kind == Tuple_kind
+                   ? "cannot use constraints with TypeVarTuple"
+                   : "cannot use bound with TypeVarTuple")

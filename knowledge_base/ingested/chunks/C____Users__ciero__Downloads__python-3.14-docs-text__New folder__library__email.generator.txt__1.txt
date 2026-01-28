@@ -1,0 +1,4 @@
+version of the email message represented by a message object
+structure.  You will need to do this if you want to send your message
+via "smtplib.SMTP.sendmail()", or print the message on the console.
+Taking a message object structure and producing a serialized

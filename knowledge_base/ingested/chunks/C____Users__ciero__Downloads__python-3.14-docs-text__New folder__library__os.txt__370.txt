@@ -1,0 +1,3 @@
+if the operating system provides it when scanning a directory. All
+   "os.DirEntry" methods may perform a system call, but "is_dir()" and
+   "is_file()" usually only require a system call for symbolic links;

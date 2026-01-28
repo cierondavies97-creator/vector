@@ -1,0 +1,13 @@
+False
+>>> 10 in r
+True
+>>> r.index(10)
+5
+>>> r[5]
+10
+>>> r[:5]
+range(0, 10, 2)
+>>> r[-1]
+18
+Testing range objects for equality with "==" and "!=" compares them as
+sequences.  That is, two range objects are considered equal if they

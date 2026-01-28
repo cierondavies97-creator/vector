@@ -1,0 +1,3 @@
+Example).  If the optional *writeback* parameter is set to "True",
+   all entries accessed are also cached in memory, and written back on
+   "sync()" and "close()"; this can make it handier to mutate mutable

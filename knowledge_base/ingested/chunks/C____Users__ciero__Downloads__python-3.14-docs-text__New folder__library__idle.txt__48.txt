@@ -1,0 +1,6 @@
+for more on Help menu choices.
+Context menus
+-------------
+Open a context menu by right-clicking in a window (Control-click on
+macOS). Context menus have the standard clipboard functions also on
+the Edit menu.

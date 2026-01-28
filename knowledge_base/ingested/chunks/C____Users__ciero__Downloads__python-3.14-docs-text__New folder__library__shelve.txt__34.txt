@@ -1,0 +1,6 @@
+# d['xx'].append(5) and have it work as expected, BUT it would also
+   # consume more memory and make the d.close() operation slower.
+   d.close()                  # close it
+See also:
+  Module "dbm"
+     Generic interface to "dbm"-style databases.

@@ -1,0 +1,11 @@
+locale.MON_11
+   locale.MON_12
+      Get the name of the n-th month.
+   locale.ABMON_1
+   locale.ABMON_2
+   locale.ABMON_3
+   locale.ABMON_4
+   locale.ABMON_5
+   locale.ABMON_6
+   locale.ABMON_7
+   locale.ABMON_8

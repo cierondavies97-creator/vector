@@ -1,0 +1,6 @@
+on output. Newline mode is initially on.
+curses.nocbreak()
+   Leave cbreak mode.  Return to normal "cooked" mode with line
+   buffering.
+curses.noecho()
+   Leave echo mode.  Echoing of input characters is turned off.

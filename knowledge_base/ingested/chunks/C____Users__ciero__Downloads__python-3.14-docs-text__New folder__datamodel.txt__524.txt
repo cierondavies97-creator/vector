@@ -1,0 +1,5 @@
+is defined, "x(arg1, arg2, ...)" roughly translates to
+   "type(x).__call__(x, arg1, ...)". The "object" class itself does
+   not provide this method.
+3.3.7. Emulating container types
+--------------------------------

@@ -1,0 +1,5 @@
+get_methods()
+      Return a tuple containing the names of method-like functions
+      declared in the class.
+      Here, the term 'method' designates *any* function defined in the
+      class body via "def" or "async def".

@@ -1,0 +1,6 @@
+normalize(x, /)
+      Reduces *x* to its simplest form.
+   number_class(x, /)
+      Returns an indication of the class of *x*.
+   plus(x, /)
+      Plus corresponds to the unary prefix plus operator in Python.

@@ -1,0 +1,3 @@
+"Unpickler" (or to the "load()" or "loads()" function), which is an
+iterable of the buffers which were passed to *buffer_callback*. That
+iterable should produce buffers in the same order as they were passed

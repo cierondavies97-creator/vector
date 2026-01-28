@@ -1,0 +1,3 @@
+multiple applications on a single host and port, you should create a
+WSGI application that parses "PATH_INFO" to select which application
+to invoke for each request.  (E.g., using the "shift_path_info()"

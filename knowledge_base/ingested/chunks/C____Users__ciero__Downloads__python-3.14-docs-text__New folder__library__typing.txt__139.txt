@@ -1,0 +1,4 @@
+T = TypeVar("T")
+      # "Box" does not exist yet,
+      # so we have to use quotes for the forward reference on Python <3.12.
+      # Using ``TypeAlias`` tells the type checker that this is a type alias declaration,

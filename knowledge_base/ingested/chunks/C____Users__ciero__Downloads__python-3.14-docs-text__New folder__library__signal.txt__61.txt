@@ -1,0 +1,4 @@
+"signal.ITIMER_REAL" will deliver "SIGALRM",
+   "signal.ITIMER_VIRTUAL" sends "SIGVTALRM", and "signal.ITIMER_PROF"
+   will deliver "SIGPROF".
+   The old values are returned as a tuple: (delay, interval).

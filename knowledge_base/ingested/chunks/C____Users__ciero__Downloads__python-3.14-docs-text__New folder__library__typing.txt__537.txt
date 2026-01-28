@@ -1,0 +1,5 @@
+Type.
+class typing.ItemsView(MappingView, AbstractSet[tuple[KT_co, VT_co]])
+   Deprecated alias to "collections.abc.ItemsView".
+   Deprecated since version 3.9: "collections.abc.ItemsView" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias

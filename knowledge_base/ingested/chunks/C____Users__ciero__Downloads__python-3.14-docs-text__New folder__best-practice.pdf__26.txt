@@ -1,0 +1,11 @@
+13 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+import
+▶ Don’t use the star import: from module import *
+▶ not obvious what you need
+▶ modules may overwrite each other

@@ -1,0 +1,5 @@
+Prints an indented representation of the content types of the
+   message object structure.  For example:
+      >>> msg = email.message_from_file(somefile)
+      >>> _structure(msg)
+      multipart/mixed

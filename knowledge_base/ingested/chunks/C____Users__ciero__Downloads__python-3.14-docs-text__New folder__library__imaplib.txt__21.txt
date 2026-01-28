@@ -1,0 +1,4 @@
+instance of "time.struct_time" (as returned by "time.localtime()"),
+   an aware instance of "datetime.datetime", or a double-quoted
+   string.  In the last case, it is assumed to already be in the
+   correct format.

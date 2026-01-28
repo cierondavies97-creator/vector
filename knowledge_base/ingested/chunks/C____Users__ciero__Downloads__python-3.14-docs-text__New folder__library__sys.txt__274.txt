@@ -1,0 +1,5 @@
+"os" module)
+   * "/usr/lib64/pythonX.Y/lib-dynload/": C extension modules of the
+     standard library (like the "errno" module, the exact filename is
+     platform specific)
+   * "/usr/lib/pythonX.Y/site-packages/" (always use "lib", not

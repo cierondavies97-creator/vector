@@ -1,0 +1,3 @@
+know that a big sort implies producing "runs" (which are pre-sorted
+sequences, whose size is usually related to the amount of CPU memory),
+followed by a merging passes for these runs, which merging is often

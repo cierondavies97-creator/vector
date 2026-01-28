@@ -1,0 +1,4 @@
+variables not listed in the *__slots__* definition.  Attempts to
+  assign to an unlisted variable name raises "AttributeError". If
+  dynamic assignment of new variables is desired, then add
+  "'__dict__'" to the sequence of strings in the *__slots__*

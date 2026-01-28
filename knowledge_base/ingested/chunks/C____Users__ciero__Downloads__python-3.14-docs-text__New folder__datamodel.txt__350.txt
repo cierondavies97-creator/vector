@@ -1,0 +1,4 @@
+needs to take a lock or invoke any other blocking resource, it
+       may deadlock as the resource may already be taken by the code
+       that gets interrupted to execute "__del__()".
+     * "__del__()" can be executed during interpreter shutdown.  As a

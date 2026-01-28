@@ -1,0 +1,3 @@
+Note that the selection of functions is similar, but not identical, to
+that in module "math".  The reason for having two modules is that some
+users aren't interested in complex numbers, and perhaps don't even

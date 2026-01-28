@@ -1,0 +1,4 @@
+"ZipInfo" object.  The *mode* parameter, if included, must be "'r'"
+   (the default) or "'w'".  *pwd* is the password used to decrypt
+   encrypted ZIP files as a "bytes" object.
+   "open()" is also a context manager and therefore supports the

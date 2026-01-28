@@ -1,0 +1,5 @@
+static PyObject *
+   newdatatype_richcmp(PyObject *lhs, PyObject *rhs, int op)
+   {
+       newdatatypeobject *obj1 = (newdatatypeobject *) lhs;
+       newdatatypeobject *obj2 = (newdatatypeobject *) rhs;

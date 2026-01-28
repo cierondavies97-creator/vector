@@ -1,0 +1,6 @@
+Added in version 3.11.
+class importlib.resources.abc.ResourceReader
+   *Superseded by TraversableResources*
+   An *abstract base class* to provide the ability to read
+   *resources*.
+   From the perspective of this ABC, a *resource* is a binary artifact

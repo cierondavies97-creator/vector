@@ -1,0 +1,4 @@
+(LATIN CAPITAL LETTER C WITH CEDILLA) can also be expressed as the
+   sequence U+0043 (LATIN CAPITAL LETTER C) U+0327 (COMBINING
+   CEDILLA).
+   For each character, there are two normal forms: normal form C and

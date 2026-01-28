@@ -1,0 +1,5 @@
+In such cases, this function will always return an empty
+   dictionary.
+   Added in version 3.3.
+inspect.getcoroutinelocals(coroutine)
+   This function is analogous to "getgeneratorlocals()", but works for

@@ -1,0 +1,5 @@
+following this convention:
+   modulename.attributename
+The convenience function "PyCapsule_Import()" makes it easy to load a
+C API provided via a Capsule, but only if the Capsule's name matches
+this convention.  This behavior gives C API users a high degree of

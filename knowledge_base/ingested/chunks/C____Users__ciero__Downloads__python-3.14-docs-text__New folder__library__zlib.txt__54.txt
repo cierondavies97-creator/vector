@@ -1,0 +1,7 @@
+zlib.DEF_BUF_SIZE
+   The default buffer size for decompression operations.
+zlib.Z_NO_COMPRESSION
+   Compression level "0"; no compression.
+   Added in version 3.6.
+zlib.Z_BEST_SPEED
+   Compression level "1"; fastest and produces the least compression.

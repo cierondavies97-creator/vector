@@ -1,0 +1,4 @@
+treated as having zero counts. Formerly, "Counter(a=3)" and
+"Counter(a=3, b=0)" were considered distinct.
+Common patterns for working with "Counter" objects:
+   c.total()                       # total of all counts

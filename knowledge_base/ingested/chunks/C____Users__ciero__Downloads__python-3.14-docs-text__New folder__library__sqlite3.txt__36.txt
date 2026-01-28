@@ -1,0 +1,4 @@
+isolation_level attribute for more information. Can be
+        ""DEFERRED"" (default), ""EXCLUSIVE"" or ""IMMEDIATE""; or
+        "None" to disable opening transactions implicitly. Has no
+        effect unless "Connection.autocommit" is set to

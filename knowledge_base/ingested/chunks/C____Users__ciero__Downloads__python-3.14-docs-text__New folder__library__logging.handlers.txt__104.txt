@@ -1,0 +1,4 @@
+their syslog daemon - it no longer listens on a domain socket.
+     Therefore, you cannot expect "SysLogHandler" to work on this
+     system.See gh-91070 for more information.
+   Changed in version 3.2: *socktype* was added.

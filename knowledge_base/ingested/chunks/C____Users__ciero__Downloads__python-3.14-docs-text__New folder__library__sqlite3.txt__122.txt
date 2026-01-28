@@ -1,0 +1,4 @@
+*callable*. *callable* is passed two "string" arguments, and it
+      should return an "integer":
+      * "1" if the first is ordered higher than the second
+      * "-1" if the first is ordered lower than the second

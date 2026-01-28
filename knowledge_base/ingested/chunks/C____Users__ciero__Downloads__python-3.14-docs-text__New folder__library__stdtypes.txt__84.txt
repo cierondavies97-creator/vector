@@ -1,0 +1,5 @@
+n = sum(b << i*8 for i, b in enumerate(little_ordered))
+          if signed and little_ordered and (little_ordered[-1] & 0x80):
+              n -= 1 << 8*len(little_ordered)
+          return n
+   Added in version 3.2.

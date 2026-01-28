@@ -1,0 +1,7 @@
+Example:
+      >>> s = input('--> ')
+      --> Monty Python's Flying Circus
+      >>> s
+      "Monty Python's Flying Circus"
+   If the "readline" module was loaded, then "input()" will use it to
+   provide elaborate line editing and history features.

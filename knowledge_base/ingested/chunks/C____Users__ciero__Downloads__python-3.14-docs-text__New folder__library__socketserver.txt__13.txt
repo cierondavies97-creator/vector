@@ -1,0 +1,4 @@
+should wait for thread termination.  You should set the flag
+explicitly if you would like threads to behave autonomously; the
+default is "False", meaning that Python will not exit until all
+threads created by "ThreadingMixIn" have exited.

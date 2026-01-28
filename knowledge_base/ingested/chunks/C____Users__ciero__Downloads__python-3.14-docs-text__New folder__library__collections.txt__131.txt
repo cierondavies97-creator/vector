@@ -1,0 +1,4 @@
+fieldname separated by whitespace and/or commas, for example "'x
+   y'" or "'x, y'".
+   Any valid Python identifier may be used for a fieldname except for
+   names starting with an underscore.  Valid identifiers consist of

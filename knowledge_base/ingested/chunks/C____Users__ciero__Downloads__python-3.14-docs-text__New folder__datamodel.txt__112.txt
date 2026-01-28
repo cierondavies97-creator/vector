@@ -1,0 +1,3 @@
++----------------------------------------------------+----------------------------------------------------+
+Methods also support accessing (but not setting) the arbitrary
+function attributes on the underlying function object.

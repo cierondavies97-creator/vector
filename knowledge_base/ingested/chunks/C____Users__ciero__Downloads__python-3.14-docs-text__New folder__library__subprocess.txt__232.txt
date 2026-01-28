@@ -1,0 +1,4 @@
+On Windows, an *args* sequence is converted to a string that can be
+parsed using the following rules (which correspond to the rules used
+by the MS C runtime):
+1. Arguments are delimited by white space, which is either a space or

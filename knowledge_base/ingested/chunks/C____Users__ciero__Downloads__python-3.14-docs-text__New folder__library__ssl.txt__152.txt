@@ -1,0 +1,5 @@
+performed.
+   Changed in version 3.4: The handshake method also performs
+   "match_hostname()" when the "check_hostname" attribute of the
+   socket's "context" is true.
+   Changed in version 3.5: The socket timeout is no longer reset each

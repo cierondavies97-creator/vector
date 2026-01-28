@@ -1,0 +1,6 @@
+hash_info.nan
+      (This attribute is no longer used)
+   hash_info.imag
+      The multiplier used for the imaginary part of a complex number
+   hash_info.algorithm
+      The name of the algorithm for hashing of str, bytes, and

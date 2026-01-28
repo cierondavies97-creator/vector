@@ -1,0 +1,6 @@
+Example:
+      async def main():
+          try:
+              # We do not know the timeout when starting, so we pass ``None``.
+              async with asyncio.timeout(None) as cm:
+                  # We know the timeout now, so we reschedule it.

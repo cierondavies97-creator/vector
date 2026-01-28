@@ -1,0 +1,4 @@
+A "typing.Protocol" describing a **WSGI Error Stream**.
+class wsgiref.types.FileWrapper
+   A "typing.Protocol" describing a **file wrapper**. See
+   "wsgiref.util.FileWrapper" for a concrete implementation of this

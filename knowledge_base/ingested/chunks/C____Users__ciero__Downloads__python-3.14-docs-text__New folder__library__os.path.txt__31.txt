@@ -1,0 +1,4 @@
+(back)slashes, or a drive letter, colon, and (back)slash together.
+   See also: "abspath()"
+   Changed in version 3.6: Accepts a *path-like object*.
+   Changed in version 3.13: On Windows, returns "False" if the given

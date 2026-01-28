@@ -1,0 +1,5 @@
+all the tasks have been completed the worker processes will
+      exit.
+   terminate()
+      Stops the worker processes immediately without completing
+      outstanding work.  When the pool object is garbage collected

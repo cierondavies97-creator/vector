@@ -1,0 +1,4 @@
+either a submodule (or subpackage) of the package, or some  other name
+defined in the package, like a function, class or variable.  The
+"import" statement first tests whether the item is defined in the
+package; if not, it assumes it is a module and attempts to load it.

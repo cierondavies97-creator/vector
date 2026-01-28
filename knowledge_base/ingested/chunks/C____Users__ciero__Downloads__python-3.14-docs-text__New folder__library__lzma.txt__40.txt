@@ -1,0 +1,4 @@
+of memory that the decompressor can use. When this argument is
+   used, decompression will fail with an "LZMAError" if it is not
+   possible to decompress the input within the given memory limit.
+   The *filters* argument specifies the filter chain that was used to

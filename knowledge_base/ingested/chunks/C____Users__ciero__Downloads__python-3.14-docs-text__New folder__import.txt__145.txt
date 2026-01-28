@@ -1,0 +1,3 @@
+hook).The "find_module()" method on path entry finders is deprecated,
+as it does not allow the path entry finder to contribute portions to
+namespace packages.  If both "find_loader()" and "find_module()" exist

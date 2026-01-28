@@ -1,0 +1,6 @@
+"hostname".
+   Availability: not WASI.
+socket.gethostname()
+   Return a string containing the hostname of the machine where  the
+   Python interpreter is currently executing.
+   Raises an auditing event "socket.gethostname" with no arguments.

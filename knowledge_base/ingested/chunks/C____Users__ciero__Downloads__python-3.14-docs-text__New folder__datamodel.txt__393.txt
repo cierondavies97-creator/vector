@@ -1,0 +1,3 @@
+defined, "__len__()" is called, if it is defined, and the object is
+   considered true if its result is nonzero.  If a class defines
+   neither "__len__()" nor "__bool__()" (which is true of the "object"

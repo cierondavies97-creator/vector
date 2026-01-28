@@ -1,0 +1,4 @@
+be "-1" on older FTP servers which do not return a file size in
+   response to a retrieval request.
+   The following example illustrates the most common usage scenario:
+      >>> import urllib.request

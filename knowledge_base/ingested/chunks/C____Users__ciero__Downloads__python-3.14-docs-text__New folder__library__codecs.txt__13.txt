@@ -1,0 +1,3 @@
+Incremental encoder and decoder classes or factory functions.
+      These have to provide the interface defined by the base classes
+      "IncrementalEncoder" and "IncrementalDecoder", respectively.

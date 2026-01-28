@@ -1,0 +1,3 @@
+|                                    | and "bytearray".                                |
++------------------------------------+-------------------------------------------------+
+| "ResourceWarning"                  | Base category for warnings related to resource  |

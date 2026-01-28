@@ -1,0 +1,7 @@
+static PyObject*
+   PyInit_emb(void)
+   {
+       return PyModuleDef_Init(&emb_module);
+   }
+Insert the above code just above the "main()" function. Also, insert
+the following two statements before the call to "Py_Initialize()":

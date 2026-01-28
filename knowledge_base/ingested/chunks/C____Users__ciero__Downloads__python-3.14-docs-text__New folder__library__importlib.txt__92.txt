@@ -1,0 +1,5 @@
+Concrete implementation of "Loader.exec_module()".
+      Added in version 3.4.
+   load_module(fullname)
+      Concrete implementation of "Loader.load_module()".
+      Deprecated since version 3.4, will be removed in version 3.15:

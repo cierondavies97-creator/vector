@@ -1,0 +1,4 @@
+and is provided for backwards compatibility. By default, file
+   objects are opened in binary mode.
+   If *env* is not "None", it must be a mapping that defines the
+   environment variables for the new process; these are used instead

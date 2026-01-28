@@ -1,0 +1,3 @@
+depends on the specific date and time passed, which can happen for
+   political reasons. The default implementations of "astimezone()"
+   and "fromutc()" may not produce the result you want if the result

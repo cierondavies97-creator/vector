@@ -1,0 +1,5 @@
+a "pathlib.Path" object.
+   Exiting the context manager cleans up any temporary file or
+   directory created when the resource was extracted from e.g. a zip
+   file.
+   Use "as_file" when the Traversable methods ("read_text", etc) are

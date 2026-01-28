@@ -1,0 +1,6 @@
+>>> d = date(2002, 12, 31)
+      >>> d.replace(day=26)
+      datetime.date(2002, 12, 26)
+   The generic function "copy.replace()" also supports "date" objects.
+date.timetuple()
+   Return a "time.struct_time" such as returned by "time.localtime()".

@@ -1,0 +1,4 @@
+find_class(module, name)
+      Import *module* if necessary and return the object called *name*
+      from it, where the *module* and *name* arguments are "str"
+      objects.  Note, unlike its name suggests, "find_class()" is also

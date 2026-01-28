@@ -1,0 +1,5 @@
+to underlying I/O functionality which may not be threadsafe.
+   acquire()
+      Acquires the thread lock created with "createLock()".
+   release()
+      Releases the thread lock acquired with "acquire()".

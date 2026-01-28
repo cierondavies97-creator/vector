@@ -1,0 +1,4 @@
+A class must implement the following methods:
+           * "step()": Add a row to the aggregate.
+           * "finalize()": Return the final result of the aggregate as
+             a type natively supported by SQLite.

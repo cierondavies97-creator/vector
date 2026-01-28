@@ -1,0 +1,3 @@
+The old wakeup fd is returned (or -1 if file descriptor wakeup was
+   not enabled).  If *fd* is -1, file descriptor wakeup is disabled.
+   If not -1, *fd* must be non-blocking.  It is up to the library to

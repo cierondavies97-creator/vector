@@ -1,0 +1,5 @@
+name lookups ("foo") to "data['foo']":
+      class RewriteName(NodeTransformer):
+          def visit_Name(self, node):
+              return Subscript(
+                  value=Name(id='data', ctx=Load()),

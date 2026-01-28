@@ -1,0 +1,4 @@
+pre-existing links, and to make it easier to clean up after a failed
+  extraction.
+* Disallow symbolic links if you do not need the functionality.
+* When working with untrusted data, use external (e.g. OS-level)

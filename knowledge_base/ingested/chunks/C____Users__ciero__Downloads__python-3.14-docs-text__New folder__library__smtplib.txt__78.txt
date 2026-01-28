@@ -1,0 +1,5 @@
+by the server.
+   Unless otherwise noted, the connection will be open even after an
+   exception is raised.
+   Changed in version 3.2: *msg* may be a byte string.
+   Changed in version 3.5: "SMTPUTF8" support added, and

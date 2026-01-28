@@ -1,0 +1,3 @@
+The values in the tuple conceptually represent a span of literal
+      text followed by a single replacement field.  If there is no
+      literal text (which can happen if two replacement fields occur

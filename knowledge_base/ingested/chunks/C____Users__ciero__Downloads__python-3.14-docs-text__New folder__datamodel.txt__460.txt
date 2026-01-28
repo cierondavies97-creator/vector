@@ -1,0 +1,5 @@
+keyword arguments and pass the others over to the base class, as
+   in:
+      class Philosopher:
+          def __init_subclass__(cls, /, default_name, **kwargs):
+              super().__init_subclass__(**kwargs)

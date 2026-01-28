@@ -1,0 +1,5 @@
+Changed in version 3.14: More than one environment variable can be
+   unset.
+test.support.os_helper.can_symlink()
+   Return "True" if the OS supports symbolic links, "False" otherwise.
+test.support.os_helper.can_xattr()

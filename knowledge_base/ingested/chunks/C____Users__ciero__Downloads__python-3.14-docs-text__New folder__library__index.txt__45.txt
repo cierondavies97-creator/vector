@@ -1,0 +1,5 @@
+* "wave" --- Read and write WAV files
+  * "colorsys" --- Conversions between color systems
+* Internationalization
+  * "gettext" --- Multilingual internationalization services
+  * "locale" --- Internationalization services

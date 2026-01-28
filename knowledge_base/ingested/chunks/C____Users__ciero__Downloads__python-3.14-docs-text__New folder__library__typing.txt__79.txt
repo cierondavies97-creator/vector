@@ -1,0 +1,6 @@
+...
+Generic classes can also inherit from other classes:
+   from collections.abc import Sized
+   class LinkedList[T](Sized):
+       ...
+When inheriting from generic classes, some type parameters could be

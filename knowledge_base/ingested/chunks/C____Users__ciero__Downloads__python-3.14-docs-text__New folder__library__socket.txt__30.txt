@@ -1,0 +1,4 @@
+"'12:23:34:45:56:67'" or "b'12:23:34:45:56:67'")
+    Changed in version 3.14: FreeBSD support added.
+* "AF_ALG" is a Linux-only socket based interface to Kernel
+  cryptography. An algorithm socket is configured with a tuple of two

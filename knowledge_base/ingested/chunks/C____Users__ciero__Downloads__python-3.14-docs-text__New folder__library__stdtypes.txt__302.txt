@@ -1,0 +1,5 @@
+titlecase rather than uppercase. This means that characters like
+   digraphs will only have their first letter capitalized, instead of
+   the full character.
+str.casefold()
+   Return a casefolded copy of the string. Casefolded strings may be

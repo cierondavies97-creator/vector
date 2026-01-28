@@ -1,0 +1,5 @@
+"Future". Since Python 3.7, this is an "async def" method.
+async loop.sock_sendto(sock, data, address)
+   Send a datagram from *sock* to *address*. Asynchronous version of
+   "socket.sendto()".
+   Return the number of bytes sent.

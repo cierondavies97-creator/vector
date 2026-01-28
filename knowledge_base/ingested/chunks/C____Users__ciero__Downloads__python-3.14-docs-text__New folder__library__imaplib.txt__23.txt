@@ -1,0 +1,5 @@
+At the end of the module, there is a test section that contains a more
+extensive example of usage.
+See also:
+  Documents describing the protocol, sources for servers implementing
+  it, by the University of Washington's IMAP Information Center can

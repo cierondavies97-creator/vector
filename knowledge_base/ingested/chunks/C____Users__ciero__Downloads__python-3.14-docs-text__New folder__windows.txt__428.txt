@@ -1,0 +1,4 @@
+qualifier. If it is not set, the default is "3". The variable can
+specify any value that may be passed on the command line, such as "3",
+"3.7", "3.7-32" or "3.7-64". (Note that the "-64" option is only
+available with the launcher included with Python 3.7 or newer.)

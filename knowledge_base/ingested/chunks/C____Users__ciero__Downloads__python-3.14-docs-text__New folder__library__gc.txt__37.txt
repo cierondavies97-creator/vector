@@ -1,0 +1,6 @@
+"gc.freeze()" right before "fork()", and "gc.enable()" early in
+   child processes.
+   Added in version 3.7.
+gc.unfreeze()
+   Unfreeze the objects in the permanent generation, put them back
+   into the oldest generation.

@@ -1,0 +1,5 @@
+raise_stmt[stmt_ty]:
+       | 'raise' a=expression b=['from' z=expression { z }] { _PyAST_Raise(a, b, EXTRA) }
+       | 'raise' { _PyAST_Raise(NULL, NULL, EXTRA) }
+   pass_stmt[stmt_ty]:
+       | 'pass' { _PyAST_Pass(EXTRA) }

@@ -1,0 +1,5 @@
+not supported.
+"SelectorEventLoop" has the following limitations:
+* "SelectSelector" is used to wait on socket events: it supports
+  sockets and is limited to 512 sockets.
+* "loop.add_reader()" and "loop.add_writer()" only accept socket

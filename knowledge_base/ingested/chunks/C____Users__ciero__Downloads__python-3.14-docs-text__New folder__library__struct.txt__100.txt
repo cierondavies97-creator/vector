@@ -1,0 +1,5 @@
+produced by the "pack()" method) corresponding to "format".
+   Changed in version 3.13: The *repr()* of structs has changed.  It
+   is now:
+   >>> Struct('i')
+   Struct('i')

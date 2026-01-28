@@ -1,0 +1,4 @@
+complaining that no value has been supplied for "-o/--output", since
+  "--" is interpreted as terminating the option processing and
+  treating all remaining values as positional arguments)
+* supplying "-o=foo" gives "output="=foo"" when using "optparse", but

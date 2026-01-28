@@ -1,0 +1,5 @@
+each other.
+  https://curl.se/rfc/cookie_spec.html
+     The specification of the original Netscape cookie protocol.
+     Though this is still the dominant protocol, the 'Netscape cookie
+     protocol' implemented by all the major browsers (and

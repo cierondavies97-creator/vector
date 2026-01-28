@@ -1,0 +1,4 @@
+Union type; "Union[X, Y]" is equivalent to "X | Y" and means either
+   X or Y.
+   To define a union, use e.g. "Union[int, str]" or the shorthand "int
+   | str". Using that shorthand is recommended. Details:

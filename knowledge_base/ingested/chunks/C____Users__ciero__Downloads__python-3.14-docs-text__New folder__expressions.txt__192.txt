@@ -1,0 +1,4 @@
+Raising a negative number to a fractional power results in a "complex"
+number. (In earlier versions it raised a "ValueError".)
+This operation can be customized using the special "__pow__()" and
+"__rpow__()" methods.

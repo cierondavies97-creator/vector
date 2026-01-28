@@ -1,0 +1,4 @@
+should not attempt to use it at any other time.
+ContentHandler.startDocument()
+   Receive notification of the beginning of a document.
+   The SAX parser will invoke this method only once, before any other

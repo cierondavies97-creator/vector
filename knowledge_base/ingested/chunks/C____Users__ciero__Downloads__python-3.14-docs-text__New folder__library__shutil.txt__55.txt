@@ -1,0 +1,4 @@
+Note:
+     On platforms that support the necessary fd-based functions a
+     symlink attack resistant version of "rmtree()" is used by
+     default.  On other platforms, the "rmtree()" implementation is

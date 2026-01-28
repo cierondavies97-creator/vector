@@ -1,0 +1,6 @@
+type: text/plain encoding: None
+   $ # get a complex MIME type
+   $ python -m mimetypes filename.tar.gz
+   type: application/x-tar encoding: gzip
+   $ # get a MIME type for a rare file extension
+   $ python -m mimetypes filename.pict

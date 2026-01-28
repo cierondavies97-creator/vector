@@ -1,0 +1,3 @@
+an exponent.  To preserve significance, the coefficient digits do not
+truncate trailing zeros.  Decimals also include special values such as
+"Infinity", "-Infinity", and "NaN".  The standard also differentiates

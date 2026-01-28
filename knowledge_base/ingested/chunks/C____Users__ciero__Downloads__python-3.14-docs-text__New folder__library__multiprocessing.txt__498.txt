@@ -1,0 +1,9 @@
+import random
+   import sys
+   #
+   # Functions used by test code
+   #
+   def calculate(func, args):
+       result = func(*args)
+       return '%s says that %s%s = %s' % (
+           multiprocessing.current_process().name,

@@ -1,0 +1,3 @@
+Return a process-safe wrapper object for a ctypes object which uses
+   *lock* to synchronize access.  If *lock* is "None" (the default)
+   then a "multiprocessing.RLock" object is created automatically.

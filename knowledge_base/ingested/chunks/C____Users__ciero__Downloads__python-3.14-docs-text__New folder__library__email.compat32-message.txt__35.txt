@@ -1,0 +1,4 @@
+"is_multipart()" is "True".  An "IndexError" will be raised if
+      *i* is less than 0 or greater than or equal to the number of
+      items in the payload.  If the payload is a string (i.e.
+      "is_multipart()" is "False") and *i* is given, a "TypeError" is

@@ -1,0 +1,4 @@
+occurred.
+   If no exception is being handled anywhere on the stack, this
+   function return a tuple containing three "None" values.
+   Changed in version 3.11: The "type" and "traceback" fields are now

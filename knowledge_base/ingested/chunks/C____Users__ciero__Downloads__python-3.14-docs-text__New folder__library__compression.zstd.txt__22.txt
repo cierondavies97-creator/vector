@@ -1,0 +1,4 @@
+argument is the compression level to use when writing compressed
+   data. Only one of *level* or *options* may be passed. The
+   *zstd_dict* argument is a "ZstdDict" instance to be used during
+   compression.

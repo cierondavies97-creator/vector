@@ -1,0 +1,5 @@
+* If "when" is "None", the timeout will never trigger.
+      * If "when < loop.time()", the timeout will trigger on the next
+        iteration of the event loop.
+         when() -> float | None
+            Return the current deadline, or "None" if the current

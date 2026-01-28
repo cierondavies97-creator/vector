@@ -1,0 +1,6 @@
+from turtle import *
+If you run into a "No module named '_tkinter'" error, you'll have to
+install the "Tk interface package" on your system.
+Basic drawing
+-------------
+Send the turtle forward 100 steps:

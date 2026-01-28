@@ -1,0 +1,7 @@
+method.
+IMAP4.readline()
+   Reads one line from the remote server. You may override this
+   method.
+IMAP4.recent()
+   Prompt server for an update. Returned data is "None" if no new
+   messages, else value of "RECENT" response.

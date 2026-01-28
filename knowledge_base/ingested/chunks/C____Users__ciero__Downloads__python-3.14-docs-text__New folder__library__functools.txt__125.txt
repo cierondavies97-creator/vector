@@ -1,0 +1,7 @@
+original "example()" would have been lost.
+"partial" Objects
+=================
+"partial" objects are callable objects created by "partial()". They
+have three read-only attributes:
+partial.func
+   A callable object or function.  Calls to the "partial" object will

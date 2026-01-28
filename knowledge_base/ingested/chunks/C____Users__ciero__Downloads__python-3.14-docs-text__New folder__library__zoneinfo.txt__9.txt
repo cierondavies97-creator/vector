@@ -1,0 +1,7 @@
+>>> print(dt)
+   2020-11-01 01:00:00-07:00
+   >>> print(dt.replace(fold=1))
+   2020-11-01 01:00:00-08:00
+When converting from another time zone, the fold will be set to the
+correct value:
+   >>> from datetime import timezone

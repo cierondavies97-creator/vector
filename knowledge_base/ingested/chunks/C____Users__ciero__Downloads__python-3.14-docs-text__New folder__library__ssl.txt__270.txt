@@ -1,0 +1,5 @@
+over the blocking behavior of the socket I/O involved in the
+   handshake.
+   The parameter "suppress_ragged_eofs" specifies how the
+   "SSLSocket.recv()" method should signal unexpected EOF from the
+   other end of the connection.  If specified as "True" (the default),

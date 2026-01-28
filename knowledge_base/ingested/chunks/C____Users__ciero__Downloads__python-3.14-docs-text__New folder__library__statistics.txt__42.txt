@@ -1,0 +1,5 @@
+>>> harmonic_mean([40, 60])
+      48.0
+   Suppose a car travels 40 km/hr for 5 km, and when traffic clears,
+   speeds-up to 60 km/hr for the remaining 30 km of the journey. What
+   is the average speed?

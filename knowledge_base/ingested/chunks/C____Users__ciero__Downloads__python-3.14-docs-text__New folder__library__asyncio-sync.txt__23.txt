@@ -1,0 +1,6 @@
+tasks.
+      The lock must be acquired before this method is called and
+      released shortly after.  If called with an *unlocked* lock a
+      "RuntimeError" error is raised.
+   release()
+      Release the underlying lock.

@@ -1,0 +1,4 @@
+process terminates or if the method times out.  Check the
+      process's "exitcode" to determine if it terminated.
+      A process can be joined many times.
+      A process cannot join itself because this would cause a

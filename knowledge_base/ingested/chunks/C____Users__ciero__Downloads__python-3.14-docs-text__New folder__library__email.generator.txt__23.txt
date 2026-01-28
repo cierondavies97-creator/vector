@@ -1,0 +1,4 @@
+error handler, and pass it to the *write* method of the *outfp*
+      passed to the "BytesGenerator"'s constructor.
+As a convenience, "EmailMessage" provides the methods "as_bytes()" and
+"bytes(aMessage)" (a.k.a. "__bytes__()"), which simplify the

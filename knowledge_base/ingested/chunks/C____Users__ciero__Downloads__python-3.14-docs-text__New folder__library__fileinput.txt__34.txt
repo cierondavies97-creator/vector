@@ -1,0 +1,5 @@
+encoding="utf-8")"
+   Changed in version 3.10: The keyword-only parameter *encoding* and
+   *errors* are added.
+fileinput.hook_encoded(encoding, errors=None)
+   Returns a hook which opens each file with "open()", using the given

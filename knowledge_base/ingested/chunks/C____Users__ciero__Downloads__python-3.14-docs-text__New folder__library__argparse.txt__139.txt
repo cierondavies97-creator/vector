@@ -1,0 +1,4 @@
+possible, and produced as a single item.  If no command-line
+  argument is present, the value from default will be produced.  Note
+  that for optional arguments, there is an additional case - the
+  option string is present but not followed by a command-line

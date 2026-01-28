@@ -1,0 +1,6 @@
+CALL                     1
+                 RETURN_VALUE
+(The "2" is a line number).
+Command-line interface
+======================
+The "dis" module can be invoked as a script from the command line:

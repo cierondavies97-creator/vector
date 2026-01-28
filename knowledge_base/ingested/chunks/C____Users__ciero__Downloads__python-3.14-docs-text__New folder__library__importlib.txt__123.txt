@@ -1,0 +1,5 @@
+extension modules.
+   Added in version 3.3.
+importlib.machinery.all_suffixes()
+   Returns a combined list of strings representing all file suffixes
+   for modules recognized by the standard import machinery. This is a

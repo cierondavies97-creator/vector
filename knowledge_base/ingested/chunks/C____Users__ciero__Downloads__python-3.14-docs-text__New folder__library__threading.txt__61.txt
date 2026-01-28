@@ -1,0 +1,4 @@
+'alive'. It stops being alive when its "run()" method terminates --
+either normally, or by raising an unhandled exception.  The
+"is_alive()" method tests whether the thread is alive.
+Other threads can call a thread's "join()" method.  This blocks the

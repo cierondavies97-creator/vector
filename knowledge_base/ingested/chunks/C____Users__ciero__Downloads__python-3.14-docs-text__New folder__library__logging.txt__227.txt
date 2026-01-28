@@ -1,0 +1,4 @@
+(or other level-specific methods) on it, as described at the
+   beginning of this documentation.
+logging.info(msg, *args, **kwargs)
+   Logs a message with level "INFO" on the root logger. The arguments

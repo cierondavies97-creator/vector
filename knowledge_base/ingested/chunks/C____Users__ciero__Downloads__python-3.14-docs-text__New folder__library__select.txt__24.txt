@@ -1,0 +1,4 @@
+Windows, the underlying "select()" function is provided by the
+     WinSock library, and does not handle file descriptors that don't
+     originate from WinSock.
+   Changed in version 3.5: The function is now retried with a

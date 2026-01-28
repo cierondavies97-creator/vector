@@ -1,0 +1,4 @@
+too deep, the next contained level is replaced by "...". If
+        "None" (the default), there is no constraint on the depth of
+        the objects being formatted.
+      * **compact** (*bool*) -- Control the way long *sequences* are

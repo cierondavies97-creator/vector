@@ -1,0 +1,4 @@
+"t_origin" should be a non-parameterized generic class, such as
+   "list", "tuple" or "dict".  "t_args" should be a "tuple" (possibly
+   of length 1) of types which parameterize "t_origin":
+      >>> from types import GenericAlias

@@ -1,0 +1,4 @@
+below, most notably "get_instructions()", as iterating over a
+   "Bytecode" instance yields the bytecode operations as "Instruction"
+   instances.
+   If *first_line* is not "None", it indicates the line number that

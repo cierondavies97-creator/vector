@@ -1,0 +1,5 @@
+Note:
+  The recommended way of controlling transactions is via the
+  "autocommit" attribute. See Transaction control via the autocommit
+  attribute.
+If "Connection.autocommit" is set to "LEGACY_TRANSACTION_CONTROL" (the

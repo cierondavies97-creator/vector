@@ -1,0 +1,6 @@
+function
+      The function name that is being executed by the frame this
+      record corresponds to.
+   code_context
+      A list of lines of context from the source code that's being
+      executed by the frame this record corresponds to.

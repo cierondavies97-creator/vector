@@ -1,0 +1,3 @@
+"__import__()" function is called. Other mechanisms for invoking the
+import system (such as "importlib.import_module()") may choose to
+bypass "__import__()" and use their own solutions to implement import

@@ -1,0 +1,7 @@
+dependency.
+Changed in version 3.13: Added the "--without-scm-ignore-files"
+option.
+Changed in version 3.13: "venv" now creates a ".gitignore" file for
+Git by default.
+Note:
+  While symlinks are supported on Windows, they are not recommended.

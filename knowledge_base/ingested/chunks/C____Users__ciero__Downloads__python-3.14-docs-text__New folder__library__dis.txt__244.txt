@@ -1,0 +1,6 @@
+dis.hasexc
+   Sequence of bytecodes that set an exception handler.
+   Added in version 3.12.
+dis.hasjrel
+   Sequence of bytecodes that have a relative jump target.
+   Deprecated since version 3.13: All jumps are now relative. Use

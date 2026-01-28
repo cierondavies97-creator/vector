@@ -1,0 +1,4 @@
+* If there are positional arguments, there must be as many as there
+     are items in "T._fields"; they will be assigned as attributes of
+     these names.
+   * If there are keyword arguments, they will set the attributes of

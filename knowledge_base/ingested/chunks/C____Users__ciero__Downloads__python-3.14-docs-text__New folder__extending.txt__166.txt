@@ -1,0 +1,4 @@
+this purpose (and others), every object also contains a pointer to its
+type object.
+The big question now remains: when to use "Py_INCREF(x)" and
+"Py_DECREF(x)"? Let's first introduce some terms.  Nobody "owns" an

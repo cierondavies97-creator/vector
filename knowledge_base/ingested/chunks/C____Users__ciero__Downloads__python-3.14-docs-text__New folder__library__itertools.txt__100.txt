@@ -1,0 +1,4 @@
+repeated elements have been filtered out.  The length of the output
+   is given by "math.perm()" which computes "n! / (n - r)!" when "0 ≤
+   r ≤ n" or zero when "r > n".
+   The permutation tuples are emitted in lexicographic order according

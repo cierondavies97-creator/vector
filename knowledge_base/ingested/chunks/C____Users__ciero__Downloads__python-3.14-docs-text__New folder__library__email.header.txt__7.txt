@@ -1,0 +1,4 @@
+assign the field in the "Message" object to an instance of "Header"
+instead of using a string for the header value.  Import the "Header"
+class from the "email.header" module. For example:
+   >>> from email.message import Message

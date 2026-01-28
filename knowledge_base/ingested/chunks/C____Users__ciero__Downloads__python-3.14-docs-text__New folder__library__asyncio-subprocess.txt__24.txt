@@ -1,0 +1,6 @@
+this condition.
+   async communicate(input=None)
+      Interact with process:
+      1. send data to *stdin* (if *input* is not "None");
+      2. closes *stdin*;
+      3. read data from *stdout* and *stderr*, until EOF is reached;

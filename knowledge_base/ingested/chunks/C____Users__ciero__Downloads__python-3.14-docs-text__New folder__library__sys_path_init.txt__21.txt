@@ -1,0 +1,4 @@
+based on the shared library name overrides the one based on the
+executable, which allows paths to be restricted for any program
+loading the runtime if desired.
+When the file exists, all registry and environment variables are

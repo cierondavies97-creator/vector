@@ -1,0 +1,5 @@
+though there are many examples which have not been updated to use some
+of the new generic mechanism that is available.
+3.3.1. Generic Attribute Management
+-----------------------------------
+Most extension types only use *simple* attributes.  So, what makes the

@@ -1,0 +1,8 @@
+* Foreign functions
+    * Function prototypes
+    * Utility functions
+    * Data types
+    * Fundamental data types
+    * Structured data types
+    * Arrays and pointers
+    * Exceptions

@@ -1,0 +1,5 @@
+return t.astimezone().isoformat()
+   def main():
+       parser = argparse.ArgumentParser()
+       parser.add_argument('-c', action='store_true', default=False,
+                           help='Produce a context format diff (default)')

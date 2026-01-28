@@ -1,0 +1,3 @@
++-------------------------+--------------------------------------------------------+
+| "."                     | Selects the current node.  This is mostly useful at    |
+|                         | the beginning of the path, to indicate that it's a     |

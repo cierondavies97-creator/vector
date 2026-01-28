@@ -1,0 +1,6 @@
+-1
+This behaviour is equivalent to a "ConfigParser.read()" call with
+several files passed to the *filenames* parameter.
+Supported Datatypes
+===================
+Config parsers do not guess datatypes of values in configuration

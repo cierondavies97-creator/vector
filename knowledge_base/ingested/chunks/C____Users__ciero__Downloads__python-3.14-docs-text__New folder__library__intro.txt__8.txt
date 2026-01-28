@@ -1,0 +1,4 @@
+overview of the available modules and application areas that are
+supported by the Python library.  Of course, you don't *have* to read
+it like a novel --- you can also browse the table of contents (in
+front of the manual), or look for a specific function, module or term

@@ -1,0 +1,4 @@
+# Otherwise, the unpickler will think None is the object referenced
+               # by the persistent ID.
+               raise pickle.UnpicklingError("unsupported persistent object")
+   def main():

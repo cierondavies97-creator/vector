@@ -1,0 +1,4 @@
+special style", usually without quotes, and strings to be matched "'in
+single quotes'".)
+Some characters, like "'|'" or "'('", are special. Special characters
+either stand for classes of ordinary characters, or affect how the

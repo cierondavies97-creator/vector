@@ -1,0 +1,4 @@
+Changed in version 3.8: The *headers* parameter was added.
+   Both the HTTP and HTTPS transports support the URL syntax extension
+   for HTTP Basic Authentication: "http://user:pass@host:port/path".
+   The  "user:pass" portion will be base64-encoded as an HTTP

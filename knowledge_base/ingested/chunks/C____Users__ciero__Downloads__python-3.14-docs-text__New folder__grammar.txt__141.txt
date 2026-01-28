@@ -1,0 +1,4 @@
+term[expr_ty]:
+       | a=term '*' b=factor { _PyAST_BinOp(a, Mult, b, EXTRA) }
+       | a=term '/' b=factor { _PyAST_BinOp(a, Div, b, EXTRA) }
+       | a=term '//' b=factor { _PyAST_BinOp(a, FloorDiv, b, EXTRA) }

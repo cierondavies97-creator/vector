@@ -1,0 +1,4 @@
+better look and feel across platforms; however, the replacement
+widgets are not completely compatible. The main difference is that
+widget options such as "fg", "bg" and others related to widget styling
+are no longer present in Ttk widgets.  Instead, use  the "ttk.Style"

@@ -1,0 +1,5 @@
+Files. It will attempt to modify the system "PATH" environment
+variable to include this install location, but be sure to validate
+this on your configuration.
+Note:
+  Windows Server 2019 is the only version of Windows that CPython

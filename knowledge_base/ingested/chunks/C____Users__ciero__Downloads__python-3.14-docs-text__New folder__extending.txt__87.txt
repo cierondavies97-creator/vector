@@ -1,0 +1,3 @@
+Makefile'.  (This is necessary each time you change the "Setup" file.)
+If your module requires additional libraries to link with, these can
+be listed on the line in the configuration file as well, for instance:

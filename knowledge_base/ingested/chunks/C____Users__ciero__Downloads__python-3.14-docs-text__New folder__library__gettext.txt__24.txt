@@ -1,0 +1,3 @@
+returns a list of all file names, in the order in which they appear
+   in the languages list or the environment variables.
+gettext.translation(domain, localedir=None, languages=None, class_=None, fallback=False)

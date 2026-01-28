@@ -1,0 +1,7 @@
+return oid
+   def id2obj(oid):
+       return _id2obj_dict[oid]
+Finalizer Objects
+=================
+The main benefit of using "finalize" is that it makes it simple to
+register a callback without needing to preserve the returned finalizer

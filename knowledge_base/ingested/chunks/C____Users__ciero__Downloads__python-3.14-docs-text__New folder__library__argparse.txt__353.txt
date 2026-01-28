@@ -1,0 +1,4 @@
+their callable name.
+   The "register()" method accepts three arguments - a
+   *registry_name*, specifying the internal registry where the object
+   will be stored (e.g., "action", "type"), *value*, which is the key

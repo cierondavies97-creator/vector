@@ -1,0 +1,5 @@
+called with "shell=True".
+   The *protocol_factory* must be a callable returning a subclass of
+   the "SubprocessProtocol" class.
+   See "subprocess_exec()" for more details about the remaining
+   arguments.

@@ -1,0 +1,5 @@
+displaying text). For example: "fred["geometry"] = "200x100"".
+justify
+   Legal values are the strings: ""left"", ""center"", and ""right"".
+region
+   This is a string with four space-delimited elements, each of which

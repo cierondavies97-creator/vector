@@ -1,0 +1,4 @@
+attribute will result in a "ValueError".
+Many of the above classes also have a "Unique" variant (for example,
+"UniqueUnstructuredHeader").  The only difference is that in the
+"Unique" variant, "max_count" is set to 1.

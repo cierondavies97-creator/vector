@@ -1,0 +1,4 @@
+Added in version 3.9.
+signal.pthread_kill(thread_id, signalnum)
+   Send the signal *signalnum* to the thread *thread_id*, another
+   thread in the same process as the caller.  The target thread can be

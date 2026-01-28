@@ -1,0 +1,4 @@
+exist. Subclass of "InterpolationError".
+exception configparser.InterpolationSyntaxError
+   Exception raised when the source text into which substitutions are
+   made does not conform to the required syntax.  Subclass of

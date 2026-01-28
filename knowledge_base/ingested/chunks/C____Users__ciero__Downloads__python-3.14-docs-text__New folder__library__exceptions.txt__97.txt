@@ -1,0 +1,4 @@
+It is a subclass of "ValueError".
+   "UnicodeError" has attributes that describe the encoding or
+   decoding error.  For example, "err.object[err.start:err.end]" gives
+   the particular invalid input that the codec failed on.

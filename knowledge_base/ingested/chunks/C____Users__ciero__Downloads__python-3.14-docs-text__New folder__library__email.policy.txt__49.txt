@@ -1,0 +1,3 @@
+header that may be added to a "Message" programmatically.  (The
+      limit is not observed by the parser, which will faithfully
+      produce as many headers as exist in the message being parsed.)

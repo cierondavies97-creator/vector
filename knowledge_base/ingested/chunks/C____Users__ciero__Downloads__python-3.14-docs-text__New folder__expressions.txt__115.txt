@@ -1,0 +1,4 @@
+generator-iterator's "aclose()" method and run the resulting coroutine
+object, thus allowing any pending "finally" clauses to execute.
+To take care of finalization upon event loop termination, an event
+loop should define a *finalizer* function which takes an asynchronous

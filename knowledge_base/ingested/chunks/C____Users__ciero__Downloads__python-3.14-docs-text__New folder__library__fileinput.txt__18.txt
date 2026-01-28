@@ -1,0 +1,6 @@
+otherwise return "False".
+fileinput.isstdin()
+   Return "True" if the last line was read from "sys.stdin", otherwise
+   return "False".
+fileinput.nextfile()
+   Close the current file so that the next iteration will read the

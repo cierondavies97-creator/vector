@@ -1,0 +1,4 @@
+on a traceback line to jump to the corresponding line in an IDLE
+editor. The file will be opened if necessary.
+Shell has a special facility for squeezing output lines down to a
+'Squeezed text' label.  This is done automatically for output over N

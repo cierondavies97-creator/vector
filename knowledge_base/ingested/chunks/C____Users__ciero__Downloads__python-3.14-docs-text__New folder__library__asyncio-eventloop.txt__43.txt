@@ -1,0 +1,6 @@
+"loop.time()".
+   This method's behavior is the same as "call_later()".
+   An instance of "asyncio.TimerHandle" is returned which can be used
+   to cancel the callback.
+   Note:
+     For performance, callbacks scheduled with "loop.call_at()" may

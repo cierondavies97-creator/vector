@@ -1,0 +1,5 @@
+DragonFlyBSD, GNU/kFreeBSD.
+   Added in version 3.8.
+   Changed in version 3.13: Added support for GNU/kFreeBSD.
+_thread.stack_size([size])
+   Return the thread stack size used when creating new threads.  The

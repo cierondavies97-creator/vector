@@ -1,0 +1,4 @@
+|         | key has.                                      |
+   +---------+-----------------------------------------------+
+   | "1"     | An integer giving the number of values this   |
+   |         | key has.                                      |

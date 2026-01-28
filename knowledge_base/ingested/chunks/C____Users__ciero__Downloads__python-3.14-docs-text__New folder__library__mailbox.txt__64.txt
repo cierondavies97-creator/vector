@@ -1,0 +1,5 @@
+"some_mailbox.set_flags(key, flags)" is similar to
+         one_message = some_mailbox.get_message(key)
+         one_message.set_flags(flags)
+         some_mailbox[key] = one_message
+      but faster, because it does not open the message file.

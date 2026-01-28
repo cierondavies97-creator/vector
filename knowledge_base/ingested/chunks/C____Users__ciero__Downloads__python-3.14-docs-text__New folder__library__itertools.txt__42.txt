@@ -1,0 +1,4 @@
+>>> list(accumulate(data, max))              # running maximum
+      [3, 4, 6, 6, 6, 9, 9, 9, 9, 9]
+      >>> list(accumulate(data, operator.mul))     # running product
+      [3, 12, 72, 144, 144, 1296, 0, 0, 0, 0]

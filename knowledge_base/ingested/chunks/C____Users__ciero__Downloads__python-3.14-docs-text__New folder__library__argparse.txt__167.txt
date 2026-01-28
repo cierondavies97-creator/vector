@@ -1,0 +1,4 @@
+or the name of a registered type (see "register()") If the function
+raises "ArgumentTypeError", "TypeError", or "ValueError", the
+exception is caught and a nicely formatted error message is displayed.
+Other exception types are not handled.

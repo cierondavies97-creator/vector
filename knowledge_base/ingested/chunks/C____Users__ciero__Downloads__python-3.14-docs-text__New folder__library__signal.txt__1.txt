@@ -1,0 +1,5 @@
+General rules
+=============
+The "signal.signal()" function allows defining custom handlers to be
+executed when a signal is received.  A small number of default
+handlers are installed: "SIGPIPE" is ignored (so write errors on pipes

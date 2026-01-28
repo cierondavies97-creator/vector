@@ -1,0 +1,4 @@
+p = Popen(args, stdout=PIPE, stderr=PIPE, cwd=binpath)
+           t1 = Thread(target=self.reader, args=(p.stdout, 'stdout'))
+           t1.start()
+           t2 = Thread(target=self.reader, args=(p.stderr, 'stderr'))

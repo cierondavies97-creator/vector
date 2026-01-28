@@ -1,0 +1,4 @@
+suitable for use with "io.IOBase.writelines()" since both the
+   inputs and outputs have trailing newlines.
+   For inputs that do not have trailing newlines, set the *lineterm*
+   argument to """" so that the output will be uniformly newline free.

@@ -1,0 +1,5 @@
+XMLReader.getEntityResolver()
+   Return the current "EntityResolver".
+XMLReader.setEntityResolver(handler)
+   Set the current "EntityResolver".  If no "EntityResolver" is set,
+   attempts to resolve an external entity will result in opening the

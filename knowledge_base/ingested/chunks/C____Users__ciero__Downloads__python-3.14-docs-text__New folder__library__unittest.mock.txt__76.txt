@@ -1,0 +1,6 @@
+it in the normal way:
+      >>> mock = Mock()
+      >>> mock.return_value.attribute = sentinel.Attribute
+      >>> mock.return_value()
+      <Mock name='mock()()' id='...'>
+      >>> mock.return_value.assert_called_with()

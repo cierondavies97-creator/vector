@@ -1,0 +1,3 @@
+"str.splitlines()" is used to normalize all line boundaries,
+        ensuring that each line of the payload is terminated by the
+        current policy's "linesep" property (even if the original

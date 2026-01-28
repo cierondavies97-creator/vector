@@ -1,0 +1,4 @@
+"with" statement is exited, even if an exception occurs:
+      with FileInput(files=('spam.txt', 'eggs.txt')) as input:
+          process(input)
+   Changed in version 3.2: Can be used as a context manager.

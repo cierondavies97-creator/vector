@@ -1,0 +1,4 @@
+normalizes blank lines containing only whitespace characters.
+   Previously, the implementation only normalized blank lines
+   containing tabs and spaces.
+textwrap.indent(text, prefix, predicate=None)

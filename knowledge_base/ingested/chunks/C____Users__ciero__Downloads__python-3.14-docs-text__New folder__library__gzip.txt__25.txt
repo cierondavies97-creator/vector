@@ -1,0 +1,3 @@
+When decompressing, this attribute is set to the last timestamp
+      in the most recently read header.  It is an integer, holding the
+      number of seconds since the Unix epoch (00:00:00 UTC, January 1,

@@ -1,0 +1,4 @@
+details). *args* is the argument tuple for the target invocation.
+   *kwargs* is a dictionary of keyword arguments for the target
+   invocation.  If provided, the keyword-only *daemon* argument sets
+   the process "daemon" flag to "True" or "False".  If "None" (the

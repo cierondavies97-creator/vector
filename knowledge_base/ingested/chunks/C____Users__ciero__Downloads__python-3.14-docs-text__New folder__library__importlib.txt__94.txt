@@ -1,0 +1,3 @@
+module is determined to be a package if its file path (as
+      provided by "ExecutionLoader.get_filename()") is a file named
+      "__init__" when the file extension is removed **and** the module

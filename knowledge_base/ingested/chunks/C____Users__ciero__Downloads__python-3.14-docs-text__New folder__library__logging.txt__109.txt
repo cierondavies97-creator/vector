@@ -1,0 +1,4 @@
+specified record is the one which was being processed when the
+      exception occurred. (The default value of "raiseExceptions" is
+      "True", as that is more useful during development).
+   format(record)

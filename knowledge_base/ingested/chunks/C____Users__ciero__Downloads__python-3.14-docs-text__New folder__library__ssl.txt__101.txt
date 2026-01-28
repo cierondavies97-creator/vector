@@ -1,0 +1,5 @@
+conjunction with "PROTOCOL_TLS". It prevents the peers from
+   choosing TLSv1.2 as the protocol version. Available only with
+   openssl version 1.0.1+.
+   Added in version 3.4.
+   Deprecated since version 3.7: The option is deprecated since

@@ -1,0 +1,4 @@
+select an arbitrary unused port.
+**python -m pydoc -n <hostname>** will start the server listening at
+the given hostname.  By default the hostname is 'localhost' but if you
+want the server to be reached from other machines, you may want to

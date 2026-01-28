@@ -1,0 +1,4 @@
+attribute to disambiguate the times during a repeated interval.
+   Note:
+     There is no method to obtain the POSIX timestamp directly from a
+     naive "datetime" instance representing UTC time. If your

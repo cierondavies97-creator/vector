@@ -1,0 +1,4 @@
+report the error to continue with the walk, or raise the exception
+   to abort the walk.  Note that the filename is available as the
+   "filename" attribute of the exception object.
+   By default, "walk()" will not walk down into symbolic links that

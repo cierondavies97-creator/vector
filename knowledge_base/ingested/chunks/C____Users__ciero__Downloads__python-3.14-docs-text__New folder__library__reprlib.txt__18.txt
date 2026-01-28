@@ -1,0 +1,5 @@
+>>> import reprlib
+      >>> aRepr = reprlib.Repr()
+      >>> print(aRepr.repr(example))
+      [1, 'spam', {'a': 2, 'b': 'spam eggs', 'c': {3: 4.5, 6: []}}, 'ham']
+   If "indent" is set to a string, each recursion level is placed on

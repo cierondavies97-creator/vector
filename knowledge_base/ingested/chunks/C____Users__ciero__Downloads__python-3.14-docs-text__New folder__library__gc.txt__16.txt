@@ -1,0 +1,3 @@
+The GC classifies objects into two generations depending on whether
+   they have survived a collection. New objects are placed in the
+   young generation. If an object survives a collection it is moved

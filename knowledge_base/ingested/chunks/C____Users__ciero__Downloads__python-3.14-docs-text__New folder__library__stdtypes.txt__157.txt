@@ -1,0 +1,4 @@
+* If *i* or *j* is less than "-len(s)", use "0".
+   * If *i* or *j* is greater than "len(s)", use "len(s)".
+   * If *i* is greater than or equal to *j*, the slice is empty.
+5. The slice of *s* from *i* to *j* with step *k* is defined as the

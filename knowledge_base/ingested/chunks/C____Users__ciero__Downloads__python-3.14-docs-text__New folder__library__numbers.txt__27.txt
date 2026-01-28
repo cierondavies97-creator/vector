@@ -1,0 +1,6 @@
+return fallback_operator(float(a), b)
+           elif isinstance(b, complex):
+               return fallback_operator(complex(a), b)
+           else:
+               return NotImplemented
+       forward.__name__ = '__' + fallback_operator.__name__ + '__'

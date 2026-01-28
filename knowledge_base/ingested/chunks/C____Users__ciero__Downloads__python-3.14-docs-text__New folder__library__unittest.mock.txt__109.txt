@@ -1,0 +1,4 @@
+methods for the full details.
+The mock classes and the "patch()" decorators all take arbitrary
+keyword arguments for configuration. For the "patch()" decorators the
+keywords are passed to the constructor of the mock being created. The

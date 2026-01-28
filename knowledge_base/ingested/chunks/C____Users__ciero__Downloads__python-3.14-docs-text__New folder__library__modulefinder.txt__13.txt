@@ -1,0 +1,5 @@
+types:  __module__,IntType,TypeType
+   ---------------------------------------------------
+   Modules not imported:
+   guido.python.ham
+   baconhameggs

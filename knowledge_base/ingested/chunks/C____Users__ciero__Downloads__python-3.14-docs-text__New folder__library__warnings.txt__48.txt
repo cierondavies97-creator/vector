@@ -1,0 +1,4 @@
+packages. Some examples:
+   default                      # Show all warnings (even those ignored by default)
+   ignore                       # Ignore all warnings
+   error                        # Convert all warnings to errors

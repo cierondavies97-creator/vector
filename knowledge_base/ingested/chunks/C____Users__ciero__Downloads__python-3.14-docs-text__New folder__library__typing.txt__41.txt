@@ -1,0 +1,4 @@
+# must be strings.
+   def notify_by_email(employees: Sequence[Employee],
+                       overrides: Mapping[str, str]) -> None: ...
+Generic functions and classes can be parameterized by using type

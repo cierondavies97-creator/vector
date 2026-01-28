@@ -1,0 +1,5 @@
+included as part of an HTTP POST request.
+base64.b64encode(s, altchars=None)
+   Encode the *bytes-like object* *s* using Base64 and return the
+   encoded "bytes".
+   Optional *altchars* must be a *bytes-like object* of length 2 which

@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| codeobject.co_kwonlyargcount                       | The number of keyword-only *parameters* (including |

@@ -1,0 +1,4 @@
+converted values, and
+3. Convert the data values from the call from Python to C.
+As you can see, the data conversion steps are simply swapped to
+accommodate the different direction of the cross-language transfer.

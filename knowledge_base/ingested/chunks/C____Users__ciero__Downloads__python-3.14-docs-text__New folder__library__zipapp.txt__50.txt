@@ -1,0 +1,4 @@
+Python has been able to execute zip files which contain a
+"__main__.py" file since version 2.6.  In order to be executed by
+Python, an application archive simply has to be a standard zip file
+containing a "__main__.py" file which will be run as the entry point

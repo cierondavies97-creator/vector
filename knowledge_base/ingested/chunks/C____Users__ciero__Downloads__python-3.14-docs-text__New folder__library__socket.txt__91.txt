@@ -1,0 +1,4 @@
+These are string constants containing Bluetooth addresses with
+   special meanings. For example, "BDADDR_ANY" can be used to indicate
+   any address when specifying the binding socket with
+   "BTPROTO_RFCOMM".

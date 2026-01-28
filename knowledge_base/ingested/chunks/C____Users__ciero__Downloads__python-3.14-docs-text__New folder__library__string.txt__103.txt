@@ -1,0 +1,3 @@
+|           | case 'E' as the separator character.                       |
+   +-----------+------------------------------------------------------------+
+   | "'f'"     | Fixed-point notation. For a given precision "p", formats   |

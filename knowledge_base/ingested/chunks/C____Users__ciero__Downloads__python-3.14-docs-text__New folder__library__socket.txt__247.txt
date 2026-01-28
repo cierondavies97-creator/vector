@@ -1,0 +1,4 @@
+file object's internal buffer may end up in an inconsistent state
+   if a timeout occurs.
+   Closing the file object returned by "makefile()" won't close the
+   original socket unless all other file objects have been closed and

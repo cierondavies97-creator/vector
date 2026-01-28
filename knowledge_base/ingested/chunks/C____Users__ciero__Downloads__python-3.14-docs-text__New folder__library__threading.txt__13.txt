@@ -1,0 +1,5 @@
+multiple I/O-bound tasks simultaneously.
+GIL and performance considerations
+==================================
+Unlike the "multiprocessing" module, which uses separate processes to
+bypass the *global interpreter lock* (GIL), the threading module

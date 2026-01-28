@@ -1,0 +1,5 @@
+notebook, moves it to the specified position.
+      See Tab Options for the list of available options.
+   select(tab_id=None)
+      Selects the specified *tab_id*.
+      The associated child window will be displayed, and the

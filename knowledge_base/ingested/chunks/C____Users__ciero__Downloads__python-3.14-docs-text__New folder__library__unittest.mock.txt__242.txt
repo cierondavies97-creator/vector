@@ -1,0 +1,7 @@
+>>> import os
+>>> with patch.dict('os.environ', {'newkey': 'newvalue'}):
+...     print(os.environ['newkey'])
+...
+newvalue
+>>> assert 'newkey' not in os.environ
+Keywords can be used in the "patch.dict()" call to set values in the

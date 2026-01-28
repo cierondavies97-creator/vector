@@ -1,0 +1,3 @@
+The path of a CSS stylesheet to use for the calendar. This must
+   either be relative to the generated HTML, or an absolute HTTP or
+   "file:///" URL.

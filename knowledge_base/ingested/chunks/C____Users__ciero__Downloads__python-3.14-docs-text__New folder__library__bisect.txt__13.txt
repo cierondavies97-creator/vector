@@ -1,0 +1,4 @@
+bisect.insort_left(a, x, lo=0, hi=len(a), *, key=None)
+   Insert *x* in *a* in sorted order.
+   This function first runs "bisect_left()" to locate an insertion
+   point. Next, it runs the "insert()" method on *a* to insert *x* at

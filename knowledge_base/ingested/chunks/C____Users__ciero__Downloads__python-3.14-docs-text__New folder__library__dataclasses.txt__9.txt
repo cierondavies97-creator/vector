@@ -1,0 +1,4 @@
+below. The decorator returns the same class that it is called on;
+   no new class is created.
+   If "@dataclass" is used just as a simple decorator with no
+   parameters, it acts as if it has the default values documented in

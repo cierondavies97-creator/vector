@@ -1,0 +1,5 @@
+Changed in version 3.4: Added *file* parameter.
+   Changed in version 3.11: Added the *show_caches* and *adaptive*
+   parameters.
+   Changed in version 3.13: Added the *show_offsets* parameter.
+   Changed in version 3.14: Added the *show_positions* parameter.

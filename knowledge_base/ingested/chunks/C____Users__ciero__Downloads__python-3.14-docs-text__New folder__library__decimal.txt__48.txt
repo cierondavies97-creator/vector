@@ -1,0 +1,4 @@
+rounded (digits beyond the context precision were thrown away) and
+that the result is inexact (some of the discarded digits were non-
+zero).
+Individual traps are set using the dictionary in the "traps" attribute

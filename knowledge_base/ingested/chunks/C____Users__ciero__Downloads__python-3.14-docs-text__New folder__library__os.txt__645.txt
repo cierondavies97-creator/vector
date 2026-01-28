@@ -1,0 +1,6 @@
+Performs "os.dup2(os.open(path, flags, mode), fd)".
+   os.POSIX_SPAWN_CLOSE
+      ("os.POSIX_SPAWN_CLOSE", *fd*)
+      Performs "os.close(fd)".
+   os.POSIX_SPAWN_DUP2
+      ("os.POSIX_SPAWN_DUP2", *fd*, *new_fd*)

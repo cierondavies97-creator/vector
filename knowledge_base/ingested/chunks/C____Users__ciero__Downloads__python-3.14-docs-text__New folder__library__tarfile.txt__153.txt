@@ -1,0 +1,5 @@
+Return *member* unchanged.
+   This implements the "'fully_trusted'" filter.
+tarfile.tar_filter(member, path)
+   Implements the "'tar'" filter.
+   * Strip leading slashes ("/" and "os.sep") from filenames.

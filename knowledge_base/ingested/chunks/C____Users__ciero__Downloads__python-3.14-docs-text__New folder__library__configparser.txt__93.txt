@@ -1,0 +1,4 @@
+behaviour matched "strict=False".
+* *empty_lines_in_values*, default value: "True"
+  In config parsers, values can span multiple lines as long as they
+  are indented more than the key that holds them.  By default parsers

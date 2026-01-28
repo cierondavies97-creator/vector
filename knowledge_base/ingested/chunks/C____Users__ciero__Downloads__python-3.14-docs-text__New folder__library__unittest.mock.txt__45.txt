@@ -1,0 +1,7 @@
+>>> mock = Mock()
+      >>> mock.method()
+      <Mock name='mock.method()' id='...'>
+      >>> mock.method.assert_called_once()
+      >>> mock.method()
+      <Mock name='mock.method()' id='...'>
+      >>> mock.method.assert_called_once()

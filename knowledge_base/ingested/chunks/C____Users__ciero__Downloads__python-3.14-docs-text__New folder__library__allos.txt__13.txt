@@ -1,0 +1,7 @@
+* ctypes tutorial
+    * Loading dynamic link libraries
+    * Accessing functions from loaded dlls
+    * Calling functions
+    * Fundamental data types
+    * Calling functions, continued
+    * Calling variadic functions

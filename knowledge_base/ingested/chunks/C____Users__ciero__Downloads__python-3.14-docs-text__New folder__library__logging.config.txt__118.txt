@@ -1,0 +1,3 @@
+using either "'cfg://handlers.email.subject'" or, equivalently,
+"'cfg://handlers.email[subject]'".  The latter form only needs to be
+used if the key contains spaces or non-alphanumeric characters. Please

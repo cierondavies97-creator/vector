@@ -1,0 +1,4 @@
+expression itself, "yield" and "yield from" expressions are prohibited
+in the implicitly defined generator.
+If a generator expression contains either "async for" clauses or
+"await" expressions it is called an *asynchronous generator

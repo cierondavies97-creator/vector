@@ -1,0 +1,5 @@
+to create a new  parser object.
+class xml.sax.xmlreader.XMLReader
+   Base class which can be inherited by SAX parsers.
+class xml.sax.xmlreader.IncrementalParser
+   In some cases, it is desirable not to parse an input source at

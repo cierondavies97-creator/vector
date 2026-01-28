@@ -1,0 +1,3 @@
+you the root "EmailMessage" instance of the object structure.  For
+simple, non-MIME messages the payload of this root object will likely
+be a string containing the text of the message.  For MIME messages,

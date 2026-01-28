@@ -1,0 +1,3 @@
+is used. If a name is specified, it must appear in the "[formatters]"
+section and have a corresponding section in the configuration file.
+The "args" entry, when evaluated in the context of the "logging"

@@ -1,0 +1,5 @@
+when "set_content()" is called, since sub-parts do not need their
+   own *MIME-Version* headers.
+-[ Footnotes ]-
+[1] Originally added in 3.4 as a *provisional module*.  Docs for
+    legacy message class moved to email.message.Message: Representing

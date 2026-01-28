@@ -1,0 +1,4 @@
+serializer.  The comment string can be either a bytestring or a
+   Unicode string.  *text* is a string containing the comment string.
+   Returns an element instance representing a comment.
+   Note that "XMLParser" skips over comments in the input instead of

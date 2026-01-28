@@ -1,0 +1,6 @@
+its source.
+winreg.HKEY_CURRENT_CONFIG
+   Contains information about the current hardware profile of the
+   local computer system.
+winreg.HKEY_DYN_DATA
+   This key is not used in versions of Windows after 98.

@@ -1,0 +1,4 @@
+which can be run under the Python debugger, "pdb".
+* The "DebugRunner" class is a subclass of "DocTestRunner" that raises
+  an exception for the first failing example, containing information
+  about that example. This information can be used to perform post-

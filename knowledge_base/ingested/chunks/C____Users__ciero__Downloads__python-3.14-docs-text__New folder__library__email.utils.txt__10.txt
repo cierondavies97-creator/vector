@@ -1,0 +1,4 @@
+malformed inputs by default.
+email.utils.formataddr(pair, charset='utf-8')
+   The inverse of "parseaddr()", this takes a 2-tuple of the form
+   "(realname, email_address)" and returns the string value suitable

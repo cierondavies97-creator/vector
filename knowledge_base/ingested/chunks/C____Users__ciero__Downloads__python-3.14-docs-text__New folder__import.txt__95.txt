@@ -1,0 +1,4 @@
+"__path__". "sys.path_hooks" (described below) are consulted when
+traversing a package's "__path__".
+A package's "__init__.py" file may set or alter the package's
+"__path__" attribute, and this was typically the way namespace

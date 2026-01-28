@@ -1,0 +1,5 @@
+Raises an auditing event "fcntl.flock" with arguments "fd",
+   "operation".
+fcntl.lockf(fd, cmd, len=0, start=0, whence=0, /)
+   This is essentially a wrapper around the "fcntl()" locking calls.
+   *fd* is the file descriptor (file objects providing a "fileno()"

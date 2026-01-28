@@ -1,0 +1,9 @@
+Server:
+   $ python TCPServer.py
+   127.0.0.1 wrote:
+   b'hello world with TCP'
+   127.0.0.1 wrote:
+   b'python is nice'
+Client:
+   $ python TCPClient.py hello world with TCP
+   Sent:     hello world with TCP

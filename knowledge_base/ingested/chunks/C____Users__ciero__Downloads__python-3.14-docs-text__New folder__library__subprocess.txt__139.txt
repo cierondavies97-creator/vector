@@ -1,0 +1,4 @@
+and retrying communication will not lose any output.  Supplying
+   *input* to a subsequent post-timeout "communicate()" call is in
+   undefined behavior and may become an error in the future.
+   The child process is not killed if the timeout expires, so in order

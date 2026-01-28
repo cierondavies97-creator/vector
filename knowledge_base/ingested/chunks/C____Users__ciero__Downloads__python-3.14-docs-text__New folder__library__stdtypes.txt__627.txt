@@ -1,0 +1,6 @@
+>>> b"they're bill's friends from the UK".title()
+      b"They'Re Bill'S Friends From The Uk"
+   A workaround for apostrophes can be constructed using regular
+   expressions:
+      >>> import re
+      >>> def titlecase(s):

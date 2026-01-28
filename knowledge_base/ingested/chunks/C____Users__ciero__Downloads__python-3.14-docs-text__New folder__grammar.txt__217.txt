@@ -1,0 +1,6 @@
+expression_without_invalid[expr_ty]:
+       | a=disjunction 'if' b=disjunction 'else' c=expression { _PyAST_IfExp(b, a, c, EXTRA) }
+       | disjunction
+       | lambdef
+   invalid_legacy_expression:
+       | a=NAME !'(' b=star_expressions {

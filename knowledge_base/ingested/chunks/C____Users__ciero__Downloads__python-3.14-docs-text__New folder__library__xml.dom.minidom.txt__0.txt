@@ -1,0 +1,4 @@
+"xml.dom.minidom" --- Minimal DOM implementation
+************************************************
+**Source code:** Lib/xml/dom/minidom.py
+======================================================================

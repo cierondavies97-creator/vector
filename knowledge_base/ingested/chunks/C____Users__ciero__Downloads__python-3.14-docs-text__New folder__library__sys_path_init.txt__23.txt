@@ -1,0 +1,4 @@
+to the location of the file. Import statements other than to "site"
+are not permitted, and arbitrary code cannot be specified.
+Note that ".pth" files (without leading underscore) will be processed
+normally by the "site" module when "import site" has been specified.

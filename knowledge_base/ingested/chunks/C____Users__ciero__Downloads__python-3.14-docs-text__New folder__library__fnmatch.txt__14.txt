@@ -1,0 +1,7 @@
+Return the shell-style pattern *pat* converted to a regular
+   expression for using with "re.match()". The pattern is expected to
+   be a "str".
+   Example:
+   >>> import fnmatch, re
+   >>>
+   >>> regex = fnmatch.translate('*.txt')

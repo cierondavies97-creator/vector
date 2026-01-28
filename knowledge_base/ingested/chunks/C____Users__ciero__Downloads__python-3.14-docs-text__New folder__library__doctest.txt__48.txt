@@ -1,0 +1,4 @@
+doctest can pass is if the "NORMALIZE_WHITESPACE" option or
+  directive is in effect. Alternatively, the test can be rewritten to
+  capture the output and compare it to an expected value as part of
+  the test.  This handling of tabs in the source was arrived at

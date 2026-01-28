@@ -1,0 +1,5 @@
+* "argparse" --- Parser for command-line options, arguments and
+    subcommands
+  * "optparse" --- Parser for command line options
+  * "getpass" --- Portable password input
+  * "fileinput" --- Iterate over lines from multiple input streams

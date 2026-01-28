@@ -1,0 +1,3 @@
+descriptors had any events to report. If *timeout* is given, it
+   specifies the length of time in milliseconds which the system will
+   wait for events before returning. If *timeout* is omitted, -1, or

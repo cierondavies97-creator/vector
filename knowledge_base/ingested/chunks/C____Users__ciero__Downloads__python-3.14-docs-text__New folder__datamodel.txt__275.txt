@@ -1,0 +1,5 @@
+The PEP that introduced the "co_lines()" method.
+codeobject.replace(**kwargs)
+   Return a copy of the code object with new values for the specified
+   fields.
+   Code objects are also supported by the generic function

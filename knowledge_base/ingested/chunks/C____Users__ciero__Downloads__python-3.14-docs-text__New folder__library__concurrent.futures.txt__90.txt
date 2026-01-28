@@ -1,0 +1,3 @@
+Return the exception raised by the call.  If the call hasn't yet
+      completed then this method will wait up to *timeout* seconds.
+      If the call hasn't completed in *timeout* seconds, then a

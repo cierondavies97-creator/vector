@@ -1,0 +1,4 @@
+f"""[{ep.group}]\n{ep.name}={ep.value}"""
+                 for ep in self.record.entry_points)
+       def locate_file(self, path):
+           raise RuntimeError("This distribution has no file system")

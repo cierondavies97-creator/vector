@@ -1,0 +1,9 @@
+and how it will be used:
+>>> import copyreg, copy, pickle
+>>> class C:
+...     def __init__(self, a):
+...         self.a = a
+...
+>>> def pickle_c(c):
+...     print("pickling a C instance...")
+...     return C, (c.a,)

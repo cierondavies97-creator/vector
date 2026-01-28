@@ -1,0 +1,4 @@
+considered to estimate if the sample contains a header:
+      * the second through n-th rows contain numeric values
+      * the second through n-th rows contain strings where at least
+        one value's length differs from that of the putative header of

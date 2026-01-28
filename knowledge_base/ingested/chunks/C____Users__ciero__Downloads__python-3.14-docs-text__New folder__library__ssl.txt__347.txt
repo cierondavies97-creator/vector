@@ -1,0 +1,5 @@
+settings for client sockets, including automatic certificate
+verification:
+   >>> context = ssl.create_default_context()
+If you prefer to tune security settings yourself, you might create a
+context from scratch (but beware that you might not get the settings

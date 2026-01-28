@@ -1,0 +1,3 @@
+| (star_targets '=')* a=yield_expr '=' { RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "assignment to yield expression not possible") }
+       | a=star_expressions augassign annotated_rhs {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(

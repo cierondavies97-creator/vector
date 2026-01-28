@@ -1,0 +1,3 @@
+An "SMTP" instance encapsulates an SMTP connection.  It has methods
+   that support a full repertoire of SMTP and ESMTP operations. If the
+   optional *host* and *port* parameters are given, the SMTP

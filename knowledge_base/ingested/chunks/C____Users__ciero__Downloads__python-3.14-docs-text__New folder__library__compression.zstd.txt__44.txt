@@ -1,0 +1,4 @@
+flush(mode=ZstdCompressor.FLUSH_FRAME)
+      Finish the compression process, returning a "bytes" object
+      containing any data stored in the compressor's internal buffers.
+      The *mode* argument is a "ZstdCompressor" attribute, either

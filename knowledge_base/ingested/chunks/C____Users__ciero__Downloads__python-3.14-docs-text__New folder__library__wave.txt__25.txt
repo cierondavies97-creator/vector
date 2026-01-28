@@ -1,0 +1,5 @@
+writeframesraw(data)
+      Write audio frames, without correcting *nframes*.
+      Changed in version 3.4: Any *bytes-like object* is now accepted.
+   writeframes(data)
+      Write audio frames and make sure *nframes* is correct.  It will

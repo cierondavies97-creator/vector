@@ -1,0 +1,4 @@
+"sys.byteorder" to check the endianness of your system.
+Native size and alignment are determined using the C compiler's
+"sizeof" expression.  This is always combined with native byte order.
+Standard size depends only on the format character;  see the table in

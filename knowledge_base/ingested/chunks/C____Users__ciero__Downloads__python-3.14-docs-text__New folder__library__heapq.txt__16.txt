@@ -1,0 +1,6 @@
+Push the value *item* onto the max-heap *heap*, maintaining the
+   max-heap invariant.
+   Added in version 3.14.
+heapq.heappop_max(heap)
+   Pop and return the largest item from the max-heap *heap*,
+   maintaining the max-heap invariant.  If the max-heap is empty,

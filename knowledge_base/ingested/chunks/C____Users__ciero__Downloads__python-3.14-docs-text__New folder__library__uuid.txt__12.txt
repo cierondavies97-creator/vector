@@ -1,0 +1,4 @@
+resulting UUID will have its variant and version number set
+   according to **RFC 9562**, overriding bits in the given *hex*,
+   *bytes*, *bytes_le*, *fields*, or *int*.
+   Comparison of UUID objects are made by way of comparing their

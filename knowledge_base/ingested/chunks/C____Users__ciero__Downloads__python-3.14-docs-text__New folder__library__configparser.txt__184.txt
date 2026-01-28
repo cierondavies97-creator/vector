@@ -1,0 +1,4 @@
+specified value; otherwise raise "NoSectionError".  *option* and
+      *value* must be strings; if not, "TypeError" is raised.
+   write(fileobject, space_around_delimiters=True)
+      Write a representation of the configuration to the specified

@@ -1,0 +1,6 @@
+standard C library:
+curses.ascii.isalnum(c)
+   Checks for an ASCII alphanumeric character; it is equivalent to
+   "isalpha(c) or isdigit(c)".
+curses.ascii.isalpha(c)
+   Checks for an ASCII alphabetic character; it is equivalent to

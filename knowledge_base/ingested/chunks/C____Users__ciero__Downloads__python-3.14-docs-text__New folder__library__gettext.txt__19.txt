@@ -1,0 +1,4 @@
+gettext.find(domain, localedir=None, languages=None, all=False)
+   This function implements the standard ".mo" file search algorithm.
+   It takes a *domain*, identical to what "textdomain()" takes.
+   Optional *localedir* is as in "bindtextdomain()". Optional

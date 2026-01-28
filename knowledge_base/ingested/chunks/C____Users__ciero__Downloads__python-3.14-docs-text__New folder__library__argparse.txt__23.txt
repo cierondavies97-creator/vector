@@ -1,0 +1,6 @@
+can be supplied using the "prog=" argument to "ArgumentParser":
+   >>> parser = argparse.ArgumentParser(prog='myprogram')
+   >>> parser.print_help()
+   usage: myprogram [-h]
+   options:
+    -h, --help  show this help message and exit

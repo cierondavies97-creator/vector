@@ -1,0 +1,4 @@
+These are thread objects corresponding to "alien threads", which are
+threads of control started outside the threading module, such as
+directly from C code.  Dummy thread objects have limited
+functionality; they are always considered alive and daemonic, and

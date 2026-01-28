@@ -1,0 +1,8 @@
+ContentTypeHeader
+      content-disposition:
+         ContentDispositionHeader
+      content-transfer-encoding:
+         ContentTransferEncodingHeader
+      message-id:
+         MessageIDHeader
+   "HeaderRegistry" has the following methods:

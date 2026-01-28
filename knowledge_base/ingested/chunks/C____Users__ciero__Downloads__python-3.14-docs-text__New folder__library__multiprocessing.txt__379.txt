@@ -1,0 +1,4 @@
+iterables. Consider using "imap()" or "imap_unordered()" with
+      explicit *chunksize* option for better efficiency.
+   map_async(func, iterable[, chunksize[, callback[, error_callback]]])
+      A variant of the "map()" method which returns a "AsyncResult"

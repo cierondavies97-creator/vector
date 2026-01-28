@@ -1,0 +1,5 @@
+behavior, remove directories from *dirnames* as appropriate.
+   Note:
+     Unlike "os.walk()", "Path.walk()" lists symlinks to directories
+     in *filenames* if *follow_symlinks* is false.
+   This example displays the number of bytes used by all files in each

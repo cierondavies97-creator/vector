@@ -1,0 +1,4 @@
+When called with no arguments, "TZPATH" is set to the default
+   value.
+   Calling "reset_tzpath" will not invalidate the "ZoneInfo" cache,
+   and so calls to the primary "ZoneInfo" constructor will only use

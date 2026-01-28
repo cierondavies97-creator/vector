@@ -1,0 +1,6 @@
+▶ more tomorrow
+Write simplestversion of codeWrite teststo check codeRun tests; debuguntil tests passRefactorOptimise
+Nicola Chiapolini, 8 July 2024
+Virtualenv
+1 / 1
+An Almost Unrelated Note: Using VirtualEnv

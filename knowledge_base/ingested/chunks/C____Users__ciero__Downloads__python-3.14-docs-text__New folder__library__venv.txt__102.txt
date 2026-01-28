@@ -1,0 +1,7 @@
+progress = self.progress
+           if self.verbose:
+               term = '\n'
+           else:
+               term = ''
+           if progress is not None:
+               progress('Installing %s ...%s' % (name, term), 'main')

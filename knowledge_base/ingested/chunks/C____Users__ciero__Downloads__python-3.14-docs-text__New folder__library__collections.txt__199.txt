@@ -1,0 +1,5 @@
+data
+      A real "list" object used to store the contents of the
+      "UserList" class.
+**Subclassing requirements:** Subclasses of "UserList" are expected to
+offer a constructor which can be called with either no arguments or

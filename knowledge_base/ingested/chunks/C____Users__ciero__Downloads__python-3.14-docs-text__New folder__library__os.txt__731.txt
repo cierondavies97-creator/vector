@@ -1,0 +1,5 @@
+Added in version 3.9: The "P_PIDFD" constant.
+os.WCONTINUED
+   This *options* flag for "waitpid()", "wait3()", "wait4()", and
+   "waitid()" causes child processes to be reported if they have been
+   continued from a job control stop since they were last reported.

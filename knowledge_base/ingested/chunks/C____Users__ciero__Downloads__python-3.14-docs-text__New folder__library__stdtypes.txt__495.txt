@@ -1,0 +1,4 @@
+classmethod fromhex(string, /)
+      This "bytes" class method returns a bytes object, decoding the
+      given string object.  The string must contain two hexadecimal
+      digits per byte, with ASCII whitespace being ignored.

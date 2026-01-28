@@ -1,0 +1,6 @@
+fileinput.fileno()
+   Return the integer "file descriptor" for the current file. When no
+   file is opened (before the first line and between files), returns
+   "-1".
+fileinput.lineno()
+   Return the cumulative line number of the line that has just been

@@ -1,0 +1,5 @@
+"subprocess" module
+   * "Filter(False, tracemalloc.__file__)" excludes traces of the
+     "tracemalloc" module
+   * "Filter(False, "<unknown>")" excludes empty tracebacks
+   Changed in version 3.5: The "'.pyo'" file extension is no longer

@@ -1,0 +1,4 @@
+new process is killed. Instead it raises OSError exception.
+   The "l" and "v" variants of the "spawn*" functions differ in how
+   command-line arguments are passed.  The "l" variants are perhaps
+   the easiest to work with if the number of parameters is fixed when

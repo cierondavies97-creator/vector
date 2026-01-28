@@ -1,0 +1,4 @@
+hook completes to avoid resurrecting objects.
+   Raise an auditing event "sys.unraisablehook" with arguments *hook*,
+   *unraisable* when an exception that cannot be handled occurs. The
+   *unraisable* object is the same as what will be passed to the hook.

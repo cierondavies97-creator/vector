@@ -1,0 +1,4 @@
+function to be called when an object is garbage collected. This is
+simpler to use than setting up a callback function on a raw weak
+reference, since the module automatically ensures that the finalizer
+remains alive until the object is collected.

@@ -1,0 +1,6 @@
+under which the object will be registered, and object, the callable
+   to be registered.
+   The following example shows how to register a custom type with a
+   parser:
+      >>> import argparse
+      >>> parser = argparse.ArgumentParser()

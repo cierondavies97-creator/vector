@@ -1,0 +1,4 @@
+Create a code object from Python source.
+      The *data* argument can be whatever the "compile()" function
+      supports (i.e. string or bytes). The *path* argument should be
+      the "path" to where the source code originated from, which can

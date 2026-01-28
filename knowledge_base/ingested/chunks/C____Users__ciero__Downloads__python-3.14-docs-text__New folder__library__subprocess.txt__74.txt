@@ -1,0 +1,4 @@
+does the equivalent of:
+      Popen(['/bin/sh', '-c', args[0], args[1], ...])
+   On Windows with "shell=True", the "COMSPEC" environment variable
+   specifies the default shell.  The only time you need to specify

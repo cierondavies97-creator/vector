@@ -1,0 +1,4 @@
+likely to become corrupted.  This may cause any other process to get
+  an exception when it tries to use the queue later on.
+Warning:
+  As mentioned above, if a child process has put items on a queue (and

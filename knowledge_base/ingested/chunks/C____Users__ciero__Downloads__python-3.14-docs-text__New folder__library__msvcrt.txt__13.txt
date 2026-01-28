@@ -1,0 +1,3 @@
+keypress is not already available, but will not wait for "Enter" to
+   be pressed. If the pressed key was a special function key, this
+   will return "'\000'" or "'\xe0'"; the next call will return the

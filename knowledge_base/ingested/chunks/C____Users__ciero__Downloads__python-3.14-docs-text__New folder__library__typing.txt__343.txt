@@ -1,0 +1,7 @@
+__module__
+      The name of the module in which the new type is defined.
+   __name__
+      The name of the new type.
+   __supertype__
+      The type that the new type is based on.
+   Added in version 3.5.2.

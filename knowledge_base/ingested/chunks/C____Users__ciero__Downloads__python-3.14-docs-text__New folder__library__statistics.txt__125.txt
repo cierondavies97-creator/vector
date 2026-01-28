@@ -1,0 +1,3 @@
+are estimated, and "noise" represents the variability of the data
+   that was not explained by the linear regression (it is equal to the
+   difference between predicted and actual values of the dependent

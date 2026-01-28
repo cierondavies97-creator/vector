@@ -1,0 +1,5 @@
+"hostname".
+   Availability: not WASI.
+socket.gethostbyname_ex(hostname)
+   Translate a host name to IPv4 address format, extended interface.
+   Return a 3-tuple "(hostname, aliaslist, ipaddrlist)" where

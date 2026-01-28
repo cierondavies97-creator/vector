@@ -1,0 +1,5 @@
+"RuntimeError".
+atexit.unregister(func)
+   Remove *func* from the list of functions to be run at interpreter
+   shutdown. "unregister()" silently does nothing if *func* was not
+   previously registered.  If *func* has been registered more than

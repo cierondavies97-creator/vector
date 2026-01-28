@@ -1,0 +1,4 @@
+"FLAGS_VALUE" is "ast.PyCF_ONLY_AST" if "optimize <= 0" and
+   "ast.PyCF_OPTIMIZED_AST" otherwise.
+   If "type_comments=True" is given, the parser is modified to check
+   and return type comments as specified by **PEP 484** and **PEP

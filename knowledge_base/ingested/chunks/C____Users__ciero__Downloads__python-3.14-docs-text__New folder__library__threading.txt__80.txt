@@ -1,0 +1,5 @@
+*kwargs* arguments, respectively.
+      Using list or tuple as the *args* argument which passed to the
+      "Thread" could achieve the same effect.
+      Example:
+         >>> from threading import Thread

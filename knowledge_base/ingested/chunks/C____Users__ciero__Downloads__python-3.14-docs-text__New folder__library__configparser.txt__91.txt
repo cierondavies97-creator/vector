@@ -1,0 +1,7 @@
+if # is not at line start
+     >>> print(parser['hashes']['even in multiline values'])
+     line #1
+     line #2
+     line #3
+* *strict*, default value: "True"
+  When set to "True", the parser will not allow for any section or

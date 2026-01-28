@@ -1,0 +1,6 @@
+>>> custom['section1'].getboolean('funky')
+      False
+   Other typical Boolean pairs include "accept"/"reject" or
+   "enabled"/"disabled".
+ConfigParser.optionxform(option)
+   This method transforms option names on every read, get, or set

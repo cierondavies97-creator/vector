@@ -1,0 +1,4 @@
+encountered as a candidate if the (sub-)part matches a
+      preference.
+      When encountering a "multipart/related", check the "start"
+      parameter and if a part with a matching *Content-ID* is found,

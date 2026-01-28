@@ -1,0 +1,7 @@
+"call_tracing()" enables explicit recursion of the tracing
+   function.
+sys.copyright
+   A string containing the copyright pertaining to the Python
+   interpreter.
+sys._clear_type_cache()
+   Clear the internal type cache. The type cache is used to speed up

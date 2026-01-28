@@ -1,0 +1,4 @@
+Currently tools are completely independent and cannot be used to
+monitor each other. This restriction may be lifted in the future.
+Before registering or activating events, a tool should choose an
+identifier. Identifiers are integers in the range 0 to 5 inclusive.

@@ -1,0 +1,4 @@
+specify the times set on *path* and are used as follows:
+   * If *ns* is specified, it must be a 2-tuple of the form
+     "(atime_ns, mtime_ns)" where each member is an int expressing
+     nanoseconds.

@@ -1,0 +1,5 @@
+See also:
+     "create_default_context()" lets the "ssl" module choose security
+     settings for a given purpose.
+   Changed in version 3.6: The context is created with secure default
+   values. The options "OP_NO_COMPRESSION",

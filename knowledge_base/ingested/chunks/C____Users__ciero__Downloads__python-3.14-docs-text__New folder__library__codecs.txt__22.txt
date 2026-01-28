@@ -1,0 +1,4 @@
+take one argument, being the encoding name in all lower case
+   letters with hyphens and spaces converted to underscores, and
+   return a "CodecInfo" object. In case a search function cannot find
+   a given encoding, it should return "None".

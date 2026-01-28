@@ -1,0 +1,4 @@
+"END_ELEMENT" or "xml.dom.minidom.Text" if event equals
+      "CHARACTERS". The current node does not contain information
+      about its children, unless "expandNode()" is called.
+   expandNode(node)

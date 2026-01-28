@@ -1,0 +1,5 @@
+These can be obtained with "get_children()".
+   get_identifiers()
+      Return a view object containing the names of symbols in the
+      table. See the documentation of view objects.
+   lookup(name)

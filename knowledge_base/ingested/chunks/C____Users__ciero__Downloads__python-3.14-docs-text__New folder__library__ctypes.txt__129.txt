@@ -1,0 +1,5 @@
+...
+   >>> print(Int.first_16)
+   <ctypes.CField 'first_16' type=c_int, ofs=0, bit_size=16, bit_offset=0>
+   >>> print(Int.second_16)
+   <ctypes.CField 'second_16' type=c_int, ofs=0, bit_size=16, bit_offset=16>

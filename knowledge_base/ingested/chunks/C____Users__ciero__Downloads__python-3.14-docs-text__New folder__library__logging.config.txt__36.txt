@@ -1,0 +1,3 @@
+and in part this is done by offering the ability to convert text in
+configuration files into Python objects used in logging configuration
+- for example, as described in User-defined objects. However, these

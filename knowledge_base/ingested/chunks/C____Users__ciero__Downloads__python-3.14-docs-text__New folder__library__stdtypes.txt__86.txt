@@ -1,0 +1,6 @@
+integers (whole numbers) is always the integer as the numerator and
+   "1" as the denominator.
+   Added in version 3.8.
+int.is_integer()
+   Returns "True". Exists for duck type compatibility with
+   "float.is_integer()".

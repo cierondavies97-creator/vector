@@ -1,0 +1,6 @@
+0.8402
+   >>> # Exact solution using the cumulative binomial distribution
+   >>> from math import comb, fsum
+   >>> round(fsum(comb(n, r) * p**r * q**(n-r) for r in range(k+1)), 4)
+   0.8402
+   >>> # Approximation using a simulation

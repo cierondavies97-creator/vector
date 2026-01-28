@@ -1,0 +1,4 @@
+The behavior of Python's comparison operators can be a little
+surprising where a "NaN" is involved.  A test for equality where one
+of the operands is a quiet or signaling "NaN" always returns "False"
+(even when doing "Decimal('NaN')==Decimal('NaN')"), while a test for

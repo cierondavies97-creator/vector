@@ -1,0 +1,5 @@
+pairs. The values of *other* take priority when *d* and *other*
+      share keys.
+      Added in version 3.9.
+   Dictionaries and dictionary views are reversible.
+      >>> d = {"one": 1, "two": 2, "three": 3, "four": 4}

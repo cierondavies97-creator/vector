@@ -1,0 +1,4 @@
+by the operating system). On Windows, this function will also
+   resolve MS-DOS (also called 8.3) style names such as "C:\\PROGRA~1"
+   to "C:\\Program Files".
+   By default, the path is evaluated up to the first component that

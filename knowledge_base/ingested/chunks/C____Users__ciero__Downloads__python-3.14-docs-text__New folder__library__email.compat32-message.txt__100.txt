@@ -1,0 +1,4 @@
+otherwise a "ValueError" is raised.
+      This method replaces the *Content-Type* header, keeping all the
+      parameters in place.  If *requote* is "False", this leaves the
+      existing header's quoting as is, otherwise the parameters will

@@ -1,0 +1,5 @@
+the caller.
+   rmtree.avoids_symlink_attacks
+      Indicates whether the current platform and implementation
+      provides a symlink attack resistant version of "rmtree()".
+      Currently this is only true for platforms supporting fd-based

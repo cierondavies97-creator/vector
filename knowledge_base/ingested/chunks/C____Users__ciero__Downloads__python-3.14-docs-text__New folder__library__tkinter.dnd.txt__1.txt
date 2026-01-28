@@ -1,0 +1,4 @@
+with the Tk DND.
+The "tkinter.dnd" module provides drag-and-drop support for objects
+within a single application, within the same window or between
+windows. To enable an object to be dragged, you must create an event

@@ -1,0 +1,5 @@
+which may be overridden; the default implementation of this function
+formats the message by calling "formatwarning()", which is also
+available for use by custom implementations.
+See also:
+  "logging.captureWarnings()" allows you to handle all warnings with

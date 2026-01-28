@@ -1,0 +1,6 @@
+system is free to implement its own transfer mechanism for out-of-band
+buffers. Potential optimizations include the use of shared memory or
+datatype-dependent compression.
+Example
+-------
+Here is a trivial example where we implement a "bytearray" subclass

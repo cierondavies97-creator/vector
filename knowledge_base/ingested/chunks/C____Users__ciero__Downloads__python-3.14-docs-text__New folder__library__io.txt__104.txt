@@ -1,0 +1,4 @@
+mode behaves in a similar way to "'w'". Add a "'+'" to the mode to
+   allow simultaneous reading and writing.
+   The "read()" (when called with a positive argument), "readinto()"
+   and "write()" methods on this class will only make one system call.

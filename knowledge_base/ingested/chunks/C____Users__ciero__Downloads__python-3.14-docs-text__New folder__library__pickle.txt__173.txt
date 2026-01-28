@@ -1,0 +1,6 @@
+higher.
+Provider API
+------------
+The large data objects to be pickled must implement a
+"__reduce_ex__()" method specialized for protocol 5 and higher, which
+returns a "PickleBuffer" instance (instead of e.g. a "bytes" object)

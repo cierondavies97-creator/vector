@@ -1,0 +1,5 @@
+rmtree example
+--------------
+This example shows how to remove a directory tree on Windows where
+some of the files have their read-only bit set. It uses the onexc
+callback to clear the readonly bit and reattempt the remove. Any

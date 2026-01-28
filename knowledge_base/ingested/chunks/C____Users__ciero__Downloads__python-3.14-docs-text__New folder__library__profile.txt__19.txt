@@ -1,0 +1,5 @@
+-o <output_file>
+   Writes the profile results to a file instead of to stdout.
+-s <sort_order>
+   Specifies one of the "sort_stats()" sort values to sort the output
+   by. This only applies when "-o" is not supplied.

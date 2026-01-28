@@ -1,0 +1,3 @@
+a raw binary stream ("RawIOBase").  Its subclasses, "BufferedWriter",
+"BufferedReader", and "BufferedRWPair" buffer raw binary streams that
+are writable, readable, and both readable and writable, respectively.

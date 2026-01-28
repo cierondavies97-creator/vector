@@ -1,0 +1,4 @@
+and data is processed by method "data(data)".  For further
+   supported callback methods, see the "TreeBuilder" class.
+   "XMLParser.close()" calls *target*'s method "close()". "XMLParser"
+   can be used not only for building a tree structure. This is an

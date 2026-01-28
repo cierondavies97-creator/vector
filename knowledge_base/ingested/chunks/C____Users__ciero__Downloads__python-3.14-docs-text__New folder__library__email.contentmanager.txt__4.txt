@@ -1,0 +1,6 @@
+registry, stopping with the first one found:
+      * the string representing the full MIME type
+        ("maintype/subtype")
+      * the string representing the "maintype"
+      * the empty string
+      If none of these keys produce a handler, raise a "KeyError" for

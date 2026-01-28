@@ -1,0 +1,4 @@
+action="store_const", const=0, dest="verbose")
+     parser.add_option("-v", "--verbose",
+                       action="store_const", const=1, dest="verbose")
+     parser.add_option("--noisy",

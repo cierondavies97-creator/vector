@@ -1,0 +1,5 @@
+values are represented as Python lists.  All possible attributes
+      must be present and have valid values when compiling an AST with
+      "compile()".
+   _field_types
+      The "_field_types" attribute on each concrete class is a

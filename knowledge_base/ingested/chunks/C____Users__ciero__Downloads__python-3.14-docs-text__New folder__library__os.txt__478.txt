@@ -1,0 +1,6 @@
+"length".
+   Availability: Unix, Windows.
+   Added in version 3.3.
+   Changed in version 3.5: Added support for Windows
+   Changed in version 3.6: Accepts a *path-like object*.
+os.unlink(path, *, dir_fd=None)

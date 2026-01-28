@@ -1,0 +1,5 @@
+Similar to "perf_counter()", but return time as nanoseconds.
+   Added in version 3.7.
+time.process_time() -> float
+   Return the value (in fractional seconds) of the sum of the system
+   and user CPU time of the current process.  It does not include time

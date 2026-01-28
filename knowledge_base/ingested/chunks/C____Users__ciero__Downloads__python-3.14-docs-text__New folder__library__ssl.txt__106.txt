@@ -1,0 +1,5 @@
+server sockets.
+   Added in version 3.3.
+ssl.OP_SINGLE_DH_USE
+   Prevents reuse of the same DH key for distinct SSL sessions.  This
+   improves forward secrecy but requires more computational resources.

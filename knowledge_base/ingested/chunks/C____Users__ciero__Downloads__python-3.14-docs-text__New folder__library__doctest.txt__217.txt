@@ -1,0 +1,3 @@
+created for each "DocTest". If *globs* is not specified, then it
+      defaults to the module's "__dict__", if specified, or "{}"
+      otherwise. If *extraglobs* is not specified, then it defaults to

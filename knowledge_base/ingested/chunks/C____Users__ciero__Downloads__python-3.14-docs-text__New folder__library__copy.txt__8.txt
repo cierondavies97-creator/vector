@@ -1,0 +1,4 @@
+set of components copied.
+This module does not copy types like module, method, stack trace,
+stack frame, file, socket, window, or any similar types.  It does
+"copy" functions and classes (shallow and deeply), by returning the

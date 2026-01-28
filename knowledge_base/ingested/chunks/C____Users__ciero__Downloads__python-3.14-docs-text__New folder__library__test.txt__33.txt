@@ -1,0 +1,5 @@
+test suite.
+Note:
+  "test.support" is not a public module.  It is documented here to
+  help Python developers write tests.  The API of this module is
+  subject to change without backwards compatibility concerns between

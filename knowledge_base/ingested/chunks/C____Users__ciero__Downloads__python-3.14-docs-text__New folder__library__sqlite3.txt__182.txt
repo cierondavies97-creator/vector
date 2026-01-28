@@ -1,0 +1,5 @@
+Added in version 3.11.
+   autocommit
+      This attribute controls **PEP 249**-compliant transaction
+      behaviour. "autocommit" has three allowed values:
+      * "False": Select **PEP 249**-compliant transaction behaviour,

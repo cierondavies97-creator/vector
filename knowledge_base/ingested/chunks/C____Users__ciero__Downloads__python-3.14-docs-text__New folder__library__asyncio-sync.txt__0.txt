@@ -1,0 +1,5 @@
+Synchronization Primitives
+**************************
+**Source code:** Lib/asyncio/locks.py
+======================================================================
+asyncio synchronization primitives are designed to be similar to those

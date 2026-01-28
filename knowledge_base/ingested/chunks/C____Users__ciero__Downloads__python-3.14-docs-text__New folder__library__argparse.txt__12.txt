@@ -1,0 +1,4 @@
+Create a new "ArgumentParser" object. All parameters should be
+   passed as keyword arguments. Each parameter has its own more
+   detailed description below, but in short they are:
+   * prog - The name of the program (default: generated from the

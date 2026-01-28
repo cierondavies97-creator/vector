@@ -1,0 +1,4 @@
+has progressed beyond the TLS Client Hello and therefore will not
+   return meaningful values nor can they be called safely.
+   The *sni_callback* function must return "None" to allow the TLS
+   negotiation to continue.  If a TLS failure is required, a constant

@@ -1,0 +1,3 @@
+Wrap the BIO objects *incoming* and *outgoing* and return an
+   instance of "SSLContext.sslobject_class" (default "SSLObject"). The
+   SSL routines will read input data from the incoming BIO and write

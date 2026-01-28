@@ -1,0 +1,6 @@
+Added in version 3.2: Restoration of the binary transforms.
+Changed in version 3.4: Restoration of the aliases for the binary
+transforms.
+Standalone Codec Functions
+--------------------------
+The following functions provide encoding and decoding functionality

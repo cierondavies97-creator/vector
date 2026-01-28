@@ -1,0 +1,5 @@
+>>> subparsers = parser.add_subparsers(required=True)
+      >>>
+      >>> # create the parser for the "foo" command
+      >>> parser_foo = subparsers.add_parser('foo')
+      >>> parser_foo.add_argument('-x', type=int, default=1)

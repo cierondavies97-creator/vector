@@ -1,0 +1,5 @@
+CHECK_VERSION(stmt_ty, 11, "Exception groups are",
+                         _PyAST_TryStar(b, ex, el, f, EXTRA)) }
+   # Except statement
+   # ----------------
+   except_block[excepthandler_ty]:

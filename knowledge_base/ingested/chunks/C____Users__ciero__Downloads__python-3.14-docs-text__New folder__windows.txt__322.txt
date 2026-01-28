@@ -1,0 +1,3 @@
+The full list of available options is shown below.
++-----------------------------+----------------------------------------+----------------------------+
+| Name                        | Description                            | Default                    |

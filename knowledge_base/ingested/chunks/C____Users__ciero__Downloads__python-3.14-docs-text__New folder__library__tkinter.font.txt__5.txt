@@ -1,0 +1,4 @@
+If *size* is positive it is interpreted as size in points.
+               If *size* is a negative number its absolute value is treated
+               as size in pixels.
+            *weight* - font emphasis (NORMAL, BOLD)

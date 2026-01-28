@@ -1,0 +1,4 @@
+return value of "gettempprefix()" or "gettempprefixb()", as
+   appropriate.
+   If *dir* is not "None", the file will be created in that directory;
+   otherwise, a default directory is used.  The default directory is

@@ -1,0 +1,4 @@
+(i.e. not text) and must provide a valid **RFC 5322** style header.
+   This function returns an instance of "http.client.HTTPMessage" that
+   holds the header fields, but no payload (the same as
+   "HTTPResponse.msg" and

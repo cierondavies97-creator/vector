@@ -1,0 +1,5 @@
+Bind *fun* to mouse-click events on this screen.  If *fun* is
+   "None", existing bindings are removed.
+   Example for a TurtleScreen instance named "screen" and a Turtle
+   instance named "turtle":
+      >>> screen.onclick(turtle.goto) # Subsequently clicking into the TurtleScreen will

@@ -1,0 +1,4 @@
+not have an extension.
+   A call to "LoadKey()" fails if the calling process does not have
+   the "SE_RESTORE_PRIVILEGE" privilege.  Note that privileges are
+   different from permissions -- see the RegLoadKey documentation for

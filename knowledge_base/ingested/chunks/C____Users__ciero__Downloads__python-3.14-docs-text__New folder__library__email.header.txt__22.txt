@@ -1,0 +1,4 @@
+output codec of the charset.  If the string cannot be encoded
+      using the output codec, a UnicodeError will be raised.
+      Optional *errors* is passed as the errors argument to the decode
+      call if *s* is a byte string.

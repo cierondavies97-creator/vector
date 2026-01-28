@@ -1,0 +1,4 @@
+"multipart/alternative", call "make_mixed()" and then proceed as
+      above. If *content_manager* is not specified, use the
+      "content_manager" specified by the current "policy".  If the
+      added part has no *Content-Disposition* header, add one with the

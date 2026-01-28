@@ -1,0 +1,4 @@
+easy to add SSL support to an existing application.
+Combining SSL protocol handling and network IO usually works well, but
+there are some cases where it doesn't. An example is async IO
+frameworks that want to use a different IO multiplexing model than the

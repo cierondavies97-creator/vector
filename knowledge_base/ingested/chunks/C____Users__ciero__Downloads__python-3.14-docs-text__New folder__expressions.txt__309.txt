@@ -1,0 +1,4 @@
+rounding.  In such cases, Python returns the latter result, in
+    order to preserve that "divmod(x,y)[0] * y + x % y" be very close
+    to "x".
+[3] The Unicode standard distinguishes between *code points* (e.g.

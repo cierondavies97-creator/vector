@@ -1,0 +1,4 @@
+datetime.datetime(2011, 11, 4, 0, 5, 23)
+      >>> datetime.fromisoformat('2011-11-04T00:05:23Z')
+      datetime.datetime(2011, 11, 4, 0, 5, 23, tzinfo=datetime.timezone.utc)
+      >>> datetime.fromisoformat('20111104T000523')

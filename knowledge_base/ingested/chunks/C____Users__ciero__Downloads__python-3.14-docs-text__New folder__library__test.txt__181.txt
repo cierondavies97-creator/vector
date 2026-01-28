@@ -1,0 +1,7 @@
+Added in version 3.10.
+test.support.os_helper.FS_NONASCII
+   A non-ASCII character encodable by "os.fsencode()".
+test.support.os_helper.SAVEDCWD
+   Set to "os.getcwd()".
+test.support.os_helper.TESTFN
+   Set to a name that is safe to use as the name of a temporary file.

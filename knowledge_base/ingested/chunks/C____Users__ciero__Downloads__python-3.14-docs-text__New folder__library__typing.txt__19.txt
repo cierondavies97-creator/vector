@@ -1,0 +1,5 @@
+create a new class or introduce much overhead beyond that of a regular
+function call.
+More precisely, the expression "some_value is Derived(some_value)" is
+always true at runtime.
+It is invalid to create a subtype of "Derived":

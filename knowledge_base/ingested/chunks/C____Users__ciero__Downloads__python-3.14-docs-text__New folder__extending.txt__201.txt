@@ -1,0 +1,4 @@
+if each function were to test for "NULL", there would be a lot of
+redundant tests and the code would run more slowly.
+It is better to test for "NULL" only at the "source:" when a pointer
+that may be "NULL" is received, for example, from "malloc()" or from a

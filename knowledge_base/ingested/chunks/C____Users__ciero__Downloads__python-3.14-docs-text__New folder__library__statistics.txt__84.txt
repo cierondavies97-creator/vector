@@ -1,0 +1,4 @@
+missing or "None" (the default), the arithmetic mean is
+   automatically calculated.
+   Use this function to calculate the variance from the entire
+   population.  To estimate the variance from a sample, the

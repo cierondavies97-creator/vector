@@ -1,0 +1,3 @@
+| logging.DEBUG           | 10              | Detailed information, typically only  |
+|                         |                 | of interest to a developer trying to  |
+|                         |                 | diagnose a problem.                   |

@@ -1,0 +1,5 @@
+Changed in version 3.9: The "Traceback.total_nframe" attribute was
+   added.
+   format(limit=None, most_recent_first=False)
+      Format the traceback as a list of lines. Use the "linecache"
+      module to retrieve lines from the source code. If *limit* is

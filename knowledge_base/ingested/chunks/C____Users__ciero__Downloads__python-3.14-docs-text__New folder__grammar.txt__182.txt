@@ -1,0 +1,5 @@
+| invalid_comprehension
+   dictcomp[expr_ty]:
+       | '{' a=kvpair b=for_if_clauses '}' { _PyAST_DictComp(a->key, a->value, b, EXTRA) }
+       | invalid_dict_comprehension
+   # FUNCTION CALL ARGUMENTS

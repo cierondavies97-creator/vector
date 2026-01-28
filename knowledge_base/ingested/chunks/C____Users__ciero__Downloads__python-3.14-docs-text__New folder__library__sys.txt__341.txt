@@ -1,0 +1,4 @@
+system *locale encoding* if the process is not initially attached
+     to a console.
+     The special behaviour of the console can be overridden by setting
+     the environment variable PYTHONLEGACYWINDOWSSTDIO before starting

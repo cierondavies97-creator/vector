@@ -1,0 +1,4 @@
+True
+A "call" object is either a tuple of (positional args, keyword args)
+or (name, positional args, keyword args) depending on how it was
+constructed. When you construct them yourself this isn't particularly

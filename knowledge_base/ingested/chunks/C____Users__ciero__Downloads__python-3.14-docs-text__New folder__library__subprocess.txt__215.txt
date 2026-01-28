@@ -1,0 +1,7 @@
+Replacing the "os.spawn" family
+-------------------------------
+P_NOWAIT example:
+   pid = os.spawnlp(os.P_NOWAIT, "/bin/mycmd", "mycmd", "myarg")
+   ==>
+   pid = Popen(["/bin/mycmd", "myarg"]).pid
+P_WAIT example:

@@ -1,0 +1,4 @@
+especially useful when working with learners for whom typing is not a
+skill.
+   You'll need to have the "Tk interface package" installed on your
+   system for turtle graphics to work. Be warned that this is not

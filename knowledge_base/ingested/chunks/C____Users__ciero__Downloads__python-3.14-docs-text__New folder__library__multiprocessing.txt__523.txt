@@ -1,0 +1,6 @@
+for i in range(len(TASKS2)):
+           print('\t', done_queue.get())
+       # Tell child processes to stop
+       for i in range(NUMBER_OF_PROCESSES):
+           task_queue.put('STOP')
+   if __name__ == '__main__':

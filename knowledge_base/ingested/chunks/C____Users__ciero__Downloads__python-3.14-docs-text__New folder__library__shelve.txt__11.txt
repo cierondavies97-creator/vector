@@ -1,0 +1,4 @@
+Shelf objects support most of methods and operations supported by
+dictionaries (except copying, constructors and operators "|" and
+"|=").  This eases the transition from dictionary based scripts to
+those requiring persistent storage.

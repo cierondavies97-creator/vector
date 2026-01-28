@@ -1,0 +1,4 @@
+values are displayed. Tree labels are displayed in column #0. If
+option displaycolumns is not set, then data column n is displayed in
+column #n+1. Again, **column #0 always refers to the tree column**.
+Virtual Events

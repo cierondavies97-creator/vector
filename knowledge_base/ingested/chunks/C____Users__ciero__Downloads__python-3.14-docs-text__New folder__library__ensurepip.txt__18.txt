@@ -1,0 +1,5 @@
+Setting both *altinstall* and *default_pip* will trigger
+   "ValueError".
+   *verbosity* controls the level of output to "sys.stdout" from the
+   bootstrapping operation.
+   Raises an auditing event "ensurepip.bootstrap" with argument

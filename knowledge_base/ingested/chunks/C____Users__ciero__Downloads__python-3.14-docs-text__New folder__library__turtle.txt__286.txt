@@ -1,0 +1,7 @@
+"#800080"
+     >>> help(penup)
+     Help on function penup in module turtle:
+     penup()
+         Pull the pen up -- no drawing when moving.
+         Aliases: penup | pu | up
+         No argument

@@ -1,0 +1,4 @@
+messages to be transferred using only 7-bit ASCII characters, so a
+slew of RFCs have been written describing how to encode email
+containing non-ASCII characters into **RFC 2822**-compliant format.
+These RFCs include **RFC 2045**, **RFC 2046**, **RFC 2047**, and **RFC

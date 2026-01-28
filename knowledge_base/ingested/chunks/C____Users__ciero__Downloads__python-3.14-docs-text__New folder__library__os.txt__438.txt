@@ -1,0 +1,4 @@
+"BY_HANDLE_FILE_INFORMATION" structure returned by
+      "GetFileInformationByHandle()". See the "FILE_ATTRIBUTE_*
+      <stat.FILE_ATTRIBUTE_ARCHIVE>" constants in the "stat" module.
+      Added in version 3.5.

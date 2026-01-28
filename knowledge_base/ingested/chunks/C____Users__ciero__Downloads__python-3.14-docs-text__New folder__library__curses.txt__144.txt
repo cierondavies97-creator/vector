@@ -1,0 +1,5 @@
+Changed in version 3.14: The maximum value for *n* was increased
+   from 1023 to 2047.
+window.getyx()
+   Return a tuple "(y, x)" of current cursor position  relative to the
+   window's upper-left corner.

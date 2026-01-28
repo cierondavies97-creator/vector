@@ -1,0 +1,3 @@
+that may appear in *msg*.  If any of the addresses in *from_addr*
+   and *to_addrs* contain non-ASCII characters and the server does not
+   advertise "SMTPUTF8" support, an "SMTPNotSupportedError" is raised.

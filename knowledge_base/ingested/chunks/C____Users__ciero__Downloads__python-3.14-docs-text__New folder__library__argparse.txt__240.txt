@@ -1,0 +1,4 @@
+>>> parser = argparse.ArgumentParser(prog='PROG')
+   >>> parser.add_argument('-1', dest='one')
+   >>> parser.add_argument('foo', nargs='?')
+   >>> # negative number options present, so -1 is an option

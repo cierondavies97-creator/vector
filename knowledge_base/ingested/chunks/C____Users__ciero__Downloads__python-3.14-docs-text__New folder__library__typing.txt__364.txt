@@ -1,0 +1,3 @@
+This functional syntax allows defining keys which are not valid
+   identifiers, for example because they are keywords or contain
+   hyphens, or when key names must not be mangled like regular private

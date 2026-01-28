@@ -1,0 +1,7 @@
+"ehlo()".
+SMTP.esmtp_features
+   A dictionary of the names of SMTP service extensions supported by
+   the server, see "ehlo()".
+SMTP Example
+============
+This example prompts the user for addresses needed in the message

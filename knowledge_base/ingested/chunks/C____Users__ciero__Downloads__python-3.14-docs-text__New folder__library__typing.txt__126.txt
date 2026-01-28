@@ -1,0 +1,4 @@
+Or to define a function that should never be called, as there are
+   no valid arguments, such as "assert_never()":
+      from typing import Never  # or NoReturn
+      def never_call_me(arg: Never) -> None:

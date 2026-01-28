@@ -1,0 +1,5 @@
+def inverse(self, value):
+                 """Remove a row from the current window."""
+                 self.count -= value
+             def finalize(self):
+                 """Return the final value of the aggregate.

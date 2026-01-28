@@ -1,0 +1,3 @@
+timeout is used. Also note that if the *timeout* parameter is set
+   to be zero, it will raise a "ValueError" to reject creating a non-
+   blocking socket. This method is implicitly called by the "IMAP4"

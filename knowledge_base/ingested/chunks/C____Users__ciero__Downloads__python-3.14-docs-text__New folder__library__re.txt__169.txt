@@ -1,0 +1,3 @@
+carriage return, and so forth.  Unknown escapes of ASCII letters
+   are reserved for future use and treated as errors.  Other unknown
+   escapes such as "\&" are left alone. Backreferences, such as "\6",

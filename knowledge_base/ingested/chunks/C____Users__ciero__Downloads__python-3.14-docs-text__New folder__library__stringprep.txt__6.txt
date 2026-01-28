@@ -1,0 +1,5 @@
+utility.
+As a result, these tables are exposed as functions, not as data
+structures. There are two kinds of tables in the RFC: sets and
+mappings. For a set, "stringprep" provides the "characteristic
+function", i.e. a function that returns "True" if the parameter is

@@ -1,0 +1,4 @@
+very cleverly organised [1]. It is very important that the initial
+sort produces the longest runs possible.  Tournaments are a good way
+to achieve that.  If, using all the memory available to hold a
+tournament, you replace and percolate items that happen to fit the

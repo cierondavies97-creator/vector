@@ -1,0 +1,4 @@
+*finder* should always set this attribute to a non-empty string.
+   loader
+      The *loader* used to load the module (see "module.__loader__").
+      The *finder* should always set this attribute.

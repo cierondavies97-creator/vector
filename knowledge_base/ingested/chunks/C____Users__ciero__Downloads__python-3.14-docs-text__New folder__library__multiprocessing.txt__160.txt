@@ -1,0 +1,6 @@
+Always raises an "OSError" if the SimpleQueue is closed.
+   get()
+      Remove and return an item from the queue.
+   put(item)
+      Put *item* into the queue.
+class multiprocessing.JoinableQueue([maxsize])

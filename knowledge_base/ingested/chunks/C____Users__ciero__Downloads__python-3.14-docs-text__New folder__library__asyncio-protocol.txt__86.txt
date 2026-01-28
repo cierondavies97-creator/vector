@@ -1,0 +1,5 @@
+recipient. In many conditions though, undeliverable datagrams will
+   be silently dropped.
+Note:
+  On BSD systems (macOS, FreeBSD, etc.) flow control is not supported
+  for datagram protocols, because there is no reliable way to detect

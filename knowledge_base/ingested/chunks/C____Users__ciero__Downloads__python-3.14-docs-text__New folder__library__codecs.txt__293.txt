@@ -1,0 +1,4 @@
+mapping. It is not supported by "str.encode()" (which only produces
+"bytes" output).
++----------------------+-----------+-----------------------------+
+| Codec                | Aliases   | Meaning                     |

@@ -1,0 +1,5 @@
+String that uniquely identifies the type of the filesystem that
+      contains the file.
+   On macOS systems, the following attributes may also be available:
+   st_rsize
+      Real size of the file.

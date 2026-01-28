@@ -1,0 +1,5 @@
+text string if necessary, to reset the encoder and to get the
+      output.
+   getstate()
+      Return the current state of the encoder which must be an
+      integer. The implementation should make sure that "0" is the

@@ -1,0 +1,6 @@
+def infinite_stream(start: int) -> Generator[int, None, None]:
+       while True:
+           yield start
+           start += 1
+Simple generators that only ever yield values can also be annotated as
+having a return type of either "Iterable[YieldType]" or

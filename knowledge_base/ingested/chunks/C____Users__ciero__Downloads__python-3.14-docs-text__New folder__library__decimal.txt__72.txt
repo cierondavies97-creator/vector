@@ -1,0 +1,5 @@
+In addition to the standard numeric properties, decimal floating-
+   point objects also have a number of specialized methods:
+   adjusted()
+      Return the adjusted exponent after shifting out the
+      coefficient's rightmost digits until only the lead digit

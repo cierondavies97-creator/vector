@@ -1,0 +1,4 @@
+command) will be available via iteration. Any leftover responses
+   (those not iterated in the "with" context) can be retrieved in the
+   usual way after "IDLE" ends, using "IMAP4.response()".
+   Responses are represented as "(type, [data, ...])" tuples, as

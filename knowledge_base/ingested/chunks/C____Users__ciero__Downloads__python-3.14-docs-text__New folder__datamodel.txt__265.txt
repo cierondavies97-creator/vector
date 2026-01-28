@@ -1,0 +1,5 @@
+unit. Column information is 0-indexed utf-8 byte offsets on the
+   given source line.
+   This positional information can be missing. A non-exhaustive lists
+   of cases where this may happen:
+   * Running the interpreter with "-X" "no_debug_ranges".

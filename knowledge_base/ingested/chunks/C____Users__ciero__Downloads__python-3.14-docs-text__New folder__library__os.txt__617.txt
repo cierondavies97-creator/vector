@@ -1,0 +1,4 @@
+itself has always made API calls that are not safe for use in the
+   child process when threads existed in the parent (such as "malloc"
+   and "free").Users of macOS or users of libc or malloc
+   implementations other than those typically found in glibc to date

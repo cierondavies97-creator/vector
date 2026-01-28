@@ -1,0 +1,7 @@
+Help and Preferences
+====================
+Help sources
+------------
+Help menu entry "IDLE Help" displays a formatted html version of the
+IDLE chapter of the Library Reference.  The result, in a read-only
+tkinter text window, is close to what one sees in a web browser.

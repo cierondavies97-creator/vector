@@ -1,0 +1,5 @@
+change affects other threads.
+   Changed in version 3.14: The function now temporarily sets the
+   "LC_CTYPE" locale in some cases.
+locale.getdefaultlocale([envvars])
+   Tries to determine the default locale settings and returns them as

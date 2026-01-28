@@ -1,0 +1,5 @@
+allowing information about the test itself to be gathered.
+   Methods in the first group (running the test) are:
+   setUp()
+      Method called to prepare the test fixture.  This is called
+      immediately before calling the test method; other than

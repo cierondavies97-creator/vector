@@ -1,0 +1,4 @@
+"__file__", "__cached__", "__loader__" and "__package__" are set as
+   normal based on the module spec.
+   If the argument *alter_sys* is supplied and evaluates to "True",
+   then "sys.argv[0]" is updated with the value of "__file__" and

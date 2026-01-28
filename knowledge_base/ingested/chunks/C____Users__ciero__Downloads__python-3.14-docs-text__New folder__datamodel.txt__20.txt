@@ -1,0 +1,5 @@
+and *f*.)
+3.2. The standard type hierarchy
+================================
+Below is a list of the types that are built into Python.  Extension
+modules (written in C, Java, or other languages, depending on the

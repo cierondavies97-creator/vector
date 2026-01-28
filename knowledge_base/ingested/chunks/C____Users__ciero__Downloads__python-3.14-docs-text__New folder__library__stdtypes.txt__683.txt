@@ -1,0 +1,8 @@
+>>> data = bytearray(b'abcefg')
+         >>> v = memoryview(data)
+         >>> v.readonly
+         False
+         >>> v[0] = ord(b'z')
+         >>> data
+         bytearray(b'zbcefg')
+         >>> v[1:4] = b'123'

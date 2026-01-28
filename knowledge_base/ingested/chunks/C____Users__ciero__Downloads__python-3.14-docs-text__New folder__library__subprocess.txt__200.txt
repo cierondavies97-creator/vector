@@ -1,0 +1,4 @@
+being invoked, so the decoding to text will often need to be
+   handled at the application level.
+   This behaviour may be overridden by setting *text*, *encoding*,
+   *errors*, or *universal_newlines* to "True" as described in

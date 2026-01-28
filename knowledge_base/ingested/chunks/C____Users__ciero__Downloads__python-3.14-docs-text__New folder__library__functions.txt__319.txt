@@ -1,0 +1,3 @@
+The *object_or_type* determines the *method resolution order* to be
+   searched.  The search starts from the class right after the *type*.
+   For example, if "__mro__" of *object_or_type* is "D -> B -> C -> A

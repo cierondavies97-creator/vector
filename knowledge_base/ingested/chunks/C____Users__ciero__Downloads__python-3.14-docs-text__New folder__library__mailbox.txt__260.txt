@@ -1,0 +1,6 @@
+| A flag            | A flag                       |
++-------------------+------------------------------+
+Exceptions
+==========
+The following exception classes are defined in the "mailbox" module:
+exception mailbox.Error

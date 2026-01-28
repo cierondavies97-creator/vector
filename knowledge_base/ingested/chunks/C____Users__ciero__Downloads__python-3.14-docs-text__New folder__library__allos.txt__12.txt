@@ -1,0 +1,8 @@
+* macOS platform
+  * iOS platform
+  * Unix platforms
+  * Linux platforms
+  * Android platform
+  * Command-line usage
+* "errno" --- Standard errno system symbols
+* "ctypes" --- A foreign function library for Python

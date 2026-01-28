@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "python" doesn't launch the same runtime as "py"   | Click Start, open "Installed apps", look for any   |

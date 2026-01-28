@@ -1,0 +1,5 @@
+class super
+class super(type, object_or_type=None, /)
+   Return a proxy object that delegates method calls to a parent or
+   sibling class of *type*.  This is useful for accessing inherited
+   methods that have been overridden in a class.

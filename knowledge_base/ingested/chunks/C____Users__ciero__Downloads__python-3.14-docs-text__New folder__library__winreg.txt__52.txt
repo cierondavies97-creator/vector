@@ -1,0 +1,5 @@
+winreg.QueryValueEx(key, value_name)
+   Retrieves the type and data for a specified value name associated
+   with an open registry key.
+   *key* is an already open key, or one of the predefined HKEY_*
+   constants.

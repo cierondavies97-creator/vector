@@ -1,0 +1,4 @@
+of a *base character* at code position U+0043 (LATIN CAPITAL
+    LETTER C), followed by a *combining character* at code position
+    U+0327 (COMBINING CEDILLA).
+    The comparison operators on strings compare at the level of

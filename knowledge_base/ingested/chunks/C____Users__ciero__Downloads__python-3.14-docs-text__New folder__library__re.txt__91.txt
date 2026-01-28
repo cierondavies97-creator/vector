@@ -1,0 +1,4 @@
+"'user@host.com'", but not with "'<user@host.com'" nor
+   "'user@host.com>'".
+   Changed in version 3.12: Group *id* can only contain ASCII digits.
+   In "bytes" patterns, group *name* can only contain bytes in the

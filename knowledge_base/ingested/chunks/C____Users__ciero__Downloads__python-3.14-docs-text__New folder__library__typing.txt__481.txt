@@ -1,0 +1,5 @@
+was set. Now the annotation is returned unchanged.
+typing.get_origin(tp)
+   Get the unsubscripted version of a type: for a typing object of the
+   form "X[Y, Z, ...]" return "X".
+   If "X" is a typing-module alias for a builtin or "collections"

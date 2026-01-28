@@ -1,0 +1,3 @@
+unlimited line length.  All pieces are converted to unicode
+      using the specified encoding and joined together appropriately.
+      Any pieces with a charset of "'unknown-8bit'" are decoded as

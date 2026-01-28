@@ -1,0 +1,3 @@
+object.  If the returned value is not "0" or "None", and there
+      are already a number of headers with the name *name* greater
+      than or equal to the value returned, a "ValueError" is raised.

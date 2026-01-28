@@ -1,0 +1,6 @@
+This specifies the mapping from OMG IDL to Python.
+Module Contents
+===============
+The "xml.dom" contains the following functions:
+xml.dom.registerDOMImplementation(name, factory)
+   Register the *factory* function with the name *name*.  The factory

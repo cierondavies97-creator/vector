@@ -1,0 +1,4 @@
+by default, because the overhead cost (to performance and memory)
+would be too large. Enabling the "tracemalloc" module provides
+additional information on the origin of some errors. For example,
+"ResourceWarning" logs the traceback where the resource was allocated,

@@ -1,0 +1,4 @@
+omitted, return the layout specification for given style.
+      *layoutspec*, if specified, is expected to be a list or some
+      other sequence type (excluding strings), where each item should
+      be a tuple and the first item is the layout name and the second

@@ -1,0 +1,4 @@
+as defined by **RFC 2965**.  It defaults to "False".  An
+   unverifiable request is one whose URL the user did not have the
+   option to approve.  For example, if the request is for an image in
+   an HTML document, and the user had no option to approve the

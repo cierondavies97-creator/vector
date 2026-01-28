@@ -1,0 +1,6 @@
+This may be None or an instance of EventLoop.
+           """
+           loop = super().get_event_loop()
+           # Do something with loop ...
+           return loop
+   asyncio.set_event_loop_policy(MyEventLoopPolicy())

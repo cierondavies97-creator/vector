@@ -1,0 +1,4 @@
+"ZIP_LZMA", or "ZIP_ZSTANDARD"; unrecognized values will cause
+   "NotImplementedError" to be raised.  If "ZIP_DEFLATED",
+   "ZIP_BZIP2", "ZIP_LZMA", or "ZIP_ZSTANDARD" is specified but the
+   corresponding module ("zlib", "bz2", "lzma", or "compression.zstd")

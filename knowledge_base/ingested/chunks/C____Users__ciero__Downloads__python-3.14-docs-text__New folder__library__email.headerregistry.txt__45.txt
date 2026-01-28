@@ -1,0 +1,5 @@
+MIME headers that take parameters.
+   params
+      A dictionary mapping parameter names to parameter values.
+class email.headerregistry.ContentTypeHeader
+   A "ParameterizedMIMEHeader" class that handles the *Content-Type*

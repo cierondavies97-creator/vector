@@ -1,0 +1,4 @@
+style, *parameters* must be a *sequence* whose length must match the
+number of placeholders, or a "ProgrammingError" is raised. For the
+named style, *parameters* must be an instance of a "dict" (or a
+subclass), which must contain keys for all named parameters; any extra

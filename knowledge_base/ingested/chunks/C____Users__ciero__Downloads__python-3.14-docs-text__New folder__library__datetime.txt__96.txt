@@ -1,0 +1,4 @@
+are ignored. "OverflowError" is raised if "date2.year" would be
+   smaller than "MINYEAR" or larger than "MAXYEAR".
+2. "timedelta.seconds" and "timedelta.microseconds" are ignored.
+3. This is exact, and cannot overflow. "timedelta.seconds" and

@@ -1,0 +1,4 @@
+*locals* is "None", this function may replace that value with a
+   context-specific default, contingent on "type(obj)":
+   * If *obj* is a module, *globals* defaults to "obj.__dict__".
+   * If *obj* is a class, *globals* defaults to

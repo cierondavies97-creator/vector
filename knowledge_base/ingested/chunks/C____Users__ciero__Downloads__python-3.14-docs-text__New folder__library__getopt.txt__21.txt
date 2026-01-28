@@ -1,0 +1,3 @@
+error.  For long options, an argument given to an option which does
+   not require one will also cause this exception to be raised.  The
+   attributes "msg" and "opt" give the error message and related

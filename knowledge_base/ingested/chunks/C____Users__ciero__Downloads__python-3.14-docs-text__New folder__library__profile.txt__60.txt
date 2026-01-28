@@ -1,0 +1,5 @@
+"cProfile.Profile" classes.
+   sort_stats(*keys)
+      This method modifies the "Stats" object by sorting it according
+      to the supplied criteria.  The argument can be either a string
+      or a SortKey enum identifying the basis of a sort (example:

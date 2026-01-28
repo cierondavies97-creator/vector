@@ -1,0 +1,7 @@
+...         print("Strength in numbers, eh?", end=" ")
+      ...     print(arg)
+      ...
+      >>> @fun.register
+      ... def _(arg: list, verbose=False):
+      ...     if verbose:
+      ...         print("Enumerate this:")

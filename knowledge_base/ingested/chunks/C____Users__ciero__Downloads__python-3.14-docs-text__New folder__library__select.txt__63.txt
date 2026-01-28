@@ -1,0 +1,3 @@
+*eventmask* is an optional bitmask describing the type of events
+   you want to check for, and can be a combination of the constants
+   "POLLIN", "POLLPRI", and "POLLOUT", described in the table below.

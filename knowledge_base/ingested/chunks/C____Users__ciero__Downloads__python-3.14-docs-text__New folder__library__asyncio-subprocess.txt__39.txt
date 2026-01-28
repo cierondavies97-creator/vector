@@ -1,0 +1,6 @@
+"StreamReader" class to read from its standard output.
+The subprocess is created by the "create_subprocess_exec()" function:
+   import asyncio
+   import sys
+   async def get_date():
+       code = 'import datetime; print(datetime.datetime.now())'

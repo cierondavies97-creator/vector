@@ -1,0 +1,4 @@
+to be run, IDLE cannot import the stdlib file.  The current fix is to
+rename the user file.
+Though less common than in the past, an antivirus or firewall program
+may stop the connection.  If the program cannot be taught to allow the

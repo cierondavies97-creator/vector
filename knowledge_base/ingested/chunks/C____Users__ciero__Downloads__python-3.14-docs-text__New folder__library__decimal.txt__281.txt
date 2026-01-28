@@ -1,0 +1,3 @@
+only specify as blank when places is zero
+       pos:     optional sign for positive numbers: '+', space or blank
+       neg:     optional sign for negative numbers: '-', '(', space or blank

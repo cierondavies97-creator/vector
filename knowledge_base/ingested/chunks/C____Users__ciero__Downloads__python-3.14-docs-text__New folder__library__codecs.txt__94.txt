@@ -1,0 +1,5 @@
+Python codec registry.
+class codecs.IncrementalEncoder(errors='strict')
+   Constructor for an "IncrementalEncoder" instance.
+   All incremental encoders must provide this constructor interface.
+   They are free to add additional keyword arguments, but only the

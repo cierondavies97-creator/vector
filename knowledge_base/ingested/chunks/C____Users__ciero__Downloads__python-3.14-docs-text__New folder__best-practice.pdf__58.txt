@@ -1,0 +1,8 @@
+▶ break large code blocks apart
+▶ rename and restructure code
+▶ will improve the readability and modularity
+▶ will usually reduce the lines of code
+Nicola Chiapolini, 8 July 2024
+28 / 34
+Introduction
+Style & Documentation

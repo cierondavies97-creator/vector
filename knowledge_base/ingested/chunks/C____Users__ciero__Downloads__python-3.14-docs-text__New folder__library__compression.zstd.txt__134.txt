@@ -1,0 +1,4 @@
+An "IntEnum" containing strategies for compression. Higher-numbered
+   strategies correspond to more complex and slower compression.
+   Note:
+     The values of attributes of "Strategy" are not necessarily stable

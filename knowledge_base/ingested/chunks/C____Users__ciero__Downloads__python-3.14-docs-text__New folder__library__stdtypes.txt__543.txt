@@ -1,0 +1,5 @@
+255 as the subsequence.
+bytes.join(iterable, /)
+bytearray.join(iterable, /)
+   Return a bytes or bytearray object which is the concatenation of
+   the binary data sequences in *iterable*.  A "TypeError" will be

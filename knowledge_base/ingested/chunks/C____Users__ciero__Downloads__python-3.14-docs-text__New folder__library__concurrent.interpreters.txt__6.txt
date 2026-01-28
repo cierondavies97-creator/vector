@@ -1,0 +1,5 @@
+* not all PyPI packages support use in multiple interpreters yet
+Introduction
+============
+An "interpreter" is effectively the execution context of the Python
+runtime.  It contains all of the state the runtime needs to execute a

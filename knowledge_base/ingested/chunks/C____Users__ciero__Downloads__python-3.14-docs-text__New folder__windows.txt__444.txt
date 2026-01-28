@@ -1,0 +1,5 @@
+command written to standard output is always encoded using UTF-8, and
+may not render correctly in the console.
+4.12.7. Install on demand
+-------------------------
+If an environment variable "PYLAUNCHER_ALLOW_INSTALL" is set (to any

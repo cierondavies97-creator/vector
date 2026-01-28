@@ -1,0 +1,3 @@
+determine if it has the right interface; instead, the method or
+   attribute is simply called or used ("If it looks like a duck and
+   quacks like a duck, it must be a duck.")  By emphasizing interfaces

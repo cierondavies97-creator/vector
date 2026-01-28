@@ -1,0 +1,4 @@
+constructor for use as the default namespace for the interpreter
+   loop.  If *local_exit* is provided, it is passed to the
+   "InteractiveConsole" constructor.  The "interact()" method of the
+   instance is then run with *banner* and *exitmsg* passed as the

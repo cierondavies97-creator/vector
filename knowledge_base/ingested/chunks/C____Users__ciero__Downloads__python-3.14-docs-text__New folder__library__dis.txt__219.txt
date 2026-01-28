@@ -1,0 +1,3 @@
++-------------------------------------+-------------------------------------+
+   | "INTRINSIC_SUBSCRIPT_GENERIC"       | Returns "typing.Generic"            |
+   |                                     | subscripted with the argument       |

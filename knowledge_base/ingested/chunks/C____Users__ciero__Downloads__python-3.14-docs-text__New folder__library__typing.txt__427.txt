@@ -1,0 +1,4 @@
+* **kw_only_default** (*bool*) -- Indicates whether the
+        "kw_only" parameter is assumed to be "True" or "False" if it
+        is omitted by the caller. Defaults to "False".
+      * **frozen_default** (*bool*) --

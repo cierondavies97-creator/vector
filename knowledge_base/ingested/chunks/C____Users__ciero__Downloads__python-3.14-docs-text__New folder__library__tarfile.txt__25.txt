@@ -1,0 +1,3 @@
+| "'w:xz'"           | Open for lzma compressed writing.             |
+   +--------------------+-----------------------------------------------+
+   | "'w:zst'"          | Open for Zstandard compressed writing.        |

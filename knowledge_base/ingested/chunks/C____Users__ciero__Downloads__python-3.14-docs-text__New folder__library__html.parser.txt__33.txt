@@ -1,0 +1,7 @@
+overridden by a derived class.  The base class implementation does
+   nothing.
+Examples
+========
+The following class implements a parser that will be used to
+illustrate more examples:
+   from html.parser import HTMLParser

@@ -1,0 +1,4 @@
+might not be able to avoid doing that depending on whether
+        your "args" are pickleable. (Note that you may have to
+        consider not only your own code but also code in any libraries
+        that you use.)

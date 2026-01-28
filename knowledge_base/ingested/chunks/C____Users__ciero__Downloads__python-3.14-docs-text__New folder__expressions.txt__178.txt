@@ -1,0 +1,3 @@
+string. Each value from the mapping is assigned to the first formal
+parameter eligible for keyword assignment whose name is equal to the
+key. A key need not be a Python identifier (e.g. ""max-temp °F"" is

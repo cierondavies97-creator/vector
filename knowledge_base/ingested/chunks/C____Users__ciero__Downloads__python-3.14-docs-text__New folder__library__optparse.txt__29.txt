@@ -1,0 +1,3 @@
+short options, allows short options to be merged together, and allows
+options to be associated with their arguments in a variety of ways.
+Thus, the following command lines are all equivalent to the above

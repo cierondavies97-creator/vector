@@ -1,0 +1,3 @@
+Generate a UUID based on the SHA-1 hash of a namespace identifier
+   (which is a UUID) and a name (which is a "bytes" object or a string
+   that will be encoded using UTF-8) according to **RFC 9562, §5.5**.

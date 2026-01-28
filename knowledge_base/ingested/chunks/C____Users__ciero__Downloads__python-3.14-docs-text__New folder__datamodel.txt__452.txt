@@ -1,0 +1,4 @@
+"int", "bytes", and "tuple".
+* Any non-string *iterable* may be assigned to *__slots__*.
+* If a "dictionary" is used to assign *__slots__*, the dictionary keys
+  will be used as the slot names. The values of the dictionary can be

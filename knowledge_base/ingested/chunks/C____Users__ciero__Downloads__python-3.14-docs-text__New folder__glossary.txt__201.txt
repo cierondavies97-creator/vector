@@ -1,0 +1,3 @@
+expressions are optimized in this fashion. Note: most interpreter
+   optimizations are applied to all scopes, only those relying on a
+   known set of local and nonlocal variable names are restricted to

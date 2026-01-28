@@ -1,0 +1,3 @@
+| curses.KEY_BACKSPACE      | Backspace (unreliable)                       |
++---------------------------+----------------------------------------------+
+| curses.KEY_F0             | Function keys.  Up to 64 function keys are   |

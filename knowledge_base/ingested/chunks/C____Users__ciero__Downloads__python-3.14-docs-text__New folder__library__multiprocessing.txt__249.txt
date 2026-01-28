@@ -1,0 +1,3 @@
+Return a "ctypes" object allocated from shared memory.  By default
+   the return value is actually a synchronized wrapper for the object.
+   The object itself can be accessed via the *value* attribute of a

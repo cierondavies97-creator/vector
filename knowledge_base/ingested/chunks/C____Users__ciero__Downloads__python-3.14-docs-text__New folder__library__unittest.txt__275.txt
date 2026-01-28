@@ -1,0 +1,6 @@
+Some additional methods are available to add tests to "TestSuite"
+   instances:
+   addTest(test)
+      Add a "TestCase" or "TestSuite" to the suite.
+   addTests(tests)
+      Add all the tests from an iterable of "TestCase" and "TestSuite"

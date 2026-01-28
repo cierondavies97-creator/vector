@@ -1,0 +1,5 @@
+get_filename(fullname)
+      Return the value "__file__" would be set to if the specified
+      module was imported. Raise "ZipImportError" if the module
+      couldn't be imported.
+      Added in version 3.1.

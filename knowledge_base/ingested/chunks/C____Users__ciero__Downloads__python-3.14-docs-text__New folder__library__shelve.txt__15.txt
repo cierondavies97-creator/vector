@@ -1,0 +1,3 @@
+The database is also (unfortunately) subject to the limitations of
+  "dbm", if it is used --- this means that (the pickled representation
+  of) the objects stored in the database should be fairly small, and

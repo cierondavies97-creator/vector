@@ -1,0 +1,5 @@
+then "TypeError" is raised.
+      Warning:
+        Passing parameters to a base class "__init_subclass__()" when
+        using "slots=True" will result in a "TypeError". Either use
+        "__init_subclass__" with no parameters or use default values

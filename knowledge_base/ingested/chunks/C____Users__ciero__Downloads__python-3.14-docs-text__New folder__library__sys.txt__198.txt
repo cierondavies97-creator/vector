@@ -1,0 +1,5 @@
+411** for details.)  Use it only for debugging purposes.
+sys.hash_info
+   A *named tuple* giving parameters of the numeric hash
+   implementation.  For more details about hashing of numeric types,
+   see Hashing of numeric types.

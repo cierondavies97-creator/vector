@@ -1,0 +1,5 @@
+input via readline.  The *enabled* argument should be a Boolean
+   value that when true, enables auto history, and that when false,
+   disables auto history.
+   Added in version 3.6.
+   **CPython implementation detail:** Auto history is enabled by

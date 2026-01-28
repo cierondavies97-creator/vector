@@ -1,0 +1,4 @@
+The goal for regression testing is to try to break code. This leads to
+a few guidelines to be followed:
+* The testing suite should exercise all classes, functions, and
+  constants. This includes not just the external API that is to be

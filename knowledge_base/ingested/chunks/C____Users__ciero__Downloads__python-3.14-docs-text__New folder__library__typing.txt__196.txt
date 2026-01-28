@@ -1,0 +1,4 @@
+value: int
+         type Vec[T] = Annotated[list[tuple[T, T]], MaxLen(10)]
+         # When used in a type annotation, a type checker will treat "V" the same as
+         # ``Annotated[list[tuple[int, int]], MaxLen(10)]``:

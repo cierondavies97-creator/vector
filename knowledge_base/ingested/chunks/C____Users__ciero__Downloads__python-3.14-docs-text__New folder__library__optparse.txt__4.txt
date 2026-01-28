@@ -1,0 +1,4 @@
+processed. Included in the standard library since the Python 2.7 and
+  Python 3.2 releases.
+In the absence of more specific argument parsing design constraints,
+"argparse" is the recommended choice for implementing command line

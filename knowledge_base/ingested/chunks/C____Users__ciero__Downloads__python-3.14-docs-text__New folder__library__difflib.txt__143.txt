@@ -1,0 +1,8 @@
+if opt == "-q":
+               qseen = 1
+               noisy = 0
+           elif opt == "-r":
+               rseen = 1
+               whichfile = val
+       if qseen and rseen:
+           return fail("can't specify both -q and -r")

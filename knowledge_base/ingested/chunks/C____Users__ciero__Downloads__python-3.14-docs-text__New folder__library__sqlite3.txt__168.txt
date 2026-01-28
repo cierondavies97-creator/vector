@@ -1,0 +1,6 @@
+"Connection" "con" (the default is 1000000000):
+         >>> con.getlimit(sqlite3.SQLITE_LIMIT_SQL_LENGTH)
+         1000000000
+      Added in version 3.11.
+   setlimit(category, limit, /)
+      Set a connection runtime limit. Attempts to increase a limit

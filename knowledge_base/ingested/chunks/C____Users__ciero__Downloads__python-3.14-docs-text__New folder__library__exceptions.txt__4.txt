@@ -1,0 +1,4 @@
+User code can raise built-in exceptions.  This can be used to test an
+exception handler or to report an error condition "just like" the
+situation in which the interpreter raises the same exception; but
+beware that there is nothing to prevent user code from raising an

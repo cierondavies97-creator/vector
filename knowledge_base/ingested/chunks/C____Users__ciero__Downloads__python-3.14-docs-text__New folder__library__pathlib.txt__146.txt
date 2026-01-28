@@ -1,0 +1,6 @@
+similar to "os.path.samefile()" and "os.path.samestat()".
+   An "OSError" can be raised if either file cannot be accessed for
+   some reason.
+      >>> p = Path('spam')
+      >>> q = Path('eggs')
+      >>> p.samefile(q)

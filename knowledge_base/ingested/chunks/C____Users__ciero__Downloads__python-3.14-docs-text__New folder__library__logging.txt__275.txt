@@ -1,0 +1,5 @@
+*filename*, or *stream* together with *filename*).
+   Changed in version 3.8: The *force* argument was added.
+   Changed in version 3.9: The *encoding* and *errors* arguments were
+   added.
+logging.shutdown()

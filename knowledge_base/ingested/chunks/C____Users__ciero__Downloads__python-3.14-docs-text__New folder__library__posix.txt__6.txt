@@ -1,0 +1,4 @@
+files are sometimes referred to as *large files*.
+Large file support is enabled in Python when the size of an "off_t" is
+larger than a long and the long long is at least as large as an
+"off_t". It may be necessary to configure and compile Python with

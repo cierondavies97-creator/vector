@@ -1,0 +1,6 @@
+-r <file>
+   Run the specified file in the shell window.
+-s
+   Run the startup file (as defined by the environment variables
+   "IDLESTARTUP" or "PYTHONSTARTUP") before opening the shell window.
+-t <title>

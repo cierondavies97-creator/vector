@@ -1,0 +1,5 @@
+cast(format, /)
+      cast(format, shape, /)
+         Cast a memoryview to a new format or shape. *shape* defaults
+         to "[byte_length//new_itemsize]", which means that the result
+         view will be one-dimensional. The return value is a new

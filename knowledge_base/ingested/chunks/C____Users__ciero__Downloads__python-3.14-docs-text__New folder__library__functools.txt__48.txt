@@ -1,0 +1,7 @@
+method.
+   For example:
+      @total_ordering
+      class Student:
+          def _is_valid_operand(self, other):
+              return (hasattr(other, "lastname") and
+                      hasattr(other, "firstname"))

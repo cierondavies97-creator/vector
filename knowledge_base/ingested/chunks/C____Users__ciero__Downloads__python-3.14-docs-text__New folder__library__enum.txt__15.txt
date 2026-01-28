@@ -1,0 +1,7 @@
+an enumeration.
+   "member()"
+      Make "obj" a member.  Can be used as a decorator.
+   "nonmember()"
+      Do not make "obj" a member.  Can be used as a decorator.
+   "global_enum()"
+      Modify the "str()" and "repr()" of an enum to show its members

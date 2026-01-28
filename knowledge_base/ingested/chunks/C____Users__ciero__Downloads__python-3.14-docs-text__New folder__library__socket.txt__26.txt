@@ -1,0 +1,4 @@
+* "BTPROTO_RFCOMM" accepts "(bdaddr, channel)" where "bdaddr" is the
+    Bluetooth address as a string and "channel" is an integer.
+  * "BTPROTO_HCI" accepts a format that depends on your OS.
+    * On Linux it accepts an integer "device_id" or a tuple

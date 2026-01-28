@@ -1,0 +1,5 @@
+*errors* arguments falls under the first case of returning the
+   informal string representation (see also the "-b" command-line
+   option to Python).  For example:
+      >>> str(b'Zoot!')
+      "b'Zoot!'"

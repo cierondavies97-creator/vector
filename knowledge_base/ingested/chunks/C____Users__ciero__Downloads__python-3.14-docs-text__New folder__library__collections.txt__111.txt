@@ -1,0 +1,4 @@
+"default_factory" attribute; it defaults to "None". All remaining
+   arguments are treated the same as if they were passed to the "dict"
+   constructor, including keyword arguments.
+   "defaultdict" objects support the following method in addition to

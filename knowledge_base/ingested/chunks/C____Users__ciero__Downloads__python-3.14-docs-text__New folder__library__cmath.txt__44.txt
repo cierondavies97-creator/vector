@@ -1,0 +1,4 @@
+A Python complex number "z" is stored internally using *rectangular*
+or *Cartesian* coordinates.  It is completely determined by its *real
+part* "z.real" and its *imaginary part* "z.imag".
+*Polar coordinates* give an alternative way to represent a complex

@@ -1,0 +1,3 @@
+(currently provided by the OpenSSL library).  This signifies some
+   problem in the higher-level encryption and authentication layer
+   that's superimposed on the underlying network connection.  This

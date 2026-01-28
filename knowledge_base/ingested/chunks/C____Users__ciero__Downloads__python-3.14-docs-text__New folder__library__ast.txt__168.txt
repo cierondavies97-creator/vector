@@ -1,0 +1,7 @@
+"msg" holds the failure message.
+      >>> print(ast.dump(ast.parse('assert x,y'), indent=4))
+      Module(
+          body=[
+              Assert(
+                  test=Name(id='x', ctx=Load()),
+                  msg=Name(id='y', ctx=Load()))])

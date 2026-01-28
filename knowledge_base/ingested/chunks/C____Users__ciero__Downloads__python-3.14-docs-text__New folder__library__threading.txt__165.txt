@@ -1,0 +1,5 @@
+Acquire a semaphore.
+      When invoked without arguments:
+      * If the internal counter is larger than zero on entry,
+        decrement it by one and return "True" immediately.
+      * If the internal counter is zero on entry, block until awoken

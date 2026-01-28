@@ -1,0 +1,4 @@
+class logging.handlers.BaseRotatingHandler(filename, mode, encoding=None, delay=False, errors=None)
+   The parameters are as for "FileHandler". The attributes are:
+   namer
+      If this attribute is set to a callable, the

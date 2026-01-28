@@ -1,0 +1,6 @@
+users are encouraged to migrate to "type" statements.
+Special forms
+~~~~~~~~~~~~~
+These can be used as types in annotations. They all support
+subscription using "[]", but each has a unique syntax.
+class typing.Union

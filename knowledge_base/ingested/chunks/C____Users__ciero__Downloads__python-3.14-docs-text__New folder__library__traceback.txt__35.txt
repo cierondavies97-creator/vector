@@ -1,0 +1,5 @@
+were modified to match "print_exception()".
+traceback.format_exc(limit=None, chain=True)
+   This is like "print_exc(limit)" but returns a string instead of
+   printing to a file.
+traceback.format_tb(tb, limit=None)

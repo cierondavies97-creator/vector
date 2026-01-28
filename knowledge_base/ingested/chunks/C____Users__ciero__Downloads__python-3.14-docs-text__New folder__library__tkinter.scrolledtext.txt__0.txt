@@ -1,0 +1,4 @@
+"tkinter.scrolledtext" --- Scrolled Text Widget
+***********************************************
+**Source code:** Lib/tkinter/scrolledtext.py
+======================================================================

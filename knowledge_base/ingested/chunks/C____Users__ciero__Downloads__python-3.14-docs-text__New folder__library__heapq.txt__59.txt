@@ -1,0 +1,3 @@
+time.  When an event schedules other events for execution, they are
+scheduled into the future, so they can easily go into the heap.  So, a
+heap is a good structure for implementing schedulers (this is what I

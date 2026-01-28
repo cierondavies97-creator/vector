@@ -1,0 +1,3 @@
+The following recipe takes a different approach.  All floats in the
+interval are possible selections.  The mantissa comes from a uniform
+distribution of integers in the range *2⁵² ≤ mantissa < 2⁵³*.  The

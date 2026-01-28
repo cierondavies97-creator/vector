@@ -1,0 +1,5 @@
+category as a string (for example ""LC_ALL"").  The *locales*
+   passed will be tried sequentially, and the first valid locale will
+   be used.
+@test.support.run_with_tz(tz)
+   A decorator for running a function in a specific timezone,

@@ -1,0 +1,3 @@
+|                   | listbox.                                                 |
++-------------------+----------------------------------------------------------+
+| width             | Specifies an integer value indicating the desired width  |

@@ -1,0 +1,3 @@
+class logging.handlers.WatchedFileHandler(filename, mode='a', encoding=None, delay=False, errors=None)
+   Returns a new instance of the "WatchedFileHandler" class. The
+   specified file is opened and used as the stream for logging. If

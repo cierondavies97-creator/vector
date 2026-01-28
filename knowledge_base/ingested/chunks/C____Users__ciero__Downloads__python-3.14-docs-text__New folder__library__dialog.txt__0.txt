@@ -1,0 +1,6 @@
+Tkinter Dialogs
+***************
+"tkinter.simpledialog" --- Standard Tkinter input dialogs
+=========================================================
+**Source code:** Lib/tkinter/simpledialog.py
+======================================================================

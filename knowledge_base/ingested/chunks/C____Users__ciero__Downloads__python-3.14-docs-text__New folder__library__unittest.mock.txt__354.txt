@@ -1,0 +1,3 @@
+The *mock* argument is the mock object to configure. If "None" (the
+   default) then a "MagicMock" will be created for you, with the API
+   limited to methods or attributes available on standard file

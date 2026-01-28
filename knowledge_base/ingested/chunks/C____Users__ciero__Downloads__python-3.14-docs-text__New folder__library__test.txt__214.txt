@@ -1,0 +1,5 @@
+Return a copy of "sys.modules".
+test.support.import_helper.modules_cleanup(oldmodules)
+   Remove modules except for *oldmodules* and "encodings" in order to
+   preserve internal cache.
+test.support.import_helper.unload(name)

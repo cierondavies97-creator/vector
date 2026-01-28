@@ -1,0 +1,4 @@
+Changed in version 3.7: Added the "--invalidation-mode" option.
+Changed in version 3.9: Added the "-s", "-p", "-e" and "--hardlink-
+dupes" options. Raised the default recursion limit from 10 to
+"sys.getrecursionlimit()". Added the possibility to specify the "-o"

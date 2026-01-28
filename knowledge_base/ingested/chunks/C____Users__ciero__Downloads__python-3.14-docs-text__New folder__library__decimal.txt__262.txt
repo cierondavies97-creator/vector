@@ -1,0 +1,4 @@
+infinite result.
+Some operations are indeterminate and return "NaN", or if the
+"InvalidOperation" signal is trapped, raise an exception.  For
+example, "0/0" returns "NaN" which means "not a number".  This variety

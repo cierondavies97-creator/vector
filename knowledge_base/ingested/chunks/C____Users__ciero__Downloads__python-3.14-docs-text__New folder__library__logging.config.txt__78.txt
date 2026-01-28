@@ -1,0 +1,3 @@
+have two handlers attached to it, which are described by the handler
+ids "h1" and "h2". The formatter for "h1" is that described by id
+"brief", and the formatter for "h2" is that described by id "precise".

@@ -1,0 +1,6 @@
+and may require the addition of either one or two trailing
+      zeros.
+   to_integral_exact(x, /)
+      Rounds to an integer.
+   to_sci_string(x, /)
+      Converts a number to a string using scientific notation.

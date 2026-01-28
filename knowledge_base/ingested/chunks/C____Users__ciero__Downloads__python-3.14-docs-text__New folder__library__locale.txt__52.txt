@@ -1,0 +1,11 @@
+the am/pm format.
+   locale.DAY_1
+   locale.DAY_2
+   locale.DAY_3
+   locale.DAY_4
+   locale.DAY_5
+   locale.DAY_6
+   locale.DAY_7
+      Get the name of the n-th day of the week.
+      Note:
+        This follows the US convention of "DAY_1" being Sunday, not

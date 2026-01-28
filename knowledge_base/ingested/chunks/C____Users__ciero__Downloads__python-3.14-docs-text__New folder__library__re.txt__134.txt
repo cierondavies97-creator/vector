@@ -1,0 +1,6 @@
+*except* a newline.
+   Corresponds to the inline flag "(?s)".
+re.U
+re.UNICODE
+   In Python 3, Unicode characters are matched by default for "str"
+   patterns. This flag is therefore redundant with **no effect** and

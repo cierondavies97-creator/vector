@@ -1,0 +1,4 @@
+yields only "optionxform"'ed option key names.  This means
+  lowercased keys by default.  At the same time, for a section that
+  holds the key "'a'", both expressions return "True":
+     "a" in parser["section"]

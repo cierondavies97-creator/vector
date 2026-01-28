@@ -1,0 +1,4 @@
+a tape device. However, such a "TarFile" object is limited in that
+   it does not allow random access, see Examples.  The currently
+   possible modes:
+   +---------------+----------------------------------------------+

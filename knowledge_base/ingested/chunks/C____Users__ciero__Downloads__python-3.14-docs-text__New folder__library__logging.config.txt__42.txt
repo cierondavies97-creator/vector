@@ -1,0 +1,4 @@
+version.  The only valid value at present is 1, but having this key
+  allows the schema to evolve while still preserving backwards
+  compatibility.
+All other keys are optional, but if present they will be interpreted

@@ -1,0 +1,4 @@
+functions. For a class, it disassembles all methods (including
+   class and static methods). For a code object or sequence of raw
+   bytecode, it prints one line per bytecode instruction. It also
+   recursively disassembles nested code objects. These can include

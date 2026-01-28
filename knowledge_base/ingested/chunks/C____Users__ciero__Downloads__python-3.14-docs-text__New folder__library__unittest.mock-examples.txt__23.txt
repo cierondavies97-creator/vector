@@ -1,0 +1,7 @@
+------------------------------------
+Setting the return values on a mock object is trivially easy:
+>>> mock = Mock()
+>>> mock.return_value = 3
+>>> mock()
+3
+Of course you can do the same for methods on the mock:

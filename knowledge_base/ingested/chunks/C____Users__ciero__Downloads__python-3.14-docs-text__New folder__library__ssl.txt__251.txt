@@ -1,0 +1,4 @@
+"SSLSocket.selected_alpn_protocol()" and "SSLSocket.context". The
+   "SSLSocket.getpeercert()", "SSLSocket.get_verified_chain()",
+   "SSLSocket.get_unverified_chain()" "SSLSocket.cipher()" and
+   "SSLSocket.compression()" methods require that the TLS connection

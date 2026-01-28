@@ -1,0 +1,4 @@
+This could be an issue if an application wants to further consume
+   the input iterator after *takewhile* has been run to exhaustion.
+   To work around this problem, consider using more-itertools
+   before_and_after() instead.

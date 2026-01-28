@@ -1,0 +1,5 @@
+Raises an auditing event "tempfile.mkstemp" with argument
+   "fullpath".
+   Changed in version 3.5: The "os.O_TMPFILE" flag is now used if
+   available.
+   Changed in version 3.8: Added *errors* parameter.

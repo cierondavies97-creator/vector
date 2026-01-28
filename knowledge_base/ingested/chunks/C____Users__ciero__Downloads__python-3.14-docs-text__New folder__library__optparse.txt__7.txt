@@ -1,0 +1,4 @@
+the subtle behavioural changes that may arise when migrating to
+  "argparse"
+* the application requires additional control over the way options and
+  positional parameters are interleaved on the command line (including

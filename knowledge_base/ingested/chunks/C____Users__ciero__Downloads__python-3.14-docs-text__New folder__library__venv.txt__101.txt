@@ -1,0 +1,5 @@
+fn = os.path.split(path)[-1]
+           binpath = context.bin_path
+           distpath = os.path.join(binpath, fn)
+           # Download script into the virtual environment's binaries folder
+           urlretrieve(url, distpath)

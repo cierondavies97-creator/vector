@@ -1,0 +1,6 @@
+Python must be an owned reference --- ownership is transferred from
+the function to its caller.
+1.10.3. Thin Ice
+----------------
+There are a few situations where seemingly harmless use of a borrowed
+reference can lead to problems.  These all have to do with implicit

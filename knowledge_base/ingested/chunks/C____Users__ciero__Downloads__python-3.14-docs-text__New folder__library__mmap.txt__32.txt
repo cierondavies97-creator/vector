@@ -1,0 +1,7 @@
+will result in a ValueError exception being raised. This will
+      not close the open file.
+   closed
+      "True" if the file is closed.
+      Added in version 3.2.
+   find(sub[, start[, end]])
+      Returns the lowest index in the object where the subsequence

@@ -1,0 +1,5 @@
+DefaultCookiePolicy.set_blocked_domains(blocked_domains)
+   Set the sequence of blocked domains.
+DefaultCookiePolicy.is_blocked(domain)
+   Return "True" if *domain* is on the blocklist for setting or
+   receiving cookies.

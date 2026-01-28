@@ -1,0 +1,5 @@
+Deprecated since version 3.6: Use "send()" instead of "write()".
+Note:
+  The "read()" and "write()" methods are the low-level methods that
+  read and write unencrypted, application-level data and
+  decrypt/encrypt it to encrypted, wire-level data. These methods

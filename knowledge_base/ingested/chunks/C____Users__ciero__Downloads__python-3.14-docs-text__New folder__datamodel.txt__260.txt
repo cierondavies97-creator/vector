@@ -1,0 +1,3 @@
+number of positional arguments; bit "0x08" is set if the function uses
+the "**keywords" syntax to accept arbitrary keyword arguments; bit
+"0x20" is set if the function is a generator. See Code Objects Bit

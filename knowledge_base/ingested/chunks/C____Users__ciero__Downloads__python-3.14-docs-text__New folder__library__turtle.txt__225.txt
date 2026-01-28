@@ -1,0 +1,7 @@
+* **t** -- a number >= 0
+   Install a timer that calls *fun* after *t* milliseconds.
+      >>> running = True
+      >>> def f():
+      ...     if running:
+      ...         fd(50)
+      ...         lt(60)

@@ -1,0 +1,5 @@
+(common examples are library modules or the warnings machinery).
+   The main reason for interpreter shutdown is that the "__main__"
+   module or the script being run has finished executing.
+iterable
+   An object capable of returning its members one at a time. Examples

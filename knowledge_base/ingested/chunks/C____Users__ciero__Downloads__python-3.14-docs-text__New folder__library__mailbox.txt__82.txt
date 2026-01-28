@@ -1,0 +1,4 @@
+The mbox format is the classic format for storing mail on Unix
+   systems. All messages in an mbox mailbox are stored in a single
+   file with the beginning of each message indicated by a line whose
+   first five characters are "From ".

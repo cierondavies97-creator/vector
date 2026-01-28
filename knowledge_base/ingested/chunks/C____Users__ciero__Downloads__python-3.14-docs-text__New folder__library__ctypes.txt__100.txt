@@ -1,0 +1,6 @@
+1150640792
+Here is a more advanced example, it uses the "strchr()" function,
+which expects a string pointer and a char, and returns a pointer to a
+string:
+   >>> strchr = libc.strchr
+   >>> strchr(b"abcdef", ord("d"))

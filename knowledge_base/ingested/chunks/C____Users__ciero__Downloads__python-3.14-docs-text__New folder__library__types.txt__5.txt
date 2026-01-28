@@ -1,0 +1,5 @@
+with the class contents. If no callback is provided, it has the
+   same effect as passing in "lambda ns: None".
+   Added in version 3.3.
+types.prepare_class(name, bases=(), kwds=None)
+   Calculates the appropriate metaclass and creates the class

@@ -1,0 +1,4 @@
+"None".  If there is no handler for "None", raise a "KeyError"
+      for the fully qualified name of the type.
+      Also add a *MIME-Version* header if one is not present (see also
+      "MIMEPart").

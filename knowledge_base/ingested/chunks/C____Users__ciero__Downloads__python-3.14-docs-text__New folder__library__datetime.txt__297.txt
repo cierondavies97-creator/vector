@@ -1,0 +1,9 @@
+datetime.timedelta(0)
+   >>> t.tzname()
+   '+01:00'
+   >>> t.strftime("%H:%M:%S %Z")
+   '12:10:30 +01:00'
+   >>> 'The {} is {:%H:%M}.'.format("time", t)
+   'The time is 12:10.'
+"tzinfo" Objects
+================

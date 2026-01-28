@@ -1,0 +1,4 @@
+Changed in version 3.7: Added the *initializer* and *initargs*
+   arguments.
+   Changed in version 3.8: Default value of *max_workers* is changed
+   to "min(32, os.cpu_count() + 4)". This default value preserves at

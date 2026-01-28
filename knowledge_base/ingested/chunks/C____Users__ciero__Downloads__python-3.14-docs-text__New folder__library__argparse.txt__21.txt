@@ -1,0 +1,5 @@
+was run:
+* The "base name" of "sys.argv[0]" if a file was passed as argument.
+* The Python interpreter name followed by "sys.argv[0]" if a directory
+  or a zipfile was passed as argument.
+* The Python interpreter name followed by "-m" followed by the module

@@ -1,0 +1,4 @@
+The SAX API defines five kinds of handlers: content handlers, DTD
+handlers, error handlers, entity resolvers and lexical handlers.
+Applications normally only need to implement those interfaces whose
+events they are interested in; they can implement the interfaces in a

@@ -1,0 +1,3 @@
+corresponding slot (if the identifier is the same as the first formal
+parameter name, the first slot is used, and so on).  If the slot is
+already filled, a "TypeError" exception is raised. Otherwise, the

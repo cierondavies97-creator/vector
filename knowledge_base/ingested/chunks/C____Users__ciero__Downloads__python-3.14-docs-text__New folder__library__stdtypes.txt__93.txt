@@ -1,0 +1,3 @@
+float to or from a *decimal* string usually involves a small rounding
+error.  In contrast, hexadecimal strings allow exact representation
+and specification of floating-point numbers.  This can be useful when

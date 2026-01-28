@@ -1,0 +1,4 @@
+to create a new instance of a list, use:
+   mylist: list = field(default_factory=list)
+If a field is excluded from "__init__()" (using "init=False") and the
+field also specifies *default_factory*, then the default factory

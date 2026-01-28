@@ -1,0 +1,4 @@
+>>> date(2003, 12, 29).isocalendar()
+      datetime.IsoCalendarDate(year=2004, week=1, weekday=1)
+      >>> date(2004, 1, 4).isocalendar()
+      datetime.IsoCalendarDate(year=2004, week=1, weekday=7)

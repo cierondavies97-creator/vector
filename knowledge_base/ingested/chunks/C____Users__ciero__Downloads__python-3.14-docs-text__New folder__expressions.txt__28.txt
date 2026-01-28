@@ -1,0 +1,4 @@
+would cause ambiguities and allow common typos to pass uncaught.
+6.2.4. Displays for lists, sets and dictionaries
+------------------------------------------------
+For constructing a list, a set or a dictionary Python provides special

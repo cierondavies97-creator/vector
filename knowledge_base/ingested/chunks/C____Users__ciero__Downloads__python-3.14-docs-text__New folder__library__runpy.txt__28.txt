@@ -1,0 +1,4 @@
+the function returns.
+   Note that, unlike "run_module()", the alterations made to "sys" are
+   not optional in this function as these adjustments are essential to
+   allowing the execution of "sys.path" entries. As the thread-safety

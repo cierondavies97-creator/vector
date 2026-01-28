@@ -1,0 +1,9 @@
+3
+      Added in version 3.11.
+   __bool__(self):
+      Returns *True* if any members in flag, *False* otherwise:
+         >>> bool(Color.GREEN)
+         True
+         >>> bool(white)
+         True
+         >>> black = Color(0)

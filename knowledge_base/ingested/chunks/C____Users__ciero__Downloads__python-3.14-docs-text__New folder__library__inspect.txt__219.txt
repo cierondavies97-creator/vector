@@ -1,0 +1,3 @@
+methods, bind also the first argument (typically named "self") to
+   the associated instance. A dict is returned, mapping the argument
+   names (including the names of the "*" and "**" arguments, if any)

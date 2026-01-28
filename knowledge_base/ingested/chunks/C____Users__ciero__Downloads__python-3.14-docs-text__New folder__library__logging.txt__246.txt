@@ -1,0 +1,4 @@
+LogRecord attributes), and vice versa.
+   Changed in version 3.4: In Python versions earlier than 3.4, this
+   function could also be passed a text level, and would return the
+   corresponding numeric value of the level. This undocumented

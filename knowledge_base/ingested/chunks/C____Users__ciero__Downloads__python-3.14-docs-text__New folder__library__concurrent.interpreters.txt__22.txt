@@ -1,0 +1,4 @@
+use the same interpreter or different ones.
+At a high level, you can think of the combination of threads and
+interpreters as threads with opt-in sharing.
+As a significant bonus, interpreters are sufficiently isolated that

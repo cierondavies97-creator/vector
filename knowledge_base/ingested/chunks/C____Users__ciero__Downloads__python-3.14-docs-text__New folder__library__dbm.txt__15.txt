@@ -1,0 +1,7 @@
+import dbm
+   # Open database, creating it if necessary.
+   with dbm.open('cache', 'c') as db:
+       # Record some values
+       db[b'hello'] = b'there'
+       db['www.python.org'] = 'Python Website'
+       db['www.cnn.com'] = 'Cable News Network'

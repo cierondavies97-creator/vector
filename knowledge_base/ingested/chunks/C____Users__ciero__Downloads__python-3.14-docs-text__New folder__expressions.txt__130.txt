@@ -1,0 +1,4 @@
+gracefully, is already closed, or raises "GeneratorExit" (by not
+   catching the exception), then the returned awaitable will raise a
+   "StopIteration" exception. Any further awaitables returned by
+   subsequent calls to the asynchronous generator will raise a

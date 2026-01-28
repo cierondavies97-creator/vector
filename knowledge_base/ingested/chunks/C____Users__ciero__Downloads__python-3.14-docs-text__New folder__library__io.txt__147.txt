@@ -1,0 +1,4 @@
+"ValueError" exception if there is an encoding error (the default
+   of "None" has the same effect), or pass "'ignore'" to ignore
+   errors.  (Note that ignoring encoding errors can lead to data
+   loss.)  "'replace'" causes a replacement marker (such as "'?'") to

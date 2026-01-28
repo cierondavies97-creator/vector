@@ -1,0 +1,4 @@
+from UTC, the name of the time zone, and DST offset, all relative
+   to a date or time object passed to them.
+   You need to derive a concrete subclass, and (at least) supply
+   implementations of the standard "tzinfo" methods needed by the

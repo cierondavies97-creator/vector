@@ -1,0 +1,6 @@
+>>> cheese = 'Camembert'
+      >>> template = t'Ah! {response}{cheese}.'
+      >>> template.strings
+      ('Ah! ', '', '.')
+      The "strings" tuple is never empty, and always contains one more
+      string than the "interpolations" and "values" tuples:

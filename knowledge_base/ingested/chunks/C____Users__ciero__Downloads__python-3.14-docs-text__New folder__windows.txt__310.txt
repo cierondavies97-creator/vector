@@ -1,0 +1,5 @@
+* The Python install manager will be installed into the Windows
+  directory
+* Optional features may be selected during installation
+* The standard library can be pre-compiled to bytecode
+* If selected, the install directory will be added to the system

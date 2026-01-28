@@ -1,0 +1,4 @@
+("0" for positive or "1" for negative), a "tuple" of digits, and an
+   integer exponent. For example, "Decimal((0, (1, 4, 1, 4), -3))"
+   returns "Decimal('1.414')".
+   If *value* is a "float", the binary floating-point value is

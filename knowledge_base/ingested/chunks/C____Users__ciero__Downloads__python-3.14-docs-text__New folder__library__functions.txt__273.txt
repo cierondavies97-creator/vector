@@ -1,0 +1,5 @@
+def voltage(self):
+              """Get the current voltage."""
+              return self._voltage
+   The "@property" decorator turns the "voltage()" method into a
+   "getter" for a read-only attribute with the same name, and it sets

@@ -1,0 +1,4 @@
+OSError: exception: access violation reading 0x00000020
+   >>>
+There are, however, enough ways to crash Python with "ctypes", so you
+should be careful anyway.  The "faulthandler" module can be helpful in

@@ -1,0 +1,4 @@
+and a share UNC are always mount points, and for any other path
+   "GetVolumePathName" is called to see if it is different from the
+   input path.
+   Changed in version 3.4: Added support for detecting non-root mount

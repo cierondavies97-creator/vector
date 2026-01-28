@@ -1,0 +1,4 @@
+module can read. *name* may be a "str", file, or file-like object.
+   Changed in version 3.9: Support for file and file-like objects.
+The "tarfile" module defines the following exceptions:
+exception tarfile.TarError

@@ -1,0 +1,3 @@
+test.support.sleeping_retry(timeout, err_msg=None, /, *, init_delay=0.010, max_delay=1.0, error=True)
+   Wait strategy that applies exponential backoff.
+   Run the loop body until "break" stops the loop. Sleep at each loop

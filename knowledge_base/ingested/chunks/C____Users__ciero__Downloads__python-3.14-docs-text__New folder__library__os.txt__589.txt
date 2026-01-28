@@ -1,0 +1,4 @@
+or "os.fsync()" before calling an "exec*" function.
+   The "l" and "v" variants of the "exec*" functions differ in how
+   command-line arguments are passed.  The "l" variants are perhaps
+   the easiest to work with if the number of parameters is fixed when

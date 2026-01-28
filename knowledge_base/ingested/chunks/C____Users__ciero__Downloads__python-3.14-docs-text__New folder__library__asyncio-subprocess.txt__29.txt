@@ -1,0 +1,5 @@
+send_signal(signal)
+      Sends the signal *signal* to the child process.
+      Note:
+        On Windows, "SIGTERM" is an alias for "terminate()".
+        "CTRL_C_EVENT" and "CTRL_BREAK_EVENT" can be sent to processes

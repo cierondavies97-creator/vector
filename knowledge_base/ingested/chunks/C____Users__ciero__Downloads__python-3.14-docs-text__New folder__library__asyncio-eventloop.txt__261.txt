@@ -1,0 +1,5 @@
+Wait until a file descriptor received some data using the
+"loop.add_reader()" method and then close the event loop:
+   import asyncio
+   from socket import socketpair
+   # Create a pair of connected file descriptors

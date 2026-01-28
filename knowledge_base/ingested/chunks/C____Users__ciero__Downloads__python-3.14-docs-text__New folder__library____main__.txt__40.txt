@@ -1,0 +1,5 @@
+def did_user_define_their_name():
+       return 'my_name' in dir(__main__)
+   def print_user_name():
+       if not did_user_define_their_name():
+           raise ValueError('Define the variable `my_name`!')

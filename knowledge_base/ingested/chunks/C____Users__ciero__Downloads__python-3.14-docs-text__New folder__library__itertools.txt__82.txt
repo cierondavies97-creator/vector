@@ -1,0 +1,3 @@
+The returned group is itself an iterator that shares the underlying
+   iterable with "groupby()".  Because the source is shared, when the
+   "groupby()" object is advanced, the previous group is no longer

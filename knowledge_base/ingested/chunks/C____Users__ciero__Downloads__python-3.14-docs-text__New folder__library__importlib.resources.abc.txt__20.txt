@@ -1,0 +1,4 @@
+Changed in version 3.11: "joinpath" accepts multiple
+      *pathsegments*, and these segments may contain forward slashes
+      as path separators. Previously, only a single *child* argument
+      was accepted.

@@ -1,0 +1,5 @@
+will override any conflicting keys from the "example.ini" file.
+      [DEFAULT]
+      ServerAliveInterval = -1
+      >>> config_override = configparser.ConfigParser()
+      >>> config_override['DEFAULT'] = {'ServerAliveInterval': '-1'}

@@ -1,0 +1,6 @@
+text content
+        (default: false)
+   * *rewrite_prefixes*: set to true to replace namespace prefixes by
+     "n{number}"
+        (default: false)
+   * *qname_aware_tags*: a set of qname aware tag names in which

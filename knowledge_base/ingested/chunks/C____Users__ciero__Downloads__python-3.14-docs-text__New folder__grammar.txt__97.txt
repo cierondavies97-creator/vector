@@ -1,0 +1,6 @@
+signed_number[expr_ty]:
+       | NUMBER
+       | '-' number=NUMBER { _PyAST_UnaryOp(USub, number, EXTRA) }
+   signed_real_number[expr_ty]:
+       | real_number
+       | '-' real=real_number { _PyAST_UnaryOp(USub, real, EXTRA) }

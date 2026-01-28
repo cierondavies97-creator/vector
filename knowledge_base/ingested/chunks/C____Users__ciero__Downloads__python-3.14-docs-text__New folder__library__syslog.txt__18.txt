@@ -1,0 +1,12 @@
+syslog.LOG_EMERG
+syslog.LOG_ALERT
+syslog.LOG_CRIT
+syslog.LOG_ERR
+syslog.LOG_WARNING
+syslog.LOG_NOTICE
+syslog.LOG_INFO
+syslog.LOG_DEBUG
+   Priority levels (high to low).
+syslog.LOG_AUTH
+syslog.LOG_AUTHPRIV
+syslog.LOG_CRON

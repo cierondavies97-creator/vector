@@ -1,0 +1,5 @@
+"IntEnum", "StrEnum", and "IntFlag"
+   These three enum types are designed to be drop-in replacements for
+   existing integer- and string-based values; as such, they have extra
+   limitations:
+   * "__str__" uses the value and not the name of the enum member

@@ -1,0 +1,4 @@
+There are nearly as many INI format variants as there are applications
+using it. "configparser" goes a long way to provide support for the
+largest sensible set of INI styles available.  The default
+functionality is mainly dictated by historical background and it's

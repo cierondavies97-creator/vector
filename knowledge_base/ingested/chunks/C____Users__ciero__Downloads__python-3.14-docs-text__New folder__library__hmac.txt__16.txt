@@ -1,0 +1,5 @@
+"HMAC.digest_cons", "HMAC.inner", and "HMAC.outer".
+This module also provides the following helper function:
+hmac.compare_digest(a, b)
+   Return "a == b".  This function uses an approach designed to
+   prevent timing analysis by avoiding content-based short circuiting

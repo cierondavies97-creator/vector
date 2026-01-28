@@ -1,0 +1,4 @@
+named file and some of its parent directories may be missing.
+   Note:
+     This function emulates the operating system's procedure for
+     making a path canonical, which differs slightly between Windows

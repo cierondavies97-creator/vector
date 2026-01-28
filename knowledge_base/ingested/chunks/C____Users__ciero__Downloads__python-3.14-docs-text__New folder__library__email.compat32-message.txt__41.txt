@@ -1,0 +1,4 @@
+is made to decode the original bytes using the "charset"
+      specified by the *Content-Type* header, using the "replace"
+      error handler. If no "charset" is specified, or if the "charset"
+      given is not recognized by the email package, the body is

@@ -1,0 +1,3 @@
+tests.  Those relations do not define total orderings (for example,
+  the two sets "{1,2}" and "{2,3}" are not equal, nor subsets of one
+  another, nor supersets of one another).  Accordingly, sets are not

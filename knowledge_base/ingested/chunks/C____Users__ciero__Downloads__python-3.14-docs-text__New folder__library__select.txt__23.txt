@@ -1,0 +1,5 @@
+may also define a *wrapper* class yourself, as long as it has an
+   appropriate "fileno()" method (that really returns a file
+   descriptor, not just a random integer).
+   Note:
+     File objects on Windows are not acceptable, but sockets are.  On

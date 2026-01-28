@@ -1,0 +1,5 @@
+the second argument. The result of "format()" is then used as the
+final value for the replacement field. For example:
+   >>> from fractions import Fraction
+   >>> one_third = Fraction(1, 3)
+   >>> f'{one_third:.6f}'

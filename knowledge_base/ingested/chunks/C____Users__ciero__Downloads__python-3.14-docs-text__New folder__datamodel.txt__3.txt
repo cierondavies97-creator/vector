@@ -1,0 +1,3 @@
+(e.g., "does it have a length?") and also defines the possible values
+for objects of that type.  The "type()" function returns an object's
+type (which is an object itself).  Like its identity, an object's

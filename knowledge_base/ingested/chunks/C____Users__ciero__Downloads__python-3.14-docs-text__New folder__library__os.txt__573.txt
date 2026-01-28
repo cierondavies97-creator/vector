@@ -1,0 +1,4 @@
+a str, it is encoded with the *filesystem encoding and error
+   handler*.  *flags* may be "XATTR_REPLACE" or "XATTR_CREATE". If
+   "XATTR_REPLACE" is given and the attribute does not exist,
+   "ENODATA" will be raised. If "XATTR_CREATE" is given and the

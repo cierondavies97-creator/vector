@@ -1,0 +1,6 @@
+window.idlok(flag)
+   If *flag* is "True", "curses" will try and use hardware line
+   editing facilities. Otherwise, line insertion/deletion are
+   disabled.
+window.immedok(flag)
+   If *flag* is "True", any change in the window image automatically

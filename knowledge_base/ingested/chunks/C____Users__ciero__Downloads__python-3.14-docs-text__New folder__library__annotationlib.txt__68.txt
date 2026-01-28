@@ -1,0 +1,4 @@
+(Functions and methods always have an annotations dict; classes,
+     modules, and other types of callables may not.)
+   * Ignores inherited annotations on classes, as well as annotations
+     on metaclasses. If a class doesn't have its own annotations dict,

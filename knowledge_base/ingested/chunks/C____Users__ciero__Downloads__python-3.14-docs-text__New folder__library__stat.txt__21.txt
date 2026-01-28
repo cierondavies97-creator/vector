@@ -1,0 +1,12 @@
+Use of the functions above is more portable than use of the first set
+of flags:
+stat.S_IFSOCK
+   Socket.
+stat.S_IFLNK
+   Symbolic link.
+stat.S_IFREG
+   Regular file.
+stat.S_IFBLK
+   Block device.
+stat.S_IFDIR
+   Directory.

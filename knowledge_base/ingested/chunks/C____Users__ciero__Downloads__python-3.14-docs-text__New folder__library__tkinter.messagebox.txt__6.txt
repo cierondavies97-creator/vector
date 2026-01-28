@@ -1,0 +1,5 @@
+the default.
+      *detail*
+         Specifies an auxiliary message to the main message given by
+         the *message* option. The message detail will be presented
+         beneath the main message and, where supported by the OS, in a

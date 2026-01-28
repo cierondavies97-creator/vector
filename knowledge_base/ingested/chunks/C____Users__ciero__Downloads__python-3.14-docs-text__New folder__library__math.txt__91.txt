@@ -1,0 +1,4 @@
+accuracy than the direct expression "(x * y) + z".
+   This function follows the specification of the fusedMultiplyAdd
+   operation described in the IEEE 754 standard. The standard leaves
+   one case implementation-defined, namely the result of "fma(0, inf,

@@ -1,0 +1,4 @@
+A buffered binary stream providing higher-level access to a
+   readable, non seekable "RawIOBase" raw binary stream.  It inherits
+   from "BufferedIOBase".
+   When reading data from this object, a larger amount of data may be

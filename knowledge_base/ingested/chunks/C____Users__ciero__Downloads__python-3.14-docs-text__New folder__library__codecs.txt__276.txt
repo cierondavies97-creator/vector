@@ -1,0 +1,2 @@
+|                        |                    | result always includes a       |                                |
+|                        |                    | trailing "'\n'").  Changed in  |                                |

@@ -1,0 +1,3 @@
+tuples and dictionaries correctly).Using formatted string literals,
+  the "str.format()" interface, or "string.Template" may help avoid
+  these errors. Each of these alternatives provides their own trade-

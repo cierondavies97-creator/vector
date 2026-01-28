@@ -1,0 +1,9 @@
+c_long(0)
+   >>> c_wchar_p("Hello, World")
+   c_wchar_p(140018365411392)
+   >>> c_ushort(-3)
+   c_ushort(65533)
+   >>>
+Since these types are mutable, their value can also be changed
+afterwards:
+   >>> i = c_int(42)

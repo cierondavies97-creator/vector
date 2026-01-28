@@ -1,0 +1,6 @@
+* Use the "'data'" filter; *warn* if it is not available:
+     if hasattr(tarfile, 'data_filter'):
+         my_tarfile.extractall(filter='data')
+     else:
+         # remove this when no longer needed
+         warn_the_user('Extracting may be unsafe; consider updating Python')

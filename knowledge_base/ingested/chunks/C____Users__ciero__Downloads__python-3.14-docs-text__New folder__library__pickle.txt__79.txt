@@ -1,0 +1,4 @@
+used for finding functions.
+      Subclasses may override this to gain control over what type of
+      objects and how they can be loaded, potentially reducing
+      security risks. Refer to Restricting Globals for details.

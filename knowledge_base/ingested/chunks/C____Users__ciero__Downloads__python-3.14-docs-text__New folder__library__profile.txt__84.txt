@@ -1,0 +1,5 @@
+If several restrictions are provided, then they are applied
+      sequentially. For example:
+         print_stats(.1, 'foo:')
+      would first limit the printing to first 10% of list, and then
+      only print functions that were part of filename ".*foo:".  In

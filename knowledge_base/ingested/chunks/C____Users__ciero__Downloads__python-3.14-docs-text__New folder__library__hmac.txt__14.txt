@@ -1,0 +1,6 @@
+efficiently compute the digests of strings that share a common
+   initial substring.
+A hash object has the following attributes:
+HMAC.digest_size
+   The size of the resulting HMAC digest in bytes.
+HMAC.block_size

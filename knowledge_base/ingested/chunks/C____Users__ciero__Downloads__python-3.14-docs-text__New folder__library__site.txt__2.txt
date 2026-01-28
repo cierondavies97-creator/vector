@@ -1,0 +1,3 @@
+and this module can be safely imported with no automatic modifications
+to the module search path or additions to the builtins.  To explicitly
+trigger the usual site-specific additions, call the "main()" function.

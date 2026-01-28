@@ -1,0 +1,4 @@
+enough available.
+      The *size* argument indicates the approximate maximum number of
+      encoded bytes or code points to read for decoding. The decoder
+      can modify this setting as appropriate. The default value -1

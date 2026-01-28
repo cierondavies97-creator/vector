@@ -1,0 +1,4 @@
+*application/x-www-form-urlencoded*).  Data are returned as a list
+   of name, value pairs.
+   The optional argument *keep_blank_values* is a flag indicating
+   whether blank values in percent-encoded queries should be treated

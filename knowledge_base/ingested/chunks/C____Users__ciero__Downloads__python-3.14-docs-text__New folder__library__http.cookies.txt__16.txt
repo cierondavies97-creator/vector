@@ -1,0 +1,8 @@
+equivalent to:
+      for k, v in rawdata.items():
+          cookie[k] = v
+Morsel Objects
+==============
+class http.cookies.Morsel
+   Abstract a key/value pair, which has some **RFC 2109** attributes.
+   Morsels are dictionary-like objects, whose set of keys is constant

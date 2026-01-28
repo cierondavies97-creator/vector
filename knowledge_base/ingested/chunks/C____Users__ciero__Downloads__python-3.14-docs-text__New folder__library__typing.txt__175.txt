@@ -1,0 +1,6 @@
+Starship.stats = {}     # This is OK
+   Added in version 3.5.3.
+   Changed in version 3.13: "ClassVar" can now be nested in "Final"
+   and vice versa.
+typing.Final
+   Special typing construct to indicate final names to type checkers.

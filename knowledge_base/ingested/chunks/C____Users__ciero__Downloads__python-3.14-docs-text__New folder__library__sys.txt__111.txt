@@ -1,0 +1,5 @@
+Changed in version 3.11: Added the "int_max_str_digits" attribute.
+   Changed in version 3.13: Added the "gil" attribute.
+   Changed in version 3.14: Added the "thread_inherit_context"
+   attribute.
+   Changed in version 3.14: Added the "context_aware_warnings"

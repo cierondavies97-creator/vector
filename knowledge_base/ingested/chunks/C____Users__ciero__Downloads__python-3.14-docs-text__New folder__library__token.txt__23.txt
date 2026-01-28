@@ -1,0 +1,5 @@
+keyword, pass a "NAME" token's string to "keyword.issoftkeyword()".
+token.ERRORTOKEN
+   Token value used to indicate wrong input.
+   The "tokenize" module generally indicates errors by raising
+   exceptions instead of emitting this token. It can also emit tokens

@@ -1,0 +1,4 @@
+of 2 (the traditional Unix exit status for command-line errors).
+Querying and manipulating your option parser
+--------------------------------------------
+The default behavior of the option parser can be customized slightly,

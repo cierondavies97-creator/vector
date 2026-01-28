@@ -1,0 +1,4 @@
+---------------------------------
+Whenever a class inherits from another class, "__init_subclass__()" is
+called on the parent class. This way, it is possible to write classes
+which change the behavior of subclasses. This is closely related to

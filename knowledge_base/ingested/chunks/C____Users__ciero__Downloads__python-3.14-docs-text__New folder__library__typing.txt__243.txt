@@ -1,0 +1,5 @@
+syntax for generic functions, generic classes, and generic type
+   aliases:
+      class Sequence[T]:  # T is a TypeVar
+          ...
+   This syntax can also be used to create bounded and constrained type

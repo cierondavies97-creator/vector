@@ -1,0 +1,6 @@
+-C, --coverdir=<dir>
+   Directory where the report files go.  The coverage report for
+   "package.module" is written to file
+   "*dir*/*package*/*module*.cover".
+-m, --missing
+   When generating annotated listings, mark lines which were not

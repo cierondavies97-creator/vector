@@ -1,0 +1,4 @@
+standard_tests.addTests(package_tests)
+       return standard_tests
+Changed in version 3.5: Discovery no longer checks package names for
+matching *pattern* due to the impossibility of package names matching

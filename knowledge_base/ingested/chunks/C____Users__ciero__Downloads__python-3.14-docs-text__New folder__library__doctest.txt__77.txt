@@ -1,0 +1,3 @@
+be passed to the doctest command line interface via the "-o" option.
+The first group of options define test semantics, controlling aspects
+of how doctest decides whether actual output matches an example's

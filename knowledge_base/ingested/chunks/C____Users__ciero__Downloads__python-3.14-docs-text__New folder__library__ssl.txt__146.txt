@@ -1,0 +1,4 @@
+maximum total duration to read up to *len* bytes.
+   Deprecated since version 3.6: Use "recv()" instead of "read()".
+SSLSocket.write(data)
+   Write *data* to the SSL socket and return the number of bytes

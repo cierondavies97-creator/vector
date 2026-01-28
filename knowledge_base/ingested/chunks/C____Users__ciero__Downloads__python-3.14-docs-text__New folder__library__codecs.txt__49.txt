@@ -1,0 +1,3 @@
+|===========================|=================================================|
+| "'strict'"                | Raise "UnicodeError" (or a subclass), this is   |
+|                           | the default. Implemented in "strict_errors()".  |

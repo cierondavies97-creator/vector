@@ -1,0 +1,4 @@
+We can see that the most memory was allocated in the "importlib"
+module to load data (bytecode and constants) from modules: "870.1
+KiB". The traceback is where the "importlib" loaded data most
+recently: on the "import pdb" line of the "doctest" module. The

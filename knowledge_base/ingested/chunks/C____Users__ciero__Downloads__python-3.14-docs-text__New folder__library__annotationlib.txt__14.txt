@@ -1,0 +1,5 @@
+undefined name at that point.
+* Under stringified annotations (if "from __future__ import
+  annotations" is used), it will print "{'a': 'Cls', 'return':
+  'None'}".
+* Under deferred evaluation (Python 3.14 and later), it will print

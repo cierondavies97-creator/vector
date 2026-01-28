@@ -1,0 +1,4 @@
+>>> s = SequenceMatcher(lambda x: x == " ",
+...                     "private Thread currentThread;",
+...                     "private volatile Thread currentThread;")
+"ratio()" returns a float in [0, 1], measuring the similarity of the

@@ -1,0 +1,4 @@
+an auditing event "ctypes.cdata" with argument "address".
+   from_param(obj)
+      This method adapts *obj* to a ctypes type.  It is called with
+      the actual object used in a foreign function call when the type

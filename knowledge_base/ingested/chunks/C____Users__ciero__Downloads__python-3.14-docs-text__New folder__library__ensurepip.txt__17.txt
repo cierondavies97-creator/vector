@@ -1,0 +1,4 @@
+(where X.Y stands for the current version of Python).
+   If *altinstall* is set, then "pipX" will *not* be installed.
+   If *default_pip* is set, then "pip" will be installed in addition
+   to the two regular scripts.

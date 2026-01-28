@@ -1,0 +1,4 @@
+sets. The subscript notation "a[k]" selects the item indexed by "k"
+from the mapping "a"; this can be used in expressions and as the
+target of assignments or "del" statements. The built-in function
+"len()" returns the number of items in a mapping.

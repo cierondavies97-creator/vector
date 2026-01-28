@@ -1,0 +1,3 @@
+| curses.ACS_SBSS          | alternate name for right tee               |
++--------------------------+--------------------------------------------+
+| curses.ACS_SSBB          | alternate name for lower left corner       |

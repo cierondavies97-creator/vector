@@ -1,0 +1,3 @@
+"__future__" module documents the possible values of *feature*.  By
+   importing this module and evaluating its variables, you can see
+   when a new feature was first added to the language and when it will

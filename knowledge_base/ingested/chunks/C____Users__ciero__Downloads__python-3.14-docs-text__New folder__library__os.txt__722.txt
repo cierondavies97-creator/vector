@@ -1,0 +1,4 @@
+functions called with "P_NOWAIT" return suitable process handles.
+   "waitstatus_to_exitcode()" can be used to convert the exit status
+   into an exit code.
+   Availability: Unix, Windows, not WASI, not Android, not iOS.

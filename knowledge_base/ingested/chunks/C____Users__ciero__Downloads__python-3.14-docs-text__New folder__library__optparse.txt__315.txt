@@ -1,0 +1,3 @@
+""store"", ""store_const"", ""append"", and ""count"", while the
+default "typed" actions are ""store"", ""append"", and ""callback"".
+When you add an action, you need to categorize it by listing it in at

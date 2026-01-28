@@ -1,0 +1,3 @@
++------------------------------------------+-------------------------------------+
+   | "INTRINSIC_PREP_RERAISE_STAR"            | Calculates the "ExceptionGroup" to  |
+   |                                          | raise from a "try-except*".         |

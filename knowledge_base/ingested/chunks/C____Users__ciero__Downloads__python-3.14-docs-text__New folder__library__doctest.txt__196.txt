@@ -1,0 +1,6 @@
+string is unavailable, or if the test was not extracted from a
+      string.
+Example Objects
+---------------
+class doctest.Example(source, want, exc_msg=None, lineno=0, indent=0, options=None)
+   A single interactive example, consisting of a Python statement and

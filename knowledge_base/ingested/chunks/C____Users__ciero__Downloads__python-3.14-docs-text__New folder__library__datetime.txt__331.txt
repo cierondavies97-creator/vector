@@ -1,0 +1,5 @@
+dtoff = dt.utcoffset()
+          dtdst = dt.dst()
+          # raise ValueError if dtoff is None or dtdst is None
+          delta = dtoff - dtdst  # this is self's standard offset
+          if delta:

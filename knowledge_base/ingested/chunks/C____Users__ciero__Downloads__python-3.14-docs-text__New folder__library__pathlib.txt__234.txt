@@ -1,0 +1,3 @@
+example, ""[?]"" matches the character ""?"".
+The ""**"" wildcard enables recursive globbing. A few examples:
++---------------------------+-----------------------------------------------------------------------+

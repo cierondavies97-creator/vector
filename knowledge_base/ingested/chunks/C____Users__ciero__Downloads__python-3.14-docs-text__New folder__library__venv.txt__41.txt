@@ -1,0 +1,5 @@
+explicitly activating a virtual environment is not required to use it,
+"VIRTUAL_ENV" cannot be relied upon to determine whether a virtual
+environment is being used.
+Warning:
+  Because scripts installed in environments should not expect the

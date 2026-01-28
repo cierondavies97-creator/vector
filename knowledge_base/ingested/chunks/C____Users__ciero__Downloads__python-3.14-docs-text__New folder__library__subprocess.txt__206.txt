@@ -1,0 +1,4 @@
+the executed program cannot be found; the "b" replacements raise
+  "OSError" instead.In addition, the replacements using
+  "check_output()" will fail with a "CalledProcessError" if the
+  requested operation produces a non-zero return code. The output is

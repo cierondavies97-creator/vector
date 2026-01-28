@@ -1,0 +1,4 @@
+* ""callback"" [required: "callback"; relevant: "type", "nargs",
+  "callback_args", "callback_kwargs"]
+  Call the function specified by "callback", which is called as
+     func(option, opt_str, value, parser, *args, **kwargs)

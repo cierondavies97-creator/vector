@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "install.enable_shortcut_kinds"                    | Comma-separated list of shortcut kinds to allow    |

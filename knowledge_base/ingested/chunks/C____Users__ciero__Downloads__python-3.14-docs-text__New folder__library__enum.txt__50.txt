@@ -1,0 +1,7 @@
+...
+         >>> Build.DEBUG.value
+         'debug'
+         >>> Build('deBUG')
+         <Build.DEBUG: 'debug'>
+   __new__(cls, *args, **kwds)
+      By default, doesn't exist.  If specified, either in the enum

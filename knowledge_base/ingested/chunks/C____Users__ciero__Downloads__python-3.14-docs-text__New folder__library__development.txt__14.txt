@@ -1,0 +1,7 @@
+* patch methods: start and stop
+    * patch builtins
+    * TEST_PREFIX
+    * Nesting Patch Decorators
+    * Where to patch
+    * Patching Descriptors and Proxy Objects
+  * MagicMock and magic method support

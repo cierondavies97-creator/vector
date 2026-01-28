@@ -1,0 +1,4 @@
+default.
+   The resulting class has an extra attribute "__annotations__" giving
+   a dict that maps the field names to the field types.  (The field
+   names are in the "_fields" attribute and the default values are in

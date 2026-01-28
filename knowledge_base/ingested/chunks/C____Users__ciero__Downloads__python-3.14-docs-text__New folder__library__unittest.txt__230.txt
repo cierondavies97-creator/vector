@@ -1,0 +1,6 @@
+fail(msg=None)
+      Signals a test failure unconditionally, with *msg* or "None" for
+      the error message.
+   failureException
+      This class attribute gives the exception raised by the test
+      method.  If a test framework needs to use a specialized

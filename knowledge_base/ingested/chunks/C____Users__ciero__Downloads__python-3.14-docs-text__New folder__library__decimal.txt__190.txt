@@ -1,0 +1,4 @@
+Decimal('4.44')
+      This method implements the to-number operation of the IBM
+      specification. If the argument is a string, no leading or
+      trailing whitespace or underscores are permitted.

@@ -1,0 +1,5 @@
+when another map is held Allows resize against an anonymous map
+      on Windows
+   rfind(sub[, start[, end]])
+      Returns the highest index in the object where the subsequence
+      *sub* is found, such that *sub* is contained in the range

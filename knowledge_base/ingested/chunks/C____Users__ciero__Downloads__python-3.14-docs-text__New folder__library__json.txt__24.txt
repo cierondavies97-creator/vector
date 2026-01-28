@@ -1,0 +1,4 @@
+characters U+0000 through U+001F.
+      * **check_circular** (*bool*) -- If "False", the circular
+        reference check for container types is skipped and a circular
+        reference will result in a "RecursionError" (or worse).

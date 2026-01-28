@@ -1,0 +1,4 @@
+complete, before starting the next attempt in parallel. This is
+     the "Connection Attempt Delay" as defined in **RFC 8305**. A
+     sensible default value recommended by the RFC is "0.25" (250
+     milliseconds).

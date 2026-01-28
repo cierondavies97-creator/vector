@@ -1,0 +1,5 @@
+the module's attributes.
+   * If the object is a type or class object, the list contains the
+     names of its attributes, and recursively of the attributes of its
+     bases.
+   * Otherwise, the list contains the object's attributes' names, the

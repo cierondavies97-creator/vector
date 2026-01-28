@@ -1,0 +1,4 @@
+event, and will be the bitwise OR of one or more of the following
+   constants, where *n* is the button number from 1 to 5:
+   "BUTTONn_PRESSED", "BUTTONn_RELEASED", "BUTTONn_CLICKED",
+   "BUTTONn_DOUBLE_CLICKED", "BUTTONn_TRIPLE_CLICKED", "BUTTON_SHIFT",

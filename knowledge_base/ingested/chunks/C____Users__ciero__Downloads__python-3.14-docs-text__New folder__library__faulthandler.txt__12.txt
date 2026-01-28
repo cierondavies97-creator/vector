@@ -1,0 +1,3 @@
+Additionally, some compilers do not support *CPython's* implementation
+of C stack dumps. As a result, a different error may be printed
+instead of the stack, even if the operating system supports dumping

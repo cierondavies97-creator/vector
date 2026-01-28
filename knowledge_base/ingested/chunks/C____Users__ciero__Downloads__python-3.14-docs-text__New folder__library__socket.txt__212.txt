@@ -1,0 +1,4 @@
+*sock*. Return "(msg, list(fds), flags, addr)". Consult "recvmsg()"
+   for the documentation of these parameters.
+   Availability: Unix, not WASI.
+   Unix platforms supporting "recvmsg()" and "SCM_RIGHTS" mechanism.

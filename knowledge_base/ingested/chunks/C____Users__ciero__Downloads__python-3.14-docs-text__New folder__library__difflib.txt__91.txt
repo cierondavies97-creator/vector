@@ -1,0 +1,5 @@
+replace   a[3:4] --> b[2:3]      'x' --> 'y'
+         equal     a[4:6] --> b[3:5]     'cd' --> 'cd'
+         insert    a[6:6] --> b[5:6]       '' --> 'f'
+   get_grouped_opcodes(n=3)
+      Return a *generator* of groups with up to *n* lines of context.

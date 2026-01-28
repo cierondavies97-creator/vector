@@ -1,0 +1,5 @@
+raise "ValueError" (or a more codec specific subclass, such as
+   "UnicodeDecodeError"). Refer to Codec Base Classes for more
+   information on codec error handling.
+codecs.charmap_build(string)
+   Return a mapping suitable for encoding with a custom single-byte

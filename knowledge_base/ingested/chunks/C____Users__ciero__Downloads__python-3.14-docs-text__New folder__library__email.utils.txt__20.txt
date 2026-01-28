@@ -1,0 +1,4 @@
+last element of the tuple returned is "0", which represents UTC.
+   Note that indexes 6, 7, and 8 of the result tuple are not usable.
+email.utils.parsedate_to_datetime(date)
+   The inverse of "format_datetime()".  Performs the same function as

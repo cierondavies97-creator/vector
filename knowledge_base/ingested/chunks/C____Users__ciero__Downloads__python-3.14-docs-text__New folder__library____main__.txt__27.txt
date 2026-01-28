@@ -1,0 +1,5 @@
+references on how to distribute and install Python packages with
+  modern tools.
+"__main__.py" in Python Packages
+================================
+If you are not familiar with Python packages, see section Packages of

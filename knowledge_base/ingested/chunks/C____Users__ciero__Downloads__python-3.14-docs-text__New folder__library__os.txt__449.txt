@@ -1,0 +1,4 @@
+bit-flags: if "ST_RDONLY" is set, the filesystem is mounted read-
+   only, and if "ST_NOSUID" is set, the semantics of setuid/setgid
+   bits are disabled or not supported.
+   Additional module-level constants are defined for GNU/glibc based

@@ -1,0 +1,3 @@
+where *drive* is a device name or mount point, *root* is a string
+   of separators after the drive, and *tail* is everything after the
+   root. Any of these items may be the empty string. In all cases,

@@ -1,0 +1,4 @@
+calling process will block until the user exits the browser.
+If the environment variable "BROWSER" exists, it is interpreted as the
+"os.pathsep"-separated list of browsers to try ahead of the platform
+defaults.  When the value of a list part contains the string "%s",

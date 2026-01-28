@@ -1,0 +1,4 @@
+Deprecated since version 3.13: Use "hasarg" instead.
+CALL_INTRINSIC_1
+   Calls an intrinsic function with one argument. Passes "STACK[-1]"
+   as the argument and sets "STACK[-1]" to the result. Used to

@@ -1,0 +1,6 @@
+The default is the same as "cssclasses".
+      Added in version 3.7.
+   cssclass_month_head
+      The month's head CSS class (used by "formatmonthname()"). The
+      default value is ""month"".
+      Added in version 3.7.

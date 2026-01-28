@@ -1,0 +1,4 @@
+*arcname* specifies an alternative name for the file in the
+   archive, otherwise, the name is taken from *fileobj*’s "name"
+   attribute, or the *name* argument.  The name should be a text
+   string.

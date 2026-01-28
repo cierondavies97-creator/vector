@@ -1,0 +1,3 @@
+| compound    | Specifies how to display the image relative to the text, in    |
+|             | the case both options text and image are present. See Label    |
+|             | Options for legal values.                                      |

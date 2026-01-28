@@ -1,0 +1,5 @@
+*annotation_format* parameter to control the format of the returned
+   annotations. For example, use
+   "annotation_format=annotationlib.Format.STRING" to return
+   annotations in string format.
+   Raises "ValueError" if no signature can be provided, and

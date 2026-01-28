@@ -1,0 +1,6 @@
+to have the metadata present.
+Distribution requirements
+-------------------------
+importlib.metadata.requires(distribution_name)
+   Return the declared dependency specifiers for the named
+   distribution package.

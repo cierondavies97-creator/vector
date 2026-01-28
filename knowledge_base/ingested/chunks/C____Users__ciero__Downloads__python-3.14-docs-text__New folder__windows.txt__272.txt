@@ -1,0 +1,4 @@
+"PYTHONUTF8" for enabling UTF-8 mode, and Python install manager for
+how to modify environment variables.
+When the Python UTF-8 Mode is enabled, you can still use the system
+encoding (the ANSI Code Page) via the "mbcs" codec.

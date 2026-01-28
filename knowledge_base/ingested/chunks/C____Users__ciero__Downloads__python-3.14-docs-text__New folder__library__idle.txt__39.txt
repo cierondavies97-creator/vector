@@ -1,0 +1,3 @@
+startup windows and size, additional help sources, and extensions.
+   On macOS, open the configuration dialog by selecting Preferences in
+   the application menu. For more details, see Setting preferences

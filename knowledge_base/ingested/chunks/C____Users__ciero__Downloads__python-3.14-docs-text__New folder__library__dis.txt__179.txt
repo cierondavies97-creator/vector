@@ -1,0 +1,6 @@
+same position on the stack.
+   Changed in version 3.13: Calls with keyword arguments are now
+   handled by "CALL_KW".
+CALL_KW(argc)
+   Calls a callable object with the number of arguments specified by
+   "argc", including one or more named arguments. On the stack are (in

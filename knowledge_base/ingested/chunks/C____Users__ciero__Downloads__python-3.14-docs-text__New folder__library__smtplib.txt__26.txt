@@ -1,0 +1,5 @@
+"SMTP.sendmail()" containing the errors for each recipient.
+exception smtplib.SMTPDataError
+   The SMTP server refused to accept the message data.
+exception smtplib.SMTPConnectError
+   Error occurred during establishment of a connection  with the

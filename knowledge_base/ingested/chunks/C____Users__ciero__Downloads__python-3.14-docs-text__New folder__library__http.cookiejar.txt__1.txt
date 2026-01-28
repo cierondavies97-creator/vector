@@ -1,0 +1,3 @@
+The "http.cookiejar" module defines classes for automatic handling of
+HTTP cookies.  It is useful for accessing websites that require small
+pieces of data -- *cookies* -- to be set on the client machine by an

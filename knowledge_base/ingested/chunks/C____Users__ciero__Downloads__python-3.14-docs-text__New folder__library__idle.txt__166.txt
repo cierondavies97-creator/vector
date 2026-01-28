@@ -1,0 +1,5 @@
+an example also used for testing.
+idlelib --- implementation of IDLE application
+==============================================
+**Source code:** Lib/idlelib
+======================================================================

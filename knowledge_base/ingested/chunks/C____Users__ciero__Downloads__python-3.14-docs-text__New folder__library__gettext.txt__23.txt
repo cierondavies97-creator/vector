@@ -1,0 +1,4 @@
+these components:
+   "*localedir*/*language*/LC_MESSAGES/*domain*.mo"
+   The first such file name that exists is returned by "find()". If no
+   such file is found, then "None" is returned. If *all* is given, it

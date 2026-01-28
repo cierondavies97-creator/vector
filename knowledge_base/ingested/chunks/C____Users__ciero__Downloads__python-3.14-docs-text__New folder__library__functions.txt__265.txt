@@ -1,0 +1,4 @@
+*end*.  Both *sep* and *end* must be strings; they can also be
+   "None", which means to use the default values.  If no *objects* are
+   given, "print()" will just write *end*.
+   The *file* argument must be an object with a "write(string)"

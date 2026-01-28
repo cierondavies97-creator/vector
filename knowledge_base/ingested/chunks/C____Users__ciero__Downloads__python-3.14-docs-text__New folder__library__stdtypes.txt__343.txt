@@ -1,0 +1,8 @@
+>>> '0123456789'.isdecimal()
+      True
+      >>> '٠١٢٣٤٥٦٧٨٩'.isdecimal()  # Arabic-Indic digits zero to nine
+      True
+      >>> 'alphabetic'.isdecimal()
+      False
+str.isdigit()
+   Return "True" if all characters in the string are digits and there

@@ -1,0 +1,4 @@
+that could not be collected and were put in "garbage".
+   Applications can add their own callbacks to this list.  The primary
+   use cases are:
+      Gathering statistics about garbage collection, such as how often

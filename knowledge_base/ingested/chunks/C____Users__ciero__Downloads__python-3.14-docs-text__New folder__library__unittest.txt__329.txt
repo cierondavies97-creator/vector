@@ -1,0 +1,5 @@
+A list containing "TestCase" instances that were marked as
+      expected failures, but succeeded.
+   collectedDurations
+      A list containing 2-tuples of test case names and floats
+      representing the elapsed time of each test which was run.

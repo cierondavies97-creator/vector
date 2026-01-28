@@ -1,0 +1,4 @@
+dictionary is returned.
+   * If *obj* is a class "C", the function returns a dictionary that
+     merges annotations from "C"'s base classes with those on "C"
+     directly. This is done by traversing "C.__mro__" and iteratively

@@ -1,0 +1,3 @@
+|===================|==========================================================|
+| exportselection   | Boolean value. If set, the widget selection is linked to |
+|                   | the Window Manager selection (which can be returned by   |

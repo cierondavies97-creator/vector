@@ -1,0 +1,3 @@
+In addition, if *first* and *second* are the exact same type and
+      one of list, tuple, dict, set, frozenset or str or any type that
+      a subclass registers with "addTypeEqualityFunc()" the type-

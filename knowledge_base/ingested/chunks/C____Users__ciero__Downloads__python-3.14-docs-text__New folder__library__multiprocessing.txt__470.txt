@@ -1,0 +1,4 @@
+use of a shared resource created in a parent process using a global
+   resource.  However, it is better to pass the object as an argument
+   to the constructor for the child process.
+   Apart from making the code (potentially) compatible with Windows

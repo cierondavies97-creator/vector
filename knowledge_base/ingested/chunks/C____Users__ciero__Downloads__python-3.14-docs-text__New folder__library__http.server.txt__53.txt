@@ -1,0 +1,5 @@
+and time are prefixed to every message logged.
+   version_string()
+      Returns the server software's version string. This is a
+      combination of the "server_version" and "sys_version"
+      attributes.

@@ -1,0 +1,6 @@
+standard output.
+exception subprocess.SubprocessError
+   Base class for all other exceptions from this module.
+   Added in version 3.3.
+exception subprocess.TimeoutExpired
+   Subclass of "SubprocessError", raised when a timeout expires while

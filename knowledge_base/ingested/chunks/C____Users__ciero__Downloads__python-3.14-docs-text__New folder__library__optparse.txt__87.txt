@@ -1,0 +1,5 @@
+Default values
+--------------
+All of the above examples involve setting some variable (the
+"destination") when certain command-line options are seen.  What
+happens if those options are never seen?  Since we didn't supply any

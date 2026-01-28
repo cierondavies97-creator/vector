@@ -1,0 +1,4 @@
+Future object (with better performance or instrumentation).
+   Added in version 3.5.2.
+loop.create_task(coro, *, name=None, context=None, eager_start=None, **kwargs)
+   Schedule the execution of coroutine *coro*. Return a "Task" object.

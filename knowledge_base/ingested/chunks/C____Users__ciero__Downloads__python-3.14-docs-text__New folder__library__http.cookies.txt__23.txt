@@ -1,0 +1,5 @@
+Changed in version 3.5: "__eq__()" now takes "key" and "value" into
+   account.
+   Changed in version 3.7: Attributes "key", "value" and "coded_value"
+   are read-only.  Use "set()" for setting them.
+   Changed in version 3.8: Added support for the "samesite" attribute.

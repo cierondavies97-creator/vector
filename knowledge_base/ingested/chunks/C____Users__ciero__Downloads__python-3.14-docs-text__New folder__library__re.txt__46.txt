@@ -1,0 +1,3 @@
+a set such as "'-'", "']'", "'^'" and "'\\'" itself or signals a
+     special sequence which represents a single character such as
+     "\xa0" or "\n" or a character class such as "\w" or "\S" (defined

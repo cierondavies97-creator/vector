@@ -1,0 +1,3 @@
+It is recommended that coroutines use "try/finally" blocks to robustly
+perform clean-up logic. In case "asyncio.CancelledError" is explicitly
+caught, it should generally be propagated when clean-up is complete.

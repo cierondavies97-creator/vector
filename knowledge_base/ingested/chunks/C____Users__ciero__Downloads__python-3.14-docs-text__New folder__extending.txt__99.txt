@@ -1,0 +1,4 @@
+pointers (but note that *temp* will not be  "NULL" in this context).
+More info on them in section Reference Counts.
+Later, when it is time to call the function, you call the C function
+"PyObject_CallObject()".  This function has two arguments, both

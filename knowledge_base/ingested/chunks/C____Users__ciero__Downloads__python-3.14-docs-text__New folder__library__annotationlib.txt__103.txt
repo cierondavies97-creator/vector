@@ -1,0 +1,9 @@
+* "ast.DictComp"
+* "ast.GeneratorExp"
+The following are disallowed in annotation scopes and therefore not
+relevant:
+* "ast.NamedExpr" (":=")
+* "ast.Await"
+* "ast.Yield"
+* "ast.YieldFrom"
+Limitations of the "FORWARDREF" format

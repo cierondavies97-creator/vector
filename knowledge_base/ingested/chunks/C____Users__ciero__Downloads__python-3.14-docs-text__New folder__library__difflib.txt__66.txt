@@ -1,0 +1,3 @@
+SequenceMatcher objects get three data attributes: *bjunk* is the
+   set of elements of *b* for which *isjunk* is "True"; *bpopular* is
+   the set of non-junk elements considered popular by the heuristic

@@ -1,0 +1,6 @@
+this version has a slightly different API.  Its documented usage was:
+   import gettext
+   cat = gettext.Catalog(domain, localedir)
+   _ = cat.gettext
+   print(_('hello world'))
+For compatibility with this older module, the function "Catalog()" is

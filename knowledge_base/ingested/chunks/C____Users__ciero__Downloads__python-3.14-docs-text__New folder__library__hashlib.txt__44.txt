@@ -1,0 +1,4 @@
+should be about 16 or more bytes from a proper source, e.g.
+   "os.urandom()".
+   The number of *iterations* should be chosen based on the hash
+   algorithm and computing power. As of 2022, hundreds of thousands of

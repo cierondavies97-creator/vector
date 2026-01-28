@@ -1,0 +1,4 @@
+registered callback.
+   Exceptions raised by the callback will be noted on the standard
+   error output, but cannot be propagated; they are handled in exactly
+   the same way as exceptions raised from an object's "__del__()"

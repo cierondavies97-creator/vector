@@ -1,0 +1,6 @@
+The first time "-v" is seen on the command line, "optparse" does the
+  equivalent of:
+     options.verbosity = 0
+     options.verbosity += 1
+  Every subsequent occurrence of "-v" results in
+     options.verbosity += 1

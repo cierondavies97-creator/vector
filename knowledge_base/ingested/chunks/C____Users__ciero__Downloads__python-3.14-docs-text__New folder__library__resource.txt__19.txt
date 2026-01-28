@@ -1,0 +1,5 @@
+image.
+resource.RLIMIT_CPU
+   The maximum amount of processor time (in seconds) that a process
+   can use. If this limit is exceeded, a "SIGXCPU" signal is sent to
+   the process. (See the "signal" module documentation for information

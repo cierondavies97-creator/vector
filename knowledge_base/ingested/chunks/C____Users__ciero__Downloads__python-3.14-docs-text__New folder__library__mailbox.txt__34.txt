@@ -1,0 +1,5 @@
+protocol: you can use a "with" statement to automatically close
+      it.
+      Note:
+        Unlike other representations of messages, *file-like*
+        representations are not necessarily independent of the

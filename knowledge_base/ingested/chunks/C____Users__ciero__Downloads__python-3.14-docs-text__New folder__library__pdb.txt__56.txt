@@ -1,0 +1,5 @@
+overridden by the local file.
+Changed in version 3.2: ".pdbrc" can now contain commands that
+continue debugging, such as "continue" or "next".  Previously, these
+commands had no effect.
+Changed in version 3.11: ".pdbrc" is now read with "'utf-8'" encoding.

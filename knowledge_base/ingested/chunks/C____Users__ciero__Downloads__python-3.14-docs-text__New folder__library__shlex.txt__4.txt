@@ -1,0 +1,5 @@
+an exception, rather than reading "sys.stdin".
+shlex.join(split_command)
+   Concatenate the tokens of the list *split_command* and return a
+   string. This function is the inverse of "split()".
+   >>> from shlex import join

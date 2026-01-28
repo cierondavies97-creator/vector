@@ -1,0 +1,4 @@
+"exec()" function, and an optional file name.  In all cases this
+   routine executes:
+      exec(command, __main__.__dict__, __main__.__dict__)
+   and gathers profiling statistics from the execution. If no file

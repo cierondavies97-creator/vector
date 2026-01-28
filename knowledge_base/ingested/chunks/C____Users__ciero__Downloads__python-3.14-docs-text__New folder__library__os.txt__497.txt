@@ -1,0 +1,4 @@
+*dirnames* are generated before *dirpath* itself is generated.
+   By default, errors from the "scandir()" call are ignored.  If
+   optional argument *onerror* is specified, it should be a function;
+   it will be called with one argument, an "OSError" instance.  It can

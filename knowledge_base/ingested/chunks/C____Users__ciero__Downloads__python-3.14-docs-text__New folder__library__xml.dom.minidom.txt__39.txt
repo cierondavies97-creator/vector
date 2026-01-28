@@ -1,0 +1,6 @@
+def handlePoint(point):
+       print(f"<li>{getText(point.childNodes)}</li>")
+   def handleToc(slides):
+       for slide in slides:
+           title = slide.getElementsByTagName("title")[0]
+           print(f"<p>{getText(title.childNodes)}</p>")

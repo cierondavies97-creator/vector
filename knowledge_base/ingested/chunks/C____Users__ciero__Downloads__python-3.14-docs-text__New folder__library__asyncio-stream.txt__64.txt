@@ -1,0 +1,8 @@
+print("Received:", data.decode())
+       writer.close()
+       await writer.wait_closed()
+       # Close the second socket
+       wsock.close()
+   asyncio.run(wait_for_data())
+See also:
+  The register an open socket to wait for data using a protocol

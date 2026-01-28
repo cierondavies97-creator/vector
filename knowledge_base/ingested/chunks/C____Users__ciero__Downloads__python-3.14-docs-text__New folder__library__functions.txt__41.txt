@@ -1,0 +1,4 @@
+Class methods are different than C++ or Java static methods. If you
+   want those, see "staticmethod()" in this section. For more
+   information on class methods, see The standard type hierarchy.
+   Changed in version 3.9: Class methods can now wrap other

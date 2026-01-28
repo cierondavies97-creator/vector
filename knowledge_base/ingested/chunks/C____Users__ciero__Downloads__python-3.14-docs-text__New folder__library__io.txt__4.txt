@@ -1,0 +1,4 @@
+the case of a socket or pipe).
+All streams are careful about the type of data you give to them.  For
+example giving a "str" object to the "write()" method of a binary
+stream will raise a "TypeError".  So will giving a "bytes" object to

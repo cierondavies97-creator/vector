@@ -1,0 +1,7 @@
+class ctypes.c_size_t
+   Represents the C "size_t" datatype.
+class ctypes.c_ssize_t
+   Represents the C "ssize_t" datatype.
+   Added in version 3.2.
+class ctypes.c_time_t
+   Represents the C "time_t" datatype.

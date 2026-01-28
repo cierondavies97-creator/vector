@@ -1,0 +1,8 @@
+Turtle state
+------------
+Visibility
+~~~~~~~~~~
+turtle.hideturtle()
+turtle.ht()
+   Make the turtle invisible.  It's a good idea to do this while
+   you're in the middle of doing some complex drawing, because hiding

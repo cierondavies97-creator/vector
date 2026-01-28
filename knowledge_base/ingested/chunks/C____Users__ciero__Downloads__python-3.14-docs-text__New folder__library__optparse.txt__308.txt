@@ -1,0 +1,4 @@
+TYPE_CHECKER["complex"] = check_complex
+(If we didn't make a "copy()" of "Option.TYPE_CHECKER", we would end
+up modifying the "TYPE_CHECKER" attribute of "optparse"'s Option
+class.  This being Python, nothing stops you from doing that except

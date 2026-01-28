@@ -1,0 +1,7 @@
+* Methods and properties
+  * Concrete paths
+    * Parsing and generating URIs
+    * Expanding and resolving paths
+    * Querying file type and status
+    * Reading and writing files
+    * Reading directories

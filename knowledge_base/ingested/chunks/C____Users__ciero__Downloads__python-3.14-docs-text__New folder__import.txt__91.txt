@@ -1,0 +1,4 @@
+appropriately applies equally to modules initialized during
+interpreter startup. The one exception is "__main__", where "__spec__"
+is set to None in some cases.
+See "ModuleSpec" for details on the contents of the module spec.

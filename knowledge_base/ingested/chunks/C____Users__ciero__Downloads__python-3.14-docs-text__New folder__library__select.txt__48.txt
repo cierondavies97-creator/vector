@@ -1,0 +1,3 @@
+|                           | fd has an event. The default (if this flag is   |
+   |                           | not set) is to wake all epoll objects polling   |
+   |                           | on a fd.                                        |

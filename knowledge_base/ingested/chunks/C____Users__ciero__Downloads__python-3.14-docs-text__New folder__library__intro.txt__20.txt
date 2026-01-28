@@ -1,0 +1,4 @@
+otherwise interact with processes. The "subprocess" is importable
+  but does not work.
+* The "socket" module is available, but is limited and behaves
+  differently from other platforms. On Emscripten, sockets are always

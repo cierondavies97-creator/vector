@@ -1,0 +1,3 @@
+launcher, there are no obvious indications that the program is running
+on Python: icons can be customized, company and version information
+can be specified, and file associations behave properly. In most

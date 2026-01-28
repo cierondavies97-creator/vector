@@ -1,0 +1,5 @@
+ast.iter_child_nodes(node)
+   Yield all direct child nodes of *node*, that is, all fields that
+   are nodes and all items of fields that are lists of nodes.
+ast.walk(node)
+   Recursively yield all descendant nodes in the tree starting at

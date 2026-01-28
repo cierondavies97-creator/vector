@@ -1,0 +1,4 @@
+map created with *trackfd* set to "False", will raise a
+      "ValueError" exception.
+      **On Windows**: Resizing the map will raise an "OSError" if
+      there are other maps against the same named file. Resizing an

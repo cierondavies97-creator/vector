@@ -1,0 +1,4 @@
+output line.
+      * **sort_dicts** (*bool*) -- If "True", dictionaries will be
+        formatted with their keys sorted, otherwise they will be
+        displayed in insertion order (the default).

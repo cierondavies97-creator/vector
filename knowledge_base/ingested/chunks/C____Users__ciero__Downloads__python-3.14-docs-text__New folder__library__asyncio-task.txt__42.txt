@@ -1,0 +1,4 @@
+yet entered, already finished, or in the process of shutting
+      down), we will close the given "coro".
+      Changed in version 3.13: Close the given coroutine if the task
+      group is not active.

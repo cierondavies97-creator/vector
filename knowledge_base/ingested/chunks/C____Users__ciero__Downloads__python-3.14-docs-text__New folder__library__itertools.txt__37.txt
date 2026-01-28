@@ -1,0 +1,4 @@
+two arguments, an accumulated total and a value from the
+   *iterable*.
+   If an *initial* value is provided, the accumulation will start with
+   that value and the output will have one more element than the input

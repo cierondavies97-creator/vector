@@ -1,0 +1,5 @@
+Immutable Sequence Types
+------------------------
+The only operation that immutable sequence types generally implement
+that is not also implemented by mutable sequence types is support for
+the "hash()" built-in.

@@ -1,0 +1,5 @@
+"The Next Generation Python Environment and Package Manager".
+   Previously Enthought provided Canopy, but it reached end of life in
+   2016.
+WinPython
+   Windows-specific distribution with prebuilt scientific packages and

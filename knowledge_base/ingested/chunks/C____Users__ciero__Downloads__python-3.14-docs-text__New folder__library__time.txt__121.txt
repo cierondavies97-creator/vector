@@ -1,0 +1,3 @@
+time format (i.e. year, month, day, hour, etc...) in UTC by passing
+   it to "gmtime()" function or in local time by passing it to the
+   "localtime()" function. In both cases a "struct_time" object is

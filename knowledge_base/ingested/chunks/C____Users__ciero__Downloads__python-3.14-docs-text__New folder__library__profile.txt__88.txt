@@ -1,0 +1,4 @@
+caller to show how many times this specific call was made.
+        For convenience, a second non-parenthesized number repeats the
+        cumulative time spent in the function at the right.
+      * With "cProfile", each caller is preceded by three numbers: the

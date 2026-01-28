@@ -1,0 +1,5 @@
+get_data(pathname)
+      Return the data associated with *pathname*. Raise "OSError" if
+      the file wasn't found.
+      Changed in version 3.3: "IOError" used to be raised, it is now
+      an alias of "OSError".

@@ -1,0 +1,5 @@
+then it is best for it to retain the same value from one
+      "fetchmany()" call to the next.
+      Changed in version 3.14.1: Negative *size* values are rejected
+      by raising "ValueError".
+   fetchall()

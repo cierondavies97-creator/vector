@@ -1,0 +1,4 @@
+"DEFAULT_PROTOCOL".  If a negative number is specified,
+   "HIGHEST_PROTOCOL" is selected.
+   The *file* argument must have a write() method that accepts a
+   single bytes argument.  It can thus be an on-disk file opened for

@@ -1,0 +1,6 @@
+better to modify "os.environ".
+   Note:
+     On some platforms, including FreeBSD and macOS, setting "environ"
+     may cause memory leaks.  Refer to the system documentation for
+     "putenv()".
+   You can delete items in this mapping to unset environment

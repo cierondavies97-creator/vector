@@ -1,0 +1,4 @@
+extension module is designed to match the API of ncurses, an open-
+source curses library hosted on Linux and the BSD variants of Unix.
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly

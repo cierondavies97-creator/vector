@@ -1,0 +1,7 @@
+"'SC_IOV_MAX'") on the number of buffers that can be used.
+   Availability: Unix.
+   Added in version 3.3.
+Querying the size of a terminal
+-------------------------------
+Added in version 3.3.
+os.get_terminal_size(fd=STDOUT_FILENO, /)

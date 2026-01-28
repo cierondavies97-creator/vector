@@ -1,0 +1,4 @@
+suggested remediation is to cast the result to the desired type:
+   "OrderedDict(nt._asdict())".
+somenamedtuple._replace(**kwargs)
+   Return a new instance of the named tuple replacing specified fields

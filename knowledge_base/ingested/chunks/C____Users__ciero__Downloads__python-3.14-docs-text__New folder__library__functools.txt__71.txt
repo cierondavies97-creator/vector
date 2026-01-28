@@ -1,0 +1,4 @@
+function when used as a method: the *self* argument will be
+   inserted as the first positional argument, even before the *args*
+   and *keywords* supplied to the "partialmethod" constructor.
+   Example:

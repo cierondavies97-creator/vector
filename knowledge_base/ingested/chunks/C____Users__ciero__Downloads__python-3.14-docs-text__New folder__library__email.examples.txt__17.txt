@@ -1,0 +1,4 @@
+files in the directory are sent, and we don't recurse to
+                           subdirectories.""")
+       parser.add_argument('-o', '--output',
+                           metavar='FILE',

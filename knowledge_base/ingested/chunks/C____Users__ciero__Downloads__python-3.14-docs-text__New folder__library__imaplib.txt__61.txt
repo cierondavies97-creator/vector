@@ -1,0 +1,5 @@
+Send "NOOP" to server.
+IMAP4.open(host, port, timeout=None)
+   Opens socket to *port* at *host*. The optional *timeout* parameter
+   specifies a timeout in seconds for the connection attempt. If
+   timeout is not given or is "None", the global default socket

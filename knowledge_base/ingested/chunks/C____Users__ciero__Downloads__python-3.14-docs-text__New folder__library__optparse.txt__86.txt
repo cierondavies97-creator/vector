@@ -1,0 +1,8 @@
+""append""
+   append this option's argument to a list
+""count""
+   increment a counter by one
+""callback""
+   call a specified function
+These are covered in section Reference Guide, and section Option
+Callbacks.

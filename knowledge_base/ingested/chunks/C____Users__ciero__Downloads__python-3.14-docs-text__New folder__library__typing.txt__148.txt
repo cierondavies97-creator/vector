@@ -1,0 +1,5 @@
+Union[int, str] == Union[str, int]
+   * You cannot subclass or instantiate a "Union".
+   * You cannot write "Union[X][Y]".
+   Changed in version 3.7: Don't remove explicit subclasses from
+   unions at runtime.

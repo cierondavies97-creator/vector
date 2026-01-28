@@ -1,0 +1,3 @@
+resulting string.  However, if Python would recognize the resulting
+   sequence, the backslash should be repeated twice.  This is
+   complicated and hard to understand, so it's highly recommended that

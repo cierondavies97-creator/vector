@@ -1,0 +1,3 @@
+Set default values for several option destinations at once.  Using
+   "set_defaults()" is the preferred way to set default values for
+   options, since multiple options can share the same destination.

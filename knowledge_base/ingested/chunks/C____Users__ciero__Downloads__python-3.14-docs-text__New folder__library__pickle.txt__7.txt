@@ -1,0 +1,5 @@
+Python objects.  "marshal" exists primarily to support Python's ".pyc"
+files.
+The "pickle" module differs from "marshal" in several significant
+ways:
+* The "pickle" module keeps track of the objects it has already

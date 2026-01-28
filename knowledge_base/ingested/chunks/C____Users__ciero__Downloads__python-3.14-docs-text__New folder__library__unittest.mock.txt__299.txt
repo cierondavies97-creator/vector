@@ -1,0 +1,4 @@
+* Descriptor methods: "__get__", "__set__" and "__delete__"
+* Pickling: "__reduce__", "__reduce_ex__", "__getinitargs__",
+  "__getnewargs__", "__getstate__" and "__setstate__"
+* File system path representation: "__fspath__"

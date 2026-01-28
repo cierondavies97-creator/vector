@@ -1,0 +1,4 @@
+As your collection of doctest'ed modules grows, you'll want a way to
+run all their doctests systematically.  "doctest" provides two
+functions that can be used to create "unittest" test suites from
+modules and text files containing doctests.  To integrate with

@@ -1,0 +1,4 @@
+Similar to the "guess_all_extensions()" function, using the
+      tables stored as part of the object.
+   read(filename, strict=True)
+      Load MIME information from a file named *filename*.  This uses

@@ -1,0 +1,6 @@
+"rsplit()" behaves like "split()" which is described in detail
+   below.
+bytes.rstrip(bytes=None, /)
+bytearray.rstrip(bytes=None, /)
+   Return a copy of the sequence with specified trailing bytes
+   removed.  The *bytes* argument is a binary sequence specifying the

@@ -1,0 +1,3 @@
+[2] The importlib implementation avoids using the return value
+    directly. Instead, it gets the module object by looking the module
+    name up in "sys.modules".  The indirect effect of this is that an

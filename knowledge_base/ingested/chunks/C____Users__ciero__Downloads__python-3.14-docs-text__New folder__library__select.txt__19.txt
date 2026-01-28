@@ -1,0 +1,4 @@
+for what your system considers such a condition)
+   Empty iterables are allowed, but acceptance of three empty
+   iterables is platform-dependent. (It is known to work on Unix but
+   not on Windows.)  The optional *timeout* argument specifies a time-

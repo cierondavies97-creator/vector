@@ -1,0 +1,4 @@
+the "io.BufferedIOBase" interface.  Thus *file* can be an on-disk
+   file opened for binary reading, an "io.BytesIO" object, or any
+   other custom object that meets this interface.
+   The optional arguments *fix_imports*, *encoding* and *errors* are

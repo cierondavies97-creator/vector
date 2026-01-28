@@ -1,0 +1,3 @@
+"'\n'" before being returned to the caller.  If *newline* is
+     "''", universal newlines mode is enabled, but line endings are
+     returned to the caller untranslated.  If *newline* has any of the

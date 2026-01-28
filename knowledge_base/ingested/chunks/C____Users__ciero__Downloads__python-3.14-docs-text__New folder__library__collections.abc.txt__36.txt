@@ -1,0 +1,2 @@
+| "Mapping"                      | "Collection"           | "__getitem__",          | "__contains__", "keys", "items", "values", "get",    |
+|                                |                        | "__iter__", "__len__"   | "__eq__", and "__ne__"                               |

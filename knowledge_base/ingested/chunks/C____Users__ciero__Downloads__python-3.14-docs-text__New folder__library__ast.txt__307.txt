@@ -1,0 +1,6 @@
+arg(arg='e'),
+                          arg(arg='f')],
+                      kw_defaults=[
+                          None,
+                          Constant(value=3)],
+                      kwarg=arg(arg='g'),

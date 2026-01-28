@@ -1,0 +1,4 @@
+File "/opt/python/Lib/ctypes/__init__.py", line 486 in string_at
+     File "<stdin>", line 1 in <module>
+   Current thread's C stack trace (most recent call first):
+     Binary file "/opt/python/python", at _Py_DumpStack+0x42 [0x5b27f7d7147e]

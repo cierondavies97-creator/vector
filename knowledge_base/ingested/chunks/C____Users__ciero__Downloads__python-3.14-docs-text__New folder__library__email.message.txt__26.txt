@@ -1,0 +1,4 @@
+is_multipart()
+      Return "True" if the message's payload is a list of
+      sub-"EmailMessage" objects, otherwise return "False".  When
+      "is_multipart()" returns "False", the payload should be a string

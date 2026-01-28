@@ -1,0 +1,4 @@
+part before the comma is handled by a strptime format string
+      ("'%Y-%m-%d %H:%M:%S'"), and the part after the comma is a
+      millisecond value. Because strptime does not have a format
+      placeholder for milliseconds, the millisecond value is appended

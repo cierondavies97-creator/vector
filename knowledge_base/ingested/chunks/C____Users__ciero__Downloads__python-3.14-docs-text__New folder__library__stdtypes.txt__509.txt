@@ -1,0 +1,4 @@
+This "bytearray" class method returns bytearray object, decoding
+      the given string object.  The string must contain two
+      hexadecimal digits per byte, with ASCII whitespace being
+      ignored.

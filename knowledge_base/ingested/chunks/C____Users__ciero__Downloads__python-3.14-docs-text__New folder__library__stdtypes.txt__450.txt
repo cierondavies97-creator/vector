@@ -1,0 +1,4 @@
+Python has 2 quote types.
+If *format* requires a single argument, *values* may be a single non-
+tuple object. [5]  Otherwise, *values* must be a tuple with exactly
+the number of items specified by the format string, or a single

@@ -1,0 +1,4 @@
+shlex.split(s, comments=False, posix=True)
+   Split the string *s* using shell-like syntax. If *comments* is
+   "False" (the default), the parsing of comments in the given string
+   will be disabled (setting the "commenters" attribute of the "shlex"

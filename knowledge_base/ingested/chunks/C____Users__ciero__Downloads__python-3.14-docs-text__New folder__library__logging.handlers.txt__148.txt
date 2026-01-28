@@ -1,0 +1,3 @@
+tuple, or a single-value tuple with the name of a keyfile, or a
+   2-value tuple with the names of the keyfile and certificate file.
+   (This tuple is passed to the "smtplib.SMTP.starttls()" method.)

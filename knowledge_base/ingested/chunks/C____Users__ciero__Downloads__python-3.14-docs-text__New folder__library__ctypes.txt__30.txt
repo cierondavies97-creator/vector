@@ -1,0 +1,4 @@
+debugging crashes (e.g. from segmentation faults produced by erroneous
+C library calls).
+"None", integers, bytes objects and (unicode) strings are the only
+native Python objects that can directly be used as parameters in these

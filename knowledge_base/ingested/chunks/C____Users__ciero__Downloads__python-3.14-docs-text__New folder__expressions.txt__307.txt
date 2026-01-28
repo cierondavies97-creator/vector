@@ -1,0 +1,4 @@
+precision number, in order that "-1e-100 % 1e100" have the same
+    sign as "1e100", the computed result is "-1e-100 + 1e100", which
+    is numerically exactly equal to "1e100".  The function
+    "math.fmod()" returns a result whose sign matches the sign of the

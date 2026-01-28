@@ -1,0 +1,6 @@
+item.
+The Treeview widget supports horizontal and vertical scrolling,
+according to the options described in Scrollable Widget Options and
+the methods "Treeview.xview()" and "Treeview.yview()".
+Options
+-------

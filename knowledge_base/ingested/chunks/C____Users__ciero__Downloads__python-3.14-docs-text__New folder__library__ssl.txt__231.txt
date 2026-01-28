@@ -1,0 +1,6 @@
+priority. See "SSLContext.set_ciphers()".
+   Example:
+      >>> ctx = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
+      >>> ctx.set_ciphers('ECDHE+AESGCM:!ECDSA')
+      >>> ctx.get_ciphers()
+      [{'aead': True,

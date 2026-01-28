@@ -1,0 +1,6 @@
+python -m venv --system-site-packages ~/venv
+▶ update the search-paths to include folders in ~/venv
+. venv/bin/activate
+▶ run your code or install libraries with pip
+▶ undo changes to search-paths
+deactivate

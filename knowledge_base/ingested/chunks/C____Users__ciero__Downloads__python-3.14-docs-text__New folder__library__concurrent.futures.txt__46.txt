@@ -1,0 +1,4 @@
+"sys.stdout" in one interpreter, it will not be automatically
+redirected to any other interpreter.  If you import a module in one
+interpreter, it is not automatically imported in any other.  You would
+need to import the module separately in interpreter where you need it.

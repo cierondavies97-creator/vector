@@ -1,0 +1,3 @@
+which is equivalent to the name of a file within the archive, and
+   "mode", which is "'rb'" or "'wb'" depending on the input mode.
+   When writing a file, if the file size is not known in advance but

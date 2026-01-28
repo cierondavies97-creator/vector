@@ -1,0 +1,4 @@
+from the kernel to user space and then back into the kernel.
+   Additionally, some filesystems could implement extra optimizations.
+   The copy is done as if both files are opened as binary.
+   Upon successful completion, returns the number of bytes spliced to

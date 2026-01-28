@@ -1,0 +1,5 @@
+the client's proposed protocols, or if the handshake has not
+   happened yet, "None" is returned.
+   Added in version 3.5.
+SSLSocket.selected_npn_protocol()
+   Return the higher-level protocol that was selected during the

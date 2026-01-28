@@ -1,0 +1,7 @@
+them:
+     >>> def f(x):
+     ...     r'''Backslashes in a raw docstring: m\n'''
+     ...
+     >>> print(f.__doc__)
+     Backslashes in a raw docstring: m\n
+  Otherwise, the backslash will be interpreted as part of the string.

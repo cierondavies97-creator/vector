@@ -1,0 +1,5 @@
+will usually be "str" or "bytes", but can be any type that can be
+   written to the stream.
+   Added in version 3.14.
+   write(data, /)
+      Write *data* to the output stream and return the number of items

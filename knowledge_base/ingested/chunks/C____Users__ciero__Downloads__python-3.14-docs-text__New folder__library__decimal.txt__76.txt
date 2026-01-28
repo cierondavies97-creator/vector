@@ -1,0 +1,4 @@
+encoding of a "Decimal" instance is always canonical, so this
+      operation returns its argument unchanged.
+   compare(other, context=None)
+      Compare the values of two Decimal instances.  "compare()"

@@ -1,0 +1,3 @@
+annotation for "arg" was instead "int | str | float", the type
+   checker would emit an error pointing out that "unreachable" is of
+   type "float". For a call to "assert_never" to pass type checking,

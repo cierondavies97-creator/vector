@@ -1,0 +1,6 @@
+returned by "parse_args()".
+   * deprecated - Whether or not use of the argument is deprecated.
+The following sections describe how each of these are used.
+name or flags
+-------------
+The "add_argument()" method must know whether an optional argument,

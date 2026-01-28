@@ -1,0 +1,5 @@
+Added in version 3.2.
+   Deprecated since version 3.5: Use "Signature.bind()" and
+   "Signature.bind_partial()" instead.
+inspect.getclosurevars(func)
+   Get the mapping of external name references in a Python function or

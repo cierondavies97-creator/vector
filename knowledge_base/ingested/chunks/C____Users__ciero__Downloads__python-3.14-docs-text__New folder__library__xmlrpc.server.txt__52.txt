@@ -1,0 +1,8 @@
+of stdin will be used.
+Example:
+   class MyFuncs:
+       def mul(self, x, y):
+           return x * y
+   handler = CGIXMLRPCRequestHandler()
+   handler.register_function(pow)
+   handler.register_function(lambda x,y: x+y, 'add')

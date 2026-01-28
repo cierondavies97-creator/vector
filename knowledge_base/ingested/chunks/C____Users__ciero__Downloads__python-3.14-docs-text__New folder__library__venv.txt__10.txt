@@ -1,0 +1,3 @@
+also creates a "bin" (or "Scripts" on Windows) subdirectory containing
+a copy or symlink of the Python executable (as appropriate for the
+platform or arguments used at environment creation time). It also

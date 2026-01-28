@@ -1,0 +1,7 @@
+os.geteuid()
+   Return the current process's effective user id.
+   Availability: Unix, not WASI.
+os.getgid()
+   Return the real group id of the current process.
+   Availability: Unix.
+   The function is a stub on WASI, see WebAssembly platforms for more

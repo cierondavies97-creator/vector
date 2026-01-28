@@ -1,0 +1,4 @@
+(sections PS1:7 and PS1:8).  The platform-specific reference
+  material for the various socket-related system calls are also a
+  valuable source of information on the details of socket semantics.
+  For Unix, refer to the manual pages; for Windows, see the WinSock

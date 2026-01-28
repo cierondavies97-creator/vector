@@ -1,0 +1,5 @@
+function*.
+   Changed in version 3.12: Sync functions marked with
+   "markcoroutinefunction()" now return "True".
+   Changed in version 3.13: Functions wrapped in
+   "functools.partialmethod()" now return "True" if the wrapped

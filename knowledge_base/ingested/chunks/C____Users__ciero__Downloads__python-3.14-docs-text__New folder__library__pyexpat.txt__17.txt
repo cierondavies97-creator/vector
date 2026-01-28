@@ -1,0 +1,3 @@
+Parses the contents of the string *data*, calling the appropriate
+   handler functions to process the parsed data.  *isfinal* must be
+   true on the final call to this method; it allows the parsing of a

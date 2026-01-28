@@ -1,0 +1,4 @@
+words the directory containing the symlink is **not** added to the
+  module search path.
+After initialization, Python programs can modify "sys.path".  The
+directory containing the script being run is placed at the beginning

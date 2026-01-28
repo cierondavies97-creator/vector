@@ -1,0 +1,7 @@
+datetime.UTC
+   Alias for the UTC time zone singleton "datetime.timezone.utc".
+   Added in version 3.11.
+Available Types
+===============
+class datetime.date
+   An idealized naive date, assuming the current Gregorian calendar

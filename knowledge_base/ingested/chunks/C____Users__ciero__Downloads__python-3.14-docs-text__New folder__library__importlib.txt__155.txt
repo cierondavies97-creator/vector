@@ -1,0 +1,4 @@
+class importlib.machinery.ExtensionFileLoader(fullname, path)
+   A concrete implementation of "importlib.abc.ExecutionLoader" for
+   extension modules.
+   The *fullname* argument specifies the name of the module the loader

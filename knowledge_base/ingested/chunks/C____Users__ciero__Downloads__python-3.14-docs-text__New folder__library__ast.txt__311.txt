@@ -1,0 +1,4 @@
+A "yield" or "yield from" expression. Because these are
+   expressions, they must be wrapped in an "Expr" node if the value
+   sent back is not used.
+      >>> print(ast.dump(ast.parse('yield x'), indent=4))

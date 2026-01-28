@@ -1,0 +1,8 @@
+"return_value" can also be set in the constructor:
+      >>> mock = Mock(return_value=3)
+      >>> mock.return_value
+      3
+      >>> mock()
+      3
+   side_effect
+      This can either be a function to be called when the mock is

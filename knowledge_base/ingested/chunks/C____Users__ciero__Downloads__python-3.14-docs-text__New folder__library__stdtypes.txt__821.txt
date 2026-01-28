@@ -1,0 +1,10 @@
+>>> keys = dishes.keys()
+   >>> values = dishes.values()
+   >>> # iteration
+   >>> n = 0
+   >>> for val in values:
+   ...     n += val
+   ...
+   >>> print(n)
+   504
+   >>> # keys and values are iterated over in the same order (insertion order)

@@ -1,0 +1,4 @@
+use in its output; "non-printable" means that "repr()" on built-in
+   types will hex-escape the character.  It has no bearing on the
+   handling of strings written to "sys.stdout" or "sys.stderr".
+   The printable characters are those which in the Unicode character

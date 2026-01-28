@@ -1,0 +1,4 @@
+"str()" is called on it to convert it to a string. This allows
+      use of user-defined classes as messages, whose "__str__" method
+      can return the actual format string to be used.
+   Changed in version 3.2: The creation of a "LogRecord" has been made

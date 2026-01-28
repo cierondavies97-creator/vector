@@ -1,0 +1,5 @@
+Windows.
+   Changed in version 3.8: On Windows, the "st_mode" member now
+   identifies special files as "S_IFCHR", "S_IFIFO" or "S_IFBLK" as
+   appropriate.
+   Changed in version 3.12: On Windows, "st_ctime" is deprecated.

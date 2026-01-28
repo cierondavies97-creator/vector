@@ -1,0 +1,5 @@
+and *append* parameters.
+Concurrent safety of Context Managers
+=====================================
+The behavior of "catch_warnings" context manager depends on the
+"sys.flags.context_aware_warnings" flag.  If the flag is true, the

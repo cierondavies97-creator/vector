@@ -1,0 +1,5 @@
+close()
+      Finalize and destroy the interpreter.
+   prepare_main(ns=None, **kwargs)
+      Bind objects in the interpreter's "__main__" module.
+      Some objects are actually shared and some are copied

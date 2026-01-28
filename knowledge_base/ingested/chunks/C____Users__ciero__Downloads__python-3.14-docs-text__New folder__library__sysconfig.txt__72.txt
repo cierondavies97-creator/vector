@@ -1,0 +1,4 @@
+If *scheme* is provided, it must be a value from the list returned
+   by "get_scheme_names()".  Otherwise, the default scheme for the
+   current platform is used.
+   If *vars* is provided, it must be a dictionary of variables that

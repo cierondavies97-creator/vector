@@ -1,0 +1,5 @@
+MimeTypes objects
+=================
+The "MimeTypes" class may be useful for applications which may want
+more than one MIME-type database; it provides an interface similar to
+the one of the "mimetypes" module.

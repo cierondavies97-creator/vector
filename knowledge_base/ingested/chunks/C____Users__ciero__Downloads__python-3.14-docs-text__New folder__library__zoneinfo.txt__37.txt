@@ -1,0 +1,6 @@
+"Asia/Tokyo").
+   For zones constructed from file without specifying a "key"
+   parameter, this will be set to "None".
+   Note:
+     Although it is a somewhat common practice to expose these to end
+     users, these values are designed to be primary keys for

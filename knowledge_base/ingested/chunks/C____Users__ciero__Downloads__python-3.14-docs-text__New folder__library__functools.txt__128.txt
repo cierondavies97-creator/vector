@@ -1,0 +1,2 @@
+differences.  For instance, the "__name__" and "__doc__" attributes
+are not created automatically.

@@ -1,0 +1,5 @@
+component; a better way to get the hostname is
+   "socket.gethostname()"  or even
+   "socket.gethostbyaddr(socket.gethostname())".
+   On macOS, iOS and Android, this returns the *kernel* name and
+   version (i.e., "'Darwin'" on macOS and iOS; "'Linux'" on Android).

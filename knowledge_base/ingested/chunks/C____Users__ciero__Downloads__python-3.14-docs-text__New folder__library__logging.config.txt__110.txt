@@ -1,0 +1,4 @@
+which are not known to the "logging" module.  For example, consider
+"logging.handlers.MemoryHandler", which takes a "target" argument
+which is another handler to delegate to. Since the system already
+knows about this class, then in the configuration, the given "target"

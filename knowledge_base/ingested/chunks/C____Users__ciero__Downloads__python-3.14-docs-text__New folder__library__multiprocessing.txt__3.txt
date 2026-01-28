@@ -1,0 +1,4 @@
+programmer to fully leverage multiple processors on a given machine.
+It runs on both POSIX and Windows.
+The "multiprocessing" module also introduces the "Pool" object which
+offers a convenient means of parallelizing the execution of a function

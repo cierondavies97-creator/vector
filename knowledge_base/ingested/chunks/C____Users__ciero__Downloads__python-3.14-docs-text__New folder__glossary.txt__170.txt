@@ -1,0 +1,4 @@
+loader
+   An object that loads a module. It must define the "exec_module()"
+   and "create_module()" methods to implement the "Loader" interface.
+   A loader is typically returned by a *finder*. See also:

@@ -1,0 +1,8 @@
+[handler_hand04]
+   class=handlers.DatagramHandler
+   level=WARN
+   formatter=form04
+   args=('localhost', handlers.DEFAULT_UDP_LOGGING_PORT)
+   [handler_hand05]
+   class=handlers.SysLogHandler
+   level=ERROR

@@ -1,0 +1,8 @@
+* Instant User's Manual
+  * "profile" and "cProfile" Module Reference
+  * The "Stats" Class
+  * What Is Deterministic Profiling?
+  * Limitations
+  * Calibration
+  * Using a custom timer
+* "timeit" --- Measure execution time of small code snippets

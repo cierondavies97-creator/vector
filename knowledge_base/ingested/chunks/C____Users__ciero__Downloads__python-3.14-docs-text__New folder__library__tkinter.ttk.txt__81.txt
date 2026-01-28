@@ -1,0 +1,3 @@
+|                        | set by the increment/decrement buttons.  It must be in |
+|                        | the form "%W.Pf", where W is the padded width of the   |
+|                        | value, P is the precision, and '%' and 'f' are         |

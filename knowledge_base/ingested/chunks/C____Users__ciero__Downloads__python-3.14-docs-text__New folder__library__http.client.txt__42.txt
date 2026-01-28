@@ -1,0 +1,5 @@
+the caller must either specify the Content-Length, or must pass a
+     "str" or bytes-like object that is not also a file as the body
+     representation.
+   Note:
+     Note that you must have read the whole response or call "close()"

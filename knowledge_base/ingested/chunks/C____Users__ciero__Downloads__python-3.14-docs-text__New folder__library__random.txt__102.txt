@@ -1,0 +1,5 @@
+exponent comes from a geometric distribution where exponents smaller
+than *-53* occur half as often as the next larger exponent.
+   from random import Random
+   from math import ldexp
+   class FullRandom(Random):

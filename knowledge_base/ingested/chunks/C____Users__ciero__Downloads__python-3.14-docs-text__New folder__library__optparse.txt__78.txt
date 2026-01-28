@@ -1,0 +1,5 @@
+"store".
+Let's parse another fake command-line.  This time, we'll jam the
+option argument right up against the option: since "-n42" (one
+argument) is equivalent to "-n 42" (two arguments), the code
+   (options, args) = parser.parse_args(["-n42"])

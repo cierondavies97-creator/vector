@@ -1,0 +1,3 @@
+apply only to the example they appear in, enabling options (via "+" in
+a directive) is usually the only meaningful choice.  However, option
+flags can also be passed to functions that run doctests, establishing

@@ -1,0 +1,4 @@
+exception classes.  The "Node" class provided by this module does not
+implement any of the methods or attributes defined by the DOM
+specification; concrete DOM implementations must provide those.  The
+"Node" class provided as part of this module does provide the

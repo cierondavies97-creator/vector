@@ -1,0 +1,4 @@
+return datetime.datetime.fromtimestamp(int(val))
+   sqlite3.register_converter("date", convert_date)
+   sqlite3.register_converter("datetime", convert_datetime)
+   sqlite3.register_converter("timestamp", convert_timestamp)

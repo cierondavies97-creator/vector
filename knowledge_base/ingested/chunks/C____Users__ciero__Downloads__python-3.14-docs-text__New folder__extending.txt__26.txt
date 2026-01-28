@@ -1,0 +1,4 @@
+exceptions.
+The most common one is "PyErr_SetString()".  Its arguments are an
+exception object and a C string.  The exception object is usually a
+predefined object like "PyExc_ZeroDivisionError".  The C string

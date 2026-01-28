@@ -1,0 +1,3 @@
+Numeric characters include digit characters, and all characters
+   that have the Unicode numeric value property, e.g. U+2155, VULGAR
+   FRACTION ONE FIFTH.  Formally, numeric characters are those with

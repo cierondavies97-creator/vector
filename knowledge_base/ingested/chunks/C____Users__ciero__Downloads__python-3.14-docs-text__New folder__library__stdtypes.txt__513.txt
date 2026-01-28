@@ -1,0 +1,5 @@
+"bytearray.hex()" now supports optional *sep* and
+      *bytes_per_sep* parameters to insert separators between bytes in
+      the hex output.
+   resize(size, /)
+      Resize the "bytearray" to contain *size* bytes. *size* must be

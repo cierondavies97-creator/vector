@@ -1,0 +1,5 @@
+Randomized hashing
+~~~~~~~~~~~~~~~~~~
+By setting *salt* parameter users can introduce randomization to the
+hash function. Randomized hashing is useful for protecting against
+collision attacks on the hash function used in digital signatures.

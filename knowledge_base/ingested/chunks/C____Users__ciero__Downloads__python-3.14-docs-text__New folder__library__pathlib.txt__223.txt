@@ -1,0 +1,5 @@
+-------------------------
+Path.owner(*, follow_symlinks=True)
+   Return the name of the user owning the file. "KeyError" is raised
+   if the file's user identifier (UID) isn't found in the system
+   database.

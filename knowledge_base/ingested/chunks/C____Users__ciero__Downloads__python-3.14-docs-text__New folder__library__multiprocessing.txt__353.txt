@@ -1,0 +1,5 @@
+will evaluate the expression
+         getattr(obj, methodname)(*args, **kwds)
+      in the manager's process.
+      The returned value will be a copy of the result of the call or a
+      proxy to a new shared object -- see documentation for the

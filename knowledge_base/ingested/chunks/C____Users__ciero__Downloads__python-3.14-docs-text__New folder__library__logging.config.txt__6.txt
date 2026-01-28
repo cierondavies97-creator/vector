@@ -1,0 +1,4 @@
+corresponding to an actual logging level.
+   * A "propagate" value which is not a boolean.
+   * An id which does not have a corresponding destination.
+   * A non-existent handler id found during an incremental call.

@@ -1,0 +1,5 @@
+trailer.
+   * +24 to +31 = 16 + (8 to 15): Uses the low 4 bits of the value as
+     the window size logarithm.  The input must include a gzip header
+     and trailer.
+   * +40 to +47 = 32 + (8 to 15): Uses the low 4 bits of the value as

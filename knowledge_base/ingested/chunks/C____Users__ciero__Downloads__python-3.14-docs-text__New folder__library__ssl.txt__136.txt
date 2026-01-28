@@ -1,0 +1,6 @@
+* "getpeername()", "getsockname()"
+   * "getsockopt()", "setsockopt()"
+   * "gettimeout()", "settimeout()", "setblocking()"
+   * "listen()"
+   * "makefile()"
+   * "recv()", "recv_into()" (but passing a non-zero "flags" argument

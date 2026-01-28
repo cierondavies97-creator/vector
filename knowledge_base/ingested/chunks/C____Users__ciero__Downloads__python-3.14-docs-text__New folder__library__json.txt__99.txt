@@ -1,0 +1,4 @@
+output. The RFC permits, but does not require, JSON deserializers to
+ignore an initial BOM in their input.  This module's deserializer
+raises a "ValueError" when an initial BOM is present.
+The RFC does not explicitly forbid JSON strings which contain byte

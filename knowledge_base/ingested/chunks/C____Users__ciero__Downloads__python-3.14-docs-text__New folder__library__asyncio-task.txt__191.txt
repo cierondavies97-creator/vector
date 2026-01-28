@@ -1,0 +1,6 @@
+the "repr()" output of a task object.
+      Added in version 3.8.
+   cancel(msg=None)
+      Request the Task to be cancelled.
+      If the Task is already *done* or *cancelled*, return "False",
+      otherwise, return "True".

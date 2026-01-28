@@ -1,0 +1,4 @@
+the same object or a different object with the same value.
+6.2.2.1. String literal concatenation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Multiple adjacent string or bytes literals (delimited by whitespace),

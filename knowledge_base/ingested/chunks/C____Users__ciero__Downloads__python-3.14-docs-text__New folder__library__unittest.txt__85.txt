@@ -1,0 +1,4 @@
+self.assertEqual(1, 0, "broken")
+It's easy to roll your own skipping decorators by making a decorator
+that calls "skip()" on the test when it wants it to be skipped.  This
+decorator skips the test unless the passed object has a certain

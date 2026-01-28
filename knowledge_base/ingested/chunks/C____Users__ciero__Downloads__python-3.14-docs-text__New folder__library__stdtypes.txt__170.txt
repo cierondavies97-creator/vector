@@ -1,0 +1,5 @@
+values will result in "TypeError".
+Mutable Sequence Types
+----------------------
+The operations in the following table are defined on mutable sequence
+types. The "collections.abc.MutableSequence" ABC is provided to make

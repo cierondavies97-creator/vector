@@ -1,0 +1,5 @@
+The "tp_getattr" handler is called when the object requires an
+attribute look-up.  It is called in the same situations where the
+"__getattr__()" method of a class would be called.
+Here is an example:
+   static PyObject *

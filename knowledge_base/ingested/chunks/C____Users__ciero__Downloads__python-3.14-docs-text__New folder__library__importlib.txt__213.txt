@@ -1,0 +1,3 @@
+A factory function for creating a "ModuleSpec" instance based on
+   the path to a file.  Missing information will be filled in on the
+   spec by making use of loader APIs and by the implication that the

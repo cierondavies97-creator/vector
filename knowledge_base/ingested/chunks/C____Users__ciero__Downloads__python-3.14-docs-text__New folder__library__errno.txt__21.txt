@@ -1,0 +1,10 @@
+errno.ERESTART
+   Interrupted system call should be restarted
+errno.ESTRPIPE
+   Streams pipe error
+errno.EUSERS
+   Too many users
+errno.ENOTSOCK
+   Socket operation on non-socket
+errno.EDESTADDRREQ
+   Destination address required

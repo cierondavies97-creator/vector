@@ -1,0 +1,4 @@
+socket options that you can change.
+  "self.setsockopt(IPPROTO_UDPLITE, UDPLITE_SEND_CSCOV, length)" will
+  change what portion of outgoing packets are covered by the checksum
+  and "self.setsockopt(IPPROTO_UDPLITE, UDPLITE_RECV_CSCOV, length)"

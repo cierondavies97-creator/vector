@@ -1,0 +1,4 @@
+to *cwd* before executing the child.  *cwd* can be a string, bytes
+   or *path-like* object.  On POSIX, the function looks for
+   *executable* (or for the first item in *args*) relative to *cwd* if
+   the executable path is a relative path.

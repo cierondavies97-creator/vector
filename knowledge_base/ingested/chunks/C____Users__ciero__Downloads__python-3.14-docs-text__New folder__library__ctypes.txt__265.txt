@@ -1,0 +1,5 @@
+data type as "restype" and assign a callable to the "errcheck"
+      attribute.
+   argtypes
+      Assign a tuple of ctypes types to specify the argument types
+      that the function accepts.  Functions using the "stdcall"

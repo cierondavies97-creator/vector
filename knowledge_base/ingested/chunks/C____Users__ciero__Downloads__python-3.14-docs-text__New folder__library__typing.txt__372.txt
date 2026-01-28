@@ -1,0 +1,6 @@
+'x': Required[int],
+          'y': Required[int],
+          'label': str
+      }, total=False)
+   It is possible for a "TypedDict" type to inherit from one or more
+   other "TypedDict" types using the class-based syntax. Usage:

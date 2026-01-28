@@ -1,0 +1,5 @@
+return value is passed back to the client.
+   Warning:
+     Enabling the *allow_dotted_names* option allows intruders to
+     access your module's global variables and may allow intruders to
+     execute arbitrary code on your machine.  Only use this option on

@@ -1,0 +1,4 @@
+>>> table = FrozenTable.in_dll(pythonapi, "_PyImport_FrozenBootstrap")
+   >>>
+Since "table" is a "pointer" to the array of "struct_frozen" records,
+we can iterate over it, but we just have to make sure that our loop

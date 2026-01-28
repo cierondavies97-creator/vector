@@ -1,0 +1,4 @@
+'from the scripts which '
+                                                'install setuptools and pip.')
+       options = parser.parse_args(args)
+       if options.upgrade and options.clear:

@@ -1,0 +1,4 @@
+This module uses the "pyexpat" module to provide access to the Expat
+parser.  Direct use of the "pyexpat" module is deprecated.
+This module provides one exception and one type object:
+exception xml.parsers.expat.ExpatError

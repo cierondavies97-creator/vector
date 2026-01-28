@@ -1,0 +1,5 @@
+rest->v.Name.id,
+               EXTRA) }
+       | '{' items=items_pattern ','? '}' {
+           _PyAST_MatchMapping(
+               CHECK(asdl_expr_seq*, _PyPegen_get_pattern_keys(p, items)),

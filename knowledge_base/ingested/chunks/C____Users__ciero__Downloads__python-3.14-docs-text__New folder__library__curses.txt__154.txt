@@ -1,0 +1,5 @@
+rightmost characters on the line being lost. The cursor position
+   does not change (after moving to *y*, *x*, if specified).
+window.insstr(str[, attr])
+window.insstr(y, x, str[, attr])
+   Insert a character string (as many characters as will fit on the

@@ -1,0 +1,5 @@
+are **not** waitable handles.)
+   Added in version 3.3.
+**Examples**
+The following server code creates a listener which uses "'secret
+password'" as an authentication key.  It then waits for a connection

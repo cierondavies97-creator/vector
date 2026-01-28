@@ -1,0 +1,3 @@
+meaning of "sys.tracebacklimit". A negative *limit* value
+     corresponds to a positive value of "sys.tracebacklimit", whereas
+     the behaviour of a positive *limit* value cannot be achieved with

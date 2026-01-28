@@ -1,0 +1,5 @@
+Changed in version 3.9: Hyphens and spaces are converted to
+   underscore.
+codecs.unregister(search_function, /)
+   Unregister a codec search function and clear the registry's cache.
+   If the search function is not registered, do nothing.

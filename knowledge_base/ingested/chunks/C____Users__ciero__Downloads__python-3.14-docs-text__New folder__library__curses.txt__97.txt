@@ -1,0 +1,6 @@
+Note:
+     Only one *ch* can be pushed before "getch()" is called.
+curses.update_lines_cols()
+   Update the "LINES" and "COLS" module variables. Useful for
+   detecting manual screen resize.
+   Added in version 3.5.

@@ -1,0 +1,4 @@
+If the buffer size equals the high watermark, "pause_writing()" is not
+called: the buffer size must go strictly over.
+Conversely, "resume_writing()" is called when the buffer size is equal
+or lower than the low watermark.  These end conditions are important

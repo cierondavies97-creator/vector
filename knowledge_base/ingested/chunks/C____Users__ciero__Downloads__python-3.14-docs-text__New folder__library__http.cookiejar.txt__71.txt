@@ -1,0 +1,3 @@
+Only domains not in the blocklist and present in the allowlist (if the
+allowlist is active) participate in cookie setting and returning.  Use
+the *blocked_domains* constructor argument, and "blocked_domains()"

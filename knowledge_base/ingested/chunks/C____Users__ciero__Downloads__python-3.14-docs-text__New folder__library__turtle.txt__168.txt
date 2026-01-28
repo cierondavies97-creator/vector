@@ -1,0 +1,4 @@
+with the coordinates of the clicked point on the canvas
+      * **btn** -- number of the mouse-button, defaults to 1 (left
+        mouse button)
+      * **add** -- "True" or "False" -- if "True", a new binding will

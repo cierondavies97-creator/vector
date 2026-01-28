@@ -1,0 +1,5 @@
+Set the stream position. Return the new stream position as an
+      "int".
+      Four operations are supported, given by the following argument
+      combinations:
+      * "seek(0, SEEK_SET)": Rewind to the start of the stream.

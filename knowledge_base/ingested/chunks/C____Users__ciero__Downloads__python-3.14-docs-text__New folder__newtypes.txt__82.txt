@@ -1,0 +1,5 @@
+but a slot may still be unfilled.)
+   PyNumberMethods   *tp_as_number;
+   PySequenceMethods *tp_as_sequence;
+   PyMappingMethods  *tp_as_mapping;
+If you wish your object to be able to act like a number, a sequence,

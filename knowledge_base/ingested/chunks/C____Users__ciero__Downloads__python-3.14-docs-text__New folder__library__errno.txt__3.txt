@@ -1,0 +1,5 @@
+platform are not defined by the module.  The specific list of defined
+symbols is available as "errno.errorcode.keys()".  Symbols available
+can include:
+errno.EPERM
+   Operation not permitted. This error is mapped to the exception

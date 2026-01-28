@@ -1,0 +1,3 @@
+| "c_double_complex"                 | double complex                    | complex           |
++------------------------------------+-----------------------------------+-------------------+
+| "c_longdouble_complex"             | long double complex               | complex           |

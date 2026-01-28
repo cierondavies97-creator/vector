@@ -1,0 +1,5 @@
+Introduction
+============
+"optparse" is a more convenient, flexible, and powerful library for
+parsing command-line options than the minimalist "getopt" module.
+"optparse" uses a more declarative style of command-line parsing: you

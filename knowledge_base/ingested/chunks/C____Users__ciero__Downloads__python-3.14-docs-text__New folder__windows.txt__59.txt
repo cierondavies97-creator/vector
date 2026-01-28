@@ -1,0 +1,6 @@
+without access to the internet.
+4.1.7. Uninstalling runtimes
+----------------------------
+   $> py uninstall [-y|--yes] <TAG>...
+Runtimes may be removed using the "py uninstall" command. One or more
+tags must be specified. Ranges are not supported here.

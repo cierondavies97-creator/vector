@@ -1,0 +1,3 @@
+"split(STACK[-1])" on the exception group representing "STACK[-2]".
+   In case of a match, pops two items from the stack and pushes the
+   non-matching subgroup ("None" in case of full match) followed by

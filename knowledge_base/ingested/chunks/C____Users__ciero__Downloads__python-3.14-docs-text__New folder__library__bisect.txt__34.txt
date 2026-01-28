@@ -1,0 +1,5 @@
+>>> movies.sort(key=by_year)
+   >>> movies[bisect(movies, 1960, key=by_year)]
+   Movie(name='The Birds', released=1963, director='Hitchcock')
+   >>> # Insert a movie while maintaining sort order
+   >>> romance = Movie('Love Story', 1970, 'Hiller')

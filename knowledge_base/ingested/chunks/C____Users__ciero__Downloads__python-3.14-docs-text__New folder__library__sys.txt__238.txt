@@ -1,0 +1,6 @@
+Added in version 3.12.
+sys._is_immortal(op)
+   Return "True" if the given object is *immortal*, "False" otherwise.
+   Note:
+     Objects that are immortal (and thus return "True" upon being
+     passed to this function) are not guaranteed to be immortal in

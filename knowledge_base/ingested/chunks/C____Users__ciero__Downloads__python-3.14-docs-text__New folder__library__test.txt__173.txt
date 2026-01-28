@@ -1,0 +1,4 @@
+if an exception was raised; an example would be
+   "threading.Event.set()". "start_threads" will attempt to join the
+   started threads upon exit.
+test.support.threading_helper.threading_cleanup(*original_values)

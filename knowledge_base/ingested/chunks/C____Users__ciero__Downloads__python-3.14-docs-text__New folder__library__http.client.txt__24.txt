@@ -1,0 +1,5 @@
+A subclass of "ImproperConnectionState".
+exception http.client.CannotSendHeader
+   A subclass of "ImproperConnectionState".
+exception http.client.ResponseNotReady
+   A subclass of "ImproperConnectionState".

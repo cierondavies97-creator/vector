@@ -1,0 +1,3 @@
+(a) We use zero-based indexing.  This makes the relationship between
+the index for a node and the indexes for its children slightly less
+obvious, but is more suitable since Python uses zero-based indexing.

@@ -1,0 +1,7 @@
+it is possible to simply do:
+         if ts:
+             ...
+      Raises "ValueError" if called without calling "prepare()"
+      previously.
+   done(*nodes)
+      Marks a set of nodes returned by "TopologicalSorter.get_ready()"

@@ -1,0 +1,4 @@
+package and to the *mod_name* argument otherwise.
+   "__spec__" will be set appropriately for the *actually* imported
+   module (that is, "__spec__.name" will always be *mod_name* or
+   "mod_name + '.__main__'", never *run_name*).

@@ -1,0 +1,5 @@
+(instantiating it creates either a "PurePosixPath" or a
+   "PureWindowsPath"):
+      >>> PurePath('setup.py')      # Running on a Unix machine
+      PurePosixPath('setup.py')
+   Each element of *pathsegments* can be either a string representing

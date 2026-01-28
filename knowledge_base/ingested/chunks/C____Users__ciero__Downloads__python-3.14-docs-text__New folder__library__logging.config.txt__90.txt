@@ -1,0 +1,4 @@
+callable will be called with the **remaining** items in the
+configuration sub-dictionary as keyword arguments.  In the above
+example, the formatter with id "custom" will be assumed to be returned
+by the call:

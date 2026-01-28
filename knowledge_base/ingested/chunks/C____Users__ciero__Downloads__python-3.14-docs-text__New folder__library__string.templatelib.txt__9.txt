@@ -1,0 +1,5 @@
+template.strings:  ('Ah! We do have ',              '.')
+      template.values:   (                   'Camembert',    )
+   -[ Attributes ]-
+   strings: tuple[str, ...]
+      A "tuple" of the static strings in the template.

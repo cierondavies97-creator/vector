@@ -1,0 +1,5 @@
+timedelta(microseconds=1)").
+   Note that for very large time intervals (greater than 270 years on
+   most platforms) this method will lose microsecond accuracy.
+   Added in version 3.2.
+Examples of usage: "timedelta"

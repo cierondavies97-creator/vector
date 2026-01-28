@@ -1,0 +1,5 @@
+object* on POSIX.
+   Changed in version 3.8: *executable* parameter accepts a bytes and
+   *path-like object* on Windows.
+   Changed in version 3.12: Changed Windows shell search order for
+   "shell=True". The current directory and "%PATH%" are replaced with

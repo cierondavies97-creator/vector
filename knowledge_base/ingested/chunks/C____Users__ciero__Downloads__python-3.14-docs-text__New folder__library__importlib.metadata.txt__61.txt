@@ -1,0 +1,4 @@
+In particular:
+* "importlib.metadata" does not honor "bytes" objects on "sys.path".
+* "importlib.metadata" will incidentally honor "pathlib.Path" objects
+  on "sys.path" even though such values will be ignored for imports.

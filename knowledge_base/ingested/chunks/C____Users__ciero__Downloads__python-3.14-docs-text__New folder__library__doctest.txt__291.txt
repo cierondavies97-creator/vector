@@ -1,0 +1,4 @@
+a doctest-based test is that you want to explain the fine points of
+your software, and illustrate them with examples. This in turn
+naturally leads to test files that start with the simplest features,
+and logically progress to complications and edge cases.  A coherent

@@ -1,0 +1,4 @@
+connection but does not provide any network IO itself. IO needs to
+   be performed through separate "BIO" objects which are OpenSSL's IO
+   abstraction layer.
+   This class has no public constructor.  An "SSLObject" instance must

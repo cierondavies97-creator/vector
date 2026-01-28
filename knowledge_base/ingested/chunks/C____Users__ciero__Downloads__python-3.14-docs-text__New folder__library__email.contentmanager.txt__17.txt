@@ -1,0 +1,3 @@
+parts), an "EmailMessage" object (for "message/rfc822" parts),
+      or a "bytes" object (for all other non-multipart types).  Raise
+      a "KeyError" if called on a "multipart".  If the part is a

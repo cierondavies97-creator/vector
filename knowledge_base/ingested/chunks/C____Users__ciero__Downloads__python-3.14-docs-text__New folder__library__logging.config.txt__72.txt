@@ -1,0 +1,4 @@
+giving each destination object an id which identifies it
+unambiguously, and then using the id in the source object's
+configuration to indicate that a connection exists between the source
+and the destination object with that id.

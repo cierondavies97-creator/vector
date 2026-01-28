@@ -1,0 +1,5 @@
+backing device.  Therefore, it is almost always preferable to use
+buffered I/O rather than unbuffered I/O for binary data.
+Text I/O
+--------
+Text I/O over a binary storage (such as a file) is significantly

@@ -1,0 +1,5 @@
+**Coroutine opcodes**
+GET_AWAITABLE(where)
+   Implements "STACK[-1] = get_awaitable(STACK[-1])", where
+   "get_awaitable(o)" returns "o" if "o" is a coroutine object or a
+   generator object with the "CO_ITERABLE_COROUTINE" flag, or resolves

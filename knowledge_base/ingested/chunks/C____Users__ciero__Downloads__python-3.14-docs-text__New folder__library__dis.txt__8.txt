@@ -1,0 +1,6 @@
+Changed in version 3.14: The "-P" command-line option and the
+"show_positions" argument were added.The "-S" command-line option is
+added.
+Example: Given the function "myfunc()":
+   def myfunc(alist):
+       return len(alist)

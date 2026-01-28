@@ -1,0 +1,4 @@
+must be different for datagram or stream services.  This can be hidden
+by using the handler subclasses "StreamRequestHandler" or
+"DatagramRequestHandler".
+Of course, you still have to use your head!  For instance, it makes no

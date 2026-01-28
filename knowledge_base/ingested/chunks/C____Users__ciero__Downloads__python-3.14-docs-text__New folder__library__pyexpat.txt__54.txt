@@ -1,0 +1,5 @@
+Column number at which an error occurred.
+xmlparser.ErrorLineNumber
+   Line number at which an error occurred.
+The following attributes contain values relating to the current parse
+location in an "xmlparser" object.  During a callback reporting a

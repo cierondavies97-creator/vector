@@ -1,0 +1,4 @@
+correctly.
+Initially, when a program is started, the locale is the "C" locale, no
+matter what the user's preferred locale is.  There is one exception:
+the "LC_CTYPE" category is changed at startup to set the current

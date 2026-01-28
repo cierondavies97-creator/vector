@@ -1,0 +1,4 @@
+always known (and are considered to be non-daylight savings
+   timezones).
+   Only the directives specified in the documentation are supported.
+   Because "strftime()" is implemented per platform it can sometimes

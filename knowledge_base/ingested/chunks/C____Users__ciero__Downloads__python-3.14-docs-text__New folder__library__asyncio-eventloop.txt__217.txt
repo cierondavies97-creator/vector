@@ -1,0 +1,4 @@
+*universal_newlines*, *shell*, *text*, *encoding* and *errors*,
+     which should not be specified at all.
+     The "asyncio" subprocess API does not support decoding the
+     streams as text. "bytes.decode()" can be used to convert the

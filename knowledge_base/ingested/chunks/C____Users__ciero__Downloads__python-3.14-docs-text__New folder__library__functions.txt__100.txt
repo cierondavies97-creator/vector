@@ -1,0 +1,4 @@
+See "ast.literal_eval()" for a function that can safely evaluate
+   strings with expressions containing only literals.
+   Raises an auditing event "exec" with the code object as the
+   argument. Code compilation events may also be raised.

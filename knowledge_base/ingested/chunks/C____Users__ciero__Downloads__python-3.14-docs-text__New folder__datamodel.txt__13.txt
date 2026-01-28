@@ -1,0 +1,4 @@
+release the external resource, usually a "close()" method. Programs
+are strongly recommended to explicitly close such objects.  The
+"try"..."finally" statement and the "with" statement provide
+convenient ways to do this.

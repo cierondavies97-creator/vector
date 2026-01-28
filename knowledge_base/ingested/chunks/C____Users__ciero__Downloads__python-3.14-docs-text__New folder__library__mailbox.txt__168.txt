@@ -1,0 +1,4 @@
+Messages in an mbox mailbox are stored together in a single file.
+   The sender's envelope address and the time of delivery are
+   typically stored in a line beginning with "From " that is used to
+   indicate the start of a message, though there is considerable

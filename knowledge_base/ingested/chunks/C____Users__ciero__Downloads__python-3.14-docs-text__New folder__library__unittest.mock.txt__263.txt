@@ -1,0 +1,5 @@
+A typical use case for this might be for doing multiple patches in the
+"setUp" method of a "TestCase":
+   >>> class MyTest(unittest.TestCase):
+   ...     def setUp(self):
+   ...         self.patcher1 = patch('package.module.Class1')

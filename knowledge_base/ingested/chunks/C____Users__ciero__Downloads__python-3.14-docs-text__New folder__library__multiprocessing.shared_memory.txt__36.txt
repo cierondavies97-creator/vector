@@ -1,0 +1,4 @@
+>>> # Clean up from within the first Python shell
+   >>> del b  # Unnecessary; merely emphasizing the array is no longer used
+   >>> shm.close()
+   >>> shm.unlink()  # Free and release the shared memory block at the very end

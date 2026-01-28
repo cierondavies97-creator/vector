@@ -1,0 +1,3 @@
+for IPv4 addresses and "'x'" for IPv6. For binary and hexadecimal
+   representations, the form specifier "'#'" and the grouping option
+   "'_'" are available. "__format__" is used by "format", "str.format"

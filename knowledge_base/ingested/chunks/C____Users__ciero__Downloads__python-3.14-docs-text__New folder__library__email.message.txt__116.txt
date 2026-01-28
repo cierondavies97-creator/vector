@@ -1,0 +1,4 @@
+If the message is a "multipart/mixed", create a new message
+      object, pass all of the arguments to its "set_content()" method,
+      and "attach()" it to the "multipart".  If the message is a
+      non-"multipart", "multipart/related", or

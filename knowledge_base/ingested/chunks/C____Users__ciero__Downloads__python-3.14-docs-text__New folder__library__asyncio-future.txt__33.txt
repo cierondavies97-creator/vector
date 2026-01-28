@@ -1,0 +1,5 @@
+not called immediately.  They are scheduled with
+    "loop.call_soon()" instead.
+  * asyncio Future is not compatible with the
+    "concurrent.futures.wait()" and
+    "concurrent.futures.as_completed()" functions.

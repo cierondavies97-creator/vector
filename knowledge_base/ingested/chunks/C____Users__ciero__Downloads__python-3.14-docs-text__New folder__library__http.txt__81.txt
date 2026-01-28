@@ -1,0 +1,9 @@
+>>>
+      >>> HTTPMethod.GET
+      <HTTPMethod.GET>
+      >>> HTTPMethod.GET == 'GET'
+      True
+      >>> HTTPMethod.GET.value
+      'GET'
+      >>> HTTPMethod.GET.description
+      'Retrieve the target.'

@@ -1,0 +1,4 @@
+Suppress warnings that are instances of *category*, which must be
+   "Warning" or a subclass. Roughly equivalent to
+   "warnings.catch_warnings()" with "warnings.simplefilter('ignore',
+   category=category)". For example:

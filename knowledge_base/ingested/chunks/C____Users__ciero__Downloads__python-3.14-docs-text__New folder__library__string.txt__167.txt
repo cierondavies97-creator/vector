@@ -1,0 +1,4 @@
+the placeholder syntax, delimiter character, or the entire regular
+expression used to parse template strings.  To do this, you can
+override these class attributes:
+* *delimiter* -- This is the literal string describing a placeholder

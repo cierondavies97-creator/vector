@@ -1,0 +1,5 @@
+in the class's "__dict__".
+   **CPython implementation detail:** In other implementations of
+   Python, this type may be identical to "GetSetDescriptorType".
+class types.MappingProxyType(mapping)
+   Read-only proxy of a mapping. It provides a dynamic view on the

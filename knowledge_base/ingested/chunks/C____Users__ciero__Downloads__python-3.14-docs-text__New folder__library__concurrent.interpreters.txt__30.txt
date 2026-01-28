@@ -1,0 +1,5 @@
+concurrent.interpreters.get_current()
+   Return an "Interpreter" object for the currently running
+   interpreter.
+concurrent.interpreters.get_main()
+   Return an "Interpreter" object for the main interpreter. This is

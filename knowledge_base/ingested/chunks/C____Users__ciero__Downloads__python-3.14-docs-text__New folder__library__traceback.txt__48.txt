@@ -1,0 +1,5 @@
+list of "TracebackException" instances representing the nested
+      exceptions. Otherwise it is "None".
+      Added in version 3.11.
+   __suppress_context__
+      The "__suppress_context__" value from the original exception.

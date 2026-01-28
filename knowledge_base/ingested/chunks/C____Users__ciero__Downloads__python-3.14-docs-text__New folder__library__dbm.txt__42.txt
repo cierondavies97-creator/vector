@@ -1,0 +1,5 @@
+forces any unwritten data to be written to the disk.
+"dbm.ndbm" --- New Database Manager
+===================================
+**Source code:** Lib/dbm/ndbm.py
+======================================================================

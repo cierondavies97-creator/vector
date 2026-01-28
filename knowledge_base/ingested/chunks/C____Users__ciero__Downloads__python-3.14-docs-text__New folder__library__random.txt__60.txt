@@ -1,0 +1,6 @@
+distribution reduces to a uniform random angle over the range 0 to
+   2**pi*.
+random.paretovariate(alpha)
+   Pareto distribution.  *alpha* is the shape parameter.
+random.weibullvariate(alpha, beta)
+   Weibull distribution.  *alpha* is the scale parameter and *beta* is

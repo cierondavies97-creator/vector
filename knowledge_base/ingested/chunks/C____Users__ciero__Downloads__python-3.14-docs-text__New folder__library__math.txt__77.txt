@@ -1,0 +1,6 @@
+Number-theoretic functions
+==========================
+math.comb(n, k)
+   Return the number of ways to choose *k* items from *n* items
+   without repetition and without order.
+   Evaluates to "n! / (k! * (n - k)!)" when "k <= n" and evaluates to

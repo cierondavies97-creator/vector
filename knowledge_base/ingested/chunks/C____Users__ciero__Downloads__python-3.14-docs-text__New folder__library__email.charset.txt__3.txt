@@ -1,0 +1,4 @@
+class email.charset.Charset(input_charset=DEFAULT_CHARSET)
+   Map character sets to their email properties.
+   This class provides information about the requirements imposed on
+   email for a specific character set.  It also provides convenience

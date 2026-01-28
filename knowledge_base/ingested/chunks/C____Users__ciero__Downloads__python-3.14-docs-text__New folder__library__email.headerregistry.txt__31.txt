@@ -1,0 +1,5 @@
+timestamp, and the resulting value will have a timezone of "-0000".
+   Much more useful is to use the "localtime()" function from the
+   "utils" module:
+      msg['Date'] = utils.localtime()
+   This example sets the date header to the current time and date

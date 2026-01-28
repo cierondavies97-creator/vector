@@ -1,0 +1,4 @@
+"'foo'" or "'-f', '--foo'".
+   * action - The basic type of action to be taken when this argument
+     is encountered at the command line.
+   * nargs - The number of command-line arguments that should be

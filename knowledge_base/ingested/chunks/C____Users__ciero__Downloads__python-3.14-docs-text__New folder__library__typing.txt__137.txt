@@ -1,0 +1,7 @@
+Added in version 3.11.
+typing.TypeAlias
+   Special annotation for explicitly declaring a type alias.
+   For example:
+      from typing import TypeAlias
+      Factors: TypeAlias = list[int]
+   "TypeAlias" is particularly useful on older Python versions for

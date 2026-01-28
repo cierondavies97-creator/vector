@@ -1,0 +1,4 @@
+"FileNotFoundError" is caught and not raised.
+   is_junction()
+      Return "True" if this entry is a junction (even if broken);
+      return "False" if the entry points to a regular directory, any

@@ -1,0 +1,4 @@
+is a legal distance (see above).  For example: ""2 3 4 5"" and ""3i
+   2i 4.5i 2i"" and ""3c 2c 4c 10.43c""  are all legal regions.
+relief
+   Determines what the border style of a widget will be.  Legal values

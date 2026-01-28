@@ -1,0 +1,4 @@
+"'[index]'" does an index lookup using "__getitem__()".
+Changed in version 3.1: The positional argument specifiers can be
+omitted for "str.format()", so "'{} {}'.format(a, b)" is equivalent to
+"'{0} {1}'.format(a, b)".

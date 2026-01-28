@@ -1,0 +1,4 @@
+Parameters:
+      * **fname** -- A filename, or a file-like object, or an instance
+        derived from "RawConfigParser". If a "RawConfigParser"-derived
+        instance is passed, it is used as is. Otherwise, a

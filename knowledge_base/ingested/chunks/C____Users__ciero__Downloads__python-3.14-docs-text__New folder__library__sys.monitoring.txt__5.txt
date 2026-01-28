@@ -1,0 +1,5 @@
+Registering and using tools
+---------------------------
+sys.monitoring.use_tool_id(tool_id: int, name: str, /) -> None
+   Must be called before *tool_id* can be used. *tool_id* must be in
+   the range 0 to 5 inclusive. Raises a "ValueError" if *tool_id* is

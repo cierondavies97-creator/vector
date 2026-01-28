@@ -1,0 +1,4 @@
+occurs.  "None" is returned on success.  On error, an exception is
+   raised, and there is no way to determine how much data, if any, was
+   successfully sent.
+   Changed in version 3.5: The socket timeout is no longer reset each

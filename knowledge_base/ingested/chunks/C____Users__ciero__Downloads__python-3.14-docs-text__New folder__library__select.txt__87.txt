@@ -1,0 +1,3 @@
+| "KQ_FILTER_VNODE"           | Returns when one or more of the requested     |
+   |                             | events watched in *fflag* occurs              |
+   +-----------------------------+-----------------------------------------------+

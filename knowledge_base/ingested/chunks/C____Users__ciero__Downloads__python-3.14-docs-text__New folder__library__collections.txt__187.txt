@@ -1,0 +1,5 @@
+self.maxsize = maxsize          # max number of stored return values
+           self.cache_after = cache_after
+       def __call__(self, *args):
+           if args in self.cache:
+               self.cache.move_to_end(args)

@@ -1,0 +1,4 @@
+"key=str.lower").  The default value is "None" (compare the
+   elements directly).
+   *reverse* is a boolean value.  If set to "True", then the list
+   elements are sorted as if each comparison were reversed.

@@ -1,0 +1,4 @@
+decorated with "@typing.runtime_checkable".
+class io.Reader[T]
+   Generic protocol for reading from a file or other input stream. "T"
+   will usually be "str" or "bytes", but can be any type that is read

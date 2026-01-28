@@ -1,0 +1,4 @@
+n lines of output. A Windows console, for instance, keeps a user-
+settable 1 to 9999 lines, with 300 the default.
+A Tk Text widget, and hence IDLE's Shell, displays characters
+(codepoints) in the BMP (Basic Multilingual Plane) subset of Unicode.

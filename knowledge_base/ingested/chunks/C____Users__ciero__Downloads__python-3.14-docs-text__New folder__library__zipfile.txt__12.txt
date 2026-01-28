@@ -1,0 +1,5 @@
+Added in version 3.14.
+zipfile.is_zipfile(filename)
+   Returns "True" if *filename* is a valid ZIP file based on its magic
+   number, otherwise returns "False".  *filename* may be a file or
+   file-like object too.

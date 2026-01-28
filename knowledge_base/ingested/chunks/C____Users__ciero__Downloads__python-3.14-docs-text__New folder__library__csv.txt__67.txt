@@ -1,0 +1,5 @@
+* the *escapechar* itself.
+   On reading, the *escapechar* removes any special meaning from the
+   following character. It defaults to "None", which disables
+   escaping.
+   Changed in version 3.11: An empty *escapechar* is not allowed.

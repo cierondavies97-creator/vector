@@ -1,0 +1,3 @@
+| "EPOLLRDBAND"             | Priority data band can be read.                 |
+   +---------------------------+-------------------------------------------------+
+   | "EPOLLWRNORM"             | Equivalent to "EPOLLOUT"                        |

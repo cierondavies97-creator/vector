@@ -1,0 +1,4 @@
+compiled for a version of the library that supports it.
+readline.get_current_history_length()
+   Return the number of items currently in the history.  (This is
+   different from "get_history_length()", which returns the maximum

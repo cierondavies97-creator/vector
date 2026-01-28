@@ -1,0 +1,4 @@
+an email message using the compat32 API.
+[2] The "EmailMessage" class requires a policy that provides a
+    "content_manager" attribute for content management methods like
+    "set_content()" and "get_content()" to work. The legacy "compat32"

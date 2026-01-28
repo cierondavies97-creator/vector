@@ -1,0 +1,3 @@
+The "io" module provides Python's main facilities for dealing with
+various types of I/O.  There are three main types of I/O: *text I/O*,
+*binary I/O* and *raw I/O*.  These are generic categories, and various

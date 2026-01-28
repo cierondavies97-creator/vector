@@ -1,0 +1,6 @@
+os.POSIX_FADV_DONTNEED
+   Flags that can be used in *advice* in "posix_fadvise()" that
+   specify the access pattern that is likely to be used.
+   Availability: Unix.
+   Added in version 3.3.
+os.pread(fd, n, offset, /)

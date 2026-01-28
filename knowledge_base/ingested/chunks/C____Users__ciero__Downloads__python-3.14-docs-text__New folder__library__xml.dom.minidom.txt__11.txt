@@ -1,0 +1,4 @@
+"getDOMImplementation()" function in the "xml.dom" package or the
+"xml.dom.minidom" module.  Once you have a "Document", you can add
+child nodes to it to populate the DOM:
+   from xml.dom.minidom import getDOMImplementation

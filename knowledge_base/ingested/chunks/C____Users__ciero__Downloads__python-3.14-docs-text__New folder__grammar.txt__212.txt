@@ -1,0 +1,3 @@
+RAISE_SYNTAX_ERROR_KNOWN_RANGE(a, b, "expected argument value expression")}
+       | a=args b=for_if_clauses { _PyPegen_nonparen_genexp_in_call(p, a, b) }
+       | args ',' a=expression b=for_if_clauses {

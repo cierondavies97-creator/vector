@@ -1,0 +1,9 @@
+>>> mymock.foo
+<MyMock name='mock.foo' id='...'>
+>>> mymock.foo.has_been_called()
+False
+>>> mymock.foo()
+<MyMock name='mock.foo()' id='...'>
+>>> mymock.foo.has_been_called()
+True
+Sometimes this is inconvenient. For example, one user is subclassing

@@ -1,0 +1,4 @@
+only have the same api as the attributes of the spec. In addition
+mocked functions / methods have the same call signature as the
+original so they raise a "TypeError" if they are called incorrectly.
+Before I explain how auto-speccing works, here's why it is needed.

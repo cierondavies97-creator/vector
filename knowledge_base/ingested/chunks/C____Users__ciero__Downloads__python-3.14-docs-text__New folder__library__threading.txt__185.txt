@@ -1,0 +1,4 @@
+custom threads.
+Timers are started, as with threads, by calling their "Timer.start"
+method.  The timer can be stopped (before its action has begun) by
+calling the "cancel()" method.  The interval the timer will wait

@@ -1,0 +1,6 @@
+A character is not a separate data type but a string of exactly one
+character.
+6.3.3. Slicings
+---------------
+A slicing selects a range of items in a sequence object (e.g., a
+string, tuple or list).  Slicings may be used as expressions or as

@@ -1,0 +1,9 @@
+>>> del c
+      >>> gc.collect()
+      0
+      >>> r()
+      >>>
+   *callback* is the same as the parameter of the same name to the
+   "ref()" function.
+   Added in version 3.4.
+class weakref.finalize(obj, func, /, *args, **kwargs)

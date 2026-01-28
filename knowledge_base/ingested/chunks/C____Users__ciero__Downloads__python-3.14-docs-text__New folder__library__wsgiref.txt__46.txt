@@ -1,0 +1,4 @@
+====================================================
+This module implements a simple HTTP server (based on "http.server")
+that serves WSGI applications.  Each server instance serves a single
+WSGI application on a given host and port.  If you want to serve

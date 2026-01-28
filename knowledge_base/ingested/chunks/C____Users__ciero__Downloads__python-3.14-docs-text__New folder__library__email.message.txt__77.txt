@@ -1,0 +1,4 @@
+If the message is a *multipart*, then the list will contain one
+      element for each subpart in the payload, otherwise, it will be a
+      list of length 1.
+      Each item in the list will be a string which is the value of the

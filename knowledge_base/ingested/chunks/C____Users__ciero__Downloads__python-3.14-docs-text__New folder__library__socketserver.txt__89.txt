@@ -1,0 +1,7 @@
+Received: HELLO WORLD WITH TCP
+   $ python TCPClient.py python is nice
+   Sent:     python is nice
+   Received: PYTHON IS NICE
+"socketserver.UDPServer" Example
+--------------------------------
+This is the server side:

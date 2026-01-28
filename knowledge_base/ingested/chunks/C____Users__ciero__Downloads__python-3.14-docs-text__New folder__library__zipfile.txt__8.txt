@@ -1,0 +1,4 @@
+Class used to represent information about a member of an archive.
+   Instances of this class are returned by the "getinfo()" and
+   "infolist()" methods of "ZipFile" objects.  Most users of the
+   "zipfile" module will not need to create these, but only use those

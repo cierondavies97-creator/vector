@@ -1,0 +1,4 @@
+as if the comprehension were running as a nested function.
+   Calling "locals()" as part of a generator expression is equivalent
+   to calling it in a nested generator function.
+   Changed in version 3.12: The behaviour of "locals()" in a

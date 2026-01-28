@@ -1,0 +1,5 @@
+4.11.5. Modifying an install
+----------------------------
+Once Python has been installed, you can add or remove features through
+the Programs and Features tool that is part of Windows. Select the
+Python entry and choose "Uninstall/Change" to open the installer in

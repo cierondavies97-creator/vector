@@ -1,0 +1,5 @@
+optional dictionary is passed in as the second argument, it is used
+   instead of a new dictionary, and updated with the values read in
+   the file.
+sysconfig.get_config_h_filename()
+   Return the path of "pyconfig.h".

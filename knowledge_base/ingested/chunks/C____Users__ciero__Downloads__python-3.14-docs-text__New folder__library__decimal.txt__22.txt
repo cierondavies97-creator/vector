@@ -1,0 +1,4 @@
+>>> getcontext().prec = 7       # Set a new precision
+Decimal instances can be constructed from integers, strings, floats,
+or tuples. Construction from an integer or a float performs an exact
+conversion of the value of that integer or float.  Decimal numbers

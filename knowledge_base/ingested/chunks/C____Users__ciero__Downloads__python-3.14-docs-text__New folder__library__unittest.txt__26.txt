@@ -1,0 +1,4 @@
+The path is converted to a module name by removing the '.py' and
+converting path separators into '.'. If you want to execute a test
+file that isn't importable as a module you should execute the file
+directly instead.

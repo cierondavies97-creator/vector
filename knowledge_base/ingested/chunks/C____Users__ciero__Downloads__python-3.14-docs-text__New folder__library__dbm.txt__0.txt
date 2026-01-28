@@ -1,0 +1,5 @@
+"dbm" --- Interfaces to Unix "databases"
+****************************************
+**Source code:** Lib/dbm/__init__.py
+======================================================================
+"dbm" is a generic interface to variants of the DBM database:

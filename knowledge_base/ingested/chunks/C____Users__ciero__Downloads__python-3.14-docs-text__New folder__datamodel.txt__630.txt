@@ -1,0 +1,6 @@
+the caller.
+   Changed in version 3.12: The second signature (type[, value[,
+   traceback]]) is deprecated and may be removed in a future version
+   of Python.
+coroutine.close()
+   Causes the coroutine to clean itself up and exit.  If the coroutine

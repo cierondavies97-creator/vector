@@ -1,0 +1,5 @@
+Added in version 3.5.
+SSLSocket.compression()
+   Return the compression algorithm being used as a string, or "None"
+   if the connection isn't compressed.
+   If the higher-level protocol supports its own compression

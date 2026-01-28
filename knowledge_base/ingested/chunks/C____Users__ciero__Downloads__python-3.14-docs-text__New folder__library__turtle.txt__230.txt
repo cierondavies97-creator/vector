@@ -1,0 +1,7 @@
+Parameters:
+      * **title** -- string
+      * **prompt** -- string
+      * **default** -- number (optional)
+      * **minval** -- number (optional)
+      * **maxval** -- number (optional)
+   Pop up a dialog window for input of a number. title is the title of

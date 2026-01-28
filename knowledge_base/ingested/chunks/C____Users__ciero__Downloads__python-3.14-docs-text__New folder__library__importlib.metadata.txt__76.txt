@@ -1,0 +1,3 @@
+"path" attribute defaults to "sys.path" and is the set of import paths
+to be considered in the search. A "DatabaseImporter" could potentially
+function without any concern for a search path. Assuming the importer

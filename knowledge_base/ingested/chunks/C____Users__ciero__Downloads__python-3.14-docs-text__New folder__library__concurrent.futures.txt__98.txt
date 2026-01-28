@@ -1,0 +1,5 @@
+"Future.running()" will return "True".
+      This method can only be called once and cannot be called after
+      "Future.set_result()" or "Future.set_exception()" have been
+      called.
+   set_result(result)

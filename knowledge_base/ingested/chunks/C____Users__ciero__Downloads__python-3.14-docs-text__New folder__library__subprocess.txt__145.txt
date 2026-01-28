@@ -1,0 +1,5 @@
+called to stop the child.
+Popen.kill()
+   Kills the child. On POSIX OSs the function sends SIGKILL to the
+   child. On Windows "kill()" is an alias for "terminate()".
+The following attributes are also set by the class for you to access.

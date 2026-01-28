@@ -1,0 +1,2 @@
+| flags.thread_inherit_context                       | "-X thread_inherit_context" and                    |
+   |                                                    | "PYTHON_THREAD_INHERIT_CONTEXT"                    |

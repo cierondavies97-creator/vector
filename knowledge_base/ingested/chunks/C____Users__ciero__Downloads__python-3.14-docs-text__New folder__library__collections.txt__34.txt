@@ -1,0 +1,6 @@
+if key in mapping:
+                   mapping[key] = value
+                   return
+           self.maps[0][key] = value
+       def __delitem__(self, key):
+           for mapping in self.maps:

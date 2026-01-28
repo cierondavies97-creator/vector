@@ -1,0 +1,5 @@
+"compileall" --- Byte-compile Python libraries
+**********************************************
+**Source code:** Lib/compileall.py
+======================================================================
+This module provides some utility functions to support installing

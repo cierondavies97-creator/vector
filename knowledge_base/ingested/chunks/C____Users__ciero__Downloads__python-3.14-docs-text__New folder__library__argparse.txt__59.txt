@@ -1,0 +1,6 @@
+characters that does not include "-" will cause "-f/--foo" options to
+be disallowed.
+fromfile_prefix_chars
+---------------------
+Sometimes, when dealing with a particularly long argument list, it may
+make sense to keep the list of arguments in a file rather than typing

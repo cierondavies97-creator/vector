@@ -1,0 +1,6 @@
+('0xff', 'ff', 'FF')
+   See also "format()" for more information.
+   See also "int()" for converting a hexadecimal string to an integer
+   using a base of 16.
+   Note:
+     To obtain a hexadecimal string representation for a float, use

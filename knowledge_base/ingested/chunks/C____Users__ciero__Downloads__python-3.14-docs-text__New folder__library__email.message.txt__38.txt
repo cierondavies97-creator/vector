@@ -1,0 +1,5 @@
+"email.headerregistry.BaseHeader".
+   __setitem__(name, val)
+      Add a header to the message with field name *name* and value
+      *val*.  The field is appended to the end of the message's
+      existing headers.

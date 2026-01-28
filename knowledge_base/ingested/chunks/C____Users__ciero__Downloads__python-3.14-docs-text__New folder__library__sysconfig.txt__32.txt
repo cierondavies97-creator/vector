@@ -1,0 +1,3 @@
+| *platlib*      | "*userbase*/lib/python/site-packages"                       |
++----------------+-------------------------------------------------------------+
+| *purelib*      | "*userbase*/lib/python/site-packages"                       |

@@ -1,0 +1,4 @@
+closer to the front of the list override entries later in the list,
+   if both match a particular warning.  Omitted arguments default to a
+   value that matches everything.
+warnings.simplefilter(action, category=Warning, lineno=0, append=False)

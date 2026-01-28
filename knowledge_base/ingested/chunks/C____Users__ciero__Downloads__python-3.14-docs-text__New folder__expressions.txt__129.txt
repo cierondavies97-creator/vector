@@ -1,0 +1,5 @@
+of Python.
+async agen.aclose()
+   Returns an awaitable that when run will throw a "GeneratorExit"
+   into the asynchronous generator function at the point where it was
+   paused. If the asynchronous generator function then exits

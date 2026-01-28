@@ -1,0 +1,5 @@
+"GetLastError()" is called to determine the error code. If *descr*
+   is not specified, "FormatError()" is called to get a textual
+   description of the error.
+   Availability: Windows
+   Changed in version 3.3: An instance of "WindowsError" used to be

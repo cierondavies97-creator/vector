@@ -1,0 +1,9 @@
+File "<stdin>", line 2, in f
+   ZeroDivisionError: division by zero
+   >>> pdb.pm()
+   > <stdin>(2)f()
+   (Pdb) p x
+   0
+   (Pdb)
+Changed in version 3.13: The implementation of **PEP 667** means that
+name assignments made via "pdb" will immediately affect the active

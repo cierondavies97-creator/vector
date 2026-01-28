@@ -1,0 +1,4 @@
+"trace".  The "--listfuncs" option is mutually exclusive with the "--
+trace" and "--count" options. When "--listfuncs" is provided, neither
+"--count" nor "--trace" are accepted, and vice versa.
+-c, --count

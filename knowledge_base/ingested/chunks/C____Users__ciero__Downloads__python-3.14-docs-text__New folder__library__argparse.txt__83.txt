@@ -1,0 +1,5 @@
+exit_on_error
+-------------
+Normally, when you pass an invalid argument list to the "parse_args()"
+method of an "ArgumentParser", it will print a *message* to
+"sys.stderr" and exit with a status code of 2.

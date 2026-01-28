@@ -1,0 +1,6 @@
+automatically adding generated special methods to user-defined
+    classes.
+"OrderedDict" objects
+=====================
+Ordered dictionaries are just like regular dictionaries but have some
+extra capabilities relating to ordering operations.  They have become

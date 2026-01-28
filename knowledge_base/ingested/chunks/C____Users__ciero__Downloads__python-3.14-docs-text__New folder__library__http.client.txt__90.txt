@@ -1,0 +1,6 @@
+>>> print(response.status, response.reason)
+   200, OK
+HTTPMessage Objects
+===================
+class http.client.HTTPMessage(email.message.Message)
+An "http.client.HTTPMessage" instance holds the headers from an HTTP

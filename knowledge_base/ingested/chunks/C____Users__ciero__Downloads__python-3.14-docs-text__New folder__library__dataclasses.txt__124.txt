@@ -1,0 +1,3 @@
+a "ValueError" if it detects an unhashable default parameter.  The
+assumption is that if a value is unhashable, it is mutable.  This is a
+partial solution, but it does protect against many common errors.

@@ -1,0 +1,6 @@
+from the current line.
+   Changed in version 3.2: Added the ">>" marker.
+ll | longlist
+   List all source code for the current function or frame.
+   Interesting lines are marked as for "list".
+   Added in version 3.2.

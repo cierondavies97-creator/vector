@@ -1,0 +1,3 @@
+file name, the second one is a dictionary containing facts about
+      the file name.  Content of this dictionary might be limited by
+      the *facts* argument but server is not guaranteed to return all

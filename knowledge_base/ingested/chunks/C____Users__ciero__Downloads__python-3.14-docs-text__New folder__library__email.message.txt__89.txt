@@ -1,0 +1,4 @@
+contain subparts. "is_multipart()" returns "True" and "walk"
+      descends into the subparts.
+   get_body(preferencelist=('related', 'html', 'plain'))
+      Return the MIME part that is the best candidate to be the "body"

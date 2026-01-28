@@ -1,0 +1,4 @@
+semantics for the results.  Returned data contains a space
+   separated list of thread members.
+   Thread members consist of zero or more messages numbers, delimited
+   by spaces, indicating successive parent and child.

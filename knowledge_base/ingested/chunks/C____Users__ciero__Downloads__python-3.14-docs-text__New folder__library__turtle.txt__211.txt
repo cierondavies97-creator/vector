@@ -1,0 +1,5 @@
+Parameters:
+      * **n** -- nonnegative integer
+      * **delay** -- nonnegative integer
+   Turn turtle animation on/off and set delay for update drawings.  If
+   *n* is given, only each n-th regular screen update is really

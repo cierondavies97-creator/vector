@@ -1,0 +1,3 @@
+"multiprocessing.shared_memory" --- Shared memory for direct access across processes
+************************************************************************************
+**Source code:** Lib/multiprocessing/shared_memory.py

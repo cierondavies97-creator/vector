@@ -1,0 +1,6 @@
+__init__.py
+                 equalizer.py
+                 vocoder.py
+                 karaoke.py
+                 ...
+When importing the package, Python searches through the directories on

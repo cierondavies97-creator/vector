@@ -1,0 +1,4 @@
+automatic resource locking/synchronization.
+3.3.4. Customizing instance and subclass checks
+-----------------------------------------------
+The following methods are used to override the default behavior of the

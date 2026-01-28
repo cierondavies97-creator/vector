@@ -1,0 +1,4 @@
+In addition, if "mode" is "'func_type'", the input syntax is
+   modified to correspond to **PEP 484** "signature type comments",
+   e.g. "(str, int) -> List[str]".
+   Setting "feature_version" to a tuple "(major, minor)" will result

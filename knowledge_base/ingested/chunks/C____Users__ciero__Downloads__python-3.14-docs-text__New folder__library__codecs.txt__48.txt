@@ -1,0 +1,5 @@
+b'German &#223;, &#9836;'
+The following error handlers can be used with all Python Standard
+Encodings codecs:
++---------------------------+-------------------------------------------------+
+| Value                     | Meaning                                         |

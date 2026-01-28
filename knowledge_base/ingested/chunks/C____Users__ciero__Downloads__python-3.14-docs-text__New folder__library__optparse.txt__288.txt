@@ -1,0 +1,4 @@
+action="callback", callback=store_value,
+                     type="int", nargs=3, dest="foo")
+Note that "optparse" takes care of consuming 3 arguments and
+converting them to integers for you; all you have to do is store them.

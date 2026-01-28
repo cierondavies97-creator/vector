@@ -1,0 +1,3 @@
+"defects". "defects" is an empty list.  The parse method should
+   append any detected defects to this list.  On return, the "kwds"
+   dictionary *must* contain values for at least the keys "decoded"

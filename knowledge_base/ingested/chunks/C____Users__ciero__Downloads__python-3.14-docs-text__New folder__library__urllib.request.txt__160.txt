@@ -1,0 +1,5 @@
+(so, ""python.org"" and ""python.org:80"" are fine,
+   ""joe:password@python.org"" is not).
+HTTPBasicAuthHandler Objects
+============================
+HTTPBasicAuthHandler.http_error_401(req, fp, code, msg, hdrs)

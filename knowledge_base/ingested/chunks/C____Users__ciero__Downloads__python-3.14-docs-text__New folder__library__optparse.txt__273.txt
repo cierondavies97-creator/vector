@@ -1,0 +1,4 @@
+----------------------------
+The callback function should raise "OptionValueError" if there are any
+problems with the option or its argument(s).  "optparse" catches this
+and terminates the program, printing the error message you supply to

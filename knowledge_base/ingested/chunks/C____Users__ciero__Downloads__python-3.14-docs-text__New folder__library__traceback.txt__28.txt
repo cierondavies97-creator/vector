@@ -1,0 +1,4 @@
+strings, each ending in a newline.  The list contains the
+   exception's message, which is normally a single string; however,
+   for "SyntaxError" exceptions, it contains several lines that (when
+   printed) display detailed information about where the syntax error

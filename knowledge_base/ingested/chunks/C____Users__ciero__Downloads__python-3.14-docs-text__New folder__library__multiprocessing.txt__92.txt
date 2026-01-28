@@ -1,0 +1,5 @@
+This must be called at most once per process object.  It
+      arranges for the object's "run()" method to be invoked in a
+      separate process.
+   join([timeout])
+      If the optional argument *timeout* is "None" (the default), the

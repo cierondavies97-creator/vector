@@ -1,0 +1,7 @@
+main()
+   Object allocated at (most recent call last):
+     File "script.py", lineno 10
+       main()
+     File "script.py", lineno 4
+       fp = open(sys.argv[1])
+The fix is to close explicitly the file. Example using a context

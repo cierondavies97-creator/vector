@@ -1,0 +1,6 @@
+its "parse_args()" method.
+OptionParser.parse_args(args=None, values=None)
+   Parse the command-line options found in *args*.
+   The input parameters are
+   "args"
+      the list of arguments to process (default: "sys.argv[1:]")

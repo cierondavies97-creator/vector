@@ -1,0 +1,6 @@
+default, or if "None", flags are deduced corresponding to the set
+   of future features found in *globs*.
+   Optional argument *optionflags* works as for function "testfile()"
+   above.
+Unittest API
+============

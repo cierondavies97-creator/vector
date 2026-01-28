@@ -1,0 +1,7 @@
+Return the attributes of the font.
+   cget(option)
+      Retrieve an attribute of the font.
+   config(**options)
+      Modify attributes of the font.
+   copy()
+      Return new instance of the current font.

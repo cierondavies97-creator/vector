@@ -1,0 +1,10 @@
+27 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies
+Refactoring
+▶ re-organise your code without changing its functionality
+▶ rethink earlier design decisions

@@ -1,0 +1,3 @@
+attribute, as well as due to possible memory layout incompatibilities.
+**CPython implementation detail:** Most built-in exceptions are
+implemented in C for efficiency, see: Objects/exceptions.c.  Some have

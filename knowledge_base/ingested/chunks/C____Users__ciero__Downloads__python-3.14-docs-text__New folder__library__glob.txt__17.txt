@@ -1,0 +1,3 @@
+useful if you want to match an arbitrary literal string that may
+   have special characters in it.  Special characters in drive/UNC
+   sharepoints are not escaped, e.g. on Windows "escape('//?/c:/Quo

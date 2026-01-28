@@ -1,0 +1,3 @@
+more configurable by providing a factory which is used to create
+   the record. The factory can be set using "getLogRecordFactory()"
+   and "setLogRecordFactory()" (see this for the factory's signature).

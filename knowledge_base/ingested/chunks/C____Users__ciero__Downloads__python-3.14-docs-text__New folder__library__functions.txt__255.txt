@@ -1,0 +1,5 @@
+the inverse of "chr()".
+   If the argument is a "bytes" or "bytearray" object of length 1,
+   return its single byte value. For example, "ord(b'a')" returns the
+   integer "97".
+pow(base, exp, mod=None)

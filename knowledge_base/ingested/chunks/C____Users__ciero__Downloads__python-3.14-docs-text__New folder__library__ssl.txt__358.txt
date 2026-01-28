@@ -1,0 +1,4 @@
+(('localityName', 'Wolfeboro'),),
+                (('organizationName', 'Python Software Foundation'),),
+                (('commonName', 'www.python.org'),)),
+    'subjectAltName': (('DNS', 'www.python.org'),

@@ -1,0 +1,6 @@
+will need to use this option.
+To perform an all-users installation, you should select "Customize
+installation". In this case:
+* You may be required to provide administrative credentials or
+  approval
+* Python will be installed into the Program Files directory

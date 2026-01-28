@@ -1,0 +1,6 @@
+"argc". On the stack are (in ascending order):
+   * The callable
+   * "self" or "NULL"
+   * The remaining positional arguments
+   "argc" is the total of the positional arguments, excluding "self".
+   "CALL" pops all arguments and the callable object off the stack,

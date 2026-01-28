@@ -1,0 +1,6 @@
+dump_stats(filename)
+      Write the results of the current profile to *filename*.
+   run(cmd)
+      Profile the cmd via "exec()".
+   runctx(cmd, globals, locals)
+      Profile the cmd via "exec()" with the specified global and local

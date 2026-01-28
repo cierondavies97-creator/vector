@@ -1,0 +1,6 @@
+to its underlying file descriptor, selected event mask and attached
+   data. It is returned by several "BaseSelector" methods.
+   fileobj
+      File object registered.
+   fd
+      Underlying file descriptor.

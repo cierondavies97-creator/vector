@@ -1,0 +1,4 @@
+* ""append"" [relevant: "type", "dest", "nargs", "choices"]
+  The option must be followed by an argument, which is appended to the
+  list in "dest".  If no default value for "dest" is supplied, an
+  empty list is automatically created when "optparse" first encounters

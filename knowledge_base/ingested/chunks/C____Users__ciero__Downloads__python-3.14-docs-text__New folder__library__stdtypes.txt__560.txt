@@ -1,0 +1,6 @@
+table.
+   Set the *table* argument to "None" for translations that only
+   delete characters:
+      >>> b'read this short text'.translate(None, b'aeiou')
+      b'rd ths shrt txt'
+   Changed in version 3.6: *delete* is now supported as a keyword

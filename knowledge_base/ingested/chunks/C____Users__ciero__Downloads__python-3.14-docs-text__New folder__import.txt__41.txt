@@ -1,0 +1,4 @@
+import-related information, which the import machinery then uses when
+loading the module.
+The following sections describe the protocol for finders and loaders
+in more detail, including how you can create and register new ones to

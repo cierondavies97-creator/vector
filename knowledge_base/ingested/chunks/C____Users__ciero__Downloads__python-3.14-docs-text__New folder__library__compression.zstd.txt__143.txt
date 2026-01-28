@@ -1,0 +1,5 @@
+# Concatenate all the partial results:
+   result = b"".join([out1, out2, out3, out4])
+Writing compressed data to an already-open file:
+   from compression import zstd
+   with open("myfile", "wb") as f:

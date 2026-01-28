@@ -1,0 +1,4 @@
+insert(pos, child, **kw)
+      Inserts a pane at the specified position.
+      *pos* is either the string "end", an integer index, or the name
+      of a managed child. If *child* is already managed by the

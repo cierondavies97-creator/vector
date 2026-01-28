@@ -1,0 +1,4 @@
+values for that parameter.
+   Example setting the "window_log_max" to the maximum size:
+      data = compress(b'Some very long buffer of bytes...')
+      _lower, upper = DecompressionParameter.window_log_max.bounds()

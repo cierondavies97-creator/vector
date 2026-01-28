@@ -1,0 +1,4 @@
+$> py -V:distrib/ ...
+If no version is specified, but a script file is passed, the script
+will be inspected for a *shebang line*. This is a special format for
+the first line in a file that allows overriding the command. See

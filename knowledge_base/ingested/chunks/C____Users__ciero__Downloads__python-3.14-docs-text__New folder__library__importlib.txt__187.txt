@@ -1,0 +1,4 @@
+frameworks in the "Frameworks" folder (including stripping
+   extensions from the module file, the addition of framework
+   metadata, and signing the resulting framework), and creating the
+   ".fwork" and ".origin" files. This will usually be done with a

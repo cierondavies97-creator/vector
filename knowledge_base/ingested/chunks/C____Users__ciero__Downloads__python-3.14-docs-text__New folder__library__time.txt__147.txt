@@ -1,0 +1,6 @@
+Clock that cannot be set and represents monotonic time since some
+   unspecified starting point.
+   Availability: Unix.
+   Added in version 3.3.
+time.CLOCK_MONOTONIC_RAW
+   Similar to "CLOCK_MONOTONIC", but provides access to a raw

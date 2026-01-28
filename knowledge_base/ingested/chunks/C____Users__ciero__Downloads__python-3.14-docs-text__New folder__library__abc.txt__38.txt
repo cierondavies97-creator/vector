@@ -1,0 +1,9 @@
+method:
+      class C(ABC):
+          @classmethod
+          @abstractmethod
+          def my_abstract_classmethod(cls, arg):
+              ...
+@abc.abstractstaticmethod
+   Added in version 3.2.
+   Deprecated since version 3.3: It is now possible to use

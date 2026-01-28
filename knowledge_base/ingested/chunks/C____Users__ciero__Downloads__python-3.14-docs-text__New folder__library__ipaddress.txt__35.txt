@@ -1,0 +1,5 @@
+shared address space ("100.64.0.0/10" range) where they are both
+      "False".
+      Added in version 3.4.
+      Changed in version 3.13: Fixed some false positives and false
+      negatives, see "is_private" for details.

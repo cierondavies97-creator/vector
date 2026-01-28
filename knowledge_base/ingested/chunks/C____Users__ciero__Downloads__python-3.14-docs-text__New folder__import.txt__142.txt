@@ -1,0 +1,3 @@
+legacy methods are ignored."find_loader()" takes one argument, the
+fully qualified name of the module being imported.  "find_loader()"
+returns a 2-tuple where the first item is the loader and the second

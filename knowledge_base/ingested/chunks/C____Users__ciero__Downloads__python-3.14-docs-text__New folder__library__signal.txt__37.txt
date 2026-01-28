@@ -1,0 +1,4 @@
+interval timer or a negative time is passed to "setitimer()". This
+   error is a subtype of "OSError".
+   Added in version 3.3: This error used to be a subtype of "IOError",
+   which is now an alias of "OSError".

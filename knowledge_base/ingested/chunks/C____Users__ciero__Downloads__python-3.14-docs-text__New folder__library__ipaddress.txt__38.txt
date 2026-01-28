@@ -1,0 +1,5 @@
+value of the "Reserved-by-Protocol" column in iana-ipv4
+        -special-registry.
+      Caution:
+        For IPv6, "fec0::/10" a former Site-Local scoped address
+        prefix is currently excluded from that list (see

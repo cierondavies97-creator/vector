@@ -1,0 +1,4 @@
+the given searching criteria using the charset argument for the
+   interpretation of strings in the searching criteria.  It then
+   returns the numbers of matching messages.
+   This is an "IMAP4rev1" extension command.

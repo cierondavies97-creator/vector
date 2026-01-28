@@ -1,0 +1,4 @@
+iterable if item)" if function is "None".
+   See "itertools.filterfalse()" for the complementary function that
+   returns elements of *iterable* for which *function* is false.
+class float(number=0.0, /)

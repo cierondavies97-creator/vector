@@ -1,0 +1,4 @@
+("make_option()" is a factory function for creating Option instances;
+currently it is an alias for the Option constructor.  A future version
+of "optparse" may split Option into several classes, and
+"make_option()" will pick the right class to instantiate.  Do not

@@ -1,0 +1,6 @@
+>>> print(p, p.is_alive())
+      <...Process ... stopped exitcode=-SIGTERM> False
+      >>> p.exitcode == -signal.SIGTERM
+      True
+exception multiprocessing.ProcessError
+   The base class of all "multiprocessing" exceptions.

@@ -1,0 +1,4 @@
+"unverifiable" and "origin_req_host", as documented by
+   "urllib.request".  The request is used to set default values for
+   cookie-attributes as well as for checking that the cookie is
+   allowed to be set.

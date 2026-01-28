@@ -1,0 +1,3 @@
+function. First, if your type supports garbage collection (using
+  "tp_traverse" and/or "tp_clear"), some of the object's members can
+  have been cleared or finalized by the time "tp_dealloc" is called.

@@ -1,0 +1,6 @@
+Added in version 3.3.
+definition.__module__
+   The name of the module in which a class or function was defined.
+definition.__doc__
+   The documentation string of a class or function, or "None" if
+   undefined.

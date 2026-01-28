@@ -1,0 +1,3 @@
+"new", and "cur". Messages are created momentarily in the "tmp"
+   subdirectory and then moved to the "new" subdirectory to finalize
+   delivery. A mail user agent may subsequently move the message to

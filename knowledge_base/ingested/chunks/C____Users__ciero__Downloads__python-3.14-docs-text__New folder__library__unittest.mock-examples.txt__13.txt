@@ -1,0 +1,5 @@
+replaces the class "Foo" with a mock. The "Foo" instance is the result
+of calling the mock, so it is configured by modifying the mock
+"return_value".
+   >>> def some_function():
+   ...     instance = module.Foo()

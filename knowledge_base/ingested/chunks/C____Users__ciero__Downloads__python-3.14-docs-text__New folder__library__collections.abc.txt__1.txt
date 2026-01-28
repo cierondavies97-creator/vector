@@ -1,0 +1,3 @@
+======================================================================
+This module provides *abstract base classes* that can be used to test
+whether a class provides a particular interface; for example, whether

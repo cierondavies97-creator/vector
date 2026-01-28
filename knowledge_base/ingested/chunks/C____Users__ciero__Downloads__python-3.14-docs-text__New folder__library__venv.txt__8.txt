@@ -1,0 +1,6 @@
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly
+platforms.
+Creating virtual environments
+=============================
+Virtual environments are created by executing the "venv" module:

@@ -1,0 +1,6 @@
+one argument must be supplied; if none are provided, the server
+   will return an error and an exception will be raised.
+IMAP4.unsubscribe(mailbox)
+   Unsubscribe from old mailbox.
+IMAP4.unselect()
+   "imaplib.IMAP4.unselect()" frees server's resources associated with

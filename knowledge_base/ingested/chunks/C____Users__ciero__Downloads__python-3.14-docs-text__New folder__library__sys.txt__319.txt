@@ -1,0 +1,4 @@
+of two calls, each of which must raise its own event.
+   Added in version 3.6: See **PEP 525** for more details, and for a
+   reference example of a *finalizer* method see the implementation of
+   "asyncio.Loop.shutdown_asyncgens" in Lib/asyncio/base_events.py

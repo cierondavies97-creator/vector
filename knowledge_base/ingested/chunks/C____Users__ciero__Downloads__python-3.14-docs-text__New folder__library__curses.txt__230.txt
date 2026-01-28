@@ -1,0 +1,3 @@
+| curses.KEY_SRESET         | Soft (partial) reset (unreliable)            |
++---------------------------+----------------------------------------------+
+| curses.KEY_RESET          | Reset or hard reset (unreliable)             |

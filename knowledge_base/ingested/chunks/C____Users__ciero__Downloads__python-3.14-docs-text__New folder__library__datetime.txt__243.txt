@@ -1,0 +1,4 @@
+>>> datetime.now(timezone.utc)
+   datetime.datetime(2007, 12, 6, 15, 29, 43, 79060, tzinfo=datetime.timezone.utc)
+   >>> # Using datetime.strptime()
+   >>> dt = datetime.strptime("21/11/06 16:30", "%d/%m/%y %H:%M")

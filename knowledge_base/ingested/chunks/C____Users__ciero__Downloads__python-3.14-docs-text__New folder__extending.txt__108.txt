@@ -1,0 +1,6 @@
+calling "PyErr_Clear()".  For example:
+   if (result == NULL)
+       return NULL; /* Pass error back */
+   ...use result...
+   Py_DECREF(result);
+Depending on the desired interface to the Python callback function,

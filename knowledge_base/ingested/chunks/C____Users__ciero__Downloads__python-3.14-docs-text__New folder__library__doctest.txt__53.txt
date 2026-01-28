@@ -1,0 +1,8 @@
+...
+     >>> print(f.__doc__)
+     Backslashes in a raw docstring: m\n
+* The starting column doesn't matter:
+     >>> assert "Easy!"
+           >>> import math
+               >>> math.floor(1.9)
+               1

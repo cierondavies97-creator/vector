@@ -1,0 +1,5 @@
+* "_add_alias_()" -- adds a new name as an alias to an existing
+  member.
+* "_add_value_alias_()" -- adds a new value as an alias to an existing
+  member.
+* While "_sunder_" names are generally reserved for the further

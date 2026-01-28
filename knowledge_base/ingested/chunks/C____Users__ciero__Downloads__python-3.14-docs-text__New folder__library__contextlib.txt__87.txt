@@ -1,0 +1,3 @@
+# closed automatically. If all files are opened successfully,
+             # they will remain open even after the with statement ends.
+             # close_files() can then be invoked explicitly to close them all.

@@ -1,0 +1,5 @@
+*key_type* equals to "'filename'" and "'lineno'".
+      The result is sorted from the biggest to the smallest by:
+      "Statistic.size", "Statistic.count" and then by
+      "Statistic.traceback".
+   traceback_limit

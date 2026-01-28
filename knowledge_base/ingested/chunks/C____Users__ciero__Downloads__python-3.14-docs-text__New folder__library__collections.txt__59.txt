@@ -1,0 +1,3 @@
+c.items()                       # access the (elem, cnt) pairs
+   Counter(dict(list_of_pairs))    # convert from a list of (elem, cnt) pairs
+   c.most_common()[:-n-1:-1]       # n least common elements

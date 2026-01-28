@@ -1,0 +1,5 @@
+A program is free to modify this list for its own purposes.  Only
+   strings should be added to "sys.path"; all other data types are
+   ignored during import.
+   See also:
+     * Module "site" This describes how to use .pth files to extend

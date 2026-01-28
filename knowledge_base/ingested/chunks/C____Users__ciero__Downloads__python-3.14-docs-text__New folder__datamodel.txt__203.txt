@@ -1,0 +1,2 @@
+|                                                    | if the class has no annotations. See also:         |
+|                                                    | "__annotate__ attributes".  Added in version 3.14. |

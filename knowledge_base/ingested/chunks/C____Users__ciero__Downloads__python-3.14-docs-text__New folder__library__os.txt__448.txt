@@ -1,0 +1,4 @@
+structure, namely: "f_bsize", "f_frsize", "f_blocks", "f_bfree",
+   "f_bavail", "f_files", "f_ffree", "f_favail", "f_flag",
+   "f_namemax", "f_fsid".
+   Two module-level constants are defined for the "f_flag" attribute's

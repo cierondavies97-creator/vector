@@ -1,0 +1,6 @@
+(Pdb) commands 1
+      (com) p some_variable
+      (com) end
+      (Pdb)
+   To remove all commands from a breakpoint, type "commands" and
+   follow it immediately with "end"; that is, give no commands.

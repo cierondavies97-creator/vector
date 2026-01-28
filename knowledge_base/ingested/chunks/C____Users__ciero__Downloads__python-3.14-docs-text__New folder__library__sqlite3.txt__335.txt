@@ -1,0 +1,4 @@
+table columns with the "TEXT" data type containing non-UTF-8
+encodings, or even arbitrary data. To demonstrate, let's assume we
+have a database with ISO-8859-2 (Latin-2) encoded text, for example a
+table of Czech-English dictionary entries. Assuming we now have a

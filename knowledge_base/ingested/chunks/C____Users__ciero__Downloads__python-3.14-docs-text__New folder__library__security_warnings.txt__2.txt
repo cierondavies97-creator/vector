@@ -1,0 +1,5 @@
+* "multiprocessing": Connection.recv() uses pickle
+* "pickle": Restricting globals in pickle
+* "random" shouldn't be used for security purposes, use "secrets"
+  instead
+* "shelve": shelve is based on pickle and thus unsuitable for dealing

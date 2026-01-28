@@ -1,0 +1,5 @@
+Added in version 3.3.
+The "signal" module defines one exception:
+exception signal.ItimerError
+   Raised to signal an error from the underlying "setitimer()" or
+   "getitimer()" implementation. Expect this error if an invalid

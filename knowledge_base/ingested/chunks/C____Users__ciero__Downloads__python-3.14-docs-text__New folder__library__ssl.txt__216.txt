@@ -1,0 +1,4 @@
+how the certificate is stored in the *certfile*.
+   The *password* argument may be a function to call to get the
+   password for decrypting the private key.  It will only be called if
+   the private key is encrypted and a password is necessary.  It will

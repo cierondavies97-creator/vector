@@ -1,0 +1,6 @@
+qualified names as they appear in the original document.  This
+   class implements the "AttributesNS" interface (see section The
+   AttributesNS Interface).
+XMLReader Objects
+=================
+The "XMLReader" interface supports the following methods:

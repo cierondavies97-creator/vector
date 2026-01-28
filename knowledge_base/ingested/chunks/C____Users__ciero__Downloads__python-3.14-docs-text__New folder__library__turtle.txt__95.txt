@@ -1,0 +1,8 @@
+>>> turtle.distance(joe)
+      77.0
+Settings for measurement
+------------------------
+turtle.degrees(fullcircle=360.0)
+   Parameters:
+      **fullcircle** -- a number
+   Set angle measurement units, i.e. set number of "degrees" for a

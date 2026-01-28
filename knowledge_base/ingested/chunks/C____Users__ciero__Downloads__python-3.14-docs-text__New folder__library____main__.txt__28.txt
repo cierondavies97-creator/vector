@@ -1,0 +1,6 @@
+the tutorial.  Most commonly, the "__main__.py" file is used to
+provide a command-line interface for a package. Consider the following
+hypothetical package, "bandclass":
+   bandclass
+     ├── __init__.py
+     ├── __main__.py

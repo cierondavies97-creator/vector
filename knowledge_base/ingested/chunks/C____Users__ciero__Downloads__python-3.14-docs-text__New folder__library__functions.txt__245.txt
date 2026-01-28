@@ -1,0 +1,3 @@
+The type of *file object* returned by the "open()" function depends
+   on the mode.  When "open()" is used to open a file in a text mode
+   ("'w'", "'r'", "'wt'", "'rt'", etc.), it returns a subclass of

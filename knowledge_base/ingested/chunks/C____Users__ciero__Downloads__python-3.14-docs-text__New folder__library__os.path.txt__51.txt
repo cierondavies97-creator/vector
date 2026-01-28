@@ -1,0 +1,4 @@
+'d:\\bar'
+   Note that since there is a current directory for each drive,
+   "os.path.join("c:", "foo")" represents a path relative to the
+   current directory on drive "C:" ("c:foo"), not "c:\foo".

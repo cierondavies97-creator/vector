@@ -1,0 +1,4 @@
+version cookie-attribute of 1) are treated according to the RFC
+   2965 rules.  However, if RFC 2965 handling is turned off or
+   "rfc2109_as_netscape" is "True", RFC 2109 cookies are 'downgraded'
+   by the "CookieJar" instance to Netscape cookies, by setting the

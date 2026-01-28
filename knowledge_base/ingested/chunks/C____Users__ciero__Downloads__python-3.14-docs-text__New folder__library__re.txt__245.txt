@@ -1,0 +1,3 @@
+represented as a 5-character string with each character representing a
+card, "a" for ace, "k" for king, "q" for queen, "j" for jack, "t" for
+10, and "2" through "9" representing the card with that value.

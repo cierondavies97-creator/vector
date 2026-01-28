@@ -1,0 +1,4 @@
+handled incorrectly.
+[2] The "__hash__()", "__iter__()", "__reversed__()",
+    "__contains__()", "__class_getitem__()" and "__fspath__()" methods
+    have special handling for this. Others will still raise a

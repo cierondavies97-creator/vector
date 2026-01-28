@@ -1,0 +1,4 @@
+confusion, the terms used here are "pickling" and "unpickling".
+Warning:
+  The "pickle" module **is not secure**. Only unpickle data you
+  trust.It is possible to construct malicious pickle data which will

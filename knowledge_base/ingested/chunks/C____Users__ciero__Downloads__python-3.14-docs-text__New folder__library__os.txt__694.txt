@@ -1,0 +1,5 @@
+the function cannot be resolved, "NotImplementedError" will be
+   raised.
+   Raises an auditing event "os.startfile" with arguments "path",
+   "operation".
+   Raises an auditing event "os.startfile/2" with arguments "path",

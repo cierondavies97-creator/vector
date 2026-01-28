@@ -1,0 +1,5 @@
+Added in version 3.1.
+itertools.count(start=0, step=1)
+   Make an iterator that returns evenly spaced values beginning with
+   *start*. Can be used with "map()" to generate consecutive data
+   points or with "zip()" to add sequence numbers.  Roughly equivalent

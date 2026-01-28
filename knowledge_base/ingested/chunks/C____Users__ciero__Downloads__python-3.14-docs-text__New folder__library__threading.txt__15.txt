@@ -1,0 +1,4 @@
+execute Python bytecode at a time. Despite this, threads remain a
+useful tool for achieving concurrency in many scenarios.
+As of Python 3.13, *free-threaded* builds can disable the GIL,
+enabling true parallel execution of threads, but this feature is not

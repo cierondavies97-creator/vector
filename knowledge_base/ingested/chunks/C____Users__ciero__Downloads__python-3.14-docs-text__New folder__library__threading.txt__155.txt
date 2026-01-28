@@ -1,0 +1,4 @@
+any.  If the calling thread has not acquired the lock when this
+      method is called, a "RuntimeError" is raised.
+      This method wakes up at most *n* of the threads waiting for the
+      condition variable; it is a no-op if no threads are waiting.

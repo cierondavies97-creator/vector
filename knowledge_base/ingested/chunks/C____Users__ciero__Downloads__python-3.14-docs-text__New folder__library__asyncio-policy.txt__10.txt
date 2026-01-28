@@ -1,0 +1,5 @@
+asyncio ships with the following built-in policies:
+class asyncio.DefaultEventLoopPolicy
+   The default asyncio policy.  Uses "SelectorEventLoop" on Unix and
+   "ProactorEventLoop" on Windows.
+   There is no need to install the default policy manually. asyncio is

@@ -1,0 +1,6 @@
+body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])
+   Added in version 3.10.
+class ast.MatchStar(name)
+   Matches the rest of the sequence in a variable length match

@@ -1,0 +1,2 @@
+| "MutableSequence"              | "Sequence"             | "__getitem__",          | Inherited "Sequence" methods and "append", "clear",  |
+|                                |                        | "__setitem__",          | "reverse", "extend", "pop", "remove", and "__iadd__" |

@@ -1,0 +1,3 @@
+silently if the user has permission.  The operation may fail on
+   some Unix flavors if *src* and *dst* are on different filesystems.
+   If successful, the renaming will be an atomic operation (this is a

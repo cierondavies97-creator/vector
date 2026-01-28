@@ -1,0 +1,5 @@
+(default: octal "0o666"), used only when the database has to
+        be created.
+   Raises:
+      **error** -- If an invalid *flag* argument is passed.
+   Changed in version 3.11: *filename* accepts a *path-like object*.

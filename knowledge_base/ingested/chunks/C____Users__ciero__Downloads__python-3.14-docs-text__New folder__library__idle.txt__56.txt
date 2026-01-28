@@ -1,0 +1,5 @@
+Key bindings
+------------
+The IDLE insertion cursor is a thin vertical bar between character
+positions.  When characters are entered, the insertion cursor and
+everything to its right moves right one character and the new

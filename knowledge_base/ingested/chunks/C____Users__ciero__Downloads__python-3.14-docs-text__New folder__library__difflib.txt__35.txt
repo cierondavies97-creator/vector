@@ -1,0 +1,13 @@
+***************
+   *** 1,4 ****
+   ! bacon
+   ! eggs
+   ! ham
+     guido
+   --- 1,4 ----
+   ! python
+   ! eggy
+   ! hamster
+     guido
+   See A command-line interface to difflib for a more detailed
+   example.

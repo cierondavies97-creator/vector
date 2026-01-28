@@ -1,0 +1,8 @@
+frozenset.union(*others)
+set.union(*others)
+set | other | ...
+   Return a new set with elements from the set and all others.
+frozenset.intersection(*others)
+set.intersection(*others)
+set & other & ...
+   Return a new set with elements common to the set and all others.

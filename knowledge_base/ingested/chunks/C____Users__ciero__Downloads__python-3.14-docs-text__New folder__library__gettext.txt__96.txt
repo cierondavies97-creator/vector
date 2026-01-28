@@ -1,0 +1,6 @@
+the "-k" command-line switch. The choice of "N_()" here is totally
+arbitrary; it could have just as easily been
+"MarkThisStringForTranslation()".
+Acknowledgements
+================
+The following people contributed code, feedback, design suggestions,

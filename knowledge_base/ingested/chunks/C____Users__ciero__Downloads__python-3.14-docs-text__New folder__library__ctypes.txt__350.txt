@@ -1,0 +1,4 @@
+Python objects that need to be kept alive in case the memory block
+   contains pointers.
+   Common methods of ctypes data types, these are all class methods
+   (to be exact, they are methods of the *metaclass*):

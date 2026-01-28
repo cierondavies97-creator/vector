@@ -1,0 +1,1 @@
+* "encodings.utf_8_sig" --- UTF-8 codec with BOM signature

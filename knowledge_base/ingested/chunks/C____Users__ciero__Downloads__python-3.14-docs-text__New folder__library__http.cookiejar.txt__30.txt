@@ -1,0 +1,4 @@
+appropriate (subject to the "CookiePolicy.set_ok()" method's
+   approval).
+   The *response* object (usually the result of a call to
+   "urllib.request.urlopen()", or similar) should support an "info()"

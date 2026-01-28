@@ -1,0 +1,6 @@
+functions.
+percall
+   is the quotient of "cumtime" divided by primitive calls
+filename:lineno(function)
+   provides the respective data of each function
+When there are two numbers in the first column (for example "3/1"), it

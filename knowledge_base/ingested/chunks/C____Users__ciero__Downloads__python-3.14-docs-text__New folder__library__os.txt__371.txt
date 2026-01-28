@@ -1,0 +1,4 @@
+"os.DirEntry.stat()" always requires a system call on Unix but only
+   requires one for symbolic links on Windows.
+   *path* may be a *path-like object*.  If *path* is of type "bytes"
+   (directly or indirectly through the "PathLike" interface), the type

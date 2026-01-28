@@ -1,0 +1,7 @@
+print('\t', x)
+           print()
+           print('Unordered results using pool.imap_unordered():')
+           for x in imap_unordered_it:
+               print('\t', x)
+           print()
+           print('Ordered results using pool.map() --- will block till complete:')

@@ -1,0 +1,5 @@
+has no effect.  Disabling reflection for a key does not affect
+   reflection of any subkeys.
+   Raises an auditing event "winreg.DisableReflectionKey" with
+   argument "key".
+winreg.EnableReflectionKey(key)

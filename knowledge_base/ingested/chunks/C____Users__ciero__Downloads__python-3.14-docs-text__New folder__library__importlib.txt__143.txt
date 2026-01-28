@@ -1,0 +1,6 @@
+make sure to call "importlib.invalidate_caches()".
+   Added in version 3.3.
+   path
+      The path the finder will search in.
+   find_spec(fullname, target=None)
+      Attempt to find the spec to handle *fullname* within "path".

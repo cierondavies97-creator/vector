@@ -1,0 +1,5 @@
+order, this is a no-op; otherwise, it performs a 4-byte swap
+   operation.
+socket.ntohs(x)
+   Convert 16-bit positive integers from network to host byte order.
+   On machines where the host byte order is the same as network byte

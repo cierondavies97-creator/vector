@@ -1,0 +1,4 @@
+Raises "PackageNotFoundError" if the named distribution package is
+   not installed in the current Python environment.
+class importlib.metadata.PackageMetadata
+   A concrete implementation of the PackageMetadata protocol.

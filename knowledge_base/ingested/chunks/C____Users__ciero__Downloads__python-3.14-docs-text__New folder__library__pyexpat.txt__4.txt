@@ -1,0 +1,5 @@
+The exception raised when Expat reports an error.  See section
+   ExpatError Exceptions for more information on interpreting Expat
+   errors.
+exception xml.parsers.expat.error
+   Alias for "ExpatError".

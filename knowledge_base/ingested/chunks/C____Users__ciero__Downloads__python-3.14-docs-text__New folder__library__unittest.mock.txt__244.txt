@@ -1,0 +1,4 @@
+'fish'
+"patch.dict()" can be used with dictionary like objects that aren't
+actually dictionaries. At the very minimum they must support item
+getting, setting, deleting and either iteration or membership test.

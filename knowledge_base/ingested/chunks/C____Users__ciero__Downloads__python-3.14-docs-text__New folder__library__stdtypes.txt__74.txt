@@ -1,0 +1,5 @@
+integer is given, an "OverflowError" is raised. The default value
+   for *signed* is "False".
+   The default values can be used to conveniently turn an integer into
+   a single byte object:
+      >>> (65).to_bytes()

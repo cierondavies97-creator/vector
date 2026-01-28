@@ -1,0 +1,6 @@
+# Clean up - no longer needed
+           os.unlink(distpath)
+       def install_setuptools(self, context):
+           """
+           Install setuptools in the virtual environment.
+           :param context: The information for the virtual environment

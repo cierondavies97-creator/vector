@@ -1,0 +1,4 @@
+>>> parser.parse_args('--foo --bar'.split())
+     Namespace(foo=True, bar=False, baz=True)
+* "'append'" - This appends each argument value to a list. It is
+  useful for allowing an option to be specified multiple times. If the

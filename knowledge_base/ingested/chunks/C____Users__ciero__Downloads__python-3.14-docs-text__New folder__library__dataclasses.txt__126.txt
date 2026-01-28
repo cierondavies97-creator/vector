@@ -1,0 +1,4 @@
+Changed in version 3.11: Instead of looking for and disallowing
+objects of type "list", "dict", or "set", unhashable objects are now
+not allowed as default values.  Unhashability is used to approximate
+mutability.

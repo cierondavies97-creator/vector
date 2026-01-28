@@ -1,0 +1,4 @@
+interesting calls to experiment with:
+   p.sort_stats(SortKey.CUMULATIVE).print_stats(10)
+This sorts the profile by cumulative time in a function, and then only
+prints the ten most significant lines.  If you want to understand what

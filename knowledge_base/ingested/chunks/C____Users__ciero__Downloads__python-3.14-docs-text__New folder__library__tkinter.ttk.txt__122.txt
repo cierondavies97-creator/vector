@@ -1,0 +1,3 @@
++------------+-----------------------------------------------------------------+
+| value      | The current value of the progress bar. In "determinate" mode,   |
+|            | this represents the amount of work completed. In                |

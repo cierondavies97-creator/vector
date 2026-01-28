@@ -1,0 +1,5 @@
+works with sequences of unhashable objects as well.
+      Added in version 3.2.
+   assertStartsWith(s, prefix, msg=None)
+   assertNotStartsWith(s, prefix, msg=None)
+      Test that the Unicode or byte string *s* starts (or does not

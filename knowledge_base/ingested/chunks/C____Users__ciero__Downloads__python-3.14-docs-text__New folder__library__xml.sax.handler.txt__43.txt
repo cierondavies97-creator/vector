@@ -1,0 +1,4 @@
+passed as *attrs* may be re-used by the parser; holding on to a
+   reference to it is not a reliable way to keep a copy of the
+   attributes.  To keep a copy of the attributes, use the "copy()"
+   method of the *attrs* object.

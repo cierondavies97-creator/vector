@@ -1,0 +1,9 @@
+print(f"{val} * 2 is {double(val)}")
+The debugger's prompt is "(Pdb)", which is the indicator that you are
+in debug mode:
+   > ...(2)double()
+   -> breakpoint()
+   (Pdb) p x
+   3
+   (Pdb) continue
+   3 * 2 is 6

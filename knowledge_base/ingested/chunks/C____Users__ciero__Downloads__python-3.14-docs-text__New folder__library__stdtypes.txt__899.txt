@@ -1,0 +1,6 @@
+File "<stdin>", line 1, in <module>
+   AttributeError: 'method' object has no attribute 'whoami'
+   >>> c.method.__func__.whoami = 'my name is method'
+   >>> c.method.whoami
+   'my name is method'
+See Instance methods for more information.

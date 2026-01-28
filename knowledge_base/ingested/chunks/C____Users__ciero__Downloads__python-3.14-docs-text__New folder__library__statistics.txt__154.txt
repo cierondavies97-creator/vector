@@ -1,0 +1,4 @@
+independent normally distributed random variables represented as
+   instances of "NormalDist".  For example:
+      >>> birth_weights = NormalDist.from_samples([2.5, 3.1, 2.1, 2.4, 2.7, 3.5])
+      >>> drug_effects = NormalDist(0.4, 0.15)

@@ -1,0 +1,5 @@
+"xml.parsers.expat" --- Fast XML parsing using Expat
+****************************************************
+======================================================================
+Note:
+  If you need to parse untrusted or unauthenticated data, see XML

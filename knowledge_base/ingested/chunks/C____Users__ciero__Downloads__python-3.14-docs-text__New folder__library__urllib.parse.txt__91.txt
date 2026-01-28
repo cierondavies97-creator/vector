@@ -1,0 +1,4 @@
+manipulate properly quoted and encoded URLs as sequences of ASCII
+bytes. Accordingly, the URL parsing functions in this module all
+operate on "bytes" and "bytearray" objects in addition to "str"
+objects.

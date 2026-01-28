@@ -1,0 +1,5 @@
+For each argument, if the value is not found, return "None".
+sysconfig.get_config_var(name)
+   Return the value of a single variable *name*. Equivalent to
+   "get_config_vars().get(name)".
+   If *name* is not found, return "None".

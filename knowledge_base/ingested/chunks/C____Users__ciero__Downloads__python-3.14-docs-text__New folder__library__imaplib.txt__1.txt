@@ -1,0 +1,3 @@
+"IMAP4_stream", which encapsulate a connection to an IMAP4 server and
+implement a large subset of the IMAP4rev1 client protocol as defined
+in **RFC 2060**. It is backward compatible with IMAP4 (**RFC 1730**)

@@ -1,0 +1,6 @@
+"TypeError" exception.
+      Changed in version 3.5: Writable *bytes-like object* is now
+      accepted.
+      Changed in version 3.6: The number of bytes written is now
+      returned.
+   write_byte(byte)

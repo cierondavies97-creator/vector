@@ -1,0 +1,5 @@
+type matching *typekey* is passed to "set_content()".  For the
+      possible values of *typekey*, see "set_content()".
+Content Manager Instances
+=========================
+Currently the email package provides only one concrete content

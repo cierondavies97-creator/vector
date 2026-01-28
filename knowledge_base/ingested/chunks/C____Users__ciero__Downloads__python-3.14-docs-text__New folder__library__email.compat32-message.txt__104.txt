@@ -1,0 +1,5 @@
+The returned string will always be unquoted as per
+      "email.utils.unquote()".
+   get_boundary(failobj=None)
+      Return the value of the "boundary" parameter of the *Content-
+      Type* header of the message, or *failobj* if either the header

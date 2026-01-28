@@ -1,0 +1,5 @@
+It is an error if *buffer_callback* is not "None" and *protocol* is
+   "None" or smaller than 5.
+   Changed in version 3.8: The *buffer_callback* argument was added.
+   dump(obj)
+      Write the pickled representation of *obj* to the open file

@@ -1,0 +1,3 @@
+directory holding the package's "__init__.py" before the code in that
+file is executed.  This variable can be modified; doing so affects
+future searches for modules and subpackages contained in the package.

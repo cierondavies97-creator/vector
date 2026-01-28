@@ -1,0 +1,5 @@
+setattr(parser.values, option.dest, 1)
+   ...
+   parser.add_option("-a", action="callback", callback=check_order, dest='a')
+   parser.add_option("-b", action="store_true", dest="b")
+   parser.add_option("-c", action="callback", callback=check_order, dest='c')

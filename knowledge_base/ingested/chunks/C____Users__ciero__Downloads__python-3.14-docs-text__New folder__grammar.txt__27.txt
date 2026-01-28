@@ -1,0 +1,5 @@
+stmt_ty,
+               6,
+               "Variable annotation syntax is",
+               _PyAST_AnnAssign(CHECK(expr_ty, _PyPegen_set_expr_context(p, a, Store)), b, c, 1, EXTRA)
+           ) }

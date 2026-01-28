@@ -1,0 +1,6 @@
+#define PY_SSIZE_T_CLEAN
+   #include <Python.h>
+which pulls in the Python API (you can add a comment describing the
+purpose of the module and a copyright notice if you like).
+Note:
+  Since Python may define some pre-processor definitions which affect

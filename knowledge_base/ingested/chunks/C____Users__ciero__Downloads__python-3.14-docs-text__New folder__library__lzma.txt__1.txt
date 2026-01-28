@@ -1,0 +1,3 @@
+This module provides classes and convenience functions for compressing
+and decompressing data using the LZMA compression algorithm. Also
+included is a file interface supporting the ".xz" and legacy ".lzma"

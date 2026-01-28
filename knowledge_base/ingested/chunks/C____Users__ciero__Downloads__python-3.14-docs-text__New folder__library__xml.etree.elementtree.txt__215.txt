@@ -1,0 +1,4 @@
+"xml.parsers.expat.xmlparser.SetReparseDeferralEnabled()" for
+      details.
+      Note that "flush()" has been backported to some prior releases
+      of CPython as a security fix.  Check for availability of

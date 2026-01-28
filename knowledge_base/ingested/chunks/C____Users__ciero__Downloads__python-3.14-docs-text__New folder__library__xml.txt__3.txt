@@ -1,0 +1,5 @@
+The XML handling submodules are:
+* "xml.etree.ElementTree": the ElementTree API, a simple and
+  lightweight XML processor
+* "xml.dom": the DOM API definition
+* "xml.dom.minidom": a minimal DOM implementation

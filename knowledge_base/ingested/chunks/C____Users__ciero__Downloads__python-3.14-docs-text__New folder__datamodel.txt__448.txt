@@ -1,0 +1,4 @@
+by *__slots__*; otherwise, the class attribute would overwrite the
+  descriptor assignment.
+* The action of a *__slots__* declaration is not limited to the class
+  where it is defined.  *__slots__* declared in parents are available

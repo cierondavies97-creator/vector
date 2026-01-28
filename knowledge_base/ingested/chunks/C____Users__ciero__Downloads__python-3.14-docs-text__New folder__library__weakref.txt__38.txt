@@ -1,0 +1,5 @@
+as specified in **PEP 584**.
+"WeakValueDictionary" objects have an additional method that has the
+same issues as the "WeakKeyDictionary.keyrefs()" method.
+WeakValueDictionary.valuerefs()
+   Return an iterable of the weak references to the values.

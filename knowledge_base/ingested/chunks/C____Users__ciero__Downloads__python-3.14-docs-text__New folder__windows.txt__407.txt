@@ -1,0 +1,4 @@
+For example, if the first line of your script starts with
+   #! /usr/bin/python
+The default Python or an active virtual environment will be located
+and used. As many Python scripts written to work on Unix will already

@@ -1,0 +1,4 @@
+offsets (obtained from "self.utcoffset()").
+Changed in version 3.3: Equality comparisons between aware and naive
+"time" instances don't raise "TypeError".
+In Boolean contexts, a "time" object is always considered to be true.

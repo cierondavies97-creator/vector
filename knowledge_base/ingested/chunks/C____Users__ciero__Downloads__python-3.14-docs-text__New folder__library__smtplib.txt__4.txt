@@ -1,0 +1,4 @@
+"connect()" method is called with those parameters during
+   initialization.  If specified, *local_hostname* is used as the FQDN
+   of the local host in the HELO/EHLO command.  Otherwise, the local
+   hostname is found using "socket.getfqdn()".  If the "connect()"

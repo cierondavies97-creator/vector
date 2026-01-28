@@ -1,0 +1,5 @@
+------------------
+Adding new actions is a bit trickier, because you have to understand
+that "optparse" has a couple of classifications for actions:
+"store" actions
+   actions that result in "optparse" storing a value to an attribute

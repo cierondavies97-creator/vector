@@ -1,0 +1,4 @@
+variables) will be reflected in "globs" after the test is run.
+   name
+      A string name identifying the "DocTest".  Typically, this is the
+      name of the object or file that the test was extracted from.

@@ -1,0 +1,3 @@
+file to parse.  If no argument is given, the file ".netrc" in the
+   user's home directory -- as determined by "os.path.expanduser()" --
+   will be read.  Otherwise, a "FileNotFoundError" exception will be

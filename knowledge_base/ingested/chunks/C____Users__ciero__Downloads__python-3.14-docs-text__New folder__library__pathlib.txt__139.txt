@@ -1,0 +1,3 @@
+different device than *path*, or whether "path/.." and *path* point
+   to the same i-node on the same device --- this should detect mount
+   points for all Unix and POSIX variants.  On Windows, a mount point

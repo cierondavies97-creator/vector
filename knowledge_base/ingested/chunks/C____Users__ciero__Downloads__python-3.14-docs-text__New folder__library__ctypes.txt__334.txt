@@ -1,0 +1,3 @@
+in order to set a custom pointer type. However, doing this is
+   discouraged: manually creating a suitable pointer type is difficult
+   without relying on implementation details that may change in future

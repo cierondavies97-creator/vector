@@ -1,0 +1,5 @@
+Peter Norvig covering the basics of probability theory, how to write
+  simulations, and how to perform data analysis using Python.
+Recipes
+=======
+These recipes show how to efficiently make random selections from the

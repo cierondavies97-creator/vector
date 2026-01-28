@@ -1,0 +1,5 @@
+Changed in version 3.11: The "__exit__" function is in position 4
+   of the stack rather than 7. Exception representation on the stack
+   now consist of one, not three, items.
+LOAD_COMMON_CONSTANT
+   Pushes a common constant onto the stack. The interpreter contains a

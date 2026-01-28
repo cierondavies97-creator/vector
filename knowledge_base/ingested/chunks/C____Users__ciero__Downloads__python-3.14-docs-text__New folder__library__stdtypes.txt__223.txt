@@ -1,0 +1,4 @@
+argument.
+   Tuples implement all of the common sequence operations.
+For heterogeneous collections of data where access by name is clearer
+than access by index, "collections.namedtuple()" may be a more

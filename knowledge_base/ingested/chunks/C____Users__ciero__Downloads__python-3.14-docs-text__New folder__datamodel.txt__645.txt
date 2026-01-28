@@ -1,0 +1,4 @@
+"None" if you want to force fallback to the right operand's
+    reflected method—that will instead have the opposite effect of
+    explicitly *blocking* such fallback.
+[4] For operands of the same type, it is assumed that if the non-

@@ -1,0 +1,3 @@
+would automatically sort the dictionaries' keys, you might want to
+   use "pp()" instead where it is "False" by default.
+pprint.pformat(object, indent=1, width=80, depth=None, *, compact=False, sort_dicts=True, underscore_numbers=False)

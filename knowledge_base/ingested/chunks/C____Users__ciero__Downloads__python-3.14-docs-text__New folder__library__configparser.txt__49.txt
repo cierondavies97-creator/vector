@@ -1,0 +1,4 @@
+class configparser.ExtendedInterpolation
+   An alternative handler for interpolation which implements a more
+   advanced syntax, used for instance in "zc.buildout".  Extended
+   interpolation is using "${section:option}" to denote a value from a

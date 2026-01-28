@@ -1,0 +1,5 @@
+library has been deinitialized).
+curses.keyname(k)
+   Return the name of the key numbered *k* as a bytes object.  The
+   name of a key generating printable ASCII character is the key's
+   character.  The name of a control-key combination is a two-byte

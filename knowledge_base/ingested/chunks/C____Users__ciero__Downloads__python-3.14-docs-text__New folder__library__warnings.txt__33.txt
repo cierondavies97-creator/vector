@@ -1,0 +1,3 @@
++-----------------+------------------------------------------------+
+  | ""module""      | print the first occurrence of matching         |
+  |                 | warnings for each module where the warning is  |

@@ -1,0 +1,4 @@
+This flag indicates that the file descriptor will be non-
+      blocking. If the process referred to by the file descriptor has
+      not yet terminated, then an attempt to wait on the file
+      descriptor using *waitid(2)* will immediately return the error

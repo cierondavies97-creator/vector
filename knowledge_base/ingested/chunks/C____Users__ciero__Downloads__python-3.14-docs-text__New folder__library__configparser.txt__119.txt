@@ -1,0 +1,6 @@
+>>> custom.read_string(config)
+      >>> custom.sections()
+      ['Section 1', 'Section 2']
+   Note:
+     While ConfigParser objects also use an "OPTCRE" attribute for
+     recognizing option lines, it's not recommended to override it

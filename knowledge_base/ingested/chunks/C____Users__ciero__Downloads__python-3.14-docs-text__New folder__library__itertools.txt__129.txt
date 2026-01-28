@@ -1,0 +1,6 @@
+'a'
+      >>> lookahead(iterator)             # Check next value
+      'b'
+      >>> next(iterator)                  # Continue moving forward
+      'b'
+   "tee" iterators are not threadsafe. A "RuntimeError" may be raised

@@ -1,0 +1,4 @@
+Here's a slightly more interesting example: record the fact that "-a"
+is seen, but blow up if it comes after "-b" in the command-line.
+   def check_order(option, opt_str, value, parser):
+       if parser.values.b:

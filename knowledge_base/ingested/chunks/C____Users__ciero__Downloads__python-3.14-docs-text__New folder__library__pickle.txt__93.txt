@@ -1,0 +1,3 @@
+add methods to the class and still load objects that were created with
+an earlier version of the class.  If you plan to have long-lived
+objects that will see many versions of a class, it may be worthwhile

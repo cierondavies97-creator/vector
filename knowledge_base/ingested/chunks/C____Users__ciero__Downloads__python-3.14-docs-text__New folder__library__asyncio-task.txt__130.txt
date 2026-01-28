@@ -1,0 +1,4 @@
+*asynchronous iterator* or a plain *iterator*. When asynchronous
+   iteration is used, the originally-supplied awaitables are yielded
+   if they are tasks or futures. This makes it easy to correlate
+   previously-scheduled tasks with their results. Example:

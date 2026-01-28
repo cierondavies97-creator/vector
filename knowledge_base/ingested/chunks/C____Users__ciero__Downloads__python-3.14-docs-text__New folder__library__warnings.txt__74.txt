@@ -1,0 +1,3 @@
+make sure to test their code with typically ignored warnings made
+visible in order to receive timely notifications of future breaking
+API changes (whether in the standard library or third party packages).

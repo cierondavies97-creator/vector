@@ -1,0 +1,4 @@
+sized numbers and the Number Theoretic Transform for very large
+numbers.
+The context must be adapted for exact arbitrary precision arithmetic.
+"Emin" and "Emax" should always be set to the maximum values, "clamp"

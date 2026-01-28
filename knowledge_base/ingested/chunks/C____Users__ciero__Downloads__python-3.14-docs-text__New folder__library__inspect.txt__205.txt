@@ -1,0 +1,4 @@
+arguments are not accepted. *varkw* is the name of the "**"
+   parameter or "None" if arbitrary keyword arguments are not
+   accepted. *defaults* is an *n*-tuple of default argument values
+   corresponding to the last *n* positional parameters, or "None" if

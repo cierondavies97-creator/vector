@@ -1,0 +1,5 @@
+attr='b',
+                      ctx=Store()),
+                  annotation=Name(id='int', ctx=Load()),
+                  simple=0)])
+      >>> print(ast.dump(ast.parse('a[1]: int'), indent=4)) # Subscript annotation

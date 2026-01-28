@@ -1,0 +1,8 @@
+As an "Element", "root" has a tag and a dictionary of attributes:
+   >>> root.tag
+   'data'
+   >>> root.attrib
+   {}
+It also has children nodes over which we can iterate:
+   >>> for child in root:
+   ...     print(child.tag, child.attrib)

@@ -1,0 +1,7 @@
+...     return (x * y).quantize(fp)
+...
+>>> def div(x, y, fp=TWOPLACES):
+...     return (x / y).quantize(fp)
+>>> mul(a, b)                       # Automatically preserve fixed-point
+Decimal('325.62')
+>>> div(b, a)

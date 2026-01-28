@@ -1,0 +1,4 @@
+round-half-to-even tiebreaker. If no argument is a float, the
+   conversion and normalization processes are exact (no information is
+   lost).
+   If the normalized value of days lies outside the indicated range,

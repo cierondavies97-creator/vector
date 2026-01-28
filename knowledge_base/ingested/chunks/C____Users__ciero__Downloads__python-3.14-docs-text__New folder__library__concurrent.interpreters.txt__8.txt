@@ -1,0 +1,4 @@
+current exception and the bytecode eval loop.)
+The concept and functionality of the interpreter have been a part of
+Python since version 2.2, but the feature was only available through
+the C-API and not well known, and the isolation was relatively

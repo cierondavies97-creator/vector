@@ -1,0 +1,5 @@
+in a Menu widget.
+Entry widget indexes (index, view index, etc.)
+   Entry widgets have options that refer to character positions in the
+   text being displayed.  You can use these "tkinter" functions to
+   access these special points in text widgets:

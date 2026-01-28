@@ -1,0 +1,6 @@
+extensions.)
+Print Window
+   Print the current window to the default printer.
+Close Window
+   Close the current window (if an unsaved editor, ask to save; if an
+   unsaved Shell, ask to quit execution).  Calling "exit()" or

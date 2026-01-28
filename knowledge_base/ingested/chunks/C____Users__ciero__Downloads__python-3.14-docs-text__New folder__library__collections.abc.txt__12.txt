@@ -1,0 +1,7 @@
+def __iter__(self): ...
+          def __next__(self): ...
+      >>> issubclass(E, Iterable)
+      True
+      >>> isinstance(E(), Iterable)
+      True
+   Complex interfaces do not support this last technique because an

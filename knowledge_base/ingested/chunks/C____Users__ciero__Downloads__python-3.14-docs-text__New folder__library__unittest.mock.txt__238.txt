@@ -1,0 +1,5 @@
+>>> @patch.dict('os.environ', {'newkey': 'newvalue'})
+... class TestSample(unittest.TestCase):
+...     def test_sample(self):
+...         self.assertEqual(os.environ['newkey'], 'newvalue')
+If you want to use a different prefix for your test, you can inform

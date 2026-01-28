@@ -1,0 +1,7 @@
+this method does nothing.
+   lock()
+   unlock()
+      Maildir mailboxes do not support (or require) locking, so these
+      methods do nothing.
+   close()
+      "Maildir" instances do not keep any open files and the

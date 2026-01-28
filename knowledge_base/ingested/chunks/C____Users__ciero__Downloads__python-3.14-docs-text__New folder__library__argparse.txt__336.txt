@@ -1,0 +1,4 @@
+>>> parser.parse_known_args(['--foo', '--badger', 'BAR', 'spam'])
+      (Namespace(bar='BAR', foo=True), ['--badger', 'spam'])
+Warning:
+  Prefix matching rules apply to "parse_known_args()". The parser may

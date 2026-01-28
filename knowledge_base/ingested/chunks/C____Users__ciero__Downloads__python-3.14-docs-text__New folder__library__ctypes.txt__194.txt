@@ -1,0 +1,5 @@
+(indicated by the negative "size" member) is not well known, it is
+only used for testing. Try it out with "import __hello__" for example.
+Surprises
+---------
+There are some edges in "ctypes" where you might expect something

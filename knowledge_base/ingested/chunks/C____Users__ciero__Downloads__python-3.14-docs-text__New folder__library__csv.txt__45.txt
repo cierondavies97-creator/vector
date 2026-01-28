@@ -1,0 +1,6 @@
+quoting all fields.  It is registered with the dialect name
+   "'unix'".
+   Added in version 3.2.
+class csv.Sniffer
+   The "Sniffer" class is used to deduce the format of a CSV file.
+   The "Sniffer" class provides two methods:

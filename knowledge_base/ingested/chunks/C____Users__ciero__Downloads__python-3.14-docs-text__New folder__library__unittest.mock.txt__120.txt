@@ -1,0 +1,5 @@
+[call(), call(6)]
+Because of the way mock attributes are stored you can't directly
+attach a "PropertyMock" to a mock object. Instead you can attach it to
+the mock type object:
+   >>> m = MagicMock()

@@ -1,0 +1,5 @@
+import http.cookiejar, urllib.request
+   cj = http.cookiejar.CookieJar()
+   opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+   r = opener.open("http://example.com/")
+This example illustrates how to open a URL using your Netscape,

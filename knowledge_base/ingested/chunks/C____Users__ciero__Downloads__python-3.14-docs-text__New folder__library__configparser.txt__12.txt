@@ -1,0 +1,9 @@
+True
+   >>> 'python.org' in config
+   False
+   >>> config['forge.example']['User']
+   'hg'
+   >>> config['DEFAULT']['Compression']
+   'yes'
+   >>> topsecret = config['topsecret.server.example']
+   >>> topsecret['ForwardX11']

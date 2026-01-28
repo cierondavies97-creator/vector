@@ -1,0 +1,3 @@
+"signal.ITIMER_VIRTUAL" or "signal.ITIMER_PROF") specified by
+   *which* to fire after *seconds* (float is accepted, different from
+   "alarm()") and after that every *interval* seconds (if *interval*

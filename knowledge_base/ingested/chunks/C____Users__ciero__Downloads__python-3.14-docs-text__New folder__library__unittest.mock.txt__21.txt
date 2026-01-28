@@ -1,0 +1,6 @@
+for you (well, all the useful ones anyway).
+The following is an example of using magic methods with the ordinary
+Mock class:
+>>> mock = Mock()
+>>> mock.__str__ = Mock(return_value='wheeeeee')
+>>> str(mock)

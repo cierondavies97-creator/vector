@@ -1,0 +1,7 @@
+iteration, are never atomic. For example:
+   # NOT atomic: read-modify-write
+   lst[i] = lst[i] + 1
+   # NOT atomic: check-then-act
+   if lst:
+       item = lst.pop()
+   # NOT thread-safe: iteration while modifying

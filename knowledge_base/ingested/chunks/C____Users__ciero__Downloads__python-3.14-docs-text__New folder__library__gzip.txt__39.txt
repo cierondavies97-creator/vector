@@ -1,0 +1,6 @@
+Example of how to create a compressed GZIP file:
+   import gzip
+   content = b"Lots of content here"
+   with gzip.open('/home/joe/file.txt.gz', 'wb') as f:
+       f.write(content)
+Example of how to GZIP compress an existing file:

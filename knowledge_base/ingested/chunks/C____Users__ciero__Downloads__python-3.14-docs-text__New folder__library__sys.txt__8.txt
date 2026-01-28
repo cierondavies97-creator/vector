@@ -1,0 +1,4 @@
+should be completely removed or closely monitored.
+   Calling "sys.addaudithook()" will itself raise an auditing event
+   named "sys.addaudithook" with no arguments. If any existing hooks
+   raise an exception derived from "RuntimeError", the new hook will

@@ -1,0 +1,9 @@
+"tar", and "data").
+Examples
+========
+Reading examples
+----------------
+How to extract an entire tar archive to the current working directory:
+   import tarfile
+   tar = tarfile.open("sample.tar.gz")
+   tar.extractall(filter='data')

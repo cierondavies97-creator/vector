@@ -1,0 +1,6 @@
+Added in version 3.7.
+gc.get_freeze_count()
+   Return the number of objects in the permanent generation.
+   Added in version 3.7.
+The following variables are provided for read-only access (you can
+mutate the values but should not rebind them):

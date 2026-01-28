@@ -1,0 +1,8 @@
+for the module.
+   Added in version 3.3.
+   name
+      The name of the module the loader can handle.
+   path
+      Path to the file of the module.
+   load_module(fullname)
+      Calls super's "load_module()".

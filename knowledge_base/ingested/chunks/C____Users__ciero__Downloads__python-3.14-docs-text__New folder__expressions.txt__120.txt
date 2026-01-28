@@ -1,0 +1,4 @@
+with an "__anext__()" method, the current yield expression always
+   evaluates to "None" in the returned awaitable, which when run will
+   continue to the next yield expression. The value of the
+   "yield_list" of the yield expression is the value of the

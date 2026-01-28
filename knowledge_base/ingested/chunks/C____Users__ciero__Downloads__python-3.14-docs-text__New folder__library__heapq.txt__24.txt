@@ -1,0 +1,5 @@
+behavior similar to "sorted(itertools.chain(*iterables),
+   reverse=True)", all iterables must be sorted from largest to
+   smallest.
+   Changed in version 3.5: Added the optional *key* and *reverse*
+   parameters.

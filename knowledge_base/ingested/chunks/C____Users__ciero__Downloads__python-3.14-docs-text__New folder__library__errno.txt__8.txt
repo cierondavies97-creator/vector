@@ -1,0 +1,9 @@
+errno.EEXIST
+   File exists. This error is mapped to the exception
+   "FileExistsError".
+errno.EXDEV
+   Cross-device link
+errno.ENODEV
+   No such device
+errno.ENOTDIR
+   Not a directory. This error is mapped to the exception

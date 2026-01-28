@@ -1,0 +1,4 @@
+that SQLite natively understands.
+sqlite3.register_converter(typename, converter, /)
+   Register the *converter* *callable* to convert SQLite objects of
+   type *typename* into a Python object of a specific type. The

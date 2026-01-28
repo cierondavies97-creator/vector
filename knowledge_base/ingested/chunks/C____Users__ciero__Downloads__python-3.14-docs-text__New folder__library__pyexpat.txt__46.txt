@@ -1,0 +1,4 @@
+false by default, and may be changed at any time. Note that when it
+   is false, data that does not contain newlines may be chunked too.
+xmlparser.buffer_used
+   If "buffer_text" is enabled, the number of bytes stored in the

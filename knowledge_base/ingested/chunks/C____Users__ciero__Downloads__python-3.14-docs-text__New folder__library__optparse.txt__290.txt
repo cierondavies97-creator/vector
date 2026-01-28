@@ -1,0 +1,4 @@
+arguments. For this case, you must write a callback, as "optparse"
+doesn't provide any built-in capabilities for it.  And you have to
+deal with certain intricacies of conventional Unix command-line
+parsing that "optparse" normally handles for you.  In particular,

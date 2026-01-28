@@ -1,0 +1,5 @@
+which may not be of interest to many applications.
+In addition to these classes, "xml.sax.handler" provides symbolic
+constants for the feature and property names.
+xml.sax.handler.feature_namespaces
+      value: ""http://xml.org/sax/features/namespaces""

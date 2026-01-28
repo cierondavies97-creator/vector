@@ -1,0 +1,5 @@
+You should not use "Self" as the return annotation if the method is
+   not guaranteed to return an instance of a subclass when the class
+   is subclassed:
+      class Eggs:
+          # Self would be an incorrect return annotation here,

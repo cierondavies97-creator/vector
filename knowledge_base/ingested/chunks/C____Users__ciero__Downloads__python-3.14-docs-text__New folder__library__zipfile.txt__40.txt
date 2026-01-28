@@ -1,0 +1,5 @@
+encoding for reading metadata in the zipfile's directory and file
+   headers.
+ZipFile.close()
+   Close the archive file.  You must call "close()" before exiting
+   your program or essential records will not be written.

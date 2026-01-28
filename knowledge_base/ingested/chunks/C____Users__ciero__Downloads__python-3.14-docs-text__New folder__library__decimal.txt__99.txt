@@ -1,0 +1,6 @@
+the intermediate product self*other.
+      >>> Decimal(2).fma(3, 5)
+      Decimal('11')
+   is_canonical()
+      Return "True" if the argument is canonical and "False"
+      otherwise.  Currently, a "Decimal" instance is always canonical,

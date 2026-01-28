@@ -1,0 +1,5 @@
+"LC_MESSAGES", and "LANG" respectively.
+   If *localedir* is omitted or "None", then the current binding for
+   *domain* is returned. [1]
+gettext.textdomain(domain=None)
+   Change or query the current global domain.  If *domain* is "None",

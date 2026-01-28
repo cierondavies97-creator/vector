@@ -1,0 +1,4 @@
+The "lineno" and "end_lineno" are the first and last line
+      numbers of source text span (1-indexed so the first line is line
+      1) and the "col_offset" and "end_col_offset" are the
+      corresponding UTF-8 byte offsets of the first and last tokens

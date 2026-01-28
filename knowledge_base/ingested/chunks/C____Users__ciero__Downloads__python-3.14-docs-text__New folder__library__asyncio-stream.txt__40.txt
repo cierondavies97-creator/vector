@@ -1,0 +1,6 @@
+async drain()
+      Wait until it is appropriate to resume writing to the stream.
+      Example:
+         writer.write(data)
+         await writer.drain()
+      This is a flow control method that interacts with the underlying

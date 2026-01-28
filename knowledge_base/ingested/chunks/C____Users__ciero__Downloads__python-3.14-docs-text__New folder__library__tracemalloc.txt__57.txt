@@ -1,0 +1,3 @@
+grouped by "'traceback'" or to compute cumulative statistics: see
+   the "Snapshot.compare_to()" and "Snapshot.statistics()" methods.
+   Storing more frames increases the memory and CPU overhead of the

@@ -1,0 +1,4 @@
+be automatically detected as "public", like objects without a
+   proper "__module__" attribute. If provided, it will be added to the
+   automatically detected ones.
+   The *not_exported* argument can be a set of names that must not be

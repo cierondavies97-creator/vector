@@ -1,0 +1,2 @@
+|                                                    | arguments with default values) that the function   |
+|                                                    | has                                                |

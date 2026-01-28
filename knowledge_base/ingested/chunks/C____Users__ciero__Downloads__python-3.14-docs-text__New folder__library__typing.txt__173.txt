@@ -1,0 +1,4 @@
+damage: int = 10                     # instance variable
+   "ClassVar" accepts only types and cannot be further subscribed.
+   "ClassVar" is not a class itself, and should not be used with
+   "isinstance()" or "issubclass()". "ClassVar" does not change Python

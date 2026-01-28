@@ -1,0 +1,4 @@
+class datetime.tzinfo
+   This is an abstract base class, meaning that this class should not
+   be instantiated directly.  Define a subclass of "tzinfo" to capture
+   information about a particular time zone.

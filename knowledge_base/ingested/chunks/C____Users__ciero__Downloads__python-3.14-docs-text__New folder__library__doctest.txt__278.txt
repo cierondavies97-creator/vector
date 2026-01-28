@@ -1,0 +1,4 @@
+example, and the original exception.  If the output doesn't match,
+   then a "DocTestFailure" exception is raised, containing the test,
+   the example, and the actual output.
+   For information about the constructor parameters and methods, see

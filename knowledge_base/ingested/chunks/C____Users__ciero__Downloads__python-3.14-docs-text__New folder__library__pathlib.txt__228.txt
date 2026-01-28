@@ -1,0 +1,3 @@
+This method normally follows symlinks. Some Unix flavours support
+   changing permissions on the symlink itself; on these platforms you
+   may add the argument "follow_symlinks=False", or use "lchmod()".

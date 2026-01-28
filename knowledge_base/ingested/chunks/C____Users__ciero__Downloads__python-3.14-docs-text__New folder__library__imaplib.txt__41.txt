@@ -1,0 +1,4 @@
+part of the IMAP4 QUOTA extension defined in rfc2087.
+IMAP4.getquotaroot(mailbox)
+   Get the list of "quota" "roots" for the named *mailbox*. This
+   method is part of the IMAP4 QUOTA extension defined in rfc2087.

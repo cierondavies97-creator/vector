@@ -1,0 +1,2 @@
+|                                                    | by default, after other user paths. If removed,    |
+|                                                    | shortcuts will not be found.                       |

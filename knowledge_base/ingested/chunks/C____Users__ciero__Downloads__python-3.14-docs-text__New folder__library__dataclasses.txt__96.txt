@@ -1,0 +1,4 @@
+def __post_init__(self):
+           super().__init__(self.side, self.side)
+Note, however, that in general the dataclass-generated "__init__()"
+methods don't need to be called, since the derived dataclass will take

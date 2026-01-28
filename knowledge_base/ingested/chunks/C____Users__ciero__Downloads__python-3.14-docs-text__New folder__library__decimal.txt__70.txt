@@ -1,0 +1,3 @@
+attempt to add a "Decimal" to a "float", for example, will raise a
+   "TypeError".  However, it is possible to use Python's comparison
+   operators to compare a "Decimal" instance "x" with another number

@@ -1,0 +1,3 @@
+environment variable can be used to not prepend a potentially unsafe
+path to "sys.path" such as the current directory, the script's
+directory or an empty string.

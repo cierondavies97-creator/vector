@@ -1,0 +1,5 @@
+expressions, and are delimited by "LBRACE", "RBRACE", "EXCLAMATION"
+   and "COLON" tokens.
+   Added in version 3.14.
+token.TSTRING_END
+   Token value used to indicate the end of a template string literal.

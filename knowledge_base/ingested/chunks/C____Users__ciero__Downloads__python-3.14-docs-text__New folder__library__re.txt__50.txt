@@ -1,0 +1,4 @@
+no special meaning if it's not the first character in the set.
+   * To match a literal "']'" inside a set, precede it with a
+     backslash, or place it at the beginning of the set.  For example,
+     both "[()[\]{}]" and "[]()[{}]" will match a right bracket, as

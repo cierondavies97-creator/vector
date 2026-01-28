@@ -1,0 +1,4 @@
+the shebang lines starting with "/usr".
+Any of the above virtual commands can have "<ALIAS>" replaced by an
+alias from an installed runtime. That is, any command generated in the
+global aliases directory (which you may have added to your "PATH"

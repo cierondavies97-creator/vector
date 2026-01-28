@@ -1,0 +1,4 @@
+calendar.month_abbr
+   A sequence that represents the abbreviated months of the year in
+   the current locale.  This follows normal convention of January
+   being month number 1, so it has a length of 13 and  "month_abbr[0]"

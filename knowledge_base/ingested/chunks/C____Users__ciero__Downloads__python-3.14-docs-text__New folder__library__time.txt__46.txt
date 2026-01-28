@@ -1,0 +1,4 @@
+short duration.  It does include time elapsed during sleep. The
+   clock is the same for all processes. The reference point of the
+   returned value is undefined, so that only the difference between
+   the results of two calls is valid.

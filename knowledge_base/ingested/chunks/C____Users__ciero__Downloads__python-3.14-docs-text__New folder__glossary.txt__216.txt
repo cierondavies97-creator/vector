@@ -1,0 +1,4 @@
+finder* consults to find modules for importing.
+path entry finder
+   A *finder* returned by a callable on "sys.path_hooks" (i.e. a *path
+   entry hook*) which knows how to locate modules given a *path

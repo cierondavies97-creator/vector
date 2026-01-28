@@ -1,0 +1,5 @@
+than a sample, then "mean(data)" is equivalent to calculating the
+     true population mean μ.
+statistics.fmean(data, weights=None)
+   Convert *data* to floats and compute the arithmetic mean.
+   This runs faster than the "mean()" function and it always returns a

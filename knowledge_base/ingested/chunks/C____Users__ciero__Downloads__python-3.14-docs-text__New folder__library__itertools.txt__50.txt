@@ -1,0 +1,6 @@
+raise ValueError('batched(): incomplete batch')
+              yield batch
+   Added in version 3.12.
+   Changed in version 3.13: Added the *strict* option.
+itertools.chain(*iterables)
+   Make an iterator that returns elements from the first iterable

@@ -1,0 +1,4 @@
+from "xml.parsers.expat" -- see its documentation for possible
+   exceptions on ill-formed XML.  Unknown elements will simply be
+   ignored by the plist parser.
+   The parser raises "InvalidFileException" when the file cannot be

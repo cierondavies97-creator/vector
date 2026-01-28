@@ -1,0 +1,5 @@
+This module defines four dictionaries, "html5", "name2codepoint",
+"codepoint2name", and "entitydefs".
+html.entities.html5
+   A dictionary that maps HTML5 named character references [1] to the
+   equivalent Unicode character(s), e.g. "html5['gt;'] == '>'". Note

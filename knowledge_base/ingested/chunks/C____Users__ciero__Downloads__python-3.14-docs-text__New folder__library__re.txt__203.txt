@@ -1,0 +1,4 @@
+Pattern.fullmatch(string[, pos[, endpos]])
+   If the whole *string* matches this regular expression, return a
+   corresponding "Match".  Return "None" if the string does not match
+   the pattern; note that this is different from a zero-length match.

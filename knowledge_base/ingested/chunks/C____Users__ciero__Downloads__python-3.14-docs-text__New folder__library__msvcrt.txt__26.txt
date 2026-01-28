@@ -1,0 +1,5 @@
+"CrtSetReportFile()" should be called to define the specific file
+   or stream to use as the destination.
+msvcrt.CRTDBG_MODE_WNDW
+   Creates a message box to display the message along with the
+   "Abort", "Retry", and "Ignore" buttons.

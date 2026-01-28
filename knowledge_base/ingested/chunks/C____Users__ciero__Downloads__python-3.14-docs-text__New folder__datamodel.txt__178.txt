@@ -1,0 +1,4 @@
+those actually contained in its "__dict__".
+Class attribute assignments update the class's dictionary, never the
+dictionary of a base class.
+A class object can be called (see above) to yield a class instance

@@ -1,0 +1,4 @@
+Open a bzip2-compressed file in binary or text mode, returning a
+   *file object*.
+   As with the constructor for "BZ2File", the *filename* argument can
+   be an actual filename (a "str" or "bytes" object), or an existing

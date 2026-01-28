@@ -1,0 +1,3 @@
+this facility is used (it is often restricted to "SOCK_STREAM"
+   sockets), "recvmsg()" will return, in its ancillary data, items of
+   the form "(socket.SOL_SOCKET, socket.SCM_RIGHTS, fds)", where *fds*

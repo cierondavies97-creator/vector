@@ -1,0 +1,3 @@
+and subscripts.  A calltip remains until it is clicked, the cursor is
+moved out of the argument area, or ")" is typed.  Whenever the cursor
+is in the argument part of a definition, select Edit and "Show Call

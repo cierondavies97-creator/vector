@@ -1,0 +1,5 @@
+times more advanced, low-level and downright counterintuitive.
+An example of writing to a configuration file:
+   import configparser
+   config = configparser.RawConfigParser()
+   # Please note that using RawConfigParser's set functions, you can assign

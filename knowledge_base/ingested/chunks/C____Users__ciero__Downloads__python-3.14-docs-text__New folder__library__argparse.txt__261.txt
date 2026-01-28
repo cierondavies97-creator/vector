@@ -1,0 +1,4 @@
+title for positional arguments
+   * *description* - description for the sub-parser group in help
+     output, by default "None"
+   * *prog* - usage information that will be displayed with subcommand

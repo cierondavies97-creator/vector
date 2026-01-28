@@ -1,0 +1,3 @@
+Nested "Annotated" types are flattened. The order of the metadata
+   elements starts with the innermost annotation:
+      assert Annotated[Annotated[int, ValueRange(3, 10)], ctype("char")] == Annotated[

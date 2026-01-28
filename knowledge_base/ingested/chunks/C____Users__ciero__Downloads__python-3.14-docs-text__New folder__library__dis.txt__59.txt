@@ -1,0 +1,6 @@
+opcode
+      numeric code for operation, corresponding to the opcode values
+      listed below and the bytecode values in the Opcode collections.
+   opname
+      human readable name for operation
+   baseopcode

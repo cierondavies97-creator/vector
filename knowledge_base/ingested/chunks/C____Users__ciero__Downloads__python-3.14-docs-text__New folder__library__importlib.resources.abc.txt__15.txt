@@ -1,0 +1,6 @@
+For a representation of the object on the file-system, use
+   "importlib.resources.as_file()".
+   name
+      Abstract. The base name of this object without any parent
+      references.
+   abstractmethod iterdir()

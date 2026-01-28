@@ -1,0 +1,3 @@
+"sys.path_hooks" is searched for a finder for the path entry
+      and, if found, is stored in "sys.path_importer_cache" along with
+      being queried about the module. If no finder is ever found then

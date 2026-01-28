@@ -1,0 +1,3 @@
+need to override "_from_iterable()" with a classmethod or regular
+   method that can construct new instances from an iterable argument.
+2. To override the comparisons (presumably for speed, as the semantics

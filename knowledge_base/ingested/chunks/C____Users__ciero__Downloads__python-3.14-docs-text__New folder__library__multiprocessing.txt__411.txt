@@ -1,0 +1,4 @@
+is "None" then the socket will be created in a private temporary
+   directory created using "tempfile.mkstemp()".
+   If the listener object uses a socket then *backlog* (1 by default)
+   is passed to the "listen()" method of the socket once it has been

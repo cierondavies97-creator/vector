@@ -1,0 +1,4 @@
+correlation coefficient.
+statistics.linear_regression(x, y, /, *, proportional=False)
+   Return the slope and intercept of simple linear regression
+   parameters estimated using ordinary least squares. Simple linear

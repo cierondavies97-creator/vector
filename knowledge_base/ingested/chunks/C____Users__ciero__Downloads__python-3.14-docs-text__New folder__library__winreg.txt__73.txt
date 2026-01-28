@@ -1,0 +1,6 @@
+operating system.
+   Restoring reflection for a key does not affect reflection of any
+   subkeys.
+   Raises an auditing event "winreg.EnableReflectionKey" with argument
+   "key".
+winreg.QueryReflectionKey(key)

@@ -1,0 +1,7 @@
+...
+   >>> mock = MagicMock(async_func)
+   >>> mock
+   <MagicMock spec='function' id='...'>
+   >>> mock()
+   <coroutine object AsyncMockMixin._mock_call at ...>
+   Setting the *spec* of a "Mock", "MagicMock", or "AsyncMock" to a

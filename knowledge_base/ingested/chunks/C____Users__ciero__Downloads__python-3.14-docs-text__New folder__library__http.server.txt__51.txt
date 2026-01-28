@@ -1,0 +1,4 @@
+passes the message to "log_message()", so it takes the same
+      arguments (*format* and additional values).
+   log_message(format, ...)
+      Logs an arbitrary message to "sys.stderr". This is typically

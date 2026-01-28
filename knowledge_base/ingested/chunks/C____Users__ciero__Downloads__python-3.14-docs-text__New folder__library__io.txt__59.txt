@@ -1,0 +1,4 @@
+readline(size=-1, /)
+      Read and return one line from the stream.  If *size* is
+      specified, at most *size* bytes will be read.
+      The line terminator is always "b'\n'" for binary files; for text

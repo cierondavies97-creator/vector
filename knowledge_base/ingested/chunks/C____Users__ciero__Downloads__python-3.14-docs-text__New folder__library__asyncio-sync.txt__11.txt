@@ -1,0 +1,8 @@
+Example:
+      async def waiter(event):
+          print('waiting for it ...')
+          await event.wait()
+          print('... got it!')
+      async def main():
+          # Create an Event object.
+          event = asyncio.Event()

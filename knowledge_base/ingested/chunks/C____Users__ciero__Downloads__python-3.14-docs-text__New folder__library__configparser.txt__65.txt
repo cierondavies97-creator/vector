@@ -1,0 +1,5 @@
+The mapping protocol is implemented on top of the existing legacy API
+so that subclasses overriding the original interface still should have
+mappings working as expected.
+Customizing Parser Behaviour
+============================

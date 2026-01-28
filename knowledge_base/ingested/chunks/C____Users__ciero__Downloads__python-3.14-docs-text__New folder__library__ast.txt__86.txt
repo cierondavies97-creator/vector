@@ -1,0 +1,8 @@
+Expression(
+          body=Tuple(
+              elts=[
+                  Constant(value=1),
+                  Constant(value=2),
+                  Constant(value=3)],
+              ctx=Load()))
+class ast.Set(elts)

@@ -1,0 +1,2 @@
+|                                                    | system. It is supported with the legacy launcher,  |
+|                                                    | or with the Python install manager when installed  |

@@ -1,0 +1,5 @@
+The start boundary claimed in the *Content-Type* header was never
+   found.
+exception email.errors.CloseBoundaryNotFoundDefect
+   A start boundary was found, but no corresponding close boundary was
+   ever found.

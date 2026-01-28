@@ -1,0 +1,4 @@
+refers to C, C++, Rust or Fortran code in *extension modules* that
+   can be called from Python.  See also *extension module*.
+nested scope
+   The ability to refer to a variable in an enclosing definition.  For

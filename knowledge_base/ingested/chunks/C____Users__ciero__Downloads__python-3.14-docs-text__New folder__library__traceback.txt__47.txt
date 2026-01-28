@@ -1,0 +1,5 @@
+A "TracebackException" of the original "__cause__".
+   __context__
+      A "TracebackException" of the original "__context__".
+   exceptions
+      If "self" represents an "ExceptionGroup", this field holds a

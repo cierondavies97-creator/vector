@@ -1,0 +1,3 @@
+| a=t_primary b=genexp &t_lookahead {
+           _PyAST_Call(a, CHECK(asdl_expr_seq*, (asdl_expr_seq*)_PyPegen_singleton_seq(p, b)), NULL, EXTRA) }
+       | a=t_primary '(' b=[arguments] ')' &t_lookahead {

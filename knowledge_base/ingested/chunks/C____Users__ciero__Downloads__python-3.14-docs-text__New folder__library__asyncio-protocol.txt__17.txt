@@ -1,0 +1,4 @@
+class asyncio.SubprocessTransport(BaseTransport)
+   An abstraction to represent a connection between a parent and its
+   child OS process.
+   Instances of the *SubprocessTransport* class are returned from

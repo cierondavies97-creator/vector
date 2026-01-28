@@ -1,0 +1,4 @@
+parameters estimated from the *data* using "fmean()" and
+      "stdev()".
+      The *data* can be any *iterable* and should consist of values
+      that can be converted to type "float".  If *data* does not

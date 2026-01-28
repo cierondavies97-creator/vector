@@ -1,0 +1,4 @@
+The bracket (subscript) notation uses "slice" objects internally.
+soft deprecated
+   A soft deprecated API should not be used in new code, but it is
+   safe for already existing code to use it. The API remains

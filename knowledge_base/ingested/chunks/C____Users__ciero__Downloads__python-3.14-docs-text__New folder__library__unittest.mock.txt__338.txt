@@ -1,0 +1,3 @@
+instance of the class) will have the same spec. You can use a class
+   as the spec for an instance object by passing "instance=True". The
+   returned mock will only be callable if instances of the mock are

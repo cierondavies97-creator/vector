@@ -1,0 +1,5 @@
+A "BlockingIOError" is raised if the underlying raw stream is in
+      non blocking-mode, and has no data available at the moment.
+      Added in version 3.5.
+   write(b, /)
+      Write the given *bytes-like object*, *b*, and return the number

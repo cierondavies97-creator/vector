@@ -1,0 +1,5 @@
+character with a single space.  The whitespace characters
+      replaced are as follows: tab, newline, vertical tab, formfeed,
+      and carriage return ("'\t\n\v\f\r'").
+      Note:
+        If "expand_tabs" is false and "replace_whitespace" is true,

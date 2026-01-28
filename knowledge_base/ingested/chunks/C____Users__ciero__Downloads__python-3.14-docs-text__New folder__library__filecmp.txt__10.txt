@@ -1,0 +1,5 @@
+The "dircmp" class
+==================
+class filecmp.dircmp(a, b, ignore=None, hide=None, *, shallow=True)
+   Construct a new directory comparison object, to compare the
+   directories *a* and *b*.  *ignore* is a list of names to ignore,

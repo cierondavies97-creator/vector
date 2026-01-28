@@ -1,0 +1,5 @@
+should not subclass, instantiate, compare, or otherwise directly
+     reference the class.
+   Added in version 3.14.
+IMAP4.list([directory[, pattern]])
+   List mailbox names in *directory* matching *pattern*.  *directory*

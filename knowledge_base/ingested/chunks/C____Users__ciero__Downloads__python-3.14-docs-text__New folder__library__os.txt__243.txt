@@ -1,0 +1,4 @@
+are inherited. Note that non-inheritable file descriptors are still
+*inherited* by child processes on "os.fork()".
+On Windows, non-inheritable handles and file descriptors are closed in
+child processes, except for standard streams (file descriptors 0, 1

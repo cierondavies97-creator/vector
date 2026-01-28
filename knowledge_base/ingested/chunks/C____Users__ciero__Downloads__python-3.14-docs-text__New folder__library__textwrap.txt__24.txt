@@ -1,0 +1,5 @@
+there are no individual words in the input text longer than
+      "width", "TextWrapper" guarantees that no output line will be
+      longer than "width" characters.
+   expand_tabs
+      (default: "True") If true, then all tab characters in *text*

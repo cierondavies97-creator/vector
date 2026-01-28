@@ -1,0 +1,6 @@
+4
+XMLPullParser Objects
+---------------------
+class xml.etree.ElementTree.XMLPullParser(events=None)
+   A pull parser suitable for non-blocking applications.  Its input-
+   side API is similar to that of "XMLParser", but instead of pushing

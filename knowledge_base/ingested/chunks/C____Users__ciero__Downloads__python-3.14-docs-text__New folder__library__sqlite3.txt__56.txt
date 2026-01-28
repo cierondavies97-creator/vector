@@ -1,0 +1,6 @@
+Note: *typename* and the name of the type in your query are matched
+   case-insensitively.
+Module constants
+----------------
+sqlite3.LEGACY_TRANSACTION_CONTROL
+   Set "autocommit" to this constant to select old style (pre-Python

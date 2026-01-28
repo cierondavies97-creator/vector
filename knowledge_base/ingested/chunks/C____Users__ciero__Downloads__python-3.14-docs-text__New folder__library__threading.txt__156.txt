@@ -1,0 +1,4 @@
+The current implementation wakes up exactly *n* threads, if at
+      least *n* threads are waiting.  However, it's not safe to rely
+      on this behavior. A future, optimized implementation may
+      occasionally wake up more than *n* threads.

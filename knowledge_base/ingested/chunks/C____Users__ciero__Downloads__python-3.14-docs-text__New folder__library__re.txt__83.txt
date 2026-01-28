@@ -1,0 +1,5 @@
+only if it's *not* followed by "'Asimov'".
+"(?<=...)"
+   Matches if the current position in the string is preceded by a
+   match for "..." that ends at the current position.  This is called
+   a *positive lookbehind assertion*. "(?<=abc)def" will find a match

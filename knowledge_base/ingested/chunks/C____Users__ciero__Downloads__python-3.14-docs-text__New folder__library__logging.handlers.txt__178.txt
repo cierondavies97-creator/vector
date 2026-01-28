@@ -1,0 +1,4 @@
+can result in the record silently being dropped (if
+      "logging.raiseExceptions" is "False") or a message printed to
+      "sys.stderr" (if "logging.raiseExceptions" is "True").
+   prepare(record)

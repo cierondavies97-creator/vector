@@ -1,0 +1,3 @@
+on the value to determine if the result is true or false.
+   By default, "object" implements "__eq__()" by using "is", returning
+   "NotImplemented" in the case of a false comparison: "True if x is y

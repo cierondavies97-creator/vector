@@ -1,0 +1,4 @@
+address.
+    * "PACKET_OTHERHOST" - Packet to some other host that has been
+      caught by a device driver in promiscuous mode.
+    * "PACKET_OUTGOING" - Packet originating from the local host that

@@ -1,0 +1,5 @@
+attribute "baz" set to "'bozz'".
+Warning:
+  The values for attributes such as "foo" and "baz" in the above
+  example should not be configuration dictionaries or references such
+  as "cfg://foo" or "ext://bar", because they will not be processed by

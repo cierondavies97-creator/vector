@@ -1,0 +1,4 @@
+of the built-in "dict" class.  It overrides one method and adds one
+   writable instance variable.  The remaining functionality is the
+   same as for the "dict" class and is not documented here.
+   The first argument provides the initial value for the

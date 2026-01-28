@@ -1,0 +1,4 @@
+subclass with some standard options.)
+Every time you add an option, "optparse" checks for conflicts with
+existing options.  If it finds any, it invokes the current conflict-
+handling mechanism. You can set the conflict-handling mechanism either

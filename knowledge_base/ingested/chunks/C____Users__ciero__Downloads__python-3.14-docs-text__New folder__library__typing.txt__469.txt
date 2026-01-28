@@ -1,0 +1,5 @@
+implementation returns an instance of a private class:
+      @type_check_only
+      class Response:  # private or not available at runtime
+          code: int
+          def get_header(self, name: str) -> str: ...

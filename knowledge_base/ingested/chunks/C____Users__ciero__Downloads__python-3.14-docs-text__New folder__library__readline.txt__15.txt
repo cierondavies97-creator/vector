@@ -1,0 +1,5 @@
+============
+The following functions operate on a history file:
+readline.read_history_file([filename])
+   Load a readline history file, and append it to the history list.
+   The default filename is "~/.history".  This calls "read_history()"

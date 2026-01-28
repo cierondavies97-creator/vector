@@ -1,0 +1,6 @@
+whence
+      (read-only)
+      A string describing where the interpreter came from.
+   is_running()
+      Return "True" if the interpreter is currently executing code in
+      its "__main__" module and "False" otherwise.

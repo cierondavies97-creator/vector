@@ -1,0 +1,4 @@
+array must have type code "'u'" or "'w'"; otherwise a
+      "ValueError" is raised. Use
+      "array.frombytes(unicodestring.encode(enc))" to append Unicode
+      data to an array of some other type.

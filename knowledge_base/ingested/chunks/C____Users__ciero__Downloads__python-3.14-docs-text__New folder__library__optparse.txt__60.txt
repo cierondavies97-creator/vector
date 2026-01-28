@@ -1,0 +1,3 @@
+possible.  Of course, you also want to make your programs reasonably
+flexible.  That's what options are for.  Again, it doesn't matter if
+they are entries in a config file, widgets in the "Preferences" dialog

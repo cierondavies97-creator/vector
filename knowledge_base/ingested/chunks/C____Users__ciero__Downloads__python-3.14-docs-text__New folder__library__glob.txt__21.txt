@@ -1,0 +1,4 @@
+unlike "fnmatch.translate()". By default wildcards do not match
+   path separators, and "*" pattern segments match precisely one path
+   segment.
+   If *recursive* is true, the pattern segment ""**"" will match any

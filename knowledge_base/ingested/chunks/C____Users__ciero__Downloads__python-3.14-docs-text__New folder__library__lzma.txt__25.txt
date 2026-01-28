@@ -1,0 +1,5 @@
+used. Possible values are:
+   * "FORMAT_XZ": The ".xz" container format.
+        This is the default format.
+   * "FORMAT_ALONE": The legacy ".lzma" container format.
+        This format is more limited than ".xz" -- it does not support

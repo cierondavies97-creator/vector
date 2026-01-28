@@ -1,0 +1,4 @@
+guarantee, API functions can raise "UnicodeError".
+   The "sys.getfilesystemencoding()" and
+   "sys.getfilesystemencodeerrors()" functions can be used to get the
+   filesystem encoding and error handler.

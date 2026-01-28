@@ -1,0 +1,4 @@
+program absolutely, positively requires to run.
+A good user interface should have as few absolute requirements as
+possible.  If your program requires 17 distinct pieces of information
+in order to run successfully, it doesn't much matter *how* you get

@@ -1,0 +1,3 @@
+indicates the start and end of a group; the contents of a group can
+   be retrieved after a match has been performed, and can be matched
+   later in the string with the "\number" special sequence, described

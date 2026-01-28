@@ -1,0 +1,4 @@
+If set to a non-empty string of characters, those characters will
+   be used as the punctuation characters.  Any characters in the
+   "wordchars" attribute that appear in *punctuation_chars* will be
+   removed from "wordchars".  See Improved Compatibility with Shells

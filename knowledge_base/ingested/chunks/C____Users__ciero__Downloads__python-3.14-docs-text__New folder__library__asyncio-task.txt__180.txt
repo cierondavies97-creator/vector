@@ -1,0 +1,6 @@
+This method should only be used in low-level callback-based
+      code.
+      See the documentation of "Future.add_done_callback()" for more
+      details.
+   remove_done_callback(callback)
+      Remove *callback* from the callbacks list.

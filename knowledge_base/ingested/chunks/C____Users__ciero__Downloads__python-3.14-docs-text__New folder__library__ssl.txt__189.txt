@@ -1,0 +1,4 @@
+Added in version 3.2.
+   Changed in version 3.7: The attribute is now always ASCII text.
+   When "server_hostname" is an internationalized domain name (IDN),
+   this attribute now stores the A-label form (""xn--pythn-mua.org""),

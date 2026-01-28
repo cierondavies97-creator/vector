@@ -1,0 +1,4 @@
+Parse a URL into six components, returning a 6-item *named tuple*.
+   This corresponds to the general structure of a URL:
+   "scheme://netloc/path;parameters?query#fragment". Each tuple item
+   is a string, possibly empty. The components are not broken up into

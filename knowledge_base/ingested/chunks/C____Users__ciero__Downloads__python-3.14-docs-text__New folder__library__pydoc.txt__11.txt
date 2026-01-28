@@ -1,0 +1,4 @@
+again in a manner similar to the Unix **man** command.  The synopsis
+line of a module is the first line of its documentation string.
+You can also use **pydoc** to start an HTTP server on the local
+machine that will serve documentation to visiting web browsers.

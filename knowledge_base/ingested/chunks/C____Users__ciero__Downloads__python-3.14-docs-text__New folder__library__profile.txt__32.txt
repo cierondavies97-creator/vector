@@ -1,0 +1,6 @@
+"profile" and "cProfile" Module Reference
+=========================================
+Both the "profile" and "cProfile" modules provide the following
+functions:
+profile.run(command, filename=None, sort=-1)
+   This function takes a single argument that can be passed to the

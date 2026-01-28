@@ -1,0 +1,4 @@
+"y".  This avoids confusing results when doing equality comparisons
+   between numbers of different types.
+   Changed in version 3.2: Mixed-type comparisons between "Decimal"
+   instances and other numeric types are now fully supported.

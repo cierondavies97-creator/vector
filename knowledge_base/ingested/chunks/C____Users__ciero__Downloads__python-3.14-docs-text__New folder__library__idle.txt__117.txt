@@ -1,0 +1,4 @@
+delete it and start over with the settings dialog.
+If IDLE quits with no message, and it was not started from a console,
+try starting it from a console or terminal ("python -m idlelib") and
+see if this results in an error message.

@@ -1,0 +1,5 @@
+may be received from DOM implementations not written in Python.
+exception xml.dom.HierarchyRequestErr
+   Raised when an attempt is made to insert a node where the node type
+   is not allowed.
+exception xml.dom.IndexSizeErr

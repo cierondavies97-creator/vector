@@ -1,0 +1,3 @@
+-[ Footnotes ]-
+[1] Thanks to Matthew Dixon Cowles for the original inspiration and
+    examples.

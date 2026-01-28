@@ -1,0 +1,5 @@
+File "/usr/lib/python3.4/test/regrtest.py", line 761
+       match_tests=ns.match_tests)
+     File "/usr/lib/python3.4/test/regrtest.py", line 1563
+       main()
+     File "/usr/lib/python3.4/test/__main__.py", line 3

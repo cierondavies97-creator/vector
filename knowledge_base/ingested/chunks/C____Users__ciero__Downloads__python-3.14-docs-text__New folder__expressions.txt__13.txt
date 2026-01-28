@@ -1,0 +1,5 @@
+__f".
+The transformation rule is defined as follows:
+* The class name, with leading underscores removed and a single
+  leading underscore inserted, is inserted in front of the identifier,
+  e.g., the identifier "__spam" occurring in a class named "Foo",

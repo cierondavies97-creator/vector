@@ -1,0 +1,5 @@
+value):
+   Py_BuildValue("")                        None
+   Py_BuildValue("i", 123)                  123
+   Py_BuildValue("iii", 123, 456, 789)      (123, 456, 789)
+   Py_BuildValue("s", "hello")              'hello'

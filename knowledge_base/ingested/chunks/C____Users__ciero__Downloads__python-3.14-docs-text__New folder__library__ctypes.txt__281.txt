@@ -1,0 +1,4 @@
+The returned function prototype creates functions that use the
+   "stdcall" calling convention.  The function will release the GIL
+   during the call.  *use_errno* and *use_last_error* have the same
+   meaning as above.

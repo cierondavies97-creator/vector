@@ -1,0 +1,5 @@
+ASCII letter now are errors.
+Changed in version 3.8: The "'\N{*name*}'" escape sequence has been
+added. As in string literals, it expands to the named Unicode
+character (e.g. "'\N{EM DASH}'").
+Module Contents

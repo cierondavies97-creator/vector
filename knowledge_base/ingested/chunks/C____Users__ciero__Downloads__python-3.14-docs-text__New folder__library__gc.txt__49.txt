@@ -1,0 +1,5 @@
+will be added to the "garbage" list.
+   Changed in version 3.2: Also print the contents of the "garbage"
+   list at *interpreter shutdown*, if it isn't empty.
+gc.DEBUG_SAVEALL
+   When set, all unreachable objects found will be appended to

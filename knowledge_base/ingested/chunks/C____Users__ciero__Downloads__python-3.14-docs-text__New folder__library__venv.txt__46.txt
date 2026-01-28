@@ -1,0 +1,4 @@
+not work as expected.
+You can deactivate a virtual environment by typing "deactivate" in
+your shell. The exact mechanism is platform-specific and is an
+internal implementation detail (typically, a script or shell function

@@ -1,0 +1,5 @@
+Their values are 0, 1, and 2, respectively.
+os.SEEK_HOLE
+os.SEEK_DATA
+   Parameters to the "lseek()" function and the "seek()" method on
+   *file-like objects*, for seeking file data and holes on sparsely

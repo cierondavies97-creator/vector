@@ -1,0 +1,4 @@
+Coroutine)" for them will return "False". Use
+     "inspect.isawaitable()" to detect them.
+   See Annotating generators and coroutines for details on using
+   "Coroutine" in type annotations. The variance and order of type

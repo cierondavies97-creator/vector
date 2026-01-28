@@ -1,0 +1,4 @@
+protocol argument is needed.
+   The argument *file* must have three methods, a read() method that
+   takes an integer argument, a readinto() method that takes a buffer
+   argument and a readline() method that requires no arguments, as in

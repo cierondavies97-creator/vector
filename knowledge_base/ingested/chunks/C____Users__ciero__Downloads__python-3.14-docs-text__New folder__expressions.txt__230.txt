@@ -1,0 +1,4 @@
+comparison implementation.
+Because all types are (direct or indirect) subtypes of "object", they
+inherit the default comparison behavior from "object".  Types can
+customize their comparison behavior by implementing *rich comparison

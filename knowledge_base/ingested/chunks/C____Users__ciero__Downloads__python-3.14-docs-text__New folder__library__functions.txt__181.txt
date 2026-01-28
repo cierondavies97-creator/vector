@@ -1,0 +1,5 @@
+metaclass constructor.
+   When using "exec()" or "eval()" with separate local and global
+   arguments, it returns the local namespace passed in to the function
+   call.
+   In all of the above cases, each call to "locals()" in a given frame

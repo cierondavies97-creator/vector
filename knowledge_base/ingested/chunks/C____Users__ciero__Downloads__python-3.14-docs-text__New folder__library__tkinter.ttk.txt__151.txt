@@ -1,0 +1,3 @@
+|                  | display the heading row.  The default is "tree           |
+|                  | headings", i.e., show all elements.  **Note**: Column #0 |
+|                  | always refers to the tree column, even if show="tree" is |

@@ -1,0 +1,5 @@
+_PyPegen_interpolation(p, a, debug_expr, conversion, format, rbrace, EXTRA) }
+       | invalid_tstring_replacement_field
+   tstring_middle[expr_ty]:
+       | tstring_replacement_field
+       | t=TSTRING_MIDDLE { _PyPegen_constant_from_token(p, t) }

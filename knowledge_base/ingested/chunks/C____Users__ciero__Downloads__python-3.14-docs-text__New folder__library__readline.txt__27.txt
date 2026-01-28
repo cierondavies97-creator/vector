@@ -1,0 +1,4 @@
+Append *line* to the history buffer, as if it was the last line
+   typed. This calls "add_history()" in the underlying library.
+readline.set_auto_history(enabled)
+   Enable or disable automatic calls to "add_history()" when reading

@@ -1,0 +1,4 @@
+* *default_factory*: If provided, it must be a zero-argument
+     callable that will be called when a default value is needed for
+     this field.  Among other purposes, this can be used to specify
+     fields with mutable default values, as discussed below.  It is an

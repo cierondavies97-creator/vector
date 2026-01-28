@@ -1,0 +1,6 @@
+>>> Decimal(1) / 3
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   MemoryError
+On systems with overallocation (e.g. Linux), a more sophisticated
+approach is to adjust "prec" to the amount of available RAM.  Suppose

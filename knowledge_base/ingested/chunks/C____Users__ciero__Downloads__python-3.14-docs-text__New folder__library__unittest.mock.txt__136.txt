@@ -1,0 +1,8 @@
+assert_awaited_once()
+      Assert that the mock was awaited exactly once.
+      >>> mock = AsyncMock()
+      >>> async def main():
+      ...     await mock()
+      ...
+      >>> asyncio.run(main())
+      >>> mock.assert_awaited_once()

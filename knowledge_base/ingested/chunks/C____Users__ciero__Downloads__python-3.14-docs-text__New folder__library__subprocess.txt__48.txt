@@ -1,0 +1,6 @@
+parameters.
+   Changed in version 3.7: Added the *text* parameter as an alias for
+   *universal_newlines*.
+   Note:
+     The newlines attribute of the file objects "Popen.stdin",
+     "Popen.stdout" and "Popen.stderr" are not updated by the

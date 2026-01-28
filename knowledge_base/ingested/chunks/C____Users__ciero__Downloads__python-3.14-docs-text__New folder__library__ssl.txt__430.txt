@@ -1,0 +1,6 @@
+Certificate Revocation List (CRL) Profile**
+     David Cooper et al.
+  **RFC 5246: The Transport Layer Security (TLS) Protocol Version
+  1.2**
+     Tim Dierks and Eric Rescorla.
+  **RFC 6066: Transport Layer Security (TLS) Extensions**

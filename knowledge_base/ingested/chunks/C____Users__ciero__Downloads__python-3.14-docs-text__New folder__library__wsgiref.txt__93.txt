@@ -1,0 +1,4 @@
+This is an abstract base class for running WSGI applications.  Each
+   instance will handle a single HTTP request, although in principle
+   you could create a subclass that was reusable for multiple
+   requests.

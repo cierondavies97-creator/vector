@@ -1,0 +1,8 @@
+Refactoring
+Development Methodologies
+import: Pitfalls
+Python evaluates the imported code at import time.
+""" Bad Things happen here. """
+def append_one(list_=[]):
+""" Do not use mutable default values """
+list_.append(1)

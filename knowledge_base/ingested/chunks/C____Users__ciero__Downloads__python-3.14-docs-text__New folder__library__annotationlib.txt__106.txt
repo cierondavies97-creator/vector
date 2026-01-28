@@ -1,0 +1,6 @@
+>>> from annotationlib import get_annotations, Format
+   >>> def zerodiv(x: 1 / 0): ...
+   >>> get_annotations(zerodiv, format=Format.STRING)
+   Traceback (most recent call last):
+     ...
+   ZeroDivisionError: division by zero

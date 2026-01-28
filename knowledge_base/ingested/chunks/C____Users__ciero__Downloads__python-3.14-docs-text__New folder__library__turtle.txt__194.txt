@@ -1,0 +1,6 @@
+(128.0, 0.0, 128.0)
+turtle.bgpic(picname=None)
+   Parameters:
+      **picname** -- a string, name of an image file (PNG, GIF, PGM,
+      and PPM) or ""nopic"", or "None"
+   Set background image or return name of current backgroundimage.  If

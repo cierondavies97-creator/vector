@@ -1,0 +1,3 @@
+the "Tab" key on every "readline.backend". Specifically, if
+   "readline.backend" is "editline", "Cmd" will use "'^I'" instead of
+   "'tab'". Note that other values are not treated this way, and might

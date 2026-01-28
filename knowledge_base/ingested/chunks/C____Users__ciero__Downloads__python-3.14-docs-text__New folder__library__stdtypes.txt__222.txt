@@ -1,0 +1,3 @@
+tuple case, or when they are needed to avoid syntactic ambiguity.
+   For example, "f(a, b, c)" is a function call with three arguments,
+   while "f((a, b, c))" is a function call with a 3-tuple as the sole

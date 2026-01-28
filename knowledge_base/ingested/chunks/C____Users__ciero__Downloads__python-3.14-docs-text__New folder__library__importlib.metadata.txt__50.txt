@@ -1,0 +1,4 @@
+names, in the case of a namespace package) that provide each
+importable top-level Python module or Import Package:
+   >>> packages_distributions()
+   {'importlib_metadata': ['importlib-metadata'], 'yaml': ['PyYAML'], 'jaraco': ['jaraco.classes', 'jaraco.functools'], ...}

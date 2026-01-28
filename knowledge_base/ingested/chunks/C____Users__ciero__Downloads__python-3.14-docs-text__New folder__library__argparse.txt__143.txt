@@ -1,0 +1,4 @@
+>>> parser.add_argument('outfile', nargs='?')
+     >>> parser.parse_args(['input.txt', 'output.txt'])
+     Namespace(infile='input.txt', outfile='output.txt')
+     >>> parser.parse_args(['input.txt'])

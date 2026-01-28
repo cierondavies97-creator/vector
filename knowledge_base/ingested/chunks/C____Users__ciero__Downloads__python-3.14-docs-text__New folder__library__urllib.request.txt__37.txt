@@ -1,0 +1,3 @@
+the environment variable "HTTP_PROXY" (uppercase "_PROXY") will
+     be ignored. This is because that variable can be injected by a
+     client using the "Proxy:" HTTP header. If you need to use an HTTP

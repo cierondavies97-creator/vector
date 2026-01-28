@@ -1,0 +1,4 @@
+be inserted where there is malformed data. "'backslashreplace'"
+   causes malformed data to be replaced by a backslashed escape
+   sequence.  When writing, "'xmlcharrefreplace'" (replace with the
+   appropriate XML character reference)  or "'namereplace'" (replace

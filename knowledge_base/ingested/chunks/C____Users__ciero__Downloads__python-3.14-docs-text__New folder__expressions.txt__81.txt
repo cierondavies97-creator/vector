@@ -1,0 +1,5 @@
+The parentheses may be omitted when the yield expression is the sole
+expression on the right hand side of an assignment statement.
+See also:
+  **PEP 255** - Simple Generators
+     The proposal for adding generators and the "yield" statement to

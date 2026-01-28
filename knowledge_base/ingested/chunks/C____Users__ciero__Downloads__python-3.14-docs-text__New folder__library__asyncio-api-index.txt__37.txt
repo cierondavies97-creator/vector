@@ -1,0 +1,6 @@
++----------------------------------------------------+----------------------------------------------------+
+-[ Examples ]-
+* Example TCP client.
+* See also the streams APIs documentation.
+Synchronization
+===============

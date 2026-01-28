@@ -1,0 +1,4 @@
+passed to the object constructor.
+   If "__new__()" does not return an instance of *cls*, then the new
+   instance's "__init__()" method will not be invoked.
+   "__new__()" is intended mainly to allow subclasses of immutable

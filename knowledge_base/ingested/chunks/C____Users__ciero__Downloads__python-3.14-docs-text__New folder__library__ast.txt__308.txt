@@ -1,0 +1,6 @@
+defaults=[
+                          Constant(value=1),
+                          Constant(value=2)]),
+                  body=[
+                      Pass()],
+                  decorator_list=[

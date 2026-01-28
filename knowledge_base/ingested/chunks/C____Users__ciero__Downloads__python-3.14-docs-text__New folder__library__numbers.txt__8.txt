@@ -1,0 +1,5 @@
+denominator
+      Abstract.  The denominator of this rational number.
+class numbers.Integral
+   Subtypes "Rational" and adds a conversion to "int".  Provides
+   defaults for "float()", "numerator", and "denominator".  Adds

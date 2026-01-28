@@ -1,0 +1,2 @@
+|                                   |                                   | digits that can be faithfully     |
+   |                                   |                                   | represented in a float; see       |

@@ -1,0 +1,4 @@
+An existing file of the same name is overwritten. The optional
+   parameters have the same meaning as in "open()".
+   Added in version 3.5.
+   Changed in version 3.10: The *newline* parameter was added.

@@ -1,0 +1,3 @@
+Subclass of "SAXException" raised on parse errors. Instances of
+   this class are passed to the methods of the SAX "ErrorHandler"
+   interface to provide information about the parse error.  This class

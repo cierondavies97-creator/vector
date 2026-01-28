@@ -1,0 +1,3 @@
+message definitions. Note that use of these placeholders will make
+   your event logs big, as the entire message source is held in the
+   log. If you want slimmer logs, you have to pass in the name of your

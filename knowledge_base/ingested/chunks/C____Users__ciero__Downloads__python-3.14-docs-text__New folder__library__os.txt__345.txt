@@ -1,0 +1,3 @@
+object on Windows.Added support for directory junctions, and
+   changed to return the substitution path (which typically includes
+   "\\?\" prefix) rather than the optional "print name" field that was

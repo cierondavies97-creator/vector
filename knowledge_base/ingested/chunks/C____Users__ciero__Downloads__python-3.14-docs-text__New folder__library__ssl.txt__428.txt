@@ -1,0 +1,7 @@
+yet.
+See also:
+  Class "socket.socket"
+     Documentation of underlying "socket" class
+  SSL/TLS Strong Encryption: An Introduction
+     Intro from the Apache HTTP Server documentation
+  **RFC 1422: Privacy Enhancement for Internet Electronic Mail: Part

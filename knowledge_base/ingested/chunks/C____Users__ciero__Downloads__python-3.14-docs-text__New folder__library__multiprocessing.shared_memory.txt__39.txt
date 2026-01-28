@@ -1,0 +1,3 @@
+it.  To trigger the release of all shared memory blocks managed by
+   that process, call "shutdown()" on the instance. This triggers a
+   "unlink()" call on all of the "SharedMemory" objects managed by

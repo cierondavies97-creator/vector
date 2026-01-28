@@ -1,0 +1,4 @@
+file, and document the C API. And in fact this would work if all
+extension modules were always linked statically with the Python
+interpreter. When modules are used as shared libraries, however, the
+symbols defined in one module may not be visible to another module.

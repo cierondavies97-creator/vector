@@ -1,0 +1,4 @@
+key is a handler id and each value is a dict describing how to
+  configure the corresponding Handler instance.
+  The configuring dict is searched for the following keys:
+  * "class" (mandatory).  This is the fully qualified name of the

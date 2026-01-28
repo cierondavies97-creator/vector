@@ -1,0 +1,4 @@
+double-quote characters will be encoded and *data* will be wrapped
+   in double-quotes.  The resulting string can be used directly as an
+   attribute value:
+      >>> print("<element attr=%s>" % quoteattr("ab ' cd \" ef"))

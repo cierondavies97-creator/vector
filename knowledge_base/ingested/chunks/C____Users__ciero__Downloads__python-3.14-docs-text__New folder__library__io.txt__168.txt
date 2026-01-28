@@ -1,0 +1,4 @@
+be encoded as if by "write()".  The stream is positioned at the
+   start of the buffer which emulates opening an existing file in a
+   "w+" mode, making it ready for an immediate write from the
+   beginning or for a write that would overwrite the initial value.

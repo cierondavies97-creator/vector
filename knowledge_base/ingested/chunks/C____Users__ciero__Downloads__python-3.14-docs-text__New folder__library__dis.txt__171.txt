@@ -1,0 +1,4 @@
+similar to "LOAD_DEREF". This is used for loading *closure
+   variables* in class bodies (which previously used
+   "LOAD_CLASSDEREF") and in annotation scopes within class bodies.
+   Added in version 3.12.

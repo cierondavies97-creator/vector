@@ -1,0 +1,6 @@
+"None" for missing expressions.
+6.3.4. Calls
+------------
+A call calls a callable object (e.g., a *function*) with a possibly
+empty series of *arguments*:
+   call:                 primary "(" [argument_list [","] | comprehension] ")"

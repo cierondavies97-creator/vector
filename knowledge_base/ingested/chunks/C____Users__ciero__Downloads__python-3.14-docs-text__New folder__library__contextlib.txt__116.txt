@@ -1,0 +1,7 @@
+skip executing that callback:
+   from contextlib import ExitStack
+   with ExitStack() as stack:
+       stack.callback(cleanup_resources)
+       result = perform_operation()
+       if result:
+           stack.pop_all()

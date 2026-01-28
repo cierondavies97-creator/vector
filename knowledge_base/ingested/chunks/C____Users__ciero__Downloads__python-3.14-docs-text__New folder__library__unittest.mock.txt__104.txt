@@ -1,0 +1,4 @@
+type. For a mock object with a "spec", "__class__" returns the
+      spec class instead. This allows mock objects to pass
+      "isinstance()" tests for the object they are replacing /
+      masquerading as:

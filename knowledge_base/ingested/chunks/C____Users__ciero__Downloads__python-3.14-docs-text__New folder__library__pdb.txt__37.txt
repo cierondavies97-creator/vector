@@ -1,0 +1,4 @@
+command line invocation) or "None" (for backwards compatible
+   behaviour, as before the *mode* argument was added).
+   The *backend* argument specifies the backend to use for the
+   debugger. If "None" is passed, the default backend will be used.

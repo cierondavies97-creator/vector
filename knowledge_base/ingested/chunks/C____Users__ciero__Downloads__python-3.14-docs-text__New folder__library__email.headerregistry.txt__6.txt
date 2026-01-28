@@ -1,0 +1,4 @@
+but interfaces are provided for modifying the default behavior for use
+by more complex applications.
+The sections below first document the header base classes and their
+attributes, followed by the API for modifying the behavior of

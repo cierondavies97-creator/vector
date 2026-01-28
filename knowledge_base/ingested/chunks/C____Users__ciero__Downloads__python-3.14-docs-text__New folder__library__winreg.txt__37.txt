@@ -1,0 +1,4 @@
+*sub_key* is a string that identifies the subkey to load.
+   *file_name* is the name of the file to load registry data from.
+   This file must have been created with the "SaveKey()" function.
+   Under the file allocation table (FAT) file system, the filename may

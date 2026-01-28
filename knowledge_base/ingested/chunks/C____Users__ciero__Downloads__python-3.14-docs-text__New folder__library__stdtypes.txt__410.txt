@@ -1,0 +1,4 @@
+'example'
+   The outermost leading and trailing *chars* argument values are
+   stripped from the string. Characters are removed from the leading
+   end until reaching a string character that is not contained in the

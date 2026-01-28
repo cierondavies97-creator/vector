@@ -1,0 +1,6 @@
+stringprep.in_table_c3(code)
+   Determine whether *code* is in tableC.3  (Private use).
+stringprep.in_table_c4(code)
+   Determine whether *code* is in tableC.4  (Non-character code
+   points).
+stringprep.in_table_c5(code)

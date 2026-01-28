@@ -1,0 +1,3 @@
+mutable *mappings*; keys and their corresponding values can be stored,
+retrieved, and deleted, and iteration, the "in" operator and methods
+"keys()", "get()", "setdefault()" and "clear()" are available. The

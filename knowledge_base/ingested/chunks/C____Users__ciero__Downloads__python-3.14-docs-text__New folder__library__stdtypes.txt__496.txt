@@ -1,0 +1,5 @@
+>>> bytes.fromhex('2Ef0 F1f2  ')
+      b'.\xf0\xf1\xf2'
+      Changed in version 3.7: "bytes.fromhex()" now skips all ASCII
+      whitespace in the string, not just spaces.
+      Changed in version 3.14: "bytes.fromhex()" now accepts ASCII

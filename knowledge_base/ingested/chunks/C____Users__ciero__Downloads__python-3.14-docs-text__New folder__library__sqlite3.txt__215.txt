@@ -1,0 +1,4 @@
+Return all (remaining) rows of a query result as a "list".
+      Return an empty list if no rows are available. Note that the
+      "arraysize" attribute can affect the performance of this
+      operation.

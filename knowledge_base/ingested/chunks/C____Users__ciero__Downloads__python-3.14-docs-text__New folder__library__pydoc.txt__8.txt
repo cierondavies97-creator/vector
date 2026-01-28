@@ -1,0 +1,4 @@
+will be executed on that occasion.  Use an "if __name__ ==
+  '__main__':" guard to only execute code when a file is invoked as a
+  script and not just imported.
+When printing output to the console, **pydoc** attempts to paginate

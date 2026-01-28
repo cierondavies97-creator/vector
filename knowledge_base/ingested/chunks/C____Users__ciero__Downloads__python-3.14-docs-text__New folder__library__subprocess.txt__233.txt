@@ -1,0 +1,5 @@
+a tab.
+2. A string surrounded by double quotation marks is interpreted as a
+   single argument, regardless of white space contained within.  A
+   quoted string can be embedded in an argument.
+3. A double quotation mark preceded by a backslash is interpreted as a

@@ -1,0 +1,4 @@
+Look up character by name.  If a character with the given name is
+   found, return the corresponding character.  If not found,
+   "KeyError" is raised. For example:
+      >>> unicodedata.lookup('LEFT CURLY BRACKET')

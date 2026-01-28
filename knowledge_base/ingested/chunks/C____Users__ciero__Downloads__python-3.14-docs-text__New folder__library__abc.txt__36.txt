@@ -1,0 +1,4 @@
+Deprecated since version 3.3: It is now possible to use
+   "classmethod" with "abstractmethod()", making this decorator
+   redundant.
+   A subclass of the built-in "classmethod()", indicating an abstract

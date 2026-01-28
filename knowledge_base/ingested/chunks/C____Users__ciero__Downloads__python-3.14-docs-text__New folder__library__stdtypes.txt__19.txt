@@ -1,0 +1,3 @@
+(for example, class objects) is equivalent to "is". The "<", "<=", ">"
+and ">=" operators are only defined where they make sense; for
+example, they raise a "TypeError" exception when one of the arguments

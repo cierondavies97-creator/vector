@@ -1,0 +1,4 @@
+remove_flag(key, flag)
+      On the message corresponding to *key*, unset the flags specified
+      by *flag* without changing other flags. To remove more than one
+      flag at a time, *flag* may be a string of more than one

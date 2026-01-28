@@ -1,0 +1,5 @@
+context manager exits.
+   Storing the object ("cm.unraisable.object") can resurrect it if it
+   is set to an object which is being finalized. Exiting the context
+   manager clears the stored object.
+   Usage:

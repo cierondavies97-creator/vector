@@ -1,0 +1,4 @@
+on an FS), "ST_WRITE" (write on file/directory/symlink),
+   "ST_APPEND" (append-only file), "ST_IMMUTABLE" (immutable file),
+   "ST_NOATIME" (do not update access times), "ST_NODIRATIME" (do not
+   update directory access times), "ST_RELATIME" (update atime

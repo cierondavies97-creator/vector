@@ -1,0 +1,5 @@
+reject almost all operations on it, and assigning it to a variable (or
+using it as a return value) of a more specialized type is a type
+error. For example:
+   def hash_a(item: object) -> int:
+       # Fails type checking; an object does not have a 'magic' method.

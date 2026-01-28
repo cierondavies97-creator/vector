@@ -1,0 +1,4 @@
+in any way except adding them as parameters to "__init__()" and an
+   optional "__post_init__()".
+dataclasses.fields(class_or_instance)
+   Returns a tuple of "Field" objects that define the fields for this

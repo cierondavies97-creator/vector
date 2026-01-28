@@ -1,0 +1,5 @@
+maintype=maintype,
+                                  subtype=subtype,
+                                  filename=filename)
+       # Now send or store the message
+       if args.output:

@@ -1,0 +1,5 @@
+error of its own regardless of any Python socket timeout setting.
+Timeouts and the "accept" method
+--------------------------------
+If "getdefaulttimeout()" is not "None", sockets returned by the
+"accept()" method inherit that timeout.  Otherwise, the behaviour

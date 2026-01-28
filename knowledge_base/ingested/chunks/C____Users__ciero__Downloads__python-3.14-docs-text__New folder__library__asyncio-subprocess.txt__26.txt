@@ -1,0 +1,4 @@
+is raised when writing *input* into *stdin*, the exception is
+      ignored.  This condition occurs when the process exits before
+      all data are written into *stdin*.
+      If it is desired to send data to the process' *stdin*, the

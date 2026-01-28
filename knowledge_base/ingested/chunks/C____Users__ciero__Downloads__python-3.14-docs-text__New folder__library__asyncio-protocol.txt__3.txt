@@ -1,0 +1,3 @@
+abstraction for a socket (or similar I/O endpoint) while a protocol is
+an abstraction for an application, from the transport's point of view.
+Yet another view is the transport and protocol interfaces together

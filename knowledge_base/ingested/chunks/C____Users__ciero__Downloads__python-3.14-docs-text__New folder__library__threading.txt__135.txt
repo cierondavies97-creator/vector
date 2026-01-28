@@ -1,0 +1,4 @@
+from their "wait()" call immediately, but only when the thread that
+called "notify()" or "notify_all()" finally relinquishes ownership of
+the lock.
+The typical programming style using condition variables uses the lock

@@ -1,0 +1,4 @@
+The initialization of the "sys.path" module search path
+*******************************************************
+A module search path is initialized when Python starts. This module
+search path may be accessed at "sys.path".

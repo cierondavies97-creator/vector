@@ -1,0 +1,3 @@
+environment of the executed command. If *command* generates any
+   output, it will be sent to the interpreter standard output stream.
+   The C standard does not specify the meaning of the return value of

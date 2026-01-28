@@ -1,0 +1,5 @@
+Added in version 3.11.
+LOAD_DEREF(i)
+   Loads the cell contained in slot "i" of the "fast locals" storage.
+   Pushes a reference to the object the cell contains on the stack.
+   Changed in version 3.11: "i" is no longer offset by the length of

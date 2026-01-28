@@ -1,0 +1,8 @@
+forward/back makes turtle jump and likewise left/right make the
+   turtle turn instantly.
+      >>> turtle.speed()
+      3
+      >>> turtle.speed('normal')
+      >>> turtle.speed()
+      6
+      >>> turtle.speed(9)

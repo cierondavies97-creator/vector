@@ -1,0 +1,4 @@
+DSTSTART_1987_2006 = datetime(1, 4, 1, 2)
+   DSTEND_1987_2006 = datetime(1, 10, 25, 2)
+   # From 1967 to 1986, DST used to start at 2am (standard time) on the last
+   # Sunday in April (the one on or after April 24) and to end at 2am (DST time)

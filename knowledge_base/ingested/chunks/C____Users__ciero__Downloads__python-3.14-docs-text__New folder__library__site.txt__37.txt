@@ -1,0 +1,4 @@
+site.getusersitepackages()
+   Return the path of the user-specific site-packages directory,
+   "USER_SITE".  If it is not initialized yet, this function will also
+   set it, respecting "USER_BASE".  To determine if the user-specific

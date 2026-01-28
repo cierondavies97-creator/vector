@@ -1,0 +1,11 @@
+"SOL_BLUETOOTH" is only available on Linux. Other constants are
+   available if the corresponding protocol is supported.
+SO_L2CAP_*
+socket.L2CAP_LM
+L2CAP_LM_*
+SO_RFCOMM_*
+RFCOMM_LM_*
+SO_SCO_*
+SO_BTH_*
+BT_*
+   Used in the option name and value argument to the "setsockopt()"

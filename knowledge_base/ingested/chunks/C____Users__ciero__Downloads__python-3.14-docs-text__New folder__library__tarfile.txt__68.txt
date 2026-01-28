@@ -1,0 +1,4 @@
+All following arguments are optional and can be accessed as
+   instance attributes as well.
+   *name* is the pathname of the archive. *name* may be a *path-like
+   object*. It can be omitted if *fileobj* is given. In this case, the

@@ -1,0 +1,4 @@
+leaving the old exception available in "__context__" for
+   introspection when debugging.
+   The default traceback display code shows these chained exceptions
+   in addition to the traceback for the exception itself. An

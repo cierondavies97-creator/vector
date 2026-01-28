@@ -1,0 +1,4 @@
+Added in version 3.3.
+os.open(path, flags, mode=0o777, *, dir_fd=None)
+   Open the file *path* and set various flags according to *flags* and
+   possibly its mode according to *mode*.  When computing *mode*, the

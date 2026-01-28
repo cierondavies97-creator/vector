@@ -1,0 +1,5 @@
+Hence an *iterable* of "[(1,2), (3, 4)]" results in "[func(1,2),
+      func(3,4)]".
+      Added in version 3.3.
+   starmap_async(func, iterable[, chunksize[, callback[, error_callback]]])
+      A combination of "starmap()" and "map_async()" that iterates

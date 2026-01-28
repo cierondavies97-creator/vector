@@ -1,0 +1,3 @@
+*dont_inherit* is not (or is zero) then the compiler options and
+   the future statements specified by the *flags* argument are used in
+   addition to those that would be used anyway. If *dont_inherit* is a

@@ -1,0 +1,3 @@
+*scope_id* can cause problems in manipulating scoped IPv6 addresses.
+  Changed in version 3.7: For multicast addresses (with *scope_id*
+  meaningful) *address* may not contain "%scope_id" (or "zone id")

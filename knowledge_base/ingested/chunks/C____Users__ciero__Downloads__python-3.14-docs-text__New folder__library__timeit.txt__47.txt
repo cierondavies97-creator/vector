@@ -1,0 +1,4 @@
+"try"/"except" to test for missing and present object attributes:
+   $ python -m timeit "try:" "  str.__bool__" "except AttributeError:" "  pass"
+   20000 loops, best of 5: 15.7 usec per loop
+   $ python -m timeit "if hasattr(str, '__bool__'): pass"

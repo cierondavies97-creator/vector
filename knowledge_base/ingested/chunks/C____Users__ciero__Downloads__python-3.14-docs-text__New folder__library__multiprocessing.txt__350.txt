@@ -1,0 +1,5 @@
+Objects for most use cases but also demonstrates a level of control
+over the synchronization.
+Note:
+  The proxy types in "multiprocessing" do nothing to support
+  comparisons by value.  So, for instance, we have:

@@ -1,0 +1,5 @@
+repetitions is probably enough in most cases.  You can use
+"time.process_time()" to measure CPU time.
+Note:
+  There is a certain baseline overhead associated with executing a
+  pass statement. The code here doesn't try to hide it, but you should

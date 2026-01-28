@@ -1,0 +1,4 @@
+class range(start, stop, step=1, /)
+   The arguments to the range constructor must be integers (either
+   built-in "int" or any object that implements the "__index__()"
+   special method).  If the *step* argument is omitted, it defaults to

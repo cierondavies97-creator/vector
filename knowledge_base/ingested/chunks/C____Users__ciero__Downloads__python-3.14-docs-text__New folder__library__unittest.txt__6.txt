@@ -1,0 +1,5 @@
+tests and provides the outcome to the user.  The runner may use a
+   graphical interface, a textual interface, or return a special value
+   to indicate the results of executing the tests.
+See also:
+  Module "doctest"

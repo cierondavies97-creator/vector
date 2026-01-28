@@ -1,0 +1,4 @@
+>>> parser.parse_args('--str --int'.split())
+     Namespace(types=[<class 'str'>, <class 'int'>])
+* "'extend'" - This appends each item from a multi-value argument to a
+  list. The "'extend'" action is typically used with the nargs keyword

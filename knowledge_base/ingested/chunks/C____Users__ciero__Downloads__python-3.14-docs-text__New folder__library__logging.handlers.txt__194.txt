@@ -1,0 +1,5 @@
+is not *required* to have the task tracking API (though it's used
+   if available), which means that you can use "SimpleQueue" instances
+   for *queue*.
+   Note:
+     If you are using "multiprocessing", you should avoid using

@@ -1,0 +1,3 @@
+*weakref_slot* have the same meaning as they do in "@dataclass".
+   If *module* is defined, the "__module__" attribute of the dataclass
+   is set to that value. By default, it is set to the module name of

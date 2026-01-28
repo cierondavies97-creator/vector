@@ -1,0 +1,5 @@
+Parameter *flags* should be the concatenation in any order of
+      zero or more occurrences of each of "'R'", "'O'", "'D'", "'F'",
+      and "'A'".
+   add_flag(flag)
+      Set the flag(s) specified by *flag* without changing other

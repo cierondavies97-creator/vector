@@ -1,0 +1,3 @@
+"turn_red()" callback.  This field contains the widget that caught the
+X event.  The following table lists the other event fields you can
+access, and how they are denoted in Tk, which can be useful when

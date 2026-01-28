@@ -1,0 +1,5 @@
+exits and another thread is created.
+   Added in version 3.3.
+threading.get_native_id()
+   Return the native integral Thread ID of the current thread assigned
+   by the kernel. This is a non-negative integer. Its value may be

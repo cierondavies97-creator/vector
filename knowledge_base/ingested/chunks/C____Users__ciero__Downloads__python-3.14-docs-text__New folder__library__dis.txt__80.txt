@@ -1,0 +1,6 @@
+If "STACK[-1]" is a *generator iterator* or *coroutine* object it
+   is left as is.  Otherwise, implements "STACK[-1] =
+   iter(STACK[-1])".
+   Added in version 3.5.
+TO_BOOL
+   Implements "STACK[-1] = bool(STACK[-1])".

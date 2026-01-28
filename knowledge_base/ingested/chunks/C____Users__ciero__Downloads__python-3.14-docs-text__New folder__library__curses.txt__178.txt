@@ -1,0 +1,5 @@
+current values, the window's data is filled with blanks that have
+   the current background rendition (as set by "bkgdset()") merged
+   into them.
+window.scroll([lines=1])
+   Scroll the screen or scrolling region upward by *lines* lines.

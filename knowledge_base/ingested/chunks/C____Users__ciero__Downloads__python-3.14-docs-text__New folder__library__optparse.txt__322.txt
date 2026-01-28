@@ -1,0 +1,4 @@
+ACTIONS = Option.ACTIONS + ("extend",)
+       STORE_ACTIONS = Option.STORE_ACTIONS + ("extend",)
+       TYPED_ACTIONS = Option.TYPED_ACTIONS + ("extend",)
+       ALWAYS_TYPED_ACTIONS = Option.ALWAYS_TYPED_ACTIONS + ("extend",)

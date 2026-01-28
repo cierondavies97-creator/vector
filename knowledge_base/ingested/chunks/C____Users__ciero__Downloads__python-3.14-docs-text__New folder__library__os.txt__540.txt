@@ -1,0 +1,4 @@
+time clock is used. If system clock is changed, timer setting need
+   to be updated. To cancel timer when system clock is changed, see
+   "TFD_TIMER_CANCEL_ON_SET".
+   If *clockid* is "time.CLOCK_MONOTONIC", a non-settable

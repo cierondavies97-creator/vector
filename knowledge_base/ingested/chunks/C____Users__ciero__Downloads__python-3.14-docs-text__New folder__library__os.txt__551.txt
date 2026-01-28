@@ -1,0 +1,4 @@
+with "errno" set to "errno.EINVAL"
+   If the "TFD_TIMER_CANCEL_ON_SET" flag is set along with
+   "TFD_TIMER_ABSTIME" and the clock for this timer is
+   "time.CLOCK_REALTIME", the timer is marked as cancelable if the

@@ -1,0 +1,6 @@
+result = value.__format__("")
+      STACK.append(result)
+   Used for implementing formatted string literals (f-strings).
+   Added in version 3.13.
+FORMAT_WITH_SPEC
+   Formats the given value with the given format spec:

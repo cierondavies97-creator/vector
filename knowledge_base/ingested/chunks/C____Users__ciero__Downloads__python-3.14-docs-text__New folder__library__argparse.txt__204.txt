@@ -1,0 +1,4 @@
+inferred from the option strings.  "ArgumentParser" generates the
+value of "dest" by taking the first long option string and stripping
+away the initial "--" string.  If no long option strings were
+supplied, "dest" will be derived from the first short option string by

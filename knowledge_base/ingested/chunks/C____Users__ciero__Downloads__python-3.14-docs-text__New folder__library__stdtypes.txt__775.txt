@@ -1,0 +1,3 @@
+If a positional argument is given and it defines a "keys()" method,
+   a dictionary is created by calling "__getitem__()" on the argument
+   with each returned key from the method.  Otherwise, the positional

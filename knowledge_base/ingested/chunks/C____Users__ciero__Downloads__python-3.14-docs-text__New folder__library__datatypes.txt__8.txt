@@ -1,0 +1,5 @@
+* "UserString" objects
+* "collections.abc" --- Abstract Base Classes for Containers
+  * Collections Abstract Base Classes
+  * Collections Abstract Base Classes -- Detailed Descriptions
+  * Examples and Recipes

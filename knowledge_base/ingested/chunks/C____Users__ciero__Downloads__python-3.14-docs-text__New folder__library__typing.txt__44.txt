@@ -1,0 +1,6 @@
+Python 3.12.
+Annotating tuples
+=================
+For most containers in Python, the typing system assumes that all
+elements in the container will be of the same type. For example:
+   from collections.abc import Mapping

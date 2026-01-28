@@ -1,0 +1,4 @@
+The class is designed to easily support parallel processing of the
+   nodes as they become ready. For instance:
+      topological_sorter = TopologicalSorter()
+      # Add nodes to 'topological_sorter'...

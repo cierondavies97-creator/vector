@@ -1,0 +1,5 @@
+example, "1252") or UTF-8. Only the underscore separator is supported
+in this format.
+The "C" locale is supported on all platforms.
+[1] IEEE Std 1003.1-2024; 8.2 Internationalization Variables
+[2] UCRT Locale names, Languages, and Country/Region strings

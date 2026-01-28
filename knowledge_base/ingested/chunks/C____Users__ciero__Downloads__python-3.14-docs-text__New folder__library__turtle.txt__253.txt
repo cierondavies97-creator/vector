@@ -1,0 +1,5 @@
+with the given filename, then the function will raise a
+        "FileExistsError". If it is "True", the file will be
+        overwritten.
+      >>> screen.save("my_drawing.ps")
+      >>> screen.save("my_drawing.ps", overwrite=True)

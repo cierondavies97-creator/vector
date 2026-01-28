@@ -1,0 +1,5 @@
+Internationalized Domain Names (IDN)). It builds upon the "punycode"
+encoding and "stringprep".
+If you need the IDNA 2008 standard from **RFC 5891** and **RFC 5895**,
+use the third-party idna module.
+These RFCs together define a protocol to support non-ASCII characters

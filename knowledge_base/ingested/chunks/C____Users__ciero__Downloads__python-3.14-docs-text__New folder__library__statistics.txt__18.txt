@@ -1,0 +1,3 @@
+| "quantiles()"           | Divide data into intervals with equal probability.              |
++-------------------------+-----------------------------------------------------------------+
+Measures of spread

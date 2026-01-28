@@ -1,0 +1,4 @@
+We can see this in our example by making use of the "_structure"
+      debug helper function:
+         >>> for part in msg.walk():
+         ...     print(part.get_content_maintype() == 'multipart',

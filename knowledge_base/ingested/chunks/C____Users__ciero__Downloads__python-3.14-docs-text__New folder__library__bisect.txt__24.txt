@@ -1,0 +1,4 @@
+======================
+The above bisect functions are useful for finding insertion points but
+can be tricky or awkward to use for common searching tasks. The
+following five functions show how to transform them into the standard

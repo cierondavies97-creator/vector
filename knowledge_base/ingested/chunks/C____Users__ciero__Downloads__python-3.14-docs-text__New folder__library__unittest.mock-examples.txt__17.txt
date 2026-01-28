@@ -1,0 +1,5 @@
+Tracking all Calls
+------------------
+Often you want to track more than a single call to a method. The
+"mock_calls" attribute records all calls to child attributes of the
+mock - and also to their children.

@@ -1,0 +1,4 @@
+called, save a pointer to the Python function object (be careful to
+"Py_INCREF()" it!) in a global variable --- or wherever you see fit.
+For example, the following function might be part of a module
+definition:

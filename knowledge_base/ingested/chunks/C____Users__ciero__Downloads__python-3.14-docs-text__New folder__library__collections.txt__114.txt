@@ -1,0 +1,4 @@
+is propagated unchanged.
+      This method is called by the "__getitem__()" method of the
+      "dict" class when the requested key is not found; whatever it
+      returns or raises is then returned or raised by "__getitem__()".

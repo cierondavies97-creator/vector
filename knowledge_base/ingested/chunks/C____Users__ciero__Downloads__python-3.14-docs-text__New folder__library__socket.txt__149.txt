@@ -1,0 +1,4 @@
+socket (rather than, for example, retrieve *canonname*), consider
+     limiting the results by *type* (e.g. "SOCK_STREAM" or
+     "SOCK_DGRAM") and/or *proto* (e.g. "IPPROTO_TCP" or
+     "IPPROTO_UDP") that your application can handle.The behavior with

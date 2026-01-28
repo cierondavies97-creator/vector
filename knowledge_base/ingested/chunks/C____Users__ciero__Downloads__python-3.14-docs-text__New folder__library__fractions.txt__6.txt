@@ -1,0 +1,5 @@
+method below.)
+   The last version of the constructor expects a string. The usual
+   form for this instance is:
+      [sign] numerator ['/' denominator]
+   where the optional "sign" may be either '+' or '-' and "numerator"

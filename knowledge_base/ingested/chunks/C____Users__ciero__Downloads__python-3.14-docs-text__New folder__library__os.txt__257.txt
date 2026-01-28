@@ -1,0 +1,4 @@
+"os.supports_follow_symlinks". If it's unavailable, using it will
+  raise a "NotImplementedError".
+os.access(path, mode, *, dir_fd=None, effective_ids=False, follow_symlinks=True)
+   Use the real uid/gid to test for access to *path*.  Note that most

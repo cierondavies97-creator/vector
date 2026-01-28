@@ -1,0 +1,5 @@
+constructs:
+1. the name of the top-level environment of the program, which can be
+   checked using the "__name__ == '__main__'" expression; and
+2. the "__main__.py" file in Python packages.
+Both of these mechanisms are related to Python modules; how users

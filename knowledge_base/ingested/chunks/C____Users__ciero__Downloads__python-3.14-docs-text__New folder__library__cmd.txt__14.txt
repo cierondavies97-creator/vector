@@ -1,0 +1,4 @@
+If completion is enabled, completing commands will be done
+   automatically, and completing of commands args is done by calling
+   "complete_foo()" with arguments *text*, *line*, *begidx*, and
+   *endidx*.  *text* is the string prefix we are attempting to match:

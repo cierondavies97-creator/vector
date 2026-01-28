@@ -1,0 +1,8 @@
+def frob(val):
+       pass
+   def grob(val):
+       "First frob and then clear val"
+       frob(val)
+       val.clear()
+When we try to test that "grob" calls "frob" with the correct argument
+look what happens:

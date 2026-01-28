@@ -1,0 +1,4 @@
+sequences.  All "NodeList" implementations must include support for
+"__len__()" and "__getitem__()"; this allows iteration over the
+"NodeList" in "for" statements and proper support for the "len()"
+built-in function.

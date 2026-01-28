@@ -1,0 +1,5 @@
+the rest of the data.
+   Return the total number of bytes actually read which can be less
+   than the total capacity of all the objects.
+   The operating system may set a limit ("sysconf()" value
+   "'SC_IOV_MAX'") on the number of buffers that can be used.

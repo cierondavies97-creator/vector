@@ -1,0 +1,4 @@
+to temporarily release this lock using the macro
+"Py_BEGIN_ALLOW_THREADS", and to re-acquire it using
+"Py_END_ALLOW_THREADS".  This is common around blocking I/O calls, to
+let other threads use the processor while waiting for the I/O to

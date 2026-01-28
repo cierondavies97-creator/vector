@@ -1,0 +1,4 @@
+that is attached to "stdin".
+    As a result, Python modules that involve console manipulation
+    (such as "curses" and "readline") are not available on mobile
+    platforms.

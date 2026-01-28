@@ -1,0 +1,6 @@
+trace each command.
+IMAP4.utf8_enabled
+   Boolean value that is normally "False", but is set to "True" if an
+   "enable()" command is successfully issued for the "UTF8=ACCEPT"
+   capability.
+   Added in version 3.5.

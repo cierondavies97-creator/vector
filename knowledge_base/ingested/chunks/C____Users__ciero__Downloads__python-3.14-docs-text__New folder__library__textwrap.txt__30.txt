@@ -1,0 +1,3 @@
+ending of every line (after wrapping but before indenting) is
+      dropped. Whitespace at the beginning of the paragraph, however,
+      is not dropped if non-whitespace follows it.  If whitespace

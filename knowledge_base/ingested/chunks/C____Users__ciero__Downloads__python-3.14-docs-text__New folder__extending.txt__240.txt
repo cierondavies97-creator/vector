@@ -1,0 +1,8 @@
+{
+       if (import_spam() < 0) {
+           return -1;
+       }
+       /* additional initialization can happen here */
+       return 0;
+   }
+The main disadvantage of this approach is that the file "spammodule.h"

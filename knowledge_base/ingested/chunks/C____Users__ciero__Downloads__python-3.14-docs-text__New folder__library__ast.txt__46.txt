@@ -1,0 +1,5 @@
+the same names to the given values.
+   For example, to create and populate an "ast.UnaryOp" node, you
+   could use
+      node = ast.UnaryOp(ast.USub(), ast.Constant(5, lineno=0, col_offset=0),
+                         lineno=0, col_offset=0)

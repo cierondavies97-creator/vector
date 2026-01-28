@@ -1,0 +1,4 @@
+parser = OptionParser(option_class=MyOption)
+   parser.add_option("-c", type="complex")
+Alternately, you can build your own option list and pass it to
+OptionParser; if you don't use "add_option()" in the above way, you

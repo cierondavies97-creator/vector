@@ -1,0 +1,3 @@
+Register the error handling function *error_handler* under the name
+   *name*. The *error_handler* argument will be called during encoding
+   and decoding in case of an error, when *name* is specified as the

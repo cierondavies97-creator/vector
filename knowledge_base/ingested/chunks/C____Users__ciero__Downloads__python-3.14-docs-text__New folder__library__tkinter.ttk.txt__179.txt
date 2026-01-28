@@ -1,0 +1,6 @@
+column.
+      *stretch*: "True"/"False"
+         Specifies whether the column's width should be adjusted when
+         the widget is resized.
+      *width*: width
+         The width of the column in pixels.

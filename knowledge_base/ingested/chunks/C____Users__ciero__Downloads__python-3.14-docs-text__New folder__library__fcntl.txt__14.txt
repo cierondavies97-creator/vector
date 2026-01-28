@@ -1,0 +1,4 @@
+fcntl.fcntl(fd, cmd, arg=0, /)
+   Perform the operation *cmd* on file descriptor *fd* (file objects
+   providing a "fileno()" method are accepted as well).  The values
+   used for *cmd* are operating system dependent, and are available as

@@ -1,0 +1,4 @@
+it returns an instance of "collections.abc.Generator", the instance
+   will be wrapped in an *awaitable* proxy object.  All other types of
+   objects will be returned as is.
+   Added in version 3.5.

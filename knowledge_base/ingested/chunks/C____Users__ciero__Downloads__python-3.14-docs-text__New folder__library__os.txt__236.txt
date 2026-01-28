@@ -1,0 +1,4 @@
+in array order. Entire contents of the first buffer is written
+   before proceeding to the second, and so on.
+   Returns the total number of bytes actually written.
+   The operating system may set a limit ("sysconf()" value

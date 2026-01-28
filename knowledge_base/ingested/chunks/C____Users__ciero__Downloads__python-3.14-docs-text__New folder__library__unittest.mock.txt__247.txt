@@ -1,0 +1,8 @@
+...     def __iter__(self):
+...         return iter(self.values)
+...
+>>> thing = Container()
+>>> thing['one'] = 1
+>>> with patch.dict(thing, one=2, two=3):
+...     assert thing['one'] == 2
+...     assert thing['two'] == 3

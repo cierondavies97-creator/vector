@@ -1,0 +1,4 @@
+provided in the "multiprocessing.managers" module.
+In this module, shared memory refers to "POSIX style" shared memory
+blocks (though is not necessarily implemented explicitly as such) and
+does not refer to "distributed shared memory".  This style of shared

@@ -1,0 +1,4 @@
+modules.
+   It is the same on all platforms. Modules which are not available on
+   some platforms and modules disabled at Python build are also
+   listed. All module kinds are listed: pure Python, built-in, frozen

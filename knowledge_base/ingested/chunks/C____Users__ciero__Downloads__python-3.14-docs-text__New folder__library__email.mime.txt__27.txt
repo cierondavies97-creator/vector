@@ -1,0 +1,4 @@
+Module: "email.mime.image"
+   A subclass of "MIMENonMultipart", the "MIMEImage" class is used to
+   create MIME message objects of major type *image*. *_imagedata*
+   contains the bytes for the raw image data.  If this data type can

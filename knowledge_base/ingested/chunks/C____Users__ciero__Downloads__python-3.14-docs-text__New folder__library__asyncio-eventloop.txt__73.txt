@@ -1,0 +1,3 @@
+addresses are interleaved by address family, and the given
+     integer is interpreted as "First Address Family Count" as defined
+     in **RFC 8305**. The default is "0" if *happy_eyeballs_delay* is

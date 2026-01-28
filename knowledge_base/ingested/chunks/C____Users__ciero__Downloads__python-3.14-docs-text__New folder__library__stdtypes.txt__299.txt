@@ -1,0 +1,3 @@
+large degree of flexibility and customization (see "str.format()",
+Format String Syntax and Custom String Formatting) and the other based
+on C "printf" style formatting that handles a narrower range of types

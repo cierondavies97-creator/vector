@@ -1,0 +1,4 @@
+==========================
+Note that if you specify an interpreter and then distribute your
+application archive, you need to ensure that the interpreter used is
+portable.  The Python launcher for Windows supports most common forms

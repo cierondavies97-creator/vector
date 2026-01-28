@@ -1,0 +1,8 @@
+>>> getattr(p, 'x')
+11
+To convert a dictionary to a named tuple, use the double-star-operator
+(as described in Unpacking Argument Lists):
+>>> d = {'x': 11, 'y': 22}
+>>> Point(**d)
+Point(x=11, y=22)
+Since a named tuple is a regular Python class, it is easy to add or

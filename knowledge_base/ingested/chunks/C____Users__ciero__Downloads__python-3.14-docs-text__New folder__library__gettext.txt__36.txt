@@ -1,0 +1,4 @@
+If you have an unsupported message catalog file format, you
+      should override this method to parse your format.
+   add_fallback(fallback)
+      Add *fallback* as the fallback object for the current

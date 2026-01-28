@@ -1,0 +1,4 @@
+Token(type='IF', value='IF', line=2, column=4)
+   Token(type='ID', value='quantity', line=2, column=7)
+   Token(type='THEN', value='THEN', line=2, column=16)
+   Token(type='ID', value='total', line=3, column=8)

@@ -1,0 +1,5 @@
+are also checking that they were made in the right order and with no
+additional calls:
+You use the "call" object to construct lists for comparing with
+"mock_calls":
+>>> expected = [call.method(), call.attribute.method(10, x=53)]

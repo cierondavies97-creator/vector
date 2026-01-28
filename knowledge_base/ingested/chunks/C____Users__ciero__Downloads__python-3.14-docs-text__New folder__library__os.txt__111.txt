@@ -1,0 +1,4 @@
+Unix platforms, sockets and pipes are also referenced by file
+descriptors.
+The "fileno()" method can be used to obtain the file descriptor
+associated with a *file object* when required.  Note that using the

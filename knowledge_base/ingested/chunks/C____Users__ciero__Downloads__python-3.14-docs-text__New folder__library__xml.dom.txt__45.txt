@@ -1,0 +1,4 @@
+"Element" object having the given *namespaceUri* and
+   *qualifiedName*. The *doctype* must be a "DocumentType" object
+   created by "createDocumentType()", or "None". In the Python DOM
+   API, the first two arguments can also be "None" in order to

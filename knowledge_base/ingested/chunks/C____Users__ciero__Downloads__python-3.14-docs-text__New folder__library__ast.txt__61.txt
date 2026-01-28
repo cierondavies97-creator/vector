@@ -1,0 +1,4 @@
+Name(id='y', ctx=Store())],
+                  value=Constant(value=2))])
+class ast.FunctionType(argtypes, returns)
+   A representation of an old-style type comments for functions, as

@@ -1,0 +1,5 @@
+will be present in "sys.orig_argv" and missing from "sys.argv".
+   Added in version 3.10.
+sys.path
+   A list of strings that specifies the search path for modules.
+   Initialized from the environment variable "PYTHONPATH", plus an

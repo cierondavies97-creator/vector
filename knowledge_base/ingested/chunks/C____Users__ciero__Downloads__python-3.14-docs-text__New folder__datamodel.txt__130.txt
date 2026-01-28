@@ -1,0 +1,3 @@
+assuming *alist* is a list object. In this case, the special read-only
+attribute "__self__" is set to the object denoted by *alist*. (The
+attribute has the same semantics as it does with "other instance

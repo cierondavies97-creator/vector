@@ -1,0 +1,4 @@
+scheduled as a Task.
+   If all awaitables are completed successfully, the result is an
+   aggregate list of returned values.  The order of result values
+   corresponds to the order of awaitables in *aws*.

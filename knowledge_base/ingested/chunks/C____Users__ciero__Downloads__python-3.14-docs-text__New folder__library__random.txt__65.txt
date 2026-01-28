@@ -1,0 +1,6 @@
+behaviour of "Random" instances.
+   Optionally, a custom generator subclass can also supply the
+   following method:
+   getrandbits(k)
+      Override this method in subclasses to customise the
+      "getrandbits()" behaviour of "Random" instances.

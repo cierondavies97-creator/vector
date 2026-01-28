@@ -1,0 +1,4 @@
+masked out to determine the appropriate network address.
+   Unless stated otherwise, all network methods accepting other
+   network/address objects will raise "TypeError" if the argument's IP
+   version is incompatible to "self".

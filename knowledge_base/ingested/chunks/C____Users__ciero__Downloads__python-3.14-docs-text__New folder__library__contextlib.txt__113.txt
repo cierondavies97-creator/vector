@@ -1,0 +1,3 @@
+flag variable to indicate whether or not the body of the "finally"
+clause should be executed. In its simplest form (that can't already be
+handled just by using an "except" clause instead), it looks something

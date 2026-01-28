@@ -1,0 +1,5 @@
+be mixed with any other options.
+      width=width
+         Specifies the width for the element. If this option is set
+         then the Visual Styles API will not be queried for the
+         recommended size or the part. If this option is set then

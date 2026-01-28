@@ -1,0 +1,3 @@
+raise ValueError('you cannot supply --upgrade and --clear together.')
+       builder = ExtendedEnvBuilder(system_site_packages=options.system_site,
+                                      clear=options.clear,

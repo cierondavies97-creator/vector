@@ -1,0 +1,4 @@
+for introspecting Generics.
+   For classes that have an "__orig_bases__" attribute, this function
+   returns the value of "cls.__orig_bases__". For classes without the
+   "__orig_bases__" attribute, "cls.__bases__" is returned.

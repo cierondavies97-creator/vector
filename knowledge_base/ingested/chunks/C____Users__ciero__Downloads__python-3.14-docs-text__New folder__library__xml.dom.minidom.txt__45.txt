@@ -1,0 +1,5 @@
+runtime.
+* The types "short int", "unsigned int", "unsigned long long", and
+  "boolean" all map to Python integer objects.
+* The type "DOMString" maps to Python strings. "xml.dom.minidom"
+  supports either bytes or strings, but will normally produce strings.

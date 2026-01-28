@@ -1,0 +1,4 @@
+header in its HTTP requests.
+   The optional *timeout* parameter specifies a timeout in seconds for
+   blocking operations like the connection attempt (if not specified,
+   the global default timeout setting will be used).  This actually

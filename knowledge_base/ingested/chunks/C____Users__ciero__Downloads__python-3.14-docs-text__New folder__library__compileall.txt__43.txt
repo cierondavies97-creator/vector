@@ -1,0 +1,3 @@
+If *legacy* is true, byte-code files are written to their legacy
+   locations and names, which may overwrite byte-code files created by
+   another version of Python.  The default is to write files to their

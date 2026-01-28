@@ -1,0 +1,4 @@
+function object from a class via one of its instances, its "__self__"
+attribute is the instance, and the method object is said to be
+*bound*.  The new method's "__func__" attribute is the original
+function object.

@@ -1,0 +1,5 @@
+supported:
+* Numeric types: "int", "bool", "float", "complex".
+* Strings ("str") and "bytes". *Bytes-like objects* like "bytearray"
+  are marshalled as "bytes".
+* Containers: "tuple", "list", "set", "frozenset", and (since

@@ -1,0 +1,4 @@
+caught by Python or the underlying C libraries). The earliest date
+   for which it can generate a time is platform-dependent.
+time.monotonic() -> float
+   Return the value (in fractional seconds) of a monotonic clock, i.e.

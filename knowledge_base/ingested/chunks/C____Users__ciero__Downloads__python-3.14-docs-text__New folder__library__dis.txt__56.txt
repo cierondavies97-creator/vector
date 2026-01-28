@@ -1,0 +1,5 @@
+effect of both cases.
+   Added in version 3.4.
+   Changed in version 3.8: Added *jump* parameter.
+   Changed in version 3.13: If "oparg" is omitted (or "None"), the
+   stack effect is now returned for "oparg=0". Previously this was an

@@ -1,0 +1,7 @@
+'/usr/lib/libm.dylib'
+   >>> find_library("bz2")
+   '/usr/lib/libbz2.dylib'
+   >>> find_library("AGL")
+   '/System/Library/Frameworks/AGL.framework/AGL'
+   >>>
+On Windows, "find_library()" searches along the system search path,

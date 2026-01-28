@@ -1,0 +1,6 @@
+self.output = bytearray()
+           self.pipe_closed = False
+           self.exited = False
+       def pipe_connection_lost(self, fd, exc):
+           self.pipe_closed = True
+           self.check_for_exit()

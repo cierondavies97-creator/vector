@@ -1,0 +1,6 @@
+msg.get_flags()" is "True".
+   set_subdir(subdir)
+      Set the subdirectory the message should be stored in. Parameter
+      *subdir* must be either "new" or "cur".
+   get_flags()
+      Return a string specifying the flags that are currently set. If

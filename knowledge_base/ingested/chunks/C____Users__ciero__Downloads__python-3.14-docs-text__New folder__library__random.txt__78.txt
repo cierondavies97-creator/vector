@@ -1,0 +1,6 @@
+>>> def trial():
+   ...     return 2_500 <= sorted(choices(range(10_000), k=5))[2] < 7_500
+   ...
+   >>> sum(trial() for i in range(10_000)) / 10_000
+   0.7958
+Example of statistical bootstrapping using resampling with replacement

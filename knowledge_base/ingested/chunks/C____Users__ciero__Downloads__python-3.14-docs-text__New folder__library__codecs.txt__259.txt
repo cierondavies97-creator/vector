@@ -1,0 +1,6 @@
+just text encodings). For asymmetric codecs, the stated meaning
+describes the encoding direction.
+Text Encodings
+--------------
+The following codecs provide "str" to "bytes" encoding and *bytes-like
+object* to "str" decoding, similar to the Unicode text encodings.

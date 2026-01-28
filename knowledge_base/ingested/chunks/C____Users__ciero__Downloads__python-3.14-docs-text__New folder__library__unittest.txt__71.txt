@@ -1,0 +1,7 @@
+Set-up and tear-down functions can also be provided.
+Given the following test function:
+   def testSomething():
+       something = makeSomething()
+       assert something.name is not None
+       # ...
+one can create an equivalent test case instance as follows, with

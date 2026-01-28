@@ -1,0 +1,4 @@
+defaults to 0 and has the same meaning as for "recv()".
+   The return value is a 4-tuple: "(data, ancdata, msg_flags,
+   address)".  The *data* item is a "bytes" object holding the non-
+   ancillary data received.  The *ancdata* item is a list of zero or

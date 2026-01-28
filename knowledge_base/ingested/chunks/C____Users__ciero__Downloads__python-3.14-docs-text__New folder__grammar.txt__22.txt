@@ -1,0 +1,6 @@
+# NOTE: assignment MUST precede expression, else parsing a simple assignment
+   # will throw a SyntaxError.
+   simple_stmt[stmt_ty] (memo):
+       | assignment
+       | &"type" type_alias
+       | e=star_expressions { _PyAST_Expr(e, EXTRA) }

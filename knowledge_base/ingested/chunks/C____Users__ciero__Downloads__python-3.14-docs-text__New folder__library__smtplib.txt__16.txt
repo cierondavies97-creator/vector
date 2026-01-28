@@ -1,0 +1,4 @@
+Changed in version 3.3: *context* was added.
+   Changed in version 3.3: The *source_address* argument was added.
+   Changed in version 3.4: The class now supports hostname check with
+   "ssl.SSLContext.check_hostname" and *Server Name Indication* (see

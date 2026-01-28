@@ -1,0 +1,3 @@
+The "Context" class defines several general purpose methods as well
+   as a large number of methods for doing arithmetic directly in a
+   given context. In addition, for each of the "Decimal" methods

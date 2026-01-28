@@ -1,0 +1,3 @@
+given for the *compression* parameter to the constructor for the
+   new entry. Similarly, *compresslevel* will override the constructor
+   if given. The archive must be open with mode "'w'", "'x'" or "'a'".

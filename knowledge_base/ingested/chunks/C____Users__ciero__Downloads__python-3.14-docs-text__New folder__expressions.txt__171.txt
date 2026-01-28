@@ -1,0 +1,4 @@
+using the syntax "**identifier" is present; in this case, that formal
+parameter receives a dictionary containing the excess keyword
+arguments (using the keywords as keys and the argument values as
+corresponding values), or a (new) empty dictionary if there were no

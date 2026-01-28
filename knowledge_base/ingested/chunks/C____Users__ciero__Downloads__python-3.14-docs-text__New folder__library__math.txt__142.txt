@@ -1,0 +1,6 @@
+is intended specifically for use with numeric values and may reject
+   non-numeric types.
+   Added in version 3.8.
+math.sumprod(p, q)
+   Return the sum of products of values from two iterables *p* and
+   *q*.

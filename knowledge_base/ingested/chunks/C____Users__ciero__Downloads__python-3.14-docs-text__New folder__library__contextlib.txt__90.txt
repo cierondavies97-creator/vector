@@ -1,0 +1,5 @@
+The "close()" method is not implemented; "aclose()" must be used
+   instead.
+   async enter_async_context(cm)
+      Similar to "ExitStack.enter_context()" but expects an
+      asynchronous context manager.

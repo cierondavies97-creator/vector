@@ -1,0 +1,4 @@
+Token(type='END', value=';', line=4, column=27)
+   Token(type='ENDIF', value='ENDIF', line=5, column=4)
+   Token(type='END', value=';', line=5, column=9)
+[Frie09] Friedl, Jeffrey. Mastering Regular Expressions. 3rd ed.,

@@ -1,0 +1,4 @@
+exception tuple with the current exception information, as
+        returned by "sys.exc_info()", or "None" if no exception
+        information is available.
+      * **func** (*str** | **None*) -- The name of the function or

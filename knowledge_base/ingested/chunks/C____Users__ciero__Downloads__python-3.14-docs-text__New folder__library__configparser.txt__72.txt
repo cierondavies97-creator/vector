@@ -1,0 +1,4 @@
+operations, the order of the keys will be ordered.  For example:
+     >>> parser = configparser.ConfigParser()
+     >>> parser.read_dict({'section1': {'key1': 'value1',
+     ...                                'key2': 'value2',

@@ -1,0 +1,4 @@
+a database.  Getting the Python code from a file can better be done by
+using the "PyRun_SimpleFile()" function, which saves you the trouble
+of allocating memory space and loading the file contents.
+1.2. Beyond Very High Level Embedding: An overview

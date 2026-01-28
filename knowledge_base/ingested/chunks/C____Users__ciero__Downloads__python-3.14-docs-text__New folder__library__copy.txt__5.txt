@@ -1,0 +1,5 @@
+in the original.
+* A *deep copy* constructs a new compound object and then,
+  recursively, inserts *copies* into it of the objects found in the
+  original.
+Two problems often exist with deep copy operations that don't exist

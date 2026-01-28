@@ -1,0 +1,3 @@
+"Condition", "Event", and "Barrier".  Additionally, the "queue"
+   module provides multi-producer, multi-consumer queues that are
+   especially useful in multithreaded programs. These primitives help

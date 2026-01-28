@@ -1,0 +1,7 @@
+errors.
+   cwd(pathname)
+      Set the current directory on the server.
+   mkd(pathname)
+      Create a new directory on the server.
+   pwd()
+      Return the pathname of the current directory on the server.

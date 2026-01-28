@@ -1,0 +1,3 @@
+| curses.BUTTON_SHIFT                | Shift was down during button state change     |
++------------------------------------+-----------------------------------------------+
+| curses.BUTTON_CTRL                 | Control was down during button state change   |

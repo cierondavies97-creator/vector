@@ -1,0 +1,4 @@
+# but ``z`` has been assigned to a tuple of length 3
+   z: tuple[int] = (1, 2, 3)
+To denote a tuple which could be of *any* length, and in which all
+elements are of the same type "T", use the literal ellipsis "...":

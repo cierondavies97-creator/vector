@@ -1,0 +1,5 @@
+"SharedMemoryManager":
+   >>> from multiprocessing.managers import SharedMemoryManager
+   >>> smm = SharedMemoryManager()
+   >>> smm.start()  # Start the process that manages the shared memory blocks
+   >>> sl = smm.ShareableList(range(4))

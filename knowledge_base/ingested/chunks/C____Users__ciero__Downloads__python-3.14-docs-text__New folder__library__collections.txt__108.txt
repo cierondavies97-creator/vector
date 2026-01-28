@@ -1,0 +1,3 @@
+Remove old entries with "popleft()", add new entries with "extend()",
+and then reverse the rotation. With minor variations on that approach,
+it is easy to implement Forth style stack manipulations such as "dup",

@@ -1,0 +1,4 @@
+email headers or bodies.  If the *input_charset* is one of them,
+      this attribute will contain the name of the character set output
+      will be converted to. Otherwise, it will be "None".
+   input_codec

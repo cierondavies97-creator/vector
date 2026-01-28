@@ -1,0 +1,4 @@
+streams. Added support for the "'x'" mode.
+   Changed in version 3.6: Previously, a plain "RuntimeError" was
+   raised for unrecognized compression values.
+   Changed in version 3.6.2: The *file* parameter accepts a *path-like

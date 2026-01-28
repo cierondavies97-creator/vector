@@ -1,0 +1,4 @@
+"importlib.resources" -- Package resource reading, opening and access
+*********************************************************************
+**Source code:** Lib/importlib/resources/__init__.py
+======================================================================

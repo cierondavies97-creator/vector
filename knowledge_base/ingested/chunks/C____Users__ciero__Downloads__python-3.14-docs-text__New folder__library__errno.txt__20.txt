@@ -1,0 +1,8 @@
+errno.ELIBSCN
+   .lib section in a.out corrupted
+errno.ELIBMAX
+   Attempting to link in too many shared libraries
+errno.ELIBEXEC
+   Cannot exec a shared library directly
+errno.EILSEQ
+   Illegal byte sequence

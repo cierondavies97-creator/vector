@@ -1,0 +1,4 @@
+is "None" and "(',', ': ')" otherwise.  To get the most compact
+   JSON representation, you should specify "(',', ':')" to eliminate
+   whitespace.
+   Changed in version 3.4: Use "(',', ': ')" as default if *indent* is

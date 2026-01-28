@@ -1,0 +1,8 @@
+af, socktype, proto, canonname, sa = res
+       try:
+           s = socket.socket(af, socktype, proto)
+       except OSError as msg:
+           s = None
+           continue
+       try:
+           s.connect(sa)

@@ -1,0 +1,4 @@
+subject to the limitations of numerical representation in computers.
+The string representations of the numeric classes, computed by
+"__repr__()" and "__str__()", have the following properties:
+* They are valid numeric literals which, when passed to their class

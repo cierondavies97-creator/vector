@@ -1,0 +1,3 @@
+|                              | "flags_and_attributes"                      |
++------------------------------+---------------------------------------------+
+| _winapi.CreateJunction       | "src_path", "dst_path"                      |

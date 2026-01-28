@@ -1,0 +1,4 @@
+xml.etree.ElementTree.canonicalize(xml_data=None, *, out=None, from_file=None, **options)
+   C14N 2.0 transformation function.
+   Canonicalization is a way to normalise XML output in a way that
+   allows byte-by-byte comparisons and digital signatures.  It reduces

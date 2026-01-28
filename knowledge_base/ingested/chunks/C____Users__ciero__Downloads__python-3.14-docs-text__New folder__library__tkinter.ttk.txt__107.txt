@@ -1,0 +1,4 @@
+The tab will not be displayed, but the associated window remains
+      managed by the notebook and its configuration remembered. Hidden
+      tabs may be restored with the "add()" command.
+   identify(x, y)

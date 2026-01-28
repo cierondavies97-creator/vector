@@ -1,0 +1,3 @@
+Subclass of "ValueError" raised by "TopologicalSorter.prepare()" if
+   cycles exist in the working graph. If multiple cycles exist, only
+   one undefined choice among them will be reported and included in

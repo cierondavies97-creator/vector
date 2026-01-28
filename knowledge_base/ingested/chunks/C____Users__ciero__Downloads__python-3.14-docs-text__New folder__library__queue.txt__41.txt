@@ -1,0 +1,4 @@
+returns "False" it doesn't guarantee that a subsequent call to
+   get() will not block.
+SimpleQueue.put(item, block=True, timeout=None)
+   Put *item* into the queue.  The method never blocks and always

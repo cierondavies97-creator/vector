@@ -1,0 +1,4 @@
+"drive + root + tail" will be the same as *path*.
+   On POSIX systems, *drive* is always empty. The *root* may be empty
+   (if *path* is relative), a single forward slash (if *path* is
+   absolute), or two forward slashes (implementation-defined per IEEE

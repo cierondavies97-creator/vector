@@ -1,0 +1,8 @@
+As we can easily check, our array is sorted now:
+   >>> for i in ia: print(i, end=" ")
+   ...
+   1 5 7 33 99
+   >>>
+The function factories can be used as decorator factories, so we may
+as well write:
+   >>> @CFUNCTYPE(c_int, POINTER(c_int), POINTER(c_int))

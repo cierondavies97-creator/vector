@@ -1,0 +1,4 @@
+"io.StringIO" can be used to efficiently construct strings from
+multiple fragments.
+Changed in version 3.3: For backwards compatibility with the Python 2
+series, the "u" prefix is once again permitted on string literals. It

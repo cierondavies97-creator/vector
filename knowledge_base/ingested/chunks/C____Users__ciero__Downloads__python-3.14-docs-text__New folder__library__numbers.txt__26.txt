@@ -1,0 +1,5 @@
+def _operator_fallbacks(monomorphic_operator, fallback_operator):
+       def forward(a, b):
+           if isinstance(b, (int, Fraction)):
+               return monomorphic_operator(a, b)
+           elif isinstance(b, float):

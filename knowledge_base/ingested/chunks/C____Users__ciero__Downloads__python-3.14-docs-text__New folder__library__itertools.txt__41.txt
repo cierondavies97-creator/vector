@@ -1,0 +1,4 @@
+running maximum, set *function* to "max()". Or for a running
+   product, set *function* to "operator.mul()". To build an
+   amortization table, accumulate the interest and apply payments:
+      >>> data = [3, 4, 6, 2, 1, 9, 0, 7, 5, 8]

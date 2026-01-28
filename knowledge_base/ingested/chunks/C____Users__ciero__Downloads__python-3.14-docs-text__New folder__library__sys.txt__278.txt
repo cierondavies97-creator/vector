@@ -1,0 +1,4 @@
+Environments for more information.
+   Changed in version 3.14: When running under a virtual environment,
+   "prefix" and "exec_prefix" are now set to the virtual environment
+   prefix by the path initialization, instead of "site". This means

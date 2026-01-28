@@ -1,0 +1,5 @@
+for sending messages.
+   The "send()" method serializes the object using "pickle" and the
+   "recv()" re-creates the object.
+class multiprocessing.Queue([maxsize])
+   Returns a process shared queue implemented using a pipe and a few

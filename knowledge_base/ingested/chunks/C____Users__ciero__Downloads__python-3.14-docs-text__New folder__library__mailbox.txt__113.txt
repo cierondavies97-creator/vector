@@ -1,0 +1,4 @@
+strings that record extra information about the message, and a list
+   of all user-defined labels found in the mailbox is kept in the
+   Babyl options section.
+   "Babyl" instances have all of the methods of "Mailbox" in addition

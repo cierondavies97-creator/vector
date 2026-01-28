@@ -1,0 +1,4 @@
+Windows. Executing commands quoted by this module on such shells
+     can open up the possibility of a command injection
+     vulnerability.Consider using functions that pass command
+     arguments with lists such as "subprocess.run()" with

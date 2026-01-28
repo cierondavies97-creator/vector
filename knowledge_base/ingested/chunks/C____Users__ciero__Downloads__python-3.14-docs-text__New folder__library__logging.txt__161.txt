@@ -1,0 +1,5 @@
+the record.
+   Parameters:
+      * **name** (*str*) -- The name of the logger used to log the
+        event represented by this "LogRecord". Note that the logger
+        name in the "LogRecord" will always have this value, even

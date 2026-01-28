@@ -1,0 +1,5 @@
+Changed in version 3.6.2: The *filename* parameter accepts a *path-
+   like object*.
+   Changed in version 3.8: Added the *strict_timestamps* keyword-only
+   parameter.
+Instances have the following methods and attributes:

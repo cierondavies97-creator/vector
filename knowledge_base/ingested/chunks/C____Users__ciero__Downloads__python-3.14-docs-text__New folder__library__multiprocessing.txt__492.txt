@@ -1,0 +1,5 @@
+pass
+   # register the Foo class; make `f()` and `g()` accessible via proxy
+   MyManager.register('Foo1', Foo)
+   # register the Foo class; make `g()` and `_h()` accessible via proxy
+   MyManager.register('Foo2', Foo, exposed=('g', '_h'))

@@ -1,0 +1,5 @@
+See also:
+  **PEP 3119** - Introducing Abstract Base Classes
+     Includes the specification for customizing "isinstance()" and
+     "issubclass()" behavior through "__instancecheck__()" and
+     "__subclasscheck__()", with motivation for this functionality in

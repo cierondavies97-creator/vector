@@ -1,0 +1,4 @@
+stripspaces
+      This attribute is a flag which controls the interpretation of
+      blanks in the window.  When it is on, trailing blanks on each
+      line are ignored; any cursor motion that would land the cursor

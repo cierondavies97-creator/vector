@@ -1,0 +1,4 @@
+parser.add_option(opt_str, ...,
+                     attr=value, ...)
+Each option has one or more option strings, such as "-f" or "--file",
+and several option attributes that tell "optparse" what to expect and

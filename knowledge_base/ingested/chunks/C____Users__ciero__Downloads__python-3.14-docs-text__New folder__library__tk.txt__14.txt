@@ -1,0 +1,8 @@
+* Window menu (Shell and Editor)
+    * Help menu (Shell and Editor)
+    * Context menus
+  * Editing and Navigation
+    * Editor windows
+    * Key bindings
+    * Automatic indentation
+    * Search and Replace

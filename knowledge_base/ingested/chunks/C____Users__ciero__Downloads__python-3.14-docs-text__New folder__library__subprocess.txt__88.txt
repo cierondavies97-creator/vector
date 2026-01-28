@@ -1,0 +1,7 @@
+(POSIX only)
+   Warning:
+     The *preexec_fn* parameter is NOT SAFE to use in the presence of
+     threads in your application.  The child process could deadlock
+     before exec is called.
+   Note:
+     If you need to modify the environment for the child use the *env*

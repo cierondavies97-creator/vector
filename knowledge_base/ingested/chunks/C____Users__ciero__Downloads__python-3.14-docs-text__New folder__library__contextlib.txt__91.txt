@@ -1,0 +1,4 @@
+Changed in version 3.11: Raises "TypeError" instead of
+      "AttributeError" if *cm* is not an asynchronous context manager.
+   push_async_exit(exit)
+      Similar to "ExitStack.push()" but expects either an asynchronous

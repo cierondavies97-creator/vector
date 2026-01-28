@@ -1,0 +1,5 @@
+| invalid_tstring_replacement_field
+   tstring_format_spec[expr_ty]:
+       | t=TSTRING_MIDDLE { _PyPegen_decoded_constant_from_token(p, t) }
+       | tstring_format_spec_replacement_field
+   tstring_full_format_spec[ResultTokenWithMetadata*]:

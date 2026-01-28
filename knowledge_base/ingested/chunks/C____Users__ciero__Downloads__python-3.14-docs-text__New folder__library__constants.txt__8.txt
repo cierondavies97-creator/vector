@@ -1,0 +1,4 @@
+context now raises a "TypeError". It previously evaluated to "True"
+   and emitted a "DeprecationWarning" since Python 3.9.
+Ellipsis
+   The same as the ellipsis literal ""..."", an object frequently used

@@ -1,0 +1,4 @@
+Open a gzip-compressed file in binary or text mode, returning a
+   *file object*.
+   The *filename* argument can be an actual filename (a "str" or
+   "bytes" object), or an existing file object to read from or write

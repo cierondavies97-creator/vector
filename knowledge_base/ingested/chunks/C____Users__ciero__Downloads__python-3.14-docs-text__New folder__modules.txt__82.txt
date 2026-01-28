@@ -1,0 +1,4 @@
+Again, this loads the submodule "echo", but this makes its function
+"echofilter()" directly available:
+   echofilter(input, output, delay=0.7, atten=4)
+Note that when using "from package import item", the item can be

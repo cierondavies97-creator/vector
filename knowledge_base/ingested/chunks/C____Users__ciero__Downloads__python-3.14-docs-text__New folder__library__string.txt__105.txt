@@ -1,0 +1,3 @@
+|           | "float", and uses a precision large enough to show all     |
+   |           | coefficient digits for "Decimal".  If "p=0", the decimal   |
+   |           | point is omitted unless the "#" option is used.            |

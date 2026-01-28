@@ -1,0 +1,3 @@
+A basic test runner implementation that outputs results to a
+   stream. If *stream* is "None", the default, "sys.stderr" is used as
+   the output stream. This class has a few configurable parameters,

@@ -1,0 +1,6 @@
+case of fields with non-ASCII characters.
+* The SunOS tar extended format. This format is a variant of the
+  POSIX.1-2001 pax format, but is not compatible.
+Unicode issues
+==============
+The tar format was originally conceived to make backups on tape drives

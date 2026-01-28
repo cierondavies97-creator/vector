@@ -1,0 +1,4 @@
+The ABC "MyIterable" defines the standard iterable method,
+   "__iter__()", as an abstract method.  The implementation given here
+   can still be called from subclasses.  The "get_iterator()" method
+   is also part of the "MyIterable" abstract base class, but it does

@@ -1,0 +1,4 @@
+family was added.
+   Changed in version 3.4: The CAN_BCM protocol was added.
+   Changed in version 3.4: The returned socket is now non-inheritable.
+   Changed in version 3.7: The CAN_ISOTP protocol was added.

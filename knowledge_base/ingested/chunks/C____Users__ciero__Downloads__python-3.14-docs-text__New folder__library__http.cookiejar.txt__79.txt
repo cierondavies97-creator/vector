@@ -1,0 +1,4 @@
+and which may all be assigned to.
+DefaultCookiePolicy.rfc2109_as_netscape
+   If true, request that the "CookieJar" instance downgrade **RFC
+   2109** cookies (ie. cookies received in a *Set-Cookie* header with

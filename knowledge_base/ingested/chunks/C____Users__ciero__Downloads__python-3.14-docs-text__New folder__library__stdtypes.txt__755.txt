@@ -1,0 +1,7 @@
+frozenset.difference(*others)
+set.difference(*others)
+set - other - ...
+   Return a new set with elements in the set that are not in the
+   others.
+frozenset.symmetric_difference(other, /)
+set.symmetric_difference(other, /)

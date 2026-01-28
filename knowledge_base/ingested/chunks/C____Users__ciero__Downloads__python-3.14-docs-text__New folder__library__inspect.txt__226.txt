@@ -1,0 +1,5 @@
+Added in version 3.3.
+inspect.unwrap(func, *, stop=None)
+   Get the object wrapped by *func*. It follows the chain of
+   "__wrapped__" attributes returning the last object in the chain.
+   *stop* is an optional callback accepting an object in the wrapper

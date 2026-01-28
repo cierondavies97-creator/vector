@@ -1,0 +1,8 @@
+POSIX.1-1988 (ustar) format.
+tarfile.GNU_FORMAT
+   GNU tar format.
+tarfile.PAX_FORMAT
+   POSIX.1-2001 (pax) format.
+tarfile.DEFAULT_FORMAT
+   The default format for creating archives. This is currently
+   "PAX_FORMAT".

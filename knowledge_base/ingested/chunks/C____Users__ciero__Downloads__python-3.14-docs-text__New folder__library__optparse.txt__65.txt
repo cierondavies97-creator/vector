@@ -1,0 +1,5 @@
+what to do when it encounters that option on the command line.
+Typically, each option will have one short option string and one long
+option string, e.g.:
+   parser.add_option("-f", "--file", ...)
+You're free to define as many short option strings and as many long

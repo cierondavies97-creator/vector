@@ -1,0 +1,4 @@
+* "test.support.socket_helper" --- Utilities for socket tests
+* "test.support.script_helper" --- Utilities for the Python execution
+  tests
+* "test.support.bytecode_helper" --- Support tools for testing correct

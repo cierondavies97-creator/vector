@@ -1,0 +1,3 @@
++------------------+---------------------------+-------------------------------------------------+
+| msecs            | "%(msecs)d"               | Millisecond portion of the time when the        |
+|                  |                           | "LogRecord" was created.                        |

@@ -1,0 +1,4 @@
+stripping the initial "-" character.  Any internal "-" characters will
+be converted to "_" characters to make sure the string is a valid
+attribute name.  The examples below illustrate this behavior:
+   >>> parser = argparse.ArgumentParser()

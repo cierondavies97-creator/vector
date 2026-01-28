@@ -1,0 +1,4 @@
+file; the fields are described in section ZipInfo objects.
+   Changed in version 3.13: A public "compress_level" attribute has
+   been added to expose the formerly protected "_compresslevel".  The
+   older protected name continues to work as a property for backwards

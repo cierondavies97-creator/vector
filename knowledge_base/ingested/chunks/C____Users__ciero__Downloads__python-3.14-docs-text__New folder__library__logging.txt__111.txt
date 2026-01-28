@@ -1,0 +1,5 @@
+record. This version is intended to be implemented by subclasses
+      and so raises a "NotImplementedError".
+      Warning:
+        This method is called after a handler-level lock is acquired,
+        which is released after this method returns. When you override

@@ -1,0 +1,5 @@
+system-dependent version information.
+     The "platform" module provides detailed checks for the system's
+     identity.
+File Names, Command Line Arguments, and Environment Variables
+=============================================================

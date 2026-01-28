@@ -1,0 +1,5 @@
+type, as documented in Lists and Sequence Types --- list, tuple,
+   range.
+locals()
+   Return a mapping object representing the current local symbol
+   table, with variable names as the keys, and their currently bound

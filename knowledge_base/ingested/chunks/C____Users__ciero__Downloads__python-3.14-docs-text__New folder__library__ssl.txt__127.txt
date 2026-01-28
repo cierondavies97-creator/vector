@@ -1,0 +1,6 @@
+'0x100020bf'
+   Added in version 3.2.
+ssl.ALERT_DESCRIPTION_HANDSHAKE_FAILURE
+ssl.ALERT_DESCRIPTION_INTERNAL_ERROR
+ALERT_DESCRIPTION_*
+   Alert Descriptions from **RFC 5246** and others. The IANA TLS Alert

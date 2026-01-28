@@ -1,0 +1,3 @@
+* *positional-or-keyword*: specifies an argument that can be passed
+     either *positionally* or as a *keyword argument*.  This is the
+     default kind of parameter, for example *foo* and *bar* in the

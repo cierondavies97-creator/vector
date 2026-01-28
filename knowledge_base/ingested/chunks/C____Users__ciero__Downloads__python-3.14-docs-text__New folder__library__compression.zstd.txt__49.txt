@@ -1,0 +1,5 @@
+"FLUSH_FRAME", the next frame will not include the frame size
+      into the header unless "set_pledged_input_size()" is called
+      again.
+   CONTINUE
+      Collect more data for compression, which may or may not generate

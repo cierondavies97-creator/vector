@@ -1,0 +1,5 @@
+environment.
+   runcall(func, /, *args, **kwargs)
+      Profile "func(*args, **kwargs)"
+Note that profiling will only work if the called command/function
+actually returns.  If the interpreter is terminated (e.g. via a

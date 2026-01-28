@@ -1,0 +1,4 @@
+represented by numbers higher than 255.  In no-delay mode, return
+   "-1" if there is no input, otherwise wait until a key is pressed.
+window.get_wch([y, x])
+   Get a wide character. Return a character for most keys, or an

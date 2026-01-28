@@ -1,0 +1,4 @@
+described above (with the exception of the "adjusted()" and
+   "as_tuple()" methods) there is a corresponding "Context" method.
+   For example, for a "Context" instance "C" and "Decimal" instance
+   "x", "C.exp(x)" is equivalent to "x.exp(context=C)".  Each

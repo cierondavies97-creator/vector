@@ -1,0 +1,4 @@
+"os.chmod()").  Other metadata, like the file's creation and
+   modification times, is not preserved. To preserve all file metadata
+   from the original, use "copy2()" instead.
+   Raises an auditing event "shutil.copyfile" with arguments "src",

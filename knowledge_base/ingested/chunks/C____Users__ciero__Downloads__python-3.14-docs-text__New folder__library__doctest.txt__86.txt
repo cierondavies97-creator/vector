@@ -1,0 +1,5 @@
+prone to in regular expressions.
+doctest.IGNORE_EXCEPTION_DETAIL
+   When specified, doctests expecting exceptions pass so long as an
+   exception of the expected type is raised, even if the details
+   (message and fully qualified exception name) don't match.

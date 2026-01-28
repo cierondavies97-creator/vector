@@ -1,0 +1,6 @@
+os.fsdecode(filename)
+   Decode the *path-like* *filename* from the *filesystem encoding and
+   error handler*; return "str" unchanged.
+   "fsencode()" is the reverse function.
+   Added in version 3.2.
+   Changed in version 3.6: Support added to accept objects

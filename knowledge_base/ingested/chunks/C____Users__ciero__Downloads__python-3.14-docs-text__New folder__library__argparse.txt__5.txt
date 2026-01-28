@@ -1,0 +1,4 @@
+"argparse" will figure out how to parse those out of "sys.argv".  The
+"argparse" module also automatically generates help and usage
+messages.  The module will also issue errors when users give the
+program invalid arguments.

@@ -1,0 +1,5 @@
+ExceptHandler(
+                          type=Name(id='OtherException', ctx=Load()),
+                          name='e',
+                          body=[
+                              Expr(

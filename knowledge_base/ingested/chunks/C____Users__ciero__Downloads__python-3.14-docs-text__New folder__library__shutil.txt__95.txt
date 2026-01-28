@@ -1,0 +1,4 @@
+copytree(source, destination, ignore=ignore_patterns('*.pyc', 'tmp*'))
+This will copy everything except ".pyc" files and files or directories
+whose name starts with "tmp".
+Another example that uses the *ignore* argument to add a logging call:

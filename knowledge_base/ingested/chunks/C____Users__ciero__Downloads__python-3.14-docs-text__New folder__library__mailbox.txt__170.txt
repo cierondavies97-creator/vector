@@ -1,0 +1,4 @@
+Conventional flags for mbox messages are as follows:
+   +--------+------------+----------------------------------+
+   | Flag   | Meaning    | Explanation                      |
+   |========|============|==================================|

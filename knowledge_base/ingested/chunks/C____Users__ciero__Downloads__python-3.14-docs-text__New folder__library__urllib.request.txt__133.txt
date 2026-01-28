@@ -1,0 +1,4 @@
+"OpenerDirector". *req* will be a "Request" object. The return
+   value should be a "Request" object.
+BaseHandler.<protocol>_response(req, response)
+   This method is *not* defined in "BaseHandler", but subclasses

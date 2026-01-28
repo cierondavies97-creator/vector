@@ -1,0 +1,8 @@
+are able to pass "isinstance()" tests:
+>>> mock = Mock(spec=SomeClass)
+>>> isinstance(mock, SomeClass)
+True
+>>> mock = Mock(spec_set=SomeClass())
+>>> isinstance(mock, SomeClass)
+True
+The "Mock" classes have support for mocking magic methods. See magic

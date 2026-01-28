@@ -1,0 +1,5 @@
+Added in version 3.4.
+The bytecode analysis API allows pieces of Python code to be wrapped
+in a "Bytecode" object that provides easy access to details of the
+compiled code.
+class dis.Bytecode(x, *, first_line=None, current_offset=None, show_caches=False, adaptive=False, show_offsets=False, show_positions=False)

@@ -1,0 +1,4 @@
+Returns "None" if not connected or the handshake has not been
+   completed.
+   The *cb_type* parameter allow selection of the desired channel
+   binding type. Valid channel binding types are listed in the

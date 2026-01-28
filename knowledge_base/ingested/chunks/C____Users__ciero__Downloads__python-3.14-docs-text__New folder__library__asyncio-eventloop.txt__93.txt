@@ -1,0 +1,4 @@
+messages to the broadcast address.
+   * *sock* can optionally be specified in order to use a preexisting,
+     already connected, "socket.socket" object to be used by the
+     transport. If specified, *local_addr* and *remote_addr* should be

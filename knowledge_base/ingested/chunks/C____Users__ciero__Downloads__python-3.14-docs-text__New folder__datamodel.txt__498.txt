@@ -1,0 +1,5 @@
+types), including other ABCs.
+type.__instancecheck__(self, instance)
+   Return true if *instance* should be considered a (direct or
+   indirect) instance of *class*. If defined, called to implement
+   "isinstance(instance, class)".

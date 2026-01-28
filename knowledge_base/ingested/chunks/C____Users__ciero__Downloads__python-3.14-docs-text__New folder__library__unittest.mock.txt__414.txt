@@ -1,0 +1,6 @@
+explicit assignment. So, the order of precedence will not move to the
+wrapped object.
+>>> order_mock.get_value.return_value = None
+>>> order_mock.get_value() is None
+True
+Even if you set all three at once when initializing the mock, the

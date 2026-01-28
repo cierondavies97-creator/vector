@@ -1,0 +1,6 @@
+os.X_OK
+   Values to pass as the *mode* parameter of "access()" to test the
+   existence, readability, writability and executability of *path*,
+   respectively.
+os.chdir(path)
+   Change the current working directory to *path*.

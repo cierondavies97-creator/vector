@@ -1,0 +1,4 @@
+Added in version 3.9.
+   If *extra_groups* is not "None", the setgroups() system call will
+   be made in the child process prior to the execution of the
+   subprocess. Strings provided in *extra_groups* will be looked up

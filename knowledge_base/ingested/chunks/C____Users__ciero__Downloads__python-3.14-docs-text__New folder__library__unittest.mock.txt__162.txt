@@ -1,0 +1,8 @@
+>>> thread.join()
+   DEFAULT_TIMEOUT
+      Global default timeout in seconds to create instances of
+      "ThreadingMock".
+   Added in version 3.13.
+Calling
+-------
+Mock objects are callable. The call will return the value set as the

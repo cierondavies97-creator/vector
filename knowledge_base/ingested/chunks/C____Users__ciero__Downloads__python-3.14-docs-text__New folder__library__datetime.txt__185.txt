@@ -1,0 +1,4 @@
+(b.replace(tzinfo=None) - b.utcoffset())" except that the
+   implementation never overflows.
+4. "datetime" objects are equal if they represent the same date and
+   time, taking into account the time zone.

@@ -1,0 +1,4 @@
+Changed in version 3.11: "localcontext()" now supports setting
+   context attributes through the use of keyword arguments.
+decimal.IEEEContext(bits)
+   Return a context object initialized to the proper values for one of

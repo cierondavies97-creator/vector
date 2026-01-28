@@ -1,0 +1,4 @@
+Similar to the "guess_extension()" function, using the tables
+      stored as part of the object.
+   guess_type(url, strict=True)
+      Similar to the "guess_type()" function, using the tables stored

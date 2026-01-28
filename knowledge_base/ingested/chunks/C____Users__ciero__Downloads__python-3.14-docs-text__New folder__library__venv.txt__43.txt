@@ -1,0 +1,3 @@
+should always have a simple means of recreating an environment (for
+  example, if you have a requirements file "requirements.txt", you can
+  invoke "pip install -r requirements.txt" using the environment's

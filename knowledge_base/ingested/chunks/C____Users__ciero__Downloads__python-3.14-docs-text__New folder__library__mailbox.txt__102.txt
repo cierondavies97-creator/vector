@@ -1,0 +1,5 @@
+correspondingly.
+      Note:
+        Already-issued keys are invalidated by this operation and
+        should not be subsequently used.
+   Some "Mailbox" methods implemented by "MH" deserve special remarks:

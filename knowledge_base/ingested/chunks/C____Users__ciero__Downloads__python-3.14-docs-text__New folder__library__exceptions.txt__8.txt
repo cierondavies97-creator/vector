@@ -1,0 +1,4 @@
+automatically set to the handled exception.  An exception may be
+   handled when an "except" or "finally" clause, or a "with"
+   statement, is used.
+   This implicit exception context can be supplemented with an

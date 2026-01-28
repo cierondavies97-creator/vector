@@ -1,0 +1,7 @@
+it.
+   Namespace()
+      Create a shared "Namespace" object and return a proxy for it.
+   Queue([maxsize])
+      Create a shared "queue.Queue" object and return a proxy for it.
+   RLock()
+      Create a shared "threading.RLock" object and return a proxy for

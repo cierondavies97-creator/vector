@@ -1,0 +1,4 @@
+themselves, and ending before the first "!", ":", or "=" if any
+      is present. For manually created interpolations, "expression" is
+      the arbitrary string provided when constructing the
+      interpolation instance.

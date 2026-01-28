@@ -1,0 +1,4 @@
+case can never execute, because "arg" is either an "int" or a
+   "str", and both options are covered by earlier cases.
+   If a type checker finds that a call to "assert_never()" is
+   reachable, it will emit an error. For example, if the type

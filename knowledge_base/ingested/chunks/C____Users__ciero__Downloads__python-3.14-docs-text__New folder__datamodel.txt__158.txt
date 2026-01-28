@@ -1,0 +1,6 @@
+"module.__spec__.submodule_search_locations" instead of
+   "module.__path__".
+module.__file__
+module.__cached__
+   "__file__" and "__cached__" are both optional attributes that may
+   or may not be set. Both attributes should be a "str" when they are

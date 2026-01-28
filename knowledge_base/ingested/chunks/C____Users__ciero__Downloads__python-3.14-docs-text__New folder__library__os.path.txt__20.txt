@@ -1,0 +1,4 @@
+of "~" or "~user" replaced by that *user*'s home directory.
+   On Unix, an initial "~" is replaced by the environment variable
+   "HOME" if it is set; otherwise the current user's home directory is
+   looked up in the password directory through the built-in module

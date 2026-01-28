@@ -1,0 +1,5 @@
+using the "imaplib.IMAP4" class, as IMAP servers tend to be better
+implemented.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.

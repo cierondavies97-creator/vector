@@ -1,0 +1,4 @@
+arguments were given when the "FTP" instance was created. Most
+      FTP commands are only allowed after the client has logged in.
+      Parameters:
+         * **user** (*str*) -- The username to log in with (default:

@@ -1,0 +1,4 @@
+Which line number in the file the error occurred ends in. This
+      is 1-indexed: the first line in the file has a "lineno" of 1.
+   end_offset
+      The column in the end line where the error occurred finishes.

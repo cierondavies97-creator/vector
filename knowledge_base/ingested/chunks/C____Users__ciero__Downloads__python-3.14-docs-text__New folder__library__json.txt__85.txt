@@ -1,0 +1,5 @@
+not specified, "TypeError" is raised.
+   Changed in version 3.6: All parameters are now keyword-only.
+   default(o)
+      Implement this method in a subclass such that it returns a
+      serializable object for *o*, or calls the base implementation

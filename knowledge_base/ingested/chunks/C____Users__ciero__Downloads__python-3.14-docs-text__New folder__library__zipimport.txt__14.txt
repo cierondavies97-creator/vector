@@ -1,0 +1,5 @@
+"importlib.abc.PathEntryFinder.find_spec()".
+      Added in version 3.10.
+   get_code(fullname)
+      Return the code object for the specified module. Raise
+      "ZipImportError" if the module couldn't be imported.

@@ -1,0 +1,9 @@
+>>> c.assert_called_with(set())
+>>> c.assert_called_with(arg)
+Traceback (most recent call last):
+    ...
+AssertionError: expected call not found.
+Expected: mock({1})
+Actual: mock(set())
+>>> c.foo
+<CopyingMock name='mock.foo' id='...'>

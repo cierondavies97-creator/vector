@@ -1,0 +1,4 @@
+or is negative, "read()" will read until the end of the blob.
+   write(data, /)
+      Write *data* to the blob at the current offset.  This function
+      cannot change the blob length.  Writing beyond the end of the

@@ -1,0 +1,4 @@
+named *foo* somewhere.)
+A special attribute of every module is "__dict__". This is the
+dictionary containing the module's symbol table. Modifying this
+dictionary will actually change the module's symbol table, but direct

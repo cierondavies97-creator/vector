@@ -1,0 +1,4 @@
+>>> loc = locale.setlocale(locale.LC_ALL)  # get current locale
+      # use German locale; name and availability varies with platform
+      >>> locale.setlocale(locale.LC_ALL, 'de_DE.UTF-8')
+      >>> locale.strcoll('f\xe4n', 'foo')  # compare a string containing an umlaut

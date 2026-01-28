@@ -1,0 +1,5 @@
+* "codeop" --- Compile Python code
+* Importing Modules
+  * "zipimport" --- Import modules from Zip archives
+  * "pkgutil" --- Package extension utility
+  * "modulefinder" --- Find modules used by a script

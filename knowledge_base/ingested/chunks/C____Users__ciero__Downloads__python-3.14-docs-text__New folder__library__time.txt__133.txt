@@ -1,0 +1,4 @@
+"offset"
+      The offset has the form: "± hh[:mm[:ss]]". This indicates the
+      value added the local time to arrive at UTC.  If preceded by a
+      '-', the timezone is east of the Prime Meridian; otherwise, it

@@ -1,0 +1,4 @@
+(e.g., "-f"), and "value" is the string from the command line that
+   must be checked and converted to your desired type.
+   "check_mytype()" should return an object of the hypothetical type
+   "mytype".  The value returned by a type-checking function will wind

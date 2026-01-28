@@ -1,0 +1,5 @@
+newdatatype_repr(PyObject *op)
+   {
+       newdatatypeobject *self = (newdatatypeobject *) op;
+       return PyUnicode_FromFormat("Repr-ified_newdatatype{{size:%d}}",
+                                   self->obj_UnderlyingDatatypePtr->size);

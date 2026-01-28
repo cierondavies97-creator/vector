@@ -1,0 +1,4 @@
+module also provides a rectangle-drawing function useful for framing
+text boxes or for other purposes.
+The module "curses.textpad" defines the following function:
+curses.textpad.rectangle(win, uly, ulx, lry, lrx)

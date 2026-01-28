@@ -1,0 +1,5 @@
+ctx=Load()),
+              ctx=Load()))
+class ast.Slice(lower, upper, step)
+   Regular slicing (on the form "lower:upper" or "lower:upper:step").
+   Can occur only inside the *slice* field of "Subscript", either

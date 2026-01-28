@@ -1,0 +1,9 @@
+pass
+   try:
+       import guido.python.ham
+   except ImportError:
+       pass
+The script that will output the report of bacon.py:
+   from modulefinder import ModuleFinder
+   finder = ModuleFinder()
+   finder.run_script('bacon.py')

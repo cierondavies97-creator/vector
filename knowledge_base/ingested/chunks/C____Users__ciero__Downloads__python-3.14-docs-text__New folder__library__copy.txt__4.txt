@@ -1,0 +1,4 @@
+compound objects (objects that contain other objects, like lists or
+class instances):
+* A *shallow copy* constructs a new compound object and then (to the
+  extent possible) inserts *references* into it to the objects found

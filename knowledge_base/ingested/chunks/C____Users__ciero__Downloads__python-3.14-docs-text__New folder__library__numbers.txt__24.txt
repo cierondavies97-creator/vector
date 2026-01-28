@@ -1,0 +1,4 @@
+handle those instances before delegating to "Complex".
+If "A <: Complex" and "B <: Real" without sharing any other knowledge,
+then the appropriate shared operation is the one involving the built
+in "complex", and both "__radd__()" s land there, so "a+b == b+a".

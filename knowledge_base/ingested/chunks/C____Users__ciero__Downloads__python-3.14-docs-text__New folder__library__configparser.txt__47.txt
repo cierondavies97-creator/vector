@@ -1,0 +1,3 @@
+"home_dir" ("/Users" in this case).  "%(my_dir)s" in effect would
+   resolve to "/Users/lumberjack".  All interpolations are done on
+   demand so keys used in the chain of references do not have to be

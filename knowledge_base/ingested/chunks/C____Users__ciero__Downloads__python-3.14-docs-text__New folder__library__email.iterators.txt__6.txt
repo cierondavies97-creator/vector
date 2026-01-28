@@ -1,0 +1,4 @@
+The following function has been added as a useful debugging tool.  It
+should *not* be considered part of the supported public interface for
+the package.
+email.iterators._structure(msg, fp=None, level=0, include_default=False)

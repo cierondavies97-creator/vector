@@ -1,0 +1,3 @@
+with cross-site requests. This helps to mitigate CSRF attacks.
+   Valid values are "Strict" (only sent with same-site requests),
+   "Lax" (sent with same-site requests and top-level navigations), and

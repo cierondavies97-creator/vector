@@ -1,0 +1,9 @@
+Examples
+========
+Reading in a compressed file:
+   from compression import zstd
+   with zstd.open("file.zst") as f:
+       file_content = f.read()
+Creating a compressed file:
+   from compression import zstd
+   data = b"Insert Data Here"

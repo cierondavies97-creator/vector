@@ -1,0 +1,7 @@
+zlib.Z_BLOCK
+   Flush mode "5". A deflate block is completed and emitted.
+   This constant is only available if Python was compiled with zlib
+   1.2.2.2 or greater.
+   Added in version 3.6.
+zlib.Z_TREES
+   Flush mode "6", for inflate operations. Instructs inflate to return

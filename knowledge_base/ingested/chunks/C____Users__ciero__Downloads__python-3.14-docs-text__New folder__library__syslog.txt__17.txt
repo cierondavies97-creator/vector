@@ -1,0 +1,5 @@
+priority *pri*.  The function "LOG_UPTO(pri)" calculates the mask
+   for all priorities up to and including *pri*.
+   Raises an auditing event "syslog.setlogmask" with argument
+   "maskpri".
+The module defines the following constants:

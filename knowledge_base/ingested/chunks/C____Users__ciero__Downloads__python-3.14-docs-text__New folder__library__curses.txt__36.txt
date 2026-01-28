@@ -1,0 +1,6 @@
+new window using that data, returning the new window object.
+curses.has_colors()
+   Return "True" if the terminal can display colors; otherwise, return
+   "False".
+curses.has_extended_color_support()
+   Return "True" if the module supports extended colors; otherwise,

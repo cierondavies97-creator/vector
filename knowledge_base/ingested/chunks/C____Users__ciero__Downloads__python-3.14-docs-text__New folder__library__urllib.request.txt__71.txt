@@ -1,0 +1,4 @@
+for the URI, so that subsequent requests to the URI or any of its
+   super-URIs will automatically include the authentication
+   credentials.
+   Added in version 3.5: Added "is_authenticated" support.

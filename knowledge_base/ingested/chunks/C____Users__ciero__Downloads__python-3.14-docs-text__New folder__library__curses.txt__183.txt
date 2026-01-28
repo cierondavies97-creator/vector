@@ -1,0 +1,5 @@
+window.subpad(nlines, ncols, begin_y, begin_x)
+   Return a sub-window, whose upper-left corner is at "(begin_y,
+   begin_x)", and whose width/height is *ncols*/*nlines*.
+window.subwin(begin_y, begin_x)
+window.subwin(nlines, ncols, begin_y, begin_x)

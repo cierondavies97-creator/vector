@@ -1,0 +1,6 @@
+'ni']
+   >>> tup = ('spam', ('eggs', ('lumberjack', ('knights', ('ni', ('dead',
+   ... ('parrot', ('fresh fruit',))))))))
+   >>> pp = pprint.PrettyPrinter(depth=6)
+   >>> pp.pprint(tup)
+   ('spam', ('eggs', ('lumberjack', ('knights', ('ni', ('dead', (...)))))))

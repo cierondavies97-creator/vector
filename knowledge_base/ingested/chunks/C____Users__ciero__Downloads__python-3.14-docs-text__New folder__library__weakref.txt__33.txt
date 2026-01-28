@@ -1,0 +1,6 @@
+A workaround would be to remove the key prior to reassignment:
+      >>> class T(str): pass
+      ...
+      >>> k1, k2 = T(), T()
+      >>> d = weakref.WeakKeyDictionary()
+      >>> d[k1] = 1   # d = {k1: 1}

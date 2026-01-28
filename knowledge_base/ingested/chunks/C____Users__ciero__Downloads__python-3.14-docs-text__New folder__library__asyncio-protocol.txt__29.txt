@@ -1,0 +1,7 @@
+BaseTransport.get_protocol()
+   Return the current protocol.
+Read-only Transports
+--------------------
+ReadTransport.is_reading()
+   Return "True" if the transport is receiving new data.
+   Added in version 3.7.

@@ -1,0 +1,3 @@
+know what they are.  They would rather have "math.sqrt(-1)" raise an
+exception than return a complex number. Also note that the functions
+defined in "cmath" always return a complex number, even if the answer

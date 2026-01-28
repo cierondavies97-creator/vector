@@ -1,0 +1,4 @@
+of "SSLSocket" called "SSLObject" is provided.
+class ssl.SSLObject
+   A reduced-scope variant of "SSLSocket" representing an SSL protocol
+   instance that does not contain any network IO methods. This class

@@ -1,0 +1,5 @@
+"pickletools" --- Tools for pickle developers
+*********************************************
+**Source code:** Lib/pickletools.py
+======================================================================
+This module contains various constants relating to the intimate

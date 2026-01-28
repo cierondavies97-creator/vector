@@ -1,0 +1,3 @@
+Get user/password for given realm and URI, if any.  This method
+   will return "(None, None)" if there is no matching user/password.
+   For "HTTPPasswordMgrWithDefaultRealm" objects, the realm "None"

@@ -1,0 +1,4 @@
+used to control compatibility support for pickle stream generated
+   by Python 2. If *fix_imports* is true, pickle will try to map the
+   old Python 2 names to the new names used in Python 3.  The
+   *encoding* and *errors* tell pickle how to decode 8-bit string

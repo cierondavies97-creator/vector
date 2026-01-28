@@ -1,0 +1,4 @@
+otherwise the "tzinfo" attribute of the *time* argument is used.
+   If the *date* argument is a "datetime" object, its time components
+   and "tzinfo" attributes are ignored.
+   For any "datetime" object "d", "d == datetime.combine(d.date(),

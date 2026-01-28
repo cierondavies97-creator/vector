@@ -1,0 +1,4 @@
+"__delattr__()" methods to the class.  These methods will raise a
+"FrozenInstanceError" when invoked.
+There is a tiny performance penalty when using "frozen=True":
+"__init__()" cannot use simple assignment to initialize fields, and

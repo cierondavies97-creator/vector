@@ -1,0 +1,5 @@
+the current column and the given tab size.
+      Added in version 3.3.
+   replace_whitespace
+      (default: "True") If true, after tab expansion but before
+      wrapping, the "wrap()" method will replace each whitespace

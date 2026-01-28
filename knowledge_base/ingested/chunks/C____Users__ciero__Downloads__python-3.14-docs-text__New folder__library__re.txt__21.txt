@@ -1,0 +1,4 @@
+of the string, and in "MULTILINE" mode also matches before a
+   newline.  "foo" matches both 'foo' and 'foobar', while the regular
+   expression "foo$" matches only 'foo'.  More interestingly,
+   searching for "foo.$" in "'foo1\nfoo2\n'" matches 'foo2' normally,
