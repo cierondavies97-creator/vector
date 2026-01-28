@@ -1,0 +1,4 @@
+than their numerical value.  Similar to the "compare()" method,
+      but the result gives a total ordering on "Decimal" instances.
+      Two "Decimal" instances with the same numeric value but
+      different representations compare unequal in this ordering:

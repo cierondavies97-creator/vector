@@ -1,0 +1,6 @@
+...         pass
+   ...
+   >>> with patch('__main__.Class') as MockClass:
+   ...     instance = MockClass.return_value
+   ...     instance.method.return_value = 'foo'
+   ...     assert Class() is instance

@@ -1,0 +1,5 @@
+Introduced the "__prepare__" namespace hook
+3.3.3.5. Executing the class body
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The class body is executed (approximately) as "exec(body, globals(),
+namespace)". The key difference from a normal call to "exec()" is that

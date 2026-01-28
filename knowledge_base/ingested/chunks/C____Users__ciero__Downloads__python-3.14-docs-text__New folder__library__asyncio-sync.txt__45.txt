@@ -1,0 +1,4 @@
+print('End of *draining phase*')
+      This method may raise a "BrokenBarrierError" exception if the
+      barrier is broken or reset while a task is waiting. It could
+      raise a "CancelledError" if a task is cancelled.

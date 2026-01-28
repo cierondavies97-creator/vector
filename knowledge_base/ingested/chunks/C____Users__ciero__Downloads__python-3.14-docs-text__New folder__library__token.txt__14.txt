@@ -1,0 +1,7 @@
+and "COLON" tokens.
+token.FSTRING_END
+   Token value used to indicate the end of a f-string.
+   **CPython implementation detail:** The token string contains the
+   closing quote(s).
+token.TSTRING_START
+   Token value used to indicate the beginning of a template string

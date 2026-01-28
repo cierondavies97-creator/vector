@@ -1,0 +1,7 @@
+* For some exceptions, Python displays the position of the error using
+  "^" markers and tildes:
+     >>> 1 + None
+       File "<stdin>", line 1
+         1 + None
+         ~~^~~~~~
+     TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'

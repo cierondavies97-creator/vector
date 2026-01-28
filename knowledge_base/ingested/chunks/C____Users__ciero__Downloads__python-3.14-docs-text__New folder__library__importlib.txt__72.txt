@@ -1,0 +1,6 @@
+Changed in version 3.5: Made the method static.
+   exec_module(module)
+      Implementation of "Loader.exec_module()".
+      Added in version 3.4.
+   load_module(fullname)
+      Implementation of "Loader.load_module()".

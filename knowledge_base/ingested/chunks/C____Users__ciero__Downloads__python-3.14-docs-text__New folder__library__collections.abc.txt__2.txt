@@ -1,0 +1,4 @@
+it is *hashable* or whether it is a *mapping*.
+An "issubclass()" or "isinstance()" test for an interface works in one
+of three ways.
+1. A newly written class can inherit directly from one of the abstract

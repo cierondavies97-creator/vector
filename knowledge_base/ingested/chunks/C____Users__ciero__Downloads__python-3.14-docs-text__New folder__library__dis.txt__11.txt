@@ -1,0 +1,8 @@
+python -m dis [-h] [-C] [-O] [-P] [-S] [infile]
+The following options are accepted:
+-h, --help
+   Display usage and exit.
+-C, --show-caches
+   Show inline caches.
+   Added in version 3.13.
+-O, --show-offsets

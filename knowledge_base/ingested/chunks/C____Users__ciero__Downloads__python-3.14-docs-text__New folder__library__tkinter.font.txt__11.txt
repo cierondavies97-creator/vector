@@ -1,0 +1,6 @@
+*fixed* - 1 if font is fixed-width else 0
+tkinter.font.families(root=None, displayof=None)
+   Return the different font families.
+tkinter.font.names(root=None)
+   Return the names of defined fonts.
+tkinter.font.nametofont(name, root=None)

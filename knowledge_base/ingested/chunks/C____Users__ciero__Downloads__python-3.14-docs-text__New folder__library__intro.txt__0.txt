@@ -1,0 +1,5 @@
+Introduction
+************
+The "Python library" contains several different kinds of components.
+It contains data types that would normally be considered part of the
+"core" of a language, such as numbers and lists.  For these types, the

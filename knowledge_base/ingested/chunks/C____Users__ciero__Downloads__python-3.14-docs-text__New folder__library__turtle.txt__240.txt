@@ -1,0 +1,6 @@
+255
+      >>> turtle.pencolor(240,160,80)
+turtle.getcanvas()
+   Return the Canvas of this TurtleScreen.  Useful for insiders who
+   know what to do with a Tkinter Canvas.
+      >>> cv = screen.getcanvas()

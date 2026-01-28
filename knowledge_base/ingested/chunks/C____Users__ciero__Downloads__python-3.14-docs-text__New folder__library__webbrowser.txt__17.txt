@@ -1,0 +1,5 @@
+Returns "True" if a browser was successfully launched, "False"
+   otherwise.
+webbrowser.open_new_tab(url)
+   Open *url* in a new page ("tab") of the default browser, if
+   possible, otherwise equivalent to "open_new()".

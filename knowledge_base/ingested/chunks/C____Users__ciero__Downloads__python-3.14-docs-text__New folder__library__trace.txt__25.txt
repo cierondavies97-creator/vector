@@ -1,0 +1,4 @@
+that no longer exist are silently ignored. Otherwise, a missing
+      file will raise a "FileNotFoundError".
+      Changed in version 3.13: Added *ignore_missing_files* parameter.
+A simple example demonstrating the use of the programmatic interface:

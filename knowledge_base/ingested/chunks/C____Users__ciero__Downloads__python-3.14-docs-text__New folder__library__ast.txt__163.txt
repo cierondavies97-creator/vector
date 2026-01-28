@@ -1,0 +1,5 @@
+annotation=Name(id='int', ctx=Load()),
+                  simple=0)])
+class ast.AugAssign(target, op, value)
+   Augmented assignment, such as "a += 1". In the following example,
+   "target" is a "Name" node for "x" (with the "Store" context), "op"

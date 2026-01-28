@@ -1,0 +1,8 @@
+* Command-line interface
+  * Bytecode analysis
+  * Analysis functions
+  * Python Bytecode Instructions
+  * Opcode collections
+* "pickletools" --- Tools for pickle developers
+  * Command-line usage
+    * Command-line options

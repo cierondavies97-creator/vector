@@ -1,0 +1,4 @@
+algorithms. Included are the FIPS secure hash algorithms SHA224,
+SHA256, SHA384, SHA512, (defined in the FIPS 180-4 standard), the
+SHA-3 series (defined in the FIPS 202 standard) as well as the legacy
+algorithms SHA1 (formerly part of FIPS) and the MD5 algorithm (defined

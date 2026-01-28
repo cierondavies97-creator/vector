@@ -1,0 +1,4 @@
+default value is a non-empty list, the parsed value will start with
+  the default list's elements and any values from the command line
+  will be appended after those default values. Example usage:
+     >>> parser = argparse.ArgumentParser()

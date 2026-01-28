@@ -1,0 +1,4 @@
+directory between resumptions of "walk()".  "walk()" never
+     changes the current directory, and assumes that its caller
+     doesn't either.
+   This example displays the number of bytes taken by non-directory

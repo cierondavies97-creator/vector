@@ -1,0 +1,4 @@
+multiple compressed streams.
+   "BZ2File" provides all of the members specified by the
+   "io.BufferedIOBase", except for "detach()" and "truncate()".
+   Iteration and the "with" statement are supported.

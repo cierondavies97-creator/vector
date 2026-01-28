@@ -1,0 +1,6 @@
+Raises an auditing event "winreg.DeleteKey" with arguments "key",
+   "sub_key", "access".
+   Added in version 3.2.
+   Changed in version 3.3: See above.
+winreg.DeleteValue(key, value)
+   Removes a named value from a registry key.

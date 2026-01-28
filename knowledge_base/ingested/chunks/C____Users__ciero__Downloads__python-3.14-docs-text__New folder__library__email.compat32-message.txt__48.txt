@@ -1,0 +1,4 @@
+*charset.output_charset*.   If *charset.input_charset* and
+      *charset.output_charset* differ, the payload will be re-encoded
+      to the *output_charset*.  If there is no existing *Content-
+      Transfer-Encoding* header, then the payload will be transfer-

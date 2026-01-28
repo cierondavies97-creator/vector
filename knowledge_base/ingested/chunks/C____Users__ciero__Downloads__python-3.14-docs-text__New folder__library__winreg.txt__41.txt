@@ -1,0 +1,5 @@
+constants.
+   *sub_key* is a string that identifies the sub_key to open.
+   *reserved* is a reserved integer, and must be zero.  The default is
+   zero.
+   *access* is an integer that specifies an access mask that describes

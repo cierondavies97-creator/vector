@@ -1,0 +1,4 @@
+the constructor.  The method will modify requests to go through the
+   proxy, by calling "request.set_proxy()", and call the next handler
+   in the chain to actually execute the protocol.
+HTTPPasswordMgr Objects

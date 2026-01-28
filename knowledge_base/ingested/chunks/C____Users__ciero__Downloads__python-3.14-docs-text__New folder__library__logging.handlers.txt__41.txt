@@ -1,0 +1,4 @@
+and "TimedRotatingFileHandler". If either the namer or rotator
+callable raises an exception, this will be handled in the same way as
+any other exception during an "emit()" call, i.e. via the
+"handleError()" method of the handler.

@@ -1,0 +1,3 @@
+from the destination at the completion of the copy operation (for
+   example, reading the contents of a temporary file that has been
+   copied from a HTTP stream), you must ensure that you have called

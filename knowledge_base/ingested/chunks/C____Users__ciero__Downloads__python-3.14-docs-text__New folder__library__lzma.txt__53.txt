@@ -1,0 +1,5 @@
+streams, decompress all of these streams, and return the
+   concatenation of the results.
+   See "LZMADecompressor" above for a description of the *format*,
+   *memlimit* and *filters* arguments.
+Miscellaneous

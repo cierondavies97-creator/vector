@@ -1,0 +1,6 @@
+mbufs, that this user may hold at any time.
+   Availability: FreeBSD, NetBSD.
+   Added in version 3.4.
+resource.RLIMIT_SWAP
+   The maximum size (in bytes) of the swap space that may be reserved
+   or used by all of this user id's processes. This limit is enforced

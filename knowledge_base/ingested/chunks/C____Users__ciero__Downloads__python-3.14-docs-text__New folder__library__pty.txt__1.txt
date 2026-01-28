@@ -1,0 +1,4 @@
+concept: starting another process and being able to write to and read
+from its controlling terminal programmatically.
+Availability: Unix.
+Pseudo-terminal handling is highly platform dependent. This code is

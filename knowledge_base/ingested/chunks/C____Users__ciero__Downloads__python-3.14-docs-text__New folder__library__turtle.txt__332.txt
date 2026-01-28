@@ -1,0 +1,2 @@
+| "sorting_animate"        | visual demonstration of        | simple alignment, randomization        |
+|                          | different sorting methods      |                                        |

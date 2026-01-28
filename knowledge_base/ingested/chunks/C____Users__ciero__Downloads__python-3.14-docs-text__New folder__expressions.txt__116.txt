@@ -1,0 +1,4 @@
+generator-iterator and presumably calls "aclose()" and executes the
+coroutine. This  *finalizer* may be registered by calling
+"sys.set_asyncgen_hooks()". When first iterated over, an asynchronous
+generator-iterator will store the registered *finalizer* to be called

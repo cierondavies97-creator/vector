@@ -1,0 +1,6 @@
+recorded.
+The simplest way to make a mock raise an exception when called is to
+make "side_effect" an exception class or instance:
+>>> m = MagicMock(side_effect=IndexError)
+>>> m(1, 2, 3)
+Traceback (most recent call last):

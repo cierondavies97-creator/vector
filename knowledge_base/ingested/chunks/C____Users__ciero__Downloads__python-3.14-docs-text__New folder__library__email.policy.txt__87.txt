@@ -1,0 +1,3 @@
+containing non-ascii binary data.  In that case the value is
+      refolded regardless of the "refold_source" setting, which causes
+      the binary data to be CTE encoded using the "unknown-8bit"

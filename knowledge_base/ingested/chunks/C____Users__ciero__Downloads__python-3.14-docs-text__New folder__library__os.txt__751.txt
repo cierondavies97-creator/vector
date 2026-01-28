@@ -1,0 +1,5 @@
+otherwise return "False".
+   Availability: Unix, not WASI, not Android, not iOS.
+os.WEXITSTATUS(status)
+   Return the process exit status.
+   This function should be employed only if "WIFEXITED()" is true.

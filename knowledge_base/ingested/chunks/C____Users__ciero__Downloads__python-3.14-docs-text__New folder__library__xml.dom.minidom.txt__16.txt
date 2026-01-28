@@ -1,0 +1,5 @@
+DOM API that renders the node and its descendants essentially useless.
+Otherwise, Python's garbage collector will eventually take care of the
+objects in the tree.
+See also:
+  Document Object Model (DOM) Level 1 Specification

@@ -1,0 +1,4 @@
+Set *executor* as the default executor used by "run_in_executor()".
+   *executor* must be an instance of "ThreadPoolExecutor", which
+   includes "InterpreterPoolExecutor".
+   Changed in version 3.11: *executor* must be an instance of

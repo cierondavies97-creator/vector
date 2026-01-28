@@ -1,0 +1,7 @@
+with the *dir_fd* parameter.
+   Raises an auditing event "open" with arguments "path", "mode",
+   "flags".
+   Changed in version 3.4: The new file descriptor is now non-
+   inheritable.
+   Note:
+     This function is intended for low-level I/O.  For normal usage,

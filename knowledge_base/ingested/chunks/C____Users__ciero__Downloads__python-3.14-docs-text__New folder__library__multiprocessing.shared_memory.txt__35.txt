@@ -1,0 +1,5 @@
+>>> b
+   array([  1,   1,   2,   3,   5, 888])
+   >>> # Clean up from within the second Python shell
+   >>> del c  # Unnecessary; merely emphasizing the array is no longer used
+   >>> existing_shm.close()

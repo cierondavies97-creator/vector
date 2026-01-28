@@ -1,0 +1,5 @@
+values of *pminrow*, *pmincol*, *sminrow*, or *smincol* are treated
+   as if they were zero.
+window.resize(nlines, ncols)
+   Reallocate storage for a curses window to adjust its dimensions to
+   the specified values.  If either dimension is larger than the

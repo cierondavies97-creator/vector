@@ -1,0 +1,7 @@
+itertools.tee(iterable, n=2)
+   Return *n* independent iterators from a single iterable.
+   Roughly equivalent to:
+      def tee(iterable, n=2):
+          if n < 0:
+              raise ValueError
+          if n == 0:

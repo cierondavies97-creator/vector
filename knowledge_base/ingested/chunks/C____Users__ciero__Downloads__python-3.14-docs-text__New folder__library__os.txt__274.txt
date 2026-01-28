@@ -1,0 +1,8 @@
+one of the following values (as defined in the "stat" module) or
+   bitwise ORed combinations of them:
+   * "stat.S_ISUID"
+   * "stat.S_ISGID"
+   * "stat.S_ENFMT"
+   * "stat.S_ISVTX"
+   * "stat.S_IREAD"
+   * "stat.S_IWRITE"

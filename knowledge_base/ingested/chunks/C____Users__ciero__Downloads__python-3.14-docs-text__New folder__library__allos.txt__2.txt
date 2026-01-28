@@ -1,0 +1,7 @@
+* File Names, Command Line Arguments, and Environment Variables
+  * Python UTF-8 Mode
+  * Process Parameters
+  * File Object Creation
+  * File Descriptor Operations
+    * Querying the size of a terminal
+    * Inheritance of File Descriptors

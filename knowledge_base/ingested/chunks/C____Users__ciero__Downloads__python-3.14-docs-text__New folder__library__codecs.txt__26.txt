@@ -1,0 +1,5 @@
+of "StreamReaderWriter", providing transparent encoding/decoding.
+   The default file mode is "'r'", meaning to open the file in read
+   mode.
+   Note:
+     If *encoding* is not "None", then the underlying encoded files

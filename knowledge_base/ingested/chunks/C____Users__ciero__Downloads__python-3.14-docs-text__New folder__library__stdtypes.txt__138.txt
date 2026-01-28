@@ -1,0 +1,4 @@
+comparison operations. The "+" (concatenation) and "*" (repetition)
+operations have the same priority as the corresponding numeric
+operations. [3]
++----------------------------+----------------------------------+------------+

@@ -1,0 +1,4 @@
+"add_argument_group()" or "add_mutually_exclusive_group()" on a
+   mutually exclusive group now raises an exception. This nesting was
+   never supported, often failed to work correctly, and was
+   unintentionally exposed through inheritance.

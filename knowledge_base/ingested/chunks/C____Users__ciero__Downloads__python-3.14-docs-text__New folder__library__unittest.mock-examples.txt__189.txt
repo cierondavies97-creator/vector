@@ -1,0 +1,5 @@
+AssertionError: expected call not found.
+Expected: mock(<__main__.Foo object at 0x...>)
+Actual: mock(<__main__.Foo object at 0x...>)
+A comparison function for our "Foo" class might look something like
+this:

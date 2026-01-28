@@ -1,0 +1,4 @@
+the "_()" function, like this:
+      print(_('This string will be translated.'))
+   For convenience, you want the "_()" function to be installed in
+   Python's builtins namespace, so it is easily accessible in all

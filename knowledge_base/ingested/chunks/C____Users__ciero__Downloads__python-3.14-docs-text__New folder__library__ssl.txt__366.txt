@@ -1,0 +1,4 @@
+For server operation, typically you'll need to have a server
+certificate, and private key, each in a file.  You'll first create a
+context holding the key and the certificate, so that clients can check
+your authenticity.  Then you'll open a socket, bind it to a port, call

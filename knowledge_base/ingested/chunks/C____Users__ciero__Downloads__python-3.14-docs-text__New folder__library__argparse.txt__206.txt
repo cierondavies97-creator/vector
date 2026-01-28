@@ -1,0 +1,5 @@
+>>> parser.add_argument('-f', '--foo-bar', '--foo')
+   >>> parser.add_argument('-x', '-y')
+   >>> parser.parse_args('-f 1 -x 2'.split())
+   Namespace(foo_bar='1', x='2')
+   >>> parser.parse_args('--foo 1 -y 2'.split())

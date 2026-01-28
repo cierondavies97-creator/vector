@@ -1,0 +1,4 @@
+"dataclass", or any other custom class, instead of a "namedtuple".
+How to handle non-UTF-8 text encodings
+--------------------------------------
+By default, "sqlite3" uses "str" to adapt SQLite values with the

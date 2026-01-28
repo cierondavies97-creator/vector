@@ -1,0 +1,3 @@
+|             | are considered to be in week 0.                  |         |
+   +-------------+--------------------------------------------------+---------+
+   | "%x"        | Locale's appropriate date representation.        |         |

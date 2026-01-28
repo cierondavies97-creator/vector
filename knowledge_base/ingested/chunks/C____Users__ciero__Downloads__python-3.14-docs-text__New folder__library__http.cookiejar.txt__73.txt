@@ -1,0 +1,3 @@
+equal the cookie domain to be matched.  For example, ""example.com""
+matches a blocklist entry of ""example.com"", but ""www.example.com""
+does not.  Domains that do start with a dot are matched by more

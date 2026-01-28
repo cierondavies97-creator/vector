@@ -1,0 +1,6 @@
+package.
+Note:
+  If you need to parse untrusted or unauthenticated data, see XML
+  security.
+It is important to note that modules in the "xml" package require that
+there be at least one SAX-compliant XML parser available. The Expat

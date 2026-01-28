@@ -1,0 +1,6 @@
+exception ctypes.COMError(hresult, text, details)
+   This exception is raised when a COM method call failed.
+   hresult
+      The integer value representing the error code.
+   text
+      The error message.

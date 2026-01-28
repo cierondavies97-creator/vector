@@ -1,0 +1,4 @@
+iterator is exhausted, otherwise "StopIteration" is raised.
+class object
+   This is the ultimate base class of all other classes. It has
+   methods that are common to all instances of Python classes. When

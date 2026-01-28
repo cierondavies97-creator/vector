@@ -1,0 +1,4 @@
+prefix of the supernet; it must be smaller than our prefix.  One
+      and only one of *prefixlen_diff* and *new_prefix* must be set.
+      Returns a single network object.
+      >>> ip_network('192.0.2.0/24').supernet()

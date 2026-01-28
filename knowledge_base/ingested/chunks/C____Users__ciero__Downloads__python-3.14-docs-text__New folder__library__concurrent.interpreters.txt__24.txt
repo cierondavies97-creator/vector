@@ -1,0 +1,3 @@
+In practice, multiple interpreters are useful only if we have a way to
+communicate between them.  This usually involves some form of message
+passing, but can even mean sharing data in some carefully managed way.

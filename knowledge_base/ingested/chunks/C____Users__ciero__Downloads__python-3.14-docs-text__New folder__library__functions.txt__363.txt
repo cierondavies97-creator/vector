@@ -1,0 +1,3 @@
+The function imports the module *name*, potentially using the given
+   *globals* and *locals* to determine how to interpret the name in a
+   package context. The *fromlist* gives the names of objects or

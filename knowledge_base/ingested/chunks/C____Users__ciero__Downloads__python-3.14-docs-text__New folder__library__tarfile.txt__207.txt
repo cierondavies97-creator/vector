@@ -1,0 +1,3 @@
+metadata (like filenames, linknames, user/group names) will appear
+damaged. Unfortunately, there is no way to autodetect the encoding of
+an archive. The pax format was designed to solve this problem. It

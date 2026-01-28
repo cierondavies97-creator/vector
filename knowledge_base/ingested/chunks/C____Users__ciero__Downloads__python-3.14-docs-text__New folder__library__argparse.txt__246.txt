@@ -1,0 +1,5 @@
+>>> parser.parse_args('-bac MMM'.split())
+   Namespace(bacon='MMM', badger=None)
+   >>> parser.parse_args('-bad WOOD'.split())
+   Namespace(bacon=None, badger='WOOD')
+   >>> parser.parse_args('-ba BA'.split())

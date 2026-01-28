@@ -1,0 +1,5 @@
+The "PYTHONPATH" environment variable is often used to add directories
+to the search path. If this environment variable is found then the
+contents are added to the module search path.
+Note:
+  "PYTHONPATH" will affect all installed Python versions/environments.

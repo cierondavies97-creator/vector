@@ -1,0 +1,5 @@
+should always set an exception and return "NULL".
+3.6. Weak Reference Support
+===========================
+One of the goals of Python's weak reference implementation is to allow
+any type to participate in the weak reference mechanism without

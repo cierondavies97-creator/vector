@@ -1,0 +1,7 @@
+easy for the user to lose track of the file structure.  Take for
+  instance:
+     [Section]
+     key = multiline
+       value with a gotcha
+      this = is still a part of the multiline value of 'key'
+  This can be especially problematic for the user to see if she's

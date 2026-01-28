@@ -1,0 +1,4 @@
+because the old fsencoding or paths encoded by the old fsencoding
+     may be cached somewhere. Use "PYTHONLEGACYWINDOWSFSENCODING"
+     instead.
+   Added in version 3.6: See **PEP 529** for more details.

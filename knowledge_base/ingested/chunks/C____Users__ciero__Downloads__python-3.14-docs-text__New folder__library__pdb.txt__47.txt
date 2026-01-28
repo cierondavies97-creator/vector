@@ -1,0 +1,3 @@
+point ("!").  This is a powerful way to inspect the program being
+debugged; it is even possible to change a variable or call a function.
+When an exception occurs in such a statement, the exception name is

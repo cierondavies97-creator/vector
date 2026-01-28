@@ -1,0 +1,6 @@
+has fewer than two values.
+   Roughly equivalent to:
+      def pairwise(iterable):
+          # pairwise('ABCDEFG') → AB BC CD DE EF FG
+          iterator = iter(iterable)
+          a = next(iterator, None)

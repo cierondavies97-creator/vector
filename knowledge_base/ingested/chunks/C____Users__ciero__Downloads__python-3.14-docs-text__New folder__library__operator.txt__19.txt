@@ -1,0 +1,7 @@
+operator.contains(a, b)
+operator.__contains__(a, b)
+   Return the outcome of the test "b in a". Note the reversed
+   operands.
+operator.countOf(a, b)
+   Return the number of occurrences of *b* in *a*.
+operator.delitem(a, b)

@@ -1,0 +1,4 @@
+class ast.FunctionDef(name, args, body, decorator_list, returns, type_comment, type_params)
+   A function definition.
+   * "name" is a raw string of the function name.
+   * "args" is an "arguments" node.

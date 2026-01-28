@@ -1,0 +1,9 @@
+correct byte boundary for proper alignment of consecutive chunks of
+data.
+Consider these two simple examples (on a 64-bit, little-endian
+machine):
+   >>> calcsize('@lhl')
+   24
+   >>> calcsize('@llh')
+   18
+Data is not padded to an 8-byte boundary at the end of the second

@@ -1,0 +1,6 @@
+For example, to perform a "GET" request to
+   "https://docs.python.org/3/":
+      >>> import http.client
+      >>> host = "docs.python.org"
+      >>> conn = http.client.HTTPSConnection(host)
+      >>> conn.request("GET", "/3/", headers={"Host": host})

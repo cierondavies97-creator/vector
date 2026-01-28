@@ -1,0 +1,7 @@
+Actual: []
+      >>> asyncio.run(main('foo'))
+      >>> asyncio.run(main('bar'))
+      >>> mock.assert_has_awaits(calls)
+   assert_not_awaited()
+      Assert that the mock was never awaited.
+      >>> mock = AsyncMock()

@@ -1,0 +1,5 @@
+Added in version 3.10.
+os.read(fd, n, /)
+   Read at most *n* bytes from file descriptor *fd*.
+   Return a bytestring containing the bytes read. If the end of the
+   file referred to by *fd* has been reached, an empty bytes object is

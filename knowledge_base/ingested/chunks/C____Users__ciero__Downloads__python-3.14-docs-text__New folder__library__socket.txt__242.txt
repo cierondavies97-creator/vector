@@ -1,0 +1,4 @@
+functions may be used; they accept a socket object as their first
+   argument.
+   Currently only the following control codes are supported:
+   "SIO_RCVALL", "SIO_KEEPALIVE_VALS", and "SIO_LOOPBACK_FAST_PATH".

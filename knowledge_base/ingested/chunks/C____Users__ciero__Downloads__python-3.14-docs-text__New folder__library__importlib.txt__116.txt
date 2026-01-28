@@ -1,0 +1,5 @@
+"importlib.abc.TraversableResources" also supplies ResourceReader.
+   Loaders that wish to support resource reading are expected to
+   implement this interface.
+   Added in version 3.9.
+   Deprecated since version 3.12, removed in version 3.14: Use

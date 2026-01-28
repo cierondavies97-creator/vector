@@ -1,0 +1,4 @@
+top-level "__main__.py" file).
+   For a simple script, the specified code is simply executed in a
+   fresh module namespace. For a valid "sys.path" entry (typically a
+   zipfile or directory), the entry is first added to the beginning of

@@ -1,0 +1,5 @@
+module is imported, unless the Python interpreter was started with
+   the "-S" flag.
+   Changed in version 3.3: This function used to be called
+   unconditionally.
+site.addsitedir(sitedir, known_paths=None)

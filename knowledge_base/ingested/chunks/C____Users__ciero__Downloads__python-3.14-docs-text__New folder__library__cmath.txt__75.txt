@@ -1,0 +1,3 @@
+functions.  It is assumed that if you need to compute with complex
+functions, you will understand about branch cuts.  Consult almost any
+(not too elementary) book on complex variables for enlightenment.  For

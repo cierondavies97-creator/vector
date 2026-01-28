@@ -1,0 +1,5 @@
+"DECEMBER" is "12".
+   Added in version 3.12.
+class calendar.Month
+   Enumeration defining months of the year as integer constants. The
+   members of this enumeration are exported to the module scope as

@@ -1,0 +1,6 @@
+"Snapshot.statistics()" returns a list of "Statistic" instances.
+   See also the "StatisticDiff" class.
+   count
+      Number of memory blocks ("int").
+   size
+      Total size of memory blocks in bytes ("int").

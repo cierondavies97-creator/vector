@@ -1,0 +1,6 @@
+to make a copy.
+The "array" module supports efficient storage of basic data types like
+32-bit integers and IEEE754 double-precision floating values.
+Bytes Objects
+-------------
+Bytes objects are immutable sequences of single bytes. Since many

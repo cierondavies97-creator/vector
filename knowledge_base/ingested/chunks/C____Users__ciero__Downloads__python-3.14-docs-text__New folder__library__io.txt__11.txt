@@ -1,0 +1,5 @@
+In-memory binary streams are also available as "BytesIO" objects:
+   f = io.BytesIO(b"some initial binary data: \x00\x01")
+The binary stream API is described in detail in the docs of
+"BufferedIOBase".
+Other library modules may provide additional ways to create text or

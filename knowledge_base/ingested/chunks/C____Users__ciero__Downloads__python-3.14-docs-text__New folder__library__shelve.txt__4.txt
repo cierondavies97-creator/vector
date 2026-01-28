@@ -1,0 +1,4 @@
+reading and writing.  The optional *flag* parameter has the same
+   interpretation as the *flag* parameter of "dbm.open()".
+   By default, pickles created with "pickle.DEFAULT_PROTOCOL" are used
+   to serialize values.  The version of the pickle protocol can be

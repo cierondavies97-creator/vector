@@ -1,0 +1,5 @@
+zero or more occurrences of each of "'R'", "'O'", "'D'", "'F'",
+      and "'A'".
+   add_flag(flag)
+      Set the flag(s) specified by *flag* without changing other
+      flags. To add more than one flag at a time, *flag* may be a

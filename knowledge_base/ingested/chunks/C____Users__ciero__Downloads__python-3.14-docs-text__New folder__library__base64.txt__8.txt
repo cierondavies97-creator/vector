@@ -1,0 +1,3 @@
+specifies an alternative alphabet for the "+" and "/" characters.
+   This allows an application to e.g. generate URL or filesystem safe
+   Base64 strings.  The default is "None", for which the standard

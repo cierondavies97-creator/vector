@@ -1,0 +1,4 @@
+Windows will continue the search for "prefix" by looking for
+"Lib\os.py". Python on Unix will look for
+"lib/python*majorversion*.*minorversion*/os.py"
+("lib/python3.11/os.py"). On Windows "prefix" and "exec_prefix" are

@@ -1,0 +1,3 @@
+modules such as "smtplib".  The "email" package attempts to be as RFC-
+compliant as possible, supporting **RFC 5322** and **RFC 6532**, as
+well as such MIME-related RFCs as **RFC 2045**, **RFC 2046**, **RFC

@@ -1,0 +1,8 @@
+In this example, "Base.y", "Base.w", and "D.t" are keyword-only
+fields, and "Base.x" and "D.z" are regular fields:
+   @dataclass
+   class Base:
+       x: Any = 15.0
+       _: KW_ONLY
+       y: int = 0
+       w: int = 1

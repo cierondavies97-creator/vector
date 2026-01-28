@@ -1,0 +1,6 @@
+Y]". For example, the following function expects an argument of
+   type "int" or "float":
+      def square(number: int | float) -> int | float:
+          return number ** 2
+   Note:
+     The "|" operand cannot be used at runtime to define unions where

@@ -1,0 +1,2 @@
+dis.disassemble(code, lasti=-1, *, file=None, show_caches=False, adaptive=False, show_offsets=False, show_positions=False)
+dis.disco(code, lasti=-1, *, file=None, show_caches=False, adaptive=False, show_offsets=False, show_positions=False)

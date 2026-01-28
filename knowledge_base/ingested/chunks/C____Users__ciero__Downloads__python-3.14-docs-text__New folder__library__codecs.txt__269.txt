@@ -1,0 +1,4 @@
+|                      |           | is ignored.                 |
++----------------------+-----------+-----------------------------+
+| unicode_escape       |           | Encoding suitable as the    |
+|                      |           | contents of a Unicode       |

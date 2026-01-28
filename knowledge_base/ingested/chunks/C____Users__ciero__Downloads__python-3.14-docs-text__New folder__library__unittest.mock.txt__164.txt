@@ -1,0 +1,4 @@
+Calls made to the object will be recorded in the attributes like
+"call_args" and "call_args_list".
+If "side_effect" is set then it will be called after the call has been
+recorded, so if "side_effect" raises an exception the call is still

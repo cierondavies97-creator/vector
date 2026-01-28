@@ -1,0 +1,5 @@
+-----------------------------
+Represents a processing instruction in the XML document; this inherits
+from the "Node" interface and cannot have child nodes.
+ProcessingInstruction.target
+   The content of the processing instruction up to the first

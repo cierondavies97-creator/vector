@@ -1,0 +1,5 @@
+>>> re.findall(r"\w+ly\b", text)
+   ['carefully', 'quickly']
+Finding all Adverbs and their Positions
+---------------------------------------
+If one wants more information about all matches of a pattern than the

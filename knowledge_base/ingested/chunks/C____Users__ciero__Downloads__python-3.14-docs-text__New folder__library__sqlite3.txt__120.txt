@@ -1,0 +1,5 @@
+con.create_window_function("sumint", 1, WindowSumInt)
+         cur.execute("""
+             SELECT x, sumint(y) OVER (
+                 ORDER BY x ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
+             ) AS sum_y

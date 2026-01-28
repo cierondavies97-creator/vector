@@ -1,0 +1,7 @@
+return -1;
+       }
+       SpamError = PyErr_NewException("spam.error", NULL, NULL);
+       if (PyModule_AddObjectRef(m, "SpamError", SpamError) < 0) {
+           return -1;
+       }
+       return 0;

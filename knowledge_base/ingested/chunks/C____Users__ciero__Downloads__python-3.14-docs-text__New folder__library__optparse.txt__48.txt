@@ -1,0 +1,4 @@
+"optparse" doesn't prevent you from implementing required options,
+   but doesn't give you much help at it either.
+For example, consider this hypothetical command-line:
+   prog -v --report report.txt foo bar

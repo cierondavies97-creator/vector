@@ -1,0 +1,5 @@
+capabilities to coroutine functions.
+6.2.9.1. Generator-iterator methods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This subsection describes the methods of a generator iterator.  They
+can be used to control the execution of a generator function.

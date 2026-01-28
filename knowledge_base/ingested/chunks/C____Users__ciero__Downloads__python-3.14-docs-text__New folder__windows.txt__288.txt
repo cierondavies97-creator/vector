@@ -1,0 +1,4 @@
+installations:
+* Include a "._pth" file alongside your executable containing the
+  directories to include. This will ignore paths listed in the
+  registry and environment variables, and also ignore "site" unless

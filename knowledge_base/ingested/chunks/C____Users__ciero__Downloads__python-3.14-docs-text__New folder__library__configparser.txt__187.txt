@@ -1,0 +1,5 @@
+when writing the configuration back. What is considered a
+     comment, depends on the given values for *comment_prefix* and
+     *inline_comment_prefix*.
+   remove_option(section, option)
+      Remove the specified *option* from the specified *section*.  If

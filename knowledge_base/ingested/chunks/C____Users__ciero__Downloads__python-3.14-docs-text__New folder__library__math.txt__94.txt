@@ -1,0 +1,3 @@
+infinite precision) equal to "x - n*y" for some integer *n* such
+   that the result has the same sign as *x* and magnitude less than
+   "abs(y)".  Python's "x % y" returns a result with the sign of *y*

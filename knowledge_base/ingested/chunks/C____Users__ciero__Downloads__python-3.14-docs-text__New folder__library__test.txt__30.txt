@@ -1,0 +1,4 @@
+except the "audio" and "largefile" resources. For a list of all
+resources and more command-line options, run **python -m test -h**.
+Some other ways to execute the regression tests depend on what
+platform the tests are being executed on. On Unix, you can run **make

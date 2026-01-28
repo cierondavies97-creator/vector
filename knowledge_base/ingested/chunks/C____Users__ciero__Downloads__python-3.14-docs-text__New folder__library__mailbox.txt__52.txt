@@ -1,0 +1,3 @@
+the "cur" subdirectory and store information about the state of the
+   message in a special "info" section appended to its file name.
+   Folders of the style introduced by the Courier mail transfer agent

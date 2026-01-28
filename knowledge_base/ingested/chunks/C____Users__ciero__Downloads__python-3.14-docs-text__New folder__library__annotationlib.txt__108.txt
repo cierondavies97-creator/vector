@@ -1,0 +1,5 @@
+{'x': '1'}
+Security implications of introspecting annotations
+==================================================
+Much of the functionality in this module involves executing code
+related to annotations, which can then do arbitrary things. For

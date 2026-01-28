@@ -1,0 +1,6 @@
+must use "object.__setattr__()".
+Inheritance
+===========
+When the dataclass is being created by the "@dataclass" decorator, it
+looks through all of the class's base classes in reverse MRO (that is,
+starting at "object") and, for each dataclass that it finds, adds the

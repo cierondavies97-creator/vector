@@ -1,0 +1,5 @@
+or:
+         with self.assertWarnsRegex(RuntimeWarning, 'unsafe frobnicating'):
+             frobnicate('/etc/passwd')
+      Added in version 3.2.
+      Changed in version 3.3: Added the *msg* keyword argument when

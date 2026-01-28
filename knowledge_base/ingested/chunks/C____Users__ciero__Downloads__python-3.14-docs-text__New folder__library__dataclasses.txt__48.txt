@@ -1,0 +1,3 @@
+default), use the value of *compare*: this would normally be the
+     expected behavior, since a field should be included in the hash
+     if it's used for comparisons.  Setting this value to anything

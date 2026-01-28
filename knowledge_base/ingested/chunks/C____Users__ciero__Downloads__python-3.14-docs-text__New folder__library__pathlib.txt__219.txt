@@ -1,0 +1,5 @@
+with "os.replace()". Otherwise, this path is copied (preserving
+   metadata and symlinks) and then deleted.
+   Added in version 3.14.
+Path.move_into(target_dir)
+   Move this file or directory tree into the given *target_dir*, which

@@ -1,0 +1,4 @@
+* The execution time of the I/O selector is logged if it takes too
+  long to perform an I/O operation.
+* Callbacks taking longer than 100 milliseconds are logged.  The
+  "loop.slow_callback_duration" attribute can be used to set the

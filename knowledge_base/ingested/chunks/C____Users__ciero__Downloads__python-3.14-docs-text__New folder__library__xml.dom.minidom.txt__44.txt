@@ -1,0 +1,3 @@
+the OMG IDL language mapping for Python, an attribute "foo" can also
+  be accessed through accessor methods "_get_foo()" and "_set_foo()".
+  "readonly" attributes must not be changed; this is not enforced at

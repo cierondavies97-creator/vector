@@ -1,0 +1,7 @@
+manager.
+   Example of catching "TimeoutError":
+      async def main():
+          try:
+              async with asyncio.timeout(10):
+                  await long_running_task()
+          except TimeoutError:

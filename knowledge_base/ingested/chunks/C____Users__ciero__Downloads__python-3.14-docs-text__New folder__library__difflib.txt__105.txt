@@ -1,0 +1,4 @@
+diffs. To the contrary, minimal diffs are often counter-intuitive,
+because they synch up anywhere possible, sometimes accidental matches
+100 pages apart. Restricting synch points to contiguous matches
+preserves some notion of locality, at the occasional cost of producing

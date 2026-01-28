@@ -1,0 +1,4 @@
+to use. It is fairly flexible, and should meet most users' needs;
+however, if you require more fine-grained control over testing, or
+wish to extend doctest's capabilities, then you should use the
+advanced API.

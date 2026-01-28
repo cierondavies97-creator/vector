@@ -1,0 +1,5 @@
+the specification.
+   remainder_near(other, context=None)
+      Return the remainder from dividing *self* by *other*.  This
+      differs from "self % other" in that the sign of the remainder is
+      chosen so as to minimize its absolute value.  More precisely,

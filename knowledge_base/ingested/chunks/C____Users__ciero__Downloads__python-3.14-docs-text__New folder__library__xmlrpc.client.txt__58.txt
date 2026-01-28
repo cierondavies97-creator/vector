@@ -1,0 +1,6 @@
+"__eq__()" and "__ne__()" methods.
+Example usage of the binary objects.  We're going to transfer an image
+over XMLRPC:
+   from xmlrpc.server import SimpleXMLRPCServer
+   import xmlrpc.client
+   def python_logo():

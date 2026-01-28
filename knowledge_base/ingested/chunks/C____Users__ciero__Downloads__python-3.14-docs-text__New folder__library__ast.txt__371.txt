@@ -1,0 +1,4 @@
+sub-tree to recalculate the location information:
+      tree = ast.parse('foo', mode='eval')
+      new_tree = fix_missing_locations(RewriteName().visit(tree))
+   Usually you use the transformer like this:

@@ -1,0 +1,5 @@
+var.reset(token)
+         # After the reset call the var has no value again, so
+         # var.get() would raise a LookupError.
+class contextvars.Token
+   *Token* objects are returned by the "ContextVar.set()" method. They

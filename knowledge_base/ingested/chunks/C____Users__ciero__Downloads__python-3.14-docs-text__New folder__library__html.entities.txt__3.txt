@@ -1,0 +1,6 @@
+the "';'". See also "html.unescape()".
+   Added in version 3.3.
+html.entities.entitydefs
+   A dictionary mapping XHTML 1.0 entity definitions to their
+   replacement text in ISO Latin-1.
+html.entities.name2codepoint

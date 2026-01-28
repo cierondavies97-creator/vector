@@ -1,0 +1,4 @@
+and re-import any specific items (e.g. from foo import baz) if the
+changes are to take effect.  For these reasons, it is preferable to
+run IDLE with the default subprocess if at all possible.
+Deprecated since version 3.4.

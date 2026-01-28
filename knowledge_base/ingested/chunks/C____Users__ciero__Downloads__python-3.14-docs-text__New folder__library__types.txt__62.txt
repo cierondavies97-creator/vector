@@ -1,0 +1,3 @@
+function* which returns a generator-based coroutine. The generator-
+   based coroutine is still a *generator iterator*, but is also
+   considered to be a *coroutine* object and is *awaitable*.  However,

@@ -1,0 +1,3 @@
+member cohort.  That person is in the 30 to 40 year old age group.
+   The regular "median()" function would assume that everyone in the
+   tricenarian age group was exactly 35 years old.  A more tenable

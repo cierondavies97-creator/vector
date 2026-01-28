@@ -1,0 +1,12 @@
+errno.ECOMM
+   Communication error on send
+errno.EPROTO
+   Protocol error
+errno.EMULTIHOP
+   Multihop attempted
+errno.EDOTDOT
+   RFS specific error
+errno.EBADMSG
+   Not a data message
+errno.EOVERFLOW
+   Value too large for defined data type

@@ -1,0 +1,6 @@
+This value is guaranteed by POSIX to be at least 512.
+   Availability: Unix
+   Added in version 3.2.
+"/dev/poll" Polling Objects
+===========================
+Solaris and derivatives have "/dev/poll". While "select()" is

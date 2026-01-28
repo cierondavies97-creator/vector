@@ -1,0 +1,5 @@
+*check_hostname* have the same meaning as in
+   "http.client.HTTPSConnection".
+   Changed in version 3.2: *context* and *check_hostname* were added.
+class urllib.request.FileHandler
+   Open local files.

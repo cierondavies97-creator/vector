@@ -1,0 +1,4 @@
+* The encoding and error handling are is initialized from
+     "PyConfig.stdio_encoding" and "PyConfig.stdio_errors".
+     On Windows, UTF-8 is used for the console device.  Non-character
+     devices such as disk files and pipes use the system locale

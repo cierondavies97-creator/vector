@@ -1,0 +1,5 @@
+distinguish between these cases.
+Path.is_block_device()
+   Return "True" if the path points to a block device. "False" will be
+   returned if the path is invalid, inaccessible or missing, or if it
+   points to something other than a block device. Use "Path.stat()" to

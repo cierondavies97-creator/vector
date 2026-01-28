@@ -1,0 +1,2 @@
+| __future__.with_statement | 2.5.0a1                   | 2.6                       | **PEP 343**: *The “with”  |
+|                           |                           |                           | Statement*                |

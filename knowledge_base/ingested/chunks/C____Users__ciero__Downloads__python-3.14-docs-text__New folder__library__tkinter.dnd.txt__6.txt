@@ -1,0 +1,5 @@
+and-drop
+class tkinter.dnd.DndHandler(source, event)
+   The *DndHandler* class handles drag-and-drop events tracking Motion
+   and ButtonRelease events on the root of the event widget.
+   cancel(event=None)

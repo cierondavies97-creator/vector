@@ -1,0 +1,4 @@
+than an absolute target. This opcode is a pseudo-instruction,
+   replaced in final bytecode by the directed versions
+   (forward/backward).
+   Changed in version 3.12: This is no longer a pseudo-instruction.

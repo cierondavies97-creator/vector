@@ -1,0 +1,9 @@
+if sign:
+           build(trailneg)
+       for i in range(places):
+           build(next() if digits else '0')
+       if places:
+           build(dp)
+       if not digits:
+           build('0')
+       i = 0

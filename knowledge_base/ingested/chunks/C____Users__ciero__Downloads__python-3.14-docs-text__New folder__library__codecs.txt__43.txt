@@ -1,0 +1,3 @@
+or "BOM_UTF16_LE" depending on the platform's native byte order,
+   "BOM" is an alias for "BOM_UTF16", "BOM_LE" for "BOM_UTF16_LE" and
+   "BOM_BE" for "BOM_UTF16_BE". The others represent the BOM in UTF-8

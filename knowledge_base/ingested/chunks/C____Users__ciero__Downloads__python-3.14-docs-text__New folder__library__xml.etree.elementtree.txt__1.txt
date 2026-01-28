@@ -1,0 +1,5 @@
+The "xml.etree.ElementTree" module implements a simple and efficient
+API for parsing and creating XML data.
+Changed in version 3.3: This module will use a fast implementation
+whenever available.
+Deprecated since version 3.3: The "xml.etree.cElementTree" module is

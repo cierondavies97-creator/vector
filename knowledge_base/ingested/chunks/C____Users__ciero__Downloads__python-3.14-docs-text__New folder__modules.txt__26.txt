@@ -1,0 +1,6 @@
+>>> import fibo
+   >>>
+This is often used either to provide a convenient user interface to a
+module, or for testing purposes (running the module as a script
+executes a test suite).
+6.1.2. The Module Search Path

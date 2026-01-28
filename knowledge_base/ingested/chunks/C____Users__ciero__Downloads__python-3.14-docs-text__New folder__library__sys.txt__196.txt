@@ -1,0 +1,6 @@
+generator by an event loop.
+   Added in version 3.6: See **PEP 525** for more details.
+   Note:
+     This function has been added on a provisional basis (see **PEP
+     411** for details.)
+sys.get_coroutine_origin_tracking_depth()

@@ -1,0 +1,6 @@
+the larger value on the heap.
+For max-heaps, the following functions are provided:
+heapq.heapify_max(x)
+   Transform list *x* into a max-heap, in-place, in linear time.
+   Added in version 3.14.
+heapq.heappush_max(heap, item)

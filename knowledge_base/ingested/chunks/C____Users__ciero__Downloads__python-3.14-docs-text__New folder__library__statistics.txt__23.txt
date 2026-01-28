@@ -1,0 +1,4 @@
+These functions calculate statistics regarding relations between two
+inputs.
++---------------------------+-------------------------------------------------------+
+| "covariance()"            | Sample covariance for two variables.                  |

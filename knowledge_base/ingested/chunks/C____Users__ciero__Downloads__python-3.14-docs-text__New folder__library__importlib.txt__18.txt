@@ -1,0 +1,5 @@
+program is running to guarantee all finders will notice the new
+   module's existence.
+   Added in version 3.3.
+   Changed in version 3.10: Namespace packages created/installed in a
+   different "sys.path" location after the same namespace was already

@@ -1,0 +1,5 @@
+requests upon reaching zero.
+   cancelling()
+      Return the number of pending cancellation requests to this Task,
+      i.e., the number of calls to "cancel()" less the number of
+      "uncancel()" calls.

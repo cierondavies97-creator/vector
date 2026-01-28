@@ -1,0 +1,4 @@
+platforms that report system names which differ from their common
+   names, for example SunOS will be reported as Solaris.  The
+   "system_alias()" function is used to implement this.
+   Setting *terse* to true causes the function to return only the

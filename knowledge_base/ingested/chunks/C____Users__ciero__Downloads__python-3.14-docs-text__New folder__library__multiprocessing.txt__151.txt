@@ -1,0 +1,5 @@
+The background thread will quit once it has flushed all buffered
+      data to the pipe.  This is called automatically when the queue
+      is garbage collected.
+   join_thread()
+      Join the background thread.  This can only be used after

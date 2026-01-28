@@ -1,0 +1,5 @@
+raise ModuleNotFoundError(msg, name=absolute_name)
+       module = importlib.util.module_from_spec(spec)
+       sys.modules[absolute_name] = module
+       spec.loader.exec_module(module)
+       if path is not None:

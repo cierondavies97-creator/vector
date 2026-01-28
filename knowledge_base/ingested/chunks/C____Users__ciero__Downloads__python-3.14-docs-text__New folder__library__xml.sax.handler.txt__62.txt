@@ -1,0 +1,4 @@
+method does not raise an exception, parsing may continue, but
+   further document information should not be expected by the
+   application.  Allowing the parser to continue may allow additional
+   errors to be discovered in the input document.

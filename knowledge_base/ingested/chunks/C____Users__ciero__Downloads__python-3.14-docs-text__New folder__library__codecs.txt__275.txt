@@ -1,0 +1,2 @@
+| base64_codec [1]       | base64, base_64    | Convert the operand to         | "base64.encodebytes()" /       |
+|                        |                    | multiline MIME base64 (the     | "base64.decodebytes()"         |

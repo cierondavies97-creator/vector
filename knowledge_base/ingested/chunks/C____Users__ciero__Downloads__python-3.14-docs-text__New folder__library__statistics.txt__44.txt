@@ -1,0 +1,4 @@
+the input.  This means that the subsequent inputs are not tested
+   for validity.  (This behavior may change in the future.)
+   Added in version 3.6.
+   Changed in version 3.10: Added support for *weights*.

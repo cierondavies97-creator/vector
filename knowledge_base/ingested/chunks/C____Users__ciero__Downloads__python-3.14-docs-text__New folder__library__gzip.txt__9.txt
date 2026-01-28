@@ -1,0 +1,5 @@
+object, support for text mode, and the *encoding*, *errors* and
+   *newline* arguments.
+   Changed in version 3.4: Added support for the "'x'", "'xb'" and
+   "'xt'" modes.
+   Changed in version 3.6: Accepts a *path-like object*.

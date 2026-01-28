@@ -1,0 +1,6 @@
+Decrements bytecode counter by *delta*. Checks for interrupts.
+   Added in version 3.11.
+JUMP_BACKWARD_NO_INTERRUPT(delta)
+   Decrements bytecode counter by *delta*. Does not check for
+   interrupts.
+   Added in version 3.11.

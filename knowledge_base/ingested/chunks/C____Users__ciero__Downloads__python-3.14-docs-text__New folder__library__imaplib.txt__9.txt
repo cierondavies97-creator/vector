@@ -1,0 +1,5 @@
+sub-class of "IMAP4.error".  Note that closing the instance and
+   instantiating a new one will usually allow recovery from this
+   exception.
+exception IMAP4.readonly
+   This exception is raised when a writable mailbox has its status

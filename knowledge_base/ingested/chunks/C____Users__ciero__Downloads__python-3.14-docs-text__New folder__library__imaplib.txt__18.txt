@@ -1,0 +1,5 @@
+Parse an IMAP4 "INTERNALDATE" string and return corresponding local
+   time.  The return value is a "time.struct_time" tuple or "None" if
+   the string has wrong format.
+imaplib.Int2AP(num)
+   Converts an integer into a bytes representation using characters

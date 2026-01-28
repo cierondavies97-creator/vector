@@ -1,0 +1,5 @@
+also abbreviated "Py3k".
+Pythonic
+   An idea or piece of code which closely follows the most common
+   idioms of the Python language, rather than implementing code using
+   concepts common to other languages.  For example, a common idiom in

@@ -1,0 +1,5 @@
+code. This restriction makes it impossible to use this module with
+modules not implemented in Python, including all standard and optional
+extension modules.
+pyclbr.readmodule(module, path=None)
+   Return a dictionary mapping module-level class names to class

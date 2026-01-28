@@ -1,0 +1,4 @@
+protocol will happen during the handshake, and will play out
+   according to **RFC 7301**. After a successful handshake, the
+   "SSLSocket.selected_alpn_protocol()" method will return the agreed-
+   upon protocol.

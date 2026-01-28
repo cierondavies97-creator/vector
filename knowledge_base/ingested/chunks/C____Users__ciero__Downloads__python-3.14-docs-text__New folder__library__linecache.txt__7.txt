@@ -1,0 +1,5 @@
+it is looked up relative to the entries in the module search path,
+   "sys.path".
+   Changed in version 3.14: Support *filename* of frozen modules.
+linecache.clearcache()
+   Clear the cache.  Use this function if you no longer need lines

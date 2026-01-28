@@ -1,0 +1,5 @@
+# con.load_extension("./fts3.so")
+         # disable extension loading again
+         con.enable_load_extension(False)
+         # example from SQLite wiki
+         con.execute("CREATE VIRTUAL TABLE recipe USING fts3(name, ingredients)")

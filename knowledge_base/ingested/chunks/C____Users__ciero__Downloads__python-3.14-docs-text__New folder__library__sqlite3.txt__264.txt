@@ -1,0 +1,5 @@
+--------------------------------------------
+Note:
+  The default adapters and converters are deprecated as of Python
+  3.12. Instead, use the Adapter and converter recipes and tailor them
+  to your needs.

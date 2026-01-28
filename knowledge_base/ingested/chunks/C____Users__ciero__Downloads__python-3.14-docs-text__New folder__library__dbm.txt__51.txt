@@ -1,0 +1,4 @@
+supported, the "keys()" method returns a list, and the
+   "setdefault()" method requires two arguments. It also supports a
+   "closing" context manager via the "with" keyword.
+   Changed in version 3.2: Added the "get()" and "setdefault()"

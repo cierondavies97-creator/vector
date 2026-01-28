@@ -1,0 +1,4 @@
+previous calls to "decompress()".
+      If *max_length* is non-negative, the method returns at most
+      *max_length* bytes of decompressed data. If this limit is
+      reached and further output can be produced, the "needs_input"

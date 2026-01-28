@@ -1,0 +1,4 @@
+When dealing with many options, it is convenient to group these
+options for better help output.  An "OptionParser" can contain several
+option groups, each of which can contain several options.
+An option group is obtained using the class "OptionGroup":

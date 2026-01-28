@@ -1,0 +1,3 @@
+can be bitwise ORed together to specify multiple options. The
+   bitfield required to specify a given future feature can be found as
+   the "compiler_flag" attribute on the "_Feature" instance in the

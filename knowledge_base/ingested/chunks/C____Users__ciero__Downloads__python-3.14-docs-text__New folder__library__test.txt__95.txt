@@ -1,0 +1,5 @@
+*GIL* is disabled, the test is skipped.
+@test.support.requires_IEEE_754
+   Decorator for skipping tests on non-IEEE 754 platforms.
+@test.support.requires_zlib
+   Decorator for skipping tests if "zlib" doesn't exist.

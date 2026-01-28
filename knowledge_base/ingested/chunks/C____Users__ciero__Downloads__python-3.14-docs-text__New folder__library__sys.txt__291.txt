@@ -1,0 +1,5 @@
+profile function is called; *arg* is the value that will be
+      returned, or "None" if the event is caused by an exception being
+      raised.
+   "'c_call'"
+      A C function is about to be called.  This may be an extension

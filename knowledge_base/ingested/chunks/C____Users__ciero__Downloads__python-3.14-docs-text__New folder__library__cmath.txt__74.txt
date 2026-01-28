@@ -1,0 +1,4 @@
+can be expressed as a real number (in which case the complex number
+has an imaginary part of zero).
+A note on branch cuts: They are curves along which the given function
+fails to be continuous.  They are a necessary feature of many complex

@@ -1,0 +1,4 @@
+returned by "localtime()" is used.  *format* must be a string.
+   "ValueError" is raised if any field in *t* is outside of the
+   allowed range.
+   0 is a legal argument for any position in the time tuple; if it is

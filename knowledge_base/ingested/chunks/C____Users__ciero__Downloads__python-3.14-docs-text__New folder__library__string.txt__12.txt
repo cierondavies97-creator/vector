@@ -1,0 +1,5 @@
+replacement fields.  It calls the various methods described
+      below.
+   In addition, the "Formatter" defines a number of methods that are
+   intended to be replaced by subclasses:
+   parse(format_string)

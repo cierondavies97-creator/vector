@@ -1,0 +1,5 @@
+traceback may change if a new module is loaded.
+Pretty top
+----------
+Code to display the 10 lines allocating the most memory with a pretty
+output, ignoring "<frozen importlib._bootstrap>" and "<unknown>"

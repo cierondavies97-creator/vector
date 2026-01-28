@@ -1,0 +1,4 @@
+and "set_blocked_domains()" methods (and the corresponding argument
+and methods for *allowed_domains*).  If you set an allowlist, you can
+turn it off again by setting it to "None".
+Domains in block or allow lists that do not start with a dot must

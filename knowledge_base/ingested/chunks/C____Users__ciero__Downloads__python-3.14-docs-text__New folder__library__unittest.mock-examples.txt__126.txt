@@ -1,0 +1,6 @@
+sets this up for me.
+   >>> from copy import deepcopy
+   >>> from unittest.mock import Mock, patch, DEFAULT
+   >>> def copy_call_args(mock):
+   ...     new_mock = Mock()
+   ...     def side_effect(*args, **kwargs):

@@ -1,0 +1,6 @@
+spec = STACK.pop()
+      value = STACK.pop()
+      result = value.__format__(spec)
+      STACK.append(result)
+   Used for implementing formatted string literals (f-strings).
+   Added in version 3.13.

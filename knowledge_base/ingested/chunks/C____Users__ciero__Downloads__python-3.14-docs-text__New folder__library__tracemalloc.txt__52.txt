@@ -1,0 +1,4 @@
+modify or clear any traces, unlike "clear_traces()". Snapshots
+   taken with "take_snapshot()" before a call to "reset_peak()" can be
+   meaningfully compared to snapshots taken after the call.
+   See also "get_traced_memory()".

@@ -1,0 +1,3 @@
+sake, functions that may support *dir_fd* always allow specifying
+   the parameter, but will throw an exception if the functionality is
+   used when it's not locally available. (Specifying "None" for

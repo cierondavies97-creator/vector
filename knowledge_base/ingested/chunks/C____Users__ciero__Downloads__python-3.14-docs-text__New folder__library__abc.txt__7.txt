@@ -1,0 +1,6 @@
+pass
+   Added in version 3.4.
+class abc.ABCMeta
+   Metaclass for defining Abstract Base Classes (ABCs).
+   Use this metaclass to create an ABC.  An ABC can be subclassed
+   directly, and then acts as a mix-in class.  You can also register

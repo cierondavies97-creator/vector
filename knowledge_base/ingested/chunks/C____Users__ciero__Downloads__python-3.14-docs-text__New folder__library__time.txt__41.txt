@@ -1,0 +1,3 @@
+a clock that cannot go backwards.  The clock is not affected by
+   system clock updates. The reference point of the returned value is
+   undefined, so that only the difference between the results of two

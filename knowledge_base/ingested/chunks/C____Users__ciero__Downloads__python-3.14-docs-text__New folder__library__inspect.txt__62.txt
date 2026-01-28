@@ -1,0 +1,3 @@
+|                   | co_stacksize        | virtual machine stack space |
+|                   |                     | required                    |
++-------------------+---------------------+-----------------------------+

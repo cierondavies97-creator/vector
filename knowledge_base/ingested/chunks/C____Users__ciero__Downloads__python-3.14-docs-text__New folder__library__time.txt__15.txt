@@ -1,0 +1,3 @@
+| From                      | To                        | Use                       |
+  |===========================|===========================|===========================|
+  | seconds since the epoch   | "struct_time" in UTC      | "gmtime()"                |

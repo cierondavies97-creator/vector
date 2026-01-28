@@ -1,0 +1,6 @@
+Creates a new object of the same type as *obj*, replacing fields
+   with values from *changes*.
+   Added in version 3.13.
+exception copy.Error
+   Raised for module specific errors.
+The difference between shallow and deep copying is only relevant for

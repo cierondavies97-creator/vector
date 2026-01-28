@@ -1,0 +1,4 @@
+"walk" iterates over the subparts of any part where
+      "is_multipart()" returns "True", even though
+      "msg.get_content_maintype() == 'multipart'" may return "False".
+      We can see this in our example by making use of the "_structure"

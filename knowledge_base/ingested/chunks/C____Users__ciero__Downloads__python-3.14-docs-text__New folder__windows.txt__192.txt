@@ -1,0 +1,2 @@
+|                                                    | "%UserProfile%\AppData\Local\Microsoft\WindowsApp  |
+|                                                    | s". The operating system includes this entry once  |

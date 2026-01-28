@@ -1,0 +1,6 @@
+stat.UF_DATAVAULT
+   The file needs an entitlement for reading or writing (macOS 10.13+)
+   Added in version 3.13.
+stat.UF_HIDDEN
+   The file should not be displayed in a GUI (macOS 10.5+).
+stat.SF_SETTABLE

@@ -1,0 +1,6 @@
+'value'
+Interpolation of values
+=======================
+On top of the core functionality, "ConfigParser" supports
+interpolation.  This means values can be preprocessed before returning
+them from "get()" calls.

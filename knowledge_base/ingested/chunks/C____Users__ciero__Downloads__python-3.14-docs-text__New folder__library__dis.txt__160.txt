@@ -1,0 +1,4 @@
+LOAD_GLOBAL(namei)
+   Loads the global named "co_names[namei>>1]" onto the stack.
+   Changed in version 3.11: If the low bit of "namei" is set, then a
+   "NULL" is pushed to the stack before the global variable.

@@ -1,0 +1,6 @@
+Changed in version 3.11: Added support for *proportional*.
+Exceptions
+==========
+A single exception is defined:
+exception statistics.StatisticsError
+   Subclass of "ValueError" for statistics-related exceptions.

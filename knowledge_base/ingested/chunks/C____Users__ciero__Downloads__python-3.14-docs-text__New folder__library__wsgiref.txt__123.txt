@@ -1,0 +1,4 @@
+method is called only if the application's return value is an
+      instance of the class specified by the "wsgi_file_wrapper"
+      attribute.  It should return a true value if it was able to
+      successfully transmit the file, so that the default transmission

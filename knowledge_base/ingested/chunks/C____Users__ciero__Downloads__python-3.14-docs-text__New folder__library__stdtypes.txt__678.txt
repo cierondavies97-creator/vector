@@ -1,0 +1,10 @@
+>>> v = memoryview(b'abcefg')
+         >>> v[1]
+         98
+         >>> v[-1]
+         103
+         >>> v[1:4]
+         <memory at 0x7f3ddc9f4350>
+         >>> bytes(v[1:4])
+         b'bce'
+      If "format" is one of the native format specifiers from the

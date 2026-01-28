@@ -1,0 +1,6 @@
+access to the system time zones).
+The "ZoneInfo" class
+====================
+class zoneinfo.ZoneInfo(key)
+   A concrete "datetime.tzinfo" subclass that represents an IANA time
+   zone specified by the string "key". Calls to the primary

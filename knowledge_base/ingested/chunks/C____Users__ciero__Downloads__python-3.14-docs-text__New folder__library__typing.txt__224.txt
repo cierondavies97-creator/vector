@@ -1,0 +1,4 @@
+print("Not a list of strings!")
+   "TypeIs" and "TypeGuard" differ in the following ways:
+   * "TypeIs" requires the narrowed type to be a subtype of the input
+     type, while "TypeGuard" does not.  The main reason is to allow

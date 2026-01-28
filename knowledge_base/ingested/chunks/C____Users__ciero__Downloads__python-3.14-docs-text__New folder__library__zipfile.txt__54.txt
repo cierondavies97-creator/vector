@@ -1,0 +1,4 @@
+*member* must be its full name or a "ZipInfo" object.  Its file
+   information is extracted as accurately as possible.  *path*
+   specifies a different directory to extract to.  *member* can be a
+   filename or a "ZipInfo" object. *pwd* is the password used for

@@ -1,0 +1,3 @@
+"shutil.copy2()") cannot copy all file metadata.On POSIX platforms,
+  this means that file owner and group are lost as well as ACLs.  On
+  Mac OS, the resource fork and other metadata are not used. This

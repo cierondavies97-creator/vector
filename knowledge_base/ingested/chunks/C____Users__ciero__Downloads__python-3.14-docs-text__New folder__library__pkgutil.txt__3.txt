@@ -1,0 +1,4 @@
+matches the package name, add the subdirectory to the package's
+   "__path__". This is useful if one wants to distribute different
+   parts of a single logical package as multiple directories.
+   It also looks for "*.pkg" files beginning where "*" matches the

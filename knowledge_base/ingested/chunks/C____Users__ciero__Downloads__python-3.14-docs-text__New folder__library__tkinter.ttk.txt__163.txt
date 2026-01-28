@@ -1,0 +1,5 @@
++--------------+-------------------------------------------------------------+
+Column Identifiers
+------------------
+Column identifiers take any of the following forms:
+* A symbolic name from the list of columns option.

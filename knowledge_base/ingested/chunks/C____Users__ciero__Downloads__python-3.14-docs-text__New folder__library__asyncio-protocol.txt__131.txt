@@ -1,0 +1,3 @@
+date = asyncio.run(get_date())
+   print(f"Current date: {date}")
+See also the same example written using high-level APIs.

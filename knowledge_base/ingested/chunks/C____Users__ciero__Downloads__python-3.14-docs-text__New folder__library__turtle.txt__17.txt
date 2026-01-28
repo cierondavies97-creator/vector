@@ -1,0 +1,8 @@
+left(170)
+       if abs(pos()) < 1:
+           break
+"abs(pos()) < 1" is a good way to know when the turtle is back at its
+home position.
+Finally, complete the filling:
+   end_fill()
+(Note that filling only actually takes place when you give the

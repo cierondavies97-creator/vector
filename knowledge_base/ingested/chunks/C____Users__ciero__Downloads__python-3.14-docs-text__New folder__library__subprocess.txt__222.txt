@@ -1,0 +1,5 @@
+for more details.
+   A trailing newline is stripped from the output. The exit code for
+   the command can be interpreted as the return code of subprocess.
+   Example:
+      >>> subprocess.getstatusoutput('ls /bin/ls')

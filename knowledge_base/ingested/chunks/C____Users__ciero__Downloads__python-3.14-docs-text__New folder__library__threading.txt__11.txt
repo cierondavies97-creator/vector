@@ -1,0 +1,3 @@
+Interpreter Lock*, only one thread can execute Python code at once
+(even though certain performance-oriented libraries might overcome
+this limitation). If you want your application to make better use of

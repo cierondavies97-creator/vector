@@ -1,0 +1,4 @@
+By default this runner shows "DeprecationWarning",
+   "PendingDeprecationWarning", "ResourceWarning" and "ImportWarning"
+   even if they are ignored by default.  This behavior can be
+   overridden using Python's "-Wd" or "-Wa" options (see Warning

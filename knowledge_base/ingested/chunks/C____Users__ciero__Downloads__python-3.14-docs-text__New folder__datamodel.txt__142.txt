@@ -1,0 +1,5 @@
+('keyboard_smashing', 'spelling')
+module.__name__
+   The name used to uniquely identify the module in the import system.
+   For a directly executed module, this will be set to ""__main__"".
+   This attribute must be set to the fully qualified name of the

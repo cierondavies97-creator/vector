@@ -1,0 +1,4 @@
+the class is instantiated in the code under test then it will be the
+"return_value" of the mock that will be used.
+If the class is instantiated multiple times you could use
+"side_effect" to return a new mock each time. Alternatively you can

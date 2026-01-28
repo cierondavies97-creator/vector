@@ -1,0 +1,3 @@
+instance when an exception is not handled and the interpreter
+   prints an error message and a stack traceback.  Its intended use is
+   to allow an interactive user to import a debugger module and engage

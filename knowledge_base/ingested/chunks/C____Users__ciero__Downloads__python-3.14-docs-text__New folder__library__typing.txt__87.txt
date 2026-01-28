@@ -1,0 +1,4 @@
+specification variables are treated by the "typing" module as a
+specialized type variable.  The one exception to this is that a list
+of types can be used to substitute a "ParamSpec":
+   >>> class Z[T, **P]: ...  # T is a TypeVar; P is a ParamSpec

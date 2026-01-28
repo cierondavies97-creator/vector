@@ -1,0 +1,5 @@
+"True" if the widget state matches *statespec* and "False"
+      otherwise. If callback is specified then it is called with args
+      if widget state matches *statespec*.
+   state(statespec=None)
+      Modify or inquire widget state. If *statespec* is specified,

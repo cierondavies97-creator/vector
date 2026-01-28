@@ -1,0 +1,4 @@
+*mechanism* specifies which authentication mechanism is to be used
+   - it should appear in the instance variable "capabilities" in the
+   form "AUTH=mechanism".
+   *authobject* must be a callable object:

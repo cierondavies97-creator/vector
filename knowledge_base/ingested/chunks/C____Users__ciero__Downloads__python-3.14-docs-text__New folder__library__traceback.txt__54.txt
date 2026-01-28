@@ -1,0 +1,3 @@
+classmethod from_exception(exc, *, limit=None, lookup_lines=True, capture_locals=False)
+      Capture an exception for later rendering. *limit*,
+      *lookup_lines* and *capture_locals* are as for the

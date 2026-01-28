@@ -1,0 +1,6 @@
+Decimal('105.89')
+>>> a - b
+Decimal('99.55')
+>>> a * 42                          # So does integer multiplication
+Decimal('4314.24')
+>>> (a * b).quantize(TWOPLACES)     # Must quantize non-integer multiplication

@@ -1,0 +1,6 @@
+test.support.MAX_Py_ssize_t
+   Set to "sys.maxsize" for big memory tests.
+test.support.max_memuse
+   Set by "set_memlimit()" as the memory limit for big memory tests.
+   Limited by "MAX_Py_ssize_t".
+test.support.real_max_memuse

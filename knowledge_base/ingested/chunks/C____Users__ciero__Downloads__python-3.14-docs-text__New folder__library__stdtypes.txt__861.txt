@@ -1,0 +1,7 @@
+* "collections.abc.Collection"
+* "collections.abc.Callable"
+* "collections.abc.Set"
+* "collections.abc.MutableSet"
+* "collections.abc.Mapping"
+* "collections.abc.MutableMapping"
+* "collections.abc.Sequence"

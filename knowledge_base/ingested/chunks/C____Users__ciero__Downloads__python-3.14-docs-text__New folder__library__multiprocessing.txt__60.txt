@@ -1,0 +1,3 @@
+Server process managers are more flexible than using shared memory
+   objects because they can be made to support arbitrary object types.
+   Also, a single manager can be shared by processes on different

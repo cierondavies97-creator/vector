@@ -1,0 +1,7 @@
+except StopIteration:
+                  return
+          yield total
+          for element in iterator:
+              total = function(total, element)
+              yield total
+   To compute a running minimum, set *function* to "min()". For a

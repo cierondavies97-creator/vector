@@ -1,0 +1,4 @@
+not complete: "Py_BuildValue()" may run out of memory, and this should
+be checked.
+You may also call a function with keyword arguments by using
+"PyObject_Call()", which supports arguments and keyword arguments.  As

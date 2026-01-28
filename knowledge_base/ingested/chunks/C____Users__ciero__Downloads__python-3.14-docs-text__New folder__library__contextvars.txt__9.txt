@@ -1,0 +1,6 @@
+variable.
+      Returns a "Token" object that can be used to restore the
+      variable to its previous value via the "ContextVar.reset()"
+      method.
+   reset(token)
+      Reset the context variable to the value it had before the

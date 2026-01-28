@@ -1,0 +1,9 @@
+must be double quotes as shown.
+-d
+   Enable the debugger and open the shell window.
+-e
+   Open an editor window.
+-h
+   Print a help message with legal combinations of options and exit.
+-i
+   Open a shell window.

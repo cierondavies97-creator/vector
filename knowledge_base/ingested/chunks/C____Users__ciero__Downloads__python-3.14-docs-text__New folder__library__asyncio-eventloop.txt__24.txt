@@ -1,0 +1,6 @@
+finally:
+          loop.run_until_complete(loop.shutdown_asyncgens())
+          loop.close()
+   Added in version 3.6.
+async loop.shutdown_default_executor(timeout=None)
+   Schedule the closure of the default executor and wait for it to

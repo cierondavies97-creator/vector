@@ -1,0 +1,8 @@
+* Exceptions
+* "tomllib" --- Parse TOML files
+  * Examples
+  * Conversion Table
+* "netrc" --- netrc file processing
+  * netrc Objects
+* "plistlib" --- Generate and parse Apple ".plist" files
+  * Examples

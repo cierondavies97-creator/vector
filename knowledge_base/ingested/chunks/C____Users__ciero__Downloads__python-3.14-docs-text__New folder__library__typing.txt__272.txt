@@ -1,0 +1,4 @@
+enables *variadic* generics.
+   Type variable tuples can be declared in type parameter lists using
+   a single asterisk ("*") before the name:
+      def move_first_element_to_last[T, *Ts](tup: tuple[T, *Ts]) -> tuple[*Ts, T]:

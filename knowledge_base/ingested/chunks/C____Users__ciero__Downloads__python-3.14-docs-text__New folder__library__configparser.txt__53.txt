@@ -1,0 +1,8 @@
+library_dir: /Library
+      system_dir: /System
+      macports_dir: /opt/local
+      [Frameworks]
+      Python: 3.2
+      path: ${Common:system_dir}/Library/Frameworks/
+      [Arthur]
+      nickname: Two Sheds

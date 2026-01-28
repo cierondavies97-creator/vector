@@ -1,0 +1,7 @@
+| &'break' break_stmt
+       | &'continue' continue_stmt
+       | &'global' global_stmt
+       | &'nonlocal' nonlocal_stmt
+   compound_stmt[stmt_ty]:
+       | &('def' | '@' | 'async') function_def
+       | &'if' if_stmt

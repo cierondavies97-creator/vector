@@ -1,0 +1,5 @@
+is backwards compatible with the previous *named tuple*).
+class inspect.Traceback
+   filename
+      The file name associated with the code being executed by the
+      frame this traceback corresponds to.

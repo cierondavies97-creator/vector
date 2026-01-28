@@ -1,0 +1,6 @@
+an integer.
+prototype(callable)
+   Create a C callable function (a callback function) from a Python
+   *callable*.
+prototype(func_spec[, paramflags])
+   Returns a foreign function exported by a shared library.

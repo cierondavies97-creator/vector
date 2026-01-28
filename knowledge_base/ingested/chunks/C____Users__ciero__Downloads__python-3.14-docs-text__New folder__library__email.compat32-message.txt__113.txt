@@ -1,0 +1,5 @@
+*failobj*.
+   get_content_disposition()
+      Return the lowercased value (without parameters) of the
+      message's *Content-Disposition* header if it has one, or "None".
+      The possible values for this method are *inline*, *attachment*

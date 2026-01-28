@@ -1,0 +1,5 @@
+functions described above.
+tempfile.mktemp(suffix='', prefix='tmp', dir=None)
+   Deprecated since version 2.3: Use "mkstemp()" instead.
+   Return an absolute pathname of a file that did not exist at the
+   time the call is made.  The *prefix*, *suffix*, and *dir* arguments

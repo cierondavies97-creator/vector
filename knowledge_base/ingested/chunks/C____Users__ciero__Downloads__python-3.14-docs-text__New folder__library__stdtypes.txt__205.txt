@@ -1,0 +1,6 @@
+item in lst
+   lst.index(item)
+   lst.count(item)
+All of the above methods/operations are also lock-free. They do not
+block concurrent modifications. Other operations that hold a lock will
+not block these from observing intermediate states.All other

@@ -1,0 +1,5 @@
+0.9882
+      >>> # Demonstrate Kepler's third law: There is a linear correlation
+      >>> # between the square of the orbital period and the cube of the
+      >>> # distance from the sun.
+      >>> period_squared = [p * p for p in orbital_period]

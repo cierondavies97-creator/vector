@@ -1,0 +1,3 @@
+indent indents that many spaces per level.  If *indent* is a string
+   (such as ""\t""), that string is used to indent each level.
+   If *show_empty* is false (the default), optional empty lists will

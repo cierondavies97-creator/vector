@@ -1,0 +1,3 @@
+Here is the list of handlers that can be set.  To set a handler on an
+"xmlparser" object *o*, use "o.handlername = func".  *handlername*
+must be taken from the following list, and *func* must be a callable

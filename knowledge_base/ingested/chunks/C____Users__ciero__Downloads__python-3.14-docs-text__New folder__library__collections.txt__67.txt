@@ -1,0 +1,4 @@
+values.  To help with those use cases, this section documents the
+  minimum range and type restrictions.
+  * The "Counter" class itself is a dictionary subclass with no
+    restrictions on its keys and values.  The values are intended to

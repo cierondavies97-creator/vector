@@ -1,0 +1,5 @@
+Note:
+        *fromdesc* and *todesc* are interpreted as unescaped HTML and
+        should be properly escaped while receiving input from
+        untrusted sources.
+      Changed in version 3.5: *charset* keyword-only argument was

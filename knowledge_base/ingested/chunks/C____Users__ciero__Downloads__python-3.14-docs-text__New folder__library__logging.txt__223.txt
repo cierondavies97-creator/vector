@@ -1,0 +1,4 @@
+Return a callable which is used to create a "LogRecord".
+   Added in version 3.2: This function has been provided, along with
+   "setLogRecordFactory()", to allow developers more control over how
+   the "LogRecord" representing a logging event is constructed.

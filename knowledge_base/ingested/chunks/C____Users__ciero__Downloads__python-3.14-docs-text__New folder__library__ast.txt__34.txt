@@ -1,0 +1,4 @@
+are derived from the "Parser/Python.asdl" file, which is reproduced
+   above.  They are defined in the "_ast" C module and re-exported in
+   "ast".
+   There is one class defined for each left-hand side symbol in the

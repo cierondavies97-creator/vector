@@ -1,0 +1,8 @@
+return list_
+def default_arg(bad=1 / 0):
+""" Do not trigger exceptions in keyword-arguments """
+return bad
+def constants():
+""" This can not be imported in Python < 3.6 """
+return 9999999 ** 9999999
+Nicola Chiapolini, 8 July 2024

@@ -1,0 +1,3 @@
+imports a rather large collection of objects, and if you're doing
+anything but turtle graphics you run the risk of a name conflict (this
+becomes even more an issue if you're using turtle graphics in a script

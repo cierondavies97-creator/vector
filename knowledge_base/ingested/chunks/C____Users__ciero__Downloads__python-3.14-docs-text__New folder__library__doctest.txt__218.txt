@@ -1,0 +1,7 @@
+"{}".
+DocTestParser objects
+---------------------
+class doctest.DocTestParser
+   A processing class used to extract interactive examples from a
+   string, and use them to create a "DocTest" object.
+   "DocTestParser" defines the following methods:

@@ -1,0 +1,4 @@
+unblocked and will raise "QueueShutDown" in the formerly
+      awaiting task.
+      If *immediate* is false (the default), the queue can be wound
+      down normally with "get()" calls to extract tasks that have

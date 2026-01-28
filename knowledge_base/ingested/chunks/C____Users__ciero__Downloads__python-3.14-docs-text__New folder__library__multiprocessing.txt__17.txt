@@ -1,0 +1,5 @@
+Windows and macOS.
+   *fork*
+      The parent process uses "os.fork()" to fork the Python
+      interpreter.  The child process, when it begins, is effectively
+      identical to the parent process.  All resources of the parent

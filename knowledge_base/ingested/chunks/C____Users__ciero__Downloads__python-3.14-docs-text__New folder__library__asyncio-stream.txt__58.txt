@@ -1,0 +1,7 @@
+while True:
+           line = await reader.readline()
+           if not line:
+               break
+           line = line.decode('latin1').rstrip()
+           if line:
+               print(f'HTTP header> {line}')

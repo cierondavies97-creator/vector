@@ -1,0 +1,4 @@
+"with" statement, produces IMAP untagged responses via the
+   *iterator* protocol, and sends "DONE" upon context exit.
+   All untagged responses that arrive after sending the "IDLE" command
+   (including any that arrive before the server acknowledges the

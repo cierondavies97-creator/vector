@@ -1,0 +1,7 @@
+try:
+              yield resource
+          finally:
+              # Code to release resource, e.g.:
+              release_resource(resource)
+   The function can then be used like this:
+      >>> with managed_resource(timeout=3600) as resource:

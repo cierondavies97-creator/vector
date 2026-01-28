@@ -1,0 +1,4 @@
+cause any shared resources (such as locks, semaphores, pipes and
+   queues) currently being used by the process to become broken or
+   unavailable to other processes.
+   Therefore it is probably best to only consider using

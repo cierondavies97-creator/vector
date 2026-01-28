@@ -1,0 +1,3 @@
+| "'surrogatepass'"   | utf-8, utf-16, utf-32,   | Allow encoding and decoding surrogate code  |
+|                     | utf-16-be, utf-16-le,    | point ("U+D800" - "U+DFFF") as normal code  |
+|                     | utf-32-be, utf-32-le     | point. Otherwise these codecs treat the     |

@@ -1,0 +1,5 @@
+registered pickle functions from the "copyreg" module.
+In order for a class to define its own copy implementation, it can
+define special methods "__copy__()" and "__deepcopy__()".
+object.__copy__(self)
+   Called to implement the shallow copy operation; no additional

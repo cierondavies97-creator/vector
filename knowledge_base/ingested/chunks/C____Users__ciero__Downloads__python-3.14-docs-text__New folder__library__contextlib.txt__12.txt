@@ -1,0 +1,4 @@
+the block is exited. If an unhandled exception occurs in the block,
+   it is reraised inside the generator at the point where the yield
+   occurred.  Thus, you can use a "try"..."except"..."finally"
+   statement to trap the error (if any), or ensure that some cleanup

@@ -1,0 +1,5 @@
+errno
+      A numeric error code from the C variable "errno".
+   winerror
+      Under Windows, this gives you the native Windows error code.
+      The "errno" attribute is then an approximate translation, in

@@ -1,0 +1,4 @@
+assignment to the "__dict__" attribute is not possible (you can write
+"m.__dict__['a'] = 1", which defines "m.a" to be "1", but you can't
+write "m.__dict__ = {}").  Modifying "__dict__" directly is not
+recommended.

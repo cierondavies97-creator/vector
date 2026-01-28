@@ -1,0 +1,5 @@
+If no file matching "key" is found, the constructor will raise
+   "ZoneInfoNotFoundError".
+The "ZoneInfo" class has two alternate constructors:
+classmethod ZoneInfo.from_file(file_obj, /, key=None)
+   Constructs a "ZoneInfo" object from a file-like object returning

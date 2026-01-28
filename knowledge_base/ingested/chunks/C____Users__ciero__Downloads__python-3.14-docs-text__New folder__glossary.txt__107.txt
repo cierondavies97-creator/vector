@@ -1,0 +1,4 @@
+Function annotations are usually used for *type hints*: for
+   example, this function is expected to take two "int" arguments and
+   is also expected to have an "int" return value:
+      def sum_two_numbers(a: int, b: int) -> int:

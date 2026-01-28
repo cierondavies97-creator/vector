@@ -1,0 +1,4 @@
+Wisdom in this respect.
+* The precision of the various real-time functions may be less than
+  suggested by the units in which their value or argument is
+  expressed. E.g. on most Unix systems, the clock "ticks" only 50 or

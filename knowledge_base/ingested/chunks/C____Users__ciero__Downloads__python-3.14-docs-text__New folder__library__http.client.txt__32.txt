@@ -1,0 +1,4 @@
+If *body* is specified, the specified data is sent after the
+   headers are finished.  It may be a "str", a *bytes-like object*, an
+   open *file object*, or an iterable of "bytes".  If *body* is a
+   string, it is encoded as ISO-8859-1, the default for HTTP.  If it

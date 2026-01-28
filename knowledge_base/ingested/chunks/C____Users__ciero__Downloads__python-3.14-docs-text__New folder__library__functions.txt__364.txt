@@ -1,0 +1,3 @@
+submodules that should be imported from the module given by *name*.
+   The standard implementation does not use its *locals* argument at
+   all and uses its *globals* only to determine the package context of

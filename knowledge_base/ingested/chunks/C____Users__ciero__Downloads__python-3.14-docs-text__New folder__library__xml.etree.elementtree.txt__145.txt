@@ -1,0 +1,5 @@
+data
+         <a><b>1<c>2<d/>3</c></b>4</a>
+      the *a* element has "None" for both *text* and *tail*
+      attributes, the *b* element has *text* ""1"" and *tail* ""4"",
+      the *c* element has *text* ""2"" and *tail* "None", and the *d*

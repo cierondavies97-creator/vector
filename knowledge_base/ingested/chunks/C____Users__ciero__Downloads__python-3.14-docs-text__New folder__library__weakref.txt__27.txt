@@ -1,0 +1,4 @@
+Accessing an attribute of the proxy object after the referent is
+   garbage collected raises "ReferenceError".
+   Changed in version 3.8: Extended the operator support on proxy
+   objects to include the matrix multiplication operators "@" and

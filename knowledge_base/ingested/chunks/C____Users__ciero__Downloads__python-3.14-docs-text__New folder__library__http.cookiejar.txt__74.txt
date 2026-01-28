@@ -1,0 +1,4 @@
+specific domains too. For example, both ""www.example.com"" and
+""www.coyote.example.com"" match "".example.com"" (but ""example.com""
+itself does not).  IP addresses are an exception, and must match
+exactly.  For example, if blocked_domains contains ""192.168.1.2"" and

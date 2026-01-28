@@ -1,0 +1,6 @@
+class optparse.OptionGroup(parser, title, description=None)
+   where
+   * parser is the "OptionParser" instance the group will be inserted
+     in to
+   * title is the group title
+   * description, optional, is a long description of the group

@@ -1,0 +1,4 @@
+and either loads CA certificates (when at least one of *cafile*,
+   *capath* or *cadata* is given) or uses
+   "SSLContext.load_default_certs()" to load default CA certificates.
+   When "keylog_filename" is supported and the environment variable

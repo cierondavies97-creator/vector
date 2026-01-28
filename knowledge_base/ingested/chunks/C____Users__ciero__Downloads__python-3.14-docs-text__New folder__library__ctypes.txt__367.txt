@@ -1,0 +1,4 @@
+usually a new object is returned each time.  "ctypes" does *not*
+      implement original object return, always a new object is
+      constructed.  The same is true for all other ctypes object
+      instances.

@@ -1,0 +1,4 @@
+representation *data* of an object. *data* must be a *bytes-like
+   object*.
+   The protocol version of the pickle is detected automatically, so no
+   protocol argument is needed.  Bytes past the pickled representation

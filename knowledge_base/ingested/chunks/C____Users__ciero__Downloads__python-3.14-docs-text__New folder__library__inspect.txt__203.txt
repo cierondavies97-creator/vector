@@ -1,0 +1,5 @@
+returned structure for each class in the given list.  Otherwise,
+   classes using multiple inheritance and their descendants will
+   appear multiple times.
+inspect.getfullargspec(func)
+   Get the names and default values of a Python function's parameters.

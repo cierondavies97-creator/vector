@@ -1,0 +1,6 @@
+exception is raised.
+      "True" or "1" enable checksum generation while "False" or "0"
+      disable it.
+   dict_id_flag
+      When compressing with a "ZstdDict", the dictionary's ID is
+      written into the frame header.

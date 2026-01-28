@@ -1,0 +1,6 @@
+decimal.HAVE_THREADS
+   The value is "True".  Deprecated, because Python now always has
+   threads.
+   Deprecated since version 3.9.
+decimal.HAVE_CONTEXTVAR
+   The default value is "True". If Python is "configured using the

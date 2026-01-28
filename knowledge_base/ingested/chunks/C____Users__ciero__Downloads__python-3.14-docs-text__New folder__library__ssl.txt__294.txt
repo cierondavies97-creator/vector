@@ -1,0 +1,5 @@
+options have been deprecated since Python 3.7. Use
+   "SSLContext.minimum_version" and "SSLContext.maximum_version"
+   instead.
+SSLContext.post_handshake_auth
+   Enable TLS 1.3 post-handshake client authentication. Post-handshake

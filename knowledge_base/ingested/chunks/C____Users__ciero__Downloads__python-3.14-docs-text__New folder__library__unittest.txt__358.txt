@@ -1,0 +1,3 @@
+overridden in subclasses to provide a custom "TestResult".
+      "_makeResult()" instantiates the class or callable passed in the
+      "TextTestRunner" constructor as the "resultclass" argument. It

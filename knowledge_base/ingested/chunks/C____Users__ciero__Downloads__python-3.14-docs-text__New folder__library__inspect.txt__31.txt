@@ -1,0 +1,3 @@
+|                   |                     | (called by this level)      |
++-------------------+---------------------+-----------------------------+
+| frame             | f_back              | next outer frame object     |

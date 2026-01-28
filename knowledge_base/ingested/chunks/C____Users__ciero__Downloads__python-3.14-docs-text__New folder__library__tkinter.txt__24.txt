@@ -1,0 +1,6 @@
+However, the following keyword arguments are currently recognized:
+   *screenName*
+      When given (as a string), sets the "DISPLAY" environment
+      variable. (X11 only)
+   *baseName*
+      Name of the profile file.  By default, *baseName* is derived

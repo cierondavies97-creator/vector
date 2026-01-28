@@ -1,0 +1,3 @@
+is raising a new warning (e.g. set warnings to be raised as exceptions
+and check the operations raise exceptions, check that the length of
+the warning list continues to increase after each operation, or else

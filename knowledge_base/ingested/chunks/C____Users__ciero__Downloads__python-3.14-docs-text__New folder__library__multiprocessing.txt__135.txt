@@ -1,0 +1,6 @@
+Programming guidelines.
+For an example of the usage of queues for interprocess communication
+see Examples.
+multiprocessing.Pipe(duplex=True)
+   Returns a pair "(conn1, conn2)" of "Connection" objects
+   representing the ends of a pipe.

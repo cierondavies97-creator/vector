@@ -1,0 +1,6 @@
+"""Compute the first derivative of a polynomial.
+          f(x)  =  x³ -4x² -17x + 60
+          f'(x) = 3x² -8x  -17
+       """
+       # polynomial_derivative([1, -4, -17, 60]) → [3, -8, -17]
+       n = len(coefficients)

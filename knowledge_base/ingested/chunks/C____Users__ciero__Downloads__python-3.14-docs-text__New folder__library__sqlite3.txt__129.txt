@@ -1,0 +1,4 @@
+"SQLITE_IGNORE" to signal how access to the column should be
+      handled by the underlying SQLite library.
+      The first argument to the callback signifies what kind of
+      operation is to be authorized. The second and third argument

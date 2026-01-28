@@ -1,0 +1,3 @@
+When an instance method object is called, the underlying function
+("__func__") is called, inserting the class instance ("__self__") in
+front of the argument list.  For instance, when "C" is a class which

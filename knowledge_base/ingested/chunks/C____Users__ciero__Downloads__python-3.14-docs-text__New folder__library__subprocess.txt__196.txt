@@ -1,0 +1,4 @@
+Run command with arguments and return its output.
+   If the return code was non-zero it raises a "CalledProcessError".
+   The "CalledProcessError" object will have the return code in the
+   "returncode" attribute and any output in the "output" attribute.

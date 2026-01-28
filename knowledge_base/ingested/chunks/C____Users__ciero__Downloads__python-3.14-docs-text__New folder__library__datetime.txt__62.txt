@@ -1,0 +1,5 @@
+supported.
+"timedelta" objects support equality and order comparisons.
+In Boolean contexts, a "timedelta" object is considered to be true if
+and only if it isn't equal to "timedelta(0)".
+Instance methods:

@@ -1,0 +1,5 @@
+only made public for introspecting the "__loader__" attribute on
+   namespace packages:
+      >>> from importlib.machinery import NamespaceLoader
+      >>> import my_namespace
+      >>> isinstance(my_namespace.__loader__, NamespaceLoader)

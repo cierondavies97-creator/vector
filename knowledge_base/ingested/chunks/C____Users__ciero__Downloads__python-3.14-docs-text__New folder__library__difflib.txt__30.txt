@@ -1,0 +1,4 @@
+which defaults to three.
+   By default, the diff control lines (those with "***" or "---") are
+   created with a trailing newline.  This is helpful so that inputs
+   created from "io.IOBase.readlines()" result in diffs that are

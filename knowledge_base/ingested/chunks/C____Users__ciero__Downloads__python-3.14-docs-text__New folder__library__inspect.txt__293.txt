@@ -1,0 +1,13 @@
+buffer protocol.
+   The meaning of the flags is explained at Buffer request types.
+   SIMPLE
+   WRITABLE
+   FORMAT
+   ND
+   STRIDES
+   C_CONTIGUOUS
+   F_CONTIGUOUS
+   ANY_CONTIGUOUS
+   INDIRECT
+   CONTIG
+   CONTIG_RO

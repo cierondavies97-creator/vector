@@ -1,0 +1,5 @@
+ServerProxy.system.listMethods()
+   This method returns a list of strings, one for each (non-system)
+   method supported by the XML-RPC server.
+ServerProxy.system.methodSignature(name)
+   This method takes one parameter, the name of a method implemented

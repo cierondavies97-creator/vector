@@ -1,0 +1,6 @@
+Added in version 3.14.
+--show-empty
+   Show empty lists and fields that are "None". Defaults to not
+   showing empty objects.
+   Added in version 3.14.
+If "infile" is specified its contents are parsed to AST and dumped to

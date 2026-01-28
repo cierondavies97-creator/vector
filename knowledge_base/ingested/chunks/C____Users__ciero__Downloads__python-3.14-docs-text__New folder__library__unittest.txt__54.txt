@@ -1,0 +1,3 @@
+Note that in order to test something, we use one of the assert*
+methods provided by the "TestCase" base class.  If the test fails, an
+exception will be raised with an explanatory message, and "unittest"

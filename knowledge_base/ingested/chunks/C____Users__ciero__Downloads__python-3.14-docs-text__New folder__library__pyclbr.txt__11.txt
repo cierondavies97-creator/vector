@@ -1,0 +1,8 @@
+parent.
+      Added in version 3.7.
+   children
+      A "dictionary" mapping names to descriptors for nested functions
+      and classes.
+      Added in version 3.7.
+   is_async
+      "True" for functions that are defined with the "async" prefix,

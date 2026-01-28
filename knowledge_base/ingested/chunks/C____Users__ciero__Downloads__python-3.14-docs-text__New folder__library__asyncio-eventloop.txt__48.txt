@@ -1,0 +1,3 @@
+Create an "asyncio.Future" object attached to the event loop.
+   This is the preferred way to create Futures in asyncio. This lets
+   third-party event loops provide alternative implementations of the

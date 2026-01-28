@@ -1,0 +1,5 @@
+other targets are considered complex. Only simple targets appear in
+   the "__annotations__" dictionary of modules and classes.
+      >>> print(ast.dump(ast.parse('c: int'), indent=4))
+      Module(
+          body=[

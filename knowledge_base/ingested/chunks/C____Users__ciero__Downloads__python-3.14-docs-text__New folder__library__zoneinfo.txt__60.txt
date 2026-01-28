@@ -1,0 +1,4 @@
+"zoneinfo.TZPATH" rather than importing "TZPATH" from "zoneinfo" or
+   assigning a long-lived variable to "zoneinfo.TZPATH".
+   For more information on configuring the time zone search path, see
+   Configuring the data sources.

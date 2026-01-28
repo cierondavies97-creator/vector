@@ -1,0 +1,8 @@
+>>> list(mock)
+['a', 'b', 'c']
+>>> list(mock)
+[]
+"MagicMock" has all of the supported magic methods configured except
+for some of the obscure and obsolete ones. You can still set these up
+if you want.
+Magic methods that are supported but not setup by default in

@@ -1,0 +1,6 @@
+Defaults to ""main"".
+      Raises:
+         * **OperationalError** -- If the database connection is
+           currently involved in a read transaction or a backup
+           operation.
+         * **DatabaseError** -- If *data* does not contain a valid

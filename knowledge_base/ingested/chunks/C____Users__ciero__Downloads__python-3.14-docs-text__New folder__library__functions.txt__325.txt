@@ -1,0 +1,3 @@
+with single inheritance, *super* can be used to refer to parent
+   classes without naming them explicitly, thus making the code more
+   maintainable.  This use closely parallels the use of *super* in

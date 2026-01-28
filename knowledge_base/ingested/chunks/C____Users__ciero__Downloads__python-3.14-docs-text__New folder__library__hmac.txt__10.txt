@@ -1,0 +1,5 @@
+bytes, including NUL bytes.
+   Warning:
+     When comparing the output of "digest()" to an externally supplied
+     digest during a verification routine, it is recommended to use
+     the "compare_digest()" function instead of the "==" operator to

@@ -1,0 +1,4 @@
+name. But the underlying API call doesn't return the type, so
+   always use "QueryValueEx()" if possible.
+   Raises an auditing event "winreg.QueryValue" with arguments "key",
+   "sub_key", "value_name".

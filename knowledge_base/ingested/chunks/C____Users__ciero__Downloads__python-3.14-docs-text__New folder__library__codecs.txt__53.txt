@@ -1,0 +1,3 @@
++---------------------------+-------------------------------------------------+
+| "'backslashreplace'"      | Replace with backslashed escape sequences. On   |
+|                           | encoding, use hexadecimal form of Unicode code  |

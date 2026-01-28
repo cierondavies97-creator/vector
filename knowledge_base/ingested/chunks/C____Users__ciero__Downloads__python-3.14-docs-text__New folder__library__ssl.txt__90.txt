@@ -1,0 +1,3 @@
+Deprecated since version 3.6: OpenSSL has deprecated all version
+   specific protocols. Use the default protocol "PROTOCOL_TLS_SERVER"
+   or "PROTOCOL_TLS_CLIENT" with "SSLContext.minimum_version" and

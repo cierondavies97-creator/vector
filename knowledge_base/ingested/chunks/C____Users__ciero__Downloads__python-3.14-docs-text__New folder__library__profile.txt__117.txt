@@ -1,0 +1,4 @@
+function you want to the "Profile" class constructor:
+   pr = profile.Profile(your_time_func)
+The resulting profiler will then call "your_time_func". Depending on
+whether you are using "profile.Profile" or "cProfile.Profile",

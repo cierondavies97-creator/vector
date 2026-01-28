@@ -1,0 +1,3 @@
+the standard headers on some systems, you *must* include "Python.h"
+  before any standard headers are included."#define PY_SSIZE_T_CLEAN"
+  was used to indicate that "Py_ssize_t" should be used in some APIs

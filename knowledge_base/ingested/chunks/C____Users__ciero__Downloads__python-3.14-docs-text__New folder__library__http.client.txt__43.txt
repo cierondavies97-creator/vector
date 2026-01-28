@@ -1,0 +1,4 @@
+if "getresponse()" raised an non-"ConnectionError" exception
+     before you can send a new request to the server.
+   Changed in version 3.2: *body* can now be an iterable.
+   Changed in version 3.6: If neither Content-Length nor Transfer-

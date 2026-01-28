@@ -1,0 +1,5 @@
+class we want to patch is being looked up in the module and so we have
+to patch "a.SomeClass" instead:
+   @patch('a.SomeClass')
+Patching Descriptors and Proxy Objects
+--------------------------------------

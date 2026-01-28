@@ -1,0 +1,4 @@
+detected), "UnknownHandler", "HTTPHandler",
+   "HTTPDefaultErrorHandler", "HTTPRedirectHandler", "FTPHandler",
+   "FileHandler", "HTTPErrorProcessor".
+   If the Python installation has SSL support (i.e., if the "ssl"

@@ -1,0 +1,5 @@
+current context is used when no *context* is provided.
+   Note:
+     For performance, callbacks scheduled with "loop.call_later()" may
+     run up to one clock-resolution early (see
+     "time.get_clock_info('monotonic').resolution").

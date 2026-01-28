@@ -1,0 +1,4 @@
+recurse into subdirectories.
+   See the introduction for details on *anchor* and *path_names*.
+   This function is roughly equivalent to:
+      for resource in files(anchor).joinpath(*path_names).iterdir():

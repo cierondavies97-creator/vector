@@ -1,0 +1,7 @@
+match when executed on different machines.  For example, the examples
+below were executed on a 32-bit machine:
+   >>> calcsize('<qqh6x')
+   24
+   >>> calcsize('@llh0l')
+   12
+   >>> pack('@llh0l', 1, 2, 3) == pack('<qqh6x', 1, 2, 3)

@@ -1,0 +1,4 @@
+"curses.panel" --- A panel stack extension for curses
+*****************************************************
+======================================================================
+Panels are windows with the added feature of depth, so they can be

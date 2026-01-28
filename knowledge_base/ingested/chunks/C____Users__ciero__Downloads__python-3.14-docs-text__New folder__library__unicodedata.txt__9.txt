@@ -1,0 +1,6 @@
+If no such value is defined, *default* is returned, or, if not
+   given, "ValueError" is raised:
+      >>> unicodedata.digit('\N{SUPERSCRIPT NINE}')
+      9
+unicodedata.numeric(chr, default=None, /)
+   Returns the numeric value assigned to the character *chr* as float.

@@ -1,0 +1,4 @@
+specified by fullname is not a package, this method should return
+   "None". An object compatible with this ABC should only be returned
+   when the specified module is a package.
+   Added in version 3.7.

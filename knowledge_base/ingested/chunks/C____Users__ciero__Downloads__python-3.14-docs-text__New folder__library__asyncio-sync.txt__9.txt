@@ -1,0 +1,7 @@
+Event
+=====
+class asyncio.Event
+   An event object.  Not thread-safe.
+   An asyncio event can be used to notify multiple asyncio tasks that
+   some event has happened.
+   An Event object manages an internal flag that can be set to *true*

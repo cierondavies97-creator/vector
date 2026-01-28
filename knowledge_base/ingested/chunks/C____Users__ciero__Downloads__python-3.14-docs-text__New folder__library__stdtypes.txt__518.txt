@@ -1,0 +1,4 @@
+will be a bytearray object of length 1.  (This contrasts with text
+strings, where both indexing and slicing will produce a string of
+length 1)
+The representation of bytearray objects uses the bytes literal format

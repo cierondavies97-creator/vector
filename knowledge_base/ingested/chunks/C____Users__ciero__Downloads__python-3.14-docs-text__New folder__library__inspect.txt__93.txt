@@ -1,0 +1,4 @@
+inspect.getmembers_static(object[, predicate])
+   Return all the members of an object in a list of "(name, value)"
+   pairs sorted by name without triggering dynamic lookup via the
+   descriptor protocol, __getattr__ or __getattribute__. Optionally,

@@ -1,0 +1,4 @@
+"typing" module in order to support parameterizing these generic
+classes using "[]". However, the aliases became redundant in Python
+3.9 when the corresponding pre-existing classes were enhanced to
+support "[]" (see **PEP 585**).

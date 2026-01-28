@@ -1,0 +1,4 @@
+contain "%s", it is simply interpreted as the name of the browser to
+launch. [1]
+Changed in version 3.14: The "BROWSER" variable can now also be used
+to reorder the list of platform defaults. This is particularly useful

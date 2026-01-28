@@ -1,0 +1,4 @@
+shutdown will raise "RuntimeError".
+      If *wait* is "True" then this method will not return until all
+      the pending futures are done executing and the resources
+      associated with the executor have been freed.  If *wait* is

@@ -1,0 +1,6 @@
+details.
+      >>> pstdev([1.5, 2.5, 2.5, 2.75, 3.25, 4.75])
+      0.986893273527251
+statistics.pvariance(data, mu=None)
+   Return the population variance of *data*, a non-empty sequence or
+   iterable of real-valued numbers.  Variance, or second moment about

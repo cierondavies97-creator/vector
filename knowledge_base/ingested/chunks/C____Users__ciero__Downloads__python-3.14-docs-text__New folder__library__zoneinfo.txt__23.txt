@@ -1,0 +1,4 @@
+The TZ search path can also be configured at runtime using the
+"reset_tzpath()" function. This is generally not an advisable
+operation, though it is reasonable to use it in test functions that
+require the use of a specific time zone path (or require disabling

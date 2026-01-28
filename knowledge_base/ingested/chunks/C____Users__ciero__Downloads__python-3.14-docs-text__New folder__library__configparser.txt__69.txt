@@ -1,0 +1,4 @@
+which are the same as the documented default.
+  Hint: if you want to specify default values for a specific section,
+  use "read_dict()" before you read the actual file.
+* *dict_type*, default value: "dict"

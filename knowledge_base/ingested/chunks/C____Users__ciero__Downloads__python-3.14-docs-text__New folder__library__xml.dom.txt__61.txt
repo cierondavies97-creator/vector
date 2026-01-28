@@ -1,0 +1,5 @@
+is especially useful for DOM implementations which use any sort of
+   proxy architecture (because more than one object can refer to the
+   same node).
+   Note:
+     This is based on a proposed DOM Level 3 API which is still in the

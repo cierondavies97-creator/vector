@@ -1,0 +1,4 @@
+context. Unlike the "Decimal" constructor, the context
+      precision, rounding method, flags, and traps are applied to the
+      conversion.
+      This is useful because constants are often given to a greater

@@ -1,0 +1,4 @@
+reproducible results, even in a multi-threading context.
+      Changed in version 3.13.
+      Switched to a faster algorithm.  To reproduce samples from
+      previous versions, use "random.seed()" and "random.gauss()".

@@ -1,0 +1,4 @@
+be specified as either a string or bytes -- directly or indirectly
+   through the "PathLike" interface -- or as an open file descriptor.
+   Return a "stat_result" object.
+   This function normally follows symlinks; to stat a symlink add the

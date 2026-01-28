@@ -1,0 +1,4 @@
+directory, then search the C source files for "tp_" plus the function
+you want (for example, "tp_richcompare").  You will find examples of
+the function you want to implement.
+When you need to verify that an object is a concrete instance of the

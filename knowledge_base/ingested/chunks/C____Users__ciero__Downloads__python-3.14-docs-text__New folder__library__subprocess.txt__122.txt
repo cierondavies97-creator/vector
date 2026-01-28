@@ -1,0 +1,4 @@
+"OSError" will be raised by the child only if the selected shell
+itself was not found. To determine if the shell failed to find the
+requested application, it is necessary to check the return code or
+output from the subprocess.

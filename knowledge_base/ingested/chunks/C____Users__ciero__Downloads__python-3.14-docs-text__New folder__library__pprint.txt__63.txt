@@ -1,0 +1,6 @@
+'may be appropriate.',
+    'description_content_type': None,
+    'docs_url': None,
+    'download_url': 'UNKNOWN',
+    'downloads': {...},
+    'home_page': 'https://github.com/pypa/sampleproject',

@@ -1,0 +1,4 @@
+or system limit for that resource is not unlimited will result in a
+   "ValueError".  A process with the effective UID of super-user can
+   request any valid limit value, including unlimited, but
+   "ValueError" will still be raised if the requested limit exceeds

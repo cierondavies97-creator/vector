@@ -1,0 +1,5 @@
+Get information about a frame or traceback object.  A "Traceback"
+   object is returned.
+   Changed in version 3.11: A "Traceback" object is returned instead
+   of a named tuple.
+inspect.getouterframes(frame, context=1)

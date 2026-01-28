@@ -1,0 +1,4 @@
+Added in version 3.4.
+class importlib.machinery.NamespaceLoader(name, path, path_finder)
+   A concrete implementation of "importlib.abc.InspectLoader" for
+   namespace packages.  This is an alias for a private class and is

@@ -1,0 +1,3 @@
+Both patch and patch.object correctly patch and restore descriptors:
+class methods, static methods and properties. You should patch these
+on the *class* rather than an instance. They also work with *some*

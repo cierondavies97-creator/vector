@@ -1,0 +1,5 @@
+into an exitcode.
+   Availability: Unix, not WASI, not Android, not iOS.
+os.wait4(pid, options)
+   Similar to "waitpid()", except a 3-element tuple, containing the
+   child's process id, exit status indication, and resource usage

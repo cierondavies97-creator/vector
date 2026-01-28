@@ -1,0 +1,4 @@
+system will attempt to retrieve the value from
+"config_dict['handlers']['myhandler']['mykey'][123]", and fall back to
+"config_dict['handlers']['myhandler']['mykey']['123']" if that fails.
+Import resolution and custom importers

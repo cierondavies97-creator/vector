@@ -1,0 +1,5 @@
+|          | the separator.                                                   |
++----------+------------------------------------------------------------------+
+Sizegrip
+========
+The "ttk.Sizegrip" widget (also known as a grow box) allows the user

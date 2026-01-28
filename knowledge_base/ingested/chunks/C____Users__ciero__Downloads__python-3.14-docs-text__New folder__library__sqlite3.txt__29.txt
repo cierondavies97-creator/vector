@@ -1,0 +1,7 @@
+* How to use the connection context manager
+    * How to create and use row factories
+  * Explanation for in-depth background on transaction control.
+Reference
+=========
+Module functions
+----------------

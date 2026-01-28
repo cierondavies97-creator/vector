@@ -1,0 +1,5 @@
+of constant functions.  A faster and more flexible way to create
+constant functions is to use a lambda function which can supply any
+constant value (not just zero):
+>>> def constant_factory(value):
+...     return lambda: value

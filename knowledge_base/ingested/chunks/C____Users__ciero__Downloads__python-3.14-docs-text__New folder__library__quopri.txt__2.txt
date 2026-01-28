@@ -1,0 +1,4 @@
+designed for data where there are relatively few nonprintable
+characters; the base64 encoding scheme available via the "base64"
+module is more compact if there are many such characters, as when
+sending a graphics file.

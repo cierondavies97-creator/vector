@@ -1,0 +1,5 @@
+tracemalloc.Filter(False, "<unknown>"),
+       ))
+       top_stats = snapshot.statistics(key_type)
+       print("Top %s lines" % limit)
+       for index, stat in enumerate(top_stats[:limit], 1):

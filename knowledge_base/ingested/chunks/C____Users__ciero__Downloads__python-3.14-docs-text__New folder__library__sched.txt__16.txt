@@ -1,0 +1,3 @@
+*delayfunc* function passed to the constructor) for the next event,
+   then execute it and so on until there are no more scheduled events.
+   If *blocking* is false executes the scheduled events due to expire

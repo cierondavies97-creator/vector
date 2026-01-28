@@ -1,0 +1,7 @@
+File ".../factorial_nohint.py", line 26, in <module>
+res = factorial(n)
+^^^^^^^^^^^^
+File ".../factorial_nohint.py", line 3, in factorial
+for i in range(1,n+1):
+^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer

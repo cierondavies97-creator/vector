@@ -1,0 +1,5 @@
+only if **RFC 2965** handling is turned off.  Therefore, RFC 2109
+   cookies are downgraded by default.
+General strictness switches:
+DefaultCookiePolicy.strict_domain
+   Don't allow sites to set two-component domains with country-code

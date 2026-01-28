@@ -1,0 +1,5 @@
+filelike = StringIO("This is an example file-like object"*10)
+      wrapper = FileWrapper(filelike, blksize=5)
+      for chunk in wrapper:
+          print(chunk)
+   Changed in version 3.11: Support for "__getitem__()" method has

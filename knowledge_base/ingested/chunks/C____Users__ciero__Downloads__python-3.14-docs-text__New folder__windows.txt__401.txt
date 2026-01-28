@@ -1,0 +1,5 @@
+compatibility and for compatibility with Unix, where the command
+"python" typically refers to Python 2.
+4.12.1.4. From file associations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The launcher should have been associated with Python files (i.e.

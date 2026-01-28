@@ -1,0 +1,4 @@
+specifies an offset into the source buffer in bytes; the default
+      is zero.  If the source buffer is not large enough a
+      "ValueError" is raised.
+      Raises an auditing event "ctypes.cdata/buffer" with arguments

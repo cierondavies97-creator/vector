@@ -1,0 +1,4 @@
+xml.parsers.expat.errors.XML_ERROR_PARTIAL_CHAR
+   An incomplete character was found in the input.
+xml.parsers.expat.errors.XML_ERROR_RECURSIVE_ENTITY_REF
+   An entity reference contained another reference to the same entity;

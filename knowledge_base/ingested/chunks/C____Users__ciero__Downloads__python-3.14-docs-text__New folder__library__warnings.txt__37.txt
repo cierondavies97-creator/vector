@@ -1,0 +1,4 @@
+whitespace at the start or end of *message*.
+* *category* is a class (a subclass of "Warning") of which the warning
+  category must be a subclass in order to match.
+* *module* is a string containing a regular expression that the start

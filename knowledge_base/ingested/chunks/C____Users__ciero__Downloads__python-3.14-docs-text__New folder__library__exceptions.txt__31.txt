@@ -1,0 +1,6 @@
+The optional *name* and *obj* keyword-only arguments set the
+   corresponding attributes:
+   name
+      The name of the attribute that was attempted to be accessed.
+   obj
+      The object that was accessed for the named attribute.

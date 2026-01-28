@@ -1,0 +1,4 @@
+occurred. Following the message, the list contains the exception's
+   "notes".
+   Since Python 3.10, instead of passing *value*, an exception object
+   can be passed as the first argument.  If *value* is provided, the

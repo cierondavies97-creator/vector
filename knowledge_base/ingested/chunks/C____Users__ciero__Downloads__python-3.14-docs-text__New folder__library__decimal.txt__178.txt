@@ -1,0 +1,5 @@
+*Emin* must be in the range ["MIN_EMIN", "0"], *Emax* in the
+      range ["0", "MAX_EMAX"].
+   capitals
+      Either "0" or "1" (the default). If set to "1", exponents are
+      printed with a capital "E"; otherwise, a lowercase "e" is used:

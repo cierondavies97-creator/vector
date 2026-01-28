@@ -1,0 +1,4 @@
+In either case, "optparse" handles the error the same way: it prints
+the program's usage message and an error message to standard error and
+exits with error status 2.
+Consider the first example above, where the user passes "4x" to an

@@ -1,0 +1,4 @@
+used in interpolation if an option used is not defined elsewhere.
+   import configparser
+   # New instance with 'bar' and 'baz' defaulting to 'Life' and 'hard' each
+   config = configparser.ConfigParser({'bar': 'Life', 'baz': 'hard'})

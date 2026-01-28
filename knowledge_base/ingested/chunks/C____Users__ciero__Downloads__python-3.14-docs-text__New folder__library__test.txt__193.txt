@@ -1,0 +1,5 @@
+Create an empty file with *filename*.  If it already exists,
+   truncate it.
+test.support.os_helper.fd_count()
+   Count the number of open file descriptors.
+test.support.os_helper.fs_is_case_insensitive(directory)

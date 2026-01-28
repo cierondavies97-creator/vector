@@ -1,0 +1,4 @@
+...     p1.join()
+   ...     p2.join()   # Wait for all work to complete in both processes
+   ...     total_result = sum(sl)  # Consolidate the partial results now in sl
+When using a "SharedMemoryManager" in a "with" statement, the shared

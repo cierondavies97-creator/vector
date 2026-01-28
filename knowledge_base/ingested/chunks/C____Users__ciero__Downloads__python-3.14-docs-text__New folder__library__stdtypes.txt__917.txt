@@ -1,0 +1,4 @@
+decimal or other non-power-of-two number bases. Hexadecimal, octal,
+and binary conversions are unlimited. The limit can be configured.
+The "int" type in CPython is an arbitrary length number stored in
+binary form (commonly known as a "bignum"). There exists no algorithm

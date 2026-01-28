@@ -1,0 +1,3 @@
+Return the value of the "filename" parameter of the *Content-
+      Disposition* header of the message.  If the header does not have
+      a "filename" parameter, this method falls back to looking for

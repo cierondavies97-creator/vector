@@ -1,0 +1,6 @@
+return f.read()
+   In this example, an "EncodingWarning" is emitted for the caller of
+   "read_text()".
+   See Text Encoding for more information.
+   Added in version 3.10.
+   Changed in version 3.11: "text_encoding()" returns "utf-8" when

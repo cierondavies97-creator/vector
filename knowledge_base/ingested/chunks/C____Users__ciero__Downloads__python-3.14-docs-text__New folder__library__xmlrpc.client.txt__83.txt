@@ -1,0 +1,4 @@
+presented as "bytes" objects; this flag is false by default.
+   The obsolete *use_datetime* flag is similar to *use_builtin_types*
+   but it applies only to date/time values.
+   Changed in version 3.3: The *use_builtin_types* flag was added.

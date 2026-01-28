@@ -1,0 +1,3 @@
+"sin6_flowinfo" and "sin6_scope_id" members in "struct sockaddr_in6"
+  in C.  For "socket" module methods, *flowinfo* and *scope_id* can be
+  omitted just for backward compatibility.  Note, however, omission of

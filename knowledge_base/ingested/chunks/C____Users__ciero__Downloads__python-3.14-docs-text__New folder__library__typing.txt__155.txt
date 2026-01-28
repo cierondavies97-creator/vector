@@ -1,0 +1,3 @@
+removes, or transforms parameters of another callable.  Usage is in
+   the form "Concatenate[Arg1Type, Arg2Type, ..., ParamSpecVariable]".
+   "Concatenate" is currently only valid when used as the first

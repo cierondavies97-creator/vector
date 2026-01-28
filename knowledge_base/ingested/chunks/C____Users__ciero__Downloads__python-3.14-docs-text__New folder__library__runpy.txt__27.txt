@@ -1,0 +1,3 @@
+updated with the value of *file_path* and "sys.modules[__name__]"
+   is updated with a temporary module object for the module being
+   executed. All modifications to items in "sys" are reverted before

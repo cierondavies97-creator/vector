@@ -1,0 +1,7 @@
+"getche()".
+msvcrt.ungetwch(unicode_char)
+   Wide char variant of "ungetch()", accepting a Unicode value.
+Other Functions
+===============
+msvcrt.heapmin()
+   Force the "malloc()" heap to clean itself up and return unused

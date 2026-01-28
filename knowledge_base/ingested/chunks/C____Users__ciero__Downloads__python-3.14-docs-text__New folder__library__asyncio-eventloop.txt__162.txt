@@ -1,0 +1,4 @@
+Return the total number of bytes sent.
+   Asynchronous version of "socket.sendfile()".
+   *sock* must be a non-blocking "socket.SOCK_STREAM" "socket".
+   *file* must be a regular file object open in binary mode.

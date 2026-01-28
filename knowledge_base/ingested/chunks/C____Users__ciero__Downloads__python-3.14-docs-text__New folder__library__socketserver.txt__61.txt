@@ -1,0 +1,5 @@
+Called by the server's constructor to activate the server.  The
+      default behavior for a TCP server just invokes "listen()" on the
+      server's socket.  May be overridden.
+   server_bind()
+      Called by the server's constructor to bind the socket to the

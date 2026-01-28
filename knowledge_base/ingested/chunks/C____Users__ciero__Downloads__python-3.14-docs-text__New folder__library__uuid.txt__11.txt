@@ -1,0 +1,4 @@
+UUID(fields=(0x12345678, 0x1234, 0x5678, 0x12, 0x34, 0x567812345678))
+      UUID(int=0x12345678123456781234567812345678)
+   Exactly one of *hex*, *bytes*, *bytes_le*, *fields*, or *int* must
+   be given. The *version* argument is optional; if given, the

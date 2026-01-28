@@ -1,0 +1,5 @@
+from urllib.request import urlopen
+      with closing(urlopen('https://www.python.org')) as page:
+          for line in page:
+              print(line)
+   without needing to explicitly close "page".  Even if an error

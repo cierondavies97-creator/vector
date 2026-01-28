@@ -1,0 +1,4 @@
+ensure you're running a thread-aware Tcl/Tk build.
+* Blocking event handlers are not the only way to prevent the Tcl
+  interpreter from reentering the event loop. It is even possible to
+  run multiple nested event loops or abandon the event loop entirely.

@@ -1,0 +1,3 @@
+variable, defaulting to "None" if not found.  If the charset encoding
+is specified, then all message ids and message strings read from the
+catalog are converted to Unicode using this encoding, else ASCII is

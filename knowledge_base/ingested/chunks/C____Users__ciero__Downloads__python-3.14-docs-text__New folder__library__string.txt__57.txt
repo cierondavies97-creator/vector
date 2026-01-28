@@ -1,0 +1,4 @@
+curly brace with a nested replacement field.  This limitation doesn't
+affect the "format()" function.
+The meaning of the various alignment options is as follows:
++-----------+------------------------------------------------------------+

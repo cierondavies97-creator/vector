@@ -1,0 +1,4 @@
+lst[i]   # list.__getitem__
+The following methods traverse the list and use *atomic* reads of each
+item to perform their function. That means that they may return
+results affected by concurrent modifications:

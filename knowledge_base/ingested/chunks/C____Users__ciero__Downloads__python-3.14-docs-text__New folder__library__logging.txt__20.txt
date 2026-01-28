@@ -1,0 +1,5 @@
+Note:
+        This value should be treated as read-only.
+   propagate
+      If this attribute evaluates to true, events logged to this
+      logger will be passed to the handlers of higher level (ancestor)

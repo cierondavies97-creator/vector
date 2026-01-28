@@ -1,0 +1,5 @@
+objects. Additional sequence types tailored for processing of binary
+data and text strings are described in dedicated sections.
+Common Sequence Operations
+--------------------------
+The operations in the following table are supported by most sequence

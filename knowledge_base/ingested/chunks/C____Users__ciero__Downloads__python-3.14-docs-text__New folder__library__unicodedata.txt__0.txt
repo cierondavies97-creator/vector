@@ -1,0 +1,4 @@
+"unicodedata" --- Unicode Database
+**********************************
+======================================================================
+This module provides access to the Unicode Character Database (UCD)

@@ -1,0 +1,7 @@
+overridden:
+         >>> from enum import auto, Enum
+         >>> class OtherStyle(Enum):
+         ...     ALTERNATE = auto()
+         ...     OTHER = auto()
+         ...     SOMETHING_ELSE = auto()
+         ...     def __format__(self, spec):

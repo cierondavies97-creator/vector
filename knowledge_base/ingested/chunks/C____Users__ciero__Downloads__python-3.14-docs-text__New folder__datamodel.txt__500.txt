@@ -1,0 +1,3 @@
+class.  They cannot be defined as class methods in the actual class.
+This is consistent with the lookup of special methods that are called
+on instances, only in this case the instance is itself a class.

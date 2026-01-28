@@ -1,0 +1,4 @@
+by assigning "frame.f_trace = tracefunc" explicitly, rather than
+   relying on it being set indirectly via the return value from an
+   already installed trace function. This is also required for
+   activating the trace function on the current frame, which

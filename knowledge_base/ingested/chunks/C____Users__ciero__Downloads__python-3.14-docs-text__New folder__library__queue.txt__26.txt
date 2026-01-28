@@ -1,0 +1,5 @@
+if the queue has been shut down immediately.
+Queue.get_nowait()
+   Equivalent to "get(False)".
+Two methods are offered to support tracking whether enqueued tasks
+have been fully processed by daemon consumer threads.

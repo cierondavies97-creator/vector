@@ -1,0 +1,5 @@
+threads are left.  The initial value is inherited from the creating
+thread.  The flag can be set through the "daemon" property or the
+*daemon* constructor argument.
+Note:
+  Daemon threads are abruptly stopped at shutdown.  Their resources

@@ -1,0 +1,7 @@
++--------------+---------------------------+---------------------+
+      >>> mode("logo")   # resets turtle heading to north
+      >>> mode()
+      'logo'
+turtle.colormode(cmode=None)
+   Parameters:
+      **cmode** -- one of the values 1.0 or 255

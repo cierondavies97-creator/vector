@@ -1,0 +1,4 @@
+the internals of the "saferepr()" implementation.
+PrettyPrinter.format(object, context, maxlevels, level)
+   Returns three values: the formatted version of *object* as a
+   string, a flag indicating whether the result is readable, and a

@@ -1,0 +1,7 @@
+b'Binary file contents'
+   An existing file of the same name is overwritten.
+   Added in version 3.5.
+Reading directories
+-------------------
+Path.iterdir()
+   When the path points to a directory, yield path objects of the

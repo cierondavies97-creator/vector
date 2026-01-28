@@ -1,0 +1,4 @@
+memory used when decompressing data. A larger maximum window
+      size leads to faster decompression.
+      A value of zero causes the value to be selected automatically.
+class compression.zstd.Strategy

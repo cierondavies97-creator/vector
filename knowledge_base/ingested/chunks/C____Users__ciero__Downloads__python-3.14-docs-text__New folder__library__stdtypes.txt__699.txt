@@ -1,0 +1,4 @@
+bytes. "tobytes()" supports all format strings, including
+         those that are not in "struct" module syntax.
+         Added in version 3.8: *order* can be {'C', 'F', 'A'}.  When
+         *order* is 'C' or 'F', the data of the original array is

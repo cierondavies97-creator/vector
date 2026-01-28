@@ -1,0 +1,4 @@
+released; any process or thread may release it.  The concepts and
+   behaviors of "threading.Lock" as it applies to threads are
+   replicated here in "multiprocessing.Lock" as it applies to either
+   processes or threads, except as noted.

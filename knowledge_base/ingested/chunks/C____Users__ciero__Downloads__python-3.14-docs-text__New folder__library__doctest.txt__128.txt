@@ -1,0 +1,3 @@
+for a module-relative filename.  If no package is specified, then
+   the calling module's directory is used as the base directory for
+   module-relative filenames.  It is an error to specify *package* if

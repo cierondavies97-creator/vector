@@ -1,0 +1,3 @@
+Pass the barrier.  When all the threads party to the barrier
+      have called this function, they are all released simultaneously.
+      If a *timeout* is provided, it is used in preference to any that

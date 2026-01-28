@@ -1,0 +1,3 @@
++----------------+-----------------------------------------------+
+   | *datefmt*      | Use the specified date/time format, as        |
+   |                | accepted by "time.strftime()".                |

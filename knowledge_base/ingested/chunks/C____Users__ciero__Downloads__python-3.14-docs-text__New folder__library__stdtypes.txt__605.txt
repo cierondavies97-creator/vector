@@ -1,0 +1,6 @@
+Added in version 3.7.
+bytes.isdigit()
+bytearray.isdigit()
+   Return "True" if all bytes in the sequence are ASCII decimal digits
+   and the sequence is not empty, "False" otherwise. ASCII decimal
+   digits are those byte values in the sequence "b'0123456789'".

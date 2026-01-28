@@ -1,0 +1,3 @@
+your application. Otherwise, your users may experience problems using
+your application. Note that the first suggestion is the best, as the
+others may still be susceptible to non-standard paths in the registry

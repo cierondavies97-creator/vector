@@ -1,0 +1,4 @@
+or thread) unless the lock is already owned by the current
+      process or thread.  The current process or thread then takes
+      ownership of the lock (if it does not already have ownership)
+      and the recursion level inside the lock increments by one,

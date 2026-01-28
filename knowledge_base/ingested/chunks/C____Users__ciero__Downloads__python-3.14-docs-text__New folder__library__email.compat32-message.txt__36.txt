@@ -1,0 +1,4 @@
+raised.
+      Optional *decode* is a flag indicating whether the payload
+      should be decoded or not, according to the *Content-Transfer-
+      Encoding* header. When "True" and the message is not a

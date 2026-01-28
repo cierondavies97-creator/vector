@@ -1,0 +1,3 @@
+As noted, the official Tk commands reference manual (man pages) is
+often the most accurate description of what specific operations on
+widgets do. Even when you know the name of the option or method that

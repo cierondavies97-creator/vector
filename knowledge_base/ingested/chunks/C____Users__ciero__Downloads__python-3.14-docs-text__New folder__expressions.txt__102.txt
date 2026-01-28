@@ -1,0 +1,8 @@
+>>> print(next(generator))
+   None
+   >>> print(generator.send(2))
+   2
+   >>> generator.throw(TypeError, "spam")
+   TypeError('spam',)
+   >>> generator.close()
+   Don't forget to clean up when 'close()' is called.

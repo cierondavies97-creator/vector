@@ -1,0 +1,4 @@
+attribute at all).
+   If a mutable mapping is not available or if space-efficient key
+   sharing is desired, an effect similar to "cached_property()" can
+   also be achieved by stacking "property()" on top of "lru_cache()".

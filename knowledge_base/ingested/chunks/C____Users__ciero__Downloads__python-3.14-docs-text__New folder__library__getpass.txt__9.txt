@@ -1,0 +1,3 @@
+login name from the password database is returned on systems which
+   support the "pwd" module, otherwise, an "OSError" is raised.
+   In general, this function should be preferred over "os.getlogin()".

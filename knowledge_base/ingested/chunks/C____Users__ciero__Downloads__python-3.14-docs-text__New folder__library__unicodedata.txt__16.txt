@@ -1,0 +1,6 @@
+integer. Returns "1" if the character has been identified as a
+   "mirrored" character in bidirectional text, "0" otherwise. For
+   example:
+      >>> unicodedata.mirrored('>')
+      1
+unicodedata.decomposition(chr)

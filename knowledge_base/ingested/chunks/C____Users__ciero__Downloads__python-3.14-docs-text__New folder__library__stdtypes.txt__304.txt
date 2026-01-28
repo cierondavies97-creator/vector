@@ -1,0 +1,6 @@
+Since it is already lowercase, "lower()" would do nothing to "'ß'";
+   "casefold()" converts it to ""ss"". For example:
+      >>> 'straße'.lower()
+      'straße'
+      >>> 'straße'.casefold()
+      'strasse'

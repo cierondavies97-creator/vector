@@ -1,0 +1,9 @@
+>>> pack('@ci', b'#', 0x12131415)
+   b'#\x00\x00\x00\x15\x14\x13\x12'
+   >>> pack('@ic', 0x12131415, b'#')
+   b'\x15\x14\x13\x12#'
+   >>> calcsize('@ci')
+   8
+   >>> calcsize('@ic')
+   5
+The following format "'llh0l'" results in two pad bytes being added at

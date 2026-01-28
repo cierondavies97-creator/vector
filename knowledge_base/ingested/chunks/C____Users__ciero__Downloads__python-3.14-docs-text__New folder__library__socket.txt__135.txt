@@ -1,0 +1,3 @@
+the "socket()" function above. The file descriptor should refer to
+   a socket, but this is not checked --- subsequent operations on the
+   object may fail if the file descriptor is invalid. This function is

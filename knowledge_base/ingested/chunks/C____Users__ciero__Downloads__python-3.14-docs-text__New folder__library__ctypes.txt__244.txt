@@ -1,0 +1,4 @@
+which avoids issues such as DLL hijacking. Passing the full path to
+the DLL is the safest way to ensure the correct library and
+dependencies are loaded.
+Changed in version 3.8: Added *winmode* parameter.

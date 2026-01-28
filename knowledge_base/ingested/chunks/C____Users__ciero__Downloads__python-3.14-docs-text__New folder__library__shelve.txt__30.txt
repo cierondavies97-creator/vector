@@ -1,0 +1,4 @@
+# using an existing key)
+   data = d[key]              # retrieve a COPY of data at key (raise KeyError
+                              # if no such key)
+   del d[key]                 # delete data stored at key (raises KeyError

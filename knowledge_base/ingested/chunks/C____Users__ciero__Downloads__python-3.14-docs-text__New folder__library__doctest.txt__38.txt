@@ -1,0 +1,4 @@
+object docstrings found from "M.__test__" are searched, and strings
+are treated as if they were docstrings.  In output, a key "K" in
+"M.__test__" appears with name "M.__test__.K".
+For example, place this block of code at the top of "example.py":

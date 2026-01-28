@@ -1,0 +1,4 @@
+single object or in multiple objects. Handler implementations should
+inherit from the base classes provided in the module
+"xml.sax.handler", so that all methods get default implementations.
+class xml.sax.handler.ContentHandler

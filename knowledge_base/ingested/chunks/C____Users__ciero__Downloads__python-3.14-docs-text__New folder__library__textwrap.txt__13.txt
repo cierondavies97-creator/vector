@@ -1,0 +1,5 @@
+Lines containing only whitespace are ignored in the input and
+   normalized to a single newline character in the output.
+   For example:
+      def test():
+          # end first line with \ to avoid the empty line!

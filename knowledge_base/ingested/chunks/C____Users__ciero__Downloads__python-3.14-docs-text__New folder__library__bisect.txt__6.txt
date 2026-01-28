@@ -1,0 +1,4 @@
+bisect.bisect_left(a, x, lo=0, hi=len(a), *, key=None)
+   Locate the insertion point for *x* in *a* to maintain sorted order.
+   The parameters *lo* and *hi* may be used to specify a subset of the
+   list which should be considered; by default the entire list is

@@ -1,0 +1,4 @@
+object given in the constructor, and return the reconstituted
+      object hierarchy specified therein.  Bytes past the pickled
+      representation of the object are ignored.
+   persistent_load(pid)

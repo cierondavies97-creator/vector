@@ -1,0 +1,6 @@
+*thread-safe*.
+lexical analyzer
+   Formal name for the *tokenizer*; see *token*.
+list
+   A built-in Python *sequence*.  Despite its name it is more akin to
+   an array in other languages than to a linked list since access to

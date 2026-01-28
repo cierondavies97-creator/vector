@@ -1,0 +1,4 @@
+invalid port is specified in the URL.  See section Structured Parse
+   Results for more information on the result object.
+   Unmatched square brackets in the "netloc" attribute will raise a
+   "ValueError".

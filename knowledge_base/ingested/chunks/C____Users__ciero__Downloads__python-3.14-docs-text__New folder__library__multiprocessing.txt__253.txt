@@ -1,0 +1,5 @@
+So if, for instance, you want to atomically increment a shared
+   value it is insufficient to just do
+      counter.value += 1
+   Assuming the associated lock is recursive (which it is by default)
+   you can instead do

@@ -1,0 +1,5 @@
+exit it will attempt to join the queue's background thread.  The
+      process can call "cancel_join_thread()" to make "join_thread()"
+      do nothing.
+   cancel_join_thread()
+      Prevent "join_thread()" from blocking.  In particular, this

@@ -1,0 +1,3 @@
+a %-format string with placeholders for variable data, or an
+        arbitrary object (see Using arbitrary objects as messages).
+      * **args** (*tuple** | **dict**[**str**, **Any**]*) -- Variable

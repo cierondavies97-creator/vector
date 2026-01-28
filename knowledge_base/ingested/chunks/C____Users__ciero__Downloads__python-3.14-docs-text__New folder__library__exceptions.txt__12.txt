@@ -1,0 +1,3 @@
+explicitly chained exception in "__cause__" is always shown when
+   present. An implicitly chained exception in "__context__" is shown
+   only if "__cause__" is "None" and "__suppress_context__" is false.

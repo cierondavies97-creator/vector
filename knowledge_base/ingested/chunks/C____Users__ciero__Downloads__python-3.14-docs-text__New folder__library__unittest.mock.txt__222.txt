@@ -1,0 +1,8 @@
+>>> mock_thing = patcher.start()
+   >>> mock_thing.method()
+   3
+   >>> mock_thing.other()
+   Traceback (most recent call last):
+     ...
+   KeyError
+By default, attempting to patch a function in a module (or a method or

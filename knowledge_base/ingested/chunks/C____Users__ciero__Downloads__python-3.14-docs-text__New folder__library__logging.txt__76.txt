@@ -1,0 +1,4 @@
+4-element tuple. The stack information is returned as "None"
+      unless *stack_info* is "True".
+      The *stacklevel* parameter is passed from code calling the
+      "debug()" and other APIs. If greater than 1, the excess is used

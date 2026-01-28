@@ -1,0 +1,6 @@
+Like "ngettext()", but look the message up in the specified
+   *domain*.
+gettext.pgettext(context, message)
+gettext.dpgettext(domain, context, message)
+gettext.npgettext(context, singular, plural, n)
+gettext.dnpgettext(domain, context, singular, plural, n)

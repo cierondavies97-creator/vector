@@ -1,0 +1,5 @@
+>>> round(Decimal('3.75'))     # context rounding ignored
+         4
+         >>> round(Decimal('3.5'))      # round-ties-to-even
+         4
+         >>> round(Decimal('3.75'), 0)  # uses the context rounding

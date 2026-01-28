@@ -1,0 +1,6 @@
+The following modules are documented in this chapter:
+* "numbers" --- Numeric abstract base classes
+  * The numeric tower
+  * Notes for type implementers
+    * Adding More Numeric ABCs
+    * Implementing the arithmetic operations

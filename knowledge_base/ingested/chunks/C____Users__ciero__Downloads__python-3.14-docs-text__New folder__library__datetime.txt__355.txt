@@ -1,0 +1,4 @@
+# Fold (an ambiguous hour): use dt.fold to disambiguate.
+               return ZERO if dt.fold else HOUR
+           if start <= dt < start + HOUR:
+               # Gap (a non-existent hour): reverse the fold rule.

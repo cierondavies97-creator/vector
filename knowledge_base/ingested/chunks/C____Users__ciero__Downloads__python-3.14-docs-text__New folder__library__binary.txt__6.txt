@@ -1,0 +1,7 @@
+* Binary Transforms
+    * Standalone Codec Functions
+    * Text Transforms
+  * "encodings" --- Encodings package
+  * "encodings.idna" --- Internationalized Domain Names in
+    Applications
+  * "encodings.mbcs" --- Windows ANSI codepage

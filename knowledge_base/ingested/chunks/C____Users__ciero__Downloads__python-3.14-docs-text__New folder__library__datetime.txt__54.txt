@@ -1,0 +1,3 @@
+| "str(t)"                         | Returns a string in the form "[D day[s],        |
+|                                  | ][H]H:MM:SS[.UUUUUU]", where D is negative for  |
+|                                  | negative "t". (5)                               |

@@ -1,0 +1,6 @@
+Py_DECREF(pFunc);
+                   Py_DECREF(pModule);
+                   PyErr_Print();
+                   fprintf(stderr,"Call failed\n");
+                   return 1;
+               }

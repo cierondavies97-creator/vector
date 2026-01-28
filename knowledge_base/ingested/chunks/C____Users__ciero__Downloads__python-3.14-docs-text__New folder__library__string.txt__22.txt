@@ -1,0 +1,4 @@
+So for example, the field expression '0.name' would cause
+      "get_value()" to be called with a *key* argument of 0.  The
+      "name" attribute will be looked up after "get_value()" returns
+      by calling the built-in "getattr()" function.

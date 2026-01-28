@@ -1,0 +1,4 @@
+separate search path components (as in "PATH"), such as "':'" for
+   POSIX or "';'" for Windows. Also available via "os.path".
+os.defpath
+   The default search path used by "exec*p*" and "spawn*p*" if the

@@ -1,0 +1,3 @@
+argument, and the requested size in bytes as the second argument.  The
+memory block cannot be made smaller than the natural memory block
+specified by the objects type, a "ValueError" is raised if this is

@@ -1,0 +1,7 @@
+parser.add_argument('fromfile')
+       parser.add_argument('tofile')
+       options = parser.parse_args()
+       n = options.lines
+       fromfile = options.fromfile
+       tofile = options.tofile
+       fromdate = file_mtime(fromfile)

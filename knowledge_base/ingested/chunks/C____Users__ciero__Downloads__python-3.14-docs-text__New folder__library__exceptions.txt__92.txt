@@ -1,0 +1,6 @@
+"os.fork()").
+   code
+      The exit status or error message that is passed to the
+      constructor. (Defaults to "None".)
+exception TypeError
+   Raised when an operation or function is applied to an object of

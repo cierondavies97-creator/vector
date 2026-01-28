@@ -1,0 +1,6 @@
+*clockid* must be a valid clock ID, as defined in the "time"
+   module:
+   * "time.CLOCK_REALTIME"
+   * "time.CLOCK_MONOTONIC"
+   * "time.CLOCK_BOOTTIME" (Since Linux 3.15 for timerfd_create)
+   If *clockid* is "time.CLOCK_REALTIME", a settable system-wide real-

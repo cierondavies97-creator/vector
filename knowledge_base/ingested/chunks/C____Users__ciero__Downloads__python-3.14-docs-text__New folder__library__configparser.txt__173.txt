@@ -1,0 +1,3 @@
+Get an *option* value for the named *section*.  If *vars* is
+      provided, it must be a dictionary.  The *option* is looked up in
+      *vars* (if provided), *section*, and in *DEFAULTSECT* in that

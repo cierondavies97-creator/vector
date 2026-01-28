@@ -1,0 +1,4 @@
+Construct a "StackSummary" object from a frame generator (such
+      as is returned by "walk_stack()" or "walk_tb()").
+      If *limit* is supplied, only this many frames are taken from
+      *frame_gen*. If *lookup_lines* is "False", the returned

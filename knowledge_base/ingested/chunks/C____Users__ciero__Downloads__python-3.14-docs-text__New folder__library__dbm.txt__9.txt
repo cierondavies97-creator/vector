@@ -1,0 +1,4 @@
+(default: octal "0o666"), used only when the database has to
+        be created.
+   Changed in version 3.11: *file* accepts a *path-like object*.
+The object returned by "open()" supports the basic functionality of

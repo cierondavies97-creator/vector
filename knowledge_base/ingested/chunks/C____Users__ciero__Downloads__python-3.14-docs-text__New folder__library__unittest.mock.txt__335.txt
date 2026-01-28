@@ -1,0 +1,6 @@
+>>> name is m.mock_calls[0][0]
+True
+create_autospec
+---------------
+unittest.mock.create_autospec(spec, spec_set=False, instance=False, **kwargs)
+   Create a mock object using another object as a spec. Attributes on

@@ -1,0 +1,4 @@
+(bytearray(b'abc\x00\x00'), 5)
+      Added in version 3.14.
+Since bytearray objects are sequences of integers (akin to a list),
+for a bytearray object *b*, "b[0]" will be an integer, while "b[0:1]"

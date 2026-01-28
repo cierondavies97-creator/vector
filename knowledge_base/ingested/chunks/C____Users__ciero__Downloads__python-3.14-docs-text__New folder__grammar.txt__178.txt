@@ -1,0 +1,6 @@
+# Comprehensions & Generators
+   # ---------------------------
+   for_if_clauses[asdl_comprehension_seq*]:
+       | a[asdl_comprehension_seq*]=for_if_clause+ { a }
+   for_if_clause[comprehension_ty]:
+       | 'async' 'for' a=star_targets 'in' ~ b=disjunction c[asdl_expr_seq*]=('if' z=disjunction { z })* {

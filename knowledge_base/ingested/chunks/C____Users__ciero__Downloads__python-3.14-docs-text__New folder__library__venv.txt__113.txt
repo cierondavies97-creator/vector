@@ -1,0 +1,4 @@
+'virtual environment.')
+       parser.add_argument('--no-setuptools', default=False,
+                           action='store_true', dest='nodist',
+                           help="Don't install setuptools or pip in the "

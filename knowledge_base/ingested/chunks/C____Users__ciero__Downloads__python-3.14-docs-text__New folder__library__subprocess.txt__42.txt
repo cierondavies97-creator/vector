@@ -1,0 +1,4 @@
+existing file descriptor (a positive integer), and an existing
+   *file object* with a valid file descriptor.  With the default
+   settings of "None", no redirection will occur.  "PIPE" indicates
+   that a new pipe to the child should be created.  "DEVNULL"

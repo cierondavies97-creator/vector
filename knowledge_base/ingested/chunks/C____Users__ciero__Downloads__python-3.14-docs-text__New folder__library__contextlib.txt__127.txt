@@ -1,0 +1,7 @@
+load_widget()
+And also as a function decorator:
+   @track_entry_and_exit('widget loader')
+   def activity():
+       print('Some time consuming activity goes here')
+       load_widget()
+Note that there is one additional limitation when using context

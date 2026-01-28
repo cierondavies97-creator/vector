@@ -1,0 +1,5 @@
+"http" --- HTTP modules
+***********************
+**Source code:** Lib/http/__init__.py
+======================================================================
+"http" is a package that collects several modules for working with the

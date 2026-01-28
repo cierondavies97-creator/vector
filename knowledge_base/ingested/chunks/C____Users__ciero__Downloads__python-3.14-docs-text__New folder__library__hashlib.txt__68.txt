@@ -1,0 +1,3 @@
+object by calling the appropriate constructor function ("blake2b()" or
+"blake2s()"), then update it with the data by calling "update()" on
+the object, and, finally, get the digest out of the object by calling

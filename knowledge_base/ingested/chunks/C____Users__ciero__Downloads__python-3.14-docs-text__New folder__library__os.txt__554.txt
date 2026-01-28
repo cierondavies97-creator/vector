@@ -1,0 +1,4 @@
+Return a two-item tuple of ("next_expiration", "interval") from the
+   previous timer state, before this function executed.
+   See also:
+     *timerfd_create(2)*, *timerfd_settime(2)*, *settimeofday(2)*,

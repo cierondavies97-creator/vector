@@ -1,0 +1,5 @@
+Changed in version 3.5: Added the *tb_locals* parameter.
+   Changed in version 3.12: Added the *durations* parameter.
+   _makeResult()
+      This method returns the instance of "TestResult" used by
+      "run()". It is not intended to be called directly, but can be

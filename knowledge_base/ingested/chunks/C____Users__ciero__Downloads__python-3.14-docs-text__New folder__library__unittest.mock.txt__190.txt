@@ -1,0 +1,6 @@
+unpatching for you, even if exceptions are raised. All of these
+functions can also be used in with statements or as class decorators.
+patch
+-----
+Note:
+  The key is to do the patching in the right namespace. See the

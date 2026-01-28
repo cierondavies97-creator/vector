@@ -1,0 +1,6 @@
+with support.catch_unraisable_exception() as cm:
+          # code creating an "unraisable exception"
+          ...
+          # check the unraisable exception: use cm.unraisable
+          ...
+      # cm.unraisable attribute no longer exists at this point

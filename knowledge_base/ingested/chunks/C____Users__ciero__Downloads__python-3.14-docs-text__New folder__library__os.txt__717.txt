@@ -1,0 +1,3 @@
+request is for the status of any child in the process group of the
+   current process.  If *pid* is "-1", the request pertains to any
+   child of the current process.  If *pid* is less than "-1", status

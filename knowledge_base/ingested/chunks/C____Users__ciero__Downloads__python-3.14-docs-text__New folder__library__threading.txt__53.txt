@@ -1,0 +1,7 @@
+thread.  This is necessary to initialize each thread's dictionary.
+Now if we create a "local" object:
+   >>> mydata = MyLocal(color='red')
+we have a default number:
+   >>> mydata.number
+   2
+an initial color:

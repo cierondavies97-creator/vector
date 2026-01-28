@@ -1,0 +1,5 @@
+*lookup_lines* and *capture_locals* are as for the "StackSummary"
+   class.
+   If *compact* is true, only data that is required by
+   "TracebackException"'s "format()" method is saved in the class
+   attributes. In particular, the "__context__" field is calculated

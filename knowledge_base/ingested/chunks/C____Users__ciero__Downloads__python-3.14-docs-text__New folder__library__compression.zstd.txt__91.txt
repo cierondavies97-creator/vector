@@ -1,0 +1,6 @@
+the "dictionary_id" attribute to the "get_frame_info()"
+           function.
+      as_digested_dict
+         Load as a digested dictionary.
+      as_undigested_dict
+         Load as an undigested dictionary.

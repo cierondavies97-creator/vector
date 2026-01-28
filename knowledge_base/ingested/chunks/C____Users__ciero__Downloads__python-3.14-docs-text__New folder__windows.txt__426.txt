@@ -1,0 +1,4 @@
+followed by a period ('.') and a minor version specifier. Furthermore
+it is possible to specify if a 32 or 64 bit implementation shall be
+requested by adding "-32" or "-64".
+For example, a shebang line of "#!python" has no version qualifier,

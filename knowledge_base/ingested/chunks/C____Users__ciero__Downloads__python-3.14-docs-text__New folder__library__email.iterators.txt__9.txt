@@ -1,0 +1,7 @@
+text/plain
+              message/rfc822
+                  text/plain
+              message/rfc822
+                  text/plain
+          text/plain
+   Optional *fp* is a file-like object to print the output to.  It

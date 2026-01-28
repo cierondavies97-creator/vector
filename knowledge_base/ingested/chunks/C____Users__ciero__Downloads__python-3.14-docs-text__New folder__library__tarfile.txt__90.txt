@@ -1,0 +1,5 @@
+versions with a less secure default (3.13 and lower).
+   Warning:
+     Never extract archives from untrusted sources without prior
+     inspection.Since Python 3.14, the default ("data") will prevent
+     the most dangerous security issues. However, it will not prevent

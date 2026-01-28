@@ -1,0 +1,4 @@
+pred = lambda o: o.startswith('setuptools-') and o.endswith('.tar.gz')
+           files = filter(pred, os.listdir(context.bin_path))
+           for f in files:
+               f = os.path.join(context.bin_path, f)

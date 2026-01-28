@@ -1,0 +1,4 @@
+Context manager catching unraisable exception using
+   "sys.unraisablehook()".
+   Storing the exception value ("cm.unraisable.exc_value") creates a
+   reference cycle. The reference cycle is broken explicitly when the

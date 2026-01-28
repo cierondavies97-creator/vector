@@ -1,0 +1,4 @@
+name, "ArgumentParser" will exit with error info and list the
+permissible argument choices (if specified) or subparser names as part
+of the error message.
+If the user would like to enable suggestions for mistyped argument

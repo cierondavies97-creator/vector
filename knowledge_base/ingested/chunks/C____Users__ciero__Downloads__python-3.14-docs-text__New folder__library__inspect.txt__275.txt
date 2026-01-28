@@ -1,0 +1,3 @@
+function is intended to be used with asynchronous iterator objects
+   created by "async def" functions which use the "yield" statement,
+   but will accept any asynchronous generator-like object that has

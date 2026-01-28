@@ -1,0 +1,5 @@
+formatted_lines = traceback.format_exc().splitlines()
+       print(formatted_lines[0])
+       print(formatted_lines[-1])
+       print("*** format_exception:")
+       print(repr(traceback.format_exception(exc)))

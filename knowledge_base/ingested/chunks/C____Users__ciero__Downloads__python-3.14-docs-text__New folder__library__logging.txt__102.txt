@@ -1,0 +1,5 @@
+Adds the specified filter *filter* to this handler.
+   removeFilter(filter)
+      Removes the specified filter *filter* from this handler.
+   filter(record)
+      Apply this handler's filters to the record and return "True" if

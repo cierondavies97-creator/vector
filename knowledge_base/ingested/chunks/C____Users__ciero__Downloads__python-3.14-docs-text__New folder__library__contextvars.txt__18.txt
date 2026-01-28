@@ -1,0 +1,4 @@
+A mapping of "ContextVars" to their values.
+   "Context()" creates an empty context with no values in it. To get a
+   copy of the current context use the "copy_context()" function.
+   Each thread has its own effective stack of "Context" objects.  The

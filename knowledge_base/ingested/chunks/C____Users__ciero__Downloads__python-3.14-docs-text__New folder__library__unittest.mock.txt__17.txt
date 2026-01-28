@@ -1,0 +1,5 @@
+...     thing.method(1, 2, 3)
+...
+>>> mock_method.assert_called_once_with(1, 2, 3)
+There is also "patch.dict()" for setting values in a dictionary just
+during a scope and restoring the dictionary to its original state when

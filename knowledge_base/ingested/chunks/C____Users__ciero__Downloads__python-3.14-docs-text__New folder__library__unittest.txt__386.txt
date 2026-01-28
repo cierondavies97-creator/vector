@@ -1,0 +1,4 @@
+be used with care.
+The default ordering of tests created by the unittest test loaders is
+to group all tests from the same modules and classes together. This
+will lead to "setUpClass" / "setUpModule" (etc) being called exactly

@@ -1,0 +1,4 @@
+Unless the "--without-pip" option is given, "ensurepip" will be
+invoked to bootstrap "pip" into the virtual environment.
+Multiple paths can be given to "venv", in which case an identical
+virtual environment will be created, according to the given options,

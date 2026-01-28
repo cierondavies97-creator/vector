@@ -1,0 +1,3 @@
+|              | radiobuttons                                                  |
++--------------+---------------------------------------------------------------+
+| background   | Windows and Mac have a notion of an "active" or foreground    |

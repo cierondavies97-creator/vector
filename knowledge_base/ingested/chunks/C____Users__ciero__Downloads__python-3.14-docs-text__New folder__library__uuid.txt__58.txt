@@ -1,0 +1,6 @@
+Show the help message and exit.
+-u <uuid>
+--uuid <uuid>
+   Specify the function name to use to generate the uuid. By default
+   "uuid4()" is used.
+   Changed in version 3.14: Allow generating UUID versions 6, 7 and 8.

@@ -1,0 +1,7 @@
+getframerate()
+      Returns sampling frequency.
+   getnframes()
+      Returns number of audio frames.
+   getcomptype()
+      Returns compression type ("'NONE'" is the only supported type).
+   getcompname()

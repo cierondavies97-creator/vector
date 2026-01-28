@@ -1,0 +1,3 @@
+included as pre-compiled and optimized ".pyc" files in a ZIP, and
+"python3.dll", "python313.dll", "python.exe" and "pythonw.exe" are all
+provided. Tcl/tk (including all dependents, such as Idle), pip and the

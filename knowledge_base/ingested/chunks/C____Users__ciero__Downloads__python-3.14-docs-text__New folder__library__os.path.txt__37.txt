@@ -1,0 +1,3 @@
+POSIX, the function checks whether *path*'s parent, "*path*/..", is
+   on a different device than *path*, or whether "*path*/.." and
+   *path* point to the same i-node on the same device --- this should

@@ -1,0 +1,3 @@
+fills those arguments with addresses extracted from the headers of
+   *msg* as specified in **RFC 5322**: *from_addr* is set to the
+   *Sender* field if it is present, and otherwise to the *From* field.

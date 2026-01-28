@@ -1,0 +1,4 @@
+template string literal syntax. This syntax is identical to that of
+   f-strings, except that it uses a "t" prefix in place of an "f":
+   >>> cheese = 'Red Leicester'
+   >>> template = t"We're fresh out of {cheese}, sir."

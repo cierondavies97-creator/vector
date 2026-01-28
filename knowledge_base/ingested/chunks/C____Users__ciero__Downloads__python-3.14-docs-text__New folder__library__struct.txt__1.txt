@@ -1,0 +1,3 @@
+This module converts between Python values and C structs represented
+as Python "bytes" objects.  Compact format strings describe the
+intended conversions to/from Python values. The module's functions and

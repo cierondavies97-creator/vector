@@ -1,0 +1,12 @@
+Added in version 3.8.
+MAP_* Constants
+===============
+mmap.MAP_SHARED
+mmap.MAP_PRIVATE
+mmap.MAP_32BIT
+mmap.MAP_ALIGNED_SUPER
+mmap.MAP_ANON
+mmap.MAP_ANONYMOUS
+mmap.MAP_CONCEAL
+mmap.MAP_DENYWRITE
+mmap.MAP_EXECUTABLE

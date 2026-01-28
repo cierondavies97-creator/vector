@@ -1,0 +1,6 @@
+value has the same type as *number*.
+   For a general Python object "number", "round" delegates to
+   "number.__round__".
+   Note:
+     The behavior of "round()" for floats can be surprising: for
+     example, "round(2.675, 2)" gives "2.67" instead of the expected

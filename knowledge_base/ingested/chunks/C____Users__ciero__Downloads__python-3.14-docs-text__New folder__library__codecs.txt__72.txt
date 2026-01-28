@@ -1,0 +1,4 @@
+specified position. Negative position values will be treated as
+   being relative to the end of the input string. If the resulting
+   position is out of bound an "IndexError" will be raised.
+   Decoding and translating works similarly, except

@@ -1,0 +1,9 @@
+Availability: macOS
+   Added in version 3.13.
+stat.SF_ARCHIVED
+   The file may be archived.
+stat.SF_IMMUTABLE
+   The file may not be changed.
+stat.SF_APPEND
+   The file may only be appended to.
+stat.SF_RESTRICTED

@@ -1,0 +1,5 @@
+"zipimport" --- Import modules from Zip archives
+************************************************
+**Source code:** Lib/zipimport.py
+======================================================================
+This module adds the ability to import Python modules ("*.py",

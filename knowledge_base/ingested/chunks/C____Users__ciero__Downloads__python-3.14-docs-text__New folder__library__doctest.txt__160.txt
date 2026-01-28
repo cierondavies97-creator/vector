@@ -1,0 +1,4 @@
+function can access the test globals as the "globs" attribute of
+   the test passed.
+   Optional argument *tearDown* specifies a tear-down function for the
+   test suite.  This is called after running the tests in each file.

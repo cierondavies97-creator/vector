@@ -1,0 +1,3 @@
+Attempts to parse a date according to the rules in **RFC 2822**.
+   however, some mailers don't follow that format as specified, so
+   "parsedate()" tries to guess correctly in such cases.  *date* is a

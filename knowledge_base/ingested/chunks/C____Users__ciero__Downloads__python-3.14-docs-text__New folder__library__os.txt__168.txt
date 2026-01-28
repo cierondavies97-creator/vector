@@ -1,0 +1,4 @@
+os.openpty()
+   Open a new pseudo-terminal pair. Return a pair of file descriptors
+   "(master, slave)" for the pty and the tty, respectively. The new
+   file descriptors are non-inheritable. For a (slightly) more

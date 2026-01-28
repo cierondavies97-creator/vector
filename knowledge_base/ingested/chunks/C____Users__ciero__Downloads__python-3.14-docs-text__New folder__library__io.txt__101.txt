@@ -1,0 +1,4 @@
+file which will be opened. In this case closefd must be "True"
+     (the default) otherwise an error will be raised.
+   * an integer representing the number of an existing OS-level file
+     descriptor to which the resulting "FileIO" object will give

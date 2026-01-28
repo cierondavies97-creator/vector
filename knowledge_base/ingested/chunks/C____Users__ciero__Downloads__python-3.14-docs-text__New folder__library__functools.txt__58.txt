@@ -1,0 +1,6 @@
+newfunc.func = func
+          newfunc.args = args
+          newfunc.keywords = keywords
+          return newfunc
+   The "partial()" function is used for partial function application
+   which "freezes" some portion of a function's arguments and/or

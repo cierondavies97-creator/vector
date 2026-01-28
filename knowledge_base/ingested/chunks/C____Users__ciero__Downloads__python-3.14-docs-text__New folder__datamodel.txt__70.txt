@@ -1,0 +1,7 @@
+rather than a language guarantee.
+3.2.8. Callable types
+---------------------
+These are the types to which the function call operation (see section
+Calls) can be applied:
+3.2.8.1. User-defined functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

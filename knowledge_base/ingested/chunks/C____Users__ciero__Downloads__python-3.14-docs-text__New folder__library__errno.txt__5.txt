@@ -1,0 +1,10 @@
+errno.EINTR
+   Interrupted system call. This error is mapped to the exception
+   "InterruptedError".
+errno.EIO
+   I/O error
+errno.ENXIO
+   No such device or address
+errno.E2BIG
+   Arg list too long
+errno.ENOEXEC

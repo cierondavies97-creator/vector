@@ -1,0 +1,6 @@
+that the inputs haven't been rounded:
+   >>> getcontext().prec = 3
+   >>> Decimal('3.104') + Decimal('2.104')
+   Decimal('5.21')
+   >>> Decimal('3.104') + Decimal('0.000') + Decimal('2.104')
+   Decimal('5.20')

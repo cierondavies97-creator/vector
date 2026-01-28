@@ -1,0 +1,4 @@
+Establish a Unix socket connection and return a pair of "(reader,
+   writer)".
+   Similar to "open_connection()" but operates on Unix sockets.
+   See also the documentation of "loop.create_unix_connection()".

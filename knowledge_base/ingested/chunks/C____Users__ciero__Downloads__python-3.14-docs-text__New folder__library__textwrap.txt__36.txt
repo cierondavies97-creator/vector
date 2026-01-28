@@ -1,0 +1,4 @@
+"fix_sentence_endings" is false by default.
+      Since the sentence detection algorithm relies on
+      "string.lowercase" for the definition of "lowercase letter", and
+      a convention of using two spaces after a period to separate

@@ -1,0 +1,4 @@
+more details.
+   If *key* is a handle returned by "ConnectRegistry()", then the path
+   specified in *file_name* is relative to the remote computer.
+   Raises an auditing event "winreg.LoadKey" with arguments "key",

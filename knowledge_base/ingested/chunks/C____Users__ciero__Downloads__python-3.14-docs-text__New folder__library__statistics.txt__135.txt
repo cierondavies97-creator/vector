@@ -1,0 +1,4 @@
+Normal distributions arise from the Central Limit Theorem and have a
+wide range of applications in statistics.
+class statistics.NormalDist(mu=0.0, sigma=1.0)
+   Returns a new *NormalDist* object where *mu* represents the

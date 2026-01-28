@@ -1,0 +1,6 @@
+# as-is.
+                   return obj
+               else:
+                   return cls(obj)
+The reconstructor (the "_reconstruct" class method) returns the
+buffer's providing object if it has the right type.  This is an easy

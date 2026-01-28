@@ -1,0 +1,3 @@
+integers. Python floats typically carry no more than 53 bits of
+precision (the same as the platform C double type), in which case any
+float *x* with "abs(x) >= 2**52" necessarily has no fractional bits.

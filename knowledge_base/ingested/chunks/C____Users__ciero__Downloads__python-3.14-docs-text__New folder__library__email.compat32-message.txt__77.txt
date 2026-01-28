@@ -1,0 +1,3 @@
+unless it appears inside a *multipart/digest* container, in
+      which case it would be *message/rfc822*.  If the *Content-Type*
+      header has an invalid type specification, **RFC 2045** mandates

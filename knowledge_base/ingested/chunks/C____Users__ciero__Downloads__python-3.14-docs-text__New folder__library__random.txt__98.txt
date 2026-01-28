@@ -1,0 +1,7 @@
+seq = tuple(iterable)
+       if len(seq) < 2:
+           if not seq:
+               return ()
+           raise IndexError('No derangments to choose from')
+       perm = list(range(len(seq)))
+       start = tuple(perm)

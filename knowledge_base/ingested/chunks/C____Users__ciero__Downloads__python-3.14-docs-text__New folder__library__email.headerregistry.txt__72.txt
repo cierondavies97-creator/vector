@@ -1,0 +1,3 @@
+same as the "str" of that single "Address".
+-[ Footnotes ]-
+[1] Originally added in 3.3 as a *provisional module*

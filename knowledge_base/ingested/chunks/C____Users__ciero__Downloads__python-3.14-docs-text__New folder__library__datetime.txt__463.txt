@@ -1,0 +1,5 @@
+we may change this into an error or change the default year to a
+    leap year. See gh-70647.
+-[ Footnotes ]-
+[1] If, that is, we ignore the effects of Relativity
+[2] This matches the definition of the "proleptic Gregorian" calendar

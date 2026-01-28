@@ -1,0 +1,3 @@
+unavailable to "sys.stderr" (this argument is ignored on Windows).
+   The *echo_char* argument controls how user input is displayed while
+   typing. If *echo_char* is "None" (default), input remains hidden.

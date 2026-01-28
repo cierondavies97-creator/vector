@@ -1,0 +1,4 @@
+context manager via "with". When entering the context, the listener
+   is started. When exiting the context, the listener is stopped.
+   "__enter__()" returns the "QueueListener" object.
+   dequeue(block)

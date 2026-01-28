@@ -1,0 +1,4 @@
+The "BytesParser" class, imported from the "email.parser" module,
+provides an API that can be used to parse a message when the complete
+contents of the message are available in a *bytes-like object* or
+file.  The "email.parser" module also provides "Parser" for parsing

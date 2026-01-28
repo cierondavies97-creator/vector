@@ -1,0 +1,7 @@
+print('%d is prime: %s' % (number, prime))
+   if __name__ == '__main__':
+       main()
+Future Objects
+==============
+The "Future" class encapsulates the asynchronous execution of a
+callable. "Future" instances are created by "Executor.submit()".

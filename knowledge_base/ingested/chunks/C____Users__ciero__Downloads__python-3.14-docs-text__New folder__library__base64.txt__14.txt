@@ -1,0 +1,5 @@
+base64.standard_b64decode(s)
+   Decode *bytes-like object* or ASCII string *s* using the standard
+   Base64 alphabet and return the decoded "bytes".
+base64.urlsafe_b64encode(s)
+   Encode *bytes-like object* *s* using the URL- and filesystem-safe

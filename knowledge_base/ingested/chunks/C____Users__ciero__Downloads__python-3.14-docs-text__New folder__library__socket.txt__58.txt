@@ -1,0 +1,8 @@
+"timed out".
+   Changed in version 3.3: This class was made a subclass of
+   "OSError".
+   Changed in version 3.10: This class was made an alias of
+   "TimeoutError".
+Constants
+---------
+The AF_* and SOCK_* constants are now "AddressFamily" and "SocketKind"

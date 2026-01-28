@@ -1,0 +1,6 @@
+kept for backward compatibility even though **RFC 4122** has been
+   superseded by **RFC 9562**.
+uuid.RESERVED_MICROSOFT
+   Reserved for Microsoft compatibility.
+uuid.RESERVED_FUTURE
+   Reserved for future definition.

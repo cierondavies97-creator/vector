@@ -1,0 +1,5 @@
+decompressing data using the bzip2 compression algorithm.
+The "bz2" module contains:
+* The "open()" function and "BZ2File" class for reading and writing
+  compressed files.
+* The "BZ2Compressor" and "BZ2Decompressor" classes for incremental

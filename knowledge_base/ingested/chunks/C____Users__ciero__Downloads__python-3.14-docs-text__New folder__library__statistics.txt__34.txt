@@ -1,0 +1,5 @@
+a grade for a course by weighting quizzes at 20%, homework at 20%,
+   a midterm exam at 30%, and a final exam at 30%:
+      >>> grades = [85, 92, 83, 91]
+      >>> weights = [0.20, 0.20, 0.30, 0.30]
+      >>> fmean(grades, weights)

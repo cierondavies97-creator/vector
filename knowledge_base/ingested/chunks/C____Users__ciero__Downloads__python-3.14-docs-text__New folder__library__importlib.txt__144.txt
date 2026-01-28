@@ -1,0 +1,6 @@
+Added in version 3.4.
+   invalidate_caches()
+      Clear out the internal cache.
+   classmethod path_hook(*loader_details)
+      A class method which returns a closure for use on
+      "sys.path_hooks". An instance of "FileFinder" is returned by the

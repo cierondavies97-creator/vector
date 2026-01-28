@@ -1,0 +1,3 @@
++------------------+----------------------------------------------------------+
+| displaycolumns   | A list of column identifiers (either symbolic or integer |
+|                  | indices) specifying which data columns are displayed and |

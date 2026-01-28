@@ -1,0 +1,3 @@
+during the computation of "small_sum", even though it is much smaller
+than the overall peak size of memory blocks since the "start()" call.
+Without the call to "reset_peak()", "second_peak" would still be the

@@ -1,0 +1,8 @@
+positional or named arguments:
+   >>> def f(a, b, c): pass
+   ...
+   >>> mock = Mock(spec=f)
+   >>> mock(1, 2, 3)
+   <Mock name='mock()' id='140161580456576'>
+   >>> mock.assert_called_with(a=1, b=2, c=3)
+If you want this smarter matching to also work with method calls on

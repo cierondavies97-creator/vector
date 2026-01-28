@@ -1,0 +1,5 @@
++-- ResourceLoader --------+
+         +-- InspectLoader          |
+              +-- ExecutionLoader --+
+                                    +-- FileLoader
+                                    +-- SourceLoader

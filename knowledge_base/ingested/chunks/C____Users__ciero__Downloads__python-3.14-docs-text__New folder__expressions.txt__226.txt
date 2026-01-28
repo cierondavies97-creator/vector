@@ -1,0 +1,5 @@
+*a* and *c*, so that, e.g., "x < y > z" is perfectly legal (though
+perhaps not pretty).
+6.10.1. Value comparisons
+-------------------------
+The operators "<", ">", "==", ">=", "<=", and "!=" compare the values

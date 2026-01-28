@@ -1,0 +1,6 @@
+iter=Name(id='b', ctx=Load()),
+                  body=[
+                      If(
+                          test=Compare(
+                              left=Name(id='a', ctx=Load()),
+                              ops=[

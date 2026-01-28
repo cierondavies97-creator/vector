@@ -1,0 +1,4 @@
+9.0
+Since this task is so common, config parsers provide a range of handy
+getter methods to handle integers, floats and booleans.  The last one
+is the most interesting because simply passing the value to "bool()"

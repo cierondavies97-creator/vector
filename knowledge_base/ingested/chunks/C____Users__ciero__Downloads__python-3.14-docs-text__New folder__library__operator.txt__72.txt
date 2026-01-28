@@ -1,0 +1,7 @@
+operator.__ilshift__(a, b)
+   "a = ilshift(a, b)" is equivalent to "a <<= b".
+operator.imod(a, b)
+operator.__imod__(a, b)
+   "a = imod(a, b)" is equivalent to "a %= b".
+operator.imul(a, b)
+operator.__imul__(a, b)

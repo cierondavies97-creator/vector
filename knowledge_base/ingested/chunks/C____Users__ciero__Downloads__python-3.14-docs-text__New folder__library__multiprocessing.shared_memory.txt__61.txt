@@ -1,0 +1,6 @@
+shm
+      The "SharedMemory" instance where the values are stored.
+The following example demonstrates basic use of a "ShareableList"
+instance:
+>>> from multiprocessing import shared_memory
+>>> a = shared_memory.ShareableList(['howdy', b'HoWdY', -273.154, 100, None, True, 42])

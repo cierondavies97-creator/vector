@@ -1,0 +1,3 @@
+and returns the full pathname, but since there is no predefined naming
+scheme a call like "find_library("c")" will fail and return "None".
+If wrapping a shared library with "ctypes", it *may* be better to

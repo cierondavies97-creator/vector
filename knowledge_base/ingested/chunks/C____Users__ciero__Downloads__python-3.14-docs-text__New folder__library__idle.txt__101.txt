@@ -1,0 +1,6 @@
+general syntax is:
+   python -m idlelib [options] [file ...]
+The following options are available:
+-c <command>
+   Run the specified Python command in the shell window. For example,
+   pass "-c "print('Hello, World!')"". On Windows, the outer quotes

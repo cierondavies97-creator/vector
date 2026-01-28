@@ -1,0 +1,5 @@
+of strings. Only attributes on the *spec* can be fetched as
+      attributes from the mock.
+      If *spec_set* is true then only attributes on the spec can be
+      set.
+   attach_mock(mock, attribute)

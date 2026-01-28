@@ -1,0 +1,3 @@
+The "urllib.error" module defines the exception classes for exceptions
+raised by "urllib.request".  The base exception class is "URLError".
+The following exceptions are raised by "urllib.error" as appropriate:

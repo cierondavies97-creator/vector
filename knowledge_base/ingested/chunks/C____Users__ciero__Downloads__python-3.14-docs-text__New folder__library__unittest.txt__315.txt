@@ -1,0 +1,4 @@
+packages*. It has been broken since Python 3.7, and Python 3.11
+      officially removes it.
+      Changed in version 3.13: *top_level_dir* is only stored for the
+      duration of *discover* call.

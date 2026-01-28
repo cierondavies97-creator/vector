@@ -1,0 +1,4 @@
+the default *_factory*. For more information on what else *policy*
+   controls, see the "policy" documentation.
+   Note: **The policy keyword should always be specified**; The
+   default will change to "email.policy.default" in a future version

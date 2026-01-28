@@ -1,0 +1,9 @@
+* Format Strings
+    * Byte Order, Size, and Alignment
+    * Format Characters
+    * Examples
+  * Applications
+    * Native Formats
+    * Standard Formats
+  * Classes
+* "codecs" --- Codec registry and base classes

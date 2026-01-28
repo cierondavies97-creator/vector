@@ -1,0 +1,4 @@
+"'wb'" for overwriting, "'xb'" for exclusive creation, or "'ab'"
+   for appending. These can equivalently be given as "'r'", "'w'",
+   "'x'" and "'a'" respectively.
+   If *file* is a file object (rather than an actual file name), a

@@ -1,0 +1,6 @@
+or are targeting Windows Server 2019, please see Advanced installation
+below for more information.
+4.1.2. Basic use
+----------------
+The recommended command for launching Python is "python", which will
+either launch the version requested by the script being launched, an

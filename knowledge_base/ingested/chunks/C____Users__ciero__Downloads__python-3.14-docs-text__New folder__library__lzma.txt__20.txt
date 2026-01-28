@@ -1,0 +1,5 @@
+reached. The exact number of bytes returned is unspecified (the
+      *size* argument is ignored).
+      Note:
+        While calling "peek()" does not change the file position of
+        the "LZMAFile", it may change the position of the underlying

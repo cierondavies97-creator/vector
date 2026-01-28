@@ -1,0 +1,5 @@
+currently live objects, call "collect()" before calling
+   "get_referrers()".
+   Warning:
+     Care must be taken when using objects returned by
+     "get_referrers()" because some of them could still be under

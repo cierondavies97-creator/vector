@@ -1,0 +1,4 @@
+provide an "init" method if it wishes to set additional attributes
+   beyond those provided by "BaseHeader" itself.  Such an "init"
+   method should look like this:
+      def init(self, /, *args, **kw):

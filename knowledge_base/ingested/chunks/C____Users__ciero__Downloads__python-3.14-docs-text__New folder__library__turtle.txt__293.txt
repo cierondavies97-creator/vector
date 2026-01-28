@@ -1,0 +1,5 @@
+and in Italian.  (Requests please to glingl@aon.at.)
+How to configure Screen and Turtles
+-----------------------------------
+The built-in default configuration mimics the appearance and behaviour
+of the old turtle module in order to retain best possible

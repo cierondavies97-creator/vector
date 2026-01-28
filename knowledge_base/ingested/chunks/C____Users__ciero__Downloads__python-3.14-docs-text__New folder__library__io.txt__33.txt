@@ -1,0 +1,4 @@
+some methods in order to help implementation of concrete stream
+  classes.  For example, "BufferedIOBase" provides unoptimized
+  implementations of "readinto()" and "readline()".
+At the top of the I/O hierarchy is the abstract base class "IOBase".

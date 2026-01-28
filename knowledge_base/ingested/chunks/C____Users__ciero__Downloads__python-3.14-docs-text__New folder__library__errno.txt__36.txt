@@ -1,0 +1,10 @@
+Added in version 3.2.
+errno.EPROCLIM
+   Too many processes
+   Added in version 3.2.
+errno.EPROCUNAVAIL
+   Bad procedure for program
+   Added in version 3.2.
+errno.EPROGMISMATCH
+   Program version wrong
+   Added in version 3.2.

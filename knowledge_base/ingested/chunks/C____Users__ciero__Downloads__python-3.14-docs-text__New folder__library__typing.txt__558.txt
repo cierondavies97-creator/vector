@@ -1,0 +1,4 @@
+"Concatenate". See **PEP 612** for more details.
+class typing.Generator(Iterator[YieldType], Generic[YieldType, SendType, ReturnType])
+   Deprecated alias to "collections.abc.Generator".
+   See Annotating generators and coroutines for details on using

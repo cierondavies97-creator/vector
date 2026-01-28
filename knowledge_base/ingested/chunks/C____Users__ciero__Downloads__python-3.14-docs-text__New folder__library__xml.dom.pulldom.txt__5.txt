@@ -1,0 +1,7 @@
+from xml.sax.handler import feature_external_ges
+   parser = make_parser()
+   parser.setFeature(feature_external_ges, True)
+   parse(filename, parser=parser)
+Example:
+   from xml.dom import pulldom
+   doc = pulldom.parse('sales_items.xml')

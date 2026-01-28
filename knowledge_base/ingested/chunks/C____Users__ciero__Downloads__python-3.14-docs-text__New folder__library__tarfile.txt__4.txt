@@ -1,0 +1,4 @@
+*sparse* extension including restoration of sparse files.
+* read/write support for the POSIX.1-2001 (pax) format.
+* handles directories, regular files, hardlinks, symbolic links,
+  fifos, character devices and block devices and is able to acquire

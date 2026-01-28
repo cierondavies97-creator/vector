@@ -1,0 +1,4 @@
+no effect.
+   If the path that *cfile* becomes (either explicitly specified or
+   computed) is a symlink or non-regular file, "FileExistsError" will
+   be raised. This is to act as a warning that import will turn those

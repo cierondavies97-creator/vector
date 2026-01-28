@@ -1,0 +1,4 @@
+friendly table view), "csv" (comma-separated table), "json" (a single
+JSON blob), "jsonl" (one JSON blob per result), "exe" (just the
+executable path), "prefix" (just the prefix path).
+The "--one" or "-1" option only displays a single result. If the

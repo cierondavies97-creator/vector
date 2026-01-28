@@ -1,0 +1,5 @@
+"http.cookies" --- HTTP state management
+****************************************
+**Source code:** Lib/http/cookies.py
+======================================================================
+The "http.cookies" module defines classes for abstracting the concept

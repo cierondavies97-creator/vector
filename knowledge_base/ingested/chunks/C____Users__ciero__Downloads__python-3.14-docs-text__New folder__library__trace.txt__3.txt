@@ -1,0 +1,5 @@
+simple as
+   python -m trace --count -C . somefile.py ...
+The above will execute "somefile.py" and generate annotated listings
+of all Python modules imported during the execution into the current
+directory.

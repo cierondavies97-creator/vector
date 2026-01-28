@@ -1,0 +1,4 @@
+is recommended that "ThreadPoolExecutor" not be used for long-
+   running tasks.
+   *initializer* is an optional callable that is called at the start
+   of each worker thread; *initargs* is a tuple of arguments passed to

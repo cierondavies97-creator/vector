@@ -1,0 +1,8 @@
+"baseopcode", "jump_target", "oparg", "line_number" and
+   "cache_info".
+class dis.Positions
+   In case the information is not available, some fields might be
+   "None".
+   lineno
+   end_lineno
+   col_offset

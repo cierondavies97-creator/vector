@@ -1,0 +1,5 @@
+Native Formats
+--------------
+When constructing format strings which mimic native layouts, the
+compiler and machine architecture determine byte ordering and padding.
+In such cases, the "@" format character should be used to specify

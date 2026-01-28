@@ -1,0 +1,3 @@
+| "EPOLLHUP"                | Hang up happened on the assoc. fd               |
+   +---------------------------+-------------------------------------------------+
+   | "EPOLLET"                 | Set Edge Trigger behavior, the default is Level |

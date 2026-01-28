@@ -1,0 +1,5 @@
+do_command(ch)
+      Process a single command keystroke.  Here are the supported
+      special keystrokes:
+      +--------------------+---------------------------------------------+
+      | Keystroke          | Action                                      |

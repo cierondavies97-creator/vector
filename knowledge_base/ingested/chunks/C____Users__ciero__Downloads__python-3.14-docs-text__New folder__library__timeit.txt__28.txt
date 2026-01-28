@@ -1,0 +1,4 @@
+useful. In a typical case, the lowest value gives a lower
+        bound for how fast your machine can run the given code
+        snippet; higher values in the result vector are typically not
+        caused by variability in Python's speed, but by other

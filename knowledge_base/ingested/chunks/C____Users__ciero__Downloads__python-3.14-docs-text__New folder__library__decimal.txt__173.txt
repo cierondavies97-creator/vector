@@ -1,0 +1,5 @@
+context at all.  Instead, simply create contexts explicitly as
+   described below.
+   The default values are "Context.prec"="28",
+   "Context.rounding"="ROUND_HALF_EVEN", and enabled traps for
+   "Overflow", "InvalidOperation", and "DivisionByZero".

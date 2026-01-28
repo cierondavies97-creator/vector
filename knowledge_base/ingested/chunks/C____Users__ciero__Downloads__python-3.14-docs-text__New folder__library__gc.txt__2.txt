@@ -1,0 +1,4 @@
+the collector supplements the reference counting already used in
+Python, you can disable the collector if you are sure your program
+does not create reference cycles.  Automatic collection can be
+disabled by calling "gc.disable()".  To debug a leaking program call

@@ -1,0 +1,4 @@
+will have realtime priority. You should almost never use
+   REALTIME_PRIORITY_CLASS, because this interrupts system threads
+   that manage mouse input, keyboard input, and background disk
+   flushing. This class can be appropriate for applications that

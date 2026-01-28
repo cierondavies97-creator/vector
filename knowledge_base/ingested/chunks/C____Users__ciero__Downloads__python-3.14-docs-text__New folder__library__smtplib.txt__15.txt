@@ -1,0 +1,4 @@
+the "SMTP" class.  *context*, also optional, can contain a
+   "SSLContext" and allows configuring various aspects of the secure
+   connection.  Please read Security considerations for best
+   practices.

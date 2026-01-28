@@ -1,0 +1,4 @@
+"iterencode()".
+codecs.readbuffer_encode(buffer, errors=None, /)
+   Return a "tuple" containing the raw bytes of *buffer*, a buffer-
+   compatible object or "str" (encoded to UTF-8 before processing),

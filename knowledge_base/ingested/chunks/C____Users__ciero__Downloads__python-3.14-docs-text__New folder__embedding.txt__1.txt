@@ -1,0 +1,3 @@
+functions to it.  It is also possible to do it the other way around:
+enrich your C/C++ application by embedding Python in it.  Embedding
+provides your application with the ability to implement some of the

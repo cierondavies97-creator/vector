@@ -1,0 +1,4 @@
+distinction between testing and explaining.
+Regression testing is best confined to dedicated objects or files.
+There are several options for organizing tests:
+* Write text files containing test cases as interactive examples, and

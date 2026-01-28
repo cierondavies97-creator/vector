@@ -1,0 +1,5 @@
+used if ID and unit number of the kernel control are known or if a
+  registered ID is used.
+  Added in version 3.3.
+* "AF_BLUETOOTH" supports the following protocols and address formats:
+  * "BTPROTO_L2CAP" accepts a tuple "(bdaddr, psm[, cid[,

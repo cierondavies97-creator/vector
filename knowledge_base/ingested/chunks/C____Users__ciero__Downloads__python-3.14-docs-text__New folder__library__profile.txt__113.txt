@@ -1,0 +1,4 @@
+your computer is *very* fast, or your timer function has poor
+resolution, you might have to pass 100000, or even 1000000, to get
+consistent results.
+When you have a consistent answer, there are three ways you can use

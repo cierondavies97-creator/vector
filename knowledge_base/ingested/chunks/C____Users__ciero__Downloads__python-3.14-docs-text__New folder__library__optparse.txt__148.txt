@@ -1,0 +1,4 @@
+"option_list" (default: "[]")
+      A list of Option objects to populate the parser with.  The
+      options in "option_list" are added after any options in
+      "standard_option_list" (a class attribute that may be set by

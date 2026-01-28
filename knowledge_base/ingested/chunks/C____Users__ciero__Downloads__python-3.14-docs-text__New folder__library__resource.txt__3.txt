@@ -1,0 +1,5 @@
+Resource Limits
+===============
+Resources usage can be limited using the "setrlimit()" function
+described below. Each resource is controlled by a pair of limits: a
+soft limit and a hard limit. The soft limit is the current limit, and

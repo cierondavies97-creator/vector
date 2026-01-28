@@ -1,0 +1,3 @@
+| mode       | One of "determinate" or "indeterminate".                        |
++------------+-----------------------------------------------------------------+
+| maximum    | A number specifying the maximum value. Defaults to 100.         |

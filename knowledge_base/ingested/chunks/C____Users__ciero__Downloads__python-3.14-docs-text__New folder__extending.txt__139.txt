@@ -1,0 +1,4 @@
+new Python object, suitable for returning from a C function called
+from Python.
+One difference with "PyArg_ParseTuple()": while the latter requires
+its first argument to be a tuple (since Python argument lists are

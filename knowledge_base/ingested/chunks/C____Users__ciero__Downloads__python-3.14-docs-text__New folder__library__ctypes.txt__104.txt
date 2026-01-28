@@ -1,0 +1,7 @@
+None
+   >>> strchr(b"abcdef", b"d")
+   b'def'
+   >>>
+You can also use a callable Python object (a function or a class for
+example) as the "restype" attribute, if the foreign function returns
+an integer.  The callable will be called with the *integer* the C

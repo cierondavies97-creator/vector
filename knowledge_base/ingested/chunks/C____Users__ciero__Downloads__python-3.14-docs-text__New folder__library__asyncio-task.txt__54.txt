@@ -1,0 +1,4 @@
+when one task group is syntactically nested in another, and both
+experience an exception in one of their child tasks simultaneously,
+the inner task group will process its exceptions, and then the outer
+task group will receive another cancellation and process its own

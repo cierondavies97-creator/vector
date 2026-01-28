@@ -1,0 +1,6 @@
+os.access in os.supports_effective_ids
+   Currently *effective_ids* is only supported on Unix platforms; it
+   does not work on Windows.
+   Added in version 3.3.
+os.supports_fd
+   A "set" object indicating which functions in the "os" module permit

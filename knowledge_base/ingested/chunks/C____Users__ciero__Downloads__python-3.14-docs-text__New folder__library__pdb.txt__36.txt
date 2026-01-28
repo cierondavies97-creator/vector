@@ -1,0 +1,4 @@
+will load .pdbrc files from the filesystem.
+   The *mode* argument specifies how the debugger was invoked. It
+   impacts the workings of some debugger commands. Valid values are
+   "'inline'" (used by the breakpoint() builtin), "'cli'" (used by the

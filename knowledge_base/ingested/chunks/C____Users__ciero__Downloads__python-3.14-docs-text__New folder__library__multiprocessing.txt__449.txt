@@ -1,0 +1,4 @@
+A thread pool object which controls a pool of worker threads to
+   which jobs can be submitted.  "ThreadPool" instances are fully
+   interface compatible with "Pool" instances, and their resources
+   must also be properly managed, either by using the pool as a

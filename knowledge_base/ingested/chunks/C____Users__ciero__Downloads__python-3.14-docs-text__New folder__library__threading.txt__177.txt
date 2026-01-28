@@ -1,0 +1,4 @@
+An event object manages an internal flag that can be set to true with
+the "set()" method and reset to false with the "clear()" method.  The
+"wait()" method blocks until the flag is true.
+class threading.Event

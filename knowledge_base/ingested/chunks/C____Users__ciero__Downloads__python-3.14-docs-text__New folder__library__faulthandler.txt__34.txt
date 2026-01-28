@@ -1,0 +1,3 @@
+Binary file "/usr/lib/libffi.so.8", at +0x413c [0x77b73158c13c]
+     Binary file "/usr/lib/libffi.so.8", at ffi_call+0x12e [0x77b73158ef0e]
+     Binary file "/opt/python/build/lib.linux-x86_64-3.14/_ctypes.cpython-314d-x86_64-linux-gnu.so", at +0x15a33 [0x77b7315e6a33]

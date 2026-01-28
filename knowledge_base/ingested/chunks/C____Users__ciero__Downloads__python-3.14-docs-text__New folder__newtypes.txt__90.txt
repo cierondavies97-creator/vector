@@ -1,0 +1,5 @@
+do not want to support keyword arguments and this is non-"NULL",
+   raise a "TypeError" with a message saying that keyword arguments
+   are not supported.
+Here is a toy "tp_call" implementation:
+   static PyObject *

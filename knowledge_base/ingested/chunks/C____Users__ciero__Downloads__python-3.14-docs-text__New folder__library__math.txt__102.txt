@@ -1,0 +1,5 @@
+the same sign as *x*.
+   On platforms using IEEE 754 binary floating point, the result of
+   this operation is always exactly representable: no rounding error
+   is introduced.
+   Added in version 3.7.

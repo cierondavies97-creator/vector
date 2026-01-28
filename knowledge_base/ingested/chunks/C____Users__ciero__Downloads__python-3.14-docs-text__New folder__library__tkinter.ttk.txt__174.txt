@@ -1,0 +1,4 @@
+set_children(item, *newchildren)
+      Replaces *item*'s child with *newchildren*.
+      Children present in *item* that are not present in *newchildren*
+      are detached from the tree. No items in *newchildren* may be an

@@ -1,0 +1,7 @@
+'_NonCallableMock__set_return_value',
+    '_NonCallableMock__set_side_effect',
+    '__call__',
+    '__class__',
+    ...
+Alternatively you can just use "vars(my_mock)" (instance members) and
+"dir(type(my_mock))" (type members) to bypass the filtering

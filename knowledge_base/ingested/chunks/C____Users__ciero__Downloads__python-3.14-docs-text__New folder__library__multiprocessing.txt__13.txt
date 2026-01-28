@@ -1,0 +1,4 @@
+necessary, see Programming guidelines.
+The arguments to "Process" usually need to be unpickleable from within
+the child process. If you tried typing the above example directly into
+a REPL it could lead to an "AttributeError" in the child process

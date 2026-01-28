@@ -1,0 +1,7 @@
+memoryview
+   hash_info.hash_bits
+      The internal output size of the hash algorithm
+   hash_info.seed_bits
+      The size of the seed key of the hash algorithm
+   hash_info.cutoff
+      Cutoff for small string DJBX33A optimization in range "[1,

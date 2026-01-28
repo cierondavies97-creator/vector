@@ -1,0 +1,2 @@
+# generate 42 random UUIDs
+   $ python -m uuid -C 42

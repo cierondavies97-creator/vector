@@ -1,0 +1,5 @@
+Handle uncaught exception raised by "Thread.run()".
+   The *args* argument has the following attributes:
+   * *exc_type*: Exception type.
+   * *exc_value*: Exception value, can be "None".
+   * *exc_traceback*: Exception traceback, can be "None".

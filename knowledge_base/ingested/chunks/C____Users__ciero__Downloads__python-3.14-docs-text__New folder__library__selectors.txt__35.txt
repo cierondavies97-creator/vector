@@ -1,0 +1,7 @@
+print('echoing', repr(data), 'to', conn)
+           conn.send(data)  # Hope it won't block
+       else:
+           print('closing', conn)
+           sel.unregister(conn)
+           conn.close()
+   sock = socket.socket()

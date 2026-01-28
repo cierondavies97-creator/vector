@@ -1,0 +1,6 @@
+factory.
+   element_names()
+      Returns the list of elements defined in the current theme.
+   element_options(elementname)
+      Returns the list of *elementname*'s options.
+   theme_create(themename, parent=None, settings=None)

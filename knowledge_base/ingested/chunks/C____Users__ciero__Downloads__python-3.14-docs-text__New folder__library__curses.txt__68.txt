@@ -1,0 +1,4 @@
+a signal handler if you want output to continue as though the
+   interrupt had not occurred, after the handler exits.
+curses.noraw()
+   Leave raw mode. Return to normal "cooked" mode with line buffering.

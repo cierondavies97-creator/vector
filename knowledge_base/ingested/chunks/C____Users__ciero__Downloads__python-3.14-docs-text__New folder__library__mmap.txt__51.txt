@@ -1,0 +1,6 @@
+Return whether the file supports seeking, and the return value
+      is always "True".
+      Added in version 3.13.
+   size()
+      Return the length of the file, which can be larger than the size
+      of the memory-mapped area.

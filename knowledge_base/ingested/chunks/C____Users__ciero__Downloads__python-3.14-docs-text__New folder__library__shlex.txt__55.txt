@@ -1,0 +1,4 @@
+* Enclosing characters in quotes which are not part of "escapedquotes"
+  (e.g. ""'"") preserve the literal value of all characters within the
+  quotes;
+* Enclosing characters in quotes which are part of "escapedquotes"

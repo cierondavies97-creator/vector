@@ -1,0 +1,4 @@
+"_commit()" function.
+   If you're starting with a buffered Python *file object* *f*, first
+   do "f.flush()", and then do "os.fsync(f.fileno())", to ensure that
+   all internal buffers associated with *f* are written to disk.

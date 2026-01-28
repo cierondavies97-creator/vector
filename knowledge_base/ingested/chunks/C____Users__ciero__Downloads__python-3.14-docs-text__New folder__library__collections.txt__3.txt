@@ -1,0 +1,3 @@
+| "ChainMap"            | dict-like class for creating a single view of multiple mappings      |
++-----------------------+----------------------------------------------------------------------+
+| "Counter"             | dict subclass for counting *hashable* objects                        |

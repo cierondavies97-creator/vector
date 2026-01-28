@@ -1,0 +1,4 @@
+this method, note that you should be careful when calling
+        anything that invokes other parts of the logging API which
+        might do locking, because that might result in a deadlock.
+        Specifically:

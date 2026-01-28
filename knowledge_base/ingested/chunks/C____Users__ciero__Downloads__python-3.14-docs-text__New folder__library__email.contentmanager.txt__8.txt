@@ -1,0 +1,5 @@
+stopping with the first one found:
+      * the type itself ("typ")
+      * the type's fully qualified name ("typ.__module__ + '.' +
+        typ.__qualname__").
+      * the type's "qualname" ("typ.__qualname__")

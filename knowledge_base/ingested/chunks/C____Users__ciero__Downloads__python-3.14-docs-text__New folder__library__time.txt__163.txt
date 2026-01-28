@@ -1,0 +1,4 @@
+-[ Footnotes ]-
+[1] The use of "%Z" is now deprecated, but the "%z" escape that
+    expands to the preferred hour/minute offset is not supported by
+    all ANSI C libraries. Also, a strict reading of the original 1982

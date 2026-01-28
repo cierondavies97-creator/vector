@@ -1,0 +1,3 @@
+"alternate form" flag "'#'" is supported: if present, it forces
+      the output string to always include an explicit denominator,
+      even when the value being formatted is an exact integer. The

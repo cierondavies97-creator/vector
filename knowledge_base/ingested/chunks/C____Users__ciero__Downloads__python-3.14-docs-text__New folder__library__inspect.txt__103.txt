@@ -1,0 +1,5 @@
+wrapping a *coroutine function*, or a sync function marked with
+   "markcoroutinefunction()".
+   Added in version 3.5.
+   Changed in version 3.8: Functions wrapped in "functools.partial()"
+   now return "True" if the wrapped function is a *coroutine

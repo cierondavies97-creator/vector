@@ -1,0 +1,4 @@
+the "window size"), and what header and trailer format will be
+   used. It has the same meaning as described for compress().
+   The *memLevel* argument controls the amount of memory used for the
+   internal compression state. Valid values range from "1" to "9".

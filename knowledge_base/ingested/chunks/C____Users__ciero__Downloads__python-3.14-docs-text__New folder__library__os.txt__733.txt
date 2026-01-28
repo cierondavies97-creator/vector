@@ -1,0 +1,5 @@
+terminated, so this option is not available for them.
+   Availability: Unix, not WASI, not Android, not iOS.
+   Added in version 3.3.
+os.WSTOPPED
+   This *options* flag for "waitid()" causes child processes that have

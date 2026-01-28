@@ -1,0 +1,4 @@
+can store additional Python types in an SQLite database via object
+adapters, and you can let the "sqlite3" module convert SQLite types to
+Python types via converters.
+Default adapters and converters (deprecated)

@@ -1,0 +1,3 @@
+the given "date" object's, and whose time components are equal to
+   the given "time" object's. If the *tzinfo* argument is provided,
+   its value is used to set the "tzinfo" attribute of the result,

@@ -1,0 +1,4 @@
+HAVE_ARGUMENT" had an argument.
+   Changed in version 3.12: Pseudo instructions were added to the
+   "dis" module, and for them it is not true that comparison with
+   "HAVE_ARGUMENT" indicates whether they use their arg.

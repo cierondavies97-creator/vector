@@ -1,0 +1,4 @@
+and after the decimal point and defaults to 6.
+5. If precision is "N", the output is truncated to "N" characters.
+6. See **PEP 237**.
+Since Python strings have an explicit length, "%s" conversions do not

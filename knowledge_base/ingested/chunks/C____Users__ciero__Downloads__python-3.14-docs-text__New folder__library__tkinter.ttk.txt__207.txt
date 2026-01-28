@@ -1,0 +1,4 @@
+current value of the specified *column*. With three arguments,
+      sets the value of given *column* in given *item* to the
+      specified *value*.
+   tag_bind(tagname, sequence=None, callback=None)

@@ -1,0 +1,4 @@
+"TypeError" if that type of object is not supported.  Also, if the
+   annotations are stringized, and *eval_str* is not false, the
+   "eval()" call(s) to un-stringize the annotations in
+   "annotationlib.get_annotations()" could potentially raise any kind

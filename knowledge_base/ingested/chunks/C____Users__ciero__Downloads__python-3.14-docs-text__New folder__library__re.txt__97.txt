@@ -1,0 +1,3 @@
+character (or vice versa), or between "\w" and the beginning or end
+   of the string. This means that "r'\bat\b'" matches "'at'", "'at.'",
+   "'(at)'", and "'as at ay'" but not "'attempt'" or "'atlas'".

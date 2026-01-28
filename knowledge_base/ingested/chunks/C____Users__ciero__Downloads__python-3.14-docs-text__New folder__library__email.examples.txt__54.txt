@@ -1,0 +1,5 @@
+sys.exit()
+   elif richest['content-type'].content_type == 'multipart/related':
+       body = richest.get_body(preferencelist=('html'))
+       for part in richest.iter_attachments():
+           fn = part.get_filename()

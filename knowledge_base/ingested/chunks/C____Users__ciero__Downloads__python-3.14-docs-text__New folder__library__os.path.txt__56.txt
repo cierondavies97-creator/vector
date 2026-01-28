@@ -1,0 +1,4 @@
+exactly two slashes, the first component following the leading
+     characters may be interpreted in an implementation-defined
+     manner, although more than two leading characters shall be
+     treated as a single character.

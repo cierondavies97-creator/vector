@@ -1,0 +1,5 @@
+Constant(value=1),
+                                  Constant(value=2)],
+                              patterns=[
+                                  MatchAs(),
+                                  MatchAs()]),

@@ -1,0 +1,5 @@
+last line of a traceback, but can extend across multiple lines if the
+exception has a multi-line detail:
+   >>> raise ValueError('multi\n    line\ndetail')
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>

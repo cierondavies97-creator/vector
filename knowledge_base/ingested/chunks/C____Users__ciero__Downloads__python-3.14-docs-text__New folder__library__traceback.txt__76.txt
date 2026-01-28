@@ -1,0 +1,6 @@
+name
+      Equivalent to accessing "f.f_code.co_name" on a frame object
+      *f*.
+   line
+      A string representing the source code for this frame, with
+      leading and trailing whitespace stripped. If the source is not

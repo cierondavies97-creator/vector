@@ -1,0 +1,6 @@
+>>> value.hex('_', 2)
+      'f0_f1f2'
+      >>> b'UUDDLRLRAB'.hex(' ', -4)
+      '55554444 4c524c52 4142'
+      Added in version 3.5.
+      Changed in version 3.8: "bytes.hex()" now supports optional

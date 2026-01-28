@@ -1,0 +1,4 @@
+name does not begin with "'_'".)
+      *method_to_typeid* is a mapping used to specify the return type
+      of those exposed methods which should return a proxy.  It maps
+      method names to typeid strings.  (If *method_to_typeid* is

@@ -1,0 +1,7 @@
+no handler with that name.
+   Added in version 3.12.
+logging.getHandlerNames()
+   Returns an immutable set of all known handler names.
+   Added in version 3.12.
+logging.makeLogRecord(attrdict)
+   Creates and returns a new "LogRecord" instance whose attributes are

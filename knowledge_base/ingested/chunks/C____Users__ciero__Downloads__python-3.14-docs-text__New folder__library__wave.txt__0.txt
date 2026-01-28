@@ -1,0 +1,5 @@
+"wave" --- Read and write WAV files
+***********************************
+**Source code:** Lib/wave.py
+======================================================================
+The "wave" module provides a convenient interface to the Waveform

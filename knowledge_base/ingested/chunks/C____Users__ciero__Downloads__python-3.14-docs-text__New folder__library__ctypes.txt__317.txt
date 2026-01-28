@@ -1,0 +1,5 @@
+arguments "init", "size".
+ctypes.create_unicode_buffer(init, size=None)
+ctypes.create_unicode_buffer(size)
+   This function creates a mutable unicode character buffer. The
+   returned object is a ctypes array of "c_wchar".

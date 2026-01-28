@@ -1,0 +1,2 @@
++--------------------------+--------------------------------+----------------------------------------+
+| "minimal_hanoi"          | Towers of Hanoi                | Rectangular Turtles as Hanoi discs     |

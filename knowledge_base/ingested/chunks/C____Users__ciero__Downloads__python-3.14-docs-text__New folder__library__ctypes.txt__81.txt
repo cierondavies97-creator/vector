@@ -1,0 +1,4 @@
+ctypes.ArgumentError: argument 2: TypeError: Don't know how to convert parameter 2
+   >>>
+As has been mentioned before, all Python types except integers,
+strings, and bytes objects have to be wrapped in their corresponding

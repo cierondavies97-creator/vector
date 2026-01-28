@@ -1,0 +1,8 @@
+object which has been shut down.
+   Added in version 3.13.
+Queue Objects
+=============
+Queue objects ("Queue", "LifoQueue", or "PriorityQueue") provide the
+public methods described below.
+Queue.qsize()
+   Return the approximate size of the queue.  Note, qsize() > 0

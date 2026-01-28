@@ -1,0 +1,3 @@
+it out at the command line.  If the "fromfile_prefix_chars=" argument
+is given to the "ArgumentParser" constructor, then arguments that
+start with any of the specified characters will be treated as files,

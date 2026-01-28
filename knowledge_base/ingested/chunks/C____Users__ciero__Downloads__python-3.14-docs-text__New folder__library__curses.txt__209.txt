@@ -1,0 +1,4 @@
+|===========================|=================================|
+| curses.A_ATTRIBUTES       | Bit-mask to extract attributes  |
++---------------------------+---------------------------------+
+| curses.A_CHARTEXT         | Bit-mask to extract a character |

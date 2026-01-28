@@ -1,0 +1,5 @@
+"threading" --- Thread-based parallelism
+****************************************
+**Source code:** Lib/threading.py
+======================================================================
+This module constructs higher-level threading interfaces on top of the

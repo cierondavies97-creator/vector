@@ -1,0 +1,5 @@
+# Example taken from https://www.sqlite.org/windowfunctions.html#udfwinfunc
+         class WindowSumInt:
+             def __init__(self):
+                 self.count = 0
+             def step(self, value):

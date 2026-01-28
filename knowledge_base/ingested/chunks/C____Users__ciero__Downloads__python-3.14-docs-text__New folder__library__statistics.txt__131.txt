@@ -1,0 +1,3 @@
+>>> # Dwarf planets:   Pluto,  Eris,    Makemake, Haumea, Ceres
+      >>> orbital_periods = [90_560, 204_199, 111_845, 103_410, 1_680]  # days
+      >>> predicted_dist = [math.cbrt(slope * (p * p)) for p in orbital_periods]

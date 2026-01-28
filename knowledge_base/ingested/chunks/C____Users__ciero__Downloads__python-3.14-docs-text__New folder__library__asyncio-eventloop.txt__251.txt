@@ -1,0 +1,5 @@
+Added in version 3.13.
+class asyncio.AbstractEventLoop
+   Abstract base class for asyncio-compliant event loops.
+   The Event Loop Methods section lists all methods that an
+   alternative implementation of "AbstractEventLoop" should have

@@ -1,0 +1,5 @@
+simple message objects, or a list of "EmailMessage" objects, for MIME
+container documents such as *multipart/** and *message/rfc822* message
+objects.
+class email.message.EmailMessage(policy=default)
+   If *policy* is specified use the rules it specifies to update and

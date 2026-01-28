@@ -1,0 +1,9 @@
+* IMAP4 Objects
+  * IMAP4 Example
+* "smtplib" --- SMTP protocol client
+  * SMTP Objects
+  * SMTP Example
+* "uuid" --- UUID objects according to **RFC 9562**
+  * Command-Line Usage
+  * Example
+  * Command-Line Example

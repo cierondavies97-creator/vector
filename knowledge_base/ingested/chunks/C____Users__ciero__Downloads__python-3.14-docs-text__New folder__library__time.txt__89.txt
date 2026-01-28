@@ -1,0 +1,4 @@
+"strftime()". However, see also "datetime.datetime.strptime()"
+      and "datetime.datetime.strftime()" where the "%f" format
+      directive applies to microseconds.
+   2. When used with the "strptime()" function, the "%p" directive

@@ -1,0 +1,3 @@
+Task groups are careful not to mix up the internal cancellation used
+to "wake up" their "__aexit__()" with cancellation requests for the
+task in which they are running made by other parties. In particular,

@@ -1,0 +1,6 @@
+signal.SIG_BLOCK
+   A possible value for the *how* parameter to "pthread_sigmask()"
+   indicating that signals are to be blocked.
+   Added in version 3.3.
+signal.SIG_UNBLOCK
+   A possible value for the *how* parameter to "pthread_sigmask()"

@@ -1,0 +1,5 @@
+(see the  "time" module).  Raise "OSError" if the file does not
+   exist or is inaccessible.
+os.path.getmtime(path, /)
+   Return the time of last modification of *path*.  The return value
+   is a floating-point number giving the number of seconds since the

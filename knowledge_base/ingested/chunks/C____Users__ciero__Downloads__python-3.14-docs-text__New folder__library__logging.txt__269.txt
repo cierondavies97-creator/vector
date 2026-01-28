@@ -1,0 +1,3 @@
+| *encoding*     | If this keyword argument is specified along   |
+   |                | with *filename*, its value is used when the   |
+   |                | "FileHandler" is created, and thus used when  |

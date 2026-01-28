@@ -1,0 +1,6 @@
+it is recommended to set the environment variable temporarily or use
+the "-X utf8" command line option.
+Note:
+  Even when UTF-8 mode is disabled, Python uses UTF-8 by default on
+  Windows for:
+  * Console I/O including standard I/O (see **PEP 528** for details).

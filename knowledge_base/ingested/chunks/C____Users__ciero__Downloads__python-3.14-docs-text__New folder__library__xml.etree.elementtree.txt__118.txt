@@ -1,0 +1,3 @@
+attribute order specified by the user.
+xml.etree.ElementTree.tostringlist(element, encoding='us-ascii', method='xml', *, xml_declaration=None, default_namespace=None, short_empty_elements=True)
+   Generates a string representation of an XML element, including all

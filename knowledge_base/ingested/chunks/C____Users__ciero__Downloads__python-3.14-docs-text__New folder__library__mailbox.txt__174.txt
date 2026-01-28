@@ -1,0 +1,5 @@
+flags and headers typically appear in the order mentioned.
+   "mboxMessage" instances offer the following methods:
+   get_from()
+      Return a string representing the "From " line that marks the
+      start of the message in an mbox mailbox. The leading "From " and

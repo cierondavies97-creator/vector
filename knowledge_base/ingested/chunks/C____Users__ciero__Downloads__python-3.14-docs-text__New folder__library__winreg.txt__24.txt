@@ -1,0 +1,4 @@
+retrieve.
+   The function retrieves the name of one subkey each time it is
+   called.  It is typically called repeatedly until an "OSError"
+   exception is raised, indicating, no more values are available.

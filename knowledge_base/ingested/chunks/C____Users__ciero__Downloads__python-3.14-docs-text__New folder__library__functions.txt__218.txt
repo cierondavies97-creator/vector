@@ -1,0 +1,3 @@
+| "'+'"     | open for updating (reading and writing)                         |
+   +-----------+-----------------------------------------------------------------+
+   The default mode is "'r'" (open for reading text, a synonym of

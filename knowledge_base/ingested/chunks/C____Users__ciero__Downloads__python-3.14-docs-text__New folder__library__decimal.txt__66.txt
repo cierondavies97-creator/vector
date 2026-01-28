@@ -1,0 +1,3 @@
+objects and arithmetic on integers and floats.  When the remainder
+   operator "%" is applied to Decimal objects, the sign of the result
+   is the sign of the *dividend* rather than the sign of the divisor:

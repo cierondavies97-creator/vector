@@ -1,0 +1,3 @@
+The final block shows a simple way to run the tests. "unittest.main()"
+provides a command-line interface to the test script.  When run from
+the command line, the above script produces an output that looks like

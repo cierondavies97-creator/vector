@@ -1,0 +1,4 @@
+class property(fget=None, fset=None, fdel=None, doc=None)
+   Return a property attribute.
+   *fget* is a function for getting an attribute value.  *fset* is a
+   function for setting an attribute value. *fdel* is a function for

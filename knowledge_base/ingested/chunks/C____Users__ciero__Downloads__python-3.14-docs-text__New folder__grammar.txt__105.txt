@@ -1,0 +1,5 @@
+mapping_pattern[pattern_ty]:
+       | '{' '}' {
+           _PyAST_MatchMapping(NULL, NULL, NULL, EXTRA) }
+       | '{' rest=double_star_pattern ','? '}' {
+           _PyAST_MatchMapping(NULL, NULL, rest->v.Name.id, EXTRA) }

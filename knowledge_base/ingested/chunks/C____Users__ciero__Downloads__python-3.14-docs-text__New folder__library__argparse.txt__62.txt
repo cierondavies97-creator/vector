@@ -1,0 +1,5 @@
+>>> parser.add_argument('-f')
+   >>> parser.parse_args(['-f', 'foo', '@args.txt'])
+   Namespace(f='bar')
+Arguments read from a file must be one per line by default (but see
+also "convert_arg_line_to_args()") and are treated as if they were in

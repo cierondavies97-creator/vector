@@ -1,0 +1,3 @@
+Set or remove the function invoked by the "rl_pre_input_hook"
+   callback of the underlying library.  If *function* is specified, it
+   will be used as the new hook function; if omitted or "None", any

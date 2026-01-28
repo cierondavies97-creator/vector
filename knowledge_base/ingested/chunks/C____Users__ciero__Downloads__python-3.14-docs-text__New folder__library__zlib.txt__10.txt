@@ -1,0 +1,4 @@
+of values, defaulting to "15" ("MAX_WBITS"):
+   * +9 to +15: The base-two logarithm of the window size, which
+     therefore ranges between 512 and 32768.  Larger values produce
+     better compression at the expense of greater memory usage.  The

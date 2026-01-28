@@ -1,0 +1,4 @@
+slower than binary I/O over the same storage, because it requires
+conversions between unicode and binary data using a character codec.
+This can become noticeable handling huge amounts of text data like
+large log files.  Also, "tell()" and "seek()" are both quite slow due

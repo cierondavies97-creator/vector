@@ -1,0 +1,5 @@
+Note: "gethostname()" doesn't always return the fully qualified
+   domain name; use "getfqdn()" for that.
+   Availability: not WASI.
+socket.gethostbyaddr(ip_address)
+   Return a 3-tuple "(hostname, aliaslist, ipaddrlist)" where

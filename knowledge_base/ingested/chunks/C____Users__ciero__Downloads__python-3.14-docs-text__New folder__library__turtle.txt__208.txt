@@ -1,0 +1,5 @@
+"no_animation" block will not be animated; once the code block is
+   exited, the drawing will appear.
+      >>> with screen.no_animation():
+      ...     for dist in range(2, 400, 2):
+      ...         fd(dist)

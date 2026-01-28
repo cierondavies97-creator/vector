@@ -1,0 +1,4 @@
+**CPython implementation detail:** On CPython, use the same clock
+   as "time.monotonic()" and is a monotonic clock, i.e. a clock that
+   cannot go backwards.
+   Use "perf_counter_ns()" to avoid the precision loss caused by the

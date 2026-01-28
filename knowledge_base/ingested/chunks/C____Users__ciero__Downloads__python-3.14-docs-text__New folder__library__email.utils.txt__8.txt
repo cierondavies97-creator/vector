@@ -1,0 +1,5 @@
+stripped off.
+email.utils.parseaddr(address, *, strict=True)
+   Parse address -- which should be the value of some address-
+   containing field such as *To* or *Cc* -- into its constituent
+   *realname* and *email address* parts.  Returns a tuple of that

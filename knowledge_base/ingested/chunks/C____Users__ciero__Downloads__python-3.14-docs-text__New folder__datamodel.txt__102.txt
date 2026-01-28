@@ -1,0 +1,4 @@
+functions.  Regular attribute dot-notation is used to get and set such
+attributes.
+**CPython implementation detail:** CPython's current implementation
+only supports function attributes on user-defined functions. Function

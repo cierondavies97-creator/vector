@@ -1,0 +1,3 @@
+class multiprocessing.managers.SharedMemoryManager([address[, authkey]])
+   A subclass of "multiprocessing.managers.BaseManager" which can be
+   used for the management of shared memory blocks across processes.

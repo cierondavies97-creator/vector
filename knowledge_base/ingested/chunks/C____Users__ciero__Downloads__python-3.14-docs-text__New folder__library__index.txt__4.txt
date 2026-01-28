@@ -1,0 +1,4 @@
+by abstracting away platform-specifics into platform-neutral APIs.
+The Python installers for the Windows platform usually include the
+entire standard library and often also include many additional
+components. For Unix-like operating systems Python is normally

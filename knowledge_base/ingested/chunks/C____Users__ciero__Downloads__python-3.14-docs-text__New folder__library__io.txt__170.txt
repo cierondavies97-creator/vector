@@ -1,0 +1,4 @@
+that when writing output to the stream, if *newline* is "None",
+   newlines are written as "\n" on all platforms.
+   "StringIO" provides this method in addition to those from
+   "TextIOBase" and "IOBase":

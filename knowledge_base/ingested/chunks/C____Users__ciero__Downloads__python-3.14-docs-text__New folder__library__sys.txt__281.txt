@@ -1,0 +1,5 @@
+implement a dynamic prompt.
+sys.setdlopenflags(n)
+   Set the flags used by the interpreter for "dlopen()" calls, such as
+   when the interpreter loads extension modules.  Among other things,
+   this will enable a lazy resolving of symbols when importing a

@@ -1,0 +1,4 @@
+Order comparison between a "date" object that is not also a
+   "datetime" instance and a "datetime" object raises "TypeError".
+Changed in version 3.13: Comparison between "datetime" object and an
+instance of the "date" subclass that is not a "datetime" subclass no

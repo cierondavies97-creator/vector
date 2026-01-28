@@ -1,0 +1,4 @@
+Note that one can also create synchronization primitives by using a
+manager object -- see Managers.
+class multiprocessing.Barrier(parties[, action[, timeout]])
+   A barrier object: a clone of "threading.Barrier".

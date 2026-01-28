@@ -1,0 +1,6 @@
+(U+212A, Kelvin sign). If the "ASCII" flag is used, only letters
+   'a' to 'z' and 'A' to 'Z' are matched.
+re.L
+re.LOCALE
+   Make "\w", "\W", "\b", "\B" and case-insensitive matching dependent
+   on the current locale. This flag can be used only with bytes

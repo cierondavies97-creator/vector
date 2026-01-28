@@ -1,0 +1,4 @@
+the "CompressionParameter.compression_level" parameter should be
+   set.
+   The *options* argument is a Python dictionary containing advanced
+   compression parameters. The valid keys and values for compression

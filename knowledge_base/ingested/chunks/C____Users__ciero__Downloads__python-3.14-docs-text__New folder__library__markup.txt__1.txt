@@ -1,0 +1,5 @@
+Language (HTML), and several interfaces for working with the
+Extensible Markup Language (XML).
+* "html" --- HyperText Markup Language support
+* "html.parser" --- Simple HTML and XHTML parser
+  * Example HTML Parser Application

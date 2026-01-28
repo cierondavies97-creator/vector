@@ -1,0 +1,5 @@
+TarInfo.linkname: str
+   Name of the target file name, which is only present in "TarInfo"
+   objects of type "LNKTYPE" and "SYMTYPE".
+   For symbolic links ("SYMTYPE"), the *linkname* is relative to the
+   directory that contains the link. For hard links ("LNKTYPE"), the

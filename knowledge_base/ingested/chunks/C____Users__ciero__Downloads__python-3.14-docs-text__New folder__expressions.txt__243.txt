@@ -1,0 +1,4 @@
+identical objects are equal to themselves.  That lets them bypass
+  equality tests for identical objects to improve performance and to
+  maintain their internal invariants.
+  Lexicographical comparison between built-in collections works as

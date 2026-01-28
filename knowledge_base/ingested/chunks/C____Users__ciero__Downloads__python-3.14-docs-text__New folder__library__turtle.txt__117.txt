@@ -1,0 +1,4 @@
+Return the current fillcolor as color specification string,
+      possibly in tuple format (see example).  May be used as input to
+      another color/pencolor/fillcolor/bgcolor call.
+   "fillcolor(colorstring)"

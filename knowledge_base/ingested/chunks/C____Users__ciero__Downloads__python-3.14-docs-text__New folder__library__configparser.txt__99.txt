@@ -1,0 +1,4 @@
+provided is used for recognizing default sections when reading from
+  any source and is used when writing configuration back to a file.
+  Its current value can be retrieved using the
+  "parser_instance.default_section" attribute and may be modified at

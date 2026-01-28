@@ -1,0 +1,4 @@
+different and numeric or monetary strings are non-ASCII. This
+   temporary change affects other threads.
+   Changed in version 3.7: The function now temporarily sets the
+   "LC_CTYPE" locale to the "LC_NUMERIC" locale in some cases.

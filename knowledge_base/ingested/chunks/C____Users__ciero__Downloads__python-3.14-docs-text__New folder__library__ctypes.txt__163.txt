@@ -1,0 +1,8 @@
+struct cell; /* forward declaration */
+   struct cell {
+       char *name;
+       struct cell *next;
+   };
+The straightforward translation into ctypes code would be this, but it
+does not work:
+   >>> class cell(Structure):

@@ -1,0 +1,5 @@
+* Explanation provides in-depth background on transaction control.
+See also:
+  https://www.sqlite.org
+     The SQLite web page; the documentation describes the syntax and
+     the available data types for the supported SQL dialect.

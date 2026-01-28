@@ -1,0 +1,5 @@
+See also the "sys.is_finalizing()" function.
+   Added in version 3.13: Previously, a plain "RuntimeError" was
+   raised.
+   Changed in version 3.14: "threading.Thread.join()" can now raise
+   this exception.

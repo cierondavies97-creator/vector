@@ -1,0 +1,4 @@
+Changed in version 3.11: Added support for marking individual keys
+   as "Required" or "NotRequired". See **PEP 655**.
+   Changed in version 3.11: Added support for generic "TypedDict"s.
+   Changed in version 3.13: Removed support for the keyword-argument

@@ -1,0 +1,6 @@
+mm.close()
+   Raises an auditing event "mmap.__new__" with arguments "fileno",
+   "length", "access", "offset".
+   Memory-mapped file objects support the following methods:
+   close()
+      Closes the mmap. Subsequent calls to other methods of the object

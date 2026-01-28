@@ -1,0 +1,4 @@
+"os.defpath" if it is not set.
+   If *cmd* contains a directory component, "which()" only checks the
+   specified path directly and does not search the directories listed
+   in *path* or in the system's "PATH" environment variable.

@@ -1,0 +1,3 @@
+into which the coverage result files will be output.  If "None",
+      the results for each source file are placed in its directory.
+      If *ignore_missing_files* is "True", coverage counts for files

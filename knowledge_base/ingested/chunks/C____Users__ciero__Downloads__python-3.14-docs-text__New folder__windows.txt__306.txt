@@ -1,0 +1,5 @@
+If you select "Install Now":
+* You will *not* need to be an administrator (unless a system update
+  for the C Runtime Library is required or you install the Python
+  install manager for all users)
+* Python will be installed into your user directory

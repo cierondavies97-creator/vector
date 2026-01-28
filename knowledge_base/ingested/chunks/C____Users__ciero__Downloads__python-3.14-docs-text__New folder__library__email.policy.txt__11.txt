@@ -1,0 +1,4 @@
+future version of Python.  Therefore you should **always specify
+explicitly which policy you want to use** when calling any of the
+classes and functions described in the "parser" module.
+The first part of this documentation covers the features of "Policy",

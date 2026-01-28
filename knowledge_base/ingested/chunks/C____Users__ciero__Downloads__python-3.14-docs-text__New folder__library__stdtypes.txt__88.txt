@@ -1,0 +1,4 @@
+Class method to return a floating-point number constructed from a
+   number *x*.
+   If the argument is an integer or a floating-point number, a
+   floating-point number with the same value (within Python's

@@ -1,0 +1,4 @@
+by "sys.exc_info()".  These are the exception type, exception
+instance, and a traceback object.  It is important to know about them
+to understand how errors are passed around.
+The Python API defines a number of functions to set various types of

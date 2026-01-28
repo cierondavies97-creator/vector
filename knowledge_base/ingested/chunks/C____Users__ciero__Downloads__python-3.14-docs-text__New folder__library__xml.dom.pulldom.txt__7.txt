@@ -1,0 +1,10 @@
+"event" is a constant and can be one of:
+* "START_ELEMENT"
+* "END_ELEMENT"
+* "COMMENT"
+* "START_DOCUMENT"
+* "END_DOCUMENT"
+* "CHARACTERS"
+* "PROCESSING_INSTRUCTION"
+* "IGNORABLE_WHITESPACE"
+"node" is an object of type "xml.dom.minidom.Document",

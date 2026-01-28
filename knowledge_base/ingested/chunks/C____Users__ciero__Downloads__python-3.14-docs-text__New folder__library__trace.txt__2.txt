@@ -1,0 +1,7 @@
+See also:
+  Coverage.py
+     A popular third-party coverage tool that provides HTML output
+     along with advanced features such as branch coverage.
+Command-Line Usage
+==================
+The "trace" module can be invoked from the command line.  It can be as

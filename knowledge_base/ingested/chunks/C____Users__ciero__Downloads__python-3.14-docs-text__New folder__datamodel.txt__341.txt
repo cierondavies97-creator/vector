@@ -1,0 +1,3 @@
+Called when the instance is about to be destroyed.  This is also
+   called a finalizer or (improperly) a destructor.  If a base class
+   has a "__del__()" method, the derived class's "__del__()" method,

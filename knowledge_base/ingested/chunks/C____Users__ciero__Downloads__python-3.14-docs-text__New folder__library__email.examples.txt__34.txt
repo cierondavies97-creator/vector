@@ -1,0 +1,5 @@
+if not filename:
+               ext = mimetypes.guess_extension(part.get_content_type())
+               if not ext:
+                   # Use a generic bag-of-bits extension
+                   ext = '.bin'

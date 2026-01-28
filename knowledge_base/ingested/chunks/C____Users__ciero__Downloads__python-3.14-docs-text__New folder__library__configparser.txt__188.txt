@@ -1,0 +1,5 @@
+the section does not exist, raise "NoSectionError".  If the
+      option existed to be removed, return "True"; otherwise return
+      "False".
+   remove_section(section)
+      Remove the specified *section* from the configuration.  If the

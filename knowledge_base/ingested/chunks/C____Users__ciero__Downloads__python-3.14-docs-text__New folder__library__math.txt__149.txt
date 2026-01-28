@@ -1,0 +1,7 @@
+math.tan(x)
+   Return the tangent of *x* radians.
+Hyperbolic functions
+====================
+Hyperbolic functions are analogs of trigonometric functions that are
+based on hyperbolas instead of circles.
+math.acosh(x)

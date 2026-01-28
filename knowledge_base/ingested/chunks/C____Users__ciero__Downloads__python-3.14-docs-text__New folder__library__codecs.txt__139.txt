@@ -1,0 +1,5 @@
+"StreamReader" and "StreamWriter" classes. They inherit all other
+methods and attributes from the underlying stream.
+StreamRecoder Objects
+~~~~~~~~~~~~~~~~~~~~~
+The "StreamRecoder" translates data from one encoding to another,

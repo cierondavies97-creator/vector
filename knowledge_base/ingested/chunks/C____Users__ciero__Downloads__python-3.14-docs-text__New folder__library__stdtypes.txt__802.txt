@@ -1,0 +1,5 @@
+update(**kwargs)
+   update(mapping, /, **kwargs)
+   update(iterable, /, **kwargs)
+      Update the dictionary with the key/value pairs from *mapping* or
+      *iterable* and *kwargs*, overwriting existing keys.  Return

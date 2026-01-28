@@ -1,0 +1,4 @@
+AttributeError: Mock object has no attribute 'a'
+There are a few different ways of resolving this problem. The easiest,
+but not necessarily the least annoying, way is to simply set the
+required attributes on the mock after creation. Just because

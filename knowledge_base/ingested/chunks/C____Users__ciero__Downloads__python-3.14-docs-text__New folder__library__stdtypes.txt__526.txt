@@ -1,0 +1,4 @@
+If *sub* is empty, returns the number of empty slices between
+   characters which is the length of the bytes object plus one.
+   Changed in version 3.3: Also accept an integer in the range 0 to
+   255 as the subsequence.

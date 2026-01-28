@@ -1,0 +1,5 @@
+exception.
+@typing.no_type_check
+   Decorator to indicate that annotations are not type hints.
+   This works as a class or function *decorator*.  With a class, it
+   applies recursively to all methods and classes defined in that

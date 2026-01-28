@@ -1,0 +1,5 @@
+File mode: file type and file mode bits (permissions).
+   st_ino
+      Platform dependent, but if non-zero, uniquely identifies the
+      file for a given value of "st_dev". Typically:
+      * the inode number on Unix,

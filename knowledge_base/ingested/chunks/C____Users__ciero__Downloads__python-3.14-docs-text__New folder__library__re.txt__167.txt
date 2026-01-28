@@ -1,0 +1,4 @@
+a previous empty match.
+re.sub(pattern, repl, string, count=0, flags=0)
+   Return the string obtained by replacing the leftmost non-
+   overlapping occurrences of *pattern* in *string* by the replacement

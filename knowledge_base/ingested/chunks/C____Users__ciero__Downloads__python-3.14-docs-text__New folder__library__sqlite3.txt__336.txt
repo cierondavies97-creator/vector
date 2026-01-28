@@ -1,0 +1,4 @@
+"Connection" instance "con" connected to this database, we can decode
+the Latin-2 encoded text using this "text_factory":
+   con.text_factory = lambda data: str(data, encoding="latin2")
+For invalid UTF-8 or arbitrary data in stored in "TEXT" table columns,

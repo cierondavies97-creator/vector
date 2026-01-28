@@ -1,0 +1,5 @@
+sent to the remote host.
+   Changed in version 3.9: If the *timeout* parameter is set to be
+   zero, it will raise a "ValueError" to prevent the creation of a
+   non-blocking socket.
+class poplib.POP3_SSL(host, port=POP3_SSL_PORT, *, timeout=None, context=None)

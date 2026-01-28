@@ -1,0 +1,11 @@
+attributes are available:
+   ip
+   network
+   with_prefixlen
+   with_netmask
+   with_hostmask
+      Refer to the corresponding attribute documentation in
+      "IPv4Interface".
+Operators
+---------
+Interface objects support some operators.  Unless stated otherwise,

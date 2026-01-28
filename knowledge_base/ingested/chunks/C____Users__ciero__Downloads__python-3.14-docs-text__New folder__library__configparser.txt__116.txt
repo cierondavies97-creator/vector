@@ -1,0 +1,3 @@
+default matches "[section]" to the name ""section"".  Whitespace is
+   considered part of the section name, thus "[  larch  ]" will be
+   read as a section of name ""  larch  "".  Override this attribute

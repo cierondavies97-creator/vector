@@ -1,0 +1,4 @@
+The import machinery is extensible, so new finders can be added to
+extend the range and scope of module searching.
+Finders do not actually load modules.  If they can find the named
+module, they return a *module spec*, an encapsulation of the module's

@@ -1,0 +1,6 @@
+the attributes defined below for the "Dialect" class.
+Dialects support the following attributes:
+Dialect.delimiter
+   A one-character string used to separate fields.  It defaults to
+   "','".
+Dialect.doublequote

@@ -1,0 +1,3 @@
+bytes of decompressed data. If this limit is reached and further
+      output can be produced, the "needs_input" attribute will be set
+      to "False". In this case, the next call to "decompress()" may

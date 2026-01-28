@@ -1,0 +1,8 @@
+name: str
+   On a metaclass:
+      @dataclass_transform()
+      class ModelMeta(type): ...
+      class ModelBase(metaclass=ModelMeta): ...
+      class CustomerModel(ModelBase):
+          id: int
+          name: str

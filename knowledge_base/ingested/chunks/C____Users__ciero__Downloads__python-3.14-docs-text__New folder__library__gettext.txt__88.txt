@@ -1,0 +1,5 @@
+coded. Occasionally however, you need to mark strings for translation,
+but defer actual translation until later.  A classic example is:
+   animals = ['mollusk',
+              'albatross',
+              'rat',

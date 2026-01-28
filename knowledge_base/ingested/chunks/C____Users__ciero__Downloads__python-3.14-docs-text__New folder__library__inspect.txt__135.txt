@@ -1,0 +1,4 @@
+be a module, class, method, function, traceback, frame, or code
+   object.  The source code is returned as a single string.  An
+   "OSError" is raised if the source code cannot be retrieved. A
+   "TypeError" is raised if the object is a built-in module, class, or

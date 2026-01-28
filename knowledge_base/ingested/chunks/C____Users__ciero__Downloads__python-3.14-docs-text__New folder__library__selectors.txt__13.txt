@@ -1,0 +1,3 @@
+streams, with an optional timeout. It's an abstract base class, so
+   cannot be instantiated. Use "DefaultSelector" instead, or one of
+   "SelectSelector", "KqueueSelector" etc. if you want to specifically

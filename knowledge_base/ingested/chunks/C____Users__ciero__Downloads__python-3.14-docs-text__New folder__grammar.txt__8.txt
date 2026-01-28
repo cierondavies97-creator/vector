@@ -1,0 +1,4 @@
+#     - These rules are NOT used in the first pass of the parser.
+   #     - Only if the first pass fails to parse, a second pass including the invalid
+   #       rules will be executed.
+   #     - If the parser fails in the second phase with a generic syntax error, the

@@ -1,0 +1,3 @@
+| mac_latin2        | maclatin2, maccentraleurope,     | Central and Eastern Europe       |
+|                   | mac_centeuro                     |                                  |
++-------------------+----------------------------------+----------------------------------+

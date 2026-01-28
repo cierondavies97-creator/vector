@@ -1,0 +1,6 @@
+Changed in version 3.9: Added the *base_url* and *max_depth*
+   parameters.
+Element Objects
+---------------
+class xml.etree.ElementTree.Element(tag, attrib={}, **extra)
+   Element class.  This class defines the Element interface, and

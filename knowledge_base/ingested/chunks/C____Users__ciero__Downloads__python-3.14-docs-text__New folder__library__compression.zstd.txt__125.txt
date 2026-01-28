@@ -1,0 +1,4 @@
+job_size
+      Size of a compression job, in bytes. This value is enforced only
+      when "nb_workers" >= 1. Each compression job is completed in
+      parallel, so this value can indirectly impact the number of

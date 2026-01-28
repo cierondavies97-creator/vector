@@ -1,0 +1,4 @@
+'seven'
+   >>> print(C)
+   Set-Cookie: number=7
+   Set-Cookie: string=seven

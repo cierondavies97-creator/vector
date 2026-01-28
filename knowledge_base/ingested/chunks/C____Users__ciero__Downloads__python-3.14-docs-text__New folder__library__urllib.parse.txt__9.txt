@@ -1,0 +1,3 @@
+smaller parts (for example, the network location is a single
+   string), and % escapes are not expanded. The delimiters as shown
+   above are not part of the result, except for a leading slash in the

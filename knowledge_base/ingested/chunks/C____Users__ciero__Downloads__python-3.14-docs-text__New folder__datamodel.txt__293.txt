@@ -1,0 +1,2 @@
+|                                                    | various events during code execution (this is used |
+|                                                    | by debuggers). Normally an event is triggered for  |

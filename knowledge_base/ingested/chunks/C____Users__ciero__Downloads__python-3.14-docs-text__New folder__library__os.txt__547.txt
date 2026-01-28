@@ -1,0 +1,5 @@
+bitwise OR (the "|" operator):
+   * "TFD_TIMER_ABSTIME"
+   * "TFD_TIMER_CANCEL_ON_SET"
+   The timer is disabled by setting *initial* to zero ("0"). If
+   *initial* is equal to or greater than zero, the timer is enabled.

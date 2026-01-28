@@ -1,0 +1,10 @@
+you are, by definition, not smart enough to debug it.
+– Brian W. Kernighan
+Nicola Chiapolini, 8 July 2024
+24 / 34
+Introduction
+Style & Documentation
+Special Statements
+KIS(S) & DRY
+Refactoring
+Development Methodologies

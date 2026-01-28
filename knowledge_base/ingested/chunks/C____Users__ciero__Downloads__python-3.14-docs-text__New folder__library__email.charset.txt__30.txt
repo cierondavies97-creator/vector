@@ -1,0 +1,5 @@
+"latin-1". *canonical* is the character set's canonical name, e.g.
+   "iso-8859-1".
+   The global charset alias registry is kept in the module global
+   dictionary "ALIASES".
+email.charset.add_codec(charset, codecname)

@@ -1,0 +1,4 @@
+Changed in version 3.13: Added the *keep_alive* parameter.
+   * *ssl_handshake_timeout* is (for a TLS server) the time in seconds
+     to wait for the TLS handshake to complete before aborting the
+     connection. "60.0" seconds if "None" (default).

@@ -1,0 +1,4 @@
+use the built-in function "open()", which returns a *file object*
+     with "read()" and "write()" methods (and many more).  To wrap a
+     file descriptor in a file object, use "fdopen()".
+   Changed in version 3.3: Added the *dir_fd* parameter.

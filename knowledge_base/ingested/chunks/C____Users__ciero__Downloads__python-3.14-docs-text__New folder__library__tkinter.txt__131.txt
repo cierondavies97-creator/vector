@@ -1,0 +1,4 @@
+""se"", ""s"", ""sw"", ""w"", ""nw"", and also ""center"".
+bitmap
+   There are eight built-in, named bitmaps: "'error'", "'gray25'",
+   "'gray50'", "'hourglass'", "'info'", "'questhead'", "'question'",

@@ -1,0 +1,5 @@
+live references.  To avoid this, copy the dictionary or keep the
+   module around while using its dictionary directly.
+3.2.10. Custom classes
+----------------------
+Custom class types are typically created by class definitions (see

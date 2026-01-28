@@ -1,0 +1,4 @@
+qualified name included before the exception class, which can vary
+   between implementations and versions of Python and the
+   code/libraries in use. Hence, all three of these variations will
+   work with the flag specified:

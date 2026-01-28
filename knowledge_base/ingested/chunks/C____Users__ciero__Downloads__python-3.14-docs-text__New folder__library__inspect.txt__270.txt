@@ -1,0 +1,4 @@
+executing, is waiting to start or resume or execution, or has already
+terminated. "getgeneratorstate()" allows the current state of a
+generator to be determined easily.
+inspect.getgeneratorstate(generator)

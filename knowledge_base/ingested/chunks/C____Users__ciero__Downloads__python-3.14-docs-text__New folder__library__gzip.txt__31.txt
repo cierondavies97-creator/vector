@@ -1,0 +1,4 @@
+gzip.compress(data, compresslevel=9, *, mtime=0)
+   Compress the *data*, returning a "bytes" object containing the
+   compressed data.  *compresslevel* and *mtime* have the same meaning
+   as in the "GzipFile" constructor above, but *mtime* defaults to 0

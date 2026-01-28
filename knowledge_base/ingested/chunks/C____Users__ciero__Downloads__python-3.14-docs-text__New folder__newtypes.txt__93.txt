@@ -1,0 +1,8 @@
+self->obj_UnderlyingDatatypePtr->size,
+           arg1, arg2, arg3);
+       return result;
+   }
+   /* Iterators */
+   getiterfunc tp_iter;
+   iternextfunc tp_iternext;
+These functions provide support for the iterator protocol.  Both

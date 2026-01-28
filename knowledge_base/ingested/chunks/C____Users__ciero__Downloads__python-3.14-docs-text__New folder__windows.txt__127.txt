@@ -1,0 +1,5 @@
+creating an offline install index. See Offline installs and
+Administrative configuration for information on handling these
+scenarios.
+Runtimes installed by the MSI are shared with those installed by the
+MSIX, and are all per-user only. The Python install manager does not

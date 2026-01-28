@@ -1,0 +1,4 @@
+A bool indicating whether the memory is read only.
+      format
+         A string containing the format (in "struct" module style) for
+         each element in the view. A memoryview can be created from

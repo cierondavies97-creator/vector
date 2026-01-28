@@ -1,0 +1,4 @@
+empty tuple can be formed by an empty pair of parentheses.
+Bytes
+   A bytes object is an immutable array.  The items are 8-bit bytes,
+   represented by integers in the range 0 <= x < 256.  Bytes literals

@@ -1,0 +1,3 @@
+A "TestResult" object stores the results of a set of tests.  The
+   "TestCase" and "TestSuite" classes ensure that results are properly
+   recorded; test authors do not need to worry about recording the

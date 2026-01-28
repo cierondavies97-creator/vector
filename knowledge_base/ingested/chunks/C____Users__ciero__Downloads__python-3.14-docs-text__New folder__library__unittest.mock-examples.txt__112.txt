@@ -1,0 +1,5 @@
+If we don't use "autospec=True" then the unbound method is patched out
+with a Mock instance instead, and isn't called with "self".
+Checking multiple calls with mock
+---------------------------------
+mock has a nice API for making assertions about how your mock objects

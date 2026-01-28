@@ -1,0 +1,3 @@
+"sys.meta_path". If a finder implements "invalidate_caches()" then
+   it will be called to perform the invalidation.  This function
+   should be called if any modules are created/installed while your

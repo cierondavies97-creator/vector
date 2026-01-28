@@ -1,0 +1,3 @@
+Changed in version 3.3: Added a symlink attack resistant version
+   that is used automatically if platform supports fd-based functions.
+   Changed in version 3.8: On Windows, will no longer delete the

@@ -1,0 +1,5 @@
+RFCs.
+   cte_type
+      Controls the type of Content Transfer Encodings that may be or
+      are required to be used.  The possible values are:
+      +----------+-----------------------------------------------------------------+

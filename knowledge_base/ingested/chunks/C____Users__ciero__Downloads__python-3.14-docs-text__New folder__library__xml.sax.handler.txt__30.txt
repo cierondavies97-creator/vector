@@ -1,0 +1,5 @@
+methods in this interface or in DTDHandler (except for
+   "setDocumentLocator()").
+ContentHandler.endDocument()
+   Receive notification of the end of a document.
+   The SAX parser will invoke this method only once, and it will be

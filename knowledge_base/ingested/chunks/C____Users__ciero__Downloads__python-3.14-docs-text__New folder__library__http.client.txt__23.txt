@@ -1,0 +1,6 @@
+A subclass of "HTTPException".
+exception http.client.IncompleteRead
+   A subclass of "HTTPException".
+exception http.client.ImproperConnectionState
+   A subclass of "HTTPException".
+exception http.client.CannotSendRequest

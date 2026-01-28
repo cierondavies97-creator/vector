@@ -1,0 +1,3 @@
+Variables used in the generator expression are evaluated lazily when
+the "__next__()" method is called for the generator object (in the
+same fashion as normal generators).  However, the iterable expression

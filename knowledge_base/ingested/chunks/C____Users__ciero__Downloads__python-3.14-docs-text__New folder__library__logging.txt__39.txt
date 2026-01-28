@@ -1,0 +1,4 @@
+by "logging.disable(level)" and then the logger's effective
+      level as determined by "getEffectiveLevel()".
+   getEffectiveLevel()
+      Indicates the effective level for this logger. If a value other

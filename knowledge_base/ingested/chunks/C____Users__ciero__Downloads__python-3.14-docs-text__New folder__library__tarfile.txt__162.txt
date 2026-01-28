@@ -1,0 +1,5 @@
+features. See Hints for further verification  for details.
+   Changed in version 3.14: Link targets are now normalized.
+Filter errors
+-------------
+When a filter refuses to extract a file, it will raise an appropriate

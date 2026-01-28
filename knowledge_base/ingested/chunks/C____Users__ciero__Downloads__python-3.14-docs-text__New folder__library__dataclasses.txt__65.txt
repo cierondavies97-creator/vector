@@ -1,0 +1,7 @@
+tuples are recursed into.  Other objects are copied with
+   "copy.deepcopy()".
+   Example of using "asdict()" on nested dataclasses:
+      @dataclass
+      class Point:
+           x: int
+           y: int

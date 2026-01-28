@@ -1,0 +1,5 @@
+Put locks around all calls. 3) Use the slower, but thread-safe
+   "normalvariate()" function instead.
+   Changed in version 3.11: *mu* and *sigma* now have default
+   arguments.
+random.lognormvariate(mu, sigma)

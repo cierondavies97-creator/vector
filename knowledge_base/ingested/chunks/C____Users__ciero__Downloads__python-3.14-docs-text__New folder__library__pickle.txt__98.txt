@@ -1,0 +1,6 @@
+obj.__dict__.update(attributes)
+       return obj
+Classes can alter the default behaviour by providing one or several
+special methods:
+object.__getnewargs_ex__()
+   In protocols 2 and newer, classes that implements the

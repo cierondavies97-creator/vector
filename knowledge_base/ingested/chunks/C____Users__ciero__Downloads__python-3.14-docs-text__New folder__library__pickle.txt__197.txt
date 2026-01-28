@@ -1,0 +1,5 @@
+(module, name))
+   def restricted_loads(s):
+       """Helper function analogous to pickle.loads()."""
+       return RestrictedUnpickler(io.BytesIO(s)).load()
+A sample usage of our unpickler working as intended:

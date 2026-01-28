@@ -1,0 +1,5 @@
+alias scopes, it is the name of the type alias. For "TypeVar"
+      bound scopes, it is the name of the "TypeVar".
+   get_lineno()
+      Return the number of the first line in the block this table
+      represents.

@@ -1,0 +1,4 @@
+test.support.threading_helper.wait_threads_exit(timeout=None)
+   Context manager to wait until all threads created in the "with"
+   statement exit.
+test.support.threading_helper.catch_threading_exception()

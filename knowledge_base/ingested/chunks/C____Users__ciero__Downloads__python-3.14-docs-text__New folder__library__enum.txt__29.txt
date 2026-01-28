@@ -1,0 +1,7 @@
+__getitem__(cls, name)
+      Returns the Enum member in *cls* matching *name*, or raises a
+      "KeyError":
+         >>> Color['BLUE']
+         <Color.BLUE: 3>
+   __iter__(cls)
+      Returns each member in *cls* in definition order:

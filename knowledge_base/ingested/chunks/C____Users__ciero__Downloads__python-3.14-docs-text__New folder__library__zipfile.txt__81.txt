@@ -1,0 +1,4 @@
+ZipFile.mkdir(zinfo_or_directory, mode=511)
+   Create a directory inside the archive.  If *zinfo_or_directory* is
+   a string, a directory is created inside the archive with the mode
+   that is specified in the *mode* argument. If, however,

@@ -1,0 +1,5 @@
+import socketserver
+   class MyUDPHandler(socketserver.BaseRequestHandler):
+       """
+       This class works similar to the TCP handler class, except that
+       self.request consists of a pair of data and client socket, and since

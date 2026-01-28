@@ -1,0 +1,2 @@
+| "transport.write_eof()"                            | Close and send EOF after flushing buffered data.   |
++----------------------------------------------------+----------------------------------------------------+

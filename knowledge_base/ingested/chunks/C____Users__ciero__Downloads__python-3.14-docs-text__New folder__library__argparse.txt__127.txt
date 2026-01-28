@@ -1,0 +1,4 @@
+automatically added to the parser. See "ArgumentParser" for details
+  of how the output is created.
+* "'version'" - This expects a "version=" keyword argument in the
+  "add_argument()" call, and prints version information and exits when

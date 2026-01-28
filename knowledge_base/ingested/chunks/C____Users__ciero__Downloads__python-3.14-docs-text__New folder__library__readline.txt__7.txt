@@ -1,0 +1,4 @@
+use "editline"/"libedit" readline emulation on macOS, the
+  initialization file located in your home directory is named
+  ".editrc". For example, the following content in "~/.editrc" will
+  turn ON *vi* keybindings and TAB completion:

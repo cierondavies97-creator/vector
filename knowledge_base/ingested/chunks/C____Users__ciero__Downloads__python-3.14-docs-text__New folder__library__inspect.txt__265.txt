@@ -1,0 +1,5 @@
+You can handle these with code like the following. Note that for
+arbitrary getset descriptors invoking these may trigger code
+execution:
+   # example code for resolving the builtin descriptor types
+   class _foo:

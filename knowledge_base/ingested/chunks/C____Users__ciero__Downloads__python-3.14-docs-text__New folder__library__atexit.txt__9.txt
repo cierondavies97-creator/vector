@@ -1,0 +1,4 @@
+routines or the new process try to use that state. This can lead
+     to crashes rather than clean shutdown.
+   Changed in version 3.12: Attempts to start a new thread or
+   "os.fork()" a new process in a registered function now leads to

@@ -1,0 +1,4 @@
+Create and return a SAX "XMLReader" object.  The first parser found
+   will be used.  If *parser_list* is provided, it must be an iterable
+   of strings which name modules that have a function named
+   "create_parser()".  Modules listed in *parser_list* will be used

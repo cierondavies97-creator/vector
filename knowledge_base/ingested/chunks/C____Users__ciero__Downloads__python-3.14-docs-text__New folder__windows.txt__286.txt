@@ -1,0 +1,4 @@
+via COM, etc), the "Python Home" will not be deduced, so the core
+  path from the registry is used.  Other "application paths" in the
+  registry are always read.
+* If Python can't find its home and there are no registry value

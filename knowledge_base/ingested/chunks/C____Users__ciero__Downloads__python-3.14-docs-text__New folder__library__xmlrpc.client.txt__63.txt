@@ -1,0 +1,5 @@
+by returning a complex type object.  The server code:
+   from xmlrpc.server import SimpleXMLRPCServer
+   # A marshalling error is going to occur because we're returning a
+   # complex number
+   def add(x, y):

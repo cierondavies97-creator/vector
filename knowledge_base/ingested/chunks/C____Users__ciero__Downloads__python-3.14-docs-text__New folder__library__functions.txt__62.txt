@@ -1,0 +1,4 @@
+the same format as for "float()") or an imaginary part (in the same
+   format but with a "'j'" or "'J'" suffix), or both real and
+   imaginary parts (the sign of the imaginary part is mandatory in
+   this case). The string can optionally be surrounded by whitespaces

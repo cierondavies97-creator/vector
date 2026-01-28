@@ -1,0 +1,4 @@
+findtext(match, default=None, namespaces=None)
+      Finds text for the first subelement matching *match*.  *match*
+      may be a tag name or a path.  Returns the text content of the
+      first matching element, or *default* if no element was found.

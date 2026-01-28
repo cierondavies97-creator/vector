@@ -1,0 +1,3 @@
+attributes. The attribute names can also contain dots. For example:
+   * After "f = attrgetter('name')", the call "f(b)" returns "b.name".
+   * After "f = attrgetter('name', 'date')", the call "f(b)" returns

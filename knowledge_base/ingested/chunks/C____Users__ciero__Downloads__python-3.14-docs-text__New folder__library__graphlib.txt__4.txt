@@ -1,0 +1,4 @@
+if it is a directed acyclic graph.
+   If the optional *graph* argument is provided it must be a
+   dictionary representing a directed acyclic graph where the keys are
+   nodes and the values are iterables of all predecessors of that node

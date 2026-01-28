@@ -1,0 +1,5 @@
+**PEP 342** that extends *iterators* with the "send()", "throw()"
+   and "close()" methods.
+   See Annotating generators and coroutines for details on using
+   "Generator" in type annotations.
+   Added in version 3.5.

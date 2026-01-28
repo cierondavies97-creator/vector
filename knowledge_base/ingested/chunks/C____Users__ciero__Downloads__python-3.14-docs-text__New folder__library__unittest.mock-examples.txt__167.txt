@@ -1,0 +1,4 @@
+fetch the mock. When the patch is complete (the decorated function
+exits, the with statement body is complete or "patcher.stop()" is
+called) then whatever was there previously will be restored safely.
+Here's an example that mocks out the 'fooble' module.

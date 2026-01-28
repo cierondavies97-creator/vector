@@ -1,0 +1,5 @@
+quiet NaNs, and behavior for signaling NaNs remains unspecified.
+Typical behavior is to treat all NaNs as though they were quiet.
+See also:
+  Module "cmath"
+     Complex number versions of many of these functions.

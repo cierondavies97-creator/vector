@@ -1,0 +1,5 @@
+suffix. In previous versions, "ValueError" is raised if a single
+   dot is supplied.
+PurePath.with_segments(*pathsegments)
+   Create a new path object of the same type by combining the given
+   *pathsegments*. This method is called whenever a derivative path is

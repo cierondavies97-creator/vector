@@ -1,0 +1,5 @@
+defined classes are hashable by default.  They all compare unequal
+   (except with themselves), and their hash value is derived from
+   their "id()".
+IDLE
+   An Integrated Development and Learning Environment for Python. IDLE

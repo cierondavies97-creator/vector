@@ -1,0 +1,6 @@
+Uncomment Region
+   Remove leading # or ## from selected lines.
+Tabify Region
+   Turn *leading* stretches of spaces into tabs. (Note: We recommend
+   using 4 space blocks to indent Python code.)
+Untabify Region

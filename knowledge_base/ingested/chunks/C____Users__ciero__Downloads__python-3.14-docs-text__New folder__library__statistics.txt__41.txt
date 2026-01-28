@@ -1,0 +1,4 @@
+location of the data.  It is often appropriate when averaging
+   ratios or rates, for example speeds.
+   Suppose a car travels 10 km at 40 km/hr, then another 10 km at 60
+   km/hr. What is the average speed?

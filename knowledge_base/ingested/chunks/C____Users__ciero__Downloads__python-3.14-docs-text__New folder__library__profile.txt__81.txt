@@ -1,0 +1,4 @@
+The order of the printing is based on the last "sort_stats()"
+      operation done on the object (subject to caveats in "add()" and
+      "strip_dirs()").
+      The arguments provided (if any) can be used to limit the list

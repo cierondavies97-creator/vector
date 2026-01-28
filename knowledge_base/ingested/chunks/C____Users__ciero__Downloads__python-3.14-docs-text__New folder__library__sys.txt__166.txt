@@ -1,0 +1,4 @@
+that do not match the actual number of references to the object.
+sys.getrecursionlimit()
+   Return the current value of the recursion limit, the maximum depth
+   of the Python interpreter stack.  This limit prevents infinite

@@ -1,0 +1,4 @@
+"importlib.resources.abc.ResourceReader".
+class importlib.resources.Anchor
+   Represents an anchor for resources, either a "module object" or a
+   module name as a string. Defined as "Union[str, ModuleType]".

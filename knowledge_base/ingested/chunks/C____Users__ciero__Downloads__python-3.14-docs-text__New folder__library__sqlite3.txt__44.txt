@@ -1,0 +1,5 @@
+"database".
+   Raises an auditing event "sqlite3.connect/handle" with argument
+   "connection_handle".
+   Changed in version 3.4: Added the *uri* parameter.
+   Changed in version 3.7: *database* can now also be a *path-like

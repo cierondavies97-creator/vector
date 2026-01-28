@@ -1,0 +1,5 @@
+| invalid_except_stmt_indent
+       | 'except' e=expression ':' b=block {
+           _PyAST_ExceptHandler(e, NULL, b, EXTRA) }
+       | 'except' e=expression 'as' t=NAME ':' b=block {
+           _PyAST_ExceptHandler(e, ((expr_ty) t)->v.Name.id, b, EXTRA) }

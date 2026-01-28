@@ -1,0 +1,4 @@
+the ability to disable the interleaving feature completely)
+* the application requires additional control over the incremental
+  parsing of command line elements (while "argparse" does support
+  this, the exact way it works in practice is undesirable for some use

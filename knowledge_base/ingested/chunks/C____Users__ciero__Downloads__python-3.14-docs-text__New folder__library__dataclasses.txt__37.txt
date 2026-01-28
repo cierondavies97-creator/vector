@@ -1,0 +1,4 @@
+"weakref-able". It is an error to specify "weakref_slot=True"
+     without also specifying "slots=True".
+      Added in version 3.11.
+   "field"s may optionally specify a default value, using normal

@@ -1,0 +1,3 @@
+relevant specification (**RFC 5424**). More recent versions of
+      these daemons don't expect the NUL byte but strip it off if it's
+      there, and even more recent daemons (which adhere more closely

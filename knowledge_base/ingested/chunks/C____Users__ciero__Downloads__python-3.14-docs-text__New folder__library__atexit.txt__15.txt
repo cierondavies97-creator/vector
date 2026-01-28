@@ -1,0 +1,6 @@
+def savecounter():
+       with open('counterfile', 'w') as outfile:
+           outfile.write('%d' % _count)
+   import atexit
+   atexit.register(savecounter)
+Positional and keyword arguments may also be passed to "register()" to

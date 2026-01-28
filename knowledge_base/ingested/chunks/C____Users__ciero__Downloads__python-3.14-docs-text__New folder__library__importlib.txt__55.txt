@@ -1,0 +1,4 @@
+* "module.__loader__" *(deprecated)*
+      When "exec_module()" is available then backwards-compatible
+      functionality is provided.
+      Changed in version 3.4: Raise "ImportError" when called instead

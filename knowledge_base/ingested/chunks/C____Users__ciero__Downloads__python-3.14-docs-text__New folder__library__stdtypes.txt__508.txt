@@ -1,0 +1,4 @@
+hexadecimal numbers are a commonly used format for describing
+   binary data. Accordingly, the bytearray type has an additional
+   class method to read data in that format:
+   classmethod fromhex(string, /)

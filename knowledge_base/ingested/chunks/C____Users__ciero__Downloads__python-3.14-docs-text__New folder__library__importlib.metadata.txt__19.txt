@@ -1,0 +1,6 @@
+information regarding the distribution package that provides the
+   entry point.
+Query all entry points:
+   >>> eps = entry_points()
+The "entry_points()" function returns a "EntryPoints" object, a
+collection of all "EntryPoint" objects with "names" and "groups"

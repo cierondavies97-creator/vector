@@ -1,0 +1,4 @@
+* "keywords" is a list of "keyword" nodes, principally for
+     'metaclass'. Other keywords will be passed to the metaclass, as
+     per **PEP 3115**.
+   * "body" is a list of nodes representing the code within the class

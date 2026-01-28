@@ -1,0 +1,5 @@
+Caution:
+     Using this constructor may change the semantics of your datetimes
+     in surprising ways, only use it if you know that you need to.
+The following class methods are also available:
+classmethod ZoneInfo.clear_cache(*, only_keys=None)

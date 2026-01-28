@@ -1,0 +1,7 @@
+ascending order):
+   * The callable
+   * "self" or "NULL"
+   * The remaining positional arguments
+   * The named arguments
+   * A "tuple" of keyword argument names
+   "argc" is the total of the positional and named arguments,

@@ -1,0 +1,4 @@
+statistics(key_type: str, cumulative: bool = False)
+      Get statistics as a sorted list of "Statistic" instances grouped
+      by *key_type*:
+      +-----------------------+--------------------------+

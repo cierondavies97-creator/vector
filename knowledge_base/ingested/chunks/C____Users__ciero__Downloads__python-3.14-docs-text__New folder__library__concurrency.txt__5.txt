@@ -1,0 +1,7 @@
+* Connection Objects
+    * Synchronization primitives
+    * Shared "ctypes" Objects
+      * The "multiprocessing.sharedctypes" module
+    * Managers
+      * Customized managers
+      * Using a remote manager

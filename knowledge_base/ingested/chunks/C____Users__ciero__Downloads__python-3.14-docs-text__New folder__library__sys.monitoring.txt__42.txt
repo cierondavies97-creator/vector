@@ -1,0 +1,5 @@
+*tool_id*
+   If another callback was registered for the given *tool_id* and
+   *event*, it is unregistered and returned. Otherwise
+   "register_callback()" returns "None".
+   Raises an auditing event "sys.monitoring.register_callback" with

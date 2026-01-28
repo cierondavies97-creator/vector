@@ -1,0 +1,4 @@
+follows. If *offset* is "timedelta(0)", the name is "UTC",
+   otherwise it is a string in the format "UTC±HH:MM", where ± is the
+   sign of "offset", HH and MM are two digits of "offset.hours" and
+   "offset.minutes" respectively.

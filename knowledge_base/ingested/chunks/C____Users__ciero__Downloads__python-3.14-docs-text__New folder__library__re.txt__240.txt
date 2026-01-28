@@ -1,0 +1,3 @@
+The integer index of the last matched capturing group, or "None" if
+   no group was matched at all. For example, the expressions "(a)b",
+   "((a)(b))", and "((ab))" will have "lastindex == 1" if applied to

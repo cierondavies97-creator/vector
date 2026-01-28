@@ -1,0 +1,5 @@
+arguments
+      A mutable mapping of parameters' names to arguments' values.
+      Contains only explicitly bound arguments.  Changes in
+      "arguments" will reflect in "args" and "kwargs".
+      Should be used in conjunction with "Signature.parameters" for

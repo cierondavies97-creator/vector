@@ -1,0 +1,4 @@
+traceback)".
+      The default implementation appends a tuple "(test,
+      formatted_err)" to the instance's "failures" attribute, where
+      *formatted_err* is a formatted traceback derived from *err*.

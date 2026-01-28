@@ -1,0 +1,5 @@
+...     return m.group(1) + "".join(inner_word) + m.group(3)
+   ...
+   >>> text = "Professor Abdolmalek, please report your absences promptly."
+   >>> re.sub(r"(\w)(\w+)(\w)", repl, text)
+   'Poefsrosr Aealmlobdk, pslaee reorpt your abnseces plmrptoy.'

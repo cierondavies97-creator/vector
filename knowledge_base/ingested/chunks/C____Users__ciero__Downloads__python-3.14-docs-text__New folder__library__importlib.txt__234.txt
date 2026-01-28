@@ -1,0 +1,6 @@
+To import a Python source file directly from a path, use the following
+recipe:
+   import importlib.util
+   import sys
+   def import_from_path(module_name, file_path):
+       spec = importlib.util.spec_from_file_location(module_name, file_path)

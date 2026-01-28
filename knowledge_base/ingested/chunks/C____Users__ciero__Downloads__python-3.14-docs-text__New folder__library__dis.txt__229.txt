@@ -1,0 +1,5 @@
++------------------------------------------+-------------------------------------+
+   Added in version 3.12.
+LOAD_SPECIAL
+   Performs special method lookup on "STACK[-1]". If
+   "type(STACK[-1]).__xxx__" is a method, leave

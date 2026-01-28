@@ -1,0 +1,5 @@
+BODY[TEXT])"".  Returned data are tuples of message part envelope
+   and data.
+IMAP4.getacl(mailbox)
+   Get the "ACL"s for *mailbox*. The method is non-standard, but is
+   supported by the "Cyrus" server.

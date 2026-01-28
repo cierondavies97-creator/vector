@@ -1,0 +1,4 @@
+The optional "kwargs" entry, when evaluated in the context of the
+"logging" package's namespace, is the keyword argument dict to the
+constructor for the handler class. If not provided, it defaults to
+"{}".

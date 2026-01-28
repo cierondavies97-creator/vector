@@ -1,0 +1,4 @@
+Total allocated size: 5303.1 KiB
+See "Snapshot.statistics()" for more options.
+Record the current and peak size of all traced memory blocks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

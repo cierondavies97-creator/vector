@@ -1,0 +1,6 @@
+* "__main__" --- Top-level code environment
+  * "__name__ == '__main__'"
+    * What is the "top-level code environment"?
+    * Idiomatic Usage
+    * Packaging Considerations
+  * "__main__.py" in Python Packages

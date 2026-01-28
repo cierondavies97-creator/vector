@@ -1,0 +1,2 @@
++----------------------------------------------------+----------------------------------------------------+
+| "transport.get_extra_info()"                       | Request for information about the transport.       |

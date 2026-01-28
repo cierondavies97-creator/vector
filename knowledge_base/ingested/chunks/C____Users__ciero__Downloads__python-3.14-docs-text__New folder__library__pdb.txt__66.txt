@@ -1,0 +1,4 @@
+tbreak [([filename:]lineno | function) [, condition]]
+   Temporary breakpoint, which is removed automatically when it is
+   first hit. The arguments are the same as for "break".
+cl(ear) [filename:lineno | bpnumber ...]

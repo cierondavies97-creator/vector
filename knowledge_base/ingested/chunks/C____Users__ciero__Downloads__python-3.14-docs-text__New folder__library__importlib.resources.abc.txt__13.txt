@@ -1,0 +1,3 @@
+instance, returning subdirectory names is allowed so that when
+      it is known that the package and resources are stored on the
+      file system then those subdirectory names can be used directly.

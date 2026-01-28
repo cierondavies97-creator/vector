@@ -1,0 +1,4 @@
+and the "async with" block is exited, no new tasks may be added to the
+group.
+The first time any of the tasks belonging to the group fails with an
+exception other than "asyncio.CancelledError", the remaining tasks in

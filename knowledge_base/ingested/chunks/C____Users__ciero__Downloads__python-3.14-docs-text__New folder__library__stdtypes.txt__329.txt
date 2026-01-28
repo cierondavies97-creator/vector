@@ -1,0 +1,5 @@
+Note:
+     When formatting a number ("int", "float", "complex",
+     "decimal.Decimal" and subclasses) with the "n" type (ex:
+     "'{:n}'.format(1234)"), the function temporarily sets the
+     "LC_CTYPE" locale to the "LC_NUMERIC" locale to decode

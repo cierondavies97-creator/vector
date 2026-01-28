@@ -1,0 +1,3 @@
+An object that implements the "__aiter__()" and "__anext__()"
+   methods.  "__anext__()" must return an *awaitable* object. "async
+   for" resolves the awaitables returned by an asynchronous iterator's

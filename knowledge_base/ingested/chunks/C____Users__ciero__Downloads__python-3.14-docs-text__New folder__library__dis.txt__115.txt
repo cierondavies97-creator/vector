@@ -1,0 +1,4 @@
+STORE_NAME(namei)
+   Implements "name = STACK.pop()". *namei* is the index of *name* in
+   the attribute "co_names" of the code object. The compiler tries to
+   use "STORE_FAST" or "STORE_GLOBAL" if possible.

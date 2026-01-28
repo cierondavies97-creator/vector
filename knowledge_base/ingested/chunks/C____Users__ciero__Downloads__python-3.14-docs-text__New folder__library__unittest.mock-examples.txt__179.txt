@@ -1,0 +1,6 @@
+...         MockClass1().foo()
+   ...         MockClass2().bar()
+   <MagicMock name='mock.MockClass1().foo()' id='...'>
+   <MagicMock name='mock.MockClass2().bar()' id='...'>
+   >>> manager.mock_calls
+   [call.MockClass1(),

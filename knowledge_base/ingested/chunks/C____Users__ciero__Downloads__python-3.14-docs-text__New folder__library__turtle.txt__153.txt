@@ -1,0 +1,8 @@
+the heading of the turtle are sheared.
+      >>> turtle.shape("circle")
+      >>> turtle.shapesize(5,2)
+      >>> turtle.shearfactor(0.5)
+      >>> turtle.shearfactor()
+      0.5
+turtle.tilt(angle)
+   Parameters:

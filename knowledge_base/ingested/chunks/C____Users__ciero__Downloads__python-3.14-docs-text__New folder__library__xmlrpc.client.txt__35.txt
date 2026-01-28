@@ -1,0 +1,6 @@
+See also:
+  XML-RPC HOWTO
+     A good description of XML-RPC operation and client software in
+     several languages. Contains pretty much everything an XML-RPC
+     client developer needs to know.
+  XML-RPC Introspection

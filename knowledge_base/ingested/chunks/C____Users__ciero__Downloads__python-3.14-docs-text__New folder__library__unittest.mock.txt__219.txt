@@ -1,0 +1,6 @@
+you pass into the call will be used to set attributes on the created
+mock:
+   >>> patcher = patch('__main__.thing', first='one', second='two')
+   >>> mock_thing = patcher.start()
+   >>> mock_thing.first
+   'one'

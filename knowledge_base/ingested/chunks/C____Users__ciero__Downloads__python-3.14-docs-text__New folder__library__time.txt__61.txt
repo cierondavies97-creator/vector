@@ -1,0 +1,4 @@
+normally illegal the value is forced to a correct one.
+   The following directives can be embedded in the *format* string.
+   They are shown without the optional field width and precision
+   specification, and are replaced by the indicated characters in the

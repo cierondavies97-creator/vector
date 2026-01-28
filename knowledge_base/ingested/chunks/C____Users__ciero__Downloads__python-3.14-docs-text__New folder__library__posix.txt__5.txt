@@ -1,0 +1,3 @@
+for files that are larger than 2 GiB from a C programming model where
+int and long are 32-bit values. This is typically accomplished by
+defining the relevant size and offset types as 64-bit values. Such

@@ -1,0 +1,3 @@
+provide a bunch of options to tweak exactly how the files are copied:
+you can preserve mode and modification time, avoid following symlinks,
+ask before clobbering existing files, etc.  But none of this distracts

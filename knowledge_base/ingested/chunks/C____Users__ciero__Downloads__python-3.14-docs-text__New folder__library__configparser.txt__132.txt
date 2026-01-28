@@ -1,0 +1,4 @@
+print(cfg.get('Section1', 'foo', fallback='Monty is not.'))
+         # -> "Python is fun!"
+   print(cfg.get('Section1', 'monster', fallback='No such things as monsters.'))
+         # -> "No such things as monsters."

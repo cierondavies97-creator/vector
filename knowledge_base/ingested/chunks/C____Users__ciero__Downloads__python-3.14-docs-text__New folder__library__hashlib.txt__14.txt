@@ -1,0 +1,5 @@
+>>> m.hexdigest()
+   '031edd7d41651593c5fe5c006fa5752b37fddff7bc4e843aa6af0c950f4b9406'
+More condensed:
+>>> hashlib.sha256(b"Nobody inspects the spammish repetition").hexdigest()
+'031edd7d41651593c5fe5c006fa5752b37fddff7bc4e843aa6af0c950f4b9406'

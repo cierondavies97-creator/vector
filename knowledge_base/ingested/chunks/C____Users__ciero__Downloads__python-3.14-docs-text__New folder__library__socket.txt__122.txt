@@ -1,0 +1,3 @@
+numeric hostname, it will try to resolve it for both "AF_INET" and
+   "AF_INET6", and then try to connect to all possible addresses in
+   turn until a connection succeeds.  This makes it easy to write

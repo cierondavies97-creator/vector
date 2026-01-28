@@ -1,0 +1,4 @@
+times, or call many functions, will typically accumulate this error.
+The error that accumulates in this fashion is typically less than the
+accuracy of the clock (less than one clock tick), but it *can*
+accumulate and become very significant.

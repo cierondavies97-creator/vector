@@ -1,0 +1,4 @@
+Save the current turtle drawing (and turtles) as a PostScript file.
+   Parameters:
+      * **filename** -- the path of the saved PostScript file
+      * **overwrite** -- if "False" and there already exists a file

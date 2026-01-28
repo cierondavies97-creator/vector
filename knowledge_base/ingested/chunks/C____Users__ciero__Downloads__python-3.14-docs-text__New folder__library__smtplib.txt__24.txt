@@ -1,0 +1,7 @@
+server returns an error code.
+   smtp_code
+      The error code.
+   smtp_error
+      The error message.
+exception smtplib.SMTPSenderRefused
+   Sender address refused.  In addition to the attributes set by on

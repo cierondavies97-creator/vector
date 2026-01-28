@@ -1,0 +1,4 @@
+hierarchy is defined not by pathname but by specifying the parent
+  widget when creating each child widget.
+* Operations which are implemented as separate *commands* in Tcl (like
+  "grid" or "destroy") are represented as *methods* on Tkinter widget

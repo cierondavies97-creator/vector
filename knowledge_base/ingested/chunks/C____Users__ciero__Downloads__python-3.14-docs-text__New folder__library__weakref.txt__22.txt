@@ -1,0 +1,4 @@
+*callback*).  If either referent has been deleted, the references
+   are equal only if the reference objects are the same object.
+   This is a subclassable type rather than a factory function.
+   __callback__

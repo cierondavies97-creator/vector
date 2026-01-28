@@ -1,0 +1,6 @@
+# =======================
+   arguments[expr_ty] (memo):
+       | a=args [','] &')' { a }
+       | invalid_arguments
+   args[expr_ty]:
+       | a[asdl_expr_seq*]=','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ b=[',' k=kwargs {k}] {

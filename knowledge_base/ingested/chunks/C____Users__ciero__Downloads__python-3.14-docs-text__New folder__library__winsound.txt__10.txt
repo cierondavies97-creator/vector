@@ -1,0 +1,3 @@
+| "PlaySound()" *name*       | Corresponding Control Panel Sound name   |
+   |============================|==========================================|
+   | "'SystemAsterisk'"         | Asterisk                                 |

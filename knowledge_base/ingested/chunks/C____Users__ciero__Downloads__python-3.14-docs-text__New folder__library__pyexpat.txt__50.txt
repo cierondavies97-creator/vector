@@ -1,0 +1,3 @@
+attributes which were specified in the document instance and not
+   those which were derived from attribute declarations.  Applications
+   which set this need to be especially careful to use what additional

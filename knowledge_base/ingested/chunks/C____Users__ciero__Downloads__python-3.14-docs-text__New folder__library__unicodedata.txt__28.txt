@@ -1,0 +1,5 @@
+but uses the Unicode database version 3.2 instead, for applications
+   that require this specific version of the Unicode database (such as
+   IDNA).
+-[ Footnotes ]-
+[1] https://www.unicode.org/Public/16.0.0/ucd/NameAliases.txt

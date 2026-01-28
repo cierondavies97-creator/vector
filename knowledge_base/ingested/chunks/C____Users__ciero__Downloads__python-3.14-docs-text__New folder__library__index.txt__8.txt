@@ -1,0 +1,6 @@
+* Boolean Type - "bool"
+  * Iterator Types
+  * Sequence Types --- "list", "tuple", "range"
+  * Text and Binary Sequence Type Methods Summary
+  * Text Sequence Type --- "str"
+  * Binary Sequence Types --- "bytes", "bytearray", "memoryview"

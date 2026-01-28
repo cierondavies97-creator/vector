@@ -1,0 +1,4 @@
+such as a web browser require. While **RFC 3986** is more general.
+These functions incorporate some aspects of both, but cannot be
+claimed compliant with either.  The APIs and existing user code with
+expectations on specific behaviors predate both standards leading us

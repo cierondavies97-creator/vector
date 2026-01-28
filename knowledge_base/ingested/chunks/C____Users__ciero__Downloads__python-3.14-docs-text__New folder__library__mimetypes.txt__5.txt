@@ -1,0 +1,4 @@
+type* header.
+   *encoding* is "None" for no encoding or the name of the program
+   used to encode (e.g. **compress** or **gzip**). The encoding is
+   suitable for use as a *Content-Encoding* header, **not** as a

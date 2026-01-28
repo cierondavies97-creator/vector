@@ -1,0 +1,4 @@
+passed, providing advanced Zstandard compression parameters
+   described by "CompressionParameter". The keyword argument
+   *zstd_dict* can be passed to provide a "ZstdDict", a Zstandard
+   dictionary used to improve compression of smaller amounts of data.

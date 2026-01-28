@@ -1,0 +1,5 @@
+structural concurrency; it allows for waiting for a group of
+     related tasks with strong safety guarantees.
+   Important:
+     Save a reference to the result of this function, to avoid a task
+     disappearing mid-execution. The event loop only keeps weak

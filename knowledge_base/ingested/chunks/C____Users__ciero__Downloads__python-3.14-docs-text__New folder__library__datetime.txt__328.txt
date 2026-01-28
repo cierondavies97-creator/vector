@@ -1,0 +1,4 @@
+standard and daylight time, and the latter even if the DST
+   transition times differ in different years. An example of a time
+   zone the default "fromutc()" implementation may not handle
+   correctly in all cases is one where the standard offset (from UTC)

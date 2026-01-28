@@ -1,0 +1,6 @@
+>>> real.something = MagicMock()
+>>> real.method()
+>>> real.something.assert_called_once_with(1, 2, 3)
+Mock for Method Calls on an Object
+----------------------------------
+In the last example we patched a method directly on an object to check

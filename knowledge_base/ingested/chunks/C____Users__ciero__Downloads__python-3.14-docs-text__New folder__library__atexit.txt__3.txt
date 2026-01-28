@@ -1,0 +1,4 @@
+**Note:** The effect of registering or unregistering functions from
+within a cleanup function is undefined.
+Changed in version 3.7: When used with C-API subinterpreters,
+registered functions are local to the interpreter they were registered

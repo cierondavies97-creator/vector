@@ -1,0 +1,5 @@
+infinite recursion if a link points to a parent directory of
+     itself. "Path.walk()" does not keep track of the directories it
+     has already visited.
+   Note:
+     "Path.walk()" assumes the directories it walks are not modified

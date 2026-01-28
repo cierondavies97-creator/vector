@@ -1,0 +1,4 @@
+chain as its sole argument that allows the unwrapping to be
+   terminated early if the callback returns a true value. If the
+   callback never returns a true value, the last object in the chain
+   is returned as usual. For example, "signature()" uses this to stop

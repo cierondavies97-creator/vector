@@ -1,0 +1,6 @@
+onto the stack right-to-left. Require there to be exactly *count*
+   values.:
+      assert(len(STACK[-1]) == count)
+      STACK.extend(STACK.pop()[:-count-1:-1])
+UNPACK_EX(counts)
+   Implements assignment with a starred target: Unpacks an iterable in

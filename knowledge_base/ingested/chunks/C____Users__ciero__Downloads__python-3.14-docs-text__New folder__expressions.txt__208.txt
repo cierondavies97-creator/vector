@@ -1,0 +1,4 @@
+identity: "x == (x//y)*y + (x%y)".  Floor division and modulo are also
+connected with the built-in function "divmod()": "divmod(x, y) ==
+(x//y, x%y)". [2].
+In addition to performing the modulo operation on numbers, the "%"

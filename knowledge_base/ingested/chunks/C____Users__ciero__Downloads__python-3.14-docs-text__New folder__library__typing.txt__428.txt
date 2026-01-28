@@ -1,0 +1,5 @@
+Indicates whether the "frozen" parameter is assumed to be
+        "True" or "False" if it is omitted by the caller. Defaults to
+        "False".
+        Added in version 3.12.
+      * **field_specifiers** (*tuple**[**Callable**[**...**,

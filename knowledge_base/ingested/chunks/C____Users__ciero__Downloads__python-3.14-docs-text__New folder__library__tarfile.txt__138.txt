@@ -1,0 +1,8 @@
+TarInfo.isfile()
+   Return "True" if the "TarInfo" object is a regular file.
+TarInfo.isreg()
+   Same as "isfile()".
+TarInfo.isdir()
+   Return "True" if it is a directory.
+TarInfo.issym()
+   Return "True" if it is a symbolic link.

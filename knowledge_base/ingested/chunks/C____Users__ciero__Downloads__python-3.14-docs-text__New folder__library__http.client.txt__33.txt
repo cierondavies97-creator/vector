@@ -1,0 +1,3 @@
+is a bytes-like object, the bytes are sent as is.  If it is a *file
+   object*, the contents of the file is sent; this file object should
+   support at least the "read()" method.  If the file object is an

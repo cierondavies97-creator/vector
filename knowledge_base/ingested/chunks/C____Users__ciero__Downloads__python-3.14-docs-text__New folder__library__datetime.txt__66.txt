@@ -1,0 +1,7 @@
+>>> another_year = timedelta(weeks=40, days=84, hours=23,
+   ...                          minutes=50, seconds=600)
+   >>> year == another_year
+   True
+   >>> year.total_seconds()
+   31536000.0
+Examples of "timedelta" arithmetic:

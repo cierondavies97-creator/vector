@@ -1,0 +1,5 @@
+argument defaults to removing ASCII whitespace.  The *bytes*
+   argument is not a prefix; rather, all combinations of its values
+   are stripped:
+      >>> b'   spacious   '.lstrip()
+      b'spacious   '

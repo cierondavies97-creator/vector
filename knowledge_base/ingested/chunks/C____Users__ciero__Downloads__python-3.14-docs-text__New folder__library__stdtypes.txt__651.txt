@@ -1,0 +1,3 @@
++-----------+-----------------------------------------------------------------------+
+A length modifier ("h", "l", or "L") may be present, but is ignored as
+it is not necessary for Python -- so e.g. "%ld" is identical to "%d".

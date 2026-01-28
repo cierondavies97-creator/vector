@@ -1,0 +1,4 @@
+argument to the method).
+* "RAISE", "RERAISE", "EXCEPTION_HANDLED", "PY_UNWIND", "PY_THROW" and
+  "STOP_ITERATION":
+     func(code: CodeType, instruction_offset: int, exception: BaseException) -> object

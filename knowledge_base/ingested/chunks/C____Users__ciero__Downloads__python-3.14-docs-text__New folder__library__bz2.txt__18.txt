@@ -1,0 +1,4 @@
+read1(size=-1)
+      Read up to *size* uncompressed bytes, while trying to avoid
+      making multiple reads from the underlying stream. Reads up to a
+      buffer's worth of data if size is negative.

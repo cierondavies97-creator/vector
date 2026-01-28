@@ -1,0 +1,5 @@
+info(msg, *args, **kwargs)
+      Logs a message with level "INFO" on this logger. The arguments
+      are interpreted as for "debug()".
+   warning(msg, *args, **kwargs)
+      Logs a message with level "WARNING" on this logger. The

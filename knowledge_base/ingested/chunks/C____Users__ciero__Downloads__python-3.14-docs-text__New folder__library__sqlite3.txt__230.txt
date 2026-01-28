@@ -1,0 +1,5 @@
+See How to create and use row factories for more details.
+   keys()
+      Return a "list" of column names as "strings". Immediately after
+      a query, it is the first member of each tuple in
+      "Cursor.description".

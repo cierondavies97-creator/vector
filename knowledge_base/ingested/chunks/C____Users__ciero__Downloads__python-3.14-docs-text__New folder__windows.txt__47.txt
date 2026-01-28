@@ -1,0 +1,5 @@
+"-0" and "-0p" commands (e.g. "py -0p") are retained. They do not
+allow additional options, and will produce legacy formatted output.
+4.1.5. Installing runtimes
+--------------------------
+   $> py install [-s=|--source=<URL>] [-f|--force] [-u|--update] [--dry-run] [<TAG>...]

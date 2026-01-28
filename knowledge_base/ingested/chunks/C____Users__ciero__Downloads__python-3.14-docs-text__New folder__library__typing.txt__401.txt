@@ -1,0 +1,8 @@
+def read_config(stream: Iterable[str]):
+       for line in stream:
+           ...
+Functions and decorators
+------------------------
+typing.cast(typ, val)
+   Cast a value to a type.
+   This returns the value unchanged.  To the type checker this signals

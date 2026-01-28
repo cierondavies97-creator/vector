@@ -1,0 +1,8 @@
+8059983
+   >>> strchr.restype = c_char_p    # c_char_p is a pointer to a string
+   >>> strchr(b"abcdef", ord("d"))
+   b'def'
+   >>> print(strchr(b"abcdef", ord("x")))
+   None
+   >>>
+If you want to avoid the "ord("x")" calls above, you can set the

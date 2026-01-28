@@ -1,0 +1,4 @@
+with the current tracing parameters.  *cmd* must be a string or
+      code object, suitable for passing into "exec()".
+   runctx(cmd, globals=None, locals=None)
+      Execute the command and gather statistics from the execution

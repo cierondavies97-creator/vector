@@ -1,0 +1,4 @@
+therefore, you may want to avoid these if you intend to support
+    IPv6 with your Python programs.
+* For "AF_INET6" address family, a four-tuple "(host, port, flowinfo,
+  scope_id)" is used, where *flowinfo* and *scope_id* represent the

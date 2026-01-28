@@ -1,0 +1,4 @@
+>>> b'ab c\n\nde fg\rkl\r\n'.splitlines(keepends=True)
+      [b'ab c\n', b'\n', b'de fg\r', b'kl\r\n']
+   Unlike "split()" when a delimiter string *sep* is given, this
+   method returns an empty list for the empty string, and a terminal

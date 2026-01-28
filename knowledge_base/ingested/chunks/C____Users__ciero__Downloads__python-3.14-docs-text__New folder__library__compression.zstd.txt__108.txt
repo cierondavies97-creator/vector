@@ -1,0 +1,4 @@
+searching. Larger values make compression ratios better, but
+      compresses slower.
+      For strategy "fast", it is the distance between match sampling.
+      Larger values make compression faster, but with a worse

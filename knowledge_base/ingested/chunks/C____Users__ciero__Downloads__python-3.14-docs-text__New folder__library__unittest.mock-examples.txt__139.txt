@@ -1,0 +1,4 @@
+>>> MyTest('test_foo').test_foo()
+   >>> assert mymodule.Foo is original
+With unittest "cleanup" functions and the patch methods: start and
+stop we can achieve the same effect without the nested indentation. A

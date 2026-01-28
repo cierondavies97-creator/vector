@@ -1,0 +1,5 @@
+it is set up to an empty "dict". This opcode is only emitted if a
+   class or module body contains *variable annotations* statically.
+   Added in version 3.6.
+POP_EXCEPT
+   Pops a value from the stack, which is used to restore the exception

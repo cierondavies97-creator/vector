@@ -1,0 +1,6 @@
+"PYLAUNCHER_DRYRUN").
+4.12.8. Return codes
+--------------------
+The following exit codes may be returned by the Python launcher.
+Unfortunately, there is no way to distinguish these from the exit code
+of Python itself.

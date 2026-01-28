@@ -1,0 +1,5 @@
+error:::mymodule             # Convert warnings to errors in "mymodule"
+Default Warning Filter
+----------------------
+By default, Python installs several warning filters, which can be
+overridden by the "-W" command-line option, the "PYTHONWARNINGS"

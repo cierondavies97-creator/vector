@@ -1,0 +1,5 @@
+parameters have been removed.
+One exception is defined as an attribute of the "poplib" module:
+exception poplib.error_proto
+   Exception raised on any errors from this module (errors from
+   "socket" module are not caught). The reason for the exception is

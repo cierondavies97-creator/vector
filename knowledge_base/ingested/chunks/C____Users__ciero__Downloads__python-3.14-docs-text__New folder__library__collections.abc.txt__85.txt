@@ -1,0 +1,6 @@
+for value in iterable:
+               if value not in lst:
+                   lst.append(value)
+       def __iter__(self):
+           return iter(self.elements)
+       def __contains__(self, value):

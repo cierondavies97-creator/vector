@@ -1,0 +1,4 @@
+safe.
+The *record* parameter of the context handler also behaves differently
+depending on the value of the flag.  When *record* is true and the
+flag is false, the context manager works by replacing and then later

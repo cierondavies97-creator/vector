@@ -1,0 +1,4 @@
+The type of objects defined in extension modules with
+   "PyMemberDef", such as "datetime.timedelta.days".  This type is
+   used as descriptor for simple C data members which use standard
+   conversion functions; it has the same purpose as the "property"

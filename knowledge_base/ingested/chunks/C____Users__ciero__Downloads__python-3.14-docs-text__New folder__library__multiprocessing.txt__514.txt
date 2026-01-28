@@ -1,0 +1,7 @@
+while 1:
+               sys.stdout.flush()
+               try:
+                   sys.stdout.write('\n\t%s' % it.next(0.02))
+               except StopIteration:
+                   break
+               except multiprocessing.TimeoutError:

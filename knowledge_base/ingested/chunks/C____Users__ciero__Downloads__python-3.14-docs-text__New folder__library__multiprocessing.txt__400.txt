@@ -1,0 +1,3 @@
+flexibility.  It basically gives a high level message oriented API for
+dealing with sockets or Windows named pipes.  It also has support for
+*digest authentication* using the "hmac" module, and for polling

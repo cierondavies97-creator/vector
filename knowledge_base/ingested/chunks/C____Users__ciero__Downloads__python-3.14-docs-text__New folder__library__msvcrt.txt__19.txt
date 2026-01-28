@@ -1,0 +1,5 @@
+"OUT_*" constants listed below  or "REPORT_ERRMODE". Returns the
+   old setting or -1 if an error occurs. Only available in debug build
+   of Python.
+msvcrt.OUT_TO_DEFAULT
+   Error sink is determined by the app's type. Only available in debug

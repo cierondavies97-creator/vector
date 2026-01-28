@@ -1,0 +1,3 @@
+Same as "datetime.strftime()". This makes it possible to specify a
+   format string for a "datetime" object in formatted string literals
+   and when using "str.format()". See also strftime() and strptime()

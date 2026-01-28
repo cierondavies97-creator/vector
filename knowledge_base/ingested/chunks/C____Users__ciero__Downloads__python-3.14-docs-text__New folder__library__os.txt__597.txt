@@ -1,0 +1,5 @@
+using "os.supports_fd". If it is unavailable, using it will raise a
+   "NotImplementedError".
+   Raises an auditing event "os.exec" with arguments "path", "args",
+   "env".
+   Availability: Unix, Windows, not WASI, not Android, not iOS.

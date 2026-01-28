@@ -1,0 +1,4 @@
+("iscoroutine()" is used for the test); in this case the
+     coroutine will be scheduled by "ensure_future()".
+   * a "Task" object that would await on *obj*, if *obj* is an
+     awaitable ("inspect.isawaitable()" is used for the test.)

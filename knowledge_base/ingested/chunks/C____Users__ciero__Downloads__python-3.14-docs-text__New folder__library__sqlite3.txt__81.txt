@@ -1,0 +1,4 @@
+See also:
+     https://www.sqlite.org/c3ref/c_dbconfig_defensive.html
+        SQLite docs: Database Connection Configuration Options
+Deprecated since version 3.12, removed in version 3.14: The "version"

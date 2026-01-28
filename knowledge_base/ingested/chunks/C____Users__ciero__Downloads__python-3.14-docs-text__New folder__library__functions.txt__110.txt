@@ -1,0 +1,4 @@
+"__builtins__", a reference to the dictionary of the built-in
+   module "builtins" is inserted under that key.  That way you can
+   control what builtins are available to the executed code by
+   inserting your own "__builtins__" dictionary into *globals* before

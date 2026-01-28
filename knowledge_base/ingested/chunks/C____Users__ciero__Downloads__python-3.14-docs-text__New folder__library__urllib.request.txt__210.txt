@@ -1,0 +1,3 @@
+once after each block read thereafter.  The callable will be passed
+   three arguments; a count of blocks transferred so far, a block size
+   in bytes, and the total size of the file.  The third argument may

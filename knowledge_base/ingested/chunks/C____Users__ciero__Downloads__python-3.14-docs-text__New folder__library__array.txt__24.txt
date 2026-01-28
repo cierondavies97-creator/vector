@@ -1,0 +1,5 @@
+certain "ioctl()" operations.  The returned numbers are valid as
+      long as the array exists and no length-changing operations are
+      applied to it.
+      Note:
+        When using array objects from code written in C or C++ (the

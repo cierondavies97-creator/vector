@@ -1,0 +1,6 @@
+If an argument outside those ranges is given, "ValueError" is
+   raised.
+Other constructors, all class methods:
+classmethod date.today()
+   Return the current local date.
+   This is equivalent to "date.fromtimestamp(time.time())".

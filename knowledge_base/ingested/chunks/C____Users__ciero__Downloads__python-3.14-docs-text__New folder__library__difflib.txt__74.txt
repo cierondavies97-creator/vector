@@ -1,0 +1,5 @@
+matching blocks that start earliest in *a*, return the one that
+      starts earliest in *b*.
+      >>> s = SequenceMatcher(None, " abcd", "abcd abcd")
+      >>> s.find_longest_match(0, 5, 0, 9)
+      Match(a=0, b=4, size=5)

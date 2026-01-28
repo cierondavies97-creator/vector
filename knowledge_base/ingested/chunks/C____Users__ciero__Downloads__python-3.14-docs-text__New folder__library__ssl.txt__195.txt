@@ -1,0 +1,4 @@
+are not interoperable with the other versions.  If not specified,
+   the default is "PROTOCOL_TLS"; it provides the most compatibility
+   with other versions.
+   Here's a table showing which versions in a client (down the side)

@@ -1,0 +1,3 @@
+One can also cause all warnings to be exceptions by using "error"
+instead of "always". One thing to be aware of is that if a warning has
+already been raised because of a "once"/"default" rule, then no matter

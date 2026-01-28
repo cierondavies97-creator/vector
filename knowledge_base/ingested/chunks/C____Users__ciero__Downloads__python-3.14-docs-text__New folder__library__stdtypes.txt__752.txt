@@ -1,0 +1,7 @@
+set.issubset(other, /)
+set <= other
+   Test whether every element in the set is in *other*.
+set < other
+   Test whether the set is a proper subset of *other*, that is, "set
+   <= other and set != other".
+frozenset.issuperset(other, /)

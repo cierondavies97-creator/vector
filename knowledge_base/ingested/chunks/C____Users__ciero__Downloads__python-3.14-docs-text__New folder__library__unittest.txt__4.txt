@@ -1,0 +1,4 @@
+test case
+   A *test case* is the individual unit of testing.  It checks for a
+   specific response to a particular set of inputs.  "unittest"
+   provides a base class, "TestCase", which may be used to create new

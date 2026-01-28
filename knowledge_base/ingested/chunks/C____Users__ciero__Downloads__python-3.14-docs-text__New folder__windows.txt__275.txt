@@ -1,0 +1,5 @@
+* The *filesystem encoding* (see **PEP 529** for details).
+4.8. Finding modules
+====================
+These notes supplement the description at The initialization of the
+sys.path module search path with detailed Windows notes.

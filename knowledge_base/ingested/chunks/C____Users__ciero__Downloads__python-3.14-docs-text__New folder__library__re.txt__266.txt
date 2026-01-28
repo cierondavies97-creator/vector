@@ -1,0 +1,4 @@
+Note however that in "MULTILINE" mode "match()" only matches at the
+beginning of the string, whereas using "search()" with a regular
+expression beginning with "'^'" will match at the beginning of each
+line.

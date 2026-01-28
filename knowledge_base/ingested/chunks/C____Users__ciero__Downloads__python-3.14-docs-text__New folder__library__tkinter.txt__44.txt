@@ -1,0 +1,4 @@
+or Tkinter.  For that, refer to one of the external resources noted
+earlier. Instead, this section provides a very quick orientation to
+what a Tkinter application looks like, identifies foundational Tk
+concepts, and explains how the Tkinter wrapper is structured.

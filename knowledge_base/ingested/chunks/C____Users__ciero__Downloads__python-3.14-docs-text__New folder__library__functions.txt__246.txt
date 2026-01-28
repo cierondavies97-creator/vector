@@ -1,0 +1,3 @@
+"io.TextIOBase" (specifically "io.TextIOWrapper").  When used to
+   open a file in a binary mode with buffering, the returned class is
+   a subclass of "io.BufferedIOBase".  The exact class varies: in read

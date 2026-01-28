@@ -1,0 +1,5 @@
+"mboxMessage" objects
+---------------------
+class mailbox.mboxMessage(message=None)
+   A message with mbox-specific behaviors. Parameter *message* has the
+   same meaning as with the "Message" constructor.

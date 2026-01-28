@@ -1,0 +1,4 @@
+ElementTree wrapper class.  This class represents an entire element
+   hierarchy, and adds some extra support for serialization to and
+   from standard XML.
+   *element* is the root element.  The tree is initialized with the

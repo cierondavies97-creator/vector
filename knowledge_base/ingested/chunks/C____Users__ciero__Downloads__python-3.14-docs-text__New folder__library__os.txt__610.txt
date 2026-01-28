@@ -1,0 +1,5 @@
+Availability: Unix, not WASI.
+os.EX_NOPERM
+   Exit code that means that there were insufficient permissions to
+   perform the operation (but not intended for file system problems).
+   Availability: Unix, not WASI.

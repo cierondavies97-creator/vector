@@ -1,0 +1,5 @@
+* "importlib.metadata" -- Accessing package metadata
+  * The initialization of the "sys.path" module search path
+* Python Language Services
+  * "ast" --- Abstract syntax trees
+  * "symtable" --- Access to the compiler's symbol tables

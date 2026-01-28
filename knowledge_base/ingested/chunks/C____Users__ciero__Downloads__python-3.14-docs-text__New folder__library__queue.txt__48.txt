@@ -1,0 +1,4 @@
+A queue class for use in a multi-processing (rather than multi-
+     threading) context.
+  "collections.deque" is an alternative implementation of unbounded
+  queues with fast atomic "append()" and "popleft()" operations that

@@ -1,0 +1,5 @@
+...                     assert mymodule.Foo is mock_foo
+   ...                     assert mymodule.Bar is mock_bar
+   ...                     assert mymodule.Spam is mock_spam
+   ...
+   >>> original = mymodule.Foo

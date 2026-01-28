@@ -1,0 +1,4 @@
+If *arg* supports the read-write buffer interface (like
+   "bytearray") and *mutate_flag* is true (the default), then the
+   buffer is (in effect) passed to the underlying "ioctl()" system
+   call, the latter's return code is passed back to the calling

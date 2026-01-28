@@ -1,0 +1,3 @@
+makes it possible to either limit surprising/dangerous features, or to
+acknowledge that they are expected and the archive is fully trusted.
+Changed in version 3.14: Set the default extraction filter to "data",

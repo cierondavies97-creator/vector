@@ -1,0 +1,5 @@
+behave if verification fails.  This attribute must be one of
+   "CERT_NONE", "CERT_OPTIONAL" or "CERT_REQUIRED".
+   Changed in version 3.6: "SSLContext.verify_mode" returns
+   "VerifyMode" enum:
+   >>> ssl.create_default_context().verify_mode

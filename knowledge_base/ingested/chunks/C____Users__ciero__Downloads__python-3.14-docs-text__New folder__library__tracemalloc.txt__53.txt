@@ -1,0 +1,5 @@
+Added in version 3.9.
+tracemalloc.get_tracemalloc_memory()
+   Get the memory usage in bytes of the "tracemalloc" module used to
+   store traces of memory blocks. Return an "int".
+tracemalloc.is_tracing()

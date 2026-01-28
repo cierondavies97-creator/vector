@@ -1,0 +1,4 @@
+resize(newsize)
+      Resizes the map and the underlying file, if any.
+      Resizing a map created with *access* of "ACCESS_READ" or
+      "ACCESS_COPY", will raise a "TypeError" exception. Resizing a

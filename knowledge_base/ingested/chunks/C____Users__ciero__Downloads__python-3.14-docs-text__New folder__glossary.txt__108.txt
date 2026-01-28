@@ -1,0 +1,5 @@
+return a + b
+   Function annotation syntax is explained in section Function
+   definitions.
+   See *variable annotation* and **PEP 484**, which describe this
+   functionality. Also see Annotations Best Practices for best

@@ -1,0 +1,5 @@
+sizes with positive numbers are measured in points; sizes with
+   negative numbers are measured in pixels.
+geometry
+   This is a string of the form "widthxheight", where width and height
+   are measured in pixels for most widgets (in characters for widgets

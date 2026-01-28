@@ -1,0 +1,4 @@
+input as requested or to emit all provided data.
+   In addition, if the underlying raw stream is in non-blocking mode,
+   when the system returns would block "write()" will raise
+   "BlockingIOError" with "BlockingIOError.characters_written" and

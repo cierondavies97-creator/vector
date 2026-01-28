@@ -1,0 +1,6 @@
+"YYYY").
+   5. Extended date representations are not currently supported
+      ("±YYYYYY-MM-DD").
+   6. Ordinal dates are not currently supported ("YYYY-OOO").
+   Examples:
+      >>> from datetime import datetime

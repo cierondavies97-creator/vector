@@ -1,0 +1,4 @@
+into bytes.  Headers with binary data are not refolded,
+      regardless of the "refold_header" setting, since there is no way
+      to know whether the binary data consists of single byte
+      characters or multibyte characters.

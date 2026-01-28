@@ -1,0 +1,5 @@
+"bytearray(10)"
+   * From an iterable of integers: "bytearray(range(20))"
+   * Copying existing binary data via the buffer protocol:
+     "bytearray(b'Hi!')"
+   As bytearray objects are mutable, they support the mutable sequence

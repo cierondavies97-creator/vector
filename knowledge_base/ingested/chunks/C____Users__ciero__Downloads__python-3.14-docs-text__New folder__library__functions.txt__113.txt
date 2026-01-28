@@ -1,0 +1,5 @@
+current global and local namespace, respectively, which may be
+     useful to pass around for use as the second and third argument to
+     "exec()".
+   Note:
+     The default *locals* act as described for function "locals()"

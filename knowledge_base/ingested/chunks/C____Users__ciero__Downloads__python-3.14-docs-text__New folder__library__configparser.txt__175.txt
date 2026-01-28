@@ -1,0 +1,4 @@
+unless the *raw* argument is true.  Values for interpolation
+      keys are looked up in the same manner as the option.
+      Changed in version 3.2: Arguments *raw*, *vars* and *fallback*
+      are keyword only to protect users from trying to use the third

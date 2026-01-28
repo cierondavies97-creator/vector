@@ -1,0 +1,4 @@
+function. Use "None" for void, a function not returning
+      anything.
+      It is possible to assign a callable Python object that is not a
+      ctypes type, in this case the function is assumed to return a C

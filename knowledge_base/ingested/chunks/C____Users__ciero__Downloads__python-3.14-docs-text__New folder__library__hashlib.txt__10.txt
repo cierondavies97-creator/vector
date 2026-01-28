@@ -1,0 +1,4 @@
+Changed in version 3.9: All hashlib constructors take a keyword-only
+argument *usedforsecurity* with default value "True". A false value
+allows the use of insecure and blocked hashing algorithms in
+restricted environments. "False" indicates that the hashing algorithm

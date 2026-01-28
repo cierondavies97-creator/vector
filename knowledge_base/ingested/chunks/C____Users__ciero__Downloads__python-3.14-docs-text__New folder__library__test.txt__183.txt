@@ -1,0 +1,4 @@
+encoded and decoded with the default filesystem encoding. This
+   allows tests that require a non-ASCII filename to be easily skipped
+   on platforms where they can't work.
+test.support.os_helper.TESTFN_UNENCODABLE

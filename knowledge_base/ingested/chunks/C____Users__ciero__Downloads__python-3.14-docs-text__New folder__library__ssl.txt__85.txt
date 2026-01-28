@@ -1,0 +1,5 @@
+server support. Despite the name, this option can select both "SSL"
+   and "TLS" protocols.
+   Added in version 3.6.
+   Deprecated since version 3.10: TLS clients and servers require
+   different default settings for secure communication. The generic

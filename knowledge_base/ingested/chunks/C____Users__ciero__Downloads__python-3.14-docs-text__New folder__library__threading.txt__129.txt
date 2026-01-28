@@ -1,0 +1,8 @@
+is not acquired.
+      There is no return value.
+   locked()
+      Return a boolean indicating whether this object is locked right
+      now.
+      Added in version 3.14.
+Condition objects
+-----------------

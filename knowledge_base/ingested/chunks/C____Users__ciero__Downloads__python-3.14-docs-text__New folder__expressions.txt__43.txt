@@ -1,0 +1,5 @@
+When a comprehension is supplied, the list is constructed from the
+elements resulting from the comprehension.
+6.2.6. Set displays
+-------------------
+A set display is denoted by curly braces and distinguishable from

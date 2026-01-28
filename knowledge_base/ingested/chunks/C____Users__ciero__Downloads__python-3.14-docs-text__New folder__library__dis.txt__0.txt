@@ -1,0 +1,5 @@
+"dis" --- Disassembler for Python bytecode
+******************************************
+**Source code:** Lib/dis.py
+======================================================================
+The "dis" module supports the analysis of CPython *bytecode* by

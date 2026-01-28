@@ -1,0 +1,3 @@
+be presented as "bytes" objects; this flag is false by default.
+   "datetime.datetime", "bytes" and "bytearray" objects may be passed
+   to calls. The *headers* parameter is an optional sequence of HTTP

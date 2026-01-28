@@ -1,0 +1,5 @@
+*size* argument is ignored).
+      Note:
+        While calling "peek()" does not change the file position of
+        the "ZstdFile", it may change the position of the underlying
+        file object (for example, if the "ZstdFile" was constructed by

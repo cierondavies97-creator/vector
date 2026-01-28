@@ -1,0 +1,4 @@
+parse event they indicate the location of the first of the sequence of
+characters that generated the event.  When called outside of a
+callback, the position indicated will be just past the last parse
+event (regardless of whether there was an associated callback).

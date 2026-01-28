@@ -1,0 +1,6 @@
+Base Protocol
+-------------
+All asyncio protocols can implement Base Protocol callbacks.
+-[ Connection Callbacks ]-
+Connection callbacks are called on all protocols, exactly once per a
+successful connection.  All other protocol callbacks can only be

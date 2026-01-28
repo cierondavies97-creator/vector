@@ -1,0 +1,4 @@
+RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "cannot have both 'except' and 'except*' on the same 'try'") }
+   invalid_except_stmt:
+       | 'except' a=expression ',' expressions 'as' NAME  ':' {
+           RAISE_SYNTAX_ERROR_STARTING_FROM(a, "multiple exception types must be parenthesized when using 'as'") }

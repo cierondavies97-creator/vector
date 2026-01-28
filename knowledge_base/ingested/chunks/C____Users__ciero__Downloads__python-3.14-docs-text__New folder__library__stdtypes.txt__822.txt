@@ -1,0 +1,7 @@
+>>> list(keys)
+   ['eggs', 'sausage', 'bacon', 'spam']
+   >>> list(values)
+   [2, 1, 1, 500]
+   >>> # view objects are dynamic and reflect dict changes
+   >>> del dishes['eggs']
+   >>> del dishes['sausage']

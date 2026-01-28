@@ -1,0 +1,5 @@
+unable to retrieve the real path to its executable,
+   "sys.executable" will be an empty string or "None".
+sys.exit([arg])
+   Raise a "SystemExit" exception, signaling an intention to exit the
+   interpreter.

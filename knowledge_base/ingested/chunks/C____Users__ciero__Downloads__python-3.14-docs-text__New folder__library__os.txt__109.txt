@@ -1,0 +1,5 @@
+==========================
+These functions operate on I/O streams referenced using file
+descriptors.
+File descriptors are small integers corresponding to a file that has
+been opened by the current process.  For example, standard input is

@@ -1,0 +1,5 @@
+need to completely control the character sets used when encoding
+headers.
+The remaining text in this section is the original documentation of
+the module.
+**RFC 2822** is the base standard that describes the format of email

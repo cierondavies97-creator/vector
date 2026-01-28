@@ -1,0 +1,4 @@
+write your code to work under both versions.
+* If you use an explicit version, for example "/usr/bin/env python3"
+  your application will not work for users who do not have that
+  version.  (This may be what you want if you have not made your code

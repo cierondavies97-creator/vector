@@ -1,0 +1,4 @@
+"datetime.datetime" is set as an aware object, it will convert to
+   UTC timezone before writing it.
+   A "TypeError" will be raised if the object is of an unsupported
+   type or a container that contains objects of unsupported types.

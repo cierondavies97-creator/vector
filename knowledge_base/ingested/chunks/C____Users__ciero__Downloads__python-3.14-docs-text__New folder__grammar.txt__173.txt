@@ -1,0 +1,4 @@
+string[expr_ty]: s[Token*]=STRING { _PyPegen_constant_from_string(p, s) }
+   strings[expr_ty] (memo):
+       | invalid_string_tstring_concat
+       | a[asdl_expr_seq*]=(fstring|string)+ { _PyPegen_concatenate_strings(p, a, EXTRA) }

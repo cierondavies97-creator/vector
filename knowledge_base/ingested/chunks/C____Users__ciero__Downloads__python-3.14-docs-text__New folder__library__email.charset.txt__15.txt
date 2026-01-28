@@ -1,0 +1,4 @@
+*output_charset*.  If no conversion codec is necessary, this
+      attribute will have the same value as the *input_codec*.
+   "Charset" instances also have the following methods:
+   get_body_encoding()

@@ -1,0 +1,3 @@
+represented exactly as a float, and rounds to the surprising
+   "1e100".  For this reason, function "fmod()" is generally preferred
+   when working with floats, while Python's "x % y" is preferred when

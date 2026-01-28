@@ -1,0 +1,6 @@
+...     turtle.right(60)
+      ...     turtle.forward(100)
+   Added in version 3.14.
+turtle.begin_poly()
+   Start recording the vertices of a polygon.  Current turtle position
+   is first vertex of polygon.

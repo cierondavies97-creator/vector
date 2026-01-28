@@ -1,0 +1,3 @@
+*f*.  The optional *restval* parameter specifies the value to be
+   written if the dictionary is missing a key in *fieldnames*.  If the
+   dictionary passed to the "writerow()" method contains a key not

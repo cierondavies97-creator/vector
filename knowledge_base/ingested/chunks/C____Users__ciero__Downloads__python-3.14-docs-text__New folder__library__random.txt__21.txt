@@ -1,0 +1,4 @@
+interpreted in unexpected ways. For example "randrange(start=100)"
+   is interpreted as "randrange(0, 100, 1)".
+   Changed in version 3.2: "randrange()" is more sophisticated about
+   producing equally distributed values.  Formerly it used a style

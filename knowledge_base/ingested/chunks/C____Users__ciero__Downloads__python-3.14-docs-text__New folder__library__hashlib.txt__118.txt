@@ -1,0 +1,4 @@
+PKCS #5: Password-Based Cryptography Specification Version 2.1
+  https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication8
+  00-132.pdf
+     NIST Recommendation for Password-Based Key Derivation.

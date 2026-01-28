@@ -1,0 +1,5 @@
+Added in version 3.3.
+signal.sigwait(sigset)
+   Suspend execution of the calling thread until the delivery of one
+   of the signals specified in the signal set *sigset*.  The function
+   accepts the signal (removes it from the pending list of signals),

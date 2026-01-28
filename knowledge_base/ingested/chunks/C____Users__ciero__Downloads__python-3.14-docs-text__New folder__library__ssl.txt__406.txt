@@ -1,0 +1,11 @@
+Session object used by "session".
+   id
+   time
+   timeout
+   ticket_lifetime_hint
+   has_ticket
+Security considerations
+=======================
+Best defaults
+-------------
+For **client use**, if you don't have any special requirements for

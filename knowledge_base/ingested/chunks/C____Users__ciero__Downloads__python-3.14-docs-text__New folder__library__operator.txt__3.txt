@@ -1,0 +1,7 @@
+The object comparison functions are useful for all objects, and are
+named after the rich comparison operators they support:
+operator.lt(a, b)
+operator.le(a, b)
+operator.eq(a, b)
+operator.ne(a, b)
+operator.ge(a, b)

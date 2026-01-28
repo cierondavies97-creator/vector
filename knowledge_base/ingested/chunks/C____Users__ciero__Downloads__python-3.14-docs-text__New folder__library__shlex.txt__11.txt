@@ -1,0 +1,5 @@
+>>> print(remote_command)
+   ssh home 'ls -l '"'"'somefile; rm -rf ~'"'"''
+   The quoting is compatible with UNIX shells and with "split()":
+   >>> from shlex import split
+   >>> remote_command = split(remote_command)

@@ -1,0 +1,10 @@
+s.listen(1)
+       except OSError as msg:
+           s.close()
+           s = None
+           continue
+       break
+   if s is None:
+       print('could not open socket')
+       sys.exit(1)
+   conn, addr = s.accept()

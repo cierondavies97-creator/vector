@@ -1,0 +1,5 @@
+return PyUnicode_FromFormat("Stringified_newdatatype{{size:%d}}",
+                                   self->obj_UnderlyingDatatypePtr->size);
+   }
+3.3. Attribute Management
+=========================

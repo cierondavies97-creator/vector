@@ -1,0 +1,6 @@
+st_mtime=1297230027, st_ctime=1297230027)
+      >>> statinfo.st_size
+      264
+   See also: "fstat()" and "lstat()" functions.
+   Changed in version 3.3: Added the *dir_fd* and *follow_symlinks*
+   parameters, specifying a file descriptor instead of a path.

@@ -1,0 +1,3 @@
+as its second operand (or zero); the absolute value of the result is
+strictly smaller than the absolute value of the second operand [1].
+The floor division and modulo operators are connected by the following

@@ -1,0 +1,8 @@
+protocols and classes that can be used for static type checking.
+Performance
+===========
+This section discusses the performance of the provided concrete I/O
+implementations.
+Binary I/O
+----------
+By reading and writing only large chunks of data even when the user

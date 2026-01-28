@@ -1,0 +1,4 @@
+the next "await", so the cancellation is not lost.
+Task groups preserve the cancellation count reported by
+"asyncio.Task.cancelling()".
+Changed in version 3.13: Improved handling of simultaneous internal

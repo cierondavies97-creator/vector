@@ -1,0 +1,4 @@
+'ni']
+   Added in version 3.8.
+pprint.pprint(object, stream=None, indent=1, width=80, depth=None, *, compact=False, sort_dicts=True, underscore_numbers=False)
+   Alias for "pp()" with *sort_dicts* set to "True" by default, which

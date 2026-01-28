@@ -1,0 +1,2 @@
+|                                                    | "__module__" attribute removes the                 |
+|                                                    | "__firstlineno__" item from the type's dictionary. |

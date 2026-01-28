@@ -1,0 +1,8 @@
+In "range(60)".
+datetime.microsecond
+   In "range(1000000)".
+datetime.tzinfo
+   The object passed as the *tzinfo* argument to the "datetime"
+   constructor, or "None" if none was passed.
+datetime.fold
+   In "[0, 1]". Used to disambiguate wall times during a repeated

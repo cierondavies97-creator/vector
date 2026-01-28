@@ -1,0 +1,5 @@
+Changed in version 3.8: Added "'pgettext'" and "'npgettext'".
+The "GNUTranslations" class
+---------------------------
+The "gettext" module provides one additional class derived from
+"NullTranslations": "GNUTranslations".  This class overrides

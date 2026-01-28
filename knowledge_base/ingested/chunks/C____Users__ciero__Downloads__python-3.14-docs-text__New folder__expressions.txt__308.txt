@@ -1,0 +1,4 @@
+first argument instead, and so returns "-1e-100" in this case.
+    Which approach is more appropriate depends on the application.
+[2] If x is very close to an exact integer multiple of y, it's
+    possible for "x//y" to be one larger than "(x-x%y)//y" due to

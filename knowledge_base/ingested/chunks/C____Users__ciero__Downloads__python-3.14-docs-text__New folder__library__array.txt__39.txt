@@ -1,0 +1,6 @@
+Added in version 3.2: "tostring()" is renamed to "tobytes()" for
+      clarity.
+   tofile(f)
+      Write all items (as machine values) to the *file object* *f*.
+   tolist()
+      Convert the array to an ordinary list with the same items.

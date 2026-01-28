@@ -1,0 +1,3 @@
+parser.add_option("-q", action="store_false", dest="verbose", default=True)
+Again, the default value for "verbose" will be "True": the last
+default value supplied for any particular destination is the one that

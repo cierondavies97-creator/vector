@@ -1,0 +1,5 @@
+Requirements for optional modules.
+This document includes four main sections:
+* Tutorial teaches how to use the "sqlite3" module.
+* Reference describes the classes and functions this module defines.
+* How-to guides details how to handle specific tasks.

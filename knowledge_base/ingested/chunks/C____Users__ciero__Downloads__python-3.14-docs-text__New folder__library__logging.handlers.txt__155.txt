@@ -1,0 +1,4 @@
+the buffer to an empty list. This method can be overwritten to
+      implement more useful flushing behavior.
+   shouldFlush(record)
+      Return "True" if the buffer is up to capacity. This method can

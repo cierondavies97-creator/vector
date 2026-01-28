@@ -1,0 +1,6 @@
+return False
+           if i_dont_want_to_store_this_cookie(cookie):
+               return False
+           return True
+In addition to the features required to implement the "CookiePolicy"
+interface, this class allows you to block and allow domains from

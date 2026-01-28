@@ -1,0 +1,4 @@
+and-move semantics, etc. Also added the caveat that
+   "FileExistsError" is raised if *cfile* is a symlink or non-regular
+   file.
+   Changed in version 3.7: The *invalidation_mode* parameter was added

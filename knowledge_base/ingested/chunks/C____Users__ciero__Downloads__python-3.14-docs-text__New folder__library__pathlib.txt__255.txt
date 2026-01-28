@@ -1,0 +1,4 @@
+Specifically, the absence of a separator in the path may force it
+   to be looked up in "PATH" rather than the current directory.
+As a consequence of these differences, pathlib is not a drop-in
+replacement for "os.path".

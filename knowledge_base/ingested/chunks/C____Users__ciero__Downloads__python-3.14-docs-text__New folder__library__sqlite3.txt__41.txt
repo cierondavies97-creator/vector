@@ -1,0 +1,3 @@
+path and an optional query string. The scheme part *must* be
+        ""file:"", and the path can be relative or absolute. The query
+        string allows passing parameters to SQLite, enabling various

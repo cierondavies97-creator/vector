@@ -1,0 +1,6 @@
+forward.__doc__ = monomorphic_operator.__doc__
+       def reverse(b, a):
+           if isinstance(a, Rational):
+               # Includes ints.
+               return monomorphic_operator(a, b)
+           elif isinstance(a, Real):

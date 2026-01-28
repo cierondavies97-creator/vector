@@ -1,0 +1,4 @@
+added (relative to the source directory).  It should return "True"
+   if the file is to be added.
+   The optional *compressed* argument determines whether files are
+   compressed.  If set to "True", files in the archive are compressed

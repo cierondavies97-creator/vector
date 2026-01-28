@@ -1,0 +1,4 @@
+The *mode* argument can be either "'r'" for reading (default),
+   "'w'" for overwriting, "'x'" for exclusive creation, or "'a'" for
+   appending. These can equivalently be given as "'rb'", "'wb'",
+   "'xb'" and "'ab'" respectively.

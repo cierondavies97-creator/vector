@@ -1,0 +1,5 @@
+"NullTranslations":
+class gettext.NullTranslations(fp=None)
+   Takes an optional *file object* *fp*, which is ignored by the base
+   class. Initializes "protected" instance variables *_info* and
+   *_charset* which are set by derived classes, as well as

@@ -1,0 +1,3 @@
+to the order in which they were installed (i.e., without knowing
+whether a 32 or 64-bit version of Python and corresponding launcher
+was installed last). As noted above, an optional "-32" or "-64" suffix

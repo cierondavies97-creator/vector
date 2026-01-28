@@ -1,0 +1,7 @@
+across zstd versions. Only the ordering of the attributes may be
+     relied upon. The attributes are listed below in order.
+   The following strategies are available:
+   fast
+   dfast
+   greedy
+   lazy

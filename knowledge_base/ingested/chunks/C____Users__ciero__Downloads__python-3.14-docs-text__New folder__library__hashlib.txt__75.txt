@@ -1,0 +1,6 @@
+20
+>>> len(h.digest())
+20
+Hash objects with different digest sizes have completely different
+outputs (shorter hashes are *not* prefixes of longer hashes); BLAKE2b
+and BLAKE2s produce different outputs even if the output length is the

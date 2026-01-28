@@ -1,0 +1,5 @@
+to "False".
+The Python Development Mode can only be enabled at the Python startup.
+Its value can be read from "sys.flags.dev_mode".
+Changed in version 3.8: The "io.IOBase" destructor now logs "close()"
+exceptions.

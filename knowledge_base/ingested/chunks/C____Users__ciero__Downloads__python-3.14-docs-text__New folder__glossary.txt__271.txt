@@ -1,0 +1,4 @@
+have many thread states available.  At most, one of them may be
+   *attached* at once.
+   An *attached thread state* is required to call most of Python's C
+   API, unless a function explicitly documents otherwise. The bytecode

@@ -1,0 +1,3 @@
+memory block that hold C compatible data; the address of the memory
+   block is returned by the "addressof()" helper function. Another
+   instance variable is exposed as "_objects"; this contains other

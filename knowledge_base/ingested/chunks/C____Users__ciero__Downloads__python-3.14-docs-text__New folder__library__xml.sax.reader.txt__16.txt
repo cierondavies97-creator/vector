@@ -1,0 +1,4 @@
+XMLReader.parse(source)
+   Process an input source, producing SAX events. The *source* object
+   can be a system identifier (a string identifying the input source
+   -- typically a file name or a URL), a "pathlib.Path" or *path-like*

@@ -1,0 +1,6 @@
+├── TypeError
+         ├── ValueError
+         │    └── UnicodeError
+         │         ├── UnicodeDecodeError
+         │         ├── UnicodeEncodeError
+         │         └── UnicodeTranslateError

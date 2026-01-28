@@ -1,0 +1,4 @@
+a debugger from a checkpoint, to recursively debug or profile some
+   other code.
+   Tracing is suspended while calling a tracing function set by
+   "settrace()" or "setprofile()" to avoid infinite recursion.

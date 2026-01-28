@@ -1,0 +1,4 @@
+With no arguments, return a dictionary of all configuration
+   variables relevant for the current platform.
+   With arguments, return a list of values that result from looking up
+   each argument in the configuration variable dictionary.

@@ -1,0 +1,4 @@
+"Charset" instances have the following data attributes:
+   input_charset
+      The initial character set specified.  Common aliases are
+      converted to their *official* email names (e.g. "latin_1" is

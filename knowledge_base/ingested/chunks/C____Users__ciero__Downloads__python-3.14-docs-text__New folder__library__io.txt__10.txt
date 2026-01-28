@@ -1,0 +1,5 @@
+all kinds of non-text data, and also when manual control over the
+handling of text data is desired.
+The easiest way to create a binary stream is with "open()" with "'b'"
+in the mode string:
+   f = open("myfile.jpg", "rb")

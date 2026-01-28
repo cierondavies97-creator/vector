@@ -1,0 +1,4 @@
+Delete the ACLs (remove any rights) set for who on mailbox.
+IMAP4.enable(capability)
+   Enable *capability* (see **RFC 5161**).  Most capabilities do not
+   need to be enabled.  Currently only the "UTF8=ACCEPT" capability is

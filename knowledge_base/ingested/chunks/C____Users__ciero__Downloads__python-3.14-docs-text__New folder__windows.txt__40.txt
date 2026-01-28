@@ -1,0 +1,3 @@
+$> py list [-f=|--format=<FMT>] [-1|--one] [--online|-s=|--source=<URL>] [<TAG>...]
+The list of installed runtimes can be seen using "py list". A filter
+may be added in the form of one or more tags (with or without company

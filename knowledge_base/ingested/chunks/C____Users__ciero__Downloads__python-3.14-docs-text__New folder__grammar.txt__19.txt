@@ -1,0 +1,5 @@
+(asdl_stmt_seq*)_PyPegen_singleton_seq(p, a)
+                           ) }
+       | a[asdl_stmt_seq*]=simple_stmts { a }
+   single_compound_stmt[asdl_stmt_seq*]:
+       | a=compound_stmt {

@@ -1,0 +1,5 @@
+Futures
+*******
+**Source code:** Lib/asyncio/futures.py, Lib/asyncio/base_futures.py
+======================================================================
+*Future* objects are used to bridge **low-level callback-based code**

@@ -1,0 +1,4 @@
+be run in the order "C", "B", "A".
+**Note:** The functions registered via this module are not called when
+the program is killed by a signal not handled by Python, when a Python
+fatal internal error is detected, or when "os._exit()" is called.

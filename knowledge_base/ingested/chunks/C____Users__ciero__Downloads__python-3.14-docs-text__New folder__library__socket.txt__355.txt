@@ -1,0 +1,5 @@
+"TIME_WAIT" state, and can't be immediately reused.
+There is a "socket" flag to set, in order to prevent this,
+"socket.SO_REUSEADDR":
+   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+   s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

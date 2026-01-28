@@ -1,0 +1,6 @@
+...     assert 'other' in repr(values['other'])
+   ...     assert 'thing' in repr(values['thing'])
+   ...     assert values['thing'] is thing
+   ...     assert values['other'] is other
+   ...
+patch methods: start and stop

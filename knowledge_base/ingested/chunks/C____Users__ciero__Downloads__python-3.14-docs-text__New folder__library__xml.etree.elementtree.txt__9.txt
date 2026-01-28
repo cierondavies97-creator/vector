@@ -1,0 +1,8 @@
+</country>
+   </data>
+We can import this data by reading from a file:
+   import xml.etree.ElementTree as ET
+   tree = ET.parse('country_data.xml')
+   root = tree.getroot()
+Or directly from a string:
+   root = ET.fromstring(country_data_as_string)

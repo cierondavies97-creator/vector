@@ -1,0 +1,4 @@
+updated if newer versions are available. Updates will remove any
+modifications made to the install, including globally installed
+packages, but virtual environments will continue to work.
+Passing "--dry-run" will generate output and logs, but will not modify

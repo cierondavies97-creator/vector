@@ -1,0 +1,6 @@
+and their length in bytes.
+   The *errors* argument is ignored.
+      >>> codecs.readbuffer_encode(b"Zito")
+      (b'Zito', 4)
+The module also provides the following constants which are useful for
+reading and writing to platform dependent files:

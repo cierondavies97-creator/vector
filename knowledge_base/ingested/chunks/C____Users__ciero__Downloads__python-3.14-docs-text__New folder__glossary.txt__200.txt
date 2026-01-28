@@ -1,0 +1,4 @@
+A scope where target local variable names are reliably known to the
+   compiler when the code is compiled, allowing optimization of read
+   and write access to these names. The local namespaces for
+   functions, generators, coroutines, comprehensions, and generator

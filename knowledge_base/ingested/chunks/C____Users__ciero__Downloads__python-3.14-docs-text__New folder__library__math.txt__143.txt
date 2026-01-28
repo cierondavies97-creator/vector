@@ -1,0 +1,4 @@
+Raises "ValueError" if the inputs do not have the same length.
+   Roughly equivalent to:
+      sum(map(operator.mul, p, q, strict=True))
+   For float and mixed int/float inputs, the intermediate products and

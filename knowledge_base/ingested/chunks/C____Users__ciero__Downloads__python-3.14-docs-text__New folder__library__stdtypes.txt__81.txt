@@ -1,0 +1,3 @@
+array.  If *byteorder* is ""little"", the most significant byte is
+   at the end of the byte array.  To request the native byte order of
+   the host system, use "sys.byteorder" as the byte order value.

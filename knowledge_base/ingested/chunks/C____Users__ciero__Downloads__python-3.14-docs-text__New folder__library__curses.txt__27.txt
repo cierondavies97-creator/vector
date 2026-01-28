@@ -1,0 +1,5 @@
+controlling tty of the curses program, and is not set by the curses
+   library itself.
+curses.filter()
+   The "filter()" routine, if used, must be called before "initscr()"
+   is called.  The effect is that, during those calls, "LINES" is set

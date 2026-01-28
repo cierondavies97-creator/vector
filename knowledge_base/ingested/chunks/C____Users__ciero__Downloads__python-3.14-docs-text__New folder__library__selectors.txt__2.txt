@@ -1,0 +1,4 @@
+primitives used.
+It defines a "BaseSelector" abstract base class, along with several
+concrete implementations ("KqueueSelector", "EpollSelector"...), that
+can be used to wait for I/O readiness notification on multiple file

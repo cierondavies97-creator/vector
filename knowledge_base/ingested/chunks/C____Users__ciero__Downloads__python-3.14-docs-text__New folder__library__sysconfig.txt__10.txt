@@ -1,0 +1,4 @@
+used. This scheme defines paths located under the user's home
+  directory ("site.USER_BASE").
+* *posix_venv*: scheme for "Python virtual environments" on POSIX
+  platforms; by default it is the same as *posix_prefix*.

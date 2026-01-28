@@ -1,0 +1,5 @@
+manager since Python 3.7.
+   Changed in version 3.11: This class was exposed publicly as
+   "asyncio.Server" in Python 3.9.11, 3.10.3 and 3.11.
+   close()
+      Stop serving: close listening sockets and set the "sockets"

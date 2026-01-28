@@ -1,0 +1,9 @@
+'b'
+            >>> z.itemsize
+            1
+            >>> len(z)
+            48
+            >>> z.nbytes
+            48
+         Cast 1D/unsigned long to 2D/unsigned long:
+            >>> buf = struct.pack("L"*6, *list(range(6)))

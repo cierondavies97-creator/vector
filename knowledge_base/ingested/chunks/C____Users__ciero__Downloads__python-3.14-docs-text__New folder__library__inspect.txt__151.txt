@@ -1,0 +1,4 @@
+A "Signature" object represents the call signature of a function
+   and its return annotation.  For each parameter accepted by the
+   function it stores a "Parameter" object in its "parameters"
+   collection.

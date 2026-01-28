@@ -1,0 +1,6 @@
+address.
+Authentication keys
+-------------------
+When one uses "Connection.recv", the data received is automatically
+unpickled. Unfortunately unpickling data from an untrusted source is a
+security risk. Therefore "Listener" and "Client()" use the "hmac"

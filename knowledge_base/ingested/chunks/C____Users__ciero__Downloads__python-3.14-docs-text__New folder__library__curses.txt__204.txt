@@ -1,0 +1,4 @@
++--------------------------+---------------------------------+
+| curses.A_UNDERLINE       | Underline mode                  |
++--------------------------+---------------------------------+
+| curses.A_HORIZONTAL      | Horizontal highlight            |

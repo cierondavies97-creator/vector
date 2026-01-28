@@ -1,0 +1,3 @@
+| length     | Specifies the length of the long axis of the progress bar       |
+|            | (width if horizontal, height if vertical).                      |
++------------+-----------------------------------------------------------------+

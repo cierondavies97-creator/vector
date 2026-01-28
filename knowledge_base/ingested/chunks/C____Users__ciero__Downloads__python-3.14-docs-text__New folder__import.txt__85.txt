@@ -1,0 +1,8 @@
+bound to the submodule.  Let's say you have the following directory
+structure:
+   spam/
+       __init__.py
+       foo.py
+and "spam/__init__.py" has the following line in it:
+   from .foo import Foo
+then executing the following puts name bindings for "foo" and "Foo" in

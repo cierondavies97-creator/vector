@@ -1,0 +1,4 @@
+either returned data in a conformant type or a "Fault" or
+"ProtocolError" object indicating an error.
+Servers that support the XML introspection API support some common
+methods grouped under the reserved "system" attribute:

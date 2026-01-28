@@ -1,0 +1,5 @@
+"bytes" and *bytes-like objects* as input.
+   A reverse conversion function exists to transform a bytearray
+   object into its hexadecimal representation.
+   hex(*, bytes_per_sep=1)
+   hex(sep, bytes_per_sep=1)

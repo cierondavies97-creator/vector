@@ -1,0 +1,3 @@
+This function expands XInclude directives in-place in tree pointed
+   by *elem*. *elem* is either the root "Element" or an "ElementTree"
+   instance to find such element. *loader* is an optional resource

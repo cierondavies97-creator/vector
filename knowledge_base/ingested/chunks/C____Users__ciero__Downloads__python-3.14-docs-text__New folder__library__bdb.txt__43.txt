@@ -1,0 +1,4 @@
+Stop only at breakpoints or when finished.  If there are no
+      breakpoints, set the system trace function to "None".
+   set_quit()
+      Set the "quitting" attribute to "True".  This raises "BdbQuit"

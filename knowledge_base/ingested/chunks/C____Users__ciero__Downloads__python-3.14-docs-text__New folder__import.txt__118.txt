@@ -1,0 +1,5 @@
+semantics would be invoked.
+5.5.1. Path entry finders
+-------------------------
+The *path based finder* is responsible for finding and loading Python
+modules and packages whose location is specified with a string *path

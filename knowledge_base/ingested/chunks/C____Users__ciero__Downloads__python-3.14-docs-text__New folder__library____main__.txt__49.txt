@@ -1,0 +1,6 @@
+>>> namely.did_user_define_their_name()
+   True
+   >>> namely.print_user_name()
+   Jabberwocky
+The "__main__" scope is used in the implementation of "pdb" and
+"rlcompleter".

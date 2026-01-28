@@ -1,0 +1,3 @@
+with *init_source* as its contents.
+test.support.script_helper.make_zip_pkg(zip_dir, zip_basename, pkg_name, script_basename, source, depth=1, compiled=False)
+   Create a zip package directory with a path of *zip_dir* and

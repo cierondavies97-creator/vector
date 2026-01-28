@@ -1,0 +1,3 @@
+BLAKE2 supports **keyed mode** (a faster and simpler replacement for
+HMAC), **salted hashing**, **personalization**, and **tree hashing**.
+Hash objects from this module follow the API of standard library's

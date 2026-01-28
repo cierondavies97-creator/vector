@@ -1,0 +1,5 @@
+being dropped takes up an entire line, the whole line is
+      dropped.
+   initial_indent
+      (default: "''") String that will be prepended to the first line
+      of wrapped output.  Counts towards the length of the first line.

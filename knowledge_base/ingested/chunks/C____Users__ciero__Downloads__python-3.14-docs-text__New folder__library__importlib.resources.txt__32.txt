@@ -1,0 +1,4 @@
+e.g. when the resource needs to be extracted from a zip file.
+   For example, the "stat()" method requires an actual file system
+   path; it can be used like this:
+      with importlib.resources.path(anchor, "resource.txt") as fspath:

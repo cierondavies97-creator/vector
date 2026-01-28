@@ -1,0 +1,3 @@
+multipart, the payload will be decoded if this header's value is
+      "quoted-printable" or "base64". If some other encoding is used,
+      or *Content-Transfer-Encoding* header is missing, the payload is

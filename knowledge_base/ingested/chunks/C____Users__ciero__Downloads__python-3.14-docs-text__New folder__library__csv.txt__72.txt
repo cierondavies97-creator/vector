@@ -1,0 +1,5 @@
+"None", and "QUOTE_NONE" otherwise.
+Dialect.skipinitialspace
+   When "True", spaces immediately following the *delimiter* are
+   ignored. The default is "False".  When combining "delimiter=' '"
+   with "skipinitialspace=True", unquoted empty fields are not

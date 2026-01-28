@@ -1,0 +1,5 @@
+shutil.get_unpack_formats()
+   Return a list of all registered formats for unpacking. Each element
+   of the returned sequence is a tuple "(name, extensions,
+   description)".
+   By default "shutil" provides these formats:

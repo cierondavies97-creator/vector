@@ -1,0 +1,4 @@
+OpenSSL 1.1.1 or later. When Python has been compiled against an
+   older version of OpenSSL, the flag defaults to *0*.
+   Added in version 3.6.3.
+   Deprecated since version 3.7: The option is deprecated since

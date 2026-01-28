@@ -1,0 +1,2 @@
+| I have installed the Python install manager        | It is possible to install from the Store or        |
+| multiple times.                                    | WinGet, from the MSIX on the Python website, and   |

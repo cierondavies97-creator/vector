@@ -1,0 +1,6 @@
+sqlite3.sqlite_version_info
+   Version number of the runtime SQLite library as a "tuple" of
+   "integers".
+sqlite3.threadsafety
+   Integer constant required by the DB-API 2.0, stating the level of
+   thread safety the "sqlite3" module supports. This attribute is set

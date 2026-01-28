@@ -1,0 +1,4 @@
+value of "1" means "one-thread multi-threaded mode". More
+      workers improve speed, but also increase memory usage and
+      slightly reduce compression ratio.
+      A value of zero disables multi-threading.

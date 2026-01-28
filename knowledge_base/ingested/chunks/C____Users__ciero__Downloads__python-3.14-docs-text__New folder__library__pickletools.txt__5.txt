@@ -1,0 +1,8 @@
+$ python -m pickle x.pickle
+   (1, 2)
+   $ python -m pickletools x.pickle
+       0: \x80 PROTO      3
+       2: K    BININT1    1
+       4: K    BININT1    2
+       6: \x86 TUPLE2
+       7: q    BINPUT     0

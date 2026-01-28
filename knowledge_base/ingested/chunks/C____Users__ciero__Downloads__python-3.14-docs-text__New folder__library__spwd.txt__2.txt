@@ -1,0 +1,2 @@
+The last version of Python that provided the "spwd" module was Python
+3.12.

@@ -1,0 +1,5 @@
+attribute.
+Node.parentNode
+   The parent of the current node, or "None" for the document node.
+   The value is always a "Node" object or "None".  For "Element"
+   nodes, this will be the parent element, except for the root

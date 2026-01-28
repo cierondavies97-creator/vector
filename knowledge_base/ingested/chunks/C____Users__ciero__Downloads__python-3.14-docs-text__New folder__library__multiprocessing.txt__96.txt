@@ -1,0 +1,4 @@
+processes may be given the same name.
+      The initial name is set by the constructor.  If no explicit name
+      is provided to the constructor, a name of the form
+      'Process-N_1:N_2:...:N_k' is constructed, where each N_k is the

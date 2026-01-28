@@ -1,0 +1,4 @@
+data points are a random sample of the population, the result
+     will be an unbiased estimate of the population variance.
+statistics.stdev(data, xbar=None)
+   Return the sample standard deviation (the square root of the sample

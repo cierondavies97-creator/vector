@@ -1,0 +1,5 @@
+an exception if any thread raises one, after all threads have
+   finished.
+"test.support.os_helper" --- Utilities for os tests
+***************************************************
+The "test.support.os_helper" module provides support for os tests.

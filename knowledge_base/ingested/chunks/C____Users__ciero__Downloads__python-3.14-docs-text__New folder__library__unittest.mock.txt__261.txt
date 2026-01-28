@@ -1,0 +1,5 @@
+If you are using "patch()" to create a mock for you then it will be
+returned by the call to "patcher.start".
+   >>> patcher = patch('package.module.ClassName')
+   >>> from package import module
+   >>> original = module.ClassName

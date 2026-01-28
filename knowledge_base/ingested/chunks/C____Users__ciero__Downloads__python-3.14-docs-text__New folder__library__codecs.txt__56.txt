@@ -1,0 +1,3 @@
+|                           | surrogate code ranging from "U+DC80" to         |
+|                           | "U+DCFF". This code will then be turned back    |
+|                           | into the same byte when the "'surrogateescape'" |

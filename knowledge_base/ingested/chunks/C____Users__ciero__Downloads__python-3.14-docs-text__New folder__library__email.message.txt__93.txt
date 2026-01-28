@@ -1,0 +1,4 @@
+consider only it when looking for candidate matches.  Otherwise
+      consider only the first (default root) part of the
+      "multipart/related".
+      If a part has a *Content-Disposition* header, only consider the

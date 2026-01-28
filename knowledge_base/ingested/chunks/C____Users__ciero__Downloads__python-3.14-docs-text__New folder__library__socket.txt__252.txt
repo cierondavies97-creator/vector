@@ -1,0 +1,4 @@
+(see **PEP 475** for the rationale).
+socket.recvfrom(bufsize[, flags])
+   Receive data from the socket.  The return value is a pair "(bytes,
+   address)" where *bytes* is a bytes object representing the data

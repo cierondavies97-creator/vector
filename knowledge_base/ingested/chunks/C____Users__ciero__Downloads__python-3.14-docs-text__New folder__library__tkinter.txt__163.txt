@@ -1,0 +1,4 @@
+parameter to "PhotoImage" methods "copy()", "zoom()" and
+"subsample()". Add *zoom* and *subsample* parameters to "PhotoImage"
+method "copy()".
+The image object can then be used wherever an "image" option is

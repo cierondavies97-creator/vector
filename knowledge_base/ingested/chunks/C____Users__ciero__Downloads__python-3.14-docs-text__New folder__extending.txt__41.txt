@@ -1,0 +1,4 @@
+list, the "PyArg_ParseTuple()" function usually raises
+"PyExc_TypeError".  If you have an argument whose value must be in a
+particular range or must satisfy other conditions, "PyExc_ValueError"
+is appropriate.

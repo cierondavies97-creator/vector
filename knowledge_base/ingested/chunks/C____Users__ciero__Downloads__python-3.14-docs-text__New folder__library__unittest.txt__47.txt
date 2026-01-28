@@ -1,0 +1,4 @@
+through the load_tests protocol.
+Changed in version 3.4: Test discovery supports *namespace packages*.
+Changed in version 3.11: Test discovery dropped the *namespace
+packages* support. It has been broken since Python 3.7. Start

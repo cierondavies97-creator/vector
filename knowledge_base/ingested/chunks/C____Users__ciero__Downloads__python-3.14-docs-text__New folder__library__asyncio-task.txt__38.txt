@@ -1,0 +1,4 @@
+cancellation internally and might misbehave if a coroutine swallows
+"asyncio.CancelledError". Similarly, user code should not generally
+call "uncancel". However, in cases when suppressing
+"asyncio.CancelledError" is truly desired, it is necessary to also

@@ -1,0 +1,5 @@
+by "time()" is used. "ctime(secs)" is equivalent to
+   "asctime(localtime(secs))". Locale information is not used by
+   "ctime()".
+time.get_clock_info(name)
+   Get information on the specified clock as a namespace object.

@@ -1,0 +1,4 @@
+Return the index of the first occurrence of *value* in *sequence*.
+   Raises "ValueError" if *value* is not found in *sequence*.
+   The *start* or *stop* arguments allow for efficient searching of
+   subsections of the sequence, beginning at *start* and ending at

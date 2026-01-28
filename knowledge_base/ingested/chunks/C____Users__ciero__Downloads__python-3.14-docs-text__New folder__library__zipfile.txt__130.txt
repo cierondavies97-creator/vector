@@ -1,0 +1,10 @@
+ZipInfo.extract_version
+   PKZIP version needed to extract archive.
+ZipInfo.reserved
+   Must be zero.
+ZipInfo.flag_bits
+   ZIP flag bits.
+ZipInfo.volume
+   Volume number of file header.
+ZipInfo.internal_attr
+   Internal attributes.

@@ -1,0 +1,6 @@
+absolute and interval.
+   Availability: FreeBSD, OpenBSD >= 5.5.
+   Added in version 3.7.
+time.CLOCK_UPTIME_RAW
+   Clock that increments monotonically, tracking the time since an
+   arbitrary point, unaffected by frequency or time adjustments and

@@ -1,0 +1,5 @@
+implementation of your specification, then tests that use that class
+will start failing immediately without you having to instantiate the
+class in those tests.
+>>> mock = Mock(spec=SomeClass)
+>>> mock.old_method()

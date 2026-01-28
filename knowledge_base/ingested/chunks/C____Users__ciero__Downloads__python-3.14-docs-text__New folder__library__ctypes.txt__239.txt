@@ -1,0 +1,4 @@
+mechanism that allows accessing the system "errno" error number in a
+safe way. "ctypes" maintains a thread-local copy of the system's
+"errno" variable; if you call foreign functions created with
+"use_errno=True" then the "errno" value before the function call is

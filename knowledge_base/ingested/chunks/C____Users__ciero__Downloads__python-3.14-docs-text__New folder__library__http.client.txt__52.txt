@@ -1,0 +1,4 @@
+automatically.
+   For example, to tunnel through a HTTPS proxy server running locally
+   on port 8080, we would pass the address of the proxy to the
+   "HTTPSConnection" constructor, and the address of the host that we

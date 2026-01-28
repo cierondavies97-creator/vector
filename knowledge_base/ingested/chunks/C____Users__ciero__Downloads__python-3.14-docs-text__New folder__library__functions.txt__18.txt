@@ -1,0 +1,8 @@
+returns an integer. Some examples:
+   >>> bin(3)
+   '0b11'
+   >>> bin(-10)
+   '-0b1010'
+   If the prefix "0b" is desired or not, you can use either of the
+   following ways.
+   >>> format(14, '#b'), format(14, 'b')

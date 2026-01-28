@@ -1,0 +1,5 @@
+authentication is attempted and fails, then
+      "AuthenticationError" is raised.
+   close()
+      Close the bound socket or named pipe of the listener object.
+      This is called automatically when the listener is garbage

@@ -1,0 +1,4 @@
+specification variable tells the type checker that the callable
+   passed into the decorator and the new callable returned by it have
+   inter-dependent type parameters:
+      from collections.abc import Callable

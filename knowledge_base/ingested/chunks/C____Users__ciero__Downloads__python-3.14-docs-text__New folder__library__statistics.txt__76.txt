@@ -1,0 +1,4 @@
+>>> mode(["red", "blue", "blue", "red", "green", "red", "red"])
+      'red'
+   Only hashable inputs are supported.  To handle type "set", consider
+   casting to "frozenset".  To handle type "list", consider casting to

@@ -1,0 +1,6 @@
+all combinations of its values are stripped:
+      >>> '   spacious   '.rstrip()
+      '   spacious'
+      >>> 'mississippi'.rstrip('ipz')
+      'mississ'
+   See "str.removesuffix()" for a method that will remove a single

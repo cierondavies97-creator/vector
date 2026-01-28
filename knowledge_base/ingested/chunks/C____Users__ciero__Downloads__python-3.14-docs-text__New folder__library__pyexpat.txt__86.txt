@@ -1,0 +1,4 @@
+or a reference to a parameter entity, but the XML declaration does
+   not set standalone to "yes" in an XML declaration.  If this handler
+   returns "0", then the parser will raise an
+   "XML_ERROR_NOT_STANDALONE" error.  If this handler is not set, no

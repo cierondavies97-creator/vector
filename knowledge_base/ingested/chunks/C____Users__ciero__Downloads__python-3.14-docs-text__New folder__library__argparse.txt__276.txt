@@ -1,0 +1,5 @@
+subparser's commands will appear in their own group in the help
+   output.  For example:
+      >>> parser = argparse.ArgumentParser()
+      >>> subparsers = parser.add_subparsers(title='subcommands',
+      ...                                    description='valid subcommands',

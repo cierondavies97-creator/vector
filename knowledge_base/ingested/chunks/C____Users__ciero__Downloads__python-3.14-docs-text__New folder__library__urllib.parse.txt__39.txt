@@ -1,0 +1,4 @@
+blank values are to be ignored and treated as if they were not
+   included.
+   The optional argument *strict_parsing* is a flag indicating what to
+   do with parsing errors.  If false (the default), errors are

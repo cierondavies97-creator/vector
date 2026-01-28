@@ -1,0 +1,7 @@
+bplist
+      Dictionary of "Breakpoint" instances indexed by ("file", "line")
+      tuples.
+   ignore
+      Number of times to ignore a "Breakpoint".
+   hits
+      Count of the number of times a "Breakpoint" has been hit.

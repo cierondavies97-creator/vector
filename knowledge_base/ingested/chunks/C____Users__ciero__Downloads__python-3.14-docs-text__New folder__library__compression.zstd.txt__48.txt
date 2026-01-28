@@ -1,0 +1,4 @@
+size does not match the actual size of data provided to
+      "compress()", future calls to "compress()" or "flush()" may
+      raise "ZstdError" and the last chunk of data may be lost.
+      After "flush()" or "compress()" are called with mode

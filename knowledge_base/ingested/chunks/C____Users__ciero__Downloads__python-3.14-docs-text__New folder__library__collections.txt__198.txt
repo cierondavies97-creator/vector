@@ -1,0 +1,4 @@
+any iterable, for example a real Python list or a "UserList"
+   object.
+   In addition to supporting the methods and operations of mutable
+   sequences, "UserList" instances provide the following attribute:

@@ -1,0 +1,4 @@
+The *encode* and *decode* arguments must adhere to the "Codec"
+   interface. *Reader* and *Writer* must be factory functions or
+   classes providing objects of the "StreamReader" and "StreamWriter"
+   interface respectively.

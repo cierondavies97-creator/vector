@@ -1,0 +1,4 @@
+"SCRIPT_NAME" at the front, causing problems for WSGI applications
+   that wish to implement routing. This handler strips any such
+   duplicated path.
+   IIS can be configured to pass the correct "PATH_INFO", but this

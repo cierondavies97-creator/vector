@@ -1,0 +1,7 @@
+return -1;
+   }
+3.4. Object Comparison
+======================
+   richcmpfunc tp_richcompare;
+The "tp_richcompare" handler is called when comparisons are needed.
+It is analogous to the rich comparison methods, like "__lt__()", and

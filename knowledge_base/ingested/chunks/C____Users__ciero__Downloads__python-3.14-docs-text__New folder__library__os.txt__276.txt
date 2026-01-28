@@ -1,0 +1,6 @@
+* "stat.S_IWOTH"
+   * "stat.S_IXOTH"
+   This function can support specifying a file descriptor, paths
+   relative to directory descriptors and not following symlinks.
+   Note:
+     Although Windows supports "chmod()", you can only set the file's

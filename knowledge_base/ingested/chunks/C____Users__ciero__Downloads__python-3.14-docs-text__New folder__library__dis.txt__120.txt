@@ -1,0 +1,4 @@
+can be seen as a two bytes values where the low byte of *counts* is
+   the number of values before the list value, the high byte of
+   *counts* the number of values after it.
+   The extracted values are put onto the stack right-to-left, i.e. "a,

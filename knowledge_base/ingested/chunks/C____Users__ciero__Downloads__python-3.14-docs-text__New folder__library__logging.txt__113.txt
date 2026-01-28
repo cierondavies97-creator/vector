@@ -1,0 +1,4 @@
+* Logging configuration APIs acquire the module-level lock,
+          and then individual handler-level locks as those handlers
+          are configured.
+        * Many logging APIs lock the module-level lock. If such an API

@@ -1,0 +1,4 @@
+transaction, an implicit "COMMIT" statement is executed first.
+      No other implicit transaction control is performed; any
+      transaction control must be added to *sql_script*.
+      *sql_script* must be a "string".

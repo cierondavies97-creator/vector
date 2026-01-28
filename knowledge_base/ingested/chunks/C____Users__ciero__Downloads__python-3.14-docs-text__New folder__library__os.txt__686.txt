@@ -1,0 +1,5 @@
+will not return.
+   Availability: Windows.
+os.startfile(path[, operation][, arguments][, cwd][, show_cmd])
+   Start a file with its associated application.
+   When *operation* is not specified, this acts like double-clicking

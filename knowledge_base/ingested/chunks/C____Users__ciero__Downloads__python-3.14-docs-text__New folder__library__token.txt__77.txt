@@ -1,0 +1,4 @@
+support parsing older Python versions for "ast.parse()" with
+"feature_version" set to 6 or lower).
+Changed in version 3.12: Added "EXCLAMATION".
+Changed in version 3.13: Removed "AWAIT" and "ASYNC" tokens again.

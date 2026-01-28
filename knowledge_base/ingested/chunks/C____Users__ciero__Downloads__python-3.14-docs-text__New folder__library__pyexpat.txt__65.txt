@@ -1,0 +1,3 @@
+Called for each declared attribute for an element type.  If an
+   attribute list declaration declares three attributes, this handler
+   is called three times, once for each attribute.  *elname* is the

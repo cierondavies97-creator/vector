@@ -1,0 +1,5 @@
+"values"
+      a "Values" object to store option arguments in (default: a new
+      instance of "Values") -- if you give an existing object, the
+      option defaults will not be initialized on it
+   and the return value is a pair "(options, args)" where

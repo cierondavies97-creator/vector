@@ -1,0 +1,3 @@
+Special requirement for pickling:  A "tzinfo" subclass must have an
+   "__init__()" method that can be called with no arguments, otherwise
+   it can be pickled but possibly not unpickled again. This is a

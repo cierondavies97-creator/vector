@@ -1,0 +1,6 @@
+10
+   >>> len(c)                      # Implicit lookup
+   10
+Bypassing the "__getattribute__()" machinery in this fashion provides
+significant scope for speed optimisations within the interpreter, at
+the cost of some flexibility in the handling of special methods (the

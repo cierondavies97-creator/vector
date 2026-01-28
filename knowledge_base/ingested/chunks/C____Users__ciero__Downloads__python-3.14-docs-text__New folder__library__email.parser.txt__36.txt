@@ -1,0 +1,5 @@
+*fp* must support both the "readline()" and the "read()" methods
+      on file-like objects.
+      Other than the text mode requirement, this method operates like
+      "BytesParser.parse()".
+   parsestr(text, headersonly=False)

@@ -1,0 +1,4 @@
+"optionxform()" method just like any other option name reference.
+   For example, using the default implementation of "optionxform()"
+   (which converts option names to lower case), the values "foo
+   %(bar)s" and "foo %(BAR)s" are equivalent.

@@ -1,0 +1,4 @@
+it is detached.  If the handle is already detached or closed, this
+   will return zero.
+   After calling this function, the handle is effectively invalidated,
+   but the handle is not closed.  You would call this function when

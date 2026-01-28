@@ -1,0 +1,3 @@
+finder* that can handle the path entry, or it may raise "ImportError".
+An "ImportError" is used by the path based finder to signal that the
+hook cannot find a *path entry finder* for that *path entry*.  The

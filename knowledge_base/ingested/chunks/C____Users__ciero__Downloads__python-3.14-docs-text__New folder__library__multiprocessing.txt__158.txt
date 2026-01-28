@@ -1,0 +1,5 @@
+It is a simplified "Queue" type, very close to a locked "Pipe".
+   Instantiating this class may set the global start method. See
+   Global start method for more details.
+   close()
+      Close the queue: release internal resources.

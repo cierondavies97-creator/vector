@@ -1,0 +1,3 @@
+A list of the non-fatal errors encountered while loading tests.
+      Not reset by the loader at any point. Fatal errors are signalled
+      by the relevant method raising an exception to the caller. Non-

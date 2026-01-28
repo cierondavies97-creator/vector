@@ -1,0 +1,5 @@
+"sysconfig" --- Provide access to Python's configuration information
+********************************************************************
+Added in version 3.2.
+**Source code:** Lib/sysconfig
+======================================================================

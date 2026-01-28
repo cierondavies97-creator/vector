@@ -1,0 +1,5 @@
+otherwise "None" is returned. Note that the "SIZE" command is
+      not  standardized, but is supported by many common server
+      implementations.
+   quit()
+      Send a "QUIT" command to the server and close the connection.

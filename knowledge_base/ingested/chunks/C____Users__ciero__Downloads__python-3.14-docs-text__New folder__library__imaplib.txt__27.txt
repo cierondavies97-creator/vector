@@ -1,0 +1,4 @@
+enclose the string in parentheses (eg: "r'(\Deleted)'").
+Most commands return a tuple: "(type, [data, ...])" where *type* is
+usually "'OK'" or "'NO'", and *data* is either the text from the
+command response, or mandated results from the command. Each *data* is

@@ -1,0 +1,4 @@
+Name(id='decorator1', ctx=Load()),
+                      Name(id='decorator2', ctx=Load())],
+                  returns=Constant(value='return annotation'))])
+class ast.Return(value)

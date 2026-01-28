@@ -1,0 +1,6 @@
+Example
+▶ Copy-and-paste a snippet, instead of refactoring it into a function
+▶ Repeated implementation of utility methods
+▶ because you don’t remember
+▶ because you don’t know the libraries
+numpy.prod([1,2,3])

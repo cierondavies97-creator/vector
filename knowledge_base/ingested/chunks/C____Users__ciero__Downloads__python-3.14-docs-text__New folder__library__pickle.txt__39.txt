@@ -1,0 +1,3 @@
+same meaning as in the "Pickler" constructor.
+   Changed in version 3.8: The *buffer_callback* argument was added.
+pickle.load(file, *, fix_imports=True, encoding='ASCII', errors='strict', buffers=None)

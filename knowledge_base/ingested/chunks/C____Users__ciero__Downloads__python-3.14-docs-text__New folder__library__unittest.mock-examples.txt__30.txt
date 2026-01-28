@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  ...
+Exception: Boom!
+Side effect functions and iterables
+-----------------------------------
+"side_effect" can also be set to a function or an iterable. The use
+case for "side_effect" as an iterable is where your mock is going to

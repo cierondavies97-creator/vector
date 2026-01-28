@@ -1,0 +1,3 @@
+filename from *src*. If *dst* specifies a file that already exists,
+   it will be replaced. Returns the path to the newly created file.
+   If *follow_symlinks* is false, and *src* is a symbolic link, *dst*

@@ -1,0 +1,4 @@
+dis.get_instructions(x, *, first_line=None, show_caches=False, adaptive=False)
+   Return an iterator over the instructions in the supplied function,
+   method, source code string or code object.
+   The iterator generates a series of "Instruction" named tuples

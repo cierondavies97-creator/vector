@@ -1,0 +1,5 @@
+metadata is unused or unknown. Different "TarInfo" methods handle
+"None" differently:
+* The "extract()" or "extractall()" methods will ignore the
+  corresponding metadata, leaving it set to a default.
+* "addfile()" will fail.

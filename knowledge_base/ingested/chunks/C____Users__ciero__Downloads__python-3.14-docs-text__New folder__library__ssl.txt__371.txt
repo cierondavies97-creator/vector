@@ -1,0 +1,5 @@
+till you are finished with the client (or the client is finished with
+you):
+   def deal_with_client(connstream):
+       data = connstream.recv(1024)
+       # empty data means the client is finished with us

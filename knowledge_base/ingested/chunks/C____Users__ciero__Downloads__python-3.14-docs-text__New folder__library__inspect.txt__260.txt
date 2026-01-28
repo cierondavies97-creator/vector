@@ -1,0 +1,4 @@
+like properties, will be invoked and "__getattr__()" and
+"__getattribute__()" may be called.
+For cases where you want passive introspection, like documentation
+tools, this can be inconvenient. "getattr_static()" has the same

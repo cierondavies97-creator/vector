@@ -1,0 +1,4 @@
+"Annotated[T, x]". Metadata added using "Annotated" can be used by
+   static analysis tools or at runtime. At runtime, the metadata is
+   stored in a "__metadata__" attribute.
+   If a library or tool encounters an annotation "Annotated[T, x]" and

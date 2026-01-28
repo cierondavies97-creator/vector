@@ -1,0 +1,4 @@
+Requirements for optional modules.
+* read/write support for the POSIX.1-1988 (ustar) format.
+* read/write support for the GNU tar format including *longname* and
+  *longlink* extensions, read-only support for all variants of the

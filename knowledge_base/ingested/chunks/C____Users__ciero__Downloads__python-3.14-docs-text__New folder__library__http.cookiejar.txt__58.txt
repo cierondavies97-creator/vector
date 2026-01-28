@@ -1,0 +1,4 @@
+Return "False" if cookies should not be returned, given cookie
+   domain.
+   This method is an optimization.  It removes the need for checking
+   every cookie with a particular domain (which might involve reading

@@ -1,0 +1,5 @@
+httpd.serve_forever()
+          # Alternative: serve one request, then exit
+          httpd.handle_request()
+wsgiref.simple_server.demo_app(environ, start_response)
+   This function is a small but complete WSGI application that returns

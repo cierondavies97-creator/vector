@@ -1,0 +1,5 @@
+"None" are illegal and raise a "SyntaxError". "None" is the sole
+   instance of the "NoneType" type.
+NotImplemented
+   A special value which should be returned by the binary special
+   methods (e.g. "__eq__()", "__lt__()", "__add__()", "__rsub__()",

@@ -1,0 +1,4 @@
+an error if another exception is raised, or fails if no
+      exception is raised. To catch any of a group of exceptions, a
+      tuple containing the exception classes may be passed as
+      *exception*.

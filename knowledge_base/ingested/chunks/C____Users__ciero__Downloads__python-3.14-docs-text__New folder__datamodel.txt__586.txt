@@ -1,0 +1,4 @@
+exception (i.e., prevent it from being propagated), it should
+   return a true value. Otherwise, the exception will be processed
+   normally upon exit from this method.
+   Note that "__exit__()" methods should not reraise the passed-in

@@ -1,0 +1,6 @@
+* Coping with mutable arguments
+    * Nesting Patches
+    * Mocking a dictionary with MagicMock
+    * Mock subclasses and their attributes
+    * Mocking imports with patch.dict
+    * Tracking order of calls and less verbose call assertions

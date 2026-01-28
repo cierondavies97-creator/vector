@@ -1,0 +1,4 @@
+times. Another internal interface is then used to restore the
+      recursion level when the lock is reacquired.
+      The return value is "True" unless a given *timeout* expired, in
+      which case it is "False".

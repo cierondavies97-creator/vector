@@ -1,0 +1,7 @@
+Added in version 3.2.
+errno.ESHLIBVERS
+   Shared library version mismatch
+   Added in version 3.2.
+errno.ENOTCAPABLE
+   Capabilities insufficient. This error is mapped to the exception
+   "PermissionError".

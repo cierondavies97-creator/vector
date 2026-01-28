@@ -1,0 +1,4 @@
+"RawIOBase" implementation, but wrap one, like "BufferedWriter" and
+   "BufferedReader" do.
+   "BufferedIOBase" provides or overrides these data attributes and
+   methods in addition to those from "IOBase":

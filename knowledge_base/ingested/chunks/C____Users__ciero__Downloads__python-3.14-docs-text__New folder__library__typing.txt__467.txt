@@ -1,0 +1,5 @@
+object does not support setting attributes, the decorator returns
+   the object unchanged without raising an exception.
+   See **PEP 698** for more details.
+   Added in version 3.12.
+@typing.type_check_only

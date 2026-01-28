@@ -1,0 +1,4 @@
+When *skipkeys* is false (the default) the function raises
+   "TypeError" when a key of a dictionary is not a string, otherwise
+   such keys are skipped.
+   When *aware_datetime* is true and any field with type

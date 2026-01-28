@@ -1,0 +1,5 @@
+specified *item* has the given *tagname*. Otherwise, returns a
+      list of all items that have the specified tag.
+      Availability: Tk 8.6
+   xview(*args)
+      Query or modify horizontal position of the treeview.

@@ -1,0 +1,5 @@
+Changed in version 3.14: A single dot (""."") is considered a valid
+   suffix.
+PurePath.suffixes
+   A list of the path's suffixes, often called file extensions:
+      >>> PurePosixPath('my/library.tar.gar').suffixes

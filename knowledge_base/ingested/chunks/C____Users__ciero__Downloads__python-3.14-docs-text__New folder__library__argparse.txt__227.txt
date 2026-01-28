@@ -1,0 +1,6 @@
+>>> parser = argparse.ArgumentParser(prog='PROG')
+   >>> parser.add_argument('-x')
+   >>> parser.add_argument('--foo')
+   >>> parser.parse_args(['-x', 'X'])
+   Namespace(foo=None, x='X')
+   >>> parser.parse_args(['--foo', 'FOO'])

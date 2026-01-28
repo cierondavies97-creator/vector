@@ -1,0 +1,4 @@
+* Bisection is effective for searching ranges of values. For locating
+  specific values, dictionaries are more performant.
+* The *insort()* functions are *O*(*n*) because the logarithmic search
+  step is dominated by the linear time insertion step.

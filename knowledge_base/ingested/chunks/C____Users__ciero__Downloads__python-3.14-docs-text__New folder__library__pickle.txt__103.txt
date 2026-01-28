@@ -1,0 +1,5 @@
+upon unpickling.
+   "__getnewargs__()" will not be called if "__getnewargs_ex__()" is
+   defined.
+   Changed in version 3.6: Before Python 3.6, "__getnewargs__()" was
+   called instead of "__getnewargs_ex__()" in protocols 2 and 3.

@@ -1,0 +1,2 @@
+| traceback.tb_frame                                 | Points to the execution frame of the current       |
+|                                                    | level.  Accessing this attribute raises an         |

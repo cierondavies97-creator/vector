@@ -1,0 +1,5 @@
+unbound methods that are implemented in C).
+3.3.2.3. Invoking Descriptors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In general, a descriptor is an object attribute with "binding
+behavior", one whose attribute access has been overridden by methods

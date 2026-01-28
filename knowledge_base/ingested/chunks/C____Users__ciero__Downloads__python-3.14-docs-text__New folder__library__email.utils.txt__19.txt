@@ -1,0 +1,3 @@
+be passed directly to "time.mktime()", and the tenth is the offset
+   of the date's timezone from UTC (which is the official term for
+   Greenwich Mean Time) [1].  If the input string has no timezone, the

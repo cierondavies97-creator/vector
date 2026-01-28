@@ -1,0 +1,4 @@
+So, if one of the underlying mappings gets updated, those changes
+   will be reflected in "ChainMap".
+   All of the usual dictionary methods are supported.  In addition,
+   there is a *maps* attribute, a method for creating new subcontexts,

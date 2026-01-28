@@ -1,0 +1,4 @@
+*object_pairs_hook* takes priority.
+   Changed in version 3.1: Added support for *object_pairs_hook*.
+   *parse_float* is an optional function that will be called with the
+   string of every JSON float to be decoded.  By default, this is

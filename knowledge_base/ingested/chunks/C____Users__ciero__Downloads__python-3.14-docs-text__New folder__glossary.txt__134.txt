@@ -1,0 +1,5 @@
+Immortal objects can be identified via "sys._is_immortal()", or via
+   "PyUnstable_IsImmortal()" in the C API.
+immutable
+   An object with a fixed value.  Immutable objects include numbers,
+   strings and tuples.  Such an object cannot be altered.  A new

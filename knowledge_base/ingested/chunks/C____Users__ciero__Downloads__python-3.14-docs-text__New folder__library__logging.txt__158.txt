@@ -1,0 +1,5 @@
+allow the injection of contextual information into logs (see Using
+Filters to impart contextual information).
+LogRecord Objects
+=================
+"LogRecord" instances are created automatically by the "Logger" every

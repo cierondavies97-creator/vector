@@ -1,0 +1,5 @@
+* required - Whether or not a subcommand must be provided, by
+     default "False" (added in 3.7)
+   * help - help for sub-parser group in help output, by default
+     "None"
+   * metavar - string presenting available subcommands in help; by

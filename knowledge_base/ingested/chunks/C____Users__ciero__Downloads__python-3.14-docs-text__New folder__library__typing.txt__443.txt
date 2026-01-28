@@ -1,0 +1,5 @@
+At runtime, this decorator records its arguments in the
+   "__dataclass_transform__" attribute on the decorated object. It has
+   no other runtime effect.
+   See **PEP 681** for more details.
+   Added in version 3.11.

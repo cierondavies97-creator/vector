@@ -1,0 +1,4 @@
+a list of output lines, without final newlines.  If the wrapped
+      output has no content, the returned list is empty.
+   fill(text)
+      Wraps the single paragraph in *text*, and returns a single

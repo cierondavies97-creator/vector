@@ -1,0 +1,5 @@
+used:
+   $ python -m zipapp source [options]
+If *source* is a directory, this will create an archive from the
+contents of *source*.  If *source* is a file, it should be an archive,
+and it will be copied to the target archive (or the contents of its

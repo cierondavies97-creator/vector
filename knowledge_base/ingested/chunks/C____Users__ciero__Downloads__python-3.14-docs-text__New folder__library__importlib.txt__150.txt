@@ -1,0 +1,4 @@
+Use "importlib.abc.Loader.exec_module()" instead.
+class importlib.machinery.SourcelessFileLoader(fullname, path)
+   A concrete implementation of "importlib.abc.FileLoader" which can
+   import bytecode files (i.e. no source code files exist).

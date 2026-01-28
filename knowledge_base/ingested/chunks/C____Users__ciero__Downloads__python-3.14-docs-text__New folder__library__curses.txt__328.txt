@@ -1,0 +1,5 @@
+and most other software terminal emulators).  Otherwise it will be
+   drawn with ASCII  dashes, vertical bars, and plus signs.
+Textbox objects
+===============
+You can instantiate a "Textbox" object as follows:

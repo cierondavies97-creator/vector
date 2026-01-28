@@ -1,0 +1,3 @@
+| "%U"        | Week number of the year (Sunday  | 00, 01, ..., 53          | (7),    |
+|             | as the first day of the week) as |                          | (9)     |
+|             | a zero-padded decimal number.    |                          |         |

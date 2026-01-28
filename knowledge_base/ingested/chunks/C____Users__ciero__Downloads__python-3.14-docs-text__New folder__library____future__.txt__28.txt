@@ -1,0 +1,4 @@
+future statement to use the feature in question, but may continue
+   to use such imports.
+   *MandatoryRelease* may also be "None", meaning that a planned
+   feature got dropped or that it is not yet decided.

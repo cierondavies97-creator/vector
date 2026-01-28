@@ -1,0 +1,4 @@
+| ENDMARKER { _PyPegen_interactive_exit(p) }
+   simple_stmts[asdl_stmt_seq*]:
+       | a=simple_stmt !';' NEWLINE { (asdl_stmt_seq*)_PyPegen_singleton_seq(p, a) } # Not needed, there for speedup
+       | a[asdl_stmt_seq*]=';'.simple_stmt+ [';'] NEWLINE { a }

@@ -1,0 +1,6 @@
+* "http" --- HTTP modules
+  * "http.client" --- HTTP protocol client
+  * "ftplib" --- FTP protocol client
+  * "poplib" --- POP3 protocol client
+  * "imaplib" --- IMAP4 protocol client
+  * "smtplib" --- SMTP protocol client

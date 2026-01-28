@@ -1,0 +1,4 @@
+category of the resulting character(s) is not "Lu" (Letter,
+   uppercase), but e.g. "Lt" (Letter, titlecase).
+   The uppercasing algorithm used is described in section 3.13
+   'Default Case Folding' of the Unicode Standard.

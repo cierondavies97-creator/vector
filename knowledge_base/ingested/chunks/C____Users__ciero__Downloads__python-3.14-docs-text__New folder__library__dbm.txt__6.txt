@@ -1,0 +1,5 @@
+Parameters:
+      * **file** (*path-like object*) --
+        The database file to open.
+        If the database file already exists, the "whichdb()" function
+        is used to determine its type and the appropriate module is

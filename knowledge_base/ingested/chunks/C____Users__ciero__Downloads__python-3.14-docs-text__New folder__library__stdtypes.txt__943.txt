@@ -1,0 +1,5 @@
+2.0]", and similarly for tuples.
+[3] They must have since the parser can't tell the type of the
+    operands.
+[4] Cased characters are those with general category property being
+    one of "Lu" (Letter, uppercase), "Ll" (Letter, lowercase), or "Lt"

@@ -1,0 +1,4 @@
+stderr.  Your message should be clear, concise, accurate, and mention
+the option at fault. Otherwise, the user will have a hard time
+figuring out what they did wrong.
+Callback example 1: trivial callback

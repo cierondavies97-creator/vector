@@ -1,0 +1,5 @@
+# Perform same compilation, excluding files in .svn directories.
+   import re
+   compileall.compile_dir('Lib/', rx=re.compile(r'[/\\][.]svn'), force=True)
+   # pathlib.Path objects can also be used.
+   import pathlib

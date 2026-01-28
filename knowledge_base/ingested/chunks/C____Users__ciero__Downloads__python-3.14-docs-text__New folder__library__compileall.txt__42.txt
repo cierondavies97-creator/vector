@@ -1,0 +1,4 @@
+object.
+   If *quiet* is "False" or "0" (the default), the filenames and other
+   information are printed to standard out. Set to "1", only errors
+   are printed. Set to "2", all output is suppressed.

@@ -1,0 +1,4 @@
+of control. Refer to Choosing an argument parsing library for
+  alternatives to consider when "argparse" doesn't support behaviors
+  that the application requires (such as entirely disabling support
+  for interspersed options and positional arguments, or accepting

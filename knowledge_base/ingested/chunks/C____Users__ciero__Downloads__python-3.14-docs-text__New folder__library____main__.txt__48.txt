@@ -1,0 +1,8 @@
+>>> import namely
+   >>> namely.did_user_define_their_name()
+   False
+   >>> namely.print_user_name()
+   Traceback (most recent call last):
+   ...
+   ValueError: Define the variable `my_name`!
+   >>> my_name = 'Jabberwocky'

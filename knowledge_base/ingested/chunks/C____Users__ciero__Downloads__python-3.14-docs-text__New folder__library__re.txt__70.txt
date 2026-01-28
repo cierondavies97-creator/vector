@@ -1,0 +1,4 @@
+"(?>...)"
+   Attempts to match "..." as if it was a separate regular expression,
+   and if successful, continues to match the rest of the pattern
+   following it. If the subsequent pattern fails to match, the stack

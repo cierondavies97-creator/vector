@@ -1,0 +1,4 @@
+the root logger more than once, leading to unexpected results
+     such as messages being duplicated in the log.
+   The following keyword arguments are supported.
+   +----------------+-----------------------------------------------+

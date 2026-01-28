@@ -1,0 +1,5 @@
+have an initial *msg*.
+hmac.digest(key, msg, digest)
+   Return digest of *msg* for given secret *key* and *digest*. The
+   function is equivalent to "HMAC(key, msg, digest).digest()", but
+   uses an optimized C or inline implementation, which is faster for

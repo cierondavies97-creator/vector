@@ -1,0 +1,4 @@
+* 115 ("ord('s')"): "!s" "string" conversion
+     This has the same meaning as "FormattedValue.conversion".
+   * "format_spec" is a "JoinedStr" node representing the formatting
+     of the value, or "None" if no format was specified. Both

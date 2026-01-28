@@ -1,0 +1,6 @@
+* "lzma" --- Compression using the LZMA algorithm
+  * "zipfile" --- Work with ZIP archives
+  * "tarfile" --- Read and write tar archive files
+* File Formats
+  * "csv" --- CSV File Reading and Writing
+  * "configparser" --- Configuration file parser

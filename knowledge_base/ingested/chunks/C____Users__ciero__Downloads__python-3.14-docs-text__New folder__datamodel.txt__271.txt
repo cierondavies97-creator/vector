@@ -1,0 +1,4 @@
+* "lineno" is an "int" representing the line number of the
+     *bytecode* range, or "None" if the bytecodes in the given range
+     have no line number
+   The items yielded will have the following properties:

@@ -1,0 +1,4 @@
+information.  If the option flags are insufficient, then the
+   comparison may also be customized by passing a subclass of
+   "OutputChecker" to the constructor.
+   The test runner's display output can be controlled in two ways.

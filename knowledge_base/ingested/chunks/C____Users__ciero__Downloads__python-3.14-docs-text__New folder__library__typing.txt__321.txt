@@ -1,0 +1,6 @@
+Recursive
+         >>> Recursive.__value__
+         Mutually
+   evaluate_value()
+      An *evaluate function* corresponding to the "__value__"
+      attribute. When called directly, this method supports only the

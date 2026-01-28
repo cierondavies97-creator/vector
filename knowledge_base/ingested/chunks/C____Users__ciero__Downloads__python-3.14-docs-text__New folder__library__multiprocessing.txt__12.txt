@@ -1,0 +1,9 @@
+def f(name):
+       info('function f')
+       print('hello', name)
+   if __name__ == '__main__':
+       info('main line')
+       p = Process(target=f, args=('bob',))
+       p.start()
+       p.join()
+For an explanation of why the "if __name__ == '__main__'" part is

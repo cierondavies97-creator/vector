@@ -1,0 +1,4 @@
+assertions about the *most recent* call. If your mock is going to be
+called several times, and you want to make assertions about *all*
+those calls you can use "call_args_list":
+>>> mock = Mock(return_value=None)

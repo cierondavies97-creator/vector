@@ -1,0 +1,5 @@
+*obj*.  *type* must be a pointer type, and *obj* must be an object
+   that can be interpreted as a pointer.
+ctypes.create_string_buffer(init, size=None)
+ctypes.create_string_buffer(size)
+   This function creates a mutable character buffer. The returned

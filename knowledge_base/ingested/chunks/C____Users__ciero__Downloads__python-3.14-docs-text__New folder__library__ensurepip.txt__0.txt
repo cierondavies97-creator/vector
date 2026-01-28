@@ -1,0 +1,5 @@
+"ensurepip" --- Bootstrapping the "pip" installer
+*************************************************
+Added in version 3.4.
+**Source code:** Lib/ensurepip
+======================================================================

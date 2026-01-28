@@ -1,0 +1,4 @@
+"formatException()" and appended to the message. Note that the
+      formatted exception information is cached in attribute
+      *exc_text*. This is useful because the exception information can
+      be pickled and sent across the wire, but you should be careful

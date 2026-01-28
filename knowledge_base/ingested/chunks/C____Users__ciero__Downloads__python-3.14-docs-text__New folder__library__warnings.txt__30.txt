@@ -1,0 +1,3 @@
+|                 | number) where the warning is issued            |
+  +-----------------+------------------------------------------------+
+  | ""error""       | turn matching warnings into exceptions         |

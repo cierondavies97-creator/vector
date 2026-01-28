@@ -1,0 +1,5 @@
+the same behavior results (on linux at least).
+   Return the exit status value from "os.waitpid()" on the child
+   process.
+   "os.waitstatus_to_exitcode()" can be used to convert the exit
+   status into an exit code.

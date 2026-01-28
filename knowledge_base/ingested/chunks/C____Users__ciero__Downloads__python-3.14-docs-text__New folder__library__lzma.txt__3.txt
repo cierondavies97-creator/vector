@@ -1,0 +1,4 @@
+safe, so if you need to use a single "LZMAFile" instance from multiple
+threads, it is necessary to protect it with a lock.
+This is an *optional module*. If it is missing from your copy of
+CPython, look for documentation from your distributor (that is,

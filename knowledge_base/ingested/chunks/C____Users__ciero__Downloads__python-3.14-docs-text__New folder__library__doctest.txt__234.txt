@@ -1,0 +1,4 @@
+Report that the test runner is about to process the given
+      example. This method is provided to allow subclasses of
+      "DocTestRunner" to customize their output; it should not be
+      called directly.

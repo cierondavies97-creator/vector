@@ -1,0 +1,3 @@
+| "'s'"        | String (converts any Python object using "str()").    | (5)     |
++--------------+-------------------------------------------------------+---------+
+| "'a'"        | String (converts any Python object using "ascii()").  | (5)     |

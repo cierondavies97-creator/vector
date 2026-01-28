@@ -1,0 +1,5 @@
+expression "(?a:[_a-z][_a-z0-9]*)".  If this is given and
+  *braceidpattern* is "None" this pattern will also apply to braced
+  placeholders.
+  Note:
+    Since default *flags* is "re.IGNORECASE", pattern "[a-z]" can

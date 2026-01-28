@@ -1,0 +1,5 @@
+Example:
+         style = ttk.Style(root)
+         style.element_create('plain.background', 'from', 'default')
+      If "vsapi" is used as the value of *etype*, "element_create()"
+      will create a new element in the current theme whose visual

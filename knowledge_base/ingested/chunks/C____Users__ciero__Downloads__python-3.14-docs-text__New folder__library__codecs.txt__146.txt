@@ -1,0 +1,3 @@
+implementation.) Once a string object is used outside of CPU and
+memory, endianness and how these arrays are stored as bytes become an
+issue. As with other codecs, serialising a string into a sequence of

@@ -1,0 +1,4 @@
+executing any code (Python or not).  However, if the target thread
+   is executing the Python interpreter, the Python signal handlers
+   will be executed by the main thread of the main interpreter.
+   Therefore, the only point of sending a signal to a particular

@@ -1,0 +1,6 @@
+Shell windows, remove extra newlines at the end of the file.
+Run menu (Editor window only)
+-----------------------------
+Run Module
+   Do Check Module.  If no error, restart the shell to clean the
+   environment, then execute the module.  Output is displayed in the

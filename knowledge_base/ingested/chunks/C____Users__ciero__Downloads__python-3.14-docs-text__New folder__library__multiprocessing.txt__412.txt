@@ -1,0 +1,4 @@
+bound.
+   If *authkey* is given and not "None", it should be a byte string
+   and will be used as the secret key for an HMAC-based authentication
+   challenge. No authentication is done if *authkey* is "None".

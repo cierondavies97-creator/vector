@@ -1,0 +1,2 @@
+| "default_factory"    | Provides a runtime callback that returns the default value for the field. If     |
+   |                      | neither "default" nor "default_factory" are specified, the field is assumed to   |

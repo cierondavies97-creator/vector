@@ -1,0 +1,4 @@
+Python to handle it. For example, when a destructor raises an
+   exception or during garbage collection ("gc.collect()").
+   The *unraisable* argument has the following attributes:
+   * "exc_type": Exception type.

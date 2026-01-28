@@ -1,0 +1,4 @@
+is set to "None" then the callback is disabled. Calling this
+   function a subsequent time will disable the previously registered
+   callback.
+   The callback function will be called with three arguments; the

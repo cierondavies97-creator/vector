@@ -1,0 +1,4 @@
+used internally in order to copy the file more efficiently. See
+   Platform-dependent efficient copy operations section.
+shutil.copy2(src, dst, *, follow_symlinks=True)
+   Identical to "copy()" except that "copy2()" also attempts to

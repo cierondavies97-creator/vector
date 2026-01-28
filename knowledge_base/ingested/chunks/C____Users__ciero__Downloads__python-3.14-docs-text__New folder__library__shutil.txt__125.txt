@@ -1,0 +1,4 @@
+have absolute filenames starting with "/" or filenames with two
+     dots "..".Since Python 3.14, the defaults for both built-in
+     formats (zip and tar files) will prevent the most dangerous of
+     such security issues, but will not prevent *all* unintended

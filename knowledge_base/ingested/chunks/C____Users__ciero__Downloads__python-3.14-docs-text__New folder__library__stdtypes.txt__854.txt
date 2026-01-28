@@ -1,0 +1,9 @@
+[1, 2, 3]
+Furthermore, parameterized generics erase type parameters during
+object creation:
+   >>> t = list[str]
+   >>> type(t)
+   <class 'types.GenericAlias'>
+   >>> l = t()
+   >>> type(l)
+   <class 'list'>

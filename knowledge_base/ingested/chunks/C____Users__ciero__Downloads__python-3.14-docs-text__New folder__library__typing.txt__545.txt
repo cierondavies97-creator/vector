@@ -1,0 +1,5 @@
+Type.
+class typing.ValuesView(MappingView, Collection[_VT_co])
+   Deprecated alias to "collections.abc.ValuesView".
+   Deprecated since version 3.9: "collections.abc.ValuesView" now
+   supports subscripting ("[]"). See **PEP 585** and Generic Alias

@@ -1,0 +1,4 @@
+initialize the array items. Bytes not initialized this way are set
+   to zero (NUL).
+   If *size* is not given (or if it is "None"), the buffer is made one
+   element larger than *init*, effectively adding a NUL terminator.

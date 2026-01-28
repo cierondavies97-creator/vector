@@ -1,0 +1,5 @@
+"attribute".
+   Changed in version 3.6: Accepts a *path-like object* for *path* and
+   *attribute*.
+os.listxattr(path=None, *, follow_symlinks=True)
+   Return a list of the extended filesystem attributes on *path*.  The

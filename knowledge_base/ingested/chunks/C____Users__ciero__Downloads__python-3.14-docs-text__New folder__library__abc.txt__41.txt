@@ -1,0 +1,5 @@
+def my_abstract_staticmethod(arg):
+              ...
+@abc.abstractproperty
+   Deprecated since version 3.3: It is now possible to use "property",
+   "property.getter()", "property.setter()" and "property.deleter()"

@@ -1,0 +1,5 @@
+>>> args = parser.parse_args(['--foo', 'BAR'])
+      >>> vars(args)
+      {'foo': 'BAR'}
+   It may also be useful to have an "ArgumentParser" assign attributes
+   to an already existing object, rather than a new "Namespace"

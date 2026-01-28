@@ -1,0 +1,4 @@
+"DivisionByZero", "Inexact", "Rounded", "Subnormal", "Overflow",
+"Underflow" and "FloatOperation".
+For each signal there is a flag and a trap enabler.  When a signal is
+encountered, its flag is set to one, then, if the trap enabler is set

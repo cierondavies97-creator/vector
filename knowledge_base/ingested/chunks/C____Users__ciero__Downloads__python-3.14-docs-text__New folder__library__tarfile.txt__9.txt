@@ -1,0 +1,4 @@
+allowed, see TarFile Objects.
+   *mode* has to be a string of the form "'filemode[:compression]'",
+   it defaults to "'r'". Here is a full list of mode combinations:
+   +--------------------+-----------------------------------------------+

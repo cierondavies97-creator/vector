@@ -1,0 +1,4 @@
+Generic element structure builder.  This builder converts a
+   sequence of start, data, end, comment and pi method calls to a
+   well-formed element structure.  You can use this class to build an
+   element structure using a custom XML parser, or a parser for some

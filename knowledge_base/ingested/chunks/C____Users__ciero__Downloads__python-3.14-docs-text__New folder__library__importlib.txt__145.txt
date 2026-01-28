@@ -1,0 +1,4 @@
+closure using the path argument given to the closure directly
+      and *loader_details* indirectly.
+      If the argument to the closure is not an existing directory,
+      "ImportError" is raised.

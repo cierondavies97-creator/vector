@@ -1,0 +1,4 @@
+After an "xmlparser" object has been created, various attributes of
+the object can be set to handler functions.  When an XML document is
+then fed to the parser, the handler functions are called for the
+character data and markup in the XML document.

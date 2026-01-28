@@ -1,0 +1,4 @@
+existing non-root loggers unless they or their ancestors are
+        explicitly named in the logging configuration.
+      * **encoding** -- The encoding used to open file when *fname* is
+        filename.

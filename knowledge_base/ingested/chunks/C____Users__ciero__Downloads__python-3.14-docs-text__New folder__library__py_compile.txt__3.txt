@@ -1,0 +1,3 @@
+py_compile.compile(file, cfile=None, dfile=None, doraise=False, optimize=-1, invalidation_mode=PycInvalidationMode.TIMESTAMP, quiet=0)
+   Compile a source file to byte-code and write out the byte-code
+   cache file. The source code is loaded from the file named *file*.

@@ -1,0 +1,5 @@
+choosing TLSv1 as the protocol version.
+   Added in version 3.2.
+   Deprecated since version 3.7: The option is deprecated since
+   OpenSSL 1.1.0, use the new "SSLContext.minimum_version" and
+   "SSLContext.maximum_version" instead.

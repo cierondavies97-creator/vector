@@ -1,0 +1,8 @@
+instance, while the *outgoing* BIO is used to pass data the other
+   way around.
+   The following methods are available:
+   * "context"
+   * "server_side"
+   * "server_hostname"
+   * "session"
+   * "session_reused"

@@ -1,0 +1,5 @@
+alive, the "join()" call timed out.
+      When the *timeout* argument is not present or "None", the
+      operation will block until the thread terminates.
+      A thread can be joined many times.
+      "join()" raises a "RuntimeError" if an attempt is made to join

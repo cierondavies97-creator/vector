@@ -1,0 +1,4 @@
+refold_source
+      If the value for a header in the "Message" object originated
+      from a "parser" (as opposed to being set by a program), this
+      attribute indicates whether or not a generator should refold

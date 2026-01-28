@@ -1,0 +1,4 @@
+this exception. See also: The raise statement.
+   add_note(note)
+      Add the string "note" to the exception's notes which appear in
+      the standard traceback after the exception string. A "TypeError"

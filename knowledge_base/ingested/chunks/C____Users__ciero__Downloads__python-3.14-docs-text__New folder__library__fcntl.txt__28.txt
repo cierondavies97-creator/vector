@@ -1,0 +1,5 @@
+"ioctl()" and copied back into the supplied buffer.
+   If the "ioctl()" call fails, an "OSError" exception is raised.
+   Note:
+     If the type or size of *arg* does not match the type or size of
+     the operation's argument (for example, if an integer is passed

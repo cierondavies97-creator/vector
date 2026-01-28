@@ -1,0 +1,7 @@
+if len(args) != 2:
+           return fail("need 2 filename args")
+       f1name, f2name = args
+       if noisy:
+           print('-:', f1name)
+           print('+:', f2name)
+       return fcompare(f1name, f2name)

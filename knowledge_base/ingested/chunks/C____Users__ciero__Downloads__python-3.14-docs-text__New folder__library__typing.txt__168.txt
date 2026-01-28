@@ -1,0 +1,5 @@
+underlying "TypeAliasType":
+        type A = Literal[1, 2]
+        assert Literal[A, 3] != Literal[1, 2, 3]
+   * Redundant arguments are skipped, e.g.:
+        assert Literal[1, 2, 1] == Literal[1, 2]

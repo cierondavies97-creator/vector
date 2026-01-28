@@ -1,0 +1,5 @@
+values=[
+                              Constant(value='.3')]))]))
+class ast.TemplateStr(values, /)
+   Added in version 3.14.
+   Node representing a template string literal, comprising a series of

@@ -1,0 +1,5 @@
+"-l").  If no library can be found, returns "None".
+   The exact functionality is system dependent.
+   See Finding shared libraries for complete documentation.
+ctypes.util.find_msvcrt()
+   Returns the filename of the VC runtime library used by Python, and

@@ -1,0 +1,5 @@
+class __future__._Feature
+   Each statement in "__future__.py" is of the form:
+      FeatureName = _Feature(OptionalRelease, MandatoryRelease,
+                             CompilerFlag)
+   where, normally, *OptionalRelease* is less than *MandatoryRelease*,

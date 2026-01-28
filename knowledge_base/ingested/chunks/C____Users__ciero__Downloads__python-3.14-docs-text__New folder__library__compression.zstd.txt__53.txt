@@ -1,0 +1,4 @@
+The initial value is "FLUSH_FRAME", signifying that the
+      compressor is at the start of a new frame.
+class compression.zstd.ZstdDecompressor(zstd_dict=None, options=None)
+   Create a decompressor object, which can be used to decompress data

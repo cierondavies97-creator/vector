@@ -1,0 +1,4 @@
+derived from *dest*.  This is usually what you want because the user
+never sees the *dest* parameter.  If this display isn't desirable
+(perhaps because there are many choices), just specify an explicit
+metavar.

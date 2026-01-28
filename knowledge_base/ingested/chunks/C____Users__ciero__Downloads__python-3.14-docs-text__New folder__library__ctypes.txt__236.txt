@@ -1,0 +1,4 @@
+like object*.
+All these classes can be instantiated by calling them with at least
+one argument, the pathname of the shared library.  If you have an
+existing handle to an already loaded shared library, it can be passed

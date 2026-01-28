@@ -1,0 +1,4 @@
+available on the module.  It will try to use the "module.__name__",
+"module.__file__", and "module.__loader__" as input into the repr,
+with defaults for whatever information is missing.
+Here are the exact rules used:

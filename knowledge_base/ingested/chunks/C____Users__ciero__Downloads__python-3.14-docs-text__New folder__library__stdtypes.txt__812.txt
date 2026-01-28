@@ -1,0 +1,6 @@
+the view reflects these changes.
+Dictionary views can be iterated over to yield their respective data,
+and support membership tests:
+len(dictview)
+   Return the number of entries in the dictionary.
+iter(dictview)

@@ -1,0 +1,4 @@
+evaluated when the "TypedDict" is defined. Therefore, the
+        runtime introspection that "__required_keys__" and
+        "__optional_keys__" rely on may not work properly, and the
+        values of the attributes may be incorrect.

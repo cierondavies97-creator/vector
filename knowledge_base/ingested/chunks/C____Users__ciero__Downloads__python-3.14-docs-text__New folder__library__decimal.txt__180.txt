@@ -1,0 +1,3 @@
+prec + 1". If *clamp* is "0" then a weaker condition holds: the
+      adjusted exponent of the "Decimal" instance is at most "Emax".
+      When *clamp* is "1", a large normal number will, where possible,

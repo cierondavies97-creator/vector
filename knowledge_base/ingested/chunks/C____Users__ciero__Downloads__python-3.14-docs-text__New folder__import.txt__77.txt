@@ -1,0 +1,3 @@
+responsibilities of loading.For compatibility with existing loaders,
+the import machinery will use the "load_module()" method of loaders if
+it exists and the loader does not also implement "exec_module()".

@@ -1,0 +1,3 @@
+name of the package which was being imported) if any exception
+   occurs while trying to import a package.  If no *onerror* function
+   is supplied, "ImportError"s are caught and ignored, while all other

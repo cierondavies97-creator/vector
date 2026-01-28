@@ -1,0 +1,5 @@
+the difference between the results of two calls in the same thread
+   is valid.
+   Use "thread_time_ns()" to avoid the precision loss caused by the
+   "float" type.
+   Availability: Linux, Unix, Windows.

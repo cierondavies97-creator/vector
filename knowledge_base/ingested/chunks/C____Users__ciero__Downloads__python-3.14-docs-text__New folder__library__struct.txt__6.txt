@@ -1,0 +1,3 @@
+common types used for that purpose are "bytes" and "bytearray", but
+many other types that can be viewed as an array of bytes implement the
+buffer protocol, so that they can be read/filled without additional

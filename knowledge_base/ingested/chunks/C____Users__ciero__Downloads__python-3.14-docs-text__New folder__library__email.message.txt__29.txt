@@ -1,0 +1,5 @@
+a string.  (See "mboxMessage" for a brief description of this
+      header.)
+   get_unixfrom()
+      Return the message's envelope header.  Defaults to "None" if the
+      envelope header was never set.

@@ -1,0 +1,6 @@
+debugging.
+gc.get_debug()
+   Return the debugging flags currently set.
+gc.get_objects(generation=None)
+   Returns a list of all objects tracked by the collector, excluding
+   the list returned. If *generation* is not "None", return only the

@@ -1,0 +1,6 @@
+import sys
+   import trace
+   # create a Trace object, telling it what to ignore, and whether to
+   # do tracing or line-counting or both.
+   tracer = trace.Trace(
+       ignoredirs=[sys.prefix, sys.exec_prefix],

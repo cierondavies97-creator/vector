@@ -1,0 +1,4 @@
+network or IPC protocols (e.g. HTTP).
+Essentially, transports and protocols should only be used in libraries
+and frameworks and never in high-level asyncio applications.
+This documentation page covers both Transports and Protocols.

@@ -1,0 +1,5 @@
+Annotating generators and coroutines
+====================================
+A generator can be annotated using the generic type
+"Generator[YieldType, SendType, ReturnType]". For example:
+   def echo_round() -> Generator[int, float, str]:

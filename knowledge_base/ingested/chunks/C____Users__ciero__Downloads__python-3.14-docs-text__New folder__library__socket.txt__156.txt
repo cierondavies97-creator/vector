@@ -1,0 +1,4 @@
+representing an address will not contain "%scope_id" part.
+socket.getfqdn([name])
+   Return a fully qualified domain name for *name*. If *name* is
+   omitted or empty, it is interpreted as the local host.  To find the

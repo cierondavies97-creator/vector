@@ -1,0 +1,5 @@
+raised.
+   Changed in version 3.6.2: The *path* parameter accepts a *path-like
+   object*.
+ZipFile.extractall(path=None, members=None, pwd=None)
+   Extract all members from the archive to the current working

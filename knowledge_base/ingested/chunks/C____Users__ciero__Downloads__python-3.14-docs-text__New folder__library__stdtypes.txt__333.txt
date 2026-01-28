@@ -1,0 +1,7 @@
+...     def __missing__(self, key):
+   ...         return key
+   ...
+   >>> '{name} was born in {country}'.format_map(Default(name='Guido'))
+   'Guido was born in country'
+   Added in version 3.2.
+str.index(sub[, start[, end]])

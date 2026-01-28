@@ -1,0 +1,3 @@
+Whichever method you choose, it's important to name your Capsules
+properly. The function "PyCapsule_New()" takes a name parameter (const
+char*); you're permitted to pass in a "NULL" name, but we strongly

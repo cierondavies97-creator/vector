@@ -1,0 +1,7 @@
+return ()
+          iterator = _tee(iterable)
+          result = [iterator]
+          for _ in range(n - 1):
+              result.append(_tee(iterator))
+          return tuple(result)
+      class _tee:

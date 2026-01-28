@@ -1,0 +1,4 @@
+printed but the debugger's state is not changed.
+Changed in version 3.13: Expressions/Statements whose prefix is a pdb
+command are now correctly identified and executed.
+The debugger supports aliases.  Aliases can have parameters which

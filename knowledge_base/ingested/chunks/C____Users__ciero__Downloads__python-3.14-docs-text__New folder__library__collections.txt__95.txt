@@ -1,0 +1,6 @@
+'i'
+   >>> list(reversed(d))                # list the contents of a deque in reverse
+   ['i', 'h', 'g']
+   >>> 'h' in d                         # search the deque
+   True
+   >>> d.extend('jkl')                  # add multiple elements at once

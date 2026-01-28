@@ -1,0 +1,4 @@
+**PEP 453**: Explicit bootstrapping of pip in Python installations
+     The original rationale and specification for this module.
+Availability: not Android, not iOS, not WASI.
+This module is not supported on mobile platforms or WebAssembly

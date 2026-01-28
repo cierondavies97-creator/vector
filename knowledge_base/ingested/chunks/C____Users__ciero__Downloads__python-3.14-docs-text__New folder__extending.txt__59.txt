@@ -1,0 +1,5 @@
+sts = system(command);
+Our "spam.system()" function must return the value of "sts" as a
+Python object.  This is done using the function "PyLong_FromLong()".
+   return PyLong_FromLong(sts);
+In this case, it will return an integer object.  (Yes, even integers

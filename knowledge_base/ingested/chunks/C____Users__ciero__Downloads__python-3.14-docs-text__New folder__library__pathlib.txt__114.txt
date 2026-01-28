@@ -1,0 +1,5 @@
+Path.expanduser()
+   Return a new path with expanded "~" and "~user" constructs, as
+   returned by "os.path.expanduser()". If a home directory can't be
+   resolved, "RuntimeError" is raised.
+      >>> p = PosixPath('~/films/Monty Python')

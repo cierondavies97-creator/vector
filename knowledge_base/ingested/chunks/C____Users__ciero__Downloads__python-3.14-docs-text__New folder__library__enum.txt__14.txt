@@ -1,0 +1,6 @@
+implemented this way.
+   "unique()"
+      Enum class decorator that ensures only one name is bound to any
+      one value.
+   "verify()"
+      Enum class decorator that checks user-selectable constraints on

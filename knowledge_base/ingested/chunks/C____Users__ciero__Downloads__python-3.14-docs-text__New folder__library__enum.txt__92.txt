@@ -1,0 +1,7 @@
+"ValueError".
+   UNIQUE
+      Ensure that each value has only one name:
+         >>> from enum import Enum, verify, UNIQUE
+         >>> @verify(UNIQUE)
+         ... class Color(Enum):
+         ...     RED = 1

@@ -1,0 +1,5 @@
+conditions are fulfilled:
+     * *delete* is false
+     * additional open shares delete access (e.g. by calling
+       "os.open()" with the flag "O_TEMPORARY")
+     * *delete* is true but *delete_on_close* is false. Note, that in

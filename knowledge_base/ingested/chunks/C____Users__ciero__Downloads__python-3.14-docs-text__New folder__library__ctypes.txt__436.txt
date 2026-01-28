@@ -1,0 +1,6 @@
+is_bitfield
+      True if this is a bitfield.
+   bit_offset
+   bit_size
+      The location of a bitfield within its *storage unit*, that is,
+      within "byte_size" bytes of memory starting at "byte_offset".

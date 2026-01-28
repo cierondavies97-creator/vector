@@ -1,0 +1,3 @@
+attribute in the class tree for "self"; or "__get__()" of a *name*
+   property raises "AttributeError").  This method should either
+   return the (computed) attribute value or raise an "AttributeError"

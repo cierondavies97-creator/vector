@@ -1,0 +1,5 @@
+"urllib.parse" --- Parse URLs into components
+*********************************************
+**Source code:** Lib/urllib/parse.py
+======================================================================
+This module defines a standard interface to break Uniform Resource

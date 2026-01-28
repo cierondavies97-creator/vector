@@ -1,0 +1,5 @@
+*abstract base classes* which progressively define more operations.
+None of the types defined in this module are intended to be
+instantiated.
+class numbers.Number
+   The root of the numeric hierarchy. If you just want to check if an

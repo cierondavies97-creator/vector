@@ -1,0 +1,4 @@
+If the subclass overrides the constructor, it must make sure to
+   invoke the base class constructor ("Thread.__init__()") before
+   doing anything else to the thread.
+   Changed in version 3.3: Added the *daemon* parameter.

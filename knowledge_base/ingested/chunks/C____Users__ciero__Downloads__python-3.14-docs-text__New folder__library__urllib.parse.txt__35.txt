@@ -1,0 +1,5 @@
+**RFC 3986**.  Previously, an allowlist of schemes that support
+   fragments existed.
+   Changed in version 3.6: Out-of-range port numbers now raise
+   "ValueError", instead of returning "None".
+   Changed in version 3.8: Characters that affect netloc parsing under

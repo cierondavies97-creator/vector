@@ -1,0 +1,3 @@
+Register *callable* *authorizer_callback* to be invoked for each
+      attempt to access a column of a table in the database. The
+      callback should return one of "SQLITE_OK", "SQLITE_DENY", or

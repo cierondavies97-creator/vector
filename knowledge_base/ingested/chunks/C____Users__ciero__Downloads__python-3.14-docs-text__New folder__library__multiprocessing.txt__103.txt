@@ -1,0 +1,4 @@
+If the child terminated due to an exception not caught within
+      "run()", the exit code will be 1.  If it was terminated by
+      signal *N*, the exit code will be the negative value *-N*.
+   authkey

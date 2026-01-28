@@ -1,0 +1,9 @@
+absent.
+   Added in version 3.14.
+See also:
+  Module "gzip"
+     Reading and writing **gzip**-format files.
+  https://www.zlib.net
+     The zlib library home page.
+  https://www.zlib.net/manual.html
+     The zlib manual explains  the semantics and usage of the

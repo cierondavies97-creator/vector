@@ -1,0 +1,5 @@
+['mesgnum uid', ...], octets)".
+POP3.utf8()
+   Try to switch to UTF-8 mode. Returns the server response if
+   successful, raises "error_proto" if not. Specified in **RFC 6856**.
+   Added in version 3.5.

@@ -1,0 +1,3 @@
+and the names of the members in *cls*:
+         >>> dir(Color)
+         ['BLUE', 'GREEN', 'RED', '__class__', '__contains__', '__doc__', '__getitem__', '__init_subclass__', '__iter__', '__len__', '__members__', '__module__', '__name__', '__qualname__']

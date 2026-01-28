@@ -1,0 +1,3 @@
+those platforms). This allows tools to discover it, and for the Python
+install manager to support "py.exe -3.13t". Note that the launcher
+will interpret "py.exe -3" (or a "python3" shebang) as "the latest 3.x

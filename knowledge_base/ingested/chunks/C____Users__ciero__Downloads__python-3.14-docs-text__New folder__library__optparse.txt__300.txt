@@ -1,0 +1,5 @@
+Option.TYPE_CHECKER
+   A dictionary mapping type names to type-checking functions.  A
+   type-checking function has the following signature:
+      def check_mytype(option, opt, value)
+   where "option" is an "Option" instance, "opt" is an option string

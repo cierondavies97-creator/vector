@@ -1,0 +1,6 @@
+Bounded length deques provide functionality similar to the "tail"
+filter in Unix:
+   def tail(filename, n=10):
+       'Return the last n lines of a file'
+       with open(filename) as f:
+           return deque(f, n)

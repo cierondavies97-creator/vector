@@ -1,0 +1,4 @@
+string, on the other hand this is quite handy to experiment with this
+feature):
+   >>> printf.argtypes = [c_char_p, c_char_p, c_int, c_double]
+   >>> printf(b"String '%s', Int %d, Double %f\n", b"Hi", 10, 2.2)

@@ -1,0 +1,6 @@
+name: str
+          id: int
+   This is equivalent to:
+      Employee = collections.namedtuple('Employee', ['name', 'id'])
+   To give a field a default value, you can assign to it in the class
+   body:

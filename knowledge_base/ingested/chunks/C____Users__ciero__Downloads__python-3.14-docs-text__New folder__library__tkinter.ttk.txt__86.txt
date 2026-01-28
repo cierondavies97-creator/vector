@@ -1,0 +1,6 @@
+single one at a time. Each child window is associated with a tab,
+which the user may select to change the currently displayed window.
+Options
+-------
+This widget accepts the following specific options:
++-----------+------------------------------------------------------------------+

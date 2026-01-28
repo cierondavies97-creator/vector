@@ -1,0 +1,5 @@
+body=[
+                              Expr(
+                                  value=Constant(value=Ellipsis))])])])
+   Added in version 3.10.
+class ast.MatchClass(cls, patterns, kwd_attrs, kwd_patterns)

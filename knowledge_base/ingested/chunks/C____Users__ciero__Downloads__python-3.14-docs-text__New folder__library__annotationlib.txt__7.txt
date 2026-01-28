@@ -1,0 +1,5 @@
+"get_annotate_from_class_namespace()" and "call_annotate_function()",
+as well as the "call_evaluate_function()" function for working with
+*evaluate functions*.
+Caution:
+  Most functionality in this module can execute arbitrary code; see

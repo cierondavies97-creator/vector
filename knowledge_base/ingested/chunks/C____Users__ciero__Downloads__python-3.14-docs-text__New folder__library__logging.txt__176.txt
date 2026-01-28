@@ -1,0 +1,4 @@
+data from the record into the format string. The following table lists
+(in alphabetical order) the attribute names, their meanings and the
+corresponding placeholder in a %-style format string.
+If you are using {}-formatting ("str.format()"), you can use

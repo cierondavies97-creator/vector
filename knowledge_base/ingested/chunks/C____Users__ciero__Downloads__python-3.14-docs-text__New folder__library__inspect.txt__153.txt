@@ -1,0 +1,4 @@
+that parameters with defaults follow parameters without defaults.
+   The optional *return_annotation* argument can be an arbitrary
+   Python object. It represents the "return" annotation of the
+   callable.

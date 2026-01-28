@@ -1,0 +1,4 @@
+database (see "unicodedata") have a general category in group
+   Letter, Mark, Number, Punctuation, or Symbol (L, M, N, P, or S);
+   plus the ASCII space 0x20. Nonprintable characters are those in
+   group Separator or Other (Z or C), except the ASCII space.

@@ -1,0 +1,4 @@
+match their corresponding pattern.
+   Note: classes may define a property that returns self in order to
+   match a pattern node against the instance being matched. Several
+   builtin types are also matched that way, as described in the match

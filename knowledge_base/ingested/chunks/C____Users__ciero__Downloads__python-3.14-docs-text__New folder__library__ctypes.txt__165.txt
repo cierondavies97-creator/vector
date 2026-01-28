@@ -1,0 +1,5 @@
+NameError: name 'cell' is not defined
+   >>>
+because the new "class cell" is not available in the class statement
+itself. In "ctypes", we can define the "cell" class and set the
+"_fields_" attribute later, after the class statement:

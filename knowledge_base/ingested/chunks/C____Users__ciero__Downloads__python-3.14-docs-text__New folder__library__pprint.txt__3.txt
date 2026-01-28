@@ -1,0 +1,5 @@
+and breaks them onto multiple lines if they don't fit within the
+allowed width, adjustable by the *width* parameter defaulting to 80
+characters.
+Changed in version 3.9: Added support for pretty-printing
+"types.SimpleNamespace".

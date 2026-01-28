@@ -1,0 +1,5 @@
+"bisect" --- Array bisection algorithm
+**************************************
+**Source code:** Lib/bisect.py
+======================================================================
+This module provides support for maintaining a list in sorted order

@@ -1,0 +1,4 @@
+| a=expression ':' expression {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "illegal target for annotation") }
+       | (star_targets '=')* a=star_expressions '=' {
+           RAISE_SYNTAX_ERROR_INVALID_TARGET(STAR_TARGETS, a) }

@@ -1,0 +1,5 @@
+for the object's "run()" method to be invoked in a separate
+      thread of control.
+      This method will raise a "RuntimeError" if called more than once
+      on the same thread object.
+      If supported, set the operating system thread name to

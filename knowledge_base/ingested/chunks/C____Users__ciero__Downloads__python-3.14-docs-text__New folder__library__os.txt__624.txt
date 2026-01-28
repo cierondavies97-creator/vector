@@ -1,0 +1,4 @@
+signals available on the host platform are defined in the "signal"
+   module.
+   Windows: The "signal.CTRL_C_EVENT" and "signal.CTRL_BREAK_EVENT"
+   signals are special signals which can only be sent to console

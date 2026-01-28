@@ -1,0 +1,7 @@
+a(rgs)
+   Print the arguments of the current function and their current
+   values.
+p expression
+   Evaluate *expression* in the current context and print its value.
+   Note:
+     "print()" can also be used, but is not a debugger command ---

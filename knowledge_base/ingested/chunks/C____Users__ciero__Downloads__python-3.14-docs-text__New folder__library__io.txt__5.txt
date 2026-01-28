@@ -1,0 +1,6 @@
+the "write()" method of a text stream.
+Changed in version 3.3: Operations that used to raise "IOError" now
+raise "OSError", since "IOError" is now an alias of "OSError".
+Text I/O
+--------
+Text I/O expects and produces "str" objects.  This means that whenever

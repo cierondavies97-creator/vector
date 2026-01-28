@@ -1,0 +1,4 @@
+zlib.adler32(data[, value])
+   Computes an Adler-32 checksum of *data*.  (An Adler-32 checksum is
+   almost as reliable as a CRC32 but can be computed much more
+   quickly.)  The result is an unsigned 32-bit integer.  If *value* is

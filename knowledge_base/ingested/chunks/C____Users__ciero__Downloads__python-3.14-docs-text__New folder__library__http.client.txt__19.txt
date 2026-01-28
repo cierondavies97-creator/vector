@@ -1,0 +1,5 @@
+"http.server.BaseHTTPRequestHandler.headers"). After returning, the
+   file pointer *fp* is ready to read the HTTP body.
+   Note:
+     "parse_headers()" does not parse the start-line of a HTTP
+     message; it only parses the "Name: value" lines. The file has to

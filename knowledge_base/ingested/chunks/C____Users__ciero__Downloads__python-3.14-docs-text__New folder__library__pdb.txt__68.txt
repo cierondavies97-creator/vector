@@ -1,0 +1,5 @@
+ask confirmation).
+disable bpnumber [bpnumber ...]
+   Disable the breakpoints given as a space separated list of
+   breakpoint numbers.  Disabling a breakpoint means it cannot cause
+   the program to stop execution, but unlike clearing a breakpoint, it

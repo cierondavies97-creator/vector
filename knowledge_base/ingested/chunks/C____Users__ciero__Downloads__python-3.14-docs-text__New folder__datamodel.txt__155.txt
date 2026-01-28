@@ -1,0 +1,4 @@
+modules created dynamically using the "types.ModuleType"
+   constructor. Previously the attribute was optional.
+   Deprecated since version 3.12, will be removed in version 3.16:
+   Setting "__loader__" on a module while failing to set

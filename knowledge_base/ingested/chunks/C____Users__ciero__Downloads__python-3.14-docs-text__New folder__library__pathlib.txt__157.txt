@@ -1,0 +1,7 @@
+Open the file pointed to in text mode, write *data* to it, and
+   close the file:
+      >>> p = Path('my_text_file')
+      >>> p.write_text('Text file contents')
+      18
+      >>> p.read_text()
+      'Text file contents'

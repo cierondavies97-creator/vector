@@ -1,0 +1,5 @@
+listener
+      When created via configuration using "dictConfig()", this
+      attribute will contain a "QueueListener" instance for use with
+      this handler. Otherwise, it will be "None".
+      Added in version 3.12.

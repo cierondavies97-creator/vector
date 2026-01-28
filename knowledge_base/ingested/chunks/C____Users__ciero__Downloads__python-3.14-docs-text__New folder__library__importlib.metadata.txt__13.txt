@@ -1,0 +1,5 @@
+this module when queried for a distribution package which is not
+   installed in the current Python environment.
+Functional API
+==============
+This package provides the following functionality via its public API.

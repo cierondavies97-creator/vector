@@ -1,0 +1,5 @@
+Establish a network connection and return a pair of "(reader,
+   writer)" objects.
+   The returned *reader* and *writer* objects are instances of
+   "StreamReader" and "StreamWriter" classes.
+   *limit* determines the buffer size limit used by the returned

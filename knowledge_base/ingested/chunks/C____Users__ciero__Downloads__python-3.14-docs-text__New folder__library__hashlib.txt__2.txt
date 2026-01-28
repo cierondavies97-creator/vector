@@ -1,0 +1,7 @@
+in internet **RFC 1321**).
+Note:
+  If you want the adler32 or crc32 hash functions, they are available
+  in the "zlib" module.
+Hash algorithms
+===============
+There is one constructor method named for each type of *hash*.  All

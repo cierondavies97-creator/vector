@@ -1,0 +1,4 @@
+Called when a buffer is no longer needed. The *buffer* argument is
+   a "memoryview" object that was previously returned by
+   "__buffer__()". The method must release any resources associated
+   with the buffer. This method should return "None". Buffer objects

@@ -1,0 +1,5 @@
+| a[asdl_expr_seq*]=tstring+ { _PyPegen_concatenate_tstrings(p, a, EXTRA) }
+   list[expr_ty]:
+       | '[' a=[star_named_expressions] ']' { _PyAST_List(a, Load, EXTRA) }
+   tuple[expr_ty]:
+       | '(' a=[y=star_named_expression ',' z=[star_named_expressions] { _PyPegen_seq_insert_in_front(p, y, z) } ] ')' {

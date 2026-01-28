@@ -1,0 +1,7 @@
+Py_END_ALLOW_THREADS
+       PyObject_Print(item, stdout, 0); /* BUG! */
+   }
+1.10.4. NULL Pointers
+---------------------
+In general, functions that take object references as arguments do not
+expect you to pass them "NULL" pointers, and will dump core (or cause

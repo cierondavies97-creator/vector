@@ -1,0 +1,4 @@
+When you have finished providing data to the compressor, call
+      the "flush()" method to finish the compression process.
+   flush()
+      Finish the compression process. Returns the compressed data left

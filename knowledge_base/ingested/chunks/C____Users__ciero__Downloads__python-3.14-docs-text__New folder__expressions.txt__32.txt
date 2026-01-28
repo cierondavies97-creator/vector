@@ -1,0 +1,4 @@
+considering each of the "for" or "if" clauses a block, nesting from
+left to right, and evaluating the expression to produce an element
+each time the innermost block is reached.
+However, aside from the iterable expression in the leftmost "for"

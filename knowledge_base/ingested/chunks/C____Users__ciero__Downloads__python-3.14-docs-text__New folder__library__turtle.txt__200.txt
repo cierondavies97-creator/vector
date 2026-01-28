@@ -1,0 +1,5 @@
+turtle.screensize(canvwidth=None, canvheight=None, bg=None)
+   Parameters:
+      * **canvwidth** -- positive integer, new width of canvas in
+        pixels
+      * **canvheight** -- positive integer, new height of canvas in

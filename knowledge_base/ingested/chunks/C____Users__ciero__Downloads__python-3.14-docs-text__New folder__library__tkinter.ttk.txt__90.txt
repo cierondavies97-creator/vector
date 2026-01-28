@@ -1,0 +1,3 @@
+|           | elements are specified, bottom defaults to top, right defaults   |
+|           | to left, and top defaults to left.                               |
++-----------+------------------------------------------------------------------+

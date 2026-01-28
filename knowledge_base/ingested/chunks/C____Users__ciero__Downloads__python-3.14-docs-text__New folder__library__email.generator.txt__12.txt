@@ -1,0 +1,4 @@
+CONTENT-LENGTH FORMAT IS BAD).
+   If *maxheaderlen* is not "None", refold any header lines that are
+   longer than *maxheaderlen*, or if "0", do not rewrap any headers.
+   If *manheaderlen* is "None" (the default), wrap headers and other

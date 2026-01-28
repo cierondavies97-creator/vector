@@ -1,0 +1,5 @@
+Note:
+     This function is not available on MacOS.
+os.fpathconf(fd, name, /)
+   Return system configuration information relevant to an open file.
+   *name* specifies the configuration value to retrieve; it may be a

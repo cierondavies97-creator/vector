@@ -1,0 +1,5 @@
+arg_name:          [identifier | digit+]
+   attribute_name:    identifier
+   element_index:     digit+ | index_string
+   index_string:      <any source character except "]"> +
+   conversion:        "r" | "s" | "a"

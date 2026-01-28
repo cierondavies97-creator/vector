@@ -1,0 +1,5 @@
+"strftime()" and "strptime()" Format Codes
+------------------------------------------
+These methods accept format codes that can be used to parse and format
+dates:
+   >>> datetime.strptime('31/01/22 23:59:59.999999',

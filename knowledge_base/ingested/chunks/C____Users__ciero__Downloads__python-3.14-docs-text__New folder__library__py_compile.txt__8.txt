@@ -1,0 +1,3 @@
+written to "sys.stderr", and the function returns "None" instead of
+   a path. If *doraise* is true, a "PyCompileError" is raised instead.
+   However if *quiet* is 2, no message is written, and *doraise* has

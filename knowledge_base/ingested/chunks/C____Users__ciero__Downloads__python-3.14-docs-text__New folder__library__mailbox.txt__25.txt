@@ -1,0 +1,5 @@
+rather than an *iterator*
+   iteritems()
+      Return an *iterator* over (*key*, *message*) pairs, where *key*
+      is a key and *message* is a message representation. The messages
+      are represented as instances of the appropriate format-specific

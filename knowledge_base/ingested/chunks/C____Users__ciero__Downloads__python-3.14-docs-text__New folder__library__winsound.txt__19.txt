@@ -1,0 +1,5 @@
+Note:
+     This flag is not supported on modern Windows platforms.
+winsound.SND_APPLICATION
+   The *sound* parameter is an application-specific alias in the
+   registry. This flag can be combined with the "SND_ALIAS" flag to

@@ -1,0 +1,4 @@
+class tkinter.commondialog.Dialog(master=None, **options)
+   show(**options)
+      Render the Dialog window.
+See also: Modules "tkinter.messagebox", Reading and Writing Files

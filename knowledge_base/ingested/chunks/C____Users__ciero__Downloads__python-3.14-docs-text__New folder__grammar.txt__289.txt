@@ -1,0 +1,2 @@
+RAISE_INDENTATION_ERROR("expected an indented block after function definition on line %d", a->lineno) }
+       | ['async'] 'def' NAME [type_params] &&'(' [params] ')' ['->' expression] &&':' [func_type_comment] block

@@ -1,0 +1,3 @@
+Return the code object for a module, or "None" if the module
+      does not have a code object (as would be the case, for example,
+      for a built-in module).  Raise an "ImportError" if loader cannot

@@ -1,0 +1,3 @@
+On Unix, the "myapp.pyz" file is executable as it stands.  You can
+rename the file to remove the ".pyz" extension if you prefer a "plain"
+command name.  On Windows, the "myapp.pyz[w]" file is executable by

@@ -1,0 +1,5 @@
+the child's controlling terminal (and also to the child's standard
+   input and output).
+   Warning:
+     On macOS the use of this function is unsafe when mixed with using
+     higher-level system APIs, and that includes using

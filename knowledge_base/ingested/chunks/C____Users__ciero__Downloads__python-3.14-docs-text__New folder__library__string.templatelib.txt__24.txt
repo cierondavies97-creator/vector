@@ -1,0 +1,6 @@
+>>> response = 'We do have '
+        >>> cheese = 'Camembert'
+        >>> list(t'Ah! {response}{cheese}.')
+        ['Ah! ',
+         Interpolation('We do have ', 'response', None, ''),
+         Interpolation('Camembert', 'cheese', None, ''),

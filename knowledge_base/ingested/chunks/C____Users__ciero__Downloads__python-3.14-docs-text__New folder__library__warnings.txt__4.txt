@@ -1,0 +1,3 @@
+the source location where it is issued.  Repetitions of a particular
+warning for the same source location are typically suppressed.
+There are two stages in warning control: first, each time a warning is

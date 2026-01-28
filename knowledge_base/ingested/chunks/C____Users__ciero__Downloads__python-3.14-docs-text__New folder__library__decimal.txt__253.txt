@@ -1,0 +1,4 @@
+operations can still incur round-off error when non-zero digits exceed
+the fixed precision.
+The effects of round-off error can be amplified by the addition or
+subtraction of nearly offsetting quantities resulting in loss of

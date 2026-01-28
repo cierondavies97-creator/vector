@@ -1,0 +1,7 @@
+decorator_list=[],
+                  type_params=[])],
+          type_ignores=[])
+Compiler flags
+==============
+The following flags may be passed to "compile()" in order to change
+effects on the compilation of a program:

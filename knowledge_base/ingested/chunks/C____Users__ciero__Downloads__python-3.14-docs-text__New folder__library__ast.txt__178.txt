@@ -1,0 +1,6 @@
+alias(name='y'),
+                      alias(name='z')],
+                  level=0)])
+class ast.alias(name, asname)
+   Both parameters are raw strings of the names. "asname" can be
+   "None" if the regular name is to be used.

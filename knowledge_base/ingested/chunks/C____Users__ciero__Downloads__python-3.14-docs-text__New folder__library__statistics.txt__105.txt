@@ -1,0 +1,4 @@
+possible values from the population.
+   The default *method* is "exclusive" and is used for data sampled
+   from a population that can have more extreme values than found in
+   the samples.  The portion of the population falling below the

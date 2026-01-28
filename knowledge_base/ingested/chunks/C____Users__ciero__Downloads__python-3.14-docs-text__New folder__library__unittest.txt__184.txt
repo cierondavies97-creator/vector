@@ -1,0 +1,5 @@
+"logging.ERROR").  The default is "logging.INFO".
+      Unlike "assertLogs()", nothing will be returned by the context
+      manager.
+      Added in version 3.10.
+   There are also other methods used to perform more specific checks,

@@ -1,0 +1,7 @@
+"'"'", "'%'", ""'"", "','", "'/'", "':'", "';'", "'<'", "'='",
+   "'>'", "'@'", and ""`"" are no longer escaped.
+re.purge()
+   Clear the regular expression cache.
+Exceptions
+----------
+exception re.PatternError(msg, pattern=None, pos=None)

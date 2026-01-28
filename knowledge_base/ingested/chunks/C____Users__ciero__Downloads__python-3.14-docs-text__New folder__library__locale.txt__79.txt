@@ -1,0 +1,4 @@
+* On Android and VxWorks, return ""utf-8"".
+   * On Unix, return the encoding of the current "LC_CTYPE" locale.
+     Return ""utf-8"" if "nl_langinfo(CODESET)" returns an empty
+     string: for example, if the current LC_CTYPE locale is not

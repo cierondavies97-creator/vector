@@ -1,0 +1,3 @@
+|             | the tab is not selectable. If "hidden", then the tab is not    |
+|             | shown.                                                         |
++-------------+----------------------------------------------------------------+

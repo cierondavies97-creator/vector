@@ -1,0 +1,5 @@
+"formatyear()"). The default value is ""year"".
+      Added in version 3.7.
+   cssclass_year_head
+      The CSS class for the table head for the whole year (used by
+      "formatyear()"). The default value is ""year"".

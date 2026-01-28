@@ -1,0 +1,4 @@
+*module_relative* is "False".
+   Optional argument *globs* gives a dict to be used as the globals
+   when executing examples.  A new shallow copy of this dict is
+   created for the doctest, so its examples start with a clean slate.

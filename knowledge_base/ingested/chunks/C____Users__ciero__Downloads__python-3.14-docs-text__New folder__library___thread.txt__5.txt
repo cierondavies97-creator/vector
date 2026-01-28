@@ -1,0 +1,4 @@
+of keyword arguments.
+   When the function returns, the thread silently exits.
+   When the function terminates with an unhandled exception,
+   "sys.unraisablehook()" is called to handle the exception. The

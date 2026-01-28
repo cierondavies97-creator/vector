@@ -1,0 +1,4 @@
+output follows) is sent prior to execution of the CGI script.
+     This pre-empts the status code.
+   The class will however, run the CGI script, instead of serving it
+   as a file, if it guesses it to be a CGI script.  Only directory-

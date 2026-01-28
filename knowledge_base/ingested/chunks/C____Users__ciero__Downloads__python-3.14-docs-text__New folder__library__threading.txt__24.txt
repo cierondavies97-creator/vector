@@ -1,0 +1,5 @@
+so that the original value can be restored in case they happen to
+   get replaced with broken or alternative objects.
+   Added in version 3.10.
+threading.get_ident()
+   Return the 'thread identifier' of the current thread.  This is a

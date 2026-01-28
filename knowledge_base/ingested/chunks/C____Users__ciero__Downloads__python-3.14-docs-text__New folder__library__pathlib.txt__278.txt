@@ -1,0 +1,4 @@
++---------------------------------------+------------------------------------------------+
+-[ Footnotes ]-
+[1] "os.path.relpath()" calls "abspath()" to make paths absolute and
+    remove "".."" parts, whereas "PurePath.relative_to()" is a lexical

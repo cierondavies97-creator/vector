@@ -1,0 +1,5 @@
+multiple steps. It defines the following methods which every
+incremental decoder must define in order to be compatible with the
+Python codec registry.
+class codecs.IncrementalDecoder(errors='strict')
+   Constructor for an "IncrementalDecoder" instance.

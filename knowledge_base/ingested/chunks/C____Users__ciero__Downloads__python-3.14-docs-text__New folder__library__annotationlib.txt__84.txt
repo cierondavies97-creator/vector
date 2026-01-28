@@ -1,0 +1,4 @@
+annotations = ns["__annotations__"]
+            classvar_keys = {
+               key for key, value in annotations.items()
+               # Use string comparison for simplicity; a more robust solution

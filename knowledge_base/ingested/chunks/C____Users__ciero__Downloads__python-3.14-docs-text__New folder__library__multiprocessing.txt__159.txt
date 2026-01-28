@@ -1,0 +1,6 @@
+A queue must not be used anymore after it is closed. For
+      example, "get()", "put()" and "empty()" methods must no longer
+      be called.
+      Added in version 3.9.
+   empty()
+      Return "True" if the queue is empty, "False" otherwise.

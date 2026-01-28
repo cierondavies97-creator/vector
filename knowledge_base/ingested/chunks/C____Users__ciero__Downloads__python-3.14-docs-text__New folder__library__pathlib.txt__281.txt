@@ -1,0 +1,3 @@
+[4] "os.walk()" always follows symlinks when categorizing paths into
+    *dirnames* and *filenames*, whereas "Path.walk()" categorizes all
+    symlinks into *filenames* when *follow_symlinks* is false (the

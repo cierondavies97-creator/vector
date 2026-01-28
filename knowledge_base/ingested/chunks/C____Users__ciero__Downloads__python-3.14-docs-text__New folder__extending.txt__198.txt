@@ -1,0 +1,8 @@
+complete. Obviously, the following function has the same problem as
+the previous one:
+   void
+   bug(PyObject *list)
+   {
+       PyObject *item = PyList_GetItem(list, 0);
+       Py_BEGIN_ALLOW_THREADS
+       ...some blocking I/O call...

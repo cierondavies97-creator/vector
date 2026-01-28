@@ -1,0 +1,3 @@
+argument is placed in the slot, filling it (even if the expression is
+"None", it fills the slot).  When all arguments have been processed,
+the slots that are still unfilled are filled with the corresponding

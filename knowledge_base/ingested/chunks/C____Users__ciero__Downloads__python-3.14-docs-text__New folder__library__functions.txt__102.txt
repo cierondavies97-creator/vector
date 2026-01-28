@@ -1,0 +1,5 @@
+builtin.
+exec(source, /, globals=None, locals=None, *, closure=None)
+   Warning:
+     This function executes arbitrary code. Calling it with user-
+     supplied input may lead to security vulnerabilities.

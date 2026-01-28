@@ -1,0 +1,7 @@
+>>> type Alias = int
+         >>> Alias.__name__
+         'Alias'
+   __module__
+      The name of the module in which the type alias was defined:
+         >>> type Alias = int
+         >>> Alias.__module__

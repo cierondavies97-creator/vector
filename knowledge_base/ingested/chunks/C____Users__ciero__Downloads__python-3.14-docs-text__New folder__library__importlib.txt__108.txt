@@ -1,0 +1,4 @@
+so that when it is known that the package and resources are
+         stored on the file system then those subdirectory names can
+         be used directly.
+         The abstract method returns an iterable of no items.

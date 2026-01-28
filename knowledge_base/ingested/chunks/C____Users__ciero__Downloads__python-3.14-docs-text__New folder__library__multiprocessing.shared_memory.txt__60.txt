@@ -1,0 +1,5 @@
+Return first index position of *value*. Raise "ValueError" if
+      *value* is not present.
+   format
+      Read-only attribute containing the "struct" packing format used
+      by all currently stored values.

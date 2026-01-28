@@ -1,0 +1,4 @@
+default it is the same as *nt*.
+* *venv*: a scheme with values from either *posix_venv* or *nt_venv*
+  depending on the platform Python runs on.
+* *osx_framework_user*: scheme for macOS, when the *user* option is

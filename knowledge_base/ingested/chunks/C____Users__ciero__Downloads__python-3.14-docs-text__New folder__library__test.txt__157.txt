@@ -1,0 +1,5 @@
+used as a fresh environment.
+   Python is started in isolated mode (command line option "-I"),
+   except if the *__isolated* keyword-only parameter is set to
+   "False".
+   Changed in version 3.9: The function no longer strips whitespaces

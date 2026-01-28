@@ -1,0 +1,4 @@
+permissions, flags, last access and modification times, and
+   extended attributes are copied where supported. This argument has
+   no effect when copying files on Windows (where metadata is always
+   preserved).

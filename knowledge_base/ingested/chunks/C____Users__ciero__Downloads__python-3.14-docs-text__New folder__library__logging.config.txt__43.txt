@@ -1,0 +1,3 @@
+as described below.  In all cases below where a 'configuring dict' is
+mentioned, it will be checked for the special "'()'" key to see if a
+custom instantiation is required.  If so, the mechanism described in

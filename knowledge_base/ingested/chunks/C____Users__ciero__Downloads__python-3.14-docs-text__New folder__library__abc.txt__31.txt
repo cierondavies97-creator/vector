@@ -1,0 +1,6 @@
+@abstractmethod
+          def _set_x(self, val):
+              ...
+          x = property(_get_x, _set_x)
+   In order to correctly interoperate with the abstract base class
+   machinery, the descriptor must identify itself as abstract using

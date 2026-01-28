@@ -1,0 +1,5 @@
+implement comprehensions and generator expressions.
+Changed in version 3.8: Yield expressions prohibited in the implicitly
+nested scopes used to implement comprehensions and generator
+expressions.
+Generator functions are described below, while asynchronous generator

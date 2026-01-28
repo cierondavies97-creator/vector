@@ -1,0 +1,5 @@
+A GNU tar sparse file "type".
+Each of the following constants defines a tar archive format that the
+"tarfile" module is able to create. See section Supported tar formats
+for details.
+tarfile.USTAR_FORMAT

@@ -1,0 +1,4 @@
+when a user-defined object is to be instantiated, the system will not
+know how to do this.  In order to provide complete flexibility for
+user-defined object instantiation, the user needs to provide a
+'factory' - a callable which is called with a configuration dictionary

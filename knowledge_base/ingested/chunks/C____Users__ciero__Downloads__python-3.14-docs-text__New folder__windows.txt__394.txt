@@ -1,0 +1,4 @@
+character is a dot or a hyphen. This allows "-V:3.1" to match
+"3.1-32", but not "3.10". Tags are sorted using numerical ordering
+("3.10" is newer than "3.1"), but are compared using text ("-V:3.01"
+does not match "3.1").

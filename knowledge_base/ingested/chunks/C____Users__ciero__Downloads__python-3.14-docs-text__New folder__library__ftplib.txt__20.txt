@@ -1,0 +1,5 @@
+*host* argument was given when the "FTP" instance was created.
+      All other "FTP" methods can only be called after a connection
+      has successfully been made.
+      Parameters:
+         * **host** (*str*) -- The host to connect to.

@@ -1,0 +1,4 @@
+system calls made, and exceptions raised are as per "is_dir()".
+   is_symlink()
+      Return "True" if this entry is a symbolic link (even if broken);
+      return "False" if the entry points to a directory or any kind of

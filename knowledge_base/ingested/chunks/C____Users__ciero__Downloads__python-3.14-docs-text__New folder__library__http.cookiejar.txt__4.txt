@@ -1,0 +1,3 @@
+the internet are Netscape cookies. "http.cookiejar" attempts to follow
+the de-facto Netscape cookie protocol (which differs substantially
+from that set out in the original Netscape specification), including

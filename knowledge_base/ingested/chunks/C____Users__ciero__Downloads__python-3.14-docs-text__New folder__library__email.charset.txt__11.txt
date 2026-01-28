@@ -1,0 +1,5 @@
+quoted-printable), "charset.BASE64" (for base64 encoding), or
+      "charset.SHORTEST" for the shortest of QP or BASE64 encoding.
+      Otherwise, it will be "None".
+   body_encoding
+      Same as *header_encoding*, but describes the encoding for the

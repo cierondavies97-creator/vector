@@ -1,0 +1,5 @@
+"winfo_x()", "winfo_height()", "winfo_viewable()". You'd find
+documentation for all of these in the winfo man page.
+Note:
+  Somewhat confusingly, there are also methods on all Tkinter widgets
+  that don't actually operate on the widget, but operate at a global

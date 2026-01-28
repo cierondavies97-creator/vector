@@ -1,0 +1,5 @@
+data = pickle.dumps(b, protocol=5)
+   new_b = pickle.loads(data)
+   print(b == new_b)  # True
+   print(b is new_b)  # False: a copy was made
+But if we pass a *buffer_callback* and then give back the accumulated

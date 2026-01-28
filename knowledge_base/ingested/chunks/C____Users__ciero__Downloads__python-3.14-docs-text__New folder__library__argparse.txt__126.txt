@@ -1,0 +1,5 @@
+>>> parser.parse_args(['-vvv'])
+     Namespace(verbose=3)
+  Note, the *default* will be "None" unless explicitly set to *0*.
+* "'help'" - This prints a complete help message for all the options
+  in the current parser and then exits. By default a help action is

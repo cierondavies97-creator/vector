@@ -1,0 +1,9 @@
+will be "AsyncMock".
+   >>> class ExampleClass:
+   ...     def sync_foo():
+   ...         pass
+   ...     async def async_foo():
+   ...         pass
+   ...
+   >>> a_mock = AsyncMock(ExampleClass)
+   >>> a_mock.sync_foo

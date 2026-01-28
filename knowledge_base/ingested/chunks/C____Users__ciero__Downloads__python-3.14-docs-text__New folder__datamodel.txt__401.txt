@@ -1,0 +1,4 @@
+calls it explicitly or raises an "AttributeError". This method
+   should return the (computed) attribute value or raise an
+   "AttributeError" exception. In order to avoid infinite recursion in
+   this method, its implementation should always call the base class

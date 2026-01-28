@@ -1,0 +1,4 @@
+the following arguments:
+   load_tests(loader, standard_tests, pattern)
+This should return a "TestSuite" representing all the tests from the
+package. ("standard_tests" will only contain tests collected from

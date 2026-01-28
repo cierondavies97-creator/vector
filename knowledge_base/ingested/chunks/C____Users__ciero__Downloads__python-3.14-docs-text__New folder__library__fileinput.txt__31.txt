@@ -1,0 +1,4 @@
+it is deleted when the output file is closed.  In-place filtering is
+disabled when standard input is read.
+The two following opening hooks are provided by this module:
+fileinput.hook_compressed(filename, mode, *, encoding=None, errors=None)

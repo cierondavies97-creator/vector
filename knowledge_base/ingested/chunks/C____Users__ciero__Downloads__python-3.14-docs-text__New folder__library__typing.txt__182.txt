@@ -1,0 +1,6 @@
+See "TypedDict" and **PEP 705** for more details.
+   Added in version 3.13.
+typing.Annotated
+   Special typing form to add context-specific metadata to an
+   annotation.
+   Add metadata "x" to a given type "T" by using the annotation

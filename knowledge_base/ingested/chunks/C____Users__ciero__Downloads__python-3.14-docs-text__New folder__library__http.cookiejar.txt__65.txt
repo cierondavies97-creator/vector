@@ -1,0 +1,3 @@
+indicates to the server that we understand **RFC 2965** cookies).
+The most useful way to define a "CookiePolicy" class is by subclassing
+from "DefaultCookiePolicy" and overriding some or all of the methods

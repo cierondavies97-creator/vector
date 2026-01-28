@@ -1,0 +1,5 @@
+>>> pi                             # All digits are retained
+   Decimal('3.1415926535')
+   >>> pi + 0                         # Rounded after an addition
+   Decimal('3.1416')
+   >>> pi - Decimal('0.00005')        # Subtract unrounded numbers, then round

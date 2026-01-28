@@ -1,0 +1,3 @@
+set, format the *limit* most recent frames if *limit* is
+      positive. Otherwise, format the "abs(limit)" oldest frames. If
+      *most_recent_first* is "True", the order of the formatted frames

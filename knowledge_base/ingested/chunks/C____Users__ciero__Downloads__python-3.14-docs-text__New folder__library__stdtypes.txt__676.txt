@@ -1,0 +1,4 @@
+nested list representation of the view. If "view.ndim = 1", this
+      is equal to the number of elements in the view.
+      Changed in version 3.12: If "view.ndim == 0", "len(view)" now
+      raises "TypeError" instead of returning 1.

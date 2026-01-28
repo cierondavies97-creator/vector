@@ -1,0 +1,4 @@
+connection. Assigning to this attribute does not affect the
+      "row_factory" of existing cursors belonging to this connection,
+      only new ones. Is "None" by default, meaning each row is
+      returned as a "tuple".

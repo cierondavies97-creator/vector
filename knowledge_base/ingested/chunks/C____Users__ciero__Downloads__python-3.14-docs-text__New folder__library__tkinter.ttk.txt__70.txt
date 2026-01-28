@@ -1,0 +1,4 @@
+decrement arrows.  It can be used for numbers or lists of string
+values. This widget is a subclass of "Entry".
+Besides the methods inherited from "Widget": "Widget.cget()",
+"Widget.configure()", "Widget.identify()", "Widget.instate()" and

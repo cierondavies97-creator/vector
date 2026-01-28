@@ -1,0 +1,3 @@
+|           | the default for numbers when '0' immediately precedes the  |
+|           | field width.                                               |
++-----------+------------------------------------------------------------+

@@ -1,0 +1,4 @@
+"process.stdin.write()", "await process.stdout.read()" or "await
+     process.stderr.read()". This avoids deadlocks due to streams
+     pausing reading or writing and blocking the child process.
+   pid

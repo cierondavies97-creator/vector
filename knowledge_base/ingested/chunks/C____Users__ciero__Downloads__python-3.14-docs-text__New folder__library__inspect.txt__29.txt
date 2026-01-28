@@ -1,0 +1,3 @@
+|                   |                     | instruction in bytecode     |
++-------------------+---------------------+-----------------------------+
+|                   | tb_lineno           | current line number in      |

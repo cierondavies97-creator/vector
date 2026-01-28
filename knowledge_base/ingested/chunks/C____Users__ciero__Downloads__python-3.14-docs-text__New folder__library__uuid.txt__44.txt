@@ -1,0 +1,4 @@
+When *node* is not specified, "getnode()" is used to obtain the
+   hardware address as a 48-bit positive integer. When a sequence
+   number *clock_seq* is not specified, a pseudo-random 14-bit
+   positive integer is generated.

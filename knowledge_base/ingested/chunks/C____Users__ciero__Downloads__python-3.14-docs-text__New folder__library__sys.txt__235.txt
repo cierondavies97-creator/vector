@@ -1,0 +1,6 @@
+File "<stdin>", line 5, in <module>
+               assert sys._jit.is_active()
+                      ~~~~~~~~~~~~~~~~~~^^
+           AssertionError
+sys.last_exc
+   This variable is not always defined; it is set to the exception

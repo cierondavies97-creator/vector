@@ -1,0 +1,4 @@
+is considered to be a drive letter root (e.g. "c:\"), a UNC share
+   (e.g. "\\server\share"), or a mounted filesystem directory.
+   Added in version 3.7.
+   Changed in version 3.12: Windows support was added.

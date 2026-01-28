@@ -1,0 +1,3 @@
+internet. If firewall software complains anyway, you can ignore it.
+If the attempt to make the socket connection fails, Idle will notify
+you. Such failures are sometimes transient, but if persistent, the

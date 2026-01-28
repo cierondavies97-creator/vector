@@ -1,0 +1,8 @@
+"right()" | "rt()"
+         "left()" | "lt()"
+         "goto()" | "setpos()" | "setposition()"
+         "teleport()"
+         "setx()"
+         "sety()"
+         "setheading()" | "seth()"
+         "home()"

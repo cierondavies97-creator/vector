@@ -1,0 +1,6 @@
+returned, otherwise, the usual "__repr__()" call is made.  For
+   example:
+      >>> from reprlib import recursive_repr
+      >>> class MyList(list):
+      ...     @recursive_repr()
+      ...     def __repr__(self):

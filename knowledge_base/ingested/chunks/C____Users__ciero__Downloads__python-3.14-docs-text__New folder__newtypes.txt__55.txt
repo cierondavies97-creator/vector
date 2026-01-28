@@ -1,0 +1,5 @@
+int          ml_flags;      /* flags */
+       const char  *ml_doc;        /* docstring */
+   } PyMethodDef;
+One entry should be defined for each method provided by the type; no
+entries are needed for methods inherited from a base type.  One

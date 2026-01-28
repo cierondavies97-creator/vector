@@ -1,0 +1,4 @@
+* "Alt"-"K": where *K* is the mnemonic (underlined) character of
+        any tab, will select that tab.
+      Multiple notebooks in a single toplevel may be enabled for
+      traversal, including nested notebooks. However, notebook

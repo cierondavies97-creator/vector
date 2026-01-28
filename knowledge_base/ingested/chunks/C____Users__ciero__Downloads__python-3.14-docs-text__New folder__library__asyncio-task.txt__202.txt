@@ -1,0 +1,4 @@
+Note that once execution of a cancelled task completed, further
+      calls to "uncancel()" are ineffective.
+      Added in version 3.11.
+      This method is used by asyncio's internals and isn't expected to

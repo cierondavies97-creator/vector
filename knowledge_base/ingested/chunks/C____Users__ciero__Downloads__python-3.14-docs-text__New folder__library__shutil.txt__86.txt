@@ -1,0 +1,3 @@
+Changed in version 3.12: On Windows, the current directory is no
+   longer prepended to the search path if *mode* includes "os.X_OK"
+   and WinAPI "NeedCurrentDirectoryForExePathW(cmd)" is false, else

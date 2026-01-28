@@ -1,0 +1,4 @@
+*optimize* controls the optimization level and is passed to the
+   built-in "compile()" function.  The default of "-1" selects the
+   optimization level of the current interpreter.
+   *invalidation_mode* should be a member of the "PycInvalidationMode"

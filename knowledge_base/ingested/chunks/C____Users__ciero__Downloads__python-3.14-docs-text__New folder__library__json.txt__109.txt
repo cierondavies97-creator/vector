@@ -1,0 +1,6 @@
+Implementation Limitations
+--------------------------
+Some JSON deserializer implementations may set limits on:
+* the size of accepted JSON texts
+* the maximum level of nesting of JSON objects and arrays
+* the range and precision of JSON numbers

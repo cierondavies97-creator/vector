@@ -1,0 +1,3 @@
+the command-line and appending it to an existing list, ""extend"" will
+take multiple values in a single comma-delimited string, and extend an
+existing list with them.  That is, if "--names" is an ""extend""

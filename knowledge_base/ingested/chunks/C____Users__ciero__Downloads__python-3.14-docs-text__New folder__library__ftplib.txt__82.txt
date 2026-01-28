@@ -1,0 +1,4 @@
+(response codes in the range 500--599) is received.
+exception ftplib.error_proto
+   Exception raised when a reply is received from the server that does
+   not fit the response specifications of the File Transfer Protocol,

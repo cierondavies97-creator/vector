@@ -1,0 +1,4 @@
+import os
+      for root, dirs, files, rootfd in os.fwalk('python/Lib/xml'):
+          print(root, "consumes", end=" ")
+          print(sum([os.stat(name, dir_fd=rootfd).st_size for name in files]),

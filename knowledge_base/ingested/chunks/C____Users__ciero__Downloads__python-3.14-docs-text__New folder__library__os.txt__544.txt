@@ -1,0 +1,4 @@
+"read()" raises "OSError" with "errno" is set to "errno.EAGAIN".
+   "TFD_CLOEXEC" is always set by Python automatically.
+   The file descriptor must be closed with "os.close()" when it is no
+   longer needed, or else the file descriptor will be leaked.

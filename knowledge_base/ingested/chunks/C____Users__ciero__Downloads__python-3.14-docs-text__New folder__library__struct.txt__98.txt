@@ -1,0 +1,5 @@
+format. The buffer's size in bytes, starting at position
+      *offset*, must be at least "size".
+   iter_unpack(buffer)
+      Identical to the "iter_unpack()" function, using the compiled
+      format. The buffer's size in bytes must be a multiple of "size".

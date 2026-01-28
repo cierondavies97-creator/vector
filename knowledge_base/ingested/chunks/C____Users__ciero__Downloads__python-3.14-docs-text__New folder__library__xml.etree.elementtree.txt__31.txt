@@ -1,0 +1,5 @@
+Let's say we want to add one to each country's rank, and add an
+"updated" attribute to the rank element:
+   >>> for rank in root.iter('rank'):
+   ...     new_rank = int(rank.text) + 1
+   ...     rank.text = str(new_rank)

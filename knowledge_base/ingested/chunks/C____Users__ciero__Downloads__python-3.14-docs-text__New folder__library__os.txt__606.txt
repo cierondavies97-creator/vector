@@ -1,0 +1,6 @@
+os.EX_OSERR
+   Exit code that means an operating system error was detected, such
+   as the inability to fork or create a pipe.
+   Availability: Unix, not WASI.
+os.EX_OSFILE
+   Exit code that means some system file did not exist, could not be

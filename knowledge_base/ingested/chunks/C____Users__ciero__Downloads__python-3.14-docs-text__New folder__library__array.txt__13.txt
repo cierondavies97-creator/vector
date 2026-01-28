@@ -1,0 +1,4 @@
+Notes:
+1. It can be 16 bits or 32 bits depending on the platform.
+   Changed in version 3.9: "array('u')" now uses "wchar_t" as C type
+   instead of deprecated "Py_UNICODE". This change doesn't affect its

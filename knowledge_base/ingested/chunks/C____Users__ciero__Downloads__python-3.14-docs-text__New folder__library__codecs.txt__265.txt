@@ -1,0 +1,4 @@
+|                      |           | Stateful codecs are not     |
+|                      |           | supported.                  |
++----------------------+-----------+-----------------------------+
+| raw_unicode_escape   |           | Latin-1 encoding with       |

@@ -1,0 +1,4 @@
+provided as keyword arguments.  *_name* is the header field to
+      add and *_value* is the *primary* value for the header.
+      For each item in the keyword argument dictionary *_params*, the
+      key is taken as the parameter name, with underscores converted

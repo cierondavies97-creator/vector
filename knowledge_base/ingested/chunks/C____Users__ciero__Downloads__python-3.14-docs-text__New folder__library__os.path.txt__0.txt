@@ -1,0 +1,5 @@
+"os.path" --- Common pathname manipulations
+*******************************************
+**Source code:** Lib/genericpath.py, Lib/posixpath.py (for POSIX) and
+Lib/ntpath.py (for Windows).
+======================================================================

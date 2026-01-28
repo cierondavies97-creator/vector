@@ -1,0 +1,4 @@
+address, then "ValueError" is raised.  Otherwise, the host bits are
+   masked out to determine the appropriate network address.
+   Changed in version 3.5: Added the two-tuple form for the *address*
+   constructor parameter.

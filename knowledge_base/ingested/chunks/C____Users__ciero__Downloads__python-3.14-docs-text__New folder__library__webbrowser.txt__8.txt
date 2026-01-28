@@ -1,0 +1,3 @@
+controlling autoraise, browser preference, and new tab/window creation
+will be ignored. Web pages will *always* be opened in the user's
+preferred browser, in a new tab, with the browser being brought to the

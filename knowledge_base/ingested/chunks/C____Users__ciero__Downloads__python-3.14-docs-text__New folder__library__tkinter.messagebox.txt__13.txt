@@ -1,0 +1,5 @@
+Creates and displays an error message box with the specified title
+   and message.
+**Question message boxes**
+tkinter.messagebox.askquestion(title=None, message=None, *, type=YESNO, **options)
+   Ask a question. By default shows buttons "YES" and "NO". Returns

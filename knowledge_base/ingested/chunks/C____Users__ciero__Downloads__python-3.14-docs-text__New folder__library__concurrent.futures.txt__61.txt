@@ -1,0 +1,4 @@
+picklable as per "multiprocessing.Process" apply when using "submit()"
+and "map()" on a "ProcessPoolExecutor". A function defined in a REPL
+or a lambda should not be expected to work.
+class concurrent.futures.ProcessPoolExecutor(max_workers=None, mp_context=None, initializer=None, initargs=(), max_tasks_per_child=None)

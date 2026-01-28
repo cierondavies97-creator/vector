@@ -1,0 +1,5 @@
+is_unspecified
+      "True" if the address is unspecified.  See **RFC 5735** (for
+      IPv4) or **RFC 2373** (for IPv6).
+   is_reserved
+      "True" if the address is noted as reserved by the IETF. For

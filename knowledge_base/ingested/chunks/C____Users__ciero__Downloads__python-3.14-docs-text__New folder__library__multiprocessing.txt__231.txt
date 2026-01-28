@@ -1,0 +1,4 @@
+blocking; that process or thread must release it once for each time
+   it has been acquired.
+   Note that "RLock" is actually a factory function which returns an
+   instance of "multiprocessing.synchronize.RLock" initialized with a

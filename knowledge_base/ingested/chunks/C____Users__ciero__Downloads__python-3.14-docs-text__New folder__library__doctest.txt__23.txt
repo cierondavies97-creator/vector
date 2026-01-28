@@ -1,0 +1,4 @@
+That short script executes and verifies any interactive Python
+examples contained in the file "example.txt".  The file content is
+treated as if it were a single giant docstring; the file doesn't need
+to contain a Python program!   For example, perhaps "example.txt"

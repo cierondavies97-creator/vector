@@ -1,0 +1,4 @@
+specified, but it will use a byte stream in preference to opening a
+   URI connection itself.
+   If the application knows the character encoding of the byte stream,
+   it should set it with the setEncoding method.

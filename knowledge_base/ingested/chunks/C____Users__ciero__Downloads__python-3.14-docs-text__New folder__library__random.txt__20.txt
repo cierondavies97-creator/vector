@@ -1,0 +1,4 @@
+but supports arbitrarily large ranges and is optimized for common
+   cases.
+   The positional argument pattern matches the "range()" function.
+   Keyword arguments should not be used because they can be

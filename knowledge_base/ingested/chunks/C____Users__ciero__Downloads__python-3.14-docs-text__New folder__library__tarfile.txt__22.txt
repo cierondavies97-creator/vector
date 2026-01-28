@@ -1,0 +1,3 @@
+| "'a'" or "'a:'"    | Open for appending with no compression. The   |
+   |                    | file is created if it does not exist.         |
+   +--------------------+-----------------------------------------------+

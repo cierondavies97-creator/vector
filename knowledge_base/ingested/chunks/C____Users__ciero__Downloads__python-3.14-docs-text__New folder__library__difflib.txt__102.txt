@@ -1,0 +1,4 @@
+Note that the last tuple returned by "get_matching_blocks()" is always
+a dummy, "(len(a), len(b), 0)", and this is the only case in which the
+last tuple element (number of elements matched) is "0".
+If you want to know how to change the first sequence into the second,

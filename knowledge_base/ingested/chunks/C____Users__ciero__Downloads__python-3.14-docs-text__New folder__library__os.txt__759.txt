@@ -1,0 +1,5 @@
+class os.sched_param(sched_priority)
+   This class represents tunable scheduling parameters used in
+   "sched_setparam()", "sched_setscheduler()", and "sched_getparam()".
+   It is immutable.
+   At the moment, there is only one possible parameter:

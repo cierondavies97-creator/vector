@@ -1,0 +1,3 @@
+between threads, so it does not make sense to use this in the
+   presence of multiple threads. Also, its return value is not used,
+   so it can simply return "None".  Error in the profile function will

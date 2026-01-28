@@ -1,0 +1,5 @@
+mechanism will depend on the nature of the package you are writing,
+but in this hypothetical case, it might make sense to allow the
+teacher to search for students:
+   # bandclass/__main__.py
+   import sys

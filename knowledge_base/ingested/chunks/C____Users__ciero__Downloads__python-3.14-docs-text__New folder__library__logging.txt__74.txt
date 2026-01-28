@@ -1,0 +1,5 @@
+return a false value, the record will be processed (passed to
+      handlers). If one returns a false value, no further processing
+      of the record occurs.
+   addHandler(hdlr)
+      Adds the specified handler *hdlr* to this logger.

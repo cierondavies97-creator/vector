@@ -1,0 +1,4 @@
+determined by the C library; for 32-bit systems, it is typically in
+  2038.
+* Function "strptime()" can parse 2-digit years when given "%y" format
+  code. When 2-digit years are parsed, they are converted according to

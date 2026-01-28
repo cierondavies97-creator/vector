@@ -1,0 +1,4 @@
+multiple times in the dict item list, and the final dictionary's value
+for that key will be the last one given.
+A double asterisk "**" denotes *dictionary unpacking*. Its operand
+must be a *mapping*.  Each mapping item is added to the new

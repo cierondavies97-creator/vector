@@ -1,0 +1,5 @@
+Returns the address of the memory buffer as integer.  *obj* must be
+   an instance of a ctypes type.
+   Raises an auditing event "ctypes.addressof" with argument "obj".
+ctypes.alignment(obj_or_type)
+   Returns the alignment requirements of a ctypes type. *obj_or_type*

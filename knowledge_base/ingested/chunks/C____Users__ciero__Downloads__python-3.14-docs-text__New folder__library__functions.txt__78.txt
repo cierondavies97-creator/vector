@@ -1,0 +1,5 @@
+custom "__getattr__()".
+   The default "dir()" mechanism behaves differently with different
+   types of objects, as it attempts to produce the most relevant,
+   rather than complete, information:
+   * If the object is a module object, the list contains the names of

@@ -1,0 +1,3 @@
+will take precedence above the former. For a library that exports a
+custom type, it may make sense to enable that type to adapt itself. As
+an application developer, it may make more sense to take direct

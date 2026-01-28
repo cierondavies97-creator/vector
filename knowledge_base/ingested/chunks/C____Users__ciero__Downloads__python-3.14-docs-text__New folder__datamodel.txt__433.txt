@@ -1,0 +1,6 @@
+invokes a descriptor method:    "x.__get__(a)".
+Instance Binding
+   If binding to an object instance, "a.x" is transformed into the
+   call: "type(a).__dict__['x'].__get__(a, type(a))".
+Class Binding
+   If binding to a class, "A.x" is transformed into the call:

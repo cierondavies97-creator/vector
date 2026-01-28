@@ -1,0 +1,4 @@
+val, tb) representing the exception at the top of the stack. Used
+   to implement the call "context_manager.__exit__(*exc_info())" when
+   an exception has occurred in a "with" statement.
+   Added in version 3.9.

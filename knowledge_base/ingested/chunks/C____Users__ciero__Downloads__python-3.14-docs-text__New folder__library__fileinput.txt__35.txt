@@ -1,0 +1,5 @@
+*encoding* and *errors* to read the file.
+   Usage example: "fi =
+   fileinput.FileInput(openhook=fileinput.hook_encoded("utf-8",
+   "surrogateescape"))"
+   Changed in version 3.6: Added the optional *errors* parameter.

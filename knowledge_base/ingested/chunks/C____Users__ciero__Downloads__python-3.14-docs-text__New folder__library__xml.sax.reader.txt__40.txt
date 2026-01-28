@@ -1,0 +1,5 @@
+InputSource.getCharacterStream()
+   Get the character stream for this input source.
+The "Attributes" Interface
+==========================
+"Attributes" objects implement a portion of the *mapping protocol*,

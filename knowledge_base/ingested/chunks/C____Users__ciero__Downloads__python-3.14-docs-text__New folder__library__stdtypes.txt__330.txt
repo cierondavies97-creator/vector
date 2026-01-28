@@ -1,0 +1,3 @@
+"decimal_point" and "thousands_sep" fields of "localeconv()" if
+     they are non-ASCII or longer than 1 byte, and the "LC_NUMERIC"
+     locale is different than the "LC_CTYPE" locale.  This temporary

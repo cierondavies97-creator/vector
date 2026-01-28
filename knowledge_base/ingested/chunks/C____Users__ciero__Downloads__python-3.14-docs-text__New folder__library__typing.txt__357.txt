@@ -1,0 +1,3 @@
+"hasattr()" was used). As a result, some objects which used to be
+   considered instances of a runtime-checkable protocol may no longer
+   be considered instances of that protocol on Python 3.12+, and vice

@@ -1,0 +1,6 @@
+[]
+      >>> list(range(1, 0))
+      []
+   Ranges implement all of the common sequence operations except
+   concatenation and repetition (due to the fact that range objects
+   can only represent sequences that follow a strict pattern and

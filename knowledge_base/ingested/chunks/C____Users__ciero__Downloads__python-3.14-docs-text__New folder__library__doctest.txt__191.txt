@@ -1,0 +1,5 @@
+attributes of the same names.
+   "DocTest" defines the following attributes.  They are initialized
+   by the constructor, and should not be modified directly.
+   examples
+      A list of "Example" objects encoding the individual interactive

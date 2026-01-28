@@ -1,0 +1,8 @@
+Command-line options
+--------------------
+infile
+   The JSON file to be validated or pretty-printed:
+      $ python -m json mp_films.json
+      [
+          {
+              "title": "And Now for Something Completely Different",

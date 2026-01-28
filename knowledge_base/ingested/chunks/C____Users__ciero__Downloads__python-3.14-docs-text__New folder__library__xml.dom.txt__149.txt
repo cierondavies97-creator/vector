@@ -1,0 +1,5 @@
+"attribute" declarations in much the way the Java mapping does.
+Mapping the IDL declarations
+   readonly attribute string someValue;
+            attribute string anotherValue;
+yields three accessor functions:  a "get" method for "someValue"

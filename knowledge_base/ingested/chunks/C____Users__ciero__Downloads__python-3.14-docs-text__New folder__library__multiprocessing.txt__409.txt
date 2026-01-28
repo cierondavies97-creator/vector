@@ -1,0 +1,3 @@
+a Unix domain socket) or "'AF_PIPE'" (for a Windows named pipe).
+   Of these only the first is guaranteed to be available.  If *family*
+   is "None" then the family is inferred from the format of *address*.

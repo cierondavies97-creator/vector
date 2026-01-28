@@ -1,0 +1,4 @@
+both *keyfile* and *certfile* should be "None".
+   If there has been no previous "EHLO" or "HELO" command this
+   session, this method tries ESMTP "EHLO" first.
+   Changed in version 3.12: The deprecated *keyfile* and *certfile*

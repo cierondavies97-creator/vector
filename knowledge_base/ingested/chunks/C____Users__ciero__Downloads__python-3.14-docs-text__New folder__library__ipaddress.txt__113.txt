@@ -1,0 +1,3 @@
+3. An integer packed into a "bytes" object of length 16, big-
+      endian. The interpretation is similar to an integer *address*.
+   4. A two-tuple of an address description and a netmask, where the

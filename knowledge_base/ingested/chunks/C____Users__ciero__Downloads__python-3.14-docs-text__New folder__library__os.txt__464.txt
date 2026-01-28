@@ -1,0 +1,5 @@
+operator on "supports_fd". As an example, this expression evaluates
+   to "True" if "os.chdir()" accepts open file descriptors for *path*
+   on your local platform:
+      os.chdir in os.supports_fd
+   Added in version 3.3.

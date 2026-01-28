@@ -1,0 +1,4 @@
+when the argument is a string, it is first converted using the built-
+in function "ord()".
+Note that all these functions check ordinal bit values derived from
+the character of the string you pass in; they do not actually know

@@ -1,0 +1,4 @@
+removes unpickleable items from the record in-place.
+      Specifically, it overwrites the record's "msg" and "message"
+      attributes with the merged message (obtained by calling the
+      handler's "format()" method), and sets the "args", "exc_info"

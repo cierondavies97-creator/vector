@@ -1,0 +1,3 @@
+iterates over every callable in "sys.path_hooks".  Each of the *path
+entry hooks* in this list is called with a single argument, the path
+entry to be searched.  This callable may either return a *path entry

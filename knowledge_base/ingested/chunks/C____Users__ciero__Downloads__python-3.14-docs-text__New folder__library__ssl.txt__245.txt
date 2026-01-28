@@ -1,0 +1,4 @@
+Deprecated since version 3.10: NPN has been superseded by ALPN
+SSLContext.sni_callback
+   Register a callback function that will be called after the TLS
+   Client Hello handshake message has been received by the SSL/TLS

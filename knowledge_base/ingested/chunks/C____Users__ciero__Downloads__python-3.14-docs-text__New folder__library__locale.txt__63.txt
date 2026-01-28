@@ -1,0 +1,5 @@
+of the returned string is specified in *The Open Group Base
+      Specifications Issue 8*, paragraph 7.3.5.2 LC_TIME C-Language
+      Access.
+   locale.ERA_D_T_FMT
+      Get a format string for "time.strftime()" to represent date and

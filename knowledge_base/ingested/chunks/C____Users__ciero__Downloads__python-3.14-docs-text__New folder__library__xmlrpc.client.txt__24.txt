@@ -1,0 +1,3 @@
++------------------------+---------------------------------------------------------+
+   | "dateTime.iso8601"     | "DateTime" or "datetime.datetime". Returned type        |
+   |                        | depends on values of *use_builtin_types* and            |

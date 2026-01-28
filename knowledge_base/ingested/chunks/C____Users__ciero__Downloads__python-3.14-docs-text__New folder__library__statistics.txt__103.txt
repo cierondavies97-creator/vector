@@ -1,0 +1,4 @@
+larger than *n*. Raises "StatisticsError" if there is not at least
+   one data point.
+   The cut points are linearly interpolated from the two nearest data
+   points.  For example, if a cut point falls one-third of the

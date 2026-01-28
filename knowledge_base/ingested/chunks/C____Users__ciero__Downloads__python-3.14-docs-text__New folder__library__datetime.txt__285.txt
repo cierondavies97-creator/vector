@@ -1,0 +1,4 @@
+* "'seconds'": Include "hour", "minute", and "second" in "HH:MM:SS"
+     format.
+   * "'milliseconds'": Include full time, but truncate fractional
+     second part to milliseconds. "HH:MM:SS.sss" format.

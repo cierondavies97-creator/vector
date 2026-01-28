@@ -1,0 +1,4 @@
+*follow_symlinks* parameter, use the "in" operator on
+   "supports_follow_symlinks".  As an example, this expression
+   evaluates to "True" if you may specify "follow_symlinks=False" when
+   calling "os.stat()" on the local platform:

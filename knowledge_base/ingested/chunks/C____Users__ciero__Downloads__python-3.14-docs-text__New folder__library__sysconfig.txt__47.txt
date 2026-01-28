@@ -1,0 +1,4 @@
+"/usr/local/lib/python2.*X*" rather than "/usr/lib/python2.*X*".
+Another possibility is a network filesystem where the name used to
+write to a remote directory is different from the name used to read
+it: for example, the Python interpreter accessed as

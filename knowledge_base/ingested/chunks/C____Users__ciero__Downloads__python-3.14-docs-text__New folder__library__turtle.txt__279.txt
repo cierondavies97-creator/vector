@@ -1,0 +1,5 @@
+---------------
+The public methods of the Screen and Turtle classes are documented
+extensively via docstrings.  So these can be used as online-help via
+the Python help facilities:
+* When using IDLE, tooltips show the signatures and first lines of the

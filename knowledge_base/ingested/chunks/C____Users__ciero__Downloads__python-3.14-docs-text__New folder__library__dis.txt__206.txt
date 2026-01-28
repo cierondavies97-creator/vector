@@ -1,0 +1,4 @@
+This is not really an opcode.  It identifies the dividing line
+   between opcodes in the range [0,255] which don't use their argument
+   and those that do ("< HAVE_ARGUMENT" and ">= HAVE_ARGUMENT",
+   respectively).

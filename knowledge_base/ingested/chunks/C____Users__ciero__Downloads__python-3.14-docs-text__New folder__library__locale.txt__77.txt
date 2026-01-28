@@ -1,0 +1,4 @@
+On Android or if the Python UTF-8 Mode is enabled, always return
+   "'utf-8'", the *locale encoding* and the *do_setlocale* argument
+   are ignored.
+   The Python preinitialization configures the LC_CTYPE locale. See

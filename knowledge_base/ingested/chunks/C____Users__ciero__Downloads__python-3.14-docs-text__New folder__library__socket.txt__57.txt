@@ -1,0 +1,3 @@
+occurs on a socket which has had timeouts enabled via a prior call
+   to "settimeout()" (or implicitly through "setdefaulttimeout()").
+   The accompanying value is a string whose value is currently always

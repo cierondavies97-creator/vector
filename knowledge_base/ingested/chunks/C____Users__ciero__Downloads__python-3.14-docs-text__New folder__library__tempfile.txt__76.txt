@@ -1,0 +1,3 @@
+to "mktemp()" and the subsequent attempt to create the file by the
+first process. The solution is to combine the two steps and create the
+file immediately. This approach is used by "mkstemp()" and the other

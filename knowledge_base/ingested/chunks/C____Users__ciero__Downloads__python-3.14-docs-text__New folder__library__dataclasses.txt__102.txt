@@ -1,0 +1,3 @@
+generated "__init__()" method, and are passed to the optional
+"__post_init__()" method.  They are not otherwise used by dataclasses.
+For example, suppose a field will be initialized from a database, if a

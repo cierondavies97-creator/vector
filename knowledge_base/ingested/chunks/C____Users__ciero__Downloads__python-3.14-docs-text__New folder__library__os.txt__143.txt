@@ -1,0 +1,4 @@
+the master pseudo-terminal device to which the file descriptor *fd*
+   refers. The file descriptor *fd* is not closed upon failure.
+   Calls the C standard library function "grantpt()".
+   Availability: Unix, not WASI.

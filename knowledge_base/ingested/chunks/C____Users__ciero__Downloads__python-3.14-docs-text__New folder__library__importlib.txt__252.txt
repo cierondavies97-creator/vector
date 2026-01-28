@@ -1,0 +1,2 @@
+setattr(parent_module, child_name, module)
+       return module

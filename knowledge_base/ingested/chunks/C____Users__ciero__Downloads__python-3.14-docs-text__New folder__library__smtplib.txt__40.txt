@@ -1,0 +1,4 @@
+host.  Examine the response for ESMTP option and store them for use
+   by "has_extn()". Also sets several informational attributes: the
+   message returned by the server is stored as the "ehlo_resp"
+   attribute, "does_esmtp" is set to "True" or "False" depending on

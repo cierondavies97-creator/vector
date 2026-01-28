@@ -1,0 +1,5 @@
+file or files using "read_file()" before calling "read()" for
+      any optional files:
+         import configparser, os
+         config = configparser.ConfigParser()
+         config.read_file(open('defaults.cfg'))

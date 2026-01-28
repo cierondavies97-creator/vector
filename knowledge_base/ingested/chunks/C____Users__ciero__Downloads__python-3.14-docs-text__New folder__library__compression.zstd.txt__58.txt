@@ -1,0 +1,4 @@
+Decompress *data* (a *bytes-like object*), returning
+      uncompressed data as bytes. Some of *data* may be buffered
+      internally, for use in later calls to "decompress()". The
+      returned data should be concatenated with the output of any

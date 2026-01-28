@@ -1,0 +1,8 @@
+...     print('directory')
+      ... elif p.info.exists():
+      ...     print('something else')
+      ... else:
+      ...     print('not found')
+      ...
+      directory
+   If the path was generated from "Path.iterdir()" then this attribute

@@ -1,0 +1,3 @@
+handler.  Also *type* should be replaced with the actual HTTP code,
+   for example "http_error_404()" would handle HTTP 404 errors.
+   * "<protocol>_open()" --- signal that the handler knows how to open

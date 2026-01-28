@@ -1,0 +1,3 @@
+to this library. This could result in arguments being parsed according
+to shell rules, but without any escaping added by Python. If you are
+intentionally launching a batch file with arguments from untrusted

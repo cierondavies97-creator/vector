@@ -1,0 +1,4 @@
+the restart behaviour to interruptible by implicitly calling
+   "siginterrupt()" with a true *flag* value for the given signal.
+signal.signal(signalnum, handler)
+   Set the handler for signal *signalnum* to the function *handler*.

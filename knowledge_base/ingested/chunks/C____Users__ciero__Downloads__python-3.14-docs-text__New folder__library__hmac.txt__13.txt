@@ -1,0 +1,4 @@
+to use the "compare_digest()" function instead of the "=="
+     operator to reduce the vulnerability to timing attacks.
+HMAC.copy()
+   Return a copy ("clone") of the hmac object.  This can be used to

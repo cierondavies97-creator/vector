@@ -1,0 +1,3 @@
+service applications where threads servicing clients need to respond
+as quickly as possible, while any potentially slow operations (such as
+sending an email via "SMTPHandler") are done on a separate thread.

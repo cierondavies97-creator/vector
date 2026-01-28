@@ -1,0 +1,5 @@
+example, would make option names case sensitive:
+         cfgparser = ConfigParser()
+         cfgparser.optionxform = str
+      Note that when reading configuration files, whitespace around
+      the option names is stripped before "optionxform()" is called.

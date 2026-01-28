@@ -1,0 +1,4 @@
+Raised to refuse extracting a special file (e.g. a device or pipe).
+exception tarfile.AbsoluteLinkError
+   Raised to refuse extracting a symbolic link with an absolute path.
+exception tarfile.LinkOutsideDestinationError

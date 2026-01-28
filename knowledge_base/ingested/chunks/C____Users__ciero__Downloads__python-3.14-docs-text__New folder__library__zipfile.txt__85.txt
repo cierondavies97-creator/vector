@@ -1,0 +1,6 @@
+Comments longer than this will be truncated.
+Path objects
+============
+class zipfile.Path(root, at='')
+   Construct a Path object from a "root" zipfile (which may be a
+   "ZipFile" instance or "file" suitable for passing to the "ZipFile"

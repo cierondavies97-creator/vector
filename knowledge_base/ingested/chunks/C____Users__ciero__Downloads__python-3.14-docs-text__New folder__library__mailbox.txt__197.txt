@@ -1,0 +1,4 @@
+standard **mh** and **nmh**) use sequences in much the same way
+   flags are used with other formats, as follows:
+   +------------+--------------------------------------------+
+   | Sequence   | Explanation                                |

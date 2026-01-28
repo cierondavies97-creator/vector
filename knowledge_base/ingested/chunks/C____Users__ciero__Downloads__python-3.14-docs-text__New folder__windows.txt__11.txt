@@ -1,0 +1,4 @@
+versions are identical.
+To install through the Store, simply click "Install". After it has
+completed, open a terminal and type "python" to get started.
+To install the file downloaded from python.org, either double-click

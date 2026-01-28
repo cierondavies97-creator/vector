@@ -1,0 +1,4 @@
+The hours, minutes and seconds are 0, and the DST flag is -1.
+   "d.timetuple()" is equivalent to:
+      time.struct_time((d.year, d.month, d.day, 0, 0, 0, d.weekday(), yday, -1))
+   where "yday = d.toordinal() - date(d.year, 1, 1).toordinal() + 1"

@@ -1,0 +1,5 @@
+push(exit)
+      Adds a context manager's "__exit__()" method to the callback
+      stack.
+      As "__enter__" is *not* invoked, this method can be used to
+      cover part of an "__enter__()" implementation with a context

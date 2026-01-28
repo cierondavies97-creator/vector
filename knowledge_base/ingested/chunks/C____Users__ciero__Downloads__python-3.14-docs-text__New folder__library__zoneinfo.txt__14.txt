@@ -1,0 +1,5 @@
+to "ZoneInfo" will raise "ZoneInfoNotFoundError".
+Configuring the data sources
+----------------------------
+When "ZoneInfo(key)" is called, the constructor first searches the
+directories specified in "TZPATH" for a file matching "key", and on

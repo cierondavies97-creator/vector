@@ -1,0 +1,4 @@
+are ignored, and a warning is printed to "sys.stderr" instead.
+     In particular:
+     * "__del__()" can be invoked when arbitrary code is being
+       executed, including from any arbitrary thread.  If "__del__()"

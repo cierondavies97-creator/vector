@@ -1,0 +1,5 @@
+('24', '0')
+Match.groupdict(default=None)
+   Return a dictionary containing all the *named* subgroups of the
+   match, keyed by the subgroup name.  The *default* argument is used
+   for groups that did not participate in the match; it defaults to

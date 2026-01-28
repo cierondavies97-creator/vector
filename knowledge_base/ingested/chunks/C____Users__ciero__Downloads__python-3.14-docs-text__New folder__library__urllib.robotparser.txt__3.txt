@@ -1,0 +1,7 @@
+set_url(url)
+      Sets the URL referring to a "robots.txt" file.
+   read()
+      Reads the "robots.txt" URL and feeds it to the parser.
+   parse(lines)
+      Parses the lines argument.
+   can_fetch(useragent, url)

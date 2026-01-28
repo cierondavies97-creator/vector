@@ -1,0 +1,4 @@
+protocol version is used as well as the number of items to
+     append, so both must be supported.)
+   * Optionally, an iterator (not a sequence) yielding successive key-
+     value pairs.  These items will be stored to the object using

@@ -1,0 +1,4 @@
+should not cause any practical difficulties -- if they really bother
+  you then you can instead use a queue created with a manager.
+  1. After putting an object on an empty queue there may be an
+     infinitesimal delay before the queue's "empty()" method returns

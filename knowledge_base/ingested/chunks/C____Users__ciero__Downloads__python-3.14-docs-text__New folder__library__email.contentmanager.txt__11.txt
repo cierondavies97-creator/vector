@@ -1,0 +1,5 @@
+add_get_handler(key, handler)
+      Record the function *handler* as the handler for *key*.  For the
+      possible values of *key*, see "get_content()".
+   add_set_handler(typekey, handler)
+      Record *handler* as the function to call when an object of a

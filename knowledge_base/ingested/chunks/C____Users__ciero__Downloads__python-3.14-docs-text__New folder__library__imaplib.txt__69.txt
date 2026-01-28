@@ -1,0 +1,5 @@
+specified; an exception will be raised when the server returns an
+   error.  *charset* must be "None" if the "UTF8=ACCEPT" capability
+   was enabled using the "enable()" command.
+   Example:
+      # M is a connected IMAP4 instance...

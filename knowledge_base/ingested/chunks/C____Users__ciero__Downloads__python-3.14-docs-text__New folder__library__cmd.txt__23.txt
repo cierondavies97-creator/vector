@@ -1,0 +1,5 @@
+columns. Each column is only as wide as necessary. Columns are
+   separated by two spaces for readability.
+Cmd.precmd(line)
+   Hook method executed just before the command line *line* is
+   interpreted, but after the input prompt is generated and issued.

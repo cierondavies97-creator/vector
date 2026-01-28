@@ -1,0 +1,4 @@
+compiler options should be activated and which future features
+   should be allowed. If neither is present (or both are zero) the
+   code is compiled with the same flags that affect the code that is
+   calling "compile()". If the *flags* argument is given and

@@ -1,0 +1,5 @@
+mainly tested on Linux, FreeBSD, and macOS (it is supposed to work on
+other POSIX platforms but it's not been thoroughly tested).
+The "pty" module defines the following functions:
+pty.fork()
+   Fork. Connect the child's controlling terminal to a pseudo-

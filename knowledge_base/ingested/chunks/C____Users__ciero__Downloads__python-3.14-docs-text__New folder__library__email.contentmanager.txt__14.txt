@@ -1,0 +1,4 @@
+provided by "Message" itself:  it deals only with text, raw byte
+   strings, and "Message" objects.  Nevertheless, it provides
+   significant advantages compared to the base API: "get_content" on a
+   text part will return a unicode string without the application

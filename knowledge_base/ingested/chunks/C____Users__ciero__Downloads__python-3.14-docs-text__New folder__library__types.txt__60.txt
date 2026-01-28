@@ -1,0 +1,4 @@
+Instance access remains normal, but access to an attribute through
+   a class will be routed to the class's __getattr__ method; this is
+   done by raising AttributeError.
+   This allows one to have properties active on an instance, and have

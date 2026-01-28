@@ -1,0 +1,2 @@
+| function.__name__                                  | The function's name. See also: "__name__           |
+|                                                    | attributes".                                       |

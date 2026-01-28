@@ -1,0 +1,7 @@
+...         print("Leaving inner context")
+   ...     print("Leaving outer context")
+   ...
+   Leaving inner context
+   Callback: from inner context
+   Callback: from outer context
+   Leaving outer context

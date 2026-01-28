@@ -1,0 +1,6 @@
+test cases.
+test suite
+   A *test suite* is a collection of test cases, test suites, or both.
+   It is used to aggregate tests that should be executed together.
+test runner
+   A *test runner* is a component which orchestrates the execution of

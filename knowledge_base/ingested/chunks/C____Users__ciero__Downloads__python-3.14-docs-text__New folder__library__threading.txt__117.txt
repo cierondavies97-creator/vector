@@ -1,0 +1,4 @@
+release as many times the lock has been acquired can lead to deadlock.
+class threading.RLock
+   This class implements reentrant lock objects.  A reentrant lock
+   must be released by the thread that acquired it.  Once a thread has

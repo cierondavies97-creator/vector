@@ -1,0 +1,4 @@
+the payloads for transport through compliant mail servers. This is
+especially true for *image/** and *text/** type messages containing
+binary data.
+The "email" package provides some convenient encoders in its

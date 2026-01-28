@@ -1,0 +1,7 @@
+parallelization factor and *maxmem* limits memory (OpenSSL 1.1.0
+   defaults to 32 MiB). *dklen* is the length of the derived key in
+   bytes.
+   Added in version 3.6.
+BLAKE2
+======
+BLAKE2 is a cryptographic hash function defined in **RFC 7693** that

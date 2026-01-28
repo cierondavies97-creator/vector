@@ -1,0 +1,5 @@
+| shift_expr
+   shift_expr[expr_ty]:
+       | a=shift_expr '<<' b=sum { _PyAST_BinOp(a, LShift, b, EXTRA) }
+       | a=shift_expr '>>' b=sum { _PyAST_BinOp(a, RShift, b, EXTRA) }
+       | invalid_arithmetic

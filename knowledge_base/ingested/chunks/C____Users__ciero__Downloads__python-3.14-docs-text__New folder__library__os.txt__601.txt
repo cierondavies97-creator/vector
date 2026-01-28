@@ -1,0 +1,5 @@
+there is some variation.  These constants are defined where they are
+  defined by the underlying platform.
+os.EX_OK
+   Exit code that means no error occurred. May be taken from the
+   defined value of "EXIT_SUCCESS" on some platforms. Generally has a

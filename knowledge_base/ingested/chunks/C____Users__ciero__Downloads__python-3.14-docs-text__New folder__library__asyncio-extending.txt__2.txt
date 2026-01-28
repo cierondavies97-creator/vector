@@ -1,0 +1,4 @@
+all them from scratch is a tedious job.
+A loop can get many common methods implementation for free by
+inheriting from "asyncio.BaseEventLoop".
+In turn, the successor should implement a bunch of *private* methods

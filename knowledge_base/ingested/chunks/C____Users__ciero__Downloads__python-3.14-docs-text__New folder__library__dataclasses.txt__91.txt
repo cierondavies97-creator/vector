@@ -1,0 +1,6 @@
+Post-init processing
+====================
+dataclasses.__post_init__()
+   When defined on the class, it will be called by the generated
+   "__init__()", normally as "self.__post_init__()". However, if any
+   "InitVar" fields are defined, they will also be passed to

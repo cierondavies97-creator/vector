@@ -1,0 +1,3 @@
+the version of the Python interpreter ("sys.version"; it is also
+   printed at the start of an interactive Python session), the exact
+   error message (the exception's associated value) and if possible

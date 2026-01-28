@@ -1,0 +1,5 @@
+*not* the same as regular expressions (which are documented in the
+"re" module).  The special characters used in shell-style wildcards
+are:
++--------------+--------------------------------------+
+| Pattern      | Meaning                              |

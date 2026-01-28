@@ -1,0 +1,9 @@
+▶ See also: Ottinger’s Rules for Naming
+Example
+def my_product(numbers):
+""" Compute the product of a sequence of numbers. """
+total = 1
+for item in numbers:
+total *= item
+return total
+Nicola Chiapolini, 8 July 2024

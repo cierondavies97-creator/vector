@@ -1,0 +1,4 @@
+frames, decompress all of these frames, and return the
+   concatenation of the results.
+class compression.zstd.ZstdCompressor(level=None, options=None, zstd_dict=None)
+   Create a compressor object, which can be used to compress data

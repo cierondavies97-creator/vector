@@ -1,0 +1,5 @@
+If the file name does not end with ".py", "doctest" infers that it
+   must be run with "testfile()" instead:
+      python -m doctest -v example.txt
+-o, --option <option>
+   Option flags control various aspects of doctest's behavior, see

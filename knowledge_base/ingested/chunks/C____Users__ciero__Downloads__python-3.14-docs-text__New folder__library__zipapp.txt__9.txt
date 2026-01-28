@@ -1,0 +1,4 @@
+The *mainfn* argument should have the form "pkg.mod:fn", where
+   "pkg.mod" is a package/module in the archive, and "fn" is a
+   callable in the given module. The "__main__.py" file will execute
+   that callable.

@@ -1,0 +1,5 @@
+example, "\$" matches the character "'$'".
+"\number"
+   Matches the contents of the group of the same number.  Groups are
+   numbered starting from 1.  For example, "(.+) \1" matches "'the
+   the'" or "'55 55'", but not "'thethe'" (note the space after the

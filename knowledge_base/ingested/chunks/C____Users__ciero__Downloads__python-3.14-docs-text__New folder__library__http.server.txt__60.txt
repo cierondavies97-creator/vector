@@ -1,0 +1,5 @@
+is defined at the module level.
+   extensions_map
+      A dictionary mapping suffixes into MIME types, contains custom
+      overrides for the default system mappings. The mapping is used
+      case-insensitively, and so should contain only lower-cased keys.

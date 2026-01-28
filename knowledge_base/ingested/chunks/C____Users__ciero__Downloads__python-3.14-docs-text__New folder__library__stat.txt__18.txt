@@ -1,0 +1,4 @@
+for details).
+The interpretation of "file size" changes according to the file type.
+For plain files this is the size of the file in bytes.  For FIFOs and
+sockets under most flavors of Unix (including Linux in particular),

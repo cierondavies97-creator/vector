@@ -1,0 +1,5 @@
+datetime.strftime(format)
+   Return a string representing the date and time, controlled by an
+   explicit format string. See also strftime() and strptime() Behavior
+   and "datetime.isoformat()".
+datetime.__format__(format)

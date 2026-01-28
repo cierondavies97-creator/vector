@@ -1,0 +1,4 @@
+function can be used to properly escape whitespace and special
+     shell characters in strings that are going to be used to
+     construct shell commands.
+   Changed in version 3.10: Removed the *loop* parameter.

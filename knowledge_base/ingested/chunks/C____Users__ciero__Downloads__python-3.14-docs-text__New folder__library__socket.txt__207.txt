@@ -1,0 +1,6 @@
+interface name. "OSError" if no interface with the given name
+   exists.
+   Availability: Unix, Windows, not WASI.
+   Added in version 3.3.
+   Changed in version 3.8: Windows support was added.
+   See also:

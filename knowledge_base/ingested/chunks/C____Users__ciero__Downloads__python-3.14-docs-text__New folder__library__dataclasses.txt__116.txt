@@ -1,0 +1,5 @@
+re-ordered "__init__()" parameter list.
+Default factory functions
+=========================
+If a "field()" specifies a *default_factory*, it is called with zero
+arguments when a default value for the field is needed.  For example,

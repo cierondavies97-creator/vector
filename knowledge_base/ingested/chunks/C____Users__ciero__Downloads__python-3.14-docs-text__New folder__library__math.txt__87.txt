@@ -1,0 +1,4 @@
+If *k* is not specified or is "None", then *k* defaults to *n* and
+   the function returns "n!".
+   Raises "TypeError" if either of the arguments are not integers.
+   Raises "ValueError" if either of the arguments are negative.

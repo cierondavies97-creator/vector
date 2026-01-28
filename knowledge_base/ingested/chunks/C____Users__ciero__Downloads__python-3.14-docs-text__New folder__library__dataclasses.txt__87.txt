@@ -1,0 +1,3 @@
+fields.  Note that a pseudo-field of type "KW_ONLY" is otherwise
+   completely ignored.  This includes the name of such a field.  By
+   convention, a name of "_" is used for a "KW_ONLY" field.  Keyword-

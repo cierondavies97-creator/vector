@@ -1,0 +1,6 @@
+Parsing XML section:
+   import xml.etree.ElementTree as ET
+   root = ET.fromstring(countrydata)
+   # Top-level elements
+   root.findall(".")
+   # All 'neighbor' grand-children of 'country' children of the top-level

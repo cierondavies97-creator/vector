@@ -1,0 +1,5 @@
+if symlinks are involved, "Path.absolute()" preserves these segments
+for greater safety.
+pathlib's path normalization may render it unsuitable for some
+applications:
+1. pathlib normalizes "Path("my_folder/")" to "Path("my_folder")",

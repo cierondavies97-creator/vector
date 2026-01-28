@@ -1,0 +1,4 @@
+insert it with one of the other methods such as "insertBefore()" or
+   "appendChild()".
+Document.createElementNS(namespaceURI, tagName)
+   Create and return a new element with a namespace.  The *tagName*

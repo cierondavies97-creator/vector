@@ -1,0 +1,4 @@
+the iteration has reached the end, "tp_iternext" may return "NULL"
+without setting an exception, or it may set "StopIteration" *in
+addition* to returning "NULL"; avoiding the exception can yield
+slightly better performance.  If an actual error occurs, "tp_iternext"

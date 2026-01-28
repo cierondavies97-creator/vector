@@ -1,0 +1,6 @@
+etc. then terminating it is liable to cause other processes to
+        deadlock.
+   kill()
+      Same as "terminate()" but using the "SIGKILL" signal on POSIX.
+      Added in version 3.7.
+   close()

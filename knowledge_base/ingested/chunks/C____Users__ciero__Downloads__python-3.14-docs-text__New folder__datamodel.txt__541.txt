@@ -1,0 +1,6 @@
+Note:
+     "for" loops expect that an "IndexError" will be raised for
+     illegal indexes to allow proper detection of the end of the
+     sequence.
+   Note:
+     When subscripting a *class*, the special class method

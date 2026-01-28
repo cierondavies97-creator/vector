@@ -1,0 +1,4 @@
+as processed, unblocking any successor of each node in *nodes*
+      for being returned in the future by a call to
+      "TopologicalSorter.get_ready()".
+      Raises "ValueError" if any node in *nodes* has already been

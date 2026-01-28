@@ -1,0 +1,8 @@
+>>> row.keys()
+   ['name', 'radius']
+   >>> row[0]         # Access by index.
+   'Earth'
+   >>> row["name"]    # Access by name.
+   'Earth'
+   >>> row["RADIUS"]  # Column names are case-insensitive.
+   6378

@@ -1,0 +1,4 @@
+threads.  E.g. in a typical producer-consumer situation, adding one
+item to the buffer only needs to wake up one consumer thread.
+class threading.Condition(lock=None)
+   This class implements condition variable objects.  A condition

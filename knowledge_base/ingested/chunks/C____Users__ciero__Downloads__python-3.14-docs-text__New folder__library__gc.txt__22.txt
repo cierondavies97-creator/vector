@@ -1,0 +1,6 @@
+gc.get_count()
+   Return the current collection  counts as a tuple of "(count0,
+   count1, count2)".
+gc.get_threshold()
+   Return the current collection thresholds as a tuple of
+   "(threshold0, threshold1, threshold2)".

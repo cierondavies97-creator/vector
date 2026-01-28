@@ -1,0 +1,5 @@
+The Problem
+▶ different tools need different versions of a module
+▶ your Linux distribution does not include a module
+The Solution: virtualenv
+▶ initialise folder school_venv to store modules of this project

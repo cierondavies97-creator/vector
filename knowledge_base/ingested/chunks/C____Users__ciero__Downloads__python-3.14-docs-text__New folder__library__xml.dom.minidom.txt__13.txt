@@ -1,0 +1,3 @@
+Once you have a DOM document object, you can access the parts of your
+XML document through its properties and methods.  These properties are
+defined in the DOM specification.  The main property of the document

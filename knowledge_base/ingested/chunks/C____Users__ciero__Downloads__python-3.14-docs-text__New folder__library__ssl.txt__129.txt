@@ -1,0 +1,6 @@
+class ssl.AlertDescription
+   "enum.IntEnum" collection of ALERT_DESCRIPTION_* constants.
+   Added in version 3.6.
+Purpose.SERVER_AUTH
+   Option for "create_default_context()" and
+   "SSLContext.load_default_certs()".  This value indicates that the

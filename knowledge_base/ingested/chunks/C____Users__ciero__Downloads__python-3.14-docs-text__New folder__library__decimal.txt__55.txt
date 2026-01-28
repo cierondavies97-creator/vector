@@ -1,0 +1,4 @@
+exponent-part  ::=  indicator [sign] digits
+      infinity       ::=  'Infinity' | 'Inf'
+      nan            ::=  'NaN' [digits] | 'sNaN' [digits]
+      numeric-value  ::=  decimal-part [exponent-part] | infinity

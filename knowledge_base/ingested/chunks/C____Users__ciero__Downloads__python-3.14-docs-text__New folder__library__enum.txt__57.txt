@@ -1,0 +1,5 @@
+...     SOMETHING_ELSE = auto()
+         ...     def __str__(self):
+         ...         return f'{self.name}'
+         ...
+         >>> OtherStyle.ALTERNATE, str(OtherStyle.ALTERNATE), f"{OtherStyle.ALTERNATE}"

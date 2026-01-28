@@ -1,0 +1,5 @@
+line
+   detail
+Note that tracebacks are treated very specially.  In particular, in
+the rewritten example, the use of "..." is independent of doctest's
+"ELLIPSIS" option.  The ellipsis in that example could be left out, or

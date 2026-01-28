@@ -1,0 +1,6 @@
+not empty, return "string[:-len(suffix)]". Otherwise, return a copy
+   of the original string:
+      >>> 'MiscTests'.removesuffix('Tests')
+      'Misc'
+      >>> 'TmpDirMixin'.removesuffix('Tests')
+      'TmpDirMixin'

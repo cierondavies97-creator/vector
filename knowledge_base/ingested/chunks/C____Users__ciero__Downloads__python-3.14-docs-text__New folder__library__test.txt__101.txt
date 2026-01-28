@@ -1,0 +1,4 @@
+trace function is unset for the duration of the test to prevent
+   unexpected refcounts caused by the trace function.
+@test.support.bigmemtest(size, memuse, dry_run=True)
+   Decorator for bigmem tests.

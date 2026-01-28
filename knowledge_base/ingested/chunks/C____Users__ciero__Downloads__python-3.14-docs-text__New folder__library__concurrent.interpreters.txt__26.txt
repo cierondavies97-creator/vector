@@ -1,0 +1,4 @@
+provided by the *GIL*.  There are various options for dealing with
+this in extension modules.  However, from Python code the lack of
+thread-safety means objects can't actually be shared, with a few
+exceptions.  Instead, a copy must be created, which means mutable

@@ -1,0 +1,5 @@
+The "bounds()" method can be used on any attribute to get the valid
+   values for that parameter.
+   Parameters are optional; any omitted parameter will have it's value
+   selected automatically.
+   Example getting the lower and upper bound of "compression_level":

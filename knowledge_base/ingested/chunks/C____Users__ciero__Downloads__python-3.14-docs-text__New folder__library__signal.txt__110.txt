@@ -1,0 +1,6 @@
+while True:
+           for key, _ in sel.select():
+               if key.fileobj == interrupt_read:
+                   interrupt_read.recv(1)
+                   return
+               if key.fileobj == httpd:

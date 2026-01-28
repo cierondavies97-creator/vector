@@ -1,0 +1,4 @@
+SQLite library. "InternalError" is a subclass of "DatabaseError".
+exception sqlite3.ProgrammingError
+   Exception raised for "sqlite3" API programming errors, for example
+   supplying the wrong number of bindings to a query, or trying to

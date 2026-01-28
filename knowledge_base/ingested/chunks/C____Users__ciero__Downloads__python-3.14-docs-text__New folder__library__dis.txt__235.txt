@@ -1,0 +1,5 @@
+push the return value of the context manager's "__enter__()" or
+   "__aenter__()" to the stack.
+POP_BLOCK
+   Marks the end of the code block associated with the last
+   "SETUP_FINALLY", "SETUP_CLEANUP" or "SETUP_WITH".

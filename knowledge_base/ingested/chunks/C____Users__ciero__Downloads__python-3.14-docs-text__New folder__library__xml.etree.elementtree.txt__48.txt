@@ -1,0 +1,5 @@
+name = actor.find('{http://people.example.com}name')
+       print(name.text)
+       for char in actor.findall('{http://characters.example.com}character'):
+           print(' |-->', char.text)
+A better way to search the namespaced XML example is to create a

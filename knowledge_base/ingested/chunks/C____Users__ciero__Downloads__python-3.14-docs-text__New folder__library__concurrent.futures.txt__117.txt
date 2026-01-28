@@ -1,0 +1,5 @@
+operation exceeds the given timeout.
+   Changed in version 3.11: This class was made an alias of
+   "TimeoutError".
+exception concurrent.futures.BrokenExecutor
+   Derived from "RuntimeError", this exception class is raised when an

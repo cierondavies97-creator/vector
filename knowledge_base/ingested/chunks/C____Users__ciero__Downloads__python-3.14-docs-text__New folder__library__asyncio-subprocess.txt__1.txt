@@ -1,0 +1,7 @@
+and manage subprocesses.
+Here's an example of how asyncio can run a shell command and obtain
+its result:
+   import asyncio
+   async def run(cmd):
+       proc = await asyncio.create_subprocess_shell(
+           cmd,

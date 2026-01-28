@@ -1,0 +1,5 @@
+other iterables of length two). If keyword arguments are
+      specified, the dictionary is then updated with those key/value
+      pairs: "d.update(red=1, blue=2)".
+   values()
+      Return a new view of the dictionary's values.  See the

@@ -1,0 +1,4 @@
+alphabet, which substitutes "-" instead of "+" and "_" instead of
+   "/" in the standard Base64 alphabet, and return the encoded
+   "bytes".  The result can still contain "=".
+base64.urlsafe_b64decode(s)

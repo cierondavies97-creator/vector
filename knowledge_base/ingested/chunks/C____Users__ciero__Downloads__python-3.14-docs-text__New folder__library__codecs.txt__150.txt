@@ -1,0 +1,4 @@
+character '\u1234' in position 3: ordinal not in range(256)".
+There's another group of encodings (the so called charmap encodings)
+that choose a different subset of all Unicode code points and how
+these code points are mapped to the bytes "0x0"--"0xff". To see how

@@ -1,0 +1,5 @@
+'sjoerd'}"
+   * Use a dict comprehension: "{}", "{x: x ** 2 for x in range(10)}"
+   * Use the type constructor: "dict()", "dict([('foo', 100), ('bar',
+     200)])", "dict(foo=100, bar=200)"
+   If no positional argument is given, an empty dictionary is created.

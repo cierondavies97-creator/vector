@@ -1,0 +1,6 @@
+are stored in a shared memory block. This constrains storable
+   values to the following built-in data types:
+   * "int" (signed 64-bit)
+   * "float"
+   * "bool"
+   * "str" (less than 10M bytes each when encoded as UTF-8)

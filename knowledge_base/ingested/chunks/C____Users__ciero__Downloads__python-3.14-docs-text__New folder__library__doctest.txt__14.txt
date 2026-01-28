@@ -1,0 +1,6 @@
+7 passed.
+   Test passed.
+   $
+That's all you need to know to start making productive use of
+"doctest"! Jump in.  The following sections provide full details.
+Note that there are many examples of doctests in the standard Python

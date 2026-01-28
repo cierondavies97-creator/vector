@@ -1,0 +1,4 @@
+TarInfo.gid: int
+   Group ID of the user who originally stored this member.
+   Changed in version 3.12: Can be set to "None" for "extract()" and
+   "extractall()", causing extraction to skip applying this attribute.

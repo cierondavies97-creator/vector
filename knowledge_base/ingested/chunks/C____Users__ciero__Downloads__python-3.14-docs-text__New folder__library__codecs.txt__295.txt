@@ -1,0 +1,5 @@
+Added in version 3.2: Restoration of the "rot_13" text transform.
+Changed in version 3.4: Restoration of the "rot13" alias.
+"encodings" --- Encodings package
+=================================
+This module implements the following functions:

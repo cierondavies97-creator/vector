@@ -1,0 +1,6 @@
+editing and navigation, and other tips.
+Python Docs
+   Access local Python documentation, if installed, or start a web
+   browser and open docs.python.org showing the latest Python
+   documentation.
+Turtle Demo

@@ -1,0 +1,5 @@
+>>> topsecret.get('CompressionLevel', '3')
+   '9'
+One more thing to be aware of is that the parser-level "get()" method
+provides a custom, more complex interface, maintained for backwards
+compatibility.  When using this method, a fallback value can be

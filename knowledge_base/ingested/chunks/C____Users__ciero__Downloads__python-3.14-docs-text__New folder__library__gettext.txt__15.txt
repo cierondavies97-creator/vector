@@ -1,0 +1,4 @@
+Added in version 3.8.
+Note that GNU **gettext** also defines a "dcgettext()" method, but
+this was deemed not useful and so it is currently unimplemented.
+Here's an example of typical usage for this API:

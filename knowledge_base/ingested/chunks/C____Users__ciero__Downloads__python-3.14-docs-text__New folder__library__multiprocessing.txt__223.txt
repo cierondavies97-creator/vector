@@ -1,0 +1,4 @@
+this first argument differs from that in
+      "threading.Lock.acquire()".
+      With the *block* argument set to "False", the method call does
+      not block.  If the lock is currently in a locked state, return

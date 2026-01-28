@@ -1,0 +1,3 @@
+communicate with a remote Unix machine whose address is given by
+   *address* in the form of a "(host, port)" tuple.  If *address* is
+   not specified, "('localhost', 514)" is used.  The address is used

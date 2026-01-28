@@ -1,0 +1,4 @@
+should be started in a command line window.  (On Windows, use "python"
+or "py" rather than "pythonw" or "pyw".) The secondary subprocess will
+then be attached to that window for input and output.
+If "sys" is reset by user code, such as with "importlib.reload(sys)",

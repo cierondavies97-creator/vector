@@ -1,0 +1,5 @@
+passed to the "zipfile.ZipFile" class, and must supply the methods
+   needed by that class.
+   Changed in version 3.7: Added the *filter* and *compressed*
+   parameters.
+zipapp.get_interpreter(archive)

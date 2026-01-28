@@ -1,0 +1,8 @@
+''
+      >>> PurePosixPath('/etc').drive
+      ''
+   UNC shares are also considered drives:
+      >>> PureWindowsPath('//host/share/foo.txt').drive
+      '\\\\host\\share'
+PurePath.root
+   A string representing the (local or global) root, if any:

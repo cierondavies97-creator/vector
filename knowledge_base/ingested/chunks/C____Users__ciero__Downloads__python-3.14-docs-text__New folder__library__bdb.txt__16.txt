@@ -1,0 +1,4 @@
+it can disable unused events. We are trying to keep the exact
+   interfaces for both backends, but there are some differences. The
+   debugger developers are encouraged to use the "'monitoring'"
+   backend to achieve better performance.

@@ -1,0 +1,5 @@
+Note:
+  This module *does not* access the internet. All of the components
+  needed to bootstrap "pip" are included as internal parts of the
+  package.
+This is an *optional module*. If it is missing from your copy of

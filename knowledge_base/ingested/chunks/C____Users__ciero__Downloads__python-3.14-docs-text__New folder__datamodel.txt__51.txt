@@ -1,0 +1,3 @@
+tuple of one item (a 'singleton') can be formed by affixing a comma
+   to an expression (an expression by itself does not create a tuple,
+   since parentheses must be usable for grouping of expressions).  An

@@ -1,0 +1,4 @@
+contiguous arrays, the first index varies the fastest.
+coroutine
+   Coroutines are a more generalized form of subroutines. Subroutines
+   are entered at one point and exited at another point.  Coroutines

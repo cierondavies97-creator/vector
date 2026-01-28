@@ -1,0 +1,4 @@
+format (which happens to have originated with the POSIX interface).
+* Extensions peculiar to a particular operating system are also
+  available through the "os" module, but using them is of course a
+  threat to portability.

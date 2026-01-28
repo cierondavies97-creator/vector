@@ -1,0 +1,5 @@
+* classes accessible from the top level of a module;
+* instances of such classes whose the result of calling
+  "__getstate__()" is picklable  (see section Pickling Class Instances
+  for details).
+Attempts to pickle unpicklable objects will raise the "PicklingError"

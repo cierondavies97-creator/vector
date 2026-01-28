@@ -1,0 +1,5 @@
+(either explicitly or implicitly at the end of a "with"
+      statement).
+      For example, a group of files can be opened as an "all or
+      nothing" operation as follows:
+         with ExitStack() as stack:

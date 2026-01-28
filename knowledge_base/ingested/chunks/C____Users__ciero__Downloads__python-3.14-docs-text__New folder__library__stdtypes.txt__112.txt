@@ -1,0 +1,5 @@
+To clarify the above rules, here's some example Python code,
+equivalent to the built-in hash, for computing the hash of a rational
+number, "float", or "complex":
+   import sys, math
+   def hash_fraction(m, n):

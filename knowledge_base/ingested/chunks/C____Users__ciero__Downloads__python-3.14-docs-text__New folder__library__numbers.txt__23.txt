@@ -1,0 +1,4 @@
+methods to try, so this is where the default implementation should
+   live.
+5. If "B <: A", Python tries "B.__radd__" before "A.__add__". This is
+   ok, because it was implemented with knowledge of "A", so it can

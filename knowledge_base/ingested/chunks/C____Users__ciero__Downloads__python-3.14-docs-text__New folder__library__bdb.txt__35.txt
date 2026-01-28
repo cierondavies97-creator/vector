@@ -1,0 +1,5 @@
+Check whether a line or function breakpoint exists and is in
+      effect.  Delete temporary breakpoints based on information from
+      "effective()".
+   break_anywhere(frame)
+      Return "True" if any breakpoint exists for *frame*'s filename.

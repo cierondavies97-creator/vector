@@ -1,0 +1,4 @@
+class. These "tzinfo" objects capture information about the offset
+from UTC time, the time zone name, and whether daylight saving time is
+in effect.
+Only one concrete "tzinfo" class, the "timezone" class, is supplied by

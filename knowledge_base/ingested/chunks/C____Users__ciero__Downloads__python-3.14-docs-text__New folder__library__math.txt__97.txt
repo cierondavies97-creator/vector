@@ -1,0 +1,5 @@
+working with integers.
+math.modf(x)
+   Return the fractional and integer parts of *x*.  Both results carry
+   the sign of *x* and are floats.
+   Note that "modf()" has a different call/return pattern than its C

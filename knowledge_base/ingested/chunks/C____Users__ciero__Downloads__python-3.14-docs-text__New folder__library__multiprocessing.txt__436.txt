@@ -1,0 +1,4 @@
+module to provide digest authentication.
+An authentication key is a byte string which can be thought of as a
+password: once a connection is established both ends will demand proof
+that the other knows the authentication key.  (Demonstrating that both

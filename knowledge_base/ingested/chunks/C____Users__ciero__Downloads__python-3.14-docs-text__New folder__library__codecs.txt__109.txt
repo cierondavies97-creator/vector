@@ -1,0 +1,4 @@
+still undecoded input. The second must be an integer and can be
+      additional state info. (The implementation should make sure that
+      "0" is the most common additional state info.) If this
+      additional state info is "0" it must be possible to set the

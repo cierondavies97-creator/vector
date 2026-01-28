@@ -1,0 +1,4 @@
+building blocks over the use of for-loops and *generators* which incur
+interpreter overhead.
+   from itertools import (accumulate, batched, chain, combinations, compress,
+        count, cycle, filterfalse, groupby, islice, permutations, product,

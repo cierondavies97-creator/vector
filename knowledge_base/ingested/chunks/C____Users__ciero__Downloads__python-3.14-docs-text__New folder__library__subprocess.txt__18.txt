@@ -1,0 +1,4 @@
+...
+      subprocess.CalledProcessError: Command 'exit 1' returned non-zero exit status 1
+      >>> subprocess.run(["ls", "-l", "/dev/null"], capture_output=True)
+      CompletedProcess(args=['ls', '-l', '/dev/null'], returncode=0,

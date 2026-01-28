@@ -1,0 +1,5 @@
+compiled code stored.
+   parent
+      (Read-only) The fully qualified name of the package the module
+      is in (or the empty string for a top-level module). See
+      "module.__package__". If the module is a package then this is

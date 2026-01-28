@@ -1,0 +1,4 @@
+"None". "depth=0" means no recursion.
+   If *show_caches* is "True", this function will display inline cache
+   entries used by the interpreter to specialize the bytecode.
+   If *adaptive* is "True", this function will display specialized

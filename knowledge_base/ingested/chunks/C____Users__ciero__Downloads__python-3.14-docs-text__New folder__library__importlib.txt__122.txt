@@ -1,0 +1,6 @@
+bytecode modules (including the leading dot).
+   Added in version 3.3.
+   Changed in version 3.5: The value is no longer dependent on
+   "__debug__".
+importlib.machinery.EXTENSION_SUFFIXES
+   A list of strings representing the recognized file suffixes for

@@ -1,0 +1,5 @@
+>>> pprint.saferepr(stuff)
+   "[<Recursion on list with id=...>, 'spam', 'eggs', 'lumberjack', 'knights', 'ni']"
+PrettyPrinter Objects
+=====================
+class pprint.PrettyPrinter(indent=1, width=80, depth=None, stream=None, *, compact=False, sort_dicts=True, underscore_numbers=False)

@@ -1,0 +1,4 @@
+Note:
+     A known issue exists for "bytes" and "str" values. If they end
+     with "\x00" nul bytes or characters, those may be *silently
+     stripped* when fetching them by index from the "ShareableList".

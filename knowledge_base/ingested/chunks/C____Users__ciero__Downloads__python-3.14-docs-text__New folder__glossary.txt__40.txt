@@ -1,0 +1,4 @@
+file is faster the second time (recompilation from source to
+   bytecode can be avoided).  This "intermediate language" is said to
+   run on a *virtual machine* that executes the machine code
+   corresponding to each bytecode. Do note that bytecodes are not

@@ -1,0 +1,5 @@
+creation request being processed.
+           """
+           url = "https://bootstrap.pypa.io/ez_setup.py"
+           self.install_script(context, 'setuptools', url)
+           # clear up the setuptools archive which gets downloaded

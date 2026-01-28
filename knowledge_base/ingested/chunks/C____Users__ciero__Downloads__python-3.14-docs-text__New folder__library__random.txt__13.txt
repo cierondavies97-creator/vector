@@ -1,0 +1,4 @@
+randomness sources are provided by the operating system, they are
+   used instead of the system time (see the "os.urandom()" function
+   for details on availability).
+   If *a* is an int, its absolute value is used directly.

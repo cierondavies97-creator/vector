@@ -1,0 +1,5 @@
+the source is simply renamed to the destination.
+      Parameters:
+         * **source** -- The source filename. This is normally the
+           base filename, e.g. 'test.log'.
+         * **dest** -- The destination filename. This is normally what

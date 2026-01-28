@@ -1,0 +1,4 @@
+again, causing a double free and a crash.Starting with Python 3.4,
+  it is recommended not to put any complex finalization code in
+  "tp_dealloc", and instead use the new "tp_finalize" type method.
+  See also: **PEP 442** explains the new finalization scheme.

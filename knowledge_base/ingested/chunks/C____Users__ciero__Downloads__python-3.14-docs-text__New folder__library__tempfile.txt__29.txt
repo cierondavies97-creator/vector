@@ -1,0 +1,6 @@
+"TemporaryFile()".
+   rollover()
+      The resulting file has one additional method, "rollover()",
+      which causes the file to roll over to an on-disk file regardless
+      of its size.
+   The returned object is a file-like object whose "_file" attribute

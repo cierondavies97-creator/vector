@@ -1,0 +1,3 @@
+the Python core team.
+The last version of Python that provided the "imghdr" module was
+Python 3.12.

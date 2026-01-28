@@ -1,0 +1,4 @@
+gil" build configuration. After building Python with this option,
+   code must be run with "-X gil=0" or after setting the
+   "PYTHON_GIL=0" environment variable. This feature enables improved
+   performance for multi-threaded applications and makes it easier to

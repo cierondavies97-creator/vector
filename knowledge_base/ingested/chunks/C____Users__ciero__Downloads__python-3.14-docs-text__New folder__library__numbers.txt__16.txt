@@ -1,0 +1,5 @@
+return do_my_adding_stuff(self, other)
+           elif isinstance(other, OtherTypeIKnowAbout):
+               return do_my_other_adding_stuff(self, other)
+           else:
+               return NotImplemented

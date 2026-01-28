@@ -1,0 +1,4 @@
+is frequently observed when trying to create a "Process" or use a
+     "concurrent.futures.ProcessPoolExecutor" from a REPL with a
+     locally defined *target* function.Passing a callable object
+     defined in the current REPL session causes the child process to

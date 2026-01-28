@@ -1,0 +1,5 @@
+"'linux2'" or "'linux3'".
+   Changed in version 3.8: On AIX, "sys.platform" doesn't contain the
+   major version anymore. It is always "'aix'", instead of "'aix5'" or
+   "'aix7'".
+   Changed in version 3.13: On Android, "sys.platform" now returns

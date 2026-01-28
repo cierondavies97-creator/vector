@@ -1,0 +1,7 @@
+Module(
+          body=[
+              Raise(
+                  exc=Name(id='x', ctx=Load()),
+                  cause=Name(id='y', ctx=Load()))])
+class ast.Assert(test, msg)
+   An assertion. "test" holds the condition, such as a "Compare" node.

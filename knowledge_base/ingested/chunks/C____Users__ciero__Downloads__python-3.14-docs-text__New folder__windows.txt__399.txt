@@ -1,0 +1,4 @@
+#! python3
+Re-executing the command should now print the latest Python 3.x
+information. As with the above command-line examples, you can specify
+a more explicit version qualifier.  Assuming you have Python 3.7

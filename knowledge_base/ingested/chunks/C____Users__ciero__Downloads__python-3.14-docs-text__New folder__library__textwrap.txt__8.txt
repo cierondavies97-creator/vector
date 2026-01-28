@@ -1,0 +1,5 @@
+that the remaining words plus the *placeholder* fit within *width*:
+      >>> textwrap.shorten("Hello  world!", width=12)
+      'Hello world!'
+      >>> textwrap.shorten("Hello  world!", width=11)
+      'Hello [...]'

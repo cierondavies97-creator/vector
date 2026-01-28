@@ -1,0 +1,3 @@
+|            | this name whenever the latter is modified.                      |
++------------+-----------------------------------------------------------------+
+| phase      | Read-only option. The widget periodically increments the value  |

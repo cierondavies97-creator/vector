@@ -1,0 +1,3 @@
+message is in the same form as an mbox message but is bracketed
+   before and after by lines containing four Control-A ("'\001'")
+   characters. As with the mbox format, the beginning of each message

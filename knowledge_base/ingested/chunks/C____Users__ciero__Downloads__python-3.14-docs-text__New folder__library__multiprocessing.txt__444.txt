@@ -1,0 +1,5 @@
+Below is an example session with logging turned on:
+   >>> import multiprocessing, logging
+   >>> logger = multiprocessing.log_to_stderr()
+   >>> logger.setLevel(logging.INFO)
+   >>> logger.warning('doomed')

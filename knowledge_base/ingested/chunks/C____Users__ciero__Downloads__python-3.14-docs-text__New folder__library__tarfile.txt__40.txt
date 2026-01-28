@@ -1,0 +1,3 @@
++---------------+----------------------------------------------+
+   | "'r|zst'"     | Open a Zstandard compressed *stream* for     |
+   |               | reading.                                     |

@@ -1,0 +1,4 @@
+*path-like object*.
+   If "tempdir" is "None" (the default) at any call to any of the
+   above functions except "gettempprefix()" it is initialized
+   following the algorithm described in "gettempdir()".

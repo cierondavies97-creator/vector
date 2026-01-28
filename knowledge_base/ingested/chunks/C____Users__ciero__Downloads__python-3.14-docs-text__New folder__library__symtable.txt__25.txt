@@ -1,0 +1,6 @@
+An entry in a "SymbolTable" corresponding to an identifier in the
+   source.  The constructor is not public.
+   get_name()
+      Return the symbol's name.
+   is_referenced()
+      Return "True" if the symbol is used in its block.

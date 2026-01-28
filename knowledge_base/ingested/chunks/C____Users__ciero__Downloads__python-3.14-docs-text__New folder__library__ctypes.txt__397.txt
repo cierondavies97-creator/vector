@@ -1,0 +1,5 @@
+Added in version 3.11.
+class ctypes.LittleEndianUnion(*args, **kw)
+   Abstract base class for unions in *little endian* byte order.
+   Added in version 3.11.
+class ctypes.BigEndianStructure(*args, **kw)

@@ -1,0 +1,6 @@
+currently running thread is renamed. (Setting the *name*
+      attribute of a different thread only updates the Python Thread
+      object.)
+   getName()
+   setName()
+      Deprecated getter/setter API for "name"; use it directly as a

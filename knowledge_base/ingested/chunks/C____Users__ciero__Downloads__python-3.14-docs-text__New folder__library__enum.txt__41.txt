@@ -1,0 +1,5 @@
+_generate_next_value_(name, start, count, last_values)
+         name:
+            The name of the member being defined (e.g. 'RED').
+         start:
+            The start value for the Enum; the default is 1.

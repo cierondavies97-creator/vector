@@ -1,0 +1,4 @@
+"ctypes.set_exception" with argument "code" will be raised, allowing
+an audit hook to replace the exception with its own.
+Some ways to invoke foreign function calls as well as some of the
+functions in this module may raise an auditing event

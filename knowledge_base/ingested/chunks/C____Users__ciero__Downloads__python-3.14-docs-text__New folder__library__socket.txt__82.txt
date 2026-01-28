@@ -1,0 +1,6 @@
+Added in version 3.9.
+socket.AF_DIVERT
+socket.PF_DIVERT
+   These two constants, documented in the FreeBSD divert(4) manual
+   page, are also defined in the socket module.
+   Availability: FreeBSD >= 14.0.

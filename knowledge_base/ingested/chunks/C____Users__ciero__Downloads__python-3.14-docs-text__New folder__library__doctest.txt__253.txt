@@ -1,0 +1,4 @@
+information about option flags.
+   output_difference(example, got, optionflags)
+      Return a string describing the differences between the expected
+      output for a given example (*example*) and the actual output

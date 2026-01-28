@@ -1,0 +1,3 @@
+back-end that allows storing arbitrary data can implement
+            this abstract method to give direct access to the data
+            stored. "OSError" is to be raised if the *path* cannot be

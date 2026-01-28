@@ -1,0 +1,7 @@
+(turtle) help forward
+   Move the turtle forward by the specified distance:  FORWARD 10
+   (turtle) record spiral.cmd
+   (turtle) position
+   Current position is 0 0
+   (turtle) heading
+   Current heading is 0

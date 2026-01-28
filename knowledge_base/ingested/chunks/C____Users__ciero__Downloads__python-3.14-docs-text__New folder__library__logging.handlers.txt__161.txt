@@ -1,0 +1,7 @@
+shouldFlush(record)
+      Checks for buffer full or a record at the *flushLevel* or
+      higher.
+HTTPHandler
+===========
+The "HTTPHandler" class, located in the "logging.handlers" module,
+supports sending logging messages to a web server, using either "GET"

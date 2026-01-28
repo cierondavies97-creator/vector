@@ -1,0 +1,5 @@
+identify them clearly.
+      A test case can contain any number of subtest declarations, and
+      they can be arbitrarily nested.
+      See Distinguishing test iterations using subtests for more
+      information.

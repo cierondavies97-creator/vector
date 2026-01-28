@@ -1,0 +1,4 @@
+Wikipedia has an example where we can use "kde()" to generate and
+   plot a probability density function estimated from a small sample:
+      >>> sample = [-2.1, -1.3, -0.4, 1.9, 5.1, 6.2]
+      >>> f_hat = kde(sample, h=1.5)

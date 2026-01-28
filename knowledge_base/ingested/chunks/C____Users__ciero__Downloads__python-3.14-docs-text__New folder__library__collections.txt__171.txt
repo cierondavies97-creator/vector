@@ -1,0 +1,5 @@
+Return an instance of a "dict" subclass that has methods
+   specialized for rearranging dictionary order.
+   Added in version 3.1.
+   popitem(last=True)
+      The "popitem()" method for ordered dictionaries returns and

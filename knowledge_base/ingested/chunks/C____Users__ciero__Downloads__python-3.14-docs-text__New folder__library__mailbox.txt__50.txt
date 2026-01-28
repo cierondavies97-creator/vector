@@ -1,0 +1,4 @@
+common directory structure. This design allows Maildir mailboxes to
+   be accessed and modified by multiple unrelated programs without
+   data corruption, so file locking is unnecessary.
+   Maildir mailboxes contain three subdirectories, namely: "tmp",

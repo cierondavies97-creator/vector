@@ -1,0 +1,5 @@
+They cannot be read in the "QUOTE_NONNUMERIC" and "QUOTE_STRINGS"
+     modes.
+csv.QUOTE_NONE
+   Instructs "writer" objects to never quote fields. When the current
+   *delimiter*, *quotechar*, *escapechar*, "'\r'", "'\n'" or any of

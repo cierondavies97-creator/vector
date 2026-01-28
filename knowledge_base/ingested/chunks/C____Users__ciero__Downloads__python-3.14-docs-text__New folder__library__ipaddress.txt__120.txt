@@ -1,0 +1,6 @@
+return a list containing the single host address.
+   overlaps(other)
+   address_exclude(network)
+   subnets(prefixlen_diff=1, new_prefix=None)
+   supernet(prefixlen_diff=1, new_prefix=None)
+   subnet_of(other)

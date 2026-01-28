@@ -1,0 +1,5 @@
+is not given, the maximum of "pensize+4" and "2*pensize" is used.
+      >>> turtle.home()
+      >>> turtle.dot()
+      >>> turtle.fd(50); turtle.dot(20, "blue"); turtle.fd(50)
+      >>> turtle.position()

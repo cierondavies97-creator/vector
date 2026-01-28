@@ -1,0 +1,3 @@
+workers. If the platform can't use multiple workers and *workers*
+   argument is given, then sequential compilation will be used as a
+   fallback.  If *workers* is 0, the number of cores in the system is

@@ -1,0 +1,5 @@
+specifies the number of unaccepted connections that the system will
+   allow before refusing new connections. If not specified, a default
+   reasonable value is chosen.
+   Availability: not WASI.
+   Changed in version 3.5: The *backlog* parameter is now optional.

@@ -1,0 +1,3 @@
+contains a MSBuild properties file "python.props" that can be used in
+a C++ project to reference the Python install. Including the settings
+will automatically use the headers and import libraries in your build.

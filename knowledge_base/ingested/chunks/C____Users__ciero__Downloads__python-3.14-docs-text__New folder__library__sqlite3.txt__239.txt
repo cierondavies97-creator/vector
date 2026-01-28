@@ -1,0 +1,5 @@
+blob will raise "ValueError".
+   tell()
+      Return the current access position of the blob.
+   seek(offset, origin=os.SEEK_SET, /)
+      Set the current access position of the blob to *offset*.  The

@@ -1,0 +1,5 @@
+"TestRunner.run()" method for this purpose.
+   "TestResult" instances have the following attributes that will be
+   of interest when inspecting the results of running a set of tests:
+   errors
+      A list containing 2-tuples of "TestCase" instances and strings

@@ -1,0 +1,6 @@
+class C(Base):
+       z: int = 10
+       x: int = 15
+The final list of fields is, in order, "x", "y", "z".  The final type
+of "x" is "int", as specified in class "C".
+The generated "__init__()" method for "C" will look like:

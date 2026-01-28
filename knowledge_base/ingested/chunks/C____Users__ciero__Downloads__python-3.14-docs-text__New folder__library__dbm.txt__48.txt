@@ -1,0 +1,4 @@
+* **flag** (*str*) --
+        * "'r'" (default): Open existing database for reading only.
+        * "'w'": Open existing database for reading and writing.
+        * "'c'": Open database for reading and writing, creating it if

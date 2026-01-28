@@ -1,0 +1,6 @@
+=============
+This example shows how to use "difflib.ndiff()".
+   """ndiff [-q] file1 file2
+       or
+   ndiff (-r1 | -r2) < ndiff_output > file1_or_file2
+   Print a human-friendly file difference report to stdout.  Both inter-

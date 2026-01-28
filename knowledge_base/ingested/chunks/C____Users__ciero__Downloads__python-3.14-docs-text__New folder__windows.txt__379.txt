@@ -1,0 +1,4 @@
+install", which will prefer the free-threaded binaries over the
+regular ones, while "py.exe -3.13" will not. If you use the short
+style of option, you may prefer to not install the free-threaded
+binaries at this time.

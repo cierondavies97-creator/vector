@@ -1,0 +1,5 @@
+else:
+           fail, total = doctest.testmod(optionflags=flags)
+           print(f"{fail} failures out of {total} tests")
+-[ Footnotes ]-
+[1] Examples containing both expected output and an exception are not

@@ -1,0 +1,3 @@
+Split the pathname *path* into a pair, "(head, tail)" where *tail*
+   is the last pathname component and *head* is everything leading up
+   to that.  The *tail* part will never contain a slash; if *path*

@@ -1,0 +1,4 @@
+instance.  In case those methods rely on some internal invariant
+  being true, the type should implement "__new__()" to establish such
+  an invariant, as "__init__()" is not called when unpickling an
+  instance.

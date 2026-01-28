@@ -1,0 +1,5 @@
+con = sqlite3.connect("tutorial.db")
+The returned "Connection" object "con" represents the connection to
+the on-disk database.
+In order to execute SQL statements and fetch results from SQL queries,
+we will need to use a database cursor. Call "con.cursor()" to create

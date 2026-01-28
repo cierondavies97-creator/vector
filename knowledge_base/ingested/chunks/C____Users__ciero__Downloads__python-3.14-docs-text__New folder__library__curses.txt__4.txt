@@ -1,0 +1,5 @@
+Requirements for optional modules.
+Note:
+  Whenever the documentation mentions a *character* it can be
+  specified as an integer, a one-character Unicode string or a one-
+  byte byte string.Whenever the documentation mentions a *character

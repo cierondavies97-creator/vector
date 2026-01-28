@@ -1,0 +1,7 @@
+sinfo:
+         A stack traceback such as is provided by
+         "traceback.print_stack()", showing the call hierarchy.
+      kwargs:
+         Additional keyword arguments.
+Module-Level Attributes
+=======================

@@ -1,0 +1,3 @@
+address description is either a string, a 128-bits integer, a
+      16-bytes packed integer, or an existing "IPv6Address" object;
+      and the netmask is an integer representing the prefix length.

@@ -1,0 +1,4 @@
+based on the default threading mode the underlying SQLite library
+   is compiled with. The SQLite threading modes are:
+   1. **Single-thread**: In this mode, all mutexes are disabled and
+      SQLite is unsafe to use in more than a single thread at once.

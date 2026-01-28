@@ -1,0 +1,6 @@
+have a "close()" method, and it will invoke the *filelike* object's
+   "close()" method when called.
+   Example usage:
+      from io import StringIO
+      from wsgiref.util import FileWrapper
+      # We're using a StringIO-buffer for as the file-like object

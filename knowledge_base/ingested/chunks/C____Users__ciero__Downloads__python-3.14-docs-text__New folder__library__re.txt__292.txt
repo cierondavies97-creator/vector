@@ -1,0 +1,4 @@
+('ID',       r'[A-Za-z]+'),    # Identifiers
+           ('OP',       r'[+\-*/]'),      # Arithmetic operators
+           ('NEWLINE',  r'\n'),           # Line endings
+           ('SKIP',     r'[ \t]+'),       # Skip over spaces and tabs

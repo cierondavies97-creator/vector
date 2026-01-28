@@ -1,0 +1,5 @@
+is raised if "note" is not a string.
+      Added in version 3.11.
+   __notes__
+      A list of the notes of this exception, which were added with
+      "add_note()". This attribute is created when "add_note()" is

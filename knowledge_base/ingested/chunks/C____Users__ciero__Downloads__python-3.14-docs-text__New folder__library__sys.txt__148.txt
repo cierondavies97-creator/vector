@@ -1,0 +1,5 @@
+and later.  Otherwise, "float_repr_style" has value "'legacy'" and
+   "repr(x)" behaves in the same way as it did in versions of Python
+   prior to 3.1.
+   Added in version 3.1.
+sys.getallocatedblocks()

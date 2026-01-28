@@ -1,0 +1,4 @@
+is possible to specify a major and architecture without minor (i.e.
+"/usr/bin/python3-64").
+Changed in version 3.11: The "-64" suffix is deprecated, and now
+implies "any architecture that is not provably i386/32-bit". To

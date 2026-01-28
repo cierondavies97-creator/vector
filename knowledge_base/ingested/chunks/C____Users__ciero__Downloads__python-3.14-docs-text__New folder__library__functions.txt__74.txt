@@ -1,0 +1,6 @@
+about this class.
+   For other containers see the built-in "list", "set", and "tuple"
+   classes, as well as the "collections" module.
+dir()
+dir(object, /)
+   Without arguments, return the list of names in the current local

@@ -1,0 +1,5 @@
+slashes to backward slashes. On other operating systems, return the
+   path unchanged.
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.normpath(path)
+   Normalize a pathname by collapsing redundant separators and up-

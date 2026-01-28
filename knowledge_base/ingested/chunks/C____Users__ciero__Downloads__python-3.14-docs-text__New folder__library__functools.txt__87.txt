@@ -1,0 +1,6 @@
+...     if verbose:
+      ...         print("Enumerate this:")
+      ...     for i, elem in enumerate(arg):
+      ...         print(i, elem)
+      ...
+   For code which doesn't use type annotations, the appropriate type

@@ -1,0 +1,5 @@
+mock. Accessing close creates it. So, if 'close' hasn't already been
+called then accessing it in the test will create it, but
+"assert_called_with()" will raise a failure exception.
+Mocking Classes
+---------------

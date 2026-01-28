@@ -1,0 +1,5 @@
+to.
+   The *mode* argument can be any of "'r'", "'rb'", "'a'", "'ab'",
+   "'w'", "'wb'", "'x'" or "'xb'" for binary mode, or "'rt'", "'at'",
+   "'wt'", or "'xt'" for text mode. The default is "'rb'".
+   The *compresslevel* argument is an integer from 0 to 9, as for the

@@ -1,0 +1,7 @@
+provide features such as containment tests, element index lookup,
+slicing and support for negative indices (see Sequence Types --- list,
+tuple, range):
+>>> r = range(0, 20, 2)
+>>> r
+range(0, 20, 2)
+>>> 11 in r

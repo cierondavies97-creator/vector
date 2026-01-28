@@ -1,0 +1,4 @@
+dataclass.  Accepts either a dataclass, or an instance of a
+   dataclass. Raises "TypeError" if not passed a dataclass or instance
+   of one. Does not return pseudo-fields which are "ClassVar" or
+   "InitVar".

@@ -1,0 +1,4 @@
+Match this path against the provided non-recursive glob-style
+   pattern. Return "True" if matching is successful, "False"
+   otherwise.
+   This method is similar to "full_match()", but empty patterns aren't

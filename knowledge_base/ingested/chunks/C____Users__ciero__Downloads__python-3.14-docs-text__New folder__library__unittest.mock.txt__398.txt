@@ -1,0 +1,8 @@
+...
+   >>> class SomethingForTest(Something):
+   ...   a = 33
+   ...
+   >>> p = patch('__main__.Something', autospec=SomethingForTest)
+   >>> mock = p.start()
+   >>> mock.a
+   <NonCallableMagicMock name='Something.a' spec='int' id='...'>

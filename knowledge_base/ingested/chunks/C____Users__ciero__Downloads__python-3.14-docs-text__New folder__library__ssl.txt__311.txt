@@ -1,0 +1,5 @@
+context.set_psk_client_callback(callback)
+   This method will raise "NotImplementedError" if "HAS_PSK" is
+   "False".
+   Added in version 3.13.
+SSLContext.set_psk_server_callback(callback, identity_hint=None)

@@ -1,0 +1,5 @@
+"create_autospec()" can also be used on classes, where it copies the
+signature of the "__init__" method, and on callable objects where it
+copies the signature of the "__call__" method.
+The Mock Class
+==============

@@ -1,0 +1,9 @@
+ways.
+   >>> '%#o' % 10, '%o' % 10
+   ('0o12', '12')
+   >>> format(10, '#o'), format(10, 'o')
+   ('0o12', '12')
+   >>> f'{10:#o}', f'{10:o}'
+   ('0o12', '12')
+   See also "format()" for more information.
+open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)

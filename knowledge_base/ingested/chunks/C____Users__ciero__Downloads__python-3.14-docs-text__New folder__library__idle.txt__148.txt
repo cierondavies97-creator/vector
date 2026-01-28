@@ -1,0 +1,4 @@
+"python -i" or from an IDLE editor, a ">>>" shell prompt does not
+appear until "mainloop()" returns, at which time there is nothing left
+to interact with.
+When running a tkinter program from an IDLE editor, one can comment

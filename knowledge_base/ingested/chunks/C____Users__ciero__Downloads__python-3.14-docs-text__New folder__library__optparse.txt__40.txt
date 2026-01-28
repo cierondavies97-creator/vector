@@ -1,0 +1,4 @@
+same as multiple options merged into a single argument)
+   * a hyphen followed by a whole word, e.g. "-file" (this is
+     technically equivalent to the previous syntax, but they aren't
+     usually seen in the same program)

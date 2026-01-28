@@ -1,0 +1,4 @@
+arguments are declared.
+   "usage" (default: ""%prog [options]"")
+      The usage summary to print when your program is run incorrectly
+      or with a help option.  When "optparse" prints the usage string,

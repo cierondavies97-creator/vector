@@ -1,0 +1,6 @@
+CHECK(asdl_pattern_seq*, _PyPegen_get_patterns(p, items)),
+               NULL,
+               EXTRA) }
+   items_pattern[asdl_seq*]:
+       | ','.key_value_pattern+
+   key_value_pattern[KeyPatternPair*]:

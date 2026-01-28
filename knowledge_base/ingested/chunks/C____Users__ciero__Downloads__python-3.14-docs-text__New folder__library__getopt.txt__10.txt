@@ -1,0 +1,4 @@
+which require an argument should be followed by an equal sign
+   ("'='"). Long options which accept an optional argument should be
+   followed by an equal sign and question mark ("'=?'"). To accept
+   only long options, *shortopts* should be an empty string.  Long

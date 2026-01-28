@@ -1,0 +1,5 @@
+<re.Match object; span=(0, 1), match='\\'>
+Writing a Tokenizer
+-------------------
+A tokenizer or scanner analyzes a string to categorize groups of
+characters.  This is a useful first step in writing a compiler or

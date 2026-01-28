@@ -1,0 +1,3 @@
+in *data* has been sent or an error occurs.  "None" is returned on
+   success.  On error, an exception is raised. Additionally, there is
+   no way to determine how much data, if any, was successfully

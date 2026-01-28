@@ -1,0 +1,3 @@
+set, language, and value.  "collapse_rfc2231_value()" turns this
+   into a unicode string.  Optional *errors* is passed to the *errors*
+   argument of "str"'s "encode()" method; it defaults to "'replace'".

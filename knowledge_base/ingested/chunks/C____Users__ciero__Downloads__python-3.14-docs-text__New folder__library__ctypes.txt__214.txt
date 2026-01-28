@@ -1,0 +1,5 @@
+misleading.
+Changed in version 3.6: On Linux, the value of the environment
+variable "LD_LIBRARY_PATH" is used when searching for libraries, if a
+library cannot be found by any other means.
+Here are some examples:

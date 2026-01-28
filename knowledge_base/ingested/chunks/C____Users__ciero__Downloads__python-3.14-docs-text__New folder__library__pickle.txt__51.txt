@@ -1,0 +1,4 @@
+binary writing, an "io.BytesIO" instance, or any other custom
+   object that meets this interface.
+   If *fix_imports* is true and *protocol* is less than 3, pickle will
+   try to map the new Python 3 names to the old module names used in

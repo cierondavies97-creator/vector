@@ -1,0 +1,3 @@
+value of this name, and then retrieve the pointer from the Capsule.
+There are many ways in which Capsules can be used to export the C API
+of an extension module. Each function could get its own Capsule, or

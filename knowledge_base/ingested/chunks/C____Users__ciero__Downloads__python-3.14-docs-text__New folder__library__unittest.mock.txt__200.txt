@@ -1,0 +1,5 @@
+the "create_autospec()" function and Autospeccing.
+   Instead of "autospec=True" you can pass "autospec=some_object" to
+   use an arbitrary object as the spec instead of the one being
+   replaced.
+   By default "patch()" will fail to replace attributes that don't

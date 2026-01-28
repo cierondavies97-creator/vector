@@ -1,0 +1,4 @@
+given character and move right (with line wrapping).
+   gather()
+      Return the window contents as a string; whether blanks in the
+      window are included is affected by the "stripspaces" member.

@@ -1,0 +1,4 @@
+dictionary into a regular Zstandard dictionary. "Raw content"
+   dictionaries are a sequence of bytes that do not need to follow the
+   structure of a normal Zstandard dictionary.
+   The *zstd_dict* argument is a "ZstdDict" instance with the

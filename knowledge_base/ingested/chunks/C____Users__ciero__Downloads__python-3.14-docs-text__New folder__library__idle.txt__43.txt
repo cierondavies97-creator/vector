@@ -1,0 +1,3 @@
+General tab of the Configure IDLE dialog.  The maximum height for a
+   screen is determined by momentarily maximizing a window the first
+   time one is zoomed on the screen. Changing screen settings may

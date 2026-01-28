@@ -1,0 +1,5 @@
+the matching subgroup. When there is no match, pops one item (the
+   match type) and pushes "None".
+   Added in version 3.11.
+WITH_EXCEPT_START
+   Calls the function in position 4 on the stack with arguments (type,

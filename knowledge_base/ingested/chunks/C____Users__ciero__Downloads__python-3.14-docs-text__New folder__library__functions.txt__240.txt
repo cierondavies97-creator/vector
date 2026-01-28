@@ -1,0 +1,3 @@
+filename was given, the underlying file descriptor will be kept
+   open when the file is closed.  If a filename is given *closefd*
+   must be "True" (the default); otherwise, an error will be raised.

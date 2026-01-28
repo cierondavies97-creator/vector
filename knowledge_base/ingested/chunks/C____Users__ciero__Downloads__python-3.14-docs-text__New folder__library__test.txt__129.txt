@@ -1,0 +1,4 @@
+Added in version 3.6.
+test.support.skip_if_broken_multiprocessing_synchronize()
+   Skip tests if the "multiprocessing.synchronize" module is missing,
+   if there is no available semaphore implementation, or if creating a

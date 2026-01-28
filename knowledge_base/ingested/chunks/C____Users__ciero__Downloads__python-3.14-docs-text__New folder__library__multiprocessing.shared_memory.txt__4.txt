@@ -1,0 +1,4 @@
+memory permits distinct processes to potentially read and write to a
+common (or shared) region of volatile memory.  Processes are
+conventionally limited to only have access to their own process memory
+space but shared memory permits the sharing of data between processes,

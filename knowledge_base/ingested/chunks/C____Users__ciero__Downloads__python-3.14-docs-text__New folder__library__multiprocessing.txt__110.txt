@@ -1,0 +1,3 @@
+Note: the default behavior will also set "exitcode" to "1" as if
+      an uncaught exception was raised in the child process. To have a
+      different "exitcode" you may simply catch "KeyboardInterrupt"

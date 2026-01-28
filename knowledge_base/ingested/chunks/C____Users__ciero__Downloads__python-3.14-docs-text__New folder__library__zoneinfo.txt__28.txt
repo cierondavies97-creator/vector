@@ -1,0 +1,4 @@
+bytes (e.g. a file opened in binary mode or an "io.BytesIO"
+   object). Unlike the primary constructor, this always constructs a
+   new object.
+   The "key" parameter sets the name of the zone for the purposes of

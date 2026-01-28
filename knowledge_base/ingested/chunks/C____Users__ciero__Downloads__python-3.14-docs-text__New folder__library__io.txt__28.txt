@@ -1,0 +1,4 @@
+*stacklevel* specifies where the warning is emitted. For example:
+      def read_text(path, encoding=None):
+          encoding = io.text_encoding(encoding)  # stacklevel=2
+          with open(path, encoding) as f:

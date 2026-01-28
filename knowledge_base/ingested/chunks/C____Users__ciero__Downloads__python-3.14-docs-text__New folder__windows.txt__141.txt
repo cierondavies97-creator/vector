@@ -1,0 +1,3 @@
+download the package from the Store to reduce the risk of setting up
+conflicting installs. There are no licensing restrictions on the
+Python install manager that would prevent using the Store package in

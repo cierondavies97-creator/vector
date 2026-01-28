@@ -1,0 +1,4 @@
+audio data as a *bytes-like object*, or "None".  Its interpretation
+   depends on the value of *flags*, which can be a bitwise ORed
+   combination of the constants described below. If the *sound*
+   parameter is "None", any currently playing waveform sound is

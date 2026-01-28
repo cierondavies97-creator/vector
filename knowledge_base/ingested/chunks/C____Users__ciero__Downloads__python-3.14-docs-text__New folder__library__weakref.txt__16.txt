@@ -1,0 +1,3 @@
+retrieved by calling the reference object if the referent is still
+   alive; if the referent is no longer alive, calling the reference
+   object will cause "None" to be returned.  If *callback* is provided

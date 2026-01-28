@@ -1,0 +1,4 @@
+| '-=' { _PyPegen_augoperator(p, Sub) }
+       | '*=' { _PyPegen_augoperator(p, Mult) }
+       | '@=' { CHECK_VERSION(AugOperator*, 5, "The '@' operator is", _PyPegen_augoperator(p, MatMult)) }
+       | '/=' { _PyPegen_augoperator(p, Div) }

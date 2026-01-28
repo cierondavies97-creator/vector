@@ -1,0 +1,6 @@
+"http.cookies" modules do not depend on each other.
+  **RFC 2109** - HTTP State Management Mechanism
+     This is the state management specification implemented by this
+     module.
+Cookie Objects
+==============

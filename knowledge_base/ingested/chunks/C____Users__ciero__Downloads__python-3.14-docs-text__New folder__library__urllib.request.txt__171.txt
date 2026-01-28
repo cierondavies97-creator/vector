@@ -1,0 +1,6 @@
+CacheFTPHandler Objects
+=======================
+"CacheFTPHandler" objects are "FTPHandler" objects with the following
+additional methods:
+CacheFTPHandler.setTimeout(t)
+   Set timeout of connections to *t* seconds.

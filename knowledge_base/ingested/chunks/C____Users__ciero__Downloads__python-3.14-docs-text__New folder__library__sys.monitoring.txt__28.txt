@@ -1,0 +1,4 @@
+very inefficient way to return a value, so some Python
+implementations, notably CPython 3.12+, do not raise an exception
+unless it would be visible to other code.
+To allow tools to monitor for real exceptions without slowing down

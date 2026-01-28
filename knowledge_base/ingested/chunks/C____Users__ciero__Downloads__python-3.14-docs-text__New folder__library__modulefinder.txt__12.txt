@@ -1,0 +1,8 @@
+_sre:
+   re._constants:  REPEAT_ONE,makedict,AT_END_LINE
+   sys:
+   re:  __module__,finditer,_expand
+   itertools:
+   __main__:  re,itertools,baconhameggs
+   re._parser:  _PATTERNENDERS,SRE_FLAG_UNICODE
+   array:

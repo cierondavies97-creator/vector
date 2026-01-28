@@ -1,0 +1,3 @@
+a parameter; command dispatch is done on the result. This method
+      returns the window contents as a string; whether blanks in the
+      window are included is affected by the "stripspaces" attribute.

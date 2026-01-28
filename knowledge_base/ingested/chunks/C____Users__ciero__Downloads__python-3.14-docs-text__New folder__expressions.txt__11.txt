@@ -1,0 +1,4 @@
+any name of an attribute being accessed.
+  The "__name__" attribute of nested functions, classes, and type
+  aliases is however not mangled.
+* The name of imported modules, e.g., "__spam" in "import __spam". If

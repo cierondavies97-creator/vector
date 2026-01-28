@@ -1,0 +1,3 @@
+A subclass of "DocTestRunner" that raises an exception as soon as a
+   failure is encountered.  If an unexpected exception occurs, an
+   "UnexpectedException" exception is raised, containing the test, the

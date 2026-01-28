@@ -1,0 +1,4 @@
+The public identifier for the external subset of the document type
+   definition. This will be a string or "None".
+DocumentType.systemId
+   The system identifier for the external subset of the document type

@@ -1,0 +1,4 @@
+values has no effect.
+   To help measure the effectiveness of the cache and tune the
+   *maxsize* parameter, the wrapped function is instrumented with a
+   "cache_info()" function that returns a *named tuple* showing

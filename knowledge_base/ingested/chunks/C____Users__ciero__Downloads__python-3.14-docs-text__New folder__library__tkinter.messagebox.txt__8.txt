@@ -1,0 +1,5 @@
+default value is an empty string.
+      *parent*
+         Makes the specified window the logical parent of the message
+         box. The message box is displayed on top of its parent
+         window.

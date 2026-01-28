@@ -1,0 +1,5 @@
+frame data.
+   Changed in version 3.4: Added support for unseekable files.
+   Wave_write objects have the following methods:
+   close()
+      Make sure *nframes* is correct, and close the file if it was

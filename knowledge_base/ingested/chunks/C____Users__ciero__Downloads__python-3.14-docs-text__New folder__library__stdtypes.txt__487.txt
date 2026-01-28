@@ -1,0 +1,4 @@
+* Single quotes: "b'still allows embedded "double" quotes'"
+   * Double quotes: "b"still allows embedded 'single' quotes""
+   * Triple quoted: "b'''3 single quotes'''", "b"""3 double quotes""""
+   Only ASCII characters are permitted in bytes literals (regardless

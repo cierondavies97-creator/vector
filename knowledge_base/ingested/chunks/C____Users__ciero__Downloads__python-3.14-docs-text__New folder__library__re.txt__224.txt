@@ -1,0 +1,7 @@
+>>> m.group(1)
+      'Malcolm'
+      >>> m.group(2)
+      'Reynolds'
+   If a group matches multiple times, only the last match is
+   accessible:
+      >>> m = re.match(r"(..)+", "a1b2c3")  # Matches 3 times.

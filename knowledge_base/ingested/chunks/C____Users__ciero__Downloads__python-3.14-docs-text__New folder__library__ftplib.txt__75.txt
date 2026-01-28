@@ -1,0 +1,4 @@
+default was changed from Latin-1 to UTF-8 to follow **RFC 2640**.
+   Changed in version 3.12: The deprecated *keyfile* and *certfile*
+   parameters have been removed.
+   Here's a sample session using the "FTP_TLS" class:

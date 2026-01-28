@@ -1,0 +1,5 @@
+# type: (int, int) -> int
+          return a + b
+   "argtypes" is a "list" of expression nodes.
+   "returns" is a single expression node.
+      >>> print(ast.dump(ast.parse('(int, str) -> List[int]', mode='func_type'), indent=4))

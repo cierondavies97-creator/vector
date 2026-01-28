@@ -1,0 +1,4 @@
+MATCH_CLASS(count)
+   "STACK[-1]" is a tuple of keyword attribute names, "STACK[-2]" is
+   the class being matched against, and "STACK[-3]" is the match
+   subject.  *count* is the number of positional sub-patterns.

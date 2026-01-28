@@ -1,0 +1,4 @@
+read([n])
+      Return a "bytes" containing up to *n* bytes starting from the
+      current file position. If the argument is omitted, "None" or
+      negative, return all bytes from the current file position to the

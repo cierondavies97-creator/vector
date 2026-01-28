@@ -1,0 +1,8 @@
+Bad file descriptor error example
+=================================
+Script displaying the first line of itself:
+   import os
+   def main():
+       fp = open(__file__)
+       firstline = fp.readline()
+       print(firstline.rstrip())

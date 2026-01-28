@@ -1,0 +1,3 @@
+|                  | the order in which they appear, or the string "#all".    |
++------------------+----------------------------------------------------------+
+| height           | Specifies the number of rows which should be visible.    |

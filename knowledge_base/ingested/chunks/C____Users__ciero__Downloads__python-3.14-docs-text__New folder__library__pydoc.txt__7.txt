@@ -1,0 +1,4 @@
+Python source file, then documentation is produced for that file.
+Note:
+  In order to find objects and their documentation, "pydoc" imports
+  the module(s) to be documented.  Therefore, any code on module level

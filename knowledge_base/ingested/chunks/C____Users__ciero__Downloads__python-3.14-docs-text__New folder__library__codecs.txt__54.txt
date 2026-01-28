@@ -1,0 +1,3 @@
+|                           | point with formats "\x*hh*" "\u*xxxx*"          |
+|                           | "\U*xxxxxxxx*". On decoding, use hexadecimal    |
+|                           | form of byte value with format "\x*hh*".        |

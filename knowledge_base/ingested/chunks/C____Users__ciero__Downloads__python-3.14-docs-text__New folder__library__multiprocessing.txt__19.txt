@@ -1,0 +1,4 @@
+method on any platform. Code that requires *fork* must
+      explicitly specify that via "get_context()" or
+      "set_start_method()".
+      Changed in version 3.12: If Python is able to detect that your

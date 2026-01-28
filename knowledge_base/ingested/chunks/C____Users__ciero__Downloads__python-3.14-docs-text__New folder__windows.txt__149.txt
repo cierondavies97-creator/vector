@@ -1,0 +1,4 @@
+value to "%CONFIRM%", then that environment variable will be used
+instead.
+Configuration settings that are paths are interpreted as relative to
+the directory containing the configuration file that specified them.

@@ -1,0 +1,4 @@
+sequence, a container that supports iteration, or an iterator
+   object.  If *iterable* is already a list, a copy is made and
+   returned, similar to "iterable[:]". For example, "list('abc')"
+   returns "['a', 'b', 'c']" and "list( (1, 2, 3) )" returns "[1, 2,

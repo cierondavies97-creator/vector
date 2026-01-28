@@ -1,0 +1,4 @@
+attributeref: primary "." identifier
+The primary must evaluate to an object of a type that supports
+attribute references, which most objects do.  This object is then
+asked to produce the attribute whose name is the identifier. The type

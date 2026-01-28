@@ -1,0 +1,5 @@
+generation.
+   Calling "gc.collect(1)" will perform a GC collection on the young
+   generation and an increment of the old generation.
+   Calling "gc.collect(2)" or "gc.collect()" performs a full
+   collection

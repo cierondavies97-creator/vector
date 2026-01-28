@@ -1,0 +1,6 @@
+OptionParser once you are done with it.  This is particularly useful
+in long-running applications where large object graphs are reachable
+from your OptionParser.
+Other methods
+-------------
+OptionParser supports several other public methods:

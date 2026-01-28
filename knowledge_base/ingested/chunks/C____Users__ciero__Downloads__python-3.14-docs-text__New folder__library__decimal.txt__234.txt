@@ -1,0 +1,4 @@
+corresponds to one context flag and one context trap enabler.
+The context flag is set whenever the condition is encountered. After
+the computation, flags may be checked for informational purposes (for
+instance, to determine whether a computation was exact). After

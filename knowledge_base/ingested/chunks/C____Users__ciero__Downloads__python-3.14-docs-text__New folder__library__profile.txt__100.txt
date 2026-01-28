@@ -1,0 +1,5 @@
+Note that the unusual handling of cumulative times in this profiler
+allows statistics for recursive implementations of algorithms to be
+directly compared to iterative implementations.
+Limitations
+===========

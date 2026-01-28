@@ -1,0 +1,5 @@
+exception information, using "formatStack()" to transform it if
+      necessary.
+   formatTime(record, datefmt=None)
+      This method should be called from "format()" by a formatter
+      which wants to make use of a formatted time. This method can be

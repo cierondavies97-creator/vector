@@ -1,0 +1,3 @@
+setting will be used).  If the timeout expires, "TimeoutError" is
+   raised.  The optional *source_address* parameter allows binding to
+   some specific source address in a machine with multiple network

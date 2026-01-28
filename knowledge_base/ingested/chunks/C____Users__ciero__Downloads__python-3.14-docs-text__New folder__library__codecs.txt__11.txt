@@ -1,0 +1,7 @@
+arguments are stored in attributes of the same name:
+   name
+      The name of the encoding.
+   encode
+   decode
+      The stateless encoding and decoding functions. These must be
+      functions or methods which have the same interface as the

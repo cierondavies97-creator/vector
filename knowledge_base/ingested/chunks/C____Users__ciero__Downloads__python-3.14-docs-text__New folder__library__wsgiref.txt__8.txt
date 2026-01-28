@@ -1,0 +1,4 @@
+"https", by checking for a "HTTPS" environment variable in the
+   *environ* dictionary.  The return value is a string.
+   This function is useful when creating a gateway that wraps CGI or a
+   CGI-like protocol such as FastCGI.  Typically, servers providing

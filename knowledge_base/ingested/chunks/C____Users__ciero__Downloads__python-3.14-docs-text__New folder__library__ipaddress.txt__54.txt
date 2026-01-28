@@ -1,0 +1,4 @@
+that the site-local address space has been deprecated by **RFC
+      3879**. Use "is_private" to test if this address is in the space
+      of unique local addresses as defined by **RFC 4193**.
+   ipv4_mapped

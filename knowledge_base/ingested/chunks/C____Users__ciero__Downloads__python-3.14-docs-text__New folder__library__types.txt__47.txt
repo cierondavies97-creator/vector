@@ -1,0 +1,5 @@
+copy()
+      Return a shallow copy of the underlying mapping.
+   get(key[, default])
+      Return the value for *key* if *key* is in the underlying
+      mapping, else *default*.  If *default* is not given, it defaults

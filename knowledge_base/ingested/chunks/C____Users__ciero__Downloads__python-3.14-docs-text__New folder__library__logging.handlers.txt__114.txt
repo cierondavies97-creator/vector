@@ -1,0 +1,4 @@
+text, not bytes, and is prepended to the message exactly as is.
+   encodePriority(facility, priority)
+      Encodes the facility and priority into an integer. You can pass
+      in strings or integers - if strings are passed, internal mapping

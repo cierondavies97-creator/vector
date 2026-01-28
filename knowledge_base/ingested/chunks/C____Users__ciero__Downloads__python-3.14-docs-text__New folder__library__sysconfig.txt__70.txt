@@ -1,0 +1,4 @@
+"get_path_names()".
+   "sysconfig" stores installation paths corresponding to each path
+   name, for each platform, with variables to be expanded.  For
+   instance the *stdlib* path for the *nt* scheme is: "{base}/Lib".

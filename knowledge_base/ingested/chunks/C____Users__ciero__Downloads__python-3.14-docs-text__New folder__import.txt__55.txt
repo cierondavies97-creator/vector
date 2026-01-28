@@ -1,0 +1,4 @@
+imported by traversing the meta path a second time, calling
+"mpf.find_spec("foo.bar", foo.__path__, None)". Once "foo.bar" has
+been imported, the final traversal will call
+"mpf.find_spec("foo.bar.baz", foo.bar.__path__, None)".

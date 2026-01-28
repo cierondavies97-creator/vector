@@ -1,0 +1,4 @@
+"xmlrpc.client" and control the XML-RPC responses that will be
+   returned from the server. The *bind_and_activate* parameter
+   controls whether "server_bind()" and "server_activate()" are called
+   immediately by the constructor; it defaults to true. Setting it to

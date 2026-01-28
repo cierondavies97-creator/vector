@@ -1,0 +1,5 @@
+method, that method is called as a fallback.
+6.3.2. Subscriptions
+--------------------
+The subscription of an instance of a container class will generally
+select an element from the container. The subscription of a *generic

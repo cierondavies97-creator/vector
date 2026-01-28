@@ -1,0 +1,4 @@
+message from a source that can block (such as a socket).  The
+"BytesFeedParser" can of course be used to parse an email message
+fully contained in a *bytes-like object*, string, or file, but the
+"BytesParser" API may be more convenient for such use cases.  The

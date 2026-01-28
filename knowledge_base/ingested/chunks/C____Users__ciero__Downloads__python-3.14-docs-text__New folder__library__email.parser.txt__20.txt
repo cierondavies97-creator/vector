@@ -1,0 +1,5 @@
+carriage return, newline, or carriage return and newline (they
+      can even be mixed).
+   close()
+      Complete the parsing of all previously fed data and return the
+      root message object.  It is undefined what happens if "feed()"

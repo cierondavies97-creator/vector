@@ -1,0 +1,8 @@
+documentation.
+Widget
+======
+"ttk.Widget" defines standard options and methods supported by Tk
+themed widgets and is not supposed to be directly instantiated.
+Standard Options
+----------------
+All the "ttk" Widgets accept the following options:

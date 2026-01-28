@@ -1,0 +1,4 @@
+loggers, in addition to any handlers attached to this logger.
+      Messages are passed directly to the ancestor loggers' handlers -
+      neither the level nor filters of the ancestor loggers in
+      question are considered.

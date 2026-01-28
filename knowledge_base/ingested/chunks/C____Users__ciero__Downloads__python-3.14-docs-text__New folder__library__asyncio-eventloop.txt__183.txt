@@ -1,0 +1,6 @@
+# in general it is preferable to run them in a
+          # process pool.
+          return sum(i * i for i in range(10 ** 7))
+      async def main():
+          loop = asyncio.get_running_loop()
+          ## Options:

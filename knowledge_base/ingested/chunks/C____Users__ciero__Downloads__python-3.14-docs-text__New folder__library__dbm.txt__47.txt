@@ -1,0 +1,5 @@
+dbm.ndbm.open(filename, flag='r', mode=0o666, /)
+   Open an NDBM database and return an "ndbm" object.
+   Parameters:
+      * **filename** (*path-like object*) -- The basename of the
+        database file (without the ".dir" or ".pag" extensions).

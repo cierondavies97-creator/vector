@@ -1,0 +1,6 @@
+to end.
+LexicalHandler Objects
+======================
+Optional SAX2 handler for lexical events.
+This handler is used to obtain lexical information about an XML
+document. Lexical information includes information describing the

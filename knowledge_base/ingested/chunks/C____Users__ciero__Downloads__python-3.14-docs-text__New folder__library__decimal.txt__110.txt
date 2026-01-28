@@ -1,0 +1,4 @@
+"logical_xor()" is a logical operation which takes two *logical
+      operands* (see Logical operands).  The result is the digit-wise
+      exclusive or of the two operands.
+   max(other, context=None)

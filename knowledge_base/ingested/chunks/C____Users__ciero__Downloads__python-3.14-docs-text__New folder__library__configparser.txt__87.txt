@@ -1,0 +1,6 @@
+>>> parser = ConfigParser(interpolation=ExtendedInterpolation())
+     >>> # the default BasicInterpolation could be used as well
+     >>> parser.read_string("""
+     ... [DEFAULT]
+     ... hash = #
+     ...

@@ -1,0 +1,3 @@
+this test has a "__get__()" method, but not a "__set__()" method or
+   a "__delete__()" method.  Beyond that, the set of attributes
+   varies.  A "__name__" attribute is usually sensible, and "__doc__"

@@ -1,0 +1,4 @@
+parser.add_argument('-c', '--count')      # option that takes a value
+   parser.add_argument('-v', '--verbose',
+                       action='store_true')  # on/off flag
+The "ArgumentParser.parse_args()" method runs the parser and places

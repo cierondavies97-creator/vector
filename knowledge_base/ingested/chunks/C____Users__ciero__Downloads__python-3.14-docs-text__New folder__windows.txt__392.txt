@@ -1,0 +1,7 @@
+# Select any '3.*' tagged runtime
+   py -V:3
+   # Select any 'PythonCore' released runtime
+   py -V:PythonCore/
+   # Select PythonCore's latest Python 3 runtime
+   py -V:PythonCore/3
+The short form of the argument ("-3") only ever selects from core

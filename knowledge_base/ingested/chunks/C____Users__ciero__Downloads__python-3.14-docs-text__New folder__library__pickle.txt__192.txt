@@ -1,0 +1,5 @@
+hello world
+   0
+In this example, the unpickler imports the "os.system()" function and
+then apply the string argument "echo hello world".  Although this
+example is inoffensive, it is not difficult to imagine one that could

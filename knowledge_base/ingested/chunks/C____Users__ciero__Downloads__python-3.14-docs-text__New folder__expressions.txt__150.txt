@@ -1,0 +1,5 @@
+proper_slice: [lower_bound] ":" [upper_bound] [ ":" [stride] ]
+   lower_bound:  expression
+   upper_bound:  expression
+   stride:       expression
+There is ambiguity in the formal syntax here: anything that looks like

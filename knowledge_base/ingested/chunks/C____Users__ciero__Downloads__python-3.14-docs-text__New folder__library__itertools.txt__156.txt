@@ -1,0 +1,4 @@
+return len(take(2, groupby(iterable, key))) <= 1
+   # ==== Data pipelines ====
+   def unique_justseen(iterable, key=None):
+       "Yield unique elements, preserving order. Remember only the element just seen."

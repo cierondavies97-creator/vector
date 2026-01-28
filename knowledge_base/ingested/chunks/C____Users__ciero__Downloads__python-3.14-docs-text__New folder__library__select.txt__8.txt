@@ -1,0 +1,5 @@
+inheritable.
+select.epoll(sizehint=-1, flags=0)
+   (Only supported on Linux 2.5.44 and newer.) Return an edge polling
+   object, which can be used as Edge or Level Triggered interface for
+   I/O events.

@@ -1,0 +1,4 @@
+format specifiers and conversions.
+* Format specifiers containing nested replacement fields are evaluated
+  eagerly, prior to being passed to the "Interpolation" object. For
+  instance, an interpolation of the form "{amount:.{precision}f}" will

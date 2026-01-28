@@ -1,0 +1,5 @@
+are stored as strings only.
+* *Deferred evaluation* (default in Python 3.14 and newer; see **PEP
+  649** and **PEP 749**): Annotations are evaluated lazily, only when
+  they are accessed.
+As an example, consider the following program:

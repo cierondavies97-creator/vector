@@ -1,0 +1,4 @@
+When *value* is set to "None", *optlen* argument is required. It's
+   equivalent to call "setsockopt()" C function with "optval=NULL" and
+   "optlen=optlen".
+   Changed in version 3.5: Writable *bytes-like object* is now

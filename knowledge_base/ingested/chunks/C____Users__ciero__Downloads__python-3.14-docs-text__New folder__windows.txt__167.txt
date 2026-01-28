@@ -1,0 +1,2 @@
+|                                                    | default, "Python". This path is relative to the    |
+|                                                    | user's Programs folder.                            |

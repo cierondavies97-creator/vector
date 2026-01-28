@@ -1,0 +1,5 @@
+Changed in version 3.4: Returns "False" if there were any
+      "unexpectedSuccesses" from tests marked with the
+      "expectedFailure()" decorator.
+   stop()
+      This method can be called to signal that the set of tests being

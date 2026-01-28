@@ -1,0 +1,3 @@
+Second, in "tp_dealloc", your object is in an unstable state: its
+  reference count is equal to zero.  Any call to a non-trivial object
+  or API (as in the example above) might end up calling "tp_dealloc"

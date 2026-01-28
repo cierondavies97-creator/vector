@@ -1,0 +1,3 @@
+| "UserString"          | wrapper around string objects for easier string subclassing          |
++-----------------------+----------------------------------------------------------------------+
+"ChainMap" objects

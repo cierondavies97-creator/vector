@@ -1,0 +1,6 @@
+Added in version 3.1.
+   assertIn(member, container, msg=None)
+   assertNotIn(member, container, msg=None)
+      Test that *member* is (or is not) in *container*.
+      Added in version 3.1.
+   assertIsInstance(obj, cls, msg=None)

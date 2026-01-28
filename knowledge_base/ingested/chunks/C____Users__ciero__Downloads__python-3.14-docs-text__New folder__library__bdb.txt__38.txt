@@ -1,0 +1,6 @@
+"break_here()" returns "True".
+   user_return(frame, return_value)
+      Called from "dispatch_return()" when "stop_here()" returns
+      "True".
+   user_exception(frame, exc_info)
+      Called from "dispatch_exception()" when "stop_here()" returns

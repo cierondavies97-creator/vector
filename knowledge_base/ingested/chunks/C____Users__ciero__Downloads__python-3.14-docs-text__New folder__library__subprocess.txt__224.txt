@@ -1,0 +1,5 @@
+>>> subprocess.getstatusoutput('/bin/kill $$')
+      (-15, '')
+   Availability: Unix, Windows.
+   Changed in version 3.3.4: Windows support was added.The function
+   now returns (exitcode, output) instead of (status, output) as it

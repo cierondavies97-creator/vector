@@ -1,0 +1,5 @@
+...
+   >>> test()
+When "patch()" is creating a mock for you, it is common that the first
+thing you need to do is to configure the mock. Some of that
+configuration can be done in the call to patch. Any arbitrary keywords

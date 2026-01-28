@@ -1,0 +1,3 @@
+| to                     | Float value.  If set, this is the maximum value to     |
+|                        | which the increment button will increment.             |
++------------------------+--------------------------------------------------------+

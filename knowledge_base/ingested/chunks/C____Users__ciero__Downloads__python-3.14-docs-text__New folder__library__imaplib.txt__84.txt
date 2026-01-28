@@ -1,0 +1,3 @@
+servers, such as Gmail, accept and produce such flags.  There are
+     non-Python programs which also create such tags.  Although it is
+     an RFC violation and IMAP clients and servers are supposed to be

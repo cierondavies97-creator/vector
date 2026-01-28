@@ -1,0 +1,4 @@
+standard type hierarchy.
+   Raises an auditing event "sys.settrace" with no arguments.
+   **CPython implementation detail:** The "settrace()" function is
+   intended only for implementing debuggers, profilers, coverage tools

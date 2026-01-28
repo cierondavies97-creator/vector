@@ -1,0 +1,4 @@
+file.
+msvcrt.LIBRARIES_ASSEMBLY_NAME_PREFIX
+   The Libraries Assembly name prefix, from the "crtassem.h" header
+   file.

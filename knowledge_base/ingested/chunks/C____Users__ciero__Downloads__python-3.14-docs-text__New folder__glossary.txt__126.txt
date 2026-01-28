@@ -1,0 +1,5 @@
+having an *attached thread state*.
+global state
+   Data that is accessible throughout a program, such as module-level
+   variables, class variables, or C static variables in *extension
+   modules*.  In multi-threaded programs, global state shared between

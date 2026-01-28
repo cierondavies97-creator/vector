@@ -1,0 +1,4 @@
+* prefix_chars - The set of characters that prefix optional
+     arguments (default: '-')
+   * fromfile_prefix_chars - The set of characters that prefix files
+     from which additional arguments should be read (default: "None")

@@ -1,0 +1,8 @@
+tell()
+      Return current file pointer position.
+Wave_write Objects
+==================
+class wave.Wave_write
+   Write a WAV file.
+   Wave_write objects, as returned by "open()".
+   For seekable output streams, the "wave" header will automatically

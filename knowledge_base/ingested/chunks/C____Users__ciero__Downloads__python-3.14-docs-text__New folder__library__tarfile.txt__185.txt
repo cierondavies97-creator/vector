@@ -1,0 +1,7 @@
+Create tarfile from source files.
+-e <tarfile> [<output_dir>]
+--extract <tarfile> [<output_dir>]
+   Extract tarfile into the current directory if *output_dir* is not
+   specified.
+-t <tarfile>
+--test <tarfile>

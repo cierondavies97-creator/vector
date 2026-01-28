@@ -1,0 +1,3 @@
+found, the list of registered search functions is scanned. If no
+   "CodecInfo" object is found, a "LookupError" is raised. Otherwise,
+   the "CodecInfo" object is stored in the cache and returned to the

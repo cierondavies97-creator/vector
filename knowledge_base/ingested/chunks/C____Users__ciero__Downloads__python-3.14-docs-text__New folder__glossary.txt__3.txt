@@ -1,0 +1,4 @@
+be clumsy or subtly wrong (for example with magic methods).  ABCs
+   introduce virtual subclasses, which are classes that don't inherit
+   from a class but are still recognized by "isinstance()" and
+   "issubclass()"; see the "abc" module documentation.  Python comes

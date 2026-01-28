@@ -1,0 +1,6 @@
+Because it never needs to evict old values, this is smaller and
+   faster than "lru_cache()" with a size limit.
+   For example:
+      @cache
+      def factorial(n):
+          return n * factorial(n-1) if n else 1

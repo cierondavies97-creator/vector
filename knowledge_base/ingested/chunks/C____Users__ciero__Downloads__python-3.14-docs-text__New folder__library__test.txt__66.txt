@@ -1,0 +1,4 @@
+*filename* is returned. This does not equal a failure since it
+   could be the path to the file.
+   Setting *subdir* indicates a relative path to use to find the file
+   rather than looking directly in the path directories.

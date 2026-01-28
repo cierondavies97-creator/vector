@@ -1,0 +1,3 @@
+|                    | Raise a "FileExistsError" exception if it     |
+   |                    | already exists.                               |
+   +--------------------+-----------------------------------------------+

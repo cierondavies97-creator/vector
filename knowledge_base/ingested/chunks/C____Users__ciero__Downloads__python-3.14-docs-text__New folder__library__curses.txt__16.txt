@@ -1,0 +1,5 @@
+- 1".  Return a 3-tuple, containing the R,G,B values for the given
+   color, which will be between "0" (no component) and "1000" (maximum
+   amount of component).
+curses.color_pair(pair_number)
+   Return the attribute value for displaying text in the specified

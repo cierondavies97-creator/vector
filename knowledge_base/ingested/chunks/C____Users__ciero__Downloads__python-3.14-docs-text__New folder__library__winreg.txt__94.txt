@@ -1,0 +1,4 @@
+All registry functions in this module return one of these objects.
+All registry functions in this module which accept a handle object
+also accept an integer, however, use of the handle object is
+encouraged.

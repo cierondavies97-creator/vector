@@ -1,0 +1,5 @@
+with the "TEXT" data type. By default, this attribute is set to
+      "str".
+      See How to handle non-UTF-8 text encodings for more details.
+   total_changes
+      Return the total number of database rows that have been

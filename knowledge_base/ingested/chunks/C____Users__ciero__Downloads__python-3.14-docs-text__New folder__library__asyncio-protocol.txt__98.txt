@@ -1,0 +1,5 @@
+def __init__(self, message, on_con_lost):
+           self.message = message
+           self.on_con_lost = on_con_lost
+       def connection_made(self, transport):
+           transport.write(self.message.encode())

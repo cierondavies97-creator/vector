@@ -1,0 +1,3 @@
+parameters are the same as for "TCPServer".
+class socketserver.UnixStreamServer(server_address, RequestHandlerClass, bind_and_activate=True)
+class socketserver.UnixDatagramServer(server_address, RequestHandlerClass, bind_and_activate=True)

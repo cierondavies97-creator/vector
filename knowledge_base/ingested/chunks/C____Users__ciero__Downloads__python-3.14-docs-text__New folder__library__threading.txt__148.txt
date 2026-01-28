@@ -1,0 +1,4 @@
+be a floating-point number specifying a timeout for the
+      operation in seconds (or fractions thereof).
+      When the underlying lock is an "RLock", it is not released using
+      its "release()" method, since this may not actually unlock the

@@ -1,0 +1,6 @@
+operators can only be applied between compatible objects (i.e. IPv4
+with IPv4, IPv6 with IPv6).
+Logical operators
+~~~~~~~~~~~~~~~~~
+Interface objects can be compared with the usual set of logical
+operators.

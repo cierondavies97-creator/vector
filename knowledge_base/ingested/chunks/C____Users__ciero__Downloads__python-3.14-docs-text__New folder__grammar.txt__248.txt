@@ -1,0 +1,3 @@
+RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "at least one argument must precede /") }
+       | (lambda_slash_no_default | lambda_slash_with_default) lambda_param_maybe_default* a='/' {
+           RAISE_SYNTAX_ERROR_KNOWN_LOCATION(a, "/ may appear only once") }

@@ -1,0 +1,3 @@
+Unicode string, based on the definition of canonical equivalence
+   and compatibility equivalence. In Unicode, several characters can
+   be expressed in various way. For example, the character U+00C7

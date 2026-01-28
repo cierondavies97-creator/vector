@@ -1,0 +1,4 @@
+* **narg** (*int*) -- The number of arguments the SQL
+           function can accept. If "-1", it may take any number of
+           arguments.
+         * **func** (*callback* | None) -- A *callable* that is called

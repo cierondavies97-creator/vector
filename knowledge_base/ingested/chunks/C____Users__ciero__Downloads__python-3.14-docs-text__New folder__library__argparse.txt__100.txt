@@ -1,0 +1,5 @@
+consumed.
+   * const - A constant value required by some action and nargs
+     selections.
+   * default - The value produced if the argument is absent from the
+     command line and if it is absent from the namespace object.

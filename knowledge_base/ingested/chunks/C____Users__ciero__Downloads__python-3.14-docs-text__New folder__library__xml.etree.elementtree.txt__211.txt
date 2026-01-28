@@ -1,0 +1,4 @@
+"TreeBuilder" is used. If *encoding* [1] is given, the value
+   overrides the encoding specified in the XML file.
+   Changed in version 3.8: Parameters are now keyword-only. The *html*
+   argument is no longer supported.

@@ -1,0 +1,5 @@
+example, "AI_NUMERICHOST" will disable domain name resolution and
+   will raise an error if *host* is a domain name.
+   The function returns a list of 5-tuples with the following
+   structure:
+   "(family, type, proto, canonname, sockaddr)"

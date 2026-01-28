@@ -1,0 +1,4 @@
+"x < y" and "not x >= y" (for total ordering)
+     "x > y" and "not x <= y" (for total ordering)
+  The last two expressions apply to totally ordered collections (e.g.
+  to sequences, but not to sets or mappings). See also the

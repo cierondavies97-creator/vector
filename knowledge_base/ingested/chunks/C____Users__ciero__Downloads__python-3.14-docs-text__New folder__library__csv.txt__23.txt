@@ -1,0 +1,5 @@
+Dialects and Formatting Parameters.
+csv.unregister_dialect(name)
+   Delete the dialect associated with *name* from the dialect
+   registry.  An "Error" is raised if *name* is not a registered
+   dialect name.

@@ -1,0 +1,3 @@
+source timestamp and size embedded will be generated. The "checked-
+   hash" and "unchecked-hash" values cause hash-based pycs to be
+   generated. Hash-based pycs embed a hash of the source file contents

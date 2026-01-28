@@ -1,0 +1,5 @@
+"fold" set to 1.
+classmethod datetime.utcfromtimestamp(timestamp)
+   Return the UTC "datetime" corresponding to the POSIX timestamp,
+   with "tzinfo" "None".  (The resulting object is naive.)
+   This may raise "OverflowError", if the timestamp is out of the

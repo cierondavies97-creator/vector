@@ -1,0 +1,4 @@
+See About Execution Policies for more information.
+The created "pyvenv.cfg" file also includes the "include-system-site-
+packages" key, set to "true" if "venv" is run with the "--system-site-
+packages" option, "false" otherwise.

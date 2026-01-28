@@ -1,0 +1,9 @@
+>>> def ValidHandle(value):
+   ...     if value == 0:
+   ...         raise WinError()
+   ...     return value
+   ...
+   >>>
+   >>> GetModuleHandle.restype = ValidHandle
+   >>> GetModuleHandle(None)
+   486539264

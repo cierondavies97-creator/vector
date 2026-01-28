@@ -1,0 +1,5 @@
+error encountered by an "xmlparser" object, and will only have correct
+values once a call to "Parse()" or "ParseFile()" has raised an
+"xml.parsers.expat.ExpatError" exception.
+xmlparser.ErrorByteIndex
+   Byte index at which an error occurred.

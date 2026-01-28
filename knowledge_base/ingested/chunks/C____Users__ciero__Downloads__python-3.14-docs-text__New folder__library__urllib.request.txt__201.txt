@@ -1,0 +1,5 @@
+output from urlencode is encoded to bytes before it is sent to urlopen
+as data:
+   >>> import urllib.request
+   >>> import urllib.parse
+   >>> data = urllib.parse.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})

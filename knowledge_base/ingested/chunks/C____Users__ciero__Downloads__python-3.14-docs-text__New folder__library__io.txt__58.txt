@@ -1,0 +1,6 @@
+isatty()
+      Return "True" if the stream is interactive (i.e., connected to a
+      terminal/tty device).
+   readable()
+      Return "True" if the stream can be read from. If "False",
+      "read()" will raise "OSError".

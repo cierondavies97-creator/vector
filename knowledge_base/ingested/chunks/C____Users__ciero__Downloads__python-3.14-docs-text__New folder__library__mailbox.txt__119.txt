@@ -1,0 +1,6 @@
+Reading Mail with Rmail
+     The Rmail manual, with some information on Babyl semantics.
+"MMDF" objects
+--------------
+class mailbox.MMDF(path, factory=None, create=True)
+   A subclass of "Mailbox" for mailboxes in MMDF format. Parameter

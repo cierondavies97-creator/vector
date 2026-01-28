@@ -1,0 +1,4 @@
+in an encoding other than UTF-8 is likely incorrect, since UTF-8 is
+   the default encoding of XML.
+   The *standalone* argument behaves exactly as in "writexml()".
+   Changed in version 3.8: The "toxml()" method now preserves the

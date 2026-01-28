@@ -1,0 +1,9 @@
+import asyncio
+   import functools
+   import os
+   import signal
+   def ask_exit(signame, loop):
+       print("got signal %s: exit" % signame)
+       loop.stop()
+   async def main():
+       loop = asyncio.get_running_loop()

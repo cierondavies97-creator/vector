@@ -1,0 +1,5 @@
+Complementary-Multiply-with-Carry recipe for a compatible
+  alternative random number generator with a long period and
+  comparatively simple update operations.
+Note:
+  The global random number generator and instances of "Random" are

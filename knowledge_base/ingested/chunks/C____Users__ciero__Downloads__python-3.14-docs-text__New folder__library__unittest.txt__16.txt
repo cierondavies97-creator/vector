@@ -1,0 +1,4 @@
+expected result; "assertTrue()" or "assertFalse()" to verify a
+condition; or "assertRaises()" to verify that a specific exception
+gets raised.  These methods are used instead of the "assert" statement
+so the test runner can accumulate all test results and produce a

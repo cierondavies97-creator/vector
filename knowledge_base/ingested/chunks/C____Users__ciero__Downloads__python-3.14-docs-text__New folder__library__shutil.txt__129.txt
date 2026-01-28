@@ -1,0 +1,5 @@
+argument;
+   * possibly a *filter* keyword argument, if it was given to
+     "unpack_archive()";
+   * additional keyword arguments, specified by *extra_args* as a
+     sequence of "(name, value)" tuples.

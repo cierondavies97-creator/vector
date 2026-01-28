@@ -1,0 +1,4 @@
+offs and benefits of simplicity, flexibility, and/or extensibility.
+String objects have one unique built-in operation: the "%" operator
+(modulo). This is also known as the string *formatting* or
+*interpolation* operator. Given "format % values" (where *format* is a

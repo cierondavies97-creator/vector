@@ -1,0 +1,4 @@
+serve_forever(poll_interval=0.5)
+      Handle requests until an explicit "shutdown()" request.  Poll
+      for shutdown every *poll_interval* seconds. Ignores the
+      "timeout" attribute.  It also calls "service_actions()", which

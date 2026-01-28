@@ -1,0 +1,4 @@
+"ImportError" with a suitably descriptive message.  The following
+   is a (possibly incomplete) list of conditions which will raise an
+   error:
+   * A "level" which is not a string or which is a string not

@@ -1,0 +1,5 @@
+Sets the public identifier of this "InputSource".
+InputSource.getPublicId()
+   Returns the public identifier of this "InputSource".
+InputSource.setSystemId(id)
+   Sets the system identifier of this "InputSource".

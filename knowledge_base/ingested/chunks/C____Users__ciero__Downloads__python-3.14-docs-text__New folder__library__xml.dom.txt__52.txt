@@ -1,0 +1,3 @@
+*self* element's start-tag.  Of course, XML documents are made up
+   of more than just elements so the previous sibling could be text, a
+   comment, or something else. If this node is the first child of the

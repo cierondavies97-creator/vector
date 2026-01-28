@@ -1,0 +1,4 @@
+For performance reasons, the value of *errors* is not checked for
+   validity unless an encoding error actually occurs, Python
+   Development Mode is enabled or a debug build is used. For example:
+      >>> encoded_str_to_bytes = 'Python'.encode()

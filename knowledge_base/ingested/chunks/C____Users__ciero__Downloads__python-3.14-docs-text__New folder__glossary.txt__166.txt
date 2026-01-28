@@ -1,0 +1,5 @@
+containing even hex numbers (0x..) in the range from 0 to 255. The
+   "if" clause is optional.  If omitted, all elements in "range(256)"
+   are processed.
+lock
+   A *synchronization primitive* that allows only one thread at a time

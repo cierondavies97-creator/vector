@@ -1,0 +1,2 @@
+|                                                    | Changed in version 3.14: Annotations are now       |
+|                                                    | lazily evaluated. See **PEP 649**.                 |

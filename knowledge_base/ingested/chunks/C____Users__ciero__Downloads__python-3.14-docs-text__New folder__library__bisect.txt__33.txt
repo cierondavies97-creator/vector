@@ -1,0 +1,6 @@
+...     Movie('Titanic', 1997, 'Cameron'),
+   ...     Movie('The Birds', 1963, 'Hitchcock'),
+   ...     Movie('Aliens', 1986, 'Cameron')
+   ... ]
+   >>> # Find the first movie released after 1960
+   >>> by_year = attrgetter('released')

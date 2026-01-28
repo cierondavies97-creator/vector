@@ -1,0 +1,2 @@
+|                                                    | Note that only the built-in configuration file and |
+|                                                    | the registry can modify this setting.              |

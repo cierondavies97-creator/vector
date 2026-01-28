@@ -1,0 +1,5 @@
+attributes simple?  There are only a couple of conditions that must be
+met:
+1. The name of the attributes must be known when "PyType_Ready()" is
+   called.
+2. No special processing is needed to record that an attribute was

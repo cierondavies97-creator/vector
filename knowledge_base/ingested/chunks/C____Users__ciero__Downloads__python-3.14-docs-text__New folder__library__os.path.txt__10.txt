@@ -1,0 +1,5 @@
+returns "'bar'", the "basename()" function returns an empty string
+   ("''").
+   Changed in version 3.6: Accepts a *path-like object*.
+os.path.commonpath(paths)
+   Return the longest common sub-path of each pathname in the iterable

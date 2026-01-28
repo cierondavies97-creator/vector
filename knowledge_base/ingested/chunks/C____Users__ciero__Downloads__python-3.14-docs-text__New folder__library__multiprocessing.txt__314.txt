@@ -1,0 +1,4 @@
+"multiprocessing.Manager()".
+   Its methods create and return Proxy Objects for a number of
+   commonly used data types to be synchronized across processes. This
+   notably includes shared lists and dictionaries.

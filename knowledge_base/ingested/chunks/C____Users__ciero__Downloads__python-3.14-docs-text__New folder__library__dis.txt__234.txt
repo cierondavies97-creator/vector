@@ -1,0 +1,5 @@
+SETUP_WITH(target)
+   Like "SETUP_CLEANUP", but in case of an exception one more item is
+   popped from the stack before control is transferred to the
+   exception handler at "target".
+   This variant is used in "with" and "async with" constructs, which

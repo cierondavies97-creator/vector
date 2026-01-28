@@ -1,0 +1,4 @@
+current working directory, and OS functions such as
+   "AddDllDirectory" having no effect.In 3.8, the two primary ways
+   DLLs are loaded now explicitly override the process-wide behavior
+   to ensure consistency. See the porting notes for information on

@@ -1,0 +1,4 @@
+Display the exception that just occurred.  We remove the first
+   stack item because it is within the interpreter object
+   implementation. The output is written by the "write()" method.
+   Changed in version 3.5: The full chained traceback is displayed

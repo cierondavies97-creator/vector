@@ -1,0 +1,6 @@
+@enum.member
+   A decorator for use in enums: its target will become a member.
+   Added in version 3.11.
+@enum.nonmember
+   A decorator for use in enums: its target will not become a member.
+   Added in version 3.11.

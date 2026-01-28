@@ -1,0 +1,5 @@
+Element.setAttribute(name, value)
+   Set an attribute value from a string.
+Element.setAttributeNode(newAttr)
+   Add a new attribute node to the element, replacing an existing
+   attribute if necessary if the "name" attribute matches.  If a

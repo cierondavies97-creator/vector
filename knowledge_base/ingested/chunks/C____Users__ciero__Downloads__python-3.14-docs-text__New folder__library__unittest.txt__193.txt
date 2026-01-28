@@ -1,0 +1,3 @@
+| "assertStartsWith(a, b)"                | "a.startswith(b)"                | 3.14           |
+   +-----------------------------------------+----------------------------------+----------------+
+   | "assertNotStartsWith(a, b)"             | "not a.startswith(b)"            | 3.14           |

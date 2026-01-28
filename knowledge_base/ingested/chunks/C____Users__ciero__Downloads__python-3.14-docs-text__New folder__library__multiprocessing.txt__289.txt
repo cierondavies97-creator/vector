@@ -1,0 +1,8 @@
+49
+   0.1111111111111111
+   HELLO WORLD
+   [(3.515625, 39.0625), (33.0625, 4.0), (5.640625, 90.25)]
+Managers
+--------
+Managers provide a way to create data which can be shared between
+different processes, including sharing over a network between

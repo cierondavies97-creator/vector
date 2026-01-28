@@ -1,0 +1,4 @@
+enabling reparse deferral.
+   Note that "SetReparseDeferralEnabled()" has been backported to some
+   prior releases of CPython as a security fix.  Check for
+   availability of "SetReparseDeferralEnabled()" using "hasattr()" if

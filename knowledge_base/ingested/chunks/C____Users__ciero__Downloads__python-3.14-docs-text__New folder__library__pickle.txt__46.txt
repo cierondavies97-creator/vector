@@ -1,0 +1,5 @@
+"Pickler". It inherits from "PickleError".
+   Refer to What can be pickled and unpickled? to learn what kinds of
+   objects can be pickled.
+exception pickle.UnpicklingError
+   Error raised when there is a problem unpickling an object, such as

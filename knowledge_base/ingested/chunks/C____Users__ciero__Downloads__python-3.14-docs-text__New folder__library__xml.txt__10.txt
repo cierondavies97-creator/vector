@@ -1,0 +1,5 @@
+results in several gigabytes of text and consumes lots of memory
+   and CPU time.
+quadratic blowup entity expansion
+   A quadratic blowup attack is similar to a Billion Laughs attack; it
+   abuses entity expansion, too. Instead of nested entities it repeats

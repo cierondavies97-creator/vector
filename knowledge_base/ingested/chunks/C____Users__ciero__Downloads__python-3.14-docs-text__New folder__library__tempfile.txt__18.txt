@@ -1,0 +1,3 @@
+deleted on context manager exit only, or else when the *file-like
+   object* is finalized. Deletion is not always guaranteed in this
+   case (see "object.__del__()"). If *delete* is false, the value of

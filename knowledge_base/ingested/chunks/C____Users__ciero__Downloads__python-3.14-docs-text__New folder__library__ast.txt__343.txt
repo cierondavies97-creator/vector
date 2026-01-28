@@ -1,0 +1,3 @@
+literal or container display.  The string or node provided may only
+   consist of the following Python literal structures: strings, bytes,
+   numbers, tuples, lists, dicts, sets, booleans, "None" and

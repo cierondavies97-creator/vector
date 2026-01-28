@@ -1,0 +1,6 @@
+(supported only in "cProfile" module. see Context Manager Types):
+      import cProfile
+      with cProfile.Profile() as pr:
+          # ... do something ...
+          pr.print_stats()
+   Changed in version 3.8: Added context manager support.

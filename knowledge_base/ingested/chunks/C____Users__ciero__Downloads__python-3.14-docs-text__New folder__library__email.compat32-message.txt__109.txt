@@ -1,0 +1,4 @@
+coerced to lower case.  If there is no *Content-Type* header, or
+      if that header has no "charset" parameter, *failobj* is
+      returned.
+      Note that this method differs from "get_charset()" which returns

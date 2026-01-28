@@ -1,0 +1,4 @@
+mmap.MAP_UNIX03
+   These are the various flags that can be passed to "mmap.mmap()".
+   "MAP_ALIGNED_SUPER" is only available at FreeBSD and "MAP_CONCEAL"
+   is only available at OpenBSD.  Note that some options might not be

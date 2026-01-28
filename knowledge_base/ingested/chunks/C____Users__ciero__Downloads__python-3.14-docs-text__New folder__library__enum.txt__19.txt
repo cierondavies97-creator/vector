@@ -1,0 +1,6 @@
+======================================================================
+Data Types
+==========
+class enum.EnumType
+   *EnumType* is the *metaclass* for *enum* enumerations.  It is
+   possible to subclass *EnumType* -- see Subclassing EnumType for

@@ -1,0 +1,4 @@
+bound on long-running processes such as web servers.
+   In general, the LRU cache should only be used when you want to
+   reuse previously computed values.  Accordingly, it doesn't make
+   sense to cache functions with side-effects, functions that need to

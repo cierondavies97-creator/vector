@@ -1,0 +1,5 @@
+descending order is properly selected based on the sort key of
+      choice.
+   print_stats(*restrictions)
+      This method for the "Stats" class prints out a report as
+      described in the "profile.run()" definition.

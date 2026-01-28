@@ -1,0 +1,3 @@
+"SOURCES.txt") is missing, "files()" will return "None". The caller
+may wish to wrap calls to "files()" in always_iterable or otherwise
+guard against this condition if the target distribution is not known

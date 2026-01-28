@@ -1,0 +1,7 @@
+sock.listen(5)
+       with context.wrap_socket(sock, server_side=True) as ssock:
+           conn, addr = ssock.accept()
+           ...
+Context creation
+----------------
+A convenience function helps create "SSLContext" objects for common

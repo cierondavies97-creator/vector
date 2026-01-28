@@ -1,0 +1,5 @@
+"tty" --- Terminal control functions
+************************************
+**Source code:** Lib/tty.py
+======================================================================
+The "tty" module defines functions for putting the tty into cbreak and

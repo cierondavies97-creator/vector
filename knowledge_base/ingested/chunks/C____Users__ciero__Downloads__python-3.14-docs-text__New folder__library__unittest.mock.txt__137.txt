@@ -1,0 +1,6 @@
+>>> asyncio.run(main())
+      >>> mock.assert_awaited_once()
+      Traceback (most recent call last):
+      ...
+      AssertionError: Expected mock to have been awaited once. Awaited 2 times.
+   assert_awaited_with(*args, **kwargs)

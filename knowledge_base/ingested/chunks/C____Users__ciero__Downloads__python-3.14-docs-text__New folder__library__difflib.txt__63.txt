@@ -1,0 +1,3 @@
+argument function that takes a sequence element and returns true if
+   and only if the element is "junk" and should be ignored. Passing
+   "None" for *isjunk* is equivalent to passing "lambda x: False"; in

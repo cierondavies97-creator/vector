@@ -1,0 +1,4 @@
+This class is identical to "HTTPSServer" but uses threads to handle
+   requests by inheriting from "ThreadingMixIn". This is analogous to
+   "ThreadingHTTPServer" only using "HTTPSServer".
+   Added in version 3.14.

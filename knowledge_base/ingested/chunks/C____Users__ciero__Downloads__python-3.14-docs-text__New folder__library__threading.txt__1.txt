@@ -1,0 +1,7 @@
+lower level "_thread" module.
+Availability: not WASI.
+This module does not work or is not available on WebAssembly. See
+WebAssembly platforms for more information.
+Introduction
+============
+The "threading" module provides a way to run multiple threads (smaller

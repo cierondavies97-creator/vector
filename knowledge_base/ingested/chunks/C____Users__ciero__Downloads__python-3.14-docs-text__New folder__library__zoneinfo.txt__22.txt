@@ -1,0 +1,5 @@
+silently ignore the erroneous component or raise an exception.
+To set the system to ignore the system data and use the tzdata package
+instead, set "PYTHONTZPATH=""".
+Runtime configuration
+~~~~~~~~~~~~~~~~~~~~~

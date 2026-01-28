@@ -1,0 +1,5 @@
+bit, set-group-id, and set-user-id bits (on systems that support
+   them).
+stat.S_IFMT(mode)
+   Return the portion of the file's mode that describes the file type
+   (used by the "S_IS*()" functions above).

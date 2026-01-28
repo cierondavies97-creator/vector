@@ -1,0 +1,5 @@
+default value of 10, 1% of the old generation is scanned during
+   each collection.
+   *threshold2* is ignored.
+   See Garbage collector design for more information.
+   Changed in version 3.14: *threshold2* is ignored

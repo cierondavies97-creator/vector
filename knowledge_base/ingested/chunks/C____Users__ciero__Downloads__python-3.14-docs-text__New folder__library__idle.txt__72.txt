@@ -1,0 +1,4 @@
+text without opening a box.
+Invoking 'Show Completions', or hitting "Tab" after a prefix, outside
+of a string and without a preceding '.' opens a box with keywords,
+builtin names, and available module-level names.

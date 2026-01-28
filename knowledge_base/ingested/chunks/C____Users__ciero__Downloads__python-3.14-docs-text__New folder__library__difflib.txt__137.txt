@@ -1,0 +1,7 @@
+"+ " lines; use ndiff with -r2; or, on Unix, the second file can be
+   recovered by piping the output through
+       sed -n '/^[+ ] /s/^..//p'
+   """
+   __version__ = 1, 7, 0
+   import difflib, sys
+   def fail(msg):

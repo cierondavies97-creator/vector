@@ -1,0 +1,4 @@
+these functions return; it's simply that these functions do not
+provide a parser implementation themselves.
+You can also create a "Document" by calling a method on a "DOM
+Implementation" object.  You can get this object either by calling the

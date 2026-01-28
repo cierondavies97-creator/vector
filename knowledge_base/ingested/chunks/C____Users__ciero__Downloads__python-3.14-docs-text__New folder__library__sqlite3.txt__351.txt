@@ -1,0 +1,4 @@
+handling using explicit SQL statements. The underlying SQLite library
+autocommit mode can be queried using the "in_transaction" attribute.
+The "executescript()" method implicitly commits any pending
+transaction before execution of the given SQL script, regardless of

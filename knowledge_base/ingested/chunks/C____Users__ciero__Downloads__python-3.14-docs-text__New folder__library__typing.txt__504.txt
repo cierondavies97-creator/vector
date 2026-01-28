@@ -1,0 +1,6 @@
+to safely retrieve the annotations without raising "NameError".
+   Added in version 3.5.2.
+Deprecated aliases
+------------------
+This module defines several deprecated aliases to pre-existing
+standard library classes. These were originally included in the

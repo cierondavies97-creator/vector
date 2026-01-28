@@ -1,0 +1,6 @@
+instance becomes the first argument.
+a class instance:
+   The class must define a "__call__()" method; the effect is then the
+   same as if that method was called.
+6.4. Await expression
+=====================

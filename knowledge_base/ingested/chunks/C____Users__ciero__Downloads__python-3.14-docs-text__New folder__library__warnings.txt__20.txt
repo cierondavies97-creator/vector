@@ -1,0 +1,3 @@
+|                                    | default).                                       |
++------------------------------------+-------------------------------------------------+
+| "ImportWarning"                    | Base category for warnings triggered during the |

@@ -1,0 +1,3 @@
+contains the path of the actual binary in the "Frameworks" folder,
+   relative to the app bundle. To allow for resolving a framework-
+   packaged binary back to the original location, the framework is

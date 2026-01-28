@@ -1,0 +1,3 @@
+key.  One part of the key is public, and is called the *public key*;
+the other part is kept secret, and is called the *private key*.  The
+two parts are related, in that if you encrypt a message with one of

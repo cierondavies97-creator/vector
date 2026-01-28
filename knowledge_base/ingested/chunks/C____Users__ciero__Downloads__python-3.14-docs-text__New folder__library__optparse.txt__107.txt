@@ -1,0 +1,4 @@
+"optparse" converts the destination variable name to uppercase and
+  uses that for the meta-variable.  Sometimes, that's not what you
+  want---for example, the "--filename" option explicitly sets
+  "metavar="FILE"", resulting in this automatically generated option

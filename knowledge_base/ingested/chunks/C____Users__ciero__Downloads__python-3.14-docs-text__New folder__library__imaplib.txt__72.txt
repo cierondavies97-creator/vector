@@ -1,0 +1,5 @@
+Raises an auditing event "imaplib.send" with arguments "self",
+   "data".
+IMAP4.setacl(mailbox, who, what)
+   Set an "ACL" for *mailbox*. The method is non-standard, but is
+   supported by the "Cyrus" server.

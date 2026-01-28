@@ -1,0 +1,4 @@
+function is decorated with the "contextlib.contextmanager" decorator,
+it will return a context manager implementing the necessary
+"__enter__()" and "__exit__()" methods, rather than the iterator
+produced by an undecorated generator function.

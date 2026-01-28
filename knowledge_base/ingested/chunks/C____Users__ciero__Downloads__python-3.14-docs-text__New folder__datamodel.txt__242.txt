@@ -1,0 +1,2 @@
+| codeobject.co_cellvars                             | A "tuple" containing the names of local variables  |
+|                                                    | that are referenced from at least one *nested      |

@@ -1,0 +1,7 @@
+above:
+   >>> temp0, temp1 = rc.b, rc.a
+   >>> rc.a = temp0
+   >>> rc.b = temp1
+   >>>
+Note that "temp0" and "temp1" are objects still using the internal
+buffer of the "rc" object above. So executing "rc.a = temp0" copies

@@ -1,0 +1,5 @@
+>>> b = pickle.loads(europe_berlin_pkl_nc)
+      >>> a is b
+      False
+3. "ZoneInfo.from_file(file_obj, /, key=None)": When constructed from
+   a file, the "ZoneInfo" object raises an exception on pickling. If

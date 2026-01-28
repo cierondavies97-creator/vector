@@ -1,0 +1,7 @@
+Here's what "optparse"-based scripts usually look like:
+   from optparse import OptionParser
+   ...
+   def main():
+       usage = "usage: %prog [options] arg"
+       parser = OptionParser(usage)
+       parser.add_option("-f", "--file", dest="filename",

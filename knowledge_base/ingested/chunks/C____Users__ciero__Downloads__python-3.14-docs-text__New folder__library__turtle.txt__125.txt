@@ -1,0 +1,5 @@
+(r2,g2,b2))"
+      Equivalent to "pencolor(colorstring1)" and
+      "fillcolor(colorstring2)" and analogously if the other input
+      format is used.
+   If turtleshape is a polygon, outline and interior of that polygon

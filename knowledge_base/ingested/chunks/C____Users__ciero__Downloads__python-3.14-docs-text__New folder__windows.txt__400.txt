@@ -1,0 +1,4 @@
+installed, try changing the first line to "#! python3.7" and you
+should find the 3.7 version information printed.
+Note that unlike interactive use, a bare "python" will use the latest
+version of Python 2.x that you have installed.  This is for backward

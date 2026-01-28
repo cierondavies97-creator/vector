@@ -1,0 +1,4 @@
+math.trunc(x)
+   Return *x* with the fractional part removed, leaving the integer
+   part.  This rounds toward 0: "trunc()" is equivalent to "floor()"
+   for positive *x*, and equivalent to "ceil()" for negative *x*. If

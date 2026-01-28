@@ -1,0 +1,7 @@
+used.
+   See also:
+     "pathlib.PurePath.full_match()" and "pathlib.Path.glob()"
+     methods, which call this function to implement pattern matching
+     and globbing.
+   Added in version 3.13.
+Examples

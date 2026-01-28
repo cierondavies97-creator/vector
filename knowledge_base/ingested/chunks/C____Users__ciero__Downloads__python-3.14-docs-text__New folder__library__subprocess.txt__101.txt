@@ -1,0 +1,5 @@
+execution of the subprocess.
+   Availability: POSIX
+   Changed in version 3.11: *process_group* was added.
+   If *group* is not "None", the setregid() system call will be made
+   in the child process prior to the execution of the subprocess. If

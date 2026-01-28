@@ -1,0 +1,5 @@
+on success; zero was returned on error under Windows.  A zero
+      value was returned on success; an exception was raised on error
+      under Unix.
+   madvise(option[, start[, length]])
+      Send advice *option* to the kernel about the memory region

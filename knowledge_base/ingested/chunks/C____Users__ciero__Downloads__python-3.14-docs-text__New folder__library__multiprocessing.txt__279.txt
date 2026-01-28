@@ -1,0 +1,3 @@
+of the object it wraps: "get_obj()" returns the wrapped object and
+   "get_lock()" returns the lock object used for synchronization.
+   Note that accessing the ctypes object through the wrapper can be a

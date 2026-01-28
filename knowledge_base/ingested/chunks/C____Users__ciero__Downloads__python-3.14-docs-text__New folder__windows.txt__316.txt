@@ -1,0 +1,5 @@
+the defaults.
+The following options (found by executing the installer with "/?") can
+be passed into the installer:
++-----------------------+----------------------------------------------------------+
+| Name                  | Description                                              |

@@ -1,0 +1,4 @@
+is received in the HTTP protocol from the server.
+exception http.client.RemoteDisconnected
+   A subclass of "ConnectionResetError" and "BadStatusLine".  Raised
+   by "HTTPConnection.getresponse()" when the attempt to read the

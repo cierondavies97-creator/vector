@@ -1,0 +1,7 @@
+>>> parser.parse_args(['--foon'])
+   usage: PROG [-h] [--foobar] [--foonley]
+   PROG: error: unrecognized arguments: --foon
+Added in version 3.5.
+conflict_handler
+----------------
+"ArgumentParser" objects do not allow two actions with the same option

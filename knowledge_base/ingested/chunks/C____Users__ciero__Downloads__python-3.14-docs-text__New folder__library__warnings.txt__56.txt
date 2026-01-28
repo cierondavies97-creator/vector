@@ -1,0 +1,7 @@
+interpreter can be used as a marker to indicate whether or not
+warnings should be disabled:
+   import sys
+   if not sys.warnoptions:
+       import warnings
+       warnings.simplefilter("ignore")
+Developers of test runners for Python code are advised to instead

@@ -1,0 +1,5 @@
+will again become the original input stream.  Source requests may
+   be stacked any number of levels deep.
+shlex.debug
+   If this attribute is numeric and "1" or more, a "shlex" instance
+   will print verbose progress output on its behavior.  If you need to

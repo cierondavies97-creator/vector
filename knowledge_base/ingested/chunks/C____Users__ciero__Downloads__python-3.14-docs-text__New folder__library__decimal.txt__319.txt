@@ -1,0 +1,4 @@
+is to re-run calculations using greater precision and with various
+rounding modes. Widely differing results indicate insufficient
+precision, rounding mode issues, ill-conditioned inputs, or a
+numerically unstable algorithm.

@@ -1,0 +1,5 @@
+whenever a logger with the 'propagate' attribute set to false is
+      found - that will be the last logger which is checked for the
+      existence of handlers.
+      Added in version 3.2.
+   Changed in version 3.7: Loggers can now be pickled and unpickled.

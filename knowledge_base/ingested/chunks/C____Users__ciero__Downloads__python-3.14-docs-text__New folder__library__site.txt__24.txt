@@ -1,0 +1,5 @@
+Note that for some non-Unix systems, "sys.prefix" and
+"sys.exec_prefix" are empty, and the path manipulations are skipped;
+however the import of "sitecustomize" and "usercustomize" is still
+attempted.
+Readline configuration

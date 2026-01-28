@@ -1,0 +1,3 @@
+A subclass of "HTTPConnection" that uses SSL for communication with
+   secure servers.  Default port is "443".  If *context* is specified,
+   it must be a "ssl.SSLContext" instance describing the various SSL

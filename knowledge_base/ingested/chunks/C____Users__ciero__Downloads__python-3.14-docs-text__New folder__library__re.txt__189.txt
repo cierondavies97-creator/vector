@@ -1,0 +1,3 @@
+Exception raised when a string passed to one of the functions here
+   is not a valid regular expression (for example, it might contain
+   unmatched parentheses) or when some other error occurs during

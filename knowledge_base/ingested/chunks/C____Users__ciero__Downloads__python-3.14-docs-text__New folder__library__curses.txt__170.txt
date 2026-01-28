@@ -1,0 +1,4 @@
+character overwrites the old contents of *destwin*.
+   To get fine-grained control over the copied region, the second form
+   of "overwrite()" can be used. *sminrow* and *smincol* are the
+   upper-left coordinates of the source window, the other variables

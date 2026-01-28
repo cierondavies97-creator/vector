@@ -1,0 +1,9 @@
+22.0
+      >>> turtle.right(45)
+      >>> turtle.heading()
+      337.0
+turtle.left(angle)
+turtle.lt(angle)
+   Parameters:
+      **angle** -- a number (integer or float)
+   Turn turtle left by *angle* units.  (Units are by default degrees,

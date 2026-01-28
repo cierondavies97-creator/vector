@@ -1,0 +1,3 @@
+name, or a *file object* opened for writing.  *encoding* [1] is
+      the output encoding (default is US-ASCII). *xml_declaration*
+      controls if an XML declaration should be added to the file.  Use

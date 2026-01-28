@@ -1,0 +1,4 @@
+------------------------------------------------
+By default, Structure and Union fields are laid out in the same way
+the C compiler does it.  It is possible to override this behavior
+entirely by specifying a "_layout_" class attribute in the subclass

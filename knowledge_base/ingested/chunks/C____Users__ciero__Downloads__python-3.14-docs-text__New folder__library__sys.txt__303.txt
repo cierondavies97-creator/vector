@@ -1,0 +1,6 @@
+Note:
+     Tracing is disabled while calling the trace function (e.g. a
+     function set by "settrace()"). For recursive tracing see
+     "call_tracing()".
+   The events have the following meaning:
+   "'call'"

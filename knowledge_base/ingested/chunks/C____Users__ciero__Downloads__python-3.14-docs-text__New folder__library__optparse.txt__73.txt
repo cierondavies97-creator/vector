@@ -1,0 +1,5 @@
+store it in an attribute of "options".
+If you don't specify an option action, "optparse" defaults to "store".
+The store action
+----------------
+The most common option action is "store", which tells "optparse" to

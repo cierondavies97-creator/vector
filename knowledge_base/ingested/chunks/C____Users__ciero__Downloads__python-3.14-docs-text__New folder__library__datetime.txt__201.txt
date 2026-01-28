@@ -1,0 +1,4 @@
+local time in the time zone *tz*, representing the same UTC time as
+   *self*:  after "astz = dt.astimezone(tz)", "astz -
+   astz.utcoffset()" will have the same date and time data as "dt -
+   dt.utcoffset()".

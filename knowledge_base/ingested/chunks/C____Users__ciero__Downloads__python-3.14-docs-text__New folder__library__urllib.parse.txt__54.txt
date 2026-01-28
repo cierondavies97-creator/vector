@@ -1,0 +1,4 @@
+originally had unnecessary delimiters (for example, a "?" with an
+   empty query; the RFC states that these are equivalent).
+urllib.parse.urlsplit(urlstring, scheme='', allow_fragments=True)
+   This is similar to "urlparse()", but does not split the params from

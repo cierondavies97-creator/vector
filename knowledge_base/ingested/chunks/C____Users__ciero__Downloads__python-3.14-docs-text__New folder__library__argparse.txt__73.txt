@@ -1,0 +1,4 @@
+string.  By default, "ArgumentParser" objects raise an exception if an
+attempt is made to create an argument with an option string that is
+already in use:
+   >>> parser = argparse.ArgumentParser(prog='PROG')

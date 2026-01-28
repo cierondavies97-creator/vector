@@ -1,0 +1,5 @@
+return zip_longest(*iterators, fillvalue=fillvalue)
+           case 'strict':
+               return zip(*iterators, strict=True)
+           case 'ignore':
+               return zip(*iterators)

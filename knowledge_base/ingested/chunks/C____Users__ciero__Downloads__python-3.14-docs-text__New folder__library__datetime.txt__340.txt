@@ -1,0 +1,6 @@
+dt.weekday(), 0, 0)
+           stamp = _time.mktime(tt)
+           tt = _time.localtime(stamp)
+           return tt.tm_isdst > 0
+   Local = LocalTimezone()
+   # A complete implementation of current DST rules for major US time zones.

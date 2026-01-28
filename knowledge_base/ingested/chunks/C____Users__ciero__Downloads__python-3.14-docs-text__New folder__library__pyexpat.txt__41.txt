@@ -1,0 +1,5 @@
+practice. In particular, the activation threshold should be
+   carefully chosen to avoid false positives.
+   By default, parser objects have a maximum amplification factor of
+   100.0.
+   An "ExpatError" is raised if this method is called on a non-root

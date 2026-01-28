@@ -1,0 +1,3 @@
+*function* is true.  *iterable* may be either a sequence, a
+   container which supports iteration, or an iterator.  If *function*
+   is "None", the identity function is assumed, that is, all elements

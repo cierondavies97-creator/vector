@@ -1,0 +1,5 @@
+If *pad* is true, the input is padded with "b'\0'" so its length is
+   a multiple of 4 bytes before encoding.
+   Added in version 3.4.
+base64.b85decode(b)
+   Decode the base85-encoded *bytes-like object* or ASCII string *b*

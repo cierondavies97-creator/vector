@@ -1,0 +1,3 @@
+editing keystrokes until one of the termination keystrokes is
+      entered.  If *validator* is supplied, it must be a function.  It
+      will be called for each keystroke entered with the keystroke as

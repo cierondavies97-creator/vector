@@ -1,0 +1,3 @@
+HTTP server.  It should be instantiated by passing it a host and
+   optional port number.  If no port number is passed, the port is
+   extracted from the host string if it has the form "host:port", else

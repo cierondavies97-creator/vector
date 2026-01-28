@@ -1,0 +1,5 @@
+int_info.sizeof_digit
+      The size in bytes of the C type used to represent a digit.
+   int_info.default_max_str_digits
+      The default value for "sys.get_int_max_str_digits()" when it is
+      not otherwise explicitly configured.

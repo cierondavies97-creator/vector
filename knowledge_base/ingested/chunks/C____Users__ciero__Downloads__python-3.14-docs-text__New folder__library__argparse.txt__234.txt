@@ -1,0 +1,6 @@
+>>> # invalid type
+   >>> parser.parse_args(['--foo', 'spam'])
+   usage: PROG [-h] [--foo FOO] [bar]
+   PROG: error: argument --foo: invalid int value: 'spam'
+   >>> # invalid option
+   >>> parser.parse_args(['--bar'])

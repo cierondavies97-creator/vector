@@ -1,0 +1,4 @@
+To get the field's value, read the storage unit as an integer,
+      shift left by "bit_offset" and take the "bit_size" least
+      significant bits.
+      For non-bitfields, "bit_offset" is zero and "bit_size" is equal

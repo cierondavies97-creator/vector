@@ -1,0 +1,5 @@
+Make an iterator that drops elements from the *iterable* while the
+   *predicate* is true and afterwards returns every element.  Roughly
+   equivalent to:
+      def dropwhile(predicate, iterable):
+          # dropwhile(lambda x: x<5, [1,4,6,3,8]) → 6 3 8

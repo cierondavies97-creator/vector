@@ -1,0 +1,3 @@
+is a "bytes" object representing the new file descriptors as a
+   binary array of the native C int type.  If "recvmsg()" raises an
+   exception after the system call returns, it will first attempt to

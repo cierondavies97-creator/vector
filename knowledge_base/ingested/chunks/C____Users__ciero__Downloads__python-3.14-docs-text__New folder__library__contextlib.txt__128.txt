@@ -1,0 +1,5 @@
+managers as function decorators: there's no way to access the return
+value of "__enter__()". If that value is needed, then it is still
+necessary to use an explicit "with" statement.
+See also:
+  **PEP 343** - The "with" statement

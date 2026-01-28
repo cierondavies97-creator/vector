@@ -1,0 +1,6 @@
+An ABC with one abstract method "__abs__" that is covariant in its
+   return type.
+class typing.SupportsBytes
+   An ABC with one abstract method "__bytes__".
+class typing.SupportsComplex
+   An ABC with one abstract method "__complex__".

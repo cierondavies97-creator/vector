@@ -1,0 +1,4 @@
+ancestor of *item*. Note that not specifying *newchildren*
+      results in detaching *item*'s children.
+   column(column, option=None, **kw)
+      Query or modify the options for the specified *column*.

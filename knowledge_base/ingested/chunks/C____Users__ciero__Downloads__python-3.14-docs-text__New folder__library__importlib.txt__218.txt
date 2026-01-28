@@ -1,0 +1,4 @@
+You can get the same effect as this function by implementing the
+   basic interface of multi-phase init (**PEP 489**) and lying about
+   support for multiple interpreters (or per-interpreter GIL).
+   Warning:

@@ -1,0 +1,6 @@
+class.
+   For other containers see the built-in "set", "list", "tuple", and
+   "dict" classes, as well as the "collections" module.
+getattr(object, name, /)
+getattr(object, name, default, /)
+   Return the value of the named attribute of *object*.  *name* must

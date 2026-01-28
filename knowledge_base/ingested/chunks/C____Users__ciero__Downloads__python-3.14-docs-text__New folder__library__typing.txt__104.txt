@@ -1,0 +1,5 @@
+Nominal vs structural subtyping
+===============================
+Initially **PEP 484** defined the Python static type system as using
+*nominal subtyping*. This means that a class "A" is allowed where a
+class "B" is expected if and only if "A" is a subclass of "B".

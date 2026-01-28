@@ -1,0 +1,3 @@
+"dict". For example, "list[int]" is a "GenericAlias" object created by
+subscripting the "list" class with the argument "int". "GenericAlias"
+objects are intended primarily for use with *type annotations*.

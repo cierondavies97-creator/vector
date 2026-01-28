@@ -1,0 +1,3 @@
+"assertWarns()".  The test passes if *warning* is triggered and
+      fails if it isn't.  Any exception is an error. To catch any of a
+      group of warnings, a tuple containing the warning classes may be

@@ -1,0 +1,3 @@
+"noutrefresh()" methods of a pad require 6 arguments to specify the
+   part of the pad to be displayed and the location on the screen to
+   be used for the display. The arguments are *pminrow*, *pmincol*,

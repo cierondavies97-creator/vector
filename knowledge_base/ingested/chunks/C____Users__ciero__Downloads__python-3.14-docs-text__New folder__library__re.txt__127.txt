@@ -1,0 +1,4 @@
+matching is enabled by default for Unicode (str) patterns and it
+     is able to handle different locales and languages.
+   Changed in version 3.6: "LOCALE" can be used only with bytes
+   patterns and is not compatible with "ASCII".

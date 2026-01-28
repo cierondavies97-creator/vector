@@ -1,0 +1,4 @@
+specified in a number of standards (POSIX.1, Unix 95, Unix 98, and
+   others).  Some platforms define additional names as well.  The
+   names known to the host operating system are given in the
+   "pathconf_names" dictionary.  For configuration variables not

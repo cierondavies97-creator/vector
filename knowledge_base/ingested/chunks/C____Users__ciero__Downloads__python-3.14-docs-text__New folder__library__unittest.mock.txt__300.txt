@@ -1,0 +1,4 @@
+* Asynchronous iteration methods: "__aiter__" and "__anext__"
+Changed in version 3.8: Added support for "os.PathLike.__fspath__()".
+Changed in version 3.8: Added support for "__aenter__", "__aexit__",
+"__aiter__" and "__anext__".

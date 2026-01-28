@@ -1,0 +1,4 @@
+access to the value.  If *lock* is "False" then access to the
+   returned object will not be automatically protected by a lock, so
+   it will not necessarily be "process-safe".
+   Operations like "+=" which involve a read and write are not atomic.

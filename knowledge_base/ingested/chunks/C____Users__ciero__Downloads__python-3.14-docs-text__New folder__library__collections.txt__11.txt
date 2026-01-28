@@ -1,0 +1,5 @@
+is no other state.
+   Lookups search the underlying mappings successively until a key is
+   found.  In contrast, writes, updates, and deletions only operate on
+   the first mapping.
+   A "ChainMap" incorporates the underlying mappings by reference.

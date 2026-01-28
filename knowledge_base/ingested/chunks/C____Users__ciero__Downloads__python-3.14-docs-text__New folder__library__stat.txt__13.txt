@@ -1,0 +1,6 @@
+def visitfile(file):
+       print('visiting', file)
+   if __name__ == '__main__':
+       walktree(sys.argv[1], visitfile)
+An additional utility function is provided to convert a file's mode in
+a human readable string:

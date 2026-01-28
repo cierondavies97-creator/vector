@@ -1,0 +1,4 @@
+object with a "fileno()" method that returns an integer.  File
+   objects implement "fileno()", so they can also be used as the
+   argument.
+   *eventmask* is an optional bitmask describing the type of events

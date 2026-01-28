@@ -1,0 +1,7 @@
+of "int", "float", "bytes", "str", "dict", "set", "frozenset",
+  "list" and "tuple".
+Here is a simple example where we allow pickling and reconstructing a
+given class:
+   import io
+   import pickle
+   class MyClass:

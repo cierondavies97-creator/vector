@@ -1,0 +1,4 @@
+whereas Tkinter doesn't use names but object references.
+* A widget's place in the widget hierarchy is encoded in its
+  (hierarchical) pathname, which uses a "." (dot) as a path separator.
+  The pathname for the root window is just "." (dot). In Tkinter, the
