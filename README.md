@@ -55,6 +55,29 @@ Chunk files into overlapping =
 
 Embed chunks using MiniLM and store with path metadata in FAISS
 
+🧭 RAG Indexing Stages (current implementation)
+
+1) Data collection
+   - Files are collected from the selected workspace directory (recursive scan).
+2) Cleaning
+   - Lightweight normalization is applied during chunking (trim + collapsed whitespace).
+3) Document chunking
+   - Heading-aware semantic chunking creates bounded, semantically meaningful chunks.
+4) Tagging with metadata
+   - Each chunk gets a `.meta.json` sidecar with source/type tags and structural fields.
+5) Embedding
+   - Chunks are embedded locally with MiniLM (optionally enriched with type/source hints).
+6) Vector storage
+   - Embeddings are stored in FAISS and linked back to chunk IDs + metadata.
+
+🧩 Factor Indexing (state atoms for planners)
+
+Retrieved items are treated as **state atoms** (factors) rather than raw text. Each
+retrieved chunk carries inspectable fields such as `namespace`, `source_type`,
+`doc_type`, `heading`, `section_path`, and tags, which enables symbolic policies
+to reason over the retrieval state (e.g., prefer peer-reviewed sources, require
+multiple independent facts, or downweight opinionated content).
+
 🧠 Memory and Querying
 
 When a question is asked:
