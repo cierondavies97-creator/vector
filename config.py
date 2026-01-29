@@ -25,6 +25,8 @@ class AppConfig:
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     embedding_device: str = "cpu"          # "cpu" or "cuda"
     embedding_batch_size: int = 32
+    embedding_enrichment_enabled: bool = False
+    embedding_enrichment_kind: str = "knowledge"
 
     # -------------------------
     # Memory / FAISS
