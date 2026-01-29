@@ -25,6 +25,7 @@ from openpyxl import load_workbook
 from pptx import Presentation
 
 from semantic_chunker import semantic_chunk
+from embedding_enrichment import enrich_for_embedding
 
 
 # ============================================================
@@ -95,6 +96,7 @@ class Chunk:
     id: str
     source: str
     text: str
+    metadata: dict
 
 
 # ============================================================
@@ -256,7 +258,7 @@ class IndexingPipeline:
 
             for j, sc in enumerate(structured):
                 cid = f"{doc.path}:{j}"
-                chunks.append(Chunk(cid, doc.path, sc["text"]))
+                chunks.append(Chunk(cid, doc.path, sc["text"], sc.get("metadata", {})))
 
         sink.log(Stage.CHUNK, f"Created {len(chunks)} chunks")
         return chunks
@@ -274,6 +276,11 @@ class IndexingPipeline:
 
             safe = c.id.replace(":", "__").replace("/", "__").replace("\\", "__")
             (self.chunk_path / f"{safe}.txt").write_text(c.text, encoding="utf-8")
+            metadata = self._build_chunk_metadata(c)
+            (self.chunk_path / f"{safe}.meta.json").write_text(
+                json.dumps(metadata, indent=2),
+                encoding="utf-8",
+            )
 
             if i % 250 == 0 or i == len(chunks):
                 sink.step(Stage.STORE, i, len(chunks))
@@ -289,6 +296,15 @@ class IndexingPipeline:
         sink.stage(Stage.INDEX, total, "Embedding & indexing")
 
         mapping = {c.id: c.text for c in chunks}
+        if self.memory_engine.config.embedding_enrichment_enabled:
+            mapping = {
+                cid: enrich_for_embedding(
+                    text=text,
+                    kind=self.memory_engine.config.embedding_enrichment_kind,
+                    source=cid.split(":", 1)[0],
+                )
+                for cid, text in mapping.items()
+            }
 
         # ---- embedding progress ----
         def progress_cb(cur: int, total: int, msg: str):
@@ -359,3 +375,63 @@ class IndexingPipeline:
                 return path.read_text()
 
         return ""
+
+    # --------------------------------------------------------
+    # Metadata
+    # --------------------------------------------------------
+
+    def _infer_source_type(self, path: Path) -> str:
+        parts = {p.lower() for p in path.parts}
+        if {"peer_reviewed", "peer-reviewed", "journal", "papers", "paper"} & parts:
+            return "peer_reviewed"
+        if {"opinion", "opinions", "commentary", "blog", "editorial"} & parts:
+            return "opinionated"
+        if {"factual", "facts", "fact"} & parts:
+            return "factual"
+        return "general"
+
+    def _build_chunk_metadata(self, chunk: Chunk) -> dict:
+        source_path = Path(chunk.source)
+        source_type = self._infer_source_type(source_path)
+        doc_type = source_path.suffix.lstrip(".").lower() or "unknown"
+
+        file_meta = self.meta["files"].get(source_path.as_posix(), {})
+        source_hash = file_meta.get("hash")
+        source_mtime = file_meta.get("mtime")
+
+        chunk_index = int(chunk.id.rsplit(":", 1)[-1])
+        is_overview = chunk_index == 0
+
+        tags = [
+            "namespace:file",
+            f"source_type:{source_type}",
+            f"doc_type:{doc_type}",
+        ]
+
+        heading = chunk.metadata.get("heading")
+        heading_level = chunk.metadata.get("heading_level")
+        section_path = chunk.metadata.get("section_path") or []
+
+        return {
+            "source_path": source_path.as_posix(),
+            "chunk_index": chunk_index,
+            "heading": heading,
+            "heading_level": heading_level,
+            "section_path": section_path,
+            "source_type": source_type,
+            "doc_type": doc_type,
+            "source_hash": source_hash,
+            "source_mtime": source_mtime,
+            "is_overview": is_overview,
+            "tags": tags,
+            "factors": {
+                "namespace": "file",
+                "source_type": source_type,
+                "doc_type": doc_type,
+                "source_path": source_path.as_posix(),
+                "chunk_index": chunk_index,
+                "heading": heading,
+                "heading_level": heading_level,
+                "section_path": section_path,
+            },
+        }
