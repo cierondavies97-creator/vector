@@ -15,6 +15,7 @@ from pptx import Presentation
 
 from config import AppConfig
 from memory_engine import MemoryEngine
+from indexing_pipeline import IndexingPipeline, ProgressSink
 
 
 @dataclass(frozen=True)
@@ -56,31 +57,47 @@ class FileHandler:
         debug_cb: DebugCallback | None = None,
     ) -> IngestStats:
 
-        def debug(msg: str):
-            if debug_cb:
-                debug_cb(msg)
+        def emit(event):
+            if event.debug:
+                if debug_cb:
+                    debug_cb(event.message)
+                return
 
-        root = Path(workspace_path)
+            if progress_cb and event.total:
+                progress_cb(
+                    event.current,
+                    event.total,
+                    f"{event.stage.value}: {event.message}",
+                )
 
-        # 1. DISCOVER
-        candidates = self._discover_files(root, debug)
+        pipeline = IndexingPipeline(
+            self.memory_engine,
+            self.config.knowledge_base_path(),
+            chunk_size=self.config.chunk_size,
+            overlap=self.config.chunk_overlap,
+        )
 
-        # 2. FILTER
-        candidates = self._filter_files(candidates, debug)
+        stats = pipeline.run(Path(workspace_path), ProgressSink(emit))
+        if not stats:
+            return IngestStats(
+                processed=0,
+                skipped=0,
+                candidate_files=0,
+                parse_seconds=0.0,
+                embedding_seconds=0.0,
+                faiss_seconds=0.0,
+                chunk_count=0,
+            )
 
-        # 3. PARSE
-        documents = self._parse_files(candidates, progress_cb, debug)
-
-        # 4. CHUNK
-        chunks = self._chunk_documents(documents, debug)
-
-        # 5. STORE
-        self._store_chunks(chunks, debug)
-
-        # 6. INDEX
-        index_stats = self._build_index(chunks, debug)
-
-        return index_stats
+        return IngestStats(
+            processed=stats.chunk_count,
+            skipped=0,
+            candidate_files=stats.chunk_count,
+            parse_seconds=0.0,
+            embedding_seconds=stats.embedding_seconds,
+            faiss_seconds=stats.faiss_seconds,
+            chunk_count=stats.chunk_count,
+        )
 
     # =========================
     # STAGE 1 — DISCOVER

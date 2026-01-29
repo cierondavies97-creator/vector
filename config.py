@@ -32,6 +32,7 @@ class AppConfig:
     # Memory / FAISS
     # -------------------------
     memory_top_k: int = 10                 # ← FIXES YOUR ERROR
+    memory_core_top_k: int = 15
     memory_min_score: float = 0.0          # optional, future-safe
 
     # -------------------------
