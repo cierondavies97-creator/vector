@@ -148,9 +148,13 @@ class VectorApp(tk.Tk):
         self.memory.bind("<Button-1>", self._on_left_click)
         self.memory.bind("<Button-3>", self._on_right_click)
 
-        tk.Label(right, text="Concept Heatmap").pack(anchor="w", pady=(6, 0))
-        self.heatmap_box = tk.Text(right, height=6)
-        self.heatmap_box.pack(fill=tk.X)
+        tk.Label(right, text="Knowledge Heatmap").pack(anchor="w", pady=(6, 0))
+        self.heatmap_box_files = tk.Text(right, height=6)
+        self.heatmap_box_files.pack(fill=tk.X)
+
+        tk.Label(right, text="Memory Heatmap").pack(anchor="w", pady=(6, 0))
+        self.heatmap_box_core = tk.Text(right, height=6)
+        self.heatmap_box_core.pack(fill=tk.X)
 
         self.context_menu = tk.Menu(self, tearoff=0)
         self.context_menu.add_command(label="📌 Pin / Unpin Item", command=self._ctx_toggle_pin)
@@ -482,16 +486,27 @@ class VectorApp(tk.Tk):
 
 
     def _render_concept_heatmap(self):
-        self.heatmap_box.delete("1.0", tk.END)
-        heatmap = self.last_debug.get("concept_heatmap") or {}
+        self._render_heatmap_box(
+            self.heatmap_box_files,
+            self.last_debug.get("concept_heatmap_files") or {},
+            empty_message="No semantic concepts triggered in knowledge.\n",
+        )
+        self._render_heatmap_box(
+            self.heatmap_box_core,
+            self.last_debug.get("concept_heatmap_memory_core") or {},
+            empty_message="No semantic concepts triggered in memory.\n",
+        )
+
+    def _render_heatmap_box(self, box: tk.Text, heatmap: dict, empty_message: str):
+        box.delete("1.0", tk.END)
 
         if not heatmap:
-            self.heatmap_box.insert(tk.END, "No semantic concepts triggered.\n")
+            box.insert(tk.END, empty_message)
             return
 
         for concept, data in heatmap.items():
             bar = "█" * int(data["normalized_dominance"] * 10)
-            self.heatmap_box.insert(
+            box.insert(
                 tk.END,
                 f"{concept.replace('concept:', ''):<22} "
                 f"{bar:<10} "
@@ -514,7 +529,8 @@ class VectorApp(tk.Tk):
                 self.assistant.clear_chat()
                 self.response.delete("1.0", tk.END)
                 self.memory.delete("1.0", tk.END)
-                self.heatmap_box.delete("1.0", tk.END)
+                self.heatmap_box_files.delete("1.0", tk.END)
+                self.heatmap_box_core.delete("1.0", tk.END)
                 self._refresh_pinned_panel()
 
     def _summarize_chat_to_memory(self):

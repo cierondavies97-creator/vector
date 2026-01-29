@@ -299,6 +299,8 @@ class Assistant:
         # -------------------------------------------------
 
         concept_heatmap = self._build_concept_heatmap(retrieved)
+        concept_heatmap_files = self._build_concept_heatmap(file_items)
+        concept_heatmap_memory_core = self._build_concept_heatmap(core_items)
 
         # -------------------------------------------------
         # Prompt assembly
@@ -414,6 +416,8 @@ class Assistant:
 
             # Semantic diagnostics
             "concept_heatmap": concept_heatmap,
+            "concept_heatmap_files": concept_heatmap_files,
+            "concept_heatmap_memory_core": concept_heatmap_memory_core,
         }
 
         stats = TokenStats(0, 0, 0.0)
