@@ -230,6 +230,45 @@ class Assistant:
         return heatmap
 
 
+    def _apply_score_gate(
+        self,
+        items: List[RetrievedItem],
+        *,
+        min_score: float,
+    ) -> List[RetrievedItem]:
+        if min_score <= 0.0:
+            return items
+        return [item for item in items if item.score >= min_score]
+
+    def _format_retrieved_context(
+        self,
+        items: List[RetrievedItem],
+    ) -> str:
+        lines: list[str] = []
+        for item in items:
+            meta = item.metadata or {}
+            heading = meta.get("heading")
+            section_path = meta.get("section_path") or []
+            tags = meta.get("tags", [])
+
+            header_parts = [
+                f"namespace={item.namespace}",
+                f"source={item.source_path}",
+                f"chunk_id={item.chunk_id}",
+            ]
+            if heading:
+                header_parts.append(f"heading={heading}")
+            if section_path:
+                header_parts.append(f"section_path={' > '.join(section_path)}")
+            if tags:
+                header_parts.append(f"tags={', '.join(tags)}")
+
+            lines.append(f"[{item.rank}] " + " | ".join(header_parts))
+            lines.append(item.text)
+            lines.append("")
+
+        return "\n".join(lines).strip()
+
 
     # =====================================================
     # Answer (cycle-free intelligence)
@@ -260,7 +299,7 @@ class Assistant:
             retrieved.extend(
                 self.memory_engine.debug_search_files(
                     search_query,
-                    top_k=30,
+                    top_k=self.config.memory_top_k,
                 )
             )
 
@@ -268,9 +307,14 @@ class Assistant:
             retrieved.extend(
                 self.memory_engine.debug_search_memory_core(
                     query,
-                    top_k=15,
+                    top_k=self.config.memory_core_top_k,
                 )
             )
+
+        retrieved = self._apply_score_gate(
+            retrieved,
+            min_score=self.config.memory_min_score,
+        )
 
         # -------------------------------------------------
         # Tier 3 — Reranking / semantic weighting
@@ -286,8 +330,13 @@ class Assistant:
         # Namespace split (UI + debug)
         # -------------------------------------------------
 
-        file_items = [i for i in retrieved if i.namespace == "file"]
-        core_items = [i for i in retrieved if i.namespace == "memory_core"]
+        file_items = [
+            i for i in retrieved if i.namespace == "file"
+        ][: self.config.memory_top_k]
+        core_items = [
+            i for i in retrieved if i.namespace == "memory_core"
+        ][: self.config.memory_core_top_k]
+        retrieved = file_items + core_items
 
         # -------------------------------------------------
         # Pinned context (cycle-free)
@@ -324,6 +373,18 @@ class Assistant:
                 {
                     "role": "system",
                     "content": f"Pinned context (always apply):\n{ctx}",
+                }
+            )
+
+        if retrieved:
+            ctx = self._format_retrieved_context(retrieved)
+            messages.append(
+                {
+                    "role": "system",
+                    "content": (
+                        "Retrieved context (cite and prioritize when relevant):\n"
+                        f"{ctx}"
+                    ),
                 }
             )
 

@@ -159,8 +159,9 @@ class IndexingPipeline:
         self._store(chunks, sink)
         if self._cancelled(): return
 
-        self._index(chunks, sink)
+        stats = self._index(chunks, sink)
         self._save_meta()
+        return stats
 
     # --------------------------------------------------------
     # Metadata
@@ -291,7 +292,7 @@ class IndexingPipeline:
     # Index (Embedding + FAISS)
     # --------------------------------------------------------
 
-    def _index(self, chunks: list[Chunk], sink: ProgressSink):
+    def _index(self, chunks: list[Chunk], sink: ProgressSink) -> IndexStats:
         total = len(chunks)
         sink.stage(Stage.INDEX, total, "Embedding & indexing")
 
@@ -331,6 +332,11 @@ class IndexingPipeline:
             f"Embedding done | chunks={stats.chunk_count} "
             f"embed={stats.embedding_seconds:.2f}s "
             f"faiss={faiss_seconds:.2f}s",
+        )
+        return IndexStats(
+            embedding_seconds=stats.embedding_seconds,
+            faiss_seconds=faiss_seconds,
+            chunk_count=stats.chunk_count,
         )
 
     # --------------------------------------------------------
