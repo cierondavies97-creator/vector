@@ -55,6 +55,57 @@ Chunk files into overlapping =
 
 Embed chunks using MiniLM and store with path metadata in FAISS
 
+🧭 RAG Indexing Stages (current implementation)
+
+1) Data collection
+   - Files are collected from the selected workspace directory (recursive scan).
+2) Cleaning
+   - Lightweight normalization is applied during chunking (trim + collapsed whitespace).
+3) Document chunking
+   - Heading-aware semantic chunking creates bounded, semantically meaningful chunks.
+4) Tagging with metadata
+   - Each chunk gets a `.meta.json` sidecar with source/type tags and structural fields.
+5) Embedding
+   - Chunks are embedded locally with MiniLM (optionally enriched with type/source hints).
+6) Vector storage
+   - Embeddings are stored in FAISS and linked back to chunk IDs + metadata.
+
+🧩 Factor Indexing (state atoms for planners)
+
+Retrieved items are treated as **state atoms** (factors) rather than raw text. Each
+retrieved chunk carries inspectable fields such as `namespace`, `source_type`,
+`doc_type`, `heading`, `section_path`, and tags, which enables symbolic policies
+to reason over the retrieval state (e.g., prefer peer-reviewed sources, require
+multiple independent facts, or downweight opinionated content).
+
+🚀 Future Implementation: Advanced Production RAG Pipeline
+
+The following roadmap outlines how a production-grade RAG system should evolve
+beyond the current baseline while preserving privacy, auditability, and explicit
+state. These are **additive** stages (not breaking changes).
+
+1) Data connectors + provenance
+   - Multi-source ingestion (APIs, databases, cloud buckets).
+   - Durable provenance fields (origin, license, access scope, checksum).
+2) Robust cleaning + normalization
+   - Boilerplate removal, OCR repair, deduplication, and language normalization.
+   - Deterministic transforms for reproducibility.
+3) Adaptive chunking + summaries
+   - Multi-granularity chunks (section, paragraph, sentence).
+   - Store per-chunk summaries and titles for better recall.
+4) Semantic tagging + factor enrichment
+   - Entity/claim extraction, topic labeling, and source-quality signals.
+   - “Factual vs opinionated” labels and citation density scoring.
+5) Hybrid retrieval + multi-vector indexing
+   - Combine lexical (BM25) + dense embeddings before reranking.
+   - Store multiple embeddings per chunk (title, summary, body).
+6) Learned reranking + constraints
+   - Cross-encoder or policy rerankers.
+   - Hard constraints (e.g., require peer-reviewed sources for facts).
+7) Evaluation harness + drift monitoring
+   - Golden query sets, Recall@K/MRR/nDCG, and regression gating.
+   - Drift detection for embedding model or corpus changes.
+
 🧠 Memory and Querying
 
 When a question is asked:
