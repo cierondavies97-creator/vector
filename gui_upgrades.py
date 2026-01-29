@@ -54,7 +54,12 @@ class VectorApp(tk.Tk):
             messagebox.showwarning("Missing directory", "Choose directory first")
             return
 
-        self.pipeline = IndexingPipeline(self.config, self.memory_engine)
+        self.pipeline = IndexingPipeline(
+            self.memory_engine,
+            self.config.knowledge_base_path(),
+            chunk_size=self.config.chunk_size,
+            overlap=self.config.chunk_overlap,
+        )
         threading.Thread(
             target=self.pipeline.run,
             args=(Path(self.config.workspace_path), ProgressSink(lambda e: None)),
@@ -65,6 +70,6 @@ class VectorApp(tk.Tk):
         q = self.query.get("1.0", tk.END).strip()
         if not q:
             return
-        answer, _, _ = self.assistant.answer(q)
+        answer, _, _, _ = self.assistant.answer(q)
         self.response.delete("1.0", tk.END)
         self.response.insert(tk.END, answer)
