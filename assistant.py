@@ -2,6 +2,7 @@ from __future__ import annotations
 from typing import List, Dict, Any
 from pathlib import Path
 from collections import defaultdict
+from dataclasses import replace
 
 from openai import OpenAI
 
@@ -299,8 +300,16 @@ class Assistant:
         # -------------------------------------------------
 
         concept_heatmap = self._build_concept_heatmap(retrieved)
-        concept_heatmap_files = self._build_concept_heatmap(file_items)
-        concept_heatmap_memory_core = self._build_concept_heatmap(core_items)
+
+        def _rerank_within_namespace(items: list[RetrievedItem]) -> list[RetrievedItem]:
+            return [replace(item, rank=idx) for idx, item in enumerate(items, start=1)]
+
+        concept_heatmap_files = self._build_concept_heatmap(
+            _rerank_within_namespace(file_items)
+        )
+        concept_heatmap_memory_core = self._build_concept_heatmap(
+            _rerank_within_namespace(core_items)
+        )
 
         # -------------------------------------------------
         # Prompt assembly
