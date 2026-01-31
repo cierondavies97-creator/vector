@@ -1,3 +1,429 @@
+Below is a hard redesign of MARBLE-RAG into a safe production profile.
+This is not a cosmetic tweak — it is a risk-aware downgrade + refactor that preserves your core invariants (provenance, reproducibility, modularity) while removing the parts that make it unsafe in real-world use.
+
+I will be explicit about:
+
+What is removed or constrained
+
+What becomes mandatory
+
+What is deferred back to research lane
+
+What the production system is allowed to do, and what it must refuse to do
+
+Production-safe MARBLE-RAG (v1.0-P)
+Core reframing
+
+Production MARBLE is not a “reasoning system.”
+It is an evidence-integrated decision support engine with guarded synthesis.
+
+Everything below flows from this.
+
+1. Split the system into TWO ENGINES (non-negotiable)
+
+You currently have one conceptual engine doing too much.
+
+1.1 Research Engine (R-MARBLE) — unchanged, but sandboxed
+
+Purpose
+
+BN experiments
+
+Z3 global constraint solving
+
+Probabilistic forecasts
+
+What-if reasoning
+
+Model evaluation
+
+Allowed
+
+Numeric probabilities
+
+Iterative retrieval loops
+
+Schema evolution
+
+Aggressive automation
+
+Never exposed directly to users.
+
+1.2 Production Engine (P-MARBLE) — new, constrained core
+
+Purpose
+
+Evidence aggregation
+
+Conflict surfacing
+
+Timeline construction
+
+Hypothesis enumeration
+
+Analyst-safe synthesis
+
+Key rule
+
+P-MARBLE is not allowed to invent certainty.
+
+2. Redefine “Reasoning” in production
+
+This is the most important change.
+
+2.1 Remove Bayesian Networks from production
+What changes
+
+❌ No pgmpy inference in prod
+
+❌ No numeric posterior probabilities
+
+❌ No “forecast confidence = 73%”
+
+Replace with: Ordinal Confidence Framework
+
+Each hypothesis is scored as:
+
+SUPPORTED
+WEAKLY_SUPPORTED
+CONFLICTED
+INSUFFICIENT_EVIDENCE
+
+
+Scores are derived from:
+
+evidence count
+
+source tier weights
+
+conflict density
+
+recency alignment
+
+This is monotonic, explainable, and auditable.
+
+BNs stay in research. Production only consumes validated heuristics derived from them.
+
+2.2 Constrain Z3 to LOCAL consistency only
+Allowed in production
+
+Timeline ordering (A before B)
+
+Calendar constraints (cannot react before release)
+
+Identity checks (Assets = Liabilities + Equity within tolerance)
+
+Forbidden
+
+Global multi-entity optimization
+
+Soft constraints with weights
+
+Cross-scenario solving
+
+Mandatory output
+
+Every constraint check must emit:
+
+constraint_id
+
+inputs
+
+pass | fail
+
+minimal explanation
+
+No silent UNSAT states.
+
+3. Introduce HARD TRUST GATES (system must refuse output)
+
+Production systems must be able to say “I don’t know.”
+
+3.1 Mandatory gating rules (examples)
+
+Synthesis must abort if any trigger fires:
+
+X unresolved claim conflicts
+
+< Y independent sources for a key claim
+
+Evidence recency outside pack horizon
+
+Extraction confidence below threshold
+
+Entity resolution ambiguity unresolved
+
+Constraint violations on core facts
+
+Output becomes:
+
+STATUS: INSUFFICIENT CONFIDENCE
+REASON: <machine-readable + human-readable>
+
+
+This is not optional.
+
+3.2 Trust Budget (new concept)
+
+Each run has a trust budget, consumed by:
+
+low-quality sources
+
+inferred claims
+
+unresolved conflicts
+
+extrapolation
+
+If budget is exhausted → no synthesis.
+
+This prevents “confident garbage.”
+
+4. Redesign the pipeline (production version)
+
+Here is the production-safe pipeline, with changes highlighted.
+
+Stage A — Ingestion (unchanged, but stricter)
+
+Add
+
+extraction_quality_score
+
+OCR confidence bands
+
+table structural integrity checks
+
+Low-quality artifacts are ingested but flagged.
+
+Stage B — Indexing (unchanged)
+
+But:
+
+Index snapshots are immutable per run
+
+No live index mutation during a run
+
+Stage C — Run Initialization (tightened)
+
+Add:
+
+run_mode = {research | production}
+
+pack_version (locked)
+
+schema_version (locked)
+
+retrieval_snapshot_ids (locked)
+
+No auto pack selection in production.
+
+Stage D — Planning (de-agentified)
+Remove
+
+open-ended decomposition
+
+creative subquestion generation
+
+Replace with
+
+Pack-defined query templates
+
+Bounded parameter substitution
+
+Planner becomes deterministic + template-driven.
+
+Stage E — Retrieval (same channels, stricter attribution)
+
+Mandatory changes
+
+Each retrieved item tagged with:
+
+channel (BM25 | vector | graph)
+
+retrieval reason
+
+filter justification
+
+Fusion must preserve channel provenance.
+
+Stage F — Integration (this becomes the core value)
+Promote Integration to the CENTER
+
+Production MARBLE’s primary output is:
+
+Structured claims
+
+Conflicts
+
+Timelines
+
+Evidence gaps
+
+This is where most CPU and logic should live.
+
+Mandatory outputs
+
+conflict clusters
+
+disagreement explanations
+
+missing evidence checklist
+
+Stage G — Reasoning (production-safe version)
+G1 Deterministic checks only
+
+local Z3 constraints
+
+identity validation
+
+temporal consistency
+
+G2 Heuristic hypothesis scoring
+
+ordinal labels (not probabilities)
+
+explicit evidence support lists
+
+explicit counter-evidence lists
+
+No inference loops.
+
+Stage H — Synthesis (guarded, conservative)
+Synthesis rules
+
+No numeric forecasts
+
+No certainty language
+
+No implicit causality claims
+
+Required sections
+
+What we know
+
+What is disputed
+
+What we do not know
+
+What evidence would change this assessment
+
+If any trust gate failed → synthesis skipped.
+
+5. Domain Packs: production constraints
+
+Domain Packs must now declare risk class.
+
+risk_class: LOW | MEDIUM | HIGH | CRITICAL
+
+
+This controls:
+
+allowed synthesis depth
+
+trust budgets
+
+required human approval
+
+Example:
+
+CRITICAL (trading, geopolitics): human approval mandatory
+
+MEDIUM (corporate analysis): optional approval
+
+LOW (document summarization): auto allowed
+
+6. Mandatory Human-in-the-Loop (HITL)
+
+For HIGH / CRITICAL packs:
+
+Required workflow
+
+System produces Draft Assessment
+
+Analyst reviews:
+
+evidence set
+
+conflicts
+
+synthesis text
+
+Analyst must explicitly:
+
+approve
+
+edit
+
+reject
+
+All actions are logged to the run artifact.
+
+No bypass.
+
+7. Observability becomes ENFORCED, not optional
+
+Add hard invariants:
+
+Every claim → ≥1 EvidenceObject
+
+Every synthesis sentence → traceable claims
+
+Every run → explicit confidence status
+
+Every refusal → structured reason code
+
+Violations = run failure.
+
+8. What production MARBLE is now good at
+
+After redesign, it is excellent at:
+
+Multi-source evidence integration
+
+Conflict-aware reporting
+
+Timeline reconstruction
+
+Analyst support
+
+Audit-grade traceability
+
+Regulated environments
+
+It is explicitly not trying to:
+
+predict markets autonomously
+
+assign real probabilities
+
+replace expert judgment
+
+Final production verdict (post-redesign)
+
+Before:
+Research-grade, dangerously overconfident if deployed.
+
+After redesign:
+A safe, conservative, enterprise-grade decision support engine that:
+
+fails loudly
+
+refuses often
+
+never hides uncertainty
+
+scales across domains without lying
+
+
+
+
+we must first create new README write it as a new doc with new external references this will detail production grade system and pipeline
+
+Below is a new, production-grade README written as a clean external-facing document, explicitly reframed around P-MARBLE (Production MARBLE).
+It removes research-only claims, tightens language, and aligns with enterprise, regulated, and decision-support realities.
+
+This README stands on its own and does not depend on prior MARBLE descriptions.
+
 P-MARBLE
 
 Production-Grade Evidence-Centric Retrieval & Decision Support Engine
@@ -685,437 +1111,6 @@ define which research artifacts are promotable
 
 or write the “Safety Distillation” spec that turns research outputs into production heuristics
 
-OpenAPI spec for P-MARBLE 
-
-Below is a production-grade OpenAPI 3.1 specification for P-MARBLE.
-It is explicitly conservative, refusal-capable, and audit-first.
-This spec assumes batch + async execution with immutable runs and no silent mutation.
-
-The API is intentionally narrow: P-MARBLE is a decision-support engine, not a chat system.
-
-P-MARBLE OpenAPI Specification (v1)
-openapi: 3.1.0
-info:
-  title: P-MARBLE API
-  version: 1.0.0
-  description: |
-    P-MARBLE is a production-grade, evidence-centric retrieval and decision
-    support engine. The API supports immutable, auditable runs with strict
-    provenance, trust gating, and refusal semantics.
-
-servers:
-  - url: https://api.p-marble.internal/v1
-
-security:
-  - bearerAuth: []
-
-tags:
-  - name: Runs
-  - name: Evidence
-  - name: Results
-  - name: Admin
-
-paths:
-
-  /runs:
-    post:
-      tags: [Runs]
-      summary: Create a new production run
-      description: |
-        Initializes an immutable P-MARBLE run with locked configuration,
-        schema versions, and retrieval snapshots.
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/RunCreateRequest"
-      responses:
-        "201":
-          description: Run created
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/Run"
-        "400":
-          description: Invalid configuration
-        "403":
-          description: Unauthorized domain pack or risk class
-
-    get:
-      tags: [Runs]
-      summary: List runs
-      parameters:
-        - in: query
-          name: status
-          schema:
-            type: string
-            enum: [PENDING, RUNNING, COMPLETED, REFUSED, FAILED]
-      responses:
-        "200":
-          description: List of runs
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/Run"
-
-  /runs/{run_id}:
-    get:
-      tags: [Runs]
-      summary: Get run metadata
-      parameters:
-        - $ref: "#/components/parameters/RunId"
-      responses:
-        "200":
-          description: Run metadata
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/Run"
-
-  /runs/{run_id}/execute:
-    post:
-      tags: [Runs]
-      summary: Execute a run
-      description: |
-        Starts execution of a previously created run.
-        Execution is asynchronous.
-      parameters:
-        - $ref: "#/components/parameters/RunId"
-      responses:
-        "202":
-          description: Execution started
-        "409":
-          description: Run already executed or immutable
-
-  /runs/{run_id}/status:
-    get:
-      tags: [Runs]
-      summary: Get run execution status
-      parameters:
-        - $ref: "#/components/parameters/RunId"
-      responses:
-        "200":
-          description: Run status
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/RunStatus"
-
-  /runs/{run_id}/result:
-    get:
-      tags: [Results]
-      summary: Get final run result
-      description: |
-        Returns synthesis output OR explicit refusal with reasons.
-      parameters:
-        - $ref: "#/components/parameters/RunId"
-      responses:
-        "200":
-          description: Run result
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/RunResult"
-        "404":
-          description: Result not available
-
-  /runs/{run_id}/evidence:
-    get:
-      tags: [Evidence]
-      summary: List evidence objects used in a run
-      parameters:
-        - $ref: "#/components/parameters/RunId"
-      responses:
-        "200":
-          description: Evidence objects
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/EvidenceObject"
-
-  /runs/{run_id}/artifacts:
-    get:
-      tags: [Results]
-      summary: Get run artifacts
-      description: |
-        Returns references to all persisted artifacts:
-        retrieval plans, conflict sets, constraints, and logs.
-      parameters:
-        - $ref: "#/components/parameters/RunId"
-      responses:
-        "200":
-          description: Artifact manifest
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ArtifactManifest"
-
-components:
-
-  securitySchemes:
-    bearerAuth:
-      type: http
-      scheme: bearer
-
-  parameters:
-    RunId:
-      name: run_id
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-
-  schemas:
-
-    RunCreateRequest:
-      type: object
-      required:
-        - query
-        - domain_pack
-        - risk_class
-      properties:
-        query:
-          type: string
-          description: User question or task description
-        domain_pack:
-          type: string
-          description: Domain Pack identifier
-        pack_version:
-          type: string
-          description: Locked pack version
-        schema_version:
-          type: string
-        risk_class:
-          type: string
-          enum: [LOW, MEDIUM, HIGH, CRITICAL]
-        time_horizon:
-          type: object
-          properties:
-            start:
-              type: string
-              format: date
-            end:
-              type: string
-              format: date
-        retrieval_policy_override:
-          type: object
-          additionalProperties: false
-        require_human_approval:
-          type: boolean
-          default: false
-
-    Run:
-      type: object
-      properties:
-        run_id:
-          type: string
-          format: uuid
-        status:
-          type: string
-          enum: [PENDING, RUNNING, COMPLETED, REFUSED, FAILED]
-        created_at:
-          type: string
-          format: date-time
-        config_hash:
-          type: string
-        trust_budget:
-          type: number
-        risk_class:
-          type: string
-
-    RunStatus:
-      type: object
-      properties:
-        run_id:
-          type: string
-        status:
-          type: string
-        progress:
-          type: number
-          minimum: 0
-          maximum: 1
-        current_stage:
-          type: string
-
-    RunResult:
-      oneOf:
-        - $ref: "#/components/schemas/SynthesisResult"
-        - $ref: "#/components/schemas/RefusalResult"
-
-    SynthesisResult:
-      type: object
-      required:
-        - status
-        - summary
-        - claims
-        - evidence_summary
-      properties:
-        status:
-          type: string
-          enum: [COMPLETED]
-        summary:
-          type: string
-        claims:
-          type: array
-          items:
-            $ref: "#/components/schemas/Claim"
-        disputed_claims:
-          type: array
-          items:
-            $ref: "#/components/schemas/Claim"
-        unknowns:
-          type: array
-          items:
-            type: string
-        evidence_summary:
-          type: object
-          properties:
-            total_evidence_objects:
-              type: integer
-            source_breakdown:
-              type: object
-              additionalProperties:
-                type: integer
-
-    RefusalResult:
-      type: object
-      required:
-        - status
-        - reasons
-      properties:
-        status:
-          type: string
-          enum: [REFUSED]
-        reasons:
-          type: array
-          items:
-            $ref: "#/components/schemas/RefusalReason"
-
-    RefusalReason:
-      type: object
-      properties:
-        code:
-          type: string
-          enum:
-            - INSUFFICIENT_EVIDENCE
-            - UNRESOLVED_CONFLICTS
-            - LOW_SOURCE_QUALITY
-            - TRUST_BUDGET_EXCEEDED
-            - CONSTRAINT_VIOLATION
-        message:
-          type: string
-
-    EvidenceObject:
-      type: object
-      properties:
-        evidence_id:
-          type: string
-          format: uuid
-        source_uri:
-          type: string
-        source_type:
-          type: string
-        modality:
-          type: string
-          enum: [text, table, image]
-        location:
-          type: object
-        extraction_method:
-          type: string
-        extraction_confidence:
-          type: number
-
-    Claim:
-      type: object
-      properties:
-        claim_id:
-          type: string
-        text:
-          type: string
-        entities:
-          type: array
-          items:
-            type: string
-        evidence_ids:
-          type: array
-          items:
-            type: string
-        confidence_label:
-          type: string
-          enum:
-            - SUPPORTED
-            - WEAKLY_SUPPORTED
-            - CONFLICTED
-            - INSUFFICIENT_EVIDENCE
-
-    ArtifactManifest:
-      type: object
-      properties:
-        retrieval_plan:
-          type: string
-        conflict_sets:
-          type: string
-        constraint_results:
-          type: string
-        logs:
-          type: string
-
-Design Notes (Important)
-1. Refusal is a first-class API outcome
-
-RunResult is a union type: COMPLETED or REFUSED.
-Clients must handle refusal explicitly.
-
-2. No probabilities, ever
-
-The API never returns numeric confidence or forecasts.
-Only ordinal confidence labels are allowed.
-
-3. Immutable runs
-
-Runs are created → executed → read-only
-
-No mutation endpoints exist
-
-All overrides must be declared at creation time
-
-4. Safe-by-default
-
-HIGH / CRITICAL risk classes are expected to require human approval outside this API
-
-P-MARBLE surfaces data; governance systems decide actions
-
-5. Clean separation from R-MARBLE
-
-This API cannot:
-
-trigger BN inference
-
-modify schemas
-
-auto-loop retrieval
-
-self-tune prompts
-
-Those belong strictly to research.
-
-If you want next, we can:
-
-add a Human Approval API extension
-
-define Trust Budget computation formally
-
-map this API onto your LangGraph node contracts
-
-or generate a typed Python client SDK
-
-Say the word.
 
 formalize the bridge from R-MARBLE → P-MARBLE
 
@@ -1458,252 +1453,3 @@ Example: BN → heuristic conversion walkthrough
 
 Tell me which to do next.
 
-Example: BN → heuristic conversion walkthrough
-
-this 
-
-Below is a formal, end-to-end walkthrough of a Bayesian Network → Production Heuristic conversion, written as a normative example for the R→P bridge.
-This is the canonical pattern engineers and researchers must follow.
-
-Example Walkthrough
-Converting a Bayesian Network (R-MARBLE) into a Production Heuristic (P-MARBLE)
-0. Purpose of this walkthrough
-
-This example demonstrates exactly how a probabilistic research artifact:
-
-“BN posterior probability of hypothesis H given evidence E”
-
-is transformed into a safe, deterministic, ordinal heuristic suitable for production execution.
-
-This walkthrough is prescriptive, not illustrative.
-
-1. Research context (R-MARBLE)
-1.1 Research question
-
-“What evidence supports the hypothesis that a company’s EPS miss was driven by cost inflation rather than demand weakness?”
-
-This is a classic causal explanation problem, not a forecast.
-
-2. R-MARBLE artifact: Bayesian Network
-2.1 BN structure (research-only)
-               DemandWeakness
-                      ↓
-                RevenueShortfall
-                      ↓
-                  EPS_Miss
-                      ↑
-               CostInflation
-
-2.2 Nodes
-Node	Type
-DemandWeakness	Latent cause
-CostInflation	Latent cause
-RevenueShortfall	Observable
-EPS_Miss	Observable outcome
-2.3 Evidence variables
-Evidence	Observed
-Unit labor costs ↑	Yes
-Input commodity prices ↑	Yes
-Volume sold ↓	No
-ASP ↓	No
-Gross margin ↓	Yes
-2.4 BN inference result (FORBIDDEN in production)
-P(CostInflation = true | evidence) = 0.67
-P(DemandWeakness = true | evidence) = 0.21
-
-
-❌ This numeric output can NEVER cross into P-MARBLE.
-
-3. R-MARBLE analysis phase (allowed)
-
-Researchers now perform post-hoc analysis on the BN.
-
-3.1 Sensitivity analysis
-Evidence	Effect on posterior
-Labor cost increase	Strong
-Commodity prices	Medium
-Margin compression	Strong
-Volume change	Weak
-ASP change	Weak
-3.2 Robust patterns discovered
-
-Across N ≥ 50 historical runs, researchers observe:
-
-When ≥2 cost-side indicators are present:
-
-BN posterior for CostInflation > 0.6 in >85% of cases
-
-When demand-side indicators are absent, demand hypothesis weakens consistently
-
-False positives spike when:
-
-Only 1 indicator present
-
-Evidence older than 2 reporting periods
-
-These findings are statistical, not deterministic.
-
-4. Distillation step (the bridge)
-
-This is where the research → production boundary is crossed.
-
-4.1 What is discarded
-
-❌ Entire BN
-❌ DAG structure
-❌ CPDs
-❌ Posterior probabilities
-❌ Latent variable inference
-
-4.2 What is retained
-
-✅ Empirically stable patterns
-✅ Monotonic relationships
-✅ Failure modes
-✅ Thresholds that generalize
-
-5. Production heuristic construction
-5.1 Define observable indicators only
-
-Latent causes are removed.
-
-We define observable, auditable inputs:
-
-Indicator ID	Definition
-LABOR_COST_UP	Unit labor costs ↑ YoY
-INPUT_COST_UP	Input commodity prices ↑ YoY
-MARGIN_DOWN	Gross margin ↓ YoY
-VOLUME_DOWN	Units sold ↓ YoY
-ASP_DOWN	Average selling price ↓ YoY
-5.2 Define heuristic logic (ordinal, monotonic)
-heuristic_id: eps_miss_cost_inflation_support
-description: >
-  Determines whether evidence supports cost inflation
-  as a driver of an EPS miss.
-
-inputs:
-  cost_indicators:
-    - LABOR_COST_UP
-    - INPUT_COST_UP
-    - MARGIN_DOWN
-
-  demand_indicators:
-    - VOLUME_DOWN
-    - ASP_DOWN
-
-rules:
-  - if:
-      cost_indicators_present >= 2
-      and demand_indicators_present == 0
-    then: SUPPORTED
-
-  - if:
-      cost_indicators_present >= 2
-      and demand_indicators_present == 1
-    then: WEAKLY_SUPPORTED
-
-  - if:
-      cost_indicators_present == 1
-    then: INSUFFICIENT_EVIDENCE
-
-  - if:
-      demand_indicators_present >= 2
-    then: CONFLICTED
-
-6. Attach explicit failure guards
-
-From research error analysis:
-
-guards:
-  - if: evidence_recency > 2_reporting_periods
-    then: FORCE_INSUFFICIENT_EVIDENCE
-
-  - if: extraction_confidence < 0.8
-    then: FORCE_INSUFFICIENT_EVIDENCE
-
-
-This ensures known failure modes are blocked.
-
-7. Map heuristic into P-MARBLE execution
-7.1 During integration stage
-
-P-MARBLE computes:
-
-cost_indicators_present = 3
-demand_indicators_present = 0
-
-7.2 Heuristic output
-{
-  "claim": "Cost inflation likely contributed to the EPS miss",
-  "confidence_label": "SUPPORTED",
-  "supporting_evidence_ids": [
-    "evidence_123",
-    "evidence_456",
-    "evidence_789"
-  ],
-  "counter_evidence_ids": []
-}
-
-
-No probabilities.
-No latent inference.
-No hidden reasoning.
-
-8. What the user sees (production-safe)
-
-In synthesis:
-
-Assessment:
-Evidence supports cost inflation as a contributing factor to the EPS miss.
-
-Supporting observations:
-
-Unit labor costs increased year-over-year
-
-Input commodity prices rose
-
-Gross margins compressed
-
-Limitations:
-
-No direct evidence of demand weakness was observed
-
-Evidence is limited to the most recent reporting period
-
-9. Why this is safe
-Risk	Mitigation
-Overconfidence	Ordinal labels only
-Model brittleness	No runtime inference
-Hidden assumptions	Explicit rules
-Drift	Guards + version pinning
-Auditability	Evidence-linked conditions
-10. Formal promotion checklist (must pass)
-
-Before this heuristic is allowed into P-MARBLE:
-
- Derived from ≥ N research runs
-
- No numeric probabilities remain
-
- All inputs are observable
-
- Failure modes encoded as guards
-
- Reviewed by research + production owners
-
- Versioned and signed in Bridge Registry
-
-11. Summary (the pattern)
-
-Bayesian Networks discover structure.
-Heuristics encode restraint.
-
-This walkthrough is the canonical pattern for all R→P promotions:
-
-BN → insight
-
-Insight → rule
-
-Rule → guard
-
-Guard → safe execution
