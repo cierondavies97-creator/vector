@@ -2,6 +2,7 @@ import queue
 import threading
 from pathlib import Path
 import tkinter as tk
+import tkinter.font as tkfont
 from tkinter import filedialog, messagebox, ttk
 
 from assistant import Assistant
@@ -114,8 +115,12 @@ class VectorApp(tk.Tk):
         }
 
         self.configure(background=self.theme["bg"])
-        self.option_add("*Font", "Segoe UI 10")
-        self.option_add("*Foreground", self.theme["text"])
+
+        default_font = tkfont.nametofont("TkDefaultFont")
+        default_font.configure(family="Segoe UI", size=10)
+        tkfont.nametofont("TkTextFont").configure(family="Segoe UI", size=10)
+        tkfont.nametofont("TkFixedFont").configure(family="Consolas", size=10)
+        tkfont.nametofont("TkMenuFont").configure(family="Segoe UI", size=10)
 
         self.style = ttk.Style(self)
         self.style.theme_use("clam")
