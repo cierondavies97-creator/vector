@@ -176,16 +176,18 @@ class VectorApp(tk.Tk):
     def _style_text_area(self, widget: tk.Text | tk.Listbox, *, height: int | None = None):
         if height is not None:
             widget.configure(height=height)
-        widget.configure(
-            background=self.theme["panel"],
-            foreground=self.theme["text"],
-            insertbackground=self.theme["text"],
-            relief="solid",
-            bd=1,
-            highlightthickness=1,
-            highlightbackground=self.theme["border"],
-            highlightcolor=self.theme["accent"],
-        )
+        base_style = {
+            "background": self.theme["panel"],
+            "foreground": self.theme["text"],
+            "relief": "solid",
+            "bd": 1,
+            "highlightthickness": 1,
+            "highlightbackground": self.theme["border"],
+            "highlightcolor": self.theme["accent"],
+        }
+        if isinstance(widget, tk.Text):
+            base_style["insertbackground"] = self.theme["text"]
+        widget.configure(**base_style)
 
     def _build_ui(self):
         menubar = tk.Menu(self)
