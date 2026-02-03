@@ -49,6 +49,10 @@ class IndexStats:
     chunk_count: int
 
 
+class EmbeddingLoadError(RuntimeError):
+    pass
+
+
 # =========================================================
 # Memory Engine
 # =========================================================
@@ -57,6 +61,7 @@ class MemoryEngine:
     def __init__(self, config: AppConfig) -> None:
         self.config = config
         self._model = None
+        self._model_load_error: Exception | None = None
 
         kb = self.config.knowledge_base_path()
 
@@ -88,13 +93,24 @@ class MemoryEngine:
         self._load_core_index()
 
     def _ensure_model(self):
-        if self._model is None:
-            from sentence_transformers import SentenceTransformer
+        if self._model_load_error is not None:
+            raise EmbeddingLoadError(
+                "Embedding model failed to load; see original error for details."
+            ) from self._model_load_error
 
-            self._model = SentenceTransformer(
-                self.config.embedding_model,
-                device=self.config.embedding_device,
-            )
+        if self._model is None:
+            try:
+                from sentence_transformers import SentenceTransformer
+
+                self._model = SentenceTransformer(
+                    self.config.embedding_model,
+                    device=self.config.embedding_device,
+                )
+            except Exception as exc:  # noqa: BLE001 - expose downstream dependency failures
+                self._model_load_error = exc
+                raise EmbeddingLoadError(
+                    "Embedding model failed to load; verify torch and sentence-transformers."
+                ) from exc
         return self._model
 
     # =====================================================
