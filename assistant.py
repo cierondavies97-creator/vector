@@ -7,7 +7,7 @@ from dataclasses import replace
 from openai import OpenAI
 
 from config import AppConfig
-from memory_engine import MemoryEngine, MemoryChunk, TokenStats, RetrievedItem
+from memory_engine import MemoryEngine, MemoryChunk, TokenStats, RetrievedItem, EmbeddingLoadError
 from reranker import Reranker
 from chat_store import ChatStore
 from concepts import CONCEPTS
@@ -294,22 +294,29 @@ class Assistant:
         # -------------------------------------------------
 
         retrieved: list[RetrievedItem] = []
+        embedding_errors: list[str] = []
 
         if use_memory:
-            retrieved.extend(
-                self.memory_engine.debug_search_files(
-                    search_query,
-                    top_k=self.config.memory_top_k,
+            try:
+                retrieved.extend(
+                    self.memory_engine.debug_search_files(
+                        search_query,
+                        top_k=self.config.memory_top_k,
+                    )
                 )
-            )
+            except EmbeddingLoadError as exc:
+                embedding_errors.append(f"knowledge_base: {exc}")
 
         if use_memory_core:
-            retrieved.extend(
-                self.memory_engine.debug_search_memory_core(
-                    query,
-                    top_k=self.config.memory_core_top_k,
+            try:
+                retrieved.extend(
+                    self.memory_engine.debug_search_memory_core(
+                        query,
+                        top_k=self.config.memory_core_top_k,
+                    )
                 )
-            )
+            except EmbeddingLoadError as exc:
+                embedding_errors.append(f"memory_core: {exc}")
 
         retrieved = self._apply_score_gate(
             retrieved,
@@ -366,6 +373,16 @@ class Assistant:
 
         messages = [{"role": "system", "content": "You are an expert assistant."}]
         messages.extend(self.chat_store.load())
+        if embedding_errors:
+            messages.append(
+                {
+                    "role": "system",
+                    "content": (
+                        "Embedding retrieval is unavailable; answer using general reasoning "
+                        "and any pinned context only."
+                    ),
+                }
+            )
 
         if pinned_items:
             ctx = "\n\n".join(f"[PINNED]\n{i.text}" for i in pinned_items)
@@ -488,6 +505,9 @@ class Assistant:
             "concept_heatmap": concept_heatmap,
             "concept_heatmap_files": concept_heatmap_files,
             "concept_heatmap_memory_core": concept_heatmap_memory_core,
+
+            # Embedding errors
+            "embedding_errors": embedding_errors,
         }
 
         stats = TokenStats(0, 0, 0.0)
