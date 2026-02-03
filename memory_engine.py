@@ -7,7 +7,6 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 import faiss
-from sentence_transformers import SentenceTransformer
 
 from config import AppConfig
 
@@ -50,6 +49,10 @@ class IndexStats:
     chunk_count: int
 
 
+class EmbeddingLoadError(RuntimeError):
+    pass
+
+
 # =========================================================
 # Memory Engine
 # =========================================================
@@ -57,11 +60,8 @@ class IndexStats:
 class MemoryEngine:
     def __init__(self, config: AppConfig) -> None:
         self.config = config
-
-        self.model = SentenceTransformer(
-            config.embedding_model,
-            device=config.embedding_device,
-        )
+        self._model = None
+        self._model_load_error: Exception | None = None
 
         kb = self.config.knowledge_base_path()
 
@@ -92,6 +92,27 @@ class MemoryEngine:
         self._load_file_index()
         self._load_core_index()
 
+    def _ensure_model(self):
+        if self._model_load_error is not None:
+            raise EmbeddingLoadError(
+                "Embedding model failed to load; see original error for details."
+            ) from self._model_load_error
+
+        if self._model is None:
+            try:
+                from sentence_transformers import SentenceTransformer
+
+                self._model = SentenceTransformer(
+                    self.config.embedding_model,
+                    device=self.config.embedding_device,
+                )
+            except Exception as exc:  # noqa: BLE001 - expose downstream dependency failures
+                self._model_load_error = exc
+                raise EmbeddingLoadError(
+                    "Embedding model failed to load; verify torch and sentence-transformers."
+                ) from exc
+        return self._model
+
     # =====================================================
     # FILE INDEXING
     # =====================================================
@@ -111,7 +132,8 @@ class MemoryEngine:
         import time
         t0 = time.perf_counter()
 
-        embeddings = self.model.encode(
+        model = self._ensure_model()
+        embeddings = model.encode(
             texts,
             batch_size=self.config.embedding_batch_size,
             convert_to_numpy=True,
@@ -143,7 +165,8 @@ class MemoryEngine:
         if self.file_index is None:
             return []
 
-        q = self.model.encode(query, normalize_embeddings=True).reshape(1, -1)
+        model = self._ensure_model()
+        q = model.encode(query, normalize_embeddings=True).reshape(1, -1)
         scores, indices = self.file_index.search(q, top_k)
 
         results: list[MemoryChunk] = []
@@ -268,7 +291,8 @@ class MemoryEngine:
         texts = [n["text"] for n in notes]
         ids = [n["id"] for n in notes]
 
-        embeddings = self.model.encode(
+        model = self._ensure_model()
+        embeddings = model.encode(
             texts,
             batch_size=self.config.embedding_batch_size,
             convert_to_numpy=True,
@@ -292,7 +316,8 @@ class MemoryEngine:
         if self.core_index is None:
             return []
 
-        q = self.model.encode(query, normalize_embeddings=True).reshape(1, -1)
+        model = self._ensure_model()
+        q = model.encode(query, normalize_embeddings=True).reshape(1, -1)
         scores, indices = self.core_index.search(q, top_k)
         notes = self.load_memory_core_notes()
 
