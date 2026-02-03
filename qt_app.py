@@ -1,3 +1,4 @@
+import json
 import sys
 import threading
 from pathlib import Path
@@ -86,17 +87,30 @@ class VectorQtApp(QtWidgets.QMainWindow):
         top_bar = QtWidgets.QHBoxLayout()
         root_layout.addLayout(top_bar)
 
-        choose_btn = QtWidgets.QPushButton("Choose Directory")
-        choose_btn.clicked.connect(self._choose_dir)
-        top_bar.addWidget(choose_btn)
+        chat_menu = QtWidgets.QMenu(self)
+        chat_menu.addAction("Save Chat…", self._export_chat)
+        chat_menu.addAction("Clear Chat", self._clear_chat)
 
-        reindex_btn = QtWidgets.QPushButton("Reindex")
-        reindex_btn.clicked.connect(self._reindex)
-        top_bar.addWidget(reindex_btn)
+        chat_menu_btn = QtWidgets.QToolButton()
+        chat_menu_btn.setText("Chat")
+        chat_menu_btn.setPopupMode(QtWidgets.QToolButton.ToolButtonPopupMode.InstantPopup)
+        chat_menu_btn.setMenu(chat_menu)
+        chat_menu_btn.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextBesideIcon)
+        chat_menu_btn.setIcon(self.style().standardIcon(QtWidgets.QStyle.StandardPixmap.SP_FileDialogDetailedView))
+        top_bar.addWidget(chat_menu_btn)
 
-        cancel_btn = QtWidgets.QPushButton("Cancel Indexing")
-        cancel_btn.clicked.connect(self._cancel)
-        top_bar.addWidget(cancel_btn)
+        index_menu = QtWidgets.QMenu(self)
+        index_menu.addAction("Choose Directory…", self._choose_dir)
+        index_menu.addAction("Reindex", self._reindex)
+        index_menu.addAction("Cancel Reindex", self._cancel)
+
+        index_menu_btn = QtWidgets.QToolButton()
+        index_menu_btn.setText("Index")
+        index_menu_btn.setPopupMode(QtWidgets.QToolButton.ToolButtonPopupMode.InstantPopup)
+        index_menu_btn.setMenu(index_menu)
+        index_menu_btn.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextBesideIcon)
+        index_menu_btn.setIcon(self.style().standardIcon(QtWidgets.QStyle.StandardPixmap.SP_BrowserReload))
+        top_bar.addWidget(index_menu_btn)
 
         pin_btn = QtWidgets.QPushButton("📌 Pin File…")
         pin_btn.clicked.connect(self._pin_file_browser)
@@ -144,50 +158,87 @@ class VectorQtApp(QtWidgets.QMainWindow):
         self.response.setReadOnly(True)
         content_layout.addWidget(self.response, 3, 0, 1, 2)
 
-        right_panel = QtWidgets.QVBoxLayout()
-        content_layout.addLayout(right_panel, 0, 2, 6, 1)
+        self._build_pinned_dock()
+        self._build_debug_dock()
+        self._apply_styles()
 
-        right_panel.addWidget(QtWidgets.QLabel("📌 Pinned Files (Context)"))
+    def _build_pinned_dock(self) -> None:
+        dock = QtWidgets.QDockWidget("Pinned Files", self)
+        dock.setObjectName("PinnedDock")
+        dock.setFeatures(
+            QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetMovable
+            | QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetClosable
+        )
+        dock.setAllowedAreas(
+            QtCore.Qt.DockWidgetArea.LeftDockWidgetArea
+            | QtCore.Qt.DockWidgetArea.RightDockWidgetArea
+        )
+
+        container = QtWidgets.QWidget()
+        layout = QtWidgets.QVBoxLayout(container)
+        layout.setContentsMargins(10, 10, 10, 10)
+        layout.setSpacing(8)
+
+        layout.addWidget(QtWidgets.QLabel("📌 Pinned Files (Context)"))
         self.pinned_list = QtWidgets.QListWidget()
-        self.pinned_list.setFixedHeight(160)
-        right_panel.addWidget(self.pinned_list)
+        layout.addWidget(self.pinned_list)
 
-        pin_controls = QtWidgets.QHBoxLayout()
-        right_panel.addLayout(pin_controls)
-
+        controls = QtWidgets.QHBoxLayout()
         up_btn = QtWidgets.QPushButton("↑")
         up_btn.clicked.connect(lambda: self._move_pin(-1))
         up_btn.setFixedWidth(32)
-        pin_controls.addWidget(up_btn)
+        controls.addWidget(up_btn)
 
         down_btn = QtWidgets.QPushButton("↓")
         down_btn.clicked.connect(lambda: self._move_pin(1))
         down_btn.setFixedWidth(32)
-        pin_controls.addWidget(down_btn)
+        controls.addWidget(down_btn)
 
         unpin_btn = QtWidgets.QPushButton("Unpin")
         unpin_btn.clicked.connect(self._unpin_selected)
-        pin_controls.addWidget(unpin_btn)
-        pin_controls.addStretch()
+        controls.addWidget(unpin_btn)
+        controls.addStretch()
+        layout.addLayout(controls)
 
-        right_panel.addWidget(QtWidgets.QLabel("Injected Context (Debug)"))
+        dock.setWidget(container)
+        self.addDockWidget(QtCore.Qt.DockWidgetArea.LeftDockWidgetArea, dock)
+
+    def _build_debug_dock(self) -> None:
+        dock = QtWidgets.QDockWidget("Debug & Heatmaps", self)
+        dock.setObjectName("DebugDock")
+        dock.setFeatures(
+            QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetMovable
+            | QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetClosable
+        )
+        dock.setAllowedAreas(
+            QtCore.Qt.DockWidgetArea.LeftDockWidgetArea
+            | QtCore.Qt.DockWidgetArea.RightDockWidgetArea
+        )
+
+        container = QtWidgets.QWidget()
+        layout = QtWidgets.QVBoxLayout(container)
+        layout.setContentsMargins(10, 10, 10, 10)
+        layout.setSpacing(8)
+
+        layout.addWidget(QtWidgets.QLabel("Injected Context (Debug)"))
         self.memory = QtWidgets.QTextEdit()
         self.memory.setReadOnly(True)
-        right_panel.addWidget(self.memory, stretch=1)
+        layout.addWidget(self.memory, stretch=1)
 
-        right_panel.addWidget(QtWidgets.QLabel("Knowledge Heatmap"))
+        layout.addWidget(QtWidgets.QLabel("Knowledge Heatmap"))
         self.heatmap_box_files = QtWidgets.QTextEdit()
         self.heatmap_box_files.setReadOnly(True)
         self.heatmap_box_files.setFixedHeight(120)
-        right_panel.addWidget(self.heatmap_box_files)
+        layout.addWidget(self.heatmap_box_files)
 
-        right_panel.addWidget(QtWidgets.QLabel("Memory Heatmap"))
+        layout.addWidget(QtWidgets.QLabel("Memory Heatmap"))
         self.heatmap_box_core = QtWidgets.QTextEdit()
         self.heatmap_box_core.setReadOnly(True)
         self.heatmap_box_core.setFixedHeight(120)
-        right_panel.addWidget(self.heatmap_box_core)
+        layout.addWidget(self.heatmap_box_core)
 
-        self._apply_styles()
+        dock.setWidget(container)
+        self.addDockWidget(QtCore.Qt.DockWidgetArea.RightDockWidgetArea, dock)
 
     def _apply_styles(self) -> None:
         palette = self.palette()
@@ -202,6 +253,11 @@ class VectorQtApp(QtWidgets.QMainWindow):
             "border: 1px solid #d5dbe6;"
             "border-radius: 4px;"
             "padding: 6px;"
+            "}"
+            "QDockWidget::title {"
+            "background: #eef1f6;"
+            "padding: 6px;"
+            "font-weight: 600;"
             "}"
         )
         self.setStyleSheet(text_style)
@@ -399,6 +455,40 @@ class VectorQtApp(QtWidgets.QMainWindow):
         for message in self.assistant.chat_store.load():
             role = "🧑 You" if message["role"] == "user" else "🤖 Assistant"
             self.response.append(f"\n{role}:\n{message['content']}\n")
+
+    def _clear_chat(self) -> None:
+        if (
+            QtWidgets.QMessageBox.question(
+                self,
+                "Clear chat",
+                "Clear all chat history?",
+            )
+            == QtWidgets.QMessageBox.StandardButton.Yes
+        ):
+            self.assistant.clear_chat()
+            self.response.clear()
+            self.memory.clear()
+            self.heatmap_box_files.clear()
+            self.heatmap_box_core.clear()
+            self._refresh_pinned_panel()
+
+    def _export_chat(self) -> None:
+        messages = self.assistant.chat_store.load()
+        if not messages:
+            QtWidgets.QMessageBox.information(self, "Save chat", "No chat history to save.")
+            return
+        path, _ = QtWidgets.QFileDialog.getSaveFileName(
+            self,
+            "Save chat history",
+            "chat_history.json",
+            "JSON Files (*.json)",
+        )
+        if not path:
+            return
+        Path(path).write_text(
+            json.dumps(messages, indent=2),
+            encoding="utf-8",
+        )
 
 
 def main() -> None:
