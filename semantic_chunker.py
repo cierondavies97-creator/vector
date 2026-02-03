@@ -10,7 +10,7 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
 def semantic_chunk(
     text: str,
     *,
-    max_chars: int = 1200,
+    max_chars: int = 3000,
     min_chars: int = 200,
 ) -> List[Dict[str, Any]]:
     """

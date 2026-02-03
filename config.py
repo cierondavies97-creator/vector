@@ -39,7 +39,7 @@ class AppConfig:
     # Chunking
     # -------------------------
     chunk_size: int = 3000
-    chunk_overlap: int = 100
+    chunk_overlap: int = 200
 
     # -------------------------
     # Limits

@@ -435,7 +435,7 @@ class Assistant:
                 "namespace": item.namespace,
                 "chunk_id": item.chunk_id,
                 "source_path": item.source_path,
-
+                "tags": tags,   
                 # -------------------------------------------------
                 # Retrieval (FACTUAL, engine-reported only)
                 # -------------------------------------------------

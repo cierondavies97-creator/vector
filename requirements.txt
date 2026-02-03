@@ -6,3 +6,4 @@ python-docx
 python-pptx
 sentence-transformers
 PyQt6
+transformers<5.0.0

@@ -114,7 +114,7 @@ class IndexingPipeline:
         self,
         memory_engine,
         kb_path: Path,
-        chunk_size: int = 1200,
+        chunk_size: int = 3000,
         overlap: int = 200,
     ):
         self.memory_engine = memory_engine
