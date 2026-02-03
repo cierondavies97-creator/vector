@@ -101,7 +101,8 @@ class VectorQtApp(QtWidgets.QMainWindow):
         top_bar.addWidget(chat_menu_btn)
 
         index_menu = QtWidgets.QMenu(self)
-        index_menu.addAction("Choose Directory…", self._choose_dir)
+        index_menu.addAction("Choose Workspace…", self._choose_dir)
+        index_menu.addAction("Index Directory…", self._index_directory)
         index_menu.addAction("Reindex", self._reindex)
         index_menu.addAction("Cancel Reindex", self._cancel)
 
@@ -375,11 +376,19 @@ class VectorQtApp(QtWidgets.QMainWindow):
         QtWidgets.QMessageBox.information(self, "Workspace set", directory)
         self._update_cycle_status()
 
+    def _index_directory(self) -> None:
+        directory = QtWidgets.QFileDialog.getExistingDirectory(self, "Choose directory to index")
+        if not directory:
+            return
+        self._start_indexing(Path(directory))
+
     def _reindex(self) -> None:
         if not self.config.workspace_path:
             QtWidgets.QMessageBox.warning(self, "Missing directory", "Choose a directory first")
             return
+        self._start_indexing(Path(self.config.workspace_path))
 
+    def _start_indexing(self, workspace: Path) -> None:
         self.status_dialog = IndexStatusDialog(self)
         self.status_dialog.show()
 
@@ -392,7 +401,7 @@ class VectorQtApp(QtWidgets.QMainWindow):
                     overlap=self.config.chunk_overlap,
                 )
                 sink = ProgressSink(lambda e: self.progress_emitter.progress.emit(e))
-                self.pipeline.run(Path(self.config.workspace_path), sink)
+                self.pipeline.run(workspace, sink)
             except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures to the UI
                 self.progress_emitter.error.emit(exc)
             finally:
