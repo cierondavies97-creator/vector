@@ -27,6 +27,7 @@ from pptx import Presentation
 from memory_engine import IndexStats
 from semantic_chunker import semantic_chunk
 from embedding_enrichment import enrich_for_embedding
+from concepts import infer_semantic_tags
 
 
 # ============================================================
@@ -418,6 +419,14 @@ class IndexingPipeline:
         heading = chunk.metadata.get("heading")
         heading_level = chunk.metadata.get("heading_level")
         section_path = chunk.metadata.get("section_path") or []
+
+        tags.extend(
+            infer_semantic_tags(
+                text=chunk.text,
+                heading=heading,
+                section_path=section_path,
+            )
+        )
 
         return {
             "source_path": source_path.as_posix(),
