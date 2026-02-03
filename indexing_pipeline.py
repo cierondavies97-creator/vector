@@ -12,18 +12,19 @@ from __future__ import annotations
 import json
 import hashlib
 import threading
-import re
+
 import time
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 from typing import Callable
-
+import re
 from pdfminer.high_level import extract_text
 from docx import Document
 from openpyxl import load_workbook
 from pptx import Presentation
 
+from memory_engine import IndexStats
 from semantic_chunker import semantic_chunk
 from embedding_enrichment import enrich_for_embedding
 

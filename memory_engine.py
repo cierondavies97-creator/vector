@@ -5,6 +5,10 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Any
+from transformers import ProgressCallback
+from typing import Callable
+DebugCallback = Callable[[str], None]
+
 
 import faiss
 

@@ -12,6 +12,10 @@ from pdfminer.high_level import extract_text
 from docx import Document
 from openpyxl import load_workbook
 from pptx import Presentation
+from transformers import ProgressCallback
+from typing import Callable
+DebugCallback = Callable[[str], None]
+
 
 from config import AppConfig
 from memory_engine import MemoryEngine
