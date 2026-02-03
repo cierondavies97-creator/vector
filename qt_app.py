@@ -1,6 +1,7 @@
 import json
 import sys
 import threading
+import traceback
 from pathlib import Path
 
 from PyQt6 import QtCore, QtGui, QtWidgets
@@ -47,6 +48,7 @@ class IndexStatusDialog(QtWidgets.QDialog):
 
 class ProgressEmitter(QtCore.QObject):
     progress = QtCore.pyqtSignal(object)
+    error = QtCore.pyqtSignal(object)
     finished = QtCore.pyqtSignal()
 
 
@@ -63,6 +65,7 @@ class VectorQtApp(QtWidgets.QMainWindow):
         self.pipeline: IndexingPipeline | None = None
         self.progress_emitter = ProgressEmitter()
         self.progress_emitter.progress.connect(self._on_progress)
+        self.progress_emitter.error.connect(self._on_index_error)
         self.progress_emitter.finished.connect(self._on_index_finished)
         self.status_dialog: IndexStatusDialog | None = None
 
@@ -351,7 +354,16 @@ class VectorQtApp(QtWidgets.QMainWindow):
     def _pin_file_browser(self) -> None:
         path, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Pin file")
         if path:
-            self.assistant.pin_file(path)
+            try:
+                self.assistant.pin_file(path)
+            except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures to the UI
+                self._show_error(
+                    "Pin file failed",
+                    exc,
+                    "Embedding model failed to load while pinning. "
+                    "Verify torch and sentence-transformers are installed correctly.",
+                )
+                return
             self._refresh_pinned_panel()
             self._render_debug()
 
@@ -372,15 +384,19 @@ class VectorQtApp(QtWidgets.QMainWindow):
         self.status_dialog.show()
 
         def run_pipeline() -> None:
-            self.pipeline = IndexingPipeline(
-                self.memory_engine,
-                self.config.knowledge_base_path(),
-                chunk_size=self.config.chunk_size,
-                overlap=self.config.chunk_overlap,
-            )
-            sink = ProgressSink(lambda e: self.progress_emitter.progress.emit(e))
-            self.pipeline.run(Path(self.config.workspace_path), sink)
-            self.progress_emitter.finished.emit()
+            try:
+                self.pipeline = IndexingPipeline(
+                    self.memory_engine,
+                    self.config.knowledge_base_path(),
+                    chunk_size=self.config.chunk_size,
+                    overlap=self.config.chunk_overlap,
+                )
+                sink = ProgressSink(lambda e: self.progress_emitter.progress.emit(e))
+                self.pipeline.run(Path(self.config.workspace_path), sink)
+            except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures to the UI
+                self.progress_emitter.error.emit(exc)
+            finally:
+                self.progress_emitter.finished.emit()
 
         threading.Thread(target=run_pipeline, daemon=True).start()
 
@@ -397,16 +413,33 @@ class VectorQtApp(QtWidgets.QMainWindow):
             self.status_dialog.close()
             self.status_dialog = None
 
+    def _on_index_error(self, exc: Exception) -> None:
+        self._show_error(
+            "Indexing failed",
+            exc,
+            "Embedding model failed to load while indexing. "
+            "Verify torch and sentence-transformers are installed correctly.",
+        )
+
     def _ask(self) -> None:
         q = self.query.toPlainText().strip()
         if not q:
             return
 
-        response, _, _, debug = self.assistant.answer(
-            q,
-            use_memory=self.use_memory,
-            use_memory_core=self.use_memory_core,
-        )
+        try:
+            response, _, _, debug = self.assistant.answer(
+                q,
+                use_memory=self.use_memory,
+                use_memory_core=self.use_memory_core,
+            )
+        except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures to the UI
+            self._show_error(
+                "Answer failed",
+                exc,
+                "Embedding model failed to load while answering. "
+                "Verify torch and sentence-transformers are installed correctly.",
+            )
+            return
         self.last_debug = debug or {}
 
         self.response.append(f"\n🧑 You:\n{q}\n")
@@ -535,6 +568,14 @@ class VectorQtApp(QtWidgets.QMainWindow):
             json.dumps(messages, indent=2),
             encoding="utf-8",
         )
+
+    def _show_error(self, title: str, exc: Exception, message: str) -> None:
+        dialog = QtWidgets.QMessageBox(self)
+        dialog.setIcon(QtWidgets.QMessageBox.Icon.Critical)
+        dialog.setWindowTitle(title)
+        dialog.setText(message)
+        dialog.setDetailedText("".join(traceback.format_exception(exc)))
+        dialog.exec()
 
 
 def main() -> None:
