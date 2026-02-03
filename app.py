@@ -1,5 +1,6 @@
 import queue
 import threading
+import traceback
 from pathlib import Path
 import tkinter as tk
 import tkinter.font as tkfont
@@ -355,7 +356,15 @@ class VectorApp(tk.Tk):
     def _pin_file_browser(self):
         path = filedialog.askopenfilename()
         if path:
-            self.assistant.pin_file(path)
+            try:
+                self.assistant.pin_file(path)
+            except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures
+                self._show_error(
+                    "Pin file failed",
+                    exc,
+                    "Embedding model failed to load while pinning.",
+                )
+                return
             self._refresh_pinned_panel()
             self._render_debug()
 
@@ -396,7 +405,15 @@ class VectorApp(tk.Tk):
 
     def _ctx_pin_file(self):
         if self._ctx_item and self._ctx_item.namespace == "file":
-            self.assistant.pin_file(self._ctx_item.source_path)
+            try:
+                self.assistant.pin_file(self._ctx_item.source_path)
+            except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures
+                self._show_error(
+                    "Pin file failed",
+                    exc,
+                    "Embedding model failed to load while pinning.",
+                )
+                return
             self._refresh_pinned_panel()
             self._render_debug()
 
@@ -427,10 +444,13 @@ class VectorApp(tk.Tk):
         )
 
         sink = ProgressSink(lambda e: self.queue.put(e))
-        threading.Thread(
-            target=lambda: self.pipeline.run(Path(self.config.workspace_path), sink),
-            daemon=True,
-        ).start()
+        def run_pipeline():
+            try:
+                self.pipeline.run(Path(self.config.workspace_path), sink)
+            except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures
+                self.queue.put(exc)
+
+        threading.Thread(target=run_pipeline, daemon=True).start()
         self.after(100, lambda: self._poll(popup))
 
     def _cancel(self):
@@ -442,7 +462,15 @@ class VectorApp(tk.Tk):
             return
         try:
             while True:
-                popup.update(self.queue.get_nowait())
+                event = self.queue.get_nowait()
+                if isinstance(event, Exception):
+                    self._show_error(
+                        "Indexing failed",
+                        event,
+                        "Embedding model failed to load while indexing.",
+                    )
+                    continue
+                popup.update(event)
         except queue.Empty:
             pass
         self.after(100, lambda: self._poll(popup))
@@ -452,11 +480,19 @@ class VectorApp(tk.Tk):
         if not q:
             return
 
-        response, _, _, debug = self.assistant.answer(
-            q,
-            use_memory=self.use_memory.get(),
-            use_memory_core=self.use_memory_core.get(),
-        )
+        try:
+            response, _, _, debug = self.assistant.answer(
+                q,
+                use_memory=self.use_memory.get(),
+                use_memory_core=self.use_memory_core.get(),
+            )
+        except Exception as exc:  # noqa: BLE001 - surface runtime dependency failures
+            self._show_error(
+                "Answer failed",
+                exc,
+                "Embedding model failed to load while answering.",
+            )
+            return
 
         self.last_debug = debug or {}
 
@@ -473,21 +509,6 @@ class VectorApp(tk.Tk):
     # Rendering
     # ========================================================
 
-    def _render_debug(self):
-        self.memory.delete("1.0", tk.END)
-        self._pin_tag_map.clear()
-
-        debug = self.last_debug or {}
-
-        # ===============================
-        # Header
-        # ===============================
-        self.memory.insert(
-            tk.END,
-            "Query Rewrite\n"
-            f"  Original : {debug.get('query')}\n"
-            f"  Rewritten: {debug.get('rewritten_query')}\n\n"
-        )
     def _render_debug(self):
         self.memory.delete("1.0", tk.END)
         self._pin_tag_map.clear()
@@ -638,30 +659,34 @@ class VectorApp(tk.Tk):
             )
 
 
-        # ========================================================
-        # Chat control
-        # ========================================================
+    # ========================================================
+    # Chat control
+    # ========================================================
 
     def _load_chat_history(self):
-            for m in self.assistant.chat_store.load():
-                role = "🧑 You" if m["role"] == "user" else "🤖 Assistant"
-                self.response.insert(tk.END, f"\n{role}:\n{m['content']}\n")
+        for m in self.assistant.chat_store.load():
+            role = "🧑 You" if m["role"] == "user" else "🤖 Assistant"
+            self.response.insert(tk.END, f"\n{role}:\n{m['content']}\n")
 
     def _clear_chat(self):
-            if messagebox.askyesno("Clear chat", "Clear all chat history?"):
-                self.assistant.clear_chat()
-                self.response.delete("1.0", tk.END)
-                self.memory.delete("1.0", tk.END)
-                self.heatmap_box_files.delete("1.0", tk.END)
-                self.heatmap_box_core.delete("1.0", tk.END)
-                self._refresh_pinned_panel()
+        if messagebox.askyesno("Clear chat", "Clear all chat history?"):
+            self.assistant.clear_chat()
+            self.response.delete("1.0", tk.END)
+            self.memory.delete("1.0", tk.END)
+            self.heatmap_box_files.delete("1.0", tk.END)
+            self.heatmap_box_core.delete("1.0", tk.END)
+            self._refresh_pinned_panel()
 
     def _summarize_chat_to_memory(self):
-            summary = self.assistant.summarize_chat_to_memory()
-            messagebox.showinfo(
-                "Memory Core",
-                summary if summary else "Nothing to summarize.",
-            )
+        summary = self.assistant.summarize_chat_to_memory()
+        messagebox.showinfo(
+            "Memory Core",
+            summary if summary else "Nothing to summarize.",
+        )
+
+    def _show_error(self, title: str, exc: Exception, message: str) -> None:
+        traceback.print_exception(type(exc), exc, exc.__traceback__)
+        messagebox.showerror(title, f"{message}\n\n{exc}")
 
 
 if __name__ == "__main__":
