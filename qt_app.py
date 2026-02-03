@@ -21,7 +21,7 @@ class IndexStatusDialog(QtWidgets.QDialog):
 
         self.stage_label = QtWidgets.QLabel("Idle")
         self.file_label = QtWidgets.QLabel("")
-        self.file_label.setStyleSheet("color: #6b7280;")
+        self.file_label.setStyleSheet("color: #9aa4b2;")
 
         self.progress = QtWidgets.QProgressBar()
         self.progress.setRange(0, 0)
@@ -70,14 +70,12 @@ class VectorQtApp(QtWidgets.QMainWindow):
         self.use_memory_core = True
         self.last_debug: dict = {}
 
+        self._apply_font()
         self._build_ui()
         self._load_chat_history()
         self._update_cycle_status()
 
     def _build_ui(self) -> None:
-        font = QtGui.QFont("Segoe UI", 10)
-        self.setFont(font)
-
         central = QtWidgets.QWidget()
         self.setCentralWidget(central)
         root_layout = QtWidgets.QVBoxLayout(central)
@@ -131,7 +129,7 @@ class VectorQtApp(QtWidgets.QMainWindow):
         top_bar.addStretch()
 
         self.cycle_status = QtWidgets.QLabel("🟡 No active cycle")
-        self.cycle_status.setStyleSheet("color: #6b7280;")
+        self.cycle_status.setStyleSheet("color: #9aa4b2;")
         root_layout.addWidget(self.cycle_status)
 
         content_layout = QtWidgets.QGridLayout()
@@ -148,8 +146,8 @@ class VectorQtApp(QtWidgets.QMainWindow):
         ask_btn.clicked.connect(self._ask)
         ask_btn.setFixedWidth(80)
         ask_btn.setStyleSheet(
-            "QPushButton { background: #2d6cdf; color: white; padding: 8px; }"
-            "QPushButton:hover { background: #1f5ab8; }"
+            "QPushButton { background: #2b66d1; color: white; padding: 8px; }"
+            "QPushButton:hover { background: #2458b6; }"
         )
         content_layout.addWidget(ask_btn, 1, 1, alignment=QtCore.Qt.AlignmentFlag.AlignTop)
 
@@ -161,6 +159,13 @@ class VectorQtApp(QtWidgets.QMainWindow):
         self._build_pinned_dock()
         self._build_debug_dock()
         self._apply_styles()
+
+    def _apply_font(self) -> None:
+        font_candidates = ["Aptos", "Aptos (Body)", "Segoe UI", "Inter", "Arial"]
+        available = set(QtGui.QFontDatabase.families())
+        family = next((name for name in font_candidates if name in available), "Segoe UI")
+        font = QtGui.QFont(family, 10)
+        self.setFont(font)
 
     def _build_pinned_dock(self) -> None:
         dock = QtWidgets.QDockWidget("Pinned Files", self)
@@ -242,22 +247,63 @@ class VectorQtApp(QtWidgets.QMainWindow):
 
     def _apply_styles(self) -> None:
         palette = self.palette()
-        palette.setColor(QtGui.QPalette.ColorRole.Window, QtGui.QColor("#f5f7fb"))
-        palette.setColor(QtGui.QPalette.ColorRole.Base, QtGui.QColor("#ffffff"))
-        palette.setColor(QtGui.QPalette.ColorRole.Text, QtGui.QColor("#1f2937"))
+        palette.setColor(QtGui.QPalette.ColorRole.Window, QtGui.QColor("#0f1116"))
+        palette.setColor(QtGui.QPalette.ColorRole.Base, QtGui.QColor("#151a21"))
+        palette.setColor(QtGui.QPalette.ColorRole.AlternateBase, QtGui.QColor("#1b222c"))
+        palette.setColor(QtGui.QPalette.ColorRole.Text, QtGui.QColor("#e5e7eb"))
+        palette.setColor(QtGui.QPalette.ColorRole.WindowText, QtGui.QColor("#e5e7eb"))
+        palette.setColor(QtGui.QPalette.ColorRole.Button, QtGui.QColor("#1b222c"))
+        palette.setColor(QtGui.QPalette.ColorRole.ButtonText, QtGui.QColor("#e5e7eb"))
+        palette.setColor(QtGui.QPalette.ColorRole.Highlight, QtGui.QColor("#4f8cff"))
+        palette.setColor(QtGui.QPalette.ColorRole.HighlightedText, QtGui.QColor("#ffffff"))
         self.setPalette(palette)
 
         text_style = (
             "QTextEdit, QListWidget {"
-            "background: #ffffff;"
-            "border: 1px solid #d5dbe6;"
-            "border-radius: 4px;"
-            "padding: 6px;"
+            "background: #151a21;"
+            "color: #e5e7eb;"
+            "border: 1px solid #2a3240;"
+            "border-radius: 6px;"
+            "padding: 8px;"
+            "}"
+            "QLabel {"
+            "color: #e5e7eb;"
+            "}"
+            "QCheckBox {"
+            "color: #e5e7eb;"
+            "}"
+            "QToolButton, QPushButton {"
+            "background: #1b222c;"
+            "color: #e5e7eb;"
+            "border: 1px solid #2a3240;"
+            "border-radius: 6px;"
+            "padding: 6px 10px;"
+            "}"
+            "QToolButton:hover, QPushButton:hover {"
+            "background: #232c39;"
+            "}"
+            "QToolButton:pressed, QPushButton:pressed {"
+            "background: #2c3645;"
+            "}"
+            "QMenu {"
+            "background: #1b222c;"
+            "color: #e5e7eb;"
+            "border: 1px solid #2a3240;"
+            "padding: 4px;"
+            "}"
+            "QMenu::item:selected {"
+            "background: #2b66d1;"
             "}"
             "QDockWidget::title {"
-            "background: #eef1f6;"
+            "background: #1b222c;"
+            "color: #e5e7eb;"
             "padding: 6px;"
             "font-weight: 600;"
+            "border-bottom: 1px solid #2a3240;"
+            "}"
+            "QStatusBar {"
+            "background: #0f1116;"
+            "color: #9aa4b2;"
             "}"
         )
         self.setStyleSheet(text_style)
