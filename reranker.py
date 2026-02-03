@@ -78,12 +78,13 @@ class Reranker:
     ) -> List[RetrievedItem]:
 
         now = datetime.utcnow()
-        scored: list[tuple[RetrievedItem, RerankScore]] = []
+        scored: list[tuple[RetrievedItem, RerankScore, int]] = []
 
         query_concepts_set = set(query_concepts or [])
 
         for item in items:
             meta: Dict[str, Any] = item.metadata or {}
+            original_rank = item.rank
 
             # ---------------- semantic ----------------
             semantic = float(item.score)
@@ -163,6 +164,7 @@ class Reranker:
                         overview_boost=overview_score,
                         concept_query_boost=concept_query_boost,
                     ),
+                    original_rank,
                 )
             )
 
@@ -170,8 +172,11 @@ class Reranker:
         scored.sort(key=lambda x: x[1].total, reverse=True)
 
         # ---------------- attach debug ----------------
-        for rank, (item, score) in enumerate(scored, start=1):
+        for rank, (item, score, original_rank) in enumerate(scored, start=1):
             item.rank = rank
             item.metadata["rerank"] = score.__dict__
+            item.metadata["rank_before_rerank"] = original_rank
+            if original_rank:
+                item.metadata["rerank_delta"] = original_rank - rank
 
-        return [item for item, _ in scored]
+        return [item for item, _, _ in scored]

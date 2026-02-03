@@ -109,7 +109,7 @@ class Assistant:
         if path in self.context_pinned_files:
             return
 
-        chunks = self.memory_engine.debug_search_files(path, top_k=1000)
+        chunks = self.memory_engine.load_file_chunks(path)
         if not chunks:
             return
 
@@ -448,9 +448,10 @@ class Assistant:
                 # Ranking (post-retrieval ordering only)
                 # -------------------------------------------------
                 "ranking": {
-                    "initial_rank": item.rank,
+                    "initial_rank": metadata.get("rank_before_rerank", item.rank),
                     "rerank_delta": metadata.get("rerank_delta"),
                     "final_position": item.rank,
+                    "rerank_score": metadata.get("rerank"),
                 },
 
                 # -------------------------------------------------

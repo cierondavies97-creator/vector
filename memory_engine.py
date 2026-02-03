@@ -13,6 +13,7 @@ DebugCallback = Callable[[str], None]
 import faiss
 
 from config import AppConfig
+from concepts import infer_semantic_tags
 
 
 # =========================================================
@@ -203,20 +204,45 @@ class MemoryEngine:
 
         return results
 
+    def _load_file_chunk(self, chunk_id: str) -> tuple[str, Dict[str, Any]]:
+        safe = chunk_id.replace(":", "__").replace("/", "__").replace("\\", "__")
+        chunk_file = self.chunk_dir / f"{safe}.txt"
+        meta_path = self.chunk_dir / f"{safe}.meta.json"
+
+        text = (
+            chunk_file.read_text(encoding="utf-8", errors="ignore")
+            if chunk_file.exists()
+            else ""
+        )
+
+        metadata: Dict[str, Any] = {}
+        if meta_path.exists():
+            try:
+                metadata = json.loads(meta_path.read_text())
+            except Exception:
+                metadata = {}
+
+        return text, metadata
+
+    def _apply_semantic_tags(self, *, text: str, metadata: Dict[str, Any]) -> None:
+        heading = metadata.get("heading")
+        section_path = metadata.get("section_path") or []
+        tags = set(metadata.get("tags", []))
+        tags.update(
+            infer_semantic_tags(
+                text=text,
+                heading=heading,
+                section_path=section_path,
+            )
+        )
+        metadata["tags"] = sorted(tags)
+
     def debug_search_files(self, query: str, top_k: int) -> List[RetrievedItem]:
         raw = self.search_files(query, top_k)
 
         out: list[RetrievedItem] = []
         for c in raw:
-            safe = c.id.replace(":", "__").replace("/", "__").replace("\\", "__")
-            meta_path = self.chunk_dir / f"{safe}.meta.json"
-
-            metadata: Dict[str, Any] = {}
-            if meta_path.exists():
-                try:
-                    metadata = json.loads(meta_path.read_text())
-                except Exception:
-                    metadata = {}
+            text, metadata = self._load_file_chunk(c.id)
 
             # ---- explicit retrieval diagnostics (NO inference) ----
             metadata.setdefault("retrieval", {})
@@ -235,12 +261,13 @@ class MemoryEngine:
             if "namespace:file" not in tags:
                 tags.append("namespace:file")
             metadata["tags"] = tags
+            self._apply_semantic_tags(text=text, metadata=metadata)
 
             out.append(
                 RetrievedItem(
                     namespace="file",
                     chunk_id=c.id,
-                    text=c.text,
+                    text=text,
                     score=c.score,
                     source_path=c.source_path,
                     metadata=metadata,
@@ -249,6 +276,46 @@ class MemoryEngine:
             )
 
         return out
+
+    def load_file_chunks(self, source_path: str) -> List[RetrievedItem]:
+        if not self.file_ids:
+            return []
+
+        prefix = f"{source_path}:"
+        matched = [cid for cid in self.file_ids if cid.startswith(prefix)]
+        if not matched:
+            return []
+
+        items: list[RetrievedItem] = []
+        for cid in matched:
+            text, metadata = self._load_file_chunk(cid)
+            chunk_index = metadata.get("chunk_index")
+            if chunk_index is None:
+                try:
+                    chunk_index = int(cid.rsplit(":", 1)[-1])
+                except ValueError:
+                    chunk_index = 0
+
+            tags = list(metadata.get("tags", []))
+            if "namespace:file" not in tags:
+                tags.append("namespace:file")
+            metadata["tags"] = tags
+            self._apply_semantic_tags(text=text, metadata=metadata)
+
+            items.append(
+                RetrievedItem(
+                    namespace="file",
+                    chunk_id=cid,
+                    text=text,
+                    score=1.0,
+                    source_path=source_path,
+                    metadata=metadata,
+                    rank=int(chunk_index) + 1,
+                )
+            )
+
+        items.sort(key=lambda item: item.rank)
+        return items
 
 
     # =====================================================
@@ -340,7 +407,7 @@ class MemoryEngine:
                     f"source:{note.get('source', 'unknown')}",
                 ],
             }
-
+            self._apply_semantic_tags(text=note["text"], metadata=metadata)
 
             out.append(
                 RetrievedItem(
