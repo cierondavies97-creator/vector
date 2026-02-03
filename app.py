@@ -2,6 +2,7 @@ import queue
 import threading
 from pathlib import Path
 import tkinter as tk
+import tkinter.font as tkfont
 from tkinter import filedialog, messagebox, ttk
 
 from assistant import Assistant
@@ -25,15 +26,31 @@ class IndexStatusWindow(tk.Toplevel):
         self.stage = tk.StringVar(value="Idle")
         self.file = tk.StringVar(value="")
 
-        tk.Label(self, textvariable=self.stage).pack(anchor="w", padx=10, pady=5)
+        if hasattr(parent, "theme"):
+            self.configure(background=parent.theme["bg"])
+        body = ttk.Frame(self, padding=12)
+        body.pack(fill=tk.BOTH, expand=True)
 
-        self.progress = ttk.Progressbar(self, length=460)
-        self.progress.pack(padx=10, pady=5)
+        ttk.Label(body, textvariable=self.stage).pack(anchor="w")
 
-        tk.Label(self, textvariable=self.file).pack(anchor="w", padx=10)
+        self.progress = ttk.Progressbar(body, length=460)
+        self.progress.pack(pady=6)
 
-        self.log = tk.Text(self, height=8)
-        self.log.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        ttk.Label(body, textvariable=self.file, style="Muted.TLabel").pack(anchor="w")
+
+        self.log = tk.Text(body, height=8, wrap="word")
+        self.log.pack(fill=tk.BOTH, expand=True, pady=(8, 0))
+        if hasattr(parent, "theme"):
+            self.log.configure(
+                background=parent.theme["panel"],
+                foreground=parent.theme["text"],
+                insertbackground=parent.theme["text"],
+                relief="solid",
+                bd=1,
+                highlightthickness=1,
+                highlightbackground=parent.theme["border"],
+                highlightcolor=parent.theme["accent"],
+            )
 
     def update(self, event: ProgressEvent):
         if not self.winfo_exists():
@@ -60,6 +77,7 @@ class VectorApp(tk.Tk):
 
         self.title("Vector Assistant")
         self.geometry("1450x900")
+        self.minsize(1200, 780)
 
         self.config = AppConfig.load()
         self.memory_engine = MemoryEngine(self.config)
@@ -76,6 +94,7 @@ class VectorApp(tk.Tk):
         self._pin_tag_map: dict[str, dict] = {}
         self._ctx_item: dict | None = None
 
+        self._configure_styles()
         self._build_ui()
         self._load_chat_history()
         self._update_cycle_status()
@@ -83,6 +102,92 @@ class VectorApp(tk.Tk):
     # ========================================================
     # UI
     # ========================================================
+
+    def _configure_styles(self):
+        self.theme = {
+            "bg": "#f5f7fb",
+            "panel": "#ffffff",
+            "text": "#1f2937",
+            "muted": "#6b7280",
+            "border": "#d5dbe6",
+            "accent": "#2d6cdf",
+            "accent_alt": "#1f5ab8",
+        }
+
+        self.configure(background=self.theme["bg"])
+
+        default_font = tkfont.nametofont("TkDefaultFont")
+        default_font.configure(family="Segoe UI", size=10)
+        tkfont.nametofont("TkTextFont").configure(family="Segoe UI", size=10)
+        tkfont.nametofont("TkFixedFont").configure(family="Consolas", size=10)
+        tkfont.nametofont("TkMenuFont").configure(family="Segoe UI", size=10)
+
+        self.style = ttk.Style(self)
+        self.style.theme_use("clam")
+
+        self.style.configure("TFrame", background=self.theme["bg"])
+        self.style.configure("Card.TFrame", background=self.theme["panel"])
+        self.style.configure(
+            "TLabel",
+            background=self.theme["bg"],
+            foreground=self.theme["text"],
+        )
+        self.style.configure(
+            "Muted.TLabel",
+            background=self.theme["bg"],
+            foreground=self.theme["muted"],
+        )
+        self.style.configure(
+            "Card.TLabel",
+            background=self.theme["panel"],
+            foreground=self.theme["text"],
+        )
+        self.style.configure(
+            "TButton",
+            background=self.theme["panel"],
+            foreground=self.theme["text"],
+            padding=(10, 6),
+            relief="flat",
+            borderwidth=0,
+        )
+        self.style.map(
+            "TButton",
+            background=[("active", self.theme["accent"]), ("pressed", self.theme["accent_alt"])],
+            foreground=[("active", "white"), ("pressed", "white")],
+        )
+        self.style.configure(
+            "Primary.TButton",
+            background=self.theme["accent"],
+            foreground="white",
+            padding=(12, 6),
+            relief="flat",
+        )
+        self.style.map(
+            "Primary.TButton",
+            background=[("active", self.theme["accent_alt"]), ("pressed", "#174a99")],
+            foreground=[("active", "white"), ("pressed", "white")],
+        )
+        self.style.configure(
+            "TCheckbutton",
+            background=self.theme["bg"],
+            foreground=self.theme["text"],
+        )
+
+    def _style_text_area(self, widget: tk.Text | tk.Listbox, *, height: int | None = None):
+        if height is not None:
+            widget.configure(height=height)
+        base_style = {
+            "background": self.theme["panel"],
+            "foreground": self.theme["text"],
+            "relief": "solid",
+            "bd": 1,
+            "highlightthickness": 1,
+            "highlightbackground": self.theme["border"],
+            "highlightcolor": self.theme["accent"],
+        }
+        if isinstance(widget, tk.Text):
+            base_style["insertbackground"] = self.theme["text"]
+        widget.configure(**base_style)
 
     def _build_ui(self):
         menubar = tk.Menu(self)
@@ -96,65 +201,83 @@ class VectorApp(tk.Tk):
             command=self._summarize_chat_to_memory,
         )
 
-        top = tk.Frame(self)
-        top.pack(fill=tk.X, padx=8, pady=4)
+        top = ttk.Frame(self, padding=(12, 10, 12, 6))
+        top.pack(fill=tk.X)
 
-        tk.Button(top, text="Choose Directory", command=self._choose_dir).pack(side=tk.LEFT)
-        tk.Button(top, text="Reindex", command=self._reindex).pack(side=tk.LEFT, padx=4)
-        tk.Button(top, text="Cancel Indexing", command=self._cancel).pack(side=tk.LEFT, padx=4)
+        ttk.Button(top, text="Choose Directory", command=self._choose_dir).pack(side=tk.LEFT)
+        ttk.Button(top, text="Reindex", command=self._reindex).pack(side=tk.LEFT, padx=6)
+        ttk.Button(top, text="Cancel Indexing", command=self._cancel).pack(side=tk.LEFT, padx=6)
 
-        tk.Button(top, text="📌 Pin File…", command=self._pin_file_browser).pack(side=tk.LEFT, padx=10)
+        ttk.Button(top, text="📌 Pin File…", command=self._pin_file_browser).pack(side=tk.LEFT, padx=12)
 
-        tk.Checkbutton(top, text="Use Knowledge Base", variable=self.use_memory).pack(side=tk.LEFT, padx=12)
-        tk.Checkbutton(top, text="Use Memory Core", variable=self.use_memory_core).pack(side=tk.LEFT, padx=6)
+        ttk.Checkbutton(top, text="Use Knowledge Base", variable=self.use_memory).pack(side=tk.LEFT, padx=12)
+        ttk.Checkbutton(top, text="Use Memory Core", variable=self.use_memory_core).pack(side=tk.LEFT, padx=6)
 
-        cycle_bar = tk.Frame(self)
-        cycle_bar.pack(fill=tk.X, padx=8, pady=(0, 6))
+        cycle_bar = ttk.Frame(self, padding=(12, 0, 12, 8))
+        cycle_bar.pack(fill=tk.X)
 
         self.cycle_status = tk.StringVar(value="🟡 No active cycle")
-        tk.Label(cycle_bar, textvariable=self.cycle_status, anchor="w").pack(fill=tk.X)
+        ttk.Label(cycle_bar, textvariable=self.cycle_status, anchor="w", style="Muted.TLabel").pack(fill=tk.X)
 
-        main = tk.Frame(self)
-        main.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
+        main = ttk.Frame(self, padding=(12, 8, 12, 12))
+        main.pack(fill=tk.BOTH, expand=True)
+        main.columnconfigure(0, weight=3)
+        main.columnconfigure(1, weight=0)
+        main.columnconfigure(2, weight=2)
+        main.rowconfigure(3, weight=1)
+        main.rowconfigure(5, weight=1)
 
-        tk.Label(main, text="Query").grid(row=0, column=0, sticky="w")
-        self.query = tk.Text(main, height=4)
-        self.query.grid(row=1, column=0, sticky="nsew")
+        ttk.Label(main, text="Query").grid(row=0, column=0, sticky="w", pady=(0, 4))
+        self.query = tk.Text(main, height=4, wrap="word")
+        self.query.grid(row=1, column=0, sticky="nsew", padx=(0, 8))
+        self._style_text_area(self.query)
 
-        tk.Button(main, text="Ask", command=self._ask).grid(row=1, column=1, padx=6)
+        ttk.Button(main, text="Ask", command=self._ask, style="Primary.TButton").grid(
+            row=1,
+            column=1,
+            padx=4,
+            sticky="n",
+        )
 
-        tk.Label(main, text="Response").grid(row=2, column=0, sticky="w")
-        self.response = tk.Text(main)
-        self.response.grid(row=3, column=0, sticky="nsew")
+        ttk.Label(main, text="Response").grid(row=2, column=0, sticky="w", pady=(12, 4))
+        self.response = tk.Text(main, wrap="word")
+        self.response.grid(row=3, column=0, sticky="nsew", padx=(0, 8))
+        self._style_text_area(self.response)
 
-        right = tk.Frame(main)
-        right.grid(row=0, column=2, rowspan=6, sticky="nsew", padx=(8, 0))
+        right = ttk.Frame(main, padding=(12, 0, 0, 0))
+        right.grid(row=0, column=2, rowspan=6, sticky="nsew")
+        right.columnconfigure(0, weight=1)
+        right.rowconfigure(6, weight=1)
 
-        tk.Label(right, text="📌 Pinned Files (Context)").pack(anchor="w")
+        ttk.Label(right, text="📌 Pinned Files (Context)").pack(anchor="w")
         self.pinned_list = tk.Listbox(right, height=8)
-        self.pinned_list.pack(fill=tk.X)
+        self.pinned_list.pack(fill=tk.X, pady=(4, 0))
+        self._style_text_area(self.pinned_list)
 
-        btns = tk.Frame(right)
-        btns.pack(fill=tk.X, pady=4)
+        btns = ttk.Frame(right)
+        btns.pack(fill=tk.X, pady=6)
 
-        tk.Button(btns, text="↑", width=3, command=lambda: self._move_pin(-1)).pack(side=tk.LEFT)
-        tk.Button(btns, text="↓", width=3, command=lambda: self._move_pin(1)).pack(side=tk.LEFT, padx=2)
-        tk.Button(btns, text="Unpin", command=self._unpin_selected).pack(side=tk.LEFT, padx=6)
+        ttk.Button(btns, text="↑", width=3, command=lambda: self._move_pin(-1)).pack(side=tk.LEFT)
+        ttk.Button(btns, text="↓", width=3, command=lambda: self._move_pin(1)).pack(side=tk.LEFT, padx=4)
+        ttk.Button(btns, text="Unpin", command=self._unpin_selected).pack(side=tk.LEFT, padx=8)
 
-        tk.Label(right, text="Injected Context (Debug)").pack(anchor="w", pady=(8, 0))
-        self.memory = tk.Text(right, width=55)
+        ttk.Label(right, text="Injected Context (Debug)").pack(anchor="w", pady=(8, 4))
+        self.memory = tk.Text(right, width=55, wrap="word")
         self.memory.pack(fill=tk.BOTH, expand=True)
+        self._style_text_area(self.memory)
         self.memory.tag_configure("pin", foreground="blue", underline=True)
         self.memory.bind("<Button-1>", self._on_left_click)
         self.memory.bind("<Button-3>", self._on_right_click)
 
-        tk.Label(right, text="Knowledge Heatmap").pack(anchor="w", pady=(6, 0))
-        self.heatmap_box_files = tk.Text(right, height=6)
+        ttk.Label(right, text="Knowledge Heatmap").pack(anchor="w", pady=(10, 4))
+        self.heatmap_box_files = tk.Text(right, height=6, wrap="word")
         self.heatmap_box_files.pack(fill=tk.X)
+        self._style_text_area(self.heatmap_box_files)
 
-        tk.Label(right, text="Memory Heatmap").pack(anchor="w", pady=(6, 0))
-        self.heatmap_box_core = tk.Text(right, height=6)
+        ttk.Label(right, text="Memory Heatmap").pack(anchor="w", pady=(10, 4))
+        self.heatmap_box_core = tk.Text(right, height=6, wrap="word")
         self.heatmap_box_core.pack(fill=tk.X)
+        self._style_text_area(self.heatmap_box_core)
 
         self.context_menu = tk.Menu(self, tearoff=0)
         self.context_menu.add_command(label="📌 Pin / Unpin Item", command=self._ctx_toggle_pin)
